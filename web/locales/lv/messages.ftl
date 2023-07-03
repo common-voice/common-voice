@@ -296,7 +296,7 @@ x-years-short =
         [one] { $count }g
        *[other] { $count }g
     }
-help-make-dataset = Palīdziet izveidot kvalitatīvu, publiski atvērtu datu kopu
+help-make-dataset = Palīdziet izveidot kvalitatīvu, publiski pieejamu datu kopu
 sign-up-account = Reģistrē savu kontu
 email-subscription-title = Piesakieties jaunumiem e-pastā
 email-subscription-title-new = Reģistrējieties Common Voice ziņām, atgādinājumiem par mērķiem un progresa atjauninājumiem
@@ -667,7 +667,7 @@ about-playbook-how-access-dataset-content-2 = Ja meklējat gatavus rīkus, kas i
 
 about-playbook-how-project-governance = Kā tiek pieņemti lēmumi par šo projektu?
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice veido aktīvisti, valodnieki, datu zinātnieki, akadēmiķi un programmatūras inženieri no visas pasaules. Projektu pārvalda Mozilla fonds.
-about-playbook-how-project-governance-content-2 = Mūsu pārvaldība ir balstīta uz šādiem pīlāriem:
+about-playbook-how-project-governance-content-2 = Mūsu pārvaldība ir balstīta uz šādiem principiem:
 about-playbook-how-project-governance-content-3 = Privātums, drošība un pārredzamība.
 about-playbook-how-project-governance-content-4 = Kopienas līdzdalība lēmumu pieņemšanā.
 about-playbook-how-project-governance-content-5 = Vērtība un atzinība.

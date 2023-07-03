@@ -10,10 +10,16 @@ submit-form-action = জমা দিন
 loading = লোড করা হচ্ছে…
 email-opt-in-info = আমি Common Voice সম্পর্কিত ইমেইল যেমন গোল রিমাইন্ডার, আমার অগ্রগতি হালনাগাদ এবং নিউজলেটার পেতে চাই।
 email-opt-in-info-title = কমন ভয়েস মেইল তালিকায় যুক্ত হন
+email-opt-in-info-sub-with-challenge = আমি Common Voice সম্পর্কিত ইমেইল যেমন গোল রিমাইন্ডার, আমার অগ্রগতি হালনাগাদ এবং নিউজলেটার পেতে চাই।
+email-opt-in-privacy-v2 = ইমেইল গ্রহণ করার অনুমতি দিয়ে আপনি মজিলাকে, আপনার এই তথ্য ব্যবস্থাপনা করতে সম্মত দিচ্ছেন, যেমনটা মজিলার <privacyLink> গোপনীয়তা নীতিতে <privacyLink> ব্যাখ্যা করা হয়েছে।
 indicates-required = * প্রয়োজনীয় ক্ষেত্র নির্দেশ করে
 not-available-abbreviation = প্রযোজ্য নয়
 banner-error-slow-1 = দুঃখিত, Common Voice একটু ধীরে চলছে। আপনার আগ্রহের জন্য ধন্যবাদ।
+banner-error-slow-2 = আমরা প্রচুর ট্রাফিক পাচ্ছি এবং বর্তমানে সমস্যা সমূহ তদন্ত করছি৷
+banner-error-slow-link = স্ট্যাটাস পেজ
 error-something-went-wrong = দুঃখিত, কোন একটা সমস্যা হয়েছে
+error-clip-upload = এই ক্লিপটি আপলোড করা ব্যর্থ হচ্ছে, চেষ্টা চালিয়ে যেতে চাইছেন?
+error-clip-upload-server = সার্ভারে এই ক্লিপটি আপলোড বারংবার ব্যর্থ হচ্ছে। পেজ রিলোড করুন অথবা পরে আবার চেষ্টা করুন৷
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -28,26 +34,35 @@ af = আফ্রিকান্স
 am = আমহারিক
 an = আর্গোনিজ
 ar = আরবি
+arn = মাপুচি
 as = অসমীয়া
 ast = আস্তুরিয়
 az = আজারবাইজানীয়
 ba = বাস্কির
+bas = বাসা
 be = বেলারুশীয়
 bg = বুলগেরীয়
+bm = বামবারা
 bn = বাংলা
+bo = তিব্বতীয়
 br = ব্রেটন
 bs = বসনীয়
 bxr = বুরিয়াত
+byv = মেদুম্বা
 ca = কাতালান
 cak = কাকসিকেল
+ckb = মধ্য কুর্দি
 cnh = হাখা চিন
+co = কর্সিকান
 cs = চেক
 cv = চুবাস
 cy = ওয়েলশ
 da = ড্যানিশ
+dag = দাগবানি
 de = জার্মান
 dsb = সোর্বীয়, নিন্ম
 dv = দিভেহি
+dyu = দিউলা
 el = গ্রিক
 en = ইংরেজি
 eo = এস্পেরান্তো
@@ -657,6 +672,9 @@ share-title-new = <bold>আমাদের সাহায্য করুন</b
 login-to-get-started = শুরু করতে লগ ইন করুন বা সাইন আপ করুন
 target-segment-learn-more = আরও জানুন
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = অভিযোগ করুন
@@ -895,3 +913,4 @@ sc-howto-review-subtitle = বাক্যগুলো যেন নিজের
 
 # [/SentenceCollector]
 
+sentence-collection = বাক্য সংগ্রহ

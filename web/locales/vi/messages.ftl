@@ -118,6 +118,7 @@ lij = Ligurian
 ln = Lingala
 lo = Lào
 lt = Litva
+ltg = Latgalian
 lv = Latvia
 mai = Maithili
 mdf = Moksha
@@ -1725,8 +1726,6 @@ reviewing-sentences-explanation-1 = Nếu câu đáp ứng các tiêu chí trên
 reviewing-sentences-explanation-2 = Nếu câu không đáp ứng các tiêu chí trên, hãy nhấp vào nút "Không".
 reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu đó, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
 reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
-community-announcement-header = Thông báo cộng đồng!
-community-announcement-explanation = Hướng dẫn bên dưới dành cho các tính năng thu thập câu mới, sẽ được tích hợp vào nền tảng Common Voice cốt lõi trong suốt tháng 3 và tháng 4 năm 2023. Trong thời gian chờ đợi, bạn có thể sử dụng công cụ trước đó, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = một câu trong phạm vi công cộng
 write-page-subtitle = Các câu được đóng góp ở đây sẽ được thêm vào bộ dữ liệu được cấp phép cc-0 có sẵn công khai.

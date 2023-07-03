@@ -118,6 +118,7 @@ lij = Liguryanca
 ln = Lingala
 lo = Lao
 lt = Litvanca
+ltg = Latgalce
 lv = Letonca
 mai = Maithili
 mdf = Mokşa

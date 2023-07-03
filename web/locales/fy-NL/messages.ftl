@@ -118,6 +118,7 @@ lij = Ligurysk
 ln = Lingala
 lo = Laotiaansk
 lt = Litousk
+ltg = Letgaalsk
 lv = Letsk
 mai = Maithili
 mdf = Moksja
@@ -1766,8 +1767,6 @@ reviewing-sentences-explanation-1 = As de sin oan de boppesteande kritearia fold
 reviewing-sentences-explanation-2 = As de sin net oan de boppesteande kritearia foldocht, klik dan op de knop ‘Nee’.
 reviewing-sentences-explanation-3 = As jo net wis binne oer de sin, kinne jo it ek oerslaan en trochgean nei de folgjende.
 reviewing-sentences-explanation-4 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
-community-announcement-header = Mienskipsoankundiging!
-community-announcement-explanation = De ûndersteande rjochtlinen binne foar de sammelfunksjes foar nije sinnen, dy’t yn maart en april 2023 yn it Common Voice-kearnplatfoarm yntegrearre wurde sille. Yn de tuskentiid kinne jo it foarige helpmiddel brûke, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = in sin út it publike domein
 write-page-subtitle = Sinnen dy’t hjir bydroegen wurde sille tafoege wurde oan in publyklik beskikbere cc-0 lisinsearre dataset.

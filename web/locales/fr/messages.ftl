@@ -118,6 +118,7 @@ lij = Ligure
 ln = Lingala
 lo = Lao
 lt = Lituanien
+ltg = Latgalien
 lv = Letton
 mai = Maïthili
 mdf = Mokcha
@@ -1660,8 +1661,6 @@ reviewing-sentences-explanation-1 = Si la phrase répond aux critères ci-dessus
 reviewing-sentences-explanation-2 = Si la phrase ne répond pas aux critères ci-dessus, cliquez sur le bouton « Non ».
 reviewing-sentences-explanation-3 = Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 reviewing-sentences-explanation-4 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
-community-announcement-header = Annonce pour la communauté !
-community-announcement-explanation = Les conseils ci-dessous concernent les nouvelles fonctionnalités du collecteur de phrases, qui seront intégrées à la plateforme Common Voice entre mars et avril 2023. En attendant, vous pouvez utiliser l’ancien outil, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = une phrase du domaine public
 write-page-subtitle = Les phrases fournies ici seront ajoutées à un jeu de données public sous licence cc-0.

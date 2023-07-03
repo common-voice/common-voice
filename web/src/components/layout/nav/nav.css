@@ -33,6 +33,7 @@
             margin: 0 auto;
             max-width: var(--desktop-width);
             padding: 0 4rem;
+            overflow-x: scroll;
 
             @media (--sm-down) {
                 padding: 0;
@@ -63,6 +64,7 @@
                 background: var(--desert-storm);
                 padding: 12px;
                 flex-wrap: wrap;
+                flex-shrink: 0;
                 height: 100%;
 
                 @media (--lg-down) {

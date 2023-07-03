@@ -251,9 +251,11 @@ export default class Server {
       await scrubUserActivity();
       await importLocales();
 
-      if (doImport) {
-        await importSentences(await this.model.db.mysql.createPool());
-      }
+      // We do not need to import sentences from files anymore, since users can
+      // directly add sentences on the CV platform now.
+      // if (doImport) {
+      //   await importSentences(await this.model.db.mysql.createPool());
+      // }
 
       await importTargetSegments();
       this.print('Maintenance complete');

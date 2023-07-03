@@ -168,6 +168,22 @@ let LocalizedPage: any = class extends React.Component<
     }
   }
 
+  shouldRedirectToRoot({
+    isContributable,
+    route,
+  }: {
+    isContributable: boolean
+    route: string
+  }) {
+    if (isContributable && (route === URLS.SPEAK || route === URLS.LISTEN)) {
+      return false
+    } else if (route === URLS.WRITE || route === URLS.REVIEW) {
+      return false
+    }
+
+    return true
+  }
+
   render() {
     const { locale, notifications, toLocaleRoute, location, languages } =
       this.props
@@ -222,12 +238,12 @@ let LocalizedPage: any = class extends React.Component<
               exact
               path={toLocaleRoute(route)}
               render={props =>
-                isContributable ? (
+                this.shouldRedirectToRoot({ isContributable, route }) ? (
+                  <Redirect to={toLocaleRoute(URLS.ROOT)} />
+                ) : (
                   <Layout shouldHideFooter>
                     <Component {...props} />
                   </Layout>
-                ) : (
-                  <Redirect to={toLocaleRoute(URLS.ROOT)} />
                 )
               }
             />

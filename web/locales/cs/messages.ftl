@@ -118,6 +118,7 @@ lij = Ligurština
 ln = Lingalština
 lo = Laoština
 lt = Litevština
+ltg = Latgalština
 lv = Lotyština
 mai = Maithilština
 mdf = Mókša

@@ -1,8 +1,8 @@
-import { Localized } from '@fluent/react';
-import classNames from 'classnames';
-import React from 'react';
+import { Localized } from '@fluent/react'
+import classNames from 'classnames'
+import React from 'react'
 
-import { LocaleNavLink } from '../../locale-helpers';
+import { ContributableLocaleLock, LocaleNavLink } from '../../locale-helpers'
 import {
   EditIcon,
   ListenIcon,
@@ -26,26 +26,32 @@ export const SecondaryNav: React.FC<SecondaryNavProps> = ({
   <div className="secondary-nav">
     <MenuIcon onClick={handleSecondaryNavMobileMenuClick} />
     <div className="options">
-      <div
-        className={classNames({
-          'selected-option': location.pathname.includes(URLS.SPEAK),
-        })}>
-        <MicIcon />
-        <Localized id="speak">
-          <LocaleNavLink to={isDemoMode ? URLS.DEMO_SPEAK : URLS.SPEAK} />
-        </Localized>
-        {location.pathname.includes(URLS.SPEAK) && <span className="border" />}
-      </div>
-      <div
-        className={classNames({
-          'selected-option': location.pathname.includes(URLS.LISTEN),
-        })}>
-        <ListenIcon />
-        <Localized id="listen">
-          <LocaleNavLink to={isDemoMode ? URLS.DEMO_LISTEN : URLS.LISTEN} />
-        </Localized>
-        {location.pathname.includes(URLS.LISTEN) && <span className="border" />}
-      </div>
+      <ContributableLocaleLock>
+        <div
+          className={classNames({
+            'selected-option': location.pathname.includes(URLS.SPEAK),
+          })}>
+          <MicIcon />
+          <Localized id="speak">
+            <LocaleNavLink to={isDemoMode ? URLS.DEMO_SPEAK : URLS.SPEAK} />
+          </Localized>
+          {location.pathname.includes(URLS.SPEAK) && (
+            <span className="border" />
+          )}
+        </div>
+        <div
+          className={classNames({
+            'selected-option': location.pathname.includes(URLS.LISTEN),
+          })}>
+          <ListenIcon />
+          <Localized id="listen">
+            <LocaleNavLink to={isDemoMode ? URLS.DEMO_LISTEN : URLS.LISTEN} />
+          </Localized>
+          {location.pathname.includes(URLS.LISTEN) && (
+            <span className="border" />
+          )}
+        </div>
+      </ContributableLocaleLock>
       <div
         className={classNames({
           'selected-option': location.pathname.includes(URLS.WRITE),

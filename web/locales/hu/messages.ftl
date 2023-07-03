@@ -118,6 +118,7 @@ lij = Ligur
 ln = Lingala
 lo = Lao
 lt = Litván
+ltg = Latgal
 lv = Lett
 mai = Maithili
 mdf = Moksa
@@ -1692,8 +1693,6 @@ reviewing-sentences-explanation-1 = Ha a mondat megfelel a fenti feltételeknek,
 reviewing-sentences-explanation-2 = Ha a mondat nem felel meg a fenti feltételeknek, kattintson a „Nem” gombra.
 reviewing-sentences-explanation-3 = Ha nem biztos a mondattal kapcsolatban, ki is hagyhatja, és továbbugorhat a következőre.
 reviewing-sentences-explanation-4 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében.
-community-announcement-header = Közösségi bejelentés!
-community-announcement-explanation = Az alábbi útmutatás az új mondatgyűjtő funkciókra vonatkozik, amelyek 2023 márciusában és áprilisában a központi Common Voice platformba integrálódnak. Addig is, használhatja a korábbi eszközt: <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = egy közkincsű mondat
 write-page-subtitle = Az itt beküldött mondatok egy nyilvánosan elérhető, cc-0 licenc alatt közzétett adatkészlethez adódnak.

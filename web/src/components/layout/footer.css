@@ -42,7 +42,7 @@ footer {
     }
 
     & .divider {
-        border-right: 2px solid darkgrey;
+        border-inline-end: 2px solid darkgrey;
         height: 2.5rem;
 
         @media (--md-up) {
@@ -92,13 +92,13 @@ footer {
         @media (--xl-up) {
             flex-direction: column;
             min-width: 9rem;
-            margin-right: 8rem;
+            margin-inline-end: 8rem;
             margin-top: 0;
         }
 
         & .Logo {
             font-size: 1rem;
-            padding-right: 4rem;
+            padding-inline-end: 4rem;
         }
 
         & .Logo,
@@ -142,7 +142,7 @@ footer {
 
         @media (--xl-up) {
             max-width: 18rem;
-            margin-right: 4rem;
+            margin-inline-end: 4rem;
             margin-top: 0;
             padding: 0;
         }
@@ -157,7 +157,7 @@ footer {
         }
 
         & .divider-vertical {
-            border-right: 1px solid hsl(0deg, 0%, 20%);
+            border-inline-end: 1px solid hsl(0deg, 0%, 20%);
             height: 4.1rem;
         }
     }

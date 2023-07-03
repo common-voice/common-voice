@@ -118,6 +118,7 @@ lij = Ligurisch
 ln = Lingala
 lo = Laotiaans
 lt = Litouws
+ltg = Letgaals
 lv = Lets
 mai = Maithili
 mdf = Moksja
@@ -1757,8 +1758,6 @@ reviewing-sentences-explanation-1 = Als de zin aan de bovenstaande criteria vold
 reviewing-sentences-explanation-2 = Als de zin niet aan de bovenstaande criteria voldoet, klik dan op de knop ‘Nee’.
 reviewing-sentences-explanation-3 = Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
 reviewing-sentences-explanation-4 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
-community-announcement-header = Mededeling van de gemeenschap!
-community-announcement-explanation = De onderstaande richtlijnen zijn voor de verzamelfuncties voor nieuwe zinnen, die in maart en april 2023 in het Common Voice-kernplatform zullen worden geïntegreerd. In de tussentijd kunt u het vorige hulpmiddel gebruiken, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = een zin uit het publieke domein
 write-page-subtitle = Zinnen die hier zijn bijgedragen worden toegevoegd aan een openbaar beschikbare cc-0 gelicenseerde dataset.

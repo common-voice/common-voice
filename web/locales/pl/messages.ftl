@@ -116,6 +116,7 @@ lij = liguryjski
 ln = lingala
 lo = laotański
 lt = litewski
+ltg = łatgalski
 lv = łotewski
 mai = maithili
 mdf = moksza

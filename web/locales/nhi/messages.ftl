@@ -1,15 +1,22 @@
 ## General
 
-yes-receive-emails = Quemah, xinechimualtitlani correos. Onicniquisquiaya nicmatis ica in tlanimilil Common Voice.
-stayintouch = Ich Mozilla secchiutoc se nichicomasehual campa tipostl notzani. Otechpactisquia timitzmatiltisqueh ica in  tepanoltilistl, yancuic nemilis ica tlahcuilol uan secmatis cachi queni teh tiquintiquitiltia necateh datos.
+yes-receive-emails = Quemah, xinechiualtitlani correos. Onicniquisquiaya nicmatis ica in tlanimilil Common Voice.
+stayintouch = Ich Mozilla secchiutoc se nichicomasehual campa tipostl notzani. Otechpactisquia timitzmatiltisque ica in  tepanoltilistl, yancuic nemilis ica tlahcuilol uan secmatis cachi queni teh tiquintiquitiltia necateh datos.
 return-to-cv = Ximocuipa campa Common Voice
 email-input =
     .label = Correo
 submit-form-action = Xictitlani
 loading = Yehyecohtoc...
+email-opt-in-info = Onicniquisquiaya nicsilis correos electronicos queme ilnamiquilistl ipan tlanimilil, tepanoltilistl ica noiscaltilis uan se tlahtol tenonotza ica Common Voice
+email-opt-in-info-title = Ximonilo ica in tlahcuilol correo ica Common Voice
+email-opt-in-info-sub-with-challenge = Xicsili correos ica ilnamiquilistl ipan tlanimilil, tepanultilistl ica nu iscaltilistl huan totlahtol nohnotza ica Common Voice.
+email-opt-in-privacy-v2 = Ticsilisque correos secmati ticcahua Mozilla ica sequicuis tlanonotzal quemeh moihtoua ich in </privacyLink>  iichtacatlahtol </privacyLink> Mozilla.
+indicates-required = * Quinextia se tlacauil techihualtia
+banner-error-slow-1 = Xitechtlapohpolui, Common Voice quichiutoc yolic. tlasohcamatictzin ica mochicaualis.
+banner-error-slow-2 = Ticsilihtoqueh miac tráfico uan axan tiquintemohtoqueh tlauel.
 error-something-went-wrong = Xitechtlapohpolui, amo oquis cuali.
-error-clip-upload = y yehyeculis nicancah clip ayamo cualtia, ocxic yehyeco
-error-clip-upload-server = y yehyeculis nicancah clip ayamo cualtia ichin servidor, ocsipa xic yehyecolti pagina o xic yehyeco ocsipa cachi tlahcah
+error-clip-upload = yehyeculis nicanca clip ayamo cualtia, ocxic yehyeco
+error-clip-upload-server = yehyeculis nicancah clip ayamo cualtia ichin servidor, ocsipa xic yehyecolti pagina o  xicyeyecolti cahi tlahca
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -213,45 +220,46 @@ zza = Zaza
 
 speak = xitlahto
 speak-now = xitlahto axan
-datasets = amatl tlanahuatil
-languages = tlahtulmeh
+datasets = amatl tlanaoatil
+languages = tlahtolmeh
 about = ica Common Voice
-partner = nuyolchicauhca
-profile = nexicah
-help = xinechpalehui
-contact = nuhnutza
+partner = noyolchicauca
+profile = nexica
+help = xinechpaleui
+contact = nonotza
 privacy = ichtaca
 faq = tlahtlanil simi
-share-title = ¡xitechpalehui matiehcuca a cachi masehual aquihquen qui niquisqueh qui tetlaculisqueh in tlahtol!
+share-title = ¡xitechpalehui matiehcuca a cachi masehual aquihquen quiniquisqueh  tetlaculisqueh in tlahtol!
 share-text = xitechpalehui tiquinnextilisque tiposmeh quenin tlahtuhuan masehualmeh, xictetlaoculi mu tlahtol ichin { $link }
 back-top = ximocuipa campa pehua
 logout = sectzacuas sesión
 
 ## Home Page
 
-home-title = tiquitl common Voice se pehualis de Mozilla ika sequin nextilis quenin monextilisqueh tiposmeh quenin tlahtuhuan masehualmeh
+home-title = tiquitl common Voice se pehualis de Mozilla ica sequinpaleuis  monextilisqueh tiposmeh quenin tlahtuhuan masehualmeh
+default-tagline = Ich Mozilla Common Voice ticniqueh tiquinpaleuisqueh mo quinnextilican  tiposmeh queni tlahtoah in maseoalmeh.
 home-cta = Xitlahto, ¡Xitechpaleui nican!
-wall-of-text-start = tlahtol isqui milahuak, tlahtol isqui masehual. Icanun se pactoc sek chihuas se tipostl tlahtol para tu maquinas. Axan para sec chihuas se tiquitl tlahtol, se puhuali simi hueyi ika nextililtlahtol muniqui
-wall-of-text-more-desktop = axcan huilis tik tetlaculis mu tlahtol ika ti tech palehuis tic chihuaskeh se ikxitlanahuatil ika tlahtol ichtaca tlapuhtok aquinyihuili huili quicuis ika qui chihchihuas aplicaciones yankuic para tipusmeh huan web.<lineBreak></lineBreak>xiquita se tlahcuilol ika niquin palehuis mu nextilican tiposmeh quenin tlahtuhuan masehualmeh.xiquita tiquitl de ocsiquen tlapalehuaneh ika sek yectlalis tiquitl. ¡auhcon amosimi uhue!
-wall-of-text-first = tlahtol yeh milahuac, tlahtol yeh masehual. Icanun ti pactukeh u sec chihchiuh se tipostlahtol maccuican tu tiposhuan. para sec chihuas se nimilis tlahtol, aquihquen qui chihchihuan quicueh miakeh tlanahuatil tlahtol
-wall-of-text-second = miakeh tlanahuatilmeh tlen mucueh por huehueyeh tiquimeh amo  catqui tlapuhtoc para nuchten masehualmeh. usecnimile nin quitzacuilia tutlanimilil. Icanun usec titlan Common Voice, se tiquitl para tic palehuisqueh moc chihchihuacah que ixmatilistlahtol mui tlapuhtoc huan mucahsicah nuchteh
+wall-of-text-start = tlahtol isqui milahuak, tlahtol isqui masehoal. Icanun se pactoc sek chihuas se tipostl tlahtol para tu maquinas. Axan para sec chihuas se tiquitl tlahtol, se puhuali simi hueyi ika nextililtlahtol muniqui
+wall-of-text-more-desktop = axan huilis titetlaculis mu tlahtol ica titech palehuis ticchiuasque se icxitlanahuatil ica tlahtol ichtaca tlapohtoc aquinyahuili huilisquicuis ica quichichihuas aplicaciones yancuic para tipusmeh huan web.<lineBreak></lineBreak>xiquita se tlahcuilol ica niquin palehuis mu nextilican tiposmeh quenin tlahtuhuan masehualmeh. Xiquita tiquitl de ocsiquen tlapalehuaneh ica secyectlalis tiquitl. ¡uhcon amo uhue!
+wall-of-text-first = tlahtol yeh milahuac, tlahtol yeh masehual. Icanun ti pactuqueh usecchihchiuh se tipostlahtol maccuican tu tiposhuan. para sec chihuas se nimilis tlahtol, aquihquen qui chihchihuan quicueh miakeh tlanahuatil tlahtol
+wall-of-text-second = miaqueh tlanahuatilmeh tlen mucueh por huehueyeh tiquimeh amo  catqui tlapuhtoc para nochten masehualmeh. usecnimile nin quitzacuilia tutlanimilil. Icanon usectitlan Common Voice, se tiquitl para ticquinpalehuisqueh moc chihchihuacah que ixmatilistlahtol mui tlapuhtoc huan mucahsicah nuchteh
 show-wall-of-text = ximomachti cachi
 help-us-title = xitechpalehui matiquitacah tlahtol
-help-us-explain = xipacho mupehua, xicaqui huan techilhuis: ¿ ukihtuhke cuali tlahtol tlen achto?
-no-clips-to-validate = muta amo catqui grabaciones para sec caquis icanin masehualtlahtol. Xitechpalehui matic temitiskeh  lista grabando sansique axan
-vote-yes = quemah
+help-us-explain = xicpacho mopehua, xicaqui huan techilhuis: ¿ ukihtuhke cuali tlahtol tlen achto?
+no-clips-to-validate = nismati amocatqui tlahtolahcuctoc para seccaquis icanin masehualtlahtol. Xitechpalehui tictemitiskeh  lista tlahtolahcuctusqueh sansique axan
+vote-yes = quema
 vote-no = amo
-toggle-play-tooltip = xipacho { shortcut-play-toggle } para sec xotlaltis mu pehua
-speak-subtitle = xitetlaoculi mu tlahtol
+toggle-play-tooltip = xipacho { shortcut-play-toggle } para secxotlaltis  mu pehua
+speak-subtitle = xitetlaocoli mu tlahtol
 speak-paragraph = tlahtolahcucui tlahtulmeh para tic chihuas tu base de datos tlapuhtoc; sansiqueh quihtusque nuyuhqui nicancah ahuiltil
 speak-goal-text = tlahcuilol tlahtolahcuctoc
-listen-subtitle = xitechpalehui matic silicah tlahtulmeh
-listen-paragraph = sequinsilis siqueh tlahtulmeh tetlaoculil simi muniqui para tiquitl de Common Voice. Xicaqui huan xitech palehui maticchihuacan tlanunutztlahtol tlapuhtok huan tlen cachi cuahcual
+listen-subtitle = xitechpalehui maticsilicah tlahtulmeh
+listen-paragraph = sequinsilis siqueh tlahtulmeh tetlaoculil simi muniqui para tiquitl de Common Voice. Xicaqui huan xitechpalehui maticchihuacan tlanunutztlahtol tlapuhtok huan tlen cachi cuahcual
 voices-online = tlahtulmeh tlen axa catqui  en lìnea
 todays-progress = nimilis de axan
 help-reach-goal = xitechpalehui matic chihuacan
 read-terms-q = yutiquin machteh condiciones de quenin ticuis servicio?
-ready-to-record = ¿yiticah cuali para tic tetlauculis mu tlahtol?
+ready-to-record = ¿yiticah cuali para tictetlaocolis mu tlahtol?
 all-locales = Nochi
 today = Axan
 x-weeks-short =
@@ -269,27 +277,27 @@ x-years-short =
         [one] xiuitl
        *[other] xiumeh
     }
-help-make-dataset = xitechpalehui matic chihuacah tlapalehuil amatl de  huehcapan cuahcual huan mucahsi para nuchin tlalticpac
+help-make-dataset = xitechpalehui maticchihuacah tlapalehuil amatl de  huehcapan cuahcual huan mucahsi para nuchin tlalticpac
 sign-up-account = ximoihcuilo para tic silis se cuenta
-email-subscription-title = ximoihcuilo para tic silis yancuik tlahtol ichin mu correo
+email-subscription-title = ximoihcuilo para tic silis yancuic tlahtol ichin mu correo
 email-subscription-title-new = ximuihcuilo ichin boletin de tlanahuatil, ichin ilnamiquilis huan yancuic nemilis de Common Voice
 
 ## Account Benefits
 
 benefits = tlapalehuilis
 rich-data = yehyeco tlen tlanahuatil tlen ticnaltitlantoc moican nuchten, xictemaca tlanahuatil demográficos ichtaca. Nuchten necateh tlanahuatilmeh panusqueh ichtaca achton mu ixnexticah
-improve-audio = tlanahuatil den perfil mu yectlalis ican tlanahuatil tlahtol tlen mucui campa se mu nextilia ican cuali ixmatiliz tlahtol
-keep-track = xicpia se tlahcuilol ica mu nemilis huan métricas ica miak tlahtol
-compare-progress = xiquita mu nimilis ika tlen de ocsiquen tlapalehuaneh ichi nuchi tlalticpac
+improve-audio = tlanahuatil den perfil muyectlalis ican tlanahuatil tlahtol tlen mucui campa semunextilia ican cuali ixmatiliz tlahtol
+keep-track = xicpia se tlahcuilol ica mu nemilis huan métricas ica miac tlahtol
+compare-progress = xiquita mu nimilis ica tlen de ocsiquen tlapalehuaneh ichi nuchi tlalticpac
 view-goals = xiquita mu nemilis ica mu tiquitl sesiahcah huan de mu tiquiuh
-join-newsletter = nuhual huilis timu nilos ichin tu tlahcuilol correo electronico para tic silis yancuic huan tlahtol ikan tiquitl
+join-newsletter = noyohqui huilis timunilos ichin tu tlahcuilol correo electronico para tic silis yancuic huan tlahtol ican tiquitl
 
 ## What's public
 
 whats-public = ¿tlenon mu chihua iixpan masehualmeh?
-email-not-public = amo secnextis mu correo electrònico
-recordings-and-locale-public = puhual den tlahtolahcuctok huan tlahtulmeh campa titech palehuia quemah mu nextis
-username-optin-public = huilis tic nextis tla se tocayo nextilis o ichtaca
+email-not-public = amo secnextis mu correo electrónico
+recordings-and-locale-public = puhual tlen tlahtolahcuctok huan tlahtulmeh campa titechpalehuia quemah mu nextis
+username-optin-public = huilis ticnextis tla se tocayo nextilis o ichtaca
 username-email-not-demographic = mu tocayo de ususario huan correo electronico munilusqueh ica tlanahuatil tlen yumunextihqueh
 
 ## Speak & Listen Shortcuts
@@ -301,18 +309,18 @@ shortcut-play-toggle-label = nihnimilti/tzacuili
 
 ## Speak Shortcuts
 
-shortcut-record-toggle-label = tlahtolahcucui/xicmana
-shortcut-rerecord-toggle-label = xi tlahtolahcucui ocsipa clip
-shortcut-discard-ongoing-recording-label = xiquixpulo grabacion tlen ticchiuhtok
+shortcut-record-toggle-label = tlahtolahcucui/ tzacuili
+shortcut-rerecord-toggle-label = xi tlahtolahcocui ocsipa clip
+shortcut-discard-ongoing-recording-label = xiquixpulo grabacion tlen ticchiuhtoc
 shortcut-submit = Xiualmocuipa
 shortcut-submit-label = xiquinaltitlani grabaciones
 request-language-text = ¿Ayamo ti cahsi mu tlahtol ich Common Voice?
-request-language-button = xictlahtlani mu tlahtol
+request-language-button = xictlahtlani se tlahtol
 
 ## ProjectStatus
 
 status-title = quenin catqui totiquiuh: xiquita tlen huehca yu ti ehcuqueh!
-status-contribute = xitechpalehui ica mu tlahtol
+status-contribute = xitechpaleui ica mu tlahtol
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = ocse tiquitl: { $goal }
@@ -328,10 +336,10 @@ profile-form-additional-language =
 profile-form-language =
     .label = Tlahtol
 profile-form-variant =
-    .label = ¿tlen variante { $language } tiktlahtuhua?
+    .label = ¿tlen variante { $language } tictlahtuhua?
 profile-form-variant-default-value = amo cah variante tlen u mu nexte
 profile-form-accent =
-    .label = chicahuak tlahtol
+    .label = chicahuac tlahtol
 profile-form-custom-accent-help-text =
     .label = ¿quenin tic nextis mu acento?
 profile-form-custom-accent-placeholder-2 = xipehua xi tlahcuilo para tic nextis mu acento

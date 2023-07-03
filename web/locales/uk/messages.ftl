@@ -118,6 +118,7 @@ lij = Лігурійська
 ln = Лінгала
 lo = Лаоська
 lt = Литовська
+ltg = Латгальська
 lv = Латвійська
 mai = Майтхілі
 mdf = Мокшанська
@@ -1793,8 +1794,6 @@ reviewing-sentences-explanation-1 = Якщо речення відповідає
 reviewing-sentences-explanation-2 = Якщо речення не відповідає наведеним критеріям, натисніть кнопку «Ні».
 reviewing-sentences-explanation-3 = Якщо ви не впевнені щодо речення, ви також можете пропустити його та перейти до наступного.
 reviewing-sentences-explanation-4 = Якщо у вас закінчилося речення для розгляду, допоможіть нам зібрати більше речень!
-community-announcement-header = Оголошення спільноти!
-community-announcement-explanation = Наведені далі вказівки стосуються нових функцій збирача речень, які будуть вбудовані до нової платформи Common Voice протягом березня та квітня 2023 року. Тим часом ви можете використовувати попередній інструмент, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = речення суспільного надбання
 write-page-subtitle = Надані тут речення буде додано до загальнодоступного набору даних з ліцензією cc-0.

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Localized } from '@fluent/react';
 import classNames from 'classnames';
 
-import { LocaleLink } from '../../locale-helpers';
+import { ContributableLocaleLock, LocaleLink } from '../../locale-helpers';
 import { EditIcon, ListenIcon, MicIcon, ReviewIcon } from '../../ui/icons'
 import URLS from '../../../urls'
 
@@ -24,34 +24,36 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
 
   return (
     <div className={className}>
-      <div>
-        <Localized id="contribute-voice-collection-nav-header">
-          <p className="nav-header-item" />
-        </Localized>
-        <ul>
-          <li
-            className={classNames({
-              'selected-option': speakActive,
-            })}>
-            <MicIcon />
-            <LocaleLink to={URLS.SPEAK} className="contribute-link">
-              <Localized id="speak" />
-            </LocaleLink>
-            {speakActive && <span className="border" />}
-          </li>
-          <li
-            className={classNames({
-              'selected-option': listenActive,
-            })}>
-            <ListenIcon />
-            <LocaleLink to={URLS.LISTEN} className="contribute-link">
-              <Localized id="listen" />
-            </LocaleLink>
-            {listenActive && <span className="border" />}
-          </li>
-        </ul>
-      </div>
-      <div className="vertical-line" />
+      <ContributableLocaleLock>
+        <div>
+          <Localized id="contribute-voice-collection-nav-header">
+            <p className="nav-header-item" />
+          </Localized>
+          <ul>
+            <li
+              className={classNames({
+                'selected-option': speakActive,
+              })}>
+              <MicIcon />
+              <LocaleLink to={URLS.SPEAK} className="contribute-link">
+                <Localized id="speak" />
+              </LocaleLink>
+              {speakActive && <span className="border" />}
+            </li>
+            <li
+              className={classNames({
+                'selected-option': listenActive,
+              })}>
+              <ListenIcon />
+              <LocaleLink to={URLS.LISTEN} className="contribute-link">
+                <Localized id="listen" />
+              </LocaleLink>
+              {listenActive && <span className="border" />}
+            </li>
+          </ul>
+        </div>
+        <div className="vertical-line" />
+      </ContributableLocaleLock>
       <div>
         <Localized id="contribute-sentence-collection-nav-header">
           <p className="nav-header-item" />

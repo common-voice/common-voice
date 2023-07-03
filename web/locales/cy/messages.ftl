@@ -118,6 +118,7 @@ lij = Ligurieg
 ln = Lingala
 lo = Lao
 lt = Lithiuanieg
+ltg = Latgalieg
 lv = Latfieg
 mai = Maithili
 mdf = Moksha
@@ -1782,8 +1783,6 @@ reviewing-sentences-explanation-1 = Os yw'r frawddeg yn cwrdd â'r meini prawf, 
 reviewing-sentences-explanation-2 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch ar y botwm "Na".
 reviewing-sentences-explanation-3 = Os ydych chi'n ansicr am y frawddeg, gallwch chi ei hepgor a symud ymlaen i'r un nesaf.
 reviewing-sentences-explanation-4 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
-community-announcement-header = Cyhoeddiad cymunedol!
-community-announcement-explanation = Mae'r canllawiau isod ar gyfer nodweddion newydd y casglwr brawddegau a fydd yn cael eu hintegreiddio i lwyfan craidd Common Voice yn ystod misoedd Mawrth ac Ebrill 2023. Yn y cyfamser gallwch ddefnyddio'r teclyn blaenorol, <scLink>https://commonvoice.mozilla.org/ casglwr brawddegau/ </scLink>.
 # WRITE PAGE
 write-instruction-second-part = brawddeg parth cyhoeddus
 write-page-subtitle = Bydd brawddegau sy'n cael eu cyfrannu yma yn cael eu hychwanegu at set ddata drwyddedig cc-0 sydd ar gael yn gyhoeddus.
