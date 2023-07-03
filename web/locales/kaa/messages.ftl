@@ -977,7 +977,9 @@ required-field = Ótinish, bul maydandı toltırıń.
 sc-review-instruction-first-part = Tekseriw
 sc-review-instruction-second-part = Bul lingvistikalıq jaqtan durıs gáp pe?
 sc-review-rules-title = Gáp qollanbalardıń talaplarına juwap beredi me?
-sc-review-empty-state = Házir bul tilde tekseriw ushın gápler joq.
+sc-review-empty-state = Házir tekseriw ushın bul tilde gápler joq.
 report-sc-different-language = Basqa til
 sentences-fetch-error = Gáplerdi alıw waqtında qátelik júz berdi
 review-error = Bul gápti tekseriwde qátelik júz berdi
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Biz birqansha úlken ózgeris qılıp atırmız.
