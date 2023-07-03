@@ -838,6 +838,7 @@ sc-howto-findpd-tips-3 = Tilekke qarsı, biz Wikimedia maqalaların qollana alma
 ## MY SENTENCES
 
 sc-my-title = Meniń gáplerim
+sc-my-loading = Gáplerińiz júklenbekte...
 sc-my-no-sentences = Gápler tabılmadı!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
