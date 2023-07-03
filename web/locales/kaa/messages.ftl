@@ -662,6 +662,8 @@ record-abort-title = Dáslep dawıs jazıw tamamlansın ba?
 record-abort-submit = Kliplerdi jiberiw
 record-abort-continue = Dawıs jazıwdı tamamlaw
 record-abort-delete = Shıǵıw hám kliplerdi óshiriw
+listen-3rd-time-instruction = 2 tayar, dawam etiń!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Sońǵısı!
 speak-empty-state-cta = Gáplerdi usınıw
 record-button-label = Dawısıńızdı jazıń
 share-title-new = Bizge kóbirek dawıs jıynawǵa <bold>járdem beriń</bold>
@@ -821,6 +823,7 @@ sc-home-review-title = Gáplerdi tekseriw
 ## HOW-TO
 
 sc-howto-addsen-title = Jańa gáplerdi qosıw
+sc-howto-cite-title = Qalay citata keltiremen?
 sc-howto-review-title = Gáplerdi tekseriw
 sc-howto-review-subtitle = Gáp tómendegi talaplarǵa juwap beretuǵınlıǵına isenim kámil etiń:
 sc-howto-review-criteria-2 = Gáp grammatikalıq jaqtan durıs bolıwı kerek.
@@ -853,6 +856,8 @@ sc-stats-updating = Jańalanbaqta…
 sc-submit-err-select-lang = Ótinish, tildi tańlań.
 sc-submit-err-add-sentences = Ótinish, gáplerdi qosıń.
 sc-submit-err-add-source = Ótinish, derekti qosıń.
+sc-submit-prompt =
+    .message = Gápler jiberilmedi, shıǵıwǵa isenimińiz kámil me?
 sc-submit-select-language =
     .labelText = Tildi tańlań
 sc-submit-button =
@@ -866,6 +871,8 @@ sc-add-err-submission = Jiberiw qáteligi
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Gápler jiberilmedi, shıǵıwǵa isenimińiz kámil me?
 sc-confirm-sentences-title = Jańa gáplerdi tastıyıqlaw
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
@@ -875,6 +882,9 @@ sc-confirm-sentences-found =
         [one] 1 gáp tawıldı.
        *[other] { $countOfSentences } gáp tawıldı.
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = Siz biykarladıńız — { $countOfInvalidated }
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] Tekserilgen gápler joq.
@@ -926,6 +936,8 @@ sc-personal-remove-button = óshiriw
 
 sc-review-title = Gáplerdi tekseriw
 sc-review-loading = Gápler júklenbekte…
+sc-review-form-prompt =
+    .message = Tekserilgen gápler jiberilmedi, isenimińiz kámil me?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Derek: { $sentenceSource }
