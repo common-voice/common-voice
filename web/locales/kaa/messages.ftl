@@ -1075,3 +1075,4 @@ sentences-fetch-error = Gáplerdi alıw waqtında qátelik júz berdi
 review-error = Bul gápti tekseriwde qátelik júz berdi
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Biz birqansha úlken ózgeris qılıp atırmız
+sc-redirect-page-subtitle-2 = Sorawlarıńızdı <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> yamasa <emailLink>elektron pochta</emailLink> arqalı beriń.
