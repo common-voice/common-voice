@@ -992,7 +992,7 @@ required-field = Ótinish, bul maydandı toltırıń.
 # REVIEW PAGE
 sc-review-instruction-first-part = Tekseriw
 sc-review-instruction-second-part = Bul lingvistikalıq jaqtan durıs gáp pe?
-sc-review-rules-title = Gáp qollanbalardıń talaplarına juwap beredi me?
+sc-review-rules-title = Gáp qollanbalardıń talaplarına juwap bere me?
 sc-review-empty-state = Házir tekseriw ushın bul tilde gápler joq.
 report-sc-different-language = Basqa til
 report-sc-different-language-detail = Bul men tekserip atırǵan tilden basqa tilde jazılǵan.
