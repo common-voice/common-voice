@@ -844,6 +844,7 @@ sc-my-no-sentences = Gápler tabılmadı!
 sc-my-source = Derek: { $source }
 sc-my-delete = Tańlanǵan gáplerdi óshiriw
 sc-my-deleting = Tańlanǵan gápler óshirilmekte…
+sc-my-err-failed-delete = Tańlanǵan gáplerdi óshiriw ámelge aspadı… Ótinish, qayta urınıp kóriń!
 
 ## REJECTED
 
