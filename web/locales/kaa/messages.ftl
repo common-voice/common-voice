@@ -822,6 +822,7 @@ sc-home-review-title = Gáplerdi tekseriw
 
 ## GENERAL
 
+sc-languages-fetch-error = Bar tillerdi alıw ámelge aspadı. Qatnasıw házirgi waqıtta múmkin emes. Ótinish, keyinirek urınıp kóriń.
 
 ## HOW-TO
 
@@ -830,6 +831,7 @@ sc-howto-cite-title = Qalay citata keltiremen?
 sc-howto-cite-item-1 = Siz veb-sayttı kirgiziwińiz múmkin, mıs: "Common Voice" — https://commonvoice.mozilla.org/
 sc-howto-review-title = Gáplerdi tekseriw
 sc-howto-review-subtitle = Gáp tómendegi talaplarǵa juwap beretuǵınlıǵına isenim kámil etiń:
+sc-howto-review-criteria-1 = Gáp durıs jazılıwı kerek.
 sc-howto-review-criteria-2 = Gáp grammatikalıq jaqtan durıs bolıwı kerek.
 sc-howto-review-criteria-4 = Eger gáp talaplarǵa juwap berse, "Qabıllaw" túymesin basıń.
 sc-howto-review-criteria-6 = Eger tekseriw ushın gápler qalmasa, ótinish, bizge kóbirek gáp jıynawǵa járdemlesiń!
@@ -917,6 +919,7 @@ sc-confirm-button-text = Tastıyıqlaw
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Jámi
+sc-lang-info-review-now = <reviewLink>Házir kórip shıģıń!<reviewLink>
 sc-lang-info-add-more = <addLink>Kóbirek jańa gáplerdi qosıń!<addLink>
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
