@@ -819,10 +819,11 @@ sc-logout-button = Shıǵıw
 
 sc-home-collect-title = Gáplerdi qosıw
 sc-home-review-title = Gáplerdi tekseriw
+sc-home-review-text = Talaplarımızǵa juwap beretuǵın gáplerdi tańlap alıwda bizge járdem beriń.
 
 ## GENERAL
 
-sc-languages-fetch-error = Bar tillerdi alıw ámelge aspadı. Qatnasıw házirgi waqıtta múmkin emes. Ótinish, keyinirek urınıp kóriń.
+sc-languages-fetch-error = Bar tillerdi alıw ámelge aspadı. Qatnasıwdıń házirgi waqıtta imkáni joq. Ótinish, keyinirek urınıp kóriń.
 
 ## HOW-TO
 
@@ -835,6 +836,7 @@ sc-howto-review-criteria-1 = Gáp durıs jazılıwı kerek.
 sc-howto-review-criteria-2 = Gáp grammatikalıq jaqtan durıs bolıwı kerek.
 sc-howto-review-criteria-4 = Eger gáp talaplarǵa juwap berse, "Qabıllaw" túymesin basıń.
 sc-howto-review-criteria-6 = Eger tekseriw ushın gápler qalmasa, ótinish, bizge kóbirek gáp jıynawǵa járdemlesiń!
+sc-howto-findpd-tips = Gáplerdi tabıw boyınsha birneshe másláhátler:
 sc-howto-findpd-tips-3 = Tilekke qarsı, biz Wikimedia maqalaların qollana almaymız. Sonlıqtan da, ol jaqtan tekstlerdi kóshirip alıp qoymań.
 
 ## MY SENTENCES
