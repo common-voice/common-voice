@@ -503,6 +503,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Gáplerdi jıynaw
 
 about-playbook-how-localize = Sayttı lokalizaciyalaw qalay isleydi?
 about-playbook-how-localize-content-1 = Common Voice saytı awdarması <strong>Pontoon</strong>da ámelge asırıladı.
+about-playbook-how-localize-content-5 = Járdem ushın túsindiriwshi videomızdı kóriń
 
 ## How to add sentences
 
@@ -1019,6 +1020,8 @@ sc-settings-failed = Sazlawlardı ózgertiw ámelge aspadı. Ótinish, qayta ur�
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Tildi/lokalizaciyanı tańlań
 # PARTNERSHIPS PAGE
 partnerships-header = Sheriklikler
 partnerships-governments-header = Húkimetler
