@@ -1003,6 +1003,8 @@ sc-settings-failed = Sazlawlardı ózgertiw ámelge aspadı. Ótinish, qayta ur�
 
 # [/SentenceCollector]
 
+# PARTNERSHIPS PAGE
+partnerships-header = Sheriklikler
 partnerships-governments-header = Húkimetler
 partnerships-our-partners = Biziń sherikler
 first-cta-subtitle-text = Qalay sóylewińiz haqqındaǵı maǵlıwmat penen bólisiwdi qálemeysiz be?
