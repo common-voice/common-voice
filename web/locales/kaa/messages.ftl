@@ -823,7 +823,7 @@ sc-home-review-text = Talaplarımızǵa juwap beretuǵın gáplerdi tańlap alı
 
 ## GENERAL
 
-sc-languages-fetch-error = Bar tillerdi alıw ámelge aspadı. Qatnasıwdıń házirgi waqıtta imkáni joq. Ótinish, keyinirek urınıp kóriń.
+sc-languages-fetch-error = Bar tillerdi alıw ámelge aspadı. Házirgi waqıtta qatnasıwdıń imkáni joq. Ótinish, keyinirek urınıp kóriń.
 
 ## HOW-TO
 
