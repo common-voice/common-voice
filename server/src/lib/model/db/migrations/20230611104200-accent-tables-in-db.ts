@@ -28,23 +28,45 @@ const ACCENTS: any = {
   },
 };
 
-export const up = async function (db: any): Promise<any> {
-  for (const language in ACCENTS) {
-    const [row] = await db.runSql(
-      `SELECT id FROM locales WHERE name = "${language}"`
-    );
+const getLanguages = function (db: any): Promise<any> {
+  const languages = Object.keys(ACCENTS).map(key => `"${key}"`).join(', ');
+  return db.runSql(`SELECT id, name FROM locales WHERE name IN (${languages})`);
+};
 
-    if (row && row.id) {
-      for (const accent_token in ACCENTS[language]) {
-        await db.runSql(`
-          INSERT INTO accents (locale_id, accent_name, accent_token)
-            VALUES (${row.id}, "${ACCENTS[language][accent_token]}", "${accent_token}")
-        `);
-      }
+const getAccents = function (languages: any[]): any[] {
+  const accents = [];
+  for (const row in languages) {
+    const locale_id = row.id;
+    const name = row.name;
+    for (const accent_token in ACCENTS[name]) {
+      const accent_name = ACCENTS[name][accent_token];
+      accents.push({ locale_id, accent_name, accent_token });
     }
   }
+  return accents;
+};
+
+export const up = function (db: any): Promise<any> {
+  const languages = await getLanguages(db);
+  const accents = getAccents(languages);
+  if (!accents.length) {
+    return null;
+  }
+  const values = accents.map(accent => `(${accent.locale_id}, "${accent.accent_name}", "${accent.accent_token}")`).join(', ');
+  return db.runSql(`INSERT INTO accents (locale_id, accent_name, accent_token) VALUES ${values}`);
 };
 
 export const down = function (): Promise<any> {
-  return null;
+  const languages = await getLanguages(db);
+  const accents = getAccents(languages);
+  if (!accents.length) {
+    return null;
+  }
+  const conditions = accents.map(accent => `
+    (     locale_id = ${accent.locale_id}
+      AND accent_name = "${accent.accent_name}"
+      AND accent_token = "${accent.accent_token}"
+    )
+  `).join(' OR ');
+  return db.runSql(`DELETE FROM accents WHERE ${conditions}`);
 };
