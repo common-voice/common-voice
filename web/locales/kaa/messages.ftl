@@ -968,7 +968,10 @@ adding-sentences-subheader-numbers = Sanlar
 sentence =
     .label = Gáp
 new-sentence-rule-3 = Durıs grammatikanı qollanıń
+guidelines = Qollanbalar
 contact-us = Biz benen baylanısıw
+add-sentence-success = 1 gáp jıynaldı
+add-sentence-error = Gápti qosıwda qátelik
 required-field = Ótinish, bul maydandı toltırıń.
 # REVIEW PAGE
 sc-review-instruction-first-part = Tekseriw
