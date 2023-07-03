@@ -1204,18 +1204,37 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = Dae in ue benint custas fràsias de <wikipediaLink>domìniu pùblicu</wikipediaLink>?
 sc-submit-ph-read-how-to =
     .placeholder = Leghe sa ghia nostra si no isces comente tzitare s'orìgine
+sc-submit-confirm = Cunfirmo chi custas fràsias sunt in <wikipediaLink>domìniu pùblicu</wikipediaLink> e chi tèngio permissu pro ddas carrigare.
+sc-submit-button =
+    .submitText = Imbia
+sc-submit-guidelines = Leghe is <howToLink>ghias</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Impossìbile agiùnghere sa lìngua
+sc-add-lang-sec-label = Agiunghe sa lìngua a sa chi boles contribuire
+sc-add-lang-sec-button = Agiunghe una lìngua
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Cunfirma is fràsias noas
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Nissuna fràsia agatada.
+        [one] 1 fràsia agatada.
+       *[other] { $countOfSentences } fràsias agatadas.
+    }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = As refudadu { $countOfInvalidated } fràsias
+sc-confirm-button-text = Cunfirma
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Totale
+sc-lang-info-title-personal = Personale
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
@@ -1227,19 +1246,82 @@ sc-lang-info-validated =
 
 ## LOGIN
 
+sc-login-err-failed = Faddina in s'identificatzione
+sc-login-err-try-again = Torra·nce a provare.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profilu: { $username }
+sc-personal-err-lang-not-found = Impossìbile bogare sa lìngua: no agatada
+sc-personal-err-remove = Impossìbile bogare sa lìngua
+sc-personal-your-languages = Is lìnguas tuas:
+sc-personal-remove-button = boga
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Nd'as agiuntas { $sentences }
+sc-personal-not-added = No as ancora agiuntu nissuna lìngua.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Critèrios de revisione
+sc-criteria-title = Critèrios de revisione
+sc-criteria-make-sure = Assegura·ti chi is fràsias sighint is critèrios imbenientes:
+sc-criteria-item-1 = Sa fràsia depet èssere iscrita bene, chena de faddinas de ortografia.
+sc-criteria-item-2 = Sa grammàtica de sa fràsia depet èssere curreta.
+sc-criteria-item-3 = Sa fràsia depet pòdere èssere pronuntziada.
+sc-criteria-item-4 = Si sa fràsia sighit custos critèrios, incarca su butone &quot;Aprova&quot; in artu a dereta.
+sc-criteria-item-5-2 = Si sa fràsia non sighit is critèrios anteriores, incarca su butone &quot;Refuda&quot; a manca. Si no ddu isces, dda podes brincare pro colare a cussa imbeniente.
+sc-criteria-item-6 = Si non nc'at prus fràsias de revisionare, agiuda·nos a nde regòllere àteras!
 
 ## REVIEW
 
+sc-review-lang-not-selected = No as seletzionadu nissuna lìngua. Bae a su <profileLink>Profilu</profileLink> tuo pro nde seletzionare.
+sc-review-title = Revisiona is fràsias
+sc-review-loading = Carrighende is fràsias…
+sc-review-select-language = Seletziona una lìngua pro revisionare fràsias.
+sc-review-no-sentences = Nissuna fràsia de revisionare. <addLink>Agiunghe·nde àteras!</addLink>
+sc-review-form-prompt =
+    .message = No as imbiadu is fràsias revisionadas. Boles lassare sa pàgina?
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Orìgine: { $sentenceSource }
+sc-review-form-button-reject = Refuda
+sc-review-form-button-skip = Brinca
+sc-review-form-button-approve = Aprova
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = E
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = B
+sc-review-form-keyboard-usage-custom = Podes impreare is curtzadòrgios de tecladu: { sc-review-form-button-approve-shortcut } pro aprovare, { sc-review-form-button-reject-shortcut } pro refudare, { sc-review-form-button-skip-shortcut } pro brincare.
+sc-review-link = Revisiona
 
 ## SETTINGS
 
+sc-settings-title = Cunfiguratzione
+sc-settings-ui-language = Lìngua de s'interfache
 
 # [/SentenceCollector]
 
+partnerships-foundations-header = Fundatziones
+partnerships-governments-header = Guvernos
+add-information-button = Agiunghe informatziones
+continue-speaking-button = No gràtzias, sighi a chistionare
+create-profile-button = Crea unu profilu
+voice-collection = Regorta de boghes
 sentence-collection = Regòllida de frases
+varying-pronunciations = Pronùntzias chi mudant
+misreadings = Faddinas de leghidura
+offensive-content = Cuntenutu ofensivu
+background-noise = Abbolotu de isfundu
+background-voices = Boghes de isfundu
+volume = Volume
+reader-effects = Efetos de leghidura
+just-unsure = Tenes dudas?
+example = Esempru
+still-have-questions = Tenes ancora dudas?
+contact-common-voice = Cuntata s'iscuadra de Common Voice
+public-domain = Domìniu pùblicu
