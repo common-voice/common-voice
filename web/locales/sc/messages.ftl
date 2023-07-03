@@ -1138,24 +1138,72 @@ sc-logout-button = Serra sa sessione
 
 sc-home-collect-text = Agiuda·nos iscriende o regollende fràsias in domìniu pùblicu.
 sc-home-review-title = Revisiona is fràsias
+sc-home-review-text = Agiuda·nos revisionende sa curretzione de is fràsias de acòrdiu cun is ghias.
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Ghia
+sc-howto-addlang-title = Agiùnghere lìnguas pro nce traballare
+sc-howto-addsen-title = Agiùnghere fràsias noas
+sc-howto-review-subtitle = Assegura·ti chi is fràsias sighint is critèrios imbenientes:
+sc-howto-review-criteria-1 = Sa fràsia depet èssere iscrita bene, chena de faddinas de ortografia.
+sc-howto-review-criteria-2 = Sa grammàtica de sa fràsia depet èssere curreta.
+sc-howto-review-criteria-3 = Sa fràsia depet pòdere èssere pronuntziada.
+sc-howto-review-criteria-4 = Si sa fràsia sighit custos critèrios, incarca su butone «Aprova».
+sc-howto-review-criteria-5 = Si sa fràsia non sighit is critèrios anteriores, incarca su butone «Refuda». Si no ddu isces, dda podes brincare pro colare a cussa imbeniente.
+sc-howto-review-criteria-6 = Si non nc'at prus fràsias de revisionare, agiuda·nos a nde regòllere àteras!
+sc-howto-findpd-title = Agatare fràsias in domìniu pùblicu
+sc-howto-findpd-subtitle = Chirca·nde in internet
 
 ## MY SENTENCES
 
+sc-my-title = Is fràsias mias
+sc-my-loading = Carrighende is fràsias tuas…
+sc-my-err-fetching = Faddina in sa recuperatzione de is fràsias tuas. Torra·nce a provare.
+sc-my-no-sentences = Nissuna fràsia agatada.
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Imbiu: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Orìgine: { $source }
+sc-my-delete = Cantzella is fràsias seletzionadas
+sc-my-deleting = Cantzellende is fràsias seletzionadas…
+sc-my-err-failed-delete = Faddina cantzellende is fràsias seletzionadas… Torra·nce a provare.
 
 ## REJECTED
 
+sc-rejected-title = Fràsias refudadas
+sc-rejected-loading = Carrighende is fràsias refudadas…
+sc-rejected-err-fetching = Faddina in sa recuperatzione de is fràsias refudadas. Torra·nce a provare.
+sc-rejected-none-found = Nissuna fràsia refudada agatada.
 
 ## STATS
 
+sc-stats-title = Istatìsticas
+sc-stats-updating = Atualizende...
+sc-stats-error = Impossìbile recuperare is istatìsticas. Torra·nce a provare a pustis.
 
 ## ADD
 
+sc-submit-err-select-lang = Seletziona una lìngua.
+sc-submit-err-add-sentences = Agiunghe fràsias.
+sc-submit-err-add-source = Agiùnghere un'orìgine.
+sc-submit-err-confirm-pd = Cunfirma chi custas fràsias sunt in domìniu pùblicu.
+sc-submit-prompt =
+    .message = No as imbiadu is fràsias. Seguru chi boles essire?
+sc-submit-title = Agiunghe fràsias
+sc-submit-select-language =
+    .labelText = Seletziona una lìngua
+sc-submit-add-sentences = Agiunghe fràsias de <wikipediaLink>domìniu pùblicu</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Una fràsia pro lìnia
+sc-submit-from-where = Dae in ue benint custas fràsias de <wikipediaLink>domìniu pùblicu</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Leghe sa ghia nostra si no isces comente tzitare s'orìgine
 
 ## ADD LANGUAGE
 
