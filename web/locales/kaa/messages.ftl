@@ -998,6 +998,7 @@ sc-review-link = Tekseriw
 
 sc-settings-title = Sazlawlar
 sc-settings-ui-language = Interfeys tili
+sc-settings-reset-skipped = Ótkerip jiberilgen gáplerdi tiklew
 sc-settings-show-all-button = Ótkerip jiberilgen gáplerdi qayta kórsetiw
 sc-settings-failed = Sazlawlardı ózgertiw ámelge aspadı. Ótinish, qayta urınıp kóriń.
 
