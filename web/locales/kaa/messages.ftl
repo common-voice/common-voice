@@ -873,6 +873,14 @@ sc-confirm-sentences-found =
         [one] 1 gáp tawıldı.
        *[other] { $countOfSentences } gáp tawıldı.
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Jiberiwge tayar gáp joq!
+        [one] 1 gáp jiberiwge tayar!
+       *[other] { $readyCount } gáp jiberiwge tayar!
+    }
 sc-confirm-button-text = Tastıyıqlaw
 
 ## LANGUAGE INFO
