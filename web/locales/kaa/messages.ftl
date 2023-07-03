@@ -883,7 +883,7 @@ sc-lang-info-add-more = <addLink>Kóbirek jańa gáplerdi qosıń!<addLink>
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
-        [0] Biykarlanǵan gáp joq.
+        [0] Biykarlanǵan gápler joq.
         [one] 1 biykarlanǵan gáp.
        *[other] { $rejectedSentences } biykarlanǵan gáp.
     }
