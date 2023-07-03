@@ -839,6 +839,7 @@ sc-howto-findpd-tips-3 = Tilekke qarsı, biz Wikimedia maqalaların qollana alma
 
 sc-my-title = Meniń gáplerim
 sc-my-loading = Gáplerińiz júklenbekte...
+sc-my-err-fetching = Gáplerińizdi alıw waqtındaǵı qátelik. Ótinish, qayta urınıp kóriń.
 sc-my-no-sentences = Gápler tabılmadı!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
@@ -851,12 +852,14 @@ sc-my-err-failed-delete = Tańlanǵan gáplerdi óshiriw ámelge aspadı… Óti
 
 sc-rejected-title = Biykarlanǵan gápler
 sc-rejected-loading = Biykarlanǵan gápler júklenbekte…
+sc-rejected-err-fetching = Biykarlanǵan gáplerdi alıw waqtındaǵı qátelik. Ótinish, qayta urınıp kóriń.
 sc-rejected-none-found = Biykarlanǵan gápler tabılmadı!
 
 ## STATS
 
 sc-stats-title = Statistika
 sc-stats-updating = Jańalanbaqta…
+sc-stats-error = Biz statistikanı ala almadıq. Ótinish, keyinirek urınıp kóriń.
 
 ## ADD
 
@@ -867,6 +870,8 @@ sc-submit-prompt =
     .message = Gápler jiberilmedi, shıǵıwǵa isenimińiz kámil me?
 sc-submit-select-language =
     .labelText = Tildi tańlań
+sc-submit-ph-one-per-line =
+    .placeholder = Bir qatarģa bir gàp
 sc-submit-button =
     .submitText = Jiberiw
 
@@ -874,6 +879,7 @@ sc-submit-button =
 
 sc-add-lang-could-not-add = Tildi qosıw ámelge aspadı
 sc-add-lang-sec-button = Til qosıw
+sc-add-err-unexpected = Serverden kútilmegen juwap alındı
 sc-add-err-submission = Jiberiw qáteligi
 
 ## ADD SENTENCES CONFIRMATION
@@ -1012,7 +1018,7 @@ sentence =
 citation =
     .label = Citata
 what-can-i-add = Qanday gáp túrlerin qosa alaman?
-new-sentence-rule-1 = Heshqanday <noCopyright>avtorlıq huqıqı sheklewleri joq</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-1 = <noCopyright>Avtorlıq huqıqına heshqanday sheklew joq</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-3 = Durıs grammatikanı qollanıń
 new-sentence-rule-5 = Sanlar hám arnawlı belgilersiz
 new-sentence-rule-6 = Shet tili háriplerisiz
