@@ -373,29 +373,30 @@ skip-submission-description = titlanil tlahtol amo cualtias tlaticpachuhua campa
 skip-submission-note = tlahcuilol: quipia de ticpihpinas tlatitlahtos o ticcaquis para ticpatlas mu tiquipaleoalistl
 off = amocualtia
 on = cualtia
-help-accent = ticniqui nimitspalehuis ican tono?
-help-accent-explanation = mu acento yen quemen tiquimihtuhua tlahtulmeh. huilis isqui uhcon porque campa yu ti chanchiuh, huili ti tlahtuhua ocsiqui tlahtol o ica ocse tlanimilil, huilis titech mactis ocsiqui tlanahuatil tlen tic machilis tech cualtias nicah
+help-accent = ticniqui nimitspalehuis ican acento?
+help-accent-explanation = mu acento yen quemen tiquimihtuhua tlahtulmeh. huilis isqui uhcon porque campa utichanchiuh, huili titlahtuhua ocsiqui tlahtol o ica ocse tlanimilil, huilis titechmactis ocsiqui tlanahuatil tlen ticmachilis techcualtias nica
 help-variants = ticniqui nimitspalehuis ican variantes?
 
 ## Profile - Email
 
-browse-file-title = tlehkulti se ixcupinalistl
+browse-file-title = tlehculti se ixcupinalistl
 browse-file = xictilana huan xic cahcahua o<browseWrap> nihnimilti</broswerWrap>
 gravatar_not_found = amo secahsitoc niunse gravatar para mu correo electronico
-file_too_large = tlahcuilol tlen utic nexte simi hueyi
+file_too_large = tlahcuilol tlen uticnexte simi hueyi
 
 ## Profile - Email
 
-email-already-used = email yi mu cuitoc ich ocse cuenta
+email-already-used = correo yi mucuitoc ichiocse cuenta
+add-language = xictlali tlahtolmaseual
 change-email-setings = xicpatla mu correo electronico campa Ajustes, tlatlampa campa pehua sesión
 
 ## FAQ
 
 faq-why-important-q = ¿queye simi mu niqui?
-faq-how-get-q = queni huili niquinsilis tlanahuatil de Common Voice?
-faq-when-release2-q = quemenia tiquin tlehcultis tlanahuatil de Common Voice ichi ocsiqueh tlahtulmeh?
-faq-why-mission-q = ¿queyeh Common Voice mu niluhua ican tiquitl de Mozilla?
-faq-why-mission-a = itiquitl de Mozilla yeh mui web tlapuhtok huan nochteh muc cuikah. Icanun quipia deque tiquin ulinisqueh aquihqueh qui chihchihuan web ikan nin tiquiuh quemeh Common Voice. Uhcon tiposmeh tlahtol hueyiya cachi nepa quen aplicaciones, secmati que sec pia de que sequin palehuis anuchten usuarios.nin quihtusniqui sequin tlalis cachi tlahtulmeh huan sequin tlalis acentos huan inextilis demográficas quemen quin chihchihuan huan qui yehyecuhuah tipostlahtol. Common Voice se tlapalehuil para nuchten huan equipos huan tlachihchihuaneh de Mozilla ichi nuchi tlalticpac nuyuhqui qui cuituqueh campa tehuan tu tiquiuh
+faq-how-get-q = queni huilis niquinsilis tlanahuatil de Common Voice?
+faq-when-release2-q = ¿quemenia tiquintlehcultis tlanahuatil de Common Voice ichiocsiqueh tlahtulmeh?
+faq-why-mission-q = ¿queyeh Common Voice muniluhua ican tiquitl de Mozilla?
+faq-why-mission-a = itiquitl de Mozilla mui web tlapuhtok huan nochteh muccuikah. Icanun quipia deque tiquin ulinisqueh aquihqueh quichihchihuan web ican nin tiquiuh quemeh Common Voice. Uhcon tiposmeh tlahtol hueyiya cachi nepa quen aplicaciones, secmati que secpia de que sequinpalehuis nuchten usuarios.nin quihtusniqui sequin tlalis cachi tlahtulmeh huan sequin tlalis acentos huan inextilis demográficas quemen quinchihchihuan huan quiyehyecuhuah tipostlahtol. Common Voice se tlapalehuil para nuchten huan equipos huan tlachihchihuaneh de Mozilla ichinochi tlalticpac nuyuhqui quicuituqueh campa tehuan totiquiuh
 faq-what-cv-and-deepspeech-q = catleyeh ika amo mixmateh Common Voice huan Deep Speech?
 faq-is-goal-assistant-q = ¿itiquiuh de Common Voice yeh quichihuas se tepalehuani tlahtol?
 faq-do-want-native-q = amo uniyol ika masehualtlahtol huan ni tlahtuhua  ica acento,¿ uc cualtia nu tlahtol?
