@@ -1043,6 +1043,7 @@ citing-sentences-subheader-websites = Veb-saytlar
 citing-sentences-subheader-offline-sources = Oflayn derekler
 citation =
     .label = Citata
+self-citation = Ózine silteme
 adding-sentences-subheader-length = Uzınlıǵı
 adding-sentences-subheader-length-explanation = Gáp 15 sózden kem bolıwı kerek.
 adding-sentences-subheader-spelling-punctuation = Imla hám irkilis belgileri
