@@ -623,6 +623,9 @@ about-playbook-how-add-sentences-content-4 = Kumasen minnu Sɔ̀rɔla, olu bɛ B
 
 about-playbook-how-record-quality = Ne bɛ se ka kumakan-klip min ka ɲi kosɛbɛ, o ta cogo di?
 about-playbook-how-record-content-1 = Kuma ni i kan ye min bɛ kɛ cogo la! I bɛ kuma cogo min na, o bɛ Sɔn yan - an b’a fɛ i ka fɔcogo i n’a fɔ a bɛ cogo min na, wa an b’a fɛ i ka fɔcogo, i ka fɔcogo ani i ka fɔcogo min bɛ kɛ tuma bɛɛ.
+about-playbook-how-record-content-2 = Aw ye aw yɛrɛ tanga kɔkan mankan caman ma - a ka kan ka nɔgɔya ka aw mɛn.
+about-playbook-how-record-content-3 = Kumasen kalan ka ɲɛ - kana tɛmɛ, ka daɲɛw Changer walima ka daɲɛw fara a kan.
+about-playbook-how-record-content-4 = I k’a lajɛ ni plateforme bɛ ka sɛbɛnni kɛ sanni i ka kuma daminɛ, ani ko a bɛ jɔ dɔrɔn ni i ye kuma ban.
 
 ## How to grow language
 
