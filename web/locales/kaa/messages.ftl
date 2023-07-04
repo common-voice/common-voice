@@ -1042,6 +1042,8 @@ thanks-for-voice-toast = Dawıslı maǵlıwmatıńız ushın ráxmet
 thanks-for-voice-toast-error = Dawıslı maǵlıwmatıńızdı jiberiw waqtında qátelik júz berdi.
 already-have-an-account = Álleqashan profilińiz bar ma? <login>Kiriw</login>
 create-profile-button = Profil jaratıw
+# GUIDELINES PAGE
+guidelines-header = Qatnasıw boyınsha qollanbalar
 voice-collection = Dawıslar toplamı
 sentence-collection = Gápler toplamı
 misreadings = Nadurıs oqıw
