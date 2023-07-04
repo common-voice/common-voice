@@ -341,113 +341,114 @@ profile-form-variant-default-value = amo cah variante tlen u mu nexte
 profile-form-accent =
     .label = chicahuac tlahtol
 profile-form-custom-accent-help-text =
-    .label = ¿quenin tic nextis mu acento?
-profile-form-custom-accent-placeholder-2 = xipehua xi tlahcuilo para tic nextis mu acento
+    .label = ¿quenin ticnextis mu acento?
+profile-form-custom-accent-placeholder-2 = xipehua xitlahcuilo para ticnextis mu acento
 profile-form-age =
     .label = xihuitl
-hidden = mutlatihtok
+hidden = mutlatihtoc
 visible = mutztoc
 profile-form-submit-save = ahcocui
 profile-form-submit-saved = ahcuctoc
-male = tlakatl
+male = tlacatl
 female = sihuatl
 # Gender
 other = Occe
 why-profile-title = ¿queye se perfil?
-why-profile-text = titechtemactis siqui tlanahuatil de teh, tlen amameh tlahtol tlen tiquin titlanis ichin Common Voice tech cualtilisqueh cachi para ixmatilis tlahtol  moquincuican ica quin yectlalihtacah queme quin tlahtlania
+why-profile-text = titechtemactis siqui tlanahuatil de tehuatl, tlen amameh tlahtol tlen tiquin titlanis ichin Common Voice techcualtilisqueh cachi para ixmatilis tlahtol  moquincuican ica quin yectlalihtacah queme quin tlahtlania
 build-profile = xicchihchihua se perfil
 goals = tiquitl
 edit-profile = ticpatlas mu nexicah
 profile-create-success = yumuchiuh, ¡nexicah yumuchiuh!
 profile-close = Xitlatzacua
-profile-explanation = xiquita tlen yuticchiuh ica se perfil huan xic palehui tu tlahcuiloltlahtol muican cachi cuali
-thanks-for-account = tlasohcamatictzin yutitechilhue mu cuenta, axan tic chihchihuasqueh mu perfil
+profile-explanation = xiquita tlen yuticchiuh ica se perfil huan xicpalehui tutlahcuiloltlahtol muican cachicuali
+thanks-for-account = tlasohcamatictzin yutitechilhue mu cuenta, axan ticchihchihuasqueh mu perfil
 why-demographic = queye nicanca simi importante
-why-demographic-explanation-2 = tlanahuatil ichtaca den ususarios, quemeh xihuitl, genero huan quen tlahtuhuah, tech palehuia matiquin yectlalihtacah tlanahuatil tlahtol tlen mucuitoqueh, ica sekmunextilis cuali quenin teixmateh tlahtol. mu tuca de usuario huan correo electronico amayic mu nilusqueh ika mu tlanahuatil titlan, huan huilis tiquihtos tla ticniqui mu tocayo mumunexti o mui ichtaca
-accept-privacy-title = tlnahuatil ichtaca
+why-demographic-explanation-2 = tlanahuatil ichtaca den usuarios, quemeh xihuitl, genero huan queni tlahtuhuah, techpalehuia matiquinyectlalihtacah tlanahuatil tlahtol tlenmucuitoqueh, icasecmunextilis cuali quenin teixmateh tlahtol. mu tuca de usuario huan correo electronico amayic mu nilusqueh ica mu tlanahuatil titlan, huan huilis tiquihtos tla ticniqui mu tocayo mumunexti o mui ichtaca
+accept-privacy-title = tlanahuatil ichtaca
 login-signup = xicpehualti sesión / ximoihcuilo
 edit = yectlali
 email-subscriptions = ximuihcuilo ic correo electrónico
 skip-submission-feedback = amoticahuilisqueh muctitlanican tenunutzanil
-skip-submission-description = titlanil tlahtol amo culatias tla tic pachuhua campa kihtuhua `naltitlani`. tlen tlapalehuia oc isqui tlapohtoc tlen mu nichicuhuah ica 5 gravaciones o quinsiliah
-skip-submission-note = tlahcuilol: quipia de tic pihpinas tla ti tlahtos o tik caquis para tic patlas mu tiquipalehualistl
+skip-submission-description = titlanil tlahtol amo cualtias tlaticpachuhua campa quihtuhua ¨naltitlani´´. tlen techpalehuia isqui tlapohtoc tlen munichicuhuah ica 5 gravaciones o tlenquinsiliah
+skip-submission-note = tlahcuilol: quipia de ticpihpinas tlatitlahtos o ticcaquis para ticpatlas mu tiquipaleoalistl
 off = amocualtia
 on = cualtia
-help-accent = ticniqui nimitspalehuis ican tono?
-help-accent-explanation = mu acento yen quemen tiquimihtuhua tlahtulmeh. huilis isqui uhcon porque campa yu ti chanchiuh, huili ti tlahtuhua ocsiqui tlahtol o ica ocse tlanimilil, huilis titech mactis ocsiqui tlanahuatil tlen tic machilis tech cualtias nicah
+help-accent = ticniqui nimitspalehuis ican acento?
+help-accent-explanation = mu acento yen quemen tiquimihtuhua tlahtulmeh. huilis isqui uhcon porque campa utichanchiuh, huili titlahtuhua ocsiqui tlahtol o ica ocse tlanimilil, huilis titechmactis ocsiqui tlanahuatil tlen ticmachilis techcualtias nica
 help-variants = ticniqui nimitspalehuis ican variantes?
 
 ## Profile - Email
 
-browse-file-title = tlehkulti se ixcupinalistl
+browse-file-title = tlehculti se ixcupinalistl
 browse-file = xictilana huan xic cahcahua o<browseWrap> nihnimilti</broswerWrap>
 gravatar_not_found = amo secahsitoc niunse gravatar para mu correo electronico
-file_too_large = tlahcuilol tlen utic nexte simi hueyi
+file_too_large = tlahcuilol tlen uticnexte simi hueyi
 
 ## Profile - Email
 
-email-already-used = email yi mu cuitoc ich ocse cuenta
+email-already-used = correo yi mucuitoc ichiocse cuenta
+add-language = xictlali tlahtolmaseual
 change-email-setings = xicpatla mu correo electronico campa Ajustes, tlatlampa campa pehua sesión
 
 ## FAQ
 
 faq-why-important-q = ¿queye simi mu niqui?
-faq-how-get-q = queni huili niquinsilis tlanahuatil de Common Voice?
-faq-when-release2-q = quemenia tiquin tlehcultis tlanahuatil de Common Voice ichi ocsiqueh tlahtulmeh?
-faq-why-mission-q = ¿queyeh Common Voice mu niluhua ican tiquitl de Mozilla?
-faq-why-mission-a = itiquitl de Mozilla yeh mui web tlapuhtok huan nochteh muc cuikah. Icanun quipia deque tiquin ulinisqueh aquihqueh qui chihchihuan web ikan nin tiquiuh quemeh Common Voice. Uhcon tiposmeh tlahtol hueyiya cachi nepa quen aplicaciones, secmati que sec pia de que sequin palehuis anuchten usuarios.nin quihtusniqui sequin tlalis cachi tlahtulmeh huan sequin tlalis acentos huan inextilis demográficas quemen quin chihchihuan huan qui yehyecuhuah tipostlahtol. Common Voice se tlapalehuil para nuchten huan equipos huan tlachihchihuaneh de Mozilla ichi nuchi tlalticpac nuyuhqui qui cuituqueh campa tehuan tu tiquiuh
-faq-what-cv-and-deepspeech-q = catleyeh ika amo mixmateh Common Voice huan Deep Speech?
+faq-how-get-q = queni huilis niquinsilis tlanahuatil de Common Voice?
+faq-when-release2-q = ¿quemenia tiquintlehcultis tlanahuatil de Common Voice ichiocsiqueh tlahtulmeh?
+faq-why-mission-q = ¿queyeh Common Voice muniluhua ican tiquitl de Mozilla?
+faq-why-mission-a = itiquitl de Mozilla mui web tlapuhtok huan nochteh muccuikah. Icanun quipia deque tiquin ulinisqueh aquihqueh quichihchihuan web ican nin tiquiuh quemeh Common Voice. Uhcon tiposmeh tlahtol hueyiya cachi nepa quen aplicaciones, secmati que secpia de que sequinpalehuis nuchten usuarios.nin quihtusniqui sequin tlalis cachi tlahtulmeh huan sequin tlalis acentos huan inextilis demográficas quemen quinchihchihuan huan quiyehyecuhuah tipostlahtol. Common Voice se tlapalehuil para nuchten huan equipos huan tlachihchihuaneh de Mozilla ichinochi tlalticpac nuyuhqui quicuituqueh campa tehuan totiquiuh
+faq-what-cv-and-deepspeech-q = catleyeh ica amo mixmateh Common Voice huan Deep Speech?
 faq-is-goal-assistant-q = ¿itiquiuh de Common Voice yeh quichihuas se tepalehuani tlahtol?
-faq-do-want-native-q = amo uniyol ika masehualtlahtol huan ni tlahtuhua  ica acento,¿ uc cualtia nu tlahtol?
-faq-do-want-native-a = quemah, ¡tech cualtia ica tu tlahtol! siqui tu tiquitl de Common Voice sequin nichicos miqueh acentos quemen huilis para uhcon tiquitl ixmatilis tlahtol mucualtia cuali para nuchin tlalticpac. nin quichihua tlen tetlaoculiah in tlahtol  muicah importantes
+faq-do-want-native-q = amo uniyol icamasehualtlahtol huan nitlahtuhua  ica acento,¿ ucccualtia nu tlahtol?
+faq-do-want-native-a = quemah, ¡tech cualtia cachi mutlahtol! totiquiuh de Common Voice secnichicos miqueh acentos quemen huilis para ohcon tiquitl ixmatilis tlahtol mucualtia cuali para nuchin tlalticpac. nin quichihua tlen tetlaoculiah in tlahtol  muicah importantes
 faq-why-different-speakers-q = ¿queyeh tiquiniqui miqueh tlahtuhuaneh tlatlamantl ica tlahtol?
 faq-why-my-lang-q = ¿Queye ayamo catqui notlahtol?
-faq-why-my-lang-a = Common Voice se plataforma crowdsourcing, huan nuchten tlahtulmeh umu tlalihqueh aquin ucniquisquiaya .¡techpactisquia xic tlali mu tlahtol!<languageRequestLink> xictlahtlani queni tic tlalis mu tlahtol </languageRequestLink>
-faq-how-calc-hours-q = ¿quenin quixyehyecuhua Common Voice hora?
-faq-where-src-from-2-q = ¿ de canin huits tlahcuilol?
-faq-why-not-ask-read-q = ¿queyeh amo sequin tlahtlani masehualmeh mo machtican amatlahtol o tlahtol Wikipedia campa tlamantl tlahtol?
-faq-why-account-q = ¿queye quipia de ni mu ihcuilos?
-faq-is-account-public-q = ¿ tlanahuatil de nu cuenta mu nextis?
-faq-how-privacy-q = ¿ quenin titechilhuia ichtaca masehual tlen qui temacah in tlahtol?
+faq-why-my-lang-a = Common Voice se plataforma crowdsourcing, huan nochten tlahtulmeh umutlalihqueh aquin ucniquisquiaya .¡techpactisquia xictlali mu tlahtol!<languageRequestLink> xictlahtlani queni tictlalis mutlahtol </languageRequestLink>
+faq-how-calc-hours-q = ¿quenin ixyehyecuhua Common Voice hora?
+faq-where-src-from-2-q = ¿ decanin huits tlahcuilol?
+faq-why-not-ask-read-q = ¿queyeh amo sequin tlahtlani masehualmeh momachtican amatlahtol o tlahtol Wikipedia campa tlamantl tlahtol?
+faq-why-account-q = ¿queye quipia de nimuihcoilos?
+faq-is-account-public-q = ¿ tlanahuatil de nucuenta munextis?
+faq-how-privacy-q = ¿ quenin titechilhuia ichtaca masehual tlen quitemacah in tlahtol?
 faq-what-determine-identity-q = ¿tlenon quihtosniqui que amo¨ixpantis identidad¨ aquihquen tlahtuhuah campa base de tlanahuatil Common Voice?
 faq-what-is-cv = ¿tlenon Common Voice?
-faq-using-cv = ¿Queni mucui Common Voice?
-faq-description = Common Voice muniluhua ihuan Mozilla para sequin nextilis tipusmeh quenin tlahtuhuan masehualmeh
+faq-using-cv = ¿Queninmocui Common Voice?
+faq-description = Common Voice muniluhua ihuan Mozilla para secnextilis tipusmeh quenin tlahtuhuan masehualmeh
 faq-search-for-answers =
-    .label = xictemo tlananquilil a mu tlahtlanilis
+    .label = xictemo tlananquilil a mutlahtlanilis
 
 ## ABOUT US
 
 about-title = ¿queyeh sequicuis Common Voice?
-how-does-it-work-title-v2 = ¿quenin cualtia tlahtol comun?
+how-does-it-work-title-v2 = ¿quenin cualtia Common Voice?
 
 ## How does it work section
 
 about-language-req-subtitle = aquin quitlahtlani mac tlalilican ocse tlahtol
-about-localization-subtitle = tlahcuilol campa web mu cuiptoc ica necah tlahtol
+about-localization-subtitle = tlahcuilol campa web mu cuiptoc icanecah tlahtol
 about-sentence-collection-title = tlahcuilol pihpintoc
-about-sentence-collection-subtitle = mu nuchicuhtuqueh tlahcuilolmeh para masehual huilis qui machtis ica tlahtol chicahuac
-about-new-lang-title = qui naltitlantuqueh se yancuic tlahtol
+about-sentence-collection-subtitle = mu nichicuhtuqueh tlahcuilolmeh para masehual huilis quimachtis icatlahtol chicahuac
+about-new-lang-title = quinaltitlantuqueh se yancuic tlahtol
 about-new-lang-subtitle = usecnaltitlan sitio de Common Voice icanin masehualtlahtol
-about-voice-contrib-title = pelehuil tlahtol
-about-voice-contrib-subtitle = masehual huitz huan tlapalehuia ica intlahtol
-about-voice-validation-title = tlahtol silia
-about-voice-validation-subtitle = ocsiqueh masehualmeh quin siliah nicancateh clips tlahtol
-about-dataset-release-title = naltitlaneh nichicul tlanahuatilme
-about-dataset-release-subtitle = sequin nehnextia sansicah tlanahuatilme cada 3 tlapuhual
+about-voice-contrib-title = palehuil tlahtol
+about-voice-contrib-subtitle = masehual huitz huan techpalehuia ica intlahtol
+about-voice-validation-title = tlahtolsilia
+about-voice-validation-subtitle = ocsiqueh masehualmeh quinsiliah nicancateh clips tlahtol
+about-dataset-release-title = naltitlaneh nichicultlanahuatilme
+about-dataset-release-subtitle = secnehnextia sansicah tlanahuatilme cada 3 tlapuhual
 about-subscribe-text = ¿tiniqui ihuan timu nuhnutstos ihuan Common Voice?
 about-speak = Tlahtoa
-about-speak-text = tiquitini ahcucui y tlahtol sansipa quimachtihtoc tlahcuilol tlen uquin tetlauculihqueh usuarios
+about-speak-text = tiquitini ahcocui itlahtol sansipa quimachtihtoc tlahcuilol tlen uquintetlauculihqueh usuarios
 about-listen = Tlacaqui
 about-is-it-valid = ¿tlahtolahcuc cualtia?
-about-is-it-valid-text = cuando se usuario qui yehyecuhua se tlahtolahcuc, munextilisqueh quemeh ¨cualtia¨
+about-is-it-valid-text = cuando se usuario quiyehyecohua se tlahtolahcuc, munextisqueh quemeh ¨cualtia¨
 about-yes-votes = cachi de omi votos positivos (quemah)
-about-no-votes = cachi de umi votos negativos (amo)
-about-no-votes-text = cuando se usuario amo qui siliah se tlahtolahcuc, mu cuipa hasta tlacutlapa. tla amo mu siliah ik upa, tlahtolahcuc yas ichin cementerio tlahtolahcuc
-about-get-involved-text-2 = ¿ticniqui ti tech palehuis a que common voice mui cachi cuali? Cuali ximu nuhnutsa ich correo o tlamo campan foro<discourseLink> Discourse</discourseLink>,xiquin naltitlani tlahuel ican sitio ik<githubLink>GitHub</githubLink> o ximunilo campa mu tlahcuilhuiliah masehual nichicuhuah<matrixLink>Matrix</matrixLink>
+about-no-votes = cachi de omi votos negativos (amo)
+about-no-votes-text = cuando se usuario amo quisiliah se tlahtolahcuc, mucuipa hasta tlacutlapa. tlaipacmo quisiliah ikupa, tlahtolahcuc yas ichin cementerio tlahtolahcuc
+about-get-involved-text-2 = ¿ticniqui titech palehuis a que common voice mui cachicuali? ¡Cuali! ximunohnotsa ich correo o tlamo campa foro<discourseLink> Discourse</discourseLink>,xicnaltitlani tlahuel ican sitio ik<githubLink>GitHub</githubLink> o ximunilo campa mutlahcuilhuiliah masehual nichicuhuah<matrixLink>Matrix</matrixLink>
 about-stay-in-touch = queni ihuan nimu nuhnutztos
-about-stay-in-touch-button = ximuihcuilo
-about-stay-in-touch-text-1 = <emailFragment> ximuihcuilo</emailFragmento> ichin tu tlahcuilol correo para nic matis queni huilis tictech palehuis ichin campañas, ilhuimeh huan quenin cualtia Common Voice
+about-stay-in-touch-button = ximoihcuilo
+about-stay-in-touch-text-1 = <emailFragment> ximoihcuilo</emailFragmento> ichin tutlahcuilol correo para nicmatis quenihuilis tictechpalehuis ichin campañas, ilhuimeh huan quenin cualtia Common Voice
 about-stay-in-touch-text-2 = huilis tiquin ixmatis ocsiquen masehualmeh ichin nichicumasehual tlahtol de Mozilla muniluhtok <discourselink>Discourse</discourseLink>para tlahtulmeh nichiculistli o <matrixLink>Matrix</matrixLink> para mutic silicah cuali tlahtol isiuhca
 about-nav-why-common-voice = ¿Queye?
 about-nav-how-it-works = ¿Queni?

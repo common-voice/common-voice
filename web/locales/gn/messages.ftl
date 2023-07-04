@@ -1634,6 +1634,7 @@ public-domain = Opavave oipurukuaáva
 citing-sentences = Emboysýi ñe’ẽjuaju
 adding-sentences = Emoĩve Ñe’ẽjuaju
 reviewing-sentences = Ehechajey Ñe’ẽjuaju
+public-domain-explanation-3 = Emoheñói umi ñe’ẽjuaju ipyahu ha ojepurúva, neaño térã neangirũ térã eñe’ẽmemeha ndive, techapyrãramo, peteĩ ‘jehai guasu’ ndive
 citing-sentences-subheader-websites = Ñanduti renda
 citing-sentences-subheader-websites-explanation = Emoingekuaa ñanduti renda, techapyrã, "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Mbokatupyha Herakuãvéva
