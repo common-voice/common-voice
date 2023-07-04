@@ -490,15 +490,15 @@ about-playbook-how-add-sentences-content-4 = tlahcuilolmeh tlen quema oquinsilih
 
 about-playbook-how-record-quality = queni ni tlahtolahcocui se clip maicuali?
 about-playbook-how-record-content-1 = xitlahto normal. Uhcon quentitlahtohua nican cuali secsilia, secniqui mutlahtol uhcon quen yuhui, huan secniqui uhcon chicahuac huan quemenun tlahtuhuah queme nucumateh
-about-playbook-how-record-content-2 = amo simi mu tlacalani ic tlahtic, quipia de mu caquis cuali
-about-playbook-how-record-content-3 = xicmumachti tlahtol ica cuidado, amo xic pulo xic patla o xin tlalili tlahtol
-about-playbook-how-record-content-4 = xiquita quen plataforma mu yupeuh tlahtolahcucui achton ti pehuas ti tlahtos huan mumunacti cuando yutic tlameh
+about-playbook-how-record-content-2 = amo simimu tlacalani ictlahtic, quipia de mucaquis cuali
+about-playbook-how-record-content-3 = xicmumachti tlahtol ica cuidado, amo xicpolo, xicpatla o xictlalili tlahtol
+about-playbook-how-record-content-4 = xiquita quen plataforma yupeuh tlahtolahcucui achton tipehuas titlahtos huan mumunacti cuando yutic tlameh
 about-playbook-how-record-content-5 = <accuracyLink> xiquita cachi ican tlahtulmeh cuali</accuracyLink>
 
 ## How to grow language
 
-about-playbook-how-grow-language = ¿quenin huilis sek chihuas ma hueyiya cuali se tlahtol ichin Common Voice?
-about-playbook-how-grow-language-content-1 = sec chihua nin tlapalehuil para masehualmeh matech palehuican Common Voice tech iljuia que nichicol tlahtol maquin palehui cachi masehualmeh. usecchiuh se tiquitl tlen huilis tiquicuis
+about-playbook-how-grow-language = ¿quenin huilis secchihuas mahueyiya cuali se tlahtol ichin Common Voice?
+about-playbook-how-grow-language-content-1 = sec chihua nin tlapalehuil para masehualmeh matech palehuican Common Voice techiljuia que nichicol tlahtol maquin palehui cachi masehualmeh. usecchiuh se tiquitl tlenhuilis tiquicois
 about-playbook-how-grow-language-content-2 = ilhuitl
 about-playbook-how-grow-language-content-3 = huilis tic chihuas ilhuitl para tiquin palehuis masehualmeh ma tech palehuican. cachi isiuhca quen tic nimilia, huilis qui chihuas ichin linea ica se tipospalehuil nexitlahtol o sehseh masehual tla uhcon cachi cuali <eventTemplate> xiquita tu plantillas huan ica tleno sec palehuia sequin chihuas ilhuitl</eventTemplate>
 about-playbook-how-grow-language-content-5 = huilis ti quicuis plataformas de redes sociales para tic xixinis tlahtol. xic temaca publicaciones campa mu quihto queye simi importante huan ximu nohnotsa ihuan ocsiqueh masehualmeh para tiquin nohnotsas quemen derechos den tlahtol. tlahtol o tenunuts ican tiposmeh. xiquita cachi yectlahtol ika <campaignLink> xicchihua se campaña masehual ican tiquitl tlen oc huilis tiquicuis </campaignLink>
