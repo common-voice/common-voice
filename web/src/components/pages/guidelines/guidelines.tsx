@@ -98,7 +98,8 @@ const Guidelines = () => {
                       className={classNames({
                         'selected-option':
                           VOICE_NAV_IDS[key] === selectedTabOption,
-                      })}>
+                      })}
+                      onClick={() => setSelectedTabOption(VOICE_NAV_IDS[key])}>
                       <Localized id={VOICE_NAV_IDS[key]} />
                     </Link>
                   </li>
@@ -124,7 +125,10 @@ const Guidelines = () => {
                       className={classNames({
                         'selected-option':
                           SENTENCE_NAV_IDS[key] === selectedTabOption,
-                      })}>
+                      })}
+                      onClick={() =>
+                        setSelectedTabOption(SENTENCE_NAV_IDS[key])
+                      }>
                       <Localized id={SENTENCE_NAV_IDS[key]} />
                     </Link>
                   </li>
