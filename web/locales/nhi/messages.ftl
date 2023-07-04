@@ -230,7 +230,7 @@ contact = nonotza
 privacy = ichtaca
 faq = tlahtlanil simi
 share-title = ¡xitechpalehui matiehcuca a cachi masehual aquihquen quiniquisqueh  tetlaculisqueh in tlahtol!
-share-text = xitechpalehui tiquinnextilisque tiposmeh quenin tlahtuhuan masehualmeh, xictetlaoculi mu tlahtol ichin { $link }
+share-text = xitechpalehui tiquinnextilisque tiposmeh quenin tlahtuhuan masehualmeh, xitetlaoculi mu tlahtol ichin { $link }
 back-top = ximocuipa campa pehua
 logout = sectzacuas sesión
 
@@ -448,20 +448,20 @@ about-no-votes-text = cuando se usuario amo quisiliah se tlahtolahcuc, mucuipa h
 about-get-involved-text-2 = ¿ticniqui titech palehuis a que common voice mui cachicuali? ¡Cuali! ximunohnotsa ich correo o tlamo campa foro<discourseLink> Discourse</discourseLink>,xicnaltitlani tlahuel ican sitio ik<githubLink>GitHub</githubLink> o ximunilo campa mutlahcuilhuiliah masehual nichicuhuah<matrixLink>Matrix</matrixLink>
 about-stay-in-touch = queni ihuan nimu nuhnutztos
 about-stay-in-touch-button = ximoihcuilo
-about-stay-in-touch-text-1 = <emailFragment> ximoihcuilo</emailFragmento> ichin tutlahcuilol correo para nicmatis quenihuilis tictechpalehuis ichin campañas, ilhuimeh huan quenin cualtia Common Voice
+about-stay-in-touch-text-1 = <emailFragment> ximoihcoilo</emailFragmento> ichin totlahcuilol correo para nicmatis quenihuilis tictechpalehuis ichin campañas, ilhuimeh huan quenin cualtia Common Voice
 about-stay-in-touch-text-2 = huilis tiquimixmatis ocsiquen masehualmeh campanichicumasehual tlahtol de Mozilla muniluhtoc <discourselink>Discourse</discourseLink>para tlahtolmeh nichicol o <matrixLink>Matrix</matrixLink> para mucsilica cuali tlahtol isiuhca
 about-nav-why-common-voice = ¿Queye?
 about-nav-how-it-works = ¿Queni?
 about-nav-get-involved = tepalehuia
-about-nav-how-it-works-2 = ¿quenin cualtia tlahtol comun?
-about-nav-playbook = xitlasalo quenin titech palehuis
+about-nav-how-it-works-2 = ¿quenin cualtia Common Voice?
+about-nav-playbook = xitlasalo quenin titechpaleuis
 
 ## Community Playbook Content
 ## What is a language
 
 about-playbook-what-is-language = ¿tleno se masehual tlahtol ich Common Voice?
-about-playbook-what-is-language-content-1 = catqui miak tlamantl de sec tlanimilis ikan masehual tlahtol.tlen qui teixmateh tlahtol, Common Voice quihtuhua matimu nimiltica ichin ¨tiachcasaluhuani¨ o ¨¿ huilis tlahtuhuaneh de nicanca masehual tlahtol mu yecnutsasque tla qui yehyecuhuah?¨
-about-playbook-what-is-language-content-2 = secniqui tlen temacah tlahtol moc ixmaticah cuali se hueyi tenuhnutzaneh. para nicanca mu pano se nichicul tlanahuatil tlahtol quipia qui teixpantis a miqueh masehualmeh tlatlamantl
+about-playbook-what-is-language-content-1 = catqui miak tlamantl de setlanimilis ican masehual tlahtol.tlen quixmate tlahtol, Common Voice quihtuhua matimunimiltica ichin ¨tiachcasaluhuani¨ o ¨¿ huilis tlahtuhuaneh de nicanca masehual tlahtol mu yecnutsasque tla quiyehyecuhuah?¨
+about-playbook-what-is-language-content-2 = secniqui tlen temacah tlahtol moixmaticah cuali se hueyi tenuhnutzaneh. para nicanca mupano se nichicul tlanahuatil tlahtol quipia quiteixpantis campa miqueh masehualmeh tlatlamantl
 about-playbook-what-is-language-content-3 = siqui tlahtulmeh quipia se hueyi variacion que tlahcuilohuah, quenin tlahtuhuah, huan quenin quihtuhuah. icanun ticateh<ctaLink> calaquilihtoc variantes </ctaLink> ichin 2022. nicanca qui temaca nichicomasehual queni qui pihpinas y tlahtol tlahtic campa mu nichicuhua tlanahuatil cachi hueyi
 
 ## How do I add a language
