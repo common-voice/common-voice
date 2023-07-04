@@ -704,6 +704,7 @@ report-other-comment =
     .placeholder = Pikir
 success = Tayar
 continue = Dawam etiw
+report-success = Shaǵım tabıslı jiberildi
 
 ## Goals
 
@@ -739,6 +740,9 @@ finish-editing = Dáslep ózgertiwdi tamamlawdı qáleysiz be?
 set-a-goal = Maqset qoyıw
 confirm-goal = Maqsetti tastıyıqlaw
 goal-interval-weekly = Háptelik
+share-goal-type-speak = Dawıs jazıw
+share-goal-type-listen = Tekseriw
+share-goal-type-both = Dawıs jazıw hám tekseriw
 weekly-goal-created = Siziń háptelik maqsetińiz jaratıldı
 daily-goal-created = Siziń kúndelik maqsetińiz jaratıldı
 
