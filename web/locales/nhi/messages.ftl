@@ -462,16 +462,15 @@ about-nav-playbook = xitlasalo quenin titechpaleuis
 about-playbook-what-is-language = ¿tleno se masehual tlahtol ich Common Voice?
 about-playbook-what-is-language-content-1 = catqui miak tlamantl de setlanimilis ican masehual tlahtol.tlen quixmate tlahtol, Common Voice quihtuhua matimunimiltica ichin ¨tiachcasaluhuani¨ o ¨¿ huilis tlahtuhuaneh de nicanca masehual tlahtol mu yecnutsasque tla quiyehyecuhuah?¨
 about-playbook-what-is-language-content-2 = secniqui tlen temacah tlahtol moixmaticah cuali se hueyi tenuhnutzaneh. para nicanca mupano se nichicul tlanahuatil tlahtol quipia quiteixpantis campa miqueh masehualmeh tlatlamantl
-about-playbook-what-is-language-content-3 = siqui tlahtulmeh quipia se hueyi variacion que tlahcuilohuah, quenin tlahtuhuah, huan quenin quihtuhuah. icanun ticateh<ctaLink> calaquilihtoc variantes </ctaLink> ichin 2022. nicanca qui temaca nichicomasehual queni qui pihpinas y tlahtol tlahtic campa mu nichicuhua tlanahuatil cachi hueyi
+about-playbook-what-is-language-content-3 = siqui tlahtulmeh quipia se hueyi variacion que tlahcuilohuah, quenin tlahtuhuah, huan quenin quihtuhuah. icanun ticateh<ctaLink> calaquilihtoc variantes </ctaLink> ichin 2022. nicanca quitemaca nichicomasehual queni quipihpinas y tlahtol tlahtic campa mu nichicuhua tlanahuatil cachi hueyi
 
 ## How do I add a language
 
-about-playbook-how-add-language = ¿queni nic tlalia ocse tlahtol?
-about-playbook-how-add-language-content-1 = primero xocon yectlali mu tlahtol <languageLink> yi catqui</languageLink> tla amo uhcon, huilis  <languageRequestLink> xictlahtlani tic tlalis mu  tlahtol </languageRequestLink> catqui umi etapas. tic cuipas sitio huan tic nichicos tlahtulmeh
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink> xiquita tu tiachcanimilis quenin mucuis Pontoon.</translateVideoLink>
+about-playbook-how-add-language = ¿queni nictlalia ocse tlahtol?
+about-playbook-how-add-language-content-1 = primero xoconyectlali mutlahtol <languageLink> yicatqui</languageLink> tlamo uhcon, huilis  <languageRequestLink> xictlahtlani tictlalis mutlahtol </languageRequestLink> catqui umi etapas. ticcuipas sitio huan ticnichicos tlahtulmeh
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> xiquita totiachcanimilis quenin mucuis Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = nichico tlahtol
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> xiquita tu tiachcanimilis quenin mucuis nichicol tlahtol </sentenceCollectorVideo>
-about-playbook-how-add-language-collecting-sentences-content-2 = huilis<sentenceCollectorLinkAdd> tiquin tlalihtas tzocopintsitsi tlahtulmeh</sentenceCollectorLinkAdd> o huilis tic chihuas <bulkImportDocsLink>quiculiniah miac quicuitihueh</bulkImportDocsLink> xiquilnamiqui quen tlanonots quipia de isqui <licenseLink>CC0 tlamo (iaxca nuchi masehual </licenseLink> o huilis tiquihcuilos mi axcahuah
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> xiquita tu tiachcanimilis quenimocuis nichicol tlahtol </sentenceCollectorVideo>
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>xiquita cachi campa usek nihnichico  tlahtulmeh</sentenceCollectorFragment>
 
 ## How does localization work
