@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Localized } from '@fluent/react'
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs'
+import { Link } from 'react-router-dom'
 import classNames from 'classnames'
 
 import Page from '../../ui/page'
@@ -15,20 +16,26 @@ import { LinkButton } from '../../ui/ui'
 
 import { SENTENCE_NAV_IDS, VOICE_NAV_IDS } from './constants'
 import { COMMON_VOICE_EMAIL } from '../../../constants'
+import useScrollToGuidelinesSection from './use-scroll-to-guidelines-section'
+import { useToLocaleRoute } from '../../locale-helpers'
+import URLS from '../../../urls'
 
 import './guidelines.css'
 
 const Guidelines = () => {
-  const { hash } = window.location
-  const id = hash.replace('#', '')
-
   const defaultVoiceOption = VOICE_NAV_IDS.PRONUNCIATIONS
   const defaultSentenceOption = SENTENCE_NAV_IDS.PUBLIC_DOMAIN
 
-  const [selectedTabIndex, setSelectedTabIndex] = React.useState(0)
+  const toLocaleRoute = useToLocaleRoute()
 
-  const [selectedTabOption, setSelectedTabOption] =
-    React.useState(defaultVoiceOption)
+  const guidelinesRoute = toLocaleRoute(URLS.GUIDELINES)
+
+  const {
+    selectedTabIndex,
+    setSelectedTabIndex,
+    selectedTabOption,
+    setSelectedTabOption,
+  } = useScrollToGuidelinesSection()
 
   const handleOnTabSelect = (index: number, lastIndex: number) => {
     // If the user changes the tab select the first tab option by default
@@ -42,22 +49,6 @@ const Guidelines = () => {
 
     setSelectedTabIndex(index)
   }
-
-  React.useEffect(() => {
-    if (hash) {
-      const tabIndexToSelect = Object.values(VOICE_NAV_IDS).includes(id) ? 0 : 1
-      setSelectedTabIndex(tabIndexToSelect)
-
-      const element = document.getElementById(id)
-
-      if (element) {
-        setSelectedTabOption(id)
-        element.scrollIntoView({ block: 'start', behavior: 'smooth' })
-      }
-    } else {
-      setSelectedTabIndex(0)
-    }
-  }, [])
 
   return (
     <Page className="guidelines-main-container" dataTestId="guidelines-page">
@@ -77,15 +68,18 @@ const Guidelines = () => {
         <Tabs selectedIndex={selectedTabIndex} onSelect={handleOnTabSelect}>
           <div className="tablist-wrapper">
             <TabList className="tablist">
-              <Localized id="voice-collection">
-                <Tab
-                  selectedClassName="selected-tab"
-                  className="tab first-tab"
-                />
-              </Localized>
-              <Localized id="sentence-collection">
-                <Tab selectedClassName="selected-tab" className="tab" />
-              </Localized>
+              <Tab selectedClassName="selected-tab" className="tab first-tab">
+                <Link to={`${guidelinesRoute}?tab=voice`} className="tab-link">
+                  <Localized id="voice-collection" />
+                </Link>
+              </Tab>
+              <Tab selectedClassName="selected-tab" className="tab">
+                <Link
+                  to={`${guidelinesRoute}?tab=sentence`}
+                  className="tab-link">
+                  <Localized id="sentence-collection" />
+                </Link>
+              </Tab>
             </TabList>
           </div>
 
@@ -95,15 +89,18 @@ const Guidelines = () => {
                 {Object.keys(VOICE_NAV_IDS).map(key => (
                   <li key={VOICE_NAV_IDS[key]}>
                     <div className="line" />
-                    <a
-                      href={`#${VOICE_NAV_IDS[key]}`}
-                      onClick={() => setSelectedTabOption(VOICE_NAV_IDS[key])}
+                    <Link
+                      to={{
+                        pathname: location.pathname,
+                        hash: `#${VOICE_NAV_IDS[key]}`,
+                        search: `?tab=voice`,
+                      }}
                       className={classNames({
                         'selected-option':
                           VOICE_NAV_IDS[key] === selectedTabOption,
                       })}>
                       <Localized id={VOICE_NAV_IDS[key]} />
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -118,17 +115,18 @@ const Guidelines = () => {
                 {Object.keys(SENTENCE_NAV_IDS).map(key => (
                   <li key={SENTENCE_NAV_IDS[key]}>
                     <div className="line" />
-                    <a
-                      href={`#${SENTENCE_NAV_IDS[key]}`}
-                      onClick={() =>
-                        setSelectedTabOption(SENTENCE_NAV_IDS[key])
-                      }
+                    <Link
+                      to={{
+                        pathname: location.pathname,
+                        hash: `#${SENTENCE_NAV_IDS[key]}`,
+                        search: `?tab=sentence`,
+                      }}
                       className={classNames({
                         'selected-option':
                           SENTENCE_NAV_IDS[key] === selectedTabOption,
                       })}>
                       <Localized id={SENTENCE_NAV_IDS[key]} />
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
