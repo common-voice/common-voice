@@ -763,6 +763,8 @@ download-start = Profil maǵlıwmatların júklep alıw
 download-request-button = Júklep alıw
 download-request-title = { $created }
 download-request-refresh-button = Jańalaw
+download-request-modal-title = Júklep alıw ushın siltemeler
+download-request-modal-description = ZIP fayllarıńızdı júklep alıw ushın siltemeler.
 download-request-metadata-link = Gáp teksti
 
 ## Landing
@@ -780,6 +782,7 @@ demo-welcome-subheader = Joybardı qollap-quwatlawǵa hám kóbirek biliwge qız
 card-button-next = Keyingi
 card-button-back = Artqa
 demo-language-select-label = Tillerdi kóriw
+demo-eofy-sub_header = Júklep alıw ushın tayar dawıslı maǵlıwmatlar toplamı
 demo-account = Akkaunt
 
 ## Demo Account
