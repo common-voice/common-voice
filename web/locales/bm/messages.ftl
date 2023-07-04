@@ -626,9 +626,16 @@ about-playbook-how-record-content-1 = Kuma ni i kan ye min bɛ kɛ cogo la! I b�
 about-playbook-how-record-content-2 = Aw ye aw yɛrɛ tanga kɔkan mankan caman ma - a ka kan ka nɔgɔya ka aw mɛn.
 about-playbook-how-record-content-3 = Kumasen kalan ka ɲɛ - kana tɛmɛ, ka daɲɛw Changer walima ka daɲɛw fara a kan.
 about-playbook-how-record-content-4 = I k’a lajɛ ni plateforme bɛ ka sɛbɛnni kɛ sanni i ka kuma daminɛ, ani ko a bɛ jɔ dɔrɔn ni i ye kuma ban.
+about-playbook-how-record-content-5 = <accuracyLink>Aw ye kunnafoni wɛrɛw lajɛ tiɲɛni sariyaw kan.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = An bɛ se ka kan dɔ yiriwa cogo ɲuman na Common Voice kan?
+about-playbook-how-grow-language-content-1 = Ka sababuw di mɔgɔ suguya caman ma walasa u ka se ka dɛmɛ don Common Voice la, o b’a to kunnafonidilan in bɛ baara kɛ mɔgɔ caman ye. An ye nafolomafɛnw ni misaliw dilan i bɛ se ka baara kɛ ni minnu ye!
+about-playbook-how-grow-language-content-2 = Ko minnu kɛra
+about-playbook-how-grow-language-content-3 = aw bɛ se ka ko kɛtaw ɲɛminɛ walasa ka mɔgɔw dɛmɛ u ka dɛmɛ don. A ka nɔgɔn ka tɛmɛ i hakilina kan. I bɛ se k’a kɛ ɛntɛrinɛti kan ni videyo-konferansi baarakɛminɛn ye, walima i yɛrɛ fɛ n’a farati tɛ. <eventTemplate>An ka jatebɔlanw ni nafolomafɛnw lajɛ ko kɛlenw bolicogo kama</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Sosiyete ka kunnafonidilanw
+about-playbook-how-grow-language-content-5 = I bɛ se ka baara kɛ ni sosiyete ka kunnafonidilanw ye walasa ka cikan bɔ kɛnɛ kan. Aw ye sɛbɛnw tila minnu b’a ɲɛfɔ mun na a nafa ka bon, ani ka kuma mɔgɔ wɛrɛw fɛ minnu bɛ kuma ko dɔw kan i n’a fɔ kanko josariyaw, kan AI, walima bias in tech. Aw ye laadilikan wɛrɛw lajɛ <campaignLink>kanpaɲi sosiyete ka kanpaɲi kan, i bɛ se ka baara kɛ ni min ye kokura</campaignLink> kɔnɔkow fana sen bɛ o la.
 
 ## How to validate
 
