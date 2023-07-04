@@ -471,25 +471,25 @@ about-playbook-how-add-language-content-1 = primero xoconyectlali mutlahtol <lan
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> xiquita totiachcanimilis quenin mucuis Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = nichico tlahtol
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> xiquita tu tiachcanimilis quenimocuis nichicol tlahtol </sentenceCollectorVideo>
-about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>xiquita cachi campa usek nihnichico  tlahtulmeh</sentenceCollectorFragment>
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>xiquita cachi campa usek nihnichico  tlahtuolmeh</sentenceCollectorFragment>
 
 ## How does localization work
 
 about-playbook-how-localize = quenin cualtia para sequimahsis sitios?
-about-playbook-how-localize-content-1 = campa mu patla tlahtol ich Common Voice  muchihua itich<strong> Pontoon</strong>
-about-playbook-how-localize-content-2 = <pontoonAccountLink>xicchihchihua se cuenta </pontoonAccountLink> tla amo tic pia se. San nima xic tlali mu tlahtol<strong> (´ team')</strong>huan nima xic tlali mu tiquiuh<pontoonCvLink>Common Voice</pontoonCvLink>Isqui miak tlahcuilol para tic patlas. xic pachu campa se, nima mits nextilis tlahtol ika Ingles huan quemenia tiquin patlas
-about-playbook-how-localize-content-5 = xiquita tuvideo campa huits quenin mits palehuis
+about-playbook-how-localize-content-1 = campa mupatla tlahtol ich Common Voice  muchihua itich<strong> Pontoon</strong>
+about-playbook-how-localize-content-2 = <pontoonAccountLink>xicchihchihua se cuenta </pontoonAccountLink> tla amo ticpia se. Sanima xictlali mu tlahtol<strong> (´ team')</strong>huan nima xictlali mutiquiuh<pontoonCvLink>Common Voice</pontoonCvLink>Isqui miak tlahcuilol para ticpatlas. xicpachu campa se, isiuhca mitsnextilis tlahtol ica Ingles huan quemenia tiquin patlas
+about-playbook-how-localize-content-5 = xiquita tovideo campa huits quenin mits palehuis
 
 ## How to add sentences
 
-about-playbook-how-add-sentences = ¿quini niquin ihcuiluhua cachi tlahtolmeh?
-about-playbook-how-add-sentences-content-3 = huilis tiquicuis <scraperLink> Sentence extractor</scraperLink> para tiquincuis tlahcuilol tzocopintzitzi de Wikipedia
-about-playbook-how-add-sentences-content-4 = tlahcuilolmeh tlen quema uquin silihqueh mu panultisqueh tunal miercoles  huan huilis mucuis satepan den ocse naltitlanil
+about-playbook-how-add-sentences = ¿queni niquinihcuilohua cachi tlahtolmeh?
+about-playbook-how-add-sentences-content-3 = huilis ticuis <scraperLink> Sentence extractor</scraperLink> para tiquincuis tlahcuilol tzocopintzitzi de Wikipedia
+about-playbook-how-add-sentences-content-4 = tlahcuilolmeh tlen quema oquinsilihqueh mu panultisqueh tunal miercoles  huan huilis mocuis satepan den ocse naltitlanil
 
 ## How to record quality
 
-about-playbook-how-record-quality = queni ni tlahtolahcucui se clip mui cuali?
-about-playbook-how-record-content-1 = xi tlahto normal. Uhcon quenti tlahtuhua nican cuali sec silia, sec niqui mu tlahtol uhcon quen yuhui, huan secniqui uhcon chicahuac huan queni nun tlahtuhuah queme nucumateh
+about-playbook-how-record-quality = queni ni tlahtolahcocui se clip maicuali?
+about-playbook-how-record-content-1 = xitlahto normal. Uhcon quentitlahtohua nican cuali secsilia, secniqui mutlahtol uhcon quen yuhui, huan secniqui uhcon chicahuac huan quemenun tlahtuhuah queme nucumateh
 about-playbook-how-record-content-2 = amo simi mu tlacalani ic tlahtic, quipia de mu caquis cuali
 about-playbook-how-record-content-3 = xicmumachti tlahtol ica cuidado, amo xic pulo xic patla o xin tlalili tlahtol
 about-playbook-how-record-content-4 = xiquita quen plataforma mu yupeuh tlahtolahcucui achton ti pehuas ti tlahtos huan mumunacti cuando yutic tlameh
