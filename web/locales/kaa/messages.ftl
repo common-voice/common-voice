@@ -528,6 +528,8 @@ about-playbook-how-validate-content-4 = Eger dawıslı úzindi 2 adam tárepinen
 ## How to access dataset
 
 about-playbook-how-access-dataset = Maǵlıwmatlar toplamına qalay kiremen hám paydalanaman?
+about-playbook-how-access-dataset-content-1 = Siz <datasetsPage>maǵlıwmatlar toplamı</datasetsPage> betine ótip kerekli versiyanı hám til(-ler)di tańlap, keyin olardı júklep alıwıńız múmkin! Fayllarǵa demografiyalıq hám tekseriw maǵlıwmatları sıyaqlı <metadataLink>meta maǵlıwmatlar</metadataLink> biriktirilgen. Maǵlıwmatlar toplamın júklep alıw ushın elektron pochtańızdı kórsetiwińiz kerek.
+about-playbook-how-access-dataset-content-2 = Eger siz ASR modellerin jaratıw ushın qurallardı izlep atırǵan bolsańız, birlespedegi basqa adamlar menen <discourseLink>Discourse</discourseLink>ta baylanısıwıńız múmkin.
 
 ## How are decisions made
 
