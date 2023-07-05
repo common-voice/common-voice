@@ -532,6 +532,13 @@ about-playbook-how-access-dataset = Maǵlıwmatlar toplamına qalay kiremen hám
 ## How are decisions made
 
 about-playbook-how-project-governance = Joba boyınsha sheshimler qalay qabıllanadı?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice hár túrli belsendiler, lingvistler, maǵlıwmatlar boyınsha ilimpazlar, alımlar hám dúnya júzi boyınsha baǵdarlamashı injenerler tárepinen jaratılǵan. Joybar Mozilla Foundation tárepinen basqarıladı.
+about-playbook-how-project-governance-content-2 = Biziń basqarıwımız tómendegi principlarǵa tiykarlanǵan:
+about-playbook-how-project-governance-content-3 = Qupıyalıq, qáwipsizlik hám tınıqlıq.
+about-playbook-how-project-governance-content-4 = Birlespeniń qatnası hám qarar qabıl etiwi.
+about-playbook-how-project-governance-content-5 = Bahalılıq hám tanılıw.
+about-playbook-how-project-governance-content-6 = Óz ara juwapkershilik.
+about-playbook-how-project-governance-content-7 = <governanceLink>Biz qalay basqarılıwımız haqqında kóbirek oqıń</governanceLink>
 
 ## Glossary
 
@@ -1062,9 +1069,16 @@ just-unsure = Isenimińiz kámil emes pe?
 example = Mısal
 varying-pronunciations-example = Jónelis anıq bolmadı.
 contact-common-voice = Common Voice toparı menen baylanısıw
+public-domain = Xalıq dóretpeleri
 citing-sentences = Gáplerge citata keltiriw
 adding-sentences = Gáplerdi qosıw
 reviewing-sentences = Gáplerdi tekseriw
+public-domain-explanation-1 = Common Voice maǵlıwmatlar toplamı cc0 licenziyası tiykarında shıǵarılǵanı sebepli barlıq tekstli gápler <publicDomain>xalıq dóretpesi</publicDomain> (<cc0>cc0</cc0>) bolıwı júdá áhmiyetli. Gápti tek ǵana isenimińiz kámil bolsa júkleń hám hámiyshe sáykes citatanı keltiriń.
+public-domain-explanation-2 = Paydalı dawıstı anıqlaw mexanizmin jaratıw ushın eń jaqsı gápler — awızeki zamanagóy tilde. Gáplerdi oylap tabıwǵa járdem beretuǵın birneshe ideyalar:
+public-domain-explanation-3 = Awızeki zamanagóy gáplerdi ózińiz, doslarıńız yamasa til birlespesi menen jaratıń, mısalı, "write-a-thon" járdeminde
+public-domain-explanation-4 = Avtorlar, dramaturg yamasa scenaristler menen baylanısıń hám óziniń shıǵarmalarınıń kishkene bir bólegin xalıq dóretpesine bere alıwın sorań
+public-domain-explanation-5 = Avtorlıq huqıqı endi ámel etpeytuǵın tekstlerdi izleń, mısalı, 1920-jılǵa shekem baspadan shıǵarılǵan kópshilik kitaplar
+public-domain-explanation-6 = Húkimetlerge, kommerciyalıq emes shólkemlerge yamasa media shólkemlerine xabarlasıń hám olardıń qanday da bir veb-kontenti, esabatları yamasa basqa kontenti xalıq dóretpesi bolıwı múmkinligin biliń
 citing-sentences-subheader-websites = Veb-saytlar
 citing-sentences-subheader-websites-explanation = Siz veb-sayttı kirgiziwińiz múmkin, mıs: "Common Voice" — https://commonvoice.mozilla.org/
 citing-sentences-subheader-offline-sources = Oflayn derekler
@@ -1076,6 +1090,7 @@ adding-sentences-subheader-length-explanation = Gáp 15 sózden kem bolıwı ker
 adding-sentences-subheader-spelling-punctuation = Imla hám irkilis belgileri
 adding-sentences-subheader-spelling-punctuation-explanation = Gáp durıs jazılıwı kerek.
 adding-sentences-subheader-numbers = Sanlar
+adding-sentences-subheader-numbers-explanation = Múltiksiz halda negizgi tekstte cifrlar bolmawı kerek, sebebi olar dawıslap oqıǵanda qıyınshılıqlarǵa sebep boladı. Sanlardı oqıw usılı kontekstke baylanıslı hám maǵlıwmatlar toplamında túsiniksizlikke / bılǵasıqqa alıp keliwi múmkin. Mısalı, “2409” sanın “jigirma tórt nol toǵız” hám "eki mıń tórt júz toǵız" dep anıq oqıwǵa boladı.
 adding-sentences-subheader-punctuation = Irkilis belgileri
 adding-sentences-subheader-special-characters = Arnawlı belgiler hám shet tili háripleri
 adding-sentences-subheader-special-characters-explanation-2 = Tiller lokalizaciya waqtında óziniń qosımsha talapları menen tekseriw qaǵıydalarına iye bolıwı múmkin. Eger tildiń arnawlı tekseriw faylı bolmasa, qatnasıwshılar ushın anglichan tilindegi qaǵıydalar kórsetiledi.
