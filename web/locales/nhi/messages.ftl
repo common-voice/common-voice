@@ -600,25 +600,25 @@ feedback-q = ¿ticpia se tlahtol?
 resource-coqui-info = <coquiLink>Coqui</coquiLink> quichioa tipostlahtol tlapohtoc. itiquiu nihnimitia motores  STT huan TTS teixpantilis ica tlamachtil tlahtic
 resource-playbook-info = <playbookLink> xicahsi nimilis tlen cualtias </playbookLink> quemeh nuchi nemilis de Common Voice  campacateh hasta campaquicueh sansica tlanaoatil, huan queni timonilos ican tonichicomaseoal
 data-other-voxforge-description = VoxForge omuchiuh para monichicosqueh tlahtolme ihcoilohtoqueh para moquin coicah icanemilis de ixmatilistlahtol ica código tlapohtoc
-data-other-tatoeba-description = Tatoeba yeh se hueyi nichicol tlanahuatil, tlahtolcuipah huan tlahtolahcuc para munextilisqueh tipusmeh. nicancah timulistl quoia nuchi ingles tlahtulahcuctoc ica y nichicomasehual
-your-feedback = ¿ticpia se nimilil para tic chihuasque cachi cuali tlanahuatil de Common Voice? xitechilhui ichin Discourse
-go-discourse = yuhui a Discourse
-missing-language = amo neci mu tlahtol ichin tlanahuatil? tla ticniqui tic tlalis xiyu ichin tu pagina de tlahtulmeh
+data-other-tatoeba-description = Tatoeba yeh sehueyi nichicol tlanahuatil, tlahtolcuipa huan tlahtolahcocui para monextilisqueh tiposmeh. nicancah timolistl quipia nochi ingles tlahtulahcoctoc ica ynichicomasehual
+your-feedback = ¿ticpia senemilil para ticchioasque cachicoali tlanahuatil de Common Voice? xitechilhui ichin Discourse
+go-discourse = yohui a Discourse
+missing-language = amoneci motlahtol ichin tlanahuatil? tlaticniqui tictlalis xiyu ichin to pagina de tlahtolmeh
 go-languages-page = yas ichin pagina de tlahtulmeh
-ready-to-validate = yicuali tica para tiquin silis tlahtol
+ready-to-validate = yicuali tica para tiquin silis tlahtolme
 more = Cachi
 close = tlatzacua
-download = timulti
+download = timolti
 
 ## Download Modal
 
-download-title = mu timulistl yupeuh
-download-helpus = xitech palehui matic chihuacah se nichicomasehual ican tipos tlahtol, ximu nuhnutsto ika correo.
+download-title = mutimulistl yupeuh
+download-helpus = xitechpalehui maticchihuaca se nichicomasehual ican tipostlahtol, ximonohnotsto ica correo.
 download-form-email =
-    .label = xictlali mu correo
+    .label = xictlali mucorreo
     .value = tlasohcamatictzin, ti mu nuhnutstusqueh
-download-back = ximucuipa ichin tlanahuatil de Common Voice
-download-no = Amo, tlasohcamatictsin
+download-back = ximocuipa ichin tlanaoatil de Common Voice
+download-no = Amo, tlasohcamatictzi
 
 ## Contact Modal
 
