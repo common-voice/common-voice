@@ -1058,6 +1058,7 @@ varying-pronunciations-example = Jónelis anıq bolmadı.
 contact-common-voice = Common Voice toparı menen baylanısıw
 adding-sentences = Gáplerdi qosıw
 citing-sentences-subheader-websites = Veb-saytlar
+citing-sentences-subheader-websites-explanation = Siz veb-sayttı kirgiziwińiz múmkin, mıs: "Common Voice" — https://commonvoice.mozilla.org/
 citing-sentences-subheader-offline-sources = Oflayn derekler
 citation =
     .label = Citata
