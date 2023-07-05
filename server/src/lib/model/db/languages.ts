@@ -3,7 +3,7 @@ import { getMySQLInstance } from './mysql'
 
 // literal representation of languages in database (locales table)
 // LTR = left-to-right, RTL = right-to-left, TTB = top-to-bottom, BTT = bottom-to-top
-export interface LanguageSchema {
+export interface ILanguageSchema {
   id: number
   name: string
   target_sentence_count: number
@@ -17,11 +17,15 @@ class LanguageRepository {
   TABLE_NAME = 'locales'
   mysql = getMySQLInstance()
 
-  save(language: LanguageSchema): LanguageSchema {
+  save(language: ILanguageSchema): ILanguageSchema {
     return language
   }
-
-  async update(language: LanguageSchema): Promise<boolean> {
+  /**
+   *
+   * @param language language data to be saved to db, must include valid id
+   * @returns
+   */
+  update(language: ILanguageSchema) {
     const { id } = language //get language id
 
     const updatableLanguageData = Object.entries(language).filter(
@@ -41,12 +45,8 @@ class LanguageRepository {
       ${stringifiedParameterizedColumns}
       WHERE id = ?
     `
-    try {
-      await this.mysql.query(query, languageColumnValues)
-      return true
-    } catch (error) {
-      return false
-    }
+
+    return this.mysql.query(query, languageColumnValues)
   }
 
   //   function findById(id: number): Language {}
