@@ -544,16 +544,15 @@ sst-explanation = tipos tlahcuilol a tlahtol (STT) tlen quipatla tlanahuatil de 
 error-title-404 = amo oticahsiqueh nun página para tejuatl
 error-content-404 = ¿kanah to<homepageLink>página campa sepehua </homepageLink> huilis mits palehuis? para tictlahtlanis, ximunilo<matrixLink> campa monohnotzah nichicomasehual Matrix</matrixLink> xiquita problemas den sitio ic<githubLink>GitHub</githubLink> o xiyo<discourseLink>campa foros Discurse</discourseLink>
 error-title-503 = tipanutuque se tiempo amo usecmatia amo setiquitis
-error-content-503 = sitio ocsipa huilis mocuis. para huilis secsilis tlanaoatil cachi yancoic, ximonilo <matrixLink>campa monohnotza nichicomasehual Matrix</matrixLink> o xiyu<githubLink>GitHub</githubLink> o <discourseLink> muforos de Discourse</discourseLink> para sequinaltitlanis huan secchihuas se nimilis den problemas ican tlen yi sec mati den sitio
-error-code = amohuili
+error-content-503 = sitio ocsipa huilis mocuis. para huilis secsilis tlanaoatil cachi yancoic, ximonilo <matrixLink>campa monohnotza nichicomasehual Matrix</matrixLink> o xiyu<githubLink>GitHub</githubLink> o <discourseLink> muforos de Discourse</discourseLink> para sequinaltitlanis huan secchihuas se nimilis den problemas ican experiencia de sitio
+error-code = amohuili { $code }
 
 ## Data
 
-data-download-button = timulti tlanahuatil de Common Voice
-data-download-yes = Quemah
+data-download-button = timulti tlanaoatil de Common Voice
 data-download-deny = Amo
 data-download-license = tlacahuil:<licenseLink>CC-0</licenseLink>
-data-download-modal = santipitzin huan tic pehualtis se timulistl de <size>{ $size }GB</size> ¿nihnimitis?
+data-download-modal = santipitzin huan ticpehualtis se timulistl de <size>{ $size }GB</size> ¿nihnimitis?
 data-subtitle = sec chiuhtoc se tlanahuatil tlahtol tlapuhtoc huan huilis quicuisqueh que nuchten mu huilican muc cuicah para yehyecusqueh aplicaciones ican ixmatilis tlahtol
 data-get-started = <speechBlogLink>xic pehualti ican ixmatilis tlahtol</speechBlogLink>
 data-other-title = ocsiqueh tlanahuatimeh tlahtol…
