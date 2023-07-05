@@ -17,10 +17,11 @@
 
 import { Language, TextDirection } from 'common'
 import database from '../model/db'
-import languageRepository, { LanguageSchema } from '../model/db/languages'
+import languageRepository, { ILanguageSchema } from '../model/db/languages'
+import fetch from 'node-fetch'
+import { log } from 'console'
 
 const TRANSLATION_CRITERIA_CUTOFF = 0.6
-const DEFAULT_TARGET_SENTENCE_COUNT = 5000
 const PONTOON_URL =
   'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code,name,direction}}}}'
 
@@ -50,7 +51,7 @@ const getPontoonLanguages = async (): Promise<PontoonData[]> => {
 const convertPontoonDataToLanguageSchema = (
   pontoonData: PontoonData,
   language: Language
-): LanguageSchema => {
+): ILanguageSchema => {
   const {
     totalStrings,
     approvedStrings,
@@ -85,7 +86,7 @@ const convertPontoonDataToLanguageSchema = (
 const mapToLanguageSchemas = (
   localizations: PontoonData[],
   languages: Language[]
-): LanguageSchema[] => {
+): ILanguageSchema[] => {
   return localizations.map(localization => {
     const language = languages.find(
       lang => lang.name === localization.locale.code
@@ -99,22 +100,21 @@ const mapToLanguageSchemas = (
  *
  * @param languages all the new language data that needs to be saved to db
  */
-export const saveData = async (languages: LanguageSchema[]) => {
-  return await Promise.all(
+const saveData = (languages: ILanguageSchema[]) =>
+  Promise.all(
     languages.map(language => {
       languageRepository.update(language)
     })
   )
-}
 
 export const syncPontoonLanguageStatistics = async () => {
   console.log('starting pontoon language sync')
 
   const existingLanguages = await database.getLanguages()
-  console.log('existing languages', existingLanguages.length)
+  console.log('existing languages count', existingLanguages.length)
 
   const pontoonLanguages = await getPontoonLanguages()
-  console.log('pontoon languages', pontoonLanguages.length)
+  console.log('pontoon languages count', pontoonLanguages.length)
 
   const languages = mapToLanguageSchemas(pontoonLanguages, existingLanguages)
   await saveData(languages)
