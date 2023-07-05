@@ -542,9 +542,9 @@ sst-explanation = tipos tlahcuilol a tlahtol (STT) tlen quipatla tlanahuatil de 
 ## Error pages
 
 error-title-404 = amo oticahsiqueh nun página para tejuatl
-error-content-404 = ¿kanah tu<homepageLink>página campa se pehua </homepageLink> huilis mits palehuis? para tic tlahtlanis, ximunilo<matrixLink> campa mu nuhnutsah nichicomasehual Matrix</matrixLink> xiquita problemas den sitio ic<githubLink>GitHub</githubLink> o xiyu<discourseLink>campan foros Discurse</discourseLink>
-error-title-503 = ti panutuque ich  se tiempo amo usecmatia amo se tiquitis
-error-content-503 = sitio ocsipa huilis mucuis. para huilis sec silis tlanahuatil cachi yancuic, ximunilo <matrixLink>campa mu nuhnutza nichicomasehual Matrix</matrixLink> o xiyu<githubLink>GitHub</githubLink> o <discourseLink> tu foros de Discourse</discourseLink> para sequinaltitlanis huan sec chihuas se nimilis den problemas ican tlen yi sec mati den sitio
+error-content-404 = ¿kanah to<homepageLink>página campa sepehua </homepageLink> huilis mits palehuis? para tictlahtlanis, ximunilo<matrixLink> campa monohnotzah nichicomasehual Matrix</matrixLink> xiquita problemas den sitio ic<githubLink>GitHub</githubLink> o xiyo<discourseLink>campa foros Discurse</discourseLink>
+error-title-503 = tipanutuque se tiempo amo usecmatia amo setiquitis
+error-content-503 = sitio ocsipa huilis mocuis. para huilis secsilis tlanaoatil cachi yancoic, ximonilo <matrixLink>campa monohnotza nichicomasehual Matrix</matrixLink> o xiyu<githubLink>GitHub</githubLink> o <discourseLink> muforos de Discourse</discourseLink> para sequinaltitlanis huan secchihuas se nimilis den problemas ican tlen yi sec mati den sitio
 error-code = amohuili
 
 ## Data
