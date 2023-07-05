@@ -18,8 +18,8 @@ banner-error-slow-1 = Atlaidit, Common Voice dorbojās lānai. Paļdis par iņte
 banner-error-slow-2 = Mes sajamam daudz pīprasejumu i itūšaļt rysynojam problemys.
 banner-error-slow-link = Statusa lopa
 error-something-went-wrong = Atlaidit, koč kas nūguoja greizi
-error-clip-upload = Ituo īroksta augšonīluode aizviņ naizadūd. Voi raudzeit otkon?
-error-clip-upload-server = Ituo īroksta augšonīluode serverī vys vēļ naizadūd. Puorluodejit lopu voi vāluok raugit vēļreiz.
+error-clip-upload = Ituo īroksta augšynluode aizviņ naizadūd. Voi raudzeit otkon?
+error-clip-upload-server = Ituo īroksta augšynluode serverī vys vēļ naizadūd. Puorluodejit lopu voi vāluok raugit vēļreiz.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -308,7 +308,7 @@ help-variants-explanation = Varianti ir nūsaceita volūdys forma, par pīmāru,
 
 ## Profile - Email
 
-browse-file-title = Augšonīluodejit biļdi
+browse-file-title = Augšynluodejit biļdi
 browse-file = Veļcit i nūsvīdit voi <browseWrap> Puorsaverit </browseWrap>
 connect-gravatar = Sasavīnuot ar Gravatar
 gravatar_not_found = Jiusu e-postam nav atrosts gravatars
@@ -331,6 +331,7 @@ faq-title = Bīžuok aizdūtī vaicuojumi
 faq-what-cv-q = Kas ir Common Voice?
 faq-why-important-q = Deļkuo tys ir svareigi?
 faq-how-get-q = Kai es varu dabuot Common Voice datus?
+faq-how-get-a = Common Voice datu kūpa ir daīmama zamynluodei, lītojūt <licenseLink> CC0 </licenseLink> liceņzi lopā <datasetLink>datu kūpa</datasetLink>. Jius itamā lopā varit zamynluodēt ari vairuokys cytys publiski daīmamys datu kūpys.
 faq-when-release2-q = Kod jius publicēsit Common Voice datus cytuos volūduos?
 faq-why-mission-q = Deļkuo Common Voice ir daļa nu Mozilla misejis?
 faq-what-cv-and-deepspeech-q = Kaida atškireiba storp Common Voice i Deep Speech?
@@ -489,7 +490,7 @@ license-mixed = Jaukts
 data-download-singleword-title = Zamynluodēt vīna vuorda mierka segmentu
 terms-agree = Es pīkreitu
 terms-disagree = Es napīkreitu
-review-aborted = Augšonīluode teik puortraukta. Voi gribit dzēst sovus īrokstus?
+review-aborted = Augšynluode teik puortraukta. Voi gribit dzēst sovus īrokstus?
 review-submit-title = Puorbaudeit i īsnēgt
 review-submit-msg = Paļdis par īraksteišonu! <lineBreak> </lineBreak> Tagad puorbaudit i īsnīdzit sovus audio failus.
 review-recording = Puorbaudit
@@ -513,12 +514,12 @@ number-of-voices = Bolsu skaits
 splits = Statistika
 email-to-download = Īvodit sovu e-postu, lai zamynluodātu
 why-email = <b>Parkū e-posts?</b> Mums varbyut nuokūtnē byus juosazynoj ar jums par izmaiņom datu kūpā, tū dareisim ar e-posta paleidzeibu.
-confirm-size = Jius esit gotovs suokt lejupīluodēt <b>{ $size }</b>
+confirm-size = Jius esit gotovs suokt zamynluodēt <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Jius pīkreitat</b>, ka naraudzeisit nūsaceit ideņtitati cylvākim, kuri taisejuši īrokstus Common Voice datu kūpā
 confirm-join-mailing-list = Es grybu pīsavīnuot Common Voice viestim e-postā
-download-language = Lejupīluodēt { $language }
+download-language = Zamynluodēt { $language }
 validated-hours = Puorbaudeituos stuņdis
 recorded-hours = Īraksteituos stuņdis
 whats-inside = Kas atsarūn Common Voice datu kūpā?
@@ -533,7 +534,7 @@ go-languages-page = Ejit iz volūdu lopu
 ready-to-validate = Voi esit gotovs paleidzēt puorbaudeit teikumus?
 more = Vairuok
 close = Aiztaiseit
-download = Lejupluodēt
+download = Zamynluodēt
 dataset-version = Verseja
 sha256-checksum-copied = SHA256 kontrolsumma nūkopēta!
 sha256-checksum-copied-error = Naizadeve nūkopēt SHA256 kontrolsummu
@@ -599,7 +600,7 @@ language-validation-progress = Puorbaudis progress
 
 ## Contribution
 
-action-click = Klikškis
+action-click = Klyksts
 action-tap = Pīsaskar
 contribute = Dūt īguļdejumu
 listen = Klausīs
@@ -804,6 +805,7 @@ share-goal = Pasadoli ar sovu mierki
 
 keep = Saglobuot
 remove = Aizvuokt
+remove-info = Mes puorsavērsim jiusu pīprasejumu, lai nu datu kūpys nūjimtu jiusu īrokstus. Ka jiusu pīprasejums tiks apstyprynuots, mes sasazynuosim ari ar tim, kas ir zamynluodejuši datu kūpu i jim pīpraseisim, lai dzieš jiusu īrokstus.
 profile-form-delete = Dzēst profilu
 
 ## Profile Download
@@ -829,9 +831,13 @@ download-request-title = { $created }
 download-request-description = { $clipCount } bolsa īroksti, vysā arhiva izmārs { $size }. Izglobuošonys termiņš { $expires }.
 download-request-archive-single = Vīns ZIP fails, kas satur
 download-request-archive-multiple = Sadaleit { $archiveCount } ZIP failūs, kas satur
+download-request-assembling-description = Jiusu faili teik apkūpuoti. Lyudzu, vāluok puorbaudit vēļreiz.
 download-request-refresh-button = Atjaunynuot
+download-request-modal-title = Zamynīluožu saitis
+download-request-modal-description = Ite ir saitis, lai zamynluodātu jiusu ZIP failus.
 download-request-link-text = Zip #{ $offset } no { $total }
 download-request-metadata-link = Teikuma teksts
+download-request-link-single = Varit ari kopēt i īleimēt ituos adresis sovā meiluokajā zamynluožu puorvaļdnīkā. Tū dereiguma termiņš beigsīs piec 12 stuņžu, bet sevkurā laikā varit atsagrīzt itamā lopā, lai generātu jaunys saitis.
 
 ## Landing
 
@@ -1100,6 +1106,7 @@ adding-sentences-subheader-spelling-punctuation-explanation = Teikumam juobyut p
 adding-sentences-subheader-punctuation = Pīturzeimis
 adding-sentences-subheader-special-characters = Cytu volūdu burti
 adding-sentences-subheader-offensive-content = Aizskarūšs saturs
+reviewing-sentences-explanation-2 = Ka teikums naatbylst agruok nūsauktajim kriterejim, klykstynojit iz pūgys "Nā".
 sentence =
     .label = Teikums
 citation-input-value = Jiusu teikuma olūts
