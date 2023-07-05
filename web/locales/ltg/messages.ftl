@@ -295,7 +295,7 @@ login = Dasaslēgt
 login-signup = Dasaslēgt / Registrētīs
 edit = Lobuot
 email-subscriptions = Jaunumu aboniešona e-postā
-download-profile = Lejupīluodēt munus datus
+download-profile = Zamynluodēt munus datus
 contribution-experience = Pīsadaleišonys pīredze
 skip-submission-feedback = Izlaist atsauksmis
 skip-submission-note = Pīzeime: mainūt īguļdejuma veidu, jums byus juoizavielej īraksteit voi klauseitīs.
@@ -442,7 +442,7 @@ about-playbook-how-validate-content-4 = Ka īrokstu nūraida 2 cylvāki, tys te
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kai datikt i lītuot datu kūpu?
-about-playbook-how-access-dataset-content-1 = Varit īt iz <datasetsPage>datu kūpu lopu</datasetsPage>, atlaseit vajadzeigū verseju i volūdu i tū lejupīluodēt! Failim ir <metadataLink>saisteiti metadati</metadataLink>, par pīmāru, demografiskuo informaceja i validacejis dati. Lai lejupīluodātu datu kūpu, jums byus juonūruoda e-posta adrese.
+about-playbook-how-access-dataset-content-1 = Varit īt iz <datasetsPage>datu kūpu lopu</datasetsPage>, atlaseit vajadzeigū verseju i volūdu i tū zamynluodēt! Failim ir <metadataLink>saisteiti metadati</metadataLink>, par pīmāru, demografiskuo informaceja i validacejis dati. Lai zamynluodātu datu kūpu, jums byus juonūruoda e-posta adrese.
 about-playbook-how-access-dataset-content-2 = Ka vaicojit gotovus reikus, kas lītoj itū datu kūpu, varit sasazynuot ar kūpīnys dalinīkim <discourseLink>Discourse sistemā</discourseLink>.
 
 ## How are decisions made
@@ -462,7 +462,7 @@ glossary = Aproksts
 localization = Lokalizaceja
 hours-recorded-explanation = Da šam savuoktū bolsa īrokstu stuņžu skaits.
 sst = Runa iz tekstu (STT)
-de-identified-explanation = Process, kurā īrunuotuoja profila informaceja teik maskāta juo pazīduotajūs bolsa īrokstūs, ka tī ir daīmami lejupīluodei kai datu kūpys dalis.
+de-identified-explanation = Process, kurā īrunuotuoja profila informaceja teik maskāta juo pazīduotajūs bolsa īrokstūs, ka tī ir daīmami zamynluodei kai datu kūpys dalis.
 
 ## Error pages
 
@@ -471,20 +471,22 @@ error-code = Klaida { $code }
 
 ## Data
 
-data-download-button = Lejupīluodejit Common Voice datus
+data-download-button = Zamynuodejit Common Voice datus
 data-download-yes = Nui
 data-download-deny = Nā
 data-download-license = Liceņze: <licenseLink> CC-0 </licenseLink>
+data-download-modal = Jius gatavejitēs zamynluodēt <size>{ $size }GB</size>, turpynuot?
 data-get-started = <speechBlogLink>Dorba suokšona ar runys atpazeišonu</speechBlogLink>
 data-other-title = Citys bolsa datu kūpys…
 data-other-goto = Ej iz { $name }
-data-other-download = Lejupīluodēt datus
-data-bundle-button = Lejupīluodēt datu kūpys komplektu
+data-other-download = Zamynluodēt datus
+data-bundle-button = Zamynluodēt datu kūpys komplektu
 data-bundle-description = Kūpeigī bolsa dati, kai ari vysys cytys bolsa datu kūpys.
 release-version = Verseja
 dataset-date = Datums
 license = Liceņze: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
+data-download-singleword-title = Zamynluodēt vīna vuorda mierka segmentu
 terms-agree = Es pīkreitu
 terms-disagree = Es napīkreitu
 review-aborted = Augšonīluode teik puortraukta. Voi gribit dzēst sovus īrokstus?
@@ -509,7 +511,7 @@ cv-license = Liceņze
 audio-format = Audio formats
 number-of-voices = Bolsu skaits
 splits = Statistika
-email-to-download = Īvodit sovu e-postu, lai lejupīluodātu
+email-to-download = Īvodit sovu e-postu, lai zamynluodātu
 why-email = <b>Parkū e-posts?</b> Mums varbyut nuokūtnē byus juosazynoj ar jums par izmaiņom datu kūpā, tū dareisim ar e-posta paleidzeibu.
 confirm-size = Jius esit gotovs suokt lejupīluodēt <b>{ $size }</b>
 size-gigabyte = GB
@@ -809,12 +811,20 @@ profile-form-delete = Dzēst profilu
 download-q = Gribit zamynluodēt sovus datus?
 download-info = Pastuostit mums, kū gribit zamynluodēt:
 download-profile-title = Profils
+download-profile-info = E-posts, lītuotuoja vuords i demografiskuo informaceja. Daīmama pa reizi.
 download-profile-size = Puors baiti
 download-recordings-title = Īroksti
+download-recordings-info = Mp3 faili i teikumi. Sagataveišona var aizjimt kaidu laiku.
 download-recordings-size = Parosti megabaiti
+download-recordings-unavailable = Jius navarit pīpraseit sovus īrokstus, cikom nūteik cyta pīprasejuma apstruode.
+download-recently-requested = Varit pīpraseit jaunu sovu īrokstu izjimšonu ik piec { $days } dīnom.
 download-size = Izmārs
 download-selected = Izalaseits
-download-request-button = Lejupīluodēt
+download-start = Zamynluodēt profila datus
+download-request = Pīpraseit īrokstus
+download-requests = Agruokī īrokstu zamynluodis pīprasejumi
+download-requests-info = Kod pīprosit sovus īrokstus, mes tūs apkūpojam vīnā voi vairuokūs ZIP failūs. Ite ir jiusu agruokī pīprasejumi:
+download-request-button = Zamynluodēt
 download-request-title = { $created }
 download-request-description = { $clipCount } bolsa īroksti, vysā arhiva izmārs { $size }. Izglobuošonys termiņš { $expires }.
 download-request-archive-single = Vīns ZIP fails, kas satur
