@@ -625,7 +625,7 @@ download-no = Amo, tlasohcamatictzi
 contact-form-name =
     .label = Motoca
 contact-form-message =
-    .label = tlahcuiloltlahtol
+    .label = tlahcoiloltlahtol
 contact-required = niquilia
 
 ## Request Language Modal
@@ -633,14 +633,14 @@ contact-required = niquilia
 request-language-title = tlahtlani tlahtol
 request-language-form-language =
     .label = Tlahtol
-request-language-success-title = tlahtlani tlahtol yu mu naltitlan cuali, tlasohcamatictzin
-request-language-success-content = timu nuhnutstusqueh ica cachi tlanahuatil quemeh quenin tic tlalis mu tlahtol ichin Common Voice san nimah
+request-language-success-title = tlahtlani tlahtol yomo naltitlan coali, tlasohcamatictzin
+request-language-success-content = timu nuhnutstusqueh icacachi tlanahuatil quemeh quenin tictlalis motlahtol ichin Common Voice sanima
 select-language = xicpihpina se tlahtol...
 other-language = ocse tlahtol
 
 ## Request Language Pages
 
-request-language-heading = xi tlahtlani ica ocse yancuic tlahtol
+request-language-heading = xitlahtlani icaocse yancuic tlahtol
 request-language-explanation-1 = xiquit atla mu tlahtol huits tlahcuiliuhtok<languagesPageLink> pagina de tlahtol ixmateh</languagesPageLink> tla  amo uhcon, xic tlami nicancah formulario huan <strong> timits naltitlanisqueh se correo tlen mits cualtias, huits quenin tic yectlalis mu tlahtol</strong>
 request-language-explanation-2 = nuyuhqui<strong>tiquin nahuatisque tu ticticahuah  de masehual nichicol tlen mits pactia,</strong>para uhcon huilisqueh mits macasque tlensa palehuilis o tlanahuatil tlen huilis tiquicuis
 request-language-form-email =
