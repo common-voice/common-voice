@@ -578,16 +578,16 @@ review-delete-recordings = niquinpolos notlahtolahcuc
 ## Datasets Page
 
 datasets-heading = sansican tlanaoatil
-datasets-headline = secchiuhtoc se nimilis tlanahuatil de tlahtol, tlapuhtoc huan miak tlahtulmeh,aquinyihuili huilis quicuis para muc yehyeco aplicaciones tlen muc cuican tlahtol quemeh interfaz
+datasets-headline = secchiuhtoc se nemilis tlanahuatil de tlahtol, tlapohtoc huan miak tlahtulmeh,aquinyahuili huilis quicuis para mocyehyeco aplicaciones tlen moccuican tlahtol queme interfaz
 language = Tlahtol
-download-dataset-header = xiquintimulti sansican tlanahuatil
-download-dataset-tag = xicnexti  datased den tlahtol tlan tic niqui huan xic nexti tlan tic niquis tic timultis
+download-dataset-header = xiquintimolti sansican tlanaoatil
+download-dataset-tag = xicnexti  datased den tlahtol tlenticniqui huan xicnexti tlenticniquis tictimoltis
 # File size in gigabytes
-size = hueyicah
-number-of-voices = puhual tlahtol
-email-to-download = xiquihcuilo se email para tictimultis
-why-email = <b>¿ queyeh se email?</b> canah mu niquis timits nuhnutstusqueh cachi tlaixpan ican queni mu patlas base de datos; se email ica se huilis se mu nuhnutstos
-confirm-size = yicuali ticah para ti pehuas ican timulistl de <b>{ $size }</b>
+size = hueyica
+number-of-voices = pohual tlahtol
+email-to-download = xiquihcoilo se correo para tictimultis
+why-email = <b>¿ queyeh se correo?</b> canah moniquis timits nonotstusqueh cachi tlaixpan ican queni mopatlas base de datos; se correo ica sehuilis semo nohnotstos
+confirm-size = yicuali ticah para ti pehuas ican timolistl de <b>{ $size }</b>
 confirm-no-identify = <b>timutlahtolmaca</b>que amo tic yehyecos tic temos inexican tlahtuhuaneh ichin base de tlanahuatil de Common Voice
 download-language = timulti{ $language }
 whats-inside = ¿tlanon catqui ichin base de tlanahuatil de Common Voice?
