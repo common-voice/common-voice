@@ -667,14 +667,14 @@ language-section-in-progress-new-description = nicancateh tlahtolmeh muchihchiuh
 language-section-launched = naltitlanque
 language-section-launched-description = para nicancateh tlahtulmeh yomunextihqueh, sitio web uyah<localizationGlossaryLink> yomahsic</localizationGlossaryLink> cuali huan quipia miac<sentenceCollectionGlossaryLink> nichicul tlahtolmeh</sentenceCollectionGlossaryLink>para huilis<speakLink>tlahtos</spenderLink>huan<listenLink>tlacaquis</listenLink>quintlaliah sanimah
 languages-show-more = xiquita cachi
-languages-show-less = xiquita amocachi
 language-meter-in-progress = nemilis
 language-total-progress = nochi
 language-search-input =
     .placeholder = Sectemos
-language-speakers = tlahtuhuaneh
+language-speakers = tlahtohuaneh
 localized = tlacuipcahtlahtol
 sentences = tlahtoltlahcuilol
+language-validation-progress = nemilis silihqueh
 
 ## Contribution
 
@@ -682,8 +682,16 @@ action-click = xicpacho
 action-tap = xicnexti
 contribute = Xitiquiti touan
 listen = tlacaqui
+write = tlahcuilo
+review = xiquita
 skip = ahcotzicuini
-goal-help-recording = tlasohcamate utitech palehue Common Voice yu ahsic <goalPercentage></goalPercentage> ica tiquitl tlen tlahtol ahcucueh{ $goalValue }
+shortcuts = panoltilis directos
+clips-with-count-pluralized =
+    { $count ->
+        [one] tlacoilol
+       *[other] tlacuilolme
+    }
+goal-help-recording = tlasohcamate utitech palehue Common Voice yuahsic <goalPercentage></goalPercentage> icatiquitl tlen tlahtolahcocueh{ $goalValue }
 goal-help-validation = tlasohcamateh utitech palehue Common Voice yu ahsic<goalPercentage></goalPercentage>ica tiquitl tlen tlahtol ahcucueh{ $goalValue }
 contribute-more = yiticah cuali para tic chihuas { $count } cachi?
 record-cta = pehua tlahtolahcucui
