@@ -538,7 +538,7 @@ about-playbook-how-project-governance-content-3 = Qupıyalıq, qáwipsizlik hám
 about-playbook-how-project-governance-content-4 = Birlespeniń qatnası hám qarar qabıl etiwi.
 about-playbook-how-project-governance-content-5 = Bahalılıq hám tanılıw.
 about-playbook-how-project-governance-content-6 = Óz ara juwapkershilik.
-about-playbook-how-project-governance-content-7 = <governanceLink>Biz qalay basqarılıwımız haqqında kóbirek oqıń</governanceLink>
+about-playbook-how-project-governance-content-7 = <governanceLink>Bizde basqarıw qalay shólkemlestirilgeni tuwralı kóbirek oqıń</governanceLink>
 
 ## Glossary
 
@@ -863,6 +863,7 @@ sc-languages-fetch-error = Bar tillerdi alıw ámelge aspadı. Házirgi waqıtta
 ## HOW-TO
 
 sc-howto-addsen-title = Jańa gáplerdi qosıw
+sc-howto-addsen-item-6 = Tiller óziniń qosımsha talapları menen <validationRulesLink>tekseriw qaǵıydalarına</validationRulesLink> iye bolıwı múmkin. Eger tildiń arnawlı tekseriw faylı bolmasa, biz anglichan tilinıń ulıwmalıq qaǵıydaların qollanamız.
 sc-howto-cite-title = Qalay citata keltiremen?
 sc-howto-cite-item-1 = Siz veb-sayttı kirgiziwińiz múmkin, mıs: "Common Voice" — https://commonvoice.mozilla.org/
 sc-howto-review-title = Gáplerdi tekseriw
@@ -1090,7 +1091,7 @@ adding-sentences-subheader-length-explanation = Gáp 15 sózden kem bolıwı ker
 adding-sentences-subheader-spelling-punctuation = Imla hám irkilis belgileri
 adding-sentences-subheader-spelling-punctuation-explanation = Gáp durıs jazılıwı kerek.
 adding-sentences-subheader-numbers = Sanlar
-adding-sentences-subheader-numbers-explanation = Múltiksiz halda negizgi tekstte cifrlar bolmawı kerek, sebebi olar dawıslap oqıǵanda qıyınshılıqlarǵa sebep boladı. Sanlardı oqıw usılı kontekstke baylanıslı hám maǵlıwmatlar toplamında túsiniksizlikke / bılǵasıqqa alıp keliwi múmkin. Mısalı, “2409” sanın “jigirma tórt nol toǵız” hám "eki mıń tórt júz toǵız" dep anıq oqıwǵa boladı.
+adding-sentences-subheader-numbers-explanation = Negizgi tekstte múltiksiz túrde cifrlar bolmawı kerek, sebebi olar dawıslap oqıǵanda qıyınshılıqlarǵa sebep boladı. Sanlardı oqıw usılı kontekstke baylanıslı hám maǵlıwmatlar toplamında túsiniksizlikke alıp keliwi múmkin. Mısalı, “2409” sanın “jigirma tórt nol toǵız” hám "eki mıń tórt júz toǵız" dep anıq oqıwǵa boladı.
 adding-sentences-subheader-punctuation = Irkilis belgileri
 adding-sentences-subheader-special-characters = Arnawlı belgiler hám shet tili háripleri
 adding-sentences-subheader-special-characters-explanation-2 = Tiller lokalizaciya waqtında óziniń qosımsha talapları menen tekseriw qaǵıydalarına iye bolıwı múmkin. Eger tildiń arnawlı tekseriw faylı bolmasa, qatnasıwshılar ushın anglichan tilindegi qaǵıydalar kórsetiledi.
