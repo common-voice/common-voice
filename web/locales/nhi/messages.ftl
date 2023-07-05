@@ -573,11 +573,11 @@ review-recording = xiquita
 review-rerecord = ocsipatlahtolahcocui
 review-cancel = amo xicnaltitlani
 review-keep-recordings = xiquinpixto tlahtolahcuc
-review-delete-recordings = niquinpolos nu tlahtolahcuc
+review-delete-recordings = niquinpolos notlahtolahcuc
 
 ## Datasets Page
 
-datasets-heading = sansican tlanahuatil
+datasets-heading = sansican tlanaoatil
 datasets-headline = secchiuhtoc se nimilis tlanahuatil de tlahtol, tlapuhtoc huan miak tlahtulmeh,aquinyihuili huilis quicuis para muc yehyeco aplicaciones tlen muc cuican tlahtol quemeh interfaz
 language = Tlahtol
 download-dataset-header = xiquintimulti sansican tlanahuatil
