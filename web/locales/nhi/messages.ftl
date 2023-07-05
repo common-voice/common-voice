@@ -658,14 +658,14 @@ request-language-success-heading = ¡tlasohcamatictzin! uticnaltitlan se yancoic
 request-language-success-list-1 = quipia nicsilis se correo electronico campa nechnextia quenin nictlalis se tlahtol Common Voice
 request-language-success-list-2 = totiquitcau nichicomasehual monohnotzas mouantzin para mitzonmacas soporte adicional, huan para tocomatis tlayicatqui se nichicomasehual tiquitoc ica mu masehual tlantol
 request-language-success-list-3 = tlaamo uticsile tlanahuatil icninqueh tonalmeh, ximonohnotza ioan <emailLink>{ $email }</emailLink> huan timu nuhnutzasqueh muhuantzi
-request-language-error = canah amo u sek sileh nun tlahtol. timits tlatlauhtia xitech naltitlani se correo electronico ichin <emailLink>{ $email }</emailLink> huan ti mu nuhnutsasqueh muhuan
+request-language-error = canah amo useksileh nuntlahtol. timits tlatlauhtia xitechnaltitlani se correo electronico ichin <emailLink>{ $email }</emailLink> huan timonohnotzasque muhuan
 
 ## Languages Overview
 
-language-section-in-progress = muchiuhtoc
-language-section-in-progress-new-description = nicancateh tlahtulmeh mu chihchiuhtuqueh ican nichicomasehual. barras nemilis qui nextia queniquichihua <localizationGlossaryLink> canincan web</localizationGlossaryLink>huan <sentenceCollectionGlossaryLink>nichicol tlahtol</sentenceCollectionGlossaryLink>
+language-section-in-progress = muchiotoc
+language-section-in-progress-new-description = nicancateh tlahtolmeh muchihchiuhtuqueh ican nichicomasehual. barras nemilis quinextia queniquichihua <localizationGlossaryLink> caninca web</localizationGlossaryLink>huan <sentenceCollectionGlossaryLink>nichicol tlahtol</sentenceCollectionGlossaryLink>
 language-section-launched = naltitlanque
-language-section-launched-description = para nicancateh tlahtulmeh yumunextihqueh, sitio web uyah<localizationGlossaryLink> yumahsic</localizationGlossaryLink> cuali huan quipia miqueh<sentenceCollectionGlossaryLink> nichicul tlahtulmeh</sentenceCollectionGlossaryLink>para huilis<speakLink>tlahtos</spenderLink>huan<listenLink>tlacaquis</listenLink>quin tlaliah san nimah
+language-section-launched-description = para nicancateh tlahtulmeh yomunextihqueh, sitio web uyah<localizationGlossaryLink> yomahsic</localizationGlossaryLink> cuali huan quipia miac<sentenceCollectionGlossaryLink> nichicul tlahtolmeh</sentenceCollectionGlossaryLink>para huilis<speakLink>tlahtos</spenderLink>huan<listenLink>tlacaquis</listenLink>quintlaliah sanimah
 languages-show-more = xiquita cachi
 languages-show-less = xiquita amocachi
 language-meter-in-progress = nemilis
