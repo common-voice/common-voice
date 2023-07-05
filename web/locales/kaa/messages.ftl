@@ -674,6 +674,9 @@ contribute-more =
 record-platform-not-supported = Átteń, házirgi waqıtta siziń platformańız qollap-quwatlanbaydı.
 record-must-allow-microphone = Mikrofonǵa ruqsat beriwińiz kerek.
 record-no-mic-found = Mikrofon tabılmadı.
+record-error-too-short = Dawıslı jazba júdá qısqa.
+record-error-too-long = Dawıslı jazba júdá uzın.
+record-error-too-quiet = Dawıslı jazba júdá áste.
 record-cancel = Qayta dawıs jazıwdı biykarlaw
 record-instruction = { $actionType }<recordIcon></recordIcon> keyin gápti dawıslap oqıń
 record-three-more-instruction = Úshewi qaldı!
@@ -753,6 +756,12 @@ difficult-difficulty = Qıyın
 pro-difficulty = Pro
 finish-editing = Dáslep ózgertiwdi tamamlawdı qáleysiz be?
 set-a-goal = Maqset qoyıw
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } dawıslı úzindi
+       *[other] { $count } dawıslı úzindi
+    }
+help-share-goal = Bizge kóbirek dawıs tabıwǵa járdem beriń, maqsetińizdi bólisiń
 confirm-goal = Maqsetti tastıyıqlaw
 goal-interval-weekly = Háptelik
 share-goal-type-speak = Dawıs jazıw
@@ -760,6 +769,8 @@ share-goal-type-listen = Tekseriw
 share-goal-type-both = Dawıs jazıw hám tekseriw
 weekly-goal-created = Siziń háptelik maqsetińiz jaratıldı
 daily-goal-created = Siziń kúndelik maqsetińiz jaratıldı
+return-to-edit-goal = Maqsetińizdi qálegen waqıtta ózgertiw ushın usı jerge qaytıń.
+share-goal = Maqsetimdi bólisiw
 
 ## Profile Delete
 
