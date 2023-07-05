@@ -1022,6 +1022,7 @@ sc-personal-added-by-you = Jius dalykot { $sentences }
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-4 = Ka teikums atbylst vysim kriterejim, klykstynojit iz pūgys &quot;Apstyprynuot&quot;.
 
 ## REVIEW
 
@@ -1106,6 +1107,7 @@ adding-sentences-subheader-spelling-punctuation-explanation = Teikumam juobyut p
 adding-sentences-subheader-punctuation = Pīturzeimis
 adding-sentences-subheader-special-characters = Cytu volūdu burti
 adding-sentences-subheader-offensive-content = Aizskarūšs saturs
+reviewing-sentences-explanation-1 = Ka teikums atbylst agruok nūsauktajim kriterejim, klykstynojit iz pūgys "Nui".
 reviewing-sentences-explanation-2 = Ka teikums naatbylst agruok nūsauktajim kriterejim, klykstynojit iz pūgys "Nā".
 sentence =
     .label = Teikums
