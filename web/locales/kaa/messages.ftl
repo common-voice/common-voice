@@ -526,6 +526,7 @@ about-playbook-how-access-dataset = Maǵlıwmatlar toplamına qalay kiremen hám
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Joba boyınsha sheshimler qalay qabıllanadı?
 
 ## Glossary
 
