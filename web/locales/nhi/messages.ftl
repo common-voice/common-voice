@@ -507,11 +507,11 @@ about-playbook-how-grow-language-content-8 = <strong>xi tlanimililyuli</strong>m
 
 ## How to validate
 
-about-playbook-how-validate = que nik mati tla quema nic silis se tlanahuatil tlahtol
-about-playbook-how-validate-content-1 = tla utihuilisquia<strong>xiquin caqui</strong> huan<strong> ticmatis </strong>cachi cuali secmatis </strong>
-about-playbook-how-validate-content-2 = <strong>amo xiquin pulilti tlahtulmeh campa tlahtuhuani 'quipia se acento' tlamantl quemen teh</strong> nicanca simi importante para ixmatilis tlahtol mucui cuali para nuchten
-about-playbook-how-validate-content-3 = tlatic nimilia quenquintuhua muchihua <strong> amo huilis quimatis</strong> o catqui<strong> tlacalantoc simi</strong>o catqui<strong> ocsique masehualmeh tlahtuhtuqueh</strong> icanun tehuatzi kipia de tucun puhpulos nun tlahtol <accuracyLink>xucunita cahi tlanahuatil campa catqui tu tlanunutz cuali</accuracyLink>
-about-playbook-how-validate-content-4 = tla umi masehualmeh qui pulultia se tlahtol, mu nextia ichin se ocse nichicul tlamantl nichicul tlanahuatil
+about-playbook-how-validate = queninicmatis tlaquema uilis nicsilis  se tlanahuatil tlahtol?
+about-playbook-how-validate-content-1 = tla utihuilisquia<strong>xiquincaqui</strong> huan<strong> ticmatis </strong>cachi cuali secmatis </strong>
+about-playbook-how-validate-content-2 = <strong>amo xiquinpololti tlahtulmeh campa tlahtoani 'quipia se acento' tlamantl quementeh</strong> nicanca simi importante para ixmatilis tlahtol mocui cuali para nuchten
+about-playbook-how-validate-content-3 = tlaticnimilia quenquintohua mochihua <strong> amo huilis quimatis</strong> o catqui<strong> tlacalantoc simi</strong>o catqui<strong> ocsique masehualmeh tlahtuhtuqueh</strong> icanun tehuatzi quipia de toconpohpolos nuntlahtol <accuracyLink>xoconita cachi tlanahuatil campa catqui totlanonotz cuali</accuracyLink>
+about-playbook-how-validate-content-4 = tla  se tlanahuatiltlahtol qui pololtia ome masehualme, munextia ocse tlanahuatil tlamantl nichicul tlanahuatil
 
 ## How to access dataset
 
