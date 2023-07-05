@@ -522,7 +522,7 @@ about-playbook-how-grow-language-content-6 = Sheriklikler hám tarmaqlar
 
 ## How to access dataset
 
-about-playbook-how-access-dataset = Maǵlıwmatlar toplamına qalay kiremen hám qalay paydalanaman?
+about-playbook-how-access-dataset = Maǵlıwmatlar toplamına qalay kiremen hám paydalanaman?
 
 ## How are decisions made
 
