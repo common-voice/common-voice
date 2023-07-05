@@ -515,33 +515,33 @@ about-playbook-how-validate-content-4 = tla  se tlanahuatiltlahtol qui pololtia 
 
 ## How to access dataset
 
-about-playbook-how-access-dataset = ¿queni ni calaqui huan queni nicui nichicul tlahtol?
-about-playbook-how-access-dataset-content-1 = huilis tiyas <datasetsPage>ichin pagina campa mu nuchicuhuan tlanahuatilmeh </datasetsPage>xic pihpina version huan tlahtulmeh tlen tik niquis huan xiquin ahcucui. tlanahuatilmeh quipiah <metadataLink>metadatos niliuhtuqueh </metadataLink>quemeh tlanahuatil demográfica huan tlanahuatil tlen oquisilihqueh. quipia de quitemactis se direccion de correo para huilis ticahcucuis nichicul tlanahuatil
-about-playbook-how-access-dataset-content-2 = mu temuhtuqueh tipos palehuaneh para sequin chihchihuas se yehyecolis ASR, huilis timo salos ihuan ocsiquen masehualme de ocsicah<discourseLink>ichin Discourse </discourseLink>
+about-playbook-how-access-dataset = ¿queni nicalaqui huan niquicoi nichicol tlahtol?
+about-playbook-how-access-dataset-content-1 = huilis tiyas <datasetsPage>ichin pagina campa monichicohuan tlanaoatilmeh </datasetsPage>xicpihpina version huan tlahtulmeh tlen ticniquis huan xiquinahcocui. tlanahuatilmeh quipiah <metadataLink>metadatos niliuhtuqueh </metadataLink>quemeh tlanahuatil demográfica huan tlanahuatil tlen oquisilihqueh. quipia de quitemactis se direccion de correo para huilis ticahcocuis nichicol tlanahuatil
+about-playbook-how-access-dataset-content-2 = mu temohtoqueh tipos palehuaneh para sequinchihchioas se yehyecolis ASR, uilis timo salos ioan ocsiquen maseoalme de ocsicah<discourseLink>ichin Discourse </discourseLink>
 
 ## How are decisions made
 
-about-playbook-how-project-governance = quenin tiquin mana tlahtol tiquitl
-about-playbook-how-project-governance-content-1 = Mozilla Common Voice umuchiuh ikan tlapalehuil masehual nichiculis tlatlamantl tiquitl, tlahtulmeh, cientificos de tlanahuatil,academicos, huan ingenieros de sofware de nuchi tlalticpac . tiquitl qui chihchiuhtuqueh por fundacion Mozilla
-about-playbook-how-project-governance-content-2 = tu tiachcauh mu yicana ichin pilares de:
-about-playbook-how-project-governance-content-4 = tlapalehuani masehualnichicol huan xi cana se cuali tlahtol
+about-playbook-how-project-governance = queni tiquinmana tlahtol tiquitl
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice umuchiuh ican tlapalehuil maseoal nichicolis tlatlamantl tiquitl, tlahtolmeh, cientificos de tlanaoatil,academicos, huan ingenieros de sofware de nuchi tlalticpac . tiquitl quichihchiutoque por fundacion Mozilla
+about-playbook-how-project-governance-content-2 = totiachcauh moyicana ichin pilares de:
+about-playbook-how-project-governance-content-4 = tlapalehuani masehualnichicol huan xicana se coali tlahtol
 about-playbook-how-project-governance-content-5 = quexquich huan teixpantilis
-about-playbook-how-project-governance-content-6 = puhual sansicah
+about-playbook-how-project-governance-content-6 = pohual sansicah
 about-playbook-how-project-governance-content-7 = <governanceLink> ximomachti cachi quemeh quenin tech ixpantiah</governanceLink>
 
 ## Glossary
 
 glossary = miactlahtol
 localization = cancatqui
-localization-explanation = nicanca tu nemilis para tic cuipasquehtlahtol huan semumatis ican tu tiquiuh ica miac tlahtol
+localization-explanation = nicanca tonemilis para ticcuipasquehtlahtol huan semomatis ican totiquiuh ica miac tlahtolme
 sentence-collection = tlahcuilol pihpintoc
-sentence-collection-explanation = Xiquin nichicon tlahtolmeh de dominio nextilis o tlahcuilol yancuic  para dominio masehualmeh
+sentence-collection-explanation = Xic nichico tlahtolmeh de dominio nextilis o tlahcoilol yancoic  para dominio masehualmeh
 sst = detlahcuilol a tlahtol (STT)
-sst-explanation = tipotl tlahcuilol a tlahtol (STT) tlen qui patla tlanahuatil de tlahtol a tlahcuilol
+sst-explanation = tipos tlahcuilol a tlahtol (STT) tlen quipatla tlanahuatil de tlahtol a tlahcuilol
 
 ## Error pages
 
-error-title-404 = amo uhulic uticahsiqueh nun página para tejuatl
+error-title-404 = amo oticahsiqueh nun página para tejuatl
 error-content-404 = ¿kanah tu<homepageLink>página campa se pehua </homepageLink> huilis mits palehuis? para tic tlahtlanis, ximunilo<matrixLink> campa mu nuhnutsah nichicomasehual Matrix</matrixLink> xiquita problemas den sitio ic<githubLink>GitHub</githubLink> o xiyu<discourseLink>campan foros Discurse</discourseLink>
 error-title-503 = ti panutuque ich  se tiempo amo usecmatia amo se tiquitis
 error-content-503 = sitio ocsipa huilis mucuis. para huilis sec silis tlanahuatil cachi yancuic, ximunilo <matrixLink>campa mu nuhnutza nichicomasehual Matrix</matrixLink> o xiyu<githubLink>GitHub</githubLink> o <discourseLink> tu foros de Discourse</discourseLink> para sequinaltitlanis huan sec chihuas se nimilis den problemas ican tlen yi sec mati den sitio
