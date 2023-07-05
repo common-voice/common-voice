@@ -519,6 +519,11 @@ about-playbook-how-grow-language-content-6 = Sheriklikler hám tarmaqlar
 
 ## How to validate
 
+about-playbook-how-validate = Dawıslı úzindini qabıllaw múmkinligin qalay bilsem boladı?
+about-playbook-how-validate-content-1 = Eger siz olardı <strong>esite</strong> alsańız hám <strong>túsinseńiz</strong>, ádette qabıllaw — <strong>eń maqulı</strong>.
+about-playbook-how-validate-content-2 = <strong>Sóylewshiniń akcenti sizikinen basqasha bolsa, onday dawıslı úzindilerdi biykarlamań.</strong> Bárshege dawıstı anıqlaw xızmeti jaqsı islewi ushın bul áhmiyetli.
+about-playbook-how-validate-content-3 = Eger sózlerdiń aytılıwın <strong>túsiniw múmkin emes</strong> dep oylasańız, <strong>sırtqı shawqım kóp</strong> bolsa yamasa <strong>basqa da adamlar sóylep atırǵanı esitilse</strong>, demek siz bul dawıslı úzindini biykarlawıńız kerek. <accuracyLink>Kóbirek maǵlıwmattı anıqlıq talaplarımızda oqıń</accuracyLink>.
+about-playbook-how-validate-content-4 = Eger dawıslı úzindi 2 adam tárepinen biykarlansa, ol maǵlıwmatlar toplamınıń tómengi bóliminde járiyalanadı.
 
 ## How to access dataset
 
@@ -1073,6 +1078,7 @@ adding-sentences-subheader-spelling-punctuation-explanation = Gáp durıs jazıl
 adding-sentences-subheader-numbers = Sanlar
 adding-sentences-subheader-punctuation = Irkilis belgileri
 adding-sentences-subheader-special-characters = Arnawlı belgiler hám shet tili háripleri
+adding-sentences-subheader-special-characters-explanation-2 = Tiller lokalizaciya waqtında óziniń qosımsha talapları menen tekseriw qaǵıydalarına iye bolıwı múmkin. Eger tildiń arnawlı tekseriw faylı bolmasa, qatnasıwshılar ushın anglichan tilindegi qaǵıydalar kórsetiledi.
 adding-sentences-subheader-offensive-content = Kemsitiwshi mazmun
 reviewing-sentences-explanation-1 = Eger gáp joqarıdaǵı talaplarǵa juwap berse, "Awa" túymesin basıń.
 reviewing-sentences-explanation-2 = Eger gáp joqarıdaǵı talaplarǵa juwap bermese, "Yaq" túymesin basıń.
