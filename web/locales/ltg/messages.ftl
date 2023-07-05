@@ -806,6 +806,8 @@ profile-form-delete = Dzēst profilu
 
 ## Profile Download
 
+download-q = Gribit zamynluodēt sovus datus?
+download-info = Pastuostit mums, kū gribit zamynluodēt:
 download-profile-title = Profils
 download-profile-size = Puors baiti
 download-recordings-title = Īroksti
