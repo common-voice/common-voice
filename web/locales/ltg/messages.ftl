@@ -136,6 +136,7 @@ logout = Beigt dorbu
 home-title = Common Voice ir Mozilla iniciativa, lai vuiceitu datorim saprast cylvāku volūdu.
 default-tagline = Common Voice ir Mozilla iniciativa, lai vuiceitu datorim saprast cylvāku volūdu.
 home-cta = Runojit, dūdit īguļdejumu ite!
+wall-of-text-start = Bolss ir dabisks, bolss ir ciļvieceigs. Deļtuo mes gribim sataiseit bolsa atpazeišonys tehnologeju, kuru varātu lītuot vysaiduos īreicēs. Bet, lai radeitu itaidu bolsa tehnologeju, ir vajadzeigs daudz bolsa īrokstu.
 show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
 help-us-explain = Nūmīdzīt atskaņuošonys pūgu, klausotēs i puorbaudit, voi zamuok nūruodeitais teikums ir izrunuots precizai.
