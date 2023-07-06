@@ -426,9 +426,17 @@ about-playbook-how-add-language-translating-heading = Škārsteikla lopys tulkuo
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Veritēs myusu ceļvedi par Pontoon lītuošonu.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkūpuošona
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Veritēs myusu ceļvedi par teikumu apkūpuotuoja lītuošonu</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Varit <sentenceCollectorLinkAdd>dalikt nalelu skaitu teikumu</sentenceCollectorLinkAdd>,
+    voi ari varit veikt <bulkImportDocsLink>lelapmāra importiešonu, lītojūt Github</bulkImportDocsLink>.
+    Atguodojit, ka teikumim ir juobyut <licenseLink>CC0 (voi publiskajam domenam)</licenseLink>, voi ari varit raksteit sovus.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Viertīs vairuok par teikumu apkūpuošonu</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Kai dorbojās teiklavītys lokalizaceja?
+about-playbook-how-localize-content-1 = Teiklavītys Common Voice tulkuošona nūteik <strong>Pontoon</strong> sistemā.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Sataisit kontu</pontoonAccountLink>, ka jums taida nav. Piec tam izalosit volūdu sadaļā <strong>Komanda jeb ‘Teams’</strong> i tod izalosit projektu <pontoonCvLink>Common Voice</pontoonCvLink>. Tī byus tulkuojamuos faili. Klykstynojit iz vīna, piec tam tiks paruodeiti vuordi angļu volūdā i lūdzeņš tūs tulkuošonai.
 
 ## How to add sentences
 
