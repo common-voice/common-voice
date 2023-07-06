@@ -921,6 +921,7 @@ contribution-for-example = par pīmāru
 contribution-misreadings-title = Klaidaini skaitejumi
 contribution-varying-pronunciations-title = Dažaidys izrunys
 contribution-varying-pronunciations-example-1-title = Maņ garšoj dasa.
+contribution-background-noise-title = Fona trūksnis
 contribution-background-voices-title = Bolsi fonā
 contribution-volume-title = Skaļums
 contribution-reader-effects-title = Īrunuotuoja izrunys eipatneibys
@@ -954,6 +955,11 @@ sc-logout-button = Beigt dorbu
 
 ## HOME
 
+sc-home-title = Vasali Common Voice Teikumu apkūpuotuojā
+sc-home-collect-title = Teikumu apkūpuošona
+sc-home-collect-text = Paleidzit mums, rokstūt voi apkūpojūt publiskuo domena teikumus.
+sc-home-review-title = Puorsaverit teikumus
+sc-home-review-text = Paleidzit mums, puorsaverūt teikumu pareizraksteibu saskaņā ar vodlinejom.
 
 ## GENERAL
 
@@ -965,9 +971,17 @@ sc-howto-addlang-title = Volūdu dalikšona dorbam
 sc-howto-addsen-title = Dalikt jaunus teikumus
 sc-howto-cite-title = Kai nūruodeit olūtu
 sc-howto-review-title = Puorsaverit teikumus
+sc-howto-review-criteria-1 = Teikumam juobyut pareizi uzraksteitam, vuordūs navar byut drukys klaidu.
+sc-howto-review-criteria-2 = Teikumam juobyut gramatiski pareizam.
+sc-howto-review-criteria-3 = Teikumam juobyut izrunojamam.
+sc-howto-review-criteria-4 = Ka teikums atbylst vysim kriterejim, klykstynojit iz pūgys "Apstyprynuot".
+sc-howto-findpd-tips = Ite ir puors padūmi, kai atrast teikumus:
+sc-howto-findpd-subtitle-2 = Sasadorbojit ar vītejom organizacejom voi privatpersonom
 
 ## MY SENTENCES
 
+sc-my-title = Muni teikumi
+sc-my-loading = Nūteik jiusu teikumu īluode...
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Īsnīguma identifikators: { $batchId }
