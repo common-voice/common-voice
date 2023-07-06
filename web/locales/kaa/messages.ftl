@@ -472,7 +472,7 @@ about-voice-validation-title = Dawıstı tekseriw
 about-voice-validation-subtitle = Basqa adamlar bul dawıslı kliplerdi tekseredi.
 about-dataset-release-title = Maǵlıwmatlar toplamınıń shıǵıwı
 about-dataset-release-subtitle = Biz hár 3 aydan maǵlıwmatlar toplamın járiyalaymız.
-about-subscribe-text = Common Voice penen baylanısta bolıwdı qaleysiz be?
+about-subscribe-text = Common Voice penen baylanısta bolıwdı qáleysiz be?
 about-speak = Sóyleń
 about-listen = Tıńlań
 about-yes-votes = ≥ 2 "Awa" dawıslar
@@ -497,6 +497,8 @@ about-playbook-what-is-language = Common Voiceta til ne?
 ## How do I add a language
 
 about-playbook-how-add-language = Tildi qalay qossam boladı?
+about-playbook-how-add-language-translating-heading = Sayttı awdarmalaw
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoondı qalay qollanıw boyınsha úyretiwshi videomızdı kóriń</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Gáplerdi jıynaw
 
 ## How does localization work
