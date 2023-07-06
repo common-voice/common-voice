@@ -594,6 +594,10 @@ download-language = Júklew { $language }
 validated-hours = Tekserilgen saat
 recorded-hours = Jazılǵan saat
 whats-inside = Common Voice maǵlıwmatlar toplamı ishinde ne jayǵasqan?
+dataset-description-hours =
+    Maǵlıwmatlar toplamındaǵı hárbir dawıslı jazba siyrek MP3 fayl hám oǵan baylanıslı tekstli fayldan turadı. Maǵlıwmatlar toplamında jazılǵan <b>{ $total }</b> kóp saatlar jas, jınıs hám akcent sıyaqlı demografiyalıq meta maǵlıwmatlardı óz ishine aladı. Olar sóylewdi anıqlaw mexanizmleriniń anlıqlıǵın úyretiwge járdem beredi.
+    
+    Házirgi waqıtta maǵlıwmatlar toplamı <b>{ $languages }</b> tilden, <b>{ $valid }</b> tekserilgen saattan turadı, biraq biz hámiyshe kóbirek jańa dawıslardı hám tillerdi qosamız. Qatnasıw ushın yamasa tildi soraw ushın biziń <languagesLink>tiller betimizdi</languagesLink> kóriń.
 subscribe = Jazılıw
 other-datasets = Basqa dawıslı maǵlıwmatlar toplamları
 community-playbook = Birlespe ushın sabaqlıq
@@ -1086,7 +1090,7 @@ just-unsure = Isenimińiz kámil emes pe?
 example = Mısal
 varying-pronunciations-example = Jónelis anıq bolmadı.
 misreadings-explanation-1 = Bettegi barlıq sózlerdi durıs oqıw áhmiyetli. Tıńlap atırǵanıńızda jaqsılap itibar beriń, dawıslı jazba anıq jazılǵanınday bolıwı kerek. Eger bir nárse qosılǵan, qısqartılǵan yamasa ótkerip jiberilgen bolsa, biykarlań.
-misreadings-explanation-2 = Júdá keń tarqalǵan qáteler tómendegiler:
+misreadings-explanation-2 = Eń keń tarqalǵan qáteler tómendegiler:
 contact-common-voice = Common Voice toparı menen baylanısıw
 public-domain = Xalıq dóretpeleri
 citing-sentences = Gáplerge citata keltiriw
