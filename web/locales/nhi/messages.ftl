@@ -724,30 +724,32 @@ listen-instruction = { $actionType }<playIcon></playIcon>¿ oquihtohqueh tlahtol
 listen-again-instruction = ¡cualitiquiuh!<playIcon></playIcon> xicaqui ocsipa cuando tiisqui coali
 listen-3rd-time-instruction = omi menos <playlcon></playlcon>, ¡ohcon xiiuhto!
 listen-empty-state = otimocauhqueh amotlen clips para tiquinsilisqueh nicancah tlantol...
-listen-loading-error = amo huilic utic silihqueh dionse tlahtolahcucui para tic caquis. timits tlatlauhtiya xic yehyeco cachi tlahcahtsi
-speak-empty-state = usemucauh ica amose tlahtolihcuilol para tic tlahtolahcucuis ica nin tlahtol...
-speak-empty-state-cta = tlapalehui ica ocsiqueh tlahtolmeh
-speak-loading-error = amo usehuilik usecpix se tlahcuilol para que tuhuatzin xun tlahto. timitz tlatlauhtia, xic yehyeco cachi tlahca.
-record-button-label = tlahtol ahcucui
-share-title-new = <bold> xitechpalehui</bold> maticahsicah ocsiqueh tlahtolmeh
-keep-track-profile = xic chihua se nimiliz ica mu progreso ica se perfil
-login-to-get-started = xic pehualti sesion o ximuihcuilo para ti pehuas
-target-segment-first-card = titechpalehuihtoc ica tu primer tiquitl segmentado
-target-segment-generic-card = tic palehuihtos a se segmento tiquitl
-target-segment-first-banner = xitech palehui tic chihuasqueh primer tiquitl de Common Voice{ $locale }
-target-segment-add-voice = xictlali mu tlahtol
-target-segment-learn-more = cachi tlanahuatil
+listen-loading-error = amo huilic oticsilihqueh dionse tlahtolahcucui para ticaquis. timits tlatlauhtiya xicyehyeco cachi tlahcahtsi
+speak-empty-state = osemocauh ica amose tlahtolihcuilol para tictlahtolahcucuis icanin tlahtol...
+speak-empty-state-cta = tlapalehui icaocsique tlahtolme
+speak-loading-error = amo uilic usecpix se tlahcuilol para que touatzin xontlahto. timitz tlatlauhtia, xicyehyeco cachi tlahca.
+record-button-label = ximotlahtolahcocui
+share-title-new = <bold> xitechpalehui</bold> ticahsisqueh ocsiqui tlahtolmeh
+keep-track-profile = xicchihua se nimiliz icamo progreso icase perfil
+login-to-get-started = xicpehualti sesion o ximoihcuilo para tipehuas
+target-segment-first-card = titechpaleoihtoc icato primer tiquitl segmentado
+target-segment-generic-card = techpaleuihtoc ica se segmento tiquitl
+target-segment-first-banner = xitechpalehui ticchiuasque primer tiquitl de Common Voice{ $locale }
+target-segment-add-voice = xictlali mo tlahtol
+target-segment-learn-more = cachi tlanauatil
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = pihpina tlahtolme
+contribute-sentence-collection-nav-header = tlahcoilol pihpintoc
 
 ## Reporting
 
-report = tlanahuatil
-report-title = xicnaltitlani se tlanahuatil
-report-ask = catleyeh mu tiquiuh ica nin tlahtoltlahcuilol
-report-offensive-language = pitsotic tlahtol
-report-offensive-language-detail = tlahtol cuica se pitsotictlahtol
+report = tlanahuatia
+report-title = xicnaltitlani se tlanauatil
+report-ask = ¿catleyeh mutiquiuh icanin tlahtoltlahcuilol?
+report-offensive-language = pitzotic tlahtol
+report-offensive-language-detail = tlahtoltlahcuilol cuica se pitzotictlahtol
 report-different-language = ocse tlahtol
 report-different-language-detail = catqui ihcuiliuhtoc ica se tlahtol tlamatl  quement tlen neh ni tlahtuhua
 report-difficult-pronounce = yeh uhueh de niquihtos
