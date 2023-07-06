@@ -530,6 +530,8 @@ about-playbook-how-add-sentences = Gáplerdi qalay qossam boladı?
 ## How to record quality
 
 about-playbook-how-record-quality = Joqarı sapadaǵı dawıslı úzindini qalay jazıwım múmkin?
+about-playbook-how-record-content-1 = Ádettegi dawıs penen sóyleń! Qáytip sóyleseńiz de, biz quwanıshlımız. Bizge siziń ápiwayı dawısıńız akcenti, intonaciyası hám bálentligi sıyaqlı ózgeshelikleri menen kerek.
+about-playbook-how-record-content-5 = <accuracyLink>Anıqlıq talaplarında kóbirek kóriń.</accuracyLink>
 
 ## How to grow language
 
