@@ -441,7 +441,7 @@ about-subscribe-text = ¿tiniqui ihuan timu nuhnutstos ihuan Common Voice?
 about-speak = Tlahtoa
 about-speak-text = tiquitini ahcocui itlahtol sansipa quimachtihtoc tlahcuilol tlen uquintetlauculihqueh usuarios
 about-listen = Tlacaqui
-about-is-it-valid = ¿tlahtolahcuc cualtia?
+about-is-it-valid = ¿tlahtolahcoc coaltia?
 about-is-it-valid-text = cuando se usuario quiyehyecohua se tlahtolahcuc, munextisqueh quemeh ¨cualtia¨
 about-yes-votes = cachi de omi votos positivos (quemah)
 about-no-votes = cachi de omi votos negativos (amo)
@@ -551,6 +551,7 @@ error-code = amohuili { $code }
 ## Data
 
 data-download-button = timulti tlanaoatil de Common Voice
+data-download-yes = quema
 data-download-deny = Amo
 data-download-license = tlacahuil:<licenseLink>CC-0</licenseLink>
 data-download-modal = santipitzin huan ticpehualtis se timulistl de <size>{ $size }GB</size> ¿nihnimitis?
@@ -605,7 +606,7 @@ data-other-tatoeba-description = Tatoeba yeh sehueyi nichicol tlanahuatil, tlaht
 your-feedback = ¿ticpia senemilil para ticchioasque cachicoali tlanahuatil de Common Voice? xitechilhui ichin Discourse
 go-discourse = yohui a Discourse
 missing-language = amoneci motlahtol ichin tlanahuatil? tlaticniqui tictlalis xiyu ichin to pagina de tlahtolmeh
-go-languages-page = yas ichin pagina de tlahtulmeh
+go-languages-page = yas ichin pagina de tlahtolmeh
 ready-to-validate = yicuali tica para tiquin silis tlahtolme
 more = Cachi
 close = tlatzacua
@@ -616,8 +617,8 @@ download = timolti
 download-title = mutimulistl yupeuh
 download-helpus = xitechpalehui maticchihuaca se nichicomasehual ican tipostlahtol, ximonohnotsto ica correo.
 download-form-email =
-    .label = xictlali mucorreo
-    .value = tlasohcamatictzin, ti mu nuhnutstusqueh
+    .label = xictlali mocorreo
+    .value = tlasohcamatictzin, ti monhnotstosqueh
 download-back = ximocuipa ichin tlanaoatil de Common Voice
 download-no = Amo, tlasohcamatictzi
 
@@ -725,7 +726,7 @@ listen-instruction = { $actionType }<playIcon></playIcon>¿ oquihtohqueh tlahtol
 listen-again-instruction = ¡cualitiquiuh!<playIcon></playIcon> xicaqui ocsipa cuando tiisqui coali
 listen-3rd-time-instruction = omi menos <playlcon></playlcon>, ¡ohcon xiiuhto!
 listen-empty-state = otimocauhqueh amotlen clips para tiquinsilisqueh nicancah tlantol...
-listen-loading-error = amo huilic oticsilihqueh dionse tlahtolahcucui para ticaquis. timits tlatlauhtiya xicyehyeco cachi tlahcahtsi
+listen-loading-error = amo huilic oticsilihqueh dionse tlahtolahcocui para ticaquis. timits tlatlauhtiya xicyehyeco cachi tlahcahtzi
 speak-empty-state = osemocauh ica amose tlahtolihcuilol para tictlahtolahcucuis icanin tlahtol...
 speak-empty-state-cta = tlapalehui icaocsique tlahtolme
 speak-loading-error = amo uilic usecpix se tlahcuilol para que touatzin xontlahto. timitz tlatlauhtia, xicyehyeco cachi tlahca.
@@ -795,7 +796,7 @@ show-ranking = mucnextica nu nemilis
 
 ## Custom Goals
 
-get-started-goals = nipehuas nu tiquiuh
+get-started-goals = nipehualtis notiquiu
 create-custom-goal = sec chihuas se tiquitl sehseh
 goal-type = ¿tlen tiquitl nicniqui nic chihuas?
 both-speak-and-listen = tiumeh
