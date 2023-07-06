@@ -441,9 +441,14 @@ about-playbook-how-localize-content-2 = <pontoonAccountLink>Sataisit kontu</pont
 ## How to add sentences
 
 about-playbook-how-add-sentences = Kai dalikt teikumus?
+about-playbook-how-add-sentences-content-3 = Varit lītuot <scraperLink>teikumu izviļkšonys reiku</scraperLink>, lai dasaisteitu eisus teikumus nu Vikipedejis.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Kai īraksteit lobys kvalitatis īrokstu?
+about-playbook-how-record-content-2 = Izasorgojit nu cīš lela fona trūkšņa - jums vajadzātu byut vīgli saklausomam.
+about-playbook-how-record-content-3 = Viereigi puorskaitit teikumus - naizlaidit, namainit i nadalīcit vuordus.
+about-playbook-how-record-content-4 = Puorsalīcynojit, ka īroksts ir suocīs, pyrma suokt runuot, i apturit īrokstu tikai tod, kod esit pabeidzis runuot.
 about-playbook-how-record-content-5 = <accuracyLink>Veritēs vaira par tū, kai pareizi īraksteit.</accuracyLink>
 
 ## How to grow language
