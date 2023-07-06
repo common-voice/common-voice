@@ -511,6 +511,10 @@ about-playbook-how-add-language-translating-content-2 =
     Awdarmalar ushın <pontoonLink>Pontoon</pontoonLink> atlı Mozillanıń quralınan qollanamız. Pontoonda kóp tiller bar, eger siziń tilińiz joq bolsa, onı <pontoonRequestLink>qosıwın sorawıńız múmkin</pontoonRequestLink>. 
     Keyin til Common Voiceta bolıwı ushın <githubRepoLink>jańa tildi qosıwın GitHubta sorań</githubRepoLink>. <localizationFragment>Sayttı awdarıw tuwralı kóbirek kóriń.</localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = Gáplerdi jıynaw
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Siz <sentenceCollectorLinkAdd>az sandaǵı gáplerdi qosıwıńız múmkin</sentenceCollectorLinkAdd>
+    yamasa <bulkImportDocsLink>GitHub járdeminde ǵalaba importın</bulkImportDocsLink> ámelge asırıwıńız múmkin. 
+    Este saqlań, gápler <licenseLink>CC0 (yamasa xalıq dóretpeleri)</licenseLink> bolıwı kerek yamasa ózińiz jazıwıńız múmkin.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Gáplerdi jıynaw tuwralı kóbirek biliw</sentenceCollectorFragment>
 
 ## How does localization work
@@ -525,6 +529,7 @@ about-playbook-how-add-sentences = Gáplerdi qalay qossam boladı?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Joqarı sapadaǵı dawıslı úzindini qalay jazıwım múmkin?
 
 ## How to grow language
 
