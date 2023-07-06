@@ -189,6 +189,8 @@ email-subscription-title-new = Registrejitēs Common Voice viestim, atguodynuoju
 ## Account Benefits
 
 benefits = Īgivumi
+rich-data = Padorit sovus īsnīgtūs datus piec vareibys kvalitativuokus, dūdūt puors anonimus demografiskūs datus. Pyrma tū publiskuošonys mes atdaleisim vysus demografisku informaceju nu jiusu ideņtitatis.
+improve-audio = Profila informaceja padora lobuokus audio īrokstu datus, kū lītoj runys atpazeišonys precizitatis apvuiceibā.
 keep-track = Sekojit leidza sovam progresam i datim vairuokuos volūduos.
 compare-progress = Veritēs, kai jiusu progress ir saleidzynoms ar cytim īguļdeituojim vysā pasaulī.
 view-goals = Veritēs sovu progresu pret personiskajim i projekta mierkim.
@@ -199,6 +201,7 @@ join-newsletter = Ka gribit, pīsavīnojit myusu e-postu adresatu sarokstam, lai
 whats-public = Kas ir publiski daīmams?
 email-not-public = Mes napubliskuosim jiusu e-postu.
 recordings-and-locale-public = Īrunuotū īrokstu skaits i volūdys byus publiski daīmamys.
+username-optin-public = Jius varit izavēlēt, voi lītuotuoja vuords ir publiskys voi anonims.
 username-email-not-demographic = Jiusu lītuotuoja vuords i e-posts natiks pīsaisteits publicētajim datim.
 
 ## Speak & Listen Shortcuts
