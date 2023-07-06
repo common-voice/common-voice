@@ -752,27 +752,27 @@ report-offensive-language = pitzotic tlahtol
 report-offensive-language-detail = tlahtoltlahcuilol cuica se pitzotictlahtol
 report-different-language = ocse tlahtol
 report-different-language-detail = catqui ihcoiliuhtoc ica tlahtol tlamatl  amo queme ni tlahtohua
-report-difficult-pronounce = yeh uhueh de niquihtos
-report-difficult-pronounce-detail = nuyuhqui yuhui tlahtol o tlahcuilol uhueh para tic machtis o ti quihtos
-report-offensive-speech-detail = tlahtolahcuc cuica se tlanunutz camanal o irrespetuoso
+report-difficult-pronounce = Ohueh de niquihtos
+report-difficult-pronounce-detail = coica tlahtol o tlahcuilol tlenuhueh para tic machtis o ti quihtos
+report-offensive-speech-detail = tlahtolahcuc cuica se tlanonotz camanal o amoyectlahtohua
 report-other-comment =
     .placeholder = tlahtos
-success = cuali
-continue = nimilis
-report-success = tlanahuatil u mu nlatitlane cuali
+success = coali
+continue = nemilis
+report-success = tlanahuatil omunlatitlane coali
 
 ## Goals
 
 days =
     { $count ->
-        [one] tunal
-       *[other] tunalmeh
+        [one] tonal
+       *[other] tonalme
     }
 recordings =
     { $count ->
-        [one] tlahtolahcuctok
-        [many] tlahtolahcuctuqueh
-       *[other] { "" }
+        [one] tlahtolahcoctoc
+        [many] { "" }
+       *[other] tlahtolahcoctoque
     }
 
 ## Dashboard
