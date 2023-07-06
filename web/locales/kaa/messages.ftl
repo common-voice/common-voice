@@ -575,6 +575,8 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Bizde basqarı
 glossary = Glossariy
 localization = Lokalizaciya
 sentence-collection = Gápler toplamı
+sst = Awızshadan tekstke (Speech-to-text, STT)
+sst-explanation = Awızshadan tekstke (Speech-to-text, STT) texnologiyası dawıslı maǵlıwmatlardı tekstke aylandıradı.
 
 ## Error pages
 
