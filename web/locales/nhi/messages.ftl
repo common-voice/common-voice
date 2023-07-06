@@ -1,15 +1,16 @@
 ## General
 
 yes-receive-emails = Quemah, xinechioaltitlani correos. Onicniquisquiaya nicmatis ica tlanimilil Common Voice.
-stayintouch = Ich Mozilla secchiutoc se nichicomasehual campa tipostl notzani. Otechpactisquia timitzmatiltisque ica in  tepanoltilistl, yancuic nemilis ica tlahcuilol uan secmatis cachi queni teh tiquintiquitiltia necateh datos.
+stayintouch = Ich Mozilla secchiutoc se nichicomasehual campa tipostl notzani. Otechpactisquia timitzmatiltisque icanin tepanoltilistl yancoic nemilis ica tlahcuilol uan secmatis cachi queni tehuatl tiquintiquitiltia necateh datos.
+privacy-info = Titlahtolmaca ticuicasque motlanonotzal ica cuidado. tlahtoltlahcuilol cachi itich <privacyLink> toichtacatlahtol </privacyLink> .
 return-to-cv = Ximocuipa campa Common Voice
 email-input =
     .label = Correo
 submit-form-action = Xictitlani
 loading = Yehyecohtoc...
 email-opt-in-info = Onicniquisquiaya nicsilis correos electronicos queme ilnamiquilistl ipan tlanimilil, tepanoltilistl ica noiscaltilis uan se tlahtol tenonotza ica Common Voice
-email-opt-in-info-title = Ximonilo ica in tlahcuilol correo ica Common Voice
-email-opt-in-info-sub-with-challenge = Xicsili correos ica ilnamiquilistl ipan tlanimilil, tepanultilistl ica nu iscaltilistl huan totlahtol nohnotza ica Common Voice.
+email-opt-in-info-title = Ximonilo ica tlahcuilol correo de Common Voice
+email-opt-in-info-sub-with-challenge = Xicsili correos ica ilnamiquilistl ipan tlanimilil, tepanultilistl icanon iscaltilistl huan totlahtol nohnotza ica Common Voice.
 email-opt-in-privacy-v2 = Ticsilisque correos secmati ticcahua Mozilla ica sequicuis tlanonotzal quemeh moihtoua ich in </privacyLink>  iichtacatlahtol </privacyLink> Mozilla.
 indicates-required = * Quinextia se tlacauil techihualtia
 banner-error-slow-1 = Xitechtlapohpolui, Common Voice quichiutoc yolic. tlasohcamatictzin ica mochicaualis.
@@ -392,7 +393,7 @@ change-email-setings = xicpatla mu correo electronico campa Ajustes, tlatlampa c
 
 ## FAQ
 
-faq-why-important-q = ¿queye simi mu niqui?
+faq-why-important-q = ¿queye simi moniqui?
 faq-how-get-q = queni huilis niquinsilis tlanahuatil de Common Voice?
 faq-when-release2-q = ¿quemenia tiquintlehcultis tlanahuatil de Common Voice ichiocsiqueh tlahtulmeh?
 faq-why-mission-q = ¿queyeh Common Voice muniluhua ican tiquitl de Mozilla?
