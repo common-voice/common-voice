@@ -425,6 +425,7 @@ about-playbook-how-add-language = Kai dalikt volūdu?
 about-playbook-how-add-language-translating-heading = Škārsteikla lopys tulkuošona
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Veritēs myusu ceļvedi par Pontoon lītuošonu.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkūpuošona
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Veritēs myusu ceļvedi par teikumu apkūpuotuoja lītuošonu</sentenceCollectorVideo>.
 
 ## How does localization work
 
