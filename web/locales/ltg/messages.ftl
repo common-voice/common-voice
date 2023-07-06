@@ -569,6 +569,7 @@ download = Zamynluodēt
 dataset-version = Verseja
 sha256-checksum-copied = SHA256 kontrolsumma nūkopēta!
 sha256-checksum-copied-error = Naizadeve nūkopēt SHA256 kontrolsummu
+clipboard-not-supported = Storpliktuve nateik atbaļsteita
 
 ## Download Modal
 
@@ -606,8 +607,12 @@ request-language-form-email =
     .label = Tova e-posta adrese
 request-language-form-info =
     .label = Informaceja par volūdu
+request-language-form-info-explanation =
+    Dalīcit piec vareibys vaira informacejis par volūdu. Itys
+    varātu īkļaut:
 request-language-form-info-explanation-list-1 = Jiusu volūdys nūsaukumi
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO kodi</isoCodeLink>, ka tī ir zynomi
+request-language-form-info-explanation-list-3 = Saitis iz teiklavītom, kas var paleidzēt mums saprast volūdu
 request-language-google-recaptcha-required = Ka gribit turpynuot, ir vajadzeiga reCAPTCHA
 request-language-google-recaptcha-error = Ar reCAPTCHA roduos problema. Lyudzu, raugit vēļreiz.
 # Success page
@@ -873,15 +878,19 @@ download-request-link-single = Varit ari kopēt i īleimēt ituos adresis sovā 
 ## Landing
 
 welcome-staff = Vasali { $company } darbinīki!
+login-company = Pīsasokit / pīsarokstit ar { $company } e-postu
+profile-not-required = Lai dūtu īguļdejumu, profilu taiseit navajag, bet tys var byut dereigi, ka jius tū sataiseisit.
 read-more-about = Skaitit vaira myusu lopā Par mums
 
 ## DemoLayout
 
 demo-get-started = Suoksim
 demo-welcome = Vasali pi myusu Common Voice
+demo-welcome-subheader = Voi gribit izzynuot vaira i dūt sovu īguļdejumu projektā?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ir pasaulī leluokuo publiski daīmamuo vairuoku volūdu bolsa datu kūpa.
 card-button-next = Iz prīšku
 card-button-back = Atpakaļ
 demo-language-select-label = Vērtīs volūdys
