@@ -437,11 +437,14 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Kai dorbojās teiklavītys lokalizaceja?
 about-playbook-how-localize-content-1 = Teiklavītys Common Voice tulkuošona nūteik <strong>Pontoon</strong> sistemā.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Sataisit kontu</pontoonAccountLink>, ka jums taida nav. Piec tam izalosit volūdu sadaļā <strong>Komanda jeb ‘Teams’</strong> i tod izalosit projektu <pontoonCvLink>Common Voice</pontoonCvLink>. Tī byus tulkuojamuos faili. Klykstynojit iz vīna, piec tam tiks paruodeiti vuordi angļu volūdā i lūdzeņš tūs tulkuošonai.
+about-playbook-how-localize-content-4 = Teiklavīta ir gotova palaisšonai, kod tei sasnādz  75% dabeigteibu.
+about-playbook-how-localize-content-5 = Lai paleidzātu, verīs myusu video skaidruojumu
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Kai dalikt teikumus?
 about-playbook-how-add-sentences-content-3 = Varit lītuot <scraperLink>teikumu izviļkšonys reiku</scraperLink>, lai dasaisteitu eisus teikumus nu Vikipedejis.
+about-playbook-how-add-sentences-content-4 = Validātī īroksti teik eksportāti trešdīnēs i ir daīmami nuokušajā izlaidumā.
 
 ## How to record quality
 
@@ -488,6 +491,8 @@ glossary = Aproksts
 localization = Lokalizaceja
 hours-recorded-explanation = Da šam savuoktū bolsa īrokstu stuņžu skaits.
 sst = Runa iz tekstu (STT)
+sst-explanation = Runys-teksta (STT) tehnologejis puorveidoj bolsa datus tekstā.
+de-identified = Breivs nu ideņtifikacejis
 de-identified-explanation = Process, kurā īrunuotuoja profila informaceja teik maskāta juo pazīduotajūs bolsa īrokstūs, ka tī ir daīmami zamynluodei kai datu kūpys dalis.
 
 ## Error pages
@@ -513,6 +518,7 @@ dataset-date = Datums
 license = Liceņze: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
 data-download-singleword-title = Zamynluodēt vīna vuorda mierka segmentu
+review-terms = Lītojūt Common Voice, jius esit mīrā ar myusu <termsLink>nūsacejumim</termsLink> i <privacyLink>privatuma politiku</privacyLink>
 terms-agree = Es pīkreitu
 terms-disagree = Es napīkreitu
 review-aborted = Augšynluode teik puortraukta. Voi gribit dzēst sovus īrokstus?
