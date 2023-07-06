@@ -534,6 +534,7 @@ about-playbook-how-add-sentences-content-4 = Tekserilgen gápler Sárshembi kún
 
 about-playbook-how-record-quality = Joqarı sapadaǵı dawıslı úzindini qalay jazıwım múmkin?
 about-playbook-how-record-content-1 = Ádettegi dawıs penen sóyleń! Qáytip sóyleseńiz de, biz quwanıshlımız. Bizge siziń ápiwayı dawısıńız akcenti, intonaciyası hám bálentligi sıyaqlı ózgeshelikleri menen kerek.
+about-playbook-how-record-content-2 = Artıqsha artqı shawqımnan saqlanıń. Sizdi esitiw ańsat bolıwı kerek.
 about-playbook-how-record-content-3 = Gápti dıqqat penen oqıń. Ótkerip jibermeń, ózgertpeń hám sózler qospań.
 about-playbook-how-record-content-4 = Sóylewden aldın sayt dawısıńızdı jazıp baslaǵanına hám sóylep bolǵannan soń jazıp alıw toqtaǵanına isenim kámil etiń.
 about-playbook-how-record-content-5 = <accuracyLink>Anıqlıq talaplarında kóbirek kóriń.</accuracyLink>
@@ -541,6 +542,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Anıqlıq talaplarında kób
 ## How to grow language
 
 about-playbook-how-grow-language = Bizler Common Voiceta tildi qalay nátiyjeli rawajlandırıwımız múmkin?
+about-playbook-how-grow-language-content-2 = Waqıyalar
 about-playbook-how-grow-language-content-6 = Sheriklikler hám tarmaqlar
 
 ## How to validate
