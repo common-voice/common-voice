@@ -506,14 +506,18 @@ about-playbook-how-add-language-content-1 =
     Eger joq bolsa, tilińizdi qosıwdı <languageRequestLink>sorawıńız múmkin</languageRequestLink>. 
     Soń sayttı awdarıwıńız hám gáplerdi jiynawıńız kerek.
 about-playbook-how-add-language-translating-heading = Sayttı awdarmalaw
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoondı qalay paydalanıw boyınsha  qollanbamızdı kóriń</translateVideoLink>
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoondı qalay paydalanıw boyınsha  qollanbamızdı tamashalań</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Awdarmalar ushın <pontoonLink>Pontoon</pontoonLink> atlı Mozillanıń quralınan qollanamız. Pontoonda kóp tiller bar, eger siziń tilińiz joq bolsa, onı <pontoonRequestLink>qosıwın sorawıńız múmkin</pontoonRequestLink>. 
+    Keyin til Common Voiceta bolıwı ushın <githubRepoLink>jańa tildi qosıwın GitHubta sorań</githubRepoLink>. <localizationFragment>Sayttı awdarıw tuwralı kóbirek kóriń.</localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = Gáplerdi jıynaw
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Gáplerdi jıynaw tuwralı kóbirek biliw</sentenceCollectorFragment>
 
 ## How does localization work
 
 about-playbook-how-localize = Sayttı lokalizaciyalaw qalay isleydi?
 about-playbook-how-localize-content-1 = Common Voice saytı awdarması <strong>Pontoon</strong>da ámelge asırıladı.
-about-playbook-how-localize-content-5 = Járdem ushın túsindiriwshi videomızdı kóriń
+about-playbook-how-localize-content-5 = Járdem ushın túsindiriwshi videomızdı tamashalań
 
 ## How to add sentences
 
