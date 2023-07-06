@@ -480,6 +480,10 @@ about-no-votes = ≥ 2 "Joq" dawıslar
 about-dataset-new = CommonVoice maǵlıwmatlar toplamı
 about-dataset-new-text = CommonVoice maǵlıwmatlar toplamı baǵdarlamashılarǵa dawıstı anıqlaw quralın járatıwǵa járdem beriw ushın júz mıńnan aslam audio úlgilerin óz ishine aladı.
 about-get-involved = Qatnasıw
+about-get-involved-text-2 =
+    Common Voicetıń ele de jaqsılanıwına járdem bergińiz kele me?
+    Ájayıp! Biz benen elektron pochta yamasa <discourseLink>Discourse</discourseLink> arqalı baylanısıń, sayt penen baylanıslı mashqalalar tuwralı <githubLink>GitHub</githubLink> arqalı xabar beriń
+    yamasa <matrixLink>Matrix</matrixLink> birlespe chatına qosılıń.
 about-stay-in-touch = Men qalay baylanısta bolıwım múmkin?
 about-stay-in-touch-button = Dizimnen ótiw
 about-nav-why-common-voice = Nege?
@@ -498,7 +502,7 @@ about-playbook-what-is-language = Common Voiceta til ne?
 
 about-playbook-how-add-language = Tildi qalay qossam boladı?
 about-playbook-how-add-language-translating-heading = Sayttı awdarmalaw
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoondı qalay qollanıw boyınsha úyretiwshi videomızdı kóriń</translateVideoLink>
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoondı qalay paydalanıw boyınsha  qollanbamızdı kóriń</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Gáplerdi jıynaw
 
 ## How does localization work
