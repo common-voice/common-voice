@@ -527,6 +527,8 @@ about-playbook-how-localize-content-5 = Járdem ushın túsindiriwshi videomızd
 
 about-playbook-how-add-sentences = Gáplerdi qalay qossam boladı?
 about-playbook-how-add-sentences-content-1 = <strong>Gápler jıynawshısı</strong> — xalıq dóretpelerindegi gáplerdi jıynaw hám tekseriw ushın qural. Qatnasıw ushın <scAccountLink>akkaunt jaratıń</scAccountLink>, soń <strong>profilde</strong> tilińizdi qosıń.  Siz gáplerdi <strong>qosıwıńız</strong> yamasa aldın qosılǵan gáplerdi <strong>tekseriwińiz</strong> múmkin.
+about-playbook-how-add-sentences-content-2 = Gápler Common Voiceqa qosılıwı ushın olar eki qatnasıwshı tárepinen tekseriliwi hám qabıllanıwı kerek. <languageGuidelinesLink>Usı jerde</languageGuidelinesLink> tilińiz ushın qollanbalar toplamın jaratıwıńız múmkin. Gápler 15 sózden kem hám <licenseLink>xalıq dóretpelerinen</licenseLink> bolıwı kerek. Biziń <waiverLink>avtorlıq huqıqların biykarlaw boyınsha mexanizmimizden</waiverLink> qollanıp, avtordan tekstin CC0 licenziyası tiykarına beriwin sorawıńız múmkin hám biziń pochtamızǵa jiberiń commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-4 = Tekserilgen gápler Sárshembi kúni qosıladı hám keyingi jańalanıwda payda boladı.
 
 ## How to record quality
 
