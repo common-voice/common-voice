@@ -526,6 +526,7 @@ about-playbook-how-localize-content-5 = Járdem ushın túsindiriwshi videomızd
 ## How to add sentences
 
 about-playbook-how-add-sentences = Gáplerdi qalay qossam boladı?
+about-playbook-how-add-sentences-content-1 = <strong>Gápler jıynawshısı</strong> — xalıq dóretpelerindegi gáplerdi jıynaw hám tekseriw ushın qural. Qatnasıw ushın <scAccountLink>akkaunt jaratıń</scAccountLink>, soń <strong>profilde</strong> tilińizdi qosıń.  Siz gáplerdi <strong>qosıwıńız</strong> yamasa aldın qosılǵan gáplerdi <strong>tekseriwińiz</strong> múmkin.
 
 ## How to record quality
 
