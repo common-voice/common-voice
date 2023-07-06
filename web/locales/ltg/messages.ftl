@@ -982,6 +982,7 @@ sc-howto-findpd-subtitle-2 = Sasadorbojit ar vītejom organizacejom voi privatpe
 
 sc-my-title = Muni teikumi
 sc-my-loading = Nūteik jiusu teikumu īluode...
+sc-my-err-fetching = Īluodejūt jiusu teikumus, roduos klaida. Lyudzu, raugit vēlreiz.
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Īsnīguma identifikators: { $batchId }
