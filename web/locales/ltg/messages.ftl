@@ -137,6 +137,10 @@ home-title = Common Voice ir Mozilla iniciativa, lai vuiceitu datorim saprast cy
 default-tagline = Common Voice ir Mozilla iniciativa, lai vuiceitu datorim saprast cylvāku volūdu.
 home-cta = Runojit, dūdit īguļdejumu ite!
 wall-of-text-start = Bolss ir dabisks, bolss ir ciļvieceigs. Deļtuo mes gribim sataiseit bolsa atpazeišonys tehnologeju, kuru varātu lītuot vysaiduos īreicēs. Bet, lai radeitu itaidu bolsa tehnologeju, ir vajadzeigs daudz bolsa īrokstu.
+wall-of-text-more-mobile = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daīmami vysim cylvākim. Tys kavej inovaceju. Deļtuo asam uzsuokuši Common Voice projektu, kas padareis bolsa atpazeišonu daīmamu sevkuram.
+wall-of-text-more-desktop =
+    Niu jius varit pazīduot sovu bolsu, lai paleidzātu mums sataiseit atvārtuo pyrmkoda bolsa datubazi, kū var lītuot sevkurs,¶
+    taisūt inovativys lītuotnis īreicem i teiklavītai. Skaitit teikumu, lai paleidzātu mašynom īvuiceit, kai runoj cylvāki. Puorbaudit cytu cylvāku īrokstus, lai uzlabuotu datu kvalitati. Tys ir tik vīnkuorši!
 show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
 help-us-explain = Nūmīdzīt atskaņuošonys pūgu, klausotēs i puorbaudit, voi zamuok nūruodeitais teikums ir izrunuots precizai.
@@ -186,6 +190,9 @@ email-subscription-title-new = Registrejitēs Common Voice viestim, atguodynuoju
 
 benefits = Īgivumi
 keep-track = Sekojit leidza sovam progresam i datim vairuokuos volūduos.
+compare-progress = Veritēs, kai jiusu progress ir saleidzynoms ar cytim īguļdeituojim vysā pasaulī.
+view-goals = Veritēs sovu progresu pret personiskajim i projekta mierkim.
+join-newsletter = Ka gribit, pīsavīnojit myusu e-postu adresatu sarokstam, lai sajimtu projekta jaunumus i informaceju par projektu.
 
 ## What's public
 
