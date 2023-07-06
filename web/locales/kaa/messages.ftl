@@ -839,6 +839,7 @@ contribution-misreadings-description-extended-list-2 = Sózdiń aqırında <stro
 contribution-misreadings-description-extended-list-5 = Sózdi oqıw ushın birneshe urınıw
 contribution-misreadings-example-2-explanation = [‘dinozavrlar’ bolıwı kerek]
 contribution-background-noise-title = Sırtqı shawqım
+contribution-reader-effects-title = Oqıw effektleri
 contribution-just-unsure-title = Isenimińiz kámil emes pe?
 see-more = <chevron></chevron>Kóbirek kóriw
 see-less = <chevron></chevron>Azıraq kóriw
