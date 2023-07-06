@@ -501,6 +501,10 @@ about-playbook-what-is-language = Common Voiceta til ne?
 ## How do I add a language
 
 about-playbook-how-add-language = Tildi qalay qossam boladı?
+about-playbook-how-add-language-content-1 =
+    Basta tilińiz <languageLink>qosılǵanın tekseriń</languageLink>. 
+    Eger joq bolsa, tilińizdi qosıwdı <languageRequestLink>sorawıńız múmkin</languageRequestLink>. 
+    Soń sayttı awdarıwıńız hám gáplerdi jiynawıńız kerek.
 about-playbook-how-add-language-translating-heading = Sayttı awdarmalaw
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoondı qalay paydalanıw boyınsha  qollanbamızdı kóriń</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Gáplerdi jıynaw
