@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Quemah, xinechiualtitlani correos. Onicniquisquiaya nicmatis ica in tlanimilil Common Voice.
+yes-receive-emails = Quemah, xinechioaltitlani correos. Onicniquisquiaya nicmatis ica tlanimilil Common Voice.
 stayintouch = Ich Mozilla secchiutoc se nichicomasehual campa tipostl notzani. Otechpactisquia timitzmatiltisque ica in  tepanoltilistl, yancuic nemilis ica tlahcuilol uan secmatis cachi queni teh tiquintiquitiltia necateh datos.
 return-to-cv = Ximocuipa campa Common Voice
 email-input =
@@ -777,17 +777,19 @@ recordings =
 
 ## Dashboard
 
-your-languages = mu tlahtulmeh
+your-languages = mu tlahtolme
 toward-next-goal = campa ocse tiquitl
 goal-reached = tiquitl mahsitoc
-clips-you-recorded = tlanonots tlen yutic tlahtolahcuc
-todays-recorded-progress = nemilis de axan tlahcuilol tlahtolahcuc para Common Voice
+clips-you-recorded = tlanonots tlen yotictlahtolahcoc
+todays-recorded-progress = nemilis de axan tlahcoilol tlahtolahcocui para Common Voice
 todays-validated-progress = nemilis de axan tlahcuilol silihqueh para Common Voice
-awards = tetlaoculil
-you = teh
-everyone = nuchin tlalticpac
-contribution-activity = tiquitl palehuis
-total-approved = nuchi tlen umu silihqueh
+awards = tetlaocolil
+you = tehuatl
+everyone = nochin tlalticpac
+contribution-activity = tiquitl paleuis
+top-contributors = tiachca paleuane
+recorded-clips = tlahcoilol tlahtolahcoctoc
+total-approved = nuchi tlen omosilihqueh
 show-ranking = mucnextica nu nemilis
 
 ## Custom Goals
