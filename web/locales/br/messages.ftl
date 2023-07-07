@@ -600,6 +600,7 @@ about-playbook-how-validate = Penaos gouzout hag-eñ e rank bezañ gwiriekaet ur
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Penaos e c’hellan haeziñ hag implijout ar spletad roadennoù?
 
 ## How are decisions made
 
