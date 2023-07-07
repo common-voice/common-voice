@@ -455,6 +455,7 @@ about-playbook-how-localize-content-5 = Lai paleidzātu, verīs myusu video skai
 ## How to add sentences
 
 about-playbook-how-add-sentences = Kai dalikt teikumus?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ir reiks publiskuo domena teikumu apkūpuošonai i apstyprynuošonai. Jums byus <scAccountLink>juosataisa konts</scAccountLink>. Piec tam dalīcit volūdu sovam <strong>profilam</strong>. Varit <strong>dalikt</strong> teikumus voi <strong>puorsavērt</strong> agruok dalyktūs teikumus.
 about-playbook-how-add-sentences-content-3 = Varit lītuot <scraperLink>teikumu izviļkšonys reiku</scraperLink>, lai dasaisteitu eisus teikumus nu Vikipedejis.
 about-playbook-how-add-sentences-content-4 = Validātī īroksti teik eksportāti trešdīnēs i ir daīmami nuokušajā izlaidumā.
 
