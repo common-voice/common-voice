@@ -581,6 +581,7 @@ sst-explanation = Awızshadan tekstke (Speech-to-text, STT) texnologiyası dawı
 ## Error pages
 
 error-title-404 = Siz ushın bul betti taba almadıq
+error-content-404 = Biziń <homepageLink>bas betimiz</homepageLink> sizge járdem beriwi múmkin. Ótinish, soraw beriw ushın <matrixLink>Matrix</matrixLink> birlespesi chatına qosılıń, sayttaǵı mashqalalardı <githubLink>GitHub</githubLink> arqalı baqlap barıń yamasa biziń <discourseLink>Discourse</discourseLink> forumlarına kiriń.
 error-code = Qátelik kodı: { $code }
 
 ## Data
