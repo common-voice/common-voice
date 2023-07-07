@@ -735,6 +735,7 @@ listen-last-time-instruction = <playIcon></playIcon>Sońǵısı!
 listen-loading-error =
     Tıńlawıńız ushın heshqanday audio úzindi taba almadıq.
     Ótinish, keyinirek qayta urınıp kóriń.
+speak-empty-state = Dawıs jazıw ushın bul tilde gápler tawsıldı...
 speak-empty-state-cta = Gáplerdi usınıw
 record-button-label = Dawısıńızdı jazıń
 share-title-new = Bizge kóbirek dawıs jıynawǵa <bold>járdem beriń</bold>
@@ -776,10 +777,18 @@ days =
 ## Dashboard
 
 your-languages = Siziń tillerińiz
+toward-next-goal = Keyingi maqset
+clips-you-recorded = Siz jazǵan dawıslı úzindiler
+clips-you-validated = Siz teksergen dawıslı úzindiler
+todays-recorded-progress = Common Voiceta búgin jazılǵan dawıslı úzindiler
+todays-validated-progress = Common Voiceta búgin tekserilgen dawıslı úzindiler
 stats = Statistika
 awards = Sıylıqlar
 you = Siz
 everyone = Barlıq paydalanıwshılar
+recorded-clips = Jazılǵan dawıslı úzindiler
+validated-clips = Tekserilgen dawıslı úzindiler
+total-approved = Jámi tekserildi
 
 ## Custom Goals
 
@@ -795,6 +804,7 @@ average-difficulty = Ortasha
 difficult-difficulty = Qıyın
 pro-difficulty = Pro
 finish-editing = Dáslep ózgertiwdi tamamlawdı qáleysiz be?
+build-custom-goal = Jeke maqset jaratıw
 set-a-goal = Maqset qoyıw
 n-clips-pluralized =
     { NUMBER($count) ->
