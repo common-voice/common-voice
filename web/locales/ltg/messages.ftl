@@ -587,6 +587,9 @@ community-playbook = Kūpīnys rūkysgruomota
 resource-playbook-info = <playbookLink>Atrūnit dereigus nūruodejumus</playbookLink> par vysu Common Voice ceļuojumu, suocūt nu lokalizacejis da datu kūpys lītuošonai, kai ari par tū, kai sasazynuot ar myusu kūpīnu.
 data-other-librispeech-description = LibriSpeech ir apmāram 1000 stuņžu 16Khz ar angļu volūdys runu, kas dabuota nu LibriVox projektā skaiteitajom audio gruomotom.
 data-other-ted-name = TED-LIUM korpuss
+your-feedback = Voi jums ir idejis, kai mes varim padareit lobuoku Common Voice datu kūpu? Informejit myus par tū Discourse servisā
+go-discourse = Īt iz Discourse
+missing-language = Voi naredzit sovu volūdu datu kūpā? Lai pīpraseitu volūdu, ejit iz myusu volūdu lopu.
 go-languages-page = Ejit iz volūdu lopu
 ready-to-validate = Voi esit gotovs paleidzēt puorbaudeit teikumus?
 more = Vairuok
@@ -904,6 +907,7 @@ download-request-link-single = Varit ari kopēt i īleimēt ituos adresis sovā 
 ## Landing
 
 welcome-staff = Vasali { $company } darbinīki!
+help-contribute = Jius varit paleidzēt taiseit daudzveideigu valejuo pyrmkoda datu kūpu, sataisūt Common Voice profilu i īrokstūt sovu bolsu.
 login-company = Pīsasokit / pīsarokstit ar { $company } e-postu
 profile-not-required = Lai dūtu īguļdejumu, profilu taiseit navajag, bet tys var byut dereigi, ka jius tū sataiseisit.
 read-more-about = Skaitit vaira myusu lopā Par mums
@@ -917,6 +921,7 @@ demo-welcome-subheader = Voi gribit izzynuot vaira i dūt sovu īguļdejumu proj
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice ir pasaulī leluokuo publiski daīmamuo vairuoku volūdu bolsa datu kūpa.
+demo-language-select-card-body = Pasasokūt vaira kai 259 000 cylvāku īduļdejumam puori par 50 volūduos, itī dati teik lītuoti, lai apvuiceitu programys, kas saprūt cylvāku bolsus.
 card-button-next = Iz prīšku
 card-button-back = Atpakaļ
 demo-language-select-label = Vērtīs volūdys
