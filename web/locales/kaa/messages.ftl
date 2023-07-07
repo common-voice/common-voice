@@ -821,6 +821,11 @@ pro-difficulty = Pro
 want-to-continue = Dawam etiwdi qáleysiz be?
 finish-editing = Dáslep ózgertiwdi tamamlawdı qáleysiz be?
 build-custom-goal = Jeke maqset jaratıw
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Jeke maqset penen { $language } tilinde { $hours } saatqa jetiwge járdem beriń
+       *[other] Jeke maqset penen { $language } tilinde { $hours } saatqa jetiwge járdem beriń
+    }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Jeke maqsetińiz benen Common Voiceqa { $hours } saatqa jetiwine járdem beriń
@@ -926,6 +931,7 @@ contribution-misreadings-description-extended-list-2 = Sózdiń aqırında <stro
 contribution-misreadings-description-extended-list-5 = Sózdi oqıw ushın birneshe urınıw
 contribution-misreadings-example-2-explanation = [‘dinozavrlar’ bolıwı kerek]
 contribution-background-noise-title = Sırtqı shawqım
+contribution-background-voices-title = Sırtqı dawıslar
 contribution-volume-title = Dawıs bálentligi
 contribution-reader-effects-title = Oqıw effektleri
 contribution-just-unsure-title = Isenimińiz kámil emes pe?
