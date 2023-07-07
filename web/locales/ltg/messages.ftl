@@ -456,12 +456,14 @@ about-playbook-how-localize-content-5 = Lai paleidzātu, verīs myusu video skai
 
 about-playbook-how-add-sentences = Kai dalikt teikumus?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ir reiks publiskuo domena teikumu apkūpuošonai i apstyprynuošonai. Jums byus <scAccountLink>juosataisa konts</scAccountLink>. Piec tam dalīcit volūdu sovam <strong>profilam</strong>. Varit <strong>dalikt</strong> teikumus voi <strong>puorsavērt</strong> agruok dalyktūs teikumus.
+about-playbook-how-add-sentences-content-2 = Teikumi ir juopuorsaver i juopījam divejim cylvākim, lai tī tyktu pījimti Common Voice. Jius varit sataiseit vodlinejis sovai volūdai <languageGuidelinesLink>ite</languageGuidelinesLink>. Teikumim juobyut <licenseLink>breivim nu autortīseibu</licenseLink>, i tim juobyut eisuokim par 15 vuordim. Varit lyugt teksta eipašnīkam nūdūt teikumus <waiverLink>CC0 jeb breivai izlītuošonai, lītojūt myusu autortīseibu nūdūšonys procesu</waiverLink>, i nūsyuteit mums iz commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Varit lītuot <scraperLink>teikumu izviļkšonys reiku</scraperLink>, lai dasaisteitu eisus teikumus nu Vikipedejis.
 about-playbook-how-add-sentences-content-4 = Validātī īroksti teik eksportāti trešdīnēs i ir daīmami nuokušajā izlaidumā.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Kai īraksteit lobys kvalitatis īrokstu?
+about-playbook-how-record-content-1 = Runojit sovā īrostajā bolsā! Jiusu runys veids ir pījamams - mes gribim, lai jiusu izruna byutu taida, kaida tei ir, i taipat mes gribim dzierdēt jiusu runys īrostū skaļumu, stilu i intonaceju.
 about-playbook-how-record-content-2 = Izasorgojit nu cīš lela fona trūkšņa - jums vajadzātu byut vīgli saklausomam.
 about-playbook-how-record-content-3 = Viereigi puorskaitit teikumus - naizlaidit, namainit i nadalīcit vuordus.
 about-playbook-how-record-content-4 = Puorsalīcynojit, ka īroksts ir suocīs, pyrma suokt runuot, i apturit īrokstu tikai tod, kod esit pabeidzis runuot.
