@@ -1157,12 +1157,16 @@ sc-stats-updating = Oc'h hizivaat…
 
 ## ADD
 
+sc-submit-err-select-lang = Diuzit ur yezh mar plij.
 sc-submit-err-add-sentences = Ouzhpennit frazennoù mar plij.
 sc-submit-err-add-source = Ouzhpennit ur vammenn mar plij.
+sc-submit-title = Ouzhpennañ Frazennoù
 sc-submit-select-language =
     .labelText = Diuzañ ur yezh
+sc-submit-add-sentences = Ouzhpennañ frazennoù a zo en <wikipediaLink>domani foran</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Ur frazenn dre linenn
+sc-submit-from-where = Eus pelec’h e teu ar frazennoù-mañ eus an <wikipediaLink>domani foran</wikipediaLink>?
 sc-submit-button =
     .submitText = Kas
 
@@ -1181,9 +1185,13 @@ sc-lang-info-title-personal = Personel
 
 ## LOGIN
 
+sc-login-err-try-again = Klaskit en-dro mar plij.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
 sc-personal-your-languages = Ho yezhoù:
 sc-personal-remove-button = dilemel
 
@@ -1192,6 +1200,11 @@ sc-personal-remove-button = dilemel
 
 ## REVIEW
 
+sc-review-title = Gwiriañ Frazennoù
+sc-review-loading = O kargañ frazennoù…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Mammenn: { $sentenceSource }
 sc-review-form-button-reject = Nac'hañ
 sc-review-form-button-skip = Tremen
 sc-review-form-button-approve = Aprouiñ
@@ -1206,6 +1219,7 @@ sc-review-link = Gwiriañ
 ## SETTINGS
 
 sc-settings-title = Arventennoù
+sc-settings-ui-language = Yezh an etrefas
 
 # [/SentenceCollector]
 
