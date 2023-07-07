@@ -843,6 +843,7 @@ target-segment-learn-more = Gouzout hiroc’h
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Dastumad mouezhioù
+contribute-sentence-collection-nav-header = Dastumad frazennoù
 
 ## Reporting
 
@@ -1025,6 +1026,7 @@ profile-form-delete = Dilemel ar profil
 
 ## Profile Download
 
+download-q = Ezhomm ho peus pellgargañ ho roadennoù?
 download-profile-title = Profil
 download-profile-size = Un nebeut bitoù
 download-recordings-title = Enrolladennoù
