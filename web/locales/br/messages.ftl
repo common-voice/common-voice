@@ -1241,6 +1241,8 @@ continue-speaking-button = Nann avat, kenderc'hel da gomz
 create-profile-button = Krouiñ ur profil
 # IMAGE TAGS
 img-alt-success-checkmark = merk kochañ berzh
+# GUIDELINES PAGE
+guidelines-header = Sturiadurioù ar c'hemer-perzh
 voice-collection = Dastumad mouezhioù
 sentence-collection = Dastumadeg frazennoù
 misreadings = Fazioù lenn
