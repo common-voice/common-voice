@@ -848,6 +848,7 @@ download-request-metadata-link = Gáp teksti
 
 ## Landing
 
+login-company = { $company } elektron pochta járdeminde kiriw / dizimnen ótiw
 read-more-about = Biz tuwralı betinde tolıǵıraq oqıń
 
 ## DemoLayout
