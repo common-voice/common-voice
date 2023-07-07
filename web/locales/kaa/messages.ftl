@@ -912,14 +912,17 @@ sc-header-my = Meniń gáplerim
 sc-header-statistics = Statistika
 sc-header-profile = Profil
 sc-footer-discourse = Discourse
+sc-footer-report-bugs = Qáteler haqqında xabar beriw
 sc-footer-report-copyright = Avtorlıq huqıqın buzıw haqqında xabar beriw
 sc-footer-privacy = Qupıyalıq
 sc-footer-terms = Shártler
+sc-footer-cookies = Kukilar
 sc-login-signup-button = Kiriw / Dizimnen ótiw
 sc-logout-button = Shıǵıw
 
 ## HOME
 
+sc-home-title = Common Voice gápler jıynawshısına xosh keldińiz
 sc-home-collect-title = Gáplerdi qosıw
 sc-home-review-title = Gáplerdi tekseriw
 sc-home-review-text = Talaplarımızǵa juwap beretuǵın gáplerdi tańlap alıwda bizge járdem beriń.
@@ -930,6 +933,7 @@ sc-languages-fetch-error = Bar tillerdi alıw ámelge aspadı. Házirgi waqıtta
 
 ## HOW-TO
 
+sc-howto-addlang-text = Kirgennen soń profil bóliminen tillerdi tańlawıńız múmkin.
 sc-howto-addsen-title = Jańa gáplerdi qosıw
 sc-howto-addsen-item-6 = Tiller óziniń qosımsha talapları menen <validationRulesLink>tekseriw qaǵıydalarına</validationRulesLink> iye bolıwı múmkin. Eger tildiń arnawlı tekseriw faylı bolmasa, biz anglichan tilinıń ulıwmalıq qaǵıydaların qollanamız.
 sc-howto-cite-title = Qalay citata keltiremen?
