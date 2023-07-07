@@ -803,6 +803,7 @@ easy-difficulty = Ańsat
 average-difficulty = Ortasha
 difficult-difficulty = Qıyın
 pro-difficulty = Pro
+want-to-continue = Dawam etiwdi qáleysiz be?
 finish-editing = Dáslep ózgertiwdi tamamlawdı qáleysiz be?
 build-custom-goal = Jeke maqset jaratıw
 set-a-goal = Maqset qoyıw
