@@ -472,6 +472,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Veritēs vaira par tū, kai 
 ## How to grow language
 
 about-playbook-how-grow-language = Kai mes varim atteisteit volūdu pakolpuojumā Common Voice?
+about-playbook-how-grow-language-content-1 = Atrūnūt vareibu vysaidim cylvākim dūt īguļdejumu Common Voice, teik nūdrūsynuots, ka datu kūpa apkolpoj piec vareibys vaira cylvāku. Mes asam radejuši resursus i veidnis, kū varit lītuot!
 about-playbook-how-grow-language-content-2 = Nūtikšonys
 about-playbook-how-grow-language-content-4 = Socialī medeji
 about-playbook-how-grow-language-content-6 = Partnereibys i teikli
