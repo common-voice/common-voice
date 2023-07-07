@@ -987,6 +987,7 @@ sc-submit-guidelines = Ótinish, <howToLink>qollanbalar</howToLink> menen tanıs
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Tildi qosıw ámelge aspadı
+sc-add-lang-sec-label = Úles qosıwdı qáleytuǵın tilińizdi qosıń
 sc-add-lang-sec-button = Til qosıw
 sc-add-err-unexpected = Serverden kútilmegen juwap alındı
 # Variables:
@@ -998,6 +999,7 @@ sc-add-err-failed =
        *[other] { $sentences } gápte qátelik
     }
 sc-add-err-submission = Jiberiw qáteligi
+sc-add-lang-process-notice = Eger sizıń tilińiz bul jerde joq bolsa, onı bul <languageProcessLink>qural</languageProcessLink> járdeminde sorawıńız múmkin.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1029,7 +1031,11 @@ sc-confirm-ready =
         [one] 1 gáp jiberiwge tayar!
        *[other] { $readyCount } gáp jiberiwge tayar!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } gáp tekserilmedi. Eger qáleseńiz, gáplerińizdi júklewden aldın tekseriwińiz múmkin.
 sc-confirm-button-text = Tastıyıqlaw
+sc-confirm-uploading = Gápler júklenbekte. Qosılǵan gápler sanına qarap bir neshe minut dawam etiwi múmkin. Ótinish, bul veb-sayttı jawmań.
 
 ## LANGUAGE INFO
 
@@ -1059,6 +1065,7 @@ sc-personal-err-lang-not-found = Tildi óshiriw ámelge aspadı: til tabılmadı
 sc-personal-err-remove = Tildi óshiriw ámelge aspadı
 sc-personal-your-languages = Siziń tillerińiz:
 sc-personal-remove-button = óshiriw
+sc-personal-not-added = Siz ele heshqanday til qospadıńız.
 
 ## REVIEW CRITERIA
 
@@ -1067,6 +1074,7 @@ sc-criteria-title = Tekseriw talapları
 sc-criteria-make-sure = Gáp tómendegi talaplarǵa juwap beretuǵınlıǵına isenim kámil etiń:
 sc-criteria-item-1 = Gáp durıs jazılıwı kerek.
 sc-criteria-item-2 = Gáp grammatikalıq jaqtan durıs bolıwı kerek.
+sc-criteria-item-4 = Eger gáp talaplarǵa juwap berse, oń táreptegi &quot;Qabıllaw&quot; túymesin basıń.
 sc-criteria-item-5-2 = Eger de gáp joqarıda kórsetilgen talaplarǵa juwap bermese, &quot;Biykarlaw&quot; túymesin basıń. Eger siziń gápke isenimińiz kámil bolmasa, ótkerip jiberip, keyingisine ótiwińiz múmkin.
 sc-criteria-item-6 = Eger tekseriw ushın gápler tawsılsa, ótinish, bizge kóbirek gáp jıynawǵa járdem beriń!
 
