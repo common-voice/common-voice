@@ -482,6 +482,7 @@ about-yes-votes-text = Common Voicetıń maǵlıwmatlar toplamına kiriwi ushın
 about-no-votes = ≥ 2 "Joq" dawıslar
 about-dataset-new = CommonVoice maǵlıwmatlar toplamı
 about-dataset-new-text = CommonVoice maǵlıwmatlar toplamı baǵdarlamashılarǵa dawıstı anıqlaw quralın járatıwǵa járdem beriw ushın júz mıńnan aslam audio úlgilerin óz ishine aladı.
+about-clip-graveyard = Dawıslı úzindiler qábiristanı
 about-get-involved = Qatnasıw
 about-get-involved-text-2 =
     Common Voicetıń ele de jaqsılanıwına járdem bergińiz kele me?
