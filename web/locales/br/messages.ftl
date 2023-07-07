@@ -1037,6 +1037,7 @@ download-request-button = Pellgargañ
 download-request-title = { $created }
 download-request-refresh-button = Freskaat
 download-request-modal-title = Liammoù pellgargañ
+download-request-metadata-link = Testenn ar frazenn
 
 ## Landing
 
@@ -1082,9 +1083,14 @@ demo-dashboard-card-body = Evit pep klip mouezh pourvezet ganeoc'h ha pep klip a
 ## Validation criteria
 
 contribution-criteria-nav = Dezverkoù
+contribution-criteria-link = Kompren dezverkoù ar c'hemer perzh
 contribution-criteria-page-title = Dezverkoù ar c'hemer perzh
 contribution-for-example = da skouer
 contribution-misreadings-title = Fazioù lenn
+contribution-misreadings-example-1-title = An dinosaored ramzel eus an Triaseg.
+contribution-misreadings-example-2-title = An dinosaor ramzel eus an Triaseg.
+contribution-misreadings-example-3-title = An dinosaored ramzel eus an Trias-.
+contribution-misreadings-example-4-title = An dinosaored ramzel eus an Triaseg. Ya.
 contribution-misreadings-example-6-explanation = [Rankout a rafe bezañ “Ni ’zo”]
 contribution-misreadings-example-7-title = Mont a reomp er-maez da bakañ ur banne kafe.
 contribution-volume-title = Live-son
@@ -1120,15 +1126,24 @@ sc-logout-button = Digevreañ
 
 ## HOME
 
+sc-home-collect-title = Dastum frazennoù
+sc-home-review-title = Gwiriañ frazennoù
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Penaos
+sc-howto-addsen-title = Ouzhpennañ frazennoù nevez
+sc-howto-review-title = Gwiriañ Frazennoù
 
 ## MY SENTENCES
 
+sc-my-title = Ma Frazennoù
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Mammenn: { $source }
 sc-my-delete = Dilemel ar frazenn diuzet
 
 ## REJECTED
