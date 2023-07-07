@@ -862,6 +862,7 @@ download-request = Dawıslı jazbalardı soraw
 download-requests = Dawıslı jazbalardı júklep alıw boyınsha jiberilgen aldıńǵı sorawlar
 download-request-button = Júklep alıw
 download-request-title = { $created }
+download-request-assembling-description = Siziń fayllarıńız jıynalmaqta. Ótinish, keyinirek tekseriń.
 download-request-refresh-button = Jańalaw
 download-request-modal-title = Júklep alıw ushın siltemeler
 download-request-modal-description = ZIP fayllarıńızdı júklep alıw ushın siltemeler.
@@ -870,6 +871,7 @@ download-request-metadata-link = Gáp teksti
 ## Landing
 
 login-company = { $company } elektron pochta járdeminde kiriw / dizimnen ótiw
+profile-not-required = Qatnasıw ushın profil bolıwı shárt emes, biraq bul paydalı. Nege ekenin tómende kóriń.
 read-more-about = Biz tuwralı betinde tolıǵıraq oqıń
 
 ## DemoLayout
@@ -1158,6 +1160,8 @@ localization-select =
     .label = Tildi/lokalizaciyanı tańlań
 # PARTNERSHIPS PAGE
 partnerships-header = Sheriklikler
+partnerships-get-in-touch = Baylanısta bolıń
+partnerships-become-a-partner = Common Voice sherigine aylanıń
 partnerships-governments-header = Húkimetler
 partnerships-our-partners = Biziń sherikler
 # FIRST POST SUBMISSION CTA
