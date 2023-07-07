@@ -1145,6 +1145,7 @@ sc-my-title = Ma Frazennoù
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Mammenn: { $source }
 sc-my-delete = Dilemel ar frazenn diuzet
+sc-my-deleting = O tilemel ar frazennoù diuzet…
 
 ## REJECTED
 
@@ -1156,6 +1157,8 @@ sc-stats-updating = Oc'h hizivaat…
 
 ## ADD
 
+sc-submit-err-add-sentences = Ouzhpennit frazennoù mar plij.
+sc-submit-err-add-source = Ouzhpennit ur vammenn mar plij.
 sc-submit-select-language =
     .labelText = Diuzañ ur yezh
 sc-submit-ph-one-per-line =
