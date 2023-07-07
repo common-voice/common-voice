@@ -518,6 +518,8 @@ de-identified-explanation = Process, kurā īrunuotuoja profila informaceja teik
 ## Error pages
 
 error-title-404 = Mes navariejom atrast itū lopu
+error-content-404 = Varbyut myusu <homepageLink>sātyslopa</homepageLink> paleidzēs? Lai aizdūtu vaicuojumu, lyudzu, pīsavīnojit <matrixLink>Matrix kūpīnys čatā</matrixLink>, dasaverit teiklavītys problemys, lītojūt <githubLink>GitHub</githubLink>, voi ejit iz <discourseLink>myusu diskuseju forumim</discourseLink>.
+error-title-503 = Mums ir nagaideita deikstuove
 error-code = Klaida { $code }
 
 ## Data
@@ -574,11 +576,13 @@ download-language = Zamynluodēt { $language }
 validated-hours = Puorbaudeituos stuņdis
 recorded-hours = Īraksteituos stuņdis
 whats-inside = Kas atsarūn Common Voice datu kūpā?
+want-dataset-update = Gribit zynuot, kod mes izlaižam jaunu Common Voice datu kūpys verseju? Pīsarokstit jaunumim.
 subscribe = Pīsaraksteit
 get-started-speech = Suokt runys atpazeišonu
 other-datasets = Cytys bolsa datu kūpys
 feedback-q = Voi jums ir atsauksmis?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ir <docsLink>valejuo koda reikkūpa</docsLink> pietnīkim, kas izstruodoj jaunuokūs sarunvolūdys muoksleiguo intelekta modeļus.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> struodoj valejuos runys tehnologejis atteisteibai. Jūs projekti apjam dziļā vuiceišonā baļsteitus STT i TTS dziniejus.
 community-playbook = Kūpīnys rūkysgruomota
 data-other-ted-name = TED-LIUM korpuss
 go-languages-page = Ejit iz volūdu lopu
