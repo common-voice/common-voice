@@ -42,6 +42,7 @@ be = Belarusî
 bg = Bulgarî
 bm = Bambarayî
 bn = Bengalî
+bo = Tîbetî
 br = Bretonî
 bs = Bosnayî
 bxr = Buryatî
@@ -115,6 +116,7 @@ lij = Liguriyanî
 ln = Lingalayî
 lo = Laoyî
 lt = Lîtwanî
+ltg = Latgalî
 lv = Latviyayî
 mai = Maithili
 mdf = Mokşayî
@@ -141,6 +143,7 @@ nl = Holendî
 nn-NO = Norwecî (nynorsk)
 nr = IsiNdebele (Başûr)
 nso = Sothoyî ya Bakurî
+ny = Chinyanja
 nyn = Nyankole
 oc = Oksîtanî
 om = Oromî
@@ -430,6 +433,7 @@ accept-privacy = Wekî ku di <privacyLink>Polîtîkaya Nihêniyê</privacyLink> 
 accept-privacy-title = Polîtîkaya Nihêniyê
 accept-privacy-and-terms = Ez <termsLink>Şert</termsLink> û <privacyLink>Agahdariya Nihêniyê</privacyLink> ya Common Voiceê qebûl dikim.
 login-identity = Nasnameya têketinê
+login = Têkeve
 login-signup = Têkeve / Tomar bibe
 edit = Sererast bike
 email-subscriptions = Abonetiyên emaîlê
@@ -824,6 +828,8 @@ action-click = Bitikîne
 action-tap = Bitepîne
 contribute = Beşdarî bike
 listen = Guhdarî bike
+write = Binivîse
+review = Binirxîne
 skip = Derbas bike
 shortcuts = Kurterê
 clips-with-count-pluralized =
@@ -879,6 +885,11 @@ target-segment-generic-card = Tu beşdariyê di beşa hedefekê de dikî.
 target-segment-first-banner = Ji bo zimanê { $locale } alî çêkirina segmenta hedef a pêşîn yê Common Voice-ê bike.
 target-segment-add-voice = Dengê xwe tevlî bike
 target-segment-learn-more = Zêdetir Bizane
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Berhevkirina Dengan
+contribute-sentence-collection-nav-header = Berhevkirina Hevokan
 
 ## Reporting
 
@@ -1380,6 +1391,7 @@ partnerships-header = Hevkarî
 partnerships-get-in-touch = Têkeve têkiliyê
 partnerships-become-a-partner = Bibin Hevkarên Common Voiceê
 partnerships-foundations-header = Weqif
+partnerships-governments-header = Dewlet
 partnerships-our-partners = Hevkarên Me
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Spas ji bo ku te dengê xwe li projeyê bexşand!
@@ -1395,3 +1407,14 @@ second-cta-header-text = Spas ji bo ku te bi dengê xwe beşdarî kir!
 second-cta-subtitle-text = Bi rêya çêkirina profîlê tu dikarî çalakiyên xwe bişopînî û bi civakaka beşdarên daneya dengî re têkiliyê ava bikî.
 already-have-an-account = Jixwe hesabekî te heye? <login>Têkeve</login>
 create-profile-button = Profîlekê çêbike
+# GUIDELINES PAGE
+guidelines-header = Rêbernameya Beşdariyê
+voice-collection = Berhevkirina Dengan
+sentence-collection = Berhevkirina Hevokan
+example = Mînak
+guidelines = Rêbername
+contact-us = Pêwendî
+add-sentence-success = 1 hevok hat berhevkirin
+# REVIEW PAGE
+sc-review-instruction-first-part = kontrol bike
+report-sc-different-language = Zimanê cuda
