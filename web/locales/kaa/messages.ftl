@@ -605,6 +605,7 @@ license-mixed = Aralas
 terms-agree = Razıman
 terms-disagree = Narazıman
 review-submit-title = Tekseriw hám jiberiw
+review-submit-msg = Jazıp qaldırǵanıńız ushın raxmet!<lineBreak></lineBreak> Endi dawıslı jazbalarıńızdı tómende tekseriń hám jiberiń.
 review-recording = Tekseriw
 review-rerecord = Qayta jazıw
 review-cancel = Jiberiwdi biykarlaw
