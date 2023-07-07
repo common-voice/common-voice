@@ -783,6 +783,11 @@ recordings =
         [one] Dawıslı jazba
        *[other] Dawıslı jazba
     }
+validations =
+    { $count ->
+        [one] tekserildi
+       *[other] tekserildi
+    }
 
 ## Dashboard
 
@@ -817,6 +822,8 @@ want-to-continue = Dawam etiwdi qáleysiz be?
 finish-editing = Dáslep ózgertiwdi tamamlawdı qáleysiz be?
 build-custom-goal = Jeke maqset jaratıw
 set-a-goal = Maqset qoyıw
+how-many-per-day = Ájayıp! Kúnine neshe dawıslı úzindi?
+how-many-a-week = Ájayıp! Háptesine neshe dawıslı úzindi?
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } dawıslı úzindi
