@@ -137,11 +137,14 @@ nan-tw = Taiwaneg (Minnan)
 nb-NO = Norvegeg bokmål
 nd = IsiNdebele (Norzh)
 ne-NP = Nepaleg
+nhe = Nahouatleg Huasteca ar Reter
+nhi = Nahouatleg Sierra Puebla ar C'hornog
 nia = Niaseg
 nl = Nederlandeg
 nn-NO = Norvegeg nynorsk
 nr = IsiNdebele (Su)
 nso = Sothoeg an norzh
+ny = Tchitcheweg
 nyn = Nyankole
 oc = Okitaneg
 om = Afaan Ormoo
@@ -192,6 +195,7 @@ ts = Gzitsongaeg
 tt = Tatareg
 tw = Twieg
 ty = Tahitianeg
+tyv = Touvaeg
 uby = Oubic’heg
 udm = Oudmourteg
 ug = Ouigoureg
@@ -535,6 +539,8 @@ about-voice-contrib-title = Kendaoladurioù mouezh
 about-voice-contrib-subtitle = Tud a zeu da gendeurel gant o mouezh.
 about-voice-validation-title = Gwiriekaat ar vouezh
 about-voice-validation-subtitle = Tud all o deus gwiriekaet ar c'hlipoù aodio-mañ.
+about-dataset-release-title = Ermeziadenn ar spletad roadennoù
+about-subscribe-text = Fellout a ra deoc'h chom e darempred gant Common Voice?
 about-speak = Komz
 about-speak-text = Ar gendaolerien a enroll klipoù mouezh en ul lenn e-touez un hollad a frazennoù roet.
 about-listen-queue = Roll gortoz
@@ -1223,6 +1229,11 @@ sc-settings-ui-language = Yezh an etrefas
 
 # [/SentenceCollector]
 
+# PARTNERSHIPS PAGE
+partnerships-header = Kevelerezhioù
+partnerships-get-in-touch = Mont e darempred
+partnerships-become-a-partner = Dont da vezañ keveler da gCommon Voice
+partnerships-governments-header = Gouarnamantoù
 partnerships-our-partners = Hor c'hevelerien
 why-donate = Perak e c'houlennit eta?
 add-information-button = Ouzhpennañ titouroù
@@ -1230,10 +1241,31 @@ continue-speaking-button = Nann avat, kenderc'hel da gomz
 create-profile-button = Krouiñ ur profil
 # IMAGE TAGS
 img-alt-success-checkmark = merk kochañ berzh
+voice-collection = Dastumad mouezhioù
 sentence-collection = Dastumadeg frazennoù
+misreadings = Fazioù lenn
+volume = Live-son
+just-unsure = Etre daou soñj?
+example = Skouer
+background-noise-example-1 = An dinosaored ramzel eus an Triaseg.
+still-have-questions = Goulennoù ho peus c’hoazh?
+contact-common-voice = Mont e darempred gant skipailh Common Voice
+public-domain = Domani Foran
+adding-sentences = Ouzhpennañ Frazennoù
+reviewing-sentences = Gwiriañ Frazennoù
 citing-sentences-subheader-websites = Lec'hiennoù
+citing-sentences-subheader-offline-sources = Mammennoù ezlinenn
+adding-sentences-subheader-length = Hirded
 adding-sentences-subheader-numbers = Niverennoù
 adding-sentences-subheader-punctuation = Poentadur
+# WRITE PAGE
+write-instruction-second-part = ur frazenn en domani foran
+sentence =
+    .label = Frazenn
+citation-input-value = Mammenn ho frazenn
+new-sentence-rule-2 = Nebeutoc’h eget 15 ger
 contact-us = Mont e darempred
+add-sentence-success = 1 frazenn bet dastumet
 # REVIEW PAGE
 sc-review-instruction-first-part = Gwiriañ
+report-sc-different-language = Yezh disheñvel
