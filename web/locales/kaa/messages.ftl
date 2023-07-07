@@ -619,6 +619,8 @@ language = Til
 download-dataset-header = Maǵlıwmatlar toplamın júklep alıw
 # File size in gigabytes
 size = Kólem
+validated-hr-total = Jámi tekserilgen saat
+overall-hr-total = Jámi saat
 cv-license = Licenziya
 audio-format = Audioformat
 number-of-voices = Dawıslar sanı
@@ -775,6 +777,11 @@ days =
     { $count ->
         [one] Kún
        *[other] Kún
+    }
+recordings =
+    { $count ->
+        [one] Dawıslı jazba
+       *[other] Dawıslı jazba
     }
 
 ## Dashboard
