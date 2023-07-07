@@ -849,11 +849,17 @@ profile-form-delete = Profildi óshiriw
 ## Profile Download
 
 download-q = Maǵlıwmatlarıńızdı júklep alıwdı qáleysiz be?
+download-info = Neni júklep alıwdı qáleytuǵınlıǵıńızdı bizge aytıń:
 download-profile-title = Profil
+download-profile-info = Elektron pochta, paydalanıwshı atı hám demografiyalıq maǵlıwmatlardı óz ishine aladı. Házir júklep alıwıńız múmkin.
 download-profile-size = Birneshe bayt
+download-recordings-title = Dawıslı jazbalar
 download-recordings-size = Ádette megabayt
+download-recently-requested = Dawıslı jazbalarıńızdıń jańa arxivin hár { $days } kúnnen sorawıńız múmkin.
 download-selected = Tańlandı
 download-start = Profil maǵlıwmatların júklep alıw
+download-request = Dawıslı jazbalardı soraw
+download-requests = Dawıslı jazbalardı júklep alıw boyınsha jiberilgen aldıńǵı sorawlar
 download-request-button = Júklep alıw
 download-request-title = { $created }
 download-request-refresh-button = Jańalaw
