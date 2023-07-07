@@ -1062,12 +1062,19 @@ sc-personal-remove-button = óshiriw
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Tekseriw talapları
+sc-criteria-title = Tekseriw talapları
+sc-criteria-make-sure = Gáp tómendegi talaplarǵa juwap beretuǵınlıǵına isenim kámil etiń:
+sc-criteria-item-1 = Gáp durıs jazılıwı kerek.
+sc-criteria-item-2 = Gáp grammatikalıq jaqtan durıs bolıwı kerek.
 sc-criteria-item-5-2 = Eger de gáp joqarıda kórsetilgen talaplarǵa juwap bermese, &quot;Biykarlaw&quot; túymesin basıń. Eger siziń gápke isenimińiz kámil bolmasa, ótkerip jiberip, keyingisine ótiwińiz múmkin.
+sc-criteria-item-6 = Eger tekseriw ushın gápler tawsılsa, ótinish, bizge kóbirek gáp jıynawǵa járdem beriń!
 
 ## REVIEW
 
 sc-review-title = Gáplerdi tekseriw
 sc-review-loading = Gápler júklenbekte…
+sc-review-select-language = Ótinish, gáplerdi tekseriw ushın tildi tańlań.
 sc-review-no-sentences = Tekseriw ushın gápler joq. <addLink>Kóbirek gápler qosıń!</addLink>
 sc-review-form-prompt =
     .message = Tekserilgen gápler jiberilmedi, isenimińiz kámil me?
@@ -1104,6 +1111,9 @@ sc-settings-reset-skipped = Ótkerip jiberilgen gáplerdi tiklew
 sc-settings-skipped-decription = Aldın siz tekseriw waqtında gáplerdi ótkerip jiberdińiz. Ótkerip jiberilgen gáplerdi tiklew sizge barlıq ótkerip jiberilgen gáplerdi qayta kórsetedi. Bul tilge baylanıslı emes.
 sc-settings-show-all-button = Ótkerip jiberilgen gáplerdi qayta kórsetiw
 sc-settings-failed = Sazlawlardı ózgertiw ámelge aspadı. Ótinish, qayta urınıp kóriń.
+sc-validation-no-numbers = Gápte sanlar bolmawı tiyis
+sc-validation-no-symbols = Gápte belgiler bolmawı tiyis
+sc-validation-no-abbreviations = Gápte qısqartılǵan sózler bolmawı tiyis
 
 # [/SentenceCollector]
 
@@ -1113,6 +1123,8 @@ localization-select =
 partnerships-header = Sheriklikler
 partnerships-governments-header = Húkimetler
 partnerships-our-partners = Biziń sherikler
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Dawıslı úzindilerińizdi jazıp qaldırǵanıńız ushın raxmet!
 first-cta-subtitle-text = Qalay sóylewińiz haqqındaǵı maǵlıwmat penen bólisiwdi qálemeysiz be?
 why-donate = Nege sorap atırsız?
 add-information-button = Maǵlıwmat qosıw
