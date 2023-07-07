@@ -430,6 +430,11 @@ about-playbook-how-add-language-content-1 =
     Ir diveji pūsmi. Teiklavītys tulkuošona i teikumu apkūpuošona
 about-playbook-how-add-language-translating-heading = Teiklavītys tulkuošona
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Veritēs myusu ceļvedi par Pontoon lītuošonu.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Tulkuošonai mes lītojam Mozilla reiku <pontoonLink>Pontoon</pontoonLink>. Itymā reikā ir daudz volūdu,
+    bet, ka tymā nav jiusu, varit <pontoonRequestLink>pīpraseit sovys volūdys dalikšonu</pontoonRequestLink>.
+    Piec tam, lai dalyktu volūdu Common Voice,
+    <githubRepoLink>pīprosit jaunū volūdu teiklavītā GitHub</githubRepoLink>. <localizationFragment>Izzynojat vaira par teiklavītu tulkuošonu</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkūpuošona
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Veritēs myusu ceļvedi par teikumu apkūpuotuoja lītuošonu</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
@@ -443,6 +448,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Kai dorbojās teiklavītys lokalizaceja?
 about-playbook-how-localize-content-1 = Teiklavītys Common Voice tulkuošona nūteik <strong>Pontoon</strong> sistemā.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Sataisit kontu</pontoonAccountLink>, ka jums taida nav. Piec tam izalosit volūdu sadaļā <strong>Komanda jeb ‘Teams’</strong> i tod izalosit projektu <pontoonCvLink>Common Voice</pontoonCvLink>. Tī byus tulkuojamuos faili. Klykstynojit iz vīna, piec tam tiks paruodeiti vuordi angļu volūdā i lūdzeņš tūs tulkuošonai.
+about-playbook-how-localize-content-3 = Tulkuošona nūteik nu angļu volūdys, tok varit viertīs <strong>Īsacejumus</strong> cytuos volūduos. Klykstynojit iz ikonys <strong>Profils</strong>, piec tam iz saitis <strong>Īstatejumi</strong> i dalīcit vysys volūdys, kuruos runojit. Apakšejā lobajā styurī byus tulkuojumu saroksts ar nūsaukumu <strong>Locales</strong>. Common Voice teiklavītā tulkuojumi pasaruodeis dīnu vāluok.
 about-playbook-how-localize-content-4 = Teiklavīta ir gotova palaisšonai, kod tei sasnādz  75% dabeigteibu.
 about-playbook-how-localize-content-5 = Lai paleidzātu, verīs myusu video skaidruojumu
 
