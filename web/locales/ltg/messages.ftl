@@ -288,6 +288,7 @@ female = Sīvīte
 # Gender
 other = Cyts
 why-profile-title = Deļkuo taiseit profilu?
+why-profile-text = Snādzūt nalelu informaceju par sevi, īroksti, kurus īrokstit Common Voice, byus lobuok dereigi runys atpazeišonys algoritmim, kas lītoj itūs datus, lai uzlobuotu tū precizitati.
 dashboard = Dorba golds
 build-profile = Taiseit profilu
 avatar = Avatars
@@ -302,6 +303,7 @@ why-demographic = Deļkuo tys ir svareigi?
 accept-privacy = Es pīkreitu, ka Mozilla apstruodoj munu informaceju tai, kai tys ir nūruodeits Mozillys <privacyLink>privatuma politikā</privacyLink>
 accept-privacy-title = Privatuma politika
 accept-privacy-and-terms = Es pīkreitu Common Voice <termsLink>nūsacejumim</termsLink> i <privacyLink>koņfideņcialuma paziņuojumam</privacyLink>
+login-identity = Dasaceišonys ideņtitate
 login = Dasaslēgt
 login-signup = Dasaslēgt / Registrētīs
 edit = Lobuot
@@ -422,7 +424,11 @@ about-playbook-what-is-language-content-2 = Mes gribim, lai runys modeli lobuok 
 ## How do I add a language
 
 about-playbook-how-add-language = Kai dalikt volūdu?
-about-playbook-how-add-language-translating-heading = Škārsteikla lopys tulkuošona
+about-playbook-how-add-language-content-1 =
+    Vysu pyrma puorbaudit, voi jiusu volūda <languageLink>jau ir</languageLink>.
+    Ka tuos vēļ nav, varit <languageRequestLink>vaicuot par volūdys dalikšonu</languageRequestLink>.
+    Ir diveji pūsmi. Teiklavītys tulkuošona i teikumu apkūpuošona
+about-playbook-how-add-language-translating-heading = Teiklavītys tulkuošona
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Veritēs myusu ceļvedi par Pontoon lītuošonu.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkūpuošona
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Veritēs myusu ceļvedi par teikumu apkūpuotuoja lītuošonu</sentenceCollectorVideo>.
