@@ -821,9 +821,16 @@ pro-difficulty = Pro
 want-to-continue = Dawam etiwdi qáleysiz be?
 finish-editing = Dáslep ózgertiwdi tamamlawdı qáleysiz be?
 build-custom-goal = Jeke maqset jaratıw
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Jeke maqsetińiz benen Common Voiceqa { $hours } saatqa jetiwine járdem beriń
+       *[other] Jeke maqsetińiz benen Common Voiceqa { $hours } saatqa jetiwine járdem beriń
+    }
 set-a-goal = Maqset qoyıw
+cant-decide = Qarar qabıllay almay atırsız ba?
 how-many-per-day = Ájayıp! Kúnine neshe dawıslı úzindi?
 how-many-a-week = Ájayıp! Háptesine neshe dawıslı úzindi?
+which-goal-type = Sóylewdi, tıńlawdı qáleysiz be yamasa ekewin de me?
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } dawıslı úzindi
@@ -842,8 +849,11 @@ share-goal = Maqsetimdi bólisiw
 
 ## Profile Delete
 
+delete-q = Siziń dawıslı jazbalarıńızda óshiriliwin qáleysiz be yamasa Common Voice maǵlıwmatlar toplamında qalıwın ba?
 keep = Saqlaw
 remove = Alıp taslaw
+keep-info = Siziń anonim dawıslı jazbalarıńız Common Voice maǵlıwmatlar toplamında qaladı. Profilińizdi óshirgennen soń, dawıslı jazbalarıńızdıń maǵlıwmatlar toplamınan óshiriliwine soraw jibere almaysız.
+remove-info = Dawıslı jazbalarıńızdıń maǵlıwmatlar toplamınan óshiriw boyınsha sorawıńızdı kórip shıǵamız.  Eger siziń sorawıńız qabıllansa, biz bul maǵlıwmatlar toplamın júklep alǵanlar menen baylanısamız hám siziń dawıslı jazbalarıńızdı óshiriwin soraymız.
 profile-form-delete = Profildi óshiriw
 
 ## Profile Download
@@ -854,12 +864,14 @@ download-profile-title = Profil
 download-profile-info = Elektron pochta, paydalanıwshı atı hám demografiyalıq maǵlıwmatlardı óz ishine aladı. Házir júklep alıwıńız múmkin.
 download-profile-size = Birneshe bayt
 download-recordings-title = Dawıslı jazbalar
+download-recordings-info = MP3 hám olarǵa tiyisli gáplerdi tayarlaw birqansha waqıttı alıwı múmkin
 download-recordings-size = Ádette megabayt
 download-recently-requested = Dawıslı jazbalarıńızdıń jańa arxivin hár { $days } kúnnen sorawıńız múmkin.
 download-selected = Tańlandı
 download-start = Profil maǵlıwmatların júklep alıw
 download-request = Dawıslı jazbalardı soraw
 download-requests = Dawıslı jazbalardı júklep alıw boyınsha jiberilgen aldıńǵı sorawlar
+download-requests-info = Dawıslı jazbalarıńızdı soraǵanıńızda, biz olardı bir yamasa birneshe ZIP fayllarǵa jıynaymız. Siziń aldınǵı sorawlarıńız:
 download-request-button = Júklep alıw
 download-request-title = { $created }
 download-request-assembling-description = Siziń fayllarıńız jıynalmaqta. Ótinish, keyinirek tekseriń.
@@ -914,6 +926,7 @@ contribution-misreadings-description-extended-list-2 = Sózdiń aqırında <stro
 contribution-misreadings-description-extended-list-5 = Sózdi oqıw ushın birneshe urınıw
 contribution-misreadings-example-2-explanation = [‘dinozavrlar’ bolıwı kerek]
 contribution-background-noise-title = Sırtqı shawqım
+contribution-volume-title = Dawıs bálentligi
 contribution-reader-effects-title = Oqıw effektleri
 contribution-just-unsure-title = Isenimińiz kámil emes pe?
 see-more = <chevron></chevron>Kóbirek kóriw
