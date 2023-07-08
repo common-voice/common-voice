@@ -872,6 +872,7 @@ download-recordings-title = Dawıslı jazbalar
 download-recordings-info = MP3 hám olarǵa tiyisli gáplerdi tayarlaw birqansha waqıttı alıwı múmkin
 download-recordings-size = Ádette megabayt
 download-recently-requested = Dawıslı jazbalarıńızdıń jańa arxivin hár { $days } kúnnen sorawıńız múmkin.
+download-size = Kólem
 download-selected = Tańlandı
 download-start = Profil maǵlıwmatların júklep alıw
 download-request = Dawıslı jazbalardı soraw
@@ -1116,6 +1117,9 @@ sc-personal-err-lang-not-found = Tildi óshiriw ámelge aspadı: til tabılmadı
 sc-personal-err-remove = Tildi óshiriw ámelge aspadı
 sc-personal-your-languages = Siziń tillerińiz:
 sc-personal-remove-button = óshiriw
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Siz qostıńız { $sentences }
 sc-personal-not-added = Siz ele heshqanday til qospadıńız.
 
 ## REVIEW CRITERIA
@@ -1131,6 +1135,7 @@ sc-criteria-item-6 = Eger tekseriw ushın gápler tawsılsa, ótinish, bizge kó
 
 ## REVIEW
 
+sc-review-lang-not-selected = Siz heshqanday tildi tańlamadıńız. Ótinish, tillerdi tańlaw ushın <profileLink>Profilińizge</profileLink> ótiń.
 sc-review-title = Gáplerdi tekseriw
 sc-review-loading = Gápler júklenbekte…
 sc-review-select-language = Ótinish, gáplerdi tekseriw ushın tildi tańlań.
