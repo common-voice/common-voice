@@ -609,8 +609,8 @@ about-playbook-how-localize-content-5 = ניתן לצפות בסרטון ההס�
 ## How to add sentences
 
 about-playbook-how-add-sentences = איך אני מוסיף משפטים?
-about-playbook-how-add-sentences-content-1 = <strong>אספן המשפטים</strong> הוא כלי לאיסוף ואימות של משפטים שהינם בנחלת הכלל. תהיו צריכים <scAccountLink>ליצור חשבון</scAccountLink>. לאחר מכן, הוסיפו את השפה שלכם ב<strong>פרופיל</strong> שלכם. באפשרותכם <strong>להוסיף</strong> משפטים או <strong>לסקור</strong> משפטים שנוספו בעבר.
-about-playbook-how-add-sentences-content-2 = משפטים חייבים לעבור סקירה ולהתקבל על ידי שני אנשים כדי להיכלל ב-Common Voice. אתם יוצרים הנחיות לשפה שלכם <languageGuidelinesLink>כאן</languageGuidelinesLink>. משפטים חייבים להיות ב<licenseLink>נחלת הכלל</licenseLink> וקצרים מ-15 מילים. אתם יכולים לבקש מהבעלים של טקסט כלשהו להפוך אותו לזמין ברשיון <waiverLink>CC0 באמצעות כתב הוויתור שלנו</waiverLink>, ולשלוח אלינו לכתובת commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-1 = <strong>אספן המשפטים</strong> הוא כלי לאיסוף ואימות של משפטים המצויים בנחלת הכלל. תהיו צריכים <scAccountLink>ליצור חשבון</scAccountLink>. לאחר מכן, הוסיפו את השפה שלכם ב<strong>פרופיל</strong> שלכם. באפשרותכם <strong>להוסיף</strong> משפטים או <strong>לסקור</strong> משפטים שנוספו בעבר.
+about-playbook-how-add-sentences-content-2 = משפטים חייבים לעבור סקירה ולהתקבל על ידי שני אנשים כדי להיכלל ב-Common Voice. אתם יוצרים הנחיות לשפה שלכם <languageGuidelinesLink>כאן</languageGuidelinesLink>. משפטים חייבים להמצא ב<licenseLink>נחלת הכלל</licenseLink> וקצרים מ-15 מילים. אתם יכולים לבקש מהבעלים של טקסט כלשהו להפוך אותו לזמין ברשיון <waiverLink>CC0 באמצעות כתב הוויתור שלנו</waiverLink>, ולשלוח אלינו לכתובת commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = אפשר להשתמש ב<scraperLink>מחלץ המשפטים</scraperLink> כדי למנף משפטים קצרים מוויקיפדיה.
 about-playbook-how-add-sentences-content-4 = משפטים שעברו אימות מיוצאים בימי רביעי והם זמינים לאחר המהדורה הבאה.
 
@@ -1253,9 +1253,9 @@ sc-logout-button = התנתקות
 ## HOME
 
 sc-home-title = ברוכים הבאים לאספן המשפטים של Common Voice
-sc-home-intro = אספן המשפטים הוא חלק מ-<commonVoiceLink>Common Voice</commonVoiceLink>. כלי זה מאפשר לתורמים לאסוף ולאמת משפטים שנוצרו על ידי הקהילה. תוכלו להשתמש בכלי זה גם כדי לייבא ולנקות מאגר כתוב הנמצא בנחלל הכלל שמצאת או אספת, בגודל קטן עד בינוני. כל המשפטים צריכים להיות בנחלת הכלל. משפטים שאושרו עוברים ייצוא מידי שבוע למאגר Common Voice ומתפרסמים באתר Common Voice בכל פריסה חדשה.
+sc-home-intro = אספן המשפטים הוא חלק מ-<commonVoiceLink>Common Voice</commonVoiceLink>. כלי זה מאפשר לתורמים לאסוף ולאמת משפטים שנוצרו על ידי הקהילה. תוכלו להשתמש בכלי זה גם כדי לייבא ולנקות מאגר כתוב שמצאתם או אספתם המצוי בנחלת הכלל, בגודל קטן עד בינוני. כל המשפטים צריכים להמצא בנחלת הכלל. משפטים שאושרו עוברים ייצוא מידי שבוע למאגר Common Voice ומתפרסמים באתר Common Voice בכל פריסה חדשה.
 sc-home-collect-title = איסוף משפטים
-sc-home-collect-text = עזרו לנו על ידי כתיבה או איסוף משפטים הנמצאים בנחלת הכלל.
+sc-home-collect-text = עזרו לנו דרך כתיבה או איסוף של משפטים המצויים בנחלת הכלל.
 sc-home-review-title = סקירת משפטים
 sc-home-review-text = עזרו לנו על ידי בדיקה האם משפטים עומדים בהנחיות.
 
@@ -1684,7 +1684,7 @@ write-instruction-second-part = משפט בנחלת הכלל
 write-page-subtitle = משפטים שנתרמו כאן יתווספו למערך נתונים פומבי ברישיון CC0.
 sentence =
     .label = משפט
-sentence-input-value = הזינו את המשפטים הנמצאים בנחלת הכלל כאן
+sentence-input-value = הזינו כאן משפט המצוי בנחלת הכלל
 citation-input-value = מקור המשפטים שלכם
 citation =
     .label = ציטוט מקור

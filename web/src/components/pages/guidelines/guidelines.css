@@ -76,6 +76,10 @@
 
             & li {
                 list-style: none;
+
+                & .tab-link {
+                    color: inherit;
+                }
             }
 
             & li.first-tab {
