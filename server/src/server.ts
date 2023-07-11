@@ -54,7 +54,7 @@ export default class Server {
         this.taskQueues = createTaskQueues(this.api.takeout)
         this.api.takeout.setQueue(this.taskQueues.dataTakeout)
 
-        //call scheduler to start jobs
+        //Once redis connection is good to go, start scheduled jobs
         scheduler()
       }
     })
