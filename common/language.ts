@@ -15,7 +15,7 @@ type SentenceCount = {
 export type Language = {
   id: number
   name: string
-  sentenceCount: SentenceCount
+  sentencesCount: SentenceCount
   is_contributable?: boolean
   is_translated?: boolean
   native_name: string

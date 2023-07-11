@@ -57,12 +57,15 @@ const convertPontoonDataToLanguageSchema = (
     approvedStrings,
     locale: { code, name, direction: text_direction },
   } = pontoonData
+  log('language -- ', language.name, language)
 
   const {
-    sentenceCount: { currentCount, targetSentenceCount },
+    sentencesCount: {
+      currentCount = 0, //if a language has no sentences, default to zero
+      targetSentenceCount,
+    },
     is_contributable,
   } = language
-
   //website text has at least 60% translations
   const hasTranslationCriteria =
     approvedStrings / totalStrings >= TRANSLATION_CRITERIA_CUTOFF
@@ -78,7 +81,7 @@ const convertPontoonDataToLanguageSchema = (
     text_direction,
     is_translated: hasTranslationCriteria,
     is_contributable:
-      is_contributable || (hasSentenceCriteria && hasTranslationCriteria), //never regress language (once launched, always launched)
+      is_contributable || (hasSentenceCriteria && hasTranslationCriteria), //never unlaunch language (once launched, always launched)
     target_sentence_count: targetSentenceCount,
   }
 }
@@ -108,8 +111,6 @@ const saveData = (languages: ILanguageSchema[]) =>
   )
 
 export const syncPontoonLanguageStatistics = async () => {
-  console.log('starting pontoon language sync')
-
   const existingLanguages = await database.getLanguages()
   console.log('existing languages count', existingLanguages.length)
 
