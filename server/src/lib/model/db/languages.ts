@@ -1,5 +1,6 @@
 import { TextDirection } from 'common'
 import { getMySQLInstance } from './mysql'
+import { log } from 'console'
 
 // literal representation of languages in database (locales table)
 // LTR = left-to-right, RTL = right-to-left, TTB = top-to-bottom, BTT = bottom-to-top
@@ -31,21 +32,17 @@ class LanguageRepository {
     const updatableLanguageData = Object.entries(language).filter(
       values => values[0] !== 'id'
     ) //filter out id so we can save whole object (i.e. not updating id)
-
-    const columns = Object.keys(updatableLanguageData).filter(
-      column => column !== 'id'
-    )
-
-    const parameterizeColumns = columns.map(column => `${column} = ?`)
+    const columns = updatableLanguageData.filter(column => column[0] !== 'id')
+    const parameterizeColumns = columns.map(column => `${column[0]} = ?`)
     const stringifiedParameterizedColumns = parameterizeColumns.join(', ')
     const languageColumnValues = [Object.values(updatableLanguageData), id]
-
     const query = `
       UPDATE ${this.TABLE_NAME} SET
       ${stringifiedParameterizedColumns}
       WHERE id = ?
     `
 
+    log(query)
     return this.mysql.query(query, languageColumnValues)
   }
 
