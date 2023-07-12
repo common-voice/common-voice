@@ -60,12 +60,14 @@ const convertPontoonDataToLanguageSchema = (
   log('language -- ', language.name, language)
 
   const {
+    id,
     sentencesCount: {
       currentCount = 0, //if a language has no sentences, default to zero
       targetSentenceCount,
     },
     is_contributable,
   } = language
+
   //website text has at least 60% translations
   const hasTranslationCriteria =
     approvedStrings / totalStrings >= TRANSLATION_CRITERIA_CUTOFF
@@ -75,7 +77,7 @@ const convertPontoonDataToLanguageSchema = (
 
   //returns the new language data in a single object, ready to be saved to db
   return {
-    ...language,
+    id,
     name: code,
     native_name: name,
     text_direction,
