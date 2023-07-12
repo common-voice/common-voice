@@ -25,23 +25,17 @@ export const schedulerQueue = new Bull(
   }
 )
 
-schedulerQueue.process(
-  SCHEDULER_QUEUE.JOBS.PONTOON_LANGUAGE_SYNC,
-  async (job, done) => {
-    console.log('Running Pontoon Language Statistics Synchronization', job.data)
-    try {
-      await syncPontoonLanguageStatistics()
-      done()
-    } catch (error) {
-      done(error)
-    }
-  }
-)
+schedulerQueue.process(SCHEDULER_QUEUE.JOBS.PONTOON_LANGUAGE_SYNC, job => {
+  console.log('Running Pontoon Language Statistics Synchronization', job.id)
+  return syncPontoonLanguageStatistics()
+})
+
+schedulerQueue.on('error', console.error)
+schedulerQueue.on('failed', console.error)
 
 export const scheduler = () => {
   schedulerQueue.add(
     SCHEDULER_QUEUE.JOBS.PONTOON_LANGUAGE_SYNC,
-    {}
-    // SCHEDULER_QUEUE.OPTIONS
+    SCHEDULER_QUEUE.OPTIONS
   )
 }
