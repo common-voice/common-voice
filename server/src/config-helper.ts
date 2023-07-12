@@ -26,6 +26,7 @@ export type CommonVoiceConfig = {
   MYSQLREPLICAPORT?: number;
   CLIP_BUCKET_NAME: string;
   DATASET_BUCKET_NAME: string;
+  BULK_SUBMISSION_BUCKET_NAME: string;
   AWS_REGION: string;
   ENVIRONMENT: string;
   RELEASE_VERSION?: string;
@@ -33,6 +34,8 @@ export type CommonVoiceConfig = {
   AWS_SES_CONFIG: SESClientConfig;
   S3_CONFIG: S3.Types.ClientConfiguration;
   S3_LOCAL_DEVELOPMENT_ENDPOINT?: string;
+  STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: string;
+  GCP_CREDENTIALS: object;
   CINCHY_CONFIG: S3.Types.ClientConfiguration;
   CINCHY_ENABLED: boolean;
   SSM_ENABLED: boolean;
@@ -83,6 +86,10 @@ const BASE_CONFIG: CommonVoiceConfig = {
     'CV_DATASET_BUCKET_NAME',
     'common-voice-datasets'
   ),
+  BULK_SUBMISSION_BUCKET_NAME: configEntry(
+    'CV_BULK_SUBMISSION_BUCKET_NAME',
+    'common-voice-bulk-submissions'
+  ),
   ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'prod'),
   SECRET: configEntry('CV_SECRET', 'super-secure-secret'),
   ADMIN_EMAILS: configEntry('CV_ADMIN_EMAILS', null),
@@ -93,6 +100,11 @@ const BASE_CONFIG: CommonVoiceConfig = {
     'CV_S3_LOCAL_DEVELOPMENT_ENDPOINT',
     null
   ),
+  STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: configEntry(
+    'CV_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT',
+    'http://storage:8080'
+  ),
+  GCP_CREDENTIALS: configEntry('CV_GCP_CREDENTIALS', {}, castJson),
   CINCHY_CONFIG: configEntry('CV_CINCHY_CONFIG', {}, castJson),
   CINCHY_ENABLED: configEntry('CV_CINCHY_ENABLED', false, castBoolean),
   SSM_ENABLED: configEntry('CV_SSM_ENABLED', false, castBoolean),
@@ -116,7 +128,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   ),
   EMAIL_USERNAME_FROM: configEntry('CV_EMAIL_USERNAME_FROM', null),
   EMAIL_USERNAME_TO: configEntry('CV_EMAIL_USERNAME_TO', null),
-};
+}
 
 let injectedConfig: CommonVoiceConfig;
 let loadedConfig: CommonVoiceConfig;

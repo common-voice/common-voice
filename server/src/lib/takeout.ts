@@ -168,7 +168,7 @@ export default class Takeout {
     // the server. So do the expensive work on each chunk sequentially.
     // const replies = await Promise.all(chunkedKeys
     //   .map((keys, offset) => bucket.zipTakeoutFilesToS3(takeout, offset, keys)));
-    const fileSizes: S3.HeadObjectOutput[] = [];
+    const fileSizes: {size: number}[] = [];
 
     chunkedClips.forEach(async (chunk: string[], index: number) => {
       fileSizes.push(
@@ -179,7 +179,7 @@ export default class Takeout {
 
     fileSizes.push(await this.bucket.uploadClipMetadata(takeout, clips));
     const totalSize = fileSizes.reduce(
-      (acc, curr) => (acc += curr.ContentLength),
+      (acc, curr) => (acc += curr.size),
       0
     );
 

@@ -15,6 +15,9 @@ import { checkGoalsAfterContribution } from './model/goals';
 import { ChallengeToken, challengeTokens } from 'common';
 import validate from './validation';
 import { clipsSchema } from './validation/clips';
+import { uploadToBucket } from '../infrastructure/storage/storage';
+import { pipe } from 'fp-ts/lib/function';
+import {taskEither as TE, task as T, identity as Id} from 'fp-ts';
 
 const fs = require('fs');
 const { promisify } = require('util');
@@ -327,13 +330,13 @@ export default class Clip {
         .stream()
         .pipe(pass);
 
-      await this.s3
-        .upload({
-          Bucket: getConfig().CLIP_BUCKET_NAME,
-          Key: clipFileName,
-          Body: audioOutput,
-        })
-        .promise();
+      await pipe(
+        uploadToBucket,
+        Id.ap(getConfig().CLIP_BUCKET_NAME),
+        Id.ap(clipFileName),
+        Id.ap(audioOutput),
+        TE.getOrElse((err: Error) => T.of(console.log(err)))
+      )()
     }
   };
 

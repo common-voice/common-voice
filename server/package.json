@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@aws-sdk/client-ses": "3.55.0",
+    "@google-cloud/storage": "^6.9.5",
     "@sentry/node": "6.19.7",
     "@sentry/tracing": "6.19.7",
     "aws-sdk": "2.1388.0",
@@ -37,7 +38,7 @@
     "nodemailer": "6.7.3",
     "passport": "0.6.0",
     "passport-auth0": "0.6.1",
-    "rate-limiter-flexible": "2.3.6",
+    "rate-limiter-flexible": "2.4.1",
     "redlock": "4.2.0",
     "request": "2.88.2",
     "request-promise-native": "1.0.9",

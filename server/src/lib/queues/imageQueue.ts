@@ -34,8 +34,6 @@ export const uploadImage = async (data: {
   user: Express.User;
   key: string;
   imageBucket: string;
-  s3?: any;
-  bucket?: any;
 }) => {
   return await NotificationQueue.add(data);
 };
