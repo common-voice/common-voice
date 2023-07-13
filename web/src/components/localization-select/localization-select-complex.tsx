@@ -64,7 +64,6 @@ const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
             {locale}
           </button>
           <div className="list-wrapper">
-            <div className="triangle" />
             <ul {...getMenuProps()}>
               {items.map((item, index) => (
                 <li

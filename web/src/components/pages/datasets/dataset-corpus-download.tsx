@@ -7,7 +7,7 @@ import * as React from 'react';
 import { useState, useEffect } from 'react';
 import { localeConnector } from '../../locale-helpers';
 import useSortedLocales from '../../../hooks/use-sorted-locales';
-import { LabeledSelect, Spinner, StyledLink } from '../../ui/ui';
+import { LabeledSelect, Spinner } from '../../ui/ui';
 
 import DatasetDownloadEmailPrompt from './dataset-download-email-prompt';
 
@@ -17,11 +17,11 @@ import DatasetCorpusDownloadTable from './dataset-corpus-download-table';
 import PageHeading from '../../ui/page-heading';
 import { formatBytes } from '../../../utility';
 import { DeltaReadMoreLink } from '../../shared/links';
-const EMAIL_ADDRESS = 'commonvoice@mozilla.com';
 
-interface Props {
+interface Props extends WithLocalizationProps {
   languagesWithDatasets: { id: number; name: string }[];
   initialLanguage: string;
+  isSubscribedToMailingList: boolean;
 }
 
 type LanguageDatasets = {
@@ -35,7 +35,8 @@ const DatasetCorpusDownload = ({
   getString,
   languagesWithDatasets,
   initialLanguage,
-}: Props & WithLocalizationProps) => {
+  isSubscribedToMailingList,
+}: Props) => {
   const [isLoading, setIsLoading] = useState(true);
   const [selectedDataset, setSelectedDataset] = useState<LanguageDatasets>();
   const [languageDatasets, setLanguageDatasets] = useState<LanguageDatasets[]>(
@@ -48,10 +49,12 @@ const DatasetCorpusDownload = ({
     languagesWithDatasets.map(s => s.name),
     getString
   )[0];
+
   const handleLanguageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLocale = event.target.value;
     setLocale(newLocale);
   };
+
   const handleRowSelect = (selectedId: number) =>
     setSelectedDataset(languageDatasets.find(d => d.id === selectedId));
 
@@ -60,15 +63,13 @@ const DatasetCorpusDownload = ({
 
     api.getLanguageDatasetStats(locale).then(data => {
       setLanguageDatasets(
-        data.filter(
-          (dataset: LanguageDatasets) =>
-            !!dataset.checksum && !!dataset.download_path
-        )
+        data.filter((dataset: LanguageDatasets) => !!dataset.download_path)
       );
       setSelectedDataset(data[0]);
       setIsLoading(false);
     });
   }, [locale]);
+
   return (
     <div className="dataset-corpus-download">
       <div className="dataset-corpus-download-container">
@@ -123,19 +124,9 @@ const DatasetCorpusDownload = ({
               releaseId={selectedDataset.id.toString()}
               checksum={selectedDataset.checksum}
               size={formatBytes(selectedDataset.size, initialLanguage)}
+              isSubscribedToMailingList={isSubscribedToMailingList}
             />
           )}
-
-          <p className="intro-summary">
-            <Localized
-              id="download-dataset-access"
-              elems={{
-                emailLink: <StyledLink href={`mailto:${EMAIL_ADDRESS}`} />,
-              }}
-              vars={{ email: EMAIL_ADDRESS }}>
-              <span />
-            </Localized>
-          </p>
         </div>
       </div>
     </div>

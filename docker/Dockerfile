@@ -1,22 +1,15 @@
-FROM node:12-stretch
+FROM node:12-bullseye
 
 ARG COMMIT="local-build"
 ARG TAG=""
+ARG UID=10001
+ARG GID=10001
 
 LABEL commit=${COMMIT}
 LABEL tag=$TAG
 
 # Allow exposing HTTP endpoint
 EXPOSE 9000
-
-# Add project source
-COPY . /code
-
-# Setup work directory
-WORKDIR /code
-
-# Create directory for storing logs
-RUN mkdir /code/logs
 
 # Install dependencies
 RUN apt-get update && \
@@ -25,6 +18,21 @@ RUN apt-get update && \
     echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list && \
     apt-get update && \
     apt-get install --no-install-recommends -y yarn ffmpeg
+
+# Prepare for nonroot user
+RUN groupadd -g $GID app; \
+    useradd -g $GID -u $UID -m -d /code -s /usr/sbin/nologin app
+
+USER app
+
+# Add project source
+COPY --chown=app:app . /code
+
+# Setup work directory
+WORKDIR /code
+
+# Create directory for storing logs
+RUN mkdir /code/logs
 
 ENV GIT_COMMIT_SHA=${COMMIT}
 

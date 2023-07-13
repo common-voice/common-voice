@@ -135,6 +135,7 @@ nan-tw = Taywankî (Mînnan)
 nb-NO = Norweçkî (Bokmål)
 nd = IsiNdebele (Vakur)
 ne-NP = Nepalkî
+nhe = Hausteca Nahuatlê Rojhelatî
 nia = Nîaskî
 nl = Holandkî
 nn-NO = Norweçkî (Nynorsk)
@@ -190,6 +191,7 @@ ts = Tsongakî
 tt = Tatarkî
 tw = Twî
 ty = Tahîtkî
+tyv = Tuvakî
 uby = Ubixkî
 udm = Udmurtkî
 ug = Uygurkî
@@ -200,6 +202,7 @@ ve = Vendakî
 vec = Venedîkkî
 vi = Vîetnamkî
 vot = Votîkî
+wo = Wolofkî
 xh = Koza (Xhosa)
 yi = Yîdkî
 yo = Yoruba
@@ -401,11 +404,12 @@ why-demographic = No çira muhîm o?
 why-demographic-explanation-2 = Seba ke ma çîynermanê naskerdişê qiseykerdişî tekûzêr bikerîme, dayeyê anonîmî, sey serrî, cinsîyet û fek, hetê ma kenê ke nê qeydanê vengî rindêr bikerîme.
 accept-privacy = Ez qebul kena ke şima nê melumatî seke <privacyLink> Polîtîkaya Nimiteyîye</privacyLink> ya Mozîlla de îzah bî, bixebitnê.
 accept-privacy-title = Polîtîkaya Nimiteyîye
+accept-privacy-and-terms = Ez <termsLink>Şert û Merc</termsLink> û <privacyLink>Polîtîkaya NImiteyî</privacyLink> ya Common Voice qebul kena
 login-identity = Nasnameyê dekewtişî
 login-signup = Dekewe/Hesab Viraze
 edit = Sereraşt ke
 email-subscriptions = Aboneyîyê e-maîlî
-download-profile = Dayeyanê mi bîya war
+download-profile = Dayeyanê mi bîyare war
 contribution-experience = Tecrubeyê Beşdarîye
 skip-submission-feedback = Rusnayîşê apeyhayî ravêre
 skip-submission-description = Ti ke wextê gureyayîşî de 'Birusne' ser o tiknenî/a, apeyhayî nêna dayene. Beşdarîye desinde bi 5 qeyd yan zî tesdîqanê ameyoxan ra dewam kena.
@@ -486,6 +490,12 @@ faq-why-not-ask-read-a = Seba ke feydeyê komdayeyê Common Voice berz bo, ma qe
 faq-why-account-q = Ez çira hesabêk akerî?
 faq-is-account-public-q = Tirêm melumatê hesabê mi her kesî rê aseno?
 faq-how-privacy-q = Şima anonîmî û nimiteyîya bexişkerdoxanê vengan senî pawenê?
+faq-how-privacy-a = Heme qeydanê vengî yê komdayeyî ra melumato ke nîşanê nasnameyê şexsî dano, yeno estiritene. Eke beşdarêk profîlê xo de melumato demografîk pêşkêş keno, no melumat bi hawayêko anonîm girêdayeyê qeydê vengî beno. Wina, eke komdayeyî de kom benê ke bêrê warardene, rîpelê profîlê înan ser o caran nêweşanîyeno.
+faq-what-determine-identity-q = Nasnameyê qiseykerdoxanê komdayeyî "caran nêno zanayene" yeno ra çi mana?
+faq-what-determine-identity-a =
+    Komdayeyê Common Voice çime yo ke rayapêroyî rê akerde û her kesî rê mewcûd o. Pê merdim eşkeno tewir bi tewir applîkasyonanê bi vengî perwerde bikero. Seba ke asayîşê beşdaranê ma bêro seveknayene, ma her kesî ra ke komdayeyê Common Voice ano war, rica kenîme ke nimiteyîya beşdaran rê rêzdarîye bikero.
+    
+    Pêro qeydanê vengî yê komdayeyî ra melumato şexsî yeno estiritene. Wexto ke ti komdayeyî anî/a war, ti qebul kenî/a ke nêceribnenî/a nasnameyê beşdarêk eşkera bikerê. No yeno a mana ke ti nêeşkenî/a melumatê komdayeyî bi melumatê beşdarêk ê şexsî girê bidê. Labelê, ti eşkenî/a komdayeyî seba perwerdekerdişê naskerdişê vengî, naskerdişê qiseykerdoxan yan zî seba perwerdekerdişê yewna applîkasyonî bixebitnê, mavajîme, bi pagirêdayîşê melumatê komdayeyî bi yewna melumatê komdayeyî.
 faq-what-is-cv = Common Voice çi yo?
 faq-using-cv = Xebitnayîşê Common Voice
 faq-description = Common Voice projeyê Mozîlla yo ke makînayan (komputuran) rê bimusno ke merdimê raştikênî senî qisey kenê.
@@ -495,6 +505,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Çira Common Voice?
+about-header-description-v2 =
+    <p>Common Voice komdayeyêk o ke her kesî rê akerde yo û bi venganê beşdaranê zerrîwazan ra ke çar goşeyanê dinya ra yenê, virazîyeno. Kesê bînî ke wazenê applîkasyonanê vengî virazê, eşkenê nê komdayeyî seba perwerdekerdişê modelanê musayîşê makîneyan bigurenê.</p>
+    <p>No dem, zafêrîya komdayeyanê vengî destê şîrketan de ya. No zî înovasyon asteng keno. Ney ra zî wet, komdayeyan de tayê miletî kêmî temsîl benê: kesê ke îngilizkî qisey nêkenê, kesê postikrenginî, astengdarî, cinîkî û endamê LGBTQIA+. Yanî, teknolojîyê bi vengî xeylê ziwanan de nêgureyenê. Eke gureyenê zî, her kesî rê eynî sewîye de xizmet nêkenê. Ma wazenîme ney bivurnîme û her ca de însanan ra ray fînîme ke venganê xo pare bikerê.</p>
 how-does-it-work-title-v2 = Common Voice senî gureyeno?
 how-does-it-work-text = Ma komdayeyê qeydanê vengî arê danîme. Vengê xo bibexişne, raştîya qeydanê kesanê bînan tesdîq bike û wina komdayeyî seba her kesî rindêr bike.
 
@@ -527,14 +540,20 @@ about-yes-votes-text = Seba ke yew qeydê vengî bikewo komdayeyê Common Voice,
 about-no-votes = ≥ 2 rayê "ney"
 about-no-votes-text = Eke xebitnayoxêk qeydê vengî betal keno, qeyd agêreno Rêze. Eke reya dîyine betal beno, qeydê vengî şono Goristanê Qeydan.
 about-dataset-new = Komdayeyê Common Voice
+about-dataset-new-text = Komdayeyê Common Voice se hezaran qeydanê vengî ra yeno pêra. Nê kî viraştoxan rê benê destek ke pê wesayîtanê naskerdişê vengî virazê.
 about-clip-graveyard = Goristanê Qeydan
 about-clip-graveyard-text =
     Qeydê vengî yê ke nênê zereyê komdayeyê Common Voice, kewenê Goristanê Qeydan. Sey komdayeyan, Goristanê Qeydan kî yeno warardene. 
     
     Seba ke nê projeyî de hetkarîya ma kerde, ma wazenîme nê kes û organîzatoranê cêrênan rê sipas bikerîme:
 about-get-involved = Beşdar be
+about-get-involved-text-2 =
+    Ti wazenî/a Common Voice holêr bikerê? Zaf rind o! 
+    Pê e-maîl yan zî forumanê <discourseLink>Discourse</discourseLink> de bikewe têkilîye, problemanê sîteyî <githubLink>GitHub</githubLink> ser o birusne, yan zî beşdarê xoşebera komelê <matrixLink>Matrix</matrixLink>î bibe.
 about-stay-in-touch = Ez senî eşkena têkilîye de bimanî?
 about-stay-in-touch-button = Qeyd bibe
+about-stay-in-touch-text-1 = Lîsteya ma ya e-maîlî rê <emailFragment>qeyd bibe</emailFragment> û bimuse ke senî eşkenî/a beşdarê kampanyayan, aktîvîteyan û gureyanê dîzaynan bibê.
+about-stay-in-touch-text-2 = Seba xoşeberanê derheqê babete de, ti eşkenî tewrê <discourseLink>Discourse</discourseLink> bibê ke komelê Mozîlla yê ziwanî de kesanê bînan nas bikerê, yan zî seba şîretêko lez tewrê <matrixLink>Matrix</matrixLink> bibe.
 about-nav-why-common-voice = Çira?
 about-nav-how-it-works = Senî?
 about-nav-partners = Hemparî
@@ -575,6 +594,7 @@ about-playbook-how-localize-content-5 = Qayîtê vîdeoyê ma yê îzahkerî bik
 about-playbook-how-add-sentences = Ez senî cumleyan îlawe kena?
 about-playbook-how-add-sentences-content-1 = <strong>Arêdayoxê Cumleyan</strong> wesayît o ke pê cumleyê ke pêroyî rê akerde yê, arê dîyenê û tesdîq benê. Verê, ganî ti <scAccountLink>hesabêk virazê</scAccountLink>. Dima, ziwanê xo îlaweyê <strong>profîlê xo</strong> bike. Ti eşkenî/a cumleyan <strong>îlawe bikerê</strong> yan kî <strong>çim biçarnê</strong> cumleyanê îlawekerdeyan.
 about-playbook-how-add-sentences-content-2 = Seba ke cumleyî îlaweyê Common Voice bibê, ganî hetê di kesan ra kontrol bibê û qebul bibê. Ti <languageGuidelinesLink>tîya</languageGuidelinesLink> rayberê ziwanê xo virazenî/a. Ganî cumleyî binê lîsansê <licenseLink>milkê pêroyî</licenseLink> de bibê û 15 çekuyan ra kêmî bibê. Ti eşkenî/a wayîrê metnêk ra bipersî ke <waiverLink>pê feragatnameyê ma metnê xo sey CC0 tesnîf bikero</waiverLink> û adresa commonvoice@mozilla.com rê birusno.
+about-playbook-how-add-sentences-content-3 = Ti eşkenî/a <scraperLink>Vetoxê Cumleyan</scraperLink> bixebitnê ke Wîkîpedîa ra cumleyanê hurdîyan bigîrê.
 about-playbook-how-add-sentences-content-4 = Cumleyê tesdîqkerdeyî roja çarşemeyî de neqlê teberî benê û weşano ameyox ra dime seba wendişî benê amade.
 
 ## How to record quality
@@ -587,6 +607,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Derheqê krîteranê raştb�
 
 ## How to grow language
 
+about-playbook-how-grow-language = Ma senî eşkenîme Common Voice ser o bi hawayêko tesîdar yew ziwan aver berîme?
 about-playbook-how-grow-language-content-2 = Aktîvîteyî
 about-playbook-how-grow-language-content-4 = Medyaya sosyale
 about-playbook-how-grow-language-content-6 = Hemparî û torrî
@@ -608,25 +629,38 @@ about-playbook-how-access-dataset = Ez senî biresî komdayeyî û ey senî bixe
 ## How are decisions made
 
 about-playbook-how-project-governance = Qerarê projeyî senî yenê girewtene?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice sayeyê tewir bi tewir grûbanê çalakîker, ziwannas, zanyarê dayeyan, akademîsyen û muhendisanê çîynerman ra ke her cayê dinya ra yenê, ame rayîr. No proje hetê Weqfê Mozîlla ra îdare beno.
+about-playbook-how-project-governance-content-2 = Îdareyê projeyê ma nê estunan ser o virazîyayo:
+about-playbook-how-project-governance-content-3 = Nimiteyîye, asayîş û şefafîye
+about-playbook-how-project-governance-content-4 = Komelî reyde beşdarbîyayîş û qerargirewtiş.
+about-playbook-how-project-governance-content-5 = Qîymet û naskerdiş.
+about-playbook-how-project-governance-content-6 = Berpirsîyarîya hempare.
+about-playbook-how-project-governance-content-7 = <governanceLink>Biwane, ma senî îdare benîme</governanceLink>
 
 ## Glossary
 
 glossary = Ferhengek
 localization = Çarnayîş
+localization-explanation = No prosesê çarnayîş û adaptekerdişê muhtawaya ma seba xeylê ziwanan o.
 sentence-collection = Arêdayîşê Cumleyan
+sentence-collection-explanation = Milkê pêroyî ra cumleyan arêdayîş yan zî her kesî rê akerde cumleyanê neweyan nuştiş.
+hours-recorded-explanation = Hûmara saetanê qeydanê vengî ke ma heta nika dayê arê.
+hours-validated-explanation = Hûmara saetanê qeydanê vengî yê ke 3 xebitnayoxan ra 2 teneyan bi raya "Heya" tesdîq kerd. No, averşîyayîşê hedefê projeyî yê 10 hezar saetan nawneno.
 sst = Qiseykerdiş ra bi nuştiş (STT)
 sst-explanation = Teknolojîyê Qiseykerdiş ra bi Nuştiş (STT) dayeyanê vengî çarnenê nuşte ser.
 de-identified = Anonîmkerde
+de-identified-explanation = Wexto ke qeydê vengî komdaye de seba warardişî paket benê, proseso ke pê melumatê profîlê beşdarêk yew qeydo bexişnaye ra yenê nimitene.
 
 ## Error pages
 
 error-title-404 = Ma no rîpel nêdî
 error-title-503 = Sîteyê ma de problemêko teknîk qewimîya
+error-content-503 = Sîte demêko nêzdî de agêreno. Seba melumato peyên, keremê xo ra beşdarê <matrixLink>xoşebera Matrixî</matrixLink> bibe yan zî <githubLink>GitHub</githubLink> yan <discourseLink>forumanê ma yê Discourse</discourseLink> zîyaret bike û uca raporê xetayan biwane yan zî bi xo birusne.
 error-code = Xeta { $code }
 
 ## Data
 
-data-download-button = Dayeyanê Common Voice Bîya War
+data-download-button = Dayeyanê Common Voice Bîyare War
 data-download-yes = Heya
 data-download-deny = Ney
 data-download-license = Lîsans: <licenseLink>CC-0</licenseLink>
@@ -634,14 +668,15 @@ data-download-modal = Ti hawo <size>{ $size }GBan</size> anî/a war. Dewam?
 data-get-started = <speechBlogLink>Dest bi Naskerdişê Qiseykerdişî bike</speechBlogLink>
 data-other-title = Komdayeyê vengî yê bînî…
 data-other-goto = Şo { $name }
-data-other-download = Dayeyan Bîya War
-data-bundle-button = Pakêta Komdayeyan Bîya War
+data-other-download = Dayeyan Bîyare War
+data-bundle-button = Pakêta Komdayeyan Bîyare War
 data-bundle-description = Dayeyê Common Voice zêdek pêro komdayeyê vengî yê corênî.
 release-version = Versîyon
 dataset-date = Tarîx
 license = Lîsans: <licenseLink>{ $license }</licenseLink>
 license-mixed = Têmîyan
 data-download-singleword-title = Beşê Hedefî yê Yewçekuyan bîyare war
+review-terms = Bi xebitnayîşê Common Voice, ti <termsLink>Şert û Merc</termsLink> û <privacyLink>Polîtîkaya ma ya NImiteyîye</privacyLink> qebul kenî/a.
 terms-agree = Ez qebul kena
 terms-disagree = Ez qebul nêkena
 review-aborted = Barkerdiş betal bî. Ti wazenî/a qeydanê xo biestirê?
@@ -657,7 +692,8 @@ review-delete-recordings = Qeydanê mi biestire
 
 datasets-heading = Komdayeyî
 language = Ziwan
-download-dataset-header = Komdayeyî Bîya War
+download-dataset-header = Komdayeyî Bîyare War
+download-dataset-tag = Komdayeyê ziwanî yo ke ti wazenî/a, ey weçîne û seba warardişî versîyonêk weçîne.
 # File size in gigabytes
 size = Girsîye
 validated-hr-total = Pêro saetê tesdîqkerdeyî
@@ -671,7 +707,9 @@ why-email = <b>Çira e-maîl lazim o?</b> Beno ke ameyox de ma derheqê vurîyay
 confirm-size = Ti hazir î/a ke bi girsîya <b>{ $size }</b> bîyarê war?
 size-gigabyte = GB
 size-megabyte = MB
-download-language = { $language } bîya war
+confirm-no-identify = Ti <b>qebul kenî/a</b> ke ti yê nêceribnê nasnameyê qiseykerdoxanê komdayeyê Common Voice tesbît bikerê.
+confirm-join-mailing-list = Ez wazena beşdarê lîsteya e-maîl ya Common Voice bibî
+download-language = { $language } bîyare war
 validated-hours = Saetê tesdîqkerdeyî
 recorded-hours = Saetê qeydkerdeyî
 whats-inside = Zereyê komdayeyê Common Voice de çi est o?
@@ -693,8 +731,9 @@ go-languages-page = Şo rîpelê ziwanan
 ready-to-validate = Ti hazir î/a cumleyan tesdîq bikerê?
 more = Hîna zaf
 close = Pade
-download = Bîya war
+download = Bîyare war
 dataset-version = Versîyon
+clipboard-not-supported = Pano dest nêbeno
 
 ## Download Modal
 
@@ -731,6 +770,7 @@ request-language-form-email =
     .label = Adresa to ya e-maîlî
 request-language-form-info =
     .label = Derheqê ziwanî de melumat
+request-language-form-info-explanation = Derheqê ziwanî de herçiqas melumat ke eşkenî/a bidê, bide. Mavajîme, nînan îlawe bike:
 request-language-form-info-explanation-list-1 = Nameyê ziwanê to
 request-language-form-info-explanation-list-2 = <isoCodeLink>Kodê ISO</isoCodeLink>, eke zanîyeno
 request-language-form-info-explanation-list-3 = Lînkê keyepelan ke fehmkerdişê ziwanî de hetkarîya ma kenê
@@ -800,6 +840,7 @@ record-abort-text = Ti ke nika vejîyenî/a, averşîyayîşo nikayin qeyd nêbe
 record-abort-submit = Qeydan birusne
 record-abort-continue = Qeydkerdişî biqedêne
 record-abort-delete = Vejîye & qeydan biestire
+listen-instruction = <playIcon></playIcon> { $actionType }. Cumle raşt wanîyaya?
 listen-again-instruction = Aferîn!<playIcon></playIcon> Eke hazir î/a, reyna goşdar bike
 listen-3rd-time-instruction = 2 hebî temam ê. Dewam bike! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Tena yew mendo!
@@ -887,7 +928,7 @@ get-started-goals = Hedefê xo rone
 create-custom-goal = Hedefo taybetî viraze
 goal-type = Ti wazenî/a kamcîn hedef xo rê ronê?
 both-speak-and-listen = Her di
-both-speak-and-listen-long = Her di (qisey ke û goşdarî ke)
+both-speak-and-listen-long = Her di (qiseykerdiş û goşdarîkerdiş)
 daily-goal = Hedefo Rojane
 weekly-goal = Hedefê Hewteyî
 easy-difficulty = Asan
@@ -926,11 +967,22 @@ n-clips-pluralized =
     { NUMBER($count) ->
        *[other] { $count } qeydê vengî
     }
+help-share-goal = Dest bide ma ke hîna zaf vengan bivînîme, hedefê xo pare bike
 confirm-goal = Hedefî tesdîq bike
 goal-interval-weekly = Hewte de
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Hedefê xo yo rojane seba { $type } pare bike: { $count } qeydê vengî.
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Hedefê xo yê hewteyî seba { $type } pare bike: { $count } qeydê vengî.
 share-goal-type-speak = Qiseykerdiş
 share-goal-type-listen = Goşdarkerdiş
 share-goal-type-both = Qiseykerdiş û Goşdarkerdiş
+# LINK will be replaced with the current URL
+goal-share-text = Ez #CommonVoice ser o vengê xo bexişnena, coka mi xo rê hedefo taybetî viraşt -- Ti kî beşdar be û makîneyan rê bimusne ka însanê raştikênî senî qisey kenê { $link }
+weekly-goal-created = Hedefê to yê hewteyî virazîya
+daily-goal-created = Hedefê to yo rojane virazîya
+track-progress = Tîya, rîpelê xo yê statîstîkî de averşîyayîşê xo taqîb bike.
+return-to-edit-goal = Key ke ti wazenî/a hedefê xo sereraşt bikerê, agêre tîya.
 share-goal = Hedefê mi pare bike
 
 ## Profile Delete
@@ -945,19 +997,24 @@ profile-form-delete = Profîlê xo biestire
 download-q = Ganî dayeyê to bêrê warardene?
 download-info = Ti wazenî/a çi bîyarê war:
 download-profile-title = Profîl
-download-profile-info = Tede e-maîl, nameyê xebitnayoxî û melumato demgrafîk est ê. Desinde yeno warardene.
+download-profile-info = Tede e-maîl, nameyê xebitnayoxî û melumato demografîk est ê. Desinde yeno warardene.
 download-profile-size = Çend baytî
 download-recordings-title = Qeydî
 download-recordings-info = Tede MP3 û cumleyê têkildarî est ê. Amadekerdiş tenê wext gêno
 download-recordings-size = Normal de tayê megabaytî
+download-recordings-unavailable = Heta ke waştişo bîn hîna fealîyet de yo, ti nêeşkenî/a qeydanê bînan biwazê.
+download-recently-requested = Her { $days } rojan de ti eşkenî/a newe ra qeydanê xo bîyarê war.
 download-size = Girsîye
 download-selected = Weçînite
 download-start = Dayeyanê profîlê xo bîyare war
 download-request = Qeydan biwaze
-download-request-button = Bîya war
+download-requests = Waştişê warardişê qeydan ê verênî
+download-requests-info = Gama ke ti qeydanê xo wazenî/a, ma înan dekenîme yew yan zî çend dosyayanê ZIPan. Nê waştişê to yê verênî yê:
+download-request-button = Bîyare war
 download-request-title = { $created }
 download-request-description = { $clipCount } qeydê vengî, girsîya arşîvî ya kome { $size }. Heta { $expires } maneno.
 download-request-archive-single = Yew dosyaya ZIPî. Tedeyî:
+download-request-archive-multiple = Lete bike bi { $archiveCount } dosyayanê ZIP. Tedeyî:
 download-request-assembling-description = Dayeyê to nawo arê benê. Keremê xo ra badê cû kontrol bike.
 download-request-refresh-button = Newe bike
 download-request-modal-title = Lînkê Warardişî
@@ -968,6 +1025,8 @@ download-request-metadata-link = Metnê cumle
 ## Landing
 
 welcome-staff = Şima xeyrî ameyî ekîpa { $company }!
+login-company = Bi e-maîlê { $company } dekewe/qeyd bibe
+profile-not-required = Seba beşdarbîyayîşî hewce nîyo ke ti profîlêk virazê, labelê tayê feydeyê ci est ê, cêr ra biewnî.
 read-more-about = Rîpelê ma yê "Derheq de" ser o hîna zaf biwane
 
 ## DemoLayout
@@ -986,9 +1045,16 @@ demo-account = Hesab
 
 ## Demo Account
 
+demo-account-card-header = Seba beşdarbîyayîşî hewce nîyo ke ti hesabêk virazê, labelê tayê feydeyê ci est ê.
+demo-account-card-body = Desto raşt de ma avantajan û melumato ke ma rayapêroyî de pare kenîme, înan îzah kenîme. Pê lînkanê cêrênan ti eşkenî/a haceta xo ser o hesabêde Common Voice akerê.
+demo-account-enter-email =
+    .label = Seba girewtişê lînkê dekewtişî, e-maîlê xo binuse
+demo-account-sign-up = Lînkê qeydbîyayîşî birusne
 
 ## Demo Contribute
 
+demo-contribute-card-header = Ti hazir î/a ke vengê xo îlawe bikerê yan zî goşdar bikerê?
+demo-contribute-card-body-v2 = Ti nika Common Voice hîna zaf nas kenî/a. Çira nêceribnenî/a? Resimê mîkrofonî ser o bitikne û cumleyan bi veng biwane. <br/><br/> Eke ti hîna zaf wazenî/a qeydanê vengî yê kesanê bînan kontrol bikerê, resimê cinitişî ser o bitikne. Wina, ti dest danî/a ke qeydê vengî rîayetê cumleyanê nuştekîyan bikerê.
 demo-listen-subtitle = Ti hazir î/a ke beşdar bibê?
 
 ## Demo Dashboard
@@ -1030,7 +1096,6 @@ contribution-varying-pronunciations-example-1-explanation = [Mumkîn o ke merdim
 contribution-varying-pronunciations-example-2-title = Eşkerî danê pêro.
 contribution-varying-pronunciations-example-2-explanation = [Çekuya 'leşker'î sey 'eşker'î telefuzkerdiş şaş o ]
 contribution-background-noise-title = Hermeleyê peyzemînî
-contribution-background-noise-description = Ma wazenîne ke algorîtmê musayîşî yê makînayan pê çend çeşîtanê helmele û venganê peyzemînî bieşkê. Hetta, eke seba hesnayîşê metnî asteng nîyê, vengê berzî zî qebul benê. Muzîko ke pey de bi vengêko nizm cinîyeno, problem nîyo. Labelê, muzîko vengin ke nêverdano ke merdim çekuyêk rind bihesno, problem o.
 contribution-background-noise-description-extended = Eke qeyd birîyeno yan zî qirçe-qirçe keno, ey betal ke. Îstîsna: eke pêroyîya metnî hema fehm bena, wa bimano.
 contribution-background-noise-example-1-fixed-title = <strong>[PIŞK]</strong> Daristan de heywanê girsî <strong>[KUXIKE] est ê.
 contribution-background-noise-example-2-fixed-title = Daristan de heywanê gir<strong>[KUXIKE]</strong> est ê
@@ -1096,7 +1161,16 @@ sc-howto-addlang-text = Ti ke dekewtî/a, eşkenî/a beşê profîlê xo de ziwa
 sc-howto-addsen-title = Cumleyanê neweyan îlawe bike
 sc-howto-addsen-item-1 = Heme cumleyanê ke ti şawenî/a, ganî binê lîsansê <wikipediaLink>Milkê Pêroyî (CC-0)</wikipediaLink> de bibê. Seba ke eserê ke milkê pêroyî nîyê, ê zî bêrê tewrkerdene, ma <cc0WaiverLink>şablonê Peymana Beşdarîye</cc0WaiverLink> viraşt. Pê ney, wayîrê heqê telîfî eşkenê malzemeyê xo pêşkêşê Common Voice bikerê.
 sc-howto-addsen-item-2 = Hûmarî. Wa metnê çimeyî de hûmarî çin bê, çike beno ke wendiş de problem peyda kenê. Wendişê hûmaran tim girêdayeyê kontekstî yo û beno ke komdayeyî mîyan de têmîyanêk virazê. Mesela, merdim eşkeno hûmara "2409" hem sey "di hezar û çar sey û new" hem zî sey "di-çar-sifir-new" biwano.
+sc-howto-addsen-item-3 = Kilmnus û akronîmî (kilmnusê herfan). Kilmnus û akronîmî, sey "DYA" yan kî "ûêb." zereyê metnê çimeyî de ca nêgîrê, çike beno ke wendiş û nuştiş pê nêgênê. Boyna, mumkîn o ke yew kilmnus bi çend tewiran bêro wendene. Mavajîme, merdim eşkeno "DYA" hem herfe bi herfe biwano hem kî sey yew çukuye hem kî sey "Dewletê Yewbîyayeyî yê Amerîka".
+sc-howto-addsen-item-4 = Nîşanî. Nîşanê taybetî, nuqteyî ûsn. tena cayê ke raşta hewce kenê, wa uca bêrê nuştene. Mesela, çengalekî dîyalogan de hewce benê (Va, "Ti se kena?") û eşkenê zereyê metnî de ca bigîrê. La îhtîmalen hewcdedarîya nîşananê taybetîyan sey “@” yan zî “#” çin a.
+sc-howto-addsen-item-5 = Herfê xerîbî. Ganî herfî zereyê alfabe de ca bigîrê. Mesela, herfa "ğ" tirkî de, herfa "ف" zî fariskî de est a, la kirmanckî de çin a, coka metnanê kirmanckî de nêrê xebitnayene.
+sc-howto-addsen-item-6 = Beno ke <validationRulesLink>qaydeyê sereraştkerdişî<validationRulesLink> yê her ziwanî cîya yê û tede taybetmendî est bê. Eke yew ziwan de dosyaya tesdîqkerdişî çin a, ma qaydeyanê îngilizkî yê pêroyîyan xebitnenîme.
+sc-howto-addsen-post-1 = Tercîhê ma cumleyê tebîî, yanî yê qiseykerdişî yê. Herçiqas ke muhîm o ke yew cumle de bêjbibêjîya fonetîke û çekuyê cîya-cîyayî est bê, heto bîn ra wa qeydkerdişê vengan keyfê merdimî bîyaro. Coka, eke ti cumleyanê xo tebîî û baldare verdanî/a, no zaf beno rind.
 sc-howto-cite-title = Senî neql bibo?
+sc-howto-cite-pre-1 = Muhîm o ke ti çimeyê lîsansê pêroyî nîşan bidê ke <copyrightIssuesLink>meseleyê heqê telîfî</copyrightIssuesLink> yan întîxalî nêvejîyê. Tîya tayê nimûneyê neqlkerdiş û nîşandayîşê çimeyan est ê.
+sc-howto-cite-item-1 = Ti eşkenî/a keyepelê çimeyî nîşan bidê, mavajî "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Ti eşkenî/a referansê akademîkî bidê, mavajî stîlê Harvardî de: "Mozilla (2021) Common Voice. Adrese: https://commonvoice.mozilla.org/ (Tarîxê ciresayîşî: 15. êlule 2021)"
+sc-howto-cite-item-3 = Seba metnanê milkê pêroyî ke Înternet de çin ê, ti eşkenî/a referansê bi stîlê akademîkî bidê, sey stîlê Harvardî: "Qelemdar (2021) Şîîrê min ê milkê pêroyî".
 sc-howto-review-title = Çim biçarne cumleyan
 sc-howto-review-subtitle = Baldar be ke cumle rîayetê nê krîteran bikero:
 sc-howto-review-criteria-1 = Ganî cumle raşt binusîyo.
@@ -1105,11 +1179,17 @@ sc-howto-review-criteria-3 = Ganî merdim bieşko cumle biwano.
 sc-howto-review-criteria-4 = Eke cumle rîayetê nê krîteran kena, "Tesdîq ke" ser o bitikne.
 sc-howto-review-criteria-5 = Eke cumle rîayetê krîteran nêkena, "Betal ke" ser o bitikne. Eke ti pê cumle emîn nîyî/nîya, ti eşkenî/a ravêrê şorê cumleya ameyoxe.
 sc-howto-review-criteria-6 = Eke cumleyî nêmendê ke bêrê çimçarnayene, keremê xo ra dest bide ma ke hîna zaf cumleyan arê bidîme!
+sc-howto-findpd-title = Cumleyê ke rayapêroyî rê akerde yê, înan bivîne
+sc-howto-findpd-subtitle = Înternet de bigêre
+sc-howto-findpd-tips = Tayê şîretê dîyayîşê cumleyan:
+sc-howto-findpd-tips-3 = Çi heyf o ke ma nêeşkenîme meqaleyanê Wîkîmedîa bixebitnîme. Coka uca ra teba kopya meke.
+sc-howto-findpd-subtitle-2 = Rêxistin yan şexsanê cayîyan de hemkarîye bike
 
 ## MY SENTENCES
 
 sc-my-title = Cumleyê Mi
 sc-my-loading = Cumleyê to bar benê...
+sc-my-err-fetching = Ardişê cumleyanê to de xeta qewimîyaye. Keremê xo ra reyna biceribne.
 sc-my-no-sentences = Cumleyî nêameyî dîyene!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -1125,6 +1205,7 @@ sc-my-err-failed-delete = Cumleyê weçîniteyî nênê estiritene... Keremê xo
 
 sc-rejected-title = Cumleyê Betalkerdeyî
 sc-rejected-loading = Cumleyê betalkerdeyî bar benê...
+sc-rejected-err-fetching = Ardişê cumleyanê betalkerdeyan de xeta qewimîyaye. Keremê xo ra reyna biceribne.
 sc-rejected-none-found = Cumleyê betalkerdeyî nêameyî dîyene!
 
 ## STATS
@@ -1158,7 +1239,9 @@ sc-submit-guidelines = Keremê xo ra <howToLink>rayberan</howToLink>de nîyade.
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Ziwan îlawe nêbî
+sc-add-lang-sec-label = Ziwano ke ti wazenî/a tede beşdarîye bikerê, îlawe bike
 sc-add-lang-sec-button = Ziwanêk îlawe bike
+sc-add-err-unexpected = Serverî cewabo hêvînêkerde da
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
@@ -1174,9 +1257,12 @@ sc-add-err-failed =
        *[other] { $sentences } cumleyî bar nêbîyî.
     }
 sc-add-err-submission = Xetaya Rusnayîşî
+sc-add-lang-process-notice = Eke ziwanê ti tîya rêz nêbîyo, ti eşkenî/a pê <languageProcessLink>nê prosesî</languageProcessLink> ziwanê xo biwazê.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Cumleyî nêameyî rusnayene. Ti raşta wazenî/a vejîyê?
 sc-confirm-sentences-title = Cumleyanê Neweyan Tesdîq Bike
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
@@ -1193,6 +1279,16 @@ sc-confirm-already-reviewed =
         [0] Hema çim nêçarnîyayo qet cumleyêk.
        *[other] Çima çarnîya { $countOfReviewed } cumleyan. Weş be!
     }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Cumleyî çin ê birusnîyê.
+       *[other] { $readyCount } cumleyî seba rusnayîş amade yê!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = Hema çim nêçarnîyayo { $countOfUnreviewed } cumleyan. Eke wazenî/a, ti eşkenî/a rusnayîş ra ver cumleyanê xo kontrol bikerê.
 sc-confirm-button-text = Tesdîq ke
 
 ## LANGUAGE INFO
@@ -1331,3 +1427,17 @@ partnerships-academia-header = Unîversîte, Akademîsyen û Cigêrayoxî
 partnerships-small-business-header = Şîrketê qijkekî, yê zîrekîya viraştîye û teknolojî zî tede
 partnerships-corporates-header = Şîrketê girsî û şîrketê platformî
 partnerships-our-partners = Hemparê Ma
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Seba ke to qeydê vengî bexişnayî, ti weş be!
+first-cta-subtitle-text = Ti wazenî/a derheqê tarzê xo yê qiseykerdişî de hîna zaf melumat bidê?
+why-donate = Çira persenî/a?
+why-donate-explanation-1 = No melumat mecburî nîyo - tena eke pê rehet î/a, pare bike. Ma ke komdayeyî weşanenîme, ma heme melumato şexsî anonîmîze kenîme û garantî kenîme ke melumato sey name û e-maîlê to bi qet yew melumato demografîk ra, sey serrî yan cinsîyetî, nêro girêdayene.
+why-donate-explanation-2 = Seba ke teknolojî rind bigureyo, ganî dayeyê ke viraştoxan rê viraştişê teknolojî de ardim kenê, însananê cîya-cîyayan temsîl bikerê. Sey nimûne, eke qiseykerdoxê yew fekî tede çin bê, teknolojî seba ê kesan rind nêgureyena. <learnMore>Bimuse ke dayeyê meta çira muhîm ê.</learnMore>
+add-information-button = Melumat îlawe bike
+continue-speaking-button = Ney, sipas. Qiseykerdişî rê dewam
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Seba ke to vengê xo bexişna, ti weş be!
+already-have-an-account = Xora hesabê to est o? <login>Dekewe</login>
+create-profile-button = Profîlêk viraze
+# IMAGE TAGS
+img-alt-success-checkmark = nîşanê serkewtişî

@@ -172,6 +172,7 @@ speak-now = Puhu nyt
 datasets = Aineistot
 languages = Kielet
 about = Tietoja
+partner = Ryhdy yhteistyöhön
 profile = Profiili
 help = Ohje
 contact = Yhteystiedot
@@ -346,6 +347,7 @@ why-demographic = Mitä merkitystä tällä on?
 accept-privacy = Hyväksyn teidän käsittelevän tätä tietoa kuten Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> on selitetty.
 accept-privacy-title = Yksityisyyskäytäntö
 login-identity = Käyttäjätunnus
+login = Kirjaudu sisään
 login-signup = Kirjaudu / Rekisteröidy
 edit = Muokkaa
 email-subscriptions = Sähköpostitilaukset
@@ -441,6 +443,11 @@ how-does-it-work-text = Joukkoutamme avointa ääniaineistoa. Lahjoita äänesi,
 
 about-language-req-subtitle = Joku pyytää kieltä lisättäväksi.
 about-localization-title = Verkkosivuston lokalisointi
+about-localization-subtitle = Sivuston teksti on käännetty kyseiselle kielelle.
+about-sentence-collection-title = Virkekokoelma
+about-new-lang-title = Uuden kielen julkaisu
+about-voice-contrib-title = Äänipanos
+about-voice-validation-title = Äänen vahvistaminen
 about-dataset-release-title = Aineistojulkaisu
 about-dataset-release-subtitle = Julkaisemme aineiston kolmen kuukauden välein.
 about-subscribe-text = Haluatko olla ajan tasalla Common Voicen suhteen?
@@ -467,11 +474,13 @@ about-get-involved-text-2 =
     lähetä palautetta sivustosta <githubLink>GitHubin</githubLink> kautta, 
     tai liity joukkoomme <matrixLink>Matrixin</matrixLink> yhteisöchatissa.
 about-stay-in-touch = Miten pysyn yhteydessä?
+about-stay-in-touch-button = Rekisteröidy
 about-nav-why-common-voice = Miksi?
 about-nav-how-it-works = Miten?
 about-nav-partners = Partnerit
 about-nav-get-involved = Tule mukaan
 about-nav-how-it-works-2 = Miten Common Voice toimii?
+about-nav-playbook = Ota selvää kuinka voit osallistua
 
 ## Community Playbook Content
 ## What is a language
@@ -481,6 +490,7 @@ about-playbook-what-is-language = Mikä on kieli Common Voicessa?
 ## How do I add a language
 
 about-playbook-how-add-language = Kuinka lisään kielen?
+about-playbook-how-add-language-translating-heading = Sivuston kääntäminen
 
 ## How does localization work
 
@@ -575,6 +585,7 @@ datasets-positioning =
     
     Common Voicen monikielinen aineisto on jo nyt suurin avoimesti saatavilla oleva tällainen ääniaineisto, mutta se ei ole ainoa.
 language = Kieli
+download-dataset-header = Lataa tietoaineisto
 # File size in gigabytes
 size = Koko
 validated-hr-total = Tarkistettuja tunteja yhteensä
@@ -589,6 +600,7 @@ confirm-size = Olet aloittamassa <b>{ $size }</b>:n latausta.
 size-gigabyte = Gt
 size-megabyte = Mt
 confirm-no-identify = <b>Sitoudut</b> olemaan yrittämättä tunnistaa Common Voice -aineiston puhujia.
+confirm-join-mailing-list = Haluan liittyä Common Voice -postituslistalle
 download-language = Lataa { $language }
 validated-hours = Tarkistetut tunnit
 recorded-hours = Äänitetyt tunnit
@@ -617,6 +629,9 @@ more = Lisää
 close = Sulje
 download = Lataa
 dataset-version = Versio
+sha256-checksum-copied = SHA256-tarkistussumma kopioitu!
+sha256-checksum-copied-error = SHA256-tarkistussumman kopioiminen epäonnistui
+clipboard-not-supported = Leikepöytää ei tueta
 
 ## Download Modal
 
@@ -674,6 +689,8 @@ language-search-input =
 language-speakers = Puhujat
 localized = Lokalisoitu
 sentences = Lauseet
+language-validation-hours = Tunnit
+language-validation-progress = Vahvistamisen edistyminen
 
 ## Contribution
 
@@ -737,6 +754,10 @@ target-segment-first-card = Osallistut ensimmäiseen kohdesegmenttiimme
 target-segment-first-banner = Auta luomaan Common Voicen ensimmäinen kohdesegmentti kielellä { $locale }
 target-segment-add-voice = Lisää äänesi
 target-segment-learn-more = Lue lisää
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Äänikokoelma
 
 ## Reporting
 
@@ -1057,12 +1078,14 @@ sc-submit-ph-one-per-line =
 sc-add-lang-could-not-add = Kieltä ei voitu lisätä
 sc-add-lang-sec-button = Lisää kieli
 sc-add-err-unexpected = Odottamaton vastaus palvelimelta
+sc-add-err-submission = Lähetysvirhe
 
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-are-you-sure =
     .message = Lauseita ei lähetetty. Haluatko varmasti poistua?
 sc-confirm-sentences-title = Vahvista uudet lauseet
+sc-confirm-button-text = Vahvista
 sc-confirm-uploading = Lauseita lähetetään. Tämä voi kestää useita minuutteja lisättävien lauseiden määrästä riippuen. Älä sulje tätä sivua.
 
 ## LANGUAGE INFO
@@ -1119,3 +1142,16 @@ sc-validation-no-abbreviations = Lause ei saa sisältää lyhenteitä
 
 localization-select =
     .label = Valitse kieli/lokalisointi
+partnerships-get-in-touch = Ota yhteyttä
+partnerships-become-a-partner = Ryhdy Common Voice -yhteistyökumppaniksi
+partnerships-our-partners = Yhteistyökumppanimme
+continue-speaking-button = Ei kiitos, jatka puhumista
+create-profile-text = Haluatko tallentaa tietosi? <createProfile>Luo profiili</createProfile>
+create-profile-button = Luo profiili
+voice-collection = Äänikokoelma
+sentence-collection = Virkekokoelma
+offensive-content = Loukkaava sisältö
+background-noise = Taustamelu
+background-voices = Taustaäänet
+example = Esimerkki
+citing-sentences-subheader-websites = Verkkosivustot

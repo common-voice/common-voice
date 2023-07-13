@@ -40,10 +40,12 @@ ba = Baškiršćina
 bas = Basašćina
 be = Běłorušćina
 bg = Bołharšćina
+bm = Bambaršćina, Bambara
 bn = Bengalšćina
 br = Bretonšćina
 bs = Bosnišćina
 bxr = Burjatšćina
+byv = Medumba
 ca = Katalanšćina
 cak = Kaqchikel
 ckb = Centralna kurdišćina
@@ -53,6 +55,7 @@ cs = Čěšćina
 cv = Čuwašćina
 cy = Walizišćina
 da = Danšćina
+dag = Dagbani
 de = Němčina
 dsb = Delnjoserbšćina
 dv = Dhivehi
@@ -187,6 +190,7 @@ ts = Tsongašćina
 tt = Tataršćina
 tw = Twi
 ty = Tahitišćina
+tyv = Tuwinšćina
 uby = Ubychišćina
 udm = Udmurtšćina
 ug = Ujguršćina
@@ -197,6 +201,7 @@ ve = Venda
 vec = Wenecianišćina
 vi = Vietnamšćina
 vot = Wotšćina
+wo = Wolof
 xh = Xhosa
 yi = Jiddišćina
 yo = Joruba
@@ -206,6 +211,7 @@ zh-CN = Chinšćina (China)
 zh-HK = Chinšćina (Hong Kong)
 zh-TW = Chinšćina (Taiwan)
 zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -217,6 +223,7 @@ speak-now = Rěčće nětko
 datasets = Datowe sadźby
 languages = Rěče
 about = Wo nas
+partner = Partner
 profile = Profil
 help = Pomoc
 contact = Kontakt
@@ -408,6 +415,7 @@ why-demographic = Čehodla je to wažne?
 why-demographic-explanation-2 = Anonymizowane wužiwarske daty kaž staroba, splah a akcent pomhaja awdiodaty polěpšić, kotrež so wužiwaja, zo bychu dokładnosć softwary rěčenskeho spóznaća trenowali. Waše wužiwarske mjeno a e-mejlowa adresa so ženje z wašimi pósłanymi datami njezwjazujetej, a móžeće wubrać, hač ma waše wužiwarske mjeno zjawne abo anonymne być.
 accept-privacy = Sym přezjedny, zo so tute informacije wužiwaja, kak so w <privacyLink>prawidłach priwatnosće</privacyLink> Mozilla wujasnja.
 accept-privacy-title = Prawidła priwatnosće
+accept-privacy-and-terms = Zwolu do našich <termsLink>wužiwarskich wuměnjenjow</termsLink> a <privacyLink>zdźělenki priwatnosće</privacyLink>
 login-identity = Přizjewjenska identita
 login-signup = Přizjewić/Registrować
 edit = Wobdźěłać
@@ -707,6 +715,7 @@ confirm-size = Sće za start sćehnjenja wulkosće <b>{ $size }</b> přihotowany
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Zwoliće</b> do toho, zo njespytaće, identitu rěčnikow w datowej sadźbje zwěsćić
+confirm-join-mailing-list = Chcu do rozsyłanskeje lisćiny Common Voice zastupić
 download-language = { $language } sćahnyć
 validated-hours = Wobkrućene hodźiny
 recorded-hours = Natočene hodźiny
@@ -739,6 +748,9 @@ more = Wjace
 close = Začinić
 download = Sćahnyć
 dataset-version = Wersija
+sha256-checksum-copied = Pruwowanska suma SHA256 kopěrowana!
+sha256-checksum-copied-error = Kopěrowanje pruwowanskeje sumy SHA256 njeje so poradźiło
+clipboard-not-supported = Mjezyskład so njepodpěruje
 
 ## Download Modal
 
@@ -1500,3 +1512,24 @@ sc-validation-no-abbreviations = Sada njeměła skrótšenki wobsahować
 
 localization-select =
     .label = Rěč/Lokalizaciju wubrać
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerstwa
+partnerships-get-in-touch = Kontakt
+partnerships-become-a-partner = Budźće partner Common Voice
+partnerships-foundations-header = Załožby
+partnerships-governments-header = Knježerstwa
+partnerships-academia-header = Uniwersity, akademikarjo a slědźerjo
+partnerships-our-partners = Naši partnerjo
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Wulki dźak, zo waše rěčenske klipy darił!
+why-donate = Čehodla so prašeće?
+add-information-button = Informacije přidać
+continue-speaking-button = Ně, dźakuju so, z rěčenjom pokročować
+create-profile-text = Chceće swoje informacije składować? <createProfile>Załožće profil</createProfile>
+thanks-for-voice-toast = Wulki dźak za waše rěčenske informacije
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Wulki dźak, zo waš hłós přinošujeće!
+already-have-an-account = Maće hižo konto? <login>Přizjewić</login>
+create-profile-button = Profil załožić
+# IMAGE TAGS
+img-alt-success-checkmark = Symbol wuspěcha

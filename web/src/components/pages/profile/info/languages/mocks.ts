@@ -45,6 +45,19 @@ export const MOCK_ACCENTS_ALL = {
   },
 } as AccentsAll;
 
+export const MOCK_ACCENTS = [
+  {
+    id: 1,
+    token: 'england',
+    name: 'England English',
+  },
+  {
+    id: 13,
+    token: 'singapore',
+    name: 'Singaporean English',
+  },
+];
+
 export const MOCK_VARIANTS_ALL = {
   cy: [
     { id: 1, token: 'cy-north', name: 'North-Western Welsh' },

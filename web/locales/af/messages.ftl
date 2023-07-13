@@ -18,6 +18,8 @@ banner-error-slow-1 = Jammer. Common Voice ervaar tans vertragings. Dankie vir j
 banner-error-slow-2 = Ons ontvang tans baie verkeer en is besig om die saak te ondersoek.
 banner-error-slow-link = Statusblad
 error-something-went-wrong = Jammer, iets het skeef geloop.
+error-clip-upload = Die oplaai van hierdie snit misluk steeds. Hou aan om weer te probeer?
+error-clip-upload-server = Die oplaai van hierdie snit misluk steeds by die bediener. Herlaai die bladsy of probeer later weer.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +42,13 @@ ba = Basjkir
 bas = Basaa
 be = Belarussies
 bg = Bulgaars
+bm = Bambarees
 bn = Bengali
+bo = Tibettaans
 br = Bretons
 bs = Bosnies
 bxr = Buryat
+byv = Medumba
 ca = Katalonies
 cak = Kaqchikel
 ckb = Sentraalkurdisies
@@ -53,6 +58,7 @@ cs = Tsjeggies
 cv = Tjuvashies
 cy = Wallies
 da = Deens
+dag = Dagbani
 de = Duits
 dsb = Sorbies, Laer
 dv = Dhivehi
@@ -76,6 +82,7 @@ gom = Goan Konkanies
 ha = Hausa
 he = Hebreeus
 hi = Hindi
+hil = Hiligaynon
 hr = Kroaties
 hsb = Sorbian, Hoër
 ht = Haitiaans
@@ -90,6 +97,7 @@ is = Yslands
 it = Italiaans
 izh = Izhoriaans
 ja = Japannees
+jbo = Lojban
 ka = Georgies
 kaa = Karakalpaks
 kab = Kabiels
@@ -98,6 +106,7 @@ ki = Kikuyu
 kk = Kasaks
 km = Khmer
 kmr = Kurmanji Kurdish
+kn = Kannada
 knn = Konkani (Devanagari)
 ko = Koreaans
 kpv = Komi-Zyriaans
@@ -106,6 +115,8 @@ ky = Kirgisies
 lb = Luxemburgs
 lg = Luganda
 lij = Liguriaans
+ln = Lingala
+lo = Lao
 lt = Litaus
 lv = Letties
 mai = Maithili
@@ -127,11 +138,14 @@ nan-tw = Taiwannees
 nb-NO = Noorse Bokmål
 nd = IsiNdebele (Noord)
 ne-NP = Nepalees
+nhe = Oostelike Huasteca Nahuatl
+nhi = Westelike Sierra Puebla Nahuatl
 nia = Nias
 nl = Nederlands
 nn-NO = Noors Nynorsk
 nr = IsiNdebele (Suid)
 nso = Noord-Sotho
+ny = Chinyanja
 nyn = Runyankole
 oc = Oksitaans
 om = Afaan Ormoo
@@ -152,11 +166,13 @@ sah = Sakha
 sat = Santalien (Ol Chiki)
 sc = Sardinies
 scn = Siciliaans
+sdh = Suid-Koerdies
 shi = Shilha
 si = Sinhalees
 sk = Slowaaks
 skr = Saraiki
 sl = Sloweens
+snk = Soninke
 so = Somalies
 sq = Albanees
 sr = Serwies
@@ -180,6 +196,7 @@ ts = Xitsonga
 tt = Tataars
 tw = Twi
 ty = Tahities
+tyv = Tuvan
 uby = Ubykh
 udm = Udmurt
 ug = Uyghur
@@ -190,14 +207,17 @@ ve = Tshivenda
 vec = Venesiaans
 vi = Viëtnamees
 vot = Voties
+wo = Wolof
 xh = isiXhosa
 yi = Jiddisj
 yo = Joroeba
 yue = Kantonees
+zgh = Tamazight
 zh-CN = Chinees (China)
 zh-HK = Chinees (Hong Kong)
 zh-TW = Chinees (Taiwan)
 zu = isiZulu
+zza = Zaza
 
 # [/]
 
@@ -209,6 +229,7 @@ speak-now = Praat nou
 datasets = Datastelle
 languages = Tale
 about = Oor
+partner = Vennoot
 profile = Profiel
 help = Hulp
 contact = Kontak
@@ -392,7 +413,9 @@ why-demographic = Hoekom maak dit saak?
 why-demographic-explanation-2 = Anonieme gebruikersdata soos ouderdom, geslag en aksent help om die stemdata wat gebruik word om die akkuraatheid van spraakherkenningenjins op te lei, te verbeter. Jou gebruikersnaam en e-posadres sal nooit met jou ingediende data geassosieer word nie, en jy kan kies of jy jou gebruikersnaam publiek of anoniem wil maak.
 accept-privacy = Ek aanvaar dat hierdie inligting hanteer word soos verduidelik in Mozilla se <privacyLink> Privaatheidsbeleid</privacyLink>
 accept-privacy-title = Privaatheidsbeleid
+accept-privacy-and-terms = Ek stem in tot Common Voice se <termsLink>Bepalings</termsLink> en <privacyLink>Privaatheidskennisgewing</privacyLink>
 login-identity = Aanteken identiteit
+login = Teken aan
 login-signup = Teken In / Teken Aan
 edit = Redigeer
 email-subscriptions = E-pos Inskrywings
@@ -700,6 +723,9 @@ datasets-positioning =
     
     Kyk na hierdie bladsy as 'n verwysingspunt vir ander oopbron-stemdatastelle en, soos Common Voice steeds groei, 'n tuiste vir inligting oor die nuutste vrystellings.
 language = Taal
+download-dataset-header = Laai die datastel af
+download-delta-explainer = Ons het 'n paar veranderinge aangebring. Delta-segmente bevat net die mees onlangse snitte sedert die laaste vrystelling. <deltaLink>Lees meer oor hierdie werk</deltaLink>.
+download-dataset-tag = Kies die verlangde datastel en die weergawe wat jy wil aflaai.
 # File size in gigabytes
 size = Grootte
 validated-hr-total = Bevestigde Ure Totaal
@@ -714,6 +740,7 @@ confirm-size = Jy is bereid om 'n aflaai van <b> { $size } </b> te begin
 size-gigabyte = GG
 size-megabyte = MG
 confirm-no-identify = <b> Jy stem in </b> om nie te probeer om die identiteit van sprekers in die Common Voice-datastel te bepaal nie
+confirm-join-mailing-list = Ek wil by die Common Voice-poslys aansluit
 download-language = Laai { $taal } Af
 validated-hours = Bevestigde Ure
 recorded-hours = Opgeneemde Ure
@@ -746,6 +773,9 @@ more = Meer
 close = Sluit
 download = Laai Af
 dataset-version = Weergawe
+sha256-checksum-copied = SHA256 Kontrolesom gekopieer!
+sha256-checksum-copied-error = Kon nie SHA256 Kontrolesom kopieer nie
+clipboard-not-supported = Knipbord word nie ondersteun nie
 
 ## Download Modal
 
@@ -898,6 +928,10 @@ target-segment-generic-card = Jy dra by tot 'n teikensegment
 target-segment-first-banner = Help om Common Voice se eerste teikensegment in { $locale } te skep
 target-segment-add-voice = Voeg jou stem by
 target-segment-learn-more = Vind meer uit
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Stemversameling
 
 ## Reporting
 
@@ -1504,3 +1538,70 @@ sc-validation-no-abbreviations = Sinne moet nie afkortings bevat nie
 
 localization-select =
     .label = Kies taal/lokalisering
+# PARTNERSHIPS PAGE
+partnerships-header = Vennootskappe
+partnerships-header-text = Dit verg baie om Common Voice te laat gebeur! Ons doen dit nie alleen nie. Wil jy graag saamwerk? Ons hoor graag van jou.
+partnerships-get-in-touch = Kontak ons
+partnerships-become-a-partner = Word 'n Common Voice-vennoot
+partnerships-community-header = Gemeenskap, Kreatiewes en Burgerlike gemeenskap
+partnerships-community-description = Die gemeenskap is die kloppende hart van Common Voice – hulle kom van regoor die wêreld, en is taalaktiviste, wetenskaplikes en kunstenaars. Jy kan meer leer oor hoe om betrokke te raak op ons <about>Meer oor</about>-bladsy en in ons <community>Community Playbook</community>. As jy belangstel in 'n dieper organisatoriese vennootskap, <emailFragment>kontak.</emailFragment>
+partnerships-foundations-header = Fondse
+partnerships-foundations-description = Ons werk saam met stigtings, die burgerlike samelewing en gemeenskapsvennote om die internet 'n gesonder plek te maak, met 'n spesifieke fokus op Oos-Afrika. Kom meer te wete oor ons <programmaticWork>programmatiese werk.</programmaticWork>
+partnerships-governments-header = Regerings
+partnerships-governments-description = Ons is opgewonde om openbare sektore se betrokkenheid by tegnologie, innovasie en taalregte te ondersteun. As jy van plan is om 'n groot projek of veldtog te bestuur, <emailFragment>kontak ons asseblief.</emailFragment>
+partnerships-academia-header = Universiteite, Akademici en Navorsers
+partnerships-academia-description = Oop innovasie is die kern van wat ons doen. Vir navorsingsamewerking, data-insameling of onderhoude, <emailFragment>reik uit.</emailFragment>
+partnerships-small-business-header = Klein besighede, insluitend tegnologie- en KI-beginners
+partnerships-small-business-description = Ons hoor graag van dataverbruikers oor hul behoeftes en konteks - van samewerking op data-insamelingsplatform tot die verskaffing van datagesondheidsinsigte, ons wil <emailFragment>van jou hoor.</emailFragment>
+partnerships-corporates-header = Grootskaalse maatskappye en platformmaatskappye
+partnerships-corporates-description = As jy meer wil praat oor die datastel, wil saambelê in beplande platformuitbreidings of op soek is na samewerkingsgeleenthede, <emailFragment>stuur vir ons 'n e-pos</emailFragment>
+partnerships-our-partners = Ons Vennote
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Dankie vir die skenking van jou stemsnitte!
+first-cta-subtitle-text = Wil jy inligting deel oor hoe jy praat?
+why-donate = Hoekom vra jy?
+why-donate-explanation-1 = Hierdie inligting is opsioneel - jy hoef dit net by te voeg as jy gemaklik voel. Wanneer ons die datastel vrystel, versteek ons alle persoonlike inligting, en maak seker dat inligting soos jou naam en e-posadres nie aan demografiese inligting soos jou ouderdom of geslag gekoppel word nie.
+why-donate-explanation-2 = Vir tegnologie om goed vir almal te werk, moet die data wat ontwikkelaars help om tegnologie te bou 'n uiteenlopende reeks mense weerspieël. As ons byvoorbeeld geen sprekers met 'n spesifieke aksent insluit nie, sal die tegnologie nie goed werk vir mense met daardie aksent nie. <learnMore>Kom meer te wete oor hoekom metadata belangrik is.</learnMore>
+add-information-button = Voeg inligting by
+continue-speaking-button = Nee dankie, hou aan praat
+create-profile-text = Wil jy jou inligting stoor? <createProfile>Skep 'n profiel</createProfile>
+thanks-for-voice-toast = Dankie vir jou stem inligting
+thanks-for-voice-toast-error = 'n Fout het voorgekom en jou steminligting is nie ingedien nie
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Dankie dat jy jou stem bydra!
+second-cta-subtitle-text = Met 'n profiel kan jy tred hou van jou aktiwiteit en kontak maak met 'n gemeenskap van stemdatabydraers.
+already-have-an-account = Reeds 'n rekening? <login>Teken aan</login>
+create-profile-button = Skep 'n profiel
+# IMAGE TAGS
+img-alt-success-checkmark = sukses baken
+# GUIDELINES PAGE
+guidelines-header = Riglyne vir bydraes
+guidelines-header-subtitle = Verstaan hoe om sinne en klanksnitte by te dra en te bekragtig vir die Common Voice-datastel
+voice-collection = Stemversameling
+sentence-collection = Stemversameling
+varying-pronunciations = Verskillende uitsprake
+misreadings = Lees foute
+offensive-content = Aanstootlike inhoud
+background-noise = Agtergrondgeraas
+background-voices = Stemme in die agtergrond
+volume = Volume
+reader-effects = Leser-effekte
+just-unsure = Net onseker?
+example = Voorbeeld
+varying-pronunciations-explanation-1 = Ons verwelkom verskillende aksente! Wees baie versigtig voordat jy 'n snit verwerp omdat jy dink die leser het 'n woord verkeerd uitgespreek, die klem op die verkeerde plek geplaas of leestekens geïgnoreer. Daar is 'n wye verskeidenheid uitsprake wat regoor die wêreld gebruik word, waarvan jy dalk nie in jou plaaslike gemeenskap hoor nie. Verskaf asseblief 'n ruim marge van waardering vir diegene wat dalk anders as jy praat.
+varying-pronunciations-explanation-2 = Aan die ander kant, as jy dink dat die leser nog nooit die woord teëgekom het nie, en 'n verkeerde raaiskoot maak oor die uitspraak, verwerp asseblief die sin. As jy onseker is, gebruik die "skip"-knoppie.
+varying-pronunciations-example = Die roete was onduidelik.
+varying-pronunciations-tip-1 = [Kanadese Engels kan "route" soos "rowt" laat klink]
+varying-pronunciations-tip-2 = [Britse Engels kan dit dalk "root" maak]
+offensive-content-explanation = Sinne word deur 'n gemeenskapsmodereringsproses nagegaan, maar hierdie proses is nie perfek nie. As jy 'n sin sien of hoor wat jou aanstoot gee of ontstel - byvoorbeeld omdat dit ons <participationGuidelines>gemeenskapsdeelnameriglyne</participationGuidelines> oortree - rapporteer dit asseblief. Jy kan ons ook kontak by <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = Om al die woorde op die bladsy korrek te lees, maak saak. Wanneer jy luister, maak baie seker dat wat opgeneem is presies is wat geskryf is; verwerp as hulle woorde bygevoeg, verkort of gemis het.
+misreadings-explanation-2 = Baie algemene foute sluit in:
+misreadings-explanation-3 = ''n' of 'Die' ontbreek aan die begin van die opname.
+misreadings-explanation-4 = Daar ontbreek 'n 's' aan die einde van 'n woord.
+misreadings-explanation-5 = Lees sametrekkings wat nie eintlik daar is nie, soos "Dis" in plaas van "Dit is", of omgekeerd.
+misreadings-explanation-6 = Mis die einde van die laaste woord deur die opname te vinnig af te sny.
+misreadings-explanation-7 = Maak verskeie pogings om 'n woord te lees.
+misreadings-example-1 = Ons gaan uit om koffie te kry.
+misreadings-example-2 = Ons gaan koffie kry.
+misreadings-example-3 = Ons gaan uit om 'n koffie te kry.
+misreadings-example-4 = Die hommelby het verbygeswiep.

@@ -11,7 +11,7 @@ module.exports = {
     '^.+\\.(png|jpg)$': 'jest-transform-stub',
     '^.+\\.css$': 'identity-obj-proxy',
   },
-  setupFiles: ['<rootDir>/test/jest.setup.js'],
+  setupFiles: ['<rootDir>/test/jest.setup.js', 'jest-canvas-mock'],
   globals: {
     'ts-jest': {
       tsconfig: 'tsconfig.test.json',

@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Static maintenance page for Common Voice",
   "devDependencies": {
-    "replace-in-file": "6.3.2"
+    "replace-in-file": "6.3.5"
   },
   "scripts": {
     "build": "node main.js"

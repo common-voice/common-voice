@@ -1,7 +1,9 @@
 ## Languages
 
+contribute = ያበርክቱ
 get-involved-button = ይሳተፉ
 get-involved-title = ለ { $lang } ያበርክቱ
+get-involved-text = ለ { $lang } ለማበርከት ስለፈለጉ እናመሰግናለን። እያንዳንዱ ቋንቋ ዝግጁ ሆኖ ወደሥራ እንዲገባ ጠንክረን እየሠራን ሲሆን ሁሉም ቡድኖች ያሉትን ለውጦች በኢሜይል እንዲያውቁ እናደርጋለን። ማበርከት የሚፈልጉ ከሆነ፤ የኢሜል አድራሻዎትን ከዚህ በታች ያስገቡ።
 get-involved-form-title = ለ { $lang } ለውጦች ማሳወቂያ ይመዝገቡ፡
 get-involved-email =
     .label = ኢ-ሜይል

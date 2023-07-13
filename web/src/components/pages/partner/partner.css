@@ -169,7 +169,7 @@
 
     @media (--lg-up) {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
         justify-items: center;
         align-items: center;
 
@@ -177,6 +177,12 @@
             max-width: 100%;
             height: auto;
         }
+    }
+
+    & .makerere-logo,
+    .nvidia-logo,
+    collectivat-logo {
+        width: 370px;
     }
 
     @media (--xs-down) {

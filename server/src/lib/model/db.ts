@@ -3,6 +3,7 @@ import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
 import ClipTable, { DBClip } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
+import * as Sentry from '@sentry/node';
 import {
   ChallengeToken,
   Sentence,
@@ -24,7 +25,7 @@ const THREE_WEEKS = 3 * 7 * 24 * 60 * 60 * 1000;
 // Ref JIRA ticket OI-1300 - we want to exclude languages with fewer than 500k active global speakers
 // from the single sentence record limit, because they are unlikely to amass enough unique speakers
 // to benefit from single sentence constraints
-const SINGLE_SENTENCE_LIMIT = ['en', 'de', 'fr', 'kab', 'rw', 'ca', 'es'];
+const SINGLE_SENTENCE_LIMIT = ['en', 'de', 'fr', 'kab', 'rw', 'es'];
 
 const teammate_subquery =
   '(SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?)';
@@ -398,6 +399,7 @@ export default class DB {
     locale: string,
     count: number
   ): Promise<DBClip[]> {
+    Sentry.captureMessage(`Find clips needing validation for ${locale} locale`, Sentry.Severity.Info)
     let taxonomySentences: DBClip[] = [];
     const locale_id = await getLocaleId(locale);
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale);
@@ -411,6 +413,9 @@ export default class DB {
         count,
         prioritySegments
       );
+      Sentry.captureMessage(`There are ${prioritySegments.length} priority segments for ${locale} locale`, Sentry.Severity.Info)
+    } else {
+      Sentry.captureMessage(`There are 0 priority segments for ${locale} locale`, Sentry.Severity.Info)
     }
 
     const regularSentences =
@@ -422,7 +427,8 @@ export default class DB {
             count - taxonomySentences.length,
             exemptFromSSRL
           );
-
+    
+    Sentry.captureMessage(`There are ${regularSentences.length} regular sentences for ${locale} locale`, Sentry.Severity.Info)     
     return taxonomySentences.concat(regularSentences);
   }
 
@@ -712,21 +718,23 @@ export default class DB {
     original_sentence_id,
     path,
     sentence,
+    duration,
   }: {
     client_id: string;
     localeId: number;
     original_sentence_id: string;
     path: string;
     sentence: string;
+    duration: number;
   }): Promise<void> {
     try {
       const [{ insertId }] = await this.mysql.query(
         `
-          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id)
-          VALUES (?, ?, ?, ?, ?)
+          INSERT INTO clips (client_id, original_sentence_id, path, sentence, locale_id, duration)
+          VALUES (?, ?, ?, ?, ?, ?)
           ON DUPLICATE KEY UPDATE created_at = NOW()
         `,
-        [client_id, original_sentence_id, path, sentence, localeId]
+        [client_id, original_sentence_id, path, sentence, localeId, duration]
       );
       await this.mysql.query(
         `
@@ -955,6 +963,7 @@ export default class DB {
       l.is_contributable
         FROM locales l
         LEFT JOIN sentences s ON s.locale_id = l.id
+        WHERE s.is_validated = TRUE
         GROUP BY l.id`
     );
     return rows.map(
@@ -1261,26 +1270,6 @@ export default class DB {
     } catch (error) {
       console.error(
         `Unable to insert downloader (error message: ${error.message})`
-      );
-    }
-  }
-
-  async createReport(
-    client_id: string,
-    {
-      kind,
-      id,
-      reasons,
-    }: { kind: 'clip' | 'sentence'; id: string; reasons: string[] }
-  ) {
-    const [table, column] =
-      kind == 'clip'
-        ? ['reported_clips', 'clip_id']
-        : ['reported_sentences', 'sentence_id'];
-    for (const reason of reasons) {
-      await this.mysql.query(
-        `INSERT INTO ${table} (client_id, ${column}, reason) VALUES (?, ?, ?)`,
-        [client_id, id, reason]
       );
     }
   }

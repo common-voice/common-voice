@@ -190,6 +190,7 @@ export default class Model {
     original_sentence_id: string;
     path: string;
     sentence: string;
+    duration: number;
   }) {
     await this.db.saveClip(clipData);
   }

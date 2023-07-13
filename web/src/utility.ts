@@ -159,3 +159,5 @@ export const formatBytes = (bytes: number, locale: string) => {
 export const msToHours = (msDuration: number) => {
   return Math.ceil(msDuration / MS_IN_HOUR);
 };
+
+export const castTrueString = (strValue: string) => strValue === 'true';

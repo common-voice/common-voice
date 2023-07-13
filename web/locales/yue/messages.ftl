@@ -14,6 +14,10 @@ email-opt-in-info-sub-with-challenge = 接收挑戰及目標提醒、進度更�
 email-opt-in-privacy-v2 = 選擇接收電郵意味住閣下同意 Mozilla 根據<privacyLink>私隱政策</privacyLink>嚟處理呢啲個人數據。
 indicates-required = ＊表示必填
 not-available-abbreviation = 唔適用
+banner-error-slow-1 = 對唔住，Common Voice 運行得好慢。多謝你嘅耐心等待。
+banner-error-slow-2 = 我哋有太多流量湧入嚟喇，而家仲調查緊發生咗啲咩事。
+banner-error-slow-link = 狀態頁面
+error-something-went-wrong = 對唔住，出咗啲問題
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -328,6 +332,9 @@ profile-form-additional-language =
     .label = 其他語言
 profile-form-language =
     .label = 語言
+profile-form-variant =
+    .label = 你講緊嘅係 { $language } 嘅邊種方音？
+profile-form-variant-default-value = 未揀方音
 profile-form-accent =
     .label = 口音
 profile-form-custom-accent-help-text =
@@ -379,6 +386,8 @@ off = 閂
 on = 開
 help-accent = 需要口音方面嘅更多定義？
 help-accent-explanation = 口音係指你對一個詞彙發音嘅方式。口音通常受成長地、講開嘅其它語言以及其它因素影響而成。你可以喺呢度寫低有關詳情。
+help-variants = 喺方音方面使唔使幫手？
+help-variants-explanation = 方音/變體係一種語言嘅具體形式，佢由生活喺某一個地域或者社區嘅人共享，有時被稱之為方言。
 
 ## Profile - Email
 
@@ -387,7 +396,7 @@ browse-file = 拖落呢度，或<browseWrap>瀏覽</browseWrap>
 connect-gravatar = 連結 Gravatar
 gravatar_not_found = 揾唔到你電郵所屬嘅 Gravatar
 file_too_large = 檔案過大
-avatar-uploaded = Avatar 已上載
+avatar-uploaded = 肖像已上載
 max-file-size = { $kb } kb 上限
 remove-avatar = 刪除肖像
 
@@ -472,6 +481,12 @@ how-does-it-work-text = 我哋整緊一個開源嘅聲音資料集。一齊幫�
 
 about-localization-title = 網站本地化
 about-sentence-collection-title = 句子收集
+about-new-lang-title = 新語言發佈
+about-new-lang-subtitle = 我哋發佈呢種語言嘅 Common Voice 頁面。
+about-voice-contrib-title = 錄音捐聲
+about-voice-contrib-subtitle = 個個人都嚟貢獻佢哋自己把聲。
+about-voice-validation-title = 驗證錄音
+about-voice-validation-subtitle = 其他人驗證呢啲錄音片段。
 about-dataset-release-title = 數據集發佈
 about-subscribe-text = 想及時跟進 Common Voice ？
 about-speak = 講
@@ -536,7 +551,9 @@ about-playbook-how-grow-language-content-4 = 社交媒體
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = 我哋嘅管治係建基於：
 about-playbook-how-project-governance-content-3 = 私隱、安全同透明度。
+about-playbook-how-project-governance-content-4 = 社群參與同決策。
 
 ## Glossary
 
@@ -595,6 +612,7 @@ review-delete-recordings = 刪除我嘅錄音
 
 ## Datasets Page
 
+datasets-heading = 數據集
 datasets-headline = 我哋想建立一套開放原始碼、多重語言嘅語音數據集，令到任何人都可以用來開發同語音相關嘅應用。
 datasets-positioning =
     我哋相信如果有一組大規模、公開嘅語音數據集，會奠定以機器學習為基礎嘅語音技術上嘅創新，同埋健康嘅商業競爭。
@@ -603,6 +621,8 @@ datasets-positioning =
     
     閣下可於該頁面揾到其他開放原始碼嘅語音數據集。隨住 Common Voice 持續成長，我哋也會喺呢處張貼更新資訊。
 language = 語言
+download-dataset-header = 下載數據集
+download-delta-explainer = 我哋有少少調整，新增部分（Delta Segments）剩係包含上次發佈之後新加嘅錄音。<deltaLink>了解更多呢部分嘅調整</deltaLink>。
 # File size in gigabytes
 size = 數據庫大細
 validated-hr-total = 已驗證錄音（小時）
@@ -681,6 +701,11 @@ other-language = 其他語言
 
 ## Request Language Pages
 
+request-language-heading = 申請加入新語言
+request-language-form-email =
+    .label = 閣下電郵地址
+request-language-form-info =
+    .label = 呢種語言嘅資料
 
 ## Languages Overview
 
@@ -697,6 +722,8 @@ language-search-input =
 language-speakers = 獻聲人數
 localized = 已被本地化
 sentences = 句子
+language-validation-hours = 個鐘
+language-validation-progress = 驗證進度
 
 ## Contribution
 
@@ -748,6 +775,7 @@ listen-again-instruction = 好嘢！<playIcon></playIcon> 準備好就可以再�
 listen-3rd-time-instruction = 完成兩筆喇 <playIcon></playIcon>，繼續加油！
 listen-last-time-instruction = <playIcon></playIcon> 最後一個！
 listen-empty-state = 呢個語言嘅錄音都已經驗證晒喇……
+listen-loading-error = 我哋冇晒錄音畀你聽嘞，遲啲再試啦。
 speak-empty-state = 呢個語言可以錄嘅句子已經錄晒啦⋯⋯
 speak-empty-state-cta = 貢獻句子
 record-button-label = 錄低你把聲
@@ -759,6 +787,9 @@ target-segment-generic-card = 你現正貢獻緊錄音畀一個目標細分群�
 target-segment-first-banner = 幫 Common Voice 創立 { $locale } 嘅第一個目標細分群體
 target-segment-add-voice = 加入你嘅聲音
 target-segment-learn-more = 了解更多
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1077,6 +1108,8 @@ sc-howto-addsen-item-1 = 所有語句必須符合<wikipediaLink>公共領域 (CC
 sc-howto-addsen-item-2 = 數字嘅問題：源文本中唔應該出現數字，因為數字可能會導致朗讀方面出問題。 數字嘅讀法會因上下文而有所不同，可能會導致數據集出現混淆。例如，數字「2409」可以被讀作「二四零九」或者「二千四百零九」。
 sc-howto-cite-title = 點樣引用
 sc-howto-review-title = 審核句子
+sc-howto-review-criteria-2 = 句子要符合語法。
+sc-howto-review-criteria-3 = 句子要係讀得出嘅。
 
 ## MY SENTENCES
 

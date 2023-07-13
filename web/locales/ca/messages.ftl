@@ -18,6 +18,8 @@ banner-error-slow-1 = Ens sap greu, el Common Voice està tardant a carregar-se,
 banner-error-slow-2 = La plataforma va molt carregada últimament, estem investigant els problemes i esperem solucionar-los aviat.
 banner-error-slow-link = Estat del projecte
 error-something-went-wrong = Hi ha hagut un problema
+error-clip-upload = La pujada d'aquest tall continua fallant. Voleu reintentar-ho?
+error-clip-upload-server = La pujada d'aquest tall continua fallant en el servidor. Torneu a carregar la pàgina o proveu-ho més tard.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +42,13 @@ ba = baixkir
 bas = basaa
 be = bielorús
 bg = búlgar
+bm = bambara
 bn = bengalí
+bo = tibetà
 br = bretó
 bs = bosnià
 bxr = buriat
+byv = medumba
 ca = català
 cak = kaqtxikel
 ckb = kurd central
@@ -53,6 +58,7 @@ cs = txec
 cv = txuvaix
 cy = gal·lès
 da = danès
+dag = dagbani
 de = alemany
 dsb = baix sòrab
 dv = divehi
@@ -132,11 +138,14 @@ nan-tw = taiwanès (min nan)
 nb-NO = Bokmål noruec
 nd = IsiNdebele septentrional
 ne-NP = nepalès
+nhe = Nàhuatl de La Huasteca oriental
+nhi = nàhuatl de la Sierra Occidental de Puebla
 nia = nias
 nl = neerlandès
 nn-NO = noruec nynorsk
 nr = IsiNdebele meridional
 nso = sotho del nord
+ny = chinyanja
 nyn = nyankole
 oc = occità
 om = oromo
@@ -187,6 +196,7 @@ ts = xitsonga
 tt = tàtar
 tw = twi
 ty = tahitià
+tyv = tuvinià
 uby = ubikh
 udm = udmurt
 ug = uigur
@@ -197,6 +207,7 @@ ve = tshivenda
 vec = vènet
 vi = vietnamita
 vot = vòtic
+wo = wòlof
 xh = xhosa
 yi = ídix
 yo = ioruba
@@ -206,6 +217,7 @@ zh-CN = xinès (Xina)
 zh-HK = xinès (Hong Kong)
 zh-TW = xinès (Taiwan)
 zu = zulu
+zza = zaza
 
 # [/]
 
@@ -217,6 +229,7 @@ speak-now = Parleu ara
 datasets = Conjunts de dades
 languages = Llengües
 about = Qui som
+partner = Associats
 profile = Perfil
 help = Ajuda
 contact = Contacte
@@ -400,7 +413,9 @@ why-demographic = Per què és important?
 why-demographic-explanation-2 = Les dades d'usuari anònimes com l'edat, el gènere i l'accent ajuden a millorar les dades d'àudio utilitzades per entrenar la precisió dels motors de reconeixement de veu. Les dades que envieu no estaran mai associades amb cap nom d'usuari ni adreça electrònica, i podeu triar si voleu que el vostre nom d'usuari sigui públic o anònim.
 accept-privacy = Accepto que gestioneu aquesta informació en els termes descrits en la <privacyLink>política de privadesa</privacyLink> de Mozilla
 accept-privacy-title = Política de privadesa
+accept-privacy-and-terms = Accepto les <termsLink>condicions d'ús</termsLink> i l'<privacyLink>avís de privadesa</privacyLink> del Common Voice.
 login-identity = Identitat d'inici de sessió
+login = Inicia la sessió
 login-signup = Inici de sessió / Registre
 edit = Edita
 email-subscriptions = Subscripcions per correu electrònic
@@ -711,6 +726,9 @@ datasets-positioning =
     
     Considereu aquesta pàgina com a punt central de referència sobre els altres conjunts de dades de veu oberts i, a mesura que el Common Voice continua creixent, la pàgina on anunciarem les actualitzacions de les versions.
 language = Llengua
+download-dataset-header = Baixa el conjunt de dades
+download-delta-explainer = Hem fet alguns canvis. Els segments Delta només contenen els clips més recents des de la versió anterior. <deltaLink>Vegeu més informació sobre aquesta tasca</deltaLink>.
+download-dataset-tag = Seleccioneu el conjunt de dades de la llengua desitjada i trieu la versió que voleu baixar.
 # File size in gigabytes
 size = Mida
 validated-hr-total = Hores validades totals
@@ -725,6 +743,7 @@ confirm-size = Estic preparat per a iniciar una baixada de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Accepto</b> no intentar determinar la identitat dels parlants del conjunt de dades del Common Voice
+confirm-join-mailing-list = Vull subscriure'm a la llista de correu del Common Voice
 download-language = Baixa ({ $language })
 validated-hours = Hores validades
 recorded-hours = Hores enregistrades
@@ -757,6 +776,9 @@ more = Més
 close = Tanca
 download = Baixa
 dataset-version = Versió
+sha256-checksum-copied = S'ha copiat la suma de verificació SHA256
+sha256-checksum-copied-error = No s'ha pogut copiar la suma de verificació SHA256
+clipboard-not-supported = El porta-retalls no és compatible
 
 ## Download Modal
 
@@ -852,6 +874,8 @@ action-click = Feu clic a
 action-tap = Toqueu
 contribute = Col·laboreu‑hi
 listen = Escolta
+write = Escriu
+review = Revisa
 skip = Omet
 shortcuts = Dreceres
 clips-with-count-pluralized =
@@ -915,6 +939,11 @@ target-segment-generic-card = Esteu col·laborant en un segment objectiu
 target-segment-first-banner = Ajudeu a assolir el primer segment objectiu del Common Voice en { $locale }
 target-segment-add-voice = Afegiu la vostra veu
 target-segment-learn-more = Més informació
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Recollida de veus
+contribute-sentence-collection-nav-header = Recollida de frases
 
 ## Reporting
 
@@ -997,7 +1026,7 @@ lose-goal-progress-warning = En editar l'objectiu, podeu perdre el progrés actu
 want-to-continue = Voleu continuar?
 finish-editing = Voleu acabar d'editar?
 lose-changes-warning = Si ho deixeu ara, es perdran tots els canvis
-build-custom-goal = Crea un objectiu personalitzat
+build-custom-goal = Creeu un objectiu personalitzat
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] Ajudeu a arribar a { $hours } hora en { $language } amb un objectiu personal
@@ -1006,7 +1035,7 @@ help-reach-hours-pluralized =
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [one] Ajudeu al Common Voice a arribar a{ $hours } hora en una llengua amb un objectiu personal
-       *[other] Ajudeu al Common Voice a arribar a{ $hours } hores en una llengua amb un objectiu personal
+       *[other] Ajudeu al Common Voice a arribar a { $hours } hores en una llengua amb un objectiu personal
     }
 set-a-goal = Defineix un objectiu
 cant-decide = No sabeu què fer?
@@ -1146,7 +1175,7 @@ demo-dashboard-card-body = Per cada tall de veu donat i per cada tall d'àudio v
 contribution-criteria-nav = Criteris
 contribution-criteria-link = Compreneu els criteris de col·laboració
 contribution-criteria-page-title = Criteris de col·laboració
-contribution-criteria-page-description = Compreneu què cal cercar quan escolteu clips de veu, i ajudeu que els vostres enregistraments de veu també siguin més enriquits.
+contribution-criteria-page-description = Compreneu què cal cercar quan escolteu talls de veu, i ajudeu que els vostres enregistraments de veu també siguin més enriquits.
 contribution-for-example = per exemple
 contribution-misreadings-title = Lectures errònies
 contribution-misreadings-description = En escoltar, comproveu amb molta cura que el que s’ha enregistrat és exactament el que hi ha escrit; rebutgeu el tall fins i tot si hi ha errors menors. <br />Els errors més habituals són:
@@ -1170,7 +1199,7 @@ contribution-misreadings-example-7-explanation = [El text original indica «en»
 contribution-misreadings-example-8-title = Un elefant va matar una aranya.
 contribution-misreadings-example-8-explanation = [El contingut no coincideix]
 contribution-varying-pronunciations-title = Pronunciacions variables
-contribution-varying-pronunciations-description = Tingueu cura abans de rebutjar un clip perquè el lector ha pronunciat malament una paraula. El català té una àmplia varietat de pronúncies, i potser no les heu sentit mai. No es pronuncia igual en català central, balear, valencià o septentrional. Feu confiança a aquells que parlen d’una manera diferent de la vostra.
+contribution-varying-pronunciations-description = Tingueu cura abans de rebutjar un tall perquè el lector ha pronunciat malament una paraula. El català té una àmplia varietat de pronúncies, i potser no les heu sentit mai. No es pronuncia igual en català central, balear, valencià o septentrional. Feu confiança a aquells que parlen d’una manera diferent de la vostra.
 contribution-varying-pronunciations-description-extended = D'altra banda, si creieu que probablement el lector no s'ha trobat mai amb la paraula i simplement fa una suposició incorrecta de la pronúncia, rebutgeu el tall. Si no n'esteu segur, utilitzeu el botó Omet.
 contribution-varying-pronunciations-example-1-title = Ells mengen peres.
 contribution-varying-pronunciations-example-1-explanation = [«peres» es pot pronunciar de diferents maneres, segons la variant dialectal]
@@ -1184,7 +1213,7 @@ contribution-background-noise-example-2-fixed-title = Els grans dino <strong>[to
 contribution-background-noise-example-2-explanation = [No se sent part del text]
 contribution-background-noise-example-3-fixed-title = <strong>[espetec]</strong> grans dinosaures de <strong>[espetec]</strong> -riàsic.
 contribution-background-voices-title = Veus de fons
-contribution-background-voices-description = Un soroll de fons tranquil està bé, però no volem que hi hagi veus addicionals que puguin fer que un algoritme informàtic identifiqui paraules que no apareixen en el text escrit. Si podeu sentir paraules diferents a part de les del text, s'hauria de rebutjar el clip. Normalment, això passa si s'ha deixat el televisor encès o si hi ha una conversa a prop.
+contribution-background-voices-description = Un soroll de fons tranquil està bé, però no volem que hi hagi veus addicionals que puguin fer que un algoritme informàtic identifiqui paraules que no apareixen en el text escrit. Si podeu sentir paraules diferents a part de les del text, s'hauria de rebutjar el tall. Normalment, això passa si s'ha deixat el televisor encès o si hi ha una conversa a prop.
 contribution-background-voices-description-extended = Si l'enregistrament es talla, o fa espetecs, rebutgeu-lo. Llevat que se senti la totalitat del text.
 contribution-background-voices-example-1-title = Els grans dinosaures del Triàsic. <strong>[llegit per una veu]</strong>
 contribution-background-voices-example-1-explanation = Que vens? <strong>[cridat per algú altre]</strong>
@@ -1224,7 +1253,7 @@ sc-logout-button = Tanca la sessió
 
 ## HOME
 
-sc-home-title = Us donem la benvinguda al Common Voice Sentece Collector
+sc-home-title = Us donem la benvinguda al Common Voice Sentence Collector
 sc-home-intro = El Sentence Collector és part del <commonVoiceLink>Common Voice</commonVoiceLink>. Permet als col·laboradors de recollir i validar frases creades per la comunitat. També podeu usar aquesta eina per a importar i netejar corpus de domini públic de mida petita i mitjana que hàgiu trobat o recollit. Totes les frases han de ser de domini públic. Les frases aprovades s'exporten cada setmana al repositori del Common Voice i són disponibles al lloc web del Common Voice en cada nou desplegament.
 sc-home-collect-title = Recull frases
 sc-home-collect-text = Ajudeu-nos escrivint o recopilant frases de domini públic.
@@ -1522,3 +1551,156 @@ sc-validation-no-abbreviations = La frase no pot contenir abreviatures
 
 localization-select =
     .label = Trieu una llengua/localització
+# PARTNERSHIPS PAGE
+partnerships-header = Col·laboracions
+partnerships-header-text = Es necessita molt per a fer realitat Common Voice! No ho fem sols. Voleu associar-vos amb nosaltres? Ens encantaria conèixer-vos.
+partnerships-get-in-touch = Poseu-vos en contacte
+partnerships-become-a-partner = Convertiu-vos en un soci de Common Voice
+partnerships-community-header = Comunitat, creatius i societat civil
+partnerships-community-description = La comunitat és el cor bategant de Common Voice: venen d'arreu del món i són activistes lingüístics, científics i artistes. Podeu obtenir més informació sobre com participar en la nostra pàgina <about>Quant a</about> i en el nostre <community>Llibre de la comunitat</community>. Si esteu interessat en una associació organitzativa més profunda, <emailFragment>poseu-vos en contacte.</emailFragment>
+partnerships-foundations-header = Fundacions
+partnerships-foundations-description = Treballem amb fundacions, societat civil i socis comunitaris per a fer d'Internet un lloc més saludable, amb un enfocament particular a l'Àfrica Oriental. Obteniu més informació sobre el nostre <programmaticWork>treball programàtic.</programmaticWork>
+partnerships-governments-header = Governs
+partnerships-governments-description = Estem encantats de donar suport a la participació del sector públic en tecnologia, innovació i drets lingüístics. Si teniu previst executar un projecte o campanya important, <emailFragment>poseu-vos en contacte.</emailFragment>
+partnerships-academia-header = Universitats, acadèmics i investigadors
+partnerships-academia-description = La innovació oberta és el centre del que fem. Per a col·laboracions en recerca, recollida de dades o entrevistes, <emailFragment>poseu-vos en contacte.</emailFragment>
+partnerships-small-business-header = Petites empreses, incloses les empreses emergents de tecnologia i IA
+partnerships-small-business-description = Sempre busquem escoltar els consumidors de dades sobre les seves necessitats i el seu context: des de col·laborar a la plataforma de recollida de dades fins a proporcionar informació sobre la salut de les dades, volem <emailFragment>escoltar-vos.</emailFragment>
+partnerships-corporates-header = Grans empreses i empreses de plataformes
+partnerships-corporates-description = Si voleu parlar més sobre el conjunt de dades, voleu invertir conjuntament en les ampliacions planificades de la plataforma o busqueu oportunitats de col·laboració, <emailFragment>envieu-nos unes línies.</emailFragment>
+partnerships-our-partners = Els nostres socis
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Gràcies per donar els talls de veu!
+first-cta-subtitle-text = Voldríeu compatir informació sobre la vostra forma de parlar?
+why-donate = Per què ho demaneu?
+why-donate-explanation-1 = Aquesta informació és opcional; només l'heu d'afegir si us hi sentiu còmode. Quan publiquem el conjunt de dades, pseudoanonimitzem tota la informació personal i ens assegurem que la informació com el vostre nom i adreça electrònica no estigui connectada amb la informació demogràfica com l'edat o el sexe.
+why-donate-explanation-2 = Perquè la tecnologia funcioni bé per a tothom, les dades que ajuden els desenvolupadors a crear tecnologia han de reflectir una àmplia diversitat de persones. Per exemple, si no incloem parlants amb un accent concret, aleshores la tecnologia no funcionarà bé per a les persones amb aquest accent. <learnMore>Més informació sobre per què són importants les metadades.</learnMore>
+add-information-button = Afegeix informació
+continue-speaking-button = No gràcies, segueix a Parla
+create-profile-text = Voleu desar la vostra informació? <createProfile>Creeu un perfil</createProfile>
+thanks-for-voice-toast = Gràcies per la informació de la vostra veu
+thanks-for-voice-toast-error = S'ha produït un error en enviar la informació de la vostra veu
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Gràcies per donar la vostra veu!
+second-cta-subtitle-text = Amb un perfil, podeu fer el seguiment de la vostra activitat i connectar-vos a una comunitat de col·laboradors de dades de veu.
+already-have-an-account = Ja teniu compte? <login>Inicieu la sessió</login>
+create-profile-button = Crea un perfil
+# IMAGE TAGS
+img-alt-success-checkmark = marca de vistiplau
+# GUIDELINES PAGE
+guidelines-header = Directrius de col·laboració
+guidelines-header-subtitle = Enteneu com col·laborar i validar frases i talls de veu al conjunt de dades del Common Voice
+voice-collection = Recollida de veus
+sentence-collection = Recollida de frases
+varying-pronunciations = Pronunciacions variables
+misreadings = Lectures errònies
+offensive-content = Contingut ofensiu
+background-noise = Soroll de fons
+background-voices = Veus de fons
+volume = Volum
+reader-effects = Efectes de lectura
+just-unsure = Teniu dubtes?
+example = Exemple
+varying-pronunciations-explanation-1 = Volem accents diferents! Tingueu cura abans de rebutjar un tall perquè penseu que el lector ha pronunciat malament una paraula, no ha neutralitzat alguna vocal o ha ignorat una erra final. El català té una àmplia varietat de pronúncies, i potser no les heu sentit mai. No es pronuncia igual en català central, balear, valencià o septentrional. Feu confiança a aquells que parlen d’una manera diferent de la vostra.
+varying-pronunciations-explanation-2 = D'altra banda, si creieu que el lector no s'ha trobat mai amb la paraula i fa una suposició incorrecta de la pronúncia, rebutgeu el tall. Si no n'esteu segur, utilitzeu el botó Omet.
+offensive-content-explanation = Les frases es revisen mitjançant un procés de moderació de la comunitat, però aquest procés no és perfecte. Si veieu o sentiu una frase que us ofèn o molesta, per exemple perquè infringeix les nostres <participationGuidelines>directrius de participació de la comunitat</participationGuidelines>, feu servir el botó de marca de la interfície d'usuari. També podeu contactar amb nosaltres a <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = És important llegir correctament totes les paraules de la pàgina. En escoltar, comproveu molt bé que el que s'ha enregistrat és exactament el que s'ha escrit; rebutgeu el tall si s'hi han afegit, contret o omès paraules.
+misreadings-explanation-2 = Alguns errors molt freqüents són:
+misreadings-explanation-5 = Fer contraccions o elisions que no es troben en el text, o viceversa. Per exemple, fer «el oncle» en comptes de «l'oncle», o fer «'nant» en comptes d'«anant».
+misreadings-explanation-6 = Ometre el final de l'última paraula, en tallar l'enregistrament massa ràpid.
+misreadings-explanation-7 = Fer múltiples intents per a llegir una paraula.
+misreadings-example-1 = Anem en tren a Tarragona.
+misreadings-example-2 = 'Nem en tren a Tarragona.
+misreadings-example-3 = Anem amb tren a Tarragona.
+misreadings-example-4 = Un elefant va matar una aranya.
+misreadings-tip-1 = [Hauria de ser «Anem»]
+misreadings-tip-2 = [El text original indica «en»]
+misreadings-tip-3 = [Contingut no coincident]
+background-noise-explanation = Heu de poder sentir cada paraula de l'enregistrament. Volem que els algorismes d'aprenentatge automàtic siguin capaços de gestionar una varietat de sorolls de fons, i fins i tot es poden acceptar sorolls relativament forts o música de fons tranquil·la sempre que no us impedeixin escoltar tot el text. Si l'enregistrament fa espetecs, o es talla, de manera que no podeu escoltar la totalitat del text, significa que hauríeu de rebutjar-lo.
+background-noise-example-1 = Els grans dinosaures del Triàsic.
+background-noise-example-2 = [Esternut] Els grans dinosaures del [tos] Triàsic.
+background-noise-example-3 = Els grans dinosaures del [tos] Triàsic
+background-noise-example-4 = [espetec] grans dinosaures de [espetec] -riàsic.
+background-noise-tip-1 = [interromput pel soroll de fons]
+background-noise-tip-2 = [No se sent part del text]
+background-voices-explanation = Una mica de soroll de fons està bé, però, si podeu sentir una altra persona dient altres paraules, hauríeu de rebutjar el tall. Normalment, això passa si s'ha deixat el televisor encès o si hi ha una conversa a prop.
+background-voices-example-1 = Els grans dinosaures del Triàsic. [llegit per una veu]
+background-voices-tip-1 = Que vens? [dit per algú altre]
+volume-explanation = Habitualment hi ha variacions en el volum entre lectors. Rebutgeu un tall només si el volum és tan alt que l'enregistrament s'entretalla, o (més habitual) si és tan baix que no podeu sentir que s'hi diu sense la referència del text escrit.
+reader-effects-explanation = La majoria dels enregistraments són de gent que parla amb naturalitat. Podeu acceptar la gravació ocasional no estàndard on es cridi, xiuxiuegi o, òbviament, es faci amb veu dramatitzada. Rebutgeu els enregistraments cantats, on s'usi una veu sintetitzada per ordinador o els que no tinguin una entonació correcta de la frase, especialment les interrogatives.
+just-unsure-explanation = Si us trobeu amb alguna cosa que aquestes directrius no cobreixen, voteu segons el vostre criteri. Si realment no ho podeu decidir, feu servir el botó Omet i passeu a l'enregistrament següent.
+still-have-questions = Encara teniu preguntes?
+contact-common-voice = Contacteu amb l'equip de Common Voice
+public-domain = Domini públic
+citing-sentences = Citació de frases
+adding-sentences = Addició de frases
+reviewing-sentences = Revisió de frases
+public-domain-explanation-1 = És molt important que totes les frases de text siguin <publicDomain>domini públic</publicDomain> (<cc0>cc0</cc0>), ja que el conjunt de dades de Common Voice es publica sota una llicència cc0. Pengeu una frase només si n'esteu segur i incloeu sempre la citació corresponent.
+public-domain-explanation-2 = Les millors frases per a construir un motor de reconeixement de veu útil són les de llenguatge col·loquial i modern. Algunes idees per a ajudar-vos a generar frases són;
+public-domain-explanation-3 = Creeu frases modernes i col·loquials per vosaltres mateixos o amb els vostres amics o comunitat lingüística, per exemple mitjançant una «marató d'escriptura»
+public-domain-explanation-4 = Poseu-vos en contacte amb autors, dramaturgs o guionistes i pregunteu-los si estarien disposats a dedicar una petita part de les seves obres al domini públic
+public-domain-explanation-5 = Busqueu text on els drets d'autor ja no s'apliquen, per exemple, els llibres d'autors morts fa més de 80 anys
+public-domain-explanation-6 = Poseu-vos en contacte amb governs, organitzacions sense ànim de lucre o mitjans de comunicació a veure si algun dels seus continguts web, informes o altres continguts es pot dedicar al domini públic.
+citing-sentences-explanation-1 = És important incloure cites perquè puguem comprovar que les frases són de domini públic i que no s'aplica cap restricció de drets d'autor.
+citing-sentences-subheader-websites = Llocs web
+citing-sentences-subheader-websites-explanation = Podeu incloure el lloc web, per exemple, «Common Voice - https://commonvoice.mozilla.org/»
+citing-sentences-subheader-academic-reference = Referència acadèmica
+citing-sentences-subheader-academic-reference-explanation = Podeu utilitzar un estil de referència acadèmic. P. ex., l'estil de Harvard «Mozilla (2021) Common Voice. Disponible a https://commonvoice.mozilla.org/ (Consulta: 15 de setembre de 2021)»
+citing-sentences-subheader-offline-sources = Fonts fora de línia
+citing-sentences-subheader-offline-sources-explanation = Per al text de domini públic que no està disponible en línia, podeu utilitzar un estil de referència acadèmic. P. ex., l'estil de Harvard «Jess (2021) Els meus poemes en domini públic»
+citation =
+    .label = Citació
+self-citation = Autocitació
+self-citation-explanation = Així és com us citeu a vós mateix si sou l'autor del contingut.
+adding-sentences-subheader-length = Longitud
+adding-sentences-subheader-length-explanation = La frase ha de tenir menys de 15 paraules.
+adding-sentences-subheader-spelling-punctuation = Ortografia i puntuació
+adding-sentences-subheader-spelling-punctuation-explanation = La frase és escrita correctament, sense faltes d'ortografia.
+adding-sentences-subheader-speakable = Pronunciable
+adding-sentences-subheader-speakable-explanation = Les millors frases són naturals i conversacionals: haurien de ser fàcils de llegir. Tot i que la diversitat fonètica i les diferents paraules a les frases són importants, també intentem que l'enregistrament de frases sigui el més atractiu i divertit possible per a la comunitat de voluntaris.
+adding-sentences-subheader-numbers = Nombres
+adding-sentences-subheader-numbers-explanation = Idealment, no hi hauria d'haver cap dígit en el text, perquè poden causar problemes quan es llegeixen en veu alta. La manera com es llegeix un nombre depèn del context i pot introduir confusió en el conjunt de dades. Per exemple, el nombre «2409» es podria llegir correctament com «vint-i-quatre zero nou» i com «dos mil quatre-cents nou», segons el context.
+adding-sentences-subheader-abbreviations = Abreviatures i acrònims
+adding-sentences-subheader-abbreviations-explanation = S'han d'evitar les abreviatures i els acrònims com «EUA» o «IEC» en el text original perquè es poden llegir d'una manera que no coincideix amb la grafia. A més, pot haver-hi diverses lectures precises per a una sola abreviatura.
+adding-sentences-subheader-punctuation = Puntuació
+adding-sentences-subheader-punctuation-explanation = Els símbols especials i els signes de puntuació només s'han d'incloure quan sigui absolutament necessari. Per exemple, en català s'usen el punt volat en la ela geminada i l'apòstrof davant de paraules començades en vocal, i s'haurien d'incloure en el text, però és poc probable que mai necessiteu un símbol especial com ara @ o #.
+adding-sentences-subheader-special-characters = Caràcters especials i lletres foranes
+adding-sentences-subheader-special-characters-explanation-1 = Lletres estrangeres. Les lletres han de ser vàlides en la llengua que es parla. Per exemple, «ж» és una lletra de l'alfabet ciríl·lic, però no s'utilitza en català i, per tant, no hauria d'aparèixer mai en cap text en català.
+adding-sentences-subheader-special-characters-explanation-2 = Les llengües poden tenir les regles pròpies de validació amb requisits addicionals quan es localitzen. Si no hi ha cap fitxer de validació específic per a un idioma, es mostraran les regles en anglès per als col·laboradors.
+adding-sentences-subheader-offensive-content = Contingut ofensiu
+adding-sentences-subheader-offensive-content-explanation = Si la frase és ofensiva o molesta, per exemple, a causa del contingut explícit o d'una altra violació de les nostres <communityGuidelines>directrius de participació de la comunitat</communityGuidelines>, hauríeu de rebutjar-la. També podeu posar-vos en contacte amb nosaltres a <emailFragment>commonvoice@mozilla.com</emailFragment> per escalar el problema.
+reviewing-sentences-explanation-1 = Si la frase compleix els criteris anteriors, feu clic en el botó «Sí».
+reviewing-sentences-explanation-2 = Si la frase no compleix els criteris anteriors, feu clic en el botó «No».
+reviewing-sentences-explanation-3 = Si no esteu segur de la frase, també podeu saltar-la i passar a la següent.
+reviewing-sentences-explanation-4 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
+# WRITE PAGE
+write-instruction-second-part = una frase de domini públic
+write-page-subtitle = Les frases aportades aquí s'afegiran a un conjunt de dades disponible públicament amb llicència cc-0.
+sentence =
+    .label = Frase
+sentence-input-value = Escriviu aquí la vostra frase de domini públic
+citation-input-value = Font de la frase
+citation =
+    .label = Citació
+what-can-i-add = Quins tipus de frases puc afegir?
+new-sentence-rule-1 = <noCopyright>Sense drets d'autor</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Menys de 15 paraules
+new-sentence-rule-3 = La gramàtica és correcta
+new-sentence-rule-4 = L'ortografia i la puntuació són correctes
+new-sentence-rule-5 = Sense xifres ni caràcters especials
+new-sentence-rule-6 = Sense lletres estrangeres
+new-sentence-rule-7 = Amb la citació corresponent
+new-sentence-rule-8 = Idealment, natural i conversacional (la frase ha de ser fàcil de llegir)
+contact-us = Contacteu-nos
+add-sentence-error = S'ha produït un error en afegir la frase
+required-field = Empleneu aquest camp.
+# REVIEW PAGE
+sc-review-instruction-first-part = Comproveu:
+sc-review-instruction-second-part = és una frase lingüísticament correcta?
+sc-review-empty-state = Actualment no hi cap frase per revisar en aquesta llengua.
+report-sc-different-language-detail = Està escrita en una llengua diferent de la que reviso.
+review-error = S'ha produït un error en revisar aquesta frase
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Estem fent alguns canvis importants
+sc-redirect-page-subtitle-1 = El Sentence Collector es trasllada a la plataforma bàsica de Common Voice. Ara podeu <writeURL>escriure</writeURL> una frase o <reviewURL>revisar</reviewURL> enviaments d'una sola frase a Common Voice.
+sc-redirect-page-subtitle-2 = Feu-nos preguntes a <matrixLink>Matrix</matrixLink>, <discourseLink>Discurs</discourseLink> o per <emailLink>correu electrònic</emailLink>.

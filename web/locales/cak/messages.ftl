@@ -36,10 +36,12 @@ ba = Bashkirs
 bas = Basaa
 be = Bielorruso
 bg = Bulgaro
+bm = Bambara
 bn = Bengali
 br = Breton
 bs = aj Bosnia
 bxr = Buriato
+byv = Medumba
 ca = Catalan
 cak = Kaqchikel
 ckb = Central Kurdish
@@ -49,9 +51,11 @@ cs = Checo
 cv = Chuvasio
 cy = Gales
 da = Danes
+dag = Dagbani
 de = Aleman
 dsb = Bajo Sorabo
 dv = Maldivo
+dyu = Dioula
 el = Griego
 en = Q'anchi'
 eo = Esperanto
@@ -70,6 +74,7 @@ gn = Guarani
 ha = Hausa
 he = Hebreo
 hi = Hindu
+hil = Hiligaynon
 hr = Croata
 hsb = Alto Sorabo
 ht = aj Haiti
@@ -78,11 +83,13 @@ hy-AM = Armenyan
 hyw = Armenio (occidental )
 ia = Interlingua
 id = Indonesio
+ie = Interlingue
 ig = Igbo
 is = Islandes
 it = Italiano
 izh = Izhoriano
 ja = Japones
+jbo = Lojban
 ka = Georgiano
 kaa = Karakalpak
 kab = Cabilio
@@ -91,6 +98,8 @@ ki = Kikuyu
 kk = Kazajo
 km = aj Camboya
 kmr = Kurmanji Kurdish
+kn = Kannada
+knn = Konkani (Devanagari)
 ko = Coreano
 kpv = Komi-Zyrian
 kw = Cornico
@@ -98,6 +107,8 @@ ky = Kirguis
 lb = aj Loxemburgo
 lg = Uganda
 lij = Ligur
+ln = Lingala
+lo = Lao
 lt = Lituano
 lv = Letón
 mai = Maithili
@@ -107,6 +118,8 @@ mhr = Mari oriental
 mk = Macedonio
 ml = Malabar
 mn = aj Mongolia
+mni = Meitei Lon
+mos = Mossi
 mr = Marati
 mrj = Mari occidental
 ms = aj Malasia
@@ -123,21 +136,27 @@ pa-IN = Punjabi
 pl = Polaco
 ps = Pashto
 pt = Portugues
+quc = K'iche'
+quy = Quechua Chanka
 rm-sursilv = Romanche Sursilvan
 rm-vallader = Romansh Vallader
 ro = Rumano
 ru = Ruso
 rw = Kinyarwanda
 sah = Yakuto
+sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Sicilian
 shi = Shilha
 si = Sinhala
 sk = Eslovaco
+skr = Saraiki
 sl = Esloveno
+snk = Soninke
 so = aj Somalia
 sq = Albanes
 sr = Serbio
+ss = Siswati
 sv-SE = Sueco
 sw = Swahili
 syr = Sirio
@@ -145,9 +164,15 @@ ta = Tamil
 te = Telugu
 tg = Tajik
 th = Tailandes
+ti = Tigriya
+tig = Tigre
+tk = Turkmen
 tl = Tagalo
+tok = Toki Pona
 tr = Turco
+ts = Xitsonga
 tt = Tartaro
+tw = Twi
 uby = Ubije
 udm = Udmurto
 ug = Uighur
@@ -157,9 +182,14 @@ uz = Uzbeko
 vec = Venetian
 vi = aj Byetnam
 vot = Votic
+wo = Wolof
+yi = Ju'iyo
+yo = Yoruwa
+yue = Kantones
 zh-CN = Chino (China)
 zh-HK = Chino (Hong Kong)
 zh-TW = Chino (Taiwan)
+zu = Zulu
 
 # [/]
 
@@ -171,6 +201,7 @@ speak-now = Kach'o wakami
 datasets = Kiyakb'al tzij
 languages = Taq ch'ab'äl
 about = Tawetamaj qawäch
+partner = Katok qachib'il
 profile = Ruwäch b'i'aj
 help = Tob'äl
 contact = Rub'i' achib'il
@@ -188,6 +219,7 @@ logout = Titz'apïx Molojri'ïl
 ## Home Page
 
 home-title = Ri Common Voice nimasamaj jun rusamaj Mozilla richin nito'on yerutijoj ri taq ch'ich'b'äl pa rub'anikil yech'o ri winaqi'.
+default-tagline = Ri Mozilla Common Voice nimasamaj jun rusamaj richin nito'on yerutijoj ri taq ch'ich'b'äl pa rub'anikil yech'o ri winaqi'.
 home-cta = Kach'o, ¡kato'on wawe'!
 wall-of-text-start = Choj ri ch'ab'äl, ruch'ab'äl winäq, Ruma ri' yalan yojkikot richin niqanük' runa'ob'al kich'ab'äl qach'ich'b'al. Richin ninuk' jun runuk'ulem ch'ab'äl, najowäx nïm kitz'etb'al ch'ab'äl.
 wall-of-text-more-mobile = Ronojel ri taq tzij nikokisaj ri taq nimamolojri'ïl, man wachel ta chi kiwa ri winaqi'. Röj niqana'ojij chi nuq'üt ri tz'ukuj. Ruma ri' xqelesaj ri Nimasamaj Common Voice, jun nimasamaj nito'on chi ri etamanem ch'ab'äl wachel chi qawa qonojel.
@@ -280,6 +312,8 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = Tiyak/Tipab'äx
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Tiyak chik ri yakoj
+shortcut-discard-ongoing-recording = ESC
+shortcut-submit = Titzolin
 request-language-text = ¿La k'a man nawïl ta ri ach'ab'äl pa Common Voice?
 request-language-button = Tik'utüx jun Ch'ab'äl
 
@@ -396,7 +430,6 @@ faq-why-different-speakers-a =
     K'ïy ta cholxe' rutzij ch'ab'äl enuk'un rik'in k'ïy taq rutzij winaqilal ri nujech'uj na'oj chi rij ri <articleLink>nik'aj b'eyom achi</articleLink>. Ri nïm taq k'oxom chuqa' taq achch'ab'äl man kan ta k'o ketal pa ri cholxe' rutzij richin nitojtob'ëx ruma ri' k'o re toq choj yejech'üx. K'ïy taq samajib'äl k'ayew nub'än chi ke richin nino' pa kiwi' ri kich'ab'äl ixoqi'.
     ¡Ruma ri' toq jalajöj ch'ab'äl niqajo' pa ri rucholxe' qatzij!
 faq-why-my-lang-q = ¿Aruma toq k'a man tz'aqatisan ta ri nuch'ab'äl?
-faq-why-my-lang-new-a = Mozilla man nucha' ta chuqa' man nuya' ta rejqalem jun ch'ab'äl. Ri Common voice jun samaj nisamajïx ruma ri tinamital, xa xe chi <multilangLink>k'ïy ramaj nrajo' richin nitz'aqatisäx jun k'ak'a' ch'ab'äl</multilangLink> chuqa' nitikirisäx rumolik sipan taq ch'ab'äl. Nab'ey k'o chi nitz'alq'omïx ri ajk'amaya'l ruxaq Common Voice richin chi ri aj tinamït yetikïr ye'ok pa ri ruto'ik ruch'ab'äl. Nik'atzin chi qe jun nïm moloj q'aptzij akuchi' majun ruch'ojin b'anel, ri tikirel nisik'ïx köw. Toq ye'ojqäx ri', “nitikirisäx” jun k'ak'a' ch'ab'äl pa Common Voice richin nichap kiyakik chuqa' kijikib'axik ri taq kisipanik ch'aqa' chik. We nawajo' yato'on richin nelesäx jun k'ak'a' ch'ab'äl, katok pa <sentenceCollectorLink>rusamajib'al kimolik q'aptzij</sentenceCollectorLink> richin nitikirisäx.
 faq-what-quality-q = ¿Achike rub'anikil k'oxom najowäch richin chi ri ruperaj ch'ab'äl nokisäx pa ri rucholxe'el tzij?
 faq-what-quality-a = Niqajo' chi ri rucholxe'el tzij Common Voice nuk'üt ri ütz chi k'oxom, ri kan xtrak'axaj jun ruk'wab'al ch'ab'äl pa tz'ib'anïk. Achi'el jun aj tinamït chi jalajöj taq ch'ab'anela' chuqa' najowäx jun cholxe'el tzij rik'in jalajöj ruwäch chi k'oxom richin nuk'üt rub'eyal nub'än ri k'wab'äl chuwäch ri nik'ulwachitäj pa ruwach'ulew, achi'el nich'o pa ruka'nch'ach'el k'ojlib'äl, achi'el toq k'oy kich'ab'äl ch'ich'. We na'owinäq ri peraj ch'ab'äl, k'o ta chi okel chi re ri rucholxe'el tzij.
 faq-why-10k-hours-q = ¿Aruma toq 10,000 ramaj jikïl pa ri ch'ab'äl richin yek'ol taq k'oxom?
@@ -448,9 +481,6 @@ about-dataset-new = Rucholxetzij Common Voice
 about-dataset-new-text = Ri Rucholxetzij Common Voice ruk'wan k'ïy taq rutz'etb'al ch'ab'äl, ri yekito' ri b'anonela' richin yekitz'ük kisamajib'al retamaxik ch'ab'äl.
 about-clip-graveyard = Kimuqb'al Yakoj
 about-clip-graveyard-text = Ri Kimuqb'al Yakoj, ja ri kiyakoj taq ch'ab'äl man xetikïr ta xe'ok pa rucholxetzij Common Voice. Achi'el ri cholxetzij, ri kimuqb'al yakoj chuqa' k'o richin niqasäx.
-about-partners = Achib'ilal
-about-become-a-partner = Yatok jun achib'ilal
-about-partnership = Common Voice jun runimasamaj to'ojri'ïl chuqa' e pa'äl pa qawi' ri qawinaq chuqa' ri to'onela' richin yojtikïr niqatz'ük jun nïm rucholxe' rutzij ch'ab'äl, ri majub'ey tz'eton. Niqajo' niqak'awomaj ruma kito'ik re winaqi' chuqa' taq moloj re':
 about-get-involved = Kato'on
 about-nav-why-common-voice = ¿Aruma ?
 about-nav-how-it-works = ¿Achi'el?
@@ -484,12 +514,6 @@ about-nav-get-involved = Kato'on
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Ch'ich'al na'ojil
-mycroft-description =
-    Mycroft jun nïm rachto'onel jaqäl b'itz'ib'.
-    Mycroft nasamajij xab'akuchi' - pa kematz'ib', pa ch'ich' o pa jun Raspberry Pi.
-mycroft-secondary-description = Re jaqäl b'itz'ib' kema' re' tikirel nutziläx, ninuk' chuqa' nixol. Tikirel nokisäx pa jun runimasamaj richin etamab'alil achi'el chuqa' pa jun ruchokoy rukema' jun nïm ajnimamoloj.
 
 ## Glossary
 
@@ -619,6 +643,9 @@ request-language-success-content = Xtiqatzijoj chawe ch'aqa' chik etamab'äl pa 
 select-language = Ticha' jun Ch'ab'äl...
 other-language = Ch'aqa' chik Ch'ab'äl
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = Nik'ïy
@@ -634,7 +661,6 @@ language-search-input =
 language-speakers = Ch'ab'anela'
 localized = Xilitäj
 sentences = Taq b'ab'
-total-hours = Ronojel Ramaj
 
 ## Contribution
 
@@ -691,6 +717,9 @@ keep-track-profile = Tawojqaj ri nab'än rik'in jun ruwäch ab'i'
 login-to-get-started = Tatikirisaj molojriïl o tatz'ib'aj ab'i' richin natikirisaj
 target-segment-add-voice = Tatz'aqatisaj Ach'ab'äl
 target-segment-learn-more = Tetamäx ch'aqa' chik
+
+## Contribution Nav Items
+
 
 ## Reporting
 

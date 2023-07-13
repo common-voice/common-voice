@@ -18,6 +18,8 @@ banner-error-slow-1 = Na ndjeni, Common Voice po xhiron ngadalë. Faleminderit p
 banner-error-slow-2 = Po marrim shumë trafik dhe aktualisht po hetojmë problemet.
 banner-error-slow-link = Faqe Gjendjeje
 error-something-went-wrong = Na ndjeni, diç shkoi ters
+error-clip-upload = Ngarkimi i kësaj copëze vazhdon të dështojë, të vazhdohet të provohet?
+error-clip-upload-server = Ngarkimi i kësaj copëze vazhdon të dështojë te shërbyesi. Ringarkoni faqen, ose riprovoni më vonë.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -42,9 +44,11 @@ be = Bjelloruse
 bg = Bullgarisht
 bm = Bambareze
 bn = Bengalisht
+bo = Tibetane
 br = Bretonisht
 bs = Boshnjake
 bxr = Buriat
+byv = Medumba
 ca = Katalane
 cak = Kakshikel
 ckb = Kurde Qendrore
@@ -54,9 +58,11 @@ cs = Çekisht
 cv = Çuvashe
 cy = Uells
 da = Danisht
+dag = Dagbani
 de = Gjermanisht
 dsb = Sorbiane, E poshtme
 dv = Dibehisht
+dyu = Dioula
 el = Greqisht
 en = Anglisht
 eo = Esperanto
@@ -72,9 +78,11 @@ fy-NL = Frisiane
 ga-IE = Irlandisht
 gl = Galiciane
 gn = Guaraneze
+gom = Goan Konkani
 ha = Hausa
 he = Hebraisht
 hi = Indiane
+hil = Hiligajnoneze
 hr = Kroate
 hsb = Sorbiane, E sipërme
 ht = Haitiane
@@ -97,6 +105,7 @@ ki = Kikuju
 kk = Kazake
 km = Khmere
 kmr = Kurde Kurmanxhi
+knn = Konkani (Devanagari)
 ko = Koreane
 kpv = Komi-Zyrian
 kw = Kornike
@@ -104,6 +113,8 @@ ky = Kirgize
 lb = Luksemburgase
 lg = Luganda
 lij = Ligure
+ln = Lingala
+lo = Laosiane
 lt = Lituanisht
 lv = Letonisht
 mai = Maithili
@@ -112,6 +123,7 @@ mg = Malgashe
 mk = Maqedonisht
 ml = Malajalame
 mn = Mongolisht
+mos = Mosi
 mr = Marati
 mrj = Hill Mari
 ms = Malajziane
@@ -120,9 +132,14 @@ my = Birmanisht
 myv = Erzan
 nan-tw = Tajvanisht (Minan)
 nb-NO = Norvegjisht Bokmål
+nd = IsiNdebele (Veri)
 ne-NP = Nepaleze
+nia = Nias
 nl = Holandisht
 nn-NO = Norvegjisht Nynorsk
+nr = IsiNdebele (Jug)
+nso = Soto Veriore
+nyn = Runjankole
 oc = Oçitane
 or = Odia
 pa-IN = Panxhabe
@@ -137,12 +154,18 @@ rw = Kinjaruanda
 sah = Sakha
 sc = Sardinisht
 scn = Siciliane
+sdh = Kurdishte Jugore
+shi = Shila
 si = Sinhala
 sk = Sllovakisht
+skr = Saraiki
 sl = Sllovenisht
+snk = Soninke
 so = Somaleze
 sq = Shqip
 sr = Serbisht
+ss = Sisuate
+st = Soto Jugore
 sv-SE = Suedisht
 sw = Suahili
 syr = Sirisht
@@ -154,6 +177,8 @@ ti = Tigrinjeze
 tig = Tigreze
 tk = Turkmene
 tl = Tagalogase
+tn = Secuana
+tok = Toki Pona
 tr = Turqisht
 tt = Tatare
 ty = Tahitisht
@@ -166,12 +191,15 @@ uz = Uzbeke
 vec = Venetishte
 vi = Vietnamisht
 vot = Votik
+xh = Xhosa
 yi = Jidish
 yo = Joruba
 yue = Kantoneze
 zh-CN = Kineze (Kinë)
 zh-HK = Kineze (Hong Kong)
 zh-TW = Kineze (Tajvan)
+zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -369,7 +397,9 @@ why-demographic = Pse ka rëndësi kjo?
 why-demographic-explanation-2 = Të dhëna të anonimizuara përdoruesish, të tilla si mosha, gjinia dhe theksi ndihmojnë të përmirësohen të dhënat audio e përdorura për të stërvitur mekanizmat e kuptimit të të folurës në pikëpamje të saktësisë. Emri juaj i përdoruesit dhe email nuk do të përshoqërohen kurrë me të dhënat e parashtruara prej jush, dhe mund të zgjidhni bërjen publik të emrit tuaj të përdoruesit ose anonimitetin.
 accept-privacy = Pajtohem me trajtimin që u bëni këtyre të dhënave ashtu siç e shpjegoni <privacyLink>Rregulla Privatësie</privacyLink> të Mozilla-s
 accept-privacy-title = Rregulla Privatësie
+accept-privacy-and-terms = Pajtohem me <termsLink>Kushtet</termsLink> dhe <privacyLink>Shënimin mbi Privatësinë</privacyLink> të Common Voice-it
 login-identity = Identitet Hyrjesh
+login = Hyni
 login-signup = Hyni / Regjistrohuni
 edit = Përpunoni
 email-subscriptions = Pajtime Me Email
@@ -469,6 +499,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Ç’duhet Common Voice?
+about-header-description-v2 =
+    <p>Common Voice është një grup të dhënash zëri që mund të kihet publikisht, i ngritur nga zërat e kontribuesve vullnetarë nga anembanë bota. Njerëzit që duan të krijojnë aplikacione zër mund ta përdorin grupin e të dhënave për të stërvitur modele të nxëni nga makinat.</p>
+    <p>Deri sot, shumica e grupeve të të dhënave mbi zëra janë pronë shoqërish, çka e bën të ngecë novacionin. Grupet e të dhënave të zërit përfaqësojnë dobët: folës jo të anglishtes, persona me ngjyrë, persona me aftësi të kufizuara, gra dhe persona LGBTQIA+. Kjo do të thotë se teknologji të bazuara në zërin s’funksionojnë fare për mjaft gjuhë dhe atje ku funksionojnë, mund të mos kenë të njëjtin sukses për gjithkënd. Duam ta ndryshojmë këtë, duke mobilizuar njerëz kudo të japin zërin e tyre.</p>
 how-does-it-work-title-v2 = Si funksionon Common Voice work?
 how-does-it-work-text = Po krijojmë, me ndihmën e publikut, një grup të dhënash zanore me burim të hapur. Dhuroni zërin tuaj, vlerësoni përpikërinë e copëzave të incizuara nga persona të tjerë, bëjeni grupin e të dhënave më të mirë për këdo.
 
@@ -479,6 +512,7 @@ about-localization-title = Përkthim Sajti
 about-localization-subtitle = Teksti i sajtit është përkthyer në atë gjuhë.
 about-sentence-collection-title = \Grumbullim Frazash
 about-sentence-collection-subtitle = Grumbullohen fraza që të lexohen nga njerëz.
+about-new-lang-title = Hedhje Në Qarkullim Gjuhësh të Reja
 about-new-lang-subtitle = E japin sajtin Common Voice në këtë gjuhë.
 about-voice-contrib-title = Kontributi Zërash
 about-voice-contrib-subtitle = Njerëzit vijnë dhe kontribuojnë me zërat e tyre.
@@ -511,6 +545,8 @@ about-get-involved-text-2 =
     ose merrni pjesë te biseda të bashkësisë, te <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Si të mbaj lidhjet?
 about-stay-in-touch-button = Regjistrohuni
+about-stay-in-touch-text-1 = <emailFragment>Regjistrohuni</emailFragment> te lista jonë e postimeve, që të mësoni se si të merrni pjesë në fushata, veprimtari dhe bashkëhartim veçorish për Common Voice.
+about-stay-in-touch-text-2 = Mund të njiheni me të tjerë në bashkësitë gjuhësore të Mozilla-s, duke marrë pjesë te <discourseLink>Discourse</discourseLink> për biseda lidhur me subjekte të dhëna, ose në <matrixLink>Matrix</matrixLink> për këshilla të shpejta.
 about-nav-why-common-voice = Pse?
 about-nav-how-it-works = Si?
 about-nav-partners = Partnerë
@@ -522,10 +558,17 @@ about-nav-playbook = Mësoni si të merrni pjesë
 ## What is a language
 
 about-playbook-what-is-language = Ç’është një gjuhë në Common Voice?
+about-playbook-what-is-language-content-1 = Ka plot rrugë për të menduar rreth gjuhës. Lidhur me modele kuptimi të foluri, Common Voice sugjeron përqendrimin në “mutual intelligibility”, ose “a munden folësit e kësaj gjuhe të kuptojnë kryesisht njëri-tjetrin, nëse provojnë ta bëjnë këtë”?
+about-playbook-what-is-language-content-2 = Duam që modelet e të folurit të jenë më të mirë në të kuptuarit e një game të larmishme folësish. Që të ndodhë kjo, një grup të dhënash zëri duhet të përfaqësojë mjaft persona të ndryshëm.
+about-playbook-what-is-language-content-3 = Disa gjuhë kanë variacion shumë të madh në gramatikë, fjalor dhe shqiptim. Për këtë arsye, në 2022 po <ctaLink>sjellim “Variante”</ctaLink>. Kjo u jep bashkësive një mënyrë për të shquar gjuhët e tyre brenda një grupi më të madh të dhënash.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Si ta shtoj një gjuhë?
+about-playbook-how-add-language-content-1 =
+    Së pari, kontrolloni nëse gjuha juaj <languageLink>ekziston tashmë</languageLink>.
+    Nëse jo, mundeni <languageRequestLink>të kërkoni shtimin e saj</languageRequestLink>.
+    Këtu ka dy faza. Përkthimi i sajtit dhe grumbullimi i togfjalëshave
 about-playbook-how-add-language-translating-heading = Përkthimi i këtij sajti
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Shihni udhërrëfyesin tonë se si të përdoret Pontoon-i.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
@@ -535,34 +578,74 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>kërkojeni gjuhën e re nën GitHub</githubRepoLink>. <localizationFragment>Shihni më tepër mbi përkthim sajti</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Mbledhje togfjalëshash
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Shihni udhërrëfyesin tonë mbi përdorimin e Mbledhësit të Togfjalëshave</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Mund të <sentenceCollectorLinkAdd>shtoni sasi të vogla togfjalëshash</sentenceCollectorLinkAdd>,
+    ose mund të <bulkImportDocsLink>bëni importime në masë, duke përdorur Github-in</bulkImportDocsLink>.
+    Remember that sentences need to be <licenseLink>CC0 (or public domain)</licenseLink>, or you can write your own.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Shihni më tepër mbi grumbullim togfjalëshash</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Si funksionon puna e përkthimit të sajtit?
 about-playbook-how-localize-content-1 = Përkthimi i sajtit Common Voice zhvillohet në <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Krijoni një llogari</pontoonAccountLink>, nëse s’keni të tillë. Mandej, zgjidhni gjuhën tuaj <strong>(‘Team’)</strong> dhe mandej zgjidhni projektin, <pontoonCvLink>Common Voice</pontoonCvLink>. Do të ketë kartela që duhen përkthyer. Klikoni mbi një të tillë, mandej ajo shfaq fjalët në anglisht dhe një kuadrat për t’i përkthyer.
+about-playbook-how-localize-content-3 = Përkthimi është nga anlishtja, por mund të shihni <strong>Sugjerime</strong> në gjuhë të tjera. Klikoni mbi ikonën <strong>Profil</strong>, mandej mbi lidhjen <strong>Rregullime</strong> dhe shtoni cilëndo gjuhë që flisni. Në cepin e poshtëm djathtas do të ketë një listë të përkthimeve, të quajtur <strong>Vendore</strong>. Përkthimet shfaqen në sajt një ditë më pas.
 about-playbook-how-localize-content-4 = Sajti është gati për t’u hedhur në qarkullim kur mbërrin plotësim 75%.
 about-playbook-how-localize-content-5 = Për ndihmë, shihni videon tonë shpjeguese
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Si të shtoj fraza?
+about-playbook-how-add-sentences-content-1 = <strong>Grumbulluesi i Togfjalëshave</strong> është një mjet për grumbullimin dhe vlerësimin e togfjalëshave nën përkatësi publike. Do t’ju <scAccountLink>duhet të krijoni një llogari</scAccountLink>. Mandej, shtoni gjuhën tuaj te <strong>Profili</strong> juaj.  Mund të <strong>Shtoni</strong> togfjalësha, ose të <strong>Shqyrtoni</strong> të tillë të shtuar më parë.
+about-playbook-how-add-sentences-content-2 = Togfjalëshat duhen shqyrtuar dhe pranuar nga dy vetë, që të përfshihen te Common Voice. Ju krijoni udhëzime për gjuhën tuaj <languageGuidelinesLink>këtu</languageGuidelinesLink>. Togfjalëshat duhet të jenë nën <licenseLink>përkatësinë publike</licenseLink> dhe më të shkurtër se 15 fjalë. Mund t’i kërkoni të zotit të tekstit ta kalojë nën <waiverLink>CC0 duke përdorur procesin tonë të heqjes dorë nga të drejta</waiverLink> dhe dërgojë te ne te commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Që të shfrytëzoni togfjalësha të shkurtër nga Wikipedia mund të përdorni <scraperLink>Përftuesin e togfjalëshave</scraperLink>.
+about-playbook-how-add-sentences-content-4 = Togfjalëshat që janë vlerësuar, eksportohen të mërkurave dhe janë gati për përdorim pas hedhjes pasuese në qarkullim.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Si të incizoj një copëz zanore me cilësi të lartë?
+about-playbook-how-record-content-1 = Flisni me zërin tuaj të zakonshëm! Mënyra se si flisni është ajo që mirëpritet këtu - e duam shqiptimin tuaj ashtu siç është dhe duam volumin, stilin dhe intonacionin tuaj të zakonshëm.
+about-playbook-how-record-content-2 = Shmangni zhurmë të tepërt në sfond - aq sa të jetë e lehtë të dëgjoheni.
+about-playbook-how-record-content-3 = Lexojeni togfjalëshin me kujdes - mos kapërceni, ndryshoni apo shtoni fjalë.
+about-playbook-how-record-content-4 = Sigurohuni se platforma është duke incizuar, përpara se të filloni të flisni dhe se resht vetëm pasi të keni mbaruar.
+about-playbook-how-record-content-5 = <accuracyLink>Shihni më tepër mbi kritere të përpikërisë.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Si mund ta fuqizojmë vërtet një gjuhë në Common Voice?
+about-playbook-how-grow-language-content-1 = Krijimi i mundësive për të kontribuar te Common Voice për një larmi njerëzish garanton që grupi i të dhënave t’u hyjë në punë sa më shumë njerëzve që të jetë e mundur. Kemi krijuar burime dhe gjedhe që mund t’i përdorni!
 about-playbook-how-grow-language-content-2 = Veprimtari
+about-playbook-how-grow-language-content-3 = Mund të zhvilloni veprimtari për t’i ndihmuar njerëzit të kontribuojnë. Është më e kollajtë se sa mendoni. Mund t’i bëni në internet, me një mjet për videokonferenca, ose si takim klasik, nëse s’ka problem. <eventTemplate>Kontrolloni gjedhet dhe burim tona për zhvillim veprimtarish</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Media shoqërore
+about-playbook-how-grow-language-content-5 = Mund të përdorni platforma mediash shoqërore për të përhapur fjalën. Ndani me të tjerët postime që shpjegojnë pse kjo punë ka rëndësi dhe lidhuni me persona të tjerë që flasin për çështje të tilla si të drejta gjuhësore, AI zërash, ose anësi në fushën e teknologjisë. Shihni më tepër këshilla mbi <campaignLink>zhvillimin e një fushate shoqërore, përfshi lëndë që mund ta ripërdorni</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partneritete dhe rrjete
+about-playbook-how-grow-language-content-7 = Gjeni të tjerë që e kanë për zemër këtë punë. Mund të jenë universitete, shkolla gjuhësh, grupe veprimtarësh apo bashkësi shkencash që merren me të dhëna. Drejtojuni dhe shpjegoni qartë se si mund t’ju ndihmojnë dhe pse. <outreachTemplates>Shihni gjedhet tona email për të shtrirë përfshirjen</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Bëhuni krijues!</strong> Bashkësia e gjuhës tuaj do të jetë unike dhe këto janë thjesht vetëm pak rrugë si t’ia fillohet.
 
 ## How to validate
 
+about-playbook-how-validate = Nga ta di nëse ta miratoj apo jo një copëz zanore?
+about-playbook-how-validate-content-1 = Nëse mundeni <strong>t’i dëgjoni</strong> dhe <strong>kuptoni</strong>, zakonisht më e mira është <strong>t’i miratoni</strong>.
+about-playbook-how-validate-content-2 = <strong>Mos hidhni tej copëza ku folësi ‘ka theks’ që është ndryshe nga i juaji</strong> - kjo është e rëndësishme që të kuptuarit e zërave të funksionojë për gjithkënd.
+about-playbook-how-validate-content-3 = Nëse mendoni se shqiptimi e bën <strong>të pamundur të kuptohet</strong>, ose ka <strong>shumë zhurmë në sfond</strong>, ose se ka <strong>persona të tjerë që flasin ndërkohë</strong>, atëherë duhet ta hidhni poshtë copëzën. <accuracyLink>Shihni më tepër hollësi mbi kriteret tona të përpikërisë</accuracyLink>.
+about-playbook-how-validate-content-4 = Nëse një copëz hidhet poshtë nga 2 persona, hidhet në qarkullim në një tjetër nëngrup të grupit të të dhënave.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Si mund ta kem dhe ta përdor grupin e të dhënave?
+about-playbook-how-access-dataset-content-1 = Mund të kaloni te <datasetsPage>faqja e grupeve të të dhënave</datasetsPage>, përzgjidhni versioni dhe gjuhën(t) që doni dhe shkarkojeni! Kartelat përshoqërohen nga <metadataLink>tejtëdhëna</metadataLink>, të tilla si hollësi demografike dhe të dhëna vlerësimi. Që të shkarkoni grupin e të dhënave, do t’ju duhet të jepni një adresë email.
+about-playbook-how-access-dataset-content-2 = Nëse po kërkoni mjete për të ndërtuar modele ASR, mund të lidheni me persona të tjerë në bashkësi, <discourseLink>në Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Si merren vendimet për projektin?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice është bërë i mundshëm nga një bashkësi e larmishme veprimtarësh, kërkuesish gjuhësorë, studiues të të dhënave dhe inxhinierë software-i nga anembanë bota. Projekti është organizuar nga Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Qeverisja jonë bazohet në shtyllat e:
+about-playbook-how-project-governance-content-3 = Privatësisë, sigurisë dhe transparencës.
+about-playbook-how-project-governance-content-4 = Pjesëmarrje dhe vendimmarrje në bashkësi.
+about-playbook-how-project-governance-content-5 = Vlerë dhe njohje.
+about-playbook-how-project-governance-content-6 = Përgjegjësi e dyanshme.
+about-playbook-how-project-governance-content-7 = <governanceLink>Lexoni më tepër se si drejtohemi</governanceLink>
 
 ## Glossary
 
@@ -619,6 +702,7 @@ review-delete-recordings = Fshiji incizimet e mia
 
 ## Datasets Page
 
+datasets-heading = Grupe të dhënash
 datasets-headline = Po krijojmë një grup të dhënash zanore me burim të hapur, shumëgjuhëshe, të cilin mund ta përdorë gjithkush për të stërvitur aplikacione që njohin të folurën.
 datasets-positioning =
     Besojmë se grupe të dhënash zanore të mëdha, të përdorshme publikisht do të nxisin risitë dhe konkurrencë të shëndetshme komerciale në fushën e teknologjisë së nxënies nga makinat me bazë të folurën.
@@ -627,6 +711,9 @@ datasets-positioning =
     
     Shiheni këtë faqe si  një referencë për grupe të tjera të dhënash zanore me burim të hapët dhe, teksa Common Voice vazhdon të fuqizohet,si një shtëpi për përditësime të hedhjeve tona në qarkullim.
 language = Gjuhë
+download-dataset-header = Shkarkoni Grupin e të Dhënave
+download-delta-explainer = Kemi bërë disa ndryshime. Segmentet Delta tani përmbajnë copëzat më të freskëta që nga hedhja e fundit në qarkullim. <deltaLink>Lexoni më tepër rreth kësaj pune</deltaLink>.
+download-dataset-tag = Përzgjidhni grupin e të dhënave për gjuhën e dëshiruar dhe zgjidhni versionin që doni të shkarkoni.
 # File size in gigabytes
 size = Madhësi
 validated-hr-total = Orë të Vlerësuara Gjithsej
@@ -641,6 +728,7 @@ confirm-size = Jeni gati të nisni një shkarkim prej <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Pranoni</b> se nuk do të rrekeni të përcaktoni identitetin e folësve në grupin e të dhënave nga Common Voice
+confirm-join-mailing-list = Dua të bëhem pjesë e listës së postimeve nga Common Voice
 download-language = Shkarkoni { $language }
 validated-hours = Orë Vleftësim
 recorded-hours = Orë Incizim
@@ -669,6 +757,9 @@ more = Më tepër
 close = Mbylle
 download = Shkarkoje
 dataset-version = Version
+sha256-checksum-copied = Checksum-i  SHA256 u Kopjua!
+sha256-checksum-copied-error = S’u arrit të kopjohej Checksum-i SHA256
+clipboard-not-supported = Nuk mbulohet e papastra
 
 ## Download Modal
 
@@ -701,10 +792,23 @@ other-language = Gjuhë Tjetër
 
 ## Request Language Pages
 
+request-language-heading = Kërkoni një gjuhë të re
+request-language-explanation-1 =
+    Shihni nëse gjuha juaj është e pranishme te
+    <languagesPageLink>faqja e Gjuhëve të Common Voice-it</languagesPageLink>.
+    Nëse jo, plotësoni këtë formular dhe do t’ju <strong>dërgojmë një email të dobishëm
+    ku shpjegohet se si ta bëni gati gjuhën tuaj</strong>.
+request-language-explanation-2 =
+    Gjithashtu do t’i <strong>bëjmë me dije përgjegjësit tonë
+    të bashkësisë se interesoheni</strong>, që të mund t’ju japin
+    çfarëdo mbështetje apo informacion shtesë që mund t’ju duhet.
 request-language-form-email =
     .label = Adresa juaj email
 request-language-form-info =
     .label = Hollësi mbi gjuhën
+request-language-form-info-explanation =
+    Shtoni sa më tepër hollësi që mundeni për gjuhën. Këtu
+    mund të përfshihen:
 request-language-form-info-explanation-list-1 = Emra të gjuhës suaj
 request-language-form-info-explanation-list-2 = <isoCodeLink>Kode ISO</isoCodeLink> nëse njihen
 request-language-form-info-explanation-list-3 = Lidhje te sajte që mund të na ndihmojnë të kuptojmë gjuhën
@@ -712,6 +816,20 @@ request-language-google-recaptcha-required = reCAPTCHA është e domosdoshme, n�
 request-language-google-recaptcha-error = Diç shkoi ters me reCAPTCHA-n. Ju lutemi, riprovoni.
 # Success page
 request-language-success-heading = Faleminderi! Dërguat një kërkesë për gjuhë të re
+request-language-success-list-1 =
+    Do të duhej të merrnit një email pas pak kohe, ku
+    shpjegohen hapat si ta shtoni gjuhën tuaj te Common Voice
+request-language-success-list-2 =
+    Përgjegjësi ynë i bashkësisë do të lidhet me ju për t’ju
+    ofruar asistencë ekstra dhe për t’ju bërë të ditur nëse
+    ka tashmë një bashkësi që punon për gjuhën tuaj
+request-language-success-list-3 =
+    Po nuk patët lajm prej nesh për nja dy ditë,
+    lidhuni përmes <emailLink>{ $email }</emailLink>
+    dhe do t’ju përgjigjemi!
+request-language-error =
+    Mund të mos e kemi marrë atë kërkesë. Ju lutemi, na dërgoni email neve drejtpërsëdrejti
+    te <emailLink>{ $email }</emailLink> dhe do t’ju përgjigjemi!
 
 ## Languages Overview
 
@@ -783,8 +901,14 @@ listen-again-instruction = Punë e paqme!<playIcon></playIcon> Ridëgjojeni, kur
 listen-3rd-time-instruction = 2 më pak, vazhdoni kështu!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>E fundit!
 listen-empty-state = Na u mbaruan copëzat për vleftësim në këtë gjuhë…
+listen-loading-error =
+    S’morëm dot ndonjë copëz audio që ta dëgjoni.
+    Ju lutemi, riprovoni më vonë.
 speak-empty-state = Na u mbaruan frazat për incizim në këtë gjuhë…
 speak-empty-state-cta = Jepni ndihmesë me fraza
+speak-loading-error =
+    S’morëm dot ndonjë copëz audio që ta shqiptoni.
+    Ju lutemi, riprovoni më vonë.
 record-button-label = Incizoni zërin tuaj
 share-title-new = <bold>Ndihmonani</bold> të gjejmë më tepër zëra
 keep-track-profile = Ndiqni ecurinë tuaj përmes një profili
@@ -793,6 +917,10 @@ target-segment-first-card = Po kontribuoni te segmenti ynë i parë
 target-segment-first-banner = Ndihmoni të krijohet segmenti i parë në { $locale } për Common Voice
 target-segment-add-voice = Shtoni Zërin Tuaj
 target-segment-learn-more = Mësoni Më Tepër
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Koleksion Zërash
 
 ## Reporting
 
@@ -1109,6 +1237,7 @@ sc-home-review-text = Ndihmonani duke shqyrtuar se togfjalëshat janë në pajti
 
 ## GENERAL
 
+sc-languages-fetch-error = S’arritëm të sjellim gjuhët e mundshme. Aktualisht s’mund të jepet kotribut. Ju lutemi, riprovoni më vonë.
 
 ## HOW-TO
 
@@ -1119,12 +1248,22 @@ sc-howto-addsen-title = Shtoni togfjalësha të rinj
 sc-howto-addsen-item-1 = Krejt togfjalëshat që parashtroni duhet të jenë nën <wikipediaLink>licencë Përkatësie Publike (CC-0)</wikipediaLink>. SI mbështetje për përfshirjen e punëve jo nën licencë publike, kemi krijuar një <cc0WaiverLink>gjedhe Marrëveshjeje Kontributesh</cc0WaiverLink> për punë për të cilat zotëruesi i të drejtave të kopjimit do të donte ta kontribuonte materialin për projektin Common Voice.
 sc-howto-addsen-item-2 = Numra. S’duhet të ketë shifra te teksti burim, ngaqë mund të shkaktojnë probleme, kur lexohen me zë. Mënyra se si lexohet një numër varet nga konteksti dhe mund të sjellë ngatërresë te grupi i të dhënave. Për shembull, numri “2409” mund të lexohet edhe si “njëzetekatër zero nëntë”, edhe si “dymijë e katërqind e nëntë”.
 sc-howto-addsen-item-3 = Shkurtime dhe Akronime. Shkurtimet dhe akronimet, bie fjala, “USA” ose “ICE” duhen shmangur te teksti burim, ngaqë mund të lexohen në një mënyrë që nuk përputhet me shqiptimin e tyre. Përveç kësaj, mund të ketë disa lexime të sakta për një shkurtim të vetëm. Për shembull, akronimi “ICE” mund të shqiptohet “I-C-E”, ose si një fjalë e vetme.
+sc-howto-addsen-item-4 = Pikësimi. Shenjat speciale dhe të pikësimit duhen përfshirë vetëm kur është absolutisht e nevojshme. Për shembull, një apostrof që përfshihet në fjalë anglisht si “don’t” dhe “we’re” dhe duhet përfshirë te teksti burim, po ka pak gjasa që t’ju duhet ndonjëherë një simbol special si “@” ose “#.”
+sc-howto-addsen-item-5 = Shkronja gjuhësh të huaja. Shkronjat duhet të jenë të vlefshme për gjuhën që po flitet. Për shembull, “ж” është një shkronjë në alfabetin rus, por s’përdoret kurrë në ndonjë tekst në anglisht.
+sc-howto-addsen-item-6 = Gjuhët mund të kenë <validationRulesLink>rregullat e veta të vlerësimit</validationRulesLink> me kërkesa shtesë. Nëse s’ka një kartelë specifike vlerësimi për një gjuhë, ne përdorim rregullat elementare të anglishtes.
+sc-howto-addsen-post-1 = Parapëlqejmë togfjalësha të natyrshëm/bisedorë. Teksa larmia poetike dhe fjalët e ndryshme në togfjalësha janë të rëndësishëm, po përpiqemi ta bëjmë incizimin e togfjalëshave sa më zbavitës që të jetë e mundur. Ndaj do të ishte mirë t’i mbanit togfjalëshat tuaj, sa më natyrorë/tërheqës që të jetë e mundur.
+sc-howto-cite-title = Si të Citohet
+sc-howto-cite-pre-1 = Është e rëndësishme që të jepni referencë se ku e gjetët licencën publike, për të shmangur plagjiarismin dhe për të lejuar ndjekje në rast <copyrightIssuesLink>problemesh me të drejta kopjimi</copyrightIssuesLink>. Ja ndopak mënyra se si mund të citoni veprën.
 sc-howto-cite-item-1 = Mund të përfshinit sajtin, p.sh., “Common Voice - https://commonvoice.mozilla.org/”
+sc-howto-cite-item-2 = Mund të përdorni stil akademik referencash, p.sh., stilin e Harvardit "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
+sc-howto-cite-item-3 = Për tekst nën përkatësi publike, por që s’gjendet në internet, mund të përdorni stil akademik referencash, p.sh., në stil Harvardi, “Jess (2021) My Public licence poems”
 sc-howto-review-title = Shqyrtoni Togfjalësha
 sc-howto-review-subtitle = Sigurohuni se togfjalëshi plotëson kushtet vijuese:
 sc-howto-review-criteria-1 = Togfjalëshi duhet shkruar si duhet.
 sc-howto-review-criteria-2 = Togfjalëshi duhet të jetë i saktë gramatikisht.
 sc-howto-review-criteria-3 = Togfjalëshi duhet të jetë i shqiptueshëm.
+sc-howto-review-criteria-4 = Nëse togfjalëshi i plotëson kriteret, klikoni mbi butonin “Aprovojeni”
+sc-howto-review-criteria-5 = Nëse togfjalëshi nuk pajtohet me kriteret më sipër, klikoni mbi butonin “Hidhe poshtë”. Nëse jeni i pasigurt për togfjalëshin, mundeni edhe ta anashkaloni dhe të vazhdoni me pasuesin.
 sc-howto-review-criteria-6 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
 sc-howto-findpd-title = Gjetje togfjalëshash  ekzistues nën Përkatësi Publike
 sc-howto-findpd-subtitle = Kërkoni për ta në Internet
@@ -1165,6 +1304,7 @@ sc-rejected-none-found = S’u gjetën togfjalësha të hedhur poshtë!
 
 sc-stats-title = Statistika
 sc-stats-updating = Po përditësohet…
+sc-stats-error = Nuk sollëm dot statistikat. Ju lutemi, riprovoni më vonë.
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -1348,6 +1488,13 @@ sc-review-form-source = Burim: { $sentenceSource }
 sc-review-form-button-reject = Hidhe poshtë
 sc-review-form-button-skip = Anashkaloje
 sc-review-form-button-approve = Miratoje
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = P
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = J
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = K
+sc-review-form-keyboard-usage-custom = Mund të përdorni edhe Shkurtore Tastiere: { sc-review-form-button-approve-shortcut } për Miratim, { sc-review-form-button-reject-shortcut } për Hedhje poshtë, { sc-review-form-button-skip-shortcut } për Anashkalim
 sc-review-form-button-submit =
     .submitText = Përfundojeni Shqyrtimin
 # Variables:
@@ -1381,10 +1528,114 @@ localization-select =
     .label = Zgjidhni gjuhë/përkthim
 # PARTNERSHIPS PAGE
 partnerships-header = Bashkëpunime
+partnerships-header-text = Duhet shumë djersë që të vijë Common Voice! Nuk e bëjmë vetëm. Doni të bashkëpunoni me ne? Do të donim fort t’ju dëgjonim.
 partnerships-get-in-touch = Lidhuni
 partnerships-become-a-partner = Bëhuni një Partner i Common Voice-it
 partnerships-community-header = Bashkësi, Krijues dhe Shoqëri Civile
+partnerships-community-description = Zemra e Common Voice-it është bashkësia - anëtarët e saj vijnë nga anembanë bota dhe janë veprimtarë gjuhësorë, shkencëtarë dhe artistë. Mund të mësoni më tepër rreth se si të përfshiheni, te faqja jonë <about>Mbi</about> dhe pjesa <community>Community playbook</community>. Nëse interesoheni për bashkëpunim më të thellë si ent, <emailFragment>lidhuni me ne.</emailFragment>
 partnerships-foundations-header = Fondacione
+partnerships-foundations-description = Punojmë me fondacione, shoqërinë civile dhe partnerë të bashkësisë për ta bërë Internetin një vend më të shëndetshëm, me vëmendje të veçantë mbi Afrikën Lindore. Mësoni më tepër mbi <programmaticWork>punën tonë programatike.</programmaticWork>
 partnerships-governments-header = Qeveri
+partnerships-governments-description = Jemi të ngazëllyer që mbështetim angazhimin e sektorit publik në teknologji, risi dhe të drejta gjuhësore. Nëse keni në plan të organizoni një projekt apo fushatë të madhe, ju lutemi, <emailFragment>na thoni.</emailFragment>
 partnerships-academia-header = Universitete, Akaademikë dhe Kërkues
+partnerships-academia-description = Risitë me burim të hapët janë zemra e asaj ç’ka bëjmë. Për bashkëpunime kërkimore, grumbullim të dhënash apo intervista, <emailFragment>lidhuni me ne.</emailFragment>
+partnerships-small-business-header = Biznese të vegjël, përfshi të sapolindur teknikë dhe IA
+partnerships-small-business-description = Presim përherë të dëgjojmë prej konsumatorësh të dhënash rreth nevojave të tyre dhe rreth kontekstesh - nga bashkëpunimi për grumbullim të dhënash e deri te furnizim prirjesh shëndeti të dhënash, dëshirojmë të <emailFragment>dëgjojmë mendimin tuaj.</emailFragment>
+partnerships-corporates-header = Korporata të mëdha dhe shoqëri platformash
+partnerships-corporates-description = Nëse po kërkoni të flisni më gjerë rreth grupesh të dhënash, dëshironi të bashkë-investoni në zgjerime të planifikuara platformash, ose po shihni për mundësi bashkëpunimi, <emailFragment>ma shkruani.</emailFragment>
 partnerships-our-partners = Partnerët Tanë
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Faleminderit që dhuroni copëzat tuaja zanore!
+first-cta-subtitle-text = Do të doni të jepnit ca hollësi mbi se si flisni?
+why-donate = Pse pyesni?
+why-donate-explanation-1 = Ky informacion është në dëshirë për t’u dhënë a jo - jepeni vetën nëse ndiheni rehat. Kur hedhim në qarkullim grupin e të dhënave, i kalojmë në pseudonime krejt hollësitë personale dhe garantojmë që të tilla si emri dhe email-i juaj të mos kenë lidhje me të dhëna demografike të tilla si mosha apo gjinia.
+why-donate-explanation-2 = Që teknologjia të punojë mirë për këdo, të dhënat që i ndihmojnë zhvilluesit të ndërtojnë teknologji, është e nevojshme të pasqyrojnë një segment të larmishëm të popullatës. Për shembull, nëse nuk përfshijmë çfarëdo folësish me një theks të veçantë, teknologjia s’do të punojë mirë për persona me atë theks. <learnMore>Mësoni më tepër se pse tejtëdhënat kanë vlerë.</learnMore>
+add-information-button = Shtoni hollësi
+continue-speaking-button = Jo, faleminderit, vazhdojmë me të folurit
+create-profile-text = Doni të ruhen hollësitë tuaja? <createProfile>Krijoni një profil</createProfile>
+thanks-for-voice-toast = Faleminderit për hollësitë tuaja mbi zërin
+thanks-for-voice-toast-error = Ndodhi një gabim gjatë parashtrimit të hollësive tuaja mbi zërin
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Faleminderit që jepni zërin tuaj!
+second-cta-subtitle-text = Me një profil, mund të ndiqni veprimtarinë tuaj dhe të lidheni me një bashkësi kontribuesish te të dhëna zanore.
+already-have-an-account = Keni tashmë një llogari? <login>Hyni</login>
+create-profile-button = Krijoni profil
+# IMAGE TAGS
+img-alt-success-checkmark = shenjë suksesi
+# GUIDELINES PAGE
+guidelines-header = Udhëzime Pjesëmarrjeje
+guidelines-header-subtitle = Kuptoni si të kontribuoni dhe të vleftësoni togfjalësha dhe copëza audio te grupi i të dhënave Common Voice
+voice-collection = Koleksion Zërash
+sentence-collection = Grumbullim Frazash
+varying-pronunciations = Ndryshime Në Shqiptim
+misreadings = Gabime leximi
+offensive-content = Lëndë Fyese
+background-noise = Zhurmë Në Sfond
+background-voices = Zëra Në Sfond
+volume = Volum
+reader-effects = Efekte Lexuesi
+just-unsure = Thjesht i Pasigurt?
+example = Shembull
+varying-pronunciations-explanation-1 = Mirëpresim thekse të ndryshëm! Jini shumë i kujdesshëm me hedhjen poshtë të një copëze, me arsyen se mendoni se lexuesi ka shqiptuar shtrembër një fjalë, e ka vënë theksin në vendin e gabuar, apo pse ka shpërfillur shenja pikësimi. Ka një larmi të madhe shqiptimesh në përdorim nëpër botë, disa prej të cilave mund të mos i keni dëgjuar në bashkësinë tuaj vendore. Ju lutemi, ofroni një masë bujare vlerësimi për ata që mund të flasin ndryshe nga ju.
+varying-pronunciations-explanation-2 = Më anë tjetër, nëse mendoni se lexuesi s’e ka hasur kurrë më parë fjalën dhe po bën për shqiptimin një hamendësim të pasaktë, ju lutemi, hidheni poshtë. Nëse s’jeni i sigurt, përdorni butonin e anashkalimit.
+varying-pronunciations-tip-1 = [Anglishtja kanadeze mund ta bëjë “route” të dëgjohet si “rowt”]
+varying-pronunciations-tip-2 = [Anglishtja britanike mund të dëgjohet si “root”]
+misreadings-explanation-2 = Në gabime shumë të rëndomta përfshihen:
+misreadings-explanation-3 = Humbja e një 'A'-je ose 'The'-je në fillim të incizimit.
+misreadings-explanation-4 = Humbja e një 's' në fund të një fjale.
+misreadings-explanation-5 = Shkurtime lexim që nuk janë të pranishme në tekst, fjala vjen, “S’ishte”, në vend se “Nuk ishte”, ose anasjelltas.
+misreadings-explanation-6 = Humbja e fundit të fjalës së fundit, nga ndërprerja shumë shpejt e incizimit.
+misreadings-explanation-7 = Bërja e disa përpjekjeve për të lexuar një fjalë.
+misreadings-example-1 = Ne po dalim të pimë kafe.
+misreadings-example-2 = Po dalim të pimë kafe.
+misreadings-example-3 = Ne po dalim të pimë një kafe.
+misreadings-example-4 = Brumbulli kaloi me nxitim.
+misreadings-tip-1 = [Duhet të jetë “Ne”]
+misreadings-tip-2 = [S’ka ‘një’ te teksti origjinal]
+misreadings-tip-3 = [Ngatërrim lënde]
+background-noise-example-1 = Dinozaurët gjigantë të Triasikut.
+background-noise-example-2 = [Teshtimë]Dinozaurët gjigantë të [kollitje] Triasikut.
+background-noise-example-3 = Dino [kollitje] gjigant i Triasikut.
+background-noise-example-4 = [Kërcitje] dinozaurët gjigantë të [kërcitje] -riasikut.
+background-noise-tip-1 = [ndërpresë nga zhurma sfondi]
+background-noise-tip-2 = [S’dëgjohet dot një pjesë e tekstit]
+background-voices-example-1 = Dinozaurët gjigantë të Triasikut. [lexuar nga një zë]
+background-voices-tip-1 = A po vini? [thirru nga një tjetër]
+volume-explanation = Mes lexuesve do të ketë variacione natyrore në volum. Hidheni poshtë vetëm nëse volumi është aq i lartë sa ndërpritet incizimi, ose (më rëndom) nëse është kaq i ulët sa nuk mund të dëgjoni ç’po thuhet, pa parë tekstin e shkruar.
+reader-effects-explanation = Shumica e incizimeve janë nga persona që flasin me zërin e tyre natyror. Mund të pranoni me raste incizime jo standarde, ku bërtitet, pëshpëritet ose, kuptueshëm, kryer nën një zë “dramatik”. Ju lutemi, hidhni poshtë incizime të kënduara dhe ato që përdorin një zë të krijuar nga kompjuteri.
+just-unsure-explanation = Nëse ndeshni diçka që nuk e mbulojnë këto udhëzime, ju lutemi, votojeni në përputhje me gjykimin tuaj. Nëse vërtet s’vendosni dot, përdorni butonin e anashkalimit dhe ecni më tej me incizimin pasues.
+still-have-questions = Keni ende pyetje?
+contact-common-voice = Lidhuni me ekipin e Common Voice-it
+public-domain = Përkatësi Publike
+citing-sentences = Citim Togfjalëshash
+adding-sentences = Shtim Togfjalëshash
+reviewing-sentences = Shqyrtim Togfjalëshash
+public-domain-explanation-4 = Lidhuni me autorë, dramaturgë apo skenaristë dhe kërkojuni a do të ishin të gatshëm të japin një pjesë të vockël të veprës së tyre për përkatësinë publike
+public-domain-explanation-5 = Shihni për tekste mbi të cilët e drejta e autorëve nuk aplikohet më - për shembull, shumica e librave të botuar para 1920-s
+citing-sentences-subheader-websites = Sajte
+citing-sentences-subheader-websites-explanation = Mund të përfshinit sajtin, p.sh., “Common Voice - https://commonvoice.mozilla.org/”
+citing-sentences-subheader-academic-reference = Referencë Akademike
+citing-sentences-subheader-academic-reference-explanation = Mund të përdorni stil akademik referencash, p.sh., stilin e Harvardit “Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)”
+citing-sentences-subheader-offline-sources = Burime Jashtë Interneti
+citing-sentences-subheader-offline-sources-explanation = Për tekst nën përkatësi publike, por që s’gjendet në internet, mund të përdorni stil akademik referencash, p.sh., në stil Harvardi, “Jess (2021) My Public licence poems”
+citation =
+    .label = Përmendje
+self-citation = Vetëpërmendje
+self-citation-explanation = Ja se si citoni veten, nëse lëndën e shkruat ju vetë.
+adding-sentences-subheader-length = Gjatësi
+adding-sentences-subheader-length-explanation = Togfjalëshi duhet të jetë më pak se 15 fjalë.
+adding-sentences-subheader-spelling-punctuation = Drejtshkrim dhe Pikësim
+adding-sentences-subheader-spelling-punctuation-explanation = Togfjalëshi duhet shkruar si duhet.
+adding-sentences-subheader-speakable = Të shqiptueshme
+adding-sentences-subheader-numbers = Numra
+adding-sentences-subheader-numbers-explanation = E mira do të ishte të mos ketë shifra te teksti burim, ngaqë mund të shkaktojnë probleme, kur lexohen me zë. Mënyra se si lexohet një numër varet nga konteksti dhe mund të sjellë ngatërresë te grupi i të dhënave. Për shembull, numri “2409” mund të lexohet edhe si “njëzetekatër zero nëntë”, edhe si “dymijë e katërqind e nëntë”.
+adding-sentences-subheader-abbreviations = Shkurtesa dhe Cungime
+adding-sentences-subheader-punctuation = Pikësim
+adding-sentences-subheader-punctuation-explanation = Shenjat speciale dhe të pikësimit duhen përfshirë vetëm kur është absolutisht e nevojshme. Për shembull, një apostrof që përfshihet në fjalë anglisht si “don’t” dhe “we’re” dhe duhet përfshirë te teksti burim, po ka pak gjasa që t’ju duhet ndonjëherë një simbol special si “@” ose “#.”
+adding-sentences-subheader-special-characters = Shenja Speciale dhe Shkronja të Huaja’
+adding-sentences-subheader-special-characters-explanation-1 = Shkronjat duhet të jenë të vlefshme për gjuhën që po flitet. Për shembull, “ж” është një shkronjë në alfabetin rus, por s’përdoret kurrë në ndonjë tekst në anglisht.
+adding-sentences-subheader-offensive-content = Lëndë Fyese
+reviewing-sentences-explanation-1 = Nëse togfjalëshi i plotëson kriteret më sipër, klikoni mbi butonin “Po”
+reviewing-sentences-explanation-2 = Nëse togfjalëshi s’i plotëson kriteret më sipër, klikoni mbi butonin “Jo”
+reviewing-sentences-explanation-4 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
+community-announcement-header = Njoftim bashkësie!

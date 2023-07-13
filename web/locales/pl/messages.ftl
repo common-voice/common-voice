@@ -42,6 +42,7 @@ be = białoruski
 bg = bułgarski
 bm = bambara
 bn = bengalski
+bo = tybetański
 br = bretoński
 bs = bośniacki
 bxr = buriacki
@@ -115,6 +116,7 @@ lij = liguryjski
 ln = lingala
 lo = laotański
 lt = litewski
+ltg = łatgalski
 lv = łotewski
 mai = maithili
 mdf = moksza
@@ -135,11 +137,14 @@ nan-tw = tajwański (minnański)
 nb-NO = norweski (bokmål)
 nd = ndebele północny
 ne-NP = nepalski
+nhe = wschodni nahuatl huastecański
+nhi = zachodni nahuatl sierra puebla
 nia = nias
 nl = holenderski
 nn-NO = norweski (nynorsk)
 nr = ndebele południowy
 nso = północny sotho
+ny = czewa
 nyn = nyankole
 oc = oksytański
 om = oromo
@@ -190,6 +195,7 @@ ts = tsonga
 tt = tatarski
 tw = twi
 ty = tahitański
+tyv = tuwiński
 uby = ubyski
 udm = udmurcki
 ug = ujgurski
@@ -200,6 +206,7 @@ ve = venda
 vec = wenecki
 vi = wietnamski
 vot = wotycki
+wo = wolof
 xh = xhosa
 yi = jidysz
 yo = joruba
@@ -403,6 +410,7 @@ why-demographic-explanation-2 = Anonimowe dane o użytkowniku, takie jak wiek, 
 accept-privacy = Pozwalam wykorzystywać te dane w sposób opisany w <privacyLink>zasadach ochrony prywatności</privacyLink> Mozilli
 accept-privacy-title = Zasady ochrony prywatności
 login-identity = Tożsamość logowania
+login = Zaloguj się
 login-signup = Zaloguj/zarejestruj się
 edit = Edytuj
 email-subscriptions = Subskrypcje e-mail
@@ -776,6 +784,9 @@ target-segment-generic-card = Przyczyniasz się do segmentu docelowego
 target-segment-first-banner = Pomóż utworzyć pierwszy segment docelowy projektu Common Voice w języku: { $locale }
 target-segment-add-voice = Dodaj swój głos
 target-segment-learn-more = Więcej informacji
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1160,3 +1171,4 @@ sc-settings-ui-language = Język interfejsu
 
 # [/SentenceCollector]
 
+sentence-collection = Zbieranie zdań

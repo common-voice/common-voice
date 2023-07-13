@@ -192,7 +192,7 @@ For local development, in `config.json`:
 We use [db-migrate](https://github.com/db-migrate/node-db-migrate) for running database migrations.
 
 To add a migration run:
-`yarn migrate create <MIGRATION_NAME>`.
+`yarn migrate:local create <MIGRATION_NAME>`.
 
 At the moment you manually have to change the migration file extension to `.ts`. A migration has to expose the following API:
 
@@ -207,6 +207,11 @@ export const down = async function (): Promise<any> {
 ```
 
 Migrations are always run when the server is started.
+
+To migrate up or down manually run:
+`yarn migrate:local [up|down]`.
+
+This will execute the most recently added migration in the migrations folder.
 
 ## Localization
 
