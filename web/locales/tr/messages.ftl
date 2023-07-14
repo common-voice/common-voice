@@ -1543,6 +1543,7 @@ localization-select =
     .label = Dil seçin
 # PARTNERSHIPS PAGE
 partnerships-header = İş Ortaklıkları
+partnerships-header-text = Common Voice'u tek başımıza geliştirmiyoruz. Bizimle iş birliği yapmak ister misiniz?
 partnerships-get-in-touch = Bize ulaşın
 partnerships-become-a-partner = Common Voice İş Ortağı Olun
 partnerships-community-header = Toplum, Yaratıcılar ve Sivil Toplum
@@ -1581,6 +1582,7 @@ reader-effects = Okuyucu efektleri
 just-unsure = Emin değil misiniz?
 example = Örnek
 varying-pronunciations-explanation-2 = Öte yandan, okuyucunun kelimeyle daha önce hiç karşılaşmadığını ve kelimeyi yanlış telaffuz ettiğini düşünüyorsanız lütfen kaydı reddedin. Emin değilseniz atlama düğmesini kullanın.
+misreadings-explanation-2 = Yaygın hatalar arasında şunları sayabiliriz:
 misreadings-explanation-5 = Yanlış telaffuzla okuma nedeniyle kelimelerin başka anlamlara dönüşmesi.
 misreadings-explanation-6 = Kaydın aceleyle sonlandırılması nedeniyle son kelimenin sonunun kaydedilmemesi.
 misreadings-explanation-7 = Bir kelimeyi okumak için birkaç deneme yapmak.
