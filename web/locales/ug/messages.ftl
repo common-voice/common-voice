@@ -1286,4 +1286,17 @@ sc-validation-no-abbreviations = جۈملىدە قىسقارتىلما ئاتا�
 # [/SentenceCollector]
 
 add-information-button = ئۇچۇر قوش
+continue-speaking-button = رەھمەت، داۋاملىق سۆزلەي
+create-profile-text = ئۇچۇرلىرىڭىزنى ساقلىماقچىمۇ؟ <createProfile>تەرجىمىھال قۇرۇش</createProfile>
+thanks-for-voice-toast = ئاۋاز ئۇچۇرلىرىڭىزغا رەھمەت
+thanks-for-voice-toast-error = ئاۋاز ئۇچۇرلىرىڭىزنى يوللاشتا خاتالىق كۆرۈلدى
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ئاۋازىڭىزنى قوشقانلىقىڭىزغا رەھمەت!
+second-cta-subtitle-text = تەرجىمىھال ئارقىلىق پائالىيىتىڭىزنى ئىزلاپ، ئاۋاز سانلىق مەلۇمات ئىجادكارلار جامائىتى بىلەن باغلىنالايسىز.
+already-have-an-account = ھېساباتىڭىز بارمۇ؟ <login>تىزىمغا كىرىڭ</ login>
+create-profile-button = تەرجىمىھال قۇر
+# IMAGE TAGS
+img-alt-success-checkmark = مۇۋەپپەقىيەت بەلگىسى
+# GUIDELINES PAGE
+guidelines-header = تۆھپە يېتەكچىسى
 sentence-collection = جۈملە توپلىمى
