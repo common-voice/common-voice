@@ -803,8 +803,8 @@ request-language-google-recaptcha-error = ReCAPTCHA دا مەسىلە كۆرۈل
 
 ## Languages Overview
 
-language-section-in-progress = ئىلگىرىلەۋاتىدۇ
-language-section-in-progress-new-description = نۆۋەتتە بۇ تىللارغا ئىجتىمائىي توپ تەرىپىدىن خىزمەتلەر ئىلىنىپ بېرىلىۋاتىدۇ. بۇ ئىلگىرىلەش سىتونلىرى ھەر قايسى تىللارنىڭ <localizationGlossaryLink>تور بېتىنى يەرلىكلەشتۈرۈش</localizationGlossaryLink> شۇنداقلا <sentenceCollectionGlossaryLink>جۈملە يىغىش</sentenceCollectionGlossaryLink> ئەھۋالىنى كۆرسىتىپ بېرىدۇ.
+language-section-in-progress = ئىلگىرىلەش
+language-section-in-progress-new-description = نۆۋەتتە بۇ تىللار جامائەت ئىجادىيەت باسقۇچىدا تۇرۇۋاتىدۇ. بۇلار ھەر قايسى تىللارنىڭ <localizationGlossaryLink>تور بېكەتنى يەرلىكلەشتۈرۈش</localizationGlossaryLink> شۇنداقلا <sentenceCollectionGlossaryLink>جۈملە يىغىش</sentenceCollectionGlossaryLink> ئەھۋالىنى كۆرسىتىدۇ.
 language-section-launched = ئېلان قىلىندى
 language-section-launched-description = ئېلان قىلىنغان تىللارنىڭ تور بىتى مۇۋەپپەقىيەتلىك ھالدا <localizationGlossaryLink> يەرلىكلەشتۈرۈلگەن </localizationGlossaryLink>، شۇنداقلا يېتەرلىك  <sentenceCollectionGlossaryLink>توپلانغان جۈملىلىرى</sentenceCollectionGlossaryLink> بولسا <speakLink>سۆزلەپ</speakLink> ۋە <listenLink>ئاڭلاپ</listenLink> تۆھپە قوشۇش باسقۇچىغا ماڭالايدۇ.
 languages-show-more = تەپسىلاتى
