@@ -642,10 +642,12 @@ about-playbook-how-access-dataset = سانلىق مەلۇمات توپلىمىن
 ## How are decisions made
 
 about-playbook-how-project-governance = تۈر قارارلىرى قانداق چىقىرىلىدۇ؟
+about-playbook-how-project-governance-content-2 = باشقۇرۇشىمىز تۆۋەندىكىلەر ئاساسىدا:
 about-playbook-how-project-governance-content-3 = مەخپىيەتلىك، بىخەتەرلىك ۋە ئاشكارىلىق.
 about-playbook-how-project-governance-content-4 = مەھەللىدە قارار چىقىرىشقا قاتنىشىش.
 about-playbook-how-project-governance-content-5 = قىممەت ۋە تونۇش.
 about-playbook-how-project-governance-content-6 = ئۆز-ئارا جاۋابكارلىق.
+about-playbook-how-project-governance-content-7 = <governanceLink>قۇرۇلۇشنى قانداق باشقۇرۇدىغانلىقىمىزنى تەپسىلىي ئوقۇڭ</governanceLink>
 
 ## Glossary
 
@@ -713,6 +715,7 @@ datasets-positioning =
     
     باشقا ئوچۇق مەنبەلىك ئاۋاز ئامبارلىرى توغرىسىدا Common Voice نىڭ ئۈزلۈكسىز تەرەققىياتىغا ئەگىشىپ بىزنىڭ يېڭىلاش مەركىزىمىز بولۇپ قالغان بۇ بېتىمىزدىن پايدىلىنىڭ.
 language = تىل
+download-dataset-header = سانلىق مەلۇمات توپلىمىنى چۈشۈرۈش
 # File size in gigabytes
 size = چوڭلۇقى
 validated-hr-total = ئومۇمىي دەلىللەنگەن سائەت
@@ -1299,4 +1302,5 @@ create-profile-button = تەرجىمىھال قۇر
 img-alt-success-checkmark = مۇۋەپپەقىيەت بەلگىسى
 # GUIDELINES PAGE
 guidelines-header = تۆھپە يېتەكچىسى
+guidelines-header-subtitle = Common Voice سانلىق مەلۇمات ئامبىرىغا جۈملە ۋە ئاۋاز ئۈزۈندىلىرىنى قانداق قوشۇپ ۋە دەلىللەپ تۆھپە قوشۇشنى چۈشىنىش
 sentence-collection = جۈملە توپلىمى
