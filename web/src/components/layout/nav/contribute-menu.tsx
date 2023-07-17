@@ -63,7 +63,10 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         data-testid="contribute-menu">
-        <div className="contribute-links-wrapper">
+        <div
+          className={classNames('contribute-links-wrapper', {
+            'show-border': isContributionPageActive,
+          })}>
           <p className="nav-link-item">
             <Localized id="contribute" />
           </p>
@@ -85,13 +88,6 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
           </div>
         )}
         <div className="menu-wrapper" data-testid="menu-wrapper">
-          {isContributionPageActive && (
-            <span
-              className={classNames('black-border', {
-                'logged-out': !isUserLoggedIn,
-              })}
-            />
-          )}
           <div className="menu">
             <span className="blue-border" />
             <ContributeMenuContent

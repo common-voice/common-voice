@@ -3,12 +3,26 @@
 .header-wrapper {
     border-bottom: 1px solid var(--light-grey);
 
+    &.contribution-page-active {
+        @media (--xl-up) {
+            height: 130px;
+        }
+
+        header {
+            @media (--lg-up) {
+                height: 80px;
+                padding-bottom: 0;
+            }
+        }
+    }
+
     & .secondary-nav {
         @media (--xl-up) {
             background: var(--grey);
         }
 
         margin: 0 auto;
+        height: 52px;
 
         @media (--lg-down) {
             display: flex;
@@ -34,6 +48,7 @@
             max-width: var(--desktop-width);
             padding: 0 4rem;
             overflow-x: scroll;
+            height: 100%;
 
             @media (--sm-down) {
                 padding: 0;
@@ -60,31 +75,36 @@
                 align-items: center;
             }
 
-            & .selected-option {
-                background: var(--desert-storm);
-                padding: 12px;
-                flex-wrap: wrap;
-                flex-shrink: 0;
+            & .secondary-nav-option {
+                display: flex;
+                justify-content: center;
                 height: 100%;
+                flex-direction: column;
+                padding: 0px 12px;
+                text-decoration: none;
 
-                @media (--lg-down) {
-                    padding: 20px 7px;
-                }
-
-                & path,
-                g {
-                    fill: var(--anchor-text-blue);
-                }
-
-                & a {
+                &.selected-option {
+                    background: var(--desert-storm);
                     color: var(--anchor-text-blue);
+
+                    & path,
+                    g {
+                        fill: var(--anchor-text-blue);
+                    }
+
+                    div {
+                        border-bottom: 1px solid var(--blue);
+                    }
                 }
 
-                & .border {
-                    border: 1px solid var(--blue);
-                    display: inline-block;
-                    flex-basis: 100%;
-                    height: 0;
+                & div {
+                    display: flex;
+                    justify-content: center;
+                    -moz-box-align: center;
+                    align-items: center;
+                    padding: 0px;
+                    -moz-box-flex: 0;
+                    box-sizing: border-box;
                 }
             }
 
@@ -96,8 +116,6 @@
 
             & div {
                 display: flex;
-                align-items: center;
-                padding: 8px;
 
                 @media (--sm-down) {
                     padding: 4px;
@@ -123,6 +141,10 @@ header {
     padding: var(--page-margin);
     background: var(--white);
     z-index: var(--header-z-index);
+
+    & .Logo {
+        height: auto;
+    }
 
     @media (--lg-up) {
         position: relative;
@@ -196,7 +218,7 @@ header {
         text-transform: uppercase;
         font-weight: 600;
         white-space: nowrap;
-        margin-right: 8px;
+        margin-inline-end: 8px;
     }
 
     & .user-menu {
@@ -237,6 +259,7 @@ header {
     & .nav-links {
         display: flex;
         font-family: var(--strong-font-family);
+        height: 100%;
 
         & .contribute-menu {
             padding: 0 1rem;
@@ -262,6 +285,7 @@ header {
             cursor: default;
             display: flex;
             align-items: center;
+            height: 100%;
 
             & svg {
                 transition: transform var(--easing) var(--transition-duration);
@@ -275,6 +299,15 @@ header {
             & .contribute-links-wrapper {
                 display: flex;
                 align-items: center;
+                height: 100%;
+
+                &.show-border {
+                    border-bottom: 4px solid var(--black);
+
+                    & .nav-link-item {
+                        margin-inline-end: 0;
+                    }
+                }
 
                 @media (--lg-down) {
                     display: none;
@@ -286,23 +319,6 @@ header {
 
                 @media (--lg-down) {
                     display: none;
-                }
-
-                & .black-border {
-                    border-bottom: 4px solid var(--black);
-                    margin-inline-end: 6px;
-                    padding-top: 34px;
-                    position: absolute;
-                    right: 0;
-                    width: 78px;
-
-                    @media (--md-down) {
-                        display: none;
-                    }
-                }
-
-                & .black-border.logged-out {
-                    padding-top: 32.5px;
                 }
             }
 
@@ -509,9 +525,11 @@ header {
 
         & .fade-in {
             display: flex;
+            align-items: center;
             opacity: 1;
             transition: visibility 1s, opacity 1s;
             visibility: visible;
+            height: 95%;
 
             @media (--lg-down) {
                 flex-direction: column;
@@ -520,9 +538,11 @@ header {
 
         & .fade-out {
             display: flex;
+            align-items: center;
             opacity: 0;
             transition: visibility 0.25s, opacity 0.25s;
             visibility: hidden;
+            height: 95%;
         }
     }
 }
@@ -592,6 +612,7 @@ header {
     @media (--xl-up) {
         display: flex;
         align-items: center;
+        height: 100%;
     }
 }
 
