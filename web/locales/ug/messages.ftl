@@ -582,10 +582,15 @@ about-nav-playbook = قانداق قاتنىشىشنى ئۆگىنىۋېلىڭ
 about-playbook-what-is-language = Common Voice دا قايسى تىل بار؟
 about-playbook-what-is-language-content-1 = تىل ھەققىدە ناھايىتى كۆپلىگەن تەپەككۇر ئۇسۇللىرى بار. ئاۋاز تونۇش مودېلىنىڭ مەقسىتى ئۈچۈن، Common Voice بولسا «ئۆزئارا چۈشىنىشچانلىق» قا، ياكى «بۇ تىلدا سۆزلىگۈچىلەر چۈشىنەي دېسە ئاساسەن بىر-بىرىنى چۈشىنەلەمدۇ؟ » دېگەن مەسىلىگە مەركەزلەشتۈرۈشنى تەۋسىيە قىلىدۇ.
 about-playbook-what-is-language-content-2 = بىز ئاۋاز مودېللىرىنىڭ ناھايىتى كۆپ، خىلمۇخىل كىشىلەرنىڭ ئاۋازىنى چۈشىنىشتە تېخىمۇ ياخشى بولۇشىنى ئۈمىد قىلىمىز. بۇنىڭ ئۈچۈن، بىر ئاۋازلىق سانلىق مەلۇمات ئامبىرى چوقۇم ناھايىتى كۆپ، پەرقلىق كىشىلەرگە ۋەكىللىك قىلالىشى كېرەك.
+about-playbook-what-is-language-content-3 = بەزى تىللارنىڭ گرامماتىكىسى، سۆزلۈك ۋە تەلەپپۇزىدا غايەت زور ئۆزگىرىش بار. بۇ سەۋەبتىن، بىز 2022-يىلى <ctaLink> «ۋارىيانتلار» </ctaLink> نى تونۇشتۇرىمىز. بۇ جامائەتكە تېخىمۇ چوڭ سانلىق مەلۇمات ئامبىرى ئىچىدىكى تىللىرىنى پەرقلەندۈرۈشنىڭ يولىنى بېرىدۇ.
 
 ## How do I add a language
 
 about-playbook-how-add-language = تىلنى قانداق قوشىمەن؟
+about-playbook-how-add-language-content-1 =
+    ئالدى بىلەن، تىلىڭىزنىڭ <languageLink>بار-يوقلۇقىنى تەكشۈرۈڭ</languageLink>.
+    ئەگەر بولمىسا، <languageRequestLink>تىلىڭىزنى قوشۇشنى ئىلتىماس قىلسىڭىز بولىدۇ</languageRequestLink>.
+    ئىككى باسقۇچ بار. بېكەتنى تەرجىمە قىلىش ۋە جۈملىلەرنى توپلاش
 about-playbook-how-add-language-translating-heading = بېكەتنى تەرجىمە قىلىش
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> پونتوننى قانداق ئىشلىتىش توغرىسىدىكى يېتەكچىنى كۆرۈڭ. </translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = جۈملە توپلاش
