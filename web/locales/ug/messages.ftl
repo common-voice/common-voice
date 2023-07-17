@@ -873,6 +873,9 @@ listen-again-instruction = يارايسىز! <playIcon></playIcon> تەييار 
 listen-3rd-time-instruction = ئىككىسى تۈگىدى ، داۋاملاشتۇرۇڭ! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon></playIcon> ئەڭ ئاخىرقىسى!
 listen-empty-state = بۇ تىلدىكى دەلىللەيدىغان ئاۋازلار تۈگىدى...
+listen-loading-error =
+    بىزدە سىزگە ئاڭلاتقۇدەك ھېچقانداق ئاۋاز پارچىسى يوق.
+    سەل تۇرۇپ قايتا سىناڭ.
 speak-empty-state = بۇ تىلدىكى ئۈنگە ئالدىغان جۈملىلەر تۈگىدى...
 speak-empty-state-cta = جۈملىلەرنى قوشۇڭ
 speak-loading-error = ۋاقتىنچە ئۈنگە ئالىدىغان جۈملە يوق. سەل تۇرۇپ قايتا سىناڭ.
@@ -888,6 +891,8 @@ target-segment-learn-more = تەپسىلاتى
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = ئاۋاز توپلىمى
+contribute-sentence-collection-nav-header = جۈملە توپلىمى
 
 ## Reporting
 
@@ -1047,7 +1052,10 @@ profile-form-delete = تەرجىمىھالنى ئۆچۈر
 download-q = ئۇچۇرلىرىڭىزنى چۈشۈرەمسىز؟
 download-info = چۈشۈرمەكچى بولغان نەرسىنى بىزگە ئېيتىپ بېرىڭ:
 download-profile-title = تەرجىمىھال
+download-profile-info = ئېلخەت، ئىشلەتكۈچى ئىسمى ۋە نوپۇس ئۇچۇرىنى ئۆز ئىچىگە ئالىدۇ
+download-profile-size = بىر قانچە بايت
 download-recordings-title = ئۈن خاتىرىسى
+download-recordings-info = Mp3 ۋە مۇناسىۋەتلىك جۈملىلەرنى ئۆز ئىچىگە ئالىدۇ، تەييارلاشقا بىر ئاز ۋاقىت كېتىشى مۇمكىن
 download-recordings-size = ئادەتتە مېگابايت
 download-size = چوڭلۇقى
 download-selected = تاللانغان
