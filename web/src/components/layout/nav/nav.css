@@ -151,7 +151,8 @@ header {
         margin: 0 auto;
         background: none;
         max-width: var(--desktop-width);
-        height: unset;
+        height: 77px;
+        padding-block-end: 0;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
@@ -159,7 +160,7 @@ header {
     }
 
     & .menu-icon {
-        margin-right: 35px;
+        margin-inline-end: 35px;
         cursor: pointer;
     }
 
@@ -283,9 +284,14 @@ header {
 
         & .contribute-menu {
             cursor: default;
-            display: flex;
             align-items: center;
             height: 100%;
+
+            &.active {
+                & .contribute-links-wrapper {
+                    border-bottom: 4px solid var(--blue);
+                }
+            }
 
             & svg {
                 transition: transform var(--easing) var(--transition-duration);
@@ -327,7 +333,14 @@ header {
                 flex-direction: column;
                 position: absolute;
                 top: 0;
-                left: -150px;
+
+                [dir='ltr'] & {
+                    left: -20px;
+                }
+
+                [dir='rtl'] & {
+                    right: -20px;
+                }
 
                 & .menu-list {
                     display: flex;
@@ -346,14 +359,6 @@ header {
                     }
                 }
 
-                & .blue-border {
-                    border-bottom: 4px solid var(--blue);
-                    display: inline-block;
-                    margin-inline-start: 50px;
-                    padding-top: 30px;
-                    width: 100px;
-                }
-
                 & ul {
                     list-style: none;
                     margin: 0;
@@ -365,6 +370,7 @@ header {
                         align-items: center;
                         margin-left: 12px;
                         margin-bottom: 20px;
+                        width: fit-content;
 
                         & .list-items-wrapper {
                             div {

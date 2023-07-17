@@ -89,7 +89,6 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         )}
         <div className="menu-wrapper" data-testid="menu-wrapper">
           <div className="menu">
-            <span className="blue-border" />
             <ContributeMenuContent
               className="menu-list"
               isUserLoggedIn={isUserLoggedIn}
