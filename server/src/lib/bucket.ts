@@ -1,13 +1,14 @@
 import { getConfig } from '../config-helper'
 import Model from './model'
 import { Clip, TakeoutRequest } from 'common'
-import { PassThrough } from 'stream'
+import { PassThrough, Readable, pipeline } from 'stream'
 import { ClientClip } from './takeout'
 import * as Sentry from '@sentry/node'
 import { pipe } from 'fp-ts/lib/function'
 import {
   deleteFileFromBucket,
   doesFileExistInBucket,
+  downloadFileFromBucket,
   getMetadataFromFile,
   getPublicUrlFromBucket,
   getSignedUrlFromBucket,
@@ -16,7 +17,7 @@ import {
 } from '../infrastructure/storage/storage'
 import { task as T, taskEither as TE } from 'fp-ts'
 import { Metadata } from '@google-cloud/storage/build/src/nodejs-common'
-const s3Zip = require('s3-zip')
+import { createGzip } from 'zlib'
 
 /**
  * Bucket
@@ -33,7 +34,7 @@ export default class Bucket {
   /**
    * Fetch a public url for the resource.
    */
-  public async getPublicUrl(key: string, bucketType?: string) {
+  public async getPublicUrl(key: string, bucketType?: string): Promise<string> {
     const { DATASET_BUCKET_NAME, CLIP_BUCKET_NAME } = getConfig()
 
     const bucket =
@@ -164,20 +165,51 @@ export default class Bucket {
     const bucket = getConfig().CLIP_BUCKET_NAME
     const passThrough = new PassThrough()
 
-    const s3pipe = s3Zip
-      .archive(
-        { s3: this.s3, bucket },
-        '',
-        paths,
-        paths.map(
-          path =>
-            `takeout_${takeout.id}_pt_${chunkIndex}/${
-              path.split('/').length > 1 ? path.split('/')[1] : path
-            }`
-        )
-      )
-      .pipe(passThrough)
+    const downloadList = paths.map(path => downloadFileFromBucket(bucket)(path))
 
+    const buffers = await pipe(
+      downloadList,
+      TE.sequenceArray,
+      TE.match(
+        e => {
+          console.log(e)
+          return ([] as Buffer[])
+        },
+        (buffers) => buffers
+      )
+    )()
+
+    const bufferStreams = Readable.from(buffers)
+
+    pipeline(
+      bufferStreams,
+      createGzip(),
+      passThrough,
+      (err) => {
+        if (err) {
+          console.error('Pipeline failed.', err);
+        } else {
+          console.log('Pipeline succeeded.');
+        }
+      }
+    );
+
+    // Download and zip myself here
+    // const s3pipe = s3Zip
+    //   .archive(
+    //     { s3: this.s3, bucket },
+    //     '',
+    //     paths,
+    //     paths.map(
+    //       path =>
+    //         `takeout_${takeout.id}_pt_${chunkIndex}/${
+    //           path.split('/').length > 1 ? path.split('/')[1] : path
+    //         }`
+    //     )
+    //   )
+    //   .pipe(passThrough)
+
+    // passTrough contains the zipped file
     await pipe(
       streamUploadToBucket(bucket)(destination)(passThrough),
       TE.mapLeft(console.log)

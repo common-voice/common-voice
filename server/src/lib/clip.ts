@@ -43,9 +43,8 @@ export default class Clip {
   private model: Model;
 
   constructor(model: Model) {
-    this.s3 = AWS.getS3();
     this.model = model;
-    this.bucket = new Bucket(this.model, this.s3);
+    this.bucket = new Bucket(this.model);
   }
 
   getRouter() {
@@ -233,11 +232,6 @@ export default class Clip {
       );
       return;
     } else {
-      // If the folder does not exist, we create it.
-      await this.s3
-        .putObject({ Bucket: getConfig().CLIP_BUCKET_NAME, Key: folder })
-        .promise();
-
       let audioInput = request;
 
       if (getConfig().FLAG_BUFFER_STREAM_ENABLED && format.includes('aac')) {

@@ -1,6 +1,5 @@
 import Mysql from './model/db/mysql';
 import Bucket from './bucket';
-import { S3 } from 'aws-sdk';
 import * as Bull from 'bull';
 import { Job, Queue, QueueOptions } from 'bull';
 import { getConfig } from '../config-helper';
@@ -88,13 +87,11 @@ export type ClientClip = {
 
 export default class Takeout {
   private readonly db: Mysql;
-  private readonly s3: S3;
   private readonly bucket: Bucket;
   private queue: Bull.Queue<TakeoutTask>;
 
-  constructor(db: Mysql, s3: S3, bucket: Bucket) {
+  constructor(db: Mysql, bucket: Bucket) {
     this.db = db;
-    this.s3 = s3;
     this.bucket = bucket;
   }
 
@@ -112,20 +109,24 @@ export default class Takeout {
   async generateDownloadLinks(
     client_id: string,
     takeout_id: number
-  ): Promise<(string | string[])[]> {
+  ): Promise<string[]> {
     const takeout = await this.getTakeout(takeout_id);
     if (takeout === null) throw 'no such takeout';
     if (takeout.client_id !== client_id) throw 'no such takeout';
     if (takeout.state !== TakeoutState.AVAILABLE)
       throw 'takeout is unavailable';
+
     const keys = [...Array(takeout.archive_count).keys()].map(offset =>
       this.bucket.takeoutKey(takeout, offset)
     );
 
+    const urls = await Promise.all(keys.map(key => this.bucket.getPublicUrl(key)))
+
     const links = [
-      keys.map(key => this.bucket.getPublicUrl(key)),
-      this.bucket.getPublicUrl(this.bucket.metadataKey(takeout)),
+      ...urls,
+      await this.bucket.getPublicUrl(this.bucket.metadataKey(takeout)),
     ];
+
     return links;
   }
 
