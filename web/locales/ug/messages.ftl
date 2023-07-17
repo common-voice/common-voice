@@ -817,6 +817,7 @@ language-speakers = سۆزلىگۈچىلەر
 localized = يەرلىكلەشتۈرۈلگەن
 sentences = جۈملىلەر
 language-validation-hours = سائەت
+language-validation-progress = دەلىللەشنىڭ ئىلگىرىلىشى
 
 ## Contribution
 
@@ -824,6 +825,8 @@ action-click = چېكىڭ
 action-tap = Tap
 contribute = تۆھپە قوشاي
 listen = ئاڭلاي
+write = يازاي
+review = تەكشۈرەي
 skip = ئاتلا
 shortcuts = تېزلەتمە
 clips-with-count-pluralized =
