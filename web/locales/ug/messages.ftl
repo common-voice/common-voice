@@ -1343,3 +1343,4 @@ varying-pronunciations-example = يول ئېنىق ئەمەس.
 varying-pronunciations-tip-1 = [كانادا ئىنگلىزچىسىدا «route» نى «rowt» تەلەپپۇز قىلىشى مۇمكىن]
 varying-pronunciations-tip-2 = [ئەنگلىيە ئىنگلىزچىسىدا «root» تەلەپپۇز قىلىنىشى مۇمكىن]
 misreadings-explanation-2 = كۆپ ئۇچرايدىغان خاتالىقلار:
+misreadings-explanation-3 = ئۈنگە ئېلىشنىڭ بېشىدىكى «A» ياكى «The» كەم.
