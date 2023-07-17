@@ -593,7 +593,13 @@ about-playbook-how-add-language-content-1 =
     ئىككى باسقۇچ بار. بېكەتنى تەرجىمە قىلىش ۋە جۈملىلەرنى توپلاش
 about-playbook-how-add-language-translating-heading = بېكەتنى تەرجىمە قىلىش
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> پونتوننى قانداق ئىشلىتىش توغرىسىدىكى يېتەكچىنى كۆرۈڭ. </translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    بىز تەرجىمە ئۈچۈن <pontoonLink>Pontoon</pontoonLink> دەپ ئاتىلىدىغان Mozilla قورالىنى ئىشلىتىمىز. Pontoon دا نۇرغۇن تىللار بار،
+    ئەمما ئۇنىڭدا تىلىڭىز بولمىسا، <pontoonRequestLink> تىلىڭىزنىڭ قوشۇشنى تەلەپ قىلسىڭىز بولىدۇ</pontoonRequestLink>.
+    ئاندىن، Common Voice قۇرۇلۇشىدا تىلنى ئىشلىتىش ئۈچۈن،
+    <githubRepoLink> GitHub دا يېڭى تىلنى ئىلتىماس قىلىڭ<githubRepoLink>. <localizationFragment> تەپسىلاتىنى تور بەت تەرجىمىسىدىن كۆرۈڭ</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = جۈملە توپلاش
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جۈملىلەرنى يىغىش قوللانمىسىنى كۆرۈڭ</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> جۈملىلەرنى توپلاش </ entenceCollectorFragment> دىكى تېخىمۇ كۆپ مەزمۇنلارنى كۆرۈڭ.
 
 ## How does localization work
@@ -1279,4 +1285,5 @@ sc-validation-no-abbreviations = جۈملىدە قىسقارتىلما ئاتا�
 
 # [/SentenceCollector]
 
+add-information-button = ئۇچۇر قوش
 sentence-collection = جۈملە توپلىمى
