@@ -53,8 +53,8 @@ export default class API {
     this.statistics = new Statistics(this.model);
     this.challenge = new Challenge(this.model);
     this.email = new Email();
-    this.bucket = new Bucket(this.model, this.s3);
-    this.takeout = new Takeout(this.model.db.mysql, this.s3, this.bucket);
+    this.bucket = new Bucket(this.model);
+    this.takeout = new Takeout(this.model.db.mysql, this.bucket);
   }
 
   getRouter(): Router {

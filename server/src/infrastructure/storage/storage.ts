@@ -4,6 +4,7 @@ import { getConfig } from '../../config-helper'
 import { Readable } from 'stream'
 import { StatusCodes } from 'http-status-codes'
 import { Metadata } from '@google-cloud/storage/build/src/nodejs-common'
+import { TransferManager } from '@google-cloud/storage/build/src/transfer-manager'
 
 const TWELVE_HOURS_IN_MS = 1000 * 60 * 60 * 12
 
@@ -130,6 +131,19 @@ const getMetadata =
     )
   }
 
+const downloadFile =
+  (storage: Storage) =>
+  (bucket: string) =>
+  (path: string): TE.TaskEither<Error, Buffer> => {
+    return TE.tryCatch(
+      async () => {
+        const [buffer] = await storage.bucket(bucket).file(path).download()
+        return buffer
+      },
+      (err: Error) => err
+    )
+  }
+
 export const streamUploadToBucket = streamUpload(storage)
 export const uploadToBucket = upload(storage)
 export const doesFileExistInBucket = fileExists(storage)
@@ -138,3 +152,4 @@ export const getSignedUrlFromBucket = getSignedUrl(storage)
 export const getPublicUrlFromBucket = getPublicUrl(storage)
 export const getMetadataFromFile = getMetadata(storage)
 export const deleteFileFromBucket = deleteFile(storage)
+export const downloadFileFromBucket = downloadFile(storage)

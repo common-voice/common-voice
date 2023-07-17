@@ -15,10 +15,6 @@ export namespace AWS {
     ...getConfig().CINCHY_CONFIG,
   });
 
-  export function getS3() {
-    return s3;
-  }
-
   export function getSqs() {
     return sqs;
   }
