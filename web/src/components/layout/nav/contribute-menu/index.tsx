@@ -1,12 +1,14 @@
-import * as React from 'react';
-import classNames from 'classnames';
-import { Localized } from '@fluent/react';
-import { RouteComponentProps, withRouter } from 'react-router';
+import * as React from 'react'
+import classNames from 'classnames'
+import { Localized } from '@fluent/react'
+import { RouteComponentProps, withRouter } from 'react-router'
 
-import { TextButton } from '../../ui/ui';
-import { ChevronDown } from '../../ui/icons';
-import { ContributeMenuContent } from './contribute-menu-content';
-import URLS from '../../../urls';
+import { TextButton } from '../../../ui/ui'
+import { ChevronDown } from '../../../ui/icons'
+import { ContributeMenuContent } from '../contribute-menu-content'
+import URLS from '../../../../urls'
+
+import './contribute-menu.css'
 
 interface ContributeMenuProps extends RouteComponentProps {
   showMenu: boolean
@@ -100,4 +102,4 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   )
 }
 
-export default withRouter(ContributeMenu);
+export default withRouter(ContributeMenu)
