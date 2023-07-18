@@ -758,6 +758,9 @@ more = تېخىمۇ كۆپ
 close = تاقا
 download = چۈشۈر
 dataset-version = نەشرى
+sha256-checksum-copied = SHA256 يىغىندا تەكشۈرۈش كۆچۈرۈلدى!
+sha256-checksum-copied-error = SHA256 يىغىندا تەكشۈرۈشىنى كۆچۈرەلمىدى
+clipboard-not-supported = چاپلاش تاختىسىنى قوللىمايدۇ
 
 ## Download Modal
 
@@ -791,6 +794,11 @@ other-language = باشقا تىل
 ## Request Language Pages
 
 request-language-heading = يېڭى تىل ھەققىدە سوئال سوراڭ
+request-language-explanation-1 =
+    تىلىڭىزنىڭ تىزىملىكتە بار-يوقلۇقىنى تەكشۈرۈڭ
+    <languagesPageLink> Common Voice تىللار بېتى </languagesPageLink>.
+    ئەگەر ئۇنداق بولمىسا، بۇ جەدۋەلنى تولدۇرۇڭ، بىز <strong>سىزگە قۇلايلىق ئېلخەت ئەۋەتىمىز
+    خەتتە تىلىڭىزنى قانداق تەڭشەش چۈشەندۈرۈلگەن </ strong>.
 request-language-form-email =
     .label = ئېلخەت ئادرېسىڭىز
 request-language-form-info =
@@ -1197,7 +1205,12 @@ sc-howto-findpd-tips = جۈملە توپلاش ئۇسۇللىرى:
 ## MY SENTENCES
 
 sc-my-title = جۈملىلىرىم
+sc-my-loading = جۈملىڭىزنى يۈكلەۋاتىدۇ…
+sc-my-err-fetching = جۈملىڭىزنى ئالغاندا خاتالىق كۆرۈلدى. قايتا سىناڭ.
 sc-my-no-sentences = جۈملە تېپىلمىدى!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = يوللاش: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = مەنبە: { $source }
@@ -1209,6 +1222,7 @@ sc-my-err-failed-delete = تاللانغان جۈملىنى ئۆچۈرەلمىد
 
 sc-rejected-title = رەت قىلىنغان جۈملىلەر
 sc-rejected-loading = رەت قىلىنغان جۈملىلەرنى يۈكلەۋاتىدۇ…
+sc-rejected-err-fetching = رەت قىلىنغان جۈملىلەرنى ئالغاندا خاتالىق كۆرۈلدى. قايتا سىناڭ.
 sc-rejected-none-found = رەت قىلىنغان جۈملىلەر تېپىلمىدى!
 
 ## STATS
