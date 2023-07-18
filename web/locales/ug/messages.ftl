@@ -983,8 +983,8 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-        [one] Common Voice نىڭ  { $language } دىكى { $hours } سائەت شەخسى نىشانغا يېتىشىگە ياردەم قىلىڭ
-       *[other] Common Voice نىڭ  { $language } دىكى { $hours } سائەت شەخسى نىشانغا يېتىشىگە ياردەم قىلىڭ
+        [one] Common Voice نىڭ { $hours } سائەت شەخسى نىشانغا يېتىشىگە ياردەم قىلىڭ
+       *[other] Common Voice نىڭ { $hours } سائەت شەخسى نىشانغا يېتىشىگە ياردەم قىلىڭ
     }
 set-a-goal = نىشان بەلگىلەڭ
 cant-decide = قارار قىلالمىدىڭىزمۇ؟
