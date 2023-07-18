@@ -1,9 +1,7 @@
-import * as crypto from 'crypto';
 import { S3 } from 'aws-sdk';
 import { NextFunction, Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
 import { getConfig } from '../config-helper';
-import { AWS } from './aws';
 import Model from './model';
 import getLeaderboard from './model/leaderboard';
 import { earnBonus, hasEarnedBonus } from './model/achievements';
@@ -15,11 +13,10 @@ import { checkGoalsAfterContribution } from './model/goals';
 import { ChallengeToken, challengeTokens } from 'common';
 import validate from './validation';
 import { clipsSchema } from './validation/clips';
-import { uploadToBucket } from '../infrastructure/storage/storage';
+import { streamUploadToBucket } from '../infrastructure/storage/storage';
 import { pipe } from 'fp-ts/lib/function';
 import {taskEither as TE, task as T, identity as Id} from 'fp-ts';
 
-const fs = require('fs');
 const { promisify } = require('util');
 const Transcoder = require('stream-transcoder');
 const { Converter } = require('ffmpeg-stream');
@@ -325,7 +322,7 @@ export default class Clip {
         .pipe(pass);
 
       await pipe(
-        uploadToBucket,
+        streamUploadToBucket,
         Id.ap(getConfig().CLIP_BUCKET_NAME),
         Id.ap(clipFileName),
         Id.ap(audioOutput),
