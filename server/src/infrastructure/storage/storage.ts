@@ -4,7 +4,6 @@ import { getConfig } from '../../config-helper'
 import { Readable } from 'stream'
 import { StatusCodes } from 'http-status-codes'
 import { Metadata } from '@google-cloud/storage/build/src/nodejs-common'
-import { TransferManager } from '@google-cloud/storage/build/src/transfer-manager'
 
 const TWELVE_HOURS_IN_MS = 1000 * 60 * 60 * 12
 
