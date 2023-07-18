@@ -161,6 +161,21 @@ const VARIANTS: Variant[] = [
     locale_name: 'ca',
     variant_name: 'Alguerès',
     variant_token: 'ca-algueres',
+  },
+  {
+    locale_name: 'zgh',
+    variant_name: 'ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)',
+    variant_token: 'zgh-shi',
+  },
+  {
+    locale_name: 'zgh',
+    variant_name: 'ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)',
+    variant_token: 'zgh-tzm',
+  },
+  {
+    locale_name: 'zgh',
+    variant_name: 'ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)',
+    variant_token: 'zgh-rif',
   }
 ];
 
