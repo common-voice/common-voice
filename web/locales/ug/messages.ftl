@@ -803,11 +803,16 @@ request-language-form-email =
     .label = ئېلخەت ئادرېسىڭىز
 request-language-form-info =
     .label = تىل ھەققىدىكى ئۇچۇرلار
+request-language-form-info-explanation =
+    تىل ھەققىدە ئىمكانقەدەر كۆپرەك ئۇچۇر قوشۇڭ. بۇ
+    تۆۋەندىكىلەرنى ئۆز ئىچىگە ئالىدۇ:
 request-language-form-info-explanation-list-1 = تىلىڭىزنىڭ نامى
 request-language-form-info-explanation-list-2 = ئەگەر bfr بولسا <isoCodeLink> ISO كودى </isoCodeLink>
 request-language-form-info-explanation-list-3 = مەزكۇر تىلنى چۈشىنىشىمىزگە ياردەم بېرەلەيدىغان تور بېكەتلەرگە ئۇلىنىش
 request-language-google-recaptcha-required = داۋاملاشتۇرماقچى بولسىڭىز reCAPTCHA تەلەپ قىلىنىدۇ
 request-language-google-recaptcha-error = ReCAPTCHA دا مەسىلە كۆرۈلدى. قايتا سىناڭ.
+# Success page
+request-language-success-heading = رەھمەت سىزگە! يېڭى تىل قوشۇش ئىلتىماسىنى ئەۋەتتىڭىز
 
 ## Languages Overview
 
@@ -1134,6 +1139,8 @@ contribution-criteria-link = تۆھپە ئۆلچىمىنى چۈشىنىڭ
 contribution-criteria-page-title = تۆھپە ئۆلچىمى
 contribution-for-example = مەسىلەن
 contribution-misreadings-title = خاتا ئوقۇلغانلار
+contribution-misreadings-description-extended-list-1 = ئۈن خاتىرىلەشنىڭ بېشىدا <strong>«A»</strong> ياكى <strong>«The»</strong> كەم.
+contribution-misreadings-description-extended-list-2 = بىر سۆزنىڭ ئاخىرىدا <strong>«s»</strong> كەم.
 contribution-misreadings-description-extended-list-5 = بىر سۆزنى بىر قانچە قانچە قېتىم ئوقۇشقا ئۇرۇنغان.
 contribution-misreadings-example-1-title = ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرلىرى.
 contribution-misreadings-example-2-title = ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرى.
@@ -1153,7 +1160,10 @@ contribution-varying-pronunciations-title = ھەرخىل تەلەپپۇزلار
 contribution-background-noise-title = مۇھىت شاۋقۇنى
 contribution-background-voices-title = مۇھىت ئاۋازى
 contribution-volume-title = ئاۋاز
+contribution-reader-effects-title = ئوقۇرمەن ئۈنۈمى
+contribution-just-unsure-title = ئانچە ئېنىق ئەمەسمۇ؟
 see-more = <chevron> </chevron> تېخىمۇ كۆپ
+see-less = <chevron></chevron>ئاز كۆرسەت
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
