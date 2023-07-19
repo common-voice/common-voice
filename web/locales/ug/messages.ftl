@@ -1268,12 +1268,30 @@ sc-add-lang-could-not-add = تىل قوشقىلى بولمىدى.
 sc-add-lang-sec-label = تۆھپە قوشماقچى بولغان تىلنى قوشۇڭ
 sc-add-lang-sec-button = تىل قوشۇڭ
 sc-add-err-unexpected = مۇلازىمېتىردىن كۈتۈلمىگەن جاۋاب قايتۇرۇلدى
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] ھېچقانداق جۈملە مەغلۇپ بولمىدى
+        [one] { $sentences } جۈملە مەغلۇپ بولدى
+       *[other] { $sentences } جۈملە مەغلۇپ بولدى
+    }
 sc-add-err-submission = يوللاش مەغلۇب بولدى
 sc-add-lang-process-notice = ئەگەر تىلىڭىز بۇ يەردە بولمىسا ، <languageProcessLink> بۇ جەريان  </languageProcessLink> ئارقىلىق تەلەپ قىلسىڭىز بولىدۇ.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = جۈملىلەر تاپشۇرۇلمىدى ، راستىنلا ئايرىلماقچىمۇسىز؟
 sc-confirm-sentences-title = يېڭى جۈملىلەرنى جەزملەش
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] ھېچقانداق جۈملە تېپىلمىدى
+        [one] { $countOfSentences } جۈملە تېپىلدى
+       *[other] { $countOfSentences } جۈملە تېپىلدى
+    }
 sc-confirm-button-text = جەزملەشتۈرۈڭ
 
 ## LANGUAGE INFO
