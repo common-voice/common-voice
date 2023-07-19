@@ -1204,13 +1204,21 @@ sc-home-review-text = كۆرسەتمىلەرگە ئاساسەن جۈملىلەر
 ## HOW-TO
 
 sc-howto-title = قانداق قىلىمەن
+sc-howto-addlang-title = تۆھپە قوشىدىغان تىل قوشۇلىدۇ
 sc-howto-addsen-title = يېڭى جۈملە قوشۇش
+sc-howto-cite-title = قانداق نەقىل ئالىدۇ
 sc-howto-review-title = جۈملىلەرنى تەكشۈرۈش
 sc-howto-review-subtitle = جۈملىنىڭ تۆۋەندىكى ئۆلچەملەرگە ماس كېلىدىغانلىقىنى جەزملەشتۈرۈڭ:
 sc-howto-review-criteria-1 = جۈملىنىڭ ئىملاسى چوقۇم توغرا يېزىلىشى كېرەك.
+sc-howto-review-criteria-2 = جۈملىنىڭ گرامماتىكىسى چوقۇم توغرا بولۇشى كېرەك.
+sc-howto-review-criteria-3 = جۈملىنى سۆزلىگىلى بولىدىغان بولۇشى كېرەك.
 sc-howto-review-criteria-4 = ئەگەر  جۈملە بۇ ئۆلچەمگە توشسا ، «تەستىقلاش» كۇنۇپكىسىنى بېسىڭ.
+sc-howto-review-criteria-6 = ئەگەر تەكشۈرىدىغان جۈملە تۈگەپ كەتسە، تېخىمۇ كۆپ جۈملە توپلىشىمىزغا ياردەم قىلىڭ.
+sc-howto-findpd-title = ئاممىۋى دائىرىدە جۈملىنىڭ مەۋجۇت ئىكەنلىكى بايقالدى
 sc-howto-findpd-subtitle = توردىن ئىزدەش
 sc-howto-findpd-tips = جۈملە توپلاش ئۇسۇللىرى:
+sc-howto-findpd-tips-3 = ئەپسۇسكى ۋىكى ۋاسىتە ماقالىلىرىنى ئىشلىتەلمەيمىز. شۇڭلاشقا ئۇ جايدىن كۆچۈرۈپ چاپلىماڭ.
+sc-howto-findpd-subtitle-2 = يەرلىك تەشكىلاتلار ياكى شەخسلەر بىلەن ھەمكارلاشقۇچى
 
 ## MY SENTENCES
 
@@ -1239,6 +1247,7 @@ sc-rejected-none-found = رەت قىلىنغان جۈملىلەر تېپىلمى
 
 sc-stats-title = ئىستاتىستىكا
 sc-stats-updating = يېڭىلىنىۋاتىدۇ...
+sc-stats-error = ھالىتىگە ئېرىشەلمىدۇق. سەل تۇرۇپ قايتا سىناڭ.
 
 ## ADD
 
@@ -1258,6 +1267,7 @@ sc-submit-button =
 sc-add-lang-could-not-add = تىل قوشقىلى بولمىدى.
 sc-add-lang-sec-label = تۆھپە قوشماقچى بولغان تىلنى قوشۇڭ
 sc-add-lang-sec-button = تىل قوشۇڭ
+sc-add-err-unexpected = مۇلازىمېتىردىن كۈتۈلمىگەن جاۋاب قايتۇرۇلدى
 sc-add-err-submission = يوللاش مەغلۇب بولدى
 sc-add-lang-process-notice = ئەگەر تىلىڭىز بۇ يەردە بولمىسا ، <languageProcessLink> بۇ جەريان  </languageProcessLink> ئارقىلىق تەلەپ قىلسىڭىز بولىدۇ.
 
