@@ -934,7 +934,7 @@ streaks = سىزىقچە
 days =
     { $count ->
         [one] كۈن
-       *[other] كۈنلەر
+       *[other] كۈن
     }
 recordings =
     { $count ->
@@ -943,8 +943,8 @@ recordings =
     }
 validations =
     { $count ->
-        [one] دەلىل
-       *[other] دەلىللەر
+        [one] دەلىللەش
+       *[other] دەلىللەش
     }
 
 ## Dashboard
@@ -961,7 +961,7 @@ awards = مۇكاپات
 you = سىز
 everyone = ھەممەيلەن
 contribution-activity = تۆھپە پائالىيىتى
-top-contributors = يۇقىرى تۆھپىكارلار
+top-contributors = ئەجرى كۆپ تۆھپىكارلار
 recorded-clips = ئۈنگە ئېلىنغان ئاۋازلار
 validated-clips = دەلىللەنگەن ئاۋازلار
 total-approved = ئومۇمىي تەستىقلاندى
