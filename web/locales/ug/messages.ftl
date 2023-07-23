@@ -1211,8 +1211,10 @@ sc-home-review-text = كۆرسەتمىلەرگە ئاساسەن جۈملىلەر
 
 sc-howto-title = قانداق قىلىمەن
 sc-howto-addlang-title = تۆھپە قوشىدىغان تىل قوشۇلىدۇ
+sc-howto-addlang-text = تىزىمغا كىرگەندىن كېيىن تەرجىمىھا بۆلىكىدىن تىلىڭىزنى تاللىيالايسىز.
 sc-howto-addsen-title = يېڭى جۈملە قوشۇش
 sc-howto-cite-title = قانداق نەقىل ئالىدۇ
+sc-howto-cite-item-1 = تور بېكەتنى ئىچىگە ئالالايسىز، مەسىلەن، «Common Voice - https://commonvoice.mozilla.org/»
 sc-howto-review-title = جۈملىلەرنى تەكشۈرۈش
 sc-howto-review-subtitle = جۈملىنىڭ تۆۋەندىكى ئۆلچەملەرگە ماس كېلىدىغانلىقىنى جەزملەشتۈرۈڭ:
 sc-howto-review-criteria-1 = جۈملىنىڭ ئىملاسى چوقۇم توغرا يېزىلىشى كېرەك.
