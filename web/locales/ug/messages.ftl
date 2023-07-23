@@ -1259,6 +1259,10 @@ sc-rejected-none-found = رەت قىلىنغان جۈملىلەر تېپىلمى
 sc-stats-title = ئىستاتىستىكا
 sc-stats-updating = يېڭىلىنىۋاتىدۇ...
 sc-stats-error = ھالىتىگە ئېرىشەلمىدۇق. سەل تۇرۇپ قايتا سىناڭ.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = بۇ Common Voice جۈملە توپلىغۇچ { $languageCount } تىلدىكى { $sentenceCount } جۈملە توپلىدى!
 
 ## ADD
 
@@ -1277,8 +1281,11 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = بۇ <wikipediaLink>ئاممىۋى دائىرە</wikipediaLink> جۈملىلىرى نەدىن كەلگەن؟
 sc-submit-ph-read-how-to =
     .placeholder = قانداق خاسلاشتۇرۇشنى بىلمىسىڭىز قانداق قىلىش ئۇسۇلىمىزنى ئوقۇڭ
+sc-submit-confirm = مەن بۇ جۈملىلەرنىڭ <wikipediaLink>ئاممىۋى دائىرە</wikipediaLink> دە ئىكەنلىكىنى جەزملەشتۈرىمەن ھەمدە ئۇلارنى يۈكلەش ھوقۇقۇم بار.
 sc-submit-button =
     .submitText = يوللاش
+sc-submit-filtered = تەلەپكە چۈشمەي سۈزۈلگەن جۈملىلەر (تۈزىتىلگەن نەشرىنى يېڭى جۈملە سۈپىتىدە يوللاڭ):
+sc-submit-guidelines = <howToLink>كۆرسەتمە</howToLink> نى تەكشۈرۈڭ.
 
 ## ADD LANGUAGE
 
