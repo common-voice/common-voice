@@ -1294,6 +1294,14 @@ sc-add-lang-sec-label = تۆھپە قوشماقچى بولغان تىلنى قو
 sc-add-lang-sec-button = تىل قوشۇڭ
 sc-add-err-unexpected = مۇلازىمېتىردىن كۈتۈلمىگەن جاۋاب قايتۇرۇلدى
 # Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] يوللانغان جۈملە. { $duplicates } جۈملە تەكرارلانغان دەپ رەت قىلىندى.
+        [one] يوللانغان جۈملە. { $duplicates } جۈملە تەكرارلانغان دەپ رەت قىلىندى.
+       *[other] يوللانغان جۈملە. { $duplicates } جۈملە تەكرارلانغان دەپ رەت قىلىندى.
+    }
+# Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
@@ -1317,6 +1325,9 @@ sc-confirm-sentences-found =
         [one] { $countOfSentences } جۈملە تېپىلدى
        *[other] { $countOfSentences } جۈملە تېپىلدى
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } جۈملىنى رەت قىلدىڭىز.
 sc-confirm-button-text = جەزملەشتۈرۈڭ
 
 ## LANGUAGE INFO
