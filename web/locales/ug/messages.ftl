@@ -1331,7 +1331,32 @@ sc-lang-info-total =
         [one] جەمئىي { $totalSentences } جۈملە.
        *[other] جەمئىي { $totalSentences } جۈملە.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] تەكشۈرىدىغان ھېچقانداق جۈملە يوق.
+        [one] تەكشۈرۈلىدىغىنى { $totalInReview } جۈملە.
+       *[other] تەكشۈرۈلىدىغىنى { $totalInReview } جۈملە.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] تەكشۈرىدىغان ھېچقانداق جۈملە يوق.
+        [one] تەكشۈرىدىغان { $unreviewedSentencesByYou } جۈملە قالدى.
+       *[other] تەكشۈرىدىغان { $unreviewedSentencesByYou } جۈملە قالدى.
+    }
 sc-lang-info-review-now = <reviewLink>ھازىرلا تەستىقلاش!</reviewLink>
+sc-lang-info-add-more = <addLink>ھازىرلا تېخىمۇ كۆپ جۈملە قوشاي!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] دەلىللەنگەن ھېچقانداق جۈملە يوق.
+        [one] دەلىللەنگەن جۈملە { $validatedSentences }.
+       *[other] دەلىللەنگەن جۈملە { $validatedSentences }.
+    }
 
 ## LOGIN
 
