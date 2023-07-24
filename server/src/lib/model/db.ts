@@ -310,7 +310,7 @@ export default class DB {
         FROM (
           SELECT id, text
           FROM sentences
-          WHERE is_used AND locale_id = ? AND NOT EXISTS (
+          WHERE is_used AND locale_id = ? AND clips_count <= 15 AND NOT EXISTS (
             SELECT original_sentence_id
             FROM clips
             WHERE clips.original_sentence_id = sentences.id AND
