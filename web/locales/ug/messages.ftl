@@ -1328,6 +1328,20 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } جۈملىنى رەت قىلدىڭىز.
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] { "" }
+        [one] { "" }
+       *[other] { $countOfReviewed } جۈملە تەكشۈرۈلدى. ئەجرىڭىزگە بارىكاللا!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] { "" }
+        [one] { "" }
+       *[other] { $readyCount } جۈملە يوللاشقا تەييار بولدى!
+    }
 sc-confirm-button-text = جەزملەشتۈرۈڭ
 
 ## LANGUAGE INFO
@@ -1409,6 +1423,9 @@ sc-criteria-item-4 = ئەگەر جۈملە بۇ ئۆلچەمگە توشسا، ئ
 ## REVIEW
 
 sc-review-title = جۈملىلەرنى تەستىقلاش
+sc-review-loading = جۈملىلەرنى يۈكلەۋاتىدۇ…
+sc-review-select-language = جۈملىلەرنى تەكشۈرىدىغان تىلدىن بىرنى تاللاڭ.
+sc-review-no-sentences = تەكشۈرىدىغان ھېچقانداق جۈملە يوق. <addLink>ھازىرلا تېخىمۇ كۆپ جۈملە قوشاي!</addLink>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = مەنبە: { $sentenceSource }
