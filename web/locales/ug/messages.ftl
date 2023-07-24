@@ -1357,6 +1357,14 @@ sc-lang-info-validated =
         [one] دەلىللەنگەن جۈملە { $validatedSentences }.
        *[other] دەلىللەنگەن جۈملە { $validatedSentences }.
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] رەت قىلىنغان ھېچقانداق جۈملە يوق.
+        [one] رەت قىلىنغان جۈملە { $rejectedSentences }.
+       *[other] رەت قىلىنغان جۈملە { $rejectedSentences }.
+    }
 
 ## LOGIN
 
@@ -1383,6 +1391,9 @@ sc-criteria-modal = ⓘ تەستىقلاش ئۆلچىمى
 sc-criteria-title = تەستىقلاش ئۆلچىمى
 sc-criteria-make-sure = جۈملىنىڭ تۆۋەندىكى ئۆلچەملەرگە ماس كېلىدىغانلىقىنى جەزملەشتۈرۈڭ:
 sc-criteria-item-1 = جۈملىنىڭ ئىملاسى چوقۇم توغرا يېزىلىشى كېرەك.
+sc-criteria-item-2 = جۈملىنىڭ گرامماتىكىسى چوقۇم توغرا بولۇشى كېرەك.
+sc-criteria-item-3 = جۈملىنى سۆزلىگىلى بولىدىغان بولۇشى كېرەك.
+sc-criteria-item-4 = ئەگەر جۈملە بۇ ئۆلچەمگە توشسا، ئوڭ تەرەپتىكى «تەستىقلا» توپچىسى بېسىلىدۇ.
 
 ## REVIEW
 
