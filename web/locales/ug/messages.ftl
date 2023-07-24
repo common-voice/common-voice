@@ -1426,6 +1426,8 @@ sc-review-title = جۈملىلەرنى تەستىقلاش
 sc-review-loading = جۈملىلەرنى يۈكلەۋاتىدۇ…
 sc-review-select-language = جۈملىلەرنى تەكشۈرىدىغان تىلدىن بىرنى تاللاڭ.
 sc-review-no-sentences = تەكشۈرىدىغان ھېچقانداق جۈملە يوق. <addLink>ھازىرلا تېخىمۇ كۆپ جۈملە قوشاي!</addLink>
+sc-review-form-prompt =
+    .message = تەكشۈرۈلگەن جۈملە يوللانمىدى، شۇنداقمۇ؟
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = مەنبە: { $sentenceSource }
@@ -1455,13 +1457,27 @@ sc-review-link = تەكشۈرۈش
 sc-settings-title = تەڭشەك
 sc-settings-ui-language = بەت يۈزى تىلى
 sc-settings-reset-skipped = ئاتلانغان جۈملىنى ئەسلىگە كەلتۈرىدۇ
+sc-settings-show-all-button = ئاتلاپ كەتكەن بارلىق جۈملىلەرنى قايتا كۆرسىتىدۇ
 sc-settings-failed = تەڭشەكنى ئۆزگەرتكىلى بولمىدى، قايتا سىناڭ.
+# VALIDATION
+sc-validation-number-of-words = جۈملىدە 1 دىن 14 كىچە سۆز بولۇشى لازىم
 sc-validation-no-numbers = جۈملىدە رەقەم بولماسلىقى كېرەك
 sc-validation-no-symbols = جۈملىدە بەلگىلەر بولماسلىقى كېرەك
 sc-validation-no-abbreviations = جۈملىدە قىسقارتىلما ئاتالغۇلار بولماسلىقى كېرەك
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = تىل/يەرلىكلەشتۈرۈش تاللىنىدۇ
+# PARTNERSHIPS PAGE
+partnerships-header = ھەمكارلاشقۇچىلار
+partnerships-get-in-touch = ئالاقىلىشىڭ
+partnerships-become-a-partner = Common Voice ھەمكارلاشقۇچىسى بولۇڭ
+partnerships-community-header = مەھەللە، ئىجادكارلار ۋە پۇقرالار جەمئىيىتى
+partnerships-foundations-header = ۋەخپىلەر
+partnerships-governments-header = ھۆكۈمەتلەر
+partnerships-academia-header = ئالىي مەكتەپ، ئالىم ۋە تەتقىقاتچىلار
+partnerships-small-business-header = تېخنىكا ۋە سۈنئىي ئەقىلنى ئۆز ئىچىگە ئالغان كىچىك كارخانىلار
 add-information-button = ئۇچۇر قوش
 continue-speaking-button = رەھمەت، داۋاملىق سۆزلەي
 create-profile-text = ئۇچۇرلىرىڭىزنى ساقلىماقچىمۇ؟ <createProfile>تەرجىمىھال قۇرۇش</createProfile>
