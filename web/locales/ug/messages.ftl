@@ -1419,9 +1419,11 @@ sc-criteria-item-1 = جۈملىنىڭ ئىملاسى چوقۇم توغرا يې�
 sc-criteria-item-2 = جۈملىنىڭ گرامماتىكىسى چوقۇم توغرا بولۇشى كېرەك.
 sc-criteria-item-3 = جۈملىنى سۆزلىگىلى بولىدىغان بولۇشى كېرەك.
 sc-criteria-item-4 = ئەگەر جۈملە بۇ ئۆلچەمگە توشسا، ئوڭ تەرەپتىكى «تەستىقلا» توپچىسى بېسىلىدۇ.
+sc-criteria-item-6 = ئەگەر تەكشۈرىدىغان جۈملە تۈگەپ كەتسە، تېخىمۇ كۆپ جۈملە توپلىشىمىزغا ياردەم قىلىڭ.
 
 ## REVIEW
 
+sc-review-lang-not-selected = سىز ھېچقانداق تىل تاللىمىدىڭىز. <profileLink> تەرجىمىھال</profileLink> ىڭىزغا كىرىپ تىل تاللاڭ.
 sc-review-title = جۈملىلەرنى تەستىقلاش
 sc-review-loading = جۈملىلەرنى يۈكلەۋاتىدۇ…
 sc-review-select-language = جۈملىلەرنى تەكشۈرىدىغان تىلدىن بىرنى تاللاڭ.
@@ -1450,6 +1452,7 @@ sc-review-form-reviewed-message =
         [one] 1جۈملە تەكشۈرۈلدى، رەھمەت سىزگە!
        *[other] { $sentences }جۈملە تەكشۈرۈلدى، رەھمەت سىزگە!
     }
+sc-review-form-review-failure = تەكشۈرۈشنى ساقلىيالمىدى. سەل تۇرۇپ قايتا سىناڭ.
 sc-review-link = تەكشۈرۈش
 
 ## SETTINGS
@@ -1480,6 +1483,8 @@ partnerships-academia-header = ئالىي مەكتەپ، ئالىم ۋە تەت�
 partnerships-small-business-header = تېخنىكا ۋە سۈنئىي ئەقىلنى ئۆز ئىچىگە ئالغان كىچىك كارخانىلار
 partnerships-corporates-header = چوڭ تىپتىكى شىركەت ۋە سۇپا شىركەتلىرى
 partnerships-our-partners = شېرىكلىرىمىز
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ئاۋازىڭىزنى ئىئانە قىلغانلىقىڭىزغا رەھمەت!
 add-information-button = ئۇچۇر قوش
 continue-speaking-button = رەھمەت، داۋاملىق سۆزلەي
 create-profile-text = ئۇچۇرلىرىڭىزنى ساقلىماقچىمۇ؟ <createProfile>تەرجىمىھال قۇرۇش</createProfile>
