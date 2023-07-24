@@ -1323,6 +1323,14 @@ sc-confirm-button-text = جەزملەشتۈرۈڭ
 
 sc-lang-info-title-total = جەمئىي
 sc-lang-info-title-personal = شەخسىي
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] ھېچقانداق جۈملە يوق.
+        [one] جەمئىي { $totalSentences } جۈملە.
+       *[other] جەمئىي { $totalSentences } جۈملە.
+    }
 sc-lang-info-review-now = <reviewLink>ھازىرلا تەستىقلاش!</reviewLink>
 
 ## LOGIN
