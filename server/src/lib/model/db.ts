@@ -205,7 +205,7 @@ export default class DB {
         c.original_sentence_id as original_sentence_id
         FROM clips c
         LEFT JOIN sentences s ON s.id = c.original_sentence_id and c.locale_id = ?
-        WHERE c.is_valid IS NULL AND s.clips_count <= 15
+        WHERE c.is_valid IS NULL AND (s.clips_count <= 15 OR s.clips_count IS NULL)
         ORDER BY rand()
         limit ?
       `,

@@ -203,7 +203,7 @@ udm = ئۇدمۇرتچە
 ug = ئۇيغۇرچە
 uk = ئۇكرائىنچە
 ur = ئوردۇچە
-uz = ئۆزبەكچە
+uz = ئۆزبېكچە
 ve = ۋېنداچە
 vec = ۋېنداچە
 vi = ۋىيېتنامچە
@@ -803,11 +803,22 @@ request-language-form-email =
     .label = ئېلخەت ئادرېسىڭىز
 request-language-form-info =
     .label = تىل ھەققىدىكى ئۇچۇرلار
+request-language-form-info-explanation =
+    تىل ھەققىدە ئىمكانقەدەر كۆپرەك ئۇچۇر قوشۇڭ. بۇ
+    تۆۋەندىكىلەرنى ئۆز ئىچىگە ئالىدۇ:
 request-language-form-info-explanation-list-1 = تىلىڭىزنىڭ نامى
 request-language-form-info-explanation-list-2 = ئەگەر bfr بولسا <isoCodeLink> ISO كودى </isoCodeLink>
 request-language-form-info-explanation-list-3 = مەزكۇر تىلنى چۈشىنىشىمىزگە ياردەم بېرەلەيدىغان تور بېكەتلەرگە ئۇلىنىش
 request-language-google-recaptcha-required = داۋاملاشتۇرماقچى بولسىڭىز reCAPTCHA تەلەپ قىلىنىدۇ
 request-language-google-recaptcha-error = ReCAPTCHA دا مەسىلە كۆرۈلدى. قايتا سىناڭ.
+# Success page
+request-language-success-heading = رەھمەت سىزگە! يېڭى تىل قوشۇش ئىلتىماسىنى ئەۋەتتىڭىز
+request-language-success-list-1 =
+    قىسقا ۋاقىت ئىچىدە تىلىڭىزنى Common Voice قا قوشۇشنىڭ
+    قەدەم باسقۇچلىرى ھەققىدىكى ئېلخەت تاپشۇرۇۋېلىشىڭىز كېرەك.
+request-language-success-list-2 = قوشۇمچە ياردەم ئۈچۈن جامائەت باشقۇرغۇچىمىز سىز بىلەن ئالاقىلىشىدۇ ھەمدە ئەگەر جامائەت ئاللىبۇرۇن تىلىڭىزغا ئىشلەۋاتقان بولسا سىزگە بىلدۈرىدۇ
+request-language-success-list-3 = ئەگەر بىر قانچە كۈنگىچە بىزدىن ئۇچۇر تاپشۇرۇۋالمىسىڭىز، <emailLink>{ $email }</emailLink> بىلەن ئالاقىلاشسىڭىز، بىز سىزگە تېزلا جاۋاب قايتۇرىمىز!
+request-language-error = بىز ئۇ تەلەپنى تاپشۇرۇۋالمىغان بولۇشىمىز مۇمكىن. <emailLink>{ $email }</emailLink>  ئارقىلىق بىزگە بىۋاسىتە ئېلخەت يازسىڭىز، بىز سىزگە جاۋاب قايتۇرىمىز!
 
 ## Languages Overview
 
@@ -929,7 +940,7 @@ streaks = سىزىقچە
 days =
     { $count ->
         [one] كۈن
-       *[other] كۈنلەر
+       *[other] كۈن
     }
 recordings =
     { $count ->
@@ -938,8 +949,8 @@ recordings =
     }
 validations =
     { $count ->
-        [one] دەلىل
-       *[other] دەلىللەر
+        [one] دەلىللەش
+       *[other] دەلىللەش
     }
 
 ## Dashboard
@@ -956,7 +967,7 @@ awards = مۇكاپات
 you = سىز
 everyone = ھەممەيلەن
 contribution-activity = تۆھپە پائالىيىتى
-top-contributors = يۇقىرى تۆھپىكارلار
+top-contributors = ئەجرى كۆپ تۆھپىكارلار
 recorded-clips = ئۈنگە ئېلىنغان ئاۋازلار
 validated-clips = دەلىللەنگەن ئاۋازلار
 total-approved = ئومۇمىي تەستىقلاندى
@@ -1134,6 +1145,8 @@ contribution-criteria-link = تۆھپە ئۆلچىمىنى چۈشىنىڭ
 contribution-criteria-page-title = تۆھپە ئۆلچىمى
 contribution-for-example = مەسىلەن
 contribution-misreadings-title = خاتا ئوقۇلغانلار
+contribution-misreadings-description-extended-list-1 = ئۈن خاتىرىلەشنىڭ بېشىدا <strong>«A»</strong> ياكى <strong>«The»</strong> كەم.
+contribution-misreadings-description-extended-list-2 = بىر سۆزنىڭ ئاخىرىدا <strong>«s»</strong> كەم.
 contribution-misreadings-description-extended-list-5 = بىر سۆزنى بىر قانچە قانچە قېتىم ئوقۇشقا ئۇرۇنغان.
 contribution-misreadings-example-1-title = ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرلىرى.
 contribution-misreadings-example-2-title = ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرى.
@@ -1153,7 +1166,10 @@ contribution-varying-pronunciations-title = ھەرخىل تەلەپپۇزلار
 contribution-background-noise-title = مۇھىت شاۋقۇنى
 contribution-background-voices-title = مۇھىت ئاۋازى
 contribution-volume-title = ئاۋاز
+contribution-reader-effects-title = ئوقۇرمەن ئۈنۈمى
+contribution-just-unsure-title = ئانچە ئېنىق ئەمەسمۇ؟
 see-more = <chevron> </chevron> تېخىمۇ كۆپ
+see-less = <chevron></chevron>ئاز كۆرسەت
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1194,13 +1210,26 @@ sc-home-review-text = كۆرسەتمىلەرگە ئاساسەن جۈملىلەر
 ## HOW-TO
 
 sc-howto-title = قانداق قىلىمەن
+sc-howto-addlang-title = تۆھپە قوشىدىغان تىل قوشۇلىدۇ
+sc-howto-addlang-text = تىزىمغا كىرگەندىن كېيىن تەرجىمىھا بۆلىكىدىن تىلىڭىزنى تاللىيالايسىز.
 sc-howto-addsen-title = يېڭى جۈملە قوشۇش
+sc-howto-cite-title = قانداق نەقىل ئالىدۇ
+sc-howto-cite-item-1 = تور بېكەتنى ئىچىگە ئالالايسىز، مەسىلەن، «Common Voice - https://commonvoice.mozilla.org/»
 sc-howto-review-title = جۈملىلەرنى تەكشۈرۈش
 sc-howto-review-subtitle = جۈملىنىڭ تۆۋەندىكى ئۆلچەملەرگە ماس كېلىدىغانلىقىنى جەزملەشتۈرۈڭ:
 sc-howto-review-criteria-1 = جۈملىنىڭ ئىملاسى چوقۇم توغرا يېزىلىشى كېرەك.
+sc-howto-review-criteria-2 = جۈملىنىڭ گرامماتىكىسى چوقۇم توغرا بولۇشى كېرەك.
+sc-howto-review-criteria-3 = جۈملىنى سۆزلىگىلى بولىدىغان بولۇشى كېرەك.
 sc-howto-review-criteria-4 = ئەگەر  جۈملە بۇ ئۆلچەمگە توشسا ، «تەستىقلاش» كۇنۇپكىسىنى بېسىڭ.
+sc-howto-review-criteria-5 = ئەگەر بۇ جۈملە يۇقىرىقى ئۆلچەمگە توشمىسا، «رەت قىل» توپچىسىنى چېكىڭ. ئەگەر سىز بۇ جۈملىنى ئېنىق بىلمىسىڭىز، ئۇنى ئاتلاپ كېيىنكى جۈملىگە يۆتكەلسىڭىزمۇ بولىدۇ.
+sc-howto-review-criteria-6 = ئەگەر تەكشۈرىدىغان جۈملە تۈگەپ كەتسە، تېخىمۇ كۆپ جۈملە توپلىشىمىزغا ياردەم قىلىڭ.
+sc-howto-findpd-title = ئاممىۋى دائىرىدە جۈملىنىڭ مەۋجۇت ئىكەنلىكى بايقالدى
 sc-howto-findpd-subtitle = توردىن ئىزدەش
 sc-howto-findpd-tips = جۈملە توپلاش ئۇسۇللىرى:
+sc-howto-findpd-tips-1 = ئەڭ ياخشى مەنبەلەردىن كۈندىلىك پاراڭلارنى ئۆز ئىچىگە ئالغان رادىيو تارقىتىشى، كىنو خېتى، سىنارىيە قوليازمىسىنى ئۆز ئىچىگە ئالغان ھەر قانداق نەرسىنى ئىزدىسىڭىز بولىدۇ.
+sc-howto-findpd-tips-2 = ھۆكۈمەت ئىشلىرى، كىتاب ۋە ماقالىلەرمۇ ناھايىتى ياخشى، ئەمما تېكىست سەل رەسمىي بولۇشقا مايىل بولغاچقا، ئۇلار مۇھىم ئەمەس.
+sc-howto-findpd-tips-3 = ئەپسۇسكى ۋىكى ۋاسىتە ماقالىلىرىنى ئىشلىتەلمەيمىز. شۇڭلاشقا ئۇ جايدىن كۆچۈرۈپ چاپلىماڭ.
+sc-howto-findpd-subtitle-2 = يەرلىك تەشكىلاتلار ياكى شەخسلەر بىلەن ھەمكارلاشقۇچى
 
 ## MY SENTENCES
 
@@ -1229,31 +1258,65 @@ sc-rejected-none-found = رەت قىلىنغان جۈملىلەر تېپىلمى
 
 sc-stats-title = ئىستاتىستىكا
 sc-stats-updating = يېڭىلىنىۋاتىدۇ...
+sc-stats-error = ھالىتىگە ئېرىشەلمىدۇق. سەل تۇرۇپ قايتا سىناڭ.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = بۇ Common Voice جۈملە توپلىغۇچ { $languageCount } تىلدىكى { $sentenceCount } جۈملە توپلىدى!
 
 ## ADD
 
 sc-submit-err-select-lang = تىل تاللاڭ.
 sc-submit-err-add-sentences = جۈملە قوشۇڭ.
 sc-submit-err-add-source = مەنبە قوشۇڭ.
+sc-submit-err-confirm-pd = بۇ جۈملىلەرنىڭ ئاممىۋى دائىرىدە ئىكەنلىكىنى جەزملەڭ.
+sc-submit-prompt =
+    .message = جۈملىلەر تاپشۇرۇلمىدى ، راستىنلا ئايرىلماقچىمۇسىز؟
 sc-submit-title = جۈملە قوشۇش
 sc-submit-select-language =
     .labelText = تىل تاللاش
+sc-submit-add-sentences = <wikipediaLink> ئاممىۋى دائىرە </wikipediaLink> جۈملىلىرى قوشۇلىدۇ
 sc-submit-ph-one-per-line =
     .placeholder = بىر قۇرغا بىر جۈملە
+sc-submit-from-where = بۇ <wikipediaLink>ئاممىۋى دائىرە</wikipediaLink> جۈملىلىرى نەدىن كەلگەن؟
+sc-submit-ph-read-how-to =
+    .placeholder = قانداق خاسلاشتۇرۇشنى بىلمىسىڭىز قانداق قىلىش ئۇسۇلىمىزنى ئوقۇڭ
+sc-submit-confirm = مەن بۇ جۈملىلەرنىڭ <wikipediaLink>ئاممىۋى دائىرە</wikipediaLink> دە ئىكەنلىكىنى جەزملەشتۈرىمەن ھەمدە ئۇلارنى يۈكلەش ھوقۇقۇم بار.
 sc-submit-button =
     .submitText = يوللاش
+sc-submit-filtered = تەلەپكە چۈشمەي سۈزۈلگەن جۈملىلەر (تۈزىتىلگەن نەشرىنى يېڭى جۈملە سۈپىتىدە يوللاڭ):
+sc-submit-guidelines = <howToLink>كۆرسەتمە</howToLink> نى تەكشۈرۈڭ.
 
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = تىل قوشقىلى بولمىدى.
 sc-add-lang-sec-label = تۆھپە قوشماقچى بولغان تىلنى قوشۇڭ
 sc-add-lang-sec-button = تىل قوشۇڭ
+sc-add-err-unexpected = مۇلازىمېتىردىن كۈتۈلمىگەن جاۋاب قايتۇرۇلدى
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] ھېچقانداق جۈملە مەغلۇپ بولمىدى
+        [one] { $sentences } جۈملە مەغلۇپ بولدى
+       *[other] { $sentences } جۈملە مەغلۇپ بولدى
+    }
 sc-add-err-submission = يوللاش مەغلۇب بولدى
 sc-add-lang-process-notice = ئەگەر تىلىڭىز بۇ يەردە بولمىسا ، <languageProcessLink> بۇ جەريان  </languageProcessLink> ئارقىلىق تەلەپ قىلسىڭىز بولىدۇ.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = جۈملىلەر تاپشۇرۇلمىدى ، راستىنلا ئايرىلماقچىمۇسىز؟
 sc-confirm-sentences-title = يېڭى جۈملىلەرنى جەزملەش
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] ھېچقانداق جۈملە تېپىلمىدى
+        [one] { $countOfSentences } جۈملە تېپىلدى
+       *[other] { $countOfSentences } جۈملە تېپىلدى
+    }
 sc-confirm-button-text = جەزملەشتۈرۈڭ
 
 ## LANGUAGE INFO
@@ -1358,3 +1421,10 @@ varying-pronunciations-tip-1 = [كانادا ئىنگلىزچىسىدا «route�
 varying-pronunciations-tip-2 = [ئەنگلىيە ئىنگلىزچىسىدا «root» تەلەپپۇز قىلىنىشى مۇمكىن]
 misreadings-explanation-2 = كۆپ ئۇچرايدىغان خاتالىقلار:
 misreadings-explanation-3 = ئۈنگە ئېلىشنىڭ بېشىدىكى «A» ياكى «The» كەم.
+misreadings-explanation-4 = بىر سۆزنىڭ ئاخىرىدا «s» كەم.
+misreadings-explanation-6 = ئۈنگە ئېلىش بەك تېز بولۇپ ئەڭ ئاخىرقى سۆز كەم قالغان.
+misreadings-explanation-7 = بىر سۆزنى بىر قانچە قېتىم ئوقۇشقا تەمشەلگەن.
+misreadings-example-1 = بىز قەھۋە ئېلىشقا سىرتقا چىقماقچى.
+misreadings-example-2 = بىز قەھۋە ئېلىشقا سىرتقا چىقماقچى.
+misreadings-example-3 = بىز قەھۋە ئېلىشقا سىرتقا چىقماقچى.
+misreadings-example-4 = سېرىق ھەرە تېز سۈرئەتتە ئۇچۇپ كەتتى.
