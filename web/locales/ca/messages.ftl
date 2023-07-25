@@ -118,6 +118,7 @@ lij = lígur
 ln = lingala
 lo = laosià
 lt = lituà
+ltg = Latgalià
 lv = letó
 mai = maithili
 mdf = mokxa
@@ -1698,6 +1699,7 @@ required-field = Empleneu aquest camp.
 sc-review-instruction-first-part = Comproveu:
 sc-review-instruction-second-part = és una frase lingüísticament correcta?
 sc-review-empty-state = Actualment no hi cap frase per revisar en aquesta llengua.
+report-sc-different-language = Una altra llengua
 report-sc-different-language-detail = Està escrita en una llengua diferent de la que reviso.
 review-error = S'ha produït un error en revisar aquesta frase
 # SENTENCE-COLLECTOR-REDIRECT PAGE

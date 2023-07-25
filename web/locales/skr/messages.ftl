@@ -1662,6 +1662,7 @@ citing-sentences-subheader-offline-sources-explanation = پبلک ڈومین ٹ�
 citation =
     .label = حوالہ ݙیوݨ
 self-citation = خود حوالہ ݙیوݨ
+self-citation-explanation = جے تساں آپݨاں مواد خود آپ لکھے تاں آپݨاں حوالہ ایں طرحاں ݙیسو۔
 adding-sentences-subheader-length = لمباݨ
 adding-sentences-subheader-length-explanation = جملے وچ 15 کنوں گھٹ لفظ ہووݨے چاہیدے ہن۔
 adding-sentences-subheader-spelling-punctuation = ہجے تے علامتی اکھر
