@@ -1,5 +1,9 @@
 import * as React from 'react'
-import { Localized } from '@fluent/react'
+import {
+  Localized,
+  WithLocalizationProps,
+  withLocalization,
+} from '@fluent/react'
 import classNames from 'classnames'
 
 import { ContributableLocaleLock, LocaleLink } from '../../locale-helpers'
@@ -12,11 +16,9 @@ type ContributeMenuContentProps = {
   isUserLoggedIn: boolean
 }
 
-export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
-  className,
-  pathname = '',
-  isUserLoggedIn,
-}) => {
+const ContributeMenuContent: React.FC<
+  ContributeMenuContentProps & WithLocalizationProps
+> = ({ className, pathname = '', isUserLoggedIn, getString }) => {
   const speakActive = pathname.includes(URLS.SPEAK)
   const listenActive = pathname.includes(URLS.LISTEN)
   const writeActive = pathname.includes(URLS.WRITE)
@@ -33,7 +35,8 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
             <li
               className={classNames({
                 'selected-option': speakActive,
-              })}>
+              })}
+              title={getString('speak')}>
               <div className="content">
                 <MicIcon />
                 <LocaleLink to={URLS.SPEAK} className="contribute-link">
@@ -44,7 +47,8 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
             <li
               className={classNames({
                 'selected-option': listenActive,
-              })}>
+              })}
+              title={getString('listen')}>
               <div className="content">
                 <ListenIcon />
                 <LocaleLink to={URLS.LISTEN} className="contribute-link">
@@ -64,7 +68,8 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
           <li
             className={classNames('write', {
               'selected-option': writeActive,
-            })}>
+            })}
+            title={getString('write')}>
             <div className="content">
               <EditIcon />
               <LocaleLink to={URLS.WRITE} className="contribute-link">
@@ -76,7 +81,8 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
             <li
               className={classNames('review', {
                 'selected-option': reviewActive,
-              })}>
+              })}
+              title={getString('review')}>
               <div className="content">
                 <ReviewIcon />
                 <LocaleLink to={URLS.REVIEW} className="contribute-link">
@@ -90,3 +96,5 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
     </div>
   )
 }
+
+export default withLocalization(ContributeMenuContent)

@@ -5,7 +5,7 @@ import { RouteComponentProps, withRouter } from 'react-router'
 
 import { TextButton } from '../../../ui/ui'
 import { ChevronDown } from '../../../ui/icons'
-import { ContributeMenuContent } from '../contribute-menu-content'
+import ContributeMenuContent from '../contribute-menu-content'
 
 import './contribute-menu.css'
 

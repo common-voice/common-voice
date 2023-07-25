@@ -91,6 +91,12 @@
                 & .content {
                     display: flex;
                     align-items: center;
+
+                    & a {
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        width: 150px;
+                    }
                 }
 
                 & .list-items-wrapper {
