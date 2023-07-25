@@ -29,7 +29,7 @@
             flex-direction: row;
             height: var(--header-height);
             align-items: center;
-            padding-left: var(--page-margin);
+            padding-inline-start: var(--page-margin);
         }
 
         & .menu-icon {
@@ -38,7 +38,7 @@
             }
 
             @media (--lg-down) {
-                margin-right: var(--page-margin);
+                margin-inline-end: var(--page-margin);
             }
         }
 
@@ -70,7 +70,7 @@
                 margin: 0;
                 width: 100%;
                 background: var(--grey);
-                padding-left: 0px;
+                padding-inline-start: 0px;
                 height: 100%;
                 align-items: center;
             }
@@ -111,7 +111,7 @@
             & svg {
                 width: 16px;
                 height: 16px;
-                margin-right: 8px;
+                margin-inline-end: 8px;
             }
 
             & div {
@@ -143,7 +143,9 @@ header {
     z-index: var(--header-z-index);
 
     & .Logo {
-        height: auto;
+        @media (--md-up) {
+            height: auto;
+        }
     }
 
     @media (--lg-up) {
@@ -345,21 +347,11 @@ header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding-left: 30px;
+    padding-inline-start: 30px;
     width: fit-content;
 
     @media (--xl-up) {
         display: none;
-    }
-
-    & .black-border {
-        border-bottom: 4px solid var(--black);
-        flex-basis: 93%;
-        padding-top: 8px;
-
-        @media (--xl-up) {
-            display: none;
-        }
     }
 
     & svg {
@@ -446,18 +438,13 @@ header {
         }
 
         .contribute-link {
-            margin-left: 8px;
+            margin-inline-start: 8px;
             padding: 20px 0 0;
             font-family: var(--base-font-family);
             font-size: var(--font-size);
             font-weight: 400;
             text-transform: capitalize;
-            flex-basis: 84%;
             border-bottom: none;
-
-            @media (--md-only) {
-                flex-basis: 85%;
-            }
         }
     }
 
@@ -474,7 +461,7 @@ header {
     }
 
     & .nav-links a {
-        margin: 0 30px;
+        margin-inline-start: 30px;
         padding: 15px 0;
         line-height: 1.17;
         font-family: var(--base-font-family);
@@ -549,6 +536,12 @@ header {
         font-size: var(--font-size-sm);
         font-weight: 600;
         text-transform: uppercase;
-        margin-right: 8px;
+        margin-inline-end: 8px;
+        color: var(--black);
+
+        &.contribution-page-active {
+            padding-block-end: 8px;
+            border-block-end: 4px solid var(--black);
+        }
     }
 }

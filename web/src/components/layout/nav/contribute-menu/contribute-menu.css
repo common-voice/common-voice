@@ -84,11 +84,14 @@
             padding: 20px 32px 32px 30px;
 
             & li {
-                display: flex;
-                align-items: center;
                 margin-left: 12px;
                 margin-bottom: 20px;
                 width: fit-content;
+
+                & .content {
+                    display: flex;
+                    align-items: center;
+                }
 
                 & .list-items-wrapper {
                     div {
@@ -144,10 +147,11 @@
         font-size: var(--font-size-xs);
         font-weight: 600;
         color: var(--warm-grey);
-        margin-top: 20px;
+        margin-block-start: 20px;
+        margin-block-end: 8px;
 
         @media (--lg-down) {
-            margin-left: 30px;
+            margin-inline-start: 30px;
         }
 
         @media (--xl-up) {
@@ -168,10 +172,6 @@
             flex-direction: column;
         }
 
-        &.listen-active {
-            padding-bottom: 0px;
-        }
-
         @media (--xl-up) {
             display: none;
         }
@@ -184,8 +184,18 @@
                 display: flex;
                 flex-wrap: wrap;
                 align-items: end;
-                padding-left: 30px;
-                margin-bottom: 8px;
+                margin-block-end: 8px;
+
+                & .content {
+                    display: flex;
+                    align-items: end;
+                    margin-inline-start: 30px;
+
+                    & .contribute-link {
+                        margin-inline-start: 8px;
+                        margin-inline-end: 0;
+                    }
+                }
 
                 & .list-items-wrapper {
                     @media (--lg-down) {
@@ -210,12 +220,9 @@
             & li.selected-option {
                 background: var(--lighter-grey);
 
-                & .border {
+                & .content {
                     border-bottom: 1px solid var(--blue);
-                    width: 72px;
-                    display: inline-block;
-                    margin-bottom: 8px;
-                    margin-top: 2px;
+                    margin-block-end: 8px;
                 }
 
                 & a {
