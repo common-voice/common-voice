@@ -1294,6 +1294,14 @@ sc-add-lang-sec-label = تۆھپە قوشماقچى بولغان تىلنى قو
 sc-add-lang-sec-button = تىل قوشۇڭ
 sc-add-err-unexpected = مۇلازىمېتىردىن كۈتۈلمىگەن جاۋاب قايتۇرۇلدى
 # Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] يوللانغان جۈملە. { $duplicates } جۈملە تەكرارلانغان دەپ رەت قىلىندى.
+        [one] يوللانغان جۈملە. { $duplicates } جۈملە تەكرارلانغان دەپ رەت قىلىندى.
+       *[other] يوللانغان جۈملە. { $duplicates } جۈملە تەكرارلانغان دەپ رەت قىلىندى.
+    }
+# Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
@@ -1317,13 +1325,71 @@ sc-confirm-sentences-found =
         [one] { $countOfSentences } جۈملە تېپىلدى
        *[other] { $countOfSentences } جۈملە تېپىلدى
     }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } جۈملىنى رەت قىلدىڭىز.
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] { "" }
+        [one] { "" }
+       *[other] { $countOfReviewed } جۈملە تەكشۈرۈلدى. ئەجرىڭىزگە بارىكاللا!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] { "" }
+        [one] { "" }
+       *[other] { $readyCount } جۈملە يوللاشقا تەييار بولدى!
+    }
 sc-confirm-button-text = جەزملەشتۈرۈڭ
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = جەمئىي
 sc-lang-info-title-personal = شەخسىي
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] ھېچقانداق جۈملە يوق.
+        [one] جەمئىي { $totalSentences } جۈملە.
+       *[other] جەمئىي { $totalSentences } جۈملە.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] تەكشۈرىدىغان ھېچقانداق جۈملە يوق.
+        [one] تەكشۈرۈلىدىغىنى { $totalInReview } جۈملە.
+       *[other] تەكشۈرۈلىدىغىنى { $totalInReview } جۈملە.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] تەكشۈرىدىغان ھېچقانداق جۈملە يوق.
+        [one] تەكشۈرىدىغان { $unreviewedSentencesByYou } جۈملە قالدى.
+       *[other] تەكشۈرىدىغان { $unreviewedSentencesByYou } جۈملە قالدى.
+    }
 sc-lang-info-review-now = <reviewLink>ھازىرلا تەستىقلاش!</reviewLink>
+sc-lang-info-add-more = <addLink>ھازىرلا تېخىمۇ كۆپ جۈملە قوشاي!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] دەلىللەنگەن ھېچقانداق جۈملە يوق.
+        [one] دەلىللەنگەن جۈملە { $validatedSentences }.
+       *[other] دەلىللەنگەن جۈملە { $validatedSentences }.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] رەت قىلىنغان ھېچقانداق جۈملە يوق.
+        [one] رەت قىلىنغان جۈملە { $rejectedSentences }.
+       *[other] رەت قىلىنغان جۈملە { $rejectedSentences }.
+    }
 
 ## LOGIN
 
@@ -1350,10 +1416,20 @@ sc-criteria-modal = ⓘ تەستىقلاش ئۆلچىمى
 sc-criteria-title = تەستىقلاش ئۆلچىمى
 sc-criteria-make-sure = جۈملىنىڭ تۆۋەندىكى ئۆلچەملەرگە ماس كېلىدىغانلىقىنى جەزملەشتۈرۈڭ:
 sc-criteria-item-1 = جۈملىنىڭ ئىملاسى چوقۇم توغرا يېزىلىشى كېرەك.
+sc-criteria-item-2 = جۈملىنىڭ گرامماتىكىسى چوقۇم توغرا بولۇشى كېرەك.
+sc-criteria-item-3 = جۈملىنى سۆزلىگىلى بولىدىغان بولۇشى كېرەك.
+sc-criteria-item-4 = ئەگەر جۈملە بۇ ئۆلچەمگە توشسا، ئوڭ تەرەپتىكى «تەستىقلا» توپچىسى بېسىلىدۇ.
+sc-criteria-item-6 = ئەگەر تەكشۈرىدىغان جۈملە تۈگەپ كەتسە، تېخىمۇ كۆپ جۈملە توپلىشىمىزغا ياردەم قىلىڭ.
 
 ## REVIEW
 
+sc-review-lang-not-selected = سىز ھېچقانداق تىل تاللىمىدىڭىز. <profileLink> تەرجىمىھال</profileLink> ىڭىزغا كىرىپ تىل تاللاڭ.
 sc-review-title = جۈملىلەرنى تەستىقلاش
+sc-review-loading = جۈملىلەرنى يۈكلەۋاتىدۇ…
+sc-review-select-language = جۈملىلەرنى تەكشۈرىدىغان تىلدىن بىرنى تاللاڭ.
+sc-review-no-sentences = تەكشۈرىدىغان ھېچقانداق جۈملە يوق. <addLink>ھازىرلا تېخىمۇ كۆپ جۈملە قوشاي!</addLink>
+sc-review-form-prompt =
+    .message = تەكشۈرۈلگەن جۈملە يوللانمىدى، شۇنداقمۇ؟
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = مەنبە: { $sentenceSource }
@@ -1376,6 +1452,7 @@ sc-review-form-reviewed-message =
         [one] 1جۈملە تەكشۈرۈلدى، رەھمەت سىزگە!
        *[other] { $sentences }جۈملە تەكشۈرۈلدى، رەھمەت سىزگە!
     }
+sc-review-form-review-failure = تەكشۈرۈشنى ساقلىيالمىدى. سەل تۇرۇپ قايتا سىناڭ.
 sc-review-link = تەكشۈرۈش
 
 ## SETTINGS
@@ -1383,13 +1460,33 @@ sc-review-link = تەكشۈرۈش
 sc-settings-title = تەڭشەك
 sc-settings-ui-language = بەت يۈزى تىلى
 sc-settings-reset-skipped = ئاتلانغان جۈملىنى ئەسلىگە كەلتۈرىدۇ
+sc-settings-show-all-button = ئاتلاپ كەتكەن بارلىق جۈملىلەرنى قايتا كۆرسىتىدۇ
 sc-settings-failed = تەڭشەكنى ئۆزگەرتكىلى بولمىدى، قايتا سىناڭ.
+# VALIDATION
+sc-validation-number-of-words = جۈملىدە 1 دىن 14 كىچە سۆز بولۇشى لازىم
 sc-validation-no-numbers = جۈملىدە رەقەم بولماسلىقى كېرەك
 sc-validation-no-symbols = جۈملىدە بەلگىلەر بولماسلىقى كېرەك
 sc-validation-no-abbreviations = جۈملىدە قىسقارتىلما ئاتالغۇلار بولماسلىقى كېرەك
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = تىل/يەرلىكلەشتۈرۈش تاللىنىدۇ
+# PARTNERSHIPS PAGE
+partnerships-header = ھەمكارلاشقۇچىلار
+partnerships-get-in-touch = ئالاقىلىشىڭ
+partnerships-become-a-partner = Common Voice ھەمكارلاشقۇچىسى بولۇڭ
+partnerships-community-header = مەھەللە، ئىجادكارلار ۋە پۇقرالار جەمئىيىتى
+partnerships-foundations-header = ۋەخپىلەر
+partnerships-governments-header = ھۆكۈمەتلەر
+partnerships-academia-header = ئالىي مەكتەپ، ئالىم ۋە تەتقىقاتچىلار
+partnerships-small-business-header = تېخنىكا ۋە سۈنئىي ئەقىلنى ئۆز ئىچىگە ئالغان كىچىك كارخانىلار
+partnerships-corporates-header = چوڭ تىپتىكى شىركەت ۋە سۇپا شىركەتلىرى
+partnerships-our-partners = شېرىكلىرىمىز
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ئاۋازىڭىزنى ئىئانە قىلغانلىقىڭىزغا رەھمەت!
+first-cta-subtitle-text = قانداق سۆزلەۋاتقانلىقىڭىز توغرىسىدا بەزى ئۇچۇرلارنى ھەمبەھىرلەشنى خالامسىز؟
+why-donate = نېمىشقا سورايسىز؟
 add-information-button = ئۇچۇر قوش
 continue-speaking-button = رەھمەت، داۋاملىق سۆزلەي
 create-profile-text = ئۇچۇرلىرىڭىزنى ساقلىماقچىمۇ؟ <createProfile>تەرجىمىھال قۇرۇش</createProfile>
@@ -1428,3 +1525,20 @@ misreadings-example-1 = بىز قەھۋە ئېلىشقا سىرتقا چىقما
 misreadings-example-2 = بىز قەھۋە ئېلىشقا سىرتقا چىقماقچى.
 misreadings-example-3 = بىز قەھۋە ئېلىشقا سىرتقا چىقماقچى.
 misreadings-example-4 = سېرىق ھەرە تېز سۈرئەتتە ئۇچۇپ كەتتى.
+misreadings-tip-1 = [«بىز» بولۇشى كېرەك]
+misreadings-tip-2 = [ئەسلى تېكىستتە «ئا» يوق]
+misreadings-tip-3 = [ماس كەلمىگەن مەزمۇن]
+background-noise-example-1 = ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرلىرى.
+still-have-questions = يەنىلا سوئال بارمۇ؟
+contact-common-voice = Common Voice قوشۇنى بىلەن ئالاقىلىشىڭ
+public-domain = ئاممىۋى دائىرە
+citing-sentences = نەقىل جۈملىلەر
+adding-sentences = جۈملە قوشۇش
+reviewing-sentences = جۈملىلەرنى تەكشۈرۈش
+citing-sentences-subheader-websites = تور بېكەتلەر
+citing-sentences-subheader-websites-explanation = تور بېكەتنى ئىچىگە ئالالايسىز، مەسىلەن، «Common Voice - https://commonvoice.mozilla.org/»
+citing-sentences-subheader-academic-reference = ئىلمىي ماقالە پايدىلانمىلار
+citing-sentences-subheader-offline-sources = تورسىز مەنبەلەر
+self-citation = ئۆز نەقىل
+adding-sentences-subheader-length = ئۇزۇنلۇقى
+adding-sentences-subheader-length-explanation = جۈملىدە 15 تىن ئاز سۆز بولۇشى كېرەك.
