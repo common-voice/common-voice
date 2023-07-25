@@ -7,7 +7,6 @@
         min-height: 320px;
     }
 
-
     & .inner {
         background: var(--desert-storm);
         padding: 24px 34px 0;
@@ -63,7 +62,14 @@
         margin-bottom: 16px;
         cursor: auto;
         width: 100%;
-        text-align: left;
+
+        [dir='ltr'] & {
+            text-align: left;
+        }
+
+        [dir='rtl'] & {
+            text-align: right;
+        }
 
         @media (--xs-down) {
             font-size: var(--font-size-xs);
@@ -101,7 +107,7 @@
         }
 
         & li.error {
-            list-style-image: url("../../../../../ui/icons/alert.svg");
+            list-style-image: url('../../../../../ui/icons/alert.svg');
         }
 
         & li.last-rule {

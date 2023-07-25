@@ -1,8 +1,8 @@
-import * as React from 'react';
-import { fireEvent, screen } from '@testing-library/react';
+import * as React from 'react'
+import { fireEvent, screen } from '@testing-library/react'
 
-import ContributeMenu from './contribute-menu';
-import { renderWithProviders } from '../../../../test/render-with-providers';
+import ContributeMenu from '.'
+import { renderWithProviders } from '../../../../../test/render-with-providers'
 
 describe('Contribute Menu Test', () => {
   it('renders Contribute Menu', async () => {
@@ -58,4 +58,4 @@ describe('Contribute Menu Test', () => {
     fireEvent.mouseEnter(screen.getByTestId('contribute-menu'))
     expect(setShowMenuSpy).not.toHaveBeenCalled()
   })
-});
+})
