@@ -154,7 +154,7 @@ header {
         background: none;
         max-width: var(--desktop-width);
         height: 77px;
-        padding-block-end: 0;
+        padding-block: 0;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
