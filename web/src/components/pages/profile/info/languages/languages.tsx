@@ -80,7 +80,7 @@ function ProfileInfoLanguages({
   return (
     <>
       <Localized id="languages">
-        <h2/>
+        <h2 />
       </Localized>
 
       <div className="form-fields">
