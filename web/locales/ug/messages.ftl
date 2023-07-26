@@ -1567,6 +1567,8 @@ adding-sentences-subheader-special-characters = ئالاھىدە ھەرپلەر 
 adding-sentences-subheader-offensive-content = تېرىكتۈرىدىغان مەزمۇن
 reviewing-sentences-explanation-1 = ئەگەر بۇ جۈملە يۇقىرىدىكى ئۆلچەمگە توشسا، «بولۇپتۇ» توپچىسى بېسىلىدۇ.
 reviewing-sentences-explanation-2 = ئەگەر بۇ جۈملە يۇقىرىدىكى ئۆلچەمگە توشمىسا، «بولماپتۇ» توپچىسى بېسىلىدۇ.
+reviewing-sentences-explanation-3 = ئەگەر سىز بۇ جۈملىنى جەزملىيەلمىسىڭىز، ئۇنىڭدىن ئاتلاپ كېيىنكى جۈملىگە يۆتكەلسىڭىز بولىدۇ.
+reviewing-sentences-explanation-4 = ئەگەر تەكشۈرىدىغان جۈملە تۈگەپ كەتسە، تېخىمۇ كۆپ جۈملە توپلىشىمىزغا ياردەم قىلىڭ!
 # WRITE PAGE
 write-instruction-second-part = ئاممىۋى دائىرەدىكى جۈملە
 sentence =
