@@ -1565,6 +1565,10 @@ adding-sentences-subheader-numbers = سانلار
 adding-sentences-subheader-punctuation = تىنىش بەلگىلىرى
 adding-sentences-subheader-special-characters = ئالاھىدە ھەرپلەر ۋە چەتئەل ھەرپلىرى
 adding-sentences-subheader-offensive-content = تېرىكتۈرىدىغان مەزمۇن
+reviewing-sentences-explanation-1 = ئەگەر بۇ جۈملە يۇقىرىدىكى ئۆلچەمگە توشسا، «بولۇپتۇ» توپچىسى بېسىلىدۇ.
+reviewing-sentences-explanation-2 = ئەگەر بۇ جۈملە يۇقىرىدىكى ئۆلچەمگە توشمىسا، «بولماپتۇ» توپچىسى بېسىلىدۇ.
+# WRITE PAGE
+write-instruction-second-part = ئاممىۋى دائىرەدىكى جۈملە
 sentence =
     .label = جۈملە
 sentence-input-value = ئاممىۋى دائىرىدىكى جۈملىنى بۇ جايغا كىرگۈزۈڭ
@@ -1587,3 +1591,8 @@ contact-us = بىز بىلەن ئالاقىلىشىڭ
 add-sentence-success = 1 جۈملە توپلاندى
 add-sentence-error = جۈملە قوشۇشتا خاتالىق كۆرۈلدى
 required-field = بۇ بۆلەكنى تولدۇرۇڭ.
+report-sc-different-language = ئوخشىمىغان تىل
+sentences-fetch-error = جۈملىلەرگە ئېرىشىشتە خاتالىق كۆرۈلدى
+review-error = بۇ جۈملىنى تەكشۈرۈشتە خاتالىق كۆرۈلدى
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = بىز بەزى چوڭ ئۆزگەرتىشلەرنى ئېلىپ بېرىۋاتىمىز
