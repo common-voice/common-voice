@@ -747,7 +747,7 @@ get-started-speech = ئاۋاز تونۇتۇشنى باشلاڭ
 other-datasets = باشقا ئاۋاز مەلۇمات توپى
 feedback-q = تەكلىپ-پىكرىڭىز بارمۇ؟
 community-playbook = مەھەللە قوللانمىسى
-data-other-librispeech-description = LibriSpeech بولسا تەخمىنەن 1000 سائەت ئەتراپىدا LibriVox تۈرىدىكى ئاۋازلىق كىتابلاردىن تاللانغان 16Khz لىق ئىنگلىزچە ئوقۇشلۇق.
+data-other-librispeech-description = LibriSpeech تەخمىنەن 1000 سائەت ئەتراپىدىكى LibriVox تۈرىدىكى ئاۋازلىق كىتابلاردىن تاللانغان 16Khz لىق ئىنگلىزچە ئوقۇشلۇق.
 data-other-ted-name = TED-LIUM  سۆزلۈكلەر توپلىمى
 data-other-ted-description = TED-LIUM سۆزلۈكلەر توپلىمى ئاۋازلىق سۆھبەتلەردىن ياسالغان بولۇپ ، ئۇلارنىڭ خاتىرىلىرى TED تور بېتىدە بار.
 data-other-voxforge-description = ئاۋاز توپلاشقا ھەقسىز ۋە ئوچۇق كودلۇق ئاۋاز تونۇش ماتورى بولغان VoxForge ئىشلىتىلىدۇ.
@@ -810,7 +810,7 @@ request-language-form-info-explanation =
     تىل ھەققىدە ئىمكانقەدەر كۆپرەك ئۇچۇر قوشۇڭ. بۇ
     تۆۋەندىكىلەرنى ئۆز ئىچىگە ئالىدۇ:
 request-language-form-info-explanation-list-1 = تىلىڭىزنىڭ نامى
-request-language-form-info-explanation-list-2 = ئەگەر bfr بولسا <isoCodeLink> ISO كودى </isoCodeLink>
+request-language-form-info-explanation-list-2 = <isoCodeLink> ISO كودى </isoCodeLink> ئەگەر بىلسىڭىز
 request-language-form-info-explanation-list-3 = مەزكۇر تىلنى چۈشىنىشىمىزگە ياردەم بېرەلەيدىغان تور بېكەتلەرگە ئۇلىنىش
 request-language-google-recaptcha-required = داۋاملاشتۇرماقچى بولسىڭىز reCAPTCHA تەلەپ قىلىنىدۇ
 request-language-google-recaptcha-error = ReCAPTCHA دا مەسىلە كۆرۈلدى. قايتا سىناڭ.
