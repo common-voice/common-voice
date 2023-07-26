@@ -612,6 +612,7 @@ about-playbook-how-localize-content-5 = ياردەم قىلىش ئۈچۈن سى�
 ## How to add sentences
 
 about-playbook-how-add-sentences = جۈملىلەرنى قانداق قوشىمەن؟
+about-playbook-how-add-sentences-content-3 = سىز <scraperLink>جۈملە چىقارغۇچ</scraperLink> نى ئىشلىتىپ Wikipedia دىن قىسقا جۈملىلەرنى توپلىيالايسىز.
 about-playbook-how-add-sentences-content-4 = دەلىللەنگەن جۈملىلەر ھەر چارشەنبە چىقىرىلىدۇ، ھەمدە كېيىنكى نەشرىدە قوشۇپ ئېلان قىلىنىدۇ.
 
 ## How to record quality
