@@ -1,8 +1,12 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
-import classNames from 'classnames';
+import * as React from 'react'
+import {
+  Localized,
+  WithLocalizationProps,
+  withLocalization,
+} from '@fluent/react'
+import classNames from 'classnames'
 
-import { ContributableLocaleLock, LocaleLink } from '../../locale-helpers';
+import { ContributableLocaleLock, LocaleLink } from '../../locale-helpers'
 import { EditIcon, ListenIcon, MicIcon, ReviewIcon } from '../../ui/icons'
 import URLS from '../../../urls'
 
@@ -12,11 +16,9 @@ type ContributeMenuContentProps = {
   isUserLoggedIn: boolean
 }
 
-export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
-  className,
-  pathname = '',
-  isUserLoggedIn,
-}) => {
+const ContributeMenuContent: React.FC<
+  ContributeMenuContentProps & WithLocalizationProps
+> = ({ className, pathname = '', isUserLoggedIn, getString }) => {
   const speakActive = pathname.includes(URLS.SPEAK)
   const listenActive = pathname.includes(URLS.LISTEN)
   const writeActive = pathname.includes(URLS.WRITE)
@@ -33,22 +35,26 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
             <li
               className={classNames({
                 'selected-option': speakActive,
-              })}>
-              <MicIcon />
-              <LocaleLink to={URLS.SPEAK} className="contribute-link">
-                <Localized id="speak" />
-              </LocaleLink>
-              {speakActive && <span className="border" />}
+              })}
+              title={getString('speak')}>
+              <div className="content">
+                <MicIcon />
+                <LocaleLink to={URLS.SPEAK} className="contribute-link">
+                  <Localized id="speak" />
+                </LocaleLink>
+              </div>
             </li>
             <li
               className={classNames({
                 'selected-option': listenActive,
-              })}>
-              <ListenIcon />
-              <LocaleLink to={URLS.LISTEN} className="contribute-link">
-                <Localized id="listen" />
-              </LocaleLink>
-              {listenActive && <span className="border" />}
+              })}
+              title={getString('listen')}>
+              <div className="content">
+                <ListenIcon />
+                <LocaleLink to={URLS.LISTEN} className="contribute-link">
+                  <Localized id="listen" />
+                </LocaleLink>
+              </div>
             </li>
           </ul>
         </div>
@@ -62,23 +68,27 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
           <li
             className={classNames('write', {
               'selected-option': writeActive,
-            })}>
-            <EditIcon />
-            <LocaleLink to={URLS.WRITE} className="contribute-link">
-              <Localized id="write" />
-            </LocaleLink>
-            {writeActive && <span className="border" />}
+            })}
+            title={getString('write')}>
+            <div className="content">
+              <EditIcon />
+              <LocaleLink to={URLS.WRITE} className="contribute-link">
+                <Localized id="write" />
+              </LocaleLink>
+            </div>
           </li>
           {isUserLoggedIn && (
             <li
               className={classNames('review', {
                 'selected-option': reviewActive,
-              })}>
-              <ReviewIcon />
-              <LocaleLink to={URLS.REVIEW} className="contribute-link">
-                <Localized id="review" />
-              </LocaleLink>
-              {reviewActive && <span className="border" />}
+              })}
+              title={getString('review')}>
+              <div className="content">
+                <ReviewIcon />
+                <LocaleLink to={URLS.REVIEW} className="contribute-link">
+                  <Localized id="review" />
+                </LocaleLink>
+              </div>
             </li>
           )}
         </ul>
@@ -86,3 +96,5 @@ export const ContributeMenuContent: React.FC<ContributeMenuContentProps> = ({
     </div>
   )
 }
+
+export default withLocalization(ContributeMenuContent)
