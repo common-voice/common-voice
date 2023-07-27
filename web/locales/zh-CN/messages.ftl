@@ -164,7 +164,7 @@ ro = 罗马尼亚语
 ru = 俄语
 rw = 卢旺达语
 sah = 萨哈语
-sat = 桑塔利语（Ol Chiki 文）
+sat = 桑塔利语（桑塔利文）
 sc = 萨丁尼亚语
 scn = 西西里语
 sdh = 南库尔德语
@@ -218,7 +218,7 @@ zh-CN = 汉语（中国大陆）
 zh-HK = 汉语（香港）
 zh-TW = 汉语（台湾）
 zu = 祖鲁语
-zza = 扎扎其语
+zza = 扎扎语
 
 # [/]
 
@@ -1567,7 +1567,7 @@ varying-pronunciations-tip-2 = [有些人可能会把“楚”读作“cǔ”]
 offensive-content-explanation = 语句会通过社区进行审核，不过此过程无法确保万无一失。如果您看到或听到令您不快的的语句（例如觉得其违反了我们的<participationGuidelines>社区参与准则</participationGuidelines>），请务必使用界面中的“旗标”按钮来举报。您也可以通过 <emailFragment>commonvoice@mozilla.com</emailFragment> 来联系我们。
 misreadings-explanation-1 = 完整朗读文字内容十分重要。在聆听录音片段时，请注意录音内容是否与文字内容完全一致，如有添字、漏字，则将其驳回。
 misreadings-explanation-2 = 常见的错误有：
-misreadings-explanation-3 = 录音开头缺少“A”或“The”。（不适用于中文）
+misreadings-explanation-3 = 录音开头缺少“A”或“The”。（不适用）
 misreadings-explanation-4 = 省略了某些词缀，例如“桌子上”读成“桌上”。
 misreadings-explanation-5 = 省略了某些字，例如将“录音的注意事项”读成“录音注意事项”，反之亦然。
 misreadings-explanation-6 = 由于过快地结束录音而没有录入最后一个词。
