@@ -1593,6 +1593,9 @@ contact-us = بىز بىلەن ئالاقىلىشىڭ
 add-sentence-success = 1 جۈملە توپلاندى
 add-sentence-error = جۈملە قوشۇشتا خاتالىق كۆرۈلدى
 required-field = بۇ بۆلەكنى تولدۇرۇڭ.
+# REVIEW PAGE
+sc-review-instruction-first-part = تەكشۈر
+sc-review-instruction-second-part = بۇ تىل ئادىتىگە ئۇيغۇن جۈملىمۇ؟
 report-sc-different-language = ئوخشىمىغان تىل
 sentences-fetch-error = جۈملىلەرگە ئېرىشىشتە خاتالىق كۆرۈلدى
 review-error = بۇ جۈملىنى تەكشۈرۈشتە خاتالىق كۆرۈلدى
