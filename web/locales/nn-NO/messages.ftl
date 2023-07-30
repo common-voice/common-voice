@@ -573,6 +573,7 @@ about-playbook-how-add-sentences = Korleis legg eg til ei setning?
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Hendingar
 about-playbook-how-grow-language-content-4 = Sosiale medium
 about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt språkfellesskapet vil vere unikt, og dette er berre nokre få måtar å kome i gang på.
 
