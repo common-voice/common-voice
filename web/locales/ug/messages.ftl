@@ -600,6 +600,10 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink> GitHub دا يېڭى تىلنى ئىلتىماس قىلىڭ<githubRepoLink>. <localizationFragment> تەپسىلاتىنى تور بەت تەرجىمىسىدىن كۆرۈڭ</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = جۈملە توپلاش
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جۈملىلەرنى يىغىش قوللانمىسىنى كۆرۈڭ</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    سىز <sentenceCollectorLinkAdd>ئاز ساندىكى جۈملىلەرنى قوشالايسىز </sentenceCollectorLinkAdd>،
+    ياكى Github </bulkImportDocsLink> نى ئىشلىتىپ <bulkImportDocsLink> توپ ئەكىرەلەيسىز.
+    ئېسىڭىزدە بولسۇنكى، جۈملىلەر <licenseLink> CC0 (ياكى ئاممىۋى دائىرە) </licenseLink> دە بولۇشى ياكى ئۆزىڭىز يازسىڭىز بولىدۇ.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> جۈملىلەرنى توپلاش </ entenceCollectorFragment> دىكى تېخىمۇ كۆپ مەزمۇنلارنى كۆرۈڭ.
 
 ## How does localization work
