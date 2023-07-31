@@ -1,7 +1,7 @@
 import { getConfig } from '../config-helper'
 import Model from './model'
 import { Clip, TakeoutRequest } from 'common'
-import { PassThrough, Readable, pipeline } from 'stream'
+import { PassThrough } from 'stream'
 import { ClientClip } from './takeout'
 import * as Sentry from '@sentry/node'
 import { pipe } from 'fp-ts/lib/function'
@@ -17,7 +17,8 @@ import {
 } from '../infrastructure/storage/storage'
 import { task as T, taskEither as TE } from 'fp-ts'
 import { Metadata } from '@google-cloud/storage/build/src/nodejs-common'
-import { createGzip } from 'zlib'
+import archiver from 'archiver'
+import { zip } from 'fp-ts/lib/ReadonlyArray'
 
 /**
  * Bucket
@@ -134,7 +135,7 @@ export default class Bucket {
         if (clipPromises.length == count) break
       } catch (e) {
         console.log(e.message)
-        console.log(`aws error retrieving clip_id ${id}`)
+        console.log(`Storage error retrieving clip_id ${id}`)
         await this.model.db.markInvalid(id.toString())
       }
     }
@@ -173,41 +174,26 @@ export default class Bucket {
       TE.match(
         e => {
           console.log(e)
-          return ([] as Buffer[])
+          return [] as Buffer[]
         },
-        (buffers) => buffers
+        buffers => buffers
       )
     )()
 
-    const bufferStreams = Readable.from(buffers)
+    const bufferList = zip(buffers)(paths)
 
-    pipeline(
-      bufferStreams,
-      createGzip(),
-      passThrough,
-      (err) => {
-        if (err) {
-          console.error('Pipeline failed.', err);
-        } else {
-          console.log('Pipeline succeeded.');
-        }
-      }
-    );
+    const archive = archiver('zip', { zlib: { level: 6 } })
+    archive.pipe(passThrough)
 
-    // Download and zip myself here
-    // const s3pipe = s3Zip
-    //   .archive(
-    //     { s3: this.s3, bucket },
-    //     '',
-    //     paths,
-    //     paths.map(
-    //       path =>
-    //         `takeout_${takeout.id}_pt_${chunkIndex}/${
-    //           path.split('/').length > 1 ? path.split('/')[1] : path
-    //         }`
-    //     )
-    //   )
-    //   .pipe(passThrough)
+    bufferList.forEach(([path, buffer]) =>
+      archive.append(buffer, {
+        name: `takeout_${takeout.id}_pt_${chunkIndex}/${
+          path.split('/').length > 1 ? path.split('/')[1] : path
+        }`,
+      })
+    )
+
+    archive.finalize()
 
     // passTrough contains the zipped file
     await pipe(
