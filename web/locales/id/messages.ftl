@@ -363,6 +363,7 @@ gravatar_not_found = Tidak ditemukan gravatar untuk surel Anda
 file_too_large = Berkas yang dipilih terlalu besar
 avatar-uploaded = Avatar diunggah
 max-file-size = Maksimum { $kb }kb
+remove-avatar = Hapus Avatar
 
 ## Profile - Email
 
@@ -707,6 +708,9 @@ target-segment-first-banner = Bantu buat segmen target pertama Common Voice dala
 target-segment-add-voice = Tambahkan Suara Anda
 target-segment-learn-more = Pelajari Lebih Lanjut
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = Laporkan
@@ -951,3 +955,4 @@ demo-dashboard-card-body = Untuk setiap klip suara yang disumbangkan, dan setiap
 
 # [/SentenceCollector]
 
+sentence-collection = Koleksi Kalimat
