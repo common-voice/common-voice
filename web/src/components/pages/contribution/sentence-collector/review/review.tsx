@@ -39,6 +39,7 @@ import { Notifications } from '../../../../../stores/notifications'
 import { ReportModalProps } from '../../report/report'
 
 import './review.css'
+import useReview from './use-review'
 
 type Props = WithLocalizationProps
 
@@ -52,6 +53,17 @@ const Review: React.FC<Props> = ({ getString }) => {
   const languages = useLanguages()
   const account = useAccount()
   const sentences = useSentences()
+
+  const {
+    handleVoteYes,
+    handleVoteNo,
+    handleSkip,
+    handleKeyDown,
+    reviewShortCuts,
+  } = useReview({
+    getString,
+    showReportModal,
+  })
 
   const pendingSentencesSubmissions =
     sentences[currentLocale]?.pendingSentences || []
@@ -67,8 +79,6 @@ const Review: React.FC<Props> = ({ getString }) => {
   const fetchPendingSentences = useAction(
     Sentences.actions.refillPendingSentences
   )
-  const voteSentence = useAction(Sentences.actions.voteSentence)
-  const skipSentence = useAction(Sentences.actions.skipSentence)
 
   const handleFetch = () => {
     try {
@@ -84,113 +94,8 @@ const Review: React.FC<Props> = ({ getString }) => {
     }
   }
 
-  const handleVoteYes = () => {
-    const sentenceId =
-      pendingSentencesSubmissions[activeSentenceIndex].sentenceId
-
-    try {
-      voteSentence({
-        vote: true,
-        sentence_id: sentenceId,
-        sentenceIndex: activeSentenceIndex,
-      })
-
-      dispatch(Notifications.actions.addPill(getString('vote-yes'), 'success'))
-    } catch {
-      dispatch(Sentences.actions.showNextSentence(sentenceId))
-      dispatch(
-        Notifications.actions.addPill(getString('review-error'), 'error')
-      )
-    }
-  }
-
-  const handleVoteNo = () => {
-    const sentenceId =
-      pendingSentencesSubmissions[activeSentenceIndex].sentenceId
-
-    try {
-      voteSentence({
-        vote: false,
-        sentence_id: sentenceId,
-        sentenceIndex: activeSentenceIndex,
-      })
-
-      dispatch(Notifications.actions.addPill(getString('vote-no'), 'success'))
-    } catch {
-      dispatch(Sentences.actions.showNextSentence(sentenceId))
-      dispatch(
-        Notifications.actions.addPill(getString('review-error'), 'error')
-      )
-    }
-  }
-
-  const handleSkip = () => {
-    const sentenceId =
-      pendingSentencesSubmissions[activeSentenceIndex].sentenceId
-
-    try {
-      skipSentence(sentenceId)
-      dispatch(
-        Notifications.actions.addPill(
-          getString('sc-review-form-button-skip'),
-          'success'
-        )
-      )
-    } catch {
-      dispatch(Sentences.actions.showNextSentence(sentenceId))
-      dispatch(
-        Notifications.actions.addPill(getString('review-error'), 'error')
-      )
-    }
-  }
-
-  const reviewShortCuts = [
-    {
-      key: 'sc-review-form-button-approve-shortcut',
-      label: 'vote-yes',
-      action: () => {
-        handleVoteYes()
-      },
-    },
-    {
-      key: 'sc-review-form-button-reject-shortcut',
-      label: 'vote-no',
-      action: () => {
-        handleVoteNo()
-      },
-    },
-    {
-      key: 'sc-review-form-button-skip-shortcut',
-      label: 'sc-review-form-button-skip',
-      action: () => {
-        handleSkip()
-      },
-    },
-  ]
-
   const handleToggleShortcutsModal = () => {
     setShowShortcutsModal(!showShortcutsModal)
-  }
-
-  const handleKeyDown = (evt: KeyboardEvent) => {
-    if (
-      evt.ctrlKey ||
-      evt.altKey ||
-      evt.shiftKey ||
-      evt.metaKey ||
-      showReportModal
-    ) {
-      return
-    }
-
-    const shortcut = reviewShortCuts.find(
-      ({ key }) => getString(key).toLowerCase() === evt.key
-    )
-
-    if (!shortcut) return
-
-    shortcut.action()
-    evt.preventDefault()
   }
 
   const isLoading = sentences[currentLocale]?.isLoadingPendingSentences

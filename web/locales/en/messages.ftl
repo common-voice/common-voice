@@ -1724,6 +1724,7 @@ report-sc-different-language = Different language
 report-sc-different-language-detail = It is written in a language different than what I’m reviewing.
 sentences-fetch-error = An error occurred fetching sentences
 review-error = An error occurred reviewing this sentence
+review-error-rate-limit-exceeded = You are making too many requests. Please take a pause and review after some time.
 
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = We're making some big changes
