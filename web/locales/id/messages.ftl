@@ -461,10 +461,12 @@ about-get-involved-text-2 =
     Bagus! Hubungi kami via surel atau forum <discourseLink>Discourse</discourseLink>,
     laporkan masalah situs melalui <githubLink>GitHub</githubLink>, atau bergabung dengan
     obrolan komunitas di <matrixLink>Matrix </matrixLink>.
+about-stay-in-touch-button = Daftar
 about-nav-why-common-voice = Mengapa?
 about-nav-how-it-works = Bagaimana?
 about-nav-partners = Mitra
 about-nav-get-involved = Mari berperan
+about-nav-playbook = Pelajari cara berpartisipasi
 
 ## Community Playbook Content
 ## What is a language
