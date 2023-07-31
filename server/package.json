@@ -7,6 +7,7 @@
     "@google-cloud/storage": "^6.9.5",
     "@sentry/node": "6.19.7",
     "@sentry/tracing": "6.19.7",
+    "archiver": "^5.3.1",
     "aws-sdk": "2.1388.0",
     "body-parser": "1.19.2",
     "bull": "3.29.3",
@@ -46,6 +47,7 @@
     "ts-node": "8.10.2"
   },
   "devDependencies": {
+    "@types/archiver": "5.3.1",
     "@types/bull": "3.15.9",
     "@types/commonmark": "0.27.5",
     "@types/compression": "1.7.2",
