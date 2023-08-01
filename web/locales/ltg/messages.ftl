@@ -369,6 +369,7 @@ faq-why-not-ask-read-q = Deļkuo jius naprosit, lai cylvāki skaiteitu gruomotys
 faq-why-account-q = Deļkuo maņ juosaregistrej?
 faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 faq-how-privacy-q = Kai jius nūdrūsynuosit tū cylvāku anonimitati i privatumu, kuri pazīduoja sovus bolsus?
+faq-what-determine-identity-q = Kū tys nūzeimoj, ka es “navaru nūsaceit runuotuoju ideņtitati Common Voice datu kūpā”?
 faq-what-is-cv = Kas ir Common Voice?
 faq-using-cv = Common Voice lītuošona
 faq-description = Common Voice ir daļa nu Mozilla iniciativys, lai paleidzātu vuiceit mašynys, kai reali cylvāki runoj.
