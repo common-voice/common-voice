@@ -5,7 +5,6 @@ import {
   withLocalization,
 } from '@fluent/react'
 import { Tooltip } from 'react-tippy'
-import { useDispatch } from 'react-redux'
 
 import {
   KeyboardIcon,
@@ -25,21 +24,15 @@ import { Spinner } from '../../../../ui/ui'
 import { ReportModal } from '../../report/report'
 import ReviewShortcutsModal from './review-shortcuts-modal'
 
-import {
-  useAccount,
-  useAction,
-  useLanguages,
-  useSentences,
-} from '../../../../../hooks/store-hooks'
-import { Sentences } from '../../../../../stores/sentences'
+import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
+import useReview from './use-review'
 import { useLocale } from '../../../../locale-helpers'
+
 import URLS from '../../../../../urls'
-import { Notifications } from '../../../../../stores/notifications'
 
 import { ReportModalProps } from '../../report/report'
 
 import './review.css'
-import useReview from './use-review'
 
 type Props = WithLocalizationProps
 
@@ -47,14 +40,12 @@ const Review: React.FC<Props> = ({ getString }) => {
   const [showReportModal, setShowReportModal] = React.useState(false)
   const [showShortcutsModal, setShowShortcutsModal] = React.useState(false)
 
-  const dispatch = useDispatch()
-
   const [currentLocale] = useLocale()
-  const languages = useLanguages()
   const account = useAccount()
   const sentences = useSentences()
 
   const {
+    handleFetch,
     handleVoteYes,
     handleVoteNo,
     handleSkip,
@@ -71,28 +62,6 @@ const Review: React.FC<Props> = ({ getString }) => {
   const activeSentenceIndex = pendingSentencesSubmissions.findIndex(
     el => el.isValid === null
   )
-
-  const localeId = languages.localeNameAndIDMapping.find(
-    locale => locale.name === currentLocale
-  ).id
-
-  const fetchPendingSentences = useAction(
-    Sentences.actions.refillPendingSentences
-  )
-
-  const handleFetch = () => {
-    try {
-      fetchPendingSentences(localeId)
-    } catch (error) {
-      dispatch(
-        Notifications.actions.addPill(
-          getString('sentences-fetch-error'),
-          'error'
-        )
-      )
-      console.error(error)
-    }
-  }
 
   const handleToggleShortcutsModal = () => {
     setShowShortcutsModal(!showShortcutsModal)

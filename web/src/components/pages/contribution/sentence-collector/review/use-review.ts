@@ -1,7 +1,11 @@
 import { useDispatch } from 'react-redux'
 import { FluentVariable } from '@fluent/bundle'
 
-import { useAction, useSentences } from '../../../../../hooks/store-hooks'
+import {
+  useAction,
+  useLanguages,
+  useSentences,
+} from '../../../../../hooks/store-hooks'
 import { useLocale } from '../../../../locale-helpers'
 import { Sentences } from '../../../../../stores/sentences'
 import { Notifications } from '../../../../../stores/notifications'
@@ -22,6 +26,7 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
 
   const sentences = useSentences()
   const [currentLocale] = useLocale()
+  const languages = useLanguages()
 
   const pendingSentencesSubmissions =
     sentences[currentLocale]?.pendingSentences || []
@@ -30,10 +35,31 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
     el => el.isValid === null
   )
 
+  const localeId = languages.localeNameAndIDMapping.find(
+    locale => locale.name === currentLocale
+  ).id
+
   const voteSentence = useAction(Sentences.actions.voteSentence)
   const skipSentence = useAction(Sentences.actions.skipSentence)
+  const fetchPendingSentences = useAction(
+    Sentences.actions.refillPendingSentences
+  )
 
-  const handleVoteError = ({
+  const handleFetch = () => {
+    try {
+      fetchPendingSentences(localeId)
+    } catch (error) {
+      dispatch(
+        Notifications.actions.addPill(
+          getString('sentences-fetch-error'),
+          'error'
+        )
+      )
+      console.error(error)
+    }
+  }
+
+  const handleError = ({
     error,
     errorMessage,
     sentenceId,
@@ -42,8 +68,6 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
     errorMessage: string
     sentenceId: string
   }) => {
-    dispatch(Sentences.actions.showNextSentence(sentenceId))
-
     if (error.toString().includes(TOO_MANY_REQUESTS_ERROR)) {
       dispatch(
         Notifications.actions.addPill(
@@ -52,6 +76,7 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
         )
       )
     } else {
+      dispatch(Sentences.actions.showNextSentence(sentenceId))
       dispatch(Notifications.actions.addPill(getString(errorMessage), 'error'))
     }
   }
@@ -69,7 +94,7 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
 
       dispatch(Notifications.actions.addPill(getString('vote-yes'), 'success'))
     } catch (error) {
-      handleVoteError({
+      handleError({
         error: error.toString(),
         errorMessage: 'review-error',
         sentenceId,
@@ -90,7 +115,7 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
 
       dispatch(Notifications.actions.addPill(getString('vote-no'), 'success'))
     } catch (error) {
-      handleVoteError({
+      handleError({
         error: error.toString(),
         errorMessage: 'review-error',
         sentenceId,
@@ -98,12 +123,13 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
     }
   }
 
-  const handleSkip = () => {
+  const handleSkip = async () => {
     const sentenceId =
       pendingSentencesSubmissions[activeSentenceIndex].sentenceId
 
     try {
-      skipSentence(sentenceId)
+      await skipSentence(sentenceId)
+
       dispatch(
         Notifications.actions.addPill(
           getString('sc-review-form-button-skip'),
@@ -111,7 +137,7 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
         )
       )
     } catch (error) {
-      handleVoteError({
+      handleError({
         error: error.toString(),
         errorMessage: 'review-error',
         sentenceId,
@@ -165,6 +191,7 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
   }
 
   return {
+    handleFetch,
     handleVoteYes,
     handleVoteNo,
     handleSkip,
