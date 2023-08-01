@@ -17,7 +17,7 @@ import {
 } from '../infrastructure/storage/storage'
 import { task as T, taskEither as TE } from 'fp-ts'
 import { Metadata } from '@google-cloud/storage/build/src/nodejs-common'
-import archiver from 'archiver'
+import * as archiver from 'archiver'
 import { zip } from 'fp-ts/lib/ReadonlyArray'
 
 /**
@@ -36,17 +36,20 @@ export default class Bucket {
    * Fetch a public url for the resource.
    */
   public async getPublicUrl(key: string, bucketType?: string): Promise<string> {
-    const { DATASET_BUCKET_NAME, CLIP_BUCKET_NAME } = getConfig()
+    const { DATASET_BUCKET_NAME, CLIP_BUCKET_NAME, ENVIRONMENT } = getConfig()
 
     const bucket =
       bucketType === 'dataset' ? DATASET_BUCKET_NAME : CLIP_BUCKET_NAME
+
+    if (ENVIRONMENT === 'local') {
+      return `http://localhost:8080/storage/v1/b/${bucket}/o/${key}?alt=media`
+    }
 
     const url = await pipe(
       getSignedUrlFromBucket(bucket)(key),
       TE.getOrElse(() => T.of(`Cannot get signed url for ${key}`))
     )()
 
-    // TODO: add handling for local dev environment
 
     return url
   }
