@@ -304,6 +304,7 @@ profile-close = Aiztaiseit
 profile-explanation = Sekojit sovam progresam, lītojūt sovu profilu, i paleidzit myusu bolsa datim byut precizuokim.
 thanks-for-account = Paļdis, ka apstyprynuojot sovu kontu, tagad sataiseisim jiusu profilu.
 why-demographic = Deļkuo tys ir svareigi?
+why-demographic-explanation-2 = Anonimizāti lītuotuoja dati, par pīmāru, vacums, dzymums i akcents, paleidz uzlobuot īrokstus, kū lītoj, lai trenētu runys atpazeišonys algoritmu precizitati. Jiusu lītuotuoja vuords i e-posts nikod natiks pīsaisteits jiusu snāgtajim datim, i jius varit izavēlēt, voi padareit sovu lītuotuoja vuordu publisku voi anonimu.
 accept-privacy = Es pīkreitu, ka Mozilla apstruodoj munu informaceju tai, kai tys ir nūruodeits Mozillys <privacyLink>privatuma politikā</privacyLink>
 accept-privacy-title = Privatuma politika
 accept-privacy-and-terms = Es pīkreitu Common Voice <termsLink>nūsacejumim</termsLink> i <privacyLink>koņfideņcialuma paziņuojumam</privacyLink>
@@ -356,6 +357,9 @@ faq-is-goal-assistant-q = Voi Common Voice mierkis ir taiseit bolsa asistentu?
 faq-do-want-native-q = Itei nav muna dzymtuo volūda i es runoju ar akcentu, voi jums vys tik vajag muna bolsa īrokstus?
 faq-why-different-speakers-q = Deļkuo jums ir vajadzeigs tik daudz dažaidu vīnys volūdys runuotuoju?
 faq-why-my-lang-q = Deļkuo muna volūda vēļ nav dalykta?
+faq-why-my-lang-a =
+    Common Voice ir sabīdreibys īsaistis platforma, i vysys volūdys dalīk breivpruoteigī.
+    Mes lobu pruotu dalyktu jiusu volūdu! <languageRequestLink>Vaicojit par volūdys dalikšonu.</languageRequestLink>
 faq-what-quality-q = Kaida leimiņa audio kvalitate ir vajadzeiga, lai bolsa īrokstu varātu lītuot datu kūpā?
 faq-why-10k-hours-q = Deļkuo īrokstu puorbaudis mierkis ir 10000 stuņžu?
 faq-why-10k-hours-a = Tys ir aptuvans stuņžu skaits, kas vajadzeigs, lai kvalitativi apvuiceitu runys-teksta atpazeišonys sistemu.
