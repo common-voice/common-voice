@@ -29,6 +29,7 @@ error-clip-upload-server = Ituo īroksta augšynluode serverī vys vēļ naizad�
 
 ab = Abhazīšu
 ar = Arabu
+arn = Mapudungun
 az = Azeirbaidžanu
 ba = Baškiru
 be = Boltkrīvu
