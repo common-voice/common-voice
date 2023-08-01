@@ -3,7 +3,7 @@ import Bucket from './bucket';
 import * as Bull from 'bull';
 import { Job, Queue, QueueOptions } from 'bull';
 import { getConfig } from '../config-helper';
-import { TakeoutRequest, TakeoutState } from 'common';
+import { TakeoutResponse, TakeoutRequest, TakeoutState } from 'common';
 
 // How many concurrent takeouts can take place at any time.
 const kTakeoutConcurrency = 10;
@@ -109,7 +109,7 @@ export default class Takeout {
   async generateDownloadLinks(
     client_id: string,
     takeout_id: number
-  ): Promise<string[]> {
+  ): Promise<TakeoutResponse> {
     const takeout = await this.getTakeout(takeout_id);
     if (takeout === null) throw 'no such takeout';
     if (takeout.client_id !== client_id) throw 'no such takeout';
@@ -122,10 +122,12 @@ export default class Takeout {
 
     const urls = await Promise.all(keys.map(key => this.bucket.getPublicUrl(key)))
 
-    const links = [
-      ...urls,
-      await this.bucket.getPublicUrl(this.bucket.metadataKey(takeout)),
-    ];
+    const links = {
+      parts: urls.map(url => decodeURIComponent(url)),
+      metadata: decodeURIComponent(await this.bucket.getPublicUrl(this.bucket.metadataKey(takeout))),
+    };
+
+    console.log(links)
 
     return links;
   }

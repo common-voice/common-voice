@@ -20,15 +20,6 @@ services:
     restart: unless-stopped
     networks:
       - voice-web
-  s3proxy:
-    image: andrewgaul/s3proxy
-    container_name: s3proxy
-    ports:
-      - 9001:80
-    networks:
-      - voice-web
-    environment:
-      - S3PROXY_AUTHORIZATION=none
   storage:
     image: fsouza/fake-gcs-server
     container_name: storage
@@ -36,7 +27,7 @@ services:
       - 8080:8080
     networks:
       - voice-web
-    command: ["-scheme", "http", "-port", "8080", "-external-url", "http://storage:8080", "-backend", "memory"]
+    command: ["-scheme", "http", "-port", "8080", "-external-url", "http://storage:8080", "-backend", "filesystem"]
   web:
     build:
       context: .
