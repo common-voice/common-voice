@@ -142,6 +142,8 @@ wall-of-text-more-mobile = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav 
 wall-of-text-more-desktop =
     Niu jius varit pazīduot sovu bolsu, lai paleidzātu mums sataiseit atvārtuo pyrmkoda bolsa datubazi, kū var lītuot sevkurs,¶
     taisūt inovativys lītuotnis īreicem i teiklavītai. Skaitit teikumu, lai paleidzātu mašynom īvuiceit, kai runoj cylvāki. Puorbaudit cytu cylvāku īrokstus, lai uzlabuotu datu kvalitati. Tys ir tik vīnkuorši!
+wall-of-text-first = Bolss ir dabiskys, bolss ir ciļvieceigs. Taišni deļtuo mes gribim sataiseit bolsa atpazeišonys tehnologeju, kuru varātu lītuot dažaiduos īreicēs. Bet, lai radeitu itaidu bolsa tehnologeju, ir vajadzeigs daudz bolsa īrokstu.
+wall-of-text-second = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daeimami vysim cylvākim. Mes dūmojam, ka tys kavej inovaceju, deļtuo asam aizsuokuši Common Voice - projektu, ka padareis bolsa atpazeišonu daeimamu sevkuram.
 show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
 help-us-explain = Nūmīdzīt atskaņuošonys pūgu, klausotēs i puorbaudit, voi zamuok nūruodeitais teikums ir izrunuots precizai.
@@ -203,6 +205,7 @@ whats-public = Kas ir publiski daīmams?
 email-not-public = Mes napubliskuosim jiusu e-postu.
 recordings-and-locale-public = Īrunuotū īrokstu skaits i volūdys byus publiski daīmamys.
 username-optin-public = Jius varit izavēlēt, voi lītuotuoja vuords ir publiskys voi anonims.
+demographic-deidentified-clarity-2 = Piec izvēlis īsnāgtī demografiskī dati (par pīmāru, vacums, dzymums, volūda i akcents) nikod natiks publiskuoti jiusu profilā i natiks sasaisteiti ar jiusu konta datu kūpu. Atseviški audio īroksti tiks saisteiti ar demografiskajim datim, lai veiktu precizuoku analizi, par pīmāru, pietnīks var gribēt apvuiceibu modeli atlaseit nūsaceitam demografiskajam segmentam.
 username-email-not-demographic = Jiusu lītuotuoja vuords i e-posts natiks pīsaisteits publicētajim datim.
 
 ## Speak & Listen Shortcuts
