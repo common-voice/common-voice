@@ -602,6 +602,7 @@ resource-playbook-info = <playbookLink>Atrūnit dereigus nūruodejumus</playbook
 data-other-librispeech-description = LibriSpeech ir apmāram 1000 stuņžu 16Khz ar angļu volūdys runu, kas dabuota nu LibriVox projektā skaiteitajom audio gruomotom.
 data-other-ted-name = TED-LIUM korpuss
 data-other-ted-description = TED-LIUM korpuss tyka sataiseits nu audio īrokstu i tūs transkripceju, kas daeimamys TED teiklavītā.
+data-other-voxforge-description = VoxForge tyka sataiseits, lai savuoktu transkrybātu runu lītuošonai bezmoksys i atvārtuo koda runys atpazeišonys dziniejūs.
 your-feedback = Voi jums ir idejis, kai mes varim padareit lobuoku Common Voice datu kūpu? Informejit myus par tū Discourse servisā
 go-discourse = Īt iz Discourse
 missing-language = Voi naredzit sovu volūdu datu kūpā? Lai pīpraseitu volūdu, ejit iz myusu volūdu lopu.
