@@ -973,6 +973,9 @@ contribution-criteria-page-title = Īguļdejuma kritereji
 contribution-criteria-page-description = Izprūtit, kam juopīvierš viereiba, klausūtīs īrokstus, i zinit, kai padareit ari sovus īrokstus lobuokus!
 contribution-for-example = par pīmāru
 contribution-misreadings-title = Klaidaini skaitejumi
+contribution-misreadings-description-extended-list-1 = Izlaisti vuordi, par pīmāru, tryukst <strong>'ja'</strong> voi <strong>'es'</strong>, par pīmāru, 'es asmu' vītā īrunuots tikai 'asmu'.
+contribution-misreadings-description-extended-list-2 = Nūrautys vuordu golūtnis, par pīmāru, <strong>'s'</strong> vuorda beiguos.
+contribution-misreadings-example-4-explanation = [Ir īraksteits vaira nikai beja raksteits]
 contribution-varying-pronunciations-title = Dažaidys izrunys
 contribution-varying-pronunciations-example-1-title = Maņ garšoj dasa.
 contribution-background-noise-title = Fona trūksnis
@@ -1022,6 +1025,7 @@ sc-home-review-text = Paleidzit mums, puorsaverūt teikumu pareizraksteibu saska
 
 sc-howto-title = Padūmi
 sc-howto-addlang-title = Volūdu dalikšona dorbam
+sc-howto-addlang-text = Kod esit dasaslēdzs, profila sadaļā varit izalaseit sovys volūdys.
 sc-howto-addsen-title = Dalikt jaunus teikumus
 sc-howto-cite-title = Kai nūruodeit olūtu
 sc-howto-review-title = Puorsaverit teikumus
