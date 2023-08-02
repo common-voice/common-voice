@@ -1036,6 +1036,8 @@ sc-howto-review-criteria-1 = Teikumam juobyut pareizi uzraksteitam, vuordūs nav
 sc-howto-review-criteria-2 = Teikumam juobyut gramatiski pareizam.
 sc-howto-review-criteria-3 = Teikumam juobyut izrunojamam.
 sc-howto-review-criteria-4 = Ka teikums atbylst vysim kriterejim, klykstynojit iz pūgys "Apstyprynuot".
+sc-howto-review-criteria-6 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
+sc-howto-findpd-subtitle = Vaicojit tūs škārsteiklā
 sc-howto-findpd-tips = Ite ir puors padūmi, kai atrast teikumus:
 sc-howto-findpd-subtitle-2 = Sasadorbojit ar vītejom organizacejom voi privatpersonom
 
