@@ -1063,10 +1063,17 @@ sc-my-err-failed-delete = Naizadeve izdzēst atlaseitūs teikumus... Lyudzu, rau
 sc-rejected-title = Nūraideitī teikumi
 sc-rejected-loading = Nūteik nūraideitū teikumu īluode...
 sc-rejected-err-fetching = Īluodejūt nūraideitūs teikumus, roduos klaida. Lyudzu, raugit vēļreiz.
+sc-rejected-none-found = Natyka atrosts nivīns nūraideits teikums!
 
 ## STATS
 
 sc-stats-title = Statistika
+sc-stats-updating = Nūteik atjaunynuošona...
+sc-stats-error = Navariejom īluodēt statistiku. Lyudzu, raugit vāluok vēļreiz.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice teikumu apkūpuotuojs ir savuocs { $sentenceCount } teikumus { $languageCount } volūduos!
 
 ## ADD
 
@@ -1082,13 +1089,29 @@ sc-submit-select-language =
 sc-submit-add-sentences = Dalīcit <wikipediaLink>publiskuo domena</wikipediaLink> teikumus
 sc-submit-ph-one-per-line =
     .placeholder = Vīns teikums kotrā ryndā
+sc-submit-from-where = Nu kurīnis ir itī <wikipediaLink>publiskuo domena</wikipediaLink> teikumi?
+sc-submit-ph-read-how-to =
+    .placeholder = Paskaitit myusu pavuiceibu, ka nazinit, kai nūruodeit olūtu
+sc-submit-confirm = Es apstyprynoju, ka itī ir <wikipediaLink>publiskuo domena</wikipediaLink> teikumi, i maņ ir atļuove tūs augšynluodēt.
 sc-submit-button =
     .submitText = Nūsyuteit
 sc-submit-guidelines = Lyudzu, puorbaudit <howToLink>vadlinejis</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Navarēja dalikt volūdu
 sc-add-lang-sec-label = Dalicit volūdu, kurā gribit dorbuotīs
+sc-add-lang-sec-button = Dalikt volūdu
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] { $sentences } teikumi tyka noraideiti
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
+sc-add-err-submission = Īsnīgšonys klaida
 
 ## ADD SENTENCES CONFIRMATION
 
