@@ -1037,6 +1037,7 @@ sc-howto-review-criteria-2 = Teikumam juobyut gramatiski pareizam.
 sc-howto-review-criteria-3 = Teikumam juobyut izrunojamam.
 sc-howto-review-criteria-4 = Ka teikums atbylst vysim kriterejim, klykstynojit iz pūgys "Apstyprynuot".
 sc-howto-review-criteria-6 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
+sc-howto-findpd-title = Kai atrast breivi daeimamus publiskuo domena teikumus
 sc-howto-findpd-subtitle = Vaicojit tūs škārsteiklā
 sc-howto-findpd-tips = Ite ir puors padūmi, kai atrast teikumus:
 sc-howto-findpd-subtitle-2 = Sasadorbojit ar vītejom organizacejom voi privatpersonom
@@ -1046,15 +1047,22 @@ sc-howto-findpd-subtitle-2 = Sasadorbojit ar vītejom organizacejom voi privatpe
 sc-my-title = Muni teikumi
 sc-my-loading = Nūteik jiusu teikumu īluode...
 sc-my-err-fetching = Īluodejūt jiusu teikumus, roduos klaida. Lyudzu, raugit vēlreiz.
+sc-my-no-sentences = Nav atrosts nivīns teikums!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Īsnīguma identifikators: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Olūts: { $source }
+sc-my-delete = Dzēst atlaseitūs teikumus
+sc-my-deleting = Nūteik atlaseitū teikumu dziesšona...
+sc-my-err-failed-delete = Naizadeve izdzēst atlaseitūs teikumus... Lyudzu, raugit vēļreiz!
 
 ## REJECTED
 
+sc-rejected-title = Nūraideitī teikumi
+sc-rejected-loading = Nūteik nūraideitū teikumu īluode...
+sc-rejected-err-fetching = Īluodejūt nūraideitūs teikumus, roduos klaida. Lyudzu, raugit vēļreiz.
 
 ## STATS
 
