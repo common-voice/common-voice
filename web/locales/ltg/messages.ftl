@@ -963,12 +963,14 @@ demo-listen-subtitle = Itys tok ir lobs breids paleidzēt, pareiz?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Informacejis paneli snādz jums jaunuokū informaceju par jiusu i kūpīnys progresu.
 
 ## Validation criteria
 
 contribution-criteria-nav = Kritereji
 contribution-criteria-link = Īrokstu kvalitatis kritereji
 contribution-criteria-page-title = Īguļdejuma kritereji
+contribution-criteria-page-description = Izprūtit, kam juopīvierš viereiba, klausūtīs īrokstus, i zinit, kai padareit ari sovus īrokstus lobuokus!
 contribution-for-example = par pīmāru
 contribution-misreadings-title = Klaidaini skaitejumi
 contribution-varying-pronunciations-title = Dažaidys izrunys
