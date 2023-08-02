@@ -662,6 +662,10 @@ request-language-google-recaptcha-required = Ka gribit turpynuot, ir vajadzeiga 
 request-language-google-recaptcha-error = Ar reCAPTCHA roduos problema. Lyudzu, raugit vēļreiz.
 # Success page
 request-language-success-heading = Paļdis! Jius esit nūsyutejs jaunys volūdys pīprasejumu.
+request-language-success-list-3 =
+    Ka puors dīnu laikā nasajemit nu mums informaceju,
+    sasazynojit ar <emailLink>{ $email }</emailLink>
+    i mes jums paleidzēsim!
 
 ## Languages Overview
 
@@ -947,6 +951,7 @@ demo-account = Konts
 
 ## Demo Account
 
+demo-account-card-header = Lai dūtu īguļdejumu, nav vajadzeigs konts, koč i tys ir dereigs.
 demo-account-enter-email =
     .label = Īvodit e-postu, lai nūsyuteitu registracejis saiti
 demo-account-sign-up = Nūsyutit registracejis saiti
