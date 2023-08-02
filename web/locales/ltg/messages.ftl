@@ -566,8 +566,11 @@ review-delete-recordings = Dzēst munus īrokstus
 ## Datasets Page
 
 datasets-heading = Datu kūpys
+datasets-headline = Mes veidojam atvārtuo pyrmkoda daudzvolūdu datu kūpu, kū sevkurs var lītuot, lai apvuiceitu runys lītuojumprogramys.
 language = Volūda
 download-dataset-header = Zamynluodejit datu kūpu
+download-delta-explainer = Mes asam sataisejuši puors izmainis. Delta segmenti satur tikai jaunuokūs īrokstus nu pādejuos izlaisšonys. <deltaLink>Skaitit vaira par itū dorbu</deltaLink>.
+download-dataset-tag = Izalosit vajadzeigū volūdys datu kūpu i izavielejit verseju, kuru gribit zamynluodēt.
 # File size in gigabytes
 size = Izmārs
 validated-hr-total = Puorbaudeitys st. kūpā
@@ -598,6 +601,7 @@ community-playbook = Kūpīnys rūkysgruomota
 resource-playbook-info = <playbookLink>Atrūnit dereigus nūruodejumus</playbookLink> par vysu Common Voice ceļuojumu, suocūt nu lokalizacejis da datu kūpys lītuošonai, kai ari par tū, kai sasazynuot ar myusu kūpīnu.
 data-other-librispeech-description = LibriSpeech ir apmāram 1000 stuņžu 16Khz ar angļu volūdys runu, kas dabuota nu LibriVox projektā skaiteitajom audio gruomotom.
 data-other-ted-name = TED-LIUM korpuss
+data-other-ted-description = TED-LIUM korpuss tyka sataiseits nu audio īrokstu i tūs transkripceju, kas daeimamys TED teiklavītā.
 your-feedback = Voi jums ir idejis, kai mes varim padareit lobuoku Common Voice datu kūpu? Informejit myus par tū Discourse servisā
 go-discourse = Īt iz Discourse
 missing-language = Voi naredzit sovu volūdu datu kūpā? Lai pīpraseitu volūdu, ejit iz myusu volūdu lopu.
