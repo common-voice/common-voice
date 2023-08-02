@@ -1115,13 +1115,28 @@ sc-add-err-submission = Īsnīgšonys klaida
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Apstyprynojat jaunūs teikumus
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Tyka atrosti { $countOfSentences } teikumi.
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = Jius nūraidejot { $countOfInvalidated }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } teikumi nav puorsavārti. Ka gribit, varit ari puorsavērt sovus teikumus pyrma tūs īsniegšonys.
+sc-confirm-button-text = Apstyprynuot
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Kūpā
+sc-lang-info-title-personal = Jiusu pīnasums
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1131,6 +1146,16 @@ sc-lang-info-total =
         [one] { "" }
        *[other] { "" }
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] { $totalInReview } teikumi, kū puorbaudeit.
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
+sc-lang-info-review-now = <reviewLink>Puorbaudeit tagad!</reviewLink>
 sc-lang-info-add-more = <addLink>Davīnojit teikumus!</addLink>
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
@@ -1213,6 +1238,7 @@ sc-settings-ui-language = Saskarnis volūda
 
 # [/SentenceCollector]
 
+partnerships-get-in-touch = Sasazynuot
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Paļdis, ka pazīduojot sova bolsa īrokstus!
 why-donate = Deļkuo jius vaicojit?
