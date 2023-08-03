@@ -1644,6 +1644,7 @@ citing-sentences-subheader-offline-sources-explanation = Pe moñe’ẽrã opava
 citation =
     .label = Jehechauka
 self-citation = Ejehechauka
+self-citation-explanation = Kóicha eñemombe’ukuaa emboheraguapy rire ndetevoi pe tetepy.
 adding-sentences-subheader-length = Pukukue
 adding-sentences-subheader-length-explanation = Pe ñe’ẽjuaju ndohupytyiva’erã 15 ñe’ẽ.
 adding-sentences-subheader-spelling-punctuation = Haiporã ha Ñemokyta
@@ -1659,6 +1660,7 @@ adding-sentences-subheader-special-characters-explanation-1 = Umi kuatiahai oiko
 adding-sentences-subheader-offensive-content = Ñe’ẽreity Ivaíva
 reviewing-sentences-explanation-1 = Pe ñe’ẽjuaju oiko hekopetéramo, eikutu pe votõ "Moneĩ".
 reviewing-sentences-explanation-2 = Pe ñe’ẽjuaju ndoikóiramo hekopete, eikutu pe votõ "Nahániri".
+reviewing-sentences-explanation-3 = Ndereikuaaporãiramo ñe’ẽjuaju rehe, avei ikatu emboyke ha ehasánte chugui.
 reviewing-sentences-explanation-4 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
 # WRITE PAGE
 write-instruction-second-part = ñe’ẽjoaju opavave oipurukuaáva
