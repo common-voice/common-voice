@@ -1,8 +1,8 @@
 ## General
 
-yes-receive-emails = Quemah, xinechioaltitlani correos. Onicniquisquiaya nicmatis ica tlanimilil Common Voice.
-stayintouch = Ich Mozilla secchiutoc se nichicomasehual campa tipostl notzani. Otechpactisquia timitzmatiltisque icanin tepanoltilistl yancoic nemilis ica tlahcuilol uan secmatis cachi queni tehuatl tiquintiquitiltia necateh datos.
-privacy-info = Titlahtolmaca ticuicasque motlanonotzal ica cuidado. tlahtoltlahcuilol cachi itich <privacyLink> toichtacatlahtol </privacyLink> .
+yes-receive-emails = Quemah, xinechualtitlani correos. Onicniquisquiaya nicmatis ica tlanimilil Common Voice.
+stayintouch = Itich Mozilla secchiutoc se nichicolmasehual ipan tipostl notzani. Otechpactisquia timitzmatiltisque ica nin tepanoltilistl yancuic nemilis ica tlahcuilol uan secmatis cachi queni tehuatl tiquintiquitiltia necateh datos.
+privacy-info = Titlahtolmaca ticuicasque motlanonotzal ica cuidado. Cachi xitlaleero itich <privacyLink> toichtacatlahtol </privacyLink> .
 return-to-cv = Ximocuipa campa Common Voice
 email-input =
     .label = Correo
