@@ -1601,6 +1601,7 @@ required-field = بۇ بۆلەكنى تولدۇرۇڭ.
 # REVIEW PAGE
 sc-review-instruction-first-part = تەكشۈر
 sc-review-instruction-second-part = بۇ تىل ئادىتىگە ئۇيغۇن جۈملىمۇ؟
+sc-review-rules-title = بۇ جۈملە كۆرسەتمىگە ئۇيغۇنمۇ؟
 report-sc-different-language = ئوخشىمىغان تىل
 sentences-fetch-error = جۈملىلەرگە ئېرىشىشتە خاتالىق كۆرۈلدى
 review-error = بۇ جۈملىنى تەكشۈرۈشتە خاتالىق كۆرۈلدى
