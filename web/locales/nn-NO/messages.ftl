@@ -573,11 +573,14 @@ about-playbook-how-add-sentences = Korleis legg eg til ei setning?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Korleis spelar eg inn eit stemmeklipp med høg kvalitet?
+about-playbook-how-record-content-2 = Unngå for mykje bakgrunnslyd – det skal vere lett å høyre deg.
 
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Hendingar
 about-playbook-how-grow-language-content-4 = Sosiale medium
+about-playbook-how-grow-language-content-6 = Partnarskap og nettverk
 about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt språkfellesskapet vil vere unikt, og dette er berre nokre få måtar å kome i gang på.
 
 ## How to validate
@@ -588,6 +591,7 @@ about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt 
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-7 = nk>
 
 ## Glossary
 
