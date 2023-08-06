@@ -591,7 +591,7 @@ about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt 
 
 ## How are decisions made
 
-about-playbook-how-project-governance-content-7 = nk>
+about-playbook-how-project-governance-content-7 = <governanceLink>Les meir om korleis vi blir styrt.</governanceLink>
 
 ## Glossary
 
@@ -674,6 +674,7 @@ confirm-size = Du er klar for å starte ei nedlasting av <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b> Du seier deg samd i </b> å ikkje prøve å identifisere talarar i Common Voice-datasettet
+confirm-join-mailing-list = Eg vil melde meg på e-postlista til Common Voice
 download-language = Last ned { $language }
 validated-hours = Validerte timar
 recorded-hours = Innspelte timar
@@ -705,6 +706,9 @@ more = Meir
 close = Lat att
 download = Last ned
 dataset-version = Versjon
+sha256-checksum-copied = SHA256-kontrollsum kopiert!
+sha256-checksum-copied-error = Klarte ikkje å kopiere SHA256-kontrollsummen
+clipboard-not-supported = Utklippstavle ikkje støtta
 
 ## Download Modal
 
@@ -774,6 +778,8 @@ action-click = Klikk
 action-tap = Trykk
 contribute = Bidra
 listen = Lytt
+write = Skriv
+review = Vurder
 skip = Hopp over
 shortcuts = Snarvegar
 clips-with-count-pluralized =
@@ -820,6 +826,9 @@ listen-again-instruction = Bra jobba!<playIcon></playIcon> Lytt på det ein gong
 listen-3rd-time-instruction = Ferdig med to <playIcon></playIcon>, fortset slik!
 listen-last-time-instruction = <playIcon></playIcon>Det siste!
 listen-empty-state = Vi har gått tom for lydklipp å validere på dette språket…
+listen-loading-error =
+    Vi klarte ikkje å finne lydklipp du kunne høyre på.
+    Prøv på nytt seinare.
 speak-empty-state = Vi har gått tom for setningar å spele inn på dette språket…
 speak-empty-state-cta = Bidra med setningar
 record-button-label = Spel inn stemma di
@@ -834,6 +843,7 @@ target-segment-learn-more = Les meir
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Innsamling av stemmer
 contribute-sentence-collection-nav-header = Setningsinnsamling
 
 ## Reporting
