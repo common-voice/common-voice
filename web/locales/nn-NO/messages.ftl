@@ -1172,7 +1172,9 @@ sc-submit-button =
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Klarte ikkje å leggje til språk
+sc-add-lang-sec-label = Legg til eit språk du vil bidra på
 sc-add-lang-sec-button = Legg til språk
+sc-add-err-submission = Innsendingsfeil
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1219,10 +1221,20 @@ sc-review-link = Vurdering
 ## SETTINGS
 
 sc-settings-title = Innstillingar
+sc-settings-ui-language = Grensesnittspråk
+sc-settings-reset-skipped = Nullstill hoppa over-setningar
+sc-validation-no-numbers = Setninga skal ikkje innehalde tal
+sc-validation-no-symbols = Setninga skal ikkje innehalde symbol
+sc-validation-no-abbreviations = Setninga skal ikkje innehalde forkortingar
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Vel språk/lokalisering
+# PARTNERSHIPS PAGE
+partnerships-header = Partnarskap
 partnerships-get-in-touch = Kontakt oss
+partnerships-become-a-partner = Vert ein Common Voice-partner
 add-information-button = Legg til informasjon
 already-have-an-account = Har du allereie ein konto? <login>Logg inn</login>
 create-profile-button = Opprett ein profil
