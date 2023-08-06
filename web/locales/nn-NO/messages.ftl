@@ -1134,7 +1134,9 @@ sc-logout-button = Logg ut
 ## HOME
 
 sc-home-title = Velkomen til setningsinnsamlaren i Common Voice Sentence
+sc-home-intro = Setningsinnsamlaren er ein del av <commonVoiceLink>Common Voice</commonVoiceLink>. Han tillèt bidragsgivarar å samle inn og vurderesetningar laga av fellesskapen. Du kan òg bruke dette verktøyet for å importere og rydde opp i små og mellomstore offentlege korpus som du har funne eller samla inn. Alla setningar må vere allmenn eigedom. Godkjende setningar vert kvar veke eksportert til Common Voice-lageret og vert sleppt på Common Voice-nettstaden i kvar ny distribusjon.
 sc-home-collect-title = Saml inn setningar
+sc-home-collect-text = Hjelp oss med å skrive eller samle inn setningar som ikkja er verna av opphavsrett.
 sc-home-review-title = Vurder setningane
 
 ## GENERAL
@@ -1146,6 +1148,8 @@ sc-howto-title = Slik gjer du det
 sc-howto-addsen-title = Legg til nye setningar
 sc-howto-cite-title = Korleis sitere
 sc-howto-review-title = Vurder setningar
+sc-howto-findpd-subtitle = Søk etter dei på internett
+sc-howto-findpd-tips = Her er nokre tips for å finne setningar:
 
 ## MY SENTENCES
 
