@@ -1104,6 +1104,7 @@ contribution-varying-pronunciations-title = Ulike uttalar
 contribution-background-noise-title = Bakgrunnsstøy
 contribution-background-voices-title = Bakgrunnsstemmer
 contribution-volume-title = Lydstyrke
+contribution-just-unsure-title = Berre usikker?
 see-more = <chevron></chevron>Vis meir
 see-less = <chevron></chevron>Vis mindre
 
@@ -1132,6 +1133,7 @@ sc-logout-button = Logg ut
 
 ## HOME
 
+sc-home-title = Velkomen til setningsinnsamlaren i Common Voice Sentence
 sc-home-collect-title = Saml inn setningar
 sc-home-review-title = Vurder setningane
 
