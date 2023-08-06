@@ -1201,11 +1201,37 @@ sc-add-err-submission = Innsendingsfeil
 
 sc-confirm-sentences-title = Stadfest nye setningar
 sc-confirm-button-text = Stadfest
+sc-confirm-uploading = Setningar vert lasta opp. Dette kan ta fleire minutt, avhengig av talet på setningar som er lagt til. Ikkje lat at denne nettstaden.
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Totalt
 sc-lang-info-title-personal = Personleg
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Ingen setningar.
+        [one] 1 setning.
+       *[other] { $totalSentences } setningar.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ingen setningar til vurdering.
+        [one] 1 setning til vurdering.
+       *[other] { $totalInReview } setningar til vurdering.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Ingen setningar att for deg å vurdere.
+        [one] 1 setning att for deg å vurdere.
+       *[other] { $unreviewedSentencesByYou } setningar att for deg å vurdere.
+    }
+sc-lang-info-review-now = <reviewLink>Vurder no!</reviewLink>
 
 ## LOGIN
 
