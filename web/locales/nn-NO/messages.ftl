@@ -375,6 +375,9 @@ profile-form-variant =
 profile-form-variant-default-value = Ingen variant valt
 profile-form-accent =
     .label = Dialekt
+profile-form-custom-accent-help-text =
+    .label = Korleis vil du skildre dialekten din?
+profile-form-custom-accent-placeholder-2 = Begynn å skrive for å skildre dialekten din
 profile-form-age =
     .label = Alder
 profile-form-gender-2 =
@@ -827,6 +830,7 @@ target-segment-learn-more = Les meir
 
 ## Contribution Nav Items
 
+contribute-sentence-collection-nav-header = Setningsinnsamling
 
 ## Reporting
 
@@ -1084,6 +1088,7 @@ contribution-misreadings-example-8-title = Humla flaug forbi.
 contribution-misreadings-example-8-explanation = [Heilt feil innhald]
 contribution-varying-pronunciations-title = Ulike uttalar
 contribution-background-noise-title = Bakgrunnsstøy
+contribution-background-voices-title = Bakgrunnsstemmer
 contribution-volume-title = Lydstyrke
 see-more = <chevron></chevron>Vis meir
 see-less = <chevron></chevron>Vis mindre
@@ -1106,6 +1111,7 @@ sc-header-profile = Profil
 sc-footer-report-bugs = Rapporter feil
 sc-footer-translate = Omset denne sida
 sc-footer-privacy = Personvern
+sc-footer-terms = Vilkår
 sc-footer-cookies = Infokapslar
 sc-login-signup-button = Logg inn/Registrer deg
 sc-logout-button = Logg ut
@@ -1120,7 +1126,9 @@ sc-home-review-title = Vurder setningane
 
 ## HOW-TO
 
+sc-howto-title = Slik gjer du det
 sc-howto-addsen-title = Legg til nye setningar
+sc-howto-cite-title = Korleis sitere
 sc-howto-review-title = Vurder setningar
 
 ## MY SENTENCES
@@ -1128,6 +1136,9 @@ sc-howto-review-title = Vurder setningar
 sc-my-title = MIne setningar
 sc-my-loading = Lastar setningane dine…
 sc-my-no-sentences = Fann ingen setningar!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Innsending: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Kjede:  { $source }
@@ -1155,6 +1166,8 @@ sc-submit-select-language =
     .labelText = Vels språk
 sc-submit-ph-one-per-line =
     .placeholder = Ei setning per linje
+sc-submit-button =
+    .submitText = Send inn
 
 ## ADD LANGUAGE
 
