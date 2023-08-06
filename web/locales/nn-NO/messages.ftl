@@ -1149,6 +1149,7 @@ sc-howto-addsen-title = Legg til nye setningar
 sc-howto-cite-title = Korleis sitere
 sc-howto-review-title = Vurder setningar
 sc-howto-findpd-subtitle = Søk etter dei på internett
+sc-howto-findpd-text-2 = Hugs at vi treng løyve for å publisere desse setningane, og pass difor på at teksten alltid er <wikipediaLink>allmenn eigedom</wikipediaLink>. Om det ikkje finst nokon klar peikepinn, kontakt personen som teksten tillhøyrer og spør om dei vil bidra med sin tekst. Om dei vil, hjelp dei med å gå gjennom <cc0WaiverLink>bidragsavtalen</cc0WaiverLink>. Om dei ikkje vill bidra med teksten så får du heller ikkje bruke han.
 sc-howto-findpd-tips = Her er nokre tips for å finne setningar:
 
 ## MY SENTENCES
@@ -1203,6 +1204,8 @@ sc-confirm-button-text = Stadfest
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Totalt
+sc-lang-info-title-personal = Personleg
 
 ## LOGIN
 
