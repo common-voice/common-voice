@@ -1232,6 +1232,23 @@ sc-lang-info-left-for-you =
        *[other] { $unreviewedSentencesByYou } setningar att for deg å vurdere.
     }
 sc-lang-info-review-now = <reviewLink>Vurder no!</reviewLink>
+sc-lang-info-add-more = <addLink>Legg til fleire setningar no!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ingen vurderte setningar.
+        [one] 1 vurdert setning.
+       *[other] { $validatedSentences } vurderte setningar.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ingen avviste setningar.
+        [one] 1 avvist setning.
+       *[other] { $rejectedSentences } avviste setningar.
+    }
 
 ## LOGIN
 
@@ -1243,15 +1260,22 @@ sc-login-err-try-again = Prøv igjen.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Klarte ikkje å fjerne språket: fann ikkje språket
 sc-personal-err-remove = Klarte ikkje å fjerne språk
 sc-personal-your-languages = Dine språk:
 sc-personal-remove-button = fjern
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } lagt til av deg
+sc-personal-not-added = Du har ikkje lagt til noko språk enno.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Vurderingskriterium
+sc-criteria-title = Vurderingskriterium
+sc-criteria-item-1 = Setninga må vere rett stava.
+sc-criteria-item-2 = Setninga må vere grammatisk rett.
+sc-criteria-item-3 = Setninga må kunne seiast.
 
 ## REVIEW
 
