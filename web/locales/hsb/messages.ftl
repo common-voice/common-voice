@@ -1614,3 +1614,5 @@ sc-review-instruction-first-part = Přepruwować
 sc-review-instruction-second-part = Je to rěčnje korektna sada?
 sc-review-rules-title = Wotpowěduje sada směrnicam?
 report-sc-different-language = Druha rěč
+report-sc-different-language-detail = Je w druhej rěči napisana hač přepruwuju.
+sc-redirect-page-subtitle-2 = Stajće nam prašenja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mejlu</emailLink>.
