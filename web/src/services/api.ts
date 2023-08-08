@@ -84,17 +84,24 @@ export default class API {
           : JSON.stringify(body)
         : undefined,
     })
+
     if (response.status == 401) {
       localStorage.removeItem(USER_KEY)
       location.reload()
       return
     }
+
+    if (response.status === 429) {
+      throw new Error(response.statusText)
+    }
+
     if (response.status >= 400) {
       if (response.statusText.includes('save_clip_error')) {
         throw new Error(response.statusText)
       }
       throw new Error(await response.text())
     }
+
     return isJSON ? response.json() : response.text()
   }
 
