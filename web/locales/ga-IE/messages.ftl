@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Faigh teachtaireachtaí ríomhphoist amha
 email-opt-in-privacy-v2 = Trí rogha a dhéanamh chun teachtaireachtaí ríomhphoist a fháil, tugann tú le fios nach miste leat go mbeidh Mozilla in ann an fhaisnéis sin a láimhseáil mar a mhínítear i <privacyLink>mBeartas Príobháideachais</privacyLink> Mozilla.
 indicates-required = Léiríonn * réimse atá riachtanach
 not-available-abbreviation = Neamhbhainteach
+banner-error-slow-link = An Chaoi A Bhfuil An Scéal
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -431,13 +432,13 @@ review-terms = Má úsáideann tú Common Voice, glacann tú leis na <termsLink>
 terms-agree = Aontaím
 terms-disagree = Ní aontaím
 review-aborted = Cealaíodh an uaslódáil. An bhfuil fonn ort na taifeadtaí a scriosadh?
-review-submit-title = Athbhreithniú agus Seoladh
-review-submit-msg = Go raibh maith agat!<lineBreak></lineBreak>Anois, déan athbhreithniú ar na taifeadtaí a rinne tú, ansin seol chugainn iad.
+review-submit-title = Athbhreithniú agus Seol
+review-submit-msg = Go raibh maith agat as ucht sin a thaifeadadh!<lineBreak></lineBreak>Anois, déan athbhreithniú ar na taifeadtaí a rinne tú thíos agus seol chugainn iad.
 review-recording = Athbhreithnigh
 review-rerecord = Ataifead
 review-cancel = Cealaigh
 review-keep-recordings = Coinnigh na taifeadtaí
-review-delete-recordings = Scrios na taifeadtaí
+review-delete-recordings = Scrios mo chuid taifeadtaí
 
 ## Datasets Page
 
@@ -521,6 +522,8 @@ action-click = Cliceáil
 action-tap = Tapáil
 contribute = Rannpháirtíocht
 listen = Éist
+write = Scríobh
+review = Athbhreithnigh
 skip = Ar Aghaidh
 shortcuts = Aicearraí
 goal-help-recording = Chabhraigh tú le Common Voice <goalPercentage></goalPercentage> dár sprioc laethúil de { $goalValue } abairt taifeadta a bhaint amach!
@@ -676,15 +679,20 @@ profile-not-required = Ní gá duit cuntas a chruthú, ach tá sé úsáideach
 
 ## HEADER/FOOTER
 
+sc-header-review = Athbhreithnigh
 
 ## HOME
 
+sc-home-review-title = Athbhreithnigh abairtí
+sc-home-review-text = Cabhraigh linn trí abairtí a athbhreithniú le haghaidh cruinnis de réir na dtreoirlínte.
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-review-title = Athbhreithnigh Abairtí
+sc-howto-review-subtitle = Cinntigh go gcomhlíonann an abairt na critéir seo a leanas:
 
 ## MY SENTENCES
 
