@@ -479,7 +479,9 @@ review-delete-recordings = Scrios mo chuid taifeadtaí
 
 ## Datasets Page
 
+datasets-heading = Tacair sonraí
 language = Teanga
+download-dataset-header = Íosluchtaigh an tacar sonraí
 # File size in gigabytes
 size = Méid
 validated-hr-total = Líon uaireanta an chloig deimhnithe
@@ -495,6 +497,7 @@ download-language = Íoslódáil { $language }
 validated-hours = Líon uaireanta an chloig deimhnithe
 recorded-hours = Líon uaireanta an chloig taifeadta
 subscribe = Liostáil
+other-datasets = Tacair Sonraí Gutha Eile
 feedback-q = An bhfuil aiseolas agat?
 data-other-librispeech-description = Is éard atá in LibriSpeech ná corpas cainte ina bhfuil timpeall is 1000 uair an chloig de Bhéarla labhartha, cuid den ábhar léite as closleabhair agus an chuid eile ón tionscadal LibriVox.
 data-other-ted-name = Corpas TED-LIUM
@@ -502,11 +505,13 @@ data-other-ted-description = Cruthaíodh an corpas TED-LIUM ó léachtaí TED ag
 data-other-voxforge-description = Bunaíodh VoxForge chun ábhar cainte tras-scríofa a bhailiú agus a úsáid in innill aitheanta cainte FLOSS.
 data-other-tatoeba-description = Is éard atá in Tatoeba ná bunachar sonraí abairtí, aistriúchán, agus taifeadtaí fuaime a úsáidtear chun teangacha a fhoghlaim. Gheobhaidh tú mórán Béarla labhartha, taifeadta ag comhphobal Tatoeba, san íoslódáil seo.
 go-discourse = Téigh go dtí Discourse
+go-languages-page = Téigh go Leathanach na dTeangacha
 ready-to-validate = An bhfuil tú réidh abairtí a dheimhniú?
 more = Tuilleadh
 close = Dún
 download = Íoslódáil
 dataset-version = Leagan
+clipboard-not-supported = Ní thacaítear leis an ngearrthaisce
 
 ## Download Modal
 
@@ -539,6 +544,10 @@ other-language = Teanga Eile
 
 ## Request Language Pages
 
+request-language-heading = Cuir ceist faoi theanga nua
+request-language-form-email =
+    .label = Do sheoladh ríomhphoist
+request-language-form-info-explanation-list-2 = <isoCodeLink>Cóid ISO</isoCodeLink> más eol duit iad
 
 ## Languages Overview
 
@@ -553,17 +562,26 @@ language-search-input =
 language-speakers = Cainteoirí
 localized = Aistrithe
 sentences = Abairtí
+language-validation-hours = Uaire
 
 ## Contribution
 
 action-click = Cliceáil
-action-tap = Tapáil
+action-tap = Cnag ar
 contribute = Rannpháirtíocht
 listen = Éist
 write = Scríobh
 review = Athbhreithnigh
 skip = Ar Aghaidh
 shortcuts = Aicearraí
+clips-with-count-pluralized =
+    { $count ->
+        [one] Ghearrthóg amháin
+        [two] Ghearrthóg
+        [few] Ghearrthóg
+        [many] nGearrthóg
+       *[other] Gearrthóg
+    }
 goal-help-recording = Chabhraigh tú le Common Voice <goalPercentage></goalPercentage> dár sprioc laethúil de { $goalValue } abairt taifeadta a bhaint amach!
 goal-help-validation = Chabhraigh tú le Common Voice <goalPercentage></goalPercentage> dár sprioc laethúil de { $goalValue } abairt deimhnithe a bhaint amach!
 contribute-more =
@@ -590,6 +608,8 @@ record-again-instruction = Iontach! <recordIcon></recordIcon> Taifead abairt eil
 record-again-instruction2 = Lean ort, déan taifead eile <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> An ceann deireanach!
 review-tooltip = Athbhreithnigh agus ataifead gearrthóga anseo
+share-clip = Comhroinn do ghearrthóg
+share-common-voice = Comhroinn Common Voice
 review-instruction = Athbhreithnigh agus ataifead más gá
 record-submit-tooltip = { $actionType } Seol nuair a bheidh tú réidh
 clips-uploaded = Gearrthóga Uaslódáilte
@@ -603,11 +623,17 @@ listen-again-instruction = Maith thú! <playIcon></playIcon> Éist le ceann eile
 listen-3rd-time-instruction = Sin dhá cheann, lean ort! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> An ceann deireanach!
 listen-empty-state = Tá an dealramh air nach bhfuil a thuilleadh gearrthóga ann faoi láthair - athnuaigh an leathanach, nó féach arís ar ball é.
+speak-empty-state = Níl a thuilleadh abairtí le taifeadadh againn don teanga sin...
+speak-empty-state-cta = Cuir abairtí leis
 record-button-label = Taifead do ghuth
 share-title-new = <bold>Cabhraigh linn</bold> tuilleadh guthanna a fháil
+target-segment-add-voice = Cuir Do Ghuth Leis
+target-segment-learn-more = Tuilleadh Eolais
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Bailiú Guthanna
+contribute-sentence-collection-nav-header = Bailiú Abairtí
 
 ## Reporting
 
@@ -618,8 +644,11 @@ report-grammar-or-spelling = Botún gramadaí / litrithe
 report-grammar-or-spelling-detail = Tá botún gramadaí nó litrithe san abairt.
 report-different-language = Teanga mhícheart
 report-difficult-pronounce = Tá sé deacair é a fhuaimniú
+report-offensive-speech = Caint ghránna
+report-offensive-speech-detail = Tá teanga dhímheasúil nó maslach sa ghearrthóg.
 report-other-comment =
     .placeholder = Nóta tráchta
+success = D'éirigh leis
 continue = Ar Aghaidh
 report-success = Seoladh an tuairisc gan fadhb
 
@@ -655,6 +684,7 @@ validations =
 
 your-languages = Do Chuid Teangacha
 toward-next-goal = I dtreo an chéad sprice eile
+goal-reached = Baineadh an sprioc amach
 clips-you-recorded = Gearrthóga a thaifead tú
 clips-you-validated = Gearrthóga a dheimhnigh tú
 stats = Staitisticí
@@ -667,9 +697,12 @@ recorded-clips = Gearrthóga Taifeadta
 validated-clips = Gearrthóga Deimhnithe
 total-approved = Líon Iomlán Deimhnithe
 overall-accuracy = Cruinneas Iomlán
+set-visibility = Socraigh mo infheictheacht
 
 ## Custom Goals
 
+get-started-goals = Tosaigh le spriocanna
+both-speak-and-listen = An dá cheann
 daily-goal = Sprioc Laethúil
 weekly-goal = Sprioc Sheachtainiúil
 easy-difficulty = Éasca
@@ -679,6 +712,13 @@ pro-difficulty = Proifisiúnta
 want-to-continue = An bhfuil fonn ort dul ar aghaidh?
 build-custom-goal = Socraigh do sprioc féin
 set-a-goal = Cuir sprioc romhat féin
+cant-decide = Ní féidir cinneadh a dhéanamh?
+confirm-goal = Deimhnigh an Sprioc
+goal-interval-weekly = Go seachtainiúil
+share-goal-type-speak = Ag labhairt
+share-goal-type-listen = Ag éisteacht
+share-goal-type-both = Ag Labhairt agus ag Éisteacht
+share-goal = Comhroinn mo sprioc
 
 ## Profile Delete
 
@@ -688,6 +728,13 @@ profile-form-delete = Scrios mo Phróifíl
 
 ## Profile Download
 
+download-profile-size = Cúpla beart
+download-recordings-title = Taifeadtaí
+download-size = Méid
+download-selected = Roghnaithe
+download-request-button = Íosluchtaigh é
+download-request-title = { $created }
+download-request-refresh-button = Athnuaigh é
 
 ## Landing
 
