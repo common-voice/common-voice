@@ -380,6 +380,7 @@ faq-search-for-answers =
 
 about-title = Deļkuo ir Common Voice?
 how-does-it-work-title-v2 = Kai dorbojās Common Voice?
+how-does-it-work-text = Mes pasūlejam atkluotu i breivi daeimamu datu kūpu. Pazīdojit sovu bolsu, apstyprynojit cytu cylvāku īrokstus, uzlobojit datu kūpu deļ vysu.
 
 ## How does it work section
 
@@ -413,6 +414,10 @@ about-dataset-new = Bolsa datu kūpa
 about-dataset-new-text = Common Voice datu kūpai ir symtim tyukstūšys bolsa paraugu, kas paleidz izstruoduotuojim sataiseit bolsa atpazeišonys reikus.
 about-clip-graveyard = Īrokstu kopsāta
 about-get-involved = Īsasaistit
+about-get-involved-text-2 =
+    Gribit paleidzēt padareit Common Voice vēļ lobuoku?
+    Breineigi! Sasazynojit ar mums e-postā voi <discourseLink>Discourse</discourseLink>
+    forumā, ziņojit par submit problemom <githubLink>GitHub</githubLink>, voi pīsavīnojit <matrixLink>Matrix</matrixLink> kūpīnys čatam.
 about-stay-in-touch = Kai es varu sasazynuot?
 about-stay-in-touch-button = Pīsaraksteit
 about-stay-in-touch-text-1 = <emailFragment>Pīsaregistrejit</emailFragment> myusu e-posta jaunumim, lai izzynuotu, kai varit pīsadaleit kampaņuos, pasuokumūs i Common Voice kūpprojekta aktivitatēs.
@@ -607,6 +612,7 @@ data-other-librispeech-description = LibriSpeech ir apmāram 1000 stuņžu 16Khz
 data-other-ted-name = TED-LIUM korpuss
 data-other-ted-description = TED-LIUM korpuss tyka sataiseits nu audio īrokstu i tūs transkripceju, kas daeimamys TED teiklavītā.
 data-other-voxforge-description = VoxForge tyka sataiseits, lai savuoktu transkrybātu runu lītuošonai bezmoksys i atvārtuo koda runys atpazeišonys dziniejūs.
+data-other-tatoeba-description = Tatoeba ir plota teikumu, tulkuojumu i runys audio datu baze, kas lītojama volūdu apgivei. Itei zamynluode satur runuotuos angļu volūdys īrokstus, kū registrej jūs kūpīna.
 your-feedback = Voi jums ir idejis, kai mes varim padareit lobuoku Common Voice datu kūpu? Informejit myus par tū Discourse servisā
 go-discourse = Īt iz Discourse
 missing-language = Voi naredzit sovu volūdu datu kūpā? Lai pīpraseitu volūdu, ejit iz myusu volūdu lopu.
