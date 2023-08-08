@@ -33,6 +33,7 @@ hu = Венгриаг
 
 speak = Дзур
 languages = Æвзæгтæ
+partner = Партнёрад
 profile = Профиль
 help = Æххуыс
 contact = Контакттæ
