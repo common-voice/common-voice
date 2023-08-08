@@ -203,15 +203,20 @@ everyone = Алчи
 
 ## Profile Delete
 
+remove = Сыхал
+profile-form-delete = Профиль сыхал
 
 ## Profile Download
 
+download-profile-title = Профиль
+download-request-metadata-link = Хъуыдыйады текст
 
 ## Landing
 
 
 ## DemoLayout
 
+demo-get-started = Байдайæм
 
 ## Demo Datasets
 
@@ -227,6 +232,7 @@ everyone = Алчи
 
 ## Validation criteria
 
+contribution-for-example = зæгъæм
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -235,6 +241,8 @@ everyone = Алчи
 
 ## HEADER/FOOTER
 
+sc-header-statistics = Статистикæ
+sc-header-profile = Профиль
 
 ## HOME
 
@@ -247,30 +255,38 @@ everyone = Алчи
 
 ## MY SENTENCES
 
+sc-my-title = Мæ хъуыдыйæдтæ
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Ратæдзæн: { $source }
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = Статистикæ
 
 ## ADD
 
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Æвзаг бафтау
 
 ## ADD SENTENCES CONFIRMATION
 
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Æдæппæт
 
 ## LOGIN
 
 
 ## PROFILE
 
+sc-personal-your-languages = Де ’взæгтæ:
 
 ## REVIEW CRITERIA
 
@@ -280,6 +296,18 @@ everyone = Алчи
 
 ## SETTINGS
 
+sc-settings-title = Рæвдзгæнæнтæ
 
 # [/SentenceCollector]
 
+create-profile-button = Дæ профиль скæн
+example = Дæнцæг
+citation =
+    .label = Цитатæ
+adding-sentences-subheader-numbers = Нымæцтæ
+adding-sentences-subheader-punctuation = Пунктуаци
+sentence =
+    .label = Хъуыдыйад
+citation-input-value = Кæцæй ист у дæ хъуыдыйад
+citation =
+    .label = Цитатæ
