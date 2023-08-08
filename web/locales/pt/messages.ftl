@@ -9,7 +9,7 @@ email-input =
 submit-form-action = Enviar
 loading = Carga em andamento…
 email-opt-in-info = Quero receber emails, tais como lembretes de metas, atualizações sobre meu progresso e boletins informativos sobre o Common Voice.
-email-opt-in-info-title = Participe da lista de discussão do Common Voice
+email-opt-in-info-title = Participe na lista de discussão do Common Voice
 email-opt-in-info-sub-with-challenge = Receba emails, tais como lembretes de objetivos e desafios, atualizações de progresso e boletins informativos sobre o Common Voice.
 email-opt-in-privacy-v2 = Ao optar por receber emails, você declara que concorda com a Mozilla lidar com essas informações, conforme explicado na <privacyLink>Política de privacidade</privacyLink> da Mozilla.
 indicates-required = * Indica campo obrigatório
@@ -1709,6 +1709,7 @@ report-sc-different-language = Outro idioma
 report-sc-different-language-detail = Está escrito em um idioma diferente do que estou revisando.
 sentences-fetch-error = Ocorreu um erro ao buscar frases
 review-error = Ocorreu um erro ao revisar esta frase
+review-error-rate-limit-exceeded = Você está indo rápido demais. Dedique um momento para revisar a frase e ter certeza de que está correta.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estamos a fazer grandes mudanças
 sc-redirect-page-subtitle-1 = O coletor de frases está migrando para a plataforma principal do Common Voice. Agora você pode <writeURL>escrever</writeURL> uma frase ou <reviewURL>revisar</reviewURL> envios de uma única frase no Common Voice.

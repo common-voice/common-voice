@@ -841,7 +841,7 @@ request-language-form-info-explanation-list-1 = Názvy vášho jazyka
 request-language-form-info-explanation-list-2 = <isoCodeLink>Kódy ISO</isoCodeLink>, ak sú známe
 request-language-form-info-explanation-list-3 = Odkazy na webové stránky, ktoré nám môžu pomôcť porozumieť jazyku
 request-language-google-recaptcha-required = Ak chcete pokračovať, vyžaduje sa reCAPTCHA
-request-language-google-recaptcha-error = Vyskytol sa problém s reCAPTCHA. Prosím skúste znova.
+request-language-google-recaptcha-error = Vyskytol sa problém s reCAPTCHA. Prosím skúste to znova.
 # Success page
 request-language-success-heading = Ďakujem! Odoslali ste požiadavku na nový jazyk
 request-language-success-list-1 =
@@ -1561,7 +1561,7 @@ sc-settings-ui-language = Jazyk používateľského rozhrania
 sc-settings-reset-skipped = Obnoviť vynechané vety
 sc-settings-skipped-decription = Predtým ste pri kontrole preskakovali vety. Obnovením preskočených viet sa znova zobrazia všetky preskočené vety. Toto je nezávislé od jazyka.
 sc-settings-show-all-button = Znova zobraziť všetky preskočené vety
-sc-settings-failed = Nastavenia sa nepodarilo zmeniť. Prosím skúste znova.
+sc-settings-failed = Nastavenia sa nepodarilo zmeniť. Prosím skúste to znova.
 # VALIDATION
 sc-validation-number-of-words = Veta musí obsahovať 1 až 14 slov
 sc-validation-no-numbers = Veta by nemala obsahovať čísla

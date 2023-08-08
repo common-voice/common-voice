@@ -1692,6 +1692,7 @@ report-sc-different-language = Lingua diversa
 report-sc-different-language-detail = È scritta in una lingua diversa da quella che sto convalidando.
 sentences-fetch-error = Si è verificato un errore durante il recupero delle frasi
 review-error = Si è verificato un errore durante la convalida della frase
+review-error-rate-limit-exceeded = Stai andando troppo veloce. Prenditi tempo per rivedere la frase e assicurarti che sia corretta.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Stiamo apportando alcuni cambiamenti significativi
 sc-redirect-page-subtitle-1 = Il Sentence Collector si sta spostando sulla piattaforma principale di Common Voice. Ora puoi <writeURL>scrivere</writeURL> una frase o <reviewURL>esaminare</reviewURL> gli invii di frasi singole su Common Voice.

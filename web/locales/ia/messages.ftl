@@ -1724,6 +1724,7 @@ report-sc-different-language = Lingua differente
 report-sc-different-language-detail = Illo es scripte in un lingua differente que lo que io revide.
 sentences-fetch-error = Un error occurreva durante le recuperation del phrases
 review-error = Un error occurreva durante le revision de iste phrase
+review-error-rate-limit-exceeded = Tu vade troppo rapide. Attende un momento pro revider que le phrase es correcte.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Nos va facer alcun grande cambios
 sc-redirect-page-subtitle-1 = Le Collector de phrases se move al nucleo del platteforma Common Voice. Ora tu pote <writeURL>scriber</writeURL> un phrase o <reviewURL>revider</reviewURL> singule invios de phrases sur Common Voice.
