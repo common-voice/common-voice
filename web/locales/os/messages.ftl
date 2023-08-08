@@ -1,8 +1,10 @@
 ## General
 
+return-to-cv = Common Voice-мæ раздæх
 email-input =
     .label = Эл. пост
 submit-form-action = Арвит
+error-something-went-wrong = Хатыр, цыдæр нæ фæрæстмæ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -10,18 +12,30 @@ submit-form-action = Арвит
 
 ## Languages
 
+ab = Абхазаг
+ady = Адыгейаг
+ar = Араббаг
 az = Азербайджайнаг
 ba = Башкираг
 bn = Бенгайлаг
 bo = Тибетаг
 br = Бретойнаг
 cs = Чехаг
+es = Испайнаг
+fi = Финнаг
+fr = Францусаг
+hu = Венгриаг
 
 # [/]
 
 
 ## Layout
 
+speak = Дзур
+languages = Æвзæгтæ
+profile = Профиль
+help = Æххуыс
+contact = Контакттæ
 
 ## Home Page
 
@@ -43,15 +57,37 @@ cs = Чехаг
 
 ## ProjectStatus
 
+english = Англисаг
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Архайæджы ном
+profile-form-native-language =
+    .label = Мадæлон æвзаг
+profile-form-additional-language =
+    .label = Уæлæмхасæн æвзаг
+profile-form-language =
+    .label = Æвзаг
+profile-form-variant =
+    .label = Цавæр æвзаджы здæхтыл дзурыс?
+male = Нæлгоймаг
+female = Сылгоймаг
+# Gender
+other = Æндæр
+avatar = Аватар
+settings = Рæвдзгæнæнтæ
+edit-profile = Профиль баив
+off = Нæ кусы
+on = Кусы
 
 ## Profile - Email
 
+remove-avatar = Аватар сыхал
 
 ## Profile - Email
 
+add-language = Æвзаг бафтау
 
 ## FAQ
 
@@ -61,6 +97,10 @@ cs = Чехаг
 
 ## How does it work section
 
+about-speak = Дзур
+about-nav-why-common-voice = Цæмæй?
+about-nav-how-it-works = Куыд?
+about-nav-partners = Партнёртæ
 
 ## Community Playbook Content
 ## What is a language
@@ -80,6 +120,7 @@ cs = Чехаг
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Цаутæ
 
 ## How to validate
 
