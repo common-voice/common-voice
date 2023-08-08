@@ -538,6 +538,7 @@ data-download-yes = Nui
 data-download-deny = Nā
 data-download-license = Liceņze: <licenseLink> CC-0 </licenseLink>
 data-download-modal = Jius gatavejitēs zamynluodēt <size>{ $size }GB</size>, turpynuot?
+data-subtitle = Mes veidojam atkluotu i publiski daeimamu bolsa datu kūpu, kū sevkurs var lītuot, lai apvuiceitu runys lītuojumprogramys.
 data-get-started = <speechBlogLink>Dorba suokšona ar runys atpazeišonu</speechBlogLink>
 data-other-title = Citys bolsa datu kūpys…
 data-other-goto = Ej iz { $name }
@@ -549,6 +550,7 @@ dataset-date = Datums
 license = Liceņze: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
 data-download-singleword-title = Zamynluodēt vīna vuorda mierka segmentu
+data-download-singleword-callout-v2 = Itys ir iz lītuošonys gadejumu pabaļsteits segments, kurā ir dati, kas nūdrūsynoj īrunuotū skaitļu atpazeišonu i nui/nā nūsaceišonu.
 review-terms = Lītojūt Common Voice, jius esit mīrā ar myusu <termsLink>nūsacejumim</termsLink> i <privacyLink>privatuma politiku</privacyLink>
 terms-agree = Es pīkreitu
 terms-disagree = Es napīkreitu
@@ -564,8 +566,11 @@ review-delete-recordings = Dzēst munus īrokstus
 ## Datasets Page
 
 datasets-heading = Datu kūpys
+datasets-headline = Mes veidojam atvārtuo pyrmkoda daudzvolūdu datu kūpu, kū sevkurs var lītuot, lai apvuiceitu runys lītuojumprogramys.
 language = Volūda
 download-dataset-header = Zamynluodejit datu kūpu
+download-delta-explainer = Mes asam sataisejuši puors izmainis. Delta segmenti satur tikai jaunuokūs īrokstus nu pādejuos izlaisšonys. <deltaLink>Skaitit vaira par itū dorbu</deltaLink>.
+download-dataset-tag = Izalosit vajadzeigū volūdys datu kūpu i izavielejit verseju, kuru gribit zamynluodēt.
 # File size in gigabytes
 size = Izmārs
 validated-hr-total = Puorbaudeitys st. kūpā
@@ -596,6 +601,8 @@ community-playbook = Kūpīnys rūkysgruomota
 resource-playbook-info = <playbookLink>Atrūnit dereigus nūruodejumus</playbookLink> par vysu Common Voice ceļuojumu, suocūt nu lokalizacejis da datu kūpys lītuošonai, kai ari par tū, kai sasazynuot ar myusu kūpīnu.
 data-other-librispeech-description = LibriSpeech ir apmāram 1000 stuņžu 16Khz ar angļu volūdys runu, kas dabuota nu LibriVox projektā skaiteitajom audio gruomotom.
 data-other-ted-name = TED-LIUM korpuss
+data-other-ted-description = TED-LIUM korpuss tyka sataiseits nu audio īrokstu i tūs transkripceju, kas daeimamys TED teiklavītā.
+data-other-voxforge-description = VoxForge tyka sataiseits, lai savuoktu transkrybātu runu lītuošonai bezmoksys i atvārtuo koda runys atpazeišonys dziniejūs.
 your-feedback = Voi jums ir idejis, kai mes varim padareit lobuoku Common Voice datu kūpu? Informejit myus par tū Discourse servisā
 go-discourse = Īt iz Discourse
 missing-language = Voi naredzit sovu volūdu datu kūpā? Lai pīpraseitu volūdu, ejit iz myusu volūdu lopu.
@@ -655,6 +662,10 @@ request-language-google-recaptcha-required = Ka gribit turpynuot, ir vajadzeiga 
 request-language-google-recaptcha-error = Ar reCAPTCHA roduos problema. Lyudzu, raugit vēļreiz.
 # Success page
 request-language-success-heading = Paļdis! Jius esit nūsyutejs jaunys volūdys pīprasejumu.
+request-language-success-list-3 =
+    Ka puors dīnu laikā nasajemit nu mums informaceju,
+    sasazynojit ar <emailLink>{ $email }</emailLink>
+    i mes jums paleidzēsim!
 
 ## Languages Overview
 
@@ -940,6 +951,7 @@ demo-account = Konts
 
 ## Demo Account
 
+demo-account-card-header = Lai dūtu īguļdejumu, nav vajadzeigs konts, koč i tys ir dereigs.
 demo-account-enter-email =
     .label = Īvodit e-postu, lai nūsyuteitu registracejis saiti
 demo-account-sign-up = Nūsyutit registracejis saiti
@@ -951,14 +963,19 @@ demo-listen-subtitle = Itys tok ir lobs breids paleidzēt, pareiz?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Informacejis paneli snādz jums jaunuokū informaceju par jiusu i kūpīnys progresu.
 
 ## Validation criteria
 
 contribution-criteria-nav = Kritereji
 contribution-criteria-link = Īrokstu kvalitatis kritereji
 contribution-criteria-page-title = Īguļdejuma kritereji
+contribution-criteria-page-description = Izprūtit, kam juopīvierš viereiba, klausūtīs īrokstus, i zinit, kai padareit ari sovus īrokstus lobuokus!
 contribution-for-example = par pīmāru
 contribution-misreadings-title = Klaidaini skaitejumi
+contribution-misreadings-description-extended-list-1 = Izlaisti vuordi, par pīmāru, tryukst <strong>'ja'</strong> voi <strong>'es'</strong>, par pīmāru, 'es asmu' vītā īrunuots tikai 'asmu'.
+contribution-misreadings-description-extended-list-2 = Nūrautys vuordu golūtnis, par pīmāru, <strong>'s'</strong> vuorda beiguos.
+contribution-misreadings-example-4-explanation = [Ir īraksteits vaira nikai beja raksteits]
 contribution-varying-pronunciations-title = Dažaidys izrunys
 contribution-varying-pronunciations-example-1-title = Maņ garšoj dasa.
 contribution-background-noise-title = Fona trūksnis
@@ -1008,13 +1025,20 @@ sc-home-review-text = Paleidzit mums, puorsaverūt teikumu pareizraksteibu saska
 
 sc-howto-title = Padūmi
 sc-howto-addlang-title = Volūdu dalikšona dorbam
+sc-howto-addlang-text = Kod esit dasaslēdzs, profila sadaļā varit izalaseit sovys volūdys.
 sc-howto-addsen-title = Dalikt jaunus teikumus
 sc-howto-cite-title = Kai nūruodeit olūtu
+sc-howto-cite-item-1 = Varit īkļaut teiklavītu, par pīmāru, "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Varit lītuot akademiskū atsaucis stylu, par pīmāru, Hārvardys stylu "Mozilla (2021) Common Voice. Daeimams teiklavītā https://commonvoice.mozilla.org/ (Datikšona: 2021. goda 15. septembrī)"
 sc-howto-review-title = Puorsaverit teikumus
+sc-howto-review-subtitle = Puorsalīcynojit, voi teikums atbiļst itaidim kriterejim:
 sc-howto-review-criteria-1 = Teikumam juobyut pareizi uzraksteitam, vuordūs navar byut drukys klaidu.
 sc-howto-review-criteria-2 = Teikumam juobyut gramatiski pareizam.
 sc-howto-review-criteria-3 = Teikumam juobyut izrunojamam.
 sc-howto-review-criteria-4 = Ka teikums atbylst vysim kriterejim, klykstynojit iz pūgys "Apstyprynuot".
+sc-howto-review-criteria-6 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
+sc-howto-findpd-title = Kai atrast breivi daeimamus publiskuo domena teikumus
+sc-howto-findpd-subtitle = Vaicojit tūs škārsteiklā
 sc-howto-findpd-tips = Ite ir puors padūmi, kai atrast teikumus:
 sc-howto-findpd-subtitle-2 = Sasadorbojit ar vītejom organizacejom voi privatpersonom
 
@@ -1023,19 +1047,33 @@ sc-howto-findpd-subtitle-2 = Sasadorbojit ar vītejom organizacejom voi privatpe
 sc-my-title = Muni teikumi
 sc-my-loading = Nūteik jiusu teikumu īluode...
 sc-my-err-fetching = Īluodejūt jiusu teikumus, roduos klaida. Lyudzu, raugit vēlreiz.
+sc-my-no-sentences = Nav atrosts nivīns teikums!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Īsnīguma identifikators: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Olūts: { $source }
+sc-my-delete = Dzēst atlaseitūs teikumus
+sc-my-deleting = Nūteik atlaseitū teikumu dziesšona...
+sc-my-err-failed-delete = Naizadeve izdzēst atlaseitūs teikumus... Lyudzu, raugit vēļreiz!
 
 ## REJECTED
 
+sc-rejected-title = Nūraideitī teikumi
+sc-rejected-loading = Nūteik nūraideitū teikumu īluode...
+sc-rejected-err-fetching = Īluodejūt nūraideitūs teikumus, roduos klaida. Lyudzu, raugit vēļreiz.
+sc-rejected-none-found = Natyka atrosts nivīns nūraideits teikums!
 
 ## STATS
 
 sc-stats-title = Statistika
+sc-stats-updating = Nūteik atjaunynuošona...
+sc-stats-error = Navariejom īluodēt statistiku. Lyudzu, raugit vāluok vēļreiz.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice teikumu apkūpuotuojs ir savuocs { $sentenceCount } teikumus { $languageCount } volūduos!
 
 ## ADD
 
@@ -1051,23 +1089,54 @@ sc-submit-select-language =
 sc-submit-add-sentences = Dalīcit <wikipediaLink>publiskuo domena</wikipediaLink> teikumus
 sc-submit-ph-one-per-line =
     .placeholder = Vīns teikums kotrā ryndā
+sc-submit-from-where = Nu kurīnis ir itī <wikipediaLink>publiskuo domena</wikipediaLink> teikumi?
+sc-submit-ph-read-how-to =
+    .placeholder = Paskaitit myusu pavuiceibu, ka nazinit, kai nūruodeit olūtu
+sc-submit-confirm = Es apstyprynoju, ka itī ir <wikipediaLink>publiskuo domena</wikipediaLink> teikumi, i maņ ir atļuove tūs augšynluodēt.
 sc-submit-button =
     .submitText = Nūsyuteit
 sc-submit-guidelines = Lyudzu, puorbaudit <howToLink>vadlinejis</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Navarēja dalikt volūdu
 sc-add-lang-sec-label = Dalicit volūdu, kurā gribit dorbuotīs
+sc-add-lang-sec-button = Dalikt volūdu
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] { $sentences } teikumi tyka noraideiti
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
+sc-add-err-submission = Īsnīgšonys klaida
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Apstyprynojat jaunūs teikumus
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Tyka atrosti { $countOfSentences } teikumi.
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = Jius nūraidejot { $countOfInvalidated }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } teikumi nav puorsavārti. Ka gribit, varit ari puorsavērt sovus teikumus pyrma tūs īsniegšonys.
+sc-confirm-button-text = Apstyprynuot
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Kūpā
+sc-lang-info-title-personal = Jiusu pīnasums
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
 sc-lang-info-total =
@@ -1077,6 +1146,16 @@ sc-lang-info-total =
         [one] { "" }
        *[other] { "" }
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] { $totalInReview } teikumi, kū puorbaudeit.
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
+sc-lang-info-review-now = <reviewLink>Puorbaudeit tagad!</reviewLink>
 sc-lang-info-add-more = <addLink>Davīnojit teikumus!</addLink>
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
@@ -1159,6 +1238,7 @@ sc-settings-ui-language = Saskarnis volūda
 
 # [/SentenceCollector]
 
+partnerships-get-in-touch = Sasazynuot
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Paļdis, ka pazīduojot sova bolsa īrokstus!
 why-donate = Deļkuo jius vaicojit?

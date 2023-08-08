@@ -1,23 +1,23 @@
 ## General
 
-yes-receive-emails = Quemah, xinechioaltitlani correos. Onicniquisquiaya nicmatis ica tlanimilil Common Voice.
-stayintouch = Ich Mozilla secchiutoc se nichicomasehual campa tipostl notzani. Otechpactisquia timitzmatiltisque icanin tepanoltilistl yancoic nemilis ica tlahcuilol uan secmatis cachi queni tehuatl tiquintiquitiltia necateh datos.
-privacy-info = Titlahtolmaca ticuicasque motlanonotzal ica cuidado. tlahtoltlahcuilol cachi itich <privacyLink> toichtacatlahtol </privacyLink> .
+yes-receive-emails = Quemah, xinechualtitlani correos. Onicniquisquiaya nicmatis ica tlanimilil Common Voice.
+stayintouch = Itich Mozilla secchiutoc se nichicolmasehual ipan tipostl notzani. Otechpactisquia timitzmatiltisque ica nin tepanoltilistl yancuic nemilis ica tlahcuilol uan secmatis cachi queni tehuatl tiquintiquitiltia necateh datos.
+privacy-info = Titlahtolmaca ticuicasque motlanonotzal ica cuidado. Cachi xitlaleero itich <privacyLink> toichtacatlahtol </privacyLink> .
 return-to-cv = Ximocuipa campa Common Voice
 email-input =
     .label = Correo
 submit-form-action = Xictitlani
 loading = Yehyecohtoc...
-email-opt-in-info = Onicniquisquiaya nicsilis correos electronicos queme ilnamiquilistl ipan tlanimilil, tepanoltilistl ica noiscaltilis uan se tlahtol tenonotza ica Common Voice
-email-opt-in-info-title = Ximonilo ica tlahcuilol correo de Common Voice
+email-opt-in-info = Onicniquisquia niquinsilis correos electrónicos queme ilnamiquilistl ipan tlanimilil, tepanoltilistl ica noiscaltilis uan se tlahtol tenonotza ica Common Voice
+email-opt-in-info-title = Ximonilo ica tlahcuilol correo de Common Voice.
 email-opt-in-info-sub-with-challenge = Xicsili correos ica ilnamiquilistl ipan tlanimilil, tepanultilistl icanon iscaltilistl huan totlahtol nohnotza ica Common Voice.
 email-opt-in-privacy-v2 = Ticsilisque correos secmati ticcahua Mozilla ica sequicuis tlanonotzal quemeh moihtoua ich in </privacyLink>  iichtacatlahtol </privacyLink> Mozilla.
 indicates-required = * Quinextia se tlacauil techihualtia
 banner-error-slow-1 = Xitechtlapohpolui, Common Voice quichiutoc yolic. tlasohcamatictzin ica mochicaualis.
 banner-error-slow-2 = Ticsilihtoqueh miac tráfico uan axan tiquintemohtoqueh tlauel.
 error-something-went-wrong = Xitechtlapohpolui, amo oquis cuali.
-error-clip-upload = yehyeculis nicanca clip ayamo cualtia, ocxic yehyeco
-error-clip-upload-server = yehyeculis nicancah clip ayamo cualtia ichin servidor, ocsipa xic yehyecolti pagina o  xicyeyecolti cahi tlahca
+error-clip-upload = Iyehyecolis nicanca clip ayamo cualtia, oc ticniqui ticyehyecos?
+error-clip-upload-server = Iyehyecolis nicancah clip ayamo cualtia ich in servidor. Ocsipa ticyehyecoltis página o ticyehyecoltis cachi tlahca.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -219,14 +219,14 @@ zza = Zaza
 
 ## Layout
 
-speak = xitlahto
-speak-now = xitlahto axan
-datasets = amatl tlanaoatil
-languages = tlahtolmeh
-about = ica Common Voice
-partner = noyolchicauca
-profile = nexica
-help = xinechpaleui
+speak = Xitlahto
+speak-now = Xitlahto axan
+datasets = Amatl tlanauatil
+languages = Tlahtolmeh
+about = Ica Common Voice
+partner = Yolchicauca
+profile = Nexica
+help = Xinechpaleui
 contact = nonotza
 privacy = ichtaca
 faq = tlahtlanil simi

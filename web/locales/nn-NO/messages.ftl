@@ -375,6 +375,9 @@ profile-form-variant =
 profile-form-variant-default-value = Ingen variant valt
 profile-form-accent =
     .label = Dialekt
+profile-form-custom-accent-help-text =
+    .label = Korleis vil du skildre dialekten din?
+profile-form-custom-accent-placeholder-2 = Begynn å skrive for å skildre dialekten din
 profile-form-age =
     .label = Alder
 profile-form-gender-2 =
@@ -570,11 +573,14 @@ about-playbook-how-add-sentences = Korleis legg eg til ei setning?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Korleis spelar eg inn eit stemmeklipp med høg kvalitet?
+about-playbook-how-record-content-2 = Unngå for mykje bakgrunnslyd – det skal vere lett å høyre deg.
 
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Hendingar
 about-playbook-how-grow-language-content-4 = Sosiale medium
+about-playbook-how-grow-language-content-6 = Partnarskap og nettverk
 about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt språkfellesskapet vil vere unikt, og dette er berre nokre få måtar å kome i gang på.
 
 ## How to validate
@@ -585,6 +591,7 @@ about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt 
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-7 = <governanceLink>Les meir om korleis vi blir styrt.</governanceLink>
 
 ## Glossary
 
@@ -667,6 +674,7 @@ confirm-size = Du er klar for å starte ei nedlasting av <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b> Du seier deg samd i </b> å ikkje prøve å identifisere talarar i Common Voice-datasettet
+confirm-join-mailing-list = Eg vil melde meg på e-postlista til Common Voice
 download-language = Last ned { $language }
 validated-hours = Validerte timar
 recorded-hours = Innspelte timar
@@ -698,6 +706,9 @@ more = Meir
 close = Lat att
 download = Last ned
 dataset-version = Versjon
+sha256-checksum-copied = SHA256-kontrollsum kopiert!
+sha256-checksum-copied-error = Klarte ikkje å kopiere SHA256-kontrollsummen
+clipboard-not-supported = Utklippstavle ikkje støtta
 
 ## Download Modal
 
@@ -767,6 +778,8 @@ action-click = Klikk
 action-tap = Trykk
 contribute = Bidra
 listen = Lytt
+write = Skriv
+review = Vurder
 skip = Hopp over
 shortcuts = Snarvegar
 clips-with-count-pluralized =
@@ -813,6 +826,9 @@ listen-again-instruction = Bra jobba!<playIcon></playIcon> Lytt på det ein gong
 listen-3rd-time-instruction = Ferdig med to <playIcon></playIcon>, fortset slik!
 listen-last-time-instruction = <playIcon></playIcon>Det siste!
 listen-empty-state = Vi har gått tom for lydklipp å validere på dette språket…
+listen-loading-error =
+    Vi klarte ikkje å finne lydklipp du kunne høyre på.
+    Prøv på nytt seinare.
 speak-empty-state = Vi har gått tom for setningar å spele inn på dette språket…
 speak-empty-state-cta = Bidra med setningar
 record-button-label = Spel inn stemma di
@@ -827,6 +843,8 @@ target-segment-learn-more = Les meir
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Innsamling av stemmer
+contribute-sentence-collection-nav-header = Setningsinnsamling
 
 ## Reporting
 
@@ -1084,7 +1102,9 @@ contribution-misreadings-example-8-title = Humla flaug forbi.
 contribution-misreadings-example-8-explanation = [Heilt feil innhald]
 contribution-varying-pronunciations-title = Ulike uttalar
 contribution-background-noise-title = Bakgrunnsstøy
+contribution-background-voices-title = Bakgrunnsstemmer
 contribution-volume-title = Lydstyrke
+contribution-just-unsure-title = Berre usikker?
 see-more = <chevron></chevron>Vis meir
 see-less = <chevron></chevron>Vis mindre
 
@@ -1103,16 +1123,21 @@ sc-header-rejected = Avviste setningar
 sc-header-my = MIne setningar
 sc-header-statistics = Statistikk
 sc-header-profile = Profil
+sc-footer-discourse = Discourse
 sc-footer-report-bugs = Rapporter feil
 sc-footer-translate = Omset denne sida
 sc-footer-privacy = Personvern
+sc-footer-terms = Vilkår
 sc-footer-cookies = Infokapslar
 sc-login-signup-button = Logg inn/Registrer deg
 sc-logout-button = Logg ut
 
 ## HOME
 
+sc-home-title = Velkomen til setningsinnsamlaren i Common Voice Sentence
+sc-home-intro = Setningsinnsamlaren er ein del av <commonVoiceLink>Common Voice</commonVoiceLink>. Han tillèt bidragsgivarar å samle inn og vurderesetningar laga av fellesskapen. Du kan òg bruke dette verktøyet for å importere og rydde opp i små og mellomstore offentlege korpus som du har funne eller samla inn. Alla setningar må vere allmenn eigedom. Godkjende setningar vert kvar veke eksportert til Common Voice-lageret og vert sleppt på Common Voice-nettstaden i kvar ny distribusjon.
 sc-home-collect-title = Saml inn setningar
+sc-home-collect-text = Hjelp oss med å skrive eller samle inn setningar som ikkja er verna av opphavsrett.
 sc-home-review-title = Vurder setningane
 
 ## GENERAL
@@ -1120,14 +1145,22 @@ sc-home-review-title = Vurder setningane
 
 ## HOW-TO
 
+sc-howto-title = Slik gjer du det
 sc-howto-addsen-title = Legg til nye setningar
+sc-howto-cite-title = Korleis sitere
 sc-howto-review-title = Vurder setningar
+sc-howto-findpd-subtitle = Søk etter dei på internett
+sc-howto-findpd-text-2 = Hugs at vi treng løyve for å publisere desse setningane, og pass difor på at teksten alltid er <wikipediaLink>allmenn eigedom</wikipediaLink>. Om det ikkje finst nokon klar peikepinn, kontakt personen som teksten tillhøyrer og spør om dei vil bidra med sin tekst. Om dei vil, hjelp dei med å gå gjennom <cc0WaiverLink>bidragsavtalen</cc0WaiverLink>. Om dei ikkje vill bidra med teksten så får du heller ikkje bruke han.
+sc-howto-findpd-tips = Her er nokre tips for å finne setningar:
 
 ## MY SENTENCES
 
 sc-my-title = MIne setningar
 sc-my-loading = Lastar setningane dine…
 sc-my-no-sentences = Fann ingen setningar!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Innsending: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Kjede:  { $source }
@@ -1155,19 +1188,68 @@ sc-submit-select-language =
     .labelText = Vels språk
 sc-submit-ph-one-per-line =
     .placeholder = Ei setning per linje
+sc-submit-button =
+    .submitText = Send inn
 
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Klarte ikkje å leggje til språk
+sc-add-lang-sec-label = Legg til eit språk du vil bidra på
 sc-add-lang-sec-button = Legg til språk
+sc-add-err-submission = Innsendingsfeil
 
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = Stadfest nye setningar
 sc-confirm-button-text = Stadfest
+sc-confirm-uploading = Setningar vert lasta opp. Dette kan ta fleire minutt, avhengig av talet på setningar som er lagt til. Ikkje lat at denne nettstaden.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Totalt
+sc-lang-info-title-personal = Personleg
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Ingen setningar.
+        [one] 1 setning.
+       *[other] { $totalSentences } setningar.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ingen setningar til vurdering.
+        [one] 1 setning til vurdering.
+       *[other] { $totalInReview } setningar til vurdering.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Ingen setningar att for deg å vurdere.
+        [one] 1 setning att for deg å vurdere.
+       *[other] { $unreviewedSentencesByYou } setningar att for deg å vurdere.
+    }
+sc-lang-info-review-now = <reviewLink>Vurder no!</reviewLink>
+sc-lang-info-add-more = <addLink>Legg til fleire setningar no!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ingen vurderte setningar.
+        [one] 1 vurdert setning.
+       *[other] { $validatedSentences } vurderte setningar.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ingen avviste setningar.
+        [one] 1 avvist setning.
+       *[other] { $rejectedSentences } avviste setningar.
+    }
 
 ## LOGIN
 
@@ -1179,15 +1261,22 @@ sc-login-err-try-again = Prøv igjen.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Klarte ikkje å fjerne språket: fann ikkje språket
 sc-personal-err-remove = Klarte ikkje å fjerne språk
 sc-personal-your-languages = Dine språk:
 sc-personal-remove-button = fjern
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } lagt til av deg
+sc-personal-not-added = Du har ikkje lagt til noko språk enno.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Vurderingskriterium
+sc-criteria-title = Vurderingskriterium
+sc-criteria-item-1 = Setninga må vere rett stava.
+sc-criteria-item-2 = Setninga må vere grammatisk rett.
+sc-criteria-item-3 = Setninga må kunne seiast.
 
 ## REVIEW
 
@@ -1206,11 +1295,32 @@ sc-review-link = Vurdering
 ## SETTINGS
 
 sc-settings-title = Innstillingar
+sc-settings-ui-language = Grensesnittspråk
+sc-settings-reset-skipped = Nullstill hoppa over-setningar
+sc-validation-no-numbers = Setninga skal ikkje innehalde tal
+sc-validation-no-symbols = Setninga skal ikkje innehalde symbol
+sc-validation-no-abbreviations = Setninga skal ikkje innehalde forkortingar
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Vel språk/lokalisering
+# PARTNERSHIPS PAGE
+partnerships-header = Partnarskap
 partnerships-get-in-touch = Kontakt oss
+partnerships-become-a-partner = Vert ein Common Voice-partner
+partnerships-our-partners = Partnarane våre
+why-donate = Kvifor spør du?
 add-information-button = Legg til informasjon
 already-have-an-account = Har du allereie ein konto? <login>Logg inn</login>
 create-profile-button = Opprett ein profil
 sentence-collection = Setningsinnsamling
+misreadings = Feiltolkingar
+background-noise = Bakgrunnsstøy
+background-voices = Bakgrunnsstemmer
+volume = Lydstyrke
+reader-effects = Lesareffektar
+just-unsure = Berre usikker?
+example = Døme
+public-domain = Offentleg eigedom (ikkje verna av opphavsrett)
+sc-redirect-page-subtitle-2 = Still spørsmål på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller <emailLink>e-post</emailLink>.
