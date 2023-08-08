@@ -676,10 +676,14 @@ request-language-success-list-3 =
     Ka puors dīnu laikā nasajemit nu mums informaceju,
     sasazynojit ar <emailLink>{ $email }</emailLink>
     i mes jums paleidzēsim!
+request-language-error =
+    Varbyut mes naasam sajāmuši itū pīprasejumu. Lyudzu, rokstit mums taišni
+    iz e-postu <emailLink>{ $email }</emailLink>, i mes ar jums sasazynuosim!
 
 ## Languages Overview
 
 language-section-in-progress = Procesā
+language-section-in-progress-new-description = Ituos volūdys itūšaļt ir kūpīnys atteisteibā. Progresa jūslys nūruoda, cik lelā mārā kotrai volūdai ir veikta <localizationGlossaryLink>teiklavītys lokalizaceja</localizationGlossaryLink> i <sentenceCollectionGlossaryLink>teikumu kolekcejis izveide</sentenceCollectionGlossaryLink>.
 language-section-launched = Aizsuokts
 languages-show-more = Ruodeit vaira
 languages-show-less = Ruodeit mozuok
@@ -890,6 +894,8 @@ share-n-weekly-contribution-goal = Pasadolit ar sovu { $count } īrokstu nedelis
 share-goal-type-speak = Runuošona
 share-goal-type-listen = Klauseišonuos
 share-goal-type-both = Runuošona i klauseišonuos
+# LINK will be replaced with the current URL
+goal-share-text = Es tikū sataiseju sovu bolsa pazīduošonys mierki #CommonVoice - pīsavīnojit maņ i paleidzit īkuortom īvuiceit saprast latgalīšu volūdu { $link }
 weekly-goal-created = Jiusu nedelis mierkis ir sataiseits
 daily-goal-created = Jiusu kasdīnys mierkis ir sataiseits
 track-progress = Sekojit progresam ite i statistikys lopā.
@@ -898,6 +904,7 @@ share-goal = Pasadoli ar sovu mierki
 
 ## Profile Delete
 
+delete-q = Voi gribit pīpraseit, lai ari jiusu bolsa īroksti tiktu dzāsti, voi ari gribit tūs saglobuot Common Voice datu kūpā?
 keep = Saglobuot
 remove = Aizvuokt
 remove-info = Mes puorsavērsim jiusu pīprasejumu, lai nu datu kūpys nūjimtu jiusu īrokstus. Ka jiusu pīprasejums tiks apstyprynuots, mes sasazynuosim ari ar tim, kas ir zamynluodejuši datu kūpu i jim pīpraseisim, lai dzieš jiusu īrokstus.
