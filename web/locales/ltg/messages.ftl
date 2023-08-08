@@ -190,7 +190,7 @@ email-subscription-title-new = Registrejitēs Common Voice viestim, atguodynuoju
 ## Account Benefits
 
 benefits = Īgivumi
-rich-data = Padorit sovus īsnīgtūs datus piec vareibys kvalitativuokus, dūdūt puors anonimus demografiskūs datus. Pyrma tū publiskuošonys mes atdaleisim vysus demografisku informaceju nu jiusu ideņtitatis.
+rich-data = Padorit sovus īsnāgtūs datus piec vareibys kvalitativuokus, dūdūt puors anonimus demografiskūs datus. Pyrma tū publiskuošonys mes atdaleisim vysus demografisku informaceju nu jiusu ideņtitatis.
 improve-audio = Profila informaceja padora lobuokus audio īrokstu datus, kū lītoj runys atpazeišonys precizitatis apvuiceibā.
 keep-track = Sekojit leidza sovam progresam i datim vairuokuos volūduos.
 compare-progress = Veritēs, kai jiusu progress ir saleidzynoms ar cytim īguļdeituojim vysā pasaulī.
@@ -363,6 +363,7 @@ faq-what-quality-q = Kaida leimiņa audio kvalitate ir vajadzeiga, lai bolsa īr
 faq-why-10k-hours-q = Deļkuo īrokstu puorbaudis mierkis ir 10000 stuņžu?
 faq-why-10k-hours-a = Tys ir aptuvans stuņžu skaits, kas vajadzeigs, lai kvalitativi apvuiceitu runys-teksta atpazeišonys sistemu.
 faq-how-calc-hours-q = Kai Common Voice apriekinoj stuņdis?
+faq-how-calc-hours-a = Mes skaitom stuņdis, riekinojūt kotra īroksta videjū garumu, i tod reizynojam itū skaitu ar kūpejū īrokstu skaitu vysuos volūduos.
 faq-where-src-from-2-q = Nu kurīnis ir teksti īrokstim?
 faq-why-not-ask-read-q = Deļkuo jius naprosit, lai cylvāki skaiteitu gruomotysa voi Wikipedia rokstus dažaiduos volūduos?
 faq-why-account-q = Deļkuo maņ juosaregistrej?
@@ -485,12 +486,14 @@ about-playbook-how-grow-language-content-2 = Nūtikšonys
 about-playbook-how-grow-language-content-3 = Varit taiseit pasuokumus, lai mudynuotu cylvākus dūt sovu īguļdejumu. Tys ir vīgluok, nakai jius dūmojit. Varit tū izdareit tīšsaistē, lītojūt videokonferenču reiku, voi personeigi, ka tys ir drūsai. <eventTemplate>Izpietit myusu veidnis i resursus, kas paradzāti pasuokumu nūtikšonai</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Socialī medeji
 about-playbook-how-grow-language-content-6 = Partnereibys i teikli
+about-playbook-how-grow-language-content-7 = Atrūnit cytus, kurim tys ryup. Tuos varātu byut universitatis, volūdu školys, interešu aizstuoveibys grupys voi datu zynuotnis kūpīnys. Sasazynojit i skaidri paskaidrojit, kai jī var paleidzēt i deļkuo. <outreachTemplates>Veritēs myusu informativū e-posta ziņuojumu veidnis</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Esit rodūši!</strong> Jiusu volūdys kūpīna byus unikala, i itī ir tikai puors veidi, kai suokt.
 
 ## How to validate
 
 about-playbook-how-validate = Kai zynuot, voi apstyprynuot bolsa īrokstu?
 about-playbook-how-validate-content-1 = Ka varit <strong>dzierdēt saceitū</strong> i <strong>saprast saceitū</strong>, parasti <strong>vyslobuok apstyprynuot</strong> īrokstu.
+about-playbook-how-validate-content-2 = <strong>Nanūraidit īrokstus, kurūs runuotuojam “ir akcents”, kas atsaškir nu jiusejuo</strong> - dažaidys izrunys i akcenti ir svareigi, lai bolsa atpazeišona struoduotu labi sevkuram.
 about-playbook-how-validate-content-4 = Ka īrokstu nūraida 2 cylvāki, tys teik izlaists datu kūpys nūraideitū īrokstu apakškūpā.
 
 ## How to access dataset
