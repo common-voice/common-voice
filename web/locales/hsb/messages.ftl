@@ -896,6 +896,8 @@ target-segment-learn-more = Dalše informacije
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Zběrka hłosow
+contribute-sentence-collection-nav-header = Zběrka sadow
 
 ## Reporting
 
@@ -1541,4 +1543,37 @@ already-have-an-account = Maće hižo konto? <login>Přizjewić</login>
 create-profile-button = Profil załožić
 # IMAGE TAGS
 img-alt-success-checkmark = Symbol wuspěcha
+# GUIDELINES PAGE
+guidelines-header = Směrnicy za sobuskutkowarjow
+voice-collection = Zběrka hłosow
 sentence-collection = Zběrka sadow
+varying-pronunciations = Rozdźělne wurjekowanja
+misreadings = Čitanske zmylki
+background-noise = Pozadkowe šumy
+background-voices = Pozadkowe hłosy
+volume = Sylnosć zwuka
+reader-effects = Efekty čitarja
+just-unsure = Jenož njewěsty?
+example = Přikład
+varying-pronunciations-example = Ruta běše njejasna.
+misreadings-explanation-5 = Kontrakcije při čitanju, na přikład „žno“ město „hižo“ abo nawopak.
+misreadings-explanation-6 = Falowacy kónc poslednjeho słowa, dokelž natočenje je so přespěšnišo wotrězało.
+misreadings-explanation-7 = Wjacore pospyty słowo čitać.
+misreadings-example-1 = Dźemy po kofej.
+misreadings-example-2 = Dźemy po kofej.
+misreadings-example-3 = Dźemy po jedyn kofej.
+misreadings-example-4 = Čmjeła nimo lećeše.
+misreadings-tip-1 = [Dyrbjało „Dźemy“ rěkać]
+misreadings-tip-2 = [‘a’ w originalnym teksće njeje]
+misreadings-tip-3 = [Wobsah njewotpowěduje]
+background-noise-example-1 = Hoberske dinosawriery triasa.
+background-noise-tip-2 = [Dźěl teksta słyšeć njeje]
+still-have-questions = Maće hišće prašenja?
+citing-sentences = Sady citować
+adding-sentences = Sady přidać
+reviewing-sentences = Sady přepruwować
+citing-sentences-subheader-websites = Websydła
+citing-sentences-subheader-websites-explanation = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“
+citing-sentences-subheader-offline-sources = Žórła offline
+self-citation = Sebjecitowanje
+adding-sentences-subheader-length = Dołhosć
