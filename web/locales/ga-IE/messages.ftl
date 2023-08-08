@@ -15,6 +15,7 @@ email-opt-in-privacy-v2 = Trí rogha a dhéanamh chun teachtaireachtaí ríomhph
 indicates-required = Léiríonn * réimse atá riachtanach
 not-available-abbreviation = Neamhbhainteach
 banner-error-slow-link = An Chaoi A Bhfuil An Scéal
+error-something-went-wrong = Is dona linn é ach tá rud éigin as fearas
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -118,6 +119,7 @@ ta = Tamailis
 te = Teileagúis
 tg = Táidsícis
 th = Téalainnis
+tl = Tagálaigis
 tr = Tuircis
 tt = Tatairis
 udm = Udmairtis
@@ -253,6 +255,7 @@ shortcut-record-toggle = f
 shortcut-record-toggle-label = Taifead/Stad
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Déan an ghearrthóg a thaifeadadh arís
+shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Fill
 shortcut-submit-label = Seol isteach na gearrthóga
 request-language-text = Cá bhfuil mo theangasa?
@@ -285,6 +288,7 @@ profile-form-additional-language =
     .label = Teanga Bhreise
 profile-form-language =
     .label = Teanga
+profile-form-variant-default-value = Níor roghnaíodh aon leagan malartach
 profile-form-accent =
     .label = Blas
 profile-form-age =
@@ -319,6 +323,7 @@ why-demographic = Cén fáth?
 accept-privacy-title = An Beartas Príobháideachais
 accept-privacy-and-terms = Glacaim le <termsLink>Téarmaí</termsLink> agus le <privacyLink>Fógra Príobháideachais</privacyLink> a bhaineann le Common Voice.
 login-identity = Aitheantas
+login = Sínigh Isteach
 login-signup = Logáil Isteach / Clárú
 edit = Eagar
 email-subscriptions = Síntiúis Ríomhphoist
@@ -406,6 +411,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Ag bailiú abairt
 ## How does localization work
 
 about-playbook-how-localize = Conas a oibríonn logánú láithreáin?
+about-playbook-how-localize-content-5 = Breathnaigh ar an bhfíseán seo chun eolas a fháil a thabharfaidh cabhair duit
 
 ## How to add sentences
 
@@ -444,6 +450,7 @@ sst-explanation = Tiontaíonn teicneolaíochtaí urlabhra-go-téacs (STT) sonra�
 
 ## Error pages
 
+error-title-404 = Níorbh fhéidir linn an leathanach sin a aimsiú duit
 error-code = Earráid { $code }
 
 ## Data
@@ -547,6 +554,7 @@ other-language = Teanga Eile
 request-language-heading = Cuir ceist faoi theanga nua
 request-language-form-email =
     .label = Do sheoladh ríomhphoist
+request-language-form-info-explanation-list-1 = Ainmneacha do theanga
 request-language-form-info-explanation-list-2 = <isoCodeLink>Cóid ISO</isoCodeLink> más eol duit iad
 
 ## Languages Overview
@@ -698,6 +706,7 @@ validated-clips = Gearrthóga Deimhnithe
 total-approved = Líon Iomlán Deimhnithe
 overall-accuracy = Cruinneas Iomlán
 set-visibility = Socraigh mo infheictheacht
+show-ranking = Taispeáin mo rangú
 
 ## Custom Goals
 
@@ -713,6 +722,9 @@ want-to-continue = An bhfuil fonn ort dul ar aghaidh?
 build-custom-goal = Socraigh do sprioc féin
 set-a-goal = Cuir sprioc romhat féin
 cant-decide = Ní féidir cinneadh a dhéanamh?
+how-many-per-day = Go hiontach! Cé mhéad gearrthóg in aghaidh an lae?
+how-many-a-week = Go hiontach! Cé mhéad gearrthóg in aghaidh na seachtaine?
+which-goal-type = Ar mhaith leat Labhairt, Éisteacht nó an dá rud?
 confirm-goal = Deimhnigh an Sprioc
 goal-interval-weekly = Go seachtainiúil
 share-goal-type-speak = Ag labhairt
@@ -728,6 +740,7 @@ profile-form-delete = Scrios mo Phróifíl
 
 ## Profile Download
 
+download-q = An gá duit do shonraí a íosluchtú?
 download-profile-size = Cúpla beart
 download-recordings-title = Taifeadtaí
 download-size = Méid
@@ -739,6 +752,7 @@ download-request-metadata-link = Téacs na habairte
 
 ## Landing
 
+welcome-staff = Fáilte romhaibh, a lucht { $company }!
 profile-not-required = Ní gá duit cuntas a chruthú, ach tá sé úsáideach
 
 ## DemoLayout
@@ -755,6 +769,8 @@ demo-account = Cuntas
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = Cuir isteach seoladh ríomhphoist chun nasc clárúcháin a sheoladh
 
 ## Demo Contribute
 
@@ -890,5 +906,10 @@ partnerships-get-in-touch = Téigh i dteagmháil
 partnerships-foundations-header = Fondúireachtaí
 partnerships-governments-header = Rialtais
 why-donate = Cén fáth a bhfuil tú ag fiafraí?
+add-information-button = Cuir eolas leis
 sentence-collection = Bailiúchán Abairtí
+volume = Airde
+example = Sampla
+varying-pronunciations-example = Ní raibh an bealach soiléir.
+background-voices-tip-1 = An bhfuil tú ag teacht? [glaoite ag duine eile]
 sc-redirect-page-subtitle-2 = Cuir ceisteanna orainn ar <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> nó <emailLink>ríomhphost</emailLink>.
