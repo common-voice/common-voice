@@ -42,6 +42,7 @@ be = Běłorušćina
 bg = Bołharšćina
 bm = Bambaršćina, Bambara
 bn = Bengalšćina
+bo = Tibetšćina
 br = Bretonšćina
 bs = Bosnišćina
 bxr = Burjatšćina
@@ -115,6 +116,7 @@ lij = Ligurišćina
 ln = Lingala
 lo = Laošćina
 lt = Litawšćina
+ltg = Latgalšćina
 lv = Letišćina
 mai = Majtilišćina
 mdf = Mokša
@@ -417,6 +419,7 @@ accept-privacy = Sym přezjedny, zo so tute informacije wužiwaja, kak so w <pri
 accept-privacy-title = Prawidła priwatnosće
 accept-privacy-and-terms = Zwolu do našich <termsLink>wužiwarskich wuměnjenjow</termsLink> a <privacyLink>zdźělenki priwatnosće</privacyLink>
 login-identity = Přizjewjenska identita
+login = Přizjewić
 login-signup = Přizjewić/Registrować
 edit = Wobdźěłać
 email-subscriptions = E-mejlowe abonementy
@@ -827,6 +830,8 @@ action-click = Kliknyć
 action-tap = Podótknyć so
 contribute = Sobu dźěłać
 listen = Słuchać
+write = Pisać
+review = Přepruwować
 skip = Přeskočić
 shortcuts = Skrótšenki
 clips-with-count-pluralized =
@@ -888,6 +893,9 @@ target-segment-generic-card = Přinošujeće k cilowemu segmentej
 target-segment-first-banner = Pomhajće prěni cilowy segment Common Voice w { $locale } wutworić
 target-segment-add-voice = Přidajće swój hłós
 target-segment-learn-more = Dalše informacije
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1533,3 +1541,4 @@ already-have-an-account = Maće hižo konto? <login>Přizjewić</login>
 create-profile-button = Profil załožić
 # IMAGE TAGS
 img-alt-success-checkmark = Symbol wuspěcha
+sentence-collection = Zběrka sadow
