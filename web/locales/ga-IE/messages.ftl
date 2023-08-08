@@ -5,10 +5,13 @@ stayintouch = Táimid ag iarraidh comhphobal a thógáil timpeall teicneolaíoch
 privacy-info = Geallaimid duit go mbeimid cúramach le do chuid sonraí pearsanta. Tuilleadh eolais inár <privacyLink>bhFógra Príobháideachais</privacyLink>.
 return-to-cv = Fill ar Common Voice
 email-input =
-    .label = Ríomhphost
+    .label = Seoladh Ríomhphoist
 submit-form-action = Seol
-loading = Á lódáil...
+loading = Á luchtú...
 email-opt-in-info = Ba mhaith liom ríomhphoist a fháil ar nós meabhrúcháin sprioc, nuashonruithe ar mo dhul chun cinn, agus nuachtlitreacha faoi Common Voice.
+email-opt-in-info-title = Cuir d'ainm le liosta poist Common Voice
+email-opt-in-info-sub-with-challenge = Faigh teachtaireachtaí ríomhphoist amhail meabhrúcháin faoi spriocanna agus dúshláin, nuashonruithe ar mo dhul chun cinn, agus nuachtlitreacha faoi Common Voice.
+email-opt-in-privacy-v2 = Trí rogha a dhéanamh chun teachtaireachtaí ríomhphoist a fháil, tugann tú le fios nach miste leat go mbeidh Mozilla in ann an fhaisnéis sin a láimhseáil mar a mhínítear i <privacyLink>mBeartas Príobháideachais</privacyLink> Mozilla.
 indicates-required = Léiríonn * réimse atá riachtanach
 not-available-abbreviation = Neamhbhainteach
 
@@ -59,7 +62,6 @@ ga-IE = Gaeilge
 gl = Gailísis
 ha = Hásais
 he = Eabhrais
-hi-IN = Hiondúis
 hr = Cróitis
 hsb = Sorbais Uachtarach
 hu = Ungáiris
@@ -74,7 +76,6 @@ kbd = Cabairdis
 kk = Casaicis
 ko = Cóiréis
 kpv = Coimis
-ku = Coirdis
 kw = Coirnis
 ky = Cirgisis
 lg = Lugandais
@@ -281,8 +282,6 @@ profile-form-accent =
     .label = Blas
 profile-form-age =
     .label = Aois
-profile-form-gender =
-    .label = Inscne
 leaderboard-visibility =
     .label = Infheictheacht an Tábla
 hidden = I bhfolach
@@ -316,21 +315,17 @@ email-subscriptions = Síntiúis Ríomhphoist
 download-profile = Íoslódáil mo chuid sonraí
 off = As
 on = Ann
-change-your-avatar-clip = An bhfuil fonn ort do ghearrthóg ghutha a athrú?
-recording-in-progress = Taifeadadh gutha ar siúl
-record-voice-wave = TAIFEAD TONN GHUTHA
-retry-voice-wave-recording = DÉAN ARÍS É
-re-record = ATAIFEAD
-delete-voice = SCRIOS
-delete-voice-clip = nó Scrios gearrthóg
-ready-to-upload = UASLÓDÁIL
-recreate-voice = Athchruthaigh an Tonn Ghutha
-cancel-avatar-clip-recording = CEALAIGH
+
+## Profile - Email
+
 browse-file-title = Uaslódáil pictiúr
 browse-file = Tarraing agus scaoil nó <browseWrap>Brabhsáil</browseWrap>
 connect-gravatar = Ceangail le Gravatar
 gravatar_not_found = Níl aon gravatar ceangailte le do sheoladh r-phoist
 file_too_large = Tá an comhad seo rómhór
+
+## Profile - Email
+
 manage-email-subscriptions = Bainistigh Síntiúis Ríomhphoist
 email-already-used = Tá an seoladh r-phoist seo ceangailte le cuntas eile cheana
 add-language = Teanga Nua
@@ -360,7 +355,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Cén fáth a bhfuil Common Voice ann?
-how-does-it-work-title = Conas a oibríonn sé?
+
+## How does it work section
+
 about-speak = Labhair
 about-listen-queue = Ciú Éisteachta
 about-listen = Éist
@@ -369,15 +366,39 @@ about-yes-votes = ≥ 2 Ghuth ar a shon
 about-no-votes = ≥ 2 Ghuth ina choinne
 about-dataset-new = Tacar Sonraí Common Voice
 about-clip-graveyard = Reilig na nGearrthóg
-about-partners = Comhpháirtithe
-about-become-a-partner = Bí i do chomhpháirtí
 about-get-involved = Glac páirt
 about-nav-why-common-voice = Cén fáth?
 about-nav-how-it-works = Conas?
 about-nav-partners = Comhpháirtithe
 about-nav-get-involved = Glac páirt
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Intleacht shaorga
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -386,10 +407,8 @@ localization = Logánú
 sentence-collection = Bailiúchán Abairtí
 sst = Cainte-go-téacs (STT)
 
-## NotFound
+## Error pages
 
-notfound-title = Gan aimsiú
-notfound-content = Mo leithscéal ach ní thuigim céard atá tú ag lorg.
 
 ## Data
 
@@ -479,6 +498,9 @@ request-language-success-content = Beimid i dteagmháil leat go luath le tuillea
 select-language = Roghnaigh Teanga...
 other-language = Teanga Eile
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = Idir lámha
@@ -492,7 +514,6 @@ language-search-input =
 language-speakers = Cainteoirí
 localized = Aistrithe
 sentences = Abairtí
-total-hours = Uaireanta Deimhnithe
 
 ## Contribution
 
@@ -502,7 +523,6 @@ contribute = Rannpháirtíocht
 listen = Éist
 skip = Ar Aghaidh
 shortcuts = Aicearraí
-clips-with-count = <bold>{ $count }</bold> Gearrthóg
 goal-help-recording = Chabhraigh tú le Common Voice <goalPercentage></goalPercentage> dár sprioc laethúil de { $goalValue } abairt taifeadta a bhaint amach!
 goal-help-validation = Chabhraigh tú le Common Voice <goalPercentage></goalPercentage> dár sprioc laethúil de { $goalValue } abairt deimhnithe a bhaint amach!
 contribute-more =
@@ -516,7 +536,6 @@ contribute-more =
 record-cta = Tosaigh ag taifeadadh
 record-platform-not-supported = Ár leithscéal, ach ní thacaímid leis an ardán seo faoi láthair.
 record-platform-not-supported-desktop = Ar ríomhaire, is féidir leat na leaganacha is déanaí a íoslódáil:
-record-platform-not-supported-ios = Is féidir le daoine ar <bold>iOS</bold> aip saor in aisce a íoslódáil:
 record-must-allow-microphone = Caithfidh tú cead a thabhairt dúinn an micreafón a úsáid.
 record-no-mic-found = Níor aimsíodh micreafón.
 record-error-too-short = Bhí an taifeadadh róghearr.
@@ -542,9 +561,11 @@ listen-instruction = { $actionType } <playIcon></playIcon> — an bhfuil an taif
 listen-again-instruction = Maith thú! <playIcon></playIcon> Éist le ceann eile nuair a bheidh tú réidh
 listen-3rd-time-instruction = Sin dhá cheann, lean ort! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> An ceann deireanach!
-nothing-to-validate = Níl aon ábhar le deimhniú sa teanga seo; cabhraigh linn an ciú a líonadh!
 record-button-label = Taifead do ghuth
 share-title-new = <bold>Cabhraigh linn</bold> tuilleadh guthanna a fháil
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -623,6 +644,84 @@ keep = Coinnigh
 remove = Scrios
 profile-form-delete = Scrios mo Phróifíl
 
+## Profile Download
+
+
 ## Landing
 
 profile-not-required = Ní gá duit cuntas a chruthú, ach tá sé úsáideach
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
+sentence-collection = Bailiúchán Abairtí
