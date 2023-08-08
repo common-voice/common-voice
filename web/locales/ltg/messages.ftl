@@ -139,9 +139,7 @@ default-tagline = Common Voice ir Mozilla iniciativa, lai vuiceitu datorim sapra
 home-cta = Runojit, dūdit īguļdejumu ite!
 wall-of-text-start = Bolss ir dabisks, bolss ir ciļvieceigs. Deļtuo mes gribim sataiseit bolsa atpazeišonys tehnologeju, kuru varātu lītuot vysaiduos īreicēs. Bet, lai radeitu itaidu bolsa tehnologeju, ir vajadzeigs daudz bolsa īrokstu.
 wall-of-text-more-mobile = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daīmami vysim cylvākim. Tys kavej inovaceju. Deļtuo asam uzsuokuši Common Voice projektu, kas padareis bolsa atpazeišonu daīmamu sevkuram.
-wall-of-text-more-desktop =
-    Niu jius varit pazīduot sovu bolsu, lai paleidzātu mums sataiseit atvārtuo pyrmkoda bolsa datubazi, kū var lītuot sevkurs,¶
-    taisūt inovativys lītuotnis īreicem i teiklavītai. Skaitit teikumu, lai paleidzātu mašynom īvuiceit, kai runoj cylvāki. Puorbaudit cytu cylvāku īrokstus, lai uzlabuotu datu kvalitati. Tys ir tik vīnkuorši!
+wall-of-text-more-desktop = Niu jius varit pazīduot sovu bolsu, lai paleidzātu mums sataiseit atvārtuo pyrmkoda bolsa datubazi, kū var lītuot sevkurs, taisūt inovativys lītuotnis īreicem i teiklavītai. Skaitit teikumu, lai paleidzātu mašynom īvuiceit, kai runoj cylvāki. Puorbaudit cytu cylvāku īrokstus, lai uzlabuotu datu kvalitati. Tys ir tik vīnkuorši!
 wall-of-text-first = Bolss ir dabiskys, bolss ir ciļvieceigs. Taišni deļtuo mes gribim sataiseit bolsa atpazeišonys tehnologeju, kuru varātu lītuot dažaiduos īreicēs. Bet, lai radeitu itaidu bolsa tehnologeju, ir vajadzeigs daudz bolsa īrokstu.
 wall-of-text-second = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daeimami vysim cylvākim. Mes dūmojam, ka tys kavej inovaceju, deļtuo asam aizsuokuši Common Voice - projektu, ka padareis bolsa atpazeišonu daeimamu sevkuram.
 show-wall-of-text = Skaiteit vaira
@@ -316,6 +314,7 @@ email-subscriptions = Jaunumu aboniešona e-postā
 download-profile = Zamynluodēt munus datus
 contribution-experience = Pīsadaleišonys pīredze
 skip-submission-feedback = Izlaist atsauksmis
+skip-submission-description = Īsnāguma īsnīgšonys laikā atgrīzeniskuo saite tiks izlaista piec nūklykstynuošonys iz 'Īsnēgt'. Īguļdejums tiks turpynuots tīši ar nuokušajim 5 īrokstim voi apstyprynuojumim.
 skip-submission-note = Pīzeime: mainūt īguļdejuma veidu, jums byus juoizavielej īraksteit voi klauseitīs.
 off = Izslāgts
 on = Īslāgts
@@ -475,7 +474,7 @@ about-playbook-how-record-quality = Kai īraksteit lobys kvalitatis īrokstu?
 about-playbook-how-record-content-1 = Runojit sovā īrostajā bolsā! Jiusu runys veids ir pījamams - mes gribim, lai jiusu izruna byutu taida, kaida tei ir, i taipat mes gribim dzierdēt jiusu runys īrostū skaļumu, stilu i intonaceju.
 about-playbook-how-record-content-2 = Izasorgojit nu cīš lela fona trūkšņa - jums vajadzātu byut vīgli saklausomam.
 about-playbook-how-record-content-3 = Viereigi puorskaitit teikumus - naizlaidit, namainit i nadalīcit vuordus.
-about-playbook-how-record-content-4 = Puorsalīcynojit, ka īroksts ir suocīs, pyrma suokt runuot, i apturit īrokstu tikai tod, kod esit pabeidzis runuot.
+about-playbook-how-record-content-4 = Puorsalīcynojit, ka īroksts ir suocīs, pyrma suokt runuot, i apturit īrokstu tikai tod, kod esit pabeidzs runuot.
 about-playbook-how-record-content-5 = <accuracyLink>Veritēs vaira par tū, kai pareizi īraksteit.</accuracyLink>
 
 ## How to grow language
