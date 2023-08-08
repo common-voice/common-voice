@@ -363,6 +363,7 @@ gravatar_not_found = Tidak ditemukan gravatar untuk surel Anda
 file_too_large = Berkas yang dipilih terlalu besar
 avatar-uploaded = Avatar diunggah
 max-file-size = Maksimum { $kb }kb
+remove-avatar = Hapus Avatar
 
 ## Profile - Email
 
@@ -460,10 +461,12 @@ about-get-involved-text-2 =
     Bagus! Hubungi kami via surel atau forum <discourseLink>Discourse</discourseLink>,
     laporkan masalah situs melalui <githubLink>GitHub</githubLink>, atau bergabung dengan
     obrolan komunitas di <matrixLink>Matrix </matrixLink>.
+about-stay-in-touch-button = Daftar
 about-nav-why-common-voice = Mengapa?
 about-nav-how-it-works = Bagaimana?
 about-nav-partners = Mitra
 about-nav-get-involved = Mari berperan
+about-nav-playbook = Pelajari cara berpartisipasi
 
 ## Community Playbook Content
 ## What is a language
@@ -706,6 +709,9 @@ target-segment-generic-card = Anda berkontribusi pada sebuah segmen target
 target-segment-first-banner = Bantu buat segmen target pertama Common Voice dalam bahasa { $locale }
 target-segment-add-voice = Tambahkan Suara Anda
 target-segment-learn-more = Pelajari Lebih Lanjut
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -951,3 +957,4 @@ demo-dashboard-card-body = Untuk setiap klip suara yang disumbangkan, dan setiap
 
 # [/SentenceCollector]
 
+sentence-collection = Koleksi Kalimat

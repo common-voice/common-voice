@@ -1696,6 +1696,7 @@ report-sc-different-language = Autre langue
 report-sc-different-language-detail = La phrase est écrite dans une langue différente de celle que je relis.
 sentences-fetch-error = Une erreur est survenue lors de la récupération des phrases
 review-error = Une erreur s’est produite lors de la revue de cette phrase
+review-error-rate-limit-exceeded = Vous allez trop vite. Veuillez prendre quelques instants pour relire la phrase et vous assurer qu’elle est correcte.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Nous effectuons d’importants changements
 sc-redirect-page-subtitle-1 = Le collecteur de phrases est déplacé vers la plateforme Common Voice. Vous pouvez désormais <writeURL>écrire</writeURL> une phrase ou <reviewURL>vérifier</reviewURL> des phrases depuis Common Voice.

@@ -1783,6 +1783,7 @@ report-sc-different-language = განსხვავებული ენა
 report-sc-different-language-detail = დაწერილია ჩემი სასაუბრო ენისგან განსხვავებულ ენაზე.
 sentences-fetch-error = შეცდომა წინადადებების მიღებისას
 review-error = შეცდომა წინადადებების შემოწმებისას
+review-error-rate-limit-exceeded = ზედმეტად ჩქარობთ. გთხოვთ, დრო მეტი დაუთმოთ წინადადების გარჩევას, რომ კარგად გადაამოწმოთ მისი სისწორე.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = მნიშვნელოვანი ცვლილებებია
 sc-redirect-page-subtitle-1 = წინადადებების შემგროვებელი გადადის Common Voice-ის ძირითად საიტზე. ახლა შეგიძლიათ <writeURL>შეადგინოთ</writeURL> წინადადება ან <reviewURL>შეამოწმოთ</reviewURL> ცალკეულად დამატებული წინადადებები პირდაპირ Common Voice-ზე.

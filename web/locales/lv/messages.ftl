@@ -118,6 +118,7 @@ lij = Ligūru
 ln = Lingalas
 lo = Laosas
 lt = Lietuviešu
+ltg = Latgaliešu
 lv = Latviešu
 mai = Maithili
 mdf = Moksha
