@@ -494,6 +494,7 @@ about-playbook-how-grow-language-content-8 = <strong>Esit rodūši!</strong> Jiu
 about-playbook-how-validate = Kai zynuot, voi apstyprynuot bolsa īrokstu?
 about-playbook-how-validate-content-1 = Ka varit <strong>dzierdēt saceitū</strong> i <strong>saprast saceitū</strong>, parasti <strong>vyslobuok apstyprynuot</strong> īrokstu.
 about-playbook-how-validate-content-2 = <strong>Nanūraidit īrokstus, kurūs runuotuojam “ir akcents”, kas atsaškir nu jiusejuo</strong> - dažaidys izrunys i akcenti ir svareigi, lai bolsa atpazeišona struoduotu labi sevkuram.
+about-playbook-how-validate-content-3 = Ka dūmojit, ka izruna <strong>naļaun piļneibā saprast</strong> voi ir <strong>lels fona trūksnis</strong>, voi <strong>fonā runoj ari cyti cylvāki</strong>, tod īroksts ir juonūraida. <accuracyLink>Veritēs plotuoku informaceju myusu precizitatis kriterejūs</accuracyLink>.
 about-playbook-how-validate-content-4 = Ka īrokstu nūraida 2 cylvāki, tys teik izlaists datu kūpys nūraideitū īrokstu apakškūpā.
 
 ## How to access dataset
@@ -531,6 +532,7 @@ de-identified-explanation = Process, kurā īrunuotuoja profila informaceja teik
 error-title-404 = Mes navariejom atrast itū lopu
 error-content-404 = Varbyut myusu <homepageLink>sātyslopa</homepageLink> paleidzēs? Lai aizdūtu vaicuojumu, lyudzu, pīsavīnojit <matrixLink>Matrix kūpīnys čatā</matrixLink>, dasaverit teiklavītys problemys, lītojūt <githubLink>GitHub</githubLink>, voi ejit iz <discourseLink>myusu diskuseju forumim</discourseLink>.
 error-title-503 = Mums ir nagaideita deikstuove
+error-content-503 = Teiklavīta tiks atjaunuota, cik dreiži viņ varams. Lai dabuotu jaunuokū informaceju, lyudzu, pīsavīnojit <matrixLink>Matrix kūpīnys čatam</matrixLink> voi apmeklejit <githubLink>GitHub</githubLink> voi <discourseLink>myusu diskuseju forumus</discourseLink>, lai ziņuotu par teiklavītys problemom i dazynuotu par aktualū problemu rysynuošonys statusu.
 error-code = Klaida { $code }
 
 ## Data
