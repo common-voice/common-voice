@@ -368,23 +368,29 @@ about-no-votes = ≥ 2 Ghuth ina choinne
 about-dataset-new = Tacar Sonraí Common Voice
 about-clip-graveyard = Reilig na nGearrthóg
 about-get-involved = Glac páirt
+about-stay-in-touch = Conas a fhanaim ar an eolas faoi?
 about-nav-why-common-voice = Cén fáth?
 about-nav-how-it-works = Conas?
 about-nav-partners = Comhpháirtithe
 about-nav-get-involved = Glac páirt
+about-nav-playbook = Foghlaim conas páirt a ghlacadh
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Céard is teanga ann ar Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Conas a chuirim teanga leis?
 
 ## How does localization work
 
+about-playbook-how-localize = Conas a oibríonn logánú láithreáin?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences-content-2 = Chun go nglacfaí le habairtí, ní mór do bheirt athbhreithniú a dhéanamh ar na habairtí agus iad a ghlacadh. Féadfainn tú treoracha i gcomhair do theanga a chruthú <languageGuidelinesLink>anseo</languageGuidelinesLink>. Ní mór d'abairtí a bheith san<licenseLink>fhearann poiblí</licenseLink> agus ní mór dóibh a bheith níos lú ná 15 focal. Féadfainn tú iarraidh ar an té a chuir téacs isteach é a thiontú go <waiverLink>CC0 trí bhíthin ár gcóras tarscaoilte</waiverLink>, agus seol chugainn iad ag commonvoice@mozilla.com
 
 ## How to record quality
 
@@ -397,9 +403,11 @@ about-nav-get-involved = Glac páirt
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Conas is féidir liom an tacar sonraí a rochtain agus a úsáid?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Conas a dhéantar cinntí faoin dtionscadal?
 
 ## Glossary
 
@@ -464,6 +472,7 @@ data-other-ted-name = Corpas TED-LIUM
 data-other-ted-description = Cruthaíodh an corpas TED-LIUM ó léachtaí TED agus na leaganacha tras-scríofa ar fáil ar shuíomh Gréasáin TED.
 data-other-voxforge-description = Bunaíodh VoxForge chun ábhar cainte tras-scríofa a bhailiú agus a úsáid in innill aitheanta cainte FLOSS.
 data-other-tatoeba-description = Is éard atá in Tatoeba ná bunachar sonraí abairtí, aistriúchán, agus taifeadtaí fuaime a úsáidtear chun teangacha a fhoghlaim. Gheobhaidh tú mórán Béarla labhartha, taifeadta ag comhphobal Tatoeba, san íoslódáil seo.
+go-discourse = Téigh go dtí Discourse
 ready-to-validate = An bhfuil tú réidh abairtí a dheimhniú?
 more = Tuilleadh
 close = Dún
@@ -680,6 +689,7 @@ profile-not-required = Ní gá duit cuntas a chruthú, ach tá sé úsáideach
 ## HEADER/FOOTER
 
 sc-header-review = Athbhreithnigh
+sc-footer-discourse = Discourse
 
 ## HOME
 
@@ -733,3 +743,4 @@ sc-howto-review-subtitle = Cinntigh go gcomhlíonann an abairt na critéir seo a
 # [/SentenceCollector]
 
 sentence-collection = Bailiúchán Abairtí
+sc-redirect-page-subtitle-2 = Cuir ceisteanna orainn ar <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> nó <emailLink>ríomhphost</emailLink>.
