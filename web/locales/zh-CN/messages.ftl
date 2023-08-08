@@ -1671,6 +1671,7 @@ report-sc-different-language = 其他语言
 report-sc-different-language-detail = 它与我正在审查的语言不同。
 sentences-fetch-error = 获取语句时出错
 review-error = 审阅语句时发生错误
+review-error-rate-limit-exceeded = 别太匆忙。请多花些时间来审核语句，确认其是否正确。
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = 重磅更新
 sc-redirect-page-subtitle-1 = 语句收集工具已迁移到 Common Voice 主平台，您现在可以直接在 Common Voice 上<writeURL>撰写</writeURL>和<reviewURL>审核</reviewURL>语句。
