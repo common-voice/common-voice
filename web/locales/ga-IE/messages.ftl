@@ -735,6 +735,7 @@ download-selected = Roghnaithe
 download-request-button = Íosluchtaigh é
 download-request-title = { $created }
 download-request-refresh-button = Athnuaigh é
+download-request-metadata-link = Téacs na habairte
 
 ## Landing
 
@@ -742,21 +743,33 @@ profile-not-required = Ní gá duit cuntas a chruthú, ach tá sé úsáideach
 
 ## DemoLayout
 
+demo-get-started = Tosaímis
+demo-welcome = Fáilte go Common Voice
 
 ## Demo Datasets
 
+card-button-next = Ar Aghaidh
+card-button-back = Siar
+demo-language-select-label = Féach ar na Teangacha
+demo-account = Cuntas
 
 ## Demo Account
 
 
 ## Demo Contribute
 
+demo-listen-subtitle = An bhfuil tú réidh chun rannchuidiú leis?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-criteria-nav = Critéir
+contribution-for-example = mar shampla
+contribution-misreadings-title = Míléamh
+contribution-background-noise-title = Torann sa chúlra
+contribution-volume-title = Airde
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -765,11 +778,23 @@ profile-not-required = Ní gá duit cuntas a chruthú, ach tá sé úsáideach
 
 ## HEADER/FOOTER
 
+sc-header-home = Baile
+sc-header-how-to = Conas an obair a dhéanamh
+sc-header-add = Cuir Leis
 sc-header-review = Athbhreithnigh
+sc-header-my = Mo Chuid Abairtí
+sc-header-statistics = Staitisticí
+sc-header-profile = Próifíl
 sc-footer-discourse = Discourse
+sc-footer-privacy = Príobháideachas
+sc-footer-terms = Téarmaí
+sc-footer-cookies = Fianáin
+sc-login-signup-button = Sínigh isteach / Cláraigh
+sc-logout-button = Scoir
 
 ## HOME
 
+sc-home-collect-title = Bailigh abairtí
 sc-home-review-title = Athbhreithnigh abairtí
 sc-home-review-text = Cabhraigh linn trí abairtí a athbhreithniú le haghaidh cruinnis de réir na dtreoirlínte.
 
@@ -778,11 +803,18 @@ sc-home-review-text = Cabhraigh linn trí abairtí a athbhreithniú le haghaidh 
 
 ## HOW-TO
 
+sc-howto-title = Conas an obair a dhéanamh
+sc-howto-addsen-title = Cuir abairtí nua leis
 sc-howto-review-title = Athbhreithnigh Abairtí
 sc-howto-review-subtitle = Cinntigh go gcomhlíonann an abairt na critéir seo a leanas:
+sc-howto-review-criteria-1 = Ní mór an abairt a litriú i gceart.
+sc-howto-review-criteria-3 = Caithfidh an abairt a bheith inléite.
 
 ## MY SENTENCES
 
+sc-my-title = Mo Chuid Abairtí
+sc-my-loading = Tá do chuid abairtí á luchtú...
+sc-my-no-sentences = Níor aimsíodh abairtí!
 
 ## REJECTED
 
@@ -792,32 +824,71 @@ sc-howto-review-subtitle = Cinntigh go gcomhlíonann an abairt na critéir seo a
 
 ## ADD
 
+sc-submit-err-add-source = Cuir foinse leis le do thoil.
+sc-submit-title = Cuir Abairtí Leis
+sc-submit-select-language =
+    .labelText = Roghnaigh Teanga
+sc-submit-ph-one-per-line =
+    .placeholder = Abairt amháin in aghaidh an líne
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Cuir Teanga Leis
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Dearbhaigh
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Iomlán
+sc-lang-info-title-personal = Pearsanta
 
 ## LOGIN
 
+sc-login-err-try-again = Féach arís é.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Próifíl: { $username }
+sc-personal-err-remove = Níorbh fhéidir an teanga a bhaint
+sc-personal-your-languages = Do chuid teangacha:
+sc-personal-remove-button = bain í
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-title = Athbhreithnigh Abairtí
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Foinse: { $sentenceSource }
+sc-review-form-button-reject = Diúltaigh di
+sc-review-form-button-skip = Léim thar í seo
+sc-review-form-button-approve = Ceadaigh í
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = Críochnaigh an tAthbhreithniú
+sc-review-link = Athbhreithnigh
 
 ## SETTINGS
 
+sc-settings-title = Socruithe
+sc-settings-ui-language = Teanga an Chomhéadain
 
 # [/SentenceCollector]
 
+partnerships-get-in-touch = Téigh i dteagmháil
+partnerships-foundations-header = Fondúireachtaí
+partnerships-governments-header = Rialtais
+why-donate = Cén fáth a bhfuil tú ag fiafraí?
 sentence-collection = Bailiúchán Abairtí
 sc-redirect-page-subtitle-2 = Cuir ceisteanna orainn ar <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> nó <emailLink>ríomhphost</emailLink>.
