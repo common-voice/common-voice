@@ -140,6 +140,7 @@ speak-now = Abair leat anois
 datasets = Tacair sonraí
 languages = Teangacha
 about = Maidir Leis
+partner = Comhpháirtíocht
 profile = Próifíl
 help = Cabhair
 contact = Teagmháil
@@ -152,11 +153,12 @@ share-title = Cabhraigh linn daoine nua a earcú! Scaip an focal!
 share-text = Cabhraigh linn múineadh do ríomhairí conas a labhraíonn daoine; bronn do ghuth ag { $link }
 link-copied = Cóipeáladh an Nasc
 back-top = Fill ar bharr an leathanaigh
-logout = Logáil Amach
+logout = Scoir
 
 ## Home Page
 
 home-title = Seo é Common Voice – córas de chuid Mozilla a mhúineann do ríomhairí an chaoi a labhraíonn daoine.
+default-tagline = Is togra é Mozilla Common Voice chun cabhrú a mhúineadh do ríomhairí an chaoi a labhraíonn daoine.
 home-cta = Abair leat agus cabhraigh linn!
 wall-of-text-start = Is rud nádúrtha an guth daonna. Sin an fáth a bhfuilimid an-tógtha le teicneolaíocht cainte a fhorbairt ar ríomhairí. Ach, le córas den sórt seo a chruthú, tá bailiúchán ollmhór sonraí gutha de dhíth.
 wall-of-text-more-mobile = Faraor, coinníonn na mórchomhlachtaí teicneolaíochta an chuid is mó de na sonraí atá acu faoi ghlas. Creidimid go bplúchann sé sin iomaíocht shláintiúil. Dá bharr sin, thosaigh muid an togra Common Voice chun aithint cainte a chur ar fáil do chách.
@@ -251,6 +253,8 @@ shortcut-record-toggle = f
 shortcut-record-toggle-label = Taifead/Stad
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Déan an ghearrthóg a thaifeadadh arís
+shortcut-submit = Fill
+shortcut-submit-label = Seol isteach na gearrthóga
 request-language-text = Cá bhfuil mo theangasa?
 request-language-button = Iarr Teanga Nua
 
@@ -279,10 +283,14 @@ profile-form-native-language =
     .label = Teanga Dhúchais
 profile-form-additional-language =
     .label = Teanga Bhreise
+profile-form-language =
+    .label = Teanga
 profile-form-accent =
     .label = Blas
 profile-form-age =
     .label = Aois
+profile-form-gender-2 =
+    .label = Inscne
 leaderboard-visibility =
     .label = Infheictheacht an Tábla
 hidden = I bhfolach
@@ -309,6 +317,7 @@ profile-explanation = Cruthaigh próifíl chun do chuid oibre a leanúint agus c
 thanks-for-account = Go raibh maith agat as do chuntas a dheimhniú. Tógaimis do phróifíl anois.
 why-demographic = Cén fáth?
 accept-privacy-title = An Beartas Príobháideachais
+accept-privacy-and-terms = Glacaim le <termsLink>Téarmaí</termsLink> agus le <privacyLink>Fógra Príobháideachais</privacyLink> a bhaineann le Common Voice.
 login-identity = Aitheantas
 login-signup = Logáil Isteach / Clárú
 edit = Eagar
@@ -324,6 +333,7 @@ browse-file = Tarraing agus scaoil nó <browseWrap>Brabhsáil</browseWrap>
 connect-gravatar = Ceangail le Gravatar
 gravatar_not_found = Níl aon gravatar ceangailte le do sheoladh r-phoist
 file_too_large = Tá an comhad seo rómhór
+max-file-size = Uasmhéid { $kb }kb
 
 ## Profile - Email
 
@@ -349,6 +359,7 @@ faq-why-not-ask-read-q = Cén fáth nach n-iarrann tú ar dhaoine léamh ó leab
 faq-why-account-q = Cén fáth ar chóir dom cuntas a chlárú?
 faq-is-account-public-q = An faisnéis phoiblí é mo chuntas?
 faq-what-is-cv = Cad é Common Voice?
+faq-using-cv = Ag baint feidhme as Common Voice
 faq-description = Seo é Common Voice – tionscadal de chuid Mozilla a mhúineann do ríomhairí an chaoi a labhraíonn daoine.
 faq-search-for-answers =
     .label = Cuardaigh freagraí
@@ -356,9 +367,13 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Cén fáth a bhfuil Common Voice ann?
+how-does-it-work-title-v2 = Conas a oibríonn Common Voice?
 
 ## How does it work section
 
+about-localization-title = Logánú an tSuíomh Ghréasáin
+about-sentence-collection-title = Bailiú Abairtí
+about-new-lang-title = Seoladh Teanga Nua
 about-speak = Labhair
 about-listen-queue = Ciú Éisteachta
 about-listen = Éist
@@ -369,10 +384,12 @@ about-dataset-new = Tacar Sonraí Common Voice
 about-clip-graveyard = Reilig na nGearrthóg
 about-get-involved = Glac páirt
 about-stay-in-touch = Conas a fhanaim ar an eolas faoi?
+about-stay-in-touch-button = Bí ar an eolas
 about-nav-why-common-voice = Cén fáth?
 about-nav-how-it-works = Conas?
 about-nav-partners = Comhpháirtithe
 about-nav-get-involved = Glac páirt
+about-nav-how-it-works-2 = Conas a oibríonn Common Voice?
 about-nav-playbook = Foghlaim conas páirt a ghlacadh
 
 ## Community Playbook Content
@@ -383,6 +400,8 @@ about-playbook-what-is-language = Céard is teanga ann ar Common Voice?
 ## How do I add a language
 
 about-playbook-how-add-language = Conas a chuirim teanga leis?
+about-playbook-how-add-language-translating-heading = An suíomh a aistriú
+about-playbook-how-add-language-collecting-sentences-heading = Ag bailiú abairtí
 
 ## How does localization work
 
@@ -390,6 +409,7 @@ about-playbook-how-localize = Conas a oibríonn logánú láithreáin?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Conas a chuirim abairtí leis?
 about-playbook-how-add-sentences-content-2 = Chun go nglacfaí le habairtí, ní mór do bheirt athbhreithniú a dhéanamh ar na habairtí agus iad a ghlacadh. Féadfainn tú treoracha i gcomhair do theanga a chruthú <languageGuidelinesLink>anseo</languageGuidelinesLink>. Ní mór d'abairtí a bheith san<licenseLink>fhearann poiblí</licenseLink> agus ní mór dóibh a bheith níos lú ná 15 focal. Féadfainn tú iarraidh ar an té a chuir téacs isteach é a thiontú go <waiverLink>CC0 trí bhíthin ár gcóras tarscaoilte</waiverLink>, agus seol chugainn iad ag commonvoice@mozilla.com
 
 ## How to record quality
@@ -397,6 +417,9 @@ about-playbook-how-add-sentences-content-2 = Chun go nglacfaí le habairtí, ní
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Imeachtaí
+about-playbook-how-grow-language-content-4 = Na meáin shóisialta
+about-playbook-how-grow-language-content-6 = Comhpháirtíochtaí agus líonraí
 
 ## How to validate
 
@@ -408,6 +431,8 @@ about-playbook-how-access-dataset = Conas is féidir liom an tacar sonraí a roc
 ## How are decisions made
 
 about-playbook-how-project-governance = Conas a dhéantar cinntí faoin dtionscadal?
+about-playbook-how-project-governance-content-3 = Príobháideacht, slándáil agus trédhearcacht.
+about-playbook-how-project-governance-content-5 = Luach agus aitheantas.
 
 ## Glossary
 
@@ -415,9 +440,11 @@ glossary = Gluais
 localization = Logánú
 sentence-collection = Bailiúchán Abairtí
 sst = Cainte-go-téacs (STT)
+sst-explanation = Tiontaíonn teicneolaíochtaí urlabhra-go-téacs (STT) sonraí gutha go téacs.
 
 ## Error pages
 
+error-code = Earráid { $code }
 
 ## Data
 
@@ -434,6 +461,8 @@ data-other-goto = Téigh go { $name }
 data-other-download = Íoslódáil sonraí
 data-bundle-button = Íoslódáil na Tacair Shonraí go léir
 data-bundle-description = Sonraí Common Voice chomh maith leis na tacair shonraí thuasluaite
+release-version = Leagan
+dataset-date = Dáta
 license = Ceadúnas: <licenseLink>{ $license }</licenseLink>
 license-mixed = Measctha
 review-terms = Má úsáideann tú Common Voice, glacann tú leis na <termsLink>Téarmaí</termsLink> agus leis an <privacyLink>bhFógra Príobháideachais</privacyLink>
@@ -573,6 +602,7 @@ listen-instruction = { $actionType } <playIcon></playIcon> — an bhfuil an taif
 listen-again-instruction = Maith thú! <playIcon></playIcon> Éist le ceann eile nuair a bheidh tú réidh
 listen-3rd-time-instruction = Sin dhá cheann, lean ort! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> An ceann deireanach!
+listen-empty-state = Tá an dealramh air nach bhfuil a thuilleadh gearrthóga ann faoi láthair - athnuaigh an leathanach, nó féach arís ar ball é.
 record-button-label = Taifead do ghuth
 share-title-new = <bold>Cabhraigh linn</bold> tuilleadh guthanna a fháil
 
