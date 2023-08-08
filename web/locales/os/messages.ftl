@@ -121,6 +121,7 @@ about-nav-partners = Партнёртæ
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Цаутæ
+about-playbook-how-grow-language-content-4 = Социалон хызтæ
 
 ## How to validate
 
@@ -136,42 +137,66 @@ about-playbook-how-grow-language-content-2 = Цаутæ
 
 ## Error pages
 
+error-code = Рæдыд { $code }
 
 ## Data
 
+release-version = Фæлтæр
+dataset-date = Датæ
+license = Лицензи: { $license }
 
 ## Datasets Page
 
+language = Æвзаг
+cv-license = Лицензи
+dataset-version = Фæлтæр
 
 ## Download Modal
 
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Ном
+contact-form-message =
+    .label = Фыстæг
+contact-required = *æнæмæнг хъæуы
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Æвзаг
+other-language = Æндæр æвзаг
 
 ## Request Language Pages
 
+request-language-form-info-explanation-list-1 = Де ’взаджы нæмттæ
 
 ## Languages Overview
 
+language-section-launched = Куыст райдыдта
+language-total-progress = Æдæппæт
+sentences = Хъуыдыйæдтæ
+language-validation-hours = Сахаттæ
 
 ## Contribution
 
+target-segment-learn-more = Фылдæр базон
 
 ## Contribution Nav Items
 
 
 ## Reporting
 
+report-different-language = Æндæр æвзагыл у
 
 ## Goals
 
 
 ## Dashboard
 
+you = Ды
+everyone = Алчи
 
 ## Custom Goals
 
