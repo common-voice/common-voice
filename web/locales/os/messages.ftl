@@ -4,6 +4,7 @@ return-to-cv = Common Voice-мæ раздæх
 email-input =
     .label = Эл. пост
 submit-form-action = Арвит
+banner-error-slow-link = Статусы фарс
 error-something-went-wrong = Хатыр, цыдæр нæ фæрæстмæ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
