@@ -60,16 +60,28 @@ izh = Ижораг
 ja = Япойнаг
 jbo = Ложбан
 ka = Гуырдзиаг
+kaa = Каракалпакаг
 kk = Хъазахаг
 km = Кхмераг
 lo = Лаосаг
 lv = Латвиаг
+pl = Польшæйаг
 ru = Уырыссаг
 sr = Сербаг
 tg = Таджикаг
 th = Тайаг
 ti = Тигринья
 tr = Туркаг
+ts = Ситсонгæ
+tt = Тæтæйраг
+tw = Тви
+ty = Таитиаг
+uby = Убыхаг
+udm = Удмуртаг
+ug = Уйгураг
+uk = Украинаг
+ur = Урду
+uz = Узбекаг
 
 # [/]
 
@@ -120,6 +132,10 @@ profile-form-language =
     .label = Æвзаг
 profile-form-variant =
     .label = Цавæр æвзаджы здæхтыл дзурыс?
+profile-form-age =
+    .label = Кар
+native-language =
+    .label = Мадæлон æвзаг
 profile-form-submit-save = Бафснай
 male = Нæлгоймаг
 female = Сылгоймаг
@@ -141,6 +157,7 @@ add-language = Æвзаг бафтау
 
 ## FAQ
 
+faq-what-cv-q = Common Voice циу?
 
 ## ABOUT US
 
