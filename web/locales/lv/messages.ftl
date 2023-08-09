@@ -603,7 +603,7 @@ about-playbook-how-add-language-translating-content-2 =
     Tulkošanai mēs izmantojam Mozilla rīku <pontoonLink>Pontoon</pontoonLink>. Šajā rīkā ir daudz valodu,
     bet, ja tajā nav jūsu, varat <pontoonRequestLink>pieprasīt savas valodas pievienošanu</pontoonRequestLink>.
     Pēc tam, lai pievienotu valodu Common Voice,
-    <githubRepoLink>pieprasiet jauno valodu vietnē GitHub</githubRepoLink>. <localizationFragment>Uziniet vairāk par vietņu tulkošanu</localizationFragment>.
+    <githubRepoLink>pieprasiet jauno valodu vietnē GitHub</githubRepoLink>. <localizationFragment>Uzziniet vairāk par vietņu tulkošanu</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkopošana
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Skatieties mūsu ceļvedi par teikumu apkopotāja lietošanu</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
@@ -774,7 +774,7 @@ other-datasets = Citas balss datu kopas
 feedback-q = Vai jums ir atsauksmes?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ir <docsLink>atvērtā koda rīkkopa</docsLink> pētniekiem, kas izstrādā jaunākos sarunvalodas mākslīgā intelekta modeļus.
 resource-deepspeech-info = Common Voice datu kopa papildina Mozilla atvērtā koda balss atpazīšanas dzinēju Deep Speech, ko var izmantot, lai izveidotu runas atpazīšanas programmas. Izlasiet mūsu <githubLink>Github pārskatu</githubLink> vai pievienojieties <discourseLink>DeepSpeech Discourse</discourseLink>, lai uzzinātu, kā sākt darbu.
-resource-coqui-info = <coquiLink>Coqui</coquiLink> ir strādā atvērtās runas tehnoloģijas attīstībai. Viņu projekti ietver dziļā mācīšanās balstītus STT un TTS dzinējus.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> veltīta atvērtās runas tehnoloģijas attīstībai. Viņu projekti ietver dziļās mācīšanās metodēs balstītus STT un TTS dzinējus.
 community-playbook = Kopienas rokasgrāmata
 resource-playbook-info = <playbookLink>Atrodiet noderīgus norādījumus</playbookLink> par visu Common Voice ceļojumu, sākot no lokalizācijas līdz datu kopas lietošanai, kā arī par to, kā sazināties ar mūsu kopienu.
 data-other-librispeech-description = LibriSpeech ir aptuveni 1000 stundu 16Khz ar angļu valodas runu, kas iegūta no LibriVox projekta lasītajām audio grāmatām.
