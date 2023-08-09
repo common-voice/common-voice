@@ -1,9 +1,11 @@
 ## General
 
+yes-receive-emails = Хорз, æрвит мын эл. постытæ. Мæн фæнды зонын ног хабæрттæ проект Common Voice-ы тыххæй.
 return-to-cv = Common Voice-мæ раздæх
 email-input =
     .label = Эл. пост
 submit-form-action = Арвит
+loading = Æвгæны...
 banner-error-slow-link = Статусы фарс
 error-something-went-wrong = Хатыр, цыдæр нæ фæрæстмæ
 
@@ -61,6 +63,7 @@ ja = Япойнаг
 jbo = Ложбан
 ka = Гуырдзиаг
 kaa = Каракалпакаг
+kbd = Кæсгон
 kk = Хъазахаг
 km = Кхмераг
 lo = Лаосаг
