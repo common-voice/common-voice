@@ -64,6 +64,12 @@ kk = Хъазахаг
 km = Кхмераг
 lo = Лаосаг
 lv = Латвиаг
+ru = Уырыссаг
+sr = Сербаг
+tg = Таджикаг
+th = Тайаг
+ti = Тигринья
+tr = Туркаг
 
 # [/]
 
@@ -76,9 +82,12 @@ partner = Партнёрад
 profile = Профиль
 help = Æххуыс
 contact = Контакттæ
+privacy = Приватондзинад
 
 ## Home Page
 
+todays-progress = Абоны æнтыстытæ
+today = Абон
 
 ## Account Benefits
 
@@ -111,6 +120,7 @@ profile-form-language =
     .label = Æвзаг
 profile-form-variant =
     .label = Цавæр æвзаджы здæхтыл дзурыс?
+profile-form-submit-save = Бафснай
 male = Нæлгоймаг
 female = Сылгоймаг
 # Gender
