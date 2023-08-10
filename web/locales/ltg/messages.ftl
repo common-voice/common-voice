@@ -1062,6 +1062,7 @@ sc-home-review-text = Paleidzit mums, puorsaverūt teikumu pareizraksteibu saska
 
 ## GENERAL
 
+sc-languages-fetch-error = Mums naizadeve atrast daeimamuos volūdys. Struoduošona ar lopu itamā šaļtī nav varama. Lyudzu, raugit vēļreiz nadaudz vāluok.
 
 ## HOW-TO
 
@@ -1144,6 +1145,16 @@ sc-submit-guidelines = Lyudzu, puorbaudit <howToLink>vadlinejis</howToLink>.
 sc-add-lang-could-not-add = Navarēja dalikt volūdu
 sc-add-lang-sec-label = Dalicit volūdu, kurā gribit dorbuotīs
 sc-add-lang-sec-button = Dalikt volūdu
+sc-add-err-unexpected = Nagaideita atbiļde nu servera
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Teikumi īsnāgti. { $duplicates } teikumi tyka nūraideiti kai dublikati.
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
@@ -1154,9 +1165,12 @@ sc-add-err-failed =
        *[other] { "" }
     }
 sc-add-err-submission = Īsnīgšonys klaida
+sc-add-lang-process-notice = Ka jiusu volūda ite nav nūruodeita, varit tū pīpraseit, lītojūt <languageProcessLink>itū procesu</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Teikumi nav īsnāgti. Voi eistyn gribit izīt?
 sc-confirm-sentences-title = Apstyprynojat jaunūs teikumus
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
@@ -1170,10 +1184,27 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = Jius nūraidejot { $countOfInvalidated }
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] { $countOfReviewed } puorbaudeiti teikumi. Tai turpynuot!
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] { $readyCount } teikumi ir gotovi īsniegšonai!
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } teikumi nav puorsavārti. Ka gribit, varit ari puorsavērt sovus teikumus pyrma tūs īsniegšonys.
 sc-confirm-button-text = Apstyprynuot
+sc-confirm-uploading = Nūteik teikumu augšynluode. Tys var iļgt vairuokys minutys atkareibā nu davīnuotū teikumu skaita. Lyudzu, naaiztaisit itū teiklavītu.
 
 ## LANGUAGE INFO
 
