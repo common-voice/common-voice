@@ -7,6 +7,9 @@ email-input =
 submit-form-action = Арвит
 loading = Æвгæны...
 email-opt-in-info-title = Дæхи бафтау Common Voice-ы пъисмоты номхыгъдмæ
+not-available-abbreviation = Нæй
+banner-error-slow-1 = Бахатыр кæн, ныртæккæ Common Voice кусы сындæггай. Бузныг дæ интересы тыххæй.
+banner-error-slow-2 = Мах ныртæккæ исæм бирæ трафик æмæ ныр иртасæм проблемæтæ.
 banner-error-slow-link = Статусы фарс
 error-something-went-wrong = Хатыр, цыдæр нæ фæрæстмæ
 
