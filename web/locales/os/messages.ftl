@@ -172,6 +172,9 @@ add-language = Æвзаг бафтау
 faq-what-cv-q = Common Voice циу?
 faq-why-different-speakers-q = Цæмæ дæ хъæуы уый бæрц бирæ адæм, æвзагыл чи дзуры, ахæмтæ?
 faq-why-my-lang-q = Ме ’взаг цауылнæ бафтыд ныры онг?
+faq-how-calc-hours-q = Common Voice куыд нымайы рæстæджы сахæттæ?
+faq-is-account-public-q = Мæ аккаунты информаци адæмæн гом у?
+faq-what-is-cv = Common Voice циу?
 
 ## ABOUT US
 
@@ -179,9 +182,12 @@ faq-why-my-lang-q = Ме ’взаг цауылнæ бафтыд ныры онг
 ## How does it work section
 
 about-speak = Дзур
+about-listen = Байхъус
 about-nav-why-common-voice = Цæмæй?
 about-nav-how-it-works = Куыд?
 about-nav-partners = Партнёртæ
+about-nav-how-it-works-2 = Common Voice куыд кусы?
+about-nav-playbook = Базон, дæхи куыд бафтауай архайдмæ
 
 ## Community Playbook Content
 ## What is a language
@@ -189,12 +195,16 @@ about-nav-partners = Партнёртæ
 
 ## How do I add a language
 
+about-playbook-how-add-language = Куыд бафтауæн и ног æвзæгтæ?
+about-playbook-how-add-language-translating-heading = Тæлмац кæнын сайт
 
 ## How does localization work
 
+about-playbook-how-localize = Куыд кусы сайты локализаци?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Куыд хъуамæ бафтауон хъуыдыйæдтæ?
 
 ## How to record quality
 
