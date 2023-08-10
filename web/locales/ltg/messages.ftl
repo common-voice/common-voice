@@ -524,6 +524,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Izzynojat vair
 glossary = Aproksts
 localization = Lokalizaceja
 localization-explanation = Tys ir myusu process, lai tulkuot i damāruotu myusu saturu daudzom teiklavītom (volūdom).
+sentence-collection = Teikumu kolekceja
 sentence-collection-explanation = Dabuot teikumus nu publiskuo domena voi raksteit jaunus publiskuo domena tekstus.
 hours-recorded-explanation = Da šam savuoktū bolsa īrokstu stuņžu skaits.
 hours-validated-explanation = Bolsa īroksta stuņžu skaits, kū apstyprynuojuši 2 nu 3 lītuotuojim, bolsojūt „nui”. Tī aizzeimoj progresu kusteibā iz kūpeigū projekta 10k stuņžu mierki.
@@ -1347,6 +1348,21 @@ continue-speaking-button = Nā, paļdis, turpynuošu īraksteit
 create-profile-text = Voi gribit saglobuot sovu informaceju? <createProfile>Sataisit profilu</createProfile>
 thanks-for-voice-toast = Paļdis par bolsa informaceju
 thanks-for-voice-toast-error = Īsnādzūt jiusu bolsa informaceju, nūtyka klaida
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Paļdis, pa pazīduojot sova bolsa īrokstus!
+already-have-an-account = Jums jau ir konts? <login>Pīsaslēdzit</login>
+create-profile-button = Sataiseit profilu
+# IMAGE TAGS
+img-alt-success-checkmark = veiksmis atzeime
+# GUIDELINES PAGE
+guidelines-header = Vodlinejis
+voice-collection = Īrokstu vuokšona
+sentence-collection = Teikumu kolekceja
+varying-pronunciations = Dažaidys izrunys
+misreadings = Klaidaini skaitejumi
+offensive-content = Aiztīkūšs saturs
+background-noise = Fona trūksnis
+background-voices = Bolsi fonā
 volume = Skaļums
 reader-effects = Īrunuotuoja izrunys eipatneibys
 just-unsure = Vīnkuorši naesit puorlīcynuots?
