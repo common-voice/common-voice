@@ -1228,6 +1228,15 @@ sc-lang-info-in-review =
         [one] { "" }
        *[other] { "" }
     }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] { $unreviewedSentencesByYou } teikumi, kū puorbaudeit.
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
 sc-lang-info-review-now = <reviewLink>Puorbaudeit tagad!</reviewLink>
 sc-lang-info-add-more = <addLink>Davīnojit teikumus!</addLink>
 # Variables:
@@ -1266,15 +1275,20 @@ sc-personal-remove-button = nūjimt
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = Jius dalykot { $sentences }
+sc-personal-not-added = Jius naesit dalics nivīnu volūdu.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Puorbaudeišonys kritereji
+sc-criteria-title = Puorbaudeišonys kritereji
 sc-criteria-item-4 = Ka teikums atbylst vysim kriterejim, klykstynojit iz pūgys &quot;Apstyprynuot&quot;.
 
 ## REVIEW
 
 sc-review-title = Teikumu puorbaude
 sc-review-loading = Nūteik teikumu īluode...
+sc-review-select-language = Lyudzu, izavielejit volūdu, lai puorbaudeitu teikumus.
+sc-review-no-sentences = Nav teikumu, kū puorbaudeit. <addLink>Davīnojit teikumus!</addLink>
 sc-review-form-prompt =
     .message = Puorsavārtī teikumi nav īsnāgti, voi esit drūss?
 # Variables:
@@ -1311,10 +1325,27 @@ sc-settings-ui-language = Saskarnis volūda
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Izavielejit volūdu/lokalizaceju
+# PARTNERSHIPS PAGE
+partnerships-header = Partnereibys
 partnerships-get-in-touch = Sasazynuot
+partnerships-become-a-partner = Palīcit par Common Voice partneri
+partnerships-community-header = Kūpīna, rodūšuo sabīdreiba i piļsuoniskuo sabīdreiba
+partnerships-foundations-header = Fondi
+partnerships-governments-header = Vaļdeibys
+partnerships-academia-header = Universitatis, akademiki i pietnīki
+partnerships-small-business-header = Mozī uzjāmumi, tamā vydā tehnologeju i muoksleiguo intelekta jaunuzjāmumi
+partnerships-corporates-header = Lela mārūga korporacejis i platformu uzjāmumi
+partnerships-our-partners = Myusu partneri
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Paļdis, ka pazīduojot sova bolsa īrokstus!
+first-cta-subtitle-text = Voi gribit pastuosteit par tū, kai runojit?
 why-donate = Deļkuo jius vaicojit?
+add-information-button = Dalikt informaceju
+continue-speaking-button = Nā, paļdis, turpynuošu īraksteit
+create-profile-text = Voi gribit saglobuot sovu informaceju? <createProfile>Sataisit profilu</createProfile>
+thanks-for-voice-toast = Paļdis par bolsa informaceju
 thanks-for-voice-toast-error = Īsnādzūt jiusu bolsa informaceju, nūtyka klaida
 volume = Skaļums
 reader-effects = Īrunuotuoja izrunys eipatneibys
