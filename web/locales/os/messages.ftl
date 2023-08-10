@@ -6,6 +6,7 @@ email-input =
     .label = Эл. пост
 submit-form-action = Арвит
 loading = Æвгæны...
+email-opt-in-info-title = Дæхи бафтау Common Voice-ы пъисмоты номхыгъдмæ
 banner-error-slow-link = Статусы фарс
 error-something-went-wrong = Хатыр, цыдæр нæ фæрæстмæ
 
