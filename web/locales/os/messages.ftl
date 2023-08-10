@@ -201,6 +201,7 @@ about-playbook-how-add-language-translating-heading = Тæлмац кæнын с
 ## How does localization work
 
 about-playbook-how-localize = Куыд кусы сайты локализаци?
+about-playbook-how-localize-content-5 = Æххуысы тыххæй бакæс нæ видео-æххуысгæнæгмæ
 
 ## How to add sentences
 
@@ -225,6 +226,7 @@ about-playbook-how-grow-language-content-4 = Социалон хызтæ
 
 ## Glossary
 
+localization = Локализаци
 
 ## Error pages
 
@@ -232,12 +234,17 @@ error-code = Рæдыд { $code }
 
 ## Data
 
+data-download-yes = О
+data-download-deny = Нæ
 release-version = Фæлтæр
 dataset-date = Датæ
 license = Лицензи: { $license }
+terms-agree = Æз разы кæнын
+terms-disagree = Æз нæ разы кæнын
 
 ## Datasets Page
 
+datasets-heading = Датæсеттæ
 language = Æвзаг
 cv-license = Лицензи
 dataset-version = Фæлтæр
