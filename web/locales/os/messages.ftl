@@ -21,11 +21,18 @@ error-something-went-wrong = Хатыр, цыдæр нæ фæрæстмæ
 
 ab = Абхазаг
 ady = Адыгейаг
+af = Африкаанс
+am = Амхайраг
+an = Арагойнаг
 ar = Араббаг
+arn = Мапудунгуйнаг
 as = Ассамаг
 ast = Астуриаг
 az = Азербайджайнаг
 ba = Башкираг
+bas = Басайаг
+bg = Болгайраг
+bm = Бамбара
 bn = Бенгайлаг
 bo = Тибетаг
 br = Бретойнаг
@@ -33,6 +40,7 @@ bs = Босниаг
 bxr = Бурятаг
 byv = Медумбæ
 ca = Каталайнаг
+cak = Какчикейлаг
 cs = Чехаг
 cv = Чувашаг
 cy = Валлийаг
@@ -246,11 +254,23 @@ terms-disagree = Æз нæ разы кæнын
 
 datasets-heading = Датæсеттæ
 language = Æвзаг
+download-dataset-header = Равгæн датасет
+# File size in gigabytes
+size = Бæрц
 cv-license = Лицензи
+audio-format = Аудио формат
+number-of-voices = Хъæлæсты нымæц
+recorded-hours = Фыст сахаттæ
+subscribe = Мæхи баффыссын
+other-datasets = Иннæ хъæлæсон датасеттæ
+feedback-q = Ис дæм фидбек?
+more = Фылдæр
+download = Равгæн
 dataset-version = Фæлтæр
 
 ## Download Modal
 
+download-no = Нæ, бузныг
 
 ## Contact Modal
 
@@ -268,17 +288,21 @@ other-language = Æндæр æвзаг
 
 ## Request Language Pages
 
+request-language-form-info =
+    .label = Информаци æвзаджы тыххæй
 request-language-form-info-explanation-list-1 = Де ’взаджы нæмттæ
 
 ## Languages Overview
 
 language-section-launched = Куыст райдыдта
+languages-show-more = Фылдæр фен
 language-total-progress = Æдæппæт
 sentences = Хъуыдыйæдтæ
 language-validation-hours = Сахаттæ
 
 ## Contribution
 
+record-error-too-short = Хъæлæсы фыст æгæр цыбыр у
 target-segment-learn-more = Фылдæр базон
 
 ## Contribution Nav Items
