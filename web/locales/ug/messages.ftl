@@ -1486,6 +1486,7 @@ localization-select =
     .label = تىل/يەرلىكلەشتۈرۈش تاللىنىدۇ
 # PARTNERSHIPS PAGE
 partnerships-header = ھەمكارلاشقۇچىلار
+partnerships-header-text = Common Voice نى ئەمەلگە ئاشۇرۇش ئۈچۈن نۇرغۇن ئىش كېتىدۇ! بىز ئۇنى يالغۇز قىلمايمىز.ھەمكارلاشقۇچىمىز بولۇشنى خالامسىز؟ ئاۋازىڭىزنى ئاڭلاشنى خالايمىز.
 partnerships-get-in-touch = ئالاقىلىشىڭ
 partnerships-become-a-partner = Common Voice ھەمكارلاشقۇچىسى بولۇڭ
 partnerships-community-header = مەھەللە، ئىجادكارلار ۋە پۇقرالار جەمئىيىتى
