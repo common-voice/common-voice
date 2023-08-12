@@ -7,6 +7,7 @@ email-input =
 submit-form-action = Арвит
 loading = Æвгæны...
 email-opt-in-info-title = Дæхи бафтау Common Voice-ы пъисмоты номхыгъдмæ
+indicates-required = * рæттæ стъалытимæ хъуамæ афтидæй ма ныууадзай.
 not-available-abbreviation = Нæй
 banner-error-slow-1 = Бахатыр кæн, ныртæккæ Common Voice кусы сындæггай. Бузныг дæ интересы тыххæй.
 banner-error-slow-2 = Мах ныртæккæ исæм бирæ трафик æмæ ныр иртасæм проблемæтæ.
@@ -20,6 +21,7 @@ error-something-went-wrong = Хатыр, цыдæр нæ фæрæстмæ
 ## Languages
 
 ab = Абхазаг
+ace = Ачехаг
 ady = Адыгейаг
 af = Африкаанс
 am = Амхайраг
@@ -31,6 +33,7 @@ ast = Астуриаг
 az = Азербайджайнаг
 ba = Башкираг
 bas = Басайаг
+be = Белоруссаг
 bg = Болгайраг
 bm = Бамбара
 bn = Бенгайлаг
@@ -41,6 +44,7 @@ bxr = Бурятаг
 byv = Медумбæ
 ca = Каталайнаг
 cak = Какчикейлаг
+co = Корсикайнаг
 cs = Чехаг
 cv = Чувашаг
 cy = Валлийаг
@@ -293,6 +297,7 @@ about-playbook-how-add-language-translating-heading = Тæлмац кæнын с
 ## How does localization work
 
 about-playbook-how-localize = Куыд кусы сайты локализаци?
+about-playbook-how-localize-content-4 = Сайт уыдзæн цæттæ архайынæн 75% конд куы уа, уæд.
 about-playbook-how-localize-content-5 = Æххуысы тыххæй бакæс нæ видео-æххуысгæнæгмæ
 
 ## How to add sentences
