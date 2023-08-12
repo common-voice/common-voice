@@ -136,6 +136,7 @@ ro = Румыниаг
 ru = Уырыссаг
 rw = Киньяруандæ
 sah = Саха (якутаг)
+scn = Сицилиаг
 sdh = Хуссар курдаг
 si = Сингайлаг
 sk = Словакаг
@@ -391,6 +392,7 @@ language-validation-hours = Сахæттæ
 
 ## Contribution
 
+record-no-mic-found = Микрофон ссарын нæ рауади.
 record-error-too-short = Хъæлæсы фыст æгæр цыбыр у
 target-segment-learn-more = Фылдæр базон
 
