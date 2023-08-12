@@ -70,6 +70,7 @@ gom = Гоайы конкани
 ha = Хаусæ
 he = Уираг
 hi = Хинди
+ht = Гаитиаг
 hu = Венгриаг
 hy-AM = Сомихаг
 hyw = Ныгуылæн сомихаг
@@ -84,9 +85,11 @@ ja = Япойнаг
 jbo = Ложбан
 ka = Гуырдзиаг
 kaa = Каракалпакаг
+kab = Кабиле
 kbd = Кæсгон
 kk = Хъазахаг
 km = Кхмераг
+kn = Каннадæ
 ko = Корейаг
 kpv = Коми-зырянаг
 kw = Корнуэллаг
@@ -106,6 +109,7 @@ mhr = Дæллаг мариаг
 mk = Македойнаг
 ml = Малайялам
 mn = Мангойлаг
+mr = Маратхи
 mrj = Хохы мариаг
 ms = Малайаг
 mt = Мальтæйаг
@@ -136,6 +140,7 @@ ro = Румыниаг
 ru = Уырыссаг
 rw = Киньяруандæ
 sah = Саха (якутаг)
+sc = Сардиниаг
 scn = Сицилиаг
 sdh = Хуссар курдаг
 si = Сингайлаг
@@ -208,7 +213,23 @@ cookies = Кукитæ
 ## Home Page
 
 todays-progress = Абоны æнтыстытæ
+all-locales = Æппæт
 today = Абон
+x-weeks-short =
+    { $count ->
+        [one] къуыри
+       *[other] къуырийы
+    }
+x-months-short =
+    { $count ->
+        [one] мæй
+       *[other] мæйы
+    }
+x-years-short =
+    { $count ->
+        [one] аз
+       *[other] азы
+    }
 
 ## Account Benefits
 
@@ -221,9 +242,16 @@ today = Абон
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = о
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = н
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle = [1-5]
 
 ## ProjectStatus
 
@@ -251,13 +279,17 @@ female = Сылгоймаг
 # Gender
 other = Æндæр
 avatar = Аватар
+goals = Нысантæ
 settings = Рæвдзгæнæнтæ
 edit-profile = Профиль баив
+profile-close = Сæхгæн
+edit = Баив
 off = Нæ кусы
 on = Кусы
 
 ## Profile - Email
 
+browse-file-title = Бавгæн ныв
 remove-avatar = Аватар сыхал
 
 ## Profile - Email
