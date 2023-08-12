@@ -632,6 +632,7 @@ about-playbook-how-record-content-5 = <accuracyLink> توغرىلىق ئۆلچى
 ## How to grow language
 
 about-playbook-how-grow-language = قانداق قىلغاندا Common Voiceدا تىلنى ئۈنۈملۈك ئىلگىرلەتكىلى بولىدۇ؟
+about-playbook-how-grow-language-content-1 = تېخىمۇ كۆپ كىشىگە Common Voice ئۈچۈن تۆھپە قوشۇش پۇرسىتى يارىتىپ، سانلىق مەلۇمات توپلىمىنىڭ ئىمكانقەدەر كۆپ كىشىگە مۇلازىمەت قىلىشىغا كاپالەتلىك قىلىدۇ. بىز سىز ئىشلىتەلەيدىغان مەنبە ۋە قېلىپلارنى قۇردۇق!
 about-playbook-how-grow-language-content-2 = پائالىيەتلەر
 about-playbook-how-grow-language-content-4 = ئىجتىمائىي تاراتقۇ
 about-playbook-how-grow-language-content-6 = ھەمكارلىق ۋە تور
