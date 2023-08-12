@@ -349,7 +349,7 @@ size = Бæрц
 cv-license = Лицензи
 audio-format = Аудио формат
 number-of-voices = Хъæлæсты нымæц
-recorded-hours = Фыст сахаттæ
+recorded-hours = Фыст сахæттæ
 subscribe = Мæхи баффыссын
 other-datasets = Иннæ хъæлæсон датасеттæ
 feedback-q = Ис дæм фидбек?
@@ -387,7 +387,7 @@ language-section-launched = Куыст райдыдта
 languages-show-more = Фылдæр фен
 language-total-progress = Æдæппæт
 sentences = Хъуыдыйæдтæ
-language-validation-hours = Сахаттæ
+language-validation-hours = Сахæттæ
 
 ## Contribution
 
