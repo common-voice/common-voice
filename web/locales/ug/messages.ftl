@@ -611,6 +611,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = تور بېكەتنى يەرلىكلەشتۈرۈش قانداق ئېلىپ بېرىلىدۇ؟
 about-playbook-how-localize-content-1 = Common Voice نىڭ تەرجىمە خىزمىتى <strong>Pontoon</strong> دا ئېلىپ بېرىلىدۇ.
 about-playbook-how-localize-content-2 = ئەگەر ھېساباتىڭىز بولمىسا <pontoonAccountLink>ھېسابات قۇرۇڭ</pontoonAccountLink>. ئاندىن تىلىڭىزنىڭ <strong> («قوشۇن») </strong> ىنى تاللاڭ، ئاندىن <pontoonCvLink>Common Voice</pontoonCvLink> قۇرۇلۇشىنى تاللاڭ. تەرجىمە قىلىدىغان ھۆججەتلەر بولىدۇ، ئۇلاردىن بىرنى چېكىڭ، ئاندىن ئۇ جايدا ئىنگلىزچىدىكى سۆزلەر ۋە ئۇلارنى تەرجىمە قىلىدىغان رامكىنى كۆرسىتىدۇ.
+about-playbook-how-localize-content-3 = ئىنگلىزچىدىن تەرجىمە قىلىنغان، ئەمما سىز باشقا تىللاردىكى <strong>تەۋسىيەلەر</strong>نى كۆرەلەيسىز. <strong>تەرجىمىھال</strong> سىنبەلگىسى، ئاندىن <strong>تەڭشەكلەر</strong> ئۇلانمىسىنى چېكىپ سىز سۆزلىيەلەيدىغان خالىغان تىلنى قوشالايسىز.ئوڭ ئاستى بۇرجەكتە <strong>يەرلىك</strong> دەپ ئاتالغان تەرجىمىلەر تىزىمى بار. تەرجىمىلەر بىر كۈندىن كېيىن بېكەتتە كۆرۈنىدۇ.
 about-playbook-how-localize-content-4 = توربەتنىڭ %75 تەرجىمە خىزمىتى پۈتكەندىن كېيىن ئېلان قىلىشقا بولىدۇ.
 about-playbook-how-localize-content-5 = ياردەم قىلىش ئۈچۈن سىن چۈشەندۈرگۈچىمىزنى كۆرۈڭ
 
