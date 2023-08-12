@@ -1093,8 +1093,10 @@ download-selected = تاللانغان
 download-start = ئارخىپ ئۇچۇرىنى چۈشۈرۈش
 download-request = خاتىرىلەشنى سوراش
 download-requests = ئىلگىرىكى خاتىرىلەرنى چۈشۈرۈش تەلىپى
+download-requests-info = ئۈن خاتىرىلىرىڭىزنى تەلەپ قىلسىڭىز، ئۇلارنى بىر ياكى بىر قانچە ZIP ھۆججىتىگە توپلايمىز. ئىلگىرىكى ئىلتىماسلىرىڭىز:
 download-request-button = چۈشۈر
 download-request-title = { $created }
+download-request-description = { $clipCount } ئاۋاز ئۈزۈندىسى، ئومۇمىي ئارخىپ چوڭلۇقى { $size }. { $expires } ۋاقتى توشىدۇ.
 download-request-archive-single = يەككە ZIP ھۆججىتى
 download-request-archive-multiple = { $archiveCount } ZIP ھۆججەتىگە پارچىلىسۇن
 download-request-assembling-description = ماتىرياللىرىڭىز رەتلىنىۋاتىدۇ، سەل تۇرۇپ قايتا سىناڭ.
@@ -1103,6 +1105,7 @@ download-request-modal-title = ئۇلانمىلارنى چۈشۈر
 download-request-modal-description = بۇ يەردە ZIP ھۆججىتىڭىزنى چۈشۈرۈش ئۇلانمىلىرى بار.
 download-request-link-text = { $total } دانە Zip ھۆججىتىنىڭ { $offset }چىسى
 download-request-metadata-link = جۈملە تېكىستى
+download-request-link-single = بىۋاسىتە URLs نى ئۆزىڭىز ياقتۇرىدىغان چۈشۈرۈش باشقۇرغۇچقىمۇ كۆچۈرۈپ چاپلىيالايسىز. ئۇلارنىڭ ۋاقتى 12 سائەتتە توشىدۇ ئەمما سىز بۇ بەتكە قايتىپ يېڭىسىنى خالىغان ۋاقىتتا ھاسىل قىلالايسىز.
 
 ## Landing
 
@@ -1153,6 +1156,7 @@ demo-dashboard-card-body = ھەر بىر ھەدىيە قىلغان ئاۋاز، 
 contribution-criteria-nav = ئۆلچەم
 contribution-criteria-link = تۆھپە ئۆلچىمىنى چۈشىنىڭ
 contribution-criteria-page-title = تۆھپە ئۆلچىمى
+contribution-criteria-page-description = ئاۋاز ئۈزۈندەسىنى ئاڭلىغاندا نېمىلەرگە دىققەت قىلىدىغانلىقىنى چۈشىنىڭ، شۇنداق قىلسىڭىز ئۈن خاتىرىڭىزنى بېيىتىشىڭىزغا ياردىمى تېگىدۇ.
 contribution-for-example = مەسىلەن
 contribution-misreadings-title = خاتا ئوقۇلغانلار
 contribution-misreadings-description-extended-list-1 = ئۈن خاتىرىلەشنىڭ بېشىدا <strong>«A»</strong> ياكى <strong>«The»</strong> كەم.
