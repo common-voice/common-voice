@@ -1935,6 +1935,7 @@ report-sc-different-language = Nepareiza valoda
 report-sc-different-language-detail = Tas ir uzrakstīts valodā, kas atšķiras no tās, ko šobrīd pārbaudu.
 sentences-fetch-error = Ielādējot teikumus notikusi kļūda
 review-error = Pārskatot teikumu, notikusi kļūda
+review-error-rate-limit-exceeded = Jūs strādājat pārāk ātri. Lūdzu veltiet mirkli, lai pārliecinātos, ka teikumi ir pareizi.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mēs veicam dažas lielas izmaiņas
 sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad varat <writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> teikumus Common Voice sistēmā.
