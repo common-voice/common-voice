@@ -70,6 +70,7 @@ gom = Гоайы конкани
 ha = Хаусæ
 he = Уираг
 hi = Хинди
+hr = Хорватаг
 ht = Гаитиаг
 hu = Венгриаг
 hy-AM = Сомихаг
@@ -424,6 +425,7 @@ language-validation-hours = Сахæттæ
 
 ## Contribution
 
+record-cta = Райдай фыссын
 record-no-mic-found = Микрофон ссарын нæ рауади.
 record-error-too-short = Хъæлæсы фыст æгæр цыбыр у
 target-segment-learn-more = Фылдæр базон
