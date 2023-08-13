@@ -210,6 +210,10 @@ contact = Контакттæ
 privacy = Приватондзинад
 terms = Æууæлтæ
 cookies = Кукитæ
+faq = Арæх лæвæрд фæрстытæ
+share-title = Баххуыс нын кæн иннæты ссарынæн, цæмæй рауæлдай кæной сæ хъæлæс!
+share-text = Машинæтæ, æцæг адæм куыд дзурынц, уый цæмæй æмбарой, рауæлдай дæ хъæлæс ам: { $link }
+back-top = Фæстæмæ сæрмæ
 
 ## Home Page
 
@@ -354,6 +358,7 @@ about-playbook-how-grow-language-content-4 = Социалон хызтæ
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Куыд хæссынц проекты уынаффæтæ?
 
 ## Glossary
 
