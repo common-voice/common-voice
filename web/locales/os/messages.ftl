@@ -284,6 +284,7 @@ male = Нæлгоймаг
 female = Сылгоймаг
 # Gender
 other = Æндæр
+dashboard = Фæйнæг
 avatar = Аватар
 goals = Нысантæ
 settings = Рæвдзгæнæнтæ
@@ -448,6 +449,8 @@ report-different-language = Æндæр æвзагыл у
 
 ## Dashboard
 
+your-languages = Де ’взæгтæ
+stats = Статистикæ
 you = Ды
 everyone = Алчи
 
