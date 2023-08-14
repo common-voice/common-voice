@@ -218,6 +218,9 @@ logout = Рацу
 
 ## Home Page
 
+show-wall-of-text = Кæс фылдæр.
+vote-no = Нæ
+speak-subtitle = Дæ хъæлæс бахай кæн
 todays-progress = Абоны æнтыстытæ
 all-locales = Æппæт
 today = Абон
