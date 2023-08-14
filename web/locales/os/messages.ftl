@@ -218,9 +218,11 @@ logout = Рацу
 
 ## Home Page
 
+home-cta = Дæ хъуыды зæгъ, æххуыс нын у!
 show-wall-of-text = Кæс фылдæр.
 vote-no = Нæ
 speak-subtitle = Дæ хъæлæс бахай кæн
+hours-recorded = Фыст сахæттæ
 todays-progress = Абоны æнтыстытæ
 all-locales = Æппæт
 today = Абон
