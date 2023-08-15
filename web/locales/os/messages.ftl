@@ -220,6 +220,7 @@ logout = Рацу
 
 home-cta = Дæ хъуыды зæгъ, æххуыс нын у!
 show-wall-of-text = Кæс фылдæр.
+help-us-title = Аххуыс нын кæн сбæрæг кæнын хъуыдыйæдты растфыст.
 vote-no = Нæ
 speak-subtitle = Дæ хъæлæс бахай кæн
 hours-recorded = Фыст сахæттæ
