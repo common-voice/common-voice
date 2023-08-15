@@ -221,6 +221,8 @@ logout = Рацу
 home-cta = Дæ хъуыды зæгъ, æххуыс нын у!
 show-wall-of-text = Кæс фылдæр.
 help-us-title = Аххуыс нын кæн сбæрæг кæнын хъуыдыйæдты растфыст.
+help-us-explain = Ныххæц «Айзæлын кæн», байхъус æмæ зæгъ, раст дзуры ацы хъуыдыйад?
+vote-yes = О
 vote-no = Нæ
 speak-subtitle = Дæ хъæлæс бахай кæн
 hours-recorded = Фыст сахæттæ
@@ -245,6 +247,7 @@ x-years-short =
 
 ## Account Benefits
 
+benefits = Пайдатæ
 
 ## What's public
 
@@ -254,6 +257,10 @@ x-years-short =
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = а
+shortcut-play-toggle-label = Айзæлын кæн/Стоп
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = о
@@ -385,6 +392,7 @@ dataset-date = Датæ
 license = Лицензи: { $license }
 terms-agree = Æз разы кæнын
 terms-disagree = Æз нæ разы кæнын
+review-rerecord = Ногæй ныффысс
 
 ## Datasets Page
 
@@ -401,6 +409,7 @@ subscribe = Мæхи баффыссын
 other-datasets = Иннæ хъæлæсон датасеттæ
 feedback-q = Ис дæм фидбек?
 more = Фылдæр
+close = Бахгæн
 download = Равгæн
 dataset-version = Фæлтæр
 
@@ -427,17 +436,26 @@ other-language = Æндæр æвзаг
 request-language-form-info =
     .label = Информаци æвзаджы тыххæй
 request-language-form-info-explanation-list-1 = Де ’взаджы нæмттæ
+request-language-google-recaptcha-required = reCAPTCHA хъæуы, кæд дæ дарддæр фæнды
+# Success page
+request-language-success-heading = Бузныг! Ды арвыстай ног æвзаджы бафарст
 
 ## Languages Overview
 
 language-section-launched = Куыст райдыдта
 languages-show-more = Фылдæр фен
+languages-show-less = Къаддæр уынын
 language-total-progress = Æдæппæт
+language-search-input =
+    .placeholder = Агур
 sentences = Хъуыдыйæдтæ
 language-validation-hours = Сахæттæ
 
 ## Contribution
 
+listen = Хъус
+write = Фысс
+skip = Ныууадз
 record-cta = Райдай фыссын
 record-no-mic-found = Микрофон ссарын нæ рауади.
 record-error-too-short = Хъæлæсы фыст æгæр цыбыр у
