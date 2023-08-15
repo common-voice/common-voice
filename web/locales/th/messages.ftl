@@ -662,6 +662,7 @@ about-playbook-how-project-governance-content-3 = ความเป็นส่
 about-playbook-how-project-governance-content-4 = การมีส่วนร่วมของชุมชนและการตัดสินใจ
 about-playbook-how-project-governance-content-5 = คุณค่าและการเป็นที่รู้จัก
 about-playbook-how-project-governance-content-6 = ความรับผิดชอบร่วมกัน
+about-playbook-how-project-governance-content-7 = <governanceLink>อ่านเพิ่มเติมเกี่ยวกับการกำกับดูแลของเรา</governanceLink>
 
 ## Glossary
 
