@@ -1,7 +1,13 @@
 export const up = async function (db: any): Promise<any> {
-  return db.runSql(`
+  await db.runSql(`
     UPDATE sentences SET is_used = FALSE
     WHERE text REGEXP '.*\\\\?[a-z].*' OR text = ''
+  `);
+
+  await db.runSql(`
+    UPDATE sentences SET is_used = FALSE
+    WHERE locale_id=(SELECT id from locales WHERE name='lv')
+      AND source REGEXP '.*\\\\?[a-z].*' 
   `);
 };
 
