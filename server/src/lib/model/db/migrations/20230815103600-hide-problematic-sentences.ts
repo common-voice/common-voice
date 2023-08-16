@@ -1,7 +1,7 @@
 export const up = async function (db: any): Promise<any> {
   await db.runSql(`
     UPDATE sentences SET is_used = FALSE
-    WHERE text REGEXP '.*\\\\?[a-z].*' OR text = ''
+    WHERE created_at > '2023-05-01 00:00:00' AND (text REGEXP '.*\\\\?[a-z].*' OR text = '')
   `);
 
   await db.runSql(`
