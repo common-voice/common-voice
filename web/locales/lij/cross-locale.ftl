@@ -3,7 +3,7 @@
 contribute = Contribuisci
 get-involved-button = Parteçipa
 get-involved-title = Contribuisci in { $lang }
-get-involved-text = Gràçie pe-o teu interèsse a contriboî into { $lang }. Noiâtri travagémmo dûo pe preparâ tùtte e léngoe pe-o slànso e mantegnî e vàrie squàddre agiornæ vîa pòsta eletrònica. Se ti veu contriboî, inserìsci o teu indirìsso de pòsta eletrònica chi de sótta.
+get-involved-text = Graçie pe-o teu interesse à aggiuttâ in { $lang }. Travaggemmo duo pe preparâ tutte e lengue pe l’inandio e mantegnî e mandâ de neuve a-e varie squaddre pe pòsta elettrònica. Se ti veu dâ unna man d’aggiutto, metti o teu adresso de pòsta elettrònica chì de sotta.
 get-involved-form-title = Scrivite pe reçeive e misse à giorno in sciâ lengua { $lang }:
 get-involved-email =
     .label = Addesso de pòsta elettrònica
