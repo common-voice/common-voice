@@ -518,11 +518,37 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Perché Common Voice?
+about-header-description-v2 =
+    <p>Common Voice o l’é un dataset pubrico, fæto da-e voxe di conlaboratoî volontäio de tutto o mondo. Chi veu creâ de appricaçioin vocale peu addeuviâ sto dataset pe inandiâ di modelli de machine learning.</p>
+    <p>A-a giornâ d’ancheu, a ciù parte di dataset a l’é de proprietæ de açiende, e questo o l’astalla l’innovaçion. Pe de ciù, i dataset vocali no en representativi de lengue despæge da l’ingleise, di locutoî de cô, de persoñe disabile, de dònne e de persoñe LGBTQIA+. Pe sta raxon, a tecnologia vocale no fonçioña pe ninte pe ben ben de lengue, e quand’a fonçioña, a no fonçioña pægio pe tutti. Voemmo cangiâ sta scituaçion pe incoraggî e gente de tutte e bande à scompartî a seu  voxe.</p>
+how-does-it-work-title-v2 = Comm’o fonçioña Common Voice?
+how-does-it-work-text = Semmo apreuvo à arrecheugge un dataset open source pe mezo do crowdsourcing. Doña a teu voxe, verifica e registraçioin di atri, e amegioa o dataset pe tutti.
 
 ## How does it work section
 
+about-language-req-subtitle = Quarchedun o domanda l’azzonta de unna neuva lengua.
+about-localization-title = Localizzaçion do scito web
+about-localization-subtitle = O testo do scito web o l’é traduto inte quella lengua.
+about-sentence-collection-title = Colleçion de frase
+about-sentence-collection-subtitle = E frase en arrecuggeite e e persoñe ê lezan à erta voxe.
+about-new-lang-title = Inandio de unna neuva lengua
+about-new-lang-subtitle = Inandiemmo o scito de Common Voice inte sta lengua.
+about-voice-contrib-title = Contribuçion vocale
+about-voice-contrib-subtitle = E gente contribuiscian e seu voxe.
+about-voice-validation-title = Verifica de registraçioin
+about-voice-validation-subtitle = De atre gente verifican ste registraçioin.
+about-dataset-release-title = Pubricaçion do dataset
+about-dataset-release-subtitle = Pubrichemmo o dataset tutti i 3 meixi.
+about-subscribe-text = Ti veu avei de notiçie de Common Voice?
 about-speak = Parla
-about-yes-votes = ≥ 2 voti Sci
+about-speak-text = I contributoî lezan un testo da unna banca dæti de frase donæ e ô registran.
+about-listen-queue = Coa de registraçioin da sentî
+about-listen-queue-text = E registraçioin en carregæ e misse inte unna coa de audio pronti pe ëse sentii.
+about-listen = Senti
+about-listen-text = E casañe verifican a preçixon de registraçioin stæte donæ, pe controllâ che i lettoî aggian lezuo ben e frase.
+about-is-it-valid = A registraçion a l’é boña?
+about-is-it-valid-text = Unna registraçion a l’é marcâ comme «valida» quande unna casaña a vota «Scì».
+about-yes-votes = ≥ 2 voti Scì
 about-no-votes = ≥ 2 voti No
 about-nav-why-common-voice = Perché ?
 about-nav-how-it-works = Comme ?
