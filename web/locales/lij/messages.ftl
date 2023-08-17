@@ -1,16 +1,15 @@
 ## General
 
-yes-receive-emails = Sci, mandime a pòsta elettrònica. Veuggio avei de neuve do progetto Common Voice.
-stayintouch = Mozilla a l'é apreuvo a mette insemme unna comunitæ de gente interessæ a-e tecnologie da voxe. A noiatri ne piaxeiva arrestâ in contatto con ti pe contâte de misse a giorno, de neuve vivagne de dæti, e pe savei comme ti deuvi i dæti de Common Voice.
-privacy-info = Prométemmo de gestî e teu informaçioìn personæ con cûra. Lêzi de ciù inta nòstra <privacyLink>informatìva in sciâ privacy</privacyLink>.
+yes-receive-emails = Scì, mandime di messaggi pe pòsta elettrònica. Me saieiva cao restâ informou in sciô progetto Common Voice.
+stayintouch = Mozilla a l’é apreuvo à mette sciù unna communitæ de persoñe interessæ a-e tecnologie vocale. Ne saieiva cao restâ in contatto con ti con notiçie, neuve vivagne de dæti, e pe saveine de ciù in sce comme t'addeuvi i dæti de Common Voice.
+privacy-info = Promettemmo de gestî e teu informaçioin personæ con attençion. Lezi de ciù inta nòstra <privacyLink>informativa in sciâ privacy</privacyLink>.
 return-to-cv = Vanni inderê à Common Voice
 email-input =
-    .label = Addresso de pòsta elettrònica
+    .label = Adresso de pòsta elettrònica
 submit-form-action = Manda
-loading = Caregaménto...
-email-opt-in-info = Veuggio reçeive a pòstra elettrònica pe-i promemöia di obiettivi, pe-e misse à giorno in sciô mæ progresso, e pe-e newsletter in sce Common Voice.
+loading = Carregamento...
+email-opt-in-info = Veuggio reçeive di messaggi pe pòsta elettrònica pe-i arregòrdi di obiettivi, pe-e neuve in sciô mæ progresso, e pe-e newsletter in sce Common Voice.
 email-opt-in-info-title = Scrivite a-a mailing list de Common Voice
-email-opt-in-privacy = Çernéndo de riçéive a pòsta eletrònica, acètti che Mozilla utilîze ste informaçioìn cómme l'é riportòu inta <privacyLink>informatìva in sciâ privacy</privacyLink> de Mozilla.
 indicates-required = * ìndica 'n cànpo òbligatöio
 not-available-abbreviation = n.d.
 
@@ -78,7 +77,6 @@ kab = Cabîlo
 kk = Kazàko
 ko = Coreàn
 kpv = Komi-Zyriàn
-ku = Curdo
 kw = Còrneco
 ky = Kirghìzo
 lij = Lìgure
@@ -277,8 +275,6 @@ profile-form-accent =
     .label = Acénto
 profile-form-age =
     .label = Etæ
-profile-form-gender =
-    .label = Sèsso
 leaderboard-visibility =
     .label = Vixibilitæ inta clasìfica
 hidden = Ascôzo
@@ -304,7 +300,6 @@ profile-close = Særa
 profile-explanation = Regìstra 'n profiî pe tegnî tràccia di teu progrèssi e agiutâne a megioâ a precixón di dæti vocâli.
 thanks-for-account = Gràçie pe avéi confermòu o teu cónto, òua conpletémmo o teu profî.
 why-demographic = Perché l'é inportànte?
-why-demographic-explanation = Dæti cómme etæ, sèsso, e acénto agiùtano a megioâ i dæti òudio utilizæ pe svilupâ a precixón di motoî de riconosciménto vocâle. O teu nómme uténte e l'indirìsso de pòsta eletrònica no saiàn mâi asociæ a-i dæti spedîi, e ti poriæ çèrne se rénde o teu nómme uténte pùblico ò privòu.
 accept-privacy = Aconsénto a-o trataménto di dæti cómme l'é indicòu inta <privacyLink>informatìva in sciâ privacy</privacyLink> de Mozilla.
 login-identity = Identitæ de conesción
 login-signup = Intra / Scrivite
@@ -317,17 +312,17 @@ skip-submission-description = Dòppo avéi sciacòu Spedìsci inta a spediçiòn
 skip-submission-note = Nòtta: saiâ in tùtti i câxi necesâio seleçionâ Pàrla ò Sénti pe modificâ o tîpo de contribûto.
 off = Asmòrta
 on = Metti in fonçion
-retry-voice-wave-recording = PREUVA TORNA
-re-record = REGISTRA TORNA
-delete-voice = SCANCELLA
-recording-voice-wave = Registraçion
-ready-to-upload = CAREGA
-cancel-avatar-clip-recording = ANULLA
+
+## Profile - Email
+
 browse-file-title = Càrega 'na föto
 browse-file = Rebéla e mòlla òpû <browseWrap>sfêuggia</browseWrap>
 connect-gravatar = Conétti con Gravatar
 gravatar_not_found = Nisciùn profî Gravatar asociòu a-o teu indirìsso de pòsta eletrònica
 file_too_large = O schedâio seleçionòu o l'é tròppo grànde
+
+## Profile - Email
+
 manage-subscriptions = Gestìsci e sotoscriçioìn
 email-already-used = Sto indirìsso de pòsta o l'é za in ûzo pe 'n âtro cónto
 add-language = Azónzi léngoa
@@ -370,6 +365,9 @@ faq-what-determine-identity-q = Cöse scignificâ che o l'é proibîo de «deter
 
 ## ABOUT US
 
+
+## How does it work section
+
 about-speak = Parla
 about-yes-votes = ≥ 2 voti Sci
 about-no-votes = ≥ 2 voti No
@@ -377,8 +375,34 @@ about-nav-why-common-voice = Perché ?
 about-nav-how-it-works = Comme ?
 about-nav-partners = Partner
 about-nav-get-involved = Parteçipa
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Inteligensa Artifiçiâ
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
 
 ## Glossary
 
@@ -393,10 +417,8 @@ sst = Riconosciménto vocâle (Speech-to-text, STT)
 sst-explanation = E tecnologîe de riconosciménto vocâle (Speech-to-text, STT) convèrtan o parlòu in tèsto.
 de-identified = De-identificaçión
 
-## NotFound
+## Error pages
 
-notfound-title = No trovòu
-notfound-content = Inposcìbile trovâ i contegnûi çercæ.
 
 ## Data
 
@@ -453,8 +475,6 @@ subscribe = Scrîvite
 get-started-speech = Inìçia co-o riconosciménto vocâle
 other-datasets = Âtri dataset de dæti vocâli
 feedback-q = Ti gh'é de drîte?
-deepspeech-info = O dataset de Common Voice conpleménta o motô de riconosciménto vocâle de Mozilla, Deep Speech, utilizàbile pe creâ aplicaçioìn de riconosciménto vocâle. Lêzi a <githubLink>panoràmica in sce GitHub</githubLink> o unìscite a-o <discourseLink>Discourse de DeepSpeech</discourseLink> pe savéi cómme comensâ.
-common-voice-info-new = Ti gh'æ domànde in sce Common Voice? Ti veu comunicâne òpinioìn ò sugeriménti pe megioâ 'na specìfica léngoa? Scrîvine in sciô <discourseLink>forum Discourse</discourseLink>.
 data-other-librispeech-description = LibriSpeech a l'é 'na arecugéita de ciù ò mêno 1000 ôe de registraçioìn in léngoa ingléize a 16KHz, træta da-a letûa de oudiolìbbri do progètto LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = O corpus TED-LIM o l'é realizòu con registraçión òudio de conferénse e-e relatîve trascriçioìn disponìbile in sciô scìto TED.
@@ -499,6 +519,9 @@ request-language-success-content = Fîto ti riçéiviæ instruçioìn in sce có
 select-language = Seleçiónn-a 'na léngoa...
 other-language = Âtra léngoa
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = In córso
@@ -514,7 +537,6 @@ language-search-input =
 language-speakers = Parlòu da
 localized = Localizæ
 sentences = Frâze
-total-hours = Ôe convalidæ
 
 ## Contribution
 
@@ -524,7 +546,6 @@ contribute = Contriboìsci
 listen = Sénti
 skip = Sâta
 shortcuts = Scorsaiéu
-clips-with-count = <bold>{ $count }</bold> registraçioìn
 goal-help-recording = T'æ agiutòu Common Voice a razónze <goalPercentage></goalPercentage> do òbietîvo giornaliêro { $goalValue } pe-e registraçioìn!
 goal-help-validation = T'æ agiutòu Common Voice a razónze <goalPercentage></goalPercentage> do òbietîvo giornaliêro { $goalValue } pe-e convalidaçioìn!
 contribute-more = T'ê prónto a fâne ancón { $count }?
@@ -560,6 +581,9 @@ record-button-label = Regìstra a teu vôxe
 share-title-new = <bold>Agiùtine</bold> a trovâ âtre vôxe
 target-segment-add-voice = Azonzi a teu voxe
 target-segment-learn-more = Atre informaçioin
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -631,6 +655,84 @@ why-delete-recordings =
     Ti peu spiêgâne perché t'eu scancelâ e teu registraçioìn?
 profile-form-delete = Scancèlla profî
 
+## Profile Download
+
+
 ## Landing
 
 profile-not-required = Registrâ 'n profî o no l'é òbligatöio pe colaborâ, ma o l'é incoragiòu
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
+sentence-collection = Coleçión de frâze
