@@ -451,17 +451,18 @@ manage-subscriptions = Manezza e sottoscriçioin
 manage-email-subscriptions = Manezza e sottoscriçioin email
 email-already-used = Sto adresso de pòsta o l'é za in deuvia pe un atro conto
 add-language = Azzonzi lengua
-change-email-setings = Modìfica a teu indirìsso de pòsta eletrònica da-e impostaçioìn, a-a vôxe Identitæ de conesción
+change-email-setings = Cangia o teu adresso de pòsta elettrònica a-a voxe Identitæ de connescion
 
 ## FAQ
 
-faq-title = Domànde frequénte
-faq-what-cv-q = Cös'a l'é Common Voice?
-faq-what-cv-a =
-    A tecnologîa de riconosciménto vocâle a sta rivoluçionàndo a manêa inta quæ interagìmmo co-e màchine, ma pe-o moménto i scistêmi disponìbili són câi e privæ. Common Voice o l'é pàrte de l'iniçiatîva de Mozilla per megioâ e tecnologîe de riconosciménto vocâle e réndile ciù acescìbile a tùtti. Common Voice o l'é 'na gigantésca bâze de dæti de vôxe donæ da-i uténti, che permétan a chiónque de svilupâ in mainêa lèsta e fàçile e seu aplicaçioìn che dêuvian o riconosciménto vocâle in potençialménte qualónque léngoa.
+faq-title = Domande frequente
+faq-what-cv-q = Cös’o l’é Common Voice?
+faq-what-cv-a = A tecnologia de reconoscimento vocale a l’é apreuvo à cangiâ a mainea inta quæ interagimmo co-e machine, ma pe-o momento i scistemi disponebili son caistioxi e privæ. Common Voice o l'é parte de l'iniçiativa de Mozilla pe amegioâ e tecnologie de reconoscimento vocale e rendile ciù accescibile pe tutti. Common Voice a l'é unna base de dæti stramesuâ de voxe donæ da-e casañe, che permettan à chisesegge de creâ in mainea lesta e façile de apricaçioin che deuvian o reconoscimento vocale, potençialmente in quæsesegge lengua.
+faq-what-cv-a-2 =
+    A tecnologia de reconoscimento vocale a l’é apreuvo à cangiâ a mainea inta quæ interagimmo co-e machine, ma pe-o momento i scistemi disponebili son caistioxi e privæ. Common Voice o l'é parte de l'iniçiativa de Mozilla pe amegioâ e tecnologie de reconoscimento vocale e rendile ciù accescibile pe tutti. Common Voice a l'é unna base de dæti stramesuâ de voxe donæ da-e casañe, che permettan à chisesegge de creâ in mainea lesta e façile de apricaçioin che deuvian o reconoscimento vocale, potençialmente in quæsesegge lengua.
     
-    No memorizémmo sôlo canpioìn de vôxe de léngoe ciù difûze a-o móndo, ma quélle parlæ da-e comunitæ minoritâie ascì. A publicaçión de 'n'arecugéita de vôxe divèrsce consentiâ a svilupatoî, inprenditoî e comunitæ de afrontâ da sôli sta lacùnn-a. Óltre a-o dataset de Common Voice, stémmo ànche svilupàndo 'n motô de riconosciménto vocâle avèrto ciamòu Deep Speech.
-faq-why-important-q = Perché a l'é inportànte?
+    No arrecheuggemmo solo che de registraçioin de voxe de lengue ciù spantegæ a-o mondo, ma quelle parlæ da-e communitæ minoritäie ascì. A pubricaçion de unn’arrecuggeita de tante voxe a consentià à desviluppatoî, imprenditoî e communitæ de impî da pe liatri sta mancansa.
+faq-why-important-q = Perché l'é importante?
 faq-how-get-q = Cómme pòsso òtegnî i dæti de Common Voice?
 faq-how-get-a = O dataset de Common Voice o l'é disponìbile pe êse descaregòu sótta a licénsa <licenseLink>CC0 </licenseLink> da-a <datasetLink>pàgina Dataset</datasetLink>. Inta mæxima pàgina ti peu trovâ tànti âtri dataset descaregàbili publicaménte.
 faq-why-mission-q = In che mòddo Common Voice o l'é pàrte da misción de Mozilla?
