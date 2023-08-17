@@ -312,10 +312,11 @@ join-newsletter = Se ti veu, scrivite a-a nòstra lista de spediçioin pe reçei
 ## What's public
 
 whats-public = Quæ dæti son pubrichi?
-email-not-public = No rendiêmo o teu indirìsso de pòsta eletrònica pùblico.
-recordings-and-locale-public = O nùmero de registraçioìn e e léngoe a-e quæ contriboìsci saiàn pùblici.
-username-optin-public = Ti peu çèrne de rénde o teu nómme uténte pùblico ò anònimo.
-username-email-not-demographic = O teu nómme uténte e indirìsso de pòsta eletrònica no saiàn asociæ a-i dæti pùblici.
+email-not-public = No rediemo o teu adresso de pòsta elettrònica pubrico.
+recordings-and-locale-public = O numero de registraçioin e e lengue a-e quæ ti contribuisci saian pubrichi.
+username-optin-public = Ti peu deçidde de rende o teu nomme de casaña pubrico ò anònimo.
+demographic-deidentified-clarity-2 = I dæti demografichi eventualmente inseii (p. ex. etæ, genere, lengua e açento) no saian mai reixi pubrichi in sciô teu profî ni ligæ a-o teu conto into dataset. E registraçioin individuale saian assoçiæ a-i dæti demografichi pe unn’analixi ciù preçisa, pe exempio into caxo che un reçercatô veugge inandiâ un modello de imprendimento vocale in sce un segmento demografico particolâ.
+username-email-not-demographic = O teu nomme de casaña e adresso de pòsta elettrònica no saian assoçiæ a-i dæti pubrichi.
 
 ## Speak & Listen Shortcuts
 
@@ -327,7 +328,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Riprodûxi/Interónpi
+shortcut-play-toggle-label = Reproduxi/Ferma
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -340,51 +341,66 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
-shortcut-record-toggle-label = Regìstra/Interónpi
+shortcut-record-toggle-label = Regìstra/Ferma
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Regìstra tórna
-request-language-text = No t'atròvi a teu léngoa in sce Common Voice?
-request-language-button = Propónn-i 'na léngoa
+shortcut-rerecord-toggle-label = Registra torna
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Scarta sta registraçion
+shortcut-submit = Invio
+shortcut-submit-label = Manda e registraçioin
+request-language-text = No t’attreuvi a teu lengua in sce Common Voice?
+request-language-button = Propoñi unna lengua
 
 ## ProjectStatus
 
-status-title = Condiçión generâle do progètto: amîa quànta stràdda émmo fæto!
-status-contribute = Dónn-a a teu vôxe
+status-title = Condiçioin generale do progetto: ammia quanta stradda emmo fæto!
+status-contribute = Doña a teu voxe
 status-hours =
     { $hours ->
-        [one] N'ôa convalidâ scìnn-a chi
-       *[other] { $hours } ôe convalidæ scìnn-a chi
+        [one] Unn’oa verificâ finoua!
+       *[other] { $hours } oe verificæ finoua!
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Pròscimo tragoàrdo: { $goal }
-english = Ingléize
+status-goal = Proscimo obiettivo: { $goal }
+english = Ingleise
 
 ## ProfileForm
 
 profile-form-username =
-    .label = Nómme uténte
+    .label = Nomme de casaña
 profile-form-native-language =
-    .label = Léngoa moæ
+    .label = Lengua moæ
 profile-form-additional-language =
-    .label = Âtra léngoa
+    .label = Atra lengua
+profile-form-language =
+    .label = Lengua
+profile-form-variant =
+    .label = Che variante de { $language } ti parli?
+profile-form-variant-default-value = Nisciuña variante seleçionâ
 profile-form-accent =
-    .label = Acénto
+    .label = Açento
+profile-form-custom-accent-help-text =
+    .label = Comme ti descriviësci o teu açento?
+profile-form-custom-accent-placeholder-2 = Comensa à scrive pe descrive o teu açento
 profile-form-age =
     .label = Etæ
+profile-form-gender-2 =
+    .label = Genere
 leaderboard-visibility =
-    .label = Vixibilitæ inta clasìfica
-hidden = Ascôzo
-visible = Vixìbile
+    .label = Vixibilitæ inta clascifica
+hidden = Ascoso
+visible = Vixibile
 native-language =
-    .label = Léngoa moæ
-profile-form-submit-save = Sàrva
-profile-form-submit-saved = Sarvòu
-male = Màsccio
-female = Dònna
+    .label = Lengua moæ
+profile-form-add-accent = Azzonzi un neuvo açento personalizzou «{ $inputValue }»
+profile-form-submit-save = Alluga
+profile-form-submit-saved = Allugou
+male = Masccio
+female = Femmina
 # Gender
-other = Âtro
-why-profile-title = Perché registrâ 'n profî?
+other = Atro
+why-profile-title = Percöse registrâ un profî?
 why-profile-text = Se ti fornîsci ste informaçioìn insémme a-e teu registraçioìn vocâle, loiâtre saiàn ûzæ per megioâ a precixón di motoî de riconosciménto vocâle.
 dashboard = Panéllo
 build-profile = Crêa o teu profî
