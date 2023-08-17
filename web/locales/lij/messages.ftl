@@ -484,16 +484,21 @@ faq-why-different-speakers-a =
     A ciù parte di database en construti con unna desproporçion demografica à favô de voxe <articleLink>mascce e de classe media</articleLink>. I açenti e i dialetti che pe-o sòlito en pöco representæ son ligæ a-i gruppi de persoñe marginalizzæ. Gh’é ben ben de machine che no en boñe à reconosce e voxe femminile.
     L’é pe sta raxon chì che voemmo un database con ben ben de diverscitæ!
 faq-why-my-lang-q = Perché a mæ lengua a no l’é stæta ancon azzonta?
-faq-what-quality-q = Quæ livéllo de òudio a l'é domandòu da unn-a registraçión vocâle pe êse utilizâ into dataset?
-faq-why-10k-hours-q = Perché l'òbietîvo de registraçión o l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
-faq-why-10k-hours-a = O l'é aproscimativaménte o nùmero d'ôe necesâie pe svilupâ 'n motô de riconosciménto vocâle.
-faq-how-calc-hours-q = Cómme càlcola o nùmero d'ôe Common Voice?
-faq-how-calc-hours-a = Calcolémmo e ôe estimàndo a longhéssa média de ciaschedùnn-a registraçión e moltiplicàndo quéllo nùmero pe-o nùmero totâle de registraçioìn in tùtte e léngoe.
-faq-where-src-from-2-q = Dónde o vêgne o tésto d'òrìgine?
+faq-why-my-lang-a =
+    Common Voice a l’é unna ciattaforma de crowdsourcing e tutte e lengue en stæte azzonte da di volontäi.
+    Ne saieiva cao se ti azzonziësci a teu lengua! <languageRequestLink>Domanda l’azzonta da teu lengua</languageRequestLink>.
+faq-what-quality-q = Quæ o l’é o livello de qualitæ de l’audio neçessäio pe-e registraçioin do database?
+faq-what-quality-a = Voemmo che Common Voice o reflette a qualitæ audio che un scistema de reconoscimento vocale o trovià inta vitta de tutti i giorni, donca emmo beseugno da varietæ. In azzonta à unna communitæ diverscificâ de locutoî, un dataset con qualitæ variabile o mostrià a-o motô de reconoscimento à manezzâ e varie scituaçioin do mondo reale, comme o parlâ in sottofondo ò o sciato de machine. In curte poule, se s’arriësce à accapî e poule da teu registraçion, a registraçion a va beniscimo pe-o dataset!
+faq-why-10k-hours-q = Perché l'obiettivo de registraçion o l’é pròpio de 10.000 oe verificæ pe ògni lengua?
+faq-why-10k-hours-a = Sto chì o l’é pöcassæ o numero de oe neçessäie pe construe un scistema de reconoscimento vocale.
+faq-how-calc-hours-q = In che mainea Common Voice o conta o numero de oe?
+faq-how-calc-hours-a = Contemmo e oe con unna stimma da longhessa media de ciascheduña registraçion e mortiplichemmo quello numero pe-o numero totale de registraçioin in tutte e lengue.
+faq-where-src-from-2-q = De dond’o vëgne o testo originale?
 faq-where-src-from-2-a =
-    O tésto d'òrìgine o l'é frûto de donaçioìn da pàrte di colaboratoî e da diàloghi de pùblico domìnio træti da pelìcole cómme <italic>It's a Wonderful Life</italic>.
+    O testo originale o l’é fruto de donaçioin da-a parte di conlaboratoî e da dialoghi de dominio pubrico træti da di cini comme <italic>It's a Wonderful Life</italic>.
     
-    Ti peu védde o tésto d'òrìgine inta sta <githubLink>cartélla de GitHub</githubLink>.
+    Ti peu védde o testo originale inte sta <githubLink>cartella de GitHub</githubLink>.
+faq-why-not-ask-read-q = Perché no domandæ a-e gente de leze da di libbri ò articoli de Wikipedia in tante lengue?
 faq-why-not-ask-read-a = Pe no limitâ e poscìbile aplicaçioìn do dataset Common Voice, émmo decîzo de adêuviâ unicaménte e frâze che són disponìbile co-a licénsa Creative Commons (CC0). O stàndar CC0 rénde ciù difìçile trovâ e arechéugge frâze adàtte, ma garantîsce a chiónque o dirìtto de adêuviâ i dæti acugéiti sénsa restriçioìn d'ûzo o bezéugno d'aotorizaçión da pàrte de Mozilla. A-a fìn di fæti, noiâtri voêmo ch'o dataset moltiléngoa o l'àgge mêno restriçioìn poscìbile, de mòddo da êse adêuviòu liberaménte da chiónque, conpréizi riçercatoî, universcitæ, startup, govèrni, òrganizaçioìn a motîvi sociâli, e diletànti.
 faq-why-account-q = Perché mi doviæ registrâ 'n cónto?
 faq-is-account-public-q = E informaçioìn in sciô mæ cónto són pùbliche?
