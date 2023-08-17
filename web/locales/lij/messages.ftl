@@ -468,7 +468,7 @@ faq-why-important-a =
     
     Pe renge o reconoscimento vocale ancon ciù universale, semmo apreuvo à arrecheugge de registraçioin de voxe segge inte lengue e ciù parlæ, segge inte quelle con ciù pöchi locutoî, che de spesso no son supportæ da-i servixi commerçiali de reconoscimento vocale. A pubricaçion de un dataset diverscificou o permettià a-i desviluppatoî, imprenditoî e e communitæ linguistiche de resòlve sta mancansa da pe lê.
 faq-how-get-q = Comme pòsso ottegnî i dæti de Common Voice?
-faq-how-get-a = O dataset de Common Voice o se peu descarregâ co-a liçensa <licenseLink>CC0 </licenseLink> da-a <datasetLink>pagina Dataset</datasetLink>. Inta mæxima pagina ti peu trovâ tanti atri dataset pubrichi che se peuan descarregâ.
+faq-how-get-a = O dataset de Common Voice o se peu descarregâ co-a liçensa <licenseLink>CC0 </licenseLink> da-a <datasetLink>pagina Dataset</datasetLink>. Inta mæxima pagina ti peu attrovâ tanti atri dataset pubrichi da descarregâ.
 faq-when-release2-q = Quande saià pubricou i dæti de Common Voice inte atre lengue?
 faq-when-release2-a = A verscion molti-lengua do dataset de Common Voice a l’é apreuvo à ëse arrecuggeita e nettezzâ da-a communitæ. Se ti veu aggiuttâne à azzonze de atre lengue in sce Common Voice, ti peu mandâ de neuve frase pe-o dataset co-o <sentenceCollectorLink>Sentence Collection Tool</sentenceCollectorLink> ò donca tradue a pagina web de Common Voice inta teu lengua con <pontoonLink>Pontoon</pontoonLink>, a ciattaforma de localizzaçion in linia de Mozilla. E neuve lengue en misse in fonçion in sce Common Voice quande gh’é 5000 frase verificæ.
 faq-why-mission-q = In che mòddo Common Voice o l'é parte da miscion de Mozilla?
