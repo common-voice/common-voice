@@ -44,6 +44,7 @@ bxr = Бурятаг
 byv = Медумбæ
 ca = Каталайнаг
 cak = Какчикейлаг
+ckb = Астæуккаг курдаг
 co = Корсикайнаг
 cs = Чехаг
 cv = Чувашаг
@@ -277,6 +278,7 @@ shortcut-vote-no = н
 ## Speak Shortcuts
 
 shortcut-rerecord-toggle = [1-5]
+shortcut-submit-label = Арвит клиптæ
 
 ## ProjectStatus
 
@@ -303,6 +305,7 @@ male = Нæлгоймаг
 female = Сылгоймаг
 # Gender
 other = Æндæр
+why-profile-title = Цæмæн хъæуы профиль?
 dashboard = Фæйнæг
 avatar = Аватар
 goals = Нысантæ
