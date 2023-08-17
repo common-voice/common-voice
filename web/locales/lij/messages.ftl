@@ -425,24 +425,32 @@ email-subscriptions = Sottoscriçioin a-a pòsta
 download-profile = Descarrega i mæ dæti
 contribution-experience = Esperiensa de contribuçion
 skip-submission-feedback = Ometti a spediçion de segnalaçioin
-skip-submission-description = Dòppo avéi sciacòu Spedìsci inta a spediçiòn do contribûto, ti pasiæ drîto drîto a-o pròscimo set de çìnque registraçioìn o convàlide, sâtàndo a richièsta de fornî coménti.
-skip-submission-note = Nòtta: saiâ in tùtti i câxi necesâio seleçionâ Pàrla ò Sénti pe modificâ o tîpo de contribûto.
+skip-submission-description = L’invio di commenti o saià desattivou dòppo avei sciaccou «Manda». A teu contribuçion a l’anià avanti direttamente co-o pròscimo gruppo de 5 registraçioin ò verifiche.
+skip-submission-note = Arregòrdo: ghe saià beseugno de çerne Parla ò Senti pe modificâ a smersa de contribuçion.
 off = Asmòrta
 on = Metti in fonçion
+help-accent = T’æ beseugno d’aggiutto con l’açento?
+help-accent-explanation = O teu açento a l’é a mainea che ti prononçie e poule. O peu ëse condiçionou da-o pòsto donde t’æ visciuo, da-e atre lengue che ti parli e da ben ben de atri fattoî. Ti peu scompartî tutte e informaçioin che ti conscideri pertinente.
+help-variants = T’æ beseugno d’aggiutto co-e variante?
+help-variants-explanation = E variantæ en unna forma speçifica de unna lengua, pe exempio scompartie tra quelli che stan inte de zöne geografiche ò communitæ particolæ. De vòtte ste variante en ciammæ dialetti.
 
 ## Profile - Email
 
-browse-file-title = Càrega 'na föto
-browse-file = Rebéla e mòlla òpû <browseWrap>sfêuggia</browseWrap>
-connect-gravatar = Conétti con Gravatar
-gravatar_not_found = Nisciùn profî Gravatar asociòu a-o teu indirìsso de pòsta eletrònica
-file_too_large = O schedâio seleçionòu o l'é tròppo grànde
+browse-file-title = Carrega unn’imagine
+browse-file = Rebella e mòlla ò donca <browseWrap>sfeuggia</browseWrap>
+connect-gravatar = Connetti con Gravatar
+gravatar_not_found = Nisciun profî Gravatar ligou a-o teu adresso de pòsta elettrònica
+file_too_large = O documento çernuo o l'é tròppo gròsso
+avatar-uploaded = Avatar carregou
+max-file-size = max { $kb } kb
+remove-avatar = Scassa l’avatar
 
 ## Profile - Email
 
-manage-subscriptions = Gestìsci e sotoscriçioìn
-email-already-used = Sto indirìsso de pòsta o l'é za in ûzo pe 'n âtro cónto
-add-language = Azónzi léngoa
+manage-subscriptions = Manezza e sottoscriçioin
+manage-email-subscriptions = Manezza e sottoscriçioin email
+email-already-used = Sto adresso de pòsta o l'é za in deuvia pe un atro conto
+add-language = Azzonzi lengua
 change-email-setings = Modìfica a teu indirìsso de pòsta eletrònica da-e impostaçioìn, a-a vôxe Identitæ de conesción
 
 ## FAQ
