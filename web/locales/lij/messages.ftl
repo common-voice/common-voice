@@ -250,33 +250,33 @@ logout = Sciòrti
 home-title = O progetto Common Voice o l'é unn'iniçiativa de Mozilla pe mostrâ a-e machine comme parla e persoñe.
 default-tagline = Mozilla Common Voice a l’é unn’iniçiativa pe aggiuttâ à mostrâ a-e machine comme parla e persoñe.
 home-cta = Dinni quarcösa! Sciacca chì pe contribuî!
-wall-of-text-start = A voxe a l’é naturale, a voxe a l’é umanitæ. L’é pe questo che voemmo de creâ unna tecnologia vocale de qualitæ pe-e nòstre machine. Ma pe inandiâ sti scistemi gh’é beseugno de un numero stramesuou de registraçioin.
+wall-of-text-start = A voxe a l’é naturale, a voxe a l’é umanitæ. L’é pe questo che voemmo creâ unna tecnologia vocale de qualitæ pe-e nòstre machine. Ma pe inandiâ sti scistemi gh’é beseugno de un numero stramesuou de registraçioin.
 wall-of-text-more-mobile = A ciù parte di dæti addeuviæ da-e grende açiende a no l’é missa à dispoxiçion da maggioransa de gente. Pe niatri, questo o l’astalla l’innovaçion. Pe sta raxon emmo inandiou Common Voice, un progetto pe aggiuttâ à rende o reconoscimento vocale averto à tutti.
 wall-of-text-more-desktop =
-    Oua ti peu donâ a teu voxe pe agiuttâne à creâ unna base de dæti averta, che tutti peuan addeuviia pe construe de apricaçioin innovative ascì in sciâ ræ.<lineBreak></lineBreak>
+    Oua ti peu donâ a teu voxe pe aggiuttâne à creâ unna base de dæti averta, che tutti peuan addeuviia pe construe de apricaçioin innovative ascì in sciâ ræ.<lineBreak></lineBreak>
     A parteçipaçion a l’é davei façile! Lezi unna frase pe mostrâ a-e machine comme parla e persoñe. Verifica e registraçioin di atri colaboratoî pe amegioâ a qualitæ da base de dæti.
-wall-of-text-first = A vôxe a l'é naturâle, a vôxe a l'é umanitæ. L'é pe quésto che l'idêa de creâ 'na tecnologìa vocâle utilizàbile da-e nòstre màchine ne incànta così tànto. Ma pe creâ scistêmi bazæ in scê tecnologîe vocâle, i svilupatoî àn bezéugno de 'n fràcco de registraçioìn de vôxe.
-wall-of-text-second = 'Na bónn-a pàrte di dæti uzæ de grénde aziénde a no l'é acescìbile a-a magiorànsa de persónn-e. Segóndo noiâtri, quésto o sófoca l'inovaçión. Dónca émmo creòu Common Voice, un progètto pe agiutâ a rénde o riconosciménto vocâle avèrto e acescìbile a tùtti.
+wall-of-text-first = A voxe a l’é naturale, a voxe a l’é umanitæ. L'é pe questo che voemmo creâ unna tecnologia vocale de qualitæ pe-e nòstre machine. Pe inandiâ sti scistemi gh’é beseugno de un numero stramesuou de registraçioin.
+wall-of-text-second = A ciù parte di dæti addeuviæ da-e grende açiende a no l’é missa à dispoxiçion da maggioransa de gente. Pe niatri, questo o l’astalla l’innovaçion. Pe sta raxon emmo inandiou Common Voice, un progetto pe aggiuttâ à rende o reconoscimento vocale averto à tutti.
 show-wall-of-text = Saccine de ciù
 help-us-title = Aggiuttine à validâ e frase!
-help-us-explain = Sciàcca Riprodûxi, sénti e dìnine: l'àn dîta bèn a frâze chi de sótta?
-no-clips-to-validate = Pâ che no ghe són registraçioìn in sta léngoa. Contriboìsci registràndo quarcösa.
-vote-yes = Sci
-vote-no = No
-toggle-play-tooltip = Sciàcca { shortcut-play-toggle } per inandiâ ò arestâ a letûa
-speak-subtitle = Dónn-a a teu vôxe
-speak-paragraph = La registraçión vocâle de frâze a l'é 'na pàrte fondamentâle da costruçión da nòstra bâze de dæti; segóndo çèrtidùn, a ciù diverténte ascì.
-speak-goal-text = Registraçioìn
-listen-subtitle = Agiùtine a convalidâ e registraçioìn
-listen-paragraph = Convalidâ e registraçioìn fæte da-i âtri l'é âtretànto inportànte pe-a misción de Common Voice. Séntile, e agiùtine a creâ 'na bâze de dæti avèrta e de qualitæ.
-listen-goal-text = Registraçioin validæ
+help-us-explain = Sciacca Reproduxi, senti e dinne: l'an lezuo ben a frase chì de sotta?
+no-clips-to-validate = Pâ che no ghe son registraçioin in sta lengua chì. Contribuisci à registrâ quarcösa.
+vote-yes = Scì
+vote-no = Na
+toggle-play-tooltip = Sciacca { shortcut-play-toggle } pe inandiâ ò fermâ a lettua
+speak-subtitle = Doña a teu voxe
+speak-paragraph = A registraçion vocale de frase a l’é unna parte fondamentale da construçion da nòstra base de dæti; pe çertidun, quella ch’a l’addemoa de ciù ascì.
+speak-goal-text = Registraçioin
+listen-subtitle = Aggiuttine à verificâ e registraçioin
+listen-paragraph = Verificâ e registraçioin fæte da-i atri l’é importante tanto pægio pe-a miscion de Common Voice. Sentile, e aggiuttine à creâ unna base de dæti averta e de qualitæ.
+listen-goal-text = Registraçioin verificæ
 hours-recorded = Oe registræ
-hours-validated = Oe validæ
+hours-validated = Oe verificæ
 voices-online = Voxe in linia oua
-todays-progress = Progrèsso d'ancheu
-help-reach-goal = Agiùtine a arivâ a { $goal }
-read-terms-q = T'æ lètto e condiçioìn d'ûzo do servìçio?
-ready-to-record = T'ê prónto a donâ a teu vôxe?
+todays-progress = Progresso d’ancheu
+help-reach-goal = Aggiuttine à arrivâ à { $goal }
+read-terms-q = T'æ lezzuo e condiçioin d'utilizzaçion do servixo?
+ready-to-record = T’ê pronto à donâ a teu voxe?
 all-locales = Tutto
 today = Ancheu
 x-weeks-short =
@@ -291,11 +291,11 @@ x-months-short =
     }
 x-years-short =
     { $count ->
-        [one] ànno
-       *[other] { $count } ànni
+        [one] anno
+       *[other] { $count } anni
     }
-help-make-dataset = Agiùtine a realizâ 'na bâze de dæti de âta qualitæ e pùblica
-sign-up-account = Regìstrite
+help-make-dataset = Aggiuttine à creâ unna base de dæti de boña qualitæ e averta
+sign-up-account = Scrivite
 email-subscription-title = Scrîvite a-i agiornaménti vîa pòsta eletrònica
 
 ## Account Benefits
