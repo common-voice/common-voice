@@ -549,15 +549,35 @@ about-listen-text = E casañe verifican a preçixon de registraçioin stæte don
 about-is-it-valid = A registraçion a l’é boña?
 about-is-it-valid-text = Unna registraçion a l’é marcâ comme «valida» quande unna casaña a vota «Scì».
 about-yes-votes = ≥ 2 voti Scì
-about-no-votes = ≥ 2 voti No
-about-nav-why-common-voice = Perché ?
-about-nav-how-it-works = Comme ?
+about-yes-votes-text = Pe intrâ into dataset de Common Voice, unna registraçion a l’à da ëse validâ a-o manco da doe casañe.
+about-no-votes = ≥ 2 voti Na
+about-no-votes-text = Quande unna casaña a refuna unna registraçion, a va torna inta Coa. S’a l’é refuâ unna segonda vòtta, a vëgne mescâ into Çemetëio de registraçioin.
+about-dataset-new = Dataset de Common Voice
+about-dataset-new-text = O dataset de Common Voice o l’à de çentenæa de miggiæa de registraçioin che aggiuttan i desviluppatoî à inandiâ de appricaçioin de reconoscimento vocale.
+about-clip-graveyard = Çimitëio de registraçioin
+about-clip-graveyard-text =
+    O Çimitëio de registraçioin o l’é fæto da-e registraçioin che en stæte scartæ da-o dataset de Common Voice. O peu ëse descarregou ascì.
+    
+    N’é cao dî graçie a ste persoñe e ste organizzaçioin che n’an aggiuttou co-o progetto:
+about-get-involved = Conlabora
+about-get-involved-text-2 =
+    Ti veu amegioâ Common Voice?
+    Milia! Scrivine unn’email ò contattine in sce <discourseLink>Discourse</discourseLink>, segnalla i problemi co-o scito pe mezo de <githubLink>GitHub</githubLink>, ò intra inta chat da communitæ in sce <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Comme pòsso arrestâ in contatto?
+about-stay-in-touch-button = Scrivite
+about-stay-in-touch-text-1 = <emailFragment>Scrivite</emailFragment> a-a nòstra mailing list pe descrovî comme piggiâ parte a-e nòstre iniçiative, a-i nòstri eventi e conlaborâ a-o desviluppoo de neuve fonçioin pe Common Voice.
+about-stay-in-touch-text-2 = Ti peu incontrâ di atri conlaboratoî de communitæ linguistiche Mozilla in sce <discourseLink>Discourse</discourseLink> pe parlâ de argomenti speçifichi, ò in sce <matrixLink>Matrix</matrixLink> pe di conseggi a-a spedia.
+about-nav-why-common-voice = Perché?
+about-nav-how-it-works = Comme?
 about-nav-partners = Partner
 about-nav-get-involved = Parteçipa
+about-nav-how-it-works-2 = Comm’o fonçioña Common Voice?
+about-nav-playbook = Descreuvi comme piggiâ parte
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Cös’a l’é unna lengua in sce Common Voice?
 
 ## How do I add a language
 
