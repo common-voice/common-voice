@@ -304,14 +304,14 @@ email-subscription-title-new = Scrivite a-e newsletter de Common Voice, a-i arre
 benefits = Avvantaggi
 rich-data = Inricchisci i dæti che ti mandi con l’azzonta de çerte informaçioin demografiche anònime. I dæti demografichi en de-identificæ primma de rendili pubrichi.
 improve-audio = E informaçioin do profî agiuttan à amegioâ a preçixon di dæti audio addeuvio into desviluppo do reconoscimento vocale.
-keep-track = Têgni tràccia de tùtti i progrèssi e-e mêtriche in ciù léngoe.
-compare-progress = Confrónta i teu progrèssi con quélli de âtri colaboratoî de tùtto o móndo.
-view-goals = Confrónta i teu progrèssi con i òbietîvi personæ e do progètto.
-join-newsletter = Se ti veu, scrîvite a-a nòstra lìsta de spediçión pe riçéive agiornaménti e novitæ in sciô progétto.
+keep-track = Tëgni traccia de tutti i progresci e e metriche pe tutte e teu lengue.
+compare-progress = Confronta i teu progresci con quelli di atri conalboratoî de tutto o mondo.
+view-goals = Confronta i teu progresci co-i obiettivi personæ e do progetto.
+join-newsletter = Se ti veu, scrivite a-a nòstra lista de spediçioin pe reçeive notiçie in sciô progetto.
 
 ## What's public
 
-whats-public = Quæ dæti són pùblici?
+whats-public = Quæ dæti son pubrichi?
 email-not-public = No rendiêmo o teu indirìsso de pòsta eletrònica pùblico.
 recordings-and-locale-public = O nùmero de registraçioìn e e léngoe a-e quæ contriboìsci saiàn pùblici.
 username-optin-public = Ti peu çèrne de rénde o teu nómme uténte pùblico ò anònimo.
