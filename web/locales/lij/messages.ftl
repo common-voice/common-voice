@@ -474,11 +474,16 @@ faq-when-release2-a = A verscion molti-lengua do dataset de Common Voice a l’�
 faq-why-mission-q = In che mòddo Common Voice o l'é parte da miscion de Mozilla?
 faq-why-mission-a = A miscion de Mozilla a l’é de mantegnî a Ræ averta pe tutti. Questo veu dî ascì offrî de opportunitæ a-i autoî de contegnui pe mezo de progetti comme Common Voice. Oua che e tecnologie vocale no en ciù de apricaçioin de niccia, pensemmo che aggian da ëse disponibile pe tutti, sensa nisciuña discriminaçion. Questo veu dî investî into desviluppo e inta verifi de ciù lengue, tegnindo conto di varri açenti e variante demografiche. Common Voice a l'é unna resorsa pubrica disponibile pe tutti, e e squaddre de Mozilla e i desviluppatoî in tutto o mondo ascì en za apreuvo à addeuviâla pe-i seu progetti.
 faq-what-cv-and-deepspeech-q = Quæ a l’é a differensa tra Common Voice e Deep Speech?
-faq-what-cv-and-deepspeech-a = O dataset de Common Voice conpleménta Deep Speech, o motô de riconosciménto vocâle de Mozilla. A prìmma versción de Deep Speech a l'é stæta rilasciâ a novénbre do 2017 e a l'à continoòu a megioâ. Credémmo che sta tecnologîa avèrta de riconosciménto vocâle, insémme a-o dataset de Common Voice, a dêve êse disponìbile pe tùtti. Noî sperémmo che ste tecnologîe permetiàn  a-i svilupatoî de realizâ a pròscima ondâ de prodûti e servìççi inovatîvi.
-faq-is-goal-assistant-q = L'òbietîvo de Common Voice o l'é de prodûe 'n ascisténte vocâle?
-faq-do-want-native-q = No són de léngoa moæ ma pàrlo co-in acénto foestê. Éi bezéugno da mæ vôxe o mæximo?
-faq-why-different-speakers-q = Perché éi bezéugno de coscì tànte vôxe pe ògni léngoa?
-faq-why-my-lang-q = Perché la mæ léngoa a no l'é stæta ancón inclûza?
+faq-what-cv-and-deepspeech-a = O dataset de Common Voice o complementa Deep Speech, o motô de reconoscimento vocale de Mozilla. A primma verscion de Deep Speech a l’é stæta relasciâ into novembre do 2017 e a continua à amegioâ. Credemmo che sta tecnologia averta de reconoscimento vocale, insemme a-o dataset de Common Voice, a l’à da ëse disponibile pe tutti. Niatri speremmo che ste tecnologie permettian a-i desviluppatoî de realizzâ a pròscima ondâ de produti e servixi innovativi.
+faq-is-goal-assistant-q = O fin de Common Voice o l’é de produe un ascistente vocale?
+faq-is-goal-assistant-a = L’obiettivo de Common Voice o l’é de permette à chisesegge de contrue de appricaçion de reconoscimento vocale, reconoscimento do locutô, ò chesesegge atra smersa de appricaçion ch’a l’à beseugno de dæti vocali. Un ascistente vocale a l’é solo che unna de tante smerse de appricaçioin che ti construe con sto dataset.
+faq-do-want-native-q = No son de lengua moæ e parlo con un açento. Ei beseugno da mæ voxe o mæximo?
+faq-do-want-native-a = Scì, voemmo e voxe comme a teu ciù che tutto! Un di obiettivi de Common Voice o l’é quello de arrecheugge ciù açenti che se peu, de mòddo che i servixi de reconoscimento vocale fonçioñan ben pe tutti. Donca e registraçioin di locutoî no de lengua moæ en importante.
+faq-why-different-speakers-q = Perché ei beseugno de coscì tante voxe pe ògni lengua?
+faq-why-different-speakers-a =
+    A ciù parte di database en construti con unna desproporçion demografica à favô de voxe <articleLink>mascce e de classe media</articleLink>. I açenti e i dialetti che pe-o sòlito en pöco representæ son ligæ a-i gruppi de persoñe marginalizzæ. Gh’é ben ben de machine che no en boñe à reconosce e voxe femminile.
+    L’é pe sta raxon chì che voemmo un database con ben ben de diverscitæ!
+faq-why-my-lang-q = Perché a mæ lengua a no l’é stæta ancon azzonta?
 faq-what-quality-q = Quæ livéllo de òudio a l'é domandòu da unn-a registraçión vocâle pe êse utilizâ into dataset?
 faq-why-10k-hours-q = Perché l'òbietîvo de registraçión o l'é pròpio 10.000 ôe convalidæ pe ògni léngoa?
 faq-why-10k-hours-a = O l'é aproscimativaménte o nùmero d'ôe necesâie pe svilupâ 'n motô de riconosciménto vocâle.
