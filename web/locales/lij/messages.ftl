@@ -239,21 +239,22 @@ terms = Condiçioin
 cookies = Cookies
 faq = Domande frequente
 content-license-text = Contegnuo disponibile sotta <licenseLink>liçensa Creative Commons</licenseLink>
-share-title = Agiùtine a trovâ âtri donatoî de vôxe!
-share-text = Agiùtta a mostrâ a-e màchine cómme pàrlan e persónn-e in sciâ vìtta reâ: dónn-a a teu vôxe in sce { $link }
+share-title = Aggiuttine à trovâ di atri donatoî de voxe!
+share-text = Agiutta à mostrâ a-e machine comme parla e persoñe: doña a teu voxe in sce { $link }
 link-copied = Ligamme copiou
-back-top = Vànni in çìmma
-logout = Sciorti
+back-top = Vanni in çimma
+logout = Sciòrti
 
 ## Home Page
 
-home-title = O progètto Common Voice o l'é 'n'iniçiatîva de Mozilla pe mostrâ a-e màchine cómme pàrlan e persónn-e in sciâ vìtta reâ.
-home-cta = Dìnni quarcösa! Sciàcca chi pe contriboî!
-wall-of-text-start = A vôxe a l'é naturâle, a vôxe a l'é umanitæ. L'é pe quésto che l'idêa de creâ 'na tecnologìa vocâle utilizàbile da-e nòstre màchine ne incànta così tànto. Ma pe creâ scistêmi bazæ in scê tecnologîe vocâle, l'é necesâio 'n fràcco de registraçioìn.
-wall-of-text-more-mobile = 'Na bónn-a pàrte di dæti uzæ de grénde aziénde a no l'é acescìbile a-a magiorànsa de persónn-e. Segóndo noiâtri, quésto o sófoca l'inovaçión. Dónca émmo creòu Common Voice, un progètto pe agiutâ a rénde o riconosciménto vocâle avèrto a tùtti.
+home-title = O progetto Common Voice o l'é unn'iniçiativa de Mozilla pe mostrâ a-e machine comme parla e persoñe.
+default-tagline = Mozilla Common Voice a l’é unn’iniçiativa pe aggiuttâ à mostrâ a-e machine comme parla e persoñe.
+home-cta = Dinni quarcösa! Sciacca chì pe contribuî!
+wall-of-text-start = A voxe a l’é naturale, a voxe a l’é umanitæ. L’é pe questo che voemmo de creâ unna tecnologia vocale de qualitæ pe-e nòstre machine. Ma pe inandiâ sti scistemi gh’é beseugno de un numero stramesuou de registraçioin.
+wall-of-text-more-mobile = A ciù parte di dæti addeuviæ da-e grende açiende a no l’é missa à dispoxiçion da maggioransa de gente. Pe niatri, questo o l’astalla l’innovaçion. Pe sta raxon emmo inandiou Common Voice, un progetto pe aggiuttâ à rende o reconoscimento vocale averto à tutti.
 wall-of-text-more-desktop =
-    Òua ti peu dónn-a a teu vôxe pe agiutâne a costroî 'na bâze de dæti avèrta, utilizàbile da tùtti pe svilupâ de aplicaçioìn inovatîve pe dispoxitîvi o pe-a Ræ.<lineBreak></lineBreak>
-    Contriboî l'é sénplicìscimo! Lêzi 'na frâze pe mostrâ a-e màchine cómme pàrlan e persónn-e in sciâ vìtta reâ. Verìfica e registraçioìn di âtri colaboratô pe megioâ a qualitæ da bâze de dæti.
+    Oua ti peu donâ a teu voxe pe agiuttâne à creâ unna base de dæti averta, che tutti peuan addeuviia pe construe de apricaçioin innovative ascì in sciâ ræ.<lineBreak></lineBreak>
+    A parteçipaçion a l’é davei façile! Lezi unna frase pe mostrâ a-e machine comme parla e persoñe. Verifica e registraçioin di atri colaboratoî pe amegioâ a qualitæ da base de dæti.
 wall-of-text-first = A vôxe a l'é naturâle, a vôxe a l'é umanitæ. L'é pe quésto che l'idêa de creâ 'na tecnologìa vocâle utilizàbile da-e nòstre màchine ne incànta così tànto. Ma pe creâ scistêmi bazæ in scê tecnologîe vocâle, i svilupatoî àn bezéugno de 'n fràcco de registraçioìn de vôxe.
 wall-of-text-second = 'Na bónn-a pàrte di dæti uzæ de grénde aziénde a no l'é acescìbile a-a magiorànsa de persónn-e. Segóndo noiâtri, quésto o sófoca l'inovaçión. Dónca émmo creòu Common Voice, un progètto pe agiutâ a rénde o riconosciménto vocâle avèrto e acescìbile a tùtti.
 show-wall-of-text = Saccine de ciù
