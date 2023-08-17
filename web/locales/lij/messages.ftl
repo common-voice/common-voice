@@ -296,13 +296,14 @@ x-years-short =
     }
 help-make-dataset = Aggiuttine à creâ unna base de dæti de boña qualitæ e averta
 sign-up-account = Scrivite
-email-subscription-title = Scrîvite a-i agiornaménti vîa pòsta eletrònica
+email-subscription-title = Scrivite a-e notiçie pe pòsta elettrònica
+email-subscription-title-new = Scrivite a-e newsletter de Common Voice, a-i arregòrdi di obiettivi e a-e notiçie in sciô progresso
 
 ## Account Benefits
 
-benefits = Avantàggi
-rich-data = Arichîsci i dæti spedîi fornéndo çèrtidùn informaçioìn demogràfiche anònime. I dæti demogràfici són de-identificæ prìmma de réndili pùblici.
-improve-audio = E informaçioìn do profî agiùttan a megiorâ a precixón di dæti òudio utilizæ into svilùppo do riconosciménto vocâle.
+benefits = Avvantaggi
+rich-data = Inricchisci i dæti che ti mandi con l’azzonta de çerte informaçioin demografiche anònime. I dæti demografichi en de-identificæ primma de rendili pubrichi.
+improve-audio = E informaçioin do profî agiuttan à amegioâ a preçixon di dæti audio addeuvio into desviluppo do reconoscimento vocale.
 keep-track = Têgni tràccia de tùtti i progrèssi e-e mêtriche in ciù léngoe.
 compare-progress = Confrónta i teu progrèssi con quélli de âtri colaboratoî de tùtto o móndo.
 view-goals = Confrónta i teu progrèssi con i òbietîvi personæ e do progètto.
