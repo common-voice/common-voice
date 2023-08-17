@@ -10,8 +10,11 @@ submit-form-action = Manda
 loading = Carregamento...
 email-opt-in-info = Veuggio reçeive di messaggi pe pòsta elettrònica pe-i arregòrdi di obiettivi, pe-e neuve in sciô mæ progresso, e pe-e newsletter in sce Common Voice.
 email-opt-in-info-title = Scrivite a-a mailing list de Common Voice
+email-opt-in-info-sub-with-challenge = Reçeivi di messaggi de pòsta elettrònica comme de desfie, di arregòrdi in scî obiettivi, de neuve in scî progressi e e newsletter de Common Voice.
+email-opt-in-privacy-v2 = Con deçidde de reçeive a pòsta elettrònica, ti açetti che Mozilla a l’addeuvie ste informaçioin in conformitæ à l’<privacyLink>informativa in sciâ privacy</privacyLink>.
 indicates-required = * ìndica 'n cànpo òbligatöio
 not-available-abbreviation = n.d.
+banner-error-slow-1 = Ne rincresce, Common Voice a fonçioña adaxo. Graçie pe-o teu interesse.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
