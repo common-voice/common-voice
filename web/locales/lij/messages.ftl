@@ -499,14 +499,25 @@ faq-where-src-from-2-a =
     
     Ti peu védde o testo originale inte sta <githubLink>cartella de GitHub</githubLink>.
 faq-why-not-ask-read-q = Perché no domandæ a-e gente de leze da di libbri ò articoli de Wikipedia in tante lengue?
-faq-why-not-ask-read-a = Pe no limitâ e poscìbile aplicaçioìn do dataset Common Voice, émmo decîzo de adêuviâ unicaménte e frâze che són disponìbile co-a licénsa Creative Commons (CC0). O stàndar CC0 rénde ciù difìçile trovâ e arechéugge frâze adàtte, ma garantîsce a chiónque o dirìtto de adêuviâ i dæti acugéiti sénsa restriçioìn d'ûzo o bezéugno d'aotorizaçión da pàrte de Mozilla. A-a fìn di fæti, noiâtri voêmo ch'o dataset moltiléngoa o l'àgge mêno restriçioìn poscìbile, de mòddo da êse adêuviòu liberaménte da chiónque, conpréizi riçercatoî, universcitæ, startup, govèrni, òrganizaçioìn a motîvi sociâli, e diletànti.
-faq-why-account-q = Perché mi doviæ registrâ 'n cónto?
-faq-is-account-public-q = E informaçioìn in sciô mæ cónto són pùbliche?
-faq-how-privacy-q = Cómme aseghiæ l'anonimâto e o rispètto da vìtta privâ da génte che l'à regalòu e seu vôxe?
-faq-what-determine-identity-q = Cöse scignificâ che o l'é proibîo de «determinâ l'identitæ» de vôxe prezénte into dataset de Common Voice?
+faq-why-not-ask-read-a = Pe no limitâ e appricaçion poscibile do dataset Common Voice, emmo stabilio d’addeuviâ unicamente e frase che en disponibile co-a liçensa Creative Commons (CC0). O standard CC0 o rende ciù diffiçile trovâ e arrecheugge de frase, ma o garantisce à chisesegge o drito d’addeuviâ i dæti arrecuggeiti sensa restriçioin de deuvia ò beseugno d’autorizzaçion da-a parte de Mozilla. A-a fìn di fæti, niatri voemmo che o dataset moltilengua o l’agge e ciù pöche restriçioin che se peu, de mòddo da ëse addeuviou in libertæ da chisesegge, compreiso reçercatoî, universcitæ, startup, governi, organizzaçioin soçiale, e hobbyisti.
+faq-why-account-q = Perché doviæ registrâ un conto?
+faq-is-account-public-q = E informaçioin in sciô mæ conto son pubriche?
+faq-how-privacy-q = Comme asseghiæ l’anonimato e o respetto da privacy de gente che dan a seu voxe?
+faq-how-privacy-a = Tutte e registraçioin into dataset en anonimizzæ pe elimiâ quæsesegge informaçion personale da-a quæ se peu identifiâ o donatô. Quande un conlaboratô o dà di dæti demografichi pe mezo do seu profî, ste informaçioin en scassæ da-e registraçioin vocale primma de ëse misse à dispoxiçion pe-o descarrego; pe de ciù, no en mai reise pubriche in sciâ pagina de profî do conlaboratô.
+faq-what-determine-identity-q = Cöse veu dî ch’o l’é proibio de «determinâ l’identitæ» de voxe presente into dataset de Common Voice?
+faq-what-determine-identity-a =
+    O dataset de Common Voice a l’é unna resorca averta e pubrica ch’a se peu addeuviâ pe creâ unna varietæ de appricaçioin con tecnologia vocale. Pe proteze i nòstri contributoî, domandemmo à quelli che descarregan o dataset de Common Voice de respettâ a privacy di contributoî.
+    
+    Scassemmo e informaçioin che permettan d’identifiâ i locutoî da tutte e registraçioin do dataset. Quande ti descarreghi o dataset, ti açetti che no ti proviæ à determinâ l’identitæ de nisciun contributô. Veu dî che no ti peu provâ à ligâ e informaçioin into dataset a-e informaçioin personale de un collaboratô. À tutte e mainee, ti peu addeuviâ o dataest pe contrue de appricaçioin de reconoscimento vocale, reconoscimento do locutô ò pæge, con ligâ pe exempio e informaçioin into dataset con de atre informaçioin za presente into dataset.
+faq-what-is-cv = Cös’o l’é Common Voice?
+faq-using-cv = Addeuviâ Common Voice
+faq-description = Common Voice o l’é parte de unn’iniçiativa de Mozilla pe mostrâ a-e machine comme parla e persoñe inta vitta reale.
+faq-search-for-answers =
+    .label = Çerca de repliche
 
 ## ABOUT US
 
+about-title = Perché Common Voice?
 
 ## How does it work section
 
