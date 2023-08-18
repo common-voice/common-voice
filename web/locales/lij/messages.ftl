@@ -954,52 +954,64 @@ report-grammar-or-spelling = Errô de grammatica ò de ortografia
 report-grammar-or-spelling-detail = A frase a l’à un errô de grammatica ò de ortografia.
 report-different-language = Atra lengua
 report-different-language-detail = A l’é scrita inte unna lengua despægia da quella che parlo.
+report-difficult-pronounce = Diffiçile da prononçiâ
+report-difficult-pronounce-detail = A l’à de poule diffiçile da leze ò da prononçiâ.
+report-offensive-speech = Descorso offenscivo
+report-offensive-speech-detail = Sta registraçion a l’addeuvia un lenguaggio irrespettoso ò offenscivo.
 report-other-comment =
-    .placeholder = Comento
-success = Operaçion ariescia
+    .placeholder = Commento
+success = Operaçion arriescia
 continue = Vanni avanti
+report-success = Segnalaçion mandâ.
 
 ## Goals
 
-streaks = Perîodi recòrd
+streaks = Tracce
 days =
     { $count ->
-        [one] Giórno
-       *[other] Giórni
+        [one] Giorno
+       *[other] Giorni
     }
 recordings =
     { $count ->
-        [one] Registraçiòn
-       *[other] Registraçioìn
+        [one] Registraçion
+       *[other] Registraçioin
     }
 validations =
     { $count ->
-        [one] Convalidaçiòn
-       *[other] Convalidaçioìn
+        [one] Convalidaçion
+       *[other] Convalidaçioin
     }
 
 ## Dashboard
 
-your-languages = E teu léngoe
-toward-next-goal = Vèrso o pròscimo òbietîvo
-clips-you-recorded = Registraçioìn che t'æ inserîo
-clips-you-validated = Registraçioìn quæ t'æ convalidòu
-todays-recorded-progress = Progrèsso de Common Voice d'anchêu in scê registraçioìn fæte
-todays-validated-progress = O progrèsso de Common Voice d'ancheu in scê registraçioìn convalidæ
-stats = Statìstiche
+your-languages = E teu lengue
+toward-next-goal = Verso o pròscimo obiettivo
+goal-reached = Obiettivo razzonto
+clips-you-recorded = Registraçioìn che t'æ azzonto
+clips-you-validated = Registraçioin che t’æ verificou
+todays-recorded-progress = Progresso de Common Voice d’ancheu in scê registraçioin azzonte
+todays-validated-progress = O progresso de Common Voice d’ancheu in scê registraçioìn verificæ
+stats = Statistiche
 awards = Premmi
 you = Ti
-everyone = Tùtti
-contribution-activity = Contribûti
-top-contributors = Contribotoî prinçipæ
-recorded-clips = Registraçioìn fæte
-validated-clips = Registraçioìn convalidæ
-total-approved = Totâle aprovòu
-overall-accuracy = Precixón conplescìva
-set-visibility = Inpòsta a mæ vixibilitæ
+everyone = Tutti
+contribution-activity = Contribuçioin
+top-contributors = Contributoî prinçipæ
+recorded-clips = Registraçioin fæte
+validated-clips = Registraçioin verificæ
+total-approved = Totale approvou
+overall-accuracy = Preçixon globale
+set-visibility = Impòsta a mæ vixibilitæ
+visibility-explainer = St’impostaçion a contròlla a vixibilitæ inta clascifica. Quand’a l’é ascosa, o teu progresso o saià privou. Veu dî che a teu föto, o teu nomme de casaña e o teu progresso o no compaiâ inta clascifica. Ammia che a clascifica ghe mette { $minutes } menuti pöcassæ pe mettise à giorno.
+visibility-overlay-note = Arregòrdo: l’opçion Vixibile a peu ëse cangiâ into <profileLink>Profî</profileLink>.
+show-ranking = Fanni vedde a mæ poxiçion
 
 ## Custom Goals
 
+get-started-goals = Comensa à addeuviâ i obiettivi
+create-custom-goal = Crea un obiettivo personâ
+goal-type = Quæ o l’é o teu obiettivo?
 both-speak-and-listen = L'un e l'atro
 both-speak-and-listen-long = L'un e l'atro (Parla e ascolta)
 easy-difficulty = Façile
