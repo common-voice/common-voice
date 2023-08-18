@@ -578,18 +578,53 @@ about-nav-playbook = Descreuvi comme piggiâ parte
 ## What is a language
 
 about-playbook-what-is-language = Cös’a l’é unna lengua in sce Common Voice?
+about-playbook-what-is-language-content-1 = Gh’é tante mainee pe definî cös’a l’é unna lengua. Into campo di modelli de reconoscimento vocale, Common Voice o suggerisce de conçentrâse in sciâ «comprensibilitæ reçiproca», saieiva à dî «e persoñe che parlan sta lengua peuan capîse se preuvan à parlâ tra de lê?».
+about-playbook-what-is-language-content-2 = Voemmo che i modelli vocali pòssan accapî megio unna grande diverscitæ de persoñe. Pe arriescîghe, un dataset vocale o l’à da representâ ben ben de persoñe despæge.
+about-playbook-what-is-language-content-3 = Gh’é de lengue che son ben ben variabile inta seu grammatica, lescico e pronoçia. Pe sta razon, do 2022 emmo <ctaLink>azzonto e «Variante»</ctaLink>. Questo o dâ a-e communitæ unna mainea de distingue e seu lengue drento a-o dataset.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Comme fasso à azzonze unna lengua?
+about-playbook-how-add-language-content-1 =
+    Pe primma cösa, ammia se a teu lengua <languageLink>a gh’é za</languageLink>.
+    S’a no gh’é, ti peu <languageRequestLink>domandâ d’azzonze a teu lengua</languageRequestLink>.
+    Gh’é doe fase: a traduçion do scito, e l’arrecuggeita de frase.
+about-playbook-how-add-language-translating-heading = Traduçion do scito
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ammia a nòstra guidda in sce comme addeuviâ Pontoon</translateVideoLink>.
+about-playbook-how-add-language-translating-content-2 =
+    Pe-e traduçioin, addeuviemmo un instrumento de Mozilla dito <pontoonLink>Pontoon</pontoonLink>. Ponto o l’à ben ben de lengue,
+    ma se a teu lengua a no gh’é ti peu <pontoonRequestLink>domandâ che a teu lengua a segge azzonta</pontoonRequestLink>.
+    Dapeu, pe rende a lengua disponibile in sce Common Voice,
+    <githubRepoLink>domanda che a lengua a segge azzonta in sce GitHub</githubRepoLink>. <localizationFragment>Lezi de ciù in sciâ traduçion do scito</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Arrecuggeita de frase
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ammia a nòstra guidda in sce Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Ti peu <sentenceCollectorLinkAdd>azzonze un numero piccin de frase</sentenceCollectorLinkAdd>,
+    ò donca ti peu <bulkImportDocsLink>importâ de frase in blòcco pe mezo de GitHub</bulkImportDocsLink>.
+    Ammia che e frase an da ëse disponibile co-a liçensa <licenseLink>CC0 (ò pubrico dominio)</licenseLink>, ò ti peu scrive e teu.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Lezi de ciù in sce l’arrecuggeita de frase</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Comme fonçioña a localizzaçion do scito?
+about-playbook-how-localize-content-1 = A traduçion do scito de Common Voice a l’é fæta pe mezo de <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Crea un conto</pontoonAccountLink> se no ti gh’é l’æ za. Dapeu, çerni a teu lengua <strong>(«team»)</strong>e çerni o progetto <pontoonCvLink>Common Voice</pontoonCvLink>. Ghe saià di documenti da tradue. Sciacca in sce un, e ti veddiæ de poule in ingleise e un campo pe traduile.
+about-playbook-how-localize-content-3 = A traduçion a l’é da l’ingleise, ma ti peu ammiâ di <strong>suggerimenti</strong> inte atre lengue. Sciacca in sce l’icona do <strong>profî</strong>, dapeu <strong>impostaçioin</strong>, e azzonzi e atre lengue che ti parli. Dabasso in sciâ drita ghe saià unna lista de traduçioin dito <strong>Locales</strong>. E traduçioin compaiscian in sciô scito dòppo un giorno.
+about-playbook-how-localize-content-4 = O scito o l’é pronto pe ëse inandiou quand’o l’é completo a-o 75%.
+about-playbook-how-localize-content-5 = Ammia o nòstro video de instruçion
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Comme fasso à azzonze de frase?
+about-playbook-how-add-sentences-content-1 = O <strong>Sentence Collector</strong> o l’é un instrumento pe arrecheugge e verificâ e frase de pubrico dominio. T’aviæ da <scAccountLink>creâ un conto</scAccountLink>. Dapeu, azzonzi a teu lengua in sciô teu <strong>Profî</strong>. Ti peu <strong>Azzonze</strong> de frase ò <strong>Verificâ</strong> quelle za azzonte.
+about-playbook-how-add-sentences-content-2 = E frase an da ëse verificæ e açettæ da doe persoñe pe ëse azzonte à Common Voice. Ti peu fâ de linie guidda pe-a teu lengua <languageGuidelinesLink>chì</languageGuidelinesLink>. E frase an da ëse into <licenseLink>pubrico dominio</licenseLink> e ciù curte de 15 poule. Ti peu domandâ a-o proprietäio de un testo de rendilo <waiverLink>CC0 co-a nòstra proçedua de deroga</waiverLink>, e mandânelo à commonvoice@mozilla.com.
+about-playbook-how-add-sentences-content-3 = Ti peu addeuviâ o <scraperLink>Sentence extractor</scraperLink> pe ottegnî de breve frase da Wikipedia.
+about-playbook-how-add-sentences-content-4 = E frase che en stæte validæ son esportæ tutti i mäcordì, e e disponibile da-a verscion apreuvo.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Comme fasso pe registrâ in boña qualitæ?
+about-playbook-how-record-content-1 = Parla co-a teu voxe normale! A mainea che ti parli a l’é benvegnua chì: voemmo o teu açento coscì comm’o l’é, e voemmo o teu sòlito volume, stilo e intonaçion.
 
 ## How to grow language
 
