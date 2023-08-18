@@ -1162,6 +1162,28 @@ contribution-criteria-page-title = Critëi de contribuçion
 contribution-criteria-page-description = Descreuvi à cöse t’æ dâ a mente quande ti senti e registraçioin e ascì comme ti peu amegioâ e teu!
 contribution-for-example = pe exempio
 contribution-misreadings-title = Erroî de lettua
+contribution-misreadings-description = Quande ti senti, contròlla con attençion che quello che l’é stæto registrou o corresponde exattamente à quello che gh’é scrito, e refua a registraçion se gh’é di erroî (quelli piccin ascì).<br />Tra i erroî commun gh’é:
+contribution-misreadings-description-extended-list-1 = No l’é stæto lezuo i <strong>articoli indeterminativi</strong> («un», «unna».) ò <strong>determinativi</strong> («i», «a», «e», «o», «l’») a-o comenso da registraçion.
+contribution-misreadings-description-extended-list-2 = No l’é stæto lezuo a <strong>vocale finale</strong> de unna poula.
+contribution-misreadings-description-extended-list-3 = Lettua de forme contræte che no en presente into testo originâ, comme «zoeno» in cangio de «zoveno», ò vice versa.
+contribution-misreadings-description-extended-list-4 = A poula finale a l’é taggiâ, perché a registraçion a l’é stæta fermâ tròppo fito.
+contribution-misreadings-description-extended-list-5 = Ciù tentative de leze unna poula.
+contribution-misreadings-example-1-title = I dinosauri zaganti do Triassico.
+contribution-misreadings-example-2-title = I dinosauro zagante do Triassico.
+contribution-misreadings-example-2-explanation = [Dovieiva ëse «dinosauri»]
+contribution-misreadings-example-3-title = I dinosauri zaganti do Triassi-.
+contribution-misreadings-example-3-explanation = [A registraçion a termina avanti da fin de l’urtima poula]
+contribution-misreadings-example-4-title = I dinosauri zaganti do Triassico. Scì.
+contribution-misreadings-example-4-explanation = [L’é stæto registrou do testo de ciù]
+contribution-misreadings-example-5-title = Lê a l’é unn’amiga.
+contribution-misreadings-example-6-title = Lê o l’é unn’amigo.
+contribution-misreadings-example-6-explanation = [Dovieiva ëse «un amigo»]
+contribution-misreadings-example-7-title = Lê a no l’é unn’amiga.
+contribution-misreadings-example-7-explanation = [«no» o no l’é presente inta frase originale]
+contribution-misreadings-example-8-title = Lê a l’é unna meistra.
+contribution-misreadings-example-8-explanation = [O contegnuo o no corresponde]
+contribution-varying-pronunciations-title = Variaçioin de prononçia
+contribution-varying-pronunciations-description = Fanni attençion avanti de refuâ unna registraçion inta que, pe ti, o lettô o l’à addeuvio unna prononçia no boña, ò o l’à misso mâ l’açento. In gio pe-o mondo s’addeuvia ben ben de prononçie despæge e magara ghe n’é de quelle che no t’æ mai sentio da-e teu bande. Pe piaxei ammia d’ëse flescibile, comme segno de respetto pe e persoñe che no parlan comme ti.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
