@@ -1071,26 +1071,62 @@ share-goal = Scompartisci o mæ obiettivo
 delete-q = Ti veu domandâ ascì de scancellâ e teu registraçioin vocale o ti veu conservâle into dataset de Common Voice?
 keep = Conserva
 remove = Scancella
-keep-info = E teu registraçioìn anònime arestaiàn into dataset de Common Voice. Unn-a vòtta eliminòu o teu profî, no ti poriæ ciù domandâ che ségian scancelæ.
-remove-info = Ezaminiêmo a teu domànda de scancelaçión de teu registraçioìn vocâle da-o dataset. Se a domànda a saiâ aprovâ, contatiêmo chi o l'æ descaregòu o dataset, e ghe domandiêmo de scancelâ e teu registraçioìn vocâle.
+keep-info = E teu registraçioin anònime arrestian into dataset de Common Voice. Unna vòtta eliminou o teu profî, no ti porriæ ciù domandâ che seggian scancellæ.
+remove-info = Examiniemo a teu domanda de scancellaçion de teu registraçioin vocale da-o dataset. Se a domanda a saià approvâ, contattiemo chi o l’à descarregou o dataset, e ghe domandiemo de scancellâ e teu registraçioin vocale.
 why-delete-recordings =
-    E registraçioìn de Common Voice són utilizæ da studiôzi, aziénde picìnn-e e apascionæ de riconosciménto vocâle pe perfeçionâ e fâ crésce risòrse disponìbile publicaménte còmme modélli vocâli.
+    E registraçioin de Common Voice son addeuviæ da academichi, dite picciñe e appascionæ de reconoscimento vocale pe perfeçionâ e fâ cresce e resorse disponibile pubricamente comme i modelli vocali.
     
-    Ti peu spiêgâne perché t'eu scancelâ e teu registraçioìn?
-profile-form-delete = Scancèlla profî
+    Ti peu dîne perché ti veu scancellâ e teu registraçioin?
+profile-form-delete = Scancella profî
 
 ## Profile Download
 
+download-q = Ti veu descarregâ i teu dæti?
+download-info = Dinne cöse ti veu descarregâ:
+download-profile-title = Profî
+download-profile-info = O comprende emai, nomme de casaña e e informaçioin demografiche disponibile
+download-profile-size = Quarche byte
+download-recordings-title = Registraçioin
+download-recordings-info = Comprende i mp3 e e frase ligæ. Peu voeighe do tempo pe-a preparaçion
+download-recordings-size = Pe-o sòlito di megabyte
+download-recordings-unavailable = No ti peu domandâ e teu registraçioin tanto che gh’é za unn’atra domanda.
+download-recently-requested = Ti peu domandâ un neuvo descarregamento de teu registraçioin tutti i { $days } giorni.
+download-size = Dimenscion
+download-selected = Seleçionou
+download-start = Descarrega i dæti do profî
+download-request = Domanda e registraçioin
+download-requests = Vege domande de descarregamento de registraçioin
+download-requests-info = Quande ti domandi e teu registraçioin, ê compillemmo inte un ò ciù tanti ZIP. E teu domande passæ:
+download-request-button = Descarrega
+download-request-title = { $created }
+download-request-description = { $clipCount } registrazioni vocali, dimensione totale dell’archivio { $size }. Scade a-i { $expires }.
+download-request-archive-single = File ZIP scingolo ch’o contëgne
+download-request-archive-multiple = Dividdi inte { $archiveCount } file ZIP che contëgnan
+download-request-assembling-description = Semmo apreuvo à mette insemme i teu file. Pe piaxei, contròlla ciù tardi.
+download-request-refresh-button = Metti à giorno
+download-request-modal-title = Ligammo pe descarregâ
+download-request-modal-description = I ligammi pe descarregâ i teu file ZIP en chì.
+download-request-link-text = Zip n°{ $offset } in sce { $total }
+download-request-metadata-link = Testo da frase
+download-request-link-single = Ti peu ascì copiâ e incollâ i URL diretti into download manager ch’o t’ê ciù cao. Descazzian de chì à 12 oe, ma ti peu vegnî inderê in sce sta pagina e generâne di atri quande ti veu.
 
 ## Landing
 
-profile-not-required = Registrâ 'n profî o no l'é òbligatöio pe colaborâ, ma o l'é incoragiòu
+welcome-staff = Benvegnuo, membro de { $company }!
+help-contribute = Crea un profî Common Voice e doña a teu voxe pe aggiuttâne à construe un dataset diverscificou e open source.
+login-company = Intra / Scrivite con l’addresso de pòsta de { $company }
+profile-not-required = Avei un profî o no l’é neçessäio, ma o l’é megio.
+read-more-about = Lezi de ciù in sciâ nòstra pagina Informaçioin
 
 ## DemoLayout
 
+demo-get-started = Comensemmo
+demo-welcome = Benvegnuo in sce Common Voice
+demo-welcome-subheader = Ti veu saveine de ciù e piggiâ parte a-o progetto?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice o l’é o dataset molti-lengua e pubrico o ciù grande a-o mondo.
 
 ## Demo Account
 
