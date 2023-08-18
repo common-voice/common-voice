@@ -772,25 +772,28 @@ resource-playbook-info = <playbookLink>Treuva di conseggi</playbookLink> in sci�
 data-other-librispeech-description = LibriSpeech o l’é un corpus ch’o l’à 1000 oe pöcassæ de registraçioin in lengua ingleise à 16kHz, træte da-a lettua di audiolibbri do progetto LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = O corpus TED-LIM o l'é realizzou con de registraçioin audio de conferense e e seu trascriçioin disponibile in sciô scito TED.
-data-other-voxforge-description = VoxForge o l'é stæto creòu apoxitaménte pe arechéugge trascriçioìn de detâti da dêuviâ inti motoî de riconosciménto vocâle de bàdda e lìberi.
-data-other-tatoeba-description = Tatoeba a l'é 'n gràn database che arechéugge frâze, traduçioìn, e registraçioìn vocâle pe l'aprendiménto de léngoe. Sto descaregaménto contégne tràcce òudio de ingléize parlòu, registræ da-a comunitæ de Tatoeba.
-your-feedback = Ti gh'æ de idêa in sce cómme megioâ o dataset de Common Voice? Fànelo savéi in sce Discourse
-go-discourse = Vànni in sce Discourse
-missing-language = No ti trêuvi a teu léngoa in sciô dataset? Pe propón-ine unn-a, vanni in sciâ pàgina Léngoe.
-go-languages-page = Vànni a-a pàgina de-e léngoe
-ready-to-validate = T'ê prónto a convalidâ e frâze?
-more = Âtro
+data-other-voxforge-description = VoxForge o l'é stæto creou pròpio pe arrecheugge de transcriçioin de dettati da addeuviâ inti motoî de reconoscimento vocale de badda e open source.
+data-other-tatoeba-description = Tatoeba a l'é un grande database ch’o l’arrecheugge frase, traduçioin, e registraçioin vocale pe l'apprendimento de lengue. Sto descarregamento o l’à di dæti audio de ingleise parlou, stæti registræ da-a communitæ de Tatoeba.
+your-feedback = Ti gh’æ de idee in sce comme amegioâ o dataset de Common Voice? Fannelo savei in sce Discourse
+go-discourse = Vanni in sce Discourse
+missing-language = No ti treuvi a teu lengua in sciô dataset? Pe propoñine uña, vanni in sciâ pagina Lengue.
+go-languages-page = Vanni a-a pagina Lengue
+ready-to-validate = T’ê pronto à verificâ e frase?
+more = Atro
 close = Særa
-download = Descàrega
+download = Descarrega
 dataset-version = Verscion
+sha256-checksum-copied = Checksum SHA256 stæto copiou!
+sha256-checksum-copied-error = No emmo posciuo copiâ o checksum SHA256
+clipboard-not-supported = Apponti no supportæ
 
 ## Download Modal
 
-download-title = Descaregaménto comensòu
-download-helpus = Agiùtine a radunâ na comunitæ de persónn-e interesæ a-e tecnologîe vocâle, résta 'n contàtto vîa pòsta eletrònica.
+download-title = Descarregamento inandiou.
+download-helpus = Aggiuttine à construe unna communitæ in scê tecnologie vocale, resta in contatto pe pòsta elettrònica.
 download-form-email =
-    .label = Inserìsci o teu indirìsso de pòsta eletrònica
-    .value = Graçie, te contatiêmo fîto.
+    .label = Metti o teu adresso de pòsta elettrònica
+    .value = Graçie, te contattiemo fito.
 download-back = Tórna a-e bâze de dæti de Common Voice
 download-no = No, gràçie
 
