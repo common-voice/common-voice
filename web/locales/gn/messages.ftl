@@ -1309,7 +1309,7 @@ sc-howto-findpd-partner-2 = Umi ñe’ẽkuaahára avei oipytyvõkuaa, eñe’�
 
 sc-my-title = Che ñe’ẽjuaju
 sc-my-loading = Emyanyhẽ ne ñe’ẽjuaju…
-sc-my-err-fetching = Ojavy ehekakuévo ñe'ẽjuaju. Eha’ãjey ag̃amieve.
+sc-my-err-fetching = Ojavy ehekakuévo ñe’ẽjuaju. Eha’ãjey ag̃amieve.
 sc-my-no-sentences = ¡Ndojejuhúi ñe’ẽrysýi!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
