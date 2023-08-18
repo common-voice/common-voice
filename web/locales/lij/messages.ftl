@@ -1187,6 +1187,16 @@ contribution-varying-pronunciations-description = Fanni attençion avanti de ref
 contribution-varying-pronunciations-description-extended = Se però ti pensi che o lettô o no l’à mai visto quella poula, e o l’à fæto unn’ipòtexi sbaliâ da seu prononçia, refua a registraçion. Se no t’ê seguo, addeuvia o pommello Passa.
 contribution-varying-pronunciations-example-1-title = O l’é anæto in viægio.
 contribution-varying-pronunciations-example-1-explanation = [A poula «viægio» a peu ëse lezua ascì comme «viagio»]
+contribution-varying-pronunciations-example-2-title = Veuggio canta.
+contribution-varying-pronunciations-example-2-explanation = [E vocale longe s’an da prononçiâ delongo, donca «cantâ»]
+contribution-background-noise-title = Sciato de fondo
+contribution-background-noise-description = Voemmo che l’algoritmo de machine learning o segge bon de gestî una grande varietæ de sciati de fondo. I sciati fòrti peuan anâ ben, à condiçion che se pòsse accapî tutto o testo. Unna muxica de fondo tranquilla a va ben, ma unna muxica con un volumme coscì fòrte da no poei sentî ògni poula a no va ben.
+contribution-background-noise-description-extended = Se a registraçion a s’interrompe o a l’à di borboggi ò di foî refuala, sempre che no se pòsse accapî tutta a registraçion.
+contribution-background-noise-example-1-fixed-title = <strong>[Stranuo]</strong> I dinosauri zaganti do <strong>[tossa]</strong> Triassico.
+contribution-background-noise-example-2-fixed-title = I dinosauri zag<strong>[tossa]</strong> do Triassico.
+contribution-background-noise-example-2-explanation = [Unna parte do testo a no se sente inta registraçion]
+contribution-background-noise-example-3-fixed-title = <strong>[Sciato]</strong> dinosauri zaganti do <strong>[sciato]</strong>-sico.
+contribution-background-voices-title = Voxe de fondo
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
