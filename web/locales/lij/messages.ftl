@@ -858,30 +858,39 @@ language-section-in-progress = In corso
 language-section-in-progress-new-description = Ste lengue son apreuvo à ëse desviluppæ da-a communitæ. E bare de avansamento marcan i progresci de ciascheduña lengua into proçesso de <localizationGlossaryLink>localizzaçion do scito web</localizationGlossaryLink> e d'<sentenceCollectionGlossaryLink>arrecuggeita de frase</sentenceCollectionGlossaryLink>.
 language-section-launched = Attive
 language-section-launched-description = Pe ste lengue o scito web o l'é stæto <localizationGlossaryLink>traduto</localizationGlossaryLink> do tutto, e l'<phraseCollectionGlossaryLink>arrecuggeita de frase</sentenceCollectionGlossaryLink> a l'à razzonto unna dimenscion tâ da garantî assæ materiale da <speakLink>registrâ</ speakLink> e <listenLink>sentî</listenLink>.
-languages-show-more = Móstra ciù eleménti
-languages-show-less = Móstra mêno eleménti
-language-meter-in-progress = Progrèsso
-language-total-progress = Totâle
+languages-show-more = Mostra ciù tanti elementi
+languages-show-less = Mostra ciù pöchi elementi
+language-meter-in-progress = Progresso
+language-total-progress = Totale
 language-search-input =
-    .placeholder = Çèrca
-language-speakers = Parlòu da
-localized = Localizæ
-sentences = Frâze
+    .placeholder = Çerca
+language-speakers = Parlou da
+localized = Localizzæ
+sentences = Frase
+language-validation-hours = Oe
+language-validation-progress = Progresso da verifica
 
 ## Contribution
 
-action-click = Clìcca
-action-tap = Sciàcca
-contribute = Contriboìsci
-listen = Sénti
-skip = Sâta
-shortcuts = Scorsaiéu
-goal-help-recording = T'æ agiutòu Common Voice a razónze <goalPercentage></goalPercentage> do òbietîvo giornaliêro { $goalValue } pe-e registraçioìn!
-goal-help-validation = T'æ agiutòu Common Voice a razónze <goalPercentage></goalPercentage> do òbietîvo giornaliêro { $goalValue } pe-e convalidaçioìn!
-contribute-more = T'ê prónto a fâne ancón { $count }?
-record-cta = Inàndia a registraçión
-record-platform-not-supported = A piatafórma in ûzo a no l'é atoalménte suportâ.
-record-platform-not-supported-desktop = In sce computer da scrivanîa ti peu descaregâ l'ùrtima versción:
+action-click = Sciacca
+action-tap = Sciacca
+contribute = Contribuisci
+listen = Senti
+write = Scrivi
+review = Verifica
+skip = Passa
+shortcuts = Scorsaieu
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> registraçion
+       *[other] <bold>{ $count }</bold> registraçioin
+    }
+goal-help-recording = T’æ aggiuttou Common Voice à razzonze <goalPercentage></goalPercentage> de l’obiettivo cotidian { $goalValue } pe-e registraçioin!
+goal-help-validation = T’æ aggiuttou Common Voice à razzonze <goalPercentage></goalPercentage> de l’obiettivo cotidian { $goalValue } pe-e verifiche!
+contribute-more = T’ê pronto à fâne ancon { $count }?
+record-cta = Inandia a registraçion
+record-platform-not-supported = Ne rincresce, a teu ciattaforma a no l’é supportâ pe-o momento.
+record-platform-not-supported-desktop = In scî computer desktop ti peu descarregâ l’urtima verscion:
 record-must-allow-microphone = L'é necesâio consentî l'acesso a-o micròfono do dispoxitîvo.
 record-no-mic-found = Inposcìbile trovâ o micròfono.
 record-error-too-short = A registraçión a l'é tròppu brêve.
