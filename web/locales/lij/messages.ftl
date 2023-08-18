@@ -1256,6 +1256,7 @@ sc-howto-title = Guidda
 sc-howto-addlang-title = Azzonze de lengue pe contribuî
 sc-howto-addlang-text = Unna vòtta introu ti peu çerne e teu lengue inta seçion Profî.
 sc-howto-addsen-title = Azzonzi de neuve frase
+sc-howto-addsen-item-1 = Tutte e frase che ti mandi an da ëse sotta unna <wikipediaLink>liçensa de Pubrico Dominio (CC-0)</wikipediaLink>. Pe addeuviâ de euvie che no en into pubrico dominio, emmo creou un <cc0WaiverLink>modello d’Accòrdio de Contribuçion</cc0WaiverLink> pe-i titolæ do copyright ch’o veu donâ a seu euvia à Common Voice.
 
 ## MY SENTENCES
 
