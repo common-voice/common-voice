@@ -734,10 +734,12 @@ datasets-positioning =
     Sta pagina a veu ëse un ponto de referensa pe-i dataset de voxe open source e, da maniman che Common Voice o vëgne ciù grande, a l’avià ascì e nòstre neuve verscioin.
 language = Lengua
 download-dataset-header = Descarregamento do dataset
+download-delta-explainer = Emmo fæto di cangiamenti. I segmenti delta an solo che e registraçioin azzonte da l’urtima verscion. <deltaLink>Saccine de ciù in sce sti cangiamenti</deltaLink>.
+download-dataset-tag = Çerni o dataset da lengua che ti veu e a verscion che ti veu descarregâ.
 # File size in gigabytes
-size = Dimensción
-validated-hr-total = Totâle d'ôe convalidæ
-overall-hr-total = Totâle d'ôe conplescìve
+size = Dimenscion
+validated-hr-total = Oe totale verificæ
+overall-hr-total = Oe totale
 cv-license = Licénsa
 audio-format = Formòu òudio
 number-of-voices = Nùmero de vôxe
