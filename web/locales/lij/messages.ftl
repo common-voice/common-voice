@@ -658,55 +658,82 @@ about-playbook-how-access-dataset-content-2 = Se ti çerchi di instrumenti pe co
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Comme se piggia e deçixoin do progetto?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice o l’existe graçie à unna communitæ diverscificâ de attivisti, linguisti, data scientist, academichi e desviluppatoî da tutto o mondo. O progetto o l’é manezzou da-a Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = A nòstra governance a l’é basâ in sce sti prinçippi:
+about-playbook-how-project-governance-content-3 = Privaçy, seguessa e transparensa.
+about-playbook-how-project-governance-content-4 = A parteçipaçion da communitæ into proçesso de deçixon.
+about-playbook-how-project-governance-content-5 = Valô e reconoscimento.
+about-playbook-how-project-governance-content-6 = Responsabilitæ reçiproca.
+about-playbook-how-project-governance-content-7 = <governanceLink>Saccine de ciù in scî critëi de gestion do progetto.</governanceLink>
 
 ## Glossary
 
-glossary = Glosâio
-localization = Localizaçiòn
-localization-explanation = O l'é o nòstro procèsso pe tradûe e adatâ i contegnûi inte tànte léngoe.
+glossary = Glossäio
+localization = Localizzaçion
+localization-explanation = Sto ch’é o l’é o nòstro proçesso pe tradue e adattâ o contegnuo inte tante lengue.
 sentence-collection = Coleçión de frâze
-sentence-collection-explanation = Arechéugge frâze de pùblico domìnio, ò scrîvine de nêuve sótta licénsa de pùblico domìnio.
-hours-recorded-explanation = O contézzo de ôe de registraçiòn vocâle ch'émmo arecheugéito fìnn-a chi.
-hours-validated-explanation = O contézzo de ôe de registraçioìn vocâle che són stæte convalidæ da doî uténti in sce tréi co-in “Sci”. Sti progrèssi agiùttan a razónze o nòstro òbietîvo: 10 000 ôe.
-sst = Riconosciménto vocâle (Speech-to-text, STT)
-sst-explanation = E tecnologîe de riconosciménto vocâle (Speech-to-text, STT) convèrtan o parlòu in tèsto.
-de-identified = De-identificaçión
+sentence-collection-explanation = Arrecheugge de frase de pubrico dominio, ò scrivine de neuve che saian into pubrico dominio.
+hours-recorded-explanation = O conto de oe de registraçion vocale ch’emmo arrecuggeito finoua.
+hours-validated-explanation = O conto de oe de registraçion vocale ch’en stæte verificæ da doe casañe in sce træ con un «Scì». Sti progresci aggiuttan à razzonze o nòstro obiettivo: 10.000 oe.
+sst = Reconoscimento vocale (Speech-to-text, STT)
+sst-explanation = E tecnologie de reconoscimento vocale (Speech-to-text, STT) convertan a voxe inte testo.
+de-identified = De-identificaçion
+de-identified-explanation = O proçesso pe mezo do quæ e informaçioin do profî de un conlaboratô contegnue inte seu registraçioin en ascose quande en descarregæ comme parte do dataset.
 
 ## Error pages
 
+error-title-404 = Nisciuña pagina trovâ
+error-content-404 = Fòscia ti veu anâ in sce l’<homepageLink>intrâ</homepageLink>? Pe fâ unna domanda, pe piaxei intra inta <matrixLink>chat da communitæ in sce Matrix</matrixLink>, ammia i problemi za conosciui pe mezo de <githubLink>GitHub</githubLink> ò donca vanni in sciô <discourseLink>forum Discourse</discourseLink>.
+error-title-503 = Gh’é stæto unn’interruçion do servixo improvvisto
+error-content-503 = O scito o tornià o ciù fito che se peu. Pe e urtime notiçie, pe piaxei intra inta <matrixLink>chat da communitæ in sce Matrix</matrixLink>, ò donca vixita <githubLink>GitHub</githubLink> ò <discourseLink>o forum Discourse</discourseLink> per segnalâ ò saveine de ciù in scî problemi de fonçionamento do scito.
+error-code = Errô { $code }
 
 ## Data
 
-data-download-button = Descàrega i dæti de Common Voice
-data-download-yes = Sci
-data-download-deny = No
-data-download-license = Licénsa: <licenseLink>CC-0</licenseLink>
-data-download-modal = Saiàn descaregâti <size>{ $size }GB</size> de dæti. Procêde co-o descaregaménto?
-data-subtitle = Stémmo costroéndo 'n dataset de vôxe pùblico e avèrto, quæ chiónque poriéiva utilizâ pe svilupâ aplicaçioìn con supòrto vocâle.
-data-get-started = <speechBlogLink>Instruçioìn pe-o riconosciménto vocâle</speechBlogLink>
-data-other-title = Âtri dataset vocâli...
-data-other-goto = Vànni a { $name }
-data-other-download = Descàrega i dæti
-data-bundle-button = Descàrega 'n pachétto de dataset
-data-bundle-description = Dæti de Common Voice ciù tùtti i dataset precedénti.
-license = Licénsa: <licenseLink>{ $license }</licenseLink>
-license-mixed = Mésccio
-review-terms = Deuviàndo Common Voice, acètti e nòstre <termsLink>condiçioìn</termsLink> e l'<termsLink>informatìva in sciâ privacy</termsLink>
-terms-agree = Acètto
-terms-disagree = No acètto
-review-aborted = Caregaménto anulòu. Ti veu scancelâ e teu registraçioìn?
-review-submit-title = Sénti tórna e spedìsci
-review-submit-msg = Graçie pe-o teu contribûto!<lineBreak></lineBreak>Òua sénti tórna e registraçioìn chi de sótta e çèrni se spedîle.
-review-recording = Sénti tórna
-review-rerecord = Régistra tórna
-review-cancel = Scancélla a spediçión
-review-keep-recordings = Consèrva e registraçioìn
-review-delete-recordings = Scancèlla e mæ registraçioìn
+data-download-button = Descarrega i dæti de Common Voice
+data-download-yes = Scì
+data-download-deny = Na
+data-download-license = Liçensa: <licenseLink>CC-0</licenseLink>
+data-download-modal = Saià descarregou <size>{ $size }GB</size> de dæti. Anâ avanti à descarregâ?
+data-subtitle = Semmo apreuvo à creâ un dataset de voxe pubrico e averto, che chisesegge o peu deuviâ pe inandiâ de appricaçioin de tecnologia vocale.
+data-explanatory-text = Pensemmo che un dataset grande e disponibile a-o pubrico o sponcià l’innovaçion e unna concorrensa saña into campo de tecnologie vocale basæ in sciô machine learning. Sta chì a l’é unn’iniçiativa globale e invitemmo tutti à piggiâ parte. O nòstro fin o l’é de aggiuttâ à rende e tecnologie vocale ciù incluxive, de mòddo che pòssan reflette a diverscitæ de voxe do mondo.
+data-get-started = <speechBlogLink>Instruçioin pe-o reconoscimento vocale</speechBlogLink>
+data-other-title = Atri dataset vocali…
+data-other-goto = Vanni à { $name }
+data-other-download = Descarrega i dæti
+data-bundle-button = Descarrega un pachetto de dataset
+data-bundle-description = Dæti de Common Voice e tutti i atri dataset de d’ato ascì.
+release-version = Verscion
+dataset-date = Dæta
+license = Liçensa: <licenseLink>{ $license }</licenseLink>
+license-mixed = Mesccio
+data-download-singleword-title = Descarrega o segmento particolâ co-e poule scingole
+data-download-singleword-callout-v2 = Sto segmento o l’é basou in sce un caxo d’utilizzaçion particolâ e o l’à di dæti pe amegioâ o reconoscimento vocale de giffre e o reconoscimento de scì/na.
+review-terms = Con deuviâ Common Voice, açetti e nòstre <termsLink>condiçioin</termsLink> e l’<termsLink>informativa in sciâ privacy</termsLink>
+terms-agree = Açetto
+terms-disagree = No açetto
+review-aborted = Carregamento scassou. Ti veu scancellâ e teu registraçioin?
+review-submit-title = Senti torna e manda
+review-submit-msg = Graçie pe-e teu registraçioin!<lineBreak></lineBreak>Oua ti peu verificâle e mandâle chì dabasso.
+review-recording = Senti torna
+review-rerecord = Registra torna
+review-cancel = Scancella o carregamento
+review-keep-recordings = Conserva e registraçioin
+review-delete-recordings = Scancella e mæ registraçioin
 
 ## Datasets Page
 
-datasets-headline = Stémmo realizàndo 'n dataset de vôxe moltiléngoa e avèrto quæ chiónque poriâ utilizâ pe svilupâ aplicaçioìn con riconosciménto vocâle.
-language = Léngoa
+datasets-heading = Dataset
+datasets-headline = Semmo apreuvo à creâ un dataset de voxe molti-lengua e open source, che tutti peuan addeuviâ pe amegioâ e appricaçioin de reconoscimento vocale.
+datasets-positioning =
+    Pensemmo che un dataset grande e disponibile a-o pubrico o sponcià l’innovaçion e unna concorrensa saña into campo de tecnologie vocale basæ in sciô machine learning.
+    
+    O dataset molti-lengua de Common Voice o l’é za o ciù grande dataset de voxe pubrico de sta smersa, ma o no l’é o solo.
+    
+    Sta pagina a veu ëse un ponto de referensa pe-i dataset de voxe open source e, da maniman che Common Voice o vëgne ciù grande, a l’avià ascì e nòstre neuve verscioin.
+language = Lengua
+download-dataset-header = Descarregamento do dataset
 # File size in gigabytes
 size = Dimensción
 validated-hr-total = Totâle d'ôe convalidæ
