@@ -755,11 +755,16 @@ download-language = Descarrega { $language }
 validated-hours = Oe verificæ
 recorded-hours = Oe registræ
 whats-inside = Cöse gh'é drénto o dataset de Common Voice?
-want-dataset-update = Ti veu riçéive agiornaménti in scê nêuve verscioìn do dataset de Common Voice? Scrîvite a-a nòstra lìsta de spediçión.
-subscribe = Scrîvite
-get-started-speech = Inìçia co-o riconosciménto vocâle
-other-datasets = Âtri dataset de dæti vocâli
-feedback-q = Ti gh'é de drîte?
+dataset-description-hours =
+    E intræ do dataset en fæte da un solo file MP3 e un documento de testo correspondente. Unna boña parte de { $total } oe registræ a l’à ascì di metadæti demografichi comme etæ, genere e açento che peuan aggiuttâ à amegioâ a preçixon di motoî de reconoscimento vocale.
+    
+    O dataset a-o momento o l’à { $valid } oe verifiche in { $languages } lengue, ma semmo sempre chì che azzonzemmo atre voxe e lengue. Ammia a nòstra <languagesLink>pagina in sce lengue</languagesLink> pe domandâ l’azzonta de unna neuva lengua ò comensâ à conlaborâ.
+want-dataset-update = Ti veu avei de notiçie de quande pubrichemmo unna neuva verscion do dataset de Common Voice? Scrivite a-a nòstra newsletter.
+subscribe = Scrivite
+get-started-speech = Comensa co-o reconoscimento vocale
+other-datasets = Atri dataset vocali
+feedback-q = T’æ di suggerimenti?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ o l’é un <docsLink>toolkit open source</docsLink> pe-i reçercatoî che desviluppan di modelli conversaçionali de intelligensa artifiçià à l’avanguardia.
 data-other-librispeech-description = LibriSpeech a l'é 'na arecugéita de ciù ò mêno 1000 ôe de registraçioìn in léngoa ingléize a 16KHz, træta da-a letûa de oudiolìbbri do progètto LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = O corpus TED-LIM o l'é realizòu con registraçión òudio de conferénse e-e relatîve trascriçioìn disponìbile in sciô scìto TED.
