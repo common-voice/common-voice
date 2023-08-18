@@ -891,43 +891,69 @@ contribute-more = T’ê pronto à fâne ancon { $count }?
 record-cta = Inandia a registraçion
 record-platform-not-supported = Ne rincresce, a teu ciattaforma a no l’é supportâ pe-o momento.
 record-platform-not-supported-desktop = In scî computer desktop ti peu descarregâ l’urtima verscion:
-record-must-allow-microphone = L'é necesâio consentî l'acesso a-o micròfono do dispoxitîvo.
-record-no-mic-found = Inposcìbile trovâ o micròfono.
-record-error-too-short = A registraçión a l'é tròppu brêve.
-record-error-too-long = A registraçión a l'é tròppu lónga.
-record-error-too-quiet = O volùmme da registraçión o l'é tròppu bàsso.
-record-cancel = Anùlla  a nêuva registraçión.
-record-instruction = { $actionType }<recordIcon></recordIcon>, pöi lêzi a frâze a vôxe èrta
-record-stop-instruction = { $actionType }<stopIcon></stopIcon> quànde t'æ finîo
-record-three-more-instruction = Ancón træ!
-record-again-instruction = Benìscimo! <recordIcon></recordIcon> Regìstra a pròscima
-record-again-instruction2 = Contìnoa coscì, regìstra tórna <recordIcon></recordIcon>
-record-last-instruction = <recordIcon></recordIcon> L'ùrtima!
-review-tooltip = Sénti tórna e registraçioìn e, se l'é necesâio, ripêtile
-review-instruction = Sénti tórna e registraçioìn e, se l'é necesâio, ripêtile
-record-submit-tooltip = { $actionType } Invîa quànde t'ê prónto
-clips-uploaded = Registraçioìn caregæ
-record-abort-title = No ti veu finî a registraçión prìmma?
-record-abort-text = Se ti sciòrti òua ti perdiæ i progrèssi fæti
-record-abort-submit = Invîa e registraçioìn
-record-abort-continue = Tèrmina a registraçión
-record-abort-delete = Sciòrti e scancèlla e registraçioìn
-listen-instruction = { $actionType }<playIcon></playIcon> L'àn dîta bèn a frâze?
-listen-again-instruction = Òtimo travàggio! <playIcon></playIcon> Sénti tórna quànde t'ê prónto
-listen-3rd-time-instruction = Dôe fæte <playIcon></playIcon>, avànti 'n'âtra!
-listen-last-time-instruction = <playIcon></playIcon>L'ùrtima!
-record-button-label = Regìstra a teu vôxe
-share-title-new = <bold>Agiùtine</bold> a trovâ âtre vôxe
-target-segment-add-voice = Azonzi a teu voxe
+record-platform-not-supported-ios-non-safari = In sce iOS, addeuvia Safari pe attivâ a registraçion…
+record-must-allow-microphone = T’æ da autorizzâ l’accesso a-o micròfono.
+record-no-mic-found = Micròfono no attrovou.
+record-error-too-short = A registraçion a l’é tròppo breve.
+record-error-too-long = A registraçion a l’é tròppo longa.
+record-error-too-quiet = O volumme da registraçion o l’é troppo basso.
+record-cancel = Scancella a neuva registraçion
+record-instruction = { $actionType }<recordIcon></recordIcon>, dapeu lezi a frase à erta voxe
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> quande t’æ finio
+record-three-more-instruction = Ancon træ!
+record-again-instruction = Milia! <recordIcon></recordIcon> Registra a pròscima
+record-again-instruction2 = Vanni avanti coscì, registra torna <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> L'urtima!
+review-tooltip = Senti torna e registraçioin e, se l’é neçessäio, fannile torna
+share-clip = Scompartisci a teu registraçion
+share-common-voice = Scompartisci Common Voice
+review-instruction = Senti torna e registraçioin e, se l’é neçessäio, fannile torna
+record-submit-tooltip = { $actionType } Manda quande t’ê pronto
+clips-uploaded = Registraçioin carregæ
+record-abort-title = No ti veu finî a registraçion primma?
+record-abort-text = Se ti sciòrti oua ti perdiæ i progresci fæti
+record-abort-submit = Manda e registraçioin
+record-abort-continue = Termina a registraçion
+record-abort-delete = Sciòrti e scancella e registraçioin
+listen-instruction = { $actionType }<playIcon></playIcon> L’an lezzua ben a frase?
+listen-again-instruction = Bello travaggio! <playIcon></playIcon> Senti torna a registraçion quande t’ê pronto
+listen-3rd-time-instruction = Doe fæte <playIcon></playIcon>, avanti unn’atra!
+listen-last-time-instruction = <playIcon></playIcon> L’urtima!
+listen-empty-state = Emmo terminou e registraçioin da verificâ pe sta lengua…
+listen-loading-error =
+    No emmo posciuo carregâ de registraçioin da sentî.
+    Preuva torna ciù tardi.
+speak-empty-state = Emmo finio e frase da registrâ inte sta lengua…
+speak-empty-state-cta = Contribuisci de atre frase
+speak-loading-error =
+    No emmo posciuo carregâ de frase da fâte leze.
+    Pe piaxei, preuva torna ciù tardi.
+record-button-label = Registra a teu voxe
+share-title-new = <bold>Aggiuttine</bold> à trovâ de atre voxe
+keep-track-profile = Tëgni traccia do teu progresso con un profî
+login-to-get-started = Intra ò scrivite pe comensâ
+target-segment-first-card = T’æ apreuvo à contribuî o teu primmo segmento obiettivo
+target-segment-generic-card = T’æ apreuvo à contribuî à un segmento obiettivo
+target-segment-first-banner = Aggiutta à creâ o primmo segmento obiettivo de Common Voice in { $locale }
+target-segment-add-voice = Azzonzi a teu voxe
 target-segment-learn-more = Atre informaçioin
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Arrecuggeita de voxe
+contribute-sentence-collection-nav-header = Arrecuggeita de frase
 
 ## Reporting
 
-report = Denunçia
-report-title = Manda 'na denucia
+report = Denonçia
+report-title = Manda unna denonçia
+report-ask = Che problema t’æ trovou con sta frase?
+report-offensive-language = Lenguaggio offenscivo
+report-offensive-language-detail = A frase a l’addeuvia un lenguaggio irrespettoso ò offenscivo.
+report-grammar-or-spelling = Errô de grammatica ò de ortografia
+report-grammar-or-spelling-detail = A frase a l’à un errô de grammatica ò de ortografia.
+report-different-language = Atra lengua
+report-different-language-detail = A l’é scrita inte unna lengua despægia da quella che parlo.
 report-other-comment =
     .placeholder = Comento
 success = Operaçion ariescia
