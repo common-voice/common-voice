@@ -1014,16 +1014,63 @@ create-custom-goal = Crea un obiettivo personâ
 goal-type = Quæ o l’é o teu obiettivo?
 both-speak-and-listen = L'un e l'atro
 both-speak-and-listen-long = L'un e l'atro (Parla e ascolta)
+daily-goal = Obiettivo do giorno
+weekly-goal = Obiettivo da settemaña
 easy-difficulty = Façile
 average-difficulty = Medio
 difficult-difficulty = Difiçile
 pro-difficulty = Asperto
+lose-goal-progress-warning = Se ti cangi o teu obiettivo gh’é o reisego che ti perdi i teu progresci.
+want-to-continue = Ti veu anâ avanti?
+finish-editing = Ti veu finî i cangiamenti primma?
+lose-changes-warning = Se ti sciòrti oua, ti perdiæ i teu cangiamenti
+build-custom-goal = Crea un obiettivo personâ
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Aggiutta à razzonze { $hours } oa in { $language } con un obiettivo personâ
+       *[other] Aggiutta à razzonze { $hours } oe in { $language } con un obiettivo personâ
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Aggiutta Common Voice à razzonze { $hours } oa inte unna lengua con un obiettivo personâ
+       *[other] Aggiutta Common Voice à razzonze { $hours } oe inte unna lengua con un obiettivo personâ
+    }
+set-a-goal = Çerni un obiettivo
+cant-decide = T’ê indeçiso?
+activity-needed-calculation-plural = Un obiettivo de { $totalHours } oue o se peu ottegnî inte un pittin ciù de  { $periodMonths } meixi se { $people } persoñe registran { $clipsPerDay } frase a-o giorno.
+how-many-per-day = Milia! Quante registraçioin a-o giorno?
+how-many-a-week = Milia! Quante registraçioin a-a settemaña?
+which-goal-type = Ti veu registrâ, verificâ, ò tutti doî?
+receiving-emails-info = T’æ domandou de reçeive de email comme i arregòrdi di obiettivi, notiçie in scî progresci e e newsletter de Common Voice.
+not-receiving-emails-info = <bold>No</bold> ti reçeviæ e email comme i arregòrdi di obiettivi, e notiçie in scî progresci e e newsletter de Common Voice.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } registraçion
+       *[other] { $count } registraçioin
+    }
+help-share-goal = Aggiuttine à trovâ de atre voxe, scompartisci o teu obiettivo
+confirm-goal = Conferma l’obiettivo
+goal-interval-weekly = Da settemaña
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Scompartisci o teu obiettivo do giorno de { $count } registraçioin pe { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Scompartisci o teu obiettivo da settemaña de { $count } registraçioin pe { $type }
+share-goal-type-speak = Registrâ
+share-goal-type-listen = Verificâ
+share-goal-type-both = Registrâ e Verificâ
+# LINK will be replaced with the current URL
+goal-share-text = Ò creou un obiettivo personâ pe donâ a mæ voxe à #CommonVoice – aggiuttine à mostrâ a-e machine comme parla e persoñe { $link }
+weekly-goal-created = Obiettivo da settemaña creou
+daily-goal-created = Obiettivo do giorno creou
+track-progress = Tëgni traccia di progresci chì e inta teu pagina de statistiche.
+return-to-edit-goal = Pe cangiâ o teu obiettivo vegni torna chì quande ti veu.
+share-goal = Scompartisci o mæ obiettivo
 
 ## Profile Delete
 
-delete-q = T'eu domandâ ànche a scancelaçión de registraçioìn vocâle, ò preferìsci conservâle into dataset de Common Voice?
-keep = Consèrva
-remove = Scancèlla
+delete-q = Ti veu domandâ ascì de scancellâ e teu registraçioin vocale o ti veu conservâle into dataset de Common Voice?
+keep = Conserva
+remove = Scancella
 keep-info = E teu registraçioìn anònime arestaiàn into dataset de Common Voice. Unn-a vòtta eliminòu o teu profî, no ti poriæ ciù domandâ che ségian scancelæ.
 remove-info = Ezaminiêmo a teu domànda de scancelaçión de teu registraçioìn vocâle da-o dataset. Se a domànda a saiâ aprovâ, contatiêmo chi o l'æ descaregòu o dataset, e ghe domandiêmo de scancelâ e teu registraçioìn vocâle.
 why-delete-recordings =
