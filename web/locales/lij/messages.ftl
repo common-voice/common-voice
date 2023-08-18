@@ -1191,12 +1191,17 @@ contribution-varying-pronunciations-example-2-title = Veuggio canta.
 contribution-varying-pronunciations-example-2-explanation = [E vocale longe s’an da prononçiâ delongo, donca «cantâ»]
 contribution-background-noise-title = Sciato de fondo
 contribution-background-noise-description = Voemmo che l’algoritmo de machine learning o segge bon de gestî una grande varietæ de sciati de fondo. I sciati fòrti peuan anâ ben, à condiçion che se pòsse accapî tutto o testo. Unna muxica de fondo tranquilla a va ben, ma unna muxica con un volumme coscì fòrte da no poei sentî ògni poula a no va ben.
-contribution-background-noise-description-extended = Se a registraçion a s’interrompe o a l’à di borboggi ò di foî refuala, sempre che no se pòsse accapî tutta a registraçion.
+contribution-background-noise-description-extended = Se a registraçion a s’interrompe o a l’à di borboggi ò di foî, refuala (sempre che no se pòsse accapî tutta a registraçion).
 contribution-background-noise-example-1-fixed-title = <strong>[Stranuo]</strong> I dinosauri zaganti do <strong>[tossa]</strong> Triassico.
 contribution-background-noise-example-2-fixed-title = I dinosauri zag<strong>[tossa]</strong> do Triassico.
 contribution-background-noise-example-2-explanation = [Unna parte do testo a no se sente inta registraçion]
 contribution-background-noise-example-3-fixed-title = <strong>[Sciato]</strong> dinosauri zaganti do <strong>[sciato]</strong>-sico.
 contribution-background-voices-title = Voxe de fondo
+contribution-background-voices-description = Un broboggio carmo de fondo o peu anâ ben, ma no voemmo che a presensa de atre voxe pòsse portâ l’algoritmo à identificâ de poule che no en scrite into testo; pe-o sòlito questo o l’accapita quande unna televixon a l’é in fonçion ò quande gh’é quarchedun ch’o parla da-a vexin. Se ti peu sentî ciæamente de poule che no en into testo, t’æ da refuâ a registraçion.
+contribution-background-voices-description-extended = Se a registraçion a s’interrompe ò a l’à di borboggi ò di foî, refuala (sempre che no se pòsse accapî tutta a registraçion).
+contribution-background-voices-example-1-title = I dinosauri zaganti do Triassico. <strong>[lezuo da unna primma voxe]</strong>
+contribution-background-voices-example-1-explanation = Ti vëgni? <strong>[dito da unn’atra]</strong>
+contribution-volume-title = Volumme
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
