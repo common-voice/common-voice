@@ -1184,6 +1184,9 @@ contribution-misreadings-example-8-title = Lê a l’é unna meistra.
 contribution-misreadings-example-8-explanation = [O contegnuo o no corresponde]
 contribution-varying-pronunciations-title = Variaçioin de prononçia
 contribution-varying-pronunciations-description = Fanni attençion avanti de refuâ unna registraçion inta que, pe ti, o lettô o l’à addeuvio unna prononçia no boña, ò o l’à misso mâ l’açento. In gio pe-o mondo s’addeuvia ben ben de prononçie despæge e magara ghe n’é de quelle che no t’æ mai sentio da-e teu bande. Pe piaxei ammia d’ëse flescibile, comme segno de respetto pe e persoñe che no parlan comme ti.
+contribution-varying-pronunciations-description-extended = Se però ti pensi che o lettô o no l’à mai visto quella poula, e o l’à fæto unn’ipòtexi sbaliâ da seu prononçia, refua a registraçion. Se no t’ê seguo, addeuvia o pommello Passa.
+contribution-varying-pronunciations-example-1-title = O l’é anæto in viægio.
+contribution-varying-pronunciations-example-1-explanation = [A poula «viægio» a peu ëse lezua ascì comme «viagio»]
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
