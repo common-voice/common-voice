@@ -1202,6 +1202,13 @@ contribution-background-voices-description-extended = Se a registraçion a s’i
 contribution-background-voices-example-1-title = I dinosauri zaganti do Triassico. <strong>[lezuo da unna primma voxe]</strong>
 contribution-background-voices-example-1-explanation = Ti vëgni? <strong>[dito da unn’atra]</strong>
 contribution-volume-title = Volumme
+contribution-volume-description = Ghe saià de variaçioin naturale de volumme tra i lettoî. Refua a registraçion solo se o volumme o l’é coscì erto da interrompila ò – caxo ciù frequente – quande o l’é coscì basso che no ti peu sentî quello che se dixe sensa piggiâ o testo comme referensa.
+contribution-reader-effects-title = Emoçioin inta voxe di lettoî
+contribution-reader-effects-description = A ciù parte de registraçioin en de persoñe che parlan con un ton naturale. Ti peu açettâ, d’in tanto in tanto, e registraçioin che en sbraggiæ, mormoggiæ ò dite con un ton «drammatico». Refua e registraçioin cantæ e quelle fæte con unna voxe scintetizzâ da-o computer.
+contribution-just-unsure-title = No t’ê seguo?
+contribution-just-unsure-description = Se ti treuvi quarcösa de no trattou inte ste instruçioin, addeuvia o sæximo. Se no t’arriësci à deçidde, ti peu addeuviâ o pommello Passa pe anâ a-a registraçion apreuvo.
+see-more = <chevron></chevron> Ammia de ciù
+see-less = <chevron></chevron>Ammia ciù pöco
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1210,15 +1217,45 @@ contribution-volume-title = Volumme
 
 ## HEADER/FOOTER
 
+sc-header-home = Intrâ
+sc-header-how-to = Guidda
+sc-header-add = Azzonzi
+sc-header-review = Verifica
+sc-header-rejected = Frase refuæ
+sc-header-my = E mæ frase
+sc-header-statistics = Statistiche
+sc-header-profile = Profî
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Segnalla di problemi
+sc-footer-translate = Traduxi sta pagina
+sc-footer-report-copyright = Segnalla di problemi de copyright
+sc-footer-privacy = Privacy
+sc-footer-terms = Condiçioin de deuvia
+sc-footer-cookies = Cookie
+sc-login-signup-button = Intra / Scrivite
+sc-logout-button = Sciòrti
 
 ## HOME
 
+sc-home-title = Benvegnuo into Sentence Collector de Common Voice
+sc-home-intro =
+    O Sentence Collector o l’é parte do progetto <commonVoiceLink>Common Voice</commonVoiceLink>.
+    O permette a-o contributoî de arrecheugge e verificâ e frase creæ da-a communitæ. Ti peu addeuviâ sto instrumento ascì pe importâ e nettezzâ i corpora de pubrico dominio de dimenscion picciña ò media che t’æ trovou ò arrecuggeito. Tutte e frase an da ëse de pubrico dominio. E frase approvæ en esportæ tutte e settemañe into repository de Common Voice e pubricæ in sciô scito de Common Voice à ogni neuva missa à giorno.
+sc-home-collect-title = Arrecheuggi de frase
+sc-home-collect-text = Aggiuttine con scrive ò arrecheugge de frase de pubrico dominio.
+sc-home-review-title = Verifica e frase
+sc-home-review-text = Aggiuttine con verificâ a conformitæ de frase a-i critëi.
 
 ## GENERAL
 
+sc-languages-fetch-error = No emmo posciuo ottegnî e lengue disponibile. Pe-o momento no se peu contribuî. Pe piaxei, preuva torna ciù tardi.
 
 ## HOW-TO
 
+sc-howto-title = Guidda
+sc-howto-addlang-title = Azzonze de lengue pe contribuî
+sc-howto-addlang-text = Unna vòtta introu ti peu çerne e teu lengue inta seçion Profî.
+sc-howto-addsen-title = Azzonzi de neuve frase
 
 ## MY SENTENCES
 
