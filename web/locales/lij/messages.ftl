@@ -625,15 +625,36 @@ about-playbook-how-add-sentences-content-4 = E frase che en stæte validæ son e
 
 about-playbook-how-record-quality = Comme fasso pe registrâ in boña qualitæ?
 about-playbook-how-record-content-1 = Parla co-a teu voxe normale! A mainea che ti parli a l’é benvegnua chì: voemmo o teu açento coscì comm’o l’é, e voemmo o teu sòlito volume, stilo e intonaçion.
+about-playbook-how-record-content-2 = Ammia de no avei tròppo sciato de fondo: se deve poei sentîte de lengê.
+about-playbook-how-record-content-3 = Lezi e frase con attençion: no stâ à lasciâ feua, cangiâ ò azzonze de poule.
+about-playbook-how-record-content-4 = Ammia che a ciattaforma a segge apreuvo à registrâ avanti de mettite à parlâ, e che s’afferme solo quande t’æ terminou.
+about-playbook-how-record-content-5 = <accuracyLink>Saccine de ciù in scî critëi de verifica.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Comme se peu fâ cresce unna lengua in sce Common Voice?
+about-playbook-how-grow-language-content-1 = Pe mezo da creaçion de opportunitæ che permettan à unna varietæ de persoñe de contribuî à Common Voice, se garantisce che o dataset o pòsse ëse addeuviou da-e ciù tante casañe che se peu. Emmo creou de resorse e di modelli che ti peu addeuviâ pe questo obiettivo.
+about-playbook-how-grow-language-content-2 = Eventi
+about-playbook-how-grow-language-content-3 = Ti peu inandiâ di eventi pe aggiuttâ e gente à parteçipâ. L’é ciù façile de quante ti creddi. Ti peu fâlo in linia con unn’appricaçion de videoconferensa ò in persoña, se se peu. <eventTemplate>Ammia i modelli e e nòstre resorse pe inandiâ di eventi</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Social media
+about-playbook-how-grow-language-content-5 = Ti peu addeuviâ e ciattaforme de social media pe spantegâ o messaggio. Scompartisci di pòst che mostran l’importansa de l’evento, e contatta de atre persoñe che s’interessan a-i driti linguistichi, a-e tecnologie vocale de I.A. , ò a-i pregiudiçi inta tecnologia. Ammia di atri conseggi in sce comme <campaignLink>inandiâ unna campagna  in scî social media, compreiso di contegnui che ti peu addeuviâ</campaignLink>.
+about-playbook-how-grow-language-content-6 = Partnership e connescioin
+about-playbook-how-grow-language-content-7 = Treuva de atre gente che gh’é cao st’argomento. Porrieiva ëse de universcitæ, de scheue de lengua, di gruppi de attivisti ò de communitæ de data science. Contattili e mostrighe perché e comme peuan dâ unna man d’aggiutto. <outreachTemplates>Ammia i nòstri modelli de email</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Mostra a teu creativitæ!</strong> A teu communitæ linguistica a l’é unica, e sti chì en solo che pöchi mòddi pe inandiâ.
 
 ## How to validate
 
+about-playbook-how-validate = Comme fasso pe savei se unna registraçion a l’à da ëse approvâ?
+about-playbook-how-validate-content-1 = Se ti peu <strong>sentî</strong> e <strong>accapî</strong>, pe-o sòlito l’é o caxo de <strong>approvâ</strong>.
+about-playbook-how-validate-content-2 = <strong>No refuâ e registraçioin de persoñe che «an un açento» despægio da-o teu</strong> – l’é importante che o reconoscimento vocale o fonçioñe pe tutti.
+about-playbook-how-validate-content-3 = Se ti creddi che a prononçia a rende <strong>imposcibile a comprenscion</strong>, ò donca se <strong>gh’é tanto sciato de fondo</strong>, ò se gh’é <strong>de atre persoñe che parlan</strong>, aloa t’æ da refuâ a registraçion. <accuracyLink>Saccine de ciù in scî critëi de preçixon</accuracyLink>.
+about-playbook-how-validate-content-4 = Se unna registraçion a l’é refuâ da 2 persoñe, a l’é mesciâ inte unna parte separâ do dataset.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Comme pòsso ottegnî e addeuviâ o dataset?
+about-playbook-how-access-dataset-content-1 = Ti peu anâ in sciâ <datasetsPage>pagina di dataset</datasetsPage>, çerne a verscion e a lengua che ti veu, e descarregâla! I file en <metadataLink>ligæ à di metadæti</metadataLink>, comme e informaçioin demografiche e i dæti de convalida. T’æ da dâ un adresso de pòsta elettrònica pe descarregâ o dataset.
+about-playbook-how-access-dataset-content-2 = Se ti çerchi di instrumenti pe construe di modelli de ASR, ti peu contattâ de atre casañe da communitæ <discourseLink>in sce Discourse</discourseLink>.
 
 ## How are decisions made
 
