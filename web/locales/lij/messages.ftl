@@ -794,37 +794,70 @@ download-helpus = Aggiuttine à construe unna communitæ in scê tecnologie voca
 download-form-email =
     .label = Metti o teu adresso de pòsta elettrònica
     .value = Graçie, te contattiemo fito.
-download-back = Tórna a-e bâze de dæti de Common Voice
-download-no = No, gràçie
+download-back = Torna a-i dataset de Common Voice
+download-no = No, graçie
 
 ## Contact Modal
 
-contact-title = Mòdolo de contàtto
+contact-title = Mòdolo de contatto
 contact-form-name =
-    .label = Nómme
+    .label = Nomme
 contact-form-message =
-    .label = Mesàggio
-contact-required = *òbligatöio
+    .label = Messaggio
+contact-required = *obrigatöio
 
 ## Request Language Modal
 
-request-language-title = Richièsta de nêuva léngoa
+request-language-title = Domanda de neuva lengua
 request-language-form-language =
-    .label = Léngoa
-request-language-success-title = Richièsta de nêuva léngoa spedîa, gràçie.
-request-language-success-content = Fîto ti riçéiviæ instruçioìn in sce cómme azónze a teu léngoa a Common Voice.
-select-language = Seleçiónn-a 'na léngoa...
-other-language = Âtra léngoa
+    .label = Lengua
+request-language-success-title = Domanda de neuva lengua stæta mandâ, graçie.
+request-language-success-content = Fito ti reçeviæ de instruçioin in sce comme azzonze a teu lengua in sce Common Voice.
+select-language = Çerni unna lengua…
+other-language = Atra lengua
 
 ## Request Language Pages
 
+request-language-heading = Domanda de informaçioin in sce unna neuva lengua
+request-language-explanation-1 =
+    Ammia se a teu lengua a l’é disponibile inta <languagesPageLink>pagina Lengue de Common Voice</languagesPageLink>.
+    Se no, impi sto mòdolo e <strong>te mandiemo unn’email pe mostrâte comme azzonzila</strong>.
+request-language-explanation-2 =
+    Pe de ciù, <strong>faiemo savei a-o nòstro community manager che t’ê interessou</strong>, de mòddo ch’o
+    pòsse aggiuttâte e dâte de informaçioin de ciù.
+request-language-form-email =
+    .label = O teu adresso email
+request-language-form-info =
+    .label = Informaçioin in sciâ lengua
+request-language-form-info-explanation = Azzonzi tutte e informaçioin che ti peu in sciâ lengua. Ste informaçôin peuan comprende:
+request-language-form-info-explanation-list-1 = Nomme da teu lengua
+request-language-form-info-explanation-list-2 = Codixi <isoCodeLink>ISO</isoCodeLink>, se ti î sæ
+request-language-form-info-explanation-list-3 = Collegamenti à di sciti che peuan aggiuttâne à conosce megio a teu lengua
+request-language-google-recaptcha-required = Pe anâ avanti t’æ da completâ o reCAPTCHA
+request-language-google-recaptcha-error = Gh’é stæto un problema co-o reCAPTCHA. Pe piaxei, preuva torna.
+# Success page
+request-language-success-heading = Graçie! T’æ mandou unna neuva domanda de lengua
+request-language-success-list-1 =
+    Ti reçeiviæ de chì à no guæi unn’email
+    ch’a te mostrià i pasci pe azzonze a teu lengua à Common Voice
+request-language-success-list-2 =
+    O nòstro community manager o te contattià pe
+    aggiuttâte, e pe fâte savei se gh’é
+    za unna communitæ ch’a travaggia a-a teu lengua
+request-language-success-list-3 =
+    Se no ti reçeivi un messaggio da niatri de chì à dötrei giorni,
+    contattine à l’adresso <emailLink>{ $email }</emailLink>
+    e te contattiemo torna!
+request-language-error =
+    Peu dâse che no emmo reçevuo quella domanda. Manda unn’email direttamente
+    à l’adresso <emailLink>{ $email }</emailLink> e te contattiemo.
 
 ## Languages Overview
 
-language-section-in-progress = In córso
-language-section-in-progress-new-description = Ste léngoe són atoalménte in svilùppo da-a comunitæ. E bâre de avansaménto ìndican i progrèssi de ciaschedùnn-a léngoa into procésso de <localizationGlossaryLink>localizaçiòn do scìto web</localizationGlossaryLink> e d'<sentenceCollectionGlossaryLink>arecugéita de frâze</sentenceCollectionGlossaryLink>.
-language-section-launched = Òperatîve
-language-section-launched-description = Pe ste léngue o scito web a l'é stæto <localizationGlossaryLink>tradûto</localizationGlossaryLink> conpletaménte, e l'<phraseCollectionGlossaryLink>arecugéita de frâze</sentenceCollectionGlossaryLink> a l'à razónto 'na dimensción tâ da garantî suficénte materiâle da <speakLink>registrâ</ speakLink> e <listenLink>sentî</listenLink> de mòddo continoatîvo.
+language-section-in-progress = In corso
+language-section-in-progress-new-description = Ste lengue son apreuvo à ëse desviluppæ da-a communitæ. E bare de avansamento marcan i progresci de ciascheduña lengua into proçesso de <localizationGlossaryLink>localizzaçion do scito web</localizationGlossaryLink> e d'<sentenceCollectionGlossaryLink>arrecuggeita de frase</sentenceCollectionGlossaryLink>.
+language-section-launched = Attive
+language-section-launched-description = Pe ste lengue o scito web o l'é stæto <localizationGlossaryLink>traduto</localizationGlossaryLink> do tutto, e l'<phraseCollectionGlossaryLink>arrecuggeita de frase</sentenceCollectionGlossaryLink> a l'à razzonto unna dimenscion tâ da garantî assæ materiale da <speakLink>registrâ</ speakLink> e <listenLink>sentî</listenLink>.
 languages-show-more = Móstra ciù eleménti
 languages-show-less = Móstra mêno eleménti
 language-meter-in-progress = Progrèsso
