@@ -59,8 +59,7 @@
                 word-wrap: break-word;
 
                 opacity: 1;
-                transition: transform var(--transition-duration-slow)
-                        var(--easing),
+                transition: transform var(--transition-duration-slow) var(--easing),
                     opacity var(--transition-duration-slow) var(--easing);
 
                 &.inactive {
