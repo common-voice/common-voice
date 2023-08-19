@@ -59,7 +59,8 @@
                 word-wrap: break-word;
 
                 opacity: 1;
-                transition: transform var(--transition-duration-slow) var(--easing),
+                transition: transform var(--transition-duration-slow)
+                        var(--easing),
                     opacity var(--transition-duration-slow) var(--easing);
 
                 &.inactive {
@@ -183,10 +184,10 @@
 
             & .skip-button {
                 box-shadow: 0px 4px 10px rgba(74, 74, 74, 0.3);
-                min-width: 150px;
+                min-width: fit-content;
 
                 @media (--sm-down) {
-                    min-width: 100px;
+                    min-width: 120px;
                 }
 
                 & svg {
@@ -194,6 +195,12 @@
                         transform: rotateY(180deg);
                     }
                 }
+            }
+
+            & .skip-text {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
             }
         }
 
