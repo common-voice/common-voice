@@ -1279,9 +1279,17 @@ sc-howto-review-criteria-6 = Se no gh’é ciù de frase da approvâ, aggiuttine
 sc-howto-findpd-title = Trovâ de frase existente into pubrico dominio
 sc-howto-findpd-subtitle = Çerchile in sce Internet
 sc-howto-findpd-text-2 = Arregòrdite che emmo beseugno de l’autorizzaçion pe pubricâ ste frase, donca asseguite delongo che o testo o segge into <wikipediaLink>pubrico dominio</wikipediaLink>. Se no gh’é unn’indicaçion speçifica, contatta i proprietäi do testo e domandighe se veuan rendilo de pubrico dominio. Se açettan, aggiuttili à anâ apreuvo a-a proçedua de <cc0WaiverLink>l’accòrdo de contribuçion</cc0WaiverLink>. Se refuan, no t’ê autorizzou à addeuviâ quello testo.
+sc-howto-findpd-tips = Chì dötrei conseggi pe trovâ de frase:
+sc-howto-findpd-tips-1 = A megio vivagna en i pòdcast, e trascriçioin, e scenezzatue di cini e tutto quello che peu contegnî de conversaçioin cotidiañe.
+sc-howto-findpd-tips-2 = I atti do governo, libbri e articoli en perfetti ascì, ma dæto che pe-o sòlito sti testi en un pittin ciù formali, an ciù pöca prioritæ.
+sc-howto-findpd-tips-3 = Pe desgraçia, no poemmo ancon addeuviâ i articoli de Wikimedia. Donca no stâ à piggiâ de frase de de lì.
+sc-howto-findpd-subtitle-2 = Conlabora co-e organizzaçioin locale ò i individui
+sc-howto-findpd-partner-1 = Gh’é ben ben de organizzaçioin pubriche che porrieivan voei conlaborâ e che an za di testi che peuan contribuî a-o pubrico dominio. Contatta e universcitæ, e amministraçioin e e organizzaçioin open source pe parlâ do progetto e domandâghe o seu aggiutto.
+sc-howto-findpd-partner-2 = I linguisti esperti peua aggiuttâ ascì. Preuva à contattâ e universcitæ de lengue do pòsto (segge i studenti segge i professoî) pe ammiâ se peuan aggiuttâ à arrecheugge de frase con unna boña varietæ de soin inta teu lengua.
 
 ## MY SENTENCES
 
+sc-my-title = E mæ frase
 
 ## REJECTED
 
