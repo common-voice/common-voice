@@ -1258,6 +1258,8 @@ sc-howto-addlang-text = Unna vòtta introu ti peu çerne e teu lengue inta seçi
 sc-howto-addsen-title = Azzonzi de neuve frase
 sc-howto-addsen-item-1 = Tutte e frase che ti mandi an da ëse sotta unna <wikipediaLink>liçensa de Pubrico Dominio (CC-0)</wikipediaLink>. Pe addeuviâ de euvie che no en into pubrico dominio, emmo creou un <cc0WaiverLink>modello d’Accòrdio de Contribuçion</cc0WaiverLink> pe-i titolæ do copyright ch’o veu donâ a seu euvia à Common Voice.
 sc-howto-addsen-item-2 = Numeri. No dev’ësighe de giffre into testo perché peuan portâ à di problemi quand’en lezui à erta voxe. A mainea che se leze un numero a depende da-o contesto e a peu caxonâ confuxon into dataset. Pe exempio, o numero «1600» o porrieiva ëse lezuo segge «sezze çento» segge «milleseiçento».
+sc-howto-addsen-item-3 = Abbreviaçioin e acrònimi. L’é megio evitâ e abbreviaçioin e i acrònimi comme «USA» e «UE» perché an da ëse lezui inte unna mainea ch’a no coresponde a-a seu ortografia. Pe de ciù, porrieiva ësighe ciù de unna mainea corretta de lezile. Pe exempio, l’acrònimo «UE» o se peu leze segge «U-E» segge comme unna poula sola.
+sc-howto-addsen-item-4 = Pontezzatua. I scimboli speçiali e a pontezzatua no s’an da mette feua che pe-i caxi inti quæ en davei neçessäi.Pe exempio, l’apòstrofo o se mette inte poule comme «l’erbo» e «unn’atra», ma l’é de ræo che gh’é raxon d’addeuviâ di scimboli speçiali comme «@» ò «#».
 
 ## MY SENTENCES
 
