@@ -1260,6 +1260,16 @@ sc-howto-addsen-item-1 = Tutte e frase che ti mandi an da ëse sotta unna <wikip
 sc-howto-addsen-item-2 = Numeri. No dev’ësighe de giffre into testo perché peuan portâ à di problemi quand’en lezui à erta voxe. A mainea che se leze un numero a depende da-o contesto e a peu caxonâ confuxon into dataset. Pe exempio, o numero «1600» o porrieiva ëse lezuo segge «sezze çento» segge «milleseiçento».
 sc-howto-addsen-item-3 = Abbreviaçioin e acrònimi. L’é megio evitâ e abbreviaçioin e i acrònimi comme «USA» e «UE» perché an da ëse lezui inte unna mainea ch’a no coresponde a-a seu ortografia. Pe de ciù, porrieiva ësighe ciù de unna mainea corretta de lezile. Pe exempio, l’acrònimo «UE» o se peu leze segge «U-E» segge comme unna poula sola.
 sc-howto-addsen-item-4 = Pontezzatua. I scimboli speçiali e a pontezzatua no s’an da mette feua che pe-i caxi inti quæ en davei neçessäi.Pe exempio, l’apòstrofo o se mette inte poule comme «l’erbo» e «unn’atra», ma l’é de ræo che gh’é raxon d’addeuviâ di scimboli speçiali comme «@» ò «#».
+sc-howto-addsen-item-5 = Lettie estranxee. E lettie addeuviæ an da ëse valide inta lengua ch’a se parla. Pe exempio, «ж» a l’é unna lettia de l’alfabeto çirillico, a no l’é mai addeuviâ in ligure e donca a no s’à da addeuviâ inti testi liguri.
+sc-howto-addsen-item-6 = E lengue peuan avei e seu <validationRulesLink>regole de convalida</validationRulesLink> con di critëi in azzonta. Se no gh’é un file de convalida pe unna regola, s’addeuvia e regole generiche de l’ingleise.
+sc-howto-addsen-post-1 = N’é ciù cao e frase naturale addeuviæ inta conversaçion.  Sciben che a diverscitæ fonetica e a presensa de poule despæge inte frase en di fattoî importanti, voemmo çercâ de rende a registraçion o ciù piaxeive e demoante che se peu. Donca o megio saieiva se e frase che ti azzonzi fïsan o ciù naturale e entuxasmante che ti peu.
+sc-howto-cite-title = Comme çittâ
+sc-howto-cite-pre-1 = L’é importante çittâ o pòsto donde t’æ trovou a liçensa pubrica pe schivâ o plagiariximo e permette de controllâ i <copyrightIssuesLink>problemi de copyright</copyrightIssuesLink>. Chi dabbasso dötrei mòddi pe çittâ a vivagna.
+sc-howto-cite-item-1 = Ti peu azzonze o scito, pe exempio «Common Voice - https://commonvoice.mozilla.org/»
+sc-howto-cite-item-2 = Ti peu addeuviâ o stilo de çitaçion academico, pe exempio o stilo de Harvard «Mozilla (2021) Common Voice. Disponibile in sce https://commonvoice.mozilla.org/ (consultou a-i 15 de settembre do 2021)»
+sc-howto-cite-item-3 = Pe-i testi de dominio pubrico che no s’attreuvan in sciâ ræ, ti peu addeuviâ o stile de çitaçion academico, p. ex. o stilo Harvard «Jess (2021) E mæ poexie en sotta liçensa pubrica»
+sc-howto-review-title = Verifica de frase
+sc-howto-review-subtitle = Asseguite che e frase satisfan i critëi chì dabasso:
 
 ## MY SENTENCES
 
