@@ -1257,6 +1257,7 @@ sc-howto-addlang-title = Azzonze de lengue pe contribuî
 sc-howto-addlang-text = Unna vòtta introu ti peu çerne e teu lengue inta seçion Profî.
 sc-howto-addsen-title = Azzonzi de neuve frase
 sc-howto-addsen-item-1 = Tutte e frase che ti mandi an da ëse sotta unna <wikipediaLink>liçensa de Pubrico Dominio (CC-0)</wikipediaLink>. Pe addeuviâ de euvie che no en into pubrico dominio, emmo creou un <cc0WaiverLink>modello d’Accòrdio de Contribuçion</cc0WaiverLink> pe-i titolæ do copyright ch’o veu donâ a seu euvia à Common Voice.
+sc-howto-addsen-item-2 = Numeri. No dev’ësighe de giffre into testo perché peuan portâ à di problemi quand’en lezui à erta voxe. A mainea che se leze un numero a depende da-o contesto e a peu caxonâ confuxon into dataset. Pe exempio, o numero «1600» o porrieiva ëse lezuo segge «sezze çento» segge «milleseiçento».
 
 ## MY SENTENCES
 
