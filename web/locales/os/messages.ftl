@@ -220,6 +220,7 @@ faq = Арæх лæвæрд фæрстытæ
 content-license-text = Æрмæг æнцонвадат у  <licenseLink>Creative Commons license</licenseLink>-мæ гæсгæ
 share-title = Баххуыс нын кæн иннæты ссарынæн, цæмæй рауæлдай кæной сæ хъæлæс!
 share-text = Машинæтæ, æцæг адæм куыд дзурынц, уый цæмæй æмбарой, рауæлдай дæ хъæлæс ам: { $link }
+link-copied = Æрвитæн къопигонд у.
 back-top = Фæстæмæ сæрмæ
 logout = Рацу
 
@@ -232,6 +233,7 @@ help-us-explain = Ныххæц «Айзæлын кæн», байхъус æмæ 
 vote-yes = О
 vote-no = Нæ
 speak-subtitle = Дæ хъæлæс бахай кæн
+listen-subtitle = Аххуыс нын кæ сфидар кæнын хъæлæстæ.
 hours-recorded = Фыст сахæттæ
 todays-progress = Абоны æнтыстытæ
 all-locales = Æппæт
