@@ -1270,6 +1270,15 @@ sc-howto-cite-item-2 = Ti peu addeuviâ o stilo de çitaçion academico, pe exem
 sc-howto-cite-item-3 = Pe-i testi de dominio pubrico che no s’attreuvan in sciâ ræ, ti peu addeuviâ o stile de çitaçion academico, p. ex. o stilo Harvard «Jess (2021) E mæ poexie en sotta liçensa pubrica»
 sc-howto-review-title = Verifica de frase
 sc-howto-review-subtitle = Asseguite che e frase satisfan i critëi chì dabasso:
+sc-howto-review-criteria-1 = E frase an da ëse scrite sensa erroî de ortografia.
+sc-howto-review-criteria-2 = E frase an da ëse grammaticalmente corrette.
+sc-howto-review-criteria-3 = E fräse an da ëse prononçiabile.
+sc-howto-review-criteria-4 = Se a frase a satisfa tutti i critëi, sciacca in sciô pommello «Appreuva»
+sc-howto-review-criteria-5 = Se unna frase a no satisfa i critëi chì de d’ato, sciacca in sce «Refua». Se no t’ê seguo, ti peu passâ à quella apreuvo.
+sc-howto-review-criteria-6 = Se no gh’é ciù de frase da approvâ, aggiuttine à arrecheuggine de atre!
+sc-howto-findpd-title = Trovâ de frase existente into pubrico dominio
+sc-howto-findpd-subtitle = Çerchile in sce Internet
+sc-howto-findpd-text-2 = Arregòrdite che emmo beseugno de l’autorizzaçion pe pubricâ ste frase, donca asseguite delongo che o testo o segge into <wikipediaLink>pubrico dominio</wikipediaLink>. Se no gh’é unn’indicaçion speçifica, contatta i proprietäi do testo e domandighe se veuan rendilo de pubrico dominio. Se açettan, aggiuttili à anâ apreuvo a-a proçedua de <cc0WaiverLink>l’accòrdo de contribuçion</cc0WaiverLink>. Se refuan, no t’ê autorizzou à addeuviâ quello testo.
 
 ## MY SENTENCES
 
@@ -1303,6 +1312,9 @@ sc-howto-review-subtitle = Asseguite che e frase satisfan i critëi chì dabasso
 
 ## REVIEW
 
+sc-review-form-button-approve = Appreuva
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
 
 ## SETTINGS
 
