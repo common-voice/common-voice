@@ -591,7 +591,7 @@ about-playbook-how-add-language-content-1 =
     ئەگەر بولمىسا، <languageRequestLink>تىلىڭىزنى قوشۇشنى ئىلتىماس قىلسىڭىز بولىدۇ</languageRequestLink>.
     ئىككى باسقۇچ بار. بېكەتنى تەرجىمە قىلىش ۋە جۈملىلەرنى توپلاش
 about-playbook-how-add-language-translating-heading = بېكەتنى تەرجىمە قىلىش
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink> پونتوننى قانداق ئىشلىتىش توغرىسىدىكى يېتەكچىنى كۆرۈڭ. </translateVideoLink>
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> Pontoon نى قانداق ئىشلىتىش توغرىسىدىكى يېتەكچىنى كۆرۈڭ. </translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     بىز تەرجىمە ئۈچۈن <pontoonLink>Pontoon</pontoonLink> دەپ ئاتىلىدىغان Mozilla قورالىنى ئىشلىتىمىز. Pontoon دا نۇرغۇن تىللار بار،
     ئەمما ئۇنىڭدا تىلىڭىز بولمىسا، <pontoonRequestLink> تىلىڭىزنىڭ قوشۇشنى تەلەپ قىلسىڭىز بولىدۇ</pontoonRequestLink>.
@@ -640,6 +640,7 @@ about-playbook-how-grow-language-content-6 = ھەمكارلىق ۋە تور
 ## How to validate
 
 about-playbook-how-validate = ئاۋازلىق  تەستىقلاش ياكى تەستىقلىماسلىقنى قانداق بىلىمەن؟
+about-playbook-how-validate-content-1 = ئەگەر سىز ئۇلار ئوقۇغان ئاۋازنى <strong>ئاڭلاپ</strong> ۋە <strong>چۈشەن</strong>ەلىسىڭىز، ئادەتتە <strong>تەستىق</strong>لىسىڭىز بولىدۇ.
 about-playbook-how-validate-content-4 = ئەگەر بىر ئاۋاز 2 ئادەم تەرىپىدىن رەت قىلىنسا ، ئۇ سانلىق مەلۇمات توپلىمىنىڭ باشقا تارماق قىسمىدا تارقىتىلىدۇ.
 
 ## How to access dataset
