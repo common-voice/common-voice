@@ -1443,24 +1443,90 @@ sc-lang-info-validated =
         [one] 1 frase verificâ.
        *[other] { $validatedSentences } frase verificæ.
     }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Nisciuña frase refuâ.
+        [one] 1 frase refuâ.
+       *[other] { $rejectedSentences } frase refuæ.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Errô inte l’intrâ
+sc-login-err-try-again = Preuva torna.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profî: { $username }
+sc-personal-err-lang-not-found = No emmo posciuo eliminâ a lengua: lengua no attrovâ
+sc-personal-err-remove = No emmo posciuo eliminâ a lengua
+sc-personal-your-languages = E teu lengue:
+sc-personal-remove-button = elimina
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } azzonte da te
+sc-personal-not-added = No t’æ ancon azzonto nisciuña lengua.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Critëi de verifica
+sc-criteria-title = Critëi de verifica
+sc-criteria-make-sure = Asseguite che e frase satisfan i critëi chì dabasso:
+sc-criteria-item-1 = E frase an da ëse scrite sensa erroî de ortografia.
+sc-criteria-item-2 = E frase an da ëse grammaticalmente corrette.
+sc-criteria-item-3 = E fräse an da ëse prononçiabile.
+sc-criteria-item-4 = Se a frase a satisfa i critëi, sciacca o pommello «Appreuva» in sciâ drita.
+sc-criteria-item-5-2 = Se a frase a no satisfa i critëi chì de d’ato, sciacca in sciô pommello «Refua» in sciâ manciña. Se no t’ê seguo, ti peu ascì passâ à quella apreuvo.
+sc-criteria-item-6 = Se no gh’é ciù de frase da approvâ, aggiuttine à arrecheuggine de atre!
 
 ## REVIEW
 
+sc-review-lang-not-selected = No t’æ çernuo nisciuña lengua. Vanni in sciô teu <profileLink>Profî</profileLink> per çerne e lengue.
+sc-review-title = Verifica de frase
+sc-review-loading = Carregamento de frase…
+sc-review-select-language = Çerni unna lengua pe verificâ e frase.
+sc-review-no-sentences = Nisciuña frase da verificâ. <addLink>Azzonzi de atre frase oua!</addLink>
+sc-review-form-prompt =
+    .message = E frase verificæ no en stæte mandæ, t’ê seguo?
+sc-review-form-usage = Scuggia in sciâ drita pe approvâ a frase. Scuggia in sciâ manciña pe refuâla. Scuggia de d‘ato pe passâ. <strong>No ascordâte de mandâ a teu revixon!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Vivagna: { $sentenceSource }
+sc-review-form-button-reject = Refua
+sc-review-form-button-skip = Passa
 sc-review-form-button-approve = Appreuva
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Ti peu addeuviâ ascì i scorsaieu da tastea: { sc-review-form-button-approve-shortcut } pe approvâ, { sc-review-form-button-reject-shortcut } pe refuâ, { sc-review-form-button-skip-shortcut } pe passâ
+sc-review-form-button-submit =
+    .submitText = Termina a verifica
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Nisciuña frase verificâ.
+        [one] 1 frase verificâ. Graçie!
+       *[other] { $sentences } frase verificæ. Graçie!
+    }
+sc-review-form-review-failure = No emmo posciuo sarvâ e verifiche. Preuva torna ciù tardi.
+sc-review-link = Verifica
 
 ## SETTINGS
 
+sc-settings-title = Impostaçioin
+sc-settings-ui-language = Lengua de l’interfaccia
+sc-settings-reset-skipped = Inandia torna e frase passæ
+sc-settings-skipped-decription = Tanto che ti verificavi t’æ passou de frase. Se t’inandi torna e frase passæ, ti ê veddiæ tutte torna, sensa tegnî conto da lengua.
+sc-settings-show-all-button = Fanni vedde torna tutte e frase passæ
+sc-settings-failed = No emmo posciuo cangiâ e impostaçioin. Preuva torna.
 
 # [/SentenceCollector]
 
