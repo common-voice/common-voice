@@ -1527,7 +1527,20 @@ sc-settings-reset-skipped = Inandia torna e frase passæ
 sc-settings-skipped-decription = Tanto che ti verificavi t’æ passou de frase. Se t’inandi torna e frase passæ, ti ê veddiæ tutte torna, sensa tegnî conto da lengua.
 sc-settings-show-all-button = Fanni vedde torna tutte e frase passæ
 sc-settings-failed = No emmo posciuo cangiâ e impostaçioin. Preuva torna.
+# VALIDATION
+sc-validation-number-of-words = A frase a l’à da contegnî da 1 à 14 poule (compreise)
+sc-validation-no-numbers = E frase no peuan avei di numeri
+sc-validation-no-symbols = E frase no peuan avei di scimboli
+sc-validation-no-abbreviations = E frase no peuan avei de abbreviaçioin
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Çerni a lengua/localizzaçion
+# PARTNERSHIPS PAGE
+partnerships-header = Partner
+partnerships-header-text = Fâ fonçionâ Common Voice o l’é un travaggio duo! No ô femmo da niatri. Ti veu vegnî un nòstro partner? Contattine, no ne pâ mai de tardi!
+partnerships-get-in-touch = Contattine
+partnerships-become-a-partner = Vegnî un partner de Common Voice
+partnerships-community-header = Communitæ, creativi e soçietæ çivile
 sentence-collection = Coleçión de frâze
