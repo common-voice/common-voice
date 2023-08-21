@@ -1601,6 +1601,7 @@ volume = Mbopuatãha
 reader-effects = Moñe’ẽhára Oñandúva
 just-unsure = ¿Nahekorasãi?
 example = Techapyrã
+varying-pronunciations-explanation-2 = Ambueháicha, eguerovia mba’éramo pe moñe’ẽhára araka’eve ndohechamo’ãiha pe ñe’ẽ ha oimo’ãreínte ojavývo pe iñemboayvu pukue, ha pévare omboyke. Ndereikuaa porãiramo, eipuru pe votõ Jepo.
 varying-pronunciations-example = Pe tape nahesakãporãi.
 varying-pronunciations-tip-1 = [Pe inglés Canadá pegua ikatu "route" ombopu "rowt"]-icha
 varying-pronunciations-tip-2 = [Pe inglés británico ojapokuaa "root"]
