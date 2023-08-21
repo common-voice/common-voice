@@ -1290,15 +1290,43 @@ sc-howto-findpd-partner-2 = I linguisti esperti peua aggiuttâ ascì. Preuva à 
 ## MY SENTENCES
 
 sc-my-title = E mæ frase
+sc-my-description = Sta pagina a dà unna vista d’insemme de tutte e frase che t’æ mandou. Ti peu ascì eliminâ e frase za mandæ, se neçessäio, con çernile pe mezo da casella de contròllo e sciaccâ in sce «Elimina e frase seleçionæ» in fondo. Elimina le frase solo se l’é davei neçessäio, pe exempio se t’æ descoverto che unna frase a l’é protezzua da copyright.
+sc-my-loading = Carregamento de frase…
+sc-my-err-fetching = Errô into recovero de frase. Preuva torna.
+sc-my-no-sentences = Nisciuña frase trovâ!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Mandou: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Vivagna: { $source }
+sc-my-delete = Elimina e frase seleçionæ
+sc-my-deleting = Eliminaçion de frase seleçionæ…
+sc-my-err-failed-delete = No emmo posciuo eliminâ e frase seleçionæ… Preuva torna!
 
 ## REJECTED
 
+sc-rejected-title = Frase refuæ
+sc-rejected-loading = Carregamento de frase refuæ…
+sc-rejected-err-fetching = Errô into recovero de frase refuæ. Preuva torna.
+sc-rejected-none-found = Nisciuña frase refuâ trovâ!
 
 ## STATS
 
+sc-stats-title = Statistiche
+sc-stats-updating = Missa à giorno…
+sc-stats-error = No emmo posciuo recoverâ e statistiche. Preuva torna ciù tardi.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = O Sentence Collector de Common Voice o l’à arrecuggeito { $sentenceCount } frase in { $languageCount } lengue!
 
 ## ADD
 
+sc-submit-err-select-lang = Çerni unna lengua.
+sc-submit-err-add-sentences = Azzonzi de frase.
+sc-submit-err-add-source = Azzonzi unna vivagna.
+sc-submit-err-confirm-pd = Conferma che ste frase en into pubrico dominio.
 
 ## ADD LANGUAGE
 
