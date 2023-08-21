@@ -1327,15 +1327,122 @@ sc-submit-err-select-lang = Çerni unna lengua.
 sc-submit-err-add-sentences = Azzonzi de frase.
 sc-submit-err-add-source = Azzonzi unna vivagna.
 sc-submit-err-confirm-pd = Conferma che ste frase en into pubrico dominio.
+sc-submit-prompt =
+    .message = E frase no son stæte mandæ, ti veu anâ via da-a pagina?
+sc-submit-title = Azzonze de frase
+sc-submit-select-language =
+    .labelText = Çerne a lengua
+sc-submit-add-sentences = Azzonzi de frase de <wikipediaLink>pubrico dominio</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Unna frase pe riga
+sc-submit-from-where = De donde vëgnan ste frase de <wikipediaLink>pubrico dominio</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Lezi «Guidda» se no t’ê bon à çittâ a vivagna
+sc-submit-confirm = Confermo che ste frase son de <wikipediaLink>pubrico dominio</wikipediaLink> e ò l’autorizzaçion pe carregâle.
+sc-submit-button =
+    .submitText = Manda
+sc-submit-filtered = Frase refuæ perché no correspondan a-i critëi, manda a verscion corretta comme neuve frase:
+sc-submit-guidelines = Pe piaxei contròlla a <howToLink>guidda</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = No emmo posciuo azzonze a lengua
+sc-add-lang-sec-label = Azzonzi unna lengua a-a quæ ti veu contribuî
+sc-add-lang-sec-button = Azzonzi lengua
+sc-add-err-unexpected = Replica improvvista da-o server
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Frase mandæ. { $duplicates } frase stæte refuæ perché dogge.
+        [one] Frase mandæ. { $duplicates } frase stæta refuâ perché doggia.
+       *[other] Frase mandæ. { $duplicates } frase stæte refuæ perché dogge.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Nisciuña frase no sarvâ
+        [one] 1 frase no sarvâ
+       *[other] { $sentences } frase no sarvæ
+    }
+sc-add-err-submission = Errô inte l’invio
+sc-add-lang-process-notice = Se a teu lengua a no l’é presente, ti peu domandâla pe mezo de <languageProcessLink>sta proçedua</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = E frase no son stæte mandæ, ti veu anâ via da-a pagina?
+sc-confirm-sentences-title = Conferma e neuve frase
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Nisciuña frase trovâ.
+        [one] 1 frase trovâ.
+       *[other] { $countOfSentences } frase trovæ.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } frase refuæ da ti
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Nisciuña frase za verificâ.
+        [one] 1 frase a l’é za stæta verificâ. Bello travaggio!
+       *[other] { $countOfReviewed } frase en za stæte verificæ. Bello travaggio!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Nisciuña frase pronta pe ëse mandâ!
+        [one] 1 frase pronta pe ëse mandâ!
+       *[other] { $readyCount } frase pronte pe ëse mandæ!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } frase no en stæte verificæ. Se ti veu, ti peu vedde torna e teu frase primma de mandâle.
+sc-confirm-button-text = Conferma
+sc-confirm-uploading = Semmo apreuvo à carregâ e frase. Porrieiva voeighe dötrei menuti à segonda do numero de frase azzonte. No serrâ sta pagina.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Totale
+sc-lang-info-title-personal = Personâ
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Nisciuña frase in totale.
+        [one] 1 frase in totale.
+       *[other] { $totalSentences } frase in totale.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Nisciuña frase in verifica.
+        [one] 1 frase in verifica.
+       *[other] { $totalInReview } frase in verifica.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] No l’arresta nisciuña frase da verificâ.
+        [one] L’arresta 1 frase da verificâ.
+       *[other] L’arresta { $unreviewedSentencesByYou } frase da verificâ.
+    }
+sc-lang-info-review-now = <reviewLink>Verifica oua!</reviewLink>
+sc-lang-info-add-more = <addLink>Azzonzi de neuve frase oua!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Nisciuña frase verificâ.
+        [one] 1 frase verificâ.
+       *[other] { $validatedSentences } frase verificæ.
+    }
 
 ## LOGIN
 
