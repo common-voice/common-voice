@@ -1667,6 +1667,7 @@ reviewing-sentences-explanation-3 = Ndereikuaaporãiramo ñe’ẽjuaju rehe, av
 reviewing-sentences-explanation-4 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
 # WRITE PAGE
 write-instruction-second-part = ñe’ẽjoaju opavave oipurukuaáva
+write-page-subtitle = Umi ñe’ẽjuaju jehupipyre ojuajúta mba’ekuaarã aty ñemoneĩmbyre cc-0 opavave oipurukuaáva.
 sentence =
     .label = Ñe’ẽjoaju
 sentence-input-value = Ehai ko’ápe ne ñe’ẽjuaju opavave oipurukuaáva
@@ -1698,5 +1699,7 @@ report-sc-different-language = Ambuéva ñe’ẽ
 report-sc-different-language-detail = Ojehai peteĩ ñe’ẽ ndaha’éiva pe che aipurúvahína.
 sentences-fetch-error = Ojavy eguerukuévo ñe’ẽjuaju
 review-error = Oiko jejavy ehechajeývo ko ñe’ẽjuaju
+review-error-rate-limit-exceeded = Eho pya’eterei. Eipuru arapa’ũ ehechajey hag̃ua ñe’ẽjuaju ha péicha rupive tosẽporãmba.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Ore rojaporoína ñemoambue guasu
+sc-redirect-page-subtitle-2 = Ñaporandu <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> térã <emailLink>ñanduti veve</emailLink>.
