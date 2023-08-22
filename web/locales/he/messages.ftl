@@ -1714,6 +1714,7 @@ report-sc-different-language = שפה אחרת
 report-sc-different-language-detail = זה כתוב בשפה שונה ממה שעליי לסקור.
 sentences-fetch-error = אירעה שגיאה בטעינת משפטים
 review-error = אירעה שגיאה בסקירת משפט זה
+review-error-rate-limit-exceeded = אתם זזים מהר מידי! קחו כמה רגעים לסקור כל משפט ולוודא שהוא תקין.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = אנו מבצעים כאן שינויים גדולים
 sc-redirect-page-subtitle-1 = אספן המשפטים עובר תחת הליבה של Common Voice. תוכלו כעת <writeURL>לכתוב</writeURL> או <reviewURL>לסקור</reviewURL> הגשות של משפטים בודדים ב-Common Voice.
