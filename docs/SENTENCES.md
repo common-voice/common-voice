@@ -6,7 +6,7 @@ As Common Voice is a read dataset, sentences are our currency. You can help by a
 
 📝 [Sentence Collector](https://commonvoice.mozilla.org/write) is the sentence writing part of the Common Voice website. For others to be able to record their voices the Common Voice project needs sentences to be read. This is a good place to start for newcomers to this project.
 
-📘 Contributors who want to [bulk upload](https://en.wikipedia.org/wiki/Bulk_insert) sentences, like for books, should check out the [Bulk Submission](https://github.com/common-voice/common-voice/blob/main/docs/sumbitting-bulk-sentences.md) guidelines.
+📘 Contributors who want to [bulk upload](https://en.wikipedia.org/wiki/Bulk_insert) sentences, like for books, should check out the [Bulk Submission](https://github.com/common-voice/common-voice/blob/main/docs/submitting-bulk-sentences.md) guidelines.
 
 🖥️ For automatic extraction of data sources, the [Sentence Extractor](https://github.com/Common-Voice/cv-sentence-extractor) is dedicated for extracting from sources such as Wikipedia, Wikisource or raw files.
 
@@ -27,4 +27,4 @@ The [Sentence Extractor](https://github.com/Common-Voice/cv-sentence-extractor) 
 
 Some methods don't go through automated cleanup/validation/rules, and they are not unified. Thus, there is a process to remove old data that might need to be discarded.
 
-If you notice sentences that need to be deleted, you can file a pull request that modifies the text file directly. Alternatively you can also create an issue in this repository and we will take care of it.
+If you notice sentences that need to be deleted, you can create a [migration](https://github.com/common-voice/common-voice/tree/main/server/src/lib/model/db/migrations) as a Pull Request. Alternatively you can also create an issue in this repository and we will take care of it.
