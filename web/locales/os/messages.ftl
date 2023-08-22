@@ -250,9 +250,13 @@ help-us-explain = Ныххæц «Айзæлын кæн», байхъус æмæ 
 vote-yes = О
 vote-no = Нæ
 speak-subtitle = Дæ хъæлæс бахай кæн
+speak-goal-text = Ныффыст клиптæ
 listen-subtitle = Аххуыс нын кæ сфидар кæнын хъæлæстæ.
 hours-recorded = Фыст сахæттæ
+voices-online = Хъæлæстæ гъеныр онлайн сты
 todays-progress = Абоны æнтыстытæ
+help-reach-goal = Бахæццæ кæнын нын баххуыс кæнут { $goal }
+read-terms-q = Базонгæ стут нæ домæнтимæ?
 all-locales = Æппæт
 today = Абон
 x-weeks-short =
@@ -270,6 +274,9 @@ x-years-short =
         [one] аз
        *[other] азы
     }
+help-make-dataset = Баххуыс ма нын кæнут сфæлдисын хæрзхъæд иумæйаг бæрæггæнæнты æмбырд
+sign-up-account = Аккаунт регистраци скæнут
+email-subscription-title = Уæхи бафыссут ног хабæрттæ райсыныл эл. постыл
 
 ## Account Benefits
 
