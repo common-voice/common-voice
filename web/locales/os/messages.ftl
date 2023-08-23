@@ -262,6 +262,7 @@ voices-online = Хъæлæстæ гъеныр онлайн сты
 todays-progress = Абоны æнтыстытæ
 help-reach-goal = Бахæццæ кæнын нын баххуыс кæнут { $goal }
 read-terms-q = Базонгæ стут нæ домæнтимæ?
+ready-to-record = Цæттæ стут бахай кæнынмæ уæ хъæлæсæй?
 all-locales = Æппæт
 today = Абон
 x-weeks-short =
