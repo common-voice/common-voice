@@ -284,6 +284,7 @@ benefits = Пайдатæ
 
 ## What's public
 
+recordings-and-locale-public = Ныффыстыты æмæ æвзæгты нымæц, кæдоныл хæссут уæ бавæрд, уыдзысты иумæйаг.
 
 ## Speak & Listen Shortcuts
 
@@ -304,10 +305,15 @@ shortcut-vote-no = н
 ## Speak Shortcuts
 
 shortcut-rerecord-toggle = [1-5]
+shortcut-discard-ongoing-recording-label = Цæугæ ныффыст аив
 shortcut-submit-label = Арвит клиптæ
+request-language-button = Æркурут æвзаг
 
 ## ProjectStatus
 
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Иннæ нысæнттæ: { $goal }
 english = Англисаг
 
 ## ProfileForm
@@ -322,10 +328,14 @@ profile-form-language =
     .label = Æвзаг
 profile-form-variant =
     .label = Цавæр æвзаджы здæхтыл дзурыс?
+profile-form-variant-default-value = Вариант нæ равзæрстай
 profile-form-age =
     .label = Кар
+profile-form-gender-2 =
+    .label = Æрд
 native-language =
     .label = Мадæлон æвзаг
+profile-form-add-accent = Бафтаут ног хи здæхт { $inputValue }
 profile-form-submit-save = Бафснай
 male = Нæлгоймаг
 female = Сылгоймаг
@@ -450,6 +460,7 @@ dataset-version = Фæлтæр
 
 ## Download Modal
 
+download-title = Дæ бавгæд райдыдта.
 download-no = Нæ, бузныг
 
 ## Contact Modal
