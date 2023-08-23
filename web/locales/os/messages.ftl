@@ -256,6 +256,7 @@ speak-subtitle = Дæ хъæлæс бахай кæн
 speak-goal-text = Ныффыст клиптæ
 listen-subtitle = Аххуыс нын кæ сфидар кæнын хъæлæстæ.
 hours-recorded = Фыст сахæттæ
+hours-validated = Бӕлвырдгонд сахӕттӕ
 voices-online = Хъæлæстæ гъеныр онлайн сты
 todays-progress = Абоны æнтыстытæ
 help-reach-goal = Бахæццæ кæнын нын баххуыс кæнут { $goal }
