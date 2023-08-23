@@ -1557,4 +1557,6 @@ partnerships-corporates-description = Se ti veu saveine de ciù in sciô dataset
 partnerships-our-partners = I nòstri partner
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Graçie pe avei donou e teu registraçioin vocale!
+first-cta-subtitle-text = Ti veu scompartî de informaçioin in sciâ teu mainea de parlâ?
+why-donate = Percöse t’ô domandemmo?
 sentence-collection = Coleçión de frâze
