@@ -259,6 +259,7 @@ vote-no = Нæ
 speak-subtitle = Дæ хъæлæс бахай кæн
 speak-goal-text = Ныффыст клиптæ
 listen-subtitle = Аххуыс нын кæ сфидар кæнын хъæлæстæ.
+listen-goal-text = Бӕлвырдгонд клиптӕ
 hours-recorded = Фыст сахæттæ
 hours-validated = Бӕлвырдгонд сахӕттӕ
 voices-online = Хъæлæстæ гъеныр онлайн сты
