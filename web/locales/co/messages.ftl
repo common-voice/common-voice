@@ -551,6 +551,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Comu funziona a lucalizazione di situ ?
 about-playbook-how-localize-content-1 = A traduzzione di u situ Common Voice si face annantu à <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Create un contu</pontoonAccountLink> se ùn avete micca dighjà unu. Dopu, scigliti a vostra squadra <strong>(« Team »)</strong> di lingua è in fine sciglite u prughjettu, <pontoonCvLink>Common Voice</pontoonCvLink>. Ci sarani schedarii da traduce. Appughjeti sopr’a unu, e traduciti e parolle Inglese.
+about-playbook-how-localize-content-3 = A traduzzione si face da l’Inglese, mà pudeti vede <strong>asempii</strong> in altre lingue. Appughjeti <strong>Prufilu</strong>, è dopu <strong>Prifirenze</strong> e aghjunghjiti tutte e lingue chì vo parlate. Inghjò, à a dritta, ci sarà una lista di traduzzione chjamata <strong>Locales</strong>. E traduzzione si vedeni annantu à u situ dopu à un ghjornu.
 about-playbook-how-localize-content-4 = U situ hè prontu à esse publicatu quandu eddu hè traduttu a 75%.
 about-playbook-how-localize-content-5 = Fighjuleti a nostra spiecazione video pà aiutà
 
