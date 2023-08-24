@@ -527,8 +527,17 @@ about-playbook-what-is-language-content-2 = Vulemu chì i mudeli vucali siini me
 ## How do I add a language
 
 about-playbook-how-add-language = Comu aghjunghju una lingua ?
+about-playbook-how-add-language-content-1 =
+    Primu, verificate si a vostra lingua <languageLink>esiste dighjà</languageLink>.
+    S’edda ùn hè micca, pudeti <languageRequestLink>chere pà aghjunghje a vostra lingua</languageRequestLink>.
+    Ci sò duie tappe. Traduce u situ, è raccoglie l’infrasate.
 about-playbook-how-add-language-translating-heading = Traduce u situ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Fighjuleti a nostra guida sopr’a l'utilisazione di Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Ci ghjuvemu un arnesu di Mozilla chjamatu <pontoonLink>Pontoon</pontoonLink> pà e traduzzione. Pontoon hà tanti lingue,
+    ma si falta a vostra, pudeti <pontoonRequestLink>chere pà aghjunghje a vostra lingue</pontoonRequestLink>.
+    Dopu, pà rende a lingua dispunibile annantu à u prughjettu Common Voice,
+    <githubRepoLink>chiriti a lingua nova annantu à GitHub</githubRepoLink>.<localizationFragment>Vede di più sopr’a traduzzione di u situ</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Raccolta d’infrasate
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Fighjuleti a nostra guida sopr’a l’utilisazione di u raccogliatore d’infrasate</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
@@ -540,6 +549,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = Comu funziona a lucalizazione di situ ?
+about-playbook-how-localize-content-1 = A traduzzione di u situ Common Voice si face annantu à <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Create un contu</pontoonAccountLink> se ùn avete micca dighjà unu. Dopu, scigliti a vostra squadra <strong>(« Team »)</strong> di lingua è in fine sciglite u prughjettu, <pontoonCvLink>Common Voice</pontoonCvLink>. Ci sarani schedarii da traduce. Appughjeti sopr’a unu, e traduciti e parolle Inglese.
 about-playbook-how-localize-content-4 = U situ hè prontu à esse publicatu quandu eddu hè traduttu a 75%.
 about-playbook-how-localize-content-5 = Fighjuleti a nostra spiecazione video pà aiutà
 
