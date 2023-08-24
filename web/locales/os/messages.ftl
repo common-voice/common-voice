@@ -303,7 +303,9 @@ improve-audio = Профилы информаци уæлдæр кæны ауди
 ## What's public
 
 whats-public = Цы уыны публикæ?
+email-not-public = Дӕ эл. пост сусӕг баззайдзӕн.
 recordings-and-locale-public = Ныффыстыты æмæ æвзæгты нымæц, кæдоныл хæссут уæ бавæрд, уыдзысты иумæйаг.
+username-optin-public = Ном скæнын дæ бон у анонимон кæнæ иумæйаг.
 
 ## Speak & Listen Shortcuts
 
