@@ -1681,3 +1681,6 @@ new-sentence-rule-4 = Addeuvia unna boña grafia e pontezzatua
 new-sentence-rule-5 = Nisciun numero e caratteri speçiali
 new-sentence-rule-6 = Nisciuña lettia estranxea
 new-sentence-rule-7 = Azzonzi a boña çittaçion
+new-sentence-rule-8 = Preferibilmente, e frase an da ëse naturale e conversaçionale (façie da leze)
+how-to-cite = Comme çittâ?
+how-to-cite-explanation-bold = Çitta con un ligammo ò co-o nomme completo de l’euvia.
