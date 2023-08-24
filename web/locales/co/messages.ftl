@@ -561,10 +561,14 @@ about-playbook-how-add-sentences = Comu possu aghjunghje infrasate ?
 
 ## How to record quality
 
+about-playbook-how-record-content-2 = Evitate troppu di rumore di fondu - duverebbe esse facile di sente vi.
+about-playbook-how-record-content-3 = Leghjite a frase cun cura - ùn scurdate nunda, ùn cambiate nunda è ùn aghjunghjite micca parolle.
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Eventi
 about-playbook-how-grow-language-content-4 = Rete suciale
+about-playbook-how-grow-language-content-6 = Partenariati è rete
 
 ## How to validate
 
