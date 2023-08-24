@@ -392,6 +392,8 @@ on = Кусы
 ## Profile - Email
 
 browse-file-title = Бавгæн ныв
+connect-gravatar = Сбӕтт Граватаримӕ
+avatar-uploaded = Ныв бавгӕд ис
 remove-avatar = Аватар сыхал
 
 ## Profile - Email
@@ -401,11 +403,14 @@ add-language = Æвзаг бафтау
 ## FAQ
 
 faq-what-cv-q = Common Voice циу?
+faq-why-important-q = Ахӕм ахсджиаг цӕмӕ у?
 faq-why-different-speakers-q = Цæмæ дæ хъæуы уый бæрц бирæ адæм, æвзагыл чи дзуры, ахæмтæ?
 faq-why-my-lang-q = Ме ’взаг цауылнæ бафтыд ныры онг?
 faq-why-10k-hours-q = Аудио ныффыссынӕн  бахъӕудзӕн 10,000 бӕлвырд сахӕттӕ  алы ӕвзагӕн, цӕмӕ?
 faq-why-10k-hours-a = Гъе уый бӕрц сахаты бахъӕудзӕнис, цӕмӕй кондады системӕ раива ныхасӕй текст мӕ.
 faq-how-calc-hours-q = Common Voice куыд нымайы рæстæджы сахæттæ?
+faq-where-src-from-2-q = Райдайӕн текст кӕцӕй у?
+faq-why-not-ask-read-q = Цæуыннæ курут адæмæй, цæмæй кæсой чингуытæ кæнæ Википедийы фыстуацтæ алыхуызон æвзæгтыл?
 faq-why-account-q = Аккаунт мӕ цӕмӕ хъӕуы регистраци кӕнын?
 faq-is-account-public-q = Мæ аккаунты информаци адæмæн гом у?
 faq-what-is-cv = Common Voice циу?
