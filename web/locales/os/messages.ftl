@@ -413,23 +413,33 @@ faq-where-src-from-2-q = Райдайӕн текст кӕцӕй у?
 faq-why-not-ask-read-q = Цæуыннæ курут адæмæй, цæмæй кæсой чингуытæ кæнæ Википедийы фыстуацтæ алыхуызон æвзæгтыл?
 faq-why-account-q = Аккаунт мӕ цӕмӕ хъӕуы регистраци кӕнын?
 faq-is-account-public-q = Мæ аккаунты информаци адæмæн гом у?
+faq-what-determine-identity-q = Мæ бон кæй нæу рабæрæг кæнын дзурджыты Common Voice рардты æмбырды, уый цы нысан кæны?
 faq-what-is-cv = Common Voice циу?
 
 ## ABOUT US
 
+about-title = Common Voice цӕмӕ?
+how-does-it-work-title-v2 = Common Voice куыд кусы?
+how-does-it-work-text = Мах ӕмбырд кӕнӕм хъӕлӕсон рардтӕ гом райдайӕн кодимӕ. Бахай кӕн дӕ хъӕлӕс, цӕмӕй сбӕлвырд уа ӕндӕр адӕмы клипты дырысдзинад, рардты ӕмбырд фӕхуыздӕр кӕн се ппӕтӕн дӕр.
 
 ## How does it work section
 
+about-language-req-subtitle = Чидæр куры, цæмæй æвзаг бафтой.
 about-sentence-collection-title = Хъуыдыйæдты коллекци
 about-sentence-collection-subtitle = Хъуыдыйæдтæ æмбырд æрцæуынц адæмæн, цæмæй сæ кæсой хъæрæй
+about-new-lang-subtitle = Гом кӕнӕм сайт Common Voice ацы ӕвзагыл.
+about-voice-contrib-title = Хъӕлӕс бахай кӕнын
 about-voice-contrib-subtitle = Адæм æрцæуынц æмæ бахай кæнынц сæ хъæлæстæ
 about-voice-validation-title = Хъæлæсы басгæрст.
 about-speak = Дзур
 about-listen-queue = Байхъусыны рад
 about-listen = Байхъус
+about-stay-in-touch = Куыд баззайон уӕ уылӕныл?
+about-stay-in-touch-button = Регистраци
 about-nav-why-common-voice = Цæмæй?
 about-nav-how-it-works = Куыд?
 about-nav-partners = Партнёртæ
+about-nav-get-involved = Хайад райсын
 about-nav-how-it-works-2 = Common Voice куыд кусы?
 about-nav-playbook = Базон, дæхи куыд бафтауай архайдмæ
 
