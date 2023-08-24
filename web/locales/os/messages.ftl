@@ -261,6 +261,7 @@ toggle-play-tooltip = Æрхæц { shortcut-play-toggle } , цæмæй  режи
 speak-subtitle = Дæ хъæлæс бахай кæн
 speak-goal-text = Ныффыст клиптæ
 listen-subtitle = Аххуыс нын кæ сфидар кæнын хъæлæстæ.
+listen-paragraph = Клиптӕ бӕрӕг кӕнын у ахсджиаг мисси Common Voice-йæн. Байхъус æмæ нын баххуыс кæн сфæлдисын хӕрзхъӕд хъæлæсон рардты базӕ райдайæн гом кодимæ.
 listen-goal-text = Бӕлвырдгонд клиптӕ
 hours-recorded = Фыст сахæттæ
 hours-validated = Бӕлвырдгонд сахӕттӕ
@@ -289,6 +290,7 @@ x-years-short =
 help-make-dataset = Баххуыс ма нын кæнут сфæлдисын хæрзхъæд иумæйаг бæрæггæнæнты æмбырд
 sign-up-account = Аккаунт регистраци скæнут
 email-subscription-title = Уæхи бафыссут ног хабæрттæ райсыныл эл. постыл
+email-subscription-title-new = Дæ хорзæхæй, дӕхи бафысс Common Voice-ы хабæрттæм, дæ нысæнттæ зæрдыл æрыфтауæн фыстæджытæм æмæ дæ прогрессы тыххæй хъусынгæнинæгтæм.
 
 ## Account Benefits
 
