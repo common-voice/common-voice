@@ -390,7 +390,12 @@ faq-what-is-cv = Common Voice циу?
 
 ## How does it work section
 
+about-sentence-collection-title = Хъуыдыйæдты коллекци
+about-sentence-collection-subtitle = Хъуыдыйæдтæ æмбырд æрцæуынц адæмæн, цæмæй сæ кæсой хъæрæй
+about-voice-contrib-subtitle = Адæм æрцæуынц æмæ бахай кæнынц сæ хъæлæстæ
+about-voice-validation-title = Хъæлæсы басгæрст.
 about-speak = Дзур
+about-listen-queue = Байхъусыны рад.
 about-listen = Байхъус
 about-nav-why-common-voice = Цæмæй?
 about-nav-how-it-works = Куыд?
