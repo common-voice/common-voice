@@ -18,6 +18,7 @@ banner-error-slow-1 = Scusateci, Common Voice hè lentu pà arrisponde. Grazie p
 banner-error-slow-2 = Ricivimu assai trafficu è circhemu attualmentu una suluzione à issu prublemu.
 banner-error-slow-link = Paghjina di statu
 error-something-went-wrong = Scusateci, un sbagliu hè accadutu
+error-clip-upload = L’inviu di stu pezzu si fiasca cuntinuamente. Pruvà torna ?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -451,6 +452,10 @@ faq-is-account-public-q = Sò publiche l'infurmazioni di u mio contu ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
 faq-how-privacy-a = Tutti l’infurmazione chì permettani l’identificazione da e parsone sò sguassati di i campioni vucale. Quandu un cuntributore furnisce dati demugrafiche trà u so prufile, st’infurmazione hè anonimizzata da i so campioni vucale nanzu à esse impacchettata in a banca di dati è ùn maì pubblicata annantu à a so paghjina di prufile.
 faq-what-determine-identity-q = Chì vole dì chì ùn possu « diterminà l’identità » di i locutori in a banca di dati Common Voice ?
+faq-what-determine-identity-a =
+    A banca di dati di Common Voice hè una risorza aperta è dispunibile publicamente chì pò esse ghjuvata pà addestrà una varietà d’appiecazione ligate à a voce. Pà pruteghje a securità di i nostri cuntributori, noi dumandemu à tutti chì scaricani a banca di dati di Common Voice di rispettà a vita privata di i cuntributori.
+    
+    Tutti l’arrighjistramenti di a banca di dati sò anunimizzati. Quandu scaricheti una banca di dati, seti d’accunsenti d’ùn pruvà micca à identificà un cuntributore. Vole dì chì ùn pudeti micca pruvà à ligà l’infurmazione di banca di dati cù l’infurmazione persunale d’un cuntributore. Tuttavia, pudeti impiegà a banca di dati pà addestrà appiecazione legandu infurmazione di a banca di dati cù altre infurmazione dighjà in a banca di dati.
 faq-what-is-cv = Chì hè Common Voice ?
 faq-using-cv = Adopru di Common Voice
 faq-description = Common Voice hè una parta di l'iniziativa di Mozilla per aiutà à insegnà à e macchine cumu parlanu e vere persone.
@@ -460,6 +465,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Parchì Common Voice ?
+about-header-description-v2 =
+    <p>Common Voice hè una banca di dati publicamenti dispunibile, custituita da e voce di cuntributori di u mondu sanu. Quiddi chì volini custruì appiecazione vucale poni ghjuvà a banca di dati pà addestrà mudelli d’amparera.</p>
+    <p>Oghji, a maiurità di e banche di dati appartenini à imprese, ciò chì frena l’innuvazione. E banche di dati ani ancu un prublemu di sopra-riprisentazioni di mascii bianchi anglofoni. Vole dì chì e tecnulugie vucale poni viaghjà male pà u restu di a pupulazione, o ancu micca pà altre lingue. Vulemu cambià sta situazione mubilizendu la ghjenti da pertuttu pà sparte a so voce.</p>
 how-does-it-work-title-v2 = Comu funziona Common Voice ?
 how-does-it-work-text = Rializemu una banca di dati vucale cù è fonte aperte cù l'aiutu di u publicu. Date a vostra voce, cunvalidate è campione di l'altri, migliurate a banca di dati pà tuttu u mondu.
 
