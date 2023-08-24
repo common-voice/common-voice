@@ -1684,3 +1684,23 @@ new-sentence-rule-7 = Azzonzi a boña çittaçion
 new-sentence-rule-8 = Preferibilmente, e frase an da ëse naturale e conversaçionale (façie da leze)
 how-to-cite = Comme çittâ?
 how-to-cite-explanation-bold = Çitta con un ligammo ò co-o nomme completo de l’euvia.
+how-to-cite-explanation = Se en poule teu, ti peu scrive solo che <italicizedText>«Autoçittaçion»</italicizedText>. Emmo beseugno de savei donde t’æ trovou sto contegnuo coscì che poemmo controllâ s’o l’é into pubrico dominio e se gh’é de restriçioin de copyright. Pe saveine de ciù in scê çittaçioin, ammia a <guidelinesLink>guidda</guidelinesLink>.
+guidelines = Guidda
+contact-us = Contattine
+add-sentence-success = 1 frase arrecuggeita
+add-sentence-error = Errô into carregamento da frase
+required-field = Impi sto campo.
+# REVIEW PAGE
+sc-review-instruction-first-part = Verifica
+sc-review-instruction-second-part = sta frase a l’é linguisticamente corretta?
+sc-review-rules-title = A frase a respeta e linie guidda?
+sc-review-empty-state = Pe-o momento no gh’é de frase da verificâ pe sta lengua.
+report-sc-different-language = Atra lengua
+report-sc-different-language-detail = A l’é scrita inte unna lengua despægia da quella che son apreuvo à verificâ.
+sentences-fetch-error = Gh’é stæto un errô into recoverâ e frase
+review-error = Gh’é stæto un errô inta verifica de sta frase
+review-error-rate-limit-exceeded = T’ê tròppo lesto. Piggite un pittin ciù de tempo pe vedde torna a frase e asseguâte ch’a segge boña.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Semmo apreuvo à fâ di cangiamenti importanti
+sc-redirect-page-subtitle-1 = O Sentence Collector o l’é apreuvo à mesciâse in sciâ ciattaforma prinçipale de Common Voice. Oua ti peu <writeURL>scrive</writeURL> unna frase ò <reviewURL>verificâ</reviewURL> e frase mandæ in sce Common Voice.
+sc-redirect-page-subtitle-2 = Poñine de domande in sce <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ò pe <emailLink>email</emailLink>.
