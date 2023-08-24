@@ -312,6 +312,7 @@ shortcut-vote-no = н
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Ныффыст/Æрлæуд
 shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording-label = Цæугæ ныффыст аив
 shortcut-submit-label = Арвит клиптæ
@@ -341,6 +342,7 @@ profile-form-age =
     .label = Кар
 profile-form-gender-2 =
     .label = Æрд
+visible = Цæстуынгæ
 native-language =
     .label = Мадæлон æвзаг
 profile-form-add-accent = Бафтаут ног хи здæхт { $inputValue }
@@ -356,6 +358,7 @@ goals = Нысантæ
 settings = Рæвдзгæнæнтæ
 edit-profile = Профиль баив
 profile-close = Сæхгæн
+accept-privacy-title = Конфиденциалондзинады политикæ.
 edit = Баив
 off = Нæ кусы
 on = Кусы
