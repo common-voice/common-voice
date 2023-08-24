@@ -522,6 +522,7 @@ about-nav-playbook = Amparate comu participà
 
 about-playbook-what-is-language = Cosa hè una lingua in Common Voice ?
 about-playbook-what-is-language-content-1 = Ci sò tanti maneri di pinsà à a lingua. Pà i mudeli di ricuniscenza vucale, Common Voice arricumanda di cuncintrassi sopr’a « capiscitura mutuale » o di risponde à a quistioni « e parsone chì parlani sta lingua poni capisciesi s’eddi si parlani ? »
+about-playbook-what-is-language-content-2 = Vulemu chì i mudeli vucali siini meglii à capisce locutori variati. Pà questu, una banca di dati vucale hà da raprisentà mori di parsoni sfarenti.
 
 ## How do I add a language
 
