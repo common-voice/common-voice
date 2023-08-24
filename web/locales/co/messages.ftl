@@ -41,7 +41,9 @@ bas = Basaa
 be = Bielorussiu
 bg = Bulgaru
 bn = Bengalese
+bo = Tibetanu
 br = Brittonu
+bs = Busnianu
 bxr = Buriatu
 ca = Catalanu
 cak = Kaqchikel
@@ -133,6 +135,7 @@ rw = Kinyarwanda
 sah = Iacutu
 sc = Sardu
 scn = Sicilianu
+sdh = Curdu meridiunale
 shi = Tascelì
 si = Singalese
 sk = Sluvaccu
@@ -164,6 +167,7 @@ yue = Cantunese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
+zu = Zulù
 
 # [/]
 
@@ -175,6 +179,7 @@ speak-now = Parlà avà
 datasets = Banche di dati
 languages = Lingue
 about = Apprupositu
+partner = Diventà partenariu
 profile = Prufilu
 help = Aiutu
 contact = Cuntattu
@@ -762,6 +767,9 @@ target-segment-first-banner = Aiuteti à creà u primu segmentu d’ugettivu di 
 target-segment-add-voice = Aghjustà a vostra voce
 target-segment-learn-more = Sapene di più
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = Raportu
@@ -1059,3 +1067,4 @@ see-less = <chevron></chevron>Vedene di menu
 
 # [/SentenceCollector]
 
+sentence-collection = Racolta d'infrasate
