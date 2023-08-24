@@ -291,6 +291,7 @@ improve-audio = Профилы информаци уæлдæр кæны ауди
 
 ## What's public
 
+whats-public = Цы уыны публикæ?
 recordings-and-locale-public = Ныффыстыты æмæ æвзæгты нымæц, кæдоныл хæссут уæ бавæрд, уыдзысты иумæйаг.
 
 ## Speak & Listen Shortcuts
