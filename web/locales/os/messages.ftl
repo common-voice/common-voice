@@ -299,6 +299,7 @@ email-subscription-title-new = Дæ хорзæхæй, дӕхи бафысс Comm
 
 benefits = Пайдатæ
 improve-audio = Профилы информаци уæлдæр кæны аудио-рардты ӕмбырды дырысдзинад, кæцыйæ пайда кæнынц ныхасы æвзарæн ахуыры.
+view-goals = Кæс дӕ прогрессмæ, хи нысæнттæ æмæ проекты нысæнтты ӕнтыстытимӕ.
 
 ## What's public
 
@@ -306,6 +307,7 @@ whats-public = Цы уыны публикæ?
 email-not-public = Дӕ эл. пост сусӕг баззайдзӕн.
 recordings-and-locale-public = Ныффыстыты æмæ æвзæгты нымæц, кæдоныл хæссут уæ бавæрд, уыдзысты иумæйаг.
 username-optin-public = Ном скæнын дæ бон у анонимон кæнæ иумæйаг.
+username-email-not-demographic = Дæ ном æмæ эл. посты адрис бастгонд нæ уыдзысты публикацигонд рардты  базӕйы.
 
 ## Speak & Listen Shortcuts
 
@@ -327,8 +329,10 @@ shortcut-vote-no = н
 
 shortcut-record-toggle-label = Ныффыст/Æрлæуд
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Клип ногæй ныффысс
 shortcut-discard-ongoing-recording-label = Цæугæ ныффыст аив
 shortcut-submit-label = Арвит клиптæ
+request-language-text = Де 'взаг нӕма уыныс Common Voice-ы?
 request-language-button = Æркурут æвзаг
 
 ## ProjectStatus
@@ -351,10 +355,16 @@ profile-form-language =
 profile-form-variant =
     .label = Цавæр æвзаджы здæхтыл дзурыс?
 profile-form-variant-default-value = Вариант нæ равзæрстай
+profile-form-accent =
+    .label = Акцент
+profile-form-custom-accent-placeholder-2 = Фыссын райдай, цæмæй афыссай дæ акцент.
 profile-form-age =
     .label = Кар
 profile-form-gender-2 =
     .label = Æрд
+leaderboard-visibility =
+    .label = Хуыздӕрты нымхыгъдмӕ-иу мӕ бахӕсс
+hidden = Сусæг
 visible = Цæстуынгæ
 native-language =
     .label = Мадæлон æвзаг
