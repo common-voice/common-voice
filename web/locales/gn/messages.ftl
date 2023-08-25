@@ -263,8 +263,8 @@ wall-of-text-second =
     Heta ñe’ẽryapu ñongatupyre oĩva yvy ape ári oĩ Estádo mba’e’ỹ pópe ha upevakuére ndaikatúi oiporu opavave.
     Roimo’ã naiporãiha upéva ha romoñepyrũ ko tembiapoguasu Common Voice, roipotágui opavave oiporu ñe’ẽ ñembohyapu ha ñembokuatia.
 show-wall-of-text = Emoñe’ẽve
-help-us-title = ¡Orepytyvõmi ikatu hag̃uáicha jaiporavo ñe’ẽjoaju oĩporãva!
-help-us-explain = Ejopy Tahendúpe, ehendu ha eremi: ombohyapu porãpa ñe’ẽjoaju oĩva iguýpe?
+help-us-title = ¡Orepytyvõ rohechajeývo ñe’ẽjoaju!
+help-us-explain = Ejopy Tahendu, ehendu ha eremi oréve: ombohyapu porãpa ñe’ẽjoaju mboyveguáva
 no-clips-to-validate = Ha’etévaicha ndaiporiha ñe’ẽryapu ñongatupyre ko ñe’ẽme g̃uarã. Orepytyvõmína ha eñe’ẽñongatumína.
 vote-yes = Héẽ
 vote-no = Nahániri
