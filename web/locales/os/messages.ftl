@@ -413,10 +413,12 @@ edit = Баив
 email-subscriptions = Эл. посты ууылты дӕхи бафысс
 download-profile = Равгæнын мæ рардтæ.
 skip-submission-feedback = Аргъгæнд æрвитын фæуадз
+skip-submission-note = Фиппаинаг: цӕмӕй ӕвӕрды фӕлгонц баивай, уый тыххӕй дӕ бахъӕудзӕнис равзарын "Дзурын" кӕнӕ "Хъусын".
 off = Нæ кусы
 on = Кусы
 help-accent = Акцентимӕ дӕ ӕххуыс хъӕуы?
 help-variants = Здæхтимæ дӕ ӕххуыс хъӕуы?
+help-variants-explanation = Здæхт — ӕвзаджы бӕлвырд формӕ, зӕгъӕм, бӕлвырд регионы кӕнӕ ӕхсӕнады чи цӕры, уыдонӕн у иумӕйаг. Хатгай сӕ диалект дӕр ма фӕхонынц.
 
 ## Profile - Email
 
@@ -437,8 +439,12 @@ change-email-setings = Дӕ эл. посты адрис баивын дӕ бон
 
 ## FAQ
 
+faq-title = Арӕх цы фæрстытӕ фӕдӕттынц
 faq-what-cv-q = Common Voice циу?
 faq-why-important-q = Ахӕм ахсджиаг цӕмӕ у?
+faq-how-get-q = Куыд райсон Common Voice-ы рардтæ?
+faq-when-release2-q = Common Voice ӕндӕр ӕвзӕгтыл кӕд рауаддзыстут?
+faq-is-goal-assistant-q = Common Voice-ы нысан — хъӕлӕсон ӕххуыс сфӕлдисын у?
 faq-why-different-speakers-q = Цæмæ дæ хъæуы уый бæрц бирæ адæм, æвзагыл чи дзуры, ахæмтæ?
 faq-why-my-lang-q = Ме ’взаг цауылнæ бафтыд ныры онг?
 faq-why-10k-hours-q = Аудио ныффыссынӕн  бахъӕудзӕн 10,000 бӕлвырд сахӕттӕ  алы ӕвзагӕн, цӕмӕ?
