@@ -395,6 +395,7 @@ settings = Рæвдзгæнæнтæ
 edit-profile = Профиль баив
 profile-create-success = Профиль сфӕлдыстай, бантыстис дын!
 profile-close = Сæхгæн
+profile-explanation = Дӕ профилы ууылты кӕс дӕ прогрессмӕ ӕмӕ нын баххуыс кӕн нӕ хъӕлӕсон рардты базӕйӕн дырысӕй уӕвын.
 why-demographic = Ахӕм ахсджиаг цӕмӕ у?
 accept-privacy-title = Конфиденциалондзинады политикæ.
 login = Бацӕуӕн
