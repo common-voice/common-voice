@@ -305,6 +305,7 @@ improve-audio = Профилы информаци уæлдæр кæны ауди
 keep-track = Дӕ хъус дар де ’нтыстытӕ æмæ де ’вдисинагыл бирӕ æвзæгтыл.
 compare-progress = Бакæс дæ прогрессы фæстиуæг  иннæ архайджытимæ æппæт дунейы цы уавæры ис?
 view-goals = Кæс дӕ прогрессмæ, хи нысæнттæ æмæ проекты нысæнтты ӕнтыстытимӕ.
+join-newsletter = Дӕ фæндмæ гæсгæ бафыс дæхи нæ хабæртты номхыгъдмæ, цæмæй проекты тыххæй ног хабæрттæ исай.
 
 ## What's public
 
@@ -344,6 +345,7 @@ request-language-button = Æркурут æвзаг
 
 ## ProjectStatus
 
+status-contribute = Дæ хъæлæс бахай кæн
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Иннæ нысæнттæ: { $goal }
@@ -364,6 +366,8 @@ profile-form-variant =
 profile-form-variant-default-value = Вариант нæ равзæрстай
 profile-form-accent =
     .label = Акцент
+profile-form-custom-accent-help-text =
+    .label = Куыд афыссис дæ акцент?
 profile-form-custom-accent-placeholder-2 = Фыссын райдай, цæмæй афыссай дæ акцент.
 profile-form-age =
     .label = Кар
@@ -377,6 +381,7 @@ native-language =
     .label = Мадæлон æвзаг
 profile-form-add-accent = Бафтаут ног хи здæхт { $inputValue }
 profile-form-submit-save = Бафснай
+profile-form-submit-saved = Æфснайд æрцыдис
 male = Нæлгоймаг
 female = Сылгоймаг
 # Gender
