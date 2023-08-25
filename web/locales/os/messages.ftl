@@ -408,15 +408,22 @@ why-demographic = Ахӕм ахсджиаг цӕмӕ у?
 accept-privacy-title = Конфиденциалондзинады политикæ.
 login-identity = Бацæуынæн идентификатор
 login = Бацӕуӕн
+login-signup = Бацæуæн / Регистраци
 edit = Баив
+email-subscriptions = Эл. посты ууылты дӕхи бафысс
 download-profile = Равгæнын мæ рардтæ.
+skip-submission-feedback = Аргъгæнд æрвитын фæуадз
 off = Нæ кусы
 on = Кусы
+help-accent = Акцентимӕ дӕ ӕххуыс хъӕуы?
+help-variants = Здæхтимæ дӕ ӕххуыс хъӕуы?
 
 ## Profile - Email
 
 browse-file-title = Бавгæн ныв
 connect-gravatar = Сбӕтт Граватаримӕ
+gravatar_not_found = Дӕ эл. посты адрисимӕ граватары не ссардтам
+file_too_large = Ӕвзӕрст файл ӕгӕр стыр у
 avatar-uploaded = Ныв бавгӕд ис
 remove-avatar = Аватар сыхал
 
