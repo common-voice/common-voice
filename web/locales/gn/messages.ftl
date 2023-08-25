@@ -247,21 +247,21 @@ logout = Esẽ
 
 ## Home Page
 
-home-title = Common Voice-niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe’ẽvo oñe’ẽháicha yvypóra.
-default-tagline = Common Voice niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe’ẽvo oñe’ẽháicha yvypóra.
-home-cta = Eñe’ẽ, eipytyvõ ápe!
-wall-of-text-start = Ñane ahy’o ñe’ẽ niko yvypóra mba’e. Upévare roipytyvõseterei oĩ hag̃ua ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe’ẽryapu ñongatupyre.
+home-title = Common Voice niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe’ẽvo ijayvuháicha yvypóra.
+default-tagline = Common Voice niko Mozilla rembiapo oipytyvõva máquina-kuéra ijayvuháicha yvypóra.
+home-cta = ¡Eñe’ẽ, eipytyvõmína ápe!
+wall-of-text-start = Ñande ahy’o ñe’ẽ niko yvypóra mba’e. Upévare roipytyvõseterei oĩ hag̃ua ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe’ẽryapu ñongatupyre.
 wall-of-text-more-mobile = Haimete opa ñe’ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Ore roimo’ã ndaupeichaiva’erã. Upévare romoheñói Aponde’a Common Voice, roipotágui opavave oiporukuaa ñe’ẽ rembiporu.
 wall-of-text-more-desktop =
-    Ko’ág̃a ikatúma reme’ẽ nde ahy’o ha reipytyvõ jajapo hag̃ua ñe’ẽ ha ñe’ẽjoaju ryapu apesã opavavépe g̃uarã
-    ojeporukuaáva tembiporu’i, mba’e’okápe ñandutípe. Emoñe’ẽ atã ñe’ẽjoajukuéra ikatu hag̃uáicha máquina oikuaa mba’éichapa oñeñe’ẽ ne ñe’ẽme.
-    Ehendu avei ambuéva rembiapo ha eremi oĩ porãpa. ¡Pévante rejapova’ẽrã eipytyvõ hag̃ua!
+    Ko’ág̃a eme’ẽkuaáma nde ayvu ha eipytyvõ jajapo hag̃ua ñe’ẽ ha ñe’ẽjoaju ryapu apesã opavavépe g̃uarã
+    ojeporukuaáva tembiporu’i, mba’e’okápe ñandutípe. Emoñe’ẽ hatã ñe’ẽjoaju ikatu hag̃ua máquina oikuaa mba’éichapa hy’apu ne ñe’ẽ.
+    Ehendu ambuéva rembiapo ha eremi oĩporãpa. ¡Pévante ejapo eipytyvõ hag̃ua!
 wall-of-text-first =
     Ñe’ẽniko yvypóra mba’e. Upévare rovy’aite rojapóvo ko tembiapo, roikuave’ẽsévagui tembiporu ñe’ẽ ñembohyapurã rehegua ikatu hag̃uáicha máquina ohai ha ojapokuaa oje’éva chupe.
     Upevarã roikotevẽmi hetaite ñe’ẽryapu ñongatupyrére.
 wall-of-text-second =
-    Heta ñe’ẽryapu ñongatupyre oĩva yvy ape ári oĩ empresa privada pópe ha upevakuére ndaikatúi oiporu opavave.
-    Ore roimo’ã naiporãiha upéva ha romoñepyrũ ko tembiapoguasu hérava Common Voice, roipotágui opavave oiporukuaa ñe’ẽ ñembohyapu ha ñembokuatia rembiporu.
+    Heta ñe’ẽryapu ñongatupyre oĩva yvy ape ári oĩ Estádo mba’e’ỹ pópe ha upevakuére ndaikatúi oiporu opavave.
+    Roimo’ã naiporãiha upéva ha romoñepyrũ ko tembiapoguasu Common Voice, roipotágui opavave oiporu ñe’ẽ ñembohyapu ha ñembokuatia.
 show-wall-of-text = Emoñe’ẽve
 help-us-title = ¡Orepytyvõmi ikatu hag̃uáicha jaiporavo ñe’ẽjoaju oĩporãva!
 help-us-explain = Ejopy Tahendúpe, ehendu ha eremi: ombohyapu porãpa ñe’ẽjoaju oĩva iguýpe?
