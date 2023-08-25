@@ -1,7 +1,7 @@
 ## General
 
-yes-receive-emails = Héẽ, erahaukami chéve marandu. Aikuaase tapiaite Common Voice Aponde’a rehegua.
-stayintouch = Ore Mozillaygua romongakuaa rohóvo tapicha aty omba’apóva tembiporu ñe’ẽ jeporúpe rehe. Akóinte roikuaase oĩ jave mba’e térã kuaapyrã pyahu ha avei rohendu hag̃ua mba’éichapa reiporu rehóvo ko kuaapyrã.
+yes-receive-emails = Héẽ, erahaukami chéve marandu. Aikuaase opa ára Common Voice Aponde’a rehegua.
+stayintouch = Ore Mozilla-ygua romongakuaa tapicha aty omba’apóva tembipuru ñe’ẽ jeporu rehe. Akóinte roikuaase oĩvo mba’e térã kuaapyrã pyahu ha rohendu hag̃ua mba’éichapa reiporu ko kuaapyrã.
 privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha kuaapyrã nde rehegua rehe. Emoñe’ẽve kóva rehegua ore <privacyLink>ko’ápe</privacyLink>.
 return-to-cv = Ejevy Common Voice-pe
 email-input =
