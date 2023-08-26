@@ -2,24 +2,24 @@
 
 yes-receive-emails = Héẽ, erahaukami chéve marandu. Aikuaase ko’ẽreíre Common Voice Aponde’a rehegua.
 stayintouch = Ore Mozilla-ygua romongakuaa tapicha aty omba’apóva tembipuru ñe’ẽ jeporure. Akóinte roikuaase oĩvo mba’e térã kuaapyrã pyahu ha rohendu hag̃ua mba’éichapa reiporu ko kuaapyrã.
-privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha kuaapyrã nde rehegua rehe. Emoñe’ẽve kóva rehegua ore <privacyLink>ko’ápe</privacyLink>.
+privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha kuaapyrã nde rehegua. Emoñe’ẽve kóva ore <privacyLink>ko’ápe</privacyLink>.
 return-to-cv = Ejevy Common Voice-pe
 email-input =
     .label = Ñe’ẽveve
 submit-form-action = Emondo
-loading = Oñemyenyhẽhína…
-email-opt-in-info = Aipota ojerahaukami chéve ñe’ẽveve rupive marandu ojehupytyséva rehegua térã mba’éichapa oguata ohóvo tembiapo ha avei Common Voice rehegua.
-email-opt-in-info-title = Ejuaju Common Voice ñe’ẽveve rysýipe eñemomarandu hag̃ua
-email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñe’ẽvevépe marandu ojehupytyséva, avei mba’éichapa oguata tembiapo ha Common Voice rehegua.
-email-opt-in-privacy-v2 = Emongurusúramo oñemog̃uahẽ hag̃ua ndéve marandu he’ise remoneĩha mba’éichapa Mozilla oipuru tapichakuéra kuaapyrã oñemyesãkáva <privacyLink>ko’ápe</privacyLink>.
-indicates-required = (*) He’ise remyenyhẽva’erã katuete tenda’i jehairã.
+loading = Henyhẽhína…
+email-opt-in-info = Aipota ojerahaukami chéve ñe’ẽvevépe marandu hupytyrã rehegua térã mba’éichapa oguata tembiapo ha Common Voice.
+email-opt-in-info-title = Ejuaju Common Voice ñe’ẽveve rysýire
+email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñe’ẽvevépe marandu ojehupytyséva, avei mba’eichaitépa oguata tembiapo ha Common Voice rehegua.
+email-opt-in-privacy-v2 = Emongurusúrõ oñemog̃uahẽ hag̃ua ndéve marandu he’ise remoneĩha mba’éichapa Mozilla oipuru tapichakuéra kuaapyrã oñemyesãkáva <privacyLink>ko’ápe</privacyLink>.
+indicates-required = (*) Remyenyhẽva’erã katuete tenda’i hairenda.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Rombyasy, Common Voice omba’apo mbeguekatu. Aguyje emomba’ére.
-banner-error-slow-2 = Og̃uahẽ oréve heta mba’e ha ko’ág̃a rohapykuehohína umi apañuãi.
+banner-error-slow-2 = Og̃uahẽ oréve heta jeku’egua ha ko’ág̃aite rohapykuehohína umi apañuãi.
 banner-error-slow-link = Kuatiarogue Rekotee
-error-something-went-wrong = Che ñyrõ, oĩ osẽvaíva
-error-clip-upload = Eikutukuévo ndoikopái, ¿ejapojey ag̃amieve?
-error-clip-upload-server = Eikutúvo ndoikopái mba’e’okápe, ¿Emyanyhẽjey kuatiarogue térã eha’ãjey ag̃amieve?
+error-something-went-wrong = Che ñyrõmína, oĩ osẽvaíva
+error-clip-upload = Eikutukuévo ndoikoporãi, ¿ejapojey ag̃amieve?
+error-clip-upload-server = Eikutúvo ndoikopái mba’e’okápe, ¿Emyanyhẽjey kuatiarogue térã eha’ãjey ag̃ave?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
