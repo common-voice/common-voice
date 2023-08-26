@@ -1524,7 +1524,7 @@ create-profile-button = تەرجىمىھال قۇر
 # IMAGE TAGS
 img-alt-success-checkmark = مۇۋەپپەقىيەت بەلگىسى
 # GUIDELINES PAGE
-guidelines-header = تۆھپە كۆرسەتمىسى
+guidelines-header = تۆھپە يېتەكچىسى
 guidelines-header-subtitle = Common Voice سانلىق مەلۇمات ئامبىرىغا جۈملە ۋە ئاۋاز ئۈزۈندىلىرىنى قانداق قوشۇپ ۋە دەلىللەپ تۆھپە قوشۇشنى چۈشىنىش
 voice-collection = ئاۋاز توپلىمى
 sentence-collection = جۈملە توپلىمى
@@ -1607,6 +1607,7 @@ new-sentence-rule-7 = مۇۋاپىق نەقىلى بار
 new-sentence-rule-8 = جۈملىلەر تەبىئىي سۆھبەتتەك (جۈملىنى ئوقۇش ئاسان)
 how-to-cite = قانداق نەقىل ئالىمەن؟
 how-to-cite-explanation-bold = تور ئۇلىنىشى ياكى ئەسەرنىڭ تولۇق ئىسمى بىلەن نەقىل ئېلىنىدۇ.
+how-to-cite-explanation = ئەگەر بۇ ئۆزىڭىزنىڭ سۆزى بولسا <italicizedText>«ئۆزىنى نەقىل ئېلىش»</italicizedText> دېسىڭىزلا بولىدۇ. بىز بۇ مەزمۇننى قەيەردىن تاپقانلىقىڭىزنى بىلىشىمىز كېرەك شۇنداق بولغاندا ئۇنى ئاممىۋى ساھەدىن تەكشۈرەلەيمىز، نەشر ھوقۇقى چەكلىمىسى قوللىنىلمايدۇ. نەقىل ئېلىش ھەققىدىكى تەپسىلاتقا ئېرىشمەكچى بولسىڭىز <guidelinesLink>يېتەكچى بەت</guidelinesLink> نى كۆرۈڭ.
 guidelines = كۆرسەتمە
 contact-us = بىز بىلەن ئالاقىلىشىڭ
 add-sentence-success = 1 جۈملە توپلاندى
