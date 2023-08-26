@@ -650,7 +650,7 @@ about-playbook-how-access-dataset = سانلىق مەلۇمات توپلىمىن
 
 ## How are decisions made
 
-about-playbook-how-project-governance = تۈر قارارلىرى قانداق چىقىرىلىدۇ؟
+about-playbook-how-project-governance = قۇرۇلۇش قارارلىرى قانداق چىقىرىلىدۇ؟
 about-playbook-how-project-governance-content-2 = باشقۇرۇشىمىز تۆۋەندىكىلەر ئاساسىدا:
 about-playbook-how-project-governance-content-3 = مەخپىيەتلىك، بىخەتەرلىك ۋە ئاشكارىلىق.
 about-playbook-how-project-governance-content-4 = مەھەللىدە قارار چىقىرىشقا قاتنىشىش.
@@ -1541,6 +1541,7 @@ example = مىسال
 varying-pronunciations-example = يول ئېنىق ئەمەس.
 varying-pronunciations-tip-1 = [كانادا ئىنگلىزچىسىدا «route» نى «rowt» تەلەپپۇز قىلىشى مۇمكىن]
 varying-pronunciations-tip-2 = [ئەنگلىيە ئىنگلىزچىسىدا «root» تەلەپپۇز قىلىنىشى مۇمكىن]
+misreadings-explanation-1 = بەتتىكى بارلىق سۆزلەرنى توغرا ئوقۇش مۇھىم. ئاڭلىغاندا، ئۈنگە ئېلىنغاننىڭ يېزىلغىنى ئىكەنلىكىنى ئىنچىكىلىك بىلەن تەكشۈرۈڭ. ئەگەر ئۇنىڭدا قوشۇلغان، قىسقارتىلغان ياكى كەم قالغان سۆزلەر بولسا رەت قىلىڭ.
 misreadings-explanation-2 = كۆپ ئۇچرايدىغان خاتالىقلار:
 misreadings-explanation-3 = ئۈنگە ئېلىشنىڭ بېشىدىكى «A» ياكى «The» كەم.
 misreadings-explanation-4 = بىر سۆزنىڭ ئاخىرىدا «s» كەم.
