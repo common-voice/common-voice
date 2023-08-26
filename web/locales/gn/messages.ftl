@@ -299,16 +299,16 @@ x-years-short =
         [one] peteĩ
        *[other] ambue
     }
-help-make-dataset = Orepytyvõmína ñamono’õvo ñe’ẽryapu iporãva ha opavavépe g̃uarã
-sign-up-account = Eñemboheraguapy
-email-subscription-title = eñemboheraguapy romog̃uahẽmi hag̃ua ndéve marandura ipyahúva rehegua
+help-make-dataset = Orepytyvõ romoheñóivo mba’ekuaarã ijurujáva ha opavavépe g̃uarã
+sign-up-account = Eñemboheraguapy ne mba’eterã
+email-subscription-title = eñemboheraguapy ou hag̃ua marandu ñandutiveve rupi
 email-subscription-title-new = Eñemboheraguapy og̃uahẽmi hag̃ua ndéve marandu ipyahúva ha tekotevẽva ojejapo rehegua ha avei reikuaávo mba’éichapa oguata ohóvo tembiapo.
 
 ## Account Benefits
 
 benefits = Iporãva oguerúva
 rich-data = Ikatu hag̃uáicha iporupyrã añetéva ñe’ẽryapu ñongatupyrea eremi moõguápa ou. Upéva noñemoherakuãmo’ãi katu oipytyvõhetáta.
-improve-audio = Kuaapyrã ñe’ẽryapu rehegua oipytyvõ osẽ porãve hag̃ua ñe’ẽ ñeikũmby.
+improve-audio = Marandu ñe’ẽryapu rehegua oipytyvõ osẽ porãve hag̃ua ñe’ẽ ñeikũmby.
 keep-track = Eikuaa tapiaite mba’éichapa oguata ohóvo ne rembiapo ha avei ambue ñe’ẽ rembiapo.
 compare-progress = Ehecha akóinte máva rembiapópab itenondeve ñande yvy ape ári.
 view-goals = Ehecha moõpevépa reg̃uahẽma ne rembiapópe ha mboýpa hemby rehupyty hag̃ua rehupytyséva térã ojehupytyséva aponde’ápe.
@@ -316,7 +316,7 @@ join-newsletter = Ikatu avei reike ore rerarysýipe romog̃uahẽmi hag̃ua ndé
 
 ## What's public
 
-whats-public = Mba’épa ohechakuaáta opavave?
+whats-public = Mba’épa ohechakuaáta opavave
 email-not-public = Ne ñe’ẽveve ndoikuaamo’ãi mavave.
 recordings-and-locale-public = Mboýpa reipytyvõva’ekue ojekuaaukáta.
 username-optin-public = Erekuaa avei reipotápa ojekuaa ndeipot poruhára réra.
