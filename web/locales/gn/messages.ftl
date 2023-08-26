@@ -2,7 +2,7 @@
 
 yes-receive-emails = Héẽ, erahaukami chéve marandu. Aikuaase ko’ẽreíre Common Voice Aponde’a rehegua.
 stayintouch = Ore Mozilla-ygua romongakuaa tapicha aty omba’apóva tembipuru ñe’ẽ jeporure. Akóinte roikuaase oĩvo mba’e térã kuaapyrã pyahu ha rohendu hag̃ua mba’éichapa reiporu ko kuaapyrã.
-privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha kuaapyrã nde rehegua. Emoñe’ẽve kóva ore <privacyLink>ko’ápe</privacyLink>.
+privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha kuaapyrã nde rehegua. Emoñe’ẽve kóva rehe <privacyLink>ko’ápe</privacyLink>.
 return-to-cv = Ejevy Common Voice-pe
 email-input =
     .label = Ñe’ẽveve
@@ -257,19 +257,19 @@ wall-of-text-more-desktop =
     ojeporukuaáva tembiporu’i, mba’e’okápe ñandutípe. Emoñe’ẽ hatã ñe’ẽjoaju ikatu hag̃ua máquina oikuaa mba’éichapa hy’apu ne ñe’ẽ.
     Ehendu ambuéva rembiapo ha eremi oĩporãpa. ¡Pévante ejapo eipytyvõ hag̃ua!
 wall-of-text-first =
-    Ñe’ẽniko yvypóra mba’e. Upévare rovy’aite rojapóvo ko tembiapo, roikuave’ẽsévagui tembiporu ñe’ẽ ñembohyapurã rehegua ikatu hag̃uáicha máquina ohai ha ojapokuaa oje’éva chupe.
-    Upevarã roikotevẽmi hetaite ñe’ẽryapu ñongatupyrére.
+    Ñe’ẽ yvypóra mba’e. Upévare rovy’aite rojapóvo ko tembiapo, roikuave’ẽse tembiporu ñe’ẽ ñembohyapurã ikatu hag̃uáicha máquina ohai ha ojapokuaa oje’éva chupe.
+    Upevarã roikotevẽ hetaite ñe’ẽryapu ñongatupyre.
 wall-of-text-second =
-    Heta ñe’ẽryapu ñongatupyre oĩva yvy ape ári oĩ Estádo mba’e’ỹ pópe ha upevakuére ndaikatúi oiporu opavave.
-    Roimo’ã naiporãiha upéva ha romoñepyrũ ko tembiapoguasu Common Voice, roipotágui opavave oiporu ñe’ẽ ñembohyapu ha ñembokuatia.
+    Heta ñe’ẽryapu ñongatupyre oĩva yvy ape ári oĩ Estádo mba’e’ỹ pópe ha upévare ndaikatúi oiporu opavave.
+    Roimo’ã naiporãiha ha romoñepyrũ ko tembiapoguasu Common Voice, roipotágui opavave oiporu ñe’ẽ ñembohyapu ha ñembokuatia.
 show-wall-of-text = Emoñe’ẽve
 help-us-title = ¡Orepytyvõ rohechajeývo ñe’ẽjoaju!
 help-us-explain = Ejopy Tahendu, ehendu ha eremi oréve: ombohyapu porãpa ñe’ẽjoaju mboyveguáva
-no-clips-to-validate = Ha’etévaicha ndaiporiha ñe’ẽryapu ñongatupyre ko ñe’ẽme g̃uarã. Orepytyvõmína ha eñe’ẽñongatumína.
+no-clips-to-validate = Ha’etévaicha ndaiporiha ñe’ẽryapu ñongatupyre ko ñe’ẽme g̃uarã. Orepytyvõmína ha eñe’ẽñongatumína avei.
 vote-yes = Héẽ
 vote-no = Nahániri
 toggle-play-tooltip = Ejopy { shortcut-play-toggle } emoambuévo teko ñembopúpe
-speak-subtitle = Eme’ẽ nde ahy’o
+speak-subtitle = Eme’ẽ nde ahy’o pu
 speak-paragraph = Ñañongatukuévo rupi ñe’ẽryapu ñamongakuaa jahávo ñe’ẽryapu rupa opavavépe g̃uarã jaguerekóva ha oĩnte avei he’íva péva pe igutove jajapóva.
 speak-goal-text = Ñe’ẽryapu ñongatupyre
 listen-subtitle = Orepytyvõmi roiporãvo hag̃ua ñe’ẽryapu ñongatupyre oĩporãva
