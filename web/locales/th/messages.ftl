@@ -1534,3 +1534,4 @@ sentences-fetch-error = เกิดข้อผิดพลาดในกา�
 review-error = เกิดข้อผิดพลาดในการตรวจทานประโยคนี้
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = เรากำลังทำการเปลี่ยนแปลงครั้งใหญ่
+sc-redirect-page-subtitle-2 = ถามคำถามเราได้ที่ <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> หรือ <emailLink>อีเมล</emailLink>
