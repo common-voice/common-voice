@@ -551,6 +551,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = Куыд цæуы сайты локализаци?
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Скӕнут аккаунт</pontoonAccountLink>, кӕд уӕм нӕма ис, уӕд. Стӕй равзарут ӕвзаг <strong>(‘Team’)</strong> ӕмӕ рахизут проектмӕ (‘Project‘), <pontoonCvLink>Common Voice</pontoonCvLink> у йæ ном. Уым уыдзысты файлтӕ, кӕцытӕ хъӕуы ратӕлмац кӕнын. Кӕцыфӕндыйыл дӕр дзы куы ныххӕцай, уӕд дзы уӕлейы фендзынӕ йӕ англисаг оригинал, бынӕй та дзы уыдзӕн рӕнхъ, кӕцыйы хъӕудзӕн бафыссын тӕлмац.
 about-playbook-how-localize-content-4 = Сайт уыдзæн цæттæ архайынæн 75% конд куы уа, уæд.
 about-playbook-how-localize-content-5 = Æххуысы тыххæй бакæс нæ видео-æххуысгæнæгмæ
 
