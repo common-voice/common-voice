@@ -449,6 +449,7 @@ faq-how-get-q = Куыд райсон Common Voice-ы рардтæ?
 faq-when-release2-q = Common Voice ӕндӕр ӕвзӕгтыл кӕд рауаддзыстут?
 faq-why-mission-q = Comon Voice Mozilla-йы миссийы хай цӕмӕ у?
 faq-what-cv-and-deepspeech-q = Common Voice ӕмӕ Deep Speech-ы цы хицӕн кӕны?
+faq-what-cv-and-deepspeech-a = Common Voice-ы рардты æмбырд æххæст кæны хъæлæс раиртасыны системæ гом райдайæн кодимæ Mozilla Deep Speech. Deep Speech-ы фыццаг верси рауагътой  2017 азы ноябры, æмæ уæдæй фæстæмæ дарддæр парахат кæны. Common Voice-ы рардты æмбырдимæ мах нымайæм, æмæ ацы технологи хъæлæс раиртасыны гом райдайæн кодимæ судзæн æнцонвадат алкæмæндæр. Ныфс нæ ис, æмæ ацы технологитæ архайджытæн баххуыс кæндзысты сфæлдисын бирæ инновацион продукттæ æмæ лæггæдтæ.
 faq-is-goal-assistant-q = Common Voice-ы нысан — хъӕлӕсон ӕххуыс сфӕлдисын у?
 faq-why-different-speakers-q = Цæмæ дæ хъæуы уый бæрц бирæ адæм, æвзагыл чи дзуры, ахæмтæ?
 faq-why-my-lang-q = Ме ’взаг цауылнæ бафтыд ныры онг?
