@@ -494,6 +494,7 @@ about-voice-validation-subtitle = Æндæр адæм бæрæг кæнынц у
 about-dataset-release-title = Датасеты рауагъд
 about-dataset-release-subtitle = Алы 3 мӕйы мах публикаци кӕнӕм рардты ӕмбырд.
 about-speak = Дзур
+about-speak-text = Архайджытӕ фыссынц хъӕлӕсон клиптӕ, хайгонд хъуыдыйӕдты къоппӕй кӕсгӕйӕ.
 about-listen-queue = Байхъусыны рад
 about-listen = Байхъус
 about-is-it-valid = Хорз клип у?
@@ -547,6 +548,7 @@ about-playbook-how-grow-language-content-4 = Социалон хызтæ
 ## How are decisions made
 
 about-playbook-how-project-governance = Куыд хæссынц проекты уынаффæтæ?
+about-playbook-how-project-governance-content-6 = Ӕмзӕрдиуаг бӕрн.
 
 ## Glossary
 
@@ -565,6 +567,8 @@ dataset-date = Датæ
 license = Лицензи: { $license }
 terms-agree = Æз разы кæнын
 terms-disagree = Æз нæ разы кæнын
+review-submit-title = Бафӕлварын ӕмӕ Арвитын
+review-recording = Бафæлварын
 review-rerecord = Ногæй ныффысс
 
 ## Datasets Page
@@ -577,8 +581,10 @@ size = Бæрц
 cv-license = Лицензи
 audio-format = Аудио формат
 number-of-voices = Хъæлæсты нымæц
+email-to-download = Датасет равгæнынмæ дæ эл. пост ныффысс
 recorded-hours = Фыст сахæттæ
 subscribe = Мæхи баффыссын
+get-started-speech = Куыст райдай хъӕлӕс раиртасӕнӕй
 other-datasets = Иннæ хъæлæсон датасеттæ
 feedback-q = Ис дæм фидбек?
 more = Фылдæр
@@ -631,8 +637,11 @@ listen = Хъус
 write = Фысс
 skip = Ныууадз
 record-cta = Райдай фыссын
+record-platform-not-supported = Хъыгагӕн дӕ платформӕйӕ нӕма ис кусӕн.
 record-no-mic-found = Микрофон ссарын нæ рауади.
 record-error-too-short = Хъæлæсы фыст æгæр цыбыр у
+record-error-too-long = Ныффыст ӕгӕр даргъ у.
+record-error-too-quiet = Ныффыст ӕгӕр сабыр у.
 target-segment-learn-more = Фылдæр базон
 
 ## Contribution Nav Items
@@ -765,3 +774,7 @@ sentence =
 citation-input-value = Кæцæй ист у дæ хъуыдыйад
 citation =
     .label = Цитатæ
+required-field = Дæ хорзæхæй, бафысс ацы рæнхъ.
+# REVIEW PAGE
+sc-review-instruction-first-part = Басгарын
+sc-review-instruction-second-part = Хъуыдыйад лингвистон æгъдаумæ гæсгæ раст у?
