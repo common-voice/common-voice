@@ -562,9 +562,11 @@ about-playbook-how-add-sentences = Куыд хъуамæ бафтауон хъу
 
 about-playbook-how-record-content-2 = Дæхи дарддæр дар æгæр хъæр зӕлтӕй дæ цуры — хъуамæ дæ æнцонтæй хъусой.
 about-playbook-how-record-content-3 = Хъуыдыйад лæмбынæг бакæс — ма дзы байрох кæн, аив кæнæ бафтау ныхæстæ.
+about-playbook-how-record-content-5 = <accuracyLink>Критеритӕ бӕстондӕрӕй фенын дӕ бон у.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Куыд ис ӕвзаг парахат кӕнын Common Voice-ы?
 about-playbook-how-grow-language-content-2 = Цаутæ
 about-playbook-how-grow-language-content-4 = Социалон хызтæ
 
