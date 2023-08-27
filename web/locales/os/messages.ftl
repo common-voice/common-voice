@@ -497,12 +497,15 @@ about-speak = Дзур
 about-speak-text = Архайджытӕ фыссынц хъӕлӕсон клиптӕ, хайгонд хъуыдыйӕдты къоппӕй кӕсгӕйӕ.
 about-listen-queue = Байхъусыны рад
 about-listen = Байхъус
+about-listen-text = Архайджытӕ бӕлвырд кӕнынц хайгонд клипты дырысдзинад, дзураг адӕймаг раст бакасти хъуыдыйад, уый бӕлвырд кӕнгӕйӕ.
 about-is-it-valid = Хорз клип у?
 about-is-it-valid-text = Хъӕлӕсон клип бӕрӕг кӕны, куыд «хорз», архайӕг куы схъæлæс кӕна «О».
 about-yes-votes = ≥ 2 хъӕлӕсы «О»
 about-no-votes = ≥ 2 хъӕлӕсы «Нæ»
+about-no-votes-text = Архайӕг хъӕлӕсон ныффыст куы аиуварс кӕны, уӕд ахӕццӕ вӕййы фӕстӕмӕ йӕ радмӕ. Дыккаг хатт ӕй куы аиуварс кӕнынц, уӕд хъӕлӕсон клип ахӕццӕ вӕййы «клипты уӕлмӕрдмӕ».
 about-dataset-new = Common Voice-ы рардты ӕмбырд
 about-clip-graveyard = «Клипты уӕлмӕрд»
+about-get-involved = Ды дæр бацархай
 about-stay-in-touch = Куыд баззайон уӕ уылӕныл?
 about-stay-in-touch-button = Регистраци
 about-nav-why-common-voice = Цæмæй?
@@ -541,6 +544,7 @@ about-playbook-how-grow-language-content-4 = Социалон хызтæ
 
 ## How to validate
 
+about-playbook-how-validate = Ныффыст хорз кæй у, уый куыд бамбарон?
 
 ## How to access dataset
 
@@ -778,3 +782,7 @@ required-field = Дæ хорзæхæй, бафысс ацы рæнхъ.
 # REVIEW PAGE
 sc-review-instruction-first-part = Басгарын
 sc-review-instruction-second-part = Хъуыдыйад лингвистон æгъдаумæ гæсгæ раст у?
+report-sc-different-language = Æндæр æвзаг
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Стыр ивддзинæдтæ нæм ис
+sc-redirect-page-subtitle-2 = Ратт нæм фæрстытæ <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> кæнæ <emailLink>эл. посты ууылты</emailLink>.
