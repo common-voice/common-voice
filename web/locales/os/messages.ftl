@@ -456,6 +456,7 @@ faq-what-cv-a-2 =
     Мах æмбырд кæнæм хъæлæсты хуызæгтæ канд парахат æвзæгтыл нæ, фæлæ чысыл къорд адæм цы ’взæгтыл дзурынц, уыдоныл дæр. Публикацигонд хъæлæсон рардты æмбырд баххуыс кæндзæн кусджытæн, амалиуæгдартæн æмæ къордтæн хи барæй иуварс кæнын хъæндзинад.
 faq-why-important-q = Ахӕм ахсджиаг цӕмӕ у?
 faq-how-get-q = Куыд райсон Common Voice-ы рардтæ?
+faq-how-get-a = Common Voice-ы рардты ӕмбырд равгæнæн ис <licenseLink>CC 0 лицензийы ууылты</licenseLink> <datasetLink>рардты ӕмбырды фарсыл</datasetLink>. Дӕ бон ма у цалдӕр рардты ӕмбырды бавгӕнын уыцы фарсӕй.
 faq-when-release2-q = Common Voice ӕндӕр ӕвзӕгтыл кӕд рауадздзыстут?
 faq-why-mission-q = Comon Voice Mozilla-йы миссийы хай цӕмӕ у?
 faq-what-cv-and-deepspeech-q = Common Voice ӕмӕ Deep Speech-ы цы хицӕн кӕны?
