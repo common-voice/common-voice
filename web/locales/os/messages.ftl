@@ -828,6 +828,7 @@ citation =
     .label = Цитатæ
 what-can-i-add = Цавæр фразæйы хуызтӕ мын ис бафтауӕн?
 new-sentence-rule-1 = <noCopyright>Нæй авторон барты арæнæвæрд</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-6 = Æнæ фæсарæйнаг символтæ
 required-field = Дæ хорзæхæй, бафысс ацы рæнхъ.
 # REVIEW PAGE
 sc-review-instruction-first-part = Басгарын
