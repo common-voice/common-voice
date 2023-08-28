@@ -590,11 +590,17 @@ about-playbook-how-validate = Ныффыст хорз кæй у, уый куыд
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Дасасетмӕ бацӕуӕн ӕмӕ йемӕ архайæн куыд ис?
 
 ## How are decisions made
 
 about-playbook-how-project-governance = Куыд хæссынц проекты уынаффæтæ?
+about-playbook-how-project-governance-content-2 = Нӕ архайд у ахæм принциптыл конд:
+about-playbook-how-project-governance-content-3 = Конфиденфиалондзинад, ӕдасдзинад ӕмӕ рухсдзинад.
+about-playbook-how-project-governance-content-4 = Къорды архайд ӕмӕ уынаффӕ ахицӕн кӕнын.
+about-playbook-how-project-governance-content-5 = Аргъад ӕмӕ басаст.
 about-playbook-how-project-governance-content-6 = Ӕмзӕрдиуаг бӕрн.
+about-playbook-how-project-governance-content-7 = <governanceLink>Фылдӕр базон, куыд арӕзт нӕм у фӕтк</governanceLink>
 
 ## Glossary
 
@@ -602,6 +608,7 @@ localization = Локализаци
 
 ## Error pages
 
+error-title-404 = Махæн нæ бантысти ссарын дӕуӕн уыцы фарс
 error-code = Рæдыд { $code }
 
 ## Data
@@ -829,6 +836,7 @@ citation =
 what-can-i-add = Цавæр фразæйы хуызтӕ мын ис бафтауӕн?
 new-sentence-rule-1 = <noCopyright>Нæй авторон барты арæнæвæрд</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-6 = Æнæ фæсарæйнаг символтæ
+how-to-cite = Ратæдзæн куыд бацамонон?
 required-field = Дæ хорзæхæй, бафысс ацы рæнхъ.
 # REVIEW PAGE
 sc-review-instruction-first-part = Басгарын
