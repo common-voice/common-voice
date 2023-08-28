@@ -458,6 +458,7 @@ faq-why-important-q = Ахӕм ахсджиаг цӕмӕ у?
 faq-how-get-q = Куыд райсон Common Voice-ы рардтæ?
 faq-how-get-a = Common Voice-ы рардты ӕмбырд равгæнæн ис <licenseLink>CC 0 лицензийы ууылты</licenseLink> <datasetLink>рардты ӕмбырды фарсыл</datasetLink>. Дӕ бон ма у цалдӕр рардты ӕмбырды бавгӕнын уыцы фарсӕй.
 faq-when-release2-q = Common Voice ӕндӕр ӕвзӕгтыл кӕд рауадздзыстут?
+faq-when-release2-a = Common Voice-ы мульти-æвзагон рардты æмбырды верси ныртæккæ цæуы валидаци æмæ иугонд, æхсæнады æххуысы фæрцы. Кæд дæ фæнды Common Voice ратæлмац кæнын ног æвзæгтæм, уæд бахиз ацы фарсмæ <sentenceCollectorLink>хъуыдыйæдты æмбырд кæныны инструмент</sentenceCollectorLink>, ног хъуыдыйæдтæ бафтауынæн рардты æмбырдмæ, æмæ Mozila <pontoonLink>Pontoon</pontoonLink> — веб-сайт тæлмац кæнынæн. Common Voice-мæ ног æвзæгтæ бафтынц, 5000 фидаргонд хъуыдыйæдтæ куы сæмбырд вæййы, уæд.
 faq-why-mission-q = Comon Voice Mozilla-йы миссийы хай цӕмӕ у?
 faq-what-cv-and-deepspeech-q = Common Voice ӕмӕ Deep Speech-ы цы хицӕн кӕны?
 faq-what-cv-and-deepspeech-a = Common Voice-ы рардты æмбырд æххæст кæны хъæлæс раиртасыны системæ гом райдайæн кодимæ Mozilla Deep Speech. Deep Speech-ы фыццаг верси рауагътой  2017 азы ноябры, æмæ уæдæй фæстæмæ дарддæр парахат кæны. Common Voice-ы рардты æмбырдимæ мах нымайæм, æмæ ацы технологи хъæлæс раиртасыны гом райдайæн кодимæ судзæн æнцонвадат алкæмæндæр. Ныфс нæ ис, æмæ ацы технологитæ архайджытæн баххуыс кæндзысты сфæлдисын бирæ инновацион продукттæ æмæ лæггæдтæ.
