@@ -1154,6 +1154,7 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = Es apstyprynoju, ka itī ir <wikipediaLink>publiskuo domena</wikipediaLink> teikumi, i maņ ir atļuove tūs augšynluodēt.
 sc-submit-button =
     .submitText = Nūsyuteit
+sc-submit-filtered = Filtrāti teikumi deļ praseibu napiļdeišonys (lyudzu, dalīcit lobuotys teikumu versejis kai jaunus teikumus):
 sc-submit-guidelines = Lyudzu, puorbaudit <howToLink>vadlinejis</howToLink>.
 
 ## ADD LANGUAGE
@@ -1297,10 +1298,16 @@ sc-personal-not-added = Jius naesit dalics nivīnu volūdu.
 
 sc-criteria-modal = ⓘ Puorbaudeišonys kritereji
 sc-criteria-title = Puorbaudeišonys kritereji
+sc-criteria-make-sure = Puorsalīcynojit, voi teikums atbiļst itaidim kriterejim:
+sc-criteria-item-1 = Teikumam juobyut pareizi uzraksteitam, vuordūs navar byut drukys klaidu.
+sc-criteria-item-2 = Teikumam juobyut gramatiski pareizam.
+sc-criteria-item-3 = Teikumam juobyut izrunojamam.
 sc-criteria-item-4 = Ka teikums atbylst vysim kriterejim, klykstynojit iz pūgys &quot;Apstyprynuot&quot;.
+sc-criteria-item-6 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Jius naesit atlasejs nivīnu volūdu. Lyudzu, ejit iz sovu <profileLink>profilu</profileLink>, lai izalaseitu volūdys.
 sc-review-title = Teikumu puorbaude
 sc-review-loading = Nūteik teikumu īluode...
 sc-review-select-language = Lyudzu, izavielejit volūdu, lai puorbaudeitu teikumus.
