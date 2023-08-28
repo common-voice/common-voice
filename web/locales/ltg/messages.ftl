@@ -688,6 +688,7 @@ request-language-error =
 language-section-in-progress = Procesā
 language-section-in-progress-new-description = Ituos volūdys itūšaļt ir kūpīnys atteisteibā. Progresa jūslys nūruoda, cik lelā mārā kotrai volūdai ir veikta <localizationGlossaryLink>teiklavītys lokalizaceja</localizationGlossaryLink> i <sentenceCollectionGlossaryLink>teikumu kolekcejis izveide</sentenceCollectionGlossaryLink>.
 language-section-launched = Aizsuokts
+language-section-launched-description = Itom volūdom teiklavīta ir veiksmeigi <localizationGlossaryLink>lokalizāta</localizationGlossaryLink>, i tamā ir gona daudz <sentenceCollectionGlossaryLink>teikumu</sentenceCollectionGlossaryLink>, lai varātu turpynuot <speakLink>runuot</speakLink> i <listenLink>klauseitīs</ listenLink>.
 languages-show-more = Ruodeit vaira
 languages-show-less = Ruodeit mozuok
 language-meter-in-progress = Progress
@@ -842,6 +843,7 @@ validated-clips = Puorbaudeitī īroksti
 total-approved = Kūpā apstyprynuotī
 overall-accuracy = Kūpejuo precizitate
 set-visibility = Nūstateit munu radzameibu
+visibility-explainer = Itys īstatejums kontrolej jiusu radzameibu rezultatu topā. Ka paslāpts, jiusu progress byus privats. Tys zeimoj, ka jiusu biļde, lītuotuoja vuords i progress natiks paruodeits rezultatu topā. Jemit vārā, ka izvarātuoju saroksta atsvaidzynuošona prosa ~ { $minutes } minutys.
 visibility-overlay-note = Pīzeime: ka tys ir īstateits iz “Radzams”, itū īstatejumu var maineit <profileLink> profila lopā </profileLink>.
 show-ranking = Ruodeit munu reitingu
 
