@@ -993,6 +993,7 @@ demo-listen-subtitle = Itys tok ir lobs breids paleidzēt, pareiz?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Informacejis paneli snādz jums jaunuokū informaceju par jiusu i kūpīnys progresu.
+demo-dashboard-card-body = Piec kotra īraksteituo teikuma i piec kotra puorbaudeituo īroksta jiusu konta informacejis paneli teik atjaunynuoti, lai atspeidynuotu jiusu jaunuokūs sasnīgumus kotrā volūdā, kurā dūdit īguļdejumu. Nui, jius varit dūt īguļdejumu vaira nikai vīnā volūdā!<br/><br/> Lītojit informacejis paneļus, lai sekuotu leidza sovai statistikai, radzātu, kai jums izadūdās kūpā ar cytim kūpīnys lūceklim, i īstateitu kasdīnys voi kasnedelis īguļdejumu mierkus.
 
 ## Validation criteria
 
@@ -1002,8 +1003,11 @@ contribution-criteria-page-title = Īguļdejuma kritereji
 contribution-criteria-page-description = Izprūtit, kam juopīvierš viereiba, klausūtīs īrokstus, i zinit, kai padareit ari sovus īrokstus lobuokus!
 contribution-for-example = par pīmāru
 contribution-misreadings-title = Klaidaini skaitejumi
+contribution-misreadings-description = Klausūtīs cīši ryupeigi puorbaudit, voi īraksteitais ir taišni tys, kas uzraksteits; nūraidit, ka ir pat nalelys klaidys. <br />Bīžuokuos klaidys ir itaidys:
 contribution-misreadings-description-extended-list-1 = Izlaisti vuordi, par pīmāru, tryukst <strong>'ja'</strong> voi <strong>'es'</strong>, par pīmāru, 'es asmu' vītā īrunuots tikai 'asmu'.
 contribution-misreadings-description-extended-list-2 = Nūrautys vuordu golūtnis, par pīmāru, <strong>'s'</strong> vuorda beiguos.
+contribution-misreadings-description-extended-list-3 = Vuordi samaineiti vītom, par pīmāru, "voi es kū varu dareit?" vītā ir īrunuots "voi es varu kū dareit?".
+contribution-misreadings-description-extended-list-4 = Tryukst vuorda beigu, deļtuo ka īroksts ir izslāgts puoruok dreiži.
 contribution-misreadings-description-extended-list-5 = Īrokstā dzieržomi vairuoki raudzejumi īraksteit vajadzeigū frazi voi puorsasaceišona.
 contribution-misreadings-example-1-title = Senejuo laikmeta dinozauri.
 contribution-misreadings-example-2-title = Senejuo laikmeta dinozaurs.
