@@ -1400,6 +1400,7 @@ adding-sentences-subheader-length-explanation = Teikumim juobyut eisuokim par 15
 adding-sentences-subheader-spelling-punctuation = Pareizraksteiba i pīturzeimis
 adding-sentences-subheader-spelling-punctuation-explanation = Teikumam juobyut pareizi uzraksteitam, vuordūs navar byut drukys klaidu.
 adding-sentences-subheader-abbreviations = Saeisynuojumi i akronimi
+adding-sentences-subheader-abbreviations-explanation = Teikumūs ir juoizasorga nu saeisynuojumu i akronimu, par pīmāru, "ASV" voi "NLO", partū ka tī var tik skaiteiti tai, ka nasakreit ar tūs pareizraksteibu. Bez tuo vīnam saeisynuojumam var byut vairuoki pareizi īrunuošonys veidi.
 adding-sentences-subheader-punctuation = Pīturzeimis
 adding-sentences-subheader-special-characters = Cytu volūdu burti
 adding-sentences-subheader-special-characters-explanation-1 = Burtim ir juobyut dereigim volūdā, kurā runoj. Par pīmāru, “ж” ir burts krīvu alfabetā, tok tys nikod nateik lītuots latgalīšu volūdā, deļtuo tys nadreikst byut latgalīšu volūdys teikumūs.
