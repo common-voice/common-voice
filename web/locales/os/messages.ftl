@@ -836,6 +836,7 @@ sc-settings-title = Рæвдзгæнæнтæ
 
 create-profile-button = Дæ профиль скæн
 example = Дæнцæг
+citing-sentences-explanation-1 = Хъуыдыйады ратæдзæн бацамонын тынг ахсджиаг у, мах цæмæй зонæм хъуыдыйæдтæ æхсæнады хæзнайæ ист кæй сты, уый.
 citing-sentences-subheader-websites = Веб-сайттæ
 citing-sentences-subheader-websites-explanation = Сайт бацамонын, зæгъæм: "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Академион бæрæгуат
@@ -855,6 +856,7 @@ adding-sentences-subheader-numbers = Нымæцтæ
 adding-sentences-subheader-abbreviations = Аббревиатурæтæ æмæ акронимтæ
 adding-sentences-subheader-abbreviations-explanation = Аббревиатурæтæ æмæ акронимтæ, ахæмтæ куыд “USA” кæнæ “ICE”, хи хизын хъæуы райдайæн тексты, уымæн æмæ сæ бон у амал бакæсæн, кæцы æмдзыд нæу сæ ныффыстимæ.
 adding-sentences-subheader-punctuation = Пунктуаци
+adding-sentences-subheader-special-characters = Сæрмагонд символтæ æмæ æндæр æвзæгты дамгъæтæ
 adding-sentences-subheader-special-characters-explanation-2 = Локализаци кæнгæйæ æвзæгтæн ис æрæврæн хи уагæвæрдтæ уæлæмхасæн домæнтимæ. Кæд æвзагæн нæй сæрмагонд домæнтæ, уæд архайджытæн æвдисдзæнис уагæвæрдты иумæйаг верси.
 adding-sentences-subheader-offensive-content = Æфхæрӕг мидис
 reviewing-sentences-explanation-1 = Хъуыдыйад кæд æххæст кæны уæлдæрамынд критеритæ, уæд æрхæц «О»-йыл.
