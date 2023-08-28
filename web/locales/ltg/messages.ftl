@@ -1406,9 +1406,12 @@ reviewing-sentences-explanation-1 = Ka teikums atbylst agruok nūsauktajim krite
 reviewing-sentences-explanation-2 = Ka teikums naatbylst agruok nūsauktajim kriterejim, klykstynojit iz pūgys "Nā".
 reviewing-sentences-explanation-3 = Ka naesit puorlīcynuots par teikumu, varit tū izlaist i puorīt iz nuokušū.
 reviewing-sentences-explanation-4 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
+# WRITE PAGE
+write-instruction-second-part = publiski daīmams teikums
+write-page-subtitle = Ite dalyktī teikumi tiks davīnuoti publiski daīmamai cc-0 liceņcātai datu kūpai.
 sentence =
     .label = Teikums
-sentence-input-value = Īvodit ite sovu publiski daeimamū teikumu, kas nav aizsorguots ar autortīseibom.
+sentence-input-value = Īvodit ite sovu publiski daīmamū teikumu, kas nav aizsorguots ar autortīseibom.
 citation-input-value = Jiusu teikuma olūts
 citation =
     .label = Atsauce
