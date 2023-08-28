@@ -826,6 +826,8 @@ sentence-input-value = Æхсæнады хæзнайæ дзы бафысс дæ 
 citation-input-value = Кæцæй ист у дæ хъуыдыйад
 citation =
     .label = Цитатæ
+what-can-i-add = Цавæр фразæйы хуызтӕ мын ис бафтауӕн?
+new-sentence-rule-1 = <noCopyright>Нæй авторон барты арæнæвæрд</noCopyright> (<cc0>cc-0</cc0>)
 required-field = Дæ хорзæхæй, бафысс ацы рæнхъ.
 # REVIEW PAGE
 sc-review-instruction-first-part = Басгарын
