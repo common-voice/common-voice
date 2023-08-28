@@ -979,6 +979,7 @@ demo-account = Konts
 ## Demo Account
 
 demo-account-card-header = Lai dūtu īguļdejumu, nav vajadzeigs konts, koč i tys ir dereigs.
+demo-account-card-body = Lobajā pusē mes izstuostam prīškrūceibys i precizejam, kaidu informaceju mes publiskojam. Lītojit tuoļuok asūšuos saitis, lai suoktu dorbu ar Common Voice kontu sovā īreicē.
 demo-account-enter-email =
     .label = Īvodit e-postu, lai nūsyuteitu registracejis saiti
 demo-account-sign-up = Nūsyutit registracejis saiti
@@ -986,6 +987,7 @@ demo-account-sign-up = Nūsyutit registracejis saiti
 ## Demo Contribute
 
 demo-contribute-card-header = Voi esit gotovs dalikt sovu bolsu voi aizdūt sovu ausi?
+demo-contribute-card-body-v2 = Niu, kod jius zinit nadaudz vaira par Common Voice, deļkuo naparaudzeit tū? <br/><br/>Ka gribit puorbaudeit cytu cylvāku īrokstus, klykstynojit iz atskaņuošonys ikonys. Jius paleidzēsit puorsalīcynuot, voi īroksti atbylst ekranā raksteitajim teikumim.
 demo-listen-subtitle = Itys tok ir lobs breids paleidzēt, pareiz?
 
 ## Demo Dashboard
