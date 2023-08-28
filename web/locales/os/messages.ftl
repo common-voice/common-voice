@@ -855,6 +855,8 @@ adding-sentences-subheader-numbers = Нымæцтæ
 adding-sentences-subheader-abbreviations = Аббревиатурæтæ æмæ акронимтæ
 adding-sentences-subheader-abbreviations-explanation = Аббревиатурæтæ æмæ акронимтæ, ахæмтæ куыд “USA” кæнæ “ICE”, хи хизын хъæуы райдайæн тексты, уымæн æмæ сæ бон у амал бакæсæн, кæцы æмдзыд нæу сæ ныффыстимæ.
 adding-sentences-subheader-punctuation = Пунктуаци
+reviewing-sentences-explanation-1 = Хъуыдыйад кæд æххæст кæны уæлдæрамынд критеритæ, уæд æрхæц «О»-йыл.
+reviewing-sentences-explanation-2 = Хъуыдыйæд кæд не ’ххæст кæны уæлдæрамынд критеритæ, уæд æрхæц «Нæ»-йыл.
 reviewing-sentences-explanation-3 = Кæд хъуыдыйадыл гуырысхо кæныс, уæд дын фæуадзыны бар ис æмæ æндæрмæ рахиз.
 reviewing-sentences-explanation-4 = Бæлвырд кæнынмæ кæд хъуыдыйæдтæ фесты, уæд нын фылдæр хъуыдыйæдтæ сæмбырд кæнын баххуыс кæн!
 # WRITE PAGE
@@ -868,8 +870,16 @@ citation =
     .label = Цитатæ
 what-can-i-add = Цавæр фразæйы хуызтӕ мын ис бафтауӕн?
 new-sentence-rule-1 = <noCopyright>Нæй авторон барты арæнæвæрд</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = 15 дзырдӕй къаддæр
+new-sentence-rule-3 = Раст грамматикӕ
+new-sentence-rule-4 = Раст орфографи ӕмӕ пунктуаци
+new-sentence-rule-5 = Æнæ нымæцтӕ, ӕнæ сæрмагонд символтӕ
 new-sentence-rule-6 = Æнæ фæсарæйнаг символтæ
+new-sentence-rule-7 = Ратӕдзӕн хорз бацамон
+new-sentence-rule-8 = Ӕрдзон æмæ ныхасон (хъуыдыйад хъуамæ æнцон бакæсæн уа)
 how-to-cite = Ратæдзæн куыд бацамонон?
+how-to-cite-explanation-bold = Цитатæ URL-æрвитæнимæ кæнæ куысты æнæхъæн сæргондимæ.
+how-to-cite-explanation = Кæд адон æцæгæй дæр дæхи ныхæстæ сты, уæд зæгъ <italicizedText>“Мæхи ныхæстæ”</italicizedText>. Мах хъуамæ зонæм, ацы æрмæг кæм ссардтай, цæмæй бæлвырддæрæй базонæм, æхсæнады хæзнайы кæй ис æмæ йыл авторон барты арæнæвæрдтæ кæй нæ парахат кæнынц. Æххæст информаци хи ныхæсты тыххæй кæс нæ <guidelinesLink> рекомендацийы фарсыл</guidelinesLink>.
 required-field = Дæ хорзæхæй, бафысс ацы рæнхъ.
 # REVIEW PAGE
 sc-review-instruction-first-part = Басгарын
