@@ -883,6 +883,10 @@ activity-needed-calculation-plural = { $totalHours } stuņdis ir sasnādzamys { 
 how-many-per-day = Breineigi! Cik īrokstu dīnā?
 how-many-a-week = Breineigi! Cik īrokstu nedeļā?
 which-goal-type = Voi gribit runuot, klauseitīs voi obejus?
+receiving-emails-info = Es grybu sajimt e-postus, par pīmāru, mierka atguodynuojumus, progresa atjaunynuojumus i informativus biletenus par itū projektu.
+not-receiving-emails-info =
+    Itūšaļt jums ir īstateits <bold> NASAJIMT </bold> e-postus, par pīmāru, atguodynuojumus par mierkim, muna
+    progresa atjaunynuojumus i biletenus par Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [zero] { $count } īrokstu
@@ -912,6 +916,7 @@ share-goal = Pasadoli ar sovu mierki
 delete-q = Voi gribit pīpraseit, lai ari jiusu bolsa īroksti tiktu dzāsti, voi ari gribit tūs saglobuot Common Voice datu kūpā?
 keep = Saglobuot
 remove = Aizvuokt
+keep-info = Jiusu anonimī bolsa īroksti paliks Common Voice datu kūpā. Kod byusit izdziess sovu profilu, jius vaira navarēsit īsnēgt pīprasejumu sovu īroktu dziesšonai nu datu kūpys
 remove-info = Mes puorsavērsim jiusu pīprasejumu, lai nu datu kūpys nūjimtu jiusu īrokstus. Ka jiusu pīprasejums tiks apstyprynuots, mes sasazynuosim ari ar tim, kas ir zamynluodejuši datu kūpu i jim pīpraseisim, lai dzieš jiusu īrokstus.
 profile-form-delete = Dzēst profilu
 
