@@ -673,6 +673,8 @@ request-language-google-recaptcha-required = Ka gribit turpynuot, ir vajadzeiga 
 request-language-google-recaptcha-error = Ar reCAPTCHA roduos problema. Lyudzu, raugit vēļreiz.
 # Success page
 request-language-success-heading = Paļdis! Jius esit nūsyutejs jaunys volūdys pīprasejumu.
+request-language-success-list-1 = Dreizumā jums vajadzātu sajimt e-postu ar skaidruojumu par nuokušajim sūlim, lai jiusu volūdu davīnuotu Common Voice.
+request-language-success-list-2 = Myusu kūpīnys menedžers sasazynuos ar jums, lai pīduovuotu papyldu atbolstu i informaceju, ka kaida volūdys kūpīna jau struoduoj pi jiusu volūdys.
 request-language-success-list-3 =
     Ka puors dīnu laikā nasajemit nu mums informaceju,
     sasazynojit ar <emailLink>{ $email }</emailLink>
@@ -1402,6 +1404,7 @@ adding-sentences-subheader-spelling-punctuation-explanation = Teikumam juobyut p
 adding-sentences-subheader-abbreviations = Saeisynuojumi i akronimi
 adding-sentences-subheader-abbreviations-explanation = Teikumūs ir juoizasorga nu saeisynuojumu i akronimu, par pīmāru, "ASV" voi "NLO", partū ka tī var tik skaiteiti tai, ka nasakreit ar tūs pareizraksteibu. Bez tuo vīnam saeisynuojumam var byut vairuoki pareizi īrunuošonys veidi.
 adding-sentences-subheader-punctuation = Pīturzeimis
+adding-sentences-subheader-punctuation-explanation = Specialī simboli i pīturzeimis juoīlīk tikai tod, ka tys ir vysā vajadzeigs. Par pīmāru, apostrofs ir īlykts taidūs angļu volūdys vuordūs kai “don’t” i “we’re”, i tys ir juoīlīk ari olūta tekstā, tok moz tycams, ka jums koč kod byus vajadzeigi simboli, par pīmāru, “@” voi “#.” Latgalīšu volūdā juorauga atsabreivuot nu vysu pīturzeimu i specialūs simbolu, kas nav vajadzeigi, par pīmāru, nu dūmuzeimu.
 adding-sentences-subheader-special-characters = Cytu volūdu burti
 adding-sentences-subheader-special-characters-explanation-1 = Burtim ir juobyut dereigim volūdā, kurā runoj. Par pīmāru, “ж” ir burts krīvu alfabetā, tok tys nikod nateik lītuots latgalīšu volūdā, deļtuo tys nadreikst byut latgalīšu volūdys teikumūs.
 adding-sentences-subheader-special-characters-explanation-2 = Volūdom var byut sovi validacejis nūsacejumi ar papyldu praseibom, kod tuos teik lokalizātys. Ka volūdai nav konkreta validacejis faila, tiks lītuoti vyspuoreigi angļu volūdys nūsacejumi.
