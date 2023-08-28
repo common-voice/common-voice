@@ -584,12 +584,15 @@ about-playbook-how-record-content-5 = <accuracyLink>Критеритӕ бӕст�
 ## How to grow language
 
 about-playbook-how-grow-language = Куыд ис ӕвзаг парахат кӕнын Common Voice-ы?
+about-playbook-how-grow-language-content-1 = Common Voice-ы фадат сфӕлдисын хайад исӕг алы хуызон адӕмӕн гаранти дӕтты, рардты ӕмбырд пайда кӕй уыдзӕн фылдӕр нымӕц адӕмӕн. Мах сфӕлдыстам ресурстӕ ӕмӕ шаблонтӕ, кӕцытӕй дӕ бон уыдзӕн пайда кӕнын!
 about-playbook-how-grow-language-content-2 = Цаутæ
 about-playbook-how-grow-language-content-4 = Социалон хызтæ
 
 ## How to validate
 
 about-playbook-how-validate = Ныффыст хорз кæй у, уый куыд бамбарон?
+about-playbook-how-validate-content-1 = Кӕд <strong>ныхӕстӕ равзарӕн ис</strong> ӕмӕ кæд ныффысты </strong>рӕдыдтытӕ нӕй<strong>, фылдӕрхатт уый нысан кӕны, <strong>хорз кæй у, уый</strong>.
+about-playbook-how-validate-content-4 = Ныффыст кӕд аиуварс кӕнынц 2 адӕймаджы, уӕд уый бахай кӕны хицӕн хай датасеты.
 
 ## How to access dataset
 
@@ -608,6 +611,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Фылдӕр �
 ## Glossary
 
 localization = Локализаци
+localization-explanation = Ай у нæ тæлмацы процесс æмæ нæ контенты адаптаци бирӕ æвзæгтæн.
 
 ## Error pages
 
