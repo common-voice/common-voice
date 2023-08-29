@@ -1761,6 +1761,7 @@ report-sc-different-language = Ngôn ngữ khác
 report-sc-different-language-detail = Nó được viết bằng một ngôn ngữ khác với những gì tôi đang xem xét.
 sentences-fetch-error = Đã xảy ra lỗi khi tải câu
 review-error = Đã xảy ra lỗi khi xem xét câu này
+review-error-rate-limit-exceeded = Bạn đang đi quá nhanh. Hãy dành một chút thời gian để xem lại câu để đảm bảo nó đúng.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Chúng tôi đang thực hiện một số thay đổi lớn
 sc-redirect-page-subtitle-1 = Trình thu thập câu đang chuyển sang nền tảng cốt lõi của Common Voice. Giờ đây, bạn có thể <writeURL>viết</writeURL> một câu hoặc <reviewURL>xem xét</reviewURL> các bài gửi một câu trên Common Voice.

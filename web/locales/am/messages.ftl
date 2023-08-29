@@ -1777,6 +1777,7 @@ report-sc-different-language = የተለያየ ቋንቋ
 report-sc-different-language-detail = እኔ እየገመገምኩት ካለው በተለየ ቋንቋ ነው የተፃፈው።
 sentences-fetch-error = ዓረፍተ-ነገሮችን ማምጣት ላይ ስህተት ተፈጥሯል
 review-error = ይህን ዓረፍተ-ነገር በመገምገም ላይ ስህተት ተፈጥሯል
+review-error-rate-limit-exceeded = በጣም በፍጥነት እያስኼዱት ነው። አረፍተነገሩ ትክክል መሆኑን ለማረጋገጥ እባክዎን ትንሽ ጊዜ ይውሰዱ።
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = አንዳንድ ትልልቅ ለውጦችን እያደረግን ነው።
 sc-redirect-page-subtitle-1 = ዓረፍተ ነገር ሰብሳቢው ወደ ዋናው የጋራ ድምጽ መድረክ እየሄደ ነው። አሁን በጋራ ድምጽ ላይ የገባውን አንድ ዓረፍተ ነገር <writeURL>መጻፍ</writeURL> ወይም ነጠላ ዓረፍተ ነገር <reviewURL>መገምገም</reviewURL> ይችላሉ።

@@ -139,9 +139,7 @@ default-tagline = Common Voice ir Mozilla iniciativa, lai vuiceitu datorim sapra
 home-cta = Runojit, dūdit īguļdejumu ite!
 wall-of-text-start = Bolss ir dabisks, bolss ir ciļvieceigs. Deļtuo mes gribim sataiseit bolsa atpazeišonys tehnologeju, kuru varātu lītuot vysaiduos īreicēs. Bet, lai radeitu itaidu bolsa tehnologeju, ir vajadzeigs daudz bolsa īrokstu.
 wall-of-text-more-mobile = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daīmami vysim cylvākim. Tys kavej inovaceju. Deļtuo asam uzsuokuši Common Voice projektu, kas padareis bolsa atpazeišonu daīmamu sevkuram.
-wall-of-text-more-desktop =
-    Niu jius varit pazīduot sovu bolsu, lai paleidzātu mums sataiseit atvārtuo pyrmkoda bolsa datubazi, kū var lītuot sevkurs,¶
-    taisūt inovativys lītuotnis īreicem i teiklavītai. Skaitit teikumu, lai paleidzātu mašynom īvuiceit, kai runoj cylvāki. Puorbaudit cytu cylvāku īrokstus, lai uzlabuotu datu kvalitati. Tys ir tik vīnkuorši!
+wall-of-text-more-desktop = Niu jius varit pazīduot sovu bolsu, lai paleidzātu mums sataiseit atvārtuo pyrmkoda bolsa datubazi, kū var lītuot sevkurs, taisūt inovativys lītuotnis īreicem i teiklavītai. Skaitit teikumu, lai paleidzātu mašynom īvuiceit, kai runoj cylvāki. Puorbaudit cytu cylvāku īrokstus, lai uzlabuotu datu kvalitati. Tys ir tik vīnkuorši!
 wall-of-text-first = Bolss ir dabiskys, bolss ir ciļvieceigs. Taišni deļtuo mes gribim sataiseit bolsa atpazeišonys tehnologeju, kuru varātu lītuot dažaiduos īreicēs. Bet, lai radeitu itaidu bolsa tehnologeju, ir vajadzeigs daudz bolsa īrokstu.
 wall-of-text-second = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daeimami vysim cylvākim. Mes dūmojam, ka tys kavej inovaceju, deļtuo asam aizsuokuši Common Voice - projektu, ka padareis bolsa atpazeišonu daeimamu sevkuram.
 show-wall-of-text = Skaiteit vaira
@@ -192,7 +190,7 @@ email-subscription-title-new = Registrejitēs Common Voice viestim, atguodynuoju
 ## Account Benefits
 
 benefits = Īgivumi
-rich-data = Padorit sovus īsnīgtūs datus piec vareibys kvalitativuokus, dūdūt puors anonimus demografiskūs datus. Pyrma tū publiskuošonys mes atdaleisim vysus demografisku informaceju nu jiusu ideņtitatis.
+rich-data = Padorit sovus īsnāgtūs datus piec vareibys kvalitativuokus, dūdūt puors anonimus demografiskūs datus. Pyrma tū publiskuošonys mes atdaleisim vysus demografisku informaceju nu jiusu ideņtitatis.
 improve-audio = Profila informaceja padora lobuokus audio īrokstu datus, kū lītoj runys atpazeišonys precizitatis apvuiceibā.
 keep-track = Sekojit leidza sovam progresam i datim vairuokuos volūduos.
 compare-progress = Veritēs, kai jiusu progress ir saleidzynoms ar cytim īguļdeituojim vysā pasaulī.
@@ -272,7 +270,7 @@ profile-form-variant-default-value = Variants nav izavālāts
 profile-form-accent =
     .label = Akcents
 profile-form-custom-accent-help-text =
-    .label = Kai jius apraksteitu sovu akcentu?
+    .label = Kai jius apraksteitu sovu runu? Kaidys tai ir īzeimis i kas tuos varātu byut ītekmiejs? (Ite var minēt sovu dzeivis vītu (vaļsts, piļsāta, pogosts), sovu tauteibu i c., kas ruodīs svareigs.)
 profile-form-custom-accent-placeholder-2 = Suocit raksteit, lai apraksteitu sovu akcentu.
 profile-form-age =
     .label = Vacums
@@ -316,6 +314,7 @@ email-subscriptions = Jaunumu aboniešona e-postā
 download-profile = Zamynluodēt munus datus
 contribution-experience = Pīsadaleišonys pīredze
 skip-submission-feedback = Izlaist atsauksmis
+skip-submission-description = Īsnāguma īsnīgšonys laikā atgrīzeniskuo saite tiks izlaista piec nūklykstynuošonys iz 'Īsnēgt'. Īguļdejums tiks turpynuots tīši ar nuokušajim 5 īrokstim voi apstyprynuojumim.
 skip-submission-note = Pīzeime: mainūt īguļdejuma veidu, jums byus juoizavielej īraksteit voi klauseitīs.
 off = Izslāgts
 on = Īslāgts
@@ -364,6 +363,7 @@ faq-what-quality-q = Kaida leimiņa audio kvalitate ir vajadzeiga, lai bolsa īr
 faq-why-10k-hours-q = Deļkuo īrokstu puorbaudis mierkis ir 10000 stuņžu?
 faq-why-10k-hours-a = Tys ir aptuvans stuņžu skaits, kas vajadzeigs, lai kvalitativi apvuiceitu runys-teksta atpazeišonys sistemu.
 faq-how-calc-hours-q = Kai Common Voice apriekinoj stuņdis?
+faq-how-calc-hours-a = Mes skaitom stuņdis, riekinojūt kotra īroksta videjū garumu, i tod reizynojam itū skaitu ar kūpejū īrokstu skaitu vysuos volūduos.
 faq-where-src-from-2-q = Nu kurīnis ir teksti īrokstim?
 faq-why-not-ask-read-q = Deļkuo jius naprosit, lai cylvāki skaiteitu gruomotysa voi Wikipedia rokstus dažaiduos volūduos?
 faq-why-account-q = Deļkuo maņ juosaregistrej?
@@ -380,6 +380,7 @@ faq-search-for-answers =
 
 about-title = Deļkuo ir Common Voice?
 how-does-it-work-title-v2 = Kai dorbojās Common Voice?
+how-does-it-work-text = Mes pasūlejam atkluotu i breivi daeimamu datu kūpu. Pazīdojit sovu bolsu, apstyprynojit cytu cylvāku īrokstus, uzlobojit datu kūpu deļ vysu.
 
 ## How does it work section
 
@@ -413,6 +414,10 @@ about-dataset-new = Bolsa datu kūpa
 about-dataset-new-text = Common Voice datu kūpai ir symtim tyukstūšys bolsa paraugu, kas paleidz izstruoduotuojim sataiseit bolsa atpazeišonys reikus.
 about-clip-graveyard = Īrokstu kopsāta
 about-get-involved = Īsasaistit
+about-get-involved-text-2 =
+    Gribit paleidzēt padareit Common Voice vēļ lobuoku?
+    Breineigi! Sasazynojit ar mums e-postā voi <discourseLink>Discourse</discourseLink>
+    forumā, ziņojit par submit problemom <githubLink>GitHub</githubLink>, voi pīsavīnojit <matrixLink>Matrix</matrixLink> kūpīnys čatam.
 about-stay-in-touch = Kai es varu sasazynuot?
 about-stay-in-touch-button = Pīsaraksteit
 about-stay-in-touch-text-1 = <emailFragment>Pīsaregistrejit</emailFragment> myusu e-posta jaunumim, lai izzynuotu, kai varit pīsadaleit kampaņuos, pasuokumūs i Common Voice kūpprojekta aktivitatēs.
@@ -475,7 +480,7 @@ about-playbook-how-record-quality = Kai īraksteit lobys kvalitatis īrokstu?
 about-playbook-how-record-content-1 = Runojit sovā īrostajā bolsā! Jiusu runys veids ir pījamams - mes gribim, lai jiusu izruna byutu taida, kaida tei ir, i taipat mes gribim dzierdēt jiusu runys īrostū skaļumu, stilu i intonaceju.
 about-playbook-how-record-content-2 = Izasorgojit nu cīš lela fona trūkšņa - jums vajadzātu byut vīgli saklausomam.
 about-playbook-how-record-content-3 = Viereigi puorskaitit teikumus - naizlaidit, namainit i nadalīcit vuordus.
-about-playbook-how-record-content-4 = Puorsalīcynojit, ka īroksts ir suocīs, pyrma suokt runuot, i apturit īrokstu tikai tod, kod esit pabeidzis runuot.
+about-playbook-how-record-content-4 = Puorsalīcynojit, ka īroksts ir suocīs, pyrma suokt runuot, i apturit īrokstu tikai tod, kod esit pabeidzs runuot.
 about-playbook-how-record-content-5 = <accuracyLink>Veritēs vaira par tū, kai pareizi īraksteit.</accuracyLink>
 
 ## How to grow language
@@ -486,12 +491,15 @@ about-playbook-how-grow-language-content-2 = Nūtikšonys
 about-playbook-how-grow-language-content-3 = Varit taiseit pasuokumus, lai mudynuotu cylvākus dūt sovu īguļdejumu. Tys ir vīgluok, nakai jius dūmojit. Varit tū izdareit tīšsaistē, lītojūt videokonferenču reiku, voi personeigi, ka tys ir drūsai. <eventTemplate>Izpietit myusu veidnis i resursus, kas paradzāti pasuokumu nūtikšonai</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Socialī medeji
 about-playbook-how-grow-language-content-6 = Partnereibys i teikli
+about-playbook-how-grow-language-content-7 = Atrūnit cytus, kurim tys ryup. Tuos varātu byut universitatis, volūdu školys, interešu aizstuoveibys grupys voi datu zynuotnis kūpīnys. Sasazynojit i skaidri paskaidrojit, kai jī var paleidzēt i deļkuo. <outreachTemplates>Veritēs myusu informativū e-posta ziņuojumu veidnis</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Esit rodūši!</strong> Jiusu volūdys kūpīna byus unikala, i itī ir tikai puors veidi, kai suokt.
 
 ## How to validate
 
 about-playbook-how-validate = Kai zynuot, voi apstyprynuot bolsa īrokstu?
 about-playbook-how-validate-content-1 = Ka varit <strong>dzierdēt saceitū</strong> i <strong>saprast saceitū</strong>, parasti <strong>vyslobuok apstyprynuot</strong> īrokstu.
+about-playbook-how-validate-content-2 = <strong>Nanūraidit īrokstus, kurūs runuotuojam “ir akcents”, kas atsaškir nu jiusejuo</strong> - dažaidys izrunys i akcenti ir svareigi, lai bolsa atpazeišona struoduotu labi sevkuram.
+about-playbook-how-validate-content-3 = Ka dūmojit, ka izruna <strong>naļaun piļneibā saprast</strong> voi ir <strong>lels fona trūksnis</strong>, voi <strong>fonā runoj ari cyti cylvāki</strong>, tod īroksts ir juonūraida. <accuracyLink>Veritēs plotuoku informaceju myusu precizitatis kriterejūs</accuracyLink>.
 about-playbook-how-validate-content-4 = Ka īrokstu nūraida 2 cylvāki, tys teik izlaists datu kūpys nūraideitū īrokstu apakškūpā.
 
 ## How to access dataset
@@ -516,6 +524,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Izzynojat vair
 glossary = Aproksts
 localization = Lokalizaceja
 localization-explanation = Tys ir myusu process, lai tulkuot i damāruotu myusu saturu daudzom teiklavītom (volūdom).
+sentence-collection = Teikumu kolekceja
 sentence-collection-explanation = Dabuot teikumus nu publiskuo domena voi raksteit jaunus publiskuo domena tekstus.
 hours-recorded-explanation = Da šam savuoktū bolsa īrokstu stuņžu skaits.
 hours-validated-explanation = Bolsa īroksta stuņžu skaits, kū apstyprynuojuši 2 nu 3 lītuotuojim, bolsojūt „nui”. Tī aizzeimoj progresu kusteibā iz kūpeigū projekta 10k stuņžu mierki.
@@ -529,6 +538,7 @@ de-identified-explanation = Process, kurā īrunuotuoja profila informaceja teik
 error-title-404 = Mes navariejom atrast itū lopu
 error-content-404 = Varbyut myusu <homepageLink>sātyslopa</homepageLink> paleidzēs? Lai aizdūtu vaicuojumu, lyudzu, pīsavīnojit <matrixLink>Matrix kūpīnys čatā</matrixLink>, dasaverit teiklavītys problemys, lītojūt <githubLink>GitHub</githubLink>, voi ejit iz <discourseLink>myusu diskuseju forumim</discourseLink>.
 error-title-503 = Mums ir nagaideita deikstuove
+error-content-503 = Teiklavīta tiks atjaunuota, cik dreiži viņ varams. Lai dabuotu jaunuokū informaceju, lyudzu, pīsavīnojit <matrixLink>Matrix kūpīnys čatam</matrixLink> voi apmeklejit <githubLink>GitHub</githubLink> voi <discourseLink>myusu diskuseju forumus</discourseLink>, lai ziņuotu par teiklavītys problemom i dazynuotu par aktualū problemu rysynuošonys statusu.
 error-code = Klaida { $code }
 
 ## Data
@@ -603,6 +613,7 @@ data-other-librispeech-description = LibriSpeech ir apmāram 1000 stuņžu 16Khz
 data-other-ted-name = TED-LIUM korpuss
 data-other-ted-description = TED-LIUM korpuss tyka sataiseits nu audio īrokstu i tūs transkripceju, kas daeimamys TED teiklavītā.
 data-other-voxforge-description = VoxForge tyka sataiseits, lai savuoktu transkrybātu runu lītuošonai bezmoksys i atvārtuo koda runys atpazeišonys dziniejūs.
+data-other-tatoeba-description = Tatoeba ir plota teikumu, tulkuojumu i runys audio datu baze, kas lītojama volūdu apgivei. Itei zamynluode satur runuotuos angļu volūdys īrokstus, kū registrej jūs kūpīna.
 your-feedback = Voi jums ir idejis, kai mes varim padareit lobuoku Common Voice datu kūpu? Informejit myus par tū Discourse servisā
 go-discourse = Īt iz Discourse
 missing-language = Voi naredzit sovu volūdu datu kūpā? Lai pīpraseitu volūdu, ejit iz myusu volūdu lopu.
@@ -662,15 +673,22 @@ request-language-google-recaptcha-required = Ka gribit turpynuot, ir vajadzeiga 
 request-language-google-recaptcha-error = Ar reCAPTCHA roduos problema. Lyudzu, raugit vēļreiz.
 # Success page
 request-language-success-heading = Paļdis! Jius esit nūsyutejs jaunys volūdys pīprasejumu.
+request-language-success-list-1 = Dreizumā jums vajadzātu sajimt e-postu ar skaidruojumu par nuokušajim sūlim, lai jiusu volūdu davīnuotu Common Voice.
+request-language-success-list-2 = Myusu kūpīnys menedžers sasazynuos ar jums, lai pīduovuotu papyldu atbolstu i informaceju, ka kaida volūdys kūpīna jau struoduoj pi jiusu volūdys.
 request-language-success-list-3 =
     Ka puors dīnu laikā nasajemit nu mums informaceju,
     sasazynojit ar <emailLink>{ $email }</emailLink>
     i mes jums paleidzēsim!
+request-language-error =
+    Varbyut mes naasam sajāmuši itū pīprasejumu. Lyudzu, rokstit mums taišni
+    iz e-postu <emailLink>{ $email }</emailLink>, i mes ar jums sasazynuosim!
 
 ## Languages Overview
 
 language-section-in-progress = Procesā
+language-section-in-progress-new-description = Ituos volūdys itūšaļt ir kūpīnys atteisteibā. Progresa jūslys nūruoda, cik lelā mārā kotrai volūdai ir veikta <localizationGlossaryLink>teiklavītys lokalizaceja</localizationGlossaryLink> i <sentenceCollectionGlossaryLink>teikumu kolekcejis izveide</sentenceCollectionGlossaryLink>.
 language-section-launched = Aizsuokts
+language-section-launched-description = Itom volūdom teiklavīta ir veiksmeigi <localizationGlossaryLink>lokalizāta</localizationGlossaryLink>, i tamā ir gona daudz <sentenceCollectionGlossaryLink>teikumu</sentenceCollectionGlossaryLink>, lai varātu turpynuot <speakLink>runuot</speakLink> i <listenLink>klauseitīs</ listenLink>.
 languages-show-more = Ruodeit vaira
 languages-show-less = Ruodeit mozuok
 language-meter-in-progress = Progress
@@ -825,6 +843,7 @@ validated-clips = Puorbaudeitī īroksti
 total-approved = Kūpā apstyprynuotī
 overall-accuracy = Kūpejuo precizitate
 set-visibility = Nūstateit munu radzameibu
+visibility-explainer = Itys īstatejums kontrolej jiusu radzameibu rezultatu topā. Ka paslāpts, jiusu progress byus privats. Tys zeimoj, ka jiusu biļde, lītuotuoja vuords i progress natiks paruodeits rezultatu topā. Jemit vārā, ka izvarātuoju saroksta atsvaidzynuošona prosa ~ { $minutes } minutys.
 visibility-overlay-note = Pīzeime: ka tys ir īstateits iz “Radzams”, itū īstatejumu var maineit <profileLink> profila lopā </profileLink>.
 show-ranking = Ruodeit munu reitingu
 
@@ -864,6 +883,10 @@ activity-needed-calculation-plural = { $totalHours } stuņdis ir sasnādzamys { 
 how-many-per-day = Breineigi! Cik īrokstu dīnā?
 how-many-a-week = Breineigi! Cik īrokstu nedeļā?
 which-goal-type = Voi gribit runuot, klauseitīs voi obejus?
+receiving-emails-info = Es grybu sajimt e-postus, par pīmāru, mierka atguodynuojumus, progresa atjaunynuojumus i informativus biletenus par itū projektu.
+not-receiving-emails-info =
+    Itūšaļt jums ir īstateits <bold> NASAJIMT </bold> e-postus, par pīmāru, atguodynuojumus par mierkim, muna
+    progresa atjaunynuojumus i biletenus par Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [zero] { $count } īrokstu
@@ -880,6 +903,8 @@ share-n-weekly-contribution-goal = Pasadolit ar sovu { $count } īrokstu nedelis
 share-goal-type-speak = Runuošona
 share-goal-type-listen = Klauseišonuos
 share-goal-type-both = Runuošona i klauseišonuos
+# LINK will be replaced with the current URL
+goal-share-text = Es tikū sataiseju sovu bolsa pazīduošonys mierki #CommonVoice - pīsavīnojit maņ i paleidzit īkuortom īvuiceit saprast latgalīšu volūdu { $link }
 weekly-goal-created = Jiusu nedelis mierkis ir sataiseits
 daily-goal-created = Jiusu kasdīnys mierkis ir sataiseits
 track-progress = Sekojit progresam ite i statistikys lopā.
@@ -888,8 +913,10 @@ share-goal = Pasadoli ar sovu mierki
 
 ## Profile Delete
 
+delete-q = Voi gribit pīpraseit, lai ari jiusu bolsa īroksti tiktu dzāsti, voi ari gribit tūs saglobuot Common Voice datu kūpā?
 keep = Saglobuot
 remove = Aizvuokt
+keep-info = Jiusu anonimī bolsa īroksti paliks Common Voice datu kūpā. Kod byusit izdziess sovu profilu, jius vaira navarēsit īsnēgt pīprasejumu sovu īroktu dziesšonai nu datu kūpys
 remove-info = Mes puorsavērsim jiusu pīprasejumu, lai nu datu kūpys nūjimtu jiusu īrokstus. Ka jiusu pīprasejums tiks apstyprynuots, mes sasazynuosim ari ar tim, kas ir zamynluodejuši datu kūpu i jim pīpraseisim, lai dzieš jiusu īrokstus.
 profile-form-delete = Dzēst profilu
 
@@ -952,6 +979,7 @@ demo-account = Konts
 ## Demo Account
 
 demo-account-card-header = Lai dūtu īguļdejumu, nav vajadzeigs konts, koč i tys ir dereigs.
+demo-account-card-body = Lobajā pusē mes izstuostam prīškrūceibys i precizejam, kaidu informaceju mes publiskojam. Lītojit tuoļuok asūšuos saitis, lai suoktu dorbu ar Common Voice kontu sovā īreicē.
 demo-account-enter-email =
     .label = Īvodit e-postu, lai nūsyuteitu registracejis saiti
 demo-account-sign-up = Nūsyutit registracejis saiti
@@ -959,11 +987,13 @@ demo-account-sign-up = Nūsyutit registracejis saiti
 ## Demo Contribute
 
 demo-contribute-card-header = Voi esit gotovs dalikt sovu bolsu voi aizdūt sovu ausi?
+demo-contribute-card-body-v2 = Niu, kod jius zinit nadaudz vaira par Common Voice, deļkuo naparaudzeit tū? <br/><br/>Ka gribit puorbaudeit cytu cylvāku īrokstus, klykstynojit iz atskaņuošonys ikonys. Jius paleidzēsit puorsalīcynuot, voi īroksti atbylst ekranā raksteitajim teikumim.
 demo-listen-subtitle = Itys tok ir lobs breids paleidzēt, pareiz?
 
 ## Demo Dashboard
 
 demo-dashboard-card-header = Informacejis paneli snādz jums jaunuokū informaceju par jiusu i kūpīnys progresu.
+demo-dashboard-card-body = Piec kotra īraksteituo teikuma i piec kotra puorbaudeituo īroksta jiusu konta informacejis paneli teik atjaunynuoti, lai atspeidynuotu jiusu jaunuokūs sasnīgumus kotrā volūdā, kurā dūdit īguļdejumu. Nui, jius varit dūt īguļdejumu vaira nikai vīnā volūdā!<br/><br/> Lītojit informacejis paneļus, lai sekuotu leidza sovai statistikai, radzātu, kai jums izadūdās kūpā ar cytim kūpīnys lūceklim, i īstateitu kasdīnys voi kasnedelis īguļdejumu mierkus.
 
 ## Validation criteria
 
@@ -973,13 +1003,41 @@ contribution-criteria-page-title = Īguļdejuma kritereji
 contribution-criteria-page-description = Izprūtit, kam juopīvierš viereiba, klausūtīs īrokstus, i zinit, kai padareit ari sovus īrokstus lobuokus!
 contribution-for-example = par pīmāru
 contribution-misreadings-title = Klaidaini skaitejumi
+contribution-misreadings-description = Klausūtīs cīši ryupeigi puorbaudit, voi īraksteitais ir taišni tys, kas uzraksteits; nūraidit, ka ir pat nalelys klaidys. <br />Bīžuokuos klaidys ir itaidys:
 contribution-misreadings-description-extended-list-1 = Izlaisti vuordi, par pīmāru, tryukst <strong>'ja'</strong> voi <strong>'es'</strong>, par pīmāru, 'es asmu' vītā īrunuots tikai 'asmu'.
 contribution-misreadings-description-extended-list-2 = Nūrautys vuordu golūtnis, par pīmāru, <strong>'s'</strong> vuorda beiguos.
-contribution-misreadings-example-4-explanation = [Ir īraksteits vaira nikai beja raksteits]
+contribution-misreadings-description-extended-list-3 = Vuordi samaineiti vītom, par pīmāru, "voi es kū varu dareit?" vītā ir īrunuots "voi es varu kū dareit?".
+contribution-misreadings-description-extended-list-4 = Tryukst vuorda beigu, deļtuo ka īroksts ir izslāgts puoruok dreiži.
+contribution-misreadings-description-extended-list-5 = Īrokstā dzieržomi vairuoki raudzejumi īraksteit vajadzeigū frazi voi puorsasaceišona.
+contribution-misreadings-example-1-title = Senejuo laikmeta dinozauri.
+contribution-misreadings-example-2-title = Senejuo laikmeta dinozaurs.
+contribution-misreadings-example-2-explanation = [juobyut 'dinozauri']
+contribution-misreadings-example-3-title = Senejuo laikmeta dinozaur-
+contribution-misreadings-example-3-explanation = [Īroksts puortraukts pyrma pādejuo vuorda beigu]
+contribution-misreadings-example-4-title = Senejuo laikmeta dinozauri. Nui.
+contribution-misreadings-example-4-explanation = [Ir īraksteits vaira nikai beja pīraksteits]
+contribution-misreadings-example-5-title = Nui, es asmu lels kopeja mīļuotuojs.
+contribution-misreadings-example-6-title = Nui, asmu lels kopeja mīļuotuojs.
+contribution-misreadings-example-6-explanation = [pagaiss vuords “es”]
+contribution-misreadings-example-7-title = Nu, es asmu lels kopeja meiļuotuojs.
+contribution-misreadings-example-7-explanation = ['nu' nav tys pats, kas 'nui']
+contribution-misreadings-example-8-title = Bitis ir darbeigi kukaini.
+contribution-misreadings-example-8-explanation = [Īrunuots napareizs teikums]
 contribution-varying-pronunciations-title = Dažaidys izrunys
-contribution-varying-pronunciations-example-1-title = Maņ garšoj dasa.
+contribution-varying-pronunciations-example-1-title = Es izkuopu eglē.
+contribution-varying-pronunciations-example-1-explanation = ['egle' ir pareizi īrunuota naatkareigi nu tuo, voi vysaiduos izlūksnēs teik lītuots plotais voi šaurais e]
+contribution-varying-pronunciations-example-2-title = Juo rūka beja pacalta.
+contribution-varying-pronunciations-example-2-explanation = ['beja' ir juoizrunoj ar dzieržamu a burtu beiguos, ka dzieržat tikai 'bej', īrunuots napareizi]
 contribution-background-noise-title = Fona trūksnis
+contribution-background-noise-description-extended = Ka īroksts raustuos voi tymā ir sprakstīni, nūraidit, ka viņ vys vēļ piļneibā nav dzieržams vyss teksts.
+contribution-background-noise-example-1-fixed-title = <strong>[Škauduošona]</strong>Triasa laikmata <strong>[kuoss]</strong> miļža dinozauri.
+contribution-background-noise-example-2-fixed-title = Triasa laikmata <strong>[kuoss]</strong> miļža dinozauri.
+contribution-background-noise-example-2-explanation = [Daļu nu teksta navar dzierdēt]
+contribution-background-noise-example-3-fixed-title = <strong>[Sprakstiešona]</strong>-iasa laikmata miļža dinozauri <strong>[sprakstiešona]</strong>.
 contribution-background-voices-title = Bolsi fonā
+contribution-background-voices-description-extended = Ka īroksts raustuos voi tymā ir sprakstīni, nūraidit, ka viņ vys vēļ piļneibā nav dzieržams vyss teksts.
+contribution-background-voices-example-1-title = Triasa laikmata miļža dinozauri. <strong>[skaita vīns bolss]</strong>
+contribution-background-voices-example-1-explanation = Voi tu īsi? <strong>[soka kaids cyts]</strong>
 contribution-volume-title = Skaļums
 contribution-reader-effects-title = Īrunuotuoja izrunys eipatneibys
 contribution-just-unsure-title = Vīnkuorši naesit puorlīcynuots?
@@ -1020,6 +1078,7 @@ sc-home-review-text = Paleidzit mums, puorsaverūt teikumu pareizraksteibu saska
 
 ## GENERAL
 
+sc-languages-fetch-error = Mums naizadeve atrast daeimamuos volūdys. Struoduošona ar lopu itamā šaļtī nav varama. Lyudzu, raugit vēļreiz nadaudz vāluok.
 
 ## HOW-TO
 
@@ -1095,6 +1154,7 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = Es apstyprynoju, ka itī ir <wikipediaLink>publiskuo domena</wikipediaLink> teikumi, i maņ ir atļuove tūs augšynluodēt.
 sc-submit-button =
     .submitText = Nūsyuteit
+sc-submit-filtered = Filtrāti teikumi deļ praseibu napiļdeišonys (lyudzu, dalīcit lobuotys teikumu versejis kai jaunus teikumus):
 sc-submit-guidelines = Lyudzu, puorbaudit <howToLink>vadlinejis</howToLink>.
 
 ## ADD LANGUAGE
@@ -1102,6 +1162,16 @@ sc-submit-guidelines = Lyudzu, puorbaudit <howToLink>vadlinejis</howToLink>.
 sc-add-lang-could-not-add = Navarēja dalikt volūdu
 sc-add-lang-sec-label = Dalicit volūdu, kurā gribit dorbuotīs
 sc-add-lang-sec-button = Dalikt volūdu
+sc-add-err-unexpected = Nagaideita atbiļde nu servera
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Teikumi īsnāgti. { $duplicates } teikumi tyka nūraideiti kai dublikati.
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
@@ -1112,9 +1182,12 @@ sc-add-err-failed =
        *[other] { "" }
     }
 sc-add-err-submission = Īsnīgšonys klaida
+sc-add-lang-process-notice = Ka jiusu volūda ite nav nūruodeita, varit tū pīpraseit, lītojūt <languageProcessLink>itū procesu</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Teikumi nav īsnāgti. Voi eistyn gribit izīt?
 sc-confirm-sentences-title = Apstyprynojat jaunūs teikumus
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
@@ -1128,10 +1201,27 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = Jius nūraidejot { $countOfInvalidated }
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] { $countOfReviewed } puorbaudeiti teikumi. Tai turpynuot!
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] { $readyCount } teikumi ir gotovi īsniegšonai!
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
 sc-confirm-unreviewed = { $countOfUnreviewed } teikumi nav puorsavārti. Ka gribit, varit ari puorsavērt sovus teikumus pyrma tūs īsniegšonys.
 sc-confirm-button-text = Apstyprynuot
+sc-confirm-uploading = Nūteik teikumu augšynluode. Tys var iļgt vairuokys minutys atkareibā nu davīnuotū teikumu skaita. Lyudzu, naaiztaisit itū teiklavītu.
 
 ## LANGUAGE INFO
 
@@ -1151,6 +1241,15 @@ sc-lang-info-total =
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] { $totalInReview } teikumi, kū puorbaudeit.
+        [zero] { "" }
+        [one] { "" }
+       *[other] { "" }
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] { $unreviewedSentencesByYou } teikumi, kū puorbaudeit.
         [zero] { "" }
         [one] { "" }
        *[other] { "" }
@@ -1193,15 +1292,26 @@ sc-personal-remove-button = nūjimt
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = Jius dalykot { $sentences }
+sc-personal-not-added = Jius naesit dalics nivīnu volūdu.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Puorbaudeišonys kritereji
+sc-criteria-title = Puorbaudeišonys kritereji
+sc-criteria-make-sure = Puorsalīcynojit, voi teikums atbiļst itaidim kriterejim:
+sc-criteria-item-1 = Teikumam juobyut pareizi uzraksteitam, vuordūs navar byut drukys klaidu.
+sc-criteria-item-2 = Teikumam juobyut gramatiski pareizam.
+sc-criteria-item-3 = Teikumam juobyut izrunojamam.
 sc-criteria-item-4 = Ka teikums atbylst vysim kriterejim, klykstynojit iz pūgys &quot;Apstyprynuot&quot;.
+sc-criteria-item-6 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Jius naesit atlasejs nivīnu volūdu. Lyudzu, ejit iz sovu <profileLink>profilu</profileLink>, lai izalaseitu volūdys.
 sc-review-title = Teikumu puorbaude
 sc-review-loading = Nūteik teikumu īluode...
+sc-review-select-language = Lyudzu, izavielejit volūdu, lai puorbaudeitu teikumus.
+sc-review-no-sentences = Nav teikumu, kū puorbaudeit. <addLink>Davīnojit teikumus!</addLink>
 sc-review-form-prompt =
     .message = Puorsavārtī teikumi nav īsnāgti, voi esit drūss?
 # Variables:
@@ -1238,11 +1348,43 @@ sc-settings-ui-language = Saskarnis volūda
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Izavielejit volūdu/lokalizaceju
+# PARTNERSHIPS PAGE
+partnerships-header = Partnereibys
 partnerships-get-in-touch = Sasazynuot
+partnerships-become-a-partner = Palīcit par Common Voice partneri
+partnerships-community-header = Kūpīna, rodūšuo sabīdreiba i piļsuoniskuo sabīdreiba
+partnerships-foundations-header = Fondi
+partnerships-governments-header = Vaļdeibys
+partnerships-academia-header = Universitatis, akademiki i pietnīki
+partnerships-small-business-header = Mozī uzjāmumi, tamā vydā tehnologeju i muoksleiguo intelekta jaunuzjāmumi
+partnerships-corporates-header = Lela mārūga korporacejis i platformu uzjāmumi
+partnerships-our-partners = Myusu partneri
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Paļdis, ka pazīduojot sova bolsa īrokstus!
+first-cta-subtitle-text = Voi gribit pastuosteit par tū, kai runojit?
 why-donate = Deļkuo jius vaicojit?
+add-information-button = Dalikt informaceju
+continue-speaking-button = Nā, paļdis, turpynuošu īraksteit
+create-profile-text = Voi gribit saglobuot sovu informaceju? <createProfile>Sataisit profilu</createProfile>
+thanks-for-voice-toast = Paļdis par bolsa informaceju
 thanks-for-voice-toast-error = Īsnādzūt jiusu bolsa informaceju, nūtyka klaida
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Paļdis, pa pazīduojot sova bolsa īrokstus!
+already-have-an-account = Jums jau ir konts? <login>Pīsaslēdzit</login>
+create-profile-button = Sataiseit profilu
+# IMAGE TAGS
+img-alt-success-checkmark = veiksmis atzeime
+# GUIDELINES PAGE
+guidelines-header = Vodlinejis
+voice-collection = Īrokstu vuokšona
+sentence-collection = Teikumu kolekceja
+varying-pronunciations = Dažaidys izrunys
+misreadings = Klaidaini skaitejumi
+offensive-content = Aiztīkūšs saturs
+background-noise = Fona trūksnis
+background-voices = Bolsi fonā
 volume = Skaļums
 reader-effects = Īrunuotuoja izrunys eipatneibys
 just-unsure = Vīnkuorši naesit puorlīcynuots?
@@ -1279,13 +1421,25 @@ adding-sentences-subheader-length = Garums
 adding-sentences-subheader-length-explanation = Teikumim juobyut eisuokim par 15 vuordim.
 adding-sentences-subheader-spelling-punctuation = Pareizraksteiba i pīturzeimis
 adding-sentences-subheader-spelling-punctuation-explanation = Teikumam juobyut pareizi uzraksteitam, vuordūs navar byut drukys klaidu.
+adding-sentences-subheader-abbreviations = Saeisynuojumi i akronimi
+adding-sentences-subheader-abbreviations-explanation = Teikumūs ir juoizasorga nu saeisynuojumu i akronimu, par pīmāru, "ASV" voi "NLO", partū ka tī var tik skaiteiti tai, ka nasakreit ar tūs pareizraksteibu. Bez tuo vīnam saeisynuojumam var byut vairuoki pareizi īrunuošonys veidi.
 adding-sentences-subheader-punctuation = Pīturzeimis
+adding-sentences-subheader-punctuation-explanation = Specialī simboli i pīturzeimis juoīlīk tikai tod, ka tys ir vysā vajadzeigs. Par pīmāru, apostrofs ir īlykts taidūs angļu volūdys vuordūs kai “don’t” i “we’re”, i tys ir juoīlīk ari olūta tekstā, tok moz tycams, ka jums koč kod byus vajadzeigi simboli, par pīmāru, “@” voi “#.” Latgalīšu volūdā juorauga atsabreivuot nu vysu pīturzeimu i specialūs simbolu, kas nav vajadzeigi, par pīmāru, nu dūmuzeimu.
 adding-sentences-subheader-special-characters = Cytu volūdu burti
+adding-sentences-subheader-special-characters-explanation-1 = Burtim ir juobyut dereigim volūdā, kurā runoj. Par pīmāru, “ж” ir burts krīvu alfabetā, tok tys nikod nateik lītuots latgalīšu volūdā, deļtuo tys nadreikst byut latgalīšu volūdys teikumūs.
+adding-sentences-subheader-special-characters-explanation-2 = Volūdom var byut sovi validacejis nūsacejumi ar papyldu praseibom, kod tuos teik lokalizātys. Ka volūdai nav konkreta validacejis faila, tiks lītuoti vyspuoreigi angļu volūdys nūsacejumi.
 adding-sentences-subheader-offensive-content = Aizskarūšs saturs
+adding-sentences-subheader-offensive-content-explanation = Ka teikums ir aiztīkūšs voi satraucūšs, par pīmāru, nacenzāts saturs voi cyti myusu <communityGuidelines>kūpīnys leidzdaleibys vodlineju</communityGuidelines> puorkuopumi, jums teikums ir juonūraida. Varit ari sasazynuot ar mums, rokstūt iz e-posta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>, lai paleidzātu dreižuok rysynuot itaidys problemys.
 reviewing-sentences-explanation-1 = Ka teikums atbylst agruok nūsauktajim kriterejim, klykstynojit iz pūgys "Nui".
 reviewing-sentences-explanation-2 = Ka teikums naatbylst agruok nūsauktajim kriterejim, klykstynojit iz pūgys "Nā".
+reviewing-sentences-explanation-3 = Ka naesit puorlīcynuots par teikumu, varit tū izlaist i puorīt iz nuokušū.
+reviewing-sentences-explanation-4 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
+# WRITE PAGE
+write-instruction-second-part = publiski daīmams teikums
+write-page-subtitle = Ite dalyktī teikumi tiks davīnuoti publiski daīmamai cc-0 liceņcātai datu kūpai.
 sentence =
     .label = Teikums
+sentence-input-value = Īvodit ite sovu publiski daīmamū teikumu, kas nav aizsorguots ar autortīseibom.
 citation-input-value = Jiusu teikuma olūts
 citation =
     .label = Atsauce
@@ -1315,6 +1469,7 @@ report-sc-different-language = Napareiza volūda
 report-sc-different-language-detail = Tys ir uzraksteits volūdā, kas atsaškir nu tuos, kū itūšaļt puorbaudu.
 sentences-fetch-error = Īluodejūt teikumus, nūtykuse klaida
 review-error = Puorsaverūt teikumu, nūtykuse klaida
+review-error-rate-limit-exceeded = Jius struodojit par daudz uotri. Lyudzu, iz šaļti puorsalīcynojit, ka teikumi ir pareizi.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mes veicam puors lelys izmainis
 sc-redirect-page-subtitle-1 = Teikumu apkūpuošonys reiks puorīt iz Common Voice platformu. Tagad varit <writeURL>dalikt</writeURL> i<reviewURL>puorbaudeit</reviewURL> teikumus Common Voice sistemā.

@@ -1734,6 +1734,7 @@ report-sc-different-language = Iný jazyk
 report-sc-different-language-detail = Je napísaná v inom jazyku, než aký kontrolujem.
 sentences-fetch-error = Pri načítavaní viet sa vyskytla chyba
 review-error = Pri kontrole tejto vety sa vyskytla chyba
+review-error-rate-limit-exceeded = Idete príliš rýchlo. Venujte chvíľu kontrole vety, aby ste sa uistili, že je správna.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Robíme veľké zmeny
 sc-redirect-page-subtitle-1 = Nástroj na zber viet sa presúva na základnú platformu Common Voice. Teraz môžete v Common Voice <writeURL>napísať</writeURL> vetu alebo <reviewURL>kontrolovať</reviewURL> vety iných prispievateľov.

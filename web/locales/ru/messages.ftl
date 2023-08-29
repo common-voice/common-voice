@@ -1750,6 +1750,7 @@ report-sc-different-language = Другой язык
 report-sc-different-language-detail = Это написано на языке, отличном от того, что я рецензирую.
 sentences-fetch-error = Произошла ошибка при получении предложений
 review-error = При оценке этого предложения произошла ошибка
+review-error-rate-limit-exceeded = Вы слишком торопитесь. Просмотрите предложение внимательнее, чтобы убедиться, что оно правильно.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = У нас большие перемены
 sc-redirect-page-subtitle-1 = Сборщик предложений переходит на основную платформу Common Voice. Теперь вы можете <writeURL>написать</writeURL> предложение или <reviewURL>просмотреть</reviewURL> одно предложение на Common Voice.

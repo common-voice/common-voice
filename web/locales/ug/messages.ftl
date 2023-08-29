@@ -64,7 +64,7 @@ dsb = تۆۋەن سېربچە
 dv = دىۋەخىچە
 dyu = دىيۇلاچە
 el = گىرېكچە
-en = ئىنگىلىزچە
+en = ئىنگلىزچە
 eo = دۇنيا تىلى
 es = ئىسپانچە
 et = ئېستونىيەچە
@@ -533,13 +533,13 @@ about-localization-title = تور بېكەتنى يەرلىكلەشتۈرۈش
 about-localization-subtitle = تور بېكەت تېكىستى شۇ تىلغا تەرجىمە قىلىنىدۇ.
 about-sentence-collection-title = جۈملە توپلىمى
 about-sentence-collection-subtitle = كىشىلەرنىڭ يۇقىرى ئاۋازدا ئوقۇشى ئۈچۈن جۈملىلەر توپلىنىدۇ.
-about-new-lang-title = يېڭى تىل قوزغىتىلدى
+about-new-lang-title = يېڭى تىل قوزغىتىلىدۇ
 about-new-lang-subtitle = بىز Common Voice نىڭ تور بېتىنى بۇ تىلدا قوزغىتىمىز.
 about-voice-contrib-title = ئاۋاز تۆھپىسى
 about-voice-contrib-subtitle = كىشىلەر كېلىپ ئاۋازىنى قوشىدۇ.
 about-voice-validation-title = ئاۋاز دەلىللەش
 about-voice-validation-subtitle = باشقا كىشىلەر بۇ ئاۋازلارنى دەلىللەيدۇ.
-about-dataset-release-title = سانلىق مەلۇمات توپلىمى ئېلان قىلىندى
+about-dataset-release-title = سانلىق مەلۇمات توپلىمى تارقىتىلىشى
 about-dataset-release-subtitle = بىز سانلىق مەلۇمات توپلىمىنى ھەر 3 ئايدا بىر قېتىم تارقىتىمىز.
 about-subscribe-text = Common Voice بىلەن ئالاقە ساقلاشنى خالامسىز؟
 about-speak = سۆزلەڭ
@@ -592,7 +592,7 @@ about-playbook-how-add-language-content-1 =
     ئەگەر بولمىسا، <languageRequestLink>تىلىڭىزنى قوشۇشنى ئىلتىماس قىلسىڭىز بولىدۇ</languageRequestLink>.
     ئىككى باسقۇچ بار. بېكەتنى تەرجىمە قىلىش ۋە جۈملىلەرنى توپلاش
 about-playbook-how-add-language-translating-heading = بېكەتنى تەرجىمە قىلىش
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink> پونتوننى قانداق ئىشلىتىش توغرىسىدىكى يېتەكچىنى كۆرۈڭ. </translateVideoLink>
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> Pontoon نى قانداق ئىشلىتىش توغرىسىدىكى يېتەكچىنى كۆرۈڭ. </translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     بىز تەرجىمە ئۈچۈن <pontoonLink>Pontoon</pontoonLink> دەپ ئاتىلىدىغان Mozilla قورالىنى ئىشلىتىمىز. Pontoon دا نۇرغۇن تىللار بار،
     ئەمما ئۇنىڭدا تىلىڭىز بولمىسا، <pontoonRequestLink> تىلىڭىزنىڭ قوشۇشنى تەلەپ قىلسىڭىز بولىدۇ</pontoonRequestLink>.
@@ -611,6 +611,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = تور بېكەتنى يەرلىكلەشتۈرۈش قانداق ئېلىپ بېرىلىدۇ؟
 about-playbook-how-localize-content-1 = Common Voice نىڭ تەرجىمە خىزمىتى <strong>Pontoon</strong> دا ئېلىپ بېرىلىدۇ.
 about-playbook-how-localize-content-2 = ئەگەر ھېساباتىڭىز بولمىسا <pontoonAccountLink>ھېسابات قۇرۇڭ</pontoonAccountLink>. ئاندىن تىلىڭىزنىڭ <strong> («قوشۇن») </strong> ىنى تاللاڭ، ئاندىن <pontoonCvLink>Common Voice</pontoonCvLink> قۇرۇلۇشىنى تاللاڭ. تەرجىمە قىلىدىغان ھۆججەتلەر بولىدۇ، ئۇلاردىن بىرنى چېكىڭ، ئاندىن ئۇ جايدا ئىنگلىزچىدىكى سۆزلەر ۋە ئۇلارنى تەرجىمە قىلىدىغان رامكىنى كۆرسىتىدۇ.
+about-playbook-how-localize-content-3 = ئىنگلىزچىدىن تەرجىمە قىلىنغان، ئەمما سىز باشقا تىللاردىكى <strong>تەۋسىيەلەر</strong>نى كۆرەلەيسىز. <strong>تەرجىمىھال</strong> سىنبەلگىسى، ئاندىن <strong>تەڭشەكلەر</strong> ئۇلانمىسىنى چېكىپ سىز سۆزلىيەلەيدىغان خالىغان تىلنى قوشالايسىز.ئوڭ ئاستى بۇرجەكتە <strong>يەرلىك</strong> دەپ ئاتالغان تەرجىمىلەر تىزىمى بار. تەرجىمىلەر بىر كۈندىن كېيىن بېكەتتە كۆرۈنىدۇ.
 about-playbook-how-localize-content-4 = توربەتنىڭ %75 تەرجىمە خىزمىتى پۈتكەندىن كېيىن ئېلان قىلىشقا بولىدۇ.
 about-playbook-how-localize-content-5 = ياردەم قىلىش ئۈچۈن سىن چۈشەندۈرگۈچىمىزنى كۆرۈڭ
 
@@ -632,6 +633,7 @@ about-playbook-how-record-content-5 = <accuracyLink> توغرىلىق ئۆلچى
 ## How to grow language
 
 about-playbook-how-grow-language = قانداق قىلغاندا Common Voiceدا تىلنى ئۈنۈملۈك ئىلگىرلەتكىلى بولىدۇ؟
+about-playbook-how-grow-language-content-1 = تېخىمۇ كۆپ كىشىگە Common Voice ئۈچۈن تۆھپە قوشۇش پۇرسىتى يارىتىپ، سانلىق مەلۇمات توپلىمىنىڭ ئىمكانقەدەر كۆپ كىشىگە مۇلازىمەت قىلىشىغا كاپالەتلىك قىلىدۇ. بىز سىز ئىشلىتەلەيدىغان مەنبە ۋە قېلىپلارنى قۇردۇق!
 about-playbook-how-grow-language-content-2 = پائالىيەتلەر
 about-playbook-how-grow-language-content-4 = ئىجتىمائىي تاراتقۇ
 about-playbook-how-grow-language-content-6 = ھەمكارلىق ۋە تور
@@ -639,6 +641,7 @@ about-playbook-how-grow-language-content-6 = ھەمكارلىق ۋە تور
 ## How to validate
 
 about-playbook-how-validate = ئاۋازلىق  تەستىقلاش ياكى تەستىقلىماسلىقنى قانداق بىلىمەن؟
+about-playbook-how-validate-content-1 = ئەگەر سىز ئۇلار ئوقۇغان ئاۋازنى <strong>ئاڭلاپ</strong> ۋە <strong>چۈشەن</strong>ەلىسىڭىز، ئادەتتە <strong>تەستىق</strong>لىسىڭىز بولىدۇ.
 about-playbook-how-validate-content-4 = ئەگەر بىر ئاۋاز 2 ئادەم تەرىپىدىن رەت قىلىنسا ، ئۇ سانلىق مەلۇمات توپلىمىنىڭ باشقا تارماق قىسمىدا تارقىتىلىدۇ.
 
 ## How to access dataset
@@ -647,7 +650,7 @@ about-playbook-how-access-dataset = سانلىق مەلۇمات توپلىمىن
 
 ## How are decisions made
 
-about-playbook-how-project-governance = تۈر قارارلىرى قانداق چىقىرىلىدۇ؟
+about-playbook-how-project-governance = قۇرۇلۇش قارارلىرى قانداق چىقىرىلىدۇ؟
 about-playbook-how-project-governance-content-2 = باشقۇرۇشىمىز تۆۋەندىكىلەر ئاساسىدا:
 about-playbook-how-project-governance-content-3 = مەخپىيەتلىك، بىخەتەرلىك ۋە ئاشكارىلىق.
 about-playbook-how-project-governance-content-4 = مەھەللىدە قارار چىقىرىشقا قاتنىشىش.
@@ -1091,8 +1094,10 @@ download-selected = تاللانغان
 download-start = ئارخىپ ئۇچۇرىنى چۈشۈرۈش
 download-request = خاتىرىلەشنى سوراش
 download-requests = ئىلگىرىكى خاتىرىلەرنى چۈشۈرۈش تەلىپى
+download-requests-info = ئۈن خاتىرىلىرىڭىزنى تەلەپ قىلسىڭىز، ئۇلارنى بىر ياكى بىر قانچە ZIP ھۆججىتىگە توپلايمىز. ئىلگىرىكى ئىلتىماسلىرىڭىز:
 download-request-button = چۈشۈر
 download-request-title = { $created }
+download-request-description = { $clipCount } ئاۋاز ئۈزۈندىسى، ئومۇمىي ئارخىپ چوڭلۇقى { $size }. { $expires } ۋاقتى توشىدۇ.
 download-request-archive-single = يەككە ZIP ھۆججىتى
 download-request-archive-multiple = { $archiveCount } ZIP ھۆججەتىگە پارچىلىسۇن
 download-request-assembling-description = ماتىرياللىرىڭىز رەتلىنىۋاتىدۇ، سەل تۇرۇپ قايتا سىناڭ.
@@ -1101,6 +1106,7 @@ download-request-modal-title = ئۇلانمىلارنى چۈشۈر
 download-request-modal-description = بۇ يەردە ZIP ھۆججىتىڭىزنى چۈشۈرۈش ئۇلانمىلىرى بار.
 download-request-link-text = { $total } دانە Zip ھۆججىتىنىڭ { $offset }چىسى
 download-request-metadata-link = جۈملە تېكىستى
+download-request-link-single = بىۋاسىتە URLs نى ئۆزىڭىز ياقتۇرىدىغان چۈشۈرۈش باشقۇرغۇچقىمۇ كۆچۈرۈپ چاپلىيالايسىز. ئۇلارنىڭ ۋاقتى 12 سائەتتە توشىدۇ ئەمما سىز بۇ بەتكە قايتىپ يېڭىسىنى خالىغان ۋاقىتتا ھاسىل قىلالايسىز.
 
 ## Landing
 
@@ -1151,10 +1157,12 @@ demo-dashboard-card-body = ھەر بىر ھەدىيە قىلغان ئاۋاز، 
 contribution-criteria-nav = ئۆلچەم
 contribution-criteria-link = تۆھپە ئۆلچىمىنى چۈشىنىڭ
 contribution-criteria-page-title = تۆھپە ئۆلچىمى
+contribution-criteria-page-description = ئاۋاز ئۈزۈندەسىنى ئاڭلىغاندا نېمىلەرگە دىققەت قىلىدىغانلىقىنى چۈشىنىڭ، شۇنداق قىلسىڭىز ئۈن خاتىرىڭىزنى بېيىتىشىڭىزغا ياردىمى تېگىدۇ.
 contribution-for-example = مەسىلەن
 contribution-misreadings-title = خاتا ئوقۇلغانلار
 contribution-misreadings-description-extended-list-1 = ئۈن خاتىرىلەشنىڭ بېشىدا <strong>«A»</strong> ياكى <strong>«The»</strong> كەم.
 contribution-misreadings-description-extended-list-2 = بىر سۆزنىڭ ئاخىرىدا <strong>«s»</strong> كەم.
+contribution-misreadings-description-extended-list-3 = ئەمەلىيەتتە مەۋجۇت بولمىغان قىسقارتىپ ئوقۇش، مەسىلەن، بارغانكەن دېگەننى  بارغان ئىكەن ياكى بۇرۇن باردى.
 contribution-misreadings-description-extended-list-5 = بىر سۆزنى بىر قانچە قانچە قېتىم ئوقۇشقا ئۇرۇنغان.
 contribution-misreadings-example-1-title = ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرلىرى.
 contribution-misreadings-example-2-title = ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرى.
@@ -1171,6 +1179,10 @@ contribution-misreadings-example-7-explanation = [ئەسلى تېكىستتە «
 contribution-misreadings-example-8-title = بۈركۈت تېز سۈرئەتتە ئۆتۈپ كەتتى.
 contribution-misreadings-example-8-explanation = [ماس كەلمىگەن مەزمۇن]
 contribution-varying-pronunciations-title = ھەرخىل تەلەپپۇزلار
+contribution-varying-pronunciations-example-1-title = ئۇ باشىغا فىرانسىيە بېرېت شىلەپىسى كىيگەن ئىدى.
+contribution-varying-pronunciations-example-1-explanation = [«بېرېت» دېگەن سۆزدىكى ئۇرغۇ بىرىنچى بوغۇمدا (ئەنگلىيە) ياكى ئىككىنچى بوغۇمدا (ئامېرىكا) بولسىمۇ بولىۋېرىدۇ]
+contribution-varying-pronunciations-example-2-title = ئۇنىڭ قولى كۆتۈرۈل-گەن.
+contribution-varying-pronunciations-example-2-explanation = [ئىنگلىزچىدىكى «كۆتۈرۈلگەن» دېگەن سۆز ئىككى بوغۇم ئەمەس بەلكى بىر بوغۇم تەلەپپۇز قىلىنىدۇ]
 contribution-background-noise-title = مۇھىت شاۋقۇنى
 contribution-background-noise-example-1-fixed-title = <strong>[ھەپچۈشۈ]</strong>ترىناسىك ئېراسىنىڭ گىگانت <strong>[ئۆھۆ]</strong>دىنوزاۋرلىرى.
 contribution-background-noise-example-2-fixed-title = ترىناسىك ئېراسىنىڭ گى <strong>[ئۆھۆ]</strong>دىنوزاۋرلىرى.
@@ -1486,6 +1498,7 @@ localization-select =
     .label = تىل/يەرلىكلەشتۈرۈش تاللىنىدۇ
 # PARTNERSHIPS PAGE
 partnerships-header = ھەمكارلاشقۇچىلار
+partnerships-header-text = Common Voice نى ئەمەلگە ئاشۇرۇش ئۈچۈن نۇرغۇن ئىش كېتىدۇ! بىز ئۇنى يالغۇز قىلمايمىز.ھەمكارلاشقۇچىمىز بولۇشنى خالامسىز؟ ئاۋازىڭىزنى ئاڭلاشنى خالايمىز.
 partnerships-get-in-touch = ئالاقىلىشىڭ
 partnerships-become-a-partner = Common Voice ھەمكارلاشقۇچىسى بولۇڭ
 partnerships-community-header = مەھەللە، ئىجادكارلار ۋە پۇقرالار جەمئىيىتى
@@ -1512,7 +1525,7 @@ create-profile-button = تەرجىمىھال قۇر
 # IMAGE TAGS
 img-alt-success-checkmark = مۇۋەپپەقىيەت بەلگىسى
 # GUIDELINES PAGE
-guidelines-header = تۆھپە كۆرسەتمىسى
+guidelines-header = تۆھپە يېتەكچىسى
 guidelines-header-subtitle = Common Voice سانلىق مەلۇمات ئامبىرىغا جۈملە ۋە ئاۋاز ئۈزۈندىلىرىنى قانداق قوشۇپ ۋە دەلىللەپ تۆھپە قوشۇشنى چۈشىنىش
 voice-collection = ئاۋاز توپلىمى
 sentence-collection = جۈملە توپلىمى
@@ -1528,9 +1541,11 @@ example = مىسال
 varying-pronunciations-example = يول ئېنىق ئەمەس.
 varying-pronunciations-tip-1 = [كانادا ئىنگلىزچىسىدا «route» نى «rowt» تەلەپپۇز قىلىشى مۇمكىن]
 varying-pronunciations-tip-2 = [ئەنگلىيە ئىنگلىزچىسىدا «root» تەلەپپۇز قىلىنىشى مۇمكىن]
+misreadings-explanation-1 = بەتتىكى بارلىق سۆزلەرنى توغرا ئوقۇش مۇھىم. ئاڭلىغاندا، ئۈنگە ئېلىنغاننىڭ يېزىلغىنى ئىكەنلىكىنى ئىنچىكىلىك بىلەن تەكشۈرۈڭ. ئەگەر ئۇنىڭدا قوشۇلغان، قىسقارتىلغان ياكى كەم قالغان سۆزلەر بولسا رەت قىلىڭ.
 misreadings-explanation-2 = كۆپ ئۇچرايدىغان خاتالىقلار:
 misreadings-explanation-3 = ئۈنگە ئېلىشنىڭ بېشىدىكى «A» ياكى «The» كەم.
 misreadings-explanation-4 = بىر سۆزنىڭ ئاخىرىدا «s» كەم.
+misreadings-explanation-5 = ئەمەلىيەتتە مەۋجۇت بولمىغان قىسقارتىپ ئوقۇش، مەسىلەن، بارغانكەن دېگەننى  بارغان ئىكەن ياكى بۇرۇن باردى.
 misreadings-explanation-6 = ئۈنگە ئېلىش بەك تېز بولۇپ ئەڭ ئاخىرقى سۆز كەم قالغان.
 misreadings-explanation-7 = بىر سۆزنى بىر قانچە قېتىم ئوقۇشقا تەمشەلگەن.
 misreadings-example-1 = بىز قەھۋە ئېلىشقا سىرتقا چىقماقچى.
@@ -1561,6 +1576,7 @@ citing-sentences-subheader-offline-sources = تورسىز مەنبەلەر
 citation =
     .label = نەقىل
 self-citation = ئۆز نەقىل
+self-citation-explanation = ئەگەر مەزمۇننى ئۆزىڭىز يازغان بولسىڭىز، ئۆزىڭىزنى قانداق نەقىل ئېلىشنى كۆرسىتىدۇ.
 adding-sentences-subheader-length = ئۇزۇنلۇقى
 adding-sentences-subheader-length-explanation = جۈملىدە 15 تىن ئاز سۆز بولۇشى كېرەك.
 adding-sentences-subheader-spelling-punctuation = ئىملا ۋە تىنىش بەلگىلىرى
@@ -1576,6 +1592,7 @@ reviewing-sentences-explanation-3 = ئەگەر سىز بۇ جۈملىنى جەز
 reviewing-sentences-explanation-4 = ئەگەر تەكشۈرىدىغان جۈملە تۈگەپ كەتسە، تېخىمۇ كۆپ جۈملە توپلىشىمىزغا ياردەم قىلىڭ!
 # WRITE PAGE
 write-instruction-second-part = ئاممىۋى دائىرەدىكى جۈملە
+write-page-subtitle = بۇ جايدا تۆھپە قوشۇلغان جۈملىلەر cc-0 ئىجازىتىدىكى ئاشكارا سانلىق مەلۇمات توپلىمىغا قوشۇلىدۇ.
 sentence =
     .label = جۈملە
 sentence-input-value = ئاممىۋى دائىرىدىكى جۈملىنى بۇ جايغا كىرگۈزۈڭ
@@ -1593,6 +1610,7 @@ new-sentence-rule-7 = مۇۋاپىق نەقىلى بار
 new-sentence-rule-8 = جۈملىلەر تەبىئىي سۆھبەتتەك (جۈملىنى ئوقۇش ئاسان)
 how-to-cite = قانداق نەقىل ئالىمەن؟
 how-to-cite-explanation-bold = تور ئۇلىنىشى ياكى ئەسەرنىڭ تولۇق ئىسمى بىلەن نەقىل ئېلىنىدۇ.
+how-to-cite-explanation = ئەگەر بۇ ئۆزىڭىزنىڭ سۆزى بولسا <italicizedText>«ئۆزىنى نەقىل ئېلىش»</italicizedText> دېسىڭىزلا بولىدۇ. بىز بۇ مەزمۇننى قەيەردىن تاپقانلىقىڭىزنى بىلىشىمىز كېرەك شۇنداق بولغاندا ئۇنى ئاممىۋى ساھەدىن تەكشۈرەلەيمىز، نەشر ھوقۇقى چەكلىمىسى قوللىنىلمايدۇ. نەقىل ئېلىش ھەققىدىكى تەپسىلاتقا ئېرىشمەكچى بولسىڭىز <guidelinesLink>يېتەكچى بەت</guidelinesLink> نى كۆرۈڭ.
 guidelines = كۆرسەتمە
 contact-us = بىز بىلەن ئالاقىلىشىڭ
 add-sentence-success = 1 جۈملە توپلاندى
@@ -1602,8 +1620,13 @@ required-field = بۇ بۆلەكنى تولدۇرۇڭ.
 sc-review-instruction-first-part = تەكشۈر
 sc-review-instruction-second-part = بۇ تىل ئادىتىگە ئۇيغۇن جۈملىمۇ؟
 sc-review-rules-title = بۇ جۈملە كۆرسەتمىگە ئۇيغۇنمۇ؟
+sc-review-empty-state = ھازىر بۇ تىلدا تەكشۈرىدىغان جۈملىلەر يوق.
 report-sc-different-language = ئوخشىمىغان تىل
+report-sc-different-language-detail = ئۇ مەن تەكشۈرۈۋاتقانغا ئوخشىمايدىغان تىلدا يېزىلغان.
 sentences-fetch-error = جۈملىلەرگە ئېرىشىشتە خاتالىق كۆرۈلدى
 review-error = بۇ جۈملىنى تەكشۈرۈشتە خاتالىق كۆرۈلدى
+review-error-rate-limit-exceeded = بەك ئالدىراقسانلىق قىلماڭ. كۆپرەك ۋاقىت ئاجرىتىپ جۈملىنىڭ توغرا ئىكەنلىكىنى جەزملەشتۈرۈڭ.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = بىز بەزى چوڭ ئۆزگەرتىشلەرنى ئېلىپ بېرىۋاتىمىز
+sc-redirect-page-subtitle-1 = جۈملە يىغقۇچ Common Voice سۇپىسىغا يۆتكىلىۋاتىدۇ. سىز ھازىر بىر جۈملە <writeURL>يېزىپ</writeURL> ياكى بىر جۈملە <reviewURL>تەكشۈرۈپ</reviewURL> ئۇنى Common Voice قا يوللىيالايسىز.
+sc-redirect-page-subtitle-2 = <matrixLink>Matrix</matrixLink>، <discourseLink>Discourse</discourseLink> ياكى <emailLink>ئېلخەت</emailLink> ئارقىلىق بىزدىن سوئال سوراڭ.
