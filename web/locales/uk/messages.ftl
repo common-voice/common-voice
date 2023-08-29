@@ -1829,6 +1829,7 @@ report-sc-different-language = Інша мова
 report-sc-different-language-detail = Написано мовою, відмінною від тої, яку я розглядаю.
 sentences-fetch-error = Під час отримання речень сталася помилка
 review-error = Під час розгляду цього речення сталася помилка
+review-error-rate-limit-exceeded = Ви надто поспішаєте. Перегляньте речення уважніше, щоб переконатися, що воно правильне.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Ми робимо великі зміни
 sc-redirect-page-subtitle-1 = Sentence Collector переходить на основну платформу Common Voice. Тепер ви можете <writeURL>написати</writeURL> речення або <reviewURL>розглянути</reviewURL> окремі пропозиції на Common Voice.

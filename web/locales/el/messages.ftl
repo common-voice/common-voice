@@ -1668,6 +1668,7 @@ report-sc-different-language = Διαφορετική γλώσσα
 report-sc-different-language-detail = Είναι γραμμένο σε γλώσσα διαφορετική από αυτή που αξιολογώ.
 sentences-fetch-error = Προέκυψε σφάλμα κατά τη λήψη προτάσεων
 review-error = Προέκυψε σφάλμα κατά τον έλεγχο αυτής της πρότασης
+review-error-rate-limit-exceeded = Προχωράτε πολύ γρήγορα. Αφιερώστε λίγο χρόνο για να ελέγξετε την πρόταση και για να βεβαιωθείτε ότι είναι σωστή.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Κάνουμε κάποιες μεγάλες αλλαγές
 sc-redirect-page-subtitle-2 = Κάντε μας ερωτήσεις στο <matrixLink>Matrix</matrixLink>, το <discourseLink>Discourse</discourseLink> ή μέσω <emailLink>email</emailLink>.

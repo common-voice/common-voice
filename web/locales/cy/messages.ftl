@@ -1818,6 +1818,7 @@ report-sc-different-language = Iaith wahanol
 report-sc-different-language-detail = Mae wedi'i hysgrifennu mewn iaith sy'n wahanol i'r hyn rwy'n ei hadolygu.
 sentences-fetch-error = Digwyddodd gwall wrth nôl brawddegau
 review-error = Digwyddodd gwall wrth adolygu'r frawddeg hon
+review-error-rate-limit-exceeded = Rydych chi'n mynd yn rhy gyflym. Cymerwch eiliad i adolygu'r frawddeg i wneud yn siŵr ei bod yn gywir.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Rydym yn gwneud rhai newidiadau mawr
 sc-redirect-page-subtitle-1 = Mae'r Casglwr Brawddegau yn symud i lwyfan craidd Common Voice. Nawr gallwch <writeURL>ysgrifennu</writeURL> brawddeg neu <reviewURL>adolygu</reviewURL> brawddeg unigol wedi eu cyflwyno ar Common Voice.
