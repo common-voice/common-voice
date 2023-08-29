@@ -1,6 +1,6 @@
-All the sentences read by our contributors are sourced from copyright free sources, either through automated sourcing from known sources like Wikipedia or contributed by our language communities.
+All the sentences read by our contributors are sourced from copyright free sources or permissioned sources, either through [automated sourcing](https://github.com/common-voice/cv-sentence-extractor) by agreement from sources like Wikipedia or contributed by our language communities.
 
-If you want to add a single sentence, or a series of single sentences, you can do so via the [Sentence Collector](link to new blog post). But when you have a large volume of sentences to contribute, you can make a bulk sentence submission using GitHub.
+If you want to add a single sentence, or a series of single sentences, you can do so via the [Sentence Collector]([link to new blog post](https://foundation.mozilla.org/en/blog/the-new-common-voice-sentence-collector/)). But when you have a large volume of sentences to contribute, you can make a bulk sentence submission using GitHub.
 
 Remember that for both single sentence and bulk sentence submissions, sentences must:
 - Be in the public domain, with a CC0 license
@@ -31,6 +31,7 @@ Creating a fork will make a copy of the Common Voice codebase in your GitHub acc
 Choose a name for your fork of the Common Voice repo and then press the “Create Fork” button to make your working copy.
 
 ![createfork](https://user-images.githubusercontent.com/4729371/236476944-0fee6658-04c0-455a-ab17-1d4867e59a98.png)
+
 
 Once your fork has been copied, first navigate to the folder named "Server". Then from this folder, open the folder labelled "Data". Now you should see a list of folders marked with language codes. Please pick the folder that corresponds to the language of your bulk submission.
 
