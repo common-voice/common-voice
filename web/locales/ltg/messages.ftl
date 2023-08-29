@@ -1099,6 +1099,9 @@ sc-howto-review-criteria-6 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleid
 sc-howto-findpd-title = Kai atrast breivi daeimamus publiskuo domena teikumus
 sc-howto-findpd-subtitle = Vaicojit tūs škārsteiklā
 sc-howto-findpd-tips = Ite ir puors padūmi, kai atrast teikumus:
+sc-howto-findpd-tips-1 = Lobuokī olūti, kur varit meklēt, ir podkāsti, stenogramys, filmu scenareji i vyss, kur var byut kasdīnys sarunys.
+sc-howto-findpd-tips-2 = Vaļdeibys siežu stenogramys, gruomotys i roksti ari ir breineigi, tok, tai kai teksts var byut nadaudz formaluoks, tim ir mozuoka prioritate.
+sc-howto-findpd-tips-3 = Dīvamžāļ mes itūšaļt navarim īlikt Wikimedia rokstus. Deļtuo, lyudzu, nakopejit nu tīnīnis teikumus.
 sc-howto-findpd-subtitle-2 = Sasadorbojit ar vītejom organizacejom voi privatpersonom
 
 ## MY SENTENCES
@@ -1346,6 +1349,8 @@ sc-review-link = Puorbaudit
 
 sc-settings-title = Īstatejumi
 sc-settings-ui-language = Saskarnis volūda
+sc-settings-reset-skipped = Otkon īstateit izlaistūs teikumus
+sc-settings-skipped-decription = Puorsavieršonys laikā jius izlaidet teikumus. Otkon īstatūt izlaistūs teikumus, tiks paruodeiti vysi izlaistī teikumi. Tys nav atkareigs nu volūdys.
 sc-settings-show-all-button = Ruodeit vēļreiz vysus izlaistūs teikumus
 sc-settings-failed = Navarēja maineit īstatejumus. Lyudzu, raugit vēļreiz.
 # VALIDATION
