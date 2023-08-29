@@ -1428,6 +1428,7 @@ citing-sentences-subheader-websites-explanation = Varit īkļaut teiklavītu, pa
 citing-sentences-subheader-academic-reference = Akademiskuo atsauce
 citing-sentences-subheader-academic-reference-explanation = Varit lītuot akademiskū atsaucis stylu, par pīmāru, Hārvardys stylu "Mozilla (2021) Common Voice. Daeimams teiklavītā https://commonvoice.mozilla.org/ (Datikšona: 2021. goda 15. septembrī)"
 citing-sentences-subheader-offline-sources = Bezsaistis olūti
+citing-sentences-subheader-offline-sources-explanation = Publiskuo domena tekstam, kas nav daīmams tīšsaistē, varit lītuot akademiskū atsaucis stylu, par pīmāru, Hārvardys stylu "Jess (2021) My Public license poems"
 citation =
     .label = Atsauce
 self-citation = Pošatsauce
