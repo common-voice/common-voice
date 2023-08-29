@@ -1066,6 +1066,7 @@ sc-footer-report-copyright = Ziņuot par autortīseibu problemom
 sc-footer-privacy = Privatums
 sc-footer-terms = Lītuošonys nūsacejumi
 sc-footer-cookies = Seikdatnis
+sc-login-signup-button = Dasasaceit / Registrētīs
 sc-logout-button = Beigt dorbu
 
 ## HOME
