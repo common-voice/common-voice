@@ -1372,12 +1372,14 @@ thanks-for-voice-toast = Paļdis par bolsa informaceju
 thanks-for-voice-toast-error = Īsnādzūt jiusu bolsa informaceju, nūtyka klaida
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Paļdis, pa pazīduojot sova bolsa īrokstus!
+second-cta-subtitle-text = Lītojūt profilu, varēsit sekuot leidza sovai aktivitatei i sasazynuot ar bolsa datu vuocieju kūpīnu.
 already-have-an-account = Jums jau ir konts? <login>Pīsaslēdzit</login>
 create-profile-button = Sataiseit profilu
 # IMAGE TAGS
 img-alt-success-checkmark = veiksmis atzeime
 # GUIDELINES PAGE
 guidelines-header = Vodlinejis
+guidelines-header-subtitle = Izprūtit, kai dalikt i apstyprynuot teikumus i īrokstus Common Voice datu kūpā
 voice-collection = Īrokstu vuokšona
 sentence-collection = Teikumu kolekceja
 varying-pronunciations = Dažaidys izrunys
@@ -1389,6 +1391,9 @@ volume = Skaļums
 reader-effects = Īrunuotuoja izrunys eipatneibys
 just-unsure = Vīnkuorši naesit puorlīcynuots?
 example = Pīmārs
+varying-pronunciations-example = Pi munys sātys aug eglis i ūzuli.
+varying-pronunciations-tip-1 = [Latgolā vuordu "egle" izrunoj dažaidi, vysys izrunys ir pareizys]
+varying-pronunciations-tip-2 = [Ari vuordu "ūzuls" izrunoj dažaidi]
 misreadings-explanation-2 = Bīžuokuos klaidys:
 misreadings-explanation-3 = Nūrauts vuorda suokums, par pīmāru, "aņ garšoj dasa".
 misreadings-explanation-4 = Nūrautys vuorda beigys, par pīmāru, "beja" vītā īrunuots "bej" voi teikumā izlaists vuords "ir".
