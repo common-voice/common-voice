@@ -203,7 +203,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        <div className="header-wrapper">
+        <div
+          className={cx('header-wrapper', {
+            'contribution-page-active': isContributionPageActive,
+          })}>
           <header className={cx('header', { active: hasScrolled })}>
             <div>
               {isContributionPageActive && (

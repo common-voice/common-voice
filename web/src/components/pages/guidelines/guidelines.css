@@ -76,6 +76,10 @@
 
             & li {
                 list-style: none;
+
+                & .tab-link {
+                    color: inherit;
+                }
             }
 
             & li.first-tab {
@@ -150,7 +154,8 @@
 
             @media (--xl-up) {
                 margin: 0 auto;
-                padding: 14px;
+                padding-left: 14px;
+                padding-right: 14px;
             }
 
             nav {

@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = o pana e lipu tawa mi. mi wile sona e ijo pi pali Common Voice Project.
+yes-receive-emails = o pana e lipu tawa mi. mi wile sona e ijo sin pi kulupu Common Voice Project.
 stayintouch = lon kulupu Mozilla la, mi mute li pali e ilo pi toki kalama. mi mute li wile e ni: sina pana e ijo sin, e sona sin, e kepeken sina pi ilo ni tawa mi mute.
 privacy-info = awen pona pi sona sina li suli tawa mi. o kama sona e nasin lon lipu pi <privacyLink>nasin sona mi</privacyLink>
 return-to-cv = o tawa ilo Common Voice
@@ -906,6 +906,9 @@ target-segment-first-banner = o pona e pali suli nanpa wan pi ilo Common Voice l
 target-segment-add-voice = o pana e toki uta sina
 target-segment-learn-more = o kama sona
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = o toki e pakala
@@ -948,10 +951,10 @@ validations =
 your-languages = toki sina
 toward-next-goal = tawa wile pali sin
 goal-reached = sina pini!
-clips-you-recorded = kalama awen sina
-clips-you-validated = kalama awen pi pona sina
-todays-recorded-progress = kalama awen tan tenpo suno ni
-todays-validated-progress = kalama awen pona tan tenpo suno ni
+clips-you-recorded = sina pana e kalama pi mute ni
+clips-you-validated = sina kute e kalama pi mute ni
+todays-recorded-progress = tenpo suno ni la kalama awen
+todays-validated-progress = tenpo suno ni la kalama awen pona
 stats = pali
 awards = ijo tan pali pona
 you = sina
@@ -1505,3 +1508,4 @@ partnerships-header-text =
     sina wile ala wile poka? wile la o kama toki tawa mi!
 partnerships-get-in-touch = o kama toki
 partnerships-become-a-partner = o kama poka pi kulupu Common Voice
+sentence-collection = kama jo sitelen

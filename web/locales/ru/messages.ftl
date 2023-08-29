@@ -118,6 +118,7 @@ lij = Лигурский
 ln = Лингала
 lo = Лаосский
 lt = Литовский
+ltg = Латгальский
 lv = Латышский
 mai = Майтхили
 mdf = Мокшанский
@@ -877,6 +878,8 @@ action-click = Щёлкнуть
 action-tap = Нажмите
 contribute = Принять участие
 listen = Прослушать
+write = Записать
+review = Проверить
 skip = Пропустить
 shortcuts = Сочетания клавиш
 clips-with-count-pluralized =
@@ -946,6 +949,7 @@ target-segment-learn-more = Подробнее
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Коллекция голосов
+contribute-sentence-collection-nav-header = Коллекция фраз
 
 ## Reporting
 
@@ -1711,8 +1715,43 @@ reviewing-sentences-explanation-1 = Если предложение соотве
 reviewing-sentences-explanation-2 = Если предложение не соответствует вышеуказанным критериям, нажмите кнопку «Нет».
 reviewing-sentences-explanation-3 = Если вы не уверены в предложении, вы также можете пропустить его и перейти к следующему.
 reviewing-sentences-explanation-4 = Если у вас закончились предложения для проверки, помогите нам собрать больше предложений!
-community-announcement-header = Объявление сообщества!
-community-announcement-explanation = Приведенное ниже руководство предназначено для новых функций сборщика предложений, которые будут интегрированы в основную платформу Common Voice в течение марта и апреля 2023 года. А пока вы можете использовать предыдущий инструмент, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = фраза из общественного достояния
+write-page-subtitle = Представленные здесь фразы будут добавлены в общедоступный набор данных под лицензией cc-0.
+sentence =
+    .label = Предложение
+sentence-input-value = Введите здесь вашу фразу из общественного достояния
+citation-input-value = Источник вашей фразы
+citation =
+    .label = Цитата
+what-can-i-add = Какие типы фраз я могу добавить?
+new-sentence-rule-1 = <noCopyright>Нет ограничений авторского права</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Менее 15 слов
+new-sentence-rule-3 = Используйте правильную грамматику
+new-sentence-rule-4 = Используйте правильную орфографию и пунктуацию
+new-sentence-rule-5 = Без цифр и спецсимволов
+new-sentence-rule-6 = Без иностранных символов
+new-sentence-rule-7 = Включите соответствующую цитату
+new-sentence-rule-8 = В идеале естественный и разговорный (предложение должно легко читаться)
+how-to-cite = Как мне процитировать?
+how-to-cite-explanation-bold = Цитировать с URL-ссылкой или полным названием работы.
+how-to-cite-explanation = Если это ваши собственные слова, просто скажите <italicizedText>"Самоцитирование"</italicizedText>. Нам нужно знать, где вы нашли этот контент, чтобы мы могли убедиться, что он находится в общественном достоянии и на него не распространяются ограничения авторского права. Дополнительную информацию о цитировании см. на нашей <guidelinesLink>Странице рекомендаций</guidelinesLink>.
+guidelines = Руководства
+contact-us = Связаться с нами
+add-sentence-success = 1 предложение собрано
+add-sentence-error = Ошибка добавления предложения
+required-field = Пожалуйста, заполните это поле.
+# REVIEW PAGE
+sc-review-instruction-first-part = Проверить
+sc-review-instruction-second-part = это лингвистически правильное предложение?
+sc-review-rules-title = Соответствует ли предложение принципам из руководства?
+sc-review-empty-state = В настоящее время нет предложений для оценки на этом языке.
+report-sc-different-language = Другой язык
+report-sc-different-language-detail = Это написано на языке, отличном от того, что я рецензирую.
+sentences-fetch-error = Произошла ошибка при получении предложений
+review-error = При оценке этого предложения произошла ошибка
+review-error-rate-limit-exceeded = Вы слишком торопитесь. Просмотрите предложение внимательнее, чтобы убедиться, что оно правильно.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = У нас большие перемены
+sc-redirect-page-subtitle-1 = Сборщик предложений переходит на основную платформу Common Voice. Теперь вы можете <writeURL>написать</writeURL> предложение или <reviewURL>просмотреть</reviewURL> одно предложение на Common Voice.
 sc-redirect-page-subtitle-2 = Задавайте нам вопросы в <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> или по <emailLink>электронной почте</emailLink>.

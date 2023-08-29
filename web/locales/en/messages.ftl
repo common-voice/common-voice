@@ -114,6 +114,7 @@ lij = Ligurian
 ln = Lingala
 lo = Lao
 lt = Lithuanian
+ltg = Latgalian
 lv = Latvian
 mai = Maithili
 mdf = Moksha
@@ -1686,8 +1687,6 @@ reviewing-sentences-explanation-1 = If the sentence meets the criteria above, cl
 reviewing-sentences-explanation-2 = If the sentence does not meet the above criteria, click the "No" button.
 reviewing-sentences-explanation-3 = If you are unsure about the sentence, you may also skip it and move on to the next one.
 reviewing-sentences-explanation-4 = If you run out of sentences to review, please help us collect more sentences!
-community-announcement-header = Community announcement!
-community-announcement-explanation = The guidance below is for the new sentence collector features, which will be integrated into the core Common Voice platform throughout March and April 2023. In the meantime you can use the previous tool, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 
 # WRITE PAGE
 write-instruction-second-part = a public domain sentence
@@ -1724,6 +1723,8 @@ sc-review-empty-state = There are currently no sentences to review in this langu
 report-sc-different-language = Different language
 report-sc-different-language-detail = It is written in a language different than what I’m reviewing.
 sentences-fetch-error = An error occurred fetching sentences
+review-error = An error occurred reviewing this sentence
+review-error-rate-limit-exceeded = You're going too fast. Please take a moment to review the sentence to make sure it's correct.
 
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = We're making some big changes

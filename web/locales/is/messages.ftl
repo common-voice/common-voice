@@ -877,6 +877,8 @@ action-click = Smella
 action-tap = Ýta
 contribute = Leggðu lið
 listen = Hlusta
+write = Skrifa
+review = Yfirfara
 skip = Fara í næstu
 shortcuts = Flýtileiðir
 clips-with-count-pluralized =
@@ -944,6 +946,7 @@ target-segment-learn-more = Fræðast meira
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Raddasafn
+contribute-sentence-collection-nav-header = Söfnun setninga
 
 ## Reporting
 
@@ -1601,6 +1604,7 @@ volume = Hljóðstyrkur
 reader-effects = Mismunandi upplestur
 just-unsure = Ertu ekki viss?
 example = Dæmi
+misreadings-explanation-2 = Mjög algeng mistök eru:
 still-have-questions = Ertu enn með spurningar?
 contact-common-voice = Hafðu samband við Common Voice teymið
 public-domain = Opinber gögn
@@ -1620,3 +1624,21 @@ adding-sentences-subheader-length-explanation = Setningin ætti að innihalda f�
 adding-sentences-subheader-spelling-punctuation = Stafsetning og greinarmerki
 adding-sentences-subheader-spelling-punctuation-explanation = Setningin verður að vera rétt stafsett.
 adding-sentences-subheader-numbers = Tölur
+adding-sentences-subheader-punctuation = Greinarmerki
+adding-sentences-subheader-offensive-content = Óviðeigandi efni
+sentence =
+    .label = Setning
+citation =
+    .label = Tilvitnun
+new-sentence-rule-2 = Færri en 15 orð
+guidelines = Leiðbeiningar
+contact-us = Hafa samband
+add-sentence-success = 1 setningu safnað
+add-sentence-error = Villa við að bæta við setningu
+required-field = Fylltu út í þennan reit.
+# REVIEW PAGE
+sc-review-instruction-first-part = Merkja
+sc-review-instruction-second-part = er þetta málfræðilega rétt setning?
+report-sc-different-language = Annað tungumál
+report-sc-different-language-detail = Það er ritað á öðru tungumáli en ég er að yfirfara.
+sentences-fetch-error = Villa kom upp við að sækja setningar

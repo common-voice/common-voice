@@ -118,6 +118,7 @@ lij = Ligurisch
 ln = Lingala
 lo = Laotisch
 lt = Litauisch
+ltg = Lettgallisch
 lv = Lettisch
 mai = Maithili
 mdf = Mokschanisch
@@ -641,9 +642,9 @@ about-playbook-how-grow-language-content-8 = <strong>Werden Sie kreativ!</strong
 ## How to validate
 
 about-playbook-how-validate = Woher weiß ich, ob ich einen Sprachclip freischalten soll?
-about-playbook-how-validate-content-1 = Wenn Sie den Clip <strong>hören</strong> und <strong>verstehen</strong> konnten, ist es normalerweise <strong>am besten, ihn zu freizuschalten</strong>.
+about-playbook-how-validate-content-1 = Wenn Sie den Clip <strong>hören</strong> und <strong>verstehen</strong> konnten, ist es normalerweise <strong>am besten, ihn freizuschalten</strong>.
 about-playbook-how-validate-content-2 = <strong>Lehnen Sie keine Clips ab, in denen der Sprecher „einen anderen Akzent hat“ als Sie selbst</strong> – dies ist wichtig, damit die Spracherkennung für alle besser funktioniert.
-about-playbook-how-validate-content-3 = Wenn Sie der Meinung sind, dass die Aussprache den Cliü <strong>unverständlich</strong> macht, oder es <strong>viele Hintergrundgeräusche</strong> gibt oder <strong>andere Personen sprechen</strong>, dann sollten Sie den Clip ablehnen. <accuracyLink>Weitere Informationen finden Sie in unseren Genauigkeitskriterien</accuracyLink>.
+about-playbook-how-validate-content-3 = Wenn Sie der Meinung sind, dass die Aussprache den Clip <strong>unverständlich</strong> macht, oder es <strong>viele Hintergrundgeräusche</strong> gibt oder <strong>andere Personen sprechen</strong>, dann sollten Sie den Clip ablehnen. <accuracyLink>Weitere Informationen finden Sie in unseren Genauigkeitskriterien</accuracyLink>.
 about-playbook-how-validate-content-4 = Wenn ein Clip von zwei Personen abgelehnt wird, wird er in einer anderen Teilmenge des Datensatzes veröffentlicht.
 
 ## How to access dataset
@@ -875,9 +876,9 @@ language-validation-progress = Fortschritt beim Bestätigen
 action-click = klicken
 action-tap = antippen
 contribute = Mitarbeiten
-listen = Anhören
+listen = Hören
 write = Schreiben
-review = Überprüfen
+review = Prüfen
 skip = Überspringen
 shortcuts = Tastenkürzel
 clips-with-count-pluralized =
@@ -1749,8 +1750,6 @@ reviewing-sentences-explanation-1 = Wenn der Satz die genannten Kriterien erfül
 reviewing-sentences-explanation-2 = Wenn der Satz die genannten Kriterien nicht erfüllt, klicken Sie auf die Schaltfläche „Nein“.
 reviewing-sentences-explanation-3 = Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
 reviewing-sentences-explanation-4 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
-community-announcement-header = Ankündigung der Gemeinschaft!
-community-announcement-explanation = Die folgende Anleitung gilt für die neuen Satzsammlerfunktionen, die im März und April 2023 in die Kern-Common-Voice-Plattform integriert werden. Bis dahin können Sie das vorherige Werkzeug verwenden, <scLink>https://commonvoice.mozilla.org/ set-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = ein gemeinfreier Satz
 write-page-subtitle = Hier beigetragene Sätze werden zu einem öffentlich zugänglichen cc-0-lizenzierten Datensatz hinzugefügt.
@@ -1785,6 +1784,8 @@ sc-review-empty-state = Es gibt derzeit keine Sätze in dieser Sprache, die übe
 report-sc-different-language = Andere Sprache
 report-sc-different-language-detail = Er ist in einer anderen Sprache geschrieben als der, die ich überprüfe.
 sentences-fetch-error = Beim Abrufen der Sätze ist ein Fehler aufgetreten
+review-error = Beim Überprüfen dieses Satzes ist ein Fehler aufgetreten
+review-error-rate-limit-exceeded = Sie sind zu schnell. Bitte nehmen Sie sich einen Moment Zeit, um den Satz auf Richtigkeit zu überprüfen.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Wir nehmen einige wichtige Änderungen vor
 sc-redirect-page-subtitle-1 = Der Satzsammler zieht auf die Kern-Common-Voice-Plattform um. Sie können jetzt auf einen Satz Common Voice <writeURL>schreiben</writeURL> oder einzelne Sätze <reviewURL>überprüfen</reviewURL>.

@@ -118,6 +118,7 @@ lij = Ligur
 ln = Lingala
 lo = Laosiano
 lt = Lituano
+ltg = Latgaliá
 lv = Letón
 mai = Maithili
 mdf = Moksha
@@ -239,19 +240,19 @@ cookies = Cookies
 faq = PMF
 content-license-text = Contido dispoñíble baixo <licenseLink>licenza Creative Commons</licenseLink>
 share-title = Axúdenos a atopar outras persoas para doaren a súa voz!
-share-text = Axude a ensinarlles ás máquinas como fala a xente real, doe a súa voz en { $link }
+share-text = Axude a ensinarlles ás máquinas como falamos, doe a súa voz en { $link }
 link-copied = Ligazón copiada
 back-top = Volver arriba
 logout = Cerrar sesión
 
 ## Home Page
 
-home-title = Common Voice é unha iniciativa de Mozilla para axudar a ensinarlles ás máquinas como fala a xente real.
+home-title = Common Voice é unha iniciativa de Mozilla para axudar a ensinarlles ás máquinas como falan as persoas.
 default-tagline = Mozilla Common Voice é unha iniciativa para axudar a ensinarlle ás máquinas como falan as persoas.
 home-cta = Comece a falar, contribúa aquí!
 wall-of-text-start = A voz é natural, a voz é humana. Por iso nos fascina a idea de crear tecnoloxías de voz para as máquinas. Pero, para crear sistemas de voz, requírese unha cantidade extremadamente grande de datos de voz.
 wall-of-text-more-mobile = A maioría dos datos que empregan as grandes compañías non están dispoñibles publicamente. Pensamos que iso abafa a innovación. Por iso lanzamos o proxecto Common Voice (Voz Publica), que axudará a que as tecnoloxías de recoñecemento da fala estean abertas a todo o mondo.
-wall-of-text-more-desktop = Agora vostede pode doar a súa voz para axudarnos a construír unha base de datos aberta de voces para que calquera a poida utilizar co fin de facer aplicacións innovadoras para os dispositivos e a Web. Lea unha frase para axudar as máquinas a aprender como fala a xente real. Comprobe o traballo doutros colaboradores para mellorar a calidade. Así de simple!
+wall-of-text-more-desktop = Agora vostede pode doar a súa voz para axudarnos a construír unha base de datos aberta de voces para que calquera a poida utilizar co fin de facer aplicacións innovadoras para os dispositivos e a Web. Lea unha frase para axudar as máquinas a aprender como falan as persoas. Comprobe o traballo doutros colaboradores para mellorar a calidade. Así de simple!
 wall-of-text-first = A voz é natural, a voz é humana. Por iso queremos crear tecnoloxías de voz de alta calidade para as máquinas. Pero, para crear estes sistemas de voz, os desenvolvedores necesitan unha enorme cantidade de datos de voz.
 wall-of-text-second = A maioría dos datos que usan as grandes compañías non están dispoñibles para todo o mundo. Pensamos que iso abafa a innovación. Por iso creamos o proxecto Common Voice (Voz Pública), co fin de axudar a que o recoñecemento da fala sexa aberto e accesible para todas as persoas.
 show-wall-of-text = Máis información
@@ -457,11 +458,11 @@ faq-what-cv-q = Que é Common Voice?
 faq-what-cv-a =
     A tecnoloxía de recoñecemento da fala está a revolucionar o modo en que interactuamos coas máquinas, pero os sistemas dispoñibles hoxe en día están en mans privadas e son caros. Mozilla Common Voice é unha iniciativa que busca contribuír a que as tecnoloxías de recoñecemento da fala sexan mellores e máis accesibles para todos. En concreto, Common Voice é unha enorme base de datos global que contén doazóns de voz a partir das cales calquera persoa pode adestrar de xeito rápido e sinxelo modelos de voz en, potencialmente, calquera idioma.
     
-    Non só estamos a recoller mostras de voz  nas linguas grandes, senón tamén naquoutras con menor número de falantes. A publicación dun conxunto de datos de voz variado permitirá que os desenvolvedores, os emprendedores e as comunidades poidan resolver por si mesmos esta fenda. Ademais do conxunto de datos de Common Voice, tamén estamos a crear un motor de recoñecemento da fala de código aberto chamado Deep Speech.
+    Non só estamos a recoller mostras de voz  nas linguas grandes, senón tamén naqueloutras con menor número de falantes. A publicación dun conxunto de datos de voz variado permitirá que os desenvolvedores, os emprendedores e as comunidades poidan resolver por si mesmos esta fenda. Ademais do conxunto de datos de Common Voice, tamén estamos a crear un motor de recoñecemento da fala de código aberto chamado Deep Speech.
 faq-what-cv-a-2 =
     A tecnoloxía de recoñecemento da fala está revolucionando a forma en que interactuamos coas máquinas, pero os sistemas dispoñibles actualmente están en mans privadas e son caros. Mozilla Common Voice é unha iniciativa que busca contribuír a que as tecnoloxías de recoñecemento da fala sexan mellores e máis accesibles para todos. En concreto, Common Voice é unha enorme base de datos global que contén doazóns de voz a partir das cales calquera persoa pode adestrar de xeito rápido e sinxelo modelos de voz en, potencialmente, calquera idioma.
     
-    Non só recollemos mostras de voz  nas linguas grandes, senón tamén naquoutras con menor número de falantes. A publicación dun conxunto de datos variado de voces permitirá que os desenvolvedores, os emprendedores e as comunidades poidan resolver eles mesmos esta fenda.
+    Non só recollemos mostras de voz  nas linguas grandes, senón tamén naqueloutras con menor número de falantes. A publicación dun conxunto de datos variado de voces permitirá que os desenvolvedores, os emprendedores e as comunidades poidan resolver eles mesmos esta fenda.
 faq-why-important-q = Por que é importante?
 faq-why-important-a =
     A fala adoita ser o xeito máis natural de comunicarnos os uns cos outros e as tecnoloxías da voz están a levar esa comodidade aos nosos computadores e dispositivos móbiles. Queremos que os desenvolvedores poidan crear incríbles aplicacións de recoñecemento da fala, como tradutores en tempo real e asistentes dixitais por voz. No entanto, a maioría dos datos de voz requiridos para crear esta clase de aplicacións son privados e caros. Esperamos que o conxunto de datos de Common Voice lle proporcione aos desenvolvedores o que necesitan para innovar e facer que as tecnoloxía da fala estean dispoñibles no seu propio idioma.
@@ -487,7 +488,7 @@ faq-why-my-lang-a =
     Encantaríanos que engadise o seu idioma! <languageRequestLink>Consulte aquí como engadir o seu idioma.</languageRequestLink>
 faq-what-quality-q = Que nivel de calidade de son se require para que un fragmento de voz se utilice no conxunto de datos?
 faq-what-quality-a = Queremos que o conxunto de datos de Common Voice reflicta a calidade do son que un motor de fala-a-texto atopará en condicións reais, polo que buscamos variedade. Ademais dunha comunidade diversa de falantes, un conxunto de datos con variación na calidade do son ensinaralle ao motor de fala-a-texto a xestionar varias situacións do mundo real, desde unha conversa de fondo a un ruído de coche. Mentres o fragmento de voz sexa intelixible, será abondo para o conxunto de datos.
-faq-why-10k-hours-q = Por que o obxectivo é de 10.000 horas validadas por idioma de captura de son?
+faq-why-10k-hours-q = Por que o obxectivo é de 10.000 horas de audio validadas por idioma?
 faq-why-10k-hours-a = Este é aproximadamente o número de horas requirido co que adestrar un sistema de fala a texto para produción.
 faq-how-calc-hours-q = Como Common Voice calcula as horas?
 faq-how-calc-hours-a = Calculamos as horas estimando a media de tamaño de cada gravación e logo multiplicándo ese número polo número total de gravacións entre todos os idiomas.
@@ -501,15 +502,15 @@ faq-why-not-ask-read-a = Para facermos o conxunto de datos de Common Voice tan �
 faq-why-account-q = Por que debería rexistrar unha conta?
 faq-is-account-public-q = A información da miña conta é pública?
 faq-how-privacy-q = Como se asegura a anonimización e confidencialidade das persoas que doaron as súas voces?
-faq-how-privacy-a = Límpase a información persoal de todos os fragmentos de voz do conxunto de datos. Cando alguén proporciona información demográfica no seu perfil, esa información desvincúlase dos seus fragmentos de voz antes de incluíla, para descargar, no conxunto de datos e nunca se fai pública no seu perfil.
-faq-what-determine-identity-q = Que significa que non podo «determinar a identidade» de falantes no conxunto de datos Common Voice?
+faq-how-privacy-a = Elimínase a información persoal de todos os fragmentos de voz do conxunto de datos. Cando alguén proporciona información demográfica no seu perfil, esa información desvincúlase dos seus fragmentos de voz antes de incluíla, para descargar, no conxunto de datos e nunca se fai pública no seu perfil.
+faq-what-determine-identity-q = Que significa que non podo «determinar a identidade» de falantes no conxunto de datos de Common Voice?
 faq-what-determine-identity-a =
-    O conxunto de datos Common Voice é un recurso aberto e dispoñible publicamente que pode utilizarse para adestrar unha ampla variedade de aplicacións de voz. Para protexer a seguranza dos nosos colaboradores, pedímoslle a aquelas persoas que descarguen o conxunto de datos Common Voice que respecten a súa privacidade.
+    O conxunto de datos de Common Voice é un recurso aberto e dispoñible publicamente que pode utilizarse para adestrar unha ampla variedade de aplicacións de voz. Para protexer a seguranza dos nosos colaboradores, pedímoslle a aquelas persoas que descarguen o conxunto de datos Common Voice que respecten a súa privacidade.
     
     Todos os fragmentos de voz do conxunto de datos están libres de información persol. Ao descargar o conxunto de datos, vostede comprométese a non tentar determinar a identidade de ningún colaborador. Isto significa que non pode intentar ligar a información do conxunto de datos cos datos persoais dun colaborador. No entanto, pode utilizar o conxunto de datos para adestrar modelos de recoñecemento de fala, de identificación de locutor ou outras aplicacións, por exemplo, vinculando información do conxunto de datos con outra información que xa está tamén no conxunto de datos.
 faq-what-is-cv = Que é Common Voice?
 faq-using-cv = Utilización de Common Voice
-faq-description = Common Voice é parte dunha iniciativa de Mozilla para axudar a ensinar ás máquinas como fala a xente común.
+faq-description = Common Voice é parte dunha iniciativa de Mozilla para axudar a ensinar ás máquinas como falamos as persoas.
 faq-search-for-answers =
     .label = Buscar respostas
 
@@ -551,7 +552,7 @@ about-yes-votes-text = Para incluílo no conxunto de datos de Common Voice, un f
 about-no-votes = ≥ 2 votos Non
 about-no-votes-text = Cando un usuario rexeita un fragmento de voz, volve á cola. De se rexeitar unha segunda vez, o fragmento de voz vai para o cemiterio de fragmentos.
 about-dataset-new = Conxunto de datos de Common Voice
-about-dataset-new-text = O conxunto de datos Common Voice contén centos de miles de mostras de voz que axudan os desenvolvedores a construír ferramentas de recoñecemento da fala.
+about-dataset-new-text = O conxunto de datos de Common Voice contén centos de miles de mostras de voz que axudan os desenvolvedores a construír ferramentas de recoñecemento da fala.
 about-clip-graveyard = Cemiterio de fragmentos
 about-clip-graveyard-text = O Cemiterio de fragmentos contén fragmentos de voz que non chegaron a formar parte do conxunto de datos de Common Voice. Do mesmo xeito que o conxunto de datos, o Cemiterio de fragmentos está dispoñible para descarga.
 about-get-involved = Participe
@@ -699,7 +700,7 @@ data-other-title = Outros conxuntos de datos de voz...
 data-other-goto = Ir a { $name }
 data-other-download = Descargar os datos
 data-bundle-button = Descargar o paquete do conxunto de datos
-data-bundle-description = O conxunto de datos Common Voice xunta todos os demais conxuntos de datos anteriores.
+data-bundle-description = O conxunto de datos de Common Voice xunta todos os demais conxuntos de datos anteriores.
 release-version = Versión
 dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>
@@ -739,7 +740,7 @@ overall-hr-total = Total xeral de horas
 cv-license = Licenza
 audio-format = Formato de son
 number-of-voices = Número de voces
-splits = Intervalos
+splits = Subconxuntos
 email-to-download = Escriba o enderezo de correo para descargar
 why-email = <b>Por que un enderezo de correo?</b> É posible que precisemos poñernos en contacto con vostede no futuro para trasladarlle posibles cambios no conxuto de datos.
 confirm-size = Estou preparado para iniciar unha descarga de <b>{ $size }</b>
@@ -750,7 +751,7 @@ confirm-join-mailing-list = Quero unirme á lista de correo de Common Voice
 download-language = Descargar { $language }
 validated-hours = Horas validadas
 recorded-hours = Horas gravadas
-whats-inside = Que inclúe o conxunto de datos Common Voice?
+whats-inside = Que inclúe o conxunto de datos de Common Voice?
 dataset-description-hours =
     Cada entrada do conxunto de datos consta dun único ficheiro MP3 e o correspondente ficheiro de texto. Moitas das <b>{ $total }</b> horas gravadas no conxunto de datos tamén inclúen metadatos demográficos como idade, xénero e acento que poden axudar a mellorar a precisión dos modelos de recoñecemento da fala.
     
@@ -770,7 +771,7 @@ data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = O corpus TED-LIUM elaborouse a partir de gravacións de audio e transcricións dispoñibles na páxina web TED.
 data-other-voxforge-description = VoxForge creouse para recoller transcricións de intervencións orais coa finalidade de seren útiles aos motores de recoñecemento da fala de código aberto.
 data-other-tatoeba-description = Tatoeba é unha gran base de datos de frases, traducións e producións orais para empregar na aprendizaxe de idiomas. Esta descarga contén falas de inglés gravadas pola propia comunidade anglófona.
-your-feedback = Ten ideas sobre como podemos mellorar o conxunto de datos Common Voice? Coméntenolas en Discourse
+your-feedback = Ten ideas sobre como podemos mellorar o conxunto de datos de Common Voice? Coméntenolas en Discourse
 go-discourse = Ir a Discourse
 missing-language = Non ve o seu idioma reflectido no conxunto de datos? Para solicitalo vaia á nosa pestana de idiomas.
 go-languages-page = Ir á pestana de idiomas
@@ -874,6 +875,8 @@ action-click = Prema
 action-tap = Toque
 contribute = Colabore
 listen = Escoite
+write = Escriba
+review = Revise
 skip = Salte
 shortcuts = Atallos
 clips-with-count-pluralized =
@@ -932,7 +935,7 @@ record-button-label = Grave a súa voz
 share-title-new = <bold>Axúdenos</bold> a atopar máis voces
 keep-track-profile = Faga o seguimento do seu avance cun perfil
 login-to-get-started = Inicie sesión ou rexístrese para comezar
-target-segment-first-card = Esta a colaborar no noso primeiro segmento obxectivo
+target-segment-first-card = Está a colaborar no noso primeiro segmento obxectivo
 target-segment-generic-card = Está a contribuír a un segmento obxectivo
 target-segment-first-banner = Axude a crear o primeiro segmento obxectivo de Common Voice en { $locale }
 target-segment-add-voice = Engada a súa voz
@@ -941,6 +944,7 @@ target-segment-learn-more = Saber máis
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Recollida de voz
+contribute-sentence-collection-nav-header = Recollida de frases
 
 ## Reporting
 
@@ -948,7 +952,7 @@ report = Informar
 report-title = Enviar un informe
 report-ask = Que problemas está experimentando con esta frase?
 report-offensive-language = Linguaxe ofensiva
-report-offensive-language-detail = A frase ten unha linguaxe irrespectuosa ou ofensiva
+report-offensive-language-detail = A frase contén linguaxe irrespectuosa ou ofensiva
 report-grammar-or-spelling = Erro gramatical/ortográfico
 report-grammar-or-spelling-detail = A frase ten un erro gramatical ou ortográfico.
 report-different-language = Idioma diferente
@@ -956,7 +960,7 @@ report-different-language-detail = Está escrito nun idioma diferente do que est
 report-difficult-pronounce = Difícil de pronunciar
 report-difficult-pronounce-detail = Contén palabras ou frases que son difíciles de ler ou pronunciar.
 report-offensive-speech = Discurso ofensivo
-report-offensive-speech-detail = O fragmento ten unha linguaxe irrespectuosa ou ofensiva.
+report-offensive-speech-detail = O fragmento contén linguaxe irrespectuosa ou ofensiva.
 report-other-comment =
     .placeholder = Comentar
 success = Correcto
@@ -1030,26 +1034,73 @@ help-reach-hours-pluralized =
        *[other] { $hours } horas
     }en { $language } cun obxectivo persoal
 help-reach-hours-general-pluralized =
-    Axuda a Common Voice para acadar{ NUMBER($hours) ->
-        [one] { $hours } hora
-       *[other] { $hours } horas
-    }nun idioma cun obxectivo persoal
+    { NUMBER($hours) ->
+        [one] Axuda a Common Voice para acadar{ $hours } hora nun idioma cun obxectivo persoal
+       *[other] Axuda a Common Voice para acadar{ $hours } horas nun idioma cun obxectivo persoal
+    }
 set-a-goal = Estabelecer un obxectivo
 cant-decide = Non se decide?
 activity-needed-calculation-plural =
     { NUMBER($totalHours) ->
-        [one] { $totalHours } hora
-       *[other] { $totalHours } horas
-    }Pódese conseguir en algo máis de { NUMBER($periodMonths) ->
-        [one] { $periodMonths } mes
-       *[other] { $periodMonths } meses
-    }se{ NUMBER($people) ->
-        [one] { $people } a persoa
-       *[other] { $people } a xente
-    }rexistra{ NUMBER($clipsPerDay) ->
-        [one] { $clipsPerDay } o fragmento
-       *[other] { $clipsPerDay } os fragmentos
-    }ao día
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } mes se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } mes se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } mes se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                               *[other] { $totalHours } horas é unha meta alcanzable en algo máis de { $periodMonths } meses se { $people } persoas gravan { $clipsPerDay } fragmentos ao día.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Xenial! Cantos fragmentos por día?
 how-many-a-week = Xenial! Cantos fragmentos por semana?
 which-goal-type = Quere falar, escoitar ou ambos?
@@ -1079,7 +1130,7 @@ goal-share-text = Acabo de crear un obxectivo persoal de doazón de voz a #Commo
 weekly-goal-created = Creouse o seu obxectivo semanal
 daily-goal-created = Creouse o seu obxectivo diario
 track-progress = Siga o seu avance aquí e na súa páxina de estatísticas.
-return-to-edit-goal = Volva aquí para editar o teu obxectivo en calquera momento.
+return-to-edit-goal = Volva aquí para editar o seu obxectivo en calquera momento.
 share-goal = Compartir o seu obxectivo
 
 ## Profile Delete
@@ -1090,9 +1141,9 @@ remove = Retirar
 keep-info = As súas gravacións anónimas permanecerán no conxunto de datos Common Voice. Tras eliminar o seu perfil, xa non poderá enviar ningunha solicitude para retirar as gravacións do conxunto de datos.
 remove-info = Revisaremos a solicitude de retirada das súas gravacións de voz do conxunto de datos. Se a solicitude for aprobada, contactaremos con aqueles que descargasen o conxunto de datos e pedirémoslles que eliminen tamén as súas gravacións de voz.
 why-delete-recordings =
-    As gravacións de Common Voice son utilizadas por académicos, pequenas empresas e afeccionados ao recoñecemento da fala para crear recursos dispoñibles publicamente, como modelos de voz.
+    As gravacións de Common Voice son utilizadas por investigadores, pequenas empresas e afeccionados ao recoñecemento da fala para crear recursos dispoñibles publicamente, como modelos de voz.
     
-    Poderiamos indicar porque quere eliminar as súas gravacións?
+    Podería indicarnos por que quere eliminar as súas gravacións?
 profile-form-delete = Eliminar o perfil
 
 ## Profile Download
@@ -1115,7 +1166,7 @@ download-requests = Solicitudes anteriores de descarga de gravacións
 download-requests-info = Cando solicita as súas gravacións, recompilámolas nun ou varios ficheiros ZIP. Aquí ten as súas solicitudes anteriores:
 download-request-button = Descargar
 download-request-title = { $created }
-download-request-description = { $clipCount } fragmentos de voz. O tamaño total do arquivo compactado é { $size }. Caduca { $expires }.
+download-request-description = { $clipCount } fragmentos de voz. O tamaño total do arquivo compactado é { $size }. Caduca o { $expires }.
 download-request-archive-single = Un único ficheiro ZIP que contén
 download-request-archive-multiple = Dividido en { $archiveCount } archivos ZIP que conteñen
 download-request-assembling-description = Estamos recompilando os seus ficheiros. Comprobe de novo máis tarde.
@@ -1148,7 +1199,7 @@ card-button-next = Seguinte
 card-button-back = Anterior
 demo-language-select-label = Buscar Idiomas
 demo-eofy-header = Edición de fin de ano 2019
-demo-eofy-sub_header = Conxunto de datos de voz, lista para Descargar
+demo-eofy-sub_header = Conxunto de datos de voz, listo para descargar
 demo-account = Conta
 
 ## Demo Account
@@ -1167,8 +1218,8 @@ demo-listen-subtitle = Preparado para colaborar?
 
 ## Demo Dashboard
 
-demo-dashboard-card-header = Os paneis persoais mantéñeno ao día do progreso do individual e o da comunidade.
-demo-dashboard-card-body = Por cada fragmento de voz doado e cada fragmento de son validado, os paneis da túa conta actualízanse para reflectir o seu último progreso en cada idioma no que colabore. Si, pode colaborar a máis de un. <br/> <br/> Utilice os paneis para rastrexar as súas estatísticas, ver como o está facendo xunto con outras persoas da comunidade e establecer obxectivos de colaboración diaria ou semanal.
+demo-dashboard-card-header = Os paneis persoais mantéñeno ao día do progreso da súa actividade e o da comunidade.
+demo-dashboard-card-body = Por cada fragmento de voz doado e cada fragmento de son validado, os paneis da súa conta actualízanse para reflectir o seu último progreso en cada idioma no que colabore. Si, pode colaborar en máis de un. <br/> <br/> Utilice os paneis para rastrexar as súas estatísticas, ver a súa actividade xunto con a doutras persoas da comunidade e establecer obxectivos de colaboración diaria ou semanal.
 
 ## Validation criteria
 
@@ -1181,7 +1232,7 @@ contribution-misreadings-title = Erros de lectura
 contribution-misreadings-description = Cando escoite, verifique con moito coidado se o que se gravou é exactamente o que aparece escrito e rexeite calquera incongruencia. <br />Algúns erros moi comúns son:
 contribution-misreadings-description-extended-list-1 = Falta <strong>'Un'</strong> ou <strong>'O'</strong> no inico da gravación.
 contribution-misreadings-description-extended-list-2 = Falta un <strong>s</strong> no final dunha palabra.
-contribution-misreadings-description-extended-list-3 = Lectura de contraccións que, en realidade, non están no texto, como "d'ouro" no canto de "de ouro", ou viceversa.
+contribution-misreadings-description-extended-list-3 = Lectura de contraccións ou elisión que, en realidade, non están no texto, ou viceversa. Por exemplo, ler "de algún" no canto de "dalgún" ou "tar"  en lugar de "estar".
 contribution-misreadings-description-extended-list-4 = Falta o final da última palabra por deter a gravación antes de acabar de falar.
 contribution-misreadings-description-extended-list-5 = Titubeos ou varios intentos de ler unha palabra.
 contribution-misreadings-example-1-title = Os dinosauros xigantes do Triásico.
@@ -1191,11 +1242,11 @@ contribution-misreadings-example-3-title = Os dinosauros xigantes do Triási-.
 contribution-misreadings-example-3-explanation = Detívose a gravación antes do final da última palabra.
 contribution-misreadings-example-4-title = Os dinosauros xigantes do Triásico. Si.
 contribution-misreadings-example-4-explanation = [Gravouse máis que o texto requirido]
-contribution-misreadings-example-5-title = Vou beber un vaso de auga
-contribution-misreadings-example-6-title = Vou beber un vaso d'auga.
-contribution-misreadings-example-6-explanation = [Debería ser "de auga"]
-contribution-misreadings-example-7-title = Vou beber un vaso de auga cheo.
-contribution-misreadings-example-7-explanation = [Non aparece 'cheo' no texto orixinal]
+contribution-misreadings-example-5-title = O caderno dalgún compañeiro.
+contribution-misreadings-example-6-title = O caderno de algún compañeiro.
+contribution-misreadings-example-6-explanation = [Debería ser "dalgún"]
+contribution-misreadings-example-7-title = O caderno será dalgún compañeiro.
+contribution-misreadings-example-7-explanation = [Non aparece 'será' no texto orixinal]
 contribution-misreadings-example-8-title = A abella pasou rápido.
 contribution-misreadings-example-8-explanation = [Contido non coincidente]
 contribution-varying-pronunciations-title = Pronuncias diferentes
@@ -1601,9 +1652,9 @@ volume = Volume
 reader-effects = Efectos de lectura
 just-unsure = Ten dúbidas?
 example = Exemplo
-varying-pronunciations-explanation-1 = Os diferentes acentos son benvidos! Sexa prudente ao rexeitar un fragmento de voz alegando que o lector pronunciou mal unha palabra. Existe unha gran variedade de pronuncias en todo o mundo, algunhas das cales poden diferir das que escoita normalmente na súa zona. Por favor, proporcione unha marxe xenerosa a aquelas persoas que falan de forma diferente a como o fai vostede.
+varying-pronunciations-explanation-1 = Os diferentes acentos son benvidos! Sexa prudente ao rexeitar un fragmento de voz alegando que o lector pronunciou mal unha palabra. Existe unha gran variedade de pronuncias no territorio, algunhas das cales poden diferir das que escoita normalmente na súa zona. Por favor, proporcione unha marxe xenerosa a aquelas persoas que falan de forma diferente a como o fai vostede.
 varying-pronunciations-explanation-2 = Por outra banda, recorde que, se ten dúbidas, sempre pode empregar o botón de omitir e pasar á seguinte frase.
-varying-pronunciations-example = O gato miañaba porque tiña fame
+varying-pronunciations-example = O gato miañaba porque tiña fame.
 varying-pronunciations-tip-1 = [Un falante occidental que teña gheada dirá "ghato"]
 varying-pronunciations-tip-2 = [Un falante oriental que non teña gheada dirá "gato"]
 offensive-content-explanation = As frases son sometidas a un proceso de revisión por parte da comunidade, pero ese proceso non é perfecto. Se ve ou escoita algunha frase que lle resulta ofensiva ou molesta, por exemplo, porque infrinxe os nosos <participationGuidelines>criterios de participación comunitaria</participationGuidelines>, empregue o botón de informar. Tamén pode poñerse en contacto connosco en <emailFragment>commonvoice@mozilla.com</emailFragment>.
@@ -1611,7 +1662,7 @@ misreadings-explanation-1 = É importante ler correctamente todas as palabras da
 misreadings-explanation-2 = Os erros máis comúns son:
 misreadings-explanation-3 = Falta "Un" ou "O" no comezo da gravación.
 misreadings-explanation-4 = Falta 's' no final dunha palabra.
-misreadings-explanation-5 = Lectura de contraccións que, en realidade, non están no texto, como "d'ouro" no canto de "de ouro", ou viceversa.
+misreadings-explanation-5 = Lectura de contraccións ou elisión que, en realidade, non están no texto, ou viceversa. Por exemplo, ler "de algún" no canto de "dalgún" ou "tar"  en lugar de "estar".
 misreadings-explanation-6 = Falta o final da última palabra por deter a gravación antes de acabar de ler.
 misreadings-explanation-7 = Titubeos ou varios intentos de ler unha palabra.
 misreadings-example-1 = Vou beber un vaso de auga
@@ -1678,9 +1729,42 @@ reviewing-sentences-explanation-1 = Se a frase cumpre os criterios anteriores, p
 reviewing-sentences-explanation-2 = Se a frase non cumpre os criterios anteriores, prema no botón "Non".
 reviewing-sentences-explanation-3 = Se ten dúbidas sobre a frase, pode omitila e pasar á seguinte.
 reviewing-sentences-explanation-4 = Se xa non quedan frases para revisar, axúdenos a recoller máis!
-community-announcement-header = Anuncio á comunidade!
-community-announcement-explanation = As orientacións que se inclúen a continuación refírense ás novas funcións do recompilador de frases, que se integrarán na plataforma principal de Common Voice entre marzo e abril de 2023. Mentres tanto, pode empregar a ferramenta anterior, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = unha frase de dominio público
+write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de datos con licenza cc-0 dispoñible publicamente.
+sentence =
+    .label = Frase
+sentence-input-value = Introduza aquí a súa frase de dominio público
+citation-input-value = Orixe da súa frase
+citation =
+    .label = Cita
+what-can-i-add = Que tipos de frases podo engadir?
+new-sentence-rule-1 = <noCopyright>Sen restricións de copyright</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Menos de 15 palabras
+new-sentence-rule-3 = Usar a gramática correcta
+new-sentence-rule-4 = Usar a ortografía e a puntuación correctas
+new-sentence-rule-5 = Sen números nin caracteres especiais
+new-sentence-rule-6 = Sen letras estranxeiras
+new-sentence-rule-7 = Incluír a cita axeitada
+new-sentence-rule-8 = Idealmente natural e conversacional (debería ser fácil de ler a frase)
+how-to-cite = Como citar?
+how-to-cite-explanation-bold = Citar coa URL da ligazón ou co nome completo da obra.
+how-to-cite-explanation = Se son as súas propias palabras, simplemente diga <italicizedText>«Cita propia»</italicizedText>. Necesitamos saber onde atopou este contido para poder comprobar que é de dominio público e non se aplican restricións de copyright. Para obter máis información sobre as citas, consulte a nosa <guidelinesLink>páxina de directrices</guidelinesLink>.
+guidelines = Directrices
+contact-us = Contacta connosco
+add-sentence-success = 1 frase recollida
+add-sentence-error = Produciuse un erro ao engadir a frase
+required-field = Por favor, cubra este campo.
+# REVIEW PAGE
+sc-review-instruction-first-part = Comprobar:
+sc-review-instruction-second-part = é esta unha frase lingüisticamente correcta?
+sc-review-rules-title = A frase cumpre as directrices?
+sc-review-empty-state = Actualmente non hai frases para revisar neste idioma.
+report-sc-different-language = Idioma diferente
+report-sc-different-language-detail = Está escrita nun idioma diferente ao que estou revisando.
+sentences-fetch-error = Produciuse un erro ao recuperar as frases
+review-error = Produciuse un erro ao revisar esta frase
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = Estamos facendo grandes cambios
-sc-redirect-page-subtitle-1 = O colector de frases está migrando para a plataforma principal do Common Voice. Agora vostede pode <writeURL>escribir</writeURL> unha frase ou <reviewURL>revisar</reviewURL> envíos dunha única frase no Common Voice.
+sc-redirect-page-title = Estamos a facer grandes cambios
+sc-redirect-page-subtitle-1 = O colector de frases está migrando para a plataforma principal do Common Voice. Agora vostede pode <writeURL>escribir</writeURL> unha frase ou <reviewURL>revisar</reviewURL> envíos de frases soltas no Common Voice.
 sc-redirect-page-subtitle-2 = Fáganos preguntas en <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou por <emailLink>correo electrónico</emailLink>.

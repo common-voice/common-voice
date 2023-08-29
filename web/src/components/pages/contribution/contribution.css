@@ -23,20 +23,21 @@
     padding: 10px 20px;
     max-width: var(--wide-desktop-width);
     width: 100%;
-    height: 100%;
-
-    @media (--md-up) {
-        padding: 0 20px 60px;
-    }
+    height: calc(100% - var(--header-height));
 
     @media (--tall) {
-        padding-top: 50px;
+        padding-top: 2rem;
     }
 
     @media (--lg-up) {
         position: initial;
-        justify-content: initial;
         overflow: visible;
+        justify-content: normal;
+        min-height: 84vh;
+    }
+
+    @media (--sm-down) {
+        padding-bottom: 20px;
     }
 
     .button {
@@ -59,7 +60,7 @@
         text-transform: uppercase;
         font-size: var(--font-size-sm);
         text-align: center;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
         font-weight: 600;
 
         @media (--md-up) {
@@ -224,8 +225,7 @@
     .instruction {
         margin-top: 23px;
         min-height: 23px;
-        font-style: italic;
-        color: var(--near-black);
+        color: var(--dark-grey);
 
         @media (--sm-down) {
             text-align: center;
@@ -275,7 +275,6 @@
         align-items: center;
         height: 100%;
         width: 100%;
-        margin-top: 30px;
 
         @media (--xl-up) {
             margin-top: 0;
@@ -290,7 +289,11 @@
 
             @media (--md-up) {
                 max-height: 430px;
-                height: 43vh;
+                height: 31vh;
+            }
+
+            @media (--md-only) {
+                margin-right: 20px
             }
         }
 
@@ -327,6 +330,7 @@
 
         @media (--md-up) {
             flex: 1;
+            display: flex;
         }
 
         .inner {
@@ -340,6 +344,7 @@
             @media (--md-up) {
                 margin-top: 0;
                 margin-inline-start: auto;
+                margin-top: 70px;
                 width: max-content;
                 flex-direction: column;
                 justify-content: flex-start;
@@ -357,13 +362,13 @@
     }
 
     .primary-buttons {
-        margin-top: 2vh;
+        margin-top: 6vh;
         display: flex;
         justify-content: center;
         align-items: center;
 
-        @media (--xl-up) {
-            margin-top: 12vh;
+        @media (--xl-tall) {
+            margin-top: 10vh;
         }
 
         & canvas {
@@ -384,22 +389,10 @@
     }
 
     .buttons {
-        margin-top: 1rem;
+        margin-top: 4vh;
 
         display: flex;
         justify-content: space-between;
-
-        @media (--xl-up) {
-            margin-top: 3.5vh;
-        }
-
-        @media (--sm-down) {
-            margin-bottom: 3.5rem;
-        }
-
-        @media (--md-only) {
-            margin-bottom: 2.5rem;
-        }
 
         button img {
             margin-inline-end: 10px;
@@ -415,11 +408,35 @@
             }
         }
 
+        .guidelines-button {
+            svg {
+                margin-inline-end: 10px;
+                
+                path {
+                    fill: var(--black);
+                }
+            }
+
+            @media (--md-down) {
+                margin-inline-end: 20px;
+            }
+        }
+
+        .shortcuts-btn {
+            padding: 0;
+            width: 60px;
+            margin-inline-end: 0;
+
+            img {
+                margin-inline-end: 0;
+            }
+        }
+
         .skip {
             display: inline-flex;
 
             & svg {
-                margin-inline-start: 13px;
+                margin-inline-end: 13px;
 
                 [dir='rtl'] & {
                     transform: rotateY(180deg);
@@ -467,6 +484,18 @@
                 opacity: 0;
             }
         }
+
+        .extra-buttons {
+            display: flex;
+
+            & .open-report-button {
+                margin-inline-end: 20px;
+
+                @media (--md-down) {
+                    padding: 0 20px;
+                }
+            }
+        }
     }
 
     &.submittable,
@@ -498,6 +527,8 @@
             }
 
             & .pills {
+                margin-top: 0;
+
                 & .counter {
                     display: flex;
                 }
@@ -528,7 +559,7 @@
 
         @media (--sm-down) {
             margin-bottom: 20px;
-            max-width: 120px;
+            max-width: 220px;
             text-align: center;
             font-size: var(--font-size-xs);
         }
@@ -695,12 +726,17 @@
 
         @media (--md-down) {
             align-items: center;
+            margin-bottom: 2rem;
         }
 
         .labeled-checkbox {
             margin: 0 0 2em;
             width: 60%;
-            text-align: center;
+            text-align: center;`
+
+            @media (--md-down) {
+                width: 80%;
+            }
 
             a {
                 color: var(--anchor-text-blue);

@@ -5,6 +5,7 @@ import {
 } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
+import { Tooltip } from 'react-tippy'
 import { Flags } from '../../../stores/flags';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
@@ -23,8 +24,9 @@ import {
   SkipIcon,
   ExternalLinkIcon,
   ArrowLeft,
+  QuestionIcon,
 } from '../../ui/icons';
-import { Button, StyledLink, LabeledCheckbox } from '../../ui/ui';
+import { Button, StyledLink, LabeledCheckbox, LinkButton } from '../../ui/ui';
 import { PrimaryButton } from '../../primary-buttons/primary-buttons';
 import ShareModal from '../../share-modal/share-modal';
 import { ReportButton, ReportModal, ReportModalProps } from './report/report';
@@ -507,20 +509,30 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
 
         <div className="buttons">
           <div>
-            <Button
+            <LinkButton
               rounded
               outline
-              className="hidden-sm-down"
-              onClick={this.toggleShortcutsModal}>
-              <KeyboardIcon />
-              <Localized id="shortcuts">
+              className="guidelines-button"
+              blank
+              to={URLS.GUIDELINES}>
+              <QuestionIcon />
+              <Localized id="guidelines">
                 <span />
               </Localized>
-            </Button>
-            <div className="extra-button">
+            </LinkButton>
+            <div className="extra-buttons">
               <ReportButton
                 onClick={() => this.setState({ showReportModal: true })}
               />
+              <Tooltip title="Shortcuts" arrow>
+                <Button
+                  rounded
+                  outline
+                  className="hidden-md-down shortcuts-btn"
+                  onClick={this.toggleShortcutsModal}>
+                  <KeyboardIcon />
+                </Button>
+              </Tooltip>
             </div>
           </div>
           <div>
@@ -534,10 +546,10 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
               ].join(' ')}
               disabled={!this.isLoaded}
               onClick={onSkip}>
+              <SkipIcon />
               <Localized id="skip">
                 <span />
               </Localized>{' '}
-              <SkipIcon />
             </Button>
             {onSubmit && shouldHideCTA && (
               <form

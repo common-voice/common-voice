@@ -118,6 +118,7 @@ lij = Liguryanca
 ln = Lingala
 lo = Lao
 lt = Litvanca
+ltg = Latgalce
 lv = Letonca
 mai = Maithili
 mdf = Mokşa
@@ -864,6 +865,8 @@ action-click = tıklayın
 action-tap = dokunun
 contribute = Katkıda bulun
 listen = Dinle
+write = Yaz
+review = İncele
 skip = Atla
 shortcuts = Kısayollar
 clips-with-count-pluralized =
@@ -931,6 +934,7 @@ target-segment-learn-more = Daha fazla bilgi alın
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Ses Toplama
+contribute-sentence-collection-nav-header = Cümle Toplama
 
 ## Reporting
 
@@ -1539,6 +1543,7 @@ localization-select =
     .label = Dil seçin
 # PARTNERSHIPS PAGE
 partnerships-header = İş Ortaklıkları
+partnerships-header-text = Common Voice'u tek başımıza geliştirmiyoruz. Bizimle iş birliği yapmak ister misiniz?
 partnerships-get-in-touch = Bize ulaşın
 partnerships-become-a-partner = Common Voice İş Ortağı Olun
 partnerships-community-header = Toplum, Yaratıcılar ve Sivil Toplum
@@ -1577,6 +1582,7 @@ reader-effects = Okuyucu efektleri
 just-unsure = Emin değil misiniz?
 example = Örnek
 varying-pronunciations-explanation-2 = Öte yandan, okuyucunun kelimeyle daha önce hiç karşılaşmadığını ve kelimeyi yanlış telaffuz ettiğini düşünüyorsanız lütfen kaydı reddedin. Emin değilseniz atlama düğmesini kullanın.
+misreadings-explanation-2 = Yaygın hatalar arasında şunları sayabiliriz:
 misreadings-explanation-5 = Yanlış telaffuzla okuma nedeniyle kelimelerin başka anlamlara dönüşmesi.
 misreadings-explanation-6 = Kaydın aceleyle sonlandırılması nedeniyle son kelimenin sonunun kaydedilmemesi.
 misreadings-explanation-7 = Bir kelimeyi okumak için birkaç deneme yapmak.
@@ -1609,8 +1615,9 @@ citing-sentences-subheader-academic-reference-explanation = Akademik atıf stili
 citing-sentences-subheader-offline-sources = Çevrimdışı kaynaklar
 citing-sentences-subheader-offline-sources-explanation = Çevrimiçi olarak bulunmayan kamu malı metinler için akademik atıf stilini kullanabilirsiniz. Örneğin Harvard stili ile: "Jess (2021) Kamu Malı Lisanslı Şiirlerim"
 citation =
-    .label = Atıf
+    .label = Kaynak
 self-citation = Kendine atıf
+self-citation-explanation = İçeriği kendiniz yazdıysanız bu şekilde kaynak gösterebilirsiniz.
 adding-sentences-subheader-length = Uzunluk
 adding-sentences-subheader-length-explanation = Cümle 15 kelimeden kısa olmalıdır.
 adding-sentences-subheader-spelling-punctuation = Yazım ve noktalama
@@ -1628,6 +1635,41 @@ reviewing-sentences-explanation-1 = Cümle yukarıdaki ölçütleri karşılıyo
 reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamıyorsa "Hayır" düğmesine tıklayın.
 reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
 reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
-community-announcement-header = Topluluk duyurusu!
+# WRITE PAGE
+write-instruction-second-part = kamuya açık bir cümle
+write-page-subtitle = Buradan gönderilen cümleler, halka açık ve cc-0 lisanslı bir veri kümesine eklenecektir.
+sentence =
+    .label = Cümle
+sentence-input-value = Kamu malı cümlenizi buraya yazın
+citation-input-value = Cümlenizin kaynağı
+citation =
+    .label = Kaynak
+what-can-i-add = Ne tür cümleler ekleyebilirim?
+new-sentence-rule-1 = <noCopyright>Telif hakkı</noCopyright> kısıtlaması olmayan (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = 15 kelimeden kısa
+new-sentence-rule-3 = Dilbilgisi açısından doğru
+new-sentence-rule-4 = Yazım kurallarına uygun ve noktalama işaretleri doğru
+new-sentence-rule-5 = Sayı ve özel karakter içermeyen
+new-sentence-rule-6 = Alfabede olmayan karakterler içermeyen
+new-sentence-rule-7 = Kaynağı doğru şekilde gösterilmiş
+new-sentence-rule-8 = Mümkün olduğunda doğal ve konuşma dilinde (Cümleyi okuması kolay olmalı)
+how-to-cite = Nasıl kaynak gösteririm?
+how-to-cite-explanation-bold = Bir URL bağlantısı veya çalışmanın tam adıyla kaynak gösterin.
+guidelines = Yönergeler
+contact-us = Bize ulaşın
+add-sentence-success = 1 cümle toplandı
+add-sentence-error = Cümle eklenirken hata oluştu
+required-field = Lütfen bu alanı doldurun.
+# REVIEW PAGE
+sc-review-instruction-first-part = Kontrol et
+sc-review-instruction-second-part = Bu dilbilimsel olarak doğru bir cümle mi?
+sc-review-rules-title = Cümle yönergelere uygun mu?
+sc-review-empty-state = Şu anda bu dilde incelenecek cümle yok.
+report-sc-different-language = Farklı dil
+report-sc-different-language-detail = İncelediğimden farklı bir dilde yazılmış.
+sentences-fetch-error = Cümleler getirilirken bir hata oluştu
+review-error = Bu cümle incelenirken bir hata oluştu
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Bazı büyük değişiklikler yapıyoruz
+sc-redirect-page-subtitle-1 = Cümle Toplayıcı, ana Common Voice platformuna taşınıyor. Artık Common Voice'ta cümle <writeURL>yazabilir</writeURL> veya gönderilen cümleleri <reviewURL>denetleyebilirsiniz</reviewURL>.
+sc-redirect-page-subtitle-2 = Bize <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> veya <emailLink>e-posta</emailLink> üzerinden soru sorabilirsiniz.

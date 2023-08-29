@@ -118,6 +118,7 @@ lij = Ligurisch
 ln = Lingala
 lo = Laotiaans
 lt = Litouws
+ltg = Letgaals
 lv = Lets
 mai = Maithili
 mdf = Moksja
@@ -877,6 +878,8 @@ action-click = Klik op
 action-tap = Tik op
 contribute = Bijdragen
 listen = Luisteren
+write = Schrijven
+review = Beoordelen
 skip = Overslaan
 shortcuts = Sneltoetsen
 clips-with-count-pluralized =
@@ -940,6 +943,7 @@ target-segment-learn-more = Meer info
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Spraakcollectie
+contribute-sentence-collection-nav-header = Zinnenverzameling
 
 ## Reporting
 
@@ -1754,8 +1758,42 @@ reviewing-sentences-explanation-1 = Als de zin aan de bovenstaande criteria vold
 reviewing-sentences-explanation-2 = Als de zin niet aan de bovenstaande criteria voldoet, klik dan op de knop ‘Nee’.
 reviewing-sentences-explanation-3 = Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
 reviewing-sentences-explanation-4 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
-community-announcement-header = Mededeling van de gemeenschap!
-community-announcement-explanation = De onderstaande richtlijnen zijn voor de verzamelfuncties voor nieuwe zinnen, die in maart en april 2023 in het Common Voice-kernplatform zullen worden geïntegreerd. In de tussentijd kunt u het vorige hulpmiddel gebruiken, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = een zin uit het publieke domein
+write-page-subtitle = Zinnen die hier zijn bijgedragen worden toegevoegd aan een openbaar beschikbare cc-0 gelicenseerde dataset.
+sentence =
+    .label = Zin
+sentence-input-value = Voer hier uw publieke domeinzin in
+citation-input-value = Bron van uw zin
+citation =
+    .label = Citaat
+what-can-i-add = Wat voor soort zinnen kan ik toevoegen?
+new-sentence-rule-1 = <noCopyright>Geen copyright</noCopyright>-beperkingen (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Minder dan 15 woorden
+new-sentence-rule-3 = Gebruik de juiste grammatica
+new-sentence-rule-4 = Gebruik correcte spelling en interpunctie
+new-sentence-rule-5 = Geen cijfers en speciale tekens
+new-sentence-rule-6 = Geen vreemde tekens
+new-sentence-rule-7 = Voeg de juiste bronvermelding toe
+new-sentence-rule-8 = In het beste geval natuurlijk en gemoedelijk (het zou gemakkelijk moeten zijn om de zin te lezen)
+how-to-cite = Hoe citeer ik?
+how-to-cite-explanation-bold = Citeer met een URL-koppeling of de volledige naam van het werk.
+how-to-cite-explanation = Als het uw eigen woorden zijn, zeg dan gewoon <italicizedText>‘Zelfcitaat’</italicizedText>. We moeten weten waar u deze inhoud hebt gevonden, zodat we kunnen controleren of deze zich in het publieke domein bevindt en of er geen auteursrechtelijke beperkingen van toepassing zijn. Zie voor meer informatie over citeren onze <guidelinesLink>Richtlijnenpagina</guidelinesLink>.
+guidelines = Richtlijnen
+contact-us = Contact opnemen
+add-sentence-success = 1 zin verzameld
+add-sentence-error = Fout bij toevoegen van zin
+required-field = Vul dit veld in.
+# REVIEW PAGE
+sc-review-instruction-first-part = Controleren
+sc-review-instruction-second-part = is dit een taalkundig correcte zin?
+sc-review-rules-title = Voldoet de zin aan de richtlijnen?
+sc-review-empty-state = Er zijn momenteel geen zinnen om te beoordelen in deze taal.
+report-sc-different-language = Andere taal
+report-sc-different-language-detail = Het is geschreven in een andere taal dan die ik aan het beoordelen ben.
+sentences-fetch-error = Er is een fout opgetreden bij het ophalen van zinnen
+review-error = Er is een fout opgetreden bij het beoordelen van deze zin
+review-error-rate-limit-exceeded = U gaat te snel. Neem even de tijd om de zin te bekijken om er zeker van te zijn dat deze correct is.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = We voeren enkele grote veranderingen door
 sc-redirect-page-subtitle-1 = De Sentence Collector verhuist naar de kern van het Common Voice-platform. U kunt nu een zin <writeURL>schrijven</writeURL> of inzendingen van losse zinnen <reviewURL>beoordelen</reviewURL> op Common Voice.

@@ -19,7 +19,7 @@ export default PromiseRouter({ mergeParams: true })
   )
   .post(
     '/vote',
-    rateLimiter('api/v1/sentences/vote', { points: 10, duration: 60 }),
+    rateLimiter('api/v1/sentences/vote', { points: 30, duration: 60 }),
     validateStrict({ body: AddSentenceVoteRequest }),
     addSentenceVoteHandler
   )

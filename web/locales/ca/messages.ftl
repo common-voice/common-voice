@@ -118,6 +118,7 @@ lij = lígur
 ln = lingala
 lo = laosià
 lt = lituà
+ltg = Latgalià
 lv = letó
 mai = maithili
 mdf = mokxa
@@ -874,6 +875,8 @@ action-click = Feu clic a
 action-tap = Toqueu
 contribute = Col·laboreu‑hi
 listen = Escolta
+write = Escriu
+review = Revisa
 skip = Omet
 shortcuts = Dreceres
 clips-with-count-pluralized =
@@ -941,6 +944,7 @@ target-segment-learn-more = Més informació
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Recollida de veus
+contribute-sentence-collection-nav-header = Recollida de frases
 
 ## Reporting
 
@@ -1250,7 +1254,7 @@ sc-logout-button = Tanca la sessió
 
 ## HOME
 
-sc-home-title = Us donem la benvinguda al Common Voice Sentece Collector
+sc-home-title = Us donem la benvinguda al Common Voice Sentence Collector
 sc-home-intro = El Sentence Collector és part del <commonVoiceLink>Common Voice</commonVoiceLink>. Permet als col·laboradors de recollir i validar frases creades per la comunitat. També podeu usar aquesta eina per a importar i netejar corpus de domini públic de mida petita i mitjana que hàgiu trobat o recollit. Totes les frases han de ser de domini públic. Les frases aprovades s'exporten cada setmana al repositori del Common Voice i són disponibles al lloc web del Common Voice en cada nou desplegament.
 sc-home-collect-title = Recull frases
 sc-home-collect-text = Ajudeu-nos escrivint o recopilant frases de domini públic.
@@ -1630,8 +1634,8 @@ still-have-questions = Encara teniu preguntes?
 contact-common-voice = Contacteu amb l'equip de Common Voice
 public-domain = Domini públic
 citing-sentences = Citació de frases
-adding-sentences = Afegeix frases
-reviewing-sentences = Revisar frases
+adding-sentences = Addició de frases
+reviewing-sentences = Revisió de frases
 public-domain-explanation-1 = És molt important que totes les frases de text siguin <publicDomain>domini públic</publicDomain> (<cc0>cc0</cc0>), ja que el conjunt de dades de Common Voice es publica sota una llicència cc0. Pengeu una frase només si n'esteu segur i incloeu sempre la citació corresponent.
 public-domain-explanation-2 = Les millors frases per a construir un motor de reconeixement de veu útil són les de llenguatge col·loquial i modern. Algunes idees per a ajudar-vos a generar frases són;
 public-domain-explanation-3 = Creeu frases modernes i col·loquials per vosaltres mateixos o amb els vostres amics o comunitat lingüística, per exemple mitjançant una «marató d'escriptura»
@@ -1670,8 +1674,34 @@ reviewing-sentences-explanation-1 = Si la frase compleix els criteris anteriors,
 reviewing-sentences-explanation-2 = Si la frase no compleix els criteris anteriors, feu clic en el botó «No».
 reviewing-sentences-explanation-3 = Si no esteu segur de la frase, també podeu saltar-la i passar a la següent.
 reviewing-sentences-explanation-4 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
-community-announcement-header = Anunci de la comunitat!
-community-announcement-explanation = La guia següent és per a les noves funcions del col·lector de frases, que s'integraran a la plataforma bàsica de Common Voice durant març i abril de 2023. Mentrestant, podeu utilitzar l'eina anterior, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = una frase de domini públic
+write-page-subtitle = Les frases aportades aquí s'afegiran a un conjunt de dades disponible públicament amb llicència cc-0.
+sentence =
+    .label = Frase
+sentence-input-value = Escriviu aquí la vostra frase de domini públic
+citation-input-value = Font de la frase
+citation =
+    .label = Citació
+what-can-i-add = Quins tipus de frases puc afegir?
+new-sentence-rule-1 = <noCopyright>Sense drets d'autor</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Menys de 15 paraules
+new-sentence-rule-3 = La gramàtica és correcta
+new-sentence-rule-4 = L'ortografia i la puntuació són correctes
+new-sentence-rule-5 = Sense xifres ni caràcters especials
+new-sentence-rule-6 = Sense lletres estrangeres
+new-sentence-rule-7 = Amb la citació corresponent
+new-sentence-rule-8 = Idealment, natural i conversacional (la frase ha de ser fàcil de llegir)
+contact-us = Contacteu-nos
+add-sentence-error = S'ha produït un error en afegir la frase
+required-field = Empleneu aquest camp.
+# REVIEW PAGE
+sc-review-instruction-first-part = Comproveu:
+sc-review-instruction-second-part = és una frase lingüísticament correcta?
+sc-review-empty-state = Actualment no hi cap frase per revisar en aquesta llengua.
+report-sc-different-language = Una altra llengua
+report-sc-different-language-detail = Està escrita en una llengua diferent de la que reviso.
+review-error = S'ha produït un error en revisar aquesta frase
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estem fent alguns canvis importants
 sc-redirect-page-subtitle-1 = El Sentence Collector es trasllada a la plataforma bàsica de Common Voice. Ara podeu <writeURL>escriure</writeURL> una frase o <reviewURL>revisar</reviewURL> enviaments d'una sola frase a Common Voice.

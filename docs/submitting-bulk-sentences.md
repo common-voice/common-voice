@@ -32,7 +32,10 @@ Choose a name for your fork of the Common Voice repo and then press the “Creat
 
 ![createfork](https://user-images.githubusercontent.com/4729371/236476944-0fee6658-04c0-455a-ab17-1d4867e59a98.png)
 
-Once your fork has been copied, you’ll need to add a new file to it using the “Add File” button
+
+Once your fork has been copied, first navigate to the folder named "Server". Then from this folder, open the folder labelled "Data". Now you should see a list of folders marked with language codes. Please pick the folder that corresponds to the language of your bulk submission.
+
+Next, you’ll need to add a new file within the appropriate language folder using the “Add File” button
 
 ![AddFile](https://user-images.githubusercontent.com/4729371/236477060-2609309b-6d60-4dc3-b87a-c81436ebe726.png)
 

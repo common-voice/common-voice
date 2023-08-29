@@ -118,6 +118,7 @@ lij = ligúrčina
 ln = lingalčina
 lo = laoština
 lt = litovčina
+ltg = latgalčina
 lv = lotyština
 mai = maithilčina
 mdf = mokša
@@ -407,7 +408,7 @@ native-language =
     .label = Materinský jazyk
 profile-form-add-accent = Pridať nový vlastný prízvuk "{ $inputValue }"
 profile-form-submit-save = Uložiť
-profile-form-submit-saved = Uložený
+profile-form-submit-saved = Uložené
 male = Muž
 female = Žena
 # Gender
@@ -449,7 +450,7 @@ help-variants-explanation = Varianty sú špecifickou formou jazyka – napríkl
 ## Profile - Email
 
 browse-file-title = Nahrať obrázok
-browse-file = Presuňte alebo <browseWrap>Prehliadajte</browseWrap>
+browse-file = Presuňte ho sem alebo si ho <browseWrap>vyhľadajte</browseWrap>
 connect-gravatar = Prepojiť so službou Gravatar
 gravatar_not_found = Pre vašu e-mailovú adresu nebol nájdený žiadny gravatar
 file_too_large = Vybraný súbor je príliš veľký
@@ -840,7 +841,7 @@ request-language-form-info-explanation-list-1 = Názvy vášho jazyka
 request-language-form-info-explanation-list-2 = <isoCodeLink>Kódy ISO</isoCodeLink>, ak sú známe
 request-language-form-info-explanation-list-3 = Odkazy na webové stránky, ktoré nám môžu pomôcť porozumieť jazyku
 request-language-google-recaptcha-required = Ak chcete pokračovať, vyžaduje sa reCAPTCHA
-request-language-google-recaptcha-error = Vyskytol sa problém s reCAPTCHA. Prosím skúste znova.
+request-language-google-recaptcha-error = Vyskytol sa problém s reCAPTCHA. Prosím skúste to znova.
 # Success page
 request-language-success-heading = Ďakujem! Odoslali ste požiadavku na nový jazyk
 request-language-success-list-1 =
@@ -874,6 +875,8 @@ action-click = Kliknite
 action-tap = Ťuknite
 contribute = Zapojte sa
 listen = Počúvajte
+write = Píšte
+review = Kontrolujte
 skip = Preskočiť
 shortcuts = Skratky
 clips-with-count-pluralized =
@@ -941,6 +944,7 @@ target-segment-learn-more = Ďalšie informácie
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Zbierka hlasov
+contribute-sentence-collection-nav-header = Zber viet
 
 ## Reporting
 
@@ -1241,7 +1245,7 @@ see-less = <chevron> </chevron> Zobraziť menej
 
 sc-header-home = Domov
 sc-header-how-to = Ako na to
-sc-header-add = Pridať
+sc-header-add = Pridajte
 sc-header-review = Kontrola
 sc-header-rejected = Zamietnuté vety
 sc-header-my = Moje vety
@@ -1557,7 +1561,7 @@ sc-settings-ui-language = Jazyk používateľského rozhrania
 sc-settings-reset-skipped = Obnoviť vynechané vety
 sc-settings-skipped-decription = Predtým ste pri kontrole preskakovali vety. Obnovením preskočených viet sa znova zobrazia všetky preskočené vety. Toto je nezávislé od jazyka.
 sc-settings-show-all-button = Znova zobraziť všetky preskočené vety
-sc-settings-failed = Nastavenia sa nepodarilo zmeniť. Prosím skúste znova.
+sc-settings-failed = Nastavenia sa nepodarilo zmeniť. Prosím skúste to znova.
 # VALIDATION
 sc-validation-number-of-words = Veta musí obsahovať 1 až 14 slov
 sc-validation-no-numbers = Veta by nemala obsahovať čísla
@@ -1695,8 +1699,42 @@ reviewing-sentences-explanation-1 = Ak veta spĺňa vyššie uvedené kritériá
 reviewing-sentences-explanation-2 = Ak veta nespĺňa vyššie uvedené kritériá, kliknite na tlačidlo „Nie“.
 reviewing-sentences-explanation-3 = Ak si nie ste istí vetou, môžete ju tiež preskočiť a prejsť na ďalšiu.
 reviewing-sentences-explanation-4 = Ak vám dochádzajú vety na kontrolu, môžete nám pomôcť zhromaždiť ďalšie vety.
-community-announcement-header = Oznámenie komunity!
-community-announcement-explanation = Pokyny nižšie sa týkajú nových funkcií zberača viet, ktoré budú integrované do základnej platformy Common Voice počas marca a apríla 2023. Medzitým môžete použiť predchádzajúci nástroj, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
+# WRITE PAGE
+write-instruction-second-part = vetu pod verejnou licenciou
+write-page-subtitle = Tu pridané vety budú zaradené do verejne dostupného súboru údajov s licenciou cc-0.
+sentence =
+    .label = Veta
+sentence-input-value = Tu zadajte svoju vetu dostupnú pod verejnou licenciou
+citation-input-value = Zdroj zadanej vety
+citation =
+    .label = Citácia
+what-can-i-add = Aké druhy viet môžem pridať?
+new-sentence-rule-1 = <noCopyright>Žiadne obmedzenia autorských práv</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Kratšie ako 15 slov
+new-sentence-rule-3 = Používajú správnu gramatiku
+new-sentence-rule-4 = Používajú správny pravopis a interpunkciu
+new-sentence-rule-5 = Žiadne čísla či špeciálne znaky
+new-sentence-rule-6 = Žiadne cudzie písmená
+new-sentence-rule-7 = Majú uvedenú správnu citáciu
+new-sentence-rule-8 = Ideálne prirodzené a konverzačné (veta by sa mala dať ľahko prečítať)
+how-to-cite = Ako mám citovať?
+how-to-cite-explanation-bold = Citujte s odkazom adresou URL alebo celým názvom diela.
+how-to-cite-explanation = Ak ide o vaše vlastné slová, stačí povedať <italicizedText>„Citácia samého seba“</italicizedText>. Potrebujeme vedieť, kde ste tento obsah našli, aby sme mohli skontrolovať, či je dostupný pod verejnou licenciou a nevzťahujú sa naň žiadne obmedzenia autorských práv. Ďalšie informácie o citáciách nájdete na našej <guidelinesLink>stránke s pokynmi</guidelinesLink>.
+guidelines = Pokyny na prispievanie
+contact-us = Kontaktujte nás
+add-sentence-success = Pridaná 1 veta
+add-sentence-error = Chyba pri pridávaní vety
+required-field = Vyplňte toto pole.
+# REVIEW PAGE
+sc-review-instruction-first-part = Skontrolujte
+sc-review-instruction-second-part = či je toto jazykovo správna veta?
+sc-review-rules-title = Spĺňa veta pravidlá?
+sc-review-empty-state = Momentálne nie sú v tomto jazyku žiadne vety dostupné na kontrolu.
+report-sc-different-language = Iný jazyk
+report-sc-different-language-detail = Je napísaná v inom jazyku, než aký kontrolujem.
+sentences-fetch-error = Pri načítavaní viet sa vyskytla chyba
+review-error = Pri kontrole tejto vety sa vyskytla chyba
+review-error-rate-limit-exceeded = Idete príliš rýchlo. Venujte chvíľu kontrole vety, aby ste sa uistili, že je správna.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Robíme veľké zmeny
 sc-redirect-page-subtitle-1 = Nástroj na zber viet sa presúva na základnú platformu Common Voice. Teraz môžete v Common Voice <writeURL>napísať</writeURL> vetu alebo <reviewURL>kontrolovať</reviewURL> vety iných prispievateľov.

@@ -197,17 +197,21 @@ export default class DB {
   ): Promise<DBClip[]> {
     const [rows] = await this.mysql.query(
       `
-        SELECT c.id as id, 
-        c.path as path, 
-        s.has_valid_clip as has_valid_clip,
-        c.client_id as client_id, 
-        s.text as sentence,
-        c.original_sentence_id as original_sentence_id
+        SELECT 
+          c.id as id, 
+          c.path as path, 
+          s.has_valid_clip as has_valid_clip,
+          c.client_id as client_id, 
+          s.text as sentence,
+          c.original_sentence_id as original_sentence_id
         FROM clips c
-        LEFT JOIN sentences s ON s.id = c.original_sentence_id and c.locale_id = ?
-        WHERE c.is_valid IS NULL AND s.clips_count <= 15
-        ORDER BY rand()
-        limit ?
+        INNER JOIN 
+          sentences s ON s.id = c.original_sentence_id 
+          AND c.locale_id = ? 
+        WHERE 
+          c.is_valid IS NULL 
+        ORDER BY RAND()
+        LIMIT ?
       `,
       [languageId, limit]
     );
@@ -310,22 +314,26 @@ export default class DB {
         FROM (
           SELECT id, text
           FROM sentences
-          WHERE is_used AND locale_id = ? AND NOT EXISTS (
-            SELECT original_sentence_id
-            FROM clips
-            WHERE clips.original_sentence_id = sentences.id AND
-              clips.client_id = ?
-            UNION ALL
-            SELECT sentence_id
-            FROM skipped_sentences skipped
-            WHERE skipped.sentence_id = sentences.id AND
-              skipped.client_id = ?
-            UNION ALL
-            SELECT sentence_id
-            FROM reported_sentences reported
-            WHERE reported.sentence_id = sentences.id AND
-              reported.client_id = ?
-          )
+          WHERE 
+            is_used 
+            AND locale_id = ? 
+            AND clips_count <= 15
+            AND NOT EXISTS (
+              SELECT original_sentence_id
+              FROM clips
+              WHERE clips.original_sentence_id = sentences.id AND
+                clips.client_id = ?
+              UNION ALL
+              SELECT sentence_id
+              FROM skipped_sentences skipped
+              WHERE skipped.sentence_id = sentences.id AND
+                skipped.client_id = ?
+              UNION ALL
+              SELECT sentence_id
+              FROM reported_sentences reported
+              WHERE reported.sentence_id = sentences.id AND
+                reported.client_id = ?
+            )
           ${exemptFromSSRL ? '' : 'AND (clips_count = 0 OR has_valid_clip = 0)'}
           ORDER BY clips_count ASC
           LIMIT ?
@@ -963,6 +971,7 @@ export default class DB {
       l.is_contributable
         FROM locales l
         LEFT JOIN sentences s ON s.locale_id = l.id
+        WHERE s.is_validated = TRUE
         GROUP BY l.id`
     );
     return rows.map(

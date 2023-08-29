@@ -44,7 +44,7 @@ function streamSentences(localePath: string) {
           });
           sentences = [];
         }
-        await new Promise(resolve => {
+        await new Promise<void>(resolve => {
           const fileStream = fs
             .createReadStream(filePath)
             .pipe(eventStream.split())
@@ -124,8 +124,7 @@ async function importLocaleSentences(
                 .join(', ')}
               ON DUPLICATE KEY UPDATE
                 source = VALUES(source),
-                version = VALUES(version),
-                is_used = VALUES(is_used);
+                version = VALUES(version);
             `
             );
           } catch (e) {
