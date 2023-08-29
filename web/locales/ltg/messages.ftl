@@ -1314,6 +1314,7 @@ sc-review-select-language = Lyudzu, izavielejit volūdu, lai puorbaudeitu teikum
 sc-review-no-sentences = Nav teikumu, kū puorbaudeit. <addLink>Davīnojit teikumus!</addLink>
 sc-review-form-prompt =
     .message = Puorsavārtī teikumi nav īsnāgti, voi esit drūss?
+sc-review-form-usage = Veļcit pa labi, lai apstyprynuotu teikumu. Veļcit pa kreisi, lai tū atmastu. Veļcit iz augšu, lai tū izlaistu. <strong>Naaizmierstit īsnēgt sova dorba rezultatu!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Olūts: { $sentenceSource }
@@ -1345,6 +1346,13 @@ sc-review-link = Puorbaudit
 
 sc-settings-title = Īstatejumi
 sc-settings-ui-language = Saskarnis volūda
+sc-settings-show-all-button = Ruodeit vēļreiz vysus izlaistūs teikumus
+sc-settings-failed = Navarēja maineit īstatejumus. Lyudzu, raugit vēļreiz.
+# VALIDATION
+sc-validation-number-of-words = Teikumā juobyut nu 1 da 14 (īskaitūt) vuordu
+sc-validation-no-numbers = Teikumā nadreikst byut skaitli
+sc-validation-no-symbols = Teikumā nadreikst byut nikaidu specialu simbolu
+sc-validation-no-abbreviations = Teikumā nadreikst byut saeisynuojumu
 
 # [/SentenceCollector]
 
@@ -1352,14 +1360,18 @@ localization-select =
     .label = Izavielejit volūdu/lokalizaceju
 # PARTNERSHIPS PAGE
 partnerships-header = Partnereibys
+partnerships-header-text = Lai sataiseitu Common Voice, ir vajadzeigs daudzi! Mes tū nadoram vīni. Voi gribit ar mums sasadorbuot? Mes meilu pruotu īsapazeitu.
 partnerships-get-in-touch = Sasazynuot
 partnerships-become-a-partner = Palīcit par Common Voice partneri
 partnerships-community-header = Kūpīna, rodūšuo sabīdreiba i piļsuoniskuo sabīdreiba
 partnerships-foundations-header = Fondi
 partnerships-governments-header = Vaļdeibys
 partnerships-academia-header = Universitatis, akademiki i pietnīki
+partnerships-academia-description = Valejuo inovaceja ir myusu darbeibys pamatā. Lai sasadorbuotu pietnīceibā, vuoktu datus voi sataiseitu intervejis, <emailFragment>sasazynojit ar mums.</emailFragment>
 partnerships-small-business-header = Mozī uzjāmumi, tamā vydā tehnologeju i muoksleiguo intelekta jaunuzjāmumi
+partnerships-small-business-description = Mes vysod gribim dzierdēt nu datu lītuotuoju par jūs vajadzeibom i kontekstu - nu sadarbeibys datu vuokšonys platformā da datu veseleibys īskota snēgšonai, mes gribim <emailFragment>izklauseit jius.</emailFragment>
 partnerships-corporates-header = Lela mārūga korporacejis i platformu uzjāmumi
+partnerships-corporates-description = Ka gribit runuot vaira par datu kūpu, leidza iņvestēt plānuotuos platformys paplašynuošonā voi vaicojit sadarbeibys vareibu, <emailFragment>rokstit mums.</emailFragment>
 partnerships-our-partners = Myusu partneri
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Paļdis, ka pazīduojot sova bolsa īrokstus!
