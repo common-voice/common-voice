@@ -918,7 +918,10 @@ keep = Saglobuot
 remove = Aizvuokt
 keep-info = Jiusu anonimī bolsa īroksti paliks Common Voice datu kūpā. Kod byusit izdziess sovu profilu, jius vaira navarēsit īsnēgt pīprasejumu sovu īroktu dziesšonai nu datu kūpys
 remove-info = Mes puorsavērsim jiusu pīprasejumu, lai nu datu kūpys nūjimtu jiusu īrokstus. Ka jiusu pīprasejums tiks apstyprynuots, mes sasazynuosim ari ar tim, kas ir zamynluodejuši datu kūpu i jim pīpraseisim, lai dzieš jiusu īrokstus.
-profile-form-delete = Dzēst profilu
+why-delete-recordings =
+    Common Voice īrokstus lītoj akademiki, mozī uzjāmumi i bolsta atpazeišonys entuziasti, lai paleidzātu apvuiceit i atteisteit publiski daīmamūs resursus, par pīmāru, bolsa atpazeišonys modeļus.
+    Voi jius varit mums paziņuot, deļkuo gribit, lai jiusu īroksti tyktu dzāsti?
+profile-form-delete = Dzēst profil
 
 ## Profile Download
 
@@ -1024,6 +1027,8 @@ contribution-misreadings-example-7-explanation = ['nu' nav tys pats, kas 'nui']
 contribution-misreadings-example-8-title = Bitis ir darbeigi kukaini.
 contribution-misreadings-example-8-explanation = [Īrunuots napareizs teikums]
 contribution-varying-pronunciations-title = Dažaidys izrunys
+contribution-varying-pronunciations-description = Esit pīsardzeigi, pyrma nūraidit īrokstu, atsasaucūt iz tū, ka skaiteituojs ir napareizi izrunuojs vuordu, lics uzsvoru napareizā vītā voi acimradzami ignoriejs vaicuojuma zeimi. Izrunys ir vysaidys i puors nu tom jius varbyut kasdīnā sev apleik nadzierdit. Nūviertejit tū, ka cylvāki var runuot cytaiž kai jius.
+contribution-varying-pronunciations-description-extended = Nu cytys pusis, ka izruna ir napareiza voi klaidaina, nūraidit īrokstu. Ka naesit puorlīcynuoti, lītojit izlaisšonys pūgu.
 contribution-varying-pronunciations-example-1-title = Es izkuopu eglē.
 contribution-varying-pronunciations-example-1-explanation = ['egle' ir pareizi īrunuota naatkareigi nu tuo, voi vysaiduos izlūksnēs teik lītuots plotais voi šaurais e]
 contribution-varying-pronunciations-example-2-title = Juo rūka beja pacalta.
