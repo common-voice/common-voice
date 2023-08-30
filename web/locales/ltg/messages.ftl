@@ -666,6 +666,10 @@ request-language-explanation-1 =
     <languagesPageLink>Common Voice volūdu lopa</languagesPageLink>.
     Ka nā, aizpiļdit itū veidlopu, i mes <strong>nūsyuteisim jums ārtu e-posta ziņuojumu
     paskaidrojūt, kai dalikt jaunu volūdu</strong>.
+request-language-explanation-2 =
+    Mes ari <strong>informēsim myusu kūpīnys vadeituoju
+    par jiusu interesi</strong>, lai jī varātu snēgt jums
+    papyldu atbolstu voi informaceju, ka taida byus vajadzeiga.
 request-language-form-email =
     .label = Tova e-posta adrese
 request-language-form-info =
