@@ -574,6 +574,10 @@ about-playbook-how-add-language = Куыд бафтауæн и ног æвзæг
 about-playbook-how-add-language-content-1 = Бӕлвырд уал базон, <languageLink>бафтыдтой де' взаг</languageLink>ӕви нӕ. Кӕд нӕма ис, уӕд дӕ <languageRequestLink>сайт ратӕлмац ӕмӕ хъуыдыйад сӕмбырд кӕнын хъӕуы</languageRequestLink>.
 about-playbook-how-add-language-translating-heading = Тæлмац кæнын сайт
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Бакӕс нӕ ахуыргӕнӕн видео-ӕрмӕгмӕ, Pontoon-ӕй куыд ис пайда кӕнын, уый тыххæй.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Мах пайда кæнæм, <pontoonLink>Pontoon</pontoonLink> кæй хонынц, ахæм Mozilla-йы фæрæзæй. Pontoon-мæ ис бирæ æвзæгтæ, 
+    фæлæ, кæд йæм нæй дæуон, уæд дæ бон у <pontoonRequestLink>бафарст бахæссын, цæмæй де 'взаг бафтауой</pontoonRequestLink>.
+    Уый фæстæ, цæмæй æвзаг æнцонвадат суа Common Voice проекты, <githubRepoLink>бафарст бахæсс æвзаджы тыххæй Github-ы</githubRepoLink>. <localizationFragment>Кæс фылдæр сайты тæлмацыл</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Хъуыдыйады ӕмбырд
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Фылдӕр базон, хъуыдыйӕдты куыд æмбырд кæнæм, уый тыххӕй</sentenceCollectorFragment>.
 
