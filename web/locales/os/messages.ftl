@@ -478,7 +478,11 @@ faq-is-goal-assistant-a = Common Voice-ы рардты ӕмбырды нысан
 faq-do-want-native-q = Ацы ӕвзаг мӕ мадӕлон ӕвзаг нӕу, ӕмӕ дзурын акцентимӕ. Сымах ма уӕддӕр мӕ хъӕлӕс хъӕуы?
 faq-do-want-native-a = О, ды нæм уæлдай ахсджиаг дæ! Common Voice-ы миссийы хай — сӕмбырд кæнын куыд фылдæр алы хуызон акценттæ, цæмæй хъæлæсы иртасæны службæтæ æмхуызон алкæмæндæр дзæбæх кусой. Уый ууыл дзурæг у, æмæ æвзагыл йӕ сабибонтӕй чи нæ дзуры, уыдоны бавæрд нын у æппæты ахсджиагдæр.
 faq-why-different-speakers-q = Цæмæ дæ хъæуы уый бæрц бирæ адæм, æвзагыл чи дзуры, ахæмтæ?
+faq-why-different-speakers-a = Хъæлæсон рардты æмбырдтæн сæ стыр хай ахуыр кæнынц бæрæг демографийы дæнцæгтыл. Æмæ фæстиуæгæн фæзыны мæнг аздæхт <articleLink>лæгтæ æмæ астæуккаг къласмæ</articleLink>. Акценттæ æмæ диалекттæ, кæцытæ арæх цух кæнынц дæнцæгон рардты æмбырдты, баст вæййынц, ныридæгæн хицæнгонд чи сты, ахæм адæмы къордтимæ. Бирæ машинæтæн зын вæййы бамбарын сылгоймæгты хъæлæстæ. Уый тыххæй нæ хъæлæсон рардты æмбырды мах фæнды алыхуызонад!
 faq-why-my-lang-q = Ме ’взаг цауылнæ бафтыд ныры онг?
+faq-why-my-lang-a =
+    Common Voice у краудсорсингон платформæ, æмæ æвзæгтæ иуылдæр бафтыдысты бархионты фæрцы.
+    Мах тынг фæнды, цæмæй ды бафтауай де 'взаг! <languageRequestLink>Ракур де 'взаг бафтауыны тыххæй.</languageRequestLink>
 faq-what-quality-q = Цавӕр миниуӕг хъӕуы мыры ныффыстӕн,  цӕмӕй клип спайда кӕнӕм датасеты?
 faq-what-quality-a = Мах фæнды, цæмæй рардты æмбырд Common Voice куса мыры миниуæгимæ, кæцы кусдзæн хъæлæс текстмæ рацаразыныл æмæ хъуысдзæн æцæг царды, уый тыххæй нæ æнæмæнг хъæуы алыхуызонад. Уæлæмхасæн фæтæн къорды авторы ныффыстытæ, рардты æмбырд алыхуызон мыртимæ сахуыр кæндзæн хъæлæс раиртасынимæ раст куыд кусын хъæуы æхсæнады, зæгъæм, фоны ныхас æмæ машинæты хъæлæба. Кæд дæ ныффыст æнцонæмбарæн у, уӕд уый бахъæудзæн рардты æмбырды.
 faq-why-10k-hours-q = Аудио ныффыссынӕн  бахъӕудзӕн 10,000 бӕлвырд сахӕттӕ  алы ӕвзагӕн, цӕмӕ?
@@ -561,10 +565,12 @@ about-nav-playbook = Базон, дæхи куыд бафтауай архайд
 ## What is a language
 
 about-playbook-what-is-language = Common Voice-ы цы у ӕвзаг?
+about-playbook-what-is-language-content-2 = Мах фæнды, цæмæй хъæлæсы модельтæ æмбарой дзурджыты фæтæн зылд. Уый тыххæй хъæлæсон рардты æмбырд хъуамæ бирæ алыхуызон адæмы равдиса.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Куыд бафтауæн и ног æвзæгтæ?
+about-playbook-how-add-language-content-1 = Бӕлвырд уал базон, <languageLink>бафтыдтой де' взаг</languageLink>ӕви нӕ. Кӕд нӕма ис, уӕд дӕ <languageRequestLink>сайт ратӕлмац ӕмӕ хъуыдыйад сӕмбырд кӕнын хъӕуы</languageRequestLink>.
 about-playbook-how-add-language-translating-heading = Тæлмац кæнын сайт
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Бакӕс нӕ ахуыргӕнӕн видео-ӕрмӕгмӕ, Pontoon-ӕй куыд ис пайда кӕнын, уый тыххæй.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Хъуыдыйады ӕмбырд
@@ -575,6 +581,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Куыд цæуы сайты локализаци?
 about-playbook-how-localize-content-1 = Common Voice-ы тӕлмац цӕуы <strong>Pontoon-ы</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Скӕнут аккаунт</pontoonAccountLink>, кӕд уӕм нӕма ис, уӕд. Стӕй равзарут ӕвзаг <strong>(‘Team’)</strong> ӕмӕ рахизут проектмӕ (‘Project‘), <pontoonCvLink>Common Voice</pontoonCvLink> у йæ ном. Уым уыдзысты файлтӕ, кӕцытӕ хъӕуы ратӕлмац кӕнын. Кӕцыфӕндыйыл дӕр дзы куы ныххӕцай, уӕд дзы уӕлейы фендзынӕ йӕ англисаг оригинал, бынӕй та дзы уыдзӕн рӕнхъ, кӕцыйы хъӕудзӕн бафыссын тӕлмац.
+about-playbook-how-localize-content-3 = Тæлмацгонд у англисаг æвзагæй, фæлæ дæ бон фенын у <strong>хъуыдыйдтæ</strong> æндæр æвзæгтыл. Ныххæц нысан <strong>Профиль</strong>, уый фæстæ æрвыстыл <strong>Рæвдзгæнæнтæ<strong> æмæ æппæт æвзæгты бафтау, кæцытыл дзурыс. Рахиз фарс къуымы уыдзæн тæлмацты номхыгъд <strong>Æвзæгтæ</strong>. Тæлмацтæ сайты фæзынынц суткæйы фæстæ.
 about-playbook-how-localize-content-4 = Сайт уыдзæн цæттæ архайынæн 75% конд куы уа, уæд.
 about-playbook-how-localize-content-5 = Æххуысы тыххæй бакæс нæ видео-æххуысгæнæгмæ
 
