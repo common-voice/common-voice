@@ -661,6 +661,11 @@ other-language = Cyta volūda
 ## Request Language Pages
 
 request-language-heading = Vaicojit par jaunu volūdu
+request-language-explanation-1 =
+    Puorbaudit, voi jiusu volūda ir nūruodeita sarokstā
+    <languagesPageLink>Common Voice volūdu lopa</languagesPageLink>.
+    Ka nā, aizpiļdit itū veidlopu, i mes <strong>nūsyuteisim jums ārtu e-posta ziņuojumu
+    paskaidrojūt, kai dalikt jaunu volūdu</strong>.
 request-language-form-email =
     .label = Tova e-posta adrese
 request-language-form-info =
