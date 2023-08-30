@@ -1575,6 +1575,7 @@ partnerships-our-partners = Ore irũnguéra
 first-cta-header-text = ¡Aguyjevete ne ñe’ẽpu ñeme’ẽre!
 first-cta-subtitle-text = ¿Emoherakuãsépa peteĩva marandu nde ayvu reko rehegua?
 why-donate = ¿Mba’ére eporandu?
+why-donate-explanation-1 = Ko marandu ha’e poravopyrãva; remoĩva’erã reñeñandu porãramo añoite. Romoherakuãvo mba’ekuaarã aty, roipuru teragua’u opaite maranduete ha roñangareko marandu nde réra ha ñanduti veve ndojoajúi marandu nde rehegua ha’eháicha nde ary térã meña.
 add-information-button = Embojuaju marandu
 continue-speaking-button = Aguyje, eñe’ẽvékatu
 create-profile-text = ¿Eñongatusépa ne marandu? <createProfile>Emoheñói mba’ete</createProfile>
