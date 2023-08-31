@@ -1059,6 +1059,7 @@ contribution-background-voices-example-1-explanation = Voi tu īsi? <strong>[sok
 contribution-volume-title = Skaļums
 contribution-volume-description = Skaiteituoju vydā byus dabiskys īrokstu skaļuma atškireibys. Nūraidit tik tod, ka skaļums ir tik lels, ka īrokstā ir trūksni voi tys puortryukst, voi ari, ka īroksts ir tik kluss, ka navar dzierdēt saceitū bez atsaucis iz raksteitū tekstu.
 contribution-reader-effects-title = Īrunuotuoja izrunys eipatneibys
+contribution-reader-effects-description = Leluokuo daļa īrokstu ir nu cylvāku, kas runoj sovā dabiskajā bolsā. Varit pījimt nalelys atkuopis, par pīmāru, ka kaida fraze teik pasaceita skaļuok, klusuok voi teik izrunuota 'dramatiskā' bolsā. Lyudzu, nūraidit īdzīduotus īrokstus i tūs, kas īrunuoti robotiskā datora bolsā.
 contribution-just-unsure-title = Vīnkuorši naesit puorlīcynuots?
 see-more = <chevron></chevron>Ruodeit vaira
 see-less = <chevron></chevron>Ruodeit mozuok
