@@ -364,6 +364,9 @@ faq-is-goal-assistant-a = Common Voice datu kūpys mierkis ir ļaut sevkuram pas
 faq-do-want-native-q = Itei nav muna dzymtuo volūda i es runoju ar akcentu, voi jums vys tik vajag muna bolsa īrokstus?
 faq-do-want-native-a = Nui, mes eipaši gribim jiusu bolsu! Common Voice mierkis ir apkūpuot piec vareibys vaira vysaidu akcentu, lai bolsa atpazeišonys pakolpuojumi struoduotu vīnaiži labi vysim. Tys zeimoj, ka eipaši nūzeimeigi ir zīduojumi nu cyvlāku, kurim itei volūda nav dzymtuo volūda.
 faq-why-different-speakers-q = Deļkuo jums ir vajadzeigs tik daudz dažaidu vīnys volūdys runuotuoju?
+faq-why-different-speakers-a =
+    Leluokuo daļa runys datu bažu teik apvuiceitys ar puors demografiskū datu puormiereigu paruodeišonu, kas roda nūvierzi attīceibā iz <articleLink>vydsškiru i veirīšim</articleLink>. Akcenti i dialekti, kas parostai ir napītīkūši puorstuovāti vuiceibu datu kūpuos, ir saisteiti ar cylvāku grupom, kurys jau tai ir atstumtys. Daudzom mašynom ari ir gryuts saprast sīvīšu bolsus.
+    Deļtuo myusu bolsa datu bazē mes gribim vysaideibu!
 faq-why-my-lang-q = Deļkuo muna volūda vēļ nav dalykta?
 faq-why-my-lang-a =
     Common Voice ir sabīdreibys īsaistis platforma, i vysys volūdys dalīk breivpruoteigī.
