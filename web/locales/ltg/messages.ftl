@@ -1057,6 +1057,7 @@ contribution-background-voices-description-extended = Ka īroksts raustuos voi t
 contribution-background-voices-example-1-title = Triasa laikmata miļža dinozauri. <strong>[skaita vīns bolss]</strong>
 contribution-background-voices-example-1-explanation = Voi tu īsi? <strong>[soka kaids cyts]</strong>
 contribution-volume-title = Skaļums
+contribution-volume-description = Skaiteituoju vydā byus dabiskys īrokstu skaļuma atškireibys. Nūraidit tik tod, ka skaļums ir tik lels, ka īrokstā ir trūksni voi tys puortryukst, voi ari, ka īroksts ir tik kluss, ka navar dzierdēt saceitū bez atsaucis iz raksteitū tekstu.
 contribution-reader-effects-title = Īrunuotuoja izrunys eipatneibys
 contribution-just-unsure-title = Vīnkuorši naesit puorlīcynuots?
 see-more = <chevron></chevron>Ruodeit vaira
