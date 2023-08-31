@@ -372,15 +372,21 @@ faq-why-my-lang-a =
     Common Voice ir sabīdreibys īsaistis platforma, i vysys volūdys dalīk breivpruoteigī.
     Mes lobu pruotu dalyktu jiusu volūdu! <languageRequestLink>Vaicojit par volūdys dalikšonu.</languageRequestLink>
 faq-what-quality-q = Kaida leimiņa audio kvalitate ir vajadzeiga, lai bolsa īrokstu varātu lītuot datu kūpā?
+faq-what-quality-a = Mes gribim, lai Common Voice datūs pasaruodeitu taida skanis kvalitate, kū runys-teksta programa saprūt dabiskā vidē, deļtuo ir vajadzeiga daudzveideiba. Atškireigā skanis kvalitatē īraksteiti vysaideigi runuotuoju dati īvuiceis runys-teksta programai struoduot vysaiduos realuos situacejuos, par pīmāru, ar fona sarunom voi ar automobiļa trūksni. Cikom jiusu bolsa īroksts ir saprūtams, tys ir gona lobs datu kūpai.
 faq-why-10k-hours-q = Deļkuo īrokstu puorbaudis mierkis ir 10000 stuņžu?
 faq-why-10k-hours-a = Tys ir aptuvans stuņžu skaits, kas vajadzeigs, lai kvalitativi apvuiceitu runys-teksta atpazeišonys sistemu.
 faq-how-calc-hours-q = Kai Common Voice apriekinoj stuņdis?
 faq-how-calc-hours-a = Mes skaitom stuņdis, riekinojūt kotra īroksta videjū garumu, i tod reizynojam itū skaitu ar kūpejū īrokstu skaitu vysuos volūduos.
 faq-where-src-from-2-q = Nu kurīnis ir teksti īrokstim?
+faq-where-src-from-2-a =
+    Myusu teksti sastuov nu suoku zīduojumu, kai ari nu publiskuo domena filmu subtitru, par pīmāru, <italic>It’s a Wonderful Life</italic>.
+    
+    Jius varit apsavērt myusu teikumus itamā <githubLink> GitHub mapē </githubLink>.
 faq-why-not-ask-read-q = Deļkuo jius naprosit, lai cylvāki skaiteitu gruomotysa voi Wikipedia rokstus dažaiduos volūduos?
 faq-why-account-q = Deļkuo maņ juosaregistrej?
 faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 faq-how-privacy-q = Kai jius nūdrūsynuosit tū cylvāku anonimitati i privatumu, kuri pazīduoja sovus bolsus?
+faq-how-privacy-a = Datu kūpys bolsa īrokstūs teik nūjimta vysa veida personu identificiejūša informaceja. Ka dalinīks sovā profilā ir devs demografiskūs datus, itei informaceja teik nūjimta nu juo bolsa īrokstu pyrma tī teik dalykti zamynluodei datu kūpā, i nikod nateik publicāta profila lopā.
 faq-what-determine-identity-q = Kū tys nūzeimoj, ka es “navaru nūsaceit runuotuoju ideņtitati Common Voice datu kūpā”?
 faq-what-is-cv = Kas ir Common Voice?
 faq-using-cv = Common Voice lītuošona
@@ -425,6 +431,10 @@ about-no-votes-text = Ka lītuotuojs nūraida bolsa īrokstu, tys atsagrīž ryn
 about-dataset-new = Bolsa datu kūpa
 about-dataset-new-text = Common Voice datu kūpai ir symtim tyukstūšys bolsa paraugu, kas paleidz izstruoduotuojim sataiseit bolsa atpazeišonys reikus.
 about-clip-graveyard = Īrokstu kopsāta
+about-clip-graveyard-text =
+    Īrokstu kopsāta sastuov nu bolsa īrokstu, kas natyka īlykti bolsa datu kūpā. Taipat kai datu kūpa, īrokstu kopsāta ir daīmama zamynluodei.
+    
+    Mes gribim pasaceit paļdis itaidim cylvākim i organizacejom par paleidzeibu projekta eistynuošonā:
 about-get-involved = Īsasaistit
 about-get-involved-text-2 =
     Gribit paleidzēt padareit Common Voice vēļ lobuoku?
@@ -445,6 +455,7 @@ about-nav-playbook = Izzynoj, kai pīsadaleit
 ## What is a language
 
 about-playbook-what-is-language = Kas ir volūda Common Voice sistemā?
+about-playbook-what-is-language-content-1 = Ir daudz veidu, kai dūmuot par volūdu. Runys atpazeišonys modeļu kontekstā Common Voice īsoka koncentrētīs iz "sovstarpeigū saprūtameibu" voi "voi ituos volūdys runuotuoji var saprast vīns ūtra, ka jī tū rauga?"
 about-playbook-what-is-language-content-2 = Mes gribim, lai runys modeli lobuok saprastu dažaidus runuotuojus. Lai tys nūtyktu, bolsa datu kūpai ir juoparuoda, kai runoj daudz vysaidu cylvāku.
 
 ## How do I add a language
