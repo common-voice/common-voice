@@ -514,6 +514,7 @@ about-playbook-how-grow-language-content-1 = Atrūnūt vareibu vysaidim cylvāki
 about-playbook-how-grow-language-content-2 = Nūtikšonys
 about-playbook-how-grow-language-content-3 = Varit taiseit pasuokumus, lai mudynuotu cylvākus dūt sovu īguļdejumu. Tys ir vīgluok, nakai jius dūmojit. Varit tū izdareit tīšsaistē, lītojūt videokonferenču reiku, voi personeigi, ka tys ir drūsai. <eventTemplate>Izpietit myusu veidnis i resursus, kas paradzāti pasuokumu nūtikšonai</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Socialī medeji
+about-playbook-how-grow-language-content-5 = Varit lītuot socialū medeju platformys, lai nūsyuteitu ziņuojumu. Pasadolit ar ziņom, kuruos paskaidruots, deļkuo tys ir svareigi, i sasazynojit ar cylvākim, kas runoj par taidim vaicuojumim kai volūdys tīseibys, bolsa lītuošona muoksleigajā intelektā voi naobjektivitate tehnologeju sferā. Veritēs vaira padūmu par <campaignLink>socialuos kampanis vadeišonu, tamā vydā saturu, kū varit lītuot</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnereibys i teikli
 about-playbook-how-grow-language-content-7 = Atrūnit cytus, kurim tys ryup. Tuos varātu byut universitatis, volūdu školys, interešu aizstuoveibys grupys voi datu zynuotnis kūpīnys. Sasazynojit i skaidri paskaidrojit, kai jī var paleidzēt i deļkuo. <outreachTemplates>Veritēs myusu informativū e-posta ziņuojumu veidnis</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Esit rodūši!</strong> Jiusu volūdys kūpīna byus unikala, i itī ir tikai puors veidi, kai suokt.
