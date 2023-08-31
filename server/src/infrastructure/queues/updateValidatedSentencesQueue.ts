@@ -13,7 +13,7 @@ import {
 
 const UPDATE_VALIDATED_SENTENCES_QUEUE_NAME = 'update-validated-sentences-queue'
 
-const REPEAT_EVERY_HOUR = '0 * * * *'
+const REPEAT_EVERY_HOUR = '* * * * *'
 
 export const setupUpdateValidatedSentencesQueue = () => {
   pipe(
