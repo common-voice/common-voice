@@ -1061,6 +1061,7 @@ contribution-volume-description = Skaiteituoju vydā byus dabiskys īrokstu ska�
 contribution-reader-effects-title = Īrunuotuoja izrunys eipatneibys
 contribution-reader-effects-description = Leluokuo daļa īrokstu ir nu cylvāku, kas runoj sovā dabiskajā bolsā. Varit pījimt nalelys atkuopis, par pīmāru, ka kaida fraze teik pasaceita skaļuok, klusuok voi teik izrunuota 'dramatiskā' bolsā. Lyudzu, nūraidit īdzīduotus īrokstus i tūs, kas īrunuoti robotiskā datora bolsā.
 contribution-just-unsure-title = Vīnkuorši naesit puorlīcynuots?
+contribution-just-unsure-description = Ka truopās koč kas, kas itamuos vodlinejuos nav īlykts, lyudzu, bolsojit tai, kai jums ruodīs pareizi. Atguodojit - kvalitate i precizitate ir svareiguoka par īrokstu skaitu. Ka eistyn navarit izlemt, lītojit izlaisšonys pūgu i puorejit iz nuokušū īrokstu.
 see-more = <chevron></chevron>Ruodeit vaira
 see-less = <chevron></chevron>Ruodeit mozuok
 
