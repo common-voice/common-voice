@@ -1449,6 +1449,7 @@ misreadings-example-3 = Kuņdze, voi es varu koč kū dareit?
 misreadings-example-4 = Bitis ir darbeigi kukaini.
 misreadings-tip-1 = [pagaiss vuords “es”]
 misreadings-tip-3 = [Īrunuots napareizs teikums]
+background-noise-explanation = Jums ir juovar dzierdēt kotru īroksta vuordu. Mes gribim, lai mašynvuiceišonuos algoritmi varātu apstruoduot vysaidus fona trūkšņus, i var tikt pījemti pat saleidzynūši skali trūkšni voi klusa muzyka, ka tī natraucej precizi i skaidri dzierdēt vysu tekstu. Trūkšni voi 'iztryukumi', kas naļaun dzierdēt i saprast kotru vuordu, zeimoj, ka īroksts ir juonūraida.
 background-noise-example-1 = Senejuo laikmeta dinozauri.
 background-noise-example-2 = [Škauda] Senejuo laikmeta [kuoss] dinozauri.
 background-noise-example-3 = Senejuo laikmeta dino [dzierdams krakškis].
