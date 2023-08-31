@@ -349,6 +349,9 @@ faq-what-cv-q = Kas ir Common Voice?
 faq-what-cv-a =
     Bolsa atpazeišonys tehnologeja revolucionizej veidu, kai mes sasadorbojam ar mašynom, bet itūšaļt daīmamuos sistemys ir duorgys i patentātys. Common Voice ir daļa nu Mozilla iniciativys, lai izlobuotu bolsa atpazeišonys tehnologejis sevkuram. Common Voice ir miļzeiga globala pazīduotū bolsu datu baze, kas ļaun sevkuram dreiži i vīglai apvuiceit bolsa īspiejuotys lītuojumprogramys potenciali vysuos volūduos.
     Mes na tik vuocam bolsa paraugus plotai runuotuos volūduos, bet ari tymuos, kuruos ir mozuok runuotuoju. Vysaideigu bolsa datu kūpu publiciešona ļaus izstruoduotuojim, uzjiemiejim i kūpīnom rysynuot itū tryukumu. Papyldu Common Voice datu kūpai mes taisam ari valejuo pyrmkoda runys atpazeišonys dzinieju, kū sauc par Deep Speech.
+faq-what-cv-a-2 =
+    Bolsa atpazeišonys tehnologeja pamaina veidu, kai mes mejīdorbojamīs ar īkuortom, tok itūšaļt daīmamuos sistemys ir duorgys i patentātys. Mozilla Common Voice ir iniciativa, lai padareitu bolsa atpazeišonys tehnologejis lobuokys i daīmamys sevkuram. Common Voice ir globala pazīduotū bolsu datu baze, kas ļaun sevkuram dreiži i vīnkuorši apvuiceit ar bolsu darbynomys lītuotnis vysaiduos volūduos.
+    Mes na tik vuocam bolsa paraugus plotai runuotuos volūduos, bet ari tymuos, kuruos runuotuoju skaits ir mozuoks. Vysaideigu bolsu datu kūpys publiciešona ļaus izstruoduotuojim, uzjiemiejim i kūpīnom pošom nūvierst napiļneibys volūdu bolsa tehnologeju atbolstā vysaiduos volūduos.
 faq-why-important-q = Deļkuo tys ir svareigi?
 faq-how-get-q = Kai es varu dabuot Common Voice datus?
 faq-how-get-a = Common Voice datu kūpa ir daīmama zamynluodei, lītojūt <licenseLink> CC0 </licenseLink> liceņzi lopā <datasetLink>datu kūpa</datasetLink>. Jius itamā lopā varit zamynluodēt ari vairuokys cytys publiski daīmamys datu kūpys.
