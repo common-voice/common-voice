@@ -33,5 +33,4 @@ const processValidatedSentences =
     )()
   }
 
-export const updateValidatedSentencesProcessor =
-  processValidatedSentences(queryDb)
+export default processValidatedSentences(queryDb)

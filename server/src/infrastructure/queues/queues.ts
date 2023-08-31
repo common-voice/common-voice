@@ -36,6 +36,13 @@ export const addProcessorToQueue =
     return IO.of(constVoid())
   }
 
+export const addSandboxedProcessorToQueue =
+  <T>(processor: string) =>
+  (q: Queue.Queue<T>): IO.IO<void> => {
+    q.process(processor)
+    return IO.of(constVoid())
+  }
+
 export const attachEventHandlerToQueue =
   (event: string) =>
   <T>(errorHandler: (job: Queue.Job<T>) => any) =>
