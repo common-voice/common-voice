@@ -358,6 +358,7 @@ faq-how-get-a = Common Voice datu kūpa ir daīmama zamynluodei, lītojūt <lice
 faq-when-release2-q = Kod jius publicēsit Common Voice datus cytuos volūduos?
 faq-why-mission-q = Deļkuo Common Voice ir daļa nu Mozilla misejis?
 faq-what-cv-and-deepspeech-q = Kaida atškireiba storp Common Voice i Deep Speech?
+faq-what-cv-and-deepspeech-a = Common Voice datu kūpa papyldynoj Mozilla valejuo koda bolsa atpazeišonys dzinieju Deep Speech. Pyrmuo Deep Speech verseja tyka izlaista 2017. goda novembrī i turpynoj atsateisteit nu tuo laika. Kūpā ar Common Voice datu kūpu mes turam, ka atvārtuo pyrmkoda bolsa atpazeišonys tehnologejai juobyut daīmamai sevkuram. Mums ticīs, ka ituos tehnologejis ļaus izstruoduotuojim sataiseit inovativu produktu i pakolpuojumu viļni.
 faq-is-goal-assistant-q = Voi Common Voice mierkis ir taiseit bolsa asistentu?
 faq-is-goal-assistant-a = Common Voice datu kūpys mierkis ir ļaut sevkuram pasaulī taiseit runys atpazeišonu, runuotuoju atpazeišonu voi vysleidza kaida cyta veida lītuojumprogramu, kas struodoj ar bolsa datim. Bolsa paleigs ir tikai vīns nu daudzu lītuojumprogramu veidu, kurus var taiseit ar itū datu kūpu.
 faq-do-want-native-q = Itei nav muna dzymtuo volūda i es runoju ar akcentu, voi jums vys tik vajag muna bolsa īrokstus?
