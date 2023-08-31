@@ -457,6 +457,7 @@ about-nav-playbook = Izzynoj, kai pīsadaleit
 about-playbook-what-is-language = Kas ir volūda Common Voice sistemā?
 about-playbook-what-is-language-content-1 = Ir daudz veidu, kai dūmuot par volūdu. Runys atpazeišonys modeļu kontekstā Common Voice īsoka koncentrētīs iz "sovstarpeigū saprūtameibu" voi "voi ituos volūdys runuotuoji var saprast vīns ūtra, ka jī tū rauga?"
 about-playbook-what-is-language-content-2 = Mes gribim, lai runys modeli lobuok saprastu dažaidus runuotuojus. Lai tys nūtyktu, bolsa datu kūpai ir juoparuoda, kai runoj daudz vysaidu cylvāku.
+about-playbook-what-is-language-content-3 = Cytom volūdom ir miļzeigys gramatikys, vuordu kruojuma i izrunys atškireibys. Ituo īmesļa deļ mes 2022. godā <ctaLink>īvedem  ‘Variantus’</ctaLink>. Tys dūd kūpīnom atškiert sovys volūdys leluokā datu kūpā.
 
 ## How do I add a language
 
