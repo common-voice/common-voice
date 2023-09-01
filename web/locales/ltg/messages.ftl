@@ -1146,6 +1146,7 @@ sc-howto-addlang-text = Kod esit dasaslēdzs, profila sadaļā varit izalaseit s
 sc-howto-addsen-title = Dalikt jaunus teikumus
 sc-howto-addsen-item-1 = Vysim jiusu īsnīgtajim teikumim ir juoatbiļst <wikipediaLink>Publiskuo domena (CC-0) liceņzei</wikipediaLink>. Lai atbaļsteitu taidu dorbu īlikšonu, kurim nav publiskuos liceņzis, asam sataisejuši <cc0WaiverLink>Īguļdejuma leiguma formu</cc0WaiverLink> dorbim, kuru autortīseibu eipašnīks grib īsnēgt materialu Common Voice.
 sc-howto-addsen-item-2 = Skaitli. Teikumūs nadreikst byut cipari, partū ka tī var radeit problemys, īrunojūt tūs. Skaitļa izruna ir atkareiga nu konteksta i var radeit klaidys datu kūpā. Par pīmāru, skaitli "2409" var izrunuot i kai "divdesmit četri nulle deveni", i "divejis tyukstūšys četri symti deveni".
+sc-howto-addsen-item-4 = Pīturzeimis. Specialī simboli i pīturzeimis juoīlīk tikai tod, ka tys ir vysā vajadzeigs. Par pīmāru, apostrofs ir īlykts taidūs angļu volūdys vuordūs kai “don’t” i “we’re”, i tys ir juoīlīk ari olūta tekstā, tok moz tycams, ka jums koč kod byus vajadzeigi simboli, par pīmāru, “@” voi “#.” Latgalīšu volūdā juorauga atsabreivuot nu vysu pīturzeimu i specialūs simbolu, kas nav vajadzeigi, par pīmāru, nu dūmuzeimu.
 sc-howto-addsen-item-5 = Cytu volūdu burti. Burtim ir juobyut dereigim volūdā, kurā runoj. Par pīmāru, “ж” ir burts krīvu alfabetā, tok tys nikod nateik lītuots latgalīšu volūdā, deļtuo tys nadreikst byut latgalīšu volūdys teikumūs.
 sc-howto-addsen-item-6 = Volūdom var byut <validationRulesLink>sovi validacejis nūsacejumi</validationRulesLink> ar papyldu praseibom. Ka volūdai nav konkreta validacejis faila, mes lītojam vyspuoreigūs angļu volūdys nūsacejumus.
 sc-howto-cite-title = Kai nūruodeit olūtu
@@ -1168,10 +1169,13 @@ sc-howto-findpd-tips-1 = Lobuokī olūti, kur varit meklēt, ir podkāsti, steno
 sc-howto-findpd-tips-2 = Vaļdeibys siežu stenogramys, gruomotys i roksti ari ir breineigi, tok, tai kai teksts var byut nadaudz formaluoks, tim ir mozuoka prioritate.
 sc-howto-findpd-tips-3 = Dīvamžāļ mes itūšaļt navarim īlikt Wikimedia rokstus. Deļtuo, lyudzu, nakopejit nu tīnīnis teikumus.
 sc-howto-findpd-subtitle-2 = Sasadorbojit ar vītejom organizacejom voi privatpersonom
+sc-howto-findpd-partner-1 = Ir daudzi sabīdryskūs organizaceju, kurys varātu gribēt sasadorbuot, i tom jau ir daudzi tekstu, kū var pazīduot sabīdreibys lobumam kai publiskū eipašumu. Sasazynojit ar vītejom universitatem, puorvaļdem i valejuo pyrmkoda organizacejom, lai runuotu par projektu i vaicuotu jūs paleidzeibu.
+sc-howto-findpd-partner-2 = Eksperti volūdnīki ari var paleidzēt, raugit sasazynuot ar vītejom lingvistiskajom universitatem (školuotuojim, studentim) i nūskaidruot, voi tuos var paleidzēt savuokt daudzveideigu skaņu teikumu kūpumu jiusu volūdā.
 
 ## MY SENTENCES
 
 sc-my-title = Muni teikumi
+sc-my-description = Itamā lopā ir puorskots par vysim jiusu īsnīgtajim teikumim. Ka vajadzeigs, varit ari dzēst jau īsnīgtūs teikumus, atzeimojūt iz tam blokus asūšuos izvielis lauceņa i klykstynojūt iz &quot;Dzēst atlaseitūs teikumus&quot; zamuok. Lyudzu, izjemit teikumus tik tod, ka tys ir absoluti vajadzeigs, par pīmāru, ka piec tam pamanejot, ka teikums ir aizsorguots ar autortīseibom voi tymā ir klaidys.
 sc-my-loading = Nūteik jiusu teikumu īluode...
 sc-my-err-fetching = Īluodejūt jiusu teikumus, roduos klaida. Lyudzu, raugit vēlreiz.
 sc-my-no-sentences = Nav atrosts nivīns teikums!
