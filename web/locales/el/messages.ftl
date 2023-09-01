@@ -1649,6 +1649,7 @@ adding-sentences-subheader-offensive-content = Προσβλητικό περιε
 reviewing-sentences-explanation-1 = Εάν η πρόταση πληροί τα παραπάνω κριτήρια, κάντε κλικ στο κουμπί «Ναι».
 reviewing-sentences-explanation-2 = Εάν η πρόταση δεν πληροί τα παραπάνω κριτήρια, κάντε κλικ στο κουμπί «Όχι».
 reviewing-sentences-explanation-4 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
+write-page-subtitle = Οι προτάσεις που συνεισφέρονται εδώ θα προστεθούν σε ένα δημόσια διαθέσιμο σύνολο δεδομένων με άδεια cc-0.
 sentence =
     .label = Πρόταση
 citation =
@@ -1674,4 +1675,5 @@ review-error = Προέκυψε σφάλμα κατά τον έλεγχο αυτ
 review-error-rate-limit-exceeded = Προχωράτε πολύ γρήγορα. Αφιερώστε λίγο χρόνο για να ελέγξετε την πρόταση και για να βεβαιωθείτε ότι είναι σωστή.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Κάνουμε κάποιες μεγάλες αλλαγές
+sc-redirect-page-subtitle-1 = Το Sentence Collector μεταφέρεται στην κύρια πλατφόρμα του Common Voice. Μπορείτε πλέον να <writeURL>συντάξετε</writeURL> μια πρόταση ή να <reviewURL>αξιολογήσετε</reviewURL> υποβολές προτάσεων στο Common Voice.
 sc-redirect-page-subtitle-2 = Κάντε μας ερωτήσεις στο <matrixLink>Matrix</matrixLink>, το <discourseLink>Discourse</discourseLink> ή μέσω <emailLink>email</emailLink>.
