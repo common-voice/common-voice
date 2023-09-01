@@ -1371,6 +1371,7 @@ sc-criteria-item-1 = Teikumam juobyut pareizi uzraksteitam, vuordūs navar byut 
 sc-criteria-item-2 = Teikumam juobyut gramatiski pareizam.
 sc-criteria-item-3 = Teikumam juobyut izrunojamam.
 sc-criteria-item-4 = Ka teikums atbylst vysim kriterejim, klykstynojit iz pūgys &quot;Apstyprynuot&quot;.
+sc-criteria-item-5-2 = Ka teikums naatbylst pyrma nūsauktajim kriterejim, klykstynojit iz pūgys "Nūraideit". Ka naesit puorlīcynuots par teikumu, varit tū ari izlaist i puorīt iz nuokušū.
 sc-criteria-item-6 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
 
 ## REVIEW
@@ -1434,6 +1435,7 @@ partnerships-header-text = Lai sataiseitu Common Voice, ir vajadzeigs daudzi! Me
 partnerships-get-in-touch = Sasazynuot
 partnerships-become-a-partner = Palīcit par Common Voice partneri
 partnerships-community-header = Kūpīna, rodūšuo sabīdreiba i piļsuoniskuo sabīdreiba
+partnerships-community-description = Kūpīna ir Common Voice tuktinejūšuo sirds - jī ir nu vysa pasauļa i ir volūdu aktivisti, zynuotnīki i muokslinīki. Vaira par tū, kai īsasaisteit, varit izzynuot myusu lopā <about>Par</about> i myusu <community>kūpīnys rūkysgruomotā</community>. Ka jums interesej padzylynuota organizatoriskuo partnereiba, <emailFragment>sasazynojit ar mums.</emailFragment>
 partnerships-foundations-header = Fondi
 partnerships-foundations-description = Mes sasadorbojam ar fondim, piļsūniskū sabīdreibu i kūpīnys partnerim, lai padareitu internetu par veseleiguoku vītu, eipašu viereibu pīgrīžūt Austrumafrikai. Izzynojit vaira par myusu <programmaticWork>programatiskū dorbu.</programmaticWork>
 partnerships-governments-header = Vaļdeibys
