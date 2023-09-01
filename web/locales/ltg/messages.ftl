@@ -603,6 +603,12 @@ review-delete-recordings = Dzēst munus īrokstus
 
 datasets-heading = Datu kūpys
 datasets-headline = Mes veidojam atvārtuo pyrmkoda daudzvolūdu datu kūpu, kū sevkurs var lītuot, lai apvuiceitu runys lītuojumprogramys.
+datasets-positioning =
+    Mes dūmojam, ka lelys, publiski daīmamys bolsa datu kūpys veicynoj inovacejis i veseleigu komercialu konkureņci mašynvuiceišonā baļsteitā runys tehnologejā. 
+    
+    Common Voice vairuokvolūdu datu baze jau ir leluokuo itaida veida publiski daīmamuo bolsa datu kūpa, bet tei nav vīneiguo. 
+    
+    Pasaverit iz itū lopu kai informacejis centru par cytom valejuo pyrmkoda bolsa datu kūpom i, tai kai Common Voice turpynoj augt, ari kai iz myusu nuokūtnis atjaunynuojumu vītu.
 language = Volūda
 download-dataset-header = Zamynluodejit datu kūpu
 download-delta-explainer = Mes asam sataisejuši puors izmainis. Delta segmenti satur tikai jaunuokūs īrokstus nu pādejuos izlaisšonys. <deltaLink>Skaitit vaira par itū dorbu</deltaLink>.
@@ -626,12 +632,17 @@ download-language = Zamynluodēt { $language }
 validated-hours = Puorbaudeituos stuņdis
 recorded-hours = Īraksteituos stuņdis
 whats-inside = Kas atsarūn Common Voice datu kūpā?
+dataset-description-hours =
+    Kotrys datu kūpys īroksts sastuov nu unikala MP3 i atbylstūša teksta faila. Daudzuos nu <b>{ $total }</b> īrokstu stuņdem datu kūpā ir ari demografiskī metadati, par pīmāru, vacums, dzymums i akcents, kas var paleidzēt apvuiceit runys atpazeišonys dzinieju precizitati.
+    
+    Datu kūpums itūšaļt sastuov nu <b>{ $valid }</b> puorbaudeitom stuņdem <b>{ $languages }</b> volūduos, bet mes vysod dalīkam vaira bolsu i volūdu. Apsaverit myusu <languagesLink>volūdu lopu</languagesLink>, lai pīpraseitu volūdu voi dūtu sovu īguļdejumu.
 want-dataset-update = Gribit zynuot, kod mes izlaižam jaunu Common Voice datu kūpys verseju? Pīsarokstit jaunumim.
 subscribe = Pīsaraksteit
 get-started-speech = Suokt runys atpazeišonu
 other-datasets = Cytys bolsa datu kūpys
 feedback-q = Voi jums ir atsauksmis?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ir <docsLink>valejuo koda reikkūpa</docsLink> pietnīkim, kas izstruodoj jaunuokūs sarunvolūdys muoksleiguo intelekta modeļus.
+resource-deepspeech-info = Common Voice datu kūpa papyldynoj Mozilla valejuo koda bolsa atpazeišonys dzinieju Deep Speech, kū var lītuot, lai sataiseitu runys atpazeišonys programys. Paskaitit myusu <githubLink>Github puorskotu</githubLink> voi pīsavīnojit <discourseLink>DeepSpeech Discourse</discourseLink>, lai izzynuotu, kai suokt dorbu.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> struodoj valejuos runys tehnologejis atteisteibai. Jūs projekti apjam dziļā vuiceišonā baļsteitus STT i TTS dziniejus.
 community-playbook = Kūpīnys rūkysgruomota
 resource-playbook-info = <playbookLink>Atrūnit dereigus nūruodejumus</playbookLink> par vysu Common Voice ceļuojumu, suocūt nu lokalizacejis da datu kūpys lītuošonai, kai ari par tū, kai sasazynuot ar myusu kūpīnu.
