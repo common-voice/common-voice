@@ -519,7 +519,7 @@ faq-search-for-answers =
 
 about-title = Perché Common Voice?
 about-header-description-v2 =
-    <p>Common Voice o l’é un dataset pubrico, fæto da-e voxe di conlaboratoî volontäio de tutto o mondo. Chi veu creâ de appricaçioin vocale peu addeuviâ sto dataset pe inandiâ di modelli de machine learning.</p>
+    <p>Common Voice o l’é un dataset pubrico, fæto da-e voxe di conlaboratoî volontäi de tutto o mondo. Chi veu creâ de appricaçioin vocale peu addeuviâ sto dataset pe inandiâ di modelli de machine learning.</p>
     <p>A-a giornâ d’ancheu, a ciù parte di dataset a l’é de proprietæ de açiende, e questo o l’astalla l’innovaçion. Pe de ciù, i dataset vocali no en representativi de lengue despæge da l’ingleise, di locutoî de cô, de persoñe disabile, de dònne e de persoñe LGBTQIA+. Pe sta raxon, a tecnologia vocale no fonçioña pe ninte pe ben ben de lengue, e quand’a fonçioña, a no fonçioña pægio pe tutti. Voemmo cangiâ sta scituaçion pe incoraggî e gente de tutte e bande à scompartî a seu  voxe.</p>
 how-does-it-work-title-v2 = Comm’o fonçioña Common Voice?
 how-does-it-work-text = Semmo apreuvo à arrecheugge un dataset open source pe mezo do crowdsourcing. Doña a teu voxe, verifica e registraçioin di atri, e amegioa o dataset pe tutti.
@@ -1681,7 +1681,7 @@ new-sentence-rule-4 = Addeuvia unna boña grafia e pontezzatua
 new-sentence-rule-5 = Nisciun numero e caratteri speçiali
 new-sentence-rule-6 = Nisciuña lettia estranxea
 new-sentence-rule-7 = Azzonzi a boña çittaçion
-new-sentence-rule-8 = Preferibilmente, e frase an da ëse naturale e conversaçionale (façie da leze)
+new-sentence-rule-8 = Preferibilmente naturale e conversaçionale (façile da leze)
 how-to-cite = Comme çittâ?
 how-to-cite-explanation-bold = Çitta con un ligammo ò co-o nomme completo de l’euvia.
 how-to-cite-explanation = Se en poule teu, ti peu scrive solo che <italicizedText>«Autoçittaçion»</italicizedText>. Emmo beseugno de savei donde t’æ trovou sto contegnuo coscì che poemmo controllâ s’o l’é into pubrico dominio e se gh’é de restriçioin de copyright. Pe saveine de ciù in scê çittaçioin, ammia a <guidelinesLink>guidda</guidelinesLink>.
