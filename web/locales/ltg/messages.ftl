@@ -574,6 +574,7 @@ data-download-deny = Nā
 data-download-license = Liceņze: <licenseLink> CC-0 </licenseLink>
 data-download-modal = Jius gatavejitēs zamynluodēt <size>{ $size }GB</size>, turpynuot?
 data-subtitle = Mes veidojam atkluotu i publiski daeimamu bolsa datu kūpu, kū sevkurs var lītuot, lai apvuiceitu runys lītuojumprogramys.
+data-explanatory-text = Mēs dūmojam, ka lelys i publiski daīmamys datu kūpys veicynoj inovaceju i veseleigu komercialu konkureņci mašynvuiceišonys baļsteitā runys tehnologejā. Tys ir globals dorbs, i mes aicynojam sevkuru pīsadaleit. Myusu mierkis ir paleidzēt runys tehnologejai byut īkļaujūšuokai, paruodūt vysaidu pasauļa bolsu daudzveideibu.
 data-get-started = <speechBlogLink>Dorba suokšona ar runys atpazeišonu</speechBlogLink>
 data-other-title = Citys bolsa datu kūpys…
 data-other-goto = Ej iz { $name }
