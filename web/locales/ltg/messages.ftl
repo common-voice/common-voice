@@ -1479,6 +1479,7 @@ volume = Skaļums
 reader-effects = Īrunuotuoja izrunys eipatneibys
 just-unsure = Vīnkuorši naesit puorlīcynuots?
 example = Pīmārs
+varying-pronunciations-explanation-1 = Mes asam prīceigi par vysaidim akcentim! Esit pīsardzeigi, pyrma nūraidit īrokstu, atsasaucūt iz tū, ka skaiteituojs ir napareizi izrunuojs vuordu, lics uzsvoru napareizā vītā voi acimradzami ignoriejs pīturzeimis. Izrunys ir vysaidys i puors nu tom jius varbyut kasdīnā sev apleik nadzierdit. Lyudzu, nūviertejit tū, ka cylvāki var runuot cytaiž kai jius.
 varying-pronunciations-explanation-2 = Nu cytys pusis, ka izruna ir napareiza voi klaidaina, nūraidit īrokstu. Ka naesit puorlīcynuots, lītojit izlaisšonys pūgu.
 varying-pronunciations-example = Pi munys sātys aug eglis i ūzuli.
 varying-pronunciations-tip-1 = [Latgolā vuordu "egle" izrunoj dažaidi, vysys izrunys ir pareizys]
