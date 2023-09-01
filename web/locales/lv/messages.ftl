@@ -464,7 +464,7 @@ faq-what-cv-q = Kas ir Common Voice?
 faq-what-cv-a =
     Balss atpazīšanas tehnoloģija revolucionizē veidu, kā mēs sadarbojamies ar mašīnām, bet pašlaik pieejamās sistēmas ir dārgas un patentētas. Common Voice ir daļa no Mozilla iniciatīvas, lai uzlabotu balss atpazīšanas tehnoloģijas ikvienam. Common Voice ir milzīga globāla ziedoto balsu datu bāze, kas ļauj ikvienam ātri un viegli apmācīt balss iespējotas lietojumprogrammas potenciāli visās valodās.
     
-    Mēs ne tikai vācam balss paraugus plaši runātās valodās, bet arī tajās, kurās ir mazāk runātāju. Daudzveidīgu balsu datu kopu publicēšana ļaus izstrādātājiem, uzņēmējiem un kopienām risināt šo trūkumu. Papildus kopīgajai balss datu kopai mēs veidojam arī atvērtā pirmkoda runas atpazīšanas dzinēju, ko sauc par Deep Speech.
+    Mēs ne tikai vācam balss paraugus plaši runātās valodās, bet arī tajās, kurās ir mazāk runātāju. Daudzveidīgu balsu datu kopu publicēšana ļaus izstrādātājiem, uzņēmējiem un kopienām risināt šo trūkumu. Papildus Common Voice datu kopai mēs veidojam arī atvērtā pirmkoda runas atpazīšanas dzinēju, ko sauc par Deep Speech.
 faq-what-cv-a-2 =
     Balss atpazīšanas tehnoloģija maina veidu, kā mēs mijiedarbojamies ar iekārtām, taču pašlaik pieejamās sistēmas ir dārgas un patentētas. Mozilla Common Voice ir iniciatīva, lai padarītu balss atpazīšanas tehnoloģijas labākas un pieejamākas ikvienam. Common Voice ir globāla ziedoto balsu datu bāze, kas ļauj ikvienam ātri un vienkārši apmācīt ar balsi darbināmas lietotnes dažādās valodās.
     
@@ -1426,7 +1426,7 @@ contribution-background-noise-example-3-fixed-title = <strong>[Čerkstoņa]</str
 contribution-background-voices-title = Balsis fonā
 contribution-background-voices-description = Klusa murmināšana fonā ir pieņemama, taču mēs nevēlamies papildu balsis, kas varētu traucēt algoritmam pareizi noteikt vārdus, kas nav rakstītajā tekstā. Ja dzirdat vārdus, kas nav rakstīti tekstā, klips ir jānoraida. Parasti tas notiek tur, kur televizors ir atstāts ieslēgts vai kad tuvumā notiek saruna.
 contribution-background-voices-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
-contribution-background-voices-example-1-title = Triasa laikmeta milzu dinozauri. <strong>[lasa vienā balsa]</strong>
+contribution-background-voices-example-1-title = Triasa laikmeta milzu dinozauri. <strong>[lasa viena balss]</strong>
 contribution-background-voices-example-1-explanation = Vai tu nāc? <strong>[saka kāds cits]</strong>
 contribution-volume-title = Skaļums
 contribution-volume-description = Starp lasītājiem būs dabiskas ieraksta skaļuma atšķirības. Noraidīt tikai tad, ja skaļums ir tik liels, ka ierakstā ir krakšķi vai tas pārtrūkst, vai arī, ja tas ir tik kluss, ka nevar saklausīt dzirdēt teikto bez atsauces uz rakstīto tekstu.
