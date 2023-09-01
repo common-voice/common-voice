@@ -1146,6 +1146,7 @@ sc-howto-addlang-text = Kod esit dasaslēdzs, profila sadaļā varit izalaseit s
 sc-howto-addsen-title = Dalikt jaunus teikumus
 sc-howto-addsen-item-1 = Vysim jiusu īsnīgtajim teikumim ir juoatbiļst <wikipediaLink>Publiskuo domena (CC-0) liceņzei</wikipediaLink>. Lai atbaļsteitu taidu dorbu īlikšonu, kurim nav publiskuos liceņzis, asam sataisejuši <cc0WaiverLink>Īguļdejuma leiguma formu</cc0WaiverLink> dorbim, kuru autortīseibu eipašnīks grib īsnēgt materialu Common Voice.
 sc-howto-addsen-item-2 = Skaitli. Teikumūs nadreikst byut cipari, partū ka tī var radeit problemys, īrunojūt tūs. Skaitļa izruna ir atkareiga nu konteksta i var radeit klaidys datu kūpā. Par pīmāru, skaitli "2409" var izrunuot i kai "divdesmit četri nulle deveni", i "divejis tyukstūšys četri symti deveni".
+sc-howto-addsen-item-5 = Cytu volūdu burti. Burtim ir juobyut dereigim volūdā, kurā runoj. Par pīmāru, “ж” ir burts krīvu alfabetā, tok tys nikod nateik lītuots latgalīšu volūdā, deļtuo tys nadreikst byut latgalīšu volūdys teikumūs.
 sc-howto-addsen-item-6 = Volūdom var byut <validationRulesLink>sovi validacejis nūsacejumi</validationRulesLink> ar papyldu praseibom. Ka volūdai nav konkreta validacejis faila, mes lītojam vyspuoreigūs angļu volūdys nūsacejumus.
 sc-howto-cite-title = Kai nūruodeit olūtu
 sc-howto-cite-pre-1 = Ir svareigi nūruodeit, kur atrodot publiski daīmamūs tekstus, lai izasorguotu nu plagiata i ļautu sekuot leidza <copyrightIssuesLink>autortīseibu problemom</copyrightIssuesLink>. Ite ir puors veidi, kai varit citēt dorbu.
