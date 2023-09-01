@@ -1128,6 +1128,7 @@ sc-logout-button = Beigt dorbu
 ## HOME
 
 sc-home-title = Vasali Common Voice Teikumu apkūpuotuojā
+sc-home-intro = Teikumu apkūpuotuojs ir daļa nu <commonVoiceLink>Common Voice</commonVoiceLink>. Tys ļaun projekta dalinīkim apkūpuot i apstyprynuot kūpīnys atlaseitūs teikumus. Varit lītuot itū reiku ari, lai importātu i puorbaudeitu moza i videja leluma publiskuo domena teikumu kolekcejis, kū esit atrads voi savuocs. Vysim teikumim ir juobyut publiski daīmamim. Apstyprynuotī teikumi kasnedeļu teik eksportāti iz Common Voice repozitoreju i teik izlaisti Common Voice teiklavītā leidza ar nuokušū izlaidumu.
 sc-home-collect-title = Teikumu apkūpuošona
 sc-home-collect-text = Paleidzit mums, rokstūt voi apkūpojūt publiskuo domena teikumus.
 sc-home-review-title = Puorsaverit teikumus
@@ -1143,6 +1144,7 @@ sc-howto-title = Padūmi
 sc-howto-addlang-title = Volūdu dalikšona dorbam
 sc-howto-addlang-text = Kod esit dasaslēdzs, profila sadaļā varit izalaseit sovys volūdys.
 sc-howto-addsen-title = Dalikt jaunus teikumus
+sc-howto-addsen-item-1 = Vysim jiusu īsnīgtajim teikumim ir juoatbiļst <wikipediaLink>Publiskuo domena (CC-0) liceņzei</wikipediaLink>. Lai atbaļsteitu taidu dorbu īlikšonu, kurim nav publiskuos liceņzis, asam sataisejuši <cc0WaiverLink>Īguļdejuma leiguma formu</cc0WaiverLink> dorbim, kuru autortīseibu eipašnīks grib īsnēgt materialu Common Voice.
 sc-howto-cite-title = Kai nūruodeit olūtu
 sc-howto-cite-pre-1 = Ir svareigi nūruodeit, kur atrodot publiski daīmamūs tekstus, lai izasorguotu nu plagiata i ļautu sekuot leidza <copyrightIssuesLink>autortīseibu problemom</copyrightIssuesLink>. Ite ir puors veidi, kai varit citēt dorbu.
 sc-howto-cite-item-1 = Varit īkļaut teiklavītu, par pīmāru, "Common Voice - https://commonvoice.mozilla.org/"
