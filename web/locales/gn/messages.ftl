@@ -495,7 +495,7 @@ faq-why-my-lang-a =
     Common Voice ha’e peteĩ pyendavusu crowdsourcing rehegua, ha umi ñe’ẽ oñembojoapypaite omba’aporeíva rupive.
     ¡Rovy’aitereíta remoĩramo ne ñe’ẽ! <languageRequestLink>Eporandu emoĩ hag̃ua ne ñe’ẽ.</languageRequestLink>
 faq-what-quality-q = Mba’eichaitépa iporãva’erã ñe’ẽryapu ikatu hag̃uáicha oike kuaapy atýpe?
-faq-what-quality-a = Ore roipota Common Voice kuaapy’aty oguerekoha opaichagua ñe’ẽryapu ikatu hag̃uáicha tembiporu oikũmbýtava oje’éva chupe omba’apokuaa avei ka’aguýpe. Iporã oĩramo opaichagua ñe’ẽryapu, péichante oñembokatupyrýta avei tembiporu’i ojapoporã hembiapo ndohenduporãkuaáiramo jepe. Katu yvypóra oikũmbykuaava’erã oje’éva ñe’ẽryapu ñongatupyrépe.
+faq-what-quality-a = Ore roipota Common Voice kuaapy’aty orekoha opáichagua ñe’ẽryapu ikatu hag̃ua tembiporu oikũmbýtava oje’éva chupe omba’apokuaa avei ka’aguýpe. Iporã oĩramo opaichagua ñe’ẽryapu, péichante oñembokatupyrýta avei tembiporu’i ojapoporã hembiapo ndohenduporãkuaáiramo jepe. Katu yvypóra oikũmbykuaava’erã oje’éva ñe’ẽryapu ñongatupyrépe.
 faq-why-10k-hours-q = Mba’érepiko pehupytyse 10,000 aravo ñe’ẽryapu ñongatupyre peteĩ ñe’ẽme?
 faq-why-10k-hours-a = Tembiporu’i ñe’ẽryapu oikũmbýva oikotevẽ upe tetakue ikatupyry hag̃ua ñe’ẽryapu jehaípe.
 faq-how-calc-hours-q = ¿Mba’éicha omboaje Common Voice aravokuéra?
@@ -571,7 +571,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = ¿Mba’éicha aiméta ñe’ẽme?
 about-stay-in-touch-button = Eñemboheraguapy
 about-stay-in-touch-text-1 = <emailFragment>Eñemboheraguapy</emailFragment> ore ñandutiveve rysýipe eikuaa hag̃ua mba’éichapa eikéta jekuaauka, tembiaporã ha tembiapoite Common Voice moha’ãngajeýpe.
-about-stay-in-touch-text-2 = Eikuaáta ambue tapichápe Mozilla rekoha ñe’ẽnguérape ejuajúvo <discourseLink>Discourse</discourseLink> oñeñomongeta hag̃ua térã <matrixLink>Matrix</matrixLink> eguereko hag̃ua ñemoñe’ẽ pya’e.
+about-stay-in-touch-text-2 = Eikuaáta ambue tapichápe Mozilla rekoha ñe’ẽnguérape ejuajúvo <discourseLink>Discourse</discourseLink> oñeñomongeta hag̃ua térã <matrixLink>Matrix</matrixLink> ereko hag̃ua ñemoñe’ẽ pya’e.
 about-nav-why-common-voice = ¿Mba’ére?
 about-nav-how-it-works = ¿Mba’e?
 about-nav-partners = Irũnguéra
@@ -594,7 +594,7 @@ about-playbook-how-add-language-content-1 = Ñepyrũrã, ehechajey ne ñe’ẽ 
 about-playbook-how-add-language-translating-heading = Omoñe’ẽasa tenda
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ehecha mba’éichapa eipurúta Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
-    Jaiporu peteĩ tembiporu Mozilla mba’e hérava <pontoonLink>Pontoon</pontoonLink> ñe’ẽmbohasarã. Pontoon oguereko heta ñe’ẽ,
+    Jaiporu peteĩ tembiporu Mozilla mba’e hérava <pontoonLink>Pontoon</pontoonLink> ñe’ẽmbohasarã. Pontoon oguereko hetaiterei ñe’ẽ,
     hákatu ndoguerekóiramo ne mba’éva ikatu <pontoonRequestLink>ejerure oñembojoapy hag̃ua ne ñe’ẽ</pontoonRequestLink>.
     Upéi, ojeguereko hag̃ua ñe’ẽ Common Voice apopyrãme,
     </githubRepoLink>ejerure ñe’ẽ pyahúre GitHub-pe</githubRepoLink>. <localizationFragment>Ehechave tenda ñe’ẽasápe</localizationFragment>.
