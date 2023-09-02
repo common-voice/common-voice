@@ -685,7 +685,7 @@ de-identified-explanation = O proçesso pe mezo do quæ e informaçioin do prof�
 
 error-title-404 = Nisciuña pagina trovâ
 error-content-404 = Fòscia ti veu anâ in sce l’<homepageLink>intrâ</homepageLink>? Pe fâ unna domanda, pe piaxei intra inta <matrixLink>chat da communitæ in sce Matrix</matrixLink>, ammia i problemi za conosciui pe mezo de <githubLink>GitHub</githubLink> ò donca vanni in sciô <discourseLink>forum Discourse</discourseLink>.
-error-title-503 = Gh’é stæto unn’interruçion do servixo improvvisto
+error-title-503 = Gh’é stæto unn’interruçion do servixo improvvista
 error-content-503 = O scito o tornià o ciù fito che se peu. Pe e urtime notiçie, pe piaxei intra inta <matrixLink>chat da communitæ in sce Matrix</matrixLink>, ò donca vixita <githubLink>GitHub</githubLink> ò <discourseLink>o forum Discourse</discourseLink> per segnalâ ò saveine de ciù in scî problemi de fonçionamento do scito.
 error-code = Errô { $code }
 
