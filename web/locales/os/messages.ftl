@@ -559,6 +559,7 @@ about-get-involved-text-2 =
     Иттӕг хорз! Æрфысс нæм эл. посты ууылты кӕнӕ <discourseLink>Discourse-ы</discourseLink> форумтӕм, фехъусын нын кӕн фарсы проблемӕтӕ <githubLink>GitHub-ы</githubLink> ууылты, кӕнӕ баиу у <matrixLink> Matrix-ы</matrixLink> ӕхсӕнады чаты.
 about-stay-in-touch = Куыд баззайон уӕ уылӕныл?
 about-stay-in-touch-button = Регистраци
+about-stay-in-touch-text-1 = <emailFragment>Дæхи бафысс</emailFragment> нæ посты номхыгъдмæ, цæмæй зонай, дæ бон куыд у хайад исын камапанитæ, мадзæлттæ æмæ иумæйаг бакуысты Common Voice-ы.
 about-stay-in-touch-text-2 = Mozilla-йы ӕндӕр ӕвзӕгты архайджытимæ дӕ бон у базонгӕ уын: <discourseLink>Discourse-ы</discourseLink> темæтæм гæсгæ уынаффӕ кӕныны тыххӕй кӕнӕ <matrixLink>Matrix-ы</matrixLink> тагъд дзуаппы тыххӕй.
 about-nav-why-common-voice = Цæмæй?
 about-nav-how-it-works = Куыд?
