@@ -572,6 +572,7 @@ about-nav-playbook = Базон, дæхи куыд бафтауай архайд
 ## What is a language
 
 about-playbook-what-is-language = Common Voice-ы цы у ӕвзаг?
+about-playbook-what-is-language-content-1 = Æвзаг цы у, уый зын у сбӕрӕг кӕнын. Common Voice-мæ гæсгæ, ныхас иртасæн модельтæ аразгæйæ хъуамæ хъуыды кæнæм, иу æвзагыл дзурæг адæм кæрæдзи хорз æмбарынц æви нæ.
 about-playbook-what-is-language-content-2 = Мах фæнды, цæмæй хъæлæсы модельтæ æмбарой дзурджыты фæтæн зылд. Уый тыххæй хъæлæсон рардты æмбырд хъуамæ бирæ алыхуызон адæмы равдиса.
 
 ## How do I add a language
