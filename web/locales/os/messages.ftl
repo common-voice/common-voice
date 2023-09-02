@@ -653,10 +653,14 @@ glossary = Глоссарий
 localization = Локализаци
 localization-explanation = Ай у нæ тæлмацы процесс æмæ нæ контенты адаптаци бирӕ æвзæгтæн.
 sentence-collection-explanation = Хъуыдыйæдты æмбырд æхсæнады хæзнатæй кæнæ ног ныффыст æхсæнады хæзнатæн.
+sst = Ныхас-текстмæ
+de-identified = Æгоймагконд
+de-identified-explanation = Бархионы профилы информаци йæ хъæлæсон фыстытæй аиуварсгонд куы вæййы, уыцы процесс, фыстытæ æвгæнынмæ цæттæ куы кæнæм, уæд.
 
 ## Error pages
 
 error-title-404 = Махæн нæ бантысти ссарын дӕуӕн уыцы фарс
+error-content-404 = Чи зоны, баххуыс кæна нæ <homepageLink>сæйраг фарс</homepageLink>? Цæмæй нæм фарст раттай, дæ хорзæхæй бафтау дæхи <matrixLink>Чаты къорд Matrix-мæ</matrixLink>, дæ хъус дар дæ проблемæтæм нæ сайты ууылты <githubLink>GitHub</githubLink> кæнæ абæрæг кæн <discourseLink>нæ Discourse-форумтæ</discourseLink>.
 error-title-503 = Сервер дзуапп нӕ дӕтты
 error-code = Рæдыд { $code }
 
@@ -664,6 +668,7 @@ error-code = Рæдыд { $code }
 
 data-download-yes = О
 data-download-deny = Нæ
+data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
 release-version = Фæлтæр
 dataset-date = Датæ
 license = Лицензи: { $license }
