@@ -683,15 +683,20 @@ data-download-deny = Нæ
 data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
 data-download-modal = <size>{ $size } ГБ</size> равгæныны æввонг дæ, уый дæ фæнды?
 data-subtitle = Мах фӕлдисӕм гом ӕмӕ иумӕйаг хъӕлӕсон рардты хæрх, цӕмӕй алы адӕймагӕн дӕр пайда уа сахуыр кӕнын хъӕлӕс раиртасыны программӕтæ.
+data-explanatory-text = Мах уырны, ӕмӕ егъау иумӕйаг хъӕлӕсон рардты ӕмбырд цырын кӕны инновацитӕ ӕмӕ нормалон коммерцион конкуренци машинӕ-ахуыргонд технологитӕ хъӕлӕс раиртасынӕн. Уый у глобалон хъӕппӕрис, ӕмӕ мах алкӕйдӕр хонӕм хайад райсын. Нӕ нысан у — баххуыс кӕнын хъӕлӕсон технологитӕн алырдыгон уӕвын ӕмӕ  раиртасын дунейы алыхуызон хъӕлӕстӕ.
+data-other-title = Ӕндӕр хъӕлӕсон рардты ӕмбырдтӕ…
 release-version = Фæлтæр
 dataset-date = Датæ
 license = Лицензи: { $license }
+license-mixed = Хӕццӕ
 review-terms = Common Voice-ӕй пайда кӕнгӕйӕ, ды разы кӕныс нӕ <termsLink> Пайда кӕныны бадзырдимӕ</termsLink> ӕмӕ </privacyLink> Хъусынгӕнинаг конфиденциалондзинады тыххӕй</privacyLink>
 terms-agree = Æз разы кæнын
 terms-disagree = Æз нæ разы кæнын
 review-submit-title = Бафӕлварын ӕмӕ Арвитын
 review-recording = Бафæлварын
 review-rerecord = Ногæй ныффысс
+review-cancel = Аив ӕрвыст
+review-delete-recordings = Сыхал мӕ ныффыстытӕ
 
 ## Datasets Page
 
@@ -700,6 +705,7 @@ language = Æвзаг
 download-dataset-header = Равгæн датасет
 # File size in gigabytes
 size = Бæрц
+overall-hr-total = Ӕдӕппӕт сахæттæ
 cv-license = Лицензи
 audio-format = Аудио формат
 number-of-voices = Хъæлæсты нымæц
