@@ -141,7 +141,7 @@ wall-of-text-start = Bolss ir dabisks, bolss ir ciļvieceigs. Deļtuo mes gribim
 wall-of-text-more-mobile = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daīmami vysim cylvākim. Tys kavej inovaceju. Deļtuo asam uzsuokuši Common Voice projektu, kas padareis bolsa atpazeišonu daīmamu sevkuram.
 wall-of-text-more-desktop = Niu jius varit pazīduot sovu bolsu, lai paleidzātu mums sataiseit atvārtuo pyrmkoda bolsa datubazi, kū var lītuot sevkurs, taisūt inovativys lītuotnis īreicem i teiklavītai. Skaitit teikumu, lai paleidzātu mašynom īvuiceit, kai runoj cylvāki. Puorbaudit cytu cylvāku īrokstus, lai uzlabuotu datu kvalitati. Tys ir tik vīnkuorši!
 wall-of-text-first = Bolss ir dabiskys, bolss ir ciļvieceigs. Taišni deļtuo mes gribim sataiseit bolsa atpazeišonys tehnologeju, kuru varātu lītuot dažaiduos īreicēs. Bet, lai radeitu itaidu bolsa tehnologeju, ir vajadzeigs daudz bolsa īrokstu.
-wall-of-text-second = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daeimami vysim cylvākim. Mes dūmojam, ka tys kavej inovaceju, deļtuo asam aizsuokuši Common Voice - projektu, ka padareis bolsa atpazeišonu daeimamu sevkuram.
+wall-of-text-second = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daīmami vysim cylvākim. Mes dūmojam, ka tys kavej inovaceju, deļtuo asam aizsuokuši Common Voice - projektu, ka padareis bolsa atpazeišonu daīmamu sevkuram.
 show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
 help-us-explain = Nūmīdzīt atskaņuošonys pūgu, klausotēs i puorbaudit, voi zamuok nūruodeitais teikums ir izrunuots precizai.
@@ -411,7 +411,7 @@ about-header-description-v2 =
     <p>Common Voice ir publiski daīmama bolsa datu kūpa, kū veidoj breivpruoteigūs bolsi vysā pasaulī. Cylvāki, kuri grib taiseit programys, kas struodoj ar bolsu, var lītuot datu kūpu, lai apvuiceitu runys atpazeišonys modeļus.</p>
     <p>Itūšaļt leluokuo daļa bolsa datu kūpu pīdar atseviškim uzjāmumim, kas kavej inovacejis. Volūdys ar mozu runuotuoju skaitu pasaulī bolsa datu kūpuos ir napīteikami puorstuovātys. Tys zeimoj, ka tehnologejis, kas struodoj ar bolsu, itamuos volūduos nasadorboj voi struodoj švaki. Mes gribim tū maineit, mobilizejūt cylvākus vysā pasaulī, lai jī pasadaleitu ar sovu bolsu i puorbaudeitu īraksteitūs teikumus.</p>
 how-does-it-work-title-v2 = Kai dorbojās Common Voice?
-how-does-it-work-text = Mes pasūlejam atkluotu i breivi daeimamu datu kūpu. Pazīdojit sovu bolsu, apstyprynojit cytu cylvāku īrokstus, uzlobojit datu kūpu deļ vysu.
+how-does-it-work-text = Mes pasūlejam atkluotu i breivi daīmamu datu kūpu. Pazīdojit sovu bolsu, apstyprynojit cytu cylvāku īrokstus, uzlobojit datu kūpu deļ vysu.
 
 ## How does it work section
 
@@ -586,7 +586,7 @@ data-download-yes = Nui
 data-download-deny = Nā
 data-download-license = Liceņze: <licenseLink> CC-0 </licenseLink>
 data-download-modal = Jius gatavejitēs zamynluodēt <size>{ $size }GB</size>, turpynuot?
-data-subtitle = Mes veidojam atkluotu i publiski daeimamu bolsa datu kūpu, kū sevkurs var lītuot, lai apvuiceitu runys lītuojumprogramys.
+data-subtitle = Mes veidojam atkluotu i publiski daīmamu bolsa datu kūpu, kū sevkurs var lītuot, lai apvuiceitu runys lītuojumprogramys.
 data-explanatory-text = Mēs dūmojam, ka lelys i publiski daīmamys datu kūpys veicynoj inovaceju i veseleigu komercialu konkureņci mašynvuiceišonys baļsteitā runys tehnologejā. Tys ir globals dorbs, i mes aicynojam sevkuru pīsadaleit. Myusu mierkis ir paleidzēt runys tehnologejai byut īkļaujūšuokai, paruodūt vysaidu pasauļa bolsu daudzveideibu.
 data-get-started = <speechBlogLink>Dorba suokšona ar runys atpazeišonu</speechBlogLink>
 data-other-title = Citys bolsa datu kūpys…
@@ -661,7 +661,7 @@ community-playbook = Kūpīnys rūkysgruomota
 resource-playbook-info = <playbookLink>Atrūnit dereigus nūruodejumus</playbookLink> par vysu Common Voice ceļuojumu, suocūt nu lokalizacejis da datu kūpys lītuošonai, kai ari par tū, kai sasazynuot ar myusu kūpīnu.
 data-other-librispeech-description = LibriSpeech ir apmāram 1000 stuņžu 16Khz ar angļu volūdys runu, kas dabuota nu LibriVox projektā skaiteitajom audio gruomotom.
 data-other-ted-name = TED-LIUM korpuss
-data-other-ted-description = TED-LIUM korpuss tyka sataiseits nu audio īrokstu i tūs transkripceju, kas daeimamys TED teiklavītā.
+data-other-ted-description = TED-LIUM korpuss tyka sataiseits nu audio īrokstu i tūs transkripceju, kas daīmamys TED teiklavītā.
 data-other-voxforge-description = VoxForge tyka sataiseits, lai savuoktu transkrybātu runu lītuošonai bezmoksys i atvārtuo koda runys atpazeišonys dziniejūs.
 data-other-tatoeba-description = Tatoeba ir plota teikumu, tulkuojumu i runys audio datu baze, kas lītojama volūdu apgivei. Itei zamynluode satur runuotuos angļu volūdys īrokstus, kū registrej jūs kūpīna.
 your-feedback = Voi jums ir idejis, kai mes varim padareit lobuoku Common Voice datu kūpu? Informejit myus par tū Discourse servisā
