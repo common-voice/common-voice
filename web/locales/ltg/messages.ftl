@@ -1149,7 +1149,7 @@ sc-home-review-text = Paleidzit mums, puorsaverūt teikumu pareizraksteibu saska
 
 ## GENERAL
 
-sc-languages-fetch-error = Mums naizadeve atrast daeimamuos volūdys. Struoduošona ar lopu itamā šaļtī nav varama. Lyudzu, raugit vēļreiz nadaudz vāluok.
+sc-languages-fetch-error = Mums naizadeve atrast daīmamuos volūdys. Struoduošona ar lopu itamā šaļtī nav varama. Lyudzu, raugit vēļreiz nadaudz vāluok.
 
 ## HOW-TO
 
@@ -1167,7 +1167,7 @@ sc-howto-addsen-post-1 = Mes dūdam prīškrūku dabiskim/sarunvolūdys teikumim
 sc-howto-cite-title = Kai nūruodeit olūtu
 sc-howto-cite-pre-1 = Ir svareigi nūruodeit, kur atrodot publiski daīmamūs tekstus, lai izasorguotu nu plagiata i ļautu sekuot leidza <copyrightIssuesLink>autortīseibu problemom</copyrightIssuesLink>. Ite ir puors veidi, kai varit citēt dorbu.
 sc-howto-cite-item-1 = Varit īkļaut teiklavītu, par pīmāru, "Common Voice - https://commonvoice.mozilla.org/"
-sc-howto-cite-item-2 = Varit lītuot akademiskū atsaucis stylu, par pīmāru, Hārvardys stylu "Mozilla (2021) Common Voice. Daeimams teiklavītā https://commonvoice.mozilla.org/ (Datikšona: 2021. goda 15. septembrī)"
+sc-howto-cite-item-2 = Varit lītuot akademiskū atsaucis stylu, par pīmāru, Hārvardys stylu "Mozilla (2021) Common Voice. Daīmams teiklavītā https://commonvoice.mozilla.org/ (Datikšona: 2021. goda 15. septembrī)"
 sc-howto-cite-item-3 = Publiskuo domena tekstam, kas nav daīmams tīšsaistē, varit lītuot akademiskū atsaucis stylu, par pīmāru, Hārvardys stylu "Jess (2021) My Public licence poems"
 sc-howto-review-title = Puorsaverit teikumus
 sc-howto-review-subtitle = Puorsalīcynojit, voi teikums atbiļst itaidim kriterejim:
