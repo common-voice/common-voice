@@ -177,7 +177,7 @@ const Review: React.FC<Props> = ({ getString }) => {
             data-testid="skip-button">
             <SkipIcon />
             <Localized id="skip">
-              <span />
+              <span className="skip-text" />
             </Localized>{' '}
           </Button>
           <VoteButton
