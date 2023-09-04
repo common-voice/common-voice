@@ -25,8 +25,12 @@ export const setupUpdateValidatedSentencesQueue = () => {
     ),
     IO.chainFirst(attachEventHandlerToQueue('error')(console.error)),
     IO.chainFirst(attachEventHandlerToQueue('failure')(console.error)),
-    IO.chainFirst(attachEventHandlerToQueue('completed')(() => console.log(`Finished ${UPDATE_VALIDATED_SENTENCES_JOB} job`))),
-    IO.map(
+    IO.chainFirst(
+      attachEventHandlerToQueue('completed')(() =>
+        console.log(`Finished ${UPDATE_VALIDATED_SENTENCES_JOB} job`)
+      )
+    ),
+    IO.chainFirst(
       addJobToQueue({ name: UPDATE_VALIDATED_SENTENCES_JOB })({
         repeat: { cron: REPEAT_EVERY_HOUR },
       })
