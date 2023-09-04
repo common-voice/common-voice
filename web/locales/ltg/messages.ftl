@@ -28,20 +28,41 @@ error-clip-upload-server = Ituo īroksta augšynluode serverī vys vēļ naizad�
 ## Languages
 
 ab = Abhazīšu
+ace = Acehnese
+ady = Adyghe
+af = Afrikaņu
+am = Amharu
+an = Aragonese
 ar = Arabu
 arn = Mapudungun
+as = Assamese
+ast = Asturīšu
 az = Azeirbaidžanu
 ba = Baškiru
+bas = Basaa
 be = Boltkrīvu
 bg = Bulgaru
 bm = Bambaru
+bn = Bengaļu
+bo = Tibetīšu
+br = Bretoņu
 bs = Bosnīšu
+bxr = Burjatu
+byv = Medumba
 ca = Katalaņu
+cak = Kaqchikel
+ckb = Central Kurdish
+cnh = Hakha Chin
+co = Korsikāņu
 cs = Čehu
 cv = Čuvašu
 cy = Velsīšu
 da = Dāņu
+dag = Dagbani
 de = Vuocu
+dsb = Sorbian, Lower
+dv = Dhivehi
+dyu = Dioula
 el = Grīķu
 en = Angļu
 eo = Esperanto
@@ -49,6 +70,7 @@ es = Spāņu
 et = Igauņu
 eu = Basku
 fa = Persīšu
+ff = Fulah
 fi = Suomu
 fo = Feru
 fr = Fraņču
@@ -56,6 +78,8 @@ fy-NL = Frizu
 ga-IE = Īru
 gl = Galisīšu
 gn = Guaranu
+gom = Goan Konkani
+ha = Hausa
 he = Ebreju
 hi = Hindi
 hil = Hiligaņu
@@ -73,6 +97,7 @@ is = Islandīšu
 it = Itāļu
 izh = Ižoru
 ja = Japanīšu
+jbo = Lojban
 ka = Gruzinu
 kaa = Karakalpaku
 kab = Kabilu
@@ -80,32 +105,120 @@ kbd = Kabardīšu
 ki = Kikujīšu
 kk = Kazahu
 km = Khmeru
+kmr = Kurmanji Kurdish
+kn = Kannada
+knn = Konkani (Devanagari)
 ko = Korejīšu
+kpv = Komi-Zyrian
+kw = Cornish
 ky = Kirgizu
 lb = Luksemburdzīšu
+lg = Luganda
+lij = Ligurian
+ln = Lingala
+lo = Lao
 lt = Leitovīšu
 ltg = Latgalīšu
 lv = Latvīšu
+mai = Maithili
+mdf = Moksha
+mg = Malagasy
+mhr = Meadow Mari
+mk = Makedonīšu
+ml = Malayalam
 mn = Mongoļu
+mni = Meetei Lon
+mos = Mossi
+mr = Marathi
+mrj = Hill Mari
+ms = Malay
+mt = Maltīšu
+my = Birmīšu
+myv = Erzya
+nan-tw = Taiwanese (Minnan)
+nb-NO = Norvegu būkmols
+nd = IsiNdebele (North)
+ne-NP = Nepalīšu
+nhe = Eastern Huasteca Nahuatl
+nhi = Western Sierra Puebla Nahuatl
+nia = Nias
 nl = Holandīšu
+nn-NO = Jaunnorveģu volūda
+nr = IsiNdebele (South)
+nso = IsiNdebele (South)
+ny = Chinyanja
+nyn = Runyankole
+oc = Occitan
+om = Afaan Oromo
+or = Odia
+pa-IN = Pandžabu
+pap-AW = Papiamento (Aruba)
 pl = Pūļu
 ps = Puštu
 pt = Portugaļu
+quc = K'iche'
+quy = Quechua Chanka
+rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
+ro = Rumaņu
 ru = Krīvu
+rw = Kinyarwanda
+sah = Sakha
+sat = Santali (Ol Chiki)
+sc = Sardinīšu
+scn = Sicilīšu
+sdh = Southern Kurdish
+shi = Shilha
+si = Sinhala
+sk = Slovaku
+skr = Saraiki
 sl = Sloveņu
+snk = Soninke
+so = Somalīšu
+sq = Albaņu
 sr = Serbu
 ss = Sisvatu
 st = Dīnvydsoto
 sv-SE = Zvīdru
+sw = Svahilīšu
+syr = Sīrīšu
+ta = Tamil
+te = Telugu
+tg = Tadžiku
+th = Taizemīšu
+ti = Tigrinya
+tig = Tigre
+tk = Turkmeņu
+tl = Tagalog
+tn = Setswana
+tok = Toki Pona
 tr = Turku
+ts = Xitsonga
 tt = Tataru
+tw = Twi
+ty = Tahitian
+tyv = Tuvan
+uby = Ubykh
+udm = Udmurtu
+ug = Uyghur
 uk = Ukraiņu
 ur = Urdu
 uz = Uzbeku
+ve = Tshivenda
+vec = Venecīšu
 vi = Vjetnamīšu
+vot = Votic
+wo = Wolof
+xh = Xhosa
 yi = Jidišs
 yo = Jorubu
+yue = Cantonese
+zgh = Tamazight
+zh-CN = Kinīšu (Kīna)
+zh-HK = Kinīšu (Honkonga)
+zh-TW = Kinīšu (Taivana)
 zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -141,7 +254,7 @@ wall-of-text-start = Bolss ir dabisks, bolss ir ciļvieceigs. Deļtuo mes gribim
 wall-of-text-more-mobile = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daīmami vysim cylvākim. Tys kavej inovaceju. Deļtuo asam uzsuokuši Common Voice projektu, kas padareis bolsa atpazeišonu daīmamu sevkuram.
 wall-of-text-more-desktop = Niu jius varit pazīduot sovu bolsu, lai paleidzātu mums sataiseit atvārtuo pyrmkoda bolsa datubazi, kū var lītuot sevkurs, taisūt inovativys lītuotnis īreicem i teiklavītai. Skaitit teikumu, lai paleidzātu mašynom īvuiceit, kai runoj cylvāki. Puorbaudit cytu cylvāku īrokstus, lai uzlabuotu datu kvalitati. Tys ir tik vīnkuorši!
 wall-of-text-first = Bolss ir dabiskys, bolss ir ciļvieceigs. Taišni deļtuo mes gribim sataiseit bolsa atpazeišonys tehnologeju, kuru varātu lītuot dažaiduos īreicēs. Bet, lai radeitu itaidu bolsa tehnologeju, ir vajadzeigs daudz bolsa īrokstu.
-wall-of-text-second = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daeimami vysim cylvākim. Mes dūmojam, ka tys kavej inovaceju, deļtuo asam aizsuokuši Common Voice - projektu, ka padareis bolsa atpazeišonu daeimamu sevkuram.
+wall-of-text-second = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daīmami vysim cylvākim. Mes dūmojam, ka tys kavej inovaceju, deļtuo asam aizsuokuši Common Voice - projektu, ka padareis bolsa atpazeišonu daīmamu sevkuram.
 show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
 help-us-explain = Nūmīdzīt atskaņuošonys pūgu, klausotēs i puorbaudit, voi zamuok nūruodeitais teikums ir izrunuots precizai.
@@ -190,7 +303,7 @@ email-subscription-title-new = Registrejitēs Common Voice viestim, atguodynuoju
 ## Account Benefits
 
 benefits = Īgivumi
-rich-data = Padorit sovus īsnāgtūs datus piec vareibys kvalitativuokus, dūdūt puors anonimus demografiskūs datus. Pyrma tū publiskuošonys mes atdaleisim vysus demografisku informaceju nu jiusu ideņtitatis.
+rich-data = Padorit sovus īsnāgtūs datus piec vareibys kvalitativuokus, dūdūt puors anonimus demografiskūs datus. Pyrma tūs publiskuošonys mes atdaleisim vysu demografiskū informaceju nu jiusu ideņtitatis.
 improve-audio = Profila informaceja padora lobuokus audio īrokstu datus, kū lītoj runys atpazeišonys precizitatis apvuiceibā.
 keep-track = Sekojit leidza sovam progresam i datim vairuokuos volūduos.
 compare-progress = Veritēs, kai jiusu progress ir saleidzynoms ar cytim īguļdeituojim vysā pasaulī.
@@ -346,30 +459,59 @@ change-email-setings = Mainit sovu e-postu, lītojūt īstatejumu sadaļu "Pīsa
 
 faq-title = Bīžuok aizdūtī vaicuojumi
 faq-what-cv-q = Kas ir Common Voice?
+faq-what-cv-a =
+    Bolsa atpazeišonys tehnologeja revolucionizej veidu, kai mes sasadorbojam ar mašynom, bet itūšaļt daīmamuos sistemys ir duorgys i patentātys. Common Voice ir daļa nu Mozilla iniciativys, lai izlobuotu bolsa atpazeišonys tehnologejis sevkuram. Common Voice ir miļzeiga globala pazīduotū bolsu datu baze, kas ļaun sevkuram dreiži i vīglai apvuiceit bolsa īspiejuotys lītuojumprogramys potenciali vysuos volūduos.
+    Mes na tik vuocam bolsa paraugus plotai runuotuos volūduos, bet ari tymuos, kuruos ir mozuok runuotuoju. Vysaideigu bolsa datu kūpu publiciešona ļaus izstruoduotuojim, uzjiemiejim i kūpīnom rysynuot itū tryukumu. Papyldu Common Voice datu kūpai mes taisam ari valejuo pyrmkoda runys atpazeišonys dzinieju, kū sauc par Deep Speech.
+faq-what-cv-a-2 =
+    Bolsa atpazeišonys tehnologeja pamaina veidu, kai mes mejīdorbojamīs ar īkuortom, tok itūšaļt daīmamuos sistemys ir duorgys i patentātys. Mozilla Common Voice ir iniciativa, lai padareitu bolsa atpazeišonys tehnologejis lobuokys i daīmamys sevkuram. Common Voice ir globala pazīduotū bolsu datu baze, kas ļaun sevkuram dreiži i vīnkuorši apvuiceit ar bolsu darbynomys lītuotnis vysaiduos volūduos.
+    Mes na tik vuocam bolsa paraugus plotai runuotuos volūduos, bet ari tymuos, kuruos runuotuoju skaits ir mozuoks. Vysaideigu bolsu datu kūpys publiciešona ļaus izstruoduotuojim, uzjiemiejim i kūpīnom pošom nūvierst napiļneibys volūdu bolsa tehnologeju atbolstā vysaiduos volūduos.
 faq-why-important-q = Deļkuo tys ir svareigi?
+faq-why-important-a =
+    Runa bīži viņ ir vysdabiskuokais veids, kai mes sasazynojam sovstarpeigai, i bolsa tehnologejis nūdrūsynoj itū parūceibu myusu datorim i mobilajom īkuortom. Mes gribim dūt vareibu izstruoduotuojim taiseit breineigys bolsa atpazeišonys lītuojuma programys, par pīmāru, realuo laika tulkuotuojus i bolsa īspiejuotus digitalūs paleigus. Bet niu leluokuo daļa bolsa datu, kas vajadzeigi, lai sataiseitu itaida veida lītuojuma programys, ir duorgi i patentāti. Mums ticīs, ka Common Voice datu kūpa dūd izstruoduotuojim tū, kas jim ir vajadzeigs, lai īdzeivynuotu jaunynuojumus i padareitu runys tehnologeju daīmamu sovā volūdā.
+    
+    Lai padareitu bolsa atpazeišonu vēļ universaluoku, mes savuocam bolsa paraugus plotai runuotuos volūduos, kai ari tamuos volūduos, kuruos ir mozuoks runuotuoju skaits i kū bīži aizmierst komerciali runys atpazeišonys pakolpuojumi. Daudzveideigu bolsu datu kūpu publiciešona ļaus izstruoduotuojim, uzjiemiejim i vysai runys kūpīnai pošim atrysynuot itū plaisu.
 faq-how-get-q = Kai es varu dabuot Common Voice datus?
 faq-how-get-a = Common Voice datu kūpa ir daīmama zamynluodei, lītojūt <licenseLink> CC0 </licenseLink> liceņzi lopā <datasetLink>datu kūpa</datasetLink>. Jius itamā lopā varit zamynluodēt ari vairuokys cytys publiski daīmamys datu kūpys.
 faq-when-release2-q = Kod jius publicēsit Common Voice datus cytuos volūduos?
+faq-when-release2-a = Common Voice datu kūpys vairuokvolūdu versejā itūšaļt nūteik kūpīnys atbaļsteita komplektiešona i teireišona. Ka gribit paleidzēt mums Common Voice daslēgt jaunom volūdom, ejit iz <sentenceCollectorLink> teikumu savuokšonys reiku </sentenceCollectorLink>, lai datu kūpai dalyktu jaunus teikumus, i Mozilla <pontoonLink> pontons </pontoonLink> teiklavītys tulkuošanai. Kod ir salaseiti 5000 apstyprynuoti teikumi, Common Voice teik dalyktys jaunys volūdys.
 faq-why-mission-q = Deļkuo Common Voice ir daļa nu Mozilla misejis?
+faq-why-mission-a = Mozilla dūmoj par tū, lai teiklavīta byutu valeja i daīmama sevkuram. Lai tū padareitu, mums ir juodūd teiklavītys veiduotuojim vaira īspieju, rodūt taidus projektus kai Common Voice. Aiztuo ka bolsa tehnologejis izaplota uors nišys programu, mes dūmojam, ka tom ir juokolpoj vīnaiž vysim lītuotuojim. Tys zeimoj īguļdeit vairuokuos volūduos i damāruot dažaidus akcentus i demografiskūs datus, taisūt i testejūt bolsa tehnologejis. Common Voice ir publiskys resurss, kas daīmams vysim, i Mozilla komandys i izstruoduotuoji vysā pasaulī jau tū lītoj myusu pošu projektūs.
 faq-what-cv-and-deepspeech-q = Kaida atškireiba storp Common Voice i Deep Speech?
+faq-what-cv-and-deepspeech-a = Common Voice datu kūpa papyldynoj Mozilla valejuo koda bolsa atpazeišonys dzinieju Deep Speech. Pyrmuo Deep Speech verseja tyka izlaista 2017. goda novembrī i turpynoj atsateisteit nu tuo laika. Kūpā ar Common Voice datu kūpu mes turam, ka atvārtuo pyrmkoda bolsa atpazeišonys tehnologejai juobyut daīmamai sevkuram. Mums ticīs, ka ituos tehnologejis ļaus izstruoduotuojim sataiseit inovativu produktu i pakolpuojumu viļni.
 faq-is-goal-assistant-q = Voi Common Voice mierkis ir taiseit bolsa asistentu?
+faq-is-goal-assistant-a = Common Voice datu kūpys mierkis ir ļaut sevkuram pasaulī taiseit runys atpazeišonu, runuotuoju atpazeišonu voi vysleidza kaida cyta veida lītuojumprogramu, kas struodoj ar bolsa datim. Bolsa paleigs ir tikai vīns nu daudzu lītuojumprogramu veidu, kurus var taiseit ar itū datu kūpu.
 faq-do-want-native-q = Itei nav muna dzymtuo volūda i es runoju ar akcentu, voi jums vys tik vajag muna bolsa īrokstus?
+faq-do-want-native-a = Nui, mes eipaši gribim jiusu bolsu! Common Voice mierkis ir apkūpuot piec vareibys vaira vysaidu akcentu, lai bolsa atpazeišonys pakolpuojumi struoduotu vīnaiži labi vysim. Tys zeimoj, ka eipaši nūzeimeigi ir zīduojumi nu cyvlāku, kurim itei volūda nav dzymtuo volūda.
 faq-why-different-speakers-q = Deļkuo jums ir vajadzeigs tik daudz dažaidu vīnys volūdys runuotuoju?
+faq-why-different-speakers-a =
+    Leluokuo daļa runys datu bažu teik apvuiceitys ar puors demografiskū datu puormiereigu paruodeišonu, kas roda nūvierzi attīceibā iz <articleLink>vydsškiru i veirīšim</articleLink>. Akcenti i dialekti, kas parostai ir napītīkūši puorstuovāti vuiceibu datu kūpuos, ir saisteiti ar cylvāku grupom, kurys jau tai ir atstumtys. Daudzom mašynom ari ir gryuts saprast sīvīšu bolsus.
+    Deļtuo myusu bolsa datu bazē mes gribim vysaideibu!
 faq-why-my-lang-q = Deļkuo muna volūda vēļ nav dalykta?
 faq-why-my-lang-a =
     Common Voice ir sabīdreibys īsaistis platforma, i vysys volūdys dalīk breivpruoteigī.
     Mes lobu pruotu dalyktu jiusu volūdu! <languageRequestLink>Vaicojit par volūdys dalikšonu.</languageRequestLink>
 faq-what-quality-q = Kaida leimiņa audio kvalitate ir vajadzeiga, lai bolsa īrokstu varātu lītuot datu kūpā?
+faq-what-quality-a = Mes gribim, lai Common Voice datūs pasaruodeitu taida skanis kvalitate, kū runys-teksta programa saprūt dabiskā vidē, deļtuo ir vajadzeiga daudzveideiba. Atškireigā skanis kvalitatē īraksteiti vysaideigi runuotuoju dati īvuiceis runys-teksta programai struoduot vysaiduos realuos situacejuos, par pīmāru, ar fona sarunom voi ar automobiļa trūksni. Cikom jiusu bolsa īroksts ir saprūtams, tys ir gona lobs datu kūpai.
 faq-why-10k-hours-q = Deļkuo īrokstu puorbaudis mierkis ir 10000 stuņžu?
 faq-why-10k-hours-a = Tys ir aptuvans stuņžu skaits, kas vajadzeigs, lai kvalitativi apvuiceitu runys-teksta atpazeišonys sistemu.
 faq-how-calc-hours-q = Kai Common Voice apriekinoj stuņdis?
 faq-how-calc-hours-a = Mes skaitom stuņdis, riekinojūt kotra īroksta videjū garumu, i tod reizynojam itū skaitu ar kūpejū īrokstu skaitu vysuos volūduos.
 faq-where-src-from-2-q = Nu kurīnis ir teksti īrokstim?
+faq-where-src-from-2-a =
+    Myusu teksti sastuov nu suoku zīduojumu, kai ari nu publiskuo domena filmu subtitru, par pīmāru, <italic>It’s a Wonderful Life</italic>.
+    
+    Jius varit apsavērt myusu teikumus itamā <githubLink> GitHub mapē </githubLink>.
 faq-why-not-ask-read-q = Deļkuo jius naprosit, lai cylvāki skaiteitu gruomotysa voi Wikipedia rokstus dažaiduos volūduos?
+faq-why-not-ask-read-a = Lai Common Voice datu kūpu padareitu piec vareibys dereiguoku, mes asam nūsprīduši atļaut tamā tikai tekstu, ka ir daīmams saskaņā ar Creative Commons (CC0) liceņzi. Lītojūt CC0 standartu, ir gryušuok atrast i savuokt tekstu, bet tys ļaun sevkuram lītuot dabuotūs bolsa datus bez lītuošonys īrūbežuojumu voi Mozilla atļaujis. Gols golā mes gribim padareit vairuokvolūdu datu bazi dereigu sevkuram, tamā vydā pietnīkim, universitatem, uzjāmumim, vaļdeibom, socialuo mierka organizacejom i vīnkuorši tehnologeju entuziastim.
 faq-why-account-q = Deļkuo maņ juosaregistrej?
 faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 faq-how-privacy-q = Kai jius nūdrūsynuosit tū cylvāku anonimitati i privatumu, kuri pazīduoja sovus bolsus?
+faq-how-privacy-a = Datu kūpys bolsa īrokstūs teik nūjimta vysa veida personu identificiejūša informaceja. Ka dalinīks sovā profilā ir devs demografiskūs datus, itei informaceja teik nūjimta nu juo bolsa īrokstu pyrma tī teik dalykti zamynluodei datu kūpā, i nikod nateik publicāta profila lopā.
 faq-what-determine-identity-q = Kū tys nūzeimoj, ka es “navaru nūsaceit runuotuoju ideņtitati Common Voice datu kūpā”?
+faq-what-determine-identity-a =
+    Common Voice kūpa ir valejs i publiski daīmams resurss, kū var lītuot, lai apvuiceitu dažaidys runys īspiejuotys lītuojuma programys. Lai aizsarguotu myusu dalinīku drūsumu, mes lyudzam sevkuru, kas zamynluodej Common Voice datu kūpu, īvāruot īguļdeituoju privatumu.
+    
+    Vysim datu kūpys bolsa īrokstim teik nūjimta personys identifikacejis informaceja. Zamynluodejūt datu kūpu, jius pīkreitat naraudzeit nūsaceit dalinīku identitati. Tys zeimoj, ka jius nadreikstit raudzeit saisteit informacejis kūpu ar īrunuotuoja personiskū informaceju. Vys tik jius varit lītuot datu kūpu, lai apvuiceitu runys atpazeišonu, runuotuoju atpazeišonu voi cytys lītuojuma programys, par pīmāru, saistūt informaceju datu kūpā ar cytu informaceju, kas jau atsarūn datu kūpā.
 faq-what-is-cv = Kas ir Common Voice?
 faq-using-cv = Common Voice lītuošona
 faq-description = Common Voice ir daļa nu Mozilla iniciativys, lai paleidzātu vuiceit mašynys, kai reali cylvāki runoj.
@@ -379,8 +521,11 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Deļkuo ir Common Voice?
+about-header-description-v2 =
+    <p>Common Voice ir publiski daīmama bolsa datu kūpa, kū veidoj breivpruoteigūs bolsi vysā pasaulī. Cylvāki, kuri grib taiseit programys, kas struodoj ar bolsu, var lītuot datu kūpu, lai apvuiceitu runys atpazeišonys modeļus.</p>
+    <p>Itūšaļt leluokuo daļa bolsa datu kūpu pīdar atseviškim uzjāmumim, kas kavej inovacejis. Volūdys ar mozu runuotuoju skaitu pasaulī bolsa datu kūpuos ir napīteikami puorstuovātys. Tys zeimoj, ka tehnologejis, kas struodoj ar bolsu, itamuos volūduos nasadorboj voi struodoj švaki. Mes gribim tū maineit, mobilizejūt cylvākus vysā pasaulī, lai jī pasadaleitu ar sovu bolsu i puorbaudeitu īraksteitūs teikumus.</p>
 how-does-it-work-title-v2 = Kai dorbojās Common Voice?
-how-does-it-work-text = Mes pasūlejam atkluotu i breivi daeimamu datu kūpu. Pazīdojit sovu bolsu, apstyprynojit cytu cylvāku īrokstus, uzlobojit datu kūpu deļ vysu.
+how-does-it-work-text = Mes pasūlejam atkluotu i breivi daīmamu datu kūpu. Pazīdojit sovu bolsu, apstyprynojit cytu cylvāku īrokstus, uzlobojit datu kūpu deļ vysu.
 
 ## How does it work section
 
@@ -413,6 +558,10 @@ about-no-votes-text = Ka lītuotuojs nūraida bolsa īrokstu, tys atsagrīž ryn
 about-dataset-new = Bolsa datu kūpa
 about-dataset-new-text = Common Voice datu kūpai ir symtim tyukstūšys bolsa paraugu, kas paleidz izstruoduotuojim sataiseit bolsa atpazeišonys reikus.
 about-clip-graveyard = Īrokstu kopsāta
+about-clip-graveyard-text =
+    Īrokstu kopsāta sastuov nu bolsa īrokstu, kas natyka īlykti bolsa datu kūpā. Taipat kai datu kūpa, īrokstu kopsāta ir daīmama zamynluodei.
+    
+    Mes gribim pasaceit paļdis itaidim cylvākim i organizacejom par paleidzeibu projekta eistynuošonā:
 about-get-involved = Īsasaistit
 about-get-involved-text-2 =
     Gribit paleidzēt padareit Common Voice vēļ lobuoku?
@@ -433,7 +582,9 @@ about-nav-playbook = Izzynoj, kai pīsadaleit
 ## What is a language
 
 about-playbook-what-is-language = Kas ir volūda Common Voice sistemā?
+about-playbook-what-is-language-content-1 = Ir daudz veidu, kai dūmuot par volūdu. Runys atpazeišonys modeļu kontekstā Common Voice īsoka koncentrētīs iz "sovstarpeigū saprūtameibu" voi "voi ituos volūdys runuotuoji var saprast vīns ūtra, ka jī tū rauga?"
 about-playbook-what-is-language-content-2 = Mes gribim, lai runys modeli lobuok saprastu dažaidus runuotuojus. Lai tys nūtyktu, bolsa datu kūpai ir juoparuoda, kai runoj daudz vysaidu cylvāku.
+about-playbook-what-is-language-content-3 = Cytom volūdom ir miļzeigys gramatikys, vuordu kruojuma i izrunys atškireibys. Ituo īmesļa deļ mes 2022. godā <ctaLink>īvedem  ‘Variantus’</ctaLink>. Tys dūd kūpīnom atškiert sovys volūdys leluokā datu kūpā.
 
 ## How do I add a language
 
@@ -490,6 +641,7 @@ about-playbook-how-grow-language-content-1 = Atrūnūt vareibu vysaidim cylvāki
 about-playbook-how-grow-language-content-2 = Nūtikšonys
 about-playbook-how-grow-language-content-3 = Varit taiseit pasuokumus, lai mudynuotu cylvākus dūt sovu īguļdejumu. Tys ir vīgluok, nakai jius dūmojit. Varit tū izdareit tīšsaistē, lītojūt videokonferenču reiku, voi personeigi, ka tys ir drūsai. <eventTemplate>Izpietit myusu veidnis i resursus, kas paradzāti pasuokumu nūtikšonai</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Socialī medeji
+about-playbook-how-grow-language-content-5 = Varit lītuot socialū medeju platformys, lai nūsyuteitu ziņuojumu. Pasadolit ar ziņom, kuruos paskaidruots, deļkuo tys ir svareigi, i sasazynojit ar cylvākim, kas runoj par taidim vaicuojumim kai volūdys tīseibys, bolsa lītuošona muoksleigajā intelektā voi naobjektivitate tehnologeju sferā. Veritēs vaira padūmu par <campaignLink>socialuos kampanis vadeišonu, tamā vydā saturu, kū varit lītuot</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnereibys i teikli
 about-playbook-how-grow-language-content-7 = Atrūnit cytus, kurim tys ryup. Tuos varātu byut universitatis, volūdu školys, interešu aizstuoveibys grupys voi datu zynuotnis kūpīnys. Sasazynojit i skaidri paskaidrojit, kai jī var paleidzēt i deļkuo. <outreachTemplates>Veritēs myusu informativū e-posta ziņuojumu veidnis</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Esit rodūši!</strong> Jiusu volūdys kūpīna byus unikala, i itī ir tikai puors veidi, kai suokt.
@@ -548,7 +700,8 @@ data-download-yes = Nui
 data-download-deny = Nā
 data-download-license = Liceņze: <licenseLink> CC-0 </licenseLink>
 data-download-modal = Jius gatavejitēs zamynluodēt <size>{ $size }GB</size>, turpynuot?
-data-subtitle = Mes veidojam atkluotu i publiski daeimamu bolsa datu kūpu, kū sevkurs var lītuot, lai apvuiceitu runys lītuojumprogramys.
+data-subtitle = Mes veidojam atkluotu i publiski daīmamu bolsa datu kūpu, kū sevkurs var lītuot, lai apvuiceitu runys lītuojumprogramys.
+data-explanatory-text = Mēs dūmojam, ka lelys i publiski daīmamys datu kūpys veicynoj inovaceju i veseleigu komercialu konkureņci mašynvuiceišonys baļsteitā runys tehnologejā. Tys ir globals dorbs, i mes aicynojam sevkuru pīsadaleit. Myusu mierkis ir paleidzēt runys tehnologejai byut īkļaujūšuokai, paruodūt vysaidu pasauļa bolsu daudzveideibu.
 data-get-started = <speechBlogLink>Dorba suokšona ar runys atpazeišonu</speechBlogLink>
 data-other-title = Citys bolsa datu kūpys…
 data-other-goto = Ej iz { $name }
@@ -577,6 +730,12 @@ review-delete-recordings = Dzēst munus īrokstus
 
 datasets-heading = Datu kūpys
 datasets-headline = Mes veidojam atvārtuo pyrmkoda daudzvolūdu datu kūpu, kū sevkurs var lītuot, lai apvuiceitu runys lītuojumprogramys.
+datasets-positioning =
+    Mes dūmojam, ka lelys, publiski daīmamys bolsa datu kūpys veicynoj inovacejis i veseleigu komercialu konkureņci mašynvuiceišonā baļsteitā runys tehnologejā. 
+    
+    Common Voice vairuokvolūdu datu baze jau ir leluokuo itaida veida publiski daīmamuo bolsa datu kūpa, bet tei nav vīneiguo. 
+    
+    Pasaverit iz itū lopu kai informacejis centru par cytom valejuo pyrmkoda bolsa datu kūpom i, tai kai Common Voice turpynoj augt, ari kai iz myusu nuokūtnis atjaunynuojumu vītu.
 language = Volūda
 download-dataset-header = Zamynluodejit datu kūpu
 download-delta-explainer = Mes asam sataisejuši puors izmainis. Delta segmenti satur tikai jaunuokūs īrokstus nu pādejuos izlaisšonys. <deltaLink>Skaitit vaira par itū dorbu</deltaLink>.
@@ -600,18 +759,23 @@ download-language = Zamynluodēt { $language }
 validated-hours = Puorbaudeituos stuņdis
 recorded-hours = Īraksteituos stuņdis
 whats-inside = Kas atsarūn Common Voice datu kūpā?
+dataset-description-hours =
+    Kotrys datu kūpys īroksts sastuov nu unikala MP3 i atbylstūša teksta faila. Daudzuos nu <b>{ $total }</b> īrokstu stuņdem datu kūpā ir ari demografiskī metadati, par pīmāru, vacums, dzymums i akcents, kas var paleidzēt apvuiceit runys atpazeišonys dzinieju precizitati.
+    
+    Datu kūpums itūšaļt sastuov nu <b>{ $valid }</b> puorbaudeitom stuņdem <b>{ $languages }</b> volūduos, bet mes vysod dalīkam vaira bolsu i volūdu. Apsaverit myusu <languagesLink>volūdu lopu</languagesLink>, lai pīpraseitu volūdu voi dūtu sovu īguļdejumu.
 want-dataset-update = Gribit zynuot, kod mes izlaižam jaunu Common Voice datu kūpys verseju? Pīsarokstit jaunumim.
 subscribe = Pīsaraksteit
 get-started-speech = Suokt runys atpazeišonu
 other-datasets = Cytys bolsa datu kūpys
 feedback-q = Voi jums ir atsauksmis?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ir <docsLink>valejuo koda reikkūpa</docsLink> pietnīkim, kas izstruodoj jaunuokūs sarunvolūdys muoksleiguo intelekta modeļus.
+resource-deepspeech-info = Common Voice datu kūpa papyldynoj Mozilla valejuo koda bolsa atpazeišonys dzinieju Deep Speech, kū var lītuot, lai sataiseitu runys atpazeišonys programys. Paskaitit myusu <githubLink>Github puorskotu</githubLink> voi pīsavīnojit <discourseLink>DeepSpeech Discourse</discourseLink>, lai izzynuotu, kai suokt dorbu.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> struodoj valejuos runys tehnologejis atteisteibai. Jūs projekti apjam dziļā vuiceišonā baļsteitus STT i TTS dziniejus.
 community-playbook = Kūpīnys rūkysgruomota
 resource-playbook-info = <playbookLink>Atrūnit dereigus nūruodejumus</playbookLink> par vysu Common Voice ceļuojumu, suocūt nu lokalizacejis da datu kūpys lītuošonai, kai ari par tū, kai sasazynuot ar myusu kūpīnu.
 data-other-librispeech-description = LibriSpeech ir apmāram 1000 stuņžu 16Khz ar angļu volūdys runu, kas dabuota nu LibriVox projektā skaiteitajom audio gruomotom.
 data-other-ted-name = TED-LIUM korpuss
-data-other-ted-description = TED-LIUM korpuss tyka sataiseits nu audio īrokstu i tūs transkripceju, kas daeimamys TED teiklavītā.
+data-other-ted-description = TED-LIUM korpuss tyka sataiseits nu audio īrokstu i tūs transkripceju, kas daīmamys TED teiklavītā.
 data-other-voxforge-description = VoxForge tyka sataiseits, lai savuoktu transkrybātu runu lītuošonai bezmoksys i atvārtuo koda runys atpazeišonys dziniejūs.
 data-other-tatoeba-description = Tatoeba ir plota teikumu, tulkuojumu i runys audio datu baze, kas lītojama volūdu apgivei. Itei zamynluode satur runuotuos angļu volūdys īrokstus, kū registrej jūs kūpīna.
 your-feedback = Voi jums ir idejis, kai mes varim padareit lobuoku Common Voice datu kūpu? Informejit myus par tū Discourse servisā
@@ -659,6 +823,15 @@ other-language = Cyta volūda
 ## Request Language Pages
 
 request-language-heading = Vaicojit par jaunu volūdu
+request-language-explanation-1 =
+    Puorbaudit, voi jiusu volūda ir nūruodeita sarokstā
+    <languagesPageLink>Common Voice volūdu lopa</languagesPageLink>.
+    Ka nā, aizpiļdit itū veidlopu, i mes <strong>nūsyuteisim jums ārtu e-posta ziņuojumu
+    paskaidrojūt, kai dalikt jaunu volūdu</strong>.
+request-language-explanation-2 =
+    Mes ari <strong>informēsim myusu kūpīnys vadeituoju
+    par jiusu interesi</strong>, lai jī varātu snēgt jums
+    papyldu atbolstu voi informaceju, ka taida byus vajadzeiga.
 request-language-form-email =
     .label = Tova e-posta adrese
 request-language-form-info =
@@ -918,7 +1091,10 @@ keep = Saglobuot
 remove = Aizvuokt
 keep-info = Jiusu anonimī bolsa īroksti paliks Common Voice datu kūpā. Kod byusit izdziess sovu profilu, jius vaira navarēsit īsnēgt pīprasejumu sovu īroktu dziesšonai nu datu kūpys
 remove-info = Mes puorsavērsim jiusu pīprasejumu, lai nu datu kūpys nūjimtu jiusu īrokstus. Ka jiusu pīprasejums tiks apstyprynuots, mes sasazynuosim ari ar tim, kas ir zamynluodejuši datu kūpu i jim pīpraseisim, lai dzieš jiusu īrokstus.
-profile-form-delete = Dzēst profilu
+why-delete-recordings =
+    Common Voice īrokstus lītoj akademiki, mozī uzjāmumi i bolsta atpazeišonys entuziasti, lai paleidzātu apvuiceit i atteisteit publiski daīmamūs resursus, par pīmāru, bolsa atpazeišonys modeļus.
+    Voi jius varit mums paziņuot, deļkuo gribit, lai jiusu īroksti tyktu dzāsti?
+profile-form-delete = Dzēst profil
 
 ## Profile Download
 
@@ -1024,23 +1200,30 @@ contribution-misreadings-example-7-explanation = ['nu' nav tys pats, kas 'nui']
 contribution-misreadings-example-8-title = Bitis ir darbeigi kukaini.
 contribution-misreadings-example-8-explanation = [Īrunuots napareizs teikums]
 contribution-varying-pronunciations-title = Dažaidys izrunys
+contribution-varying-pronunciations-description = Esit pīsardzeigi, pyrma nūraidit īrokstu, atsasaucūt iz tū, ka skaiteituojs ir napareizi izrunuojs vuordu, lics uzsvoru napareizā vītā voi acimradzami ignoriejs vaicuojuma zeimi. Izrunys ir vysaidys i puors nu tom jius varbyut kasdīnā sev apleik nadzierdit. Nūviertejit tū, ka cylvāki var runuot cytaiž kai jius.
+contribution-varying-pronunciations-description-extended = Nu cytys pusis, ka izruna ir napareiza voi klaidaina, nūraidit īrokstu. Ka naesit puorlīcynuoti, lītojit izlaisšonys pūgu.
 contribution-varying-pronunciations-example-1-title = Es izkuopu eglē.
 contribution-varying-pronunciations-example-1-explanation = ['egle' ir pareizi īrunuota naatkareigi nu tuo, voi vysaiduos izlūksnēs teik lītuots plotais voi šaurais e]
 contribution-varying-pronunciations-example-2-title = Juo rūka beja pacalta.
 contribution-varying-pronunciations-example-2-explanation = ['beja' ir juoizrunoj ar dzieržamu a burtu beiguos, ka dzieržat tikai 'bej', īrunuots napareizi]
 contribution-background-noise-title = Fona trūksnis
+contribution-background-noise-description = Mes gribim, lai mašynvuiceišonuos algoritmi varātu apstruoduot vysaidus fona trūkšņus, i teik pījimti pat saleidzynūši skali trūkšni, ka tī natraucej dzierdēt vysu tekstu. Klusa fona muzyka ir pījamama; muzyka, kas traucej skaidri sadzierdēt kotru vordu, nav pījamama.
 contribution-background-noise-description-extended = Ka īroksts raustuos voi tymā ir sprakstīni, nūraidit, ka viņ vys vēļ piļneibā nav dzieržams vyss teksts.
 contribution-background-noise-example-1-fixed-title = <strong>[Škauduošona]</strong>Triasa laikmata <strong>[kuoss]</strong> miļža dinozauri.
 contribution-background-noise-example-2-fixed-title = Triasa laikmata <strong>[kuoss]</strong> miļža dinozauri.
 contribution-background-noise-example-2-explanation = [Daļu nu teksta navar dzierdēt]
 contribution-background-noise-example-3-fixed-title = <strong>[Sprakstiešona]</strong>-iasa laikmata miļža dinozauri <strong>[sprakstiešona]</strong>.
 contribution-background-voices-title = Bolsi fonā
+contribution-background-voices-description = Klusa murmynuošona fonā ir pījamama, tok mes nagribim papyldu bolsus, kas varātu traucēt algoritmam pareizi nūsaceit vuordus, kas nav raksteitajā tekstā. Ka dzierdit vuordus, kas nav raksteiti tekstā, īroksts ir juonūraida. Parostai tys nūteik tī, kur ir atstuots īslāgts televizors voi tyvumā nūteik saruna.
 contribution-background-voices-description-extended = Ka īroksts raustuos voi tymā ir sprakstīni, nūraidit, ka viņ vys vēļ piļneibā nav dzieržams vyss teksts.
 contribution-background-voices-example-1-title = Triasa laikmata miļža dinozauri. <strong>[skaita vīns bolss]</strong>
 contribution-background-voices-example-1-explanation = Voi tu īsi? <strong>[soka kaids cyts]</strong>
 contribution-volume-title = Skaļums
+contribution-volume-description = Skaiteituoju vydā byus dabiskys īrokstu skaļuma atškireibys. Nūraidit tik tod, ka skaļums ir tik lels, ka īrokstā ir trūksni voi tys puortryukst, voi ari, ka īroksts ir tik kluss, ka navar dzierdēt saceitū bez atsaucis iz raksteitū tekstu.
 contribution-reader-effects-title = Īrunuotuoja izrunys eipatneibys
+contribution-reader-effects-description = Leluokuo daļa īrokstu ir nu cylvāku, kas runoj sovā dabiskajā bolsā. Varit pījimt nalelys atkuopis, par pīmāru, ka kaida fraze teik pasaceita skaļuok, klusuok voi teik izrunuota 'dramatiskā' bolsā. Lyudzu, nūraidit īdzīduotus īrokstus i tūs, kas īrunuoti robotiskā datora bolsā.
 contribution-just-unsure-title = Vīnkuorši naesit puorlīcynuots?
+contribution-just-unsure-description = Ka truopās koč kas, kas itamuos vodlinejuos nav īlykts, lyudzu, bolsojit tai, kai jums ruodīs pareizi. Atguodojit - kvalitate i precizitate ir svareiguoka par īrokstu skaitu. Ka eistyn navarit izlemt, lītojit izlaisšonys pūgu i puorejit iz nuokušū īrokstu.
 see-more = <chevron></chevron>Ruodeit vaira
 see-less = <chevron></chevron>Ruodeit mozuok
 
@@ -1066,11 +1249,13 @@ sc-footer-report-copyright = Ziņuot par autortīseibu problemom
 sc-footer-privacy = Privatums
 sc-footer-terms = Lītuošonys nūsacejumi
 sc-footer-cookies = Seikdatnis
+sc-login-signup-button = Dasasaceit / Registrētīs
 sc-logout-button = Beigt dorbu
 
 ## HOME
 
 sc-home-title = Vasali Common Voice Teikumu apkūpuotuojā
+sc-home-intro = Teikumu apkūpuotuojs ir daļa nu <commonVoiceLink>Common Voice</commonVoiceLink>. Tys ļaun projekta dalinīkim apkūpuot i apstyprynuot kūpīnys atlaseitūs teikumus. Varit lītuot itū reiku ari, lai importātu i puorbaudeitu moza i videja leluma publiskuo domena teikumu kolekcejis, kū esit atrads voi savuocs. Vysim teikumim ir juobyut publiski daīmamim. Apstyprynuotī teikumi kasnedeļu teik eksportāti iz Common Voice repozitoreju i teik izlaisti Common Voice teiklavītā leidza ar nuokušū izlaidumu.
 sc-home-collect-title = Teikumu apkūpuošona
 sc-home-collect-text = Paleidzit mums, rokstūt voi apkūpojūt publiskuo domena teikumus.
 sc-home-review-title = Puorsaverit teikumus
@@ -1078,7 +1263,7 @@ sc-home-review-text = Paleidzit mums, puorsaverūt teikumu pareizraksteibu saska
 
 ## GENERAL
 
-sc-languages-fetch-error = Mums naizadeve atrast daeimamuos volūdys. Struoduošona ar lopu itamā šaļtī nav varama. Lyudzu, raugit vēļreiz nadaudz vāluok.
+sc-languages-fetch-error = Mums naizadeve atrast daīmamuos volūdys. Struoduošona ar lopu itamā šaļtī nav varama. Lyudzu, raugit vēļreiz nadaudz vāluok.
 
 ## HOW-TO
 
@@ -1086,24 +1271,41 @@ sc-howto-title = Padūmi
 sc-howto-addlang-title = Volūdu dalikšona dorbam
 sc-howto-addlang-text = Kod esit dasaslēdzs, profila sadaļā varit izalaseit sovys volūdys.
 sc-howto-addsen-title = Dalikt jaunus teikumus
+sc-howto-addsen-item-1 = Vysim jiusu īsnīgtajim teikumim ir juoatbiļst <wikipediaLink>Publiskuo domena (CC-0) liceņzei</wikipediaLink>. Lai atbaļsteitu taidu dorbu īlikšonu, kurim nav publiskuos liceņzis, asam sataisejuši <cc0WaiverLink>Īguļdejuma leiguma formu</cc0WaiverLink> dorbim, kuru autortīseibu eipašnīks grib īsnēgt materialu Common Voice.
+sc-howto-addsen-item-2 = Skaitli. Teikumūs nadreikst byut cipari, partū ka tī var radeit problemys, īrunojūt tūs. Skaitļa izruna ir atkareiga nu konteksta i var radeit klaidys datu kūpā. Par pīmāru, skaitli "2409" var izrunuot i kai "divdesmit četri nulle deveni", i "divejis tyukstūšys četri symti deveni".
+sc-howto-addsen-item-3 = Saeisynuojumi i akronimi. Olūta tekstā ir juoizavaira nu saeisynuojumu i akronimu, par pīmāru, "ASV" voi "ICE", partū ka tī var tikt skaiteiti tai, ka nasakreit ar pareizraksteibu. Pi tam vīnam saeisynuojumam var byut vairuokys pareizys izrunys. Par pīmāru, akronimu "ICE" var izrunuot kai "I-C-E" voi kai vīnu vuordu.
+sc-howto-addsen-item-4 = Pīturzeimis. Specialī simboli i pīturzeimis juoīlīk tikai tod, ka tys ir vysā vajadzeigs. Par pīmāru, apostrofs ir īlykts taidūs angļu volūdys vuordūs kai “don’t” i “we’re”, i tys ir juoīlīk ari olūta tekstā, tok moz tycams, ka jums koč kod byus vajadzeigi simboli, par pīmāru, “@” voi “#.” Latgalīšu volūdā juorauga atsabreivuot nu vysu pīturzeimu i specialūs simbolu, kas nav vajadzeigi, par pīmāru, nu dūmuzeimu.
+sc-howto-addsen-item-5 = Cytu volūdu burti. Burtim ir juobyut dereigim volūdā, kurā runoj. Par pīmāru, “ж” ir burts krīvu alfabetā, tok tys nikod nateik lītuots latgalīšu volūdā, deļtuo tys nadreikst byut latgalīšu volūdys teikumūs.
+sc-howto-addsen-item-6 = Volūdom var byut <validationRulesLink>sovi validacejis nūsacejumi</validationRulesLink> ar papyldu praseibom. Ka volūdai nav konkreta validacejis faila, mes lītojam vyspuoreigūs angļu volūdys nūsacejumus.
+sc-howto-addsen-post-1 = Mes dūdam prīškrūku dabiskim/sarunvolūdys teikumim. Koč i svareiga ir fonetiskuo daudzveideiba i vysaidi vuordi teikumūs, mes cenšamīs teikumu īraksteišonu padareit piec vareibys jautruoku. Deļtuo byutu breineigi, ka jius raudzeitu saglobuot sovus teikumus piec vareibys dabiskuokus/saistūšuokus.
 sc-howto-cite-title = Kai nūruodeit olūtu
+sc-howto-cite-pre-1 = Ir svareigi nūruodeit, kur atrodot publiski daīmamūs tekstus, lai izasorguotu nu plagiata i ļautu sekuot leidza <copyrightIssuesLink>autortīseibu problemom</copyrightIssuesLink>. Ite ir puors veidi, kai varit citēt dorbu.
 sc-howto-cite-item-1 = Varit īkļaut teiklavītu, par pīmāru, "Common Voice - https://commonvoice.mozilla.org/"
-sc-howto-cite-item-2 = Varit lītuot akademiskū atsaucis stylu, par pīmāru, Hārvardys stylu "Mozilla (2021) Common Voice. Daeimams teiklavītā https://commonvoice.mozilla.org/ (Datikšona: 2021. goda 15. septembrī)"
+sc-howto-cite-item-2 = Varit lītuot akademiskū atsaucis stylu, par pīmāru, Hārvardys stylu "Mozilla (2021) Common Voice. Daīmams teiklavītā https://commonvoice.mozilla.org/ (Datikšona: 2021. goda 15. septembrī)"
+sc-howto-cite-item-3 = Publiskuo domena tekstam, kas nav daīmams tīšsaistē, varit lītuot akademiskū atsaucis stylu, par pīmāru, Hārvardys stylu "Jess (2021) My Public licence poems"
 sc-howto-review-title = Puorsaverit teikumus
 sc-howto-review-subtitle = Puorsalīcynojit, voi teikums atbiļst itaidim kriterejim:
 sc-howto-review-criteria-1 = Teikumam juobyut pareizi uzraksteitam, vuordūs navar byut drukys klaidu.
 sc-howto-review-criteria-2 = Teikumam juobyut gramatiski pareizam.
 sc-howto-review-criteria-3 = Teikumam juobyut izrunojamam.
 sc-howto-review-criteria-4 = Ka teikums atbylst vysim kriterejim, klykstynojit iz pūgys "Apstyprynuot".
+sc-howto-review-criteria-5 = Ka teikums naatbylst pyrma nūsauktajim kriterejim, klykstynojit iz pūgys "Nūraideit". Ka naesit puorlīcynuots par teikumu, varit tū ari izlaist i puorīt iz nuokušū.
 sc-howto-review-criteria-6 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
 sc-howto-findpd-title = Kai atrast breivi daeimamus publiskuo domena teikumus
 sc-howto-findpd-subtitle = Vaicojit tūs škārsteiklā
+sc-howto-findpd-text-2 = Atguodojit, ka mums ir vajadzeiga atļauja publicēt itūs teikumus, deļtuo vysod puorsalīcynojit, voi teksts pīder <wikipediaLink>publiskajam domenam</wikipediaLink>. Ka nav skaidrys nūruodis, sasazynojit ar personu, kurai teksts pīdar, i vaicojit, voi jei grib nūdūt sovu tekstu publiskajā domenā. Ka grib, paleidzit jai aizpiļdeit <cc0WaiverLink>Īguļdejumu leigumu</cc0WaiverLink> . Ka persona nagryb dalikt tekstu, jums nav atļuovis itū tekstu lītuot.
 sc-howto-findpd-tips = Ite ir puors padūmi, kai atrast teikumus:
+sc-howto-findpd-tips-1 = Lobuokī olūti, kur varit meklēt, ir podkāsti, stenogramys, filmu scenareji i vyss, kur var byut kasdīnys sarunys.
+sc-howto-findpd-tips-2 = Vaļdeibys siežu stenogramys, gruomotys i roksti ari ir breineigi, tok, tai kai teksts var byut nadaudz formaluoks, tim ir mozuoka prioritate.
+sc-howto-findpd-tips-3 = Dīvamžāļ mes itūšaļt navarim īlikt Wikimedia rokstus. Deļtuo, lyudzu, nakopejit nu tīnīnis teikumus.
 sc-howto-findpd-subtitle-2 = Sasadorbojit ar vītejom organizacejom voi privatpersonom
+sc-howto-findpd-partner-1 = Ir daudzi sabīdryskūs organizaceju, kurys varātu gribēt sasadorbuot, i tom jau ir daudzi tekstu, kū var pazīduot sabīdreibys lobumam kai publiskū eipašumu. Sasazynojit ar vītejom universitatem, puorvaļdem i valejuo pyrmkoda organizacejom, lai runuotu par projektu i vaicuotu jūs paleidzeibu.
+sc-howto-findpd-partner-2 = Eksperti volūdnīki ari var paleidzēt, raugit sasazynuot ar vītejom lingvistiskajom universitatem (školuotuojim, studentim) i nūskaidruot, voi tuos var paleidzēt savuokt daudzveideigu skaņu teikumu kūpumu jiusu volūdā.
 
 ## MY SENTENCES
 
 sc-my-title = Muni teikumi
+sc-my-description = Itamā lopā ir puorskots par vysim jiusu īsnīgtajim teikumim. Ka vajadzeigs, varit ari dzēst jau īsnīgtūs teikumus, atzeimojūt iz tam blokus asūšuos izvielis lauceņa i klykstynojūt iz &quot;Dzēst atlaseitūs teikumus&quot; zamuok. Lyudzu, izjemit teikumus tik tod, ka tys ir absoluti vajadzeigs, par pīmāru, ka piec tam pamanejot, ka teikums ir aizsorguots ar autortīseibom voi tymā ir klaidys.
 sc-my-loading = Nūteik jiusu teikumu īluode...
 sc-my-err-fetching = Īluodejūt jiusu teikumus, roduos klaida. Lyudzu, raugit vēlreiz.
 sc-my-no-sentences = Nav atrosts nivīns teikums!
@@ -1303,6 +1505,7 @@ sc-criteria-item-1 = Teikumam juobyut pareizi uzraksteitam, vuordūs navar byut 
 sc-criteria-item-2 = Teikumam juobyut gramatiski pareizam.
 sc-criteria-item-3 = Teikumam juobyut izrunojamam.
 sc-criteria-item-4 = Ka teikums atbylst vysim kriterejim, klykstynojit iz pūgys &quot;Apstyprynuot&quot;.
+sc-criteria-item-5-2 = Ka teikums naatbylst pyrma nūsauktajim kriterejim, klykstynojit iz pūgys "Nūraideit". Ka naesit puorlīcynuots par teikumu, varit tū ari izlaist i puorīt iz nuokušū.
 sc-criteria-item-6 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
 
 ## REVIEW
@@ -1314,6 +1517,7 @@ sc-review-select-language = Lyudzu, izavielejit volūdu, lai puorbaudeitu teikum
 sc-review-no-sentences = Nav teikumu, kū puorbaudeit. <addLink>Davīnojit teikumus!</addLink>
 sc-review-form-prompt =
     .message = Puorsavārtī teikumi nav īsnāgti, voi esit drūss?
+sc-review-form-usage = Veļcit pa labi, lai apstyprynuotu teikumu. Veļcit pa kreisi, lai tū atmastu. Veļcit iz augšu, lai tū izlaistu. <strong>Naaizmierstit īsnēgt sova dorba rezultatu!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Olūts: { $sentenceSource }
@@ -1345,6 +1549,15 @@ sc-review-link = Puorbaudit
 
 sc-settings-title = Īstatejumi
 sc-settings-ui-language = Saskarnis volūda
+sc-settings-reset-skipped = Otkon īstateit izlaistūs teikumus
+sc-settings-skipped-decription = Puorsavieršonys laikā jius izlaidet teikumus. Otkon īstatūt izlaistūs teikumus, tiks paruodeiti vysi izlaistī teikumi. Tys nav atkareigs nu volūdys.
+sc-settings-show-all-button = Ruodeit vēļreiz vysus izlaistūs teikumus
+sc-settings-failed = Navarēja maineit īstatejumus. Lyudzu, raugit vēļreiz.
+# VALIDATION
+sc-validation-number-of-words = Teikumā juobyut nu 1 da 14 (īskaitūt) vuordu
+sc-validation-no-numbers = Teikumā nadreikst byut skaitli
+sc-validation-no-symbols = Teikumā nadreikst byut nikaidu specialu simbolu
+sc-validation-no-abbreviations = Teikumā nadreikst byut saeisynuojumu
 
 # [/SentenceCollector]
 
@@ -1352,19 +1565,28 @@ localization-select =
     .label = Izavielejit volūdu/lokalizaceju
 # PARTNERSHIPS PAGE
 partnerships-header = Partnereibys
+partnerships-header-text = Lai sataiseitu Common Voice, ir vajadzeigs daudzi! Mes tū nadoram vīni. Voi gribit ar mums sasadorbuot? Mes meilu pruotu īsapazeitu.
 partnerships-get-in-touch = Sasazynuot
 partnerships-become-a-partner = Palīcit par Common Voice partneri
 partnerships-community-header = Kūpīna, rodūšuo sabīdreiba i piļsuoniskuo sabīdreiba
+partnerships-community-description = Kūpīna ir Common Voice tuktinejūšuo sirds - jī ir nu vysa pasauļa i ir volūdu aktivisti, zynuotnīki i muokslinīki. Vaira par tū, kai īsasaisteit, varit izzynuot myusu lopā <about>Par</about> i myusu <community>kūpīnys rūkysgruomotā</community>. Ka jums interesej padzylynuota organizatoriskuo partnereiba, <emailFragment>sasazynojit ar mums.</emailFragment>
 partnerships-foundations-header = Fondi
+partnerships-foundations-description = Mes sasadorbojam ar fondim, piļsūniskū sabīdreibu i kūpīnys partnerim, lai padareitu internetu par veseleiguoku vītu, eipašu viereibu pīgrīžūt Austrumafrikai. Izzynojit vaira par myusu <programmaticWork>programatiskū dorbu.</programmaticWork>
 partnerships-governments-header = Vaļdeibys
+partnerships-governments-description = Mes asam prīceigi atbaļsteit publiskuo sektora īsaisti tehnologeju, inovaceju i volūdys tīseibu sferā. Ka planavojit eistynuot lelu projektu voi kampaņu, lyudzu, <emailFragment>sasazynojit ar mums.</emailFragment>
 partnerships-academia-header = Universitatis, akademiki i pietnīki
+partnerships-academia-description = Valejuo inovaceja ir myusu darbeibys pamatā. Lai sasadorbuotu pietnīceibā, vuoktu datus voi sataiseitu intervejis, <emailFragment>sasazynojit ar mums.</emailFragment>
 partnerships-small-business-header = Mozī uzjāmumi, tamā vydā tehnologeju i muoksleiguo intelekta jaunuzjāmumi
+partnerships-small-business-description = Mes vysod gribim dzierdēt nu datu lītuotuoju par jūs vajadzeibom i kontekstu - nu sadarbeibys datu vuokšonys platformā da datu veseleibys īskota snēgšonai, mes gribim <emailFragment>izklauseit jius.</emailFragment>
 partnerships-corporates-header = Lela mārūga korporacejis i platformu uzjāmumi
+partnerships-corporates-description = Ka gribit runuot vaira par datu kūpu, leidza iņvestēt plānuotuos platformys paplašynuošonā voi vaicojit sadarbeibys vareibu, <emailFragment>rokstit mums.</emailFragment>
 partnerships-our-partners = Myusu partneri
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Paļdis, ka pazīduojot sova bolsa īrokstus!
 first-cta-subtitle-text = Voi gribit pastuosteit par tū, kai runojit?
 why-donate = Deļkuo jius vaicojit?
+why-donate-explanation-1 = Itū informaceju nav obligati juodūd - dalīcit tū tik tod, ka jiutatēs ārtai. Kod mes izlaižam datu kūpu, mes pseidonimizejam vysu personys informaceju i puorsalīcynojam, ka dati, par pīmāru, jiusu vuords i e-posts, nav saisteiti ar demografiskū informaceju, par pīmāru, vacumu i dzymumu.
+why-donate-explanation-2 = Lai bolsa tehnologejis labi struoduotu sevkuram, datim, kas paleidz izstruoduotuojim sataiseit itū tehnologeju, ir juoparuoda daudzveideigs cyvlāku pulks. Par pīmāru, ka mes naīlīkam nivīna runuotuoja ar nūsaceitu akcentu, tehnologeja nasadorbuos labi cylvākim ir itū akcentu. <learnMore>Izzynojit vaira par tū, deļkuo metadati ir svareigi.</learnMore>
 add-information-button = Dalikt informaceju
 continue-speaking-button = Nā, paļdis, turpynuošu īraksteit
 create-profile-text = Voi gribit saglobuot sovu informaceju? <createProfile>Sataisit profilu</createProfile>
@@ -1372,12 +1594,14 @@ thanks-for-voice-toast = Paļdis par bolsa informaceju
 thanks-for-voice-toast-error = Īsnādzūt jiusu bolsa informaceju, nūtyka klaida
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Paļdis, pa pazīduojot sova bolsa īrokstus!
+second-cta-subtitle-text = Lītojūt profilu, varēsit sekuot leidza sovai aktivitatei i sasazynuot ar bolsa datu vuocieju kūpīnu.
 already-have-an-account = Jums jau ir konts? <login>Pīsaslēdzit</login>
 create-profile-button = Sataiseit profilu
 # IMAGE TAGS
 img-alt-success-checkmark = veiksmis atzeime
 # GUIDELINES PAGE
 guidelines-header = Vodlinejis
+guidelines-header-subtitle = Izprūtit, kai dalikt i apstyprynuot teikumus i īrokstus Common Voice datu kūpā
 voice-collection = Īrokstu vuokšona
 sentence-collection = Teikumu kolekceja
 varying-pronunciations = Dažaidys izrunys
@@ -1389,6 +1613,13 @@ volume = Skaļums
 reader-effects = Īrunuotuoja izrunys eipatneibys
 just-unsure = Vīnkuorši naesit puorlīcynuots?
 example = Pīmārs
+varying-pronunciations-explanation-1 = Mes asam prīceigi par vysaidim akcentim! Esit pīsardzeigi, pyrma nūraidit īrokstu, atsasaucūt iz tū, ka skaiteituojs ir napareizi izrunuojs vuordu, lics uzsvoru napareizā vītā voi acimradzami ignoriejs pīturzeimis. Izrunys ir vysaidys i puors nu tom jius varbyut kasdīnā sev apleik nadzierdit. Lyudzu, nūviertejit tū, ka cylvāki var runuot cytaiž kai jius.
+varying-pronunciations-explanation-2 = Nu cytys pusis, ka izruna ir napareiza voi klaidaina, nūraidit īrokstu. Ka naesit puorlīcynuots, lītojit izlaisšonys pūgu.
+varying-pronunciations-example = Pi munys sātys aug eglis i ūzuli.
+varying-pronunciations-tip-1 = [Latgolā vuordu "egle" izrunoj dažaidi, vysys izrunys ir pareizys]
+varying-pronunciations-tip-2 = [Ari vuordu "ūzuls" izrunoj dažaidi]
+offensive-content-explanation = Teikumi teik puorbaudeiti, lītojūt kūpīnys breivpruoteigū īsaisti, tok itys process nav ideals. Ka redzit voi dzierdit teikumu, kas jius aizskar voi satrauc, par pīmāru, deļtuo ka tys puorkuop myusu <participationGuidelines>kūpīnys leidzdaleibys vodlinejis</participationGuidelines>, lyudzu, mīdzit iz karūdzeņa pūgys lītuotuoja saskarnē. Varit ari sasazynuot ar mums, lītojūt e-posta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = Ir svareigi pareizi puorskaiteit kotru vuordu. Klausūtīs cīši ryupeigi puorbaudit, voi īraksteitais ir taišni tys pats, kas praseits; nūraidit, ka runuotuoji ir dalykuši voi palaiduši garum kaidu vuordu, voi diveji vuordi puormeiti vītom.
 misreadings-explanation-2 = Bīžuokuos klaidys:
 misreadings-explanation-3 = Nūrauts vuorda suokums, par pīmāru, "aņ garšoj dasa".
 misreadings-explanation-4 = Nūrautys vuorda beigys, par pīmāru, "beja" vītā īrunuots "bej" voi teikumā izlaists vuords "ir".
@@ -1400,6 +1631,9 @@ misreadings-example-2 = Kuņdze, voi varu kū dareit?
 misreadings-example-3 = Kuņdze, voi es varu koč kū dareit?
 misreadings-example-4 = Bitis ir darbeigi kukaini.
 misreadings-tip-1 = [pagaiss vuords “es”]
+misreadings-tip-2 = ['nu' nav tys pats, kas 'nui']
+misreadings-tip-3 = [Īrunuots napareizs teikums]
+background-noise-explanation = Jums ir juovar dzierdēt kotru īroksta vuordu. Mes gribim, lai mašynvuiceišonuos algoritmi varātu apstruoduot vysaidus fona trūkšņus, i var tikt pījemti pat saleidzynūši skali trūkšni voi klusa muzyka, ka tī natraucej precizi i skaidri dzierdēt vysu tekstu. Trūkšni voi 'iztryukumi', kas naļaun dzierdēt i saprast kotru vuordu, zeimoj, ka īroksts ir juonūraida.
 background-noise-example-1 = Senejuo laikmeta dinozauri.
 background-noise-example-2 = [Škauda] Senejuo laikmeta [kuoss] dinozauri.
 background-noise-example-3 = Senejuo laikmeta dino [dzierdams krakškis].
@@ -1409,18 +1643,40 @@ background-noise-tip-2 = [Daļu nu teksta navar dzierdēt]
 background-voices-explanation = Nalels fona trūksnis ir pījamams, tok, ka dzierdit cytu personu runojam konkretus vuordus, īroksts ir juonūraida. Parasti tys nūteik gadīņūs, kod tyvumā ir atstuots īslāgts televizors voi runoj cyti cylvāki.
 background-voices-example-1 = Senejuo laikmeta dinozauri. [skaita vīns bolss]
 background-voices-tip-1 = Voi tu ej? [soka kaids cyts]
+volume-explanation = Skaiteituoju vydā byus dabiskys īrokstu skaļuma atškireibys. Nūraidit tik tod, ka skaļums ir tik lels, ka īrokstā ir trūksni voi tys puortryukst, voi ari, ka īroksts ir tik kluss, ka navar dzierdēt saceitū bez atsaucis iz raksteitū tekstu.
+reader-effects-explanation = Leluokuo daļa īrokstu ir nu cylvāku, kas runoj sovā dabiskajā bolsā. Varit pījimt nalelys atkuopis, par pīmāru, ka kaida fraze teik pasaceita skaļuok, klusuok voi teik izrunuota 'dramatiskā' bolsā. Lyudzu, nūraidit īdzīduotus īrokstus i tūs, kas īrunuoti robotiskā datora bolsā.
+just-unsure-explanation = Ka truopās koč kas, kas itamuos vodlinejuos nav īlykts, lyudzu, bolsojit tai, kai jums ruodīs pareizi. Atguodojit - kvalitate i precizitate ir svareiguoka par īrokstu skaitu. Ka eistyn navarit izlemt, lītojit izlaisšonys pūgu i puorejit iz nuokušū īrokstu.
 still-have-questions = Vys vēļ ir vaicuojumi?
 contact-common-voice = Sasazinojit ar Common Voice komandu
 public-domain = Publiskī dati
 citing-sentences = Atsauce iz teikumu olūtu
 adding-sentences = Teikumu davīnuošona
 reviewing-sentences = Teikumu puorbaude
+public-domain-explanation-1 = Ir cīši svareigi, lai vysi teikumi byutu <publicDomain>publiskais domens</publicDomain> (<cc0>cc0</cc0>), partū ka Common Voice datu kūpa teik izlaista ar cc0 liceņzi. Augšynluodejit teikumu tikai tod, ka esit puorlīcynuots par tuo publiskumu, i vysod īlīcit atsauci iz olūtu.
+public-domain-explanation-2 = Lobuokī teikumi dereiga runys atpazeišonys reika izveidei ir sarunvolūda, myusdīneiga volūda. Puors idejis, kas paleidzēs generēt teikumus, ir;
+public-domain-explanation-3 = Rodit myusdīneigus sarunvolūdys teikumus pats voi kūpā ar draugim voi volūdys kūpīnu, par pīmāru, reikojūt "raksteišonys maratonu"
+public-domain-explanation-4 = Sasazynojit ar autorim, dramaturgim voi scenaristim i vaicojit, voi jī ir gotovi nūdūt nalelu daļu nu sovu dorbu publiskajā eipašumā. Teikumus var publicēt alfabetiskā seceibā, lai tys natraucātu kaidim dorba autora mierkim.
+public-domain-explanation-5 = Raugit dabuot tekstu, iz kuru autortīseibys vaira naatsatīc, par pīmāru, vairums gruomotu, kas izdūtys pyrma 1920. goda, itūšaļt ir breivi daīmamys sevkuram.
+public-domain-explanation-6 = Sasazynojit ar vaļdeibu, pošvaļdeibu, bezpeļnis organizacejom voi medejim, lai nūskaidruotu, voi kaida daļa nu tūs teiklavītu ziņom, ziņuojumim, atskaitem voi cyta satura varātu byut nūdūts sabīdreibys lītuošonā.
+citing-sentences-explanation-1 = Ir svareigi īlikt atsaucis, lai mes varātu puorbaudeit, voi teikumi ir publiski daīmami i nateik pīmāruoti kaidi autortīseibu īrūbežuojumi.
+citing-sentences-subheader-websites = Sātyslopys
+citing-sentences-subheader-websites-explanation = Varit īkļaut teiklavītu, par pīmāru, "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Akademiskuo atsauce
+citing-sentences-subheader-academic-reference-explanation = Varit lītuot akademiskū atsaucis stylu, par pīmāru, Hārvardys stylu "Mozilla (2021) Common Voice. Daeimams teiklavītā https://commonvoice.mozilla.org/ (Datikšona: 2021. goda 15. septembrī)"
+citing-sentences-subheader-offline-sources = Bezsaistis olūti
+citing-sentences-subheader-offline-sources-explanation = Publiskuo domena tekstam, kas nav daīmams tīšsaistē, varit lītuot akademiskū atsaucis stylu, par pīmāru, Hārvardys stylu "Jess (2021) My Public license poems"
 citation =
     .label = Atsauce
+self-citation = Pošatsauce
+self-citation-explanation = Itai varit dalikt atsauci iz saturu, kū jius poši esit pīrakstejuši.
 adding-sentences-subheader-length = Garums
 adding-sentences-subheader-length-explanation = Teikumim juobyut eisuokim par 15 vuordim.
 adding-sentences-subheader-spelling-punctuation = Pareizraksteiba i pīturzeimis
 adding-sentences-subheader-spelling-punctuation-explanation = Teikumam juobyut pareizi uzraksteitam, vuordūs navar byut drukys klaidu.
+adding-sentences-subheader-speakable = Īrunojamim
+adding-sentences-subheader-speakable-explanation = Lobuokī teikumi ir dabiski i sarunvolūdys - tim ir juobyut vīgli skaitomim. Koč i svareiga ir fonetiskuo daudzveideiba i vysaidi vuordi teikumūs, mes taipat raugam dabuot, lai teikumu īrunuošona byutu piec vareibys saistūšuoka i jautruoka myusu breivpruoteigajim.
+adding-sentences-subheader-numbers = Skaitli
+adding-sentences-subheader-numbers-explanation = Teikumūs nadreikst byut skaitli, partū ka tī var radeit problemys, īrunojūt tūs. Skaitļa izruna ir atkareiga nu konteksta i var radeit klaidys datu kūpā. Par pīmāru, skaitli "2409" var izrunuot i kai "divdesmit četri nulle deveni", i "divejis tyukstūšys četri symti deveni".
 adding-sentences-subheader-abbreviations = Saeisynuojumi i akronimi
 adding-sentences-subheader-abbreviations-explanation = Teikumūs ir juoizasorga nu saeisynuojumu i akronimu, par pīmāru, "ASV" voi "NLO", partū ka tī var tik skaiteiti tai, ka nasakreit ar tūs pareizraksteibu. Bez tuo vīnam saeisynuojumam var byut vairuoki pareizi īrunuošonys veidi.
 adding-sentences-subheader-punctuation = Pīturzeimis
