@@ -190,7 +190,7 @@ email-subscription-title-new = Registrejitēs Common Voice viestim, atguodynuoju
 ## Account Benefits
 
 benefits = Īgivumi
-rich-data = Padorit sovus īsnāgtūs datus piec vareibys kvalitativuokus, dūdūt puors anonimus demografiskūs datus. Pyrma tū publiskuošonys mes atdaleisim vysus demografisku informaceju nu jiusu ideņtitatis.
+rich-data = Padorit sovus īsnāgtūs datus piec vareibys kvalitativuokus, dūdūt puors anonimus demografiskūs datus. Pyrma tūs publiskuošonys mes atdaleisim vysu demografiskū informaceju nu jiusu ideņtitatis.
 improve-audio = Profila informaceja padora lobuokus audio īrokstu datus, kū lītoj runys atpazeišonys precizitatis apvuiceibā.
 keep-track = Sekojit leidza sovam progresam i datim vairuokuos volūduos.
 compare-progress = Veritēs, kai jiusu progress ir saleidzynoms ar cytim īguļdeituojim vysā pasaulī.
