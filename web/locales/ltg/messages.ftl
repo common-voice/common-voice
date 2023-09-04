@@ -356,6 +356,7 @@ faq-why-important-q = Deļkuo tys ir svareigi?
 faq-how-get-q = Kai es varu dabuot Common Voice datus?
 faq-how-get-a = Common Voice datu kūpa ir daīmama zamynluodei, lītojūt <licenseLink> CC0 </licenseLink> liceņzi lopā <datasetLink>datu kūpa</datasetLink>. Jius itamā lopā varit zamynluodēt ari vairuokys cytys publiski daīmamys datu kūpys.
 faq-when-release2-q = Kod jius publicēsit Common Voice datus cytuos volūduos?
+faq-when-release2-a = Common Voice datu kūpys vairuokvolūdu versejā itūšaļt nūteik kūpīnys atbaļsteita komplektiešona i teireišona. Ka gribit paleidzēt mums Common Voice daslēgt jaunom volūdom, ejit iz <sentenceCollectorLink> teikumu savuokšonys reiku </sentenceCollectorLink>, lai datu kūpai dalyktu jaunus teikumus, i Mozilla <pontoonLink> pontons </pontoonLink> teiklavītys tulkuošanai. Kod ir salaseiti 5000 apstyprynuoti teikumi, Common Voice teik dalyktys jaunys volūdys.
 faq-why-mission-q = Deļkuo Common Voice ir daļa nu Mozilla misejis?
 faq-what-cv-and-deepspeech-q = Kaida atškireiba storp Common Voice i Deep Speech?
 faq-what-cv-and-deepspeech-a = Common Voice datu kūpa papyldynoj Mozilla valejuo koda bolsa atpazeišonys dzinieju Deep Speech. Pyrmuo Deep Speech verseja tyka izlaista 2017. goda novembrī i turpynoj atsateisteit nu tuo laika. Kūpā ar Common Voice datu kūpu mes turam, ka atvārtuo pyrmkoda bolsa atpazeišonys tehnologejai juobyut daīmamai sevkuram. Mums ticīs, ka ituos tehnologejis ļaus izstruoduotuojim sataiseit inovativu produktu i pakolpuojumu viļni.
@@ -401,6 +402,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Deļkuo ir Common Voice?
+about-header-description-v2 =
+    <p>Common Voice ir publiski daīmama bolsa datu kūpa, kū veidoj breivpruoteigūs bolsi vysā pasaulī. Cylvāki, kuri grib taiseit programys, kas struodoj ar bolsu, var lītuot datu kūpu, lai apvuiceitu runys atpazeišonys modeļus.</p>
+    <p>Itūšaļt leluokuo daļa bolsa datu kūpu pīdar atseviškim uzjāmumim, kas kavej inovacejis. Volūdys ar mozu runuotuoju skaitu pasaulī bolsa datu kūpuos ir napīteikami puorstuovātys. Tys zeimoj, ka tehnologejis, kas struodoj ar bolsu, itamuos volūduos nasadorboj voi struodoj švaki. Mes gribim tū maineit, mobilizejūt cylvākus vysā pasaulī, lai jī pasadaleitu ar sovu bolsu i puorbaudeitu īraksteitūs teikumus.</p>
 how-does-it-work-title-v2 = Kai dorbojās Common Voice?
 how-does-it-work-text = Mes pasūlejam atkluotu i breivi daeimamu datu kūpu. Pazīdojit sovu bolsu, apstyprynojit cytu cylvāku īrokstus, uzlobojit datu kūpu deļ vysu.
 
