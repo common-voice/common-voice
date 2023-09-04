@@ -389,6 +389,7 @@ faq-where-src-from-2-a =
     
     Jius varit apsavērt myusu teikumus itamā <githubLink> GitHub mapē </githubLink>.
 faq-why-not-ask-read-q = Deļkuo jius naprosit, lai cylvāki skaiteitu gruomotysa voi Wikipedia rokstus dažaiduos volūduos?
+faq-why-not-ask-read-a = Lai Common Voice datu kūpu padareitu piec vareibys dereiguoku, mes asam nūsprīduši atļaut tamā tikai tekstu, ka ir daīmams saskaņā ar Creative Commons (CC0) liceņzi. Lītojūt CC0 standartu, ir gryušuok atrast i savuokt tekstu, bet tys ļaun sevkuram lītuot dabuotūs bolsa datus bez lītuošonys īrūbežuojumu voi Mozilla atļaujis. Gols golā mes gribim padareit vairuokvolūdu datu bazi dereigu sevkuram, tamā vydā pietnīkim, universitatem, uzjāmumim, vaļdeibom, socialuo mierka organizacejom i vīnkuorši tehnologeju entuziastim.
 faq-why-account-q = Deļkuo maņ juosaregistrej?
 faq-is-account-public-q = Voi muna konta informaceja ir publiski daīmama?
 faq-how-privacy-q = Kai jius nūdrūsynuosit tū cylvāku anonimitati i privatumu, kuri pazīduoja sovus bolsus?
