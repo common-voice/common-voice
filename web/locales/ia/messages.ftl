@@ -557,7 +557,7 @@ about-clip-graveyard-text = Le Cemeterio de retalios consiste del retalios vocal
 about-get-involved = Collabora
 about-get-involved-text-2 =
     Vole adjutar a meliorar Common Voice?
-    Optimo! Continge nos via e-mail o le foros de <discourseLink>Discourse</discourseLink>,
+    Optimo! Contacta nos via e-mail o le foros de <discourseLink>Discourse</discourseLink>,
     signala problemas con le sito via <githubLink>GitHub</githubLink>,
     o junge te al conversation communitari sur <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Como me mantene io in contacto?
