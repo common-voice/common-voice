@@ -1766,6 +1766,7 @@ report-sc-different-language = Další jazyk
 report-sc-different-language-detail = Je napsána v jiném jazyce, než jaký ověřuji.
 sentences-fetch-error = Při načítání vět došlo k chybě
 review-error = Při ověřování věty došlo k chybě
+review-error-rate-limit-exceeded = Jedete příliš rychle. Věnujte prosím chvíli kontrole věty, abyste se ujistili, že je správná.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Probíhají rozsáhlé úpravy
 sc-redirect-page-subtitle-1 = Aplikace Sentence Collector přechází na základní platformu Common Voice. Nyní můžete přímo na Common Voice jednotlivé věty <writeURL>psát</writeURL> nebo <reviewURL>ověřit</reviewURL>.

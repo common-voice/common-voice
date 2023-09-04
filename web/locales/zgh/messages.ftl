@@ -1790,6 +1790,7 @@ report-sc-different-language = ⵜⵓⵜⵍⴰⵢⵜ ⵉⵎⵣⴰⵔⴰⵢⵏ
 report-sc-different-language-detail = ⵜⴻⵜⵜⵢⴰⵔⴰ ⵙ ⵢⴰⵜ ⵜⵓⵜⵍⴰⵢⵜ ⵉⵎⵣⴰⵔⴰⵢⵏ ⵅⴼ ⵜⴰⴷⴰ ⵙⵙⵉⵔⵉⵎⵖ.
 sentences-fetch-error = ⵜⵊⵕⴰ ⵢⴰⵜ ⵜⵣⴳⵍⵜ ⴽⵓⴷⵏⵏⴰ ⴷ ⵏⵜⵜⴰⵡⵢ ⵜⵉⵡⵉⵏⴰⵙ
 review-error = ⵜⵊⵕⴰ ⵢⴰⵜ ⵜⵣⴳⵍⵜ ⴳ ⵓⵙⵙⵉⵔⵎ ⵏ ⵜⵡⵉⵏⵙⵜ ⴰ
+review-error-rate-limit-exceeded = ⵍⴰ ⵜⴻⵜⵜⴷⴷⵓⴷ ⵙ ⴽⵉⴳⴰⵏ ⵏ ⵜⴰⵣⵣⵍⴰ. ⵎⴽ ⵜⵓⴼⵉⴷ ⴰⵎⵥ ⵢⴰⵜ ⵜⵉⵣⵉ ⵃⵎⴰ ⴰⴷ ⵜⵙⵙⵉⵔⵎⴷ ⵜⵓⵙⵙⵉⴼⵜ ⵃⵎⴰ ⴰⴷ ⵜⵃⵇⵇⴰⴷ ⵉⵙ ⵜⵓⵖⴷ.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = ⵍⴰ ⵏⵙⴽⴰⵔ ⴽⵔⴰ ⵏ ⵉⵙⵏⴼⵍⵏ ⵉⵎⵇⵇⵔⴰⵏⵏ
 sc-redirect-page-subtitle-1 = ⵔⴰⴷ ⵉⵎⵎⵓⵜⵜⵢ ⵙⴰⵏⵜⵏⵙ ⴽⵓⵍⵉⴽⵜⵓⵔ ⵖⵔ ⵜⵙⵉⵍⴰ ⵜⴰⴷⵙⵍⴰⵏⵜ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ. ⵜⵣⵎⵔⴷ ⴷⵖⵉ <writeURL>ⴰⴷ ⵜⴰⵔⴰⴷ</writeURL> ⴽⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ ⵏⵉⵖ <reviewURL>ⴰⴷ ⵜⵙⵙⵉⵔⵎⴷ</reviewURL> ⴰⵣⴰⵏⵏ ⵏ ⵜⵡⵉⵏⵙⵜ ⵜⴰⴼⵔⴷⵉⵜ ⴳ ⴽⴰⵎⵏⴼⵓⵢⵙ.

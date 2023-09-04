@@ -1802,6 +1802,7 @@ report-sc-different-language = Oare taal
 report-sc-different-language-detail = It is skreaun yn in oare taal dan hokker ik oan it beoardielen bin.
 sentences-fetch-error = Der is in flater bard by it opheljen fan sinnen
 review-error = Der is in flater bard by it beoardielen fan dizze sin
+review-error-rate-limit-exceeded = Jo geane te hurd. Nim efkes de tiid om de sin te besjen om der wis fan te wêzen dat dizze korrekt is.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Wy fiere inkelde grutte feroaringen troch
 sc-redirect-page-subtitle-1 = De Sentence Collector ferhuzet nei de kearn fan it Common Voice-platfoarm. Jo kinne no in sin <writeURL>skriuwe</writeURL> of ynstjoeringen fan losse sinnen <reviewURL>beoardiele</reviewURL> op Common Voice.
