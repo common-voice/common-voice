@@ -353,6 +353,10 @@ faq-what-cv-a-2 =
     Bolsa atpazeišonys tehnologeja pamaina veidu, kai mes mejīdorbojamīs ar īkuortom, tok itūšaļt daīmamuos sistemys ir duorgys i patentātys. Mozilla Common Voice ir iniciativa, lai padareitu bolsa atpazeišonys tehnologejis lobuokys i daīmamys sevkuram. Common Voice ir globala pazīduotū bolsu datu baze, kas ļaun sevkuram dreiži i vīnkuorši apvuiceit ar bolsu darbynomys lītuotnis vysaiduos volūduos.
     Mes na tik vuocam bolsa paraugus plotai runuotuos volūduos, bet ari tymuos, kuruos runuotuoju skaits ir mozuoks. Vysaideigu bolsu datu kūpys publiciešona ļaus izstruoduotuojim, uzjiemiejim i kūpīnom pošom nūvierst napiļneibys volūdu bolsa tehnologeju atbolstā vysaiduos volūduos.
 faq-why-important-q = Deļkuo tys ir svareigi?
+faq-why-important-a =
+    Runa bīži viņ ir vysdabiskuokais veids, kai mes sasazynojam sovstarpeigai, i bolsa tehnologejis nūdrūsynoj itū parūceibu myusu datorim i mobilajom īkuortom. Mes gribim dūt vareibu izstruoduotuojim taiseit breineigys bolsa atpazeišonys lītuojuma programys, par pīmāru, realuo laika tulkuotuojus i bolsa īspiejuotus digitalūs paleigus. Bet niu leluokuo daļa bolsa datu, kas vajadzeigi, lai sataiseitu itaida veida lītuojuma programys, ir duorgi i patentāti. Mums ticīs, ka Common Voice datu kūpa dūd izstruoduotuojim tū, kas jim ir vajadzeigs, lai īdzeivynuotu jaunynuojumus i padareitu runys tehnologeju daīmamu sovā volūdā.
+    
+    Lai padareitu bolsa atpazeišonu vēļ universaluoku, mes savuocam bolsa paraugus plotai runuotuos volūduos, kai ari tamuos volūduos, kuruos ir mozuoks runuotuoju skaits i kū bīži aizmierst komerciali runys atpazeišonys pakolpuojumi. Daudzveideigu bolsu datu kūpu publiciešona ļaus izstruoduotuojim, uzjiemiejim i vysai runys kūpīnai pošim atrysynuot itū plaisu.
 faq-how-get-q = Kai es varu dabuot Common Voice datus?
 faq-how-get-a = Common Voice datu kūpa ir daīmama zamynluodei, lītojūt <licenseLink> CC0 </licenseLink> liceņzi lopā <datasetLink>datu kūpa</datasetLink>. Jius itamā lopā varit zamynluodēt ari vairuokys cytys publiski daīmamys datu kūpys.
 faq-when-release2-q = Kod jius publicēsit Common Voice datus cytuos volūduos?
