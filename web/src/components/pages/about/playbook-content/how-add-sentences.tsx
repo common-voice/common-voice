@@ -10,9 +10,16 @@ const HowAddSentences = React.memo(() => {
         id="about-playbook-how-add-sentences-content-1"
         elems={{
           strong,
-          scAccountLink: (
+          writePageLink: (
             <a
-              href="https://commonvoice.mozilla.org/sentence-collector/login"
+              href="https://commonvoice.mozilla.org/write"
+              target="_blank"
+              rel="noopener noreferrer"
+            />
+          ),
+          reviewPageLink: (
+            <a
+              href="https://commonvoice.mozilla.org/review"
               target="_blank"
               rel="noopener noreferrer"
             />
