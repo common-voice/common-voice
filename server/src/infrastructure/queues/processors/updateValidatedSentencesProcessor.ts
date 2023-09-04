@@ -4,6 +4,7 @@ import { pipe } from 'fp-ts/lib/function'
 import { ValidateSentencesJob } from '../types/ValidateSentencesJob'
 import { queryDb } from '../../db/mysql'
 import { DatabaseQuery } from '../../db/types/database'
+import { ResultSetHeader } from 'mysql2'
 
 const updateValidatedSentencesQuery = `
   UPDATE sentences
@@ -29,6 +30,7 @@ const processValidatedSentences =
 
     return pipe(
       query(updateValidatedSentencesQuery)([]),
+      TE.map(([res, _]: [ResultSetHeader, unknown]) => console.log(`Updated ${res.changedRows} validated sentences`)),
       TE.getOrElse(err => T.of(console.log(err)))
     )()
   }
