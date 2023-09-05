@@ -311,8 +311,8 @@ rich-data = Ikatu hag̃uáicha umi mba’ekuaarã emondóva toĩporãmba, ohecha
 improve-audio = Marandu mba’ete rehegua omoporãve mba’epu ojepurúva osẽ porãve hag̃uáicha ñe’ẽ ñeikũmby.
 keep-track = Eikuaa tapiaite mba’éichapa oguata ohóvo ne rembiapo ha avei ambue ñe’ẽ rembiapo.
 compare-progress = Ehecha akóinte máva rembiapópab itenondeve ñande yvy ape ári.
-view-goals = Ehecha moõpevépa reg̃uahẽma ne rembiapópe ha mboýpa hemby rehupyty hag̃ua rehupytyséva térã ojehupytyséva aponde’ápe.
-join-newsletter = Ikatu avei reike ore rerarysýipe romog̃uahẽmi hag̃ua ndéve marandu ipyahúva aponde’a rehegua.
+view-goals = Ehecha moõmapa reg̃uahẽ ne rembiapo ha rejaposévape.
+join-newsletter = Reikekuaa ore rerarysýipe romog̃uahẽ hag̃ua ndéve marandu ipyahúva apopyrã rehegua.
 
 ## What's public
 
