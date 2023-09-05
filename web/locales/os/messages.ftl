@@ -917,6 +917,7 @@ sc-settings-title = Рæвдзгæнæнтæ
 
 create-profile-button = Дæ профиль скæн
 example = Дæнцæг
+offensive-content-explanation = Хъуыдыйæдтæ сгæрст æрцæуынц æмбалады модераци процессы фæрцы, фæлæ уæддæр ацы процесс æнаипп нæу. Ды куы фенай кæнæ фехъусай, дæ зæрдæхудты кæй цæуы кæнæ хъыг дын кæй у, ахæм хъуыдыйад, зæгъæм, уымæн æмæ уый халы нæ <participationGuidelines>æмбалады хайады фæтк</participationGuidelines>, уæд, дæ хорзæхæй, æрхæц тырысайы цæппæрыл интерфейсы. Стæй дæ бон у немæ сбæттын <emailFragment>commonvoice@mozilla.com</emailFragment>.
 citing-sentences-explanation-1 = Хъуыдыйады ратæдзæн бацамонын тынг ахсджиаг у, мах цæмæй зонæм хъуыдыйæдтæ æхсæнады хæзнайæ ист кæй сты, уый.
 citing-sentences-subheader-websites = Веб-сайттæ
 citing-sentences-subheader-websites-explanation = Сайт бацамонын, зæгъæм: "Common Voice - https://commonvoice.mozilla.org/"
