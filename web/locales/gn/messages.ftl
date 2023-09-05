@@ -316,9 +316,9 @@ join-newsletter = Reikekuaa ore rerarysýipe romog̃uahẽ hag̃ua ndéve marand
 
 ## What's public
 
-whats-public = Mba’épa ohechakuaáta opavave
-email-not-public = Ne ñe’ẽveve ndoikuaamo’ãi mavave.
-recordings-and-locale-public = Mboýpa reipytyvõva’ekue ojekuaaukáta.
+whats-public = Mba’épa ojehechakuaáta
+email-not-public = Noromoherakuãmo’ãi ne ñanduti veve.
+recordings-and-locale-public = Mboýpa eñe’ẽñongatu ha umi ñe’ẽ eipytyvõhague ohechakuaáta opavavete.
 username-optin-public = Erekuaa avei reipotápa ojekuaa ndeipot poruhára réra.
 demographic-deidentified-clarity-2 = Kuaapyrã avano’õ rehegua remoĩkuaáva avei (techapyrãrõ aryve, meña, ñe’ẽte ha ñembohyapu reko) ndojekuaaukamo’ãi araka’eve nde roguetépe, ha noñembojoajumo’ãi avei nde poruhára rérare kuaapy’atýpe. Mba’erendurã oñembojoajúta kuaapy avano’õ rehegua rehe ikatu hag̃uáicha oñehesa’ỹijoporãve mba’ekuaapy - techapyrãrõ oĩramo tembiporu apohára omoheñoiséva tembiporu peteĩ tetã térã tetãpehẽme g̃uarã.
 username-email-not-demographic = Mavave ndoikuaamo’ãi nde poruhára réra ni ñe’ẽveve oiporukuévo ñe’ẽryapu.
