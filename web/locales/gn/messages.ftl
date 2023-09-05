@@ -279,9 +279,9 @@ hours-recorded = Aravo ñongatupyre
 hours-validated = Aravo moneĩmbyre
 voices-online = Ahy’o Oĩva ko’ág̃a Ñandutípe
 todays-progress = Mboýpa ñaneakãrapu’ã ko árape
-help-reach-goal = Orepytyvõmína rohupytývo { $goal }
+help-reach-goal = Orepytyvõmi rohupytývo { $goal }
 read-terms-q = ¿Remoñe’ẽma ore mbojojaha?
-ready-to-record = Reimembámapa eme’ẽ hag̃uáicha ne ñe’ẽ
+ready-to-record = Reimémapa eme’ẽ hag̃ua nde ayvu
 all-locales = Opavave
 today = Ko’árape
 x-weeks-short =
@@ -301,14 +301,14 @@ x-years-short =
     }
 help-make-dataset = Orepytyvõ romoheñóivo mba’ekuaarã ijurujáva ha opavavépe g̃uarã
 sign-up-account = Eñemboheraguapy ne mba’eterã
-email-subscription-title = eñemboheraguapy ou hag̃ua marandu ñandutiveve rupi
-email-subscription-title-new = Eñemboheraguapy og̃uahẽmi hag̃ua ndéve marandu ipyahúva ha tekotevẽva ojejapo rehegua ha avei reikuaávo mba’éichapa oguata ohóvo tembiapo.
+email-subscription-title = eñemboheraguapy ou hag̃ua marandu ñandutivevépe
+email-subscription-title-new = Eñemboheraguapy og̃uahẽ hag̃ua marandu, mandu’arã ha ñembohekopyahu Common Voice rehegua
 
 ## Account Benefits
 
-benefits = Iporãva oguerúva
-rich-data = Ikatu hag̃uáicha iporupyrã añetéva ñe’ẽryapu ñongatupyrea eremi moõguápa ou. Upéva noñemoherakuãmo’ãi katu oipytyvõhetáta.
-improve-audio = Marandu ñe’ẽryapu rehegua oipytyvõ osẽ porãve hag̃ua ñe’ẽ ñeikũmby.
+benefits = Iporãva gueruha
+rich-data = Ikatu hag̃uáicha umi mba’ekuaarã emondóva toĩporãmba, ohechaukáva mba’ekuaarã yvypóra rehegua ojekuaa'ỹva. Umi mba’ekuaarã noñemoherakuãmo’ãi avavetépe.
+improve-audio = Marandu mba’ete rehegua omoporãve mba’epu ojepurúva osẽ porãve hag̃uáicha ñe’ẽ ñeikũmby.
 keep-track = Eikuaa tapiaite mba’éichapa oguata ohóvo ne rembiapo ha avei ambue ñe’ẽ rembiapo.
 compare-progress = Ehecha akóinte máva rembiapópab itenondeve ñande yvy ape ári.
 view-goals = Ehecha moõpevépa reg̃uahẽma ne rembiapópe ha mboýpa hemby rehupyty hag̃ua rehupytyséva térã ojehupytyséva aponde’ápe.
