@@ -5,6 +5,7 @@ import ca from './languages/ca'
 import ckb from './languages/ckb'
 import en from './languages/en'
 import eo from './languages/eo'
+import he from './languages/he'
 import ig from './languages/ig'
 import it from './languages/it'
 import kab from './languages/kab'
@@ -37,6 +38,7 @@ const VALIDATORS: Validators = {
   ckb,
   en,
   eo,
+  he,
   ig,
   it,
   kab,
