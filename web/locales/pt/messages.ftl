@@ -153,6 +153,7 @@ nyn = Ancolé
 oc = Occitânico
 om = Afaan Ormoo
 or = Odia
+os = Osseto
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polonês
