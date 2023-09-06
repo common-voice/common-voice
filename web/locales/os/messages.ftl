@@ -745,14 +745,26 @@ data-other-ted-name = TED-LIUM корпус
 data-other-ted-description = TED-LIUM корпус конд æрцыд аудио ныхæстæй æмæ сæ транскрипцитæй, кæцытæ æнцонвадат сты TED вебсайты.
 data-other-voxforge-description = VoxForge фидаргонд æрцыд æмбырд кæнынмæ транскрибгонд ныхас пайда кæнынæн уæгъдибар æмæ гом ныхас раиртасæн механизмтимæ.
 data-other-tatoeba-description = Tatoeba у хъуыдыйæдтæ, тæлмацтæ æмæ дзурæн аудиотæй ставд рардты базæ пайда кæнынæн æвзаджы ахуыр кæныны. Ацы равгæды ис, фыст кæй æрцыд сæ æмбаладæй, ахæм дзурæн англисаг.
+your-feedback = Ис дæм хъуыдытæ, нæ бон куыд у Common Voice датасет хуыздæр скæнын, ууыл? Фехъусын нын кæн Дискурсы
+go-discourse = Рацу Discourse-мӕ
+missing-language = Нӕ уыныс де ʼвзаг ӕвдыст рардты ӕмбырды? Бафарст бахӕссынмӕ бацу не ʼвзӕгты фарсмӕ.
+go-languages-page = Бацу æвзæгты фарсмæ
+ready-to-validate = Цæттæ дæ бахуыс кæнынмæ хъуыдыйæдтæ сгарынæн?
 more = Фылдæр
 close = Бахгæн
 download = Равгæн
 dataset-version = Фæлтæр
+sha256-checksum-copied = SHA256 чексуммæ къопигонд у!
+sha256-checksum-copied-error = Фæкъуыхцы SHA256 чексуммæйы къопи сисынæй
+clipboard-not-supported = Ивды буфер нæ кусы
 
 ## Download Modal
 
 download-title = Дæ бавгæд райдыдта.
+download-helpus = Баххуыс нын кæн саразынæн æмбалад хъæлæсон технологийы тыххæй, контакты баззай электронон посты фæрцы.
+download-form-email =
+    .label = Ныффысс дæ электронон посты адрис
+    .value = Бузныг, мах контакты баззайдзыстæм.
 download-no = Нæ, бузныг
 
 ## Contact Modal
@@ -771,26 +783,43 @@ other-language = Æндæр æвзаг
 
 ## Request Language Pages
 
+request-language-explanation-2 = Мах <strong>бауадздзыстæм дæр не 'мбалады менеджерæн базонын, ды интересы бацæуæг кæй дæ<strong>, цæмæй уыдон дын раттой алы уæлæмхасæн æххуыс кæнæ информаци, дæу цы, гæнæн ис, æмæ хъæуы, ахæм.
+request-language-form-email =
+    .label = Дæ электронон посты адрис
 request-language-form-info =
     .label = Информаци æвзаджы тыххæй
 request-language-form-info-explanation-list-1 = Де ’взаджы нæмттæ
+request-language-form-info-explanation-list-3 = Арвитæнтæ, сæ бон кæй у баххуыс нын кæнын де 'взаг бамбарын, ахæм вебсайттæм.
 request-language-google-recaptcha-required = reCAPTCHA хъæуы, кæд дæ дарддæр фæнды
+request-language-google-recaptcha-error = Цыдæр фæкъуыхцы и reCAPTCHA-имæ. Дæ хорзæхæй, бафæлвар ногæй
 # Success page
 request-language-success-heading = Бузныг! Ды арвыстай ног æвзаджы бафарст
+request-language-success-list-1 = Тагъд рæстæджы ды хъуамæ райсай, бамбарын кæй кæны къахдзæфтæ бафтауынмæ де ʼвзаг Common Voice-мæ, ахæм электронон фыстæг.
+request-language-success-list-2 = Не ʼмбалады менеджер хи сбæтдзæн демæ уæлæмхасæн æххуыс бахъарынмæ æмæ фехъусын дын кæнынмæ, кæд дзы ис ныридæгæн де ʼвзагыл кусæг æмбалад, уый.
+request-language-success-list-3 = Махæй куы ницы фехъусай дыууæ боны дæргъы, уæд ныффысс <emailLink>{ $email }</emailLink>, æмæ мах раздæхдзыстæм дæумæ!
+request-language-error = Гæнæн и, æмæ мах нæ райстам ацы бафарст. Дæ хорзæхæй, ныффысс нын комкоммæ <emailLink>{ $email }</emailLink>, æмæ мах раздæхдзыстæм дæумæ!
 
 ## Languages Overview
 
+language-section-in-progress = Бакуысты къæпхæныл
 language-section-launched = Куыст райдыдта
+language-section-launched-description = Кæй райдыдтой, ацы æвзæгтæн вебсайт æнтыстджынæй <localizationGlossaryLink>локализацигонд æрцыд</localizationGlossaryLink>, æмæ йæм и фаг <sentenceCollectionGlossaryLink>æмбырд хъуыдыйæдтæ</sentenceCollectionGlossaryLink>, цæмæй бауадзой æнæсцух <speakLink>ныхасы</speakLink> æмæ <listenLink>хъусын</listenLink> нывæрдтытæ.
 languages-show-more = Фылдæр фен
 languages-show-less = Къаддæр уынын
+language-meter-in-progress = Æххæсткæныны къæпхæн
 language-total-progress = Æдæппæт
 language-search-input =
     .placeholder = Агур
+language-speakers = Дзурджытæ
+localized = Локализацигонд
 sentences = Хъуыдыйæдтæ
 language-validation-hours = Сахæттæ
+language-validation-progress = Басгæрсты æххæсткæныны къæпхæн
 
 ## Contribution
 
+action-click = Æрхæц
+action-tap = Фæцагай
 listen = Хъус
 write = Фысс
 skip = Ныууадз
