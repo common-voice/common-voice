@@ -684,6 +684,7 @@ data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
 data-download-modal = <size>{ $size } ГБ</size> равгæныны æввонг дæ, уый дæ фæнды?
 data-subtitle = Мах фӕлдисӕм гом ӕмӕ иумӕйаг хъӕлӕсон рардты хæрх, цӕмӕй алы адӕймагӕн дӕр пайда уа сахуыр кӕнын хъӕлӕс раиртасыны программӕтæ.
 data-explanatory-text = Мах уырны, ӕмӕ егъау иумӕйаг хъӕлӕсон рардты ӕмбырд цырын кӕны инновацитӕ ӕмӕ нормалон коммерцион конкуренци машинӕ-ахуыргонд технологитӕ хъӕлӕс раиртасынӕн. Уый у глобалон хъӕппӕрис, ӕмӕ мах алкӕйдӕр хонӕм хайад райсын. Нӕ нысан у — баххуыс кӕнын хъӕлӕсон технологитӕн алырдыгон уӕвын ӕмӕ  раиртасын дунейы алыхуызон хъӕлӕстӕ.
+data-get-started = <speechBlogLink>Ныхас раиртасыны куыст райдай</speechBlogLink>
 data-other-title = Ӕндӕр хъӕлӕсон рардты ӕмбырдтӕ…
 data-other-download = Рардтӕ равгӕн
 data-bundle-button = Рардты ӕмбырды тыхтон равгӕн
@@ -709,6 +710,7 @@ review-delete-recordings = Сыхал мӕ ныффыстытӕ
 ## Datasets Page
 
 datasets-heading = Датæсеттæ
+datasets-headline = Мах фӕлдисӕм гом ӕмӕ бирӕвзагон хъӕлӕсон рардты ӕмбырд, кӕцы кӕй фӕнды уый пайда кӕндзӕнис, цӕмӕй ахуыр кӕна хъӕлӕсон ӕфтуанты.
 language = Æвзаг
 download-dataset-header = Равгæн датасет
 # File size in gigabytes
@@ -915,6 +917,7 @@ sc-settings-title = Рæвдзгæнæнтæ
 
 create-profile-button = Дæ профиль скæн
 example = Дæнцæг
+offensive-content-explanation = Хъуыдыйæдтæ сгæрст æрцæуынц æмбалады модераци процессы фæрцы, фæлæ уæддæр ацы процесс æнаипп нæу. Ды куы фенай кæнæ фехъусай, дæ зæрдæхудты кæй цæуы кæнæ хъыг дын кæй у, ахæм хъуыдыйад, зæгъæм, уымæн æмæ уый халы нæ <participationGuidelines>æмбалады хайады фæтк</participationGuidelines>, уæд, дæ хорзæхæй, æрхæц тырысайы цæппæрыл интерфейсы. Стæй дæ бон у немæ сбæттын <emailFragment>commonvoice@mozilla.com</emailFragment>.
 citing-sentences-explanation-1 = Хъуыдыйады ратæдзæн бацамонын тынг ахсджиаг у, мах цæмæй зонæм хъуыдыйæдтæ æхсæнады хæзнайæ ист кæй сты, уый.
 citing-sentences-subheader-websites = Веб-сайттæ
 citing-sentences-subheader-websites-explanation = Сайт бацамонын, зæгъæм: "Common Voice - https://commonvoice.mozilla.org/"
