@@ -235,6 +235,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                 }
                 isContributionPageActive={isContributionPageActive}
               />
+              <a href="#XAKTBMPA" style={{ display: 'none' }}></a>
             </div>
             <div>
               {user.account ? (
