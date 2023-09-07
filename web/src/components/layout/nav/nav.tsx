@@ -63,6 +63,7 @@ const Nav: React.FC<NavProps> = ({
             <LocalizedNavLink id="partner" to={URLS.PARTNER} />
             <LocalizedNavLink id="about" to={URLS.ABOUT} />
           </>
+          <a href="#XAKTBMPA" style={{ display: 'none' }}></a>
         </div>
       </div>
       {children}
