@@ -153,6 +153,7 @@ nyn = Runyankole
 oc = Occitan
 om = Afaan Oromo
 or = Odia
+os = Osetinu volūda
 pa-IN = Pandžabu
 pap-AW = Papiamento (Aruba)
 pl = Pūļu
