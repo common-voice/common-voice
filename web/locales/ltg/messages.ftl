@@ -1360,7 +1360,7 @@ sc-submit-confirm = Es apstyprynoju, ka itī ir <wikipediaLink>publiskuo domena<
 sc-submit-button =
     .submitText = Nūsyuteit
 sc-submit-filtered = Filtrāti teikumi deļ praseibu napiļdeišonys (lyudzu, dalīcit lobuotys teikumu versejis kai jaunus teikumus):
-sc-submit-guidelines = Lyudzu, puorbaudit <howToLink>vadlinejis</howToLink>.
+sc-submit-guidelines = Lyudzu, puorbaudit <howToLink>vodlinejis</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -1713,8 +1713,8 @@ new-sentence-rule-7 = Nūruodit teikuma olūtu
 new-sentence-rule-8 = Dabiski sarunvolūdys teikumi (tim juobyut vīgli īrunuojamim)
 how-to-cite = Kai nūruodeit olūtu?
 how-to-cite-explanation-bold = Nūruodit sātyslopys adresi voi dorba pylnu nūsaukumu.
-how-to-cite-explanation = Ka itys ir jiusu izdūmuots teikums, vīnkuorši nūruodit <italicizedText>“Pošatsauce”</italicizedText>. Mums ir juozyna teikumu olūti, lai mes varātu puorbaudeit, voi tys ir publiski daīmams i iz tū naatsatīc nikaidi autortīseibu īrūbežuojumi. Papyldu informaceju par atsaucem veritēs myusu <guidelinesLink>vadlineju lopā</guidelinesLink>.
-guidelines = Vadlinejis
+how-to-cite-explanation = Ka itys ir jiusu izdūmuots teikums, vīnkuorši nūruodit <italicizedText>“Pošatsauce”</italicizedText>. Mums ir juozyna teikumu olūti, lai mes varātu puorbaudeit, voi tys ir publiski daīmams i iz tū naatsatīc nikaidi autortīseibu īrūbežuojumi. Papyldu informaceju par atsaucem veritēs myusu <guidelinesLink>vodlineju lopā</guidelinesLink>.
+guidelines = Vodlinejis
 contact-us = Sasazynuot
 add-sentence-success = Savuokts 1 teikums
 add-sentence-error = Klaida davīnojūt teikumu
@@ -1722,7 +1722,7 @@ required-field = Lyudzu, aizpiļdit itū lauku.
 # REVIEW PAGE
 sc-review-instruction-first-part = Puorbaudi
 sc-review-instruction-second-part = voi itys ir lingvistiski pareizs teikums?
-sc-review-rules-title = Vai teikums atbylst vadlinejom?
+sc-review-rules-title = Vai teikums atbylst vodlinejom?
 sc-review-empty-state = Itūšaļt itamā volūdā nav teikumu, kū puorbaudeit.
 report-sc-different-language = Napareiza volūda
 report-sc-different-language-detail = Tys ir uzraksteits volūdā, kas atsaškir nu tuos, kū itūšaļt puorbaudu.
