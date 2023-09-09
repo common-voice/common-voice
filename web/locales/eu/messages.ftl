@@ -1,17 +1,17 @@
 ## General
 
-yes-receive-emails = Bai, bidali e-postak niri. Common Voice proiektuari buruz informatuta egon nahi nuke.
-stayintouch = Mozillan hizkuntza teknologiaren inguruan komunitate bat eraikitzen ari gara. Zurekin harremanetan egon nahiko genuke eguneraketen berri emateko, datu-iturri berriak eta datu hauek nola erabiltzen ari zaren.
+yes-receive-emails = Bai, bidali mezu elektronikoak niri. Common Voice proiektuari buruzko informazioa jaso nahi nuke.
+stayintouch = Mozillan hizkuntza-teknologiaren inguruan komunitate bat osatzen ari gara. Zurekin harremanetan egon nahiko genuke eguneraketen berri emateko, datu-iturri berriak jasotzen eta datu hauek nola erabiltzen ari zaren jakiteko.
 privacy-info = Zure informazioa kontuz tratatuko dugula agintzen dizugu. Irakurri gehiago gure <privacyLink>pribatutasun oharpenean</privacyLink>.
 return-to-cv = Itzuli Common Voicera
 email-input =
-    .label = E-posta
+    .label = Helbide elektronikoa
 submit-form-action = Bidali
 loading = Kargatzen…
 email-opt-in-info = Common Voice-ri buruzko helburuen abisuak, nire aurrerapenaren eguneraketak eta buletinak jaso nahi ditut posta elektroniko bidez.
 email-opt-in-info-title = Batu Common Voice posta-zerrendara
 email-opt-in-info-sub-with-challenge = Jaso posta elektroniko bidez Common Voice-ri buruzko helburuen abisuak, aurrerapenaren eguneraketak eta buletinak.
-email-opt-in-privacy-v2 = E-postak jaso nahi dituzula adieraziz, Mozillak zure informazioa kudeatzea onartzen duzula esan nahi du, Mozillaren <privacyLink>pribatutasun politikan<privacyLink> adierazten den erara.
+email-opt-in-privacy-v2 = Mezu elektronikoak jaso nahi dituzula adierazteak Mozillak zure informazioa kudeatzea onartzen duzula esan nahi du, Mozillaren <privacyLink>pribatutasun politikan<privacyLink> adierazten den erara.
 indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 not-available-abbreviation = N/A
 banner-error-slow-1 = Barkatu, Common Voice orain geldo dabil. Zure interesa eskertzen dugu.
