@@ -15,11 +15,11 @@ email-opt-in-privacy-v2 = Mezu elektronikoak jaso nahi dituzula adierazteak Mozi
 indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 not-available-abbreviation = N/A
 banner-error-slow-1 = Barkatu, Common Voice orain geldo dabil. Zure interesa eskertzen dugu.
-banner-error-slow-2 = Trafiko asko jasotzen ari gara eta arazoaren jatorria ikertzen ari gara.
-banner-error-slow-link = Egoera orrialdea
+banner-error-slow-2 = Trafiko handia jasotzen ari gara eta arazoaren jatorria ikertzen ari gara.
+banner-error-slow-link = Egoera web-orria
 error-something-went-wrong = Barkatu, zerbait gaizki joan da
-error-clip-upload = Grabazio hauek igoerak huts egiten jarraitzen du, berriz saiatzen jarraitu?
-error-clip-upload-server = Grabazio hauek igoerak huts egiten jarraitzen du zerbitzarian. Birkargatu orrialdea edo saiatu berriz beranduago.
+error-clip-upload = Grabazio hauen igoerak huts egiten jarraitzen du, berriz saiatzen jarraitu nahi?
+error-clip-upload-server = Grabazio hauen igoerak huts egiten jarraitzen du zerbitzarian. Birkargatu web-orria edo saiatu berriz beranduago.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -219,11 +219,11 @@ logout = Itxi saioa
 home-title = Common Voice, egiazko jendeak nola hitz egiten duen makinei ikasten laguntzeko ekimena da.
 default-tagline = Mozilla Common Voice benetako jendeak nola hitz egiten duen makinei erakusten laguntzeko ekimena da.
 home-cta = Mintzatu, lagundu hemen!
-wall-of-text-start = Ahotsa naturala da, ahotsa gizatiarra da. Horregatik hain zuzen gure gailuetarako ahots teknologia erabilgarria sortzearen ideiak sorginduta gauzka.  Baina ahots sistemak sortzeko benetan ahots grabazio asko behar dira.
-wall-of-text-more-mobile = Enpresa handiek erabiltzen dituzten datu gehienak ez daude jende gehienaren eskura. Horrek berrikuntza  itotzen duela uste dugu. Horregatik, Common Voice proiektua hasi dugu, ahotsaren ezagutza guztioi irekita usten laguntzen duena.
-wall-of-text-more-desktop = Orain zure ahotsa utz dezakezu ahots datu-base ireki bat eraikitzen laguntzeko eta horrekin gailuetarako eta weberako app berritzaileak sortzen laguntzeko. Irakur ezazu esaldi bat benetako hiztun batek nola hitz egiten duen makinei irakasteko. Egiaztatu ezazu beste laguntzaileen lana kalitatea hobetzeko. Benetan sinplea da ekimen honetan laguntzea!
-wall-of-text-first = Ahotsa naturala da, ahotsa gizatiarra da. Horregatik hain zuzen gure gailuetarako ahots teknologia erabilgarria sortzearen ideiak sorginduta gauzka.  Baina ahots sistemak sortzeko, garatzailek benetan ahots grabazio asko behar dituzte.
-wall-of-text-second = Enpresa handiek erabiltzen dituzten datu gehienak ez daude jende gehienaren eskura. Horrek berrikuntza  itotzen duela uste dugu. Horregatik, Common Voice proiektua hasi dugu, ahotsaren ezagutza guztioi irekita usten laguntzen duena.
+wall-of-text-start = Ahotsa naturala da, ahotsa gizatiarra da. Horregatik, hain zuzen, gure gailuetarako ahots teknologia erabilgarria sortzearen ideiak sorginduta gauzka.  Hala ere, ahots sistemak sortzeko, benetan ahots grabazio asko behar dira.
+wall-of-text-more-mobile = Enpresa handiek erabiltzen dituzten datu gehienak ez daude jende gehienaren eskura. Horrek berrikuntza  itotzen duela uste dugu. Horregatik, Common Voice proiektuari ekin genion, ahotsaren ezagutza guztioi irekita uzten laguntzen baitu.
+wall-of-text-more-desktop = Orain zure ahotsa utz dezakezu ahotsen datu-sorta ireki bat osatzen laguntzeko; horrela, gailuetarako eta webguneetarako app berritzaileak sortzen lagunduko duzu. Irakur ezazu esaldi bat benetako hiztun batek bezala, makinei irakasteko nola hitz egiten den. Bestalde, egiaztatu ezazu beste laguntzaileen lana, kalitatea hobetzeko. Benetan sinplea da ekimen honetan laguntzea!
+wall-of-text-first = Ahotsa naturala da, ahotsa gizatiarra da. Horregatik, hain zuzen, gure gailuetarako ahots teknologia erabilgarria sortzearen ideiak sorginduta gauzka.  Baina ahots sistemak sortzeko, garatzaileek benetan ahots grabazio asko behar dituzte.
+wall-of-text-second = Enpresa handiek erabiltzen dituzten datu gehienak ez daude jende gehienaren eskura. Horrek berrikuntza  itotzen duela uste dugu. Horregatik, Common Voice proiektuari ekin genion, ahotsaren ezagutza guztioi irekita uzten laguntzen baitu.
 show-wall-of-text = Irakurri gehiago
 help-us-title = Lagun gaitzazu esaldiak balioztatzen!
 help-us-explain = Sakatu Erreproduzitu botoia, entzun eta esaguzu: ondoko esaldiak zehaztasunez ahoskatu dituzte?
@@ -264,17 +264,17 @@ x-years-short =
 help-make-dataset = Lagun gaitzazu kalitatezko datu-sorta ireki bat sortzen
 sign-up-account = Sortu kontu bat
 email-subscription-title = harpidetu newletterrera
-email-subscription-title-new = Eman izena Common Voice-ren buletin, helburuen abisu eta aurrerapenen eguneraketetara
+email-subscription-title-new = Eman izena Common Voice-ren buletin, helburuen abisu eta aurrerapenen eguneraketak jasotzeko
 
 ## Account Benefits
 
 benefits = Onurak
-rich-data = Bihur itzazu zuk igotako datuak ahalik aberatsen zure profilean datu demografiko anonimo batzuk zehaztuz. Datu demografiko guztiak des-identifikatu egiten ditugu publikoak egin aurretik.
+rich-data = Bihur itzazu zuk igotako datuak ahalik aberatsen zure profilean datu demografiko anonimo batzuk zehaztuz. Datu demografiko guztiak desidentifikatu egiten ditugu publikoak egin aurretik.
 improve-audio = Profileko informazioak hizketaren ezagutzaren trebatzea egiteko erabiltzen diren datuak hobetzen ditu.
 keep-track = Hizkuntza desberdinetan egiten dituzun aurrerapenen eta estatistiken berri izan.
-compare-progress = Ikusi zure aurrerapenak munduan zehar dauden beste laguntzaileenekin konparatuta.
+compare-progress = Ikusi zure aurrerapenak munduan zehar dauden beste laguntzaileekin konparatuta.
 view-goals = Ikusi zure aurrerapenak helburu pertsonalekiko eta proiektuko helburuekiko.
-join-newsletter = Aukera duzu gure e-posta zerrendan izena emateko eta proiektuari buruzko informazioa eta azken berriak jasotzeko.
+join-newsletter = Aukera duzu gure posta-zerrendan izena emateko eta proiektuari buruzko informazioa eta azken berriak jasotzeko.
 
 ## What's public
 
