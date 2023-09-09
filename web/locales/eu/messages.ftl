@@ -279,11 +279,11 @@ join-newsletter = Aukera duzu gure posta-zerrendan izena emateko eta proiektuari
 ## What's public
 
 whats-public = Zer da Publikoa?
-email-not-public = Ez dugu zure e-posta helbidea publiko egingo.
+email-not-public = Ez dugu zure helbide elektronikoa publiko egingo.
 recordings-and-locale-public = Grabazio kopurua eta zein hizkuntzatan laguntzen duzun publikoa izango da.
 username-optin-public = Zure erabiltzaile-izena publikoa edo anonimoa izatea aukera dezakezu.
 demographic-deidentified-clarity-2 = Hautazkoak diren datu demografikoak (adibidez, adina, generoa eta azentua) ez dira inoiz zure profilean publiko egingo, eta ez dira datu-sortan zure kontuarekin lotuko. Banakako grabazioak datu demografikoekin eskaintzen dira azterketa egokiagoa ahalbidetzeko - adibidez, ikerlari batek segmentu demografiko zehatz baterako ahots-eredua trebatu lezake.
-username-email-not-demographic = Zure erabiltzaile-izena eta e-posta ez dira argitaratutako datuekin lotuko.
+username-email-not-demographic = Zure erabiltzaile-izena eta helbide elektronikoa ez dira argitaratutako datuekin lotuko.
 
 ## Speak & Listen Shortcuts
 
@@ -371,7 +371,7 @@ why-profile-title = Zergatik profila?
 why-profile-text = Zuri buruzko zenbait informazio emanez, Common Voicera igotzen dituzun audio datuak Hizketaren Ezagutza motorrentzat erabilgarriagoak izango dira, datu gehigarri hauek emaitzaren zehaztasuna hobetzen baitute.
 dashboard = Arbela
 build-profile = Eraiki profila
-avatar = Avatarra
+avatar = Abatarra
 goals = Helburuak
 settings = Hobespenak
 edit-profile = Editatu profila
@@ -387,11 +387,11 @@ login-identity = Saioa hasteko identitatea
 login = Hasi saioa
 login-signup = Hasi saioa / Eman izena
 edit = Editatu
-email-subscriptions = E-posta harpidetzak
+email-subscriptions = Mezu elektronikoen harpidetzak
 download-profile = Deskargatu nire datuak
-contribution-experience = Eskarmentua laguntzen
+contribution-experience = Eskarmentuari laguntzen
 skip-submission-feedback = Saltatu feedback bidalketa
-skip-submission-description = Bidali sakatzean feedback bidalketa saltatuko duzu. Jarraian beste 5 grabazio egiteko edo balioztatzeko eskainiko zaizkizu.
+skip-submission-description = Bidali sakatzean feedback bidalketa saltatuko duzu. Jarraian beste 5 grabazio egiteko edo balioztatzeko aukera eskainiko zaizu.
 skip-submission-note = Oharra: oraindik hautatu beharra duzu Mintzatu eta Entzun artean zure laguntza-mota aldatzeko.
 off = Itzalita
 on = Piztuta
@@ -405,19 +405,19 @@ help-variants-explanation = Aldaerak hizkuntza baten forma espezifikoak dira - a
 browse-file-title = Igo irudi-fitxategi bat
 browse-file = Arrastatu eta jaregin, edo <browseWrap>nabigatu</browseWrap>
 connect-gravatar = Konektatu Gravatarrera
-gravatar_not_found = Ez da gravatarrik aurkitu zure e-postarako
+gravatar_not_found = Ez da gravatarrik aurkitu zure helbide elektronikorako
 file_too_large = Hautatutako fitxategia handiegia da
-avatar-uploaded = Avatarra igo da
+avatar-uploaded = Abatarra igo da
 max-file-size = { $kb }kb gehienez
-remove-avatar = Kendu avatarra
+remove-avatar = Kendu abatarra
 
 ## Profile - Email
 
 manage-subscriptions = Kudeatu harpidetzak
-manage-email-subscriptions = Kudeatu eposta harpidetzak
-email-already-used = E-posta hori dagoeneko erabili da beste kontu batean
+manage-email-subscriptions = Kudeatu mezu elektronikoen harpidetzak
+email-already-used = Helbide elektroniko hori dagoeneko erabili da beste kontu batean
 add-language = Gehitu hizkuntza
-change-email-setings = Aldatu zure e-posta Hobespenetako "Saioa hasteko identitatea" atalean
+change-email-setings = Aldatu zure helbide elektronikoa Hobespenetako "Saioa hasteko identitatea" atalean
 
 ## FAQ
 
