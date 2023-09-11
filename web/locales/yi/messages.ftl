@@ -1,5 +1,10 @@
 ## General
 
+yes-receive-emails = יא, שיק מיך אימעילס. איך וויל בלייבן אינפארמירט איבער די קאמאן וואויס פראיעקט.
+email-opt-in-info = איך וויל באקומען אימעילס ווי ציל דערמאנונגען, מיין פארשריט באריכטן און נייעס באריכטן איבער קאמאן וואויס.
+email-opt-in-info-sub-with-challenge = באקומט אימעילס ווי טשאלענדזש און ציל דערמאנונגען, פארשריט מעלדונגען, און נייעס באריכטן איבער קאמאן וואויס.
+indicates-required = פלעצער אנגעצייכנט מיט א שטערן (*) זענען פארלאנגט.
+banner-error-slow-2 = מיר באקומען אסאך טרעפיק און מיר פארשטן די פראבלעמען.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
