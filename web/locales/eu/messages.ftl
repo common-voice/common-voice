@@ -425,7 +425,7 @@ faq-title = Ohiko galderak
 faq-what-cv-q = Zer da Common Voice?
 faq-what-cv-a = Ahotsaren ezagutzaren teknologiak, makinekin elkar eragiteko dugun moduan iraultza dakar, baina egun erabilgarri dauden sistemak garestiak eta jabedunak dira. Common Voice, Mozillaren ekimenaren parte da eta bere helburua ahotsaren ezagutzaren teknologiak hobeak eta guztiontzat irisgarriagoak egitea da. Common Voice dohaintzan emandako ahots grabazio-sorta  erraldoia da, edonori ahalbidetu diezaiokeena, potentzialki edozein hizkuntzan, ahotsa erabiltzen duten app-ak modu azkar eta erraz batean trebatzea.
 faq-why-important-q = Zergatik da garrantzitsua?
-faq-why-important-a = Ahotsa gure artean komunikatzeko dugun modurik naturalena da eta ahots teknologiek gaitasun hori gure ordenagailu eta sakelakoek izatea lortzen ari dira. Garatzaileak hizketaren ezagutza aplikazio txundigarriak sortzeko ahaldundu nahi ditugu, denbora errealeko itzultzaileak edo ahots bidezko laguntzaile digitalak bezala. Baina oraintxe bertan, era honetako app-ak sortzeko behar diren ahots-datuak garestiak eta jabedunak dira. Common Voice datu-sortarekin, berritzaileak izateko eta ahots teknologiak beraien hizkuntzetan eskuragarri jartzeko garatzaileek behar dutena ematea espero dugu.
+faq-why-important-a = Ahotsa gure artean komunikatzeko dugun modurik naturalena da eta ahots-teknologiek gaitasun hori gure ordenagailu eta sakelakoek izatea lortzen ari dira. Garatzaileak hizketaren ezagutza aplikazio txundigarriak sortzeko ahaldundu nahi ditugu, denbora errealeko itzultzaileak edo ahots bidezko laguntzaile digitalak bezala. Baina oraintxe bertan, era honetako app-ak sortzeko behar diren ahots-datuak garestiak eta jabedunak dira. Common Voice datu-sortarekin, berritzaileak izateko eta ahots teknologiak beraien hizkuntzetan eskuragarri jartzeko garatzaileek behar dutena ematea espero dugu.
 faq-how-get-q = Nola lor ditzaket Common Voiceko datuak?
 faq-how-get-a = Common Voice datu-sorta deskarga daiteke <licenseLink>CC0</licenseLink></licenseLink> lizentziapean gure <datasetLink>datu-sorten web-orrian</datasetLink>. Bertatik, publikoki deskargatzeko moduan dauden beste hainbat datu-sorta ere deskargatu ditzakezu.
 faq-when-release2-q = Noiz argitaratuko dituzue Common Voiceren datuak beste hizkuntza batzuetan?
@@ -435,7 +435,7 @@ faq-why-mission-a = Mozillaren egitekoa, weba guztiontzat irekia eta eskuragarri
 faq-what-cv-and-deepspeech-q = Zein desberdintasun dago Common Voice eta Deep Speech artean?
 faq-what-cv-and-deepspeech-a = Common Voice datu-sortak Mozillaren Deep Speech ahotsaren ezagutzarako motor librea osatzen du. Deep Speechen lehen bertsioa 2017ko azaroan argitaratu zen eta ordudanik eboluzionatzen jarraitu du. Honek eta Common Voice datu-sortak, ahotsaren ezagutzarako teknologiak izaki, denentzako eskuragarri egon behar dutela uste dugu. Teknologia hauek garatzaileei, produktu eta zerbitzu berritzaileen olatu bat sortzen laguntzea espero dugu.
 faq-is-goal-assistant-q = Common Voicen helburua ahots asistente bat sortzea al da?
-faq-is-goal-assistant-a = Common Voice datu-sortaren helburua, munduko edonori hizketaren ezagutza, hizlari detekzioa edo ahots datuak behar dituen beste edozein aplikazio sortzen laguntzea da. Ahots laguntzaile bat datu-sortarekin sor daitekeen aplikazio motetako bat besterik ez da.
+faq-is-goal-assistant-a = Common Voice datu-sortaren helburua, munduko edonori hizketaren ezagutza, hizlari detekzioa edo ahotsen datuak behar dituen beste edozein aplikazio sortzen laguntzea da. Ahots laguntzaile bat datu-sortarekin sor daitekeen aplikazio motetako bat besterik ez da.
 faq-do-want-native-q = Ez naiz hizlari natiboa eta azentuarekin hitz egiten dut, hala ere, nire ahotsa nahi duzue?
 faq-do-want-native-a = Bai, zure ahotsa bereziki nahi dugu! Common Voicen helburuetako bat ahalik azentu desberdin gehien biltzea da, ahots ezagutza zerbitzuak guztiekin ondo ibil daitezen. Honek esan nahi du natiboak ez diren hizlarien laguntza bereziki erabilgarria dela.
 faq-why-different-speakers-q = Zergatik behar ditugu hainbeste hizlari desberdin hizkuntzako?
@@ -476,7 +476,7 @@ faq-search-for-answers =
 about-title = Zergatik Common Voice?
 about-header-description-v2 =
     <p>Common Voice publikoki eskuragarri dagoen ahotsen datu-sorta bat da, munduko txoko desberdinetako boluntarioek beraien ahotsekin egina. Ahotsa darabilten aplikazioak sortu nahi dituztenek datu-sorta hau erabil dezakete beraien ikasketa automatikoko ereduak trebatzeko.</p>
-    <p>Gaur egun, ahotsen datu-sorta gehienak enpresenak dira eta horrek berrikuntza itotzen du. Gainera ahots datu-sortetan beharko luketena baino gutxiago agertzen dira ondokoak: ingelesez mintzo ez direnak, zuriak ez direnak, dibertsitate funtzionala dutenak, emakumeak eta LGBTQIA+ pertsonak. Honek esan nahi du hainbat hizkuntzatan ez dagoela ahots teknologiarik eta, dagoenean ere, hainbat pertsonarekin ez dabiltzala ondo. Hori aldatu nahi dugu leku guztietako jendea bere ahotsa partekatzen jarriz.</p>
+    <p>Gaur egun, ahotsen datu-sorta gehienak enpresenak dira eta horrek berrikuntza itotzen du. Gainera ahotsen datu-sortetan beharko luketena baino gutxiago agertzen dira ondokoak: ingelesez mintzo ez direnak, zuriak ez direnak, dibertsitate funtzionala dutenak, emakumeak eta LGBTQIA+ pertsonak. Honek esan nahi du hainbat hizkuntzatan ez dagoela ahots-teknologiarik eta, dagoenean ere, hainbat pertsonarekin ez dabiltzala ondo. Hori aldatu nahi dugu leku guztietako jendea bere ahotsa partekatzen jarriz.</p>
 how-does-it-work-title-v2 = Nola dabil Common Voice?
 how-does-it-work-text = Ahotsen datu-sorta ireki bat sortzen ari gara denon artean. Eman zure ahotsa, balioztatu besteen grabazioen egokitasuna, egin datu-sorta hobea guztiontzat.
 
@@ -486,22 +486,22 @@ about-language-req-subtitle = Norbaitek hizkuntza bat gehitzea eskatzen du.
 about-localization-title = Webgunearen lokalizazioa
 about-localization-subtitle = Webguneko testua hizkuntza horretara itzultzen da.
 about-sentence-collection-title = Esaldi bilketa
-about-sentence-collection-subtitle = Esaldiak biltzen dira jendeak altuan irakurtzeko.
+about-sentence-collection-subtitle = Esaldiak biltzen dira jendeak ozenki irakurtzeko.
 about-new-lang-title = Hizkuntza berria martxan
 about-new-lang-subtitle = Common Voice gunea hizkuntza honetan martxan jartzen dugu.
 about-voice-contrib-title = Ahotsen grabaketa
 about-voice-contrib-subtitle = Jendea dator eta bere ahotsarekin laguntzen du.
 about-voice-validation-title = Ahotsen balioztatzea
-about-voice-validation-subtitle = Beste jende batek ahots grabazio horiek balioztatzen ditu.
+about-voice-validation-subtitle = Beste pertsona batzuek ahots grabazio horiek balioztatzen dituzte.
 about-dataset-release-title = Datu-sortaren argitalpena
 about-dataset-release-subtitle = Datu-sorta 3 hilero argitaratzen dugu.
 about-subscribe-text = Common Voicekin harremanetan egon nahi duzu?
 about-speak = Hitz egin
-about-speak-text = Parte hartzaileek beraien grabazioak egiten dituzte aurretik lagatako esaldi biltegi batetik esaldiak irakurriz.
+about-speak-text = Parte-hartzaileek beraien grabazioak egiten dituzte aurretik lagatako esaldi biltegi batetik esaldiak irakurriz.
 about-listen-queue = Entzuketa ilara
-about-listen-queue-text = Ahots grabazioak ilara batean sartzen dira eta parte hartzaileek entzuteko prest geratzen dira.
+about-listen-queue-text = Ahots grabazioak ilara batean sartzen dira eta parte-hartzaileek entzuteko prest geratzen dira.
 about-listen = Entzun
-about-listen-text = Erabiltzaileek jasotako grabazioak egokiak diren erabakitzen dute, hizlariak esaldia ondo ahoskatu duen egiaztatuz.
+about-listen-text = Erabiltzaileek jasotako grabazioak egokiak diren ala ez erabakitzen dute, hizlariak esaldia ondo ahoskatu duen egiaztatuz.
 about-is-it-valid = Grabazioa baliozkoa da?
 about-is-it-valid-text = Ahots grabazio bat "baliozkoa" bezala markatzen da erabiltzaile batek Bai bozkatzen duenean.
 about-yes-votes = Baiezko 2 bozka edo gehiago
@@ -511,17 +511,17 @@ about-no-votes-text = Erabiltzaile batek ahots grabazio bat baztertzen duenean i
 about-dataset-new = Common Voice datu-sorta
 about-dataset-new-text = Common Voice datu-sortak ehunka mila ahots laginez osatuta dago, garatzaileei ahotsaren ezagutzarako tresnak sortzen laguntzen diena.
 about-clip-graveyard = Grabazioen hilerria
-about-clip-graveyard-text = Grabazioen hilerria Common Voice datu-sortan sartu ez diren ahots grabazioez osatuta dago. Datu-sorta bezala, Grabazioen hilerria ere deskargagarri dago.
+about-clip-graveyard-text = Grabazioen hilerria Common Voice datu-sortan sartu ez diren ahots grabazioez osatuta dago. Datu-sorta bezala, Grabazioen hilerria ere deskarga daiteke.
 about-get-involved = Parte hartu
 about-get-involved-text-2 =
-    Common Voice hobeto lagundu nahi duzu?
-    Primeran! Jar zaitez gurekin harremanetan eposta bidez
+    Common Voice hobetzen lagundu nahi duzu?
+    Primeran! Jar zaitez gurekin harremanetan posta elektroniko bidez
     <discourseLink>Discourse</discourseLink> foroak erabiliz,
     <githubLink>GitHub</githubLink>-en arazo baten berri eman,
     edo batu komunitateko <matrixLink>Matrix</matrixLink> txatera.
 about-stay-in-touch = Nola egon naiteke harremanetan?
 about-stay-in-touch-button = Eman izena
-about-stay-in-touch-text-1 = <emailFragment>Harpidetu</emailFragment> gure eposta-zerrendara kanpainetan eta ekitaldietan nola parte hartu ikasteko eta Common Voicen ezaugarriak diseinatzen laguntzeko.
+about-stay-in-touch-text-1 = <emailFragment>Harpidetu</emailFragment> gure posta-zerrendara kanpainetan eta ekitaldietan nola parte hartu ikasteko eta Common Voicen ezaugarriak diseinatzen laguntzeko.
 about-stay-in-touch-text-2 = Beste Mozilla hizkuntza-komunitateekin kontaktuan egoteko batu zaitez <discourseLink>Discourse</discourseLink>-ra gaien araberako elkarrizketak izateko eta <matrixLink>Matrix</matrixLink>-era aholku azkarretarako.
 about-nav-why-common-voice = Zergatik?
 about-nav-how-it-works = Nola?
@@ -601,7 +601,7 @@ sentence-collection-explanation = Jabetza publikoan dauden esaldiak biltzea edo 
 hours-recorded-explanation = Orain arte bildu ditugun ahots grabazioen ordu kopurua.
 hours-validated-explanation = 2 edo 3 erabiltzailek "Bai" bezala bozkatu dituzten ahots grabazioen orduak. 10.000 orduko helburuarekiko aurrerabidea honen arabera kalkulatzen da.
 sst = Speech-to-text (STT)
-sst-explanation = Hizketatik testura teknologiek (STT), ahots datuak testu bihurtzen dituzte.
+sst-explanation = Hizketatik testura teknologiek (STT), ahotsen datuak testu bihurtzen dituzte.
 de-identified = Des-identifikazioa
 de-identified-explanation = Datu-sorta deskargagarri uzteko paketatzen denean, egilearen profilaren informazioa berak grabatutako grabazioetatik ezkutatzeko prozesua.
 
@@ -621,11 +621,11 @@ data-download-modal = <size>{ $size }GB</size>-etako deskarga bat hastear zaude,
 data-subtitle = Ahotsen datu-sorta ireki eta publiko bat sortzen ari gara, edonork erabil dezakeena hizketa baliatzen duten aplikazioak trebatzeko.
 data-explanatory-text = Gure ustez, datu-sorta handi eta publikoek, berrikuntza eta lehia komertzial osasuntsua sustatzen dute ikasketa automatikoan oinarritutako hizketaren teknologietan. Hau ekimen globala da eta guztiak gonbidatzen ditugu parte hartzera. Gure helburua hizketaren teknologia inklusiboagoa izaten laguntzea da, munduan zehar dauden ahots desberdinak islatuz.
 data-get-started = <speechBlogLink>Ikasi hizketaren ezagutzari buruz</speechBlogLink>
-data-other-title = Beste ahots datu-sortak...
+data-other-title = Beste ahotsen datu-sortak...
 data-other-goto = Joan { $name }-(e)ra
 data-other-download = Deskargatu datuak
 data-bundle-button = Deskargatu datu-sorta multzoa
-data-bundle-description = Common Voice datuak gehi ondoko ahots datu-sorta guztiak.
+data-bundle-description = Common Voice datuak gehi ondoko ahotsen datu-sorta guztiak.
 release-version = Bertsioa
 dataset-date = Data
 license = Lizentzia: <licenseLink>{ $license }</licenseLink>
@@ -653,7 +653,7 @@ datasets-positioning =
     
     Common Voice datu-sorta eleaniztuna, dagoeneko publikoki eskuragarri dagoen handiena da, baina ez da bakarra.
     
-    Begira orri honetan agertzen diren beste ahots datu-sorta irekien erreferentziak.
+    Begira orri honetan agertzen diren beste ahotsen datu-sorta irekien erreferentziak.
 language = Hizkuntza
 download-dataset-header = Deskargatu datu-sorta
 download-delta-explainer = Aldaketa batzuk egin ditugu. Delta Segment delakoak aurreko bertsioaren ondoren gehitu diren grabazioak ditu. <deltaLink>Irakurri gehiago lan honi buruz</deltaLink>.
@@ -684,7 +684,7 @@ dataset-description-hours =
 want-dataset-update = Abisua jaso nahi duzu Common Voice datu-sortaren bertsio berri bat argitaratzen dugunean? Harpide zaitez gure buletinera.
 subscribe = Harpidetu
 get-started-speech = Ikasi hizketaren ezagutzari buruz
-other-datasets = Beste ahots datu-sortak
+other-datasets = Beste ahotsen datu-sortak
 feedback-q = Zerbait komentatu nahi diguzu?
 resource-coqui-info = <coquiLink>Coqui</coquiLink> hizkuntza-teknologia irekiak lantzen ditu. Bere proiektuen artean ikasketa automatikoan oinarritutako STT eta TTS motorrak daude.
 community-playbook = Komunitatearen eskuliburua
@@ -1022,7 +1022,7 @@ card-button-next = Hurrengoa
 card-button-back = Atzera
 demo-language-select-label = Arakatu hizkuntzak
 demo-eofy-header = 2019(e)ko urte bukaerako argitalpena
-demo-eofy-sub_header = Ahots datu-sorta, deskargatzeko prest
+demo-eofy-sub_header = Ahotsen datu-sorta, deskargatzeko prest
 demo-account = Kontua
 
 ## Demo Account
