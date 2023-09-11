@@ -534,7 +534,7 @@ about-nav-playbook = Ikasi nola parte hartu
 ## What is a language
 
 about-playbook-what-is-language = Zer da hizkuntza bat Common Voicen?
-about-playbook-what-is-language-content-1 = Hizkuntza bat zer den pentsatzeko era asko dago. Hizketaren ezagutzako ereduak kontuan hartuz, Common Voicek ‘elkarrekiko ulergarritasunari‘ erreparatzen dio, hau da, ‘hizkuntza honetako hiztunek beste batekoek dioten gehiena uler dezakete saiatzen badira?’
+about-playbook-what-is-language-content-1 = Hizkuntza bat zer den pentsatzeko era asko dago. Hizketaren ezagutzako ereduak kontuan hartuz, Common Voicek ‘elkarrekiko ulergarritasunari‘ erreparatzen dio, hau da, ‘hizkuntza honetako hiztunek beste batekoek dioten gehiena uler dezakete, saiatzen badira?’
 about-playbook-what-is-language-content-3 = Hizkuntza batzuek sekulako aldaketak dituzte gramatika, hiztegi eta ahoskera aldetik. Arrazoi honengatik, <ctaLink>‘Aldaerak’ aurkezten</ctaLink> ari gara 2022an. Honek komunitateei beraien hizkuntzak datu-sorta handiagoetan bereizteko aukera ematen die.
 
 ## How do I add a language
@@ -595,7 +595,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Irakurri gehia
 
 glossary = Glosarioa
 localization = Lokalizazioa
-localization-explanation = Gure edukia hainbat lokalera (hizkuntzara) itzultzeko eta moldatzeko prozesuari deritzo.
+localization-explanation = Gure edukia hainbat lokaletara (hizkuntzara) itzultzeko eta moldatzeko prozesuari deritzo.
 sentence-collection = Esaldiak biltzea
 sentence-collection-explanation = Jabetza publikoan dauden esaldiak biltzea edo zuzenean berriak idaztea eta berauek jabetza publikoan uztea.
 hours-recorded-explanation = Orain arte bildu ditugun ahots grabazioen ordu kopurua.
@@ -607,7 +607,7 @@ de-identified-explanation = Datu-sorta deskargagarri uzteko paketatzen denean, e
 
 ## Error pages
 
-error-title-404 = Ezin izan dugu orri hori aurkitu zuretzat
+error-title-404 = Ezin izan dugu web-orri hori aurkitu zuretzat
 error-title-503 = Ezusteko matxura bat izaten ari gara
 error-code = { $code } errorea
 
@@ -651,9 +651,9 @@ datasets-headline = Ahotsen datu-sorta ireki eta publiko bat sortzen ari gara, e
 datasets-positioning =
     Gure ustez, datu-sorta handi eta publikoek, berrikuntza eta lehia komertzial osasuntsua sustatzen dute ikasketa automatikoan oinarritutako hizketaren teknologietan.
     
-    Common Voice datu-sorta eleaniztuna, dagoeneko publikoki eskuragarri dagoen handiena da, baina ez da bakarra.
+    Common Voice datu-sorta eleaniztuna dagoeneko publikoki eskuragarri dagoen handiena da, baina ez da bakarra.
     
-    Begira orri honetan agertzen diren beste ahotsen datu-sorta irekien erreferentziak.
+    Begira web-orri honetan agertzen diren beste ahotsen datu-sorta irekien erreferentziak.
 language = Hizkuntza
 download-dataset-header = Deskargatu datu-sorta
 download-delta-explainer = Aldaketa batzuk egin ditugu. Delta Segment delakoak aurreko bertsioaren ondoren gehitu diren grabazioak ditu. <deltaLink>Irakurri gehiago lan honi buruz</deltaLink>.
