@@ -856,6 +856,16 @@ record-error-too-short = Хъæлæсы фыст æгæр цыбыр у
 record-error-too-long = Ныффыст ӕгӕр даргъ у.
 record-error-too-quiet = Ныффыст ӕгӕр сабыр у.
 record-last-instruction = <recordIcon></recordIcon> Фæстаг!
+review-tooltip = Æркæс æмæ ногæй ныффысс клиптæ ам
+share-clip = Дæ клипæй бахай кæн
+record-abort-submit = Арвит клиптæ
+record-abort-continue = Фыст фæу
+record-button-label = Ныффысс дæ хъæлæс
+share-title-new = <bold>Баххуыс нын кæн</bold> ссарынæн фылдæр хъæлæстæ
+keep-track-profile = Дæ цæст дар дæ прогрессмæ профилы фæрцы
+login-to-get-started = Бацу кæнæ регистраци скæн райдайынмæ
+target-segment-first-card = Ды нывæрыс нæ фыццаг нысанон сегменты
+target-segment-generic-card = Ды нывæрыс нысанон сегменты
 target-segment-learn-more = Фылдæр базон
 
 ## Contribution Nav Items
@@ -863,17 +873,63 @@ target-segment-learn-more = Фылдæр базон
 
 ## Reporting
 
+report = Бахъаст кæн
+report-title = Хъаст арвит
+report-ask = Ацы хъуыдыйадимæ баст цы проблемæтæ ды æвзарыс?
+report-offensive-language = Æфхæрæн ныхæстæ
+report-offensive-language-detail = Хъуыдыйады ис æфхæрд кæнæ æнæцыт ныхæстæ.
+report-grammar-or-spelling = Грамматикон / орфографион рæдыд
+report-grammar-or-spelling-detail = Ацы хъуыдыйадмæ ис грамматикон кæнæ орфографион рæдыд.
 report-different-language = Æндæр æвзагыл у
+report-different-language-detail = Ай фыст у, æз цæуыл дзурын, уыимæ абаргæйæ æндæрхуызон æвзагыл.
+report-difficult-pronounce = Зын у зæгъын
+report-difficult-pronounce-detail = Уымæ ис, зын кæсын æмæ зæгъын кæй сты, ахæм ныхæстæ æмæ фразæтæ.
+report-offensive-speech = Æфхæрæн ныхас
+report-offensive-speech-detail = Клипы ис æфхæрæн кæнæ æнæуаг ныхæстæ.
+report-other-comment =
+    .placeholder = Ныхасæппарæн.
+success = Æнтыст
+continue = Дарддæр
+report-success = Отчёт æнтысджынæй фæцис
 
 ## Goals
 
+streaks = Тагтæ
+days =
+    { $count ->
+        [one] бон
+       *[other] боны
+    }
+recordings =
+    { $count ->
+        [one] ныффыст
+       *[other] ныффысты
+    }
+validations =
+    { $count ->
+        [one] басгӕрст
+       *[other] басгӕрсты
+    }
 
 ## Dashboard
 
 your-languages = Де ’взæгтæ
+toward-next-goal = Иннæ нысанмæ
+goal-reached = Нысан сӕххӕст ис
+clips-you-recorded = Кæцы клиптæ ныффыстай, уыдон
+clips-you-validated = Кæцы клиптæ сбæрæг кодтай, уыдон
+todays-recorded-progress = Абоны прогресс Common Voice-ы фыст клипты
+todays-validated-progress = Абоны Common Voice-ы клипты сгарыны æххæсткæныны къæпхæн
 stats = Статистикæ
+awards = Хорзæхтæ
 you = Ды
 everyone = Алчи
+contribution-activity = Нывæрды архайд
+top-contributors = Иууыл хуыздæр нывæрдтытæ
+recorded-clips = Фыст клиптæ
+validated-clips = Басгæрст клиптæ
+total-approved = Басгӕрст ӕдӕппӕтӕй
+overall-accuracy = Иумæйаг дырысдзинад
 
 ## Custom Goals
 
