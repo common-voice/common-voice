@@ -773,6 +773,7 @@ download-no = Нæ, бузныг
 
 ## Contact Modal
 
+contact-title = Контакты формæ
 contact-form-name =
     .label = Ном
 contact-form-message =
@@ -781,8 +782,11 @@ contact-required = *æнæмæнг хъæуы
 
 ## Request Language Modal
 
+request-language-title = Æвзаджы бафарст
 request-language-form-language =
     .label = Æвзаг
+request-language-success-title = Æвзаджы бафарст æнтыстджынæй бахаст æрцыд, бузныг.
+request-language-success-content = Мах тагъд рæстæджы дын ныффысдзыстæм, куыд бафтауæн ис де 'взаг Common Voice-мæ, ахæм информаци.
 select-language = Æвзаг равзар...
 other-language = Æндæр æвзаг
 
@@ -851,14 +855,22 @@ contribute-more =
 record-cta = Райдай фыссын
 record-platform-not-supported = Хъыгагӕн дӕ платформӕйӕ нӕма ис кусӕн.
 record-platform-not-supported-desktop = Уæлыстъол компьютерты дæ бон у нывæрын равгæнгæйæ...
+record-platform-not-supported-ios-non-safari = Кæд iOS-ы дæ, уæд, дæ хорзæхæй, адарддæр кæн Safari-имæ, цæмæй зæлтæ фыссæн уа...
+record-must-allow-microphone = Ды хъуамæ бар раттай микрофонмæ бацæуæнмæ
 record-no-mic-found = Микрофон ссарын нæ рауади.
 record-error-too-short = Хъæлæсы фыст æгæр цыбыр у
 record-error-too-long = Ныффыст ӕгӕр даргъ у.
 record-error-too-quiet = Ныффыст ӕгӕр сабыр у.
 record-cancel = Ногæй конд фыст аив
+record-instruction = { $actionType }<recordIcon></recordIcon> уый фæстæ кæс хъуыдыайд хъæрæй
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> куы фæуа
+record-three-more-instruction = Баззади æртæ!
+record-again-instruction = Иттæг хорз! <recordIcon></recordIcon> Ныффысс дæ фæдылдзог клип
+record-again-instruction2 = Дарддæр кæн, ныффысс ногæй <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Фæстаг!
 review-tooltip = Æркæс æмæ ногæй ныффысс клиптæ ам
 share-clip = Дæ клипæй бахай кæн
+share-common-voice = Common Voice-æй бахай кæн
 record-abort-submit = Арвит клиптæ
 record-abort-continue = Фыст фæу
 listen-empty-state = Гæнæн и, æмæ махмæ клиптæ фесты — сног кæн фарс кæнæ ногæй бафæлфар фæстæдæр.
