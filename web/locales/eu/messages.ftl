@@ -666,8 +666,8 @@ cv-license = Lizentzia
 audio-format = Audio formatua
 number-of-voices = Ahots kopurua
 splits = Banaketa
-email-to-download = Sartu e-posta deskargatzeko
-why-email = <b>Zergatik e-posta bat?</b> Baliteke etorkizunean zurekin harremanetan jarri behar izatea datu-sortako aldaketengatik. Hori gertatuz gero, e-posta baliatuko genuke.
+email-to-download = Sartu helbide elektronikoa, deskargatzeko
+why-email = <b>Zergatik helbide elektroniko bat?</b> Baliteke etorkizunean zurekin harremanetan jarri behar izatea datu-sortako aldaketengatik. Hori gertatuz gero, helbide elektronikoa baliatuko genuke.
 confirm-size = <b>{ $size }</b>-eko deskarga bat hastera zoaz
 size-gigabyte = GB
 size-megabyte = MB
@@ -680,7 +680,7 @@ whats-inside = Zer dago Common Voice datu-sortaren barnean?
 dataset-description-hours =
     Datu-sortako sarrera bakoitza MP3 bat eta dagokion testu fitxategi bat da. Datu-sortak dituen <b>{ $total }</b> orduetatik, askok datu demografikoak ere badituzte. Hizketaren ezagutza motorren zehaztasuna hobea izan daiteke trebatzeko garaian erabilitako ahotsen adina, sexua eta azentua jakinez gero.
     
-    Datu-sortak orain baliozkotutako <b>{ $valid }</b> ordu ditu <b>{ $languages }</b> hizkuntzatan, baina beti gaude hizketaldi eta hizkuntza gehiago gehitzen. Bota begirada bat gure <languagesLink>Hizkuntzak orriari</languagesLink> berri bat eskatzeko edo laguntzen hasteko.
+    Datu-sortak orain baliozkotutako <b>{ $valid }</b> ordu ditu <b>{ $languages }</b> hizkuntzatan, baina beti gaude hizketaldi eta hizkuntza gehiago gehitzen. Bota begirada bat gure <languagesLink>Hizkuntzak web-orriari</languagesLink> berri bat eskatzeko edo laguntzen hasteko.
 want-dataset-update = Abisua jaso nahi duzu Common Voice datu-sortaren bertsio berri bat argitaratzen dugunean? Harpide zaitez gure buletinera.
 subscribe = Harpidetu
 get-started-speech = Ikasi hizketaren ezagutzari buruz
@@ -694,10 +694,10 @@ data-other-ted-name = TED-LIUM corpusa
 data-other-ted-description = TED-LIUM corpusa, TED webguneko hitzaldietako audioetatik eta transkripzioetatik sortua da.
 data-other-voxforge-description = VoxForge transkribatutako hizketak biltzeko sortu zen, hizketaren ezagutza motor libreek erabiltzeko.
 data-other-tatoeba-description = Tatoeba hizkuntzen ikasketan erabiltzeko hainbat esaldi, itzulpen eta ahoskatutako audio dituen datu-basea da. Deskarga honek, bere baitan, Tatoebako komunitateak ingelesez ahoskatutako grabazioen audioak dauzka.
-your-feedback = Common Voice datu-sorta nola hobe dezakegun ideiarik duzu? Parteka itzazu gurekin Discoursen
+your-feedback = Baduzu Common Voice datu-sorta hobetzeko ideiarik? Parteka itzazu gurekin Discoursen
 go-discourse = Joan Discoursera
-missing-language = Ez duzu zure hizkuntza datu-sortan ikusten? Hizkuntza bat eskatzeko zoaz gure Hizkuntzak orrialdera.
-go-languages-page = Joan Hizkuntzak orrialdera
+missing-language = Ez duzu zure hizkuntza datu-sortan ikusten? Hizkuntza bat eskatzeko zoaz gure Hizkuntzak web-orrira.
+go-languages-page = Joan Hizkuntzak web-orrira
 ready-to-validate = Esaldiak baliozkotzen laguntzeko prest?
 more = Gehiago
 close = Itxi
@@ -707,9 +707,9 @@ dataset-version = Bertsioa
 ## Download Modal
 
 download-title = Zure deskarga hasi da.
-download-helpus = Lagun gaitzazu hizkuntza teknologiaren inguruan komunitate bat eraikitzen, egon gaitezen harremanetan e-posta bidez.
+download-helpus = Lagun gaitzazu hizkuntza-teknologiaren inguruan komunitate bat eraikitzen, egon gaitezen harremanetan posta elektroniko bidez.
 download-form-email =
-    .label = Idatzi zure e-posta
+    .label = Idatzi zure helbide elektronikoa
     .value = Eskerrik asko, elkarren berri izango dugu.
 download-back = Itzuli Common Voice datu-sortetara
 download-no = Ez, eskerrik asko
@@ -737,18 +737,18 @@ other-language = Bestelako hizkuntza
 
 request-language-heading = Hizkuntza berri bat eskatu
 request-language-form-email =
-    .label = Zure eposta helbidea
+    .label = Zure helbide elektronikoa
 request-language-form-info =
     .label = Hizkuntzari buruzko informazioa
 request-language-form-info-explanation =
-    Gehitu zure hizkuntzari buruz ahal duzun informazio guztiak.
+    Gehitu zure hizkuntzari buruz ahal duzun informazio guztia.
     Honelakoak aipa ditzakezu:
 request-language-form-info-explanation-list-1 = Zure hizkuntzaren izenak
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO kodeak</isoCodeLink> badakizkizu
 request-language-google-recaptcha-required = reCAPTCHA ezinbestekoa da aurrera egiteko
 request-language-google-recaptcha-error = Zerbait oker joan da reCAPTCHA-rekin. Saiatu berriro mesedez.
 # Success page
-request-language-success-heading = Eskerrik asko! Hizkuntza berri baten eskaria bidali duzu
+request-language-success-heading = Eskerrik asko! Hizkuntza berri baten eskaera bidali duzu
 
 ## Languages Overview
 
