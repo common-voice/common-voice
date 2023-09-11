@@ -835,12 +835,27 @@ listen = Хъус
 write = Фысс
 review = Басгæрст
 skip = Ныууадз
+shortcuts = Къæбæлты æмиуæд
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> клип
+       *[other] <bold>{ $count }</bold> клипы
+    }
+goal-help-recording = Ды баххуыс кодтай Common Voice-æн сæххæст кæнынæн <goalPercentage></goalPercentage> нæ æрвылбойнон { $goalValue } фыссыны нысанæй!
+goal-help-validation = Ды баххуыс кодтай Common Voice-æн сæххæст кæнынæн <goalPercentage></goalPercentage> нæ æрвылбойнон { $goalValue } сгарыны нысанæй!
+contribute-more =
+    { $count ->
+        [one] Цæттæ дæ { $count } ноджы бакæнынмæ?
+       *[other] Цæттæ дæ { $count } ноджы  бакæнынмæ?
+    }
 record-cta = Райдай фыссын
 record-platform-not-supported = Хъыгагӕн дӕ платформӕйӕ нӕма ис кусӕн.
+record-platform-not-supported-desktop = Уæлыстъол компьютерты дæ бон у нывæрын равгæнгæйæ...
 record-no-mic-found = Микрофон ссарын нæ рауади.
 record-error-too-short = Хъæлæсы фыст æгæр цыбыр у
 record-error-too-long = Ныффыст ӕгӕр даргъ у.
 record-error-too-quiet = Ныффыст ӕгӕр сабыр у.
+record-last-instruction = <recordIcon></recordIcon> Фæстаг!
 target-segment-learn-more = Фылдæр базон
 
 ## Contribution Nav Items
