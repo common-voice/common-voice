@@ -980,6 +980,32 @@ want-to-continue = Фæнды дæ адарддæр кæнын?
 finish-editing = Фæнды дæ фыццаджы ивыныл фæуын?
 lose-changes-warning = Ацæуын ныртæккæ нысан кæны, ды кæй фесафдзынæ дæ ивындзинæдтæ, уый.
 build-custom-goal = Скæн сæрмагонд нысан
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Баххуыс кæн { $language } æвзагæн { $hours } сахатмæ схизынæн сæрмагонд нысаны фæрцы
+       *[other] Баххуыс кæн { $language } æвзагæн { $hours } сахатмæ схизынæн сæрмагонд нысаны фæрцы
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Баххуыс кæн Common Voice-æн { $hours } сахатмæ схизынæн æвзаджы сæрмагонд нысаны фæрцы
+       *[other] Баххуыс кæн Common Voice-æн { $hours } сахатмæ схизынæн æвзаджы сæрмагонд нысаны фæрцы
+    }
+set-a-goal = Нысан æрæвæр
+cant-decide = Нæ рауайы уынаффæмæ æрцæуын?
+how-many-per-day = Иттæг хорз! Цал клипы алы бонæн?
+how-many-a-week = Иттæг хорз! Цал клипы алы къуырийæн?
+which-goal-type = Дæу фæнды дзурын, хъусын кæнæ дыууæ дæр?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] клип
+       *[other] клипы
+    }
+confirm-goal = Сфидар кæн ацы нысан
+goal-interval-weekly = Алы къуырийы
+share-goal-type-speak = Фыст
+share-goal-type-listen = Басгæрст
+share-goal-type-both = Фыст æмæ басгæрст
+share-goal = Равдис мæ нысан
 
 ## Profile Delete
 
@@ -989,6 +1015,9 @@ profile-form-delete = Профиль сыхал
 ## Profile Download
 
 download-profile-title = Профиль
+download-profile-size = Цалдæр байты
+download-recordings-title = Фыстытæ
+download-recordings-size = Фылдæрхатт мегабайттæ
 download-request-metadata-link = Хъуыдыйады текст
 
 ## Landing
