@@ -984,17 +984,17 @@ profile-form-delete = Ezabatu profila
 download-q = Zure datuak deskargatu behar dituzu?
 download-info = Esaguzu zer deskargatu nahiko zenukeen:
 download-profile-title = Profila
-download-profile-info = Orain eskuragarri dauden eposta, erabiltzaile-izena eta informazio demografikoa ditu.
+download-profile-info = Orain eskuragarri dauden helbide elektronikoa, erabiltzaile-izena eta informazio demografikoa ditu.
 download-profile-size = Byte gutxi batzuk
 download-recordings-title = Grabazioak
 download-recordings-info = MP3ak eta dagozkien esaldiak ditu, denbora bat behar du prestatzeko
 download-recordings-size = Normalean megabyteak
-download-recordings-unavailable = Ezin dituzu zure grabazioak eskatu beste eskari bat martxan den bitartean.
+download-recordings-unavailable = Ezin dituzu zure grabazioak eskatu beste eskaera bat martxan den bitartean.
 download-size = Tamaina
 download-selected = Hautatuta
 download-start = Deskargatu profilaren datuak
 download-request = Eskatu grabazioak
-download-requests = Iraganeko grabazio deskargen eskariak
+download-requests = Iraganeko grabazio deskargen eskaerak
 download-request-button = Deskargatu
 download-request-title = { $created }
 download-request-refresh-button = Freskatu
@@ -1004,10 +1004,10 @@ download-request-metadata-link = Esaldiaren testua
 ## Landing
 
 welcome-staff = Ongi etorri, { $company }-(e)ko langile!
-help-contribute = Kode irekiko datu-multzo desberdin bat eraikitzen lagun dezakezu, Common Voice profil bat sortuz eta zure ahotsaz lagunduz.
-login-company = Hasi saioa / Eman izena { $company }-ko epostarekin
+help-contribute = Kode irekiko datu-multzo desberdin bat osatzen lagun dezakezu, Common Voice profil bat sortuz eta zure ahotsaz lagunduz.
+login-company = Hasi saioa / Eman izena { $company }-ko helbide elektronikoarekin
 profile-not-required = Profil bat sortzea ez da beharrezkoa laguntzeko baina lagungarria da
-read-more-about = Irakurri gehiago guri buruzko orrian
+read-more-about = Irakurri gehiago guri buruzko web-orrian
 
 ## DemoLayout
 
@@ -1029,8 +1029,8 @@ demo-account = Kontua
 
 demo-account-card-header = Kontu bat izatea ez da beharrezkoa parte hartzeko, baina lagungarria da.
 demo-account-enter-email =
-    .label = Sartu eposta izen-emate esteka bidaltzeko
-demo-account-sign-up = Bidali izen-emate esteka
+    .label = Sartu helbide elektronikoa izen-emate esteka bidaltzeko
+demo-account-sign-up = Bidali izen-ematea egiteko esteka
 
 ## Demo Contribute
 
