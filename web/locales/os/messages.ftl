@@ -883,6 +883,7 @@ record-abort-delete = Рахиз ӕмӕ клиптӕ фесаф
 listen-instruction = { $actionType }<playIcon></playIcon> хъуыдыйад дырысӕй радзырд  у?
 listen-again-instruction = Тынг хорз куыст!<playIcon></playIcon> Цӕттӕ куы уай, уӕд байхъус ногӕй
 listen-3rd-time-instruction = Дыууæ цæттæ сты, дарддæр кæн!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Фæстаг!
 listen-empty-state = Гæнæн и, æмæ махмæ клиптæ фесты — сног кæн фарс кæнæ ногæй бафæлфар фæстæдæр.
 record-button-label = Ныффысс дæ хъæлæс
 share-title-new = <bold>Баххуыс нын кæн</bold> ссарынæн фылдæр хъæлæстæ
