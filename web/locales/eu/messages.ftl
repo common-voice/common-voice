@@ -784,7 +784,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> grabazio
     }
 goal-help-recording = Common Voicek egunero { $goalValue } grabazio lortzea du helburu eta zuk helburuaren <goalPercentage></goalPercentage>a lortzen lagundu duzu!
-goal-help-validation = Common Voice lagundu duzu egunero { $goalValue } balioztatzeko dugun helburuaren <goalPercentage></goalPercentage> lortzen!
+goal-help-validation = Common Voice-ri lagundu diozu egunero { $goalValue } balioztatzeko dugun helburuaren <goalPercentage></goalPercentage> lortzen!
 contribute-more =
     { $count ->
         [one] { $count } gehiago egiteko prest?
@@ -845,7 +845,7 @@ contribute-sentence-collection-nav-header = Esaldiak biltzea
 
 report = Salatu
 report-title = Bidali salaketa bat
-report-ask = Zein arazo izaten ari zara esaldi honekin?
+report-ask = Zein arazo duzu esaldi honekin?
 report-offensive-language = Hizkuntza iraingarria
 report-offensive-language-detail = Esaldiak errespeturik gabeko hizkuntza du edo hizkera iraingarria du.
 report-grammar-or-spelling = Akats gramatikala / ortografikoa
@@ -901,7 +901,7 @@ validated-clips = Balioztatutako grabazioak
 total-approved = Onartuak guztira
 overall-accuracy = Zehaztasun orokorra
 set-visibility = Ezarri nire ikusgarritasuna
-visibility-overlay-note = Oharra: 'Ikusgai' ezartzen denean, ezarpen hau <profileLink>Profil orrian</profileLink> aldatu daiteke
+visibility-overlay-note = Oharra: 'Ikusgai' ezartzen denean, ezarpen hau <profileLink>Profil web-orrian</profileLink> aldatu daiteke
 show-ranking = Erakutsi nire rankinga
 
 ## Custom Goals
@@ -962,7 +962,7 @@ share-goal-type-both = Hitz egiten eta entzuten
 goal-share-text = Helburu pertsonal bat sortu berri dut #CommonVoice-ri ahotsa emateko -- zatoz nirekin eta lagundu makinei erakusten benetako pertsonek nola hitz egiten duten { $link }
 weekly-goal-created = Zure asteroko helburua sortu da
 daily-goal-created = Zure eguneroko helburua sortu da
-track-progress = Jarraitu aurrerapena hemen eta zure estatistiken orrian.
+track-progress = Jarraitu aurrerapena hemen eta zure estatistiken web-orrian.
 return-to-edit-goal = Itzul zaitez hona zure helburua noiznahi aldatzeko.
 share-goal = Partekatu nire helburua
 
@@ -972,7 +972,7 @@ delete-q = Egin dituzun ahots grabazioak ere ezabatzea nahi duzu ala nahiago duz
 keep = Mantendu
 remove = Kendu
 keep-info = Zure ahots grabazio anonimoak Common Voice datu-sortan gordeko dira. Behin zure profila ezabatzen duzunean, ezingo duzu eskatu zure grabazioak datu-sortatik kentzerik.
-remove-info = Zure ahots grabazioak datu-sortatik ezabatzeko eskaria berrikusiko dugu. Zure eskaria onartua dada, datu-sorta deskargatu dutenekin ere harremanetan jarriko gara eta zure ahots grabazioak ezabatzeko eskatuko diegu.
+remove-info = Zure ahots grabazioak datu-sortatik ezabatzeko eskaera berrikusiko dugu. Zure eskaera onartua dada, datu-sorta deskargatu dutenekin ere harremanetan jarriko gara eta zure ahots grabazioak ezabatzeko eskatuko diegu.
 why-delete-recordings =
     Common Voice grabazioak hezkuntza zentroek eta ikerlariek, enpresa txikiek eta ahotsaren ezagutzaren zaleek erabiltzen dituzte publikoki erabilgarri dauden baliabideak trebatzeko eta hazteko, ahots ereduekin gertatzen den bezala.
     
