@@ -769,6 +769,7 @@ download-helpus = Баххуыс нын кæн саразынæн æмбалад
 download-form-email =
     .label = Ныффысс дæ электронон посты адрис
     .value = Бузныг, мах контакты баззайдзыстæм.
+download-back = Раздæх Common Voice-ы рардты хæрхтæм
 download-no = Нæ, бузныг
 
 ## Contact Modal
@@ -878,8 +879,10 @@ record-abort-title = Фыццаджы фыст фæут?
 record-abort-text = Ацæуын ныртæккæ нысан кæны, ды дæ прогресс кæй фесафдзынæ, уый
 record-abort-submit = Арвит клиптæ
 record-abort-continue = Фыст фæу
-record-abort-delete = Рахизын ӕмӕ клиптӕ фесафын
+record-abort-delete = Рахиз ӕмӕ клиптӕ фесаф
 listen-instruction = { $actionType }<playIcon></playIcon> хъуыдыйад дырысӕй радзырд  у?
+listen-again-instruction = Тынг хорз куыст!<playIcon></playIcon> Цӕттӕ куы уай, уӕд байхъус ногӕй
+listen-3rd-time-instruction = Дыууæ цæттæ сты, дарддæр кæн!<playIcon></playIcon>
 listen-empty-state = Гæнæн и, æмæ махмæ клиптæ фесты — сног кæн фарс кæнæ ногæй бафæлфар фæстæдæр.
 record-button-label = Ныффысс дæ хъæлæс
 share-title-new = <bold>Баххуыс нын кæн</bold> ссарынæн фылдæр хъæлæстæ
