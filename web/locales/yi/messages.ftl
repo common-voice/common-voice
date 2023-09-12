@@ -15,12 +15,21 @@ banner-error-slow-2 = מיר באקומען אסאך טרעפיק און מיר 
 ar = אראביש
 be = בעלארוסיש
 da = דעניש
+el = גריכיש
+pl = פויליש
+pt = פארטאגעזיש
+ro = ראמעניש
+ru = רוסיש
+sk = סלאוואקיש
+sl = סלאוועניש
 
 # [/]
 
 
 ## Layout
 
+content-license-text = אינהאלט צו באקומען אונטער די </licenseLink>Creative Commons license<licenseLink>
+share-text = העלפט אונז לערנען די מאשינען ווי אזוי עכטע מענטשן רעדן, ביישטייערט אייער שטימע ביי { $link }
 
 ## Home Page
 
@@ -48,6 +57,11 @@ wall-of-text-first =
 
 ## ProjectStatus
 
+status-hours =
+    { $hours ->
+        [one] איין באשטעטיגטע שטונדע ביז דערווייל!
+       *[other] { $hours } באשטעטיגטע שטונדן ביז דערווייל!
+    }
 
 ## ProfileForm
 
