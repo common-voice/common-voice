@@ -364,6 +364,10 @@ language = שפרייך
 # File size in gigabytes
 size = מאס
 number-of-voices = צאל שטימעס
+splits = צוטיילונגען
+size-gigabyte = ג"ב
+size-megabyte = מ"ב
+confirm-no-identify = <b>דו שטימסט צו</b> נישט צו פראבירן צו געוואר ווערן די אידענטיטעט פון די רעדנערס אין די קאמאן וואויס דאטא סעט
 
 ## Download Modal
 
