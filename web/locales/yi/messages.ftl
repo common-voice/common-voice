@@ -167,14 +167,49 @@ request-language-button = פארלאנגט א שפרייך
 
 ## ProjectStatus
 
+status-title = אלגעמיינע פראיעקט צושטאנד: זעט ווי ווייט מיר זענען געקומען!
+status-contribute = ביישטייערט אייער שטימע
 status-hours =
     { $hours ->
         [one] איין באשטעטיגטע שטונדע ביז דערווייל!
        *[other] { $hours } באשטעטיגטע שטונדן ביז דערווייל!
     }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = קומענדיגע צילן: { $goal }
+english = ענגליש
 
 ## ProfileForm
 
+profile-form-username =
+    .label = באנוצער נאמען
+profile-form-native-language =
+    .label = געבוירערענער שפרייך
+profile-form-additional-language =
+    .label = נאך א שפרייך
+profile-form-language =
+    .label = שפרייך
+profile-form-variant =
+    .label = וועלכע ווערסיע פון { $language } רעדסטו?
+profile-form-variant-default-value = קיין ווערסיע אויסגעוועלט
+profile-form-accent =
+    .label = עקסענט
+profile-form-custom-accent-help-text =
+    .label = וויאזוי וואלט איר געשילדערט אייער עקסענט?
+profile-form-age =
+    .label = עלטער
+hidden = באהאלטן
+visible = זעהבאר
+native-language =
+    .label = געבוירערענער שפרייך
+male = מאן
+female = פרוי
+# Gender
+other = אנדערע
+why-profile-title = פארוואס א פראפיל?
+build-profile = בוי א פראפיל
+avatar = אוועטער
+goals = צילן
 
 ## Profile - Email
 
