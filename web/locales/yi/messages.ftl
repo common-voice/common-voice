@@ -337,6 +337,7 @@ about-playbook-how-project-governance-content-5 = ווערד און אנערקע
 
 ## Glossary
 
+sentence-collection = זאצן זאמלונג
 hours-recorded-explanation = די צאל פון שטימע רעקארדירונג שטונדן מיר האבן געזאמלט ביז אהער.
 
 ## Error pages
@@ -717,15 +718,62 @@ sc-login-err-try-again = ביטע פראבירט נאכאמאל.
 
 ## PROFILE
 
+sc-personal-your-languages = אייערע שפרייכן:
+sc-personal-remove-button = נעמט אוועק
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } צוגעלייגט דורך אייך
+sc-personal-not-added = איר האט נאכנישט צוגעלייגט קיין שפרייכן דערווייל.
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-form-button-reject = ווייז צוריק
+sc-review-form-button-skip = איבערהיפ
+sc-review-form-button-approve = באשטעטיג
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = י
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = נ
+sc-review-link = קוקט איבער
 
 ## SETTINGS
 
+sc-settings-title = אנשטעלונגען
+sc-settings-show-all-button = ווייז אלע איבערגעהיפטע זאצן נאכאמאל
+sc-validation-no-numbers = זאצן זאלט נישט אנטהאלטן קיין נומערן
+sc-validation-no-symbols = זאצן זאלן נישט אנטהאלטן קיין סימבאלן
 
 # [/SentenceCollector]
 
+partnerships-governments-header = רעגירונגען
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = א דאנק פארן ביישטייערן אייער שטימע קליפס!
+first-cta-subtitle-text = וואלט איר געוואלט מיטטיילן אביסל אינפארמאציע איבער וויאזוי איר רעדט?
+why-donate = פארוואס פרעגט איר?
+add-information-button = לייג צו אינפארמאציע
+thanks-for-voice-toast = א דאנק פאר אייער שטימע אינפארמאציע
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = א דאנק פארן ביישטייערן אייער שטימע!
+voice-collection = שטימע זאמלונג
+sentence-collection = זאצן זאמלונג
+background-noise = הונטערגרונד גרידער
+background-voices = הונטערגרונד שטימעס
+example = ביישפיל
+misreadings-example-1 = מיר גייען ארויס צו נעמען קאווע.
+misreadings-example-2 = מיר גייען ארויס צו נעמען א קאווע.
+misreadings-example-3 = מיר גייען ארויס צו נעמען א קאווע.
+background-voices-tip-1 = דו קומסט? [גערופן דורך א צווייטן]
+still-have-questions = איר האט נאך אלץ פראגן?
+citing-sentences = ציטירן זאצן
+adding-sentences = צולייגן זאצן
+reviewing-sentences = איבערקוקן זאצן
+citing-sentences-subheader-websites = וועב זייטלעך
+adding-sentences-subheader-length = לענג
+adding-sentences-subheader-length-explanation = די זאץ זאל האבן ווייניגער ווי 15 ווערטער.
+adding-sentences-subheader-spelling-punctuation-explanation = די זאץ דארף זיין אויסגעלייגט ריכטיג.
+adding-sentences-subheader-numbers = נומערן
+sentence =
+    .label = זאץ
