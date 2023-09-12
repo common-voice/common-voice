@@ -193,9 +193,9 @@ profile-form-variant =
     .label = וועלכע ווערסיע פון { $language } רעדסטו?
 profile-form-variant-default-value = קיין ווערסיע אויסגעוועלט
 profile-form-accent =
-    .label = עקסענט
+    .label = אקצענט
 profile-form-custom-accent-help-text =
-    .label = וויאזוי וואלט איר געשילדערט אייער עקסענט?
+    .label = וויאזוי וואלט איר געשילדערט אייער אקצענט?
 profile-form-age =
     .label = עלטער
 hidden = באהאלטן
@@ -210,6 +210,17 @@ why-profile-title = פארוואס א פראפיל?
 build-profile = בוי א פראפיל
 avatar = אוועטער
 goals = צילן
+settings = אנשטעלונגען
+edit-profile = פארעכט פראפיל
+profile-close = פארמאך
+thanks-for-account = א דאנק פארן באשטעטיגן אייער אקאונט, יעצט לאמיר בויען אייער פראפיל.
+accept-privacy-title = פריווייטקייט פארשריפטן
+accept-privacy-and-terms = איך בין איינשטימיג מיט קאמאן וואויס'ס <termsLink> טערמינען </termsLink> און <privacyLink> פריוואטקייט נאטיץ</privacyLink>
+edit = פאררעכט
+contribution-experience = ביישטייערונג ערפארונג
+off = פארלאשן
+on = אנגעצונדן
+help-accent = דארף הילף מיט די אקצענט?
 
 ## Profile - Email
 
