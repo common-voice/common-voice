@@ -142,6 +142,10 @@ join-newsletter = שליסט אייך אן פרייוויליג אין אונז�
 
 ## What's public
 
+whats-public = וואס איז עפענטליך?
+email-not-public = מיר וועלן נישט פארעפענטליכן אייער אימעיל אדרעס.
+recordings-and-locale-public = די צאל פון רעקארדירונגען און וועלכע שפרייך איר ביישטייערט צו וועט זיין עפענטליך.
+username-optin-public = איר קענט וועלן צו מאכן אייער באנוצער נאמען עפענטליך אדער אנאנים.
 
 ## Speak & Listen Shortcuts
 
