@@ -324,24 +324,46 @@ about-playbook-how-record-content-4 = מאכט זיכער אז די פלאטפר
 
 about-playbook-how-validate = וויאזוי ווייס איך צו איך זאל באשטעטיגן א שטימע קליפ?
 about-playbook-how-validate-content-1 = אויב איר קענט זיי <strong>הערן</strong> און <strong>פארשטיין</strong>, איז עס געווענטליך <strong>די בעסטע צו באשטעטיגן</strong>.
+about-playbook-how-validate-content-2 = <strong>ווייז נישט צוריק קיין קליפס וואס דער רעדנער ‘האט אן אקצענט’ וואס איז אנדערש פון אייער</strong> - דאס איז וויכטיג פאר שטימע דערקענונג צו ארבייטן בעסער פאר יעדעם.
 
 ## How to access dataset
 
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = פריוואטקייט, זיכערקייט און דורכזיכטיגקייט.
+about-playbook-how-project-governance-content-5 = ווערד און אנערקענונג.
 
 ## Glossary
 
+hours-recorded-explanation = די צאל פון שטימע רעקארדירונג שטונדן מיר האבן געזאמלט ביז אהער.
 
 ## Error pages
 
+error-title-404 = מיר האבן נישט געקענט טרעפן דעם בלאט פאר אייך
 
 ## Data
 
+data-download-yes = יא
+data-download-deny = ניין
+data-other-goto = גיי צו { $name }
+release-version = ווערסיע
+dataset-date = דאטום
+license-mixed = געמישט
+terms-agree = איך בין איינשטימיג
+terms-disagree = איך בין נישט איינשטימיג
+review-submit-title = גייט איבער & גיבט אריין
+review-recording = איבערגיין
+review-rerecord = איבער-רעקארדיר
+review-keep-recordings = האלט די רעקארדירונגען
+review-delete-recordings = מעקט אויס מיין רעקארדירונגען
 
 ## Datasets Page
 
+language = שפרייך
+# File size in gigabytes
+size = מאס
+number-of-voices = צאל שטימעס
 
 ## Download Modal
 
