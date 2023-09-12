@@ -130,6 +130,7 @@ x-years-short =
         [one] יאר
        *[other] יארן
     }
+sign-up-account = שרייבט אייך אויף פאר א קאנטע
 email-subscription-title = שרייבט אייך אויף פאר אימעיל אנטוויקלונגען
 email-subscription-title-new = שרייבט אייך אויף פאר קאמאן וואויס נייעס באריכטן, ציל דערמאנונגען און פארשריט אנטוויקלונגען
 
@@ -221,12 +222,19 @@ contribution-experience = ביישטייערונג ערפארונג
 off = פארלאשן
 on = אנגעצונדן
 help-accent = דארף הילף מיט די אקצענט?
+help-variants = דארפט איר הילף מיט ווערסיעס?
 
 ## Profile - Email
 
+browse-file-title = לאדנט ארויף א בילד פייל
+file_too_large = די אויסגעוועלטע פייל איז צו גרויס
+avatar-uploaded = אוועטער ארויפגעלאדנט
+max-file-size = { $kb } ק"ב מערסטנס
+remove-avatar = נעם אראפ די אוועטער
 
 ## Profile - Email
 
+email-already-used = דער אימעיל איז שוין אין באנוץ פאר א צווייטער קאנטע
 
 ## FAQ
 
