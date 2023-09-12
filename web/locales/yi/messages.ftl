@@ -430,12 +430,68 @@ language-validation-hours = שטונדן
 
 ## Contribution
 
+action-click = דריקט
+contribute = ביישטייערט
+listen = הער צו
+write = שרייבט
+review = קוקט איבער
+skip = גייט אריבער
+clips-with-count-pluralized =
+    { $count ->
+        [one] קליפ
+       *[other] קליפס
+    }
+goal-help-recording = איר האט געהאלפן קאמאן וואויס דערגרייכן <goalPercentage></goalPercentage> פון אונזער טעגליכע { $goalValue } רעקארדירונג ציל!
+goal-help-validation = איר האט געהאלפן קאמאן וואויס דערגרייכן <goalPercentage></goalPercentage> פון אונזער טעגליכע { $goalValue } באשטעטיגן ציל!
+contribute-more =
+    { $count ->
+        [one] גרייט צו טון נאך { $count } מער?
+       *[other] גרייט צו טון נאך { $count } מער?
+    }
+record-cta = הויבט אן רעקארדירן
+record-must-allow-microphone = איר מוזט ערלויבן מיקראפאון צוטריט.
+record-no-mic-found = מיר טרעפן נישט קיין מיקראפאון.
+record-error-too-short = די רעקארדירונג איז געווען צו קורץ.
+record-error-too-long = די רעקארדירונג איז געווען צו לאנג.
+record-error-too-quiet = די רעקארדירונג איז געווען צו שטיל.
+record-instruction = { $actionType }<recordIcon></recordIcon> דערנאך ליינט דער זאץ הויעך
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ווען פארטיג
+record-three-more-instruction = נאך דריי צו גיין!
+record-again-instruction = געוואלדיג!<recordIcon></recordIcon> רעקארדירט אייער קומענדיגע קליפ
+record-again-instruction2 = האלט אן, רעקארדירט נאכאמאל<recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> דאס לעצטע!
+clips-uploaded = קליפס ארויפגעלאדנט
+record-abort-text = אוועק גיין יעצט מיינט אז איר וועט פארלירן אייער פארשריט
+record-abort-submit = געבט אריין קליפס
+record-abort-continue = ענדיג רעקארדירן
+listen-last-time-instruction = <playIcon></playIcon>דאס לעצטע!
+listen-empty-state = עס קען זיין אז מיר זענען אויסגעלאפן פון קליפס - פרישט איבער דעם בלאט, אדער פראבירט נאכאמאל שפעטער.
+speak-empty-state = מיר זענען אויסגעלאפן פון זאצן צו רעקארדירן אין דעם שפרייך...
+speak-empty-state-cta = ביישטייערט זאצן
+record-button-label = רעקארדירט אייער שטימע
+share-title-new = <bold>העלפט אונז</bold> טרעפן מער שטימעס
+target-segment-learn-more = לערנט מער
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = שטימע זאמלונג
+contribute-sentence-collection-nav-header = זאצן זאמלונג
 
 ## Reporting
 
+report = באריכט
+report-title = גיבט אריין א באריכט
+report-offensive-language = אומאיידעלע שפרייך
+report-offensive-language-detail = דער זאץ האט אומרעספעקטירטע אדער אומאיידעלע שפרייך.
+report-grammar-or-spelling-detail = דער זאץ האט א גראמאטישער אדער אויסלייג גרייז.
+report-different-language = אנדערע שפרייך
+report-different-language-detail = עס איז געשריבן אין אן אנדערע שפרייך פון וואס איך רעדט.
+report-difficult-pronounce = שווער צו ארויסזאגן
+report-difficult-pronounce-detail = עס פארמאגט ווערטער אדער פארזן וואס זענען שווער צו ליינען אדער ארויסזאגן.
+report-offensive-speech-detail = דער קליפ האט אומרעספעקטירטע אדער אומאיידעלע שפרייך.
+report-other-comment =
+    .placeholder = קאמאנטירט
+continue = גיי ווייטער
 
 ## Goals
 
