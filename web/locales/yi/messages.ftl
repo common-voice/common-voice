@@ -323,6 +323,7 @@ about-playbook-how-record-content-4 = מאכט זיכער אז די פלאטפר
 ## How to validate
 
 about-playbook-how-validate = וויאזוי ווייס איך צו איך זאל באשטעטיגן א שטימע קליפ?
+about-playbook-how-validate-content-1 = אויב איר קענט זיי <strong>הערן</strong> און <strong>פארשטיין</strong>, איז עס געווענטליך <strong>די בעסטע צו באשטעטיגן</strong>.
 
 ## How to access dataset
 
