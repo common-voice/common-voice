@@ -13,6 +13,7 @@ email-opt-in-info-title = שליסט אייך אן אין די קאמאן ווא
 email-opt-in-info-sub-with-challenge = באקומט אימעילס ווי טשאלענדזש און ציל דערמאנונגען, פארשריט אנטוויקלונגען, און נייעס באריכטן איבער קאמאן וואויס.
 email-opt-in-privacy-v2 = דורכ'ן זיך אריינשרייבן צו באקומען אימעילס פארשפרעכט איר אז איר זענט באקוועם מיט מאזילע צו האנדלען דער אינפארמאציע ווי ערקלערט אין די <privacyLink>פראווייטקייט נאטיץ</privacyLink>
 indicates-required = פלעצער אנגעצייכנט מיט א שטערן (*) זענען פארלאנגט.
+not-available-abbreviation = נישט גילטיג
 banner-error-slow-2 = מיר באקומען אסאך טרעפיק און מיר פארשטן די פראבלעמען.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
