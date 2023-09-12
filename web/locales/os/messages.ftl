@@ -736,12 +736,17 @@ download-language = Равгӕн { $language }
 validated-hours = Бӕлвырдгонд сахӕттӕ
 recorded-hours = Фыст сахæттæ
 whats-inside = Цы ис Common Voice-ы рардты ӕмбырды мидӕг?
+dataset-description-hours =
+    Рардты ӕмбырды алы фыст дӕр арӕзт у уникалон MP3 ӕмӕ уыимæ баст текстон файлӕй. Уый йеддæмæ <b>{ $total }</b> фыстгонд сахатӕй бирæ фыстыты ис демографион рардтӕ, ахӕмтӕ куыд кар, ӕрд ӕмӕ акцент, кӕцытӕ баххуыс кӕндзысты хъӕлӕс раиртасыны дырысдзинад фӕуӕлдӕр кӕнын.
+    
+    Ныртӕккӕ рардты ӕмбырд арӕзт у <b>{ $valid }</b> бӕлвырдгонд сахатӕй <b>{ $languages }</b> ӕвзагыл, фӕлӕ мах ӕдзух æфтауӕм ног хъӕлӕстӕ ӕмӕ ӕвзӕгтӕ. Бакӕс нӕ <languagesLink>ӕвзӕгты фарсмӕ</languagesLink>, цӕмӕй ӕркурай ӕвзаг кӕнӕ хайад райсай.
 want-dataset-update = Фӕнды дӕ Common Voice-ы рардты ӕмбырды ног верси рауагъды тыххӕй уайтагъд зонын? Бафысс дæхи нӕ хабӕрттæм.
 subscribe = Мæхи баффыссын
 get-started-speech = Куыст райдай хъӕлӕс раиртасӕнӕй
 other-datasets = Иннæ хъæлæсон датасеттæ
 feedback-q = Ис дæм фидбек?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ — у <docsLink>инструментты ӕмбырд  гом райдайӕн кодимӕ</docsLink>, диалогон АИ-ы нырыккон модельтӕ чи аразы, ахæм иртасджытæн.
+resource-deepspeech-info = Хъӕлӕс раиртасыны гом системӕ Deep Speech у Mozilla-йӕ чи зоны пайдагонд уа хи ӕфтуанты фӕлдисгӕйӕ. Бакӕс нӕ <githubLink>афӕлгӕст</githubLink> кӕнӕ баиу у<discourseLink> нӕ форумы хай DeepSpeech  Discourse-мӕ</discourseLink>, цӕмӕй базонай, уый.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> нысангонд цæуы гом кæнынмæ хъæлæсон технологи. Сæ проектты ис арф ахуыры æвæрд STT æмæ TTS змæлынгæнджытæ.
 community-playbook = Ахуыры чиныг æхсæнадæн
 resource-playbook-info = <playbookLink>Ссар пайдаджын амындтæ</playbookLink> æгас Common Voice балцы тыххæй, локализацийæ райдайгæйæ датасетæй пайда кæныныл фæугæйæ, куыд хи сбæттын нæ æмбаладимæ, ууыл дæр.
@@ -967,6 +972,7 @@ overall-accuracy = Иумæйаг дырысдзинад
 set-visibility = Æррæстмæ кæнын мæ уынгæдзинад
 visibility-explainer = Ацы рæвдзгæнæн фæтк дæтты дæ зынгæдзинадæн топы. Кæд æмбæхст дæ, уæд дæ прогресс уыдзæни сæрмагонд. Уый нысан кæны уый, æмæ дæ къам, архайæджы ном æмæ прогресс æвдыст не ʼрцæудзысты лидерты номхыгъды. Хъус æрдар, лидерты номхыгъд сног кæнын хардз кæны ~{ $minutes } минуты ивындзинæдтæ бахæссынмæ, уымæ.
 visibility-overlay-note = Фиппаинаг: Кæд «Зынгæ» æвзæрст у, уæд ацы рæвдзгæнæн баивæн ис <profileLink>профилы фарсы</profileLink>
+show-ranking = Равдис мæ рейтинг
 
 ## Custom Goals
 
@@ -981,6 +987,7 @@ easy-difficulty = Æнцон
 average-difficulty = Рæстæмбисæй
 difficult-difficulty = Зын
 pro-difficulty = Дæсны
+lose-goal-progress-warning = Дæ нысан ивгæйæ, дæ бон у уыйадыл фесафын дæ цæугæ прогресс.
 want-to-continue = Фæнды дæ адарддæр кæнын?
 finish-editing = Фæнды дæ фыццаджы ивыныл фæуын?
 lose-changes-warning = Ацæуын ныртæккæ нысан кæны, ды кæй фесафдзынæ дæ ивындзинæдтæ, уый.
@@ -1008,11 +1015,21 @@ n-clips-pluralized =
         [one] клип
        *[other] клипы
     }
+help-share-goal = Баххуыс нын кæн ссарынæн фылдæр хъæлæстæ, равдис дæ нысан
 confirm-goal = Сфидар кæн ацы нысан
 goal-interval-weekly = Алы къуырийы
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Равдис дæ æрвылбоны { $count } клипы нысан { $type }-æн
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Равдис дæ алкъуырион { $count } клипы нысан { $type }-æн
 share-goal-type-speak = Фыст
 share-goal-type-listen = Басгæрст
 share-goal-type-both = Фыст æмæ басгæрст
+# LINK will be replaced with the current URL
+goal-share-text = Æз ныртæккæ сарæзтон сæрмагонд нысан хъæлæсы бахай кæнынæн #CommonVoice — дæхи баиу кæн мемæ æмæ баххуыс кæн машинæтæ ахуыр кæнынæн, æцæг адæм куыд дзурынц, ууыл { $link }
+weekly-goal-created = Дæ алкъуырион нысан арæзт æрцыди
+daily-goal-created = Дæ æрвылбойнон нысан арæзт æрцыди
+track-progress = Дæ хъус дар дæ æнтыстытæм ам æмæ дæ статистикæйы фарсыл.
 share-goal = Равдис мæ нысан
 
 ## Profile Delete
