@@ -314,6 +314,7 @@ about-playbook-how-add-sentences = וויאזוי לייג איך צו זאצן?
 ## How to record quality
 
 about-playbook-how-record-quality = וויאזוי רעקארדיר איך א הויכע קוואליטעט שטימע קליפ?
+about-playbook-how-record-content-2 = פארמייד צו פיל הינטערגרונד גרידער - ס'זאל זיין גרינג דיך צו הערן.
 about-playbook-how-record-content-3 = ליינט דער זאץ פארזיכטיג - נישט צו פארזען, טוישן אדער צולייגן ווערטער.
 about-playbook-how-record-content-4 = מאכט זיכער אז די פלאטפראמע רעקארדירט פאר איר פאנגט אן רעדן, און אז ס'שטעלט זיך אפ ווען איר האט געענדיגט.
 
@@ -601,12 +602,21 @@ demo-account = קאנטע
 
 ## Demo Contribute
 
+demo-listen-subtitle = גרייט צו ביישטייערן?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-for-example = צום ביישפיל
+contribution-misreadings-example-5-title = מיר גייען ארויס צו נעמען קאווע.
+contribution-misreadings-example-6-title = מיר גייען ארויס צו נעמען קאווע.
+contribution-misreadings-example-7-title = מיר גייען ארויס צו נעמען א קאווע.
+contribution-background-noise-title = הינטערגרונד גרידער
+contribution-background-voices-title = הינטערגרונד שטימעס
+see-more = <chevron></chevron>זעט מער
+see-less = <chevron></chevron>זעט ווייניגער
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -615,39 +625,95 @@ demo-account = קאנטע
 
 ## HEADER/FOOTER
 
+sc-header-home = היים
+sc-header-add = לייג צו
+sc-header-review = קוקט איבער
+sc-header-rejected = צוריקגעוויזענע זאצן
+sc-header-my = מיינע זאצן
+sc-header-profile = פראפיל
+sc-footer-discourse = דיסקארס
+sc-footer-translate = טייטשט איבער דעם בלאט
+sc-footer-privacy = פריוואטקייט
+sc-footer-terms = טערמינען
+sc-footer-cookies = קוכן
 
 ## HOME
 
+sc-home-collect-title = זאמלט זאצן
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-addsen-title = לייג צו נייע זאצן
+sc-howto-cite-title = וויאזוי צו ציטירן
+sc-howto-review-criteria-1 = די זאצן דארפן זיין אויסגעלייגט ריכטיג.
+sc-howto-review-criteria-2 = די זאצן דארפן זיין גראמאטיש ריכטיג.
+sc-howto-review-criteria-6 = אויב לויפט איר אויס פון זאצן איבער צו קוקן, ביטע העלפט אונז זאמלען מער זאצן!
+sc-howto-findpd-subtitle = זוכט פאר זיי אויף דעם אינטערנעט
+sc-howto-findpd-subtitle-2 = שטעלט אייך צוזאם מיט לאקאלע ארגענעזאציעס אדער אידעווידואלן
 
 ## MY SENTENCES
 
+sc-my-title = מיינע זאצן
+sc-my-no-sentences = מיר האבן נישט געטראפן קיין זאצן!
 
 ## REJECTED
 
+sc-rejected-title = צוריקגעוויזענע זאצן
+sc-rejected-none-found = מיר האבן נישט געטראפן קיין צוריקגעוויזענע זאצן!
 
 ## STATS
 
 
 ## ADD
 
+sc-submit-err-select-lang = ביטע וועלט א שפרייך
+sc-submit-err-add-sentences = ביטע לייגט צו זאצן.
+sc-submit-title = לייגט צו זאצן
+sc-submit-select-language =
+    .labelText = וועלט א שפרייך
+sc-submit-ph-one-per-line =
+    .placeholder = איין זאץ פער ליניע
+sc-submit-button =
+    .submitText = גיב אריין
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = לייג צו א שפרייך
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] קיין זאצן דורכגעפאלן
+        [one] זאץ דורכגעפאלן
+       *[other] זאצן דורכגעפאלן
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = באשטעטיג נייע זאצן
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] נישט געפינען קיין זאצן.
+        [one] זאץ געפינען
+       *[other] זאצן געפינען
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } צוריקגעוויזן דורך אייך
+sc-confirm-button-text = באשטעטיג
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-personal = פערזענליכע
 
 ## LOGIN
 
+sc-login-err-try-again = ביטע פראבירט נאכאמאל.
 
 ## PROFILE
 
