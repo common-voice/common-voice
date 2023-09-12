@@ -1030,15 +1030,20 @@ goal-share-text = Æз ныртæккæ сарæзтон сæрмагонд ны
 weekly-goal-created = Дæ алкъуырион нысан арæзт æрцыди
 daily-goal-created = Дæ æрвылбойнон нысан арæзт æрцыди
 track-progress = Дæ хъус дар дæ æнтыстытæм ам æмæ дæ статистикæйы фарсыл.
+return-to-edit-goal = Фæстæмæ здæх ардæм, цæмæй баивай дæ нысан алы рæстæджы.
 share-goal = Равдис мæ нысан
 
 ## Profile Delete
 
+keep = Ныууадз
 remove = Сыхал
+keep-info = Дæ анонимон хъæлæсон фыстытæ баззайдзысты Common Voice рардты хæрхы. Куы сыхалай дæ профил, уæд дæ бон нал уыдзæн арвитын бафарст дæ фыстытæ датасетæй сыхалыны тыххæй.
 profile-form-delete = Профиль сыхал
 
 ## Profile Download
 
+download-q = Хъæуы дæ равгæнын дæ рардтæ?
+download-info = Зæгъ нын, цы дæ фæнды равгæнын, уый:
 download-profile-title = Профиль
 download-profile-size = Цалдæр байты
 download-recordings-title = Фыстытæ
