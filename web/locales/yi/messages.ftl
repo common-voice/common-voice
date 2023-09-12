@@ -495,20 +495,87 @@ continue = גיי ווייטער
 
 ## Goals
 
+days =
+    { $count ->
+        [one] טאג
+       *[other] טעג
+    }
+recordings =
+    { $count ->
+        [one] רעקארדירונג
+       *[other] רעקארדירונגען
+    }
+validations =
+    { $count ->
+        [one] באשטעטיגונג
+       *[other] באשטעטיגונגען
+    }
 
 ## Dashboard
 
+your-languages = אייערע שפרייכן
+toward-next-goal = צו דעם קומענדיגער ציל
+goal-reached = ציל דערגרייכט
+clips-you-recorded = קליפס וואס איר האט רעקארדירט
+clips-you-validated = קליפס וואס איר האט באשטעטיגט
+you = דו
+everyone = איעדער
+contribution-activity = ביישטייערונג אקטיוויטעטן
+top-contributors = גרעסטע ביישטייערער
+recorded-clips = רעקארדירטע קליפס
+validated-clips = באשטעטיגטע קליפס
+show-ranking = ווייז מיין ראנג
 
 ## Custom Goals
 
+goal-type = וואסערע סארט ציל ווילט איר בויען?
+both-speak-and-listen = ביידע
+both-speak-and-listen-long = ביידע (דערן און צוהערן)
+daily-goal = טעגליכע ציל
+weekly-goal = וועכנטליכע ציל
+easy-difficulty = גרינג
+average-difficulty = דורכשניטליך
+difficult-difficulty = שווער
+lose-goal-progress-warning = ביים טוישן אייער ציל, קענט איר פארלירן אייער עקזיסטירענדע פארשריט.
+want-to-continue = ווילט איר גיין ווייטער?
+lose-changes-warning = יעצט אוועקגיין מיינט אז איר וועט פארלירן אייערע טוישינגען
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] העלפט דערגרייכן { $hours } שטונדע אין { $language } מיט א פערזענליכע ציל
+       *[other] העלפט דערגרייכן { $hours } שטונדן אין { $language } מיט א פערזענליכע ציל
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] העלפט קאמאן וואויס דערגרייכן { $hours } שטונדע אין א שפרייך מיט א פערזענליכע ציל
+       *[other] העלפט קאמאן וואויס דערגרייכן { $hours } שטונדן אין א שפרייך מיט א פערזענליכע ציל
+    }
+set-a-goal = שטעלט א ציל
+cant-decide = איר קענט נישט אפמאכן?
+how-many-per-day = געוואלדיג! וויפיל קליפס א טאג?
+how-many-a-week = געוואלדיג! וויפיל קליפס א וואך?
+which-goal-type = ווילט איר רעדן, צוהערן אדער ביידע?
 receiving-emails-info = איר זענט יעצט אנגעשטעלט צו באקומען אימעילס א שטייגער ווי ציל דערמאנונגען, מיין פארשריט אנטוויקלונגען און נייעס באריכטן איבער קאמאן וואויס
 not-receiving-emails-info = איר זענט יעצט אנגעשטעלט צו <bold>נישט</bold> באקומען אימעילס א שטייגער ווי ציל דערמאנונגען, מיין פארשריט אנטוויקלונגען און נייעס באריכטן איבער קאמאן וואויס
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] קליפ
+       *[other] קליפס
+    }
+goal-interval-weekly = וועכנטליך
+weekly-goal-created = אייער וועכנטליכע ציל איז געווארן אוועקגעשטעלט
+daily-goal-created = אייער טעגליכע ציל איז געווארן אוועקגעשטעלט
+share-goal = טיילט מיט מיין ציל
 
 ## Profile Delete
 
+keep = האלט
+remove = נעם אראפ
+profile-form-delete = מען אויס פראפיל
 
 ## Profile Download
 
+download-profile-title = פראפיל
+download-recordings-title = רעקארדירונגען
 
 ## Landing
 
