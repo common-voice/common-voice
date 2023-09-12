@@ -576,15 +576,25 @@ profile-form-delete = מען אויס פראפיל
 
 download-profile-title = פראפיל
 download-recordings-title = רעקארדירונגען
+download-size = מאס
+download-selected = אויסגעוועלטע
+download-request = פארלאנגט רעקארדירונגען
+download-request-button = לאדנט אראפ
+download-request-refresh-button = פרישט איבער
 
 ## Landing
 
 
 ## DemoLayout
 
+demo-get-started = לאמיר אנפאנגען
+demo-welcome-subheader = איטערעסירט צו לערנען מער און ביישטייערן צו דעם פראיעקט?
 
 ## Demo Datasets
 
+card-button-next = קומענדיגע
+card-button-back = צוריק
+demo-account = קאנטע
 
 ## Demo Account
 
