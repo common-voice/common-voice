@@ -368,6 +368,9 @@ splits = צוטיילונגען
 size-gigabyte = ג"ב
 size-megabyte = מ"ב
 confirm-no-identify = <b>דו שטימסט צו</b> נישט צו פראבירן צו געוואר ווערן די אידענטיטעט פון די רעדנערס אין די קאמאן וואויס דאטא סעט
+validated-hours = באשעטיגטע שטונדן
+recorded-hours = רעקארדירטע שטונדן
+whats-inside = וואס געפינט זיך אינעם קאמאן וואויס דאטא סעט?
 
 ## Download Modal
 
