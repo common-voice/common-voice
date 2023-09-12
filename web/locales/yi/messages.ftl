@@ -76,7 +76,7 @@ languages = שפרייכן
 about = מער איבער דעם
 profile = פראפיל
 help = הילף
-privacy = פריווייטקייט
+privacy = פריוואטקייט
 terms = טערמינען
 cookies = קוכן
 faq = אפט געפרעגטע פרייגן
@@ -130,6 +130,7 @@ x-years-short =
         [one] יאר
        *[other] יארן
     }
+help-make-dataset = העלפט אונז בויען א הויעך קוואליטעט, עפענטליכע דאטא סעט
 sign-up-account = שרייבט אייך אויף פאר א קאנטע
 email-subscription-title = שרייבט אייך אויף פאר אימעיל אנטוויקלונגען
 email-subscription-title-new = שרייבט אייך אויף פאר קאמאן וואויס נייעס באריכטן, ציל דערמאנונגען און פארשריט אנטוויקלונגען
@@ -151,6 +152,8 @@ username-email-not-demographic = אייער באנוצער נאמען און א�
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ס
 
 ## Listen Shortcuts
 
@@ -215,7 +218,7 @@ settings = אנשטעלונגען
 edit-profile = פארעכט פראפיל
 profile-close = פארמאך
 thanks-for-account = א דאנק פארן באשטעטיגן אייער אקאונט, יעצט לאמיר בויען אייער פראפיל.
-accept-privacy-title = פריווייטקייט פארשריפטן
+accept-privacy-title = פריוואטקייט פארשריפטן
 accept-privacy-and-terms = איך בין איינשטימיג מיט קאמאן וואויס'ס <termsLink> טערמינען </termsLink> און <privacyLink> פריוואטקייט נאטיץ</privacyLink>
 edit = פאררעכט
 contribution-experience = ביישטייערונג ערפארונג
@@ -771,9 +774,20 @@ citing-sentences = ציטירן זאצן
 adding-sentences = צולייגן זאצן
 reviewing-sentences = איבערקוקן זאצן
 citing-sentences-subheader-websites = וועב זייטלעך
+citation =
+    .label = ציטירונג
 adding-sentences-subheader-length = לענג
 adding-sentences-subheader-length-explanation = די זאץ זאל האבן ווייניגער ווי 15 ווערטער.
 adding-sentences-subheader-spelling-punctuation-explanation = די זאץ דארף זיין אויסגעלייגט ריכטיג.
 adding-sentences-subheader-numbers = נומערן
 sentence =
     .label = זאץ
+citation =
+    .label = ציטירונג
+what-can-i-add = וועלכע סארט זאצן קען איך צולייגן?
+new-sentence-rule-2 = ווייניגער ווי 15 ווערטער
+how-to-cite = וויאזוי ציטיר איך
+guidelines = פארשריפטן
+add-sentence-success = 1 זאץ געזאמלט
+report-sc-different-language = אנדערע שפרייך
+report-sc-different-language-detail = עס איז געשריבן אין אן אנדערע שפרייך פון וואס איך קוק איבער.
