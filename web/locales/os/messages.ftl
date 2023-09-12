@@ -730,6 +730,7 @@ email-to-download = Датасет равгæнынмæ дæ эл. пост ны
 confirm-size = Ды бавгӕнынмӕ хъавыс <b>{ $size }</b>
 size-gigabyte = ГБ
 size-megabyte = МБ
+confirm-no-identify = <b>Ды разы дӕ</b>, Common Voice-ы датасеты мидæг дзурджытæ чи сты, уый бамбарыныл кӕй нӕ архайдзынӕ, уыимӕ
 confirm-join-mailing-list = Мӕн фӕнды баиу уын Common Voice-ы фыстæджыты номхыгъдмæ
 download-language = Равгӕн { $language }
 validated-hours = Бӕлвырдгонд сахӕттӕ
@@ -999,6 +1000,9 @@ cant-decide = Нæ рауайы уынаффæмæ æрцæуын?
 how-many-per-day = Иттæг хорз! Цал клипы алы бонæн?
 how-many-a-week = Иттæг хорз! Цал клипы алы къуырийæн?
 which-goal-type = Дæу фæнды дзурын, хъусын кæнæ дыууæ дæр?
+receiving-emails-info =
+    Ды исдзынæ ахæм фыстæджытæ, зæгъæм, нысаны зæрдыл æрыфтауæнтæ, мæ
+    æнтыстытæн сæ ног хъусынгæнинæгтæ æмæ ног хабæрттæ Common Voice-ы тыххæй
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] клип
