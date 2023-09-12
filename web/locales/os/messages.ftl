@@ -1038,6 +1038,7 @@ share-goal = Равдис мæ нысан
 keep = Ныууадз
 remove = Сыхал
 keep-info = Дæ анонимон хъæлæсон фыстытæ баззайдзысты Common Voice рардты хæрхы. Куы сыхалай дæ профил, уæд дæ бон нал уыдзæн арвитын бафарст дæ фыстытæ датасетæй сыхалыны тыххæй.
+remove-info = Мах æркæсдзыстæм дæ бафарстмæ дæ хъæлæсон фыстытæ рардты æмбырдæй сыхалыны тыххæй. Дæ бафарст сфидар куы уа, уæд мах нæхи сбæтдзыстæм, рардты æмбырд чи равгæдта, уыдонимæ æмæ домдзыстæм, цæмæй уыдон сыхалой дæр дæ хъæлæсон фыстытæ.
 profile-form-delete = Профиль сыхал
 
 ## Profile Download
@@ -1048,6 +1049,10 @@ download-profile-title = Профиль
 download-profile-size = Цалдæр байты
 download-recordings-title = Фыстытæ
 download-recordings-size = Фылдæрхатт мегабайттæ
+download-recordings-unavailable = Дæ бон нæу домын дæ фыстытæ, цалынмæ иннæ бафарстыл куыст цæуы, уæдмæ.
+download-recently-requested = Дæ бон у бафарст бахæссын дæ фыстыты ног архив райсыны тыххæй алы { $days } боны.
+download-size = Бæрц
+download-selected = Æвзæрст
 download-request-metadata-link = Хъуыдыйады текст
 
 ## Landing
@@ -1125,7 +1130,10 @@ sc-lang-info-title-total = Æдæппæт
 
 ## PROFILE
 
+sc-personal-err-lang-not-found = Æвзаг сыхалæн нæй: æвзаг не ссардæуыд
+sc-personal-err-remove = Æвзаг сыхалын нæ бантыстис
 sc-personal-your-languages = Де ’взæгтæ:
+sc-personal-remove-button = сыхал
 
 ## REVIEW CRITERIA
 
