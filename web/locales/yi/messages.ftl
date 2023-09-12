@@ -146,15 +146,24 @@ whats-public = וואס איז עפענטליך?
 email-not-public = מיר וועלן נישט פארעפענטליכן אייער אימעיל אדרעס.
 recordings-and-locale-public = די צאל פון רעקארדירונגען און וועלכע שפרייך איר ביישטייערט צו וועט זיין עפענטליך.
 username-optin-public = איר קענט וועלן צו מאכן אייער באנוצער נאמען עפענטליך אדער אנאנים.
+username-email-not-demographic = אייער באנוצער נאמען און אימעיל וועט נישט זיין פארבינדן מיט די ארויגעגעבענעם דאטא.
 
 ## Speak & Listen Shortcuts
 
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = שפיל/שטעל אפ
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = רעקארדיר/שטעל אפ
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = איבער-רעקארד דעם קליפ
+shortcut-submit = גיי צוריק
+shortcut-submit-label = געבט אריין קליפס
+request-language-text = איר זעט נאכנישט אייער שפרייך אויף קאמאן וואויס?
+request-language-button = פארלאנגט א שפרייך
 
 ## ProjectStatus
 
