@@ -371,21 +371,62 @@ confirm-no-identify = <b>דו שטימסט צו</b> נישט צו פראבירן
 validated-hours = באשעטיגטע שטונדן
 recorded-hours = רעקארדירטע שטונדן
 whats-inside = וואס געפינט זיך אינעם קאמאן וואויס דאטא סעט?
+feedback-q = האט איר באמערקונגען?
+your-feedback = האט איר געדאנקען וויאזוי מיר קענען מאכן די קאמאן וואויס דאטא סעט בעסער? לאזט אונז וואוסן אויף דיסקארס
+go-discourse = גיי צו דיסקארס
+go-languages-page = גיי צו שפרייכן בלאט
+ready-to-validate = זענט איר גרייט צו באשטעטיגן זאצן?
+more = מער
+close = פארמאך
+download = לאדנט אראפ
+dataset-version = ווערסיע
 
 ## Download Modal
 
+download-title = אייער אראפ לאדענען האט זיך אנגעהויבן.
+download-form-email =
+    .label = לייגט אריין אייער אימעיל
+    .value = יישר כח, מיר וועלן זיין אין פארבינדונג
+download-no = ניין, א דאנק
 
 ## Contact Modal
 
+contact-title = קאנטאקט פארום
+contact-form-name =
+    .label = נאמען
+contact-required = פארלאנגט
 
 ## Request Language Modal
 
+request-language-title = שפרייך פארלאנג
+request-language-form-language =
+    .label = שפרייך
+select-language = וועלט א שפרייך...
+other-language = אנדערע שפרייך
 
 ## Request Language Pages
 
+request-language-heading = פרעגט וועגן א נייע שפרייך
+request-language-form-email =
+    .label = אייער אימעיל אדרעס
+request-language-form-info =
+    .label = אינפארמאציע איבער דעם שפרייך
+request-language-form-info-explanation =
+    לייגט אריין דאס מערסטע אינפארמאציע וואס איר קענט איבער דעם שפרייך. דאס
+    קען ארייננעמען:
+request-language-form-info-explanation-list-1 = נעמען פון אייער שפרייך
 
 ## Languages Overview
 
+language-section-in-progress = מען ארבעט דערויף
+languages-show-more = זעט מער
+languages-show-less = זעט וויינעגער
+language-meter-in-progress = פארשריט
+language-search-input =
+    .placeholder = זוכט
+language-speakers = דעדנערס
+sentences = זאצן
+language-validation-hours = שטונדן
 
 ## Contribution
 
