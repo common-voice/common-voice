@@ -253,34 +253,76 @@ faq-why-not-ask-read-q = פארוואס בעט איר נישט מענטשן צו
 faq-why-account-q = פארוואס זאל איך זיך ארויף שרייבן פאר א קאנטע?
 faq-is-account-public-q = איז מיין קאנטע אינפארמאציע עפענטליך?
 faq-how-privacy-q = וויאזוי טוט איר פארזיכערן די אנאנימיטעט און פריוואטקייט פון די מענטשן וואס ביישטייערן זייער שטימע?
+faq-what-is-cv = וואס איז דאס קאמאן וואויס?
+faq-description = קאמאן וואויס איז א טייל פון מאזילע'ס איניציאטיוו צו העלפען לערנען מאשינען ווי אזוי עכטע מענטשן רעדן.
+faq-search-for-answers =
+    .label = זוך פאר ענטפערס
 
 ## ABOUT US
 
+about-title = פארוואס קאמאן וואויס?
+how-does-it-work-title-v2 = וויאזוי ארבייט קאמאן וואויס?
 
 ## How does it work section
 
+about-language-req-subtitle = איינער בעט פאר א שפרייך צו ווערן צוגעלייגט.
+about-sentence-collection-title = זאצן זאמלונג
+about-sentence-collection-subtitle = זאצן ווערן געזאמלט פאר מענטשן צו פארליינען הויעך.
+about-voice-contrib-title = שטימע ביישטייערונג
+about-voice-contrib-subtitle = מענטשן קומען און ביישטייערן זייערע שטימעס.
+about-voice-validation-title = שטימע באשטעטיגונג
+about-voice-validation-subtitle = אנדערע מענטשן באשטעטיגן די שטימע קליפס.
+about-speak = רעד
+about-listen-queue = צוהערן-רייע
+about-listen = אויסהערן
+about-listen-text = באנוצער באשטעטיגן די אקוראטקייט פון די ביישטייערטע קליפס, זיכער צו מאכן אז די רעדנער ליינט די זאץ ריכטיג.
+about-yes-votes = ≥ 2 יא שטימען
+about-yes-votes-text = צו קענען אריינגיין אין די קאמאן וואיס דאטא סעט, א שטימע קליפ דארף ווערן באשטעטיגט דורך צוויי באזונדערע באנוצער.
+about-no-votes = ≥ 2 ניין שטימען
+about-dataset-new = קאמאן וואויס דאטא סעט
+about-get-involved = ווער פארמישט
+about-stay-in-touch-button = שרייבט אייך אויף
+about-nav-why-common-voice = פארוואס?
+about-nav-how-it-works = וויאזוי?
+about-nav-get-involved = ווער פארמישט
+about-nav-how-it-works-2 = וויאזוי ארבייט קאמאן וואויס?
+about-nav-playbook = לערנט וויאזוי צו אנטייל נעמען
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = וואס איז א שפרייך אויף קאמאן וואויס?
 
 ## How do I add a language
 
+about-playbook-how-add-language = וויאזוי לייג איך צו א שפרייך?
+about-playbook-how-add-language-content-1 =
+    ערשט, קוקט דורך אויב דער שפרייך <languageLink>עקזעסטירט שוין</languageLink>.
+    אויב נישט, קענט איר <languageRequestLink>פרעגן איבער צולייגן אייער שפרייך</languageRequestLink>.
+    עס איז דא צוויי שטאפלען. איבערטייטשן דעם זייטל, און זאמלען זאצן
+about-playbook-how-add-language-translating-heading = איבערטייטשן דעם זייטל
+about-playbook-how-add-language-collecting-sentences-heading = זאמלען זאצן
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>זע מער איבער זאצן זאמלונג</sentenceCollectorFragment>
 
 ## How does localization work
 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = וויאזוי לייג איך צו זאצן?
 
 ## How to record quality
 
+about-playbook-how-record-quality = וויאזוי רעקארדיר איך א הויכע קוואליטעט שטימע קליפ?
+about-playbook-how-record-content-3 = ליינט דער זאץ פארזיכטיג - נישט צו פארזען, טוישן אדער צולייגן ווערטער.
+about-playbook-how-record-content-4 = מאכט זיכער אז די פלאטפראמע רעקארדירט פאר איר פאנגט אן רעדן, און אז ס'שטעלט זיך אפ ווען איר האט געענדיגט.
 
 ## How to grow language
 
 
 ## How to validate
 
+about-playbook-how-validate = וויאזוי ווייס איך צו איך זאל באשטעטיגן א שטימע קליפ?
 
 ## How to access dataset
 
