@@ -235,9 +235,17 @@ remove-avatar = נעם אראפ די אוועטער
 ## Profile - Email
 
 email-already-used = דער אימעיל איז שוין אין באנוץ פאר א צווייטער קאנטע
+add-language = לייגט צו א שפרייך
 
 ## FAQ
 
+faq-title = אפט געפרעגטע פרייגן
+faq-what-cv-q = וואס איז דאס קאמאן וואויס?
+faq-why-important-q = פארוואס איז עס וויכטיג?
+faq-how-get-q = וויאזוי קען איך באקומען די קאמאן וואויס דאטא?
+faq-why-mission-q = פארוואס איז קאמאן וואויס א טייל פון די מאזילע מיסיע?
+faq-what-cv-and-deepspeech-q = וואס איז די דיפערענס צווישן קאמאן וואויס און דיפ ספיטש?
+faq-is-account-public-q = איז מיין קאנטע אינפארמאציע עפענטליך?
 
 ## ABOUT US
 
