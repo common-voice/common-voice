@@ -211,6 +211,7 @@ hidden = באהאלטן
 visible = זעהבאר
 native-language =
     .label = געבוירערענער שפרייך
+profile-form-add-accent = לייג צו אן אייגענעם אקצענט "{ $inputValue }"
 male = מאן
 female = פרוי
 # Gender
