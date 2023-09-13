@@ -74,8 +74,10 @@ speak = רעדט
 speak-now = רעדט יעצט
 languages = שפרייכן
 about = מער איבער דעם
+partner = שותף
 profile = פראפיל
 help = הילף
+contact = קאנטאקט
 privacy = פריוואטקייט
 terms = טערמינען
 cookies = קוכן
@@ -83,6 +85,7 @@ faq = אפט געפרעגטע פרייגן
 content-license-text = אינהאלט צו באקומען אונטער די </licenseLink>Creative Commons license<licenseLink>
 share-title = העלפט אונז טרעפן אנדערע צו ביישטייערן זייער שטימע!
 share-text = העלפט לערנען די מאשינען ווי אזוי עכטע מענטשן רעדן, ביישטייערט אייער שטימע ביי { $link }
+back-top = צוריק צום אנהייב
 
 ## Home Page
 
@@ -218,6 +221,7 @@ settings = אנשטעלונגען
 edit-profile = פארעכט פראפיל
 profile-close = פארמאך
 thanks-for-account = א דאנק פארן באשטעטיגן אייער אקאונט, יעצט לאמיר בויען אייער פראפיל.
+why-demographic = פארוואס מאכט דאס אויס?
 accept-privacy-title = פריוואטקייט פארשריפטן
 accept-privacy-and-terms = איך בין איינשטימיג מיט קאמאן וואויס'ס <termsLink> טערמינען </termsLink> און <privacyLink> פריוואטקייט נאטיץ</privacyLink>
 edit = פאררעכט
