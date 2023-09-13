@@ -1,6 +1,7 @@
 ## Languages
 
 contribute = ביישטייערט
+get-involved-button = ווער פארמישט
 get-involved-title = ביישטייערט צו { $lang }
 get-involved-email =
     .label = אימעיל
