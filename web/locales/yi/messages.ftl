@@ -268,6 +268,7 @@ faq-why-account-q = פארוואס זאל איך זיך ארויף שרייבן 
 faq-is-account-public-q = איז מיין קאנטע אינפארמאציע עפענטליך?
 faq-how-privacy-q = וויאזוי טוט איר פארזיכערן די אנאנימיטעט און פריוואטקייט פון די מענטשן וואס ביישטייערן זייער שטימע?
 faq-what-is-cv = וואס איז דאס קאמאן וואויס?
+faq-using-cv = נוצן קאמאן וואויס
 faq-description = קאמאן וואויס איז א טייל פון מאזילע'ס איניציאטיוו צו העלפען לערנען מאשינען ווי אזוי עכטע מענטשן רעדן.
 faq-search-for-answers =
     .label = זוך פאר ענטפערס
@@ -282,11 +283,15 @@ how-does-it-work-title-v2 = וויאזוי ארבייט קאמאן וואויס?
 about-language-req-subtitle = איינער בעט פאר א שפרייך צו ווערן צוגעלייגט.
 about-sentence-collection-title = זאצן זאמלונג
 about-sentence-collection-subtitle = זאצן ווערן געזאמלט פאר מענטשן צו פארליינען הויעך.
+about-new-lang-subtitle = מיר געבן ארויס דער קאמאן וואויס זייטל אין דעם שפרייך.
 about-voice-contrib-title = שטימע ביישטייערונג
 about-voice-contrib-subtitle = מענטשן קומען און ביישטייערן זייערע שטימעס.
 about-voice-validation-title = שטימע באשטעטיגונג
 about-voice-validation-subtitle = אנדערע מענטשן באשטעטיגן די שטימע קליפס.
+about-dataset-release-subtitle = מיר געבן ארויס דעם דאטא סעט איעדער 3 מאנאטן.
+about-subscribe-text = ווילט איר בלייבן אין פארבינדונג מיט קאמאן וואויס?
 about-speak = רעד
+about-speak-text = ביישטייערער רעקארדירן שטימע קליפס דורך לייענען פון א באנק פון ביישטייערטע זאצן.
 about-listen-queue = צוהערן-רייע
 about-listen = אויסהערן
 about-listen-text = באנוצער באשטעטיגן די אקוראטקייט פון די ביישטייערטע קליפס, זיכער צו מאכן אז די רעדנער ליינט די זאץ ריכטיג.
@@ -295,6 +300,7 @@ about-yes-votes-text = צו קענען אריינגיין אין די קאמאן
 about-no-votes = ≥ 2 ניין שטימען
 about-dataset-new = קאמאן וואויס דאטא סעט
 about-get-involved = ווער פארמישט
+about-stay-in-touch = וויאזוי בלייב איך אין פארבינדונג?
 about-stay-in-touch-button = שרייבט אייך אויף
 about-nav-why-common-voice = פארוואס?
 about-nav-how-it-works = וויאזוי?
@@ -334,6 +340,7 @@ about-playbook-how-record-content-4 = מאכט זיכער אז די פלאטפר
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = סאציאלע מידיע
 
 ## How to validate
 
