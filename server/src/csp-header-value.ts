@@ -38,6 +38,7 @@ const SOURCES = {
     "'sha256-GzFSggTMJH0+aLj5HI3ZiCtxjVrlSWczZ/oHezdwRgE='",
     "'sha256-a4XKOKikGVsTOKjLwsaxxV5wpz/r2aiS5mjhlhYZ6A0='",
     "'sha256-QpRaNc9WL82cAOkiPfLE1bTAivGUFX9zsApzEurJ9wg='",
+    "'sha256-dWOqg9lnJct6KNFyy8RWWvxwrKvHVzzxWdDufqcgdSY='",
     'https://www.google-analytics.com',
     'https://pontoon.mozilla.org',
     'https://*.sentry.io',

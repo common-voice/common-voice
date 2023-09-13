@@ -76,6 +76,7 @@ ga-IE = Irish
 gl = Galician
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebrew
 hi = Hindi
