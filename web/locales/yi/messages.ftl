@@ -222,6 +222,7 @@ edit-profile = פארעכט פראפיל
 profile-close = פארמאך
 thanks-for-account = א דאנק פארן באשטעטיגן אייער אקאונט, יעצט לאמיר בויען אייער פראפיל.
 why-demographic = פארוואס מאכט דאס אויס?
+accept-privacy = איך בין באקוועם מיט אייך צו האנדלען די אינפארמאציע אזויווי ערקלערט אין מאזילע'ס <privacyLink>פריוואטקייט פארשריפטן</privacyLink>
 accept-privacy-title = פריוואטקייט פארשריפטן
 accept-privacy-and-terms = איך בין איינשטימיג מיט קאמאן וואויס'ס <termsLink> טערמינען </termsLink> און <privacyLink> פריוואטקייט נאטיץ</privacyLink>
 edit = פאררעכט
