@@ -512,10 +512,16 @@ header {
             }
         }
 
-        & .button {
+        & .auth-button {
             margin-top: 15px;
             display: flex;
             background: var(--black);
+        }
+
+        & .donate-btn-container {
+            display: flex;
+            justify-content: center;
+            margin-block-start: 16px;
         }
     }
 

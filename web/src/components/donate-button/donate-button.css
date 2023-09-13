@@ -1,0 +1,21 @@
+.donate-btn {
+    &.button {
+        background: var(--valid-green);
+        border: none;
+        text-transform: uppercase;
+        min-width: 7rem;
+
+        @media (--md-up) {
+            height: 2.5rem;
+        }
+
+        @media (--sm-down) {
+            display: flex;
+        }
+    }
+}
+
+body:not(.mobile-safari) .button.donate-btn:hover {
+    color: var(--white);
+    background-color: var(--valid-green);
+}
