@@ -240,6 +240,7 @@ share-text = Help teach machines how real people speak, donate your voice at { $
 link-copied = Link Copied
 back-top = Back to Top
 logout = Log Out
+donate = Donate
 
 ## Home Page
 home-title = Common Voice is Mozilla's initiative to help teach machines how real people speak.

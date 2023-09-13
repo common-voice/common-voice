@@ -15,9 +15,20 @@
             display: flex;
         }
     }
+
+    svg {
+        margin-inline-end: 12px;
+        path {
+            fill: var(--white);
+        }
+    }
 }
 
 body:not(.mobile-safari) .button.donate-btn:hover {
     color: var(--white);
     background-color: var(--valid-green);
+
+    path {
+        fill: var(--white);
+    }
 }
