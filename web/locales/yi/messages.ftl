@@ -617,6 +617,7 @@ demo-welcome-subheader = איטערעסירט צו לערנען מער און ב
 
 card-button-next = קומענדיגע
 card-button-back = צוריק
+demo-language-select-label = בלעטערן שפרייכן
 demo-account = קאנטע
 
 ## Demo Account
