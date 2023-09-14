@@ -878,7 +878,7 @@ language-validation-progress = Puorbaudis progress
 
 ## Contribution
 
-action-click = Klyksts
+action-click = Klykstynoj
 action-tap = Pīsaskar
 contribute = Dūt īguļdejumu
 listen = Klausīs
