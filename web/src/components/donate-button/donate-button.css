@@ -17,7 +17,7 @@
     }
 
     svg {
-        margin-inline-end: 12px;
+        margin-inline-end: 8px;
         path {
             fill: var(--white);
         }
