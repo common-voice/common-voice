@@ -1070,6 +1070,9 @@ download-size = Бæрц
 download-selected = Æвзæрст
 download-start = Равгæн профилы рардтæ
 download-request = Фыстытæ æркур
+download-request-button = Равгæн
+download-request-title = { $created }
+download-request-refresh-button = Сног кæн
 download-request-metadata-link = Хъуыдыйады текст
 
 ## Landing
