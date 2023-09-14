@@ -362,8 +362,8 @@ status-contribute = Pazīdoj sovu bolsu
 status-hours =
     { $hours ->
         [zero] Da šam puorbaudeitys { $hours } stuņdis!
-        [one] { "" }
-       *[other] { "" }
+        [one] Da šam puorbaudeitys { $hours } stuņdis!
+       *[other] Da šam puorbaudeitys { $hours } stuņdis!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -626,7 +626,6 @@ about-playbook-how-add-sentences = Kai dalikt teikumus?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ir reiks publiskuo domena teikumu apkūpuošonai i apstyprynuošonai. Jums byus <scAccountLink>juosataisa konts</scAccountLink>. Piec tam dalīcit volūdu sovam <strong>profilam</strong>. Varit <strong>dalikt</strong> teikumus voi <strong>puorsavērt</strong> agruok dalyktūs teikumus.
 about-playbook-how-add-sentences-content-2 = Teikumi ir juopuorsaver i juopījam divejim cylvākim, lai tī tyktu pījimti Common Voice. Jius varit sataiseit vodlinejis sovai volūdai <languageGuidelinesLink>ite</languageGuidelinesLink>. Teikumim juobyut <licenseLink>breivim nu autortīseibu</licenseLink>, i tim juobyut eisuokim par 15 vuordim. Varit lyugt teksta eipašnīkam nūdūt teikumus <waiverLink>CC0 jeb breivai izlītuošonai, lītojūt myusu autortīseibu nūdūšonys procesu</waiverLink>, i nūsyuteit mums iz commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Varit lītuot <scraperLink>teikumu izviļkšonys reiku</scraperLink>, lai dasaisteitu eisus teikumus nu Vikipedejis.
-about-playbook-how-add-sentences-content-4 = Validātī īroksti teik eksportāti trešdīnēs i ir daīmami nuokušajā izlaidumā.
 
 ## How to record quality
 
@@ -1044,14 +1043,14 @@ build-custom-goal = Damārojit sev mierki
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [zero] Paleidzit sasnēgt { $hours } stuņdis { $language } volūdā ar sovu mierki
-        [one] { "" }
-       *[other] { "" }
+        [one] Paleidzit sasnēgt { $hours } stuņdis { $language } volūdā ar sovu mierki
+       *[other] Paleidzit sasnēgt { $hours } stuņdis { $language } volūdā ar sovu mierki
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [zero] Paleidzit sasnēgt { $hours } stuņdis itamā volūdā ar sovu mierki
-        [one] { "" }
-       *[other] { "" }
+        [one] Paleidzit sasnēgt { $hours } stuņdis itamā volūdā ar sovu mierki
+       *[other] Paleidzit sasnēgt { $hours } stuņdis itamā volūdā ar sovu mierki
     }
 set-a-goal = Izvierzeit mierki
 cant-decide = Navarit nūsprīst?
