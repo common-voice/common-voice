@@ -615,6 +615,7 @@ demo-welcome-subheader = איטערעסירט צו לערנען מער און ב
 
 ## Demo Datasets
 
+demo-language-select-card-header = קאמאן וואויס איז דער וועלטס גרעסטע עפענטליכע פארהאן, פארשידענע-שפרייכן שטימע דאטא סעט.
 card-button-next = קומענדיגע
 card-button-back = צוריק
 demo-language-select-label = בלעטערן שפרייכן
