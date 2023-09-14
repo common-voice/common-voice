@@ -1070,9 +1070,12 @@ download-size = Бæрц
 download-selected = Æвзæрст
 download-start = Равгæн профилы рардтæ
 download-request = Фыстытæ æркур
+download-requests = Кæддæры фыстытæ равгæныны тыххæй курдиат
 download-request-button = Равгæн
 download-request-title = { $created }
+download-request-archive-single = Иунæй ZIP-файл, йæ мидæг та
 download-request-refresh-button = Сног кæн
+download-request-modal-title = Равгæныны æрвитæнтæ
 download-request-metadata-link = Хъуыдыйады текст
 
 ## Landing
@@ -1084,6 +1087,7 @@ demo-get-started = Байдайæм
 
 ## Demo Datasets
 
+demo-language-select-label = Æппæт æвзæгтæ
 
 ## Demo Account
 
@@ -1096,7 +1100,9 @@ demo-get-started = Байдайæм
 
 ## Validation criteria
 
+contribution-criteria-nav = Критерийтæ
 contribution-for-example = зæгъæм
+contribution-background-voices-title = Æндæр хъæлæстæ уыцы-иу фысты
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1105,6 +1111,7 @@ contribution-for-example = зæгъæм
 
 ## HEADER/FOOTER
 
+sc-header-home = Сæйраг фарсмæ
 sc-header-statistics = Статистикæ
 sc-header-profile = Профиль
 
