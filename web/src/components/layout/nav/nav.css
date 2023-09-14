@@ -243,6 +243,10 @@ header {
         min-width: max-content;
         text-transform: uppercase;
 
+        @media (--md-up) {
+            height: 2.5rem;
+        }
+
         @media (--md-down) {
             display: none;
         }
