@@ -321,6 +321,7 @@ about-playbook-how-add-language-content-1 =
     אויב נישט, קענט איר <languageRequestLink>פרעגן איבער צולייגן אייער שפרייך</languageRequestLink>.
     עס איז דא צוויי שטאפלען. איבערטייטשן דעם זייטל, און זאמלען זאצן
 about-playbook-how-add-language-translating-heading = איבערטייטשן דעם זייטל
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>קוקט אונזער גייד איבער וויאזוי צו נוצן פענטאאן.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = זאמלען זאצן
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>זע מער איבער זאצן זאמלונג</sentenceCollectorFragment>
 
