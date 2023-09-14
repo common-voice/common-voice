@@ -1112,17 +1112,27 @@ contribution-background-voices-title = Æндæр хъæлæстæ уыцы-иу
 ## HEADER/FOOTER
 
 sc-header-home = Сæйраг фарсмæ
+sc-header-how-to = Бæрæгуат
+sc-header-add = Бафтау
+sc-header-review = Басгар
+sc-header-my = Мæ хъуыдыйæдтæ
 sc-header-statistics = Статистикæ
 sc-header-profile = Профиль
+sc-footer-discourse = Discourse
+sc-footer-cookies = Кукитæ
 
 ## HOME
 
+sc-home-collect-title = Бафтау хъуыдыйæдтæ
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-addsen-title = Ног хъуыдыйæдтæ бафтау
+sc-howto-cite-title = Цитатæ куыд аразын хъæуы
+sc-howto-findpd-subtitle = Ссар сæ интернеты
 
 ## MY SENTENCES
 
@@ -1140,10 +1150,18 @@ sc-stats-title = Статистикæ
 
 ## ADD
 
+sc-submit-err-add-sentences = Бафтау хъуыдыйæдтæ, дæ хорзæхæй.
+sc-submit-err-add-source = Ратæдзæн бацамон.
+sc-submit-select-language =
+    .labelText = Равзар æвзаг.
+sc-submit-button =
+    .submitText = Арвит
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Æвзаг бафтауын нæ бантыстис.
 sc-add-lang-sec-button = Æвзаг бафтау
+sc-add-err-submission = Æрвитыны рæдыд
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1157,6 +1175,9 @@ sc-lang-info-title-total = Æдæппæт
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профиль: { $username }
 sc-personal-err-lang-not-found = Æвзаг сыхалæн нæй: æвзаг не ссардæуыд
 sc-personal-err-remove = Æвзаг сыхалын нæ бантыстис
 sc-personal-your-languages = Де ’взæгтæ:
@@ -1171,9 +1192,14 @@ sc-personal-remove-button = сыхал
 ## SETTINGS
 
 sc-settings-title = Рæвдзгæнæнтæ
+sc-settings-ui-language = Интерфейсы æвзаг
 
 # [/SentenceCollector]
 
+# PARTNERSHIPS PAGE
+partnerships-header = Партнёртæ
+partnerships-governments-header = Хицауæдтæ
+partnerships-academia-header = Университеттæ, ахуыргæндтæ æмæ иртасджытæ
 create-profile-button = Дæ профиль скæн
 sentence-collection = Хъуыдыйæдтæ
 example = Дæнцæг
