@@ -322,7 +322,13 @@ about-playbook-how-add-language-content-1 =
     עס איז דא צוויי שטאפלען. איבערטייטשן דעם זייטל, און זאמלען זאצן
 about-playbook-how-add-language-translating-heading = איבערטייטשן דעם זייטל
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>קוקט אונזער גייד איבער וויאזוי צו נוצן פענטאאן.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    מיר ביי מאזילע נוצן א געצייג גערופן <pontoonLink>פענטאאן</pontoonLink> פאר איבערטייטשונגען. פענטאאן האט אסאך שפרייכן,
+    אבער אויך עס פארמאגט נישט אייערס קענט איר <pontoonRequestLink>פארלאנגען צוצולייגן אייער שפרייך</pontoonRequestLink>.
+    דערנאך, צו מאכן דעם שפרייך צוטריטליך אויך דעם קאמאן וואויס פראיעקט,
+    <githubRepoLink>פארלאנגט די נייע שפרייך אויף GitHub </githubRepoLink>. <localizationFragment>זעט מער איבער זייטל איבעטייטשונג</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = זאמלען זאצן
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>זעט אונזער גייד איבער נוצן דעם זאצן זאמלער</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>זע מער איבער זאצן זאמלונג</sentenceCollectorFragment>
 
 ## How does localization work
