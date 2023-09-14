@@ -1693,7 +1693,7 @@ reviewing-sentences-explanation-2 = Ka teikums naatbylst agruok nūsauktajim kri
 reviewing-sentences-explanation-3 = Ka naesit puorlīcynuots par teikumu, varit tū izlaist i puorīt iz nuokušū.
 reviewing-sentences-explanation-4 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
 # WRITE PAGE
-write-instruction-second-part = publiski daīmams teikums
+write-instruction-second-part = publiski daīmamu teikumu
 write-page-subtitle = Ite dalyktī teikumi tiks davīnuoti publiski daīmamai cc-0 liceņcātai datu kūpai.
 sentence =
     .label = Teikums
