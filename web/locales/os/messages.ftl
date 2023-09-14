@@ -526,7 +526,7 @@ how-does-it-work-text = Мах ӕмбырд кӕнӕм хъӕлӕсон рард
 about-language-req-subtitle = Чидæр куры, цæмæй æвзаг бафтой.
 about-localization-title = Веб-сайты локализаци
 about-localization-subtitle = Сайты текст тӕлмацгонд у ацы ӕвзагмӕ.
-about-sentence-collection-title = Хъуыдыйæдты коллекци
+about-sentence-collection-title = Хъуыдыйæдтæ куыд æмбырд кæнынц
 about-sentence-collection-subtitle = Хъуыдыйæдтæ æмбырд æрцæуынц, цæмæй адæм сæ кæсой хъæрæй.
 about-new-lang-title = Ног æвзаджы куыстыл райдайæн
 about-new-lang-subtitle = Гом кӕнӕм сайт Common Voice ацы ӕвзагыл.
@@ -609,7 +609,6 @@ about-playbook-how-add-sentences = Куыд хъуамæ бафтауон хъу
 about-playbook-how-add-sentences-content-1 = <strong>Хъуыдыйадты æмбырдгæнæг</strong> у, æмбырд чи кæны æмæ чи сгары æхсæнадон исы хъуыдыйæдтæ, ахæм фæрæз. Дæу <scAccountLink>бахъæудзæн аккаунт скæнын</scAccountLink>. Уый фæстæ бафтау де ʼвзаг дæ <strong>профилыл</strong>. Дæ бон у <strong>бафтауын</strong> хъуыдыйæдтæ кæнæ <strong>сгарын</strong> æрæджы бафтыд хъуыдыйæдтæ.
 about-playbook-how-add-sentences-content-2 = Хъуыдыйæдтæ хъуамæ сгæрст æрцæуой æмæ сфидар æрцæуой дыууæ адæймагæй, цæмæй бафтой Common Voice-мæ. Ды аразыс амындтæ де ʼвзагæн <languageGuidelinesLink>мæнæ ам</languageGuidelinesLink>. Хъуыдыйæдтæ хъуамæ уой <licenseLink>æхсæнады исы</licenseLink> æмæ 15 дзырдæй къаддæр. Дæ бон у ракурын тексты бардарæгæй <waiverLink>CC0 скæныны тыххæй нæ авторы бартæй суæгъд кæныны процессы фæрцы</waiverLink>, æмæ арвит махмæ commonvoice@mozilla.com.
 about-playbook-how-add-sentences-content-3 = Дæ бон у спайда кæнын <scraperLink>Хъуыдыйæдты исинагæй</scraperLink>, цæмæй Википедийы чысыл хъуыдыйæдтæй спайда кæнай.
-about-playbook-how-add-sentences-content-4 = Сгæрст цы æрцыдысты, уыцы хъуыдыйæдтæ экспортгонд цæуынц æртыццæджыты æмæ æнцонвадат сты фæдылдзог релизы фæстæ.
 
 ## How to record quality
 
@@ -727,7 +726,9 @@ overall-hr-total = Ӕдӕппӕт сахæттæ
 cv-license = Лицензи
 audio-format = Аудио формат
 number-of-voices = Хъæлæсты нымæц
+splits = Дихтæ
 email-to-download = Датасет равгæнынмæ дæ эл. пост ныффысс
+why-email = <b>Цӕмӕн хъӕуы уӕ адрис?</b> Фидӕнмӕ нӕ гӕнӕн ис ӕмӕ бахъӕуа демӕ сбӕттын цавӕрдӕр ивддзинӕдты тыххӕй рардты ӕмбырды, ӕмӕ нын эл. пост бар ратдзӕн уый скӕнын.
 confirm-size = Ды бавгӕнынмӕ хъавыс <b>{ $size }</b>
 size-gigabyte = ГБ
 size-megabyte = МБ
@@ -892,6 +893,10 @@ listen-again-instruction = Тынг хорз куыст!<playIcon></playIcon> Ц
 listen-3rd-time-instruction = Дыууæ цæттæ сты, дарддæр кæн!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Фæстаг!
 listen-empty-state = Гæнæн и, æмæ махмæ клиптæ фесты — сног кæн фарс кæнæ ногæй бафæлфар фæстæдæр.
+listen-loading-error =
+    Нæ къухы нæ бафтыд иу клип дæр райсын дæуæн байхъусынмæ.
+    Дæ хорзæхæй, бафæлвар ногæй фæстæдæр.
+speak-empty-state = Ацы æвзагыл фыссинаг хъуыдыйæдтæ нæм фесты...
 speak-empty-state-cta = Нывæр хъуыдыйæдтæ
 speak-loading-error =
     Нæ къухы нæ бафтыд иу дæр клип райсын дæуæн дзурынмæ.
@@ -1011,6 +1016,9 @@ which-goal-type = Дæу фæнды дзурын, хъусын кæнæ дыуу
 receiving-emails-info =
     Ды исдзынæ ахæм фыстæджытæ, зæгъæм, нысаны зæрдыл æрыфтауæнтæ, мæ
     æнтыстытæн сæ ног хъусынгæнинæгтæ æмæ ног хабæрттæ Common Voice-ы тыххæй
+not-receiving-emails-info =
+    Ды <bold>НÆ</bold> исдзынæ ахæм фыстæджытæ, зæгъæм, нысаны зæрдыл æрыфтауæнтæ,¶
+    æнтыстытыл хъусынгæнинæгтæ æмæ ног хабæрттæ Common Voice-ы тыххæй
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] клип
@@ -1038,7 +1046,7 @@ share-goal = Равдис мæ нысан
 
 keep = Ныууадз
 remove = Сыхал
-keep-info = Дæ анонимон хъæлæсон фыстытæ баззайдзысты Common Voice рардты хæрхы. Куы сыхалай дæ профил, уæд дæ бон нал уыдзæн арвитын бафарст дæ фыстытæ датасетæй сыхалыны тыххæй.
+keep-info = Дæ анонимон хъæлæсон фыстытæ баззайдзысты Common Voice-ы рардты хæрхы. Куы сыхалай дæ профил, уæд дæ бон нал уыдзæн арвитын бафарст дæ фыстытæ датасетæй сыхалыны тыххæй.
 remove-info = Мах æркæсдзыстæм дæ бафарстмæ дæ хъæлæсон фыстытæ рардты æмбырдæй сыхалыны тыххæй. Дæ бафарст сфидар куы уа, уæд мах нæхи сбæтдзыстæм, рардты æмбырд чи равгæдта, уыдонимæ æмæ домдзыстæм, цæмæй уыдон сыхалой дæр дæ хъæлæсон фыстытæ.
 profile-form-delete = Профиль сыхал
 
@@ -1049,6 +1057,7 @@ download-info = Зæгъ нын, цы дæ фæнды равгæнын, уый:
 download-profile-title = Профиль
 download-profile-size = Цалдæр байты
 download-recordings-title = Фыстытæ
+download-recordings-info = Ис дзы mp3-тæ æмæ баст хъуыдыйæдтæ, гæнæн ис, æмæ бахардз кæндзæн цасдæр рæстæг
 download-recordings-size = Фылдæрхатт мегабайттæ
 download-recordings-unavailable = Дæ бон нæу домын дæ фыстытæ, цалынмæ иннæ бафарстыл куыст цæуы, уæдмæ.
 download-recently-requested = Дæ бон у бафарст бахæссын дæ фыстыты ног архив райсыны тыххæй алы { $days } боны.
