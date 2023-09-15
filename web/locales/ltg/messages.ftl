@@ -80,6 +80,7 @@ ga-IE = Īru
 gl = Galisīšu
 gn = Guaranu
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Ebreju
 hi = Hindi
@@ -247,6 +248,7 @@ share-text = Paleidzit īkuortom saprast latgalīšu volūdu, īrokstit sovu bol
 link-copied = Saite nūkopāta
 back-top = Atpakaļ iz augšu
 logout = Beigt dorbu
+donate = Pazīdoj
 
 ## Home Page
 
