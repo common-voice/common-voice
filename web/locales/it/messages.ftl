@@ -80,6 +80,7 @@ ga-IE = Irlandese
 gl = Gallego
 gn = Guaraní
 gom = Konkani goana
+gu-IN = Gujarati
 ha = Hausa
 he = Ebraico
 hi = Hindi
@@ -247,6 +248,7 @@ share-text = Aiutaci a insegnare alle macchine come le persone parlano nella vit
 link-copied = Link copiato
 back-top = Torna in alto
 logout = Disconnetti
+donate = Fai una donazione
 
 ## Home Page
 
@@ -609,7 +611,6 @@ about-playbook-how-add-sentences = Come posso aggiungere frasi?
 about-playbook-how-add-sentences-content-1 = Il <strong>Sentence Collector</strong> è uno strumento per raccogliere e convalidare frasi di pubblico dominio. Dovrai <scAccountLink>creare un account</scAccountLink> e aggiungere la tua lingua al tuo <strong>profilo</strong>. Puoi <strong>aggiungere</strong> frasi o <strong>convalidare</strong> frasi aggiunte in precedenza.
 about-playbook-how-add-sentences-content-2 = Le frasi devono essere convalidate e accettate da due persone per essere incluse in Common Voice. Puoi creare delle linee guida per la tua lingua <languageGuidelinesLink>qui</languageGuidelinesLink>. Le frasi devono essere di <licenseLink>pubblico dominio</licenseLink> e avere meno di 15 parole. Puoi chiedere al proprietario di un testo di renderlo <waiverLink>CC0 utilizzando la nostra procedura di deroga</waiverLink> e inviarcelo a commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Puoi utilizzare il <scraperLink>Sentence extractor</scraperLink> per ottenere brevi frasi da Wikipedia.
-about-playbook-how-add-sentences-content-4 = Le frasi che sono state convalidate vengono esportate di mercoledì e sono disponibili a partire dalla versione successiva.
 
 ## How to record quality
 

@@ -80,6 +80,7 @@ ga-IE = Irländska
 gl = Galiciska
 gn = Guarani
 gom = Goa-konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebreiska
 hi = Hindi
@@ -247,6 +248,7 @@ share-text = Hjälp till att lära maskiner hur riktiga människor pratar, doner
 link-copied = Länk kopierad
 back-top = Tillbaka till toppen av sidan
 logout = Logga ut
+donate = Donera
 
 ## Home Page
 
@@ -624,7 +626,6 @@ about-playbook-how-add-sentences = Hur lägger jag till meningar?
 about-playbook-how-add-sentences-content-1 = <strong>Meningsinsamlaren</strong> är ett verktyg för att samla in och validera meningar som är allmän egendom. Du måste <scAccountLink>skapa ett konto</scAccountLink>. Lägg sedan till ditt språk i din <strong>profil</strong>. Du kan <strong>Lägga till</strong> meningar eller <strong>Granska</strong> tidigare tillagda meningar.
 about-playbook-how-add-sentences-content-2 = Meningar måste granskas och accepteras av två personer för att inkluderas i Common Voice. Du skapar riktlinjer för ditt språk <languageGuidelinesLink>här</languageGuidelinesLink>. Meningar måste vara <licenseLink>allmänna egendom</licenseLink> och kortare än 15 ord. Du kan be ägaren av en text att göra den till <waiverLink>CC0 med hjälp av vår dispensprocess</waiverLink> och skicka till oss på commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Du kan använda <scraperLink>Meningsutdragaren</scraperLink> för att utnyttja korta meningar från Wikipedia.
-about-playbook-how-add-sentences-content-4 = Meningar som har validerats exporteras på onsdagar och är tillgängliga efter nästa release.
 
 ## How to record quality
 
