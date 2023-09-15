@@ -84,10 +84,10 @@ const SOURCES = {
     '*.stripe.com',
   ],
   'frame-src': ['*.fundraiseup.com', '*.stripe.com'],
-}
+};
 
 function getCSPHeaderValue() {
-  const { PROD, S3_LOCAL_DEVELOPMENT_ENDPOINT } = getConfig()
+  const { PROD, S3_LOCAL_DEVELOPMENT_ENDPOINT } = getConfig();
 
   /*
     default to production mode to make sure we
