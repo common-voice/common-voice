@@ -1,4 +1,4 @@
-import { getConfig } from './config-helper';
+import { getConfig } from './config-helper'
 
 const SOURCES = {
   'default-src': ["'none'"],
@@ -39,6 +39,7 @@ const SOURCES = {
     "'sha256-a4XKOKikGVsTOKjLwsaxxV5wpz/r2aiS5mjhlhYZ6A0='",
     "'sha256-QpRaNc9WL82cAOkiPfLE1bTAivGUFX9zsApzEurJ9wg='",
     "'sha256-dWOqg9lnJct6KNFyy8RWWvxwrKvHVzzxWdDufqcgdSY='",
+    "'sha256-LuIUbBD1yvKrV/BrPFiTwGOXZPX10nkAiJPg4YfVktY='",
     'https://www.google-analytics.com',
     'https://pontoon.mozilla.org',
     'https://*.sentry.io',
@@ -76,10 +77,10 @@ const SOURCES = {
     '*.stripe.com',
   ],
   'frame-src': ['*.fundraiseup.com', '*.stripe.com'],
-};
+}
 
 function getCSPHeaderValue() {
-  const { PROD, S3_LOCAL_DEVELOPMENT_ENDPOINT } = getConfig();
+  const { PROD, S3_LOCAL_DEVELOPMENT_ENDPOINT } = getConfig()
 
   /*
     default to production mode to make sure we
@@ -88,18 +89,18 @@ function getCSPHeaderValue() {
   */
   if (!PROD) {
     // we allow unsafe-eval, unsafe-inline locally for certain webpack functionality
-    SOURCES['style-src'].push("'unsafe-inline'");
-    SOURCES['script-src'].push("'unsafe-eval'");
+    SOURCES['style-src'].push("'unsafe-inline'")
+    SOURCES['script-src'].push("'unsafe-eval'")
 
     // add s3proxy to allowed sources in development
-    SOURCES['connect-src'].push(S3_LOCAL_DEVELOPMENT_ENDPOINT);
-    SOURCES['media-src'].push(S3_LOCAL_DEVELOPMENT_ENDPOINT);
-    SOURCES['img-src'].push(S3_LOCAL_DEVELOPMENT_ENDPOINT);
+    SOURCES['connect-src'].push(S3_LOCAL_DEVELOPMENT_ENDPOINT)
+    SOURCES['media-src'].push(S3_LOCAL_DEVELOPMENT_ENDPOINT)
+    SOURCES['img-src'].push(S3_LOCAL_DEVELOPMENT_ENDPOINT)
   }
 
   return Object.entries(SOURCES)
     .map(([type, values]) => `${type} ${values.join(' ')}`)
-    .join(';');
+    .join(';')
 }
 
-export default getCSPHeaderValue;
+export default getCSPHeaderValue
