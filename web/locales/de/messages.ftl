@@ -80,6 +80,7 @@ ga-IE = Irisch
 gl = Galizisch
 gn = Guarani
 gom = Goanisches Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebräisch
 hi = Hindi
@@ -247,6 +248,7 @@ share-text = Zeigt Geräten, wie echte Menschen sprechen und spendet eure Stimme
 link-copied = Link kopiert
 back-top = Zum Seitenanfang
 logout = Abmelden
+donate = Spenden
 
 ## Home Page
 
@@ -619,7 +621,6 @@ about-playbook-how-add-sentences = Wie füge ich Sätze hinzu?
 about-playbook-how-add-sentences-content-1 = <strong>Satzsammler</strong> ist ein Werkzeug zum Sammeln und Validieren gemeinfreier Sätze. Sie müssen <scAccountLink>ein Konto erstellen</scAccountLink>. Fügen Sie dann Ihre Sprache zu Ihrem <strong>Profil</strong> hinzu. Sie können Sätze <strong>hinzufügen</strong> oder zuvor hinzugefügte Sätze <strong>überprüfen</strong>.
 about-playbook-how-add-sentences-content-2 = Sätze müssen von zwei Personen überprüft und akzeptiert werden, um in Common Voice aufgenommen zu werden. Richtlinien für Ihre Sprache erstellen Sie <languageGuidelinesLink>hier</languageGuidelinesLink>. Sätze müssen <licenseLink>gemeinfrei</licenseLink> und kürzer als 15 Wörter sein. Sie können den Eigentümer eines Textes bitten, ihn mithilfe unserer Verzichtserklärung unter <waiverLink>CC0</waiverLink> zu stellen, und uns an commonvoice@mozilla.com senden.
 about-playbook-how-add-sentences-content-3 = Sie können den <scraperLink>Satzextraktor</scraperLink> verwenden, um kurze Sätze aus Wikipedia zu beziehen.
-about-playbook-how-add-sentences-content-4 = Sätze, die validiert wurden, werden mittwochs exportiert und sind nach der nächsten Veröffentlichung verfügbar.
 
 ## How to record quality
 
