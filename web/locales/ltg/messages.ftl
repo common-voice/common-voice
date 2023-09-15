@@ -257,7 +257,7 @@ wall-of-text-start = Bolss ir dabisks, bolss ir ciļvieceigs. Deļtuo mes gribim
 wall-of-text-more-mobile = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daīmami vysim cylvākim. Tys kavej inovaceju. Deļtuo asam uzsuokuši Common Voice projektu, kas padareis bolsa atpazeišonu daīmamu sevkuram.
 wall-of-text-more-desktop = Niu jius varit pazīduot sovu bolsu, lai paleidzātu mums sataiseit atvārtuo pyrmkoda bolsa datubazi, kū var lītuot sevkurs, taisūt inovativys lītuotnis īreicem i teiklavītai. Skaitit teikumu, lai paleidzātu mašynom īvuiceit, kai runoj cylvāki. Puorbaudit cytu cylvāku īrokstus, lai uzlabuotu datu kvalitati. Tys ir tik vīnkuorši!
 wall-of-text-first = Bolss ir dabiskys, bolss ir ciļvieceigs. Taišni deļtuo mes gribim sataiseit bolsa atpazeišonys tehnologeju, kuru varātu lītuot dažaiduos īreicēs. Bet, lai radeitu itaidu bolsa tehnologeju, ir vajadzeigs daudz bolsa īrokstu.
-wall-of-text-second = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daīmami vysim cylvākim. Mes dūmojam, ka tys kavej inovaceju, deļtuo asam aizsuokuši Common Voice - projektu, ka padareis bolsa atpazeišonu daīmamu sevkuram.
+wall-of-text-second = Leluokuo daļa datu, kū lītoj lelī uzjāmumi, nav daīmami vysim cylvākim. Mes dūmojam, ka tys kavej inovaceju, deļtuo asam aizsuokuši Common Voice - projektu, kas padareis bolsa atpazeišonu daīmamu sevkuram.
 show-wall-of-text = Skaiteit vaira
 help-us-title = Paleidzit puorbaudeit teikumus!
 help-us-explain = Nūmīdzīt atskaņuošonys pūgu, klausotēs i puorbaudit, voi zamuok nūruodeitais teikums ir izrunuots precizai.
@@ -362,8 +362,8 @@ status-contribute = Pazīdoj sovu bolsu
 status-hours =
     { $hours ->
         [zero] Da šam puorbaudeitys { $hours } stuņdis!
-        [one] { "" }
-       *[other] { "" }
+        [one] Da šam puorbaudeitys { $hours } stuņdis!
+       *[other] Da šam puorbaudeitys { $hours } stuņdis!
     }
 # Variables:
 # $goal - number of hours representing the next goal
@@ -626,7 +626,6 @@ about-playbook-how-add-sentences = Kai dalikt teikumus?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ir reiks publiskuo domena teikumu apkūpuošonai i apstyprynuošonai. Jums byus <scAccountLink>juosataisa konts</scAccountLink>. Piec tam dalīcit volūdu sovam <strong>profilam</strong>. Varit <strong>dalikt</strong> teikumus voi <strong>puorsavērt</strong> agruok dalyktūs teikumus.
 about-playbook-how-add-sentences-content-2 = Teikumi ir juopuorsaver i juopījam divejim cylvākim, lai tī tyktu pījimti Common Voice. Jius varit sataiseit vodlinejis sovai volūdai <languageGuidelinesLink>ite</languageGuidelinesLink>. Teikumim juobyut <licenseLink>breivim nu autortīseibu</licenseLink>, i tim juobyut eisuokim par 15 vuordim. Varit lyugt teksta eipašnīkam nūdūt teikumus <waiverLink>CC0 jeb breivai izlītuošonai, lītojūt myusu autortīseibu nūdūšonys procesu</waiverLink>, i nūsyuteit mums iz commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Varit lītuot <scraperLink>teikumu izviļkšonys reiku</scraperLink>, lai dasaisteitu eisus teikumus nu Vikipedejis.
-about-playbook-how-add-sentences-content-4 = Validātī īroksti teik eksportāti trešdīnēs i ir daīmami nuokušajā izlaidumā.
 
 ## How to record quality
 
@@ -879,7 +878,7 @@ language-validation-progress = Puorbaudis progress
 
 ## Contribution
 
-action-click = Klyksts
+action-click = Klykstynoj
 action-tap = Pīsaskar
 contribute = Dūt īguļdejumu
 listen = Klausīs
@@ -1044,14 +1043,14 @@ build-custom-goal = Damārojit sev mierki
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [zero] Paleidzit sasnēgt { $hours } stuņdis { $language } volūdā ar sovu mierki
-        [one] { "" }
-       *[other] { "" }
+        [one] Paleidzit sasnēgt { $hours } stuņdis { $language } volūdā ar sovu mierki
+       *[other] Paleidzit sasnēgt { $hours } stuņdis { $language } volūdā ar sovu mierki
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
         [zero] Paleidzit sasnēgt { $hours } stuņdis itamā volūdā ar sovu mierki
-        [one] { "" }
-       *[other] { "" }
+        [one] Paleidzit sasnēgt { $hours } stuņdis itamā volūdā ar sovu mierki
+       *[other] Paleidzit sasnēgt { $hours } stuņdis itamā volūdā ar sovu mierki
     }
 set-a-goal = Izvierzeit mierki
 cant-decide = Navarit nūsprīst?
@@ -1694,7 +1693,7 @@ reviewing-sentences-explanation-2 = Ka teikums naatbylst agruok nūsauktajim kri
 reviewing-sentences-explanation-3 = Ka naesit puorlīcynuots par teikumu, varit tū izlaist i puorīt iz nuokušū.
 reviewing-sentences-explanation-4 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
 # WRITE PAGE
-write-instruction-second-part = publiski daīmams teikums
+write-instruction-second-part = publiski daīmamu teikumu
 write-page-subtitle = Ite dalyktī teikumi tiks davīnuoti publiski daīmamai cc-0 liceņcātai datu kūpai.
 sentence =
     .label = Teikums

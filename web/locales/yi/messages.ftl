@@ -11,7 +11,7 @@ loading = לאדענט זיך...
 email-opt-in-info = איך וויל באקומען אימעילס א שטייגער ווי ציל דערמאנונגען, מיין פארשריט אנטוויקלונגען און נייעס באריכטן איבער קאמאן וואויס.
 email-opt-in-info-title = שליסט אייך אן אין די קאמאן וואויס מעיל ליסטע
 email-opt-in-info-sub-with-challenge = באקומט אימעילס א שטייגער ווי פארמעסטונגען און ציל דערמאנונגען, פארשריט אנטוויקלונגען, און נייעס באריכטן איבער קאמאן וואויס.
-email-opt-in-privacy-v2 = דורכ'ן זיך אריינשרייבן צו באקומען אימעילס פארשפרעכט איר אז איר זענט באקוועם מיט מאזילע צו האנדלען דער אינפארמאציע ווי ערקלערט אין די <privacyLink>פראווייטקייט נאטיץ</privacyLink>
+email-opt-in-privacy-v2 = דורכ'ן זיך אריינשרייבן צו באקומען אימעילס פארשפרעכט איר אז איר זענט אין ארדענונג מיט מאזילע צו האנדלען דער אינפארמאציע ווי ערקלערט אין די <privacyLink>פראווייטקייט נאטיץ</privacyLink>
 indicates-required = קעסטלעך אנגעצייכנט מיט א שטערנדל (*) זענען פארלאנגט.
 not-available-abbreviation = נישט גילטיג
 banner-error-slow-1 = אנטשילדוגט, קאמאן וואויס לויפט שטייליך. יישר כח פאר אייער אינטערעסע.
@@ -105,6 +105,7 @@ help-us-explain = דריקט שפיל, הער צו & און זאג אונז: ה�
 no-clips-to-validate = ס'קוקט אויס אז ס'איז נישטא קיין קליפס צו אויסערן אויף דעם שפרייך. העלפט אונז אנפולן די רייע דורך רעקארדירן אביסל יעצט.
 vote-yes = יא
 vote-no = ניין
+toggle-play-tooltip = דריקט { shortcut-play-toggle } צו טוישן שפילן מאדע
 speak-subtitle = ביישטייערט אייער שטימע
 speak-paragraph = רעקארדירן שטימע קליפס איז א וויכטיגע טייל פון בויען אונזער אפענע דאטע סעט; מאנכע זאגן אז דאס איז די אויך די אינטערעסאנטע טייל.
 speak-goal-text = קליפס רעקארדירט
@@ -167,6 +168,7 @@ shortcut-play-toggle-label = שפיל/שטעל אפ
 shortcut-record-toggle-label = רעקארדיר/שטעל אפ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = איבער-רעקארד דעם קליפ
+shortcut-discard-ongoing-recording-label = ווארף אוועק די אנגייענדע רעקארדירונג
 shortcut-submit = גיי צוריק
 shortcut-submit-label = געבט אריין קליפס
 request-language-text = איר זעט נאכנישט אייער שפרייך אויף קאמאן וואויס?
@@ -209,6 +211,7 @@ hidden = באהאלטן
 visible = זעהבאר
 native-language =
     .label = געבוירערענער שפרייך
+profile-form-add-accent = לייג צו אן אייגענעם אקצענט "{ $inputValue }"
 male = מאן
 female = פרוי
 # Gender
@@ -222,11 +225,12 @@ edit-profile = פארעכט פראפיל
 profile-close = פארמאך
 thanks-for-account = א דאנק פארן באשטעטיגן אייער אקאונט, יעצט לאמיר בויען אייער פראפיל.
 why-demographic = פארוואס מאכט דאס אויס?
-accept-privacy = איך בין באקוועם מיט אייך צו האנדלען די אינפארמאציע אזויווי ערקלערט אין מאזילע'ס <privacyLink>פריוואטקייט פארשריפטן</privacyLink>
+accept-privacy = איך בין אין ארדענונג מיט אייך צו האנדלען די אינפארמאציע אזויווי ערקלערט אין מאזילע'ס <privacyLink>פריוואטקייט פארשריפטן</privacyLink>
 accept-privacy-title = פריוואטקייט פארשריפטן
 accept-privacy-and-terms = איך בין איינשטימיג מיט קאמאן וואויס'ס <termsLink> טערמינען </termsLink> און <privacyLink> פריוואטקייט נאטיץ</privacyLink>
 edit = פאררעכט
 contribution-experience = ביישטייערונג ערפארונג
+skip-submission-note = נאטיץ: איר וועט נאכאלץ דארפן אויסוועלן צווישן דערן אדער אויסהערן צו טוישן די ביישטייערן טיפ.
 off = פארלאשן
 on = אנגעצונדן
 help-accent = דארף הילף מיט די אקצענט?
@@ -251,8 +255,10 @@ faq-title = אפט געפרעגטע פרייגן
 faq-what-cv-q = וואס איז דאס קאמאן וואויס?
 faq-why-important-q = פארוואס איז עס וויכטיג?
 faq-how-get-q = וויאזוי קען איך באקומען די קאמאן וואויס דאטא?
+faq-when-release2-q = ווען וועט איר ארויסגעבן קאמאן וואויס דאטא אין אנדערע שפרייכן?
 faq-why-mission-q = פארוואס איז קאמאן וואויס א טייל פון די מאזילע מיסיע?
 faq-what-cv-and-deepspeech-q = וואס איז די דיפערענץ צווישן קאמאן וואויס און דיפ ספיטש?
+faq-is-goal-assistant-q = איז די ציל פון קאמאן וואויס צו בויען א שטימע צוהעלפער?
 faq-why-different-speakers-q = פארוואס דארפט איר אזויפיל רעדנער אויף א שפרייך?
 faq-why-my-lang-q = פארוואס איז מיין שפרייך נאכנישט אריינגעלייגט?
 faq-how-calc-hours-q = וויאזוי טוט קאמאן וואויס אויסרעכענען די שטונדען?
@@ -262,6 +268,7 @@ faq-why-account-q = פארוואס זאל איך זיך ארויף שרייבן 
 faq-is-account-public-q = איז מיין קאנטע אינפארמאציע עפענטליך?
 faq-how-privacy-q = וויאזוי טוט איר פארזיכערן די אנאנימיטעט און פריוואטקייט פון די מענטשן וואס ביישטייערן זייער שטימע?
 faq-what-is-cv = וואס איז דאס קאמאן וואויס?
+faq-using-cv = נוצן קאמאן וואויס
 faq-description = קאמאן וואויס איז א טייל פון מאזילע'ס איניציאטיוו צו העלפען לערנען מאשינען ווי אזוי עכטע מענטשן רעדן.
 faq-search-for-answers =
     .label = זוך פאר ענטפערס
@@ -276,11 +283,15 @@ how-does-it-work-title-v2 = וויאזוי ארבייט קאמאן וואויס?
 about-language-req-subtitle = איינער בעט פאר א שפרייך צו ווערן צוגעלייגט.
 about-sentence-collection-title = זאצן זאמלונג
 about-sentence-collection-subtitle = זאצן ווערן געזאמלט פאר מענטשן צו פארליינען הויעך.
+about-new-lang-subtitle = מיר געבן ארויס דער קאמאן וואויס זייטל אין דעם שפרייך.
 about-voice-contrib-title = שטימע ביישטייערונג
 about-voice-contrib-subtitle = מענטשן קומען און ביישטייערן זייערע שטימעס.
 about-voice-validation-title = שטימע באשטעטיגונג
 about-voice-validation-subtitle = אנדערע מענטשן באשטעטיגן די שטימע קליפס.
+about-dataset-release-subtitle = מיר געבן ארויס דעם דאטא סעט איעדער 3 מאנאטן.
+about-subscribe-text = ווילט איר בלייבן אין פארבינדונג מיט קאמאן וואויס?
 about-speak = רעד
+about-speak-text = ביישטייערער רעקארדירן שטימע קליפס דורך לייענען פון א באנק פון ביישטייערטע זאצן.
 about-listen-queue = צוהערן-רייע
 about-listen = אויסהערן
 about-listen-text = באנוצער באשטעטיגן די אקוראטקייט פון די ביישטייערטע קליפס, זיכער צו מאכן אז די רעדנער ליינט די זאץ ריכטיג.
@@ -289,6 +300,7 @@ about-yes-votes-text = צו קענען אריינגיין אין די קאמאן
 about-no-votes = ≥ 2 ניין שטימען
 about-dataset-new = קאמאן וואויס דאטא סעט
 about-get-involved = ווער פארמישט
+about-stay-in-touch = וויאזוי בלייב איך אין פארבינדונג?
 about-stay-in-touch-button = שרייבט אייך אויף
 about-nav-why-common-voice = פארוואס?
 about-nav-how-it-works = וויאזוי?
@@ -309,7 +321,14 @@ about-playbook-how-add-language-content-1 =
     אויב נישט, קענט איר <languageRequestLink>פרעגן איבער צולייגן אייער שפרייך</languageRequestLink>.
     עס איז דא צוויי שטאפלען. איבערטייטשן דעם זייטל, און זאמלען זאצן
 about-playbook-how-add-language-translating-heading = איבערטייטשן דעם זייטל
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>קוקט אונזער גייד איבער וויאזוי צו נוצן פענטאאן.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    מיר ביי מאזילע נוצן א געצייג גערופן <pontoonLink>פענטאאן</pontoonLink> פאר איבערטייטשונגען. פענטאאן האט אסאך שפרייכן,
+    אבער אויך עס פארמאגט נישט אייערס קענט איר <pontoonRequestLink>פארלאנגען צוצולייגן אייער שפרייך</pontoonRequestLink>.
+    דערנאך, צו מאכן דעם שפרייך צוטריטליך אויך דעם קאמאן וואויס פראיעקט,
+    <githubRepoLink>פארלאנגט די נייע שפרייך אויף GitHub </githubRepoLink>. <localizationFragment>זעט מער איבער זייטל איבעטייטשונג</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = זאמלען זאצן
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>זעט אונזער גייד איבער נוצן דעם זאצן זאמלער</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>זע מער איבער זאצן זאמלונג</sentenceCollectorFragment>
 
 ## How does localization work
@@ -328,6 +347,7 @@ about-playbook-how-record-content-4 = מאכט זיכער אז די פלאטפר
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-4 = סאציאלע מידיע
 
 ## How to validate
 
@@ -602,8 +622,10 @@ demo-welcome-subheader = איטערעסירט צו לערנען מער און ב
 
 ## Demo Datasets
 
+demo-language-select-card-header = קאמאן וואויס איז דער וועלטס גרעסטע עפענטליכע פארהאן, פארשידענע-שפרייכן שטימע דאטא סעט.
 card-button-next = קומענדיגע
 card-button-back = צוריק
+demo-language-select-label = בלעטערן שפרייכן
 demo-account = קאנטע
 
 ## Demo Account
@@ -773,6 +795,7 @@ example = ביישפיל
 misreadings-example-1 = מיר גייען ארויס צו נעמען קאווע.
 misreadings-example-2 = מיר גייען ארויס צו נעמען א קאווע.
 misreadings-example-3 = מיר גייען ארויס צו נעמען א קאווע.
+background-voices-explanation = אביסל הינטערגרונד גרידער איז אין ארדענונג, אבער אויב דו קענסט הערן נאך א מענטש רעדן אנדערע ווערטער, זאל די קליפ ווערן צוריקגעוויזן. געווענדליך געשעט דאס וואו די טעלעווידזשן איז געבליבן אנגעצונדן, אדער וואו עס איז דא דא א שמועס דערנעבן.
 background-voices-tip-1 = דו קומסט? [גערופן דורך א צווייטן]
 still-have-questions = איר האט נאך אלץ פראגן?
 citing-sentences = ציטירן זאצן
