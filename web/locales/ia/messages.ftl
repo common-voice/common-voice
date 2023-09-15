@@ -80,6 +80,7 @@ ga-IE = Irlandese
 gl = Galiciano
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebreo
 hi = Hindi
@@ -247,6 +248,7 @@ share-text = Adjuta a inseniar a machinas como personas real parla! Dona tu voce
 link-copied = Ligamine copiate
 back-top = Retornar al initio
 logout = Clauder session
+donate = Donar
 
 ## Home Page
 
@@ -616,7 +618,6 @@ about-playbook-how-add-sentences = Como adde io phrases?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> es un instrumento pro colliger e validar phrases de dominio public. Tu <scAccountLink>debera crear un conto</scAccountLink>. E pois, adder tu lingua a tu <strong>Profilo</strong>. <s0/>Tu potera <strong>Adder</strong> phrases o <strong>Revider</strong> phrases previemente addite.
 about-playbook-how-add-sentences-content-2 = Le phrases debe esser revidite e acceptate per duo personas pro includer los in Common Voice. Que tu crea lineas guida pro tu lingua <languageGuidelinesLink>hic</languageGuidelinesLink>. Le phrases debe esser de <licenseLink>dominio public</licenseLink> e plus curte que 15 vocabulos. Tu pote demandar al proprietario de un texto de render lo <waiverLink>CC0, per nostre processo de exemption</waiverLink>, e inviar lo nos a <a0>commonvoice@mozilla.com</a0>
 about-playbook-how-add-sentences-content-3 = Tu pote usar le <scraperLink>Extractor de phrase</scraperLink> pro procurar te curte phrases ex Wikipedia.
-about-playbook-how-add-sentences-content-4 = Le phrases que ha essite validate es exportate le mercuridis, e es disponibile post le publication successive.
 
 ## How to record quality
 
