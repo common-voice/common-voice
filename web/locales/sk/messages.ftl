@@ -80,6 +80,7 @@ ga-IE = írčina
 gl = galícijčina
 gn = guarančina
 gom = goan konkani
+gu-IN = gudžarátčina
 ha = hauština
 he = hebrejčina
 hi = hindčina
@@ -247,6 +248,7 @@ share-text = Pomôžte strojom pochopiť ľudskú reč. Prispejte svojím hlasom
 link-copied = Odkaz bol skopírovaný
 back-top = Návrat hore
 logout = Odhlásiť sa
+donate = Prispieť
 
 ## Home Page
 
@@ -633,7 +635,6 @@ about-playbook-how-add-sentences = Ako pridám vety?
 about-playbook-how-add-sentences-content-1 = <strong>Zberač viet</strong> je nástroj na zhromažďovanie a overovanie viet dostupných pod verejnou licenciou. Budete si <scAccountLink>potrebovať vytvoriť účet</scAccountLink>. Potom pridajte svoj jazyk do svojho <strong>profilu</strong>. Môžete <strong>pridávať</strong> vety alebo <strong>kontrolovať</strong> už pridané vety.
 about-playbook-how-add-sentences-content-2 = Aby boli vety zahrnuté do Common Voice, musia ich skontrolovať a prijať dvaja ľudia. Pokyny pre svoj jazyk vytvoríte <languageGuidelinesLink>tu</languageGuidelinesLink>. Vety musia byť <licenseLink>dostupné pod verejnou licenciou</licenseLink> a kratšie ako 15 slov. Môžete požiadať vlastníka textu, aby texty licencoval ako <waiverLink>CC0 pomocou nášho procesu zrieknutia sa práva</waiverLink> a poslať nám ho na commonvoice@mozilla.com.
 about-playbook-how-add-sentences-content-3 = Na využitie krátkych viet z Wikipédie môžete použiť <scraperLink>Extraktor viet</scraperLink>.
-about-playbook-how-add-sentences-content-4 = Vety, ktoré boli overené, sa exportujú v stredu a sú k dispozícii po ďalšom vydaní.
 
 ## How to record quality
 
