@@ -7,14 +7,8 @@ const SOURCES = {
     "'self'",
     'https://fonts.googleapis.com',
     'https://tagmanager.google.com',
-    "'sha256-LuIUbBD1yvKrV/BrPFiTwGOXZPX10nkAiJPg4YfVktY='",
-    "'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU='",
-    "'sha256-HbyPnfjHg5jMECIIRvuMhONxSb8iI0dm4c1Zo/KRqG4='",
-    "'sha256-cnmsVz/y2nfEEN5unNlfL7UJ1FRK9CGM39vS7Vmmaoo='",
-    "'sha256-Kljr5rsMwmXUKPeMZnceEiueb700E0JWsdUSY00Ow+w='",
-    "'sha256-sdrNpRBnuoebBd4fMsk8C/QMQObXEbpob/0ILCtIYYA='",
-    "'sha256-/uAJu74u5xVXg1o0rPNy33Hc2fxBQh/btht8PqSxqyU='",
-    "'sha256-c11QTAMvhERUj+5zAjTT/nwBNKmGdqYEfvrZnfEv0Fc='",
+    // we allow unsafe-inline for fundraise up styles - https://fundraiseup.com/support/content-security-policy/
+    "'unsafe-inline'",
   ],
   'img-src': [
     "'self'",
@@ -55,6 +49,9 @@ const SOURCES = {
     '*.fundraiseup.com',
     '*.stripe.com',
     'm.stripe.network',
+    '*.paypal.com',
+    'pay.google.com ',
+    '*.src.mastercard.com'
   ],
   'font-src': [
     "'self'",
