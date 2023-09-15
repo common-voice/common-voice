@@ -1079,24 +1079,37 @@ download-request-archive-single = Иунæй ZIP-файл, йæ мидæг та
 download-request-assembling-description = Дӕ файлтӕ ӕмбырд кӕнынц. Дӕ хорзӕхӕй, фӕстӕдӕр-иу бахиз.
 download-request-refresh-button = Сног кæн
 download-request-modal-title = Равгæныны æрвитæнтæ
+download-request-modal-description = Мӕнӕ дӕ ZIP-файлтæ равгӕныны ӕрвитӕн.
+download-request-link-text = Zip № { $offset }, æдæппæт сты { $total }
 download-request-metadata-link = Хъуыдыйады текст
 
 ## Landing
 
+read-more-about = Фылдӕр базон нӕ фарсыл  «Мах тыххӕй»
 
 ## DemoLayout
 
 demo-get-started = Байдайæм
+demo-welcome = Ӕгас цу Common Voice-мӕ
+demo-welcome-subheader = Фылдӕр базонын дӕ фӕнды ӕмӕ дӕ бавӕрд баххӕсын проектмӕ?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice у дунейы егъаудӕр иумӕйаг бирӕвзагон хъӕлӕсон рардты ӕмбырд.
+card-button-next = Дарддӕр
+card-button-back = Фӕстӕмӕ
 demo-language-select-label = Æппæт æвзæгтæ
+demo-eofy-header = Рауагъд æрцыд 2019 азы кæрон
+demo-eofy-sub_header = Хъӕлӕсон рардты ӕмбырд, цӕттӕ у ӕвгӕнынмӕ
+demo-account = Аккаунт
 
 ## Demo Account
 
+demo-account-sign-up = Арвитын регистрацийы æрвитæн
 
 ## Demo Contribute
 
+demo-contribute-card-header = Цæттæ дæ хъæлæс бафтауынмæ кæнæ байхъусынмæ?
 
 ## Demo Dashboard
 
@@ -1221,6 +1234,7 @@ citing-sentences-subheader-offline-sources = Æрмæджытæ Интернет
 citing-sentences-subheader-offline-sources-explanation = Текст, æхсæнадон хæзна кæцы у, Интернеты чи нæй, уымæй дæ бон у пайда кæнын академион стилы ахастæй, зæгъæм, Гарвæрды стиль "Джесс (2021) Ме ’мдзæвгæтæ публикæйы лицензийæ".
 citation =
     .label = Цитатæ
+self-citation = Мæхи ныхæстæ
 self-citation-explanation = Мæнæ куыд афыссæн ис, ды дæхæдæг цы хъуыдыйæдтæ æрымысыдтæ, уыдон.
 adding-sentences-subheader-length = Дæргъ
 adding-sentences-subheader-length-explanation = Хъуыдыйады 15 дзырдæй къаддæр хъуамæ ма уа.
