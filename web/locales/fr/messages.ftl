@@ -80,6 +80,7 @@ ga-IE = Irlandais
 gl = Galicien
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Haoussa
 he = Hébreu
 hi = Hindi
@@ -247,6 +248,7 @@ share-text = Aidez les machines à apprendre à parler comme de vraies personnes
 link-copied = Lien copié
 back-top = Haut de la page
 logout = Déconnexion
+donate = Faire un don
 
 ## Home Page
 
@@ -617,7 +619,6 @@ about-playbook-how-add-sentences = Comment ajouter des phrases ?
 about-playbook-how-add-sentences-content-1 = Le <strong>collecteur de phrases</strong> est un outil de collecte et de validation des phrases du domaine public. Vous devrez <scAccountLink>créer un compte</scAccountLink>. Ensuite, ajoutez votre langue à votre <strong>profil</strong>. Vous pouvez <strong>ajouter</strong> des phrases ou <strong>réviser</strong> des phrases ajoutées précédemment.
 about-playbook-how-add-sentences-content-2 = Les phrases doivent être révisées et acceptées par deux personnes pour être incluses dans Common Voice. Vous pouvez créer des directives pour votre langue <languageGuidelinesLink>ici</languageGuidelinesLink>. Les phrases doivent appartenir au <licenseLink>domaine public</licenseLink> et être inférieures à 15 mots. Vous pouvez demander au propriétaire d’un texte de le passer sous licence <waiverLink>CC0 en utilisant notre processus de renonciation</waiverLink>, et nous l’envoyer à commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Vous pouvez utiliser <scraperLink>l’extracteur de phrase</scraperLink> pour recueillir de courtes phrases sur Wikipédia.
-about-playbook-how-add-sentences-content-4 = Les phrases qui ont été validées sont exportées le mercredi et sont disponibles dès la version suivante.
 
 ## How to record quality
 
