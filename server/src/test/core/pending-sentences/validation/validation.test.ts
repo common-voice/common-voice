@@ -1,10 +1,28 @@
 import {
+  ERR_NO_ABBREVIATIONS,
+  ERR_NO_FOREIGN_SCRIPT,
+  ERR_NO_SYMBOLS,
+  ERR_TOO_LONG,
   validateSentence,
   ValidatorRuleError,
+  ValidatorRuleErrorType,
 } from '../../../../core/sentences'
 import * as E from 'fp-ts/Either'
 
 describe('Sentence validation', () => {
+
+  const shouldAcceptSentence = ({lang, sentence}: {lang: string, sentence: string}) => {
+    const result = validateSentence(lang)(sentence)
+    expect(E.getOrElse((err: ValidatorRuleError) => err.error)(result)).toBe(sentence)
+  }
+
+  const shouldRejectSentence = ({lang, sentence, expectedErrorType}: {lang: string, sentence: string, expectedErrorType: ValidatorRuleErrorType}) => {
+    const result = validateSentence(lang)(sentence)
+    expect(E.getOrElse((err: ValidatorRuleError) => err.errorType.toString())(result)).toBe(
+      expectedErrorType.toString()
+    )
+  }
+
   it('Should validate english sentence with no errors', () => {
     const result = validateSentence('en')('This is a simple question.')
     expect(E.getOrElse((err: ValidatorRuleError) => err.error)(result)).toBe(
@@ -123,7 +141,7 @@ describe('Sentence validation', () => {
       E.getOrElse((err: ValidatorRuleError) => err.error)(result) === '콜'
     ).toBeFalsy()
   })
-
+  
   it('Should validate Amharic sentence with no errors', () => {
     const sentence = 'ሴኮባ ኮናቴ ጊኒ ውስጥ የሚገኝ ጁንታ ጊዜያዊ መሪ በመታመሙ ወደ ሴኔጋል ተወሰደ'
     const result = validateSentence('am')(sentence)
@@ -131,4 +149,55 @@ describe('Sentence validation', () => {
       E.getOrElse((err: ValidatorRuleError) => err.error)(result)
     ).toBe(sentence)
   })
+
+  it.each([
+    'זהו משפט תקין בעברית',
+    'בעקרון, לא אמורה להיות בעיה עם סימני פיסוק!',
+    'גם נִיקוד הולך',
+  ])(
+    'Should validate Hebrew sentences with no errors',
+    (sentence) => shouldAcceptSentence({lang: 'he', sentence})
+  )
+
+  it(
+    'Should invalidate overly long Hebrew sentence',
+    () => shouldRejectSentence({
+      lang: 'he',
+      sentence: 'שמאי אומר, עשה תורתך קבע. אמור מעט ועשה הרבה. והוי מקבל את כל האדם בסבר פנים יפות.',
+      expectedErrorType: ERR_TOO_LONG
+    })
+  )
+
+  it(
+    'Should invalidate Hebrew sentence with cantillation marks',
+    () => shouldRejectSentence({lang: 'he', sentence: 'בְּרֵאשִׁ֖ית בָּרָ֣א אֱלֹהִ֑ים אֵ֥ת הַשָּׁמַ֖יִם וְאֵ֥ת הָאָֽרֶץ', expectedErrorType: ERR_NO_SYMBOLS})
+  )
+
+  it(
+    'Should invalidate Hebrew sentence with invalid symbols that are also invalid for English',
+    () => shouldRejectSentence({lang: 'he', sentence: 'הסימון כרוכית @ משמש לעיתים בדוא"ל', expectedErrorType: ERR_NO_SYMBOLS})
+  )
+
+  it(
+    'Should invalidate Hebrew sentence with invalid symbols that are not invalid for English',
+    () => shouldRejectSentence({lang: 'he', sentence: 'הסימן שווה = משמש גם כיחס שקילות', expectedErrorType: ERR_NO_SYMBOLS})
+  )
+
+  it(
+    'Should invalidate Hebrew sentence with non-Hebrew letters',
+    () => shouldRejectSentence({lang: 'he', sentence: 'לפעמים בעברית אומרים okay למרות שזו מילה באנגלית', expectedErrorType: ERR_NO_FOREIGN_SCRIPT})
+  )
+
+  it.each([
+    'כל הכבוד לצה"ל',
+    'לאונרד כהן ז"ל היה משורר דגול',
+    "אמר ר' משה בן מימון",
+    "לפעמים פשוט בא לי לקצר וכו'",
+    "יש מי שמקצר וכו' ויש מי שכותב וכולי",
+    "א. ב. יהושע נפטר בשנה שעברה",
+  ])(
+    'Should invalidate Hebrew sentence with abbreviations',
+    (sentence) => shouldRejectSentence({lang: 'he', sentence: sentence, expectedErrorType: ERR_NO_ABBREVIATIONS})
+  )
+
 })

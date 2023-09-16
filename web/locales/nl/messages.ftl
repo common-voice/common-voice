@@ -69,6 +69,7 @@ eo = Esperanto
 es = Spaans
 et = Estisch
 eu = Baskisch
+ewo = Ewondo
 fa = Perzisch
 ff = Fula
 fi = Fins
@@ -79,6 +80,7 @@ ga-IE = Iers
 gl = Galicisch
 gn = Guaraní
 gom = Goanees Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebreeuws
 hi = Hindi
@@ -98,6 +100,7 @@ it = Italiaans
 izh = Izjorisch
 ja = Japans
 jbo = Lojban
+jv = Javaans
 ka = Georgisch
 kaa = Karakalpaks
 kab = Kabylisch
@@ -151,6 +154,7 @@ nyn = Nyankole
 oc = Occitaans
 om = Afaan Oromo
 or = Odia
+os = Ossetisch
 pa-IN = Punjabi
 pap-AW = Papiaments (Aruba)
 pl = Pools
@@ -244,6 +248,7 @@ share-text = Help machines te leren hoe echte mensen spreken, doneer uw stem op 
 link-copied = Koppeling gekopieerd
 back-top = Naar boven
 logout = Afmelden
+donate = Doneren
 
 ## Home Page
 
@@ -616,7 +621,6 @@ about-playbook-how-add-sentences = Hoe voeg ik zinnen toe?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is een hulpmiddel voor het verzamelen en valideren van zinnen in het publieke domein. U moet <scAccountLink>een account aanmaken</scAccountLink>. Voeg vervolgens uw taal toe aan uw <strong>Profiel</strong>. U kunt zinnen <strong>Toevoegen</strong> of eerder toegevoegde zinnen <strong>Beoordelen</strong>.
 about-playbook-how-add-sentences-content-2 = Zinnen moeten door twee mensen worden beoordeeld en geaccepteerd om te worden opgenomen in Common Voice. U maakt <languageGuidelinesLink>hier</languageGuidelinesLink> richtlijnen voor uw taal. Zinnen moeten in het <licenseLink>publieke domein</licenseLink> staan en korter zijn dan 15 woorden. U kunt de eigenaar van een tekst vragen om deze <waiverLink>CC0 te maken met behulp van ons ontheffingsproces</waiverLink> en deze naar ons sturen op commonvoice@mozilla.com.
 about-playbook-how-add-sentences-content-3 = U kunt de <scraperLink>Sentence extractor</scraperLink> gebruiken om korte zinnen uit Wikipedia te gebruiken.
-about-playbook-how-add-sentences-content-4 = Gevalideerde zinnen worden op woensdag geëxporteerd en zijn na de volgende uitgave beschikbaar.
 
 ## How to record quality
 

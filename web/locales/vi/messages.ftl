@@ -69,6 +69,7 @@ eo = Quốc tế ngữ
 es = Tây Ban Nha
 et = Estonia
 eu = Basque
+ewo = Ewondo
 fa = Ba Tư
 ff = Fula
 fi = Phần Lan
@@ -79,6 +80,7 @@ ga-IE = Ireland
 gl = Galicia
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Do Thái
 hi = Hindi
@@ -98,6 +100,7 @@ it = Ý
 izh = Izhorian
 ja = Nhật
 jbo = Lojban
+jv = Javanese
 ka = Gruzia
 kaa = Karakalpak
 kab = Kabyle
@@ -151,6 +154,7 @@ nyn = Nyankole
 oc = Occitan
 om = Afaan Ormoo
 or = Odia
+os = Ossetia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Ba Lan
@@ -244,6 +248,7 @@ share-text = Hãy giúp dạy cho các phần mềm cách nói chuyện của co
 link-copied = Đã sao chép liên kết
 back-top = Trở về đầu trang
 logout = Đăng xuất
+donate = Quyên góp
 
 ## Home Page
 
@@ -612,7 +617,6 @@ about-playbook-how-add-sentences = Làm cách nào để thêm câu?
 about-playbook-how-add-sentences-content-1 = <strong>Công cụ thu thập câu</strong> là một công cụ để thu thập và xác thực các câu trong miền công cộng. Bạn sẽ <scAccountLink>cần tạo một tài khoản</scAccountLink>. Sau đó, thêm ngôn ngữ của bạn vào <strong>Hồ sơ</strong> của bạn. Bạn có thể <strong>thêm</strong> câu hoặc <strong>xem lại</strong> các câu đã thêm trước đó.
 about-playbook-how-add-sentences-content-2 = Các câu phải được hai người xem xét và chấp nhận mới được đưa vào Common Voice. Bạn tạo nguyên tắc cho ngôn ngữ của mình <languageGuidelinesLink>tại đây</languageGuidelinesLink>. Các câu phải nằm trong <licenseLink>miền công khai</licenseLink> và ngắn hơn 15 từ. Bạn có thể yêu cầu chủ sở hữu của văn bản đặt nó thành <waiverLink>CC0 sử dụng quy trình từ bỏ của chúng tôi</waiverLink> và gửi cho chúng tôi theo địa chỉ commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Bạn có thể sử dụng <scraperLink>công cụ trích xuất câu</scraperLink> để tận dụng các câu ngắn từ Wikipedia.
-about-playbook-how-add-sentences-content-4 = Các câu đã được xác thực sẽ được xuất vào các ngày Thứ Tư và có sẵn sau bản phát hành tiếp theo.
 
 ## How to record quality
 

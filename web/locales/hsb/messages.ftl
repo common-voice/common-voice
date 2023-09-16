@@ -96,6 +96,7 @@ it = Italšćina
 izh = Ižoršćina
 ja = Japanšćina
 jbo = Lodźbanšćina
+jv = Jawanšćina
 ka = Georgišćina
 kaa = Karakalpakšćina
 kab = Kabylšćina
@@ -146,6 +147,7 @@ nyn = Nkorešćina
 oc = Okcitanšćina
 om = Afaan Ormoo
 or = Odiašćina
+os = Osetšćina
 pa-IN = Pundžabšćina
 pap-AW = Papiamento (Aruba)
 pl = Pólšćina
@@ -239,6 +241,7 @@ share-text = Pomhajće mašinam wučić, kak ludźo rěča, darće swój hłós 
 link-copied = Wotkaz kopěrowany
 back-top = Wróćo horje
 logout = Wotzjewić
+donate = Darić
 
 ## Home Page
 
@@ -605,7 +608,6 @@ about-playbook-how-add-sentences = Kak móžu sady přidać?
 about-playbook-how-add-sentences-content-1 = <strong>Hromadźak sadow</strong> je nastroj za hromadźenje a přepruwowanje zjawnje přistupnych sadow. <scAccountLink>Dyrbiće konto załožić</scAccountLink>. Přidajće potom swojemu <strong>profilej</strong> swoju rěč. Móžeće sady <strong>přidać</strong> abo do toho přidate sady <strong>přepruwować</strong>.
 about-playbook-how-add-sentences-content-2 = Sady dyrbja so wot dweju wosobow přepruwować a akceptować, zo bychu so do Common Voice přewzali. Směrnicy za swoju rěč <languageGuidelinesLink>tu</languageGuidelinesLink> wutworiće. Sady dyrbja <licenseLink>zjawnje přistupne</licenseLink> a krótše hač 15 słowow być. Móžeće wobsedźerja teksta prosyć, zo by jón z pomocu našeho wozjewjenja wzdaća pod <waiverLink>CC0</waiverLink> stajił a jo na commonvoice@mozilla.com pósłał.
 about-playbook-how-add-sentences-content-3 = Móžeće <scraperLink>ekstraktor sadow</scraperLink> wužiwać, zo byšće krótke sady z Wikipedije dóstał.
-about-playbook-how-add-sentences-content-4 = Sady, kotrež su přepruwowane, so na srjedach eksportuja a su po přichodnym wozjewjenju k dispoziciji.
 
 ## How to record quality
 
@@ -1568,6 +1570,7 @@ misreadings-tip-2 = [‘a’ w originalnym teksće njeje]
 misreadings-tip-3 = [Wobsah njewotpowěduje]
 background-noise-example-1 = Hoberske dinosawriery triasa.
 background-noise-tip-2 = [Dźěl teksta słyšeć njeje]
+background-voices-example-1 = Hoberske dinosawriery triasa. [čita so wot jednoho hłosa]
 still-have-questions = Maće hišće prašenja?
 citing-sentences = Sady citować
 adding-sentences = Sady přidać

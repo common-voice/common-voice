@@ -14,6 +14,7 @@ const mysql2 = require('mysql2/promise')
 const db = getMySQLInstance()
 
 const DUPLICATE_KEY_ERR = 1062
+const BATCH_SIZE = 1000
 
 const insertSentenceTransaction = async (
   db: Mysql,
@@ -48,6 +49,70 @@ const insertSentenceTransaction = async (
   }
 }
 
+const insertBulkSentencesTransaction = async (
+  db: Mysql,
+  sentences: SentenceSubmission[]
+) => {
+  const sentence_values: any = []
+  const sentence_metadata_values: any = []
+
+  sentences.forEach(submission => {
+    const sentenceId = createSentenceId(
+      submission.sentence,
+      submission.locale_id
+    )
+    sentence_values.push([
+      sentenceId,
+      submission.sentence,
+      submission.source,
+      submission.locale_id,
+    ])
+    sentence_metadata_values.push([sentenceId, submission.client_id])
+  })
+
+  const conn = await mysql2.createConnection(db.getMysqlOptions())
+
+  let start = 0
+  let end = BATCH_SIZE
+
+  let sentences_batch = sentence_values.slice(start, end)
+  let sentences_metadata_batch = sentence_metadata_values.slice(start, end)
+
+  try {
+    await conn.beginTransaction()
+
+    while (sentences_batch.length > 0) {
+      await conn.query(
+        `
+          INSERT INTO sentences (id, text, source, locale_id)
+          VALUES ?
+          ON DUPLICATE KEY UPDATE source=VALUES(source)
+       `,
+        [sentences_batch]
+      )
+      await conn.query(
+        `
+          INSERT IGNORE INTO sentence_metadata(sentence_id, client_id)
+          VALUES ?
+       `,
+        [sentences_metadata_batch]
+      )
+
+      start += BATCH_SIZE
+      end += BATCH_SIZE
+      sentences_batch = sentence_values.slice(start, end)
+      sentences_metadata_batch = sentence_metadata_values.slice(start, end)
+    }
+
+    await conn.commit()
+  } catch (err) {
+    await conn.rollback()
+    throw err
+  } finally {
+    await conn.end()
+  }
+}
+
 const insertSentence =
   (db: Mysql) =>
   (
@@ -68,6 +133,17 @@ const insertSentence =
           err
         )
       }
+    )
+  }
+
+const insertBulkSentences =
+  (db: Mysql) =>
+  (
+    sentenceSubmissions: SentenceSubmission[]
+  ): TE.TaskEither<Error, unknown> => {
+    return TE.tryCatch(
+      () => insertBulkSentencesTransaction(db, sentenceSubmissions),
+      (err: Error) => err
     )
   }
 
@@ -145,6 +221,6 @@ const findSentencesForReview =
   }
 
 export const insertSentenceIntoDb = insertSentence(db)
+export const insertBulkSentencesIntoDb = insertBulkSentences(db)
 export const insertSentenceVoteIntoDb = insertSentenceVote(db)
-export const findSentencesForReviewInDb =
-  findSentencesForReview(db)
+export const findSentencesForReviewInDb = findSentencesForReview(db)

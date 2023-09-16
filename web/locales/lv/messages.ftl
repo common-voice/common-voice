@@ -60,7 +60,7 @@ cy = Velsiešu
 da = Dāņu
 dag = Dagbani
 de = Vācu
-dsb = Sorbānu, apaksējā
+dsb = Lejassorbu
 dv = Divehu
 dyu = Diula
 el = Grieķu
@@ -84,7 +84,7 @@ he = Ebreju
 hi = Hindi
 hil = Hiligaņu
 hr = Horvātu
-hsb = Sorbiju, augšējā
+hsb = Augšsorbu
 ht = Haitiešu
 hu = Ungāru
 hy-AM = Armēņu
@@ -471,13 +471,13 @@ faq-what-cv-a-2 =
     Mēs ne tikai apkopojam balss paraugus plaši lietotās valodās, bet arī tajās, kurās runātāju skaits ir mazāks. Daudzveidīgas balsu datu kopas publicēšana ļaus izstrādātājiem, uzņēmējiem un kopienām pašiem novērst nepilnības valodu balss tehnoloģiju atbalstā dažādās valodās.
 faq-why-important-q = Kāpēc tas ir svarīgi?
 faq-why-important-a =
-    Runa bieži vien ir visdabiskākais veids, kā mēs sazināmies savā starpā, un balss tehnoloģijas nodrošina šo ērtību mūsu datoriem un mobilajām ierīcēm. Mēs vēlamies dot iespēju izstrādātājiem veidot pārsteidzošas balss atpazīšanas lietojumprogrammas, piemēram, reāllaika tulkotājus un balss iespējotus digitālos palīgus. Bet tagad lielākā daļa balss datu, kas nepieciešami, lai izveidotu šāda veida lietojumprogrammas, ir dārgi un patentēti. Mēs ceram, ka kopējā balss datu kopa sniedz izstrādātājiem to, kas viņiem ir nepieciešams, lai ieviestu jauninājumus un padarītu runas tehnoloģiju pieejamu savā valodā.
+    Runa bieži vien ir visdabiskākais veids, kā mēs sazināmies savā starpā, un balss tehnoloģijas nodrošina šo ērtību mūsu datoros un mobilajās ierīcēs. Mēs vēlamies dot iespēju izstrādātājiem veidot pārsteidzošas balss atpazīšanas lietojumprogrammas, piemēram, reāllaika tulkotājus un balss iespējotus digitālos palīgus. Bet tagad lielākā daļa balss datu, kas nepieciešami, lai izveidotu šādas lietojumprogrammas, ir dārgi un patentēti. Mēs ceram, ka Common Voice datu kopa sniedz izstrādātājiem to, kas viņiem ir nepieciešams, lai ieviestu jauninājumus un padarītu runas tehnoloģiju pieejamu savā valodā.
     
-    Lai padarītu balss atpazīšanu vēl universālāku, mēs apkopojam balss paraugus plaši runājošās valodās, kā arī tos, kuriem ir mazāks runātāju skaits, ko bieži aizmirst komerciāli runas atpazīšanas pakalpojumi. Daudzveidīgu balsu datu kopu publicēšana ļaus izstrādātājiem, uzņēmējiem un visai runas kopienai paši atrisināt šo plaisu.
+    Lai padarītu balss atpazīšanu vēl universālāku, mēs apkopojam balss paraugus plaši izmantotajās valodās, kā arī tos, kuriem ir mazāks runātāju skaits, ko bieži aizmirst komerciāli runas atpazīšanas pakalpojumi. Daudzveidīgu balsu datu kopu publicēšana ļaus izstrādātājiem, uzņēmējiem un visai runas kopienai pašai novērst šo trūkumu.
 faq-how-get-q = Kā es varu iegūt Common Voice datus?
 faq-how-get-a = Common Voice datu kopa ir pieejama lejupielādei, izmantojot <licenseLink> CC0 </licenseLink> licenci lapā <datasetLink>datu kopa</datasetLink>. Jūs arī šajā lapā varat lejupielādēt vairākas citas publiski pieejamas datu kopas.
 faq-when-release2-q = Kad jūs publiskosit kopējās balss datus citās valodās?
-faq-when-release2-a = Common Voice datu kopas daudzvalodu versijā pašlaik notiek kopienas atbalstīta komplektēšana un tīrīšana. Ja vēlaties palīdzēt mums Common Voice piesaistīt jaunām valodām, dodieties uz <sentenceCollectorLink> teikumu savākšanas rīku </sentenceCollectorLink>, lai datu kopai pievienotu jaunus teikumus, un Mozilla <pontoonLink> pontons </pontoonLink> vietnes tulkošanai. pati. Kad ir savākti 5000 apstiprināti teikumi, Common Voice tiek pievienotas jaunas valodas.
+faq-when-release2-a = Common Voice datu kopas daudzvalodu versijā pašlaik notiek kopienas atbalstīta komplektēšana un tīrīšana. Ja vēlaties palīdzēt mums Common Voice piesaistīt jaunām valodām, dodieties uz <sentenceCollectorLink> teikumu savākšanas rīku </sentenceCollectorLink>, lai datu kopai pievienotu jaunus teikumus, un Mozilla <pontoonLink>Pontoon</pontoonLink> vietnes tulkošanai. Kad ir savākti 5000 apstiprināti teikumi, Common Voice tiek pievienotas jaunas valodas.
 faq-why-mission-q = Kādēļ Common Voice ir daļa no Mozilla misijas?
 faq-why-mission-a = Mozilla fokusējas uz to, lai tīmeklis būtu atvērts un pieejams ikvienam. Lai to izdarītu, mums ir jāsniedz tīmekļa veidotājiem vairāk iespēju, radot tādus projektus kā Common Voice. Tā kā balss tehnoloģijas izplatās ārpus nišas programmām, mēs uzskatām, ka tām ir jākalpo visiem lietotājiem vienādi. Tas nozīmē ieguldīt vairākās valodās un pielāgot dažādus akcentus un demogrāfiskos datus, veidojot un testējot balss tehnoloģijas. Common Voice ir publisks resurss, kas pieejams visiem, un Mozilla komandas un izstrādātāji visā pasaulē jau to izmanto mūsu pašu projektos.
 faq-what-cv-and-deepspeech-q = Kāda atšķirība starp Common Voice un Deep Speech?

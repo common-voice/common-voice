@@ -7,6 +7,8 @@ const SOURCES = {
     "'self'",
     'https://fonts.googleapis.com',
     'https://tagmanager.google.com',
+    // we allow unsafe-inline for fundraise up styles - https://fundraiseup.com/support/content-security-policy/
+    "'unsafe-inline'",
   ],
   'img-src': [
     "'self'",
@@ -21,6 +23,8 @@ const SOURCES = {
     'data:',
     'https://ssl.gstatic.com',
     'https://www.gstatic.com',
+    '*.fundraiseup.com',
+    'ucarecdn.com',
   ],
   'media-src': [
     'data:',
@@ -35,13 +39,27 @@ const SOURCES = {
     "'sha256-f5PIEq+yjZ2s4dERSM1INxQKD+3sf+TKU2H7p8iijiI='",
     "'sha256-GzFSggTMJH0+aLj5HI3ZiCtxjVrlSWczZ/oHezdwRgE='",
     "'sha256-a4XKOKikGVsTOKjLwsaxxV5wpz/r2aiS5mjhlhYZ6A0='",
+    "'sha256-QpRaNc9WL82cAOkiPfLE1bTAivGUFX9zsApzEurJ9wg='",
+    "'sha256-dWOqg9lnJct6KNFyy8RWWvxwrKvHVzzxWdDufqcgdSY='",
     'https://www.google-analytics.com',
     'https://pontoon.mozilla.org',
     'https://*.sentry.io',
     'https://tagmanager.google.com',
     '*.googletagmanager.com',
+    '*.fundraiseup.com',
+    '*.stripe.com',
+    'm.stripe.network',
+    '*.paypal.com',
+    'pay.google.com ',
+    '*.src.mastercard.com'
   ],
-  'font-src': ["'self'", 'https://fonts.gstatic.com'],
+  'font-src': [
+    "'self'",
+    'https://fonts.gstatic.com',
+    '*.fundraiseup.com',
+    '*.stripe.com',
+    'https://static.fundraiseup.com/fonts/',
+  ],
   'connect-src': [
     "'self'",
     'blob:',
@@ -57,7 +75,12 @@ const SOURCES = {
     'https://edge.fullstory.com',
     'https://fonts.gstatic.com',
     'data:',
+    'fndrsp.net',
+    'fndrsp-checkout.net',
+    '*.fundraiseup.com',
+    '*.stripe.com',
   ],
+  'frame-src': ['*.fundraiseup.com', '*.stripe.com'],
 };
 
 function getCSPHeaderValue() {
