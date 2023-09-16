@@ -351,7 +351,7 @@ shortcut-discard-ongoing-recording = Esc
 shortcut-discard-ongoing-recording-label = Цæугæ ныффыст аив
 shortcut-submit = Enter
 shortcut-submit-label = Арвит клиптæ
-request-language-text = Де 'взаг нӕма уыныс Common Voice-ы?
+request-language-text = Де ’взаг нӕма уыныс Common Voice-ы?
 request-language-button = Æркур æвзаг
 
 ## ProjectStatus
