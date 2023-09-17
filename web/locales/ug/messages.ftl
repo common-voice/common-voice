@@ -624,6 +624,7 @@ about-playbook-how-localize-content-5 = ياردەم قىلىش ئۈچۈن سى�
 
 about-playbook-how-add-sentences = جۈملىلەرنى قانداق قوشىمەن؟
 about-playbook-how-add-sentences-content-1 = <writePageLink>يازاي بەت</writePageLink> تە جۈملە قوشالايسىز ياكى <reviewPageLink>تەكشۈرەي بەت</reviewPageLink> تە جۈملىلەرنى تەكشۈرەلەيسىز.
+about-playbook-how-add-sentences-content-2 = جۈملىلەر چوقۇم ئىككى كىشى تەكشۈرۈپ قوشۇلغاندىن كېيىن ئاندىن Common Voice دا كۆرۈنىدۇ. سىز <languageGuidelinesLink>بۇ جاي</languageGuidelinesLink> دا تىلىڭىزغا يېتەكچى قۇرالايسىز. جۈملىلەر چوقۇم <licenseLink>ئاممىۋى دائىرە</licenseLink> دە بولۇشى ھەمدە 15 سۆزدىن قىسقا بولۇشى كېرەك. سىز تېكىست ئىگىسىدىن سوراپ بىزنىڭ <waiverLink>CC0 كەچۈرۈم قىلىش جەريانى</waiverLink> دىن ئۆتكۈزۈپ، بىزگە commonvoice@mozilla.com ئەۋەتىپ بەرسىڭىز بولىدۇ
 about-playbook-how-add-sentences-content-3 = سىز <scraperLink>جۈملە چىقارغۇچ</scraperLink> نى ئىشلىتىپ Wikipedia دىن قىسقا جۈملىلەرنى توپلىيالايسىز.
 
 ## How to record quality
@@ -640,6 +641,7 @@ about-playbook-how-record-content-5 = <accuracyLink> توغرىلىق ئۆلچى
 about-playbook-how-grow-language = قانداق قىلغاندا Common Voiceدا تىلنى ئۈنۈملۈك ئىلگىرلەتكىلى بولىدۇ؟
 about-playbook-how-grow-language-content-1 = تېخىمۇ كۆپ كىشىگە Common Voice ئۈچۈن تۆھپە قوشۇش پۇرسىتى يارىتىپ، سانلىق مەلۇمات توپلىمىنىڭ ئىمكانقەدەر كۆپ كىشىگە مۇلازىمەت قىلىشىغا كاپالەتلىك قىلىدۇ. بىز سىز ئىشلىتەلەيدىغان مەنبە ۋە قېلىپلارنى قۇردۇق!
 about-playbook-how-grow-language-content-2 = پائالىيەتلەر
+about-playbook-how-grow-language-content-3 = كىشىلەرنىڭ تۆھپە قوشۇشىغا ياردەم بېرىش ئۈچۈن پائالىيەت ئېلىپ بارالايسىز. ئۇ سىز ئويلىغاندىنمۇ ئاسان. ئۇنى توردا سىنلىق يىغىن قورالى ئارقىلىق ياكى بىخەتەر بولسا بىۋاسىتە ئېلىپ بارسىڭىزمۇ بولىدۇ. <eventTemplate>پائالىيەت ئۇيۇشتۇرۇش ھەققىدىكى قېلىپ ۋە مەنبەلىرىمىزنى تەكشۈرۈڭ</eventTemplate>
 about-playbook-how-grow-language-content-4 = ئىجتىمائىي تاراتقۇ
 about-playbook-how-grow-language-content-6 = ھەمكارلىق ۋە تور
 
