@@ -612,7 +612,6 @@ about-playbook-how-add-sentences = 如何添加语句？
 about-playbook-how-add-sentences-content-1 = <strong>语句收集工具</strong>是一个收集和审核公共领域语句的工具。您首先<scAccountLink>需要创建一个账户</scAccountLink>。然后，将您的语言添加到您的<strong>个人资料</strong>中。您可以<strong>添加</strong>句子并<strong>查看</strong>以前添加的句子。
 about-playbook-how-add-sentences-content-2 = 句子必须经过两个人的审核和接受才能出现在 Common Voice 中。您可以在<languageGuidelinesLink>此处</languageGuidelinesLink>为您的语言创建指南。句子必须属于<licenseLink>公有领域</licenseLink> 且少于 15 字。您可以请求文本的所有者<waiverLink>通过我们的放弃所有权流程将其转为采用 CC0 授权协议</waiverLink>，然后通过 commonvoice@mozilla.com 发送给我们
 about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 从维基百科收集短句。
-about-playbook-how-add-sentences-content-4 = 通过的句子在周三导出，并在下一次数据集发布后可用。
 
 ## How to record quality
 
@@ -646,7 +645,7 @@ about-playbook-how-validate-content-4 = 如果有两人驳回了这条语音片�
 ## How to access dataset
 
 about-playbook-how-access-dataset = 如何访问和使用数据集？
-about-playbook-how-access-dataset-content-1 = 您可以前往 <datasetsPage>数据集页面</datasetsPage>选择您想要的版本和语言，然后就可以直接下载了！这些文件包含<metadataLink>相关的元数据</metadataLink>，例如人口统计信息和验证数据等。只需提供一个电子邮箱地址就能下载数据集。
+about-playbook-how-access-dataset-content-1 = 您可以前往 <datasetsPage>数据集页面</datasetsPage>选择您想要的版本和语言，然后就可以直接下载了！这些文件包含<metadataLink>相关的元数据</metadataLink>，例如人口统计信息和验证数据等。只需提供一个邮箱地址就能下载数据集。
 about-playbook-how-access-dataset-content-2 = 若您正在寻找构建 ASR 模型的工具，欢迎到 <discourseLink>Discourse</discourseLink> 联系社区成员。
 
 ## How are decisions made
