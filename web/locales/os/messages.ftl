@@ -1046,6 +1046,7 @@ share-goal = Равдис мæ нысан
 
 ## Profile Delete
 
+delete-q = Фӕнды дӕ, цӕмӕй дӕ хъӕлӕсон ныффыстытӕ хӕлд ӕрцӕуой, ӕви дӕ фӕнды уыдон ныууадзын Common Voice-ы рардты ӕмбырды?
 keep = Ныууадз
 remove = Сыхал
 keep-info = Дæ анонимон хъæлæсон фыстытæ баззайдзысты Common Voice-ы рардты хæрхы. Куы сыхалай дæ профил, уæд дæ бон нал уыдзæн арвитын бафарст дæ фыстытæ датасетæй сыхалыны тыххæй.
@@ -1073,6 +1074,7 @@ download-selected = Æвзæрст
 download-start = Равгæн профилы рардтæ
 download-request = Фыстытæ æркур
 download-requests = Кæддæры фыстытæ равгæныны тыххæй курдиат
+download-requests-info = Дӕ ныффыстытӕ куы æркурыс, уӕд сӕ мах иу кӕнӕ цалдӕр ZIP-файлмӕ бафтауӕм. Дӕ раздӕры курдиаттæ:
 download-request-button = Равгæн
 download-request-title = { $created }
 download-request-archive-single = Иунæй ZIP-файл, йæ мидæг та
