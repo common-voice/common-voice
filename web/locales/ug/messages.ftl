@@ -69,6 +69,7 @@ eo = دۇنيا تىلى
 es = ئىسپانچە
 et = ئېستونىيەچە
 eu = باسكىچە
+ewo = ئېۋوندوچە
 fa = پارىسچە
 ff = فۇلاچە
 fi = فىنچە
@@ -79,6 +80,7 @@ ga-IE = ئىرېلاندىيەچە
 gl = گالىتسىيانچە
 gn = گۇئارانىچە
 gom = كونكانىچە
+gu-IN = گۇجاراتىچە
 ha = خائۇساچە
 he = ئىبرانىچە
 hi = ھىندىچە
@@ -98,6 +100,7 @@ it = ئىتاليانچە
 izh = ئىزورانچە
 ja = ياپونچە
 jbo = لوجبانچە
+jv = جاۋانىسچە
 ka = گىرۇزىنچە
 kaa = قاراقالپاقچە
 kab = كابىلېچە
@@ -151,6 +154,7 @@ nyn = نىيانكولېچە
 oc = ئاۋكچە
 om = ئورومچە
 or = ئورىياچە
+os = ئوسسېتىنچە
 pa-IN = پەنجابچە
 pap-AW = پاپىيامەنتۇچە
 pl = پولەكچە
@@ -244,6 +248,7 @@ share-text = ماشىنىلارغا ھەقىقىي كىشىلەرنىڭ قاند
 link-copied = ئۇلىنىش كۆچۈرۈلدى
 back-top = ئۈستىگە قايت
 logout = تىزىمدىن چىقىش
+donate = ئىئانە
 
 ## Home Page
 
@@ -619,7 +624,6 @@ about-playbook-how-localize-content-5 = ياردەم قىلىش ئۈچۈن سى�
 
 about-playbook-how-add-sentences = جۈملىلەرنى قانداق قوشىمەن؟
 about-playbook-how-add-sentences-content-3 = سىز <scraperLink>جۈملە چىقارغۇچ</scraperLink> نى ئىشلىتىپ Wikipedia دىن قىسقا جۈملىلەرنى توپلىيالايسىز.
-about-playbook-how-add-sentences-content-4 = دەلىللەنگەن جۈملىلەر ھەر چارشەنبە چىقىرىلىدۇ، ھەمدە كېيىنكى نەشرىدە قوشۇپ ئېلان قىلىنىدۇ.
 
 ## How to record quality
 
@@ -1186,9 +1190,11 @@ contribution-varying-pronunciations-example-2-explanation = [ئىنگلىزچى�
 contribution-background-noise-title = مۇھىت شاۋقۇنى
 contribution-background-noise-example-1-fixed-title = <strong>[ھەپچۈشۈ]</strong>ترىناسىك ئېراسىنىڭ گىگانت <strong>[ئۆھۆ]</strong>دىنوزاۋرلىرى.
 contribution-background-noise-example-2-fixed-title = ترىناسىك ئېراسىنىڭ گى <strong>[ئۆھۆ]</strong>دىنوزاۋرلىرى.
+contribution-background-noise-example-2-explanation = [تېكىستنىڭ بىر قىسمىنى ئاڭلىغىلى بولمىدى]
 contribution-background-noise-example-3-fixed-title = <strong>[چاراس-چۇرۇس]</strong>ترىناسىك ئېراسىنىڭ گىگانت <strong>[چاراس-چۇرۇس]</strong>دىنوزاۋرلىرى.
 contribution-background-voices-title = مۇھىت ئاۋازى
 contribution-background-voices-example-1-title = ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرلىرى. <strong>[باشقا بىرى ئوقۇۋاتىدۇ]</strong>
+contribution-background-voices-example-1-explanation = كېلىۋاتامسە؟ <strong>[باشقا بىرى چاقىردى]</strong>
 contribution-volume-title = ئاۋاز
 contribution-reader-effects-title = ئوقۇرمەن ئۈنۈمى
 contribution-just-unsure-title = ئانچە ئېنىق ئەمەسمۇ؟
