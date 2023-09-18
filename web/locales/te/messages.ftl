@@ -11,6 +11,7 @@ loading = వస్తోంది…
 email-opt-in-info-title = కామన్ వాయిస్ మెయిలింగ్ జాబితాలో చేరండి
 indicates-required = * ఖచ్చితంగా పూరించవలసిన ఖాళీ
 not-available-abbreviation = వర్తించదు
+banner-error-slow-link = స్థితి పేజీ
 error-something-went-wrong = క్షమించండి, ఏదో తప్పు జరిగింది
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -36,6 +37,7 @@ be = బెలారుసియన్
 bg = బల్గేరియన్
 bm = బంబారా
 bn = బెంగాలి
+bo = టిబెటన్
 br = బ్రెటోన్
 bs = బోస్నియన్
 bxr = బుర్యాత్
@@ -315,6 +317,7 @@ shortcut-record-toggle = r
 shortcut-record-toggle-label = రికార్డు/ఆపు
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = క్లిప్‌ను తిరిగి రికార్డ్ చేయండి
+shortcut-discard-ongoing-recording = ESC
 request-language-text = ఇంకా కామన్ వాయిస్‍లో మీ భాష కనబడలేదా?
 request-language-button = ఒక భాషని అభ్యర్థించండి
 
@@ -707,6 +710,9 @@ login-to-get-started = మొదలుపెట్టడానికి ప్�
 target-segment-add-voice = మీ వాయిస్‌ని జోడించండి
 target-segment-learn-more = ఇంకా తెలుసుకోండి
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = నివేదిక
@@ -797,6 +803,7 @@ profile-form-delete = ప్రొఫైలును తొలగించు
 
 ## Profile Download
 
+download-profile-size = కొన్ని బైట్లు
 download-recordings-title = రికార్డింగ్‌లు
 download-size = పరిమాణం
 download-selected = ఎంపికైన
@@ -993,3 +1000,4 @@ sc-settings-reset-skipped = దాటవేయబడిన వాక్యాల
 
 # [/SentenceCollector]
 
+sentence-collection = వాక్యాల సేకరణ
