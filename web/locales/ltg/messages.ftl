@@ -1067,8 +1067,8 @@ not-receiving-emails-info =
 n-clips-pluralized =
     { NUMBER($count) ->
         [zero] { $count } īrokstu
-        [one] { "" }
-       *[other] { "" }
+        [one] { $count } īrokstu
+       *[other] { $count } īrokstu
     }
 help-share-goal = Paleidzit mums atrast vaira bolsu, pasadolit ar sovu mierki
 confirm-goal = Apstyprynuot mierki
