@@ -80,6 +80,7 @@ ga-IE = 爱尔兰语
 gl = 加利西亚语
 gn = 瓜拉尼语
 gom = 孔卡尼语（果阿）
+gu-IN = 古吉拉特语
 ha = 豪萨语
 he = 希伯来语
 hi = 印地语
@@ -247,6 +248,7 @@ share-text = 请到 { $link } 贡献一段您的声音，帮助我们教会机�
 link-copied = 链接已复制
 back-top = 回到顶端
 logout = 退出登录
+donate = 捐助
 
 ## Home Page
 
