@@ -285,20 +285,20 @@ today = Šudiņ
 x-weeks-short =
     { $count ->
         [zero] { $count }n
-        [one] { "" }
-       *[other] { "" }
+        [one] { $count }n
+       *[other] { $count }n
     }
 x-months-short =
     { $count ->
         [zero] { $count }m
-        [one] { "" }
-       *[other] { "" }
+        [one] { $count }m
+       *[other] { $count }m
     }
 x-years-short =
     { $count ->
         [zero] { $count }g
-        [one] { "" }
-       *[other] { "" }
+        [one] { $count }g
+       *[other] { $count }g
     }
 help-make-dataset = Paleidzit sataiseit kvalitativu, publiski daīmamu datu kūpu
 sign-up-account = Registrej sovu kontu
@@ -891,16 +891,16 @@ shortcuts = Eisceli
 clips-with-count-pluralized =
     { $count ->
         [zero] <bold>{ $count }</bold> īrokstu
-        [one] { "" }
-       *[other] { "" }
+        [one] <bold>{ $count }</bold> īrokstu
+       *[other] <bold>{ $count }</bold> īrokstu
     }
 goal-help-recording = Jius esit paleidziejuši sasnēgt <goalPercentage> </goalPercentage> nu myusu mierka - { $goalValue } īrokstu dīnā!
 goal-help-validation = Jius esit paleidziejuši sasnēgt <goalPercentage> </goalPercentage> nu myusu mierka - { $goalValue } puorbaudeitū īrokstu dīnā!
 contribute-more =
     { $count ->
         [zero] Voi esit gotovi vēļ { $count }?
-        [one] { "" }
-       *[other] { "" }
+        [one] Voi esit gotovi vēļ { $count }?
+       *[other] Voi esit gotovi vēļ { $count }?
     }
 record-cta = Suocit īraksteišonu
 record-platform-not-supported = Dīvamžāļ jiusu platforma itūšaļt nateik atbaļsteita.
