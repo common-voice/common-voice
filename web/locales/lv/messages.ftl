@@ -69,6 +69,7 @@ eo = Esperanto
 es = Spāņu
 et = Igauņu
 eu = Basku
+ewo = Ewondo
 fa = Persiešu
 ff = Fulu
 fi = Somu
@@ -79,6 +80,7 @@ ga-IE = Īru
 gl = Galisiešu
 gn = Guaranu
 gom = Goans Konkani
+gu-IN = Gudžaratu
 ha = Hausu
 he = Ebreju
 hi = Hindi
@@ -98,6 +100,7 @@ it = Itāļu
 izh = Izhoriešu
 ja = Japāņu
 jbo = Lojban
+jv = Javiešu
 ka = Gruzīnu
 kaa = Karakalpak
 kab = Kabilu
@@ -151,6 +154,7 @@ nyn = Runjankole
 oc = Oksitāņu
 om = Afaans Oromo
 or = Oriju
+os = Osetīnu
 pa-IN = Pandžabu
 pap-AW = Papiamento (Aruba)
 pl = Poļu
@@ -244,6 +248,7 @@ share-text = Palīdziet iekārtām saprast latviešu valodu, ierakstiet savu bal
 link-copied = Saite kopēta
 back-top = Atpakaļ uz augšu
 logout = Beigt darbu
+donate = Ziedo
 
 ## Home Page
 
@@ -627,7 +632,6 @@ about-playbook-how-add-sentences = Kā pievienot teikumus?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ir rīks publiskā domēna teikumu apkopošanai un apstiprināšanai. Jums būs <scAccountLink>jāizveido konts</scAccountLink>. Pēc tam pievienojiet valodu savam <strong>profilam</strong>. Varat <strong>pievienot</strong> teikumus vai <strong>pārskatīt</strong> iepriekš pievienotos teikumus.
 about-playbook-how-add-sentences-content-2 = Teikumi ir jāpārskata un jāpieņem diviem cilvēkiem, lai tie tiktu iekļauti Common Voice. Jūs varat izveidot vadlīnijas savai valodai <languageGuidelinesLink>šeit</languageGuidelinesLink>. Teikumiem jābūt <licenseLink>brīviem no autortiesībām</licenseLink>, un tiem jābūt īsākiem par 15 vārdiem. Varat lūgt teksta īpašniekam nodot teikumus <waiverLink>CC0 jeb brīvai lietošanai, izmantojot mūsu autortiesību nodošanas procesu</waiverLink>, un nosūtīt mums uz commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Varat izmantot <scraperLink>teikumu izvilkšanas rīku</scraperLink>, lai izmantotu īsus teikumus no Vikipēdijas.
-about-playbook-how-add-sentences-content-4 = Validētie teikumi tiek eksportēti trešdienās un ir pieejami nākamajā laidienā.
 
 ## How to record quality
 

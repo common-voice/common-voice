@@ -80,6 +80,7 @@ ga-IE = Irština
 gl = Galicijština
 gn = Guaraní
 gom = Konkánština
+gu-IN = Gudžarátština
 ha = Hauština
 he = Hebrejština
 hi = Hindština
@@ -247,6 +248,7 @@ share-text = Pomozte strojům pochopit, jak mluví lidé, darujte svůj hlas na 
 link-copied = Odkaz byl zkopírován
 back-top = Zpět nahoru
 logout = Odhlásit
+donate = Darovat
 
 ## Home Page
 
@@ -626,7 +628,6 @@ about-playbook-how-add-sentences = Jak přidávat věty?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> je nástroj pro shromažďování a ověřování public domain vět. Musíte si <scAccountLink>vytvořit účet</scAccountLink>. Poté přidejte svůj jazyk do svého <strong>profilu</strong>. Můžete také <strong>přidávat</strong> věty nebo <strong>ověřovat</strong> dříve přidané věty.
 about-playbook-how-add-sentences-content-2 = Věty musí být ověřeny a schváleny dvěma osobami, aby mohly být zařazeny do Common Voice. <languageGuidelinesLink>Zde</languageGuidelinesLink> si vytvoříte pokyny pro svůj jazyk. Musí se jednat o <licenseLink>public domain</licenseLink> věty kratší než 15 slov. Můžete požádat vlastníka textu, aby jej uvolnil pod <waiverLink>CC0 pomocí našeho postupu zřeknutí se práv</waiverLink> a dohodu nám poslali na commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = K získání krátkých vět z Wikipedie můžete použít nástroj <scraperLink>Sentence extractor</scraperLink>.
-about-playbook-how-add-sentences-content-4 = Ověřené věty jsou exportovány ve středu a jsou dostupné v příštím vydání.
 
 ## How to record quality
 

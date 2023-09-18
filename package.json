@@ -50,7 +50,7 @@
     "lint:web": "cd web && yarn lint",
     "prettier": "prettier \"**/*.{ts,tsx}\" --write",
     "start": "yarn build:common && concurrently -p \"[{name}]\" -n \"CO,BE,FE\" -c \"bgYellow.bold,bgBlue.bold,bgMagenta.bold,bgCyan.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\"",
-    "start:prod": "yarn build:common && node server/js/main.js",
+    "start:prod": "yarn build:common && node --trace-warnings server/js/main.js",
     "start:maint": "cd maintenance && yarn dev",
     "test": "yarn build:common && concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && SERVER_CONFIG_PATH='../config.json' yarn test\""
   },
