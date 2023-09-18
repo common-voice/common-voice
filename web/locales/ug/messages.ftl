@@ -69,6 +69,7 @@ eo = دۇنيا تىلى
 es = ئىسپانچە
 et = ئېستونىيەچە
 eu = باسكىچە
+ewo = ئېۋوندوچە
 fa = پارىسچە
 ff = فۇلاچە
 fi = فىنچە
@@ -79,6 +80,7 @@ ga-IE = ئىرېلاندىيەچە
 gl = گالىتسىيانچە
 gn = گۇئارانىچە
 gom = كونكانىچە
+gu-IN = گۇجاراتىچە
 ha = خائۇساچە
 he = ئىبرانىچە
 hi = ھىندىچە
@@ -98,6 +100,7 @@ it = ئىتاليانچە
 izh = ئىزورانچە
 ja = ياپونچە
 jbo = لوجبانچە
+jv = جاۋانىسچە
 ka = گىرۇزىنچە
 kaa = قاراقالپاقچە
 kab = كابىلېچە
@@ -151,6 +154,7 @@ nyn = نىيانكولېچە
 oc = ئاۋكچە
 om = ئورومچە
 or = ئورىياچە
+os = ئوسسېتىنچە
 pa-IN = پەنجابچە
 pap-AW = پاپىيامەنتۇچە
 pl = پولەكچە
@@ -244,6 +248,7 @@ share-text = ماشىنىلارغا ھەقىقىي كىشىلەرنىڭ قاند
 link-copied = ئۇلىنىش كۆچۈرۈلدى
 back-top = ئۈستىگە قايت
 logout = تىزىمدىن چىقىش
+donate = ئىئانە
 
 ## Home Page
 
@@ -618,8 +623,9 @@ about-playbook-how-localize-content-5 = ياردەم قىلىش ئۈچۈن سى�
 ## How to add sentences
 
 about-playbook-how-add-sentences = جۈملىلەرنى قانداق قوشىمەن؟
+about-playbook-how-add-sentences-content-1 = <writePageLink>يازاي بەت</writePageLink> تە جۈملە قوشالايسىز ياكى <reviewPageLink>تەكشۈرەي بەت</reviewPageLink> تە جۈملىلەرنى تەكشۈرەلەيسىز.
+about-playbook-how-add-sentences-content-2 = جۈملىلەر چوقۇم ئىككى كىشى تەكشۈرۈپ قوشۇلغاندىن كېيىن ئاندىن Common Voice دا كۆرۈنىدۇ. سىز <languageGuidelinesLink>بۇ جاي</languageGuidelinesLink> دا تىلىڭىزغا يېتەكچى قۇرالايسىز. جۈملىلەر چوقۇم <licenseLink>ئاممىۋى دائىرە</licenseLink> دە بولۇشى ھەمدە 15 سۆزدىن قىسقا بولۇشى كېرەك. سىز تېكىست ئىگىسىدىن سوراپ بىزنىڭ <waiverLink>CC0 كەچۈرۈم قىلىش جەريانى</waiverLink> دىن ئۆتكۈزۈپ، بىزگە commonvoice@mozilla.com ئەۋەتىپ بەرسىڭىز بولىدۇ
 about-playbook-how-add-sentences-content-3 = سىز <scraperLink>جۈملە چىقارغۇچ</scraperLink> نى ئىشلىتىپ Wikipedia دىن قىسقا جۈملىلەرنى توپلىيالايسىز.
-about-playbook-how-add-sentences-content-4 = دەلىللەنگەن جۈملىلەر ھەر چارشەنبە چىقىرىلىدۇ، ھەمدە كېيىنكى نەشرىدە قوشۇپ ئېلان قىلىنىدۇ.
 
 ## How to record quality
 
@@ -635,8 +641,12 @@ about-playbook-how-record-content-5 = <accuracyLink> توغرىلىق ئۆلچى
 about-playbook-how-grow-language = قانداق قىلغاندا Common Voiceدا تىلنى ئۈنۈملۈك ئىلگىرلەتكىلى بولىدۇ؟
 about-playbook-how-grow-language-content-1 = تېخىمۇ كۆپ كىشىگە Common Voice ئۈچۈن تۆھپە قوشۇش پۇرسىتى يارىتىپ، سانلىق مەلۇمات توپلىمىنىڭ ئىمكانقەدەر كۆپ كىشىگە مۇلازىمەت قىلىشىغا كاپالەتلىك قىلىدۇ. بىز سىز ئىشلىتەلەيدىغان مەنبە ۋە قېلىپلارنى قۇردۇق!
 about-playbook-how-grow-language-content-2 = پائالىيەتلەر
+about-playbook-how-grow-language-content-3 = كىشىلەرنىڭ تۆھپە قوشۇشىغا ياردەم بېرىش ئۈچۈن پائالىيەت ئېلىپ بارالايسىز. ئۇ سىز ئويلىغاندىنمۇ ئاسان. ئۇنى توردا سىنلىق يىغىن قورالى ئارقىلىق ياكى بىخەتەر بولسا بىۋاسىتە ئېلىپ بارسىڭىزمۇ بولىدۇ. <eventTemplate>پائالىيەت ئۇيۇشتۇرۇش ھەققىدىكى قېلىپ ۋە مەنبەلىرىمىزنى تەكشۈرۈڭ</eventTemplate>
 about-playbook-how-grow-language-content-4 = ئىجتىمائىي تاراتقۇ
+about-playbook-how-grow-language-content-5 = ئۇچۇرنى يەتكۈزۈشتە ئىجتىمائىي ئالاقە سۇپىلىرىدىن پايدىلانسىڭىز بولىدۇ. بۇنىڭ نېمە ئۈچۈن مۇھىملىقىنى چۈشەندۈرۈپ بېرىدىغان يازمىلارنى ھەمبەھىرلەڭ ھەمدە تىل ھوقۇقى، ئاۋازلىق سۈنئىي ئەقىل ياكى تېخنىكىدىكى بىر تەرەپلىمە قاراش قاتارلىق مەسىلىلەر توغرىسىدا باشقىلار بىلەن پاراڭلىشىپ تۇرۇڭ. <campaignLink>سىز قايتا ئىشلىتەلەيدىغان مەزمۇنلارنى ئۆز ئىچىگە ئالغان ئىجتىمائىي پائالىيەت ئورۇنلاشتۇرۇش ھەققىدە</campaignLink>  تېخىمۇ كۆپ تەكلىپلەرنى كۆرۈڭ.
 about-playbook-how-grow-language-content-6 = ھەمكارلىق ۋە تور
+about-playbook-how-grow-language-content-7 = ئۇنىۋېرسىتېتلار، تىل مەكتەپلىرى، تەشۋىقات گۇرۇپپىلىرى ياكى سانلىق مەلۇمات پەنلىرى جەمئىيىتىگە ئوخشاش، بۇ ئىشقا كۆڭۈل بۆلىدىغانلارنى ئىزدەڭ. ئۇلارنىڭ قانداق ۋە نېمە ئۈچۈن ياردەم قىلالايدىغانلىقىنىڭ سەۋەبىنى ئېنىق چۈشەندۈرۈڭ. <outreachTemplates>سىرتقى ئالاقە ئېلخەت قېلىپىمىزنى كۆرۈڭ</outreachTemplates>
+about-playbook-how-grow-language-content-8 = <strong>تەسەۋۋۇرىڭىزنى  جارى قىلدۇرۇڭ!</strong> تىل جامائىتىڭىز بىردىنبىر، بۇنى بىر قانچە باسقۇچتىلا باشلىيالايسىز.
 
 ## How to validate
 
@@ -1186,9 +1196,11 @@ contribution-varying-pronunciations-example-2-explanation = [ئىنگلىزچى�
 contribution-background-noise-title = مۇھىت شاۋقۇنى
 contribution-background-noise-example-1-fixed-title = <strong>[ھەپچۈشۈ]</strong>ترىناسىك ئېراسىنىڭ گىگانت <strong>[ئۆھۆ]</strong>دىنوزاۋرلىرى.
 contribution-background-noise-example-2-fixed-title = ترىناسىك ئېراسىنىڭ گى <strong>[ئۆھۆ]</strong>دىنوزاۋرلىرى.
+contribution-background-noise-example-2-explanation = [تېكىستنىڭ بىر قىسمىنى ئاڭلىغىلى بولمىدى]
 contribution-background-noise-example-3-fixed-title = <strong>[چاراس-چۇرۇس]</strong>ترىناسىك ئېراسىنىڭ گىگانت <strong>[چاراس-چۇرۇس]</strong>دىنوزاۋرلىرى.
 contribution-background-voices-title = مۇھىت ئاۋازى
 contribution-background-voices-example-1-title = ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرلىرى. <strong>[باشقا بىرى ئوقۇۋاتىدۇ]</strong>
+contribution-background-voices-example-1-explanation = كېلىۋاتامسە؟ <strong>[باشقا بىرى چاقىردى]</strong>
 contribution-volume-title = ئاۋاز
 contribution-reader-effects-title = ئوقۇرمەن ئۈنۈمى
 contribution-just-unsure-title = ئانچە ئېنىق ئەمەسمۇ؟

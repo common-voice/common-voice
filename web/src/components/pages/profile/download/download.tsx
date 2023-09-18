@@ -12,7 +12,7 @@ import { Button } from '../../../ui/ui';
 import './download.css';
 import API from '../../../../services/api';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
-import { TakeoutRequest, TakeoutState, UserClient, Accent } from 'common';
+import { TakeoutRequest, TakeoutState, UserClient, Accent, TakeoutResponse } from 'common';
 import { byteToSize } from '../../../../utility';
 import Modal, { ModalProps } from '../../../modal/modal';
 
@@ -211,7 +211,7 @@ const LinkModal = ({
   api,
   ...props
 }: LinkModalProps) => {
-  const [links, setLinks] = useState([]);
+  const [links, setLinks] = useState({parts: [], metadata: ''});
 
   useEffect(() => {
     api
@@ -223,13 +223,13 @@ const LinkModal = ({
   return (
     <Modal {...props} innerClassName="download-request-modal">
       <Section title={title} info={description}>
-        {links.length && (
+        {links.parts.length && (
           <ul>
-            {links[0].map((link: string, i: number) => (
+            {links.parts.map((link: string, i: number) => (
               <li key={i}>
                 <Localized
                   id="download-request-link-text"
-                  vars={{ offset: i + 1, total: links[0].length }}>
+                  vars={{ offset: i + 1, total: links.parts.length }}>
                   {/* Localized injects content into child tag */}
                   {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
                   <a key={link} href={link} target="_blank" rel="noreferrer" />
@@ -241,8 +241,8 @@ const LinkModal = ({
                 {/* Localized injects content into child tag */}
                 {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
                 <a
-                  key={links[1]}
-                  href={links[1]}
+                  key={links.metadata}
+                  href={links.metadata}
                   target="_blank"
                   rel="noreferrer"
                 />
@@ -254,7 +254,7 @@ const LinkModal = ({
           <p />
         </Localized>
         <textarea
-          value={links.join('\n')}
+          value={[links.parts, links.metadata].join('\n')}
           readOnly
           wrap="off"
           className="download-request-nl-links"
