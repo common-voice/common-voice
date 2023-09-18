@@ -12,6 +12,7 @@ import {
   UserLanguage,
   SentenceSubmission,
   SentenceVote,
+  TakeoutResponse
 } from 'common'
 import { Locale } from '../stores/locale'
 import { User } from '../stores/user'
@@ -322,7 +323,7 @@ export default class API {
     })
   }
 
-  fetchTakeoutLinks(id: number) {
+  fetchTakeoutLinks(id: number): Promise<TakeoutResponse> {
     return this.fetch(
       [API_PATH, 'user_client', 'takeout', id, 'links'].join('/'),
       {

@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "@aws-sdk/client-ses": "3.55.0",
+    "@google-cloud/storage": "^6.9.5",
     "@sentry/node": "6.19.7",
     "@sentry/tracing": "6.19.7",
+    "archiver": "^5.3.1",
     "aws-sdk": "2.1388.0",
     "body-parser": "1.19.2",
     "bull": "3.29.3",
@@ -37,7 +39,7 @@
     "nodemailer": "6.7.3",
     "passport": "0.6.0",
     "passport-auth0": "0.6.1",
-    "rate-limiter-flexible": "2.3.6",
+    "rate-limiter-flexible": "2.4.1",
     "redlock": "4.2.0",
     "request": "2.88.2",
     "request-promise-native": "1.0.9",
@@ -47,6 +49,7 @@
     "ts-node": "8.10.2"
   },
   "devDependencies": {
+    "@types/archiver": "5.3.1",
     "@types/bull": "3.15.9",
     "@types/commonmark": "0.27.5",
     "@types/compression": "1.7.2",
@@ -83,7 +86,7 @@
     "migrate:stage": "db-migrate --config src/lib/model/db/database.json --migrations-dir js/lib/model/db/migrations --env stage",
     "migrate:production": "db-migrate --config src/lib/model/db/database.json --migrations-dir js/lib/model/db/migrations --env production",
     "start": "tsc-watch --onSuccess \"yarn start:prod\"",
-    "start:prod": "cd .. && node server/js/main.js",
+    "start:prod": "cd .. && node --trace-warnings server/js/main.js",
     "test": "jest --forceExit --config=jest.config.js",
     "test:watch": "SERVER_CONFIG_PATH='../config.json' jest --watch --config=jest.config.js"
   }
