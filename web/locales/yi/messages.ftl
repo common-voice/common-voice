@@ -715,6 +715,7 @@ sc-submit-button =
 ## ADD LANGUAGE
 
 sc-add-lang-sec-button = לייג צו א שפרייך
+sc-add-err-unexpected = אומערווארטעטער ענטפער צוריקגעקומען פונעם סערווער
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
