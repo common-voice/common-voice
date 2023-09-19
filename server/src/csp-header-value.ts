@@ -17,6 +17,7 @@ const SOURCES = {
     'https://www.gstatic.com',
     'https://*.amazonaws.com',
     'https://*.amazon.com',
+    'https://*.googleapis.com',
     'https://gravatar.com',
     'https://*.mozilla.org',
     'https://*.allizom.org',
@@ -31,6 +32,7 @@ const SOURCES = {
     'blob:',
     'https://*.amazonaws.com',
     'https://*.amazon.com',
+    'https://*.googleapis.com',
   ],
   'script-src': [
     "'self'",
@@ -66,6 +68,7 @@ const SOURCES = {
     'https://pontoon.mozilla.org/graphql',
     'https://*.amazonaws.com',
     'https://*.amazon.com',
+    'https://*.googleapis.com',
     'https://www.gstatic.com',
     'https://www.google-analytics.com',
     'https://*.sentry.io',

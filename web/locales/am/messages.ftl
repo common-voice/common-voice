@@ -80,6 +80,7 @@ ga-IE = አይሪሽ
 gl = ጋሊስያን
 gn = ጓራኒ
 gom = ጎአን ኮንካኒ
+gu-IN = ጉጅራቲ
 ha = ሀውሳ
 he = እብራይስጥ
 hi = ሂንዲኛ
@@ -247,6 +248,7 @@ share-text = እውነተኛ ሰዎች እንዴት እንደሚናገሩ ማሽ
 link-copied = የአገናኝ አድራሻ ቅዳ
 back-top = ወደ ላይ ተመለስ
 logout = ውጣ
+donate = ይለግሱ
 
 ## Home Page
 
@@ -634,7 +636,6 @@ about-playbook-how-add-sentences = ዓረፍተ ነገሮችን እንዴት ማ
 about-playbook-how-add-sentences-content-1 = <strong>አረፍተ ነገር ሰብሳቢ</strong>የሕዝብ ጎራ አረፍተ ነገሮችን ለመሰብሰብ እና ለማረጋገጥ የሚሆን መሳሪያ ነው። <scAccountLink>መለያ መፍጠር ያስፈልግዎታል</scAccountLink>። ከዚያ ቋንቋዎን ወደ <strong>መገለጫዎ</strong> ያክሉ። ዓረፍተ ነገሮችን ማከል</strong>ወይም ከዚህ ቀደም የተጨመሩትን ዓረፍተ ነገሮች <strong>መገምገም</strong> ትችላለህ።
 about-playbook-how-add-sentences-content-2 = የጋራ ልሳን ውስጥ ለመካተት ዓረፍተ ነገሮች በሁለት ሰዎች መከለስ እና መቀበል አለባቸው። ለቋንቋዎ <languageGuidelinesLink>እዚህ</languageGuidelinesLink> መመሪያዎችን ይፍጠሩ። ዓረፍተ ነገሮች በ<licenseLink>ይፋዊ ጎራ</licenseLink> ውስጥ እና ከ15 ቃላት ያነሱ መሆን አለባቸው። የጽሁፍ ባለቤት <waiverLink>CC0 እንዲያደርግልን የመተው ሂደታችንን</waiverLink> ይጠይቁ እና በ commonvoice@mozilla.com ላይ ይላኩልን
 about-playbook-how-add-sentences-content-3 = ከዊኪፔዲያ አጫጭር ዓረፍተ ነገሮችን ለመጠቀም የ<scraperLink>አረፍተ ነገር ማውጫ</scraperLink>ን መጠቀም ይችላሉ።
-about-playbook-how-add-sentences-content-4 = የተረጋገጡ ዓረፍተ ነገሮች እሮብ ወደ ውጭ ይላካሉ እና ከሚቀጥለው መለቀቅ በኋላ ይገኛሉ።
 
 ## How to record quality
 

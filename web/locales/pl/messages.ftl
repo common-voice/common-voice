@@ -78,6 +78,7 @@ ga-IE = irlandzki
 gl = galicyjski
 gn = guarani
 gom = goańskie konkani
+gu-IN = gudźarati
 ha = hausa
 he = hebrajski
 hi = hindi
@@ -245,6 +246,7 @@ share-text = Pomóż nauczyć komputery, jak mówią prawdziwi ludzie — wspom�
 link-copied = Skopiowano odnośnik
 back-top = Powrót na górę
 logout = Wyloguj się
+donate = Przekaż datek
 
 ## Home Page
 

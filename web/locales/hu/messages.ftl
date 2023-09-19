@@ -80,6 +80,7 @@ ga-IE = Ír
 gl = Galícia
 gn = Guarani
 gom = Goan konkani
+gu-IN = Gudzsaráti
 ha = Hausza
 he = Héber
 hi = Hindi
@@ -247,6 +248,7 @@ share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az igazi embe
 link-copied = Hivatkozás másolva
 back-top = Vissza a tetejére
 logout = Kijelentkezés
+donate = Adományozás
 
 ## Home Page
 
@@ -620,7 +622,6 @@ about-playbook-how-add-sentences = Hogyan adhatok hozzá mondatokat?
 about-playbook-how-add-sentences-content-1 = A <strong>mondatgyűjtő</strong> egy eszköz, amely közkincsű mondatok gyűjtésére és ellenőrzésére szolgál. <scAccountLink>Létre kell hoznia egy fiókot</scAccountLink>. Majd adja hozzá a nyelvét a <strong>profiljában</strong>. <strong>Hozzáadhat</strong> mondatokat, vagy <strong>ellenőrizheti</strong> az előzőleg hozzáadottakat.
 about-playbook-how-add-sentences-content-2 = A mondatokat két embernek kell átnéznie és elfogadnia, hogy bekerüljenek a Common Voice-ba. <languageGuidelinesLink>Itt</languageGuidelinesLink> hozhat létre irányelveket az Ön nyelvéhez. A mondatoknak <licenseLink>közkincsnek</licenseLink>, és 15 szónál rövidebbnek kell lenniük. Megkérheti a szöveg tulajdonosát, hogy <waiverLink>CC0 alatt licencelje a lemondási folyamatunk használatával</waiverLink>, majd küldje el nekünk a commonvoice@mozilla.com címre.
 about-playbook-how-add-sentences-content-3 = Használhatja a <scraperLink>Mondatgyűjtőt</scraperLink>, hogy rövid mondatokat vegyen át a Wikipédiáról.
-about-playbook-how-add-sentences-content-4 = Az ellenőrzött mondatok szerdánként kerülnek exportálásra, és a következő kiadás után lesznek elérhetők.
 
 ## How to record quality
 
