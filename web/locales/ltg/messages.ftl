@@ -1098,7 +1098,7 @@ remove-info = Mes puorsavērsim jiusu pīprasejumu, lai nu datu kūpys nūjimtu 
 why-delete-recordings =
     Common Voice īrokstus lītoj akademiki, mozī uzjāmumi i bolsta atpazeišonys entuziasti, lai paleidzātu apvuiceit i atteisteit publiski daīmamūs resursus, par pīmāru, bolsa atpazeišonys modeļus.
     Voi jius varit mums paziņuot, deļkuo gribit, lai jiusu īroksti tyktu dzāsti?
-profile-form-delete = Dzēst profil
+profile-form-delete = Dzēst profilu
 
 ## Profile Download
 
