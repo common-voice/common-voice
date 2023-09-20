@@ -1027,7 +1027,7 @@ show-ranking = Ruodeit munu reitingu
 ## Custom Goals
 
 get-started-goals = Suocit ar mierkim
-create-custom-goal = Damārojit sovu mierki
+create-custom-goal = Nūsokit sovu mierki
 goal-type = Kaidu mierki gribit sataiseit?
 both-speak-and-listen = Obeji
 both-speak-and-listen-long = Obeji (runuošonys i klauseišonuos)
@@ -1041,7 +1041,7 @@ lose-goal-progress-warning = Lobojūt mierki, jius varit pagaisynuot asūšū pr
 want-to-continue = Voi gribit turpynuot?
 finish-editing = Voi pyrma dabeigt lobuošonu?
 lose-changes-warning = Ka izīsit tagad, jius pagaisynuosit izmainis
-build-custom-goal = Damārojit sev mierki
+build-custom-goal = Nūsokit sev mierki
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [zero] Paleidzit sasnēgt { $hours } stuņdis { $language } volūdā ar sovu mierki
