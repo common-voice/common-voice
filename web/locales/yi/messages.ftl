@@ -163,10 +163,22 @@ shortcut-skip = ס
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = ש
 shortcut-play-toggle-label = שפיל/שטעל אפ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = י
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = נ
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ר
 shortcut-record-toggle-label = רעקארדיר/שטעל אפ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = איבער-רעקארד דעם קליפ
@@ -297,6 +309,7 @@ about-speak-text = ביישטייערער רעקארדירן שטימע קליפ
 about-listen-queue = צוהערן-רייע
 about-listen = אויסהערן
 about-listen-text = באנוצער באשטעטיגן די אקוראטקייט פון די ביישטייערטע קליפס, זיכער צו מאכן אז די רעדנער ליינט די זאץ ריכטיג.
+about-is-it-valid-text = א שטימע קליפ ווערט געצייכנט אלס "ריכטיג" ווען א באנוצער גיבט עס א יא שטים.
 about-yes-votes = ≥ 2 יא שטימען
 about-yes-votes-text = צו קענען אריינגיין אין די קאמאן וואיס דאטא סעט, א שטימע קליפ דארף ווערן באשטעטיגט דורך צוויי באזונדערע באנוצער.
 about-no-votes = ≥ 2 ניין שטימען
