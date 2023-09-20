@@ -258,6 +258,8 @@ help-variants = דארפט איר הילף מיט ווערסיעס?
 ## Profile - Email
 
 browse-file-title = לאדנט ארויף א בילד פייל
+connect-gravatar = פארבינד מיט Gravatar
+gravatar_not_found = מיר האבן נישט געפינען קיין gravatar פאר אייער אימעיל אדרעס
 file_too_large = די אויסגעוועלטע פייל איז צו גרויס
 avatar-uploaded = אוועטער ארויפגעלאדנט
 max-file-size = { $kb } ק"ב מערסטנס
