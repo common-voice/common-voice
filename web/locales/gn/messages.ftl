@@ -1610,6 +1610,7 @@ varying-pronunciations-explanation-2 = Ambueháicha, eguerovia mba’éramo pe m
 varying-pronunciations-example = Pe tape nahesakãporãi.
 varying-pronunciations-tip-1 = [Pe inglés Canadá pegua ikatu "route" ombopu "rowt"]-icha
 varying-pronunciations-tip-2 = [Pe inglés británico ojapokuaa "root"]
+misreadings-explanation-1 = Emoñe’ẽmba kuatiaroguépe oguapyhaichate ñe’ẽnguéra iporãiterei. Ehendúvo, ehecha nde ayvu ñongatupyre ojokupytýpa jehaipyre rehe; Emboyke oĩvaíramo, embojovake térã noĩmbáiramo ñe’ẽnguéra.
 misreadings-explanation-2 = Jejavy oikovéva apytépe oike:
 misreadings-explanation-3 = Oĩva’erã 'A' térã 'The' oñepyrũvo ñeñongatu.
 misreadings-explanation-4 = Ndaipóri 's' ñe’ẽ pahápe.
