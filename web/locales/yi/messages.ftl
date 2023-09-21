@@ -77,7 +77,7 @@ datasets = דאטא סעטס
 languages = שפרייכן
 about = איבער אונז
 partner = שותף
-profile = פראפיל
+profile = פראפייל
 help = הילף
 contact = קאנטאקט
 privacy = פריוואטקייט
@@ -236,16 +236,16 @@ male = מאן
 female = פרוי
 # Gender
 other = אנדערע
-why-profile-title = פארוואס א פראפיל?
+why-profile-title = פארוואס א פראפייל?
 dashboard = איבערזיכט
-build-profile = בוי א פראפיל
+build-profile = בוי א פראפייל
 avatar = אוועטער
 goals = צילן
 settings = אנשטעלונגען
-edit-profile = פארעכט פראפיל
+edit-profile = פארעכט פראפייל
 profile-close = פארמאך
-profile-explanation = האלט חשבון פון אייער פארשריט מיט א פראפיל און העלפט אונזער שטימע דאטא זיין מער אקוראט.
-thanks-for-account = א דאנק פארן באשטעטיגן אייער אקאונט, יעצט לאמיר בויען אייער פראפיל.
+profile-explanation = פאלגט נאך אייער פארשריט מיט א פראפייל און העלפט אונזער שטימע דאטא זיין מער אקוראט.
+thanks-for-account = א דאנק פארן באשטעטיגן אייער אקאונט, יעצט לאמיר בויען אייער פראפייל.
 why-demographic = פארוואס מאכט דאס אויס?
 accept-privacy = איך בין אין ארדענונג מיט אייך צו האנדלען די אינפארמאציע אזויווי ערקלערט אין מאזילע'ס <privacyLink>פריוואטקייט פארשריפטן</privacyLink>
 accept-privacy-title = פריוואטקייט פארשריפטן
@@ -580,6 +580,7 @@ speak-empty-state-cta = ביישטייערט זאצן
 record-button-label = רעקארדירט אייער שטימע
 share-title-new = <bold>העלפט אונז</bold> טרעפן מער שטימעס
 keep-track-profile = פאלגט נאך אייער פארשריט מיט א פראפייל
+target-segment-add-voice = לייגט צו אייער שטימע
 target-segment-learn-more = לערנט מער
 
 ## Contribution Nav Items
@@ -680,11 +681,11 @@ share-goal = טיילט מיט מיין ציל
 
 keep = האלט
 remove = נעם אראפ
-profile-form-delete = מען אויס פראפיל
+profile-form-delete = אויסמעקן פראפייל
 
 ## Profile Download
 
-download-profile-title = פראפיל
+download-profile-title = פראפייל
 download-recordings-title = רעקארדירונגען
 download-size = מאס
 download-selected = אויסגעוועלטע
@@ -741,7 +742,7 @@ sc-header-add = לייג צו
 sc-header-review = קוקט איבער
 sc-header-rejected = צוריקגעוויזענע זאצן
 sc-header-my = מיינע זאצן
-sc-header-profile = פראפיל
+sc-header-profile = פראפייל
 sc-footer-discourse = דיסקארס
 sc-footer-translate = טייטשט איבער דעם בלאט
 sc-footer-privacy = פריוואטקייט
