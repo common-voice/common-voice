@@ -392,6 +392,7 @@ about-playbook-how-record-content-4 = מאכט זיכער אז די פלאטפר
 about-playbook-how-grow-language = וויאזוי קענען מיר אפעקטיוו פארגרעסערן א שפרייך אויף קאמאן וואויס?
 about-playbook-how-grow-language-content-2 = אווענטן
 about-playbook-how-grow-language-content-4 = סאציאלע מידיע
+about-playbook-how-grow-language-content-8 = <strong>זיי שעפעריש!</strong> אייער שפרייך געמיינדע וועט זיין אייגנארטיג, און דאס איז בלויז עטליכע וועגן אנצופאנגען.
 
 ## How to validate
 
@@ -401,10 +402,13 @@ about-playbook-how-validate-content-2 = <strong>ווייז נישט צוריק �
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = וויאזוי קען איך צוקומען צו און נוצן די דאטא סעט?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = וויאזוי ווערן די פראיעקט באשלוסן געמאכט?
 about-playbook-how-project-governance-content-3 = פריוואטקייט, זיכערקייט און דורכזיכטיגקייט.
+about-playbook-how-project-governance-content-4 = געמיינדע אנטייל נעמען און באשלוס פאסן.
 about-playbook-how-project-governance-content-5 = ווערד און אנערקענונג.
 
 ## Glossary
