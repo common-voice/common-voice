@@ -77,6 +77,7 @@ ga-IE = Iršćina
 gl = Galicišćina
 gn = Guaranšćina, Guarani
 gom = Goaska konkanišćina
+gu-IN = Gudžaratšćina
 ha = Hausa
 he = Hebrejšćina
 hi = Hindišćina
