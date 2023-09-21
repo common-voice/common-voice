@@ -599,6 +599,7 @@ report-different-language = אנדערע שפרייך
 report-different-language-detail = עס איז געשריבן אין אן אנדערע שפרייך פון וואס איך רעדט.
 report-difficult-pronounce = שווער צו ארויסזאגן
 report-difficult-pronounce-detail = עס פארמאגט ווערטער אדער פארזן וואס זענען שווער צו ליינען אדער ארויסזאגן.
+report-offensive-speech = אפענסיווע רעדע
 report-offensive-speech-detail = דער קליפ האט אומרעספעקטירטע אדער אומאיידעלע שפרייך.
 report-other-comment =
     .placeholder = קאמאנטירט
