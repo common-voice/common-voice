@@ -378,6 +378,7 @@ about-playbook-how-localize-content-4 = די זייטל איז גרייט צו �
 ## How to add sentences
 
 about-playbook-how-add-sentences = וויאזוי לייג איך צו זאצן?
+about-playbook-how-add-sentences-content-1 = איר קענט צולייגן זאצן אויף די <writePageLink>שרייב בלאט</writePageLink> אדער איבערקוקן זאצן אויף די <reviewPageLink>איבערקוקן בלאט</reviewPageLink>.
 
 ## How to record quality
 
