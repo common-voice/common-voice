@@ -7,7 +7,7 @@ return-to-cv = גיי צוריק צו קאמאן וואויס
 email-input =
     .label = אימעיל
 submit-form-action = גיב אריין
-loading = לאדענט זיך...
+loading = לאדנט זיך...
 email-opt-in-info = איך וויל באקומען אימעילס א שטייגער ווי ציל דערמאנונגען, מיין פארשריט אנטוויקלונגען און נייעס באריכטן איבער קאמאן וואויס.
 email-opt-in-info-title = שליסט אייך אן אין די קאמאן וואויס מעיל ליסטע
 email-opt-in-info-sub-with-challenge = באקומט אימעילס א שטייגער ווי פארמעסטונגען און ציל דערמאנונגען, פארשריט אנטוויקלונגען, און נייעס באריכטן איבער קאמאן וואויס.
@@ -451,16 +451,21 @@ review-delete-recordings = מעקט אויס מיין רעקארדירונגען
 ## Datasets Page
 
 language = שפרייך
+download-dataset-header = לאדנט אראפ די דאטא סעט
 # File size in gigabytes
 size = מאס
+validated-hr-total = סך הכול באשעטיגטע שטונדן
 number-of-voices = צאל שטימעס
 splits = צוטיילונגען
+email-to-download = לייגט אריין אייער אימעיל צו אראפ לאדענען
 size-gigabyte = ג"ב
 size-megabyte = מ"ב
 confirm-no-identify = <b>דו שטימסט צו</b> נישט צו פראבירן צו געוואר ווערן די אידענטיטעט פון די רעדנערס אין די קאמאן וואויס דאטא סעט
+download-language = לאדנט אראפ { $language }
 validated-hours = באשעטיגטע שטונדן
 recorded-hours = רעקארדירטע שטונדן
 whats-inside = וואס געפינט זיך אינעם קאמאן וואויס דאטא סעט?
+other-datasets = אנדערע שטימע דאטא סעטס
 feedback-q = האט איר באמערקונגען?
 your-feedback = האט איר געדאנקען וויאזוי מיר קענען מאכן די קאמאן וואויס דאטא סעט בעסער? לאזט אונז וואוסן אויף דיסקארס
 go-discourse = גיי צו דיסקארס
@@ -474,6 +479,7 @@ dataset-version = ווערסיע
 ## Download Modal
 
 download-title = אייער אראפ לאדענען האט זיך אנגעהויבן.
+download-helpus = העלפט אונז בויען א געמיינדע ארום שטימע טעכנעלאגיע, בלייבט אין פארבינדונג דורך אימעיל.
 download-form-email =
     .label = לייגט אריין אייער אימעיל
     .value = יישר כח, מיר וועלן זיין אין פארבינדונג
@@ -484,6 +490,8 @@ download-no = ניין, א דאנק
 contact-title = קאנטאקט פארום
 contact-form-name =
     .label = נאמען
+contact-form-message =
+    .label = מעלדונג
 contact-required = פארלאנגט
 
 ## Request Language Modal
@@ -505,6 +513,8 @@ request-language-form-info-explanation =
     לייגט אריין דאס מערסטע אינפארמאציע וואס איר קענט איבער דעם שפרייך. דאס
     קען ארייננעמען:
 request-language-form-info-explanation-list-1 = נעמען פון אייער שפרייך
+request-language-google-recaptcha-required = reCAPTCHA איז פארלאנגט אויב איר ווילט ווייטער גיין
+request-language-google-recaptcha-error = עפעס איז געגאנגען שלעכט מיט די reCAPTCHA. ביטע פראבירט נאכאמאל.
 
 ## Languages Overview
 
@@ -512,11 +522,14 @@ language-section-in-progress = מען ארבעט דערויף
 languages-show-more = זעט מער
 languages-show-less = זעט וויינעגער
 language-meter-in-progress = פארשריט
+language-total-progress = סך הכול
 language-search-input =
     .placeholder = זוכט
 language-speakers = דעדנערס
+localized = לאקאליזירט
 sentences = זאצן
 language-validation-hours = שטונדן
+language-validation-progress = באשטעטיגונג פארשריט
 
 ## Contribution
 
@@ -526,6 +539,7 @@ listen = הער צו
 write = שרייבט
 review = קוקט איבער
 skip = גייט אריבער
+shortcuts = פארקערצערונגען
 clips-with-count-pluralized =
     { $count ->
         [one] קליפ
@@ -550,16 +564,22 @@ record-three-more-instruction = נאך דריי צו גיין!
 record-again-instruction = געוואלדיג!<recordIcon></recordIcon> רעקארדירט אייער קומענדיגע קליפ
 record-again-instruction2 = האלט אן, רעקארדירט נאכאמאל<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> דאס לעצטע!
+review-instruction = קוקט איבער & און רעקארדירט איבער אויב ס'פעלט זיך אויס
+record-submit-tooltip = { $actionType } געבט אריין ווען גרייט
 clips-uploaded = קליפס ארויפגעלאדנט
 record-abort-text = אוועק גיין יעצט מיינט אז איר וועט פארלירן אייער פארשריט
 record-abort-submit = געבט אריין קליפס
 record-abort-continue = ענדיג רעקארדירן
+record-abort-delete = ארויסגיין & אויסמעקן די קליפס
+listen-instruction = { $actionType }<playIcon></playIcon> האבן זיי אקוראט געזאגט דעם זאץ?
+listen-3rd-time-instruction = 2 ערלעדיגט, האלט אן!
 listen-last-time-instruction = <playIcon></playIcon>דאס לעצטע!
 listen-empty-state = עס קען זיין אז מיר זענען אויסגעלאפן פון קליפס - פרישט איבער דעם בלאט, אדער פראבירט נאכאמאל שפעטער.
 speak-empty-state = מיר זענען אויסגעלאפן פון זאצן צו רעקארדירן אין דעם שפרייך...
 speak-empty-state-cta = ביישטייערט זאצן
 record-button-label = רעקארדירט אייער שטימע
 share-title-new = <bold>העלפט אונז</bold> טרעפן מער שטימעס
+keep-track-profile = פאלגט נאך אייער פארשריט מיט א פראפייל
 target-segment-learn-more = לערנט מער
 
 ## Contribution Nav Items
