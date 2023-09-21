@@ -410,15 +410,20 @@ about-playbook-how-project-governance = וויאזוי ווערן די פראי�
 about-playbook-how-project-governance-content-3 = פריוואטקייט, זיכערקייט און דורכזיכטיגקייט.
 about-playbook-how-project-governance-content-4 = געמיינדע אנטייל נעמען און באשלוס פאסן.
 about-playbook-how-project-governance-content-5 = ווערד און אנערקענונג.
+about-playbook-how-project-governance-content-6 = קעגנזייטיגע פאראנטווארטליכקייט.
 
 ## Glossary
 
+glossary = ווערטער בוך
+localization = לאקאליזירונג
 sentence-collection = זאצן זאמלונג
 hours-recorded-explanation = די צאל פון שטימע רעקארדירונג שטונדן מיר האבן געזאמלט ביז אהער.
+sst = רעדן-צו-ווערטער
 
 ## Error pages
 
 error-title-404 = מיר האבן נישט געקענט טרעפן דעם בלאט פאר אייך
+error-title-503 = אונזער זייטל איז אומערווארטעט נישט צוטריטליך
 
 ## Data
 
