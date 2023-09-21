@@ -389,6 +389,8 @@ about-playbook-how-record-content-4 = מאכט זיכער אז די פלאטפר
 
 ## How to grow language
 
+about-playbook-how-grow-language = וויאזוי קענען מיר אפעקטיוו פארגרעסערן א שפרייך אויף קאמאן וואויס?
+about-playbook-how-grow-language-content-2 = אווענטן
 about-playbook-how-grow-language-content-4 = סאציאלע מידיע
 
 ## How to validate
