@@ -10,6 +10,7 @@ describe('Bulk Submission Processor', () => {
       (a: string) => (data: Buffer) => TE.right(constVoid())
     )
     const doesExistMock = jest.fn(() => TE.right(false))
+    const makePublic = jest.fn(() => TE.right(constVoid()))
     const getDownloadUrlMock = jest.fn(
       () => 'http://some.domain.com/fileurl.tsv'
     )
@@ -24,7 +25,7 @@ describe('Bulk Submission Processor', () => {
       },
     } as Job<BulkSubmissionUploadJob>
 
-    const sut = processBulkSubmissionUpload(uploadMock)(doesExistMock)(
+    const sut = processBulkSubmissionUpload(uploadMock)(doesExistMock)(makePublic)(
       getDownloadUrlMock
     )(sendBulkSubmissionEmailMock)
 
@@ -41,6 +42,7 @@ describe('Bulk Submission Processor', () => {
       (a: string) => (data: Buffer) => TE.of(constVoid())
     )
     const doesExistMock = jest.fn(() => TE.right(true))
+    const makePublic = jest.fn(() => TE.right(constVoid()))
     const getDownloadUrlMock = jest.fn(
       () => 'http://some.domain.com/fileurl.tsv'
     )
@@ -55,7 +57,7 @@ describe('Bulk Submission Processor', () => {
       },
     } as Job<BulkSubmissionUploadJob>
 
-    const sut = processBulkSubmissionUpload(uploadMock)(doesExistMock)(
+    const sut = processBulkSubmissionUpload(uploadMock)(doesExistMock)(makePublic)(
       getDownloadUrlMock
     )(sendBulkSubmissionEmailMock)
 
@@ -72,6 +74,7 @@ describe('Bulk Submission Processor', () => {
       (a: string) => (data: Buffer) => TE.left(Error('oops'))
     )
     const doesExistMock = jest.fn(() => TE.right(false))
+    const makePublic = jest.fn(() => TE.right(constVoid()))
     const getDownloadUrlMock = jest.fn(
       () => 'http://some.domain.com/fileurl.tsv'
     )
@@ -86,7 +89,7 @@ describe('Bulk Submission Processor', () => {
       },
     } as Job<BulkSubmissionUploadJob>
 
-    const sut = processBulkSubmissionUpload(uploadMock)(doesExistMock)(
+    const sut = processBulkSubmissionUpload(uploadMock)(doesExistMock)(makePublic)(
       getDownloadUrlMock
     )(sendBulkSubmissionEmailMock)
 
