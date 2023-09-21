@@ -424,18 +424,25 @@ sst = רעדן-צו-ווערטער
 
 error-title-404 = מיר האבן נישט געקענט טרעפן דעם בלאט פאר אייך
 error-title-503 = אונזער זייטל איז אומערווארטעט נישט צוטריטליך
+error-code = פעלער { $code }
 
 ## Data
 
+data-download-button = לאדנט אראפ קאמאן וואויס דאטא
 data-download-yes = יא
 data-download-deny = ניין
+data-get-started = <speechBlogLink>הויבט אן מיט רעדן דערקענונג</speechBlogLink>
+data-other-title = אנדערע שטימע דאטא סעטס…
 data-other-goto = גיי צו { $name }
+data-other-download = לאדנט אראפ דאטא
 release-version = ווערסיע
 dataset-date = דאטום
 license-mixed = געמישט
 terms-agree = איך בין איינשטימיג
 terms-disagree = איך בין נישט איינשטימיג
+review-aborted = ארויף לאדענען אפגעשטעלט. ווילט איר אויסמעקן אייער ראקארדירונגען?
 review-submit-title = גייט איבער & גיבט אריין
+review-submit-msg = א דאנק פארן רעקארדירן!<lineBreak></lineBreak>יעצט קוקט איבער און געבט אריין אייער קליפ.
 review-recording = איבערגיין
 review-rerecord = איבער-רעקארדיר
 review-keep-recordings = האלט די רעקארדירונגען
