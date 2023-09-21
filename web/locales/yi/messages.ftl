@@ -300,6 +300,7 @@ faq-why-not-ask-read-q = פארוואס בעט איר נישט מענטשן צו
 faq-why-account-q = פארוואס זאל איך זיך ארויף שרייבן פאר א קאנטע?
 faq-is-account-public-q = איז מיין קאנטע אינפארמאציע עפענטליך?
 faq-how-privacy-q = וויאזוי טוט איר פארזיכערן די אנאנימיטעט און פריוואטקייט פון די מענטשן וואס ביישטייערן זייער שטימע?
+faq-what-determine-identity-q = וואס מיינט דאס איז איך טאר נישט “נאכגיין די אידענטיטעט” פון די רעדנערדס אין די קאמאן וואיס דאטא סעט?
 faq-what-is-cv = וואס איז דאס קאמאן וואויס?
 faq-using-cv = נוצן קאמאן וואויס
 faq-description = קאמאן וואויס איז א טייל פון מאזילע'ס איניציאטיוו צו העלפען לערנען מאשינען ווי אזוי עכטע מענטשן רעדן.
@@ -315,6 +316,7 @@ how-does-it-work-title-v2 = וויאזוי ארבייט קאמאן וואויס?
 
 about-language-req-subtitle = איינער בעט פאר א שפרייך צו ווערן צוגעלייגט.
 about-localization-title = וועב זייטל לאקאליזירונג
+about-localization-subtitle = די וועבזייטל טעקסט ווערט איבערגעטייטשט צו דעם שפרייך.
 about-sentence-collection-title = זאצן זאמלונג
 about-sentence-collection-subtitle = זאצן ווערן געזאמלט פאר מענטשן צו פארליינען הויעך.
 about-new-lang-subtitle = מיר געבן ארויס דער קאמאן וואויס זייטל אין דעם שפרייך.
@@ -339,6 +341,7 @@ about-stay-in-touch = וויאזוי בלייב איך אין פארבינדונ
 about-stay-in-touch-button = שרייבט אייך אויף
 about-nav-why-common-voice = פארוואס?
 about-nav-how-it-works = וויאזוי?
+about-nav-partners = שותפים
 about-nav-get-involved = ווער פארמישט
 about-nav-how-it-works-2 = וויאזוי ארבייט קאמאן וואויס?
 about-nav-playbook = לערנט וויאזוי צו אנטייל נעמען
@@ -368,6 +371,9 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 ## How does localization work
 
+about-playbook-how-localize = וויאזוי ארבייט די וועבזייטל לאקאליזירונג?
+about-playbook-how-localize-content-1 = דאס איבערטייטשן די קאמאן וואויס זייטל געשעט אויף <strong>פענטאן</strong>.
+about-playbook-how-localize-content-4 = די זייטל איז גרייט צו ווערן ארויסגעגיבן ווען עס דערגרייכט 75% פון זיין געענדיגט.
 
 ## How to add sentences
 
