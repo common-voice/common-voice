@@ -8,6 +8,7 @@ import { pipe, constVoid } from 'fp-ts/lib/function'
 import {
   doesFileExistInBucket,
   getPublicUrlFromBucket,
+  makePublicInBucket,
   uploadToBucket,
 } from '../../storage/storage'
 import { sendBulkSubmissionNotificationEmail } from '../../email/email'
@@ -26,6 +27,7 @@ export const bulkSubmissionImportProcessor = async (
 export const processBulkSubmissionUpload =
   (upload: (path: string) => (data: Buffer) => TE.TaskEither<Error, void>) =>
   (doesExist: (path: string) => TE.TaskEither<Error, boolean>) =>
+  (makePublic: (path: string) => TE.TaskEither<Error, void>) =>
   (getDownloadUrl: (path: string) => string) =>
   (
     sendBulkSubmissionEmail: (
@@ -40,7 +42,16 @@ export const processBulkSubmissionUpload =
       TE.bind('uploadBulkSubmission', ({ doesExist }) => {
         return doesExist
           ? TE.right(constVoid())
-          : pipe(Buffer.from(job.data.data, 'hex'), upload(job.data.filepath))
+          : pipe(
+              TE.sequenceSeqArray([
+                pipe(
+                  Buffer.from(job.data.data, 'hex'),
+                  upload(job.data.filepath)
+                ),
+                makePublic(job.data.filepath),
+              ]),
+              TE.map(() => constVoid())
+            )
       }),
       TE.let('downloadUrl', () => getDownloadUrl(job.data.filepath)),
       TE.bind('result', ({ downloadUrl }) =>
@@ -58,8 +69,10 @@ export const processBulkSubmissionUpload =
     )()
   }
 
-export const bulkSubmissionUploadProcessor = processBulkSubmissionUpload
-  (uploadToBucket(BULK_SUBMISSION_BUCKET))
-  (doesFileExistInBucket(BULK_SUBMISSION_BUCKET))
-  (getPublicUrlFromBucket(BULK_SUBMISSION_BUCKET))
-  (sendBulkSubmissionNotificationEmail)
+export const bulkSubmissionUploadProcessor = processBulkSubmissionUpload(
+  uploadToBucket(BULK_SUBMISSION_BUCKET)
+)(doesFileExistInBucket(BULK_SUBMISSION_BUCKET))(
+  makePublicInBucket(BULK_SUBMISSION_BUCKET)
+)(getPublicUrlFromBucket(BULK_SUBMISSION_BUCKET))(
+  sendBulkSubmissionNotificationEmail
+)
