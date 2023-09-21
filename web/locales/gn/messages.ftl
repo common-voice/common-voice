@@ -1630,6 +1630,7 @@ background-noise-example-3 = Dinosaurio tuicháva [hu’u] Triásico pegua.
 background-noise-example-4 = [Tyapu] Umi dinosaurio tuicháva Triásico pegua.
 background-noise-tip-1 = [Oñemondoho tyapu tapykuegua rupi]
 background-noise-tip-2 = [Ndaikatúi oñehendu moñe’ẽrã vore]
+background-voices-explanation = Hyapu’imíramo huguave gotyo oĩporãvéta, hákatu ehendúramo ambue tapicha ñe’ẽ, pe tembiapo ejapóva emboyke. Hetajey, kóva oiko ipúramo ta’ãngambyry térã ambueve oñomongetáramo upe jerére.
 background-voices-example-1 = Umi dinosaurio tuicháva Triásico pegua. [oñemoñe’ẽ ayvúva]
 background-voices-tip-1 = ¿Rejútapa? [ohenóiva ambue]
 volume-explanation = Ojuavýta katuetei hetakuépe umi moñe’ẽhára. Emboyke hetaiterei oĩjavénte pe ñeñongatu ikatu rehe oso oso térã (hetajey oikokuaa) mbegueterei ipúramo ñe’ẽayvu ha ñoñehenduporãi pe ojehechaháicha moñe’ẽrã jehaipyrépe.
