@@ -650,6 +650,7 @@ speak-empty-state-cta = ביישטייערט זאצן
 record-button-label = רעקארדירט אייער שטימע
 share-title-new = <bold>העלפט אונז</bold> טרעפן מער שטימעס
 keep-track-profile = פאלגט נאך אייער פארשריט מיט א פראפייל
+target-segment-first-banner = העלפט שאפן קאמאן וואויס'ס ערשטע ציל אפשניט אין { $locale }
 target-segment-add-voice = לייגט צו אייער שטימע
 target-segment-learn-more = לערנט מער
 
