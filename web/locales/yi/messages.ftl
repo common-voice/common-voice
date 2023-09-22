@@ -647,9 +647,14 @@ listen-last-time-instruction = <playIcon></playIcon>דאס לעצטע!
 listen-empty-state = עס קען זיין אז מיר זענען אויסגעלאפן פון קליפס - פרישט איבער דעם בלאט, אדער פראבירט נאכאמאל שפעטער.
 speak-empty-state = מיר זענען אויסגעלאפן פון זאצן צו רעקארדירן אין דעם שפרייך...
 speak-empty-state-cta = ביישטייערט זאצן
+speak-loading-error =
+    מיר קענען נישט קריגן קיין זאצן פאר אייך צו רעדן.
+    ביטע פראבירט נאכאמאל שפעטער.
 record-button-label = רעקארדירט אייער שטימע
 share-title-new = <bold>העלפט אונז</bold> טרעפן מער שטימעס
 keep-track-profile = פאלגט נאך אייער פארשריט מיט א פראפייל
+target-segment-first-card = איר ביישטייערט צו אונזער ערשטע ציל אפשניט
+target-segment-generic-card = איר ביישטייערט צו א ציל אפשניט
 target-segment-first-banner = העלפט שאפן קאמאן וואויס'ס ערשטע ציל אפשניט אין { $locale }
 target-segment-add-voice = לייגט צו אייער שטימע
 target-segment-learn-more = לערנט מער
@@ -663,8 +668,10 @@ contribute-sentence-collection-nav-header = זאצן זאמלונג
 
 report = באריכט
 report-title = גיבט אריין א באריכט
+report-ask = וואסערע פראבלעמען האט איר מיט דעם זאץ?
 report-offensive-language = אומאיידעלע שפרייך
 report-offensive-language-detail = דער זאץ האט אומרעספעקטירטע אדער אומאיידעלע שפרייך.
+report-grammar-or-spelling = גראמאטישער\ אויסלייג פעלער
 report-grammar-or-spelling-detail = דער זאץ האט א גראמאטישער אדער אויסלייג גרייז.
 report-different-language = אנדערע שפרייך
 report-different-language-detail = עס איז געשריבן אין אן אנדערע שפרייך פון וואס איך רעדט.
