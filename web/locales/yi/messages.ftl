@@ -685,6 +685,7 @@ continue = גיי ווייטער
 
 ## Goals
 
+streaks = שטריכן
 days =
     { $count ->
         [one] טאג
@@ -708,6 +709,10 @@ toward-next-goal = צו דעם קומענדיגער ציל
 goal-reached = ציל דערגרייכט
 clips-you-recorded = קליפס וואס איר האט רעקארדירט
 clips-you-validated = קליפס וואס איר האט באשטעטיגט
+todays-recorded-progress = היינטיגע קאמאן וואויס פארשריט פון קליפס רעקארדירט
+todays-validated-progress = היינטיגע קאמאן וואויס פארשריט פון קליפס באשטעטיגט
+stats = סטאטיסטיקס
+awards = באלוינונגען
 you = דו
 everyone = איעדער
 contribution-activity = ביישטייערונג אקטיוויטעטן
@@ -718,6 +723,8 @@ show-ranking = ווייז מיין ראנג
 
 ## Custom Goals
 
+get-started-goals = פאנגט אן מיט צילן
+create-custom-goal = שאף אן אייגענעם ציל
 goal-type = וואסערע סארט ציל ווילט איר בויען?
 both-speak-and-listen = ביידע
 both-speak-and-listen-long = ביידע (דערן און צוהערן)
@@ -729,6 +736,7 @@ difficult-difficulty = שווער
 lose-goal-progress-warning = ביים טוישן אייער ציל, קענט איר פארלירן אייער עקזיסטירענדע פארשריט.
 want-to-continue = ווילט איר גיין ווייטער?
 lose-changes-warning = יעצט אוועקגיין מיינט אז איר וועט פארלירן אייערע טוישינגען
+build-custom-goal = בוי אויף אן אייגענעם ציל
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] העלפט דערגרייכן { $hours } שטונדע אין { $language } מיט א פערזענליכע ציל
@@ -751,7 +759,11 @@ n-clips-pluralized =
         [one] קליפ
        *[other] קליפס
     }
+help-share-goal = טיילט מיט אייער ציל אונז צו העלפן טרעפן מער שטימעס
+confirm-goal = באשטעטיג דעם ציל
 goal-interval-weekly = וועכנטליך
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = טיילט מיט אייער { $count } טעגליכע קליפ ציל פאר { $type }
 weekly-goal-created = אייער וועכנטליכע ציל איז געווארן אוועקגעשטעלט
 daily-goal-created = אייער טעגליכע ציל איז געווארן אוועקגעשטעלט
 share-goal = טיילט מיט מיין ציל
