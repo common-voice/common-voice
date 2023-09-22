@@ -1132,8 +1132,15 @@ demo-dashboard-card-header = Персоналон фæйнæджытæ уын б
 ## Validation criteria
 
 contribution-criteria-nav = Критерийтæ
+contribution-criteria-link = Уагæвæрд базон
 contribution-criteria-page-title = Архайды критеритæ
 contribution-for-example = зæгъæм
+contribution-misreadings-description-extended-list-5 = Иу дзырд кӕсгӕйӕ цалдӕр фӕлварӕны.
+contribution-misreadings-example-1-title = Триасы уæйыг динозавртæ.
+contribution-misreadings-example-2-title = Триасы уæйыг динозавр.
+contribution-misreadings-example-2-explanation = [Ӕвӕццӕгӕн «динозавртӕ»]
+contribution-varying-pronunciations-title = Алыхуызон дзурыны ахаст
+contribution-background-noise-title = Фоны хъӕлӕба
 contribution-background-voices-title = Æндæр хъæлæстæ уыцы-иу фысты
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
