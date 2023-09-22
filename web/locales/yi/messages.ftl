@@ -182,6 +182,7 @@ listen-paragraph = באשטעטיגן ביישטייערטע קליפס איז �
 listen-goal-text = קליפס באשטעטיגט
 hours-recorded = שטונדן רעקארדירט
 hours-validated = שטונדן באשטעטיגט
+voices-online = שטימעס יעצט אנליין
 todays-progress = היינטיגע פארשריט
 help-reach-goal = העלפט אונז אנקומען צו { $goal }
 read-terms-q = האט איר געליינט אונזערע טערמינען?
@@ -226,7 +227,7 @@ username-email-not-demographic = אייער באנוצער נאמען און א�
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
-shortcut-skip = ס
+shortcut-skip = ה
 
 ## Listen Shortcuts
 
@@ -253,7 +254,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = ווארף אוועק די אנגייענדע רעקארדירונג
 shortcut-submit = גיי צוריק
 shortcut-submit-label = געבט אריין קליפס
-request-language-text = איר זעט נאכנישט אייער שפרייך אויף קאמאן וואויס?
+request-language-text = זעט איר נאכנישט אייער שפרייך אויף קאמאן וואויס?
 request-language-button = פארלאנגט א שפרייך
 
 ## ProjectStatus
@@ -290,11 +291,15 @@ profile-form-custom-accent-help-text =
 profile-form-custom-accent-placeholder-2 = פאנגט אן צו טייפן צו באשרייבן אייער אקצענט
 profile-form-age =
     .label = עלטער
+profile-form-gender-2 =
+    .label = געשלעכט
 hidden = באהאלטן
 visible = זעהבאר
 native-language =
     .label = געבוירערענער שפרייך
 profile-form-add-accent = לייג צו אן אייגענעם אקצענט "{ $inputValue }"
+profile-form-submit-save = היט אפ
+profile-form-submit-saved = אפגעהיטן
 male = מאן
 female = פרוי
 # Gender
@@ -317,6 +322,7 @@ login-identity = אריינשרייבונג אידענטיטעט
 login = ארייבשרייבונג
 login-signup = שרייבט אייך אריין\שרייבט אייך אויף
 edit = פאררעכט
+download-profile = לאדנט אראפ מיין דאטא
 contribution-experience = ביישטייערונג ערפארונג
 skip-submission-note = נאטיץ: איר וועט נאכאלץ דארפן אויסוועלן צווישן דערן אדער אויסהערן צו טוישן די ביישטייערן טיפ.
 off = פארלאשן
