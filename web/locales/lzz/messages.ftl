@@ -117,6 +117,7 @@ hidden = T'k'obaşe
 
 ## FAQ
 
+faq-where-src-from-2-q = Monduni ç'ara solen mulun?
 
 ## ABOUT US
 
