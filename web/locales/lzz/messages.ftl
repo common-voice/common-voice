@@ -42,12 +42,18 @@ ko = K'orenuri
 ky = K'irgizuri
 lg = Luganduri
 ms = Malayuri
+yi = Çifut'uri
+zu = Zuluri
+zza = Zazanuri
 
 # [/]
 
 
 ## Layout
 
+speak = İsinapi
+speak-now = Hatzi - hus - huy isinapi
+datasets = Datamarç'a
 share-title = Nena-nişis memxacu şeni çkvape odzirus memişvelit.
 link-copied = Linki k'opya dixenu.
 back-top = Tişa Kexti
