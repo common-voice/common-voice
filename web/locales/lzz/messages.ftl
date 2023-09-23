@@ -98,6 +98,15 @@ profile-form-additional-language =
     .label = Majura Nena
 profile-form-language =
     .label = Nena
+profile-form-variant =
+    .label = { $language }şi nam varianti isinapam?
+profile-form-accent =
+    .label = Aksani
+profile-form-age =
+    .label = Tzana
+profile-form-gender-2 =
+    .label = Cinsiyet'i
+hidden = T'k'obaşe
 
 ## Profile - Email
 
