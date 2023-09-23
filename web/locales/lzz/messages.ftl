@@ -44,9 +44,13 @@ ko = K'orenuri
 
 ## Layout
 
+share-title = Nena-nişis memxacu şeni çkvape odzirus memişvelit.
+logout = Kogamaxtit
 
 ## Home Page
 
+home-title = Comman Voice, mtini k'oçepeşi osinapu makinapes doguru şeni na geiç'k'u/ ciç'u Mozillaşi insiyatifi ren.
+home-cta = Nena eşiğit, hamsvanis numxacit!
 
 ## Account Benefits
 
