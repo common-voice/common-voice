@@ -28,6 +28,16 @@ ba = Başkiruri
 bas = Basaruri
 be = Belarusuri
 bg = Bulgaruri
+he = Çifut'uri
+hi = Hinduri
+ht = Haituri
+hu = Macaruri
+hy-AM = Sumexuri
+hyw = Gyulvani Sumexuri
+it = İtalyanuri
+kbd = Kabarturi
+kmr = Kurmanci Kyurduri
+ko = K'orenuri
 
 # [/]
 
