@@ -77,9 +77,10 @@ fo = Faroece
 fr = Fransızca
 fy-NL = Frizce
 ga-IE = İrlandaca
-gl = Galce
+gl = Galiçyaca
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Güceratça
 ha = Hausaca
 he = İbranice
 hi = Hintçe
@@ -247,6 +248,7 @@ share-text = Makinelere gerçek insanların nasıl konuştuğunu öğretin: { $l
 link-copied = Bağlantı kopyalandı
 back-top = Başa dön
 logout = Çıkış
+donate = Bağış yap
 
 ## Home Page
 
@@ -614,7 +616,6 @@ about-playbook-how-add-sentences = Nasıl cümle ekleyebilirim?
 about-playbook-how-add-sentences-content-1 = <strong>Cümle Toplayıcı</strong>, kamuya açık cümleleri toplamamızı ve doğrulamamızı sağlayan bir araçtır. Önce <scAccountLink>bir hesap oluşturmanız gerekecek</scAccountLink>. Ardından dilinizi <strong>profilinize</strong> ekleyin. Sonra cümleleri <strong>ekleyebilir</strong> veya önceden eklenmiş cümleleri <strong>inceleyebilirsiniz</strong>.
 about-playbook-how-add-sentences-content-2 = Cümlelerin Common Voice'a dahil olabilmesi için iki kişi tarafından incelenip kabul edilmesi gerekir. <languageGuidelinesLink>Burada</languageGuidelinesLink> dilinizin yönergelerini oluşturabilirsiniz. Cümleler <licenseLink>kamu malı</licenseLink> olmalı ve 15 kelimeden kısa olmalıdır. Bir metnin sahibinden <waiverLink>feragat sürecimizi kullanarak metnin lisansını CC0 yapmasını</waiverLink> isteyebilir ve commonvoice@mozilla.com adresinden bize gönderebilirsiniz.
 about-playbook-how-add-sentences-content-3 = Wikipedia'daki kısa cümlelerden yararlanmak için <scraperLink>Cümle çekici</scraperLink>'yi kullanabilirsiniz.
-about-playbook-how-add-sentences-content-4 = Doğrulanan cümleler çarşamba günleri dışa aktarılır ve bir sonraki sürümde kullanılabilir hale gelir.
 
 ## How to record quality
 
