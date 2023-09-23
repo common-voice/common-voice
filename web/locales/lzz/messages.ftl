@@ -115,9 +115,27 @@ profile-form-gender-2 =
 hidden = T'k'obaşe
 profile-form-submit-save = Şinaxi
 profile-form-submit-saved = Kodoliç'aru
+male = Mamuli
+female = Daduli
+# Gender
+other = Majura
+settings = Getzopxi
+edit-profile = Profili getzopxi
+profile-close = Genk'oli
+accept-privacy-title = T'obaşobaşi Polotik'a
+login-identity = Amaxtimui oçinoba
+login = Amaxti
+login-signup = Amaxti/ Doliç'ari
+edit = Sturesari
+download-profile = Datape-çkimi Kogeiği
+help-accent = Aksani şeni meşvelu gorum-i?
+help-variants = Variantepe şeni meşvelu gorum-i?
 
 ## Profile - Email
 
+browse-file-title = Ar resimişi dosya kogedvit
+connect-gravatar = Gravatarite Nik'ori
+gravatar_not_found = Emaili şeni Gravatari var İdziru
 
 ## Profile - Email
 
