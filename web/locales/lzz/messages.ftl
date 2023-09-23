@@ -1,5 +1,6 @@
 ## General
 
+stayintouch = Mozillas xomaşi teknolojiş gomti ar k'ata geptzopxumt. Meyondğanupete, ağani data mondunepete ok'omçinu do data muç'o ixmart çkva dido oçkinu minonan/ bgorumt.
 return-to-cv = Comman Voiceşa Goikti
 email-input =
     .label = Emaili
