@@ -51,6 +51,10 @@ logout = Kogamaxtit
 
 home-title = Comman Voice, mtini k'oçepeşi osinapu makinapes doguru şeni na geiç'k'u/ ciç'u Mozillaşi insiyatifi ren.
 home-cta = Nena eşiğit, hamsvanis numxacit!
+show-wall-of-text = Majurape ik'itxi/ golioni
+help-us-title = Ham cumlepe getzuranu şeni memişvelit.
+vote-yes = Ho
+vote-no = Var
 
 ## Account Benefits
 
@@ -60,18 +64,40 @@ home-cta = Nena eşiğit, hamsvanis numxacit!
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = i
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = d
+shortcut-play-toggle-label = İsteri/ Dodgiti
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = d
+shortcut-record-toggle-label = Doloç'ari/ Dodgiti
+shortcut-submit = Goikti
+shortcut-submit-label = K'ilibi mendancğoni
 
 ## ProjectStatus
 
+status-contribute = Nena-tkvanis numxacit.
+english = İngilizuri
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Xmaroceşi Coxo/ Yoxo
+profile-form-native-language =
+    .label = Svaloni Nena
+profile-form-additional-language =
+    .label = Majura Nena
+profile-form-language =
+    .label = Nena
 
 ## Profile - Email
 
@@ -109,6 +135,7 @@ home-cta = Nena eşiğit, hamsvanis numxacit!
 
 ## How to validate
 
+about-playbook-how-validate = Nena doloç'areri geptzora vana mot geptzora muç'o oxovotzonare?
 
 ## How to access dataset
 
