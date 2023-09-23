@@ -136,6 +136,7 @@ help-variants = Variantepe şeni meşvelu gorum-i?
 browse-file-title = Ar resimişi dosya kogedvit
 connect-gravatar = Gravatarite Nik'ori
 gravatar_not_found = Emaili şeni Gravatari var İdziru
+file_too_large = Goşatsxuneri dosya opşa didi ren
 
 ## Profile - Email
 
