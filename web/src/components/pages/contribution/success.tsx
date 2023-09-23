@@ -148,7 +148,7 @@ function Success({
           <div className="info-card">
             <Localized
               id="help-reach-hours-pluralized"
-              vars={{ hours: 10000, language: getString(locale) }}>
+              vars={{ hours: getString('hours-goal'), language: getString(locale) }}>
               <p />
             </Localized>
             <Localized id="get-started-goals">

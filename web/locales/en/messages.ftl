@@ -21,6 +21,7 @@ error-clip-upload = Upload of this clip keeps failing, keep retrying?
 error-clip-upload-server = Upload of this clip keeps failing at server. Reload the page or try again later.
 daily-goal-speak = 1200
 daily-goal-listen = 2400
+hours-goal = 10000
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
