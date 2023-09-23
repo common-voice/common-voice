@@ -39,6 +39,9 @@ it = İtalyanuri
 kbd = Kabarturi
 kmr = Kurmanci Kyurduri
 ko = K'orenuri
+ky = K'irgizuri
+lg = Luganduri
+ms = Malayuri
 
 # [/]
 
@@ -46,6 +49,8 @@ ko = K'orenuri
 ## Layout
 
 share-title = Nena-nişis memxacu şeni çkvape odzirus memişvelit.
+link-copied = Linki k'opya dixenu.
+back-top = Tişa Kexti
 logout = Kogamaxtit
 
 ## Home Page
@@ -108,6 +113,8 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Cinsiyet'i
 hidden = T'k'obaşe
+profile-form-submit-save = Şinaxi
+profile-form-submit-saved = Kodoliç'aru
 
 ## Profile - Email
 
