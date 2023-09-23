@@ -19,6 +19,8 @@ banner-error-slow-link = Status Page
 error-something-went-wrong = Sorry, something went wrong
 error-clip-upload = Upload of this clip keeps failing, keep retrying?
 error-clip-upload-server = Upload of this clip keeps failing at server. Reload the page or try again later.
+daily-goal-speak = 1200
+daily-goal-listen = 2400
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -853,7 +855,7 @@ request-language-form-email =
     .label = Your email address
 request-language-form-info =
     .label = Information about the language
-request-language-form-info-explanation = 
+request-language-form-info-explanation =
     Add as much information as you can about the language. This
     could include:
 request-language-form-info-explanation-list-1 =
@@ -867,7 +869,7 @@ request-language-google-recaptcha-required =
 request-language-google-recaptcha-error =
     Something went wrong with reCAPTCHA. Please try again.
 
-# Success page
+## Success page
 request-language-success-heading =
     Thank you! You’ve sent a new language enquiry
 request-language-success-list-1 =
@@ -876,7 +878,7 @@ request-language-success-list-1 =
 request-language-success-list-2 =
     Our community manager will reach out to you to offer
     extra support, and to let you know if there is
-    already a community working on your language 
+    already a community working on your language
 request-language-success-list-3 =
     If you don’t hear from us within a couple of days,
     reach out at <emailLink>{ $email }</emailLink>
@@ -1568,7 +1570,7 @@ partnerships-become-a-partner = Become a Common Voice Partner
 partnerships-community-header = Community, Creatives and Civil Society
 partnerships-community-description = The community is the beating heart of Common Voice - they come from all over the world, and are language activists and scientists and artists. You can learn more about how to get involved on our <about>About</about> page and in our <community>Community playbook</community>. If you're interested in deeper organisational partnership, <emailFragment>get in touch.</emailFragment>
 partnerships-foundations-header = Foundations
-partnerships-foundations-description = We work with foundations, civil society and community partners to make the internet a healthier place, with a particular focus on East Africa. Learn more about our <programmaticWork>programmatic work.</programmaticWork> 
+partnerships-foundations-description = We work with foundations, civil society and community partners to make the internet a healthier place, with a particular focus on East Africa. Learn more about our <programmaticWork>programmatic work.</programmaticWork>
 partnerships-governments-header = Governments
 partnerships-governments-description = We are excited to support public sector engagement in technology, innovation and language rights. If you're planning to run a major project or campaign, please do <emailFragment>get in touch.</emailFragment>
 partnerships-academia-header = Universities, Academics and Researchers
@@ -1666,7 +1668,7 @@ citing-sentences-subheader-academic-reference = Academic Reference
 citing-sentences-subheader-academic-reference-explanation = You could use academic referencing style, e.g Harvard style "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 citing-sentences-subheader-offline-sources = Offline Sources
 citing-sentences-subheader-offline-sources-explanation = For public domain text that is not available online, you could use academic referencing style e.g Harvard style "Jess (2021) My Public license poems"
-citation = 
+citation =
     .label = Citation
 self-citation = Self Citation
 self-citation-explanation = This is how you cite yourself if you wrote the content yourself.
@@ -1695,11 +1697,11 @@ reviewing-sentences-explanation-4 = If you run out of sentences to review, pleas
 # WRITE PAGE
 write-instruction-second-part = a public domain sentence
 write-page-subtitle = Sentences contributed here will be added to a publicly available cc-0 licensed dataset.
-sentence = 
+sentence =
     .label = Sentence
 sentence-input-value = Enter your public domain sentence here
 citation-input-value = Source of your sentence
-citation = 
+citation =
     .label = Citation
 what-can-i-add = What kinds of sentences can I add?
 new-sentence-rule-1 = <noCopyright>No copyright</noCopyright> restrictions (<cc0>cc-0</cc0>)
