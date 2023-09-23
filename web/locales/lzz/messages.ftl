@@ -1,5 +1,13 @@
 ## General
 
+return-to-cv = Comman Voiceşa Goikti
+email-input =
+    .label = Emaili
+submit-form-action = Mendancğoni
+not-available-abbreviation = H/V
+banner-error-slow-1 = Mixarsuvit, Comman Voicek tamo itsadeburs/ içalişams. Memak'atit şeni ntsaşa extit.
+banner-error-slow-link = Butkaşi Xali
+error-something-went-wrong = Mixarsuvit, mutxanepe gemapaşes
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -7,6 +15,19 @@
 
 ## Languages
 
+ab = Abaza
+ady = Atzuğe
+af = Afrik'anuri
+am = Aramikuri
+an = Aragonuri
+ar = Arap'uri
+arn = Mapudunguri
+ast = Asturianuri
+az = Azeruri
+ba = Başkiruri
+bas = Basaruri
+be = Belarusuri
+bg = Bulgaruri
 
 # [/]
 
