@@ -1037,6 +1037,7 @@ download-request-title = { $created }
 download-request-description = { $clipCount } ahots-grabazio, artxibategiaren guztizko neurria { $size }. { $expires }(e)an iraungitzen da.
 download-request-archive-single = ZIP fitxategi bakarrean
 download-request-archive-multiple = Zatitu { $archiveCount } ZIP fitxategitan
+download-request-assembling-description = Zure fitxategiak prestatzen ari dira. Mesedez, saiatu berriz beranduago.
 download-request-refresh-button = Freskatu
 download-request-modal-title = Deskarga estekak
 download-request-modal-description = Hemen dituzu zure ZIP fitxategiak deskargatzeko estekak.
