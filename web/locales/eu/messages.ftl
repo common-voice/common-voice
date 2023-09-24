@@ -172,12 +172,17 @@ sat = Santalera (Ol Chiki)
 sc = Sardiniera
 scn = Siziliera
 sdh = Hegoaldeko kurduera
+shi = Shilha
 si = Sinhala
 sk = Eslovakiera
+skr = Saraiki
 sl = Esloveniera
+snk = Soninkera
 so = Somaliera
 sq = Albaniera
 sr = Serbiera
+ss = Swaziera
+st = hegoaldeko sothoera
 sv-SE = Suediera
 sw = Swahilia
 syr = Siriera
@@ -190,17 +195,20 @@ tig = Tigre
 tk = Turkmenera
 tl = Tagaloa
 tn = Setswanera
+tok = Toki Pona
 tr = Turkiera
 ts = Tsongera
 tt = Tatarera
 tw = Twi
 ty = Tahitiera
+tyv = Tuvera
 uby = Ubikera
 udm = Udmurtera
 ug = Uigurrera
 uk = Ukrainera
 ur = Urdua
 uz = Uzbekera
+ve = Vendera
 vec = Veneziera
 vi = Vietnamera
 vot = Votikera
@@ -214,6 +222,7 @@ zh-CN = Txinera (Txina)
 zh-HK = Txinera (Hong Kong)
 zh-TW = Txinera (Taiwan)
 zu = Zuluera
+zza = Zazera
 
 # [/]
 
@@ -239,6 +248,7 @@ share-text = Lagundu makinei irakasten benetako pertsonek nola hitz egiten duten
 link-copied = Lotura kopiatuta
 back-top = Itzuli gora
 logout = Itxi saioa
+donate = Egin dohaintza
 
 ## Home Page
 
@@ -504,7 +514,7 @@ about-header-description-v2 =
     <p>Common Voice publikoki eskuragarri dagoen ahotsen datu-sorta bat da, munduko txoko desberdinetako boluntarioek beraien ahotsekin egina. Ahotsa darabilten aplikazioak sortu nahi dituztenek datu-sorta hau erabil dezakete beraien ikasketa automatikoko ereduak trebatzeko.</p>
     <p>Gaur egun, ahotsen datu-sorta gehienak enpresenak dira eta horrek berrikuntza itotzen du. Gainera ahotsen datu-sortetan beharko luketena baino gutxiago agertzen dira ondokoak: ingelesez mintzo ez direnak, zuriak ez direnak, dibertsitate funtzionala dutenak, emakumeak eta LGBTQIA+ pertsonak. Honek esan nahi du hainbat hizkuntzatan ez dagoela ahots-teknologiarik eta, dagoenean ere, hainbat pertsonarekin ez dabiltzala ondo. Hori aldatu nahi dugu leku guztietako jendea bere ahotsa partekatzen jarriz.</p>
 how-does-it-work-title-v2 = Nola dabil Common Voice?
-how-does-it-work-text = Ahotsen datu-sorta ireki bat sortzen ari gara denon artean. Eman zure ahotsa, balioztatu besteen grabazioen egokitasuna, egin datu-sorta hobea guztiontzat.
+how-does-it-work-text = Ahotsen datu-sorta ireki bat sortzen ari gara denon artean. Laga zure ahotsa, balioztatu besteen grabazioen egokitasuna, egin datu-sorta hobea guztiontzat.
 
 ## How does it work section
 
@@ -1023,6 +1033,9 @@ download-request = Eskatu grabazioak
 download-requests = Iraganeko grabazio deskargen eskaerak
 download-request-button = Deskargatu
 download-request-title = { $created }
+download-request-description = { $clipCount } ahots-grabazio, artxibategiaren guztizko neurria { $size }. { $expires }(e)an iraungitzen da.
+download-request-archive-single = ZIP fitxategi bakarrean
+download-request-archive-multiple = Zatitu { $archiveCount } ZIP fitxategitan
 download-request-refresh-button = Freskatu
 download-request-modal-title = Deskarga estekak
 download-request-metadata-link = Esaldiaren testua
@@ -1402,6 +1415,8 @@ partnerships-academia-header = Unibertsitateak, akademikoak eta ikerlariak
 partnerships-small-business-header = Enpresa txikiak, teknologia eta AA arloko start up-ak barne
 partnerships-corporates-header = Korporazio handiak eta plataforma enpresak
 partnerships-our-partners = Gure babesleak
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Eskerrik asko zure ahots-grabazioak lagatzeagatik!
 why-donate = Zergatik galdetzen duzu?
 add-information-button = Gehitu informazioa
 continue-speaking-button = Ez eskerrik asko, hitz egiten jarraitu
