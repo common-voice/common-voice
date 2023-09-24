@@ -740,6 +740,9 @@ more = Gehiago
 close = Itxi
 download = Deskargatu
 dataset-version = Bertsioa
+sha256-checksum-copied = SHA256 egiaztapeneko batura kopiatu da!
+sha256-checksum-copied-error = Ezin izan da SHA256 egiaztapeneko batura kopiatu
+clipboard-not-supported = Arbelak ez du euskarririk
 
 ## Download Modal
 
@@ -782,6 +785,7 @@ request-language-form-info-explanation =
     Honelakoak aipa ditzakezu:
 request-language-form-info-explanation-list-1 = Zure hizkuntzaren izenak
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO kodeak</isoCodeLink> badakizkizu
+request-language-form-info-explanation-list-3 = Hizkuntza ulertzen lagun gaitzaketen webguneen estekak
 request-language-google-recaptcha-required = reCAPTCHA ezinbestekoa da aurrera egiteko
 request-language-google-recaptcha-error = Zerbait oker joan da reCAPTCHA-rekin. Saiatu berriro mesedez.
 # Success page
