@@ -416,6 +416,7 @@ profile-close = Itxi
 profile-explanation = Egin zure aurrerapenen jarraipena profil batekin eta lagundu ahots-datu zehatzagoak lortzen.
 thanks-for-account = Eskerrik asko zure kontua baieztatzeagatik, orain osatu zure profila.
 why-demographic = Zergatik da garrantzitsua hau?
+why-demographic-explanation-2 = Adina, generoa eta azentua bezalako datu anonimizatuek, hizketaren ezagutzako motorrak trebatzeko erabiltzen direnean berauen zehaztasuna hobetzen laguntzen dute. Zure erabiltzaile-izena eta posta elektronikoko helbidea ez dira inoiz zuk bidalitako datuekin lotuko, eta zure erabiltzaile-izena publiko izatea edo anonimo mantentzea hautatu dezakezu.
 accept-privacy = Ondo iruditzen zait informazio hau <privacyLink>pribatutasun politikan</privacyLink> azaltzen den bezala kudeatzea.
 accept-privacy-title = Pribatutasun-politika
 accept-privacy-and-terms = Common Voice-n <termsLink>Baldintzak</termsLink> eta <privacyLink>Pribatutasun politika</privacyLink> onartzen ditut
