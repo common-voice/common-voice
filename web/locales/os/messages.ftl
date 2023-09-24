@@ -1135,6 +1135,7 @@ contribution-criteria-nav = Критерийтæ
 contribution-criteria-link = Уагæвæрд базон
 contribution-criteria-page-title = Архайды критеритæ
 contribution-for-example = зæгъæм
+contribution-misreadings-description-extended-list-1 = Ныффысты разӕй ныхасы хай фӕуагъд. Зӕгъӕм, кӕд дзургӕ у "салам" , уӕд фӕхъуысы "алам".
 contribution-misreadings-description-extended-list-5 = Иу дзырд кӕсгӕйӕ цалдӕр фӕлварӕны.
 contribution-misreadings-example-1-title = Триасы уæйыг динозавртæ.
 contribution-misreadings-example-2-title = Триасы уæйыг динозавр.
