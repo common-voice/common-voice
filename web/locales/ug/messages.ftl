@@ -735,6 +735,7 @@ datasets-positioning =
     باشقا ئوچۇق مەنبەلىك ئاۋاز ئامبارلىرى توغرىسىدا Common Voice نىڭ ئۈزلۈكسىز تەرەققىياتىغا ئەگىشىپ بىزنىڭ يېڭىلاش مەركىزىمىز بولۇپ قالغان بۇ بېتىمىزدىن پايدىلىنىڭ.
 language = تىل
 download-dataset-header = سانلىق مەلۇمات توپلىمىنى چۈشۈرۈش
+download-delta-explainer = بىز بەزى ئۆزگەرتىشلەرنى ئېلىپ باردۇق. دېلتا بۆلەكلىرى ئالدىنقى قېتىم ئېلان قىلىنغاندىن بۇيانقى ئەڭ يېڭى ئۈن ئۈزۈندىلىرىنىلا ئۆز ئىچىگە ئالىدۇ. <deltaLink> بۇ خىزمەت ھەققىدە تېخىمۇ كۆپ ئۇچۇرلار </deltaLink>.
 download-dataset-tag = سىزگە لازىملىق تىلنىڭ سانلىق مەلۇمات توپلىمى ۋە چۈشۈرمەكچى بولغان نەشرىنى تاللاڭ.
 # File size in gigabytes
 size = چوڭلۇقى
@@ -764,6 +765,9 @@ subscribe = مۇشتەرى بولۇش
 get-started-speech = ئاۋاز تونۇتۇشنى باشلاڭ
 other-datasets = باشقا ئاۋاز مەلۇمات توپى
 feedback-q = تەكلىپ-پىكرىڭىز بارمۇ؟
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ تەتقىقاتچىلار ئەڭ ئىلغار سۆزلىشىش شەكلىدىكى سۈنئىي ئەقىل (AI) بۆلىكىنى ئىجاد قىلىدىغان بىر يۈرۈش <docsLink>ئوچۇق كودلۇق ئىجادكارلار قورال بوغچىسى</docsLink>
+resource-deepspeech-info = Common Voice سانلىق مەلۇمات ئامبىرى Mozilla نىڭ ئوچۇق مەنبەلىك ئاۋاز پەرقلەندۈرۈش ماتورى Deep Speech نى قوللىنىپ، ئاۋاز پەرقلەندۈرۈش پروگراممىلىرىنى قۇرالايسىز. قەيەردىن باشلاشنى بىلىشتە بىزنىڭ <githubLink>قىسقىچە تونۇشتۇرۇش  Github </githubLink>  نى ئوقۇڭ ياكى <discourseLink>DeepSpeech مۇنازىرىسىگە</discourseLink> قاتنىشىڭ.
+resource-coqui-info = <coquiLink> Coqui </coquiLink> ئوچۇق نۇتۇق تېخنىكىسىغا بېغىشلانغان. ئۇلارنىڭ تۈرلىرى چوڭقۇر ئۆگىنىشنى ئاساس قىلغان STT ۋە TTS موتورلىرىنى ئۆز ئىچىگە ئالىدۇ.
 community-playbook = مەھەللە قوللانمىسى
 data-other-librispeech-description = LibriSpeech تەخمىنەن 1000 سائەت ئەتراپىدىكى LibriVox تۈرىدىكى ئاۋازلىق كىتابلاردىن تاللانغان 16Khz لىق ئىنگلىزچە ئوقۇشلۇق.
 data-other-ted-name = TED-LIUM  سۆزلۈكلەر توپلىمى

@@ -69,6 +69,7 @@ eo = Esperanto
 es = Castelán
 et = Estonio
 eu = Éuscaro
+ewo = Euondo
 fa = Persa
 ff = Fula
 fi = Finés
@@ -79,6 +80,7 @@ ga-IE = Irlandés
 gl = Galego
 gn = Guaraní
 gom = Konkani de Goa
+gu-IN = Guxarati
 ha = Hausa
 he = Hebreo
 hi = Hindi
@@ -98,6 +100,7 @@ it = Italiano
 izh = Ingrio
 ja = Xaponés
 jbo = Lojban
+jv = Xavanés
 ka = Xeorxiano
 kaa = Karakalpak
 kab = Cabilo
@@ -151,6 +154,7 @@ nyn = Runyankole
 oc = Occitano
 om = Afaan Oromo
 or = Odia
+os = Oseto
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polaco
@@ -244,6 +248,7 @@ share-text = Axude a ensinarlles ás máquinas como falamos, doe a súa voz en {
 link-copied = Ligazón copiada
 back-top = Volver arriba
 logout = Cerrar sesión
+donate = Doazóns
 
 ## Home Page
 
@@ -616,7 +621,6 @@ about-playbook-how-add-sentences = Como engadir frases?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> é unha ferramenta para recompilar e validar frases de dominio público. Para empregala, debe <scAccountLink>crear unha conta</scAccountLink> e, logo, engadir o seu idioma ao seu <strong>perfil</strong>. Pode <strong>engadir</strong> frases ou <strong>revisar</strong> frases engadidas anteriormente.
 about-playbook-how-add-sentences-content-2 = As frases deben ser revisadas e aceptadas por dúas persoas para ser incluídas en Common Voice. Cree directrices para o seu idioma <languageGuidelinesLink>aquí</languageGuidelinesLink>. As frases deben ser de <licenseLink>dominio público</licenseLink> e ter menos de 15 palabras. Pode solicitarlle ao propietario dun texto que o faga <waiverLink>de dominio público (licenza CC0) mediante o noso proceso de cesión de dereitos</waiverLink> e enviárnolo a commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Pode empregar o <scraperLink>extractor de frases</scraperLink> para aproveitar frases curtas da Wikipedia.
-about-playbook-how-add-sentences-content-4 = As frases que foron validadas expórtanse os mércores e están dispoñibles despois da seguinte actualización.
 
 ## How to record quality
 
@@ -1764,6 +1768,7 @@ report-sc-different-language = Idioma diferente
 report-sc-different-language-detail = Está escrita nun idioma diferente ao que estou revisando.
 sentences-fetch-error = Produciuse un erro ao recuperar as frases
 review-error = Produciuse un erro ao revisar esta frase
+review-error-rate-limit-exceeded = Vai moi á présa. Tómese un momento para revisar a frase e comprobar que é correcta.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estamos a facer grandes cambios
 sc-redirect-page-subtitle-1 = O colector de frases está migrando para a plataforma principal do Common Voice. Agora vostede pode <writeURL>escribir</writeURL> unha frase ou <reviewURL>revisar</reviewURL> envíos de frases soltas no Common Voice.

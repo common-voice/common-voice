@@ -80,6 +80,7 @@ ga-IE = Gwyddeleg
 gl = Galisieg
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebraeg
 hi = Hindi
@@ -247,6 +248,7 @@ share-text = Helpwch beiriannau i ddysgu sut mae pobl go iawn yn siarad, cyfrann
 link-copied = Dolen wedi'i chopïo
 back-top = Nôl i'r Brig
 logout = Allgofnodi
+donate = Cyfrannu
 
 ## Home Page
 
@@ -636,7 +638,6 @@ about-playbook-how-add-sentences = Sut ydw i'n ychwanegu brawddegau?
 about-playbook-how-add-sentences-content-1 = Mae'r <strong>Casglwr Brawddegau </strong> yn offeryn ar gyfer casglu a dilysu brawddegau parth cyhoeddus. Bydd angen i chi <scAccountLink>greu cyfrif</scAccountLink>. Yna, ychwanegwch eich iaith at eich <strong>Proffil</strong>. Gallwch <strong>Ychwanegu</strong> brawddegau neu <strong>Adolygu</strong> brawddegau a ychwanegwyd yn flaenorol.
 about-playbook-how-add-sentences-content-2 = Rhaid i frawddegau gael eu hadolygu a'u derbyn gan ddau berson i'w cynnwys yn Common Voice. Rydych chi'n creu canllawiau ar gyfer eich iaith <languageGuidelinesLink>yma</languageGuidelinesLink>. Rhaid i frawddegau fod yn y <licenseLink>parth cyhoeddus</licenseLink> ac yn llai na 15 gair. Gallwch ofyn i berchennog neges destun ei wneud yn <waiverLink>CC0 gan ddefnyddio ein proses hepgor</waiverLink>, a'i anfon atom ar commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Gallwch ddefnyddio'r <scraperLink>Echdynnwr Brawddeg</scraperLink> i dynnu brawddegau byr o Wicipedia.
-about-playbook-how-add-sentences-content-4 = Mae brawddegau sydd wedi'u dilysu yn cael eu hallforio ar ddydd Mercher, a byddan nhw ar gael ar ôl y ryddhad nesaf.
 
 ## How to record quality
 

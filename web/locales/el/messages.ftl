@@ -80,6 +80,7 @@ ga-IE = Ιρλανδικά
 gl = Γαλικικά
 gn = Γκουαρανί
 gom = Κονκανικά (Γκόα)
+gu-IN = Γκουτζαράτι
 ha = Χάουσα
 he = Εβραϊκά
 hi = Χίντι
@@ -247,6 +248,7 @@ share-text = Βοηθήστε τις μηχανές να κατανοήσουν 
 link-copied = Ο σύνδεσμος αντιγράφηκε
 back-top = Επιστροφή στην κορυφή
 logout = Αποσύνδεση
+donate = Δωρεά
 
 ## Home Page
 
@@ -621,7 +623,6 @@ about-playbook-how-add-sentences = Πώς προσθέτω προτάσεις;
 about-playbook-how-add-sentences-content-1 = Το <strong>Sentence Collector</strong> είναι ένα εργαλείο για τη συλλογή και την επικύρωση προτάσεων δημόσιου τομέα. Θα <scAccountLink>χρειαστεί να δημιουργήσετε έναν λογαριασμό</scAccountLink>. Έπειτα, προσθέστε τη γλώσσα σας στο <strong>προφίλ</strong> σας. Μπορείτε να <strong>προσθέσετε</strong> προτάσεις ή να <strong>ελέγξετε</strong> ήδη υποβεβλημένες προτάσεις.
 about-playbook-how-add-sentences-content-2 = Οι προτάσεις πρέπει να ελεγχθούν και να εγκριθούν από δύο άτομα για να συμπεριληφθούν στο Common Voice. Δημιουργήστε οδηγίες για τη γλώσσα σας <languageGuidelinesLink>εδώ</languageGuidelinesLink>. Οι προτάσεις πρέπει να ανήκουν στον <licenseLink>δημόσιο τομέα</licenseLink> και να είναι μικρότερες από 15 λέξεις. Μπορείτε να ζητήσετε από τον κάτοχο ενός κειμένου να το διαθέσει <waiverLink>με άδεια CC0 χρησιμοποιώντας τη διαδικασία αποποίησής μας</waiverLink> και να μας το στείλει στο commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Μπορείτε να χρησιμοποιήσετε το <scraperLink>εργαλείο εξαγωγής προτάσεων</scraperLink> για να αξιοποιήσετε σύντομες προτάσεις από τη Βικιπαίδεια.
-about-playbook-how-add-sentences-content-4 = Οι προτάσεις που έχουν επικυρωθεί εξάγονται τις Τετάρτες και είναι διαθέσιμες μετά την επόμενη κυκλοφορία.
 
 ## How to record quality
 
