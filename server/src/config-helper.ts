@@ -33,7 +33,6 @@ export type CommonVoiceConfig = {
   SECRET: string;
   AWS_SES_CONFIG: SESClientConfig;
   S3_CONFIG: S3.Types.ClientConfiguration;
-  S3_LOCAL_DEVELOPMENT_ENDPOINT?: string;
   STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: string;
   GCP_CREDENTIALS: object;
   CINCHY_CONFIG: S3.Types.ClientConfiguration;
@@ -96,13 +95,9 @@ const BASE_CONFIG: CommonVoiceConfig = {
   AWS_REGION: configEntry('CV_AWS_REGION', 'us-west-2'),
   AWS_SES_CONFIG: configEntry('CV_AWS_SES_CONFIG', {}, castJson),
   S3_CONFIG: configEntry('CV_S3_CONFIG', {}, castJson),
-  S3_LOCAL_DEVELOPMENT_ENDPOINT: configEntry(
-    'CV_S3_LOCAL_DEVELOPMENT_ENDPOINT',
-    null
-  ),
   STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: configEntry(
     'CV_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT',
-    'http://storage:8080'
+    'http://localhost:8080'
   ),
   GCP_CREDENTIALS: configEntry('CV_GCP_CREDENTIALS', {}, castJson),
   CINCHY_CONFIG: configEntry('CV_CINCHY_CONFIG', {}, castJson),
@@ -128,7 +123,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   ),
   EMAIL_USERNAME_FROM: configEntry('CV_EMAIL_USERNAME_FROM', null),
   EMAIL_USERNAME_TO: configEntry('CV_EMAIL_USERNAME_TO', null),
-}
+};
 
 let injectedConfig: CommonVoiceConfig;
 let loadedConfig: CommonVoiceConfig;
