@@ -769,6 +769,7 @@ resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ تەتقىقاتچ�
 resource-deepspeech-info = Common Voice سانلىق مەلۇمات ئامبىرى Mozilla نىڭ ئوچۇق مەنبەلىك ئاۋاز پەرقلەندۈرۈش ماتورى Deep Speech نى قوللىنىپ، ئاۋاز پەرقلەندۈرۈش پروگراممىلىرىنى قۇرالايسىز. قەيەردىن باشلاشنى بىلىشتە بىزنىڭ <githubLink>قىسقىچە تونۇشتۇرۇش  Github </githubLink>  نى ئوقۇڭ ياكى <discourseLink>DeepSpeech مۇنازىرىسىگە</discourseLink> قاتنىشىڭ.
 resource-coqui-info = <coquiLink> Coqui </coquiLink> ئوچۇق نۇتۇق تېخنىكىسىغا بېغىشلانغان. ئۇلارنىڭ تۈرلىرى چوڭقۇر ئۆگىنىشنى ئاساس قىلغان STT ۋە TTS موتورلىرىنى ئۆز ئىچىگە ئالىدۇ.
 community-playbook = مەھەللە قوللانمىسى
+resource-playbook-info = پۈتكۈل Common Voice سەپىرىدە يەرلىكلەشتۈرۈشتىن سانلىق مەلۇمات توپلىمىنى ئىشلىتىش، جامائىتىمىز بىلەن قانداق ئالاقە قىلىشقىچە بولغان نۇرغۇن ئۇچۇرلارنى <playbookLink>كېرەكلىك يېتەكچى</playbookLink> دىن تاپقىلى بولىدۇ.
 data-other-librispeech-description = LibriSpeech تەخمىنەن 1000 سائەت ئەتراپىدىكى LibriVox تۈرىدىكى ئاۋازلىق كىتابلاردىن تاللانغان 16Khz لىق ئىنگلىزچە ئوقۇشلۇق.
 data-other-ted-name = TED-LIUM  سۆزلۈكلەر توپلىمى
 data-other-ted-description = TED-LIUM سۆزلۈكلەر توپلىمى ئاۋازلىق سۆھبەتلەردىن ياسالغان بولۇپ ، ئۇلارنىڭ خاتىرىلىرى TED تور بېتىدە بار.
