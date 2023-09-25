@@ -1093,6 +1093,7 @@ download-request-link-single = Бар дын ис къопи кӕнын ӕмӕ �
 welcome-staff = Ӕгас цӕут, { $company } кусджытæ!
 help-contribute = Гом рардты ӕмбырды алыхуызон сфӕлдисӕны фӕдыл нын баххуыс кӕнын дӕ бон у, Common Voice-ы профиль сфӕлдисгӕйӕ ӕмӕ дӕ хъӕлӕсӕй баххуыс кӕнынӕй.
 login-company = Бахиз кӕнӕ { $company } посты ууылты регистраци скӕн
+profile-not-required = Архайынæн профиль ӕнӕмӕнг хъæугæ нӕу, ӕниу пайда у, дæлæ ранымайæм цæмæй.
 read-more-about = Фылдӕр базон нӕ фарсыл  «Мах тыххӕй»
 
 ## DemoLayout
@@ -1104,6 +1105,7 @@ demo-welcome-subheader = Фылдӕр базонын дӕ фӕнды ӕмӕ дӕ
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice у дунейы егъаудӕр иумӕйаг бирӕвзагон хъӕлӕсон рардты ӕмбырд.
+demo-language-select-card-body = 259 минӕй фылдӕр сты нæ архайджытæ, уыдон дзурынц 50 ӕвзагæй фылдӕрыл, уыцы рардтӕй пайда кӕнынц ӕвзагон ӕфтуантæ ахуыр кӕнынмæ, цӕмӕй хуыздӕр ӕмбарой адӕймаджы хъӕлӕс.
 card-button-next = Дарддӕр
 card-button-back = Фӕстӕмӕ
 demo-language-select-label = Æппæт æвзæгтæ
@@ -1113,6 +1115,9 @@ demo-account = Аккаунт
 
 ## Demo Account
 
+demo-account-card-header = Архайынæн аккаунт ӕнӕмӕнг хъæугæ нӕу, ӕниу пайда у.
+demo-account-enter-email =
+    .label = Эл. посты адрис бафысс, цæмæй дзы райсай регистрацийы æрвитæн
 demo-account-sign-up = Арвитын регистрацийы æрвитæн
 
 ## Demo Contribute
@@ -1127,8 +1132,16 @@ demo-dashboard-card-header = Персоналон фæйнæджытæ уын б
 ## Validation criteria
 
 contribution-criteria-nav = Критерийтæ
+contribution-criteria-link = Уагæвæрд базон
 contribution-criteria-page-title = Архайды критеритæ
 contribution-for-example = зæгъæм
+contribution-misreadings-description-extended-list-1 = Ныффысты разӕй ныхасы хай фӕуагъд. Зӕгъӕм, кӕд дзургӕ у "салам" , уӕд фӕхъуысы "алам".
+contribution-misreadings-description-extended-list-5 = Иу дзырд кӕсгӕйӕ цалдӕр фӕлварӕны.
+contribution-misreadings-example-1-title = Триасы уæйыг динозавртæ.
+contribution-misreadings-example-2-title = Триасы уæйыг динозавр.
+contribution-misreadings-example-2-explanation = [Ӕвӕццӕгӕн «динозавртӕ»]
+contribution-varying-pronunciations-title = Алыхуызон дзурыны ахаст
+contribution-background-noise-title = Фоны хъӕлӕба
 contribution-background-voices-title = Æндæр хъæлæстæ уыцы-иу фысты
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are

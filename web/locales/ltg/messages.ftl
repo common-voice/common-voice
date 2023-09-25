@@ -244,7 +244,7 @@ cookies = Seikdatnis
 faq = BUJ
 content-license-text = Saturs liceņzāts ar <licenseLink>Creative Commons liceņzi</licenseLink>
 share-title = Paleidzit mums atrast cytus, kas pazīduotu sovu bolsa īrokstu!
-share-text = Paleidzit īkuortom saprast latgalīšu volūdu, īrokstit sovu bolsu voi puorbaudit salaseitūs īrokstus { $link }
+share-text = Paleidzi atteisteit tehnologejis latgalīšu volūdā - pazīdoj sovu bolsu! { $link }
 link-copied = Saite nūkopāta
 back-top = Atpakaļ iz augšu
 logout = Beigt dorbu
@@ -388,7 +388,7 @@ profile-form-variant-default-value = Variants nav izavālāts
 profile-form-accent =
     .label = Akcents
 profile-form-custom-accent-help-text =
-    .label = Kai jius apraksteitu sovu runu? Kaidys tai ir īzeimis i kas tuos varātu byut ītekmiejs? (Ite var minēt sovu dzeivis vītu (vaļsts, piļsāta, pogosts), sovu tauteibu i c., kas ruodīs svareigs.)
+    .label = Aprokstit sovu runu: īzeimis i ītekmis. Atslāga vuordi: dzymtuo vīta (vaļsts, piļsāta, pogosts), tauteiba, dzeivis vītys i c., kas ruodīs svareigs.
 profile-form-custom-accent-placeholder-2 = Suocit raksteit, lai apraksteitu sovu akcentu.
 profile-form-age =
     .label = Vacums
@@ -984,20 +984,20 @@ streaks = Serejis
 days =
     { $count ->
         [zero] Dīnys
-        [one] { "" }
-       *[other] { "" }
+        [one] Dīnys
+       *[other] Dīnys
     }
 recordings =
     { $count ->
         [zero] Īroksti
-        [one] { "" }
-       *[other] { "" }
+        [one] Īroksti
+       *[other] Īroksti
     }
 validations =
     { $count ->
         [zero] Puorbaudis
-        [one] { "" }
-       *[other] { "" }
+        [one] Puorbaudis
+       *[other] Puorbaudis
     }
 
 ## Dashboard
@@ -1027,7 +1027,7 @@ show-ranking = Ruodeit munu reitingu
 ## Custom Goals
 
 get-started-goals = Suocit ar mierkim
-create-custom-goal = Damārojit sovu mierki
+create-custom-goal = Nūsokit sovu mierki
 goal-type = Kaidu mierki gribit sataiseit?
 both-speak-and-listen = Obeji
 both-speak-and-listen-long = Obeji (runuošonys i klauseišonuos)
@@ -1041,7 +1041,7 @@ lose-goal-progress-warning = Lobojūt mierki, jius varit pagaisynuot asūšū pr
 want-to-continue = Voi gribit turpynuot?
 finish-editing = Voi pyrma dabeigt lobuošonu?
 lose-changes-warning = Ka izīsit tagad, jius pagaisynuosit izmainis
-build-custom-goal = Damārojit sev mierki
+build-custom-goal = Nūsokit sev mierki
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [zero] Paleidzit sasnēgt { $hours } stuņdis { $language } volūdā ar sovu mierki
@@ -1098,7 +1098,7 @@ remove-info = Mes puorsavērsim jiusu pīprasejumu, lai nu datu kūpys nūjimtu 
 why-delete-recordings =
     Common Voice īrokstus lītoj akademiki, mozī uzjāmumi i bolsta atpazeišonys entuziasti, lai paleidzātu apvuiceit i atteisteit publiski daīmamūs resursus, par pīmāru, bolsa atpazeišonys modeļus.
     Voi jius varit mums paziņuot, deļkuo gribit, lai jiusu īroksti tyktu dzāsti?
-profile-form-delete = Dzēst profil
+profile-form-delete = Dzēst profilu
 
 ## Profile Download
 
@@ -1374,18 +1374,18 @@ sc-add-err-unexpected = Nagaideita atbiļde nu servera
 sc-add-result =
     { $duplicates ->
         [0] Teikumi īsnāgti. { $duplicates } teikumi tyka nūraideiti kai dublikati.
-        [zero] { "" }
-        [one] { "" }
-       *[other] { "" }
+        [zero] Teikumi īsnāgti. { $duplicates } teikumi tyka nūraideiti kai dublikati.
+        [one] Teikumi īsnāgti. { $duplicates } teikumi tyka nūraideiti kai dublikati.
+       *[other] Teikumi īsnāgti. { $duplicates } teikumi tyka nūraideiti kai dublikati.
     }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
         [0] { $sentences } teikumi tyka noraideiti
-        [zero] { "" }
-        [one] { "" }
-       *[other] { "" }
+        [zero] { $sentences } teikumi tyka noraideiti
+        [one] { $sentences } teikumi tyka noraideiti
+       *[other] { $sentences } teikumi tyka noraideiti
     }
 sc-add-err-submission = Īsnīgšonys klaida
 sc-add-lang-process-notice = Ka jiusu volūda ite nav nūruodeita, varit tū pīpraseit, lītojūt <languageProcessLink>itū procesu</languageProcessLink>.
@@ -1400,9 +1400,9 @@ sc-confirm-sentences-title = Apstyprynojat jaunūs teikumus
 sc-confirm-sentences-found =
     { $countOfSentences ->
         [0] Tyka atrosti { $countOfSentences } teikumi.
-        [zero] { "" }
-        [one] { "" }
-       *[other] { "" }
+        [zero] Tyka atrosti { $countOfSentences } teikumi.
+        [one] Tyka atrosti { $countOfSentences } teikumi.
+       *[other] Tyka atrosti { $countOfSentences } teikumi.
     }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
@@ -1410,18 +1410,18 @@ sc-confirm-rejected-by-you = Jius nūraidejot { $countOfInvalidated }
 sc-confirm-already-reviewed =
     { $countOfReviewed ->
         [0] { $countOfReviewed } puorbaudeiti teikumi. Tai turpynuot!
-        [zero] { "" }
-        [one] { "" }
-       *[other] { "" }
+        [zero] { $countOfReviewed } puorbaudeiti teikumi. Tai turpynuot!
+        [one] { $countOfReviewed } puorbaudeiti teikumi. Tai turpynuot!
+       *[other] { $countOfReviewed } puorbaudeiti teikumi. Tai turpynuot!
     }
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
     { $readyCount ->
         [0] { $readyCount } teikumi ir gotovi īsniegšonai!
-        [zero] { "" }
-        [one] { "" }
-       *[other] { "" }
+        [zero] { $readyCount } teikumi ir gotovi īsniegšonai!
+        [one] { $readyCount } teikumi ir gotovi īsniegšonai!
+       *[other] { $readyCount } teikumi ir gotovi īsniegšonai!
     }
 # Variables:
 #   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
@@ -1438,27 +1438,27 @@ sc-lang-info-title-personal = Jiusu pīnasums
 sc-lang-info-total =
     { $totalSentences ->
         [0] { $totalSentences } teikumi
-        [zero] { "" }
-        [one] { "" }
-       *[other] { "" }
+        [zero] { $totalSentences } teikumi
+        [one] { $totalSentences } teikumi
+       *[other] { $totalSentences } teikumi
     }
 # Variables:
 #   $totalInReview (Number) - Number of sentences currently in the review state for this language
 sc-lang-info-in-review =
     { $totalInReview ->
         [0] { $totalInReview } teikumi, kū puorbaudeit.
-        [zero] { "" }
-        [one] { "" }
-       *[other] { "" }
+        [zero] { $totalInReview } teikumi, kū puorbaudeit.
+        [one] { $totalInReview } teikumi, kū puorbaudeit.
+       *[other] { $totalInReview } teikumi, kū puorbaudeit.
     }
 # Variables:
 #   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
 sc-lang-info-left-for-you =
     { $unreviewedSentencesByYou ->
         [0] { $unreviewedSentencesByYou } teikumi, kū puorbaudeit.
-        [zero] { "" }
-        [one] { "" }
-       *[other] { "" }
+        [zero] { $unreviewedSentencesByYou } teikumi, kū puorbaudeit.
+        [one] { $unreviewedSentencesByYou } teikumi, kū puorbaudeit.
+       *[other] { $unreviewedSentencesByYou } teikumi, kū puorbaudeit.
     }
 sc-lang-info-review-now = <reviewLink>Puorbaudeit tagad!</reviewLink>
 sc-lang-info-add-more = <addLink>Davīnojit teikumus!</addLink>
@@ -1467,18 +1467,18 @@ sc-lang-info-add-more = <addLink>Davīnojit teikumus!</addLink>
 sc-lang-info-validated =
     { $validatedSentences ->
         [0] { $validatedSentences } puorbaudeiti teikumi.
-        [zero] { "" }
-        [one] { "" }
-       *[other] { "" }
+        [zero] { $validatedSentences } puorbaudeiti teikumi.
+        [one] { $validatedSentences } puorbaudeiti teikumi.
+       *[other] { $validatedSentences } puorbaudeiti teikumi.
     }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
         [0] { $rejectedSentences } nūraideiti teikumi.
-        [zero] { "" }
-        [one] { "" }
-       *[other] { "" }
+        [zero] { $rejectedSentences } nūraideiti teikumi.
+        [one] { $rejectedSentences } nūraideiti teikumi.
+       *[other] { $rejectedSentences } nūraideiti teikumi.
     }
 
 ## LOGIN
@@ -1542,9 +1542,9 @@ sc-review-form-button-submit =
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Puorbaudeiti { $sentences } teikumi
-        [zero] { "" }
-        [one] { "" }
-       *[other] { "" }
+        [zero] Puorbaudeiti { $sentences } teikumi
+        [one] Puorbaudeiti { $sentences } teikumi
+       *[other] Puorbaudeiti { $sentences } teikumi
     }
 sc-review-form-review-failure = Puorbaudis rezultatu navarēja saglobuot. Lyudzu, paraugit vēļreiz vāluok.
 sc-review-link = Puorbaudit
