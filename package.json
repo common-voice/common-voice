@@ -11,7 +11,7 @@
     "maintenance"
   ],
   "engines": {
-    "node": ">=12"
+    "node": ">=18"
   },
   "devDependencies": {
     "@fluent/syntax": "0.18.1",
