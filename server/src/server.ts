@@ -22,6 +22,7 @@ import { createTaskQueues, TaskQueues } from './lib/takeout';
 import getCSPHeaderValue from './csp-header-value';
 import { ValidationError } from 'express-json-validator-middleware';
 import { setupUpdateValidatedSentencesQueue } from './infrastructure/queues/updateValidatedSentencesQueue';
+import { setupBulkSubmissionQueue } from './infrastructure/queues/bulkSubmissionQueue';
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
@@ -53,6 +54,7 @@ export default class Server {
         this.taskQueues = createTaskQueues(this.api.takeout);
         this.api.takeout.setQueue(this.taskQueues.dataTakeout);
         setupUpdateValidatedSentencesQueue()
+        setupBulkSubmissionQueue()
       }
     });
 
