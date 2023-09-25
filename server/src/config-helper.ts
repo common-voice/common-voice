@@ -33,7 +33,7 @@ export type CommonVoiceConfig = {
   SECRET: string;
   AWS_SES_CONFIG: SESClientConfig;
   S3_CONFIG: S3.Types.ClientConfiguration;
-  S3_LOCAL_DEVELOPMENT_ENDPOINT?: string;
+  GOOGLE_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT?: string;
   STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: string;
   GCP_CREDENTIALS: object;
   CINCHY_CONFIG: S3.Types.ClientConfiguration;
@@ -96,8 +96,8 @@ const BASE_CONFIG: CommonVoiceConfig = {
   AWS_REGION: configEntry('CV_AWS_REGION', 'us-west-2'),
   AWS_SES_CONFIG: configEntry('CV_AWS_SES_CONFIG', {}, castJson),
   S3_CONFIG: configEntry('CV_S3_CONFIG', {}, castJson),
-  S3_LOCAL_DEVELOPMENT_ENDPOINT: configEntry(
-    'CV_S3_LOCAL_DEVELOPMENT_ENDPOINT',
+  GOOGLE_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: configEntry(
+    'CV_GOOGLE_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT',
     null
   ),
   STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: configEntry(

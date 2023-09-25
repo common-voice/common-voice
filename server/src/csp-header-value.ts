@@ -87,7 +87,7 @@ const SOURCES = {
 };
 
 function getCSPHeaderValue() {
-  const { PROD, S3_LOCAL_DEVELOPMENT_ENDPOINT } = getConfig();
+  const { PROD, GOOGLE_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT } = getConfig();
 
   /*
     default to production mode to make sure we
@@ -100,9 +100,9 @@ function getCSPHeaderValue() {
     SOURCES['script-src'].push("'unsafe-eval'");
 
     // add s3proxy to allowed sources in development
-    SOURCES['connect-src'].push(S3_LOCAL_DEVELOPMENT_ENDPOINT);
-    SOURCES['media-src'].push(S3_LOCAL_DEVELOPMENT_ENDPOINT);
-    SOURCES['img-src'].push(S3_LOCAL_DEVELOPMENT_ENDPOINT);
+    SOURCES['connect-src'].push(GOOGLE_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT);
+    SOURCES['media-src'].push(GOOGLE_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT);
+    SOURCES['img-src'].push(GOOGLE_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT);
   }
 
   return Object.entries(SOURCES)

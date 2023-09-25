@@ -1,7 +1,7 @@
 import getCSPHeaderValue from './csp-header-value';
 import { getConfig, injectConfig, CommonVoiceConfig } from './config-helper';
 
-const S3_LOCAL_DEVELOPMENT_ENDPOINT = 'http://localhost:9001';
+const GOOGLE_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT = 'http://localhost:8080';
 
 const initialConfig = getConfig();
 
@@ -19,11 +19,13 @@ describe('getCSPHeaderValue', () => {
   });
 
   it('should return expected header value for production', () => {
-    replaceConfig({ PROD: true, S3_LOCAL_DEVELOPMENT_ENDPOINT });
+    replaceConfig({ PROD: true, GOOGLE_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT });
 
     const CSP_HEADER_VALUE = getCSPHeaderValue();
 
-    expect(CSP_HEADER_VALUE).not.toContain(S3_LOCAL_DEVELOPMENT_ENDPOINT);
+    expect(CSP_HEADER_VALUE).not.toContain(
+      GOOGLE_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT
+    );
     // we allow unsafe-inline for fundraise up styles - https://fundraiseup.com/support/content-security-policy/
     // expect(CSP_HEADER_VALUE).not.toContain('unsafe');
     expect(CSP_HEADER_VALUE).toBe(
@@ -33,10 +35,12 @@ describe('getCSPHeaderValue', () => {
 
   it('should return additional changes for development', () => {
     expect(true).toBeTruthy();
-    replaceConfig({ PROD: false, S3_LOCAL_DEVELOPMENT_ENDPOINT });
+    replaceConfig({ PROD: false, GOOGLE_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT });
 
     const CSP_HEADER_VALUE = getCSPHeaderValue();
-    expect(CSP_HEADER_VALUE).toContain(S3_LOCAL_DEVELOPMENT_ENDPOINT);
+    expect(CSP_HEADER_VALUE).toContain(
+      GOOGLE_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT
+    );
     expect(CSP_HEADER_VALUE).toContain('unsafe');
   });
 });
