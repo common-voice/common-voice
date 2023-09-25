@@ -87,7 +87,8 @@ const SOURCES = {
 };
 
 function getCSPHeaderValue() {
-  const { PROD, STORAGE_LOCAL_DEVELOPMENT_ENDPOINT } = getConfig();
+  const { PROD } = getConfig();
+  const localhostURLs = 'http://localhost:*'
 
   /*
     default to production mode to make sure we
@@ -99,10 +100,10 @@ function getCSPHeaderValue() {
     SOURCES['style-src'].push("'unsafe-inline'");
     SOURCES['script-src'].push("'unsafe-eval'");
 
-    // add s3proxy to allowed sources in development
-    SOURCES['connect-src'].push(STORAGE_LOCAL_DEVELOPMENT_ENDPOINT);
-    SOURCES['media-src'].push(STORAGE_LOCAL_DEVELOPMENT_ENDPOINT);
-    SOURCES['img-src'].push(STORAGE_LOCAL_DEVELOPMENT_ENDPOINT);
+    // add localhost to allowed sources in development
+    SOURCES['connect-src'].push(localhostURLs);
+    SOURCES['media-src'].push(localhostURLs);
+    SOURCES['img-src'].push(localhostURLs);
   }
 
   return Object.entries(SOURCES)

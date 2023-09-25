@@ -1,7 +1,7 @@
 import getCSPHeaderValue from './csp-header-value';
 import { getConfig, injectConfig, CommonVoiceConfig } from './config-helper';
 
-const STORAGE_LOCAL_DEVELOPMENT_ENDPOINT = 'http://localhost:8080';
+const STORAGE_LOCAL_DEVELOPMENT_ENDPOINT = 'http://storage:8080';
 
 const initialConfig = getConfig();
 
