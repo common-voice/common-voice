@@ -1170,6 +1170,7 @@ sc-home-collect-title = Бафтау хъуыдыйæдтæ
 
 ## HOW-TO
 
+sc-howto-addlang-title = Бакусинаг æвзæгтæ куыд æфтауынц
 sc-howto-addsen-title = Ног хъуыдыйæдтæ бафтау
 sc-howto-cite-title = Цитатæ куыд аразын хъæуы
 sc-howto-findpd-subtitle = Ссар сæ интернеты
