@@ -528,7 +528,7 @@ how-does-it-work-text = Мах ӕмбырд кӕнӕм хъӕлӕсон рард
 about-language-req-subtitle = Чидæр куры, цæмæй æвзаг бафтой.
 about-localization-title = Веб-сайты локализаци
 about-localization-subtitle = Сайты текст тӕлмацгонд у ацы ӕвзагмӕ.
-about-sentence-collection-title = Хъуыдыйæдтæ куыд æмбырд кæнынц
+about-sentence-collection-title = Хъуыдыйæдтæ æмбырд кæнын
 about-sentence-collection-subtitle = Хъуыдыйæдтæ æмбырд æрцæуынц, цæмæй адæм сæ кæсой хъæрæй.
 about-new-lang-title = Ног æвзаджы куыстыл райдайæн
 about-new-lang-subtitle = Гом кӕнӕм сайт Common Voice ацы ӕвзагыл.
@@ -1142,6 +1142,7 @@ contribution-misreadings-example-2-title = Триасы уæйыг диноза�
 contribution-misreadings-example-2-explanation = [Ӕвӕццӕгӕн «динозавртӕ»]
 contribution-varying-pronunciations-title = Алыхуызон дзурыны ахаст
 contribution-background-noise-title = Фоны хъӕлӕба
+contribution-background-noise-example-2-explanation = [Тексты хай нæ хъуысы]
 contribution-background-voices-title = Æндæр хъæлæстæ уыцы-иу фысты
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
