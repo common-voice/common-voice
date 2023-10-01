@@ -14,10 +14,7 @@
         @media (--lg-down) {
             display: flex;
         }
-        
-        @media (--sm-down) {
-            display: flex;
-        }
+
     }
 
     svg {
