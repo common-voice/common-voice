@@ -11,6 +11,10 @@
             height: 2.5rem;
         }
 
+        @media (--lg-down) {
+            display: flex;
+        }
+        
         @media (--sm-down) {
             display: flex;
         }
