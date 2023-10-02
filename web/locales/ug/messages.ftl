@@ -659,10 +659,13 @@ about-playbook-how-validate-content-4 = ئەگەر بىر ئاۋاز 2 ئادە�
 ## How to access dataset
 
 about-playbook-how-access-dataset = سانلىق مەلۇمات توپلىمىنى قانداق زىيارەت قىلىمەن ۋە ئىشلىتىمەن؟
+about-playbook-how-access-dataset-content-1 = سىز <datasetsPage> سانلىق مەلۇمات توپلىمى بېتى</datasetsPage> گە يۆتكىلىپ، سىزگە لازىملىق نەشرى ۋە تىل (لار) نى تاللاپ چۈشۈرەلەيسىز! بۇ ھۆججەتلەردە  نوپۇس ئۇچۇرى ۋە دەلىللەش سانلىق مەلۇماتلىرىغا ئوخشاش <metadataLink>مۇناسىۋەتلىك مېتا سانلىق مەلۇماتى</metadataLink> بار. سانلىق مەلۇمات توپلىمىنى چۈشۈرۈش ئۈچۈن ئېلخەت ئادرېسى بىلەن تەمىنلىشىڭىز كېرەك.
+about-playbook-how-access-dataset-content-2 = ئەگەر سىز ASR مودېللىرىنى قۇرالايدىغان قوراللارنى ئىزدەۋاتقان بولسىڭىز، مەھەللىدىكى <discourseLink> Discourse دىكى <discourseLink>  باشقا كىشىلەر بىلەن باغلىنالايسىز.
 
 ## How are decisions made
 
 about-playbook-how-project-governance = قۇرۇلۇش قارارلىرى قانداق چىقىرىلىدۇ؟
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice دۇنيانىڭ ھەر قايسى جايلىرىدىكى پائالىيەتچىلەر، تىلشۇناسلار، سانلىق مەلۇمات تەتقىقاتچىلىرى، ئاكادېمىكلار ۋە يۇمشاق دېتال ئىنژېنېرلىرىدىن تەشكىل تاپقان كۆپ مەنبەلىك جەمئىيەت ئەزالىرىنىڭ تەتقىقات نەتىجىسىنىڭ مەھسۇلى. بۇ تۈرنى Mozilla ۋەخپىسى باشقۇرىدۇ.
 about-playbook-how-project-governance-content-2 = باشقۇرۇشىمىز تۆۋەندىكىلەر ئاساسىدا:
 about-playbook-how-project-governance-content-3 = مەخپىيەتلىك، بىخەتەرلىك ۋە ئاشكارىلىق.
 about-playbook-how-project-governance-content-4 = مەھەللىدە قارار چىقىرىشقا قاتنىشىش.
