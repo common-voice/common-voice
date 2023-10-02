@@ -652,6 +652,8 @@ about-playbook-how-grow-language-content-8 = <strong>تەسەۋۋۇرىڭىزن�
 
 about-playbook-how-validate = ئاۋازلىق  تەستىقلاش ياكى تەستىقلىماسلىقنى قانداق بىلىمەن؟
 about-playbook-how-validate-content-1 = ئەگەر سىز ئۇلار ئوقۇغان ئاۋازنى <strong>ئاڭلاپ</strong> ۋە <strong>چۈشەن</strong>ەلىسىڭىز، ئادەتتە <strong>تەستىق</strong>لىسىڭىز بولىدۇ.
+about-playbook-how-validate-content-2 = <strong>سىزدىن پەرقلىق سۆزلەيدىغان «شېۋەسى بار» ئۈزۈندىنى رەت قىلماڭ</strong>بۇ ئاۋاز پەرقلەندۈرۈشنىڭ كۆپچىلىك ئۈچۈن تېخىمۇ ياخشى ئىشلىشى ئۈچۈن بەكلا مۇھىم.
+about-playbook-how-validate-content-3 = ئەگەر تەلەپپۇزنى <strong> چۈشىنىش مۇمكىن ئەمەس </strong> دەپ ئويلىسىڭىز ياكى <strong> ئارقا مۇھىت شاۋقۇنى كۈچلۈك</strong> ياكى <strong> باشقا كىشىلەرمۇ سۆزلەۋاتقان </strong> بولسا ، ئۇنداقتا ئۈن ئۈزۈندىسىنى رەت قىلىشىڭىز كېرەك. <accuracyLink> توغرىلىق ئۆلچىمىمىزدىن تېخىمۇ كۆپ ئۇچۇرلارنى كۆرۈڭ.</accuracyLink>
 about-playbook-how-validate-content-4 = ئەگەر بىر ئاۋاز 2 ئادەم تەرىپىدىن رەت قىلىنسا ، ئۇ سانلىق مەلۇمات توپلىمىنىڭ باشقا تارماق قىسمىدا تارقىتىلىدۇ.
 
 ## How to access dataset
