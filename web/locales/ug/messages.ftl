@@ -830,6 +830,7 @@ request-language-explanation-1 =
     <languagesPageLink> Common Voice تىللار بېتى </languagesPageLink>.
     ئەگەر ئۇنداق بولمىسا، بۇ جەدۋەلنى تولدۇرۇڭ، بىز <strong>سىزگە قۇلايلىق ئېلخەت ئەۋەتىمىز
     خەتتە تىلىڭىزنى قانداق تەڭشەش چۈشەندۈرۈلگەن </ strong>.
+request-language-explanation-2 = بىز <strong>مەھەللە باشقۇرغۇچىمىزغا سىزنىڭمۇ قىزىقىدىغانلىقىڭىزنى بىلدۈرىمىز</strong>، بۇنداق بولغاندا سىز ئېھتىياجلىق بولغان خالىغان قوشۇمچە قوللاش ۋە ئۇچۇرلارنى سىزگە بېرەلىشى مۇمكىن.
 request-language-form-email =
     .label = ئېلخەت ئادرېسىڭىز
 request-language-form-info =
@@ -1180,9 +1181,11 @@ contribution-criteria-page-title = تۆھپە ئۆلچىمى
 contribution-criteria-page-description = ئاۋاز ئۈزۈندەسىنى ئاڭلىغاندا نېمىلەرگە دىققەت قىلىدىغانلىقىنى چۈشىنىڭ، شۇنداق قىلسىڭىز ئۈن خاتىرىڭىزنى بېيىتىشىڭىزغا ياردىمى تېگىدۇ.
 contribution-for-example = مەسىلەن
 contribution-misreadings-title = خاتا ئوقۇلغانلار
+contribution-misreadings-description = ئاڭلىغاندا، ئۈنگە خاتىرىلەنگەننىڭ يېزىلغىنى ئىكەنلىكىنى ئىنتايىن ئىنچىكىلىك بىلەن تەكشۈرۈڭ. كىچىككىنە خاتالىق بولسىمۇ رەت قىلىڭ.<br /> ئىنتايىن كۆپ ئۇچرايدىغان خاتالىقلار:
 contribution-misreadings-description-extended-list-1 = ئۈن خاتىرىلەشنىڭ بېشىدا <strong>«A»</strong> ياكى <strong>«The»</strong> كەم.
 contribution-misreadings-description-extended-list-2 = بىر سۆزنىڭ ئاخىرىدا <strong>«s»</strong> كەم.
 contribution-misreadings-description-extended-list-3 = ئەمەلىيەتتە مەۋجۇت بولمىغان قىسقارتىپ ئوقۇش، مەسىلەن، بارغانكەن دېگەننى  بارغان ئىكەن ياكى بۇرۇن باردى.
+contribution-misreadings-description-extended-list-4 = ئۈنگە ئېلىش بەك تېز بولۇپ ئەڭ ئاخىرقى سۆز ئۈنگە ئېلىنماي كەم قالغان.
 contribution-misreadings-description-extended-list-5 = بىر سۆزنى بىر قانچە قانچە قېتىم ئوقۇشقا ئۇرۇنغان.
 contribution-misreadings-example-1-title = ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرلىرى.
 contribution-misreadings-example-2-title = ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرى.
