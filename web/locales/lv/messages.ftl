@@ -467,11 +467,11 @@ change-email-setings = Mainiet savu e-pastu, izmantojot iestatījumus sadaļā "
 faq-title = Biežāk uzdotie jautājumi
 faq-what-cv-q = Kas ir Common Voice?
 faq-what-cv-a =
-    Balss atpazīšanas tehnoloģija revolucionizē veidu, kā mēs sadarbojamies ar mašīnām, bet pašlaik pieejamās sistēmas ir dārgas un patentētas. Common Voice ir daļa no Mozilla iniciatīvas, lai uzlabotu balss atpazīšanas tehnoloģijas ikvienam. Common Voice ir milzīga globāla ziedoto balsu datu bāze, kas ļauj ikvienam ātri un viegli apmācīt balss iespējotas lietojumprogrammas potenciāli visās valodās.
+    Balss atpazīšanas tehnoloģija revolucionizē veidu, kā mēs sadarbojamies ar mašīnām, bet pašlaik pieejamās sistēmas ir dārgas un patentētas. Common Voice ir daļa no Mozilla iniciatīvas, lai uzlabotu balss atpazīšanas tehnoloģijas ikvienam. Common Voice ir milzīga globāla balsu datu bāze, kas ļauj ikvienam ātri un viegli apmācīt balss iespējotas lietojumprogrammas potenciāli visās valodās.
     
     Mēs ne tikai vācam balss paraugus plaši runātās valodās, bet arī tajās, kurās ir mazāk runātāju. Daudzveidīgu balsu datu kopu publicēšana ļaus izstrādātājiem, uzņēmējiem un kopienām risināt šo trūkumu. Papildus Common Voice datu kopai mēs veidojam arī atvērtā pirmkoda runas atpazīšanas dzinēju, ko sauc par Deep Speech.
 faq-what-cv-a-2 =
-    Balss atpazīšanas tehnoloģija maina veidu, kā mēs mijiedarbojamies ar iekārtām, taču pašlaik pieejamās sistēmas ir dārgas un patentētas. Mozilla Common Voice ir iniciatīva, lai padarītu balss atpazīšanas tehnoloģijas labākas un pieejamākas ikvienam. Common Voice ir globāla ziedoto balsu datu bāze, kas ļauj ikvienam ātri un vienkārši apmācīt ar balsi darbināmas lietotnes dažādās valodās.
+    Balss atpazīšanas tehnoloģija maina veidu, kā mēs mijiedarbojamies ar iekārtām, taču pašlaik pieejamās sistēmas ir dārgas un patentētas. Mozilla Common Voice ir iniciatīva, lai padarītu balss atpazīšanas tehnoloģijas labākas un pieejamākas ikvienam. Common Voice ir globāla balsu datu bāze, kas ļauj ikvienam ātri un vienkārši apmācīt ar balsi darbināmas lietotnes dažādās valodās.
     
     Mēs ne tikai apkopojam balss paraugus plaši lietotās valodās, bet arī tajās, kurās runātāju skaits ir mazāks. Daudzveidīgas balsu datu kopas publicēšana ļaus izstrādātājiem, uzņēmējiem un kopienām pašiem novērst nepilnības valodu balss tehnoloģiju atbalstā dažādās valodās.
 faq-why-important-q = Kāpēc tas ir svarīgi?
@@ -490,7 +490,7 @@ faq-what-cv-and-deepspeech-a = Kopējā balss datu kopa papildina Mozilla atvēr
 faq-is-goal-assistant-q = Vai Common Voice mērķis ir veidot balss asistentu?
 faq-is-goal-assistant-a = Kopējās balss datu kopas mērķis ir ļaut ikvienam pasaulē veidot runas atpazīšanu, runātāju atpazīšanu vai jebkāda cita veida lietojumprogrammu, kas strādā ar balss datiem. Balss palīgs ir tikai viens no daudziem lietojumprogrammu veidiem, kurus var veidot ar šo datu kopu.
 faq-do-want-native-q = Šī nav mana dzimtā valoda un es runāju ar akcentu, vai jums tomēr vajag manus balss ierakstus?
-faq-do-want-native-a = Jā, mēs īpaši vēlamies jūsu balsi! Common Voice mērķis ir apkopot pēc iespējas vairāk dažādu akcentu, lai balss atpazīšanas pakalpojumi darbotos vienlīdz labi visiem. Tas nozīmē, ka īpaši nozīmīgi ir ziedojumi no cilvēkiem, kuriem šī valoda nav dzimtā valoda.
+faq-do-want-native-a = Jā, mēs īpaši vēlamies jūsu balsi! Common Voice mērķis ir apkopot pēc iespējas vairāk dažādu akcentu, lai balss atpazīšanas pakalpojumi darbotos vienlīdz labi visiem. Tas nozīmē, ka īpaši nozīmīgi ir ieraksti no cilvēkiem, kuriem šī valoda nav dzimtā valoda.
 faq-why-different-speakers-q = Kāpēc jums ir nepieciešams tik daudz dažādu runātāju vienā valodā?
 faq-why-different-speakers-a =
     Lielākā daļa runas datu bāzu tiek apmācītas ar dažu demogrāfisko datu pārmērīgu attēlošanu, kas rada novirzi attiecībā uz <articleLink>vidušķiras vīriešiem</articleLink>. Akcenti un dialekti, kas parasti ir nepietiekami pārstāvēti mācību datu kopās, parasti ir saistīti ar cilvēku grupām, kuras jau tā ir atstumtas. Daudzas mašīnas arī cenšas izprast sieviešu balsis.
@@ -507,14 +507,14 @@ faq-how-calc-hours-q = Kā Common Voice aprēķina stundas?
 faq-how-calc-hours-a = Mēs aprēķinām stundas, aprēķinot katra ieraksta vidējo garumu un tad reizinot šo skaitu ar kopējo ierakstu skaitu visās valodās.
 faq-where-src-from-2-q = No kurienes nāk teksti ierakstiem?
 faq-where-src-from-2-a =
-    Mūsu teksti sastāv no sākotnējiem ziedojumiem, kā arī no publiskā domēna filmu subtitriem, piemēram, <italic>It’s a Wonderful Life</italic>.
+    Mūsu teksti sastāv no sākotnējiem ierakstiem, kā arī no publiskā domēna filmu subtitriem, piemēram, <italic>It’s a Wonderful Life</italic>.
     
     Jūs varat apskatīt mūsu teikumus šajā <githubLink> GitHub mapē </githubLink>.
 faq-why-not-ask-read-q = Kāpēc jūs nelūdzat, lai cilvēki lasītu grāmatas vai Wikipedia rakstus dažādās valodās?
 faq-why-not-ask-read-a = Lai Common Voice datu kopu padarītu pēc iespējas lietderīgāku, mēs esam nolēmuši atļaut tajā tikai tekstu, kas ir pieejams saskaņā ar Creative Commons (CC0) licenci. Izmantojot CC0 standartu, ir grūtāk atrast un savākt tekstu, bet tas ļauj ikvienam izmantot iegūtos balss datus bez lietošanas ierobežojumiem vai Mozilla atļaujas. Galu galā mēs vēlamies padarīt daudzvalodu datu bāzi lietderīgu ikvienam, tostarp pētniekiem, universitātēm, uzņēmumiem, valdībām, sociālā mērķa organizācijām un vienkārši tehnoloģiju entuziastiem.
 faq-why-account-q = Kāpēc man jāreģistrējas?
 faq-is-account-public-q = Vai mana konta informācija ir publiski pieejama?
-faq-how-privacy-q = Kā jūs nodrošināsiet to cilvēku anonimitāti un privātumu, kuri ziedoja savas balsis?
+faq-how-privacy-q = Kā jūs nodrošināsiet to cilvēku anonimitāti un privātumu, kuri ieraksta savas balsis?
 faq-how-privacy-a = Datu kopas balss ierakstos tiek noņemta jebkāda personas identificējoša informācija. Ja dalībnieks savā profilā ir sniedzis demogrāfiskos datus, šī informācija tiek noņemta no viņa balss ierakstiem, pirms tie tiek pievienoti lejupielādei datu kopā, un nekad netiek publiskota profila lapā.
 faq-what-determine-identity-q = Ko tas nozīmē, ka es “nevaru noteikt runātāju identitāti Common Voice datu kopā”?
 faq-what-determine-identity-a =
@@ -534,7 +534,7 @@ about-header-description-v2 =
     <p>Common Voice ir publiski pieejama balss datu kopa, ko veido brīvprātīgo balsis visā pasaulē. Cilvēki, kuri vēlas veidot programmas, kas strādā ar balsi, var izmantot datu kopu, lai apmācītu runas atpazīšana modeļus.</p>
     <p>Šobrīd lielākā daļa balss datu kopu pieder atsevišķiem uzņēmumiem, kas kavē inovācijas. Valodas ar mazu runātāju skaitu pasaulē balss datu kopās ir nepietiekami pārstāvētas. Tas nozīmē, ka tehnoloģijas, kas darbojas ar balsi šajās valodās nedarbojas vai strādā slikti. Mēs vēlamies to mainīt, mobilizējot cilvēkus visā pasaulē, lai viņi dalītos ar savu balsi un pārbaudītu ierakstītos teikumus.</p>
 how-does-it-work-title-v2 = Kā darbojas Common Voice?
-how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamu datu kopu. Ziedojiet savu balsi, apstipriniet citu cilvēku ierakstus, uzlabojiet datu kopu visiem.
+how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamu datu kopu. Ierakstiet savu balsi, apstipriniet citu cilvēku ierakstus, uzlabojiet datu kopu visiem.
 
 ## How does it work section
 
@@ -691,7 +691,7 @@ hours-validated-explanation = Balss ieraksta stundu skaits, ko apstiprinājuši 
 sst = Runa uz tekstu (STT)
 sst-explanation = Runas-teksta (STT) tehnoloģijas pārvērš balss datus tekstā.
 de-identified = Atbrīvots no identifikācijas
-de-identified-explanation = Process, kurā ierunātāja profila informācija tiek maskēta viņu ziedotajos balss ierakstos, ja tie ir pieejami lejupielādei kā datu kopas daļa.
+de-identified-explanation = Process, kurā ierunātāja profila informācija tiek maskēta viņu balss ierakstos, ja tie ir pieejami lejupielādei kā datu kopas daļa.
 
 ## Error pages
 
@@ -1290,7 +1290,7 @@ share-goal-type-speak = Runāšana
 share-goal-type-listen = Klausīšanās
 share-goal-type-both = Runāšana un klausīšanās
 # LINK will be replaced with the current URL
-goal-share-text = Es tikko izveidoju savu balss ziedošanas mērķi #CommonVoice - pievienojieties man un palīdziet iekārtām iemācīt saprast latviešu valodu { $link }
+goal-share-text = Es tikko izveidoju savu balss talkas mērķi #CommonVoice - pievienojieties man un palīdziet iekārtām iemācīt saprast latviešu valodu { $link }
 weekly-goal-created = Jūsu nedēļas mērķis ir izveidots
 daily-goal-created = Jūsu ikdienas mērķis ir izveidots
 track-progress = Sekojiet progresam šeit statistikas lapā.
@@ -1513,7 +1513,7 @@ sc-howto-findpd-tips-1 = Labākie avoti, kur varat meklēt, ir podkāsti, stenog
 sc-howto-findpd-tips-2 = Valdības sēžu stenogrammas, grāmatas un raksti arī ir lieliski, taču, tā kā teksts mēdz būt nedaudz formālāks, tiem ir mazāka prioritāte.
 sc-howto-findpd-tips-3 = Diemžēl mēs šobrīd nevaram iekļaut Wikimedia rakstus. Tāpēc, lūdzu, nekopējiet teikumus no turienes.
 sc-howto-findpd-subtitle-2 = Sadarbojieties ar vietējām organizācijām vai privātpersonām
-sc-howto-findpd-partner-1 = Ir daudzas sabiedriskās organizācijas, kuras varētu vēlēties sadarboties, un tām jau ir daudz tekstu, ko tās var ziedot sabiedrības labumam kā publisku īpašumu. Sazinieties ar vietējām universitātēm, valdībām un atvērtā pirmkoda organizācijām, lai runātu par projektu un lūgtu viņu palīdzību.
+sc-howto-findpd-partner-1 = Ir daudzas sabiedriskās organizācijas, kuras varētu vēlēties sadarboties, un tām jau ir daudz tekstu, ko tās var iedot sabiedrības labumam kā publisku īpašumu. Sazinieties ar vietējām universitātēm, valdībām un atvērtā pirmkoda organizācijām, lai runātu par projektu un lūgtu viņu palīdzību.
 sc-howto-findpd-partner-2 = Eksperti valodnieki var arī palīdzēt, mēģināt sazināties ar vietējām lingvistiskajām universitātēm (gan skolotājiem, gan studentiem) un noskaidrot, vai tās var palīdzēt apkopot daudzveidīgu skaņu un dažādu teikumu kopumu jūsu valodā.
 
 ## MY SENTENCES
@@ -1796,7 +1796,7 @@ partnerships-corporates-header = Liela mēroga korporācijas un platformu uzņē
 partnerships-corporates-description = Ja vēlaties runāt vairāk par datu kopu, līdzinvestēt plānotos platformas paplašināšanā vai meklēt sadarbības iespējas, <emailFragment>rakstiet mums.</emailFragment>
 partnerships-our-partners = Mūsu partneri
 # FIRST POST SUBMISSION CTA
-first-cta-header-text = Paldies, ka ziedojāt savas balss ierakstus!
+first-cta-header-text = Paldies, ka pievienojāt savas balss ierakstus!
 first-cta-subtitle-text = Vai vēlaties pastāstīt par to, kā runājat?
 why-donate = Kāpēc jūs jautājat?
 why-donate-explanation-1 = Šī informācija nav jāsniedz obligāti - pievienojiet to tikai tad, ja jūtaties ērti. Kad mēs izlaižam datu kopu, mēs pseidonimizējam visu personas informāciju un pārliecināmies, ka informācija, piemēram, jūsu vārds un e-pasts, nav saistīta ar demogrāfisko informāciju, piemēram, vecumu vai dzimumu.
@@ -1807,7 +1807,7 @@ create-profile-text = Vai vēlaties saglabāt savu informāciju? <createProfile>
 thanks-for-voice-toast = Paldies par balss informāciju
 thanks-for-voice-toast-error = Iesniedzot jūsu balss informāciju, radās kļūda
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = Paldies, ka ziedojāt savas balss ierakstus!
+second-cta-header-text = Paldies, ka pievienojāt savas balss ierakstus!
 second-cta-subtitle-text = Izmantojot profilu, varēsiet sekot līdzi savai aktivitātei un sazināties ar balss datu vācēju kopienu.
 already-have-an-account = Jums jau ir konts? <login>Pieslēdzieties</login>
 create-profile-button = Izveidot profilu
