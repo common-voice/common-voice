@@ -895,7 +895,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> īrokstu
     }
 goal-help-recording = Jius asat paleidziejuši sasnēgt <goalPercentage> </goalPercentage> nu myusu mierka - { $goalValue } īrokstu dīnā!
-goal-help-validation = Jius asat paleidziejuši sasnēgt <goalPercentage> </goalPercentage> nu myusu mierka - { $goalValue } puorbaudeitū īrokstu dīnā!
+goal-help-validation = Jius asat paleidziejuši sasnēgt <goalPercentage> </goalPercentage> nu myusu mierka - { $goalValue } puorbaudeitūs īrokstu dīnā!
 contribute-more =
     { $count ->
         [zero] Voi asat gotovi vēļ { $count }?
