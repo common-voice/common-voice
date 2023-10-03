@@ -656,7 +656,7 @@ about-playbook-how-validate = Kai zynuot, voi apstyprynuot bolsa īrokstu?
 about-playbook-how-validate-content-1 = Ka varit <strong>dzierdēt saceitū</strong> i <strong>saprast saceitū</strong>, parasti <strong>vyslobuok apstyprynuot</strong> īrokstu.
 about-playbook-how-validate-content-2 = <strong>Nanūraidit īrokstus, kurūs runuotuojam “ir akcents”, kas atsaškir nu jiusejuo</strong> - dažaidys izrunys i akcenti ir svareigi, lai bolsa atpazeišona struoduotu labi sevkuram.
 about-playbook-how-validate-content-3 = Ka dūmojit, ka izruna <strong>naļaun piļneibā saprast</strong> voi ir <strong>lels fona trūksnis</strong>, voi <strong>fonā runoj ari cyti cylvāki</strong>, tod īroksts ir juonūraida. <accuracyLink>Veritēs plotuoku informaceju myusu precizitatis kriterejūs</accuracyLink>.
-about-playbook-how-validate-content-4 = Ka īrokstu nūraida 2 cylvāki, tys teik izlaists datu kūpys nūraideitū īrokstu apakškūpā.
+about-playbook-how-validate-content-4 = Ka īrokstu nūraida 2 cylvāki, tys teik izlaists datu kūpys nūraideitūs īrokstu apakškūpā.
 
 ## How to access dataset
 
@@ -1320,13 +1320,13 @@ sc-my-submission = Īsnīguma identifikators: { $batchId }
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Olūts: { $source }
 sc-my-delete = Dzēst atlaseitūs teikumus
-sc-my-deleting = Nūteik atlaseitū teikumu dziesšona...
+sc-my-deleting = Nūteik atlaseitūs teikumu dziesšona...
 sc-my-err-failed-delete = Naizadeve izdzēst atlaseitūs teikumus... Lyudzu, raugit vēļreiz!
 
 ## REJECTED
 
 sc-rejected-title = Nūraideitī teikumi
-sc-rejected-loading = Nūteik nūraideitū teikumu īluode...
+sc-rejected-loading = Nūteik nūraideitūs teikumu īluode...
 sc-rejected-err-fetching = Īluodejūt nūraideitūs teikumus, roduos klaida. Lyudzu, raugit vēļreiz.
 sc-rejected-none-found = Natyka atrosts nivīns nūraideits teikums!
 
