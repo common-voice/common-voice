@@ -243,7 +243,7 @@ terms = Noteikumi
 cookies = Sīkdatnes
 faq = BUJ
 content-license-text = Saturs licencēts ar <licenseLink>Creative Commons licenci</licenseLink>
-share-title = Palīdziet mums atrast citus, kas ziedos savu balss ierakstu!
+share-title = Palīdziet mums atrast citus, kas varētu ierakstīt savu balsi!
 share-text = Palīdziet iekārtām saprast latviešu valodu, ierakstiet savu balsi vai pārbaudiet savāktos ierakstus { $link }
 link-copied = Saite kopēta
 back-top = Atpakaļ uz augšu
@@ -258,7 +258,7 @@ home-cta = Runā skaļi, veic ieguldījumu šeit!
 wall-of-text-start = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju, ir nepieciešams daudz balss ierakstu.
 wall-of-text-more-mobile = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Tas kavē inovāciju. Tāpēc esam uzsākuši Common Voice - projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
 wall-of-text-more-desktop =
-    Tagad jūs varat ziedot savu balsi, lai palīdzētu mums izveidot atvērtā pirmkoda balss datubāzi, ko var izmantot ikviens,
+    Tagad jūs varat ierakstīt savu balsi, lai palīdzētu mums izveidot atvērtā pirmkoda balss datubāzi, ko var izmantot ikviens,
     veidojot inovatīvas lietotnes ierīcēm un tīmeklim. Lasiet teikumu, lai palīdzētu mašīnām iemācīt, kā runā cilvēki. Pārbaudiet citu cilvēku ierakstus, lai uzlabotu datu kvalitāti. Tas ir tik vienkārši!
 wall-of-text-first = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju, ir nepieciešams daudz balss ierakstu.
 wall-of-text-second = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Tas kavē inovāciju. Tāpēc mēs esam uzsākuši Common Voice - projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
@@ -269,7 +269,7 @@ no-clips-to-validate = Izskatās, ka šajā valodā nav audio ierakstu. Palīdzi
 vote-yes = Jā
 vote-no = Nē
 toggle-play-tooltip = Nospiediet { shortcut-play-toggle }, lai pārslēgtu atskaņošanas režīmu
-speak-subtitle = Ziedot savu balsi
+speak-subtitle = Ieraksti savu balsi
 speak-paragraph = Lai mūsu valoda iekārtu laikmetā neizzustu, mums jāieraksta savas balsis; daži teiktu, ka tas ir arī jautri.
 speak-goal-text = Ieraksti ierakstīti
 listen-subtitle = Palīdziet pārbaudīt balsis
@@ -281,7 +281,7 @@ voices-online = Dalībnieki tiešsaistē
 todays-progress = Šodienas progress
 help-reach-goal = Palīdziet sasniegt { $goal }
 read-terms-q = Vai esat izlasījis noteikumus?
-ready-to-record = Vai esat gatavs ziedot savu balsi?
+ready-to-record = Vai esat gatavs ierakstīt savu balsi?
 all-locales = Visas
 today = Šodien
 x-weeks-short =
@@ -362,7 +362,7 @@ request-language-button = Pieprasīt valodu
 ## ProjectStatus
 
 status-title = Kopējais projekta statuss: redziet, cik tālu mēs esam!
-status-contribute = Ziedo savu balsi
+status-contribute = Ieraksti savu balsi
 status-hours =
     { $hours ->
         [zero] Līdz šim pārbaudīta { $hours } stunda!
