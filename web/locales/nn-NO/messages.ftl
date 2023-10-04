@@ -1210,6 +1210,9 @@ sc-add-err-submission = Innsendingsfeil
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = Stadfest nye setningar
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } vart avviste av deg
 sc-confirm-button-text = Stadfest
 sc-confirm-uploading = Setningar vert lasta opp. Dette kan ta fleire minutt, avhengig av talet på setningar som er lagt til. Ikkje lat at denne nettstaden.
 
