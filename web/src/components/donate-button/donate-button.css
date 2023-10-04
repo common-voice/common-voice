@@ -11,9 +11,10 @@
             height: 2.5rem;
         }
 
-        @media (--sm-down) {
+        @media (--lg-down) {
             display: flex;
         }
+
     }
 
     svg {
