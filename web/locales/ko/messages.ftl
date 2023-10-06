@@ -933,6 +933,7 @@ target-segment-learn-more = 더 알아보기
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = 음성 모음
 contribute-sentence-collection-nav-header = 문장 모음
 
 ## Reporting
@@ -1524,4 +1525,6 @@ sc-validation-no-abbreviations = 문장에는 약어가 포함되어서는 안 �
 
 localization-select =
     .label = 언어/현지화 선택
+# PARTNERSHIPS PAGE
+partnerships-header = 협력사
 sentence-collection = 문장 모음
