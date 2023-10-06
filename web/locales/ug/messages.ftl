@@ -652,15 +652,20 @@ about-playbook-how-grow-language-content-8 = <strong>تەسەۋۋۇرىڭىزن�
 
 about-playbook-how-validate = ئاۋازلىق  تەستىقلاش ياكى تەستىقلىماسلىقنى قانداق بىلىمەن؟
 about-playbook-how-validate-content-1 = ئەگەر سىز ئۇلار ئوقۇغان ئاۋازنى <strong>ئاڭلاپ</strong> ۋە <strong>چۈشەن</strong>ەلىسىڭىز، ئادەتتە <strong>تەستىق</strong>لىسىڭىز بولىدۇ.
+about-playbook-how-validate-content-2 = <strong>سىزدىن پەرقلىق سۆزلەيدىغان «شېۋەسى بار» ئۈزۈندىنى رەت قىلماڭ</strong>بۇ ئاۋاز پەرقلەندۈرۈشنىڭ كۆپچىلىك ئۈچۈن تېخىمۇ ياخشى ئىشلىشى ئۈچۈن بەكلا مۇھىم.
+about-playbook-how-validate-content-3 = ئەگەر تەلەپپۇزنى <strong> چۈشىنىش مۇمكىن ئەمەس </strong> دەپ ئويلىسىڭىز ياكى <strong> ئارقا مۇھىت شاۋقۇنى كۈچلۈك</strong> ياكى <strong> باشقا كىشىلەرمۇ سۆزلەۋاتقان </strong> بولسا ، ئۇنداقتا ئۈن ئۈزۈندىسىنى رەت قىلىشىڭىز كېرەك. <accuracyLink> توغرىلىق ئۆلچىمىمىزدىن تېخىمۇ كۆپ ئۇچۇرلارنى كۆرۈڭ.</accuracyLink>
 about-playbook-how-validate-content-4 = ئەگەر بىر ئاۋاز 2 ئادەم تەرىپىدىن رەت قىلىنسا ، ئۇ سانلىق مەلۇمات توپلىمىنىڭ باشقا تارماق قىسمىدا تارقىتىلىدۇ.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = سانلىق مەلۇمات توپلىمىنى قانداق زىيارەت قىلىمەن ۋە ئىشلىتىمەن؟
+about-playbook-how-access-dataset-content-1 = سىز <datasetsPage> سانلىق مەلۇمات توپلىمى بېتى</datasetsPage> گە يۆتكىلىپ، سىزگە لازىملىق نەشرى ۋە تىل (لار) نى تاللاپ چۈشۈرەلەيسىز! بۇ ھۆججەتلەردە  نوپۇس ئۇچۇرى ۋە دەلىللەش سانلىق مەلۇماتلىرىغا ئوخشاش <metadataLink>مۇناسىۋەتلىك مېتا سانلىق مەلۇماتى</metadataLink> بار. سانلىق مەلۇمات توپلىمىنى چۈشۈرۈش ئۈچۈن ئېلخەت ئادرېسى بىلەن تەمىنلىشىڭىز كېرەك.
+about-playbook-how-access-dataset-content-2 = ئەگەر سىز ASR مودېللىرىنى قۇرالايدىغان قوراللارنى ئىزدەۋاتقان بولسىڭىز، مەھەللىدىكى <discourseLink> Discourse دىكى <discourseLink>  باشقا كىشىلەر بىلەن باغلىنالايسىز.
 
 ## How are decisions made
 
 about-playbook-how-project-governance = قۇرۇلۇش قارارلىرى قانداق چىقىرىلىدۇ؟
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice دۇنيانىڭ ھەر قايسى جايلىرىدىكى پائالىيەتچىلەر، تىلشۇناسلار، سانلىق مەلۇمات تەتقىقاتچىلىرى، ئاكادېمىكلار ۋە يۇمشاق دېتال ئىنژېنېرلىرىدىن تەشكىل تاپقان كۆپ مەنبەلىك جەمئىيەت ئەزالىرىنىڭ تەتقىقات نەتىجىسىنىڭ مەھسۇلى. بۇ تۈرنى Mozilla ۋەخپىسى باشقۇرىدۇ.
 about-playbook-how-project-governance-content-2 = باشقۇرۇشىمىز تۆۋەندىكىلەر ئاساسىدا:
 about-playbook-how-project-governance-content-3 = مەخپىيەتلىك، بىخەتەرلىك ۋە ئاشكارىلىق.
 about-playbook-how-project-governance-content-4 = مەھەللىدە قارار چىقىرىشقا قاتنىشىش.
@@ -769,6 +774,7 @@ resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ تەتقىقاتچ�
 resource-deepspeech-info = Common Voice سانلىق مەلۇمات ئامبىرى Mozilla نىڭ ئوچۇق مەنبەلىك ئاۋاز پەرقلەندۈرۈش ماتورى Deep Speech نى قوللىنىپ، ئاۋاز پەرقلەندۈرۈش پروگراممىلىرىنى قۇرالايسىز. قەيەردىن باشلاشنى بىلىشتە بىزنىڭ <githubLink>قىسقىچە تونۇشتۇرۇش  Github </githubLink>  نى ئوقۇڭ ياكى <discourseLink>DeepSpeech مۇنازىرىسىگە</discourseLink> قاتنىشىڭ.
 resource-coqui-info = <coquiLink> Coqui </coquiLink> ئوچۇق نۇتۇق تېخنىكىسىغا بېغىشلانغان. ئۇلارنىڭ تۈرلىرى چوڭقۇر ئۆگىنىشنى ئاساس قىلغان STT ۋە TTS موتورلىرىنى ئۆز ئىچىگە ئالىدۇ.
 community-playbook = مەھەللە قوللانمىسى
+resource-playbook-info = پۈتكۈل Common Voice سەپىرىدە يەرلىكلەشتۈرۈشتىن سانلىق مەلۇمات توپلىمىنى ئىشلىتىش، جامائىتىمىز بىلەن قانداق ئالاقە قىلىشقىچە بولغان نۇرغۇن ئۇچۇرلارنى <playbookLink>كېرەكلىك يېتەكچى</playbookLink> دىن تاپقىلى بولىدۇ.
 data-other-librispeech-description = LibriSpeech تەخمىنەن 1000 سائەت ئەتراپىدىكى LibriVox تۈرىدىكى ئاۋازلىق كىتابلاردىن تاللانغان 16Khz لىق ئىنگلىزچە ئوقۇشلۇق.
 data-other-ted-name = TED-LIUM  سۆزلۈكلەر توپلىمى
 data-other-ted-description = TED-LIUM سۆزلۈكلەر توپلىمى ئاۋازلىق سۆھبەتلەردىن ياسالغان بولۇپ ، ئۇلارنىڭ خاتىرىلىرى TED تور بېتىدە بار.
@@ -824,6 +830,7 @@ request-language-explanation-1 =
     <languagesPageLink> Common Voice تىللار بېتى </languagesPageLink>.
     ئەگەر ئۇنداق بولمىسا، بۇ جەدۋەلنى تولدۇرۇڭ، بىز <strong>سىزگە قۇلايلىق ئېلخەت ئەۋەتىمىز
     خەتتە تىلىڭىزنى قانداق تەڭشەش چۈشەندۈرۈلگەن </ strong>.
+request-language-explanation-2 = بىز <strong>مەھەللە باشقۇرغۇچىمىزغا سىزنىڭمۇ قىزىقىدىغانلىقىڭىزنى بىلدۈرىمىز</strong>، بۇنداق بولغاندا سىز ئېھتىياجلىق بولغان خالىغان قوشۇمچە قوللاش ۋە ئۇچۇرلارنى سىزگە بېرەلىشى مۇمكىن.
 request-language-form-email =
     .label = ئېلخەت ئادرېسىڭىز
 request-language-form-info =
@@ -1174,9 +1181,11 @@ contribution-criteria-page-title = تۆھپە ئۆلچىمى
 contribution-criteria-page-description = ئاۋاز ئۈزۈندەسىنى ئاڭلىغاندا نېمىلەرگە دىققەت قىلىدىغانلىقىنى چۈشىنىڭ، شۇنداق قىلسىڭىز ئۈن خاتىرىڭىزنى بېيىتىشىڭىزغا ياردىمى تېگىدۇ.
 contribution-for-example = مەسىلەن
 contribution-misreadings-title = خاتا ئوقۇلغانلار
+contribution-misreadings-description = ئاڭلىغاندا، ئۈنگە خاتىرىلەنگەننىڭ يېزىلغىنى ئىكەنلىكىنى ئىنتايىن ئىنچىكىلىك بىلەن تەكشۈرۈڭ. كىچىككىنە خاتالىق بولسىمۇ رەت قىلىڭ.<br /> ئىنتايىن كۆپ ئۇچرايدىغان خاتالىقلار:
 contribution-misreadings-description-extended-list-1 = ئۈن خاتىرىلەشنىڭ بېشىدا <strong>«A»</strong> ياكى <strong>«The»</strong> كەم.
 contribution-misreadings-description-extended-list-2 = بىر سۆزنىڭ ئاخىرىدا <strong>«s»</strong> كەم.
 contribution-misreadings-description-extended-list-3 = ئەمەلىيەتتە مەۋجۇت بولمىغان قىسقارتىپ ئوقۇش، مەسىلەن، بارغانكەن دېگەننى  بارغان ئىكەن ياكى بۇرۇن باردى.
+contribution-misreadings-description-extended-list-4 = ئۈنگە ئېلىش بەك تېز بولۇپ ئەڭ ئاخىرقى سۆز ئۈنگە ئېلىنماي كەم قالغان.
 contribution-misreadings-description-extended-list-5 = بىر سۆزنى بىر قانچە قانچە قېتىم ئوقۇشقا ئۇرۇنغان.
 contribution-misreadings-example-1-title = ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرلىرى.
 contribution-misreadings-example-2-title = ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرى.
@@ -1193,6 +1202,8 @@ contribution-misreadings-example-7-explanation = [ئەسلى تېكىستتە «
 contribution-misreadings-example-8-title = بۈركۈت تېز سۈرئەتتە ئۆتۈپ كەتتى.
 contribution-misreadings-example-8-explanation = [ماس كەلمىگەن مەزمۇن]
 contribution-varying-pronunciations-title = ھەرخىل تەلەپپۇزلار
+contribution-varying-pronunciations-description = ئوقۇرمەننىڭ بىر سۆزنى خاتا تەلەپپۇز قىلغانلىقى، ئۇرغۇنى خاتا ئورۇندا چىقارغانلىقى ياكى سوئال بەلگىسىگە سەل قارىغانلىقى تۈپەيلىدىن ئۈن ئۈزۈندىسىنى رەت قىلىشتىن ئېھتىيات قىلىڭ. كىشىلەر دۇنيانىڭ ھەرقايسى جايلىرىدا ھەر خىل شېۋىدە سۆزلىشىدۇ، بۇلارنىڭ بەزىلىرىنى مەھەللىڭىزدە ئاڭلاپ باقمىغان بولۇشىڭىز مۇمكىن. سىزدىن پەرقلىق سۆزلىيەلەيدىغانلارغا مىننەتدارلىق بىلدۈرۈڭ.
+contribution-varying-pronunciations-description-extended = يەنە بىر جەھەتتىن، ئەگەر سىز ئوقۇرمەننى ئەزەلدىن بۇ سۆزنى ئۇچرىتىپ باقمىغان، تەلەپپۇزدا خاتا پەرەز قىلىۋاتىدۇ دەپ ئويلىغان بولسىڭىز رەت قىلىڭ. ئەگەر جەزملىيەلمىسىڭىز، ئاتلا توپچىسىنى چېكىڭ.
 contribution-varying-pronunciations-example-1-title = ئۇ باشىغا فىرانسىيە بېرېت شىلەپىسى كىيگەن ئىدى.
 contribution-varying-pronunciations-example-1-explanation = [«بېرېت» دېگەن سۆزدىكى ئۇرغۇ بىرىنچى بوغۇمدا (ئەنگلىيە) ياكى ئىككىنچى بوغۇمدا (ئامېرىكا) بولسىمۇ بولىۋېرىدۇ]
 contribution-varying-pronunciations-example-2-title = ئۇنىڭ قولى كۆتۈرۈل-گەن.
