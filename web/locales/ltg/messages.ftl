@@ -1723,7 +1723,7 @@ required-field = Lyudzu, aizpiļdit itū lauku.
 # REVIEW PAGE
 sc-review-instruction-first-part = Puorbaudi
 sc-review-instruction-second-part = voi itys ir lingvistiski pareizs teikums?
-sc-review-rules-title = Vai teikums atbylst vodlinejom?
+sc-review-rules-title = Voi teikums atbylst vodlinejom?
 sc-review-empty-state = Itūšaļt itamā volūdā nav teikumu, kū puorbaudeit.
 report-sc-different-language = Napareiza volūda
 report-sc-different-language-detail = Tys ir uzraksteits volūdā, kas atsaškir nu tuos, kū itūšaļt puorbaudu.
