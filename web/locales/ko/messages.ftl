@@ -42,10 +42,13 @@ ba = 바시키르어
 bas = 바사어
 be = 벨로루시어
 bg = 불가리아어
+bm = 밤바라어
 bn = 벵골어
+bo = 티베트어
 br = 브르타뉴어
 bs = 보스니아어
 bxr = 부랴트어
+byv = 메둠바어
 ca = 카탈로니아어
 cak = 마야어
 ckb = 중앙 쿠르드어
@@ -65,6 +68,7 @@ eo = 에스페란토어
 es = 스페인어
 et = 에스토니아어
 eu = 바스크어
+ewo = 이원도어
 fa = 페르시아어
 ff = 풀라어
 fi = 핀란드어
@@ -75,6 +79,7 @@ ga-IE = 아일랜드어
 gl = 갈리시아어
 gn = 과라니어
 gom = 고안 콘칸어
+gu-IN = 구자라트어
 ha = 하우사어
 he = 히브리어
 hi = 힌디어
@@ -114,6 +119,7 @@ lij = 리구리아어
 ln = 링갈라어
 lo = 라오어
 lt = 리투아니아어
+ltg = 라트갈레어
 lv = 라트비아어
 mai = 마이틸어
 mdf = 목샤어
@@ -139,10 +145,12 @@ nl = 네덜란드어
 nn-NO = 노르웨이어 뉘노르스크
 nr = IsiNdebele (South)
 nso = 북소토어
+ny = 체와어
 nyn = 엔코어어
 oc = 오크어
 om = 아파안 오로모어
 or = 오리야어
+os = 오세트어
 pa-IN = 펀자브어
 pap-AW = 파피아멘토(아루바)
 pl = 폴란드어
@@ -199,6 +207,7 @@ ve = 벤다어
 vec = 베네치아어
 vi = 베트남어
 vot = 바트어
+wo = 월로프어
 xh = 코사어
 yi = 이디시어
 yo = 요루바어
@@ -233,6 +242,7 @@ share-text = 실제로 사람들이 말하는 방식을 프로그램에 추가�
 link-copied = 링크 복사됨
 back-top = 처음으로 돌아가기
 logout = 로그아웃
+donate = 기부
 
 ## Home Page
 
@@ -402,6 +412,7 @@ why-demographic-explanation-2 = 연령, 성별, 억양과 같은 익명 사용�
 accept-privacy = Mozilla의 <privacyLink>개인 정보 보호정책</privacyLink>에서 설명한대로 이 정보를 처리해 주십시오.
 accept-privacy-title = 개인 정보 보호 정책
 login-identity = 로그인 정보
+login = 로그인
 login-signup = 로그인 / 가입하기
 edit = 수정
 email-subscriptions = 이메일 구독
@@ -730,6 +741,7 @@ confirm-size = <b>{ $size }</b>의 다운로드를 시작할 준비가 되었습
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = Common Voice 데이터세트의 녹음기부자의 신원을 밝히려는 시도를 하지 않는데에 <b>동의</b>합니다.
+confirm-join-mailing-list = Common Voice 메일링 리스트에 가입하고 싶습니다.
 download-language = { $language } 다운로드
 validated-hours = 검증된 분량
 recorded-hours = 녹음된 분량
@@ -762,6 +774,9 @@ more = 더보기
 close = 닫기
 download = 다운로드
 dataset-version = 버전
+sha256-checksum-copied = SHA256 체크섬이 복사되었습니다!
+sha256-checksum-copied-error = SHA256 체크섬을 복사하지 못했습니다.
+clipboard-not-supported = 클립보드가 지원되지 않음
 
 ## Download Modal
 
@@ -851,6 +866,8 @@ action-click = 클릭
 action-tap = 탭
 contribute = 기여하기
 listen = 듣기
+write = 쓰기
+review = 검토
 skip = 건너뛰기
 shortcuts = 바로 가기
 clips-with-count-pluralized =
@@ -916,6 +933,7 @@ target-segment-learn-more = 더 알아보기
 
 ## Contribution Nav Items
 
+contribute-sentence-collection-nav-header = 문장 모음
 
 ## Reporting
 
