@@ -18,6 +18,8 @@ banner-error-slow-1 = 죄송합니다. Common Voice가 느리게 실행되고 �
 banner-error-slow-2 = 트래픽이 많이 발생하고 있으며 현재 문제를 조사하고 있습니다.
 banner-error-slow-link = 상태 페이지
 error-something-went-wrong = 죄송합니다. 오류가 발생하였습니다.
+error-clip-upload = 이 클립의 업로드가 계속 실패합니다. 계속 다시 시도하시겠습니까?
+error-clip-upload-server = 이 클립의 업로드가 계속 실패합니다. 페이지를 새로 고침하거나 나중에 다시 시도하세요.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -598,7 +600,6 @@ about-playbook-how-add-sentences = 문장은 어떻게 추가하나요?
 about-playbook-how-add-sentences-content-1 = <strong>문장 수집기</strong>는 공개 도메인 문장을 수집하고 검증하기 위한 도구입니다. <scAccountLink>계정을 만들어야 합니다</scAccountLink>. 그런 다음 <strong>프로필</strong>에 언어를 추가하세요. 문장을 <strong>추가</strong>하거나 이전에 추가한 문장을 <strong>검토</strong>할 수 있습니다.
 about-playbook-how-add-sentences-content-2 = Common Voice에 포함되려면 두 사람이 문장을 검토하고 수락해야 합니다. <languageGuidelinesLink>여기</languageGuidelinesLink>에서 귀하의 언어에 대한 지침을 만들 수 있습니다. 문장은 <licenseLink>공개</licenseLink>에 있어야 하며 15단어 미만이어야 합니다. 텍스트 소유자에게 <waiverLink>포기 절차를 사용하여 CC0</waiverLink>으로 만들고 commonvoice@mozilla.com으로 보내달라고 요청할 수 있습니다.
 about-playbook-how-add-sentences-content-3 = <scraperLink>문장 추출기</scraperLink>를 사용하여 Wikipedia의 짧은 문장을 활용할 수 있습니다.
-about-playbook-how-add-sentences-content-4 = 검증된 문장은 수요일에 내보내지며 다음 출시 이후에 사용할 수 있습니다.
 
 ## How to record quality
 
@@ -715,7 +716,6 @@ language = 언어
 download-dataset-header = 데이터세트 다운로드
 download-delta-explainer = 변경 사항이 있습니다. 델타 세그먼트에는 마지막 릴리스 이후 가장 최근 클립만 포함됩니다. <deltaLink>이 일에 대해 자세히 알아보세요</deltaLink>.
 download-dataset-tag = 원하는 언어 데이터 세트를 선택하고 다운로드하려는 버전을 선택하십시오.
-download-dataset-access = 이전 데이터 세트 릴리스를 찾고 계십니까? <emailLink>{ $email }</emailLink>로 이메일을 보내주세요.
 # File size in gigabytes
 size = 크기
 validated-hr-total = 검증된 시간 합계
@@ -913,6 +913,9 @@ target-segment-generic-card = 대상 세그먼트에 기여하고 있습니다.
 target-segment-first-banner = { $locale }로 Common Voice의 첫 번째 대상 세그먼트 만드는 것을 도와주세요.
 target-segment-add-voice = 내 목소리 추가
 target-segment-learn-more = 더 알아보기
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1503,3 +1506,4 @@ sc-validation-no-abbreviations = 문장에는 약어가 포함되어서는 안 �
 
 localization-select =
     .label = 언어/현지화 선택
+sentence-collection = 문장 모음
