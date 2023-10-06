@@ -1,4 +1,4 @@
-FROM node:12-bullseye
+FROM node:18-bookworm
 
 ARG COMMIT="local-build"
 ARG TAG=""
