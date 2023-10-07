@@ -1209,6 +1209,7 @@ contribution-varying-pronunciations-example-1-explanation = [«بېرېت» دې
 contribution-varying-pronunciations-example-2-title = ئۇنىڭ قولى كۆتۈرۈل-گەن.
 contribution-varying-pronunciations-example-2-explanation = [ئىنگلىزچىدىكى «كۆتۈرۈلگەن» دېگەن سۆز ئىككى بوغۇم ئەمەس بەلكى بىر بوغۇم تەلەپپۇز قىلىنىدۇ]
 contribution-background-noise-title = مۇھىت شاۋقۇنى
+contribution-background-noise-description = بىز ماشىنا ئۆگىنىش ھېسابلاش ئۇسۇلىنىڭ ھەر خىل تەگلىك شاۋقۇنلارنى بىر تەرەپ قىلىشىنى ئۈمىد قىلىمىز، ھەتتا تېكىستنىڭ تولۇق ئاڭلىنىشىغا توسقۇنلۇق قىلمىغان ئەھۋالدا، يۇقىرىراق ئاۋازلارنىمۇ قوبۇل قىلىشقا بولىدۇ. لەرزان تەڭكەش نەغمە بولسا بولىدۇ. ئەگەر نەغمەنىڭ يۇقىرى ئاۋازى ھەر بىر سۆزىڭىزنى بېسىپ كەتسە بولمايدۇ.
 contribution-background-noise-example-1-fixed-title = <strong>[ھەپچۈشۈ]</strong>ترىناسىك ئېراسىنىڭ گىگانت <strong>[ئۆھۆ]</strong>دىنوزاۋرلىرى.
 contribution-background-noise-example-2-fixed-title = ترىناسىك ئېراسىنىڭ گى <strong>[ئۆھۆ]</strong>دىنوزاۋرلىرى.
 contribution-background-noise-example-2-explanation = [تېكىستنىڭ بىر قىسمىنى ئاڭلىغىلى بولمىدى]
