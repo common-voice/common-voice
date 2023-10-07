@@ -42,6 +42,7 @@ be = Bieloruso
 bg = Búlgaro
 bm = Bambara
 bn = Bengalí
+bo = Tibetano
 br = Bretón
 bs = Bosnian
 bxr = Buriato
@@ -66,6 +67,7 @@ eo = Esperanto
 es = Español
 et = Estonio
 eu = Euskera
+ewo = Ewondo
 fa = Persa
 ff = Fula
 fi = Finlandés
@@ -76,6 +78,7 @@ ga-IE = Irlandés
 gl = Gallego
 gn = Guaraní
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebreo
 hi = Hindi
@@ -95,6 +98,7 @@ it = Italiano
 izh = Izhoriano
 ja = Japonés
 jbo = Lojban
+jv = Javanés
 ka = Georgiano
 kaa = Karakalpak
 kab = Cabillo
@@ -115,6 +119,7 @@ lij = Ligur
 ln = Lingala
 lo = Lao
 lt = Lituano
+ltg = Latgaliano
 lv = Letón
 mai = Maithili
 mdf = Moksha
@@ -141,6 +146,7 @@ nl = Neerlandés
 nn-NO = Noruego Nynorsk
 nr = IsiNdebele (Sur)
 nso = Sotho del Norte
+ny = Chinyanja
 nyn = Nyankole
 oc = Occitano
 om = Afaan Oromo
@@ -308,6 +314,12 @@ username-email-not-demographic = mu tocayo de ususario huan correo electronico m
 ## Listen Shortcuts
 
 shortcut-play-toggle-label = nihnimilti/tzacuili
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = q
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = m
 
 ## Speak Shortcuts
 
@@ -326,6 +338,7 @@ status-contribute = xitechpaleui ica mu tlahtol
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = ocse tiquitl: { $goal }
+english = Inglés
 
 ## ProfileForm
 
@@ -394,6 +407,7 @@ change-email-setings = xicpatla mu correo electronico campa Ajustes, tlatlampa c
 
 ## FAQ
 
+faq-what-cv-q = ¿Tlenon Common Voice?
 faq-why-important-q = ¿queye simi moniqui?
 faq-how-get-q = queni huilis niquinsilis tlanahuatil de Common Voice?
 faq-when-release2-q = ¿quemenia tiquintlehcultis tlanahuatil de Common Voice ichiocsiqueh tlahtulmeh?
@@ -676,6 +690,7 @@ language-search-input =
 language-speakers = tlahtohuaneh
 localized = tlacuipcahtlahtol
 sentences = tlahtoltlahcuilol
+language-validation-hours = Horas
 language-validation-progress = nemilis silihqueh
 
 ## Contribution
