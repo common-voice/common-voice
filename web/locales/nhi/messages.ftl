@@ -145,6 +145,7 @@ nyn = Nyankole
 oc = Occitano
 om = Afaan Oromo
 or = Odia
+os = Osetio
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polaco
@@ -485,7 +486,6 @@ about-playbook-how-localize-content-5 = xiquita tovideo campa huits quenin mits 
 
 about-playbook-how-add-sentences = ¿queni niquinihcuilohua cachi tlahtolmeh?
 about-playbook-how-add-sentences-content-3 = huilis ticuis <scraperLink> Sentence extractor</scraperLink> para tiquincuis tlahcuilol tzocopintzitzi de Wikipedia
-about-playbook-how-add-sentences-content-4 = tlahcuilolmeh tlen quema oquinsilihqueh mu panultisqueh tunal miercoles  huan huilis mocuis satepan den ocse naltitlanil
 
 ## How to record quality
 
