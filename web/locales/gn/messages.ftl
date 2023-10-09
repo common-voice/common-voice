@@ -470,9 +470,9 @@ change-email-setings = Emoambue ne ñe’ẽveve eikévo Ñembosako’ípe oĩva
 faq-title = Oñeporanduvéva (FAQ)
 faq-what-cv-q = Mba’épa Common Voice?
 faq-what-cv-a =
-    Tembiporu ñe’ẽ oikũmbývaniko omoambue ohóvo mba’éichapa jaiporu máquina-kuéra, ikatúvagui ojapo térã ohai ja’éva chupe. Jepéramo upéva ãichagua tembiporu hepyete ha ijára. Common Voice niko Mozilla rembiapo, oñemoñepyrũva ikatu hag̃uáicha opavave oiporukuaa tembiporu ñe’ẽ oikũmbýva. Common Voice omono’õ ohóvo ñe’ẽ ñongatupyre ome’ẽreíva oporopytyvõséva ikatu hag̃uáicha ojeporukuaa opaite ñe’ẽme ñande yvy ape arigua.
+    Tembiporu ñe’ẽ oikũmbývaniko omoambue ohóvo mba’éichapa jaiporu máquina-kuéra, ojapokuaáva térã ohai ja’éva chupe. Jepérõ upéva ãichagua tembiporu hepyete ha ijára. Common Voice niko Mozilla rembiapo, oñepyrũva ikatu hag̃uáicha opavave oiporukuaa tembiporu ñe’ẽ oikũmbýva. Common Voice omono’õ ohóvo ñe’ẽ ñongatupyre ome’ẽreíva oporopytyvõséva ikatu hag̃uáicha ojeporukuaa opaite ñe’ẽme ñande yvy ape arigua.
     
-    Ore rombyaty rohóvo ñe’ẽ ñongatupyre heta ñe’ẽ sa’ivévama oñeñe’ẽva ko’ág̃a ikatu hag̃uáicha imbareteve ha okakuaave. Avei romba’apo rohóvo peteĩ tembiporu’i oikũmbykuaáva ñe’ẽ ohendúva hérava Deep Speech rehe.
+    Ore rombyaty ñe’ẽ ñongatupyre heta ñe’ẽ sa’ivévama oñeñe’ẽ ko’ág̃a ikatu hag̃uáicha imbarete ha okakuaave. Romba’apo tembiporu’i oikũmbykuaáva ñe’ẽ ohendúva hérava Deep Speech rehe.
 faq-what-cv-a-2 =
     Tembiporu ñe’ẽ oikũmbývaniko omoambue ohóvo mba’éichapa jaiporu máquina-kuéra, ikatúvagui ojapo térã ohai ja’éva chupe. Jepéramo upéva ãichagua tembiporu hepyete ha ijára. Common Voice niko Mozilla rembiapo, oñemoñepyrũva ikatu hag̃uáicha opavave oiporukuaa tembiporu ñe’ẽ oikũmbýva. Common Voice omono’õ ohóvo ñe’ẽ ñongatupyre ome’ẽreíva oporopytyvõséva ikatu hag̃uáicha ojeporukuaa opaite ñe’ẽme ñande yvy ape arigua.
     
@@ -622,7 +622,7 @@ about-playbook-how-localize-content-5 = Ehecha ore ta’ãngamýi myesakãha ne 
 ## How to add sentences
 
 about-playbook-how-add-sentences = ¿Mba’éicha ambojuajúta ñe’ẽjuaju?
-about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ha’e tembiporu embyaty ha emboaje hag̃ua ñe’ẽjuaju opavave mba’éva. Eikotevẽta <scAccountLink>mba’ete ñemoheñói</scAccountLink>. Upéi, embojuaju ne ñe’ẽ <strong>Mba’ete</strong> rehe. Ikatu <strong>Mbojuaju</strong> ñe’ẽjuaju térã <strong>Jehechajey</strong> ñe’ẽjuaju mbojuajupyréva.
+about-playbook-how-add-sentences-content-1 = Emoĩve ñe’ẽjuaju <writePageLink>jehaiha kuatiaroguépe</writePageLink> térã ehecha ñe’ẽjuaju <reviewPageLink>hechajeyha kuatiaroguépe</reviewPageLink>.
 about-playbook-how-add-sentences-content-2 = Umi ñe’ẽjuaju ojehechajey ha omoneĩva’erã mokõi tapicha oikekuaa hag̃ua Common Voice ryepýpe. Emoheñói jeguatarã ne ñe’ẽme <languageGuidelinesLink>ápe</languageGuidelinesLink>. Umi ñe’ẽjuaju oĩva’erã <licenseLink>tendatee opavaveguáva</licenseLink> ha orekova’erã 15 ñe’ẽ peve. Ejerurekuaa mba’ejárape moñe’ẽrã ombohasa hag̃ua <waiverLink>CC0-pe ore rapereko omoneĩva</waiverLink> ha embou commonvoice@mozilla.com-pe
 about-playbook-how-add-sentences-content-3 = Eiporukuaa <scraperLink>Sentence extractor</scraperLink> ehecha hag̃ua ñe’ẽjuaju mbykýva Wikipedia rupive.
 
@@ -771,7 +771,7 @@ other-datasets = Ambue mba’ekuaara ayvugua rupa
 feedback-q = ¿Eñe’ẽsépa?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ha’e <docsLink>tembiporu aty ijayvu jurujáva</docsLink> mba’erekaha omboguatáva IA ñomongetarã ipyahuetéva.
 resource-deepspeech-info = Mozilla ñe’ẽ jekuaaukarã mongu’eha ijayvu jurujáva, Deep Speech, eiporu emoheñói hag̃ua tembiporu’i ñe’ẽ jekuaaukarã. Emoñe’ẽ <githubLink>Github mbykypyre</githubLink> térã eike <discourseLink>DeepSpeech Discourse</discourseLink> eikuaa hag̃ua mba’éicha eñepyrũta.
-resource-coqui-info = <coquiLink>Coqui</coquiLink> omba’apo tembiporupyahu ñe’ẽpu ijurujávare. Hembiaporãme oike STT mongu’eha ha TTS ojekóva tembikuaa pypukúre.
+resource-coqui-info = <coquiLink>Mbojy</coquiLink> omba’apo tembiporupyahu ñe’ẽpu ijurujávare. Hembiaporãme oike STT mongu’eha ha TTS ojekóva tembikuaa pypukúre.
 community-playbook = Tekoha Ñembosarái
 resource-playbook-info = <playbookLink>Ejuhúta ñemyesakã</playbookLink> Common Voice rapykuere rehegua, ñemoñe’ẽasa guive mba’ekuaarã aty jeporu peve, avei mba’éichapa eikekuaáta ore rekohápe.
 data-other-librispeech-description = LibriSpeech-niko peteĩ ñe’ẽryapuryru oguerekóva 1000 aravo rupi 16Khz ñe’ẽjoaju ryapu ñongatupyre inglés-pe oúva aponde’aguasu LibriVox arandukarendúvagui.
@@ -1111,7 +1111,7 @@ profile-form-delete = Mba’ete Mboguete
 download-q = ¿Emboguejýtapa ne mba’ekuaarã?
 download-info = Emombe’umi mba’épa emboguejyse:
 download-profile-title = Mba’ete
-download-profile-info = Oike ñanduti veve, poruhára réra ha marandu yvy rehegua, eiporukuaámava
+download-profile-info = Oike ñanduti veve, poruhára réra ha marandu yvy rehegua, eiporukuaáva
 download-profile-size = Ndahetái bytes
 download-recordings-title = Ñeñongatukuéra
 download-recordings-info = Oĩ mp3 ha ñe’ẽñemi ojokupytýva

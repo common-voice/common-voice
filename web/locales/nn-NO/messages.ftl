@@ -67,6 +67,7 @@ eo = Esperanto
 es = Spansk
 et = Estisk
 eu = Baskisk
+ewo = Ewondo
 fa = Persisk
 ff = Fula
 fi = Finsk
@@ -77,6 +78,7 @@ ga-IE = Irsk
 gl = Galisisk
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebraisk
 hi = Hindi
@@ -243,6 +245,7 @@ share-text = Hjelp til med å lære maskiner korleis folk snakkar, doner stemma 
 link-copied = Lenke kopiert
 back-top = Tilbake til toppen av sida
 logout = Logg ut
+donate = Doner
 
 ## Home Page
 
@@ -566,6 +569,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Innsamling av set
 
 ## How does localization work
 
+about-playbook-how-localize = Korleis fungerer omsetjinga av nettstaden?
 about-playbook-how-localize-content-1 = Common Voice vert omsett på <strong>Pontoon</strong>.
 about-playbook-how-localize-content-5 = Sjå videoforklaringa vår for hjelp
 
@@ -587,6 +591,7 @@ about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt 
 
 ## How to validate
 
+about-playbook-how-validate = Korleis veit eg om jeg skal godkjenne eit stemmeklipp?
 
 ## How to access dataset
 
@@ -1205,6 +1210,9 @@ sc-add-err-submission = Innsendingsfeil
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = Stadfest nye setningar
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } vart avviste av deg
 sc-confirm-button-text = Stadfest
 sc-confirm-uploading = Setningar vert lasta opp. Dette kan ta fleire minutt, avhengig av talet på setningar som er lagt til. Ikkje lat at denne nettstaden.
 
