@@ -253,21 +253,21 @@ wall-of-text-first = tlahtol yeh milahuac, tlahtol yeh masehual. Icanun ti pactu
 wall-of-text-second = Miaqueh tlanauatilmeh tlen mocueh por uehueyeh tiquimeh amo tlapohtoc para nochten masehualmeh. Secnimile nin quitzacuilia totlanimilil. Ica non osectitlan Common Voice, se tiquitl para ticquinpaleuisqueh mocchihchiuacan queh ixmatilis tlahtol mo i tlapohtoc uan mo cahsicah nochten
 show-wall-of-text = ximomachti cachi
 help-us-title = xitechpalehui matiquitacah tlahtol
-help-us-explain = xicpacho mopehua, xicaqui huan techilhuis: ¿ ukihtuhke cuali tlahtol tlen achto?
-no-clips-to-validate = nismati amocatqui tlahtolahcuctoc para seccaquis icanin masehualtlahtol. Xitechpalehui tictemitiskeh  lista tlahtolahcuctusqueh sansique axan
+help-us-explain = Xicpacho mo pehua, xicaqui uan techiluis: ¿Okihtohke cuali tlahtol tlen achto?
+no-clips-to-validate = Nismati amo catqui tlahtolahcoctoc para seccaquis ica nin maseualtlahtol. Xitechpaleui tictemitisqueh lista tlahtolahcoctosqueh sansique axan.
 vote-yes = quema
 vote-no = amo
-toggle-play-tooltip = xipacho { shortcut-play-toggle } para secxotlaltis  mu pehua
-speak-subtitle = xitetlaocoli mu tlahtol
+toggle-play-tooltip = Xicpacho { shortcut-play-toggle } para secxotlaltis  mo peua
+speak-subtitle = Xitetlaocoli motlahtol
 speak-paragraph = tlahtolahcucui tlahtulmeh para tic chihuas tu base de datos tlapuhtoc; sansiqueh quihtusque nuyuhqui nicancah ahuiltil
 speak-goal-text = tlahcuilol tlahtolahcuctoc
 listen-subtitle = xitechpalehui maticsilicah tlahtulmeh
-listen-paragraph = sequinsilis siqueh tlahtulmeh tetlaoculil simi muniqui para tiquitl de Common Voice. Xicaqui huan xitechpalehui maticchihuacan tlanunutztlahtol tlapuhtok huan tlen cachi cuahcual
+listen-paragraph = Sequinsilis tlahtolmeh tetlaocolil noyiuhqui simi moniqui para in tiquitl de Common Voice. Xicaqui uan xitechpaleui ma ticchiuacan tla nonotztlahtol tlapohtok uan tlen cachi cuahcual.
 voices-online = tlahtulmeh tlen axa catqui  en lìnea
 todays-progress = nimilis de axan
 help-reach-goal = xitechpalehui matic chihuacan
 read-terms-q = yutiquin machteh condiciones de quenin ticuis servicio?
-ready-to-record = ¿yiticah cuali para tictetlaocolis mu tlahtol?
+ready-to-record = ¿Yiticah cuali para tictetlaocolis motlahtol?
 all-locales = Nochi
 today = Axan
 x-weeks-short =
@@ -532,7 +532,7 @@ about-playbook-how-validate-content-4 = tla  se tlanahuatiltlahtol qui pololtia 
 
 about-playbook-how-access-dataset = ¿queni nicalaqui huan niquicoi nichicol tlahtol?
 about-playbook-how-access-dataset-content-1 = huilis tiyas <datasetsPage>ichin pagina campa monichicohuan tlanaoatilmeh </datasetsPage>xicpihpina version huan tlahtulmeh tlen ticniquis huan xiquinahcocui. tlanahuatilmeh quipiah <metadataLink>metadatos niliuhtuqueh </metadataLink>quemeh tlanahuatil demográfica huan tlanahuatil tlen oquisilihqueh. quipia de quitemactis se direccion de correo para huilis ticahcocuis nichicol tlanahuatil
-about-playbook-how-access-dataset-content-2 = mu temohtoqueh tipos palehuaneh para sequinchihchioas se yehyecolis ASR, uilis timo salos ioan ocsiquen maseoalme de ocsicah<discourseLink>ichin Discourse </discourseLink>
+about-playbook-how-access-dataset-content-2 = Tla tiniqui tiquinchihchiuas se yehyecolis ASR, uilis timosalos iuan ocsiquen maseualmeh de ocsicah <discourseLink>ich in Discourse </discourseLink>
 
 ## How are decisions made
 
