@@ -573,6 +573,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Innsamling av set
 
 about-playbook-how-localize = Korleis fungerer omsetjinga av nettstaden?
 about-playbook-how-localize-content-1 = Common Voice vert omsett på <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Nettstaden er klar for lansering når han er 75 % ferdig.
 about-playbook-how-localize-content-5 = Sjå videoforklaringa vår for hjelp
 
 ## How to add sentences
