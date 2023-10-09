@@ -237,15 +237,15 @@ help = Xinechpaleui
 contact = nonotza
 privacy = ichtaca
 faq = tlahtlanil simi
-share-title = ¡xitechpalehui matiehcuca a cachi masehual aquihquen quiniquisqueh  tetlaculisqueh in tlahtol!
-share-text = xitechpalehui tiquinnextilisque tiposmeh quenin tlahtuhuan masehualmeh, xitetlaoculi mu tlahtol ichin { $link }
-back-top = ximocuipa campa pehua
-logout = sectzacuas sesión
+share-title = ¡Xitechpaleui ma tiehcocan cachi maseual aquihquen quiniquisqueh  tetlacolisqueh in tlahtol!
+share-text = Xitechpaleui tiquinnextilisquen tiposmeh quenin tlahtoan maseualmeh, xitetlaocoli motlahtol ich in { $link }
+back-top = Ximocuipa campa pehua
+logout = Xictzacua sesión
 
 ## Home Page
 
-home-title = tiquitl common Voice se pehualis de Mozilla ica sequinpaleuis  monextilisqueh tiposmeh quenin tlahtuhuan masehualmeh
-default-tagline = Ich Mozilla Common Voice ticniqueh tiquinpaleuisqueh mo quinnextilican  tiposmeh queni tlahtoah in maseoalmeh.
+home-title = In tiquitl Common Voice se peualistli de Mozilla ica sequinpaleuis  mo quinextilican tiposmeh quenin tlahtoan maseualmeh
+default-tagline = Ich Mozilla Common Voice ticniqueh tiquinpaleuisqueh mo quinnextilican  tiposmeh queni tlahtoah in maseualmeh.
 home-cta = Xitlahto, ¡Xitechpaleui nican!
 wall-of-text-start = tlahtol isqui milahuak, tlahtol isqui masehoal. Icanun se pactoc sek chihuas se tipostl tlahtol para tu maquinas. Axan para sec chihuas se tiquitl tlahtol, se puhuali simi hueyi ika nextililtlahtol muniqui
 wall-of-text-more-desktop = axan huilis titetlaculis mu tlahtol ica titech palehuis ticchiuasque se icxitlanahuatil ica tlahtol ichtaca tlapohtoc aquinyahuili huilisquicuis ica quichichihuas aplicaciones yancuic para tipusmeh huan web.<lineBreak></lineBreak>xiquita se tlahcuilol ica niquin palehuis mu nextilican tiposmeh quenin tlahtuhuan masehualmeh. Xiquita tiquitl de ocsiquen tlapalehuaneh ica secyectlalis tiquitl. ¡uhcon amo uhue!
