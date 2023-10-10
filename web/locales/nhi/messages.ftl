@@ -263,7 +263,7 @@ speak-paragraph = tlahtolahcucui tlahtulmeh para tic chihuas tu base de datos tl
 speak-goal-text = tlahcuilol tlahtolahcuctoc
 listen-subtitle = xitechpalehui maticsilicah tlahtulmeh
 listen-paragraph = Sequinsilis tlahtolmeh tetlaocolil noyiuhqui simi moniqui para in tiquitl de Common Voice. Xicaqui uan xitechpaleui ma ticchiuacan tla nonotztlahtol tlapohtok uan tlen cachi cuahcual.
-voices-online = tlahtulmeh tlen axa catqui  en lìnea
+voices-online = Nauatlahtoane tlen axan cateh en línea
 todays-progress = nimilis de axan
 help-reach-goal = xitechpalehui matic chihuacan
 read-terms-q = yutiquin machteh condiciones de quenin ticuis servicio?
@@ -710,7 +710,7 @@ clips-with-count-pluralized =
     }
 goal-help-recording = tlasohcamate utitech palehue Common Voice yuahsic <goalPercentage></goalPercentage> icatiquitl tlen tlahtolahcocueh{ $goalValue }
 goal-help-validation = tlasohcamateh utitechpalehue Common Voice yuahsic<goalPercentage></goalPercentage>ica tiquitl tlen tlahtolahcucueh{ $goalValue }
-contribute-more = yiticah cuali para ticchihuas { $count } cachi?
+contribute-more = ¿Yiticah cuali para ticchiuas { $count } cachi?
 record-cta = pehua tlahtolahcocui
 record-platform-not-supported = xitechtlapohpolhui, pero muplataforma axan amo catqui soportada
 record-platform-not-supported-desktop = ichin tipostlahcuilol, huilis tictimultis version tlen teicahuia
@@ -936,7 +936,7 @@ demo-account-sign-up = naltitlani enlace campasemuihcuilos
 
 demo-contribute-card-header = ¿yi cuali para tic tlalis mu tlahtol o tic tlaneuhtis mu nacas?
 demo-contribute-card-body-v2 = axan tic mati cachi ica Common Voice, ¿ queye amo secyehyecus? xicpachu campa catqui se tipostlanunutz para tic pehuas tiquin machtis tlahtulme ica tlahtol chicahuac<br/><br/> tla tic niqui tiquimitas aquihquen tlapalehuia ican in tlahtol ocsiqui masehualmeh, xicpacho campa mu nextia para pehuas. titechpalehuis para tiquin silisqueh tlahtolahcuc tlen catqui cuali ihuan tlahtol ihcuiliuhtoc ichin pantalla
-demo-listen-subtitle = ¿ yiticah cuali para titechpalehuis?
+demo-listen-subtitle = ¿Yiticah cuali para titechpaleuis?
 
 ## Demo Dashboard
 
