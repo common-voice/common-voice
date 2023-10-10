@@ -65,6 +65,7 @@ eo = Esperanto
 es = Spanish
 et = Estonian
 eu = Basque
+ewo = Ewondo
 fa = Persian
 ff = Fulah
 fi = Finnish
@@ -75,6 +76,7 @@ ga-IE = Irish
 gl = Galician
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebrew
 hi = Hindi
@@ -94,6 +96,7 @@ it = Italian
 izh = Izhorian
 ja = Japanese
 jbo = Lojban
+jv = Javanese
 ka = Georgian
 kaa = Karakalpak
 kab = Kabyle
@@ -147,6 +150,7 @@ nyn = Runyankole
 oc = Occitan
 om = Afaan Oromo
 or = Odia
+os = Ossetian
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polish
@@ -237,6 +241,7 @@ share-text = Help teach machines how real people speak, donate your voice at { $
 link-copied = Link Copied
 back-top = Back to Top
 logout = Log Out
+donate = Donate
 
 ## Home Page
 home-title = Common Voice is Mozilla's initiative to help teach machines how real people speak.
@@ -642,10 +647,9 @@ about-playbook-how-localize-content-5 = Watch our video explainer to help
 
 ## How to add sentences
 about-playbook-how-add-sentences = How do I add sentences?
-about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is a tool for collecting and validating public domain sentences. You will <scAccountLink>need to create an account</scAccountLink>. Then, add your language to your <strong>Profile</strong>.  You can <strong>Add</strong> sentences or <strong>Review</strong> previously-added sentences.
+about-playbook-how-add-sentences-content-1 = You can add sentences on the <writePageLink>Write page</writePageLink> or review sentences on the <reviewPageLink>Review page</reviewPageLink>.
 about-playbook-how-add-sentences-content-2 = Sentences must be reviewed and accepted by two people to be included in Common Voice. You create guidelines for your language <languageGuidelinesLink>here</languageGuidelinesLink>. Sentences must be in the <licenseLink>public domain</licenseLink> and shorter than 15 words. You can ask the owner of a text to make it <waiverLink>CC0 using our waiver process</waiverLink>, and send to us on commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = You can use the <scraperLink>Sentence extractor</scraperLink> to leverage short sentences from Wikipedia.
-about-playbook-how-add-sentences-content-4 = Sentences that have been validated are exported on Wednesdays, and are available after the next release.
 
 ## How to record quality
 about-playbook-how-record-quality = How do I record a high quality voice clip?
@@ -1729,6 +1733,7 @@ report-sc-different-language = Different language
 report-sc-different-language-detail = It is written in a language different than what I’m reviewing.
 sentences-fetch-error = An error occurred fetching sentences
 review-error = An error occurred reviewing this sentence
+review-error-rate-limit-exceeded = You're going too fast. Please take a moment to review the sentence to make sure it's correct.
 
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = We're making some big changes

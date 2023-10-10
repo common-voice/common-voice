@@ -67,6 +67,8 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               onChange={handleCitationChange}
               value={citation}
               dataTestId="citation-input"
+              autoComplete="on"
+              name="citation"
             />
           </Localized>
           {isCitationError && (

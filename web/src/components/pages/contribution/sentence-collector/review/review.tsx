@@ -5,7 +5,6 @@ import {
   withLocalization,
 } from '@fluent/react'
 import { Tooltip } from 'react-tippy'
-import { useDispatch } from 'react-redux'
 
 import {
   KeyboardIcon,
@@ -25,16 +24,11 @@ import { Spinner } from '../../../../ui/ui'
 import { ReportModal } from '../../report/report'
 import ReviewShortcutsModal from './review-shortcuts-modal'
 
-import {
-  useAccount,
-  useAction,
-  useLanguages,
-  useSentences,
-} from '../../../../../hooks/store-hooks'
-import { Sentences } from '../../../../../stores/sentences'
+import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
+import useReview from './use-review'
 import { useLocale } from '../../../../locale-helpers'
+
 import URLS from '../../../../../urls'
-import { Notifications } from '../../../../../stores/notifications'
 
 import { ReportModalProps } from '../../report/report'
 
@@ -46,12 +40,21 @@ const Review: React.FC<Props> = ({ getString }) => {
   const [showReportModal, setShowReportModal] = React.useState(false)
   const [showShortcutsModal, setShowShortcutsModal] = React.useState(false)
 
-  const dispatch = useDispatch()
-
   const [currentLocale] = useLocale()
-  const languages = useLanguages()
   const account = useAccount()
   const sentences = useSentences()
+
+  const {
+    handleFetch,
+    handleVoteYes,
+    handleVoteNo,
+    handleSkip,
+    handleKeyDown,
+    reviewShortCuts,
+  } = useReview({
+    getString,
+    showReportModal,
+  })
 
   const pendingSentencesSubmissions =
     sentences[currentLocale]?.pendingSentences || []
@@ -60,137 +63,8 @@ const Review: React.FC<Props> = ({ getString }) => {
     el => el.isValid === null
   )
 
-  const localeId = languages.localeNameAndIDMapping.find(
-    locale => locale.name === currentLocale
-  ).id
-
-  const fetchPendingSentences = useAction(
-    Sentences.actions.refillPendingSentences
-  )
-  const voteSentence = useAction(Sentences.actions.voteSentence)
-  const skipSentence = useAction(Sentences.actions.skipSentence)
-
-  const handleFetch = () => {
-    try {
-      fetchPendingSentences(localeId)
-    } catch (error) {
-      dispatch(
-        Notifications.actions.addPill(
-          getString('sentences-fetch-error'),
-          'error'
-        )
-      )
-      console.error(error)
-    }
-  }
-
-  const handleVoteYes = () => {
-    const sentenceId =
-      pendingSentencesSubmissions[activeSentenceIndex].sentenceId
-
-    try {
-      voteSentence({
-        vote: true,
-        sentence_id: sentenceId,
-        sentenceIndex: activeSentenceIndex,
-      })
-
-      dispatch(Notifications.actions.addPill(getString('vote-yes'), 'success'))
-    } catch {
-      dispatch(Sentences.actions.showNextSentence(sentenceId))
-      dispatch(
-        Notifications.actions.addPill(getString('review-error'), 'error')
-      )
-    }
-  }
-
-  const handleVoteNo = () => {
-    const sentenceId =
-      pendingSentencesSubmissions[activeSentenceIndex].sentenceId
-
-    try {
-      voteSentence({
-        vote: false,
-        sentence_id: sentenceId,
-        sentenceIndex: activeSentenceIndex,
-      })
-
-      dispatch(Notifications.actions.addPill(getString('vote-no'), 'success'))
-    } catch {
-      dispatch(Sentences.actions.showNextSentence(sentenceId))
-      dispatch(
-        Notifications.actions.addPill(getString('review-error'), 'error')
-      )
-    }
-  }
-
-  const handleSkip = () => {
-    const sentenceId =
-      pendingSentencesSubmissions[activeSentenceIndex].sentenceId
-
-    try {
-      skipSentence(sentenceId)
-      dispatch(
-        Notifications.actions.addPill(
-          getString('sc-review-form-button-skip'),
-          'success'
-        )
-      )
-    } catch {
-      dispatch(Sentences.actions.showNextSentence(sentenceId))
-      dispatch(
-        Notifications.actions.addPill(getString('review-error'), 'error')
-      )
-    }
-  }
-
-  const reviewShortCuts = [
-    {
-      key: 'sc-review-form-button-approve-shortcut',
-      label: 'vote-yes',
-      action: () => {
-        handleVoteYes()
-      },
-    },
-    {
-      key: 'sc-review-form-button-reject-shortcut',
-      label: 'vote-no',
-      action: () => {
-        handleVoteNo()
-      },
-    },
-    {
-      key: 'sc-review-form-button-skip-shortcut',
-      label: 'sc-review-form-button-skip',
-      action: () => {
-        handleSkip()
-      },
-    },
-  ]
-
   const handleToggleShortcutsModal = () => {
     setShowShortcutsModal(!showShortcutsModal)
-  }
-
-  const handleKeyDown = (evt: KeyboardEvent) => {
-    if (
-      evt.ctrlKey ||
-      evt.altKey ||
-      evt.shiftKey ||
-      evt.metaKey ||
-      showReportModal
-    ) {
-      return
-    }
-
-    const shortcut = reviewShortCuts.find(
-      ({ key }) => getString(key).toLowerCase() === evt.key
-    )
-
-    if (!shortcut) return
-
-    shortcut.action()
-    evt.preventDefault()
   }
 
   const isLoading = sentences[currentLocale]?.isLoadingPendingSentences
@@ -303,7 +177,7 @@ const Review: React.FC<Props> = ({ getString }) => {
             data-testid="skip-button">
             <SkipIcon />
             <Localized id="skip">
-              <span />
+              <span className="skip-text" />
             </Localized>{' '}
           </Button>
           <VoteButton

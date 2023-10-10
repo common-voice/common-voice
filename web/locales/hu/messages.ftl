@@ -69,6 +69,7 @@ eo = Eszperantó
 es = Spanyol
 et = Észt
 eu = Baszk
+ewo = Ewondo
 fa = Perzsa
 ff = Fula
 fi = Finn
@@ -79,6 +80,7 @@ ga-IE = Ír
 gl = Galícia
 gn = Guarani
 gom = Goan konkani
+gu-IN = Gudzsaráti
 ha = Hausza
 he = Héber
 hi = Hindi
@@ -98,6 +100,7 @@ it = Olasz
 izh = Izsór
 ja = Japán
 jbo = Lojban
+jv = Jávai
 ka = Grúz
 kaa = Karakalpak
 kab = Kabil
@@ -151,6 +154,7 @@ nyn = Nyankole
 oc = Okcitán
 om = Oromo
 or = Orija
+os = Oszét
 pa-IN = Pandzsábi
 pap-AW = Papiamento (Aruba)
 pl = Lengyel
@@ -244,6 +248,7 @@ share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az igazi embe
 link-copied = Hivatkozás másolva
 back-top = Vissza a tetejére
 logout = Kijelentkezés
+donate = Adományozás
 
 ## Home Page
 
@@ -617,7 +622,6 @@ about-playbook-how-add-sentences = Hogyan adhatok hozzá mondatokat?
 about-playbook-how-add-sentences-content-1 = A <strong>mondatgyűjtő</strong> egy eszköz, amely közkincsű mondatok gyűjtésére és ellenőrzésére szolgál. <scAccountLink>Létre kell hoznia egy fiókot</scAccountLink>. Majd adja hozzá a nyelvét a <strong>profiljában</strong>. <strong>Hozzáadhat</strong> mondatokat, vagy <strong>ellenőrizheti</strong> az előzőleg hozzáadottakat.
 about-playbook-how-add-sentences-content-2 = A mondatokat két embernek kell átnéznie és elfogadnia, hogy bekerüljenek a Common Voice-ba. <languageGuidelinesLink>Itt</languageGuidelinesLink> hozhat létre irányelveket az Ön nyelvéhez. A mondatoknak <licenseLink>közkincsnek</licenseLink>, és 15 szónál rövidebbnek kell lenniük. Megkérheti a szöveg tulajdonosát, hogy <waiverLink>CC0 alatt licencelje a lemondási folyamatunk használatával</waiverLink>, majd küldje el nekünk a commonvoice@mozilla.com címre.
 about-playbook-how-add-sentences-content-3 = Használhatja a <scraperLink>Mondatgyűjtőt</scraperLink>, hogy rövid mondatokat vegyen át a Wikipédiáról.
-about-playbook-how-add-sentences-content-4 = Az ellenőrzött mondatok szerdánként kerülnek exportálásra, és a következő kiadás után lesznek elérhetők.
 
 ## How to record quality
 
@@ -1728,6 +1732,7 @@ report-sc-different-language = Más nyelv
 report-sc-different-language-detail = Ez más nyelven íródott, mint amit ellenőrzök.
 sentences-fetch-error = Hiba történt a mondatok lekérése során
 review-error = Hiba történt a mondat ellenőrzése során
+review-error-rate-limit-exceeded = Túl gyorsan halad. Szánjon rá egy kis időt a mondat helyességének ellenőrzésére.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Néhány nagy változtatást vezetünk be
 sc-redirect-page-subtitle-1 = A mondatgyűjtő átköltözik a központi Common Voice platformra. Mostantól a Common Voice-on <writeURL>írhat</writeURL> mondatokat vagy <reviewURL>ellenőrizheti</reviewURL> az egymondatos beküldéseket.

@@ -12,6 +12,7 @@ import {
   UserLanguage,
   SentenceSubmission,
   SentenceVote,
+  TakeoutResponse
 } from 'common'
 import { Locale } from '../stores/locale'
 import { User } from '../stores/user'
@@ -87,17 +88,24 @@ export default class API {
           : JSON.stringify(body)
         : undefined,
     })
+
     if (response.status == 401) {
       localStorage.removeItem(USER_KEY)
       location.reload()
       return
     }
+
+    if (response.status === 429) {
+      throw new Error(response.statusText)
+    }
+
     if (response.status >= 400) {
       if (response.statusText.includes('save_clip_error')) {
         throw new Error(response.statusText)
       }
       throw new Error(await response.text())
     }
+
     return isJSON ? response.json() : response.text()
   }
 
@@ -318,7 +326,7 @@ export default class API {
     })
   }
 
-  fetchTakeoutLinks(id: number) {
+  fetchTakeoutLinks(id: number): Promise<TakeoutResponse> {
     return this.fetch(
       [API_PATH, 'user_client', 'takeout', id, 'links'].join('/'),
       {

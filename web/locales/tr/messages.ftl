@@ -69,6 +69,7 @@ eo = Esperanto
 es = İspanyolca
 et = Estonca
 eu = Baskça
+ewo = Ewondo
 fa = Farsça
 ff = Fulaca
 fi = Fince
@@ -76,9 +77,10 @@ fo = Faroece
 fr = Fransızca
 fy-NL = Frizce
 ga-IE = İrlandaca
-gl = Galce
+gl = Galiçyaca
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Güceratça
 ha = Hausaca
 he = İbranice
 hi = Hintçe
@@ -98,6 +100,7 @@ it = İtalyanca
 izh = İngrice
 ja = Japonca
 jbo = Lojban
+jv = Cava dili
 ka = Gürcüce
 kaa = Karakalpakça
 kab = Berberice
@@ -151,6 +154,7 @@ nyn = Nyankole
 oc = Oksitanca
 om = Oromca
 or = Odia
+os = Osetçe
 pa-IN = Pencapça
 pap-AW = Papiamento (Aruba)
 pl = Lehçe
@@ -172,7 +176,7 @@ shi = Şilha
 si = Seylanca
 sk = Slovakça
 skr = Saraiki
-sl = Slovakça
+sl = Slovence
 snk = Soninke
 so = Somalice
 sq = Arnavutça
@@ -244,6 +248,7 @@ share-text = Makinelere gerçek insanların nasıl konuştuğunu öğretin: { $l
 link-copied = Bağlantı kopyalandı
 back-top = Başa dön
 logout = Çıkış
+donate = Bağış yap
 
 ## Home Page
 
@@ -611,7 +616,6 @@ about-playbook-how-add-sentences = Nasıl cümle ekleyebilirim?
 about-playbook-how-add-sentences-content-1 = <strong>Cümle Toplayıcı</strong>, kamuya açık cümleleri toplamamızı ve doğrulamamızı sağlayan bir araçtır. Önce <scAccountLink>bir hesap oluşturmanız gerekecek</scAccountLink>. Ardından dilinizi <strong>profilinize</strong> ekleyin. Sonra cümleleri <strong>ekleyebilir</strong> veya önceden eklenmiş cümleleri <strong>inceleyebilirsiniz</strong>.
 about-playbook-how-add-sentences-content-2 = Cümlelerin Common Voice'a dahil olabilmesi için iki kişi tarafından incelenip kabul edilmesi gerekir. <languageGuidelinesLink>Burada</languageGuidelinesLink> dilinizin yönergelerini oluşturabilirsiniz. Cümleler <licenseLink>kamu malı</licenseLink> olmalı ve 15 kelimeden kısa olmalıdır. Bir metnin sahibinden <waiverLink>feragat sürecimizi kullanarak metnin lisansını CC0 yapmasını</waiverLink> isteyebilir ve commonvoice@mozilla.com adresinden bize gönderebilirsiniz.
 about-playbook-how-add-sentences-content-3 = Wikipedia'daki kısa cümlelerden yararlanmak için <scraperLink>Cümle çekici</scraperLink>'yi kullanabilirsiniz.
-about-playbook-how-add-sentences-content-4 = Doğrulanan cümleler çarşamba günleri dışa aktarılır ve bir sonraki sürümde kullanılabilir hale gelir.
 
 ## How to record quality
 
@@ -1543,6 +1547,7 @@ localization-select =
     .label = Dil seçin
 # PARTNERSHIPS PAGE
 partnerships-header = İş Ortaklıkları
+partnerships-header-text = Common Voice'u tek başımıza geliştirmiyoruz. Bizimle iş birliği yapmak ister misiniz?
 partnerships-get-in-touch = Bize ulaşın
 partnerships-become-a-partner = Common Voice İş Ortağı Olun
 partnerships-community-header = Toplum, Yaratıcılar ve Sivil Toplum
@@ -1581,6 +1586,7 @@ reader-effects = Okuyucu efektleri
 just-unsure = Emin değil misiniz?
 example = Örnek
 varying-pronunciations-explanation-2 = Öte yandan, okuyucunun kelimeyle daha önce hiç karşılaşmadığını ve kelimeyi yanlış telaffuz ettiğini düşünüyorsanız lütfen kaydı reddedin. Emin değilseniz atlama düğmesini kullanın.
+misreadings-explanation-2 = Yaygın hatalar arasında şunları sayabiliriz:
 misreadings-explanation-5 = Yanlış telaffuzla okuma nedeniyle kelimelerin başka anlamlara dönüşmesi.
 misreadings-explanation-6 = Kaydın aceleyle sonlandırılması nedeniyle son kelimenin sonunun kaydedilmemesi.
 misreadings-explanation-7 = Bir kelimeyi okumak için birkaç deneme yapmak.
@@ -1667,6 +1673,7 @@ report-sc-different-language = Farklı dil
 report-sc-different-language-detail = İncelediğimden farklı bir dilde yazılmış.
 sentences-fetch-error = Cümleler getirilirken bir hata oluştu
 review-error = Bu cümle incelenirken bir hata oluştu
+review-error-rate-limit-exceeded = Çok hızlı ilerliyorsunuz. Lütfen cümlenin doğrulunu kontrol etmek için biraz daha zaman ayırın.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Bazı büyük değişiklikler yapıyoruz
 sc-redirect-page-subtitle-1 = Cümle Toplayıcı, ana Common Voice platformuna taşınıyor. Artık Common Voice'ta cümle <writeURL>yazabilir</writeURL> veya gönderilen cümleleri <reviewURL>denetleyebilirsiniz</reviewURL>.

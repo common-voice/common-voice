@@ -1,50 +1,40 @@
-import { Job } from 'bull';
-import UserClient from '../../model/user-client';
-import { AWS } from '../../aws';
-import { getConfig } from '../../../config-helper';
+import { Job } from 'bull'
+import UserClient from '../../model/user-client'
+import { getConfig } from '../../../config-helper'
+import {
+  deleteFileFromBucket,
+  getPublicUrlFromBucket,
+  makePublicInBucket,
+  uploadToBucket,
+} from '../../../infrastructure/storage/storage'
+import { constVoid, pipe } from 'fp-ts/lib/function'
+import { taskEither as TE, task as T } from 'fp-ts'
 
-const uploader = AWS.getS3();
-const getUnsignedUrl = (bucket: string, key: string) => {
-  const {
-    ENVIRONMENT,
-    S3_LOCAL_DEVELOPMENT_ENDPOINT,
-    CLIP_BUCKET_NAME,
-    AWS_REGION,
-  } = getConfig();
-
-  if (ENVIRONMENT === 'local') {
-    return `${S3_LOCAL_DEVELOPMENT_ENDPOINT}/${CLIP_BUCKET_NAME}/${key}`;
-  }
-
-  return `https://${bucket}.s3.dualstack.${AWS_REGION}.amazonaws.com/${key}`;
-};
-
-const deleteAvatar = async (client_id: string, url: string, s3: any) => {
-  const urlParts = url.split('/');
+const deleteAvatar = async (client_id: string, url: string) => {
+  const urlParts = url.split('/')
   if (urlParts.length) {
-    const fileName = urlParts[urlParts.length - 1];
+    const fileName = urlParts[urlParts.length - 1]
 
-    await s3
-      .deleteObject({
-        Bucket: getConfig().CLIP_BUCKET_NAME,
-        Key: `${client_id}/${fileName}`,
-      })
-      .promise();
+    await pipe(
+      deleteFileFromBucket(getConfig().CLIP_BUCKET_NAME)(
+        `${client_id}/${fileName}`
+      ),
+      TE.getOrElse((e: Error) => T.of(console.log(e)))
+    )()
   }
-};
+}
 
 const updateAvatarURL = async (
   client_id: string,
   user: Express.User,
-  uploadedImagePath: string,
-  s3: any
+  uploadedImagePath: string
 ) => {
   const oldAvatar = await UserClient.updateAvatarURL(
     user.emails[0].value,
     uploadedImagePath
-  );
-  if (oldAvatar) await deleteAvatar(client_id, oldAvatar, s3);
-};
+  )
+  if (oldAvatar) await deleteAvatar(client_id, oldAvatar)
+}
 
 const imageProcessor = async (job: Job) => {
   const {
@@ -54,30 +44,34 @@ const imageProcessor = async (job: Job) => {
     imageBucket,
     user,
   } = job.data as {
-    client_id: string;
-    rawImageData: string;
-    user: Express.User;
-    key: string;
-    imageBucket: string;
-  };
+    client_id: string
+    rawImageData: string
+    user: Express.User
+    key: string
+    imageBucket: string
+  }
+
+  const imageBuffer = Buffer.from(rawImageData, 'binary')
   //upload to S3 here
   try {
-    await uploader
-      .upload({
-        Key: fileName,
-        Bucket: imageBucket,
-        Body: Buffer.from(rawImageData, 'binary'),
-        ACL: 'public-read',
-      })
-      .promise();
-    const avatarURL = getUnsignedUrl(getConfig().CLIP_BUCKET_NAME, fileName);
+    await pipe(
+      TE.Do,
+      TE.bind('upload', () =>
+        uploadToBucket(imageBucket)(fileName)(imageBuffer)
+      ),
+      TE.bind('makePublic', () => makePublicInBucket(imageBucket)(fileName)),
+      TE.map(constVoid),
+      TE.getOrElse((e: Error) => T.of(console.log(e)))
+    )()
 
-    await updateAvatarURL(client_id, user, avatarURL, uploader);
+    const avatarURL = getPublicUrlFromBucket(imageBucket)(fileName)
+
+    await updateAvatarURL(client_id, user, avatarURL)
   } catch (error) {
-    console.error(error);
-    return false;
+    console.error(error)
+    return false
   }
-  return true;
-};
+  return true
+}
 
-export default imageProcessor;
+export default imageProcessor

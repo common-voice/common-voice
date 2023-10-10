@@ -69,6 +69,7 @@ eo = 世界语
 es = 西班牙语
 et = 爱沙尼亚语
 eu = 巴斯克语
+ewo = 埃翁多语
 fa = 波斯语
 ff = 富拉语
 fi = 芬兰语
@@ -79,8 +80,9 @@ ga-IE = 爱尔兰语
 gl = 加利西亚语
 gn = 瓜拉尼语
 gom = 孔卡尼语（果阿）
+gu-IN = 古吉拉特语
 ha = 豪萨语
-he = 希伯莱语
+he = 希伯来语
 hi = 印地语
 hil = 希利盖农语
 hr = 克罗地亚语
@@ -98,6 +100,7 @@ it = 意大利语
 izh = 英格里亚语
 ja = 日语
 jbo = 逻辑语
+jv = 爪哇语
 ka = 格鲁吉亚语
 kaa = 卡拉卡尔帕克语
 kab = 卡拜尔语
@@ -143,7 +146,7 @@ nhe = 东瓦斯特卡纳瓦特尔语
 nhi = 西部山脉普埃布拉纳瓦特尔语
 nia = 尼亚斯语
 nl = 荷兰语
-nn-NO = 新挪威语
+nn-NO = 挪威尼诺斯克语
 nr = 南恩德贝勒语
 nso = 北索托语
 ny = 齐切瓦语
@@ -151,6 +154,7 @@ nyn = 尼扬科勒语
 oc = 欧西坦语
 om = 阿方奥罗莫语
 or = 奥里亚语
+os = 奥塞梯语
 pa-IN = 旁遮普语
 pap-AW = 帕皮亚门托语（阿鲁巴）
 pl = 波兰语
@@ -164,7 +168,7 @@ ro = 罗马尼亚语
 ru = 俄语
 rw = 卢旺达语
 sah = 萨哈语
-sat = 桑塔利语（Ol Chiki 文）
+sat = 桑塔利语（桑塔利文）
 sc = 萨丁尼亚语
 scn = 西西里语
 sdh = 南库尔德语
@@ -218,7 +222,7 @@ zh-CN = 汉语（中国大陆）
 zh-HK = 汉语（香港）
 zh-TW = 汉语（台湾）
 zu = 祖鲁语
-zza = 扎扎其语
+zza = 扎扎语
 
 # [/]
 
@@ -240,10 +244,11 @@ cookies = Cookie
 faq = 常见问题
 content-license-text = 内容遵循<licenseLink>知识共享许可协议</licenseLink>进行授权
 share-title = 帮我们找人一起捐出一段声音！
-share-text = 请到 { $link } 捐出一段您的声音，帮助我们教导机器人们是如何说话的。
+share-text = 请到 { $link } 贡献一段您的声音，帮助我们教会机器人们是如何说话的。
 link-copied = 链接已复制
 back-top = 回到顶端
 logout = 退出登录
+donate = 捐助
 
 ## Home Page
 
@@ -609,7 +614,6 @@ about-playbook-how-add-sentences = 如何添加语句？
 about-playbook-how-add-sentences-content-1 = <strong>语句收集工具</strong>是一个收集和审核公共领域语句的工具。您首先<scAccountLink>需要创建一个账户</scAccountLink>。然后，将您的语言添加到您的<strong>个人资料</strong>中。您可以<strong>添加</strong>句子并<strong>查看</strong>以前添加的句子。
 about-playbook-how-add-sentences-content-2 = 句子必须经过两个人的审核和接受才能出现在 Common Voice 中。您可以在<languageGuidelinesLink>此处</languageGuidelinesLink>为您的语言创建指南。句子必须属于<licenseLink>公有领域</licenseLink> 且少于 15 字。您可以请求文本的所有者<waiverLink>通过我们的放弃所有权流程将其转为采用 CC0 授权协议</waiverLink>，然后通过 commonvoice@mozilla.com 发送给我们
 about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 从维基百科收集短句。
-about-playbook-how-add-sentences-content-4 = 通过的句子在周三导出，并在下一次数据集发布后可用。
 
 ## How to record quality
 
@@ -643,7 +647,7 @@ about-playbook-how-validate-content-4 = 如果有两人驳回了这条语音片�
 ## How to access dataset
 
 about-playbook-how-access-dataset = 如何访问和使用数据集？
-about-playbook-how-access-dataset-content-1 = 您可以前往 <datasetsPage>数据集页面</datasetsPage>选择您想要的版本和语言，然后就可以直接下载了！这些文件包含<metadataLink>相关的元数据</metadataLink>，例如人口统计信息和验证数据等。只需提供一个电子邮箱地址就能下载数据集。
+about-playbook-how-access-dataset-content-1 = 您可以前往 <datasetsPage>数据集页面</datasetsPage>选择您想要的版本和语言，然后就可以直接下载了！这些文件包含<metadataLink>相关的元数据</metadataLink>，例如人口统计信息和验证数据等。只需提供一个邮箱地址就能下载数据集。
 about-playbook-how-access-dataset-content-2 = 若您正在寻找构建 ASR 模型的工具，欢迎到 <discourseLink>Discourse</discourseLink> 联系社区成员。
 
 ## How are decisions made
@@ -922,7 +926,7 @@ target-segment-learn-more = 详细了解
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = 收集语音
-contribute-sentence-collection-nav-header = 语句集合
+contribute-sentence-collection-nav-header = 收集语句
 
 ## Reporting
 
@@ -1567,7 +1571,7 @@ varying-pronunciations-tip-2 = [有些人可能会把“楚”读作“cǔ”]
 offensive-content-explanation = 语句会通过社区进行审核，不过此过程无法确保万无一失。如果您看到或听到令您不快的的语句（例如觉得其违反了我们的<participationGuidelines>社区参与准则</participationGuidelines>），请务必使用界面中的“旗标”按钮来举报。您也可以通过 <emailFragment>commonvoice@mozilla.com</emailFragment> 来联系我们。
 misreadings-explanation-1 = 完整朗读文字内容十分重要。在聆听录音片段时，请注意录音内容是否与文字内容完全一致，如有添字、漏字，则将其驳回。
 misreadings-explanation-2 = 常见的错误有：
-misreadings-explanation-3 = 录音开头缺少“A”或“The”。（不适用于中文）
+misreadings-explanation-3 = 录音开头缺少“A”或“The”。（不适用）
 misreadings-explanation-4 = 省略了某些词缀，例如“桌子上”读成“桌上”。
 misreadings-explanation-5 = 省略了某些字，例如将“录音的注意事项”读成“录音注意事项”，反之亦然。
 misreadings-explanation-6 = 由于过快地结束录音而没有录入最后一个词。
@@ -1656,7 +1660,7 @@ new-sentence-rule-7 = 引用恰当
 new-sentence-rule-8 = 语句通俗自然（便于阅读）
 how-to-cite = 如何引用？
 how-to-cite-explanation-bold = 引用 URL 链接或作品全名。
-how-to-cite-explanation = 如果是您自己的话，您只需注明<italicizedText>“Self Citation”</italicizedText>。我们需要知道您在哪里得到这些内容，以便检查它是否在公有领域并且无版权限制。有关引用的更多信息，请参阅我们的<guidelinesLink>准则页面</guidelinesLink>。
+how-to-cite-explanation = 如果来源于您自己，则只需注明<italicizedText>“Self Citation”</italicizedText>。我们需要知道您在哪里得到这些内容，以便检查其是否处于公有领域并且无版权限制。有关引用的更多信息，请参阅我们的<guidelinesLink>准则页面</guidelinesLink>。
 guidelines = 准则
 contact-us = 联系我们
 add-sentence-success = 已收集 1 条语句
@@ -1671,6 +1675,7 @@ report-sc-different-language = 其他语言
 report-sc-different-language-detail = 它与我正在审查的语言不同。
 sentences-fetch-error = 获取语句时出错
 review-error = 审阅语句时发生错误
+review-error-rate-limit-exceeded = 别太匆忙。请多花些时间来审核语句，确认其是否正确。
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = 重磅更新
 sc-redirect-page-subtitle-1 = 语句收集工具已迁移到 Common Voice 主平台，您现在可以直接在 Common Voice 上<writeURL>撰写</writeURL>和<reviewURL>审核</reviewURL>语句。

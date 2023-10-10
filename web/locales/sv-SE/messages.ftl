@@ -69,6 +69,7 @@ eo = Esperanto
 es = Spanska
 et = Estländska
 eu = Baskiska
+ewo = Ewondo
 fa = Persiska
 ff = Fula
 fi = Finska
@@ -79,6 +80,7 @@ ga-IE = Irländska
 gl = Galiciska
 gn = Guarani
 gom = Goa-konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebreiska
 hi = Hindi
@@ -98,6 +100,7 @@ it = Italienska
 izh = Ingriska
 ja = Japanska
 jbo = Lojban
+jv = Javanesiska
 ka = Georgiska
 kaa = Karakalpakiska
 kab = Kabyliska
@@ -151,6 +154,7 @@ nyn = Nyankole
 oc = Occitanska
 om = Oromo
 or = Odia
+os = Ossetiska
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polska
@@ -244,6 +248,7 @@ share-text = Hjälp till att lära maskiner hur riktiga människor pratar, doner
 link-copied = Länk kopierad
 back-top = Tillbaka till toppen av sidan
 logout = Logga ut
+donate = Donera
 
 ## Home Page
 
@@ -621,7 +626,6 @@ about-playbook-how-add-sentences = Hur lägger jag till meningar?
 about-playbook-how-add-sentences-content-1 = <strong>Meningsinsamlaren</strong> är ett verktyg för att samla in och validera meningar som är allmän egendom. Du måste <scAccountLink>skapa ett konto</scAccountLink>. Lägg sedan till ditt språk i din <strong>profil</strong>. Du kan <strong>Lägga till</strong> meningar eller <strong>Granska</strong> tidigare tillagda meningar.
 about-playbook-how-add-sentences-content-2 = Meningar måste granskas och accepteras av två personer för att inkluderas i Common Voice. Du skapar riktlinjer för ditt språk <languageGuidelinesLink>här</languageGuidelinesLink>. Meningar måste vara <licenseLink>allmänna egendom</licenseLink> och kortare än 15 ord. Du kan be ägaren av en text att göra den till <waiverLink>CC0 med hjälp av vår dispensprocess</waiverLink> och skicka till oss på commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Du kan använda <scraperLink>Meningsutdragaren</scraperLink> för att utnyttja korta meningar från Wikipedia.
-about-playbook-how-add-sentences-content-4 = Meningar som har validerats exporteras på onsdagar och är tillgängliga efter nästa release.
 
 ## How to record quality
 
@@ -1725,6 +1729,7 @@ report-sc-different-language = Annat språk
 report-sc-different-language-detail = Den är skriven på ett annat språk än det jag granskar.
 sentences-fetch-error = Ett fel uppstod när meningar skulle hämtas
 review-error = Ett fel uppstod när den här meningen granskades
+review-error-rate-limit-exceeded = Du är för snabb. Ta en stund att granska meningen för att se till att den är korrekt.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Vi gör några viktiga förändringar
 sc-redirect-page-subtitle-1 = Meningssamlaren flyttar till kärnplattformen Common Voice. Du kan nu <writeURL>skriva</writeURL> en mening eller <reviewURL>granska</reviewURL> enstaka meningsinlämningar på Common Voice.

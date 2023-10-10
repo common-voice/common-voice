@@ -12,6 +12,7 @@ import { replacePathLocale } from '../../utility';
 import { LocaleNavLink } from '../locale-helpers';
 import { CogIcon, DashboardIcon, MenuIcon } from '../ui/icons';
 import { Avatar, LinkButton } from '../ui/ui';
+import DonateButton from '../donate-button/donate-button';
 import Content from './content';
 import Footer from './footer';
 import LocalizationSelect from '../localization-select/localization-select';
@@ -166,7 +167,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       `/${locale}${URLS.LISTEN}`,
       `/${locale}${URLS.WRITE}`,
       `/${locale}${URLS.REVIEW}`,
-    ]
+    ];
 
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
     const isDemoMode = location.pathname.includes(URLS.DEMO);
@@ -203,7 +204,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        <div className="header-wrapper">
+        <div
+          className={cx('header-wrapper', {
+            'contribution-page-active': isContributionPageActive,
+          })}>
           <header className={cx('header', { active: hasScrolled })}>
             <div>
               {isContributionPageActive && (
@@ -234,6 +238,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               />
             </div>
             <div>
+              <div className="hidden-sm-down">
+                <DonateButton />
+              </div>
               {user.account ? (
                 <UserMenu />
               ) : isBuildingProfile ? null : (
@@ -312,13 +319,17 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               )}
               {user.account ? (
                 <Localized id="logout">
-                  <LinkButton rounded href="/logout" />
+                  <LinkButton rounded href="/logout" className="auth-button" />
                 </Localized>
               ) : (
                 <Localized id="login-signup">
-                  <LinkButton rounded href="/login" />
+                  <LinkButton rounded href="/login" className="auth-button" />
                 </Localized>
               )}
+
+              <div className="donate-btn-container">
+                <DonateButton />
+              </div>
             </div>
           </Nav>
         </div>

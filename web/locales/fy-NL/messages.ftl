@@ -69,6 +69,7 @@ eo = Esperanto
 es = Spaansk
 et = Estysk
 eu = Baskysk
+ewo = Ewondo
 fa = Perzysk
 ff = Fula
 fi = Finsk
@@ -79,6 +80,7 @@ ga-IE = Iersk
 gl = Galisysk
 gn = Guaraní
 gom = Goaneesk Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebriuwsk
 hi = Hindy
@@ -98,6 +100,7 @@ it = Italiaansk
 izh = Izjorysk
 ja = Japansk
 jbo = Lojban
+jv = Javaansk
 ka = Georgysk
 kaa = Karakalpaksk
 kab = Kabylysk
@@ -151,6 +154,7 @@ nyn = Nyankole
 oc = Okkitaansk
 om = Afaan Oromo
 or = Odia
+os = Ossetysk
 pa-IN = Punjabi
 pap-AW = Papiamintsk (Aruba)
 pl = Poalsk
@@ -244,6 +248,7 @@ share-text = Help mei masinen te learen hoe’t echte minsken prate, donearje jo
 link-copied = Keppeling kopiearre
 back-top = Nei boppe
 logout = Ofmelde
+donate = Donearje
 
 ## Home Page
 
@@ -625,7 +630,6 @@ about-playbook-how-add-sentences = Hoe foegje ik sinnen ta?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is in helpmiddel foar it sammeljen en falidearjen fan sinnen yn it publike domein. Jo moatte <scAccountLink>in account oanmeitsje</scAccountLink>. Foegje dêrnei jo taal ta oan jo <strong>Profyl</strong>. Jo kinne sinnen <strong>Tafoegje</strong> of earder tafoege sinnen <strong>Beoardiele</strong>.
 about-playbook-how-add-sentences-content-2 = Sinnen moatte troch twa minsken beoardiele en akseptearre wurde om opnommen te wurden yn Common Voice. Jo meitsje <languageGuidelinesLink>hjir</languageGuidelinesLink> rjochtlinen foar jo taal. Sinnen moatte yn it <licenseLink>publike domein</licenseLink> stean en koarter wêze as 15 wurden. Jo kinne de eigener fan in tekst freegje om dizze <waiverLink>CC0 te meitsjen mei help fan ús ûntheffingsproses</waiverLink> en dizze nei ús stjoeren fia commonvoice@mozilla.com.
 about-playbook-how-add-sentences-content-3 = Jo kinne de <scraperLink>Sentence extractor</scraperLink> brûke om koarte sinnen út Wikipedia te brûken.
-about-playbook-how-add-sentences-content-4 = Falidearre sinnen wurde op woansdei eksportearre en binne nei de folgjende útjefte beskikber.
 
 ## How to record quality
 
@@ -1802,6 +1806,7 @@ report-sc-different-language = Oare taal
 report-sc-different-language-detail = It is skreaun yn in oare taal dan hokker ik oan it beoardielen bin.
 sentences-fetch-error = Der is in flater bard by it opheljen fan sinnen
 review-error = Der is in flater bard by it beoardielen fan dizze sin
+review-error-rate-limit-exceeded = Jo geane te hurd. Nim efkes de tiid om de sin te besjen om der wis fan te wêzen dat dizze korrekt is.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Wy fiere inkelde grutte feroaringen troch
 sc-redirect-page-subtitle-1 = De Sentence Collector ferhuzet nei de kearn fan it Common Voice-platfoarm. Jo kinne no in sin <writeURL>skriuwe</writeURL> of ynstjoeringen fan losse sinnen <reviewURL>beoardiele</reviewURL> op Common Voice.

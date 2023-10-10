@@ -1,19 +1,19 @@
-import * as React from 'react';
+import * as React from 'react'
 
 const Icon =
   (path: string, title = '') =>
   ({ children, ...props }: any) =>
-    <img src={path} title={title} {...props} alt="icon" />;
+    <img src={path} title={title} {...props} alt="icon" />
 
-let idCounter = 0;
+let idCounter = 0
 function uniqueIcon(component: (id: number, props: any) => React.ReactNode) {
   return class extends React.Component<any> {
-    id = idCounter++;
+    id = idCounter++
 
     render() {
-      return component(this.id, this.props);
+      return component(this.id, this.props)
     }
-  };
+  }
 }
 
 export const AlertIcon = ({ className = '' }: { className?: string }) => (
@@ -31,7 +31,7 @@ export const AlertIcon = ({ className = '' }: { className?: string }) => (
       fill="#F89096"
     />
   </svg>
-);
+)
 
 export const ArrowLeft = uniqueIcon((id, props) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
@@ -51,7 +51,7 @@ export const ArrowLeft = uniqueIcon((id, props) => (
       </g>
     </g>
   </svg>
-));
+))
 
 export const ArrowRight = uniqueIcon((id, props) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
@@ -62,7 +62,7 @@ export const ArrowRight = uniqueIcon((id, props) => (
       fill="black"
     />
   </svg>
-));
+))
 
 export const ReturnKeyIcon = () => (
   <svg
@@ -77,7 +77,7 @@ export const ReturnKeyIcon = () => (
     <polyline points="9 10 4 15 9 20" />
     <path d="M20 4v7a4 4 0 0 1-4 4H4" />
   </svg>
-);
+)
 
 export const BarChartIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -96,7 +96,7 @@ export const BarChartIcon = () => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const BookmarkIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -116,7 +116,7 @@ export const BookmarkIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
 export const CameraIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -135,7 +135,7 @@ export const CameraIcon = () => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const CheckIcon = uniqueIcon((id, props) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
@@ -154,7 +154,7 @@ export const CheckIcon = uniqueIcon((id, props) => (
       </g>
     </g>
   </svg>
-));
+))
 
 export const CheckWithBoxIcon = () => (
   <svg width="22" height="22" viewBox="0 0 22 22">
@@ -171,7 +171,7 @@ export const CheckWithBoxIcon = () => (
       fill="#1570EF"
     />
   </svg>
-);
+)
 
 export const ChevronRight = (props: any) => (
   <svg
@@ -188,7 +188,7 @@ export const ChevronRight = (props: any) => (
       fill="currentColor"
     />
   </svg>
-);
+)
 
 export const ChevronLeft = () => (
   <svg
@@ -204,13 +204,13 @@ export const ChevronLeft = () => (
       fill="currentColor"
     />
   </svg>
-);
+)
 
 export const ChevronDown = (props: any) => (
   <svg width="13px" height="9px" viewBox="0 0 13 9" version="1.1" {...props}>
     <polygon points="11.7578125 0.75 12.5 1.5703125 6.25 8.25 0 1.5703125 0.7421875 0.75 6.25 6.609375" />
   </svg>
-);
+)
 
 export const EyeIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -230,7 +230,7 @@ export const EyeIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
 export const EyeOffIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -250,7 +250,7 @@ export const EyeOffIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
 export const FlagIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -270,7 +270,7 @@ export const FlagIcon = () => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const UsersIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -290,12 +290,12 @@ export const UsersIcon = () => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const CloseIcon = ({ black, ...props }: any) => {
-  const RealIcon = Icon(require(`./icons/close${black ? '-black' : ''}.svg`));
-  return <RealIcon alt="" {...props} />;
-};
+  const RealIcon = Icon(require(`./icons/close${black ? '-black' : ''}.svg`))
+  return <RealIcon alt="" {...props} />
+}
 
 export const CloudIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -315,7 +315,7 @@ export const CloudIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
 export const CogIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -334,9 +334,9 @@ export const CogIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
-export const ContactIcon = Icon(require('./icons/contact.svg'));
+export const ContactIcon = Icon(require('./icons/contact.svg'))
 
 export const ContactIconCode = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -356,7 +356,7 @@ export const ContactIconCode = () => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const MailIcon = () => (
   <svg
@@ -376,7 +376,7 @@ export const MailIcon = () => (
       d="M1.18085 5.4265C1.49757 4.97405 2.1211 4.86402 2.57355 5.18073L12.0001 11.7793L21.4266 5.18073C21.8791 4.86402 22.5026 4.97405 22.8193 5.4265C23.136 5.87895 23.026 6.50248 22.5735 6.8192L12.5735 13.8192C12.2292 14.0602 11.7709 14.0602 11.4266 13.8192L1.42662 6.8192C0.974174 6.50248 0.864139 5.87895 1.18085 5.4265Z"
     />
   </svg>
-);
+)
 
 export const CrossIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -395,7 +395,7 @@ export const CrossIcon = (props: any) => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const DashboardIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -414,9 +414,9 @@ export const DashboardIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
-export const DiscourseIcon = Icon(require('./icons/discourse.svg'));
+export const DiscourseIcon = Icon(require('./icons/discourse.svg'))
 
 export const DiscourseIconCode = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -426,7 +426,7 @@ export const DiscourseIconCode = () => (
       d="M20 11.5C20 6.06975 14.0662 2.30981 9.15088 4.79256L9.14709 4.79447L9.14709 4.79447C5.52862 6.60292 3.95647 11.2139 5.79263 14.8491C5.91284 15.0871 5.93303 15.3632 5.84871 15.6162L4.58117 19.4188L8.3838 18.1513C8.63674 18.067 8.91289 18.0872 9.15088 18.2074C14.0075 20.6604 20.0139 16.8409 20 11.5026L20 11.5ZM22 11.4988C21.9992 4.61375 14.5263 -0.161513 8.25106 3.00641C3.78432 5.24011 1.77608 10.7956 3.82401 15.3657L2.05134 20.6837C1.93157 21.0431 2.02509 21.4392 2.29292 21.7071C2.56075 21.9749 2.95692 22.0684 3.31625 21.9486L8.63399 20.1761C14.7713 22.9322 22.0163 18.1596 22 11.4988Z"
     />
   </svg>
-);
+)
 
 export const DownloadIcon = (props: any) => (
   <svg width="15px" height="16px" viewBox="0 0 15 16">
@@ -436,9 +436,9 @@ export const DownloadIcon = (props: any) => (
       </g>
     </g>
   </svg>
-);
+)
 
-export const GithubIcon = Icon(require('./icons/github.svg'));
+export const GithubIcon = Icon(require('./icons/github.svg'))
 
 export const GithubIconCode = () => (
   <svg width="22" height="23" viewBox="0 0 22 23">
@@ -458,7 +458,7 @@ export const GithubIconCode = () => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const GlobeIcon = uniqueIcon(id => (
   <svg width="16" height="16" viewBox="0 0 16 16">
@@ -478,7 +478,7 @@ export const GlobeIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
 export const InfoIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -497,9 +497,9 @@ export const InfoIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
-export const KeyboardIcon = Icon(require('./icons/keyboard.svg'));
+export const KeyboardIcon = Icon(require('./icons/keyboard.svg'))
 
 export const LinkIcon = uniqueIcon((id, props) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
@@ -518,7 +518,7 @@ export const LinkIcon = uniqueIcon((id, props) => (
       </g>
     </g>
   </svg>
-));
+))
 
 export const ExternalLinkIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -526,7 +526,7 @@ export const ExternalLinkIcon = () => (
     <path d="M14.3375 3.91223C14.3375 3.35995 14.7852 2.91223 15.3375 2.91223H21.3375C21.8898 2.91223 22.3375 3.35995 22.3375 3.91223V9.91223C22.3375 10.4645 21.8898 10.9122 21.3375 10.9122C20.7852 10.9122 20.3375 10.4645 20.3375 9.91223V4.91223H15.3375C14.7852 4.91223 14.3375 4.46452 14.3375 3.91223Z" />
     <path d="M22.0446 3.20512C22.4352 3.59565 22.4352 4.22881 22.0446 4.61934L11.0446 15.6193C10.6541 16.0099 10.0209 16.0099 9.63042 15.6193C9.23989 15.2288 9.23989 14.5956 9.63042 14.2051L20.6304 3.20512C21.0209 2.8146 21.6541 2.8146 22.0446 3.20512Z" />
   </svg>
-);
+)
 
 export const LogoutIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -546,7 +546,7 @@ export const LogoutIcon = () => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const MenuIcon = ({ className = '', ...props }: any) => (
   <svg className={'menu-icon ' + className} width="10" height="10" {...props}>
@@ -556,7 +556,7 @@ export const MenuIcon = ({ className = '', ...props }: any) => (
     <rect className="left" x="4" y="8" width="2" height="2" />
     <rect className="right" x="4" y="8" width="2" height="2" />
   </svg>
-);
+)
 
 export const MicIcon = uniqueIcon(id => (
   <svg width="29" height="28" viewBox="0 0 29 28">
@@ -576,7 +576,7 @@ export const MicIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
 export const ListenIcon = () => (
   <svg
@@ -592,7 +592,7 @@ export const ListenIcon = () => (
       fill="#59CBB7"
     />
   </svg>
-);
+)
 
 export const OldPlayIcon = (props: any) => (
   <svg viewBox="0 0 13 15" {...props}>
@@ -605,7 +605,7 @@ export const OldPlayIcon = (props: any) => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const OldRedoIcon = (props: any) => (
   <svg>
@@ -615,7 +615,7 @@ export const OldRedoIcon = (props: any) => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const PenIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -635,7 +635,7 @@ export const PenIcon = () => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const PlayOutlineIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -654,7 +654,7 @@ export const PlayOutlineIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
 export const PlayOutlineGreenIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -673,9 +673,9 @@ export const PlayOutlineGreenIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
-export const PlayIcon = Icon(require('./icons/play.svg'), 'play');
+export const PlayIcon = Icon(require('./icons/play.svg'), 'play')
 
 export const RedoIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -694,9 +694,9 @@ export const RedoIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
-export const SearchIcon = Icon(require('./icons/search.svg'), 'search');
+export const SearchIcon = Icon(require('./icons/search.svg'), 'search')
 
 export const SearchIconCode = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24" {...props}>
@@ -716,7 +716,7 @@ export const SearchIconCode = (props: any) => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const SettingsIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -736,7 +736,7 @@ export const SettingsIcon = () => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const ShareIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -755,7 +755,7 @@ export const ShareIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
 export const SkipIcon = uniqueIcon(id => (
   <svg width="22" height="22" viewBox="0 0 22 22">
@@ -775,7 +775,7 @@ export const SkipIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
 export const StopIcon = uniqueIcon(id => (
   <svg width="28" height="28" viewBox="0 0 28 28">
@@ -794,11 +794,11 @@ export const StopIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
-export const SuccessIcon = Icon(require('./icons/success.svg'), 'success');
+export const SuccessIcon = Icon(require('./icons/success.svg'), 'success')
 
-export const SupportIcon = Icon(require('./icons/support.svg'), 'support');
+export const SupportIcon = Icon(require('./icons/support.svg'), 'support')
 
 export const ThumbsDownIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -817,7 +817,7 @@ export const ThumbsDownIcon = (props: any) => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const ThumbsUpIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -836,7 +836,7 @@ export const ThumbsUpIcon = (props: any) => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const TrashIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -855,7 +855,7 @@ export const TrashIcon = () => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const VolumeIcon = (props: any) => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -874,7 +874,7 @@ export const VolumeIcon = (props: any) => (
       </g>
     </g>
   </svg>
-);
+)
 
 export const UserIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -893,7 +893,7 @@ export const UserIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
 export const UserPlusIcon = uniqueIcon(id => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -912,7 +912,7 @@ export const UserPlusIcon = uniqueIcon(id => (
       </g>
     </g>
   </svg>
-));
+))
 
 export const XICon = () => (
   <svg
@@ -934,13 +934,13 @@ export const XICon = () => (
       fill="#FF4F5E"
     />
   </svg>
-);
+)
 
 export const MatrixIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <path d="M5 4C4.73478 4 4.48043 4.10536 4.29289 4.29289C4.10536 4.48043 4 4.73478 4 5V18.5858L6.29289 16.2929C6.48043 16.1054 6.73478 16 7 16H19C19.2652 16 19.5196 15.8946 19.7071 15.7071C19.8946 15.5196 20 15.2652 20 15V5C20 4.73478 19.8946 4.48043 19.7071 4.29289C19.5196 4.10536 19.2652 4 19 4H5ZM2.87868 2.87868C3.44129 2.31607 4.20435 2 5 2H19C19.7957 2 20.5587 2.31607 21.1213 2.87868C21.6839 3.44129 22 4.20435 22 5V15C22 15.7957 21.6839 16.5587 21.1213 17.1213C20.5587 17.6839 19.7957 18 19 18H7.41421L3.70711 21.7071C3.42111 21.9931 2.99099 22.0787 2.61732 21.9239C2.24364 21.7691 2 21.4045 2 21V5C2 4.20435 2.31607 3.44129 2.87868 2.87868Z" />
   </svg>
-);
+)
 
 export const TargetIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -948,7 +948,7 @@ export const TargetIcon = () => (
     <path d="M11 6C8.23858 6 6 8.23858 6 11C6 13.7614 8.23858 16 11 16C13.7614 16 16 13.7614 16 11C16 8.23858 13.7614 6 11 6ZM4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11Z" />
     <path d="M11 10C10.4477 10 10 10.4477 10 11C10 11.5523 10.4477 12 11 12C11.5523 12 12 11.5523 12 11C12 10.4477 11.5523 10 11 10ZM8 11C8 9.34315 9.34315 8 11 8C12.6569 8 14 9.34315 14 11C14 12.6569 12.6569 14 11 14C9.34315 14 8 12.6569 8 11Z" />
   </svg>
-);
+)
 
 export const HexIcon = () => (
   <svg
@@ -959,21 +959,21 @@ export const HexIcon = () => (
     xmlns="http://www.w3.org/2000/svg">
     <path d="M61 50.6443L31 67.1924L1 50.6443V17.5481L31 1L61 17.5481V50.6443Z" />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M61 50.6443L31 67.1924L1 50.6443V17.5481L31 1L61 17.5481V50.6443Z"
       stroke="black"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
       opacity="0.5"
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M54.816 45.6799L30.9998 58.6809L7.1836 45.6799L1.5 50.371L30.9998 66.6714L60.6599 50.371L54.816 45.6799Z"
     />
   </svg>
-);
+)
 
 export const EditIcon = () => (
   <svg
@@ -996,7 +996,7 @@ export const EditIcon = () => (
       fill="black"
     />
   </svg>
-);
+)
 
 export const ReviewIcon = () => (
   <svg
@@ -1031,7 +1031,7 @@ export const ReviewIcon = () => (
       fill="black"
     />
   </svg>
-);
+)
 
 export const QuestionIcon = () => (
   <svg
@@ -1057,7 +1057,7 @@ export const QuestionIcon = () => (
       fill="#1570EF"
     />
   </svg>
-);
+)
 
 export const SendIcon = () => (
   <svg
@@ -1079,7 +1079,7 @@ export const SendIcon = () => (
       fill="black"
     />
   </svg>
-);
+)
 
 export const SingleContributionIcon = ({ isActive }: { isActive: boolean }) => (
   <svg
@@ -1103,7 +1103,7 @@ export const SingleContributionIcon = ({ isActive }: { isActive: boolean }) => (
       strokeLinejoin="round"
     />
   </svg>
-);
+)
 
 export const BulkContributionIcon = ({ isActive }: { isActive: boolean }) => (
   <svg
@@ -1145,7 +1145,7 @@ export const BulkContributionIcon = ({ isActive }: { isActive: boolean }) => (
       strokeLinejoin="round"
     />
   </svg>
-);
+)
 
 export const UploadIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none">
@@ -1161,7 +1161,7 @@ export const UploadIcon = () => (
       </clipPath>
     </defs>
   </svg>
-);
+)
 
 export const UploadIconLarge = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="96" height="97" fill="none">
@@ -1177,7 +1177,7 @@ export const UploadIconLarge = () => (
       </clipPath>
     </defs>
   </svg>
-);
+)
 
 export const LightBulbIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="15" fill="none">
@@ -1194,7 +1194,7 @@ export const LightBulbIcon = () => (
       clipRule="evenodd"
     />
   </svg>
-);
+)
 
 export const FileIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="none">
@@ -1212,29 +1212,45 @@ export const FileIcon = () => (
       clipRule="evenodd"
     />
   </svg>
-);
+)
+
+export const HeartIcon = () => (
+  <svg
+    width="14"
+    height="13"
+    viewBox="0 0 14 13"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M8.5047 0.619031C8.98687 0.419239 9.50369 0.316406 10.0256 0.316406C10.5476 0.316406 11.0644 0.419239 11.5466 0.619031C12.0286 0.818786 12.4667 1.11155 12.8356 1.4806C13.2047 1.84954 13.4976 2.28776 13.6974 2.76985C13.8972 3.25203 14 3.76885 14 4.29078C14 4.81271 13.8972 5.32953 13.6974 5.81171C13.4976 6.29385 13.2048 6.7319 12.8357 7.10086C12.8357 7.10089 12.8357 7.10082 12.8357 7.10086L7.43207 12.5045C7.19335 12.7432 6.80632 12.7432 6.5676 12.5045L1.16397 7.10086C0.418693 6.35558 0 5.34476 0 4.29078C0 3.2368 0.418693 2.22598 1.16397 1.4807C1.90925 0.735426 2.92006 0.316733 3.97405 0.316733C5.02803 0.316733 6.03885 0.735426 6.78412 1.4807L6.99984 1.69642L7.21545 1.48081C7.21548 1.48077 7.21542 1.48084 7.21545 1.48081C7.5844 1.11171 8.02256 0.818804 8.5047 0.619031ZM10.0256 1.53895C9.66429 1.53895 9.30649 1.61014 8.97267 1.74846C8.63886 1.88677 8.33556 2.08951 8.08012 2.34507L7.43207 2.99312C7.19335 3.23183 6.80632 3.23183 6.5676 2.99312L5.91966 2.34517C5.40365 1.82916 4.70379 1.53927 3.97405 1.53927C3.2443 1.53927 2.54445 1.82916 2.02844 2.34517C1.51243 2.86118 1.22254 3.56104 1.22254 4.29078C1.22254 5.02053 1.51243 5.72038 2.02844 6.23639L6.99984 11.2078L11.9712 6.23639C12.2268 5.98095 12.4296 5.67755 12.5679 5.34373C12.7063 5.00992 12.7775 4.65212 12.7775 4.29078C12.7775 3.92944 12.7063 3.57165 12.5679 3.23783C12.4296 2.90401 12.2269 2.60072 11.9713 2.34527C11.7159 2.08971 11.4124 1.88677 11.0786 1.74846C10.7448 1.61014 10.387 1.53895 10.0256 1.53895Z"
+      fill="white"
+    />
+  </svg>
+)
 
 export const FirefoxColor = Icon(
   require('./icons/ff-color.svg'),
   'firefox-color'
-);
+)
 
 export const ChromeColor = Icon(
   require('./icons/chrome-color.svg'),
   'chrome-color'
-);
+)
 
 export const SafariColor = Icon(
   require('./icons/safari-color.svg'),
   'safari-color'
-);
+)
 
 export const CautionIcon = Icon(
   require('./icons/exclamation.svg'),
   'exclamation'
-);
+)
 
-export const QuestionMarkIcon = Icon(require('./icons/question-mark.svg'));
+export const QuestionMarkIcon = Icon(require('./icons/question-mark.svg'))
 
 const FONT_ICONS = {
   chrome: '',
@@ -1245,15 +1261,15 @@ const FONT_ICONS = {
   stop: '',
   twitter: '',
   undo: '',
-};
+}
 
 interface FontIconProps {
-  [key: string]: any;
-  type: keyof typeof FONT_ICONS;
+  [key: string]: any
+  type: keyof typeof FONT_ICONS
 }
 
 export const FontIcon = ({ type, ...props }: FontIconProps) => (
   <span aria-hidden="true" data-icon={FONT_ICONS[type]} {...props} />
-);
+)
 
-export const StarIcon = Icon(require('./icons/star.svg'));
+export const StarIcon = Icon(require('./icons/star.svg'))

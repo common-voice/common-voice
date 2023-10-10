@@ -5,6 +5,7 @@ const ValidatorLocales = [
   'ckb',
   'en',
   'eo',
+  'he',
   'ig',
   'it',
   'kab',

@@ -18,6 +18,8 @@ banner-error-slow-1 = 죄송합니다. Common Voice가 느리게 실행되고 �
 banner-error-slow-2 = 트래픽이 많이 발생하고 있으며 현재 문제를 조사하고 있습니다.
 banner-error-slow-link = 상태 페이지
 error-something-went-wrong = 죄송합니다. 오류가 발생하였습니다.
+error-clip-upload = 이 클립의 업로드가 계속 실패합니다. 계속 다시 시도하시겠습니까?
+error-clip-upload-server = 이 클립의 업로드가 계속 실패합니다. 페이지를 새로 고침하거나 나중에 다시 시도하세요.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +42,13 @@ ba = 바시키르어
 bas = 바사어
 be = 벨로루시어
 bg = 불가리아어
+bm = 밤바라어
 bn = 벵골어
+bo = 티베트어
 br = 브르타뉴어
 bs = 보스니아어
 bxr = 부랴트어
+byv = 메둠바어
 ca = 카탈로니아어
 cak = 마야어
 ckb = 중앙 쿠르드어
@@ -63,6 +68,7 @@ eo = 에스페란토어
 es = 스페인어
 et = 에스토니아어
 eu = 바스크어
+ewo = 이원도어
 fa = 페르시아어
 ff = 풀라어
 fi = 핀란드어
@@ -73,6 +79,7 @@ ga-IE = 아일랜드어
 gl = 갈리시아어
 gn = 과라니어
 gom = 고안 콘칸어
+gu-IN = 구자라트어
 ha = 하우사어
 he = 히브리어
 hi = 힌디어
@@ -112,6 +119,7 @@ lij = 리구리아어
 ln = 링갈라어
 lo = 라오어
 lt = 리투아니아어
+ltg = 라트갈레어
 lv = 라트비아어
 mai = 마이틸어
 mdf = 목샤어
@@ -137,10 +145,12 @@ nl = 네덜란드어
 nn-NO = 노르웨이어 뉘노르스크
 nr = IsiNdebele (South)
 nso = 북소토어
+ny = 체와어
 nyn = 엔코어어
 oc = 오크어
 om = 아파안 오로모어
 or = 오리야어
+os = 오세트어
 pa-IN = 펀자브어
 pap-AW = 파피아멘토(아루바)
 pl = 폴란드어
@@ -197,6 +207,7 @@ ve = 벤다어
 vec = 베네치아어
 vi = 베트남어
 vot = 바트어
+wo = 월로프어
 xh = 코사어
 yi = 이디시어
 yo = 요루바어
@@ -231,6 +242,7 @@ share-text = 실제로 사람들이 말하는 방식을 프로그램에 추가�
 link-copied = 링크 복사됨
 back-top = 처음으로 돌아가기
 logout = 로그아웃
+donate = 기부
 
 ## Home Page
 
@@ -400,6 +412,7 @@ why-demographic-explanation-2 = 연령, 성별, 억양과 같은 익명 사용�
 accept-privacy = Mozilla의 <privacyLink>개인 정보 보호정책</privacyLink>에서 설명한대로 이 정보를 처리해 주십시오.
 accept-privacy-title = 개인 정보 보호 정책
 login-identity = 로그인 정보
+login = 로그인
 login-signup = 로그인 / 가입하기
 edit = 수정
 email-subscriptions = 이메일 구독
@@ -598,7 +611,6 @@ about-playbook-how-add-sentences = 문장은 어떻게 추가하나요?
 about-playbook-how-add-sentences-content-1 = <strong>문장 수집기</strong>는 공개 도메인 문장을 수집하고 검증하기 위한 도구입니다. <scAccountLink>계정을 만들어야 합니다</scAccountLink>. 그런 다음 <strong>프로필</strong>에 언어를 추가하세요. 문장을 <strong>추가</strong>하거나 이전에 추가한 문장을 <strong>검토</strong>할 수 있습니다.
 about-playbook-how-add-sentences-content-2 = Common Voice에 포함되려면 두 사람이 문장을 검토하고 수락해야 합니다. <languageGuidelinesLink>여기</languageGuidelinesLink>에서 귀하의 언어에 대한 지침을 만들 수 있습니다. 문장은 <licenseLink>공개</licenseLink>에 있어야 하며 15단어 미만이어야 합니다. 텍스트 소유자에게 <waiverLink>포기 절차를 사용하여 CC0</waiverLink>으로 만들고 commonvoice@mozilla.com으로 보내달라고 요청할 수 있습니다.
 about-playbook-how-add-sentences-content-3 = <scraperLink>문장 추출기</scraperLink>를 사용하여 Wikipedia의 짧은 문장을 활용할 수 있습니다.
-about-playbook-how-add-sentences-content-4 = 검증된 문장은 수요일에 내보내지며 다음 출시 이후에 사용할 수 있습니다.
 
 ## How to record quality
 
@@ -715,7 +727,6 @@ language = 언어
 download-dataset-header = 데이터세트 다운로드
 download-delta-explainer = 변경 사항이 있습니다. 델타 세그먼트에는 마지막 릴리스 이후 가장 최근 클립만 포함됩니다. <deltaLink>이 일에 대해 자세히 알아보세요</deltaLink>.
 download-dataset-tag = 원하는 언어 데이터 세트를 선택하고 다운로드하려는 버전을 선택하십시오.
-download-dataset-access = 이전 데이터 세트 릴리스를 찾고 계십니까? <emailLink>{ $email }</emailLink>로 이메일을 보내주세요.
 # File size in gigabytes
 size = 크기
 validated-hr-total = 검증된 시간 합계
@@ -730,6 +741,7 @@ confirm-size = <b>{ $size }</b>의 다운로드를 시작할 준비가 되었습
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = Common Voice 데이터세트의 녹음기부자의 신원을 밝히려는 시도를 하지 않는데에 <b>동의</b>합니다.
+confirm-join-mailing-list = Common Voice 메일링 리스트에 가입하고 싶습니다.
 download-language = { $language } 다운로드
 validated-hours = 검증된 분량
 recorded-hours = 녹음된 분량
@@ -762,6 +774,9 @@ more = 더보기
 close = 닫기
 download = 다운로드
 dataset-version = 버전
+sha256-checksum-copied = SHA256 체크섬이 복사되었습니다!
+sha256-checksum-copied-error = SHA256 체크섬을 복사하지 못했습니다.
+clipboard-not-supported = 클립보드가 지원되지 않음
 
 ## Download Modal
 
@@ -851,6 +866,8 @@ action-click = 클릭
 action-tap = 탭
 contribute = 기여하기
 listen = 듣기
+write = 쓰기
+review = 검토
 skip = 건너뛰기
 shortcuts = 바로 가기
 clips-with-count-pluralized =
@@ -913,6 +930,11 @@ target-segment-generic-card = 대상 세그먼트에 기여하고 있습니다.
 target-segment-first-banner = { $locale }로 Common Voice의 첫 번째 대상 세그먼트 만드는 것을 도와주세요.
 target-segment-add-voice = 내 목소리 추가
 target-segment-learn-more = 더 알아보기
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = 음성 모음
+contribute-sentence-collection-nav-header = 문장 모음
 
 ## Reporting
 
@@ -1503,3 +1525,6 @@ sc-validation-no-abbreviations = 문장에는 약어가 포함되어서는 안 �
 
 localization-select =
     .label = 언어/현지화 선택
+# PARTNERSHIPS PAGE
+partnerships-header = 협력사
+sentence-collection = 문장 모음

@@ -2,8 +2,9 @@ import { ValidatorRuleError } from '../../core/sentences'
 import {
   ApplicationError,
   ApplicationErrorKind,
+  BulkSubmissionErrorKind,
   PresentableApplicationError,
-  SentenceValidationKind,
+  SentenceValidationErrorKind,
 } from '../types/error'
 
 export const createError =
@@ -15,11 +16,13 @@ export const createError =
 
 export const createValidationError = createError('Validation')
 
+export const createBulkSubmissionError = createError(BulkSubmissionErrorKind)
+
 export const createSentenceValidationError = (
   err: ValidatorRuleError
 ): ApplicationError => {
   return {
-    ...createError(SentenceValidationKind)(err.error),
+    ...createError(SentenceValidationErrorKind)(err.error),
     errorType: err.errorType,
   }
 }

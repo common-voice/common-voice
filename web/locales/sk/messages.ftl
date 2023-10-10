@@ -69,6 +69,7 @@ eo = esperanto
 es = španielčina
 et = estónčina
 eu = baskičtina
+ewo = ewondo
 fa = perzština
 ff = fulbčina
 fi = fínčina
@@ -79,6 +80,7 @@ ga-IE = írčina
 gl = galícijčina
 gn = guarančina
 gom = goan konkani
+gu-IN = gudžarátčina
 ha = hauština
 he = hebrejčina
 hi = hindčina
@@ -98,6 +100,7 @@ it = taliančina
 izh = izorčina
 ja = japončina
 jbo = lojban
+jv = jávčina
 ka = gruzínčina
 kaa = karakalpačtina
 kab = kabylčina
@@ -118,6 +121,7 @@ lij = ligúrčina
 ln = lingalčina
 lo = laoština
 lt = litovčina
+ltg = latgalčina
 lv = lotyština
 mai = maithilčina
 mdf = mokša
@@ -150,6 +154,7 @@ nyn = runyankole
 oc = okcitánčina
 om = afaan ormoo
 or = urijčina
+os = osetčina
 pa-IN = pandžábčina
 pap-AW = papiamento (Aruba)
 pl = poľština
@@ -243,6 +248,7 @@ share-text = Pomôžte strojom pochopiť ľudskú reč. Prispejte svojím hlasom
 link-copied = Odkaz bol skopírovaný
 back-top = Návrat hore
 logout = Odhlásiť sa
+donate = Prispieť
 
 ## Home Page
 
@@ -629,7 +635,6 @@ about-playbook-how-add-sentences = Ako pridám vety?
 about-playbook-how-add-sentences-content-1 = <strong>Zberač viet</strong> je nástroj na zhromažďovanie a overovanie viet dostupných pod verejnou licenciou. Budete si <scAccountLink>potrebovať vytvoriť účet</scAccountLink>. Potom pridajte svoj jazyk do svojho <strong>profilu</strong>. Môžete <strong>pridávať</strong> vety alebo <strong>kontrolovať</strong> už pridané vety.
 about-playbook-how-add-sentences-content-2 = Aby boli vety zahrnuté do Common Voice, musia ich skontrolovať a prijať dvaja ľudia. Pokyny pre svoj jazyk vytvoríte <languageGuidelinesLink>tu</languageGuidelinesLink>. Vety musia byť <licenseLink>dostupné pod verejnou licenciou</licenseLink> a kratšie ako 15 slov. Môžete požiadať vlastníka textu, aby texty licencoval ako <waiverLink>CC0 pomocou nášho procesu zrieknutia sa práva</waiverLink> a poslať nám ho na commonvoice@mozilla.com.
 about-playbook-how-add-sentences-content-3 = Na využitie krátkych viet z Wikipédie môžete použiť <scraperLink>Extraktor viet</scraperLink>.
-about-playbook-how-add-sentences-content-4 = Vety, ktoré boli overené, sa exportujú v stredu a sú k dispozícii po ďalšom vydaní.
 
 ## How to record quality
 
@@ -840,7 +845,7 @@ request-language-form-info-explanation-list-1 = Názvy vášho jazyka
 request-language-form-info-explanation-list-2 = <isoCodeLink>Kódy ISO</isoCodeLink>, ak sú známe
 request-language-form-info-explanation-list-3 = Odkazy na webové stránky, ktoré nám môžu pomôcť porozumieť jazyku
 request-language-google-recaptcha-required = Ak chcete pokračovať, vyžaduje sa reCAPTCHA
-request-language-google-recaptcha-error = Vyskytol sa problém s reCAPTCHA. Prosím skúste znova.
+request-language-google-recaptcha-error = Vyskytol sa problém s reCAPTCHA. Prosím skúste to znova.
 # Success page
 request-language-success-heading = Ďakujem! Odoslali ste požiadavku na nový jazyk
 request-language-success-list-1 =
@@ -1560,7 +1565,7 @@ sc-settings-ui-language = Jazyk používateľského rozhrania
 sc-settings-reset-skipped = Obnoviť vynechané vety
 sc-settings-skipped-decription = Predtým ste pri kontrole preskakovali vety. Obnovením preskočených viet sa znova zobrazia všetky preskočené vety. Toto je nezávislé od jazyka.
 sc-settings-show-all-button = Znova zobraziť všetky preskočené vety
-sc-settings-failed = Nastavenia sa nepodarilo zmeniť. Prosím skúste znova.
+sc-settings-failed = Nastavenia sa nepodarilo zmeniť. Prosím skúste to znova.
 # VALIDATION
 sc-validation-number-of-words = Veta musí obsahovať 1 až 14 slov
 sc-validation-no-numbers = Veta by nemala obsahovať čísla
@@ -1698,8 +1703,6 @@ reviewing-sentences-explanation-1 = Ak veta spĺňa vyššie uvedené kritériá
 reviewing-sentences-explanation-2 = Ak veta nespĺňa vyššie uvedené kritériá, kliknite na tlačidlo „Nie“.
 reviewing-sentences-explanation-3 = Ak si nie ste istí vetou, môžete ju tiež preskočiť a prejsť na ďalšiu.
 reviewing-sentences-explanation-4 = Ak vám dochádzajú vety na kontrolu, môžete nám pomôcť zhromaždiť ďalšie vety.
-community-announcement-header = Oznámenie komunity!
-community-announcement-explanation = Pokyny nižšie sa týkajú nových funkcií zberača viet, ktoré budú integrované do základnej platformy Common Voice počas marca a apríla 2023. Medzitým môžete použiť predchádzajúci nástroj, <scLink>https://commonvoice.mozilla.org/sentence-collector/</scLink>.
 # WRITE PAGE
 write-instruction-second-part = vetu pod verejnou licenciou
 write-page-subtitle = Tu pridané vety budú zaradené do verejne dostupného súboru údajov s licenciou cc-0.
@@ -1735,6 +1738,7 @@ report-sc-different-language = Iný jazyk
 report-sc-different-language-detail = Je napísaná v inom jazyku, než aký kontrolujem.
 sentences-fetch-error = Pri načítavaní viet sa vyskytla chyba
 review-error = Pri kontrole tejto vety sa vyskytla chyba
+review-error-rate-limit-exceeded = Idete príliš rýchlo. Venujte chvíľu kontrole vety, aby ste sa uistili, že je správna.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Robíme veľké zmeny
 sc-redirect-page-subtitle-1 = Nástroj na zber viet sa presúva na základnú platformu Common Voice. Teraz môžete v Common Voice <writeURL>napísať</writeURL> vetu alebo <reviewURL>kontrolovať</reviewURL> vety iných prispievateľov.

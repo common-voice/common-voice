@@ -1,17 +1,17 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
+import * as React from 'react'
+import { Localized } from '@fluent/react'
 
-import Page from '../../ui/page';
+import Page from '../../ui/page'
 
-import PageHeading from '../../ui/page-heading';
-import { LinkButton } from '../../ui/ui';
-import { MailIcon } from '../../ui/icons';
-import { COMMON_VOICE_EMAIL } from '../../../constants';
-import { PartnerOptionSection } from './partner-option-section';
-import { PARTNER_OPTIONS } from './partner-options';
-import Subscribe from '../../email-subscribe-block/subscribe';
+import PageHeading from '../../ui/page-heading'
+import { LinkButton } from '../../ui/ui'
+import { MailIcon } from '../../ui/icons'
+import { COMMON_VOICE_EMAIL } from '../../../constants'
+import { PartnerOptionSection } from './partner-option-section'
+import { PARTNER_OPTIONS } from './partner-options'
+import Subscribe from '../../email-subscribe-block/subscribe'
 
-import './partner.css';
+import './partner.css'
 
 const Partner = () => (
   <Page className="partner-main-container" dataTestId="partnerships-page">
@@ -90,12 +90,23 @@ const Partner = () => (
             srcSet={`${require('./images/partners/collectivat-small.jpg')} 370w, ${require('./images/partners/collectivat.jpg')} 740w`}
             sizes="(max-width: 600px) 370px, 740px"
             alt="Collectivat"
+            className="collectivat-logo"
+          />
+          <img
+            src={require('./images/partners/Mak-Logo 1.jpg')}
+            alt="Makerere"
+            className="makerere-logo"
+          />
+          <img
+            src={require('./images/partners/nvidia-logo-vert.jpg')}
+            alt="Nvidia"
+            className="nvidia-logo"
           />
         </div>
       </div>
     </section>
     <Subscribe light partnerships subscribeText="about-subscribe-text" />
   </Page>
-);
+)
 
-export default Partner;
+export default Partner

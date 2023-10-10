@@ -37,7 +37,7 @@ function streamSentences(localePath: string) {
       for (const filePath of filePaths) {
         const source = path.basename(filePath).split('.')[0];
         let sentences: string[] = [];
-        function write() {
+        const write = () => {
           stream.write({
             sentences,
             source,
@@ -124,8 +124,7 @@ async function importLocaleSentences(
                 .join(', ')}
               ON DUPLICATE KEY UPDATE
                 source = VALUES(source),
-                version = VALUES(version),
-                is_used = VALUES(is_used);
+                version = VALUES(version);
             `
             );
           } catch (e) {

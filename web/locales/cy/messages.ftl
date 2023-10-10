@@ -69,6 +69,7 @@ eo = Esperanto
 es = Sbaeneg
 et = Estoneg
 eu = Basgeg
+ewo = Ewondo
 fa = Persieg
 ff = Fulah
 fi = Ffinneg
@@ -79,6 +80,7 @@ ga-IE = Gwyddeleg
 gl = Galisieg
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebraeg
 hi = Hindi
@@ -98,6 +100,7 @@ it = Eidaleg
 izh = Izhorieg
 ja = Japanëeg
 jbo = Lojban
+jv = Java
 ka = Georgeg
 kaa = Karakalpak
 kab = Kabyle
@@ -151,6 +154,7 @@ nyn = Nyankole
 oc = Occitaneg
 om = Afaan Ormoo
 or = Odia
+os = Ossetian
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Pwyleg
@@ -244,6 +248,7 @@ share-text = Helpwch beiriannau i ddysgu sut mae pobl go iawn yn siarad, cyfrann
 link-copied = Dolen wedi'i chopïo
 back-top = Nôl i'r Brig
 logout = Allgofnodi
+donate = Cyfrannu
 
 ## Home Page
 
@@ -633,7 +638,6 @@ about-playbook-how-add-sentences = Sut ydw i'n ychwanegu brawddegau?
 about-playbook-how-add-sentences-content-1 = Mae'r <strong>Casglwr Brawddegau </strong> yn offeryn ar gyfer casglu a dilysu brawddegau parth cyhoeddus. Bydd angen i chi <scAccountLink>greu cyfrif</scAccountLink>. Yna, ychwanegwch eich iaith at eich <strong>Proffil</strong>. Gallwch <strong>Ychwanegu</strong> brawddegau neu <strong>Adolygu</strong> brawddegau a ychwanegwyd yn flaenorol.
 about-playbook-how-add-sentences-content-2 = Rhaid i frawddegau gael eu hadolygu a'u derbyn gan ddau berson i'w cynnwys yn Common Voice. Rydych chi'n creu canllawiau ar gyfer eich iaith <languageGuidelinesLink>yma</languageGuidelinesLink>. Rhaid i frawddegau fod yn y <licenseLink>parth cyhoeddus</licenseLink> ac yn llai na 15 gair. Gallwch ofyn i berchennog neges destun ei wneud yn <waiverLink>CC0 gan ddefnyddio ein proses hepgor</waiverLink>, a'i anfon atom ar commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Gallwch ddefnyddio'r <scraperLink>Echdynnwr Brawddeg</scraperLink> i dynnu brawddegau byr o Wicipedia.
-about-playbook-how-add-sentences-content-4 = Mae brawddegau sydd wedi'u dilysu yn cael eu hallforio ar ddydd Mercher, a byddan nhw ar gael ar ôl y ryddhad nesaf.
 
 ## How to record quality
 
@@ -1818,6 +1822,7 @@ report-sc-different-language = Iaith wahanol
 report-sc-different-language-detail = Mae wedi'i hysgrifennu mewn iaith sy'n wahanol i'r hyn rwy'n ei hadolygu.
 sentences-fetch-error = Digwyddodd gwall wrth nôl brawddegau
 review-error = Digwyddodd gwall wrth adolygu'r frawddeg hon
+review-error-rate-limit-exceeded = Rydych chi'n mynd yn rhy gyflym. Cymerwch eiliad i adolygu'r frawddeg i wneud yn siŵr ei bod yn gywir.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Rydym yn gwneud rhai newidiadau mawr
 sc-redirect-page-subtitle-1 = Mae'r Casglwr Brawddegau yn symud i lwyfan craidd Common Voice. Nawr gallwch <writeURL>ysgrifennu</writeURL> brawddeg neu <reviewURL>adolygu</reviewURL> brawddeg unigol wedi eu cyflwyno ar Common Voice.

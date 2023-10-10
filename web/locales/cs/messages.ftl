@@ -69,6 +69,7 @@ eo = Esperanto
 es = Španělština
 et = Estonština
 eu = Baskičtina
+ewo = Ewondo
 fa = Perština
 ff = Fulbština
 fi = Finština
@@ -79,6 +80,7 @@ ga-IE = Irština
 gl = Galicijština
 gn = Guaraní
 gom = Konkánština
+gu-IN = Gudžarátština
 ha = Hauština
 he = Hebrejština
 hi = Hindština
@@ -98,6 +100,7 @@ it = Italština
 izh = Ižorština
 ja = Japonština
 jbo = Lojban
+jv = Jávština
 ka = Gruzínština
 kaa = Karakalpačtina
 kab = Kabylština
@@ -118,6 +121,7 @@ lij = Ligurština
 ln = Lingalština
 lo = Laoština
 lt = Litevština
+ltg = Latgalština
 lv = Lotyština
 mai = Maithilština
 mdf = Mókša
@@ -150,6 +154,7 @@ nyn = Runyankole
 oc = Okcitánština
 om = Oromština
 or = Udijština
+os = Osetština
 pa-IN = Pandžábština
 pap-AW = Papiamento (Aruba)
 pl = Polština
@@ -243,6 +248,7 @@ share-text = Pomozte strojům pochopit, jak mluví lidé, darujte svůj hlas na 
 link-copied = Odkaz byl zkopírován
 back-top = Zpět nahoru
 logout = Odhlásit
+donate = Darovat
 
 ## Home Page
 
@@ -622,7 +628,6 @@ about-playbook-how-add-sentences = Jak přidávat věty?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> je nástroj pro shromažďování a ověřování public domain vět. Musíte si <scAccountLink>vytvořit účet</scAccountLink>. Poté přidejte svůj jazyk do svého <strong>profilu</strong>. Můžete také <strong>přidávat</strong> věty nebo <strong>ověřovat</strong> dříve přidané věty.
 about-playbook-how-add-sentences-content-2 = Věty musí být ověřeny a schváleny dvěma osobami, aby mohly být zařazeny do Common Voice. <languageGuidelinesLink>Zde</languageGuidelinesLink> si vytvoříte pokyny pro svůj jazyk. Musí se jednat o <licenseLink>public domain</licenseLink> věty kratší než 15 slov. Můžete požádat vlastníka textu, aby jej uvolnil pod <waiverLink>CC0 pomocí našeho postupu zřeknutí se práv</waiverLink> a dohodu nám poslali na commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = K získání krátkých vět z Wikipedie můžete použít nástroj <scraperLink>Sentence extractor</scraperLink>.
-about-playbook-how-add-sentences-content-4 = Ověřené věty jsou exportovány ve středu a jsou dostupné v příštím vydání.
 
 ## How to record quality
 
@@ -1765,6 +1770,7 @@ report-sc-different-language = Další jazyk
 report-sc-different-language-detail = Je napsána v jiném jazyce, než jaký ověřuji.
 sentences-fetch-error = Při načítání vět došlo k chybě
 review-error = Při ověřování věty došlo k chybě
+review-error-rate-limit-exceeded = Jedete příliš rychle. Věnujte prosím chvíli kontrole věty, abyste se ujistili, že je správná.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Probíhají rozsáhlé úpravy
 sc-redirect-page-subtitle-1 = Aplikace Sentence Collector přechází na základní platformu Common Voice. Nyní můžete přímo na Common Voice jednotlivé věty <writeURL>psát</writeURL> nebo <reviewURL>ověřit</reviewURL>.

@@ -60,7 +60,7 @@ cy = Velsiešu
 da = Dāņu
 dag = Dagbani
 de = Vācu
-dsb = Sorbānu, apaksējā
+dsb = Lejassorbu
 dv = Divehu
 dyu = Diula
 el = Grieķu
@@ -69,6 +69,7 @@ eo = Esperanto
 es = Spāņu
 et = Igauņu
 eu = Basku
+ewo = Ewondo
 fa = Persiešu
 ff = Fulu
 fi = Somu
@@ -79,12 +80,13 @@ ga-IE = Īru
 gl = Galisiešu
 gn = Guaranu
 gom = Goans Konkani
+gu-IN = Gudžaratu
 ha = Hausu
 he = Ebreju
 hi = Hindi
 hil = Hiligaņu
 hr = Horvātu
-hsb = Sorbiju, augšējā
+hsb = Augšsorbu
 ht = Haitiešu
 hu = Ungāru
 hy-AM = Armēņu
@@ -98,6 +100,7 @@ it = Itāļu
 izh = Izhoriešu
 ja = Japāņu
 jbo = Lojban
+jv = Javiešu
 ka = Gruzīnu
 kaa = Karakalpak
 kab = Kabilu
@@ -118,6 +121,7 @@ lij = Ligūru
 ln = Lingalas
 lo = Laosas
 lt = Lietuviešu
+ltg = Latgaliešu
 lv = Latviešu
 mai = Maithili
 mdf = Moksha
@@ -150,6 +154,7 @@ nyn = Runjankole
 oc = Oksitāņu
 om = Afaans Oromo
 or = Oriju
+os = Osetīnu
 pa-IN = Pandžabu
 pap-AW = Papiamento (Aruba)
 pl = Poļu
@@ -238,11 +243,12 @@ terms = Noteikumi
 cookies = Sīkdatnes
 faq = BUJ
 content-license-text = Saturs licencēts ar <licenseLink>Creative Commons licenci</licenseLink>
-share-title = Palīdziet mums atrast citus, kas ziedos savu balss ierakstu!
+share-title = Palīdziet mums atrast citus, kas varētu ierakstīt savu balsi!
 share-text = Palīdziet iekārtām saprast latviešu valodu, ierakstiet savu balsi vai pārbaudiet savāktos ierakstus { $link }
 link-copied = Saite kopēta
 back-top = Atpakaļ uz augšu
 logout = Beigt darbu
+donate = Ziedo
 
 ## Home Page
 
@@ -252,7 +258,7 @@ home-cta = Runā skaļi, veic ieguldījumu šeit!
 wall-of-text-start = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju, ir nepieciešams daudz balss ierakstu.
 wall-of-text-more-mobile = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Tas kavē inovāciju. Tāpēc esam uzsākuši Common Voice - projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
 wall-of-text-more-desktop =
-    Tagad jūs varat ziedot savu balsi, lai palīdzētu mums izveidot atvērtā pirmkoda balss datubāzi, ko var izmantot ikviens,
+    Tagad jūs varat ierakstīt savu balsi, lai palīdzētu mums izveidot atvērtā pirmkoda balss datubāzi, ko var izmantot ikviens,
     veidojot inovatīvas lietotnes ierīcēm un tīmeklim. Lasiet teikumu, lai palīdzētu mašīnām iemācīt, kā runā cilvēki. Pārbaudiet citu cilvēku ierakstus, lai uzlabotu datu kvalitāti. Tas ir tik vienkārši!
 wall-of-text-first = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju, ir nepieciešams daudz balss ierakstu.
 wall-of-text-second = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Tas kavē inovāciju. Tāpēc mēs esam uzsākuši Common Voice - projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
@@ -263,7 +269,7 @@ no-clips-to-validate = Izskatās, ka šajā valodā nav audio ierakstu. Palīdzi
 vote-yes = Jā
 vote-no = Nē
 toggle-play-tooltip = Nospiediet { shortcut-play-toggle }, lai pārslēgtu atskaņošanas režīmu
-speak-subtitle = Ziedot savu balsi
+speak-subtitle = Ieraksti savu balsi
 speak-paragraph = Lai mūsu valoda iekārtu laikmetā neizzustu, mums jāieraksta savas balsis; daži teiktu, ka tas ir arī jautri.
 speak-goal-text = Ieraksti ierakstīti
 listen-subtitle = Palīdziet pārbaudīt balsis
@@ -275,7 +281,7 @@ voices-online = Dalībnieki tiešsaistē
 todays-progress = Šodienas progress
 help-reach-goal = Palīdziet sasniegt { $goal }
 read-terms-q = Vai esat izlasījis noteikumus?
-ready-to-record = Vai esat gatavs ziedot savu balsi?
+ready-to-record = Vai esat gatavs ierakstīt savu balsi?
 all-locales = Visas
 today = Šodien
 x-weeks-short =
@@ -356,7 +362,7 @@ request-language-button = Pieprasīt valodu
 ## ProjectStatus
 
 status-title = Kopējais projekta statuss: redziet, cik tālu mēs esam!
-status-contribute = Ziedo savu balsi
+status-contribute = Ieraksti savu balsi
 status-hours =
     { $hours ->
         [zero] Līdz šim pārbaudīta { $hours } stunda!
@@ -461,22 +467,22 @@ change-email-setings = Mainiet savu e-pastu, izmantojot iestatījumus sadaļā "
 faq-title = Biežāk uzdotie jautājumi
 faq-what-cv-q = Kas ir Common Voice?
 faq-what-cv-a =
-    Balss atpazīšanas tehnoloģija revolucionizē veidu, kā mēs sadarbojamies ar mašīnām, bet pašlaik pieejamās sistēmas ir dārgas un patentētas. Common Voice ir daļa no Mozilla iniciatīvas, lai uzlabotu balss atpazīšanas tehnoloģijas ikvienam. Common Voice ir milzīga globāla ziedoto balsu datu bāze, kas ļauj ikvienam ātri un viegli apmācīt balss iespējotas lietojumprogrammas potenciāli visās valodās.
+    Balss atpazīšanas tehnoloģija revolucionizē veidu, kā mēs sadarbojamies ar mašīnām, bet pašlaik pieejamās sistēmas ir dārgas un patentētas. Common Voice ir daļa no Mozilla iniciatīvas, lai uzlabotu balss atpazīšanas tehnoloģijas ikvienam. Common Voice ir milzīga globāla balsu datu bāze, kas ļauj ikvienam ātri un viegli apmācīt balss iespējotas lietojumprogrammas potenciāli visās valodās.
     
-    Mēs ne tikai vācam balss paraugus plaši runātās valodās, bet arī tajās, kurās ir mazāk runātāju. Daudzveidīgu balsu datu kopu publicēšana ļaus izstrādātājiem, uzņēmējiem un kopienām risināt šo trūkumu. Papildus kopīgajai balss datu kopai mēs veidojam arī atvērtā pirmkoda runas atpazīšanas dzinēju, ko sauc par Deep Speech.
+    Mēs ne tikai vācam balss paraugus plaši runātās valodās, bet arī tajās, kurās ir mazāk runātāju. Daudzveidīgu balsu datu kopu publicēšana ļaus izstrādātājiem, uzņēmējiem un kopienām risināt šo trūkumu. Papildus Common Voice datu kopai mēs veidojam arī atvērtā pirmkoda runas atpazīšanas dzinēju, ko sauc par Deep Speech.
 faq-what-cv-a-2 =
-    Balss atpazīšanas tehnoloģija maina veidu, kā mēs mijiedarbojamies ar iekārtām, taču pašlaik pieejamās sistēmas ir dārgas un patentētas. Mozilla Common Voice ir iniciatīva, lai padarītu balss atpazīšanas tehnoloģijas labākas un pieejamākas ikvienam. Common Voice ir globāla ziedoto balsu datu bāze, kas ļauj ikvienam ātri un vienkārši apmācīt ar balsi darbināmas lietotnes dažādās valodās.
+    Balss atpazīšanas tehnoloģija maina veidu, kā mēs mijiedarbojamies ar iekārtām, taču pašlaik pieejamās sistēmas ir dārgas un patentētas. Mozilla Common Voice ir iniciatīva, lai padarītu balss atpazīšanas tehnoloģijas labākas un pieejamākas ikvienam. Common Voice ir globāla balsu datu bāze, kas ļauj ikvienam ātri un vienkārši apmācīt ar balsi darbināmas lietotnes dažādās valodās.
     
     Mēs ne tikai apkopojam balss paraugus plaši lietotās valodās, bet arī tajās, kurās runātāju skaits ir mazāks. Daudzveidīgas balsu datu kopas publicēšana ļaus izstrādātājiem, uzņēmējiem un kopienām pašiem novērst nepilnības valodu balss tehnoloģiju atbalstā dažādās valodās.
 faq-why-important-q = Kāpēc tas ir svarīgi?
 faq-why-important-a =
-    Runa bieži vien ir visdabiskākais veids, kā mēs sazināmies savā starpā, un balss tehnoloģijas nodrošina šo ērtību mūsu datoriem un mobilajām ierīcēm. Mēs vēlamies dot iespēju izstrādātājiem veidot pārsteidzošas balss atpazīšanas lietojumprogrammas, piemēram, reāllaika tulkotājus un balss iespējotus digitālos palīgus. Bet tagad lielākā daļa balss datu, kas nepieciešami, lai izveidotu šāda veida lietojumprogrammas, ir dārgi un patentēti. Mēs ceram, ka kopējā balss datu kopa sniedz izstrādātājiem to, kas viņiem ir nepieciešams, lai ieviestu jauninājumus un padarītu runas tehnoloģiju pieejamu savā valodā.
+    Runa bieži vien ir visdabiskākais veids, kā mēs sazināmies savā starpā, un balss tehnoloģijas nodrošina šo ērtību mūsu datoros un mobilajās ierīcēs. Mēs vēlamies dot iespēju izstrādātājiem veidot pārsteidzošas balss atpazīšanas lietojumprogrammas, piemēram, reāllaika tulkotājus un balss iespējotus digitālos palīgus. Bet tagad lielākā daļa balss datu, kas nepieciešami, lai izveidotu šādas lietojumprogrammas, ir dārgi un patentēti. Mēs ceram, ka Common Voice datu kopa sniedz izstrādātājiem to, kas viņiem ir nepieciešams, lai ieviestu jauninājumus un padarītu runas tehnoloģiju pieejamu savā valodā.
     
-    Lai padarītu balss atpazīšanu vēl universālāku, mēs apkopojam balss paraugus plaši runājošās valodās, kā arī tos, kuriem ir mazāks runātāju skaits, ko bieži aizmirst komerciāli runas atpazīšanas pakalpojumi. Daudzveidīgu balsu datu kopu publicēšana ļaus izstrādātājiem, uzņēmējiem un visai runas kopienai paši atrisināt šo plaisu.
+    Lai padarītu balss atpazīšanu vēl universālāku, mēs apkopojam balss paraugus plaši izmantotajās valodās, kā arī tos, kuriem ir mazāks runātāju skaits, ko bieži aizmirst komerciāli runas atpazīšanas pakalpojumi. Daudzveidīgu balsu datu kopu publicēšana ļaus izstrādātājiem, uzņēmējiem un visai runas kopienai pašai novērst šo trūkumu.
 faq-how-get-q = Kā es varu iegūt Common Voice datus?
 faq-how-get-a = Common Voice datu kopa ir pieejama lejupielādei, izmantojot <licenseLink> CC0 </licenseLink> licenci lapā <datasetLink>datu kopa</datasetLink>. Jūs arī šajā lapā varat lejupielādēt vairākas citas publiski pieejamas datu kopas.
 faq-when-release2-q = Kad jūs publiskosit kopējās balss datus citās valodās?
-faq-when-release2-a = Kopējās balss datu kopas daudzvalodu versijā pašlaik notiek kopienas atbalstīta komplektēšana un tīrīšana. Ja vēlaties palīdzēt mums kopīgo balsi piesaistīt jaunām valodām, dodieties uz <sentenceCollectorLink> teikumu savākšanas rīku </sentenceCollectorLink>, lai datu kopai pievienotu jaunus teikumus, un Mozilla <pontoonLink> pontons </pontoonLink> vietnes tulkošanai. pati. Kad ir savākti 5000 apstiprināti teikumi, kopējai balss skaņai tiek pievienotas jaunas valodas.
+faq-when-release2-a = Common Voice datu kopas daudzvalodu versijā pašlaik notiek kopienas atbalstīta komplektēšana un tīrīšana. Ja vēlaties palīdzēt mums Common Voice piesaistīt jaunām valodām, dodieties uz <sentenceCollectorLink> teikumu savākšanas rīku </sentenceCollectorLink>, lai datu kopai pievienotu jaunus teikumus, un Mozilla <pontoonLink>Pontoon</pontoonLink> vietnes tulkošanai. Kad ir savākti 5000 apstiprināti teikumi, Common Voice tiek pievienotas jaunas valodas.
 faq-why-mission-q = Kādēļ Common Voice ir daļa no Mozilla misijas?
 faq-why-mission-a = Mozilla fokusējas uz to, lai tīmeklis būtu atvērts un pieejams ikvienam. Lai to izdarītu, mums ir jāsniedz tīmekļa veidotājiem vairāk iespēju, radot tādus projektus kā Common Voice. Tā kā balss tehnoloģijas izplatās ārpus nišas programmām, mēs uzskatām, ka tām ir jākalpo visiem lietotājiem vienādi. Tas nozīmē ieguldīt vairākās valodās un pielāgot dažādus akcentus un demogrāfiskos datus, veidojot un testējot balss tehnoloģijas. Common Voice ir publisks resurss, kas pieejams visiem, un Mozilla komandas un izstrādātāji visā pasaulē jau to izmanto mūsu pašu projektos.
 faq-what-cv-and-deepspeech-q = Kāda atšķirība starp Common Voice un Deep Speech?
@@ -484,7 +490,7 @@ faq-what-cv-and-deepspeech-a = Kopējā balss datu kopa papildina Mozilla atvēr
 faq-is-goal-assistant-q = Vai Common Voice mērķis ir veidot balss asistentu?
 faq-is-goal-assistant-a = Kopējās balss datu kopas mērķis ir ļaut ikvienam pasaulē veidot runas atpazīšanu, runātāju atpazīšanu vai jebkāda cita veida lietojumprogrammu, kas strādā ar balss datiem. Balss palīgs ir tikai viens no daudziem lietojumprogrammu veidiem, kurus var veidot ar šo datu kopu.
 faq-do-want-native-q = Šī nav mana dzimtā valoda un es runāju ar akcentu, vai jums tomēr vajag manus balss ierakstus?
-faq-do-want-native-a = Jā, mēs īpaši vēlamies jūsu balsi! Common Voice mērķis ir apkopot pēc iespējas vairāk dažādu akcentu, lai balss atpazīšanas pakalpojumi darbotos vienlīdz labi visiem. Tas nozīmē, ka īpaši nozīmīgi ir ziedojumi no cilvēkiem, kuriem šī valoda nav dzimtā valoda.
+faq-do-want-native-a = Jā, mēs īpaši vēlamies jūsu balsi! Common Voice mērķis ir apkopot pēc iespējas vairāk dažādu akcentu, lai balss atpazīšanas pakalpojumi darbotos vienlīdz labi visiem. Tas nozīmē, ka īpaši nozīmīgi ir ieraksti no cilvēkiem, kuriem šī valoda nav dzimtā valoda.
 faq-why-different-speakers-q = Kāpēc jums ir nepieciešams tik daudz dažādu runātāju vienā valodā?
 faq-why-different-speakers-a =
     Lielākā daļa runas datu bāzu tiek apmācītas ar dažu demogrāfisko datu pārmērīgu attēlošanu, kas rada novirzi attiecībā uz <articleLink>vidušķiras vīriešiem</articleLink>. Akcenti un dialekti, kas parasti ir nepietiekami pārstāvēti mācību datu kopās, parasti ir saistīti ar cilvēku grupām, kuras jau tā ir atstumtas. Daudzas mašīnas arī cenšas izprast sieviešu balsis.
@@ -501,20 +507,20 @@ faq-how-calc-hours-q = Kā Common Voice aprēķina stundas?
 faq-how-calc-hours-a = Mēs aprēķinām stundas, aprēķinot katra ieraksta vidējo garumu un tad reizinot šo skaitu ar kopējo ierakstu skaitu visās valodās.
 faq-where-src-from-2-q = No kurienes nāk teksti ierakstiem?
 faq-where-src-from-2-a =
-    Mūsu teksti sastāv no sākotnējiem ziedojumiem, kā arī no publiskā domēna filmu subtitriem, piemēram, <italic>It’s a Wonderful Life</italic>.
+    Mūsu teksti sastāv no sākotnējiem ierakstiem, kā arī no publiskā domēna filmu subtitriem, piemēram, <italic>It’s a Wonderful Life</italic>.
     
     Jūs varat apskatīt mūsu teikumus šajā <githubLink> GitHub mapē </githubLink>.
 faq-why-not-ask-read-q = Kāpēc jūs nelūdzat, lai cilvēki lasītu grāmatas vai Wikipedia rakstus dažādās valodās?
-faq-why-not-ask-read-a = Lai kopīgo balss datu kopu padarītu pēc iespējas lietderīgāku, mēs esam nolēmuši atļaut tajā tikai tekstu, kas ir pieejams saskaņā ar Creative Commons (CC0) licenci. Izmantojot CC0 standartu, ir grūtāk atrast un savākt avota tekstu, bet tas ļauj ikvienam izmantot iegūtos balss datus bez lietošanas ierobežojumiem vai Mozilla atļaujas. Galu galā mēs vēlamies padarīt daudzvalodu datu bāzi lietderīgu ikvienam, tostarp pētniekiem, universitātēm, uzņēmumiem, valdībām, sociālā mērķa organizācijām un vienkārši tehnoloģiju entuziastiem.
+faq-why-not-ask-read-a = Lai Common Voice datu kopu padarītu pēc iespējas lietderīgāku, mēs esam nolēmuši atļaut tajā tikai tekstu, kas ir pieejams saskaņā ar Creative Commons (CC0) licenci. Izmantojot CC0 standartu, ir grūtāk atrast un savākt tekstu, bet tas ļauj ikvienam izmantot iegūtos balss datus bez lietošanas ierobežojumiem vai Mozilla atļaujas. Galu galā mēs vēlamies padarīt daudzvalodu datu bāzi lietderīgu ikvienam, tostarp pētniekiem, universitātēm, uzņēmumiem, valdībām, sociālā mērķa organizācijām un vienkārši tehnoloģiju entuziastiem.
 faq-why-account-q = Kāpēc man jāreģistrējas?
 faq-is-account-public-q = Vai mana konta informācija ir publiski pieejama?
-faq-how-privacy-q = Kā jūs nodrošināsiet to cilvēku anonimitāti un privātumu, kuri ziedoja savas balsis?
+faq-how-privacy-q = Kā jūs nodrošināsiet to cilvēku anonimitāti un privātumu, kuri ieraksta savas balsis?
 faq-how-privacy-a = Datu kopas balss ierakstos tiek noņemta jebkāda personas identificējoša informācija. Ja dalībnieks savā profilā ir sniedzis demogrāfiskos datus, šī informācija tiek noņemta no viņa balss ierakstiem, pirms tie tiek pievienoti lejupielādei datu kopā, un nekad netiek publiskota profila lapā.
-faq-what-determine-identity-q = Ko tas nozīmē, ka es “nevaru noteikt runātāju identitāti kopīgajā balss datu kopā”?
+faq-what-determine-identity-q = Ko tas nozīmē, ka es “nevaru noteikt runātāju identitāti Common Voice datu kopā”?
 faq-what-determine-identity-a =
-    Kopējā balss datu kopa ir atvērts un publiski pieejams resurss, ko var izmantot, lai apmācītu dažādas runas iespējotas lietojumprogrammas. Lai aizsargātu mūsu dalībnieku drošību, mēs lūdzam ikvienu, kas lejupielādē kopīgo balss datu kopu, ievērot ieguldītāju privātumu.
+    Common Voice kopa ir atvērts un publiski pieejams resurss, ko var izmantot, lai apmācītu dažādas runas iespējotas lietojumprogrammas. Lai aizsargātu mūsu dalībnieku drošību, mēs lūdzam ikvienu, kas lejupielādē Common Voice datu kopu, ievērot ieguldītāju privātumu.
     
-    Visiem datu kopas balss klipiem tiek noņemta personas identifikācijas informācijas. Lejupielādējot datu kopu, jūs piekrītat nemēģināt noteikt dalībnieku identitāti. Tas nozīmē, ka jūs nevarat mēģināt saistīt informācijas kopu ar ierunātāja personisko informāciju. Tomēr jūs varat izmantot datu kopu, lai apmācītu runas atpazīšanu, runātāju atpazīšanu vai citas lietojumprogrammas, piemēram, saistot informāciju datu kopā ar citu informāciju, kas jau atrodas datu kopā.
+    Visiem datu kopas balss ierakstiem tiek noņemta personas identifikācijas informācija. Lejupielādējot datu kopu, jūs piekrītat nemēģināt noteikt dalībnieku identitāti. Tas nozīmē, ka jūs nedrīkstat mēģināt saistīt informācijas kopu ar ierunātāja personisko informāciju. Tomēr jūs varat izmantot datu kopu, lai apmācītu runas atpazīšanu, runātāju atpazīšanu vai citas lietojumprogrammas, piemēram, saistot informāciju datu kopā ar citu informāciju, kas jau atrodas datu kopā.
 faq-what-is-cv = Kas ir kopējā balss?
 faq-using-cv = Kopējās balss izmantošana
 faq-description = Kopējā balss ir daļa no Mozilla iniciatīvas, lai palīdzētu mācīt mašīnas, kā reāli cilvēki runā.
@@ -528,7 +534,7 @@ about-header-description-v2 =
     <p>Common Voice ir publiski pieejama balss datu kopa, ko veido brīvprātīgo balsis visā pasaulē. Cilvēki, kuri vēlas veidot programmas, kas strādā ar balsi, var izmantot datu kopu, lai apmācītu runas atpazīšana modeļus.</p>
     <p>Šobrīd lielākā daļa balss datu kopu pieder atsevišķiem uzņēmumiem, kas kavē inovācijas. Valodas ar mazu runātāju skaitu pasaulē balss datu kopās ir nepietiekami pārstāvētas. Tas nozīmē, ka tehnoloģijas, kas darbojas ar balsi šajās valodās nedarbojas vai strādā slikti. Mēs vēlamies to mainīt, mobilizējot cilvēkus visā pasaulē, lai viņi dalītos ar savu balsi un pārbaudītu ierakstītos teikumus.</p>
 how-does-it-work-title-v2 = Kā darbojas Common Voice?
-how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamu datu kopu. Ziedojiet savu balsi, apstipriniet citu cilvēku ierakstus, uzlabojiet datu kopu visiem.
+how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamu datu kopu. Ierakstiet savu balsi, apstipriniet citu cilvēku ierakstus, uzlabojiet datu kopu visiem.
 
 ## How does it work section
 
@@ -555,7 +561,7 @@ about-listen-text = Lietotāji pārbauda iesniegto ierakstu precizitāti, pārba
 about-is-it-valid = Vai ieraksts ir derīgs?
 about-is-it-valid-text = Balss ieraksts ir atzīmēts kā "derīgs", ja lietotājs to apstiprinājis ar "jā".
 about-yes-votes = ≥ 2 jā balsis
-about-yes-votes-text = Lai padarītu par daļu no balss datu kopas, klips ir jāapstiprina diviem atsevišķiem lietotājiem.
+about-yes-votes-text = Lai padarītu par daļu no balss datu kopas, ieraksts ir jāapstiprina diviem atsevišķiem lietotājiem.
 about-no-votes = ≥ 2 nē balsis
 about-no-votes-text = Ja lietotājs noraida balss ierakstu, tas atgriežas rindā. Ja to noraida otro reizi, tas tiek pārvietots uz ierakstu kapu.
 about-dataset-new = Balss datu kopa
@@ -602,7 +608,7 @@ about-playbook-how-add-language-translating-content-2 =
     Tulkošanai mēs izmantojam Mozilla rīku <pontoonLink>Pontoon</pontoonLink>. Šajā rīkā ir daudz valodu,
     bet, ja tajā nav jūsu, varat <pontoonRequestLink>pieprasīt savas valodas pievienošanu</pontoonRequestLink>.
     Pēc tam, lai pievienotu valodu Common Voice,
-    <githubRepoLink>pieprasiet jauno valodu vietnē GitHub</githubRepoLink>. <localizationFragment>Uziniet vairāk par vietņu tulkošanu</localizationFragment>.
+    <githubRepoLink>pieprasiet jauno valodu vietnē GitHub</githubRepoLink>. <localizationFragment>Uzziniet vairāk par vietņu tulkošanu</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkopošana
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Skatieties mūsu ceļvedi par teikumu apkopotāja lietošanu</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
@@ -626,7 +632,6 @@ about-playbook-how-add-sentences = Kā pievienot teikumus?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ir rīks publiskā domēna teikumu apkopošanai un apstiprināšanai. Jums būs <scAccountLink>jāizveido konts</scAccountLink>. Pēc tam pievienojiet valodu savam <strong>profilam</strong>. Varat <strong>pievienot</strong> teikumus vai <strong>pārskatīt</strong> iepriekš pievienotos teikumus.
 about-playbook-how-add-sentences-content-2 = Teikumi ir jāpārskata un jāpieņem diviem cilvēkiem, lai tie tiktu iekļauti Common Voice. Jūs varat izveidot vadlīnijas savai valodai <languageGuidelinesLink>šeit</languageGuidelinesLink>. Teikumiem jābūt <licenseLink>brīviem no autortiesībām</licenseLink>, un tiem jābūt īsākiem par 15 vārdiem. Varat lūgt teksta īpašniekam nodot teikumus <waiverLink>CC0 jeb brīvai lietošanai, izmantojot mūsu autortiesību nodošanas procesu</waiverLink>, un nosūtīt mums uz commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Varat izmantot <scraperLink>teikumu izvilkšanas rīku</scraperLink>, lai izmantotu īsus teikumus no Vikipēdijas.
-about-playbook-how-add-sentences-content-4 = Validētie teikumi tiek eksportēti trešdienās un ir pieejami nākamajā laidienā.
 
 ## How to record quality
 
@@ -686,7 +691,7 @@ hours-validated-explanation = Balss ieraksta stundu skaits, ko apstiprinājuši 
 sst = Runa uz tekstu (STT)
 sst-explanation = Runas-teksta (STT) tehnoloģijas pārvērš balss datus tekstā.
 de-identified = Atbrīvots no identifikācijas
-de-identified-explanation = Process, kurā ierunātāja profila informācija tiek maskēta viņu ziedotajos balss klipos, ja tie ir pieejami lejupielādei kā datu kopas daļa.
+de-identified-explanation = Process, kurā ierunātāja profila informācija tiek maskēta viņu balss ierakstos, ja tie ir pieejami lejupielādei kā datu kopas daļa.
 
 ## Error pages
 
@@ -717,7 +722,7 @@ license = Licence: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
 data-download-singleword-title = Lejupielādējiet viena vārda mērķa segmentu
 data-download-singleword-callout-v2 = Šis ir uz lietošanas gadījumu balstīts segments, kurā ir dati, kas nodrošina ierunātu ciparu atpazīšanu un jā/nē noteikšanu.
-review-terms = Izmantojot kopīgo balsi, jūs piekrītat mūsu <termsLink>noteikumiem</termsLink> un <privacyLink>konfidencialitātes atrunai</privacyLink>
+review-terms = Izmantojot Common Voice, jūs piekrītat mūsu <termsLink>noteikumiem</termsLink> un <privacyLink>konfidencialitātes atrunai</privacyLink>
 terms-agree = Es piekrītu
 terms-disagree = Es nepiekrītu
 review-aborted = Augšupielāde tiek pārtraukta. Vai vēlaties dzēst savus ierakstus?
@@ -773,7 +778,7 @@ other-datasets = Citas balss datu kopas
 feedback-q = Vai jums ir atsauksmes?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ir <docsLink>atvērtā koda rīkkopa</docsLink> pētniekiem, kas izstrādā jaunākos sarunvalodas mākslīgā intelekta modeļus.
 resource-deepspeech-info = Common Voice datu kopa papildina Mozilla atvērtā koda balss atpazīšanas dzinēju Deep Speech, ko var izmantot, lai izveidotu runas atpazīšanas programmas. Izlasiet mūsu <githubLink>Github pārskatu</githubLink> vai pievienojieties <discourseLink>DeepSpeech Discourse</discourseLink>, lai uzzinātu, kā sākt darbu.
-resource-coqui-info = <coquiLink>Coqui</coquiLink> ir strādā atvērtās runas tehnoloģijas attīstībai. Viņu projekti ietver dziļā mācīšanās balstītus STT un TTS dzinējus.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> veltīta atvērtās runas tehnoloģijas attīstībai. Viņu projekti ietver dziļās mācīšanās metodēs balstītus STT un TTS dzinējus.
 community-playbook = Kopienas rokasgrāmata
 resource-playbook-info = <playbookLink>Atrodiet noderīgus norādījumus</playbookLink> par visu Common Voice ceļojumu, sākot no lokalizācijas līdz datu kopas lietošanai, kā arī par to, kā sazināties ar mūsu kopienu.
 data-other-librispeech-description = LibriSpeech ir aptuveni 1000 stundu 16Khz ar angļu valodas runu, kas iegūta no LibriVox projekta lasītajām audio grāmatām.
@@ -819,7 +824,7 @@ request-language-title = Valodas pieprasījums
 request-language-form-language =
     .label = Valoda
 request-language-success-title = Valodas pieprasījums ir veiksmīgi iesniegts, paldies.
-request-language-success-content = Mēs nosūtīsim vairāk informācijas par to, kā ļoti ātri pievienot valodu kopīgajai balsij.
+request-language-success-content = Mēs nosūtīsim vairāk informācijas par to, kā ātri pievienot valodu Common Voice.
 select-language = Uzstādiet valodu...
 other-language = Cita valoda
 
@@ -975,7 +980,7 @@ report-different-language-detail = Tas ir uzrakstīts valodā, kas atšķiras no
 report-difficult-pronounce = Grūti izrunāt
 report-difficult-pronounce-detail = Tajā ir vārdi vai frāzes, kurus ir grūti lasīt vai izrunāt.
 report-offensive-speech = Aizvainojoša runa
-report-offensive-speech-detail = Klipā valda necieņa vai aizvainojums.
+report-offensive-speech-detail = Ierakstā izmantota necienīga vai aizskaroša valoda.
 report-other-comment =
     .placeholder = Komentēt
 success = Veiksmīgi
@@ -1266,8 +1271,8 @@ how-many-a-week = Lieliski! Cik ierakstu nedēļā?
 which-goal-type = Vai vēlaties runāt, klausīties vai abus?
 receiving-emails-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
 not-receiving-emails-info =
-    Pašlaik jums ir iestatīts <bold> NESAŅEMT </bold> e-pastus, piemēram, atgādinājumus par mērķiem, mans
-    progresa atjauninājumi un biļeteni par kopīgo balsi
+    Pašlaik jums ir iestatīts <bold> NESAŅEMT </bold> e-pastus, piemēram, atgādinājumus par mērķiem, 
+    progresa atjauninājumus un informatīvos izdevumus par Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [zero] { $count } ieraksts
@@ -1285,7 +1290,7 @@ share-goal-type-speak = Runāšana
 share-goal-type-listen = Klausīšanās
 share-goal-type-both = Runāšana un klausīšanās
 # LINK will be replaced with the current URL
-goal-share-text = Es tikko izveidoju savu balss ziedošanas mērķi #CommonVoice - pievienojieties man un palīdziet iekārtām iemācīt saprast latviešu valodu { $link }
+goal-share-text = Es tikko izveidoju savu balss talkas mērķi #CommonVoice - pievienojieties man un palīdziet iekārtām iemācīt saprast latviešu valodu { $link }
 weekly-goal-created = Jūsu nedēļas mērķis ir izveidots
 daily-goal-created = Jūsu ikdienas mērķis ir izveidots
 track-progress = Sekojiet progresam šeit statistikas lapā.
@@ -1389,8 +1394,8 @@ contribution-criteria-page-description = Izprotiet, kam jāpievērš uzmanība, 
 contribution-for-example = piemēram
 contribution-misreadings-title = Kļūdaini lasījumi
 contribution-misreadings-description = Klausoties ļoti rūpīgi pārbaudiet, vai ierakstītais ir tieši tas, kas uzrakstīts; noraidiet, ja ir pat nelielas kļūdas. <br />Biežākās kļūdas ir šādas:
-contribution-misreadings-description-extended-list-1 = Izlaisti vārdi, piemēram trūkst <strong>'ja'</strong> vai <strong>'es'</strong>, piemēram 'es esmu' vietā ierunāts tikai 'esmu'.
-contribution-misreadings-description-extended-list-2 = Norautas vārdu galotnes, piemēram <strong>'s'</strong> vārda beigās.
+contribution-misreadings-description-extended-list-1 = Izlaisti vārdi, piemēram, trūkst <strong>'ja'</strong> vai <strong>'es'</strong>, piemēram, 'es esmu' vietā ierunāts tikai 'esmu'.
+contribution-misreadings-description-extended-list-2 = Norautas vārdu galotnes, piemēram, <strong>'s'</strong> vārda beigās.
 contribution-misreadings-description-extended-list-3 = Ierunāts vārds nepareizā locījumā.
 contribution-misreadings-description-extended-list-4 = Trūkst vārda beigu, jo ieraksts ir izslēgts pārāk ātri
 contribution-misreadings-description-extended-list-5 = Ierakstā dzirdami vairāki mēģinājumi ierakstīt vienu un to pašu frāzi
@@ -1414,23 +1419,23 @@ contribution-varying-pronunciations-description-extended = No otras puses, ja iz
 contribution-varying-pronunciations-example-1-title = Man garšo desa.
 contribution-varying-pronunciations-example-1-explanation = [‘desa’ ir pareizi ierunāta neatkarīgi no tā vai dažādos akcentos tiek lietots platais vai šaurais e]
 contribution-varying-pronunciations-example-2-title = Viņa roka bija pacelta.
-contribution-varying-pronunciations-example-2-explanation = [‘bija’ ir jāizrunā ar dzirdamu a butru beigās, ja dzirdat tikai ‘bij’, ierunāts nepareizi]
+contribution-varying-pronunciations-example-2-explanation = [‘bija’ ir jāizrunā ar dzirdamu a burtu beigās, ja dzirdat tikai ‘bij’, ierunāts nepareizi]
 contribution-background-noise-title = Fona troksnis
 contribution-background-noise-description = Mēs vēlamies, lai mašīnmācīšanās algoritmi spētu apstrādāt dažādus fona trokšņus, un tiek pieņemti pat salīdzinoši skaļi trokšņi, ja tie netraucē dzirdēt visu tekstu. Klusa fona mūzika ir ok; mūzika, kas traucē skaidri sadzirdēt katru vārdu, nav ok.
 contribution-background-noise-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
-contribution-background-noise-example-1-fixed-title = <strong>[Šaudīšana]</strong>Triasa laikmeta <strong>[klepus]</strong> milzu dinozauri.
-contribution-background-noise-example-2-fixed-title = Tirasa laikmeta <strong>[klepus]</strong> milzu dinozauri.
+contribution-background-noise-example-1-fixed-title = <strong>[Šķaudīšana]</strong>Triasa laikmeta <strong>[klepus]</strong> milzu dinozauri.
+contribution-background-noise-example-2-fixed-title = Triasa laikmeta <strong>[klepus]</strong> milzu dinozauri.
 contribution-background-noise-example-2-explanation = [Daļu no teksta nevar dzirdēt]
-contribution-background-noise-example-3-fixed-title = <strong>[Čarkstoņa]</strong>-iasa laikmeta milzu dinozauri <strong>[crackle]</strong>.
+contribution-background-noise-example-3-fixed-title = <strong>[Čerkstoņa]</strong>-iasa laikmeta milzu dinozauri <strong>[čerkstoņa]</strong>.
 contribution-background-voices-title = Balsis fonā
-contribution-background-voices-description = Klusa murmināšana fonā ir pieņemama, taču mēs nevēlamies papildu balsis, kas varētu traucēt algoritmam pareizi noteikt vārdus, kas nav rakstītajā tekstā. Ja dzirdat vārdus, kas nav rakstīti tekstā, klips ir jānoraida. Parasti tas notiek tur, kur televizors ir atstāts ieslēgts vai kad tuvumā notiek saruna.
+contribution-background-voices-description = Klusa murmināšana fonā ir pieņemama, taču mēs nevēlamies papildu balsis, kas varētu traucēt algoritmam pareizi noteikt vārdus, kas nav rakstītajā tekstā. Ja dzirdat vārdus, kas nav rakstīti tekstā, ieraksts ir jānoraida. Parasti tas notiek tad, ja ir atstāts ieslēgts televizors vai tuvumā notiek saruna.
 contribution-background-voices-description-extended = Ja ieraksts raustās vai tajā ir sprakšķi, noraidiet, ja vien joprojām nav pilnībā dzirdams viss teksts.
-contribution-background-voices-example-1-title = Triasa laikmeta milzu dinozauri. <strong>[lasa vienā balsa]</strong>
+contribution-background-voices-example-1-title = Triasa laikmeta milzu dinozauri. <strong>[lasa viena balss]</strong>
 contribution-background-voices-example-1-explanation = Vai tu nāc? <strong>[saka kāds cits]</strong>
 contribution-volume-title = Skaļums
 contribution-volume-description = Starp lasītājiem būs dabiskas ieraksta skaļuma atšķirības. Noraidīt tikai tad, ja skaļums ir tik liels, ka ierakstā ir krakšķi vai tas pārtrūkst, vai arī, ja tas ir tik kluss, ka nevar saklausīt dzirdēt teikto bez atsauces uz rakstīto tekstu.
 contribution-reader-effects-title = Ierunātāja izrunas īpatnības
-contribution-reader-effects-description = Lielākā daļa ierakstu ir cilvēki, kas runā savā dabiskajā balsī. Varat pieņemt nelielas atkāpes, ja piemēram kāda frāze tiek pateikta skaļāk, klusāk vai tiek pasniegta ‘dramatiskā’ balsī. Lūdzu, noraidiet dziedātos ierakstus un tos, kas ierunāti robotiskā datora balsī.
+contribution-reader-effects-description = Lielākā daļa ierakstu ir no cilvēkiem, kas runā savā dabiskajā balsī. Varat pieņemt nelielas atkāpes, piemēram, ja kāda frāze tiek pateikta skaļāk, klusāk vai tiek pasniegta ‘dramatiskā’ balsī. Lūdzu, noraidiet dziedātos ierakstus un tos, kas ierunāti robotiskā datora balsī.
 contribution-just-unsure-title = Vienkārši neesat pārliecināti?
 contribution-just-unsure-description = Ja saskaraties ar kaut ko, kas šajās vadlīnijās nav ietverts, lūdzu, balsojiet kā jums šķiet pareizi. Atcerieties, kvalitāte un precizitāte ir svarīgāka par ierakstu skaitu. Ja tiešām nevarat izlemt, izmantojiet izlaišanas pogu un pārejiet uz nākamo ierakstu.
 see-more = <chevron></chevron>Rādīt vairāk
@@ -1494,7 +1499,7 @@ sc-howto-cite-item-2 = Varat izmantot akadēmisko atsauces stilu, piemēram, Hā
 sc-howto-cite-item-3 = Publiskā domēna tekstam, kas nav pieejams tiešsaistē, varat izmantot akadēmisko atsauces stilu, piemēram, Hārvardas stilu "Džess (2021) Mani dzejoļi par publisko licenci"
 sc-howto-review-title = Pārskatiet teikumus
 sc-howto-review-subtitle = Pārliecinieties, vai teikums atbilst šādiem kritērijiem:
-sc-howto-review-criteria-1 = Teikumam jābūt pareizi uzrakstītam, vārdos nav drukas kļūdu.
+sc-howto-review-criteria-1 = Teikumam jābūt uzrakstītam pareizi, bez drukas kļūdām.
 sc-howto-review-criteria-2 = Teikumam jābūt gramatiski pareizam.
 sc-howto-review-criteria-3 = Teikumam jābūt izrunājamam.
 sc-howto-review-criteria-4 = Ja teikums atbilst visiem kritērijiem, noklikšķiniet uz pogas "Apstiprināt".
@@ -1508,7 +1513,7 @@ sc-howto-findpd-tips-1 = Labākie avoti, kur varat meklēt, ir podkāsti, stenog
 sc-howto-findpd-tips-2 = Valdības sēžu stenogrammas, grāmatas un raksti arī ir lieliski, taču, tā kā teksts mēdz būt nedaudz formālāks, tiem ir mazāka prioritāte.
 sc-howto-findpd-tips-3 = Diemžēl mēs šobrīd nevaram iekļaut Wikimedia rakstus. Tāpēc, lūdzu, nekopējiet teikumus no turienes.
 sc-howto-findpd-subtitle-2 = Sadarbojieties ar vietējām organizācijām vai privātpersonām
-sc-howto-findpd-partner-1 = Ir daudzas sabiedriskās organizācijas, kuras varētu vēlēties sadarboties, un tām jau ir daudz tekstu, ko tās var ziedot sabiedrības labumam kā publisku īpašumu. Sazinieties ar vietējām universitātēm, valdībām un atvērtā pirmkoda organizācijām, lai runātu par projektu un lūgtu viņu palīdzību.
+sc-howto-findpd-partner-1 = Ir daudzas sabiedriskās organizācijas, kuras varētu vēlēties sadarboties, un tām jau ir daudz tekstu, ko tās var iedot sabiedrības labumam kā publisku īpašumu. Sazinieties ar vietējām universitātēm, valdībām un atvērtā pirmkoda organizācijām, lai runātu par projektu un lūgtu viņu palīdzību.
 sc-howto-findpd-partner-2 = Eksperti valodnieki var arī palīdzēt, mēģināt sazināties ar vietējām lingvistiskajām universitātēm (gan skolotājiem, gan studentiem) un noskaidrot, vai tās var palīdzēt apkopot daudzveidīgu skaņu un dažādu teikumu kopumu jūsu valodā.
 
 ## MY SENTENCES
@@ -1710,7 +1715,7 @@ sc-personal-not-added = Jūs vēl neesat pievienojis nevienu valodu.
 sc-criteria-modal = ⓘ Pārbaudīšanas kritēriji
 sc-criteria-title = Pārbaudīšanas kritēriji
 sc-criteria-make-sure = Pārliecinieties, vai teikums atbilst šādiem kritērijiem:
-sc-criteria-item-1 = Teikumam jābūt pareizi uzrakstītam, vārdos nav drukas kļūdu.
+sc-criteria-item-1 = Teikumam jābūt uzrakstītam pareizi, bez drukas kļūdām.
 sc-criteria-item-2 = Teikumam jābūt gramatiski pareizam.
 sc-criteria-item-3 = Teikumam jābūt izrunājamam.
 sc-criteria-item-4 = Ja teikums atbilst visiem kritērijiem, noklikšķiniet uz pogas &quot;Apstiprināt&quot;.
@@ -1791,7 +1796,7 @@ partnerships-corporates-header = Liela mēroga korporācijas un platformu uzņē
 partnerships-corporates-description = Ja vēlaties runāt vairāk par datu kopu, līdzinvestēt plānotos platformas paplašināšanā vai meklēt sadarbības iespējas, <emailFragment>rakstiet mums.</emailFragment>
 partnerships-our-partners = Mūsu partneri
 # FIRST POST SUBMISSION CTA
-first-cta-header-text = Paldies, ka ziedojāt savas balss ierakstus!
+first-cta-header-text = Paldies, ka pievienojāt savas balss ierakstus!
 first-cta-subtitle-text = Vai vēlaties pastāstīt par to, kā runājat?
 why-donate = Kāpēc jūs jautājat?
 why-donate-explanation-1 = Šī informācija nav jāsniedz obligāti - pievienojiet to tikai tad, ja jūtaties ērti. Kad mēs izlaižam datu kopu, mēs pseidonimizējam visu personas informāciju un pārliecināmies, ka informācija, piemēram, jūsu vārds un e-pasts, nav saistīta ar demogrāfisko informāciju, piemēram, vecumu vai dzimumu.
@@ -1802,7 +1807,7 @@ create-profile-text = Vai vēlaties saglabāt savu informāciju? <createProfile>
 thanks-for-voice-toast = Paldies par balss informāciju
 thanks-for-voice-toast-error = Iesniedzot jūsu balss informāciju, radās kļūda
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = Paldies, ka ziedojāt savas balss ierakstus!
+second-cta-header-text = Paldies, ka pievienojāt savas balss ierakstus!
 second-cta-subtitle-text = Izmantojot profilu, varēsiet sekot līdzi savai aktivitātei un sazināties ar balss datu vācēju kopienu.
 already-have-an-account = Jums jau ir konts? <login>Pieslēdzieties</login>
 create-profile-button = Izveidot profilu
@@ -1822,7 +1827,7 @@ volume = Skaļums
 reader-effects = Ierunātāja izrunas īpatnības
 just-unsure = Vienkārši neesat pārliecināti?
 example = Piemērs
-varying-pronunciations-explanation-1 = Mēs priecājamies par dažādiem akcentiem! Rūpīgi izvērtējiet, pirms noraidīt ierakstu, pamatojoties uz to, ka, jūsuprāt, lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai ignorējis pieturzīmes. Dažādi cilvēki pasaulē runā dažādi, un dažas no šīm izrunām, iespējams, ikdienā nedzirdat savā kopienā. Lūdzu, novērtējiet tos, kuri runā atšķirīgi no jums.
+varying-pronunciations-explanation-1 = Mēs priecājamies par dažādiem akcentiem! Rūpīgi izvērtējiet, pirms noraidāt ierakstu, pamatojoties uz to, ka, jūsuprāt, lasītājs ir nepareizi izrunājis vārdu, ievietojis uzsvaru nepareizā vietā vai ignorējis pieturzīmes. Dažādi cilvēki pasaulē runā dažādi, un dažas no šīm izrunām, iespējams, ikdienā nedzirdat. Lūdzu, novērtējiet tos, kuri runā atšķirīgi no jums.
 varying-pronunciations-explanation-2 = No otras puses, ja izruna ir nepareiza vai kļūdaina, noraidiet ierakstu. Ja neesat pārliecināti, izmantojiet izlaišanas pogu.
 varying-pronunciations-example = Man garšo mērce un desa.
 varying-pronunciations-tip-1 = [Dažādās Latvijas malās "mērce" izrunā dažādi, visas izrunas ir pareizas]
@@ -1830,7 +1835,7 @@ varying-pronunciations-tip-2 = [Arī vārdu "desa" dažādi cilvēki izrunā da�
 offensive-content-explanation = Teikumi tiek pārbaudīti, izmantojot brīvprātīgo labākos nodomus, taču šis process nav ideāls. Ja redzat vai dzirdat teikumu, kas jūs aizvaino vai satrauc, piemēram, tāpēc, ka tas pārkāpj mūsu <participationGuidelines>kopienas līdzdalības vadlīnijas</participationGuidelines>, lūdzu, izmantojiet karodziņa pogu lietotāja saskarnē. Varat arī sazināties ar mums, izmantojot e-pasta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-1 = Ir svarīgi pareizi izlasīt katru vārdu. Klausoties ļoti rūpīgi pārbaudiet, vai ierakstītais ir tieši tas, kas prasīts; noraidīt, ja runātāji ir pievienojuši vai palaiduši garām kādu vārdu vai, ja divi vārdi ir samainīti vietām.
 misreadings-explanation-2 = Biežāk sastopamās kļūdas:
-misreadings-explanation-3 = Norauts vārda sākums, piemēram "an garšo desa"
+misreadings-explanation-3 = Norauts vārda sākums, piemēram, "an garšo desa"
 misreadings-explanation-4 = Norautas vārda beigas, piemēram, "bija" vietā ierunāts "bij" vai teikumā izlaists vārds "ir"
 misreadings-explanation-5 = Vārdi samainīti vietām, piemēram, "vai es ko varu darīt?" vietā ir ierunāts "vai es varu ko darīt?"
 misreadings-explanation-6 = Trūkst vārda beigu, jo ieraksts ir izslēgts pārāk ātri
@@ -1842,7 +1847,7 @@ misreadings-example-4 = Bites ir čakli kukaiņi
 misreadings-tip-1 = [pazudis vārds “es”]
 misreadings-tip-2 = [Sākotnējā teikumā nebija vārds "kaut"]
 misreadings-tip-3 = [Ierunāts nepareizs teikums]
-background-noise-explanation = Jums ir jāspēj dzirdēt katrs ieraksta vārds. Mēs vēlamies, lai mašīnmācīšanās algoritmi spētu apstrādāt dažādus fona trokšņus, un var tikt pieņemti pat salīdzinoši skaļi trokšņi vai klusa fona mūzika, ja tie netraucē precīzi un skaidri dzirdēt visu tekstu. Krakšķi vai “iztrūkumi”, kas neļauj dzirdēt un saprast katru vārdu, nozīmē, ka klips ir jānoraida.
+background-noise-explanation = Jums ir jāspēj dzirdēt katrs ieraksta vārds. Mēs vēlamies, lai mašīnmācīšanās algoritmi spētu apstrādāt dažādus fona trokšņus, un var tikt pieņemti pat salīdzinoši skaļi trokšņi vai klusa fona mūzika, ja tie netraucē precīzi un skaidri dzirdēt visu tekstu. Krakšķi vai “iztrūkumi”, kas neļauj dzirdēt un saprast katru vārdu, nozīmē, ka ieraksts ir jānoraida.
 background-noise-example-1 = Senā laikmeta dinozauri.
 background-noise-example-2 = [Šķauda] Senā laikmeta [klepus] dinozauri.
 background-noise-example-3 = Senā laikmeta dino [dzirdams krakšķis].
@@ -1865,7 +1870,7 @@ public-domain-explanation-1 = Ir ļoti svarīgi, lai visi teikumi būtu <publicD
 public-domain-explanation-2 = Labākie teikumi noderīga runas atpazīšanas rīka izveidei ir sarunvaloda, mūsdienīga valoda. Dažas idejas, kas palīdzēs ģenerēt teikumus, ir;
 public-domain-explanation-3 = Izveidojiet mūsdienīgus sarunvalodas teikumus pats vai kopā ar draugiem vai valodu kopienu, piemēram, rīkojot “rakstīšanas maratonu”
 public-domain-explanation-4 = Sazinieties ar autoriem, dramaturgiem vai scenāristiem un jautājiet, vai viņi būtu gatavi nodot nelielu daļu no saviem darbiem publiskajā īpašumā. Teikumus var publicēt alfabētiskā secībā, lai tas netraucētu kādiem darba autora mērķiem.
-public-domain-explanation-5 = Meklējiet tekstu, uz kuru autortiesības vairs neattiecas, piemēram, vairums grāmatu, kas izdotas pirms 1920. gada šobrīd ir brīvi pieejamas ikvienam.
+public-domain-explanation-5 = Meklējiet tekstu, uz kuru autortiesības vairs neattiecas, piemēram, vairums grāmatu, kas izdotas pirms 1920. gada, šobrīd ir brīvi pieejamas ikvienam.
 public-domain-explanation-6 = Sazinieties ar valdībām, pašvaldībām, bezpeļņas organizācijām vai plašsaziņas līdzekļu organizācijām, lai noskaidrotu, vai kāda daļa no to tīmekļa zinām, ziņojumiem, atskaitēm vai citam saturam varētu būt nodots sabiedrības lietošanā.
 citing-sentences-explanation-1 = Ir svarīgi iekļaut atsauces, lai mēs varētu pārbaudīt, vai teikumi ir publiski pieejami un netiek piemēroti kādi autortiesību ierobežojumi.
 citing-sentences-subheader-websites = Mājaslapas
@@ -1934,6 +1939,7 @@ report-sc-different-language = Nepareiza valoda
 report-sc-different-language-detail = Tas ir uzrakstīts valodā, kas atšķiras no tās, ko šobrīd pārbaudu.
 sentences-fetch-error = Ielādējot teikumus notikusi kļūda
 review-error = Pārskatot teikumu, notikusi kļūda
+review-error-rate-limit-exceeded = Jūs strādājat pārāk ātri. Lūdzu veltiet mirkli, lai pārliecinātos, ka teikumi ir pareizi.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mēs veicam dažas lielas izmaiņas
 sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad varat <writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> teikumus Common Voice sistēmā.

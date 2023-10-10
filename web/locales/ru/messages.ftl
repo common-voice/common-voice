@@ -69,6 +69,7 @@ eo = Эсперанто
 es = Испанский
 et = Эстонский
 eu = Баскский
+ewo = Эвондо
 fa = Персидский
 ff = Фула
 fi = Финский
@@ -79,6 +80,7 @@ ga-IE = Ирландский
 gl = Галисийский
 gn = Гуарани
 gom = Гоанский конкани
+gu-IN = Гуджарати
 ha = Хауса
 he = Иврит
 hi = Хинди
@@ -98,6 +100,7 @@ it = Итальянский
 izh = Ижорский
 ja = Японский
 jbo = Ложбан
+jv = Яванский
 ka = Грузинский
 kaa = Каракалпакский
 kab = Кабильский
@@ -151,6 +154,7 @@ nyn = Ньянколе
 oc = Окситанский
 om = Оромо
 or = Ория
+os = Осетинский
 pa-IN = Панджаби
 pap-AW = Папьяменто (Аруба)
 pl = Польский
@@ -244,6 +248,7 @@ share-text = Помогите машинам научиться понимать
 link-copied = Ссылка скопирована
 back-top = Наверх
 logout = Выйти
+donate = Пожертвовать
 
 ## Home Page
 
@@ -616,7 +621,6 @@ about-playbook-how-add-sentences = Как мне добавить предлож
 about-playbook-how-add-sentences-content-1 = <strong>Коллектор предложений</strong> — это инструмент, позволяющий нам собирать предложения, находящиеся в общественном достоянии. Для участия вам <scAccountLink>нужно создать аккаунт</scAccountLink> и указать язык в своем <strong>Профиле</strong>.  Здесь вы можете <strong>добавлять</strong> новые предложения или же <strong>проверять</strong> ранее добавленные.
 about-playbook-how-add-sentences-content-2 = Для того, чтобы предложения были добавлены в проект Common Voice, их должны проверить и одобрить двое участников. <languageGuidelinesLink>А вот здесь</languageGuidelinesLink> вы можете создать набор инструкций для своего языка. Предложения должны находиться <licenseLink> в общественном достоянии</licenseLink> и быть короче 15 слов. Также вы можете попросить автора какого-либо текста передать его под <waiverLink>лицензию CC0, используя наш механизм по отказу от авторских прав</waiverLink> и отправить нам на почту: commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Вы можете использовать <scraperLink>Извлекатель предложений</scraperLink>, чтобы использовать короткие предложения из Википедии.
-about-playbook-how-add-sentences-content-4 = Проверенные предложения добавляются в среду и становятся доступны после следующего обновления (выпуска).
 
 ## How to record quality
 
@@ -1750,6 +1754,7 @@ report-sc-different-language = Другой язык
 report-sc-different-language-detail = Это написано на языке, отличном от того, что я рецензирую.
 sentences-fetch-error = Произошла ошибка при получении предложений
 review-error = При оценке этого предложения произошла ошибка
+review-error-rate-limit-exceeded = Вы слишком торопитесь. Просмотрите предложение внимательнее, чтобы убедиться, что оно правильно.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = У нас большие перемены
 sc-redirect-page-subtitle-1 = Сборщик предложений переходит на основную платформу Common Voice. Теперь вы можете <writeURL>написать</writeURL> предложение или <reviewURL>просмотреть</reviewURL> одно предложение на Common Voice.

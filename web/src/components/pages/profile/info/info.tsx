@@ -203,7 +203,9 @@ function ProfileInfo({
 
   return (
     <div className="profile-info">
-      <h1>Profile</h1>
+      <Localized id="profile">
+        <h1 />
+      </Localized>
 
       {termsStatus === 'show' && (
         <TermsModal onAgree={submit} onDisagree={() => setTermsStatus(null)} />
