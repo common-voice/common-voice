@@ -42,6 +42,7 @@ const baseUseBulkFileUploadMock: ReturnType<
   abortBulkSubmissionRequest: jest.fn(),
   startUpload: jest.fn(),
   removeBulkSubmission: jest.fn(),
+  fileRejections: [],
 }
 
 afterEach(() => {

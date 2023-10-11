@@ -246,7 +246,7 @@ export namespace Sentences {
           bulkUploadStatus: 'uploading',
         })
 
-        await state.api.bulkSubmissionRequest({
+        return await state.api.bulkSubmissionRequest({
           file,
           locale,
           fileName,

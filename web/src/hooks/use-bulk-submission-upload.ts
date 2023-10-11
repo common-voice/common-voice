@@ -59,29 +59,37 @@ const useBulkSubmissionUpload = () => {
     }
   }
 
+  const handleError = () => {
+    dispatch(Sentences.actions.setBulkUploadStatus('error'))
+    dispatch(
+      Notifications.actions.addPill(
+        l10n.getString('bulk-upload-failed-toast'),
+        'error'
+      )
+    )
+  }
+
   const startUpload = async () => {
     try {
-      await bulkSubmissionRequest({
+      const response = await bulkSubmissionRequest({
         file: uploadedFile,
         fileName: uploadedFile.name,
         locale,
       })
 
-      dispatch(Sentences.actions.setBulkUploadStatus('done'))
-      dispatch(
-        Notifications.actions.addPill(
-          l10n.getString('bulk-upload-success-toast'),
-          'success'
+      if (response.ok) {
+        dispatch(Sentences.actions.setBulkUploadStatus('done'))
+        dispatch(
+          Notifications.actions.addPill(
+            l10n.getString('bulk-upload-success-toast'),
+            'success'
+          )
         )
-      )
+      } else {
+        handleError()
+      }
     } catch {
-      dispatch(Sentences.actions.setBulkUploadStatus('error'))
-      dispatch(
-        Notifications.actions.addPill(
-          l10n.getString('bulk-upload-failed-toast'),
-          'error'
-        )
-      )
+      handleError()
     }
   }
 
