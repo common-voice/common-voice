@@ -27,7 +27,17 @@ services:
       - 8080:8080
     networks:
       - voice-web
-    command: ["-scheme", "http", "-port", "8080", "-external-url", "http://storage:8080", "-backend", "filesystem"]
+    command:
+      [
+        '-scheme',
+        'http',
+        '-port',
+        '8080',
+        '-external-url',
+        'http://storage:8080',
+        '-backend',
+        'memory',
+      ]
   web:
     build:
       context: .

@@ -1,20 +1,24 @@
 @import url('../../../media.css');
 
-.write-page,.review-page {
+.write-page,
+.review-page {
     width: 100%;
 
-    & .review-wrapper, .write-wrapper {
+    & .review-wrapper,
+    .write-wrapper {
         background-image: linear-gradient(
             to top,
             var(--white) 20%,
             var(--desert-storm)
         );
-        
+
         @media (--xl-up) {
             overflow: auto;
         }
 
-        & .write,.review {
+        & .write,
+        .review {
+            margin: 0 auto;
             width: 100%;
             height: 100%;
             max-width: var(--wide-desktop-width);
@@ -77,5 +81,4 @@
             fill: var(--light-purple);
         }
     }
-
 }
