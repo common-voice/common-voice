@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { format } from 'date-fns'
 import { useDispatch } from 'react-redux'
+import { FileRejection } from 'react-dropzone'
 
 import { useAction, useSentences } from './store-hooks'
 import { Sentences } from '../stores/sentences'
@@ -17,6 +18,8 @@ export type FileInfo = {
 const useBulkSubmissionUpload = () => {
   const [uploadedFile, setUploadedFile] = useState<File>()
   const [fileInfo, setFileInfo] = useState<FileInfo>()
+  const [fileRejections, setFileRejections] = useState<FileRejection[]>()
+
   const dispatch = useDispatch()
   const { l10n } = useLocalization()
 
@@ -26,23 +29,34 @@ const useBulkSubmissionUpload = () => {
   const bulkSubmissionRequest = useAction(
     Sentences.actions.bulkSubmissionRequest
   )
+
   const abortBulkSubmissionRequest = useAction(
     Sentences.actions.abortBulkSubmissionRequest
   )
+
   const removeBulkSubmission = useAction(Sentences.actions.removeBulkSubmission)
 
-  const handleDrop = (acceptedFiles: File[]) => {
+  const handleDrop = (
+    acceptedFiles: File[],
+    fileRejections: FileRejection[]
+  ) => {
     dispatch(Sentences.actions.setBulkUploadStatus('waiting'))
 
     const [file] = acceptedFiles
 
-    setUploadedFile(file)
+    setFileRejections(fileRejections)
 
-    setFileInfo({
-      name: file.name,
-      size: file.size,
-      lastModified: format(file.lastModified, 'LLL d yyyy'),
-    })
+    if (file) {
+      setUploadedFile(file)
+
+      setFileInfo({
+        name: file.name,
+        size: file.size,
+        lastModified: format(file.lastModified, 'LLL d yyyy'),
+      })
+    } else {
+      dispatch(Sentences.actions.setBulkUploadStatus('error'))
+    }
   }
 
   const startUpload = async () => {
@@ -78,6 +92,7 @@ const useBulkSubmissionUpload = () => {
     abortBulkSubmissionRequest,
     startUpload,
     removeBulkSubmission,
+    fileRejections,
   }
 }
 

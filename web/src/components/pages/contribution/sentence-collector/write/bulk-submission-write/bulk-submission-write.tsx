@@ -23,6 +23,8 @@ import { Sentences } from '../../../../../../stores/sentences'
 
 import './bulk-submission-write.css'
 
+const MAX_FILE_SIZE = 26214400
+
 const BulkSubmissionWrite = () => {
   const dispatch = useDispatch()
 
@@ -37,6 +39,7 @@ const BulkSubmissionWrite = () => {
     abortBulkSubmissionRequest,
     removeBulkSubmission,
     startUpload,
+    fileRejections,
   } = useBulkSubmissionUpload()
 
   const isDropZoneDisabled =
@@ -49,6 +52,7 @@ const BulkSubmissionWrite = () => {
     accept: { 'text/tab-separated-values': ['.tsv'] },
     multiple: false,
     disabled: isDropZoneDisabled,
+    maxSize: MAX_FILE_SIZE,
   })
 
   return (
@@ -76,13 +80,24 @@ const BulkSubmissionWrite = () => {
                 abortBulkSubmissionRequest={abortBulkSubmissionRequest}
                 removeBulkSubmission={removeBulkSubmission}
                 startUpload={startUpload}
+                fileRejections={fileRejections}
               />
             </div>
             <div className="expandable-container">
               <ExpandableInformation
                 summaryLocalizedId="what-needs-to-be-in-file"
                 icon={<LightBulbIcon />}>
-                <Localized id="what-needs-to-be-in-file-explanation">
+                <Localized
+                  id="what-needs-to-be-in-file-explanation"
+                  elems={{
+                    templateFileLink: (
+                      <a
+                        href="https://github.com/common-voice/common-voice/blob/main/docs/Sample%20Bulk%20Submission%20-%20Sheet1.tsv"
+                        target="_blank"
+                        rel="noreferrer"
+                      />
+                    ),
+                  }}>
                   <p />
                 </Localized>
               </ExpandableInformation>

@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Localized } from '@fluent/react'
 import { filesize } from 'filesize'
+import { FileRejection } from 'react-dropzone'
 
 import { CloseIcon, FileIcon, UploadIconLarge } from '../../../../../ui/icons'
 import { Button, LabeledCheckbox, Spinner } from '../../../../../ui/ui'
@@ -16,6 +17,7 @@ type Props = {
   abortBulkSubmissionRequest: () => void
   removeBulkSubmission: () => void
   startUpload: () => void
+  fileRejections: FileRejection[]
 }
 
 const UploadZoneContent: React.FC<Props> = ({
@@ -25,6 +27,7 @@ const UploadZoneContent: React.FC<Props> = ({
   abortBulkSubmissionRequest,
   removeBulkSubmission,
   startUpload,
+  fileRejections,
 }) => {
   const [confirmPublicDomain, setConfirmPublicDomain] = React.useState(false)
 
@@ -101,6 +104,7 @@ const UploadZoneContent: React.FC<Props> = ({
       <BulkUploadInstruction
         isDragActive={isDragActive}
         isUploadError={uploadStatus === 'error'}
+        fileRejections={fileRejections}
       />
       <Localized id="or-conjuction">
         <p className="or-conjunction hidden-md-down" />
