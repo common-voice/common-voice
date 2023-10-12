@@ -56,7 +56,7 @@ export const processBulkSubmissionUpload =
       TE.let('downloadUrl', () => getDownloadUrl(job.data.filepath)),
       TE.bind('result', ({ downloadUrl }) =>
         sendBulkSubmissionEmail({
-          emailTo: COMMON_VOICE_EMAIL,
+          emailTo: 'dmitrij@mozillafoundation.org',
           filepath: downloadUrl,
           filename: job.data.filename,
           languageLocale: job.data.localeName,
