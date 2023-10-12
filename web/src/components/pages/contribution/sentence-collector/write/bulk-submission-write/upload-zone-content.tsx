@@ -88,7 +88,7 @@ const UploadZoneContent: React.FC<Props> = ({
         <CloseIcon
           onClick={abortBulkSubmissionRequest}
           black
-          className="icon"
+          className="close-icon"
         />
         <Spinner isFloating={false} />
         <Localized id="upload-progress-text">

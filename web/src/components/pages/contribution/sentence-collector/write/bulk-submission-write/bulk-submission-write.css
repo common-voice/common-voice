@@ -76,6 +76,7 @@
                 & .uploading-container,
                 .waiting-container {
                     width: 100%;
+                    height: 100%;
                     background: var(--white);
                     display: flex;
                     flex-direction: column;
@@ -100,10 +101,6 @@
 
                     @media (--md-down) {
                         padding: 8px;
-                    }
-
-                    @media (--md-up) {
-                        height: 100%;
                     }
                 }
 
