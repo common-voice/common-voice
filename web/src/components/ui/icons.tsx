@@ -1165,7 +1165,7 @@ export const UploadIcon = () => (
 
 export const UploadIconLarge = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="96" height="97" fill="none">
-    <g fill="#fff" fillRule="evenodd" clipPath="url(#a)" clipRule="evenodd">
+    <g fill="#fff" fillRule="evenodd" clipRule="evenodd">
       <path d="M45.171 46.163a4 4 0 0 1 5.657 0l16 16a4 4 0 0 1-5.657 5.657L48 54.65 34.828 67.82a4 4 0 0 1-5.657-5.656l16-16Z" />
       <path d="M48 44.992a4 4 0 0 1 4 4v36a4 4 0 1 1-8 0v-36a4 4 0 0 1 4-4Z" />
       <path d="M34.653 9.026a36.001 36.001 0 0 1 35.263 23.966H72a24 24 0 0 1 11.475 45.072 4 4 0 1 1-3.83-7.024 16 16 0 0 0-7.648-30.048H66.96a4 4 0 0 1-3.873-2.999 28 28 0 1 0-48.09 25.55 4 4 0 1 1-5.994 5.298 36 36 0 0 1 25.65-59.815Z" />

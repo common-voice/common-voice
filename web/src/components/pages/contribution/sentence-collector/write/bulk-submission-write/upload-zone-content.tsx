@@ -38,7 +38,11 @@ const UploadZoneContent: React.FC<Props> = ({
   if (uploadStatus === 'waiting' && fileInfo) {
     return (
       <div className="waiting-container">
-        <CloseIcon onClick={removeBulkSubmission} black className="icon" />
+        <CloseIcon
+          onClick={removeBulkSubmission}
+          black
+          className="close-icon"
+        />
         <div className="file-icon-container">
           <FileIcon />
         </div>
