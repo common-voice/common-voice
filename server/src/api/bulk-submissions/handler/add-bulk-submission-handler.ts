@@ -8,7 +8,8 @@ import { task as T, taskEither as TE } from 'fp-ts'
 import { createPresentableError } from '../../../application/helper/error-helper'
 import { ApplicationError } from '../../../application/types/error'
 
-const SIZE_LIMIT_IN_BYTES = 1024 * 1024 * 8
+const SIZE_LIMIT_IN_MB = 25
+const SIZE_LIMIT_IN_BYTES = 1024 * 1024 * SIZE_LIMIT_IN_MB
 
 const readBodyFromRequest = (req: Request): Promise<Buffer> => {
   return new Promise(res => {
@@ -48,7 +49,7 @@ export const handler =
       if (size >= SIZE_LIMIT_IN_BYTES)
         return res
           .status(StatusCodes.BAD_REQUEST)
-          .json({ message: 'file is larger than 8MB' })
+          .json({ message: `file is larger than ${SIZE_LIMIT_IN_MB}MB` })
 
       const file = await readBodyFromRequest(req)
 
