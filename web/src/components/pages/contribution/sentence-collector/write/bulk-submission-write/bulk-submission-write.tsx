@@ -23,7 +23,7 @@ import { Sentences } from '../../../../../../stores/sentences'
 
 import './bulk-submission-write.css'
 
-const MAX_FILE_SIZE = 26214400
+const MAX_FILE_SIZE = 1024 * 1024 * 25
 
 const BulkSubmissionWrite = () => {
   const dispatch = useDispatch()
