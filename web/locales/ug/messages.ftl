@@ -1221,6 +1221,7 @@ contribution-background-voices-description-extended = ئەگەر ئۈنگە ئې
 contribution-background-voices-example-1-title = ترىئاسىك ئېراسىنىڭ گىگانت دىنوزاۋرلىرى. <strong>[باشقا بىرى ئوقۇۋاتىدۇ]</strong>
 contribution-background-voices-example-1-explanation = كېلىۋاتامسە؟ <strong>[باشقا بىرى چاقىردى]</strong>
 contribution-volume-title = ئاۋاز
+contribution-volume-description = ئوقۇرمەنلەرنىڭ ئاۋازىنىڭ يۇقىرى تۆۋەنلىكىدە تەبىئىي پەرق بولىدۇ. پەقەت ئاۋازى بەك يۇقىرى بولۇپ ئۈنگە ئېلىش ئۈزۈلۈپ كەتكەن ياكى (كۆپ ئۇچرايدىغان ئەھۋالدا) ئاۋاز بەك تۆۋەن بولغانلىقتىن تېكىست بولمىسا نېمە دەۋاتقانلىقىنى بىلگىلى بولمىغان بولسا رەت قىلىنىدۇ.
 contribution-reader-effects-title = ئوقۇرمەن ئۈنۈمى
 contribution-just-unsure-title = ئانچە ئېنىق ئەمەسمۇ؟
 see-more = <chevron> </chevron> تېخىمۇ كۆپ
