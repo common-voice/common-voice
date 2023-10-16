@@ -15,13 +15,7 @@ import { Dataset } from 'common';
 
 import './dataset-info.css';
 
-interface PropsFromState {
-  isSubscribedToMailingList: boolean;
-}
-
-const DatasetInfo: React.FC<PropsFromState> = ({
-  isSubscribedToMailingList,
-}) => {
+const DatasetInfo: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   const [languagesWithDatasets, setLanguagesWithDatasets] = useState([]);
@@ -57,7 +51,6 @@ const DatasetInfo: React.FC<PropsFromState> = ({
           <DatasetCorpusDownload
             languagesWithDatasets={languagesWithDatasets}
             initialLanguage={globalLocale}
-            isSubscribedToMailingList={isSubscribedToMailingList}
           />
         )}
       </div>
@@ -68,13 +61,9 @@ const DatasetInfo: React.FC<PropsFromState> = ({
         <DatasetDescription releaseData={currentDataset} />
       )}
 
-      <DatasetSegmentDownload
-        isSubscribedToMailingList={isSubscribedToMailingList}
-      />
+      <DatasetSegmentDownload />
     </div>
   );
 };
 
-export default connect<PropsFromState>(({ user }: StateTree) => ({
-  isSubscribedToMailingList: user.isSubscribedToMailingList,
-}))(DatasetInfo);
+export default DatasetInfo;
