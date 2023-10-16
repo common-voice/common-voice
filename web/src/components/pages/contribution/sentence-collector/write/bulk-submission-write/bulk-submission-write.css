@@ -105,12 +105,6 @@
                 }
 
                 & .uploading-container {
-                    & .spinner {
-                        @media (--md-down) {
-                            padding: 0.5rem;
-                        }
-                    }
-
                     & .spinner__shape {
                         width: 5.5rem;
                         height: 5.5rem;

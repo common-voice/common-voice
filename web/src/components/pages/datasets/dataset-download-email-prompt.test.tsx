@@ -51,6 +51,7 @@ describe('DatasetDownloadEmailPrompt', () => {
           releaseId={selectedDataset.id.toString()}
           checksum={selectedDataset.checksum}
           size={selectedDataset.size}
+          isSubscribedToMailingList={false}
         />
       );
       const results = await axe(renderResult.container);
@@ -67,6 +68,7 @@ describe('DatasetDownloadEmailPrompt', () => {
           releaseId={selectedDataset.id.toString()}
           checksum={selectedDataset.checksum}
           size={selectedDataset.size}
+          isSubscribedToMailingList={false}
         />
       );
 
@@ -86,6 +88,7 @@ describe('DatasetDownloadEmailPrompt', () => {
           releaseId={selectedDataset.id.toString()}
           checksum={selectedDataset.checksum}
           size={selectedDataset.size}
+          isSubscribedToMailingList={false}
         />
       );
     });
@@ -105,6 +108,7 @@ describe('DatasetDownloadEmailPrompt', () => {
           releaseId={selectedDataset.id.toString()}
           checksum={selectedDataset.checksum}
           size={selectedDataset.size}
+          isSubscribedToMailingList={false}
         />
       );
 
@@ -153,6 +157,68 @@ describe('DatasetDownloadEmailPrompt', () => {
     );
   });
 
+  it('should allow download if user is subscribed to mailing list', async () => {
+    const {
+      getByRole,
+      queryByRole,
+      getByLabelText,
+      queryByLabelText,
+    }: RenderResult = renderWithLocalization(
+      <DatasetDownloadEmailPrompt
+        selectedLocale={locale}
+        downloadPath={selectedDataset.download_path}
+        releaseId={selectedDataset.id.toString()}
+        checksum={selectedDataset.checksum}
+        size={selectedDataset.size}
+        isSubscribedToMailingList
+      />
+    );
+
+    await act(async () => {
+      fireEvent.click(getByRole('button', { name: 'Enter Email to Download' }));
+    });
+
+    // check the download link is disabled
+    const disabledDownloadLink = queryByRole('link', {
+      name: /Enter Email to Download/,
+    });
+    expect(disabledDownloadLink).toBeNull(); // not exist as a link
+
+    // type in email address
+    userEvent.type(getByLabelText(/Email/), 'testemail@example.com');
+
+    // check the checkboxes
+    userEvent.click(
+      getByLabelText(/You are prepared to initiate a download of /)
+    );
+
+    userEvent.click(getByLabelText(/You agree to not attempt to determine/));
+
+    expect(
+      queryByLabelText(/I want to join the Common Voice mailing list/)
+    ).toBeNull();
+
+    // now has the link
+    const downloadLink = getByRole('button', {
+      name: /Download Dataset Bundle/,
+    });
+
+    expect(downloadLink.getAttribute('href')).toBe(
+      'https://example.com/fake/url'
+    );
+
+    // click link
+    fireEvent.click(downloadLink);
+
+    // calls api.saveHasDownloaded correctly
+    expect(mockSaveHasDownload).toBeCalledTimes(1);
+    expect(mockSaveHasDownload).toBeCalledWith(
+      'testemail@example.com',
+      'en',
+      '1'
+    );
+  });
+
   it('should still allow download if user decides not to join mailing list', async () => {
     const { getByRole, queryByRole, getByLabelText }: RenderResult =
       renderWithLocalization(
@@ -162,6 +228,7 @@ describe('DatasetDownloadEmailPrompt', () => {
           releaseId={selectedDataset.id.toString()}
           checksum={selectedDataset.checksum}
           size={selectedDataset.size}
+          isSubscribedToMailingList={false}
         />
       );
 
