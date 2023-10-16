@@ -873,7 +873,7 @@ record-error-too-short = Хъæлæсы фыст æгæр цыбыр у
 record-error-too-long = Ныффыст ӕгӕр даргъ у.
 record-error-too-quiet = Ныффыст ӕгӕр сабыр у.
 record-cancel = Ногæй конд фыст аив
-record-instruction = { $actionType }<recordIcon></recordIcon> уый фæстæ кæс хъуыдыайд хъæрæй
+record-instruction = { $actionType }<recordIcon></recordIcon> уый фæстæ кæс хъуыдыйад хъæрæй
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> куы фæуа
 record-three-more-instruction = Баззади æртæ!
 record-again-instruction = Иттæг хорз! <recordIcon></recordIcon> Ныффысс дæ фæдылдзог клип
@@ -1116,6 +1116,7 @@ demo-account = Аккаунт
 ## Demo Account
 
 demo-account-card-header = Архайынæн аккаунт ӕнӕмӕнг хъæугæ нӕу, ӕниу пайда у.
+demo-account-card-body = Рахиз фарс мах амонæм уæлиндзинад æмæ бæлвырд кæнæм, цавæр рардтæ уыдзысты публикон. Спайда кæн æрвитæнтæй дæлдæр, цæмæй Common Voice-ы аккаунтимæ куыст райдайай дæ арæзтады.
 demo-account-enter-email =
     .label = Эл. посты адрис бафысс, цæмæй дзы райсай регистрацийы æрвитæн
 demo-account-sign-up = Арвитын регистрацийы æрвитæн

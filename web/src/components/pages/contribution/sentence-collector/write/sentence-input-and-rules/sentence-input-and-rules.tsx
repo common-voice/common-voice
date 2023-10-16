@@ -4,7 +4,7 @@ import classNames from 'classnames'
 
 import { EditIcon } from '../../../../../ui/icons'
 import { LabeledInput } from '../../../../../ui/ui'
-import { WriteProps } from '../write'
+import { SingleSubmissionWriteProps } from '../single-submission-write/single-submission-write'
 import { Rules } from './rules'
 import { Instruction } from '../../instruction'
 import ExpandableInformation from '../../../../../expandable-information/expandable-information'
@@ -14,7 +14,7 @@ import { LocaleLink } from '../../../../../locale-helpers'
 import URLS from '../../../../../../urls'
 
 type Props = {
-  getString: WriteProps['getString']
+  getString: SingleSubmissionWriteProps['getString']
   handleSentenceInputChange: (
     event: React.ChangeEvent<HTMLTextAreaElement>
   ) => void
@@ -95,7 +95,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
             </ExpandableInformation>
           </div>
         </div>
-        <Rules error={error} title="what-can-i-add" showFirstRule />
+        <Rules error={error} title="sc-review-write-title" showFirstRule />
       </div>
     </div>
   )

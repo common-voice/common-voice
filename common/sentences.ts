@@ -28,3 +28,10 @@ export type SentenceVote = {
   sentence_id: string
   sentenceIndex: number
 }
+
+export type BulkUploadStatus =
+  | 'off'
+  | 'waiting'
+  | 'uploading'
+  | 'done'
+  | 'error'

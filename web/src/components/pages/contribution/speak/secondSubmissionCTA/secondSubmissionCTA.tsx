@@ -43,7 +43,7 @@ export const SecondPostSubmissionCTA: React.FC<
         <div className="header-container">
           <div className="happy-mars-container">
             <img
-              src={require('./images/happy-mars@2x.png')}
+              src={require('../../../../../../img/happy-mars@2x.png')}
               alt="Happy Mars"
               width={175}
               height={175}
