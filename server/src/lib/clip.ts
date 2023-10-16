@@ -1,4 +1,3 @@
-import { S3 } from 'aws-sdk';
 import { NextFunction, Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
 import { getConfig } from '../config-helper';
@@ -35,7 +34,6 @@ enum ERRORS {
  * Clip - Responsibly for saving and serving clips.
  */
 export default class Clip {
-  private s3: S3;
   private bucket: Bucket;
   private model: Model;
 
