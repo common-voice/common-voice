@@ -1746,6 +1746,10 @@ contact-us = Связаться с нами
 add-sentence-success = 1 предложение собрано
 add-sentence-error = Ошибка добавления предложения
 required-field = Пожалуйста, заполните это поле.
+single-sentence-submission = Отправка одного предложения
+bulk-sentence-submission = Массовая отправка предложений
+single-sentence = Одно предложение
+bulk-sentences = Много предложений
 # REVIEW PAGE
 sc-review-instruction-first-part = Проверить
 sc-review-instruction-second-part = это лингвистически правильное предложение?
@@ -1760,3 +1764,6 @@ review-error-rate-limit-exceeded = Вы слишком торопитесь. П�
 sc-redirect-page-title = У нас большие перемены
 sc-redirect-page-subtitle-1 = Сборщик предложений переходит на основную платформу Common Voice. Теперь вы можете <writeURL>написать</writeURL> предложение или <reviewURL>просмотреть</reviewURL> одно предложение на Common Voice.
 sc-redirect-page-subtitle-2 = Задавайте нам вопросы в <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> или по <emailLink>электронной почте</emailLink>.
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = Загрузить
+sc-bulk-upload-instruction-second-part = предложения, составляющие общественное достояние
