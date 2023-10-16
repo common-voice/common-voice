@@ -1725,3 +1725,4 @@ select-file = Eiporavo Marandurenda
 select-file-mobile = Eiporavo marandurenda emyanyhẽ hag̃ua
 accepted-files = Oñemoneĩva marandurenda: .tsv añoite
 maximum-file-size = Marandurenda tuichakue: 25 MB
+what-needs-to-be-in-file = Mba’épa oĩva’erã che kuatiápe
