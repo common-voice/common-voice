@@ -606,7 +606,7 @@ about-playbook-how-add-language-translating-content-2 =
 about-playbook-how-add-language-collecting-sentences-heading = Ñe’ẽrysýi ñembyaty
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ehecha mba’éichapa eiporúta ñe’ẽjuaju ñembyatyha</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
-    Ikatu <sentenceCollectorLinkAdd>embojuaju ñe’ẽjuaju michĩmimi</sentenceCollectorLinkAdd>, térã ejapokuaa <bulkImportDocsLink>mba’ejegueru tuichaháicha eiporúvo Github</bulkImportDocsLink>.
+    Ikatu <sentenceCollectorLinkAdd>embojuaju ñe’ẽjuaju michĩmimi</sentenceCollectorLinkAdd>, térã ejapokuaa <bulkImportDocsLink>jegueru tuichaháicha eiporúvo Github</bulkImportDocsLink>.
     Nemandu’áke ñe’ẽjuaju ha’eva’erã <licenseLink>CC0 (térã opavave mba’éva)</licenseLink>, térã ehaikuaa nemba’eteéva.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ehechave ñe’ẽjuaju aty rehegua</sentenceCollectorFragment>.
 
@@ -1231,7 +1231,7 @@ contribution-background-voices-example-1-explanation = ¿Ejútapa? <strong>[ambu
 contribution-volume-title = Mbopuha
 contribution-volume-description = Ojuavýta katuetei hetakuépe umi moñe’ẽhára. Emboyke hetaiterei oĩjavénte pe ñeñongatu ikatu rehe oso oso térã (hetajey oikokuaa) mbegueterei ipúramo ñe’ẽayvu ha ñoñehenduporãi pe ojehechaháicha moñe’ẽrã jehaipyrépe.
 contribution-reader-effects-title = Moñe’ẽhára Oñandúva
-contribution-reader-effects-description = Hetavéva ñe’ẽñongatupy haʼe yvypóra oñeʼẽva iñeʼẽ rekoitépe. Ikatu pemoneĩ ñe’ẽñongatupy sapy’apy’a ndaha’éiva estándar ojesapukáiva, oñeñe’ẽñemi térã ojehechaháicha oñeme’ẽva ñe’ẽ dramático-pe. Embotove ñe’ẽñongatu ojepurahéiva ha oiporúva ñe’ẽ oñemombyky hag̃uánte mohendahápe.
+contribution-reader-effects-description = Hetavéva ñe’ẽñongatupy haʼe yvypóra oñeʼẽva iñeʼẽ rekoitépe. Ikatu pemoneĩ ñe’ẽñongatupy sapy’apy’a ndaha’éiva ypykuetéva ojesapukáiva, oñeñe’ẽñemi térã ojehechaháicha oñeme’ẽva ñe’ẽ dramático-pe. Embotove ñe’ẽñongatu ojepurahéiva ha oiporúva ñe’ẽ oñemombyky hag̃ua mohendahápe.
 contribution-just-unsure-title = ¿Nahekorasãi?
 contribution-just-unsure-description = Ejuhúramo ko’ã pauta ndojaho’íriva, evota reñamindu’uhaichaite. Ndaikatúiramo añetehápe eiporavo, eiporu pe votõ jepoha ha eku’ejey ambue ñeñongatu ndive.
 see-more = <chevron></chevron>Ehechave
@@ -1681,7 +1681,6 @@ sentence-input-value = Ehai ko’ápe ne ñe’ẽjuaju opavave oiporukuaáva
 citation-input-value = Ne ñe’ẽjoaju heñoihague
 citation =
     .label = Jehechauka
-what-can-i-add = Mba’eichagua ñe’ẽjoajúpa amoĩkuaa
 new-sentence-rule-1 = <no Copyright>Apohare ndaideréchoi</no Copyright> jejoko (<cc0>cc0</cc0>)
 new-sentence-rule-2 = Sa’ieteve 15 ñe’ẽgui
 new-sentence-rule-3 = Eiporu ñe’ẽtekuaa ha’etéva
@@ -1697,6 +1696,10 @@ contact-us = Eñe’ẽ orendive
 add-sentence-success = 1 ñe’ẽjuaju mbyatypyre
 add-sentence-error = Ojavy ehupívo ñe’ẽjuaju
 required-field = Emyanyhẽmína ko tenda.
+single-sentence-submission = Emondo peteĩ ñe’ẽjoaju año
+bulk-sentence-submission = Emondo heta ñe’ẽjoaju
+single-sentence = Peteĩ ñe’ẽjoaju
+bulk-sentences = Heta ñe’ẽjoaju
 # REVIEW PAGE
 sc-review-instruction-first-part = Hechajey
 sc-review-instruction-second-part = Ko ñe’ẽjuajúpa oĩporã añetehápe
@@ -1710,3 +1713,18 @@ review-error-rate-limit-exceeded = Eho pya’eterei. Eiporu arapa’ũ ehechajey
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Ore rojaporoína ñemoambue guasu
 sc-redirect-page-subtitle-2 = Ñaporandu <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> térã <emailLink>ñanduti veve</emailLink>.
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = Hupi
+sc-bulk-upload-instruction-second-part = ñe’ẽjoaju opavave oiporukuaáva
+drag-your-file-here = Emoĩ ko’ápe marandurenda ehupi hag̃ua
+drop-file-here = Epoi ápe ne marandurenda ehupi hag̃ua
+try-upload-again = Eha’ãjey emoĩvo ne marandurenda ko’ápe
+try-upload-again-md = Eha’ãjey ehupi hag̃ua
+or-conjuction = térã
+select-file = Eiporavo Marandurenda
+select-file-mobile = Eiporavo marandurenda emyanyhẽ hag̃ua
+accepted-files = Oñemoneĩva marandurenda: .tsv añoite
+maximum-file-size = Marandurenda tuichakue: 25 MB
+what-needs-to-be-in-file = Mba’épa oĩva’erã che kuatiápe
+file-invalid-type = Marandurenda ndoikóiva
+file-too-large = Marandurenda tuichaiterei
