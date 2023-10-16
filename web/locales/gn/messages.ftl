@@ -1696,6 +1696,10 @@ contact-us = Eñe’ẽ orendive
 add-sentence-success = 1 ñe’ẽjuaju mbyatypyre
 add-sentence-error = Ojavy ehupívo ñe’ẽjuaju
 required-field = Emyanyhẽmína ko tenda.
+single-sentence-submission = Emondo peteĩ ñe’ẽjoaju año
+bulk-sentence-submission = Emondo heta ñe’ẽjoaju
+single-sentence = Peteĩ ñe’ẽjoaju
+bulk-sentences = Heta ñe’ẽjoaju
 # REVIEW PAGE
 sc-review-instruction-first-part = Hechajey
 sc-review-instruction-second-part = Ko ñe’ẽjuajúpa oĩporã añetehápe
@@ -1709,3 +1713,15 @@ review-error-rate-limit-exceeded = Eho pya’eterei. Eiporu arapa’ũ ehechajey
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Ore rojaporoína ñemoambue guasu
 sc-redirect-page-subtitle-2 = Ñaporandu <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> térã <emailLink>ñanduti veve</emailLink>.
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = Hupi
+sc-bulk-upload-instruction-second-part = ñe’ẽjoaju opavave oiporukuaáva
+drag-your-file-here = Emoĩ ko’ápe marandurenda ehupi hag̃ua
+drop-file-here = Epoi ápe ne marandurenda ehupi hag̃ua
+try-upload-again = Eha’ãjey emoĩvo ne marandurenda ko’ápe
+try-upload-again-md = Eha’ãjey ehupi hag̃ua
+or-conjuction = térã
+select-file = Eiporavo Marandurenda
+select-file-mobile = Eiporavo marandurenda emyanyhẽ hag̃ua
+accepted-files = Oñemoneĩva marandurenda: .tsv añoite
+maximum-file-size = Marandurenda tuichakue: 25 MB
