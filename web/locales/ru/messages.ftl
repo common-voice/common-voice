@@ -1767,3 +1767,17 @@ sc-redirect-page-subtitle-2 = Задавайте нам вопросы в <matri
 # BULK SUBMISSION 
 sc-bulk-upload-instruction-first-part = Загрузить
 sc-bulk-upload-instruction-second-part = предложения, составляющие общественное достояние
+drag-your-file-here = Перетащите сюда свой файл, чтобы загрузить
+drop-file-here = Перетащите сюда файл, чтобы загрузить
+try-upload-again = Попробуйте еще раз, перетащив файл сюда
+try-upload-again-md = Попробуйте загрузить еще раз
+or-conjuction = или
+select-file = Выберите файл
+select-file-mobile = Выберите файл для загрузки
+accepted-files = Допустимые типы файлов: только .tsv.
+maximum-file-size = Максимальный размер файла: 25 МБ.
+what-needs-to-be-in-file = Что должно быть в моем файле?
+what-needs-to-be-in-file-explanation = Пожалуйста, проверьте наш <templateFileLink>файл шаблона</templateFileLink>. Ваши предложения не должны быть защищены авторскими правами (CC0 или оригинальная работа, разрешенная автором), быть ясными, грамматически правильными и легко читаемыми. Чтение представленных предложений должно занимать примерно 10–15 секунд; в них следует избегать использования цифр, имен собственных и специальных символов.
+upload-progress-text = Идет процесс загрузки...
+sc-bulk-submit-confirm = Я подтверждаю, что эти предложения являются <wikipediaLink>общественным достоянием</wikipediaLink> и что у меня есть право загрузить их сюда.
+bulk-upload-success-toast = Множество предложений загружено
