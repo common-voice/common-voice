@@ -47,7 +47,7 @@
             margin: 0 auto;
             max-width: var(--desktop-width);
             padding: 0 4rem;
-            overflow-x: scroll;
+            overflow-x: auto;
             height: 100%;
 
             @media (--sm-down) {

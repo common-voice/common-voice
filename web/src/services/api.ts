@@ -25,6 +25,7 @@ interface FetchOptions {
     [headerName: string]: string
   }
   body?: any // eslint-disable-line @typescript-eslint/no-explicit-any
+  signal?: AbortSignal
 }
 
 interface Vote extends Event {
@@ -45,10 +46,12 @@ const getChallenge = (user: User.State): string => {
 export default class API {
   private readonly locale: Locale.State
   private readonly user: User.State
+  private readonly abortController: AbortController
 
   constructor(locale: Locale.State, user: User.State) {
     this.locale = locale
     this.user = user
+    this.abortController = new AbortController()
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -560,5 +563,33 @@ export default class API {
       method: 'POST',
       body: data,
     })
+  }
+
+  bulkSubmissionRequest({
+    file,
+    locale,
+    fileName,
+  }: {
+    file: File
+    locale: string
+    fileName: string
+  }) {
+    const { signal } = this.abortController
+    const fileData = new FormData()
+
+    fileData.append('file', file)
+
+    return fetch(`${API_PATH}/${locale}/bulk_submissions`, {
+      method: 'POST',
+      body: fileData,
+      headers: {
+        filename: fileName,
+      },
+      signal,
+    })
+  }
+
+  abortBulkSubmissionRequest() {
+    this.abortController.abort()
   }
 }

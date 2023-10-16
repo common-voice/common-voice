@@ -518,6 +518,8 @@ how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) eit ope datasett av st
 about-language-req-subtitle = Nokon ber om å leggje til eit språk.
 about-localization-title = Omsetjing av nettstad
 about-sentence-collection-title = Setningsinnsamling
+about-new-lang-title = Lansering av nytt språk
+about-new-lang-subtitle = Vi lanserer Common Voice-sida på dette språket.
 about-voice-contrib-title = Stemmebidrag
 about-voice-validation-title = Stemmevalidering
 about-voice-validation-subtitle = Andre personar validerer desse stemmeklippa.
@@ -571,6 +573,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Innsamling av set
 
 about-playbook-how-localize = Korleis fungerer omsetjinga av nettstaden?
 about-playbook-how-localize-content-1 = Common Voice vert omsett på <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Nettstaden er klar for lansering når han er 75 % ferdig.
 about-playbook-how-localize-content-5 = Sjå videoforklaringa vår for hjelp
 
 ## How to add sentences

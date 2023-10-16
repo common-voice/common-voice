@@ -40,7 +40,7 @@ const ListenPage = React.lazy(
 );
 const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'));
 const WritePage = React.lazy(
-  () => import('./pages/contribution/sentence-collector/write/write')
+  () => import('./pages/contribution/sentence-collector/write/write-container')
 )
 const ReviewPage = React.lazy(
   () => import('./pages/contribution/sentence-collector/review/review')

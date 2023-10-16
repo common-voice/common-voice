@@ -14,7 +14,7 @@ describe('AddBulkSubmissionHandler', () => {
     const reqMock: any = {
       client_id: 'abc',
       headers: {
-        'content-length': 9 * 1024 * 1024,
+        'content-length': 26 * 1024 * 1024,
       },
       params: {
         locale: 'en',
@@ -27,7 +27,7 @@ describe('AddBulkSubmissionHandler', () => {
     await addBulkSubmissionHandler(reqMock, resMock)
     expect(resMock.status).toHaveBeenCalledWith(StatusCodes.BAD_REQUEST)
     expect(resMock.json).toHaveBeenCalledWith({
-      message: 'file is larger than 8MB',
+      message: 'file is larger than 25MB',
     })
   })
 
@@ -53,7 +53,7 @@ describe('AddBulkSubmissionHandler', () => {
 
   it('should return bad request 400 when content-length and filesize are not matching', async () => {
     const contentLengthSize = 1024
-    const realFileSize = 9 * 1024 * 1024
+    const realFileSize = 26 * 1024 * 1024
 
     const reqMock: any = {
       client_id: 'abc',

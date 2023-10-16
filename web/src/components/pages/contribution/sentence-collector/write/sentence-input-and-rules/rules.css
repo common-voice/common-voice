@@ -121,4 +121,8 @@
         height: calc(30vh + 91.5px);
         min-height: 353px;
     }
+
+    @media (--md-down) {
+        width: 100%;
+    }
 }
