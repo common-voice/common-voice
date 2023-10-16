@@ -1,13 +1,13 @@
 import * as React from 'react'
 import { fireEvent, screen, waitFor } from '@testing-library/react'
 
-import { renderWithProviders } from '../../../../../../test/render-with-providers'
+import { renderWithProviders } from '../../../../../../../test/render-with-providers'
 
-import Write from './write'
+import SingleSubmissionWrite from './single-submission-write'
 
 const useActionMock = jest.fn()
 
-jest.mock('../../../../../hooks/store-hooks', () => ({
+jest.mock('../../../../../../hooks/store-hooks', () => ({
   useLanguages: () => {
     return {
       localeNameAndIDMapping: [
@@ -20,7 +20,7 @@ jest.mock('../../../../../hooks/store-hooks', () => ({
   useAction: () => useActionMock,
 }))
 
-jest.mock('../../../../locale-helpers', () => ({
+jest.mock('../../../../../locale-helpers', () => ({
   useLocale: () => {
     const mockLocale = 'mock-locale-1'
     return [mockLocale]
@@ -35,17 +35,17 @@ afterEach(() => {
 // TODO: At the moment we can't test validation errors like creating a sentence with numbers
 // we should write tests for this in e2e tests
 
-describe('Write page', () => {
-  it('renders Write page', () => {
-    renderWithProviders(<Write />)
+describe('Single Submission Write page', () => {
+  it('renders Single Submission Write page', () => {
+    renderWithProviders(<SingleSubmissionWrite />)
 
-    expect(screen.getByTestId('write-page')).toBeTruthy()
+    expect(screen.getByTestId('single-submission-form')).toBeTruthy()
     // assert that submit button is disabled
     expect(screen.getByTestId('submit-button').hasAttribute('disabled'))
   })
 
   it('requires a citation before submitting', () => {
-    renderWithProviders(<Write />)
+    renderWithProviders(<SingleSubmissionWrite />)
 
     const sentenceTextArea = screen.getByTestId('sentence-textarea')
     const checkBox = screen.getByTestId('public-domain-checkbox')
@@ -68,7 +68,7 @@ describe('Write page', () => {
   })
 
   it('submits when all fields are filled', async () => {
-    renderWithProviders(<Write />)
+    renderWithProviders(<SingleSubmissionWrite />)
 
     const sentenceTextArea = screen.getByTestId('sentence-textarea')
     const citationInput = screen.getByTestId('citation-input')
