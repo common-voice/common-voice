@@ -31,6 +31,10 @@
             }
         }
 
+        & .write.centered {
+            margin: 0 auto;
+        }
+
         & .review {
             margin: 0 auto;
             .instruction {
