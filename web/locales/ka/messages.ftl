@@ -1764,7 +1764,7 @@ citation =
 sc-write-submit-confirm =
     ვადასტურებ, რომ ეს წინადადება <wikipediaLink>საყოველთაო საკუთრებაშია</wikipediaLink> და
     მაქვს მისი ატვირთვის ნებართვა.
-sc-review-write-title = როგორი წინადადების დამატება შეიძლება?
+sc-review-write-title = წინადადება როგორი უნდა იყოს?
 new-sentence-rule-1 = <noCopyright>საავტორო უფლების</noCopyright> არმქონე (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = არაუმეტეს 15 სიტყვის შემცველი
 new-sentence-rule-3 = გამართული გრამატიკულად
@@ -1820,3 +1820,9 @@ sc-bulk-submit-confirm =
 bulk-upload-success-toast = წინადადებები წარმატებით აიტვირთა ერთიანად
 bulk-upload-failed-toast = ატვირთვა ვერ მოხერხდა, გთხოვთ კვლავ სცადოთ.
 bulk-submission-success-header = გმადლობთ, წინადადებების ერთიანად გადმოგზავნისთვის!
+bulk-submission-success-subheader = თქვენ ეხმარებით Common Voice-ს  წინადადებების შესაგროვებლად დღიური მიზნის მიღწევაში!
+upload-more-btn-text = გსურთ, მეტი წინადადების ატვირთვა?
+file-invalid-type = უმართებულო ფაილი
+file-too-large = ფაილი ზედმეტად დიდია
+file-too-small = ფაილი ზედმეტად მცირეა
+too-many-files = ფაილები ზედმეტად ბევრია
