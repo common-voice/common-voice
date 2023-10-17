@@ -1170,7 +1170,7 @@ demo-account = Účet
 demo-account-card-header = Účet nie je nutnosťou, no môže byť užitočný
 demo-account-card-body = Vpravo uvádzame výhody a objasňujeme, ktoré informácie zverejňujeme. Pomocou nižšie uvedených odkazov môžete začať používať účet Common Voice vo svojom zariadení.
 demo-account-enter-email =
-    .label = Zadajte e ‑mail na odoslanie odkazu na registráciu
+    .label = Zadajte e‑mail na odoslanie odkazu na registráciu
 demo-account-sign-up = Odoslať prihlasovací odkaz
 
 ## Demo Contribute
