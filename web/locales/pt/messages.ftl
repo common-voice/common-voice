@@ -1723,3 +1723,5 @@ sc-redirect-page-subtitle-2 = Faça-nos perguntas no <matrixLink>Matrix</matrixL
 # BULK SUBMISSION 
 sc-bulk-upload-instruction-first-part = Enviar
 sc-bulk-upload-instruction-second-part = frases de domínio público
+drag-your-file-here = Arraste o arquivo aqui para enviar
+or-conjuction = ou
