@@ -27,6 +27,7 @@ const SOURCES = {
     '*.fundraiseup.com',
     'ucarecdn.com',
     '*.paypalobjects.com',
+    '*.paypal.com',
   ],
   'media-src': [
     'data:',
@@ -44,6 +45,7 @@ const SOURCES = {
     "'sha256-a4XKOKikGVsTOKjLwsaxxV5wpz/r2aiS5mjhlhYZ6A0='",
     "'sha256-QpRaNc9WL82cAOkiPfLE1bTAivGUFX9zsApzEurJ9wg='",
     "'sha256-dWOqg9lnJct6KNFyy8RWWvxwrKvHVzzxWdDufqcgdSY='",
+    "'sha256-b+mf6EIMFYxuAIdk6/2IF09zTUsJrlW6qZaw4opG6QU='",
     'https://*.google-analytics.com',
     'https://pontoon.mozilla.org',
     'https://*.sentry.io',
@@ -86,8 +88,10 @@ const SOURCES = {
     '*.stripe.com',
     '*.paypal.com',
     '*.paypalobjects.com',
+    'https://google.com/pay',
+    'pay.google.com',
   ],
-  'frame-src': ['*.fundraiseup.com', '*.stripe.com'],
+  'frame-src': ['*.fundraiseup.com', '*.stripe.com', '*.paypal.com'],
 }
 
 function getCSPHeaderValue() {
