@@ -1702,7 +1702,6 @@ sentence-input-value = Insere ci tu phrase de dominio public
 citation-input-value = Fonte de tu phrase
 citation =
     .label = Citation
-what-can-i-add = Que sorta de phrases pote io adder?
 new-sentence-rule-1 = <noCopyright>Nulle</noCopyright> limitationes de derectos de autor (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Minus que 15 parolas
 new-sentence-rule-3 = Usar grammatica correcte
@@ -1733,3 +1732,9 @@ review-error-rate-limit-exceeded = Tu vade troppo rapide. Attende un momento pro
 sc-redirect-page-title = Nos va facer alcun grande cambios
 sc-redirect-page-subtitle-1 = Le Collector de phrases se move al nucleo del platteforma Common Voice. Ora tu pote <writeURL>scriber</writeURL> un phrase o <reviewURL>revider</reviewURL> singule invios de phrases sur Common Voice.
 sc-redirect-page-subtitle-2 = Demanda nos questiones sur <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> o <emailLink>email</emailLink>.
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = Cargar
+sc-bulk-upload-instruction-second-part = phrases de dominio public
+or-conjuction = o
+select-file = Eliger file
+select-file-mobile = Selige le file a cargar
