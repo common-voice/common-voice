@@ -88,10 +88,15 @@ const SOURCES = {
     '*.stripe.com',
     '*.paypal.com',
     '*.paypalobjects.com',
-    'https://google.com/pay',
+    'https://www.google.com/pay',
     'pay.google.com',
   ],
-  'frame-src': ['*.fundraiseup.com', '*.stripe.com', '*.paypal.com'],
+  'frame-src': [
+    '*.fundraiseup.com',
+    '*.stripe.com',
+    '*.paypal.com',
+    'pay.google.com',
+  ],
 }
 
 function getCSPHeaderValue() {
