@@ -619,7 +619,6 @@ about-playbook-how-add-sentences = Como adicionar frases?
 about-playbook-how-add-sentences-content-1 = O <strong>coletor de frases</strong> é uma ferramenta para coletar e validar frases de domínio público. Você <scAccountLink>precisa criar uma conta</scAccountLink>. Depois adicione seu idioma ao seu <strong>perfil</strong>. Você pode <strong>adicionar</strong> frases ou <strong>revisar</strong> frases adicionadas anteriormente.
 about-playbook-how-add-sentences-content-2 = As frases devem ser revisadas e aceitas por duas pessoas para ser incluídas no Common Voice. Você cria diretrizes para seu idioma <languageGuidelinesLink>aqui</languageGuidelinesLink>. As frases devem ser de <licenseLink>domínio público</licenseLink> e ter menos de 15 palavras. Você pode pedir ao proprietário de um texto para torná-lo <waiverLink>CC0 (domínio público) usando nosso processo de renúncia de direitos</waiverLink> e nos enviar em commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Você pode usar o <scraperLink>extrator de frases</scraperLink> para aproveitar frases curtas do Wikipedia.
-about-playbook-how-add-sentences-content-4 = Frases validadas são exportadas às quartas-feiras e ficam disponíveis após o próximo lançamento.
 
 ## How to record quality
 
@@ -1686,7 +1685,7 @@ sentence-input-value = Digite aqui sua frase de domínio público
 citation-input-value = Origem da sua frase
 citation =
     .label = Citação
-what-can-i-add = Que tipos de frases posso adicionar?
+sc-review-write-title = Que frases posso adicionar?
 new-sentence-rule-1 = <noCopyright>Sem restrições de direitos autorais</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Menos de 15 palavras
 new-sentence-rule-3 = Usar gramática correta
@@ -1703,6 +1702,10 @@ contact-us = Contate-nos
 add-sentence-success = 1 frase coletada
 add-sentence-error = Erro ao adicionar frase
 required-field = Preencha este campo.
+single-sentence-submission = Envio de uma única frase
+bulk-sentence-submission = Envio de grupo de frases
+single-sentence = Uma única frase
+bulk-sentences = Grupo de frases
 # REVIEW PAGE
 sc-review-instruction-first-part = Verificação
 sc-review-instruction-second-part = Esta é uma frase linguisticamente correta?
@@ -1717,3 +1720,6 @@ review-error-rate-limit-exceeded = Você está indo rápido demais. Dedique um m
 sc-redirect-page-title = Estamos a fazer grandes mudanças
 sc-redirect-page-subtitle-1 = O coletor de frases está migrando para a plataforma principal do Common Voice. Agora você pode <writeURL>escrever</writeURL> uma frase ou <reviewURL>revisar</reviewURL> envios de uma única frase no Common Voice.
 sc-redirect-page-subtitle-2 = Faça-nos perguntas no <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou por <emailLink>email</emailLink>.
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = Enviar
+sc-bulk-upload-instruction-second-part = frases de domínio público
