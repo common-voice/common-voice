@@ -1703,7 +1703,6 @@ sentence-input-value = Īvodit ite sovu publiski daīmamū teikumu, kas nav aizs
 citation-input-value = Jiusu teikuma olūts
 citation =
     .label = Atsauce
-what-can-i-add = Kaidus teikumus es varu dalikt?
 new-sentence-rule-1 = <noCopyright>Nav autortīseibu</noCopyright> īrūbežuojumu (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Muozuok par 15 vuordim
 new-sentence-rule-3 = Ir gramatiski pareizi
@@ -1734,3 +1733,6 @@ review-error-rate-limit-exceeded = Jius struodojit par daudz uotri. Lyudzu, iz �
 sc-redirect-page-title = Mes veicam puors lelys izmainis
 sc-redirect-page-subtitle-1 = Teikumu apkūpuošonys reiks puorīt iz Common Voice platformu. Tagad varit <writeURL>dalikt</writeURL> i<reviewURL>puorbaudeit</reviewURL> teikumus Common Voice sistemā.
 sc-redirect-page-subtitle-2 = Aizdūdit mums vaicuojumus <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> voi rokstūt <emailLink>e-postu</emailLink>.
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = Augšynluodeit
+too-many-files = Par daudzi failu.
