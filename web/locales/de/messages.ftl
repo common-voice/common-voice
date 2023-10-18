@@ -1763,7 +1763,10 @@ sentence-input-value = Geben Sie hier Ihren gemeinfreien Satz ein
 citation-input-value = Quelle Ihres Satzes
 citation =
     .label = Zitat
-what-can-i-add = Welche Sätze kann ich hinzufügen?
+sc-write-submit-confirm =
+    Ich bestätige, dass dieser Satz <wikipediaLink>gemeinfrei</wikipediaLink> ist und
+    ich die Erlaubnis habe, ihn hochzuladen.
+sc-review-write-title = Welche Sätze kann ich hinzufügen?
 new-sentence-rule-1 = <noCopyright>Keine Urheberrechts</noCopyright>-Einschränkungen (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Weniger als 15 Wörter
 new-sentence-rule-3 = Verwendung korrekter Grammatik
@@ -1780,6 +1783,10 @@ contact-us = Kontakt
 add-sentence-success = 1 Satz gesammelt
 add-sentence-error = Fehler beim Hinzufügen des Satzes
 required-field = Bitte füllen Sie dieses Feld aus.
+single-sentence-submission = Einreichung eines einzelnen Satzes
+bulk-sentence-submission = Einreichung mehrerer Sätze
+single-sentence = Einzelner Satz
+bulk-sentences = Mehrere Sätze
 # REVIEW PAGE
 sc-review-instruction-first-part = Überprüfen
 sc-review-instruction-second-part = Ist dies ein sprachlich korrekter Satz?
@@ -1794,3 +1801,30 @@ review-error-rate-limit-exceeded = Sie sind zu schnell. Bitte nehmen Sie sich ei
 sc-redirect-page-title = Wir nehmen einige wichtige Änderungen vor
 sc-redirect-page-subtitle-1 = Der Satzsammler zieht auf die Kern-Common-Voice-Plattform um. Sie können jetzt auf einen Satz Common Voice <writeURL>schreiben</writeURL> oder einzelne Sätze <reviewURL>überprüfen</reviewURL>.
 sc-redirect-page-subtitle-2 = Stellen Sie uns Fragen auf <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> oder per <emailLink>E-Mail</emailLink>.
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = Hochladen
+sc-bulk-upload-instruction-second-part = gemeinfreie Sätze
+drag-your-file-here = Ziehen Sie Ihre Datei zum Hochladen hierher
+drop-file-here = Datei zum Hochladen hier ablegen
+try-upload-again = Versuchen Sie es erneut, indem Sie Ihre Datei hierher ziehen
+try-upload-again-md = Hochladen erneut versuchen
+or-conjuction = oder
+select-file = Datei auswählen
+select-file-mobile = Datei zum Hochladen auswählen
+accepted-files = Akzeptierte Dateitypen: nur .tsv
+maximum-file-size = Maximale Dateigröße: 25 MB
+what-needs-to-be-in-file = Was muss in meiner Datei enthalten sein?
+what-needs-to-be-in-file-explanation = Bitte überprüfen Sie unsere <templatFileLink>Vorlagen-Datei</templatFileLink>. Ihre Sätze sollten urheberrechtsfrei (CC0 oder Originalarbeit des Einreichenden) sein, klar, grammatikalisch korrekt und leicht zu lesen. Eingereichte Sätze sollten in etwa 10-15 Sekunden zu lesen sein und sollten keine Zahlen, Eigennamen und Sonderzeichen enthalten.
+upload-progress-text = Hochladen läuft…
+sc-bulk-submit-confirm =
+    Ich bestätige, dass diese Sätze <wikipediaLink>gemeinfrei</wikipediaLink> sind und
+    ich die Erlaubnis habe, sie hochzuladen.
+bulk-upload-success-toast = Mehrere Sätze hochgeladen
+bulk-upload-failed-toast = Hochladen fehlgeschlagen, bitte erneut versuchen.
+bulk-submission-success-header = Vielen Dank, dass Sie mehrere Sätze beigetragen haben!
+bulk-submission-success-subheader = Sie helfen Common Voice, unsere täglichen Satzziele zu erreichen!
+upload-more-btn-text = Weitere Sätze hochladen?
+file-invalid-type = Ungültige Datei
+file-too-large = Die Datei ist zu groß
+file-too-small = Die Datei ist zu klein
+too-many-files = Zu viele Dateien

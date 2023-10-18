@@ -1771,7 +1771,10 @@ sentence-input-value = Voer hier uw publieke domeinzin in
 citation-input-value = Bron van uw zin
 citation =
     .label = Citaat
-what-can-i-add = Wat voor soort zinnen kan ik toevoegen?
+sc-write-submit-confirm =
+    Ik bevestig dat deze zin <wikipediaLink>publiek domein</wikipediaLink> is en
+    ik toestemming heb om deze te uploaden.
+sc-review-write-title = Welke zinnen kan ik toevoegen?
 new-sentence-rule-1 = <noCopyright>Geen copyright</noCopyright>-beperkingen (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Minder dan 15 woorden
 new-sentence-rule-3 = Gebruik de juiste grammatica
@@ -1788,6 +1791,10 @@ contact-us = Contact opnemen
 add-sentence-success = 1 zin verzameld
 add-sentence-error = Fout bij toevoegen van zin
 required-field = Vul dit veld in.
+single-sentence-submission = Indienen van één zin
+bulk-sentence-submission = Bulkindiening van zinnen
+single-sentence = Losse zin
+bulk-sentences = Bulkzinnen
 # REVIEW PAGE
 sc-review-instruction-first-part = Controleren
 sc-review-instruction-second-part = is dit een taalkundig correcte zin?
@@ -1802,3 +1809,30 @@ review-error-rate-limit-exceeded = U gaat te snel. Neem even de tijd om de zin t
 sc-redirect-page-title = We voeren enkele grote veranderingen door
 sc-redirect-page-subtitle-1 = De Sentence Collector verhuist naar de kern van het Common Voice-platform. U kunt nu een zin <writeURL>schrijven</writeURL> of inzendingen van losse zinnen <reviewURL>beoordelen</reviewURL> op Common Voice.
 sc-redirect-page-subtitle-2 = Stel ons vragen op <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> of <emailLink>e-mail</emailLink>.
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = Uploaden
+sc-bulk-upload-instruction-second-part = zinnen uit het publieke domein
+drag-your-file-here = Sleep uw bestand hierheen om het te uploaden
+drop-file-here = Sleep bestand hierheen om te uploaden
+try-upload-again = Probeer het opnieuw door uw bestand hierheen te slepen
+try-upload-again-md = Probeer opnieuw te uploaden
+or-conjuction = of
+select-file = Bestand selecteren
+select-file-mobile = Selecteer te uploaden bestand
+accepted-files = Geaccepteerde bestandstypen: alleen .tsv
+maximum-file-size = Maximale bestandsgrootte: 25 MB
+what-needs-to-be-in-file = Wat moet er in mijn bestand zitten?
+what-needs-to-be-in-file-explanation = Bekijk ons <templateFileLink>sjabloonbestand</templateFileLink>. Uw zinnen moeten vrij van auteursrechten zijn (CC0 of origineel werk met toestemming van de indiener) en duidelijk, grammaticaal correct en gemakkelijk te lezen zijn. Ingediende zinnen zouden een leeslengte van ongeveer 10 tot 15 seconden moeten hebben en mogen geen cijfers, eigennamen en speciale tekens bevatten.
+upload-progress-text = Upload bezig…
+sc-bulk-submit-confirm =
+    Ik bevestig dat deze zinnen <wikipediaLink>publiek domein</wikipediaLink> zijn en
+    ik toestemming heb om ze te uploaden.
+bulk-upload-success-toast = Bulkupload zinnen voltooid
+bulk-upload-failed-toast = Upload mislukt, probeer het opnieuw.
+bulk-submission-success-header = Bedankt voor het indienen van uw bulkinzending!
+bulk-submission-success-subheader = U helpt Common Voice onze dagelijkse zinsdoelen te bereiken!
+upload-more-btn-text = Meer zinnen uploaden?
+file-invalid-type = Ongeldig bestand
+file-too-large = Bestand is te groot
+file-too-small = Bestand is te klein
+too-many-files = Te veel bestanden

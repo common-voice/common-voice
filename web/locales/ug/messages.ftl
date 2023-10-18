@@ -1398,7 +1398,11 @@ sc-confirm-ready =
         [one] { "" }
        *[other] { $readyCount } جۈملە يوللاشقا تەييار بولدى!
     }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } جۈملە قايتا تەكشۈرۈلمىدى. ئەگەر خالىسىڭىز، جۈملىڭىزنى يوللاشتىن بۇرۇن ئۇنى قايتا تەكشۈرەلەيسىز.
 sc-confirm-button-text = جەزملەشتۈرۈڭ
+sc-confirm-uploading = جۈملىلەر يۈكلىنىۋاتىدۇ. قوشۇلغان جۈملىلەرنىڭ سانىغا ئاساسەن بىر نەچچە مىنۇت ۋاقىت كېتىدۇ. بۇ تور بېكەتنى ياپماڭ.
 
 ## LANGUAGE INFO
 
@@ -1475,6 +1479,7 @@ sc-criteria-item-1 = جۈملىنىڭ ئىملاسى چوقۇم توغرا يې�
 sc-criteria-item-2 = جۈملىنىڭ گرامماتىكىسى چوقۇم توغرا بولۇشى كېرەك.
 sc-criteria-item-3 = جۈملىنى سۆزلىگىلى بولىدىغان بولۇشى كېرەك.
 sc-criteria-item-4 = ئەگەر جۈملە بۇ ئۆلچەمگە توشسا، ئوڭ تەرەپتىكى «تەستىقلا» توپچىسى بېسىلىدۇ.
+sc-criteria-item-5-2 = ئەگەر بۇ جۈملە يۇقىرىقى ئۆلچەمگە توشمىسا، سول تەرەپتىكى «رەت قىل» توپچىسىنى چېكىڭ. ئەگەر بۇ جۈملىنى جەزملىيەلمىسىڭىز، ئۇنى ئاتلاپ كېيىنكى جۈملىگە يۆتكەلسىڭىزمۇ بولىدۇ.
 sc-criteria-item-6 = ئەگەر تەكشۈرىدىغان جۈملە تۈگەپ كەتسە، تېخىمۇ كۆپ جۈملە توپلىشىمىزغا ياردەم قىلىڭ.
 
 ## REVIEW
@@ -1615,6 +1620,7 @@ adding-sentences-subheader-spelling-punctuation = ئىملا ۋە تىنىش ب�
 adding-sentences-subheader-spelling-punctuation-explanation = جۈملىنىڭ ئىملاسى چوقۇم توغرا يېزىلىشى كېرەك.
 adding-sentences-subheader-speakable = ئوقۇشچان
 adding-sentences-subheader-numbers = سانلار
+adding-sentences-subheader-abbreviations = قىسقارتىش ۋە قىسقا ئاتلار
 adding-sentences-subheader-punctuation = تىنىش بەلگىلىرى
 adding-sentences-subheader-special-characters = ئالاھىدە ھەرپلەر ۋە چەتئەل ھەرپلىرى
 adding-sentences-subheader-offensive-content = تېرىكتۈرىدىغان مەزمۇن
@@ -1631,7 +1637,8 @@ sentence-input-value = ئاممىۋى دائىرىدىكى جۈملىنى بۇ �
 citation-input-value = جۈملىڭىزنىڭ مەنبەسى
 citation =
     .label = نەقىل
-what-can-i-add = قانداق جۈملىلەرنى قوشالايمەن؟
+sc-write-submit-confirm = مەن بۇ جۈملىنىڭ <wikipediaLink>ئاممىۋى دائىرە</wikipediaLink> دە ئىكەنلىكىنى جەزملەشتۈرىمەن ھەمدە ئۇنى يۈكلەش ئىجازىتىم بار.
+sc-review-write-title = قانداق جۈملىلەرنى قوشالايمەن؟
 new-sentence-rule-1 = <noCopyright>نەشر ھوقۇقى</noCopyright> چەكلىمىسى يوق (<cc0> cc-0 </cc0>)
 new-sentence-rule-2 = 15 سۆزدىن ئاز
 new-sentence-rule-3 = گىرامماتېكىنى توغرا ئىشلەتكەن
@@ -1648,6 +1655,10 @@ contact-us = بىز بىلەن ئالاقىلىشىڭ
 add-sentence-success = 1 جۈملە توپلاندى
 add-sentence-error = جۈملە قوشۇشتا خاتالىق كۆرۈلدى
 required-field = بۇ بۆلەكنى تولدۇرۇڭ.
+single-sentence-submission = يەككە جۈملە يوللاش
+bulk-sentence-submission = تۈركۈملەپ جۈملە يوللاش
+single-sentence = يەككە جۈملە
+bulk-sentences = كۆپ جۈملە
 # REVIEW PAGE
 sc-review-instruction-first-part = تەكشۈر
 sc-review-instruction-second-part = بۇ تىل ئادىتىگە ئۇيغۇن جۈملىمۇ؟
@@ -1662,3 +1673,27 @@ review-error-rate-limit-exceeded = بەك ئالدىراقسانلىق قىلم�
 sc-redirect-page-title = بىز بەزى چوڭ ئۆزگەرتىشلەرنى ئېلىپ بېرىۋاتىمىز
 sc-redirect-page-subtitle-1 = جۈملە يىغقۇچ Common Voice سۇپىسىغا يۆتكىلىۋاتىدۇ. سىز ھازىر بىر جۈملە <writeURL>يېزىپ</writeURL> ياكى بىر جۈملە <reviewURL>تەكشۈرۈپ</reviewURL> ئۇنى Common Voice قا يوللىيالايسىز.
 sc-redirect-page-subtitle-2 = <matrixLink>Matrix</matrixLink>، <discourseLink>Discourse</discourseLink> ياكى <emailLink>ئېلخەت</emailLink> ئارقىلىق بىزدىن سوئال سوراڭ.
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = يۈكلە
+sc-bulk-upload-instruction-second-part = ئاممىۋى دائىرەدىكى جۈملىلەر
+drag-your-file-here = ھۆججەتلىرىڭىزنى بۇ يەرگە سۆرىسىڭىز يۈكلىنىدۇ
+drop-file-here = ھۆججەت بۇ يەرگە تاشلانسا يۈكلىنىدۇ
+try-upload-again = ھۆججىتىڭىزنى بۇ يەرگە سۆرەپ قايتا سىناڭ
+try-upload-again-md = قايتا يۈكلەپ سىناڭ
+or-conjuction = ياكى
+select-file = ھۆججەتنى تاللاڭ
+select-file-mobile = يۈكلەيدىغان ھۆججەت تاللىنىدۇ
+accepted-files = قوللايدىغان ھۆججەت تىپى: پەقەتلا .tsv
+maximum-file-size = ئەڭ چوڭ ھۆججەت سىغىمى: 25MB
+what-needs-to-be-in-file = ھۆججىتىمدە نېمە بولۇشى كېرەك؟
+upload-progress-text = يۈكلىنىۋاتىدۇ…
+sc-bulk-submit-confirm = مەن بۇ جۈملىلەرنىڭ <wikipediaLink>ئاممىۋى دائىرە</wikipediaLink> دە ئىكەنلىكىنى جەزملەشتۈرىمەن ھەمدە ئۇلارنى يۈكلەش ئىجازىتىم بار.
+bulk-upload-success-toast = توپلانغان جۈملىلەر يۈكلەندى
+bulk-upload-failed-toast = يۈكلىيەلمىدى، قايتا سىناڭ.
+bulk-submission-success-header = كۆپ تاپشۇرغان تۆھپىڭىزگە رەھمەت!
+bulk-submission-success-subheader = سىز Common Voice نىڭ كۈندىلىك جۈملە نىشانىغا يېتىشىمىزگە ياردەم قىلىۋاتىسىز!
+upload-more-btn-text = تېخىمۇ كۆپ چۈملە يۈكلەمسىز؟
+file-invalid-type = ئىناۋەتسىز ھۆججەت
+file-too-large = ھۆججەت بەك چوڭ
+file-too-small = ھۆججەت بەك كىچىك
+too-many-files = ھۆججەت بەك كۆپ
