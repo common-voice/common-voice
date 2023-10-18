@@ -89,6 +89,7 @@ const SOURCES = {
     '*.paypal.com',
     '*.paypalobjects.com',
     'https://www.google.com/pay',
+    'https://google.com/pay',
     'pay.google.com',
   ],
   'frame-src': [
