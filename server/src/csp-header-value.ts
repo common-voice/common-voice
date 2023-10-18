@@ -1,4 +1,4 @@
-import { getConfig } from './config-helper';
+import { getConfig } from './config-helper'
 
 const SOURCES = {
   'default-src': ["'none'"],
@@ -26,6 +26,8 @@ const SOURCES = {
     'https://www.gstatic.com',
     '*.fundraiseup.com',
     'ucarecdn.com',
+    '*.paypalobjects.com',
+    '*.paypal.com',
   ],
   'media-src': [
     'data:',
@@ -43,6 +45,7 @@ const SOURCES = {
     "'sha256-a4XKOKikGVsTOKjLwsaxxV5wpz/r2aiS5mjhlhYZ6A0='",
     "'sha256-QpRaNc9WL82cAOkiPfLE1bTAivGUFX9zsApzEurJ9wg='",
     "'sha256-dWOqg9lnJct6KNFyy8RWWvxwrKvHVzzxWdDufqcgdSY='",
+    "'sha256-b+mf6EIMFYxuAIdk6/2IF09zTUsJrlW6qZaw4opG6QU='",
     'https://*.google-analytics.com',
     'https://pontoon.mozilla.org',
     'https://*.sentry.io',
@@ -52,6 +55,7 @@ const SOURCES = {
     '*.stripe.com',
     'm.stripe.network',
     '*.paypal.com',
+    '*.paypalobjects.com',
     'pay.google.com ',
     '*.src.mastercard.com',
   ],
@@ -82,12 +86,22 @@ const SOURCES = {
     'fndrsp-checkout.net',
     '*.fundraiseup.com',
     '*.stripe.com',
+    '*.paypal.com',
+    '*.paypalobjects.com',
+    'https://www.google.com/pay',
+    'https://google.com/pay',
+    'pay.google.com',
   ],
-  'frame-src': ['*.fundraiseup.com', '*.stripe.com'],
-};
+  'frame-src': [
+    '*.fundraiseup.com',
+    '*.stripe.com',
+    '*.paypal.com',
+    'pay.google.com',
+  ],
+}
 
 function getCSPHeaderValue() {
-  const { PROD } = getConfig();
+  const { PROD } = getConfig()
   const localhostURLs = 'http://localhost:*'
 
   /*
@@ -97,18 +111,18 @@ function getCSPHeaderValue() {
   */
   if (!PROD) {
     // we allow unsafe-eval, unsafe-inline locally for certain webpack functionality
-    SOURCES['style-src'].push("'unsafe-inline'");
-    SOURCES['script-src'].push("'unsafe-eval'");
+    SOURCES['style-src'].push("'unsafe-inline'")
+    SOURCES['script-src'].push("'unsafe-eval'")
 
     // add localhost to allowed sources in development
-    SOURCES['connect-src'].push(localhostURLs);
-    SOURCES['media-src'].push(localhostURLs);
-    SOURCES['img-src'].push(localhostURLs);
+    SOURCES['connect-src'].push(localhostURLs)
+    SOURCES['media-src'].push(localhostURLs)
+    SOURCES['img-src'].push(localhostURLs)
   }
 
   return Object.entries(SOURCES)
     .map(([type, values]) => `${type} ${values.join(' ')}`)
-    .join(';');
+    .join(';')
 }
 
-export default getCSPHeaderValue;
+export default getCSPHeaderValue
