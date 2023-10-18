@@ -1738,7 +1738,12 @@ sc-redirect-page-subtitle-1 = Teikumu apkūpuošonys reiks puorīt iz Common Voi
 sc-redirect-page-subtitle-2 = Aizdūdit mums vaicuojumus <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> voi rokstūt <emailLink>e-postu</emailLink>.
 # BULK SUBMISSION 
 sc-bulk-upload-instruction-first-part = Augšynluodēt
+or-conjuction = voi
+select-file = Izalosi failu
 select-file-mobile = Izavielej failu, kuru augšynluodēt
+accepted-files = Atļautū failu tipi: tikai .tsv
+maximum-file-size = Maksimalais faila izmārs: 25 MB
+what-needs-to-be-in-file = Kam juobyut munā failā?
 upload-progress-text = Nūteik augšynluode...
 bulk-upload-failed-toast = Augšynluode naizadeve, lyudzu, raugi vēļreiz.
 upload-more-btn-text = Augšynluodēt vaira teikumu?
