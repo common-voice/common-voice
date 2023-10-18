@@ -80,6 +80,7 @@ ga-IE = Irlandês
 gl = Galego
 gn = Guarani
 gom = Konkani de Goa
+gu-IN = Guzerate
 ha = Hauçá
 he = Hebraico
 hi = Hindi
@@ -247,6 +248,7 @@ share-text = Ajude a ensinar às máquinas como uma pessoal fala, doando sua voz
 link-copied = Link copiado
 back-top = Voltar para o início
 logout = Sair
+donate = Faça uma doação
 
 ## Home Page
 
@@ -1731,3 +1733,10 @@ what-needs-to-be-in-file = O que precisa ter no meu arquivo?
 upload-progress-text = Envio em andamento...
 bulk-upload-success-toast = Grupo de frases enviado
 bulk-upload-failed-toast = Falha no envio, tente novamente.
+bulk-submission-success-header = Obrigado por contribuir com seu envio de grupo!
+bulk-submission-success-subheader = Você ajuda o Common Voice a atingir nossas metas diárias de frases!
+upload-more-btn-text = Enviar mais frases?
+file-invalid-type = Arquivo inválido
+file-too-large = Arquivo grande demais
+file-too-small = Arquivo pequeno demais
+too-many-files = Arquivos demais
