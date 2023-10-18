@@ -1735,6 +1735,8 @@ sc-redirect-page-subtitle-2 = Demanda nos questiones sur <matrixLink>Matrix</mat
 # BULK SUBMISSION 
 sc-bulk-upload-instruction-first-part = Cargar
 sc-bulk-upload-instruction-second-part = phrases de dominio public
+drag-your-file-here = Trahe ci tu file pro cargar lo
 or-conjuction = o
 select-file = Eliger file
 select-file-mobile = Selige le file a cargar
+upload-progress-text = Cargamento in curso...
