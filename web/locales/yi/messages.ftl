@@ -539,12 +539,14 @@ download-dataset-header = לאדנט אראפ די דאטא סעט
 # File size in gigabytes
 size = מאס
 validated-hr-total = סך הכול באשעטיגטע שטונדן
+cv-license = לייסענס
 number-of-voices = צאל שטימעס
 splits = צוטיילונגען
 email-to-download = לייגט אריין אייער אימעיל צו אראפ לאדענען
 size-gigabyte = ג"ב
 size-megabyte = מ"ב
 confirm-no-identify = <b>דו שטימסט צו</b> נישט צו פראבירן צו געוואר ווערן די אידענטיטעט פון די רעדנערס אין די קאמאן וואויס דאטא סעט
+confirm-join-mailing-list = איך וויל זיך אנשליסן אין די קאמאן וואויס אימעיל ליסטע
 download-language = לאדנט אראפ { $language }
 validated-hours = באשעטיגטע שטונדן
 recorded-hours = רעקארדירטע שטונדן
@@ -567,6 +569,7 @@ download-helpus = העלפט אונז בויען א געמיינדע ארום ש
 download-form-email =
     .label = לייגט אריין אייער אימעיל
     .value = יישר כח, מיר וועלן זיין אין פארבינדונג
+download-back = גייט צוריק צו די קאמאן וואויס דאטא סעטס
 download-no = ניין, א דאנק
 
 ## Contact Modal
@@ -583,6 +586,7 @@ contact-required = פארלאנגט
 request-language-title = שפרייך פארלאנג
 request-language-form-language =
     .label = שפרייך
+request-language-success-title = די שפרייך פארלאנג איז געווארן אריינגעגיבן מיט ערפאלג, א דאנק.
 select-language = וועלט א שפרייך...
 other-language = אנדערע שפרייך
 
@@ -597,6 +601,7 @@ request-language-form-info-explanation =
     לייגט אריין דאס מערסטע אינפארמאציע וואס איר קענט איבער דעם שפרייך. דאס
     קען ארייננעמען:
 request-language-form-info-explanation-list-1 = נעמען פון אייער שפרייך
+request-language-form-info-explanation-list-3 = לינקס צו וועבזייטלעך וואס קענען אונז העלפן פארשטיין דעם שפרייך
 request-language-google-recaptcha-required = reCAPTCHA איז פארלאנגט אויב איר ווילט ווייטער גיין
 request-language-google-recaptcha-error = עפעס איז געגאנגען שלעכט מיט די reCAPTCHA. ביטע פראבירט נאכאמאל.
 
@@ -1001,7 +1006,6 @@ sentence =
     .label = זאץ
 citation =
     .label = ציטירונג
-what-can-i-add = וועלכע סארט זאצן קען איך צולייגן?
 new-sentence-rule-2 = ווייניגער ווי 15 ווערטער
 how-to-cite = וויאזוי ציטיר איך
 guidelines = פארשריפטן
