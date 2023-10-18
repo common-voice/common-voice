@@ -604,6 +604,15 @@ request-language-form-info-explanation-list-1 = נעמען פון אייער ש�
 request-language-form-info-explanation-list-3 = לינקס צו וועבזייטלעך וואס קענען אונז העלפן פארשטיין דעם שפרייך
 request-language-google-recaptcha-required = reCAPTCHA איז פארלאנגט אויב איר ווילט ווייטער גיין
 request-language-google-recaptcha-error = עפעס איז געגאנגען שלעכט מיט די reCAPTCHA. ביטע פראבירט נאכאמאל.
+# Success page
+request-language-success-heading = א דאנק! איר האט געשיקט אן אנפראגע פאר א נייע שפרייך
+request-language-success-list-1 =
+    איר דארפט צו באקומען אן אימעיל ערקלערענדיג אין קורצן
+    די שריט וויאזוי צוצולייגן אייער שפרייך צו קאמאן וואויס
+request-language-success-list-3 =
+    אויב איר הערט נישט פון אונז ביז אפאר טעג,
+    פארבינד אייך צו <emailLink>{ $email }</emailLink>
+    און מיר וועלן צוריקומען צו אייך!
 
 ## Languages Overview
 
