@@ -749,8 +749,8 @@ cv-license = Ñemoneĩkuatia
 audio-format = Mba’epu Ysaja
 number-of-voices = Mboy Ahy’ópa
 splits = Ñemboja’o
-email-to-download = Ehai ne Ñe’ẽveve emboguejy hag̃ua
-why-email = <b>Mba’érepa roikotevẽ ne ñe’ẽvevére?</b> Oiméne romog̃uahẽ ndéve marandu iñambuéva jave kuaapy’aty, péicha roikuaaukakuaa.
+email-to-download = Ehai Ñanduti veve emboguejy hag̃ua
+why-email = <b>Mba’érepa roikotevẽ ñanduti vevére?</b> Oiméne romog̃uahẽ ndéve marandu iñambuéva jave kuaapy’aty, péicha roikuaaukakuaa.
 confirm-size = Reiméma remboguejy hag̃uáicha <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -795,9 +795,9 @@ clipboard-not-supported = Kuatiajokoha ndojokupytýiva
 ## Download Modal
 
 download-title = Ne ñemboguejy oñepyrũma.
-download-helpus = Orepytyvõmína okakuaa hag̃ua ñande aty omba’apóva tembiporu pyahu rehe, ehejami ne ñe’ẽveve ikatu hag̃uáicha akóinte reikuaa ipyahúva.
+download-helpus = Orepytyvõ okakuaa hag̃ua ñande aty omba’apóva tembiporupyahu rehe, ehejami ñanduti veve ikatu hag̃ua reikuaa ipyahúva.
 download-form-email =
-    .label = Ehai ne ñe’ẽveve
+    .label = Ehai ne ñanduti veve
     .value = Aguyjevete, ñañomongetátajepi.
 download-back = Ejevy Common Voice Kuaapyryrukuérape
 download-no = Nahániri, aguyje
@@ -1065,11 +1065,11 @@ how-many-per-day = ¡Oĩ porãiterei! Mboy ñe’ẽjoajúpa ára ñavõme?
 how-many-a-week = ¡Oĩ porãiterei! Mboy ñe’ẽjoajúpa arapokõindy ñavõme?
 which-goal-type = Reñembohyapusépa, remoneĩsépa ñe’ẽ térãpa mokõive?
 receiving-emails-info =
-    Og̃uahẽta ndéve marandu ñe’ẽveve rupive, nemomandu’átava nde jehupytyserã, 
+    Og̃uahẽta marandu ñanduti veve rupi, nemomandu’áta nde jehupytyserã, 
     avei mboýpa rejapóma rehóvo ha Common Voice rehegua.
 not-receiving-emails-info =
-    <bold>Nog̃uahẽmo’ãi</bold> ndéve marandu ñe’ẽveve rupive, nemomandu’átava nde jehupytyserã, 
-    térã mboýpa rejapóma rehóvo ha Common Voice rehegua.
+    <bold>Nog̃uahẽmo’ãi</bold> marandu ñanduti veve rupi, nemomandu’átava nde jehupytyserã,
+    térã mboýpa rejapóma ha Common Voice rehegua.
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } ñe’ẽryapu ñongatupyre
@@ -1141,7 +1141,7 @@ download-request-link-single = Avei ikatu embokuatia ha emboja umi URL mboguejyh
 
 welcome-staff = ¡Tereg̃uahẽporãite { $company } atýpe!
 help-contribute = Ndéniko reipytyvõkuaa rojapo hag̃ua ko tembiapo porãite, ha’éva Common Voice ñe’ẽryapu ryru oiporukuaáva opavave, ejapomína nde rogueteerã.
-login-company = Eike / Eñemboheraguapy ñe’ẽveve { $company } pegua reheve
+login-company = Eike / Eñemboheraguapy ñanduti veve { $company } pegua reheve
 profile-not-required = Natekotevẽi rejapo nde rogueteerã reporopytyvõ hag̃ua katu iporãvéta rejapóramo, ko guýpe romyesakãmive mba’érepa.
 read-more-about = Eikuaave kóva rehe ore Mba’e rehegua roguépe
 
