@@ -347,6 +347,7 @@ help-variants-explanation = וועריאנטן זענען א ספעציפישע 
 ## Profile - Email
 
 browse-file-title = לאדנט ארויף א בילד פייל
+browse-file = שלעפ אריין און לאזט אראפ אדער <browseWrap>בלעטערט</browseWrap>
 connect-gravatar = פארבינד מיט Gravatar
 gravatar_not_found = מיר האבן נישט געפינען קיין gravatar פאר אייער אימעיל אדרעס
 file_too_large = די אויסגעוועלטע פייל איז צו גרויס
@@ -601,6 +602,7 @@ request-language-form-info-explanation =
     לייגט אריין דאס מערסטע אינפארמאציע וואס איר קענט איבער דעם שפרייך. דאס
     קען ארייננעמען:
 request-language-form-info-explanation-list-1 = נעמען פון אייער שפרייך
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO קאוד</isoCodeLink> אויב באוואוסט
 request-language-form-info-explanation-list-3 = לינקס צו וועבזייטלעך וואס קענען אונז העלפן פארשטיין דעם שפרייך
 request-language-google-recaptcha-required = reCAPTCHA איז פארלאנגט אויב איר ווילט ווייטער גיין
 request-language-google-recaptcha-error = עפעס איז געגאנגען שלעכט מיט די reCAPTCHA. ביטע פראבירט נאכאמאל.
