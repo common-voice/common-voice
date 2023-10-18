@@ -1,16 +1,16 @@
 ## General
 
-yes-receive-emails = Héẽ, erahaukami chéve marandu. Aikuaase ko’ẽreíre Common Voice Aponde’a rehegua.
+yes-receive-emails = Héẽ, emboumi chéve marandu. Aikuaase ko’ẽreíre Common Voice Aponde’a rehegua.
 stayintouch = Ore Mozilla-ygua romongakuaa tapicha aty omba’apóva tembiporu ñe’ẽ jeporure. Akóinte roikuaase oĩvo mba’e térã kuaapyrã pyahu ha rohendu hag̃ua mba’éichapa reiporu ko kuaapyrã.
 privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha kuaapyrã nde rehegua. Emoñe’ẽve kóva rehe <privacyLink>ko’ápe</privacyLink>.
 return-to-cv = Ejevy Common Voice-pe
 email-input =
-    .label = Ñe’ẽveve
+    .label = Ñanduti veve
 submit-form-action = Emondo
 loading = Henyhẽhína…
-email-opt-in-info = Aipota ojerahaukami chéve ñe’ẽvevépe marandu hupytyrã rehegua térã mba’éichapa oguata tembiapo ha Common Voice.
-email-opt-in-info-title = Ejuaju Common Voice ñe’ẽveve rysýire
-email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñe’ẽvevépe marandu ojehupytyséva, avei mba’eichaitépa oguata tembiapo ha Common Voice rehegua.
+email-opt-in-info = Aipota oñembou chéve ñanduti vevépe marandu hupytyrã rehegua térã mba’éichapa oguata tembiapo ha Common Voice.
+email-opt-in-info-title = Ejuaju Common Voice ñanduti veve rysýire
+email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñanduti vevépe marandu ojehupytyséva, avei mba’eichaitépa oguata tembiapo ha Common Voice rehegua.
 email-opt-in-privacy-v2 = Emongurusúrõ oñemog̃uahẽ hag̃ua ndéve marandu he’ise remoneĩha mba’éichapa Mozilla oiporu tapichakuéra kuaapyrã oñemyesãkáva <privacyLink>ko’ápe</privacyLink>.
 indicates-required = (*) Remyenyhẽva’erã katuete tenda’i hairenda.
 not-available-abbreviation = N/A
@@ -326,7 +326,7 @@ email-not-public = Noromoherakuãmo’ãi ne ñanduti veve.
 recordings-and-locale-public = Mboýpa eñe’ẽñongatu ha umi ñe’ẽ eipytyvõhague ohechakuaáta opavavete.
 username-optin-public = Erekuaa avei reipotápa ojekuaa poruhára réra térã ñemíme.
 demographic-deidentified-clarity-2 = Kuaapyrã avano’õ rehegua remoĩkuaáva avei (techapyrãrõ aryve, meña, ñe’ẽte ha ñembohyapu reko) ndojekuaaukamo’ãi araka’eve nde roguetépe, ha noñembojoajumo’ãi avei nde poruhára rérare kuaapy’atýpe. Mba’erendurã oñembojoajúta kuaapy avano’õ rehegua rehe ikatu hag̃uáicha oñehesa’ỹijoporãve mba’ekuaapy - techapyrã oĩrõ tembiporu apohára omoheñoiséva tembiporu tetã térã tetãpehẽme g̃uarã.
-username-email-not-demographic = Mavave ndoikuaamo’ãi poruhára réra ni ñe’ẽveve oiporukuévo ñe’ẽryapu.
+username-email-not-demographic = Mavave ndoikuaamo’ãi poruhára réra ni ñanduti veve oiporukuévo ñe’ẽryapu.
 
 ## Speak & Listen Shortcuts
 
@@ -425,7 +425,7 @@ profile-close = Mboty
 profile-explanation = Eikuaa akóinte mba’éichapa oguata ohóvo tembiapo ehechávo nde rogueteépe ha eipytyvõ avei hekopete hag̃ua ñe’ẽryapu ojeporúva.
 thanks-for-account = Aguyjevete erehaguére nde cuénta añeteha, ko’ag̃a ñambosako’ive nde roguetee.
 why-demographic = Mba’érepa jajapova’erã kóva?
-why-demographic-explanation-2 = Mba’ekuaarã poruhára rehegua: aryve, meña ha mba’éichapa oñembohyapu oikoha rupi oipytyvõ mbarete mohendahápe oikũmby hag̃ua ohendúva. Nde poruhára réra ha ñe’ẽveve noñembojoajumo’ãi araka’eve mba’erendurã remondóva rehe ha ndevoi erekuaa reipotápa ojekuaa nde poruhára réra térãpa nahániri.
+why-demographic-explanation-2 = Mba’ekuaarã poruhára rehegua: aryve, meña ha mba’éichapa oñembohyapu oikoha rupi oipytyvõ mbarete mohendahápe oikũmby hag̃ua ohendúva. Poruhára réra ha ñanduti veve ndojoajumo’ãi araka’eve mba’erendurã remondóva rehe ha ndevoi erekuaa reipotápa ojekuaa nde poruhára réra térãpa nahániri.
 accept-privacy = Oĩ porã, amoneĩ ojeporu kuaapyrã chemba’éva oñemyesakã haguéicha chéve Mozilla <privacyLink>Kuaapy Jeporu</privacyLink> kuatiápe.
 accept-privacy-title = Temiñemi Porureko
 accept-privacy-and-terms = Amoneĩ umi <termsLink>Ñe’ẽkuaa</termsLink> ha pe Common Voice <privacyLink>Ñemurã ñemigua</privacyLink>
@@ -433,7 +433,7 @@ login-identity = Tembiapo ñepyrũ kuaaukaha
 login = Tembiapo Ñepyrũ
 login-signup = Emoñeprũ tembiapo / Eñemboheraguapy
 edit = Mbosako’i
-email-subscriptions = Ñe’ẽveve Ñemboheraguapy
+email-subscriptions = Ñanduti veve Ñemboheraguapy
 download-profile = Kuaapyrã chemba’éva ñemboguejy
 contribution-experience = Tembiasakue Pytyvõháraramo
 skip-submission-feedback = Ani pemondo chéve Marandu’i
@@ -451,7 +451,7 @@ help-variants-explanation = Umi ñe’ẽambue ha’énte avei ñe’ẽ, techap
 browse-file-title = Ehupi ta’ãnga
 browse-file = Etyryry ha Epoi ỹrõ <browseWrap>Eikundaha</browseWrap>
 connect-gravatar = Embojoaju Gravatar reheve
-gravatar_not_found = Ndojejuhúi Gravatar ne ñe’ẽveve pegua
+gravatar_not_found = Ndojejuhúi Gravatar ne ñanduti veve pegua
 file_too_large = Tuichaitereíma marandurenda eiporavova’ekue
 avatar-uploaded = Avatar jehupi
 max-file-size = { $kb } kb max
@@ -460,10 +460,10 @@ remove-avatar = Eipe’a Avatar
 ## Profile - Email
 
 manage-subscriptions = Eñangareko Ñemboheraguapykuéra rehe
-manage-email-subscriptions = Eñangareko Ñe’ẽveve Ñemboheraguapykuéra rehe
-email-already-used = Ko Ñe’ẽveve ojeporúma ambue cuénta reheve.
+manage-email-subscriptions = Eñangareko Ñanduti veve Ñemboheraguapykuéra rehe
+email-already-used = Ko Ñanduti veve ojeporúma ambue mba’ete reheve.
 add-language = Embojuaju Ñe’ẽ
-change-email-setings = Emoambue ne ñe’ẽveve eikévo Ñembosako’ípe oĩva Jeike Rerateeguýpe
+change-email-setings = Emoambue ne ñanduti veve eikévo Ñembosako’ípe oĩva Jeike Rerateeguýpe
 
 ## FAQ
 
@@ -571,7 +571,7 @@ about-clip-graveyard-text = Clip Graveyard, ñe’ẽryapu ñongatupyre tyvytýn
 about-get-involved = Poropytyvõ
 about-get-involved-text-2 =
     Reipytyvõsépa ikatu hag̃uáicha Common Voice iporãve?
-    Iporãiténe upéva! Eñe’ẽ orendive ne ñe’ẽveve rupive térã <discourseLink>Ñomongetaguasu</discourseLink>
+    Iporãiténe upéva! Eñe’ẽ orendive ne ñanduti veve rupive térã <discourseLink>Ñomongetaguasu</discourseLink>
     renda rupive, orekuaaukamína avei oĩramo apañuãi ñanduti rendápe ko’ápe:<githubLink>GitHub</githubLink> térã eikemi <matrixLink>Atyrusu</matrixLink>ñemongeta rendápe.
 about-stay-in-touch = ¿Mba’éicha aiméta ñe’ẽme?
 about-stay-in-touch-button = Eñemboheraguapy
@@ -658,7 +658,7 @@ about-playbook-how-validate-content-4 = Mokõi tapicha omboykérõ jekutu, ojehe
 ## How to access dataset
 
 about-playbook-how-access-dataset = Mba’éichapa aike ha aiporúta mba’ekuaarã aty
-about-playbook-how-access-dataset-content-1 = Reikekuaa <datasetsPage>mba’ekuaarã aty kuatirogue</datasetsPage>-pe, eiporavo peteĩchagua ha ñe’ẽ reipotáva ha emboguejy. Umi vore oreko <metadataLink>metadato ojoajúva</metadataLink>, ha’eháicha marandu demográfico ha marandu jegueroviapyrã. Tekotevẽta reme’ẽ peteĩ ñe’ẽveve remboguejy hag̃ua umi maranduryru.
+about-playbook-how-access-dataset-content-1 = Reikekuaa <datasetsPage>mba’ekuaarã aty kuatiarogue</datasetsPage>-pe, eiporavo peteĩchagua ha ñe’ẽ reipotáva ha emboguejy. Umi vore oreko <metadataLink>metadato ojoajúva</metadataLink>, ha’eháicha marandu demográfico ha marandu jegueroviapyrã. Tekotevẽta reme’ẽ ne ñanduti veve remboguejy hag̃ua maranduryru.
 about-playbook-how-access-dataset-content-2 = Ehekaramohína tembiporu emoheñói hag̃ua peteĩchagua ASR, eikekuaa ambue tapicha ndive tekohápe <discourseLink>Discourse-pe</discourseLink>.
 
 ## How are decisions made
