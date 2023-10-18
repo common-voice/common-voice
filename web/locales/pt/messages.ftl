@@ -1736,6 +1736,7 @@ select-file-mobile = Selecione um arquivo para enviar
 accepted-files = Tipos de arquivo aceitos: somente .tsv
 maximum-file-size = Tamanho máximo de arquivo: 25 MB
 what-needs-to-be-in-file = O que precisa ter no meu arquivo?
+what-needs-to-be-in-file-explanation = Verifique nosso <templateFileLink>arquivo de modelo</templateFileLink>. Suas frases devem ser livres de direitos autorais (licença CC0 ou trabalho original autorizado pelo remetente) e ser claras, gramaticalmente corretas e fáceis de ler. As frases enviadas devem levar cerca de 10 a 15 segundos para ser lidas e devem evitar incluir números, nomes próprios e caracteres especiais.
 upload-progress-text = Envio em andamento...
 sc-bulk-submit-confirm = Confirmo que estas frases são de <wikipediaLink>domínio público</wikipediaLink> e tenho permissão para enviar.
 bulk-upload-success-toast = Grupo de frases enviado
