@@ -9,3 +9,4 @@ get-involved-email =
     .label = Antanikik Chaski
 get-involved-opt-in = Ari, chaskillita kallamuylla. Ñukaka munashami yachankapa imashina kay shimi ñawpaman katikukta Common Voice pankapi.
 get-involved-submit = Kachay
+get-involved-stayintouch = Morzillapika shuk ayllullaktata shinanakunchik shimikunata ñawpaman apankapa. Mushuk ruraykunata kikinman willachinkapa munanchik, mushuk riksichikunatapash shinallata yachankapa munanchik ima shina kay yachaykunawan llankakunkita.
