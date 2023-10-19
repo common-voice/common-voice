@@ -1830,3 +1830,18 @@ select-file = Bestân selektearje
 select-file-mobile = Selektearje op te laden bestân
 accepted-files = Akseptearre bestânstypen: allinnich .tsv
 maximum-file-size = Maksimum bestânsgrutte: 25 MB
+what-needs-to-be-in-file = Wat moat der yn myn bestân sitte?
+what-needs-to-be-in-file-explanation = Besjoch ús <templateFileLink>sjabloanbestân</templateFileLink>. Jo sinnen moatte frij fan auteursrjochten wêze (CC0 of orizjineel wurk mei tastimming fan de yntsjinner) en dúdlik, grammatikaal korrekt en maklik te lêzen wêze. Yntsjinne sinnen soene in lêslingte fan ûngefear 10 oant 15 sekonden hawwe moatte en meie gjin sifers, eigennammen en spesjale tekens befetsje.
+upload-progress-text = Oplaad dwaande…
+sc-bulk-submit-confirm =
+    Ik befêstigje dat dizze sinnen <wikipediaLink>publyk domein</wikipediaLink> binne en
+    ik tastimming haw om se op te laden.
+bulk-upload-success-toast = Bulkoplaad sinnen foltôge
+bulk-upload-failed-toast = Opladen mislearre, probearje it opnij.
+bulk-submission-success-header = Tank foar it yntsjinjen fan jo bulkyntsjoering!
+bulk-submission-success-subheader = Jo helpe Common Voice ús deistige sinsdoelen te berikken!
+upload-more-btn-text = Mear sinnen oplade?
+file-invalid-type = Unjildich bestân
+file-too-large = Bestân is te grut
+file-too-small = Bestân is te lyts
+too-many-files = Tefolle bestannen
