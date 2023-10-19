@@ -1780,7 +1780,10 @@ sentence-input-value = Fier hjir jo publike domeinsin yn
 citation-input-value = Boarne fan jo sin
 citation =
     .label = Sitaat
-what-can-i-add = Hokker soarten sinnen kin ik tafoegje?
+sc-write-submit-confirm =
+    Ik befêstigje dat dizze sin <wikipediaLink>publyk domein</wikipediaLink> is en
+    ik tastimming haw om dizze op te laden.
+sc-review-write-title = Hokker sinnen kin ik tafoegje?
 new-sentence-rule-1 = <noCopyright>Gjin auteursrjocht</noCopyright>-beheiningen (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Minder as 15 wurden
 new-sentence-rule-3 = Brûk de krekte grammatika
@@ -1797,6 +1800,10 @@ contact-us = Kontakt opnimme
 add-sentence-success = 1 sin sammele
 add-sentence-error = Flater by it tafoegjen fan sin
 required-field = Folje dit fjild yn.
+single-sentence-submission = Yntsjinjen fan ien sin
+bulk-sentence-submission = Bulkyntsjinning fan sinnen
+single-sentence = Losse sin
+bulk-sentences = Bulksinnen
 # REVIEW PAGE
 sc-review-instruction-first-part = Kontrolearje
 sc-review-instruction-second-part = is dit in taalkundich korrekte sin?
@@ -1811,3 +1818,15 @@ review-error-rate-limit-exceeded = Jo geane te hurd. Nim efkes de tiid om de sin
 sc-redirect-page-title = Wy fiere inkelde grutte feroaringen troch
 sc-redirect-page-subtitle-1 = De Sentence Collector ferhuzet nei de kearn fan it Common Voice-platfoarm. Jo kinne no in sin <writeURL>skriuwe</writeURL> of ynstjoeringen fan losse sinnen <reviewURL>beoardiele</reviewURL> op Common Voice.
 sc-redirect-page-subtitle-2 = Stel ús fragen op <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> of fia in <emailLink>e-mailberjocht</emailLink>.
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = Oplade
+sc-bulk-upload-instruction-second-part = sinnen út it publike domein
+drag-your-file-here = Sleep jo bestân hjir hinne om op te laden
+drop-file-here = Sleep bestân hjir hinne om op te laden
+try-upload-again = Probearje it opnij troch jo bestân hjir hinne te slepen
+try-upload-again-md = Probearje opnij op te laden
+or-conjuction = of
+select-file = Bestân selektearje
+select-file-mobile = Selektearje op te laden bestân
+accepted-files = Akseptearre bestânstypen: allinnich .tsv
+maximum-file-size = Maksimum bestânsgrutte: 25 MB
