@@ -34,6 +34,7 @@ af = אפריקאנס
 am = אמהאריש
 an = אראגאניזיש
 ar = אראביש
+arn = מאפודונגאן
 as = אסעמיזיש
 ast = עסטרייכיש
 az = אזערבעידזשאניש
@@ -491,6 +492,7 @@ about-localization-title = וועב זייטל לאקאליזירונג
 about-localization-subtitle = די וועבזייטל טעקסט ווערט איבערגעטייטשט צו דעם שפרייך.
 about-sentence-collection-title = זאצן זאמלונג
 about-sentence-collection-subtitle = זאצן ווערן געזאמלט פאר מענטשן צו פארליינען הויעך.
+about-new-lang-title = ארויסשטעלן א נייע שפרייך
 about-new-lang-subtitle = מיר געבן ארויס דער קאמאן וואויס זייטל אין דעם שפרייך.
 about-voice-contrib-title = שטימע ביישטייערונג
 about-voice-contrib-subtitle = מענטשן קומען און ביישטייערן זייערע שטימעס.
@@ -707,6 +709,8 @@ request-language-success-list-3 =
 ## Languages Overview
 
 language-section-in-progress = מען ארבעט דערויף
+language-section-launched = ארויסגעשטעלט
+language-section-launched-description = פאר די דאזיגע ארויסגעשטעלטע שפרייכן איז די וועבזייטל שוין געווארן <localizationGlossaryLink>לאקאליזירט</localizationGlossaryLink>, און האט שוין גענוג <sentenceCollectionGlossaryLink>זאצן געזאמלט</sentenceCollectionGlossaryLink> צו ערלויבן אנגייענדיגע <speakLink>רעדן</speakLink> און <listenLink>הערן</listenLink> ביישטייערונגען.
 languages-show-more = זעט מער
 languages-show-less = זעט וויינעגער
 language-meter-in-progress = פארשריט
@@ -915,6 +919,7 @@ demo-welcome-subheader = איטערעסירט צו לערנען מער און ב
 ## Demo Datasets
 
 demo-language-select-card-header = קאמאן וואויס איז דער וועלטס גרעסטע עפענטליכע פארהאן, פארשידענע-שפרייכן שטימע דאטא סעט.
+demo-language-select-card-body = אדאנק די ביישטייערונגען פון איבער 259 טויזענט מענטשן אין איבער 50 שפרייכן, ווערט דעם דאטא גענוצט צו לערנען שטימע-אקטיוויזירטע פראגראמען צו בעסער ראגירן צו מענטשליכע שטימעס.
 card-button-next = קומענדיגע
 card-button-back = צוריק
 demo-language-select-label = בלעטערן שפרייכן
