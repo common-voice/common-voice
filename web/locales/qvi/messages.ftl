@@ -146,6 +146,13 @@ nhe = Eastern Huasteca Nahuatl
 nhi = Western Sierra Puebla Nahuatl
 nia = Nias
 nl = Dutch
+nn-NO = Norwegian Nynorsk
+nr = IsiNdebele (South)
+nso = Northern Sotho
+ny = Chinyanja
+nyn = Runyankole
+oc = Occitan
+om = Afaan Oromo
 
 # [/]
 
