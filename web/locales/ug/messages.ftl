@@ -1263,6 +1263,7 @@ sc-home-review-text = كۆرسەتمىلەرگە ئاساسەن جۈملىلەر
 
 ## GENERAL
 
+sc-languages-fetch-error = ئىشلەتكىلى بولىدىغان تىللارغا ئېرىشەلمىدۇق. ھازىرچە تۆھپە قوشۇش مۇمكىن ئەمەس. كېيىن قايتا سىناڭ.
 
 ## HOW-TO
 
@@ -1492,6 +1493,7 @@ sc-review-select-language = جۈملىلەرنى تەكشۈرىدىغان تىل
 sc-review-no-sentences = تەكشۈرىدىغان ھېچقانداق جۈملە يوق. <addLink>ھازىرلا تېخىمۇ كۆپ جۈملە قوشاي!</addLink>
 sc-review-form-prompt =
     .message = تەكشۈرۈلگەن جۈملە يوللانمىدى، شۇنداقمۇ؟
+sc-review-form-usage = ئوڭغا سۈرۈلسە جۈملە تەستىقلىنىدۇ. سولغا سۈرۈلسە جۈملە رەت قىلىنىدۇ. <strong>تەكشۈرۈش نەتىجىڭىزنى يوللاشنى ئۇنتۇپ قالماڭ!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = مەنبە: { $sentenceSource }
@@ -1504,6 +1506,7 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = سىز ھەرپتاختا قىسقا يولىنى ئىشلىتەلەيسىز: { sc-review-form-button-approve-shortcut } كۇنۇپكىسى تەستىقلاش، { sc-review-form-button-reject-shortcut } كۇنۇپكىسى رەت قىلىش، { sc-review-form-button-skip-shortcut } كۇنۇپكىسى ئاتلاش
 sc-review-form-button-submit =
     .submitText = تەكشۈرۈش تامام
 # Variables:
