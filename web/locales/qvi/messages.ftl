@@ -9,6 +9,8 @@ email-input =
 submit-form-action = Kachay
 loading = Paskakun…
 email-opt-in-info = Ñuka munayman ruray paktachikunata chaskinkapak, ñuka chayra rurashkakunatapash shinallata mushuk willachikunatapash.
+email-opt-in-info-title = Ñukanchik antanikik chaskiman tantanakuy.
+email-opt-in-info-sub-with-challenge = Ruray paktachik chaskillita kachamuway, ñuka chayra rurashkakunatapah shinallata Common Voice mushuk ruraskakunatapash willachi.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
