@@ -1,5 +1,12 @@
 ## General
 
+yes-receive-emails = Ari, chaskillita kachamuylla. Common Voice llankaykunamanta yachankapa munanimi.
+stayintouch = Morzillapika shuk ayllullaktata shinanakunchik shimikunata ñawpaman apankapa. Mushuk ruraykunata kikinman willachinkapa munanchik, mushuk riksichikunatapash shinallata yachankapa munanchik ima shina kay yachaykunawan llankakunkita.
+privacy-info = Ñukanchik kikimpa riksichita allitami allchipashun. Ashtawan yachankapa munashpaka, kaypi llapi<privacyLink> Pipakakta willachi</privacyLink>.
+return-to-cv = Common Voiceman tikray
+email-input =
+    .label = Antanikik Chaski
+submit-form-action = Kachay
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
