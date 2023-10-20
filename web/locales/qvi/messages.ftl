@@ -11,6 +11,8 @@ loading = Paskakun…
 email-opt-in-info = Ñuka munayman ruray paktachikunata chaskinkapak, ñuka chayra rurashkakunatapash shinallata mushuk willachikunatapash.
 email-opt-in-info-title = Ñukanchik antanikik chaskiman tantanakuy.
 email-opt-in-info-sub-with-challenge = Ruray paktachik chaskillita kachamuway, ñuka chayra rurashkakunatapah shinallata Common Voice mushuk ruraskakunatapash willachi.
+email-opt-in-privacy-v2 = Ñukanchik chaskillikunata chaskishpaka Mozilla kikinpa yachaykunata allilla apanchunmi nikunki imahinami nikun kay <privacyLink> shinallata Privacy Policy nishkapi</privacyLink>.
+indicates-required = Kay iñuwan (*) pushtukunaka maymanta mutsurishkami.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
