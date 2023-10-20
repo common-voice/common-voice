@@ -16,6 +16,9 @@ indicates-required = Kay iñuwan (*) pushtukunaka maymanta mutsurishkami.
 not-available-abbreviation = Na mutsurishka
 banner-error-slow-1 = Kishpichiway, Common Voice allillami llankakun.Kikinpa munayta yupaychani.
 banner-error-slow-2 = Ashtaka mañaykunatami charinchik chaymantami llakita allichinkapa mashkanakunchi.
+banner-error-slow-link = Imakay pushtu
+error-something-went-wrong = Kishpichiway, imachari na alli shukshirka.
+error-clip-upload = Kay uyachik wisachikka mana allichu, kutin shinasharachu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
