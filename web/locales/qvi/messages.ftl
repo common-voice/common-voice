@@ -19,6 +19,7 @@ banner-error-slow-2 = Ashtaka mañaykunatami charinchik chaymantami llakita alli
 banner-error-slow-link = Imakay pushtu
 error-something-went-wrong = Kishpichiway, imachari na alli shukshirka.
 error-clip-upload = Kay uyachik wisachikka mana allichu, kutin shinasharachu
+error-clip-upload-server = kay uyachikka servidor nishkapi man allirachu. Kutin pankata paskay na chayta shinashpaka kutin ruray kipalla.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -26,6 +27,23 @@ error-clip-upload = Kay uyachik wisachikka mana allichu, kutin shinasharachu
 
 ## Languages
 
+ab = abkhaz
+ace = Acehnese
+ady = Adyghe
+af = Afrikaans
+am = Amharic
+an = Aragonese
+ar = Arabic
+arn = Mapudungun
+as = Assamese
+ast = Asturian
+az = Azerbaijani
+ba = Bashkir
+bas = Basaa
+be = Belarusian
+bg = Bulgarian
+bm = Bambara
+bn = Bengali
 
 # [/]
 
