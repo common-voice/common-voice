@@ -8,6 +8,7 @@ email-input =
     .label = Antanikik Chaski
 submit-form-action = Kachay
 loading = Paskakun…
+email-opt-in-info = Ñuka munayman ruray paktachikunata chaskinkapak, ñuka chayra rurashkakunatapash shinallata mushuk willachikunatapash.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
