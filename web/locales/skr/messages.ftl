@@ -1693,7 +1693,6 @@ sentence-input-value = آپݨاں عوامی ڈومین جملہ اتھ درج �
 citation-input-value = تہاݙے جملے دا ماخذ
 citation =
     .label = حوالہ ݙیوݨ
-what-can-i-add = میں کہڑی قسم دے جملے شامل کر سڳداں؟
 new-sentence-rule-1 = <noCopyright>کوئی حق نقل </noCopyright> پابندیاں کائنی (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = 15 کنوں تھوڑے لفظ
 new-sentence-rule-3 = درست گرائمر ورتو
@@ -1709,6 +1708,8 @@ contact-us = ساݙے نال رابطہ کرو
 add-sentence-success = 1 جملہ کٹھا تھیا
 add-sentence-error = جملے شامل کرݨ وچ خرابی
 required-field = براہ مہربانی ایں خانے کوں پُر کرو۔
+single-sentence = کلھا جملہ
+bulk-sentences = ڈھڳ جملے
 # REVIEW PAGE
 sc-review-instruction-first-part = پڑٹال کرو
 sc-review-instruction-second-part = بھلا ایہ لسانی طور تے درست جملہ ہے؟
