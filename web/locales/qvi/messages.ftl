@@ -27,13 +27,13 @@ error-clip-upload-server = kay uyachikka servidor nishkapi man allirachu. Kutin 
 
 ## Languages
 
-ab = abkhaz
-ace = Acehnese
-ady = Adyghe
-af = Afrikaans
-am = Amharic
-an = Aragonese
-ar = Arabic
+ab = Abjasio
+ace = acehnés
+ady = adygheo
+af = Afrikáans
+am = Amárico
+an = Aragonés
+ar = Árabe
 arn = Mapudungun
 as = Assamese
 ast = Asturian
