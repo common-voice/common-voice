@@ -525,6 +525,7 @@ about-sentence-collection-subtitle = Det vert samla inn setningar slik at folk k
 about-new-lang-title = Lansering av nytt språk
 about-new-lang-subtitle = Vi lanserer Common Voice-sida på dette språket.
 about-voice-contrib-title = Stemmebidrag
+about-voice-contrib-subtitle = Folk kjem og bidreg med stemmene sine.
 about-voice-validation-title = Stemmevalidering
 about-voice-validation-subtitle = Andre personar validerer desse stemmeklippa.
 about-dataset-release-title = Utgiving av datasett
