@@ -1618,3 +1618,27 @@ add-sentence-error = Zmólka pśi pśidawanju sady
 required-field = Pšosym wupołniśo toś to pólo.
 single-sentence = Jadna sada
 bulk-sentences = Wjele sadow
+# REVIEW PAGE
+sc-review-instruction-first-part = Pśeglědaś
+sc-review-instruction-second-part = Jo to rěcnje korektna sada?
+sc-review-rules-title = Wótpowědujo sada směrnicam?
+report-sc-different-language = Druga rěc
+report-sc-different-language-detail = Jo w drugej rěcy napisana ako pśeglědujom.
+sc-redirect-page-subtitle-2 = Stajśo nam pšašanja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mailu</emailLink>.
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = Nagraś
+or-conjuction = abo
+select-file = Dataju wubraś
+select-file-mobile = Wubjeŕśo dataju za nagraśe
+accepted-files = Akceptěrowane datajowe typy: jano .tsv
+maximum-file-size = Maksimalna datajowa wjelikosć: 25 MB
+what-needs-to-be-in-file = Co musy w mójej dataji byś?
+upload-progress-text = Nagraśe běžy…
+sc-bulk-submit-confirm = Wobkšuśijom, až toś te sady su <wikipediaLink>zjawnje pśistupne</wikipediaLink> a mam pšawo je nagraś.
+bulk-upload-success-toast = Wěcej sadow nagrate
+bulk-upload-failed-toast = Nagraśe njejo se raźiło, wopytajśo pšosym hyšći raz.
+upload-more-btn-text = Dalšne sady nagraś?
+file-invalid-type = Njepłaśiwa dataja
+file-too-large = Dataja jo pśewjelika
+file-too-small = Dataja jo pśemała
+too-many-files = Pśewjele datajow
