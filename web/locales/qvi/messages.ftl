@@ -153,6 +153,22 @@ ny = China
 nyn = Runyankole
 oc = Occitano
 om = Afaan Oromo
+or = odia
+os = Osetia
+pa-IN = Punjabí
+pap-AW = Papiamento (Aruba)
+pl = Polaco
+ps = Pastún
+pt = Portugués
+quc = K'iche'
+quy = Chanka quechua
+rm-sursilv = Sursilvan romanche
+rm-vallader = Vallader romanche
+ro = Ramainiano
+ru = Ruso
+rw = Kinyarwanda
+sah = Sajonia
+sat = Santali (Ol Chiki)
 
 # [/]
 
