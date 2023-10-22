@@ -1709,6 +1709,8 @@ contact-us = ساݙے نال رابطہ کرو
 add-sentence-success = 1 جملہ کٹھا تھیا
 add-sentence-error = جملے شامل کرݨ وچ خرابی
 required-field = براہ مہربانی ایں خانے کوں پُر کرو۔
+single-sentence-submission = کلھا جملہ جمع کرواوݨ
+bulk-sentence-submission = ڈھڳ جملے جمع کرواوݨ
 single-sentence = کلھا جملہ
 bulk-sentences = ڈھڳ جملے
 # REVIEW PAGE
@@ -1725,6 +1727,10 @@ sc-redirect-page-title = اساں کجھ وݙیاں تبدیلیاں کریند�
 sc-redirect-page-subtitle-2 = ساݙے کنوں <matrixLink>میٹرکس</matrixLink>، <discourseLink>ڈسکورس</discourseLink> یا <emailLink>ای میل</emailLink> بارے سوالات پُچھو۔
 # BULK SUBMISSION 
 sc-bulk-upload-instruction-first-part = اپ لوڈ کرو
+sc-bulk-upload-instruction-second-part = عوامی ڈومین جملے
 or-conjuction = یا
 select-file = فائل چݨو
 file-invalid-type = غلط فائل
+file-too-large = فائل ٻہوں وݙی ہے
+file-too-small = فائل ٻہوں چھوٹی ہے
+too-many-files = ٻہوں ساریاں فائلاں
