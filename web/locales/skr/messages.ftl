@@ -1731,6 +1731,7 @@ sc-bulk-upload-instruction-second-part = عوامی ڈومین جملے
 or-conjuction = یا
 select-file = فائل چݨو
 select-file-mobile = اپ لوڈ کرݨ کیتے فائل چݨو
+sc-bulk-submit-confirm = میں تصدیق کرینداں جو ایہ جملہ <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں انہاں دے اپ لوڈ کرݨ دی اجازت ہے۔
 upload-more-btn-text = ٻئے جملے اپ لوڈ کروں؟
 file-invalid-type = غلط فائل
 file-too-large = فائل ٻہوں وݙی ہے
