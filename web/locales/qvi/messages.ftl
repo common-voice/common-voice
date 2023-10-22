@@ -209,6 +209,8 @@ uk = Ucraniano
 ur = Urdu
 uz = Uzbeko
 ve = Tshivenda
+vec = Veneciano
+vi = Vietnamita
 
 # [/]
 
