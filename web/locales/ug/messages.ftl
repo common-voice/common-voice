@@ -1612,6 +1612,7 @@ citing-sentences = نەقىل جۈملىلەر
 adding-sentences = جۈملە قوشۇش
 reviewing-sentences = جۈملىلەرنى تەكشۈرۈش
 public-domain-explanation-2 = تىل تونۇش موتورى قۇرۇشقا ئىشلىتىدىغان ئەڭ ياخشى جۈملە شەكلى ئېغىز تىلىدىكى جۈملىلەرنىڭ زامانىمىزدىكى ئىشلىتىلىشىدۇر. تۆۋەندىكىسى جۈملە شەكىللەندۈرۈشنىڭ بەزى ئۇسۇللىرى؛
+public-domain-explanation-3 = ئۆزىڭىز ياكى دوستلىرىڭىز ياكى تىل جامائىتىڭىز بىلەن زامانىۋى، جانلىق تىلدىكى جۈملىلىرىنى تۈزۈڭ - مەسىلەن «كۆزۈڭگە قاراپ ماڭ» دېگەندەك.
 citing-sentences-subheader-websites = تور بېكەتلەر
 citing-sentences-subheader-websites-explanation = تور بېكەتنى ئىچىگە ئالالايسىز، مەسىلەن، «Common Voice - https://commonvoice.mozilla.org/»
 citing-sentences-subheader-academic-reference = ئىلمىي ماقالە پايدىلانمىلار
