@@ -1526,4 +1526,16 @@ sc-validation-no-abbreviations = Sada njeměła skrotconki wopśimowaś
 
 localization-select =
     .label = Rěc/Lokalizaciju wubraś
+# PARTNERSHIPS PAGE
+partnerships-header = Partnaŕstwa
+partnerships-get-in-touch = Kontakt
+partnerships-become-a-partner = Buźćo partnaŕ Common Voice
+partnerships-foundations-header = Załožby
+partnerships-governments-header = Kněžaŕstwa
+partnerships-academia-header = Uniwersity, akademikarje a slěźarje
+partnerships-our-partners = Naše partnarje
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Wjeliki źěk, až sćo pósćił waše powědańske klipy!
+why-donate = Cogodla se pšašaśo?
+add-information-button = Informacije pśidaś
 sentence-collection = Zběrka sadow
