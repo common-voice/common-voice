@@ -1525,6 +1525,7 @@ sc-review-link = تەكشۈرۈش
 sc-settings-title = تەڭشەك
 sc-settings-ui-language = بەت يۈزى تىلى
 sc-settings-reset-skipped = ئاتلانغان جۈملىنى ئەسلىگە كەلتۈرىدۇ
+sc-settings-skipped-decription = سىز ئىلگىرى تەكشۈرگەندە ئاتلاپ كەتكەن جۈملە بار. ئاتلاپ كەتكەن جۈملىلەرنى قايتا تەڭشىگەندە بارلىق ئاتلاپ كەتكەن جۈملىلەرنى قايتا كۆرسىتىدۇ. بۇ تىلدىن مۇستەقىل.
 sc-settings-show-all-button = ئاتلاپ كەتكەن بارلىق جۈملىلەرنى قايتا كۆرسىتىدۇ
 sc-settings-failed = تەڭشەكنى ئۆزگەرتكىلى بولمىدى، قايتا سىناڭ.
 # VALIDATION
@@ -1610,6 +1611,7 @@ public-domain = ئاممىۋى دائىرە
 citing-sentences = نەقىل جۈملىلەر
 adding-sentences = جۈملە قوشۇش
 reviewing-sentences = جۈملىلەرنى تەكشۈرۈش
+public-domain-explanation-2 = تىل تونۇش موتورى قۇرۇشقا ئىشلىتىدىغان ئەڭ ياخشى جۈملە شەكلى ئېغىز تىلىدىكى جۈملىلەرنىڭ زامانىمىزدىكى ئىشلىتىلىشىدۇر. تۆۋەندىكىسى جۈملە شەكىللەندۈرۈشنىڭ بەزى ئۇسۇللىرى؛
 citing-sentences-subheader-websites = تور بېكەتلەر
 citing-sentences-subheader-websites-explanation = تور بېكەتنى ئىچىگە ئالالايسىز، مەسىلەن، «Common Voice - https://commonvoice.mozilla.org/»
 citing-sentences-subheader-academic-reference = ئىلمىي ماقالە پايدىلانمىلار
