@@ -1538,4 +1538,37 @@ partnerships-our-partners = Naše partnarje
 first-cta-header-text = Wjeliki źěk, až sćo pósćił waše powědańske klipy!
 why-donate = Cogodla se pšašaśo?
 add-information-button = Informacije pśidaś
+continue-speaking-button = Ně, źěkujom se, z powědanim pókšacowaś
+create-profile-text = Cośo swóje informacije składowaś? <createProfile>Załožćo profil</createProfile>
+thanks-for-voice-toast = Wjeliki źěk za waše powědańske informacije
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Wjeliki źěk, až waš głos pśinosujośo!
+already-have-an-account = Maśo južo konto? <login>Pśizjawiś</login>
+create-profile-button = Profil załožyś
+# IMAGE TAGS
+img-alt-success-checkmark = Symbol wuspěcha
+# GUIDELINES PAGE
+guidelines-header = Směrnice za sobustatkujuce
+voice-collection = Zběrka głosow
 sentence-collection = Zběrka sadow
+varying-pronunciations = Rozdźělne wugronjenja
+misreadings = Cytańske zmólki
+background-noise = Slězynowe šumy
+background-voices = Slězynowe głose
+volume = Głosnosć
+reader-effects = Efekty cytarja
+just-unsure = Jano njewěsty?
+example = Pśikład
+varying-pronunciations-example = Ruta jo była njejasna.
+misreadings-explanation-5 = Kontrakcije pśi cytanju, na pśikład „pón“ město „pótom“ abo nawopak.
+misreadings-explanation-6 = Felujucy kóńc slědnego słowa, dokulaž nagraśe jo se pśemalsnjej wótrězało.
+misreadings-explanation-7 = Někotare wopyty słowo cytaś.
+misreadings-example-1 = Źomy pó kafej.
+misreadings-example-2 = Źomy pó kafej.
+misreadings-example-3 = Źomy pó kafej.
+misreadings-example-4 = Tšmjel jo mimo leśeł.
+misreadings-tip-1 = [Dejało „Źomy“ groniś]
+misreadings-tip-2 = [‘a’ njejo w originalnem teksće]
+misreadings-tip-3 = [Wopśimjeśe njewótpowědujo]
+background-noise-example-1 = Wjelicke dinosawrierje triasa.
+background-noise-tip-2 = [Źěl teksta njejo słyšaś]
