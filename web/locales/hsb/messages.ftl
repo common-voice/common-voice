@@ -1534,7 +1534,7 @@ partnerships-governments-header = Knježerstwa
 partnerships-academia-header = Uniwersity, akademikarjo a slědźerjo
 partnerships-our-partners = Naši partnerjo
 # FIRST POST SUBMISSION CTA
-first-cta-header-text = Wulki dźak, zo waše rěčenske klipy darił!
+first-cta-header-text = Wulki dźak, zo sće waše rěčenske klipy darił!
 why-donate = Čehodla so prašeće?
 add-information-button = Informacije přidać
 continue-speaking-button = Ně, dźakuju so, z rěčenjom pokročować
@@ -1600,7 +1600,6 @@ sentence =
 citation-input-value = Žórło wašeje sady
 citation =
     .label = Citat
-what-can-i-add = Kajke sady móžu přidać?
 new-sentence-rule-1 = <noCopyright>Žane wobmjezowanja awtorstwa (<cc0>cc--0</cc0>)
 new-sentence-rule-2 = Mjenje hač 15 słowow
 new-sentence-rule-3 = Korektnu gramatiku wužiwać
