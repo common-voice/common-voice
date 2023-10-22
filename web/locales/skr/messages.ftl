@@ -1693,6 +1693,7 @@ sentence-input-value = آپݨاں عوامی ڈومین جملہ اتھ درج �
 citation-input-value = تہاݙے جملے دا ماخذ
 citation =
     .label = حوالہ ݙیوݨ
+sc-review-write-title = میں کہڑے جملے شامل کر سڳداں؟
 new-sentence-rule-1 = <noCopyright>کوئی حق نقل </noCopyright> پابندیاں کائنی (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = 15 کنوں تھوڑے لفظ
 new-sentence-rule-3 = درست گرائمر ورتو
@@ -1722,3 +1723,8 @@ review-error = ایں جملے دی نظرثانی وچ خرابی تھی ڳئی
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اساں کجھ وݙیاں تبدیلیاں کریندے پئے ہیں
 sc-redirect-page-subtitle-2 = ساݙے کنوں <matrixLink>میٹرکس</matrixLink>، <discourseLink>ڈسکورس</discourseLink> یا <emailLink>ای میل</emailLink> بارے سوالات پُچھو۔
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = اپ لوڈ کرو
+or-conjuction = یا
+select-file = فائل چݨو
+file-invalid-type = غلط فائل
