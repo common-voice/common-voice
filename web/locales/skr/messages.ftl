@@ -1730,6 +1730,7 @@ sc-bulk-upload-instruction-first-part = اپ لوڈ کرو
 sc-bulk-upload-instruction-second-part = عوامی ڈومین جملے
 or-conjuction = یا
 select-file = فائل چݨو
+upload-more-btn-text = ٻئے جملے اپ لوڈ کروں؟
 file-invalid-type = غلط فائل
 file-too-large = فائل ٻہوں وݙی ہے
 file-too-small = فائل ٻہوں چھوٹی ہے
