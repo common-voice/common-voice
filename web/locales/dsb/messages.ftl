@@ -40,10 +40,13 @@ ba = Baškiršćina
 bas = Basašćina
 be = Běłorušćina
 bg = Bułgaršćina
+bm = Bambaršćina, Bambara
 bn = Bengalšćina
+bo = Tibetšćina
 br = Bretońšćina
 bs = Bosnišćina
 bxr = Burjatšćina
+byv = Medumba
 ca = Katalańšćina
 cak = Kaqchikel
 ckb = Centralna kurdišćina
@@ -53,6 +56,7 @@ cs = Češćina
 cv = Čuwašćina
 cy = Kymrišćina
 da = Dańšćina
+dag = Dagbani
 de = Nimšćina
 dsb = Dolnoserbšćina
 dv = Dhivehi
@@ -63,6 +67,7 @@ eo = Esperanto
 es = Špańšćina
 et = Estnišćina
 eu = Baskišćina
+ewo = Ewondo
 fa = Persišćina
 ff = Fulašćina
 fi = Finšćina
@@ -594,7 +599,6 @@ about-playbook-how-add-sentences = Kak mógu sady pśidaś?
 about-playbook-how-add-sentences-content-1 = <strong>Zgromaźowak sadow</strong> jo rěd za gromaźenje a pśeglědowanje zjawnje pśistupnych sadow. <scAccountLink>Musyśo konto załožyś</scAccountLink>. Pśidajśo pón swójomu <strong>profiloju</strong> swóju rěc. Móžośo sady <strong>pśidaś</strong> abo do togo pśidane sady <strong>pśeglědowaś</strong>.
 about-playbook-how-add-sentences-content-2 = Sady muse se wót dweju wósobowu pśeglědowaś a akceptěrowaś, by se do Common Voice pśewzeli. Směrnice za swóju rěc <languageGuidelinesLink>how</languageGuidelinesLink> napórajośo. Sady muse <licenseLink>zjawnje pśistupne</licenseLink> a krotše ako 15 słowow byś. Móžośo wobsejźarja teksta pšosyś, aby jen z pomocu našogo wótrjaceńskego wózjawjenja pód <waiverLink>CC0</waiverLink> stajił a jo na commonvoice@mozilla.com pósłał.
 about-playbook-how-add-sentences-content-3 = Móžośo <scraperLink>ekstraktor sadow</scraperLink> wužywaś, aby krotke sady z Wikipedije dostał.
-about-playbook-how-add-sentences-content-4 = Sady, kótarež su pśeglědane, se srjodu eksportěruju a su pó pśiducem wózjawjenju k dispoziciji.
 
 ## How to record quality
 
@@ -874,6 +878,9 @@ target-segment-generic-card = Pśinosujośo k celowemu segmentoju
 target-segment-first-banner = Pomagajśo prědny celowy segment Common Voice w { $locale } napóraś
 target-segment-add-voice = Pśidajśo swój głos
 target-segment-learn-more = Dalšne informacije
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1498,3 +1505,4 @@ sc-validation-no-abbreviations = Sada njeměła skrotconki wopśimowaś
 
 localization-select =
     .label = Rěc/Lokalizaciju wubraś
+sentence-collection = Zběrka sadow
