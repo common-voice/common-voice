@@ -755,6 +755,9 @@ more = Wěcej
 close = Zacyniś
 download = Ześěgnuś
 dataset-version = Wersija
+sha256-checksum-copied = Pśespytowańska suma SHA256 kopěrowana!
+sha256-checksum-copied-error = Kopěrowanje pśespytowańskeje sumy SHA256 njejo se raźiło
+clipboard-not-supported = Mjazywótkład se njepódpěra
 
 ## Download Modal
 
@@ -831,6 +834,8 @@ action-click = Kliknuś
 action-tap = Pótusnuś
 contribute = Sobu źěłaś
 listen = Słuchaś
+write = Pisaś
+review = Pśeglědaś
 skip = Pśeskócyś
 shortcuts = Skrotconki
 clips-with-count-pluralized =
@@ -895,6 +900,8 @@ target-segment-learn-more = Dalšne informacije
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Zběrka głosow
+contribute-sentence-collection-nav-header = Zběrka sadow
 
 ## Reporting
 
