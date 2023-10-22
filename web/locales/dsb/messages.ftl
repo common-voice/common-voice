@@ -1553,6 +1553,7 @@ voice-collection = Zběrka głosow
 sentence-collection = Zběrka sadow
 varying-pronunciations = Rozdźělne wugronjenja
 misreadings = Cytańske zmólki
+offensive-content = Njepśistojne wopśimjeśe
 background-noise = Slězynowe šumy
 background-voices = Slězynowe głose
 volume = Głosnosć
