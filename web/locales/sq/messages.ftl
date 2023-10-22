@@ -225,6 +225,7 @@ share-text = Ndihmoni t’u mësohet makinave se si flasin njerëzit e njëmendt
 link-copied = Lidhja u Kopjua
 back-top = Mbrapsht te Kreu
 logout = Dilni
+donate = Dhuroni
 
 ## Home Page
 
@@ -599,7 +600,6 @@ about-playbook-how-add-sentences = Si të shtoj fraza?
 about-playbook-how-add-sentences-content-1 = <strong>Grumbulluesi i Togfjalëshave</strong> është një mjet për grumbullimin dhe vlerësimin e togfjalëshave nën përkatësi publike. Do t’ju <scAccountLink>duhet të krijoni një llogari</scAccountLink>. Mandej, shtoni gjuhën tuaj te <strong>Profili</strong> juaj.  Mund të <strong>Shtoni</strong> togfjalësha, ose të <strong>Shqyrtoni</strong> të tillë të shtuar më parë.
 about-playbook-how-add-sentences-content-2 = Togfjalëshat duhen shqyrtuar dhe pranuar nga dy vetë, që të përfshihen te Common Voice. Ju krijoni udhëzime për gjuhën tuaj <languageGuidelinesLink>këtu</languageGuidelinesLink>. Togfjalëshat duhet të jenë nën <licenseLink>përkatësinë publike</licenseLink> dhe më të shkurtër se 15 fjalë. Mund t’i kërkoni të zotit të tekstit ta kalojë nën <waiverLink>CC0 duke përdorur procesin tonë të heqjes dorë nga të drejta</waiverLink> dhe dërgojë te ne te commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Që të shfrytëzoni togfjalësha të shkurtër nga Wikipedia mund të përdorni <scraperLink>Përftuesin e togfjalëshave</scraperLink>.
-about-playbook-how-add-sentences-content-4 = Togfjalëshat që janë vlerësuar, eksportohen të mërkurave dhe janë gati për përdorim pas hedhjes pasuese në qarkullim.
 
 ## How to record quality
 
@@ -855,6 +855,8 @@ action-click = Klikoni
 action-tap = Prekeni
 contribute = Jepni Ndihmesë
 listen = Dëgjoni
+write = Shkruani
+review = Shqyrtoni
 skip = Anashkaloje
 shortcuts = Shkurtore
 clips-with-count-pluralized =
@@ -921,6 +923,7 @@ target-segment-learn-more = Mësoni Më Tepër
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Koleksion Zërash
+contribute-sentence-collection-nav-header = Grumbullim Frazash
 
 ## Reporting
 
@@ -1638,4 +1641,5 @@ adding-sentences-subheader-offensive-content = Lëndë Fyese
 reviewing-sentences-explanation-1 = Nëse togfjalëshi i plotëson kriteret më sipër, klikoni mbi butonin “Po”
 reviewing-sentences-explanation-2 = Nëse togfjalëshi s’i plotëson kriteret më sipër, klikoni mbi butonin “Jo”
 reviewing-sentences-explanation-4 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
-community-announcement-header = Njoftim bashkësie!
+citation =
+    .label = Përmendje
