@@ -10,10 +10,15 @@ submit-form-action = సమర్పించు
 loading = వస్తోంది…
 email-opt-in-info = గోల్ రిమైండర్‌లు, నా పురోగతికి సంబంధించిన నవీకరణలు మరియు కామన్ వాయిస్ గురించి వార్తాలేఖలు వంటి ఇమెయిల్‌లను స్వీకరించాలనుకుంటున్నాను.
 email-opt-in-info-title = కామన్ వాయిస్ మెయిలింగ్ జాబితాలో చేరండి
+email-opt-in-info-sub-with-challenge = సవాలు మరియు లక్ష్య రిమైండర్‌లు, పురోగతి నవీకరణలు మరియు కామన్ వాయిస్ గురించి వార్తాలేఖలు వంటి ఇమెయిల్‌లను స్వీకరించండి.
 indicates-required = * ఖచ్చితంగా పూరించవలసిన ఖాళీ
 not-available-abbreviation = వర్తించదు
+banner-error-slow-1 = క్షమించండి, కామన్ వాయిస్ నెమ్మదిగా నడుస్తోంది. మీ ఆసక్తికి ధన్యవాదాలు.
+banner-error-slow-2 = ట్రాఫిక్‌ చాలా ఎక్కువగా ఉంది, మరియు ప్రస్తుతం సమస్యలను పరిశీలిస్తున్నాము
 banner-error-slow-link = స్థితి పేజీ
 error-something-went-wrong = క్షమించండి, ఏదో తప్పు జరిగింది
+error-clip-upload = ఈ క్లిప్‌ని అప్‌లోడ్ చేయడం విఫలమవుతూనే ఉంది, మళ్లీ ప్రయత్నించాలా?
+error-clip-upload-server = ఈ క్లిప్ యొక్క అప్‌లోడ్ సర్వర్‌లో విఫలమవుతూ ఉంది. పేజీని రీలోడ్ చేయండి లేదా కొంతసేపటి తరువాత మళ్లీ  ప్రయత్నించండి.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -63,6 +68,7 @@ eo = ఎస్పరాంతో
 es = స్పానిష్
 et = ఎస్టోనియన్
 eu = బాస్క్
+ewo = ఎవాండో
 fa = పర్షియన్
 ff = ఫులా
 fi = ఫిన్నిష్
@@ -93,6 +99,7 @@ it = ఇటాలియన్
 izh = ఇజోరియన్
 ja = జపనీ
 jbo = లోజ్బాన్
+jv = జావనీస్
 ka = జోర్జియన్
 kaa = కరకల్పాక్
 kab = కాబిల్
@@ -113,6 +120,7 @@ lij = లిగురియా
 ln = లింగాలా
 lo = లావో
 lt = లిథుయేనియన్
+ltg = లట్గేలియన్
 lv = లాత్వియన్
 mai = మైథిలీ
 mdf = మోక్ష
@@ -142,6 +150,7 @@ nyn = రన్యంకోలె
 oc = ఆక్సిటన్
 om = అఫాన్ ఒరోమో
 or = ఒడియా
+os = ఒస్సెషియన్
 pa-IN = పంజాబీ
 pap-AW = పాపియమెంటో (అరుబా)
 pl = పోలిష్
@@ -183,6 +192,7 @@ tl = టగాలొగ్
 tn = సెత్స్‌వానా
 tok = తోకి పోనా
 tr = టర్కిష్
+ts = త్సోంగా
 tt = తతార్
 tw = ట్వి
 ty = తహీషన్
@@ -311,6 +321,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
+shortcut-play-toggle-label = ప్లే/ఆపు
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -327,6 +338,7 @@ shortcut-record-toggle-label = రికార్డు/ఆపు
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = క్లిప్‌ను తిరిగి రికార్డ్ చేయండి
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = ప్రస్తుత రికార్డింగ్‌ని తొలగించండి
 shortcut-submit-label = క్లిప్‌లను సమర్పించండి
 request-language-text = ఇంకా కామన్ వాయిస్‍లో మీ భాష కనబడలేదా?
 request-language-button = ఒక భాషని అభ్యర్థించండి
