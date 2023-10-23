@@ -255,11 +255,11 @@ home-cta = הייבט אייער שטימע, ביישטייערט דא!
 wall-of-text-start =
     שטימע איז נאטירליך, שטימע איז מענטשליך. דאס איז פארוואס מיר זענען פרייליך צו שאפן נוצבארע שטימע
     טעכנעלאגיע פאר אונזערע מאשינען. אבער צו שאפן שטימע סיסטעמען, אן עקסטרעם גרויסע צאל פון שטימע דאטא פארלאנגט זיך.
-wall-of-text-more-mobile = מערסטנס פון אונזער דאטע וואס ווערט גענוצט דורך גרויסע פירמעס איז נישט צוטריטליך פאר מיינסטענס מענטשן. מיר האלטן אז דאס שטערט אינאוואציע. האבן מיר געעפנט קאמאן וואויס, א פראיעקט צו העלפן מאכן שטימע דערקענונג אפען פאר יעדעם.
+wall-of-text-more-mobile = מערסטנס פון אונזער דאטע וואס ווערט גענוצט דורך גרויסע פירמעס איז נישט צוטריטליך פאר מיינסטענס מענטשן. מיר האלטן אז דאס שטערט אינאוואציע. דערפאר האבן מיר ארויסגעשטעלט קאמאן וואויס, א פראיעקט צו העלפן מאכן שטימע דערקענונג אפען פאר יעדעם.
 wall-of-text-first =
     שטימע איז נאטירליך, שטימע איז מענטשליך. דאס איז פארוואס מיר זענען פרייליך צו שאפן נוצבארע שטימע
     טעכנעלאגיע פאר אונזערע מאשינען. אבער צו שאפן שטימע סיסטעמען, דארפן די דעוועלאפערס אן עקסרעם גרויסע צאל פון שטימע דאטא.
-wall-of-text-second = מערסטנס פון אונזער דאטע וואס ווערט גענוצט דורך גרויסע פירמעס איז נישט צוטריטליך פאר מיינסטענס מענטשן. מיר האלטן אז דאס שטערט אינאוואציע. האבן מיר געעפנט קאמאן וואויס, א פראיעקט צו העלפן מאכן שטימע דערקענונג אפען פאר יעדעם.
+wall-of-text-second = מערסטנס פון אונזער דאטע וואס ווערט גענוצט דורך גרויסע פירמעס איז נישט צוטריטליך פאר מיינסטענס מענטשן. מיר האלטן אז דאס שטערט אינאוואציע. דערפאר האבן מיר ארויסגעשטעלט קאמאן וואויס, א פראיעקט צו העלפן מאכן שטימע דערקענונג אפען פאר יעדעם.
 show-wall-of-text = ליינט מער
 help-us-title = העלפט אונז באשטעטיגן זאצן!
 help-us-explain = דריקט שפיל, הער צו & און זאג אונז: האט עס אקוראט געזאגט דעם דאזיגן זאץ?
@@ -493,7 +493,7 @@ about-localization-subtitle = די וועבזייטל טעקסט ווערט אי
 about-sentence-collection-title = זאצן זאמלונג
 about-sentence-collection-subtitle = זאצן ווערן געזאמלט פאר מענטשן צו פארליינען הויעך.
 about-new-lang-title = ארויסשטעלן א נייע שפרייך
-about-new-lang-subtitle = מיר געבן ארויס דער קאמאן וואויס זייטל אין דעם שפרייך.
+about-new-lang-subtitle = מיר שטעלן ארויס דער קאמאן וואויס זייטל אין דעם שפרייך.
 about-voice-contrib-title = שטימע ביישטייערונג
 about-voice-contrib-subtitle = מענטשן קומען און ביישטייערן זייערע שטימעס.
 about-voice-validation-title = שטימע באשטעטיגונג
@@ -548,7 +548,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = וויאזוי ארבייט די וועבזייטל לאקאליזירונג?
 about-playbook-how-localize-content-1 = דאס איבערטייטשן די קאמאן וואויס זייטל געשעט אויף <strong>פענטאן</strong>.
-about-playbook-how-localize-content-4 = די זייטל איז גרייט צו ווערן ארויסגעגיבן ווען עס דערגרייכט 75% פון זיין געענדיגט.
+about-playbook-how-localize-content-4 = די זייטל איז גרייט צו ווערן ארויסגעשטעלט ווען עס דערגרייכט צו 75% געענדיגט.
 
 ## How to add sentences
 
@@ -709,6 +709,7 @@ request-language-success-list-3 =
 ## Languages Overview
 
 language-section-in-progress = מען ארבעט דערויף
+language-section-in-progress-new-description = דער שפרייכן זענען דערווייל אונטער די געמיינדע אנטוויקלונג. <localizationGlossaryLink>וועבזייטל לאקאליזירונג</localizationGlossaryLink> און <sentenceCollectionGlossaryLink>זאצן זאמלונג</sentenceCollectionGlossaryLink> איז נייטיג אויף צו ווערן ארויסגעשטעלט.
 language-section-launched = ארויסגעשטעלט
 language-section-launched-description = פאר די דאזיגע ארויסגעשטעלטע שפרייכן איז די וועבזייטל שוין געווארן <localizationGlossaryLink>לאקאליזירט</localizationGlossaryLink>, און האט שוין גענוג <sentenceCollectionGlossaryLink>זאצן געזאמלט</sentenceCollectionGlossaryLink> צו ערלויבן אנגייענדיגע <speakLink>רעדן</speakLink> און <listenLink>הערן</listenLink> ביישטייערונגען.
 languages-show-more = זעט מער
