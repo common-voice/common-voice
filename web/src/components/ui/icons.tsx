@@ -914,7 +914,7 @@ export const UserPlusIcon = uniqueIcon(id => (
   </svg>
 ))
 
-export const XICon = () => (
+export const XMarkIcon = () => (
   <svg
     width="25"
     height="25"
@@ -1271,5 +1271,23 @@ interface FontIconProps {
 export const FontIcon = ({ type, ...props }: FontIconProps) => (
   <span aria-hidden="true" data-icon={FONT_ICONS[type]} {...props} />
 )
+export const XIcon = () => {
+  return (
+    <svg
+    xmlns="http://www.w3.org/2000/svg"
+    height="25px"
+    width="24px"
+    viewBox="0 0 512 512"
+    className="XIcon"
+  >
+    <path
+      fill="#fff"
+      d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+    />
+  </svg>
+  );
+};
 
-export const StarIcon = Icon(require('./icons/star.svg'))
+import starSvg from './icons/star.svg';
+
+export const StarIcon = Icon(starSvg);

@@ -7,7 +7,7 @@ import * as React from 'react';
 import { useRef } from 'react';
 import { trackSharing } from '../../services/tracker';
 import { Notifications } from '../../stores/notifications';
-import { FontIcon } from '../ui/icons';
+import { FontIcon, XIcon } from '../ui/icons';
 import { useLocale } from '../locale-helpers';
 import URLS from '../../urls';
 
@@ -69,7 +69,7 @@ function ShareButtons({ getString, shareTextId }: Props) {
         target="_blank"
         rel="noopener noreferrer"
         onClick={() => trackSharing('twitter', locale)}>
-        <FontIcon type="twitter" />
+        <XIcon />
       </a>
     </>
   );
