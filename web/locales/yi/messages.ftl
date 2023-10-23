@@ -549,6 +549,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = וויאזוי ארבייט די וועבזייטל לאקאליזירונג?
 about-playbook-how-localize-content-1 = דאס איבערטייטשן די קאמאן וואויס זייטל געשעט אויף <strong>פענטאן</strong>.
 about-playbook-how-localize-content-4 = די זייטל איז גרייט צו ווערן ארויסגעשטעלט ווען עס דערגרייכט צו 75% געענדיגט.
+about-playbook-how-localize-content-5 = זעט אונזער ווידיא ערקלערער פאר הילף
 
 ## How to add sentences
 
@@ -586,6 +587,7 @@ about-playbook-how-project-governance-content-3 = פריוואטקייט, זיכ
 about-playbook-how-project-governance-content-4 = געמיינדע אנטייל נעמען און באשלוס פאסן.
 about-playbook-how-project-governance-content-5 = ווערד און אנערקענונג.
 about-playbook-how-project-governance-content-6 = קעגנזייטיגע פאראנטווארטליכקייט.
+about-playbook-how-project-governance-content-7 = <governanceLink>ליינט מער איבער וויאזוי מיר זענען רעגירט</governanceLink>
 
 ## Glossary
 
