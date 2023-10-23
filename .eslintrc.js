@@ -27,6 +27,7 @@ module.exports = {
       './web/tsconfig.json',
       './server/tsconfig.json',
       './web/cypress/tsconfig.json',
+      './bundler/tsconfig.json'
     ],
   },
   rules: {
@@ -47,10 +48,7 @@ module.exports = {
     // const almostPerfect = {'a': 'awesome', 'b': 'meh', 'c': 'need it'}
     // const { b, ...perfect } = almostPerfect -- perfect = {'a': 'awesome', 'c': 'need it'}
     // here we don't want the 'b' property so we separate it out and bundle the rest in 'perfect'
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      { ignoreRestSiblings: true },
-    ],
+    '@typescript-eslint/no-unused-vars': ['error', { 'ignoreRestSiblings': true, "varsIgnorePattern": "^_$" }]
   },
   settings: {
     react: {

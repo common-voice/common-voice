@@ -38,6 +38,21 @@ services:
         '-backend',
         'memory',
       ]
+  bundler:
+    build:
+      context: ./bundler
+      dockerfile: Dockerfile
+    container_name: bundler
+    links:
+      - db
+      - redis
+      - storage
+    volumes:
+      - ./bundler:/home/node/code
+    networks:
+      - voice-web
+    ports:
+      - 9001:9001
   web:
     build:
       context: .
