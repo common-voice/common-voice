@@ -1,6 +1,8 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
+import NavigationPrompt from 'react-router-navigation-prompt';
+
 import { Clip as ClipType } from 'common';
 import { trackListening, getTrackClass } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
@@ -27,7 +29,8 @@ import ListenErrorContent from './listen-error-content';
 
 import './listen.css';
 import { RouteComponentProps, withRouter } from 'react-router';
-import { Spinner } from '../../../ui/ui';
+import { Button, Spinner } from '../../../ui/ui';
+import Modal, { ModalButtons } from '../../../modal/modal';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
@@ -279,6 +282,34 @@ class ListenPage extends React.Component<Props, State> {
       <>
         <div id="listen-page">
           {noClips && isLoading && <Spinner delayMs={500} />}
+          {!isSubmitted && (
+            <NavigationPrompt when={clips.some(clip => clip.isValid !== null)}>
+              {({ onCancel, onConfirm }) => (
+                <Modal innerClassName="listen-abort" onRequestClose={onCancel}>
+                  <Localized id="record-abort-title">
+                    <h1 className="title" />
+                  </Localized>
+                  <Localized id="record-abort-text">
+                    <p className="text" />
+                  </Localized>
+                  <ModalButtons>
+                    <Localized id="listen-abort-continue">
+                      <Button
+                        outline
+                        rounded
+                        onClick={() => {
+                          onCancel();
+                        }}
+                      />
+                    </Localized>
+                    <Localized id="listen-abort-finish">
+                      <Button outline rounded onClick={onConfirm} />
+                    </Localized>
+                  </ModalButtons>
+                </Modal>
+              )}
+            </NavigationPrompt>
+          )}
           <audio
             {...(activeClip && { src: activeClip.audioSrc })}
             preload="auto"

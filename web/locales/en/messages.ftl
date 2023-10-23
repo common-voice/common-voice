@@ -956,6 +956,9 @@ listen-empty-state = We may have run out of clips - refresh the page, or try aga
 listen-loading-error =
     We couldn’t get any audio clips for you to listen to.
     Please try again later.
+listen-abort-title = Finish validating clips?
+listen-abort-continue = Continue validating
+listen-abort-finish = Finish validating
 speak-empty-state = We've run out of sentences to record in this language...
 speak-empty-state-cta = Contribute sentences
 speak-loading-error =
