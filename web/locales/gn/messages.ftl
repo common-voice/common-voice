@@ -12,7 +12,7 @@ email-opt-in-info = Toñembou chéve ñanduti veve rupi marandu hupytyrã rehegu
 email-opt-in-info-title = Ejuaju Common Voice ñanduti veve rysýire
 email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñanduti vevépe marandu ojehupytyséva, avei mba’éichapa oguata tembiapo ha Common Voice rehegua.
 email-opt-in-privacy-v2 = Emongurusúrõ oñemog̃uahẽ hag̃ua ndéve marandu he’ise emoneĩha mba’éichapa Mozilla oiporu tapichakuéra kuaapyrã oñemyesãkáva <privacyLink>ko’ápe</privacyLink>.
-indicates-required = Remyenyhẽva’erã katuete (*) tenda’i hairenda.
+indicates-required = Remyanyhẽva’erã katuete (*) tenda’i hairenda.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Rombyasy, Common Voice omba’apo mbeguekatu. Aguyje emomba’ére.
 banner-error-slow-2 = Og̃uahẽ oréve heta jeku’egua ha ko’ág̃aite rohapykuehohína umi apañuãi.
@@ -804,7 +804,7 @@ download-no = Nahániri, aguyje
 
 ## Contact Modal
 
-contact-title = Kuatia ñemyenyhẽrã Eñe’ẽ hag̃ua orendive
+contact-title = Kuatia ñemyanyhẽrã Eñe’ẽ hag̃ua orendive
 contact-form-name =
     .label = Téra
 contact-form-message =
@@ -827,7 +827,7 @@ request-language-heading = Eporandu ñe’ẽ pyahúre
 request-language-explanation-1 =
     Ehechamína oĩpa ne ñe’ẽ tysýipe
     <languagesPageLink>Ñe’ẽkuaaty Ñe’ẽtekuaa rehegua Kuatiarogue</languagesPageLink>.
-    Ndaipóriramo, emyenyhẽ ko kuatiañe’ẽ ha <strong>romondóta ndéve peteĩ ñe’ẽmondo oipytyvõva.
+    Ndaipóriramo, emyanyhẽ ko kuatiañe’ẽ ha <strong>romondóta ndéve peteĩ ñe’ẽmondo oipytyvõva.
     omyesakãvo mba’éichapa remohendava’erã ne ñe’ẽ</strong>-pe.
 request-language-explanation-2 =
     Avei <strong>romomarandúta ore rekoha ñangarekohárape
