@@ -1751,6 +1751,7 @@ select-file-mobile = Selige le file a cargar
 accepted-files = Typos de file acceptate: .tsv solo
 maximum-file-size = Maxime dimension del file: 25 MB
 what-needs-to-be-in-file = Que debe esser mi file?
+what-needs-to-be-in-file-explanation = Tu phrases debe esser libere de derectos de autor (CC0 o labor original autorisate per le mittente) e esser clar, grammaticalmente correcte e facile a leger. Le phrases debe prender grosso modo 10-15 secundas a leger e debe evitar de includer numeros, nomines proprie e characteres special.
 upload-progress-text = Cargamento in curso...
 sc-bulk-submit-confirm = Io confirma que iste phrases es del <wikipediaLink>dominio public</wikipediaLink> e que io ha le permission de cargar los.
 bulk-upload-success-toast = Gruppo de phrases cargate
