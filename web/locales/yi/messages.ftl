@@ -633,6 +633,7 @@ download-dataset-header = לאדנט אראפ די דאטא סעט
 size = מאס
 validated-hr-total = סך הכול באשעטיגטע שטונדן
 cv-license = לייסענס
+audio-format = אודיא פארמאט
 number-of-voices = צאל שטימעס
 splits = צוטיילונגען
 email-to-download = לייגט אריין אייער אימעיל צו אראפ לאדענען
@@ -946,6 +947,7 @@ contribution-misreadings-example-6-title = מיר גייען ארויס צו נ�
 contribution-misreadings-example-7-title = מיר גייען ארויס צו נעמען א קאווע.
 contribution-background-noise-title = הינטערגרונד גרידער
 contribution-background-voices-title = הינטערגרונד שטימעס
+contribution-just-unsure-title = זענט איר אומזיכער?
 see-more = <chevron></chevron>זעט מער
 see-less = <chevron></chevron>זעט ווייניגער
 
@@ -1012,6 +1014,7 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-label = לייגט צו א שפרייך וואס איר ווילט ביישטייערן צו
 sc-add-lang-sec-button = לייג צו א שפרייך
 sc-add-err-unexpected = אומערווארטעטער ענטפער צוריקגעקומען פונעם סערווער
 # Variables:
@@ -1092,6 +1095,7 @@ voice-collection = שטימע זאמלונג
 sentence-collection = זאצן זאמלונג
 background-noise = הונטערגרונד גרידער
 background-voices = הונטערגרונד שטימעס
+just-unsure = זענט איר אומזיכער?
 example = ביישפיל
 misreadings-example-1 = מיר גייען ארויס צו נעמען קאווע.
 misreadings-example-2 = מיר גייען ארויס צו נעמען א קאווע.
@@ -1108,6 +1112,7 @@ citation =
 adding-sentences-subheader-length = לענג
 adding-sentences-subheader-length-explanation = די זאץ זאל האבן ווייניגער ווי 15 ווערטער.
 adding-sentences-subheader-spelling-punctuation-explanation = די זאץ דארף זיין אויסגעלייגט ריכטיג.
+adding-sentences-subheader-speakable = רעדעוודיג
 adding-sentences-subheader-numbers = נומערן
 sentence =
     .label = זאץ
@@ -1117,5 +1122,7 @@ new-sentence-rule-2 = ווייניגער ווי 15 ווערטער
 how-to-cite = וויאזוי ציטיר איך
 guidelines = פארשריפטן
 add-sentence-success = 1 זאץ געזאמלט
+sc-review-empty-state = עס איז נישט דא יעצט קיין זאצן צו איבערקוקן אין דעם שפרייך.
 report-sc-different-language = אנדערע שפרייך
 report-sc-different-language-detail = עס איז געשריבן אין אן אנדערע שפרייך פון וואס איך קוק איבער.
+review-error-rate-limit-exceeded = איר גייט צו שנעל. ביטע נעמט א מינוט איבערצוקוקן די זאצן זיכער צו מאכן א ס'איז ריכטיג.
