@@ -266,7 +266,7 @@ wall-of-text-first =
     Upevarã roikotevẽ hetaite ñe’ẽryapu ñongatupyre.
 wall-of-text-second =
     Heta ñe’ẽryapu ñongatupyre oĩva yvy ape ári oĩ Estádo mba’e’ỹ pópe ha upévare ndaikatúi oiporu opavave.
-    Roimo’ã naiporãiha ha romoñepyrũ ko tembiapoguasu Common Voice, roipotágui opavave oiporu ñe’ẽ ñembohyapu ha mbokuatia.
+    Roimo’ã naiporãiha ha romoñepyrũ ko tembiapoguasu Common Voice, roipotágui opavave oiporu ñe’ẽ ñembohyapu ha monguatia.
 show-wall-of-text = Emoñe’ẽve
 help-us-title = ¡Orepytyvõ rohechajeývo ñe’ẽjoaju!
 help-us-explain = Ejopy Tahendu, ehendu ha eremi oréve: ombohyapu porãpa ñe’ẽjoaju mboyveguáva
@@ -423,7 +423,7 @@ edit-profile = Embosako’i Mba’ete
 profile-create-success = ¡Oĩporãite, oñemoheñóima nde roguerã!
 profile-close = Mboty
 profile-explanation = Eikuaa akóinte mba’éichapa oguata ohóvo tembiapo ehechávo nde rogueteépe ha eipytyvõ avei hekopete hag̃ua ñe’ẽryapu ojeporúva.
-thanks-for-account = Aguyjevete erehaguére nde cuénta añeteha, ko’ag̃a ñambosako’ive nde roguetee.
+thanks-for-account = Aguyjevete erehaguére nde cuénta añeteha, ko’ág̃a ñambosako’ive nde roguetee.
 why-demographic = Mba’érepa jajapova’erã kóva?
 why-demographic-explanation-2 = Mba’ekuaarã poruhára rehegua: aryve, meña ha mba’éichapa oñembohyapu oikoha rupi oipytyvõ mbarete mohendahápe oikũmby hag̃ua ohendúva. Poruhára réra ha ñanduti veve ndojoajumo’ãi araka’eve mba’erendurã remondóva rehe ha ndevoi erekuaa reipotápa ojekuaa nde poruhára réra térãpa nahániri.
 accept-privacy = Oĩ porã, amoneĩ ojeporu kuaapyrã chemba’éva oñemyesakã haguéicha chéve Mozilla <privacyLink>Kuaapy Jeporu</privacyLink> kuatiápe.
