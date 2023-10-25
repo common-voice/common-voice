@@ -1,10 +1,14 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { streamingQuery } from '../infrastructure/database'
-import { Transform } from 'node:stream'
+import { Transform, Writable } from 'node:stream'
 import { ClipRow } from '../types'
 import { taskEither as TE } from 'fp-ts'
 import { hashClientId } from './clients'
+import { streamDownloadFileFromBucket } from '../infrastructure/storage'
+import { getClipsBucketName, getIncludeClipsFrom, getIncludeClipsUntil, getReleaseBasePath } from '../config/config'
+
+const CLIPS_BUCKET = getClipsBucketName()
 
 const TSV_COLUMNS = [
   'client_id',
@@ -36,14 +40,13 @@ const writeFileStreamToTsv = (locale: string) => {
  *
  * @remarks
  *
- * The streamingQuery's stream should be piped immediately into
- * this transform stream, so it can be piped into other streams
+ * This transform stream can be piped into other streams
  * that are not in object mode.
  */
-const transformClips = (locale: string, isMinorityLanguage: boolean) =>
+const transformClips = (isMinorityLanguage: boolean) =>
   new Transform({
     transform(chunk: ClipRow, encoding, callback) {
-      const filename = createClipFilename(locale, chunk.id)
+      const filename = createClipFilename(chunk.locale, chunk.id)
 
       const updatedClipRow = {
         ...chunk,
@@ -51,12 +54,39 @@ const transformClips = (locale: string, isMinorityLanguage: boolean) =>
         client_id: hashClientId(chunk.client_id),
         path: filename,
         gender: isMinorityLanguage ? '' : chunk.gender,
-        age: isMinorityLanguage ? '' : chunk.age
+        age: isMinorityLanguage ? '' : chunk.age,
       }
-      
+
       this.push(clipRowToTsvEntry(updatedClipRow), 'utf-8')
 
       callback()
+    },
+    objectMode: true,
+  })
+
+/**
+ * Downloads the clips as they come in and saves them in clips
+ * directory: `releaseName/locale/clips/`. Passes the unaltered result
+ * from the previous stream to the next.
+ *
+ * @remarks
+ *
+ * The stream is in object mode.
+ */
+const downloadClips = () =>
+  new Transform({
+    transform(chunk: ClipRow, encoding, callback) {
+      const newFilepath = createClipFilename(chunk.locale, chunk.id)
+      const writeStream = fs.createWriteStream(
+        path.join(getReleaseBasePath(), chunk.locale, 'clips', newFilepath),
+      )
+
+      streamDownloadFileFromBucket(CLIPS_BUCKET)(chunk.path)
+        .pipe(writeStream)
+        .on('finish', () => {
+          this.push(chunk, encoding)
+          callback()
+        })
     },
     objectMode: true,
   })
@@ -75,13 +105,16 @@ export const fetchAllClipsForLocale = (
             path.join(__dirname, '..', '..', 'queries', 'bundleLocale.sql'),
             { encoding: 'utf-8' },
           ),
-          ['2023-10-20 00:00:00', locale],
+          [getIncludeClipsFrom(), getIncludeClipsUntil(), locale],
         )
-
+        console.log('Start Stream Processing')
         stream
-          .pipe(transformClips(locale, isMinorityLanguage))
+          .pipe(downloadClips())
+          .pipe(transformClips(isMinorityLanguage))
           .pipe(writeFileStreamToTsv(locale))
-          .on('finish', () => resolve())
+          .on('finish', () => {
+            resolve()
+          })
           .on('error', err => reject(err))
       }),
     (reason: unknown) => Error(String(reason)),

@@ -1,11 +1,12 @@
 import { Storage } from '@google-cloud/storage'
 import { taskEither as TE } from 'fp-ts'
 import { Readable } from 'stream'
+import { getEnvironment, getStorageLocalEndpoint } from '../config/config'
 
 const storage =
-  process.env.ENVIRONMENT === 'local'
+  getEnvironment() === 'local'
     ? new Storage({
-        apiEndpoint: process.env.CV_STORAGE_LOCAL_DEVELOPMENT_ENDPOINT,
+        apiEndpoint: getStorageLocalEndpoint(),
         projectId: 'local',
         useAuthWithCustomEndpoint: false,
       })
@@ -30,7 +31,7 @@ const streamUpload =
               reject(err)
             })
         }),
-        (err: unknown) => Error(String(err))
+      (err: unknown) => Error(String(err)),
     )
   }
 
@@ -45,7 +46,7 @@ const upload =
         await file.save(data)
         console.log(`Successfully uploaded ${path}`)
       },
-      (err: unknown) => Error(String(err))
+      (err: unknown) => Error(String(err)),
     )
   }
 
@@ -58,7 +59,7 @@ const getMetadata =
         const [metadata] = await storage.bucket(bucket).file(path).getMetadata()
         return metadata
       },
-      (err: unknown) => Error(String(err))
+      (err: unknown) => Error(String(err)),
     )
   }
 
@@ -71,11 +72,19 @@ const downloadFile =
         const [buffer] = await storage.bucket(bucket).file(path).download()
         return buffer
       },
-      (err: unknown) => Error(String(err))
+      (err: unknown) => Error(String(err)),
     )
+  }
+
+const streamDownloadFile =
+  (storage: Storage) =>
+  (bucket: string) =>
+  (path: string): Readable => {
+    return  storage.bucket(bucket).file(path).createReadStream()
   }
 
 export const streamUploadToBucket = streamUpload(storage)
 export const uploadToBucket = upload(storage)
 export const getMetadataFromFile = getMetadata(storage)
 export const downloadFileFromBucket = downloadFile(storage)
+export const streamDownloadFileFromBucket = streamDownloadFile(storage)

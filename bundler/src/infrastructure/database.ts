@@ -1,14 +1,9 @@
 import mysql from 'mysql2/promise'
 import mysql2, { ConnectionOptions } from 'mysql2'
 import { taskEither as TE } from 'fp-ts'
+import { getDbConfig } from '../config/config'
 
-const DB_CONFIG: ConnectionOptions = {
-  host: process.env.DB_HOST || 'db',
-  port: Number(process.env.DB_PORT) || 3306,
-  user: process.env.DB_USER || 'voicecommons',
-  password: process.env.DB_PASSWORD || 'voicecommons',
-  database: process.env.DB_DATABASE || 'voiceweb'
-}
+const DB_CONFIG: ConnectionOptions = getDbConfig()
 
 export const query = <T>(
   query: string,
@@ -34,6 +29,5 @@ export const query = <T>(
 
 export const streamingQuery = (query: string, params: Array<any>) => {
   const conn = mysql2.createConnection(DB_CONFIG)
-
-  return conn.query(query, params).stream()
+  return conn.query(query, params).stream().on('finish', () => conn.end())
 }

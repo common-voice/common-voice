@@ -20,6 +20,7 @@ const addJob = (locale: string) =>
 export const addJobs = pipe(
   TE.Do,
   TE.bind('allLocales', () => fetchLocalesWithClips),
+  TE.tap(({ allLocales }) => TE.of(console.log('Got the following locales: ', allLocales))),
   TE.map(({ allLocales }) => allLocales.map(locale => addJob(locale.name))),
   TE.chain(jobs => TE.sequenceArray(jobs))
 )

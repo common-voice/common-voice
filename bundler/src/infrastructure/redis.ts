@@ -23,3 +23,10 @@ export const SETNX = (key: string) => (value: string) => {
     (reason) => Error(String(reason))
   )
 }
+
+export const DEL = (key: string) => {
+  return TE.tryCatch(
+    () => redis.del(key),
+    (reason) => Error(String(reason))
+  )
+}

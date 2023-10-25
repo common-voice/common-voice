@@ -54,6 +54,6 @@ FROM clips
       LEFT JOIN ages ON demographics.age_id = ages.id
       LEFT JOIN genders ON demographics.gender_id = genders.id
   ) demographics ON clips.id = demographics.clip_id
-WHERE clips.created_at <= ?
+WHERE clips.created_at BETWEEN ? AND ?
 AND locales.name = ?
 GROUP BY clips.id
