@@ -1753,7 +1753,7 @@ reviewing-sentences-explanation-2 = თუ წინადადება ვე
 reviewing-sentences-explanation-3 = თუ გეეჭვებათ წინადადება, შეგიძლიათ გამოტოვოთ და გადახვიდეთ მომდევნოზე.
 reviewing-sentences-explanation-4 = თუ ამოიწურება შესამოწმებელი წინადადებები, გთხოვთ დაგვეხმაროთ ახლის მოძიებასა და შეგროვებაში!
 # WRITE PAGE
-write-instruction-second-part = საყოველთაო საკუთრების წინადადების
+write-instruction-second-part = წინადადებისა საყოველთაო საკუთრებიდან
 write-page-subtitle = აქ შემოწირული წინადადებები დაემატება საჯაროდ ხელმისაწვდომ კრებულს cc-0 ლიცენზიით.
 sentence =
     .label = წინადადება
@@ -1802,8 +1802,8 @@ sc-redirect-page-subtitle-2 = კითხვების დასასმე�
 # BULK SUBMISSION 
 sc-bulk-upload-instruction-first-part = ატვირთვა
 sc-bulk-upload-instruction-second-part = წინადადებებისა საყოველთაო საკუთრებიდან
-drag-your-file-here = ჩავლებით გადმოიტანეთ თქვენი ფაილი ასატვირთად
-drop-file-here = ჩავლებით გადმოიტანეთ ფაილი ასატვირთად
+drag-your-file-here = ჩავლებით გადმოიტანეთ ასატვირთად
+drop-file-here = ჩავლებით გადმოიტანეთ ასატვირთად
 try-upload-again = კვლავ სცადეთ ფაილის ჩავლებით გადმოტანით
 try-upload-again-md = კვლავ სცადეთ ატვირთვა
 or-conjuction = ან
