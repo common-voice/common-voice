@@ -507,7 +507,7 @@ faq-how-calc-hours-q = Kā Common Voice aprēķina stundas?
 faq-how-calc-hours-a = Mēs aprēķinām stundas, aprēķinot katra ieraksta vidējo garumu un tad reizinot šo skaitu ar kopējo ierakstu skaitu visās valodās.
 faq-where-src-from-2-q = No kurienes nāk teksti ierakstiem?
 faq-where-src-from-2-a =
-    Mūsu teksti sastāv no sākotnējiem ierakstiem, kā arī no publiskā domēna filmu subtitriem, piemēram, <italic>It’s a Wonderful Life</italic>.
+    Mūsu teksti sastāv no sākotnējiem ierakstiem, kā arī no publiskā īpašuma filmu subtitriem, piemēram, <italic>It’s a Wonderful Life</italic>.
     
     Jūs varat apskatīt mūsu teikumus šajā <githubLink> GitHub mapē </githubLink>.
 faq-why-not-ask-read-q = Kāpēc jūs nelūdzat, lai cilvēki lasītu grāmatas vai Wikipedia rakstus dažādās valodās?
@@ -614,7 +614,7 @@ about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollec
 about-playbook-how-add-language-collecting-sentences-content-2 =
     Varat <sentenceCollectorLinkAdd>pievienot nelielu skaitu teikumu</sentenceCollectorLinkAdd>,
     vai arī varat veikt <bulkImportDocsLink>lielapjoma importēšanu, izmantojot Github</bulkImportDocsLink>.
-    Atcerieties, ka teikumiem ir jābūt <licenseLink>CC0 (vai publiskajam domēnam)</licenseLink>, vai arī varat rakstīt savus.
+    Atcerieties, ka teikumiem ir jābūt <licenseLink>CC0 (vai publiskajam īpašumam)</licenseLink>, vai arī varat rakstīt savus.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Skatiet vairāk par teikumu apkopošanu</sentenceCollectorFragment>.
 
 ## How does localization work
@@ -685,7 +685,7 @@ glossary = Apraksts
 localization = Lokalizācija
 localization-explanation = Šis ir mūsu process, lai tulkotu un pielāgotu mūsu saturu daudzām vietnēm (valodām).
 sentence-collection = Teikumu kolekcija
-sentence-collection-explanation = Iegūt teikumus no publiskā domēna (public domain) vai rakstīt jaunus publiskā domēna tekstus.
+sentence-collection-explanation = Iegūt teikumus no publiskā īpašuma (public domain) vai rakstīt jaunus publiskā īpašuma tekstus.
 hours-recorded-explanation = Līdz šim savākto balss ierakstu stundu skaits.
 hours-validated-explanation = Balss ieraksta stundu skaits, ko apstiprinājuši 2 no 3 lietotājiem, balsojot „jā”. Tie iezīmē progresu virzībā uz vispārējo projekta 10k stundu mērķi.
 sst = Runa uz tekstu (STT)
@@ -1469,9 +1469,9 @@ sc-logout-button = Beigt darbu
 ## HOME
 
 sc-home-title = Laipni lūdzam Common Voice Teikumu apkopotājā
-sc-home-intro = Teikumu apkopotājs ir daļa no <commonVoiceLink>Common Voice</commonVoiceLink>. Tas ļauj projekta dalībniekiem apkopot un apstiprināt kopienas atlasītos teikumus. Varat izmantot šo rīku arī, lai importētu un pārbaudītu maza un vidēja lieluma publiskā domēna teikumu kolekcijas, ko esat atradis vai savācis. Visiem teikumiem ir jābūt publiski pieejamiem. Apstiprinātie teikumi katru nedēļu tiek eksportēti uz Common Voice repozitoriju un tiek izlaisti Common Voice tīmekļa vietnē līdz ar nākamo laidienu.
+sc-home-intro = Teikumu apkopotājs ir daļa no <commonVoiceLink>Common Voice</commonVoiceLink>. Tas ļauj projekta dalībniekiem apkopot un apstiprināt kopienas atlasītos teikumus. Varat izmantot šo rīku arī, lai importētu un pārbaudītu maza un vidēja lieluma publiskā īpašuma teikumu kolekcijas, ko esat atradis vai savācis. Visiem teikumiem ir jābūt publiski pieejamiem. Apstiprinātie teikumi katru nedēļu tiek eksportēti uz Common Voice repozitoriju un tiek izlaisti Common Voice tīmekļa vietnē līdz ar nākamo laidienu.
 sc-home-collect-title = Teikumu apkopošana
-sc-home-collect-text = Palīdziet mums, rakstot vai apkopojot publiskā domēna teikumus.
+sc-home-collect-text = Palīdziet mums, rakstot vai apkopojot publiskā īpašuma teikumus.
 sc-home-review-title = Pārskatiet teikumus
 sc-home-review-text = Palīdziet mums, pārskatot teikumu pareizību saskaņā ar vadlīnijām.
 
@@ -1485,7 +1485,7 @@ sc-howto-title = Padomi
 sc-howto-addlang-title = Valodu pievienošana darbam
 sc-howto-addlang-text = Kad esat pieslēdzies, profila sadaļā varat izvēlēties savas valodas.
 sc-howto-addsen-title = Pievienojiet jaunus teikumus
-sc-howto-addsen-item-1 = Visiem jūsu iesniegtajiem teikumiem ir jāatbilst <wikipediaLink>Publiskā domēna (CC-0) licencei</wikipediaLink>. Lai atbalstītu tādu darbu iekļaušanu, kuriem nav publiskas licences, esam izveidojuši <cc0WaiverLink>Ieguldījuma līguma veidni</cc0WaiverLink> darbiem, kuru autortiesību īpašnieks vēlas iesniegt materiālu Common Voice.
+sc-howto-addsen-item-1 = Visiem jūsu iesniegtajiem teikumiem ir jāatbilst <wikipediaLink>Publiskā īpašuma (CC-0) licencei</wikipediaLink>. Lai atbalstītu tādu darbu iekļaušanu, kuriem nav publiskas licences, esam izveidojuši <cc0WaiverLink>Ieguldījuma līguma veidni</cc0WaiverLink> darbiem, kuru autortiesību īpašnieks vēlas iesniegt materiālu Common Voice.
 sc-howto-addsen-item-2 = Skaitļi. Teikuma tekstā nedrīkst būt cipari, jo tie var radīt problēmas, ierunājot tos. Skaitļa izruna ir atkarīga no konteksta un var radīt kļūdas datu kopā. Piemēram, skaitli “2409” var izrunāt gan kā “divdesmit četri nulle deviņi”, gan “divi tūkstoši četri simti deviņi”.
 sc-howto-addsen-item-3 = Saīsinājumi un akronīmi. Avota tekstā ir jāizvairās no saīsinājumiem un akronīmiem, piemēram, “ASV” vai “ICE”, jo tie var tikt lasīti tā, ka tie nesakrīt ar to pareizrakstību. Turklāt vienam saīsinājumam var būt vairāki precīzi rādījumi. Piemēram, akronīmu “ICE” var izrunāt kā “I-C-E” vai kā vienu vārdu.
 sc-howto-addsen-item-4 = Pieturzīmes. Speciālie simboli un pieturzīmes jāiekļauj tikai tad, ja tas ir absolūti nepieciešams. Piemēram, apostrofs ir iekļauts tādos angļu valodas vārdos kā “don't” un “we're”, un tas ir jāiekļauj avota tekstā, taču maz ticams, ka jums kādreiz būs nepieciešams īpašs simbols, piemēram, “@” vai “#”. Latviešu valodā jāmēģina atbrīvoties no visām pieturzīmēm un speciālajiem simboliem, kas nav nepieciešami.
@@ -1496,7 +1496,7 @@ sc-howto-cite-title = Kā norādīt avotu
 sc-howto-cite-pre-1 = Ir svarīgi norādīt, kur atradāt publiski pieejamos tekstus, lai izvairītos no plaģiāta un ļautu sekot līdzi <copyrightIssuesLink>autortiesību problēmām</copyrightIssuesLink>. Šeit ir daži veidi, kā varat citēt darbu.
 sc-howto-cite-item-1 = Varat iekļaut vietni, piemēram, "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Varat izmantot akadēmisko atsauces stilu, piemēram, Hārvardas stilu "Mozilla (2021) Common Voice. Pieejams vietnē https://commonvoice.mozilla.org/ (Piekļuve: 2021. gada 15. septembrī)"
-sc-howto-cite-item-3 = Publiskā domēna tekstam, kas nav pieejams tiešsaistē, varat izmantot akadēmisko atsauces stilu, piemēram, Hārvardas stilu "Džess (2021) Mani dzejoļi par publisko licenci"
+sc-howto-cite-item-3 = Publiskā īpašuma tekstam, kas nav pieejams tiešsaistē, varat izmantot akadēmisko atsauces stilu, piemēram, Hārvardas stilu "Džess (2021) Mani dzejoļi par publisko licenci"
 sc-howto-review-title = Pārskatiet teikumus
 sc-howto-review-subtitle = Pārliecinieties, vai teikums atbilst šādiem kritērijiem:
 sc-howto-review-criteria-1 = Teikumam jābūt uzrakstītam pareizi, bez drukas kļūdām.
@@ -1505,9 +1505,9 @@ sc-howto-review-criteria-3 = Teikumam jābūt izrunājamam.
 sc-howto-review-criteria-4 = Ja teikums atbilst visiem kritērijiem, noklikšķiniet uz pogas "Apstiprināt".
 sc-howto-review-criteria-5 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Noraidīt". Ja neesat pārliecināts par teikumu, varat to arī izlaist un pāriet uz nākamo.
 sc-howto-review-criteria-6 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
-sc-howto-findpd-title = Kā atrast brīvi pieejamus publiskā domēna teikumus
+sc-howto-findpd-title = Kā atrast brīvi pieejamus publiskā īpašuma teikumus
 sc-howto-findpd-subtitle = Meklējiet tos internetā
-sc-howto-findpd-text-2 = Atcerieties, ka mums ir nepieciešama atļauja publicēt šos teikumus, tāpēc vienmēr pārliecinieties, vai teksts pieder <wikipediaLink>publiskajam domēnam</wikipediaLink>. Ja nav skaidras norādes, sazinieties ar personu, kurai teksts pieder, un jautājiet, vai tā vēlas nodot savu tekstu publiskajā domēnā. Ja viņi vēlas, palīdziet viņiem izpildīt <cc0WaiverLink>Ieguldījumu līguma</cc0WaiverLink> procesu. Ja viņi nevēlas pievienot tekstu, jums nav atļauts izmantot šo tekstu.
+sc-howto-findpd-text-2 = Atcerieties, ka mums ir nepieciešama atļauja publicēt šos teikumus, tāpēc vienmēr pārliecinieties, vai teksts pieder <wikipediaLink>publiskajam īpašumam</wikipediaLink>. Ja nav skaidras norādes, sazinieties ar personu, kurai teksts pieder, un jautājiet, vai tā vēlas nodot savu tekstu publiskajā domēnā. Ja viņi vēlas, palīdziet viņiem izpildīt <cc0WaiverLink>Ieguldījumu līguma</cc0WaiverLink> procesu. Ja viņi nevēlas pievienot tekstu, jums nav atļauts izmantot šo tekstu.
 sc-howto-findpd-tips = Šeit ir daži padomi, kā atrast teikumus:
 sc-howto-findpd-tips-1 = Labākie avoti, kur varat meklēt, ir podkāsti, stenogrammas, filmu scenāriji un viss, kas var ietvert ikdienas sarunas.
 sc-howto-findpd-tips-2 = Valdības sēžu stenogrammas, grāmatas un raksti arī ir lieliski, taču, tā kā teksts mēdz būt nedaudz formālāks, tiem ir mazāka prioritāte.
@@ -1913,7 +1913,8 @@ sentence-input-value = Ievadiet šeit savu publiski pieejamo teikumu, kas nav ai
 citation-input-value = Jūsu teikuma avots
 citation =
     .label = Atsauce
-what-can-i-add = Kādus teikumus es varu pievienot?
+sc-write-submit-confirm = Es apliecinu, ka šis teikums ir <wikipediaLink>publiskā īpašuma</wikipediaLink> un man ir atļauja to ielādēt.
+sc-review-write-title = Kādus teikumus es varu pievienot?
 new-sentence-rule-1 = <noCopyright>Nav autortiesību</noCopyright> ierobežojumu (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Mazāk par 15 vārdiem
 new-sentence-rule-3 = Ir gramatiski pareizi
@@ -1930,6 +1931,10 @@ contact-us = Sazināties ar mums
 add-sentence-success = Savākts 1 teikums
 add-sentence-error = Kļūda pievienojot teikumu
 required-field = Lūdzu aizpildiet šo lauku.
+single-sentence-submission = Viena teikuma pievienošana
+bulk-sentence-submission = Vairāku teikumu pievienošana
+single-sentence = Viens teikums
+bulk-sentences = Vairāki teikumi
 # REVIEW PAGE
 sc-review-instruction-first-part = Pārbaudi
 sc-review-instruction-second-part = vai šis ir lingvistiski pareizs teikums?
@@ -1944,3 +1949,16 @@ review-error-rate-limit-exceeded = Jūs strādājat pārāk ātri. Lūdzu veltie
 sc-redirect-page-title = Mēs veicam dažas lielas izmaiņas
 sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad varat <writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> teikumus Common Voice sistēmā.
 sc-redirect-page-subtitle-2 = Uzdodiet mums jautājumus <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> vai rakstot <emailLink>e-pastu</emailLink>.
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = Augšupielādēt
+sc-bulk-upload-instruction-second-part = publiskā īpašuma teikumi
+drag-your-file-here = Ievelciet šeit datni ko augšupielādēt
+drop-file-here = Nometiet šeit datni ko augšupielādēt
+try-upload-again = Mēģiniet vēlreiz ievilkt šeit datni ko augšupielādēt
+try-upload-again-md = Mēģiniet augšupielādēt vēlreiz
+or-conjuction = vai
+select-file = Izvēlieties datni
+select-file-mobile = Atlasiet augšupielādējamo datni
+accepted-files = Atbalstītie datņu veidi: tikai .tsv
+maximum-file-size = Maksimālais datnes izmērs: 25 MB
+what-needs-to-be-in-file = Kam ir jābūt manā datnē?
