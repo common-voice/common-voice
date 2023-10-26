@@ -138,7 +138,7 @@ ms = Malasia ñe’ẽ
 mt = Malta ñe’ẽ
 my = Burma ñe’ẽ
 myv = Erzya ñe’ẽ
-nan-tw = Taiwán ñe’e (Minnan)
+nan-tw = Taiwán ñe’ẽ (Minnan)
 nb-NO = Noruega ñe’ẽ
 nd = IsiNdebele (Yvatévo)
 ne-NP = Nepali ñe’ẽ
@@ -307,7 +307,7 @@ x-years-short =
 help-make-dataset = Orepytyvõ romoheñóivo mba’ekuaarã ijurujáva ha opavavépe g̃uarã
 sign-up-account = Eñemboheraguapy ne mba’eterã
 email-subscription-title = eñemboheraguapy tog̃uahẽ marandu ñandutivevépe
-email-subscription-title-new = Eñemboheraguapy og̃uahẽ hag̃ua marandu, mandu’arã ha ñembohekopyahu Common Voice rehegua
+email-subscription-title-new = Eñemboheraguapy tog̃uahẽ marandu, mandu’arã ha mbohekopyahu Common Voice rehegua
 
 ## Account Benefits
 
