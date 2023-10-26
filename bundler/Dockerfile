@@ -8,7 +8,7 @@ USER node
 
 RUN mkdir -p /home/node/code && \
     cd /home/node && \
-    git clone --depth 1 -b release-v1.0.0 https://github.com/common-voice/CorporaCreator.git && \
+    git clone --depth 1 -b release-v1.0.1 https://github.com/common-voice/CorporaCreator.git && \
     cd CorporaCreator && \
     python3 setup.py install --user
 
