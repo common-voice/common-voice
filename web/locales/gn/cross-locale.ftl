@@ -13,6 +13,6 @@ get-involved-opt-in = Héẽ, peguerukami chéve marandu. Aikuaasénte mba’éi
 get-involved-submit = Emondo
 get-involved-stayintouch = Ore Mozilla-ygua romongakuaa tapicha aty omba’apóva tembiporu ñe’ẽ jeporúpyre. Akói roikuaase oĩ jave mba’e térã kuaapyrã pyahu ha rohendu hag̃ua mba’éichapa eiporu kuaapyrã.
 get-involved-privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha kuaapyrã nde reheguáva. Emoñe’ẽve kóva ore <privacyLink>ko’ápe</privacyLink>.
-get-involved-success-title = Reiketéma reipytyvõ hag̃ua { $language } ñe’ẽme. Aguyje jo’ajo’a upéva rehe.
+get-involved-success-title = Reikéma reipytyvõ hag̃ua { $language } ñe’ẽme. Aguyje jo’ajo’a upéva rehe.
 get-involved-success-text = Roñatõita katuete oĩma guive maranduve eiporukuaáta vove.
 get-involved-return-to-languages = Ejevy Ñe’ẽnguérape
