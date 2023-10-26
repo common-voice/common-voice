@@ -253,10 +253,10 @@ donate = Ñeme’ẽ
 ## Home Page
 
 home-title = Common Voice niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe’ẽvo ijayvuháicha yvypóra.
-default-tagline = Common Voice niko Mozilla rembiapo oipytyvõva máquina-kuéra ijayvuháicha yvypóra.
-home-cta = ¡Eñe’ẽ, eipytyvõmína ápe!
-wall-of-text-start = Ñande ahy’o pu niko yvypóra mba’etee. Upévare roipytyvõseterei oĩ hag̃ua ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe’ẽryapu ñongatupyre.
-wall-of-text-more-mobile = Haimete opa ñe’ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Ore roimo’ã ndaupeichaiva’erã. Upévare romoheñói Aponde’a Common Voice, roipotágui opavave oiporukuaa ñe’ẽ rembiporu.
+default-tagline = Common Voice niko Mozilla rembiapo oipytyvõva makinakuéra ijayvuháicha yvypóra.
+home-cta = ¡Eñe’ẽ, eipytyvõmíkena ápe!
+wall-of-text-start = Ñande ahy’o pu niko yvypóra mba’etee. Upéva rehe roipytyvõseterei oĩ hag̃ua ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe’ẽryapu ñongatupyre.
+wall-of-text-more-mobile = Haimete opa ñe’ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upéva rehe ndaopavavéi oiporukuaa. Ore roimo’ã ndaupeichaiva’erã. Upévare romoheñói Aponde’a Common Voice, roipotágui opavave oiporukuaa ñe’ẽ rembiporu.
 wall-of-text-more-desktop =
     Ko’ág̃a eme’ẽkuaáma nde ayvu ha eipytyvõ jajapo hag̃ua ñe’ẽ ha ñe’ẽjoaju ryapu apesã opavavépe g̃uarã
     ojeporukuaáva tembiporu’i, mba’e’okápe ñandutípe. Emoñe’ẽ hatã ñe’ẽjoaju ikatu hag̃ua máquina oikuaa mba’éichapa hy’apu ne ñe’ẽ.
