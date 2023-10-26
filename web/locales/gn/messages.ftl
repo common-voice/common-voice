@@ -1086,7 +1086,7 @@ share-goal-type-speak = Ayvúpe
 share-goal-type-listen = Ohenduhína
 share-goal-type-both = Ñe’ẽ ñembohyapu ha Ñemoneĩ
 # LINK will be replaced with the current URL
-goal-share-text = Amohendarao che jehupytyrã ame’ẽ hag̃ua che ahy’o #CommonVoice-pe, eike emba’apo chendive ikatu hag̃ua jareko tembiporu oikũmby ha ohaíva oje’éva chupe opavavépe g̃uarã: { $link }
+goal-share-text = Amoheñóivo jehupytyrã ame’ẽvo che ayvu #CommonVoice-pe -- eike ha ore pytyvõ mohendaha embo’évo mba’éichapa oñe’ẽ yvypóra { $link }
 weekly-goal-created = Oñemohendáma rehupytyséva arapokõindy ñavõme.
 daily-goal-created = Oñemohendáma rehupytyséva ára ñavõme
 track-progress = Ehapykueho ne rembiapo ko’ápe ha avei Jepapara’ãnga’i roguépe.
@@ -1095,10 +1095,10 @@ share-goal = Emoherakuã che jehupytyrã
 
 ## Profile Delete
 
-delete-q = Reipotápa avei oñemboguepa ñe’ẽryapu eme’ẽva’ekue térã oĩ porãpa opytáramo umíva Common Voice kuaapyryrúpe?
+delete-q = Reipotápa avei oñemboguepa ñe’ẽryapu eme’ẽva’ekue térã oĩ porãpa opytáramo umíva Common Voice kuaapyryrúpe
 keep = Eñongatu
 remove = Mboguete
-keep-info = Ñe’ẽryapu ñongatupyre rejapova’ekue opytáta Common Voice kuaapyryrúpe. Emboguéramo nde roguetee ndaikatumo’ãvéima rejerure oñembogue hag̃ua ñe’ẽryapu reme’ẽva’ekue.
+keep-info = Ñe’ẽryapu ñongatupyre rejapova’ekue opytátama Common Voice kuaapyryrúpe. Emboguéramo nde roguetee ndaikatumo’ãvéima rejerure oñembogue hag̃ua ñe’ẽryapu reme’ẽva’ekue.
 remove-info = Rohechamíta rejerureva’ekue, ha’evahína pe oñemboguepa hag̃ua ñe’ẽryapu reme’ẽva’ekue oĩva kuaapyryrúpe. Oñemoneĩramo ejeruréva ko’ág̃a, roñe’ẽta avei umi omboguejyva’ekue kuaapyryru ndive rojerure hag̃ua chupekuéra tombogue hag̃ua avei ne rembiapokue oguerekóva hikuái.
 why-delete-recordings =
     Common Voice ñe’ẽryapu ñongatupyre oiporu tapicha mbo’ehaovusu ha empresa michĩmegua, ha avei umi oguerojeráva tembiporu oikũmby ha ohaikuaáva oje’éva chupe.
@@ -1210,7 +1210,7 @@ contribution-misreadings-example-7-explanation = [Ani ‘a’ moñe’ẽrã yp�
 contribution-misreadings-example-8-title = Pe mberuguasu ohasa pya’eterei.
 contribution-misreadings-example-8-explanation = [Tetepy ojokupyty’ỹva]
 contribution-varying-pronunciations-title = Je’epyre Hekoetáva
-contribution-varying-pronunciations-description = Ejesarekóke rembotove mboyve peteĩ jekutúpe heʼívo pe omoñe’ẽva omoñe’ẽvaihague peteĩ ñe’ẽ, omoĩvaihague térã haʼetévaicha ndojesarekoihague peteĩ kytaporandu rehe. Ko yvóra tuichakuére ojeporu hetaiterei ñembohyapu, ha ikatu oĩ nerehendúiva ne ava’atýpe. Peme’ẽmi peteĩ aguyjeme’ẽ pa’ũme umi ikatúva oñe’ẽ ambuéva pendehegui.
+contribution-varying-pronunciations-description = Ejesarekóke rembotove mboyve peteĩ jekutúpe heʼívo pe omoñe’ẽva omoñe’ẽvaihague peteĩ ñe’ẽ, omoĩvaihague térã haʼetévaicha ndojesarekoihague peteĩ kytaporandu rehe. Ko yvóra tuichakuére ojeporu hetaiterei ñe’ẽ ñembohyapu, ha ikatu oĩ nerehendúiva ne ava’atýpe. Peme’ẽmi peteĩ aguyjeme’ẽ pa’ũme umi ikatúva oñe’ẽ ambuéva pendehegui.
 contribution-varying-pronunciations-description-extended = Ambueháicha, peichahágui eguerovia mba’éramo pe moñe’ẽhára araka’eve ndohechamo’ãi pe ñe’ẽ ha oimo’ãreínte ojavývo pe iñemboayvu pukue, ha pévare omboyke. Ndereikuaa porãiramo, eiporu pe votõ Jepo.
 contribution-varying-pronunciations-example-1-title = Oguerekohína iñakã rehe akão.
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ oĩporã imyanduhéramo jepe ñe’ẽpehẽ peteĩhápe (Reino Unido) térã mokõihápe (EE.UU.)]
