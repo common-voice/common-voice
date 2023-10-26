@@ -538,6 +538,10 @@ about-playbook-how-grow-language-content-6 = ਹਿੱਸੇਦਾਰ ਅਤੇ 
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-3 = ਪਰਦੇਦਾਰੀ, ਸੁਰੱਖਿਆ ਅਤੇ ਪਾਰਦਰਸ਼ਤਾ।
+about-playbook-how-project-governance-content-4 = ਕਮਿਊਨਟੀ ਵਲੋਂ ਹਿੱਸਾ ਲੈਣਾ ਅਤੇ ਫੈਸਲੇ ਕਰਨੇ।
+about-playbook-how-project-governance-content-5 = ਮੁੱਲ ਅਤੇ ਪਛਾਣ।
+about-playbook-how-project-governance-content-6 = ਆਪਸੀ ਜਵਾਬਦੇਹੀ।
 
 ## Glossary
 
@@ -562,6 +566,8 @@ data-other-title = …ਹੋਰ ਆਵਾਜ਼ ਡਾਟਾ-ਸਮੂਹ
 data-other-goto = { $name } ‘ਤੇ ਜਾਓ
 data-other-download = ਡਾਟਾ ਡਾਊਨਲੋਡ ਕਰੋ
 data-bundle-button = ਡਾਟਾ-ਸਮੂਹ ਬੰਡਲ ਡਾਊਨਲੋਡ ਕਰੋ
+release-version = ਵਰਜ਼ਨ
+dataset-date = ਤਾਰੀਖ
 license = ਲਸੰਸ: <licenseLink>{ $license }</licenseLink>
 license-mixed = ਰਲਵੇਂ
 terms-agree = ਮੈਂ ਸਹਿਮਤ ਹਾਂ
