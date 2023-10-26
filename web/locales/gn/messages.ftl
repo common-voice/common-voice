@@ -258,9 +258,9 @@ home-cta = ¡Eñe’ẽ, eipytyvõmíkena ápe!
 wall-of-text-start = Ñande ahy’o pu niko yvypóra mba’etee. Upéva rehe roipytyvõseterei oĩ hag̃ua ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe’ẽryapu ñongatupyre.
 wall-of-text-more-mobile = Haimete opa ñe’ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upéva rehe ndaopavavéi oiporukuaa. Ore roimo’ã ndaupeichaiva’erã. Upévare romoheñói Aponde’a Common Voice, roipotágui opavave oiporukuaa ñe’ẽ rembiporu.
 wall-of-text-more-desktop =
-    Ko’ág̃a eme’ẽkuaáma nde ayvu ha eipytyvõ jajapo hag̃ua ñe’ẽ ha ñe’ẽjoaju ryapu apesã opavavépe g̃uarã
-    ojeporukuaáva tembiporu’i, mba’e’okápe ñandutípe. Emoñe’ẽ hatã ñe’ẽjoaju ikatu hag̃ua máquina oikuaa mba’éichapa hy’apu ne ñe’ẽ.
-    Ehendu ambuéva rembiapo ha eremi oĩporãpa. ¡Pévante ejapo eipytyvõ hag̃ua!
+    Eme’ẽkuaáma nde ayvu ha eipytyvõ jajapo hag̃ua ñe’ẽ ha ñe’ẽjoaju ryapu apesã opaitépe g̃uarã
+    ojeporukuaátava oñemoheñói hag̃ua tembiporu’i pyahu mba’e’oka ha ñandutípe. Emoñe’ẽ hatã ñe’ẽjoaju ikatu hag̃ua mohendaha oikuaa ne ñe’ẽ ry’apu.
+    Ehendu ambuéva rembiapo ha eremi oĩporãpa. ¡Ndahasyiete!
 wall-of-text-first =
     Ñe’ẽ yvypóra mba’e. Upévare rovy’a rojapóvo ko tembiapo, roikuave’ẽse tembiporu ñe’ẽ ñembohyapurã ikatu hag̃uáicha máquina ohai ha ojapokuaa oje’éva chupe.
     Upevarã roikotevẽ hetaite ñe’ẽryapu ñongatupyre.
@@ -270,7 +270,7 @@ wall-of-text-second =
 show-wall-of-text = Emoñe’ẽve
 help-us-title = ¡Orepytyvõ rohechajeývo ñe’ẽjoaju!
 help-us-explain = Ejopy Tahendu, ehendu ha eremi oréve: ombohyapu porãpa ñe’ẽjoaju mboyveguáva
-no-clips-to-validate = Ha’etévaicha ndaiporiha ñe’ẽryapu ñongatupyre ko ñe’ẽme g̃uarã. Orepytyvõmína ha eñe’ẽñongatumi avei.
+no-clips-to-validate = Ha’etévaicha ndaiporiha ñe’ẽryapu ñongatupyre ko ñe’ẽme g̃uarã. Orepytyvõmíkena ha eñe’ẽñongatumi avei.
 vote-yes = Héẽ
 vote-no = Nahániri
 toggle-play-tooltip = Ejopy { shortcut-play-toggle } emoambuévo teko ñembopúpe
@@ -278,12 +278,12 @@ speak-subtitle = Eme’ẽmi nde ayvu
 speak-paragraph = Ñañongatukuévo ñe’ẽryapu ñamongakuaa ñe’ẽryapu rupa opavavépe g̃uarã jaguerekóva ha oĩ he’íva péva iporãveha.
 speak-goal-text = Ñe’ẽryapu ñongatupyre
 listen-subtitle = Orepytyvõ rohechajeývo ñe’ẽjoaju
-listen-paragraph = Tuichamba’e pe ñe’ẽryapu jeporavo Common Voice-pe g̃uarã. Eguapy sapy’aite ha orepytyvõ roiporavõ hag̃ua ñe’ẽryapu ikatúva oiporu opavave.
+listen-paragraph = Tuichamba’e pe ñe’ẽryapu jeiporavo Common Voice-pe g̃uarã. Eguapy sapy’aite ha orepytyvõ roiporavõ hag̃ua ñe’ẽryapu ikatúva oiporu opavave.
 listen-goal-text = Ñe’ẽryapu moneĩmbyre
 hours-recorded = Aravo ñongatupyre
 hours-validated = Aravo moneĩmbyre
 voices-online = Ahy’o Oĩva ko’ág̃a Ñandutípe
-todays-progress = Mboýpa ñaneakãrapu’ã ko árape
+todays-progress = Mboýpa ñañakãrapu’ã ko árape
 help-reach-goal = Orepytyvõmi rohupytývo { $goal }
 read-terms-q = ¿Remoñe’ẽma ore mbojojaha?
 ready-to-record = Reimémapa eme’ẽ hag̃ua nde ayvu
@@ -306,7 +306,7 @@ x-years-short =
     }
 help-make-dataset = Orepytyvõ romoheñóivo mba’ekuaarã ijurujáva ha opavavépe g̃uarã
 sign-up-account = Eñemboheraguapy ne mba’eterã
-email-subscription-title = eñemboheraguapy ou hag̃ua marandu ñandutivevépe
+email-subscription-title = eñemboheraguapy tog̃uahẽ marandu ñandutivevépe
 email-subscription-title-new = Eñemboheraguapy og̃uahẽ hag̃ua marandu, mandu’arã ha ñembohekopyahu Common Voice rehegua
 
 ## Account Benefits
