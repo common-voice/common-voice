@@ -1,12 +1,17 @@
 import fs from 'node:fs'
 import path from 'node:path'
+import { Transform } from 'node:stream'
 import { streamingQuery } from '../infrastructure/database'
-import { Transform, Writable } from 'node:stream'
+import { streamDownloadFileFromBucket } from '../infrastructure/storage'
 import { ClipRow } from '../types'
 import { taskEither as TE } from 'fp-ts'
 import { hashClientId } from './clients'
-import { streamDownloadFileFromBucket } from '../infrastructure/storage'
-import { getClipsBucketName, getIncludeClipsFrom, getIncludeClipsUntil, getReleaseBasePath } from '../config/config'
+import {
+  getClipsBucketName,
+  getIncludeClipsFrom,
+  getIncludeClipsUntil,
+  getReleaseBasePath,
+} from '../config/config'
 
 const CLIPS_BUCKET = getClipsBucketName()
 
@@ -28,9 +33,12 @@ const TSV_COLUMNS = [
 const printLn = (text: string) => text + '\n'
 
 const writeFileStreamToTsv = (locale: string) => {
-  const writeStream = fs.createWriteStream(`clips_${locale}.tsv`, {
-    encoding: 'utf-8',
-  })
+  const writeStream = fs.createWriteStream(
+    path.join(getReleaseBasePath(), locale, 'clips.tsv'),
+    {
+      encoding: 'utf-8',
+    },
+  )
   writeStream.write(printLn(TSV_COLUMNS.join('\t')))
   return writeStream
 }
@@ -100,7 +108,7 @@ export const fetchAllClipsForLocale = (
   return TE.tryCatch(
     () =>
       new Promise<void>((resolve, reject) => {
-        const stream = streamingQuery(
+        const { conn, stream } = streamingQuery(
           fs.readFileSync(
             path.join(__dirname, '..', '..', 'queries', 'bundleLocale.sql'),
             { encoding: 'utf-8' },
@@ -113,6 +121,7 @@ export const fetchAllClipsForLocale = (
           .pipe(transformClips(isMinorityLanguage))
           .pipe(writeFileStreamToTsv(locale))
           .on('finish', () => {
+            conn.end()
             resolve()
           })
           .on('error', err => reject(err))

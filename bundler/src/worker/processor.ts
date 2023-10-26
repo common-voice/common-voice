@@ -7,6 +7,7 @@ import { ProcessLocaleJob } from '../types'
 import { io as IO, taskEither as TE } from 'fp-ts'
 import { Job } from 'bullmq'
 import { getReleaseBasePath } from '../config/config'
+import { runCorporaCreator } from '../infrastructure/corporaCreator'
 
 const prepareDir =
   (locale: string): IO.IO<void> =>
@@ -23,10 +24,11 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
   await pipe(
     TE.Do,
     TE.bind('isMinorityLanguage', () => isMinorityLanguage(locale)),
-    TE.tap(() => TE.fromIO(prepareDir(locale))),
-    TE.tap(({ isMinorityLanguage }) =>
+    TE.chainFirst(() => TE.fromIO(prepareDir(locale))),
+    TE.chainFirst(({ isMinorityLanguage }) =>
       fetchAllClipsForLocale(locale, isMinorityLanguage),
     ),
+    TE.chainFirst(() => runCorporaCreator(locale))
   )()
 
   // query db for all clips
