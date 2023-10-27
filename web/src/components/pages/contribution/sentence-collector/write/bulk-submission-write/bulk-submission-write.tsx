@@ -59,8 +59,7 @@ const BulkSubmissionWrite = () => {
     <div className="bulk-upload-container" data-testid="bulk-upload-container">
       <div className="upload-and-instruction">
         <Instruction
-          firstPartId="sc-bulk-upload-instruction-first-part"
-          secondPartId="sc-bulk-upload-instruction-second-part"
+          localizedId="sc-bulk-upload-instruction"
           icon={<UploadIcon />}
         />
         <div className="upload-dropzone-and-rules">

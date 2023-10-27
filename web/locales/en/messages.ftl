@@ -1693,7 +1693,7 @@ reviewing-sentences-explanation-3 = If you are unsure about the sentence, you ma
 reviewing-sentences-explanation-4 = If you run out of sentences to review, please help us collect more sentences!
 
 # WRITE PAGE
-write-instruction-second-part = a public domain sentence
+write-instruction = Add <icon></icon> a public domain sentence
 write-page-subtitle = Sentences contributed here will be added to a publicly available cc-0 licensed dataset.
 sentence = 
     .label = Sentence
@@ -1741,12 +1741,12 @@ sc-redirect-page-subtitle-1 = The Sentence Collector is moving to the core Commo
 sc-redirect-page-subtitle-2 = Ask us questions on <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
 
 # BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Upload
-sc-bulk-upload-instruction-second-part = public domain sentences
+sc-bulk-upload-instruction = Upload <icon></icon> public domain sentences
 drag-your-file-here = Drag your file here to upload
 drop-file-here = Drop file here to upload
 try-upload-again = Try again by dragging your file here
 try-upload-again-md = Try uploading again
+# TODO: fix this key
 or-conjuction = or
 select-file = Select File
 select-file-mobile = Select File to Upload

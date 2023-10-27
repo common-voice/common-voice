@@ -37,11 +37,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
 
   return (
     <div className="inputs-and-instruction">
-      <Instruction
-        firstPartId="sc-header-add"
-        secondPartId="write-instruction-second-part"
-        icon={<EditIcon />}
-      />
+      <Instruction localizedId="write-instruction" icon={<EditIcon />} />
       <Localized id="write-page-subtitle">
         <p className="subtitle" />
       </Localized>
