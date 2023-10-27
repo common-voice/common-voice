@@ -1,12 +1,14 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
+import { RouteComponentProps, withRouter } from 'react-router';
 import NavigationPrompt from 'react-router-navigation-prompt';
 
 import { Clip as ClipType } from 'common';
 import { trackListening, getTrackClass } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
+import { AbortContributionModalActions } from '../../../../stores/abort-contribution-modal';
 import StateTree from '../../../../stores/tree';
 import API from '../../../../services/api';
 import URLS from '../../../../urls';
@@ -18,6 +20,7 @@ import {
   ThumbsUpIcon,
   VolumeIcon,
 } from '../../../ui/icons';
+import { Button, Spinner } from '../../../ui/ui';
 import ContributionPage, {
   ContributionPillProps,
   SET_COUNT,
@@ -26,11 +29,9 @@ import { Notifications } from '../../../../stores/notifications';
 import { PlayButton } from '../../../primary-buttons/primary-buttons';
 import Pill from '../pill';
 import ListenErrorContent from './listen-error-content';
+import Modal, { ModalButtons } from '../../../modal/modal';
 
 import './listen.css';
-import { RouteComponentProps, withRouter } from 'react-router';
-import { Button, Spinner } from '../../../ui/ui';
-import Modal, { ModalButtons } from '../../../modal/modal';
 
 const VOTE_NO_PLAY_MS = 3000; // Threshold when to allow voting no
 
@@ -69,6 +70,8 @@ interface PropsFromDispatch {
   removeClip: typeof Clips.actions.remove;
   vote: typeof Clips.actions.vote;
   addAchievement: typeof Notifications.actions.addAchievement;
+  setAbortContributionModalVisible: typeof AbortContributionModalActions.setAbortContributionModalVisible;
+  setAbortConfirmed: typeof AbortContributionModalActions.setAbortConfirmed;
 }
 
 interface Props
@@ -269,6 +272,25 @@ class ListenPage extends React.Component<Props, State> {
 
   private reset = () => this.setState(initialState);
 
+  private setAbortContributionModalVisiblity = (
+    abortContributionModalVisibilty: boolean
+  ) => {
+    const { setAbortContributionModalVisible } = this.props;
+    setAbortContributionModalVisible(abortContributionModalVisibilty);
+  };
+
+  private handleAbortCancel = (onCancel: () => void) => {
+    onCancel();
+    this.props.setAbortConfirmed(false);
+    this.setAbortContributionModalVisiblity(false);
+  };
+
+  private handleAbortConfirm = (onConfirm: () => void) => {
+    onConfirm();
+    this.props.setAbortConfirmed(true);
+    this.setAbortContributionModalVisiblity(false);
+  };
+
   render() {
     const { isLoading, hasLoadingError } = this.props;
     const { clips, hasPlayed, hasPlayedSome, isPlaying, isSubmitted } =
@@ -283,31 +305,47 @@ class ListenPage extends React.Component<Props, State> {
         <div id="listen-page">
           {noClips && isLoading && <Spinner delayMs={500} />}
           {!isSubmitted && (
-            <NavigationPrompt when={clips.some(clip => clip.isValid !== null)}>
-              {({ onCancel, onConfirm }) => (
-                <Modal innerClassName="listen-abort" onRequestClose={onCancel}>
-                  <Localized id="record-abort-title">
-                    <h1 className="title" />
-                  </Localized>
-                  <Localized id="record-abort-text">
-                    <p className="text" />
-                  </Localized>
-                  <ModalButtons>
-                    <Localized id="listen-abort-continue">
-                      <Button
-                        outline
-                        rounded
-                        onClick={() => {
-                          onCancel();
-                        }}
-                      />
+            <NavigationPrompt
+              when={() => {
+                const isUnvalidatedClips = clips.some(
+                  clip => clip.isValid !== null
+                );
+
+                if (isUnvalidatedClips) {
+                  this.setAbortContributionModalVisiblity(true);
+                }
+                return isUnvalidatedClips;
+              }}>
+              {({ onCancel, onConfirm }) => {
+                return (
+                  <Modal
+                    innerClassName="listen-abort"
+                    onRequestClose={onCancel}>
+                    <Localized id="record-abort-title">
+                      <h1 className="title" />
                     </Localized>
-                    <Localized id="listen-abort-finish">
-                      <Button outline rounded onClick={onConfirm} />
+                    <Localized id="record-abort-text">
+                      <p className="text" />
                     </Localized>
-                  </ModalButtons>
-                </Modal>
-              )}
+                    <ModalButtons>
+                      <Localized id="listen-abort-cancel">
+                        <Button
+                          outline
+                          rounded
+                          onClick={() => this.handleAbortCancel(onCancel)}
+                        />
+                      </Localized>
+                      <Localized id="listen-abort-confirm">
+                        <Button
+                          outline
+                          rounded
+                          onClick={() => this.handleAbortConfirm(onConfirm)}
+                        />
+                      </Localized>
+                    </ModalButtons>
+                  </Modal>
+                );
+              }}
             </NavigationPrompt>
           )}
           <audio
@@ -461,6 +499,9 @@ const mapDispatchToProps = {
   removeClip: Clips.actions.remove,
   vote: Clips.actions.vote,
   addAchievement: Notifications.actions.addAchievement,
+  setAbortContributionModalVisible:
+    AbortContributionModalActions.setAbortContributionModalVisible,
+  setAbortConfirmed: AbortContributionModalActions.setAbortConfirmed,
 };
 
 export default connect<PropsFromState, any>(
