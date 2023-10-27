@@ -1693,7 +1693,7 @@ sentence-input-value = آپݨاں عوامی ڈومین جملہ اتھ درج �
 citation-input-value = تہاݙے جملے دا ماخذ
 citation =
     .label = حوالہ ݙیوݨ
-what-can-i-add = میں کہڑی قسم دے جملے شامل کر سڳداں؟
+sc-review-write-title = میں کہڑے جملے شامل کر سڳداں؟
 new-sentence-rule-1 = <noCopyright>کوئی حق نقل </noCopyright> پابندیاں کائنی (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = 15 کنوں تھوڑے لفظ
 new-sentence-rule-3 = درست گرائمر ورتو
@@ -1709,6 +1709,10 @@ contact-us = ساݙے نال رابطہ کرو
 add-sentence-success = 1 جملہ کٹھا تھیا
 add-sentence-error = جملے شامل کرݨ وچ خرابی
 required-field = براہ مہربانی ایں خانے کوں پُر کرو۔
+single-sentence-submission = کلھا جملہ جمع کرواوݨ
+bulk-sentence-submission = ڈھڳ جملے جمع کرواوݨ
+single-sentence = کلھا جملہ
+bulk-sentences = ڈھڳ جملے
 # REVIEW PAGE
 sc-review-instruction-first-part = پڑٹال کرو
 sc-review-instruction-second-part = بھلا ایہ لسانی طور تے درست جملہ ہے؟
@@ -1721,3 +1725,15 @@ review-error = ایں جملے دی نظرثانی وچ خرابی تھی ڳئی
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اساں کجھ وݙیاں تبدیلیاں کریندے پئے ہیں
 sc-redirect-page-subtitle-2 = ساݙے کنوں <matrixLink>میٹرکس</matrixLink>، <discourseLink>ڈسکورس</discourseLink> یا <emailLink>ای میل</emailLink> بارے سوالات پُچھو۔
+# BULK SUBMISSION 
+sc-bulk-upload-instruction-first-part = اپ لوڈ کرو
+sc-bulk-upload-instruction-second-part = عوامی ڈومین جملے
+or-conjuction = یا
+select-file = فائل چݨو
+select-file-mobile = اپ لوڈ کرݨ کیتے فائل چݨو
+sc-bulk-submit-confirm = میں تصدیق کرینداں جو ایہ جملہ <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں انہاں دے اپ لوڈ کرݨ دی اجازت ہے۔
+upload-more-btn-text = ٻئے جملے اپ لوڈ کروں؟
+file-invalid-type = غلط فائل
+file-too-large = فائل ٻہوں وݙی ہے
+file-too-small = فائل ٻہوں چھوٹی ہے
+too-many-files = ٻہوں ساریاں فائلاں
