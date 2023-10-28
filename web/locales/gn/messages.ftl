@@ -269,8 +269,8 @@ wall-of-text-second =
     Roimo’ã naiporãiha ha romoñepyrũ ko tembiapoguasu Common Voice, roipotágui opavave oiporu ñe’ẽ ñembohyapu ha monguatia.
 show-wall-of-text = Emoñe’ẽve
 help-us-title = ¡Orepytyvõ rohechajeývo ñe’ẽjoaju!
-help-us-explain = Ejopy Tahendu, ehendu ha eremi oréve: ombohyapu porãpa ñe’ẽjoaju mboyveguáva
-no-clips-to-validate = Ha’etévaicha ndaiporiha ñe’ẽryapu ñongatupyre ko ñe’ẽme g̃uarã. Orepytyvõmíkena ha eñe’ẽñongatumi avei.
+help-us-explain = Ejopy tahendu, ehendu ha eremi oréve: ombohyapu porãpa ñe’ẽjoaju mboyveguáva
+no-clips-to-validate = Ha’etévaicha ndaiporiha ñe’ẽryapu ñongatupyre ko ñe’ẽme g̃uarã. Orepytyvõmíkena ha peñe’ẽñongatumi avei.
 vote-yes = Héẽ
 vote-no = Nahániri
 toggle-play-tooltip = Ejopy { shortcut-play-toggle } emoambuévo teko ñembopúpe
@@ -285,10 +285,10 @@ hours-validated = Aravo moneĩmbyre
 voices-online = Ahy’o Oĩva ko’ág̃a Ñandutípe
 todays-progress = Mboýpa ñañakãrapu’ã ko árape
 help-reach-goal = Orepytyvõmi rohupytývo { $goal }
-read-terms-q = ¿Remoñe’ẽma ore mbojojaha?
-ready-to-record = Reimémapa eme’ẽ hag̃ua nde ayvu
+read-terms-q = Remoñe’ẽmapa ore mbojojaha
+ready-to-record = Reme’ẽkuámapa nde ayvu
 all-locales = Opavave
-today = Ko’árape
+today = Ko ára
 x-weeks-short =
     { $count ->
         [one] Arapokõindy
@@ -311,11 +311,11 @@ email-subscription-title-new = Eñemboheraguapy tog̃uahẽ marandu, mandu’ar�
 
 ## Account Benefits
 
-benefits = Iporãva gueruha
-rich-data = Ikatu hag̃uáicha umi mba’ekuaarã emondóva toĩporãmba, ohechaukáva mba’ekuaarã yvypóra rehegua ojekuaa'ỹva. Umi mba’ekuaarã noñemoherakuãmo’ãi avavetépe.
-improve-audio = Marandu mba’ete rehegua omoporãve mba’epu ojeporúva osẽ porãve hag̃uáicha ñe’ẽ ñeikũmby.
-keep-track = Eikuaa tapiaite mba’éichapa oguata ohóvo ne rembiapo ha avei ambue ñe’ẽ rembiapo.
-compare-progress = Ehecha akóinte máva rembiapópab itenondeve ñande yvy ape ári.
+benefits = Mba’eporã
+rich-data = Ikatu hag̃ua umi mba’ekuaarã emondóva toĩporãmba, ohechaukáva mba’ekuaarã yvypóra rehegua ojekuaa’ỹva. Umi mba’ekuaarã noñemoherakuãmo’ãi avavetépe.
+improve-audio = Marandu mba’ete rehegua omoporãve mba’epu ojeporúva osẽ porãve hag̃ua ñe’ẽ ñeikũmby.
+keep-track = Eikuaa tapiaite mba’éichapa oguata ne rembiapo ha avei ambue ñe’ẽ rembiapo.
+compare-progress = Ehecha akóinte máva rembiapópa itenondeve ñande yvy ape ári.
 view-goals = Ehecha moõmapa reg̃uahẽ ne rembiapo ha rejaposévape.
 join-newsletter = Reikekuaa ore rerarysýipe romog̃uahẽ hag̃ua ndéve marandu ipyahúva apopyrã rehegua.
 
