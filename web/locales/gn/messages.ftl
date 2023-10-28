@@ -363,16 +363,16 @@ request-language-button = Ejerure peteĩ Ñe’ẽ
 
 ## ProjectStatus
 
-status-title = Mba’éichapa oikohína aponde’a: ehecha mboypevépa jahupytýma!
-status-contribute = Eme’ẽ nde ahy’o
+status-title = ¡Mba’éicha oiko aponde’a: ehecha mboýmapa ohupyty!
+status-contribute = Eme’ẽ nde ahy’o pu
 status-hours =
     { $hours ->
-        [one] Peteĩ aravóma oñemoneĩ ko’ág̃a peve!
-       *[other] { $hours } aravóma oñemoneĩ ko’ág̃a peve!
+        [one] ¡Peteĩ aravóma oñemoneĩ ko’ág̃a peve!
+       *[other] { $hours } ¡aravóma oñemoneĩ ko’ág̃a peve!
     }
 # Variables:
 # $goal - number of hours representing the next goal
-status-goal = Jahupytyséva Avei: { $goal }
+status-goal = Jahupytyséva avei: { $goal }
 english = Inglés ñe’ẽ
 
 ## ProfileForm
@@ -387,12 +387,12 @@ profile-form-language =
     .label = Ñe’ẽ
 profile-form-variant =
     .label = ¿Mba’eichaguaite { $language } eñe’ẽ?
-profile-form-variant-default-value = Ndaipóri ambuegua poravopyre
+profile-form-variant-default-value = Ndaipóri ambue poravopyre
 profile-form-accent =
     .label = Muanduhe
 profile-form-custom-accent-help-text =
-    .label = ¿Mba’éicha emoha’ãngáta ne myanduhe?
-profile-form-custom-accent-placeholder-2 = Eñepyrũ ehai emoha’ãnga hag̃ua ne myanduhe
+    .label = Mba’éichapa emoha’ãnga ne myanduhe
+profile-form-custom-accent-placeholder-2 = Ehai emoha’ãnga hag̃ua ne myanduhe
 profile-form-age =
     .label = Ary
 profile-form-gender-2 =
@@ -402,7 +402,7 @@ leaderboard-visibility =
 hidden = Kañygua
 visible = Hecháva
 native-language =
-    .label = Ñe’ẽ ñepyrũ
+    .label = Ñe’ẽ ypyrguáva
 profile-form-add-accent = Embojuaju myanduhe pyahu mba’etepyre "{ $inputValue }"
 profile-form-submit-save = Ñongatu
 profile-form-submit-saved = Ñongatupyre
@@ -410,11 +410,11 @@ male = Kuimba’e
 female = Kuña
 # Gender
 other = Ambue
-why-profile-title = ¿Mba’ére peteĩ mba’ete?
+why-profile-title = Mba’érepa mba’ete
 why-profile-text =
-    Emombe’umivéramo nde rehegua oipytyvõta ñe’ẽryapu ojeporu porãve hag̃ua.
+    Emombe’umivéramo nde rehegua oipytyvõta opaite ñe’ẽryapu ojeporu porãve hag̃ua.
     Tembiporu oñeha’ãva ohaívo ohendúva oiporu remombe’úva ohai porãve hag̃ua.
-dashboard = Tembiporu Renda’ypy
+dashboard = Tabléro
 build-profile = Hemoheñói Mba’ete
 avatar = Avatar
 goals = Hupytyrã
