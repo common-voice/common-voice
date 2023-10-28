@@ -243,18 +243,18 @@ terms = Mbojojaha
 cookies = Cookie-kuéra
 faq = Oñeporanduvéva
 content-license-text = Mba’ekuaa ojeporukuaa <licenseLink>Creative Commons license</licenseLink>rupive.
-share-title = Orepytyvõ rojuhúvo orepytyvõséva ijahy’o rupi.
-share-text = Eipytyvõ embo’évo máquina toñe’ẽ oñe’ẽháicha yvypóra, eipytyvõ nde ahy’o rupi { $link }
-link-copied = Joajuha oĩma Oñembohasa hag̃uáicha
-back-top = Ehojey Yvatépe
-logout = Esẽ
+share-title = Oreykeko rojuhúvo orepytyvõséva ijayvúpe.
+share-text = Eipytyvõ embo’évo máquina toñe’ẽ oñe’ẽháicha yvypóra, eipytyvõ nde ayvúpe { $link }
+link-copied = Joajuha Monguatiapyre
+back-top = Ehojey Yvate gotyo
+logout = Emboty
 donate = Ñeme’ẽ
 
 ## Home Page
 
-home-title = Common Voice niko Mozilla rembiapo oipytyvõva máquina-kuéra oñe’ẽvo ijayvuháicha yvypóra.
-default-tagline = Common Voice niko Mozilla rembiapo oipytyvõva makinakuéra ijayvuháicha yvypóra.
-home-cta = ¡Eñe’ẽ, eipytyvõmíkena ápe!
+home-title = Common Voice Mozilla rembiapo oipytyvõva mohendhápe oñe’ẽvo ijayvuháicha yvypóra.
+default-tagline = Common Voice ha’e Mozilla rembiapo oipytyvõva makinakuéra ijayvuháicha yvypóra.
+home-cta = ¡Eñe’ẽ, eipytyvõmi ko’ápe!
 wall-of-text-start = Ñande ahy’o pu niko yvypóra mba’etee. Upéva rehe roipytyvõseterei oĩ hag̃ua ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe’ẽryapu ñongatupyre.
 wall-of-text-more-mobile = Haimete opa ñe’ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upéva rehe ndaopavavéi oiporukuaa. Ore roimo’ã ndaupeichaiva’erã. Upévare romoheñói Aponde’a Common Voice, roipotágui opavave oiporukuaa ñe’ẽ rembiporu.
 wall-of-text-more-desktop =
