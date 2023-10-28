@@ -316,16 +316,16 @@ rich-data = Ikatu hag̃ua umi mba’ekuaarã emondóva toĩporãmba, ohechaukáv
 improve-audio = Marandu mba’ete rehegua omoporãve mba’epu ojeporúva osẽ porãve hag̃ua ñe’ẽ ñeikũmby.
 keep-track = Eikuaa tapiaite mba’éichapa oguata ne rembiapo ha avei ambue ñe’ẽ rembiapo.
 compare-progress = Ehecha akóinte máva rembiapópa itenondeve ñande yvy ape ári.
-view-goals = Ehecha moõmapa reg̃uahẽ ne rembiapo ha rejaposévape.
-join-newsletter = Reikekuaa ore rerarysýipe romog̃uahẽ hag̃ua ndéve marandu ipyahúva apopyrã rehegua.
+view-goals = Ehecha moõpa reg̃uahẽ ne rembiapo ha rejaposévape.
+join-newsletter = Reikekuaa ore rerarysýipe romog̃uahẽ hag̃ua ndéve marandu ipyahuvéva apopyrã rehegua.
 
 ## What's public
 
 whats-public = Mba’épa ojehechakuaáta
 email-not-public = Noromoherakuãmo’ãi ne ñanduti veve.
-recordings-and-locale-public = Mboýpa eñe’ẽñongatu ha umi ñe’ẽ eipytyvõhague ohechakuaáta opavavete.
+recordings-and-locale-public = Mboýmapa eñe’ẽñongatu ha umi ñe’ẽ eipytyvõhague ohechakuaáta opavavete.
 username-optin-public = Erekuaa avei reipotápa ojekuaa poruhára réra térã ñemíme.
-demographic-deidentified-clarity-2 = Kuaapyrã avano’õ rehegua remoĩkuaáva avei (techapyrãrõ aryve, meña, ñe’ẽte ha ñembohyapu reko) ndojekuaaukamo’ãi araka’eve nde roguetépe, ha noñembojoajumo’ãi avei nde poruhára rérare kuaapy’atýpe. Mba’erendurã oñembojoajúta kuaapy avano’õ rehegua rehe ikatu hag̃uáicha oñehesa’ỹijoporãve mba’ekuaapy - techapyrã oĩrõ tembiporu apohára omoheñoiséva tembiporu tetã térã tetãpehẽme g̃uarã.
+demographic-deidentified-clarity-2 = Kuaapyrã avano’õ rehegua remoĩkuaáva avei (techapyrãrõ aryve, meña, ñe’ẽte ha ñembohyapu reko) ndojekuaaukamo’ãi araka’eve nde roguetépe, ha noñembojoajumo’ãi avei poruhára rérare kuaapy’atýpe. Mba’erendurã oñembojoajúta kuaapy avano’õ rehegua rehe ikatu hag̃uáicha oñehesa’ỹijoporãve mba’ekuaapy - techapyrã oĩrõ tembiporu apohára omoheñoiséva tembiporu tetã térã tetãpehẽme g̃uarã.
 username-email-not-demographic = Mavave ndoikuaamo’ãi poruhára réra ni ñanduti veve oiporukuévo ñe’ẽryapu.
 
 ## Speak & Listen Shortcuts
@@ -359,7 +359,7 @@ shortcut-discard-ongoing-recording-label = Emboyke ñeñongatu oikóva
 shortcut-submit = Jevy
 shortcut-submit-label = Emondo clips
 request-language-text = Nderejuhúipiko ne ñe’ẽ’ypy Common Voice ndive
-request-language-button = Ejererure toñembojoapy avei ambue ñe’ẽ
+request-language-button = Ejerure peteĩ Ñe’ẽ
 
 ## ProjectStatus
 
