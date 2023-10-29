@@ -1370,7 +1370,7 @@ sc-submit-guidelines = Eporandu umi <howToLink>jejaporã</howToLink>.
 sc-add-lang-could-not-add = Noñembojuajukuaái ñe’ẽ
 sc-add-lang-sec-label = Embojuaju peteĩ ñe’ẽ eipytyvõsévape
 sc-add-lang-sec-button = Embojuaju Ñe’ẽ
-sc-add-err-unexpected = Oujey ñembohovái eha’arõ’ỹva mohendahavusúgui
+sc-add-err-unexpected = Oujey ñembohovái eha’ãrõ’ỹva mohendahavusúgui
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
