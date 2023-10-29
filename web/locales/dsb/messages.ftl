@@ -1576,6 +1576,7 @@ background-noise-tip-2 = [Źěl teksta njejo słyšaś]
 background-voices-example-1 = Wjelicke dinosawriery triasa. [cyta se wót jadnogo głosa]
 still-have-questions = Maśo hyšći pšašanja?
 contact-common-voice = Stajśo z teamom Common Voice do zwiska
+citing-sentences = Sady citěrowaś
 adding-sentences = Sady pśidaś
 reviewing-sentences = Sady pśeglědaś
 citing-sentences-subheader-websites = Websedła
