@@ -1637,6 +1637,7 @@ adding-sentences-subheader-numbers = سانلار
 adding-sentences-subheader-abbreviations = قىسقارتىش ۋە قىسقا ئاتلار
 adding-sentences-subheader-punctuation = تىنىش بەلگىلىرى
 adding-sentences-subheader-special-characters = ئالاھىدە ھەرپلەر ۋە چەتئەل ھەرپلىرى
+adding-sentences-subheader-special-characters-explanation-1 = سۆزلىنىۋاتقان تىلدا ھەرپلەر كۈچكە ئىگە بولۇشى كېرەك. مەسىلەن، «ж» رۇس ئېلىپبەسىدىكى ھەرپ، ئەمما ئىنگلىزچىدا ھەرگىز ئىشلىتىلمەيدۇ، شۇڭا ھېچقانداق ئىنگلىزچە تېكىستتە كۆرۈنمەسلىكى كېرەك.
 adding-sentences-subheader-special-characters-explanation-2 = تىللار يەرلىكلەشتۈرۈلگەندە قوشۇمچە تەلەپلەر بىلەن ئۆزىنىڭ دەلىللەش قائىدىسىگە ئىگە بولالايدۇ. ئەگەر بىر تىلنىڭ كونكرېت دەلىللەش ھۆججىتى بولمىسا ، ئىنگلىزچە قائىدىلەر تۆھپىكارلارغا كۆرسىتىلىدۇ.
 adding-sentences-subheader-offensive-content = تېرىكتۈرىدىغان مەزمۇن
 reviewing-sentences-explanation-1 = ئەگەر بۇ جۈملە يۇقىرىدىكى ئۆلچەمگە توشسا، «بولۇپتۇ» توپچىسى بېسىلىدۇ.
