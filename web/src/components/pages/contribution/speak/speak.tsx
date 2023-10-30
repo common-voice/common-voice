@@ -10,6 +10,7 @@ const NavigationPrompt = require('react-router-navigation-prompt').default;
 import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
 import { Sentences } from '../../../../stores/sentences';
+import { AbortContributionModalActions } from '../../../../stores/abort-contribution-modal';
 import { Sentence as SentenceType } from 'common';
 import StateTree from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
@@ -68,6 +69,8 @@ interface PropsFromDispatch {
   tallyRecording: typeof User.actions.tallyRecording;
   refreshUser: typeof User.actions.refresh;
   updateUser: typeof User.actions.update;
+  setAbortContributionModalVisible: typeof AbortContributionModalActions.setAbortContributionModalVisible;
+  setAbortConfirmed: typeof AbortContributionModalActions.setAbortConfirmed;
 }
 
 interface Props
@@ -385,7 +388,7 @@ class SpeakPage extends React.Component<Props, State> {
       tallyRecording,
       user,
       refreshUser,
-      getString
+      getString,
     } = this.props;
 
     if (!hasAgreed && !(user.privacyAgreed || user.account)) {
@@ -555,6 +558,25 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
+  private setAbortContributionModalVisiblity = (
+    abortContributionModalVisibilty: boolean
+  ) => {
+    const { setAbortContributionModalVisible } = this.props;
+    setAbortContributionModalVisible(abortContributionModalVisibilty);
+  };
+
+  private handleAbortCancel = (onCancel: () => void) => {
+    onCancel();
+    this.props.setAbortConfirmed(false);
+    this.setAbortContributionModalVisiblity(false);
+  };
+
+  private handleAbortConfirm = (onConfirm: () => void) => {
+    onConfirm();
+    this.props.setAbortConfirmed(true);
+    this.setAbortContributionModalVisiblity(false);
+  };
+
   render() {
     const { getString, user, isLoading, hasLoadingError } = this.props;
     const {
@@ -594,7 +616,7 @@ class SpeakPage extends React.Component<Props, State> {
                         rounded
                         className={getTrackClass('fs', 'exit-submit-clips')}
                         onClick={() => {
-                          if (this.upload()) onConfirm();
+                          if (this.upload()) this.handleAbortConfirm(onConfirm);
                         }}
                       />
                     </Localized>
@@ -606,7 +628,7 @@ class SpeakPage extends React.Component<Props, State> {
                           'fs',
                           'exit-continue-recording'
                         )}
-                        onClick={onCancel}
+                        onClick={() => this.handleAbortCancel(onCancel)}
                       />
                     </Localized>
                   </ModalButtons>
@@ -803,6 +825,9 @@ const mapDispatchToProps = {
   tallyRecording: User.actions.tallyRecording,
   refreshUser: User.actions.refresh,
   updateUser: User.actions.update,
+  setAbortContributionModalVisible:
+    AbortContributionModalActions.setAbortContributionModalVisible,
+  setAbortConfirmed: AbortContributionModalActions.setAbortConfirmed,
 };
 
 export default withRouter(
