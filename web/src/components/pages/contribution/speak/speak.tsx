@@ -10,7 +10,10 @@ const NavigationPrompt = require('react-router-navigation-prompt').default;
 import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
 import { Sentences } from '../../../../stores/sentences';
-import { AbortContributionModalActions } from '../../../../stores/abort-contribution-modal';
+import {
+  AbortContributionModalActions,
+  AbortContributionModalStatus,
+} from '../../../../stores/abort-contribution-modal';
 import { Sentence as SentenceType } from 'common';
 import StateTree from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
@@ -70,7 +73,7 @@ interface PropsFromDispatch {
   refreshUser: typeof User.actions.refresh;
   updateUser: typeof User.actions.update;
   setAbortContributionModalVisible: typeof AbortContributionModalActions.setAbortContributionModalVisible;
-  setAbortConfirmed: typeof AbortContributionModalActions.setAbortConfirmed;
+  setAbortStatus: typeof AbortContributionModalActions.setAbortStatus;
 }
 
 interface Props
@@ -567,13 +570,13 @@ class SpeakPage extends React.Component<Props, State> {
 
   private handleAbortCancel = (onCancel: () => void) => {
     onCancel();
-    this.props.setAbortConfirmed(false);
+    this.props.setAbortStatus(AbortContributionModalStatus.REJECTED);
     this.setAbortContributionModalVisiblity(false);
   };
 
   private handleAbortConfirm = (onConfirm: () => void) => {
     onConfirm();
-    this.props.setAbortConfirmed(true);
+    this.props.setAbortStatus(AbortContributionModalStatus.CONFIRMED);
     this.setAbortContributionModalVisiblity(false);
   };
 
@@ -600,7 +603,16 @@ class SpeakPage extends React.Component<Props, State> {
           {noNewClips && isLoading && <Spinner delayMs={500} />}
           {!isSubmitted && (
             <NavigationPrompt
-              when={clips.filter(clip => clip.recording).length > 0}>
+              when={() => {
+                const clipsToRecord =
+                  clips.filter(clip => clip.recording).length > 0;
+
+                if (clipsToRecord) {
+                  this.setAbortContributionModalVisiblity(true);
+                }
+
+                return clipsToRecord;
+              }}>
               {({ onConfirm, onCancel }: any) => (
                 <Modal innerClassName="record-abort" onRequestClose={onCancel}>
                   <Localized id="record-abort-title">
@@ -827,7 +839,7 @@ const mapDispatchToProps = {
   updateUser: User.actions.update,
   setAbortContributionModalVisible:
     AbortContributionModalActions.setAbortContributionModalVisible,
-  setAbortConfirmed: AbortContributionModalActions.setAbortConfirmed,
+  setAbortStatus: AbortContributionModalActions.setAbortStatus,
 };
 
 export default withRouter(

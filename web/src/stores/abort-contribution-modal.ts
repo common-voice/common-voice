@@ -1,13 +1,19 @@
 import { Dispatch } from 'redux'
 
+export enum AbortContributionModalStatus {
+  CONFIRMED = 'CONFIRMED',
+  REJECTED = 'REJECTED',
+  INACTIVE = 'INACTIVE',
+}
+
 export type AbortContributionModalState = {
   modalVisible: boolean | null
-  abortConfirmed: boolean | null
+  abortStatus: AbortContributionModalStatus
 }
 
 export enum AbortContributionModalActionType {
   SET_MODAL_VISIBILITY = 'SET_MODAL_VISIBILITY',
-  ABORT_CONFIRMED = 'ABORT_CONFIRMED',
+  SET_ABORT_STATUS = 'SET_ABORT_STATUS',
 }
 
 interface SetAbortContributionModalAction {
@@ -15,14 +21,14 @@ interface SetAbortContributionModalAction {
   isAbortContributionModalVisible: boolean
 }
 
-interface SetAbortConfirmedAction {
-  type: AbortContributionModalActionType.ABORT_CONFIRMED
-  isAbortConfirmed: boolean
+interface SetAbortStatusAction {
+  type: AbortContributionModalActionType.SET_ABORT_STATUS
+  abortStatus: AbortContributionModalStatus
 }
 
 export type AbortContributionModalAction =
   | SetAbortContributionModalAction
-  | SetAbortConfirmedAction
+  | SetAbortStatusAction
 
 export const AbortContributionModalActions = {
   setAbortContributionModalVisible:
@@ -34,19 +40,19 @@ export const AbortContributionModalActions = {
       })
     },
 
-  setAbortConfirmed:
-    (isAbortConfirmed: boolean) =>
-    (dispatch: Dispatch<SetAbortConfirmedAction>) => {
+  setAbortStatus:
+    (abortStatus: AbortContributionModalStatus) =>
+    (dispatch: Dispatch<SetAbortStatusAction>) => {
       dispatch({
-        type: AbortContributionModalActionType.ABORT_CONFIRMED,
-        isAbortConfirmed,
+        type: AbortContributionModalActionType.SET_ABORT_STATUS,
+        abortStatus,
       })
     },
 }
 
 const INITIAL_STATE: AbortContributionModalState = {
   modalVisible: null,
-  abortConfirmed: null,
+  abortStatus: AbortContributionModalStatus.INACTIVE,
 }
 
 export function abortContributionModalReducer(
@@ -59,14 +65,16 @@ export function abortContributionModalReducer(
         ...state,
         modalVisible: action.isAbortContributionModalVisible,
         ...(action.isAbortContributionModalVisible === true
-          ? { abortConfirmed: null }
+          ? {
+              abortStatus: AbortContributionModalStatus.INACTIVE,
+            }
           : {}),
       }
 
-    case AbortContributionModalActionType.ABORT_CONFIRMED:
+    case AbortContributionModalActionType.SET_ABORT_STATUS:
       return {
         ...state,
-        abortConfirmed: action.isAbortConfirmed,
+        abortStatus: action.abortStatus,
       }
 
     default:

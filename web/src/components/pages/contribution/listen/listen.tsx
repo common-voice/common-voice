@@ -8,7 +8,10 @@ import { Clip as ClipType } from 'common';
 import { trackListening, getTrackClass } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
-import { AbortContributionModalActions } from '../../../../stores/abort-contribution-modal';
+import {
+  AbortContributionModalActions,
+  AbortContributionModalStatus,
+} from '../../../../stores/abort-contribution-modal';
 import StateTree from '../../../../stores/tree';
 import API from '../../../../services/api';
 import URLS from '../../../../urls';
@@ -71,7 +74,7 @@ interface PropsFromDispatch {
   vote: typeof Clips.actions.vote;
   addAchievement: typeof Notifications.actions.addAchievement;
   setAbortContributionModalVisible: typeof AbortContributionModalActions.setAbortContributionModalVisible;
-  setAbortConfirmed: typeof AbortContributionModalActions.setAbortConfirmed;
+  setAbortStatus: typeof AbortContributionModalActions.setAbortStatus;
 }
 
 interface Props
@@ -281,13 +284,13 @@ class ListenPage extends React.Component<Props, State> {
 
   private handleAbortCancel = (onCancel: () => void) => {
     onCancel();
-    this.props.setAbortConfirmed(false);
+    this.props.setAbortStatus(AbortContributionModalStatus.REJECTED);
     this.setAbortContributionModalVisiblity(false);
   };
 
   private handleAbortConfirm = (onConfirm: () => void) => {
     onConfirm();
-    this.props.setAbortConfirmed(true);
+    this.props.setAbortStatus(AbortContributionModalStatus.CONFIRMED);
     this.setAbortContributionModalVisiblity(false);
   };
 
@@ -321,7 +324,7 @@ class ListenPage extends React.Component<Props, State> {
                   <Modal
                     innerClassName="listen-abort"
                     onRequestClose={onCancel}>
-                    <Localized id="record-abort-title">
+                    <Localized id="listen-abort-title">
                       <h1 className="title" />
                     </Localized>
                     <Localized id="record-abort-text">
@@ -501,7 +504,7 @@ const mapDispatchToProps = {
   addAchievement: Notifications.actions.addAchievement,
   setAbortContributionModalVisible:
     AbortContributionModalActions.setAbortContributionModalVisible,
-  setAbortConfirmed: AbortContributionModalActions.setAbortConfirmed,
+  setAbortStatus: AbortContributionModalActions.setAbortStatus,
 };
 
 export default connect<PropsFromState, any>(
