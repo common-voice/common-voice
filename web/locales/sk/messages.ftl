@@ -257,7 +257,7 @@ default-tagline = Mozilla Common Voice je iniciatíva, ktorá pomáha strojom u�
 home-cta = Hovorte a prispejte svojím hlasom tu!
 wall-of-text-start =
     Reč je prirodzená a ľudská. Preto chceme vytvoriť použiteľnú technológiu rozpoznávania reči 
-    pre naše stroje. by sme ju však mohli vytvoriť, potrebujeme veľké množstvo 
+    pre naše stroje. Aby sme ju však mohli vytvoriť, potrebujeme veľké množstvo 
     hlasových údajov.
 wall-of-text-more-mobile = Väčšina údajov, ktoré používajú veľké spoločnosti nie je dostupná pre väčšinu ľudí. Myslíme si, že to zdržuje inovácie. Preto sme spustili Common Voice, projekt, ktorý sprístupní rozpoznávanie reči pre všetkých.
 wall-of-text-more-desktop =
@@ -267,7 +267,7 @@ wall-of-text-more-desktop =
     dobrovoľníkov a vylepšite jej kvalitu. Je to také jednoduché!
 wall-of-text-first =
     Reč je prirodzená a ľudská. Preto chceme vytvoriť použiteľnú technológiu rozpoznávania reči 
-    pre naše stroje. by sme ju však mohli vytvoriť, potrebujeme veľké množstvo hlasových údajov.
+    pre naše stroje. Aby sme ju však mohli vytvoriť, potrebujeme veľké množstvo hlasových údajov.
 wall-of-text-second =
     Väčšina údajov, ktoré používajú veľké spoločnosti nie je dostupná pre väčšinu ľudí. Myslíme si, že to zdržuje inovácie.
     Preto sme spustili Common Voice, projekt, ktorý sprístupní rozpoznávanie reči pre všetkých.
