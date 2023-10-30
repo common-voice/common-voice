@@ -18,6 +18,7 @@ type Props = {
   removeBulkSubmission: () => void
   startUpload: () => void
   fileRejections: FileRejection[]
+  openDialog: () => void
 }
 
 const UploadZoneContent: React.FC<Props> = ({
@@ -28,6 +29,7 @@ const UploadZoneContent: React.FC<Props> = ({
   removeBulkSubmission,
   startUpload,
   fileRejections,
+  openDialog,
 }) => {
   const [confirmPublicDomain, setConfirmPublicDomain] = React.useState(false)
 
@@ -109,14 +111,9 @@ const UploadZoneContent: React.FC<Props> = ({
         isDragActive={isDragActive}
         isUploadError={uploadStatus === 'error'}
         fileRejections={fileRejections}
+        openDialog={openDialog}
       />
-      <Localized id="or-conjuction">
-        <p className="or-conjunction hidden-md-down" />
-      </Localized>
-      <Button className="hidden-md-down" data-testid="select-file">
-        <Localized id="select-file" />
-      </Button>
-      <Button className="hidden-lg-up">
+      <Button className="hidden-lg-up" onClick={openDialog}>
         <Localized id="select-file-mobile" />
       </Button>
       <div className="file-restrictions">

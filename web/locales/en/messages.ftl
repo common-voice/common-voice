@@ -1740,13 +1740,11 @@ sc-redirect-page-subtitle-1 = The Sentence Collector is moving to the core Commo
 sc-redirect-page-subtitle-2 = Ask us questions on <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
 
 # BULK SUBMISSION 
-sc-bulk-upload-instruction = Upload <icon></icon> public domain sentences
-drag-your-file-here = Drag your file here to upload
-drop-file-here = Drop file here to upload
+sc-bulk-upload-header-text = Upload <icon></icon> public domain sentences
+sc-bulk-upload-instruction = Drag your file here or <uploadButton>click to upload</uploadButton>
+sc-bulk-upload-instruction-drop = Drop file here to upload
 try-upload-again = Try again by dragging your file here
 try-upload-again-md = Try uploading again
-# TODO: fix this key
-or-conjuction = or
 select-file = Select File
 select-file-mobile = Select File to Upload
 accepted-files = Accepted file types: .tsv only
