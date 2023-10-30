@@ -1,34 +1,25 @@
-import path from 'node:path'
-import fs from 'node:fs'
 import { pipe } from 'fp-ts/lib/function'
-import { fetchAllClipsForLocale } from '../core/clips'
+import { runFetchAllClipsForLocale } from '../core/clips'
 import { isMinorityLanguage } from '../core/ruleOfFive'
 import { ProcessLocaleJob } from '../types'
-import { io as IO, taskEither as TE } from 'fp-ts'
+import { taskEither as TE } from 'fp-ts'
 import { Job } from 'bullmq'
-import { getReleaseBasePath } from '../config/config'
 import { runCorporaCreator } from '../infrastructure/corporaCreator'
-
-const prepareDir =
-  (locale: string): IO.IO<void> =>
-  () => {
-    const dirPath = path.join(getReleaseBasePath(), locale, 'clips')
-    console.log(`Creating ${dirPath}`)
-    fs.mkdirSync(dirPath, { recursive: true })
-  }
+import { runCompress } from '../core/compress'
 
 export const processLocale = async (job: Job<ProcessLocaleJob>) => {
-  const locale = job.data.locale
-  console.log('Starting to process locale', locale)
-
   await pipe(
     TE.Do,
-    TE.bind('isMinorityLanguage', () => isMinorityLanguage(locale)),
-    TE.chainFirst(() => TE.fromIO(prepareDir(locale))),
-    TE.chainFirst(({ isMinorityLanguage }) =>
-      fetchAllClipsForLocale(locale, isMinorityLanguage),
+    TE.let('locale', () => job.data.locale),
+    TE.chainFirst(({ locale }) =>
+      TE.of(console.log('Starting to process locale', locale)),
     ),
-    TE.chainFirst(() => runCorporaCreator(locale))
+    TE.bind('isMinorityLanguage', ({ locale }) => isMinorityLanguage(locale)),
+    TE.chainFirst(({ locale, isMinorityLanguage }) =>
+      runFetchAllClipsForLocale(locale, isMinorityLanguage),
+    ),
+    TE.chainFirst(({ locale }) => runCorporaCreator(locale)),
+    TE.chainFirst(({ locale }) => runCompress(locale)),
   )()
 
   // query db for all clips

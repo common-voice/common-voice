@@ -41,6 +41,8 @@ const config: Config = {
 const getStorageLocalEndpoint_ = (config: Config): IO.IO<string> => () => config.storageLocalEndpoint
 const getEnvironment_ = (config: Config): IO.IO<string> => () => config.environment
 const getReleaseBasePath_ = (config: Config): IO.IO<string> => () => path.join(__dirname, '..', '..', config.releaseName)
+const getReleaseClipsDirPath_ = (config: Config) => (locale: string): IO.IO<string> => () => path.join(__dirname, '..', '..', config.releaseName, locale, 'clips')
+const getReleaseTarballsDirPath_ = (config: Config): IO.IO<string> => () => path.join(__dirname, '..', '..', config.releaseName, 'tarballs' )
 const getReleaseName_ = (config: Config): IO.IO<string> => () => config.releaseName 
 const getDbConfig_ = (config: Config): IO.IO<DbConfig> => () => config.dbConfig 
 const getClipsBucketName_ = (config: Config): IO.IO<string> => () => config.clipsBucketName 
@@ -48,6 +50,8 @@ const getDatasetBundlerBucketName_ = (config: Config): IO.IO<string> => () => co
 const getIncludeClipsFrom_ = (config: Config): IO.IO<string> => () => config.includeClipsFrom
 const getIncludeClipsUntil_ = (config: Config): IO.IO<string> => () => config.includeClipsUntil
 
+export const getReleaseClipsDirPath = getReleaseClipsDirPath_(config)
+export const getReleaseTarballsDirPath = getReleaseTarballsDirPath_(config)
 export const getStorageLocalEndpoint = getStorageLocalEndpoint_(config)
 export const getEnvironment = getEnvironment_(config)
 export const getReleaseBasePath = getReleaseBasePath_(config)

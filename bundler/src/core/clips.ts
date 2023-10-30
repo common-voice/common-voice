@@ -11,7 +11,10 @@ import {
   getIncludeClipsFrom,
   getIncludeClipsUntil,
   getReleaseBasePath,
+  getReleaseClipsDirPath,
 } from '../config/config'
+import { pipe } from 'fp-ts/lib/function'
+import { prepareDir } from '../infrastructure/filesystem'
 
 const CLIPS_BUCKET = getClipsBucketName()
 
@@ -42,6 +45,9 @@ const writeFileStreamToTsv = (locale: string) => {
   writeStream.write(printLn(TSV_COLUMNS.join('\t')))
   return writeStream
 }
+
+const clipRowToTsvEntry = (row: ClipRow): string =>
+  printLn(TSV_COLUMNS.map(key => row[key]).join('\t'))
 
 /**
  * Transforms the mysql object stream into a stream of strings.
@@ -99,7 +105,7 @@ const downloadClips = () =>
     objectMode: true,
   })
 
-export const fetchAllClipsForLocale = (
+const fetchAllClipsForLocale = (
   locale: string,
   isMinorityLanguage: boolean,
 ): TE.TaskEither<Error, void> => {
@@ -130,8 +136,17 @@ export const fetchAllClipsForLocale = (
   )
 }
 
+export const runFetchAllClipsForLocale = (
+  locale: string,
+  isMinorityLanguage: boolean,
+): TE.TaskEither<Error, void> => {
+  return pipe(
+    TE.Do,
+    TE.bind('clipsDirPath', () => TE.fromIO(getReleaseClipsDirPath(locale))),
+    TE.chainFirst(({ clipsDirPath }) => TE.fromIO(prepareDir(clipsDirPath))),
+    TE.chain(() => fetchAllClipsForLocale(locale, isMinorityLanguage)),
+  )
+}
+
 export const createClipFilename = (locale: string, clipId: string) =>
   `common_voice_${locale}_${clipId}.mp3`
-
-const clipRowToTsvEntry = (row: ClipRow): string =>
-  printLn(TSV_COLUMNS.map(key => row[key]).join('\t'))
