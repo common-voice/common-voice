@@ -93,7 +93,7 @@ hy-AM = Armenio ñe’ẽ
 hyw = Armenio ñe’ẽ Kuarahyreike gotyogua
 ia = Ñe’ẽ Interlingua
 id = Indonesia ñe’ẽ
-ie = Ñe’ẽ Interlingua
+ie = Interlingua
 ig = Igbo
 is = Islandia ñe’ẽ
 it = Italia ñe’ẽ
@@ -253,9 +253,9 @@ donate = Ñeme’ẽ
 ## Home Page
 
 home-title = Common Voice Mozilla rembiapo oipytyvõva mohendhápe oñe’ẽvo ijayvuháicha yvypóra.
-default-tagline = Common Voice ha’e Mozilla rembiapo oipytyvõva makinakuéra ijayvuháicha yvypóra.
-home-cta = ¡Eñe’ẽ, eipytyvõmi ko’ápe!
-wall-of-text-start = Ñande ahy’o ayvu niko yvypóra mba’etee. Upéva rehe roipytyvõseterei oĩ hag̃uáicha ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaite ñe’ẽryapu ñongatupyre.
+default-tagline = Common Voice ha’e Mozilla rembiapokue ombo’éva mohendahápe yvypóra oñe’ẽháicha.
+home-cta = ¡Eñe’ẽ, eipytyvõmína ko’ápe!
+wall-of-text-start = Ñande ahy’o ayvu niko yvypóra mba’etee. Upéva rehe roipytyvõseterei oĩ hag̃uáicha ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaiterei ñe’ẽryapu ñongatupyre.
 wall-of-text-more-mobile = Haimete opa ñe’ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upéva rehe ndaopavavéi oiporukuaa. Roimo’ã ndaupeichaiva’erã. Upévare romoheñói Aponde’a Common Voice, roipotágui opavave oiporukuaa ñe’ẽ rembiporu.
 wall-of-text-more-desktop =
     Eme’ẽkuaa nde ayvu ha eipytyvõ jajapo hag̃ua ñe’ẽ ha ñe’ẽjoaju ryapu apesã opaitépe g̃uarã
@@ -325,7 +325,7 @@ whats-public = Mba’épa ojehechakuaáta
 email-not-public = Noromoherakuãmo’ãi ne ñanduti veve.
 recordings-and-locale-public = Mboýmapa eñe’ẽñongatu ha umi ñe’ẽ eipytyvõhague ohechakuaáta opavavete.
 username-optin-public = Erekuaa avei reipotápa ojekuaa poruhára réra térã ñemíme.
-demographic-deidentified-clarity-2 = Kuaapyrã avano’õ rehegua remoĩkuaáva avei (techapyrãrõ aryve, meña, ñe’ẽte ha ñembohyapu reko) ndojekuaaukamo’ãi araka’eve nde roguetépe, ha noñembojoajumo’ãi avei poruhára rérare kuaapy’atýpe. Mba’erendurã oñembojoajúta kuaapy avano’õ rehegua rehe ikatu hag̃uáicha oñehesa’ỹijoporãve mba’ekuaapy - techapyrã oĩrõ tembiporu apohára omoheñoiséva tembiporu tetã térã tetãpehẽme g̃uarã.
+demographic-deidentified-clarity-2 = Kuaapyrã avano’õ rehegua remoĩkuaáva avei (techapyrãrõ aryve, meña, ñe’ẽte ha ñembohyapu reko) ndojekuaaukamo’ãi araka’eve nde roguetépe, ha noñembojoajumo’ãi poruhára rérare kuaapy’atýpe. Mba’erendurã oñembojoajúta kuaapy avano’õ rehegua rehe ikatu hag̃uáicha oñehesa’ỹijoporãve mba’ekuaapy - techapyrã oĩrõ tembiporu apohára omoheñoiséva tembiporu tetã térã tetãpehẽme g̃uarã.
 username-email-not-demographic = Mavave ndoikuaamo’ãi poruhára réra ni ñanduti veve oiporukuévo ñe’ẽryapu.
 
 ## Speak & Listen Shortcuts
@@ -413,7 +413,7 @@ other = Ambue
 why-profile-title = Mba’érepa mba’ete
 why-profile-text =
     Emombe’umivéramo nde rehegua oipytyvõta opaite ñe’ẽryapu ojeporu porãve hag̃ua.
-    Tembiporu oñeha’ãva ohaívo ohendúva oiporu remombe’úva ohai porãve hag̃ua.
+    Tembiporu oñeha’ãva ohaívo ohendúva oiporu remombe’úva ohai porãve rekávo.
 dashboard = Tabléro
 build-profile = Hemoheñói Mba’ete
 avatar = Avatar
