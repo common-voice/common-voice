@@ -30,7 +30,10 @@ const BulkUploadInstruction: React.FC<Props> = ({
         elems={{
           uploadButton: <button onClick={openDialog} className="upload" />,
         }}>
-        <h2 className="upload-dropzone-instruction hidden-md-down" />
+        <h2
+          className="upload-dropzone-instruction hidden-md-down"
+          data-testid="upload-dropzone-instruction"
+        />
       </Localized>
     )
   }
