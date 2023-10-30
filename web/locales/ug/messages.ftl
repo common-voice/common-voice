@@ -1223,7 +1223,9 @@ contribution-background-voices-example-1-explanation = كېلىۋاتامسە؟ 
 contribution-volume-title = ئاۋاز
 contribution-volume-description = ئوقۇرمەنلەرنىڭ ئاۋازىنىڭ يۇقىرى تۆۋەنلىكىدە تەبىئىي پەرق بولىدۇ. پەقەت ئاۋازى بەك يۇقىرى بولۇپ ئۈنگە ئېلىش ئۈزۈلۈپ كەتكەن ياكى (كۆپ ئۇچرايدىغان ئەھۋالدا) ئاۋاز بەك تۆۋەن بولغانلىقتىن تېكىست بولمىسا نېمە دەۋاتقانلىقىنى بىلگىلى بولمىغان بولسا رەت قىلىنىدۇ.
 contribution-reader-effects-title = ئوقۇرمەن ئۈنۈمى
+contribution-reader-effects-description = كۆپىنچە ئۈن خاتىرىلىرى كىشىلەرنىڭ تەبىئىي ئاۋازىدا پاراڭلىشىۋاتقان ئاۋازىدۇر. سىز ۋارقىراپ-جارقىراپ، پىچىرلانغان ياكى ئېنىقلا «دراماتىك» ئاۋازدا يەتكۈزۈلگەن ئۆلچەملىك بولمىغان خاتىرىلەرنى قوبۇل قىلالايسىز. ناخشا خاتىرىسى ۋە كومپيۇتېردا بىرىكتۈرۈلگەن ئاۋاز ئىشلىتىۋاتقانلارنى رەت قىلىڭ.
 contribution-just-unsure-title = ئانچە ئېنىق ئەمەسمۇ؟
+contribution-just-unsure-description = ئەگەر بۇ كۆرسەتمىلەر ئۆز ئىچىگە ئالمايدىغان بىر ئىشقا يولۇقسىڭىز، ئەڭ ياخشى ھۆكۈمىڭىزگە ئاساسەن بېلەت تاشلاڭ. ئەگەر راستىنلا قارار قىلالمىسىڭىز، ئاتلا كۇنۇپكىسىنى ئىشلىتىپ كېيىنكى خاتىرىگە ئۆتۈڭ.
 see-more = <chevron> </chevron> تېخىمۇ كۆپ
 see-less = <chevron></chevron>ئاز كۆرسەت
 
@@ -1262,6 +1264,7 @@ sc-home-review-text = كۆرسەتمىلەرگە ئاساسەن جۈملىلەر
 
 ## GENERAL
 
+sc-languages-fetch-error = ئىشلەتكىلى بولىدىغان تىللارغا ئېرىشەلمىدۇق. ھازىرچە تۆھپە قوشۇش مۇمكىن ئەمەس. كېيىن قايتا سىناڭ.
 
 ## HOW-TO
 
@@ -1286,6 +1289,7 @@ sc-howto-findpd-tips-1 = ئەڭ ياخشى مەنبەلەردىن كۈندىلى
 sc-howto-findpd-tips-2 = ھۆكۈمەت ئىشلىرى، كىتاب ۋە ماقالىلەرمۇ ناھايىتى ياخشى، ئەمما تېكىست سەل رەسمىي بولۇشقا مايىل بولغاچقا، ئۇلار مۇھىم ئەمەس.
 sc-howto-findpd-tips-3 = ئەپسۇسكى ۋىكى ۋاسىتە ماقالىلىرىنى ئىشلىتەلمەيمىز. شۇڭلاشقا ئۇ جايدىن كۆچۈرۈپ چاپلىماڭ.
 sc-howto-findpd-subtitle-2 = يەرلىك تەشكىلاتلار ياكى شەخسلەر بىلەن ھەمكارلاشقۇچى
+sc-howto-findpd-partner-2 = مۇتەخەسسىس تىلشۇناسلارمۇ ياردەم قىلالايدۇ، يەرلىك تىل ئۇنىۋېرسىتېتلىرى (ئوقۇتقۇچى ۋە ئوقۇغۇچىلار) بىلەن ئالاقىلىشىپ، ئۇلارنىڭ تىلىڭىزدىكى كۆپ خىل ئاۋازلىق كۆپ خىل جۈملىلەرنى توپلاشقا ياردەم بېرەلەيدىغان بېرەلمەيدىغانلىقىنى سىناپ باقسىڭىز بولىدۇ.
 
 ## MY SENTENCES
 
@@ -1491,6 +1495,7 @@ sc-review-select-language = جۈملىلەرنى تەكشۈرىدىغان تىل
 sc-review-no-sentences = تەكشۈرىدىغان ھېچقانداق جۈملە يوق. <addLink>ھازىرلا تېخىمۇ كۆپ جۈملە قوشاي!</addLink>
 sc-review-form-prompt =
     .message = تەكشۈرۈلگەن جۈملە يوللانمىدى، شۇنداقمۇ؟
+sc-review-form-usage = ئوڭغا سۈرۈلسە جۈملە تەستىقلىنىدۇ. سولغا سۈرۈلسە جۈملە رەت قىلىنىدۇ. <strong>تەكشۈرۈش نەتىجىڭىزنى يوللاشنى ئۇنتۇپ قالماڭ!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = مەنبە: { $sentenceSource }
@@ -1503,6 +1508,7 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = سىز ھەرپتاختا قىسقا يولىنى ئىشلىتەلەيسىز: { sc-review-form-button-approve-shortcut } كۇنۇپكىسى تەستىقلاش، { sc-review-form-button-reject-shortcut } كۇنۇپكىسى رەت قىلىش، { sc-review-form-button-skip-shortcut } كۇنۇپكىسى ئاتلاش
 sc-review-form-button-submit =
     .submitText = تەكشۈرۈش تامام
 # Variables:
@@ -1521,6 +1527,7 @@ sc-review-link = تەكشۈرۈش
 sc-settings-title = تەڭشەك
 sc-settings-ui-language = بەت يۈزى تىلى
 sc-settings-reset-skipped = ئاتلانغان جۈملىنى ئەسلىگە كەلتۈرىدۇ
+sc-settings-skipped-decription = سىز ئىلگىرى تەكشۈرگەندە ئاتلاپ كەتكەن جۈملە بار. ئاتلاپ كەتكەن جۈملىلەرنى قايتا تەڭشىگەندە بارلىق ئاتلاپ كەتكەن جۈملىلەرنى قايتا كۆرسىتىدۇ. بۇ تىلدىن مۇستەقىل.
 sc-settings-show-all-button = ئاتلاپ كەتكەن بارلىق جۈملىلەرنى قايتا كۆرسىتىدۇ
 sc-settings-failed = تەڭشەكنى ئۆزگەرتكىلى بولمىدى، قايتا سىناڭ.
 # VALIDATION
@@ -1606,10 +1613,17 @@ public-domain = ئاممىۋى دائىرە
 citing-sentences = نەقىل جۈملىلەر
 adding-sentences = جۈملە قوشۇش
 reviewing-sentences = جۈملىلەرنى تەكشۈرۈش
+public-domain-explanation-2 = تىل تونۇش موتورى قۇرۇشقا ئىشلىتىدىغان ئەڭ ياخشى جۈملە شەكلى ئېغىز تىلىدىكى جۈملىلەرنىڭ زامانىمىزدىكى ئىشلىتىلىشىدۇر. تۆۋەندىكىسى جۈملە شەكىللەندۈرۈشنىڭ بەزى ئۇسۇللىرى؛
+public-domain-explanation-3 = ئۆزىڭىز ياكى دوستلىرىڭىز ياكى تىل جامائىتىڭىز بىلەن زامانىۋى، جانلىق تىلدىكى جۈملىلىرىنى تۈزۈڭ - مەسىلەن «كۆزۈڭگە قاراپ ماڭ» دېگەندەك.
+public-domain-explanation-5 = نەشر ھوقۇقى قوغدالمايدىغان تېكىستنى ئىزدەڭ-مەسىلەن، 1920-يىلىدىن ئىلگىرى نەشر قىلىنغان كىتابلار
+public-domain-explanation-6 = ھۆكۈمەت، پايدا تاپمايدىغان ئورۇنلار ياكى تاراتقۇ تەشكىلاتلىرى بىلەن ئالاقىلىشىپ، ئۇلارنىڭ تور مەزمۇنى، دوكلاتى ياكى باشقا مەزمۇنلىرىنىڭ ئاممىۋى ساھەگە بېغىشلىنالايدىغان ياكى بېغىشلىمايدىغانلىقىنى بىلىپ بېقىڭ.
+citing-sentences-explanation-1 = نەقىل كەلتۈرۈشنى ئۆز ئىچىگە ئېلىش تولىمۇ مۇھىم، شۇڭا بىز جۈملىلەرنىڭ ئاممىۋى ساھەدە ئىكەنلىكىنى، نەشر ھوقۇقى چەكلىمىسىنىڭ قوللىنىلمىغانلىقىنى تەكشۈرەلەيمىز.
 citing-sentences-subheader-websites = تور بېكەتلەر
 citing-sentences-subheader-websites-explanation = تور بېكەتنى ئىچىگە ئالالايسىز، مەسىلەن، «Common Voice - https://commonvoice.mozilla.org/»
 citing-sentences-subheader-academic-reference = ئىلمىي ماقالە پايدىلانمىلار
+citing-sentences-subheader-academic-reference-explanation = سىز ئىلمىي پايدىلىنىش ئۇسلۇبىنى ئىشلىتەلەيسىز، مەسىلەن خارۋارد ئۇسلۇبىدىكى «Mozilla (2021) Common Voice. https://commonvoice.mozilla.org/ (Accessed: 15th September 2021) دىن پايدىلانسىڭىز بولىدۇ:
 citing-sentences-subheader-offline-sources = تورسىز مەنبەلەر
+citing-sentences-subheader-offline-sources-explanation = توردا ئىشلەتكىلى بولمايدىغان ئاممىۋى تور دائىرىسىدىكى تېكىست ئۈچۈن، ئىلمىي پايدىلىنىش ئۇسلۇبىنى ئىشلىتەلەيسىز، مەسىلەن، خارۋارد ئۇسلۇبى «جېس (2021) مېنىڭ ئاممىۋى ئىجازەتنامە شېئىرلىرىم».
 citation =
     .label = نەقىل
 self-citation = ئۆز نەقىل
@@ -1623,6 +1637,8 @@ adding-sentences-subheader-numbers = سانلار
 adding-sentences-subheader-abbreviations = قىسقارتىش ۋە قىسقا ئاتلار
 adding-sentences-subheader-punctuation = تىنىش بەلگىلىرى
 adding-sentences-subheader-special-characters = ئالاھىدە ھەرپلەر ۋە چەتئەل ھەرپلىرى
+adding-sentences-subheader-special-characters-explanation-1 = سۆزلىنىۋاتقان تىلدا ھەرپلەر كۈچكە ئىگە بولۇشى كېرەك. مەسىلەن، «ж» رۇس ئېلىپبەسىدىكى ھەرپ، ئەمما ئىنگلىزچىدا ھەرگىز ئىشلىتىلمەيدۇ، شۇڭا ھېچقانداق ئىنگلىزچە تېكىستتە كۆرۈنمەسلىكى كېرەك.
+adding-sentences-subheader-special-characters-explanation-2 = تىللار يەرلىكلەشتۈرۈلگەندە قوشۇمچە تەلەپلەر بىلەن ئۆزىنىڭ دەلىللەش قائىدىسىگە ئىگە بولالايدۇ. ئەگەر بىر تىلنىڭ كونكرېت دەلىللەش ھۆججىتى بولمىسا ، ئىنگلىزچە قائىدىلەر تۆھپىكارلارغا كۆرسىتىلىدۇ.
 adding-sentences-subheader-offensive-content = تېرىكتۈرىدىغان مەزمۇن
 reviewing-sentences-explanation-1 = ئەگەر بۇ جۈملە يۇقىرىدىكى ئۆلچەمگە توشسا، «بولۇپتۇ» توپچىسى بېسىلىدۇ.
 reviewing-sentences-explanation-2 = ئەگەر بۇ جۈملە يۇقىرىدىكى ئۆلچەمگە توشمىسا، «بولماپتۇ» توپچىسى بېسىلىدۇ.
