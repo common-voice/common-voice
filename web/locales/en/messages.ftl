@@ -1724,7 +1724,8 @@ bulk-sentence-submission = Bulk Sentence Submission
 single-sentence = Single Sentence
 bulk-sentences = Bulk Sentences
 
-# REVIEW PAGE
+## REVIEW PAGE
+# <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Check <icon></icon> is this a linguistically correct sentence?
 sc-review-rules-title = Does the sentence meet the guidelines?
 sc-review-empty-state = There are currently no sentences to review in this language.
@@ -1739,8 +1740,9 @@ sc-redirect-page-title = We're making some big changes
 sc-redirect-page-subtitle-1 = The Sentence Collector is moving to the core Common Voice platform. You can now <writeURL>write</writeURL> a sentence or <reviewURL>review</reviewURL> single sentence submissions on Common Voice.
 sc-redirect-page-subtitle-2 = Ask us questions on <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
 
-# BULK SUBMISSION 
-sc-bulk-upload-header-text = Upload <icon></icon> public domain sentences
+## BULK SUBMISSION 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Upload <icon></icon> public domain sentences
 sc-bulk-upload-instruction = Drag your file here or <uploadButton>click to upload</uploadButton>
 sc-bulk-upload-instruction-drop = Drop file here to upload
 try-upload-again = Try again by dragging your file here

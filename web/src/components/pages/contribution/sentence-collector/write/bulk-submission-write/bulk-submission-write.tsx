@@ -60,7 +60,7 @@ const BulkSubmissionWrite = () => {
     <div className="bulk-upload-container" data-testid="bulk-upload-container">
       <div className="upload-and-instruction">
         <Instruction
-          localizedId="sc-bulk-upload-header-text"
+          localizedId="sc-bulk-upload-header"
           icon={<UploadIcon />}
         />
         <div className="upload-dropzone-and-rules">
