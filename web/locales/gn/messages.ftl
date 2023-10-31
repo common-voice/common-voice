@@ -567,7 +567,7 @@ about-no-votes-text = Oĩramo poruhára ombotovéva ayvu ñeñongatu, ojevýta h
 about-dataset-new = Common Voice mba’ekuaarã rupa
 about-dataset-new-text = Common Voice mba’ekuaarã renda omoinge hetaiterei ayvu oipytyvõva mboguataharakuérape omoheñóivo tembiporu oikũmbykuaáva ayvu.
 about-clip-graveyard = Ñongatuhakuéra mbyatyha
-about-clip-graveyard-text = Clip Graveyard, ñe’ẽryapu ñongatupyre tyvytýniko ombyaty umi ñe’ẽjoaju oñembohyapuva’ekue oñembotoveva’ekue, ikatúva avei oñemboguejy.
+about-clip-graveyard-text = Pe ñongatupyre oiko’ỹva ha’e ayvu ñongatupyre ndoikekuaáiva Common Voice mba’ekuaarã rendápe. Oikoháicha avei pe mba’ekuaarã renda rehe, pe ñongatupyre oiko’ỹva ikatu oñemboguejy.
 about-get-involved = Poropytyvõ
 about-get-involved-text-2 =
     Reipytyvõsépa ikatu hag̃uáicha Common Voice iporãve?
@@ -575,7 +575,7 @@ about-get-involved-text-2 =
     renda rupive, orekuaaukamína avei oĩramo apañuãi ñanduti rendápe ko’ápe:<githubLink>GitHub</githubLink> térã eikemi <matrixLink>Atyrusu</matrixLink>ñemongeta rendápe.
 about-stay-in-touch = ¿Mba’éicha aiméta ñe’ẽme?
 about-stay-in-touch-button = Eñemboheraguapy
-about-stay-in-touch-text-1 = <emailFragment>Eñemboheraguapy</emailFragment> ore ñandutiveve rysýipe eikuaa hag̃ua mba’éichapa eikéta jekuaauka, tembiaporã ha tembiapoite Common Voice moha’ãngajeýpe.
+about-stay-in-touch-text-1 = <emailFragment>Eñemboheraguapy</emailFragment> ore ñanduti veve rysýipe eikuaa hag̃ua mba’éichapa ejekuaaukáta, tembiaporã ha tembiapoite Common Voice moha’ãngajeýpe.
 about-stay-in-touch-text-2 = Eikuaáta ambue tapichápe Mozilla rekoha ñe’ẽnguérape ejuajúvo <discourseLink>Discourse</discourseLink> oñeñomongeta hag̃ua térã <matrixLink>Matrix</matrixLink> ereko hag̃ua ñemoñe’ẽ pya’e.
 about-nav-why-common-voice = ¿Mba’ére?
 about-nav-how-it-works = ¿Mba’e?
