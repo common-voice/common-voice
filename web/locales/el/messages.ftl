@@ -1682,9 +1682,9 @@ single-sentence-submission = Υποβολή μεμονωμένης πρότασ�
 bulk-sentence-submission = Υποβολή πολλαπλών προτάσεων
 single-sentence = Μεμονωμένη πρόταση
 bulk-sentences = Πολλαπλές προτάσεις
-# REVIEW PAGE
-sc-review-instruction-first-part = Ελέγξτε τα παρακάτω:
-sc-review-instruction-second-part = Είναι η πρόταση γλωσσικά σωστή;
+
+## REVIEW PAGE
+
 sc-review-rules-title = Τηρεί η πρόταση τους κανόνες;
 sc-review-empty-state = Προς το παρόν δεν υπάρχουν προτάσεις για έλεγχο σε αυτήν τη γλώσσα.
 report-sc-different-language = Διαφορετική γλώσσα
@@ -1696,12 +1696,13 @@ review-error-rate-limit-exceeded = Προχωράτε πολύ γρήγορα. �
 sc-redirect-page-title = Κάνουμε κάποιες μεγάλες αλλαγές
 sc-redirect-page-subtitle-1 = Το Sentence Collector μεταφέρεται στην κύρια πλατφόρμα του Common Voice. Μπορείτε πλέον να <writeURL>συντάξετε</writeURL> μια πρόταση ή να <reviewURL>αξιολογήσετε</reviewURL> υποβολές προτάσεων στο Common Voice.
 sc-redirect-page-subtitle-2 = Κάντε μας ερωτήσεις στο <matrixLink>Matrix</matrixLink>, το <discourseLink>Discourse</discourseLink> ή μέσω <emailLink>email</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Μεταφόρτωση
-sc-bulk-upload-instruction-second-part = προτάσεις δημόσιου τομέα
-drag-your-file-here = Σύρετε το αρχείο σας εδώ για μεταφόρτωση
+
+## BULK SUBMISSION 
+
+sc-bulk-upload-instruction = Σύρετε το αρχείο σας εδώ ή <uploadButton>κάντε κλικ για μεταφόρτωση</uploadButton>
+sc-bulk-upload-instruction-drop = Σύρετε το αρχείο εδώ για μεταφόρτωση
 try-upload-again = Δοκιμάστε ξανά σύροντας το αρχείο σας εδώ
-or-conjuction = ή
+try-upload-again-md = Δοκιμάστε να μεταφορτώσετε ξανά
 select-file = Επιλογή αρχείου
 select-file-mobile = Επιλέξτε αρχείο για μεταφόρτωση
 accepted-files = Αποδεκτοί τύποι αρχείων: μόνο .tsv
