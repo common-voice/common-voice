@@ -734,7 +734,7 @@ contribute = ביישטייערט
 listen = הער צו
 write = שרייבט
 review = קוקט איבער
-skip = גייט אריבער
+skip = היפ איבער
 shortcuts = פארקערצערונגען
 clips-with-count-pluralized =
     { $count ->
@@ -1125,7 +1125,13 @@ how-to-cite = וויאזוי ציטיר איך
 guidelines = פארשריפטן
 contact-us = קאנטאקט אונז
 add-sentence-success = 1 זאץ געזאמלט
+
+## REVIEW PAGE
+
 sc-review-empty-state = עס איז נישט דא יעצט קיין זאצן צו איבערקוקן אין דעם שפרייך.
 report-sc-different-language = אנדערע שפרייך
 report-sc-different-language-detail = עס איז געשריבן אין אן אנדערע שפרייך פון וואס איך קוק איבער.
 review-error-rate-limit-exceeded = איר גייט צו שנעל. ביטע נעמט א מינוט איבערצוקוקן די זאצן זיכער צו מאכן א ס'איז ריכטיג.
+
+## BULK SUBMISSION 
+
