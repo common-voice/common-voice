@@ -711,12 +711,12 @@ request-language-success-list-3 =
 
 ## Languages Overview
 
-language-section-in-progress = מען ארבעט דערויף
+language-section-in-progress = מען ארבעט נאך דערויף
 language-section-in-progress-new-description = דער שפרייכן זענען דערווייל אונטער די געמיינדע אנטוויקלונג. <localizationGlossaryLink>וועבזייטל לאקאליזירונג</localizationGlossaryLink> און <sentenceCollectionGlossaryLink>זאצן זאמלונג</sentenceCollectionGlossaryLink> איז נייטיג אויף צו ווערן ארויסגעשטעלט.
 language-section-launched = ארויסגעשטעלטע
 language-section-launched-description = פאר די דאזיגע ארויסגעשטעלטע שפרייכן איז די וועבזייטל שוין געווארן <localizationGlossaryLink>לאקאליזירט</localizationGlossaryLink>, און האט שוין גענוג <sentenceCollectionGlossaryLink>זאצן געזאמלט</sentenceCollectionGlossaryLink> צו ערלויבן אנגייענדיגע <speakLink>רעדן</speakLink> און <listenLink>הערן</listenLink> ביישטייערונגען.
 languages-show-more = זעט מער
-languages-show-less = זעט וויינעגער
+languages-show-less = זעט ווייניגער
 language-meter-in-progress = פארשריט
 language-total-progress = סך הכול
 language-search-input =
@@ -1105,6 +1105,7 @@ background-voices-explanation = אביסל הינטערגרונד גרידער �
 background-voices-tip-1 = דו קומסט? [גערופן דורך א צווייטן]
 just-unsure-explanation = אויב איר טרעפט זיך אן אין עפעס וואס דער פארשריפטן דעקט נישט, ביטע שטימט לויט אייער בעסטע שאצונג. אויב איר קענט נאך אלץ נישט אפמאכן, נוצט די היפ איבער קנעפל און גייט ווייטער צו דעם קומענדיגער רעקארדירונג.
 still-have-questions = איר האט נאך אלץ פראגן?
+contact-common-voice = קאנטאקט די קאמאן וואויס מאנשאפט
 citing-sentences = ציטירן זאצן
 adding-sentences = צולייגן זאצן
 reviewing-sentences = איבערקוקן זאצן
