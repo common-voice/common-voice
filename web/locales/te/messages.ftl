@@ -531,6 +531,7 @@ about-playbook-how-localize-content-5 = సహాయం చేయడానిక
 ## How to add sentences
 
 about-playbook-how-add-sentences = నేను వాక్యాలను ఎలా జోడించాలి?
+about-playbook-how-add-sentences-content-1 = మీరు <writePageLink>వ్రాయండి పేజీ</writePageLink>లో వాక్యాలను జోడించవచ్చు లేదా <reviewPageLink>సమీక్ష పేజీ</reviewPageLink>లో వాక్యాలను సమీక్షించవచ్చు.
 
 ## How to record quality
 
@@ -1251,6 +1252,7 @@ public-domain = పబ్లిక్ డొమైన్
 citing-sentences = వాక్యాలను ఉదహరించడం
 adding-sentences = వాక్యాలను జోడించడం
 reviewing-sentences = వాక్యాలను సమీక్షించడం
+public-domain-explanation-3 = మీ ద్వారా లేదా మీ స్నేహితులు లేదా భాషా సంఘంతో ఆధునిక, వ్యావహారిక వాక్యాలను సృష్టించండి - ఉదాహరణకు ‘రైట్-ఎ-థాన్’ ద్వారా
 citing-sentences-subheader-websites = వెబ్‌సైట్లు
 citing-sentences-subheader-websites-explanation = మీరు వెబ్‌సైట్‌ను చేర్చవచ్చు, ఉదా "కామన్ వాయిస్ - https://commonvoice.mozilla.org/"
 adding-sentences-subheader-length = పొడవు
@@ -1264,6 +1266,8 @@ reviewing-sentences-explanation-1 = వాక్యం పై ప్రమాణ
 reviewing-sentences-explanation-2 = వాక్యం పై ప్రమాణాలకు అనుగుణంగా లేకుంటే, "లేదు" బటన్‌ను క్లిక్ చేయండి.
 reviewing-sentences-explanation-3 = వాక్యం గురించి మీకు ఖచ్చితంగా తెలియకుంటే, మీరు దానిని దాటవేసి తదుపరి దానికి వెళ్లవచ్చు.
 reviewing-sentences-explanation-4 = మీరు సమీక్షించాల్సిన వాక్యాలు అయిపోతే, దయచేసి మరిన్ని వాక్యాలను సేకరించడంలో మాకు సహాయపడండి!
+# WRITE PAGE
+write-instruction = <icon></icon> ఒక పబ్లిక్ డొమైన్ వాక్యాన్ని జోడించండి
 write-page-subtitle = ఇక్కడ అందించిన వాక్యాలు పబ్లిక్‌గా అందుబాటులో ఉన్న cc-0 లైసెన్స్ పొందిన డేటాసెట్‌కి జోడించబడతాయి.
 sentence =
     .label = వాక్యం
