@@ -1072,6 +1072,8 @@ sc-review-form-button-approve = באשטעטיג
 sc-review-form-button-approve-shortcut = י
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = נ
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = ה
 sc-review-link = קוקט איבער
 
 ## SETTINGS
@@ -1119,6 +1121,7 @@ adding-sentences-subheader-length-explanation = די זאץ זאל האבן וו
 adding-sentences-subheader-spelling-punctuation-explanation = די זאץ דארף זיין אויסגעלייגט ריכטיג.
 adding-sentences-subheader-speakable = רעדעוודיג
 adding-sentences-subheader-numbers = נומערן
+reviewing-sentences-explanation-3 = אויב זענט איר נישט זיכער איבער דעם זאץ, קענט איר עס אויך איבערהיפן און ווייטער גיין צו דעם קומענדיגן.
 sentence =
     .label = זאץ
 citation =
