@@ -1717,6 +1717,8 @@ sc-redirect-page-subtitle-2 = Posez-nous vos questions sur <matrixLink>Matrix</m
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Envoyez <icon></icon> des phrases du domaine public
+sc-bulk-upload-instruction = Faites glisser votre fichier ici ou <uploadButton>cliquez pour l’envoyer</uploadButton>
+sc-bulk-upload-instruction-drop = Déposez le fichier ici pour l’envoyer
 try-upload-again = Réessayez en faisant glisser votre fichier ici
 try-upload-again-md = Essayer à nouveau d’envoyer
 select-file = Sélectionner un fichier
