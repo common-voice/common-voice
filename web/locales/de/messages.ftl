@@ -1755,7 +1755,7 @@ reviewing-sentences-explanation-2 = Wenn der Satz die genannten Kriterien nicht 
 reviewing-sentences-explanation-3 = Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
 reviewing-sentences-explanation-4 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
 # WRITE PAGE
-write-instruction-second-part = ein gemeinfreier Satz
+write-instruction = Fügen Sie <icon></icon> einen gemeinfreien Satz hinzu
 write-page-subtitle = Hier beigetragene Sätze werden zu einem öffentlich zugänglichen cc-0-lizenzierten Datensatz hinzugefügt.
 sentence =
     .label = Satz
@@ -1787,9 +1787,11 @@ single-sentence-submission = Einreichung eines einzelnen Satzes
 bulk-sentence-submission = Einreichung mehrerer Sätze
 single-sentence = Einzelner Satz
 bulk-sentences = Mehrere Sätze
-# REVIEW PAGE
-sc-review-instruction-first-part = Überprüfen
-sc-review-instruction-second-part = Ist dies ein sprachlich korrekter Satz?
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Überprüfen Sie, <icon></icon> ob dies ein linguistisch korrekter Satz ist.
 sc-review-rules-title = Entspricht der Satz dem Leitfaden?
 sc-review-empty-state = Es gibt derzeit keine Sätze in dieser Sprache, die überprüft werden müssen.
 report-sc-different-language = Andere Sprache
@@ -1801,14 +1803,15 @@ review-error-rate-limit-exceeded = Sie sind zu schnell. Bitte nehmen Sie sich ei
 sc-redirect-page-title = Wir nehmen einige wichtige Änderungen vor
 sc-redirect-page-subtitle-1 = Der Satzsammler zieht auf die Kern-Common-Voice-Plattform um. Sie können jetzt auf einen Satz Common Voice <writeURL>schreiben</writeURL> oder einzelne Sätze <reviewURL>überprüfen</reviewURL>.
 sc-redirect-page-subtitle-2 = Stellen Sie uns Fragen auf <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> oder per <emailLink>E-Mail</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Hochladen
-sc-bulk-upload-instruction-second-part = gemeinfreie Sätze
-drag-your-file-here = Ziehen Sie Ihre Datei zum Hochladen hierher
-drop-file-here = Datei zum Hochladen hier ablegen
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Laden Sie <icon></icon> gemeinfreie Sätze hoch
+sc-bulk-upload-instruction = Ziehen Sie Ihre Datei hierher oder <uploadButton>klicken Sie zum Hochladen</uploadButton>
+sc-bulk-upload-instruction-drop = Datei zum Hochladen hier ablegen
 try-upload-again = Versuchen Sie es erneut, indem Sie Ihre Datei hierher ziehen
 try-upload-again-md = Hochladen erneut versuchen
-or-conjuction = oder
 select-file = Datei auswählen
 select-file-mobile = Datei zum Hochladen auswählen
 accepted-files = Akzeptierte Dateitypen: nur .tsv

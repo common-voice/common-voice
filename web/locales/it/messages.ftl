@@ -1662,7 +1662,7 @@ reviewing-sentences-explanation-2 = Se la frase non soddisfa tutti i criteri des
 reviewing-sentences-explanation-3 = Se non sei sicuro, puoi anche saltare la frase e passare a quella successiva.
 reviewing-sentences-explanation-4 = Se non ci sono più frasi da convalidare, aiutaci a raccoglierne altre!
 # WRITE PAGE
-write-instruction-second-part = una frase di pubblico dominio
+write-instruction = <icon></icon> Aggiungi una frase di pubblico dominio
 write-page-subtitle = Le frasi inserite verranno aggiunte a un dataset con licenza cc-0 disponibile pubblicamente.
 sentence =
     .label = Frase
@@ -1692,9 +1692,11 @@ single-sentence-submission = Invio di una singola frase
 bulk-sentence-submission = Invio di frasi in blocco
 single-sentence = Singola frase
 bulk-sentences = Frasi in blocco
-# REVIEW PAGE
-sc-review-instruction-first-part = Verifica
-sc-review-instruction-second-part = è una frase linguisticamente corretta?
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = <icon></icon> Verifica che si tratti di una frase corretta dal punto di vista linguistico?
 sc-review-rules-title = La frase rispetta le linee guida?
 sc-review-empty-state = Al momento non ci sono frasi da convalidare in questa lingua.
 report-sc-different-language = Lingua diversa
@@ -1706,14 +1708,15 @@ review-error-rate-limit-exceeded = Stai andando troppo veloce. Prenditi tempo pe
 sc-redirect-page-title = Stiamo apportando alcuni cambiamenti significativi
 sc-redirect-page-subtitle-1 = Il Sentence Collector si sta spostando sulla piattaforma principale di Common Voice. Ora puoi <writeURL>scrivere</writeURL> una frase o <reviewURL>esaminare</reviewURL> gli invii di frasi singole su Common Voice.
 sc-redirect-page-subtitle-2 = Ponici domande su <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> o tramite <emailLink>email</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Carica
-sc-bulk-upload-instruction-second-part = frasi di pubblico dominio
-drag-your-file-here = Trascina il file qui per caricarlo
-drop-file-here = Trascina il file qui per caricarlo
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = <icon></icon> Carica frasi di pubblico dominio
+sc-bulk-upload-instruction = Trascina il file qui o <uploadButton>fai clic per caricare</uploadButton>
+sc-bulk-upload-instruction-drop = Trascina il file qui per caricarlo
 try-upload-again = Riprova trascinando il file qui
 try-upload-again-md = Prova a caricare di nuovo
-or-conjuction = o
 select-file = Seleziona file
 select-file-mobile = Seleziona il file da caricare
 accepted-files = Tipi di file accettati: solo .tsv
