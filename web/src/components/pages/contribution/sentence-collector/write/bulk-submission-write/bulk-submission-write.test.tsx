@@ -54,7 +54,7 @@ describe('Bulk submission page', () => {
     renderWithProviders(<BulkSubmissionWrite />)
 
     expect(screen.getByTestId('bulk-upload-dropzone')).toBeTruthy()
-    expect(screen.getByText('Drag your file here to upload')).toBeTruthy()
+    expect(screen.getByTestId('upload-dropzone-instruction')).toBeTruthy()
   })
 
   it('handles drag and drop', async () => {

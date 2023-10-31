@@ -52,6 +52,21 @@
                     font-family: var(--base-font-family);
                     color: var(--black);
                     font-weight: 600;
+
+                    button.upload {
+                        appearance: none;
+                        background-color: transparent;
+                        border: none;
+                        font-size: inherit;
+                        font-weight: inherit;
+                        font-family: inherit;
+                        color: var(--anchor-text-blue);
+
+                        &:hover {
+                            text-decoration: underline;
+                            text-decoration-thickness: 2px;
+                        }
+                    }
                 }
 
                 & .or-conjunction {
