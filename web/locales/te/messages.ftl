@@ -727,6 +727,7 @@ action-click = నొక్కండి
 action-tap = తాకండి
 contribute = తోడ్పడండి
 listen = వినండి
+write = వ్రాయండి
 review = సమీక్ష
 skip = దాటవేయి
 shortcuts = సత్వరమార్గాలు
