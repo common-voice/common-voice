@@ -47,11 +47,12 @@ const BulkSubmissionWrite = () => {
     uploadStatus === 'uploading' ||
     uploadStatus === 'done'
 
-  const { getRootProps, getInputProps, isDragActive } = useDropzone({
+  const { getRootProps, getInputProps, isDragActive, open } = useDropzone({
     onDrop: React.useCallback(handleDrop, []),
     accept: { 'text/tab-separated-values': ['.tsv'] },
     multiple: false,
     disabled: isDropZoneDisabled,
+    noClick: true,
     maxSize: MAX_FILE_SIZE,
   })
 
@@ -59,8 +60,7 @@ const BulkSubmissionWrite = () => {
     <div className="bulk-upload-container" data-testid="bulk-upload-container">
       <div className="upload-and-instruction">
         <Instruction
-          firstPartId="sc-bulk-upload-instruction-first-part"
-          secondPartId="sc-bulk-upload-instruction-second-part"
+          localizedId="sc-bulk-upload-header"
           icon={<UploadIcon />}
         />
         <div className="upload-dropzone-and-rules">
@@ -81,6 +81,7 @@ const BulkSubmissionWrite = () => {
                 removeBulkSubmission={removeBulkSubmission}
                 startUpload={startUpload}
                 fileRejections={fileRejections}
+                openDialog={open}
               />
             </div>
             <div className="expandable-container">

@@ -2,22 +2,13 @@ import { Localized } from '@fluent/react'
 import * as React from 'react'
 
 type Props = {
-  firstPartId: string
-  secondPartId: string
+  localizedId: string
   icon: JSX.Element
 }
 
-export const Instruction: React.FC<Props> = ({
-  firstPartId,
-  secondPartId,
-  icon,
-}) => (
+export const Instruction: React.FC<Props> = ({ localizedId, icon }) => (
   <div className="instruction">
-    <Localized id={firstPartId}>
-      <span />
-    </Localized>
-    {icon}
-    <Localized id={secondPartId}>
+    <Localized id={localizedId} elems={{ icon }}>
       <span />
     </Localized>
   </div>

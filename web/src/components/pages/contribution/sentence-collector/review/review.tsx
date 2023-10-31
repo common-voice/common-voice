@@ -138,8 +138,7 @@ const Review: React.FC<Props> = ({ getString }) => {
 
       <div className="cards-and-instruction">
         <Instruction
-          firstPartId="sc-review-instruction-first-part"
-          secondPartId="sc-review-instruction-second-part"
+          localizedId="sc-review-instruction"
           icon={<ReviewIcon />}
         />
         <div className="cards-and-guidelines">

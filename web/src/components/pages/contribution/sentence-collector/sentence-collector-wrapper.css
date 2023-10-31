@@ -45,8 +45,11 @@
         }
 
         & .instruction {
-            display: flex;
             margin: 2vh auto;
+
+            span {
+                display: flex;
+            }
 
             svg {
                 margin: 0 8px;
