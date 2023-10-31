@@ -1788,7 +1788,7 @@ reviewing-sentences-explanation-2 = Os nad yw'r frawddeg yn cwrdd â'r meini pra
 reviewing-sentences-explanation-3 = Os ydych chi'n ansicr am y frawddeg, gallwch chi ei hepgor a symud ymlaen i'r un nesaf.
 reviewing-sentences-explanation-4 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
 # WRITE PAGE
-write-instruction-second-part = brawddeg parth cyhoeddus
+write-instruction = Ychwanegu <icon></icon> brawddeg parth cyhoeddus
 write-page-subtitle = Bydd brawddegau sy'n cael eu cyfrannu yma yn cael eu hychwanegu at set ddata drwyddedig cc-0 sydd ar gael yn gyhoeddus.
 sentence =
     .label = Brawddeg
@@ -1818,9 +1818,11 @@ single-sentence-submission = Cyflwyno Un Frawddeg
 bulk-sentence-submission = Cyflwyno Brawddegau Lluosog
 single-sentence = Un Frawddeg
 bulk-sentences = Brawddegau Lluosog
-# REVIEW PAGE
-sc-review-instruction-first-part = Gwirwch
-sc-review-instruction-second-part = a yw hon yn frawddeg ieithyddol gywir?
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Gwirio <icon></icon> os yw hon yn frawddeg ieithyddol gywir
 sc-review-rules-title = A yw'r frawddeg yn cyd-fynd â'r canllawiau?
 sc-review-empty-state = Nid oes brawddegau i'w hadolygu yn yr iaith hon ar hyn o bryd.
 report-sc-different-language = Iaith wahanol
@@ -1832,14 +1834,15 @@ review-error-rate-limit-exceeded = Rydych chi'n mynd yn rhy gyflym. Cymerwch eil
 sc-redirect-page-title = Rydym yn gwneud rhai newidiadau mawr
 sc-redirect-page-subtitle-1 = Mae'r Casglwr Brawddegau yn symud i lwyfan craidd Common Voice. Nawr gallwch <writeURL>ysgrifennu</writeURL> brawddeg neu <reviewURL>adolygu</reviewURL> brawddeg unigol wedi eu cyflwyno ar Common Voice.
 sc-redirect-page-subtitle-2 = Gofynnwch gwestiynau i ni ar <matrixLink>Matrics</matrixLink>, <discourseLink>Discourse</discourseLink> neu <emailLink>email</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Llwytho i fyny
-sc-bulk-upload-instruction-second-part = brawddegau parth cyhoeddus
-drag-your-file-here = Llusgwch eich ffeil yma i'w llwytho i fyny
-drop-file-here = Gollwng ffeil yma i lwytho i fyny
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Llwytho i fyny <icon></icon> brawddegau parth cyhoeddus
+sc-bulk-upload-instruction = Llusgwch eich ffeil yma neu <uploadButton>cliciwch i'w llwytho i fyny</uploadButton>
+sc-bulk-upload-instruction-drop = Gollwng ffeil yma i'w llwytho i fyny
 try-upload-again = Ceisiwch eto trwy lusgo'ch ffeil yma
 try-upload-again-md = Ceisiwch lwytho i fyny eto
-or-conjuction = neu
 select-file = Dewis Ffeil
 select-file-mobile = Dewiswch Ffeil i'w Llwytho i Fyny
 accepted-files = Mathau o ffeiliau derbyniol: .tsv yn unig

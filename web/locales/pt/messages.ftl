@@ -1679,7 +1679,7 @@ reviewing-sentences-explanation-2 = Se a frase não atender aos critérios acima
 reviewing-sentences-explanation-3 = Se não tiver certeza sobre a frase, você também pode ignorar e passar para a próxima.
 reviewing-sentences-explanation-4 = Se não tiver mais frases para revisar, ajude-nos a coletar mais frases!
 # WRITE PAGE
-write-instruction-second-part = uma frase de domínio público
+write-instruction = Adicionar <icon></icon> uma frase de domínio público
 write-page-subtitle = As frases contribuídas aqui são adicionadas a um conjunto de dados disponível publicamente de licença cc-0.
 sentence =
     .label = Frase
@@ -1709,9 +1709,11 @@ single-sentence-submission = Envio de uma única frase
 bulk-sentence-submission = Envio de grupo de frases
 single-sentence = Uma única frase
 bulk-sentences = Grupo de frases
-# REVIEW PAGE
-sc-review-instruction-first-part = Verificação
-sc-review-instruction-second-part = Esta é uma frase linguisticamente correta?
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Verificou <icon></icon> se é uma frase linguisticamente correta?
 sc-review-rules-title = A frase atende às diretrizes?
 sc-review-empty-state = No momento, não há frases a revisar neste idioma.
 report-sc-different-language = Outro idioma
@@ -1723,14 +1725,15 @@ review-error-rate-limit-exceeded = Você está indo rápido demais. Dedique um m
 sc-redirect-page-title = Estamos a fazer grandes mudanças
 sc-redirect-page-subtitle-1 = O coletor de frases está migrando para a plataforma principal do Common Voice. Agora você pode <writeURL>escrever</writeURL> uma frase ou <reviewURL>revisar</reviewURL> envios de uma única frase no Common Voice.
 sc-redirect-page-subtitle-2 = Faça-nos perguntas no <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou por <emailLink>email</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Enviar
-sc-bulk-upload-instruction-second-part = frases de domínio público
-drag-your-file-here = Arraste o arquivo aqui para enviar
-drop-file-here = Arraste arquivo para cá para enviar
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Enviar <icon></icon> frases de domínio público
+sc-bulk-upload-instruction = Arraste seu arquivo para cá ou <uploadButton>clique para enviar</uploadButton>
+sc-bulk-upload-instruction-drop = Arraste arquivo para cá para enviar
 try-upload-again = Tente novamente arrastando seu arquivo para cá
 try-upload-again-md = Tentar enviar novamente
-or-conjuction = ou
 select-file = Selecionar arquivo
 select-file-mobile = Selecione um arquivo para enviar
 accepted-files = Tipos de arquivo aceitos: somente .tsv

@@ -1731,7 +1731,7 @@ reviewing-sentences-explanation-2 = Nếu câu không đáp ứng các tiêu ch�
 reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu đó, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
 reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
 # WRITE PAGE
-write-instruction-second-part = một câu trong phạm vi công cộng
+write-instruction = Thêm <icon></icon> một câu thuộc phạm vi công cộng
 write-page-subtitle = Các câu được đóng góp ở đây sẽ được thêm vào bộ dữ liệu được cấp phép cc-0 có sẵn công khai.
 sentence =
     .label = Câu
@@ -1761,9 +1761,11 @@ single-sentence-submission = Gửi câu riêng lẻ
 bulk-sentence-submission = Gửi hàng loạt câu
 single-sentence = Câu đơn
 bulk-sentences = Hàng loạt câu
-# REVIEW PAGE
-sc-review-instruction-first-part = Séc
-sc-review-instruction-second-part = Đây có phải là một câu đúng về mặt ngôn ngữ không?
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kiểm tra <icon></icon> đây có phải là một câu đúng về mặt ngôn ngữ không?
 sc-review-rules-title = Liệu câu đáp ứng các nguyên tắc?
 sc-review-empty-state = Hiện tại không có câu nào để xem lại bằng ngôn ngữ này.
 report-sc-different-language = Ngôn ngữ khác
@@ -1775,14 +1777,15 @@ review-error-rate-limit-exceeded = Bạn đang đi quá nhanh. Hãy dành một 
 sc-redirect-page-title = Chúng tôi đang thực hiện một số thay đổi lớn
 sc-redirect-page-subtitle-1 = Trình thu thập câu đang chuyển sang nền tảng cốt lõi của Common Voice. Giờ đây, bạn có thể <writeURL>viết</writeURL> một câu hoặc <reviewURL>xem xét</reviewURL> các bài gửi một câu trên Common Voice.
 sc-redirect-page-subtitle-2 = Đặt câu hỏi cho chúng tôi trên <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> hoặc <emailLink>email</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Tải lên
-sc-bulk-upload-instruction-second-part = câu thuộc phạm vi công cộng
-drag-your-file-here = Kéo tập tin của bạn vào đây để tải lên
-drop-file-here = Thả tập tin vào đây để tải lên
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Tải lên <icon></icon> các câu thuộc phạm vi công cộng
+sc-bulk-upload-instruction = Kéo tập tin của bạn vào đây hoặc <uploadButton>nhấp vào đây để tải lên</uploadButton>
+sc-bulk-upload-instruction-drop = Thả tập tin vào đây để tải lên
 try-upload-again = Hãy thử lại bằng cách kéo tập tin của bạn vào đây
 try-upload-again-md = Hãy thử tải lên lại
-or-conjuction = hoặc
 select-file = Chọn tập tin
 select-file-mobile = Chọn tập tin để tải lên
 accepted-files = Các loại tập tin được chấp nhận: chỉ .tsv

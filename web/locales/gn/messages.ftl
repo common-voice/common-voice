@@ -555,17 +555,17 @@ about-subscribe-text = ¿Eñe’ẽse tapiaitépa Common Voice ndive?
 about-speak = Ayvu
 about-speak-text = Ome’ẽva ijahy’o omoñe’ẽ hatã ñe’ẽjoaju ome’ẽreiva’ekue oréve ambue pytyvõhára ha oĩva ore kuaapy’atýpe.
 about-listen-queue = Ñehenduha ruguái
-about-listen-queue-text = Ñe’ẽryapu ñongatupyre oike peteĩ ñemoneĩrã rysýipe oñembosako’íva oñemboaje hag̃ua.
+about-listen-queue-text = Ñe’ẽryapu ñongatupyre oike peteĩ ñemoneĩrã rysýipe oñembosako’íva ñemboajerã.
 about-listen = Ehendu
-about-listen-text = Poruhára omoneĩ oĩ porãpa ñe’ẽryapu ñongatupyre ambuéva ojapova’ekue.
+about-listen-text = Poruharakuéra omoneĩ oĩ porãpa ñe’ẽryapu ñongatupyre, ohechajeyhápe pytyvhárapa omoñe’ẽ porã haipyre.
 about-is-it-valid = ¿Ñeñongatu oikoite?
-about-is-it-valid-text = Ñe’ẽryapu ñongatupyre rehe oje’e "oĩ porã" ha oĩramo tapicha ojopyva’ekue votõ he’ihápe "Héẽ".
+about-is-it-valid-text = Poruhára omoñeĩramo ñeñongatu, oje’ehecháta "oiko".
 about-yes-votes = ≥ 2 vóto oikóva
-about-yes-votes-text = Ikatu hag̃uáicha oñemoneĩ ñe’ẽjoaju ñembohyapupyre ha oike Common Voice kuaapy’atýpe, oĩva’erã mokõi pytyvõhára omoneĩva’ekue upe ñe’ẽjoajuryapu ñongatupyre.
+about-yes-votes-text = Mokõi poruhára omoneĩva’erã ayvu ñeñongatu ijaty hag̃ua Common Voice mba’ekuaarã rendápe.
 about-no-votes = ≥ 2 Vóto oiko’ỹva
-about-no-votes-text = Oĩramo ombotovéva’ekue ñe’ẽjoaju ñongatupyre, ojevyjeýta upéva ñe’ẽjoaju rysýipe. Oñembotovejeýramo, ohasáma upe ñe’ẽjoaju Clip Graveyard, ha’evahína Ñe’ẽryapu ñongatupyre Tyvyty.
+about-no-votes-text = Oĩramo poruhára ombotovéva ayvu ñeñongatu, ojevýta huguápe. Oñembotovejeýramo uperire, ñeñongatu ohasáma oikove’ỹ hag̃uáme.
 about-dataset-new = Common Voice mba’ekuaarã rupa
-about-dataset-new-text = Common Voice kuaapy’aty oñongatu pype hetaite ñe’ẽryapu oipytyvõva tembiporu guerojerahárape ojapo hag̃ua tembiporu oikũmbýva ha ohaikuaáva ohendúva.
+about-dataset-new-text = Common Voice mba’ekuaarã renda omoinge hetaiterei ayvu oipytyvõva mboguataharakuérape omoheñóivo tembiporu oikũmbykuaáva ayvu.
 about-clip-graveyard = Ñongatuhakuéra mbyatyha
 about-clip-graveyard-text = Clip Graveyard, ñe’ẽryapu ñongatupyre tyvytýniko ombyaty umi ñe’ẽjoaju oñembohyapuva’ekue oñembotoveva’ekue, ikatúva avei oñemboguejy.
 about-get-involved = Poropytyvõ
@@ -1672,8 +1672,6 @@ reviewing-sentences-explanation-1 = Pe ñe’ẽjuaju oiko hekopetéramo, eikutu
 reviewing-sentences-explanation-2 = Pe ñe’ẽjuaju ndoikóiramo hekopete, eikutu pe votõ "Nahániri".
 reviewing-sentences-explanation-3 = Ndereikuaaporãiramo ñe’ẽjuaju rehe, avei ikatu emboyke ha ehasánte chugui.
 reviewing-sentences-explanation-4 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
-# WRITE PAGE
-write-instruction-second-part = ñe’ẽjoaju opavave oiporukuaáva
 write-page-subtitle = Umi ñe’ẽjuaju jehupipyre ojuajúta mba’ekuaarã aty ñemoneĩmbyre cc-0 opavave oiporukuaáva.
 sentence =
     .label = Ñe’ẽjoaju
@@ -1702,9 +1700,9 @@ single-sentence-submission = Emondo peteĩ ñe’ẽjoaju año
 bulk-sentence-submission = Emondo heta ñe’ẽjoaju
 single-sentence = Peteĩ ñe’ẽjoaju
 bulk-sentences = Heta ñe’ẽjoaju
-# REVIEW PAGE
-sc-review-instruction-first-part = Hechajey
-sc-review-instruction-second-part = Ko ñe’ẽjuajúpa oĩporã añetehápe
+
+## REVIEW PAGE
+
 sc-review-rules-title = Ko ñe’ẽjuajúpa ojapopa tekotevẽháicha
 sc-review-empty-state = Ndaiporihína ñe’ẽjoaju ahechajey hag̃ua ko ñe’ẽme.
 report-sc-different-language = Ambuéva ñe’ẽ
@@ -1716,14 +1714,11 @@ review-error-rate-limit-exceeded = Eho pya’eterei. Eiporu arapa’ũ ehechajey
 sc-redirect-page-title = Ore rojaporoína ñemoambue guasu
 sc-redirect-page-subtitle-1 = Sentence Collector ováma Common Voice pyendavusúpe. Ko’ág̃a ikatu<writeURL>ohai</writeURL> ñe’ẽjuaju térã <reviewURL>ohechajey</reviewURL> ñe’ẽjuaju ñemondo Common Voice-pe.
 sc-redirect-page-subtitle-2 = Ñaporandu <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> térã <emailLink>ñanduti veve</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Hupi
-sc-bulk-upload-instruction-second-part = ñe’ẽjoaju opavave oiporukuaáva
-drag-your-file-here = Emoĩ ko’ápe marandurenda ehupi hag̃ua
-drop-file-here = Epoi ápe ne marandurenda ehupi hag̃ua
+
+## BULK SUBMISSION 
+
 try-upload-again = Eha’ãjey emoĩvo ne marandurenda ko’ápe
 try-upload-again-md = Eha’ãjey ehupi hag̃ua
-or-conjuction = térã
 select-file = Eiporavo Marandurenda
 select-file-mobile = Eiporavo marandurenda emyanyhẽ hag̃ua
 accepted-files = Oñemoneĩva marandurenda: .tsv añoite
