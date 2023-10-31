@@ -1666,7 +1666,7 @@ reviewing-sentences-explanation-2 = Si la phrase ne répond pas aux critères ci
 reviewing-sentences-explanation-3 = Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 reviewing-sentences-explanation-4 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 # WRITE PAGE
-write-instruction-second-part = une phrase du domaine public
+write-instruction = Ajoutez <icon></icon> une phrase du domaine public
 write-page-subtitle = Les phrases fournies ici seront ajoutées à un jeu de données public sous licence cc-0.
 sentence =
     .label = Phrase
@@ -1696,9 +1696,11 @@ single-sentence-submission = Envoi de phrase unique
 bulk-sentence-submission = Envoi de plusieurs phrases
 single-sentence = Phrase unique
 bulk-sentences = Plusieurs phrases
-# REVIEW PAGE
-sc-review-instruction-first-part = Vérifier
-sc-review-instruction-second-part = si la phrase est linguistiquement correcte ?
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Vérifiez <icon></icon> que la phrase est correcte sur le plan linguistique
 sc-review-rules-title = La phrase est-elle conforme aux consignes ?
 sc-review-empty-state = Il n’y a actuellement aucune phrase à vérifier dans cette langue.
 report-sc-different-language = Autre langue
@@ -1710,14 +1712,13 @@ review-error-rate-limit-exceeded = Vous allez trop vite. Veuillez prendre quelqu
 sc-redirect-page-title = Nous effectuons d’importants changements
 sc-redirect-page-subtitle-1 = Le collecteur de phrases est déplacé vers la plateforme Common Voice. Vous pouvez désormais <writeURL>écrire</writeURL> une phrase ou <reviewURL>vérifier</reviewURL> des phrases depuis Common Voice.
 sc-redirect-page-subtitle-2 = Posez-nous vos questions sur <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou <emailLink>par e-mail</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Envoyer
-sc-bulk-upload-instruction-second-part = phrases du domaine public
-drag-your-file-here = Faites glisser votre fichier ici pour l’envoyer
-drop-file-here = Déposez le fichier ici pour l’envoyer
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Envoyez <icon></icon> des phrases du domaine public
 try-upload-again = Réessayez en faisant glisser votre fichier ici
 try-upload-again-md = Essayer à nouveau d’envoyer
-or-conjuction = ou
 select-file = Sélectionner un fichier
 select-file-mobile = Sélectionnez un fichier à envoyer
 accepted-files = Types de fichiers acceptés : .tsv uniquement
