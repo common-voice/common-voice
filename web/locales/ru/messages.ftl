@@ -1719,6 +1719,8 @@ reviewing-sentences-explanation-1 = Если предложение соотве
 reviewing-sentences-explanation-2 = Если предложение не соответствует вышеуказанным критериям, нажмите кнопку «Нет».
 reviewing-sentences-explanation-3 = Если вы не уверены в предложении, вы также можете пропустить его и перейти к следующему.
 reviewing-sentences-explanation-4 = Если у вас закончились предложения для проверки, помогите нам собрать больше предложений!
+# WRITE PAGE
+write-instruction = Добавьте <icon></icon> общедоступное предложение
 write-page-subtitle = Представленные здесь фразы будут добавлены в общедоступный набор данных под лицензией cc-0.
 sentence =
     .label = Предложение
@@ -1751,6 +1753,8 @@ bulk-sentences = Много предложений
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Проверьте <icon></icon>, является ли это предложение лингвистически правильным?
 sc-review-rules-title = Соответствует ли предложение принципам из руководства?
 sc-review-empty-state = В настоящее время нет предложений для оценки на этом языке.
 report-sc-different-language = Другой язык
@@ -1765,6 +1769,9 @@ sc-redirect-page-subtitle-2 = Задавайте нам вопросы в <matri
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Загрузите <icon></icon> общедоступные предложения
+sc-bulk-upload-instruction = Перетащите сюда свой файл или <uploadButton>нажмите, чтобы загрузить</uploadButton>
 sc-bulk-upload-instruction-drop = Перетащите сюда файл, чтобы загрузить
 try-upload-again = Попробуйте еще раз, перетащив файл сюда
 try-upload-again-md = Попробуйте загрузить еще раз
