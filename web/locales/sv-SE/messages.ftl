@@ -1728,6 +1728,8 @@ bulk-sentences = Flera meningar
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kontrollera <icon></icon> är detta en språkligt korrekt mening?
 sc-review-rules-title = Uppfyller meningen riktlinjerna?
 sc-review-empty-state = Det finns för närvarande inga meningar att granska på detta språk.
 report-sc-different-language = Annat språk
