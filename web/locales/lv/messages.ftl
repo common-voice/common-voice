@@ -1905,7 +1905,7 @@ reviewing-sentences-explanation-2 = Ja teikums neatbilst iepriekš minētajiem k
 reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat to izlaist un pāriet uz nākamo.
 reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
 # WRITE PAGE
-write-instruction-second-part = publiski pieejams teikums
+write-instruction = Pievienojiet <icon></icon> publiskā īpašuma teikumu
 write-page-subtitle = Šeit ievietotie teikumi tiks pievienoti publiski pieejamai cc-0 licencētai datu kopai.
 sentence =
     .label = Teikums
@@ -1920,7 +1920,7 @@ new-sentence-rule-2 = Mazāk par 15 vārdiem
 new-sentence-rule-3 = Ir gramatiski pareizi
 new-sentence-rule-4 = Bez drukas vai pieturzīmju kļūdām
 new-sentence-rule-5 = Bez cipariem, saīsinājumiem vai speciālajām rakstu zīmēm
-new-sentence-rule-6 = Bez svešu valodu burtiem
+new-sentence-rule-6 = Bez svešu valodu vārdiem vai burtiem
 new-sentence-rule-7 = Norādiet teikuma avotu
 new-sentence-rule-8 = Dabiski sarunvalodas teikumi (tiem jābūt viegli ierunājamiem)
 how-to-cite = Kā norādīt avotu?
@@ -1935,9 +1935,11 @@ single-sentence-submission = Viena teikuma pievienošana
 bulk-sentence-submission = Vairāku teikumu pievienošana
 single-sentence = Viens teikums
 bulk-sentences = Vairāki teikumi
-# REVIEW PAGE
-sc-review-instruction-first-part = Pārbaudi
-sc-review-instruction-second-part = vai šis ir lingvistiski pareizs teikums?
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Pārbaudiet <icon></icon> vai šis teikums ir pareizs?
 sc-review-rules-title = Vai teikums atbilst vadlīnijām?
 sc-review-empty-state = Pašlaik šajā valodā nav teikumu, ko pārbaudīt.
 report-sc-different-language = Nepareiza valoda
@@ -1949,14 +1951,13 @@ review-error-rate-limit-exceeded = Jūs strādājat pārāk ātri. Lūdzu veltie
 sc-redirect-page-title = Mēs veicam dažas lielas izmaiņas
 sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad varat <writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> teikumus Common Voice sistēmā.
 sc-redirect-page-subtitle-2 = Uzdodiet mums jautājumus <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> vai rakstot <emailLink>e-pastu</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Augšupielādēt
-sc-bulk-upload-instruction-second-part = publiskā īpašuma teikumi
-drag-your-file-here = Ievelciet šeit datni ko augšupielādēt
-drop-file-here = Nometiet šeit datni ko augšupielādēt
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Augšupielādējiet <icon></icon> publiskā īpašuma teikumus
 try-upload-again = Mēģiniet vēlreiz ievilkt šeit datni ko augšupielādēt
 try-upload-again-md = Mēģiniet augšupielādēt vēlreiz
-or-conjuction = vai
 select-file = Izvēlieties datni
 select-file-mobile = Atlasiet augšupielādējamo datni
 accepted-files = Atbalstītie datņu veidi: tikai .tsv
