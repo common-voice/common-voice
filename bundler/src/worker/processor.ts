@@ -6,6 +6,8 @@ import { taskEither as TE } from 'fp-ts'
 import { Job } from 'bullmq'
 import { runCorporaCreator } from '../infrastructure/corporaCreator'
 import { runCompress } from '../core/compress'
+import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
+import { runStats } from '../core/stats'
 
 export const processLocale = async (job: Job<ProcessLocaleJob>) => {
   await pipe(
@@ -18,8 +20,11 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
     TE.chainFirst(({ locale, isMinorityLanguage }) =>
       runFetchAllClipsForLocale(locale, isMinorityLanguage),
     ),
+    TE.chainFirst(({ locale }) => runMp3DurationReporter(locale)),
     TE.chainFirst(({ locale }) => runCorporaCreator(locale)),
     TE.chainFirst(({ locale }) => runCompress(locale)),
+    TE.chainFirst(({ locale }) => runStats(locale)),
+    TE.mapError(err => console.log(String(err))),
   )()
 
   // query db for all clips

@@ -16,7 +16,7 @@ RUN mkdir -p /home/node/code && \
     cd /home/node/mp3-duration-reporter && \
     /home/node/.cargo/bin/cargo install --path .
 
-ENV PATH "$PATH:/home/node/.local/bin/"
+ENV PATH "$PATH:/home/node/.local/bin/:/home/node/.cargo/bin"
 
 WORKDIR /home/node/code
 
