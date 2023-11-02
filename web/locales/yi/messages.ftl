@@ -712,7 +712,7 @@ request-language-success-list-3 =
 ## Languages Overview
 
 language-section-in-progress = מען ארבעט נאך דערויף
-language-section-in-progress-new-description = דער שפרייכן זענען דערווייל אונטער די געמיינדע אנטוויקלונג. <localizationGlossaryLink>וועבזייטל לאקאליזירונג</localizationGlossaryLink> און <sentenceCollectionGlossaryLink>זאצן זאמלונג</sentenceCollectionGlossaryLink> איז נייטיג אויף צו ווערן ארויסגעשטעלט.
+language-section-in-progress-new-description = דער שפרייכן זענען נאך דערווייל אונטער די געמיינדע אנטוויקלונג. <localizationGlossaryLink>וועבזייטל לאקאליזירונג</localizationGlossaryLink> און <sentenceCollectionGlossaryLink>זאצן זאמלונג</sentenceCollectionGlossaryLink> איז נייטיג אויף צו ווערן ארויסגעשטעלט.
 language-section-launched = ארויסגעשטעלטע
 language-section-launched-description = פאר די דאזיגע ארויסגעשטעלטע שפרייכן איז די וועבזייטל שוין געווארן <localizationGlossaryLink>לאקאליזירט</localizationGlossaryLink>, און האט שוין גענוג <sentenceCollectionGlossaryLink>זאצן געזאמלט</sentenceCollectionGlossaryLink> צו ערלויבן אנגייענדיגע <speakLink>רעדן</speakLink> און <listenLink>הערן</listenLink> ביישטייערונגען.
 languages-show-more = זעט מער
