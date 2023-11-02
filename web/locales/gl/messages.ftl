@@ -1733,6 +1733,8 @@ reviewing-sentences-explanation-1 = Se a frase cumpre os criterios anteriores, p
 reviewing-sentences-explanation-2 = Se a frase non cumpre os criterios anteriores, prema no botón "Non".
 reviewing-sentences-explanation-3 = Se ten dúbidas sobre a frase, pode omitila e pasar á seguinte.
 reviewing-sentences-explanation-4 = Se xa non quedan frases para revisar, axúdenos a recoller máis!
+# WRITE PAGE
+write-instruction = Engada <icon></icon> unha frase de dominio público
 write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de datos con licenza cc-0 dispoñible publicamente.
 sentence =
     .label = Frase
@@ -1765,6 +1767,8 @@ bulk-sentences = Grupo de frases
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Revise a frase: <icon></icon> é esta unha frase lingüísticamente correcta?
 sc-review-rules-title = A frase cumpre as directrices?
 sc-review-empty-state = Actualmente non hai frases para revisar neste idioma.
 report-sc-different-language = Idioma diferente
