@@ -1733,8 +1733,6 @@ reviewing-sentences-explanation-1 = Se a frase cumpre os criterios anteriores, p
 reviewing-sentences-explanation-2 = Se a frase non cumpre os criterios anteriores, prema no botón "Non".
 reviewing-sentences-explanation-3 = Se ten dúbidas sobre a frase, pode omitila e pasar á seguinte.
 reviewing-sentences-explanation-4 = Se xa non quedan frases para revisar, axúdenos a recoller máis!
-# WRITE PAGE
-write-instruction-second-part = unha frase de dominio público
 write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de datos con licenza cc-0 dispoñible publicamente.
 sentence =
     .label = Frase
@@ -1764,9 +1762,9 @@ single-sentence-submission = Envío dunha única frase
 bulk-sentence-submission = Envío masivo de frases
 single-sentence = Frase única
 bulk-sentences = Grupo de frases
-# REVIEW PAGE
-sc-review-instruction-first-part = Comprobar:
-sc-review-instruction-second-part = é esta unha frase lingüisticamente correcta?
+
+## REVIEW PAGE
+
 sc-review-rules-title = A frase cumpre as directrices?
 sc-review-empty-state = Actualmente non hai frases para revisar neste idioma.
 report-sc-different-language = Idioma diferente
@@ -1778,14 +1776,15 @@ review-error-rate-limit-exceeded = Vai moi á présa. Tómese un momento para re
 sc-redirect-page-title = Estamos a facer grandes cambios
 sc-redirect-page-subtitle-1 = O colector de frases está migrando para a plataforma principal do Common Voice. Agora vostede pode <writeURL>escribir</writeURL> unha frase ou <reviewURL>revisar</reviewURL> envíos de frases soltas no Common Voice.
 sc-redirect-page-subtitle-2 = Fáganos preguntas en <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou por <emailLink>correo electrónico</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Subir
-sc-bulk-upload-instruction-second-part = frases de dominio público
-drag-your-file-here = Arrastre o seu ficheiro aquí para cargalo
-drop-file-here = Solte o ficheiro aquí para cargalo
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Envíe <icon></icon> frases de dominio público
+sc-bulk-upload-instruction = Arrastre o seu ficheiro aquí ou <uploadButton>prema para envialo</uploadButton>
+sc-bulk-upload-instruction-drop = Solte o ficheiro aquí para cargalo
 try-upload-again = Inténteo de novo arrastrando o ficheiro aquí
 try-upload-again-md = Intente cargar de novo
-or-conjuction = ou
 select-file = Seleccionar un ficheiro
 select-file-mobile = Seleccione un ficheiro para cargar
 accepted-files = Tipos de ficheiros aceptados: unicamente .tsv
