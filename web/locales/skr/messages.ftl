@@ -1727,8 +1727,10 @@ sc-redirect-page-subtitle-2 = ساݙے کنوں <matrixLink>میٹرکس</matrix
 ## BULK SUBMISSION 
 
 sc-bulk-upload-instruction-drop = اپ لوڈ کرݨ کیتے فائل اتھ سٹو
+try-upload-again-md = ولدا اپ لوڈ کرݨ دی کوشش کرو
 select-file = فائل چݨو
 select-file-mobile = اپ لوڈ کرݨ کیتے فائل چݨو
+upload-progress-text = اپ لوڈ تھیندا پئے۔۔۔
 sc-bulk-submit-confirm = میں تصدیق کرینداں جو ایہ جملہ <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں انہاں دے اپ لوڈ کرݨ دی اجازت ہے۔
 bulk-upload-success-toast = ڈھڳ جملے اپ لوڈ تھی ڳئے
 upload-more-btn-text = ٻئے جملے اپ لوڈ کروں؟
