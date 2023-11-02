@@ -1639,8 +1639,6 @@ reviewing-sentences-explanation-1 = Cümle yukarıdaki ölçütleri karşılıyo
 reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamıyorsa "Hayır" düğmesine tıklayın.
 reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
 reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
-# WRITE PAGE
-write-instruction-second-part = kamuya açık bir cümle
 write-page-subtitle = Buradan gönderilen cümleler, halka açık ve cc-0 lisanslı bir veri kümesine eklenecektir.
 sentence =
     .label = Cümle
@@ -1669,9 +1667,9 @@ single-sentence-submission = Tek cümle gönderimi
 bulk-sentence-submission = Toplu cümle gönderimi
 single-sentence = Tek cümle
 bulk-sentences = Toplu cümle
-# REVIEW PAGE
-sc-review-instruction-first-part = Kontrol et
-sc-review-instruction-second-part = Bu dilbilimsel olarak doğru bir cümle mi?
+
+## REVIEW PAGE
+
 sc-review-rules-title = Cümle yönergelere uygun mu?
 sc-review-empty-state = Şu anda bu dilde incelenecek cümle yok.
 report-sc-different-language = Farklı dil
@@ -1683,14 +1681,12 @@ review-error-rate-limit-exceeded = Çok hızlı ilerliyorsunuz. Lütfen cümleni
 sc-redirect-page-title = Bazı büyük değişiklikler yapıyoruz
 sc-redirect-page-subtitle-1 = Cümle Toplayıcı, ana Common Voice platformuna taşınıyor. Artık Common Voice'ta cümle <writeURL>yazabilir</writeURL> veya gönderilen cümleleri <reviewURL>denetleyebilirsiniz</reviewURL>.
 sc-redirect-page-subtitle-2 = Bize <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> veya <emailLink>e-posta</emailLink> üzerinden soru sorabilirsiniz.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Yükle
-sc-bulk-upload-instruction-second-part = kamu malı cümleler
-drag-your-file-here = Yüklemek için dosyanızı buraya sürükleyin
-drop-file-here = Yüklemek için dosyayı buraya bırakın
+
+## BULK SUBMISSION 
+
+sc-bulk-upload-instruction-drop = Yüklemek için dosyayı buraya bırakın
 try-upload-again = Dosyanızı buraya sürükleyerek yeniden deneyin
 try-upload-again-md = Yeniden yüklemeyi deneyin
-or-conjuction = veya
 select-file = Dosya seçin
 select-file-mobile = Yüklenecek dosyayı seçin
 accepted-files = Kabul edilen dosya türleri: yalnızca .tsv
@@ -1701,6 +1697,7 @@ sc-bulk-submit-confirm = Bu cümlelerin <wikipediaLink>kamu malı</wikipediaLink
 bulk-upload-success-toast = Toplu cümleler yüklendi
 bulk-upload-failed-toast = Yükleme başarısız oldu, lütfen yeniden deneyin.
 bulk-submission-success-header = Toplu gönderiminizle katkıda bulunduğunuz için teşekkür ederiz!
+bulk-submission-success-subheader = Common Voice’un günlük cümle hedeflerimize ulaşmasına yardımcı oluyorsunuz!
 upload-more-btn-text = Daha fazla cümle yükleyecek misiniz?
 file-invalid-type = Geçersiz dosya
 file-too-large = Dosya çok büyük
