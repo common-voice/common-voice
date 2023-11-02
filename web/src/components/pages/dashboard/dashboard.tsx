@@ -266,8 +266,9 @@ export default function Dashboard() {
     { subPath: URLS.GOALS, Page: GoalsPage },
     { subPath: URLS.AWARDS, Page: AwardsPage },
   ];
-  let defaultPage = URLS.STATS;
+  let defaultPage = URLS.STATS as string;
   if (isChallengeEnrolled) {
+    // TODO: come back to this
     // @ts-ignore
     pages.unshift({ subPath: URLS.CHALLENGE, Page: ChallengePage });
     if (isChallengeLive(pilotDates)) {

@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { RouteComponentProps, withRouter } from 'react-router';
 import { useAction } from '../../hooks/store-hooks';
 import URLS from '../../urls';
@@ -9,7 +8,7 @@ import { trackProfile } from '../../services/tracker';
 import { useLocale } from '../locale-helpers';
 
 export const LoginFailure = withRouter(
-  ({ history }: RouteComponentProps<any, any, any>) => {
+  ({ history }: RouteComponentProps): null => {
     const [, toLocaleRoute] = useLocale();
     const addNotification = useAction(Notifications.actions.addPill);
 
@@ -23,7 +22,7 @@ export const LoginFailure = withRouter(
 );
 
 export const LoginSuccess = withRouter(
-  ({ history, location }: RouteComponentProps<any, any, any>) => {
+  ({ history, location }: RouteComponentProps): null => {
     const user = useTypedSelector(({ user }) => user);
     const [locale, toLocaleRoute] = useLocale();
 

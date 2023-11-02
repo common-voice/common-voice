@@ -34,7 +34,7 @@
     "lodash.omit": "4.5.0",
     "lodash.pick": "4.4.0",
     "mp3-duration": "^1.1.0",
-    "mysql2": "1.7.0",
+    "mysql2": "3.6.2",
     "nodemailer": "6.7.3",
     "passport": "0.6.0",
     "passport-auth0": "0.6.1",
@@ -64,7 +64,7 @@
     "@types/lodash.omit": "4.5.7",
     "@types/lodash.pick": "4.4.7",
     "@types/mysql": "2.15.21",
-    "@types/node": "12.20.55",
+    "@types/node": "20.8.10",
     "@types/node-fetch": "2.6.2",
     "@types/nodemailer": "6.4.4",
     "@types/passport-auth0": "1.0.5",
@@ -76,7 +76,8 @@
     "jest-matcher-utils": "27.5.1",
     "source-map-support": "0.5.21",
     "ts-jest": "27.1.5",
-    "tsc-watch": "4.6.2"
+    "tsc-watch": "4.6.2",
+    "typescript": "5.2.2"
   },
   "scripts": {
     "build": "tsc",
