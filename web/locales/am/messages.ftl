@@ -1798,6 +1798,8 @@ sc-redirect-page-subtitle-2 = ጥያቄዎችን በ<matrixLink>ማትሪክስ<
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = <icon></icon> የሕዝብ ጎራ ዓረፍተ-ነገሮችን ይጫኑ
+sc-bulk-upload-instruction = ፋይልዎን ወደዚህ ይጎትቱት ወይም <uploadButton>ለመጫን ጠቅ ያድርጉ</uploadButton>
+sc-bulk-upload-instruction-drop = ለመጫን ፋይልዎን እዚህ ጣል ያድርጉ
 try-upload-again = ፋይልዎን ወደዚህ በመጎተት እንደገና ይሞክሩ
 try-upload-again-md = እንደገና ለመጫን ይሞክሩ
 select-file = ፋይል ይምረጡ
@@ -1805,10 +1807,12 @@ select-file-mobile = የሚጫን ፋይልን ይምረጡ
 accepted-files = ተቀባይነት ያላቸው የፋይል ዓይነቶች፡.tsv ብቻ
 maximum-file-size = ከፍተኛው የፋይል መጠን፡ 25 ሜባ
 what-needs-to-be-in-file = በእኔ ፋይል ውስጥ ምን መሆን አለበት?
+what-needs-to-be-in-file-explanation = እባክዎ የእኛን <templateFileLink>የአብነት ፋይል</templateFileLink> ይመልከቱ። ዓረፍተ-ነገሮችዎ ከቅጂ መብት ነጻ (CC0 ወይም በአመልካቹ የተፈቀደ ኦሪጅናል ስራ) እና ግልጽ፣ ሰዋሰው ትክክል እና ለማንበብ ቀላል መሆን አለባቸው። የገቡት ዓረፍተ-ነገሮች ለማንበብ ከ10-15 ሰከንድ ያህል መውሰድ አለባቸው እና ቁጥሮችን፣ ትክክለኛ ስሞችን እና ልዩ ቁምፊዎችን ከማካተት መቆጠብ አለባቸው።
 upload-progress-text = በመጫን ሂደት ላይ...
 sc-bulk-submit-confirm = እነዚህ ዓረፍተ-ነገሮች <wikipediaLink>የወል ጎራ</wikipediaLink> መሆናቸውን አረጋግጣለሁ እና እነሱን ለመጫን ፍቃድ አለኝ።
 bulk-upload-success-toast = በጅምላ የተጫኑ ዓረፍተ-ነገሮች
 bulk-upload-failed-toast = መጫን አልተሳካም፣ እባክዎ እንደገና ይሞክሩ።
+bulk-submission-success-header = በጅምላ ያስገቡትን ስላበረከቱ እናመሰግናለን!
 bulk-submission-success-subheader = የጋራ ድምጽ ዕለታዊ ዓረፍተ ነገር ግቦቻችን ላይ እንዲደርስ እየረዱት ነው!
 upload-more-btn-text = ተጨማሪ ዓረፍተ-ነገሮች ይጫኑ?
 file-invalid-type = ልክ ያልሆነ ፋይል
