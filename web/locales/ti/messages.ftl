@@ -18,6 +18,8 @@ banner-error-slow-1 = ይቕሬታ፡ ኮመን ቮይስ ዝሒሉ ኣሎ። �
 banner-error-slow-2 = ብብዝሒ ተጠቀምቲ ይመጹና ኣለው፡ ነቲ ጠንቅታት ነጻርዮ ኣሎና።
 banner-error-slow-link = ናይ ሓበሬታ ገጽ
 error-something-went-wrong = ይቕሬታ፡ ገለ ብልሽት ኣጋጢሙ ኣሎ
+error-clip-upload = ምጽዓን ናይዛ ቁራጹ ፈሸለ፣ ብድጋሜ ይፈተን፧
+error-clip-upload-server = ምጽዓን ናይዛ ቁራጹ ፈሸለ  ኣብ ኣገልጋሊ። ነቲ ገጽ ብ'ዳግማይ ኣዝሮ ወይ ድሒርካ እንደገና ፈትን።
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +42,13 @@ ba = ባሽኪር
 bas = ባሳ
 be = ቤላሩስያን
 bg = ቡልጋርያን
+bm = ባምባራ
 bn = ቤንጋሊ
+bo = ቲቤታዊን
 br = ብሬቶን
 bs = ቦዝንያዊ
 bxr = ቡርያት
+byv = መዱምባ
 ca = ካታልያን
 cak = ካክቺከልያን
 ckb = ማእከላይ ኩርዲሽ
@@ -53,15 +58,18 @@ cs = ቸክ
 cv = ቹቫሽ
 cy = ዌልሽ
 da = ዳኒሽ
+dag = ዳግባኒ
 de = ጀርመን
 dsb = ሶርብያን ታሕታይ
 dv = ዲቨሂ
+dyu = ዲዮላ
 el = ግሪኽ
 en = እንግሊዝ
 eo = ኣስፐሬንቶ
 es = እስጳኒሽ
 et = ኢስቶንያን
 eu = ባስክ
+ewo = ኤዎንዶ
 fa = ፐሪሽያ
 ff = ፉላህ
 fi = ፊኒሽ
@@ -72,9 +80,11 @@ ga-IE = ኣይሪሽ
 gl = ጋሊሽያን
 gn = ጉራኒ
 gom = ጎኣን ኮንካኒ
+gu-IN = ጉራኒ
 ha = ሃውሳ
 he = እብራይስጥ
 hi = ሂንዲ
+hil = ሂሊጋይነን
 hr = ክሮሽይን
 hsb = ሶርብያን ላዕላይ
 ht = ሄሽያን
@@ -89,6 +99,8 @@ is = ኣይስላንዲክ
 it = ጥልያን
 izh = ኢዞርያን
 ja = ጃፓን
+jbo = ሎጅባን
+jv = ጃቫነሰ
 ka = ጆርጅያን
 kaa = ካራካልፓክ
 kab = ካብይል
@@ -325,7 +337,6 @@ shortcut-discard-ongoing-recording-label = ዝቕዳሕ ዘሎ ደርብዮ
 shortcut-submit = ተመለስ
 shortcut-submit-label = ቀረጻታት ኣረክብ
 request-language-text = ቛንቛኻ ኣብ "ኮመን ቮይስ" ኣይኣተወን ድዩ?
-request-language-text-learn = ብኸመይ ከም ትጠልቦ ኣብዚ ተወከስ!
 request-language-button = ናይ ቛንቛ ጠለብ ኣቕርብ
 
 ## ProjectStatus
@@ -458,7 +469,6 @@ faq-why-different-speakers-a =
     መብዛሕትኡ ናይ ምዝራብ ኣብያተ - ጽሕፈት ንገሊኡ ጂኦግራፍያዊ ኣቀማምጣ ብምዝውተር ኢዩ ዝስልጥን እዚ ድማ ኣብ <articleLink>ተባዕትዮን ማእከላይ ደረጃ ዘለዎምን ኣድልዎ ከም ዝህልወካ ዝገብር ኢዩ </articleLink> ። ኣብ ናይ ስልጠና ሓበሬታ ብዙሕ ዘይውከል ኣደማምጻን ላህጃታትን መብዛሕትኡ ግዜ ምስቶም ድሮ ኣብ ትሕቲ ቝጽጽሩ ዘለዉ ጕጅለታት ሰባት እተተሓሓዘ ኢዩ። ብዙሓት ማሽናት ንድምጺ ደቂ ኣንስትዮ ምርዳእ የጸግሞም እዩ።
     ስለዚ ኸኣ ኢና ኣብ ናይ ድምጽና ሓበሬታ እተፈላለየ ዓይነት ሓበሬታ እንደሊ!
 faq-why-my-lang-q = ቋንቋይ ክሳዕ ሕጂ ስለምንታይ እዩ  ዘይተሓወሰ ?
-faq-why-my-lang-new-a = ሞዚላ ንሓደ ቛንቋ ኻብ ካልእ ቋንቋ ኣይትመርጾን ወይ ኣይተዳሉን እያ። ኣብ ክንድኡስ ሓባራዊ ድምጺ ብማሕበረሰብ ዝምራሕ ተበግሶ ኢዩ እንተዀነ ግን ሓድሽ ቋንቋ ንምውሳኽን ናይ ድምጺ ወፈያታት ንምእካብን <multilangLink>እተወሰነ ስጕምትታት </multilangLink> ዝወስድ። ቀዳማይ ኣባላት ማሕበረሰብ ነቲ ኣበርክቶ ዝገበረ ተመክሮ ብቛንቋኦም ምእንቲ ኺረኽብዎ ወብ ሳይት ሓባራዊ ድምጺ ኺትርጐም ኣለዎ። ድሕርዚ ሰባት ዓው ኢሎም ምእንቲ ኼንብቡ መሰል ዋና ዘይብሉ ብዙሕ ምሉእ ሓሳባት የድልየና። እዚ ኽልቲኡ ብቕዓታት እዚ ሓንሳእ ምስ ተፈጸመ ሰባት ድምጾም ኪምዝግቡን ንኻልኦት ወፈያታት ኬረጋግጹን ምእንቲ ኺጅምሩ ሓደ ቛንቋ ኣብ ሓባራዊ ድምጺ ይጅመር። ሓድሽ ቋንቋ ኣብ ምጅማር ክትሕግዝ እንተ ደሊኻ ናብታ <sentenceCollectorLink>ንምእካብ እትሕግዘና </sentenceCollectorLink> ንዋት ኣተኩር።
 faq-what-quality-q = ክሊፕ ድምጺ ኣብቲ ሓበሬታ ንምጥቃም እንታይ ዓይነት ዝስማዕ ደረጃ የድሊ?
 faq-what-quality-a = እቲ ናይ ኮመን ቮይስ ሓበሬታ ነቲ ኣብ ኣብ ዝኾነ ቦታ ዝሰምዕ ዓይነት ተሰማዒ ድምጺ-ናብ-ጽሑፍ ከንጸባርቕ ንደሊ ኢና፣ ስለዚ እተፈላለየ ዓይነት ድምጺ ነናዲ ኣሎና። ኣብ ርእሲ እቶም እተፈላለዩ ተዛረብቲ እተፈላለየ ዓይነት ዝስማዕ ዘለዎ ሓበሬታ ነቲ ኻብ ናይ ሓቂ ዓለም ኣትሒዙ ኽሳዕ ጫውጫውታ ማኪና ዘሎ እተፈላለየ ዅነታት ብኸመይ ከም ዚፈትሖ ይምህሮ እዩ። ክሊፕ ድምጽኻ ኽትርዳእ ክሳዕ ዝኸኣልካ ነቲ ሓበሬታ ንምርካብ እኹል ኪኸውን ኣለዎ።
 faq-why-10k-hours-q = ስለምንታይ እዩ ኣብ ነፍሲ ወከፍ ቋንቋ 10,000 ሰዓት እተረጋገጸ ዝስማዕ (ድምጺ) ምእካብ ዘድሊ?
@@ -520,12 +530,6 @@ about-dataset-new = ኮመን ቮይስ ሓበሬታ
 about-dataset-new-text = ኮመን ቮይስ ዳታሰት ንተዓዘብቲ ናይ ድምጺ መለለዪ መሳርሒታት ንምህናጽ ዝሕግዝ ብኣማእታት ኣሽሓት ዝቝጸር ናይ ድምጺ መርኣያታት ዝሓዘ ኢዩ ።
 about-clip-graveyard = መቓብር ክሊፕ
 about-clip-graveyard-text = እቲ ክሊፕ መቓብር ኣብ ናይ ኮመን ቮይስ ሓበሬታ ዘይኣተወ ክሊፕታት ድምጺ ዝሓዘ ኢዩ። ልክዕ ከምቲ ሓበሬታ ዚስራሕ እቲ ክሊፕ መቓብር እውን ከተራግፎ ትኽእል ኢኻ።
-about-partners = መሻርኽቲ
-about-become-a-partner = መሻርኽቲ ኹኑና
-about-partnership =
-    ኮመን ቮይስ ናይ ምትሕብባር ፕሮጀክት ኢዩ ክሳዕ ሕጂ ኻብ እተራእየ እቲ ዝዓበየ ናይ ድምጺ ሓበሬታ ንምስራሕ ከኣ ኣብ ማሕበረሰብና ብጾትናን ወፈያተኛታትናን ኢና እንምርኰስ ዘሎና።
-    
-    ነዞም ዝስዕብ ሰባትን ውድባትን ኣብዚ ፕሮጀክት እዚ ስለ ዝሓገዝዎ ከነመስግኖም ንደሊ ኢና -
 about-get-involved = ተሳተፍ
 about-get-involved-text-2 =
     ኮመን ቮይስ ብዝያዳ ኸም ዚመሓየሽ ክትገብር ትደሊዶ ?
@@ -580,12 +584,6 @@ about-playbook-how-project-governance-content-4 = ኮማዊ ተሳትፎን ም�
 about-playbook-how-project-governance-content-5 = ዋጋን ኣፍልጦ ምሃብን።
 about-playbook-how-project-governance-content-6 = ሓባራዊ ተሓታትነት።
 about-playbook-how-project-governance-content-7 = <governanceLink>ብዛዕባ ኣመራርሓና ዝያዳ ኣንብቡ</governanceLink>
-mycroft-title = ማይክሮፍት
-mycroft-subtitle = ሰብ ዝሰርሖ ብልሒ
-mycroft-description =
-    ሚይክሮፍት (Mycroft) ኣብ ዓለም ናይ መጀመርታ  ክፉት ምንጪ ሓጋዚት እያ ።
-    ማይክሮፍት ኣብ ዝዀነ ይኹን ቦታ ማለት ኣብ ኮምፕዩተር ኣብ ውሽጢ ማኪና ወይ ኣብ ራስፐሪ ፒይ እያ እትሰርሕ ።
-mycroft-secondary-description = እዚ ፕሮግራም እዚ ብናጻ ክተሓዋወስ ክሰፍሕ ከምኡውን ክመሓየሽ ዝኽእል ክፉት ምንጪ ፕሮግራም ኢዩ። ማይክሮፍት ካብ ናይ ስነ-ፍልጠት ፕሮጀክት ኣትሒዙ ኽሳዕ ናይ ንግዲ ሶፍትዌር ኣወዓዕላ ኣብ ዝዀነ ይኹን ነገር ክትጥቀመሉ ትኽእል ኢኻ።
 
 ## Glossary
 
@@ -699,6 +697,7 @@ more = ዝያዳ
 close = ዕጾ
 download = ኣውርድ
 dataset-version = ሕታም
+sha256-checksum-copied = SHA256 ድምር ተቐዲሑ!
 
 ## Download Modal
 
@@ -758,7 +757,7 @@ language-search-input =
 language-speakers = ተዛረብቲ
 localized = ዝተተርጎመ
 sentences = ምሉእ ሓሳባት
-total-hours = ዝተረጋገጸ ሰዓታት
+language-validation-hours = ሰዓታት
 
 ## Contribution
 
@@ -766,6 +765,8 @@ action-click = ጠውቕ
 action-tap = ጠውቕ
 contribute = ኣበርክት
 listen = ስማዕ
+write = ጸሓፈ
+review = ተንተነ
 skip = ስገር
 shortcuts = ኣቃራጭ
 clips-with-count-pluralized =
@@ -823,6 +824,9 @@ target-segment-generic-card = ነቲ ክፋል ዕላማና ተበርክት ኣ�
 target-segment-first-banner = ናይ ኮመን ቮይስ ቀዳማይ ክፋል ዕላማ ኣብ{ $locale } ሓገዝ ፍጠር
 target-segment-add-voice = ድምጽኻ ኣእትው
 target-segment-learn-more = ተወሳኺ ሓበሬታ
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1244,3 +1248,10 @@ sc-validation-no-abbreviations = ምሉእ ሓሳባት እሕጽሮተ ቃል �
 
 localization-select =
     .label = ቛንቛ ምረጽ
+sentence-collection = መአከቢ ሙሉእ ሓሳባት
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
