@@ -1956,6 +1956,8 @@ sc-redirect-page-subtitle-2 = Uzdodiet mums jautājumus <matrixLink>Matrix</matr
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Augšupielādējiet <icon></icon> publiskā īpašuma teikumus
+sc-bulk-upload-instruction = Ievelciet savu datni šeit vai <uploadButton>klikšķiniet, lai izvēlētos</uploadButton>
+sc-bulk-upload-instruction-drop = Nometiet šeit datni ko augšupielādēt
 try-upload-again = Mēģiniet vēlreiz ievilkt šeit datni ko augšupielādēt
 try-upload-again-md = Mēģiniet augšupielādēt vēlreiz
 select-file = Izvēlieties datni
