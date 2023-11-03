@@ -193,12 +193,22 @@ xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Cantonese
+zh-CN = Chinese (China)
+zh-HK = Chinese (Hong Kong)
+zh-TW = Chinese (Taiwan)
+zu = Zulu
 
 # [/]
 
 
 ## Layout
 
+speak = Haal
+speak-now = Haal jooni
+datasets = Leeme Keɓe
+languages = Ɗemɗe
+about = Baɗte
+profile = Heftinirde
 
 ## Home Page
 
