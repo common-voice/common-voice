@@ -7,6 +7,17 @@ return-to-cv = Rutto to Common Voice
 email-input =
     .label = Iimeel
 submit-form-action = Naatnu
+loading = Nana loowa…
+email-opt-in-info = Miɗo hatojini e heɓde iimeeluuji wano ciiftinooji, kesɗitine taaɓagol am e ɓatakeeji kabrirɗi baɗte Common Voice.
+email-opt-in-info-title = Tawtu doggol cargol Common Voice ngol
+email-opt-in-info-sub-with-challenge = Heɓ iimeeluuji hono ciiftinooji ko fad-maa e faandaare maa, kesɗitine taaɓagol maa, e ɓatakeeji baɗte Common Voice.
+email-opt-in-privacy-v2 = Suɓaade heɓde iimeeliiji firti ko aɗa yahdi e kuutoragol Mozilla ngoo humpito hono no facciraa e <privacyLink>Dawirgol Duturo</privacyLink> Mozilla.
+indicates-required = * Joofii ko gallol baɗɗingol
+not-available-abbreviation = N/A
+banner-error-slow-1 = Ɗaccu hakke, Common Voice ena leeli. A jaaraama e golle maa.
+banner-error-slow-2 = Amin eɓa yillotooɓe heewɓe oo sahaa, min ngoni ko e yuurnitaade caɗeele ɗee.
+banner-error-slow-link = Hello Ngonka
+error-something-went-wrong = Ɗaccu hakke, won ko feewaani
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -14,6 +25,15 @@ submit-form-action = Naatnu
 
 ## Languages
 
+ab = Abkhaz
+ace = Acehnese
+ady = Adyghe
+af = Afrikaans
+am = Amharic
+an = Aragonese
+ar = Arabic
+arn = Mapudungun
+as = Assamese
 
 # [/]
 
