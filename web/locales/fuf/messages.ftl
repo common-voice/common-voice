@@ -1,7 +1,12 @@
 ## General
 
+yes-receive-emails = Eey, neldee kam iimeeluuji. Miɗo hatojini e humpitaade baɗte Eɓɓoore Common Voice.
+stayintouch = Min ga Mozilla gaa, amin cosa renndo toppitiingo karallagal daaɗe. Amin njiɗi njokkondiren ngam keɓaa kesɗitine, cewɗe keɓe kese kadi min keɓa e no kuutorto-ɗaa ɗee keɓe.
+privacy-info = Amin ngaadani maa huutoraade humpito maa e nuunɗal. Ɓeydu humpito to <privacyLink>Ciifol Suturo</privacyLink>.
+return-to-cv = Rutto to Common Voice
 email-input =
     .label = Iimeel
+submit-form-action = Naatnu
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
