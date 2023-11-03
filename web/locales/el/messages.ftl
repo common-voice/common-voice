@@ -1267,7 +1267,7 @@ sc-home-intro = Το Sentence Collector αποτελεί μέρος του <comm
 sc-home-collect-title = Συλλογή προτάσεων
 sc-home-collect-text = Βοηθήστε μας συντάσσοντας ή συλλέγοντας προτάσεις δημόσιου τομέα.
 sc-home-review-title = Έλεγχος προτάσεων
-sc-home-review-text = Βοηθήστε μας ελέγχοντας την ορθότητα των προτάσεων, σύμφωνα με τις οδηγίες.
+sc-home-review-text = Βοηθήστε μας ελέγχοντας την ορθότητα των προτάσεων σύμφωνα με τους κανόνες.
 
 ## GENERAL
 
@@ -1673,12 +1673,12 @@ reviewing-sentences-explanation-2 = Εάν η πρόταση δεν πληροί
 reviewing-sentences-explanation-3 = Εάν δεν είστε σίγουροι για την πρόταση, μπορείτε επίσης να την παραλείψετε και να προχωρήσετε στην επόμενη.
 reviewing-sentences-explanation-4 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
 # WRITE PAGE
-write-instruction = Προσθήκη <icon></icon> πρότασης δημόσιου τομέα
-write-page-subtitle = Οι προτάσεις που συνεισφέρονται εδώ θα προστεθούν σε ένα δημόσια διαθέσιμο σύνολο δεδομένων με άδεια cc-0.
+write-instruction = <icon></icon> Προσθήκη πρότασης δημόσιου τομέα
+write-page-subtitle = Οι προτάσεις που υποβάλλονται εδώ θα προστεθούν σε ένα δημόσια διαθέσιμο σύνολο δεδομένων με άδεια cc-0.
 sentence =
     .label = Πρόταση
 sentence-input-value = Εισαγάγετε την πρόταση δημόσιου τομέα σας εδώ
-citation-input-value = Πηγή της πρότασής σας
+citation-input-value = Πηγή πρότασης
 citation =
     .label = Παράθεση
 sc-write-submit-confirm = Επιβεβαιώνω ότι αυτή η πρόταση ανήκει στον <wikipediaLink>δημόσιο τομέα</wikipediaLink> και έχω την άδεια να τη μεταφορτώσω.
@@ -1704,7 +1704,7 @@ bulk-sentences = Πολλαπλές προτάσεις
 ## REVIEW PAGE
 
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = Έλεγχος <icon></icon> για τη γλωσσική ορθότητα αυτής της πρότασης
+sc-review-instruction = <icon></icon> Έλεγχος γλωσσικής ορθότητας της πρότασης
 sc-review-rules-title = Τηρεί η πρόταση τους κανόνες;
 sc-review-empty-state = Προς το παρόν δεν υπάρχουν προτάσεις για έλεγχο σε αυτήν τη γλώσσα.
 report-sc-different-language = Διαφορετική γλώσσα
@@ -1720,7 +1720,7 @@ sc-redirect-page-subtitle-2 = Κάντε μας ερωτήσεις στο <matri
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = Μεταφόρτωση <icon></icon> προτάσεων δημόσιου τομέα
+sc-bulk-upload-header = <icon></icon> Μεταφόρτωση προτάσεων δημόσιου τομέα
 sc-bulk-upload-instruction = Σύρετε το αρχείο σας εδώ ή <uploadButton>κάντε κλικ για μεταφόρτωση</uploadButton>
 sc-bulk-upload-instruction-drop = Σύρετε το αρχείο εδώ για μεταφόρτωση
 try-upload-again = Δοκιμάστε ξανά σύροντας το αρχείο σας εδώ
