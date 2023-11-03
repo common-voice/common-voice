@@ -414,15 +414,46 @@ download-profile = Aawtaade keɓe am
 contribution-experience = Dawtol Ballitgol Maa
 skip-submission-feedback = Diw duttinal naatnugol
 skip-submission-description = Tuma naatnoygol ballitol maa, duttinal maa diwe ɓaawo dobagol e "Naatnu". Ballital maa jokku e saasi to nanngitte walla jaalɗine 5 dewɗe heen.
+skip-submission-note = Tesko: maa sokloy labaade hakkunde Haal walla Heɗo ngam waylude sifaa ballital.
+off = Ñifol
+on = Kuɓɓol
+help-accent = Aɗa sokli ballal seeɗa baɗte ngaddin?
+help-accent-explanation = Ngaddiin maa ko no ngowlirtaa konngi. Seerndata ngaddinaaji ko ɗo neɗɗo hoti, ɗemɗe goɗɗe ɗe o haalata kañum e geɗe goɗɗe keewɗe.Aɗa waawi waɗde ɗoo humpito kala cikuu-ɗaa ena ɓeydoo faamminde.
+help-variants = Aɗa sokli ballal seeɗa e caltuɗe?
+help-variants-explanation =
+    Caltuka ko haala keeriika  - wano kaaleteeka e diiwaan keeriiɗo maa renndo.
+    Sahaaji ena wiyee ngaddiin.
 
 ## Profile - Email
 
+browse-file-title = Yollu fiilde natal
+browse-file = Daas njollaa walla <browseWrap>Wanngo</browseWrap>
+connect-gravatar = Seŋoro Gravatar
+gravatar_not_found = Alaa gravatar yiytaanaa iimeel maa
+file_too_large = Fiilde suɓaande ndee ina mawni no feewi
+avatar-uploaded = Jimmirde yollaama
+max-file-size = { $kb }kb so heewii
 
 ## Profile - Email
 
+manage-subscriptions = Toppito Binnditagol
+manage-email-subscriptions = Toppito Binnditagol iimeel
+email-already-used = Iimeel oo ina huutoree e konte goɗɗe kisa
+add-language = Ɓeydu ɗemngal
+change-email-setings = Waylu iimeel maa to Teelte gonɗe les Heftinirde Seŋorde
 
 ## FAQ
 
+faq-title = Naamne Ɓurɗe Lollude
+faq-what-cv-q = Ko woni Common Voice?
+faq-what-cv-a =
+    Karalle keftingol sawto nana wayla kesamhesamaagu jotondiral men e masiŋaaji, kono juɓɓe goodɗe oo sahaa ɗee ko jeyaaɗe. Common Voice jeyaa ko e miijo Mozilla ngam ɓeydude ƴellitaare karalle keftingol sawto kadi tawa mo woni kala ena haɓa heen. Common Voice ko diiñorde keɓe maamaare sawtooji dokkaaɗi ballooje mo woni kala e mbaadi njaawndi eeltude jaaɓɗe ɓeydaaɗe sawto e ɗemgal kala goodngal.
+    
+    Wonaa tan sawtooji tan min ndoɓindotoo e ɗemɗe ɓurɗe yaajde ɗee kono kadi e ɗemɗe ɓurɗe famɗude haalooɓe. Bayyinde leemre keɓe sawtooji limtindiinde maa doolnu topayɓe, yeñcinamgolle en e renndooji ngam ɓe ñawnde ndeen ŋakkere kamɓe e koye maɓɓe. Kadi takko leemre keɓe Common Voice ndee, amin mahora masiŋ keftinirɗo haala ena wiyee Deep Speech.
+faq-what-cv-a-2 =
+    Karalle keftingol sawto nana wayla kesamhesamaagu jotondiral men e masiŋaaji, kono juɓɓe goodɗe oo sahaa ɗee ko jeyaaɗe. Common Voice ko miijo Mozilla ngam ɓeydude ƴellitaare karalle keftingol sawto kadi tawa mo woni kala ena haɓa heen. Common Voice ko diiñorde keɓe maamaare sawtooji dokkaaɗi ballooje mo woni kala e mbaadi njaawndi eeltude jaaɓɗe ɓeydaaɗe sawto e ɗemgal kala goodngal.
+    
+    Wonaa tan sawtooji tan min ndoɓindotoo e ɗemɗe ɓurɗe yaajde ɗee kono kadi e ɗemɗe ɓurɗe famɗude haalooɓe. Bayyinde leemre keɓe sawtooji limtindiinde maa doolnu topayɓe, yeñcinamgolle en e renndooji ngam ɓe ñawnde ndeen ŋakkere kamɓe e koye maɓɓe. Kadi takko leemre keɓe Common Voice ndee, amin mahora masiŋ keftinirɗo haala ena wiyee Deep Speech.
 
 ## ABOUT US
 
