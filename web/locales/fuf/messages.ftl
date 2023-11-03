@@ -102,6 +102,27 @@ ky = Kyrgyz
 lb = Luxembourgish
 lg = Luganda
 lij = Ligurian
+lt = Lithuanian
+lv = Latvian
+mai = Maithili
+mdf = Moksha
+mg = Malagasy
+mhr = Meadow Mari
+mk = Macedonian
+ml = Malayalam
+mn = Mongolian
+mni = Meetei Lon
+mos = Mossi
+mr = Marathi
+mrj = Hill Mari
+ms = Malay
+mt = Maltese
+my = Burmese
+myv = Erzya
+nan-tw = Taiwanese (Minnan)
+nb-NO = Norwegian Bokmål
+nd = IsiNdebele (Soɓɓiire)
+ne-NP = Nepali
 
 # [/]
 
