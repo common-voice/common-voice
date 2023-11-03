@@ -79,6 +79,29 @@ ht = Haitian
 hu = Hungarian
 hyw = Armeniire baŋnge hirnaange
 ia = Interlingua
+id = Indonesiire
+ie = Interlingue
+ig = Igbo
+is = Islanndiire
+it = Italiire
+izh = Ishoriire
+ja = Saponeere
+ka = Jorjiire
+kaa = Karakalpak
+kab = Kabileere
+kbd = Kabardian
+ki = Kikuyu
+kk = Kasakiire
+km = Khmer
+kmr = Kurmanji Kurdish
+knn = Konkani (Devanagari)
+ko = Koreere
+kpv = Komi-Siryaniire
+kw = Korniseere
+ky = Kyrgyz
+lb = Luxembourgish
+lg = Luganda
+lij = Ligurian
 
 # [/]
 
