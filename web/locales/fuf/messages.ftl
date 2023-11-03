@@ -150,6 +150,25 @@ ru = Russian
 rw = Kinyarwanda
 sah = Sakha
 sat = Santali (Ol Chiki)
+sc = Sardinian
+shi = Shilha
+si = Sinhala
+sk = Slovak
+skr = Saraiki
+sl = Slovenian
+so = Somali
+sq = Albanian
+sr = Serbian
+ss = Siswati
+st = Sotho Ɓaleeri
+sv-SE = Swedish
+sw = Swahili
+syr = Syriac
+ta = Tamil
+te = Telugu
+tg = Tajik
+th = Thai
+ti = Tigrinya
 
 # [/]
 
