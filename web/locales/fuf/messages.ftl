@@ -53,6 +53,32 @@ da = Danish
 de = German
 dsb = Sorbian, Lower
 dv = Dhivehi
+dyu = Julaa
+el = Greek
+en = English
+eo = Esperanto
+es = Spanish
+et = Estonian
+eu = Basque
+fa = Persian
+ff = Fulah
+fi = Finnish
+fo = Faroese
+fr = French
+fy-NL = Frisian
+ga-IE = Irish
+gl = Galician
+gn = Guarani
+gom = Goan Konkani
+ha = Hawsa
+he = Hebruŋkoore
+hi = Hinndi
+hr = Korowasiire
+hsb = Sorbian, Lower
+ht = Haitian
+hu = Hungarian
+hyw = Armeniire baŋnge hirnaange
+ia = Interlingua
 
 # [/]
 
