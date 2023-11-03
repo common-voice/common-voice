@@ -209,6 +209,12 @@ datasets = Leeme Keɓe
 languages = Ɗemɗe
 about = Baɗte
 profile = Heftinirde
+help = Ballal
+contact = Jokkondiral
+privacy = Suturo
+terms = Sarɗiiji
+cookies = Kukiije
+faq = Naamne Lollude
 
 ## Home Page
 
