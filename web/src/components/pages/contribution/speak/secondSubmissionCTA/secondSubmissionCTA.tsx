@@ -14,7 +14,7 @@ type SecondPostSubmissionCtaProps = {
 export const SecondPostSubmissionCTA: React.FC<
   SecondPostSubmissionCtaProps
 > = ({ onReset }) => {
-  const { height, width } = useWindowSize();
+  const { height = 0, width = 0 } = useWindowSize();
 
   const confettiSourceObject = {
     w: 10,

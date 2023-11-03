@@ -2566,12 +2566,13 @@
   dependencies:
     "@types/node" "*"
 
-"@types/express-mysql-session@2.1.3":
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/@types/express-mysql-session/-/express-mysql-session-2.1.3.tgz#ed380f24e5bc39f6b5bdede081f47ffe0a001847"
-  integrity sha512-Df6DqYTwvdH+L91Mn03Gv1qqFUUJueKb5fiFY+GbimwOKQuT7m9a5Ao8O7UZ86Cbri7S7yWFmw+fK7o4OP+voQ==
+"@types/express-mysql-session@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@types/express-mysql-session/-/express-mysql-session-3.0.2.tgz#8a9060afa2a3f589ecdeb4806f4c0931ed155e5c"
+  integrity sha512-DWBRrS4D5tLy21CeSMvhl8VvKZgabnvEMLcX8YlfgoqMbLuH+RWfI8KCD2mMmHGQKn1+TEYIXyh30RRXx7zxWw==
   dependencies:
     "@types/express-session" "*"
+    mysql2 "3.2.0"
 
 "@types/express-serve-static-core@^4.17.18", "@types/express-serve-static-core@^4.17.2", "@types/express-serve-static-core@^4.17.33":
   version "4.17.39"
@@ -2583,17 +2584,10 @@
     "@types/range-parser" "*"
     "@types/send" "*"
 
-"@types/express-session@*":
+"@types/express-session@*", "@types/express-session@1.17.9":
   version "1.17.9"
   resolved "https://registry.yarnpkg.com/@types/express-session/-/express-session-1.17.9.tgz#2811b8c3f2e7efb5fd239e4cb0f26f58de8c0a62"
   integrity sha512-yIqficLlTPdloeEPhOVenpOUWILkdaXHUWhTOqFGx9JoSuTgeatNjb97k8VvJehbTk0kUSUAHy5r27PXMga89Q==
-  dependencies:
-    "@types/express" "*"
-
-"@types/express-session@1.17.4":
-  version "1.17.4"
-  resolved "https://registry.yarnpkg.com/@types/express-session/-/express-session-1.17.4.tgz#97a30a35e853a61bdd26e727453b8ed314d6166b"
-  integrity sha512-7cNlSI8+oOBUHTfPXMwDxF/Lchx5aJ3ho7+p9jJZYVg9dVDJFh3qdMXmJtRsysnvS+C6x46k9DRYmrmCkE+MVg==
   dependencies:
     "@types/express" "*"
 
@@ -4120,7 +4114,7 @@ browser-process-hrtime@^1.0.0:
   resolved "https://registry.yarnpkg.com/browser-process-hrtime/-/browser-process-hrtime-1.0.0.tgz#3c9b4b7d782c8121e56f10106d84c0d0ffc94626"
   integrity sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==
 
-browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.16.5, browserslist@^4.20.2, browserslist@^4.21.10, browserslist@^4.21.4, browserslist@^4.21.9, browserslist@^4.22.1:
+browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.20.2, browserslist@^4.21.10, browserslist@^4.21.4, browserslist@^4.21.9, browserslist@^4.22.1:
   version "4.22.1"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.22.1.tgz#ba91958d1a59b87dab6fed8dfbcb3da5e2e9c619"
   integrity sha512-FEVc202+2iuClEhZhrWy6ZiAcRLvNMyYcxZ8raemul1DYVOVdFsbqckWLdsixQZCpJlwe77Z3UTalE7jsjnKfQ==
@@ -5891,15 +5885,13 @@ express-json-validator-middleware@2.2.1:
     "@types/json-schema" "^7.0.4"
     ajv "^6.6.2"
 
-express-mysql-session@2.1.8:
-  version "2.1.8"
-  resolved "https://registry.yarnpkg.com/express-mysql-session/-/express-mysql-session-2.1.8.tgz#0d2e5611becb204d2b68df75d0cf6b76693f1939"
-  integrity sha512-EnFdhG6RNmC/gZpC+mmcGKZeX8kcp5Lh90ozFTa8LNJmHrGWzqOt8564IvnTw5c4d3/Aj0EAXnpGuzLCoKzcig==
+express-mysql-session@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/express-mysql-session/-/express-mysql-session-3.0.0.tgz#933a671cb8dab340fdec05e69b8cee749a9c7d93"
+  integrity sha512-P+13IRUGC09HMSogHhuDKcWRofRuK9CQTSAgcheLemAEBYqzygv0mHRTQT/sdpFET6Zm6Zf8G+QsX8UdtDhKSA==
   dependencies:
     debug "4.3.4"
-    express-session "1.17.2"
-    mysql "2.18.1"
-    underscore "1.13.3"
+    mysql2 "3.2.0"
 
 express-promise-router@4.1.1:
   version "4.1.1"
@@ -5910,12 +5902,12 @@ express-promise-router@4.1.1:
     lodash.flattendeep "^4.0.0"
     methods "^1.0.0"
 
-express-session@1.17.2:
-  version "1.17.2"
-  resolved "https://registry.yarnpkg.com/express-session/-/express-session-1.17.2.tgz#397020374f9bf7997f891b85ea338767b30d0efd"
-  integrity sha512-mPcYcLA0lvh7D4Oqr5aNJFMtBMKPLl++OKKxkHzZ0U0oDq1rpKBnkR5f5vCHR26VeArlTOEF9td4x5IjICksRQ==
+express-session@1.17.3:
+  version "1.17.3"
+  resolved "https://registry.yarnpkg.com/express-session/-/express-session-1.17.3.tgz#14b997a15ed43e5949cb1d073725675dd2777f36"
+  integrity sha512-4+otWXlShYlG1Ma+2Jnn+xgKUZTMJ5QD3YvfilX3AcocOAbIkVylSWEklzALe/+Pu4qV6TYBj5GwOBFfdKqLBw==
   dependencies:
-    cookie "0.4.1"
+    cookie "0.4.2"
     cookie-signature "1.0.6"
     debug "2.6.9"
     depd "~2.0.0"
@@ -8401,7 +8393,7 @@ minimist-options@4.1.0:
     is-plain-obj "^1.1.0"
     kind-of "^6.0.3"
 
-minimist@>=1.2.2, minimist@^1.2.0, minimist@^1.2.5, minimist@^1.2.6:
+minimist@>=1.2.2, minimist@^1.2.0, minimist@^1.2.6:
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
@@ -8527,6 +8519,20 @@ mysql2@2.3.3:
     seq-queue "^0.0.5"
     sqlstring "^2.3.2"
 
+mysql2@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/mysql2/-/mysql2-3.2.0.tgz#3613a8903bcb7ade0ae35b29945a0378eb67da89"
+  integrity sha512-0Vn6a9WSrq6fWwvPgrvIwnOCldiEcgbzapVRDAtDZ4cMTxN7pnGqCTx8EG32S/NYXl6AXkdO+9hV1tSIi/LigA==
+  dependencies:
+    denque "^2.1.0"
+    generate-function "^2.3.1"
+    iconv-lite "^0.6.3"
+    long "^5.2.1"
+    lru-cache "^7.14.1"
+    named-placeholders "^1.1.3"
+    seq-queue "^0.0.5"
+    sqlstring "^2.3.2"
+
 mysql2@3.6.2:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/mysql2/-/mysql2-3.6.2.tgz#be2eeba80c5167ffb856c48d61be5ac0e5ef6c09"
@@ -8541,7 +8547,7 @@ mysql2@3.6.2:
     seq-queue "^0.0.5"
     sqlstring "^2.3.2"
 
-mysql@2.18.1, mysql@^2.10.2:
+mysql@^2.10.2:
   version "2.18.1"
   resolved "https://registry.yarnpkg.com/mysql/-/mysql-2.18.1.tgz#2254143855c5a8c73825e4522baf2ea021766717"
   integrity sha512-Bca+gk2YWmqp2Uf6k5NFEurwY/0td0cpebAucFpY/3jhrwrVGuxU2uQFCHjU19SJfje0yQvi+rVWdq78hR5lig==
@@ -11750,11 +11756,6 @@ unbox-primitive@^1.0.2:
     has-bigints "^1.0.2"
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
-
-underscore@1.13.3:
-  version "1.13.3"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.3.tgz#54bc95f7648c5557897e5e968d0f76bc062c34ee"
-  integrity sha512-QvjkYpiD+dJJraRA8+dGAU4i7aBbb2s0S3jA45TFOvg2VgqvdCDd/3N6CqA8gluk1W91GLoXg5enMUx560QzuA==
 
 undici-types@~5.26.4:
   version "5.26.5"
