@@ -169,6 +169,30 @@ te = Telugu
 tg = Tajik
 th = Thai
 ti = Tigrinya
+tig = Tigre
+tk = Turkmen
+tl = Tagalog
+tn = Setswana
+tok = Toki Pona
+tr = Turkish
+ts = Xitsonga
+tt = Tatar
+tw = Twi
+ty = Tahitian
+uby = Ubykh
+udm = Udmurt
+ug = Uyghur
+uk = Ukrainian
+ur = Urdu
+uz = Uzbek
+ve = Tshivenda
+vec = Venetian
+vi = Vietnamese
+vot = Votic
+xh = Xhosa
+yi = Yiddish
+yo = Yoruba
+yue = Cantonese
 
 # [/]
 
