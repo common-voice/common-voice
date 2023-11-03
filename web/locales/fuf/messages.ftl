@@ -215,9 +215,40 @@ privacy = Suturo
 terms = Sarɗiiji
 cookies = Kukiije
 faq = Naamne Lollude
+content-license-text = Loowdi waɗaa ko e jamirol <licenseLink>Creative Commons license</licenseLink>
+share-title = Wallu min dañde woɗɓe rokkooɓe sawto mum en!
+share-text = Wallu jannginde masiŋaaji no yimɓe woodɓe kaalirta, rokkir sawto maa e { $link }
+link-copied = Jokkol nattaama
+back-top = Rutto Dow
+logout = Seŋto
 
 ## Home Page
 
+home-title = Common Voice ko eɓɓoore Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
+default-tagline = Mozilla Common Voice ko eɓɓoore ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata jaati.
+home-cta = Ɓamtu daande, wallit ɗoo!
+wall-of-text-start =
+    Sawto ko tago, ko e neɗɗo jeyaa. Ɗuum waɗi amin cummbanoo sosde karalle sawto
+    kuutorteeɗe e masiŋaaji men. Kono ngam sosde juɓɓe sawto, jogaade keɓe sawto
+    keewɗe haa wooroo ena waɗɗii.
+wall-of-text-more-mobile =
+    Ko heewi e keɓe ɗe gollorɗe mawɗe kuutortoo keɓotaako wonande yimɓe heewɓe. Aamin cikki
+    ɗum ina ñoƴƴa pental. Ɗuum noon min ummini eɓɓoore Common Voice, eɓɓoore walloore waɗde
+    heftinirde sawto udditaniinde kala neɗɗo.
+wall-of-text-more-desktop =
+    Aɗa waawi hokkirde sawto maa ngam wallude-min tafde diiñorde keɓe nde sewnde-udditiinde nde mo woni kala waawi huutoraade
+    ngam waɗde jaaɓde kesamkeseme kuutorteeɗe e kaɓirdi kam e geese. Tar konngol ngam wallude masiŋaaji ekkaade no neɗɗo e jaati haaldata. Ƴeewto golle wallitoode woɗɓe ngam ƴellitde moƴƴugol. Ko noon wayi weeɓde!
+wall-of-text-first =
+    Sawto ko tago, ko e neɗɗo jeyaa. Ɗuum waɗi amin keppani sosde karalle sawto
+    kuutorteeɗe e masiŋaaji men. Kono ngam sosde juɓɓe sawto, topayɓe ena cokli keɓe sawtooji
+    keewɗi haa wooroo.
+wall-of-text-second =
+    Ko heewi e keɓe ɗe gollorɗe mawɗe kuutortoo keɓotaako wonande yimɓe heewɓe. hamin cikki
+    ɗum ina ñoƴƴa pental. Ɗuum noon min ummini Common Voice, eɓɓoore walloore uddit-de heftinirde daande
+    mo kala neɗɗo waawi heɓde.
+show-wall-of-text = Jokku taro
+help-us-title = Wallu min moƴƴinde konnguɗi!
+help-us-explain = Ɓoɗɗu tarde, heɗaade e haalan-min: Ɗe kaalii koŋngol les ɗoo haa feewi?
 
 ## Account Benefits
 
