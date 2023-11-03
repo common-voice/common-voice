@@ -1721,6 +1721,10 @@ sc-redirect-page-subtitle-2 = Ñaporandu <matrixLink>Matrix</matrixLink>, <disco
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Ehupi ñe’ẽjuaju ojeporukuaáva <icon></icon>
+sc-bulk-upload-instruction = Emoĩ marandurenda ápe térã <uploadButton>eikutu emyanyhẽ hag̃ua</uploadButton>
+sc-bulk-upload-instruction-drop = Epoi ápe marandurenda ehupi hag̃ua
 try-upload-again = Eha’ãjey emoĩvo ne marandurenda ko’ápe
 try-upload-again-md = Eha’ãjey ehupi hag̃ua
 select-file = Eiporavo Marandurenda
