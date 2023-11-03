@@ -952,7 +952,7 @@ target-segment-learn-more = Μάθετε περισσότερα
 
 ## Contribution Nav Items
 
-contribute-voice-collection-nav-header = Φωνητική συλλογή
+contribute-voice-collection-nav-header = Συλλογή φωνής
 contribute-sentence-collection-nav-header = Συλλογή προτάσεων
 
 ## Reporting
@@ -1574,6 +1574,7 @@ partnerships-governments-description = Είμαστε ενθουσιασμένο
 partnerships-academia-header = Πανεπιστήμια, ακαδημαϊκοί και ερευνητές
 partnerships-academia-description = Η ανοικτή καινοτομία βρίσκεται στο επίκεντρο των δραστηριοτήτων μας. Για συνεργασίες όσον αφορά την έρευνα, τη συλλογή δεδομένων ή συνεντεύξεις, <emailFragment>επικοινωνήστε μαζί μας</emailFragment>.
 partnerships-small-business-header = Μικρές επιχειρήσεις, όπως νεοφυείς επιχειρήσεις τεχνολογίας και τεχνητής νοημοσύνης
+partnerships-small-business-description = Θέλουμε πάντα να γνωρίζουμε τις ανάγκες όσων χρησιμοποιούν τα δεδομένα σε οποιοδήποτε πλαίσιο. Είτε πρόκειται για συνεργασία στην πλατφόρμα συλλογής δεδομένων, είτε για την παροχή πληροφοριών σχετικά με την ποιότητα των δεδομένων, <emailFragment>επικοινωνήστε μαζί μας</emailFragment>.
 partnerships-corporates-header = Εταιρείες μεγάλης κλίμακας και εταιρείες πλατφόρμας
 partnerships-our-partners = Οι συνεργάτες μας
 # FIRST POST SUBMISSION CTA
@@ -1595,7 +1596,7 @@ img-alt-success-checkmark = σημάδι επιτυχίας
 # GUIDELINES PAGE
 guidelines-header = Οδηγίες συνεισφοράς
 guidelines-header-subtitle = Κατανοήστε τον τρόπο συνεισφοράς και επικύρωσης των προτάσεων και των ηχητικών αποσπασμάτων στο σύνολο δεδομένων του Common Voice
-voice-collection = Φωνητική συλλογή
+voice-collection = Συλλογή φωνής
 sentence-collection = Συλλογή προτάσεων
 varying-pronunciations = Ποικίλες προφορές
 misreadings = Λάθη στην ανάγνωση
