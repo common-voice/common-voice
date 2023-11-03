@@ -44,7 +44,11 @@ module.exports = {
     // const almostPerfect = {'a': 'awesome', 'b': 'meh', 'c': 'need it'}
     // const { b, ...perfect } = almostPerfect -- perfect = {'a': 'awesome', 'c': 'need it'}
     // here we don't want the 'b' property so we separate it out and bundle the rest in 'perfect'
-    '@typescript-eslint/no-unused-vars': ['error', { 'ignoreRestSiblings': true }]
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      { ignoreRestSiblings: true },
+    ],
+    '@typescript-eslint/no-empty-function': 'off',
   },
   settings: {
     react: {
@@ -57,4 +61,4 @@ module.exports = {
       typescript: {},
     },
   },
-};
+}

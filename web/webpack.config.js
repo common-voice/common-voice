@@ -103,7 +103,7 @@ module.exports = (_env, argv) => {
   }
 
   return {
-    entry: './src/main.ts',
+    entry: './src/main.tsx',
     output: {
       path: OUTPUT_PATH,
       filename: '[name].[contenthash].js',

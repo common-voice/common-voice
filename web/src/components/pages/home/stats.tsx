@@ -291,8 +291,10 @@ export namespace ClipsStats {
                 (max: number, d: any) => Math.max(max, d.total, d.valid),
                 0
               )}
-              onMouseMove={this.handleMouseMove}
-              onMouseOut={this.handleMouseOut}
+              svgProps={{
+                onMouseMove: this.handleMouseMove,
+                onMouseOut: this.handleMouseOut,
+              }}
               renderXTickLabel={({ date }: any) => {
                 const dateObj = new Date(date);
                 const dayDiff = Math.ceil(

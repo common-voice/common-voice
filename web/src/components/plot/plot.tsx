@@ -16,7 +16,8 @@ export type PlotProps = {
   renderXTickLabel: (datum: any, i: number) => React.ReactNode;
   tickCount: number;
   tickMultipliers: number[];
-} & React.SVGProps<SVGElement>;
+  svgProps?: React.SVGProps<SVGElement>;
+};
 
 export default class Plot extends React.Component<
   PlotProps,
@@ -48,16 +49,18 @@ export default class Plot extends React.Component<
   };
 
   render() {
-    let {
+    const {
       children,
       data,
       formatNumber,
-      max,
       renderXTickLabel,
       tickCount,
       tickMultipliers,
-      ...props
+      svgProps,
     } = this.props;
+
+    let { max } = this.props;
+
     const { width } = this.state;
 
     const tickMultiplier =
@@ -84,7 +87,7 @@ export default class Plot extends React.Component<
         width="100%"
         height="100%"
         className="plot"
-        {...props}
+        {...svgProps}
         ref={this.svgRef}>
         {Array.from({ length: tickCount }).map((_, i) => {
           const y = (i * TOTAL_LINE_MARGIN) / tickCount + Y_OFFSET;

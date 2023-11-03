@@ -4,6 +4,7 @@ type Props = {
   dataTestId?: string
   extraClassName?: string
   type: 'write' | 'review'
+  children: React.ReactNode
 }
 
 import './sentence-collector-wrapper.css'
