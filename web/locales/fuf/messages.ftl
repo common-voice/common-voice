@@ -291,15 +291,33 @@ email-subscription-title-new = Winndito e ɓatakeeji Common Voice , ciiftine faa
 ## Account Benefits
 
 benefits = Ɓure
+rich-data = Alɗin keɓe naatnuɗaa ɗo mbaawka maa haaɗi ndokkaa keɓe nguurndam aadee ɗe cuurtaaka. Min momtat heftinirde kala keɓe nguurndam aadee hade min waɗde ɗum e peñcu.
+improve-audio = Humpito heftinirde ina ƴellita keɓe ojoo kuutoraaɗe e peewgol heftinirde daande.
+keep-track = Rewindo taaɓagol maa e meetere maa e ɗemɗe keewɗe.
+compare-progress = Yiy hol no ɓeydagol maa yerondirta e ngol wallitooɓe e nder winndere ndee fof.
+view-goals = Yiy taaɓagol maa takko paandaale maa e nɗe eɓɓoore
+join-newsletter = So a welaama aɗa waawi yantude e doggol iimeeluuji amen ngam kesɗitine e kabaruuji kesi baɗte eɓɓoore ndee.
 
 ## What's public
 
+whats-public = Hol ko woni peeñcu?
+email-not-public = Min mbaɗoytaa iimeel maa peeñcu.
+recordings-and-locale-public = Nanngitte ɗee no poti e ɗemɗe ɗe mballittaa maa ngon e peñcu.
+username-optin-public = Aɗa waawi suɓaade waɗde innde kuutoro maa e peñcu walla cuuɗiiɗo.
+demographic-deidentified-clarity-2 = Keɓe ɗe leƴrendiije mbaɗɗaaki naatneede (yeru: njogoram, ɗemngal, ngaddiin) mbaɗetaake e peñcu hay sahaa e heftinirde maa, kadi jokketaake e konte maa e leemre keɓe ndee. Lefon ojoo teelɗe maa njokkondire e keɓe leƴrendiije ngam moƴƴinde siko - yeru, biɗtoowo ena waawi toɓɓunde annorde eelto hucca e taƴannde leƴrendiire heeriinde.
+username-email-not-demographic = Innde kuutoro maa e iimeel maa ndenndinoytaake e keɓe bayyinaaɗe ɗee.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Tar/Dartin
 
 ## Speak Shortcuts
 
