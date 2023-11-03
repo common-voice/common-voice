@@ -1216,14 +1216,14 @@ contribution-varying-pronunciations-example-2-title = Έχει δύο όμορφ
 contribution-varying-pronunciations-example-2-explanation = [Η λέξη «παιδάκια» πρέπει να διαβαστεί ως «πε-δά-κια», όχι ως «πα-ι-δά-κια»]
 contribution-background-noise-title = Θόρυβος παρασκηνίου
 contribution-background-noise-description = Θέλουμε οι αλγόριθμοι μηχανικής εκμάθησης να μπορούν να χειρίζονται μια ποικιλία θορύβων περιβάλλοντος· ακόμα και οι σχετικά δυνατοί θόρυβοι είναι αποδεκτοί, υπό την προϋπόθεση ότι δεν σας εμποδίζουν από το να ακούσετε ολόκληρο το κείμενο. Η χαμηλή μουσική υπόκρουση είναι αποδεκτή, αλλά δεν ισχύει το ίδιο για τη μουσική που είναι αρκετά δυνατή, ώστε να σας εμποδίζει από το να ακούσετε όλες τις λέξεις.
-contribution-background-noise-description-extended = Αν η ηχογράφηση διακόπτεται, ή υπάρχει κροτάλισμα, απορρίψτε την εκτός κι αν ακούγεται ολόκληρο το κείμενο.
+contribution-background-noise-description-extended = Αν η ηχογράφηση διακόπτεται ή περιέχει τριγμούς, απορρίψτε την εκτός κι αν ακούγεται ολόκληρο το κείμενο.
 contribution-background-noise-example-1-fixed-title = <strong>[Φτερνισμα]</strong> Οι γιγάντιοι δεινόσαυροι του <strong>[βηχας]</strong> Τριαδικού.
 contribution-background-noise-example-2-fixed-title = Ο γιγάντιος δεινόσαυρος <strong>[βηχας]</strong> του Τριαδικού.
 contribution-background-noise-example-2-explanation = [Μέρος του κειμένου δεν ακούγεται]
-contribution-background-noise-example-3-fixed-title = <strong>[Κροταλισμα]</strong> γιγάντιοι δεινόσαυροι του <strong>[κροταλισμα]</strong> -ριαδικού.
+contribution-background-noise-example-3-fixed-title = <strong>[Τριγμός]</strong> γιγάντιοι δεινόσαυροι του <strong>[τριγμός]</strong> -ριαδικού.
 contribution-background-voices-title = Φωνές παρασκηνίου
 contribution-background-voices-description = Μια ήσυχη κουβέντα στο παρασκήνιο είναι αποδεκτή, αλλά δεν θέλουμε πρόσθετες φωνές που μπορεί να οδηγήσουν έναν αλγόριθμο να αναγνωρίσει λέξεις που δεν περιλαμβάνονται στο γραπτό κείμενο. Εάν μπορείτε να ακούσετε λέξεις εκτός από αυτές του κειμένου, το απόσπασμα θα πρέπει να απορριφθεί. Συνήθως, αυτό συμβαίνει όταν υπάρχει κοντά ανοικτή τηλεόραση ή όταν ακούγεται κάποια συζήτηση.
-contribution-background-voices-description-extended = Αν η ηχογράφηση διακόπτεται, ή υπάρχει κροτάλισμα, απορρίψτε την εκτός κι αν ακούγεται ολόκληρο το κείμενο.
+contribution-background-voices-description-extended = Αν η ηχογράφηση διακόπτεται ή περιέχει τριγμούς, απορρίψτε την εκτός κι αν ακούγεται ολόκληρο το κείμενο.
 contribution-background-voices-example-1-title = Οι γιγάντιοι δεινόσαυροι του Τριαδικού. <strong>[αναγνωση απο μια φωνη]</strong>
 contribution-background-voices-example-1-explanation = Έρχεσαι; <strong>[είπε κάποιος άλλος]</strong>
 contribution-volume-title = Ένταση
@@ -1630,10 +1630,11 @@ misreadings-example-4 = Η μέλισσα πέταξε γρήγορα.
 misreadings-tip-1 = [Πρέπει να είναι «Πηγαίνουμε»]
 misreadings-tip-2 = [Δεν υπάρχει «έναν» στο αρχικό κείμενο]
 misreadings-tip-3 = [Εσφαλμένο περιεχόμενο]
+background-noise-explanation = Πρέπει να μπορείτε να ακούτε κάθε λέξη της ηχογράφησης. Θέλουμε ο αλγόριθμος μηχανικής εκμάθησης να μπορεί να χειρίζεται ένα ευρύ φάσμα θορύβων παρασκηνίου. Μπορείτε να αποδεχτείτε τους σχετικά δυνατούς θορύβους ή την ήσυχη μουσική υπόκρουση, εφόσον δεν σας εμποδίζουν να ακούσετε ολόκληρο το κείμενο. Οι ηχογραφήσεις με τριγμούς ή διακοπές που δεν σας επιτρέπουν να ακούσετε εύκολα το κείμενο θα πρέπει να απορρίπτονται.
 background-noise-example-1 = Οι γιγάντιοι δεινόσαυροι του Τριαδικού.
 background-noise-example-2 = [Φτέρνισμα] Οι γιγάντιοι δεινόσαυροι του [βήχας] Τριαδικού.
 background-noise-example-3 = Οι γιγάντιοι δεινό-[βήχας] του Τριαδικού.
-background-noise-example-4 = [Κροτάλισμα] γιγάντιοι δεινόσαυροι του [κροτάλισμα]-ριαδικού.
+background-noise-example-4 = [Τριγμός] γιγάντιοι δεινόσαυροι του [τριγμός]-ριαδικού.
 background-noise-tip-1 = [Διακοπή από θόρυβο στο παρασκήνιο]
 background-noise-tip-2 = [Μέρος του κειμένου δεν ακούγεται]
 background-voices-example-1 = Οι γιγάντιοι δεινόσαυροι του Τριαδικού. [ανάγνωση από μία φωνή]
@@ -1702,6 +1703,8 @@ bulk-sentences = Πολλαπλές προτάσεις
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Έλεγχος <icon></icon> για τη γλωσσική ορθότητα αυτής της πρότασης
 sc-review-rules-title = Τηρεί η πρόταση τους κανόνες;
 sc-review-empty-state = Προς το παρόν δεν υπάρχουν προτάσεις για έλεγχο σε αυτήν τη γλώσσα.
 report-sc-different-language = Διαφορετική γλώσσα
@@ -1716,6 +1719,8 @@ sc-redirect-page-subtitle-2 = Κάντε μας ερωτήσεις στο <matri
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Μεταφόρτωση <icon></icon> προτάσεων δημόσιου τομέα
 sc-bulk-upload-instruction = Σύρετε το αρχείο σας εδώ ή <uploadButton>κάντε κλικ για μεταφόρτωση</uploadButton>
 sc-bulk-upload-instruction-drop = Σύρετε το αρχείο εδώ για μεταφόρτωση
 try-upload-again = Δοκιμάστε ξανά σύροντας το αρχείο σας εδώ
