@@ -130,6 +130,26 @@ ne-NP = Nepali
 nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+nr = IsiNdebele (Ɓaleeri)
+nso = Sotho Soɓɓiire
+nyn = Runyankole
+oc = Occitan
+om = Afaan Ormoo
+or = Odia
+pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
+pl = Polish
+ps = Pashto
+pt = Portuguese
+quc = K'iche'
+quy = Quechua Chanka
+rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
+ro = Romanian
+ru = Russian
+rw = Kinyarwanda
+sah = Sakha
+sat = Santali (Ol Chiki)
 
 # [/]
 
