@@ -331,12 +331,53 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Nanngito/Dartin
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Nanngito kadi lefel
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Momtu nanngitol wonaande
+shortcut-submit = Rutto
+shortcut-submit-label = Naatnu lefon
+request-language-text = A suwaa yiy ɗemngal maa e Common Voice tawo?
+request-language-button = Ɗaɓɓit Ɗemngal
 
 ## ProjectStatus
 
+status-title = Ngonka eɓɓoore ndee e kuuɓal: ƴeew ɗo njetti-ɗen!
+status-contribute = Wallitir sawto maa
+status-hours =
+    { $hours ->
+        [one] Waktuuji { $hours } njaalɗinaa tawo
+       *[other] { "" }
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Paandaale garooje: { $goal }
+english = Engeleere
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Innde kuutoro
+profile-form-native-language =
+    .label = Ɗemngal neeniwal
+profile-form-additional-language =
+    .label = Ɗemngal goɗngal
+profile-form-language =
+    .label = Ɗemngal
+profile-form-variant =
+    .label = Hol caltuka { $language } kaalataa?
+profile-form-variant-default-value = Alaa caltuka suɓaa
+profile-form-accent =
+    .label = Ngaddiin
+profile-form-custom-accent-help-text =
+    .label = Hol no ciforto-ɗaa nganndin maa?
+profile-form-custom-accent-placeholder-2 = Fuɗɗo tappude ngam sifaade ngaddin maa
+profile-form-age =
+    .label = Duuɓi
+profile-form-gender-2 =
+    .label = Njogoram
+leaderboard-visibility =
+    .label = Jiyagol Doggol Ardiiɓe
 
 ## Profile - Email
 
