@@ -249,9 +249,48 @@ wall-of-text-second =
 show-wall-of-text = Jokku taro
 help-us-title = Wallu min moƴƴinde konnguɗi!
 help-us-explain = Ɓoɗɗu tarde, heɗaade e haalan-min: Ɗe kaalii koŋngol les ɗoo haa feewi?
+no-clips-to-validate = Ena wayi no alaa lefon keɗeteeɗe e ngal ɗemngal. Wallu min hebbinde doggol ngol so nanngitaade heen seeɗa.
+vote-yes = Eey
+vote-no = Alaa
+toggle-play-tooltip = Ñoƴƴu{ shortcut-play-toggle } ngam tolƴaade mbayka taro
+speak-subtitle = Rokkir daande maa
+speak-paragraph = Nanngitaade lefon sawto jeyaa tigi ko e mahde leemre keɓe amen udditiiɗe; won wiy-ɓe nih ko ɗoon ɓuri jirwude.
+speak-goal-text = Lefon nanngitakon
+listen-subtitle = Wallu min moƴƴinde daaɗe
+listen-paragraph = Jaalɗinde lefon ɗe woɗɓe ndokkii ena teeŋti sanne e golle Common Voice. Heɗo heen ngam wallude min sosde keɓe sawto udditiiɗe lobbe.
+listen-goal-text = Lefon jaalɗinakon
+hours-recorded = Waktuuji Nanngitaaɗi
+hours-validated = Waktuuji jaalɗinaaɗi
+voices-online = Daaɗe Ceŋiiɗe Jooni
+todays-progress = Ɓeydagol hannde
+help-reach-goal = Wallu min yettaade { $goal }
+read-terms-q = A tarii sarɗiiji amen?
+ready-to-record = A hebiima rokkirde daande maa?
+all-locales = Fof
+today = Hannde
+x-weeks-short =
+    { $count ->
+        [one] { $count }yontere
+       *[other] { "" }
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }lewru
+       *[other] { "" }
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }hitaande
+       *[other] { "" }
+    }
+help-make-dataset = Wallu min mahde leemre keɓe lobbere, udditiinde
+sign-up-account = Winndito ngam dañde konte
+email-subscription-title = Winndito ngam heɓde kesɗitine iimeel
+email-subscription-title-new = Winndito e ɓatakeeji Common Voice , ciiftine faandaare e kesɗitine beydagol.
 
 ## Account Benefits
 
+benefits = Ɓure
 
 ## What's public
 
