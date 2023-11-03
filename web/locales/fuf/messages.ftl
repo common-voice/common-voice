@@ -454,6 +454,39 @@ faq-what-cv-a-2 =
     Karalle keftingol sawto nana wayla kesamhesamaagu jotondiral men e masiŋaaji, kono juɓɓe goodɗe oo sahaa ɗee ko jeyaaɗe. Common Voice ko miijo Mozilla ngam ɓeydude ƴellitaare karalle keftingol sawto kadi tawa mo woni kala ena haɓa heen. Common Voice ko diiñorde keɓe maamaare sawtooji dokkaaɗi ballooje mo woni kala e mbaadi njaawndi eeltude jaaɓɗe ɓeydaaɗe sawto e ɗemgal kala goodngal.
     
     Wonaa tan sawtooji tan min ndoɓindotoo e ɗemɗe ɓurɗe yaajde ɗee kono kadi e ɗemɗe ɓurɗe famɗude haalooɓe. Bayyinde leemre keɓe sawtooji limtindiinde maa doolnu topayɓe, yeñcinamgolle en e renndooji ngam ɓe ñawnde ndeen ŋakkere kamɓe e koye maɓɓe. Kadi takko leemre keɓe Common Voice ndee, amin mahora masiŋ keftinirɗo haala ena wiyee Deep Speech.
+faq-why-important-q = Ko saabii ɗum himmude?
+faq-why-important-a =
+    Haala woni ko ɓuri tagoɗinde e no jokkondirirten hakkunde men etee maa karalle sawto ɗee ngaddu ɗeen baawtine e ordinateeruuji men e kaɓirɗi cinnde men. Min njiɗi ko doolnude topayɓe yoo mah jaaɓnirɗe keftinirɗe sawto moolanaaɗe wono pirooje e saasi e keedooje ɓeydaaɗe sawto. Kono oo sahaa ko ɓuri heewde e keɓe coklaaɗe ngam mahde hono ɗeen jaaɓɗe ena tiiɗi kadi ko jeyaaɗe. Amin ɗaminii leemre keɓe Common Voice ndee maa hokku topayɓe ko ɓe cokli ngam kesamhesnude e waɗde karalle haala heɓaade e ɗemɗe maɓɓe keeriiɗe.
+    
+    Ngam waɗde keftingol sawto winnderewol, amin ndoɓindoo juɓɓanɗe e ɗemɗe ɓurɗe haaleede ɗee kam e ɓurɗe famɗude renndo haalooɓe  ɗe nganndu-ɗaa ena keewi ko ɗawaa e carwe keftingol haala julorteeɗe ɗee. Bayyinde leemre keɓe sawto limtoɗinnde maa doolnu topayɓe, yeñcinamgolle en, e renndooji haala kuuɓɗi ngam ñawndude ɗeen ŋakke kamɓe e koye maɓɓe.
+faq-how-get-q = Hol no keɓirat-mi keɓe Common Voice?
+faq-how-get-a = Leemre keɓe Common Voice ndee ena heɓoo e gaawtol fawaade e jamirol <licenseLink>CC</licenseLink> to <datasetLink>Hello amen Leemre Keɓe</datasetLink>. Aɗa waawi kadi aawtaade leeme keɓe goɗɗe gonɗe e peñcu e ngoon hello.
+faq-when-release2-q = Mande bayyinton keɓe Common Voice e ɗemɗe goɗɗe?
+faq-when-release2-a = Yamre limtiɗemɗiire leemre keɓe Common Voice woni oo sahaa ko e mahngo e suɓto. So aɗa yiɗi wallude min naatnude Common Voice e ɗemɗe kese, yah ƴeewoy kuutorgal <sentenceCollectorLink>Roɓindorde Konnguɗi</sentenceCollectorLink> ngam ɓeydude konnguɗi kesi e leemre keɓe ndee, e <pontoonLink>Pontoon</pontoonLink> mo Mozilla ngam firde lowre ndee e jaati. Ɗemɗe kese ɓeydete e Common Voice ngam wallitde so konnguɗi 5000 jaɓaaɗi keɓaama.
+faq-why-mission-q = Hol ko saabii Common Voice jeyeede e eɓɓoore Mozilla?
+faq-why-mission-a = Mozilla ena daranii ñiiɓnude geese ɗee e udditaanade mo woni kala. Ngam waɗde ɗuum, amin cokli doolnude sosiyaŋkooɓe geese rewde e eɓɓooje hono Common Voice. Sahaa mo karalle sawto ɓeydii heewde haa njalti jaaɓnirɗe dowrowe, amin ngongɗini eɗe poti nafde huutorɓe kala e mbaadi potal. Ɗuum firti ko waɗde doole e ɗemɗe kese kam e jaɓɓaade ngaddiinaaji kesi e leƴrenndooje tuma mahgol e ƴeewtagol karalle sawto. Common Voice ko jeyaande peñcu heɓotoonde mo woni kala etee goomuuji e topayɓe Mozilla wonɓe e jookli winndere ndee nana kuutoroo nde kam'en ne e eɓɓooje amen keeriiɗe.
+faq-what-cv-and-deepspeech-q = Hol ko seerndi Common Voice e Deep Speech?
+faq-what-cv-and-deepspeech-a = Leemre keɓe Common Voice timminta musiŋ keftinirɗo sawto sewnde-udditiinde mo Mozilla hono Deep Speech. Yamre Deep Speech adannde bayyinanoo ko e Yarkomaa 2017 kadi nana jokki e ƴelliteede gila ndeen. Kañum e leemre keɓe Common Voice, amin ngoongɗiɗi ɗee karalle keftinirgol sawto udditiiɗe ena poti heɓaade e mo woni kala. Ko ɗaminaare amen wonde ɗee karalle maa mballu topayɓe mahde haralde jaaɓnirɗe e carwe kesamhesamiiɗe.
+faq-is-goal-assistant-q = Mbete faandaare Common Voice  ko mahde heedorde sawto?
+faq-is-goal-assistant-a = Faandaare leemre keɓe Common Voice ndee ko wallude mo woni kala e winndere ndee mahde keɓtinirgol haala, kaaloowo walla fannu jaaɓnirɗe kala naamniingu keɓe sawto. Heedorde sawto ko geɗel tan e fannuuji jaaɓnirɗe keewɗe baawɗe huutoraade leemre kece ndee.
+faq-do-want-native-q = Mi muynaani ɗemngal ngal etee ɗemngal am ina loggi, aɗa heddii e yiɗde daande am?
+faq-do-want-native-a = Eey, amin cokli sawto maa e jaati! Ena jeyaa e paandaale Common Voice renndinde ngaddinaaji keewɗi  ɓurɗi seertude mbete carwe keftinirkon sawto moƴƴana gooto e men kala. Ɗuum firti ko sawtooji ɓe muynaani ɗemngal noon foti teeŋtude.
+faq-why-different-speakers-q = Ko saabii aɗa sokli haalooɓe heewɓe woɗɓe e kala ɗemngal?
+faq-why-different-speakers-a =
+    Keɓe keftinirkon haala ɓurɗe heewde ko eeltaaɗe tawa won leƴrenndooje ena ɓurtinaa, kisa ɗum wufta e wuuraare faade e <articleLink>worɓe e dañɓe</articleLink>. Ngaddinaaji e caltuɗe ŋakkooje e leeme keɓe eeltugol ena keewi yahdineede e dente yimɓe ɓurɓe joñeede e yeebeede. Kadi masiŋaaji keewi ena cugga e keftingol sawtooji rewɓe.
+    Ko ɗuum waɗi amin cokli limlimtam e diiñorde keɓe sawto amen.
+faq-why-my-lang-q = Ko saabii ɗemngal am jeyaaka heen tawo?
+faq-what-quality-q = Hol ɗo keelɗugol ojoo foti tolnaade ngam lefel sawto huutoree e leemre keɓe ndee?
+faq-what-quality-a = Min njiɗi ko Leemre keɓe Common Voice nannda keelɗugol ojoo masiŋ haala-to-binndol nanoyta e weeyo, wadde min njiylotoo ko limlimtam. Kam e renndo haalooɓe limlimtinde, leemre keɓe waɗnde keelɗugol ojoo limlimtinde maa janngin masiŋaaji haala-tobinndol gollaade e ngonka goongiray-goonga, foti ko e haala ngoɗɗuka walla dille oto. Tawde tan lefel sawto maa ena faamnii, engel fota naatde e leemre keɓe ndee.
+faq-why-10k-hours-q = Ko waɗi waktuuji 10,000 jaalɗinaaɗi woni faandaare ɗemngal kala ngam heɓɓaade ojoo?
+faq-why-10k-hours-a = Ɗuum woni hakke limoore waktuuji baɗɗiiɗi ngam eeltude yuɓɓo faggininngo haala-to-binndol.
+faq-how-calc-hours-q = Hol no Common Voice hiisortoo waktuuji?
+faq-how-calc-hours-a = Min kiisortoo waktuuji ko ɓetde pecindol njuuteendi nanngitol kala, kisa min cowondira ndeen limoore e limoore limoore nanngitte ɗemɗe ɗee fof.
+faq-where-src-from-2-q = Hol to binndol sewde ngol ummortoo?
+faq-where-src-from-2-a =
+    Binndol sewde amen waɗiraa ko dokkanɗe asliije wallitooɓe kam e jeewte ummiiɗe e ciimte leppi sinimaa jeyi peñcu hono <italic>It’s a Wonderful Life</italic>.
+    
+    Aɗa waawi yiyde konnguɗi amen sewnde e ndee <githubLink>runngere</githubLink>.
 
 ## ABOUT US
 
