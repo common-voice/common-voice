@@ -40,6 +40,9 @@ ba = Bashkirs
 bas = Basaa
 be = Belarusian
 bg = Bulgarian
+bn = Bengali
+br = Breton
+bs = Bisniire
 bxr = Buryat
 ca = Catalan
 cak = Kaqchikel
@@ -77,6 +80,7 @@ hr = Korowasiire
 hsb = Sorbian, Lower
 ht = Haitian
 hu = Hungarian
+hy-AM = Armenian
 hyw = Armeniire baŋnge hirnaange
 ia = Interlingua
 id = Indonesiire
@@ -123,6 +127,9 @@ nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
 nd = IsiNdebele (Soɓɓiire)
 ne-NP = Nepali
+nia = Nias
+nl = Dutch
+nn-NO = Norwegian Nynorsk
 
 # [/]
 
