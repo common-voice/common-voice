@@ -20,10 +20,11 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
     TE.chainFirst(({ locale, isMinorityLanguage }) =>
       runFetchAllClipsForLocale(locale, isMinorityLanguage),
     ),
-    TE.chainFirst(({ locale }) => runMp3DurationReporter(locale)),
+    TE.bind('totalDurationInMs', ({ locale }) => runMp3DurationReporter(locale)),
+    TE.tap(({totalDurationInMs})=> TE.of(console.log('thats the duraton',totalDurationInMs))),
     TE.chainFirst(({ locale }) => runCorporaCreator(locale)),
     TE.chainFirst(({ locale }) => runCompress(locale)),
-    TE.chainFirst(({ locale }) => runStats(locale)),
+    TE.chainFirst(({ locale, totalDurationInMs }) => runStats(locale, totalDurationInMs)),
     TE.mapError(err => console.log(String(err))),
   )()
 

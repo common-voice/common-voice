@@ -48,12 +48,13 @@ const runCorporaCreatorPromise = (locale: string) =>
 export const runCorporaCreator = (locale: string) => {
   return pipe(
     TE.Do,
-    TE.tap(() => TE.fromIO(log('Starting create-corpora'))),
+    TE.tap(() => TE.fromIO(log('Starting create-corpora for locale ' + locale))),
     TE.chain(() =>
       TE.tryCatch(
         () => runCorporaCreatorPromise(locale),
         reason => Error(String(reason)),
       ),
     ),
+    TE.tap(() => TE.fromIO(log('Finished create-corpora for locale ' + locale))),
   )
 }

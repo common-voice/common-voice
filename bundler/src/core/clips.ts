@@ -18,7 +18,7 @@ import { prepareDir } from '../infrastructure/filesystem'
 
 const CLIPS_BUCKET = getClipsBucketName()
 
-const TSV_COLUMNS = [
+export const TSV_COLUMNS = [
   'client_id',
   'path',
   'sentence',
@@ -32,6 +32,10 @@ const TSV_COLUMNS = [
   'locale',
   'segment',
 ] as const
+
+export type CLIPS_TSV_ROW = {
+  [K in (typeof TSV_COLUMNS)[number]]: string
+}
 
 const printLn = (text: string) => text + '\n'
 
@@ -87,22 +91,23 @@ const transformClips = (isMinorityLanguage: boolean) =>
  *
  * The stream is in object mode.
  */
-const downloadClips = new Transform({
-  transform(chunk: ClipRow, encoding, callback) {
-    const newFilepath = createClipFilename(chunk.locale, chunk.id)
-    const writeStream = fs.createWriteStream(
-      path.join(getReleaseBasePath(), chunk.locale, 'clips', newFilepath),
-    )
+const downloadClips = () =>
+  new Transform({
+    transform(chunk: ClipRow, encoding, callback) {
+      const newFilepath = createClipFilename(chunk.locale, chunk.id)
+      const writeStream = fs.createWriteStream(
+        path.join(getReleaseBasePath(), chunk.locale, 'clips', newFilepath),
+      )
 
-    streamDownloadFileFromBucket(CLIPS_BUCKET)(chunk.path)
-      .pipe(writeStream)
-      .on('finish', () => {
-        this.push(chunk, encoding)
-        callback()
-      })
-  },
-  objectMode: true,
-})
+      streamDownloadFileFromBucket(CLIPS_BUCKET)(chunk.path)
+        .pipe(writeStream)
+        .on('finish', () => {
+          this.push(chunk, encoding)
+          callback()
+        })
+    },
+    objectMode: true,
+  })
 
 const fetchAllClipsForLocale = (
   locale: string,
@@ -122,7 +127,7 @@ const fetchAllClipsForLocale = (
         )
         console.log('Start Stream Processing')
         stream
-          .pipe(downloadClips)
+          .pipe(downloadClips())
           .pipe(transformClips(isMinorityLanguage))
           .pipe(writeFileStreamToTsv(locale))
           .on('finish', () => {

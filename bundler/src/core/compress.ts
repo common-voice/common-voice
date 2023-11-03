@@ -21,7 +21,6 @@ const tarPromise = (locale: string, pathsToCompress: string[]) =>
       .c({ gzip: true,}, pathsToCompress)
       .pipe(createTarballWriteStream(locale))
       .on('finish', () => {
-        console.log('finished zip yo')
         resolve()
       })
       .on('error', () => reject())

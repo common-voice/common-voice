@@ -17,8 +17,8 @@ export type Mp3DurationFile = (typeof Mp3DurationFiles)[number]
  * @param locale - The locale for which to calculate the duration.
  * @returns A Promise that resolves when the duration calculation is complete.
  */
-const runMp3DurationReporterPromise = (locale: string): Promise<void> =>
-  new Promise<void>((resolve, reject) => {
+const runMp3DurationReporterPromise = (locale: string) =>
+  new Promise<number>((resolve, reject) => {
     const cc = spawn(
       'mp3-duration-reporter',
       [path.join(getReleaseBasePath(), locale, 'clips')],
@@ -27,10 +27,12 @@ const runMp3DurationReporterPromise = (locale: string): Promise<void> =>
       },
     )
 
-    cc.stdout.on('data', data => console.log(`${data}`))
+    let totalDurationInMs = 0
+
+    cc.stdout.on('data', data => (totalDurationInMs = Number(data)))
     cc.stderr.on('data', data => console.log(`${data}`))
 
-    cc.on('close', () => resolve())
+    cc.on('close', () => resolve(totalDurationInMs))
     cc.on('error', reason => reject(reason))
   })
 
