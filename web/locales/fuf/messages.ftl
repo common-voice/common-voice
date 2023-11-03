@@ -34,6 +34,25 @@ an = Aragonese
 ar = Arabic
 arn = Mapudungun
 as = Assamese
+ast = Asturian
+az = Azerbaijani
+ba = Bashkirs
+bas = Basaa
+be = Belarusian
+bg = Bulgarian
+bxr = Buryat
+ca = Catalan
+cak = Kaqchikel
+ckb = Central Kurdish
+cnh = Hakha Chin
+co = Corsican
+cs = Czech
+cv = Chuvash
+cy = Welsh
+da = Danish
+de = German
+dsb = Sorbian, Lower
+dv = Dhivehi
 
 # [/]
 
