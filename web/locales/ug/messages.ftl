@@ -1648,7 +1648,7 @@ reviewing-sentences-explanation-2 = ئەگەر بۇ جۈملە يۇقىرىدى�
 reviewing-sentences-explanation-3 = ئەگەر سىز بۇ جۈملىنى جەزملىيەلمىسىڭىز، ئۇنىڭدىن ئاتلاپ كېيىنكى جۈملىگە يۆتكەلسىڭىز بولىدۇ.
 reviewing-sentences-explanation-4 = ئەگەر تەكشۈرىدىغان جۈملە تۈگەپ كەتسە، تېخىمۇ كۆپ جۈملە توپلىشىمىزغا ياردەم قىلىڭ!
 # WRITE PAGE
-write-instruction-second-part = ئاممىۋى دائىرەدىكى جۈملە
+write-instruction = ئاممىۋى دائىرىدىكى جۈملە <icon> </icon> قوشۇڭ
 write-page-subtitle = بۇ جايدا تۆھپە قوشۇلغان جۈملىلەر cc-0 ئىجازىتىدىكى ئاشكارا سانلىق مەلۇمات توپلىمىغا قوشۇلىدۇ.
 sentence =
     .label = جۈملە
@@ -1678,9 +1678,11 @@ single-sentence-submission = يەككە جۈملە يوللاش
 bulk-sentence-submission = تۈركۈملەپ جۈملە يوللاش
 single-sentence = يەككە جۈملە
 bulk-sentences = كۆپ جۈملە
-# REVIEW PAGE
-sc-review-instruction-first-part = تەكشۈر
-sc-review-instruction-second-part = بۇ تىل ئادىتىگە ئۇيغۇن جۈملىمۇ؟
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = گىرامماتىكىسى توغرا چۈملە ئىكەنلىكىنى <icon></icon> تەكشۈرىدۇ
 sc-review-rules-title = بۇ جۈملە كۆرسەتمىگە ئۇيغۇنمۇ؟
 sc-review-empty-state = ھازىر بۇ تىلدا تەكشۈرىدىغان جۈملىلەر يوق.
 report-sc-different-language = ئوخشىمىغان تىل
@@ -1692,14 +1694,13 @@ review-error-rate-limit-exceeded = بەك ئالدىراقسانلىق قىلم�
 sc-redirect-page-title = بىز بەزى چوڭ ئۆزگەرتىشلەرنى ئېلىپ بېرىۋاتىمىز
 sc-redirect-page-subtitle-1 = جۈملە يىغقۇچ Common Voice سۇپىسىغا يۆتكىلىۋاتىدۇ. سىز ھازىر بىر جۈملە <writeURL>يېزىپ</writeURL> ياكى بىر جۈملە <reviewURL>تەكشۈرۈپ</reviewURL> ئۇنى Common Voice قا يوللىيالايسىز.
 sc-redirect-page-subtitle-2 = <matrixLink>Matrix</matrixLink>، <discourseLink>Discourse</discourseLink> ياكى <emailLink>ئېلخەت</emailLink> ئارقىلىق بىزدىن سوئال سوراڭ.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = يۈكلە
-sc-bulk-upload-instruction-second-part = ئاممىۋى دائىرەدىكى جۈملىلەر
-drag-your-file-here = ھۆججەتلىرىڭىزنى بۇ يەرگە سۆرىسىڭىز يۈكلىنىدۇ
-drop-file-here = ھۆججەت بۇ يەرگە تاشلانسا يۈكلىنىدۇ
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = ئاممىۋى دائىرىدىكى جۈملە <icon> </icon> يۈكلەڭ
 try-upload-again = ھۆججىتىڭىزنى بۇ يەرگە سۆرەپ قايتا سىناڭ
 try-upload-again-md = قايتا يۈكلەپ سىناڭ
-or-conjuction = ياكى
 select-file = ھۆججەتنى تاللاڭ
 select-file-mobile = يۈكلەيدىغان ھۆججەت تاللىنىدۇ
 accepted-files = قوللايدىغان ھۆججەت تىپى: پەقەتلا .tsv
