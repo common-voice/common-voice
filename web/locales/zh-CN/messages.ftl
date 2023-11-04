@@ -1641,7 +1641,7 @@ reviewing-sentences-explanation-2 = 若句子不符合要求，请点击“否�
 reviewing-sentences-explanation-3 = 若您没有把握判断，可以跳过当前语句，继续审核下一条语句。
 reviewing-sentences-explanation-4 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
 # WRITE PAGE
-write-instruction-second-part = 公有领域的语句
+write-instruction = 添加 <icon></icon> 公有领域的语句
 write-page-subtitle = 此处贡献的语句将被添加到采用 cc-0 许可证的公开数据集中。
 sentence =
     .label = 语句
@@ -1671,9 +1671,11 @@ single-sentence-submission = 提交单句
 bulk-sentence-submission = 批量提交语句
 single-sentence = 单句
 bulk-sentences = 批量语句
-# REVIEW PAGE
-sc-review-instruction-first-part = 检查
-sc-review-instruction-second-part = 这是一个符合语言习惯的句子吗？
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = 检查 <icon><icon> 语句语法是否正确
 sc-review-rules-title = 该语句是否符合准则？
 sc-review-empty-state = 该语言目前没有需要审核的语句。
 report-sc-different-language = 其他语言
@@ -1685,14 +1687,15 @@ review-error-rate-limit-exceeded = 别太匆忙。请多花些时间来审核语
 sc-redirect-page-title = 重磅更新
 sc-redirect-page-subtitle-1 = 语句收集工具已迁移到 Common Voice 主平台，您现在可以直接在 Common Voice 上<writeURL>撰写</writeURL>和<reviewURL>审核</reviewURL>语句。
 sc-redirect-page-subtitle-2 = 在 <matrixLink>Matrix</matrixLink>、<discourseLink>Discourse</discourseLink> 上，或<emailLink>发邮件</emailLink>向我们提问。
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = 上传
-sc-bulk-upload-instruction-second-part = 公有领域语句
-drag-your-file-here = 将文件拖到此处即可上传
-drop-file-here = 将文件拖到此处即可上传
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = 上传 <icon></icon> 公有领域的句子
+sc-bulk-upload-instruction = 将文件拖放到此处或<uploadButton>点此上传</uploadButton>
+sc-bulk-upload-instruction-drop = 将文件拖放到此处即可上传
 try-upload-again = 将文件拖至此处重试
 try-upload-again-md = 请尝试重新上传
-or-conjuction = 或
 select-file = 选择文件
 select-file-mobile = 选择要上传的文件
 accepted-files = 文件类型：仅接受 .tsv
