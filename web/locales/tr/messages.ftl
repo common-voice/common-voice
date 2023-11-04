@@ -1639,6 +1639,8 @@ reviewing-sentences-explanation-1 = Cümle yukarıdaki ölçütleri karşılıyo
 reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamıyorsa "Hayır" düğmesine tıklayın.
 reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
 reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
+# WRITE PAGE
+write-instruction = Kamu malı bir cümle ekleyin <icon></icon>
 write-page-subtitle = Buradan gönderilen cümleler, halka açık ve cc-0 lisanslı bir veri kümesine eklenecektir.
 sentence =
     .label = Cümle
@@ -1670,6 +1672,8 @@ bulk-sentences = Toplu cümle
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Dilbigisi açısından doğru olup olmadığını <icon></icon> kontrol edin
 sc-review-rules-title = Cümle yönergelere uygun mu?
 sc-review-empty-state = Şu anda bu dilde incelenecek cümle yok.
 report-sc-different-language = Farklı dil
@@ -1684,6 +1688,9 @@ sc-redirect-page-subtitle-2 = Bize <matrixLink>Matrix</matrixLink>, <discourseLi
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Kamu malı cümleleri yükleyin <icon></icon>
+sc-bulk-upload-instruction = Dosyanızı yüklemek için buraya sürükleyin veya <uploadButton>buraya tıklayın</uploadButton>
 sc-bulk-upload-instruction-drop = Yüklemek için dosyayı buraya bırakın
 try-upload-again = Dosyanızı buraya sürükleyerek yeniden deneyin
 try-upload-again-md = Yeniden yüklemeyi deneyin
