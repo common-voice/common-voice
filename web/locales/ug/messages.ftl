@@ -1699,6 +1699,8 @@ sc-redirect-page-subtitle-2 = <matrixLink>Matrix</matrixLink>، <discourseLink>D
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = ئاممىۋى دائىرىدىكى جۈملە <icon> </icon> يۈكلەڭ
+sc-bulk-upload-instruction = ھۆججىتىڭىزنى بۇ جايغا سۆرەڭ ياكى <uploadButton>چېكىپ يۈكلەڭ</uploadButton>
+sc-bulk-upload-instruction-drop = ھۆججەت بۇ يەرگە تاشلانسا يۈكلىنىدۇ
 try-upload-again = ھۆججىتىڭىزنى بۇ يەرگە سۆرەپ قايتا سىناڭ
 try-upload-again-md = قايتا يۈكلەپ سىناڭ
 select-file = ھۆججەتنى تاللاڭ
