@@ -1726,14 +1726,21 @@ sc-redirect-page-subtitle-2 = ساݙے کنوں <matrixLink>میٹرکس</matrix
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = <icon></icon> عوامی ڈومین جملے اپ لوڈ کرو
 sc-bulk-upload-instruction-drop = اپ لوڈ کرݨ کیتے فائل اتھ سٹو
 try-upload-again = آپݨی فائل اتھ گھیلݨ نال ولدا کوشش کرو
 try-upload-again-md = ولدا اپ لوڈ کرݨ دی کوشش کرو
 select-file = فائل چݨو
 select-file-mobile = اپ لوڈ کرݨ کیتے فائل چݨو
+accepted-files = قابل قبول فائل قسماں: .tsv صرف
+maximum-file-size = ودھ و ودھ فائل سائز: 25 ایم بی
+what-needs-to-be-in-file = میکوں آپݨی حیاتی وچ کہڑی شئے دی لوڑ ہے؟
 upload-progress-text = اپ لوڈ تھیندا پئے۔۔۔
 sc-bulk-submit-confirm = میں تصدیق کرینداں جو ایہ جملہ <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں انہاں دے اپ لوڈ کرݨ دی اجازت ہے۔
 bulk-upload-success-toast = ڈھڳ جملے اپ لوڈ تھی ڳئے
+bulk-upload-failed-toast = اپ لوڈ وچ ناکامی تھئی، سوہݨا ولدا کوشش کرو۔
+bulk-submission-success-header = تہاݙے ڈھڳ جمع کرواوݨ تے دان کرݨ تے تہاݙے تھورائت ہیسے!
 upload-more-btn-text = ٻئے جملے اپ لوڈ کروں؟
 file-invalid-type = غلط فائل
 file-too-large = فائل ٻہوں وݙی ہے
