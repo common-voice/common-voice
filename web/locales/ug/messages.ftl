@@ -1284,6 +1284,7 @@ sc-howto-cite-title = قانداق نەقىل ئالىدۇ
 sc-howto-cite-pre-1 = كۆچۈرمىكەشلىكتىن ساقلىنىش ۋە <copyrightIssuesLink> نەشر ھوقۇقى مەسىلىسى </copyrightIssuesLink> ناھايىتى مۇھىم،  شۇڭا ئاممىۋى ئىجازەتنامىگە ئېرىشكەندىن كېيىن ئاندىن پايدىلىنىشىڭىز كېرەك. تۆۋەندە ئەسەرنى نەقىل كەلتۈرۈشنىڭ بىر قانچە خىل ئۇسۇلى بار.
 sc-howto-cite-item-1 = تور بېكەتنى ئىچىگە ئالالايسىز، مەسىلەن، «Common Voice - https://commonvoice.mozilla.org/»
 sc-howto-cite-item-2 = سىز ئىلمىي پايدىلىنىش ئۇسلۇبىنى ئىشلىتەلەيسىز، مەسىلەن خارۋارد ئۇسلۇبىدىكى «Mozilla (2021) Common Voice. https://commonvoice.mozilla.org/ (Accessed: 15th September 2021) دىن پايدىلانسىڭىز بولىدۇ:
+sc-howto-cite-item-3 = توردا ئىشلەتكىلى بولمايدىغان ئاممىۋى تور دائىرىسىدىكى تېكىست ئۈچۈن، ئىلمىي پايدىلىنىش ئۇسلۇبىنى ئىشلىتەلەيسىز، مەسىلەن، خارۋارد ئۇسلۇبى «Jess (2021) My Public licence poems».
 sc-howto-review-title = جۈملىلەرنى تەكشۈرۈش
 sc-howto-review-subtitle = جۈملىنىڭ تۆۋەندىكى ئۆلچەملەرگە ماس كېلىدىغانلىقىنى جەزملەشتۈرۈڭ:
 sc-howto-review-criteria-1 = جۈملىنىڭ ئىملاسى چوقۇم توغرا يېزىلىشى كېرەك.
