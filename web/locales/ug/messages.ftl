@@ -1568,7 +1568,9 @@ partnerships-governments-description = بىز ئاممىۋى تارماقلار�
 partnerships-academia-header = ئالىي مەكتەپ، ئالىم ۋە تەتقىقاتچىلار
 partnerships-academia-description = ئوچۇق يېڭىلىق يارىتىش ئىشىمىزنىڭ يادروسى. تەتقىقات ھەمكارلىقى، سانلىق مەلۇمات توپلاش ياكى زىيارەت قىلىش ئۈچۈن، <emailFragment>بىز بىلەن ئالاقىلىشىڭ. </emailFragment>
 partnerships-small-business-header = تېخنىكا ۋە سۈنئىي ئەقىلنى ئۆز ئىچىگە ئالغان كىچىك كارخانىلار
+partnerships-small-business-description = بىز ھەمىشە سانلىق مەلۇمات ئىستېمالچىلىرىدىن ئۇلارنىڭ ئېھتىياجى ۋە مەزمۇنىنى بىلىشنى خالايمىز - سانلىق مەلۇمات توپلاش سۇپىسىدا ھەمكارلىشىشتىن تارتىپ، سانلىق مەلۇمات ساغلاملىق چۈشەنچىسى بىلەن تەمىنلەشكىچە، بىز <emailFragment> پىڭرىڭىزنى ئاڭلاشنى خالايمىز.</emailFragment>
 partnerships-corporates-header = چوڭ تىپتىكى شىركەت ۋە سۇپا شىركەتلىرى
+partnerships-corporates-description = ئەگەر سانلىق مەلۇمات توپلىمى ھەققىدە تېخىمۇ كۆپ ئىشلارنى سۆزلىمەكچى بولسىڭىز، پىلانلانغان سۇپىنى كېڭەيتىشكە ئورتاق مەبلەغ سېلىش ياكى ھەمكارلىق پۇرسىتى ئىزدەشنى ئويلىسىڭىز، <emailFragment> بىز بىلەن ئالاقىلىشىڭ. </emailFragment>
 partnerships-our-partners = شېرىكلىرىمىز
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = ئاۋازىڭىزنى ئىئانە قىلغانلىقىڭىزغا رەھمەت!
