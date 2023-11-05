@@ -1727,6 +1727,7 @@ sc-redirect-page-subtitle-2 = ساݙے کنوں <matrixLink>میٹرکس</matrix
 ## BULK SUBMISSION 
 
 sc-bulk-upload-instruction-drop = اپ لوڈ کرݨ کیتے فائل اتھ سٹو
+try-upload-again = آپݨی فائل اتھ گھیلݨ نال ولدا کوشش کرو
 try-upload-again-md = ولدا اپ لوڈ کرݨ دی کوشش کرو
 select-file = فائل چݨو
 select-file-mobile = اپ لوڈ کرݨ کیتے فائل چݨو
