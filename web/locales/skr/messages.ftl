@@ -1684,6 +1684,8 @@ reviewing-sentences-explanation-1 = جے جملے اُتلے معیار تے پ�
 reviewing-sentences-explanation-2 = جے جملے اُتلے معیار تے پورے کائنی آندے تاں "کو" بٹݨ کلک کرو۔
 reviewing-sentences-explanation-3 = جے تہاکوں جملے بارے پک کائنی تاں تساں ایں کوں چھوڑ تے اڳلے جملے تے ون٘ڄ سڳدے ہو۔
 reviewing-sentences-explanation-4 = جے تہاݙے کول نظرثانی کیتے جملے کائنی تاں سوہݨا، ٻئے جملے کٹھے کرݨ وچ ساݙی مدد کرو!
+# WRITE PAGE
+write-instruction = <icon></icon> ہک عوامی ڈومین جملہ شامل کرو
 write-page-subtitle = اتھ ونگار تھئے ہوئے جملے عوامی دستیاب cc-0 لائسنس تھئے ڈیٹا سیٹ وچ شامل تھی ویسن۔
 sentence =
     .label = جملہ
@@ -1691,6 +1693,7 @@ sentence-input-value = آپݨاں عوامی ڈومین جملہ اتھ درج �
 citation-input-value = تہاݙے جملے دا ماخذ
 citation =
     .label = حوالہ ݙیوݨ
+sc-write-submit-confirm = میں تصدیق کرینداں جو ایہ جملہ <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں ایندے اپ لوڈ کرݨ دی اجازت ہے۔
 sc-review-write-title = میں کہڑے جملے شامل کر سڳداں؟
 new-sentence-rule-1 = <noCopyright>کوئی حق نقل </noCopyright> پابندیاں کائنی (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = 15 کنوں تھوڑے لفظ
@@ -1728,6 +1731,7 @@ sc-redirect-page-subtitle-2 = ساݙے کنوں <matrixLink>میٹرکس</matrix
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = <icon></icon> عوامی ڈومین جملے اپ لوڈ کرو
+sc-bulk-upload-instruction = آپݨی فائل اتھ گھیل آؤ یا <uploadButton> اپ لوڈ کرݨ کیتے کلک کرو</uploadButton>
 sc-bulk-upload-instruction-drop = اپ لوڈ کرݨ کیتے فائل اتھ سٹو
 try-upload-again = آپݨی فائل اتھ گھیلݨ نال ولدا کوشش کرو
 try-upload-again-md = ولدا اپ لوڈ کرݨ دی کوشش کرو
