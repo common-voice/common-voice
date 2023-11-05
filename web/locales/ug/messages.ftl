@@ -1665,6 +1665,7 @@ adding-sentences-subheader-length-explanation = جۈملىدە 15 تىن ئاز 
 adding-sentences-subheader-spelling-punctuation = ئىملا ۋە تىنىش بەلگىلىرى
 adding-sentences-subheader-spelling-punctuation-explanation = جۈملىنىڭ ئىملاسى چوقۇم توغرا يېزىلىشى كېرەك.
 adding-sentences-subheader-speakable = ئوقۇشچان
+adding-sentences-subheader-speakable-explanation = ئەڭ ياخشى جۈملىلەر تەبىئىي ۋە سۆھبەتلەردۇر - بىراۋنىڭ ئوقۇشى ئاسان بولۇشىدۇر. فونېتىكىلىق كۆپ خىللىق ۋە جۈملىدىكى ئوخشىمىغان سۆزلەر مۇھىم بولسىمۇ، بىز يەنە ئۇن خاتىرىسى جۈملىلىرىنى پىدائىيلار جامائىتىمىز ئۈچۈن ئامالنىڭ بارىچە قىزىقارلىق ۋە جەلپكار قىلىشقا تىرىشىۋاتىمىز.
 adding-sentences-subheader-numbers = سانلار
 adding-sentences-subheader-abbreviations = قىسقارتىش ۋە قىسقا ئاتلار
 adding-sentences-subheader-punctuation = تىنىش بەلگىلىرى
