@@ -1694,7 +1694,7 @@ reviewing-sentences-explanation-2 = Si le phrase no satisface le precedente crit
 reviewing-sentences-explanation-3 = Si tu non es secur re le phrase, tu pote alsi saltar lo e mover al successive.
 reviewing-sentences-explanation-4 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger altere phrases!
 # WRITE PAGE
-write-instruction-second-part = un phrase de dominio public
+write-instruction = Adde <icon></icon> un phrase de dominio public
 write-page-subtitle = Le phrases fornite ci sera addite a un insimul de datos publicamente disponibile con licentia cc-0.
 sentence =
     .label = Phrase
@@ -1724,9 +1724,11 @@ single-sentence-submission = Invio de phrases singule
 bulk-sentence-submission = Invio de gruppo de phrases
 single-sentence = Phrase singule
 bulk-sentences = Gruppo de phrases
-# REVIEW PAGE
-sc-review-instruction-first-part = Marcar
-sc-review-instruction-second-part = es isto un phrase linguisticamente correcte?
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Verifica <icon></icon>es iste un phrase linguisticamente correcte?
 sc-review-rules-title = An le phrase satisface le lineas guida?
 sc-review-empty-state = Il ha actualmente nulle phrases a revider in iste lingua.
 report-sc-different-language = Lingua differente
@@ -1738,14 +1740,15 @@ review-error-rate-limit-exceeded = Tu vade troppo rapide. Attende un momento pro
 sc-redirect-page-title = Nos va facer alcun grande cambios
 sc-redirect-page-subtitle-1 = Le Collector de phrases se move al nucleo del platteforma Common Voice. Ora tu pote <writeURL>scriber</writeURL> un phrase o <reviewURL>revider</reviewURL> singule invios de phrases sur Common Voice.
 sc-redirect-page-subtitle-2 = Demanda nos questiones sur <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> o <emailLink>email</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Cargar
-sc-bulk-upload-instruction-second-part = phrases de dominio public
-drag-your-file-here = Trahe ci tu file pro cargar lo
-drop-file-here = Depone ci tu file pro cargar lo
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Inviar <icon></icon> phrases de dominio public
+sc-bulk-upload-instruction = Trahe e depone tu file hic o <uploadButton>clicca pro cargar</uploadButton>
+sc-bulk-upload-instruction-drop = Depone ci tu file pro cargar lo
 try-upload-again = Tenta ancora per traher ci tu file
 try-upload-again-md = Retenta cargar
-or-conjuction = o
 select-file = Eliger file
 select-file-mobile = Selige le file a cargar
 accepted-files = Typos de file acceptate: .tsv solo

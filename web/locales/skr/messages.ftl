@@ -1685,7 +1685,7 @@ reviewing-sentences-explanation-2 = جے جملے اُتلے معیار تے پ�
 reviewing-sentences-explanation-3 = جے تہاکوں جملے بارے پک کائنی تاں تساں ایں کوں چھوڑ تے اڳلے جملے تے ون٘ڄ سڳدے ہو۔
 reviewing-sentences-explanation-4 = جے تہاݙے کول نظرثانی کیتے جملے کائنی تاں سوہݨا، ٻئے جملے کٹھے کرݨ وچ ساݙی مدد کرو!
 # WRITE PAGE
-write-instruction-second-part = عوامی ڈومین جملہ
+write-instruction = <icon></icon> ہک عوامی ڈومین جملہ شامل کرو
 write-page-subtitle = اتھ ونگار تھئے ہوئے جملے عوامی دستیاب cc-0 لائسنس تھئے ڈیٹا سیٹ وچ شامل تھی ویسن۔
 sentence =
     .label = جملہ
@@ -1693,6 +1693,7 @@ sentence-input-value = آپݨاں عوامی ڈومین جملہ اتھ درج �
 citation-input-value = تہاݙے جملے دا ماخذ
 citation =
     .label = حوالہ ݙیوݨ
+sc-write-submit-confirm = میں تصدیق کرینداں جو ایہ جملہ <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں ایندے اپ لوڈ کرݨ دی اجازت ہے۔
 sc-review-write-title = میں کہڑے جملے شامل کر سڳداں؟
 new-sentence-rule-1 = <noCopyright>کوئی حق نقل </noCopyright> پابندیاں کائنی (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = 15 کنوں تھوڑے لفظ
@@ -1713,9 +1714,9 @@ single-sentence-submission = کلھا جملہ جمع کرواوݨ
 bulk-sentence-submission = ڈھڳ جملے جمع کرواوݨ
 single-sentence = کلھا جملہ
 bulk-sentences = ڈھڳ جملے
-# REVIEW PAGE
-sc-review-instruction-first-part = پڑٹال کرو
-sc-review-instruction-second-part = بھلا ایہ لسانی طور تے درست جملہ ہے؟
+
+## REVIEW PAGE
+
 sc-review-rules-title = بھلا جملہ ہدایات دے مطابق ہے؟
 sc-review-empty-state = ایں زبان وچ نظرثانی کیتے ایں ویلے کوئی جملے کائنی۔
 report-sc-different-language = مختلف زبان
@@ -1725,13 +1726,25 @@ review-error = ایں جملے دی نظرثانی وچ خرابی تھی ڳئی
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اساں کجھ وݙیاں تبدیلیاں کریندے پئے ہیں
 sc-redirect-page-subtitle-2 = ساݙے کنوں <matrixLink>میٹرکس</matrixLink>، <discourseLink>ڈسکورس</discourseLink> یا <emailLink>ای میل</emailLink> بارے سوالات پُچھو۔
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = اپ لوڈ کرو
-sc-bulk-upload-instruction-second-part = عوامی ڈومین جملے
-or-conjuction = یا
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = <icon></icon> عوامی ڈومین جملے اپ لوڈ کرو
+sc-bulk-upload-instruction = آپݨی فائل اتھ گھیل آؤ یا <uploadButton> اپ لوڈ کرݨ کیتے کلک کرو</uploadButton>
+sc-bulk-upload-instruction-drop = اپ لوڈ کرݨ کیتے فائل اتھ سٹو
+try-upload-again = آپݨی فائل اتھ گھیلݨ نال ولدا کوشش کرو
+try-upload-again-md = ولدا اپ لوڈ کرݨ دی کوشش کرو
 select-file = فائل چݨو
 select-file-mobile = اپ لوڈ کرݨ کیتے فائل چݨو
+accepted-files = قابل قبول فائل قسماں: .tsv صرف
+maximum-file-size = ودھ و ودھ فائل سائز: 25 ایم بی
+what-needs-to-be-in-file = میکوں آپݨی حیاتی وچ کہڑی شئے دی لوڑ ہے؟
+upload-progress-text = اپ لوڈ تھیندا پئے۔۔۔
 sc-bulk-submit-confirm = میں تصدیق کرینداں جو ایہ جملہ <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں انہاں دے اپ لوڈ کرݨ دی اجازت ہے۔
+bulk-upload-success-toast = ڈھڳ جملے اپ لوڈ تھی ڳئے
+bulk-upload-failed-toast = اپ لوڈ وچ ناکامی تھئی، سوہݨا ولدا کوشش کرو۔
+bulk-submission-success-header = تہاݙے ڈھڳ جمع کرواوݨ تے دان کرݨ تے تہاݙے تھورائت ہیسے!
 upload-more-btn-text = ٻئے جملے اپ لوڈ کروں؟
 file-invalid-type = غلط فائل
 file-too-large = فائل ٻہوں وݙی ہے
