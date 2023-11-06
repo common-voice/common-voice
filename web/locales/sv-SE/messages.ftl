@@ -938,6 +938,9 @@ listen-empty-state = Vi har slut på klipp för att validera på det här språk
 listen-loading-error =
     Vi kunde inte hitta några ljudklipp till dig att lyssna på.
     Vänligen försök igen senare.
+listen-abort-title = Slutför valideringen av klipp?
+listen-abort-cancel = Fortsätt validera
+listen-abort-confirm = Slutför valideringen
 speak-empty-state = Vi har slut på meningar att spela in på det här språket...
 speak-empty-state-cta = Bidra med meningar
 speak-loading-error =
