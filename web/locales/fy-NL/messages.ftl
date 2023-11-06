@@ -1772,7 +1772,7 @@ reviewing-sentences-explanation-2 = As de sin net oan de boppesteande kritearia 
 reviewing-sentences-explanation-3 = As jo net wis binne oer de sin, kinne jo it ek oerslaan en trochgean nei de folgjende.
 reviewing-sentences-explanation-4 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
 # WRITE PAGE
-write-instruction-second-part = in sin út it publike domein
+write-instruction = In <icon></icon> sin út it publike domein tafoegje
 write-page-subtitle = Sinnen dy’t hjir bydroegen wurde sille tafoege wurde oan in publyklik beskikbere cc-0 lisinsearre dataset.
 sentence =
     .label = Sin
@@ -1804,9 +1804,11 @@ single-sentence-submission = Yntsjinjen fan ien sin
 bulk-sentence-submission = Bulkyntsjinning fan sinnen
 single-sentence = Losse sin
 bulk-sentences = Bulksinnen
-# REVIEW PAGE
-sc-review-instruction-first-part = Kontrolearje
-sc-review-instruction-second-part = is dit in taalkundich korrekte sin?
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kontrolearje <icon></icon> of dit in taalkundich korrekte sin is?
 sc-review-rules-title = Foldocht de sin oan de rjochtlinen?
 sc-review-empty-state = Der binne op it stuit gjin sinnen om te beoardielen yn dizze taal.
 report-sc-different-language = Oare taal
@@ -1818,14 +1820,15 @@ review-error-rate-limit-exceeded = Jo geane te hurd. Nim efkes de tiid om de sin
 sc-redirect-page-title = Wy fiere inkelde grutte feroaringen troch
 sc-redirect-page-subtitle-1 = De Sentence Collector ferhuzet nei de kearn fan it Common Voice-platfoarm. Jo kinne no in sin <writeURL>skriuwe</writeURL> of ynstjoeringen fan losse sinnen <reviewURL>beoardiele</reviewURL> op Common Voice.
 sc-redirect-page-subtitle-2 = Stel ús fragen op <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> of fia in <emailLink>e-mailberjocht</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Oplade
-sc-bulk-upload-instruction-second-part = sinnen út it publike domein
-drag-your-file-here = Sleep jo bestân hjir hinne om op te laden
-drop-file-here = Sleep bestân hjir hinne om op te laden
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Sinnen <icon></icon> út it publike domein oplade
+sc-bulk-upload-instruction = Sleep jo bestân hjir hinne of <uploadButton>klik om op te laden</uploadButton>
+sc-bulk-upload-instruction-drop = Sleep bestân hjir hinne om op te laden
 try-upload-again = Probearje it opnij troch jo bestân hjir hinne te slepen
 try-upload-again-md = Probearje opnij op te laden
-or-conjuction = of
 select-file = Bestân selektearje
 select-file-mobile = Selektearje op te laden bestân
 accepted-files = Akseptearre bestânstypen: allinnich .tsv

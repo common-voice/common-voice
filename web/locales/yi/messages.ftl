@@ -711,17 +711,17 @@ request-language-success-list-3 =
 
 ## Languages Overview
 
-language-section-in-progress = מען ארבעט דערויף
-language-section-in-progress-new-description = דער שפרייכן זענען דערווייל אונטער די געמיינדע אנטוויקלונג. <localizationGlossaryLink>וועבזייטל לאקאליזירונג</localizationGlossaryLink> און <sentenceCollectionGlossaryLink>זאצן זאמלונג</sentenceCollectionGlossaryLink> איז נייטיג אויף צו ווערן ארויסגעשטעלט.
+language-section-in-progress = מען ארבעט נאך דערויף
+language-section-in-progress-new-description = דער שפרייכן זענען נאך דערווייל אונטער די געמיינדע אנטוויקלונג. <localizationGlossaryLink>וועבזייטל לאקאליזירונג</localizationGlossaryLink> און <sentenceCollectionGlossaryLink>זאצן זאמלונג</sentenceCollectionGlossaryLink> איז נייטיג אויף צו ווערן ארויסגעשטעלט.
 language-section-launched = ארויסגעשטעלטע
 language-section-launched-description = פאר די דאזיגע ארויסגעשטעלטע שפרייכן איז די וועבזייטל שוין געווארן <localizationGlossaryLink>לאקאליזירט</localizationGlossaryLink>, און האט שוין גענוג <sentenceCollectionGlossaryLink>זאצן געזאמלט</sentenceCollectionGlossaryLink> צו ערלויבן אנגייענדיגע <speakLink>רעדן</speakLink> און <listenLink>הערן</listenLink> ביישטייערונגען.
 languages-show-more = זעט מער
-languages-show-less = זעט וויינעגער
+languages-show-less = זעט ווייניגער
 language-meter-in-progress = פארשריט
 language-total-progress = סך הכול
 language-search-input =
     .placeholder = זוכט
-language-speakers = דעדנערס
+language-speakers = רעדנערס
 localized = לאקאליזירט
 sentences = זאצן
 language-validation-hours = שטונדן
@@ -948,6 +948,7 @@ contribution-misreadings-example-7-title = מיר גייען ארויס צו נ�
 contribution-background-noise-title = הינטערגרונד גרידער
 contribution-background-voices-title = הינטערגרונד שטימעס
 contribution-just-unsure-title = זענט איר אומזיכער?
+contribution-just-unsure-description = אויב איר טרעפט זיך אן אין עפעס וואס דער פארשריפטן דעקט נישט, ביטע שטימט לויט אייער בעסטע שאצונג. אויב איר קענט נאך אלץ נישט אפמאכן, נוצט די היפ איבער קנעפל און גייט ווייטער צו דעם קומענדיגער רעקארדירונג.
 see-more = <chevron></chevron>זעט מער
 see-less = <chevron></chevron>זעט ווייניגער
 
@@ -1071,6 +1072,8 @@ sc-review-form-button-approve = באשטעטיג
 sc-review-form-button-approve-shortcut = י
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = נ
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = ה
 sc-review-link = קוקט איבער
 
 ## SETTINGS
@@ -1091,6 +1094,8 @@ add-information-button = לייג צו אינפארמאציע
 thanks-for-voice-toast = א דאנק פאר אייער שטימע אינפארמאציע
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = א דאנק פארן ביישטייערן אייער שטימע!
+# GUIDELINES PAGE
+guidelines-header = ביישטייערונג פארשריפטן
 voice-collection = שטימע זאמלונג
 sentence-collection = זאצן זאמלונג
 background-noise = הונטערגרונד גרידער
@@ -1102,7 +1107,9 @@ misreadings-example-2 = מיר גייען ארויס צו נעמען א קאוו
 misreadings-example-3 = מיר גייען ארויס צו נעמען א קאווע.
 background-voices-explanation = אביסל הינטערגרונד גרידער איז אין ארדענונג, אבער אויב דו קענסט הערן נאך א מענטש רעדן אנדערע ווערטער, זאל די קליפ ווערן צוריקגעוויזן. געווענדליך געשעט דאס וואו די טעלעווידזשן איז געבליבן אנגעצונדן, אדער וואו עס איז דא דא א שמועס דערנעבן.
 background-voices-tip-1 = דו קומסט? [גערופן דורך א צווייטן]
+just-unsure-explanation = אויב איר טרעפט זיך אן אין עפעס וואס דער פארשריפטן דעקט נישט, ביטע שטימט לויט אייער בעסטע שאצונג. אויב איר קענט נאך אלץ נישט אפמאכן, נוצט די היפ איבער קנעפל און גייט ווייטער צו דעם קומענדיגער רעקארדירונג.
 still-have-questions = איר האט נאך אלץ פראגן?
+contact-common-voice = קאנטאקט די קאמאן וואויס מאנשאפט
 citing-sentences = ציטירן זאצן
 adding-sentences = צולייגן זאצן
 reviewing-sentences = איבערקוקן זאצן
@@ -1114,6 +1121,7 @@ adding-sentences-subheader-length-explanation = די זאץ זאל האבן וו
 adding-sentences-subheader-spelling-punctuation-explanation = די זאץ דארף זיין אויסגעלייגט ריכטיג.
 adding-sentences-subheader-speakable = רעדעוודיג
 adding-sentences-subheader-numbers = נומערן
+reviewing-sentences-explanation-3 = אויב זענט איר נישט זיכער איבער דעם זאץ, קענט איר עס אויך איבערהיפן און ווייטער גיין צו דעם קומענדיגן.
 sentence =
     .label = זאץ
 citation =

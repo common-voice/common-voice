@@ -1698,7 +1698,7 @@ reviewing-sentences-explanation-2 = Ha a mondat nem felel meg a fenti feltétele
 reviewing-sentences-explanation-3 = Ha nem biztos a mondattal kapcsolatban, ki is hagyhatja, és továbbugorhat a következőre.
 reviewing-sentences-explanation-4 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében.
 # WRITE PAGE
-write-instruction-second-part = egy közkincsű mondat
+write-instruction = Közkincsű mondat hozzáadása <icon></icon>
 write-page-subtitle = Az itt beküldött mondatok egy nyilvánosan elérhető, cc-0 licenc alatt közzétett adatkészlethez adódnak.
 sentence =
     .label = Mondat
@@ -1728,9 +1728,11 @@ single-sentence-submission = Egy mondatos beküldés
 bulk-sentence-submission = Mondatok tömeges beküldése
 single-sentence = Egyetlen mondat
 bulk-sentences = Több mondat
-# REVIEW PAGE
-sc-review-instruction-first-part = Ellenőrzés
-sc-review-instruction-second-part = ez egy nyelvileg helyes mondat?
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Ellenőrizze <icon></icon>, hogy ez egy nyelvileg helyes mondat-e?
 sc-review-rules-title = A mondat megfelel az irányelveknek?
 sc-review-empty-state = Jelenleg nincsenek ellenőrizendő mondatok ezen a nyelven.
 report-sc-different-language = Más nyelv
@@ -1742,14 +1744,15 @@ review-error-rate-limit-exceeded = Túl gyorsan halad. Szánjon rá egy kis idő
 sc-redirect-page-title = Néhány nagy változtatást vezetünk be
 sc-redirect-page-subtitle-1 = A mondatgyűjtő átköltözik a központi Common Voice platformra. Mostantól a Common Voice-on <writeURL>írhat</writeURL> mondatokat vagy <reviewURL>ellenőrizheti</reviewURL> az egymondatos beküldéseket.
 sc-redirect-page-subtitle-2 = Kérdezzen a <matrixLink>Matrixon</matrixLink>, a <discourseLink>Discourse-on</discourseLink> vagy <emailLink>e-mailben</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Feltöltés
-sc-bulk-upload-instruction-second-part = közkincsű mondatok
-drag-your-file-here = A feltöltéshez húzza ide a fájlt
-drop-file-here = A feltöltéshez vigye ide a fájlt
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Közkincsű mondatok feltöltése <icon></icon>
+sc-bulk-upload-instruction = Húzza ide a fájlt, vagy <uploadButton>kattintson a feltöltéshez</uploadButton>
+sc-bulk-upload-instruction-drop = A feltöltéshez vigye ide a fájlt
 try-upload-again = Próbálja újra a fájl idehúzásával
 try-upload-again-md = Próbálja újból feltölteni
-or-conjuction = vagy
 select-file = Fájl kiválasztása
 select-file-mobile = Válassza ki a feltöltendő fájlt
 accepted-files = Elfogadott fájltípusok: csak .tsv

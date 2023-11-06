@@ -1763,7 +1763,7 @@ reviewing-sentences-explanation-2 = Als de zin niet aan de bovenstaande criteria
 reviewing-sentences-explanation-3 = Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
 reviewing-sentences-explanation-4 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
 # WRITE PAGE
-write-instruction-second-part = een zin uit het publieke domein
+write-instruction = Een <icon></icon> zin uit het publieke domein toevoegen
 write-page-subtitle = Zinnen die hier zijn bijgedragen worden toegevoegd aan een openbaar beschikbare cc-0 gelicenseerde dataset.
 sentence =
     .label = Zin
@@ -1795,9 +1795,11 @@ single-sentence-submission = Indienen van één zin
 bulk-sentence-submission = Bulkindiening van zinnen
 single-sentence = Losse zin
 bulk-sentences = Bulkzinnen
-# REVIEW PAGE
-sc-review-instruction-first-part = Controleren
-sc-review-instruction-second-part = is dit een taalkundig correcte zin?
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Controleren <icon></icon> of dit een taalkundig correcte zin is?
 sc-review-rules-title = Voldoet de zin aan de richtlijnen?
 sc-review-empty-state = Er zijn momenteel geen zinnen om te beoordelen in deze taal.
 report-sc-different-language = Andere taal
@@ -1809,14 +1811,15 @@ review-error-rate-limit-exceeded = U gaat te snel. Neem even de tijd om de zin t
 sc-redirect-page-title = We voeren enkele grote veranderingen door
 sc-redirect-page-subtitle-1 = De Sentence Collector verhuist naar de kern van het Common Voice-platform. U kunt nu een zin <writeURL>schrijven</writeURL> of inzendingen van losse zinnen <reviewURL>beoordelen</reviewURL> op Common Voice.
 sc-redirect-page-subtitle-2 = Stel ons vragen op <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> of <emailLink>e-mail</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Uploaden
-sc-bulk-upload-instruction-second-part = zinnen uit het publieke domein
-drag-your-file-here = Sleep uw bestand hierheen om het te uploaden
-drop-file-here = Sleep bestand hierheen om te uploaden
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Zinnen <icon></icon> uit het publieke domein uploaden
+sc-bulk-upload-instruction = Sleep uw bestand hierheen of <uploadButton>klik om te uploaden</uploadButton>
+sc-bulk-upload-instruction-drop = Sleep bestand hierheen om te uploaden
 try-upload-again = Probeer het opnieuw door uw bestand hierheen te slepen
 try-upload-again-md = Probeer opnieuw te uploaden
-or-conjuction = of
 select-file = Bestand selecteren
 select-file-mobile = Selecteer te uploaden bestand
 accepted-files = Geaccepteerde bestandstypen: alleen .tsv

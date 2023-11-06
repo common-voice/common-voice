@@ -13,6 +13,10 @@ import { Sentences } from './sentences';
 import StateTree from './tree';
 import { Uploads } from './uploads';
 import { User } from './user';
+import {
+  AbortContributionModalAction,
+  abortContributionModalReducer,
+} from './abort-contribution-modal';
 
 export const USER_KEY = 'userdata';
 
@@ -40,6 +44,7 @@ export function reducers(
     languages,
     notifications,
     uploads,
+    abortContributionModal,
   }: StateTree = {
     api: undefined,
     clips: undefined,
@@ -51,6 +56,7 @@ export function reducers(
     sentences: undefined,
     uploads: undefined,
     user: undefined,
+    abortContributionModal: undefined,
   },
   action:
     | Clips.Action
@@ -61,6 +67,7 @@ export function reducers(
     | Sentences.Action
     | Uploads.Action
     | User.Action
+    | AbortContributionModalAction
 ): StateTree {
   const newState = {
     clips: Clips.reducer(locale, clips, action as Clips.Action),
@@ -75,6 +82,10 @@ export function reducers(
     notifications: Notifications.reducer(notifications, action as any),
     uploads: Uploads.reducer(uploads, action as Uploads.Action),
     user: User.reducer(user, action as User.Action),
+    abortContributionModal: abortContributionModalReducer(
+      abortContributionModal,
+      action as AbortContributionModalAction
+    ),
   };
 
   return { api: new API(newState.locale, newState.user), ...newState };
