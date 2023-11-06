@@ -323,7 +323,7 @@ class ListenPage extends React.Component<Props, State> {
                 return (
                   <Modal
                     innerClassName="listen-abort"
-                    onRequestClose={onCancel}>
+                    onRequestClose={() => this.handleAbortCancel(onCancel)}>
                     <Localized id="listen-abort-title">
                       <h1 className="title" />
                     </Localized>
