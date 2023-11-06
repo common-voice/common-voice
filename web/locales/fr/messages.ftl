@@ -908,6 +908,9 @@ listen-empty-state = Nous n’avons plus d’échantillons à valider dans cette
 listen-loading-error =
     Nous n’avons pas pu obtenir d’échantillons audio à écouter.
     Veuillez réessayer plus tard.
+listen-abort-title = Terminer la validation des échantillons ?
+listen-abort-cancel = Continuer la validation
+listen-abort-confirm = Terminer la validation
 speak-empty-state = Nous n’avons plus de phrases à enregistrer dans cette langue…
 speak-empty-state-cta = Proposer des phrases
 speak-loading-error =
