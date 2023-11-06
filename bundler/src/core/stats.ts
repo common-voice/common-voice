@@ -1,13 +1,15 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import readline from 'node:readline'
 import util from 'node:util'
 
 import { taskEither as TE, array as A, record as R } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { parse } from 'csv-parse'
 import { LineCounts, countLines } from '../infrastructure/filesystem'
-import { CorporaCreaterFiles } from '../infrastructure/corporaCreator'
+import {
+  CORPORA_CREATOR_FILES,
+  isCorporaCreatorFile,
+} from '../infrastructure/corporaCreator'
 import { getReleaseBasePath } from '../config/config'
 import { CLIPS_TSV_ROW } from './clips'
 
@@ -25,7 +27,6 @@ type Buckets = {
   dev: number
   invalidated: number
   other: number
-  reported: number
   test: number
   train: number
   validated: number
@@ -80,7 +81,6 @@ const createEmptyLocale = (): Locale => {
       dev: 0,
       invalidated: 0,
       other: 0,
-      reported: 0,
       test: 0,
       train: 0,
       validated: 0,
@@ -119,27 +119,48 @@ const createEmptyLocale = (): Locale => {
   }
 }
 
-const getAllRelevantFilepaths = (locale: string): string[] =>
-  CorporaCreaterFiles.map(entry =>
+const getAllRelevantFilepaths = (locale: string): string[] => {
+  const ccFiles = CORPORA_CREATOR_FILES.map(entry =>
     path.join(getReleaseBasePath(), locale, entry),
   )
+  const reportedSentencesFilepath = path.join(
+    getReleaseBasePath(),
+    locale,
+    'reported.tsv',
+  )
+  return [...ccFiles, reportedSentencesFilepath]
+}
 
-const mapLineCountsToBuckets = (obj: LineCounts): Buckets =>
-  Object.entries(obj).reduce((acc, [key, value]) => {
+const mapLineCountsToStats = (
+  obj: LineCounts,
+): { buckets: Buckets; reportedSentences: number } => {
+  const buckets = Object.entries(obj).reduce((acc, [key, value]) => {
+    if (!isCorporaCreatorFile(key)) return acc
+
     const newKey = key.replace('.tsv', '')
     // Remove the line count for the header
     const newValue = value - 1
     return { ...acc, [newKey]: newValue }
   }, {} as Buckets)
 
-const mergeBucketsIntoStats = (
+  const reportedSentences = Number(obj['reported.tsv']) - 1
+
+  return {
+    buckets,
+    reportedSentences,
+  }
+}
+
+const mergeStatCountsIntoStats = (
   locale: string,
   stats: Stats,
-  buckets: Buckets,
+  statCounts: Pick<Locale, 'buckets' | 'reportedSentences'>,
 ) => {
-  stats.locales[locale].buckets = buckets
+  stats.locales[locale].buckets = statCounts.buckets
+  stats.locales[locale].reportedSentences = statCounts.reportedSentences
   return stats
 }
+
 const extractStatsFromClipsFile = (locale: string) =>
   TE.tryCatch(
     () =>
@@ -148,7 +169,7 @@ const extractStatsFromClipsFile = (locale: string) =>
           path.join(getReleaseBasePath(), locale, 'clips.tsv'),
         )
 
-        const parser = parse({ delimiter: '\t', columns: true })
+        const parser = parse({ delimiter: '\t', columns: true, quote: false })
         const stats = {
           locales: {},
         } as Stats
@@ -171,7 +192,7 @@ const extractStatsFromClipsFile = (locale: string) =>
       }),
     reason => Error(String(reason)),
   )
-  
+
 const unitToHours = (
   duration: number,
   unit: 'ms' | 's' | 'min',
@@ -224,10 +245,10 @@ export const runStats = (locale: string, totalDurationInMs: number) =>
     TE.Do,
     TE.let('filepaths', () => getAllRelevantFilepaths(locale)),
     TE.bind('lineCounts', ({ filepaths }) => countLines(filepaths)),
-    TE.let('buckets', ({ lineCounts }) => mapLineCountsToBuckets(lineCounts)),
+    TE.let('statCounts', ({ lineCounts }) => mapLineCountsToStats(lineCounts)),
     TE.bind('stats', () => extractStatsFromClipsFile(locale)),
-    TE.map(({ stats, buckets }) =>
-      mergeBucketsIntoStats(locale, stats, buckets),
+    TE.map(({ stats, statCounts }) =>
+      mergeStatCountsIntoStats(locale, stats, statCounts),
     ),
     TE.map(stats => calculateDurations(locale, totalDurationInMs, stats)),
     TE.tap(stats => TE.of(console.log(util.inspect(stats, { depth: 5 })))),

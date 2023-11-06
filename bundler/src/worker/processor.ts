@@ -8,6 +8,7 @@ import { runCorporaCreator } from '../infrastructure/corporaCreator'
 import { runCompress } from '../core/compress'
 import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
+import { runReportedSentences } from '../core/reportedSentences'
 
 export const processLocale = async (job: Job<ProcessLocaleJob>) => {
   await pipe(
@@ -23,6 +24,7 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
     TE.bind('totalDurationInMs', ({ locale }) => runMp3DurationReporter(locale)),
     TE.tap(({totalDurationInMs})=> TE.of(console.log('thats the duraton',totalDurationInMs))),
     TE.chainFirst(({ locale }) => runCorporaCreator(locale)),
+    TE.chainFirst(({ locale }) => runReportedSentences(locale)),
     TE.chainFirst(({ locale }) => runCompress(locale)),
     TE.chainFirst(({ locale, totalDurationInMs }) => runStats(locale, totalDurationInMs)),
     TE.mapError(err => console.log(String(err))),

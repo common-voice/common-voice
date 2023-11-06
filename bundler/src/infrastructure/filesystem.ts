@@ -1,3 +1,4 @@
+import crypto from 'node:crypto'
 import fs from 'node:fs'
 import { spawn } from 'node:child_process'
 
@@ -62,6 +63,12 @@ const countLinesPromise = (filepaths: string[]) =>
     })
     cc.on('error', reason => reject(reason))
   })
+
+export const calculateChecksum = (filepath: string) => {
+  const hash = crypto.createHash('sha256')
+  const data = fs.createReadStream(filepath)
+  data.pipe(hash).setEncoding('hex').on('data', (data) => console.log(data))
+}
 
 export const countLines = (filepaths: string[]) =>
   TE.tryCatch(

@@ -1,3 +1,4 @@
+import crypto from 'node:crypto'
 import fs from 'node:fs'
 import tar from 'tar'
 import { io as IO, taskEither as TE } from 'fp-ts'
@@ -10,16 +11,18 @@ import {
   getReleaseTarballsDirPath,
 } from '../config/config'
 
-const createTarballWriteStream = (locale: string) => {
-  const filename = `${getReleaseName()}-${locale}.tar.gz`
-  return fs.createWriteStream(path.join(getReleaseTarballsDirPath(), filename))
+const generateTarFilename = (locale: string) =>
+  `${getReleaseName()}-${locale}.tar.gz`
+
+const createTarballWriteStream = (outFilepath: string) => {
+  return fs.createWriteStream(outFilepath)
 }
 
-const tarPromise = (locale: string, pathsToCompress: string[]) =>
+const tarPromise = (outFilepath: string, pathsToCompress: string[]) =>
   new Promise<void>((resolve, reject) => {
     tar
-      .c({ gzip: true,}, pathsToCompress)
-      .pipe(createTarballWriteStream(locale))
+      .c({ gzip: true }, pathsToCompress)
+      .pipe(createTarballWriteStream(outFilepath))
       .on('finish', () => {
         resolve()
       })
@@ -27,10 +30,10 @@ const tarPromise = (locale: string, pathsToCompress: string[]) =>
   })
 
 const compress =
-  (locale: string) =>
-  (pathsToCompress: string[]): TE.TaskEither<Error, void> =>
+  (pathsToCompress: string[]) =>
+  (outFilepath: string): TE.TaskEither<Error, void> =>
     TE.tryCatch(
-      () => tarPromise(locale, pathsToCompress),
+      () => tarPromise(outFilepath, pathsToCompress),
       reason => Error(String(reason)),
     )
 
@@ -43,16 +46,23 @@ const getPathsToAddToTarball =
       recursive: false,
     })
     // we don't want to include the generated clips.tsv
-    return paths.filter((path: string) => !path.endsWith('clips.tsv')).map((pathS: string) => path.join(getReleaseName(), locale, pathS))
+    return paths
+      .filter((path: string) => !path.endsWith('clips.tsv'))
+      .map((pathS: string) => path.join(getReleaseName(), locale, pathS))
   }
 
 export const runCompress = (locale: string): TE.TaskEither<Error, void> => {
   console.log('Start compress step')
   return pipe(
     TE.Do,
+    TE.let('tarballDirPath', () => getReleaseTarballsDirPath()),
+    TE.let('tarOutFilename', () => generateTarFilename(locale)),
     TE.bind('paths', () => TE.fromIO(getPathsToAddToTarball(locale))),
-    TE.bind('tarballPath', () => TE.fromIO(getReleaseTarballsDirPath)),
-    TE.chainFirst(({ tarballPath }) => TE.fromIO(prepareDir(tarballPath))),
-    TE.chain(({ paths }) => compress(locale)(paths)),
+    TE.chainFirst(({ tarballDirPath }) =>
+      TE.fromIO(prepareDir(tarballDirPath)),
+    ),
+    TE.chain(({ tarballDirPath, tarOutFilename, paths }) =>
+      compress(paths)(path.join(tarballDirPath, tarOutFilename)),
+    ),
   )
 }

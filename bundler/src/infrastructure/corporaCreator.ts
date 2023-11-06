@@ -5,7 +5,7 @@ import { taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { log } from 'fp-ts/lib/Console'
 
-export const CorporaCreaterFiles = [
+export const CORPORA_CREATOR_FILES = [
   'validated.tsv',
   'invalidated.tsv',
   'dev.tsv',
@@ -14,7 +14,9 @@ export const CorporaCreaterFiles = [
   'other.tsv',
 ] as const
 
-export type CorporaCreaterFile = (typeof CorporaCreaterFiles)[number]
+export const isCorporaCreatorFile = (filename: string): filename is CorporaCreaterFile => CORPORA_CREATOR_FILES.includes(filename as CorporaCreaterFile)
+
+export type CorporaCreaterFile = (typeof CORPORA_CREATOR_FILES)[number]
 
 /**
  * Runs the create-corpora command to generate corpora for the specified locale.
