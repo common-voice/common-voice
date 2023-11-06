@@ -257,7 +257,7 @@ default-tagline = Mozilla Common Voice je iniciatíva, ktorá pomáha strojom u�
 home-cta = Hovorte a prispejte svojím hlasom tu!
 wall-of-text-start =
     Reč je prirodzená a ľudská. Preto chceme vytvoriť použiteľnú technológiu rozpoznávania reči 
-    pre naše stroje. by sme ju však mohli vytvoriť, potrebujeme veľké množstvo 
+    pre naše stroje. Aby sme ju však mohli vytvoriť, potrebujeme veľké množstvo 
     hlasových údajov.
 wall-of-text-more-mobile = Väčšina údajov, ktoré používajú veľké spoločnosti nie je dostupná pre väčšinu ľudí. Myslíme si, že to zdržuje inovácie. Preto sme spustili Common Voice, projekt, ktorý sprístupní rozpoznávanie reči pre všetkých.
 wall-of-text-more-desktop =
@@ -267,7 +267,7 @@ wall-of-text-more-desktop =
     dobrovoľníkov a vylepšite jej kvalitu. Je to také jednoduché!
 wall-of-text-first =
     Reč je prirodzená a ľudská. Preto chceme vytvoriť použiteľnú technológiu rozpoznávania reči 
-    pre naše stroje. by sme ju však mohli vytvoriť, potrebujeme veľké množstvo hlasových údajov.
+    pre naše stroje. Aby sme ju však mohli vytvoriť, potrebujeme veľké množstvo hlasových údajov.
 wall-of-text-second =
     Väčšina údajov, ktoré používajú veľké spoločnosti nie je dostupná pre väčšinu ľudí. Myslíme si, že to zdržuje inovácie.
     Preto sme spustili Common Voice, projekt, ktorý sprístupní rozpoznávanie reči pre všetkých.
@@ -1704,7 +1704,7 @@ reviewing-sentences-explanation-2 = Ak veta nespĺňa vyššie uvedené kritéri
 reviewing-sentences-explanation-3 = Ak si nie ste istí vetou, môžete ju tiež preskočiť a prejsť na ďalšiu.
 reviewing-sentences-explanation-4 = Ak vám dochádzajú vety na kontrolu, môžete nám pomôcť zhromaždiť ďalšie vety.
 # WRITE PAGE
-write-instruction-second-part = vetu pod verejnou licenciou
+write-instruction = Pridajte <icon></icon> vetu dostupnú pod verejnou licenciou
 write-page-subtitle = Tu pridané vety budú zaradené do verejne dostupného súboru údajov s licenciou cc-0.
 sentence =
     .label = Veta
@@ -1734,9 +1734,11 @@ single-sentence-submission = Odoslanie jednej vety
 bulk-sentence-submission = Odoslanie viacerých viet
 single-sentence = Jedna veta
 bulk-sentences = Viaceré vety
-# REVIEW PAGE
-sc-review-instruction-first-part = Skontrolujte
-sc-review-instruction-second-part = či je toto jazykovo správna veta?
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Skontrolujte <icon></icon> či je toto jazykovo správna veta.
 sc-review-rules-title = Spĺňa veta pravidlá?
 sc-review-empty-state = Momentálne nie sú v tomto jazyku žiadne vety dostupné na kontrolu.
 report-sc-different-language = Iný jazyk
@@ -1748,14 +1750,15 @@ review-error-rate-limit-exceeded = Idete príliš rýchlo. Venujte chvíľu kont
 sc-redirect-page-title = Robíme veľké zmeny
 sc-redirect-page-subtitle-1 = Nástroj na zber viet sa presúva na základnú platformu Common Voice. Teraz môžete v Common Voice <writeURL>napísať</writeURL> vetu alebo <reviewURL>kontrolovať</reviewURL> vety iných prispievateľov.
 sc-redirect-page-subtitle-2 = Pýtajte sa nás na <matrixLink>Matrixe</matrixLink>, <discourseLink>Discourse</discourseLink> alebo <emailLink>e‑mailom</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Odoslať
-sc-bulk-upload-instruction-second-part = vety pod verejnou licenciou
-drag-your-file-here = Presuňte svoj súbor sem a nahrajte ho
-drop-file-here = Sem presuňte súbor na nahranie
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Nahrajte <icon></icon> vety dostupné pod verejnou licenciou
+sc-bulk-upload-instruction = Presuňte sem súbor alebo ho <uploadButton>kliknutím odovzdajte</uploadButton>
+sc-bulk-upload-instruction-drop = Sem presuňte súbor na nahranie
 try-upload-again = Skúste to znova presunutím súboru sem
 try-upload-again-md = Skúste nahrať znova
-or-conjuction = alebo
 select-file = zvoľte súbor
 select-file-mobile = Vyberte súbor na odovzdanie
 accepted-files = Akceptované typy súborov: iba .tsv

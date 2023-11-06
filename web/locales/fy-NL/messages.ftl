@@ -1772,7 +1772,7 @@ reviewing-sentences-explanation-2 = As de sin net oan de boppesteande kritearia 
 reviewing-sentences-explanation-3 = As jo net wis binne oer de sin, kinne jo it ek oerslaan en trochgean nei de folgjende.
 reviewing-sentences-explanation-4 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
 # WRITE PAGE
-write-instruction-second-part = in sin út it publike domein
+write-instruction = In <icon></icon> sin út it publike domein tafoegje
 write-page-subtitle = Sinnen dy’t hjir bydroegen wurde sille tafoege wurde oan in publyklik beskikbere cc-0 lisinsearre dataset.
 sentence =
     .label = Sin
@@ -1780,7 +1780,10 @@ sentence-input-value = Fier hjir jo publike domeinsin yn
 citation-input-value = Boarne fan jo sin
 citation =
     .label = Sitaat
-what-can-i-add = Hokker soarten sinnen kin ik tafoegje?
+sc-write-submit-confirm =
+    Ik befêstigje dat dizze sin <wikipediaLink>publyk domein</wikipediaLink> is en
+    ik tastimming haw om dizze op te laden.
+sc-review-write-title = Hokker sinnen kin ik tafoegje?
 new-sentence-rule-1 = <noCopyright>Gjin auteursrjocht</noCopyright>-beheiningen (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Minder as 15 wurden
 new-sentence-rule-3 = Brûk de krekte grammatika
@@ -1797,9 +1800,15 @@ contact-us = Kontakt opnimme
 add-sentence-success = 1 sin sammele
 add-sentence-error = Flater by it tafoegjen fan sin
 required-field = Folje dit fjild yn.
-# REVIEW PAGE
-sc-review-instruction-first-part = Kontrolearje
-sc-review-instruction-second-part = is dit in taalkundich korrekte sin?
+single-sentence-submission = Yntsjinjen fan ien sin
+bulk-sentence-submission = Bulkyntsjinning fan sinnen
+single-sentence = Losse sin
+bulk-sentences = Bulksinnen
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kontrolearje <icon></icon> of dit in taalkundich korrekte sin is?
 sc-review-rules-title = Foldocht de sin oan de rjochtlinen?
 sc-review-empty-state = Der binne op it stuit gjin sinnen om te beoardielen yn dizze taal.
 report-sc-different-language = Oare taal
@@ -1811,3 +1820,31 @@ review-error-rate-limit-exceeded = Jo geane te hurd. Nim efkes de tiid om de sin
 sc-redirect-page-title = Wy fiere inkelde grutte feroaringen troch
 sc-redirect-page-subtitle-1 = De Sentence Collector ferhuzet nei de kearn fan it Common Voice-platfoarm. Jo kinne no in sin <writeURL>skriuwe</writeURL> of ynstjoeringen fan losse sinnen <reviewURL>beoardiele</reviewURL> op Common Voice.
 sc-redirect-page-subtitle-2 = Stel ús fragen op <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> of fia in <emailLink>e-mailberjocht</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Sinnen <icon></icon> út it publike domein oplade
+sc-bulk-upload-instruction = Sleep jo bestân hjir hinne of <uploadButton>klik om op te laden</uploadButton>
+sc-bulk-upload-instruction-drop = Sleep bestân hjir hinne om op te laden
+try-upload-again = Probearje it opnij troch jo bestân hjir hinne te slepen
+try-upload-again-md = Probearje opnij op te laden
+select-file = Bestân selektearje
+select-file-mobile = Selektearje op te laden bestân
+accepted-files = Akseptearre bestânstypen: allinnich .tsv
+maximum-file-size = Maksimum bestânsgrutte: 25 MB
+what-needs-to-be-in-file = Wat moat der yn myn bestân sitte?
+what-needs-to-be-in-file-explanation = Besjoch ús <templateFileLink>sjabloanbestân</templateFileLink>. Jo sinnen moatte frij fan auteursrjochten wêze (CC0 of orizjineel wurk mei tastimming fan de yntsjinner) en dúdlik, grammatikaal korrekt en maklik te lêzen wêze. Yntsjinne sinnen soene in lêslingte fan ûngefear 10 oant 15 sekonden hawwe moatte en meie gjin sifers, eigennammen en spesjale tekens befetsje.
+upload-progress-text = Oplaad dwaande…
+sc-bulk-submit-confirm =
+    Ik befêstigje dat dizze sinnen <wikipediaLink>publyk domein</wikipediaLink> binne en
+    ik tastimming haw om se op te laden.
+bulk-upload-success-toast = Bulkoplaad sinnen foltôge
+bulk-upload-failed-toast = Opladen mislearre, probearje it opnij.
+bulk-submission-success-header = Tank foar it yntsjinjen fan jo bulkyntsjoering!
+bulk-submission-success-subheader = Jo helpe Common Voice ús deistige sinsdoelen te berikken!
+upload-more-btn-text = Mear sinnen oplade?
+file-invalid-type = Unjildich bestân
+file-too-large = Bestân is te grut
+file-too-small = Bestân is te lyts
+too-many-files = Tefolle bestannen

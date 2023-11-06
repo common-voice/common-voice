@@ -1695,7 +1695,7 @@ reviewing-sentences-explanation-2 = Om meningen inte uppfyller ovanstående krit
 reviewing-sentences-explanation-3 = Om du är osäker på meningen kan du också hoppa över den och gå vidare till nästa.
 reviewing-sentences-explanation-4 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
 # WRITE PAGE
-write-instruction-second-part = en mening som är allmän egendom
+write-instruction = Lägg till <icon></icon> en mening som är allmän egendom
 write-page-subtitle = Meningar som bidrags här kommer att läggas till i en allmänt tillgänglig cc-0-licensierad datamängd.
 sentence =
     .label = Mening
@@ -1725,9 +1725,11 @@ single-sentence-submission = Inlämning av en enda mening
 bulk-sentence-submission = Massinlämning
 single-sentence = Enstaka mening
 bulk-sentences = Flera meningar
-# REVIEW PAGE
-sc-review-instruction-first-part = Kontrollera
-sc-review-instruction-second-part = är detta en språkligt korrekt mening?
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kontrollera <icon></icon> är detta en språkligt korrekt mening?
 sc-review-rules-title = Uppfyller meningen riktlinjerna?
 sc-review-empty-state = Det finns för närvarande inga meningar att granska på detta språk.
 report-sc-different-language = Annat språk
@@ -1739,14 +1741,15 @@ review-error-rate-limit-exceeded = Du är för snabb. Ta en stund att granska me
 sc-redirect-page-title = Vi gör några viktiga förändringar
 sc-redirect-page-subtitle-1 = Meningssamlaren flyttar till kärnplattformen Common Voice. Du kan nu <writeURL>skriva</writeURL> en mening eller <reviewURL>granska</reviewURL> enstaka meningsinlämningar på Common Voice.
 sc-redirect-page-subtitle-2 = Ställ frågor till oss på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller <emailLink>e-post</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Ladda upp
-sc-bulk-upload-instruction-second-part = meningar som är allmän egendom
-drag-your-file-here = Dra din fil hit för att ladda upp
-drop-file-here = Släpp filen här för att ladda upp
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Ladda upp <icon></icon> meningar som är allmän egendom
+sc-bulk-upload-instruction = Dra din fil hit eller <uploadButton>klicka för att ladda upp</uploadButton>
+sc-bulk-upload-instruction-drop = Släpp filen här för att ladda upp
 try-upload-again = Försök igen genom att dra filen hit
 try-upload-again-md = Försök att ladda upp igen
-or-conjuction = eller
 select-file = Välj fil
 select-file-mobile = Välj fil att ladda upp
 accepted-files = Godkända filtyper: endast .tsv

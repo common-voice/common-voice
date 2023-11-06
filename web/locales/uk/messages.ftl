@@ -1799,7 +1799,7 @@ reviewing-sentences-explanation-2 = Якщо речення не відпові�
 reviewing-sentences-explanation-3 = Якщо ви не впевнені щодо речення, ви також можете пропустити його та перейти до наступного.
 reviewing-sentences-explanation-4 = Якщо у вас закінчилося речення для розгляду, допоможіть нам зібрати більше речень!
 # WRITE PAGE
-write-instruction-second-part = речення суспільного надбання
+write-instruction = Додайте <icon></icon> речення суспільного надбання
 write-page-subtitle = Надані тут речення буде додано до загальнодоступного набору даних з ліцензією cc-0.
 sentence =
     .label = Речення
@@ -1831,9 +1831,11 @@ single-sentence-submission = Подання окремих речень
 bulk-sentence-submission = Масове подання речень
 single-sentence = Одне речення
 bulk-sentences = Масові речення
-# REVIEW PAGE
-sc-review-instruction-first-part = Перевірте
-sc-review-instruction-second-part = чи це речення лінгвістично правильне?
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Перевірте <icon></icon>, чи це лінгвістично правильне речення?
 sc-review-rules-title = Чи відповідає речення настановам?
 sc-review-empty-state = Зараз немає речень цією мовою для розгляду.
 report-sc-different-language = Інша мова
@@ -1845,14 +1847,15 @@ review-error-rate-limit-exceeded = Ви надто поспішаєте. Пер�
 sc-redirect-page-title = Ми робимо великі зміни
 sc-redirect-page-subtitle-1 = Sentence Collector переходить на основну платформу Common Voice. Тепер ви можете <writeURL>написати</writeURL> речення або <reviewURL>розглянути</reviewURL> окремі пропозиції на Common Voice.
 sc-redirect-page-subtitle-2 = Ставте нам запитання на <matrixLink>Matrix</matrixLink>, на <discourseLink>Discourse</discourseLink> або <emailLink>електронною поштою</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Вивантажити
-sc-bulk-upload-instruction-second-part = речення суспільного надбання
-drag-your-file-here = Перетягніть файл сюди, щоб вивантажити
-drop-file-here = Перетягніть файл сюди, щоб вивантажити
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Вивантажте <icon></icon> речення суспільного надбання
+sc-bulk-upload-instruction = Перетягніть свій файл сюди або <uploadButton>натисніть, щоб вивантажити</uploadButton>
+sc-bulk-upload-instruction-drop = Перетягніть файл сюди, щоб вивантажити
 try-upload-again = Повторіть спробу, перетягнувши файл сюди
 try-upload-again-md = Спробуйте вивантажити знову
-or-conjuction = або
 select-file = Виберіть файл
 select-file-mobile = Виберіть файл для вивантаження
 accepted-files = Прийнятні типи файлів: лише .tsv

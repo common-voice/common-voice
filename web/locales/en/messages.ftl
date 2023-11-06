@@ -1696,7 +1696,7 @@ reviewing-sentences-explanation-3 = If you are unsure about the sentence, you ma
 reviewing-sentences-explanation-4 = If you run out of sentences to review, please help us collect more sentences!
 
 # WRITE PAGE
-write-instruction-second-part = a public domain sentence
+write-instruction = Add <icon></icon> a public domain sentence
 write-page-subtitle = Sentences contributed here will be added to a publicly available cc-0 licensed dataset.
 sentence = 
     .label = Sentence
@@ -1727,9 +1727,9 @@ bulk-sentence-submission = Bulk Sentence Submission
 single-sentence = Single Sentence
 bulk-sentences = Bulk Sentences
 
-# REVIEW PAGE
-sc-review-instruction-first-part = Check
-sc-review-instruction-second-part = is this a linguistically correct sentence?
+## REVIEW PAGE
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Check <icon></icon> is this a linguistically correct sentence?
 sc-review-rules-title = Does the sentence meet the guidelines?
 sc-review-empty-state = There are currently no sentences to review in this language.
 report-sc-different-language = Different language
@@ -1743,14 +1743,13 @@ sc-redirect-page-title = We're making some big changes
 sc-redirect-page-subtitle-1 = The Sentence Collector is moving to the core Common Voice platform. You can now <writeURL>write</writeURL> a sentence or <reviewURL>review</reviewURL> single sentence submissions on Common Voice.
 sc-redirect-page-subtitle-2 = Ask us questions on <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
 
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Upload
-sc-bulk-upload-instruction-second-part = public domain sentences
-drag-your-file-here = Drag your file here to upload
-drop-file-here = Drop file here to upload
+## BULK SUBMISSION 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Upload <icon></icon> public domain sentences
+sc-bulk-upload-instruction = Drag your file here or <uploadButton>click to upload</uploadButton>
+sc-bulk-upload-instruction-drop = Drop file here to upload
 try-upload-again = Try again by dragging your file here
 try-upload-again-md = Try uploading again
-or-conjuction = or
 select-file = Select File
 select-file-mobile = Select File to Upload
 accepted-files = Accepted file types: .tsv only

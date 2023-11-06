@@ -1666,7 +1666,7 @@ reviewing-sentences-explanation-2 = Si la phrase ne répond pas aux critères ci
 reviewing-sentences-explanation-3 = Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 reviewing-sentences-explanation-4 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 # WRITE PAGE
-write-instruction-second-part = une phrase du domaine public
+write-instruction = Ajoutez <icon></icon> une phrase du domaine public
 write-page-subtitle = Les phrases fournies ici seront ajoutées à un jeu de données public sous licence cc-0.
 sentence =
     .label = Phrase
@@ -1693,10 +1693,14 @@ add-sentence-success = 1 phrase collectée
 add-sentence-error = Erreur lors de l’ajout de la phrase
 required-field = Veuillez compléter ce champ.
 single-sentence-submission = Envoi de phrase unique
+bulk-sentence-submission = Envoi de plusieurs phrases
 single-sentence = Phrase unique
-# REVIEW PAGE
-sc-review-instruction-first-part = Vérifier
-sc-review-instruction-second-part = si la phrase est linguistiquement correcte ?
+bulk-sentences = Plusieurs phrases
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Vérifiez <icon></icon> que la phrase est correcte sur le plan linguistique
 sc-review-rules-title = La phrase est-elle conforme aux consignes ?
 sc-review-empty-state = Il n’y a actuellement aucune phrase à vérifier dans cette langue.
 report-sc-different-language = Autre langue
@@ -1708,20 +1712,27 @@ review-error-rate-limit-exceeded = Vous allez trop vite. Veuillez prendre quelqu
 sc-redirect-page-title = Nous effectuons d’importants changements
 sc-redirect-page-subtitle-1 = Le collecteur de phrases est déplacé vers la plateforme Common Voice. Vous pouvez désormais <writeURL>écrire</writeURL> une phrase ou <reviewURL>vérifier</reviewURL> des phrases depuis Common Voice.
 sc-redirect-page-subtitle-2 = Posez-nous vos questions sur <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou <emailLink>par e-mail</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Envoyer
-drag-your-file-here = Faites glisser votre fichier ici pour l’envoyer
-drop-file-here = Déposez le fichier ici pour l’envoyer
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Envoyez <icon></icon> des phrases du domaine public
+sc-bulk-upload-instruction = Faites glisser votre fichier ici ou <uploadButton>cliquez pour l’envoyer</uploadButton>
+sc-bulk-upload-instruction-drop = Déposez le fichier ici pour l’envoyer
 try-upload-again = Réessayez en faisant glisser votre fichier ici
 try-upload-again-md = Essayer à nouveau d’envoyer
-or-conjuction = ou
 select-file = Sélectionner un fichier
 select-file-mobile = Sélectionnez un fichier à envoyer
 accepted-files = Types de fichiers acceptés : .tsv uniquement
 maximum-file-size = Taille maximale du fichier : 25 Mo
+what-needs-to-be-in-file = Que doit contenir mon fichier ?
+what-needs-to-be-in-file-explanation = Veuillez consulter notre <templateFileLink>modèle</templateFileLink>. Vos phrases doivent être libres de droit (CC0 ou travail original autorisé par l’auteur·trice) et être claires, grammaticalement correctes et faciles à lire. Les phrases envoyées doivent prendre environ 10-15 secondes à lire et doivent éviter d’inclure des chiffres, des noms propres et des caractères spéciaux.
 upload-progress-text = Envoi en cours…
 sc-bulk-submit-confirm = Je confirme que ces phrases sont du <wikipediaLink>domaine public</wikipediaLink> et que j’ai la permission de les envoyer.
+bulk-upload-success-toast = Phrases envoyées
 bulk-upload-failed-toast = Échec de l’envoi, veuillez réessayer.
+bulk-submission-success-header = Merci d’avoir participé en envoyant plusieurs phrases !
+bulk-submission-success-subheader = Vous aidez Common Voice à atteindre ses objectifs quotidiens de phrases !
 upload-more-btn-text = Envoyer d’autres phrases ?
 file-invalid-type = Fichier non valide
 file-too-large = Le fichier est trop volumineux

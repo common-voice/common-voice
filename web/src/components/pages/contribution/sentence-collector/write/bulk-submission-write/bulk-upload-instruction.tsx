@@ -6,25 +6,34 @@ type Props = {
   isDragActive: boolean
   isUploadError: boolean
   fileRejections: FileRejection[]
+  openDialog: () => void
 }
 
 const BulkUploadInstruction: React.FC<Props> = ({
   isDragActive,
   isUploadError,
   fileRejections,
+  openDialog,
 }) => {
   if (!isUploadError) {
     if (isDragActive) {
       return (
-        <Localized id="drop-file-here">
+        <Localized id="sc-bulk-upload-instruction-drop">
           <h2 className="upload-dropzone-instruction" />
         </Localized>
       )
     }
 
     return (
-      <Localized id="drag-your-file-here">
-        <h2 className="upload-dropzone-instruction hidden-md-down" />
+      <Localized
+        id="sc-bulk-upload-instruction"
+        elems={{
+          uploadButton: <button onClick={openDialog} className="upload" />,
+        }}>
+        <h2
+          className="upload-dropzone-instruction hidden-md-down"
+          data-testid="upload-dropzone-instruction"
+        />
       </Localized>
     )
   }

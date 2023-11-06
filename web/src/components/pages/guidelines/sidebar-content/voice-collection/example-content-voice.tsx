@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Localized } from '@fluent/react';
 
-import { CheckIcon, XICon } from '../../../../ui/icons';
+import { CheckIcon, XMarkIcon } from '../../../../ui/icons';
 
 export type ExampleTip = {
   text: string;
@@ -32,7 +32,7 @@ export const ExampleContent: React.FC<ExampleContentProps> = ({
               {tip.icon === 'check' ? (
                 <CheckIcon className="check-icon" />
               ) : (
-                <XICon />
+                <XMarkIcon />
               )}
             </span>
             <div className="tip-text-container">
