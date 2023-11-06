@@ -614,7 +614,7 @@ class SpeakPage extends React.Component<Props, State> {
                 return clipsToRecord;
               }}>
               {({ onConfirm, onCancel }: any) => (
-                <Modal innerClassName="record-abort" onRequestClose={onCancel}>
+                <Modal innerClassName="record-abort" onRequestClose={() => this.handleAbortCancel(onCancel)}>
                   <Localized id="record-abort-title">
                     <h1 className="title" />
                   </Localized>
