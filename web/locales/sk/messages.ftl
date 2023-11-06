@@ -932,6 +932,9 @@ listen-empty-state = Zdá sa, že sa nám minuli nahrávky – obnovte stránku 
 listen-loading-error =
     Nepodarilo sa nám získať žiadne zvukové nahrávky, ktoré by ste si mohli vypočuť.
     Skúste neskôr prosím.
+listen-abort-title = Skončiť overovanie klipov?
+listen-abort-cancel = Pokračovať v overovaní
+listen-abort-confirm = Skončiť s overovaním
 speak-empty-state = Minuli sa nám vety na nahrávanie v tomto jazyku...
 speak-empty-state-cta = Pridajte ďalšie vety
 speak-loading-error = Nedostali sme žiadne vety, ktoré by ste mohli povedať. Skúste neskôr prosím.
