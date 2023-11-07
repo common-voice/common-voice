@@ -951,6 +951,9 @@ listen-empty-state = Does dim rhagor o glipiau i'w dilysu yn yr iaith hon...
 listen-loading-error =
     Does dim rhagor o glipiau sain i chi wrando arnyn nhw.
     Ceisiwch eto, rhywbryd eto.
+listen-abort-title = Wedi gorffen dilysu clipiau?
+listen-abort-cancel = Parhau i ddilysu
+listen-abort-confirm = Gorffen dilysu
 speak-empty-state = Does dim rhagor o frawddegau i'w recordio yn yr iaith hon...
 speak-empty-state-cta = Cyfrannu brawddegau
 speak-loading-error =
