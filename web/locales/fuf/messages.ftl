@@ -493,12 +493,31 @@ faq-is-account-public-q = Humpito konte am woni ko e peñcu?
 faq-how-privacy-q = Oɗon ngaadii suuraare inɗe e sutoro yimɓe hokkuɓe sawto mum'en ɓee?
 faq-how-privacy-a = Lefon sawto ngonkon e leemre keɓe kon fof ko momtaaɗe kala humpito waawngo heftine neɗɗo. So ballitoowo hokkii keɓe leƴrenndiide e heftinirde mum, ngoon humpito ɗawtinte e lefon sawto joom mum hade makkon tiggeede ngam aawtagol e leemre keɓe ndee kadi waɗetaake e peñcu hay sahaa e hello heftnirde makko.
 faq-what-determine-identity-q = Hol ko firti wonde mi waawaa “anndude holi haalooɓe” e leemre keɓe Common Voice ndee?
+faq-what-determine-identity-a =
+    Leemre keɓe Common Voice ndee ko jeyaande udditiinde heɓotoonde e peñcu waawnde huutoreede ngam eeltude jaaɓɗe ɓeydaaɗe haala ɗe fannuuji jaajɗe limtoɗinɗe. Ngam reende kisal wallitooɓe amen, min naamnoto mo woni kala gaawtotooɗo Leemre keɓe Common Voice ndee yoo hormo suturo wallitooɓe ɓee.
+    
+    Lefon sawto ngonkon e leemre keɓe kon fof ko momtaaɗe kala humpito waawngo heftine neɗɗo. So aɗa aawtoo Leemre keɓe ndee, a jaɓat waasde etaade anndude neɗɗo ballitoowo oo. Ɗuum firti ko a waawaa etaade jokkondirde humpito Leemre keɓe ndee e humpito heeraniingo ballitoowo oo. Aɗa waawi noon, huutoraade Leemre keɓe ndee ngam eeltude keftinirgol haala, keftingol kaaloowo, walla jaaɓnirɗe goɗɗe, so, yeru jokkondirde humpito wonngo e Leemre keɓe ndee e humpito woɗngo tawaango e Leemre keɓe ndee.
+faq-what-is-cv = Ko woni Common Voice?
+faq-using-cv = Kuutorogol Common Voice?
+faq-description = Common Voice ko huunde e eɓɓooje Mozilla ngam wallude masiŋaaji jaŋngude no yimɓe kaaldata.
+faq-search-for-answers =
+    .label = Yiylo jaabawuuji
 
 ## ABOUT US
 
+about-title = Ko saabii Common Voice?
+how-does-it-work-text = Amin nodda ballondiral e leemre keɓe sawtooji.  Hokkir sawto maa, jaalɗin ceeɓndam lefon yimɓe woɗɓe, waɗ leemre keɓe ndee ɓeydoo moƴƴanɗe mo woni kala.
 
 ## How does it work section
 
+about-speak = Haal
+about-speak-text = Wallitooɓe nanngitto lefon sawto so tarde iwɗe e gerngal konnguɗi dokkaaɗi.
+about-listen-queue = Doggol cabbiiɗe keɗagol
+about-listen-queue-text = Lefon sawto kon naatnete e doggol naatnaaɗe keblowol keɗagol majji.
+about-listen = Heɗo
+about-listen-text = Huutorɓe jaalɗinat ceeɓndam lefon ndokkakon, ɓe ƴeewtoo so gowloowo oo tarii konngol ngol no moƴƴirta.
+about-is-it-valid = Ngel lefel ena jaalɗi ne?
+about-is-it-valid-text = Lefel sawto maantete "jaalɗii" so kuutoro wootanii ngel Eey.
 
 ## Community Playbook Content
 ## What is a language
