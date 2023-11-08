@@ -2,14 +2,22 @@ import crypto from 'node:crypto'
 import fs from 'node:fs'
 import tar from 'tar'
 import { io as IO, taskEither as TE } from 'fp-ts'
-import { pipe } from 'fp-ts/lib/function'
+import { constVoid, pipe } from 'fp-ts/lib/function'
 import path from 'node:path'
-import { prepareDir } from '../infrastructure/filesystem'
 import {
+  calculateChecksum,
+  prepareDir,
+} from '../infrastructure/filesystem'
+import {
+  getDatasetBundlerBucketName,
   getReleaseBasePath,
   getReleaseName,
   getReleaseTarballsDirPath,
 } from '../config/config'
+import {
+  getMetadataFromFile,
+  streamUploadToBucket,
+} from '../infrastructure/storage'
 
 const generateTarFilename = (locale: string) =>
   `${getReleaseName()}-${locale}.tar.gz`
@@ -51,18 +59,22 @@ const getPathsToAddToTarball =
       .map((pathS: string) => path.join(getReleaseName(), locale, pathS))
   }
 
-export const runCompress = (locale: string): TE.TaskEither<Error, void> => {
+export const runCompress = (locale: string): TE.TaskEither<Error, string> => {
   console.log('Start compress step')
   return pipe(
     TE.Do,
-    TE.let('tarballDirPath', () => getReleaseTarballsDirPath()),
-    TE.let('tarOutFilename', () => generateTarFilename(locale)),
-    TE.bind('paths', () => TE.fromIO(getPathsToAddToTarball(locale))),
+    TE.let('tarballDirPath', getReleaseTarballsDirPath),
+    TE.let('tarballFilename', () => generateTarFilename(locale)),
+    TE.let('tarballFilepath', ({ tarballDirPath, tarballFilename }) =>
+      path.join(tarballDirPath, tarballFilename),
+    ),
+    TE.let('paths', getPathsToAddToTarball(locale)),
     TE.chainFirst(({ tarballDirPath }) =>
       TE.fromIO(prepareDir(tarballDirPath)),
     ),
-    TE.chain(({ tarballDirPath, tarOutFilename, paths }) =>
-      compress(paths)(path.join(tarballDirPath, tarOutFilename)),
+    TE.chainFirst(({ tarballFilepath, paths }) =>
+      compress(paths)(tarballFilepath),
     ),
+    TE.map(({ tarballFilepath }) => tarballFilepath),
   )
 }

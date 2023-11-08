@@ -5,7 +5,12 @@ import util from 'node:util'
 import { taskEither as TE, array as A, record as R } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { parse } from 'csv-parse'
-import { LineCounts, countLines } from '../infrastructure/filesystem'
+import {
+  LineCounts,
+  calculateChecksum,
+  countLines,
+  getFileSize,
+} from '../infrastructure/filesystem'
 import {
   CORPORA_CREATOR_FILES,
   isCorporaCreatorFile,
@@ -120,15 +125,9 @@ const createEmptyLocale = (): Locale => {
 }
 
 const getAllRelevantFilepaths = (locale: string): string[] => {
-  const ccFiles = CORPORA_CREATOR_FILES.map(entry =>
+  return CORPORA_CREATOR_FILES.map(entry =>
     path.join(getReleaseBasePath(), locale, entry),
   )
-  const reportedSentencesFilepath = path.join(
-    getReleaseBasePath(),
-    locale,
-    'reported.tsv',
-  )
-  return [...ccFiles, reportedSentencesFilepath]
 }
 
 const mapLineCountsToStats = (
@@ -151,13 +150,17 @@ const mapLineCountsToStats = (
   }
 }
 
-const mergeStatCountsIntoStats = (
+const mergeStats = (
   locale: string,
   stats: Stats,
   statCounts: Pick<Locale, 'buckets' | 'reportedSentences'>,
+  checksum: string,
+  size: number,
 ) => {
   stats.locales[locale].buckets = statCounts.buckets
   stats.locales[locale].reportedSentences = statCounts.reportedSentences
+  stats.locales[locale].checksum = checksum
+  stats.locales[locale].size = size
   return stats
 }
 
@@ -218,38 +221,44 @@ const unitToHours = (
 
   return Math.floor((duration / perHr) * sigDigMultiplier) / sigDigMultiplier
 }
-const calculateDurations = (
+
+const calculateDurations =
+  (locale: string) =>
+  (totalDurationInMs: number) =>
+  (stats: Stats): Stats => {
+    const localeStats = stats.locales[locale]
+    const validClips = localeStats.buckets.validated
+
+    localeStats.duration = totalDurationInMs
+    localeStats.avgDurationSecs =
+      Math.round(localeStats.duration / localeStats.clips) / 1000
+    localeStats.validDurationSecs =
+      Math.round((localeStats.duration / localeStats.clips) * validClips) / 1000
+
+    localeStats.totalHrs = unitToHours(localeStats.duration, 'ms', 2)
+    localeStats.validHrs = unitToHours(localeStats.validDurationSecs, 's', 2)
+
+    stats.locales[locale] = localeStats
+
+    return stats
+  }
+
+export const runStats = (
   locale: string,
   totalDurationInMs: number,
-  stats: Stats,
-) => {
-  const localeStats = stats.locales[locale]
-  const validClips = localeStats.buckets.validated
-
-  localeStats.duration = totalDurationInMs
-  localeStats.avgDurationSecs =
-    Math.round(localeStats.duration / localeStats.clips) / 1000
-  localeStats.validDurationSecs =
-    Math.round((localeStats.duration / localeStats.clips) * validClips) / 1000
-
-  localeStats.totalHrs = unitToHours(localeStats.duration, 'ms', 2)
-  localeStats.validHrs = unitToHours(localeStats.validDurationSecs, 's', 2)
-
-  stats.locales[locale] = localeStats
-
-  return stats
-}
-
-export const runStats = (locale: string, totalDurationInMs: number) =>
+  tarFilepath: string,
+) =>
   pipe(
     TE.Do,
     TE.let('filepaths', () => getAllRelevantFilepaths(locale)),
     TE.bind('lineCounts', ({ filepaths }) => countLines(filepaths)),
     TE.let('statCounts', ({ lineCounts }) => mapLineCountsToStats(lineCounts)),
     TE.bind('stats', () => extractStatsFromClipsFile(locale)),
-    TE.map(({ stats, statCounts }) =>
-      mergeStatCountsIntoStats(locale, stats, statCounts),
+    TE.bind('checksum', () => calculateChecksum(tarFilepath)),
+    TE.let('filesize', getFileSize(tarFilepath)),
+    TE.map(({ stats, statCounts, checksum, filesize }) =>
+      mergeStats(locale, stats, statCounts, checksum, filesize),
     ),
-    TE.map(stats => calculateDurations(locale, totalDurationInMs, stats)),
+    TE.map(calculateDurations(locale)(totalDurationInMs)),
     TE.tap(stats => TE.of(console.log(util.inspect(stats, { depth: 5 })))),
   )

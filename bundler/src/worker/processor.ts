@@ -9,6 +9,7 @@ import { runCompress } from '../core/compress'
 import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
 import { runReportedSentences } from '../core/reportedSentences'
+import { runUpload } from '../core/upload'
 
 export const processLocale = async (job: Job<ProcessLocaleJob>) => {
   await pipe(
@@ -21,17 +22,19 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
     TE.chainFirst(({ locale, isMinorityLanguage }) =>
       runFetchAllClipsForLocale(locale, isMinorityLanguage),
     ),
-    TE.bind('totalDurationInMs', ({ locale }) => runMp3DurationReporter(locale)),
-    TE.tap(({totalDurationInMs})=> TE.of(console.log('thats the duraton',totalDurationInMs))),
+    TE.bind('totalDurationInMs', ({ locale }) =>
+      runMp3DurationReporter(locale),
+    ),
+    TE.tap(({ totalDurationInMs }) =>
+      TE.of(console.log('thats the duraton', totalDurationInMs)),
+    ),
     TE.chainFirst(({ locale }) => runCorporaCreator(locale)),
     TE.chainFirst(({ locale }) => runReportedSentences(locale)),
-    TE.chainFirst(({ locale }) => runCompress(locale)),
-    TE.chainFirst(({ locale, totalDurationInMs }) => runStats(locale, totalDurationInMs)),
+    TE.bind('tarFilepath', ({ locale }) => runCompress(locale)),
+    TE.bind('uploadPath', ({ tarFilepath }) => runUpload(tarFilepath)),
+    TE.chainFirst(({ locale, totalDurationInMs, tarFilepath }) =>
+      runStats(locale, totalDurationInMs, tarFilepath),
+    ),
     TE.mapError(err => console.log(String(err))),
   )()
-
-  // query db for all clips
-  // download all clips from storage
-  // create clips.tsv
-  // create splits with corpora creator
 }

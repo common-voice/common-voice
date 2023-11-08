@@ -3,6 +3,8 @@ import { taskEither as TE } from 'fp-ts'
 import { Readable } from 'stream'
 import { getEnvironment, getStorageLocalEndpoint } from '../config/config'
 
+export type Metadata = { size: string; crc32c: string }
+
 const storage =
   getEnvironment() === 'local'
     ? new Storage({
@@ -35,6 +37,14 @@ const streamUpload =
     )
   }
 
+const crc32 =
+  (storage: Storage) =>
+  (data: Buffer): string => {
+    const crc23c = storage.crc32cGenerator()
+    crc23c.update(data)
+    return crc23c.toString()
+  }
+
 const upload =
   (storage: Storage) =>
   (bucket: string) =>
@@ -53,11 +63,11 @@ const upload =
 const getMetadata =
   (storage: Storage) =>
   (bucket: string) =>
-  (path: string): TE.TaskEither<Error, any> => {
+  (path: string): TE.TaskEither<Error, Metadata> => {
     return TE.tryCatch(
       async () => {
         const [metadata] = await storage.bucket(bucket).file(path).getMetadata()
-        return metadata
+        return metadata as Metadata
       },
       (err: unknown) => Error(String(err)),
     )
@@ -80,7 +90,7 @@ const streamDownloadFile =
   (storage: Storage) =>
   (bucket: string) =>
   (path: string): Readable => {
-    return  storage.bucket(bucket).file(path).createReadStream()
+    return storage.bucket(bucket).file(path).createReadStream()
   }
 
 export const streamUploadToBucket = streamUpload(storage)
@@ -88,3 +98,4 @@ export const uploadToBucket = upload(storage)
 export const getMetadataFromFile = getMetadata(storage)
 export const downloadFileFromBucket = downloadFile(storage)
 export const streamDownloadFileFromBucket = streamDownloadFile(storage)
+export const crc23cStorage = crc32(storage)

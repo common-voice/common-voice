@@ -64,11 +64,29 @@ const countLinesPromise = (filepaths: string[]) =>
     cc.on('error', reason => reject(reason))
   })
 
-export const calculateChecksum = (filepath: string) => {
-  const hash = crypto.createHash('sha256')
-  const data = fs.createReadStream(filepath)
-  data.pipe(hash).setEncoding('hex').on('data', (data) => console.log(data))
+export const calculateChecksum = (
+  filepath: string,
+): TE.TaskEither<Error, string> => {
+  return TE.tryCatch(
+    () =>
+      new Promise(resolve => {
+        const data = fs.createReadStream(filepath)
+        const hash = crypto.createHash('sha256')
+
+        data
+          .on('data', (data: Buffer) => hash.update(data))
+          .on('close', () => resolve(hash.digest('hex')))
+      }),
+    reason => Error(String(reason)),
+  )
 }
+
+export const getFileSize =
+  (filepath: string): IO.IO<number> =>
+  () => {
+    const filestats = fs.statSync(filepath)
+    return filestats.size
+  }
 
 export const countLines = (filepaths: string[]) =>
   TE.tryCatch(
