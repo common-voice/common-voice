@@ -125,9 +125,15 @@ const createEmptyLocale = (): Locale => {
 }
 
 const getAllRelevantFilepaths = (locale: string): string[] => {
-  return CORPORA_CREATOR_FILES.map(entry =>
+  const ccFiles = CORPORA_CREATOR_FILES.map(entry =>
     path.join(getReleaseBasePath(), locale, entry),
   )
+  const reportedSentencesFilepath = path.join(
+    getReleaseBasePath(),
+    locale,
+    'reported.tsv',
+  )
+  return [...ccFiles, reportedSentencesFilepath]
 }
 
 const mapLineCountsToStats = (
@@ -221,7 +227,6 @@ const unitToHours = (
 
   return Math.floor((duration / perHr) * sigDigMultiplier) / sigDigMultiplier
 }
-
 const calculateDurations =
   (locale: string) =>
   (totalDurationInMs: number) =>
