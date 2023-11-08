@@ -655,6 +655,16 @@ subscribe = Lulno
 get-started-speech = Fuɗɗoro ɗoo e Keftinirgol Haalaa
 other-datasets = Leeme Keɓe Sawto Goɗɗe
 feedback-q = Aɗa jogii duttinal?
+data-other-librispeech-description = LibriSpeech ko ndoɓri ngigiindi hakke waktuuji 1000 haala Engeleere taraande ittaande e defte hito to eɓɓoore LibriVox toh.
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = Ndoɓri TED-LIUM waɗiraa ko jeewte ojoo e binnditte mum keɓotooɗe to lowre TED toh.
+data-other-voxforge-description = VoxForge waɗiraa ko roɓindaade haala mbinnditaaka ngam huutoreede e Masiŋaaji Keftingol Haala de Sewnde-Udditigol
+data-other-tatoeba-description = Tatoeba ko diiñorde keɓe konnguɗi, firooji e ojoo gowlaaɗo mawnde ngam huutoraade e jaŋde ɗemɗe. Ngol gaawtol ena jogii Engleleere wowlaande nanngitaande renndo ngoo.
+your-feedback = Aɗa jogii miijooji no min ɓamtirta Leemre keɓe Common Voice ndee? Haalan-min e DIscourse
+go-discourse = Yah to Discourse
+missing-language = A yiytaaki ɗemngal maa e Leemre keɓe ndee? Ngam ɗaɓɓitde ɗemngal, yaaɓ to hello ɗemɗe amen toh.
+go-languages-page = Yah to Hello Ɗemɗe
+ready-to-validate = Aɗa hebii wallude moƴƴinde konnguɗi?
 
 ## Download Modal
 
