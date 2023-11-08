@@ -1621,6 +1621,11 @@ misreadings-example-3 = موږ د قهوې اخیستو لپاره بهر ځو.
 misreadings-example-4 = مچۍ په تېزۍ سره روانه شوه.
 misreadings-tip-1 = [باید "موږ یو" وي]
 misreadings-tip-2 = [په اصلي متن کې 'a' نه دی]
+misreadings-tip-3 = [مطابقت نه  لرونکې منځپانګه]
+background-noise-example-1 = د ټریاسیک لوی ډیناسور.
+background-noise-tip-2 = [د متن یوه برخه اوریدل کیدی نشي]
+citing-sentences-subheader-websites-explanation = تاسو کولی شئ ویب پاڼه شامله کړئ، د مثال په توګه "عام غږ - https://commonvoice.mozilla.org/"
+adding-sentences-subheader-offensive-content = توهين کوونکې منځپانګه
 
 ## REVIEW PAGE
 
