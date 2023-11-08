@@ -665,21 +665,45 @@ go-discourse = Yah to Discourse
 missing-language = A yiytaaki ɗemngal maa e Leemre keɓe ndee? Ngam ɗaɓɓitde ɗemngal, yaaɓ to hello ɗemɗe amen toh.
 go-languages-page = Yah to Hello Ɗemɗe
 ready-to-validate = Aɗa hebii wallude moƴƴinde konnguɗi?
+more = Goɗɗe
+close = Uddu
+download = Aawto
+dataset-version = Yamre
 
 ## Download Modal
 
+download-title = Gaawtol maa fuɗɗiima
+download-helpus = Wallu min mahde renndo toppitiingo karalle sawto. Haal daande dow e iimeel.
+download-form-email =
+    .label = Naatnu iimeel maa
+    .value = { "" }
+download-back = Rutto to Leeme Keɓe Common Voice
+download-no = Alaa, mi yaafiima
 
 ## Contact Modal
 
+contact-title = Jokkondiral
+contact-form-name =
+    .label = Innde
+contact-form-message =
+    .label = Ɓataake
+contact-required = *ena waɗɗii
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Ɗemngal
+request-language-success-title = Naamnal ɗemngal naatnaama no haanirta, a jaaraama.
+request-language-success-content = Ma min njokkondir e maa e humpito woɗngo baɗte no ɓeydirtaa ɗemngal maa e Common Voice ko yaawi.
+select-language = Labo ɗemngal...
+other-language = Ɗemngal goɗngal
 
 ## Request Language Pages
 
 
 ## Languages Overview
 
+language-section-in-progress = Ena e Laawol
 
 ## Contribution
 
