@@ -550,12 +550,14 @@ about-nav-get-involved = Ar yantu e amen
 
 ## How to record quality
 
+about-playbook-how-record-content-1 = Haaldu no keew-ɗaa haaldude nih. No kaaldataa nih ena hatojinaa ɗoo - min njiɗi ko kaaldaa ngaddin maa oo siforii nih, kadi hito maa, daande e no kaaldataa tawa waylaaki.
 
 ## How to grow language
 
 
 ## How to validate
 
+about-playbook-how-validate-content-2 = <strong>Hoto riiwtu hito ɗo kaaloowo oo ‘ena jogii ngaddin’ mo jiidaani e mo mah</strong> - Ɗuum eba teeŋti sanne ngam Heftingol Hito ena waawa yuɓɓande mo woni kala.
 
 ## How to access dataset
 
