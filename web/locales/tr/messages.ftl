@@ -920,6 +920,8 @@ listen-empty-state = Doğrulanacak ses kaydı kalmamış olabilir. Sayfayı yeni
 listen-loading-error =
     Dinleyebileceğiniz hiç ses kaydı bulamadık.
     Lütfen daha sonra tekrar deneyin.
+listen-abort-cancel = Doğrulamaya devam et
+listen-abort-confirm = Doğrulamayı bitir
 speak-empty-state = Bu dilde kaydedilecek cümle kalmadı...
 speak-empty-state-cta = Cümlelere katkıda bulunun
 speak-loading-error =
