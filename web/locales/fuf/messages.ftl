@@ -518,6 +518,22 @@ about-listen = Heɗo
 about-listen-text = Huutorɓe jaalɗinat ceeɓndam lefon ndokkakon, ɓe ƴeewtoo so gowloowo oo tarii konngol ngol no moƴƴirta.
 about-is-it-valid = Ngel lefel ena jaalɗi ne?
 about-is-it-valid-text = Lefel sawto maantete "jaalɗii" so kuutoro wootanii ngel Eey.
+about-yes-votes = ≥ daaɗe Eey 2
+about-yes-votes-text = Ngam ɓenninoyeede to leemre keɓe toh, lefel sawto maa jaalɗinee yimɓe ɗiɗo seertuɓe.
+about-no-votes = ≥ daaɗe 2 Alaa
+about-no-votes-text = So kuutoro riiwtii lefel sawto, ngon ruttoto to Doggol Caɓɓiiɗe. So o riiwtii ngel ɗimmol, lefel hito ngel dirtinee to Genaale Lefon toh.
+about-dataset-new = Leemre Keɓe Common Voice
+about-dataset-new-text = Leemre Keɓe Common Voice ndee ena waɗi teemedde ujunnaaje jubbanɗe sawto ballooje topayɓe mahde kutorɗe keftinooje sawto.
+about-get-involved = Ar yantu e amen
+about-get-involved-text-2 =
+    Aɗa yiɗi wallude Common Voice ɓeydaade moƴƴude?
+    Eyyoo! Jokkondir e amen e iimeel walla forum <discourseLink>Discourse</discourseLink>,
+    naatnu caɗe lowre to <githubLink>GitHub</githubLink>, walla yantu e renndo jeewte
+    <matrixLink>Matrix</matrixLink>
+about-nav-why-common-voice = Hol sabaabu?
+about-nav-how-it-works = Hol noon?
+about-nav-partners = Gollidiiɓe
+about-nav-get-involved = Ar yantu e amen
 
 ## Community Playbook Content
 ## What is a language
