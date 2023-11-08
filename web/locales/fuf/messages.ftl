@@ -408,6 +408,7 @@ why-demographic-explanation-2 = Keɓe kuutoro ɗe innitaaka wona duuɓi, njogora
 accept-privacy = Mi jaɓii toppitoɗaa ngoo humpito hono no no paccirɗaa e <privacyLink>Dawrugol suturo</privacyLink>Mozilla
 accept-privacy-title = Dawrugol Suturo
 login-identity = Heftinirde seŋorde
+login-signup = Seŋo/ Winndito
 edit = Taƴto
 email-subscriptions = Lulnagol iimeel
 download-profile = Aawtaade keɓe am
@@ -487,6 +488,7 @@ faq-where-src-from-2-a =
     Binndol sewde amen waɗiraa ko dokkanɗe asliije wallitooɓe kam e jeewte ummiiɗe e ciimte leppi sinimaa jeyi peñcu hono <italic>It’s a Wonderful Life</italic>.
     
     Aɗa waawi yiyde konnguɗi amen sewnde e ndee <githubLink>runngere</githubLink>.
+faq-why-not-ask-read-q = Ko waɗi a wiyataa yimɓe yo tar e defte walla binndanɗe wikipedia e ɗemɗe goɗɗe?
 faq-why-not-ask-read-a = Ngam Leemre keɓe Common Voice waɗa nafoore tigi min cuɓii ko yamirde so wonaa binndol sewnde tawa woni ko e jamirol  Creative Commons (CC0). Huutoraade nanondiral CC0 firti ko yiytude e roɓindaade binndi ɓurata saɗtude kono maa gooto kala waaw huutoraade keɓe sawto jaltuɗe e majji tawa alaa kaɗe kuutoragol walla jamirooje ummiiɗe e Mozilla. E ndaɓɓa, min njiɗi ko waɗde leemre keɓe limtiɗemɗiire ndee haa nafa mo woni kala, woni wiɗtooɓe, jaaɓikaaɗtirɗe, startup en, laamuuji, pelle faandaare renndo e hatohatolinɓe.
 faq-why-account-q = Ko saabii mbiɗo foti winnditaade ngam uddit-de konte?
 faq-is-account-public-q = Humpito konte am woni ko e peñcu?
@@ -524,6 +526,8 @@ about-no-votes = ≥ daaɗe 2 Alaa
 about-no-votes-text = So kuutoro riiwtii lefel sawto, ngon ruttoto to Doggol Caɓɓiiɗe. So o riiwtii ngel ɗimmol, lefel hito ngel dirtinee to Genaale Lefon toh.
 about-dataset-new = Leemre Keɓe Common Voice
 about-dataset-new-text = Leemre Keɓe Common Voice ndee ena waɗi teemedde ujunnaaje jubbanɗe sawto ballooje topayɓe mahde kutorɗe keftinooje sawto.
+about-clip-graveyard = Genaale Lefon
+about-clip-graveyard-text = Genaale Lefon ɗee ko lefon sawto koriiɗe ɓennude to leemre keɓe Common Voice ndee. Hono leemre keɓe ndee nih, Genaale Lefon ɗee ena waawi aawteede.
 about-get-involved = Ar yantu e amen
 about-get-involved-text-2 =
     Aɗa yiɗi wallude Common Voice ɓeydaade moƴƴude?
@@ -567,6 +571,7 @@ about-playbook-how-validate-content-2 = <strong>Hoto riiwtu hito ɗo kaaloowo oo
 
 ## Glossary
 
+glossary = KELMEENDI
 localization = Nokkuɗinal
 localization-explanation = Ɗum woni laawol amen ngam firde e jaaɓtinde loowdi amen e caltirɗe keewɗe (ɗemɗe).
 sentence-collection-explanation = Roɓindaade konnguɗi e jeyi peñcu, walla winndude jeyi peñcu goɗɗi kesi.
