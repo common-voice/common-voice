@@ -871,15 +871,63 @@ help-reach-hours-pluralized =
         [one] Wallu heɓewaktuuji { $hours }e { $language } kam e faadaare heeriinde
        *[other] { "" }
     }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Wallu Common Voice heɓdewaktuuji { $hours }e ɗemngal kem e faandaare heeriinde
+       *[other] { "" }
+    }
+set-a-goal = Taƴ faandaare
+cant-decide = A horiima fellitde?
+activity-needed-calculation-plural = waktuuji { $totalHours }ena waawi timmude e ko seɓilebbi { $periodMonths }soyimɓe { $people }nanngitiimalefon { $clipsPerDay }ñalawma
+how-many-per-day = Eyyoo! No foti lefon ñalawma?
+how-many-a-week = Eyyoo! No foti lefon yontere?
+which-goal-type = Aɗa yiɗi haalde, heɗaade walla ɗiɗi fof?
+receiving-emails-info = Oo sahaa ko a cuɓiiɗo heɓde iimeeluuji wano ciiftinooji, kesɗitine taaɓagol am e ɓatakeeji kabrirɗi baɗte Common Voice.
+not-receiving-emails-info =
+    Oo sahaa ko a cuɓiiɗo <bold>WASDE</bold> heɓde iimeeluuji wano ciiftinooji, kesɗitine 
+    taaɓagol am e ɓatakeeji kabrirɗi baɗte Common Voice.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] lefon { $count }
+       *[other] { "" }
+    }
+help-share-goal = Wallu min yiytude sawtooji goɗɗi, lollin faandaare maa
+confirm-goal = Teeŋtin Faandaare
+goal-interval-weekly = Yontere
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Lollin Faandaare maa Lefon Ñalngu { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Lollin Faandaare maa Lefon Yontere{ $type }
+share-goal-type-speak = Kaalgol
+share-goal-type-listen = keɗogol
+share-goal-type-both = Kaalgol e Keɗogol
+# LINK will be replaced with the current URL
+goal-share-text = Acabo de crear un obxectivo persoal de doazón de voz a #CommonVoice -- únase e axúdeme a ensinarlles ás máquinas como falan as persoas reais { $link }
+weekly-goal-created = Faandaare maa yontere sosaama
+daily-goal-created = Faandaare maa ñalngu sosaama
+track-progress = Rewindo taaɓagol maa ɗoo kam e hello maa limte.
+return-to-edit-goal = Ruɗɗo ɗoo ngam taƴtaade faandaare maa nde njiɗ-ɗaa kala
+share-goal = Lollin faandaare am
 
 ## Profile Delete
 
+delete-q = Aɗa yiɗi ɗaɓɓitde momtugol nanngitte sawto maa ne, walla ɓuran-maa ko mooftude ɗe e Leemre keɓe Common Voice ndee?
+keep = Mooftu
+remove = Momtu
+keep-info = Nanngitte maa niɓɓiɗinaaɗe maa keddo e leemre keɓe Common Voice. So a woodii momtude heɓtinirde maa, a waawataa haŋkadi naatnude ɗaɓɓitaande momtude nanngitte maa e leemrɗ keɓe ndee.
+remove-info = Ma min njuurnito ɗaɓɓaande maa momtude nanngite maa e lemre keɓe ndee. So ɗaɓɓitaande maa jaɓaama, ma min njokkondir e aawtiiɓe leemre keɓe ndee ngam naamnade yo ɓe lomtu nanngite maa kamɓe ne.
+why-delete-recordings =
+    Nanngite Common Voice huutortoo ɗum'en ko jaaɓihaaɗtiyaŋkooɓe, njulaŋkeeje pamare e hatojinɓe e keftinirgol haala ngam eeltude e ɓamtude gogaaɗe keɓotooɗe e peñcu wano gannorɗe sawto.
+    
+    Aɗa waawi anndinde min ko waɗ-maa yiɗde momtude nanngite maa?
+profile-form-delete = Momtu Heftinirde
 
 ## Profile Download
 
 
 ## Landing
 
+welcome-staff = On njaɓɓaama gollanooɓe { $company }!
 
 ## DemoLayout
 
