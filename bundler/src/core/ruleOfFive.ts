@@ -3,6 +3,9 @@ import path from 'node:path'
 import { taskEither as TE } from 'fp-ts'
 import { query } from '../infrastructure/database'
 import { pipe } from 'fp-ts/lib/function'
+import { getQueriesDir } from '../config/config'
+
+const MINIMUM_UNIQUE_SPEAKERS = 5
 
 type UniqueSpeakersForLocale = {
   name: string
@@ -15,10 +18,10 @@ export const isMinorityLanguage = (
   pipe(
     query<UniqueSpeakersForLocale>(
       fs.readFileSync(
-        path.join(__dirname, '..', '..', 'queries', 'uniqueSpeakersLocale.sql'),
+        path.join(getQueriesDir(), 'uniqueSpeakersLocale.sql'),
         { encoding: 'utf-8' }
       ),
       [locale]
     ),
-    TE.map((res) => res.count < 5)
+    TE.map((res) => res.count < MINIMUM_UNIQUE_SPEAKERS)
   )

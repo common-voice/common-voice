@@ -10,6 +10,7 @@ import {
   getClipsBucketName,
   getIncludeClipsFrom,
   getIncludeClipsUntil,
+  getQueriesDir,
   getReleaseBasePath,
   getReleaseClipsDirPath,
 } from '../config/config'
@@ -119,10 +120,9 @@ const fetchAllClipsForLocale = (
     () =>
       new Promise<void>((resolve, reject) => {
         const { conn, stream } = streamingQuery(
-          fs.readFileSync(
-            path.join(__dirname, '..', '..', 'queries', 'bundleLocale.sql'),
-            { encoding: 'utf-8' },
-          ),
+          fs.readFileSync(path.join(getQueriesDir(), 'bundleLocale.sql'), {
+            encoding: 'utf-8',
+          }),
           [getIncludeClipsFrom(), getIncludeClipsUntil(), locale],
         )
         console.log('Start Stream Processing')

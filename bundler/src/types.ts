@@ -24,5 +24,4 @@ export type ReportedSentencesRow = Record<typeof REPORTED_SENTENCES_COLUMNS[numb
 
 export type ProcessLocaleJob = {
   locale: string
-  isMinorityLanguage: boolean
 }

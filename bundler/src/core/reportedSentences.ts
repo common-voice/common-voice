@@ -5,6 +5,7 @@ import { streamingQuery } from '../infrastructure/database'
 import {
   getIncludeClipsFrom,
   getIncludeClipsUntil,
+  getQueriesDir,
   getReleaseBasePath,
 } from '../config/config'
 import { Transform } from 'node:stream'
@@ -47,13 +48,7 @@ const fetchReportedSentencesForLocale = (
       new Promise<void>((resolve, reject) => {
         const { conn, stream } = streamingQuery(
           fs.readFileSync(
-            path.join(
-              __dirname,
-              '..',
-              '..',
-              'queries',
-              'getReportedSentencesLocale.sql',
-            ),
+            path.join(getQueriesDir(), 'getReportedSentencesLocale.sql'),
             { encoding: 'utf-8' },
           ),
           [getIncludeClipsFrom(), getIncludeClipsUntil(), locale],

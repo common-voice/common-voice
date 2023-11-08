@@ -9,18 +9,20 @@ const datasetReleaseQueue = new Queue('datasetRelease', {
   },
 })
 
-const addJob = (locale: string) =>
+const addJob = (queue: Queue) => (locale: string) =>
   TE.tryCatch(
     async () => {
-      await datasetReleaseQueue.add('processLocale', { locale })
+      await queue.add('processLocale', { locale })
     },
     err => Error(String(err)),
   )
+
+const addJobToDatasetReleaseQueue = addJob(datasetReleaseQueue)
 
 export const addJobs = pipe(
   TE.Do,
   TE.bind('allLocales', () => fetchLocalesWithClips),
   TE.tap(({ allLocales }) => TE.of(console.log('Got the following locales: ', allLocales))),
-  TE.map(({ allLocales }) => allLocales.map(locale => addJob(locale.name))),
+  TE.map(({ allLocales }) => allLocales.map(locale => addJobToDatasetReleaseQueue(locale.name))),
   TE.chain(jobs => TE.sequenceArray(jobs))
 )
