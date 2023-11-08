@@ -756,18 +756,89 @@ record-last-instruction = <recordIcon></recordIcon> cakkitiiɗo oo!
 review-tooltip = Ƴeewto & nanngito kadi lefon laawol gootol
 share-clip = Lollin lefel maa
 share-common-voice = Lollin Common Voice
+review-instruction = Ƴeewto & nanngito kadi lefon so a soklii
+record-submit-tooltip = { $actionType } naatnu so a hebiima
+clips-uploaded = Lefon Jollakon
+record-abort-title = Gaynu nanngitaade tawo?
+record-abort-text = Yaltude jooni firti ko maa waas taabagol maa
+record-abort-submit = Naatnu lefon
+record-abort-continue = Jokkit nanngitogol
+record-abort-delete = Tƴto & Momtu lefon
+listen-instruction = { $actionType }<playIcon></playIcon> Ɓe tarii konngol ngol taro yuɓɓungo?
+listen-again-instruction = Golle peewii!<playIcon></playIcon> Heɗto kadi so a hebiima
+listen-3rd-time-instruction = 2 keddii <playIcon></playIcon>, jokku tiiɗnaare!
+listen-last-time-instruction = <playIcon></playIcon>cakkitiiɗo oo!
+listen-empty-state = En ngaynii lefon njaalɗinteekon e ngal ɗemngal...
+speak-empty-state = En ngaynii konnguɗi jaalɗinteeɗi e ngal ɗemngal...
+speak-empty-state-cta = Wallit konnguɗi
+record-button-label = Nanngito daande maa
+share-title-new = <bold>Wallu min</bold> yiytude sawtooji goɗɗi
+keep-track-profile = Rewindo taaɓagol maa e heftinirde
+login-to-get-started = Seŋo walla winndito ngam fuɗɗaade
+target-segment-first-card = Aɗana wallita e taƴannde toɓɓaande amen adannde
+target-segment-generic-card = Aɗana wallita e taƴannde toɓɓaande adannde
+target-segment-first-banner = Wallu taƴannde toɓɓaande addannde Common Voice e { $locale }
+target-segment-add-voice = Ɓeydu Sawto Maa
+target-segment-learn-more = Ɓeydu humpito
 
 ## Contribution Nav Items
 
 
 ## Reporting
 
+report = Jaŋtol
+report-title = Naatnu Jaŋtol
+report-ask = Hol caɗeele ndañɗaa e ngol koŋngol?
+report-offensive-language = Ɗemngal nefningal
+report-offensive-language-detail = Konngol ngol ena waɗi haala coofka walla nehtorka.
+report-grammar-or-spelling = Juumre celluka / mbinndiin
+report-grammar-or-spelling-detail = Konngol ngol ena waɗi juumre celluka walla mbinndiin.
+report-different-language = Ɗemngal goɗngal
+report-different-language-detail = Winndaa ko e ɗemngal ngal jiidaa e ngal kaalat-mi ngal
+report-difficult-pronounce = Ena saɗi wowlude
+report-difficult-pronounce-detail = Ena waɗi kelme walla kaalanɗe mettuɗe tarde walla wowlude.
+report-offensive-speech = Haala mbonka
+report-offensive-speech-detail = Lefel ngell ena waɗi haala nehtorka walla mbonka.
+report-other-comment =
+    .placeholder = Yowre
+success = Moƴƴii
+continue = Jokku
+report-success = Jaŋtol neldiraama no haanirta!
 
 ## Goals
 
+streaks = Sahngaaji ittuɗi
+days =
+    { $count ->
+        [one] ñalɗi
+       *[other] { "" }
+    }
+recordings =
+    { $count ->
+        [one] Nanngitte
+       *[other] { "" }
+    }
+validations =
+    { $count ->
+        [one] Jaalɗine
+       *[other] { "" }
+    }
 
 ## Dashboard
 
+your-languages = Ɗemngal maa
+toward-next-goal = Faade e faanaare aroore
+goal-reached = Faandaare timmii
+clips-you-recorded = Lefon Nanngiti-ɗaa
+clips-you-validated = Lefon Njaalɗin-ɗaa
+todays-recorded-progress = Taaɓagol Common Voice hannde e lefon nanngitakon
+todays-validated-progress = Taaɓagol Common Voice hannde e lefon njaalɗinakon
+stats = Limte
+awards = Njeenaari
+you = Aan
+everyone = Mo woni kala
+contribution-activity = Dille Ballitgol
+top-contributors = Gollooɓe Rowrowɓe
 
 ## Custom Goals
 
