@@ -609,9 +609,52 @@ data-download-singleword-callout-v2 = Ɗum-ɗoo ko taƴannde toɗɗiinde fannu k
 review-terms = Huutoraade Common Voice firti ko aɗa jaɓi ɗooftaade <termsLink>sarɗiiji</termsLink> e <privacyLink>Konngol Suturo</privacyLink> amen
 terms-agree = Mi jaɓii
 terms-disagree = Mi jaɓaani
+review-aborted = Jollugol dullii. Aɗa yiɗi momtude nanngitogol maa?
+review-submit-title = Ƴeewto & Neldu
+review-submit-msg = A jaaraama e nanngitagol!<lineBreak></lineBreak>Jooni ƴeewto kisa naatnaa lefon maa les ɗoo.
+review-recording = Ƴeewto
+review-rerecord = Nanngito kadi
+review-cancel = Haaytu neldugol
+review-keep-recordings = Mooftu nanngitte ɗee
+review-delete-recordings = Momtu nanngitte am
 
 ## Datasets Page
 
+datasets-headline = Min ngoni ko e mahde leemre keɓe sawto, limtiɗemɗiire, udditiinde e heɓotoonde e peñcu nde mo woni kala ena waawi huutoraade ngam eeltude jaaɓnirɗe ɓeydaade haala.
+datasets-positioning =
+    Amin ngoongɗini leeme keɓe sawto mawɗe keɓotooɗe e peñcu maa ƴellit kesamhesamaagu e pompondiral njulaaŋkaagal kisngal e jaŋde-masiŋaaji kam e karalle haala.
+    
+    Leemre keɓe limtiɗemɗiire Common Voice heɓii wonde jooni tan leemre keɓe heɓotoonde e peñcu ɓurnde mawnude e nanndo mum'en, kono wonaa kañum taw woodi.
+    
+    Ƴeew ngoo hello ngam ngarngal tugnorgal leeme keɓe sawto udditiiɗe, kam e nokkuure ɗo njaltinten kesɗitine e oo tuma mo Common Voice ɓeydotoo yaajde.
+language = Ɗemngal
+# File size in gigabytes
+size = Ɓetol
+validated-hr-total = Wk Jaalɗinaaɗi e Kuuɓal
+overall-hr-total = Waktuuji fof e kuuɓal
+cv-license = Jamirol
+audio-format = Mbayka Ojoo
+number-of-voices = Limoore Sawtooji
+splits = Keltine
+email-to-download = Naatnu iimeel ngam aawtaade
+why-email = <b>Hol sabaabu iimeel?</b> Amin cokli jokkondirde e mah e ko fayi arde baɗte bayle e leemre keɓe ndee, iimeel hokkata min feere jokkondirde e mah.
+confirm-size = A hebiima fuɗɗaade gaawtol ɓetowol <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>A jaɓii</b> waasde etaade anndude holi haalooɓe e leemre keɓe Common Voice ndee
+download-language = Aawto { $language }
+validated-hours = Waktuuji Jaalɗinaaɗi
+recorded-hours = Waktuuji nanngitaaɗi
+whats-inside = Ko woni nder leemre keɓe Common Voice ndee?
+dataset-description-hours =
+    Temre kala e leemre keɓe ndee jogii ko MP3 mum keeriiɗo jahdoowo e fiile binndol. Keewɗi e <b>{ $total }</b> waktuji nanngito gonɗe e leemre keɓe ndee ena njogii metaakeɓe leƴrenndiije wano duuɓi, njogoram e ngaddiin baawɗe wallude eeltude ceeɓndam masiŋaaji keftingol haala
+    
+    Leemre keɓe ndee e oo sahaa ko waktuuji <b>{ $valid }</b> jaaɗinaaɗi e ɗemɗe <b>{ $languages }</b>, kono amin ɓeyda sawtooji e ɗemɗe goɗɗe e sahaa fof. Yillo <languagesLink>hello Ɗemɗe</languagesLink> amen ngam ɗaɓɓitde ɗemngal walla fuɗɗo wallitde.
+want-dataset-update = Aɗa yiɗi tintineede so yamre hesere Leemre keɓe Common Voice bayyinaama? Lulno e ɓataake habrirde amen.
+subscribe = Lulno
+get-started-speech = Fuɗɗoro ɗoo e Keftinirgol Haalaa
+other-datasets = Leeme Keɓe Sawto Goɗɗe
+feedback-q = Aɗa jogii duttinal?
 
 ## Download Modal
 
