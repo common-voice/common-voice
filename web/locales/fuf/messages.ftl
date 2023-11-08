@@ -696,6 +696,7 @@ contact-required = *ena waɗɗii
 
 ## Request Language Modal
 
+request-language-title = Ɗaɓɓitannde Ɗemngal
 request-language-form-language =
     .label = Ɗemngal
 request-language-success-title = Naamnal ɗemngal naatnaama no haanirta, a jaaraama.
