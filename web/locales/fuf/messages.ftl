@@ -704,9 +704,58 @@ other-language = Ɗemngal goɗngal
 ## Languages Overview
 
 language-section-in-progress = Ena e Laawol
+language-section-in-progress-new-description = Ɗee-ɗoo ɗemɗe ngoni oo sahaa ko e topayru. Pale taaɓagol ɗee kollirta ko hol to ɗemngal kala yahrata e fannu <localizationGlossaryLink>nokkuɗinal lowre</localizationGlossaryLink> kam e <sentenceCollectionGlossaryLink>roɓindagol konnguɗi</sentenceCollectionGlossaryLink>.
+language-section-launched = Fuɗɗaama
+language-section-launched-description = Ɗee ɗemɗe kurminaaɗe ko ɗemɗe <localizationGlossaryLink>nokkuɗinɗe</localizationGlossaryLink> lowre ndee haa timmi, kadi ena njogii <sentenceCollectionGlossaryLink>konnguɗi doɓindaaɗi</sentenceCollectionGlossaryLink> ngam aaɓnoo jokkeede e ballitte <speakLink>Haal</speakLink> e <listenLink>Heɗo</listenLink>.
+languages-show-more = Yiy goɗɗe
+languages-show-less = Yiy seeɗa
+language-meter-in-progress = Taaɓagol
+language-total-progress = kuuɓal
+language-search-input =
+    .placeholder = Yiylo
+language-speakers = Haalooɓe
+localized = Nokkuɗinaama
+sentences = Koŋnguɗi
 
 ## Contribution
 
+action-click = Dobo
+action-tap = Tappu
+contribute = Addu ballal Maa
+listen = Heɗo
+skip = Diw
+shortcuts = Codorɗe
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Lefon
+       *[other] { "" }
+    }
+goal-help-recording = A wallii Common Voice yettaade <goalPercentage></goalPercentage> faandaare nanngitagol amen ñalɗiire { $goalValue } !
+goal-help-validation = A wallii Common Voice yettaade <goalPercentage></goalPercentage> faandaare jaalɗingol amen ñalɗiire { $goalValue } !
+contribute-more =
+    { $count ->
+        [one] Aɗa hebii waɗde { $count } goɗɗi?
+       *[other] { "" }
+    }
+record-cta = Fuɗɗo nanngitogol
+record-platform-not-supported = Amin njahnoo, dinnderde maa tammbitaaka oo sahaa.
+record-platform-not-supported-desktop = E kaɓirɗe ordinateer aɗa waawi wallit-de ngaawtoɗaa…
+record-platform-not-supported-ios-non-safari = E iOS tiiɗno jokku e Safari ngam waawnude nanngitogol…
+record-must-allow-microphone = Maa njamiraa keɓagol mikkoroo.
+record-no-mic-found = Alaa mikoroo yiytaa.
+record-error-too-short = Nanngitogol ngol ina raɓɓiɗi no feewi.
+record-error-too-long = Nanngitogol ngol ina juuti no feewi.
+record-error-too-quiet = Nanngitogol ngol deeƴii no feewi.
+record-cancel = Haaytu ɗimmito nanngitagol.
+record-instruction = { $actionType }<recordIcon></recordIcon> kisa tara konngol ngol daande dow
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> so gasii
+record-three-more-instruction = Ina heddii tati!
+record-again-instruction = Eyyoo!<recordIcon></recordIcon> Nanngito lefel maa goɗngel
+record-again-instruction2 = Jokku tiiɗnaare, nanngito kadi <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> cakkitiiɗo oo!
+review-tooltip = Ƴeewto & nanngito kadi lefon laawol gootol
+share-clip = Lollin lefel maa
+share-common-voice = Lollin Common Voice
 
 ## Contribution Nav Items
 
