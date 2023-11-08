@@ -567,9 +567,20 @@ about-playbook-how-validate-content-2 = <strong>Hoto riiwtu hito ɗo kaaloowo oo
 
 ## Glossary
 
+localization = Nokkuɗinal
+localization-explanation = Ɗum woni laawol amen ngam firde e jaaɓtinde loowdi amen e caltirɗe keewɗe (ɗemɗe).
+sentence-collection-explanation = Roɓindaade konnguɗi e jeyi peñcu, walla winndude jeyi peñcu goɗɗi kesi.
+hours-recorded-explanation = Ɗum ɗoo ko limoore waktuuji sawtooji doɓindaaɗi tawo.
+hours-validated-explanation = Limoore waktuuji nanngitagol sawto jaalɗinangol huutorɓe 2 e nder 3 tawa ko daande “Eey”. Ɗii maantotoo taaɓal huccande happo waktuuji 10K eɓɓoore ndee e kuuɓal.
+sst = Haala-to-binndol (Speech to Text, STT)
+sst-explanation = Karalle haala-to-binndol (STT) ƴettat sawto waɗta ɗum binndol.
+de-identified = Ɗawtinaama
+de-identified-explanation = Ko niɓɓiɗingol humpito heftinirde kuutoro waasa jeyeede e lefon sawto ndokkakon so ɗe kaɓɓaama ngam aawtodeede e leemre keɓe ndee.
 
 ## Error pages
 
+error-title-404 = Min koriima yiytande ma hello ngo
+error-content-404 = Ma a taw jokkol <homepageLink>jaɓɓorgo</homepageLink> amen ena waawi wallude ma? Ngam weddaade naamnal, tiiɗno yantu e <matrixLink>jeewte renndo Matix</matrixLink> ɗee, ndewindo-ɗaa caɗe lowre to <githubLink>GitHub</githubLink> walla njillo-ɗaa <discourseLink>fom amen Discourse</discourseLink>.
 
 ## Data
 
