@@ -629,7 +629,6 @@ about-playbook-how-add-sentences = څنګه جملې اضافه کړم؟
 about-playbook-how-add-sentences-content-1 = <strong>د جملې راټولونکی</strong> د عامه ډومین جملو راټولولو او اعتبار کولو لپاره یوه وسیله ده. تاسو به <scAccountLink> ته اړتیا ولرئ چې یو حساب جوړ کړئ</scAccountLink>. بیا، خپله ژبه په خپل <strong>پروفایل</strong> کې اضافه کړئ. تاسو کولی شئ جملې <strong>اضافه کړئ</strong> یا <strong>بیا کتنه</strong> مخکې اضافه شوي جملې.
 about-playbook-how-add-sentences-content-2 = جملې باید بیاکتنه وشي او د دوه خلکو لخوا ومنل شي ترڅو په عام غږ کې شامل شي. تاسو د خپلې ژبې لپاره لارښودونه <languageGuidelinesLink>دلته</languageGuidelinesLink> جوړ کړئ. جملې باید په <licenseLink> عامه ډومین</licenseLink> کې وي او د 15 کلمو څخه لنډې وي. تاسو کولی شئ د متن له مالک څخه وغواړئ چې دا زموږ د معافیت پروسې په کارولو سره <waiverLink>CC0</waiverLink> جوړ کړي، او موږ ته په commonvoice@mozilla.com ولیږئ.
 about-playbook-how-add-sentences-content-3 = تاسو کولی شئ د ویکیپیډیا څخه د لنډو جملو د ګټې اخیستنې لپاره <scraperLink>Sentence Extractor</scraperLink> وکاروئ.
-about-playbook-how-add-sentences-content-4 = هغه جملې چې تایید شوي د څلورنۍ په ورځ صادریږي، او د راتلونکي خپريدو وروسته شتون لري.
 
 ## How to record quality
 
@@ -1617,3 +1616,14 @@ background-voices = د شاته غږونه
 volume = حجم
 reader-effects = د لوستونکي اغیزې
 example = بېلګه
+misreadings-example-1 = موږ د قهوې اخیستو لپاره بهر ځو.
+misreadings-example-3 = موږ د قهوې اخیستو لپاره بهر ځو.
+misreadings-example-4 = مچۍ په تېزۍ سره روانه شوه.
+misreadings-tip-1 = [باید "موږ یو" وي]
+misreadings-tip-2 = [په اصلي متن کې 'a' نه دی]
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
