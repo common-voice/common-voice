@@ -210,14 +210,17 @@ ve = Tshivenda
 vec = Venetian
 vi = Vietnamese
 vot = Votic
+wo = Wolof
 xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Cantonese
+zgh = Tamazight
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
 zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -229,6 +232,7 @@ speak-now = Haal jooni
 datasets = Leeme Keɓe
 languages = Ɗemɗe
 about = Baɗte
+partner = Partner
 profile = Heftinirde
 help = Ballal
 contact = Jokkondiral
@@ -242,6 +246,7 @@ share-text = Wallu jannginde masiŋaaji no yimɓe woodɓe kaalirta, rokkir sawto
 link-copied = Jokkol nattaama
 back-top = Rutto Dow
 logout = Seŋto
+donate = eteeegooto
 
 ## Home Page
 
@@ -429,6 +434,7 @@ why-demographic-explanation-2 = Keɓe kuutoro ɗe innitaaka wona duuɓi, njogora
 accept-privacy = Mi jaɓii toppitoɗaa ngoo humpito hono no no paccirɗaa e <privacyLink>Dawrugol suturo</privacyLink>Mozilla
 accept-privacy-title = Dawrugol Suturo
 login-identity = Heftinirde seŋorde
+login = uruduujaw
 login-signup = Seŋo/ Winndito
 edit = Taƴto
 email-subscriptions = Lulnagol iimeel
@@ -455,6 +461,7 @@ gravatar_not_found = Alaa gravatar yiytaanaa iimeel maa
 file_too_large = Fiilde suɓaande ndee ina mawni no feewi
 avatar-uploaded = Jimmirde yollaama
 max-file-size = { $kb }kb so heewii
+remove-avatar = ndernde
 
 ## Profile - Email
 
@@ -1048,6 +1055,10 @@ demo-dashboard-card-body = Kala lefel sawto dokkangel, e kala lefel ojoo jaalɗi
 
 ## REVIEW
 
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 
 ## SETTINGS
 
