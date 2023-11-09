@@ -1138,25 +1138,25 @@ download-request-modal-title = Emboguejy Mbojuajuha
 download-request-modal-description = Ko’ápe oĩ juajuha emboguejy hag̃ua ZIP marandurenda.
 download-request-link-text = Zip #{ $offset } { $total } Zip mba’e
 download-request-metadata-link = Ñe’ẽjuaju moñe’ẽrã
-download-request-link-single = Avei ikatu embokuatia ha emboja umi URL mboguejyha ñangarekoha eguerohoryvévape. Hu’ãta 12 aravo rire, hákatu oukuaajey ko kuatiaroguépe ipyahujey hag̃ua eha’ãrõ’ỹhágui.
+download-request-link-single = Avei ikatu embokuatia ha emboja umi URL mboguejyha ñangarekoha eguerohoryvévape. Hu’ãta 12 aravo rire, hákatu oukuaajey ko kuatiaroguépe ipyahujey hag̃ua eha’ãrõ’ỹháguiete.
 
 ## Landing
 
-welcome-staff = ¡Tereg̃uahẽporãite { $company } atýpe!
-help-contribute = Ndéniko reipytyvõkuaa rojapo hag̃ua ko tembiapo porãite, ha’éva Common Voice ñe’ẽryapu ryru oiporukuaáva opavave, ejapomína nde rogueteerã.
-login-company = Eike / Eñemboheraguapy ñanduti veve { $company } pegua reheve
-profile-not-required = Natekotevẽi rejapo nde rogueteerã reporopytyvõ hag̃ua katu iporãvéta rejapóramo, ko guýpe romyesakãmive mba’érepa.
-read-more-about = Eikuaave kóva rehe ore Mba’e rehegua roguépe
+welcome-staff = ¡Tereg̃uahẽporã { $company } atýpe!
+help-contribute = Nde reipytyvõkuaa rojapo hag̃ua ko tembiapo porã, ha’éva Common Voice ñe’ẽryapu ryru oiporukuaáva opavave, ejapomína nde rogueteerã.
+login-company = Eike / Eñemboheraguapy ñanduti veve { $company } reheve
+profile-not-required = Anínte ejapo nde rogueteerã reporopytyvõ hag̃ua katu iporãvéta rejapórõ, ko guýpe romyesakãmive mba’érepa.
+read-more-about = Emoñe’ẽve ore kuatiarogue rehegua
 
 ## DemoLayout
 
 demo-get-started = Ñañepyrũkatu
 demo-welcome = Eg̃uahẽporã Common Voice-pe
-demo-welcome-subheader = ¿Eikuaasevépa térã eipytyvõse ko apopyrãme?
+demo-welcome-subheader = Eikuaasevépa térã eipytyvõse ko apopyrãme
 
 ## Demo Datasets
 
-demo-language-select-card-header = Common Voice niko ñe’ẽryapu ñongatupyre tuichavéva oĩva yvy ape ári ha oiporukuaáva opavave. Orekóva avei heta ñe’ẽ.
+demo-language-select-card-header = Common Voice ha’e ñe’ẽryapu ñongatupyre tuichavéva arapýpe orekóva heta ñe’ẽ ha ojeporukuaáva.
 demo-language-select-card-body = Oipytyvõ rupi hetaite tapicha, hetave 259-gui oiporúva hetave 50 gui ñe’ẽ ikatu ojeporu kóva oñembokatupyry hag̃ua mohendaha oikũmby hag̃ua yvypóra ñe’ẽ.
 card-button-next = Upeigua
 card-button-back = Tapykue
