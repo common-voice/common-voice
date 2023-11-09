@@ -1618,6 +1618,7 @@ offensive-content-explanation = Les frases es revisen mitjançant un procés de 
 misreadings-explanation-1 = És important llegir correctament totes les paraules de la pàgina. En escoltar, comproveu molt bé que el que s'ha enregistrat és exactament el que s'ha escrit; rebutgeu el tall si s'hi han afegit, contret o omès paraules.
 misreadings-explanation-2 = Alguns errors molt freqüents són:
 misreadings-explanation-3 = Ometre o canviar preposicions.
+misreadings-explanation-4 = Alterar el final de les formes verbals
 misreadings-explanation-5 = Fer contraccions o elisions que no es troben en el text, o viceversa. Per exemple, fer «el oncle» en comptes de «l'oncle», o fer «'nant» en comptes d'«anant».
 misreadings-explanation-6 = Ometre el final de l'última paraula, en tallar l'enregistrament massa ràpid.
 misreadings-explanation-7 = Fer múltiples intents per a llegir una paraula.
