@@ -244,6 +244,7 @@ share-text = Ensenyeu a les màquines com parlem la gent de debò. Col·laboreu 
 link-copied = S'ha copiat l'enllaç
 back-top = Torna a dalt
 logout = Finalitza la sessió
+donate = Feu un donatiu
 
 ## Home Page
 
@@ -613,7 +614,6 @@ about-playbook-how-add-sentences = Com hi afegeixo frases?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> és una eina per a recopilar i validar frases de domini públic. Haureu de <scAccountLink>crear un compte</scAccountLink>. A continuació, afegiu la vostra llengua al <strong>perfil</strong>. Hi podeu <strong>afegir</strong> frases o <strong>revisar</strong> les frases afegides anteriorment.
 about-playbook-how-add-sentences-content-2 = Les frases han de ser revisades i acceptades per dues persones per a ser incloses a Common Voice. Creeu directrius per a la vostra llengua <languageGuidelinesLink>aquí</languageGuidelinesLink>. Les frases han de ser de <licenseLink>domini públic</licenseLink> i han de tenir menys de 15 paraules. Podeu demanar al propietari d'un text que el faci <waiverLink>CC0 mitjançant el nostre procés d'exempció</waiverLink> i ens l'enviï a commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Podeu utilitzar l'<scraperLink>Extractor de frases</scraperLink> per a aprofitar frases curtes de la Viquipèdia.
-about-playbook-how-add-sentences-content-4 = Les frases que s'han validat s'exporten el dimecres i estan disponibles després del següent llançament.
 
 ## How to record quality
 
@@ -926,6 +926,9 @@ listen-empty-state = No hi ha cap més tall per validar en aquesta llengua...
 listen-loading-error =
     No hem pogut cap tall de veu perquè el reviseu.
     Torneu a intentar-ho més tard.
+listen-abort-title = Voleu deixar de validar talls?
+listen-abort-cancel = Continua validant
+listen-abort-confirm = Acaba de validar
 speak-empty-state = No hi ha cap més frase per enregistrar en aquesta llengua...
 speak-empty-state-cta = Aporteu frases
 speak-loading-error =
@@ -1675,7 +1678,7 @@ reviewing-sentences-explanation-2 = Si la frase no compleix els criteris anterio
 reviewing-sentences-explanation-3 = Si no esteu segur de la frase, també podeu saltar-la i passar a la següent.
 reviewing-sentences-explanation-4 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
 # WRITE PAGE
-write-instruction-second-part = una frase de domini públic
+write-instruction = Afegeix <icon></icon> una frase de domini públic
 write-page-subtitle = Les frases aportades aquí s'afegiran a un conjunt de dades disponible públicament amb llicència cc-0.
 sentence =
     .label = Frase
@@ -1683,7 +1686,8 @@ sentence-input-value = Escriviu aquí la vostra frase de domini públic
 citation-input-value = Font de la frase
 citation =
     .label = Citació
-what-can-i-add = Quins tipus de frases puc afegir?
+sc-write-submit-confirm = Confirmo que aquesta frase és de <wikipediaLink>domini públic</wikipediaLink> i tinc permís per a pujar-la.
+sc-review-write-title = Quines frases puc afegir-hi?
 new-sentence-rule-1 = <noCopyright>Sense drets d'autor</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Menys de 15 paraules
 new-sentence-rule-3 = La gramàtica és correcta
@@ -1692,17 +1696,29 @@ new-sentence-rule-5 = Sense xifres ni caràcters especials
 new-sentence-rule-6 = Sense lletres estrangeres
 new-sentence-rule-7 = Amb la citació corresponent
 new-sentence-rule-8 = Idealment, natural i conversacional (la frase ha de ser fàcil de llegir)
+how-to-cite = Com cal citar?
+guidelines = Directrius
 contact-us = Contacteu-nos
+add-sentence-success = 1 frase recollida
 add-sentence-error = S'ha produït un error en afegir la frase
 required-field = Empleneu aquest camp.
-# REVIEW PAGE
-sc-review-instruction-first-part = Comproveu:
-sc-review-instruction-second-part = és una frase lingüísticament correcta?
+single-sentence-submission = Enviament d'una única frase
+bulk-sentence-submission = Enviament massiu de frases
+single-sentence = Frase única
+bulk-sentences = Frases massives
+
+## REVIEW PAGE
+
+sc-review-rules-title = La frase compleix les directrius?
 sc-review-empty-state = Actualment no hi cap frase per revisar en aquesta llengua.
 report-sc-different-language = Una altra llengua
 report-sc-different-language-detail = Està escrita en una llengua diferent de la que reviso.
+sentences-fetch-error = S'ha produït un error en obtenir les frases
 review-error = S'ha produït un error en revisar aquesta frase
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estem fent alguns canvis importants
 sc-redirect-page-subtitle-1 = El Sentence Collector es trasllada a la plataforma bàsica de Common Voice. Ara podeu <writeURL>escriure</writeURL> una frase o <reviewURL>revisar</reviewURL> enviaments d'una sola frase a Common Voice.
 sc-redirect-page-subtitle-2 = Feu-nos preguntes a <matrixLink>Matrix</matrixLink>, <discourseLink>Discurs</discourseLink> o per <emailLink>correu electrònic</emailLink>.
+
+## BULK SUBMISSION 
+
