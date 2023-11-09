@@ -1715,6 +1715,8 @@ bulk-sentences = Frases massives
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Comproveu <icon></icon> Aquesta frase és lingüísticament correcta?
 sc-review-rules-title = La frase compleix les directrius?
 sc-review-empty-state = Actualment no hi cap frase per revisar en aquesta llengua.
 report-sc-different-language = Una altra llengua
