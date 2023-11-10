@@ -16,7 +16,8 @@ export function track(
     | 'Nav'
     | 'Landing'
     | 'Challenge'
-    | 'Error',
+    | 'Error'
+    | 'SingleReview',
   action: string,
   locale?: string
 ) {
@@ -144,6 +145,13 @@ export function trackChallenge(
     | 'modal-welcome'
 ) {
   track('Challenge', action);
+}
+
+export function trackSingleReview(
+  action: 'vote-yes' | 'vote-no' | 'skip' | 'report-button-click',
+  locale: string
+) {
+  track('SingleReview', action, locale);
 }
 
 // Error pages send the full previous route as a third argument, which is
