@@ -944,6 +944,9 @@ listen-empty-state = У нас закінчилися записи для пер
 listen-loading-error =
     Нам не вдалося отримати аудіокліпи для прослуховування.
     Будь ласка, спробуйте пізніше.
+listen-abort-title = Завершити перевірку кліпів?
+listen-abort-cancel = Продовжити перевірку
+listen-abort-confirm = Завершити перевірку
 speak-empty-state = У нас закінчилися речення для запису цією мовою ...
 speak-empty-state-cta = Запропонуйте свої речення
 speak-loading-error =

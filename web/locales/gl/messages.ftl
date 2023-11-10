@@ -930,6 +930,9 @@ listen-empty-state = Posiblemente esgotamos os fragmentos para aprobar: actualic
 listen-loading-error =
     Non foi posible atopar ningún fragmento de audio para que o escoite.
     Por favor inténteo de novo máis tarde.
+listen-abort-title = Quere rematar de validar os fragmentos?
+listen-abort-cancel = Seguir validando
+listen-abort-confirm = Finalizar a validación
 speak-empty-state = Esgotamos as frases para gravar neste idioma
 speak-empty-state-cta = Propor novas frases
 speak-loading-error =

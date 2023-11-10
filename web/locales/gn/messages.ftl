@@ -1,14 +1,14 @@
 ## General
 
-yes-receive-emails = Héẽ, emboumi chéve marandu. Aikuaase ko’ẽreíre Common Voice Aponde’a rehegua.
+yes-receive-emails = Héẽ, emboumi chéve marandu. Aikuaaseve ko’ẽreíre Common Voice Aponde’a rehegua.
 stayintouch = Ore Mozilla-ygua romongakuaa tapicha aty omba’apóva tembiporu ñe’ẽ jeporúre. Akóinte roikuaase oĩvo mba’e térã kuaapyrã pyahu ha rohendu hag̃ua mba’éichapa reiporu ko kuaapyrã.
-privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha kuaapyrã nde rehegua. Emoñe’ẽve kóva rehe <privacyLink>ko’ápe</privacyLink>.
+privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha kuaapyrã nde rehegua. Emoñe’ẽve rehe <privacyLink>ko’ápe</privacyLink>.
 return-to-cv = Ejevy Common Voice-pe
 email-input =
     .label = Ñanduti veve
 submit-form-action = Emondo
 loading = Henyhẽhína…
-email-opt-in-info = Toñembou chéve ñanduti veve rupi marandu hupytyrã rehegua térã mba’éichapa oguata tembiapo ha Common Voice.
+email-opt-in-info = Pembou chéve ñanduti veve rupi marandu hupytyrã rehegua térã mba’éichapa oguata tembiapo ha Common Voice.
 email-opt-in-info-title = Ejuaju Common Voice ñanduti veve rysýire
 email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñanduti vevépe marandu ojehupytyséva, avei mba’éichapa oguata tembiapo ha Common Voice rehegua.
 email-opt-in-privacy-v2 = Emongurusúrõ oñemog̃uahẽ hag̃ua ndéve marandu he’ise emoneĩha mba’éichapa Mozilla oiporu tapichakuéra kuaapyrã oñemyesãkáva <privacyLink>ko’ápe</privacyLink>.
@@ -256,17 +256,17 @@ home-title = Common Voice Mozilla rembiapo oipytyvõva mohendhápe oñe’ẽvo 
 default-tagline = Common Voice ha’e Mozilla rembiapokue ombo’éva mohendahápe yvypóra oñe’ẽháicha.
 home-cta = ¡Eñe’ẽ, eipytyvõmína ko’ápe!
 wall-of-text-start = Ñande ahy’o ayvu niko yvypóra mba’etee. Upéva rehe roipytyvõseterei oĩ hag̃uáicha ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaiterei ñe’ẽryapu ñongatupyre.
-wall-of-text-more-mobile = Haimete opa ñe’ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upéva rehe ndaopavavéi oiporukuaa. Roimo’ã ndaupeichaiva’erã. Upévare romoheñói Aponde’a Common Voice, roipotágui opavave oiporukuaa ñe’ẽ rembiporu.
+wall-of-text-more-mobile = Haimete opa ñe’ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Roimo’ã ndaupeichaiva’erãha. Upévare romoheñói Aponde’a Common Voice, roipotágui opavave oiporukuaa ñe’ẽ rembiporu.
 wall-of-text-more-desktop =
     Eme’ẽkuaa nde ayvu ha eipytyvõ jajapo hag̃ua ñe’ẽ ha ñe’ẽjoaju ryapu apesã opaitépe g̃uarã
-    ojeporukuaáva oñemoheñói hag̃ua tembiporu’i pyahu mba’e’oka ha ñandutípe. Emoñe’ẽ hatã ñe’ẽjoaju ikatu hag̃ua mohendaha oikuaa ne ñe’ẽ pu.
+    ojeporukuaáva oñemoheñói hag̃ua tembiporu’i pyahu mba’e’oka ha ñandutípe. Emoñe’ẽ hatã ñe’ẽjoaju ikatu hag̃uáicha mohendaha oikuaa ne ñe’ẽ pu.
     Ehendu ambuéva rembiapo ha eremi oĩporãpa. ¡Ndahasyiete!
 wall-of-text-first =
-    Ñe’ẽ yvypóra mba’e. Upévare rovy’a rojapóvo ko tembiapo, roikuave’ẽse tembiporu ñe’ẽ ñembohyapurã ikatu hag̃ua mohendaha ohai ha ojapokuaa oje’éva chupe.
+    Ñe’ẽ yvypóra mba’e. Upévare rovy’a rojapóvo ko tembiapo, roikuave’ẽ tembiporu ñe’ẽ ñembohyapurã ikatu hag̃ua mohendaha ohai ha ojapokuaa oje’éva chupe.
     Upevarã roikotevẽ hetaite ñe’ẽryapu ñongatupyre.
 wall-of-text-second =
     Heta ñe’ẽryapu ñongatupyre oĩva yvy ape ári oĩ Estádo mba’e’ỹ pópe ha upévare ndoiporukuaái opavave.
-    Roimo’ã naiporãiha ha romoñepyrũ ko tembiapoguasu Common Voice, roipotágui opavave oiporu ñe’ẽ ñembohyapu ha monguatia.
+    Roimo’ã naiporãiha ha romoñepyrũ ko tembiapoguasu hérava Common Voice, roipotágui opavave oiporu ñe’ẽ ñembohyapu ha monguatia.
 show-wall-of-text = Emoñe’ẽve
 help-us-title = ¡Orepytyvõ rohechajeývo ñe’ẽjoaju!
 help-us-explain = Ejopy tahendu, ehendu ha eremi oréve: ombohyapu porãpa ñe’ẽjoaju mboyveguáva
@@ -935,6 +935,9 @@ listen-3rd-time-instruction = 2 oĩma ko’ág̃a, ¡Péva ha’e, ejapomi ambue
 listen-last-time-instruction = <playIcon></playIcon> Ipahapeguáma!
 listen-empty-state = Ndaiporivéima ko’ág̃a ñe’ẽryapu ñongatupyre ko ñe’ẽme oñemoneĩ hag̃ua...
 listen-loading-error = Ndoroguerukuaái clip ñe’ẽpu rehegua ehendukuaa hag̃ua. Ikatúpiko eha’ãjey ag̃amieve.
+listen-abort-title = Emboajepámake umi clip
+listen-abort-cancel = Emboajeve ehóvo
+listen-abort-confirm = Emboajepámake
 speak-empty-state = Ndaiporivéima ko’ág̃a ñe’ẽjoaju ko ñe’ẽme oñembohyapu hag̃ua...
 speak-empty-state-cta = Embojoapyve ñe’ẽjoaju
 speak-loading-error = Ndoroguerukuaái ñe’ẽjuaju eñe’ẽkuaa hag̃ua. Ikatúpiko eha’ãjey ag̃amieve.
@@ -1135,26 +1138,26 @@ download-request-modal-title = Emboguejy Mbojuajuha
 download-request-modal-description = Ko’ápe oĩ juajuha emboguejy hag̃ua ZIP marandurenda.
 download-request-link-text = Zip #{ $offset } { $total } Zip mba’e
 download-request-metadata-link = Ñe’ẽjuaju moñe’ẽrã
-download-request-link-single = Avei ikatu embokuatia ha emboja umi URL mboguejyha ñangarekoha eguerohoryvévape. Hu’ãta 12 aravo rire, hákatu oukuaajey ko kuatiaroguépe ipyahujey hag̃ua eha’ãrõ’ỹhágui.
+download-request-link-single = Avei ikatu embokuatia ha emboja umi URL mboguejyha ñangarekoha eguerohoryvévape. Hu’ãta 12 aravo rire, hákatu oukuaajey ko kuatiaroguépe ipyahujey hag̃ua eha’ãrõ’ỹháguiete.
 
 ## Landing
 
-welcome-staff = ¡Tereg̃uahẽporãite { $company } atýpe!
-help-contribute = Ndéniko reipytyvõkuaa rojapo hag̃ua ko tembiapo porãite, ha’éva Common Voice ñe’ẽryapu ryru oiporukuaáva opavave, ejapomína nde rogueteerã.
-login-company = Eike / Eñemboheraguapy ñanduti veve { $company } pegua reheve
-profile-not-required = Natekotevẽi rejapo nde rogueteerã reporopytyvõ hag̃ua katu iporãvéta rejapóramo, ko guýpe romyesakãmive mba’érepa.
-read-more-about = Eikuaave kóva rehe ore Mba’e rehegua roguépe
+welcome-staff = ¡Tereg̃uahẽporã { $company } atýpe!
+help-contribute = Nde reipytyvõkuaa rojapo hag̃ua ko tembiapo porã, ha’éva Common Voice ñe’ẽryapu ryru oiporukuaáva opavave, ejapomína nde rogueteerã.
+login-company = Eike / Eñemboheraguapy ñanduti veve { $company } reheve
+profile-not-required = Anínte ejapo nde rogueteerã reporopytyvõ hag̃ua katu iporãvéta rejapórõ, ko guýpe romyesakãmive mba’érepa.
+read-more-about = Emoñe’ẽve ore kuatiarogue rehegua
 
 ## DemoLayout
 
 demo-get-started = Ñañepyrũkatu
 demo-welcome = Eg̃uahẽporã Common Voice-pe
-demo-welcome-subheader = ¿Eikuaasevépa térã eipytyvõse ko apopyrãme?
+demo-welcome-subheader = Eikuaasevépa térã eipytyvõse ko apopyrãme
 
 ## Demo Datasets
 
-demo-language-select-card-header = Common Voice niko ñe’ẽryapu ñongatupyre tuichavéva oĩva yvy ape ári ha oiporukuaáva opavave. Orekóva avei heta ñe’ẽ.
-demo-language-select-card-body = Oipytyvõ rupi hetaite tapicha, hetave 259-gui oiporúva hetave 50 gui ñe’ẽ ikatu ojeporu kóva oñembokatupyry hag̃ua mohendaha oikũmby hag̃ua yvypóra ñe’ẽ.
+demo-language-select-card-header = Common Voice ha’e ñe’ẽryapu ñongatupyre tuichavéva arapýpe orekóva heta ñe’ẽ ha ojeporukuaáva.
+demo-language-select-card-body = Oipytyvõ rupi hetaite tapicha, hetave 259.000 rupi oiporúva hetave 50 ñe’ẽme ikatu ojeporu kóva oñembokatupyry hag̃ua mohendaha oikũmby hag̃ua yvypóra ñe’ẽ.
 card-button-next = Upeigua
 card-button-back = Tapykue
 demo-language-select-label = Eyvykói ñe’ẽnguéra
@@ -1164,22 +1167,22 @@ demo-account = Mba’ete
 
 ## Demo Account
 
-demo-account-card-header = Natekotevẽi ne mba’ete reporopytyvõ hag̃ua, iporãro jepe.
-demo-account-card-body = Ore romoĩ kuaapyrã opavave pópe. Eiporumi joajuha oĩva iguýpe eiporu ñepyrũ hag̃ua Common Voice peteĩ mba’ete rupive.
+demo-account-card-header = Natekotevẽi ne mba’ete reporopytyvõ hag̃ua, iporãramo jepe eguerekóramo.
+demo-account-card-body = Ore romoĩ kuaapyrã opavavete pópe. Eiporumi joajuha oĩva iguýpe emomba’apo ñepyrũ hag̃ua Common Voice peteĩ mba’ete rupive.
 demo-account-enter-email =
-    .label = Ehai ñanduti veve emondo hag̃ua jehaipyre juajuha
+    .label = Ehai ñanduti veve ha emondo jehaipyre juajuha
 demo-account-sign-up = Emondo mboheraguapy juajuha
 
 ## Demo Contribute
 
 demo-contribute-card-header = ¿Ikatúma embojuaju ne ñe’ẽ térã ehendu?
-demo-contribute-card-body-v2 = Ko’ág̃a reikuaamíma Common Voice rehegua. Mba’érepiko ndereikéi avei orepytyvõmi. Epokomi micrófono ra’ãnga’íre ha eñepyrũmi emoñe’ẽ hatã ñe’ẽjoaju ojehechaukáva ndéve. <br/><br/> Remoneĩsérõ ambuéva rembiapo eikutuva’erã votõ hendu, péicha erekuaa oréve ojojápa hyapu mba’ehaipyrépe.
-demo-listen-subtitle = ¿Mba’éicha eipytyvõta?
+demo-contribute-card-body-v2 = Ko’ág̃a reikuaamiéma Common Voice rehegua. Mba’érepiko ndereikéi avei orepytyvõmívo. Epokomi ñe’ẽatãha ra’ãnga’íre ha eñepyrũmi emoñe’ẽ hatã ñe’ẽjoaju ojehechaukáva ndéve. <br/><br/> Remoneĩséramo ambuéva rembiapo eikutuva’erã votõ hendu, péicha erekuaa oréve ojojápa hyapu mba’ehaipyre rehe.
+demo-listen-subtitle = Mba’éichapa eipytyvõta
 
 ## Demo Dashboard
 
-demo-dashboard-card-header = Ndekuéntaramo rerekoha moõpa rehechakuaa mboýmapa rejapóma,  ha avei mboýpa ojehupytýma.
-demo-dashboard-card-body = Mayma ñe’ẽjoaju ñembohyapupyre ha oñemoneĩmava rehechakuaa nde kuéntape. Reipytyvõkuaa peteĩ térã hetave ñe’ẽtépe. <br/><br/> Eiporu nde kuénta rehecha hag̃ua mboýpa rejapóma, mboýpa ojapóma ambue tapicha oporopytyvõva avei ha mboýpa ojehupytýma.
+demo-dashboard-card-header = Ne mba’etérõ rerekoha moõpa rehechakuaa mboýma rejapo, ha mboýpa ojehupytýma.
+demo-dashboard-card-body = Mayma ñe’ẽjoaju ñembohyapupyre ha oñemoneĩmava rehechakuaa nde mba’etépe. Reipytyvõkuaa peteĩ térã hetave ñe’ẽtépe. <br/><br/> Eiporu nde mba’ete rehecha hag̃ua mboýpa rejapóma, mboýpa ojapóma ambue tapicha oporopytyvõva avei ha mboýpa ojehupytýma.
 
 ## Validation criteria
 
