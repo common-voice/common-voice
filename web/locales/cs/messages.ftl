@@ -1784,6 +1784,7 @@ sc-redirect-page-subtitle-2 = Ptejte se na <matrixLink>Matrixu</matrixLink>, <di
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction-drop = Sem přetáhněte soubor na nahrání
 try-upload-again = Zkuste to znovu přesunutím souboru sem
 try-upload-again-md = Zkuste nahrát znovu
 select-file = Vybrat soubor
