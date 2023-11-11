@@ -1179,6 +1179,7 @@ contribution-criteria-page-description = Аудиоязмаларны тыңла
 contribution-for-example = мәсәлән
 contribution-misreadings-title = Дөрес укымаулар
 contribution-misreadings-description = Сез тыңлаган аудиоязманың текстка туры килүен бик игътибар белән тикшерегез. Кечкенә генә хаталар булса да, аудиоязманы кире кагасыз. <br />Бик еш очраучы хата мисаллары:
+contribution-misreadings-description-extended-list-1 = Аудиоязма башында сүз яки сүзнең бер өлешен төшереп калдыру. Мәсәлән, "сәлам" урынына "әләм" дип яздыру.
 contribution-misreadings-example-8-explanation = [Туры килмәгән эчтәлек]
 contribution-varying-pronunciations-title = Төрле әйтелешләр
 contribution-background-noise-title = Арткы планда шау-шу
