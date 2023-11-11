@@ -937,6 +937,9 @@ listen-empty-state = Nahrávky ve vašem jazyce, které byste ještě mohli ově
 listen-loading-error =
     Další zvukové záznamy k poslechu již nemáme.
     Prosím, zkuste to znovu později.
+listen-abort-title = Dokončit ověřování klipů?
+listen-abort-cancel = Pokračovat v ověřování
+listen-abort-confirm = Dokončit ověřování
 speak-empty-state = Věty, které byste mohli ve vašem jazyce nahrát, nám už bohužel došly...
 speak-empty-state-cta = Přidejte další věty
 speak-loading-error =
@@ -1735,8 +1738,6 @@ reviewing-sentences-explanation-1 = Splňuje-li věta výše uvedená kritéria,
 reviewing-sentences-explanation-2 = Pokud věta nesplňuje výše uvedená kritéria, klepněte na tlačítko "Ne".
 reviewing-sentences-explanation-3 = Pokud si větou nejste jisti, je možné ji přeskočit a přejít na další.
 reviewing-sentences-explanation-4 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
-# WRITE PAGE
-write-instruction-second-part = public domain věta
 write-page-subtitle = Věty, kterými zde přispějete, budou přidány do veřejně dostupného datasetu pod licencí cc-0.
 sentence =
     .label = Věta
@@ -1766,9 +1767,9 @@ single-sentence-submission = Odeslání jedné věty
 bulk-sentence-submission = Odeslání více vět
 single-sentence = Jedna věta
 bulk-sentences = Více vět
-# REVIEW PAGE
-sc-review-instruction-first-part = Ověřit
-sc-review-instruction-second-part = je tato věta jazykově správná?
+
+## REVIEW PAGE
+
 sc-review-rules-title = Odpovídá věta doporučením?
 sc-review-empty-state = Tento jazyk nyní nemá k ověření žádné věty.
 report-sc-different-language = Další jazyk
@@ -1780,14 +1781,11 @@ review-error-rate-limit-exceeded = Jedete příliš rychle. Věnujte prosím chv
 sc-redirect-page-title = Probíhají rozsáhlé úpravy
 sc-redirect-page-subtitle-1 = Aplikace Sentence Collector přechází na základní platformu Common Voice. Nyní můžete přímo na Common Voice jednotlivé věty <writeURL>psát</writeURL> nebo <reviewURL>ověřit</reviewURL>.
 sc-redirect-page-subtitle-2 = Ptejte se na <matrixLink>Matrixu</matrixLink>, <discourseLink>Discourse</discourseLink> nebo <emailLink>e-mailem</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Nahrát
-sc-bulk-upload-instruction-second-part = public domain věty
-drag-your-file-here = Pro nahrání přetáhněte svůj soubor sem
-drop-file-here = Sem přetáhněte soubor na nahrání
+
+## BULK SUBMISSION 
+
 try-upload-again = Zkuste to znovu přesunutím souboru sem
 try-upload-again-md = Zkuste nahrát znovu
-or-conjuction = nebo
 select-file = Vybrat soubor
 select-file-mobile = Vyberte soubor pro nahrání
 accepted-files = Přijímané typy souborů: pouze .tsv
