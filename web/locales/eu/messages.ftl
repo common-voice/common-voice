@@ -601,6 +601,7 @@ about-playbook-how-record-quality = Nola graba dezaket kalitate handiko ahots gr
 about-playbook-how-record-content-1 = Hitz egin zure ahots normalarekin! Hitz egiteko duzun modua ongi etorria da hemen - zure azentua den bezalakoa nahi dugu eta normalean erabiltzen duzun bolumena, estilo eta intonazioa.
 about-playbook-how-record-content-2 = Saihestu atzeko zarata gehiegi izatea - zu entzutea erraza izan beharko litzateke.
 about-playbook-how-record-content-3 = Irakurri esaldia kontu handiarekin - ez saltatu, aldatu edo gehitu hitzik.
+about-playbook-how-record-content-4 = Ziurtatu zaitez plataforma grabatzen dagoela zu hizketan hasi aurretik eta zuk amaitu ondoren gelditzen dela.
 about-playbook-how-record-content-5 = <accuracyLink>Ikusi gehiago zehaztasun irizpideei buruz.</accuracyLink>
 
 ## How to grow language
@@ -864,6 +865,9 @@ listen-3rd-time-instruction = 2 gutxiago, segi horrela!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Azkena!
 listen-empty-state = Balioztatzeko grabaziorik gabe geratu gara hizkuntza honetan...
 listen-loading-error = Ezin izan dugu zuk entzuteko esaldirik lortu. Mesedez saia zaitez berriz beranduago.
+listen-abort-title = Bukatu grabazioak balioztatzen?
+listen-abort-cancel = Jarraitu balioztatzen
+listen-abort-confirm = Bukatu balioztatzen
 speak-empty-state = Grabatzeko esaldirik gabe geratu gara hizkuntza honetan...
 speak-empty-state-cta = Lagundu esaldiekin
 speak-loading-error = Ezin izan dugu zuk irakurtzeko esaldirik lortu. Mesedez saia zaitez berriz beranduago.
