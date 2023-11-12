@@ -1797,7 +1797,7 @@ bulk-sentences = ⵜⵉⵡⵉⵏⴰⵙ ⴳⴳⵓⵜⵏⵉⵏ
 ## REVIEW PAGE
 
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = ⵛⴰⴱⴱⴰ <icon></icon> ⵉⵙ ⵜⵓⵖⴷ ⵜⵡⵉⵏⵙⵜ ⴰⴷ ⴳ ⵜⵙⵏⵉⵍⵙⵜ?
+sc-review-instruction = ⵛⴰⴱⴱⴰ <icon></icon> ⵉⵙ ⵜⵓⵖⴷ ⵜⵡⵉⵏⵙⵜ ⴰ ⵙ ⵓⵎⵙⵏⵉⵍⵙ?
 sc-review-rules-title = ⵉⵙ ⴷ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴰⴽⴷ ⵜⴰⵔⴰⵜⵉⵏ?
 sc-review-empty-state = ⵓⵔ ⵜⵍⵍⵉ ⵙ ⵓⵎⵉⵔⴰⵏ ⵓⵍⴰ ⴽⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ ⵉ ⵓⵙⵙⵉⵔⵎ ⵙ ⵜⵓⵜⵍⴰⵢⵜ ⴰ.
 report-sc-different-language = ⵜⵓⵜⵍⴰⵢⵜ ⵉⵎⵣⴰⵔⴰⵢⵏ
@@ -1812,3 +1812,17 @@ sc-redirect-page-subtitle-2 = ⵙⵇⵙⴰ ⴰⵏⵖ ⵉⵙⵇⵙⵉⵜⵏ ⴳ <
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = ⵙⴽⵜⵔ <icon></icon> ⵜⵉⵡⵉⵏⴰⵙ ⵏ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ
+sc-bulk-upload-instruction-drop = ⵙⵔⵙ ⴰⴼⴰⵢⵍⵓ ⴷⴰ ⵃⵎⴰ ⴰⴷ ⵜ ⵜⵙⴽⵜⵔⴷ
+try-upload-again-md = ⴰⵔⵎ ⴷⴰⵖ ⴰⵙⴽⵜⵔ
+select-file = ⵙⵜⵢ ⴰⴼⴰⵢⵍⵓ
+select-file-mobile = ⵙⵜⵢ ⴰⴼⴰⵢⵍⵓ ⵉ ⵓⵙⴽⵜⵔ
+accepted-files = ⴰⵏⴰⵡⵏ ⵏ ⵉⴼⵓⵢⵍⴰ ⵜⵜⵓⴷⴳⴳⴰⵏⵉⵏ: ⵖⴰⵙ .tsv
+maximum-file-size = ⵜⵉⴷⴷⵉ ⵜⴰⵎⵓⵣⵣⵓⵔⵜ ⵏ ⵓⴼⴰⵢⵍⵓ: 25 MB
+what-needs-to-be-in-file = ⵎⴰ ⵙ ⴷ ⵉⵇⵇⴰⵏ ⴰⴷ ⵢⵉⵍⵉ ⴳ ⵓⴼⴰⵢⵍⵓ ⵉⵏⵓ?
+upload-progress-text = ⴰⵙⴽⵜⵔ ⴳ ⵡⴰⵍⴰⵢ...
+sc-bulk-submit-confirm = ⵍⴰ ⵙⵙⴷⵉⴷⵖ ⵎⴰⵙ ⴷ ⵜⴰⵡⵉⵏⵙⵜ ⴰⴷ ⵜⴳⴰ <wikipediaLink>ⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ</wikipediaLink> ⴷ ⵖⵓⵔⵉ ⵜⵓⵔⴰⴳⵜ ⴰⴷ ⵜⵜ ⵙⴽⵜⵔⵖ.
+bulk-upload-success-toast = ⴽⵜⵔⵏⵜ ⵜⵡⵉⵏⴰⵙ ⴳⴳⵓⵜⵏⵉⵏ
+bulk-upload-failed-toast = ⵉⵙⴼⵓⴳⴳⵔ ⵓⵙⴽⵜⵔ, ⵎⴽ ⵜⵓⴼⵉⴷ, ⴰⵔⵎ ⴷⴰⵖ.
+bulk-submission-success-header = ⵜⴰⵏⵎⵎⵉⵔⵜ ⵅⴼ ⵡⴰⵔⵔⴰⴳ ⵙ ⵡⴰⵣⴰⵏⵏ ⵏⵏⵓⵏ ⴳⴳⵓⵜⵏⵉⵏ!
