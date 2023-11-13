@@ -20,5 +20,6 @@ checkAndCreateBucket () {
 checkAndCreateBucket common-voice-bulk-submissions
 checkAndCreateBucket common-voice-clips
 checkAndCreateBucket common-voice-datasets
+checkAndCreateBucket common-voice-bundler
 
 echo "Done!"
