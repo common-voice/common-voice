@@ -2,15 +2,15 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { taskEither as TE } from 'fp-ts'
 import { streamingQuery } from '../infrastructure/database'
-import {
-  getIncludeClipsFrom,
-  getIncludeClipsUntil,
-  getQueriesDir,
-  getReleaseBasePath,
-} from '../config/config'
+import { getQueriesDir, getReleaseBasePath } from '../config/config'
 import { Transform } from 'node:stream'
-import { REPORTED_SENTENCES_COLUMNS, ReportedSentencesRow } from '../types'
+import {
+  ProcessLocaleJob,
+  REPORTED_SENTENCES_COLUMNS,
+  ReportedSentencesRow,
+} from '../types'
 import { pipe } from 'fp-ts/lib/function'
+import * as RTE from 'fp-ts/readerTaskEither'
 
 const printLn = (text: string) => text + '\n'
 
@@ -38,33 +38,44 @@ const writeFileStreamToTsv = (locale: string) => {
   return writeStream
 }
 
-const fetchReportedSentencesForLocale = (
-  locale: string,
-): TE.TaskEither<Error, void> => {
-  console.log('Fetching clips for locale', locale)
+const fetchReportedSentencesForLocale =
+  (locale: string) =>
+  (includeClipsFrom: string) =>
+  (includeClipsUntil: string): TE.TaskEither<Error, void> => {
+    console.log('Fetching clips for locale', locale)
 
-  return TE.tryCatch(
-    () =>
-      new Promise<void>((resolve, reject) => {
-        const { conn, stream } = streamingQuery(
-          fs.readFileSync(
-            path.join(getQueriesDir(), 'getReportedSentencesLocale.sql'),
-            { encoding: 'utf-8' },
-          ),
-          [getIncludeClipsFrom(), getIncludeClipsUntil(), locale],
-        )
+    return TE.tryCatch(
+      () =>
+        new Promise<void>((resolve, reject) => {
+          const { conn, stream } = streamingQuery(
+            fs.readFileSync(
+              path.join(getQueriesDir(), 'getReportedSentencesLocale.sql'),
+              { encoding: 'utf-8' },
+            ),
+            [includeClipsFrom, includeClipsUntil, locale],
+          )
 
-        stream
-          .pipe(transformSentences())
-          .pipe(writeFileStreamToTsv(locale))
-          .on('finish', () => {
-            conn.end()
-            resolve()
-          })
-          .on('error', (err: unknown) => reject(err))
-      }),
-    (reason: unknown) => Error(String(reason)),
+          stream
+            .pipe(transformSentences())
+            .pipe(writeFileStreamToTsv(locale))
+            .on('finish', () => {
+              conn.end()
+              resolve()
+            })
+            .on('error', (err: unknown) => reject(err))
+        }),
+      (reason: unknown) => Error(String(reason)),
+    )
+  }
+
+export const runReportedSentences = (): RTE.ReaderTaskEither<
+  ProcessLocaleJob,
+  Error,
+  void
+> =>
+  pipe(
+    RTE.ask<ProcessLocaleJob>(),
+    RTE.chainTaskEitherK(({ locale, from, until }) =>
+      fetchReportedSentencesForLocale(locale)(from)(until),
+    ),
   )
-}
-
-export const runReportedSentences = pipe(fetchReportedSentencesForLocale)

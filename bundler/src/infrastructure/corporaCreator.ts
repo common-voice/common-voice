@@ -4,6 +4,8 @@ import path from 'node:path'
 import { taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { log } from 'fp-ts/lib/Console'
+import * as RTE from 'fp-ts/readerTaskEither'
+import { ProcessLocaleJob } from '../types'
 
 export const CORPORA_CREATOR_FILES = [
   'validated.tsv',
@@ -14,7 +16,10 @@ export const CORPORA_CREATOR_FILES = [
   'other.tsv',
 ] as const
 
-export const isCorporaCreatorFile = (filename: string): filename is CorporaCreaterFile => CORPORA_CREATOR_FILES.includes(filename as CorporaCreaterFile)
+export const isCorporaCreatorFile = (
+  filename: string,
+): filename is CorporaCreaterFile =>
+  CORPORA_CREATOR_FILES.includes(filename as CorporaCreaterFile)
 
 export type CorporaCreaterFile = (typeof CORPORA_CREATOR_FILES)[number]
 
@@ -50,13 +55,27 @@ const runCorporaCreatorPromise = (locale: string) =>
 export const runCorporaCreator = (locale: string) => {
   return pipe(
     TE.Do,
-    TE.tap(() => TE.fromIO(log('Starting create-corpora for locale ' + locale))),
+    TE.tap(() =>
+      TE.fromIO(log('Starting create-corpora for locale ' + locale)),
+    ),
     TE.chain(() =>
       TE.tryCatch(
         () => runCorporaCreatorPromise(locale),
         reason => Error(String(reason)),
       ),
     ),
-    TE.tap(() => TE.fromIO(log('Finished create-corpora for locale ' + locale))),
+    TE.tap(() =>
+      TE.fromIO(log('Finished create-corpora for locale ' + locale)),
+    ),
   )
 }
+
+export const runCorporaCreatorE = (): RTE.ReaderTaskEither<
+  ProcessLocaleJob,
+  Error,
+  void
+> =>
+  pipe(
+    RTE.ask<ProcessLocaleJob>(),
+    RTE.chainTaskEitherK(({ locale }) => runCorporaCreator(locale)),
+  )

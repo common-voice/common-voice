@@ -1,3 +1,5 @@
+import { Settings } from "./infrastructure/queue"
+
 export type ClipRow = {
   id: string
   client_id: string
@@ -22,6 +24,6 @@ export const REPORTED_SENTENCES_COLUMNS = [
 
 export type ReportedSentencesRow = Record<typeof REPORTED_SENTENCES_COLUMNS[number], string>
 
-export type ProcessLocaleJob = {
+export type ProcessLocaleJob = Settings & {
   locale: string
 }

@@ -4,10 +4,7 @@ import tar from 'tar'
 import { io as IO, taskEither as TE } from 'fp-ts'
 import { constVoid, pipe } from 'fp-ts/lib/function'
 import path from 'node:path'
-import {
-  calculateChecksum,
-  prepareDir,
-} from '../infrastructure/filesystem'
+import { calculateChecksum, prepareDir } from '../infrastructure/filesystem'
 import {
   getDatasetBundlerBucketName,
   getReleaseBasePath,
@@ -18,6 +15,8 @@ import {
   getMetadataFromFile,
   streamUploadToBucket,
 } from '../infrastructure/storage'
+import * as RTE from 'fp-ts/readerTaskEither'
+import { ProcessLocaleJob } from '../types'
 
 const generateTarFilename = (locale: string) =>
   `${getReleaseName()}-${locale}.tar.gz`
@@ -78,3 +77,13 @@ export const runCompress = (locale: string): TE.TaskEither<Error, string> => {
     TE.map(({ tarballFilepath }) => tarballFilepath),
   )
 }
+
+export const runCompressE = (): RTE.ReaderTaskEither<
+  ProcessLocaleJob,
+  Error,
+  string
+> =>
+  pipe(
+    RTE.ask<ProcessLocaleJob>(),
+    RTE.chainTaskEitherK(({ locale }) => runCompress(locale)),
+  )

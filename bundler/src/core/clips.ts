@@ -3,19 +3,18 @@ import path from 'node:path'
 import { Transform } from 'node:stream'
 import { streamingQuery } from '../infrastructure/database'
 import { streamDownloadFileFromBucket } from '../infrastructure/storage'
-import { ClipRow } from '../types'
+import { ClipRow, ProcessLocaleJob } from '../types'
 import { taskEither as TE } from 'fp-ts'
 import { hashClientId } from './clients'
 import {
   getClipsBucketName,
-  getIncludeClipsFrom,
-  getIncludeClipsUntil,
   getQueriesDir,
   getReleaseBasePath,
   getReleaseClipsDirPath,
 } from '../config/config'
 import { pipe } from 'fp-ts/lib/function'
 import { prepareDir } from '../infrastructure/filesystem'
+import * as RTE from 'fp-ts/readerTaskEither'
 
 const CLIPS_BUCKET = getClipsBucketName()
 
@@ -37,6 +36,9 @@ export const TSV_COLUMNS = [
 export type CLIPS_TSV_ROW = {
   [K in (typeof TSV_COLUMNS)[number]]: string
 }
+
+const createClipFilename = (locale: string, clipId: string) =>
+  `common_voice_${locale}_${clipId}.mp3`
 
 const printLn = (text: string) => text + '\n'
 
@@ -112,6 +114,8 @@ const downloadClips = () =>
 
 const fetchAllClipsForLocale = (
   locale: string,
+  includeClipsFrom: string,
+  includeClipsUntil: string,
   isMinorityLanguage: boolean,
 ): TE.TaskEither<Error, void> => {
   console.log('Fetching clips for locale', locale)
@@ -123,7 +127,7 @@ const fetchAllClipsForLocale = (
           fs.readFileSync(path.join(getQueriesDir(), 'bundleLocale.sql'), {
             encoding: 'utf-8',
           }),
-          [getIncludeClipsFrom(), getIncludeClipsUntil(), locale],
+          [includeClipsFrom, includeClipsUntil, locale],
         )
         console.log('Start Stream Processing')
         stream
@@ -142,15 +146,32 @@ const fetchAllClipsForLocale = (
 
 export const runFetchAllClipsForLocale = (
   locale: string,
+  includeClipsFrom: string,
+  includeClipsUntil: string,
   isMinorityLanguage: boolean,
 ): TE.TaskEither<Error, void> => {
   return pipe(
     TE.Do,
     TE.bind('clipsDirPath', () => TE.fromIO(getReleaseClipsDirPath(locale))),
     TE.chainFirst(({ clipsDirPath }) => TE.fromIO(prepareDir(clipsDirPath))),
-    TE.chain(() => fetchAllClipsForLocale(locale, isMinorityLanguage)),
+    TE.chain(() =>
+      fetchAllClipsForLocale(
+        locale,
+        includeClipsFrom,
+        includeClipsUntil,
+        isMinorityLanguage,
+      ),
+    ),
   )
 }
 
-export const createClipFilename = (locale: string, clipId: string) =>
-  `common_voice_${locale}_${clipId}.mp3`
+export const runFetchAllClipsForLocaleE = (
+  isMinorityLanguage: boolean,
+): RTE.ReaderTaskEither<ProcessLocaleJob, Error, void> => {
+  return pipe(
+    RTE.ask<ProcessLocaleJob>(),
+    RTE.chainTaskEitherK(({ locale, from, until }) =>
+      runFetchAllClipsForLocale(locale, from, until, isMinorityLanguage),
+    ),
+  )
+}

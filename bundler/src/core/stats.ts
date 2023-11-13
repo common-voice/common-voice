@@ -17,6 +17,8 @@ import {
 } from '../infrastructure/corporaCreator'
 import { getReleaseBasePath } from '../config/config'
 import { CLIPS_TSV_ROW } from './clips'
+import * as RTE from 'fp-ts/readerTaskEither'
+import { ProcessLocaleJob } from '../types'
 
 type Stats = {
   locales: Locales
@@ -266,4 +268,15 @@ export const runStats = (
     ),
     TE.map(calculateDurations(locale)(totalDurationInMs)),
     TE.tap(stats => TE.of(console.log(util.inspect(stats, { depth: 5 })))),
+  )
+
+export const runStatsE = (
+  totalDurationInMs: number,
+  tarFilepath: string,
+): RTE.ReaderTaskEither<ProcessLocaleJob, Error, Stats> =>
+  pipe(
+    RTE.ask<ProcessLocaleJob>(),
+    RTE.chainTaskEitherK(({ locale }) =>
+      runStats(locale, totalDurationInMs, tarFilepath),
+    ),
   )

@@ -4,6 +4,8 @@ import path from 'node:path'
 import { taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { log } from 'fp-ts/lib/Console'
+import * as RTE from 'fp-ts/readerTaskEither'
+import { ProcessLocaleJob } from '../types'
 
 export const Mp3DurationFiles = ['clip_durations.tsv'] as const
 
@@ -11,7 +13,7 @@ export type Mp3DurationFile = (typeof Mp3DurationFiles)[number]
 
 /**
  * Runs the mp3-duration-reporter command to calculate the duration of MP3 files for the specified locale.
- * It creates the `clip_durations.tsv` file, which contains all the clips with their coresponding duration
+ * It creates the `clip_durations.tsv` file, which contains all the clips with their corresponding duration
  * in ms.
  *
  * @param locale - The locale for which to calculate the duration.
@@ -48,3 +50,13 @@ export const runMp3DurationReporter = (locale: string) => {
     ),
   )
 }
+
+export const runMp3DurationReporterE = (): RTE.ReaderTaskEither<
+  ProcessLocaleJob,
+  Error,
+  number
+> =>
+  pipe(
+    RTE.ask<ProcessLocaleJob>(),
+    RTE.chainTaskEitherK(({ locale }) => runMp3DurationReporter(locale)),
+  )
