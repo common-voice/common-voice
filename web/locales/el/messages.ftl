@@ -935,6 +935,9 @@ listen-empty-state = Μάλλον τελείωσαν τα αποσπάσματα
 listen-loading-error =
     Δεν μπορέσαμε να βρούμε κανένα απόσπασμα για να ακούσετε.
     Παρακαλούμε δοκιμάστε ξανά.
+listen-abort-title = Τελειώσατε με την επικύρωση αποσπασμάτων;
+listen-abort-cancel = Συνέχεια επικύρωσης
+listen-abort-confirm = Τέλος επικύρωσης
 speak-empty-state = Δεν υπάρχουν προτάσεις προς ηχογράφηση σε αυτή τη γλώσσα...
 speak-empty-state-cta = Συνεισφορά προτάσεων
 speak-loading-error =

@@ -926,6 +926,9 @@ listen-empty-state = Nós ficamos sem clipes para validar neste idioma...
 listen-loading-error =
     Não foi possível obter nenhum clipe de áudio para você ouvir.
     Tente novamente mais tarde.
+listen-abort-title = Terminar a validação de clipes?
+listen-abort-cancel = Continuar a validar
+listen-abort-confirm = Terminar a validação
 speak-empty-state = Nós ficamos sem frases para gravar neste idioma...
 speak-empty-state-cta = Contribua com frases
 speak-loading-error =

@@ -938,6 +938,9 @@ listen-empty-state = Wy hawwe yn dizze taal gjin te falidearjen fragminten mear�
 listen-loading-error =
     Wy kinne gjin audiofragminten foar jo ophelje om nei te harkjen.
     Probearje it letter nochris.
+listen-abort-title = Falidearjen fan fragminten foltôgje?
+listen-abort-cancel = Trochgean mei falidearjen
+listen-abort-confirm = Falidearjen foltôgje
 speak-empty-state = Wy hawwe yn dizze taal gjin op te nimmen sinnen mear…
 speak-empty-state-cta = Sinnen bydrage
 speak-loading-error =

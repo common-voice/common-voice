@@ -928,6 +928,9 @@ listen-empty-state = Es gibt aktuell keine Aufzeichnungen – laden Sie die Seit
 listen-loading-error =
     Wir konnten für Sie keine Audioclips zum Anhören abrufen.
     Bitte versuchen Sie es später erneut.
+listen-abort-title = Überprüfung der Aufzeichnungen abschließen?
+listen-abort-cancel = Überprüfung fortsetzen
+listen-abort-confirm = Überprüfung abschließen
 speak-empty-state = Für diese Sprache gibt es keine Sätze mehr, die aufgenommen werden könnten…
 speak-empty-state-cta = Sätze beitragen
 speak-loading-error =

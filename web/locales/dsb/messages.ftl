@@ -514,7 +514,7 @@ faq-what-determine-identity-q = Co wóznamjenijo, až njamógu „identitu“ po
 faq-what-determine-identity-a =
     Datowa sajźba Common Voice jo wótwórjona a zjawnje pśistupna resursa, kótaraž dajo se za treněrowanje šyrokeje wjelerakosći pśez powědanje wóźonych nałoženjow wužywaś. Aby my wěstotu našych sobustatkujucych šćitali, pšosymy kuždego, kótaryž datowu sajźbu Common Voice ześěgujo, priwatnosć našych sobustatkujucych respektěrowaś.
     
-    Ze wšych głosowych klipow w datowej sajźbje se informacije wótwónoźuju, kótarež wósoby identificěruju. Gaž datowu sajźbu ześěgujośo, zwolijośo do togo, až njewopytujośo identitu sobustatkujucego póstajiś. To groni, až njamóžośo wopytaś, informacije w datowej sajźbje z wósobinskimi informacijami sobustatkujucego zwěazaś.  Móžośo pak datowu sajźbu wužywaś, aby powědańske spóznaśe, spóznaśe powědarjow abo druge nałoženja pśez to treněrował, až, na pśikład, informacije w datowej sajźbje z drugimi informacijami zwězujośo, kótarež su južo w datowej sajźbje.
+    Ze wšych głosowych klipow w datowej sajźbje se informacije wótwónoźuju, kótarež wósoby identificěruju. Gaž datowu sajźbu ześěgujośo, zwólijośo do togo, až njewopytujośo identitu sobustatkujucego póstajiś. To groni, až njamóžośo wopytaś, informacije w datowej sajźbje z wósobinskimi informacijami sobustatkujucego zwěazaś.  Móžośo pak datowu sajźbu wužywaś, aby powědańske spóznaśe, spóznaśe powědarjow abo druge nałoženja pśez to treněrował, až, na pśikład, informacije w datowej sajźbje z drugimi informacijami zwězujośo, kótarež su južo w datowej sajźbje.
 faq-what-is-cv = Co jo Common Vocie?
 faq-using-cv = Common Voice wužywaś
 faq-description = Common Voice jo źěl iniciatiwy Mozilla, kótaryž pomaga, mašiny wucyś, kak napšawdne luźe powědaju.
@@ -683,7 +683,7 @@ license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
 data-download-singleword-title = Ześěgniśo celowy segment jadnotliwego słowa
 data-download-singleword-callout-v2 = To jo segment, kótaryž se pśez nałožowańske pady pógónujo a daty wopśimujo, aby spóznaśe powědanych cyfrow a spóznaśe jo/ně zmóžnił.
-review-terms = Gaž Common Voice wužywaśo, zwolijośo do našych <termsLink>wužywarskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
+review-terms = Gaž Common Voice wužywaśo, zwólijośo do našych <termsLink>wužywarskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
 terms-agree = Som wobjadny
 terms-disagree = Njejsom wobjadny
 review-aborted = Nagraśe pśetergnjone. Cośo swójo nagraśe wulašowaś?
@@ -721,7 +721,7 @@ why-email = <b>Cogodla e-mailowa adresa?</b> Musymy se snaź z wami w pśichoźe
 confirm-size = Sćo za start ześěgnjenja wjelikosći <b>{ $size }</b> spśigótowany
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Zwolijośo</b> do togo, až njewopytajośo, identitu powědarjow w datowej sajźbje zwěsćiś
+confirm-no-identify = <b>Zwólijośo</b> do togo, až njewopytajośo, identitu powědarjow w datowej sajźbje zwěsćiś
 confirm-join-mailing-list = Cu rozpósłańskej lisćinje Common Voice pśistupiś
 download-language = { $language } sćahnyć
 validated-hours = Wobkšuśone góźiny
@@ -1620,16 +1620,16 @@ add-sentence-error = Zmólka pśi pśidawanju sady
 required-field = Pšosym wupołniśo toś to pólo.
 single-sentence = Jadna sada
 bulk-sentences = Wjele sadow
-# REVIEW PAGE
-sc-review-instruction-first-part = Pśeglědaś
-sc-review-instruction-second-part = Jo to rěcnje korektna sada?
+
+## REVIEW PAGE
+
 sc-review-rules-title = Wótpowědujo sada směrnicam?
 report-sc-different-language = Druga rěc
 report-sc-different-language-detail = Jo w drugej rěcy napisana ako pśeglědujom.
 sc-redirect-page-subtitle-2 = Stajśo nam pšašanja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mailu</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Nagraś
-or-conjuction = abo
+
+## BULK SUBMISSION 
+
 select-file = Dataju wubraś
 select-file-mobile = Wubjeŕśo dataju za nagraśe
 accepted-files = Akceptěrowane datajowe typy: jano .tsv
