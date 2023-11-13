@@ -31,7 +31,7 @@ export const setupUpdateValidatedSentencesQueue = () => {
       )
     ),
     IO.chainFirst(
-      addJobToQueue({ name: UPDATE_VALIDATED_SENTENCES_JOB })({
+      addJobToQueue({ name: UPDATE_VALIDATED_SENTENCES_JOB })(UPDATE_VALIDATED_SENTENCES_JOB)({
         repeat: { cron: REPEAT_EVERY_HOUR },
       })
     )
