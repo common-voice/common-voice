@@ -927,6 +927,9 @@ listen-empty-state = بۇ تىلدىكى دەلىللەيدىغان ئاۋازل
 listen-loading-error =
     بىزدە سىزگە ئاڭلاتقۇدەك ھېچقانداق ئاۋاز پارچىسى يوق.
     سەل تۇرۇپ قايتا سىناڭ.
+listen-abort-title = ئۈن ئۈزۈمدە دەلىللەشنى تاماملامسىز؟
+listen-abort-cancel = دەلىللەشنى داۋاملاشتۇر
+listen-abort-confirm = دەلىللەش تامام
 speak-empty-state = بۇ تىلدىكى ئۈنگە ئالدىغان جۈملىلەر تۈگىدى...
 speak-empty-state-cta = جۈملىلەرنى قوشۇڭ
 speak-loading-error = ۋاقتىنچە ئۈنگە ئالىدىغان جۈملە يوق. سەل تۇرۇپ قايتا سىناڭ.

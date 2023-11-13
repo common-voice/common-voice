@@ -929,6 +929,9 @@ listen-empty-state = Elfogytak az ellenőrzésre váró klipek ezen a nyelven: f
 listen-loading-error =
     Nem tudtunk meghallgatható hangfelvételeket lekérni.
     Próbálja újra később.
+listen-abort-title = Befejezi a klipek ellenőrzését?
+listen-abort-cancel = Ellenőrzés folytatása
+listen-abort-confirm = Ellenőrzés befejezése
 speak-empty-state = Elfogytak az felvételre váró mondatok ezen a nyelven…
 speak-empty-state-cta = Mondatok hozzáadása
 speak-loading-error =

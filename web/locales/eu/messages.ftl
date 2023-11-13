@@ -601,6 +601,7 @@ about-playbook-how-record-quality = Nola graba dezaket kalitate handiko ahots gr
 about-playbook-how-record-content-1 = Hitz egin zure ahots normalarekin! Hitz egiteko duzun modua ongi etorria da hemen - zure azentua den bezalakoa nahi dugu eta normalean erabiltzen duzun bolumena, estilo eta intonazioa.
 about-playbook-how-record-content-2 = Saihestu atzeko zarata gehiegi izatea - zu entzutea erraza izan beharko litzateke.
 about-playbook-how-record-content-3 = Irakurri esaldia kontu handiarekin - ez saltatu, aldatu edo gehitu hitzik.
+about-playbook-how-record-content-4 = Ziurtatu zaitez plataforma grabatzen dagoela zu hizketan hasi aurretik eta zuk amaitu ondoren gelditzen dela.
 about-playbook-how-record-content-5 = <accuracyLink>Ikusi gehiago zehaztasun irizpideei buruz.</accuracyLink>
 
 ## How to grow language
@@ -864,6 +865,9 @@ listen-3rd-time-instruction = 2 gutxiago, segi horrela!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Azkena!
 listen-empty-state = Balioztatzeko grabaziorik gabe geratu gara hizkuntza honetan...
 listen-loading-error = Ezin izan dugu zuk entzuteko esaldirik lortu. Mesedez saia zaitez berriz beranduago.
+listen-abort-title = Bukatu grabazioak balioztatzen?
+listen-abort-cancel = Jarraitu balioztatzen
+listen-abort-confirm = Bukatu balioztatzen
 speak-empty-state = Grabatzeko esaldirik gabe geratu gara hizkuntza honetan...
 speak-empty-state-cta = Lagundu esaldiekin
 speak-loading-error = Ezin izan dugu zuk irakurtzeko esaldirik lortu. Mesedez saia zaitez berriz beranduago.
@@ -1417,12 +1421,17 @@ partnerships-header-text = Common Voice aurrera ateratzea zaila da! Ezingo genuk
 partnerships-get-in-touch = Harremanetan jarri
 partnerships-become-a-partner = Bihur zaitez Common Voice babeslea
 partnerships-community-header = Komunitatea, sortzaileak eta gizarte zibila
+partnerships-community-description = Komunitatea Common Voicen bihotza da - mundu osoko hizkuntza aktibistek, zientzialariek eta artistek parte hartzen dute komunitatean. Zuk nola lagundu ikas dezakezu <about>Guri buruz</about> web-orrian eta gure <community>Community playbook</community> delakoan. Erakunde arteko elkarkidetza sakonago batean interesa baduzu, <emailFragment>jarri gurekin harremanetan.</emailFragment>
 partnerships-foundations-header = Fundazioak
+partnerships-foundations-description = Fundazioekin, gizarte mugimenduekin eta bazkideekin lan egiten dugu, Internet leku osasungarriagoa egiteko. Ekialdeko Afrikari arreta berezia jartzen diogu. Ikasi gehiago gure <programmaticWork>lan programatikoari</programmaticWork> buruz.
 partnerships-governments-header = Gobernuak
 partnerships-governments-description = Pozik gaude sektore publikoak teknologian, berrikuntzan eta hizkuntza eskubideetan duen konpromisoa laguntzeaz. Proiektu edo kanpaina handi bat aurrera eramateko asmorik baduzue, mesedez, gurekin <emailFragment>harremanetan jarri</emailFragment>.
 partnerships-academia-header = Unibertsitateak, akademikoak eta ikerlariak
+partnerships-academia-description = Berrikuntza irekia egiten dugunaren muinean dago. Ikerketa proiektuetarako, datu bilketetarako edo elkarrizketetarako jar zaitez <emailFragment>gurekin harremanetan.</emailFragment>
 partnerships-small-business-header = Enpresa txikiak, teknologia eta AA arloko start up-ak barne
+partnerships-small-business-description = Beti gaude datu kontsumitzaileen berri izateko irrikitan, ea zein diren beraien beharrak eta testuinguruak - datu bilketetan laguntzeko, datuek egokitasuna zaintzeko eta abar, <emailFragment>zure berri</emailFragment> izan nahi dugu.
 partnerships-corporates-header = Korporazio handiak eta plataforma enpresak
+partnerships-corporates-description = Datu-sortei buruz sakonago hitz egin nahi baduzu, plataforma handitzeko inbertsioan lagundu edo elkar laguntzeko aukeren bila bazabiltza, <emailFragment>bidal iezaguzu mezutxo bat.</emailFragment>
 partnerships-our-partners = Gure babesleak
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Eskerrik asko zure ahots-grabazioak lagatzeagatik!
@@ -1506,8 +1515,6 @@ adding-sentences-subheader-offensive-content = Eduki iraingarria
 adding-sentences-subheader-offensive-content-explanation = Esaldiak ofenditzen edo haserretzen bazaitu - adibidez gure <communityGuidelines>komunitatearen parte-hartze gidalerroak</communityGuidelines> urratsen dituelako - baztertu egin behar zenuke. Arazoaren berri emateko, hemen gurekin harremanetan ere jar zaitezke: <emailFragment>commonvoice@mozilla.com</emailFragment>.
 reviewing-sentences-explanation-1 = Esaldiak goiko irizpideak betetzen baditu, sakatu "Bai" botoia.
 reviewing-sentences-explanation-2 = Esaldiak goiko irizpideak betetzen ez baditu, sakatu "Ez" botoia.
-# WRITE PAGE
-write-instruction-second-part = jabetza publikoko esaldia
 write-page-subtitle = Hemen gehitutako esaldiak publikoki eskuragarriak izango dira cc-0 lizentzia duen datu-sorta batean.
 sentence =
     .label = Esaldia
@@ -1515,7 +1522,6 @@ sentence-input-value = Sartu jabetza publikoko zure esaldia hemen
 citation-input-value = Zure esaldiaren iturria
 citation =
     .label = Aipua
-what-can-i-add = Zein eratako esaldiak gehi ditzaket?
 new-sentence-rule-1 = <noCopyright>Copyright gabekoak</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = 15 hitz baino gutxiago
 new-sentence-rule-3 = Akats gramatikorik ez
@@ -1529,8 +1535,13 @@ how-to-cite-explanation = Zure hitzak badira, <italicizedText>“Norberaren aipu
 guidelines = Gidalerroak
 add-sentence-success = Esaldi 1 bilduta
 add-sentence-error = Errorea esaldia gehitzean
-sc-review-instruction-second-part = Hizkuntza aldetik esaldi hau zuzena da?
+
+## REVIEW PAGE
+
 sc-review-rules-title = Esaldiak gidalerroak betetzen ditu?
 sc-review-empty-state = Orain ez dago esaldirik berrikusteko hizkuntza honetan.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Zenbait aldaketa handi egiten ari gara
+
+## BULK SUBMISSION 
+

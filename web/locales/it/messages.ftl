@@ -909,6 +909,9 @@ listen-empty-state = Abbiamo esaurito le registrazioni da convalidare in questa 
 listen-loading-error =
     Non è stato possibile caricare alcuna registrazione audio da ascoltare.
     Riprova più tardi.
+listen-abort-title = Hai finito di convalidare le registrazioni?
+listen-abort-cancel = Continua la convalida
+listen-abort-confirm = Termina la convalida
 speak-empty-state = Abbiamo esaurito le frasi da registrare in questa lingua…
 speak-empty-state-cta = Contribuisci con altre frasi
 speak-loading-error =

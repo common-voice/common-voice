@@ -946,6 +946,9 @@ listen-empty-state = Iespējams, visi ieraksti jau ir apstrādāti - pārlādēj
 listen-loading-error =
     Mēs nevarējām iegūt nevienu ierakstu, ko jums klausīties.
     Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.
+listen-abort-title = Vai pabeigt klipu apstiprināšanu?
+listen-abort-cancel = Turpināt apstiprināšanu
+listen-abort-confirm = Beigt apstiprināšanu
 speak-empty-state = Mums ir beigušies teikumi, ko ierakstīt šajā valodā...
 speak-empty-state-cta = Pievienojiet teikumus
 speak-loading-error =

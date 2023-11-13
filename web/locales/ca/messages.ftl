@@ -69,6 +69,7 @@ eo = esperanto
 es = espanyol
 et = estonià
 eu = basc
+ewo = ewondo
 fa = persa
 ff = ful
 fi = finès
@@ -79,6 +80,7 @@ ga-IE = irlandès
 gl = gallec
 gn = guaraní
 gom = konkani
+gu-IN = gujarati
 ha = haussa
 he = hebreu
 hi = hindi
@@ -98,6 +100,7 @@ it = italià
 izh = ingrià
 ja = japonès
 jbo = lojban
+jv = javanès
 ka = georgià
 kaa = karakalpak
 kab = cabilenc
@@ -151,6 +154,7 @@ nyn = nyankole
 oc = occità
 om = oromo
 or = oriya
+os = ossetià
 pa-IN = panjabi
 pap-AW = papiament (Aruba)
 pl = polonès
@@ -244,6 +248,7 @@ share-text = Ensenyeu a les màquines com parlem la gent de debò. Col·laboreu 
 link-copied = S'ha copiat l'enllaç
 back-top = Torna a dalt
 logout = Finalitza la sessió
+donate = Feu un donatiu
 
 ## Home Page
 
@@ -613,7 +618,6 @@ about-playbook-how-add-sentences = Com hi afegeixo frases?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> és una eina per a recopilar i validar frases de domini públic. Haureu de <scAccountLink>crear un compte</scAccountLink>. A continuació, afegiu la vostra llengua al <strong>perfil</strong>. Hi podeu <strong>afegir</strong> frases o <strong>revisar</strong> les frases afegides anteriorment.
 about-playbook-how-add-sentences-content-2 = Les frases han de ser revisades i acceptades per dues persones per a ser incloses a Common Voice. Creeu directrius per a la vostra llengua <languageGuidelinesLink>aquí</languageGuidelinesLink>. Les frases han de ser de <licenseLink>domini públic</licenseLink> i han de tenir menys de 15 paraules. Podeu demanar al propietari d'un text que el faci <waiverLink>CC0 mitjançant el nostre procés d'exempció</waiverLink> i ens l'enviï a commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Podeu utilitzar l'<scraperLink>Extractor de frases</scraperLink> per a aprofitar frases curtes de la Viquipèdia.
-about-playbook-how-add-sentences-content-4 = Les frases que s'han validat s'exporten el dimecres i estan disponibles després del següent llançament.
 
 ## How to record quality
 
@@ -926,6 +930,9 @@ listen-empty-state = No hi ha cap més tall per validar en aquesta llengua...
 listen-loading-error =
     No hem pogut cap tall de veu perquè el reviseu.
     Torneu a intentar-ho més tard.
+listen-abort-title = Voleu deixar de validar talls?
+listen-abort-cancel = Continua validant
+listen-abort-confirm = Acaba de validar
 speak-empty-state = No hi ha cap més frase per enregistrar en aquesta llengua...
 speak-empty-state-cta = Aporteu frases
 speak-loading-error =
@@ -1604,9 +1611,14 @@ just-unsure = Teniu dubtes?
 example = Exemple
 varying-pronunciations-explanation-1 = Volem accents diferents! Tingueu cura abans de rebutjar un tall perquè penseu que el lector ha pronunciat malament una paraula, no ha neutralitzat alguna vocal o ha ignorat una erra final. El català té una àmplia varietat de pronúncies, i potser no les heu sentit mai. No es pronuncia igual en català central, balear, valencià o septentrional. Feu confiança a aquells que parlen d’una manera diferent de la vostra.
 varying-pronunciations-explanation-2 = D'altra banda, si creieu que el lector no s'ha trobat mai amb la paraula i fa una suposició incorrecta de la pronúncia, rebutgeu el tall. Si no n'esteu segur, utilitzeu el botó Omet.
+varying-pronunciations-example = Mengem peres.
+varying-pronunciations-tip-1 = [Un parlant de català central segurament farà «pera» amb e oberta]
+varying-pronunciations-tip-2 = [Un parlant illenc segurament farà «pera» amb neutra tònica]
 offensive-content-explanation = Les frases es revisen mitjançant un procés de moderació de la comunitat, però aquest procés no és perfecte. Si veieu o sentiu una frase que us ofèn o molesta, per exemple perquè infringeix les nostres <participationGuidelines>directrius de participació de la comunitat</participationGuidelines>, feu servir el botó de marca de la interfície d'usuari. També podeu contactar amb nosaltres a <emailFragment>commonvoice@mozilla.com</emailFragment>.
 misreadings-explanation-1 = És important llegir correctament totes les paraules de la pàgina. En escoltar, comproveu molt bé que el que s'ha enregistrat és exactament el que s'ha escrit; rebutgeu el tall si s'hi han afegit, contret o omès paraules.
 misreadings-explanation-2 = Alguns errors molt freqüents són:
+misreadings-explanation-3 = Ometre o canviar preposicions.
+misreadings-explanation-4 = Alterar el final de les formes verbals
 misreadings-explanation-5 = Fer contraccions o elisions que no es troben en el text, o viceversa. Per exemple, fer «el oncle» en comptes de «l'oncle», o fer «'nant» en comptes d'«anant».
 misreadings-explanation-6 = Ometre el final de l'última paraula, en tallar l'enregistrament massa ràpid.
 misreadings-explanation-7 = Fer múltiples intents per a llegir una paraula.
@@ -1675,7 +1687,7 @@ reviewing-sentences-explanation-2 = Si la frase no compleix els criteris anterio
 reviewing-sentences-explanation-3 = Si no esteu segur de la frase, també podeu saltar-la i passar a la següent.
 reviewing-sentences-explanation-4 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
 # WRITE PAGE
-write-instruction-second-part = una frase de domini públic
+write-instruction = Afegeix <icon></icon> una frase de domini públic
 write-page-subtitle = Les frases aportades aquí s'afegiran a un conjunt de dades disponible públicament amb llicència cc-0.
 sentence =
     .label = Frase
@@ -1683,7 +1695,8 @@ sentence-input-value = Escriviu aquí la vostra frase de domini públic
 citation-input-value = Font de la frase
 citation =
     .label = Citació
-what-can-i-add = Quins tipus de frases puc afegir?
+sc-write-submit-confirm = Confirmo que aquesta frase és de <wikipediaLink>domini públic</wikipediaLink> i tinc permís per a pujar-la.
+sc-review-write-title = Quines frases puc afegir-hi?
 new-sentence-rule-1 = <noCopyright>Sense drets d'autor</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Menys de 15 paraules
 new-sentence-rule-3 = La gramàtica és correcta
@@ -1692,17 +1705,57 @@ new-sentence-rule-5 = Sense xifres ni caràcters especials
 new-sentence-rule-6 = Sense lletres estrangeres
 new-sentence-rule-7 = Amb la citació corresponent
 new-sentence-rule-8 = Idealment, natural i conversacional (la frase ha de ser fàcil de llegir)
+how-to-cite = Com cal citar?
+how-to-cite-explanation-bold = Citeu amb un enllaç URL o el nom complet de l'obra.
+how-to-cite-explanation = Si són paraules vosgres, només heu de dir <italicizedText>«Autocitació»</italicizedText>. Hem de saber on heu trobat aquest contingut perquè puguem comprovar que és de domini públic i que no s'apliquen restriccions de drets d'autor. Per a obtenir més informació sobre la citació, consulteu la <guidelinesLink>Pàgina de Directrius</guidelinesLink>.
+guidelines = Directrius
 contact-us = Contacteu-nos
+add-sentence-success = 1 frase recollida
 add-sentence-error = S'ha produït un error en afegir la frase
 required-field = Empleneu aquest camp.
-# REVIEW PAGE
-sc-review-instruction-first-part = Comproveu:
-sc-review-instruction-second-part = és una frase lingüísticament correcta?
+single-sentence-submission = Enviament d'una única frase
+bulk-sentence-submission = Enviament massiu de frases
+single-sentence = Frase única
+bulk-sentences = Frases massives
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Comproveu <icon></icon> Aquesta frase és lingüísticament correcta?
+sc-review-rules-title = La frase compleix les directrius?
 sc-review-empty-state = Actualment no hi cap frase per revisar en aquesta llengua.
 report-sc-different-language = Una altra llengua
 report-sc-different-language-detail = Està escrita en una llengua diferent de la que reviso.
+sentences-fetch-error = S'ha produït un error en obtenir les frases
 review-error = S'ha produït un error en revisar aquesta frase
+review-error-rate-limit-exceeded = Aneu massa ràpid. Dediqueu un moment a revisar la frase per assegurar-vos que és correcta.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estem fent alguns canvis importants
 sc-redirect-page-subtitle-1 = El Sentence Collector es trasllada a la plataforma bàsica de Common Voice. Ara podeu <writeURL>escriure</writeURL> una frase o <reviewURL>revisar</reviewURL> enviaments d'una sola frase a Common Voice.
 sc-redirect-page-subtitle-2 = Feu-nos preguntes a <matrixLink>Matrix</matrixLink>, <discourseLink>Discurs</discourseLink> o per <emailLink>correu electrònic</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Pugeu <icon></icon> frases de domini públic
+sc-bulk-upload-instruction = Arrossegueu el fitxer aquí o <uploadButton>feu clic per a pujar-lo</uploadButton>
+sc-bulk-upload-instruction-drop = Deixeu anar el fitxer aquí per a pujar-lo
+try-upload-again = Torneu-ho a provar arrossegant el fitxer aquí
+try-upload-again-md = Proveu de pujar-lo de nou
+select-file = Seleccioneu el fitxer
+select-file-mobile = Seleccioneu el fitxer que es pujarà
+accepted-files = Tipus de fitxers acceptats: només .tsv
+maximum-file-size = Mida màxima del fitxer: 25 MB
+what-needs-to-be-in-file = Què hi ha d'haver en el fitxer?
+what-needs-to-be-in-file-explanation = Comproveu el nostre <templateFileLink>fitxer de plantilla</templateFileLink>. Les vostres frases han de ser lliures de drets d'autor (CC0 o treball original autoritzat pel remitent) i ser clares, gramaticalment correctes i fàcils de llegir. Les frases enviades haurien de trigar uns 10-15 segons a llegir-se i s'han d'evitar incloure xifres, noms propis i caràcters especials.
+upload-progress-text = Pujada en curs...
+sc-bulk-submit-confirm = Confirmo que aquestes frases són de <wikipediaLink>domini públic</wikipediaLink> i tinc permís per pujar-les.
+bulk-upload-success-toast = S'han pujat les frases massives
+bulk-upload-failed-toast = S'ha produït un error en la pujada; torneu-ho a provar.
+bulk-submission-success-header = Gràcies per contribuir amb l'enviament massiu de frases!
+bulk-submission-success-subheader = Esteu ajudant a Common Voice a assolir els nostres objectius diaris de frases!
+upload-more-btn-text = Voleu pujar més frases?
+file-invalid-type = El fitxer no és vàlid
+file-too-large = El fitxer és massa gran
+file-too-small = El fitxer és massa petit
+too-many-files = Hi ha massa fitxers

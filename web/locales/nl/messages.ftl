@@ -929,6 +929,9 @@ listen-empty-state = We hebben in deze taal geen te valideren fragmenten meer…
 listen-loading-error =
     We kunnen geen audiofragmenten voor u ophalen om naar te luisteren.
     Probeer het later nog eens.
+listen-abort-title = Valideren van fragmenten voltooien?
+listen-abort-cancel = Doorgaan met valideren
+listen-abort-confirm = Valideren voltooien
 speak-empty-state = We hebben in deze taal geen op te nemen zinnen meer…
 speak-empty-state-cta = Zinnen bijdragen
 speak-loading-error =
