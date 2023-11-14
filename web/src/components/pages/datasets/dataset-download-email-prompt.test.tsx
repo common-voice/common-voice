@@ -254,7 +254,7 @@ describe('DatasetDownloadEmailPrompt', () => {
 
     // assert that checkbox is visible but don't click it
     expect(
-      getByLabelText(/I want to join the Common Voice mailing list/)
+      getByLabelText(/You want to join the Common Voice mailing list/)
     ).toBeDefined();
 
     // now has the link
