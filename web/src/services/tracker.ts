@@ -17,6 +17,7 @@ export function track(
     | 'Landing'
     | 'Challenge'
     | 'Error'
+    | 'SingleReview'
     | 'SingleSubmission'
     | 'BulkSubmission',
   action: string,
@@ -147,6 +148,11 @@ export function trackChallenge(
 ) {
   track('Challenge', action);
 }
+
+export const trackSingleReview = (
+  action: 'vote-yes' | 'vote-no' | 'skip' | 'report-button-click',
+  locale: string
+) => track('SingleReview', action, locale);
 
 export const trackSingleSubmission = (
   action: 'toggle-button-click' | 'submit',
