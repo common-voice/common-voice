@@ -6,6 +6,12 @@ import { log } from 'fp-ts/lib/Console'
 import * as RTE from 'fp-ts/readerTaskEither'
 import { AppEnv } from '../types'
 
+export const CORPORA_CREATOR_SPLIT_FILES = [
+  'dev.tsv',
+  'test.tsv',
+  'train.tsv',
+] as const
+
 export const CORPORA_CREATOR_FILES = [
   'validated.tsv',
   'invalidated.tsv',

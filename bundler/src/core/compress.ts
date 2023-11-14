@@ -1,10 +1,14 @@
 import fs from 'node:fs'
-import tar from 'tar'
-import { io as IO, taskEither as TE } from 'fp-ts'
-import { pipe } from 'fp-ts/lib/function'
 import path from 'node:path'
-import { prepareDir } from '../infrastructure/filesystem'
+
+import tar from 'tar'
+
+import { io as IO, taskEither as TE } from 'fp-ts'
 import * as RTE from 'fp-ts/readerTaskEither'
+import { pipe } from 'fp-ts/lib/function'
+
+import { prepareDir } from '../infrastructure/filesystem'
+import { CORPORA_CREATOR_SPLIT_FILES } from '../infrastructure/corporaCreator'
 import { AppEnv } from '../types'
 
 const generateTarFilename = (locale: string, releaseName: string) =>
@@ -33,11 +37,26 @@ const compress =
       reason => Error(String(reason)),
     )
 
+const pathsFilter =
+  (releaseType: string) =>
+  (filepath: string): boolean => {
+    const filename = path.basename(filepath)
+    // we never include the generated clips.tsv file
+    const clipsTsv = ['clips.tsv']
+    const excludeList =
+      releaseType === 'full'
+        ? clipsTsv
+        : [...clipsTsv, ...CORPORA_CREATOR_SPLIT_FILES]
+
+    return !excludeList.includes(filename)
+  }
+
 const getPathsToAddToTarball =
   (
     locale: string,
     releaseName: string,
     releaseBasePath: string,
+    releaseType: string,
   ): IO.IO<string[]> =>
   () => {
     const dir = path.join(releaseBasePath, locale)
@@ -45,9 +64,11 @@ const getPathsToAddToTarball =
       encoding: 'utf-8',
       recursive: false,
     })
-    // we don't want to include the generated clips.tsv
+
+    const filterFilesForRelease = pathsFilter(releaseType)
+
     return paths
-      .filter((path: string) => !path.endsWith('clips.tsv'))
+      .filter(filterFilesForRelease)
       .map((pathS: string) => path.join(releaseName, locale, pathS))
   }
 
@@ -56,6 +77,7 @@ const compressPipeline = (
   releaseName: string,
   releaseBasePath: string,
   releaseTarballDir: string,
+  releaseType: string,
 ): TE.TaskEither<Error, string> => {
   console.log('Start compress step')
   return pipe(
@@ -66,7 +88,7 @@ const compressPipeline = (
     ),
     TE.let(
       'paths',
-      getPathsToAddToTarball(locale, releaseName, releaseBasePath),
+      getPathsToAddToTarball(locale, releaseName, releaseBasePath, releaseType),
     ),
     TE.chainFirst(() => TE.fromIO(prepareDir(releaseTarballDir))),
     TE.chainFirst(({ tarballFilepath, paths }) =>
@@ -80,12 +102,13 @@ export const runCompress = (): RTE.ReaderTaskEither<AppEnv, Error, string> =>
   pipe(
     RTE.ask<AppEnv>(),
     RTE.chainTaskEitherK(
-      ({ locale, releaseName, releaseDirPath, releaseTarballsDirPath }) =>
+      ({ locale, releaseName, releaseDirPath, releaseTarballsDirPath, type }) =>
         compressPipeline(
           locale,
           releaseName,
           releaseDirPath,
           releaseTarballsDirPath,
+          type,
         ),
     ),
   )
