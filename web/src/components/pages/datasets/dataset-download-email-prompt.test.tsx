@@ -195,7 +195,7 @@ describe('DatasetDownloadEmailPrompt', () => {
     userEvent.click(getByLabelText(/You agree to not attempt to determine/));
 
     expect(
-      queryByLabelText(/I want to join the Common Voice mailing list/)
+      queryByLabelText(/You want to join the Common Voice mailing list/)
     ).toBeNull();
 
     // now has the link
