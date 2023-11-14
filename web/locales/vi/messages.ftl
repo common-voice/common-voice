@@ -926,6 +926,9 @@ listen-empty-state = Chúng tôi đã hết đoạn thoại để xác thực b�
 listen-loading-error =
     Chúng tôi không thể nhận được bất kỳ đoạn âm thanh nào để bạn nghe.
     Vui lòng thử lại sau.
+listen-abort-title = Hoàn tất xác thực clip?
+listen-abort-cancel = Tiếp tục xác thực
+listen-abort-confirm = Hoàn tất xác thực
 speak-empty-state = Chúng tôi đã hết câu để ghi lại bằng ngôn ngữ này...
 speak-empty-state-cta = Đóng góp câu
 speak-loading-error =
