@@ -12,6 +12,7 @@ interface Props {
   icon?: JSX.Element;
   hideBorder?: boolean;
   justifyCenter?: boolean;
+  onToggle?: (evt: React.SyntheticEvent<HTMLDetailsElement>) => void;
 }
 
 const ExpandableInformation = ({
@@ -20,12 +21,14 @@ const ExpandableInformation = ({
   icon,
   hideBorder,
   justifyCenter,
+  onToggle,
 }: Props) => {
   return (
     <details
       className={classNames('expandable-information', {
         'hide-border': hideBorder,
-      })}>
+      })}
+      onToggle={onToggle}>
       <summary
         className={classNames('expandable-information__summary', {
           'justify-center': justifyCenter,

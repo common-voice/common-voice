@@ -17,7 +17,9 @@ export function track(
     | 'Landing'
     | 'Challenge'
     | 'Error'
-    | 'SingleReview',
+    | 'SingleReview'
+    | 'SingleSubmission'
+    | 'BulkSubmission',
   action: string,
   locale?: string
 ) {
@@ -151,6 +153,21 @@ export const trackSingleReview = (
   action: 'vote-yes' | 'vote-no' | 'skip' | 'report-button-click',
   locale: string
 ) => track('SingleReview', action, locale);
+
+export const trackSingleSubmission = (
+  action: 'toggle-button-click' | 'submit',
+  locale: string
+) => track('SingleSubmission', action, locale);
+
+export const trackBulkSubmission = (
+  action:
+    | 'submit'
+    | 'upload-button-click'
+    | 'submit-button-click'
+    | 'expandable-information-click-open'
+    | 'expandable-information-click-close',
+  locale: string
+) => track('BulkSubmission', action, locale);
 
 // Error pages send the full previous route as a third argument, which is
 // typically reserved for locale.

@@ -25,6 +25,8 @@ import {
 
 import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 
+import { trackSingleSubmission } from '../../../../../../services/tracker'
+
 import './single-submission-write.css'
 
 export type SingleSubmissionWriteProps = WithLocalizationProps
@@ -114,6 +116,8 @@ const SingleSubmissionWrite: React.FC<SingleSubmissionWriteProps> = ({
         singleSubmissionWriteDispatch({
           type: SingleSubmissionWriteActionType.ADD_SENTENCE_SUCCESS,
         })
+
+        trackSingleSubmission('submit', currentLocale)
       }
     } catch (error) {
       const errorMessage = JSON.parse(error.message)
