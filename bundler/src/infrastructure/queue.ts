@@ -2,14 +2,7 @@ import { Queue } from 'bullmq'
 import { taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { fetchLocalesWithClips } from '../core/locales'
-import { ProcessLocaleJob } from '../types'
-
-export type Settings = {
-  type: 'full' | 'delta'
-  from: string
-  until: string
-  releaseName: string
-}
+import { ProcessLocaleJob, Settings } from '../types'
 
 const datasetReleaseQueue = new Queue('datasetRelease', {
   connection: {
@@ -30,9 +23,16 @@ const addJobToDatasetReleaseQueue = addJob(datasetReleaseQueue)
 export const addProcessLocaleJobs = (settings: Settings) =>
   pipe(
     TE.Do,
-    TE.bind('allLocales', () => fetchLocalesWithClips),
+    TE.bind('allLocales', () =>
+      fetchLocalesWithClips(settings.from, settings.until),
+    ),
     TE.tap(({ allLocales }) =>
-      TE.of(console.log('Got the following locales: ', allLocales)),
+      TE.right(
+        console.log(
+          'Got the following locales: ',
+          allLocales.map(locale => locale.name).join(', '),
+        ),
+      ),
     ),
     TE.map(({ allLocales }) =>
       allLocales.map(locale =>

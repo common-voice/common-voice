@@ -2,10 +2,10 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { taskEither as TE } from 'fp-ts'
 import { streamingQuery } from '../infrastructure/database'
-import { getQueriesDir, getReleaseBasePath } from '../config/config'
+import { getQueriesDir } from '../config/config'
 import { Transform } from 'node:stream'
 import {
-  ProcessLocaleJob,
+  AppEnv,
   REPORTED_SENTENCES_COLUMNS,
   ReportedSentencesRow,
 } from '../types'
@@ -27,9 +27,9 @@ const transformSentences = () =>
     objectMode: true,
   })
 
-const writeFileStreamToTsv = (locale: string) => {
+const writeFileStreamToTsv = (locale: string, releaseDirPath: string) => {
   const writeStream = fs.createWriteStream(
-    path.join(getReleaseBasePath(), locale, 'reported.tsv'),
+    path.join(releaseDirPath, locale, 'reported.tsv'),
     {
       encoding: 'utf-8',
     },
@@ -41,7 +41,8 @@ const writeFileStreamToTsv = (locale: string) => {
 const fetchReportedSentencesForLocale =
   (locale: string) =>
   (includeClipsFrom: string) =>
-  (includeClipsUntil: string): TE.TaskEither<Error, void> => {
+  (includeClipsUntil: string) =>
+  (releaseDirPath: string): TE.TaskEither<Error, void> => {
     console.log('Fetching clips for locale', locale)
 
     return TE.tryCatch(
@@ -57,7 +58,7 @@ const fetchReportedSentencesForLocale =
 
           stream
             .pipe(transformSentences())
-            .pipe(writeFileStreamToTsv(locale))
+            .pipe(writeFileStreamToTsv(locale, releaseDirPath))
             .on('finish', () => {
               conn.end()
               resolve()
@@ -69,13 +70,13 @@ const fetchReportedSentencesForLocale =
   }
 
 export const runReportedSentences = (): RTE.ReaderTaskEither<
-  ProcessLocaleJob,
+  AppEnv,
   Error,
   void
 > =>
   pipe(
-    RTE.ask<ProcessLocaleJob>(),
-    RTE.chainTaskEitherK(({ locale, from, until }) =>
-      fetchReportedSentencesForLocale(locale)(from)(until),
+    RTE.ask<AppEnv>(),
+    RTE.chainTaskEitherK(({ locale, from, until, releaseDirPath }) =>
+      fetchReportedSentencesForLocale(locale)(from)(until)(releaseDirPath),
     ),
   )

@@ -3,15 +3,10 @@ import path from 'node:path'
 import { Transform } from 'node:stream'
 import { streamingQuery } from '../infrastructure/database'
 import { streamDownloadFileFromBucket } from '../infrastructure/storage'
-import { ClipRow, ProcessLocaleJob } from '../types'
+import { AppEnv, ClipRow } from '../types'
 import { taskEither as TE } from 'fp-ts'
 import { hashClientId } from './clients'
-import {
-  getClipsBucketName,
-  getQueriesDir,
-  getReleaseBasePath,
-  getReleaseClipsDirPath,
-} from '../config/config'
+import { getClipsBucketName, getQueriesDir } from '../config/config'
 import { pipe } from 'fp-ts/lib/function'
 import { prepareDir } from '../infrastructure/filesystem'
 import * as RTE from 'fp-ts/readerTaskEither'
@@ -42,9 +37,9 @@ const createClipFilename = (locale: string, clipId: string) =>
 
 const printLn = (text: string) => text + '\n'
 
-const writeFileStreamToTsv = (locale: string) => {
+const writeFileStreamToTsv = (locale: string, releaseDirPath: string) => {
   const writeStream = fs.createWriteStream(
-    path.join(getReleaseBasePath(), locale, 'clips.tsv'),
+    path.join(releaseDirPath, locale, 'clips.tsv'),
     {
       encoding: 'utf-8',
     },
@@ -94,12 +89,12 @@ const transformClips = (isMinorityLanguage: boolean) =>
  *
  * The stream is in object mode.
  */
-const downloadClips = () =>
+const downloadClips = (releaseDirPath: string) =>
   new Transform({
     transform(chunk: ClipRow, encoding, callback) {
       const newFilepath = createClipFilename(chunk.locale, chunk.id)
       const writeStream = fs.createWriteStream(
-        path.join(getReleaseBasePath(), chunk.locale, 'clips', newFilepath),
+        path.join(releaseDirPath, chunk.locale, 'clips', newFilepath),
       )
 
       streamDownloadFileFromBucket(CLIPS_BUCKET)(chunk.path)
@@ -117,6 +112,7 @@ const fetchAllClipsForLocale = (
   includeClipsFrom: string,
   includeClipsUntil: string,
   isMinorityLanguage: boolean,
+  releaseDirPath: string,
 ): TE.TaskEither<Error, void> => {
   console.log('Fetching clips for locale', locale)
 
@@ -131,9 +127,9 @@ const fetchAllClipsForLocale = (
         )
         console.log('Start Stream Processing')
         stream
-          .pipe(downloadClips())
+          .pipe(downloadClips(releaseDirPath))
           .pipe(transformClips(isMinorityLanguage))
-          .pipe(writeFileStreamToTsv(locale))
+          .pipe(writeFileStreamToTsv(locale, releaseDirPath))
           .on('finish', () => {
             conn.end()
             resolve()
@@ -144,34 +140,44 @@ const fetchAllClipsForLocale = (
   )
 }
 
-export const runFetchAllClipsForLocale = (
+export const fetchAllClipsPipeline = (
   locale: string,
   includeClipsFrom: string,
   includeClipsUntil: string,
   isMinorityLanguage: boolean,
+  clipsDirPath: string,
+  releaseDirPath: string,
 ): TE.TaskEither<Error, void> => {
   return pipe(
     TE.Do,
-    TE.bind('clipsDirPath', () => TE.fromIO(getReleaseClipsDirPath(locale))),
-    TE.chainFirst(({ clipsDirPath }) => TE.fromIO(prepareDir(clipsDirPath))),
+    TE.chainFirst(() => TE.fromIO(prepareDir(clipsDirPath))),
     TE.chain(() =>
       fetchAllClipsForLocale(
         locale,
         includeClipsFrom,
         includeClipsUntil,
         isMinorityLanguage,
+        releaseDirPath,
       ),
     ),
   )
 }
 
-export const runFetchAllClipsForLocaleE = (
+export const runFetchAllClipsForLocale = (
   isMinorityLanguage: boolean,
-): RTE.ReaderTaskEither<ProcessLocaleJob, Error, void> => {
+): RTE.ReaderTaskEither<AppEnv, Error, void> => {
   return pipe(
-    RTE.ask<ProcessLocaleJob>(),
-    RTE.chainTaskEitherK(({ locale, from, until }) =>
-      runFetchAllClipsForLocale(locale, from, until, isMinorityLanguage),
+    RTE.ask<AppEnv>(),
+    RTE.chainTaskEitherK(
+      ({ locale, from, until, clipsDirPath, releaseDirPath }) =>
+        fetchAllClipsPipeline(
+          locale,
+          from,
+          until,
+          isMinorityLanguage,
+          clipsDirPath,
+          releaseDirPath,
+        ),
     ),
   )
 }

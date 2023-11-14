@@ -2,7 +2,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import util from 'node:util'
 
-import { taskEither as TE, array as A, record as R } from 'fp-ts'
+import { taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { parse } from 'csv-parse'
 import {
@@ -15,10 +15,9 @@ import {
   CORPORA_CREATOR_FILES,
   isCorporaCreatorFile,
 } from '../infrastructure/corporaCreator'
-import { getReleaseBasePath } from '../config/config'
 import { CLIPS_TSV_ROW } from './clips'
 import * as RTE from 'fp-ts/readerTaskEither'
-import { ProcessLocaleJob } from '../types'
+import { AppEnv } from '../types'
 
 type Stats = {
   locales: Locales
@@ -126,12 +125,12 @@ const createEmptyLocale = (): Locale => {
   }
 }
 
-const getAllRelevantFilepaths = (locale: string): string[] => {
+const getAllRelevantFilepaths = (locale: string, releaseDirPath: string): string[] => {
   const ccFiles = CORPORA_CREATOR_FILES.map(entry =>
-    path.join(getReleaseBasePath(), locale, entry),
+    path.join(releaseDirPath, locale, entry),
   )
   const reportedSentencesFilepath = path.join(
-    getReleaseBasePath(),
+    releaseDirPath,
     locale,
     'reported.tsv',
   )
@@ -172,12 +171,12 @@ const mergeStats = (
   return stats
 }
 
-const extractStatsFromClipsFile = (locale: string) =>
+const extractStatsFromClipsFile = (locale: string, releaseDirPath: string) =>
   TE.tryCatch(
     () =>
       new Promise<Stats>(resolve => {
         const fileStream = fs.createReadStream(
-          path.join(getReleaseBasePath(), locale, 'clips.tsv'),
+          path.join(releaseDirPath, locale, 'clips.tsv'),
         )
 
         const parser = parse({ delimiter: '\t', columns: true, quote: false })
@@ -250,33 +249,34 @@ const calculateDurations =
     return stats
   }
 
-export const runStats = (
+export const statsPipeline = (
   locale: string,
   totalDurationInMs: number,
   tarFilepath: string,
+  releaseDirPath: string
 ) =>
   pipe(
     TE.Do,
-    TE.let('filepaths', () => getAllRelevantFilepaths(locale)),
+    TE.let('filepaths', () => getAllRelevantFilepaths(locale, releaseDirPath)),
     TE.bind('lineCounts', ({ filepaths }) => countLines(filepaths)),
     TE.let('statCounts', ({ lineCounts }) => mapLineCountsToStats(lineCounts)),
-    TE.bind('stats', () => extractStatsFromClipsFile(locale)),
+    TE.bind('stats', () => extractStatsFromClipsFile(locale, releaseDirPath)),
     TE.bind('checksum', () => calculateChecksum(tarFilepath)),
-    TE.let('filesize', getFileSize(tarFilepath)),
-    TE.map(({ stats, statCounts, checksum, filesize }) =>
-      mergeStats(locale, stats, statCounts, checksum, filesize),
+    TE.let('fileSize', getFileSize(tarFilepath)),
+    TE.map(({ stats, statCounts, checksum, fileSize }) =>
+      mergeStats(locale, stats, statCounts, checksum, fileSize),
     ),
     TE.map(calculateDurations(locale)(totalDurationInMs)),
     TE.tap(stats => TE.of(console.log(util.inspect(stats, { depth: 5 })))),
   )
 
-export const runStatsE = (
+export const runStats = (
   totalDurationInMs: number,
   tarFilepath: string,
-): RTE.ReaderTaskEither<ProcessLocaleJob, Error, Stats> =>
+): RTE.ReaderTaskEither<AppEnv, Error, Stats> =>
   pipe(
-    RTE.ask<ProcessLocaleJob>(),
-    RTE.chainTaskEitherK(({ locale }) =>
-      runStats(locale, totalDurationInMs, tarFilepath),
+    RTE.ask<AppEnv>(),
+    RTE.chainTaskEitherK(({ locale, releaseDirPath }) =>
+      statsPipeline(locale, totalDurationInMs, tarFilepath, releaseDirPath),
     ),
   )

@@ -1,11 +1,12 @@
 import { spawn } from 'node:child_process'
-import { getReleaseBasePath } from '../config/config'
 import path from 'node:path'
+
 import { taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { log } from 'fp-ts/lib/Console'
 import * as RTE from 'fp-ts/readerTaskEither'
-import { ProcessLocaleJob } from '../types'
+
+import { AppEnv } from '../types'
 
 export const Mp3DurationFiles = ['clip_durations.tsv'] as const
 
@@ -19,11 +20,11 @@ export type Mp3DurationFile = (typeof Mp3DurationFiles)[number]
  * @param locale - The locale for which to calculate the duration.
  * @returns A Promise that resolves when the duration calculation is complete.
  */
-const runMp3DurationReporterPromise = (locale: string) =>
+const runMp3DurationReporterPromise = (locale: string, releaseDirPath: string) =>
   new Promise<number>((resolve, reject) => {
     const cc = spawn(
       'mp3-duration-reporter',
-      [path.join(getReleaseBasePath(), locale, 'clips')],
+      [path.join(releaseDirPath, locale, 'clips')],
       {
         shell: true,
       },
@@ -38,25 +39,25 @@ const runMp3DurationReporterPromise = (locale: string) =>
     cc.on('error', reason => reject(reason))
   })
 
-export const runMp3DurationReporter = (locale: string) => {
+export const mp3DurationReporterPipeline = (locale: string, releaseDirPath: string) => {
   return pipe(
     TE.Do,
     TE.tap(() => TE.fromIO(log('Starting mp3-duration-reporter'))),
     TE.chain(() =>
       TE.tryCatch(
-        () => runMp3DurationReporterPromise(locale),
+        () => runMp3DurationReporterPromise(locale, releaseDirPath),
         reason => Error(String(reason)),
       ),
     ),
   )
 }
 
-export const runMp3DurationReporterE = (): RTE.ReaderTaskEither<
-  ProcessLocaleJob,
+export const runMp3DurationReporter = (): RTE.ReaderTaskEither<
+  AppEnv,
   Error,
   number
 > =>
   pipe(
-    RTE.ask<ProcessLocaleJob>(),
-    RTE.chainTaskEitherK(({ locale }) => runMp3DurationReporter(locale)),
+    RTE.ask<AppEnv>(),
+    RTE.chainTaskEitherK(({ locale, releaseDirPath }) => mp3DurationReporterPipeline(locale, releaseDirPath)),
   )

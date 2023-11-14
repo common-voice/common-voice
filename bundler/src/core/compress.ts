@@ -1,25 +1,14 @@
-import crypto from 'node:crypto'
 import fs from 'node:fs'
 import tar from 'tar'
 import { io as IO, taskEither as TE } from 'fp-ts'
-import { constVoid, pipe } from 'fp-ts/lib/function'
+import { pipe } from 'fp-ts/lib/function'
 import path from 'node:path'
-import { calculateChecksum, prepareDir } from '../infrastructure/filesystem'
-import {
-  getDatasetBundlerBucketName,
-  getReleaseBasePath,
-  getReleaseName,
-  getReleaseTarballsDirPath,
-} from '../config/config'
-import {
-  getMetadataFromFile,
-  streamUploadToBucket,
-} from '../infrastructure/storage'
+import { prepareDir } from '../infrastructure/filesystem'
 import * as RTE from 'fp-ts/readerTaskEither'
-import { ProcessLocaleJob } from '../types'
+import { AppEnv } from '../types'
 
-const generateTarFilename = (locale: string) =>
-  `${getReleaseName()}-${locale}.tar.gz`
+const generateTarFilename = (locale: string, releaseName: string) =>
+  `${releaseName}-${locale}.tar.gz`
 
 const createTarballWriteStream = (outFilepath: string) => {
   return fs.createWriteStream(outFilepath)
@@ -45,9 +34,13 @@ const compress =
     )
 
 const getPathsToAddToTarball =
-  (locale: string): IO.IO<string[]> =>
+  (
+    locale: string,
+    releaseName: string,
+    releaseBasePath: string,
+  ): IO.IO<string[]> =>
   () => {
-    const dir = path.join(getReleaseBasePath(), locale)
+    const dir = path.join(releaseBasePath, locale)
     const paths = fs.readdirSync(dir, {
       encoding: 'utf-8',
       recursive: false,
@@ -55,22 +48,27 @@ const getPathsToAddToTarball =
     // we don't want to include the generated clips.tsv
     return paths
       .filter((path: string) => !path.endsWith('clips.tsv'))
-      .map((pathS: string) => path.join(getReleaseName(), locale, pathS))
+      .map((pathS: string) => path.join(releaseName, locale, pathS))
   }
 
-export const runCompress = (locale: string): TE.TaskEither<Error, string> => {
+const compressPipeline = (
+  locale: string,
+  releaseName: string,
+  releaseBasePath: string,
+  releaseTarballDir: string,
+): TE.TaskEither<Error, string> => {
   console.log('Start compress step')
   return pipe(
     TE.Do,
-    TE.let('tarballDirPath', getReleaseTarballsDirPath),
-    TE.let('tarballFilename', () => generateTarFilename(locale)),
-    TE.let('tarballFilepath', ({ tarballDirPath, tarballFilename }) =>
-      path.join(tarballDirPath, tarballFilename),
+    TE.let('tarballFilename', () => generateTarFilename(locale, releaseName)),
+    TE.let('tarballFilepath', ({ tarballFilename }) =>
+      path.join(releaseTarballDir, tarballFilename),
     ),
-    TE.let('paths', getPathsToAddToTarball(locale)),
-    TE.chainFirst(({ tarballDirPath }) =>
-      TE.fromIO(prepareDir(tarballDirPath)),
+    TE.let(
+      'paths',
+      getPathsToAddToTarball(locale, releaseName, releaseBasePath),
     ),
+    TE.chainFirst(() => TE.fromIO(prepareDir(releaseTarballDir))),
     TE.chainFirst(({ tarballFilepath, paths }) =>
       compress(paths)(tarballFilepath),
     ),
@@ -78,12 +76,16 @@ export const runCompress = (locale: string): TE.TaskEither<Error, string> => {
   )
 }
 
-export const runCompressE = (): RTE.ReaderTaskEither<
-  ProcessLocaleJob,
-  Error,
-  string
-> =>
+export const runCompress = (): RTE.ReaderTaskEither<AppEnv, Error, string> =>
   pipe(
-    RTE.ask<ProcessLocaleJob>(),
-    RTE.chainTaskEitherK(({ locale }) => runCompress(locale)),
+    RTE.ask<AppEnv>(),
+    RTE.chainTaskEitherK(
+      ({ locale, releaseName, releaseDirPath, releaseTarballsDirPath }) =>
+        compressPipeline(
+          locale,
+          releaseName,
+          releaseDirPath,
+          releaseTarballsDirPath,
+        ),
+    ),
   )

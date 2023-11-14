@@ -1,11 +1,10 @@
 import { spawn } from 'node:child_process'
-import { getReleaseBasePath } from '../config/config'
 import path from 'node:path'
 import { taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { log } from 'fp-ts/lib/Console'
 import * as RTE from 'fp-ts/readerTaskEither'
-import { ProcessLocaleJob } from '../types'
+import { AppEnv } from '../types'
 
 export const CORPORA_CREATOR_FILES = [
   'validated.tsv',
@@ -36,13 +35,13 @@ export type CorporaCreaterFile = (typeof CORPORA_CREATOR_FILES)[number]
  * @param locale - The locale for which to generate corpora.
  * @returns A promise representing the result of running the create-corpora command.
  */
-const runCorporaCreatorPromise = (locale: string) =>
+const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
   new Promise<void>((resolve, reject) => {
     const cc = spawn('create-corpora', [
       '-d',
-      path.join(getReleaseBasePath()),
+      path.join(releaseDirPath),
       '-f',
-      path.join(getReleaseBasePath(), locale, 'clips.tsv'),
+      path.join(releaseDirPath, locale, 'clips.tsv'),
     ])
 
     cc.stdout.on('data', data => console.log(`${data}`))
@@ -52,7 +51,7 @@ const runCorporaCreatorPromise = (locale: string) =>
     cc.on('error', reason => reject(reason))
   })
 
-export const runCorporaCreator = (locale: string) => {
+export const corporaCreatorPipeline = (locale: string, releaseDirPath: string) => {
   return pipe(
     TE.Do,
     TE.tap(() =>
@@ -60,7 +59,7 @@ export const runCorporaCreator = (locale: string) => {
     ),
     TE.chain(() =>
       TE.tryCatch(
-        () => runCorporaCreatorPromise(locale),
+        () => runCorporaCreatorPromise(locale, releaseDirPath),
         reason => Error(String(reason)),
       ),
     ),
@@ -70,12 +69,12 @@ export const runCorporaCreator = (locale: string) => {
   )
 }
 
-export const runCorporaCreatorE = (): RTE.ReaderTaskEither<
-  ProcessLocaleJob,
+export const runCorporaCreator = (): RTE.ReaderTaskEither<
+  AppEnv,
   Error,
   void
 > =>
   pipe(
-    RTE.ask<ProcessLocaleJob>(),
-    RTE.chainTaskEitherK(({ locale }) => runCorporaCreator(locale)),
+    RTE.ask<AppEnv>(),
+    RTE.chainTaskEitherK(({ locale, releaseDirPath}) => corporaCreatorPipeline(locale, releaseDirPath)),
   )

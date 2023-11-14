@@ -1,5 +1,3 @@
-import { Settings } from "./infrastructure/queue"
-
 export type ClipRow = {
   id: string
   client_id: string
@@ -24,6 +22,20 @@ export const REPORTED_SENTENCES_COLUMNS = [
 
 export type ReportedSentencesRow = Record<typeof REPORTED_SENTENCES_COLUMNS[number], string>
 
+export type Settings = {
+  type: 'full' | 'delta'
+  from: string
+  until: string
+  releaseName: string
+}
+
 export type ProcessLocaleJob = Settings & {
   locale: string
+}
+
+export type AppEnv = Settings & {
+  locale: string
+  releaseDirPath: string
+  clipsDirPath: string
+  releaseTarballsDirPath: string
 }

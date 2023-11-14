@@ -1,11 +1,10 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import { taskEither as TE } from 'fp-ts'
 import { query } from '../infrastructure/database'
 import { pipe } from 'fp-ts/lib/function'
 import { getQueriesDir } from '../config/config'
 import * as RTE from 'fp-ts/readerTaskEither'
-import { ProcessLocaleJob } from '../types'
+import { AppEnv } from '../types'
 
 const MINIMUM_UNIQUE_SPEAKERS = 5
 
@@ -14,7 +13,7 @@ type UniqueSpeakersForLocale = {
   count: number
 }
 
-export const isMinorityLanguage = (locale: string): TE.TaskEither<Error, boolean> =>
+const fetchUniqueSpeakersForLocale = (locale: string) =>
   pipe(
     query<UniqueSpeakersForLocale>(
       fs.readFileSync(path.join(getQueriesDir(), 'uniqueSpeakersLocale.sql'), {
@@ -22,15 +21,15 @@ export const isMinorityLanguage = (locale: string): TE.TaskEither<Error, boolean
       }),
       [locale],
     ),
-    TE.map(res => res.count < MINIMUM_UNIQUE_SPEAKERS),
   )
 
-export const isMinorityLanguageE = (): RTE.ReaderTaskEither<
-  ProcessLocaleJob,
+export const isMinorityLanguage = (): RTE.ReaderTaskEither<
+  AppEnv,
   Error,
   boolean
 > =>
   pipe(
-    RTE.ask<ProcessLocaleJob>(),
-    RTE.chainTaskEitherK(({ locale }) => isMinorityLanguage(locale)),
+    RTE.ask<AppEnv>(),
+    RTE.chainTaskEitherK(({ locale }) => fetchUniqueSpeakersForLocale(locale)),
+    RTE.map(res => res.count < MINIMUM_UNIQUE_SPEAKERS),
   )
