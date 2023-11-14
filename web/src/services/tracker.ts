@@ -147,12 +147,10 @@ export function trackChallenge(
   track('Challenge', action);
 }
 
-export function trackSingleReview(
+export const trackSingleReview = (
   action: 'vote-yes' | 'vote-no' | 'skip' | 'report-button-click',
   locale: string
-) {
-  track('SingleReview', action, locale);
-}
+) => track('SingleReview', action, locale);
 
 // Error pages send the full previous route as a third argument, which is
 // typically reserved for locale.
