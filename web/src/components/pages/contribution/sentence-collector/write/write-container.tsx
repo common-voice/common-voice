@@ -9,6 +9,8 @@ import BulkSubmissionSuccess from './bulk-submission-write/bulk-submission-succe
 import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
 import { useLocale } from '../../../../locale-helpers'
 
+import { trackSingleSubmission } from '../../../../../services/tracker'
+
 import './write-container.css'
 
 export type WriteSubmissionToggleOptions = 'single' | 'bulk'
@@ -17,13 +19,14 @@ const WriteContainer = () => {
   const [activeWriteOption, setActiveWriteOption] =
     React.useState<WriteSubmissionToggleOptions>('single')
 
-  const handleToggle = (option: WriteSubmissionToggleOptions) => {
-    setActiveWriteOption(option)
-  }
-
+  const [locale] = useLocale()
   const account = useAccount()
   const sentences = useSentences()
-  const [locale] = useLocale()
+
+  const handleToggle = (option: WriteSubmissionToggleOptions) => {
+    trackSingleSubmission('toggle-button-click', locale)
+    setActiveWriteOption(option)
+  }
 
   const isUploadDone = sentences[locale]?.bulkUploadStatus === 'done'
 

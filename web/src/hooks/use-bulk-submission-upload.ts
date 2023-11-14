@@ -2,12 +2,13 @@ import { useState } from 'react'
 import { format } from 'date-fns'
 import { useDispatch } from 'react-redux'
 import { FileRejection } from 'react-dropzone'
+import { useLocalization } from '@fluent/react'
 
 import { useAction, useSentences } from './store-hooks'
 import { Sentences } from '../stores/sentences'
 import { useLocale } from '../components/locale-helpers'
 import { Notifications } from '../stores/notifications'
-import { useLocalization } from '@fluent/react'
+import { trackBulkSubmission } from '../services/tracker'
 
 export type FileInfo = {
   name: string
@@ -85,6 +86,7 @@ const useBulkSubmissionUpload = () => {
             'success'
           )
         )
+        trackBulkSubmission('submit', locale)
       } else {
         handleError()
       }
