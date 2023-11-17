@@ -358,7 +358,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Emboyke ñeñongatu oikóva
 shortcut-submit = Jevy
 shortcut-submit-label = Emondo clips
-request-language-text = Nderejuhúipiko ne ñe’ẽ’ypy Common Voice ndive
+request-language-text = Nderejuhúipiko ne ñe’ẽte Common Voice ndive
 request-language-button = Ejerure peteĩ Ñe’ẽ
 
 ## ProjectStatus
@@ -489,8 +489,8 @@ faq-what-cv-and-deepspeech-q = ¿Mba’épe ojuavy Common Voice ha Deep Speech?
 faq-what-cv-and-deepspeech-a = Common Voice Kuaapy’aty omombareteve Mozilla ñe’ẽkũmbyha rembiporu hérava Deep Speech. Osẽ’ypy jasypateĩ 2017-pe ha mbeguekatúpe iporãve. Roimo’ã opavave oiporukuaava’erã Deep Speech ha Common Voice Kuaapy’aty oñondive, ha’éva mba’eporurã opavavépe g̃uarã. Roipota’asy ko’ã tembiporu oipytyvõ guerojerahárape omoheñóivo ambue tembiporu porãva ha opavavépe g̃uarã.
 faq-is-goal-assistant-q = ¿Common Voice ohupytyséva ha’e ayvu pytyvõha jejapo?
 faq-is-goal-assistant-a = Ore rupytyrã tuichavéva Common Voice kuaapy’aty reheve ha’ehína pe opaite oiporukuaáva ñe’ẽñeikũmby rembiporu iñe’ẽtépe oikotevẽhápe. Tembiporu pytyvõha oñe’ẽkuaávaniko peteĩchante ãichagua rembiporu, ikatu avei ojejapo heta ambue mba’e Common Voice kuaapy’ypy reheve.
-faq-do-want-native-q = Ko ñe’ẽ ndaha’éi cheñe’ẽ’ypy ha ojekuaa upéva cherehe añe’ẽvo, jepémo upéva ikatúpa aipytyvõ avei?
-faq-do-want-native-a = Ikatu, ndeichagua oñe’ẽvakatu roipota avei orepytyvõ! Common Voice ombyatykuaa mba’éichapa ombohyapuambue tapicha oñe’ẽva peteĩ ñe’ẽme, upéva rupi omba’apokuaaporãvéta tembiporu ñe’ẽryapu ñeikũmby rehegua. Ja’ekuaa opaichagua tapicha taha’eha’éva iñe’ẽ’ypy térã nahániri oporopytyvõkuaa.
+faq-do-want-native-q = Ko ñe’ẽ ndaha’éi che ñe’ẽte ha ojekuaa upéva cherehe añe’ẽvo, jepémo upéva aipytyvõkuaápa avei
+faq-do-want-native-a = Ikatu, ndeichagua oñe’ẽvakatu roipota avei orepytyvõ! Common Voice ombyatykuaa mba’éichapa ombohyapuambue tapicha oñe’ẽva, upéva rupi omba’apokuaaporãvéta tembiporu ñe’ẽryapu ñeikũmby rehegua. Ja’ekuaa opaichagua tapicha taha’eha’éva iñe’ẽte térã nahániri oporopytyvõkuaa.
 faq-why-different-speakers-q = Mba’érepa peikotevẽ opaite tapicháre oñe’ẽkuaáva peteĩ ñe’ẽme
 faq-why-different-speakers-a =
     Heta ñe’ẽryapu ñongatupyre oĩva ombyaty mba’éichapa oñe’ẽ sa’i tapicha ha péicha oñembo’yke ambuévape ombohyapuambuévape, techapyrãrõ <articleLink>kuimba’e ha tapicha aty avano’õ iviru sa’ivévape</articleLink>. Ndajaresarekóirõ tapicha aty michĩvévape ombohyapuambuéva peteĩ ñe’ẽ térã iñe’ẽambuéva rehe, opytáta hikuái tapykuépe, ja’eporãsérõ oñembo’ykémavavoi chupekuéra. Heta mohendaha noikũmbykuaái kuña ñe’ẽ ohendúramo.

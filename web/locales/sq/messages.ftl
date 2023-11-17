@@ -908,6 +908,8 @@ listen-empty-state = Na u mbaruan copëzat për vleftësim në këtë gjuhë…
 listen-loading-error =
     S’morëm dot ndonjë copëz audio që ta dëgjoni.
     Ju lutemi, riprovoni më vonë.
+listen-abort-title = Përfunduat vlerësim copëzash?
+listen-abort-cancel = Vazhdoni me vlerësimin
 speak-empty-state = Na u mbaruan frazat për incizim në këtë gjuhë…
 speak-empty-state-cta = Jepni ndihmesë me fraza
 speak-loading-error =
@@ -1653,6 +1655,7 @@ adding-sentences-subheader-special-characters = Shenja Speciale dhe Shkronja të
 adding-sentences-subheader-special-characters-explanation-1 = Shkronjat duhet të jenë të vlefshme për gjuhën që po flitet. Për shembull, “ж” është një shkronjë në alfabetin rus, por s’përdoret kurrë në ndonjë tekst në anglisht.
 adding-sentences-subheader-special-characters-explanation-2 = Gjuhët mund të kenë rregullat e tyre të vleftësimit, me kërkesa shtesë kur përkthehet në to. Nëse nuk ka kartelë specifike vleftësimi për një gjuhë, për kontribuesit do të shfaqen rregullat e anglishtes.
 adding-sentences-subheader-offensive-content = Lëndë Fyese
+adding-sentences-subheader-offensive-content-explanation = Nëse togfjalëshi është fyes, ose shqetësues - për shembull, për shkak lënde ashiqare, apo prej tjetër shkeljeje të <communityGuidelines>udhëzimeve për pjesëmarrje në bashkësinë tonë</communityGuidelines> - duhet ta hidhni poshtë atë togfjalësh. Mundeni edhe të lidheni me ne në <emailFragment>commonvoice@mozilla.com</emailFragment> për t’i shkuar më thellë problemit.
 reviewing-sentences-explanation-1 = Nëse togfjalëshi i plotëson kriteret më sipër, klikoni mbi butonin “Po”
 reviewing-sentences-explanation-2 = Nëse togfjalëshi s’i plotëson kriteret më sipër, klikoni mbi butonin “Jo”
 reviewing-sentences-explanation-3 = Nëse jeni të pasigurt për frazën, mundeni edhe ta anashkaloni frazën dhe të vazhdoni me pasuesen.
@@ -1680,8 +1683,25 @@ single-sentence-submission = Parashtrim i Një Fraze
 bulk-sentence-submission = Parashtrim Frazash Në Masë
 single-sentence = Frazë Njëshe
 bulk-sentences = Mori Frazash
+
+## REVIEW PAGE
+
 sc-review-rules-title = A është në pajtim me udhëzimet fraza?
 sc-review-empty-state = Aktualisht s’ka fraza për shqyrtim në këtë gjuhë.
 report-sc-different-language = Gjuhë tjetër
 report-sc-different-language-detail = Është e shkruar në tjetër gjuhë nga ajo për të cilën po shqyrtoj.
 sentences-fetch-error = Ndodhi një gabim teksa silleshin frazat
+
+## BULK SUBMISSION 
+
+select-file = Përzgjidhni Kartelë
+select-file-mobile = Përzgjidhni Kartelë për Ngarkim
+accepted-files = Lloje të pranuar kartelash: vetëm .tsv
+maximum-file-size = Madhësi maksimum kartelash: 25 MB
+what-needs-to-be-in-file = Ç’është e nevojshme të ketë kartela ime?
+upload-progress-text = Ngarkim në ecuri e sipër…
+bulk-upload-failed-toast = Ngarkimi dështoi, ju lutemi, riprovoni
+file-invalid-type = Kartelë e pavlefshme
+file-too-large = Kartela është shumë e madhe
+file-too-small = Kartela është shumë e vogël
+too-many-files = Shumë kartela
