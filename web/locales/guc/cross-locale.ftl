@@ -1,5 +1,6 @@
 ## Languages
 
+contribute = Akaaliijaa
 get-involved-title = A'yataa sünain { $lang }
 get-involved-email =
     .label = Imeeirü
