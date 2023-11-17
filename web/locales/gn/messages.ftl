@@ -490,7 +490,7 @@ faq-what-cv-and-deepspeech-a = Common Voice Kuaapy’aty omombareteve Mozilla ñ
 faq-is-goal-assistant-q = ¿Common Voice ohupytyséva ha’e ayvu pytyvõha jejapo?
 faq-is-goal-assistant-a = Ore rupytyrã tuichavéva Common Voice kuaapy’aty reheve ha’ehína pe opaite oiporukuaáva ñe’ẽñeikũmby rembiporu iñe’ẽtépe oikotevẽhápe. Tembiporu pytyvõha oñe’ẽkuaávaniko peteĩchante ãichagua rembiporu, ikatu avei ojejapo heta ambue mba’e Common Voice kuaapy’ypy reheve.
 faq-do-want-native-q = Ko ñe’ẽ ndaha’éi che ñe’ẽte ha ojekuaa upéva cherehe añe’ẽvo, jepémo upéva aipytyvõkuaápa avei
-faq-do-want-native-a = Ikatu, ndeichagua oñe’ẽvakatu roipota avei orepytyvõ! Common Voice ombyatykuaa mba’éichapa ombohyapuambue tapicha oñe’ẽva peteĩ ñe’ẽme, upéva rupi omba’apokuaaporãvéta tembiporu ñe’ẽryapu ñeikũmby rehegua. Ja’ekuaa opaichagua tapicha taha’eha’éva iñe’ẽ’ypy térã nahániri oporopytyvõkuaa.
+faq-do-want-native-a = Ikatu, ndeichagua oñe’ẽvakatu roipota avei orepytyvõ! Common Voice ombyatykuaa mba’éichapa ombohyapuambue tapicha oñe’ẽva, upéva rupi omba’apokuaaporãvéta tembiporu ñe’ẽryapu ñeikũmby rehegua. Ja’ekuaa opaichagua tapicha taha’eha’éva iñe’ẽte térã nahániri oporopytyvõkuaa.
 faq-why-different-speakers-q = Mba’érepa peikotevẽ opaite tapicháre oñe’ẽkuaáva peteĩ ñe’ẽme
 faq-why-different-speakers-a =
     Heta ñe’ẽryapu ñongatupyre oĩva ombyaty mba’éichapa oñe’ẽ sa’i tapicha ha péicha oñembo’yke ambuévape ombohyapuambuévape, techapyrãrõ <articleLink>kuimba’e ha tapicha aty avano’õ iviru sa’ivévape</articleLink>. Ndajaresarekóirõ tapicha aty michĩvévape ombohyapuambuéva peteĩ ñe’ẽ térã iñe’ẽambuéva rehe, opytáta hikuái tapykuépe, ja’eporãsérõ oñembo’ykémavavoi chupekuéra. Heta mohendaha noikũmbykuaái kuña ñe’ẽ ohendúramo.
