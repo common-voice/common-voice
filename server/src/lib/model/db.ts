@@ -997,6 +997,9 @@ export default class DB {
       ) s ON l.id = s.locale_id
       `
     );
+
+    const lastFetched = new Date()
+
     return rows.map(
       (row: {
         id: number;
@@ -1012,6 +1015,7 @@ export default class DB {
           targetSentenceCount: row.target_sentence_count,
           currentCount: row.total_sentence_count,
         },
+        lastFetched,
       })
     );
   }
