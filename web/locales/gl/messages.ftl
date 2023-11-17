@@ -732,7 +732,7 @@ datasets-positioning =
     
     O conxunto de datos multilingüe de Common Voice xa é o maior conxunto de datos de voz do seu tipo que está dispoñible publicamente, mais non é o único.
     
-    Empregue esta páxina como centro de referencia para outros conxuntos de datos de voz de código abierto e, a medida que Common Voice siga medrando, como sede das nosas actualizacións.
+    Empregue esta páxina como centro de referencia para outros conxuntos de datos de voz de código aberto e, a medida que Common Voice siga medrando, como sede das nosas actualizacións.
 language = Idioma
 download-dataset-header = Descargar o conxunto de datos
 download-delta-explainer = Fixemos algúns cambios. Os segmentos Delta só conteñen os fragmentos máis recentes desde a última actualización. <deltaLink>Saber máis sobre este traballo</deltaLink>.
