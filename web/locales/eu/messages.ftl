@@ -1105,6 +1105,7 @@ download-recordings-title = Grabazioak
 download-recordings-info = MP3ak eta dagozkien esaldiak ditu, denbora bat behar du prestatzeko
 download-recordings-size = Normalean megabyteak
 download-recordings-unavailable = Ezin dituzu zure grabazioak eskatu beste eskaera bat martxan den bitartean.
+download-recently-requested = { $days } egunetan behin zure grabazioak ateratzeko eska dezakezu.
 download-size = Tamaina
 download-selected = Hautatuta
 download-start = Deskargatu profilaren datuak
@@ -1161,6 +1162,7 @@ demo-listen-subtitle = Laguntzeko prest?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Panel pertsonalek banakako eta komunitateko aurrerapenen berri ematen dizute.
 
 ## Validation criteria
 
@@ -1255,6 +1257,7 @@ sc-home-review-text = Lagun gaitzazu esaldien zuzentasuna gidalerroen arabera be
 
 ## GENERAL
 
+sc-languages-fetch-error = Ezin izan ditugu eskura dauden hizkuntzak eskuratu. Une honetan ezin dira ekarpenak egin. Mesedez, saiatu berriro geroago.
 
 ## HOW-TO
 
@@ -1275,6 +1278,11 @@ sc-howto-review-criteria-6 = Berrikusteko esaldirik gabe geratzen bazara, lagun 
 sc-howto-findpd-title = Aurkitu jabetza publikoan dauden esaldiak
 sc-howto-findpd-subtitle = Bila itzazu Interneten
 sc-howto-findpd-tips = Hemen dituzu zenbait aholku esaldiak aurkitzeko:
+sc-howto-findpd-tips-1 = Bila ditzakezun iturririk onenak podcastak, transkripzioak, filmeen gidoiak eta eguneroko elkarrizketak izan ditzakeen edozein gauza dira.
+sc-howto-findpd-tips-2 = Gobernuaren izapideak, liburuak eta artikuluak ere bikainak dira, hala ere, testua apur bat formalagoa izan ohi denez, lehentasun gutxiago dute.
+sc-howto-findpd-tips-3 = Zoritxarrez oraindik ezin dugu Wikimediako artikulurik izan. Beraz, ez kopiatu itsatsi hortik.
+sc-howto-findpd-subtitle-2 = Tokiko erakunde edo norbanakoekin elkartu
+sc-howto-findpd-partner-1 = Elkarlanean aritzeko prest egon daitezkeen erakunde publiko asko daude, domeinu publiko gisa eman ditzaketen testu asko dagoeneko izan ditzaketenak. Jarri harremanetan tokiko unibertsitate, Gobernu eta kode irekiko erakundeekin proiektuari buruz hitz egiteko eta haien laguntza eskatzeko.
 
 ## MY SENTENCES
 
