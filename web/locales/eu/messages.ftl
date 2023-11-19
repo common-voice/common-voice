@@ -594,6 +594,7 @@ about-playbook-how-localize-content-5 = Ikusi gure azalpen bideoa
 
 about-playbook-how-add-sentences = Nola gehi ditzaket esaldiak?
 about-playbook-how-add-sentences-content-2 = Esaldiak bi pertsonek berrikusi eta onartu behar dituzte Common Voicen sartu aurretik. Zure hizkuntzarentzako gidalerroa sor dezakezu <languageGuidelinesLink>hemen</languageGuidelinesLink>. Esaldiek <licenseLink>jabetza publikoan</licenseLink> egon behar dute eta 15 hitz baino gutxiago izan behar dituzte. Testu baten egileari eska diezaiokezu berau <waiverLink>CC0 bihurtzeko gure salbuespen prozesua erabiliz</waiverLink> eta gero guri bidali: commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = <scraperLink>Sentence extractor</scraperLink> erabil dezakezu Wikipediako esaldi laburrak aprobetxatzeko.
 
 ## How to record quality
 
@@ -606,6 +607,8 @@ about-playbook-how-record-content-5 = <accuracyLink>Ikusi gehiago zehaztasun iri
 
 ## How to grow language
 
+about-playbook-how-grow-language = Nola bultzatu dezakegu modu eraginkorrean hizkuntza bat Common Voicen?
+about-playbook-how-grow-language-content-1 = Jende anitzari Common Voicen ekarpenak egiteko aukerak sortzeak bermatu egiten du datu-sortak ahalik eta jende gehienarentzat balioko duela. Erabil ditzakezun baliabideak eta txantiloiak sortu ditugu!
 about-playbook-how-grow-language-content-2 = Ekitaldiak
 about-playbook-how-grow-language-content-4 = Sare sozialak
 about-playbook-how-grow-language-content-6 = Lankidetzak eta sareak
