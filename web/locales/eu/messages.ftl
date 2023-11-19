@@ -612,10 +612,12 @@ about-playbook-how-grow-language-content-1 = Jende anitzari Common Voicen ekarpe
 about-playbook-how-grow-language-content-2 = Ekitaldiak
 about-playbook-how-grow-language-content-4 = Sare sozialak
 about-playbook-how-grow-language-content-6 = Lankidetzak eta sareak
+about-playbook-how-grow-language-content-8 = <strong>Izan sortzailea!</strong> Zure hizkuntza-komunitatea bakarra da eta hauek lanean hasteko modu batzuk baino ez dira.
 
 ## How to validate
 
 about-playbook-how-validate = Nola jakin ahots grabazio bat onartu behar ote dudan?
+about-playbook-how-validate-content-1 = Berauok <strong>entzun</strong> eta <strong>ulertu</strong> baditzakezu,  <strong>onartu</strong>  itzazu.
 about-playbook-how-validate-content-3 = Ahoskera <strong>ulergaitza</strong> dela, <strong>atzealdeko zarata</strong> dagoela, edo <strong>beste pertsona batzuk hizketan</strong> entzuten badira, grabazio hau baztertu behar zenuke.<accuracyLink>Ikusi informazio gehiago gure zehaztasun irizpideetan</accuracyLink>.
 
 ## How to access dataset
@@ -794,6 +796,10 @@ request-language-google-recaptcha-required = reCAPTCHA ezinbestekoa da aurrera e
 request-language-google-recaptcha-error = Zerbait oker joan da reCAPTCHA-rekin. Saiatu berriro mesedez.
 # Success page
 request-language-success-heading = Eskerrik asko! Hizkuntza berri baten eskaera bidali duzu
+request-language-success-list-1 =
+    Laster jaso beharko zenuke email bat zure
+    hizkuntza Common Voicera gehitzeko urratsak
+    azaltzen dituena
 
 ## Languages Overview
 
@@ -982,6 +988,67 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Ezarri helburu bat
 cant-decide = Ezin duzu erabaki?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Primeran! Zenbat grabazio egunean?
 how-many-a-week = Primeran! Zenbat grabazio astean?
 which-goal-type = Hitz egin, entzun edo biak egin nahi dituzu?
