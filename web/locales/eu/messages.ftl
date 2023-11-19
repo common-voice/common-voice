@@ -1333,6 +1333,7 @@ sc-submit-add-sentences = Gehitu <wikipediaLink>jabetza publikoan</wikipediaLink
 sc-submit-ph-one-per-line =
     .placeholder = Esaldi bat lerro bakoitzeko
 sc-submit-from-where = <wikipediaLink>Jabetza publikoko</wikipediaLink> esaldi hauek nongoak dira?
+sc-submit-confirm = Esaldi hauek <wikipediaLink>domeinu publikoan</wikipediaLink> daudela eta berauok kargatzeko baimena dudala baieztatzen dut.
 sc-submit-button =
     .submitText = Bidali
 
@@ -1598,6 +1599,7 @@ adding-sentences-subheader-length-explanation = Esaldiak 15 hitz baino gutxiago 
 adding-sentences-subheader-spelling-punctuation = Ortografia eta puntuazioa
 adding-sentences-subheader-spelling-punctuation-explanation = Esaldiak ez du akats ortografikorik izan behar.
 adding-sentences-subheader-speakable = Ahoskagarriak
+adding-sentences-subheader-speakable-explanation = Esaldi onenak naturalak eta elkarrizketakoak dira; norbaitek irakurtzeko errazak izan behar dute. Aniztasun fonetikoa eta esaldietan hitz desberdinak garrantzitsuak diren arren, gure boluntario komunitatearentzat esaldien grabaketa ahalik erakargarriena eta entretenigarriena izan dadin saiatzen ari gara.
 adding-sentences-subheader-numbers = Zenbakiak
 adding-sentences-subheader-abbreviations = Laburdurak eta akronimoak
 adding-sentences-subheader-punctuation = Puntuazioa
@@ -1606,6 +1608,8 @@ adding-sentences-subheader-offensive-content = Eduki iraingarria
 adding-sentences-subheader-offensive-content-explanation = Esaldiak ofenditzen edo haserretzen bazaitu - adibidez gure <communityGuidelines>komunitatearen parte-hartze gidalerroak</communityGuidelines> urratsen dituelako - baztertu egin behar zenuke. Arazoaren berri emateko, hemen gurekin harremanetan ere jar zaitezke: <emailFragment>commonvoice@mozilla.com</emailFragment>.
 reviewing-sentences-explanation-1 = Esaldiak goiko irizpideak betetzen baditu, sakatu "Bai" botoia.
 reviewing-sentences-explanation-2 = Esaldiak goiko irizpideak betetzen ez baditu, sakatu "Ez" botoia.
+reviewing-sentences-explanation-3 = Ziur ez bazaude, esaldia saltatu dezakezu eta hurrengora pasa.
+reviewing-sentences-explanation-4 = Berrikusteko esaldirik gabe geratzen bazara, lagun gaitzazu esaldi gehiago biltzen!
 write-page-subtitle = Hemen gehitutako esaldiak publikoki eskuragarriak izango dira cc-0 lizentzia duen datu-sorta batean.
 sentence =
     .label = Esaldia
@@ -1629,6 +1633,8 @@ add-sentence-error = Errorea esaldia gehitzean
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Egiaztatu <icon></icon> esaldi hau linguistikoki zuzena da?
 sc-review-rules-title = Esaldiak gidalerroak betetzen ditu?
 sc-review-empty-state = Orain ez dago esaldirik berrikusteko hizkuntza honetan.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
