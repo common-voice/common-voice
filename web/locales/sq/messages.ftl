@@ -910,6 +910,7 @@ listen-loading-error =
     Ju lutemi, riprovoni më vonë.
 listen-abort-title = Përfunduat vlerësim copëzash?
 listen-abort-cancel = Vazhdoni me vlerësimin
+listen-abort-confirm = Përfundoni vlerësimin
 speak-empty-state = Na u mbaruan frazat për incizim në këtë gjuhë…
 speak-empty-state-cta = Jepni ndihmesë me fraza
 speak-loading-error =
@@ -1660,6 +1661,9 @@ reviewing-sentences-explanation-1 = Nëse togfjalëshi i plotëson kriteret më 
 reviewing-sentences-explanation-2 = Nëse togfjalëshi s’i plotëson kriteret më sipër, klikoni mbi butonin “Jo”
 reviewing-sentences-explanation-3 = Nëse jeni të pasigurt për frazën, mundeni edhe ta anashkaloni frazën dhe të vazhdoni me pasuesen.
 reviewing-sentences-explanation-4 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
+# WRITE PAGE
+write-instruction = Shtoni një togfjalësh <icon></icon> në përkatësi publike
+write-page-subtitle = Togfjalëshat e dhënë këtu do të shtohen te një grup të dhënash të përdorshme publikisht sipas licencës cc-0.
 sentence =
     .label = Frazë
 sentence-input-value = Jepni këtu frazën tuaj në përkatësi publike
@@ -1675,8 +1679,13 @@ new-sentence-rule-4 = Përdorni shkrim dhe pikësim të saktë
 new-sentence-rule-5 = Pa numra dhe shenja speciale
 new-sentence-rule-6 = Pa shkronja gjuhësh të huaja
 new-sentence-rule-7 = Përfshini citim të përshtatshëm
+new-sentence-rule-8 = Më e mira do të ishte i natyrshëm dhe bisedimor ( duhet të jetë e lehtë të lexohet togfjalëshi)
+how-to-cite = Si të citoj?
+how-to-cite-explanation-bold = Citoni me një lidhje URL, ose emrin e plotë të veprës.
+how-to-cite-explanation = Nëse janë fjalët tuaja, thjesht thoni <italicizedText>“Citim i Vetes”</italicizedText>. Na duhet të dimë se ku e gjetët këtë lëndë, që të mund ta kontrollojmë se gjendet nën përkatësi publike dhe se mbi të s’aplikohen kufizime të drejtash kopjimi. Për të tepër informacion rreth citimesh, shihni <guidelinesLink>faqet tonë të Udhëzimeve</guidelinesLink>.
 guidelines = Udhëzime
 contact-us = Lidhuni Me Ne
+add-sentence-success = 1 fjali e mbledhur
 add-sentence-error = Gabim në shtim fraze
 required-field = Ju lutemi, plotësojeni këtë fushë.
 single-sentence-submission = Parashtrim i Një Fraze
@@ -1686,11 +1695,18 @@ bulk-sentences = Mori Frazash
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kontrolloni <icon></icon> a është togfjalësh i saktë nga ana gjuhësore?
 sc-review-rules-title = A është në pajtim me udhëzimet fraza?
 sc-review-empty-state = Aktualisht s’ka fraza për shqyrtim në këtë gjuhë.
 report-sc-different-language = Gjuhë tjetër
 report-sc-different-language-detail = Është e shkruar në tjetër gjuhë nga ajo për të cilën po shqyrtoj.
 sentences-fetch-error = Ndodhi një gabim teksa silleshin frazat
+review-error = Ndodhi një gabim teksa shqyrtohej ky togfjalësh
+review-error-rate-limit-exceeded = Po ecni shumë shpejt. Ju lutemi, ndaluni një çast të shqyrtoni togfjalëshin, për t’u siguruar se është i saktë.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Po bëjmë disa ndryshime të mëdha
+sc-redirect-page-subtitle-1 = Grumbulluesi i Togfjalëshave po kalon te platforma bazë e Common Voice-it. Tani mund të <writeURL>shkruani</writeURL> në togfjalësh, ose të <reviewURL>shqyrtoni</reviewURL> parashtrime togfjalëshash njësh te Common Voice.
 
 ## BULK SUBMISSION 
 
