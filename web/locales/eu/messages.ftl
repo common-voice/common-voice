@@ -1271,7 +1271,7 @@ sc-howto-review-title = Berrikusi esaldiak
 sc-howto-review-subtitle = Ziurtatu esaldiek ondoko irizpideak betetzen dituztela:
 sc-howto-review-criteria-1 = Esaldiek ez dute akats ortografikorik izan behar.
 sc-howto-review-criteria-2 = Esaldiak ez du akats gramatikorik izan behar.
-sc-howto-review-criteria-3 = Esaldiak ahoskagarriak izan behar dira.
+sc-howto-review-criteria-3 = Esaldia ahoskagarria izan behar da.
 sc-howto-review-criteria-4 = Esaldiak irizpideak betetzen baditu, sakatu "Onartu" botoia.
 sc-howto-review-criteria-5 = Esaldiak goiko irizpideak betetzen ez baditu, sakatu "Baztertu" botoia. Esaldi honekin zalantzak badituzu, saltatu dezakezu eta hurrengora pasa.
 sc-howto-review-criteria-6 = Berrikusteko esaldirik gabe geratzen bazara, lagun gaitzazu esaldi gehiago biltzen!
@@ -1289,23 +1289,34 @@ sc-howto-findpd-partner-2 = Hizkuntzalari adituek ere lagun dezakete, saiatu tok
 
 sc-my-title = Nire esaldiak
 sc-my-loading = Zure esaldiak kargatzen…
+sc-my-err-fetching = Errore bat gertatu da zure esaldiak eskuratzean. Saiatu berriro mesedez.
 sc-my-no-sentences = Ez da esaldirik aurkitu!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Bidalketa: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Iturria:  { $source }
 sc-my-delete = Ezabatu hautatutako esaldiak
 sc-my-deleting = Hautatutako esaldiak ezabatzen…
+sc-my-err-failed-delete = Ezin izan dira hautatutako esaldiak ezabatu… Saiatu berriro mesedez!
 
 ## REJECTED
 
 sc-rejected-title = Baztertutako esaldiak
 sc-rejected-loading = Baztertutako esaldiak kargatzen…
+sc-rejected-err-fetching = Errore bat gertatu da baztertutako esaldiak eskuratzean. Saiatu berriro mesedez.
 sc-rejected-none-found = Ez da baztertutako esaldirik aurkitu!
 
 ## STATS
 
 sc-stats-title = Estatistikak
 sc-stats-updating = Eguneratzen…
+sc-stats-error = Ezin izan ditugu estatistikak eskuratu. Mesedez, saiatu berriro geroago.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector-ek { $sentenceCount } esaldi bildu ditu { $languageCount } hizkuntzetan!
 
 ## ADD
 
@@ -1454,7 +1465,7 @@ sc-criteria-title = Berrikusketa irizpideak
 sc-criteria-make-sure = Ziurtatu esaldiek ondoko irizpideak betetzen dituztela:
 sc-criteria-item-1 = Esaldiek ez dute akats ortografikorik izan behar.
 sc-criteria-item-2 = Esaldiak ez du akats gramatikorik izan behar.
-sc-criteria-item-3 = Esaldiak ahoskagarriak izan behar dira.
+sc-criteria-item-3 = Esaldia ahoskagarria izan behar da.
 sc-criteria-item-4 =
     Esaldiak irizpideak betetzen baditu, sakatu
     eskuineko &quot;Onartu&quot; botoia.
@@ -1586,6 +1597,7 @@ adding-sentences-subheader-length = Luzera
 adding-sentences-subheader-length-explanation = Esaldiak 15 hitz baino gutxiago izan behar ditu.
 adding-sentences-subheader-spelling-punctuation = Ortografia eta puntuazioa
 adding-sentences-subheader-spelling-punctuation-explanation = Esaldiak ez du akats ortografikorik izan behar.
+adding-sentences-subheader-speakable = Ahoskagarriak
 adding-sentences-subheader-numbers = Zenbakiak
 adding-sentences-subheader-abbreviations = Laburdurak eta akronimoak
 adding-sentences-subheader-punctuation = Puntuazioa
