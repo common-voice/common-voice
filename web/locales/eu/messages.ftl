@@ -1283,6 +1283,7 @@ sc-howto-findpd-tips-2 = Gobernuaren izapideak, liburuak eta artikuluak ere bika
 sc-howto-findpd-tips-3 = Zoritxarrez oraindik ezin dugu Wikimediako artikulurik izan. Beraz, ez kopiatu itsatsi hortik.
 sc-howto-findpd-subtitle-2 = Tokiko erakunde edo norbanakoekin elkartu
 sc-howto-findpd-partner-1 = Elkarlanean aritzeko prest egon daitezkeen erakunde publiko asko daude, domeinu publiko gisa eman ditzaketen testu asko dagoeneko izan ditzaketenak. Jarri harremanetan tokiko unibertsitate, Gobernu eta kode irekiko erakundeekin proiektuari buruz hitz egiteko eta haien laguntza eskatzeko.
+sc-howto-findpd-partner-2 = Hizkuntzalari adituek ere lagun dezakete, saiatu tokiko unibertsitate linguistikoak kontaktatzen (irakasleak zein ikasleak) eta ea zure hizkuntzan soinu askotako esaldi multzo bat biltzen lagun dezaketen.
 
 ## MY SENTENCES
 
