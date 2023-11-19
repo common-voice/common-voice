@@ -7,6 +7,8 @@
 
 ## Languages
 
+en = Inküleenaiki
+es = Alijunaiki
 
 # [/]
 
