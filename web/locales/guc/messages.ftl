@@ -21,6 +21,8 @@ es = Alijunaiki
 
 ## Home Page
 
+vote-yes = aa
+vote-no = nnojo
 
 ## Account Benefits
 
