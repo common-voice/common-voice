@@ -23,7 +23,7 @@ const processPipeline = pipe(
   RTE.chainFirst(runReportedSentences),
   RTE.bind('tarFilepath', runCompress),
   RTE.bind('uploadPath', ({ tarFilepath }) => runUpload(tarFilepath)),
-  RTE.chainFirst(({ totalDurationInMs, tarFilepath }) =>
+  RTE.bind('stats', ({ totalDurationInMs, tarFilepath }) =>
     runStats(totalDurationInMs, tarFilepath),
   ),
 )

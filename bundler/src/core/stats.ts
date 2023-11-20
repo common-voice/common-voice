@@ -267,7 +267,6 @@ export const statsPipeline = (
       mergeStats(locale, stats, statCounts, checksum, fileSize),
     ),
     TE.map(calculateDurations(locale)(totalDurationInMs)),
-    TE.tap(stats => TE.of(console.log(util.inspect(stats, { depth: 5 })))),
   )
 
 export const runStats = (
