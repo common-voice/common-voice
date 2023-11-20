@@ -5,5 +5,6 @@ describe('The Home Page', () => {
     cy.contains('Common Voice')
     cy.contains('Speak')
     cy.contains('Listen')
+    cy.get('[data-testid=home]').should('exist')
   })
 })

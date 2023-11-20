@@ -286,7 +286,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           )}
         </div>
         <NonProductionBanner />
-        <main id="content" className={className}>
+        <main
+          id="content"
+          className={className}
+          data-testid={pathParts[2] ? pathParts.slice(2).join(' ') : 'home'}>
           {children ? children : <Content location={location} />}
         </main>
         {shouldHideFooter ? <></> : <Footer />}
