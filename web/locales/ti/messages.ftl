@@ -140,6 +140,7 @@ my = ቡርሚስ
 myv = ኢርዝያ
 nan-tw = ታውይዋኒስ
 nb-NO = ኖርወጂያን ቦካማሊ
+nd = IsiNdebele(ሰሜን)
 ne-NP = ነፓሊ
 nhe = ምብራቓዊ ሁዋስተካ ናዋትል
 nhi = ምዕራባዊ ሴራ ፑኤብላ ናዋትል
@@ -638,19 +639,34 @@ about-playbook-how-add-sentences-content-3 = ካብ ዊኪፒዲያ ሓጸርቲ
 
 about-playbook-how-record-quality = ልዑል ብቕዓት ዘለዎ ናይ ድምጺ ጽሬት ብኸመይ ክቐርጾ ይኽእል?
 about-playbook-how-record-content-2 = ብዙሕ ድሕረ ባይታ ድምጺ ኣወግድ - ንኽትሰምዓካ ቀሊል ክኸውን ኣለዎ።
+about-playbook-how-record-content-3 = ነቲ ሓረግ ብጥንቃቐ ኣንብቦ - ኣይትስሓቶም፡ ኣይትቐይር ወይ ቃላት ኣይትውስኽ።
+about-playbook-how-record-content-4 = ቅድሚ ምዝራብካ እቲ መድረኽ ይቐርጽ ከምዘሎ ኣረጋግጽ፣ ምስ ወዳእካ ጥራይ’ውን ደው ከም ዝብል ኣረጋግጽ
+about-playbook-how-record-content-5 = <accuracyLink>ብዛዕባ መዐቀኒታት ልክዕነት ዝያዳ ርአ።</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = ከመይ ጌርና ኣብ ናይ ሓባር ድምጺ ቋንቋ ብኣድማዒ መንገዲ ከነዕብዮ ንኽእል?
+about-playbook-how-grow-language-content-1 = ዝተፈላለዩ ሰባት ኣብ ናይ ኮመን ቮይስ  ኣበርክቶ ንኽገብሩ ዕድላት ምፍጣር፡ እቲ ዳታሴት ብዝተኻእለ መጠን ንብዙሓት ሰባት ከም ዘገልግል የረጋግጽ። ክትጥቀሙሉ እትኽእሉ ጸጋታትን ቅጥዕታትን ሰሪሕና ኣለና፦
+about-playbook-how-grow-language-content-2 = ፍጻመታት
 about-playbook-how-grow-language-content-4 = ማሕበረዊ ገጻት
+about-playbook-how-grow-language-content-6 = ምሕዝነትን መርበባትን
+about-playbook-how-grow-language-content-8 = <strong>ፈጠራ ውሰድ!</strong> ማሕበረሰብ ቋንቋኻ ፍሉይ ክኸውን እዩ፣ እዚኦም ድማ ውሑዳት መገድታት ጥራይ እዮም።
 
 ## How to validate
 
+about-playbook-how-validate = ናይ ድምጺ ክሊፕ ከጽድቕ ከምዘለኒ ብኸመይ ክፈልጥ እኽእል?
+about-playbook-how-validate-content-1 = <strong>ክትሰምዖም</strong>ን <strong>ክትርድኦምን</strong> እንተትኽእል፡ መብዛሕትኡ ግዜ <strong>ምጽዳቕ</strong> ዝበለጸ’ዩ።
+about-playbook-how-validate-content-2 = <strong>እቲ ተዛራባይ ካብ ናትካ ዝተፈልየ ‘ላህጃ ዘለዎ’ ክሊፓት ኣይትነጸግ</strong> - እዚ ንኹሉ ሰብ ብዝበለጸ ንኽሰርሕ ድምጺ ምልላይ ኣገዳሲ እዩ።
+about-playbook-how-validate-content-3 = እቲ ኣደማምጻ ንምርዳእ <strong>ዘይከኣል</strong> ዝገብሮ እንተመሲሉካ፡ ወይ <strong>ብዙሕ ድሕረ ባይታ ድምጺ</strong> እንተሃልዩ፡ ወይ <strong>ካልኦት ሰባት እውን ይዛረቡ</strong> ኣለዉ፡ ሽዑ ንስኻ ነቲ ክሊፕ ክነጽጎ ይግባእ። <accuracyLink>ተወሳኺ ሓበሬታ ኣብ መዐቀኒታት ልክዕነትና</accuracyLink> ርአ።
+about-playbook-how-validate-content-4 = ሓደ ክሊፕ ብ2 ሰባት እንተተነጺጉ ኣብ ዝተፈላለየ ንኡስ ስብስብ ናይቲ ዳታሴት ይለቐቕ።
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = ነቲ ዳታሰተ ብኸመይ ክረኽቦን ክጥቀመሉን እኽእል?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = ናይ ፕሮጀክት ውሳነታት ብኸመይ ይግበር?
 about-playbook-how-project-governance-content-2 = ኣመራርሓና ኣብዚ ዝተሰረተ እዩ፦
 about-playbook-how-project-governance-content-3 = ስቱርነት፣ ውሕስነትን ግሉጽነትን።
 about-playbook-how-project-governance-content-4 = ኮማዊ ተሳትፎን ምርገጺ ምውሳድን።
@@ -724,6 +740,8 @@ datasets-positioning =
     
     ነዛ ገጽ እዚኣ ኻልእ ክፉት ምንጪ ዘለዎ ናይ ድምጺ ሓበሬታ ንምርካብ ከም መወከሲ ማእከል ገይርካ ርኣያ ሓባራዊ ድምጺ እናዓበየ ምስ ከደ ኸኣ ነቲ ናይ ምውጻእ እዋናዊ ሓበሬታ እንህበሉ ቤት ከም ዝዀነት ጌርካ ርኣያ።
 language = ቛንቛ
+download-dataset-header = ነቲ ናይ ዳታ-ሰተድ ኣውርድ
+download-dataset-tag = ነቲ እትደልዮ ናይ ቋንቋ ዳታ-ሰት ምረጽ እሞ ነቲ ክትወርድዎ እትደልዩ ሕታም ምረጽ።
 # File size in gigabytes
 size = ዓቐን
 validated-hr-total = ዝተረጋገጸ ሰዓታት
@@ -738,6 +756,7 @@ confirm-size = <b>{ $size } </b> ከተራግፍ ተዳሊኻ ኣለኻ ።
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = ንመንነት እቶም ኣብ ናይ ኮመን ቮይስ ሓበሬታ ዘለዉ ተዛረብቲ ንምልላይ ከይትፍትን <b>ትሰማምዓሉ ኢኻ</b>
+confirm-join-mailing-list = ኣብ ዝርዝር ናይ ሓባር ድምጺ ክጽንበር ደልየ ኣለኹ
 download-language = { $language } ኣውርድ
 validated-hours = ቅቡል ሰዓታት
 recorded-hours = ናይ ቀረጻ ሰዓታት
@@ -771,6 +790,7 @@ close = ዕጾ
 download = ኣውርድ
 dataset-version = ሕታም
 sha256-checksum-copied = SHA256 ድምር ተቐዲሑ!
+clipboard-not-supported = ክሊፕቦር ኣይድገፍን
 
 ## Download Modal
 
@@ -808,12 +828,19 @@ request-language-form-email =
     .label = ኢመይልኩም
 request-language-form-info =
     .label = ሓበሬታ ብዛዕባ እዚ ቛንቛ
+request-language-form-info-explanation =
+    ብዛዕባ እቲ ቋንቋ ብዝተኻእለካ መጠን ሓበሬታ ወስኸሉ። እዚ
+    ከጠቓልል ይኽእል እዩ፤
 request-language-form-info-explanation-list-1 = ኣስማት ናይዚ ቛንቛ
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO ኮዳት</isoCodeLink> እንተተፈሊጡ
 request-language-form-info-explanation-list-3 = ብዛዕባ እዚ ቛንቛ ዝያዳ ክንርዳእ ክሕግዙና ዝኽእሉ መርበብ ሓበሬታት ጥቐስ
 request-language-google-recaptcha-required = ክትቅጽሉ እንተኾንኩም reCAPTCHA ከድልየኩም እዩ
 request-language-google-recaptcha-error = ምስቲ ዘእተኻዩ reCAPTCHA ገለ ሽግር ኣጋጢሙ፡ መሊስካ ኣእትዉ።
 # Success page
 request-language-success-heading = የቐንየልና! ብዛዕባ ሓድሽ ቛንቛ መመልከቲ ኣእቲኻ ኣሎኻ።
+request-language-success-list-1 =
+    ኣብ ሓጺር ግዜ መብርሂ ዝህብ ኢመይል ክመጸኩም ይግባእ።
+    ቋንቋኻ ናብ Common Voice ንኽውሰኽ ዝሕግዙ ስጉምትታት
 
 ## Languages Overview
 
@@ -831,6 +858,7 @@ language-speakers = ተዛረብቲ
 localized = ዝተተርጎመ
 sentences = ምሉእ ሓሳባት
 language-validation-hours = ሰዓታት
+language-validation-progress = ናይ መረጋገጺ ምዕባለ
 
 ## Contribution
 
@@ -886,8 +914,14 @@ listen-again-instruction = ብሉጽ ስራሕ! <playIcon></playIcon> ምስ ተ
 listen-3rd-time-instruction = 2 ንታሕቲ, ቀጽል!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>ናይ መወዳእታ!
 listen-empty-state = ነዚ ቛንቋ እዚ ንምርግጋጽ ክሊፕታት ተወዲኡና ኣሎ
+listen-loading-error =
+    ክትሰምዕ እትኽእሉ ዝኾነ ናይ ሓጺር-ድምጺ ክንረክብ ኣይከኣልናን።
+    ጸኒሕካ እንደገና ፈትን።
 speak-empty-state = በዚ ቛንቃ ምቅራጽ ዘድልዩ ሙልእሓሳባት ተውዲኡ ኣሎ።
 speak-empty-state-cta = ምሉእ ሓሳባት ኣበርክት
+speak-loading-error =
+    ክትዛረበሉ እትኽእል ዝኾነ ሓረግ ክንረክብ ኣይከኣልናን።
+    ጸኒሕካ እንደገና ፈትን።
 record-button-label = ድምጽኻ ቅዳሕ
 share-title-new = ተወሳኺ ድምጽታት ክንረክብ <bold>ሓግዙና</bold>
 keep-track-profile = ንዕብየት ኣበርክቶኻ ብድሕረ ባይታኻ ጌርካ ተኻታተሎ
@@ -900,6 +934,8 @@ target-segment-learn-more = ተወሳኺ ሓበሬታ
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = ምእካብ ድምጺ
+contribute-sentence-collection-nav-header = መአከቢ ሙሉእ ሓሳባት
 
 ## Reporting
 
@@ -1145,10 +1181,15 @@ contribution-misreadings-example-3-title = እቶም ዓርሞሽሽ ዳይና�
 contribution-misreadings-example-4-title = እቶም ዓርሞሽሽ ዳይናሶራት ናይ ትርያሲክ። እወ።
 contribution-misreadings-example-5-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
 contribution-misreadings-example-6-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
+contribution-misreadings-example-6-explanation = [“ንሕና” ክኸውን ይግባእ]።
 contribution-misreadings-example-7-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
+contribution-misreadings-example-7-explanation = [ኣብቲ ፎሎማ ጽሑፍ ‘a’ የለን]
 contribution-misreadings-example-8-title = ባምብልቢ ብፍጥነት ሓሊፉ
+contribution-varying-pronunciations-title = ዝተፈላለየ ኣደማምጻታት
+contribution-varying-pronunciations-example-1-title = ኣብ ርእሱ ከቢብ ቆቢዕ ተኸዲኑ ነበረ።
 contribution-varying-pronunciations-example-2-title = ኢዱ ተላዒላ ነይራ።
 contribution-background-noise-title = ኣከባያዊ ረበሻታት
+contribution-background-noise-example-2-explanation = [ክፋል ናይ’ቲ ጽሑፍ ክስማዕ ኣይክእልን’ዩ።]
 contribution-background-voices-title = ኣከባያዊ ድምጽታት
 contribution-volume-title = ድምጺ
 contribution-reader-effects-title = ጽልዋ ኣንባቢ
@@ -1206,6 +1247,7 @@ sc-howto-review-criteria-6 = ዝህየስ ምሉእ ሓሳባት እንተተወ
 
 ## MY SENTENCES
 
+sc-my-err-fetching = ሓረጋትካ ኣብ እተምጽኣሉ እዋን ጌጋ።  በጃኹም ደጊምኩም ፈትኑ።
 sc-my-no-sentences = ዝኾነ ምሉእ ሓሳባት ኣይተረኽበን!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
@@ -1229,6 +1271,10 @@ sc-rejected-none-found = ዝተነጽገ ምሉእ ሓሳት የለን!
 sc-stats-title = ጸብጻብ
 sc-stats-updating = ኣብ ምጽዓን…
 sc-stats-error = ጸብጻብ ክጸዓን ኣይተኻእለን። ጸኒሕካ ፈትን።
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = ናይ ሓባር ድምጺ ሓረጋት ኣካቢ { $sentenceCount } ሓረጋት ብ { $languageCount } ቋንቋታት ኣኪቡ ኣሎ!
 
 ## ADD
 
@@ -1248,10 +1294,21 @@ sc-submit-button =
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = እዚ ቛንቛ ከእትዎ ኣይከኣልኩን።
+sc-add-lang-sec-label = ኣበርክቶ ክትገብረሉ እትደሊ ቋንቋ ወስኸሉ።
 sc-add-lang-sec-button = ቛንቛ ኣእቱ
+sc-add-err-unexpected = ዘይተጸበናዮ መልሲ ካብ ሰርቨር ተመሊሱ
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] ዝቐረቡ ሓረጋት። { $duplicates } ሓረጋት ከም ተደጋጋሚ ተነጺጎም።
+        [one] ዝቐረቡ ሓረጋት። { $duplicates } ዝብል ሓረግ ከም ድፕሊኬት ተነጺጉ።
+       *[other] ዝቐረቡ ሓረጋት። { $duplicates } ሓረጋት ከም ተደጋጋሚ ተነጺጎም።
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = ሓደስቲ ሓረጋት ኣረጋግጽ
 sc-confirm-button-text = ኣረጋግጽ
 
 ## LANGUAGE INFO
