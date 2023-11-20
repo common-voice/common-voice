@@ -2749,10 +2749,10 @@
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
-"@types/archiver@5.3.3":
-  version "5.3.3"
-  resolved "https://registry.yarnpkg.com/@types/archiver/-/archiver-5.3.3.tgz#9cb632a67060602b1658c669b498d51dd8ce08ab"
-  integrity sha512-0ABdVcXL6jOwNGY+hjWPqrxUvKelBEwNLcuv/SV2vZ4YCH8w9NttFCt+/QqI5zgMX+iX/XqVy89/r7EmLJmMpQ==
+"@types/archiver@5.3.4":
+  version "5.3.4"
+  resolved "https://registry.yarnpkg.com/@types/archiver/-/archiver-5.3.4.tgz#32172d5a56f165b5b4ac902e366248bf03d3ae84"
+  integrity sha512-Lj7fLBIMwYFgViVVZHEdExZC3lVYsl+QL0VmdNdIzGZH544jHveYWij6qdnBgJQDnR7pMKliN9z2cPZFEbhyPw==
   dependencies:
     "@types/readdir-glob" "*"
 
@@ -3093,10 +3093,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.2.tgz#ee771e2ba4b3dc5b372935d549fd9617bf345b8c"
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
-"@types/mysql@2.15.21":
-  version "2.15.21"
-  resolved "https://registry.yarnpkg.com/@types/mysql/-/mysql-2.15.21.tgz#7516cba7f9d077f980100c85fd500c8210bd5e45"
-  integrity sha512-NPotx5CVful7yB+qZbWtXL2fA4e7aEHkihHLjklc6ID8aq7bhguHgeIoC1EmSNTAuCgI6ZXrjt2ZSaXnYX0EUg==
+"@types/mysql@2.15.24":
+  version "2.15.24"
+  resolved "https://registry.yarnpkg.com/@types/mysql/-/mysql-2.15.24.tgz#ccdb7de49567d4bb5029b6f13a49342167b0370a"
+  integrity sha512-I0qULi8JBEg0oso69Fe4H4QPR+IdE0yRhZLu3uRhGwQ92m2Epz1cSD5jnXY0nMeZQKd61U8EvnOVMbNE74o3Kw==
   dependencies:
     "@types/node" "*"
 
@@ -4440,9 +4440,9 @@ caniuse-lite@^1.0.30001317:
   integrity sha512-xjlIAFHucBRSMUo1kb5D4LYgcN1M45qdKP++lhqowDpwJwGkpIRTt5qQqnhxjj1vHcI7nrJxWhCC1ATrCEBTcw==
 
 caniuse-lite@^1.0.30001541:
-  version "1.0.30001561"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001561.tgz#752f21f56f96f1b1a52e97aae98c57c562d5d9da"
-  integrity sha512-NTt0DNoKe958Q0BE0j0c1V9jbUzhBxHIEJy7asmGrpE0yG63KTV7PLHPnK2E1O9RsQrQ081I3NLuXGS6zht3cw==
+  version "1.0.30001562"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001562.tgz#9d16c5fd7e9c592c4cd5e304bc0f75b0008b2759"
+  integrity sha512-kfte3Hym//51EdX4239i+Rmp20EsLIYGdPkERegTgU19hQWCRhsRFGKHTliUlsry53tv17K7n077Kqa0WJU4ng==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -5486,9 +5486,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.4.535:
-  version "1.4.581"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.581.tgz#23b684c67bf56d4284e95598c05a5d266653b6d8"
-  integrity sha512-6uhqWBIapTJUxgPTCHH9sqdbxIMPt7oXl0VcAL1kOtlU6aECdcMncCrX5Z7sHQ/invtrC9jUQUef7+HhO8vVFw==
+  version "1.4.583"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.583.tgz#7b0ac4f36388da4b5485788adb92cd7dd0abffc4"
+  integrity sha512-93y1gcONABZ7uqYe/JWDVQP/Pj/sQSunF0HVAPdlg/pfBnOyBMLlQUxWvkqcljJg1+W6cjvPuYD+r1Th9Tn8mA==
 
 emittery@^0.8.1:
   version "0.8.1"

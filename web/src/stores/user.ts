@@ -7,6 +7,25 @@ export const VISIBLE_FOR_NONE = 0;
 export const VISIBLE_FOR_ALL = 1;
 export const VISIBLE_FOR_TEAM = 2;
 
+function getDefaultState(): User.State {
+  return {
+    userId: generateGUID(),
+    authToken: generateToken(),
+    email: null,
+    sendEmails: false,
+    hasDownloaded: false,
+    privacyAgreed: false,
+    recordTally: 0,
+    validateTally: 0,
+    isSubscribedToMailingList: false,
+
+    userClients: [],
+    isFetchingAccount: true,
+    account: null,
+  };
+}
+
+// eslint-disable-next-line @typescript-eslint/no-namespace
 export namespace User {
   export interface State {
     userId: string;
@@ -22,24 +41,6 @@ export namespace User {
     isFetchingAccount: boolean;
     isSubscribedToMailingList: boolean;
     account: UserClient;
-  }
-
-  function getDefaultState(): State {
-    return {
-      userId: generateGUID(),
-      authToken: generateToken(),
-      email: null,
-      sendEmails: false,
-      hasDownloaded: false,
-      privacyAgreed: false,
-      recordTally: 0,
-      validateTally: 0,
-      isSubscribedToMailingList: false,
-
-      userClients: [],
-      isFetchingAccount: true,
-      account: null,
-    };
   }
 
   enum ActionType {

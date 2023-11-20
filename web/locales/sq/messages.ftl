@@ -908,6 +908,9 @@ listen-empty-state = Na u mbaruan copëzat për vleftësim në këtë gjuhë…
 listen-loading-error =
     S’morëm dot ndonjë copëz audio që ta dëgjoni.
     Ju lutemi, riprovoni më vonë.
+listen-abort-title = Përfunduat vlerësim copëzash?
+listen-abort-cancel = Vazhdoni me vlerësimin
+listen-abort-confirm = Përfundoni vlerësimin
 speak-empty-state = Na u mbaruan frazat për incizim në këtë gjuhë…
 speak-empty-state-cta = Jepni ndihmesë me fraza
 speak-loading-error =
@@ -1653,10 +1656,14 @@ adding-sentences-subheader-special-characters = Shenja Speciale dhe Shkronja të
 adding-sentences-subheader-special-characters-explanation-1 = Shkronjat duhet të jenë të vlefshme për gjuhën që po flitet. Për shembull, “ж” është një shkronjë në alfabetin rus, por s’përdoret kurrë në ndonjë tekst në anglisht.
 adding-sentences-subheader-special-characters-explanation-2 = Gjuhët mund të kenë rregullat e tyre të vleftësimit, me kërkesa shtesë kur përkthehet në to. Nëse nuk ka kartelë specifike vleftësimi për një gjuhë, për kontribuesit do të shfaqen rregullat e anglishtes.
 adding-sentences-subheader-offensive-content = Lëndë Fyese
+adding-sentences-subheader-offensive-content-explanation = Nëse togfjalëshi është fyes, ose shqetësues - për shembull, për shkak lënde ashiqare, apo prej tjetër shkeljeje të <communityGuidelines>udhëzimeve për pjesëmarrje në bashkësinë tonë</communityGuidelines> - duhet ta hidhni poshtë atë togfjalësh. Mundeni edhe të lidheni me ne në <emailFragment>commonvoice@mozilla.com</emailFragment> për t’i shkuar më thellë problemit.
 reviewing-sentences-explanation-1 = Nëse togfjalëshi i plotëson kriteret më sipër, klikoni mbi butonin “Po”
 reviewing-sentences-explanation-2 = Nëse togfjalëshi s’i plotëson kriteret më sipër, klikoni mbi butonin “Jo”
 reviewing-sentences-explanation-3 = Nëse jeni të pasigurt për frazën, mundeni edhe ta anashkaloni frazën dhe të vazhdoni me pasuesen.
 reviewing-sentences-explanation-4 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
+# WRITE PAGE
+write-instruction = Shtoni një togfjalësh <icon></icon> në përkatësi publike
+write-page-subtitle = Togfjalëshat e dhënë këtu do të shtohen te një grup të dhënash të përdorshme publikisht sipas licencës cc-0.
 sentence =
     .label = Frazë
 sentence-input-value = Jepni këtu frazën tuaj në përkatësi publike
@@ -1672,16 +1679,58 @@ new-sentence-rule-4 = Përdorni shkrim dhe pikësim të saktë
 new-sentence-rule-5 = Pa numra dhe shenja speciale
 new-sentence-rule-6 = Pa shkronja gjuhësh të huaja
 new-sentence-rule-7 = Përfshini citim të përshtatshëm
+new-sentence-rule-8 = Më e mira do të ishte i natyrshëm dhe bisedimor ( duhet të jetë e lehtë të lexohet togfjalëshi)
+how-to-cite = Si të citoj?
+how-to-cite-explanation-bold = Citoni me një lidhje URL, ose emrin e plotë të veprës.
+how-to-cite-explanation = Nëse janë fjalët tuaja, thjesht thoni <italicizedText>“Citim i Vetes”</italicizedText>. Na duhet të dimë se ku e gjetët këtë lëndë, që të mund ta kontrollojmë se gjendet nën përkatësi publike dhe se mbi të s’aplikohen kufizime të drejtash kopjimi. Për të tepër informacion rreth citimesh, shihni <guidelinesLink>faqet tonë të Udhëzimeve</guidelinesLink>.
 guidelines = Udhëzime
 contact-us = Lidhuni Me Ne
+add-sentence-success = 1 fjali e mbledhur
 add-sentence-error = Gabim në shtim fraze
 required-field = Ju lutemi, plotësojeni këtë fushë.
 single-sentence-submission = Parashtrim i Një Fraze
 bulk-sentence-submission = Parashtrim Frazash Në Masë
 single-sentence = Frazë Njëshe
 bulk-sentences = Mori Frazash
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kontrolloni <icon></icon> a është togfjalësh i saktë nga ana gjuhësore?
 sc-review-rules-title = A është në pajtim me udhëzimet fraza?
 sc-review-empty-state = Aktualisht s’ka fraza për shqyrtim në këtë gjuhë.
 report-sc-different-language = Gjuhë tjetër
 report-sc-different-language-detail = Është e shkruar në tjetër gjuhë nga ajo për të cilën po shqyrtoj.
 sentences-fetch-error = Ndodhi një gabim teksa silleshin frazat
+review-error = Ndodhi një gabim teksa shqyrtohej ky togfjalësh
+review-error-rate-limit-exceeded = Po ecni shumë shpejt. Ju lutemi, ndaluni një çast të shqyrtoni togfjalëshin, për t’u siguruar se është i saktë.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Po bëjmë disa ndryshime të mëdha
+sc-redirect-page-subtitle-1 = Grumbulluesi i Togfjalëshave po kalon te platforma bazë e Common Voice-it. Tani mund të <writeURL>shkruani</writeURL> në togfjalësh, ose të <reviewURL>shqyrtoni</reviewURL> parashtrime togfjalëshash njësh te Common Voice.
+sc-redirect-page-subtitle-2 = Na bëni një pyetje në <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ose me <emailLink>email</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Ngarkoni togfjalësha në përkatësi publike <icon></icon>
+sc-bulk-upload-instruction = Tërhiqni këtu kartelën tuaj, ose <uploadButton>klikoni për ta ngarkuar</uploadButton>
+sc-bulk-upload-instruction-drop = Lini këtu një kartelë për ta ngarkuar
+try-upload-again = Riprovoni duke e tërhequr kartelën këtu
+try-upload-again-md = Riprovoni ta ngarkoni
+select-file = Përzgjidhni Kartelë
+select-file-mobile = Përzgjidhni Kartelë për Ngarkim
+accepted-files = Lloje të pranuar kartelash: vetëm .tsv
+maximum-file-size = Madhësi maksimum kartelash: 25 MB
+what-needs-to-be-in-file = Ç’është e nevojshme të ketë kartela ime?
+what-needs-to-be-in-file-explanation = Ju lutemi, shihni <templateFileLink>kartelën tonë gjedhe</templateFileLink>. Togfjalëshat tuaj duhet të jenë pa të drejta kopjimi (CC0 ose vepër origjinale e lejuar nga parashtruesi) dhe të jenë të qartë, gramatikisht të saktë dhe të lehtë për t’u lexuar. Togfjalëshat e parashtruar duhet të duan afërsisht 10-15 sekonda për t’u lexuar dhe duhet të shmangin përfshirje numrash, emrash të përveçëm dhe shenja speciale.
+upload-progress-text = Ngarkim në ecuri e sipër…
+sc-bulk-submit-confirm = Ripohoj se këta togfjalësha janë <wikipediaLink>nën përkatësi publike</wikipediaLink> dhe se kam leje t’i ngarkoj.
+bulk-upload-success-toast = U Ngarkuan Togfjalësha Në Masë
+bulk-upload-failed-toast = Ngarkimi dështoi, ju lutemi, riprovoni
+bulk-submission-success-header = Faleminderit për kontributin me parashtrim në masë!
+bulk-submission-success-subheader = Po ndihmoni Common Voice të mbërrijë synimet tona ditore për togfjalësha!
+upload-more-btn-text = Do të ngarkoni togfjalësha të tjerë?
+file-invalid-type = Kartelë e pavlefshme
+file-too-large = Kartela është shumë e madhe
+file-too-small = Kartela është shumë e vogël
+too-many-files = Shumë kartela
