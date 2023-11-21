@@ -267,6 +267,8 @@ female = Jierü
 # Gender
 other = Waneꞌeya
 avatar = Awataarü
+profile-close = Asürülaa
+edit = Anaataa
 
 ## Profile - Email
 
@@ -276,12 +278,15 @@ avatar = Awataarü
 
 ## FAQ
 
+faq-title = Asakiriaa pejeewakalü ma’in
 
 ## ABOUT US
 
 
 ## How does it work section
 
+about-speak = Aashajawaa
+about-listen = Aapajaa
 
 ## Community Playbook Content
 ## What is a language
@@ -313,12 +318,15 @@ avatar = Awataarü
 
 ## Glossary
 
+glossary = Pütchipala
 
 ## Error pages
 
 
 ## Data
 
+data-download-yes = Aa
+data-download-deny = Nnojo
 
 ## Datasets Page
 
