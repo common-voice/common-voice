@@ -11,6 +11,7 @@ import { bulkSubmissionUploadProcessor } from './processors/bulkSubmissionProces
 import { JobQueue } from './types/JobQueue'
 
 const BULK_SUBMISSION_UPLOAD_QUEUE_NAME = 'bulk-submission-upload-queue'
+const BULK_SUBMISSION_UPLOAD_JOB_NAME = 'bulk-submission-upload-job'
 
 export const setupBulkSubmissionQueue = () => {
   return pipe(
@@ -22,7 +23,7 @@ export const setupBulkSubmissionQueue = () => {
 }
 
 const addBulkSubmissionUploadJob = (job: BulkSubmissionUploadJob) =>
-  addJobToQueue(job)({})(
+  addJobToQueue(job)(BULK_SUBMISSION_UPLOAD_JOB_NAME)({})(
     getQueue<BulkSubmissionUploadJob>(BULK_SUBMISSION_UPLOAD_QUEUE_NAME)()
   )
 
