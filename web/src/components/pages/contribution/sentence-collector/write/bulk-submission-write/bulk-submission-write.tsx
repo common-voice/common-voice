@@ -20,6 +20,8 @@ import URLS from '../../../../../../urls'
 import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 import useBulkSubmissionUpload from '../../../../../../hooks/use-bulk-submission-upload'
 import { Sentences } from '../../../../../../stores/sentences'
+import { useLocale } from '../../../../../locale-helpers'
+import { trackBulkSubmission } from '../../../../../../services/tracker'
 
 import './bulk-submission-write.css'
 
@@ -27,6 +29,7 @@ const MAX_FILE_SIZE = 1024 * 1024 * 25
 
 const BulkSubmissionWrite = () => {
   const dispatch = useDispatch()
+  const [locale] = useLocale()
 
   React.useEffect(() => {
     dispatch(Sentences.actions.setBulkUploadStatus('off'))
@@ -55,6 +58,14 @@ const BulkSubmissionWrite = () => {
     noClick: true,
     maxSize: MAX_FILE_SIZE,
   })
+
+  const handleToggle = (evt: React.SyntheticEvent<HTMLDetailsElement>) => {
+    if (evt.currentTarget.open) {
+      trackBulkSubmission('expandable-information-click-open', locale)
+    } else {
+      trackBulkSubmission('expandable-information-click-close', locale)
+    }
+  }
 
   return (
     <div className="bulk-upload-container" data-testid="bulk-upload-container">
@@ -87,7 +98,8 @@ const BulkSubmissionWrite = () => {
             <div className="expandable-container">
               <ExpandableInformation
                 summaryLocalizedId="what-needs-to-be-in-file"
-                icon={<LightBulbIcon />}>
+                icon={<LightBulbIcon />}
+                onToggle={handleToggle}>
                 <Localized
                   id="what-needs-to-be-in-file-explanation"
                   elems={{

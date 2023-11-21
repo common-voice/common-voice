@@ -981,17 +981,25 @@ export default class DB {
 
   async getLanguages(): Promise<Language[]> {
     const [rows] = await this.mysql.query(
-      `SELECT 
+      `
+      SELECT
         l.id,
         l.name,
         l.target_sentence_count as target_sentence_count,
-        count(s.id) as total_sentence_count,
+        COALESCE(s.total_sentence_count, 0) as total_sentence_count,
         l.is_contributable
       FROM locales l
-      LEFT JOIN sentences s ON s.locale_id = l.id
-      AND s.is_validated = TRUE
-      GROUP BY l.id`
+      LEFT JOIN (
+        SELECT locale_id, COUNT(*) as total_sentence_count
+        FROM sentences
+        WHERE is_validated = TRUE
+        GROUP BY locale_id
+      ) s ON l.id = s.locale_id
+      `
     );
+
+    const lastFetched = new Date()
+
     return rows.map(
       (row: {
         id: number;
@@ -1007,6 +1015,7 @@ export default class DB {
           targetSentenceCount: row.target_sentence_count,
           currentCount: row.total_sentence_count,
         },
+        lastFetched,
       })
     );
   }

@@ -27,6 +27,7 @@ import ReviewShortcutsModal from './review-shortcuts-modal'
 import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
 import useReview from './use-review'
 import { useLocale } from '../../../../locale-helpers'
+import { trackSingleReview } from '../../../../../services/tracker'
 
 import URLS from '../../../../../urls'
 
@@ -65,6 +66,11 @@ const Review: React.FC<Props> = ({ getString }) => {
 
   const handleToggleShortcutsModal = () => {
     setShowShortcutsModal(!showShortcutsModal)
+  }
+
+  const handleReportButtonClick = () => {
+    setShowReportModal(true)
+    trackSingleReview('report-button-click', currentLocale)
   }
 
   const isLoading = sentences[currentLocale]?.isLoadingPendingSentences
@@ -200,7 +206,7 @@ const Review: React.FC<Props> = ({ getString }) => {
               <span />
             </Localized>
           </LinkButton>
-          <ReportButton onClick={() => setShowReportModal(true)} />
+          <ReportButton onClick={handleReportButtonClick} />
           <Tooltip title={getString('shortcuts')} arrow>
             <Button
               rounded

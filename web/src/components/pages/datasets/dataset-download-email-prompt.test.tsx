@@ -129,7 +129,7 @@ describe('DatasetDownloadEmailPrompt', () => {
     userEvent.click(getByLabelText(/You agree to not attempt to determine/));
 
     userEvent.click(
-      getByLabelText(/I want to join the Common Voice mailing list/)
+      getByLabelText(/You want to join the Common Voice mailing list/)
     );
 
     // now has the link
@@ -187,7 +187,7 @@ describe('DatasetDownloadEmailPrompt', () => {
 
     // assert that checkbox is visible but don't click it
     expect(
-      getByLabelText(/I want to join the Common Voice mailing list/)
+      getByLabelText(/You want to join the Common Voice mailing list/)
     ).toBeDefined();
 
     // now has the link

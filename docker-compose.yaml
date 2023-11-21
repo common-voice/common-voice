@@ -36,8 +36,23 @@ services:
         '-external-url',
         'http://storage:8080',
         '-backend',
-        'memory',
+        'filesystem',
       ]
+  bundler:
+    build:
+      context: ./bundler
+      dockerfile: Dockerfile
+    container_name: bundler
+    links:
+      - db
+      - redis
+      - storage
+    volumes:
+      - ./bundler:/home/node/code
+    networks:
+      - voice-web
+    ports:
+      - 9001:9001
   web:
     build:
       context: .
@@ -54,7 +69,7 @@ services:
       - voice-web
     ports:
       - 9000:9000
-    command: bash -c "/code/docker/wait-for-it.sh s3proxy:80 -- /code/docker/prepare_s3.sh && /code/docker/wait-for-it.sh storage:8080 -- /code/docker/prepare_storage.sh && yarn && yarn start"
+    command: bash -c "/code/docker/wait-for-it.sh storage:8080 -- /code/docker/prepare_storage.sh && yarn && yarn start"
 
 networks:
   voice-web:
