@@ -215,6 +215,7 @@ speak = Aashajawaa
 languages = Anüikiirua
 profile = Ka’yataayakuwa’ipakalü
 help = Akaaliijiaa
+contact = E’raajalaa
 faq = Asakiriaa pejeewakalü ma’in
 
 ## Home Page
