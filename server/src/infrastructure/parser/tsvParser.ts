@@ -7,7 +7,7 @@ export const readTsvIntoMemory = <T>(readable: Readable): TE.TaskEither<Error, T
     () =>
       new Promise((res, rej) => {
         const records: T[] = []
-        const tsvParser = parse({ delimiter: '\t', columns: true })
+        const tsvParser = parse({ delimiter: '\t', columns: true, quote: false })
 
         tsvParser.on('data', chunk => {
           records.push(chunk)
