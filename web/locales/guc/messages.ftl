@@ -334,15 +334,28 @@ review-recording = Rnalaa
 ## Datasets Page
 
 language = Anüikii
+# File size in gigabytes
+size = Ajaꞌapüin
+more = Ako’omüinjiaa
+close = Asürülaa
+download = Ashakatiraa
 
 ## Download Modal
 
+download-no = Nnojo, analuꞌulu
 
 ## Contact Modal
 
+contact-form-name =
+    .label = Anüliaa
+contact-form-message =
+    .label = Pütchi
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Anüikii
+other-language = Waneꞌeya anüikii
 
 ## Request Language Pages
 
