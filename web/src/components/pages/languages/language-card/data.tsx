@@ -3,7 +3,6 @@ import { Localized } from '@fluent/react';
 import classNames from 'classnames';
 
 import { LanguageStatistics } from 'common';
-import { DAILY_GOALS } from '../../../../constants';
 
 import ProgressBar from '../../../progress-bar/progress-bar';
 import {

@@ -1,8 +1,3 @@
-export const DAILY_GOALS = Object.freeze({
-  speak: [1200, 2500],
-  listen: [2400],
-});
-
 export const BENEFITS = [
   'rich-data',
   'improve-audio',

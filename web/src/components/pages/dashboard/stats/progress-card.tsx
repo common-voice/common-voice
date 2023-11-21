@@ -1,7 +1,10 @@
-import { Localized } from '@fluent/react';
+import {
+  Localized,
+  withLocalization,
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
-import { DAILY_GOALS } from '../../../../constants';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
 import { trackDashboard } from '../../../../services/tracker';
 import URLS from '../../../../urls';
@@ -16,18 +19,19 @@ import { CircleProgress, Fraction } from '../ui';
 
 import './progress-card.css';
 
-export interface Props {
+export interface Props extends WithLocalizationProps{
   type: 'speak' | 'listen';
   locale: string;
   personalCurrent?: number;
   personalGoal?: number;
 }
 
-export default function ProgressCard({
+function ProgressCard({
   locale,
   personalCurrent,
   personalGoal,
   type,
+  getString,
 }: Props) {
   const [globalLocale] = useLocale();
   const { custom_goals: customGoals } = useAccount() || {};
@@ -50,7 +54,7 @@ export default function ProgressCard({
     fetchAndSetOverallCount();
   }, []);
 
-  const overallGoal = DAILY_GOALS[type][0];
+  const overallGoal = Number(getString('daily-goal-' + type));
   const isSpeak = type == 'speak';
   const customGoal = customGoals?.find(g => g.locale == locale);
   const currentCustomGoal = customGoal ? customGoal.current[type] : undefined;
@@ -147,3 +151,5 @@ export default function ProgressCard({
     </div>
   );
 }
+
+export default withLocalization(ProgressCard)

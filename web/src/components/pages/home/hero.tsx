@@ -1,7 +1,10 @@
-import { Localized } from '@fluent/react';
+import {
+  Localized,
+  withLocalization,
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { DAILY_GOALS } from '../../../constants';
 import API from '../../../services/api';
 import { trackHome } from '../../../services/tracker';
 import { Locale } from '../../../stores/locale';
@@ -29,7 +32,7 @@ class Hero extends React.Component<
     status: 'active' | 'compressed' | null;
     onShow: () => any;
     onHide: () => any;
-  } & PropsFromState,
+  } & PropsFromState & WithLocalizationProps,
   State
 > {
   state: State = { count: null, dimensions: [], showToMeasure: true };
@@ -87,7 +90,14 @@ class Hero extends React.Component<
   }
 
   render() {
-    const { locale, onHide, onShow, status, type } = this.props;
+    const {
+      locale,
+      onHide,
+      onShow,
+      status,
+      type,
+      getString
+    } = this.props;
     const { count } = this.state;
     const isSpeak = type == 'speak';
     const PrimaryLink = isSpeak ? RecordLink : PlayLink;
@@ -124,7 +134,7 @@ class Hero extends React.Component<
           <div {...this.getToggleableProps(2)}>
             <Localized
               id="help-reach-goal"
-              vars={{ goal: DAILY_GOALS[type][0] }}>
+              vars={{ goal: Number(getString('daily-goal-' + type)) }}>
               <div className="cta-message" />
             </Localized>
           </div>
@@ -137,7 +147,7 @@ class Hero extends React.Component<
             <span className="current">{count === null ? '?' : count}</span>
             <span className="total">
               {' / '}
-              {DAILY_GOALS[type][0]}
+              {getString('daily-goal-' + type)}
             </span>
           </span>
           <p>
@@ -157,4 +167,4 @@ const mapStateToProps = ({ api, locale }: StateTree) => ({
   locale,
 });
 
-export default connect<PropsFromState>(mapStateToProps)(Hero);
+export default connect<PropsFromState>(mapStateToProps)(withLocalization(Hero));
