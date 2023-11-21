@@ -18,6 +18,10 @@ es = Alijunaiki
 
 ## Layout
 
+speak = Aashajawaa
+languages = Anüikiirua
+profile = Ka’yataayakuwa’ipakalü
+help = Akaaliijiaa
 
 ## Home Page
 
