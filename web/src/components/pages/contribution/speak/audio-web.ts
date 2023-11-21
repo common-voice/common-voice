@@ -85,9 +85,19 @@ export default class AudioWeb {
 
   // Check if audio recording is supported
   isAudioRecordingSupported() {
+    const supportedFormats = [
+      'audio/webm', // For Chrome
+      'audio/ogg; codecs=opus', // For Firefox
+      'audio/mp4', // For Safari
+    ];
+
+    // check if at least one of the formats is supported in the browser
+    const isAudioFormatSupported = supportedFormats.some(format =>
+      window.MediaRecorder.isTypeSupported(format)
+    );
+
     return (
-      typeof window.MediaRecorder !== 'undefined' &&
-      window.MediaRecorder.isTypeSupported(getAudioFormat())
+      typeof window.MediaRecorder !== 'undefined' && isAudioFormatSupported
     );
   }
 
