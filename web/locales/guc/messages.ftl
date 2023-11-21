@@ -275,6 +275,7 @@ edit = Anaataa
 
 ## Profile - Email
 
+add-language = Akoo’omüinjaa anüiki
 
 ## FAQ
 
@@ -327,6 +328,7 @@ glossary = Pütchipala
 
 data-download-yes = Aa
 data-download-deny = Nnojo
+data-other-download = Ashakatiraa atijaaya
 dataset-date = Akalia
 review-submit-title = Rnalaa oo’ulaka ainkiraa
 review-recording = Rnalaa
