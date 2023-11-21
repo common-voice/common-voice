@@ -243,12 +243,23 @@ shortcut-play-toggle-label = Alatiraa/Ata'ülaa
 
 shortcut-record-toggle-label = Ejeerüjaa/Ata’ülaa
 shortcut-rerecord-toggle = [1-5]
+shortcut-submit = A’lakaa
 
 ## ProjectStatus
 
+english = Inküleenaiki
 
 ## ProfileForm
 
+profile-form-language =
+    .label = Anüikii
+profile-form-age =
+    .label = Ouyase
+hidden = Anujuluushi
+visible = Jaꞌyaa
+profile-form-submit-save = Anaajawaa
+male = Toolo
+female = Jierü
 
 ## Profile - Email
 
