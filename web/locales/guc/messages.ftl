@@ -327,9 +327,13 @@ glossary = Pütchipala
 
 data-download-yes = Aa
 data-download-deny = Nnojo
+dataset-date = Akalia
+review-submit-title = Rnalaa oo’ulaka ainkiraa
+review-recording = Rnalaa
 
 ## Datasets Page
 
+language = Anüikii
 
 ## Download Modal
 
