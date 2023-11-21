@@ -10,8 +10,15 @@ submit-form-action = Ajütaa
 
 ## Languages
 
+ab = Abjasio
+ace = achenés
+ady = Adigué
+af = Africano
+am = Amárico
+an = Aragonés
 en = Inküleenaiki
 es = Alijunaiki
+fr = Püranseenaiki
 
 # [/]
 
@@ -22,6 +29,7 @@ speak = Aashajawaa
 languages = Anüikiirua
 profile = Ka’yataayakuwa’ipakalü
 help = Akaaliijiaa
+faq = Asakiriaa pejeewakalü ma’in
 
 ## Home Page
 
