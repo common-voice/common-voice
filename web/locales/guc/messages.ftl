@@ -220,8 +220,11 @@ faq = Asakiriaa pejeewakalü ma’in
 
 ## Home Page
 
+show-wall-of-text = Aashaje’eraa ako’omüinjiaa
 vote-yes = aa
 vote-no = nnojo
+all-locales = Apüshuaꞌa
+today = Soꞌukaꞌi
 
 ## Account Benefits
 
@@ -234,9 +237,11 @@ vote-no = nnojo
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Alatiraa/Ata'ülaa
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Ejeerüjaa/Ata’ülaa
 shortcut-rerecord-toggle = [1-5]
 
 ## ProjectStatus
