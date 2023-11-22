@@ -404,6 +404,7 @@ class ListenPage extends React.Component<Props, State> {
                   isPlaying={isPlaying}
                   onClick={this.play}
                   trackClass="play-clip"
+                  data-testid="play-button"
                 />
                 <VoteButton
                   kind="no"
