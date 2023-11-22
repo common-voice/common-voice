@@ -21,9 +21,10 @@ ENV PATH "$PATH:/home/node/.local/bin/:/home/node/.cargo/bin"
 WORKDIR /home/node/code
 
 COPY --chown=node ./package.json ./
+COPY --chown=node ./package-lock.json ./
 
 # Install dependencies
-RUN npm install
+RUN npm ci
 
 COPY --chown=node ./ ./
 
