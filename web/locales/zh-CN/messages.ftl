@@ -69,6 +69,7 @@ eo = 世界语
 es = 西班牙语
 et = 爱沙尼亚语
 eu = 巴斯克语
+ewo = 埃翁多语
 fa = 波斯语
 ff = 富拉语
 fi = 芬兰语
@@ -79,6 +80,7 @@ ga-IE = 爱尔兰语
 gl = 加利西亚语
 gn = 瓜拉尼语
 gom = 孔卡尼语（果阿）
+gu-IN = 古吉拉特语
 ha = 豪萨语
 he = 希伯来语
 hi = 印地语
@@ -98,6 +100,7 @@ it = 意大利语
 izh = 英格里亚语
 ja = 日语
 jbo = 逻辑语
+jv = 爪哇语
 ka = 格鲁吉亚语
 kaa = 卡拉卡尔帕克语
 kab = 卡拜尔语
@@ -151,6 +154,7 @@ nyn = 尼扬科勒语
 oc = 欧西坦语
 om = 阿方奥罗莫语
 or = 奥里亚语
+os = 奥塞梯语
 pa-IN = 旁遮普语
 pap-AW = 帕皮亚门托语（阿鲁巴）
 pl = 波兰语
@@ -244,6 +248,7 @@ share-text = 请到 { $link } 贡献一段您的声音，帮助我们教会机�
 link-copied = 链接已复制
 back-top = 回到顶端
 logout = 退出登录
+donate = 捐助
 
 ## Home Page
 
@@ -609,7 +614,6 @@ about-playbook-how-add-sentences = 如何添加语句？
 about-playbook-how-add-sentences-content-1 = <strong>语句收集工具</strong>是一个收集和审核公共领域语句的工具。您首先<scAccountLink>需要创建一个账户</scAccountLink>。然后，将您的语言添加到您的<strong>个人资料</strong>中。您可以<strong>添加</strong>句子并<strong>查看</strong>以前添加的句子。
 about-playbook-how-add-sentences-content-2 = 句子必须经过两个人的审核和接受才能出现在 Common Voice 中。您可以在<languageGuidelinesLink>此处</languageGuidelinesLink>为您的语言创建指南。句子必须属于<licenseLink>公有领域</licenseLink> 且少于 15 字。您可以请求文本的所有者<waiverLink>通过我们的放弃所有权流程将其转为采用 CC0 授权协议</waiverLink>，然后通过 commonvoice@mozilla.com 发送给我们
 about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 从维基百科收集短句。
-about-playbook-how-add-sentences-content-4 = 通过的句子在周三导出，并在下一次数据集发布后可用。
 
 ## How to record quality
 
@@ -643,7 +647,7 @@ about-playbook-how-validate-content-4 = 如果有两人驳回了这条语音片�
 ## How to access dataset
 
 about-playbook-how-access-dataset = 如何访问和使用数据集？
-about-playbook-how-access-dataset-content-1 = 您可以前往 <datasetsPage>数据集页面</datasetsPage>选择您想要的版本和语言，然后就可以直接下载了！这些文件包含<metadataLink>相关的元数据</metadataLink>，例如人口统计信息和验证数据等。只需提供一个电子邮箱地址就能下载数据集。
+about-playbook-how-access-dataset-content-1 = 您可以前往 <datasetsPage>数据集页面</datasetsPage>选择您想要的版本和语言，然后就可以直接下载了！这些文件包含<metadataLink>相关的元数据</metadataLink>，例如人口统计信息和验证数据等。只需提供一个邮箱地址就能下载数据集。
 about-playbook-how-access-dataset-content-2 = 若您正在寻找构建 ASR 模型的工具，欢迎到 <discourseLink>Discourse</discourseLink> 联系社区成员。
 
 ## How are decisions made
@@ -906,6 +910,9 @@ listen-3rd-time-instruction = 完成两条了 <playIcon></playIcon>，继续加�
 listen-last-time-instruction = <playIcon></playIcon> 最后一个了！
 listen-empty-state = 我们已经没有这种语言的片段可以验证了…
 listen-loading-error = 暂无录音片段供您聆听确认，请稍后再试。
+listen-abort-title = 要完成片段验证吗？
+listen-abort-cancel = 继续验证
+listen-abort-confirm = 完成验证
 speak-empty-state = 我们已经没有这种语言的文本可以录音了…
 speak-empty-state-cta = 贡献语句
 speak-loading-error = 暂无语句供您录音，请稍后再试。
@@ -1637,7 +1644,7 @@ reviewing-sentences-explanation-2 = 若句子不符合要求，请点击“否�
 reviewing-sentences-explanation-3 = 若您没有把握判断，可以跳过当前语句，继续审核下一条语句。
 reviewing-sentences-explanation-4 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
 # WRITE PAGE
-write-instruction-second-part = 公有领域的语句
+write-instruction = 添加 <icon></icon> 公有领域的语句
 write-page-subtitle = 此处贡献的语句将被添加到采用 cc-0 许可证的公开数据集中。
 sentence =
     .label = 语句
@@ -1645,7 +1652,8 @@ sentence-input-value = 请在此输入您的公有领域语句
 citation-input-value = 语句的来源
 citation =
     .label = 引用
-what-can-i-add = 我可以添加什么样的语句？
+sc-write-submit-confirm = 我确认这句话以<wikipediaLink>公有领域</wikipediaLink>授权并且我有权上传。
+sc-review-write-title = 我可以添加什么语句？
 new-sentence-rule-1 = <noCopyright>无版权</noCopyright>限制（<cc0>cc-0</cc0>）
 new-sentence-rule-2 = 少于 15 个字
 new-sentence-rule-3 = 使用正确的语法
@@ -1662,9 +1670,15 @@ contact-us = 联系我们
 add-sentence-success = 已收集 1 条语句
 add-sentence-error = 添加语句时报错
 required-field = 请填写此字段。
-# REVIEW PAGE
-sc-review-instruction-first-part = 检查
-sc-review-instruction-second-part = 这是一个符合语言习惯的句子吗？
+single-sentence-submission = 提交单句
+bulk-sentence-submission = 批量提交语句
+single-sentence = 单句
+bulk-sentences = 批量语句
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = 检查 <icon><icon> 语句语法是否正确
 sc-review-rules-title = 该语句是否符合准则？
 sc-review-empty-state = 该语言目前没有需要审核的语句。
 report-sc-different-language = 其他语言
@@ -1676,3 +1690,29 @@ review-error-rate-limit-exceeded = 别太匆忙。请多花些时间来审核语
 sc-redirect-page-title = 重磅更新
 sc-redirect-page-subtitle-1 = 语句收集工具已迁移到 Common Voice 主平台，您现在可以直接在 Common Voice 上<writeURL>撰写</writeURL>和<reviewURL>审核</reviewURL>语句。
 sc-redirect-page-subtitle-2 = 在 <matrixLink>Matrix</matrixLink>、<discourseLink>Discourse</discourseLink> 上，或<emailLink>发邮件</emailLink>向我们提问。
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = 上传 <icon></icon> 公有领域的句子
+sc-bulk-upload-instruction = 将文件拖放到此处或<uploadButton>点此上传</uploadButton>
+sc-bulk-upload-instruction-drop = 将文件拖放到此处即可上传
+try-upload-again = 将文件拖至此处重试
+try-upload-again-md = 请尝试重新上传
+select-file = 选择文件
+select-file-mobile = 选择要上传的文件
+accepted-files = 文件类型：仅接受 .tsv
+maximum-file-size = 文件最大：25 MB
+what-needs-to-be-in-file = 文件要包含什么？
+what-needs-to-be-in-file-explanation = 请查看我们的<templateFileLink>模板文件</templateFileLink>。你的语句应该清晰易读、语法正确且不受版权保护（CC0或经原创作者许可）。提交的语句长度在 10-15 秒并且避免包含数字、专有名词和特殊字符。
+upload-progress-text = 正在上传...
+sc-bulk-submit-confirm = 我确认这些句子都以<wikipediaLink>公有领域条款</wikipediaLink>授权公开，并且我有权上传。
+bulk-upload-success-toast = 已批量上传语句
+bulk-upload-failed-toast = 上传失败，请重试。
+bulk-submission-success-header = 感谢您的批量提交！
+bulk-submission-success-subheader = 您正在帮助 Common Voice 达到我们的每日语句目标！
+upload-more-btn-text = 上传更多语句吗？
+file-invalid-type = 文件无效
+file-too-large = 文件太大
+file-too-small = 文件太小
+too-many-files = 文件过多

@@ -1,4 +1,4 @@
-FROM node:12-bullseye
+FROM node:18-bookworm
 
 ARG COMMIT="local-build"
 ARG TAG=""
@@ -17,7 +17,7 @@ RUN apt-get update && \
     curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
     echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list && \
     apt-get update && \
-    apt-get install --no-install-recommends -y yarn ffmpeg
+    apt-get install --no-install-recommends -y yarn ffmpeg vim
 
 # Prepare for nonroot user
 RUN groupadd -g $GID app; \

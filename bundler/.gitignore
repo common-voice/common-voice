@@ -1,0 +1,6 @@
+dist
+js
+*.tsv
+.env
+*.txt
+cv-corpus*

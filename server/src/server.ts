@@ -14,14 +14,15 @@ import { scrubUserActivity } from './lib/model/db/scrub-user-activity';
 import Model from './lib/model';
 import API from './lib/api';
 import { redis, useRedis, redlock } from './lib/redis';
-import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
-import { importSentences } from './lib/model/db/import-sentences';
+import { APIError, getElapsedSeconds } from './lib/utility';
 import { getConfig } from './config-helper';
 import authRouter from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
 import getCSPHeaderValue from './csp-header-value';
 import { ValidationError } from 'express-json-validator-middleware';
+import { setupUpdateValidatedSentencesQueue } from './infrastructure/queues/updateValidatedSentencesQueue';
+import { setupBulkSubmissionQueue } from './infrastructure/queues/bulkSubmissionQueue';
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
@@ -52,6 +53,8 @@ export default class Server {
       if (ready) {
         this.taskQueues = createTaskQueues(this.api.takeout);
         this.api.takeout.setQueue(this.taskQueues.dataTakeout);
+        setupUpdateValidatedSentencesQueue()
+        setupBulkSubmissionQueue()
       }
     });
 

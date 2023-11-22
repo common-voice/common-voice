@@ -65,6 +65,7 @@ eo = Esperanto
 es = Spanish
 et = Estonian
 eu = Basque
+ewo = Ewondo
 fa = Persian
 ff = Fulah
 fi = Finnish
@@ -75,6 +76,7 @@ ga-IE = Irish
 gl = Galician
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebrew
 hi = Hindi
@@ -94,6 +96,7 @@ it = Italian
 izh = Izhorian
 ja = Japanese
 jbo = Lojban
+jv = Javanese
 ka = Georgian
 kaa = Karakalpak
 kab = Kabyle
@@ -147,6 +150,7 @@ nyn = Runyankole
 oc = Occitan
 om = Afaan Oromo
 or = Odia
+os = Ossetian
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polish
@@ -237,6 +241,7 @@ share-text = Help teach machines how real people speak, donate your voice at { $
 link-copied = Link Copied
 back-top = Back to Top
 logout = Log Out
+donate = Donate
 
 ## Home Page
 home-title = Common Voice is Mozilla's initiative to help teach machines how real people speak.
@@ -642,10 +647,9 @@ about-playbook-how-localize-content-5 = Watch our video explainer to help
 
 ## How to add sentences
 about-playbook-how-add-sentences = How do I add sentences?
-about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is a tool for collecting and validating public domain sentences. You will <scAccountLink>need to create an account</scAccountLink>. Then, add your language to your <strong>Profile</strong>.  You can <strong>Add</strong> sentences or <strong>Review</strong> previously-added sentences.
+about-playbook-how-add-sentences-content-1 = You can add sentences on the <writePageLink>Write page</writePageLink> or review sentences on the <reviewPageLink>Review page</reviewPageLink>.
 about-playbook-how-add-sentences-content-2 = Sentences must be reviewed and accepted by two people to be included in Common Voice. You create guidelines for your language <languageGuidelinesLink>here</languageGuidelinesLink>. Sentences must be in the <licenseLink>public domain</licenseLink> and shorter than 15 words. You can ask the owner of a text to make it <waiverLink>CC0 using our waiver process</waiverLink>, and send to us on commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = You can use the <scraperLink>Sentence extractor</scraperLink> to leverage short sentences from Wikipedia.
-about-playbook-how-add-sentences-content-4 = Sentences that have been validated are exported on Wednesdays, and are available after the next release.
 
 ## How to record quality
 about-playbook-how-record-quality = How do I record a high quality voice clip?
@@ -769,7 +773,7 @@ confirm-size = You are prepared to initiate a download of <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>You agree</b> to not attempt to determine the identity of speakers in the Common Voice dataset
-confirm-join-mailing-list = I want to join the Common Voice mailing list
+confirm-join-mailing-list = You want to join the Common Voice mailing list
 download-language = Download { $language }
 validated-hours = Validated Hours
 recorded-hours = Recorded Hours
@@ -952,6 +956,9 @@ listen-empty-state = We may have run out of clips - refresh the page, or try aga
 listen-loading-error =
     We couldn’t get any audio clips for you to listen to.
     Please try again later.
+listen-abort-title = Finish validating clips?
+listen-abort-cancel = Continue validating
+listen-abort-confirm = Finish validating
 speak-empty-state = We've run out of sentences to record in this language...
 speak-empty-state-cta = Contribute sentences
 speak-loading-error =
@@ -1689,7 +1696,7 @@ reviewing-sentences-explanation-3 = If you are unsure about the sentence, you ma
 reviewing-sentences-explanation-4 = If you run out of sentences to review, please help us collect more sentences!
 
 # WRITE PAGE
-write-instruction-second-part = a public domain sentence
+write-instruction = Add <icon></icon> a public domain sentence
 write-page-subtitle = Sentences contributed here will be added to a publicly available cc-0 licensed dataset.
 sentence = 
     .label = Sentence
@@ -1697,9 +1704,10 @@ sentence-input-value = Enter your public domain sentence here
 citation-input-value = Source of your sentence
 citation = 
     .label = Citation
-what-can-i-add = What kinds of sentences can I add?
+sc-write-submit-confirm = I confirm that this sentence is <wikipediaLink>public domain</wikipediaLink> and I have permission to upload it.
+sc-review-write-title = What sentences can I add?
 new-sentence-rule-1 = <noCopyright>No copyright</noCopyright> restrictions (<cc0>cc-0</cc0>)
-new-sentence-rule-2 = Fewer than 15 words
+new-sentence-rule-2 = Fewer than 15 words per sentence
 new-sentence-rule-3 = Use correct grammar
 new-sentence-rule-4 = Use correct spelling and punctuation
 new-sentence-rule-5 = No numbers and special characters
@@ -1714,10 +1722,14 @@ contact-us = Contact Us
 add-sentence-success = 1 sentence collected
 add-sentence-error = Error adding sentence
 required-field = Please fill out this field.
+single-sentence-submission = Single Sentence Submission
+bulk-sentence-submission = Bulk Sentence Submission
+single-sentence = Single Sentence
+bulk-sentences = Bulk Sentences
 
-# REVIEW PAGE
-sc-review-instruction-first-part = Check
-sc-review-instruction-second-part = is this a linguistically correct sentence?
+## REVIEW PAGE
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Check <icon></icon> is this a linguistically correct sentence?
 sc-review-rules-title = Does the sentence meet the guidelines?
 sc-review-empty-state = There are currently no sentences to review in this language.
 report-sc-different-language = Different language
@@ -1730,3 +1742,28 @@ review-error-rate-limit-exceeded = You're going too fast. Please take a moment t
 sc-redirect-page-title = We're making some big changes
 sc-redirect-page-subtitle-1 = The Sentence Collector is moving to the core Common Voice platform. You can now <writeURL>write</writeURL> a sentence or <reviewURL>review</reviewURL> single sentence submissions on Common Voice.
 sc-redirect-page-subtitle-2 = Ask us questions on <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
+
+## BULK SUBMISSION 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Upload <icon></icon> public domain sentences
+sc-bulk-upload-instruction = Drag your file here or <uploadButton>click to upload</uploadButton>
+sc-bulk-upload-instruction-drop = Drop file here to upload
+try-upload-again = Try again by dragging your file here
+try-upload-again-md = Try uploading again
+select-file = Select File
+select-file-mobile = Select File to Upload
+accepted-files = Accepted file types: .tsv only
+maximum-file-size = Maximum file size: 25 MB
+what-needs-to-be-in-file = What needs to be in my file?
+what-needs-to-be-in-file-explanation = Please check our <templateFileLink>template file</templateFileLink>. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.
+upload-progress-text = Upload in progress...
+sc-bulk-submit-confirm = I confirm that these sentence are <wikipediaLink>public domain</wikipediaLink> and I have permission to upload them.
+bulk-upload-success-toast = Bulk Sentences Uploaded
+bulk-upload-failed-toast = Upload failed, please retry.
+bulk-submission-success-header = Thank you for contributing your bulk submission!
+bulk-submission-success-subheader = You're helping Common Voice reach our daily sentence goals!
+upload-more-btn-text = Upload more sentences?
+file-invalid-type = Invalid file
+file-too-large = File is too large
+file-too-small = File is too small
+too-many-files = Too many files

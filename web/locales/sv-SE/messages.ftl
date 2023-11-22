@@ -69,6 +69,7 @@ eo = Esperanto
 es = Spanska
 et = Estländska
 eu = Baskiska
+ewo = Ewondo
 fa = Persiska
 ff = Fula
 fi = Finska
@@ -79,6 +80,7 @@ ga-IE = Irländska
 gl = Galiciska
 gn = Guarani
 gom = Goa-konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebreiska
 hi = Hindi
@@ -98,6 +100,7 @@ it = Italienska
 izh = Ingriska
 ja = Japanska
 jbo = Lojban
+jv = Javanesiska
 ka = Georgiska
 kaa = Karakalpakiska
 kab = Kabyliska
@@ -151,6 +154,7 @@ nyn = Nyankole
 oc = Occitanska
 om = Oromo
 or = Odia
+os = Ossetiska
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polska
@@ -244,6 +248,7 @@ share-text = Hjälp till att lära maskiner hur riktiga människor pratar, doner
 link-copied = Länk kopierad
 back-top = Tillbaka till toppen av sidan
 logout = Logga ut
+donate = Donera
 
 ## Home Page
 
@@ -621,7 +626,6 @@ about-playbook-how-add-sentences = Hur lägger jag till meningar?
 about-playbook-how-add-sentences-content-1 = <strong>Meningsinsamlaren</strong> är ett verktyg för att samla in och validera meningar som är allmän egendom. Du måste <scAccountLink>skapa ett konto</scAccountLink>. Lägg sedan till ditt språk i din <strong>profil</strong>. Du kan <strong>Lägga till</strong> meningar eller <strong>Granska</strong> tidigare tillagda meningar.
 about-playbook-how-add-sentences-content-2 = Meningar måste granskas och accepteras av två personer för att inkluderas i Common Voice. Du skapar riktlinjer för ditt språk <languageGuidelinesLink>här</languageGuidelinesLink>. Meningar måste vara <licenseLink>allmänna egendom</licenseLink> och kortare än 15 ord. Du kan be ägaren av en text att göra den till <waiverLink>CC0 med hjälp av vår dispensprocess</waiverLink> och skicka till oss på commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Du kan använda <scraperLink>Meningsutdragaren</scraperLink> för att utnyttja korta meningar från Wikipedia.
-about-playbook-how-add-sentences-content-4 = Meningar som har validerats exporteras på onsdagar och är tillgängliga efter nästa release.
 
 ## How to record quality
 
@@ -934,6 +938,9 @@ listen-empty-state = Vi har slut på klipp för att validera på det här språk
 listen-loading-error =
     Vi kunde inte hitta några ljudklipp till dig att lyssna på.
     Vänligen försök igen senare.
+listen-abort-title = Slutför valideringen av klipp?
+listen-abort-cancel = Fortsätt validera
+listen-abort-confirm = Slutför valideringen
 speak-empty-state = Vi har slut på meningar att spela in på det här språket...
 speak-empty-state-cta = Bidra med meningar
 speak-loading-error =
@@ -1691,7 +1698,7 @@ reviewing-sentences-explanation-2 = Om meningen inte uppfyller ovanstående krit
 reviewing-sentences-explanation-3 = Om du är osäker på meningen kan du också hoppa över den och gå vidare till nästa.
 reviewing-sentences-explanation-4 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
 # WRITE PAGE
-write-instruction-second-part = en mening som är allmän egendom
+write-instruction = Lägg till <icon></icon> en mening som är allmän egendom
 write-page-subtitle = Meningar som bidrags här kommer att läggas till i en allmänt tillgänglig cc-0-licensierad datamängd.
 sentence =
     .label = Mening
@@ -1699,7 +1706,8 @@ sentence-input-value = Ange din mening som är allmän egendom här
 citation-input-value = Källa till din mening
 citation =
     .label = Källhänvisning
-what-can-i-add = Vilka typer av meningar kan jag lägga till?
+sc-write-submit-confirm = Jag bekräftar att den här meningen är <wikipediaLink>allmän egendom</wikipediaLink> och jag har tillstånd att ladda upp den.
+sc-review-write-title = Vilka meningar kan jag lägga till?
 new-sentence-rule-1 = <noCopyright>Inga upphovsrättsbegränsningar</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Färre än 15 ord
 new-sentence-rule-3 = Använd korrekt grammatik
@@ -1716,9 +1724,15 @@ contact-us = Kontakta oss
 add-sentence-success = 1 mening insamlad
 add-sentence-error = Det gick inte att lägga till mening
 required-field = Var vänlig fyll i det här fältet.
-# REVIEW PAGE
-sc-review-instruction-first-part = Kontrollera
-sc-review-instruction-second-part = är detta en språkligt korrekt mening?
+single-sentence-submission = Inlämning av en enda mening
+bulk-sentence-submission = Massinlämning
+single-sentence = Enstaka mening
+bulk-sentences = Flera meningar
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kontrollera <icon></icon> är detta en språkligt korrekt mening?
 sc-review-rules-title = Uppfyller meningen riktlinjerna?
 sc-review-empty-state = Det finns för närvarande inga meningar att granska på detta språk.
 report-sc-different-language = Annat språk
@@ -1730,3 +1744,29 @@ review-error-rate-limit-exceeded = Du är för snabb. Ta en stund att granska me
 sc-redirect-page-title = Vi gör några viktiga förändringar
 sc-redirect-page-subtitle-1 = Meningssamlaren flyttar till kärnplattformen Common Voice. Du kan nu <writeURL>skriva</writeURL> en mening eller <reviewURL>granska</reviewURL> enstaka meningsinlämningar på Common Voice.
 sc-redirect-page-subtitle-2 = Ställ frågor till oss på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller <emailLink>e-post</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Ladda upp <icon></icon> meningar som är allmän egendom
+sc-bulk-upload-instruction = Dra din fil hit eller <uploadButton>klicka för att ladda upp</uploadButton>
+sc-bulk-upload-instruction-drop = Släpp filen här för att ladda upp
+try-upload-again = Försök igen genom att dra filen hit
+try-upload-again-md = Försök att ladda upp igen
+select-file = Välj fil
+select-file-mobile = Välj fil att ladda upp
+accepted-files = Godkända filtyper: endast .tsv
+maximum-file-size = Maximal filstorlek: 25 MB
+what-needs-to-be-in-file = Vad måste finnas i min fil?
+what-needs-to-be-in-file-explanation = Kontrollera vår <templateFileLink>mallfil</templateFileLink>. Dina meningar bör vara upphovsrättsfria (CC0 eller tillåtet originalverk av insändaren) och vara tydliga, grammatiskt korrekta och lätta att läsa. Inskickade meningar bör ta ungefär 10-15 sekunder att läsa och bör undvika att inkludera siffror, egennamn och specialtecken.
+upload-progress-text = Uppladdning pågår...
+sc-bulk-submit-confirm = Jag bekräftar att dessa meningar är <wikipediaLink>allmän egendom</wikipediaLink> och jag har tillåtelse att ladda upp dem.
+bulk-upload-success-toast = Flera meningar uppladdade
+bulk-upload-failed-toast = Uppladdningen misslyckades, försök igen.
+bulk-submission-success-header = Tack för att du bidrar med din massinlämning!
+bulk-submission-success-subheader = Du hjälper Common Voice att nå våra dagliga meningsmål!
+upload-more-btn-text = Ladda upp fler meningar?
+file-invalid-type = Felaktig fil
+file-too-large = Filen är för stor
+file-too-small = Filen är för liten
+too-many-files = För många filer

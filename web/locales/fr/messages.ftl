@@ -69,6 +69,7 @@ eo = Espéranto
 es = Espagnol
 et = Estonien
 eu = Basque
+ewo = Ewondo
 fa = Persan
 ff = Peul
 fi = Finnois
@@ -79,6 +80,7 @@ ga-IE = Irlandais
 gl = Galicien
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Haoussa
 he = Hébreu
 hi = Hindi
@@ -98,6 +100,7 @@ it = Italien
 izh = Ingrien
 ja = Japonais
 jbo = Lojban
+jv = Javanais
 ka = Géorgien
 kaa = Karakalpak
 kab = Kabyle
@@ -151,6 +154,7 @@ nyn = Nkore
 oc = Occitan
 om = Afaan Ormoo
 or = Odia
+os = Ossète
 pa-IN = Pendjabi
 pap-AW = Papiamento (Aruba)
 pl = Polonais
@@ -244,6 +248,7 @@ share-text = Aidez les machines à apprendre à parler comme de vraies personnes
 link-copied = Lien copié
 back-top = Haut de la page
 logout = Déconnexion
+donate = Faire un don
 
 ## Home Page
 
@@ -614,7 +619,6 @@ about-playbook-how-add-sentences = Comment ajouter des phrases ?
 about-playbook-how-add-sentences-content-1 = Le <strong>collecteur de phrases</strong> est un outil de collecte et de validation des phrases du domaine public. Vous devrez <scAccountLink>créer un compte</scAccountLink>. Ensuite, ajoutez votre langue à votre <strong>profil</strong>. Vous pouvez <strong>ajouter</strong> des phrases ou <strong>réviser</strong> des phrases ajoutées précédemment.
 about-playbook-how-add-sentences-content-2 = Les phrases doivent être révisées et acceptées par deux personnes pour être incluses dans Common Voice. Vous pouvez créer des directives pour votre langue <languageGuidelinesLink>ici</languageGuidelinesLink>. Les phrases doivent appartenir au <licenseLink>domaine public</licenseLink> et être inférieures à 15 mots. Vous pouvez demander au propriétaire d’un texte de le passer sous licence <waiverLink>CC0 en utilisant notre processus de renonciation</waiverLink>, et nous l’envoyer à commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Vous pouvez utiliser <scraperLink>l’extracteur de phrase</scraperLink> pour recueillir de courtes phrases sur Wikipédia.
-about-playbook-how-add-sentences-content-4 = Les phrases qui ont été validées sont exportées le mercredi et sont disponibles dès la version suivante.
 
 ## How to record quality
 
@@ -904,6 +908,9 @@ listen-empty-state = Nous n’avons plus d’échantillons à valider dans cette
 listen-loading-error =
     Nous n’avons pas pu obtenir d’échantillons audio à écouter.
     Veuillez réessayer plus tard.
+listen-abort-title = Terminer la validation des échantillons ?
+listen-abort-cancel = Continuer la validation
+listen-abort-confirm = Terminer la validation
 speak-empty-state = Nous n’avons plus de phrases à enregistrer dans cette langue…
 speak-empty-state-cta = Proposer des phrases
 speak-loading-error =
@@ -1662,7 +1669,7 @@ reviewing-sentences-explanation-2 = Si la phrase ne répond pas aux critères ci
 reviewing-sentences-explanation-3 = Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 reviewing-sentences-explanation-4 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 # WRITE PAGE
-write-instruction-second-part = une phrase du domaine public
+write-instruction = Ajoutez <icon></icon> une phrase du domaine public
 write-page-subtitle = Les phrases fournies ici seront ajoutées à un jeu de données public sous licence cc-0.
 sentence =
     .label = Phrase
@@ -1670,7 +1677,8 @@ sentence-input-value = Saisissez votre phrase du domaine public ici
 citation-input-value = Source de votre phrase
 citation =
     .label = Citation
-what-can-i-add = Quels types de phrases puis-je ajouter ?
+sc-write-submit-confirm = Je confirme que cette phrase est du <wikipediaLink>domaine public</wikipediaLink> et que j’ai la permission de l’envoyer.
+sc-review-write-title = Quelles phrases puis-je ajouter ?
 new-sentence-rule-1 = <noCopyright>Aucune restriction de droit d’auteur</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Moins de 15 mots
 new-sentence-rule-3 = La grammaire doit être correcte
@@ -1687,9 +1695,15 @@ contact-us = Nous contacter
 add-sentence-success = 1 phrase collectée
 add-sentence-error = Erreur lors de l’ajout de la phrase
 required-field = Veuillez compléter ce champ.
-# REVIEW PAGE
-sc-review-instruction-first-part = Vérifier
-sc-review-instruction-second-part = si la phrase est linguistiquement correcte ?
+single-sentence-submission = Envoi de phrase unique
+bulk-sentence-submission = Envoi de plusieurs phrases
+single-sentence = Phrase unique
+bulk-sentences = Plusieurs phrases
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Vérifiez <icon></icon> que la phrase est correcte sur le plan linguistique
 sc-review-rules-title = La phrase est-elle conforme aux consignes ?
 sc-review-empty-state = Il n’y a actuellement aucune phrase à vérifier dans cette langue.
 report-sc-different-language = Autre langue
@@ -1701,3 +1715,29 @@ review-error-rate-limit-exceeded = Vous allez trop vite. Veuillez prendre quelqu
 sc-redirect-page-title = Nous effectuons d’importants changements
 sc-redirect-page-subtitle-1 = Le collecteur de phrases est déplacé vers la plateforme Common Voice. Vous pouvez désormais <writeURL>écrire</writeURL> une phrase ou <reviewURL>vérifier</reviewURL> des phrases depuis Common Voice.
 sc-redirect-page-subtitle-2 = Posez-nous vos questions sur <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou <emailLink>par e-mail</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Envoyez <icon></icon> des phrases du domaine public
+sc-bulk-upload-instruction = Faites glisser votre fichier ici ou <uploadButton>cliquez pour l’envoyer</uploadButton>
+sc-bulk-upload-instruction-drop = Déposez le fichier ici pour l’envoyer
+try-upload-again = Réessayez en faisant glisser votre fichier ici
+try-upload-again-md = Essayer à nouveau d’envoyer
+select-file = Sélectionner un fichier
+select-file-mobile = Sélectionnez un fichier à envoyer
+accepted-files = Types de fichiers acceptés : .tsv uniquement
+maximum-file-size = Taille maximale du fichier : 25 Mo
+what-needs-to-be-in-file = Que doit contenir mon fichier ?
+what-needs-to-be-in-file-explanation = Veuillez consulter notre <templateFileLink>modèle</templateFileLink>. Vos phrases doivent être libres de droit (CC0 ou travail original autorisé par l’auteur·trice) et être claires, grammaticalement correctes et faciles à lire. Les phrases envoyées doivent prendre environ 10-15 secondes à lire et doivent éviter d’inclure des chiffres, des noms propres et des caractères spéciaux.
+upload-progress-text = Envoi en cours…
+sc-bulk-submit-confirm = Je confirme que ces phrases sont du <wikipediaLink>domaine public</wikipediaLink> et que j’ai la permission de les envoyer.
+bulk-upload-success-toast = Phrases envoyées
+bulk-upload-failed-toast = Échec de l’envoi, veuillez réessayer.
+bulk-submission-success-header = Merci d’avoir participé en envoyant plusieurs phrases !
+bulk-submission-success-subheader = Vous aidez Common Voice à atteindre ses objectifs quotidiens de phrases !
+upload-more-btn-text = Envoyer d’autres phrases ?
+file-invalid-type = Fichier non valide
+file-too-large = Le fichier est trop volumineux
+file-too-small = Le fichier est trop petit
+too-many-files = Trop de fichiers

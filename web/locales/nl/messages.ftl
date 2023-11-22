@@ -69,6 +69,7 @@ eo = Esperanto
 es = Spaans
 et = Estisch
 eu = Baskisch
+ewo = Ewondo
 fa = Perzisch
 ff = Fula
 fi = Fins
@@ -79,6 +80,7 @@ ga-IE = Iers
 gl = Galicisch
 gn = Guaraní
 gom = Goanees Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebreeuws
 hi = Hindi
@@ -98,6 +100,7 @@ it = Italiaans
 izh = Izjorisch
 ja = Japans
 jbo = Lojban
+jv = Javaans
 ka = Georgisch
 kaa = Karakalpaks
 kab = Kabylisch
@@ -151,6 +154,7 @@ nyn = Nyankole
 oc = Occitaans
 om = Afaan Oromo
 or = Odia
+os = Ossetisch
 pa-IN = Punjabi
 pap-AW = Papiaments (Aruba)
 pl = Pools
@@ -244,6 +248,7 @@ share-text = Help machines te leren hoe echte mensen spreken, doneer uw stem op 
 link-copied = Koppeling gekopieerd
 back-top = Naar boven
 logout = Afmelden
+donate = Doneren
 
 ## Home Page
 
@@ -616,7 +621,6 @@ about-playbook-how-add-sentences = Hoe voeg ik zinnen toe?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is een hulpmiddel voor het verzamelen en valideren van zinnen in het publieke domein. U moet <scAccountLink>een account aanmaken</scAccountLink>. Voeg vervolgens uw taal toe aan uw <strong>Profiel</strong>. U kunt zinnen <strong>Toevoegen</strong> of eerder toegevoegde zinnen <strong>Beoordelen</strong>.
 about-playbook-how-add-sentences-content-2 = Zinnen moeten door twee mensen worden beoordeeld en geaccepteerd om te worden opgenomen in Common Voice. U maakt <languageGuidelinesLink>hier</languageGuidelinesLink> richtlijnen voor uw taal. Zinnen moeten in het <licenseLink>publieke domein</licenseLink> staan en korter zijn dan 15 woorden. U kunt de eigenaar van een tekst vragen om deze <waiverLink>CC0 te maken met behulp van ons ontheffingsproces</waiverLink> en deze naar ons sturen op commonvoice@mozilla.com.
 about-playbook-how-add-sentences-content-3 = U kunt de <scraperLink>Sentence extractor</scraperLink> gebruiken om korte zinnen uit Wikipedia te gebruiken.
-about-playbook-how-add-sentences-content-4 = Gevalideerde zinnen worden op woensdag geëxporteerd en zijn na de volgende uitgave beschikbaar.
 
 ## How to record quality
 
@@ -925,6 +929,9 @@ listen-empty-state = We hebben in deze taal geen te valideren fragmenten meer…
 listen-loading-error =
     We kunnen geen audiofragmenten voor u ophalen om naar te luisteren.
     Probeer het later nog eens.
+listen-abort-title = Valideren van fragmenten voltooien?
+listen-abort-cancel = Doorgaan met valideren
+listen-abort-confirm = Valideren voltooien
 speak-empty-state = We hebben in deze taal geen op te nemen zinnen meer…
 speak-empty-state-cta = Zinnen bijdragen
 speak-loading-error =
@@ -1759,7 +1766,7 @@ reviewing-sentences-explanation-2 = Als de zin niet aan de bovenstaande criteria
 reviewing-sentences-explanation-3 = Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
 reviewing-sentences-explanation-4 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
 # WRITE PAGE
-write-instruction-second-part = een zin uit het publieke domein
+write-instruction = Een <icon></icon> zin uit het publieke domein toevoegen
 write-page-subtitle = Zinnen die hier zijn bijgedragen worden toegevoegd aan een openbaar beschikbare cc-0 gelicenseerde dataset.
 sentence =
     .label = Zin
@@ -1767,7 +1774,10 @@ sentence-input-value = Voer hier uw publieke domeinzin in
 citation-input-value = Bron van uw zin
 citation =
     .label = Citaat
-what-can-i-add = Wat voor soort zinnen kan ik toevoegen?
+sc-write-submit-confirm =
+    Ik bevestig dat deze zin <wikipediaLink>publiek domein</wikipediaLink> is en
+    ik toestemming heb om deze te uploaden.
+sc-review-write-title = Welke zinnen kan ik toevoegen?
 new-sentence-rule-1 = <noCopyright>Geen copyright</noCopyright>-beperkingen (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Minder dan 15 woorden
 new-sentence-rule-3 = Gebruik de juiste grammatica
@@ -1784,16 +1794,51 @@ contact-us = Contact opnemen
 add-sentence-success = 1 zin verzameld
 add-sentence-error = Fout bij toevoegen van zin
 required-field = Vul dit veld in.
-# REVIEW PAGE
-sc-review-instruction-first-part = Controleren
-sc-review-instruction-second-part = is dit een taalkundig correcte zin?
+single-sentence-submission = Indienen van één zin
+bulk-sentence-submission = Bulkindiening van zinnen
+single-sentence = Losse zin
+bulk-sentences = Bulkzinnen
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Controleren <icon></icon> of dit een taalkundig correcte zin is?
 sc-review-rules-title = Voldoet de zin aan de richtlijnen?
 sc-review-empty-state = Er zijn momenteel geen zinnen om te beoordelen in deze taal.
 report-sc-different-language = Andere taal
 report-sc-different-language-detail = Het is geschreven in een andere taal dan die ik aan het beoordelen ben.
 sentences-fetch-error = Er is een fout opgetreden bij het ophalen van zinnen
 review-error = Er is een fout opgetreden bij het beoordelen van deze zin
+review-error-rate-limit-exceeded = U gaat te snel. Neem even de tijd om de zin te bekijken om er zeker van te zijn dat deze correct is.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = We voeren enkele grote veranderingen door
 sc-redirect-page-subtitle-1 = De Sentence Collector verhuist naar de kern van het Common Voice-platform. U kunt nu een zin <writeURL>schrijven</writeURL> of inzendingen van losse zinnen <reviewURL>beoordelen</reviewURL> op Common Voice.
 sc-redirect-page-subtitle-2 = Stel ons vragen op <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> of <emailLink>e-mail</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Zinnen <icon></icon> uit het publieke domein uploaden
+sc-bulk-upload-instruction = Sleep uw bestand hierheen of <uploadButton>klik om te uploaden</uploadButton>
+sc-bulk-upload-instruction-drop = Sleep bestand hierheen om te uploaden
+try-upload-again = Probeer het opnieuw door uw bestand hierheen te slepen
+try-upload-again-md = Probeer opnieuw te uploaden
+select-file = Bestand selecteren
+select-file-mobile = Selecteer te uploaden bestand
+accepted-files = Geaccepteerde bestandstypen: alleen .tsv
+maximum-file-size = Maximale bestandsgrootte: 25 MB
+what-needs-to-be-in-file = Wat moet er in mijn bestand zitten?
+what-needs-to-be-in-file-explanation = Bekijk ons <templateFileLink>sjabloonbestand</templateFileLink>. Uw zinnen moeten vrij van auteursrechten zijn (CC0 of origineel werk met toestemming van de indiener) en duidelijk, grammaticaal correct en gemakkelijk te lezen zijn. Ingediende zinnen zouden een leeslengte van ongeveer 10 tot 15 seconden moeten hebben en mogen geen cijfers, eigennamen en speciale tekens bevatten.
+upload-progress-text = Upload bezig…
+sc-bulk-submit-confirm =
+    Ik bevestig dat deze zinnen <wikipediaLink>publiek domein</wikipediaLink> zijn en
+    ik toestemming heb om ze te uploaden.
+bulk-upload-success-toast = Bulkupload zinnen voltooid
+bulk-upload-failed-toast = Upload mislukt, probeer het opnieuw.
+bulk-submission-success-header = Bedankt voor het indienen van uw bulkinzending!
+bulk-submission-success-subheader = U helpt Common Voice onze dagelijkse zinsdoelen te bereiken!
+upload-more-btn-text = Meer zinnen uploaden?
+file-invalid-type = Ongeldig bestand
+file-too-large = Bestand is te groot
+file-too-small = Bestand is te klein
+too-many-files = Te veel bestanden

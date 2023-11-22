@@ -42,6 +42,7 @@ be = Bieloruso
 bg = Búlgaro
 bm = Bambara
 bn = Bengalí
+bo = Tibetano
 br = Bretón
 bs = Bosnian
 bxr = Buriato
@@ -66,6 +67,7 @@ eo = Esperanto
 es = Español
 et = Estonio
 eu = Euskera
+ewo = Ewondo
 fa = Persa
 ff = Fula
 fi = Finlandés
@@ -76,6 +78,7 @@ ga-IE = Irlandés
 gl = Gallego
 gn = Guaraní
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebreo
 hi = Hindi
@@ -95,6 +98,7 @@ it = Italiano
 izh = Izhoriano
 ja = Japonés
 jbo = Lojban
+jv = Javanés
 ka = Georgiano
 kaa = Karakalpak
 kab = Cabillo
@@ -115,6 +119,7 @@ lij = Ligur
 ln = Lingala
 lo = Lao
 lt = Lituano
+ltg = Latgaliano
 lv = Letón
 mai = Maithili
 mdf = Moksha
@@ -141,10 +146,12 @@ nl = Neerlandés
 nn-NO = Noruego Nynorsk
 nr = IsiNdebele (Sur)
 nso = Sotho del Norte
+ny = Chinyanja
 nyn = Nyankole
 oc = Occitano
 om = Afaan Oromo
 or = Odia
+os = Osetio
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polaco
@@ -230,37 +237,37 @@ help = Xinechpaleui
 contact = nonotza
 privacy = ichtaca
 faq = tlahtlanil simi
-share-title = ¡xitechpalehui matiehcuca a cachi masehual aquihquen quiniquisqueh  tetlaculisqueh in tlahtol!
-share-text = xitechpalehui tiquinnextilisque tiposmeh quenin tlahtuhuan masehualmeh, xitetlaoculi mu tlahtol ichin { $link }
-back-top = ximocuipa campa pehua
-logout = sectzacuas sesión
+share-title = ¡Xitechpaleui ma tiehcocan cachi maseual aquihquen quiniquisqueh  tetlacolisqueh in tlahtol!
+share-text = Xitechpaleui tiquinnextilisquen tiposmeh quenin tlahtoan maseualmeh, xitetlaocoli motlahtol ich in { $link }
+back-top = Ximocuipa campa pehua
+logout = Xictzacua sesión
 
 ## Home Page
 
-home-title = tiquitl common Voice se pehualis de Mozilla ica sequinpaleuis  monextilisqueh tiposmeh quenin tlahtuhuan masehualmeh
-default-tagline = Ich Mozilla Common Voice ticniqueh tiquinpaleuisqueh mo quinnextilican  tiposmeh queni tlahtoah in maseoalmeh.
+home-title = In tiquitl Common Voice se peualistli de Mozilla ica sequinpaleuis  mo quinextilican tiposmeh quenin tlahtoan maseualmeh
+default-tagline = Ich Mozilla Common Voice ticniqueh tiquinpaleuisqueh mo quinnextilican  tiposmeh queni tlahtoah in maseualmeh.
 home-cta = Xitlahto, ¡Xitechpaleui nican!
-wall-of-text-start = tlahtol isqui milahuak, tlahtol isqui masehoal. Icanun se pactoc sek chihuas se tipostl tlahtol para tu maquinas. Axan para sec chihuas se tiquitl tlahtol, se puhuali simi hueyi ika nextililtlahtol muniqui
-wall-of-text-more-desktop = axan huilis titetlaculis mu tlahtol ica titech palehuis ticchiuasque se icxitlanahuatil ica tlahtol ichtaca tlapohtoc aquinyahuili huilisquicuis ica quichichihuas aplicaciones yancuic para tipusmeh huan web.<lineBreak></lineBreak>xiquita se tlahcuilol ica niquin palehuis mu nextilican tiposmeh quenin tlahtuhuan masehualmeh. Xiquita tiquitl de ocsiquen tlapalehuaneh ica secyectlalis tiquitl. ¡uhcon amo uhue!
-wall-of-text-first = tlahtol yeh milahuac, tlahtol yeh masehual. Icanun ti pactuqueh usecchihchiuh se tipostlahtol maccuican tu tiposhuan. para sec chihuas se nimilis tlahtol, aquihquen qui chihchihuan quicueh miakeh tlanahuatil tlahtol
-wall-of-text-second = miaqueh tlanahuatilmeh tlen mucueh por huehueyeh tiquimeh amo  catqui tlapuhtoc para nochten masehualmeh. usecnimile nin quitzacuilia tutlanimilil. Icanon usectitlan Common Voice, se tiquitl para ticquinpalehuisqueh moc chihchihuacah que ixmatilistlahtol mui tlapuhtoc huan mucahsicah nuchteh
+wall-of-text-start = Tlahtol isqui milauac, tlahtol isqui maseual. Ica nun sepactoc secchiuas se tipostlahtol para tomaquinas. Axan para secchiuas se tlahtoltiquitl, sepouali simi ueyi ika nextililtlahtol moniqui.
+wall-of-text-more-desktop = Axan uilis titetlacolis motlahtol ica titechpalehuis ticchiuasqueh se icxitlanahuatil ica tlahtol ichtaca tlapohtoc tlen uilis quicuis aquinsa para ica quichichiuas yancuiqueh aplicaciones para tiposmeh uan web.<lineBreak></lineBreak>Xiquita se tlahcuilol para tiquinpalehuis mo quinnextilican tiposmeh quenin tlahtoan maseualmeh. Xiquita tiquitl de ocsiquen tlapalehuaneh ica secyectlalis tiquitl. ¡ohcon amo oue!
+wall-of-text-first = Tlahtol yeh milauac, tlahtol yeh maseual. Ica non tipactoqueh osecchihchiu se tipostlahtol ma quicuican totiposuan. para secchihuas senimilis tlahtol, aquihquen quichihchiuan quicueh miaqueh tlanauatil tlahtol.
+wall-of-text-second = Miaqueh tlanauatilmeh tlen mocueh por uehueyeh tiquimeh amo tlapohtoc para nochten masehualmeh. Secnimile nin quitzacuilia totlanimilil. Ica non osectitlan Common Voice, se tiquitl para ticquinpaleuisqueh mocchihchiuacan queh ixmatilis tlahtol mo i tlapohtoc uan mo cahsicah nochten
 show-wall-of-text = ximomachti cachi
 help-us-title = xitechpalehui matiquitacah tlahtol
-help-us-explain = xicpacho mopehua, xicaqui huan techilhuis: ¿ ukihtuhke cuali tlahtol tlen achto?
-no-clips-to-validate = nismati amocatqui tlahtolahcuctoc para seccaquis icanin masehualtlahtol. Xitechpalehui tictemitiskeh  lista tlahtolahcuctusqueh sansique axan
+help-us-explain = Xicpacho mo pehua, xicaqui uan techiluis: ¿Okihtohke cuali tlahtol tlen achto?
+no-clips-to-validate = Nismati amo catqui tlahtolahcoctoc para seccaquis ica nin maseualtlahtol. Xitechpaleui tictemitisqueh lista tlahtolahcoctosqueh sansique axan.
 vote-yes = quema
 vote-no = amo
-toggle-play-tooltip = xipacho { shortcut-play-toggle } para secxotlaltis  mu pehua
-speak-subtitle = xitetlaocoli mu tlahtol
+toggle-play-tooltip = Xicpacho { shortcut-play-toggle } para secxotlaltis  mo peua
+speak-subtitle = Xitetlaocoli motlahtol
 speak-paragraph = tlahtolahcucui tlahtulmeh para tic chihuas tu base de datos tlapuhtoc; sansiqueh quihtusque nuyuhqui nicancah ahuiltil
 speak-goal-text = tlahcuilol tlahtolahcuctoc
 listen-subtitle = xitechpalehui maticsilicah tlahtulmeh
-listen-paragraph = sequinsilis siqueh tlahtulmeh tetlaoculil simi muniqui para tiquitl de Common Voice. Xicaqui huan xitechpalehui maticchihuacan tlanunutztlahtol tlapuhtok huan tlen cachi cuahcual
-voices-online = tlahtulmeh tlen axa catqui  en lìnea
+listen-paragraph = Sequinsilis tlahtolmeh tetlaocolil noyiuhqui simi moniqui para in tiquitl de Common Voice. Xicaqui uan xitechpaleui ma ticchiuacan tla nonotztlahtol tlapohtok uan tlen cachi cuahcual.
+voices-online = Nauatlahtoane tlen axan cateh en línea
 todays-progress = nimilis de axan
 help-reach-goal = xitechpalehui matic chihuacan
 read-terms-q = yutiquin machteh condiciones de quenin ticuis servicio?
-ready-to-record = ¿yiticah cuali para tictetlaocolis mu tlahtol?
+ready-to-record = ¿Yiticah cuali para tictetlaocolis motlahtol?
 all-locales = Nochi
 today = Axan
 x-weeks-short =
@@ -307,6 +314,12 @@ username-email-not-demographic = mu tocayo de ususario huan correo electronico m
 ## Listen Shortcuts
 
 shortcut-play-toggle-label = nihnimilti/tzacuili
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = q
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = m
 
 ## Speak Shortcuts
 
@@ -325,6 +338,7 @@ status-contribute = xitechpaleui ica mu tlahtol
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = ocse tiquitl: { $goal }
+english = Inglés
 
 ## ProfileForm
 
@@ -393,6 +407,7 @@ change-email-setings = xicpatla mu correo electronico campa Ajustes, tlatlampa c
 
 ## FAQ
 
+faq-what-cv-q = ¿Tlenon Common Voice?
 faq-why-important-q = ¿queye simi moniqui?
 faq-how-get-q = queni huilis niquinsilis tlanahuatil de Common Voice?
 faq-when-release2-q = ¿quemenia tiquintlehcultis tlanahuatil de Common Voice ichiocsiqueh tlahtulmeh?
@@ -485,7 +500,6 @@ about-playbook-how-localize-content-5 = xiquita tovideo campa huits quenin mits 
 
 about-playbook-how-add-sentences = ¿queni niquinihcuilohua cachi tlahtolmeh?
 about-playbook-how-add-sentences-content-3 = huilis ticuis <scraperLink> Sentence extractor</scraperLink> para tiquincuis tlahcuilol tzocopintzitzi de Wikipedia
-about-playbook-how-add-sentences-content-4 = tlahcuilolmeh tlen quema oquinsilihqueh mu panultisqueh tunal miercoles  huan huilis mocuis satepan den ocse naltitlanil
 
 ## How to record quality
 
@@ -518,12 +532,12 @@ about-playbook-how-validate-content-4 = tla  se tlanahuatiltlahtol qui pololtia 
 
 about-playbook-how-access-dataset = ¿queni nicalaqui huan niquicoi nichicol tlahtol?
 about-playbook-how-access-dataset-content-1 = huilis tiyas <datasetsPage>ichin pagina campa monichicohuan tlanaoatilmeh </datasetsPage>xicpihpina version huan tlahtulmeh tlen ticniquis huan xiquinahcocui. tlanahuatilmeh quipiah <metadataLink>metadatos niliuhtuqueh </metadataLink>quemeh tlanahuatil demográfica huan tlanahuatil tlen oquisilihqueh. quipia de quitemactis se direccion de correo para huilis ticahcocuis nichicol tlanahuatil
-about-playbook-how-access-dataset-content-2 = mu temohtoqueh tipos palehuaneh para sequinchihchioas se yehyecolis ASR, uilis timo salos ioan ocsiquen maseoalme de ocsicah<discourseLink>ichin Discourse </discourseLink>
+about-playbook-how-access-dataset-content-2 = Tla tiniqui tiquinchihchiuas se yehyecolis ASR, uilis timosalos iuan ocsiquen maseualmeh de ocsicah <discourseLink>ich in Discourse </discourseLink>
 
 ## How are decisions made
 
 about-playbook-how-project-governance = queni tiquinmana tlahtol tiquitl
-about-playbook-how-project-governance-content-1 = Mozilla Common Voice umuchiuh ican tlapalehuil maseoal nichicolis tlatlamantl tiquitl, tlahtolmeh, cientificos de tlanaoatil,academicos, huan ingenieros de sofware de nuchi tlalticpac . tiquitl quichihchiutoque por fundacion Mozilla
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice omochiuh ican itlapaleuil maseualnichicolis tlatlamantl tiquitl, tlahtolmeh, científicos de tlanauatil, académicos, uan ingenieros de informática de nochin tlalticpac . Tiquitl quichihchiutoque por la Fundación Mozilla
 about-playbook-how-project-governance-content-2 = totiachcauh moyicana ichin pilares de:
 about-playbook-how-project-governance-content-4 = tlapalehuani masehualnichicol huan xicana se coali tlahtol
 about-playbook-how-project-governance-content-5 = quexquich huan teixpantilis
@@ -600,7 +614,7 @@ get-started-speech = xipehua axcan ican ixmatilis tlahtol
 other-datasets = ocsiqui bases de tlanaoatil tlahtol
 feedback-q = ¿ticpia se tlahtol?
 resource-coqui-info = <coquiLink>Coqui</coquiLink> quichioa tipostlahtol tlapohtoc. itiquiu nihnimitia motores  STT huan TTS teixpantilis ica tlamachtil tlahtic
-resource-playbook-info = <playbookLink> xicahsi nimilis tlen cualtias </playbookLink> quemeh nuchi nemilis de Common Voice  campacateh hasta campaquicueh sansica tlanaoatil, huan queni timonilos ican tonichicomaseoal
+resource-playbook-info = <playbookLink> Xicahsi nimilis tlen cualtias </playbookLink> quemeh nochi nemilis de Common Voice  campa cateh hasta campa quicueh sansica tlanauatil, uan queni timonilos ican tonichicomaseual
 data-other-voxforge-description = VoxForge omuchiuh para monichicosqueh tlahtolme ihcoilohtoqueh para moquin coicah icanemilis de ixmatilistlahtol ica código tlapohtoc
 data-other-tatoeba-description = Tatoeba yeh sehueyi nichicol tlanahuatil, tlahtolcuipa huan tlahtolahcocui para monextilisqueh tiposmeh. nicancah timolistl quipia nochi ingles tlahtulahcoctoc ica ynichicomasehual
 your-feedback = ¿ticpia senemilil para ticchioasque cachicoali tlanahuatil de Common Voice? xitechilhui ichin Discourse
@@ -676,6 +690,7 @@ language-search-input =
 language-speakers = tlahtohuaneh
 localized = tlacuipcahtlahtol
 sentences = tlahtoltlahcuilol
+language-validation-hours = Horas
 language-validation-progress = nemilis silihqueh
 
 ## Contribution
@@ -683,7 +698,7 @@ language-validation-progress = nemilis silihqueh
 action-click = xicpacho
 action-tap = xicnexti
 contribute = Xitiquiti touan
-listen = tlacaqui
+listen = Tlacaqui
 write = tlahcuilo
 review = xiquita
 skip = ahcotzicuini
@@ -695,7 +710,7 @@ clips-with-count-pluralized =
     }
 goal-help-recording = tlasohcamate utitech palehue Common Voice yuahsic <goalPercentage></goalPercentage> icatiquitl tlen tlahtolahcocueh{ $goalValue }
 goal-help-validation = tlasohcamateh utitechpalehue Common Voice yuahsic<goalPercentage></goalPercentage>ica tiquitl tlen tlahtolahcucueh{ $goalValue }
-contribute-more = yiticah cuali para ticchihuas { $count } cachi?
+contribute-more = ¿Yiticah cuali para ticchiuas { $count } cachi?
 record-cta = pehua tlahtolahcocui
 record-platform-not-supported = xitechtlapohpolhui, pero muplataforma axan amo catqui soportada
 record-platform-not-supported-desktop = ichin tipostlahcuilol, huilis tictimultis version tlen teicahuia
@@ -800,7 +815,7 @@ get-started-goals = nipehualtis notiquiu
 create-custom-goal = sec chihuas se tiquitl sehseh
 goal-type = ¿tlen tiquitl nicniqui nic chihuas?
 both-speak-and-listen = tiumeh
-both-speak-and-listen-long = tiumeh (tlahtos huan tlacaqui)
+both-speak-and-listen-long = Tiomen (tlahtoa uan tlacaqui)
 daily-goal = tiquitl nuchipa
 weekly-goal = tiquitl chicueyitica
 easy-difficulty = amo uhueh
@@ -826,7 +841,7 @@ set-a-goal = xictlali mu tiquiuh
 cant-decide = ¿amo timu nimilia?
 how-many-per-day = ¡cuali! ¿ quesqui tlahtolahcucui tunal?
 how-many-a-week = cuali! ¿quesqui tlahtolahcuc ipan chicueyi tunal?
-which-goal-type = ¿ ticniqui ti tlahtos, tlacaquis o yen umeh?
+which-goal-type = ¿Ticniqui titlahtos, titlacaquis o yen omen?
 receiving-emails-info = axan qupia de tic yectlalis para tic silis correos electronicos, quemeh ilnamiquilis tiquitl, yancuic nemilis huan boletines de tlanahuatil ica Common Voice
 not-receiving-emails-info = mu patilis de axan quintuhua <bold> amo</bold> ticsilis correos ica ilnamiquilis tiquitl, yancuic nemilis amo boletines de tlanahuatil Common Voice
 n-clips-pluralized =
@@ -921,7 +936,7 @@ demo-account-sign-up = naltitlani enlace campasemuihcuilos
 
 demo-contribute-card-header = ¿yi cuali para tic tlalis mu tlahtol o tic tlaneuhtis mu nacas?
 demo-contribute-card-body-v2 = axan tic mati cachi ica Common Voice, ¿ queye amo secyehyecus? xicpachu campa catqui se tipostlanunutz para tic pehuas tiquin machtis tlahtulme ica tlahtol chicahuac<br/><br/> tla tic niqui tiquimitas aquihquen tlapalehuia ican in tlahtol ocsiqui masehualmeh, xicpacho campa mu nextia para pehuas. titechpalehuis para tiquin silisqueh tlahtolahcuc tlen catqui cuali ihuan tlahtol ihcuiliuhtoc ichin pantalla
-demo-listen-subtitle = ¿ yiticah cuali para titechpalehuis?
+demo-listen-subtitle = ¿Yiticah cuali para titechpaleuis?
 
 ## Demo Dashboard
 

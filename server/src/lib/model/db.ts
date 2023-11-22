@@ -13,6 +13,8 @@ import {
   Datasets,
 } from 'common';
 import lazyCache from '../lazy-cache';
+import { taskOption as TO, taskEither as TE } from 'fp-ts';
+import { pipe } from 'fp-ts/lib/function';
 const MINUTE = 1000 * 60;
 const DAY = MINUTE * 60 * 24;
 
@@ -92,6 +94,22 @@ export async function getLocaleId(locale: string): Promise<number> {
   }
 
   return languageIds[locale];
+}
+
+export function getLocaleIdF(locale: string): TE.TaskEither<Error, number> {
+  const languageIds = TE.tryCatch(
+    () => getLanguageMap(),
+    (err: Error) => err
+  )
+
+  return pipe(
+    languageIds,
+    TE.chain(languageIds =>
+      typeof languageIds[locale] === 'number'
+        ? TE.right(languageIds[locale])
+        : TE.left(Error(`Locale ${locale} does not exist`))
+    )
+  )
 }
 
 export async function getTermIds(term_names: string[]): Promise<number[]> {
@@ -484,11 +502,11 @@ export default class DB {
       submittedUserClipIds.map((row: { clip_id: number }) => row.clip_id)
     );
 
-    //get clips that a user hasnt already seen
+    //get clips that a user hasn't already seen
     const validClips = new Set(
       validUserClips.filter((clip: DBClip) => {
         if (exemptFromSSRL) return !skipClipIds.has(clip.id);
-        //only return clips that have not been valiadated before
+        //only return clips that have not been validated before
         return !skipClipIds.has(clip.id) && clip.has_valid_clip === 0;
       })
     );
@@ -963,17 +981,25 @@ export default class DB {
 
   async getLanguages(): Promise<Language[]> {
     const [rows] = await this.mysql.query(
-      `SELECT 
-      l.id, 
-      l.name, 
-      l.target_sentence_count as target_sentence_count, 
-      count(1) as total_sentence_count,
-      l.is_contributable
-        FROM locales l
-        LEFT JOIN sentences s ON s.locale_id = l.id
-        WHERE s.is_validated = TRUE
-        GROUP BY l.id`
+      `
+      SELECT
+        l.id,
+        l.name,
+        l.target_sentence_count as target_sentence_count,
+        COALESCE(s.total_sentence_count, 0) as total_sentence_count,
+        l.is_contributable
+      FROM locales l
+      LEFT JOIN (
+        SELECT locale_id, COUNT(*) as total_sentence_count
+        FROM sentences
+        WHERE is_validated = TRUE
+        GROUP BY locale_id
+      ) s ON l.id = s.locale_id
+      `
     );
+
+    const lastFetched = new Date()
+
     return rows.map(
       (row: {
         id: number;
@@ -989,6 +1015,7 @@ export default class DB {
           targetSentenceCount: row.target_sentence_count,
           currentCount: row.total_sentence_count,
         },
+        lastFetched,
       })
     );
   }

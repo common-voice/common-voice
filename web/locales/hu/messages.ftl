@@ -69,6 +69,7 @@ eo = Eszperantó
 es = Spanyol
 et = Észt
 eu = Baszk
+ewo = Ewondo
 fa = Perzsa
 ff = Fula
 fi = Finn
@@ -79,6 +80,7 @@ ga-IE = Ír
 gl = Galícia
 gn = Guarani
 gom = Goan konkani
+gu-IN = Gudzsaráti
 ha = Hausza
 he = Héber
 hi = Hindi
@@ -98,6 +100,7 @@ it = Olasz
 izh = Izsór
 ja = Japán
 jbo = Lojban
+jv = Jávai
 ka = Grúz
 kaa = Karakalpak
 kab = Kabil
@@ -151,6 +154,7 @@ nyn = Nyankole
 oc = Okcitán
 om = Oromo
 or = Orija
+os = Oszét
 pa-IN = Pandzsábi
 pap-AW = Papiamento (Aruba)
 pl = Lengyel
@@ -244,6 +248,7 @@ share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az igazi embe
 link-copied = Hivatkozás másolva
 back-top = Vissza a tetejére
 logout = Kijelentkezés
+donate = Adományozás
 
 ## Home Page
 
@@ -617,7 +622,6 @@ about-playbook-how-add-sentences = Hogyan adhatok hozzá mondatokat?
 about-playbook-how-add-sentences-content-1 = A <strong>mondatgyűjtő</strong> egy eszköz, amely közkincsű mondatok gyűjtésére és ellenőrzésére szolgál. <scAccountLink>Létre kell hoznia egy fiókot</scAccountLink>. Majd adja hozzá a nyelvét a <strong>profiljában</strong>. <strong>Hozzáadhat</strong> mondatokat, vagy <strong>ellenőrizheti</strong> az előzőleg hozzáadottakat.
 about-playbook-how-add-sentences-content-2 = A mondatokat két embernek kell átnéznie és elfogadnia, hogy bekerüljenek a Common Voice-ba. <languageGuidelinesLink>Itt</languageGuidelinesLink> hozhat létre irányelveket az Ön nyelvéhez. A mondatoknak <licenseLink>közkincsnek</licenseLink>, és 15 szónál rövidebbnek kell lenniük. Megkérheti a szöveg tulajdonosát, hogy <waiverLink>CC0 alatt licencelje a lemondási folyamatunk használatával</waiverLink>, majd küldje el nekünk a commonvoice@mozilla.com címre.
 about-playbook-how-add-sentences-content-3 = Használhatja a <scraperLink>Mondatgyűjtőt</scraperLink>, hogy rövid mondatokat vegyen át a Wikipédiáról.
-about-playbook-how-add-sentences-content-4 = Az ellenőrzött mondatok szerdánként kerülnek exportálásra, és a következő kiadás után lesznek elérhetők.
 
 ## How to record quality
 
@@ -925,6 +929,9 @@ listen-empty-state = Elfogytak az ellenőrzésre váró klipek ezen a nyelven: f
 listen-loading-error =
     Nem tudtunk meghallgatható hangfelvételeket lekérni.
     Próbálja újra később.
+listen-abort-title = Befejezi a klipek ellenőrzését?
+listen-abort-cancel = Ellenőrzés folytatása
+listen-abort-confirm = Ellenőrzés befejezése
 speak-empty-state = Elfogytak az felvételre váró mondatok ezen a nyelven…
 speak-empty-state-cta = Mondatok hozzáadása
 speak-loading-error =
@@ -1694,7 +1701,7 @@ reviewing-sentences-explanation-2 = Ha a mondat nem felel meg a fenti feltétele
 reviewing-sentences-explanation-3 = Ha nem biztos a mondattal kapcsolatban, ki is hagyhatja, és továbbugorhat a következőre.
 reviewing-sentences-explanation-4 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében.
 # WRITE PAGE
-write-instruction-second-part = egy közkincsű mondat
+write-instruction = Közkincsű mondat hozzáadása <icon></icon>
 write-page-subtitle = Az itt beküldött mondatok egy nyilvánosan elérhető, cc-0 licenc alatt közzétett adatkészlethez adódnak.
 sentence =
     .label = Mondat
@@ -1702,7 +1709,8 @@ sentence-input-value = Írja ide a közkincsű mondatot
 citation-input-value = A mondat forrása
 citation =
     .label = Idézet
-what-can-i-add = Milyen típusú mondatokat adhatok hozzá?
+sc-write-submit-confirm = Megerősítem, hogy ez a mondat <wikipediaLink>közkincs</wikipediaLink>, és engedéllyel töltöm fel.
+sc-review-write-title = Milyen mondatokat adhatok hozzá?
 new-sentence-rule-1 = <noCopyright>Nincs szerzői jogi</noCopyright> korlátozás (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Kevesebb mint 15 szó
 new-sentence-rule-3 = Használjon helyes nyelvtant
@@ -1719,9 +1727,15 @@ contact-us = Kapcsolat
 add-sentence-success = 1 mondat összegyűjtve
 add-sentence-error = Hiba a mondat hozzáadásakor
 required-field = Töltse ki ezt a mezőt.
-# REVIEW PAGE
-sc-review-instruction-first-part = Ellenőrzés
-sc-review-instruction-second-part = ez egy nyelvileg helyes mondat?
+single-sentence-submission = Egy mondatos beküldés
+bulk-sentence-submission = Mondatok tömeges beküldése
+single-sentence = Egyetlen mondat
+bulk-sentences = Több mondat
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Ellenőrizze <icon></icon>, hogy ez egy nyelvileg helyes mondat-e?
 sc-review-rules-title = A mondat megfelel az irányelveknek?
 sc-review-empty-state = Jelenleg nincsenek ellenőrizendő mondatok ezen a nyelven.
 report-sc-different-language = Más nyelv
@@ -1733,3 +1747,29 @@ review-error-rate-limit-exceeded = Túl gyorsan halad. Szánjon rá egy kis idő
 sc-redirect-page-title = Néhány nagy változtatást vezetünk be
 sc-redirect-page-subtitle-1 = A mondatgyűjtő átköltözik a központi Common Voice platformra. Mostantól a Common Voice-on <writeURL>írhat</writeURL> mondatokat vagy <reviewURL>ellenőrizheti</reviewURL> az egymondatos beküldéseket.
 sc-redirect-page-subtitle-2 = Kérdezzen a <matrixLink>Matrixon</matrixLink>, a <discourseLink>Discourse-on</discourseLink> vagy <emailLink>e-mailben</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Közkincsű mondatok feltöltése <icon></icon>
+sc-bulk-upload-instruction = Húzza ide a fájlt, vagy <uploadButton>kattintson a feltöltéshez</uploadButton>
+sc-bulk-upload-instruction-drop = A feltöltéshez vigye ide a fájlt
+try-upload-again = Próbálja újra a fájl idehúzásával
+try-upload-again-md = Próbálja újból feltölteni
+select-file = Fájl kiválasztása
+select-file-mobile = Válassza ki a feltöltendő fájlt
+accepted-files = Elfogadott fájltípusok: csak .tsv
+maximum-file-size = Maximális fájlméret: 25 MB
+what-needs-to-be-in-file = Minek kell lennie a fájlomban?
+what-needs-to-be-in-file-explanation = Nézze meg a <templateFileLink>sablonfájlunkat</templateFileLink>. A mondatoknak szerzői jogoktól mentesnek (CC0 vagy a beküldő eredeti munkája), valamint egyértelműnek, nyelvtanilag helyesnek és könnyen olvashatónak kell lenniük. A beküldött mondatok felolvasásának nagyjából 10-15 másodpercet kellene igénybe vennie, valamint kerülje a számok, tulajdonnevek és speciális karakterek használatát.
+upload-progress-text = Feltöltés folyamatban…
+sc-bulk-submit-confirm = Megerősítem, hogy ezek a mondatok <wikipediaLink>közkincsek</wikipediaLink>, és engedéllyel töltöm fel őket.
+bulk-upload-success-toast = Mondatok tömeges feltöltése
+bulk-upload-failed-toast = A feltöltés sikertelen, próbálja újra.
+bulk-submission-success-header = Köszönjük, hogy közreműködött a tömeges feltöltésével!
+bulk-submission-success-subheader = Segít a Common Voice-nak elérni a napi mondatokkal kapcsolatos céljait!
+upload-more-btn-text = Tölt fel további mondatokat?
+file-invalid-type = Érvénytelen fájl
+file-too-large = A fájl túl nagy
+file-too-small = A fájl túl kicsi
+too-many-files = Túl sok fájl

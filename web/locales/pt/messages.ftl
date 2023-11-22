@@ -69,6 +69,7 @@ eo = Esperanto
 es = Espanhol
 et = Estoniano
 eu = Basco
+ewo = Euondo
 fa = Persa
 ff = Fula
 fi = Finlandês
@@ -79,6 +80,7 @@ ga-IE = Irlandês
 gl = Galego
 gn = Guarani
 gom = Konkani de Goa
+gu-IN = Guzerate
 ha = Hauçá
 he = Hebraico
 hi = Hindi
@@ -98,6 +100,7 @@ it = Italiano
 izh = Ijoriano
 ja = Japonês
 jbo = Lojban
+jv = Javanês
 ka = Georgiano
 kaa = Caracalpaque
 kab = Kabyle
@@ -151,6 +154,7 @@ nyn = Ancolé
 oc = Occitânico
 om = Afaan Ormoo
 or = Odia
+os = Osseto
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polonês
@@ -244,6 +248,7 @@ share-text = Ajude a ensinar às máquinas como uma pessoal fala, doando sua voz
 link-copied = Link copiado
 back-top = Voltar para o início
 logout = Sair
+donate = Faça uma doação
 
 ## Home Page
 
@@ -616,7 +621,6 @@ about-playbook-how-add-sentences = Como adicionar frases?
 about-playbook-how-add-sentences-content-1 = O <strong>coletor de frases</strong> é uma ferramenta para coletar e validar frases de domínio público. Você <scAccountLink>precisa criar uma conta</scAccountLink>. Depois adicione seu idioma ao seu <strong>perfil</strong>. Você pode <strong>adicionar</strong> frases ou <strong>revisar</strong> frases adicionadas anteriormente.
 about-playbook-how-add-sentences-content-2 = As frases devem ser revisadas e aceitas por duas pessoas para ser incluídas no Common Voice. Você cria diretrizes para seu idioma <languageGuidelinesLink>aqui</languageGuidelinesLink>. As frases devem ser de <licenseLink>domínio público</licenseLink> e ter menos de 15 palavras. Você pode pedir ao proprietário de um texto para torná-lo <waiverLink>CC0 (domínio público) usando nosso processo de renúncia de direitos</waiverLink> e nos enviar em commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Você pode usar o <scraperLink>extrator de frases</scraperLink> para aproveitar frases curtas do Wikipedia.
-about-playbook-how-add-sentences-content-4 = Frases validadas são exportadas às quartas-feiras e ficam disponíveis após o próximo lançamento.
 
 ## How to record quality
 
@@ -922,6 +926,9 @@ listen-empty-state = Nós ficamos sem clipes para validar neste idioma...
 listen-loading-error =
     Não foi possível obter nenhum clipe de áudio para você ouvir.
     Tente novamente mais tarde.
+listen-abort-title = Terminar a validação de clipes?
+listen-abort-cancel = Continuar a validar
+listen-abort-confirm = Terminar a validação
 speak-empty-state = Nós ficamos sem frases para gravar neste idioma...
 speak-empty-state-cta = Contribua com frases
 speak-loading-error =
@@ -1675,7 +1682,7 @@ reviewing-sentences-explanation-2 = Se a frase não atender aos critérios acima
 reviewing-sentences-explanation-3 = Se não tiver certeza sobre a frase, você também pode ignorar e passar para a próxima.
 reviewing-sentences-explanation-4 = Se não tiver mais frases para revisar, ajude-nos a coletar mais frases!
 # WRITE PAGE
-write-instruction-second-part = uma frase de domínio público
+write-instruction = Adicionar <icon></icon> uma frase de domínio público
 write-page-subtitle = As frases contribuídas aqui são adicionadas a um conjunto de dados disponível publicamente de licença cc-0.
 sentence =
     .label = Frase
@@ -1683,7 +1690,8 @@ sentence-input-value = Digite aqui sua frase de domínio público
 citation-input-value = Origem da sua frase
 citation =
     .label = Citação
-what-can-i-add = Que tipos de frases posso adicionar?
+sc-write-submit-confirm = Confirmo que esta frase é de <wikipediaLink>domínio público</wikipediaLink> e tenho permissão para enviar.
+sc-review-write-title = Que frases posso adicionar?
 new-sentence-rule-1 = <noCopyright>Sem restrições de direitos autorais</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Menos de 15 palavras
 new-sentence-rule-3 = Usar gramática correta
@@ -1700,9 +1708,15 @@ contact-us = Contate-nos
 add-sentence-success = 1 frase coletada
 add-sentence-error = Erro ao adicionar frase
 required-field = Preencha este campo.
-# REVIEW PAGE
-sc-review-instruction-first-part = Verificação
-sc-review-instruction-second-part = Esta é uma frase linguisticamente correta?
+single-sentence-submission = Envio de uma única frase
+bulk-sentence-submission = Envio de grupo de frases
+single-sentence = Uma única frase
+bulk-sentences = Grupo de frases
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Verificou <icon></icon> se é uma frase linguisticamente correta?
 sc-review-rules-title = A frase atende às diretrizes?
 sc-review-empty-state = No momento, não há frases a revisar neste idioma.
 report-sc-different-language = Outro idioma
@@ -1714,3 +1728,29 @@ review-error-rate-limit-exceeded = Você está indo rápido demais. Dedique um m
 sc-redirect-page-title = Estamos a fazer grandes mudanças
 sc-redirect-page-subtitle-1 = O coletor de frases está migrando para a plataforma principal do Common Voice. Agora você pode <writeURL>escrever</writeURL> uma frase ou <reviewURL>revisar</reviewURL> envios de uma única frase no Common Voice.
 sc-redirect-page-subtitle-2 = Faça-nos perguntas no <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou por <emailLink>email</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Enviar <icon></icon> frases de domínio público
+sc-bulk-upload-instruction = Arraste seu arquivo para cá ou <uploadButton>clique para enviar</uploadButton>
+sc-bulk-upload-instruction-drop = Arraste arquivo para cá para enviar
+try-upload-again = Tente novamente arrastando seu arquivo para cá
+try-upload-again-md = Tentar enviar novamente
+select-file = Selecionar arquivo
+select-file-mobile = Selecione um arquivo para enviar
+accepted-files = Tipos de arquivo aceitos: somente .tsv
+maximum-file-size = Tamanho máximo de arquivo: 25 MB
+what-needs-to-be-in-file = O que precisa ter no meu arquivo?
+what-needs-to-be-in-file-explanation = Verifique nosso <templateFileLink>arquivo de modelo</templateFileLink>. Suas frases devem ser livres de direitos autorais (licença CC0 ou trabalho original autorizado pelo remetente) e ser claras, gramaticalmente corretas e fáceis de ler. As frases enviadas devem levar cerca de 10 a 15 segundos para ser lidas e devem evitar incluir números, nomes próprios e caracteres especiais.
+upload-progress-text = Envio em andamento...
+sc-bulk-submit-confirm = Confirmo que estas frases são de <wikipediaLink>domínio público</wikipediaLink> e tenho permissão para enviar.
+bulk-upload-success-toast = Grupo de frases enviado
+bulk-upload-failed-toast = Falha no envio, tente novamente.
+bulk-submission-success-header = Obrigado por contribuir com seu envio de grupo!
+bulk-submission-success-subheader = Você ajuda o Common Voice a atingir nossas metas diárias de frases!
+upload-more-btn-text = Enviar mais frases?
+file-invalid-type = Arquivo inválido
+file-too-large = Arquivo grande demais
+file-too-small = Arquivo pequeno demais
+too-many-files = Arquivos demais

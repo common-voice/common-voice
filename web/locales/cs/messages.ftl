@@ -69,6 +69,7 @@ eo = Esperanto
 es = Španělština
 et = Estonština
 eu = Baskičtina
+ewo = Ewondo
 fa = Perština
 ff = Fulbština
 fi = Finština
@@ -79,6 +80,7 @@ ga-IE = Irština
 gl = Galicijština
 gn = Guaraní
 gom = Konkánština
+gu-IN = Gudžarátština
 ha = Hauština
 he = Hebrejština
 hi = Hindština
@@ -98,6 +100,7 @@ it = Italština
 izh = Ižorština
 ja = Japonština
 jbo = Lojban
+jv = Jávština
 ka = Gruzínština
 kaa = Karakalpačtina
 kab = Kabylština
@@ -151,6 +154,7 @@ nyn = Runyankole
 oc = Okcitánština
 om = Oromština
 or = Udijština
+os = Osetština
 pa-IN = Pandžábština
 pap-AW = Papiamento (Aruba)
 pl = Polština
@@ -244,6 +248,7 @@ share-text = Pomozte strojům pochopit, jak mluví lidé, darujte svůj hlas na 
 link-copied = Odkaz byl zkopírován
 back-top = Zpět nahoru
 logout = Odhlásit
+donate = Darovat
 
 ## Home Page
 
@@ -623,7 +628,6 @@ about-playbook-how-add-sentences = Jak přidávat věty?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> je nástroj pro shromažďování a ověřování public domain vět. Musíte si <scAccountLink>vytvořit účet</scAccountLink>. Poté přidejte svůj jazyk do svého <strong>profilu</strong>. Můžete také <strong>přidávat</strong> věty nebo <strong>ověřovat</strong> dříve přidané věty.
 about-playbook-how-add-sentences-content-2 = Věty musí být ověřeny a schváleny dvěma osobami, aby mohly být zařazeny do Common Voice. <languageGuidelinesLink>Zde</languageGuidelinesLink> si vytvoříte pokyny pro svůj jazyk. Musí se jednat o <licenseLink>public domain</licenseLink> věty kratší než 15 slov. Můžete požádat vlastníka textu, aby jej uvolnil pod <waiverLink>CC0 pomocí našeho postupu zřeknutí se práv</waiverLink> a dohodu nám poslali na commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = K získání krátkých vět z Wikipedie můžete použít nástroj <scraperLink>Sentence extractor</scraperLink>.
-about-playbook-how-add-sentences-content-4 = Ověřené věty jsou exportovány ve středu a jsou dostupné v příštím vydání.
 
 ## How to record quality
 
@@ -933,6 +937,9 @@ listen-empty-state = Nahrávky ve vašem jazyce, které byste ještě mohli ově
 listen-loading-error =
     Další zvukové záznamy k poslechu již nemáme.
     Prosím, zkuste to znovu později.
+listen-abort-title = Dokončit ověřování klipů?
+listen-abort-cancel = Pokračovat v ověřování
+listen-abort-confirm = Dokončit ověřování
 speak-empty-state = Věty, které byste mohli ve vašem jazyce nahrát, nám už bohužel došly...
 speak-empty-state-cta = Přidejte další věty
 speak-loading-error =
@@ -1731,8 +1738,6 @@ reviewing-sentences-explanation-1 = Splňuje-li věta výše uvedená kritéria,
 reviewing-sentences-explanation-2 = Pokud věta nesplňuje výše uvedená kritéria, klepněte na tlačítko "Ne".
 reviewing-sentences-explanation-3 = Pokud si větou nejste jisti, je možné ji přeskočit a přejít na další.
 reviewing-sentences-explanation-4 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
-# WRITE PAGE
-write-instruction-second-part = public domain věta
 write-page-subtitle = Věty, kterými zde přispějete, budou přidány do veřejně dostupného datasetu pod licencí cc-0.
 sentence =
     .label = Věta
@@ -1740,7 +1745,8 @@ sentence-input-value = Zde zadejte svou public doman větu
 citation-input-value = Zdroj zadané věty
 citation =
     .label = Zdroj
-what-can-i-add = Jaké druhy vět mohu přidat?
+sc-write-submit-confirm = Potvrzuji, že tato věta je <wikipediaLink>public domain</wikipediaLink> a mám oprávnění ji nahrát.
+sc-review-write-title = Jaké věty mohu přidat?
 new-sentence-rule-1 = <noCopyright>Bez omezení autorských práv</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Kratší než 15 slov
 new-sentence-rule-3 = Dbejte na gramatickou správnost
@@ -1757,9 +1763,13 @@ contact-us = Kontakt
 add-sentence-success = Přidána 1 věta
 add-sentence-error = Neúspěšné přidání věty
 required-field = Vyplňte prosím toto pole.
-# REVIEW PAGE
-sc-review-instruction-first-part = Ověřit
-sc-review-instruction-second-part = je tato věta jazykově správná?
+single-sentence-submission = Odeslání jedné věty
+bulk-sentence-submission = Odeslání více vět
+single-sentence = Jedna věta
+bulk-sentences = Více vět
+
+## REVIEW PAGE
+
 sc-review-rules-title = Odpovídá věta doporučením?
 sc-review-empty-state = Tento jazyk nyní nemá k ověření žádné věty.
 report-sc-different-language = Další jazyk
@@ -1771,3 +1781,26 @@ review-error-rate-limit-exceeded = Jedete příliš rychle. Věnujte prosím chv
 sc-redirect-page-title = Probíhají rozsáhlé úpravy
 sc-redirect-page-subtitle-1 = Aplikace Sentence Collector přechází na základní platformu Common Voice. Nyní můžete přímo na Common Voice jednotlivé věty <writeURL>psát</writeURL> nebo <reviewURL>ověřit</reviewURL>.
 sc-redirect-page-subtitle-2 = Ptejte se na <matrixLink>Matrixu</matrixLink>, <discourseLink>Discourse</discourseLink> nebo <emailLink>e-mailem</emailLink>.
+
+## BULK SUBMISSION 
+
+sc-bulk-upload-instruction-drop = Sem přetáhněte soubor na nahrání
+try-upload-again = Zkuste to znovu přesunutím souboru sem
+try-upload-again-md = Zkuste nahrát znovu
+select-file = Vybrat soubor
+select-file-mobile = Vyberte soubor pro nahrání
+accepted-files = Přijímané typy souborů: pouze .tsv
+maximum-file-size = Maximální velikost souboru: 25 MB
+what-needs-to-be-in-file = Co musí být v mém souboru?
+what-needs-to-be-in-file-explanation = Podívejte se prosím na náš <templateFileLink>vzorový soubor</templateFileLink>. Vaše věty by neměly podléhat autorským právům (CC0 nebo autorizované původní dílo zadavatele) a měly by být jasné, gramaticky správné a snadno čitelné. Přečtení předložených vět by mělo trvat zhruba 10-15 sekund a neměly by obsahovat čísla, vlastní jména a speciální znaky.
+upload-progress-text = Probíhá nahrávání...
+sc-bulk-submit-confirm = Potvrzuji, že tyto věty jsou <wikipediaLink>public domain</wikipediaLink> a mám povolení je nahrát.
+bulk-upload-success-toast = Věty byly úspěšně odeslané
+bulk-upload-failed-toast = Nahrání se nezdařilo, zkuste to znovu.
+bulk-submission-success-header = Děkujeme za vaše hromadné odeslání!
+bulk-submission-success-subheader = Pomáháte iniciativě Common Voice dosáhnout našich denních cílů!
+upload-more-btn-text = Nahrát více vět?
+file-invalid-type = Neplatný soubor
+file-too-large = Soubor je příliš velký
+file-too-small = Soubor je příliš malý
+too-many-files = Příliš mnoho souborů

@@ -142,6 +142,7 @@ nso = Soto Veriore
 nyn = Runjankole
 oc = Oçitane
 or = Odia
+os = Osetisht
 pa-IN = Panxhabe
 pap-AW = Papiamento (Aruba)
 pl = Polonisht
@@ -225,6 +226,7 @@ share-text = Ndihmoni t’u mësohet makinave se si flasin njerëzit e njëmendt
 link-copied = Lidhja u Kopjua
 back-top = Mbrapsht te Kreu
 logout = Dilni
+donate = Dhuroni
 
 ## Home Page
 
@@ -599,7 +601,6 @@ about-playbook-how-add-sentences = Si të shtoj fraza?
 about-playbook-how-add-sentences-content-1 = <strong>Grumbulluesi i Togfjalëshave</strong> është një mjet për grumbullimin dhe vlerësimin e togfjalëshave nën përkatësi publike. Do t’ju <scAccountLink>duhet të krijoni një llogari</scAccountLink>. Mandej, shtoni gjuhën tuaj te <strong>Profili</strong> juaj.  Mund të <strong>Shtoni</strong> togfjalësha, ose të <strong>Shqyrtoni</strong> të tillë të shtuar më parë.
 about-playbook-how-add-sentences-content-2 = Togfjalëshat duhen shqyrtuar dhe pranuar nga dy vetë, që të përfshihen te Common Voice. Ju krijoni udhëzime për gjuhën tuaj <languageGuidelinesLink>këtu</languageGuidelinesLink>. Togfjalëshat duhet të jenë nën <licenseLink>përkatësinë publike</licenseLink> dhe më të shkurtër se 15 fjalë. Mund t’i kërkoni të zotit të tekstit ta kalojë nën <waiverLink>CC0 duke përdorur procesin tonë të heqjes dorë nga të drejta</waiverLink> dhe dërgojë te ne te commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Që të shfrytëzoni togfjalësha të shkurtër nga Wikipedia mund të përdorni <scraperLink>Përftuesin e togfjalëshave</scraperLink>.
-about-playbook-how-add-sentences-content-4 = Togfjalëshat që janë vlerësuar, eksportohen të mërkurave dhe janë gati për përdorim pas hedhjes pasuese në qarkullim.
 
 ## How to record quality
 
@@ -688,6 +689,7 @@ release-version = Version
 dataset-date = Datë
 license = Licencë: <licenseLink>{ $license }</licenseLink>
 license-mixed = Të përziera
+data-download-singleword-callout-v2 = Ky është një segment i bazuar në raste përdorimi që përmbajnë të dhëna për dallimin zanor të shifrave dhe pikasjen e po-së/jo-së.
 review-terms = Duke përdorur Common Voice, pajtoheni me <termsLink>Kushtet</termsLink> tona dhe <privacyLink>Shënimin tonë mbi Privatësinë</privacyLink>
 terms-agree = Pajtohem
 terms-disagree = Nuk pajtohem
@@ -855,6 +857,8 @@ action-click = Klikoni
 action-tap = Prekeni
 contribute = Jepni Ndihmesë
 listen = Dëgjoni
+write = Shkruani
+review = Shqyrtoni
 skip = Anashkaloje
 shortcuts = Shkurtore
 clips-with-count-pluralized =
@@ -904,6 +908,9 @@ listen-empty-state = Na u mbaruan copëzat për vleftësim në këtë gjuhë…
 listen-loading-error =
     S’morëm dot ndonjë copëz audio që ta dëgjoni.
     Ju lutemi, riprovoni më vonë.
+listen-abort-title = Përfunduat vlerësim copëzash?
+listen-abort-cancel = Vazhdoni me vlerësimin
+listen-abort-confirm = Përfundoni vlerësimin
 speak-empty-state = Na u mbaruan frazat për incizim në këtë gjuhë…
 speak-empty-state-cta = Jepni ndihmesë me fraza
 speak-loading-error =
@@ -921,6 +928,7 @@ target-segment-learn-more = Mësoni Më Tepër
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Koleksion Zërash
+contribute-sentence-collection-nav-header = Grumbullim Frazash
 
 ## Reporting
 
@@ -1578,8 +1586,11 @@ just-unsure = Thjesht i Pasigurt?
 example = Shembull
 varying-pronunciations-explanation-1 = Mirëpresim thekse të ndryshëm! Jini shumë i kujdesshëm me hedhjen poshtë të një copëze, me arsyen se mendoni se lexuesi ka shqiptuar shtrembër një fjalë, e ka vënë theksin në vendin e gabuar, apo pse ka shpërfillur shenja pikësimi. Ka një larmi të madhe shqiptimesh në përdorim nëpër botë, disa prej të cilave mund të mos i keni dëgjuar në bashkësinë tuaj vendore. Ju lutemi, ofroni një masë bujare vlerësimi për ata që mund të flasin ndryshe nga ju.
 varying-pronunciations-explanation-2 = Më anë tjetër, nëse mendoni se lexuesi s’e ka hasur kurrë më parë fjalën dhe po bën për shqiptimin një hamendësim të pasaktë, ju lutemi, hidheni poshtë. Nëse s’jeni i sigurt, përdorni butonin e anashkalimit.
+varying-pronunciations-example = Rruga ishte e paqartë.
 varying-pronunciations-tip-1 = [Anglishtja kanadeze mund ta bëjë “route” të dëgjohet si “rowt”]
 varying-pronunciations-tip-2 = [Anglishtja britanike mund të dëgjohet si “root”]
+offensive-content-explanation = Frazat verifikohen përmes një procesi moderimi nga bashkësia, por ky proces s’është i përkryer. Nëse shihni, ose dëgjoni një frazë që ju fyen, ose që ngre nervat - për shembull, ngaqë cenon <participationGuidelines>udhëzimet tona për pjesëmarrjen në bashkësi</participationGuidelines> - ju lutemi, përdorni butonin e sinjalizimit, te UI. Mundeni edhe të na vini në dijeni përmes <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = Leximi i saktë i krejt fjalëve në faqe është i rëndësishëm. Kur dëgjoni, kontrolloni me shumë kujdes se çfarë është regjistruar të jetë saktësisht ajo që është shkruar; hidheni poshtë, nëse kanë shtuar, shkurtuar ose humbur fjalë.
 misreadings-explanation-2 = Në gabime shumë të rëndomta përfshihen:
 misreadings-explanation-3 = Humbja e një 'A'-je ose 'The'-je në fillim të incizimit.
 misreadings-explanation-4 = Humbja e një 's' në fund të një fjale.
@@ -1593,12 +1604,14 @@ misreadings-example-4 = Brumbulli kaloi me nxitim.
 misreadings-tip-1 = [Duhet të jetë “Ne”]
 misreadings-tip-2 = [S’ka ‘një’ te teksti origjinal]
 misreadings-tip-3 = [Ngatërrim lënde]
+background-noise-explanation = Lypset të jeni në gjendje të dëgjoni çdo fjalë të incizimit. Duam që algoritmet e të nxënit nga makina të jenë në gjendje të trajtojnë një larmi zhurmash në sfond dhe mund të jenë të pranueshme edhe zhurma deri-diku të forta, apo muzikë e dobët në sfond, me kusht që të mos ju pengojnë nga dëgjimi i krejt tekstit. Nëse kërcitje apo ‘ndërprerje’ ju pengojnë të dëgjoni tekstin, kjo do të thotë se duhet ta hidhni poshtë copëzën.
 background-noise-example-1 = Dinozaurët gjigantë të Triasikut.
 background-noise-example-2 = [Teshtimë]Dinozaurët gjigantë të [kollitje] Triasikut.
 background-noise-example-3 = Dino [kollitje] gjigant i Triasikut.
 background-noise-example-4 = [Kërcitje] dinozaurët gjigantë të [kërcitje] -riasikut.
 background-noise-tip-1 = [ndërpresë nga zhurma sfondi]
 background-noise-tip-2 = [S’dëgjohet dot një pjesë e tekstit]
+background-voices-explanation = Pak zhurmë në sfond s’prish punë, por nëse arrini të dëgjoni një person tjetër duke folur fjalë të dallueshme, copëza duhet hedhur poshtë. Zakonisht kjo ndodh kur TV-ja është lënë hapur, ose kur aty pranë zhvillohet një bisedë.
 background-voices-example-1 = Dinozaurët gjigantë të Triasikut. [lexuar nga një zë]
 background-voices-tip-1 = A po vini? [thirru nga një tjetër]
 volume-explanation = Mes lexuesve do të ketë variacione natyrore në volum. Hidheni poshtë vetëm nëse volumi është aq i lartë sa ndërpritet incizimi, ose (më rëndom) nëse është kaq i ulët sa nuk mund të dëgjoni ç’po thuhet, pa parë tekstin e shkruar.
@@ -1610,8 +1623,13 @@ public-domain = Përkatësi Publike
 citing-sentences = Citim Togfjalëshash
 adding-sentences = Shtim Togfjalëshash
 reviewing-sentences = Shqyrtim Togfjalëshash
+public-domain-explanation-1 = Është shumë e rëndësishme që krejt frazat tekst të jenë nën <publicDomain>përkatësi publike</publicDomain> (<cc0>cc0</cc0>), ngaqë grupi i të dhënave Common Voice hidhet në qarkullim sipas një licence cc0. Ngarkojeni një frazë vetëm nëse jeni i sigurt dhe përfshini përherë citimin përkatës.
+public-domain-explanation-2 = Frazat më të mira për ndërtimin e një mekanizmi të dobishëm kuptimi të foluri janë ato nga e folura joformale, moderne. Disa ide për t’ju ndihmuar të prodhoni fraza janë;
+public-domain-explanation-3 = Krijoni fraza moderne, joformale ju vetë, ose me shokët tuaj, apo bashkësinë gjuhësore - për shembull, përmes një  “maratone shkrimi ”
 public-domain-explanation-4 = Lidhuni me autorë, dramaturgë apo skenaristë dhe kërkojuni a do të ishin të gatshëm të japin një pjesë të vockël të veprës së tyre për përkatësinë publike
 public-domain-explanation-5 = Shihni për tekste mbi të cilët e drejta e autorëve nuk aplikohet më - për shembull, shumica e librave të botuar para 1920-s
+public-domain-explanation-6 = Lidhuni me qeverinë, ente jofitiprurëse apo shoqata mediash, për të parë nëse pjesë të lëndës së sajteve të tyre, raporteve, apo lëndë tjetër mund të vihen nën përkatësinë publike
+citing-sentences-explanation-1 = Është e rëndësishme të përfshihen citime, që të mund të kontrollojmë se frazat janë nën përkatësi publike dhe se mbi to s’ka kufizime të drejtash kopjimi.
 citing-sentences-subheader-websites = Sajte
 citing-sentences-subheader-websites-explanation = Mund të përfshinit sajtin, p.sh., “Common Voice - https://commonvoice.mozilla.org/”
 citing-sentences-subheader-academic-reference = Referencë Akademike
@@ -1627,15 +1645,92 @@ adding-sentences-subheader-length-explanation = Togfjalëshi duhet të jetë më
 adding-sentences-subheader-spelling-punctuation = Drejtshkrim dhe Pikësim
 adding-sentences-subheader-spelling-punctuation-explanation = Togfjalëshi duhet shkruar si duhet.
 adding-sentences-subheader-speakable = Të shqiptueshme
+adding-sentences-subheader-speakable-explanation = Frazat më të mira janë ato të natyrshme dhe prej bisedash  — ato do të ishin të lehta për t’i lexuar dikush. Teksa larmia fonetike dhe fjalët e ndryshme më fraza janë të rëndësishme, përpiqemi gjithashtu ta bëjmë incizimin e frazave për bashkësinë tonë të vullnetarëve sa më tërheqës dhe zbavitës që të mundet.
 adding-sentences-subheader-numbers = Numra
 adding-sentences-subheader-numbers-explanation = E mira do të ishte të mos ketë shifra te teksti burim, ngaqë mund të shkaktojnë probleme, kur lexohen me zë. Mënyra se si lexohet një numër varet nga konteksti dhe mund të sjellë ngatërresë te grupi i të dhënave. Për shembull, numri “2409” mund të lexohet edhe si “njëzetekatër zero nëntë”, edhe si “dymijë e katërqind e nëntë”.
 adding-sentences-subheader-abbreviations = Shkurtesa dhe Cungime
+adding-sentences-subheader-abbreviations-explanation = Shkurtime dhe akronime të tilla si “USA” ose “ICE” duhen shmangur në tekstin burim, ngaqë mund të lexohen në një mënyrë që nuk përputhet me shqiptimin e tyre. Tjetër, mund të ketë disa lexime të sakta për një shkurtim të vetëm.
 adding-sentences-subheader-punctuation = Pikësim
 adding-sentences-subheader-punctuation-explanation = Shenjat speciale dhe të pikësimit duhen përfshirë vetëm kur është absolutisht e nevojshme. Për shembull, një apostrof që përfshihet në fjalë anglisht si “don’t” dhe “we’re” dhe duhet përfshirë te teksti burim, po ka pak gjasa që t’ju duhet ndonjëherë një simbol special si “@” ose “#.”
 adding-sentences-subheader-special-characters = Shenja Speciale dhe Shkronja të Huaja’
 adding-sentences-subheader-special-characters-explanation-1 = Shkronjat duhet të jenë të vlefshme për gjuhën që po flitet. Për shembull, “ж” është një shkronjë në alfabetin rus, por s’përdoret kurrë në ndonjë tekst në anglisht.
+adding-sentences-subheader-special-characters-explanation-2 = Gjuhët mund të kenë rregullat e tyre të vleftësimit, me kërkesa shtesë kur përkthehet në to. Nëse nuk ka kartelë specifike vleftësimi për një gjuhë, për kontribuesit do të shfaqen rregullat e anglishtes.
 adding-sentences-subheader-offensive-content = Lëndë Fyese
+adding-sentences-subheader-offensive-content-explanation = Nëse togfjalëshi është fyes, ose shqetësues - për shembull, për shkak lënde ashiqare, apo prej tjetër shkeljeje të <communityGuidelines>udhëzimeve për pjesëmarrje në bashkësinë tonë</communityGuidelines> - duhet ta hidhni poshtë atë togfjalësh. Mundeni edhe të lidheni me ne në <emailFragment>commonvoice@mozilla.com</emailFragment> për t’i shkuar më thellë problemit.
 reviewing-sentences-explanation-1 = Nëse togfjalëshi i plotëson kriteret më sipër, klikoni mbi butonin “Po”
 reviewing-sentences-explanation-2 = Nëse togfjalëshi s’i plotëson kriteret më sipër, klikoni mbi butonin “Jo”
+reviewing-sentences-explanation-3 = Nëse jeni të pasigurt për frazën, mundeni edhe ta anashkaloni frazën dhe të vazhdoni me pasuesen.
 reviewing-sentences-explanation-4 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
-community-announcement-header = Njoftim bashkësie!
+# WRITE PAGE
+write-instruction = Shtoni një togfjalësh <icon></icon> në përkatësi publike
+write-page-subtitle = Togfjalëshat e dhënë këtu do të shtohen te një grup të dhënash të përdorshme publikisht sipas licencës cc-0.
+sentence =
+    .label = Frazë
+sentence-input-value = Jepni këtu frazën tuaj në përkatësi publike
+citation-input-value = Burim i frazës tuaj
+citation =
+    .label = Përmendje
+sc-write-submit-confirm = Ripohoj se kjo frazë është nën <wikipediaLink>përkatësi publike</wikipediaLink> dhe se kam leje ta ngarkoj.
+sc-review-write-title = Ç’fraza mund të shtoj?
+new-sentence-rule-1 = { "" }
+new-sentence-rule-2 = Më pak se 15 fjalë për frazë
+new-sentence-rule-3 = Përdorni gramatikë të saktë
+new-sentence-rule-4 = Përdorni shkrim dhe pikësim të saktë
+new-sentence-rule-5 = Pa numra dhe shenja speciale
+new-sentence-rule-6 = Pa shkronja gjuhësh të huaja
+new-sentence-rule-7 = Përfshini citim të përshtatshëm
+new-sentence-rule-8 = Më e mira do të ishte i natyrshëm dhe bisedimor ( duhet të jetë e lehtë të lexohet togfjalëshi)
+how-to-cite = Si të citoj?
+how-to-cite-explanation-bold = Citoni me një lidhje URL, ose emrin e plotë të veprës.
+how-to-cite-explanation = Nëse janë fjalët tuaja, thjesht thoni <italicizedText>“Citim i Vetes”</italicizedText>. Na duhet të dimë se ku e gjetët këtë lëndë, që të mund ta kontrollojmë se gjendet nën përkatësi publike dhe se mbi të s’aplikohen kufizime të drejtash kopjimi. Për të tepër informacion rreth citimesh, shihni <guidelinesLink>faqet tonë të Udhëzimeve</guidelinesLink>.
+guidelines = Udhëzime
+contact-us = Lidhuni Me Ne
+add-sentence-success = 1 fjali e mbledhur
+add-sentence-error = Gabim në shtim fraze
+required-field = Ju lutemi, plotësojeni këtë fushë.
+single-sentence-submission = Parashtrim i Një Fraze
+bulk-sentence-submission = Parashtrim Frazash Në Masë
+single-sentence = Frazë Njëshe
+bulk-sentences = Mori Frazash
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kontrolloni <icon></icon> a është togfjalësh i saktë nga ana gjuhësore?
+sc-review-rules-title = A është në pajtim me udhëzimet fraza?
+sc-review-empty-state = Aktualisht s’ka fraza për shqyrtim në këtë gjuhë.
+report-sc-different-language = Gjuhë tjetër
+report-sc-different-language-detail = Është e shkruar në tjetër gjuhë nga ajo për të cilën po shqyrtoj.
+sentences-fetch-error = Ndodhi një gabim teksa silleshin frazat
+review-error = Ndodhi një gabim teksa shqyrtohej ky togfjalësh
+review-error-rate-limit-exceeded = Po ecni shumë shpejt. Ju lutemi, ndaluni një çast të shqyrtoni togfjalëshin, për t’u siguruar se është i saktë.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Po bëjmë disa ndryshime të mëdha
+sc-redirect-page-subtitle-1 = Grumbulluesi i Togfjalëshave po kalon te platforma bazë e Common Voice-it. Tani mund të <writeURL>shkruani</writeURL> në togfjalësh, ose të <reviewURL>shqyrtoni</reviewURL> parashtrime togfjalëshash njësh te Common Voice.
+sc-redirect-page-subtitle-2 = Na bëni një pyetje në <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ose me <emailLink>email</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Ngarkoni togfjalësha në përkatësi publike <icon></icon>
+sc-bulk-upload-instruction = Tërhiqni këtu kartelën tuaj, ose <uploadButton>klikoni për ta ngarkuar</uploadButton>
+sc-bulk-upload-instruction-drop = Lini këtu një kartelë për ta ngarkuar
+try-upload-again = Riprovoni duke e tërhequr kartelën këtu
+try-upload-again-md = Riprovoni ta ngarkoni
+select-file = Përzgjidhni Kartelë
+select-file-mobile = Përzgjidhni Kartelë për Ngarkim
+accepted-files = Lloje të pranuar kartelash: vetëm .tsv
+maximum-file-size = Madhësi maksimum kartelash: 25 MB
+what-needs-to-be-in-file = Ç’është e nevojshme të ketë kartela ime?
+what-needs-to-be-in-file-explanation = Ju lutemi, shihni <templateFileLink>kartelën tonë gjedhe</templateFileLink>. Togfjalëshat tuaj duhet të jenë pa të drejta kopjimi (CC0 ose vepër origjinale e lejuar nga parashtruesi) dhe të jenë të qartë, gramatikisht të saktë dhe të lehtë për t’u lexuar. Togfjalëshat e parashtruar duhet të duan afërsisht 10-15 sekonda për t’u lexuar dhe duhet të shmangin përfshirje numrash, emrash të përveçëm dhe shenja speciale.
+upload-progress-text = Ngarkim në ecuri e sipër…
+sc-bulk-submit-confirm = Ripohoj se këta togfjalësha janë <wikipediaLink>nën përkatësi publike</wikipediaLink> dhe se kam leje t’i ngarkoj.
+bulk-upload-success-toast = U Ngarkuan Togfjalësha Në Masë
+bulk-upload-failed-toast = Ngarkimi dështoi, ju lutemi, riprovoni
+bulk-submission-success-header = Faleminderit për kontributin me parashtrim në masë!
+bulk-submission-success-subheader = Po ndihmoni Common Voice të mbërrijë synimet tona ditore për togfjalësha!
+upload-more-btn-text = Do të ngarkoni togfjalësha të tjerë?
+file-invalid-type = Kartelë e pavlefshme
+file-too-large = Kartela është shumë e madhe
+file-too-small = Kartela është shumë e vogël
+too-many-files = Shumë kartela

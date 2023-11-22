@@ -69,6 +69,7 @@ eo = Есперанто
 es = Шпански
 et = Естонски
 eu = Баскијски
+ewo = Евондо
 fa = Персијски
 ff = Фула
 fi = Фински
@@ -79,6 +80,7 @@ ga-IE = Ирски
 gl = Галицијски
 gn = Гварани
 gom = Конкански
+gu-IN = Гуџарати
 ha = Хауса
 he = Хебрејски
 hi = Хинди
@@ -98,6 +100,7 @@ it = Италијански
 izh = Ижорски
 ja = Јапански
 jbo = Ложбан
+jv = Јавански
 ka = Грузински
 kaa = Кара-калпашки
 kab = Кабиле
@@ -622,7 +625,6 @@ about-playbook-how-add-sentences = Како да додам реченице?
 about-playbook-how-add-sentences-content-1 = <strong>Сакупљач реченица</strong> је алат за прикупљање и потврђивање реченица из јавног домена. Морате да <scAccountLink>направите налог</scAccountLink>, а затим додате свој језик у <strong>профил</strong>. Онда можете да <strong>додајете</strong> реченице или да <strong>прегледате</strong> претходно додате реченице.
 about-playbook-how-add-sentences-content-2 = Сваку реченицу морају да прегледају и прихвате две особе пре него што буде укључена у Common Voice. Успоставите критеријуме прегледа за свој језик <languageGuidelinesLink>овде</languageGuidelinesLink>. Реченице морају да буду у <licenseLink>јавном домену</licenseLink> и не дуже од 15 речи. Можете да затражите од аутора тескта да <waiverLink>изузме исти од ауторских права под условима CC0</waiverLink> и пошаље нам га на commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Можете да користите <scraperLink>алат за извлачење реченица</scraperLink> за прикупљање кратких реченица са Википедије.
-about-playbook-how-add-sentences-content-4 = Реченице које су потврђене извозе се средом и доступне су након следећег издања скупа података.
 
 ## How to record quality
 
@@ -1350,3 +1352,9 @@ partnerships-corporates-header = Велике корпорације и плат
 partnerships-corporates-description = Ако желите да разговарате више о скупу података, инвестирате у планирана проширења платформе или тражите могућности за сарадњу, <emailFragment>контактирајте нас.</emailFragment>
 partnerships-our-partners = Наши партнери
 sentence-collection = Скупљање реченица
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+

@@ -310,7 +310,7 @@ a.small,
     & .tippy-tooltip {
         border-radius: 20px;
         padding: 9px 25px;
-        max-width: 140px;
+        max-width: 200px;
         line-height: 1.5;
         font-size: var(--font-size-xs);
         font-style: italic;

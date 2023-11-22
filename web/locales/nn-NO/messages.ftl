@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = Få e-post om utfordrings- og målpåminn
 email-opt-in-privacy-v2 = Ved å registrere deg for å motta e-post godtar du at Mozilla handterar denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 indicates-required = * Viser påkravd felt
 not-available-abbreviation = Ikkje tilgjengeleg
+banner-error-slow-1 = Beklagar, Common Voice køyrer sakte. Takk for di interesse.
+banner-error-slow-2 = Vi får mykje trafikk og undersøkjer no probla.
 banner-error-slow-link = Statusside
 error-something-went-wrong = Noko gjekk gale
 error-clip-upload = Opplasting av dette klippet fungerer framleis ikkje, ønskjer du å prøve på nytt?
@@ -67,6 +69,7 @@ eo = Esperanto
 es = Spansk
 et = Estisk
 eu = Baskisk
+ewo = Ewondo
 fa = Persisk
 ff = Fula
 fi = Finsk
@@ -77,6 +80,7 @@ ga-IE = Irsk
 gl = Galisisk
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebraisk
 hi = Hindi
@@ -96,6 +100,7 @@ it = Italiensk
 izh = Ingrisk
 ja = Japansk
 jbo = Lojban
+jv = Javanesisk
 ka = Georgisk
 kaa = Karakalpak
 kab = Kabylsk
@@ -148,6 +153,7 @@ nyn = Nyankole
 oc = Oksitansk
 om = Oromo
 or = Oriya
+os = Ossetisk
 pa-IN = Panjabi
 pap-AW = Papiamento (Aruba)
 pl = Polsk
@@ -241,6 +247,7 @@ share-text = Hjelp til med å lære maskiner korleis folk snakkar, doner stemma 
 link-copied = Lenke kopiert
 back-top = Tilbake til toppen av sida
 logout = Logg ut
+donate = Doner
 
 ## Home Page
 
@@ -250,7 +257,7 @@ home-cta = Snakk, støtt prosjektet og gje eit bidrag!
 wall-of-text-start = Stemma er naturleg, stemma er menneskeleg. Det er derfor vi er fascinert av å lage ein brukbar stemmeteknologi til maskinene våre. Men for å lage system til stemmegjenkjenning, trengst det svært store mengder med stemmedata.
 wall-of-text-more-mobile = Ein større del av dei dataa som vert nytta av store selskap er likevel utilgjengelege for folk flest. Vi trur at dette kjem til å bremse nyskapinga. Derfor lanserte vi prosjektet Common Voice, eit prosjekt som hjelper til med å gjere talegjenkjenning tilgjengeleg for alle.
 wall-of-text-more-desktop = No kan du bidra med stemma di og hjelpe til med å byggje opp ein stemmedatabase med open kjeldekode som alle kan bruke for å lage nyskapande appar, både for datamaskiner, telefonar og nettet.<lineBreak></lineBreak> Les ei setning og hjelp maskiner med å forstå korleis folk snakkar. Kontrollér bidraga til andre og ver med på å forbetre kvaliteten. Så enkelt er det!
-wall-of-text-first = Stemma er naturleg, stemma er menneskeleg. Det er derfor vi er fascinerte av å lage ein brukande taleteknologi for maskinene våre. Men for å lage system for talegjenkjenning trengst det svært store mengder med innspelt tale.
+wall-of-text-first = Stemma er naturleg, stemma er menneskeleg. Det er derfor vi er oppglødde av å lage ein brukande taleteknologi for maskinene våre. Men for å lage system for talegjenkjenning trengst det svært store mengder med innspelt tale.
 wall-of-text-second = Det meste av dataa som vert nytta av store bedrifter er utilgjengelege for folk flest. Vi meiner dette hindrar innovasjon. Derfor lanserte vi prosjektet Common Voice, eit prosjekt for å hjelpe til med å gjere talegjenkjenning tilgjengeleg for alle.
 show-wall-of-text = Les meir
 help-us-title = Hjelp oss med å validere setningar!
@@ -388,6 +395,7 @@ hidden = Usynleg
 visible = Synleg
 native-language =
     .label = Morsmål
+profile-form-add-accent = Legg til ny tilpassa dialekt «{ $inputValue }»
 profile-form-submit-save = Lagre
 profile-form-submit-saved = Lagra
 male = Mann
@@ -513,7 +521,11 @@ how-does-it-work-text = Vi masseinnsamlar (crowdsourcing) eit ope datasett av st
 about-language-req-subtitle = Nokon ber om å leggje til eit språk.
 about-localization-title = Omsetjing av nettstad
 about-sentence-collection-title = Setningsinnsamling
+about-sentence-collection-subtitle = Det vert samla inn setningar slik at folk kan lese høgt.
+about-new-lang-title = Lansering av nytt språk
+about-new-lang-subtitle = Vi lanserer Common Voice-sida på dette språket.
 about-voice-contrib-title = Stemmebidrag
+about-voice-contrib-subtitle = Folk kjem og bidreg med stemmene sine.
 about-voice-validation-title = Stemmevalidering
 about-voice-validation-subtitle = Andre personar validerer desse stemmeklippa.
 about-dataset-release-title = Utgiving av datasett
@@ -564,7 +576,9 @@ about-playbook-how-add-language-collecting-sentences-heading = Innsamling av set
 
 ## How does localization work
 
+about-playbook-how-localize = Korleis fungerer omsetjinga av nettstaden?
 about-playbook-how-localize-content-1 = Common Voice vert omsett på <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Nettstaden er klar for lansering når han er 75 % ferdig.
 about-playbook-how-localize-content-5 = Sjå videoforklaringa vår for hjelp
 
 ## How to add sentences
@@ -585,6 +599,7 @@ about-playbook-how-grow-language-content-8 = <strong>Ver kreativ!</strong> Ditt 
 
 ## How to validate
 
+about-playbook-how-validate = Korleis veit eg om jeg skal godkjenne eit stemmeklipp?
 
 ## How to access dataset
 
@@ -1097,7 +1112,9 @@ contribution-misreadings-example-4-title = Dei store dinosaurane i Trias. Ja.
 contribution-misreadings-example-4-explanation = [Det er spelt inn meir enn den nødvendige teksten]
 contribution-misreadings-example-5-title = Vi skal ut og skaffe kaffi.
 contribution-misreadings-example-6-title = Vi går ut for å skaffe meir kaffi.
+contribution-misreadings-example-6-explanation = [Skulle vore «er ikkje»]
 contribution-misreadings-example-7-title = Vi skal ut og hente ein kaffi.
+contribution-misreadings-example-7-explanation = [Ordet «igjen» var ikkje i teksta]
 contribution-misreadings-example-8-title = Humla flaug forbi.
 contribution-misreadings-example-8-explanation = [Heilt feil innhald]
 contribution-varying-pronunciations-title = Ulike uttalar
@@ -1201,6 +1218,9 @@ sc-add-err-submission = Innsendingsfeil
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = Stadfest nye setningar
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } vart avviste av deg
 sc-confirm-button-text = Stadfest
 sc-confirm-uploading = Setningar vert lasta opp. Dette kan ta fleire minutt, avhengig av talet på setningar som er lagt til. Ikkje lat at denne nettstaden.
 
@@ -1323,4 +1343,7 @@ reader-effects = Lesareffektar
 just-unsure = Berre usikker?
 example = Døme
 public-domain = Offentleg eigedom (ikkje verna av opphavsrett)
+# REVIEW PAGE
+sc-review-instruction-first-part = Kontroller
+report-sc-different-language = Anna språk
 sc-redirect-page-subtitle-2 = Still spørsmål på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller <emailLink>e-post</emailLink>.

@@ -47,7 +47,7 @@
             margin: 0 auto;
             max-width: var(--desktop-width);
             padding: 0 4rem;
-            overflow-x: scroll;
+            overflow-x: auto;
             height: 100%;
 
             @media (--sm-down) {
@@ -242,6 +242,10 @@ header {
         margin: 0 20px;
         min-width: max-content;
         text-transform: uppercase;
+
+        @media (--md-up) {
+            height: 2.5rem;
+        }
 
         @media (--md-down) {
             display: none;
@@ -512,10 +516,16 @@ header {
             }
         }
 
-        & .button {
+        & .auth-button {
             margin-top: 15px;
             display: flex;
             background: var(--black);
+        }
+
+        & .donate-btn-container {
+            display: flex;
+            justify-content: center;
+            margin-block-start: 16px;
         }
     }
 

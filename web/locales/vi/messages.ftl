@@ -69,6 +69,7 @@ eo = Quốc tế ngữ
 es = Tây Ban Nha
 et = Estonia
 eu = Basque
+ewo = Ewondo
 fa = Ba Tư
 ff = Fula
 fi = Phần Lan
@@ -79,6 +80,7 @@ ga-IE = Ireland
 gl = Galicia
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Do Thái
 hi = Hindi
@@ -98,6 +100,7 @@ it = Ý
 izh = Izhorian
 ja = Nhật
 jbo = Lojban
+jv = Javanese
 ka = Gruzia
 kaa = Karakalpak
 kab = Kabyle
@@ -151,6 +154,7 @@ nyn = Nyankole
 oc = Occitan
 om = Afaan Ormoo
 or = Odia
+os = Ossetia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Ba Lan
@@ -244,6 +248,7 @@ share-text = Hãy giúp dạy cho các phần mềm cách nói chuyện của co
 link-copied = Đã sao chép liên kết
 back-top = Trở về đầu trang
 logout = Đăng xuất
+donate = Quyên góp
 
 ## Home Page
 
@@ -612,7 +617,6 @@ about-playbook-how-add-sentences = Làm cách nào để thêm câu?
 about-playbook-how-add-sentences-content-1 = <strong>Công cụ thu thập câu</strong> là một công cụ để thu thập và xác thực các câu trong miền công cộng. Bạn sẽ <scAccountLink>cần tạo một tài khoản</scAccountLink>. Sau đó, thêm ngôn ngữ của bạn vào <strong>Hồ sơ</strong> của bạn. Bạn có thể <strong>thêm</strong> câu hoặc <strong>xem lại</strong> các câu đã thêm trước đó.
 about-playbook-how-add-sentences-content-2 = Các câu phải được hai người xem xét và chấp nhận mới được đưa vào Common Voice. Bạn tạo nguyên tắc cho ngôn ngữ của mình <languageGuidelinesLink>tại đây</languageGuidelinesLink>. Các câu phải nằm trong <licenseLink>miền công khai</licenseLink> và ngắn hơn 15 từ. Bạn có thể yêu cầu chủ sở hữu của văn bản đặt nó thành <waiverLink>CC0 sử dụng quy trình từ bỏ của chúng tôi</waiverLink> và gửi cho chúng tôi theo địa chỉ commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Bạn có thể sử dụng <scraperLink>công cụ trích xuất câu</scraperLink> để tận dụng các câu ngắn từ Wikipedia.
-about-playbook-how-add-sentences-content-4 = Các câu đã được xác thực sẽ được xuất vào các ngày Thứ Tư và có sẵn sau bản phát hành tiếp theo.
 
 ## How to record quality
 
@@ -922,6 +926,9 @@ listen-empty-state = Chúng tôi đã hết đoạn thoại để xác thực b�
 listen-loading-error =
     Chúng tôi không thể nhận được bất kỳ đoạn âm thanh nào để bạn nghe.
     Vui lòng thử lại sau.
+listen-abort-title = Hoàn tất xác thực clip?
+listen-abort-cancel = Tiếp tục xác thực
+listen-abort-confirm = Hoàn tất xác thực
 speak-empty-state = Chúng tôi đã hết câu để ghi lại bằng ngôn ngữ này...
 speak-empty-state-cta = Đóng góp câu
 speak-loading-error =
@@ -1727,7 +1734,7 @@ reviewing-sentences-explanation-2 = Nếu câu không đáp ứng các tiêu ch�
 reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu đó, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
 reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
 # WRITE PAGE
-write-instruction-second-part = một câu trong phạm vi công cộng
+write-instruction = Thêm <icon></icon> một câu thuộc phạm vi công cộng
 write-page-subtitle = Các câu được đóng góp ở đây sẽ được thêm vào bộ dữ liệu được cấp phép cc-0 có sẵn công khai.
 sentence =
     .label = Câu
@@ -1735,7 +1742,8 @@ sentence-input-value = Nhập câu thuộc phạm vi công cộng của bạn v�
 citation-input-value = Nguồn câu của bạn
 citation =
     .label = Nguồn trích dẫn
-what-can-i-add = Tôi có thể thêm những loại câu nào?
+sc-write-submit-confirm = Tôi xác nhận rằng câu này thuộc <wikipediaLink>phạm vi công cộng</wikipediaLink> và tôi có quyền tải nó lên.
+sc-review-write-title = Tôi có thể thêm những câu nào?
 new-sentence-rule-1 = <noCopyright>Không hạn chế bản quyền</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Ít hơn 15 từ
 new-sentence-rule-3 = Sử dụng đúng ngữ pháp
@@ -1752,9 +1760,15 @@ contact-us = Liên hệ với chúng tôi
 add-sentence-success = 1 câu đã sưu tập
 add-sentence-error = Lỗi khi thêm câu
 required-field = Vui lòng điền vào trường này.
-# REVIEW PAGE
-sc-review-instruction-first-part = Séc
-sc-review-instruction-second-part = Đây có phải là một câu đúng về mặt ngôn ngữ không?
+single-sentence-submission = Gửi câu riêng lẻ
+bulk-sentence-submission = Gửi hàng loạt câu
+single-sentence = Câu đơn
+bulk-sentences = Hàng loạt câu
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kiểm tra <icon></icon> đây có phải là một câu đúng về mặt ngôn ngữ không?
 sc-review-rules-title = Liệu câu đáp ứng các nguyên tắc?
 sc-review-empty-state = Hiện tại không có câu nào để xem lại bằng ngôn ngữ này.
 report-sc-different-language = Ngôn ngữ khác
@@ -1766,3 +1780,29 @@ review-error-rate-limit-exceeded = Bạn đang đi quá nhanh. Hãy dành một 
 sc-redirect-page-title = Chúng tôi đang thực hiện một số thay đổi lớn
 sc-redirect-page-subtitle-1 = Trình thu thập câu đang chuyển sang nền tảng cốt lõi của Common Voice. Giờ đây, bạn có thể <writeURL>viết</writeURL> một câu hoặc <reviewURL>xem xét</reviewURL> các bài gửi một câu trên Common Voice.
 sc-redirect-page-subtitle-2 = Đặt câu hỏi cho chúng tôi trên <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> hoặc <emailLink>email</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Tải lên <icon></icon> các câu thuộc phạm vi công cộng
+sc-bulk-upload-instruction = Kéo tập tin của bạn vào đây hoặc <uploadButton>nhấp vào đây để tải lên</uploadButton>
+sc-bulk-upload-instruction-drop = Thả tập tin vào đây để tải lên
+try-upload-again = Hãy thử lại bằng cách kéo tập tin của bạn vào đây
+try-upload-again-md = Hãy thử tải lên lại
+select-file = Chọn tập tin
+select-file-mobile = Chọn tập tin để tải lên
+accepted-files = Các loại tập tin được chấp nhận: chỉ .tsv
+maximum-file-size = Kích thước tối đa của tập tin: 25 MB
+what-needs-to-be-in-file = Những gì cần có trong hồ sơ của tôi?
+what-needs-to-be-in-file-explanation = Hãy xem qua <templateFileLink>tập tin mẫu</templateFileLink> của chúng tôi. Câu của bạn phải không có bản quyền (CC0 hoặc tác phẩm gốc được người gửi cho phép) và rõ ràng, đúng ngữ pháp và dễ đọc. Các câu đã gửi sẽ mất khoảng 10-15 giây để đọc và nên tránh bao gồm số, danh từ riêng và ký tự đặc biệt.
+upload-progress-text = Đang tải lên...
+sc-bulk-submit-confirm = Tôi xác nhận rằng những câu này thuộc <wikipediaLink>phạm vi công cộng</wikipediaLink> và tôi có quyền tải chúng lên.
+bulk-upload-success-toast = Đã gửi hàng loạt câu
+bulk-upload-failed-toast = Tải lên không thành công, vui lòng thử lại.
+bulk-submission-success-header = Cảm ơn bạn đã gửi số lượng lớn đóng góp của bạn!
+bulk-submission-success-subheader = Bạn đang giúp Common Voice đạt được mục tiêu câu hàng ngày của chúng tôi!
+upload-more-btn-text = Tải lên nhiều câu hơn?
+file-invalid-type = Tập tin không hợp lệ
+file-too-large = Tập tin quá lớn
+file-too-small = Tập tin quá nhỏ
+too-many-files = Quá nhiều tập tin

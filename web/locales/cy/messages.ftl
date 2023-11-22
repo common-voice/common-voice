@@ -69,6 +69,7 @@ eo = Esperanto
 es = Sbaeneg
 et = Estoneg
 eu = Basgeg
+ewo = Ewondo
 fa = Persieg
 ff = Fulah
 fi = Ffinneg
@@ -79,6 +80,7 @@ ga-IE = Gwyddeleg
 gl = Galisieg
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebraeg
 hi = Hindi
@@ -98,6 +100,7 @@ it = Eidaleg
 izh = Izhorieg
 ja = Japanëeg
 jbo = Lojban
+jv = Java
 ka = Georgeg
 kaa = Karakalpak
 kab = Kabyle
@@ -151,6 +154,7 @@ nyn = Nyankole
 oc = Occitaneg
 om = Afaan Ormoo
 or = Odia
+os = Ossetian
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Pwyleg
@@ -244,6 +248,7 @@ share-text = Helpwch beiriannau i ddysgu sut mae pobl go iawn yn siarad, cyfrann
 link-copied = Dolen wedi'i chopïo
 back-top = Nôl i'r Brig
 logout = Allgofnodi
+donate = Cyfrannu
 
 ## Home Page
 
@@ -633,7 +638,6 @@ about-playbook-how-add-sentences = Sut ydw i'n ychwanegu brawddegau?
 about-playbook-how-add-sentences-content-1 = Mae'r <strong>Casglwr Brawddegau </strong> yn offeryn ar gyfer casglu a dilysu brawddegau parth cyhoeddus. Bydd angen i chi <scAccountLink>greu cyfrif</scAccountLink>. Yna, ychwanegwch eich iaith at eich <strong>Proffil</strong>. Gallwch <strong>Ychwanegu</strong> brawddegau neu <strong>Adolygu</strong> brawddegau a ychwanegwyd yn flaenorol.
 about-playbook-how-add-sentences-content-2 = Rhaid i frawddegau gael eu hadolygu a'u derbyn gan ddau berson i'w cynnwys yn Common Voice. Rydych chi'n creu canllawiau ar gyfer eich iaith <languageGuidelinesLink>yma</languageGuidelinesLink>. Rhaid i frawddegau fod yn y <licenseLink>parth cyhoeddus</licenseLink> ac yn llai na 15 gair. Gallwch ofyn i berchennog neges destun ei wneud yn <waiverLink>CC0 gan ddefnyddio ein proses hepgor</waiverLink>, a'i anfon atom ar commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Gallwch ddefnyddio'r <scraperLink>Echdynnwr Brawddeg</scraperLink> i dynnu brawddegau byr o Wicipedia.
-about-playbook-how-add-sentences-content-4 = Mae brawddegau sydd wedi'u dilysu yn cael eu hallforio ar ddydd Mercher, a byddan nhw ar gael ar ôl y ryddhad nesaf.
 
 ## How to record quality
 
@@ -947,6 +951,9 @@ listen-empty-state = Does dim rhagor o glipiau i'w dilysu yn yr iaith hon...
 listen-loading-error =
     Does dim rhagor o glipiau sain i chi wrando arnyn nhw.
     Ceisiwch eto, rhywbryd eto.
+listen-abort-title = Wedi gorffen dilysu clipiau?
+listen-abort-cancel = Parhau i ddilysu
+listen-abort-confirm = Gorffen dilysu
 speak-empty-state = Does dim rhagor o frawddegau i'w recordio yn yr iaith hon...
 speak-empty-state-cta = Cyfrannu brawddegau
 speak-loading-error =
@@ -1784,7 +1791,7 @@ reviewing-sentences-explanation-2 = Os nad yw'r frawddeg yn cwrdd â'r meini pra
 reviewing-sentences-explanation-3 = Os ydych chi'n ansicr am y frawddeg, gallwch chi ei hepgor a symud ymlaen i'r un nesaf.
 reviewing-sentences-explanation-4 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
 # WRITE PAGE
-write-instruction-second-part = brawddeg parth cyhoeddus
+write-instruction = Ychwanegu <icon></icon> brawddeg parth cyhoeddus
 write-page-subtitle = Bydd brawddegau sy'n cael eu cyfrannu yma yn cael eu hychwanegu at set ddata drwyddedig cc-0 sydd ar gael yn gyhoeddus.
 sentence =
     .label = Brawddeg
@@ -1792,7 +1799,8 @@ sentence-input-value = Rhowch eich brawddeg parth cyhoeddus yma
 citation-input-value = Ffynhonnell eich brawddeg
 citation =
     .label = Cyfeirio
-what-can-i-add = Pa fathau o frawddegau y gallaf eu hychwanegu?
+sc-write-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
+sc-review-write-title = Pa frawddegau y gallaf eu hychwanegu?
 new-sentence-rule-1 = <noCopyright>Dim cyfyngiadau hawlfraint</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Llai na 15 gair
 new-sentence-rule-3 = Defnyddiwch ramadeg cywir
@@ -1809,9 +1817,15 @@ contact-us = Cysylltwch â Ni
 add-sentence-success = 1 frawddeg wedi'i chasglu
 add-sentence-error = Gwall wrth ychwanegu brawddeg
 required-field = Llenwch y maes hwn, os gwelwch yn dda.
-# REVIEW PAGE
-sc-review-instruction-first-part = Gwirwch
-sc-review-instruction-second-part = a yw hon yn frawddeg ieithyddol gywir?
+single-sentence-submission = Cyflwyno Un Frawddeg
+bulk-sentence-submission = Cyflwyno Brawddegau Lluosog
+single-sentence = Un Frawddeg
+bulk-sentences = Brawddegau Lluosog
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Gwirio <icon></icon> os yw hon yn frawddeg ieithyddol gywir
 sc-review-rules-title = A yw'r frawddeg yn cyd-fynd â'r canllawiau?
 sc-review-empty-state = Nid oes brawddegau i'w hadolygu yn yr iaith hon ar hyn o bryd.
 report-sc-different-language = Iaith wahanol
@@ -1823,3 +1837,29 @@ review-error-rate-limit-exceeded = Rydych chi'n mynd yn rhy gyflym. Cymerwch eil
 sc-redirect-page-title = Rydym yn gwneud rhai newidiadau mawr
 sc-redirect-page-subtitle-1 = Mae'r Casglwr Brawddegau yn symud i lwyfan craidd Common Voice. Nawr gallwch <writeURL>ysgrifennu</writeURL> brawddeg neu <reviewURL>adolygu</reviewURL> brawddeg unigol wedi eu cyflwyno ar Common Voice.
 sc-redirect-page-subtitle-2 = Gofynnwch gwestiynau i ni ar <matrixLink>Matrics</matrixLink>, <discourseLink>Discourse</discourseLink> neu <emailLink>email</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Llwytho i fyny <icon></icon> brawddegau parth cyhoeddus
+sc-bulk-upload-instruction = Llusgwch eich ffeil yma neu <uploadButton>cliciwch i'w llwytho i fyny</uploadButton>
+sc-bulk-upload-instruction-drop = Gollwng ffeil yma i'w llwytho i fyny
+try-upload-again = Ceisiwch eto trwy lusgo'ch ffeil yma
+try-upload-again-md = Ceisiwch lwytho i fyny eto
+select-file = Dewis Ffeil
+select-file-mobile = Dewiswch Ffeil i'w Llwytho i Fyny
+accepted-files = Mathau o ffeiliau derbyniol: .tsv yn unig
+maximum-file-size = Maint mwyaf ffeil: 25 MB
+what-needs-to-be-in-file = Beth sydd angen bod yn fy ffeil?
+what-needs-to-be-in-file-explanation = Gwiriwch ein <templateFileLink>ffeil templed</templateFileLink>. Dylai eich brawddegau fod yn rhydd o hawlfraint (CC0 neu waith gwreiddiol â chaniatâd y cyflwynydd) a dylen nhw fod yn glir, yn ramadegol gywir ac yn hawdd eu darllen. Dylai brawddegau sy'n cael ei chyflwyno cymryd tua 10-15 eiliad i'w darllen a dylent osgoi cynnwys rhifau, enwau priod a nodau arbennig.
+upload-progress-text = Wrthi'n llwytho i fyny...
+sc-bulk-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
+bulk-upload-success-toast = Brawddegau Lluosog wedi'u Llwytho i Fyny
+bulk-upload-failed-toast = Methodd yr llwytho i fyny, rhowch gynnig arall arni.
+bulk-submission-success-header = Diolch am gyfrannu eich cyflwyniad lluosog!
+bulk-submission-success-subheader = Rydych chi'n helpu Common Voice i gyrraedd ein nodau brawddegau dyddiol!
+upload-more-btn-text = Llwytho rhagor o frawddegau?
+file-invalid-type = Ffeil annilys.
+file-too-large = Mae'r ffeil yn rhy fawr
+file-too-small = Mae'r ffeil yn rhy fach
+too-many-files = Gormod o ffeiliau

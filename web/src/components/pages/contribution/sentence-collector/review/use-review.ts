@@ -9,6 +9,7 @@ import {
 import { useLocale } from '../../../../locale-helpers'
 import { Sentences } from '../../../../../stores/sentences'
 import { Notifications } from '../../../../../stores/notifications'
+import { trackSingleReview } from '../../../../../services/tracker'
 
 const TOO_MANY_REQUESTS_ERROR = 'Too Many Requests'
 
@@ -93,6 +94,7 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
       })
 
       dispatch(Notifications.actions.addPill(getString('vote-yes'), 'success'))
+      trackSingleReview('vote-yes', currentLocale)
     } catch (error) {
       handleError({
         error: error.toString(),
@@ -114,6 +116,7 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
       })
 
       dispatch(Notifications.actions.addPill(getString('vote-no'), 'success'))
+      trackSingleReview('vote-no', currentLocale)
     } catch (error) {
       handleError({
         error: error.toString(),
@@ -136,6 +139,7 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
           'success'
         )
       )
+      trackSingleReview('skip', currentLocale)
     } catch (error) {
       handleError({
         error: error.toString(),

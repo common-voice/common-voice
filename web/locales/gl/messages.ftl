@@ -69,6 +69,7 @@ eo = Esperanto
 es = Castelán
 et = Estonio
 eu = Éuscaro
+ewo = Euondo
 fa = Persa
 ff = Fula
 fi = Finés
@@ -79,6 +80,7 @@ ga-IE = Irlandés
 gl = Galego
 gn = Guaraní
 gom = Konkani de Goa
+gu-IN = Guxarati
 ha = Hausa
 he = Hebreo
 hi = Hindi
@@ -98,6 +100,7 @@ it = Italiano
 izh = Ingrio
 ja = Xaponés
 jbo = Lojban
+jv = Xavanés
 ka = Xeorxiano
 kaa = Karakalpak
 kab = Cabilo
@@ -151,6 +154,7 @@ nyn = Runyankole
 oc = Occitano
 om = Afaan Oromo
 or = Odia
+os = Oseto
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polaco
@@ -244,6 +248,7 @@ share-text = Axude a ensinarlles ás máquinas como falamos, doe a súa voz en {
 link-copied = Ligazón copiada
 back-top = Volver arriba
 logout = Cerrar sesión
+donate = Doazóns
 
 ## Home Page
 
@@ -616,7 +621,6 @@ about-playbook-how-add-sentences = Como engadir frases?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> é unha ferramenta para recompilar e validar frases de dominio público. Para empregala, debe <scAccountLink>crear unha conta</scAccountLink> e, logo, engadir o seu idioma ao seu <strong>perfil</strong>. Pode <strong>engadir</strong> frases ou <strong>revisar</strong> frases engadidas anteriormente.
 about-playbook-how-add-sentences-content-2 = As frases deben ser revisadas e aceptadas por dúas persoas para ser incluídas en Common Voice. Cree directrices para o seu idioma <languageGuidelinesLink>aquí</languageGuidelinesLink>. As frases deben ser de <licenseLink>dominio público</licenseLink> e ter menos de 15 palabras. Pode solicitarlle ao propietario dun texto que o faga <waiverLink>de dominio público (licenza CC0) mediante o noso proceso de cesión de dereitos</waiverLink> e enviárnolo a commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Pode empregar o <scraperLink>extractor de frases</scraperLink> para aproveitar frases curtas da Wikipedia.
-about-playbook-how-add-sentences-content-4 = As frases que foron validadas expórtanse os mércores e están dispoñibles despois da seguinte actualización.
 
 ## How to record quality
 
@@ -728,7 +732,7 @@ datasets-positioning =
     
     O conxunto de datos multilingüe de Common Voice xa é o maior conxunto de datos de voz do seu tipo que está dispoñible publicamente, mais non é o único.
     
-    Emprege esta página como centro de referencia para outros conxuntos de datos de voz de código abierto e, a medida que Common Voice siga medrando, como sede das nosas actualizacións.
+    Empregue esta páxina como centro de referencia para outros conxuntos de datos de voz de código aberto e, a medida que Common Voice siga medrando, como sede das nosas actualizacións.
 language = Idioma
 download-dataset-header = Descargar o conxunto de datos
 download-delta-explainer = Fixemos algúns cambios. Os segmentos Delta só conteñen os fragmentos máis recentes desde a última actualización. <deltaLink>Saber máis sobre este traballo</deltaLink>.
@@ -926,6 +930,9 @@ listen-empty-state = Posiblemente esgotamos os fragmentos para aprobar: actualic
 listen-loading-error =
     Non foi posible atopar ningún fragmento de audio para que o escoite.
     Por favor inténteo de novo máis tarde.
+listen-abort-title = Quere rematar de validar os fragmentos?
+listen-abort-cancel = Seguir validando
+listen-abort-confirm = Finalizar a validación
 speak-empty-state = Esgotamos as frases para gravar neste idioma
 speak-empty-state-cta = Propor novas frases
 speak-loading-error =
@@ -1730,7 +1737,7 @@ reviewing-sentences-explanation-2 = Se a frase non cumpre os criterios anteriore
 reviewing-sentences-explanation-3 = Se ten dúbidas sobre a frase, pode omitila e pasar á seguinte.
 reviewing-sentences-explanation-4 = Se xa non quedan frases para revisar, axúdenos a recoller máis!
 # WRITE PAGE
-write-instruction-second-part = unha frase de dominio público
+write-instruction = Engada <icon></icon> unha frase de dominio público
 write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de datos con licenza cc-0 dispoñible publicamente.
 sentence =
     .label = Frase
@@ -1738,7 +1745,8 @@ sentence-input-value = Introduza aquí a súa frase de dominio público
 citation-input-value = Orixe da súa frase
 citation =
     .label = Cita
-what-can-i-add = Que tipos de frases podo engadir?
+sc-write-submit-confirm = Confirmo que esta frase é de <wikipediaLink>dominio público</wikipediaLink> e teño permiso para cargala.
+sc-review-write-title = Que frases podo engadir?
 new-sentence-rule-1 = <noCopyright>Sen restricións de copyright</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Menos de 15 palabras
 new-sentence-rule-3 = Usar a gramática correcta
@@ -1755,16 +1763,49 @@ contact-us = Contacta connosco
 add-sentence-success = 1 frase recollida
 add-sentence-error = Produciuse un erro ao engadir a frase
 required-field = Por favor, cubra este campo.
-# REVIEW PAGE
-sc-review-instruction-first-part = Comprobar:
-sc-review-instruction-second-part = é esta unha frase lingüisticamente correcta?
+single-sentence-submission = Envío dunha única frase
+bulk-sentence-submission = Envío masivo de frases
+single-sentence = Frase única
+bulk-sentences = Grupo de frases
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Revise a frase: <icon></icon> é esta unha frase lingüísticamente correcta?
 sc-review-rules-title = A frase cumpre as directrices?
 sc-review-empty-state = Actualmente non hai frases para revisar neste idioma.
 report-sc-different-language = Idioma diferente
 report-sc-different-language-detail = Está escrita nun idioma diferente ao que estou revisando.
 sentences-fetch-error = Produciuse un erro ao recuperar as frases
 review-error = Produciuse un erro ao revisar esta frase
+review-error-rate-limit-exceeded = Vai moi á présa. Tómese un momento para revisar a frase e comprobar que é correcta.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Estamos a facer grandes cambios
 sc-redirect-page-subtitle-1 = O colector de frases está migrando para a plataforma principal do Common Voice. Agora vostede pode <writeURL>escribir</writeURL> unha frase ou <reviewURL>revisar</reviewURL> envíos de frases soltas no Common Voice.
 sc-redirect-page-subtitle-2 = Fáganos preguntas en <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou por <emailLink>correo electrónico</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Envíe <icon></icon> frases de dominio público
+sc-bulk-upload-instruction = Arrastre o seu ficheiro aquí ou <uploadButton>prema para envialo</uploadButton>
+sc-bulk-upload-instruction-drop = Solte o ficheiro aquí para cargalo
+try-upload-again = Inténteo de novo arrastrando o ficheiro aquí
+try-upload-again-md = Intente cargar de novo
+select-file = Seleccionar un ficheiro
+select-file-mobile = Seleccione un ficheiro para cargar
+accepted-files = Tipos de ficheiros aceptados: unicamente .tsv
+maximum-file-size = Tamaño máximo do ficheiro: 25 MB
+what-needs-to-be-in-file = Que ten que estar no meu ficheiro?
+what-needs-to-be-in-file-explanation = Comprobe o noso <templateFileLink>ficheiro modelo</templateFileLink>. As súas frases deben estar libres de dereitos de autor (CC0 ou traballo orixinal autorizado polo remitente) e deben ser claras, gramaticalmente correctas e fáciles de ler. Deberíase tardar uns 10-15 segundos en ler cada frase. Evite incluír nas frases enviadas caracteres numéricos, nomes propios e caracteres especiais.
+upload-progress-text = Subida en curso...
+sc-bulk-submit-confirm = Confirmo que estas frases son de <wikipediaLink>dominio público</wikipediaLink> e teño permiso para cargalas.
+bulk-upload-success-toast = Cargouse o grupo de frases
+bulk-upload-failed-toast = Produciuse un erro na carga. Ténteo de novo.
+bulk-submission-success-header = Grazas por contribuír co seu envío masivo.
+bulk-submission-success-subheader = Acaba de axudar a que Common Voice alcance os obxectivos diarios de subida de frases!
+upload-more-btn-text = Desexa cargar máis frases?
+file-invalid-type = O ficheiro non é válido.
+file-too-large = O ficheiro é demasiado grande
+file-too-small = O ficheiro é demasiado pequeno
+too-many-files = Demasiados ficheiros

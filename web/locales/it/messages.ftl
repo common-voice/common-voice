@@ -69,6 +69,7 @@ eo = Esperanto
 es = Spagnolo
 et = Estone
 eu = Basco
+ewo = Ewondo
 fa = Persiano
 ff = Fulah
 fi = Finlandese
@@ -79,6 +80,7 @@ ga-IE = Irlandese
 gl = Gallego
 gn = Guaraní
 gom = Konkani goana
+gu-IN = Gujarati
 ha = Hausa
 he = Ebraico
 hi = Hindi
@@ -98,6 +100,7 @@ it = Italiano
 izh = Izoriano
 ja = Giapponese
 jbo = Lojban
+jv = Giavanese
 ka = Georgiano
 kaa = Karakalpak
 kab = Cabilo
@@ -151,6 +154,7 @@ nyn = Nyankole
 oc = Occitano
 om = Afaan Ormoo
 or = Oriya
+os = Ossetico
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polacco
@@ -244,6 +248,7 @@ share-text = Aiutaci a insegnare alle macchine come le persone parlano nella vit
 link-copied = Link copiato
 back-top = Torna in alto
 logout = Disconnetti
+donate = Fai una donazione
 
 ## Home Page
 
@@ -606,7 +611,6 @@ about-playbook-how-add-sentences = Come posso aggiungere frasi?
 about-playbook-how-add-sentences-content-1 = Il <strong>Sentence Collector</strong> è uno strumento per raccogliere e convalidare frasi di pubblico dominio. Dovrai <scAccountLink>creare un account</scAccountLink> e aggiungere la tua lingua al tuo <strong>profilo</strong>. Puoi <strong>aggiungere</strong> frasi o <strong>convalidare</strong> frasi aggiunte in precedenza.
 about-playbook-how-add-sentences-content-2 = Le frasi devono essere convalidate e accettate da due persone per essere incluse in Common Voice. Puoi creare delle linee guida per la tua lingua <languageGuidelinesLink>qui</languageGuidelinesLink>. Le frasi devono essere di <licenseLink>pubblico dominio</licenseLink> e avere meno di 15 parole. Puoi chiedere al proprietario di un testo di renderlo <waiverLink>CC0 utilizzando la nostra procedura di deroga</waiverLink> e inviarcelo a commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Puoi utilizzare il <scraperLink>Sentence extractor</scraperLink> per ottenere brevi frasi da Wikipedia.
-about-playbook-how-add-sentences-content-4 = Le frasi che sono state convalidate vengono esportate di mercoledì e sono disponibili a partire dalla versione successiva.
 
 ## How to record quality
 
@@ -905,6 +909,9 @@ listen-empty-state = Abbiamo esaurito le registrazioni da convalidare in questa 
 listen-loading-error =
     Non è stato possibile caricare alcuna registrazione audio da ascoltare.
     Riprova più tardi.
+listen-abort-title = Hai finito di convalidare le registrazioni?
+listen-abort-cancel = Continua la convalida
+listen-abort-confirm = Termina la convalida
 speak-empty-state = Abbiamo esaurito le frasi da registrare in questa lingua…
 speak-empty-state-cta = Contribuisci con altre frasi
 speak-loading-error =
@@ -1658,7 +1665,7 @@ reviewing-sentences-explanation-2 = Se la frase non soddisfa tutti i criteri des
 reviewing-sentences-explanation-3 = Se non sei sicuro, puoi anche saltare la frase e passare a quella successiva.
 reviewing-sentences-explanation-4 = Se non ci sono più frasi da convalidare, aiutaci a raccoglierne altre!
 # WRITE PAGE
-write-instruction-second-part = una frase di pubblico dominio
+write-instruction = <icon></icon> Aggiungi una frase di pubblico dominio
 write-page-subtitle = Le frasi inserite verranno aggiunte a un dataset con licenza cc-0 disponibile pubblicamente.
 sentence =
     .label = Frase
@@ -1666,7 +1673,8 @@ sentence-input-value = Inserisci qui la frase di pubblico dominio
 citation-input-value = Fonte della frase
 citation =
     .label = Citazione
-what-can-i-add = Che tipo di frasi posso aggiungere?
+sc-write-submit-confirm = Confermo che questa frase è di <wikipediaLink>pubblico dominio</wikipediaLink> e ho l’autorizzazione a caricarla.
+sc-review-write-title = Quali frasi posso aggiungere?
 new-sentence-rule-1 = <noCopyright>Nessuna restrizione di copyright</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Meno di 15 parole
 new-sentence-rule-3 = Utilizza una grammatica corretta
@@ -1683,9 +1691,15 @@ contact-us = Contattaci
 add-sentence-success = 1 frase raccolta
 add-sentence-error = Errore durante il caricamento della frase
 required-field = Compilare questo campo.
-# REVIEW PAGE
-sc-review-instruction-first-part = Verifica
-sc-review-instruction-second-part = è una frase linguisticamente corretta?
+single-sentence-submission = Invio di una singola frase
+bulk-sentence-submission = Invio di frasi in blocco
+single-sentence = Singola frase
+bulk-sentences = Frasi in blocco
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = <icon></icon> Verifica che si tratti di una frase corretta dal punto di vista linguistico?
 sc-review-rules-title = La frase rispetta le linee guida?
 sc-review-empty-state = Al momento non ci sono frasi da convalidare in questa lingua.
 report-sc-different-language = Lingua diversa
@@ -1697,3 +1711,29 @@ review-error-rate-limit-exceeded = Stai andando troppo veloce. Prenditi tempo pe
 sc-redirect-page-title = Stiamo apportando alcuni cambiamenti significativi
 sc-redirect-page-subtitle-1 = Il Sentence Collector si sta spostando sulla piattaforma principale di Common Voice. Ora puoi <writeURL>scrivere</writeURL> una frase o <reviewURL>esaminare</reviewURL> gli invii di frasi singole su Common Voice.
 sc-redirect-page-subtitle-2 = Ponici domande su <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> o tramite <emailLink>email</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = <icon></icon> Carica frasi di pubblico dominio
+sc-bulk-upload-instruction = Trascina il file qui o <uploadButton>fai clic per caricare</uploadButton>
+sc-bulk-upload-instruction-drop = Trascina il file qui per caricarlo
+try-upload-again = Riprova trascinando il file qui
+try-upload-again-md = Prova a caricare di nuovo
+select-file = Seleziona file
+select-file-mobile = Seleziona il file da caricare
+accepted-files = Tipi di file accettati: solo .tsv
+maximum-file-size = Dimensione massima del file: 25 MB
+what-needs-to-be-in-file = Che cosa deve esserci nel mio file?
+what-needs-to-be-in-file-explanation = Controlla il nostro <templateFileLink>file modello</templateFileLink>. Le frasi non devono essere soggette a copyright (CC0 o un’opera originale per cui il mittente ha ricevuto adeguata autorizzazione) ed essere chiare, grammaticalmente corrette e di facile lettura. La lettura delle frasi inviate dovrebbe richiedere circa 10-15 secondi e non dovrebbero includere numeri, nomi propri e caratteri speciali.
+upload-progress-text = Caricamento in corso…
+sc-bulk-submit-confirm = Confermo che queste frasi sono di <wikipediaLink>pubblico dominio</wikipediaLink> e ho l’autorizzazione a caricarle.
+bulk-upload-success-toast = Frasi caricate in blocco
+bulk-upload-failed-toast = Caricamento non riuscito, riprova.
+bulk-submission-success-header = Grazie per aver contribuito con le tue frasi.
+bulk-submission-success-subheader = Stai aiutando Common Voice a raggiungere il traguardo giornaliero per le frasi.
+upload-more-btn-text = Vuoi caricare più frasi?
+file-invalid-type = File non valido
+file-too-large = Il file è troppo grande
+file-too-small = Il file è troppo piccolo
+too-many-files = Troppi file

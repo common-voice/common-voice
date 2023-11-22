@@ -12,6 +12,7 @@ import { replacePathLocale } from '../../utility';
 import { LocaleNavLink } from '../locale-helpers';
 import { CogIcon, DashboardIcon, MenuIcon } from '../ui/icons';
 import { Avatar, LinkButton } from '../ui/ui';
+import DonateButton from '../donate-button/donate-button';
 import Content from './content';
 import Footer from './footer';
 import LocalizationSelect from '../localization-select/localization-select';
@@ -91,10 +92,12 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
   componentDidUpdate(prevProps: LayoutProps) {
     const { pathname, key, hash } = this.props.location;
+    const { setLocale, locale } = this.props;
 
     const hasPathnameChanged = pathname !== prevProps.location.pathname;
     const locationKeyHasChanged = key !== prevProps.location.key;
     const shouldScrollToHash = hash && locationKeyHasChanged;
+    const hasLocaleChanged = prevProps.locale !== locale;
 
     if (hasPathnameChanged) {
       this.setState({ isMenuVisible: false });
@@ -104,6 +107,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
     if (!hasPathnameChanged && shouldScrollToHash) {
       this.visitHash();
+    }
+
+    if (hasLocaleChanged) {
+      setLocale(locale);
     }
   }
 
@@ -133,10 +140,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   };
 
   private handleLocaleChange = async (locale: string) => {
-    const { setLocale, history } = this.props;
+    const { history } = this.props;
     trackGlobal('change-language', locale);
     history.push(replacePathLocale(history.location.pathname, locale));
-    setLocale(locale);
   };
 
   private getChallengeToken = () => {
@@ -166,7 +172,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
       `/${locale}${URLS.LISTEN}`,
       `/${locale}${URLS.WRITE}`,
       `/${locale}${URLS.REVIEW}`,
-    ]
+    ];
 
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
     const isDemoMode = location.pathname.includes(URLS.DEMO);
@@ -237,6 +243,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               />
             </div>
             <div>
+              <div className="hidden-sm-down">
+                <DonateButton />
+              </div>
               {user.account ? (
                 <UserMenu />
               ) : isBuildingProfile ? null : (
@@ -277,7 +286,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           )}
         </div>
         <NonProductionBanner />
-        <main id="content" className={className}>
+        <main
+          id="content"
+          className={className}
+          data-testid={pathParts[2] ? pathParts.slice(2).join(' ') : 'home'}>
           {children ? children : <Content location={location} />}
         </main>
         {shouldHideFooter ? <></> : <Footer />}
@@ -315,13 +327,17 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               )}
               {user.account ? (
                 <Localized id="logout">
-                  <LinkButton rounded href="/logout" />
+                  <LinkButton rounded href="/logout" className="auth-button" />
                 </Localized>
               ) : (
                 <Localized id="login-signup">
-                  <LinkButton rounded href="/login" />
+                  <LinkButton rounded href="/login" className="auth-button" />
                 </Localized>
               )}
+
+              <div className="donate-btn-container">
+                <DonateButton />
+              </div>
             </div>
           </Nav>
         </div>

@@ -69,6 +69,7 @@ eo = Esperanto
 es = İspanyolca
 et = Estonca
 eu = Baskça
+ewo = Ewondo
 fa = Farsça
 ff = Fulaca
 fi = Fince
@@ -76,9 +77,10 @@ fo = Faroece
 fr = Fransızca
 fy-NL = Frizce
 ga-IE = İrlandaca
-gl = Galce
+gl = Galiçyaca
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Güceratça
 ha = Hausaca
 he = İbranice
 hi = Hintçe
@@ -98,6 +100,7 @@ it = İtalyanca
 izh = İngrice
 ja = Japonca
 jbo = Lojban
+jv = Cava dili
 ka = Gürcüce
 kaa = Karakalpakça
 kab = Berberice
@@ -151,6 +154,7 @@ nyn = Nyankole
 oc = Oksitanca
 om = Oromca
 or = Odia
+os = Osetçe
 pa-IN = Pencapça
 pap-AW = Papiamento (Aruba)
 pl = Lehçe
@@ -172,7 +176,7 @@ shi = Şilha
 si = Seylanca
 sk = Slovakça
 skr = Saraiki
-sl = Slovakça
+sl = Slovence
 snk = Soninke
 so = Somalice
 sq = Arnavutça
@@ -244,6 +248,7 @@ share-text = Makinelere gerçek insanların nasıl konuştuğunu öğretin: { $l
 link-copied = Bağlantı kopyalandı
 back-top = Başa dön
 logout = Çıkış
+donate = Bağış yap
 
 ## Home Page
 
@@ -611,7 +616,6 @@ about-playbook-how-add-sentences = Nasıl cümle ekleyebilirim?
 about-playbook-how-add-sentences-content-1 = <strong>Cümle Toplayıcı</strong>, kamuya açık cümleleri toplamamızı ve doğrulamamızı sağlayan bir araçtır. Önce <scAccountLink>bir hesap oluşturmanız gerekecek</scAccountLink>. Ardından dilinizi <strong>profilinize</strong> ekleyin. Sonra cümleleri <strong>ekleyebilir</strong> veya önceden eklenmiş cümleleri <strong>inceleyebilirsiniz</strong>.
 about-playbook-how-add-sentences-content-2 = Cümlelerin Common Voice'a dahil olabilmesi için iki kişi tarafından incelenip kabul edilmesi gerekir. <languageGuidelinesLink>Burada</languageGuidelinesLink> dilinizin yönergelerini oluşturabilirsiniz. Cümleler <licenseLink>kamu malı</licenseLink> olmalı ve 15 kelimeden kısa olmalıdır. Bir metnin sahibinden <waiverLink>feragat sürecimizi kullanarak metnin lisansını CC0 yapmasını</waiverLink> isteyebilir ve commonvoice@mozilla.com adresinden bize gönderebilirsiniz.
 about-playbook-how-add-sentences-content-3 = Wikipedia'daki kısa cümlelerden yararlanmak için <scraperLink>Cümle çekici</scraperLink>'yi kullanabilirsiniz.
-about-playbook-how-add-sentences-content-4 = Doğrulanan cümleler çarşamba günleri dışa aktarılır ve bir sonraki sürümde kullanılabilir hale gelir.
 
 ## How to record quality
 
@@ -916,6 +920,9 @@ listen-empty-state = Doğrulanacak ses kaydı kalmamış olabilir. Sayfayı yeni
 listen-loading-error =
     Dinleyebileceğiniz hiç ses kaydı bulamadık.
     Lütfen daha sonra tekrar deneyin.
+listen-abort-title = Kayıt doğrulama bitirilsin mi?
+listen-abort-cancel = Doğrulamaya devam et
+listen-abort-confirm = Doğrulamayı bitir
 speak-empty-state = Bu dilde kaydedilecek cümle kalmadı...
 speak-empty-state-cta = Cümlelere katkıda bulunun
 speak-loading-error =
@@ -1636,7 +1643,7 @@ reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamı
 reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
 reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
 # WRITE PAGE
-write-instruction-second-part = kamuya açık bir cümle
+write-instruction = Kamu malı bir cümle ekleyin <icon></icon>
 write-page-subtitle = Buradan gönderilen cümleler, halka açık ve cc-0 lisanslı bir veri kümesine eklenecektir.
 sentence =
     .label = Cümle
@@ -1644,7 +1651,8 @@ sentence-input-value = Kamu malı cümlenizi buraya yazın
 citation-input-value = Cümlenizin kaynağı
 citation =
     .label = Kaynak
-what-can-i-add = Ne tür cümleler ekleyebilirim?
+sc-write-submit-confirm = Bu cümlenin <wikipediaLink>kamu malı</wikipediaLink> olduğunu ve bunu yükleme iznim olduğunu onaylıyorum.
+sc-review-write-title = Hangi cümleleri ekleyebilirim?
 new-sentence-rule-1 = <noCopyright>Telif hakkı</noCopyright> kısıtlaması olmayan (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = 15 kelimeden kısa
 new-sentence-rule-3 = Dilbilgisi açısından doğru
@@ -1660,16 +1668,48 @@ contact-us = Bize ulaşın
 add-sentence-success = 1 cümle toplandı
 add-sentence-error = Cümle eklenirken hata oluştu
 required-field = Lütfen bu alanı doldurun.
-# REVIEW PAGE
-sc-review-instruction-first-part = Kontrol et
-sc-review-instruction-second-part = Bu dilbilimsel olarak doğru bir cümle mi?
+single-sentence-submission = Tek cümle gönderimi
+bulk-sentence-submission = Toplu cümle gönderimi
+single-sentence = Tek cümle
+bulk-sentences = Toplu cümle
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Dilbigisi açısından doğru olup olmadığını <icon></icon> kontrol edin
 sc-review-rules-title = Cümle yönergelere uygun mu?
 sc-review-empty-state = Şu anda bu dilde incelenecek cümle yok.
 report-sc-different-language = Farklı dil
 report-sc-different-language-detail = İncelediğimden farklı bir dilde yazılmış.
 sentences-fetch-error = Cümleler getirilirken bir hata oluştu
 review-error = Bu cümle incelenirken bir hata oluştu
+review-error-rate-limit-exceeded = Çok hızlı ilerliyorsunuz. Lütfen cümlenin doğrulunu kontrol etmek için biraz daha zaman ayırın.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Bazı büyük değişiklikler yapıyoruz
 sc-redirect-page-subtitle-1 = Cümle Toplayıcı, ana Common Voice platformuna taşınıyor. Artık Common Voice'ta cümle <writeURL>yazabilir</writeURL> veya gönderilen cümleleri <reviewURL>denetleyebilirsiniz</reviewURL>.
 sc-redirect-page-subtitle-2 = Bize <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> veya <emailLink>e-posta</emailLink> üzerinden soru sorabilirsiniz.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Kamu malı cümleleri yükleyin <icon></icon>
+sc-bulk-upload-instruction = Dosyanızı yüklemek için buraya sürükleyin veya <uploadButton>buraya tıklayın</uploadButton>
+sc-bulk-upload-instruction-drop = Yüklemek için dosyayı buraya bırakın
+try-upload-again = Dosyanızı buraya sürükleyerek yeniden deneyin
+try-upload-again-md = Yeniden yüklemeyi deneyin
+select-file = Dosya seçin
+select-file-mobile = Yüklenecek dosyayı seçin
+accepted-files = Kabul edilen dosya türleri: yalnızca .tsv
+maximum-file-size = Maksimum dosya boyutu: 25 MB
+what-needs-to-be-in-file = Dosyamda neler olması gerekiyor?
+upload-progress-text = Yükleme devam ediyor...
+sc-bulk-submit-confirm = Bu cümlelerin <wikipediaLink>kamu malı</wikipediaLink> olduğunu ve bunları yükleme iznim olduğunu onaylıyorum.
+bulk-upload-success-toast = Toplu cümleler yüklendi
+bulk-upload-failed-toast = Yükleme başarısız oldu, lütfen yeniden deneyin.
+bulk-submission-success-header = Toplu gönderiminizle katkıda bulunduğunuz için teşekkür ederiz!
+bulk-submission-success-subheader = Common Voice’un günlük cümle hedeflerimize ulaşmasına yardımcı oluyorsunuz!
+upload-more-btn-text = Daha fazla cümle yükleyecek misiniz?
+file-invalid-type = Geçersiz dosya
+file-too-large = Dosya çok büyük
+file-too-small = Dosya çok küçük
+too-many-files = Çok fazla dosya
