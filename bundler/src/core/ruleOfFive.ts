@@ -3,7 +3,7 @@ import path from 'node:path'
 import { query } from '../infrastructure/database'
 import { pipe } from 'fp-ts/lib/function'
 import { getQueriesDir } from '../config/config'
-import * as RTE from 'fp-ts/readerTaskEither'
+import { readerTaskEither as RTE } from 'fp-ts'
 import { AppEnv } from '../types'
 
 const MINIMUM_UNIQUE_SPEAKERS = 5

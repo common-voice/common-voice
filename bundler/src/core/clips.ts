@@ -9,7 +9,7 @@ import { hashClientId } from './clients'
 import { getClipsBucketName, getQueriesDir } from '../config/config'
 import { pipe } from 'fp-ts/lib/function'
 import { prepareDir } from '../infrastructure/filesystem'
-import * as RTE from 'fp-ts/readerTaskEither'
+import { readerTaskEither as RTE } from 'fp-ts'
 
 const CLIPS_BUCKET = getClipsBucketName()
 
