@@ -1,8 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import util from 'node:util'
 
-import { taskEither as TE } from 'fp-ts'
+import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { parse } from 'csv-parse'
 import {
@@ -16,7 +15,6 @@ import {
   isCorporaCreatorFile,
 } from '../infrastructure/corporaCreator'
 import { CLIPS_TSV_ROW } from './clips'
-import * as RTE from 'fp-ts/readerTaskEither'
 import { AppEnv } from '../types'
 
 type Stats = {
@@ -125,7 +123,10 @@ const createEmptyLocale = (): Locale => {
   }
 }
 
-const getAllRelevantFilepaths = (locale: string, releaseDirPath: string): string[] => {
+const getAllRelevantFilepaths = (
+  locale: string,
+  releaseDirPath: string,
+): string[] => {
   const ccFiles = CORPORA_CREATOR_FILES.map(entry =>
     path.join(releaseDirPath, locale, entry),
   )
@@ -253,7 +254,7 @@ export const statsPipeline = (
   locale: string,
   totalDurationInMs: number,
   tarFilepath: string,
-  releaseDirPath: string
+  releaseDirPath: string,
 ) =>
   pipe(
     TE.Do,

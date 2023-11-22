@@ -1,10 +1,9 @@
 import { spawn } from 'node:child_process'
 import path from 'node:path'
 
-import { taskEither as TE } from 'fp-ts'
+import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { log } from 'fp-ts/lib/Console'
-import * as RTE from 'fp-ts/readerTaskEither'
 
 import { AppEnv } from '../types'
 
