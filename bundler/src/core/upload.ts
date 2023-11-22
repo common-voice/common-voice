@@ -1,9 +1,8 @@
 import fs from 'node:fs'
 import path from 'node:path'
 
-import * as TE from 'fp-ts/TaskEither'
 import { pipe } from 'fp-ts/lib/function'
-import * as RTE from 'fp-ts/readerTaskEither'
+import {readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 
 import { getDatasetBundlerBucketName } from '../config/config'
 import { streamUploadToBucket } from '../infrastructure/storage'

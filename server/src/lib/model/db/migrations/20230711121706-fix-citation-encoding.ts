@@ -1,5 +1,3 @@
-import {} from 'mysql2'
-
 export const up = async function (db: any): Promise<any> {
   await db.runSql(`
     ALTER TABLE sentences ADD COLUMN source_new text CHARACTER SET utf8mb4 DEFAULT NULL

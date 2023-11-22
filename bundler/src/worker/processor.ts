@@ -9,7 +9,7 @@ import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
 import { runReportedSentences } from '../core/reportedSentences'
 import { runUpload } from '../core/upload'
-import * as RTE from 'fp-ts/readerTaskEither'
+import { readerTaskEither as RTE } from 'fp-ts'
 import path from 'node:path'
 
 const processPipeline = pipe(
