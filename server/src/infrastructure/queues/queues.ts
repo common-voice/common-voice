@@ -52,10 +52,11 @@ export const attachEventHandlerToQueue =
 
 export const addJobToQueue =
   <J>(job: J) =>
+  (jobName: string) =>
   (options: Queue.JobOptions) =>
   (q: Queue.Queue<J>): T.Task<boolean> =>
   async () => {
-    await q.add(job, options)
-    console.log(`Job added to queue ${q.name}`)
+    await q.add(jobName, job, options)
+    console.log(`Job ${jobName} added to queue ${q.name}`)
     return true
   }

@@ -66,6 +66,8 @@ const insertBulkSentencesTransaction = async (
       submission.sentence,
       submission.source,
       submission.locale_id,
+      1,
+      1,
     ])
     sentence_metadata_values.push([sentenceId, submission.client_id])
   })
@@ -84,7 +86,7 @@ const insertBulkSentencesTransaction = async (
     while (sentences_batch.length > 0) {
       await conn.query(
         `
-          INSERT INTO sentences (id, text, source, locale_id)
+          INSERT INTO sentences (id, text, source, locale_id, is_used, is_validated)
           VALUES ?
           ON DUPLICATE KEY UPDATE source=VALUES(source)
        `,

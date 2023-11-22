@@ -594,6 +594,7 @@ about-playbook-how-localize-content-5 = Ikusi gure azalpen bideoa
 
 about-playbook-how-add-sentences = Nola gehi ditzaket esaldiak?
 about-playbook-how-add-sentences-content-2 = Esaldiak bi pertsonek berrikusi eta onartu behar dituzte Common Voicen sartu aurretik. Zure hizkuntzarentzako gidalerroa sor dezakezu <languageGuidelinesLink>hemen</languageGuidelinesLink>. Esaldiek <licenseLink>jabetza publikoan</licenseLink> egon behar dute eta 15 hitz baino gutxiago izan behar dituzte. Testu baten egileari eska diezaiokezu berau <waiverLink>CC0 bihurtzeko gure salbuespen prozesua erabiliz</waiverLink> eta gero guri bidali: commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = <scraperLink>Sentence extractor</scraperLink> erabil dezakezu Wikipediako esaldi laburrak aprobetxatzeko.
 
 ## How to record quality
 
@@ -606,13 +607,17 @@ about-playbook-how-record-content-5 = <accuracyLink>Ikusi gehiago zehaztasun iri
 
 ## How to grow language
 
+about-playbook-how-grow-language = Nola bultzatu dezakegu modu eraginkorrean hizkuntza bat Common Voicen?
+about-playbook-how-grow-language-content-1 = Jende anitzari Common Voicen ekarpenak egiteko aukerak sortzeak bermatu egiten du datu-sortak ahalik eta jende gehienarentzat balioko duela. Erabil ditzakezun baliabideak eta txantiloiak sortu ditugu!
 about-playbook-how-grow-language-content-2 = Ekitaldiak
 about-playbook-how-grow-language-content-4 = Sare sozialak
 about-playbook-how-grow-language-content-6 = Lankidetzak eta sareak
+about-playbook-how-grow-language-content-8 = <strong>Izan sortzailea!</strong> Zure hizkuntza-komunitatea bakarra da eta hauek lanean hasteko modu batzuk baino ez dira.
 
 ## How to validate
 
 about-playbook-how-validate = Nola jakin ahots grabazio bat onartu behar ote dudan?
+about-playbook-how-validate-content-1 = Berauok <strong>entzun</strong> eta <strong>ulertu</strong> baditzakezu,  <strong>onartu</strong>  itzazu.
 about-playbook-how-validate-content-3 = Ahoskera <strong>ulergaitza</strong> dela, <strong>atzealdeko zarata</strong> dagoela, edo <strong>beste pertsona batzuk hizketan</strong> entzuten badira, grabazio hau baztertu behar zenuke.<accuracyLink>Ikusi informazio gehiago gure zehaztasun irizpideetan</accuracyLink>.
 
 ## How to access dataset
@@ -791,6 +796,10 @@ request-language-google-recaptcha-required = reCAPTCHA ezinbestekoa da aurrera e
 request-language-google-recaptcha-error = Zerbait oker joan da reCAPTCHA-rekin. Saiatu berriro mesedez.
 # Success page
 request-language-success-heading = Eskerrik asko! Hizkuntza berri baten eskaera bidali duzu
+request-language-success-list-1 =
+    Laster jaso beharko zenuke email bat zure
+    hizkuntza Common Voicera gehitzeko urratsak
+    azaltzen dituena
 
 ## Languages Overview
 
@@ -979,6 +988,67 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Ezarri helburu bat
 cant-decide = Ezin duzu erabaki?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] ordu { $totalHours } lorgarria da hilabete { $periodMonths }ez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] ordu { $totalHours } lorgarria da { $periodMonths } hilabetez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] { $totalHours } ordu lorgarria da hilabete { $periodMonths }ez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez pertsona { $people }ek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez pertsona { $people }ek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez { $people } pertsonek grabazio { $clipsPerDay } egiten badu egunero.
+                               *[other] { $totalHours } ordu lorgarria da { $periodMonths } hilabetez { $people } pertsonek { $clipsPerDay } grabazio egiten badituzte egunero.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Primeran! Zenbat grabazio egunean?
 how-many-a-week = Primeran! Zenbat grabazio astean?
 which-goal-type = Hitz egin, entzun edo biak egin nahi dituzu?
@@ -1035,6 +1105,7 @@ download-recordings-title = Grabazioak
 download-recordings-info = MP3ak eta dagozkien esaldiak ditu, denbora bat behar du prestatzeko
 download-recordings-size = Normalean megabyteak
 download-recordings-unavailable = Ezin dituzu zure grabazioak eskatu beste eskaera bat martxan den bitartean.
+download-recently-requested = { $days } egunetan behin zure grabazioak ateratzeko eska dezakezu.
 download-size = Tamaina
 download-selected = Hautatuta
 download-start = Deskargatu profilaren datuak
@@ -1091,6 +1162,7 @@ demo-listen-subtitle = Laguntzeko prest?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Panel pertsonalek banakako eta komunitateko aurrerapenen berri ematen dizute.
 
 ## Validation criteria
 
@@ -1185,6 +1257,7 @@ sc-home-review-text = Lagun gaitzazu esaldien zuzentasuna gidalerroen arabera be
 
 ## GENERAL
 
+sc-languages-fetch-error = Ezin izan ditugu eskura dauden hizkuntzak eskuratu. Une honetan ezin dira ekarpenak egin. Mesedez, saiatu berriro geroago.
 
 ## HOW-TO
 
@@ -1198,35 +1271,52 @@ sc-howto-review-title = Berrikusi esaldiak
 sc-howto-review-subtitle = Ziurtatu esaldiek ondoko irizpideak betetzen dituztela:
 sc-howto-review-criteria-1 = Esaldiek ez dute akats ortografikorik izan behar.
 sc-howto-review-criteria-2 = Esaldiak ez du akats gramatikorik izan behar.
-sc-howto-review-criteria-3 = Esaldiak ahoskagarriak izan behar dira.
+sc-howto-review-criteria-3 = Esaldia ahoskagarria izan behar da.
 sc-howto-review-criteria-4 = Esaldiak irizpideak betetzen baditu, sakatu "Onartu" botoia.
 sc-howto-review-criteria-5 = Esaldiak goiko irizpideak betetzen ez baditu, sakatu "Baztertu" botoia. Esaldi honekin zalantzak badituzu, saltatu dezakezu eta hurrengora pasa.
 sc-howto-review-criteria-6 = Berrikusteko esaldirik gabe geratzen bazara, lagun gaitzazu esaldi gehiago biltzen!
 sc-howto-findpd-title = Aurkitu jabetza publikoan dauden esaldiak
 sc-howto-findpd-subtitle = Bila itzazu Interneten
 sc-howto-findpd-tips = Hemen dituzu zenbait aholku esaldiak aurkitzeko:
+sc-howto-findpd-tips-1 = Bila ditzakezun iturririk onenak podcastak, transkripzioak, filmeen gidoiak eta eguneroko elkarrizketak izan ditzakeen edozein gauza dira.
+sc-howto-findpd-tips-2 = Gobernuaren izapideak, liburuak eta artikuluak ere bikainak dira, hala ere, testua apur bat formalagoa izan ohi denez, lehentasun gutxiago dute.
+sc-howto-findpd-tips-3 = Zoritxarrez oraindik ezin dugu Wikimediako artikulurik izan. Beraz, ez kopiatu itsatsi hortik.
+sc-howto-findpd-subtitle-2 = Tokiko erakunde edo norbanakoekin elkartu
+sc-howto-findpd-partner-1 = Elkarlanean aritzeko prest egon daitezkeen erakunde publiko asko daude, domeinu publiko gisa eman ditzaketen testu asko dagoeneko izan ditzaketenak. Jarri harremanetan tokiko unibertsitate, Gobernu eta kode irekiko erakundeekin proiektuari buruz hitz egiteko eta haien laguntza eskatzeko.
+sc-howto-findpd-partner-2 = Hizkuntzalari adituek ere lagun dezakete, saiatu tokiko unibertsitate linguistikoak kontaktatzen (irakasleak zein ikasleak) eta ea zure hizkuntzan soinu askotako esaldi multzo bat biltzen lagun dezaketen.
 
 ## MY SENTENCES
 
 sc-my-title = Nire esaldiak
 sc-my-loading = Zure esaldiak kargatzen…
+sc-my-err-fetching = Errore bat gertatu da zure esaldiak eskuratzean. Saiatu berriro mesedez.
 sc-my-no-sentences = Ez da esaldirik aurkitu!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Bidalketa: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Iturria:  { $source }
 sc-my-delete = Ezabatu hautatutako esaldiak
 sc-my-deleting = Hautatutako esaldiak ezabatzen…
+sc-my-err-failed-delete = Ezin izan dira hautatutako esaldiak ezabatu… Saiatu berriro mesedez!
 
 ## REJECTED
 
 sc-rejected-title = Baztertutako esaldiak
 sc-rejected-loading = Baztertutako esaldiak kargatzen…
+sc-rejected-err-fetching = Errore bat gertatu da baztertutako esaldiak eskuratzean. Saiatu berriro mesedez.
 sc-rejected-none-found = Ez da baztertutako esaldirik aurkitu!
 
 ## STATS
 
 sc-stats-title = Estatistikak
 sc-stats-updating = Eguneratzen…
+sc-stats-error = Ezin izan ditugu estatistikak eskuratu. Mesedez, saiatu berriro geroago.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector-ek { $sentenceCount } esaldi bildu ditu { $languageCount } hizkuntzetan!
 
 ## ADD
 
@@ -1243,6 +1333,7 @@ sc-submit-add-sentences = Gehitu <wikipediaLink>jabetza publikoan</wikipediaLink
 sc-submit-ph-one-per-line =
     .placeholder = Esaldi bat lerro bakoitzeko
 sc-submit-from-where = <wikipediaLink>Jabetza publikoko</wikipediaLink> esaldi hauek nongoak dira?
+sc-submit-confirm = Esaldi hauek <wikipediaLink>domeinu publikoan</wikipediaLink> daudela eta berauok kargatzeko baimena dudala baieztatzen dut.
 sc-submit-button =
     .submitText = Bidali
 
@@ -1375,7 +1466,7 @@ sc-criteria-title = Berrikusketa irizpideak
 sc-criteria-make-sure = Ziurtatu esaldiek ondoko irizpideak betetzen dituztela:
 sc-criteria-item-1 = Esaldiek ez dute akats ortografikorik izan behar.
 sc-criteria-item-2 = Esaldiak ez du akats gramatikorik izan behar.
-sc-criteria-item-3 = Esaldiak ahoskagarriak izan behar dira.
+sc-criteria-item-3 = Esaldia ahoskagarria izan behar da.
 sc-criteria-item-4 =
     Esaldiak irizpideak betetzen baditu, sakatu
     eskuineko &quot;Onartu&quot; botoia.
@@ -1507,6 +1598,8 @@ adding-sentences-subheader-length = Luzera
 adding-sentences-subheader-length-explanation = Esaldiak 15 hitz baino gutxiago izan behar ditu.
 adding-sentences-subheader-spelling-punctuation = Ortografia eta puntuazioa
 adding-sentences-subheader-spelling-punctuation-explanation = Esaldiak ez du akats ortografikorik izan behar.
+adding-sentences-subheader-speakable = Ahoskagarriak
+adding-sentences-subheader-speakable-explanation = Esaldi onenak naturalak eta elkarrizketakoak dira; norbaitek irakurtzeko errazak izan behar dute. Aniztasun fonetikoa eta esaldietan hitz desberdinak garrantzitsuak diren arren, gure boluntario komunitatearentzat esaldien grabaketa ahalik erakargarriena eta entretenigarriena izan dadin saiatzen ari gara.
 adding-sentences-subheader-numbers = Zenbakiak
 adding-sentences-subheader-abbreviations = Laburdurak eta akronimoak
 adding-sentences-subheader-punctuation = Puntuazioa
@@ -1515,6 +1608,8 @@ adding-sentences-subheader-offensive-content = Eduki iraingarria
 adding-sentences-subheader-offensive-content-explanation = Esaldiak ofenditzen edo haserretzen bazaitu - adibidez gure <communityGuidelines>komunitatearen parte-hartze gidalerroak</communityGuidelines> urratsen dituelako - baztertu egin behar zenuke. Arazoaren berri emateko, hemen gurekin harremanetan ere jar zaitezke: <emailFragment>commonvoice@mozilla.com</emailFragment>.
 reviewing-sentences-explanation-1 = Esaldiak goiko irizpideak betetzen baditu, sakatu "Bai" botoia.
 reviewing-sentences-explanation-2 = Esaldiak goiko irizpideak betetzen ez baditu, sakatu "Ez" botoia.
+reviewing-sentences-explanation-3 = Ziur ez bazaude, esaldia saltatu dezakezu eta hurrengora pasa.
+reviewing-sentences-explanation-4 = Berrikusteko esaldirik gabe geratzen bazara, lagun gaitzazu esaldi gehiago biltzen!
 write-page-subtitle = Hemen gehitutako esaldiak publikoki eskuragarriak izango dira cc-0 lizentzia duen datu-sorta batean.
 sentence =
     .label = Esaldia
@@ -1538,6 +1633,8 @@ add-sentence-error = Errorea esaldia gehitzean
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Egiaztatu <icon></icon> esaldi hau linguistikoki zuzena da?
 sc-review-rules-title = Esaldiak gidalerroak betetzen ditu?
 sc-review-empty-state = Orain ez dago esaldirik berrikusteko hizkuntza honetan.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
