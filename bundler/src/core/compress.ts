@@ -3,8 +3,7 @@ import path from 'node:path'
 
 import tar from 'tar'
 
-import { io as IO, taskEither as TE } from 'fp-ts'
-import * as RTE from 'fp-ts/readerTaskEither'
+import { io as IO, readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 
 import { prepareDir } from '../infrastructure/filesystem'

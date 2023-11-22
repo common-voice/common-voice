@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import { taskEither as TE } from 'fp-ts'
+import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { streamingQuery } from '../infrastructure/database'
 import { getQueriesDir } from '../config/config'
 import { Transform } from 'node:stream'
@@ -10,7 +10,6 @@ import {
   ReportedSentencesRow,
 } from '../types'
 import { pipe } from 'fp-ts/lib/function'
-import * as RTE from 'fp-ts/readerTaskEither'
 
 const printLn = (text: string) => text + '\n'
 
