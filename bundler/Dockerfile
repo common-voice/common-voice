@@ -1,8 +1,14 @@
 FROM node:18-bullseye
 
+ARG UID=10001
+ARG GID=10001
+
 RUN apt-get update && \
     apt-get install python3-pip vim -y && \
     pip3 install --upgrade setuptools
+
+RUN groupadd -g $GID node; \
+    useradd -g $GID -u $UID -m -d /home/node/code -s /usr/sbin/nologin node
 
 USER node
 
