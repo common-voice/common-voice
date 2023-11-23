@@ -1,14 +1,8 @@
 FROM node:18-bullseye
 
-ARG UID=10001
-ARG GID=10001
-
 RUN apt-get update && \
     apt-get install python3-pip vim -y && \
     pip3 install --upgrade setuptools
-
-RUN groupadd -g $GID node; \
-    useradd -g $GID -u $UID -m -d /home/node/code -s /usr/sbin/nologin node
 
 USER node
 
@@ -27,10 +21,9 @@ ENV PATH "$PATH:/home/node/.local/bin/:/home/node/.cargo/bin"
 WORKDIR /home/node/code
 
 COPY --chown=node ./package.json ./
-COPY --chown=node ./package-lock.json ./
 
 # Install dependencies
-RUN npm ci
+RUN npm install
 
 COPY --chown=node ./ ./
 
