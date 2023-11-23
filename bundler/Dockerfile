@@ -17,6 +17,7 @@ RUN mkdir -p /home/node/code && \
     /home/node/.cargo/bin/cargo install --path .
 
 ENV PATH "$PATH:/home/node/.local/bin/:/home/node/.cargo/bin"
+ENV npm_config_cache "/home/node/"
 
 WORKDIR /home/node/code
 
