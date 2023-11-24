@@ -1586,6 +1586,7 @@ public-domain = Jabetza publikoa
 citing-sentences = Esaldien aipamenak egiten
 adding-sentences = Esaldiak gehitzen
 reviewing-sentences = Esaldiak berrikusten
+public-domain-explanation-1 = Oso garrantzitsua da testu-esaldi guztiak <publicDomain>jabetza publikoan</publicDomain> (<cc0>CC0</cc0>) izatea, Common Voice datu-sorta CC0 lizentziapean kaleratzen baita. Igo esaldia bakarrik ziur bazaude, eta gehitu beti aipamena.
 citing-sentences-subheader-websites = Webguneak
 citing-sentences-subheader-websites-explanation = Webgunea gehi zenezake. Adibidez: "Common Voice - https://commonvoice.mozilla.org/eu"
 citing-sentences-subheader-academic-reference = Aipamen akademikoak
