@@ -257,7 +257,6 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
   // on mount
   useEffect(() => {
     loadData().then(({ localeMessages, languageStatistics }) => {
-      console.log({ languageStatistics });
       setState(previousState => ({
         ...previousState,
         isLoading: false,

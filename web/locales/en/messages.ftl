@@ -890,7 +890,7 @@ language-section-in-progress = In Progress
 language-section-in-progress-new-description = These languages are currently under community development. <localizationGlossaryLink>Website localization</localizationGlossaryLink> and <sentenceCollectionGlossaryLink>sentence collection</sentenceCollectionGlossaryLink> is needed to launch.
 language-section-launched = Launched
 language-section-launched-description = For these launched languages the website has been successfully <localizationGlossaryLink>localized</localizationGlossaryLink>, and has enough <sentenceCollectionGlossaryLink>sentences collected</sentenceCollectionGlossaryLink> to allow for ongoing <speakLink>Speak</speakLink> and <listenLink>Listen</listenLink> contributions.
-# lastUpdatedTime is a timestamp that indicates when the language stats was last updated
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Last Updated: { $lastUpdatedTimeStamp }
 languages-show-more = See More
 languages-show-less = See Less
