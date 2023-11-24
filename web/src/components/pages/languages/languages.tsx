@@ -327,7 +327,7 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
                   vars={{
                     lastUpdatedTimeStamp: format(
                       new Date(lastUpdatedTimeStamp),
-                      'do LLL. yyy K:mmaaa'
+                      'do LLL. yyy h:mmaaa'
                     ),
                   }}
                 />
