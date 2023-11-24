@@ -44,6 +44,7 @@ const mockFetchCrossLocaleMessages = jest.fn(() => Promise.resolve([]));
 const mockFetchLanguageStats = jest.fn(() =>
   Promise.resolve(MOCK_LANGUAGE_STATS)
 );
+
 jest.mock('../../../hooks/store-hooks', () => ({
   useAPI: () => {
     return {
