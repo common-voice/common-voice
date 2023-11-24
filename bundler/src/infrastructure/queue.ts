@@ -3,10 +3,12 @@ import { taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { fetchLocalesWithClips } from '../core/locales'
 import { ProcessLocaleJob, Settings } from '../types'
-import { getRedisConfig } from '../config/config'
+import { getRedisUrl } from '../config/config'
 
 const datasetReleaseQueue = new Queue('datasetRelease', {
-  connection: getRedisConfig(),
+  connection: {
+    host: getRedisUrl(),
+  },
 })
 
 const addJob = (queue: Queue) => (job: ProcessLocaleJob) =>
