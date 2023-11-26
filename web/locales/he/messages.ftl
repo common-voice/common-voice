@@ -922,9 +922,9 @@ listen-empty-state = נגמרו לנו ההקלטות לאימות בשפה הז
 listen-loading-error =
     לא הצלחנו להשיג מקטעי שמע להאזנה.
     אנא נסו שוב מאוחר יותר.
-listen-abort-title = לסיים את אימות המקטעים?
+listen-abort-title = להפסיק עם אימות המקטעים?
 listen-abort-cancel = להמשיך באימות
-listen-abort-confirm = לסיים את האימות
+listen-abort-confirm = להפסיק את האימות
 speak-empty-state = נגמרו לנו כל המשפטים להקלטה בשפה הזו...
 speak-empty-state-cta = תרומת משפטים
 speak-loading-error =
