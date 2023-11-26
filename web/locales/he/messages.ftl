@@ -1683,6 +1683,8 @@ reviewing-sentences-explanation-1 = אם המשפט עומד בתנאים שלע
 reviewing-sentences-explanation-2 = אם המשפט לא עומד בתנאים שלעיל, יש ללחוץ על הכפתור "לא".
 reviewing-sentences-explanation-3 = אם אינכם בטוחים לגבי המשפט, באפשרותכם לדלג עליו ולעבור למשפט הבא.
 reviewing-sentences-explanation-4 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
+# WRITE PAGE
+write-instruction = הוסיפו <icon></icon> משפט המצוי בנחלת הכלל
 write-page-subtitle = משפטים שנתרמו כאן יתווספו למערך נתונים פומבי ברישיון CC0.
 sentence =
     .label = משפט
@@ -1690,6 +1692,8 @@ sentence-input-value = הזינו כאן משפט המצוי בנחלת הכלל
 citation-input-value = מקור המשפטים שלכם
 citation =
     .label = ציטוט מקור
+sc-write-submit-confirm = אני מאשר\ת כי משפט זה מצוי ב<wikipediaLink>נחלת הכלל</wikipediaLink> ויש לי רשות להעלות אותו.
+sc-review-write-title = אילו משפטים אפשר להוסיף?
 new-sentence-rule-1 = <noCopyright>ללא הגבלות על זכויות יוצרים</noCopyright> (<cc0>CC0</cc0>)
 new-sentence-rule-2 = פחות מ-15 מילים
 new-sentence-rule-3 = שימוש בדקדוק נכון
@@ -1706,9 +1710,15 @@ contact-us = יצירת קשר
 add-sentence-success = נאסף משפט אחד.
 add-sentence-error = שגיאה בהוספת המשפט
 required-field = אנא מלא שדה זה.
+single-sentence-submission = שליחת משפט בודד
+bulk-sentence-submission = שליחת כמות גדולה של משפטים
+single-sentence = משפט בודד
+bulk-sentences = כמות גדולה של משפטים
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = בדקו <icon></icon> האם אלה משפטים תקינים מבחינת השפה?
 sc-review-rules-title = האם המשפט מתאים להנחיות?
 sc-review-empty-state = כרגע אין משפטים לסקירה בשפה זו.
 report-sc-different-language = שפה אחרת
@@ -1723,8 +1733,17 @@ sc-redirect-page-subtitle-2 = שאלו אותנו שאלות ב-<matrixLink>Matr
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = העלו <icon></icon> משפטים המצויים בנחלת הכלל
+sc-bulk-upload-instruction = גררו את הקובץ הנה או <uploadButton>לחצו להעלאה</uploadButton>
+sc-bulk-upload-instruction-drop = שחררו את הקובץ כאן להעלאה
+try-upload-again = נסו מחדש לגרור את הקובץ הנה
+try-upload-again-md = נסו להעלות שוב
+select-file = בחירת קובץ
+select-file-mobile = בחירת קובץ להעלאה
+accepted-files = סוגי הקבצים המתאימים: קבצי .tsv בלבד
 upload-more-btn-text = להעלות עוד משפטים?
-file-invalid-type = הקובץ מסוג לא תקין
+file-invalid-type = הקובץ מסוג לא מתאים
 file-too-large = הקובץ גדול מידי
 file-too-small = הקובץ קטן מידי
 too-many-files = יותר מידי קבצים
