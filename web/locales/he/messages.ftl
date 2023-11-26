@@ -69,6 +69,7 @@ eo = אספרנטו
 es = ספרדית
 et = אסטונית
 eu = בסקית
+ewo = אוונדו
 fa = פרסית
 ff = פולה
 fi = פינית
@@ -870,8 +871,8 @@ language-validation-progress = אומתו
 
 ## Contribution
 
-action-click = לחיצה
-action-tap = נגיעה
+action-click = לחצו
+action-tap = לחצו
 contribute = תרומה
 listen = האזנה
 write = כתיבה
