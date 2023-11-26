@@ -614,7 +614,6 @@ about-playbook-how-add-sentences = איך אני מוסיף משפטים?
 about-playbook-how-add-sentences-content-1 = <strong>אספן המשפטים</strong> הוא כלי לאיסוף ואימות של משפטים המצויים בנחלת הכלל. תהיו צריכים <scAccountLink>ליצור חשבון</scAccountLink>. לאחר מכן, הוסיפו את השפה שלכם ב<strong>פרופיל</strong> שלכם. באפשרותכם <strong>להוסיף</strong> משפטים או <strong>לסקור</strong> משפטים שנוספו בעבר.
 about-playbook-how-add-sentences-content-2 = משפטים חייבים לעבור סקירה ולהתקבל על ידי שני אנשים כדי להיכלל ב-Common Voice. אתם יוצרים הנחיות לשפה שלכם <languageGuidelinesLink>כאן</languageGuidelinesLink>. משפטים חייבים להמצא ב<licenseLink>נחלת הכלל</licenseLink> וקצרים מ-15 מילים. אתם יכולים לבקש מהבעלים של טקסט כלשהו להפוך אותו לזמין ברשיון <waiverLink>CC0 באמצעות כתב הוויתור שלנו</waiverLink>, ולשלוח אלינו לכתובת commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = אפשר להשתמש ב<scraperLink>מחלץ המשפטים</scraperLink> כדי למנף משפטים קצרים מוויקיפדיה.
-about-playbook-how-add-sentences-content-4 = משפטים שעברו אימות מיוצאים בימי רביעי והם זמינים לאחר המהדורה הבאה.
 
 ## How to record quality
 
@@ -920,6 +919,9 @@ listen-empty-state = נגמרו לנו ההקלטות לאימות בשפה הז
 listen-loading-error =
     לא הצלחנו להשיג מקטעי שמע להאזנה.
     אנא נסו שוב מאוחר יותר.
+listen-abort-title = לסיים את אימות המקטעים?
+listen-abort-cancel = להמשיך את האימות
+listen-abort-confirm = לסיים את האימות
 speak-empty-state = נגמרו לנו כל המשפטים להקלטה בשפה הזו...
 speak-empty-state-cta = תרומת משפטים
 speak-loading-error =
@@ -1681,8 +1683,6 @@ reviewing-sentences-explanation-1 = אם המשפט עומד בתנאים שלע
 reviewing-sentences-explanation-2 = אם המשפט לא עומד בתנאים שלעיל, יש ללחוץ על הכפתור "לא".
 reviewing-sentences-explanation-3 = אם אינכם בטוחים לגבי המשפט, באפשרותכם לדלג עליו ולעבור למשפט הבא.
 reviewing-sentences-explanation-4 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
-# WRITE PAGE
-write-instruction-second-part = משפט בנחלת הכלל
 write-page-subtitle = משפטים שנתרמו כאן יתווספו למערך נתונים פומבי ברישיון CC0.
 sentence =
     .label = משפט
@@ -1690,7 +1690,6 @@ sentence-input-value = הזינו כאן משפט המצוי בנחלת הכלל
 citation-input-value = מקור המשפטים שלכם
 citation =
     .label = ציטוט מקור
-what-can-i-add = אילו סוגי משפטים ניתן להוסיף?
 new-sentence-rule-1 = <noCopyright>ללא הגבלות על זכויות יוצרים</noCopyright> (<cc0>CC0</cc0>)
 new-sentence-rule-2 = פחות מ-15 מילים
 new-sentence-rule-3 = שימוש בדקדוק נכון
@@ -1707,9 +1706,9 @@ contact-us = יצירת קשר
 add-sentence-success = נאסף משפט אחד.
 add-sentence-error = שגיאה בהוספת המשפט
 required-field = אנא מלא שדה זה.
-# REVIEW PAGE
-sc-review-instruction-first-part = בדקו
-sc-review-instruction-second-part = האם זה משפט תקין מבחינה לשונית?
+
+## REVIEW PAGE
+
 sc-review-rules-title = האם המשפט מתאים להנחיות?
 sc-review-empty-state = כרגע אין משפטים לסקירה בשפה זו.
 report-sc-different-language = שפה אחרת
@@ -1721,3 +1720,11 @@ review-error-rate-limit-exceeded = אתם זזים מהר מידי! קחו כמ�
 sc-redirect-page-title = אנו מבצעים כאן שינויים גדולים
 sc-redirect-page-subtitle-1 = אספן המשפטים עובר תחת הליבה של Common Voice. תוכלו כעת <writeURL>לכתוב</writeURL> או <reviewURL>לסקור</reviewURL> הגשות של משפטים בודדים ב-Common Voice.
 sc-redirect-page-subtitle-2 = שאלו אותנו שאלות ב-<matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> או <emailLink>בדוא"ל</emailLink>.
+
+## BULK SUBMISSION 
+
+upload-more-btn-text = להעלות עוד משפטים?
+file-invalid-type = הקובץ מסוג לא תקין
+file-too-large = הקובץ גדול מידי
+file-too-small = הקובץ קטן מידי
+too-many-files = יותר מידי קבצים
