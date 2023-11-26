@@ -79,6 +79,7 @@ ga-IE = אירית
 gl = גליסית
 gn = גוארני
 gom = קונקאני של גואה
+gu-IN = גוג'ראטית
 ha = האוסה
 he = עברית
 hi = הינדי
@@ -246,6 +247,7 @@ share-text = מזמינים אותך לסייע ללמד מכונות איך א�
 link-copied = קישור הועתק
 back-top = חזרה למעלה
 logout = התנתקות
+donate = תרומה כספית
 
 ## Home Page
 
@@ -920,7 +922,7 @@ listen-loading-error =
     לא הצלחנו להשיג מקטעי שמע להאזנה.
     אנא נסו שוב מאוחר יותר.
 listen-abort-title = לסיים את אימות המקטעים?
-listen-abort-cancel = להמשיך את האימות
+listen-abort-cancel = להמשיך באימות
 listen-abort-confirm = לסיים את האימות
 speak-empty-state = נגמרו לנו כל המשפטים להקלטה בשפה הזו...
 speak-empty-state-cta = תרומת משפטים
@@ -1711,9 +1713,9 @@ add-sentence-success = נאסף משפט אחד.
 add-sentence-error = שגיאה בהוספת המשפט
 required-field = אנא מלא שדה זה.
 single-sentence-submission = שליחת משפט בודד
-bulk-sentence-submission = שליחת כמות גדולה של משפטים
+bulk-sentence-submission = שליחת מאגד של משפטים
 single-sentence = משפט בודד
-bulk-sentences = כמות גדולה של משפטים
+bulk-sentences = מאגד משפטים
 
 ## REVIEW PAGE
 
@@ -1747,6 +1749,10 @@ what-needs-to-be-in-file = מה צריך להיות בקובץ להעלאה?
 what-needs-to-be-in-file-explanation = אנא עיינו ב<templateFileLink>קובץ התבנית</templateFileLink>. המשפטים שאתם מעלים צריכים להיות ללא טענות לזכויות יוצרים (ברשיון CC0 או עבודה מקורית שמועלית ברשות היוצרים) ולהיות נהירים, נכונים מבחינה דקדוקית ופשוטים לקריאה. צריך לקחת כ-10-15 שניות לקרוא כל משפט, ויש להימנע משילוב מספרים, שמות או תווים מיוחדים כחלק מהמשפטים.
 upload-progress-text = ההעלאה מתבצעת...
 sc-bulk-submit-confirm = אני מאשר\ת כי משפטים אלה מצויים ב<wikipediaLink>נחלת הכלל</wikipediaLink> ויש לי רשות להעלות אותם.
+bulk-upload-success-toast = מאגד המשפטים הועלה
+bulk-upload-failed-toast = ההעלאה נכשלה, אנו נסו שוב.
+bulk-submission-success-header = תודה שתרמתם את מאגד המשפטים!
+bulk-submission-success-subheader = אתם עוזרים ל-Common Voice להגיע ליעד המשפטים היומי!
 upload-more-btn-text = להעלות עוד משפטים?
 file-invalid-type = הקובץ מסוג לא מתאים
 file-too-large = הקובץ גדול מידי
