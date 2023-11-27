@@ -34,11 +34,6 @@ const config: Config = {
     storageLocalEndpoint: process.env.STORAGE_LOCAL_DEVELOPMENT_ENDPOINT || 'http://storage:8080',
 }
 
-export const getRedisConfig = () =>
-  getEnvironment() === 'local'
-    ? { host: getRedisUrl() }
-    : { host: getRedisUrl(), tls: { host: getRedisUrl() } }
-
 const getStorageLocalEndpoint_ = (config: Config): IO.IO<string> => () => config.storageLocalEndpoint
 const getEnvironment_ = (config: Config): IO.IO<string> => () => config.environment
 const getQueriesDir_: IO.IO<string> = () => path.join(__dirname, '..', '..', 'queries')
