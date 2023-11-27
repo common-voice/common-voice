@@ -866,6 +866,8 @@ language-section-in-progress = Σε εξέλιξη
 language-section-in-progress-new-description = Αυτές οι γλώσσες αναπτύσσονται προς το παρόν από την κοινότητα. Οι γραμμές προόδου δείχνουν σε ποιο στάδιο έχει φτάσει κάθε γλώσσα, όσον αφορά τη <localizationGlossaryLink>μετάφραση του ιστοτόπου</localizationGlossaryLink> και τη <sentenceCollectionGlossaryLink>συλλογή προτάσεων</sentenceCollectionGlossaryLink>.
 language-section-launched = Σε λειτουργία
 language-section-launched-description = Για αυτές τις εν λειτουργία γλώσσες, ο ιστότοπος έχει <localizationGlossaryLink>μεταφραστεί</localizationGlossaryLink> επιτυχώς και έχει αρκετές <sentenceCollectionGlossaryLink>συλλεγμένες προτάσεις</sentenceCollectionGlossaryLink> για να είναι η δυνατή η συνεχής συνεισφορά <speakLink>ομιλίας</speakLink> και <listenLink>ακρόασης</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Τελευταία ενημέρωση: { $lastUpdatedTimeStamp }
 languages-show-more = Προβολή περισσότερων
 languages-show-less = Προβολή λιγότερων
 language-meter-in-progress = Πρόοδος
