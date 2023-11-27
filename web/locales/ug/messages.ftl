@@ -858,6 +858,8 @@ language-section-in-progress = ئىلگىرىلەش
 language-section-in-progress-new-description = نۆۋەتتە بۇ تىللار جامائەت ئىجادىيەت باسقۇچىدا تۇرۇۋاتىدۇ. بۇلار ھەر قايسى تىللارنىڭ <localizationGlossaryLink>تور بېكەتنى يەرلىكلەشتۈرۈش</localizationGlossaryLink> شۇنداقلا <sentenceCollectionGlossaryLink>جۈملە يىغىش</sentenceCollectionGlossaryLink> ئەھۋالىنى كۆرسىتىدۇ.
 language-section-launched = ئېلان قىلىندى
 language-section-launched-description = ئېلان قىلىنغان تىللارنىڭ تور بىتى مۇۋەپپەقىيەتلىك ھالدا <localizationGlossaryLink> يەرلىكلەشتۈرۈلگەن </localizationGlossaryLink>، شۇنداقلا يېتەرلىك  <sentenceCollectionGlossaryLink>توپلانغان جۈملىلىرى</sentenceCollectionGlossaryLink> بولسا <speakLink>سۆزلەپ</speakLink> ۋە <listenLink>ئاڭلاپ</listenLink> تۆھپە قوشۇش باسقۇچىغا ئىلگىرىلىيەلەيدۇ.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = ئاخىرقى يېڭىلانغان ۋاقتى: { $lastUpdatedTimeStamp }
 languages-show-more = تەپسىلاتى
 languages-show-less = ئاز كۆرسەت
 language-meter-in-progress = ئىلگىرىلەش
