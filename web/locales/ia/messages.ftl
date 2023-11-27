@@ -861,6 +861,8 @@ language-section-in-progress = In curso
 language-section-in-progress-new-description = Iste linguas es actualmente sub disveloppamento de communitate. Le barras de progresso indica le avantiamento de cata lingua in le processo de <localizationGlossaryLink>localisation del sito web </localizationGlossaryLink> e <sentenceCollectionGlossaryLink>collection de phrases</sentenceCollectionGlossaryLink>.
 language-section-launched = Lanceate
 language-section-launched-description = Le sito web ha essite <localizationGlossaryLink>localisate</localizationGlossaryLink> con successo pro iste linguas lanceate, e il ha satis <sentenceCollectionGlossaryLink>phrases colligite</sentenceCollectionGlossaryLink> pro permitter le contributiones continue de <speakLink>Parlar</speakLink> e <listenLink>Ascoltar</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Ultime actualisation: { $lastUpdate }
 languages-show-more = Vider plus
 languages-show-less = Vider minus
 language-meter-in-progress = Progresso
