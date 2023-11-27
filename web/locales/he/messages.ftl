@@ -69,6 +69,7 @@ eo = אספרנטו
 es = ספרדית
 et = אסטונית
 eu = בסקית
+ewo = אוונדו
 fa = פרסית
 ff = פולה
 fi = פינית
@@ -79,6 +80,7 @@ ga-IE = אירית
 gl = גליסית
 gn = גוארני
 gom = קונקאני של גואה
+gu-IN = גוג'ראטית
 ha = האוסה
 he = עברית
 hi = הינדי
@@ -246,6 +248,7 @@ share-text = מזמינים אותך לסייע ללמד מכונות איך א�
 link-copied = קישור הועתק
 back-top = חזרה למעלה
 logout = התנתקות
+donate = תרומה כספית
 
 ## Home Page
 
@@ -614,7 +617,6 @@ about-playbook-how-add-sentences = איך אני מוסיף משפטים?
 about-playbook-how-add-sentences-content-1 = <strong>אספן המשפטים</strong> הוא כלי לאיסוף ואימות של משפטים המצויים בנחלת הכלל. תהיו צריכים <scAccountLink>ליצור חשבון</scAccountLink>. לאחר מכן, הוסיפו את השפה שלכם ב<strong>פרופיל</strong> שלכם. באפשרותכם <strong>להוסיף</strong> משפטים או <strong>לסקור</strong> משפטים שנוספו בעבר.
 about-playbook-how-add-sentences-content-2 = משפטים חייבים לעבור סקירה ולהתקבל על ידי שני אנשים כדי להיכלל ב-Common Voice. אתם יוצרים הנחיות לשפה שלכם <languageGuidelinesLink>כאן</languageGuidelinesLink>. משפטים חייבים להמצא ב<licenseLink>נחלת הכלל</licenseLink> וקצרים מ-15 מילים. אתם יכולים לבקש מהבעלים של טקסט כלשהו להפוך אותו לזמין ברשיון <waiverLink>CC0 באמצעות כתב הוויתור שלנו</waiverLink>, ולשלוח אלינו לכתובת commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = אפשר להשתמש ב<scraperLink>מחלץ המשפטים</scraperLink> כדי למנף משפטים קצרים מוויקיפדיה.
-about-playbook-how-add-sentences-content-4 = משפטים שעברו אימות מיוצאים בימי רביעי והם זמינים לאחר המהדורה הבאה.
 
 ## How to record quality
 
@@ -869,8 +871,8 @@ language-validation-progress = אומתו
 
 ## Contribution
 
-action-click = לחיצה
-action-tap = נגיעה
+action-click = לחצו
+action-tap = לחצו
 contribute = תרומה
 listen = האזנה
 write = כתיבה
@@ -920,6 +922,9 @@ listen-empty-state = נגמרו לנו ההקלטות לאימות בשפה הז
 listen-loading-error =
     לא הצלחנו להשיג מקטעי שמע להאזנה.
     אנא נסו שוב מאוחר יותר.
+listen-abort-title = להפסיק עם אימות המקטעים?
+listen-abort-cancel = להמשיך באימות
+listen-abort-confirm = להפסיק את האימות
 speak-empty-state = נגמרו לנו כל המשפטים להקלטה בשפה הזו...
 speak-empty-state-cta = תרומת משפטים
 speak-loading-error =
@@ -1682,7 +1687,7 @@ reviewing-sentences-explanation-2 = אם המשפט לא עומד בתנאים �
 reviewing-sentences-explanation-3 = אם אינכם בטוחים לגבי המשפט, באפשרותכם לדלג עליו ולעבור למשפט הבא.
 reviewing-sentences-explanation-4 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
 # WRITE PAGE
-write-instruction-second-part = משפט בנחלת הכלל
+write-instruction = הוסיפו <icon></icon> משפט המצוי בנחלת הכלל
 write-page-subtitle = משפטים שנתרמו כאן יתווספו למערך נתונים פומבי ברישיון CC0.
 sentence =
     .label = משפט
@@ -1690,7 +1695,8 @@ sentence-input-value = הזינו כאן משפט המצוי בנחלת הכלל
 citation-input-value = מקור המשפטים שלכם
 citation =
     .label = ציטוט מקור
-what-can-i-add = אילו סוגי משפטים ניתן להוסיף?
+sc-write-submit-confirm = אני מאשר\ת כי משפט זה מצוי ב<wikipediaLink>נחלת הכלל</wikipediaLink> ויש לי רשות להעלות אותו.
+sc-review-write-title = אילו משפטים אפשר להוסיף?
 new-sentence-rule-1 = <noCopyright>ללא הגבלות על זכויות יוצרים</noCopyright> (<cc0>CC0</cc0>)
 new-sentence-rule-2 = פחות מ-15 מילים
 new-sentence-rule-3 = שימוש בדקדוק נכון
@@ -1707,9 +1713,15 @@ contact-us = יצירת קשר
 add-sentence-success = נאסף משפט אחד.
 add-sentence-error = שגיאה בהוספת המשפט
 required-field = אנא מלא שדה זה.
-# REVIEW PAGE
-sc-review-instruction-first-part = בדקו
-sc-review-instruction-second-part = האם זה משפט תקין מבחינה לשונית?
+single-sentence-submission = שליחת משפט בודד
+bulk-sentence-submission = שליחת מאגד של משפטים
+single-sentence = משפט בודד
+bulk-sentences = מאגד משפטים
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = בדקו <icon></icon> האם אלה משפטים תקינים מבחינת השפה?
 sc-review-rules-title = האם המשפט מתאים להנחיות?
 sc-review-empty-state = כרגע אין משפטים לסקירה בשפה זו.
 report-sc-different-language = שפה אחרת
@@ -1721,3 +1733,29 @@ review-error-rate-limit-exceeded = אתם זזים מהר מידי! קחו כמ�
 sc-redirect-page-title = אנו מבצעים כאן שינויים גדולים
 sc-redirect-page-subtitle-1 = אספן המשפטים עובר תחת הליבה של Common Voice. תוכלו כעת <writeURL>לכתוב</writeURL> או <reviewURL>לסקור</reviewURL> הגשות של משפטים בודדים ב-Common Voice.
 sc-redirect-page-subtitle-2 = שאלו אותנו שאלות ב-<matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> או <emailLink>בדוא"ל</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = העלו <icon></icon> משפטים המצויים בנחלת הכלל
+sc-bulk-upload-instruction = גררו את הקובץ הנה או <uploadButton>לחצו להעלאה</uploadButton>
+sc-bulk-upload-instruction-drop = שחררו את הקובץ כאן להעלאה
+try-upload-again = נסו מחדש לגרור את הקובץ הנה
+try-upload-again-md = נסו להעלות שוב
+select-file = בחירת קובץ
+select-file-mobile = בחירת קובץ להעלאה
+accepted-files = סוגי הקבצים המתאימים: קבצי .tsv בלבד
+maximum-file-size = גודל מירבי של הקובץ: 25 מגה-בית
+what-needs-to-be-in-file = מה צריך להיות בקובץ להעלאה?
+what-needs-to-be-in-file-explanation = אנא עיינו ב<templateFileLink>קובץ התבנית</templateFileLink>. המשפטים שאתם מעלים צריכים להיות ללא טענות לזכויות יוצרים (ברשיון CC0 או עבודה מקורית שמועלית ברשות היוצרים) ולהיות נהירים, נכונים מבחינה דקדוקית ופשוטים לקריאה. צריך לקחת כ-10-15 שניות לקרוא כל משפט, ויש להימנע משילוב מספרים, שמות או תווים מיוחדים כחלק מהמשפטים.
+upload-progress-text = ההעלאה מתבצעת...
+sc-bulk-submit-confirm = אני מאשר\ת כי משפטים אלה מצויים ב<wikipediaLink>נחלת הכלל</wikipediaLink> ויש לי רשות להעלות אותם.
+bulk-upload-success-toast = מאגד המשפטים הועלה
+bulk-upload-failed-toast = ההעלאה נכשלה, אנו נסו שוב.
+bulk-submission-success-header = תודה שתרמתם את מאגד המשפטים!
+bulk-submission-success-subheader = אתם עוזרים ל-Common Voice להגיע ליעד המשפטים היומי!
+upload-more-btn-text = להעלות עוד משפטים?
+file-invalid-type = הקובץ מסוג לא מתאים
+file-too-large = הקובץ גדול מידי
+file-too-small = הקובץ קטן מידי
+too-many-files = יותר מידי קבצים

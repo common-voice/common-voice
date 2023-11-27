@@ -16,6 +16,8 @@ import {
 } from '../infrastructure/corporaCreator'
 import { CLIPS_TSV_ROW } from './clips'
 import { AppEnv } from '../types'
+import { uploadToBucket } from '../infrastructure/storage'
+import { getDatasetBundlerBucketName } from '../config/config'
 
 type Stats = {
   locales: Locales
@@ -255,6 +257,7 @@ export const statsPipeline = (
   totalDurationInMs: number,
   tarFilepath: string,
   releaseDirPath: string,
+  releaseName: string,
 ) =>
   pipe(
     TE.Do,
@@ -268,6 +271,13 @@ export const statsPipeline = (
       mergeStats(locale, stats, statCounts, checksum, fileSize),
     ),
     TE.map(calculateDurations(locale)(totalDurationInMs)),
+    TE.bindTo('stats'),
+    TE.chainFirst(({ stats }) =>
+      uploadToBucket(getDatasetBundlerBucketName())(
+        `${releaseName}/stats/stats_${locale}.json`,
+      )(Buffer.from(JSON.stringify(stats))),
+    ),
+    TE.map(({ stats }) => stats),
   )
 
 export const runStats = (
@@ -276,7 +286,13 @@ export const runStats = (
 ): RTE.ReaderTaskEither<AppEnv, Error, Stats> =>
   pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale, releaseDirPath }) =>
-      statsPipeline(locale, totalDurationInMs, tarFilepath, releaseDirPath),
+    RTE.chainTaskEitherK(({ locale, releaseDirPath, releaseName }) =>
+      statsPipeline(
+        locale,
+        totalDurationInMs,
+        tarFilepath,
+        releaseDirPath,
+        releaseName,
+      ),
     ),
   )

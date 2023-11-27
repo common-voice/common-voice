@@ -1,7 +1,10 @@
 ## Languages
 
 contribute = Akaaliijaa
+get-involved-button = Ee pia sünain
 get-involved-title = A'yataa sünain { $lang }
+get-involved-text = Analu'ulu pümüin saa'u pi'yataain sünain { $lang }. A'yataashi waya shii'iree eeinjatüin supushuwa'a tü anüikikalüirua süpülapünaa sujutalaain sukuwa'ipa otta müsia süpüla waapirüin süka imeeirü nala a'yataashikana sünain. Müleka ejeere paa'in sünain, paa'inraa analu'ulu puluwataa wamüin sünülia tü imeeirü eekalü püma'ana yaapüna yaa.
+get-involved-form-title = Püshajaa pünülia süpüla aapitnüin pia saa'ujee { $lang }:
 get-involved-email =
     .label = Imeeirü
 get-involved-opt-in = Aa, puluwataa imeeirü tamüin. Tatüjee aa'u jamüirüin saa'in sukuwa'ipa tü anüikika tüü sulu'u Common Voice.

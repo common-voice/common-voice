@@ -53,6 +53,7 @@ services:
       - voice-web
     ports:
       - 9001:9001
+    command: bash -c "npm ci && npm run build && npm start"
   web:
     build:
       context: .

@@ -3,6 +3,7 @@ import { io as IO, taskEither as TE } from 'fp-ts'
 import { pipe, constVoid } from 'fp-ts/lib/function'
 import { processLocale } from './processor'
 import { addProcessLocaleJobs } from '../infrastructure/queue'
+import { getRedisUrl } from '../config/config'
 
 export const createWorker: IO.IO<void> = () => {
   const worker = new Worker(
@@ -26,7 +27,7 @@ export const createWorker: IO.IO<void> = () => {
     },
     {
       connection: {
-        host: 'redis',
+        host: getRedisUrl(),
       },
     },
   )
