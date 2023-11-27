@@ -863,6 +863,8 @@ language-section-in-progress = Vorbereitungsphase
 language-section-in-progress-new-description = Diese Sprachen werden derzeit durch die Gemeinschaft entwickelt. Die Fortschrittsbalken zeigen an, wie weit bei den einzelnen Sprachen die <localizationGlossaryLink>Website-Lokalisierung</localizationGlossaryLink> und die <sentenceCollectionGlossaryLink>Sammlung von Sätzen</sentenceCollectionGlossaryLink> umgesetzt wurde.
 language-section-launched = Aufnahmephase
 language-section-launched-description = Für diese aktiven Sprachen wurde die Website erfolgreich <localizationGlossaryLink>lokalisiert</localizationGlossaryLink>, und es wurden ausreichend <satzCollectionGlossaryLink>Sätze gesammelt</satzCollectionGlossaryLink>, damit weiterhin Beiträge <speakLink>gesprochen</speakLink> und <listenLink>angehört</listenLink> werden können.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Letzte Aktualisierung: { $lastUpdatedTimeStamp }
 languages-show-more = Mehr anzeigen
 languages-show-less = Weniger anzeigen
 language-meter-in-progress = Fortschritt
