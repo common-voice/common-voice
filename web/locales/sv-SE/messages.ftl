@@ -869,6 +869,8 @@ language-section-in-progress = Pågående
 language-section-in-progress-new-description = Dessa språk är för närvarande under utveckling. Förloppsindikatorn visar hur långt varje språk är i färd med <localizationGlossaryLink> webbplatsöversättning</localizationGlossaryLink> och <sentenceCollectionGlossaryLink>insamling av meningar</sentenceCollectionGlossaryLink>.
 language-section-launched = Lanserad
 language-section-launched-description = För dessa lanserade språk har webbplatsen blivit <localizationGlossaryLink>översatt</localizationGlossaryLink> och har tillräckligt med <sentenceCollectionGlossaryLink>meningar insamlade</sentenceCollectionGlossaryLink> för att tillåta bidrag för <talkLink>Röst</speakLink> och <listenLink>Lyssna</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Senast uppdaterad: { $lastUpdatedTimeStamp }
 languages-show-more = Visa mer
 languages-show-less = Visa mindre
 language-meter-in-progress = Förlopp
