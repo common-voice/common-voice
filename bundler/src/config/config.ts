@@ -11,6 +11,7 @@ export type DbConfig = {
 
 export type Config = {
     environment: string
+    redisUrl: string
     dbConfig: DbConfig
     clipsBucketName: string,
     datasetBundlerBucketName: string
@@ -20,6 +21,7 @@ export type Config = {
 
 const config: Config = {
     environment: process.env.ENVIRONMENT || 'local',
+    redisUrl: process.env.REDIS_URL || 'redis',
     dbConfig: {
         host: process.env.DB_HOST || 'db',
         port: Number(process.env.DB_PORT) || 3306,
@@ -38,8 +40,10 @@ const getQueriesDir_: IO.IO<string> = () => path.join(__dirname, '..', '..', 'qu
 const getDbConfig_ = (config: Config): IO.IO<DbConfig> => () => config.dbConfig 
 const getClipsBucketName_ = (config: Config): IO.IO<string> => () => config.clipsBucketName 
 const getDatasetBundlerBucketName_ = (config: Config): IO.IO<string> => () => config.datasetBundlerBucketName
+const getRedisUrl_ = (config: Config): IO.IO<string> => () => config.redisUrl
 
 export const getQueriesDir = getQueriesDir_
+export const getRedisUrl = getRedisUrl_(config)
 export const getStorageLocalEndpoint = getStorageLocalEndpoint_(config)
 export const getEnvironment = getEnvironment_(config)
 export const getDbConfig = getDbConfig_(config)

@@ -865,6 +865,8 @@ language-section-in-progress = მუშავდება
 language-section-in-progress-new-description = მოცემული ენები მუშავდება ერთობის მიერ. მიმდინარე მდგომარეობის ზოლები აჩვენებს, თუ საიტის რა ნაწილია <localizationGlossaryLink>გადათარგმნილი</localizationGlossaryLink> და რა რაოდენობის <sentenceCollectionGlossaryLink>წინადადებაა შეგროვებული</sentenceCollectionGlossaryLink>.
 language-section-launched = გაშვებულია
 language-section-launched-description = მოცემულ ენებზე ვებსაიტი სრულადაა <localizationGlossaryLink>თარგმნილი</localizationGlossaryLink> და <sentenceCollectionGlossaryLink>წინადადებებიც საკმარისადაა </sentenceCollectionGlossaryLink>შეგროვებული ხმის <speakLink>ჩაწერისა</speakLink> და ჩანაწერების <listenLink>მოსმენისთვის</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = ბოლო განახლება: { $lastUpdatedTimeStamp }
 languages-show-more = ვრცლად
 languages-show-less = შემოკლებულად
 language-meter-in-progress = მიმდინარეობა

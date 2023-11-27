@@ -4,6 +4,8 @@ RUN apt-get update && \
     apt-get install python3-pip vim -y && \
     pip3 install --upgrade setuptools
 
+RUN groupmod -g 10001 node && usermod -u 10001 -g 10001 node
+
 USER node
 
 RUN mkdir -p /home/node/code && \
@@ -17,6 +19,7 @@ RUN mkdir -p /home/node/code && \
     /home/node/.cargo/bin/cargo install --path .
 
 ENV PATH "$PATH:/home/node/.local/bin/:/home/node/.cargo/bin"
+ENV npm_config_cache "/home/node/"
 
 WORKDIR /home/node/code
 
