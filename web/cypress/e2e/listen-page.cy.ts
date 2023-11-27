@@ -1,5 +1,4 @@
 describe('The Listen Page', () => {
-  // TODO: create clips before running tests?
   it('successfully loads', () => {
     cy.visit('/listen')
 
