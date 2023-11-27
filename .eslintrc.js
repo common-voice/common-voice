@@ -4,6 +4,7 @@ module.exports = {
     node: true,
     browser: true,
     es2021: true,
+    es2023: true
   },
   plugins: ['import', '@typescript-eslint', 'react', 'react-hooks', 'jsx-a11y'],
   extends: [
