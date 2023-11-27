@@ -103,7 +103,7 @@ jbo = Lojbana
 jv = Javera
 ka = Georgiera
 kaa = Karakalpaka
-kab = Kabylera
+kab = Kabiliera
 kbd = Kabardinoa
 ki = Kikuyua
 kk = Kazakhera
@@ -1282,7 +1282,7 @@ sc-howto-findpd-tips-1 = Bila ditzakezun iturririk onenak podcastak, transkripzi
 sc-howto-findpd-tips-2 = Gobernuaren izapideak, liburuak eta artikuluak ere bikainak dira, hala ere, testua apur bat formalagoa izan ohi denez, lehentasun gutxiago dute.
 sc-howto-findpd-tips-3 = Zoritxarrez oraindik ezin dugu Wikimediako artikulurik izan. Beraz, ez kopiatu itsatsi hortik.
 sc-howto-findpd-subtitle-2 = Tokiko erakunde edo norbanakoekin elkartu
-sc-howto-findpd-partner-1 = Elkarlanean aritzeko prest egon daitezkeen erakunde publiko asko daude, domeinu publiko gisa eman ditzaketen testu asko dagoeneko izan ditzaketenak. Jarri harremanetan tokiko unibertsitate, Gobernu eta kode irekiko erakundeekin proiektuari buruz hitz egiteko eta haien laguntza eskatzeko.
+sc-howto-findpd-partner-1 = Elkarlanean aritzeko prest egon daitezkeen erakunde publiko asko daude, jabetza publiko gisa eman ditzaketen testu asko dagoeneko izan ditzaketenak. Jarri harremanetan tokiko unibertsitate, Gobernu eta kode irekiko erakundeekin proiektuari buruz hitz egiteko eta haien laguntza eskatzeko.
 sc-howto-findpd-partner-2 = Hizkuntzalari adituek ere lagun dezakete, saiatu tokiko unibertsitate linguistikoak kontaktatzen (irakasleak zein ikasleak) eta ea zure hizkuntzan soinu askotako esaldi multzo bat biltzen lagun dezaketen.
 
 ## MY SENTENCES
@@ -1333,7 +1333,7 @@ sc-submit-add-sentences = Gehitu <wikipediaLink>jabetza publikoan</wikipediaLink
 sc-submit-ph-one-per-line =
     .placeholder = Esaldi bat lerro bakoitzeko
 sc-submit-from-where = <wikipediaLink>Jabetza publikoko</wikipediaLink> esaldi hauek nongoak dira?
-sc-submit-confirm = Esaldi hauek <wikipediaLink>domeinu publikoan</wikipediaLink> daudela eta berauok kargatzeko baimena dudala baieztatzen dut.
+sc-submit-confirm = Esaldi hauek <wikipediaLink>jabetza publikoan</wikipediaLink> daudela eta berauok igotzeko baimena dudala baieztatzen dut.
 sc-submit-button =
     .submitText = Bidali
 
@@ -1586,6 +1586,8 @@ public-domain = Jabetza publikoa
 citing-sentences = Esaldien aipamenak egiten
 adding-sentences = Esaldiak gehitzen
 reviewing-sentences = Esaldiak berrikusten
+public-domain-explanation-1 = Oso garrantzitsua da testu-esaldi guztiak <publicDomain>jabetza publikoan</publicDomain> (<cc0>CC0</cc0>) izatea, Common Voice datu-sorta CC0 lizentziapean kaleratzen baita. Igo esaldia bakarrik ziur bazaude, eta gehitu beti aipamena.
+public-domain-explanation-2 = Hizketaren ezagutzarako motor erabilgarri bat sortzeko esaldirik onenak, hizkera modernoa eta lagunartekoa dutenak dira. Hona hemen esaldiak sortzen laguntzeko ideia batzuk:
 citing-sentences-subheader-websites = Webguneak
 citing-sentences-subheader-websites-explanation = Webgunea gehi zenezake. Adibidez: "Common Voice - https://commonvoice.mozilla.org/eu"
 citing-sentences-subheader-academic-reference = Aipamen akademikoak
@@ -1617,6 +1619,7 @@ sentence-input-value = Sartu jabetza publikoko zure esaldia hemen
 citation-input-value = Zure esaldiaren iturria
 citation =
     .label = Aipua
+sc-write-submit-confirm = Esaldi hau <wikipediaLink>jabetza publikoan</wikipediaLink> dagoela eta berau igotzeko baimena dudala baieztatzen dut.
 new-sentence-rule-1 = <noCopyright>Copyright gabekoak</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = 15 hitz baino gutxiago
 new-sentence-rule-3 = Akats gramatikorik ez
@@ -1625,9 +1628,11 @@ new-sentence-rule-5 = Zenbakirik eta karaktere berezirik ez
 new-sentence-rule-6 = Atzerriko hizkirik ez
 new-sentence-rule-7 = Gehitu aipu egoki bat
 new-sentence-rule-8 = Naturala eta lagunartekoa (irakurterraza)
+how-to-cite = Nola egin aipuak?
 how-to-cite-explanation-bold = URL esteka batekin aipatu edo lanaren izen osoarekin.
-how-to-cite-explanation = Zure hitzak badira, <italicizedText>“Norberaren aipua”</italicizedText> jarri. Eduki hau non aurkitu duzun jakin beharra dugu berau jabetza publikoan dagoela eta copyright murriztapenik ez dagokiola egiaztatzeko. Aipuak egiteko azalpen gehiago ditugu gure <guidelinesLink>Parte-hartze gidalerroetan</guidelinesLink>.
+how-to-cite-explanation = Zure hitzak badira, <italicizedText>“Norberaren aipua”</italicizedText> jarri. Eduki hau non aurkitu duzun jakin beharra dugu berau jabetza publikoan dagoela eta copyright murriztapenik ez dagokiola egiaztatzeko. Aipuak egiteko azalpen gehiago ditugu gure <guidelinesLink>parte-hartze gidalerroetan</guidelinesLink>.
 guidelines = Gidalerroak
+contact-us = Jarri gurekin harremanetan
 add-sentence-success = Esaldi 1 bilduta
 add-sentence-error = Errorea esaldia gehitzean
 
@@ -1642,3 +1647,4 @@ sc-redirect-page-title = Zenbait aldaketa handi egiten ari gara
 
 ## BULK SUBMISSION 
 
+sc-bulk-submit-confirm = Esaldi hauek <wikipediaLink>jabetza publikoan</wikipediaLink> daudela eta berauok igotzeko baimena dudala baieztatzen dut.
