@@ -1090,6 +1090,7 @@ partnerships-header = צאמשטעלונגען
 partnerships-header-text = עס נעמט אסאך צו מאכן קאמאן וואויס געשען! מיר טוען עס נישט אליין. ווילט איר זיך צאמשטעלן מיט אונז? מיר וועלן זיך פרייען צו הערן פון אייך.
 partnerships-get-in-touch = פארבינדט אייך
 partnerships-governments-header = רעגירונגען
+partnerships-our-partners = אונזערע שותפים
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = א דאנק פארן ביישטייערן אייער שטימע קליפס!
 first-cta-subtitle-text = וואלט איר געוואלט מיטטיילן אביסל אינפארמאציע איבער וויאזוי איר רעדט?
