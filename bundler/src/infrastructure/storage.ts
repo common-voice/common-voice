@@ -37,14 +37,6 @@ const streamUpload =
     )
   }
 
-const crc32 =
-  (storage: Storage) =>
-  (data: Buffer): string => {
-    const crc23c = storage.crc32cGenerator()
-    crc23c.update(data)
-    return crc23c.toString()
-  }
-
 const upload =
   (storage: Storage) =>
   (bucket: string) =>
@@ -93,9 +85,22 @@ const streamDownloadFile =
     return storage.bucket(bucket).file(path).createReadStream()
   }
 
+const fileExists =
+  (storage: Storage) =>
+  (bucket: string) =>
+  (path: string): TE.TaskEither<Error, boolean> => {
+    return TE.tryCatch(
+      async () => {
+        const [exists] = await storage.bucket(bucket).file(path).exists()
+        return exists
+      },
+      (err: unknown) => Error(String(err)),
+    )
+  }
+
 export const streamUploadToBucket = streamUpload(storage)
 export const uploadToBucket = upload(storage)
 export const getMetadataFromFile = getMetadata(storage)
 export const downloadFileFromBucket = downloadFile(storage)
 export const streamDownloadFileFromBucket = streamDownloadFile(storage)
-export const crc23cStorage = crc32(storage)
+export const doesFileExistInBucket = fileExists(storage)
