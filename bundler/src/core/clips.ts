@@ -86,8 +86,7 @@ const transformClips = (isMinorityLanguage: boolean) =>
 /**
  * Downloads the clips as they come in and saves them in clips
  * directory: `releaseName/locale/clips/`. Passes the unaltered result
- * from the previous stream to the next. If the clip does not exist in the
- * storage, it is omitted from the final result.
+ * from the previous stream to the next.
  *
  * @remarks
  *
@@ -96,21 +95,31 @@ const transformClips = (isMinorityLanguage: boolean) =>
 const downloadClips = (releaseDirPath: string) =>
   new Transform({
     transform(chunk: ClipRow, encoding, callback) {
+      const newFilepath = createClipFilename(chunk.locale, chunk.id)
+      const writeStream = fs.createWriteStream(
+        path.join(releaseDirPath, chunk.locale, 'clips', newFilepath),
+      )
+
+      streamDownloadFileFromBucket(CLIPS_BUCKET)(chunk.path)
+        .pipe(writeStream)
+        .on('finish', () => {
+          this.push(chunk, encoding)
+          callback()
+        })
+    },
+    objectMode: true,
+  })
+
+const checkClipForExistence = () =>
+  new Transform({
+    transform(chunk: ClipRow, encoding, callback) {
       pipe(
         doesFileExistInBucket(CLIPS_BUCKET)(chunk.path),
         TE.getOrElse(() => T.of(false)),
       )().then(doesExist => {
         if (doesExist) {
-          const newFilepath = createClipFilename(chunk.locale, chunk.id)
-          const writeStream = fs.createWriteStream(
-            path.join(releaseDirPath, chunk.locale, 'clips', newFilepath),
-          )
-          streamDownloadFileFromBucket(CLIPS_BUCKET)(chunk.path)
-            .pipe(writeStream)
-            .on('finish', () => {
-              this.push(chunk, encoding)
-              callback()
-            })
+          this.push(chunk, encoding)
+          callback()
         } else {
           console.log(`Skipping file ${chunk.path}`)
           callback()
@@ -140,6 +149,7 @@ const fetchAllClipsForLocale = (
         )
         console.log('Start Stream Processing')
         stream
+          .pipe(checkClipForExistence())
           .pipe(downloadClips(releaseDirPath))
           .pipe(transformClips(isMinorityLanguage))
           .pipe(writeFileStreamToTsv(locale, releaseDirPath))
