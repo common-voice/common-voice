@@ -589,6 +589,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                     ].join(' ')}
                     disabled={!this.isDone}
                     type="submit"
+                    data-testid="submit-button"
                   />
                 </Localized>
               </form>
