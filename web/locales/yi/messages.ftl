@@ -716,7 +716,7 @@ language-section-in-progress-new-description = דער שפרייכן זענען 
 language-section-launched = ארויסגעשטעלטע
 language-section-launched-description = פאר די דאזיגע ארויסגעשטעלטע שפרייכן איז די וועבזייטל שוין געווארן <localizationGlossaryLink>לאקאליזירט</localizationGlossaryLink>, און האט שוין גענוג <sentenceCollectionGlossaryLink>זאצן געזאמלט</sentenceCollectionGlossaryLink> צו ערלויבן אנגייענדיגע <speakLink>רעדן</speakLink> און <listenLink>הערן</listenLink> ביישטייערונגען.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
-language-section-last-updated = לעצט פאראכטן: { $lastUpdatedTimeStamp }
+language-section-last-updated = לעצט איבערגעפרישט: { $lastUpdatedTimeStamp }
 languages-show-more = זעט מער
 languages-show-less = זעט ווייניגער
 language-meter-in-progress = פארשריט
