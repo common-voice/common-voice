@@ -866,16 +866,16 @@ language-meter-in-progress = ئىلگىرىلەش
 language-total-progress = ئومۇمىي
 language-search-input =
     .placeholder = ئىزدە
-language-speakers = سۆزلىگۈچىلەر
+language-speakers = سۆزلىگۈچى
 localized = يەرلىكلەشتۈرۈلگەن
-sentences = جۈملىلەر
+sentences = جۈملە
 language-validation-hours = سائەت
 language-validation-progress = دەلىللەشنىڭ ئىلگىرىلىشى
 
 ## Contribution
 
 action-click = چېكىڭ
-action-tap = Tap
+action-tap = نوقۇڭ
 contribute = تۆھپە قوشاي
 listen = ئاڭلاي
 write = يازاي
