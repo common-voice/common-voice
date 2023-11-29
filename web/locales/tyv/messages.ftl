@@ -10,6 +10,9 @@ submit-form-action = Бараалгадыр
 loading = Чүдүртүнүп турар...
 email-opt-in-info = Сорулгазын сагындырган, мээң бурунгаар шимчээшкиним сагындырган дугайында база Common Voice дугайында медээлерни электроннуг почтамче алыксап тур мен.
 email-opt-in-info-title = Common Voice-туң чагаа тарадыр ниити даңзызынга катчыр
+email-opt-in-info-sub-with-challenge = Челленджтер, сорулгалар дугайында сагындырыглар, чедиишкиннер дугайында дыңнадыглар болгаш Common Voice дугайында медээлер дээн чижектиг чагааларны алыр.
+email-opt-in-privacy-v2 = Чагаалар алыр деп чөпшээрешкеш, Mozilla ол информацияны Mozilla-ның <privacyLink>Чажыт болурунуң политиказы</privacyLink> дамчыштыр хынап турар дээрзинге чөпшээрежип турар силер.
+indicates-required = * ыяап долдурар ужурлуг шөлдер
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -121,6 +124,9 @@ email-opt-in-info-title = Common Voice-туң чагаа тарадыр ниит
 ## Contribution
 
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 
@@ -214,4 +220,10 @@ email-opt-in-info-title = Common Voice-туң чагаа тарадыр ниит
 
 
 # [/SentenceCollector]
+
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
 
