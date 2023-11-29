@@ -44,8 +44,9 @@ const insertBulkSubmission =
   (db: Mysql) => (bulkSubmission: BulkSubmission) => {
     return TE.tryCatch(
       async () => {
+        const [[statusNew]] = await db.query('SELECT id from bulk_submission_status WHERE status = \'new\'')
         await db.query(createInsertQuery(), [
-          `(SELECT id from bulk_submission_status WHERE status = 'open')`,
+          statusNew.id,
           bulkSubmission.localeId,
           bulkSubmission.size,
           bulkSubmission.path,
