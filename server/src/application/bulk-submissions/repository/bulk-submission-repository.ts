@@ -44,7 +44,6 @@ const insertBulkSubmission =
   (db: Mysql) => (bulkSubmission: BulkSubmission) => {
     return TE.tryCatch(
       async () => {
-
         await db.query(createInsertQuery(), [
           `(SELECT id from bulk_submission_status WHERE status = 'open')`,
           bulkSubmission.localeId,
@@ -57,7 +56,10 @@ const insertBulkSubmission =
 
         return true
       },
-      (err: unknown) => Error(String(err))
+      (err: unknown) => {
+        console.log(err)
+        Error(String(err))
+      }
     )
   }
 
