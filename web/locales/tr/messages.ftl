@@ -851,6 +851,8 @@ language-section-in-progress = Devam ediyor
 language-section-in-progress-new-description = Bu diller şu anda topluluk geliştirme aşamasındadır. İlerleme çubukları, her dilin <localizationGlossaryLink>web sitesi yerelleştirme</localizationGlossaryLink> ve <sentenceCollectionGlossaryLink>cümle toplama</sentenceCollectionGlossaryLink> sürecinde ne kadar ilerlediğini gösterir.
 language-section-launched = Yayımlandı
 language-section-launched-description = Bu başlatılan diller için web sitesi başarıyla <localizationGlossaryLink>yerelleştirilmiştir</localizationGlossaryLink> ve devam eden <speakLink>Konuşma</speakLink> ve <listenLink>Dinleme</listenLink> katkılarına izin vermek için yeterli sayıda <sentenceCollectionGlossaryLink>cümle toplanmıştır</sentenceCollectionGlossaryLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Son güncelleme: { $lastUpdatedTimeStamp }
 languages-show-more = Daha fazlasını göster
 languages-show-less = Daha az göster
 language-meter-in-progress = İlerleme
