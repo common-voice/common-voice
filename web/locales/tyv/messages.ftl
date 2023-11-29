@@ -13,6 +13,13 @@ email-opt-in-info-title = Common Voice-туң чагаа тарадыр ниит
 email-opt-in-info-sub-with-challenge = Челленджтер, сорулгалар дугайында сагындырыглар, чедиишкиннер дугайында дыңнадыглар болгаш Common Voice дугайында медээлер дээн чижектиг чагааларны алыр.
 email-opt-in-privacy-v2 = Чагаалар алыр деп чөпшээрешкеш, Mozilla ол информацияны Mozilla-ның <privacyLink>Чажыт болурунуң политиказы</privacyLink> дамчыштыр хынап турар дээрзинге чөпшээрежип турар силер.
 indicates-required = * ыяап долдурар ужурлуг шөлдер
+not-available-abbreviation = Болдунмас
+banner-error-slow-1 = Буруудатпайн көрүңер, Common Voice оожум ажылдап турар-дыр. Сонуургалыңар дээш четтирдивис.
+banner-error-slow-2 = Амдыызында ажылывыс чай-чокталып тур, бо үеде ол айтырыгны шинчилеп тур бис.
+banner-error-slow-link = Байдал арны
+error-something-went-wrong = Ой, бир-ле чүве аайлашпайн барган-дыр.
+error-clip-upload = Клипти киирери болдунмаан. Ам бир шенээр бе?
+error-clip-upload-server = Бо клипти серверже киирер дээн оралдажыышкыннарның чаңгызы-даа болдунмайн барган. Арынны катап ажыдыпкаш, шенеп көрүңерем.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
