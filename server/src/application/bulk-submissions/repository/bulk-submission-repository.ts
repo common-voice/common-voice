@@ -58,7 +58,7 @@ const insertBulkSubmission =
       },
       (err: unknown) => {
         console.log(err)
-        Error(String(err))
+        return Error(String(err))
       }
     )
   }
