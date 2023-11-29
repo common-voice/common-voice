@@ -36,8 +36,9 @@ type BulkSubmissionStatusId = {
 
 const createInsertQuery = () =>
   `
-    INSERT IGNORE INTO bulk_submissions (status, locale_id, size, path, name, submitter, import_status) 
+    INSERT INTO bulk_submissions (status, locale_id, size, path, name, submitter, import_status) 
     VALUES (?, ?, ?, ?, ?, ?, ?)
+    ON DUPLICATE KEY UPDATE updated_at = NOW()
   `
 const insertBulkSubmission =
   (db: Mysql) => (bulkSubmission: BulkSubmission) => {
@@ -56,7 +57,7 @@ const insertBulkSubmission =
 
         return true
       },
-      (err: Error) => err
+      (err: unknown) => Error(String(err))
     )
   }
 
