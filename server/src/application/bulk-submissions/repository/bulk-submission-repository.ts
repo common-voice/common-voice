@@ -36,16 +36,17 @@ type BulkSubmissionStatusId = {
 
 const createInsertQuery = () =>
   `
-    INSERT IGNORE INTO bulk_submissions (status, locale_id, size, path, name, submitter, import_status) 
+    INSERT INTO bulk_submissions (status, locale_id, size, path, name, submitter, import_status) 
     VALUES (?, ?, ?, ?, ?, ?, ?)
+    ON DUPLICATE KEY UPDATE updated_at = NOW()
   `
 const insertBulkSubmission =
   (db: Mysql) => (bulkSubmission: BulkSubmission) => {
     return TE.tryCatch(
       async () => {
-
+        const [[statusNew]] = await db.query('SELECT id from bulk_submission_status WHERE status = \'new\'')
         await db.query(createInsertQuery(), [
-          `(SELECT id from bulk_submission_status WHERE status = 'open')`,
+          statusNew.id,
           bulkSubmission.localeId,
           bulkSubmission.size,
           bulkSubmission.path,
@@ -56,7 +57,10 @@ const insertBulkSubmission =
 
         return true
       },
-      (err: Error) => err
+      (err: unknown) => {
+        console.log(err)
+        return Error(String(err))
+      }
     )
   }
 
