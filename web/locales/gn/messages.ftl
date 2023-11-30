@@ -412,7 +412,7 @@ female = Kuña
 other = Ambue
 why-profile-title = Mba’érepa mba’ete
 why-profile-text =
-    Emombe’umivéramo nde rehegua oipytyvõluaáta opaite ñe’ẽryapu ojeporu porãve hag̃ua.
+    Emombe’umivéramo nde rehegua oipytyvõkuaáta opaite ñe’ẽryapu ojeporu porãve hag̃ua.
     Tembiporu oñeha’ãva ohaívo ohendúva oiporu remombe’úva ohai porãve rekávo.
 dashboard = Tabléro
 build-profile = Hemoheñói Mba’ete
