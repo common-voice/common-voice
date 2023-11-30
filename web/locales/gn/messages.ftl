@@ -651,8 +651,8 @@ about-playbook-how-grow-language-content-8 = <strong>¡Emoheñóike!</strong> Nd
 
 about-playbook-how-validate = ¿Mba’éicha aikuaáta amoneĩtaha ñe’ẽayvu jekutu?
 about-playbook-how-validate-content-1 = Ikatúramo <strong>ehendu<strong> ha </strong>eikũmby</strong>, hetavejey ha’e <strong>iporãvéta emoneĩrõ</strong>.
-about-playbook-how-validate-content-2 = <strong>Aníke emboyko umi clip pe ñe’ẽkuaahára "oñe’ẽ hatãvévo" iñambuéva ojapoháichagui</strong>; kóva tuichamba’e pe ñe’ẽ ñeikumby oiko hag̃ua hekopete opavavépe g̃uarã.
-about-playbook-how-validate-content-3 = Egueroviáramo nde ayvureko <strong>ñoñeikumbyporãmbái</strong>, térã rehendu <strong>mba’eryapuvai pe jerére</strong>, térã oĩ <strong>ambue tapicha oñe’ẽva avei</strong>, péicharamo nde emboykeva’erã pe jekutu. <accuracyLink>Ikatu eñemomaranduve ore jejapoporãnguépe</accuracyLink>.
+about-playbook-how-validate-content-2 = <strong>Aníke emboyko umi clip pe ñe’ẽkuaahára "oñe’ẽ hatãvévo" iñambuéva ojapoháichagui</strong>; kóva tuichamba’e pe ñe’ẽ ñeikũmby oiko hag̃ua hekopete opavavépe g̃uarã.
+about-playbook-how-validate-content-3 = Egueroviáramo nde ayvureko <strong>ñoñeikũmbyporãmbái</strong>, térã rehendu <strong>mba’eryapuvai pe jerére</strong>, térã oĩ <strong>ambue tapicha oñe’ẽva avei</strong>, péicharamo nde emboykeva’erã pe jekutu. <accuracyLink>Ikatu eñemomaranduve ore jejapoporãnguépe</accuracyLink>.
 about-playbook-how-validate-content-4 = Mokõi tapicha omboykérõ jekutu, ojehecháta peteĩ tenda’i iñambuéva mba’ekuaarã atýgui.
 
 ## How to access dataset
@@ -842,7 +842,7 @@ request-language-form-info-explanation =
     emoĩkuaa:
 request-language-form-info-explanation-list-1 = Ne ñe’ẽ réra
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO ayvu</isoCodeLink> ojeikuaáramo
-request-language-form-info-explanation-list-3 = Ñanduti renda mbojuajuha ne pytyvõtava eikumby hag̃ua ñe’ẽ.
+request-language-form-info-explanation-list-3 = Ñanduti renda mbojuajuha ne pytyvõtava eikũmby hag̃ua ñe’ẽ.
 request-language-google-recaptcha-required = Eikotevẽta reCAPTCHA rehe eku’esejeýramo
 request-language-google-recaptcha-error = Oĩ osẽvaíva reCAPTCHA ndive. Ikatúpiko eha’ãjey ag̃ave.
 # Success page
@@ -1189,9 +1189,9 @@ demo-dashboard-card-body = Mayma ñe’ẽjoaju ñembohyapupyre ha oñemoneĩmav
 ## Validation criteria
 
 contribution-criteria-nav = Ñe’ẽte
-contribution-criteria-link = Eikumby mba’éichapa eipytyvõta
+contribution-criteria-link = Eikũmby mba’éichapa eipytyvõta
 contribution-criteria-page-title = Ñepytyvõ rehegua
-contribution-criteria-page-description = ¡Eikumby mba’épa ehekáta ehendúvo ñe’ẽpu ha eipytyvõ emoporãve hag̃ua ne ñe’ẽ ñeñongatu avei!
+contribution-criteria-page-description = ¡Eikũmby mba’épa ehekáta ehendúvo ñe’ẽpu ha eipytyvõ emoporãve hag̃ua ne ñe’ẽ ñeñongatu avei!
 contribution-for-example = Techapyrãrõ
 contribution-misreadings-title = Moñe’ẽ vai
 contribution-misreadings-description = Ehendúvo, ehechajey mbeguekatumi pe eñongatuva’ekuépa ha’ehína umi ojehaiva’ekue; emboyke oĩramo jejavy michĩmíva jepe. <br />Jejavy tapiaguáva oikehápe avei:
