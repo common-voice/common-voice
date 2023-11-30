@@ -7,6 +7,7 @@ return-to-cv = Ouyantaa sünainmüin Common Voice
 email-input =
     .label = Imeeirü
 submit-form-action = Ajütaa
+loading = Pa'atapajaa…
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
