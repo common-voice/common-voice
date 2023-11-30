@@ -323,10 +323,10 @@ join-newsletter = Reikekuaa ore rerarysýipe romog̃uahẽ hag̃ua ndéve marand
 
 whats-public = Mba’épa ojehechakuaáta
 email-not-public = Noromoherakuãmo’ãi ne ñanduti veve.
-recordings-and-locale-public = Mboýmapa eñe’ẽñongatu ha umi ñe’ẽ eipytyvõhague ohechakuaáta opavavete.
-username-optin-public = Erekuaa avei reipotápa ojekuaa poruhára réra térã ñemíme.
-demographic-deidentified-clarity-2 = Kuaapyrã avano’õ rehegua remoĩkuaáva avei (techapyrãrõ aryve, meña, ñe’ẽte ha ñembohyapu reko) ndojekuaaukamo’ãi araka’eve nde roguetépe, ha noñembojoajumo’ãi poruhára rérare kuaapy’atýpe. Mba’erendurã oñembojoajúta kuaapy avano’õ rehegua rehe ikatu hag̃uáicha oñehesa’ỹijoporãve mba’ekuaapy - techapyrã oĩrõ tembiporu apohára omoheñoiséva tembiporu tetã térã tetãpehẽme g̃uarã.
-username-email-not-demographic = Mavave ndoikuaamo’ãi poruhára réra ni ñanduti veve oiporukuévo ñe’ẽryapu.
+recordings-and-locale-public = Mboýmapa eñe’ẽñongatu ha umi ñe’ẽ eipytyvõvape ohecháta opavavete.
+username-optin-public = Erekuaa avei reipotápa ojekuaa poruhára réra térã iñemíta.
+demographic-deidentified-clarity-2 = Kuaapyrã avano’õ rehegua remoĩkuaáva avei (techapyrãrõ aryve, meña, ñe’ẽte ha ñembohyapu reko) ndojekuaaukamo’ãi araka’eve nde roguetépe, ha noñembojoajumo’ãi poruhára rérare kuaapy’atýpe. Mba’erendurã oñembojoajúta kuaapy avano’õ rehegua rehe ikatu hag̃uáicha oñehesa’ỹijo porãve mba’ekuaapy - techapyrã oĩramo tembiporu apohára omoheñoiséva tembiporu tetã térã tetãpehẽme g̃uarã.
+username-email-not-demographic = Mavave ndoikuaamo’ãi poruhára réra ha ñanduti veve oiporukuévo ñe’ẽryapu.
 
 ## Speak & Listen Shortcuts
 
@@ -412,7 +412,7 @@ female = Kuña
 other = Ambue
 why-profile-title = Mba’érepa mba’ete
 why-profile-text =
-    Emombe’umivéramo nde rehegua oipytyvõta opaite ñe’ẽryapu ojeporu porãve hag̃ua.
+    Emombe’umivéramo nde rehegua oipytyvõluaáta opaite ñe’ẽryapu ojeporu porãve hag̃ua.
     Tembiporu oñeha’ãva ohaívo ohendúva oiporu remombe’úva ohai porãve rekávo.
 dashboard = Tabléro
 build-profile = Hemoheñói Mba’ete
@@ -420,15 +420,15 @@ avatar = Avatar
 goals = Hupytyrã
 settings = Ñemboheko
 edit-profile = Embosako’i Mba’ete
-profile-create-success = ¡Oĩporãite, oñemoheñóima nde roguerã!
+profile-create-success = ¡Oĩporã, heñóima nde roguerã!
 profile-close = Mboty
-profile-explanation = Eikuaa mba’éichapa oguata tembiapo ehechávo togueteépe ha eipytyvõ hekopete hag̃ua ñe’ẽryapu jeporu.
+profile-explanation = Eikuaa mba’éicha oguata tembiapo ehechávo togueteépe ha eipytyvõ hekoite hag̃ua ñe’ẽryapu jeporu.
 thanks-for-account = Aguyje erehaguére nde mba’ete añeteha, ñambosako’ive nde roguetee.
 why-demographic = Mba’érepa ojejapo kóva
-why-demographic-explanation-2 = Mba’ekuaarã poruhára rehegua: aryve, meña ha mba’éichapa oñembohyapu oikoha rupi oipytyvõ mbarete mohendahápe oikũmby hag̃ua ohendúva. Poruhára réra ha ñanduti veve ndojoajumo’ãi araka’eve mba’erendurã emondóva rehe ha ndete erekuaa eipotápa ojekuaa nde poruhára réra térãpa nahániri.
-accept-privacy = Oĩ porã, amoneĩ tojeporu kuaapyrã chemba’éva oñemyesakã haguéicha chéve Mozilla <privacyLink>Kuaapy Jeporu</privacyLink> kuatiápe.
+why-demographic-explanation-2 = Mba’ekuaarã poruhára rehegua: aryve, meña ha mba’éichapa oñembohyapu oikoháre oipytyvõ mbarete mohendahápe oikũmby hag̃ua ohendúva. Poruhára réra ha ñanduti veve ndojoajumo’ãi araka’eve mba’erendurã emondóva rehe ha ndete erekuaa eipotápa ojekuaa nde poruhára réra térãpa nahániri.
+accept-privacy = Oĩporã, amoneĩ tojeporu kuaapyrã chemba’éva oñemyesakã haguéicha chéve Mozilla <privacyLink>Kuaapy Jeporu</privacyLink> kuatiápe.
 accept-privacy-title = Temiñemi Porureko
-accept-privacy-and-terms = Amoneĩ umi <termsLink>Ñe’ẽkuaa</termsLink> ha pe Common Voice <privacyLink>Ñemurã ñemigua</privacyLink>
+accept-privacy-and-terms = Amoneĩ umi <termsLink>Ñe’ẽkuaa</termsLink> ha Common Voice <privacyLink>Ñemurã ñemigua</privacyLink>
 login-identity = Tembiapo ñepyrũ réra
 login = Tembiapo Ñepyrũ
 login-signup = Emoñeprũ tembiapo / Eñemboheraguapy
