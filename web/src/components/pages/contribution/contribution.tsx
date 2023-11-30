@@ -5,7 +5,7 @@ import {
 } from '@fluent/react';
 import * as React from 'react';
 import { connect } from 'react-redux';
-import { Tooltip } from 'react-tippy'
+import { Tooltip } from 'react-tippy';
 import { Flags } from '../../../stores/flags';
 import { Locale } from '../../../stores/locale';
 import StateTree from '../../../stores/tree';
@@ -384,7 +384,12 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             <div className="cards-and-instruction">
               {instruction({
                 vars: { actionType: getString('action-click') },
-                children: <div className="instruction hidden-sm-down" />,
+                children: (
+                  <div
+                    className="instruction hidden-sm-down"
+                    data-testid="instruction"
+                  />
+                ),
               }) || <div className="instruction hidden-sm-down" />}
 
               <div className="cards">
@@ -412,7 +417,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                           }%)`,
                         ].join(' '),
                         opacity: i < activeSentenceIndex ? 0 : 1,
-                      }}>
+                      }}
+                      data-testid={`card-${i + 1}`}>
                       <div style={{ margin: 'auto', width: '100%' }}>
                         {sentence?.text}
                         {sentence?.taxonomy ? (
@@ -545,7 +551,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                 'fs-ignore-rage-clicks',
               ].join(' ')}
               disabled={!this.isLoaded}
-              onClick={onSkip}>
+              onClick={onSkip}
+              data-testid="skip-button">
               <SkipIcon />
               <Localized id="skip">
                 <span />

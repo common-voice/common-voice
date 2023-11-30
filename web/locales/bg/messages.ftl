@@ -84,7 +84,9 @@ ja = Японски
 ka = Грузински
 kaa = Каракалпакски
 kab = Кабилски
+kbd = Кабардински
 kk = Казахкски
+kmr = Курманджи кюрдски
 ko = Корейски
 kpv = Коми-зирянски
 kw = Корнуолски
@@ -100,6 +102,7 @@ mhr = Мари
 mk = Македонски
 ml = Малаялам
 mn = Монголски
+mos = Море
 mr = Марати
 mrj = Уралски
 ms = Малайски
@@ -965,4 +968,11 @@ contribution-criteria-page-description = Разберете на какво да
 
 
 # [/SentenceCollector]
+
+sentence-collection = Списък с изречения
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
 

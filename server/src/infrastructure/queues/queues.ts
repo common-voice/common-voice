@@ -31,8 +31,9 @@ export const getQueue = createQueueWithOptions(getRedisConfig(getConfig()))
 
 export const addProcessorToQueue =
   <T>(processor: Queue.ProcessPromiseFunction<T>) =>
+  (processorName: string) =>
   (q: Queue.Queue<T>): IO.IO<void> => {
-    q.process(processor)
+    q.process(processorName, processor)
     return IO.of(constVoid())
   }
 
@@ -45,9 +46,9 @@ export const addSandboxedProcessorToQueue =
 
 export const attachEventHandlerToQueue =
   (event: string) =>
-  <T>(errorHandler: (job: Queue.Job<T>) => any) =>
+  <T>(eventHandler: (job: Queue.Job<T>) => any) =>
   (q: Queue.Queue<T>): IO.IO<void> => {
-    return IO.of(q.on(event, errorHandler))
+    return IO.of(q.on(event, eventHandler))
   }
 
 export const addJobToQueue =

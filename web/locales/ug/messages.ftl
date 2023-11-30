@@ -858,22 +858,24 @@ language-section-in-progress = ئىلگىرىلەش
 language-section-in-progress-new-description = نۆۋەتتە بۇ تىللار جامائەت ئىجادىيەت باسقۇچىدا تۇرۇۋاتىدۇ. بۇلار ھەر قايسى تىللارنىڭ <localizationGlossaryLink>تور بېكەتنى يەرلىكلەشتۈرۈش</localizationGlossaryLink> شۇنداقلا <sentenceCollectionGlossaryLink>جۈملە يىغىش</sentenceCollectionGlossaryLink> ئەھۋالىنى كۆرسىتىدۇ.
 language-section-launched = ئېلان قىلىندى
 language-section-launched-description = ئېلان قىلىنغان تىللارنىڭ تور بىتى مۇۋەپپەقىيەتلىك ھالدا <localizationGlossaryLink> يەرلىكلەشتۈرۈلگەن </localizationGlossaryLink>، شۇنداقلا يېتەرلىك  <sentenceCollectionGlossaryLink>توپلانغان جۈملىلىرى</sentenceCollectionGlossaryLink> بولسا <speakLink>سۆزلەپ</speakLink> ۋە <listenLink>ئاڭلاپ</listenLink> تۆھپە قوشۇش باسقۇچىغا ئىلگىرىلىيەلەيدۇ.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = ئاخىرقى يېڭىلانغان ۋاقتى: { $lastUpdatedTimeStamp }
 languages-show-more = تەپسىلاتى
 languages-show-less = ئاز كۆرسەت
 language-meter-in-progress = ئىلگىرىلەش
 language-total-progress = ئومۇمىي
 language-search-input =
     .placeholder = ئىزدە
-language-speakers = سۆزلىگۈچىلەر
+language-speakers = سۆزلىگۈچى
 localized = يەرلىكلەشتۈرۈلگەن
-sentences = جۈملىلەر
+sentences = جۈملە
 language-validation-hours = سائەت
 language-validation-progress = دەلىللەشنىڭ ئىلگىرىلىشى
 
 ## Contribution
 
 action-click = چېكىڭ
-action-tap = Tap
+action-tap = نوقۇڭ
 contribute = تۆھپە قوشاي
 listen = ئاڭلاي
 write = يازاي
@@ -1621,8 +1623,8 @@ misreadings-explanation-5 = ئەمەلىيەتتە مەۋجۇت بولمىغان
 misreadings-explanation-6 = ئۈنگە ئېلىش بەك تېز بولۇپ ئەڭ ئاخىرقى سۆز كەم قالغان.
 misreadings-explanation-7 = بىر سۆزنى بىر قانچە قېتىم ئوقۇشقا تەمشەلگەن.
 misreadings-example-1 = بىز قەھۋە ئېلىشقا سىرتقا چىقماقچى.
-misreadings-example-2 = بىز قەھۋە ئېلىشقا سىرتقا چىقماقچى.
-misreadings-example-3 = بىز قەھۋە ئېلىشقا سىرتقا چىقماقچى.
+misreadings-example-2 = بى قەھۋە ئېلىشقا سىرتقا چىقماقچى.
+misreadings-example-3 = بىز بىر قەھۋە ئېلىشقا سىرتقا چىقماقچى.
 misreadings-example-4 = سېرىق ھەرە تېز سۈرئەتتە ئۇچۇپ كەتتى.
 misreadings-tip-1 = [«بىز» بولۇشى كېرەك]
 misreadings-tip-2 = [ئەسلى تېكىستتە «ئا» يوق]

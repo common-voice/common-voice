@@ -565,7 +565,7 @@ export default class API {
     })
   }
 
-  bulkSubmissionRequest({
+  async bulkSubmissionRequest({
     file,
     locale,
     fileName,
@@ -575,13 +575,11 @@ export default class API {
     fileName: string
   }) {
     const { signal } = this.abortController
-    const fileData = new FormData()
-
-    fileData.append('file', file)
+    const content = await file.arrayBuffer()
 
     return fetch(`${API_PATH}/${locale}/bulk_submissions`, {
       method: 'POST',
-      body: fileData,
+      body: content,
       headers: {
         filename: fileName,
       },

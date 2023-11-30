@@ -2,9 +2,12 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { Transform } from 'node:stream'
 import { streamingQuery } from '../infrastructure/database'
-import { streamDownloadFileFromBucket } from '../infrastructure/storage'
+import {
+  doesFileExistInBucket,
+  streamDownloadFileFromBucket,
+} from '../infrastructure/storage'
 import { AppEnv, ClipRow } from '../types'
-import { taskEither as TE } from 'fp-ts'
+import { task as T, taskEither as TE } from 'fp-ts'
 import { hashClientId } from './clients'
 import { getClipsBucketName, getQueriesDir } from '../config/config'
 import { pipe } from 'fp-ts/lib/function'
@@ -107,6 +110,25 @@ const downloadClips = (releaseDirPath: string) =>
     objectMode: true,
   })
 
+const checkClipForExistence = () =>
+  new Transform({
+    transform(chunk: ClipRow, encoding, callback) {
+      pipe(
+        doesFileExistInBucket(CLIPS_BUCKET)(chunk.path),
+        TE.getOrElse(() => T.of(false)),
+      )().then(doesExist => {
+        if (doesExist) {
+          this.push(chunk, encoding)
+          callback()
+        } else {
+          console.log(`Skipping file ${chunk.path}`)
+          callback()
+        }
+      })
+    },
+    objectMode: true,
+  })
+
 const fetchAllClipsForLocale = (
   locale: string,
   includeClipsFrom: string,
@@ -127,6 +149,7 @@ const fetchAllClipsForLocale = (
         )
         console.log('Start Stream Processing')
         stream
+          .pipe(checkClipForExistence())
           .pipe(downloadClips(releaseDirPath))
           .pipe(transformClips(isMinorityLanguage))
           .pipe(writeFileStreamToTsv(locale, releaseDirPath))
