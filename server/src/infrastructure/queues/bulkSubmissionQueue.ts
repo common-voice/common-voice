@@ -16,7 +16,7 @@ const BULK_SUBMISSION_UPLOAD_JOB_NAME = 'bulk-submission-upload-job'
 export const setupBulkSubmissionQueue = () => {
   return pipe(
     getQueue<BulkSubmissionUploadJob>(BULK_SUBMISSION_UPLOAD_QUEUE_NAME),
-    IO.chainFirst(addProcessorToQueue(bulkSubmissionUploadProcessor)),
+    IO.chainFirst(addProcessorToQueue(bulkSubmissionUploadProcessor)(BULK_SUBMISSION_UPLOAD_JOB_NAME)),
     IO.chainFirst(attachEventHandlerToQueue('error')(console.error)),
     IO.chainFirst(attachEventHandlerToQueue('failure')(console.error))
   )()
