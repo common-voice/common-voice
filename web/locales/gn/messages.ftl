@@ -437,12 +437,12 @@ email-subscriptions = Ñanduti veve Mboheraguapy
 download-profile = Kuaapyrã chemba’éva ñemboguejy
 contribution-experience = Tembiasakue Pytyvõháraramo
 skip-submission-feedback = Ani pembou chéve Marandu’i
-skip-submission-description = Oñepytyvõ aja noñemondomo’ãi marandu’i ojejopy vove 'Emondo'. Roguerahaukáva oikétama oñemboaje hag̃uáicha.
-skip-submission-note = Jesarekorã: Tekotevẽta eiporavo Eñe’ẽ térã Ehendu ere hag̃ua mba’eichaitépa reipytyvõse.
+skip-submission-description = Oñepytyvõ aja noñemondomo’ãi marandu’i ojejopy vove 'Mondo'. Pe ñepytyvõ oikéta umi 5 ñongatu térã ñemoneĩ pyahu ojejapóva ndive.
+skip-submission-note = Jesarekorã: Tekotevẽta eiporavo Eñe’ẽ térã Ehendu ere hag̃ua mba’éichapa reipytyvõse.
 off = Mboguepyre
 on = Hendypyre
 help-accent = Eñepytyvõkasépa myanduhére
-help-accent-explanation = Ne myanduhe ha’e pe mba’éichapa embo’ayvu peteĩ ñe’ẽ. Ikatu omombe’u mba’e tendápepa reikoraka’e, mba’e ñe’ẽpa reiporu ha ambue hetave mba’e. Emoherakuãkuaa oimeraẽva marandu ehecharamóva ko’ápe.
+help-accent-explanation = Ne myanduhe ha’e pe mba’eichaitépa embo’ayvu peteĩ ñe’ẽ. Ikatu omombe’u mba’e tendápepa reikoraka’e, mba’e ñe’ẽpa reiporu ha ambue hetave mba’e. Emoherakuãkuaa oimeraẽva marandu ehecharamovéva ko’ápe.
 help-variants = ¿Eikotevẽ pytyvõ ñe’ẽ iñambuévape?
 help-variants-explanation = Umi ñe’ẽambue ha’énte avei ñe’ẽ, techapyrãramo, oiporúva tapichakuéra oikóva peteĩ tekohápe. Ko’ãvape ojehero ñe’ẽambue.
 
