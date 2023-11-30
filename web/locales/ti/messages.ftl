@@ -633,11 +633,15 @@ about-playbook-how-localize-content-5 = ንምሕጋዝ ነዚ ዝስዕብ ቅ�
 
 about-playbook-how-add-sentences = ምሉእ ሓሳባት ብኸመይ የእቱ?
 about-playbook-how-add-sentences-content-1 = ኣብቲ <writePageLink>ገጽ ጽሓፍ</writePageLink> ምሉእ-ሓሳባታት ክትውስኽ ትኽእል ወይ ድማ ኣብቲ <reviewPageLink>ገጽ ምግምጋም</reviewPageLink> ሓረጋት ክትግምግም ትኽእል።
+about-playbook-how-add-sentences-content-2 = ሓረጋት ኣብ ናይ ሓባር ድምጺ ንኽካተቱ ብኽልተ ሰባት ክግምገሙን ክቕበሉን ኣለዎም። ንቋንቋኻ መምርሒታት <languageGuidelinesLink>ኣብዚ</languageGuidelinesLink> ስራሕ።ሓረጋት ኣብ <licenseLink>public domain</licenseLink> ክኾኑን ካብ 15 ቃላት ክሓጽሩን ኣለዎም። ነቲ ወናኒ ናይ ጽሑፍ፡ ነቲ ናይ ምኽልካል መስርሕና ተጠቒምካ <waiverLink>CC0 ክገብሮ ክትሓትቶ ትኽእል ኢኻ</waiverLink> ከምኡ'ውን ናብ commonvoice@mozilla.com ክትልእኮ ትኽእል ኢኻ።
 about-playbook-how-add-sentences-content-3 = ካብ ዊኪፒዲያ ሓጸርቲ ምሉእ-ሓሳባታት ንምጥቃም <scraperLink>Sentence extractor</scraperLink> ክትጥቀም ትኽእል ኢኻ።
 
 ## How to record quality
 
 about-playbook-how-record-quality = ልዑል ብቕዓት ዘለዎ ናይ ድምጺ ጽሬት ብኸመይ ክቐርጾ ይኽእል?
+about-playbook-how-record-content-1 =
+    ብንቡር ድምጽኻ ተዛረብ፦ እቲ እትዛረበሉ ኣገባብ ኣብዚ ቅቡል እዩ 
+    - ላህጃኻ ከም ዘለዎ ንደሊ፡ ልሙድ ድምጽኻ፡ ቅዲኻን ቃናኻን ድማ ንደሊ።
 about-playbook-how-record-content-2 = ብዙሕ ድሕረ ባይታ ድምጺ ኣወግድ - ንኽትሰምዓካ ቀሊል ክኸውን ኣለዎ።
 about-playbook-how-record-content-3 = ነቲ ሓረግ ብጥንቃቐ ኣንብቦ - ኣይትስሓቶም፡ ኣይትቐይር ወይ ቃላት ኣይትውስኽ።
 about-playbook-how-record-content-4 = ቅድሚ ምዝራብካ እቲ መድረኽ ይቐርጽ ከምዘሎ ኣረጋግጽ፣ ምስ ወዳእካ ጥራይ’ውን ደው ከም ዝብል ኣረጋግጽ
@@ -648,7 +652,9 @@ about-playbook-how-record-content-5 = <accuracyLink>ብዛዕባ መዐቀኒታ
 about-playbook-how-grow-language = ከመይ ጌርና ኣብ ናይ ሓባር ድምጺ ቋንቋ ብኣድማዒ መንገዲ ከነዕብዮ ንኽእል?
 about-playbook-how-grow-language-content-1 = ዝተፈላለዩ ሰባት ኣብ ናይ ኮመን ቮይስ  ኣበርክቶ ንኽገብሩ ዕድላት ምፍጣር፡ እቲ ዳታሴት ብዝተኻእለ መጠን ንብዙሓት ሰባት ከም ዘገልግል የረጋግጽ። ክትጥቀሙሉ እትኽእሉ ጸጋታትን ቅጥዕታትን ሰሪሕና ኣለና፦
 about-playbook-how-grow-language-content-2 = ፍጻመታት
+about-playbook-how-grow-language-content-3 = ሰባት ኣበርክቶ ንኽገብሩ ንምሕጋዝ ፍጻመታት ከተካይድ ትኽእል ኢኻ። ካብ’ቲ ትሓስቦ ዝቐለለ’ዩ። ብኢንተርነት ብመሳርሒ ቪድዮ ኮንፈረንስ ክትገብሮ ትኽእል ኢኻ፣ ወይ’ውን ውሑስ እንተኾይኑ ብኣካል ክትገብሮ ትኽእል ኢኻ። <eventTemplate>ነቲ ንጥፈታት ንምክያድ ዘገልግሉ ናትና ቅጥዕታትን መሳርሒታትን</eventTemplate> ተመልከት።
 about-playbook-how-grow-language-content-4 = ማሕበረዊ ገጻት
+about-playbook-how-grow-language-content-5 = ነቲ መልእኽቲ ንምዝርጋሕ ማሕበራዊ መራኸቢታት ክትጥቀም ትኽእል ኢኻ። ስለምንታይ ኣገዳሲ ምዃኑ ዝገልጹ ጽሑፋት ኣካፍሉ፣ ከምኡ'ውን ምስ ካልኦት ሰባት ብምውካስ ብዛዕባ ናይ ቋንቋ መሰላት፣ ናይ ድምጺ AI፣ ወይ ኣብ ቴክኖሎጂ ዘሎ ኣድልዎ ዝብሉ ጉዳያት ተዘራረቡ። ኣብ <campaignLink> ማሕበራዊ ጎስጓስ ንምክያድ፡ እንተላይ ነቲ ዳግማይ ክትጥቀመሉ እትኽእል ትሕዝቶ</campaignLink> ተወሳኺ ምኽሪ ተመልከት።
 about-playbook-how-grow-language-content-6 = ምሕዝነትን መርበባትን
 about-playbook-how-grow-language-content-8 = <strong>ፈጠራ ውሰድ!</strong> ማሕበረሰብ ቋንቋኻ ፍሉይ ክኸውን እዩ፣ እዚኦም ድማ ውሑዳት መገድታት ጥራይ እዮም።
 
@@ -1174,21 +1180,27 @@ contribution-misreadings-title = ግጉይ ንባብ
 contribution-misreadings-description = ክትሰምዕ ከለኻ እቲ እተመዝገበ ብልክዕ እተጻሕፈ እንተ ዀይኑ ተጠንቂቕካ መርምር፣ ንኣሽቱ ጌጋታት እውን እንተ ዀነ ንጸግ። <br / >መብዛሕትኡ ልሙድ ጌጋታት እዚ ዝስዕብ ኢዩ፥
 contribution-misreadings-description-extended-list-1 = ዝኾነ ዝጎደለ ከይህሉ ከም <strong> 'እዩ'</strong> ወይ <strong> 'ኢዮም'</strong>።
 contribution-misreadings-description-extended-list-2 = ኣብ መውዳእታ ናይ ቃል ዝተረስዐ<strong>'ታት'</strong>.
+contribution-misreadings-description-extended-list-4 = ነቲ ናይ መወዳእታ ቃል ቀልጢፍካ ብምቁራጽ ነቲ ናይ መዛዘሚ ድምጺ ምስኣን።
+contribution-misreadings-description-extended-list-5 = ንሓንቲ ቃል ንምንባብ ብዙሕ ፈተነታት ምውሳድ።
 contribution-misreadings-example-1-title = እቶም ዓርሞሽሽ ዳይናሶራት ናይ ትርያሲክ።
 contribution-misreadings-example-2-title = እቲ ዓርሞሽሽ ዳይናሶር ናይ ትርያሲክ።
 contribution-misreadings-example-2-explanation = [‘ዳይናሶራት’ ክኸውን ኣለዎ]
 contribution-misreadings-example-3-title = እቶም ዓርሞሽሽ ዳይናሶራት ናይ ትርያሲክ-።
+contribution-misreadings-example-3-explanation = [ቅድሚ ምዝዛም ናይ መወዳእታ ቃል ተቖሪጹ]።
 contribution-misreadings-example-4-title = እቶም ዓርሞሽሽ ዳይናሶራት ናይ ትርያሲክ። እወ።
+contribution-misreadings-example-4-explanation = [ካብ ዝድለ ጽሑፍ ንላዕሊ ተመዝጊቡ ኣሎ]።
 contribution-misreadings-example-5-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
 contribution-misreadings-example-6-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
 contribution-misreadings-example-6-explanation = [“ንሕና” ክኸውን ይግባእ]።
 contribution-misreadings-example-7-title = ቡን ክንሰቲ ንወጽእ ኣሎና።
 contribution-misreadings-example-7-explanation = [ኣብቲ ፎሎማ ጽሑፍ ‘a’ የለን]
 contribution-misreadings-example-8-title = ባምብልቢ ብፍጥነት ሓሊፉ
+contribution-misreadings-example-8-explanation = [ዘይተመጣጠነ ትሕዝቶ]
 contribution-varying-pronunciations-title = ዝተፈላለየ ኣደማምጻታት
 contribution-varying-pronunciations-example-1-title = ኣብ ርእሱ ከቢብ ቆቢዕ ተኸዲኑ ነበረ።
 contribution-varying-pronunciations-example-2-title = ኢዱ ተላዒላ ነይራ።
 contribution-background-noise-title = ኣከባያዊ ረበሻታት
+contribution-background-noise-example-2-fixed-title = እቲ ግዙፍ <strong>[ዳይኖ]</strong> ትራያሲክ።
 contribution-background-noise-example-2-explanation = [ክፋል ናይ’ቲ ጽሑፍ ክስማዕ ኣይክእልን’ዩ።]
 contribution-background-voices-title = ኣከባያዊ ድምጽታት
 contribution-volume-title = ድምጺ
@@ -1244,6 +1256,10 @@ sc-howto-review-criteria-3 = ምሉእ ሓሳባት ክንበብ ዝኽእል �
 sc-howto-review-criteria-4 = ምሉእ ሓሳባት ነዚ ዘማልአ እንተኾይኑ፣ ኣብ "ኣጽድቕ" ዝብል ጠውቕ።
 sc-howto-review-criteria-5 = ምሉእ ሓሳባት ነቲ መምዘኒታት ዘየማልአ እንተኾይኑ፣ ኣብ "ንጸግ" ጥውቕ። ርግጸኛ እንተዘይኮይንካ ግን፣ ነዚ ነጢርባ ናብ ዝቕጽል ምሉእ ሓሳባት ቀጽል።
 sc-howto-review-criteria-6 = ዝህየስ ምሉእ ሓሳባት እንተተወዲኡ፣ ዝያዳ ምሉእ ሓሳባት ኣብ ምእካብ ሓግዘና!
+sc-howto-findpd-title = ኣብ Public Domain ዝነበሩ ሓረጋት ምርካብ
+sc-howto-findpd-subtitle = ኣብ ኢንተርነት ድለዮም
+sc-howto-findpd-tips = ሓረጋት ንምርካብ ገለ ምኽርታት እነሆ፤
+sc-howto-findpd-tips-1 = እቶም ዝበለጹ ምንጭታት ክትደልዮም እትኽእል ፖድካስት፡ ትራንስክሪፕት፡ ስክሪፕት ፊልምን ዝኾነ ይኹን ዓቕሚ መዓልታዊ ዕላል ክሕዝ ዝኽእልን እዮም።
 
 ## MY SENTENCES
 
