@@ -861,6 +861,8 @@ language-section-in-progress = Jazyky, ktoré sa pripravujú
 language-section-in-progress-new-description = Tieto jazyky sa momentálne pripravujú. Pri každom jazyku je uvedené, v akom stave je <localizationGlossaryLink>preklad stránky</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>zber viet</sentenceCollectionGlossaryLink>.
 language-section-launched = Spustené jazyky
 language-section-launched-description = Pre tieto spustené jazyky bola webová stránka úspešne <localizationGlossaryLink>lokalizovaná</localizationGlossaryLink> a má dostatok <sentenceCollectionGlossaryLink>zozbieraných viet</sentenceCollectionGlossaryLink>, aby bolo možné <speakLink>nahrávať</speakLink> a <listenLink>počúvať</ listenLink > hlasové príspevky.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Posledná aktualizácia: { $lastUpdatedTimeStamp }
 languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
 language-meter-in-progress = Pokrok
