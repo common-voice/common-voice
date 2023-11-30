@@ -857,6 +857,8 @@ language-section-in-progress = בתהליך
 language-section-in-progress-new-description = שפות אלה נמצאות כעת בתהליך פיתוח של הקהילה. בכדי להפוך את השפה לזמינה, יש להשלים קודם כל <localizationGlossaryLink> לוקליזציה של האתר</localizationGlossaryLink> ו<sentenceCollectionGlossaryLink>איסוף משפטים</ sentenceCollectionGlossaryLink>.
 language-section-launched = הושקו
 language-section-launched-description = עבור שפות אלה שהושקו, האתר עבר <localizationGlossaryLink> לוקליזציה </ localizationGlossaryLink> בהצלחה, ויש מספיק <sentenceCollectionGlossaryLink> משפטים שנאספו </ sentenceCollectionGlossaryLink> כדי לאפשר תרומות מתמשכות של <speakLink>דיבור</speakLink> ו<listenenLink>האזנה</ listenLink >.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = עודכן לאחרונה: { $lastUpdatedTimeStamp }
 languages-show-more = להציג עוד
 languages-show-less = להציג פחות
 language-meter-in-progress = התקדמות
