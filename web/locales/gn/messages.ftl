@@ -325,7 +325,7 @@ whats-public = Mba’épa ojehechakuaáta
 email-not-public = Noromoherakuãmo’ãi ne ñanduti veve.
 recordings-and-locale-public = Mboýmapa eñe’ẽñongatu ha umi ñe’ẽ eipytyvõvape ohecháta opavavete.
 username-optin-public = Erekuaa avei reipotápa ojekuaa poruhára réra térã iñemíta.
-demographic-deidentified-clarity-2 = Kuaapyrã avano’õ rehegua remoĩkuaáva avei (techapyrãrõ aryve, meña, ñe’ẽte ha ñembohyapu reko) ndojekuaaukamo’ãi araka’eve nde roguetépe, ha noñembojoajumo’ãi poruhára rérare kuaapy’atýpe. Mba’erendurã oñembojoajúta kuaapy avano’õ rehegua rehe ikatu hag̃uáicha oñehesa’ỹijo porãve mba’ekuaapy - techapyrã oĩramo tembiporu apohára omoheñoiséva tembiporu tetã térã tetãpehẽme g̃uarã.
+demographic-deidentified-clarity-2 = Kuaapyrã avano’õ rehegua remoĩkuaáva avei (techapyrãramo aryve, meña, ñe’ẽte ha ñembohyapu reko) ndojekuaaukamo’ãi araka’eve nde roguetépe, ha noñembojoajumo’ãi poruhára rérare kuaapy’atýpe. Mba’erendurã oñembojoajúta kuaapy avano’õ rehegua rehe ikatu hag̃uáicha oñehesa’ỹijo porãve mba’ekuaapy - techapyrã oĩramo tembiporu apohára omoheñoiséva tembiporu tetã térã tetãpehẽme g̃uarã.
 username-email-not-demographic = Mavave ndoikuaamo’ãi poruhára réra ha ñanduti veve oiporukuévo ñe’ẽryapu.
 
 ## Speak & Listen Shortcuts
@@ -470,7 +470,7 @@ change-email-setings = Emoambue ne ñanduti veve eikévo Ñembosako’ípe oĩva
 faq-title = Oñeporanduvéva (FAQ)
 faq-what-cv-q = Mba’épa Common Voice?
 faq-what-cv-a =
-    Tembiporu ñe’ẽ oikũmbýva omoambue ohóvo mba’éichapa jaiporu mohendaha, ojapokuaáva térã ohai ja’éva chupe. Jepéramo upéva ãichagua tembiporu hepyete ha ijára. Common Voice niko Mozilla rembiapokue, oñepyrũva ikatu hag̃ua opavave oiporu tembiporu ñe’ẽ oikũmbýva. Common Voice omono’õ ñe’ẽ ñongatupyre oñeme’ẽreíva ojeporukuaa hag̃ua opaite ñe’ẽme yvórape.
+    Tembiporu ñe’ẽ oikũmbýva omoambue ohóvo mba’éichapa jaiporu mohendaha, ojapokuaáva térã ohai ja’éva chupe. Jepérõ upéva ãichagua tembiporu hepyete ha ijára. Common Voice niko Mozilla rembiapokue, oñepyrũva ikatu hag̃ua opavave oiporu tembiporu ñe’ẽ oikũmbýva. Common Voice omono’õ ñe’ẽ ñongatupyre oñeme’ẽreíva ojeporukuaa hag̃ua opaite ñe’ẽme yvórape.
     
     Rombyaty ñe’ẽ ñongatupyre heta ñe’ẽ sa’ivévama oñeñe’ẽ ko’ág̃a ikatu hag̃ua imbarete ha okakuaa. Romba’apo tembiporu’i oikũmbykuaáva ñe’ẽ ohendúva hérava Deep Speech rehe.
 faq-what-cv-a-2 =
@@ -532,9 +532,9 @@ faq-search-for-answers =
 about-title = ¿Mba’é eiporúta Common Voice?
 about-header-description-v2 =
     <p>Common Voice niko ñe’ẽ’aty marandu oiporukuaáva opavave, oguatáva umi pytyvõhára ñe’ẽ rupive yvóra tuichaháicha. Umi yvypóra oiporúva iñe’ẽ omoheñói hag̃ua tembiporu ñe’ẽ rehegua ha ikatúva oiporu ko’ã ayvu oporohekombo’e hag̃ua ijehegui.</p>
-    <p>Ko’ág̃a, umi ayvu oñeñongatúva ijára ha’e umi mba’aporenda ojokóva tembiapo pyahu. Umi ñe’ẽ rehegua marandu ombohovái: yvypóra oñe’ẽ’ỹva inglés, yvypóra ysa’y ambuéva, yvypóra oiko’asýva, kuña ha kuimba’e LGBTQIA+. Péva he’ise tembiporu pyahu ojeguerekóva ndoikói ambue ñe’ẽme g̃uarã, ha oikohápe ikatuhína ndoikói peteĩchapa. Upéva romoambuese romongu’epávo opaite yvypóra opaite ndehpegua oiporukávo iñe’ẽ.</p>
+    <p>Ko’ág̃a, umi ayvu oñeñongatúva ijára ha’e umi mba’aporenda ojokóva tembiapo pyahu. Umi ñe’ẽ rehegua marandu ombohovái: yvypóra oñe’ẽ’ỹva inglés, yvypóra isa’y ambuéva, yvypóra oiko’asýva, kuña ha kuimba’e LGBTQIA+. Péva he’ise tembiporu pyahu ojeguerekóva ndoikói ambue ñe’ẽme g̃uarã, ha oikohápe ikatuhína ndoikói peteĩchapa. Upéva romoambuese romongu’epávo opaite yvypóra opaite ndehpegua oiporukávo iñe’ẽ.</p>
 how-does-it-work-title-v2 = ¿Mba’éicha omba’apo Common Voice?
-how-does-it-work-text = Ore romono’õ viru yvypóra ome’ẽreíva ñandéve jajapo hag̃ua ko tembiapo. Eme’ẽmi nde ahy’o térã emoneĩ ñe’ẽryapu ñongatupyre eporopytyvõ hag̃ua avei. Péicha rupi ko tembiapo iporãvéta opavavépe g̃uarã.
+how-does-it-work-text = Ore romono’õ viru yvypóra ome’ẽreíva ñandéve jajapo hag̃ua ko tembiapo. Eme’ẽmi nde ahy’o térã emoneĩ ñe’ẽryapu ñongatupyre eipytyvõ hag̃ua. Péicha rupi ko tembiapo iporãvéta opavavépe g̃uarã.
 
 ## How does it work section
 
@@ -557,7 +557,7 @@ about-speak-text = Ome’ẽva ijahy’o omoñe’ẽ hatã ñe’ẽjoaju ome�
 about-listen-queue = Ñehenduha ruguái
 about-listen-queue-text = Ñe’ẽryapu ñongatupyre oike peteĩ ñemoneĩrã rysýipe oñembosako’íva ñemboajerã.
 about-listen = Ehendu
-about-listen-text = Poruharakuéra omoneĩ oĩ porãpa ñe’ẽryapu ñongatupyre, ohechajeyhápe pytyvhárapa omoñe’ẽ porã haipyre.
+about-listen-text = Poruharakuéra omoneĩ oĩporãpa ñe’ẽryapu ñongatupyre, ohechajeyhápe pytyvhárapa omoñe’ẽ porã haipyre.
 about-is-it-valid = ¿Ñeñongatu oikoite?
 about-is-it-valid-text = Poruhára omoñeĩramo ñeñongatu, oje’ehecháta "oiko".
 about-yes-votes = ≥ 2 vóto oikóva
