@@ -312,12 +312,12 @@ email-subscription-title-new = Eñemboheraguapy tog̃uahẽ marandu, mandu’ar�
 ## Account Benefits
 
 benefits = Mba’eporã
-rich-data = Ikatu hag̃ua umi mba’ekuaarã emondóva toĩporãmba, ohechaukáva mba’ekuaarã yvypóra rehegua ojekuaa’ỹva. Umi mba’ekuaarã noñemoherakuãmo’ãi avavetépe.
-improve-audio = Marandu mba’ete rehegua omoporãve mba’epu ojeporúva osẽ porãve hag̃ua ñe’ẽ ñeikũmby.
-keep-track = Eikuaa tapiaite mba’éichapa oguata ne rembiapo ha avei ambue ñe’ẽ rembiapo.
+rich-data = Ikatu hag̃ua umi mba’ekuaarã emondóva toĩporãmba, ohechaukáva mba’ekuaarã yvypóra rehegua ojekuaa’ỹva. Umi mba’ekuaarã noñemoherakuãmo’ãi avavete ndive.
+improve-audio = Marandu mba’ete rehegua omoporãve mba’epu ojeporúva osẽ porãve hag̃uáicha ñe’ẽ ñeikũmby.
+keep-track = Eikuaa mba’éichapa oguata ne rembiapo ha avei ambue ñe’ẽ rembiapo.
 compare-progress = Ehecha akóinte máva rembiapópa itenondeve ñande yvy ape ári.
-view-goals = Ehecha moõpa reg̃uahẽ ne rembiapo ha rejaposévape.
-join-newsletter = Reikekuaa ore rerarysýipe romog̃uahẽ hag̃ua ndéve marandu ipyahuvéva apopyrã rehegua.
+view-goals = Ehecha moõitépa reg̃uahẽ ne rembiapo ha rejaposévape.
+join-newsletter = Reikekuaa ore rerarysýipe romog̃uahẽ hag̃ua ndéve marandu ipyahúva apopyrã rehegua.
 
 ## What's public
 
