@@ -1,5 +1,9 @@
 ## General
 
+yes-receive-emails = Aa, puluwataa imeeirü tamüin. Tatüjee aa'u jamüirüin saa'in sukuwa'ipa tü aa'innaka sulu'u Common Voice.
+stayintouch = Wayakana sulu'u Mozilla wouneküin na kamalainka amüin tü atüjalaaka o'ttusuka sünainjee tü pütchi aashajaanaka. Watüjee aa'u kasain alatüin, jalejeekualü antüin süchikimaajatüka kasa otta aapajaa saa'ujee kasain paa'inrüin süka tia achikimaajatüka.
+privacy-info = Jalieerü waa'in tü püchikimaajatüka. Paashaje'eraa soo'omüin yaapünaa yaa <privacyLink>poliitika saa'ujee aa'inmajiraa wakuwa'ipa</privacyLink>.
+return-to-cv = Ouyantaa sünainmüin Common Voice
 email-input =
     .label = Imeeirü
 submit-form-action = Ajütaa
