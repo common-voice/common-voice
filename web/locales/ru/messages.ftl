@@ -864,6 +864,8 @@ language-section-in-progress = Идёт подготовка
 language-section-in-progress-new-description = Эти языки в настоящее время находятся на стадии развития сообществом. Индикаторы прогресса отображают, насколько далеко для каждого языка продвинулся процесс <localizationGlossaryLink>локализации веб-сайта </localizationGlossaryLink> и <sentenceCollectionGlossaryLink>сбора предложений</sentenceCollectionGlossaryLink>.
 language-section-launched = Запущены
 language-section-launched-description = Для этих языков веб-сайт был успешно <localizationGlossaryLink>локализован</localizationGlossaryLink>, и на нём было собрано <sentenceCollectionGlossaryLink>достаточно предложений</sentenceCollectionGlossaryLink>, чтобы начать <speakLink>сбор голосов</speakLink> и <listenLink>их проверку</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Последнее обновление: { $lastUpdatedTimeStamp }
 languages-show-more = Больше языков
 languages-show-less = Меньше языков
 language-meter-in-progress = Ход выполнения

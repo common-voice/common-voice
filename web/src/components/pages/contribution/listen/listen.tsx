@@ -399,16 +399,19 @@ class ListenPage extends React.Component<Props, State> {
                   kind="yes"
                   onClick={this.voteYes}
                   disabled={!hasPlayed}
+                  data-testid="vote-yes-button"
                 />
                 <PlayButton
                   isPlaying={isPlaying}
                   onClick={this.play}
                   trackClass="play-clip"
+                  data-testid="play-button"
                 />
                 <VoteButton
                   kind="no"
                   onClick={this.voteNo}
                   disabled={!hasPlayed && !hasPlayedSome}
+                  data-testid="vote-no-button"
                 />
               </>
             }

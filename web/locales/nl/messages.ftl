@@ -864,6 +864,8 @@ language-section-in-progress = In uitvoering
 language-section-in-progress-new-description = Deze talen worden momenteel door de gemeenschap ontwikkeld. De voortgangsbalken geven aan hoe ver elke taal is met de <localizationGlossaryLink>websitevertaling</localizationGlossaryLink> en het <sentenceCollectionGlossaryLink>verzamelen van zinnen</sentenceCollectionGlossaryLink>.
 language-section-launched = Beschikbaar
 language-section-launched-description = Voor deze beschikbare talen is de website met succes <localizationGlossaryLink>vertaald</localizationGlossaryLink>, en zijn er voldoende <sentenceCollectionGlossaryLink>zinnen verzameld</sentenceCollectionGlossaryLink> voor doorlopende bijdragen aan het <speakLink>spreken</speakLink> en <listenLink>luisteren</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Laatst bijgewerkt: { $lastUpdatedTimeStamp }
 languages-show-more = Meer zien
 languages-show-less = Minder zien
 language-meter-in-progress = Voortgang

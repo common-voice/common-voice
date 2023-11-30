@@ -715,6 +715,8 @@ language-section-in-progress = מען ארבעט נאך דערויף
 language-section-in-progress-new-description = דער שפרייכן זענען נאך דערווייל אונטער די געמיינדע אנטוויקלונג. <localizationGlossaryLink>וועבזייטל לאקאליזירונג</localizationGlossaryLink> און <sentenceCollectionGlossaryLink>זאצן זאמלונג</sentenceCollectionGlossaryLink> איז נייטיג אויף צו ווערן ארויסגעשטעלט.
 language-section-launched = ארויסגעשטעלטע
 language-section-launched-description = פאר די דאזיגע ארויסגעשטעלטע שפרייכן איז די וועבזייטל שוין געווארן <localizationGlossaryLink>לאקאליזירט</localizationGlossaryLink>, און האט שוין גענוג <sentenceCollectionGlossaryLink>זאצן געזאמלט</sentenceCollectionGlossaryLink> צו ערלויבן אנגייענדיגע <speakLink>רעדן</speakLink> און <listenLink>הערן</listenLink> ביישטייערונגען.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = לעצט איבערגעפרישט: { $lastUpdatedTimeStamp }
 languages-show-more = זעט מער
 languages-show-less = זעט ווייניגער
 language-meter-in-progress = פארשריט
@@ -942,6 +944,8 @@ demo-listen-subtitle = גרייט צו ביישטייערן?
 ## Validation criteria
 
 contribution-for-example = צום ביישפיל
+contribution-misreadings-description-extended-list-4 = די לעצטע ווארט פעלט ווייל די רעקארדירונג האקט זיך אפ צו שנעל.
+contribution-misreadings-example-3-explanation = [די רעקארדירונג האקט זיך אפ פאר די ענדע פון די לעצטע ווארט]
 contribution-misreadings-example-5-title = מיר גייען ארויס צו נעמען קאווע.
 contribution-misreadings-example-6-title = מיר גייען ארויס צו נעמען קאווע.
 contribution-misreadings-example-7-title = מיר גייען ארויס צו נעמען א קאווע.
@@ -1090,6 +1094,7 @@ partnerships-header = צאמשטעלונגען
 partnerships-header-text = עס נעמט אסאך צו מאכן קאמאן וואויס געשען! מיר טוען עס נישט אליין. ווילט איר זיך צאמשטעלן מיט אונז? מיר וועלן זיך פרייען צו הערן פון אייך.
 partnerships-get-in-touch = פארבינדט אייך
 partnerships-governments-header = רעגירונגען
+partnerships-our-partners = אונזערע שותפים
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = א דאנק פארן ביישטייערן אייער שטימע קליפס!
 first-cta-subtitle-text = וואלט איר געוואלט מיטטיילן אביסל אינפארמאציע איבער וויאזוי איר רעדט?
@@ -1106,6 +1111,7 @@ background-noise = הונטערגרונד גרידער
 background-voices = הונטערגרונד שטימעס
 just-unsure = זענט איר אומזיכער?
 example = ביישפיל
+misreadings-explanation-6 = די לעצטע ווארט פעלט ווייל די רעקארדירונג האקט זיך אפ צו שנעל.
 misreadings-example-1 = מיר גייען ארויס צו נעמען קאווע.
 misreadings-example-2 = מיר גייען ארויס צו נעמען א קאווע.
 misreadings-example-3 = מיר גייען ארויס צו נעמען א קאווע.

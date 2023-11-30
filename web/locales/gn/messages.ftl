@@ -868,6 +868,8 @@ language-section-in-progress = Ojejapóva
 language-section-in-progress-new-description = Ko’ã ñe’ẽ rehe oñemba’apohína ore atýpe. Ñemboguata ra’ãnga ohechauka mboy pevépa <localizationGlossaryLink>oñembohasáma ñandutirenda</localizationGlossaryLink> ñe’ẽ pyahúpe ha mboýpa okakuaáma <sentenceCollectionGlossaryLink>ñe’ẽjoaju ñemono’õ</sentenceCollectionGlossaryLink>.
 language-section-launched = Mombopyre
 language-section-launched-description = Ko’ã ñe’ẽme g̃uarã oĩma <localizationGlossaryLink>ñandutirenda ñembohasapyre</localizationGlossaryLink> ha oĩma avei heta porã <sentenceCollectionGlossaryLink>ñe’ẽjoaju mono’õmbyre</sentenceCollectionGlossaryLink> ha upévare ikatúma <speakLink>oñembohyapu</speakLink> ha <listenLink>oñehendu</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Mbohekopyahu paha: { $lastUpdatedTimeStamp }
 languages-show-more = Ehechave
 languages-show-less = Ehecha’ive
 language-meter-in-progress = Jeku’e

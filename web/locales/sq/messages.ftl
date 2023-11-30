@@ -839,6 +839,8 @@ language-section-in-progress = Në Ecuri
 language-section-in-progress-new-description = Këto gjuhë janë ende nën zhvillim nga bashkësia. Shtyllat e ecurisë tregojnë ku ndodhet secila gjuhë në procesin e <localizationGlossaryLink>përkthimit të sajtit</localizationGlossaryLink> dhe <sentenceCollectionGlossaryLink>grumbullimit të frazave</sentenceCollectionGlossaryLink>.
 language-section-launched = E filluar
 language-section-launched-description = Për këto gjuhë aktive, sajti është <localizationGlossaryLink>përkthyer</localizationGlossaryLink> me sukses, dhe janë <sentenceCollectionGlossaryLink>grumbulluar fraza</sentenceCollectionGlossaryLink> mjaftueshëm për të lejuar kontribut të vazhdueshëm përmes <speakLink>Të folurit</speakLink> dhe <listenLink>Të dëgjuarit</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Përditësimi i Fundit Më: { $lastUpdatedTimeStamp }
 languages-show-more = Shihni Më Tepër
 languages-show-less = Shihni Më Pak
 language-meter-in-progress = Ecuri
