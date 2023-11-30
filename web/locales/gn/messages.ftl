@@ -570,9 +570,9 @@ about-clip-graveyard = Ñongatuhakuéra mbyatyha
 about-clip-graveyard-text = Pe ñongatupyre oiko’ỹva ha’e ayvu ñongatupyre ndoikekuaáiva Common Voice mba’ekuaarã rendápe. Oikoháicha avei pe mba’ekuaarã renda rehe, pe ñongatupyre oiko’ỹva ikatu oñemboguejy.
 about-get-involved = Poropytyvõ
 about-get-involved-text-2 =
-    Reipytyvõsépa ikatu hag̃uáicha Common Voice iporãve?
-    Iporãiténe upéva! Eñe’ẽ orendive ne ñanduti veve rupive térã <discourseLink>Ñomongetaguasu</discourseLink>
-    renda rupive, orekuaaukamína avei oĩramo apañuãi ñanduti rendápe ko’ápe:<githubLink>GitHub</githubLink> térã eikemi <matrixLink>Atyrusu</matrixLink>ñemongeta rendápe.
+    Eipytyvõsépa ikatu hag̃ua Common Voice iporãve?
+    Iporãne upéva! Eñe’ẽ orendive ñanduti veve rupive térã <discourseLink>Ñomongetaguasu</discourseLink>
+    renda rupive, orekuaaukami avei oĩrõ apañuãi ñanduti rendápe:<githubLink>GitHub</githubLink> térã eike <matrixLink>Atyrusu</matrixLink>ñemongeta rendápe.
 about-stay-in-touch = ¿Mba’éicha aiméta ñe’ẽme?
 about-stay-in-touch-button = Eñemboheraguapy
 about-stay-in-touch-text-1 = <emailFragment>Eñemboheraguapy</emailFragment> ore ñanduti veve rysýipe eikuaa hag̃ua mba’éichapa ejekuaaukáta, tembiaporã ha tembiapoite Common Voice moha’ãngajeýpe.
@@ -588,8 +588,8 @@ about-nav-playbook = Aikuaa mba’éichapa aikéta
 ## What is a language
 
 about-playbook-what-is-language = ¿Mba’épa ñe’ẽ Common Voice ryepýpe?
-about-playbook-what-is-language-content-1 = Heta hendáicha oñeñamindu’u ñe’ẽre. Ha mba’íchapa ojehecháta ayvúpe, Common Voice oipota ema’ẽ pe "inteligibilidad mutua" ojeheróva rehe térã "¿ikatúpa ko’ã ñe’ẽ poruhára oñoikũmby oñondivepa péicha ojapóramo?"
-about-playbook-what-is-language-content-2 = Roipota ayvu hetaichagua roikũmby porã hag̃ua opaichagua ñe’ẽhára. Kóva oiko hag̃ua, ayvu mba’ekuaarã aty ohechaukava’erã opaichagua tapicha iñambuéva ojuehegui.
+about-playbook-what-is-language-content-1 = Heta hendáicha oñeñamindu’u ñe’ẽre. Ha mba’íchapa ojehecháta ayvúpe, Common Voice oipota ema’ẽ pe ‘inteligibilidad mutua’ ojeheróva rehe térã ‘¿ikatúpa ko’ã ñe’ẽ poruhára oñoikũmby oñondivepa péicha ojapóramo?’
+about-playbook-what-is-language-content-2 = Roipota ayvu hetaichagua roikũmby porã hag̃ua opaichagua ñe’ẽhára. Kóva oiko hag̃ua, ayvu mba’ekuaarã aty ohechaukava opaichagua tapicha iñambuéva ojuehegui.
 about-playbook-what-is-language-content-3 = Heta ñẽ’e iñambue tuicha iñe’ẽtekuaápe, ñe’ẽndy ha iñemboayvúpe. Upéicha rupi, roñepyrũ <ctaLink>romoinge 'Ñe’ẽambue'</ctaLink> 2022 guive. Kóva ome’ẽ tekohakuérape mba’éichapa ohechakuaáta iñe’ẽnguéra pe mba’ekuaarã aty tuichavéva pa’ũme.
 
 ## How do I add a language
