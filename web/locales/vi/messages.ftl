@@ -859,6 +859,8 @@ language-section-in-progress = Trong tiến trình
 language-section-in-progress-new-description = Những ngôn ngữ này hiện đang được phát triển cộng đồng. Các thanh tiến trình cho biết mỗi ngôn ngữ trong quá trình <localizationGlossaryLink>bản địa hóa trang web</localizationGlossaryLink> và <sentenceCollectionGlossaryLink>thu thập câu</sentenceCollectionGlossaryLink>.
 language-section-launched = Ra mắt
 language-section-launched-description = Đối với những ngôn ngữ được phát hành này, trang web đã được <localizationGlossaryLink>bản địa hóa</localizationGlossaryLink> thành công và có đủ <sentenceCollectionGlossaryLink>các câu được thu thập</sentenceCollectionGlossaryLink> để cho phép đóng góp <speakLink>Nói</speakLink> và <listenLink>Nghe</listenLink> liên tục.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Cập nhật lần cuối: { $lastUpdatedTimeStamp }
 languages-show-more = Xem thêm
 languages-show-less = Xem ít hơn
 language-meter-in-progress = Tiến trình
