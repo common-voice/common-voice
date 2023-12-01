@@ -91,15 +91,21 @@ describe('The Listen Page', () => {
     noButton.click()
 
     playButton.click()
+    // wait for recording to finish before voting yes
+    cy.wait(3000)
     yesButton.click()
 
     playButton.click()
     noButton.click()
 
     playButton.click()
-    noButton.click()
+    // wait for recording to finish before voting yes
+    cy.wait(3000)
+    yesButton.click()
 
     playButton.click()
+    // wait for recording to finish before voting yes
+    cy.wait(3000)
     yesButton.click()
 
     const successPage = cy.get('[data-testid=contribution-success]')
