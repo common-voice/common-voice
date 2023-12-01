@@ -274,9 +274,33 @@ hours-validated = Хынаттынган шактар
 voices-online = Бо үеде онлайн үннер
 todays-progress = Бөгүнгү бурунгаар базымнар
 help-reach-goal = { $goal } чедип алыр кылдыр биске дузалажыңар
+read-terms-q = Ажыглаарының негелделерин номчуп алдыңар бе?
+ready-to-record = Үнүңерни өргүүрүнге белен силер бе?
+all-locales = Шупту
+today = Бөгүн
+x-weeks-short =
+    { $count ->
+        [one] неделя
+       *[other] { $count } неделя
+    }
+x-months-short =
+    { $count ->
+        [one] ай
+       *[other] { $count } ай
+    }
+x-years-short =
+    { $count ->
+        [one] чыл
+       *[other] { $count } чыл
+    }
+help-make-dataset = Бедик шынарлыг ажык база тургусчурунга дузалажыңар
+sign-up-account = Аккаунтуну бүрүткээр
+email-subscription-title = Чаартылгалар дугайында медээлер кээп турар кылдыр бижиттинип алыңар
 
 ## Account Benefits
 
+benefits = Ойнаштыг талалары
+rich-data = Чажыт демографтыг медээлерни берип тура, оларны эң долу кылдыр кылып турар силер. Парлаарының мурнунда демографтыг медээлерни ат чок кылып турар бис.
 
 ## What's public
 
