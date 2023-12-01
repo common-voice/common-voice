@@ -227,6 +227,20 @@ zza = Заза
 ## Layout
 
 speak = Бижидилге
+speak-now = Бижидип эгелээр
+datasets = Бердингеннер чыындызы
+languages = Дылдар
+about = Бистиң дугайывыста
+partner = Партнёр
+profile = Профиль
+help = Дуза
+contact = Харылзажыры
+privacy = Чажыт чорук дугайында
+terms = Негелделер
+cookies = Cookie
+faq = FAQ
+content-license-text = Мында бар чүүлдерни <licenseLink>Creative Commons-туң лицензиязы ёзугаар</licenseLink> ажыглап болур.
+share-title = Биске дузалажырда, оон-даа өске үнүн бижидиксээр улус тыпчып бээрин диледивис
 
 ## Home Page
 
