@@ -33,6 +33,8 @@ describe('The Listen Page', () => {
 
     playButton.click()
 
+    cy.wait(3000)
+
     // vote yes
     yesButton.click()
 

@@ -1,3 +1,5 @@
+import { recordFiveClips } from '../actions/speak.actions'
+
 describe('The Speak Page', () => {
   it('successfully loads', () => {
     cy.visit('/speak')
@@ -46,67 +48,59 @@ describe('The Speak Page', () => {
       })
   })
 
-  it('submits', () => {
+  it('submits (authenticated user)', () => {
     // TODO: we need a way generate these cookies on the fly
     cy.setCookie(
       'connect.sid',
       's%3ASqqNB1UMSlGszNyyY3H98NCyVwHJhPyc.dIijYB%2B1acUTaqN07x%2Bd%2F2ZajjhWUvwSffnghtAjeW8'
     )
+
     cy.visit('/speak')
 
     // should be able to see a card with a new sentence to record
     cy.get('[data-testid=card-1]')
       .invoke('text')
       .then(text1 => {
-        const recordButton = cy.get('[data-testid=record-button]')
-
-        recordButton.should('exist')
-
-        // click to record
-        recordButton.click()
-        // wait 5 seconds
-        cy.wait(5000)
-        // click again to stop recording
-        recordButton.click()
-
-        cy.wait(2000)
-
-        // click to record
-        recordButton.click()
-        // wait 5 seconds
-        cy.wait(5000)
-        // click again to stop recording
-        recordButton.click()
-
-        cy.wait(2000)
-
-        // click to record
-        recordButton.click()
-        // wait 5 seconds
-        cy.wait(5000)
-        // click again to stop recording
-        recordButton.click()
-
-        cy.wait(2000)
-
-        // click to record
-        recordButton.click()
-        // wait 5 seconds
-        cy.wait(5000)
-        // click again to stop recording
-        recordButton.click()
-
-        cy.wait(2000)
-
-        // click to record
-        recordButton.click()
-        // wait 5 seconds
-        cy.wait(5000)
-        // click again to stop recording
-        recordButton.click()
+        recordFiveClips()
 
         cy.get('[data-testid=checkbox]').check()
         cy.get('[data-testid=speak-submit-form]').submit()
+
+        cy.get('[data-testid=card-1]')
+          .invoke('text')
+          .should(text2 => {
+            // the contents of the cards should be different
+            expect(text1).not.eq(text2)
+          })
+      })
+  })
+
+  it('submits (unauthenticated user)', () => {
+    cy.visit('/speak')
+
+    // should be able to see a card with a new sentence to record
+    cy.get('[data-testid=card-1]')
+      .invoke('text')
+      .then(text1 => {
+        recordFiveClips()
+
+        cy.get('[data-testid=checkbox]').check()
+        cy.get('[data-testid=speak-submit-form]').submit()
+
+        // first CTA should be visible
+        cy.get('[data-testid=first-submission-cta]').should('exist')
+
+        cy.get('[data-testid=continue-speaking-button]').click()
+
+        // submit 5 clips again
+        recordFiveClips()
+        cy.get('[data-testid=speak-submit-form]').submit()
+
+        // second CTA and Mars :) should be visible
+        cy.get('[data-testid=second-submission-cta]').should('exist')
+        cy.get('[data-testid=happy-mars]').should('exist')
+
+        cy.get('[data-testid=continue-speaking-button]').click()
 
         cy.get('[data-testid=card-1]')
           .invoke('text')
