@@ -241,9 +241,17 @@ cookies = Cookie
 faq = FAQ
 content-license-text = Мында бар чүүлдерни <licenseLink>Creative Commons-туң лицензиязы ёзугаар</licenseLink> ажыглап болур.
 share-title = Биске дузалажырда, оон-даа өске үнүн бижидиксээр улус тыпчып бээрин диледивис
+share-text = Кылымал угаан кижилерни билип шыдаар болур кылдыр дузаңар кадып, үнүңерни { $link } өргүңер
+link-copied = Шөлүлге хоолгалаттынган
+back-top = Үстүнче
+logout = Үнер
+donate = Өргүүр
 
 ## Home Page
 
+home-title = Common Voice — Mozilla-ның кылымал угаанны кижилер чугаазынга өөредир дээн эгелээшкини-дир.
+default-tagline = Mozilla Common Voice дээрге, кижилерниң чугаазынга кылымал угаанны өөредир дээн эгелээшкин-дир.
+home-cta = Үнүңерни бижидип, биске дузаңар кадыңар!
 
 ## Account Benefits
 
