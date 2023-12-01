@@ -15,7 +15,7 @@ email-opt-in-privacy-v2 = Ao optar por receber emails, você declara que concord
 indicates-required = * Indica campo obrigatório
 not-available-abbreviation = Não disponível
 banner-error-slow-1 = Desculpe, o Common Voice está lento. Obrigado pelo seu interesse.
-banner-error-slow-2 = Estamos recebendo muito tráfego no momento, estamos investigando problemas.
+banner-error-slow-2 = Estamos a receber muito tráfego de momento e estamos a investigar os problemas.
 banner-error-slow-link = Página de status
 error-something-went-wrong = Desculpe, houve um erro
 error-clip-upload = O envio deste clipe continua falhando. Continuar tentando?
@@ -861,6 +861,8 @@ language-section-in-progress = Em andamento
 language-section-in-progress-new-description = Esses idiomas estão atualmente em desenvolvimento pela comunidade. As barras de progresso indicam em que ponto cada idioma está no processo de <localizationGlossaryLink>tradução do site</localizationGlossaryLink> e <sentenceCollectionGlossaryLink>coleta de frases</sentenceCollectionGlossaryLink>.
 language-section-launched = Lançados
 language-section-launched-description = Nestes idiomas lançados, o site foi totalmente <localizationGlossaryLink>traduzido</localizationGlossaryLink> e há <sentenceCollectionGlossaryLink>frases coletadas</sentenceCollectionGlossaryLink> suficientes para permitir dar seguimento a contribuições de <speakLink>Falar</speakLink> e <listenLink>Ouvir</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Última atualização: { $lastUpdatedTimeStamp }
 languages-show-more = Ver mais
 languages-show-less = Ver menos
 language-meter-in-progress = Progresso
