@@ -866,6 +866,8 @@ language-section-in-progress = Spouští se
 language-section-in-progress-new-description = Tyto jazyky jsou zatím v komunitním vývoji. Ukazatele informují o tom, jak daleko jazyk pokročil v <localizationGlossaryLink>překladu webu</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>sbírání vět</sentenceCollectionGlossaryLink>.
 language-section-launched = Spuštěno
 language-section-launched-description = V těchto jazycích už byly naše stránky <localizationGlossaryLink>přeloženy</localizationGlossaryLink> a mají i dostatek <sentenceCollectionGlossaryLink>nasbíraných vět</sentenceCollectionGlossaryLink> k tomu, aby bylo možné <speakLink>nahrávat</speakLink> a <listenLink>poslouchat</listenLink> hlasové příspěvky.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Poslední aktualizace: { $lastUpdatedTimeStamp }
 languages-show-more = Zobrazit více
 languages-show-less = Zobrazit méně
 language-meter-in-progress = Postup
