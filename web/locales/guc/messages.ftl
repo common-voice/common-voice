@@ -14,6 +14,7 @@ email-opt-in-info-sub-with-challenge = Tacheküin aluwataanüin imeeirü tamüin
 email-opt-in-privacy-v2 = Müleka püchekülee süntüin imeeirü pümüin aa müshii jia sümüin Mozilla süpüla aapaanüin tü püchikimaajatüka süchiirua tü amünakalü sulu'u <privacyLink>Poliitika saa'ujee aa'inmajiraa wakuwa'ipa</privacyLink> sümüinka Mozilla.
 indicates-required = * Acheküsü püneekajüin eere püjüttüinjatü
 not-available-abbreviation = N/A
+banner-error-slow-1 = Japüishii waya, koulainsü Common Voice müinma yaa. Analu'ulu pümüin süka jamüin yaain pia yaaya.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
