@@ -1548,7 +1548,37 @@ first-cta-header-text = 음성 클립을 기부해 주셔서 감사합니다!
 first-cta-subtitle-text = 말하는 방법에 대한 정보를 알려주시겠습니까?
 why-donate = 이게 왜 필요한가요?
 add-information-button = 정보 추가
+continue-speaking-button = 아니요, 계속 말씀하세요
+thanks-for-voice-toast = 음성에 관한 정보를 주셔서 감사합니다
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = 음성을 기여해 주셔서 감사합니다!
+create-profile-button = 프로필 만들기
+# GUIDELINES PAGE
+guidelines-header = 기여 기준
+voice-collection = 음성 모음
 sentence-collection = 문장 모음
+varying-pronunciations = 다양한 발음
+misreadings = 오독
+offensive-content = 공격적인 콘텐츠
+background-noise = 배경 소음
+background-voices = 배경 목소리
+volume = 음량
+reader-effects = 리더 효과
+just-unsure = 잘 모르겠다면?
+example = 예
+varying-pronunciations-example = 경로가 불분명했습니다.
+varying-pronunciations-tip-1 = [캐나다 영어에서는 "route"가 "rowt"처럼 들릴 수 있습니다.]
+varying-pronunciations-tip-2 = [영국식 영어에서는 "root"가 될 수도 있습니다.]
+misreadings-explanation-2 = 흔한 실수는 다음과 같습니다:
+misreadings-explanation-7 = 한 단어를 여러 번 읽는 것.
+misreadings-example-1 = We are going out to get coffee.
+misreadings-example-2 = We're going out to get coffee.
+misreadings-example-3 = We are going out to get a coffee.
+misreadings-example-4 = 꿀벌이 빠르게 지나갔다.
+misreadings-tip-3 = [내용이 일치하지 않음]
+background-noise-example-1 = 트라이아스기의 거대 공룡
+still-have-questions = 궁금한 게 더 있으십니까?
+contact-common-voice = Common Voice 팀에 문의하기
 
 ## REVIEW PAGE
 
