@@ -1583,9 +1583,52 @@ public-domain = 공공 부문
 citing-sentences = 문장 인용
 adding-sentences = 문장 추가
 reviewing-sentences = 문장 검토
+public-domain-explanation-5 = 저작권이 더 이상 적용되지 않는 텍스트를 찾으세요(예: 1920년 이전에 출판된 대부분의 책).
+citing-sentences-subheader-websites = 웹사이트
+citing-sentences-subheader-websites-explanation = 웹사이트를 포함할 수 있습니다. 예를 들어 "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = 학계 참고
+citing-sentences-subheader-offline-sources = 오프라인 출처
+citation =
+    .label = 인용
+self-citation = 자기 인용
+self-citation-explanation = 콘텐츠를 직접 작성한 경우 자신을 인용하는 방법입니다.
+adding-sentences-subheader-length = 길이
+adding-sentences-subheader-length-explanation = 문장은 15단어 미만이어야 합니다.
+adding-sentences-subheader-spelling-punctuation = 철자와 구두점
+adding-sentences-subheader-spelling-punctuation-explanation = 문장의 철자가 정확해야 합니다.
+adding-sentences-subheader-speakable = 말할 수 있는
+adding-sentences-subheader-numbers = 숫자
+adding-sentences-subheader-abbreviations = 축약어와 두문자어
+adding-sentences-subheader-punctuation = 구두점
+adding-sentences-subheader-special-characters = 특수 문자 및 외국 문자
+adding-sentences-subheader-offensive-content = 공격적인 콘텐츠
+write-page-subtitle = 여기에 제공된 문장은 공개적으로 사용 가능한 cc-0 라이선스 데이터 세트에 추가됩니다.
+sentence =
+    .label = 문장
+sentence-input-value = 여기에 공공 부분 문장을 입력하세요.
+citation-input-value = 문장의 출처
+citation =
+    .label = 인용
+new-sentence-rule-2 = 문장당 15단어 미만
+new-sentence-rule-3 = 올바른 문법을 사용하세요
+new-sentence-rule-4 = 올바른 철자와 구두점을 사용하세요.
+new-sentence-rule-5 = 숫자와 특수문자 금지
+new-sentence-rule-6 = 외국 글자 금지
+new-sentence-rule-7 = 적절한 인용을 포함하세요
+new-sentence-rule-8 = 자연스럽고 대화하는 것이 이상적입니다(문장을 읽기 쉬워야 함).
+how-to-cite = 어떻게 인용하면 될까요?
+guidelines = 지침
+contact-us = 연락하기
+add-sentence-success = 1문장 수집됨
+add-sentence-error = 문장을 추가하는 중에 오류가 발생했습니다.
+required-field = 이 항목을 입력해 주세요.
 
 ## REVIEW PAGE
 
+report-sc-different-language = 다른 언어
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = 몇 가지 큰 변화를 만들고 있습니다
+sc-redirect-page-subtitle-1 = Sentence Collector는 핵심 Common Voice 플랫폼으로 이동하고 있습니다. 이제 Common Voice에서 문장을 <writeURL>작성</writeURL>하거나 단일 문장 제출을 <reviewURL>검토</reviewURL>할 수 있습니다.
 
 ## BULK SUBMISSION 
 
