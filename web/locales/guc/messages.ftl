@@ -15,6 +15,7 @@ email-opt-in-privacy-v2 = Müleka püchekülee süntüin imeeirü pümüin aa m�
 indicates-required = * Acheküsü püneekajüin eere püjüttüinjatü
 not-available-abbreviation = N/A
 banner-error-slow-1 = Japüishii waya, koulainsü Common Voice müinma yaa. Analu'ulu pümüin süka jamüin yaain pia yaaya.
+banner-error-slow-2 = Mainmajaashi na ekerotakana yaamüin jo müinma yaa o'ttuinjana waya sünain achajaa kasain alatüin.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
