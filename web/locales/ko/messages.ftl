@@ -58,6 +58,7 @@ cs = 체코어
 cv = 추바시어
 cy = 웨일스어
 da = 덴마크어
+dag = 다그바니어
 de = 독일어
 dsb = 저지 소르브어
 dv = 디베히어
@@ -1528,3 +1529,9 @@ localization-select =
 # PARTNERSHIPS PAGE
 partnerships-header = 협력사
 sentence-collection = 문장 모음
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
