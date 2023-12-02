@@ -9,6 +9,7 @@ email-input =
 submit-form-action = Ajütaa
 loading = Pa'atapajaa…
 email-opt-in-info = Tacheküin aluwataanüin imeeirü tamüin eere aashajaanüin saa'ujee kasain aainjüneeka, eere ee'iyatünüin shiyaawase takua otta müsia aapie sümaa sukuwa'ipamaajatü Common Voice.
+email-opt-in-info-title = Ashajiraa sünain tü süpülajanaka imeeirü sümüinka Common Voice
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
