@@ -1579,6 +1579,10 @@ misreadings-tip-3 = [내용이 일치하지 않음]
 background-noise-example-1 = 트라이아스기의 거대 공룡
 still-have-questions = 궁금한 게 더 있으십니까?
 contact-common-voice = Common Voice 팀에 문의하기
+public-domain = 공공 부문
+citing-sentences = 문장 인용
+adding-sentences = 문장 추가
+reviewing-sentences = 문장 검토
 
 ## REVIEW PAGE
 
