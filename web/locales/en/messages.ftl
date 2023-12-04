@@ -769,6 +769,7 @@ number-of-voices = Number of Voices
 splits = Splits
 email-to-download = Enter Email to Download
 why-email = <b>Why an email?</b> We may need to contact you in the future about changes to the dataset, an email provides us a point of contact.
+why-donate = <b>We are proudly non-profit,</b> non-corporate and non-compromised. Thousands of people like you help us stand up for a healthy internet for all. We rely on donations to carry out our mission to keep the Web open and free. <b>Will you give today?</b>
 confirm-size = You are prepared to initiate a download of <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
