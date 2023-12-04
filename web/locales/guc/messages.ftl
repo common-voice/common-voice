@@ -19,6 +19,7 @@ banner-error-slow-2 = Mainmajaashi na ekerotakana yaamüin jo müinma yaa o'ttui
 banner-error-slow-link = Ee'iyalayaa sümaa sukuwa'ipa
 error-something-went-wrong = Japüishii waya, oju'itusu wane kasa nnojotka anain
 error-clip-upload = Ayatüsü ne'e nnojoluin ee'iyalaweein. ¿pu'ulakaweein suchukuwa'a?
+error-clip-upload-server = Ayatüsü ne'e nnojoluin ee'iyalaweein sulu'ujee shipialu'u. Pünoutiraa tü ee'iyalayaaka suchukuwa'a jo pu'ulaka suchukuwa'a mapeena.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -158,6 +159,7 @@ pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polaco
 ps = Pastún
+pt = Portugués
 quc = K'iche'
 quy = Quechua Chanka
 rm-sursilv = romanche sursilvano
@@ -228,6 +230,7 @@ zza = Zaza
 ## Layout
 
 speak = Aashajawaa
+speak-now = Paashajaa müinma yaa
 languages = Anüikiirua
 profile = Ka’yataayakuwa’ipakalü
 help = Akaaliijiaa
