@@ -470,10 +470,28 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Защо Common Voice?
+about-header-description-v2 =
+    <p>Common Voice е публично достъпен набор от гласови данни, захранван от гласовете на доброволци от целия свят. Хората, които искат да създават гласови приложения, могат да използват набора от данни, за да обучават модели за машинно обучение.</p>
+    <p>В момента повечето набори от гласови данни са собственост на компании, което задушава иновациите. Наборите от гласови данни също са недостатъчно представени: хора, които не говорят английски, цветнокожи, хора с увреждания, жени и LGBTQIA+ хора. Това означава, че технологията с активиран глас изобщо не работи за много езици и където работи, може да не работи еднакво добре за всички. Искаме да променим това, като мобилизираме хората навсякъде да споделят гласа си.</p>
+how-does-it-work-title-v2 = Как работи Common Voice?
 how-does-it-work-text = Създаваме масив от гласове с отворен код. Дарете гласа си, потвърдете точността на записите на други хора, направете данните по-добри за всички.
 
 ## How does it work section
 
+about-language-req-subtitle = Някой иска да се добави език.
+about-localization-title = Локализация на уебсайта
+about-localization-subtitle = Текстът на уебсайта се превежда на този език.
+about-sentence-collection-title = Списък с изречения
+about-sentence-collection-subtitle = Събрани са изречения, които хората да четат на глас.
+about-new-lang-title = Стартиране на нов език
+about-new-lang-subtitle = Стартираме сайта Common Voice на този език.
+about-voice-contrib-title = Гласов принос
+about-voice-contrib-subtitle = Хората идват и даряват своя глас.
+about-voice-validation-title = Гласова проверка
+about-voice-validation-subtitle = Други хора потвърждават тези гласови клипове.
+about-dataset-release-title = Издаване на набор от данни
+about-dataset-release-subtitle = Издаваме набора от данни на всеки 3 месеца.
+about-subscribe-text = Искате ли да поддържате връзка с Common Voice?
 about-speak = Говорете
 about-speak-text = Сътрудниците правят записи на гласа си, докато четат допринесени изречения.
 about-listen-queue = Опашка за прослушване
@@ -496,23 +514,61 @@ about-get-involved-text-2 =
     Страхотно! Свържете се чрез електронна поща, форумите на <discourseLink>Discourse</discourseLink>,
     докладвайте за проблеми със сайта в <githubLink>GitHub</githubLink> или се присъединете към
     общността в <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Как да поддържам връзка?
+about-stay-in-touch-button = Регистриране
+about-stay-in-touch-text-1 = <emailFragment>Регистрирайте се</emailFragment> в нашия пощенски списък, за да научите как можете да участвате в кампании, събития и функции за съвместен дизайн на Common Voice.
+about-stay-in-touch-text-2 = Можете да се срещнете с други в езиковите общности на Mozilla, като се присъедините към <discourseLink>Discourse</discourseLink> за тематични разговори или <matrixLink>Matrix</matrixLink> за бързи съвети.
 about-nav-why-common-voice = Защо?
 about-nav-how-it-works = Как?
 about-nav-partners = Партньори
 about-nav-get-involved = Участвайте
+about-nav-how-it-works-2 = Как работи Common Voice?
+about-nav-playbook = Научете как да участвате
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Какво е "език" в Common Voice?
+about-playbook-what-is-language-content-1 = Има много начини да мислим за езика. За целите на моделите за разпознаване на реч Common Voice предлага фокусиране върху „взаимната разбираемост“ или „могат ли говорещите този език да се разбират най-вече, ако се опитат?“
+about-playbook-what-is-language-content-2 = Искаме говорните модели да бъдат по-добри при разбирането на разнообразен набор от говорители. За да се случи това, наборът от гласови данни трябва да представлява много различни хора.
+about-playbook-what-is-language-content-3 = Някои езици имат огромни вариации в граматиката, лексиката и произношението. Поради тази причина ние <ctaLink>въвеждаме „Варианти“</ctaLink> през 2022 г. Това дава на общностите начин да разграничат езиците си в рамките на по-големия набор от данни.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Как да добавя език?
+about-playbook-how-add-language-content-1 =
+    Първо проверете дали вашият език <languageLink>вече съществува</languageLink>.
+    Ако не е, можете да <languageRequestLink>попитате за добавяне на вашия език</languageRequestLink>.
+    Има два етапа. Превод на сайта и събиране на изречения
+about-playbook-how-add-language-translating-heading = Превод на сайта
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Гледайте нашето ръководство как да използвате Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    За преводи използваме инструмент на Mozilla, наречен <pontoonLink>Pontoon</pontoonLink>. Pontoon има много езици,
+    но ако няма вашия, можете да <pontoonRequestLink>искате вашият език да бъде добавен</pontoonRequestLink>.
+    След това, за да направите езика достъпен в проекта Common Voice,
+    <githubRepoLink>заявете новия език в GitHub</githubRepoLink>. <localizationFragment>Вижте повече за превода на сайта</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Събиране на изречения
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Гледайте нашето ръководство за използване на Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Можете да <sentenceCollectorLinkAdd>добавяте малък брой изречения</sentenceCollectorLinkAdd>,
+    или можете да направите <bulkImportDocsLink>групово внасяне с помощта на Github</bulkImportDocsLink>.
+    Не забравяйте, че изреченията трябва да са <licenseLink>CC0 (или обществено достояние)</licenseLink> или можете да напишете свои собствени.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Вижте повече за събирането на изречения</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Как работи локализацията на сайта?
+about-playbook-how-localize-content-1 = Преводът на сайта на Common Voice се извършва на <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Създайте профил</pontoonAccountLink>, ако нямате такъв. След това изберете вашия език <strong>(„Тeam“)</strong> и след това изберете проекта, <pontoonCvLink>Common Voice</pontoonCvLink>. Ще има файлове за превод. Кликнете върху един, след което той показва думи на английски и поле за превода им.
+about-playbook-how-localize-content-3 = Преводът е от английски, но можете да видите <strong>Предложения</strong> на други езици. Щракнете върху иконата <strong>Профил</strong>, след това връзката <strong>Настройки</strong> и добавете всички езици, които говорите. В долния десен ъгъл ще има списък с преводи, наречен <strong>Locales</strong>. Преводите се показват на сайта след един ден.
+about-playbook-how-localize-content-4 = Сайтът е готов за стартиране, когато достигне 75% завършеност.
+about-playbook-how-localize-content-5 = Гледайте нашия видео обяснител, за да помогнете
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Как да добавя изречения?
+about-playbook-how-add-sentences-content-1 = Можете да добавяте изречения на <writePageLink>страницата за писане</writePageLink> или да преглеждате изречения на <reviewPageLink>страницата за преглед</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Изреченията трябва да бъдат прегледани и приети от двама души, за да бъдат включени в Common Voice. Вие създавате насоки за вашия език <languageGuidelinesLink>тук</languageGuidelinesLink>. Изреченията трябва да са <licenseLink>обществено достояние</licenseLink> и да са по-кратки от 15 думи. Можете да помолите собственика на текст да го направи <waiverLink>CC0 чрез нашия процес за отказ</waiverLink> и да ни изпрати на commonvoice@mozilla.com
 
 ## How to record quality
 
