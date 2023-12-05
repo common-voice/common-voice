@@ -1,16 +1,19 @@
+import path from 'node:path'
+
+import { Job } from 'bullmq'
+import { readerTaskEither as RTE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
+
 import { runFetchAllClipsForLocale } from '../core/clips'
 import { isMinorityLanguage } from '../core/ruleOfFive'
 import { AppEnv, ProcessLocaleJob } from '../types'
-import { Job } from 'bullmq'
 import { runCorporaCreator } from '../infrastructure/corporaCreator'
 import { runCompress } from '../core/compress'
 import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
 import { runReportedSentences } from '../core/reportedSentences'
 import { runUpload } from '../core/upload'
-import { readerTaskEither as RTE } from 'fp-ts'
-import path from 'node:path'
+import { runCleanUp } from '../core/cleanUp'
 
 const processPipeline = pipe(
   RTE.Do,
@@ -26,6 +29,7 @@ const processPipeline = pipe(
   RTE.bind('stats', ({ totalDurationInMs, tarFilepath }) =>
     runStats(totalDurationInMs, tarFilepath),
   ),
+  RTE.chainFirst(({ tarFilepath }) => runCleanUp(tarFilepath)),
 )
 
 export const processLocale = async (job: Job<ProcessLocaleJob>) => {
