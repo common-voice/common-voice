@@ -1,19 +1,21 @@
 import path from 'node:path'
 
 import { Job } from 'bullmq'
-import { readerTaskEither as RTE } from 'fp-ts'
+import { readerTaskEither as RTE, task as T, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 
 import { runFetchAllClipsForLocale } from '../core/clips'
 import { isMinorityLanguage } from '../core/ruleOfFive'
 import { AppEnv, ProcessLocaleJob } from '../types'
 import { runCorporaCreator } from '../infrastructure/corporaCreator'
-import { runCompress } from '../core/compress'
+import { generateTarFilename, runCompress } from '../core/compress'
 import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
 import { runReportedSentences } from '../core/reportedSentences'
 import { runUpload } from '../core/upload'
 import { runCleanUp } from '../core/cleanUp'
+import { doesFileExistInBucket } from '../infrastructure/storage'
+import { getDatasetBundlerBucketName } from '../config/config'
 
 const processPipeline = pipe(
   RTE.Do,
@@ -41,5 +43,19 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
     releaseTarballsDirPath: path.join(releaseDirPath, 'tarballs'),
     clipsDirPath: path.join(releaseDirPath, locale, 'clips'),
   }
-  await processPipeline(env)()
+  const releaseTarballName = generateTarFilename(locale, releaseName)
+
+  const releaseExistsAlready = await pipe(
+    doesFileExistInBucket(getDatasetBundlerBucketName())(
+      `${releaseName}/${releaseTarballName}`,
+    ),
+    TE.getOrElse(() => T.of(false)),
+  )()
+
+  if (releaseExistsAlready) {
+    console.log(`Release ${releaseTarballName} exists already.`)
+    Promise.resolve()
+  } else {
+    await processPipeline(env)()
+  }
 }

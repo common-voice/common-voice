@@ -30,7 +30,7 @@ export const addProcessLocaleJobs = (settings: Settings) =>
     TE.tap(({ allLocales }) =>
       TE.right(
         console.log(
-          'Got the following locales: ',
+          'The following locales will be processed: ',
           allLocales.map(locale => locale.name).join(', '),
         ),
       ),
