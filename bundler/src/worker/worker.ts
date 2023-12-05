@@ -15,8 +15,8 @@ export const createWorker: IO.IO<void> = () => {
             job.data,
             addProcessLocaleJobs,
             TE.match(
+              err => console.log('Error:', err),
               () => constVoid(),
-              err => console.log(err),
             ),
           )()
         }
@@ -33,6 +33,15 @@ export const createWorker: IO.IO<void> = () => {
   )
 
   worker.on('completed', job => {
-    console.log('DONE with', job.name)
+    switch (job.name) {
+      case 'init': {
+        console.log('Initialization completed')
+        break
+      }
+      case 'processLocale': {
+        console.log(`Finished processing locale - ${job.data.locale}`)
+        break
+      }
+    }
   })
 }
