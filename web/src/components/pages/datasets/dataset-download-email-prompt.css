@@ -1,3 +1,5 @@
+@import url('../../media.css');
+
 .dataset-download-prompt {
     margin-top: 2rem;
     width: 100%;
@@ -15,6 +17,10 @@
             display: flex;
             flex: 0 1 40%;
             align-content: space-around;
+
+            @media (--sm-down) {
+                flex-direction: column;
+            }
 
             & .why-email {
                 width: 300px;
@@ -59,12 +65,21 @@
     }
 
     & .donate-btn-container {
-        margin-inline-start: 24px;
+        @media (--md-up) {
+            margin-inline-start: 24px;
+        }
+
+        @media (--sm-down) {
+            margin-block-start: 20px;
+        }
 
         & .donate-btn {
             height: 3.5rem;
-            width: 255px;
             background: var(--valid-green);
+
+            @media (--md-up) {
+                width: 255px;
+            }
         }
     }
 
