@@ -514,11 +514,11 @@ faq-why-not-ask-read-q = Mba’éguipa ndapejeruréi tapichakuérape tomoñe’�
 faq-why-not-ask-read-a = Ikatukuaa hag̃uáicha Common Voice Kuaapy’aty ojeporukuaa, rog̃uahẽ peteĩ ñe’ẽme roiporu’añotaha ñe’ẽ oñemoherakuãva’ekue Ñemoneĩ Creative Commons (CC0) rupive. Péva he’ise ijetu’uveha oréve rojuhu hag̃ua ñe’ẽjoaju ikatúva roiporu, katu péicha rupi opavave oiporukuaa ñe’ẽjoaju ñambyatyva’ekue oikotevẽ’ỹre Mozilla ñemoneĩkuatia. Ipahápeniko rombyatyse ñe’ẽjoaju oiporukuaáva oimeraẽva, taha’e kuaarekahára, mbo’ehaovusu, mba’apoha, tekuái, ONG ha ambueve.
 faq-why-account-q = Mba’érepa añemboheraguapyva’erã
 faq-is-account-public-q = Marandu che mba’ete reheguápa ojehecháta
-faq-how-privacy-q = Mba’éichapa pemboajekatu ndojekuaaitaha mávapa ome’ẽ ijahy’o ko tembiapópe
-faq-how-privacy-a = Opaite ñe’ẽryapu ñongatupyre oñeñongatu kuaapy’atýpe ndoguerekóiva ipype kuaapyrã ome’ẽva’ekue ijahy’o rehegua. Ijahy’o ome’ẽva he’i avei moõgotyoguápa ha’e katu upéva noñeñongatúi héra ykére. Ojepe’a héra oñemboguapy mboyve kuaapy’atýpe ha araka’eve ndojehechaukái mavavépe.
-faq-what-determine-identity-q = Mba’épa he’ise “ndaikatuiha aikuaa mávapa ñe’ẽhára” Common Voice kuaapy’atýpe?
+faq-how-privacy-q = Mba’éichapa pemboaje ndojekuaaitaha mavaitépa ome’ẽ ijahy’o pu ko tembiapópe
+faq-how-privacy-a = Opaite ñe’ẽryapu ñongatupyre oñeñongatu kuaapy’atýpe ndoguerekóiva ipype kuaapyrã ome’ẽva’ekue ijahy’o rehegua. Ijahy’o ome’ẽva he’i avei moõgotyoguápa ha’e katu upéva noñeñongatúi héra ykére. Ojepe’a héra oñemboguapy mboyve kuaapy’atýpe ha araka’eve ndojehechaukái mavavetépe.
+faq-what-determine-identity-q = Mba’épa he’ise “ndaikatuiha aikuaa mávapa upe ñe’ẽhára” Common Voice kuaapy’atýpe
 faq-what-determine-identity-a =
-    Common Voice kuaapy’aty oiporukuaa opavave ojapóvo tembiporu oikũmbýva ha ohaíva ohendúva. Romo’ã hag̃ua ñane pytyvõhárape mba’evaígui, ore rojerure opavavépe omboguejýva Common Voice kuaapy’aty oñangareko ha omboaje hag̃ua ore pytyvõhárape.
+    Common Voice kuaapy’aty oiporukuaa opavave ojapóvo tembiporu oikũmbýva ha ohaíva ohendúva. Romo’ã hag̃ua ñane pytyvõhárape mba’evaígui, ore rojerure opavavetépe omboguejýva Common Voice kuaapy’aty oñangareko ha omboaje hag̃ua ore pytyvõhárape.
     
     Opaite ñe’ẽryapu ñongatupyre oñembo’apoharakuaa’ỹ. Remboguejy jave Common Voice kuaapy’aty, remoneĩ nderehekamo’ãiha mávapa umi oporopytyvõva. Péva he’ise ndaikatuiha rembojoaju ñe’ẽryapu ñongatupyre pytyvõhára rehe. Jepéramo upéva reiporukuaa ñe’ẽryapu ñongatupyre ejapo hag̃ua tembiporu oikũmbýva oje’éva chupe ha ohaikuaáva ohendúva ha avei ambue tembiporu.
 faq-what-is-cv = ¿Mba’épa Common Voice?
