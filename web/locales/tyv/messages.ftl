@@ -323,6 +323,7 @@ improve-audio = Профильде медээлер бижиттинген үн�
 
 ## Profile - Email
 
+connect-gravatar = Gravatar-ны каттыштырар
 
 ## Profile - Email
 
@@ -365,6 +366,7 @@ faq-description = Common Voice — Mozilla-ның машиналарны шын 
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-4 = Бөлүктүң киржилгези болгаш шиитпирлер хүлээри.
 
 ## Glossary
 
@@ -377,6 +379,7 @@ faq-description = Common Voice — Mozilla-ның машиналарны шын 
 
 ## Datasets Page
 
+community-playbook = Бөлүкке өөредилге ному
 
 ## Download Modal
 
@@ -410,6 +413,7 @@ faq-description = Common Voice — Mozilla-ның машиналарны шын 
 
 ## Custom Goals
 
+confirm-goal = Сорулганы бадыткаар
 
 ## Profile Delete
 
@@ -474,6 +478,8 @@ demo-language-select-card-header = Common Voice — делегейде хөй д
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Чаа домактарны бадыткаар
+sc-confirm-button-text = Бадыткаар
 
 ## LANGUAGE INFO
 
@@ -495,6 +501,7 @@ demo-language-select-card-header = Common Voice — делегейде хөй д
 
 # [/SentenceCollector]
 
+partnerships-community-header = Бөлүк, чогаадыкчылар болгаш хамааты ниитилел
 
 ## REVIEW PAGE
 
