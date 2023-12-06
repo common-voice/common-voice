@@ -1188,11 +1188,13 @@ sc-login-err-try-again = Обиди се повторно.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Профил: { $username }
+sc-personal-err-remove = Не може да се отстрани јазикот
 sc-personal-your-languages = Вашите јазици:
 sc-personal-remove-button = отстрани
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } додадени од вас
+sc-personal-not-added = Сè уште немате додадено ниту еден јазик.
 
 ## REVIEW CRITERIA
 
@@ -1203,6 +1205,8 @@ sc-criteria-item-2 = Реченицата мора да биде грамати�
 
 ## REVIEW
 
+sc-review-title = Прегледајте реченици
+sc-review-loading = Се вчитуваат реченици…
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Извор: { $sentenceSource }
