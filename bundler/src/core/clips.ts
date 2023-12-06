@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import { Transform } from 'node:stream'
+import { PassThrough, Transform } from 'node:stream'
 import { streamingQuery } from '../infrastructure/database'
 import {
   doesFileExistInBucket,
@@ -149,14 +149,17 @@ const fetchAllClipsForLocale = (
         )
         console.log('Start Stream Processing')
 
-        const existingClipsStream = stream
-          .pipe(checkClipForExistence())
+        const memoryStream = new PassThrough({ objectMode: true })
+
+        stream
+          .pipe(memoryStream)
           .on('finish', () => {
             conn.end()
           })
           .on('error', err => reject(err))
 
-        existingClipsStream  
+        memoryStream
+          .pipe(checkClipForExistence())
           .pipe(downloadClips(releaseDirPath))
           .pipe(transformClips(isMinorityLanguage))
           .pipe(writeFileStreamToTsv(locale, releaseDirPath))
