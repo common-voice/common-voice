@@ -490,6 +490,12 @@ sc-add-lang-could-not-add = Дыл неметтинмээн
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-sentences-title = Чаа домактарны бадыткаар
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = Ойталаан бижиктериңер — { $countOfInvalidated }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } домак көрдүнмээн. Күзээр болзуңарза, домактарыңарны чорудар бетинде хынап база болур силер.
 sc-confirm-button-text = Бадыткаар
 
 ## LANGUAGE INFO
