@@ -11,7 +11,7 @@ loading = Henyhẽhína…
 email-opt-in-info = Pembou chéve ñanduti veve rupi marandu hupytyrã rehegua térã mba’éichapa oguata tembiapo ha Common Voice.
 email-opt-in-info-title = Ejuaju Common Voice ñanduti veve rysýire
 email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñanduti vevépe marandu ojehupytyséva, avei mba’éichapa oguata tembiapo ha Common Voice rehegua.
-email-opt-in-privacy-v2 = Emongurusúrõ oñemog̃uahẽ hag̃ua ndéve marandu he’ise emoneĩha mba’éichapa Mozilla oiporu tapichakuéra kuaapyrã oñemyesakãva <privacyLink>ko’ápe</privacyLink>.
+email-opt-in-privacy-v2 = Emongurusúrõ oñemog̃uahẽ hag̃ua ndéve marandu he’ise emoneĩha mba’éichapa Mozilla oiporu tapichakuéra kuaapyrã oñemoesakãva <privacyLink>ko’ápe</privacyLink>.
 indicates-required = Remyanyhẽva’erã katuete (*) tenda’i hairenda.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Rombyasy, Common Voice omba’apóma mbeguekatu. Aguyje emomba’ére.
@@ -325,8 +325,8 @@ whats-public = Mba’épa ojehechakuaáta
 email-not-public = Noromoherakuãmo’ãi ne ñanduti veve.
 recordings-and-locale-public = Mboýmapa eñe’ẽñongatu ha umi ñe’ẽ eipytyvõvape ohecháta opavavete.
 username-optin-public = Erekuaa avei reipotápa ojekuaa poruhára réra térã iñemíta.
-demographic-deidentified-clarity-2 = Kuaapyrã avano’õ rehegua remoĩkuaáva avei (techapyrãramo aryve, meña, ñe’ẽte ha ñembohyapu reko) ndojekuaaukamo’ãi araka’eve nde roguetépe, ha noñembojoajumo’ãi poruhára rérare kuaapy’atýpe. Mba’erendurã oñembojoajúta kuaapy avano’õ rehegua rehe ikatu hag̃uáicha oñehesa’ỹijo porãve mba’ekuaapy - techapyrã oĩramo tembiporu apohára omoheñoiséva tembiporu tetã térã tetãpehẽme g̃uarã.
-username-email-not-demographic = Mavave ndoikuaamo’ãi poruhára réra ha ñanduti veve oiporukuévo ñe’ẽryapu.
+demographic-deidentified-clarity-2 = Kuaapyrã avano’õ rehegua remoĩkuaáva avei (techapyrãrõ aryve, meña, ñe’ẽte ha ñembohyapu reko) ndojekuaaukamo’ãi araka’eve nde roguetépe, ha noñembojoajumo’ãi poruhára rérare kuaapy’atýpe. Mba’erendurã oñembojoajúta kuaapy avano’õ reheguare ikatu hag̃uáicha oñehesa’ỹijo porãve umi mba’ekuaapy - techapyrã oĩramo tembiporu apohára omoheñoiséva tembiporu tetã térã tetãpehẽme g̃uarã.
+username-email-not-demographic = Avave ndoikuaamo’ãi poruhára réra ha ñanduti veve oiporukuévo ñe’ẽryapu.
 
 ## Speak & Listen Shortcuts
 
@@ -412,7 +412,7 @@ female = Kuña
 other = Ambue
 why-profile-title = Mba’érepa mba’ete
 why-profile-text =
-    Emombe’umivéramo nde rehegua oipytyvõkuaáta opaite ñe’ẽryapu ojeporu porãve hag̃ua.
+    Emombe’umivéramo nde rehegua oipytyvõkuaáta opaite ñe’ẽryapu ojeporu porãve hag̃ua ko’ẽreíre.
     Tembiporu oñeha’ãva ohaívo ohendúva oiporu remombe’úva ohai porãve rekávo.
 dashboard = Tabléro
 build-profile = Hemoheñói Mba’ete
@@ -423,10 +423,10 @@ edit-profile = Embosako’i Mba’ete
 profile-create-success = ¡Oĩporã, heñóima nde roguerã!
 profile-close = Mboty
 profile-explanation = Eikuaa mba’éicha oguata tembiapo ehechávo togueteépe ha eipytyvõ hekoite hag̃ua ñe’ẽryapu jeporu.
-thanks-for-account = Aguyje erehaguére nde mba’ete añeteha, ñambosako’ive nde roguetee.
+thanks-for-account = Aguyje erehaguére ne mba’ete añeteha, ñambosako’ive nde roguetee.
 why-demographic = Mba’érepa ojejapo kóva
-why-demographic-explanation-2 = Mba’ekuaarã poruhára rehegua: aryve, meña ha mba’éichapa oñembohyapu oikoháre oipytyvõ mbarete mohendahápe oikũmby hag̃ua ohendúva. Poruhára réra ha ñanduti veve ndojoajumo’ãi araka’eve mba’erendurã emondóva rehe ha ndete erekuaa eipotápa ojekuaa nde poruhára réra térãpa nahániri.
-accept-privacy = Oĩporã, amoneĩ tojeporu kuaapyrã chemba’éva oñemyesakã haguéicha chéve Mozilla <privacyLink>Kuaapy Jeporu</privacyLink> kuatiápe.
+why-demographic-explanation-2 = Mba’ekuaarã poruhára rehegua: aryve, meña ha mba’éichapa oñembohyapu oikoháre oipytyvõ mbarete mohendahápe oikũmby hag̃ua ohendúva. Poruhára réra ha ñanduti veve ndojoajumo’ãi araka’eve mba’erendurã emondóva rehegua ha ndete erekuaa eipotápa ojekuaa nde poruhára réra térãpa nahániri.
+accept-privacy = Oĩporã, amoneĩ tojeporu kuaapyrã chemba’éva oñemoesakã haguéicha chéve Mozilla <privacyLink>Kuaapy Jeporu</privacyLink> kuatiápe.
 accept-privacy-title = Temiñemi Porureko
 accept-privacy-and-terms = Amoneĩ umi <termsLink>Ñe’ẽkuaa</termsLink> ha Common Voice <privacyLink>Ñemurã ñemigua</privacyLink>
 login-identity = Tembiapo ñepyrũ réra
@@ -486,34 +486,34 @@ faq-when-release2-a = Common Voice Rova iñe’ẽ’etáva oñemoporãve ohóvo
 faq-why-mission-q = ¿Mba’ére Common Voice oiko Mozilla rembipota ndive?
 faq-why-mission-a = Mozilla omba’apo ikatu hag̃uáicha ñanduti okakuaa opavavépe g̃uarã. Upevarã tekotevẽ roipytyvõ ñanduti guerojerahárape tembiapo porãite rupive, Common Voice peteĩva upeichagua. Jepérõ tembiporu’i ñe’ẽryapu reheve omba’apóva ojeporumeme heta aty michĩvape, ore roimo’ã tekotevẽha oiporukuaa opavave. Upevarã tuichamba’e ñamombaretérõ ñe’ẽ sa’ive oñeñe’ẽva ñande yvy ape ári. Common Voice ningo kuaapymbyatyha opavavépe g̃uarã, oimeraẽva oiporukuaáva ha upévare Mozilla aty’i ha guerojerahára oĩva ñande yvy pukukuépe omba’apo heta tembiapópe ha oiporu ko’ã tembiporu’i rojapóva.
 faq-what-cv-and-deepspeech-q = ¿Mba’épe ojuavy Common Voice ha Deep Speech?
-faq-what-cv-and-deepspeech-a = Common Voice Kuaapy’aty omombareteve Mozilla ñe’ẽkũmbyha rembiporu hérava Deep Speech. Osẽ’ypy jasypateĩ 2017-pe ha mbeguekatúpe iporãve. Roimo’ã opavave oiporukuaava’erã Deep Speech ha Common Voice Kuaapy’aty oñondive, ha’éva mba’eporurã opavavépe g̃uarã. Roipota ko’ã tembiporu oipytyvõ guerojerahárape omoheñóivo ambue tembiporu porãva ha opavavépe g̃uarã.
+faq-what-cv-and-deepspeech-a = Common Voice Kuaapy’aty omombareteve Mozilla ñe’ẽkũmbyha rembiporu hérava Deep Speech. Osẽ’ypy jasypateĩ 2017-pe ha mbeguekatúpe iporãve. Roimo’ã opavave oiporukuaava’erã Deep Speech ha Common Voice Kuaapy’aty oñondive, ha’éva mba’eporurã opavavépe g̃uarã. Roipota ko’ã tembiporu oipytyvõ guerojerahárape omoheñóivo ambue tembiporu ha opavavépe g̃uarã.
 faq-is-goal-assistant-q = ¿Common Voice ohupytyséva ha’e ayvu pytyvõha jejapo?
-faq-is-goal-assistant-a = Ore rupytyrã tuichavéva Common Voice kuaapy’aty reheve ha’ehína pe opaite oiporukuaáva ñe’ẽñeikũmby rembiporu iñe’ẽtépe oikotevẽhápe. Tembiporu pytyvõha oñe’ẽkuaávaniko peteĩchante ãichagua tembiporu, ikatu avei ojejapo heta ambue mba’e Common Voice kuaapy’ypy reheve.
-faq-do-want-native-q = ¿Ko ñe’ẽ ndaha’éi che ñe’ẽte ha ojekuaa upéva cherehe añe’ẽvo, jepémo aipytyvõkuaápa avei?
-faq-do-want-native-a = Ikatu, ndeichagua oñe’ẽvakatu roipota avei orepytyvõ! Common Voice ombyatykuaa mba’éichapa ombohyapuambue tapicha oñe’ẽva, upéva rupi omba’apokuaaporãvéta tembiporu ñe’ẽryapu ñeikũmby rehegua. Ja’ekuaa opaichagua tapicha taha’eha’éva iñe’ẽte térã nahániri oipytyvõkuaa.
+faq-is-goal-assistant-a = Ore rupytyrã tuichavéva Common Voice kuaapy’aty reheve ha’ehína pe opaite oiporukuaáva ñe’ẽñeikũmby rembiporu iñe’ẽteépe oikotevẽhápe. Tembiporu pytyvõha oñe’ẽkuaávaniko peteĩchante ãichagua tembiporu, ikatu avei ojejapo heta ambue mba’e Common Voice kuaapy’ypy reheve.
+faq-do-want-native-q = ¿Kóva ndaha’éi che ñe’ẽte ha ojekuaa upéva cherehe añe’ẽvo, jepémo aipytyvõkuaápa avei?
+faq-do-want-native-a = Ikatu, ndeichagua oñe’ẽva roipota orepytyvõ! Common Voice ombyatykuaa mba’éichapa ombohyapuambue tapicha oñe’ẽva, upéva rupi omba’apokuaaporãvéta tembiporu ñe’ẽryapu ñeikũmby rehegua. Ja’ekuaa opaichagua tapicha taha’eha’éva iñe’ẽte térã nahániri oipytyvõkuaa.
 faq-why-different-speakers-q = Mba’érepa peikotevẽ opaite tapicháre oñe’ẽkuaáva peteĩ ñe’ẽme
 faq-why-different-speakers-a =
-    Heta ñe’ẽryapu ñongatupyre ombyaty mba’éichapa oñe’ẽ sa’i tapicha ha péicha oñemboyke ambuévape ombohyapuambuévape, techapyrãrõ <articleLink>kuimba’e ha tapicha aty avano’õ iviru sa’ivévape</articleLink>. Ndajaresarekóirõ tapicha aty michĩvévape ombohyapuambuéva ñe’ẽ térã iñe’ẽambuéva rehe, opytáta hikuái tapykuépe, oñembo’ykémavavoi chupekuéra. Heta mohendaha noikũmbykuaái kuña ñe’ẽ ohendúrõ.
+    Heta ñe’ẽryapu ñongatupyre ombyaty mba’éichapa oñe’ẽ sa’i tapicha ha péicha oñemboyke ambue ombohyapuambuévape, techapyrãrõ <articleLink>kuimba’e ha tapicha aty avano’õ iviru sa’ivévape</articleLink>. Ndajajesarekóirõ tapicha aty michĩvéva ombohyapuambuéva ñe’ẽ térã iñe’ẽambuéva rehe, opytáta tapykuépe, oñembo’ykémavavoi chupekuéra. Heta mohendaha noikũmbykuaái kuña ñe’ẽ ohendúvo.
     ¡Upévare rombyatýta opaichagua ñe’ẽryapu, taha’e kuña térã kuimba’e, iñe’ẽ’ypýva térã iñe’ẽkõiva!
 faq-why-my-lang-q = Mba’érepa che ñe’ẽtee ndaipóri gueteri
 faq-why-my-lang-a =
     Common Voice ha’e pyendavusu crowdsourcing rehegua, ha umi ñe’ẽ oñembojoapypaite omba’aporeíva rupive.
     ¡Rovy’aitereíta remoĩrõ ne ñe’ẽ! <languageRequestLink>Eporandu emoĩ hag̃ua ne ñe’ẽ.</languageRequestLink>
-faq-what-quality-q = Mba’eichaitépa iporãveva’erã ñe’ẽryapu ikatu hag̃uáicha oike kuaapy atýpe
-faq-what-quality-a = Roipota Common Voice kuaapy’aty orekotaha opaichagua ñe’ẽryapu ikatu hag̃uáicha tembiporu oikũmbýtava oje’éva chupe omba’apokuaa avei ka’aguýpe. Iporã oĩramo opaichagua ñe’ẽryapu, péichante oñembokatupyrýta avei tembiporu’i ojapoporã hembiapo ndohenduporãkuaáiramo jepe. Katu yvypóra oikũmbykuaava’erã oje’éva ñe’ẽryapu ñongatupyrépe.
-faq-why-10k-hours-q = Mba’érepiko pehupytyse 10,000 aravo ñe’ẽryapu ñongatupyre peteĩ ñe’ẽme?
+faq-what-quality-q = Mba’eichaitépa iporãveva’erã umi ñe’ẽryapu ikatu hag̃uáicha oike kuaapy atýpe
+faq-what-quality-a = Roipota Common Voice kuaapy’aty toreko opaichagua ñe’ẽryapu ikatu hag̃uáicha tembiporu oikũmbýtava oje’éva chupe omba’apokuaa avei ka’aguýpe. Iporã oĩrõ opaichagua ñe’ẽryapu, péichante oñembokatupyrýta avei tembiporu’i ojapoporã hembiapo ndohenduporãkuaáirõ jepe. Katu yvypóra oikũmbykuaava’erã oje’éva ñe’ẽryapu ñongatupyrépe.
+faq-why-10k-hours-q = Mba’érepiko pehupytyse 10,000 aravo ñe’ẽryapu ñongatupyre peteĩ ñe’ẽmegua?
 faq-why-10k-hours-a = Tembiporu’i ñe’ẽryapu oikũmbýva oikotevẽ upe tetakue ikatupyry hag̃ua ñe’ẽryapu jehaípe.
 faq-how-calc-hours-q = ¿Mba’éicha omboaje Common Voice aravokuéra?
 faq-how-calc-hours-a = Ore roipapa peteĩteĩ mboy aravópa ipukútavaicha ñe’ẽryapu ñongatupyre ha upéi romboheta upe papapy opaite ñe’ẽryapu ñongatupyre oĩva ambue ñe’ẽme rehe.
 faq-where-src-from-2-q = ¿Moõgui ojegueru moñe’ẽrã reñoiha?
 faq-where-src-from-2-a =
-    Jehai jaiporúva ko tembiapópe ome’ẽrei ñandéve tapicha opytyvõséva ha avei roiporu ñe’ẽjoaju oĩreímava oimeraẽ oiporu hag̃uáicha, ou ta’ãngambyry ome’ẽreíva ñandéve, techapyrãrõ <italic>¡Ajépa iporã jeikove!</italic>.
+    Jehai jaiporúva ko tembiapópe ome’ẽrei ñandéve tapicha oipytyvõséva ha roiporu ñe’ẽjoaju oĩreímava oimeraẽva oiporu hag̃uáicha, ou ta’ãngambyry ome’ẽreíva ñandéve, techapyrãrõ <italic>¡Ajépa iporã jeikove!</italic>.
     
     Ehecha moõguipa ou jehai jaiporúva ko <githubLink>GitHub ñongatuhápe</githubLink>.
-faq-why-not-ask-read-q = Mba’éguipa ndapejeruréi tapichakuérape tomoñe’ẽ hag̃ua aranduka térã Wikipedia mba’ehai oĩmava heta ñe’ẽme?
-faq-why-not-ask-read-a = Ikatu hag̃uáicha Common Voice Kuaapy’aty ojeporukuaa, rog̃uahẽ peteĩ ñe’ẽme roiporu’añotaha ñe’ẽ oñemoherakuãva’ekue Ñemoneĩ Creative Commons (CC0) rupive. Péva he’ise ijetu’uveha oréve rojuhu hag̃ua ñe’ẽjoaju ikatúva roiporu, katu péicha rupi opavave oiporukuaa ñe’ẽjoaju ñambyatyva’ekue oikotevẽ’ỹre Mozilla ñemoneĩkuatia. Ipahápeniko rombyatyse ñe’ẽjoaju oiporukuaáva oimeraẽva, taha’e kuaarekahára, mbo’ehaovusu, mba’apoha, tekuái, ONG ha ambueve.
-faq-why-account-q = ¿Mba’ére añemboheraguapyva’erã?
-faq-is-account-public-q = ¿Marandu che mba’ete rehegua ojehechakuaa?
+faq-why-not-ask-read-q = Mba’éguipa ndapejeruréi tapichakuérape tomoñe’ẽ aranduka térã Wikipedia mba’ehai oĩmava heta ñe’ẽme
+faq-why-not-ask-read-a = Ikatukuaa hag̃uáicha Common Voice Kuaapy’aty ojeporukuaa, rog̃uahẽ peteĩ ñe’ẽme roiporu’añotaha ñe’ẽ oñemoherakuãva’ekue Ñemoneĩ Creative Commons (CC0) rupive. Péva he’ise ijetu’uveha oréve rojuhu hag̃ua ñe’ẽjoaju ikatúva roiporu, katu péicha rupi opavave oiporukuaa ñe’ẽjoaju ñambyatyva’ekue oikotevẽ’ỹre Mozilla ñemoneĩkuatia. Ipahápeniko rombyatyse ñe’ẽjoaju oiporukuaáva oimeraẽva, taha’e kuaarekahára, mbo’ehaovusu, mba’apoha, tekuái, ONG ha ambueve.
+faq-why-account-q = Mba’érepa añemboheraguapyva’erã
+faq-is-account-public-q = Marandu che mba’ete reheguápa ojehecháta
 faq-how-privacy-q = Mba’éichapa pemboajekatu ndojekuaaitaha mávapa ome’ẽ ijahy’o ko tembiapópe
 faq-how-privacy-a = Opaite ñe’ẽryapu ñongatupyre oñeñongatu kuaapy’atýpe ndoguerekóiva ipype kuaapyrã ome’ẽva’ekue ijahy’o rehegua. Ijahy’o ome’ẽva he’i avei moõgotyoguápa ha’e katu upéva noñeñongatúi héra ykére. Ojepe’a héra oñemboguapy mboyve kuaapy’atýpe ha araka’eve ndojehechaukái mavavépe.
 faq-what-determine-identity-q = Mba’épa he’ise “ndaikatuiha aikuaa mávapa ñe’ẽhára” Common Voice kuaapy’atýpe?
@@ -543,13 +543,13 @@ about-localization-title = Ñanduti renda moñe’ẽasa
 about-localization-subtitle = Ñanduti renda oñemoñe’ẽasa pe ñe’ẽme.
 about-sentence-collection-title = Ñe’ẽjuaju ñembyatyha
 about-sentence-collection-subtitle = Oñembyaty ñe’ẽjuaju tapicha omoñe’ẽ hag̃ua ayvúpe.
-about-new-lang-title = Ñe’ẽ pyahu ñemyasãi
-about-new-lang-subtitle = Romyasãima Common Voice renda ko ñe’ẽme.
+about-new-lang-title = Ñe’ẽ pyahu ñemoasãi
+about-new-lang-subtitle = Romoasãima Common Voice renda ko ñe’ẽme.
 about-voice-contrib-title = Ñe’ẽayvu ñeme’ẽ
 about-voice-contrib-subtitle = Yvypóra ou ha oipytyvõ iñe’ẽ rupive.
 about-voice-validation-title = Ñe’ẽayvu ñemoneĩ
 about-voice-validation-subtitle = Ambue yvypóra omoneĩ umi ñe’ẽayvu.
-about-dataset-release-title = Mba’ekuaarã aty ñemyasãi
+about-dataset-release-title = Mba’ekuaarã aty ñemoasãi
 about-dataset-release-subtitle = Rohupi mba’ekuaarã aty 3 jasy ohasa rire.
 about-subscribe-text = ¿Eñe’ẽse tapiaitépa Common Voice ndive?
 about-speak = Ayvu
@@ -617,7 +617,7 @@ about-playbook-how-localize-content-1 = Pe tenda Common Voice moñe’ẽasa oje
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Emoheñói mba’ete</pontoonAccountLink> ndereguerekóirõ. Upéi, eiporavo ne ñe’ẽ <strong>(‘Atyete’)</strong> ha upéi eiporavo apopyrã, <pontoonCvLink>Common Voice</pontoonCvLink>. Oĩta marandurenda emoñe’ẽasa hag̃ua. Eikutu peteĩva, upéi ohechaukáta inglés ñe’ẽme ha peteĩ kora emoñe’ẽasa hag̃ua.
 about-playbook-how-localize-content-3 = Ko ñe’ẽasa ou inglés ñe’ẽgui, ikatu ehecha <strong>Ñe’ẽporã</strong> ambue ñe’ẽme. Eikutu pe ta’ãnga’i <strong>Mba’ete</strong>, upéi pe juajuha <strong>Ñemoheko</strong> ha embojuaju oimeraẽva ñe’ẽ eipotáva. Yvy gotyo akatúape oĩ ñe’ẽasapyre rysýi hérava <strong>Ñemoheko tendaiteguáva</strong>. Umi ñe’ẽasa ojehecháta tendápe peteĩ ára rire.
 about-playbook-how-localize-content-4 = Pe tenda ojehecha ñepyrũta ohupyty vove 75% ijejapo.
-about-playbook-how-localize-content-5 = Ehecha ore ta’ãngamýi myesakãha ne pytyvõtava
+about-playbook-how-localize-content-5 = Ehecha ore ta’ãngamýi moesakãha ne pytyvõtava
 
 ## How to add sentences
 
@@ -642,9 +642,9 @@ about-playbook-how-grow-language-content-1 = Emoheñói pa’ũ hetaiterei tapic
 about-playbook-how-grow-language-content-2 = Tembiaporã
 about-playbook-how-grow-language-content-3 = Ejapokuaa tembiaporã eykeko hag̃ua tapichakuérape oipytyvõ hag̃ua. Ndahasyive reimo’ãhágui. Ejapokuaa ñandutípe tembiporu ta’ãngamýiva ndive térã oñondive hekorosãramo. <eventTemplate>Eporandu ore plantilla rehe ha mba’eita ejapo hag̃ua tembiaporã</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Ava ñandutieta
-about-playbook-how-grow-language-content-5 = Eiporukuaa pyendavusu ava ñandutietáva emyasãi hag̃ua ñe’ẽmondo. Emoherakuã hechapyrã omyasakãva mba’érepa iporã ha eñepyrũ eñe’ẽ ambue tapicha ndive derecho lingüístico rehegua, IA ayvu térã ñe’ẽrei tembiporupyahu rehegua. Ehechave ñemoñe’ẽ <campaignLink>eñepyrũ moherakuã guasu, oikehápe tetepy ojeporukuaajeýva</campaignLink> rehegua.
+about-playbook-how-grow-language-content-5 = Eiporukuaa pyendavusu ava ñandutietáva emoasãi hag̃ua ñe’ẽmondo. Emoherakuã hechapyrã omyasakãva mba’érepa iporã ha eñepyrũ eñe’ẽ ambue tapicha ndive derecho lingüístico rehegua, IA ayvu térã ñe’ẽrei tembiporupyahu rehegua. Ehechave ñemoñe’ẽ <campaignLink>eñepyrũ moherakuã guasu, oikehápe tetepy ojeporukuaajeýva</campaignLink> rehegua.
 about-playbook-how-grow-language-content-6 = Ñemboaty ha ñandutieta
-about-playbook-how-grow-language-content-7 = Ejuhu ambue ojepy’apýva. Ikatu mbo’ehaovusu, mbo’ehao ñe’ẽ rehegua, aty oñangarekóva térã mba’ekuaarã arandupy rekoha. Eñe’ẽ ha emyesakã mba’éichapa oipytyvõkuaa ha mba’érepa. <outreachTemplates>Ehecha ore ñanduti veve plantilla moherakuãha</outreachTemplates>.
+about-playbook-how-grow-language-content-7 = Ejuhu ambue ojepy’apýva. Ikatu mbo’ehaovusu, mbo’ehao ñe’ẽ rehegua, aty oñangarekóva térã mba’ekuaarã arandupy rekoha. Eñe’ẽ ha emoesakã mba’éichapa oipytyvõkuaa ha mba’érepa. <outreachTemplates>Ehecha ore ñanduti veve plantilla moherakuãha</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>¡Emoheñóike!</strong> Nde rekoha ñe’ẽ reheguáva ha’eñóta ha ko’áva ha’e mba’éichapa eñepyrũkuaa.
 
 ## How to validate
@@ -773,7 +773,7 @@ resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ha’e <docsLink>te
 resource-deepspeech-info = Mozilla ñe’ẽ jekuaaukarã mongu’eha ijayvu jurujáva, Deep Speech, eiporu emoheñói hag̃ua tembiporu’i ñe’ẽ jekuaaukarã. Emoñe’ẽ <githubLink>Github mbykypyre</githubLink> térã eike <discourseLink>DeepSpeech Discourse</discourseLink> eikuaa hag̃ua mba’éicha eñepyrũta.
 resource-coqui-info = <coquiLink>Mbojy</coquiLink> omba’apo tembiporupyahu ñe’ẽpu ijurujávare. Hembiaporãme oike STT mongu’eha ha TTS ojekóva tembikuaa pypukúre.
 community-playbook = Tekoha Ñembosarái
-resource-playbook-info = <playbookLink>Ejuhúta ñemyesakã</playbookLink> Common Voice rapykuere rehegua, ñemoñe’ẽasa guive mba’ekuaarã aty jeporu peve, avei mba’éichapa eikekuaáta ore rekohápe.
+resource-playbook-info = <playbookLink>Ejuhúta ñemoesakã</playbookLink> Common Voice rapykuere rehegua, ñemoñe’ẽasa guive mba’ekuaarã aty jeporu peve, avei mba’éichapa eikekuaáta ore rekohápe.
 data-other-librispeech-description = LibriSpeech-niko peteĩ ñe’ẽryapuryru oguerekóva 1000 aravo rupi 16Khz ñe’ẽjoaju ryapu ñongatupyre inglés-pe oúva aponde’aguasu LibriVox arandukarendúvagui.
 data-other-ted-name = TED-LIUM Ñe’ẽryapu Ryru
 data-other-ted-description = TED-LIUM ñe’ẽryapu ryru ombyaty ñe’ẽryapu oúva ñomongeta ha jehai TED ñandutirendágui.
@@ -828,7 +828,7 @@ request-language-explanation-1 =
     Ehechamína oĩpa ne ñe’ẽ tysýipe
     <languagesPageLink>Ñe’ẽkuaaty Ñe’ẽtekuaa rehegua Kuatiarogue</languagesPageLink>.
     Ndaipóriramo, emyanyhẽ ko kuatiañe’ẽ ha <strong>romondóta ndéve peteĩ ñe’ẽmondo oipytyvõva.
-    omyesakãvo mba’éichapa remohendava’erã ne ñe’ẽ</strong>-pe.
+    omoesakãvo mba’éichapa remohendava’erã ne ñe’ẽ</strong>-pe.
 request-language-explanation-2 =
     Avei <strong>romomarandúta ore rekoha ñangarekohárape
     eikuaaséva rehegua</strong>, ikatukuaa hag̃uáicha
@@ -848,7 +848,7 @@ request-language-google-recaptcha-error = Oĩ osẽvaíva reCAPTCHA ndive. Ikat�
 # Success page
 request-language-success-heading = ¡Aguyje! Emondo ñe’ẽ rehegua porandu
 request-language-success-list-1 =
-    Og̃uahẽta ndéve peteĩ ñanduti veve omyesakãtava
+    Og̃uahẽta ndéve peteĩ ñanduti veve omoesakãtava
     mba’éichapa embojuajúta ne ñe’ẽ Common Voice ndive
 request-language-success-list-2 =
     Ore ñangarekohára tekohagua oñe’ẽta nendive oikuave’ẽ potávo
@@ -1147,7 +1147,7 @@ download-request-link-single = Avei ikatu embokuatia ha emboja umi URL mboguejyh
 welcome-staff = ¡Tereg̃uahẽporã { $company } atýpe!
 help-contribute = Nde reipytyvõkuaa rojapo hag̃ua ko tembiapo porã, ha’éva Common Voice ñe’ẽryapu ryru oiporukuaáva opavave, ejapomína nde rogueteerã.
 login-company = Eike / Eñemboheraguapy ñanduti veve { $company } reheve
-profile-not-required = Anínte ejapo nde rogueteerã reporopytyvõ hag̃ua katu iporãvéta rejapórõ, ko guýpe romyesakãmive mba’érepa.
+profile-not-required = Anínte ejapo nde rogueteerã reporopytyvõ hag̃ua katu iporãvéta rejapórõ, ko guýpe romoesakãmive mba’érepa.
 read-more-about = Emoñe’ẽve ore kuatiarogue rehegua
 
 ## DemoLayout
@@ -1578,7 +1578,7 @@ partnerships-academia-description = Mba’epyahu jejapo oĩ ore ñe’ãitépe. 
 partnerships-small-business-header = Mba’apohaguasu michĩva, oĩhápe mba’apohaguasu pyahu tembiporupyahugua ha IA
 partnerships-small-business-description = Tapiaite rohenduse mba’ekuaarã poruhárape hemikotevẽ ha ijere rehegua: pyendavusúpe mba’ekuaarã ñembyatyha guive marandu ñeme’ẽ mba’ekuaarã rekotee peve, roikotevẽ <emailFragment>ñehendu ndehegui.</emailFragment>
 partnerships-corporates-header = Mba’apohaguasu tuicháva ha pyendavusugua
-partnerships-corporates-description = Eñe’ẽsevéramo mba’ekuaarã aty rehegua, emyasãisépa pyendavusúpe iporã hag̃uáicha térã ehekáta pa’ũ ñepytyvõrã, <emailFragment>ehai oréve.</emailFragment>
+partnerships-corporates-description = Eñe’ẽsevéramo mba’ekuaarã aty rehegua, emoasãisépa pyendavusúpe iporã hag̃uáicha térã ehekáta pa’ũ ñepytyvõrã, <emailFragment>ehai oréve.</emailFragment>
 partnerships-our-partners = Ore irũnguéra
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = ¡Aguyjevete ne ñe’ẽpu ñeme’ẽre!

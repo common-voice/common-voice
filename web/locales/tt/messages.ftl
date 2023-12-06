@@ -860,6 +860,8 @@ language-section-in-progress = Әзерләнә
 language-section-in-progress-new-description = Бу телләр әлеге вакытта җәмгыять тарафыннан үстерү стадиясендә. Прогрес индикаторлары һәр тел өчен сайтның никадәр <localizationGlossaryLink>тәрҗемә ителүен</localizationGlossaryLink> һәм <sentenceCollectionGlossaryLink>җөмләләрнең никадәр җыелуын</sentenceCollectionGlossaryLink> күрсәтә.
 language-section-launched = Эшли башлаганнар
 language-section-launched-description = Эшкә кушылган әлеге телләр өчен сайт уңышлы <localizationGlossaryLink>тәрҗемә ителеп</localizationGlossaryLink>, <speakLink>Сөйләү</speakLink> һәм <listenLink>Тыңлау</listenLink> өчен җитәрлек күләмдә <sentenceCollectionGlossaryLink>җөмләләр җыелды</sentenceCollectionGlossaryLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Соңгы яңартылу: { $lastUpdatedTimeStamp }
 languages-show-more = Күбрәк
 languages-show-less = Әзрәк
 language-meter-in-progress = Прогресс
@@ -929,6 +931,9 @@ listen-empty-state = Бу телдә тикшерүгә җөмләләр кал�
 listen-loading-error =
     Сезгә тыңлатыр өчен һичбер аудиоязма таба алмадык.
     Зинһар соңрак янәдән тырышып карагыз.
+listen-abort-title = Клипларны тикшерү тәмамлансынмы?
+listen-abort-cancel = Тикшерүне дәвам итү
+listen-abort-confirm = Тикшерүне тәмамлау
 speak-empty-state = Бу телдә яздыруга җөмләләр калмады...
 speak-empty-state-cta = Җөмләләр өстәү
 speak-loading-error =
