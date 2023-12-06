@@ -320,6 +320,7 @@ improve-audio = Профильде медээлер бижиттинген үн�
 
 ## ProfileForm
 
+contribution-experience = Common Voice-биле ажылыңарны үнелеңер
 
 ## Profile - Email
 
@@ -400,6 +401,7 @@ contact-title = Харылзажыр хевир
 ## Contribution
 
 contribute = Үлүг киирер
+speak-empty-state-cta = Домактар саналдаар
 
 ## Contribution Nav Items
 
@@ -413,6 +415,7 @@ continue = Улаштырар
 
 ## Dashboard
 
+contribution-activity = Дузалакчының үлүү
 
 ## Custom Goals
 
@@ -446,6 +449,8 @@ demo-language-select-card-header = Common Voice — делегейде хөй д
 
 ## Validation criteria
 
+contribution-criteria-page-title = Киржириниң негелдези
+contribution-criteria-page-description = Үнүңер бижидиңер
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -505,6 +510,8 @@ sc-confirm-button-text = Бадыткаар
 # [/SentenceCollector]
 
 partnerships-community-header = Бөлүк, чогаадыкчылар болгаш хамааты ниитилел
+# GUIDELINES PAGE
+guidelines-header = Киржиириниң удуртулга бижии
 contact-common-voice = Common Voice-туң командазы-биле харылзажыптыңар
 public-domain-explanation-4 = Авторлар, драматургтар азы сценаристер-биле харылзашкаш, олар чогаалдарының улуг эвес кезиин хөй-ниитиниң өнчүзүнче дамчыдып берип шыдаар-дыр бе, айтырып көрүңер.
 contact-us = Бистиң-биле харылзаа
