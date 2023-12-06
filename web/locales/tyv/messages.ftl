@@ -373,12 +373,16 @@ about-playbook-how-project-governance-content-4 = Бөлүктүң киржил�
 
 ## Glossary
 
+de-identified = Арын чок
+de-identified-explanation = БАЛААР
 
 ## Error pages
 
 
 ## Data
 
+review-aborted = Медээлерни балаар
+review-delete-recordings = Мээң бижиктеримни балаар
 
 ## Datasets Page
 
@@ -423,6 +427,7 @@ contribution-activity = Дузалакчының үлүү
 ## Custom Goals
 
 create-custom-goal = Хууда сорулга тургузар
+daily-goal = Хүннүң сорулгазы
 confirm-goal = Сорулганы бадыткаар
 
 ## Profile Delete
