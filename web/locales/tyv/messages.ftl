@@ -359,6 +359,7 @@ about-speak-text = Халас берген домактар банкызында
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-1 = Аңгы-аңгы кижилерниң Common Voice-ка киржип болур аргазын тургузары медээлер чыындызының моон-даа хөй улуска ажыктыг боорун магадылап турар. Бистиң кылган курлавырларывысты болгаш шаблоннарывысты ажыглап болур силер.
 
 ## How to validate
 
@@ -421,6 +422,7 @@ contribution-activity = Дузалакчының үлүү
 
 ## Custom Goals
 
+create-custom-goal = Хууда сорулга тургузар
 confirm-goal = Сорулганы бадыткаар
 
 ## Profile Delete
@@ -451,8 +453,10 @@ demo-language-select-card-header = Common Voice — делегейде хөй д
 
 ## Validation criteria
 
+contribution-criteria-nav = Негелделер
 contribution-criteria-page-title = Киржириниң негелдези
 contribution-criteria-page-description = Үнүңер бижидиңер
+contribution-background-noise-example-3-fixed-title = [Дызырааш] Триас эразының улуг динозаврлары [дызырааш]
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -522,6 +526,7 @@ sc-settings-failed = Эдилгелер өскертинмээн. Катап ш�
 # [/SentenceCollector]
 
 partnerships-community-header = Бөлүк, чогаадыкчылар болгаш хамааты ниитилел
+create-profile-button = Профиль кылыр
 # GUIDELINES PAGE
 guidelines-header = Киржиириниң удуртулга бижии
 contact-common-voice = Common Voice-туң командазы-биле харылзажыптыңар
