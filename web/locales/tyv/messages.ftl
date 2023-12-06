@@ -415,6 +415,9 @@ speak-empty-state-cta = Домактар саналдаар
 
 ## Reporting
 
+report-different-language = Өске дыл
+report-different-language-detail = Нарын-дыр
+report-difficult-pronounce = Адаары берге-дир
 continue = Улаштырар
 
 ## Goals
