@@ -339,6 +339,7 @@ faq-description = Common Voice — Mozilla-ның машиналарны шын 
 
 ## How does it work section
 
+about-speak-text = Халас берген домактар банкызындан номчувушаан, киржикчилер үн бижиктери кылып турар.
 
 ## Community Playbook Content
 ## What is a language
@@ -380,6 +381,7 @@ about-playbook-how-project-governance-content-4 = Бөлүктүң киржил�
 
 ## Datasets Page
 
+resource-coqui-info = <coquiLink>Coqui</coquiLink> ажык чугаа технологиязынга тураскааттынган. Оларның төлевилелдеринде хандыр өөренир сорулгалыг STT база TTS шимчедикчилери кирип турар.
 community-playbook = Бөлүкке өөредилге ному
 
 ## Download Modal
@@ -483,6 +485,7 @@ contribution-criteria-page-description = Үнүңер бижидиңер
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Дыл неметтинмээн
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -506,6 +509,7 @@ sc-confirm-button-text = Бадыткаар
 
 ## SETTINGS
 
+sc-settings-failed = Эдилгелер өскертинмээн. Катап шенеп көрүңерем.
 
 # [/SentenceCollector]
 
