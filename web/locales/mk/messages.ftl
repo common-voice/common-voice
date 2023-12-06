@@ -647,6 +647,7 @@ number-of-voices = Број на гласови
 splits = Исечоци
 email-to-download = Внесете е-пошта за преземање
 why-email = <b>Зошто е-пошта?</b> Можеби ќе треба да ве контактираме во иднина во врска со промените во базата на податоци - е-пошта ни овозможува точка за контакт.
+why-donate = Зошто прашувате?
 confirm-size = Подготвени сте да започнете преземање на <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -1164,6 +1165,16 @@ sc-review-form-button-skip = Прескокни
 sc-review-form-button-approve = Одобри
 sc-review-form-button-submit =
     .submitText = Заврши преглед
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Нема прегледана реченица.
+        [one] 1 реченица е прегледана. Ви благодариме!
+       *[other] { $sentences } реченици се прегледани. Ви благодариме!
+    }
+sc-review-form-review-failure = Прегледот не може да се зачува. Обидете се повторно подоцна.
+sc-review-link = Преглед
 
 ## SETTINGS
 
@@ -1176,7 +1187,59 @@ sc-validation-no-abbreviations = Реченицата не треба да со�
 
 # PARTNERSHIPS PAGE
 partnerships-header = Партнерства
+partnerships-get-in-touch = Стапете во контакт
+partnerships-become-a-partner = Станете Common Voice партнер
+partnerships-community-header = Заедница, креативци и граѓанско општество
+partnerships-foundations-header = Фондации
+partnerships-governments-header = Влади
+partnerships-academia-header = Универзитети, академици и истражувачи
+partnerships-small-business-header = Мали бизниси, вклучително технолошки и AI стартапи
+partnerships-our-partners = Нашите партнери
+why-donate = Зошто прашувате?
+add-information-button = Додадете информации
+create-profile-button = Создај профил
+# IMAGE TAGS
+img-alt-success-checkmark = ознака за успех
+# GUIDELINES PAGE
+guidelines-header = Насоки за придонес
+guidelines-header-subtitle = Разберете како да придонесете и потврдите реченици и аудио клипови во базата на податоци на Common Voice
+voice-collection = Збирка на гласови
 sentence-collection = Збирка на реченици
+varying-pronunciations = Различни изговори
+misreadings = Погрешно читање
+offensive-content = Навредлива содржина
+background-noise = Бучава во позадина
+background-voices = Гласови во позадина
+volume = Глас
+reader-effects = Ефекти на читателот
+just-unsure = Само несигурни?
+example = Пример
+varying-pronunciations-example = Маршутата беше нејасна.
+misreadings-explanation-2 = Многу чести грешки вклучуваат:
+misreadings-tip-3 = [Содржината не се совпаѓа]
+background-noise-tip-1 = [прекинат со бучава во позадина]
+background-noise-tip-2 = [Дел од текстот не може се слушне]
+background-voices-tip-1 = Дали доаѓаш? [повикан од друг]
+public-domain = Јавен домен
+citing-sentences = Цитирање реченици
+adding-sentences = Додавање реченици
+reviewing-sentences = Преглед на реченици
+citing-sentences-subheader-websites = Мрежни места
+adding-sentences-subheader-length = Должина
+adding-sentences-subheader-length-explanation = Реченицата треба да има помалку од 15 зборови.
+adding-sentences-subheader-spelling-punctuation = Правопис и интерпункција
+adding-sentences-subheader-spelling-punctuation-explanation = Реченицата мора да биде правилно напишана.
+adding-sentences-subheader-speakable = Изговорлива
+adding-sentences-subheader-numbers = Броеви
+adding-sentences-subheader-abbreviations = Кратенки и акроними
+adding-sentences-subheader-punctuation = Интерпункциски знаци
+adding-sentences-subheader-offensive-content = Навредлива содржина
+sentence =
+    .label = Реченица
+sentence-input-value = Внесете ја вашата реченица од јавниот домен тука
+citation-input-value = Извор на вашата реченица
+sc-review-write-title = Какви реченици можам да додадам?
+new-sentence-rule-2 = Помалку од 15 зборови по реченица
 
 ## REVIEW PAGE
 
