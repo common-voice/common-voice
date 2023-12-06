@@ -148,13 +148,19 @@ const fetchAllClipsForLocale = (
           [includeClipsFrom, includeClipsUntil, locale],
         )
         console.log('Start Stream Processing')
-        stream
+
+        const existingClipsStream = stream
           .pipe(checkClipForExistence())
+          .on('finish', () => {
+            conn.end()
+          })
+          .on('error', err => reject(err))
+
+        existingClipsStream  
           .pipe(downloadClips(releaseDirPath))
           .pipe(transformClips(isMinorityLanguage))
           .pipe(writeFileStreamToTsv(locale, releaseDirPath))
           .on('finish', () => {
-            conn.end()
             resolve()
           })
           .on('error', err => reject(err))
