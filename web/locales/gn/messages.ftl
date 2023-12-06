@@ -490,16 +490,16 @@ faq-what-cv-and-deepspeech-a = Common Voice Kuaapy’aty omombareteve Mozilla ñ
 faq-is-goal-assistant-q = ¿Common Voice ohupytyséva ha’e ayvu pytyvõha jejapo?
 faq-is-goal-assistant-a = Ore rupytyrã tuichavéva Common Voice kuaapy’aty reheve ha’ehína pe opaite oiporukuaáva ñe’ẽñeikũmby rembiporu iñe’ẽteépe oikotevẽhápe. Tembiporu pytyvõha oñe’ẽkuaávaniko peteĩchante ãichagua tembiporu, ikatu avei ojejapo heta ambue mba’e Common Voice kuaapy’ypy reheve.
 faq-do-want-native-q = ¿Kóva ndaha’éi che ñe’ẽte ha ojekuaa upéva cherehe añe’ẽvo, jepémo aipytyvõkuaápa avei?
-faq-do-want-native-a = Ikatu, ndeichagua oñe’ẽvakatu roipota avei orepytyvõ! Common Voice ombyatykuaa mba’éichapa ombohyapuambue tapicha oñe’ẽva, upéva rupi omba’apokuaaporãvéta tembiporu ñe’ẽryapu ñeikũmby rehegua. Ja’ekuaa opaichagua tapicha taha’eha’éva iñe’ẽte térã nahániri oipytyvõkuaa.
+faq-do-want-native-a = Ikatu, ndeichagua oñe’ẽva roipota orepytyvõ! Common Voice ombyatykuaa mba’éichapa ombohyapuambue tapicha oñe’ẽva, upéva rupi omba’apokuaaporãvéta tembiporu ñe’ẽryapu ñeikũmby rehegua. Ja’ekuaa opaichagua tapicha taha’eha’éva iñe’ẽte térã nahániri oipytyvõkuaa.
 faq-why-different-speakers-q = Mba’érepa peikotevẽ opaite tapicháre oñe’ẽkuaáva peteĩ ñe’ẽme
 faq-why-different-speakers-a =
-    Heta ñe’ẽryapu ñongatupyre ombyaty mba’éichapa oñe’ẽ sa’i tapicha ha péicha oñemboyke ambuévape ombohyapuambuévape, techapyrãrõ <articleLink>kuimba’e ha tapicha aty avano’õ iviru sa’ivévape</articleLink>. Ndajaresarekóirõ tapicha aty michĩvévape ombohyapuambuéva ñe’ẽ térã iñe’ẽambuéva rehe, opytáta hikuái tapykuépe, oñembo’ykémavavoi chupekuéra. Heta mohendaha noikũmbykuaái kuña ñe’ẽ ohendúrõ.
+    Heta ñe’ẽryapu ñongatupyre ombyaty mba’éichapa oñe’ẽ sa’i tapicha ha péicha oñemboyke ambue ombohyapuambuévape, techapyrãrõ <articleLink>kuimba’e ha tapicha aty avano’õ iviru sa’ivévape</articleLink>. Ndajajesarekóirõ tapicha aty michĩvéva ombohyapuambuéva ñe’ẽ térã iñe’ẽambuéva rehe, opytáta tapykuépe, oñembo’ykémavavoi chupekuéra. Heta mohendaha noikũmbykuaái kuña ñe’ẽ ohendúvo.
     ¡Upévare rombyatýta opaichagua ñe’ẽryapu, taha’e kuña térã kuimba’e, iñe’ẽ’ypýva térã iñe’ẽkõiva!
 faq-why-my-lang-q = Mba’érepa che ñe’ẽtee ndaipóri gueteri
 faq-why-my-lang-a =
     Common Voice ha’e pyendavusu crowdsourcing rehegua, ha umi ñe’ẽ oñembojoapypaite omba’aporeíva rupive.
     ¡Rovy’aitereíta remoĩrõ ne ñe’ẽ! <languageRequestLink>Eporandu emoĩ hag̃ua ne ñe’ẽ.</languageRequestLink>
-faq-what-quality-q = Mba’eichaitépa iporãveva’erã ñe’ẽryapu ikatu hag̃uáicha oike kuaapy atýpe
+faq-what-quality-q = Mba’eichaitépa iporãveva’erã umi ñe’ẽryapu ikatu hag̃uáicha oike kuaapy atýpe
 faq-what-quality-a = Roipota Common Voice kuaapy’aty orekotaha opaichagua ñe’ẽryapu ikatu hag̃uáicha tembiporu oikũmbýtava oje’éva chupe omba’apokuaa avei ka’aguýpe. Iporã oĩramo opaichagua ñe’ẽryapu, péichante oñembokatupyrýta avei tembiporu’i ojapoporã hembiapo ndohenduporãkuaáiramo jepe. Katu yvypóra oikũmbykuaava’erã oje’éva ñe’ẽryapu ñongatupyrépe.
 faq-why-10k-hours-q = Mba’érepiko pehupytyse 10,000 aravo ñe’ẽryapu ñongatupyre peteĩ ñe’ẽme?
 faq-why-10k-hours-a = Tembiporu’i ñe’ẽryapu oikũmbýva oikotevẽ upe tetakue ikatupyry hag̃ua ñe’ẽryapu jehaípe.
