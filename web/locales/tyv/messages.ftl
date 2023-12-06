@@ -332,6 +332,7 @@ connect-gravatar = Gravatar-ны каттыштырар
 ## FAQ
 
 faq-why-my-lang-a = Common Voice — краудсорсинг платформазы-дыр,ында бар шупту дылдарны эки-турачылар киирген. Силерниң дылыңарны база улуг өөрүшкү-биле киирер бис. Силерниң дылыңарны киирерин <languageRequestLink> маңаа </languageRequestLink> дилеп болур.
+faq-how-privacy-a = Үнүңер өргүңер
 faq-description = Common Voice — Mozilla-ның машиналарны шын кижилер чугаазынга өөредир дээн эгелээшкининиң кезии-дир.
 
 ## ABOUT US
@@ -381,6 +382,8 @@ de-identified-explanation = БАЛААР
 
 ## Data
 
+data-download-button = Common Voice медээлерин кииртир
+data-bundle-button = Кииртир { $language }
 review-aborted = Медээлерни балаар
 review-delete-recordings = Мээң бижиктеримни балаар
 
@@ -393,6 +396,7 @@ download = Кииртир
 
 ## Download Modal
 
+download-back = Медээлер кииртир
 
 ## Contact Modal
 
@@ -442,6 +446,7 @@ profile-form-delete = Профильди балаар
 
 ## Profile Download
 
+download-request-modal-title = Кииртирде айтылгалар
 
 ## Landing
 
