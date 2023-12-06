@@ -425,6 +425,7 @@ faq-description = Common Voice — Mozilla-ның машиналарны шын 
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice — делегейде хөй дылдыг үн медээлериниң эң улуг чыындызы-дыр.
 
 ## Demo Account
 
