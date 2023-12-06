@@ -58,6 +58,7 @@ cs = 체코어
 cv = 추바시어
 cy = 웨일스어
 da = 덴마크어
+dag = 다그바니어
 de = 독일어
 dsb = 저지 소르브어
 dv = 디베히어
@@ -140,6 +141,8 @@ nan-tw = 대만어(민난)
 nb-NO = 노르웨이어 보크몰
 nd = IsiNdebele (North)
 ne-NP = 네팔어
+nhe = 동부 와스테카 나와틀어
+nhi = 서부 시에라 푸에블라 나와틀어
 nia = 니아스어
 nl = 네덜란드어
 nn-NO = 노르웨이어 뉘노르스크
@@ -197,6 +200,7 @@ ts = 총가어
 tt = 타타르어
 tw = 트위어
 ty = 타히티어
+tyv = 투바어
 uby = 우비흐어
 udm = 우드무르트어
 ug = 위구르어
@@ -217,6 +221,7 @@ zh-CN = 중국어(중국)
 zh-HK = 중국어(홍콩)
 zh-TW = 중국어(중화민국)
 zu = 줄루어
+zza = 자자어
 
 # [/]
 
@@ -1527,4 +1532,103 @@ localization-select =
     .label = 언어/현지화 선택
 # PARTNERSHIPS PAGE
 partnerships-header = 협력사
+partnerships-header-text = Common Voice가 실현되려면 많은 시간이 필요합니다! 혼자하지 않습니다. 협력하고 싶나요? 의견을 듣고 싶습니다.
+partnerships-get-in-touch = 연락하기
+partnerships-become-a-partner = Common Voice 파트너 되기
+partnerships-community-header = 커뮤니티, 창작자, 시민사회
+partnerships-foundations-header = 기반
+partnerships-governments-header = 정부
+partnerships-governments-description = 우리는 기술과 혁신, 언어권에 대한 공공 부문의 참여를 지원하게 되어 기쁘게 생각합니다. 주요 프로젝트나 캠페인을 실행할 계획이라면 <emailFragment>연락</emailFragment>하세요.
+partnerships-academia-header = 대학, 학계 및 연구원
+partnerships-small-business-header = 기술 및 AI 스타트업을 포함한 중소기업
+partnerships-corporates-header = 대규모 기업 및 플랫폼 기업
+partnerships-our-partners = 우리의 협력사
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = 음성 클립을 기부해 주셔서 감사합니다!
+first-cta-subtitle-text = 말하는 방법에 대한 정보를 알려주시겠습니까?
+why-donate = 이게 왜 필요한가요?
+add-information-button = 정보 추가
+continue-speaking-button = 아니요, 계속 말씀하세요
+thanks-for-voice-toast = 음성에 관한 정보를 주셔서 감사합니다
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = 음성을 기여해 주셔서 감사합니다!
+create-profile-button = 프로필 만들기
+# GUIDELINES PAGE
+guidelines-header = 기여 기준
+voice-collection = 음성 모음
 sentence-collection = 문장 모음
+varying-pronunciations = 다양한 발음
+misreadings = 오독
+offensive-content = 공격적인 콘텐츠
+background-noise = 배경 소음
+background-voices = 배경 목소리
+volume = 음량
+reader-effects = 리더 효과
+just-unsure = 잘 모르겠다면?
+example = 예
+varying-pronunciations-example = 경로가 불분명했습니다.
+varying-pronunciations-tip-1 = [캐나다 영어에서는 "route"가 "rowt"처럼 들릴 수 있습니다.]
+varying-pronunciations-tip-2 = [영국식 영어에서는 "root"가 될 수도 있습니다.]
+misreadings-explanation-2 = 흔한 실수는 다음과 같습니다:
+misreadings-explanation-7 = 한 단어를 여러 번 읽는 것.
+misreadings-example-1 = We are going out to get coffee.
+misreadings-example-2 = We're going out to get coffee.
+misreadings-example-3 = We are going out to get a coffee.
+misreadings-example-4 = 꿀벌이 빠르게 지나갔다.
+misreadings-tip-3 = [내용이 일치하지 않음]
+background-noise-example-1 = 트라이아스기의 거대 공룡
+still-have-questions = 궁금한 게 더 있으십니까?
+contact-common-voice = Common Voice 팀에 문의하기
+public-domain = 공공 부문
+citing-sentences = 문장 인용
+adding-sentences = 문장 추가
+reviewing-sentences = 문장 검토
+public-domain-explanation-5 = 저작권이 더 이상 적용되지 않는 텍스트를 찾으세요(예: 1920년 이전에 출판된 대부분의 책).
+citing-sentences-subheader-websites = 웹사이트
+citing-sentences-subheader-websites-explanation = 웹사이트를 포함할 수 있습니다. 예를 들어 "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = 학계 참고
+citing-sentences-subheader-offline-sources = 오프라인 출처
+citation =
+    .label = 인용
+self-citation = 자기 인용
+self-citation-explanation = 콘텐츠를 직접 작성한 경우 자신을 인용하는 방법입니다.
+adding-sentences-subheader-length = 길이
+adding-sentences-subheader-length-explanation = 문장은 15단어 미만이어야 합니다.
+adding-sentences-subheader-spelling-punctuation = 철자와 구두점
+adding-sentences-subheader-spelling-punctuation-explanation = 문장의 철자가 정확해야 합니다.
+adding-sentences-subheader-speakable = 말할 수 있는
+adding-sentences-subheader-numbers = 숫자
+adding-sentences-subheader-abbreviations = 축약어와 두문자어
+adding-sentences-subheader-punctuation = 구두점
+adding-sentences-subheader-special-characters = 특수 문자 및 외국 문자
+adding-sentences-subheader-offensive-content = 공격적인 콘텐츠
+write-page-subtitle = 여기에 제공된 문장은 공개적으로 사용 가능한 cc-0 라이선스 데이터 세트에 추가됩니다.
+sentence =
+    .label = 문장
+sentence-input-value = 여기에 공공 부분 문장을 입력하세요.
+citation-input-value = 문장의 출처
+citation =
+    .label = 인용
+new-sentence-rule-2 = 문장당 15단어 미만
+new-sentence-rule-3 = 올바른 문법을 사용하세요
+new-sentence-rule-4 = 올바른 철자와 구두점을 사용하세요.
+new-sentence-rule-5 = 숫자와 특수문자 금지
+new-sentence-rule-6 = 외국 글자 금지
+new-sentence-rule-7 = 적절한 인용을 포함하세요
+new-sentence-rule-8 = 자연스럽고 대화하는 것이 이상적입니다(문장을 읽기 쉬워야 함).
+how-to-cite = 어떻게 인용하면 될까요?
+guidelines = 지침
+contact-us = 연락하기
+add-sentence-success = 1문장 수집됨
+add-sentence-error = 문장을 추가하는 중에 오류가 발생했습니다.
+required-field = 이 항목을 입력해 주세요.
+
+## REVIEW PAGE
+
+report-sc-different-language = 다른 언어
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = 몇 가지 큰 변화를 만들고 있습니다
+sc-redirect-page-subtitle-1 = Sentence Collector는 핵심 Common Voice 플랫폼으로 이동하고 있습니다. 이제 Common Voice에서 문장을 <writeURL>작성</writeURL>하거나 단일 문장 제출을 <reviewURL>검토</reviewURL>할 수 있습니다.
+
+## BULK SUBMISSION 
+

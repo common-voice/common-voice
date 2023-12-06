@@ -1,15 +1,30 @@
+@import url('../../media.css');
+
 .dataset-download-prompt {
     margin-top: 2rem;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 
     .input-group {
-        flex: 1 1 50%;
         padding: 1rem;
         @media (--sm-down) {
             width: 100%;
+        }
+
+        &.button-container {
+            display: flex;
+            flex: 0 1 40%;
+            align-content: space-around;
+
+            @media (--sm-down) {
+                flex-direction: column;
+            }
+
+            & .why-email {
+                width: 300px;
+            }
         }
     }
 
@@ -38,10 +53,34 @@
         margin-inline-start: 1em;
     }
 
-    .why-email {
+    .why-email,
+    .why-donate {
         margin-top: 1rem;
         font-size: var(--font-size-xs);
         color: var(--warm-grey);
+    }
+
+    .why-donate {
+        text-align: left;
+    }
+
+    & .donate-btn-container {
+        @media (--md-up) {
+            margin-inline-start: 24px;
+        }
+
+        @media (--sm-down) {
+            margin-block-start: 20px;
+        }
+
+        & .donate-btn {
+            height: 3.5rem;
+            background: var(--valid-green);
+
+            @media (--md-up) {
+                width: 255px;
+            }
+        }
     }
 
     .checksum {
@@ -51,7 +90,7 @@
         cursor: pointer;
 
         p {
-            overflow-wrap: break-word;
+            overflow-wrap: anywhere;
         }
     }
 

@@ -745,6 +745,7 @@ class SpeakPage extends React.Component<Props, State> {
                 trackClass="speak-record"
                 status={recordingStatus}
                 onClick={this.handleRecordClick}
+                data-testid="record-button"
               />
             }
             pills={clips.map((clip, i) => (props: ContributionPillProps) => (

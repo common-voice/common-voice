@@ -861,6 +861,8 @@ language-section-in-progress = En curs
 language-section-in-progress-new-description = Aquestes llengües estan en desenvolupament per part de la comunitat. Les barres de progrés indiquen quant falta per completar la fase de <localizationGlossaryLink>traducció del lloc web</localizationGlossaryLink> i la <sentenceCollectionGlossaryLink>recollida de frases</sentenceCollectionGlossaryLink>.
 language-section-launched = En producció
 language-section-launched-description = Per a aquestes llengües en producció, s'ha <localizationGlossaryLink>traduït</localizationGlossaryLink> completament el lloc web i tenen prou <sentenceCollectionGlossaryLink>frases recollides</sentenceCollectionGlossaryLink> per acceptar contribucions de <speakLink>Parla</speakLink> i <listenLink>Escolta</ listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Última actualització: { $lastUpdatedTimeStamp }
 languages-show-more = Mostra'n més
 languages-show-less = Mostra'n menys
 language-meter-in-progress = Progrés

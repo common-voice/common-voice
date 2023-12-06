@@ -11,6 +11,8 @@ import { useAPI } from '../../../hooks/store-hooks';
 import useCopyToClipboard from '../../../hooks/use-copy-to-clipboard';
 import { CloudIcon } from '../../ui/icons';
 import { Button, LabeledCheckbox, LabeledInput, LinkButton } from '../../ui/ui';
+import DonateButton from '../../donate-button/donate-button';
+
 import './dataset-download-email-prompt.css';
 
 interface DownloadFormProps extends WithLocalizationProps {
@@ -185,34 +187,44 @@ const DatasetDownloadEmailPrompt = ({
               onChange={handleInputChange}
             />
           </div>
-          <div className="input-group">
-            <LinkButton
-              role="button"
-              href={canDownloadFile ? downloadLink : null}
-              onClick={saveHasDownloaded}
-              rounded
-              blank
-              className="download-language">
-              <Localized
-                id={
-                  canDownloadFile ? 'data-bundle-button' : 'email-to-download'
-                }
-              />
-              <CloudIcon />
-            </LinkButton>
-            <Localized id="why-email" elems={{ b: <strong /> }}>
-              <p className="why-email " />
-            </Localized>
-            {checksum && (
-              <div
-                className="checksum"
-                onClick={() => copy(checksum)}
-                onKeyDown={() => copy(checksum)}
+          <div className="input-group button-container">
+            <div>
+              <LinkButton
                 role="button"
-                tabIndex={0}>
-                <strong>sha256 checksum</strong>: <p>{checksum}</p>
-              </div>
-            )}
+                href={canDownloadFile ? downloadLink : null}
+                onClick={saveHasDownloaded}
+                rounded
+                blank
+                className="download-language">
+                <Localized
+                  id={
+                    canDownloadFile ? 'data-bundle-button' : 'email-to-download'
+                  }
+                />
+                <CloudIcon />
+              </LinkButton>
+              <Localized id="why-email" elems={{ b: <strong /> }}>
+                <p className="why-email" />
+              </Localized>
+              {checksum && (
+                <div
+                  className="checksum"
+                  onClick={() => copy(checksum)}
+                  onKeyDown={() => copy(checksum)}
+                  role="button"
+                  tabIndex={0}>
+                  <strong>sha256 checksum</strong>: <p>{checksum}</p>
+                </div>
+              )}
+            </div>
+            <div className="donate-btn-container">
+              <DonateButton />
+              <Localized
+                id="why-donate-datasets-page"
+                elems={{ b: <strong /> }}>
+                <p className="why-donate" />
+              </Localized>
+            </div>
           </div>
         </>
       )}
