@@ -822,8 +822,8 @@ listen-again-instruction = Одлична работа! <playIcon></playIcon> С
 listen-3rd-time-instruction = 2 завршени, продолжете!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Последен!
 listen-empty-state = Ни снемаа клипови за валидација на овој јазик...
-listen-abort-cancel = Продолжете со потврдување
-listen-abort-confirm = Завршете со потврдување
+listen-abort-cancel = Продолжете со валидирање
+listen-abort-confirm = Завршете со валидирање
 speak-empty-state = Ни снемаа реченици за да снимаме на овој јазик ...
 speak-empty-state-cta = Придонесувајте реченици
 record-button-label = Снимете го вашиот глас
@@ -838,6 +838,8 @@ target-segment-learn-more = Дознајте повеќе
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Збирка на гласови
+contribute-sentence-collection-nav-header = Збирка на реченици
 
 ## Reporting
 
@@ -990,16 +992,27 @@ profile-form-delete = Избриши профил
 
 ## Profile Download
 
+download-q = Дали треба да ги преземете вашите податоци?
 download-info = Кажете ни што сакате да преземете:
 download-profile-title = Профил
+download-profile-info = Вклучува е-пошта, корисничко име и демографски информации, достапни веднаш
 download-profile-size = Неколку бајти
 download-recordings-title = Снимки
+download-recordings-info = Вклучува mp3 датотеки и сродни реченици, може да потрае некое време за да се подготви
 download-recordings-size = Обично мегабајти
+download-recordings-unavailable = Не можете да ги побарате вашите снимки додека друго барање е веќе во тек.
+download-recently-requested = Може да побарате ново преземање на вашите снимки на секои { $days } дена.
 download-size = Големина
 download-selected = Одбрано
+download-start = Преземете податоци за профилот
+download-request = Побарајте снимки
+download-requests = Барања за преземање снимки од минатото
+download-requests-info = Кога ги барате вашите снимки, ние ги составуваме во една или повеќе ZIP-датотеки. Еве ги вашите минати барања:
 download-request-button = Преземи
 download-request-title = { $created }
+download-request-description = { $clipCount } гласовни клипови, вкупна големина на архива { $size }. Истекува на { $expires }.
 download-request-refresh-button = Освежи
+download-request-modal-title = Врски за преземање
 download-request-metadata-link = Текст на реченицата
 
 ## Landing
@@ -1067,6 +1080,7 @@ contribution-background-noise-title = Бучава во позадина
 contribution-background-noise-example-2-fixed-title = Џиновскиот дино <strong>[к'хм]</strong> Тријас.
 contribution-background-noise-example-2-explanation = [Дел од текстот не може се слушне]
 contribution-background-voices-title = Гласови во позадина
+contribution-background-voices-description-extended = Ако снимката се прекине или има крцкање, отфрлете ја, освен ако не може да се слушне целиот текст.
 contribution-background-voices-example-1-explanation = Дали доаѓаш? <strong> [повикан од друг] </strong>
 contribution-volume-title = Глас
 contribution-reader-effects-title = Ефекти на читателот
@@ -1083,6 +1097,7 @@ see-less = <chevron> </chevron> Види помалку
 ## HEADER/FOOTER
 
 sc-header-home = Дома
+sc-header-how-to = Како да
 sc-header-add = Додај
 sc-header-review = Прегледај
 sc-header-rejected = Одбиени реченици
@@ -1101,6 +1116,7 @@ sc-logout-button = Одјавете се
 
 ## HOME
 
+sc-home-title = Добредојдовте во собирачот на реченици за Common Voice
 sc-home-review-title = Прегледајте реченици
 
 ## GENERAL
