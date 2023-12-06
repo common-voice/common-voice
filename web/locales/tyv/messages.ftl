@@ -500,6 +500,8 @@ sc-confirm-button-text = Бадыткаар
 
 ## PROFILE
 
+sc-personal-err-lang-not-found = Дыл балаттынмаан: дыл тывылбаан
+sc-personal-err-remove = Дыл балаттынмаан
 
 ## REVIEW CRITERIA
 
