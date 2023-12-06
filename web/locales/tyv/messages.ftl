@@ -388,6 +388,8 @@ review-delete-recordings = Мээң бижиктеримни балаар
 
 resource-coqui-info = <coquiLink>Coqui</coquiLink> ажык чугаа технологиязынга тураскааттынган. Оларның төлевилелдеринде хандыр өөренир сорулгалыг STT база TTS шимчедикчилери кирип турар.
 community-playbook = Бөлүкке өөредилге ному
+missing-language = Дылыңар чыындыда чок-тур бе? Ону Дылдар деп арындан сураглап көрүңерем.
+download = Кииртир
 
 ## Download Modal
 
