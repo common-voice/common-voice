@@ -394,6 +394,7 @@ review-delete-recordings = Мээң бижиктеримни балаар
 download-dataset-header = Медээлер чыындызын кииртир
 resource-coqui-info = <coquiLink>Coqui</coquiLink> ажык чугаа технологиязынга тураскааттынган. Оларның төлевилелдеринде хандыр өөренир сорулгалыг STT база TTS шимчедикчилери кирип турар.
 community-playbook = Бөлүкке өөредилге ному
+your-feedback = Common Voice-ту экижидер бодалдарыңар бар бе? Discourse форуму таварыштыр биске чугаалаңар.
 missing-language = Дылыңар чыындыда чок-тур бе? Ону Дылдар деп арындан сураглап көрүңерем.
 download = Кииртир
 
