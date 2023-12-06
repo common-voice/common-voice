@@ -386,6 +386,7 @@ community-playbook = Бөлүкке өөредилге ному
 
 ## Contact Modal
 
+contact-title = Харылзажыр хевир
 
 ## Request Language Modal
 
@@ -398,12 +399,14 @@ community-playbook = Бөлүкке өөредилге ному
 
 ## Contribution
 
+contribute = Үлүг киирер
 
 ## Contribution Nav Items
 
 
 ## Reporting
 
+continue = Улаштырар
 
 ## Goals
 
@@ -502,6 +505,9 @@ sc-confirm-button-text = Бадыткаар
 # [/SentenceCollector]
 
 partnerships-community-header = Бөлүк, чогаадыкчылар болгаш хамааты ниитилел
+contact-common-voice = Common Voice-туң командазы-биле харылзажыптыңар
+public-domain-explanation-4 = Авторлар, драматургтар азы сценаристер-биле харылзашкаш, олар чогаалдарының улуг эвес кезиин хөй-ниитиниң өнчүзүнче дамчыдып берип шыдаар-дыр бе, айтырып көрүңер.
+contact-us = Бистиң-биле харылзаа
 
 ## REVIEW PAGE
 
