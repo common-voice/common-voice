@@ -10,7 +10,7 @@ import { prepareDir } from '../infrastructure/filesystem'
 import { CORPORA_CREATOR_SPLIT_FILES } from '../infrastructure/corporaCreator'
 import { AppEnv } from '../types'
 
-const generateTarFilename = (locale: string, releaseName: string) =>
+export const generateTarFilename = (locale: string, releaseName: string) =>
   `${releaseName}-${locale}.tar.gz`
 
 const createTarballWriteStream = (outFilepath: string) => {

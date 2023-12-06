@@ -9,6 +9,17 @@ email-input =
 submit-form-action = Ajütaa
 loading = Pa'atapajaa…
 email-opt-in-info = Tacheküin aluwataanüin imeeirü tamüin eere aashajaanüin saa'ujee kasain aainjüneeka, eere ee'iyatünüin shiyaawase takua otta müsia aapie sümaa sukuwa'ipamaajatü Common Voice.
+email-opt-in-info-title = Ashajiraa sünain tü süpülajanaka imeeirü sümüinka Common Voice
+email-opt-in-info-sub-with-challenge = Tacheküin aluwataanüin imeeirü tamüin eere oso'irünüin aa'u saa'ujee kasain aainjüneeka, eere ee'iyatünüin shiyaawase sukua tü a'yatawaaka otta müsia aapie sümaa sukuwa'ipamaajatü Common Voice.
+email-opt-in-privacy-v2 = Müleka püchekülee süntüin imeeirü pümüin aa müshii jia sümüin Mozilla süpüla aapaanüin tü püchikimaajatüka süchiirua tü amünakalü sulu'u <privacyLink>Poliitika saa'ujee aa'inmajiraa wakuwa'ipa</privacyLink> sümüinka Mozilla.
+indicates-required = * Acheküsü püneekajüin eere püjüttüinjatü
+not-available-abbreviation = N/A
+banner-error-slow-1 = Japüishii waya, koulainsü Common Voice müinma yaa. Analu'ulu pümüin süka jamüin yaain pia yaaya.
+banner-error-slow-2 = Mainmajaashi na ekerotakana yaamüin jo müinma yaa o'ttuinjana waya sünain achajaa kasain alatüin.
+banner-error-slow-link = Ee'iyalayaa sümaa sukuwa'ipa
+error-something-went-wrong = Japüishii waya, oju'itusu wane kasa nnojotka anain
+error-clip-upload = Ayatüsü ne'e nnojoluin ee'iyalaweein. ¿pu'ulakaweein suchukuwa'a?
+error-clip-upload-server = Ayatüsü ne'e nnojoluin ee'iyalaweein sulu'ujee shipialu'u. Pünoutiraa tü ee'iyalayaaka suchukuwa'a jo pu'ulaka suchukuwa'a mapeena.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -148,6 +159,7 @@ pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polaco
 ps = Pastún
+pt = Portugués
 quc = K'iche'
 quy = Quechua Chanka
 rm-sursilv = romanche sursilvano
@@ -218,6 +230,7 @@ zza = Zaza
 ## Layout
 
 speak = Aashajawaa
+speak-now = Paashajaa müinma yaa
 languages = Anüikiirua
 profile = Ka’yataayakuwa’ipakalü
 help = Akaaliijiaa

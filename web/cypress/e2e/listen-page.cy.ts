@@ -1,3 +1,5 @@
+import { listenToFiveClips } from '../actions/listen.action'
+
 describe('The Listen Page', () => {
   it('successfully loads', () => {
     cy.visit('/listen')
@@ -32,6 +34,8 @@ describe('The Listen Page', () => {
     const playButton = cy.get('[data-testid=play-button]')
 
     playButton.click()
+
+    cy.wait(3000)
 
     // vote yes
     yesButton.click()
@@ -82,25 +86,7 @@ describe('The Listen Page', () => {
   it('listens to 5 clips', () => {
     cy.visit('/listen')
 
-    const playButton = cy.get('[data-testid=play-button]')
-
-    const yesButton = cy.get('[data-testid=vote-yes-button]')
-    const noButton = cy.get('[data-testid=vote-no-button]')
-
-    playButton.click()
-    noButton.click()
-
-    playButton.click()
-    yesButton.click()
-
-    playButton.click()
-    noButton.click()
-
-    playButton.click()
-    noButton.click()
-
-    playButton.click()
-    yesButton.click()
+    listenToFiveClips()
 
     const successPage = cy.get('[data-testid=contribution-success]')
     successPage.should('exist')
