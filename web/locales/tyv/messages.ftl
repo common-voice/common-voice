@@ -352,6 +352,7 @@ faq-description = Common Voice — Mozilla-ның машиналарны шын 
 
 about-speak-text = Халас берген домактар банкызындан номчувушаан, киржикчилер үн бижиктери кылып турар.
 about-stay-in-touch-text-1 = Common Voice-ка кампанияларга, хемчеглерге болгаш кады ажылдап кылыышкыннарга канчаар киржип болуруңарны билип алыр дизе, бистиң чагааларывысты <emailFragment>чагыттырып алыңар</emailFragment>.
+about-nav-how-it-works = Кандыг?
 about-nav-get-involved = Киржир
 
 ## Community Playbook Content
@@ -441,6 +442,7 @@ contact-title = Харылзажыр хевир
 ## Languages Overview
 
 language-section-launched-description = Бо дылдарга веб-сайт чедиишкинниг <localizationGlossaryLink>локализациялаттынган</localizationGlossaryLink>, ынчангаш <speakLink>үннер чыылдазын</speakLink> база <listenLink>оларның хыналдазын</listenLink>эгелээр кылдыр, ында <sentenceCollectionGlossaryLink>элээн хөй домактар</sentenceCollectionGlossaryLink> чыгдынган.
+language-validation-hours = Шак
 
 ## Contribution
 
@@ -537,6 +539,7 @@ contribution-background-noise-example-3-fixed-title = [Дызырааш] Три�
 
 ## HEADER/FOOTER
 
+sc-header-home = кол арын
 
 ## HOME
 
