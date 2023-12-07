@@ -7,7 +7,7 @@ import {
 
 const SENTENCE_LENGTH = 10
 
-describe('The Write Page', () => {
+describe('The Write Page - Single Submission', () => {
   it('successfully loads', () => {
     cy.visit('/write')
 

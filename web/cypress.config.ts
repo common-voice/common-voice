@@ -3,7 +3,7 @@ import { cypressBrowserPermissionsPlugin } from 'cypress-browser-permissions'
 
 export default defineConfig({
   e2e: {
-    baseUrl: 'http://localhost:9000', // TODO: generate this based on the env we run the test
+    baseUrl: 'http://127.0.0.1:9000', // TODO: generate this based on the env we run the test
     setupNodeEvents(on, config) {
       config = cypressBrowserPermissionsPlugin(on, config)
     },
@@ -11,8 +11,10 @@ export default defineConfig({
       browserPermissions: {
         microphone: 'allow',
       },
+      // TODO: move this to env file
+      auth0Domain: 'auth0Domain',
     },
-    viewportWidth: 1200,
+    viewportWidth: 1500,
     viewportHeight: 1000,
   },
 })
