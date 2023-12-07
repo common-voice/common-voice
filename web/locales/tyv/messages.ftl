@@ -363,12 +363,14 @@ about-nav-how-it-works-2 = Common Voice канчаар ажылдаар?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Дылды канчаар немээр мен?
 
 ## How does localization work
 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Домакты канчаар немээр мен?
 
 ## How to record quality
 
@@ -386,6 +388,7 @@ about-playbook-how-grow-language-content-7 = Сонуургалдыг улуст
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Медээлер чыындызынче канчаар кирер, ону канчаар ажыглаар?
 
 ## How are decisions made
 
@@ -630,6 +633,7 @@ public-domain-explanation-4 = Авторлар, драматургтар азы 
 citing-sentences-subheader-offline-sources-explanation = Хөй-ниитиниң өнчүзү болуп турар, Интернетте чок сөзүглелге айтылгаларның академиктиг хевирин, чижээ, Гарвард стилин, ажыглап болур силер: «Джесс (2021) Ажык лицензиялыг мээң шүлүктерим».
 adding-sentences-subheader-length-explanation = 15 сөстен эвээш
 sentence-input-value = хөй-ниитиниң өнчүзүнде фразаңарны маңаа киириптиңер
+how-to-cite = Домакты канчаар немээр мен?
 contact-us = Бистиң-биле харылзаа
 add-sentence-error = Домак немеп турда частырыг болу берген
 
