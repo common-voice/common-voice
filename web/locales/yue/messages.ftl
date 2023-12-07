@@ -488,7 +488,9 @@ how-does-it-work-text = 我哋整緊一個開源嘅聲音資料集。一齊幫�
 
 about-language-req-subtitle = 有人請求新加一門語言。
 about-localization-title = 網站本地化
+about-localization-subtitle = 網站文本翻譯咗成嗰門語言喇。
 about-sentence-collection-title = 句子收集
+about-sentence-collection-subtitle = 啲句子已經收好攞去畀人讀喇。
 about-new-lang-title = 新語言發佈
 about-new-lang-subtitle = 我哋發佈呢種語言嘅 Common Voice 頁面。
 about-voice-contrib-title = 錄音捐聲
@@ -496,6 +498,7 @@ about-voice-contrib-subtitle = 個個人都嚟貢獻佢哋自己把聲。
 about-voice-validation-title = 驗證錄音
 about-voice-validation-subtitle = 其他人驗證呢啲錄音片段。
 about-dataset-release-title = 數據集發佈
+about-dataset-release-subtitle = 我哋每 3 個月發佈一次數據集。
 about-subscribe-text = 想及時跟進 Common Voice ？
 about-speak = 講
 about-speak-text = 貢獻者會錄低由句庫抽出嚟嘅句子。
@@ -520,6 +523,8 @@ about-get-involved-text-2 =
     <matrixLink>Matrix</matrixLink> 群組傾偈。
 about-stay-in-touch = 點樣保持聯繫？
 about-stay-in-touch-button = 註冊
+about-stay-in-touch-text-1 = <emailFragment>註冊</emailFragment>我哋嘅電郵通知，瞭解可以點參與Common Voice啲活動、節目同一齊設計功能。
+about-stay-in-touch-text-2 = 想認識Mozilla語言社群入面嘅其他人呢，你可以加入 <discourseLink>Discourse</discourseLink> 嚟討論個別主題，或者加入 <matrixLink>Matrix</matrixLink> 去攞啲建議。
 about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點樣？
 about-nav-partners = 合作夥伴
@@ -531,24 +536,34 @@ about-nav-playbook = 瞭解點樣參與
 ## What is a language
 
 about-playbook-what-is-language = Common Voice 度嘅一門語言係指乜？
+about-playbook-what-is-language-content-1 = 我哋可以用唔同角度去諗咩係語言。對於語音識別模型，Common Voice 建議將重點放喺「互通度」上面，即係話「講呢種語言嘅人互相對話嘅話，係咪大部分會理解到對方講緊啲咩？」
 
 ## How do I add a language
 
 about-playbook-how-add-language = 我點樣新加一隻語言？
 about-playbook-how-add-language-translating-heading = 繙譯本站
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>睇下 Pontoon 嘅使用教學。</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 
 ## How does localization work
 
+about-playbook-how-localize-content-4 = 內容翻譯咗75%之後，網站就可以準備發佈。
+about-playbook-how-localize-content-5 = 睇睇我哋嘅影片解說
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = 點樣添加句子？
+about-playbook-how-add-sentences-content-1 = <strong>語句收集工具</strong>係一套用嚟收集同驗證公有領域句子嘅工具。首先你要<scAccountLink>註冊帳户</scAccountLink>，跟住喺<strong>個人檔案</strong>加入你嘅語言。噉你就可以<strong>加入</strong>句子或者<strong>審核</strong>之前加咗嘅句子。
 
 ## How to record quality
 
+about-playbook-how-record-content-3 = 讀句子要小心，唔好漏字、改字或者加字。
+about-playbook-how-record-content-4 = 開始講嘢之前檢查有冇錄緊音，以及記得講完先好撳停止錄音。
 
 ## How to grow language
 
+about-playbook-how-grow-language = 點樣有效發展 Common Voice 上面嘅語言？
+about-playbook-how-grow-language-content-2 = 活動
 about-playbook-how-grow-language-content-4 = 社交媒體
 
 ## How to validate
@@ -556,9 +571,11 @@ about-playbook-how-grow-language-content-4 = 社交媒體
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = 點樣攞到數據集嚟用？
 
 ## How are decisions made
 
+about-playbook-how-project-governance = 項目決定係點做嘅？
 about-playbook-how-project-governance-content-2 = 我哋嘅管治係建基於：
 about-playbook-how-project-governance-content-3 = 私隱、安全同透明度。
 about-playbook-how-project-governance-content-4 = 社群參與同決策。
@@ -714,6 +731,13 @@ request-language-form-email =
     .label = 閣下電郵地址
 request-language-form-info =
     .label = 呢種語言嘅資料
+request-language-form-info-explanation-list-1 = 語言名稱
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO 代碼</isoCodeLink>（如有）
+request-language-form-info-explanation-list-3 = 有助了解呢門語言嘅網站網址
+request-language-google-recaptcha-required = 想繼續嘅話要完成 reCAPTCHA 驗證
+request-language-google-recaptcha-error = reCAPTCHA 出咗錯，請試多次。
+# Success page
+request-language-success-heading = 唔該晒！新語言申請已經提交。
 
 ## Languages Overview
 
@@ -1121,6 +1145,7 @@ sc-howto-review-criteria-3 = 句子要係讀得出嘅。
 
 ## MY SENTENCES
 
+sc-my-title = 我嘅句子
 
 ## REJECTED
 
@@ -1134,6 +1159,7 @@ sc-stats-summary = Common Voice 句子收集器已經收集咗 { $languageCount 
 
 ## ADD
 
+sc-submit-title = 添加句子
 
 ## ADD LANGUAGE
 
@@ -1160,6 +1186,12 @@ sc-review-loading = 加載緊句子……
 sc-review-form-button-reject = 否決
 sc-review-form-button-skip = 跳過
 sc-review-form-button-approve = 通過
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = 完成審核
 sc-review-link = 審核
@@ -1172,6 +1204,7 @@ sc-validation-no-abbreviations = 句子唔應該含有縮寫
 
 # [/SentenceCollector]
 
+partnerships-our-partners = 我哋嘅合作伙伴
 sentence-collection = 收集句子
 
 ## REVIEW PAGE
