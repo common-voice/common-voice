@@ -385,6 +385,7 @@ about-playbook-how-grow-language-content-7 = Сонуургалдыг улуст
 ## How are decisions made
 
 about-playbook-how-project-governance-content-4 = Бөлүктүң киржилгези болгаш шиитпирлер хүлээри.
+about-playbook-how-project-governance-content-7 = <governanceLink>Башкарылгавыстың канчаар тургустунганын ам-даа билип алыңар</governanceLink>
 
 ## Glossary
 
@@ -398,6 +399,7 @@ de-identified-explanation = БАЛААР
 ## Data
 
 data-download-button = Common Voice медээлерин кииртир
+data-other-goto = Бээр { $name } шилчий бээр
 data-bundle-button = Кииртир { $language }
 data-download-singleword-title = "Чаңгыс сөс" деп сорулга сегментизин кииртир
 review-aborted = Медээлерни балаар
