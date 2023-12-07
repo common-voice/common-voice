@@ -393,6 +393,7 @@ about-playbook-how-grow-language-content-7 = Сонуургалдыг улуст
 ## How to validate
 
 about-playbook-how-validate = Бижикти деткип болур деп канчаар билип алыр мен?
+about-playbook-how-validate-content-4 = Бижиктен 2 кижи ойталаар болза, ону медээлер чыындыларының аңгы салбырынга парлаар.
 
 ## How to access dataset
 
@@ -420,6 +421,7 @@ data-other-goto = Бээр { $name } шилчий бээр
 data-bundle-button = Кииртир { $language }
 data-download-singleword-title = "Чаңгыс сөс" деп сорулга сегментизин кииртир
 terms-agree = Чөпшээрежир мен
+terms-disagree = Чөпшээрешпес мен
 review-aborted = Медээлерни балаар
 review-delete-recordings = Мээң бижиктеримни балаар
 
@@ -547,6 +549,7 @@ contribution-criteria-page-description = Үнүңер бижидиңер
 contribution-for-example = чижээ
 contribution-varying-pronunciations-example-2-title = Ооң холу көдүрлү берген турган.
 contribution-background-noise-example-3-fixed-title = [Дызырааш] Триас эразының улуг динозаврлары [дызырааш]
+contribution-background-voices-description-extended = Бижик үстүп азы аңаа дызыраан дааштар тыптып кээр болза, сөзүглел бүдүнге дыңналбас болза, оон ойталаңар.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -590,6 +593,7 @@ sc-rejected-err-fetching = Ойталаан домактарны хүлээп т
 
 ## ADD
 
+sc-submit-confirm = Бо домактар <wikipediaLink>хөй-ниитиниң өнчүзүнде</wikipediaLink> деп, ол ышкаш мээң оларны бээр киирер эргем бар деп бадыткап тур мен.
 sc-submit-filtered = Дараазында негелделерни сагывааны дээш, домактарны шүүреп каапкан (эдип каан версияларны чаа домактар кылдыр чорударыңарны диледивис):
 
 ## ADD LANGUAGE
@@ -645,7 +649,9 @@ public-domain-explanation-4 = Авторлар, драматургтар азы 
 citing-sentences-subheader-offline-sources-explanation = Хөй-ниитиниң өнчүзү болуп турар, Интернетте чок сөзүглелге айтылгаларның академиктиг хевирин, чижээ, Гарвард стилин, ажыглап болур силер: «Джесс (2021) Ажык лицензиялыг мээң шүлүктерим».
 adding-sentences-subheader-length-explanation = 15 сөстен эвээш
 sentence-input-value = хөй-ниитиниң өнчүзүнде фразаңарны маңаа киириптиңер
+new-sentence-rule-8 = Шынзыг болгаш ала-чайгаар адаттынгыр (домакты номчууру белен болур ужурлуг)
 how-to-cite = Домакты канчаар немээр мен?
+how-to-cite-explanation = Ол силерниң хууда сөстериңер болза, анаа <italicizedText>"Бот цитаталаары"</italicizedText> деп базыптыңар. Ол контент хөй-ниитиниң өнчүзү болуп, ында авторжу эргелерниң кызыгаарлаашкыннары чок деп шынзыгар дээш, ону кайыын тып алганыңарны билип алыр ужурлуг бис. Цитаталаашкын дугайында немелде информацияны бистиң <guidelinesLink>Сүмелер арнындан</guidelinesLink> көрүңер.
 contact-us = Бистиң-биле харылзаа
 add-sentence-error = Домак немеп турда частырыг болу берген
 
