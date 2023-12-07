@@ -341,6 +341,7 @@ email-already-used = Электроннуг почта өске аккаунту
 ## FAQ
 
 faq-title = Үргүлчү салыр айтырыглар
+faq-how-get-q = Common Voice медээлерин канчаар ап болур мен?
 faq-why-my-lang-a = Common Voice — краудсорсинг платформазы-дыр,ында бар шупту дылдарны эки-турачылар киирген. Силерниң дылыңарны база улуг өөрүшкү-биле киирер бис. Силерниң дылыңарны киирерин <languageRequestLink> маңаа </languageRequestLink> дилеп болур.
 faq-how-privacy-a = Үнүңер өргүңер
 faq-description = Common Voice — Mozilla-ның машиналарны шын кижилер чугаазынга өөредир дээн эгелээшкининиң кезии-дир.
@@ -386,6 +387,7 @@ about-playbook-how-grow-language-content-7 = Сонуургалдыг улуст
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Төлевилелдиң шиитпирлерин канчаар хүлээп ап турарыл?
 about-playbook-how-project-governance-content-4 = Бөлүктүң киржилгези болгаш шиитпирлер хүлээри.
 about-playbook-how-project-governance-content-7 = <governanceLink>Башкарылгавыстың канчаар тургустунганын ам-даа билип алыңар</governanceLink>
 
