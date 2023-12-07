@@ -380,6 +380,7 @@ why-demographic-explanation-2 = 匿名化嘅使用者資料，如年齡、性別
 accept-privacy = 我同意你依照 Mozilla 嘅<privacyLink>私隱保護政策</privacyLink>中描述嘅方式來處理呢啲資料
 accept-privacy-title = 私隱政策
 login-identity = 登入身分
+login = 登入
 login-signup = 登入 / 註冊
 edit = 編輯
 email-subscriptions = 電郵訂閱
@@ -387,7 +388,7 @@ download-profile = 下載我嘅數據
 contribution-experience = 參與經驗
 skip-submission-feedback = 跳過提交反饋
 skip-submission-description = 貢獻期間，單擊「提交」可略過提供意見，直接去到下一組5段錄音或驗證。
-skip-submission-note = 注意：你仲需要揀「講」或「聽」嚟轉換貢獻模式。
+skip-submission-note = 注意：你仲需要揀「錄音」或「聽聲」嚟轉換貢獻模式。
 off = 閂
 on = 開
 help-accent = 需要口音方面嘅更多定義？
@@ -579,6 +580,8 @@ about-playbook-how-project-governance = 項目決定係點做嘅？
 about-playbook-how-project-governance-content-2 = 我哋嘅管治係建基於：
 about-playbook-how-project-governance-content-3 = 私隱、安全同透明度。
 about-playbook-how-project-governance-content-4 = 社群參與同決策。
+about-playbook-how-project-governance-content-6 = 互相問責。
+about-playbook-how-project-governance-content-7 = <governanceLink>了解更多我哋係點管治嘅</governanceLink>
 
 ## Glossary
 
@@ -1140,8 +1143,10 @@ sc-howto-addsen-item-1 = 所有語句必須符合<wikipediaLink>公共領域 (CC
 sc-howto-addsen-item-2 = 數字嘅問題：源文本中唔應該出現數字，因為數字可能會導致朗讀方面出問題。 數字嘅讀法會因上下文而有所不同，可能會導致數據集出現混淆。例如，數字「2409」可以被讀作「二四零九」或者「二千四百零九」。
 sc-howto-cite-title = 點樣引用
 sc-howto-review-title = 審核句子
+sc-howto-review-criteria-1 = 句子寫法要正確。
 sc-howto-review-criteria-2 = 句子要符合語法。
 sc-howto-review-criteria-3 = 句子要係讀得出嘅。
+sc-howto-findpd-subtitle = 上網搵下
 
 ## MY SENTENCES
 
@@ -1160,6 +1165,12 @@ sc-stats-summary = Common Voice 句子收集器已經收集咗 { $languageCount 
 ## ADD
 
 sc-submit-title = 添加句子
+sc-submit-select-language =
+    .labelText = 選擇語言
+sc-submit-ph-one-per-line =
+    .placeholder = 每行一句
+sc-submit-button =
+    .submitText = 遞交
 
 ## ADD LANGUAGE
 
@@ -1206,6 +1217,7 @@ sc-validation-no-abbreviations = 句子唔應該含有縮寫
 
 partnerships-our-partners = 我哋嘅合作伙伴
 sentence-collection = 收集句子
+adding-sentences-subheader-punctuation = 標點
 
 ## REVIEW PAGE
 
