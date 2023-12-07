@@ -355,6 +355,7 @@ about-speak-text = Халас берген домактар банкызында
 about-stay-in-touch-text-1 = Common Voice-ка кампанияларга, хемчеглерге болгаш кады ажылдап кылыышкыннарга канчаар киржип болуруңарны билип алыр дизе, бистиң чагааларывысты <emailFragment>чагыттырып алыңар</emailFragment>.
 about-nav-how-it-works = Кандыг?
 about-nav-get-involved = Киржир
+about-nav-how-it-works-2 = Common Voice канчаар ажылдаар?
 
 ## Community Playbook Content
 ## What is a language
@@ -375,6 +376,7 @@ about-playbook-how-record-content-4 = Бижикти доозуптуңар
 
 ## How to grow language
 
+about-playbook-how-grow-language = Common Voice-ка дылды канчаар шынарлыг кылдыр сайзырадып болур бис?
 about-playbook-how-grow-language-content-1 = Аңгы-аңгы кижилерниң Common Voice-ка киржип болур аргазын тургузары медээлер чыындызының моон-даа хөй улуска ажыктыг боорун магадылап турар. Бистиң кылган курлавырларывысты болгаш шаблоннарывысты ажыглап болур силер.
 about-playbook-how-grow-language-content-2 = Болуушкуннар
 about-playbook-how-grow-language-content-7 = Сонуургалдыг улустан тып алыңар. Ол дээрге университеттер, дыл өөренир школалар, медээлер специалистериниң азы оларның сонуургаларын камгалаар бөлүктери бооп болур. Дузадан дилеп, олар канчаар болгаш чүү дээш дузалап болурун тодаргай тайылбырлап бериңер. <outreachTemplates>Информастыг чагаалар шаблоннарын көрүңер</outreachTemplates>.
