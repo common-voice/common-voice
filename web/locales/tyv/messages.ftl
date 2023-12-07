@@ -374,6 +374,7 @@ about-playbook-how-add-sentences = Домакты канчаар немээр м
 
 ## How to record quality
 
+about-playbook-how-record-quality = Үн бижиин бедик шынарга канчаар бижидип болур мен?
 about-playbook-how-record-content-4 = Бижикти доозуптуңар
 
 ## How to grow language
@@ -385,6 +386,7 @@ about-playbook-how-grow-language-content-7 = Сонуургалдыг улуст
 
 ## How to validate
 
+about-playbook-how-validate = Бижикти деткип болур деп канчаар билип алыр мен?
 
 ## How to access dataset
 
