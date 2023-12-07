@@ -321,6 +321,7 @@ improve-audio = Профильде медээлер бижиттинген үн�
 
 ## ProfileForm
 
+hidden = Чажыт
 goals = Сорулгалар
 edit-profile = Профильди эдер
 edit = Эдер
@@ -526,6 +527,7 @@ contribution-criteria-nav = Негелделер
 contribution-criteria-page-title = Киржириниң негелдези
 contribution-criteria-page-description = Үнүңер бижидиңер
 contribution-for-example = чижээ
+contribution-varying-pronunciations-example-2-title = Ооң холу көдүрлү берген турган.
 contribution-background-noise-example-3-fixed-title = [Дызырааш] Триас эразының улуг динозаврлары [дызырааш]
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
