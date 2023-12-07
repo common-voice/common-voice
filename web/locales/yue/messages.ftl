@@ -41,7 +41,9 @@ bas = 巴沙語
 be = 白羅斯語
 bg = 保加利亞語
 bn = 孟加拉語
+bo = 藏語
 br = 不列塔尼語
+bs = 波斯尼亞話
 bxr = 布里亞特語
 ca = 加泰羅尼亞語
 cak = 吉志高語
@@ -87,6 +89,7 @@ is = 冰島語
 it = 意大利語
 izh = 伊喬里亞語
 ja = 日語
+jbo = 邏輯語
 ka = 格魯吉亞語
 kaa = 卡拉卡爾帕克語
 kab = 卡拜列語
@@ -99,8 +102,10 @@ ko = 韓語
 kpv = 科密語
 kw = 康和語
 ky = 吉爾吉斯語
+lb = 盧森堡語
 lg = 盧干達語
 lij = 利古里亞語
+lo = 老撾語（寮語）
 lt = 立陶宛語
 lv = 拉脱維亞語
 mai = 邁蒂利語
@@ -192,6 +197,7 @@ speak-now = 請開聲講
 datasets = 數據集
 languages = 所有語言
 about = 介紹
+partner = 合作
 profile = 個人檔案
 help = 幫助
 contact = 聯絡
@@ -439,13 +445,14 @@ faq-why-different-speakers-a =
     大多數嘅語音數據庫嘅語音來源偏重某啲特定人口，令到結果偏向於<articleLink>男性以及中產階級</articleLink>。而喺呢啲訓練機械嘅數據之中，各種弱勢嘅口音以及方言往往同邊緣化嘅人群有關，同時好多機器亦好難理解女性嘅聲音。
     呢個就係點解我哋嘅語音數據庫應該海納百川，收集各種聲音！
 faq-why-my-lang-q = 點解仲未有我嘅語言嘅？
+faq-why-my-lang-a = Common Voice 係一個群眾判（大眾外判）平台，啲語言都係由義工加嘅。我哋好希望你可以加埋你嘅語言入嚟！<languageRequestLink>申請加入你嘅語言。</languageRequestLink>
 faq-what-quality-q = 錄音品質要到咩等級，先用得喺數據集入面？
 faq-what-quality-a = 我哋希望 Common Voice 數據集能夠反映出語音轉文字引擎會喺現實環境入面聽到嘅聲音，所以我哋希望能夠收集各種環境下同埋唔同錄音品質嘅片段。除咗多元嘅講者群體，如果呢個數據集包含到各種語音品質嘅片段，就可以令語音轉文字引擎處理到各種現實環境下嘅狀況，例如背景中有人喺度講嘢，或者有車輛嘅噪音。只要閣下嘅片段可以足夠俾人聽得明，即可收錄到數據集入面。
 faq-why-10k-hours-q = 點解每個語言以收集10,000個驗證時數為目標？
 faq-why-10k-hours-a = 呢個大約係訓練一個語音轉文字系統嘅所需時數。
 faq-how-calc-hours-q = Common Voice 係點計啲鐘數嘅呢？
 faq-how-calc-hours-a = 我哋靠估計每段錄音嘅平均長度來計算時數，然後乘以所有語言嘅總錄音數量。
-faq-where-src-from-2-q = 呢段原始文本係邊度來嘅？
+faq-where-src-from-2-q = 呢段源文本係邊度來嘅？
 faq-where-src-from-2-a =
     我哋嘅源文本有來自貢獻者嘅原始貢獻，仲有公共領域嘅影片劇本，例如 <italic>莫負少年頭</italic> 嘅對白腳本。
     
@@ -479,6 +486,7 @@ how-does-it-work-text = 我哋整緊一個開源嘅聲音資料集。一齊幫�
 
 ## How does it work section
 
+about-language-req-subtitle = 有人請求新加一門語言。
 about-localization-title = 網站本地化
 about-sentence-collection-title = 句子收集
 about-new-lang-title = 新語言發佈
@@ -1163,4 +1171,11 @@ sc-settings-ui-language = 介面語言
 sc-validation-no-abbreviations = 句子唔應該含有縮寫
 
 # [/SentenceCollector]
+
+sentence-collection = 收集句子
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
 
