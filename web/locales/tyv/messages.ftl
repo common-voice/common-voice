@@ -352,6 +352,7 @@ faq-description = Common Voice — Mozilla-ның машиналарны шын 
 ## How does it work section
 
 about-speak-text = Халас берген домактар банкызындан номчувушаан, киржикчилер үн бижиктери кылып турар.
+about-stay-in-touch = Харылзаага канчаар турар мен?
 about-stay-in-touch-text-1 = Common Voice-ка кампанияларга, хемчеглерге болгаш кады ажылдап кылыышкыннарга канчаар киржип болуруңарны билип алыр дизе, бистиң чагааларывысты <emailFragment>чагыттырып алыңар</emailFragment>.
 about-nav-how-it-works = Кандыг?
 about-nav-get-involved = Киржир
