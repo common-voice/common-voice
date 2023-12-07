@@ -427,6 +427,7 @@ contact-title = Харылзажыр хевир
 
 ## Languages Overview
 
+language-section-launched-description = Бо дылдарга веб-сайт чедиишкинниг <localizationGlossaryLink>локализациялаттынган</localizationGlossaryLink>, ынчангаш <speakLink>үннер чыылдазын</speakLink> база <listenLink>оларның хыналдазын</listenLink>эгелээр кылдыр, ында <sentenceCollectionGlossaryLink>элээн хөй домактар</sentenceCollectionGlossaryLink> чыгдынган.
 
 ## Contribution
 
