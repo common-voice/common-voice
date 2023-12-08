@@ -49,8 +49,8 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
       path.join(releaseDirPath, locale, 'clips.tsv'),
     ])
 
-    cc.stdout.on('data', data => console.log(`${data}`))
-    cc.stderr.on('data', data => console.log(`${data}`))
+    cc.stdout.pipe(process.stdout)
+    cc.stderr.pipe(process.stderr)
 
     cc.on('close', () => resolve())
     cc.on('error', reason => reject(reason))

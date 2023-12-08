@@ -154,6 +154,7 @@ const fetchAllClipsForLocale = (
         stream
           .pipe(memoryStream)
           .on('finish', () => {
+            console.log(`Query result for ${locale} finished streaming. Closing connection.`)
             conn.end()
           })
           .on('error', (err: unknown) => reject(err))
