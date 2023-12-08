@@ -4,7 +4,7 @@ import 'dotenv/config'
 
 export default defineConfig({
   e2e: {
-    baseUrl: 'http://localhost:9000',
+    baseUrl: 'http://localhost:9000', // TODO: generate this based on the env we run the test
     setupNodeEvents(on, config) {
       config = cypressBrowserPermissionsPlugin(on, config)
 

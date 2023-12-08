@@ -225,6 +225,16 @@ To update the list of locales run:
 > yarn import-locales
 ```
 
+## Running End to End Tests
+
+Some end to end tests require you to create a test user for login purposes. To do so you will need to create a `.env` file with the login details for that user and you auth0 domain. You can use the `.env.example` file as a guide
+
+```
+AUTH0_DOMAIN=<domain_here>
+TEST_USER_EMAIL=<test user email>
+TEST_USER_PASSWORD=<test user password>
+```
+
 ## Submitting an Issue
 
 Did you notice a bug? Do you have a feature request? Please file an issue [here on GitHub](https://github.com/mozilla/common-voice/issues).
