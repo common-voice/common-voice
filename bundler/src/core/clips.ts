@@ -156,7 +156,7 @@ const fetchAllClipsForLocale = (
           .on('finish', () => {
             conn.end()
           })
-          .on('error', err => reject(err))
+          .on('error', (err: unknown) => reject(err))
 
         memoryStream
           .pipe(checkClipForExistence())
