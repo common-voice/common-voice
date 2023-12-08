@@ -4381,7 +4381,7 @@ browser-process-hrtime@^1.0.0:
   resolved "https://registry.yarnpkg.com/browser-process-hrtime/-/browser-process-hrtime-1.0.0.tgz#3c9b4b7d782c8121e56f10106d84c0d0ffc94626"
   integrity sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==
 
-browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.16.5, browserslist@^4.17.5, browserslist@^4.20.2, browserslist@^4.21.3, browserslist@^4.21.4, browserslist@^4.21.5:
+browserslist@^4.0.0, browserslist@^4.14.5, browserslist@^4.17.5, browserslist@^4.20.2, browserslist@^4.21.3, browserslist@^4.21.4, browserslist@^4.21.5:
   version "4.22.2"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.22.2.tgz#704c4943072bd81ea18997f3bd2180e89c77874b"
   integrity sha512-0UgcrvQmBDvZHFGdYUehrCNIazki7/lUP3kkoi/r3YB2amZbFM9J43ZRkJTXBUZK4gmx56+Sqk9+Vs9mwZx9+A==
@@ -5263,6 +5263,11 @@ cypress-browser-permissions@1.1.0:
   dependencies:
     lodash "4.17.21"
 
+cypress-file-upload@5.0.8:
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/cypress-file-upload/-/cypress-file-upload-5.0.8.tgz#d8824cbeaab798e44be8009769f9a6c9daa1b4a1"
+  integrity sha512-+8VzNabRk3zG6x8f8BWArF/xA/W0VK4IZNx3MV0jFWrJS/qKn8eHfa5nU73P9fOQAgwHFJx7zjg4lwOnljMO8g==
+
 cypress@13.5.1:
   version "13.5.1"
   resolved "https://registry.yarnpkg.com/cypress/-/cypress-13.5.1.tgz#8b19bf0b9f31ea43f78980b2479bd3f25197d5cc"
@@ -5633,6 +5638,11 @@ dot-case@^3.0.4:
   dependencies:
     no-case "^3.0.4"
     tslib "^2.0.3"
+
+dotenv@16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.0.tgz#c619001253be89ebb638d027b609c75c26e47411"
+  integrity sha512-qD9WU0MPM4SWLPJy/r2Be+2WgQj8plChsyrCNQzW/0WjvcJQiKQJ9mH3ZgB3fxbUUxgc/11ZJ0Fi5KiimWGz2Q==
 
 dotenv@16.0.3:
   version "16.0.3"
@@ -8812,7 +8822,12 @@ minimist-options@4.1.0:
     is-plain-obj "^1.1.0"
     kind-of "^6.0.3"
 
-minimist@0.0.8, minimist@>=1.2.2, minimist@^1.2.0, minimist@^1.2.5, minimist@^1.2.6, minimist@^1.2.8:
+minimist@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
+  integrity sha512-miQKw5Hv4NS1Psg2517mV4e4dYNaO3++hjAvLOAzKqZ61rH8NS1SK+vbfBWZ5PY/Me/bEWhUwqMghEW5Fb9T7Q==
+
+minimist@>=1.2.2, minimist@^1.2.0, minimist@^1.2.5, minimist@^1.2.6, minimist@^1.2.8:
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==

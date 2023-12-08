@@ -24,6 +24,7 @@ const BulkSubmissionSuccess = () => {
         alt="Happy Mars"
         width={175}
         height={175}
+        data-testid="happy-mars"
       />
       <Localized id="bulk-submission-success-header">
         <h1 className="header-text" />
