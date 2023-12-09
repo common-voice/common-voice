@@ -67,6 +67,7 @@ eo = Esperanteg
 es = Spagnoleg
 et = Estoneg
 eu = Euskareg
+ewo = Ewondoeg
 fa = Perseg
 ff = Fouleg
 fi = Finneg
@@ -77,6 +78,7 @@ ga-IE = Iwerzhoneg
 gl = Galizeg
 gn = Gwaranieg
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Haousaeg
 he = Hebraeg
 hi = Hindeg
@@ -96,6 +98,7 @@ it = Italianeg
 izh = Ijoreg
 ja = Japaneg
 jbo = Lojbaneg
+jv = Javaneg
 ka = Jorjieg
 kaa = Karakalpakeg
 kab = Kabileg
@@ -687,6 +690,7 @@ number-of-voices = Niver a vouezhioù
 splits = Troc’hadennoù
 email-to-download = Enankit ur chomlec’h postel evit pellgargañ
 why-email = <b>Perak ur chomlec’h postel?</b> Gallout a rafec’h kaout ezhomm kelaouiñ ac’hanoc’h eus kemmoù er spletad roadennoù, gant ur chomlec’h postel hon eus un doare da vont e darempred ganeoc’h.
+why-donate = Perak e c'houlennit eta?
 confirm-size = Emaoc’h o vont da lañsañ ur bellgagadenn <b>{ $size }</b>
 size-gigabyte = Go
 size-megabyte = Mo
@@ -1260,14 +1264,16 @@ citing-sentences-subheader-offline-sources = Mammennoù ezlinenn
 adding-sentences-subheader-length = Hirded
 adding-sentences-subheader-numbers = Niverennoù
 adding-sentences-subheader-punctuation = Poentadur
-# WRITE PAGE
-write-instruction-second-part = ur frazenn en domani foran
 sentence =
     .label = Frazenn
 citation-input-value = Mammenn ho frazenn
 new-sentence-rule-2 = Nebeutoc’h eget 15 ger
 contact-us = Mont e darempred
 add-sentence-success = 1 frazenn bet dastumet
-# REVIEW PAGE
-sc-review-instruction-first-part = Gwiriañ
+
+## REVIEW PAGE
+
 report-sc-different-language = Yezh disheñvel
+
+## BULK SUBMISSION 
+
