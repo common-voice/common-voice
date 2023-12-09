@@ -9,8 +9,15 @@ email-input =
 submit-form-action = Ыыт
 loading = Хачайдааһын...
 email-opt-in-info = Санатыылары, саҥардыллыы туһунан биллэриилэри уонна сонуннары электроннай суругунан тутуохпун баҕарабын.
+email-opt-in-info-title = Common Voice сурутуутугар кыттыс
+email-opt-in-info-sub-with-challenge = Common Voice соруктарын санатар, үлэ хаамыытын уонна соннунары кэпсиир электрон суруктары тутуоххутун сөп.
+email-opt-in-privacy-v2 = Электрон суруктары тутарга сөбүлэстэххинэ, Mozilla Эйигиттэн ылбыт информацияны манна Mozilla <privacyLink>Кистээһин сиэригэр </privacyLink> суруллубутун курдук туһанарын кытта сөбүлэһэҕин.
 indicates-required = * Толорорго булгуччулаах
 not-available-abbreviation = Суох
+banner-error-slow-1 = Баалаама, Common Voice бытааннык үлэлиир. Сэргээбиккэр махтал.
+banner-error-slow-2 = Трафик наһаа улахан, билигин үөскээбит кыһалҕаны быһаарарга кыһаллабыт.
+banner-error-slow-link = Турук сирэйэ
+error-something-went-wrong = Баалаама, туох эрэ сатаммата
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
