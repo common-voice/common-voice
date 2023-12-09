@@ -379,6 +379,7 @@ hidden = Көстүбэт
 visible = Көстөр
 native-language =
     .label = Төрөөбүт тыл
+profile-form-add-accent = Саҥа аксыаны эп «{ $inputValue }»
 profile-form-submit-save = Бигэргэт
 profile-form-submit-saved = Бигэргэтилиннэ
 male = Эр киһи
@@ -386,7 +387,9 @@ female = Дьахтар
 # Gender
 other = Атын
 why-profile-title = Тоҕо профиль нааданый?
-why-profile-text = Предоставив некоторые данные о себе, вы сделаете аудио данные, отправляемые в Common Voice, более полезными для движков распознавания речи, которые будут использовать эти данные для улучшения своей точности.
+why-profile-text =
+    Бэйэҥ тускунан кылгастык кэпсээн Common Voice-ка ыытар аудио дааннайдаргын ордук туһалаах оҥороҕун.
+    Саҥаны билэр-араарар механизмнар ону үлэлэрин тупсарарга туһаныахтара.
 dashboard = Хаптал
 build-profile = Профиль оҥоруу
 avatar = Аватар
@@ -399,7 +402,10 @@ profile-explanation = Наблюдайте за прогрессом, польз
 thanks-for-account = Аатыҥ бигэргэннэ, аны билигин профильгын толор.
 why-demographic = Бу туох суолталааҕый?
 accept-privacy = Mozilla <privacyLink>Бүк охсунуу бэлитикэтин</privacyLink> кытта сөбүлэһэбин
+accept-privacy-title = Кистээһин сиэрэ
+accept-privacy-and-terms = Common Voice <termsLink>усулуобуйатын</termsLink> уонна <privacyLink>Кистээһинин сиэрин</privacyLink> кытта сөбүлэһэбин.
 login-identity = Киирэр идентификатор
+login = Киир
 login-signup = Киирии / Бэлиэтэнии
 edit = Уларытыы
 email-subscriptions = Email-га суруттарыы
@@ -410,6 +416,8 @@ skip-submission-description = Оценка работы с Common Voice буде
 skip-submission-note = Примечание: Вам по-прежнему нужно выбирать между записью и прослушиванием, чтобы изменить тип внесения вклада.
 off = Араар
 on = Холбоо
+help-accent = Аксыаҥҥа көмө ирдэнэр дуо?
+help-accent-explanation = Эн аксыаныҥ (саҥарар уратыҥ) – Эн тыллары хайдах саҥарарыҥ. Ол ханна олорбуккуттан, ханнык тылллары билэргиттэн уонна да атын элбэх фактордартан тутулуктаах. Манна итиннэ сыһыаннааҕы барытын суруйуоххун сөп.
 
 ## Profile - Email
 
