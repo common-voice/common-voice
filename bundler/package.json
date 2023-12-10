@@ -24,11 +24,13 @@
     "bullmq": "^4.9.0",
     "config": "^3.3.9",
     "csv-parse": "^5.5.2",
+    "csv-stringify": "^6.4.5",
     "dotenv": "^16.3.1",
     "fp-ts": "^2.16.1",
     "ioredis": "^5.3.2",
     "mysql": "^2.18.1",
     "redlock": "^4.2.0",
+    "stream-transform": "^3.3.0",
     "tar": "^6.2.0"
   }
 }

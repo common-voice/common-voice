@@ -1,18 +1,21 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import { PassThrough, Transform } from 'node:stream'
+import { Transform } from 'node:stream'
+
+import { readerTaskEither as RTE, task as T, taskEither as TE } from 'fp-ts'
+import { pipe } from 'fp-ts/lib/function'
+import { stringify } from 'csv-stringify'
+import { parse } from 'csv-parse'
+
 import { streamingQuery } from '../infrastructure/database'
 import {
   doesFileExistInBucket,
   streamDownloadFileFromBucket,
 } from '../infrastructure/storage'
 import { AppEnv, ClipRow } from '../types'
-import { task as T, taskEither as TE } from 'fp-ts'
 import { hashClientId } from './clients'
 import { getClipsBucketName, getQueriesDir } from '../config/config'
-import { pipe } from 'fp-ts/lib/function'
 import { prepareDir } from '../infrastructure/filesystem'
-import { readerTaskEither as RTE } from 'fp-ts'
 
 const CLIPS_BUCKET = getClipsBucketName()
 
@@ -34,6 +37,9 @@ export const TSV_COLUMNS = [
 export type CLIPS_TSV_ROW = {
   [K in (typeof TSV_COLUMNS)[number]]: string
 }
+
+const getTmpClipsPath = (locale: string) =>
+  path.join('/tmp', `${locale}_clips.tsv`)
 
 const createClipFilename = (locale: string, clipId: string) =>
   `common_voice_${locale}_${clipId}.mp3`
@@ -129,16 +135,13 @@ const checkClipForExistence = () =>
     objectMode: true,
   })
 
-const fetchAllClipsForLocale = (
-  locale: string,
+const streamQueryResultToFile = (
+  clipsTmpPath: string,
   includeClipsFrom: string,
   includeClipsUntil: string,
-  isMinorityLanguage: boolean,
-  releaseDirPath: string,
-): TE.TaskEither<Error, void> => {
-  console.log('Fetching clips for locale', locale)
-
-  return TE.tryCatch(
+  locale: string,
+) =>
+  TE.tryCatch(
     () =>
       new Promise<void>((resolve, reject) => {
         const { conn, stream } = streamingQuery(
@@ -149,17 +152,38 @@ const fetchAllClipsForLocale = (
         )
         console.log('Start Stream Processing')
 
-        const memoryStream = new PassThrough({ objectMode: true })
+        const writeStream = fs.createWriteStream(clipsTmpPath)
 
         stream
-          .pipe(memoryStream)
+          .pipe(stringify({ header: true, delimiter: '\t' }))
+          .pipe(writeStream)
           .on('finish', () => {
-            console.log(`Query result for ${locale} finished streaming. Closing connection.`)
+            console.log(
+              `Query result for ${locale} finished streaming. Closing connection.`,
+            )
             conn.end()
+            resolve()
           })
           .on('error', (err: unknown) => reject(err))
+      }),
+    (reason: unknown) => Error(String(reason)),
+  )
 
-        memoryStream
+const fetchAllClipsForLocale = (
+  tmpClipsFilepath: string,
+  locale: string,
+  isMinorityLanguage: boolean,
+  releaseDirPath: string,
+): TE.TaskEither<Error, void> => {
+  console.log('Fetching clips for locale', locale)
+
+  return TE.tryCatch(
+    () =>
+      new Promise<void>((resolve, reject) => {
+        const readStream = fs.createReadStream(tmpClipsFilepath)
+
+        readStream
+          .pipe(parse({ delimiter: '\t', columns: true }))
           .pipe(checkClipForExistence())
           .pipe(downloadClips(releaseDirPath))
           .pipe(transformClips(isMinorityLanguage))
@@ -167,7 +191,7 @@ const fetchAllClipsForLocale = (
           .on('finish', () => {
             resolve()
           })
-          .on('error', err => reject(err))
+          .on('error', (err: unknown) => reject(err))
       }),
     (reason: unknown) => Error(String(reason)),
   )
@@ -183,12 +207,20 @@ export const fetchAllClipsPipeline = (
 ): TE.TaskEither<Error, void> => {
   return pipe(
     TE.Do,
-    TE.chainFirst(() => TE.fromIO(prepareDir(clipsDirPath))),
-    TE.chain(() =>
-      fetchAllClipsForLocale(
-        locale,
+    TE.let('clipsTmpPath', () => getTmpClipsPath(locale)),
+    TE.chainFirst(({ clipsTmpPath }) =>
+      streamQueryResultToFile(
+        clipsTmpPath,
         includeClipsFrom,
         includeClipsUntil,
+        locale,
+      ),
+    ),
+    TE.chainFirst(() => TE.fromIO(prepareDir(clipsDirPath))),
+    TE.chain(({ clipsTmpPath }) =>
+      fetchAllClipsForLocale(
+        clipsTmpPath,
+        locale,
         isMinorityLanguage,
         releaseDirPath,
       ),

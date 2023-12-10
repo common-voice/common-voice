@@ -15,6 +15,7 @@ export const cleanUp = (
     async () => {
       await fs.rm(path.join(releaseDirPath, locale), { recursive: true })
       await fs.rm(tarFilepath, { recursive: true })
+      await fs.rm(path.join('/tmp', `${locale}_clips.tsv`))
     },
     (err: unknown) => Error(String(err)),
   )
