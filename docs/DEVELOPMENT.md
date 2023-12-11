@@ -227,7 +227,7 @@ To update the list of locales run:
 
 ## Running End to End Tests
 
-Some end to end tests require you to create a test user for login purposes. To do so you will need to create a `cypress.env.json` file with the login details for that user and your auth0 domain. Your JSON file should look like this:
+Some end to end tests require you to create a test user for login purposes. To do so you will need to create a `cypress.env.json` file with the login details for that user and your auth0 domain. This file should be located in the root of the `web` directory. Your JSON file should look like this:
 
 ```json
 {
