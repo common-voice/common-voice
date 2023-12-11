@@ -3043,10 +3043,10 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest-axe@3.5.7":
-  version "3.5.7"
-  resolved "https://registry.yarnpkg.com/@types/jest-axe/-/jest-axe-3.5.7.tgz#12abeb00936a71e71760ee00c574f63e68d5d873"
-  integrity sha512-eFIaZbh4t7Odys8dSQBJLMbM3cubzaJLl+g5yZwBMF6nqOpXQCvwPQPDHk0tfVepeDodcLy87bopvHb5bWrNAQ==
+"@types/jest-axe@3.5.9":
+  version "3.5.9"
+  resolved "https://registry.yarnpkg.com/@types/jest-axe/-/jest-axe-3.5.9.tgz#97b1317371a48707ca93825d4c990b0d07690d99"
+  integrity sha512-z98CzR0yVDalCEuhGXXO4/zN4HHuSebAukXDjTLJyjEAgoUf1H1i+sr7SUB/mz8CRS/03/XChsx0dcLjHkndoQ==
   dependencies:
     "@types/jest" "*"
     axe-core "^3.5.5"
