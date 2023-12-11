@@ -23,7 +23,7 @@ export default function UserMenu() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div>
+    <div data-testid="user-menu">
       <div
         className={'user-menu ' + (showMenu ? 'active' : '')}
         onMouseEnter={() => setShowMenu(true)}
