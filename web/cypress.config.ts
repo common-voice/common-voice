@@ -1,6 +1,5 @@
 import { defineConfig } from 'cypress'
 import { cypressBrowserPermissionsPlugin } from 'cypress-browser-permissions'
-import 'dotenv/config'
 
 export default defineConfig({
   e2e: {
@@ -24,9 +23,6 @@ export default defineConfig({
       browserPermissions: {
         microphone: 'allow',
       },
-      auth0Domain: process.env.AUTH0_DOMAIN,
-      testUserEmail: process.env.TEST_USER_EMAIL,
-      testUserPassword: process.env.TEST_USER_PASSWORD,
     },
     viewportWidth: 1500,
     viewportHeight: 1000,

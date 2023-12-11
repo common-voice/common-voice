@@ -15,11 +15,11 @@ xcuserdata/
 .vscode/
 ZZidea
 .env-local-docker
-.env
 docker-compose.override.yml
 yarn-error.log
 index.ts.bak
 scripts/releases
+web/cypress.env.json
 
 # Nubis
 nubis/librarian-puppet.tar.gz

@@ -14,7 +14,7 @@ Cypress.Commands.add('login', (email: string, password: string) => {
     cy.get('[data-testid=login-button]').click()
 
     cy.origin(
-      Cypress.env('auth0Domain'),
+      Cypress.env('auth0_domain'),
       { args: { email, password } },
       ({ email, password }) => {
         cy.get('input[name=username]').type(email)

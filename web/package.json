@@ -70,7 +70,6 @@
     "cypress": "13.5.1",
     "cypress-browser-permissions": "1.1.0",
     "cypress-file-upload": "5.0.8",
-    "dotenv": "16.0.0",
     "file-loader": "6.2.0",
     "html-webpack-plugin": "5.5.0",
     "identity-obj-proxy": "3.0.0",
