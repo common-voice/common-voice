@@ -220,6 +220,7 @@ share-text = Bantu mengajar mesin bagaimana orang sebenar bercakap, sumbangkan s
 link-copied = Pautan Disalin
 back-top = Kembali ke atas
 logout = Log Keluar
+donate = Derma
 
 ## Home Page
 
@@ -401,6 +402,7 @@ accept-privacy = Saya setuju Mozilla mengendalikan maklumat ini seperti yang ter
 accept-privacy-title = Dasar Polisi
 accept-privacy-and-terms = Saya bersetuju dengan <termsLink>Terma</termsLink> dan <privacyLink>Notis Privasi</privacyLink>
 login-identity = Identiti Log Masuk
+login = Log Masuk
 login-signup = Log Masuk / Daftar
 edit = Sunting
 email-subscriptions = Langganan E-mel
@@ -596,7 +598,6 @@ about-playbook-how-add-sentences = Bagaimana saya boleh menambah ayat?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ialah alat untuk mengumpul dan mengesahkan ayat domain awam. Anda akan <scAccountLink>perlu membuat akaun</scAccountLink>. Kemudian, tambahkan bahasa anda pada <strong>Profil</strong> anda. Anda boleh <strong>Tambah</strong> ayat atau <strong>Semak</strong> ayat yang ditambahkan sebelum ini.
 about-playbook-how-add-sentences-content-2 = Ayat mesti disemak dan diterima oleh dua orang untuk disertakan dalam Common Voice. Anda membuat garis panduan untuk bahasa anda <languageGuidelinesLink>di sini</languageGuidelinesLink>. Ayat mestilah dalam <licenseLink>domain awam</licenseLink> dan lebih pendek daripada 15 patah perkataan. Anda boleh meminta pemilik teks untuk menjadikannya <waiverLink>CC0 menggunakan proses penepian kami</waiverLink> dan hantar kepada kami di commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Anda boleh menggunakan <scraperLink>Sentence extractor</scraperLink> untuk memanfaatkan ayat pendek daripada Wikipedia.
-about-playbook-how-add-sentences-content-4 = Ayat yang telah disahkan dieksport pada hari Rabu, dan tersedia selepas keluaran seterusnya.
 
 ## How to record quality
 
@@ -869,6 +870,9 @@ target-segment-generic-card = Anda menyumbang kepada segmen sasaran
 target-segment-first-banner = Bantu membuat segmen sasaran pertama Common Voice di { $locale }
 target-segment-add-voice = Tambahkan Suara Anda
 target-segment-learn-more = Ketahui Selanjutnya
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1157,3 +1161,9 @@ partnerships-corporates-header = Syarikat korporat dan platform berskala besar
 partnerships-corporates-description = Jika Anda ingin bercakap lebih lanjut tentang set data, ingin melabur bersama dalam pengembangan platform yang dirancang atau mencari peluang kerjasama, <emailFragment>turun talian kepada kami.</emailFragment>
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Terima kasih kerana menderma klip suara anda!
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
