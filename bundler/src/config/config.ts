@@ -1,6 +1,8 @@
 import {io as IO } from 'fp-ts'
 import path from 'node:path'
 
+const TMP_DIR = '/home/node/tmp'
+
 export type DbConfig = {
     host: string
     port: number
@@ -49,3 +51,4 @@ export const getEnvironment = getEnvironment_(config)
 export const getDbConfig = getDbConfig_(config)
 export const getClipsBucketName = getClipsBucketName_(config)
 export const getDatasetBundlerBucketName = getDatasetBundlerBucketName_(config)
+export const getTmpDir = () => path.resolve(TMP_DIR)
