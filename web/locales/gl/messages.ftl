@@ -747,6 +747,7 @@ number-of-voices = Número de voces
 splits = Subconxuntos
 email-to-download = Escriba o enderezo de correo para descargar
 why-email = <b>Por que un enderezo de correo?</b> É posible que precisemos poñernos en contacto con vostede no futuro para trasladarlle posibles cambios no conxuto de datos.
+why-donate = Por que preguntamos?
 confirm-size = Estou preparado para iniciar unha descarga de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -861,6 +862,8 @@ language-section-in-progress = En curso
 language-section-in-progress-new-description = Estes idiomas están actualmente en desenvolvemento por parte da comunidade. As barras de progreso indican en que punto se encontra cada un deles nos procesos de <localizationGlossaryLink>tradución da páxina</localizationGlossaryLink> e de <sentenceCollectionGlossaryLink>recollida de frases</sentenceCollectionGlossaryLink>.
 language-section-launched = En produción
 language-section-launched-description = Os idiomas en produción teñen a páxina web completamente <localizationGlossaryLink>traducida</localizationGlossaryLink> e contan con suficientes <sentenceCollectionGlossaryLink>frases recollidas</sentenceCollectionGlossaryLink> para aceptar contribucións de <speakLink>Fala</speakLink> e <listenLink>Escoita</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Última actualización: { $lastUpdatedTimeStamp }
 languages-show-more = Ver máis
 languages-show-less = Ver menos
 language-meter-in-progress = Progreso
