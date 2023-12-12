@@ -279,7 +279,7 @@ x-years-short =
     }
 help-make-dataset = Bantu kami membina set data berkualiti tinggi dan terbuka untuk umum
 sign-up-account = Daftarkan akaun
-email-subscription-title = Daftar untuk mendapatkan kemas kini emel
+email-subscription-title = Daftar untuk mendapatkan kemas kini e-mel
 email-subscription-title-new = Daftar untuk buletin Common Voice, peringatan matlamat dan kemas kini kemajuan
 
 ## Account Benefits
