@@ -800,6 +800,8 @@ language-search-input =
 language-speakers = Говорители
 localized = Превод
 sentences = Изречения
+language-validation-hours = Часa
+language-validation-progress = Напредък на валидирането
 
 ## Contribution
 
