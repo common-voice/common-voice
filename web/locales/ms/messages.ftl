@@ -12,8 +12,8 @@ email-opt-in-info = Saya ingin menerima e-mel seperti peringatan matlamat, kemas
 email-opt-in-info-title = Sertai senarai mel Common Voice
 email-opt-in-info-sub-with-challenge = Terima e-mel seperti peringatan cabaran dan matlamat, kemas kini kemajuan, dan buletin mengenai Common Voice.
 email-opt-in-privacy-v2 =
-    Dengan memilih untuk menerima e-mel, Anda menyatakan bahawa anda baik-baik saja dengan Mozilla mengendalikan 
-     maklumat ini seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla.
+    Dengan memilih untuk menerima e-mel, Anda menyatakan bahawa anda bersetuju dengan Mozilla mengendalikan 
+     maklumat tersebut seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla.
 indicates-required = Medan bertanda asterisk (*) diperlukan.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Maaf, Common Voice berjalan perlahan. Terima kasih atas minat Anda.
@@ -544,6 +544,7 @@ about-clip-graveyard-text =
     Kami ingin mengucapkan terima kasih kepada orang dan organisasi berikut atas bantuan mereka dengan projek ini:
 about-get-involved = Melibatkan diri
 about-stay-in-touch = Bagaimana saya boleh terus berhubung?
+about-stay-in-touch-button = Daftar
 about-stay-in-touch-text-1 = <emailFragment>Daftar</emailFragment> ke senarai mel kami untuk mengetahui cara anda boleh mengambil bahagian dalam kempen, acara dan ciri reka bentuk bersama di Common Voice.
 about-stay-in-touch-text-2 = Anda boleh bertemu orang lain dalam komuniti bahasa Mozilla dengan menyertai <discourseLink>Discourse</discourseLink> untuk perbualan topikal, atau <matrixLink>Matrix</matrixLink> untuk mendapatkan nasihat pantas.
 about-nav-why-common-voice = Kenapa?
@@ -816,6 +817,7 @@ language-search-input =
 language-speakers = Penceramah
 localized = Dilokalisasi
 sentences = Ayat
+language-validation-hours = Jam
 
 ## Contribution
 
@@ -1014,6 +1016,7 @@ profile-form-delete = Hapus Profil
 
 ## Profile Download
 
+download-profile-title = Profil
 download-recordings-title = Rakaman
 download-request-description = { $clipCount } klip suara, jumlah saiz arkib { $size }. Tamat tempoh { $expires }.
 
