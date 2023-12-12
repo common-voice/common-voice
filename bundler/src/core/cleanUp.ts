@@ -12,15 +12,22 @@ export const cleanUp = (
   locale: string,
   releaseDirPath: string,
   tarFilepath: string,
-  prevReleaseName: string,
+  prevReleaseName?: string,
 ) => {
   return TE.tryCatch(
     async () => {
       await fs.rm(path.join(releaseDirPath, locale), { recursive: true })
       await fs.rm(tarFilepath, { recursive: true })
       await fs.rm(path.join(getTmpDir(), `${locale}_clips.tsv`))
-      await fs.rm(path.join(getTmpDir(), prevReleaseName), { recursive: true})
-      await fs.rm(path.join(getTmpDir(), generateTarFilename(locale, prevReleaseName)))
+
+      if (prevReleaseName) {
+        await fs.rm(path.join(getTmpDir(), prevReleaseName), {
+          recursive: true,
+        })
+        await fs.rm(
+          path.join(getTmpDir(), generateTarFilename(locale, prevReleaseName)),
+        )
+      }
     },
     (err: unknown) => Error(String(err)),
   )
@@ -28,12 +35,11 @@ export const cleanUp = (
 
 export const runCleanUp = (
   tarFilepath: string,
-  prevReleaseName: string
 ): RTE.ReaderTaskEither<AppEnv, Error, void> => {
   return pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale, releaseDirPath }) =>
-      cleanUp(locale, releaseDirPath, tarFilepath, prevReleaseName),
+    RTE.chainTaskEitherK(({ locale, releaseDirPath, previousReleaseName }) =>
+      cleanUp(locale, releaseDirPath, tarFilepath, previousReleaseName),
     ),
   )
 }

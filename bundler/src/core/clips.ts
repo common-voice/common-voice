@@ -3,12 +3,8 @@ import path from 'node:path'
 import { Transform } from 'node:stream'
 
 import tar from 'tar'
-import {
-  readerTaskEither as RTE,
-  task as T,
-  taskEither as TE,
-} from 'fp-ts'
-import { pipe } from 'fp-ts/lib/function'
+import { readerTaskEither as RTE, task as T, taskEither as TE } from 'fp-ts'
+import { constVoid, pipe } from 'fp-ts/lib/function'
 import { stringify } from 'csv-stringify'
 import { parse } from 'csv-parse'
 
@@ -148,29 +144,32 @@ const checkClipForExistence = (releaseDirPath: string) =>
 const getPreviousReleaseClipDir = (locale: string, prevReleaseName: string) =>
   path.join(getTmpDir(), prevReleaseName, locale, 'clips')
 
-const copyExistingClips = (releaseDirPath: string, prevReleaseName: string) =>
+const copyExistingClips = (releaseDirPath: string, prevReleaseName?: string) =>
   new Transform({
     transform(chunk: ClipRow, encoding, callback) {
-      const filename = createClipFilename(chunk.locale, chunk.id)
-      const prevReleaseClipPath = path.join(
-        getPreviousReleaseClipDir(chunk.locale, prevReleaseName),
-        filename,
-      )
-      const currentReleaseClipPath = path.join(
-        releaseDirPath,
-        chunk.locale,
-        'clips',
-        filename,
-      )
-      const clipExists = fs.existsSync(prevReleaseClipPath)
-
-      if (clipExists) {
-        fs.copyFileSync(prevReleaseClipPath, currentReleaseClipPath)
-        fs.rmSync(prevReleaseClipPath)
-      } else {
+      if (!prevReleaseName) {
         this.push(chunk, encoding)
-      }
+      } else {
+        const filename = createClipFilename(chunk.locale, chunk.id)
+        const prevReleaseClipPath = path.join(
+          getPreviousReleaseClipDir(chunk.locale, prevReleaseName),
+          filename,
+        )
+        const currentReleaseClipPath = path.join(
+          releaseDirPath,
+          chunk.locale,
+          'clips',
+          filename,
+        )
+        const clipExists = fs.existsSync(prevReleaseClipPath)
 
+        if (clipExists) {
+          fs.copyFileSync(prevReleaseClipPath, currentReleaseClipPath)
+          fs.rmSync(prevReleaseClipPath)
+        } else {
+          this.push(chunk, encoding)
+        }
+      }
       callback()
     },
     objectMode: true,
@@ -232,10 +231,10 @@ const streamQueryResultToFile = (
   )
 
 const fetchAllClipsForLocale = (
-  previousReleaseName: string,
   tmpClipsFilepath: string,
   locale: string,
   releaseDirPath: string,
+  previousReleaseName?: string,
 ): TE.TaskEither<Error, void> => {
   console.log('Fetching clips for locale', locale)
 
@@ -285,18 +284,11 @@ const createClipsTsv = (
   )
 }
 
-const getPreviousReleaseName = (releaseName: string) => {
-  const releaseVersionRegEx = /\d+\.\d+/
-  const matchResult = releaseName.match(releaseVersionRegEx)
-  const currentReleaseVersion = matchResult ? matchResult[0] : '1'
-  const prevReleaseVersion = Number(currentReleaseVersion) - 1
+const downloadPreviousRelease = (locale: string, prevReleaseName?: string) => {
+  if (!prevReleaseName) return TE.right(constVoid())
 
-  return releaseName.replace(releaseVersionRegEx, prevReleaseVersion.toFixed(1))
-}
-
-const downloadPreviousRelease = (locale: string, releaseName: string) => {
-  const tarFilename = generateTarFilename(locale, releaseName)
-  const storagePath = `${releaseName}/${tarFilename}`
+  const tarFilename = generateTarFilename(locale, prevReleaseName)
+  const storagePath = `${prevReleaseName}/${tarFilename}`
 
   console.log('Downloading release', storagePath)
   const writeStream = fs.createWriteStream(path.join(getTmpDir(), tarFilename))
@@ -315,9 +307,11 @@ const downloadPreviousRelease = (locale: string, releaseName: string) => {
 
 const extractClipsFromPreviousRelease = (
   locale: string,
-  releaseName: string,
+  prevReleaseName?: string,
 ) => {
-  const filename = generateTarFilename(locale, releaseName)
+  if (!prevReleaseName) return TE.right(constVoid())
+
+  const filename = generateTarFilename(locale, prevReleaseName)
   console.log('Extracting', path.join(getTmpDir(), filename))
   return TE.tryCatch(
     () =>
@@ -326,7 +320,7 @@ const extractClipsFromPreviousRelease = (
           cwd: getTmpDir(),
           f: path.join(getTmpDir(), filename),
         },
-        [`${releaseName}/${locale}/clips`],
+        [`${prevReleaseName}/${locale}/clips`],
       ),
     (err: unknown) => {
       console.log(err)
@@ -343,16 +337,13 @@ export const fetchAllClipsPipeline = (
   isMinorityLanguage: boolean,
   clipsDirPath: string,
   releaseDirPath: string,
-  releaseName: string,
-): TE.TaskEither<Error, string> => {
+  previousReleaseName?: string,
+): TE.TaskEither<Error, void> => {
   return pipe(
     TE.Do,
     TE.let('clipsTmpPath', () => getTmpClipsPath(locale)),
-    TE.let('previousReleaseName', () => getPreviousReleaseName(releaseName)),
-    TE.chainFirst(({ previousReleaseName }) =>
-      downloadPreviousRelease(locale, previousReleaseName),
-    ),
-    TE.chainFirst(({ previousReleaseName }) =>
+    TE.chainFirst(() => downloadPreviousRelease(locale, previousReleaseName)),
+    TE.chainFirst(() =>
       extractClipsFromPreviousRelease(locale, previousReleaseName),
     ),
     TE.chainFirst(({ clipsTmpPath }) =>
@@ -364,24 +355,24 @@ export const fetchAllClipsPipeline = (
       ),
     ),
     TE.chainFirst(() => TE.fromIO(prepareDir(clipsDirPath))),
-    TE.chainFirst(({ clipsTmpPath, previousReleaseName }) =>
+    TE.chainFirst(({ clipsTmpPath }) =>
       fetchAllClipsForLocale(
-        previousReleaseName,
         clipsTmpPath,
         locale,
         releaseDirPath,
+        previousReleaseName,
       ),
     ),
     TE.chainFirst(({ clipsTmpPath }) =>
       createClipsTsv(clipsTmpPath, locale, isMinorityLanguage, releaseDirPath),
     ),
-    TE.map(({ previousReleaseName }) => previousReleaseName),
+    TE.as(constVoid()),
   )
 }
 
 export const runFetchAllClipsForLocale = (
   isMinorityLanguage: boolean,
-): RTE.ReaderTaskEither<AppEnv, Error, string> => {
+): RTE.ReaderTaskEither<AppEnv, Error, void> => {
   return pipe(
     RTE.ask<AppEnv>(),
     RTE.chainTaskEitherK(
@@ -392,7 +383,7 @@ export const runFetchAllClipsForLocale = (
         until,
         clipsDirPath,
         releaseDirPath,
-        releaseName,
+        previousReleaseName,
       }) =>
         fetchAllClipsPipeline(
           type,
@@ -402,7 +393,7 @@ export const runFetchAllClipsForLocale = (
           isMinorityLanguage,
           clipsDirPath,
           releaseDirPath,
-          releaseName,
+          previousReleaseName,
         ),
     ),
   )

@@ -31,7 +31,7 @@ const processPipeline = pipe(
   RTE.bind('stats', ({ totalDurationInMs, tarFilepath }) =>
     runStats(totalDurationInMs, tarFilepath),
   ),
-  RTE.chainFirst(({ tarFilepath , prevReleaseName}) => runCleanUp(tarFilepath, prevReleaseName)),
+  RTE.chainFirst(({ tarFilepath }) => runCleanUp(tarFilepath)),
   RTE.match(
     err => console.log(err),
     () => constVoid(),
