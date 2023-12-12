@@ -1212,21 +1212,86 @@ sc-howto-review-criteria-5 = Ако изречението не отговаря
 sc-howto-review-criteria-6 = Ако ви свършат изреченията за преглед, моля, помогнете ни да съберем повече изречения!
 sc-howto-findpd-title = Намиране на съществуващи изречения в публичното пространство
 sc-howto-findpd-subtitle = Потърсете ги в Интернет
+sc-howto-findpd-text-2 = Не забравяйте, че се нуждаем от разрешение за публикуване на тези изречения, така че винаги се уверявайте, че текстът принадлежи към <wikipediaLink>обществено достояние</wikipediaLink>. Ако няма изрично указание, свържете се с лицето, на което принадлежи текстът, и го попитайте дали иска да допринесе със своя текст в общественото достояние. Ако искат, помогнете им да преминат през процеса на <cc0WaiverLink>Споразумение за допринасяне</cc0WaiverLink>. Ако те не искат да допринесат с текста, тогава нямате право да използвате този текст.
+sc-howto-findpd-tips = Ето няколко съвета за намиране на изречения:
+sc-howto-findpd-tips-1 = Най-добрите източници, които можете да търсите, са подкасти, преписи, филмови сценарии и всичко, което потенциално може да съдържа ежедневни разговори.
+sc-howto-findpd-tips-2 = Правителствени процедури, книги и статии също са страхотни, но тъй като текстът има тенденция да бъде малко по-официален, те не са толкова приоритетни.
+sc-howto-findpd-tips-3 = За съжаление все още не можем да имаме статии от Wikimedia. Така че не копирайте текст от там.
+sc-howto-findpd-subtitle-2 = Партнирайте с местни организации или лица
+sc-howto-findpd-partner-1 = Има много обществени организации, които биха искали да си сътрудничат и вече имат много текстове, които могат да дарят като обществено достояние. Свържете се с местни университети, правителства и организации с отворен код, за да говорите за проекта и да поискате тяхната помощ.
+sc-howto-findpd-partner-2 = Експертите лингвисти също могат да помогнат, опитайте се да се свържете с местните лингвистични университети (както учители, така и студенти) и вижте дали те могат да ви помогнат да съберете разнообразен набор от различни по звук изречения на вашия език.
 
 ## MY SENTENCES
 
+sc-my-title = Моите изречения
+sc-my-description = Тази страница ви дава общ преглед на всички изпратени от вас изречения. Можете също така да изтриете вече изпратени изречения, ако е необходимо, като поставите отметка в квадратчето до него и щракнете върху &quot;Изтриване на избраните изречения&quot; на дъното. Моля, премахвайте изречения само ако е абсолютно необходимо, например ако сте забелязали след факта, че дадено изречение е защитено с авторски права.
+sc-my-loading = Зареждане на изреченията...
+sc-my-err-fetching = Грешка при извличането на вашите изречения. Моля, опитайте отново.
+sc-my-no-sentences = Няма намерени изречения!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Изпращане: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Източник: { $source }
+sc-my-delete = Изтрий избраните изречения
+sc-my-deleting = Изтрване на избраните изречения…
+sc-my-err-failed-delete = Неуспешно изтриване на избраните изречения… Моля, опитайте отново!
 
 ## REJECTED
 
+sc-rejected-title = Отхвърлени изречения
+sc-rejected-loading = Изтрване на отхвърлениете изречения…
+sc-rejected-err-fetching = Грешка при извличане на отхвърлени изречения. Моля, опитайте отново.
+sc-rejected-none-found = Няма намерени отхвърлени изречения!
 
 ## STATS
 
+sc-stats-title = Статистика
+sc-stats-updating = Обновяване...
+sc-stats-error = Не можахме да извлечем статистиката. Моля, опитайте отново по-късно.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Събирачът на изречения на Common Voice е събрал { $sentenceCount } изречения на { $languageCount } езика!
 
 ## ADD
 
+sc-submit-err-select-lang = Моля, изберете език.
+sc-submit-err-add-sentences = Моля, добавете изречения.
+sc-submit-err-add-source = Моля, добавете източник.
+sc-submit-err-confirm-pd = Моля, потвърдете, че тези изречения са обществено достояние.
+sc-submit-prompt =
+    .message = Изреченията не са изпратени, сигурни ли сте, че искате да напуснете?
+sc-submit-title = Добавяне на изречения
+sc-submit-select-language =
+    .labelText = Избор на език
+sc-submit-add-sentences = Добавете изречения , класифицирани като<wikipediaLink>обществено достояние</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Едно изречение на ред
+sc-submit-from-where = Откъде са тези изречения  с<wikipediaLink>обществено достояние</wikipediaLink> ?
+sc-submit-ph-read-how-to =
+    .placeholder = Прочетете нашите инструкции, ако не сте сигурни как да допринасяте
+sc-submit-confirm = Потвърждавам, че тези изречения са <wikipediaLink>обществено достояние</wikipediaLink> и имам разрешение да ги кача.
+sc-submit-button =
+    .submitText = Изпращане
+sc-submit-filtered = Филтрирани изречения поради неизпълнение на изискванията (моля, изпратете фиксирани версии като нови изречения):
+sc-submit-guidelines = Моля, проверете <howToLink>указанията</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Не можа да се добави език
+sc-add-lang-sec-label = Добавете език, на който искате да допринесете
+sc-add-lang-sec-button = Добавяне на език
+sc-add-err-unexpected = Върнат е неочакван отговор от сървъра
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Предоставени изречения. { $duplicates } изречения бяха отхвърлени като дубликати.
+        [one] Предоставено изречение. { $duplicates } изречение беше отхвърлено като дубликат.
+       *[other] Предоставени изречения. { $duplicates } изречения бяха отхвърлени като дубликати.
+    }
 
 ## ADD SENTENCES CONFIRMATION
 
