@@ -576,9 +576,18 @@ about-playbook-how-add-sentences-content-2 = Изреченията трябва
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Събития
+about-playbook-how-grow-language-content-5 = Можете да използвате социалмните мрежи, за да разпространите съобщението. Споделяйте публикации, които обясняват защо има значение, и се свързвайте с други хора, които говорят за проблеми като езикови права, гласов AI или пристрастия в технологиите. Вижте повече съвети за <campaignLink>провеждане на социална кампания, включително съдържание, което можете да използвате повторно</campaignLink>.
+about-playbook-how-grow-language-content-6 = Партньорства и мрежи
+about-playbook-how-grow-language-content-7 = Намерете други със сходни интереси.. Това може да са университети, езикови училища, групи за застъпничество или общности за наука за данни. Протегнете ръка и обяснете ясно как могат да помогнат и защо. <outreachTemplates>Вижте нашите шаблонни имейли за обхват</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Бъдете креативни!</strong> Вашата езикова общност ще бъде уникална и това са само няколко начина да започнете.
 
 ## How to validate
 
+about-playbook-how-validate = Как да разбера дали да одобря гласов клип?
+about-playbook-how-validate-content-1 = Ако можете <strong>да го чуете</strong> и <strong>да го разберете</strong>, обикновено е <strong>най-добре да одобрите</strong>.
+about-playbook-how-validate-content-2 = <strong>Не отхвърляйте клипове, където говорещият „има акцент“, който е различен от вашия собствен</strong> – това е важно, за да може гласовото разпознаване да работи по-добре за всички.
+about-playbook-how-validate-content-3 = Ако смятате, че произношението го прави <strong>невъзможно за разбиране</strong>,  има <strong>много фонов шум</strong> или  <strong>други хора, които говорят също</strong>, тогава вие трябва да отхвърлите клипа. <accuracyLink>Вижте повече информация в нашите критерии за точност</accuracyLink>.
+about-playbook-how-validate-content-4 = Ако клип бъде отхвърлен от 2 души, той се премества в различна категория данни.
 
 ## How to access dataset
 
