@@ -23,9 +23,11 @@ export const cleanUp = (
       if (prevReleaseName) {
         await fs.rm(path.join(getTmpDir(), prevReleaseName), {
           recursive: true,
+          force: true,
         })
         await fs.rm(
           path.join(getTmpDir(), generateTarFilename(locale, prevReleaseName)),
+          { force: true },
         )
       }
     },

@@ -290,18 +290,31 @@ const downloadPreviousRelease = (locale: string, prevReleaseName?: string) => {
   const tarFilename = generateTarFilename(locale, prevReleaseName)
   const storagePath = `${prevReleaseName}/${tarFilename}`
 
-  console.log('Downloading release', storagePath)
-  const writeStream = fs.createWriteStream(path.join(getTmpDir(), tarFilename))
-
-  return TE.tryCatch(
-    () =>
-      new Promise<void>((resolve, reject) => {
+  const downloadRelease = TE.tryCatch(
+    () => {
+      console.log('Downloading release', storagePath)
+      const writeStream = fs.createWriteStream(
+        path.join(getTmpDir(), tarFilename),
+      )
+      return new Promise<void>((resolve, reject) => {
         streamDownloadFileFromBucket(getDatasetBundlerBucketName())(storagePath)
           .pipe(writeStream)
           .on('finish', () => resolve())
           .on('error', (err: unknown) => reject(err))
-      }),
+      })
+    },
     (reason: unknown) => Error(String(reason)),
+  )
+
+  return pipe(
+    TE.Do,
+    TE.bind('doesPrevReleaseExist', () =>
+      doesFileExistInBucket(getDatasetBundlerBucketName())(storagePath),
+    ),
+    TE.chainFirst(({ doesPrevReleaseExist }) =>
+      doesPrevReleaseExist ? downloadRelease : TE.right(constVoid()),
+    ),
+    TE.as(constVoid()),
   )
 }
 
@@ -312,13 +325,21 @@ const extractClipsFromPreviousRelease = (
   if (!prevReleaseName) return TE.right(constVoid())
 
   const filename = generateTarFilename(locale, prevReleaseName)
-  console.log('Extracting', path.join(getTmpDir(), filename))
+  const filepath = path.join(getTmpDir(), filename)
+
+  if (!fs.existsSync(filepath)) {
+    console.log(filepath, `doesn't exist`)
+    return TE.right(constVoid())
+  }
+
+  console.log('Extracting', filepath)
+
   return TE.tryCatch(
     () =>
       tar.x(
         {
           cwd: getTmpDir(),
-          f: path.join(getTmpDir(), filename),
+          f: filepath,
         },
         [`${prevReleaseName}/${locale}/clips`],
       ),
