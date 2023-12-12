@@ -1298,18 +1298,42 @@ sc-add-result =
 
 ## LANGUAGE INFO
 
+sc-lang-info-add-more = <addLink>Добавете още изречения сега!</addLink>
 
 ## LOGIN
 
+sc-login-err-failed = Неуспешно включване
+sc-login-err-try-again = Моля, опитайте отново.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профил: { $username }
+sc-personal-err-lang-not-found = Езикът не може да бъде премахнат: езикът не е намерен
+sc-personal-err-remove = Езикът не можа да бъде премахнат
+sc-personal-your-languages = Вашите езици:
+sc-personal-remove-button = премахване
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } добавени от вас
+sc-personal-not-added = Все още не сте добавили никакви езици.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Критерии за преглед
+sc-criteria-title = Критерии за преглед
+sc-criteria-make-sure = Уверете се, че изречението отговаря на следните критерии:
+sc-criteria-item-1 = Изречението трябва да бъде изписано правилно.
+sc-criteria-item-2 = Изречението трябва да е граматически правилно.
+sc-criteria-item-3 = Изречението трябва да може да се изговори.
+sc-criteria-item-4 = Ако изречението отговаря на критериите, щракнете върху &quot;Одобряване&quot; бутон вдясно.
+sc-criteria-item-5-2 = Ако изречението не отговаря на горните критерии, щракнете върху &quot;Отхвърляне&quot; бутон отляво. Ако не сте сигурни за изречението, можете също да го пропуснете и да преминете към следващото.
+sc-criteria-item-6 = Ако ви свършат изреченията за преглед, моля, помогнете ни да съберем повече изречения!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Не сте избрали никакви езици. Моля, отидете във вашия <profileLink>Профил</profileLink>, за да изберете езици.
 
 ## SETTINGS
 
