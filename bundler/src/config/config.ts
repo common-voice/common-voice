@@ -1,7 +1,7 @@
 import {io as IO } from 'fp-ts'
 import path from 'node:path'
 
-const TMP_DIR = '/home/node/tmp'
+const TMP_DIR = '/cache'
 
 export type DbConfig = {
     host: string
