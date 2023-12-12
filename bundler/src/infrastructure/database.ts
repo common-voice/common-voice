@@ -1,24 +1,25 @@
-import mysql from 'mysql2/promise'
-import mysql2, { ConnectionOptions } from 'mysql2'
+import * as mysql from 'mysql'
 import { taskEither as TE } from 'fp-ts'
 import { getDbConfig } from '../config/config'
 
-const DB_CONFIG: ConnectionOptions = getDbConfig()
+const DB_CONFIG: mysql.ConnectionConfig = getDbConfig()
 
 export const query = <T>(
   query: string,
   params: Array<any>,
 ): TE.TaskEither<Error, T> => {
   return TE.tryCatch(
-    async () => {
-      const conn = await mysql.createConnection(DB_CONFIG)
+    () =>
+      new Promise((resolve, reject) => {
+        const conn = mysql.createConnection(DB_CONFIG)
 
-      const [rows, _] = await conn.query(query, params)
+        conn.query(query, params, function (err: unknown, results: T, fields: unknown) {
+          if (err) reject(err)
+          resolve(results)
+        })
 
-      await conn.end()
-
-      return rows as T
-    },
+        conn.end()
+      }),
     err => {
       return err instanceof Error
         ? err
@@ -35,9 +36,10 @@ export const query = <T>(
  * connection once the processing is done.
  */
 export const streamingQuery = (query: string, params: Array<any>) => {
-  const conn = mysql2.createConnection(DB_CONFIG)
+  const conn = mysql.createConnection(DB_CONFIG)
+
   return {
     conn: conn,
-    stream: conn.query(query, params).stream(),
+    stream: conn.query(query, params).stream({ highWaterMark: 10 }),
   }
 }

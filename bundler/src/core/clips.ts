@@ -1,18 +1,28 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { Transform } from 'node:stream'
+
+import tar from 'tar'
+import { readerTaskEither as RTE, task as T, taskEither as TE } from 'fp-ts'
+import { constVoid, pipe } from 'fp-ts/lib/function'
+import { stringify } from 'csv-stringify'
+import { parse } from 'csv-parse'
+
 import { streamingQuery } from '../infrastructure/database'
 import {
   doesFileExistInBucket,
   streamDownloadFileFromBucket,
 } from '../infrastructure/storage'
 import { AppEnv, ClipRow } from '../types'
-import { task as T, taskEither as TE } from 'fp-ts'
 import { hashClientId } from './clients'
-import { getClipsBucketName, getQueriesDir } from '../config/config'
-import { pipe } from 'fp-ts/lib/function'
+import {
+  getClipsBucketName,
+  getDatasetBundlerBucketName,
+  getQueriesDir,
+  getTmpDir,
+} from '../config/config'
 import { prepareDir } from '../infrastructure/filesystem'
-import { readerTaskEither as RTE } from 'fp-ts'
+import { generateTarFilename } from './compress'
 
 const CLIPS_BUCKET = getClipsBucketName()
 
@@ -34,6 +44,9 @@ export const TSV_COLUMNS = [
 export type CLIPS_TSV_ROW = {
   [K in (typeof TSV_COLUMNS)[number]]: string
 }
+
+const getTmpClipsPath = (locale: string) =>
+  path.join(getTmpDir(), `${locale}_clips.tsv`)
 
 const createClipFilename = (locale: string, clipId: string) =>
   `common_voice_${locale}_${clipId}.mp3`
@@ -95,9 +108,9 @@ const transformClips = (isMinorityLanguage: boolean) =>
 const downloadClips = (releaseDirPath: string) =>
   new Transform({
     transform(chunk: ClipRow, encoding, callback) {
-      const newFilepath = createClipFilename(chunk.locale, chunk.id)
+      const clipFilename = createClipFilename(chunk.locale, chunk.id)
       const writeStream = fs.createWriteStream(
-        path.join(releaseDirPath, chunk.locale, 'clips', newFilepath),
+        path.join(releaseDirPath, chunk.locale, 'clips', clipFilename),
       )
 
       streamDownloadFileFromBucket(CLIPS_BUCKET)(chunk.path)
@@ -110,7 +123,7 @@ const downloadClips = (releaseDirPath: string) =>
     objectMode: true,
   })
 
-const checkClipForExistence = () =>
+const checkClipForExistence = (releaseDirPath: string) =>
   new Transform({
     transform(chunk: ClipRow, encoding, callback) {
       pipe(
@@ -119,26 +132,77 @@ const checkClipForExistence = () =>
       )().then(doesExist => {
         if (doesExist) {
           this.push(chunk, encoding)
-          callback()
         } else {
           console.log(`Skipping file ${chunk.path}`)
-          callback()
         }
+        callback()
       })
     },
     objectMode: true,
   })
 
-const fetchAllClipsForLocale = (
-  locale: string,
+const getPreviousReleaseClipDir = (locale: string, prevReleaseName: string) =>
+  path.join(getTmpDir(), prevReleaseName, locale, 'clips')
+
+const copyExistingClips = (releaseDirPath: string, prevReleaseName?: string) =>
+  new Transform({
+    transform(chunk: ClipRow, encoding, callback) {
+      if (!prevReleaseName) {
+        this.push(chunk, encoding)
+      } else {
+        const filename = createClipFilename(chunk.locale, chunk.id)
+        const prevReleaseClipPath = path.join(
+          getPreviousReleaseClipDir(chunk.locale, prevReleaseName),
+          filename,
+        )
+        const currentReleaseClipPath = path.join(
+          releaseDirPath,
+          chunk.locale,
+          'clips',
+          filename,
+        )
+        const clipExists = fs.existsSync(prevReleaseClipPath)
+
+        if (clipExists) {
+          fs.copyFileSync(prevReleaseClipPath, currentReleaseClipPath)
+          fs.rmSync(prevReleaseClipPath)
+        } else {
+          this.push(chunk, encoding)
+        }
+      }
+      callback()
+    },
+    objectMode: true,
+  })
+
+const filterMissingClips = (releaseDirPath: string) =>
+  new Transform({
+    transform(chunk: ClipRow, encoding, callback) {
+      const filename = createClipFilename(chunk.locale, chunk.id)
+      const currentReleaseClipPath = path.join(
+        releaseDirPath,
+        chunk.locale,
+        'clips',
+        filename,
+      )
+      const clipExists = fs.existsSync(currentReleaseClipPath)
+
+      if (clipExists) {
+        this.push(chunk, encoding)
+      }
+
+      callback()
+    },
+    objectMode: true,
+  })
+
+const streamQueryResultToFile = (
+  clipsTmpPath: string,
   includeClipsFrom: string,
   includeClipsUntil: string,
-  isMinorityLanguage: boolean,
-  releaseDirPath: string,
-): TE.TaskEither<Error, void> => {
-  console.log('Fetching clips for locale', locale)
-
-  return TE.tryCatch(
+  locale: string,
+) =>
+  TE.tryCatch(
     () =>
       new Promise<void>((resolve, reject) => {
         const { conn, stream } = streamingQuery(
@@ -149,46 +213,181 @@ const fetchAllClipsForLocale = (
         )
         console.log('Start Stream Processing')
 
-        const existingClipsStream = stream
-          .pipe(checkClipForExistence())
-          .on('finish', () => {
-            conn.end()
-          })
-          .on('error', err => reject(err))
+        const writeStream = fs.createWriteStream(clipsTmpPath)
 
-        existingClipsStream  
+        stream
+          .pipe(stringify({ header: true, delimiter: '\t' }))
+          .pipe(writeStream)
+          .on('finish', () => {
+            console.log(
+              `Query result for ${locale} finished streaming. Closing connection.`,
+            )
+            conn.end()
+            resolve()
+          })
+          .on('error', (err: unknown) => reject(err))
+      }),
+    (reason: unknown) => Error(String(reason)),
+  )
+
+const fetchAllClipsForLocale = (
+  tmpClipsFilepath: string,
+  locale: string,
+  releaseDirPath: string,
+  previousReleaseName?: string,
+): TE.TaskEither<Error, void> => {
+  console.log('Fetching clips for locale', locale)
+
+  return TE.tryCatch(
+    () =>
+      new Promise<void>((resolve, reject) => {
+        const readStream = fs.createReadStream(tmpClipsFilepath)
+
+        readStream
+          .pipe(parse({ delimiter: '\t', columns: true }))
+          .pipe(copyExistingClips(releaseDirPath, previousReleaseName))
+          .pipe(checkClipForExistence(releaseDirPath))
           .pipe(downloadClips(releaseDirPath))
-          .pipe(transformClips(isMinorityLanguage))
-          .pipe(writeFileStreamToTsv(locale, releaseDirPath))
           .on('finish', () => {
             resolve()
           })
-          .on('error', err => reject(err))
+          .on('error', (err: unknown) => reject(err))
       }),
     (reason: unknown) => Error(String(reason)),
   )
 }
 
+const createClipsTsv = (
+  tmpClipsFilepath: string,
+  locale: string,
+  isMinorityLanguage: boolean,
+  releaseDirPath: string,
+): TE.TaskEither<Error, void> => {
+  console.log('Fetching clips for locale', locale)
+
+  return TE.tryCatch(
+    () =>
+      new Promise<void>((resolve, reject) => {
+        const readStream = fs.createReadStream(tmpClipsFilepath)
+
+        readStream
+          .pipe(parse({ delimiter: '\t', columns: true }))
+          .pipe(filterMissingClips(releaseDirPath))
+          .pipe(transformClips(isMinorityLanguage))
+          .pipe(writeFileStreamToTsv(locale, releaseDirPath))
+          .on('finish', () => {
+            resolve()
+          })
+          .on('error', (err: unknown) => reject(err))
+      }),
+    (reason: unknown) => Error(String(reason)),
+  )
+}
+
+const downloadPreviousRelease = (locale: string, prevReleaseName?: string) => {
+  if (!prevReleaseName) return TE.right(constVoid())
+
+  const tarFilename = generateTarFilename(locale, prevReleaseName)
+  const storagePath = `${prevReleaseName}/${tarFilename}`
+
+  const downloadRelease = TE.tryCatch(
+    () => {
+      console.log('Downloading release', storagePath)
+      const writeStream = fs.createWriteStream(
+        path.join(getTmpDir(), tarFilename),
+      )
+      return new Promise<void>((resolve, reject) => {
+        streamDownloadFileFromBucket(getDatasetBundlerBucketName())(storagePath)
+          .pipe(writeStream)
+          .on('finish', () => resolve())
+          .on('error', (err: unknown) => reject(err))
+      })
+    },
+    (reason: unknown) => Error(String(reason)),
+  )
+
+  return pipe(
+    TE.Do,
+    TE.bind('doesPrevReleaseExist', () =>
+      doesFileExistInBucket(getDatasetBundlerBucketName())(storagePath),
+    ),
+    TE.chainFirst(({ doesPrevReleaseExist }) =>
+      doesPrevReleaseExist ? downloadRelease : TE.right(constVoid()),
+    ),
+    TE.as(constVoid()),
+  )
+}
+
+const extractClipsFromPreviousRelease = (
+  locale: string,
+  prevReleaseName?: string,
+) => {
+  if (!prevReleaseName) return TE.right(constVoid())
+
+  const filename = generateTarFilename(locale, prevReleaseName)
+  const filepath = path.join(getTmpDir(), filename)
+
+  if (!fs.existsSync(filepath)) {
+    console.log(filepath, `doesn't exist`)
+    return TE.right(constVoid())
+  }
+
+  console.log('Extracting', filepath)
+
+  return TE.tryCatch(
+    () =>
+      tar.x(
+        {
+          cwd: getTmpDir(),
+          f: filepath,
+        },
+        [`${prevReleaseName}/${locale}/clips`],
+      ),
+    (err: unknown) => {
+      console.log(err)
+      return Error(String(err))
+    },
+  )
+}
+
 export const fetchAllClipsPipeline = (
+  type: string,
   locale: string,
   includeClipsFrom: string,
   includeClipsUntil: string,
   isMinorityLanguage: boolean,
   clipsDirPath: string,
   releaseDirPath: string,
+  previousReleaseName?: string,
 ): TE.TaskEither<Error, void> => {
   return pipe(
     TE.Do,
-    TE.chainFirst(() => TE.fromIO(prepareDir(clipsDirPath))),
-    TE.chain(() =>
-      fetchAllClipsForLocale(
-        locale,
+    TE.let('clipsTmpPath', () => getTmpClipsPath(locale)),
+    TE.chainFirst(() => downloadPreviousRelease(locale, previousReleaseName)),
+    TE.chainFirst(() =>
+      extractClipsFromPreviousRelease(locale, previousReleaseName),
+    ),
+    TE.chainFirst(({ clipsTmpPath }) =>
+      streamQueryResultToFile(
+        clipsTmpPath,
         includeClipsFrom,
         includeClipsUntil,
-        isMinorityLanguage,
-        releaseDirPath,
+        locale,
       ),
     ),
+    TE.chainFirst(() => TE.fromIO(prepareDir(clipsDirPath))),
+    TE.chainFirst(({ clipsTmpPath }) =>
+      fetchAllClipsForLocale(
+        clipsTmpPath,
+        locale,
+        releaseDirPath,
+        previousReleaseName,
+      ),
+    ),
+    TE.chainFirst(({ clipsTmpPath }) =>
+      createClipsTsv(clipsTmpPath, locale, isMinorityLanguage, releaseDirPath),
+    ),
+    TE.as(constVoid()),
   )
 }
 
@@ -198,14 +397,24 @@ export const runFetchAllClipsForLocale = (
   return pipe(
     RTE.ask<AppEnv>(),
     RTE.chainTaskEitherK(
-      ({ locale, from, until, clipsDirPath, releaseDirPath }) =>
+      ({
+        type,
+        locale,
+        from,
+        until,
+        clipsDirPath,
+        releaseDirPath,
+        previousReleaseName,
+      }) =>
         fetchAllClipsPipeline(
+          type,
           locale,
           from,
           until,
           isMinorityLanguage,
           clipsDirPath,
           releaseDirPath,
+          previousReleaseName,
         ),
     ),
   )

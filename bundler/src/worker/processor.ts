@@ -2,7 +2,7 @@ import path from 'node:path'
 
 import { Job } from 'bullmq'
 import { readerTaskEither as RTE, task as T, taskEither as TE } from 'fp-ts'
-import { pipe } from 'fp-ts/lib/function'
+import { constVoid, pipe } from 'fp-ts/lib/function'
 
 import { runFetchAllClipsForLocale } from '../core/clips'
 import { isMinorityLanguage } from '../core/ruleOfFive'
@@ -20,7 +20,7 @@ import { getDatasetBundlerBucketName } from '../config/config'
 const processPipeline = pipe(
   RTE.Do,
   RTE.bind('isMinorityLanguage', isMinorityLanguage),
-  RTE.chainFirst(({ isMinorityLanguage }) =>
+  RTE.bind('prevReleaseName', ({ isMinorityLanguage }) =>
     runFetchAllClipsForLocale(isMinorityLanguage),
   ),
   RTE.bind('totalDurationInMs', runMp3DurationReporter),
@@ -32,6 +32,10 @@ const processPipeline = pipe(
     runStats(totalDurationInMs, tarFilepath),
   ),
   RTE.chainFirst(({ tarFilepath }) => runCleanUp(tarFilepath)),
+  RTE.match(
+    err => console.log(err),
+    () => constVoid(),
+  ),
 )
 
 export const processLocale = async (job: Job<ProcessLocaleJob>) => {

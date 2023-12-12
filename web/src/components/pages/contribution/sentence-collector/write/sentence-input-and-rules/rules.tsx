@@ -69,6 +69,11 @@ export const Rules: React.FC<Props> = ({ error, showFirstRule, title }) => {
                 className={classNames({
                   error: error === SentenceSubmissionError.TOO_LONG,
                 })}
+                data-testid={
+                  error === SentenceSubmissionError.TOO_LONG
+                    ? 'error-too-long'
+                    : ''
+                }
               />
             </Localized>
             <Localized id="new-sentence-rule-3">
@@ -84,6 +89,12 @@ export const Rules: React.FC<Props> = ({ error, showFirstRule, title }) => {
                     error === SentenceSubmissionError.NO_NUMBERS ||
                     error === SentenceSubmissionError.NO_SYMBOLS,
                 })}
+                data-testid={
+                  error === SentenceSubmissionError.NO_NUMBERS ||
+                  error === SentenceSubmissionError.NO_SYMBOLS
+                    ? 'error-no-numbers-no-symbols'
+                    : ''
+                }
               />
             </Localized>
             <Localized id="new-sentence-rule-6">
@@ -91,6 +102,11 @@ export const Rules: React.FC<Props> = ({ error, showFirstRule, title }) => {
                 className={classNames({
                   error: error === SentenceSubmissionError.NO_FOREIGN_SCRIPT,
                 })}
+                data-testid={
+                  error === SentenceSubmissionError.NO_FOREIGN_SCRIPT
+                    ? 'error-no-foreign-script'
+                    : ''
+                }
               />
             </Localized>
             <Localized id="new-sentence-rule-7">
@@ -98,6 +114,11 @@ export const Rules: React.FC<Props> = ({ error, showFirstRule, title }) => {
                 className={classNames({
                   error: error === SentenceSubmissionError.NO_CITATION,
                 })}
+                data-testid={
+                  error === SentenceSubmissionError.NO_CITATION
+                    ? 'error-no-citation'
+                    : ''
+                }
               />
             </Localized>
             <Localized id="new-sentence-rule-8">
