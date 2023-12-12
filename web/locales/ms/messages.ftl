@@ -405,7 +405,7 @@ login-identity = Identiti Log Masuk
 login = Log Masuk
 login-signup = Log Masuk / Daftar
 edit = Sunting
-email-subscriptions = Langganan E-mel
+email-subscriptions = Langganan e-mel
 download-profile = Muat turun Data Saya
 contribution-experience = Pengalaman Sumbangan
 skip-submission-feedback = Langkau Penghantaran Maklum balas
@@ -432,8 +432,8 @@ remove-avatar = Buang Avatar
 ## Profile - Email
 
 manage-subscriptions = Urus Langganan
-manage-email-subscriptions = Urus Langganan E-mel
-email-already-used = E-mel sudah digunakan untuk akaun lain
+manage-email-subscriptions = Urus Langganan e-mel
+email-already-used = e-mel telah digunakan untuk akaun lain
 add-language = Tambah Bahasa
 change-email-setings = Tukar e-mel anda melalui Tetapan di bawah Identiti Log Masuk
 
