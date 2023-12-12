@@ -809,6 +809,8 @@ action-click = Изберете
 action-tap = Докоснете
 contribute = Помогнете
 listen = Прослушване
+write = Писане
+review = Преглед
 skip = Пропускане
 shortcuts = Бързи клавиши
 clips-with-count-pluralized =
@@ -855,8 +857,17 @@ listen-again-instruction = Страхотна работа! <playIcon></playIcon
 listen-3rd-time-instruction = Изминаха 2, продължете!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Последно!
 listen-empty-state = Няма повече записи за проверка за този език…
+listen-loading-error =
+    Не можахме да получим аудио клипове за прослушване
+    Моля, опитайте отново по-късно.
+listen-abort-title = Валидирането приключи ли?
+listen-abort-cancel = Продължаване на валидирането
+listen-abort-confirm = Завършване на  валидирането
 speak-empty-state = Няма повече изречения за запис на този език…
 speak-empty-state-cta = Дарете изречение
+speak-loading-error =
+    Не успяхме да намерим изречения, за да ги изговорите.
+    Моля, опитайте отново по-късно.
 record-button-label = Запишете гласа си
 share-title-new = <bold>Помогнете</bold> да намерим още гласове
 keep-track-profile = Следете напредъка си като създадете профил
@@ -869,6 +880,8 @@ target-segment-learn-more = Научете повече
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Гласова колекция
+contribute-sentence-collection-nav-header = Колекция със изречения
 
 ## Reporting
 
@@ -1021,6 +1034,34 @@ profile-form-delete = Изтриване на профила
 
 ## Profile Download
 
+download-q = Желаете да изтеглите вашите данни?
+download-info = Кажете ни какво искате да изтеглите:
+download-profile-title = Профил
+download-profile-info = Включва имейл, потребителско име и демографска информация, налични веднага
+download-profile-size = Няколко байта
+download-recordings-title = Записи
+download-recordings-info = Включва mp3 файлове и свързани изречения. Може да отнеме известно време за подготовка
+download-recordings-size = Обикновено мегабайти
+download-recordings-unavailable = Не можете да поискате вашите записи, докато друга заявка вече е в ход.
+download-recently-requested = Можете да заявите ново изтегляне на вашите записи на всеки { $days } дни.
+download-size = Размер
+download-selected = Избрано
+download-start = Изтегляне на данните от профила
+download-request = Заявка на записи
+download-requests = Заявки за изтегляне на минали записи
+download-requests-info = Когато поискате вашите записи, ние ги компилираме в един или няколко ZIP файла. Ето вашите предишни заявки:
+download-request-button = Изтегляне
+download-request-title = { $created }
+download-request-description = { $clipCount } гласови клипа, общ размер на архива { $size }. Изтича на { $expires }.
+download-request-archive-single = Единичен ZIP файл, съдържащ
+download-request-archive-multiple = Разделете на { $archiveCount } ZIP файлове, съдържащи
+download-request-assembling-description = Вашите файлове се сглобяват. Моля, проверете отново по-късно.
+download-request-refresh-button = Опресняване
+download-request-modal-title = Връзки за изтегляне
+download-request-modal-description = Ето връзките за изтегляне на вашите ZIP файлове.
+download-request-link-text = Zip #{ $offset } от { $total }
+download-request-metadata-link = Текст на изречението
+download-request-link-single = Можете също така да копирате и поставите директните URL адреси в любимия си мениджър за изтегляне. Те ще изтекат след 12 часа, но можете да се върнете на тази страница, за да генерирате нови по всяко време.
 
 ## Landing
 
@@ -1064,10 +1105,18 @@ demo-listen-subtitle = Готови ли сте да допринесете?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Личните табла за управление ви информират за вашия напредък и този на общността.
+demo-dashboard-card-body = За всеки дарен гласов клип и всеки валидиран аудио клип таблата за управление на вашия акаунт се актуализират, за да отразят последния ви напредък на всеки език, на който допринасяте. Да, можете да допринесете за повече от един!<br/><br/> Използвайте таблото за управление, за да проследявате статистиката си, да видите как се справяте заедно с другите в общността и да зададете ежедневни или седмични цели за принос.
 
 ## Validation criteria
 
+contribution-criteria-nav = Критерии
+contribution-criteria-link = Разберете критериите за принос
+contribution-criteria-page-title = Критерии за принос
 contribution-criteria-page-description = Разберете на какво да обърнете внимание, когато слушате гласови записи и направите и вашите гласови записи по-богати!
+contribution-for-example = например
+contribution-misreadings-title = Неправилни разчитания
+contribution-misreadings-description = Когато слушате, проверете много внимателно дали записаното е точно това, което е написано; отхвърлете, ако има дори незначителни грешки. <br />Много често срещаните грешки включват:
+contribution-misreadings-description-extended-list-1 = Липсват <strong>думи</strong>  в началото на записа.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
