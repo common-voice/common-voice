@@ -7,6 +7,7 @@ type InitDatasetReleaseJob = {
   from: string
   until: string
   releaseName: string
+  previousReleaseName?: string
 }
 
 const startDatasetRelease = async (args: any, options: any) => {
@@ -17,6 +18,7 @@ const startDatasetRelease = async (args: any, options: any) => {
       from: args.from,
       until: args.until,
       releaseName: args.releaseName,
+      previousReleaseName: args.previousReleaseName
     })('init')({})
   )
 
@@ -41,7 +43,15 @@ program
   )
   .requiredOption(
     '-r, --releaseName <name>',
-    "Define the release name, usually in the shape of 'cv-corpus-15-{delta-}2023-10-19'"
+    "Define the release name, usually in the shape of 'cv-corpus-15.0-{delta-}2023-10-19'"
+  )
+  .option(
+    '-p, --previousReleaseName <name>',
+    `
+    Only needed when creating a full dataset release.
+    Define the previous release name, usually in the shape of 'cv-corpus-14.0-{delta-}2023-10-19'.
+    The clips from the previous release will be downloaded to bootstrap the new release.
+    `
   )
   .action(startDatasetRelease)
 

@@ -178,7 +178,7 @@ function ProfileInfo({
       async () => {
         await saveAccount(data);
         if (!user.account?.basket_token && sendEmails) {
-          await api.subscribeToNewsletter(user.userClients[0].email);
+          await api.subscribeToNewsletter(user.userClients[0]?.email);
         }
 
         addNotification(getString('profile-form-submit-saved'));
@@ -289,7 +289,7 @@ function ProfileInfo({
               html={<>{getString('change-email-setings')}</>}
               theme="dark">
               <Localized id="email-input" attrs={{ label: true }}>
-                <LabeledInput value={user.userClients[0].email} disabled />
+                <LabeledInput value={user.userClients[0]?.email} disabled />
               </Localized>
             </Tooltip>
 

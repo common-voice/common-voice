@@ -203,7 +203,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
         {showWelcomeModal && !alreadyEnrolled && (
           <WelcomeModal
             onRequestClose={() => {
-              this.setState({ showWelcomeModal: false })
+              this.setState({ showWelcomeModal: false });
             }}
             challengeToken={challengeToken}
             teamToken={challengeTeamToken}
@@ -250,7 +250,13 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
                 <UserMenu />
               ) : isBuildingProfile ? null : (
                 <Localized id="login-signup">
-                  <LinkButton className="login" href="/login" rounded outline />
+                  <LinkButton
+                    className="login"
+                    href="/login"
+                    rounded
+                    outline
+                    data-testid="login-button"
+                  />
                 </Localized>
               )}
               <LocalizationSelectComplex
@@ -342,7 +348,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           </Nav>
         </div>
       </div>
-    )
+    );
   }
 }
 

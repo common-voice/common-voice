@@ -67,6 +67,7 @@ eo = Esperanteg
 es = Spagnoleg
 et = Estoneg
 eu = Euskareg
+ewo = Ewondoeg
 fa = Perseg
 ff = Fouleg
 fi = Finneg
@@ -77,6 +78,7 @@ ga-IE = Iwerzhoneg
 gl = Galizeg
 gn = Gwaranieg
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Haousaeg
 he = Hebraeg
 hi = Hindeg
@@ -96,6 +98,7 @@ it = Italianeg
 izh = Ijoreg
 ja = Japaneg
 jbo = Lojbaneg
+jv = Javaneg
 ka = Jorjieg
 kaa = Karakalpakeg
 kab = Kabileg
@@ -149,6 +152,7 @@ nyn = Nyankole
 oc = Okitaneg
 om = Afaan Ormoo
 or = Oriyeg
+os = Oseteg
 pa-IN = Pandjabeg
 pap-AW = Papiamento (Aruba)
 pl = Poloneg
@@ -242,6 +246,7 @@ share-text = Sikourit ar mekanikoù da gompren penaos e komz an dud wirion, roit
 link-copied = Liamm eilet
 back-top = Distreiñ d’al lein
 logout = Digevreañ
+donate = Reiñ un donezon
 
 ## Home Page
 
@@ -585,6 +590,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Dastum frazennoù
 ## How does localization work
 
 about-playbook-how-localize = Penaos ez en-dro troidigezh al lec'hienn?
+about-playbook-how-localize-content-1 = Evit treiñ lec'hienn Common Voice, kit war <strong>Pontoon</strong>.
 about-playbook-how-localize-content-5 = Sellout ouzh hon video displegañ evit kaout sikour
 
 ## How to add sentences
@@ -593,6 +599,7 @@ about-playbook-how-add-sentences = Penaos e c'hellan ouzhpennañ frazennoù?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Penaos enrollañ ur vouezh a galite uhel?
 
 ## How to grow language
 
@@ -687,6 +694,7 @@ number-of-voices = Niver a vouezhioù
 splits = Troc’hadennoù
 email-to-download = Enankit ur chomlec’h postel evit pellgargañ
 why-email = <b>Perak ur chomlec’h postel?</b> Gallout a rafec’h kaout ezhomm kelaouiñ ac’hanoc’h eus kemmoù er spletad roadennoù, gant ur chomlec’h postel hon eus un doare da vont e darempred ganeoc’h.
+why-donate = Perak e c'houlennit eta?
 confirm-size = Emaoc’h o vont da lañsañ ur bellgagadenn <b>{ $size }</b>
 size-gigabyte = Go
 size-megabyte = Mo
@@ -834,6 +842,7 @@ listen-again-instruction = Labour vat! <playIcon></playIcon> Adselaou pa viot pr
 listen-3rd-time-instruction = 2 graet <playIcon></playIcon> , dalc’hit da vont!
 listen-last-time-instruction = <playIcon></playIcon> An hini ziwezhañ!
 listen-empty-state = N'hon eus tamm enrolladenn ebet ken da wiriañ er yezh-se...
+listen-abort-cancel = Kenderc'hel da gadarnaat
 speak-empty-state = N'hon eus tamm frazenn ebet ken da enrollañ er yezh-se...
 speak-empty-state-cta = Kinnig frazennoù
 record-button-label = Enrollit ho mouezh
@@ -1039,6 +1048,7 @@ download-recordings-title = Enrolladennoù
 download-size = Ment
 download-selected = Diuzet
 download-start = Pellgargañ roadennoù ar profil
+download-request = Goulenn enrolladennoù
 download-request-button = Pellgargañ
 download-request-title = { $created }
 download-request-refresh-button = Freskaat
@@ -1260,14 +1270,16 @@ citing-sentences-subheader-offline-sources = Mammennoù ezlinenn
 adding-sentences-subheader-length = Hirded
 adding-sentences-subheader-numbers = Niverennoù
 adding-sentences-subheader-punctuation = Poentadur
-# WRITE PAGE
-write-instruction-second-part = ur frazenn en domani foran
 sentence =
     .label = Frazenn
 citation-input-value = Mammenn ho frazenn
 new-sentence-rule-2 = Nebeutoc’h eget 15 ger
 contact-us = Mont e darempred
 add-sentence-success = 1 frazenn bet dastumet
-# REVIEW PAGE
-sc-review-instruction-first-part = Gwiriañ
+
+## REVIEW PAGE
+
 report-sc-different-language = Yezh disheñvel
+
+## BULK SUBMISSION 
+

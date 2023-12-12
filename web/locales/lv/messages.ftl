@@ -758,6 +758,7 @@ number-of-voices = Balsu skaits
 splits = Statistika
 email-to-download = Ievadiet e-pastu, lai lejupielādētu
 why-email = <b>Kāpēc e-pasts?</b> Mums, iespējams, nākotnē būs jāsazinās ar jums par izmaiņām datu kopā, to darīsim ar e-pasta palīdzību.
+why-donate = Kāpēc jūs jautājat?
 confirm-size = Jūs esat gatavs sākt lejupielādēt <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -875,6 +876,8 @@ language-section-in-progress = Procesā
 language-section-in-progress-new-description = Šīs valodas pašlaik ir kopienas attīstībā. Progresa joslas norāda, cik lielā mērā katrai valodai ir veikta <localizationGlossaryLink>vietnes lokalizācija</localizationGlossaryLink> un <sentenceCollectionGlossaryLink>teikumu kolekcijas izveide</sentenceCollectionGlossaryLink>.
 language-section-launched = Uzsākts
 language-section-launched-description = Šīm valodām vietne ir veiksmīgi <localizationGlossaryLink>lokalizēta</localizationGlossaryLink>, un tajā ir pietiekami daudz <sentenceCollectionGlossaryLink>teikumu</sentenceCollectionGlossaryLink>, lai varētu turpināt <speakLink>runāt</speakLink> un <listenLink>klausīties</ listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Pēdējo reizi atjaunināts: { $lastUpdatedTimeStamp }
 languages-show-more = Rādīt vairāk
 languages-show-less = Rādīt mazāk
 language-meter-in-progress = Progress
