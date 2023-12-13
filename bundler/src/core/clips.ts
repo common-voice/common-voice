@@ -149,6 +149,7 @@ const copyExistingClips = (releaseDirPath: string, prevReleaseName?: string) =>
     transform(chunk: ClipRow, encoding, callback) {
       if (!prevReleaseName) {
         this.push(chunk, encoding)
+        callback()
       } else {
         const filename = createClipFilename(chunk.locale, chunk.id)
         const prevReleaseClipPath = path.join(
@@ -164,13 +165,15 @@ const copyExistingClips = (releaseDirPath: string, prevReleaseName?: string) =>
         const clipExists = fs.existsSync(prevReleaseClipPath)
 
         if (clipExists) {
+          process.stdout.write('Copying clip', prevReleaseClipPath)
           fs.copyFileSync(prevReleaseClipPath, currentReleaseClipPath)
           fs.rmSync(prevReleaseClipPath)
+          callback()
         } else {
           this.push(chunk, encoding)
+          callback()
         }
       }
-      callback()
     },
     objectMode: true,
   })
@@ -387,6 +390,10 @@ export const fetchAllClipsPipeline = (
     TE.chainFirst(({ clipsTmpPath }) =>
       createClipsTsv(clipsTmpPath, locale, isMinorityLanguage, releaseDirPath),
     ),
+    TE.mapLeft(e => {
+      console.log(e)
+      return e
+    }),
     TE.as(constVoid()),
   )
 }
