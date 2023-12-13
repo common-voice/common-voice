@@ -1,8 +1,8 @@
 ## General
 
 yes-receive-emails = Ya, hantarkan e-mel kepada saya. Saya ingin terus mengetahui tentang projek Common Voice.
-stayintouch = Kami di Mozilla sedang membina komuniti di sekitar teknologi suara. Kami ingin terus berhubung dengan kemas kini, sumber data baru dan untuk mengetahui lebih lanjut mengenai bagaimana Anda menggunakan data ini.
-privacy-info = Kami berjanji untuk mengendalikan maklumat Anda dengan cermat. Ketahui selanjutnya dalam <privacyLink>Notis Privasi</privacyLink> kami.
+stayintouch = Kami di Mozilla sedang membina komuniti di sekitar teknologi suara. Kami ingin terus berhubung dengan kemas kini, sumber data baru dan untuk mengetahui lebih lanjut mengenai bagaimana anda menggunakan data ini.
+privacy-info = Kami berjanji untuk mengendalikan maklumat Anda dengan cermat. Ketahui selanjutnya dalam <privacyLink>Dasar Privasi</privacyLink> kami.
 return-to-cv = Kembali ke Common Voice
 email-input =
     .label = E-mel
