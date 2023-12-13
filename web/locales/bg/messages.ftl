@@ -1311,9 +1311,30 @@ sc-confirm-sentences-found =
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = { $countOfInvalidated } отхвърлени от вас
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Няма прегледани изречения.
+        [one] Едно изречение вече е прегледано. Добра работа!
+       *[other] { $countOfReviewed } изречения вече са прегледани. Добра работа!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Няма изречения готови за изпращане!
+        [one] Едно изречение е готово за изпращане!
+       *[other] { $readyCount } изречения са готови за изпращане!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } изречения не са прегледани. Ако искате, можете също да прегледате изреченията си сега, преди да ги изпратите.
+sc-confirm-button-text = Потвърждение
+sc-confirm-uploading = Изреченията се качват. Това може да отнеме няколко минути в зависимост от броя на добавените изречения. Моля, не затваряйте този уебсайт.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Всичко
+sc-lang-info-title-personal = Личен
 sc-lang-info-add-more = <addLink>Добавете още изречения сега!</addLink>
 
 ## LOGIN
