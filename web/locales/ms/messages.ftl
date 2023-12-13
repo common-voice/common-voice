@@ -1159,7 +1159,7 @@ partnerships-academia-description = Inovasi terbuka adalah teras kepada apa yang
 partnerships-small-business-header = Perniagaan kecil, termasuk start up teknologi dan AI
 partnerships-small-business-description = Kami sentiasa mahu mendengar daripada pengguna data mengenai keperluan dan konteks mereka - daripada bekerjasama dalam platform pengumpulan data untuk menyediakan wawasan kesihatan data, kami mahu <emailFragment>mendapat maklum balas daripada anda.</emailFragment>
 partnerships-corporates-header = Syarikat korporat dan platform berskala besar
-partnerships-corporates-description = Jika Anda ingin bercakap lebih lanjut tentang set data, ingin melabur bersama dalam pengembangan platform yang dirancang atau mencari peluang kerjasama, <emailFragment>turun talian kepada kami.</emailFragment>
+partnerships-corporates-description = Jika anda ingin bercakap lebih lanjut tentang set data ini, ingin melabur bersama dalam pengembangan platform yang dirancang atau mencari peluang kerjasama, <emailFragment>turun talian kepada kami.</emailFragment>
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Terima kasih kerana menderma klip suara anda!
 
