@@ -233,7 +233,7 @@ wall-of-text-more-mobile =
     itu yang menyekat inovasi. Oleh itu, kita telah melancarkan Projek Common Voice, projek untuk membantu membuat suara
     pengiktirafan terbuka kepada semua orang.
 wall-of-text-more-desktop =
-    Kini Anda dapat menyumbangkan suara Anda untuk membantu kami membina pangkalan data suara sumber terbuka yang boleh digunakan oleh orang untuk membuat aplikasi inovatif untuk peranti dan web.<lineBreak></lineBreak> 
+    Kini anda dapat menyumbangkan suara anda untuk membantu kami membina pangkalan data suara sumber terbuka yang boleh digunakan oleh sesiapa sahaja untuk membina aplikasi yang inovatif untuk peranti dan web.
     Baca ayat untuk membantu mesin mengetahui bagaimana orang sebenar bercakap. Periksa hasil kerja penyumbang lain untuk meningkatkan kualiti. ia semudah itu!
 wall-of-text-first =
     Suara adalah semulajadi, suara adalah manusia. Itulah sebabnya kami teruja mencipta teknologi suara yang boleh digunakan
@@ -259,7 +259,7 @@ hours-validated = Jam Disahkan
 voices-online = Suara Dalam Talian Sekarang
 todays-progress = Perkembangan Hari ini
 help-reach-goal = Bantu kami mencapai { $goal }
-read-terms-q = Sudahkah Anda membaca terma kami?
+read-terms-q = Sudahkah anda membaca terma kami?
 ready-to-record = Bersedia untuk menyumbangkan suara Anda?
 all-locales = Semua
 today = Hari ini
