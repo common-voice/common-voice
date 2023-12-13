@@ -6,7 +6,6 @@ import tar from 'tar'
 import { readerTaskEither as RTE, task as T, taskEither as TE } from 'fp-ts'
 import { constVoid, pipe } from 'fp-ts/lib/function'
 import { stringify } from 'csv-stringify'
-import { parse } from 'csv-parse'
 
 import { streamingQuery } from '../infrastructure/database'
 import {
@@ -210,6 +209,25 @@ const filterMissingClips = (releaseDirPath: string) =>
     objectMode: true,
   })
 
+const parseClipTsv = () => {
+  let headers: string[] = []
+  return new Transform({
+    transform(chunk, encoding, callback) {
+      if (headers.length === 0) {
+        headers = String(chunk).trim().split('\t')
+      } else {
+        const row = String(chunk).trim().split('\t')
+        const obj: Record<string, string> = {}
+        headers.forEach((item, index) => (obj[item] = row[index]))
+
+        this.push(obj)
+      }
+      callback()
+    },
+    objectMode: true,
+  })
+}
+
 const streamQueryResultToFile = (
   clipsTmpPath: string,
   includeClipsFrom: string,
@@ -261,7 +279,7 @@ const copyExistingClipsFromPrevRelease = (
         const readStream = fs.createReadStream(tmpClipsFilepath)
 
         readStream
-          .pipe(parse({ delimiter: '\t', columns: true }))
+          .pipe(parseClipTsv())
           .pipe(copyExistingClips(releaseDirPath, previousReleaseName))
           .on('finish', () => {
             console.log('Finished copying existing clips from previous release')
@@ -286,7 +304,7 @@ const fetchAllClipsForLocale = (
         const readStream = fs.createReadStream(tmpClipsFilepath)
 
         readStream
-          .pipe(parse({ delimiter: '\t', columns: true }))
+          .pipe(parseClipTsv())
           .pipe(checkClipForExistence(releaseDirPath))
           .pipe(downloadClips(releaseDirPath))
           .on('finish', () => {
@@ -313,7 +331,7 @@ const createClipsTsv = (
         const readStream = fs.createReadStream(tmpClipsFilepath)
 
         readStream
-          .pipe(parse({ delimiter: '\t', columns: true }))
+          .pipe(parseClipTsv())
           .pipe(filterMissingClips(releaseDirPath))
           .pipe(transformClips(isMinorityLanguage))
           .pipe(writeFileStreamToTsv(locale, releaseDirPath))
