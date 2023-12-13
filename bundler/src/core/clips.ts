@@ -105,8 +105,9 @@ const transformClips = (isMinorityLanguage: boolean) =>
  *
  * The stream is in object mode.
  */
-const downloadClips = (releaseDirPath: string) =>
-  new Transform({
+const downloadClips = (releaseDirPath: string) => {
+  console.log('Downloading clips')
+  return new Transform({
     transform(chunk: ClipRow, encoding, callback) {
       const clipFilename = createClipFilename(chunk.locale, chunk.id)
       const writeStream = fs.createWriteStream(
@@ -122,9 +123,11 @@ const downloadClips = (releaseDirPath: string) =>
     },
     objectMode: true,
   })
+}
 
-const checkClipForExistence = (releaseDirPath: string) =>
-  new Transform({
+const checkClipForExistence = (releaseDirPath: string) => {
+  console.log('Checking if clips exist in the bucket')
+  return new Transform({
     transform(chunk: ClipRow, encoding, callback) {
       pipe(
         doesFileExistInBucket(CLIPS_BUCKET)(chunk.path),
@@ -140,6 +143,7 @@ const checkClipForExistence = (releaseDirPath: string) =>
     },
     objectMode: true,
   })
+}
 
 const getPreviousReleaseClipDir = (locale: string, prevReleaseName: string) =>
   path.join(getTmpDir(), prevReleaseName, locale, 'clips')
@@ -166,7 +170,7 @@ const copyExistingClips = (releaseDirPath: string, prevReleaseName?: string) =>
 
         if (clipExists) {
           fs.copyFileSync(prevReleaseClipPath, currentReleaseClipPath)
-          fs.rmSync(prevReleaseClipPath)
+          fs.unlinkSync(prevReleaseClipPath)
           callback()
         } else {
           this.push(chunk, encoding)
@@ -213,10 +217,10 @@ const streamQueryResultToFile = (
           }),
           [includeClipsFrom, includeClipsUntil, locale],
         )
-        console.log('Start Stream Processing')
 
         const writeStream = fs.createWriteStream(clipsTmpPath)
 
+        console.log('Start streaming query result')
         stream
           .pipe(stringify({ header: true, delimiter: '\t' }))
           .pipe(writeStream)
@@ -265,7 +269,7 @@ const createClipsTsv = (
   isMinorityLanguage: boolean,
   releaseDirPath: string,
 ): TE.TaskEither<Error, void> => {
-  console.log('Fetching clips for locale', locale)
+  console.log('Creating clips.tsv for', locale)
 
   return TE.tryCatch(
     () =>
