@@ -1,14 +1,14 @@
 ## General
 
-yes-receive-emails = Héẽ, emboumi chéve marandu. Aikuaaseve ko’ẽreíre Common Voice Aponde’a rehegua.
+yes-receive-emails = Héẽ, chemomarandumi. Aikuaaseve ko’ẽreíre Common Voice Aponde’a rehegua.
 stayintouch = Ore Mozilla-ygua romongakuaa tapicha aty omba’apóva tembiporu ñe’ẽ jeporúre. Akóinte roikuaase oĩvo mba’e térã kuaapyrã pyahu ha rohendu hag̃ua mba’éichapa reiporu ko kuaapyrã.
-privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha kuaapyrã nde rehegua. Emoñe’ẽve rehe <privacyLink>ko’ápe</privacyLink>.
+privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha umi kuaapyrã nde reheguáre. Emoñe’ẽve rehe <privacyLink>ko’ápe</privacyLink>.
 return-to-cv = Ejevy Common Voice-pe
 email-input =
     .label = Ñanduti veve
 submit-form-action = Emondo
 loading = Henyhẽhína…
-email-opt-in-info = Pembou chéve ñanduti veve rupi marandu hupytyrã rehegua térã mba’éichapa oguata tembiapo ha Common Voice.
+email-opt-in-info = Pembou chéve ñanduti veve rupi marandu hupytyrã rehegua térã mba’éichapa oguatahína tembiapo ha Common Voice.
 email-opt-in-info-title = Ejuaju Common Voice ñanduti veve rysýire
 email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñanduti vevépe marandu ojehupytyséva, avei mba’éichapa oguata tembiapo ha Common Voice rehegua.
 email-opt-in-privacy-v2 = Emongurusúrõ oñemog̃uahẽ hag̃ua ndéve marandu he’ise emoneĩha mba’éichapa Mozilla oiporu tapichakuéra kuaapyrã oñemoesakãva <privacyLink>ko’ápe</privacyLink>.
@@ -253,14 +253,14 @@ donate = Ñeme’ẽ
 ## Home Page
 
 home-title = Common Voice Mozilla rembiapo oipytyvõva mohendhápe oñe’ẽvo ijayvuháicha yvypóra.
-default-tagline = Common Voice ha’e Mozilla rembiapokue ombo’éva mohendahápe yvypóra oñe’ẽháicha.
+default-tagline = Common Voice ha’e Mozilla rembiapokue ombo’éva mohendahápe yvypóra oñe’ẽhaichaite.
 home-cta = ¡Eñe’ẽ, eipytyvõmi ko’ápe!
-wall-of-text-start = Ñande ahy’o ayvu niko yvypóra mba’etee. Upévare roipytyvõseterei oĩ hag̃uáicha ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaiterei ñe’ẽryapu ñongatupyre.
+wall-of-text-start = Ñande ahy’o ayvu niko yvypóra mba’eteete. Upévare roipytyvõseterei oĩ hag̃uáicha ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaiterei ñe’ẽryapu ñongatupyre.
 wall-of-text-more-mobile = Haimete opa ñe’ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Roimo’ã ndaupeichaiva’erãha. Upévare romoheñói Aponde’a Common Voice, roipotágui opavave oiporukuaa pe ñe’ẽ rembiporu.
 wall-of-text-more-desktop =
     Eme’ẽkuaa nde ayvu ha eipytyvõ jajapo hag̃ua ñe’ẽ ha ñe’ẽjoaju ryapu apesã opaitépe g̃uarã
     ojeporukuaáva oñemoheñói hag̃ua tembiporu’i pyahu mba’e’oka ha ñandutípe. Emoñe’ẽ hatã ñe’ẽjoaju ikatu hag̃uáicha mohendaha oikuaa ne ñe’ẽ ryapu.
-    Ehendu ambuéva rembiapo ha ere oĩporãpa. ¡Ndahasýi!
+    Ehendu ambue rembiapo ha ere oĩporãpa. ¡Ndahasýi!
 wall-of-text-first =
     Ñe’ẽ yvypóra mba’e. Upévare rovy’a rojapóvo ko tembiapo, roikuave’ẽ tembiporu ñe’ẽ ñembohyapurã ikatu hag̃ua mohendaha ohai ha ojapokuaa oje’éva chupe.
     Upevarã roikotevẽ heta ñe’ẽryapu ñongatupyre.
