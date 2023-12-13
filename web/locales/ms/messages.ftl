@@ -11,7 +11,7 @@ loading = Memuatkan…
 email-opt-in-info = Saya ingin menerima e-mel seperti peringatan matlamat, kemas kini kemajuan saya dan buletin mengenai Common Voice.
 email-opt-in-info-title = Sertai senarai mel Common Voice
 email-opt-in-info-sub-with-challenge = Terima e-mel seperti peringatan cabaran dan matlamat, kemas kini kemajuan, dan buletin mengenai Common Voice.
-email-opt-in-privacy-v2 = Dengan memilih untuk menerima e-mel, Anda menyatakan bahawa anda bersetuju dengan Mozilla mengendalikan maklumat tersebut seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla.
+email-opt-in-privacy-v2 = Dengan memilih untuk menerima e-mel, anda menyatakan bahawa anda bersetuju dengan Mozilla mengendalikan maklumat tersebut seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla.
 indicates-required = Medan bertanda asterisk (*) diperlukan.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Maaf, Common Voice berjalan perlahan. Terima kasih atas minat anda.
@@ -248,7 +248,7 @@ no-clips-to-validate = Nampaknya tidak ada klip untuk didengarkan dalam bahasa i
 vote-yes = Ya
 vote-no = Tidak
 toggle-play-tooltip = Tekan { shortcut-play-toggle }  untuk togol mode main
-speak-subtitle = Sumbangkan suara Anda
+speak-subtitle = Sumbangkan suara anda
 speak-paragraph = Merakam klip suara merupakan bahagian penting dalam membina set data terbuka kami; ada juga yang mengatakan ia adalah bahagian yang menyeronokkan juga.
 speak-goal-text = Klip dirakam
 listen-subtitle = Tolong kami mengesahkan suara
@@ -260,7 +260,7 @@ voices-online = Suara Dalam Talian Sekarang
 todays-progress = Perkembangan Hari ini
 help-reach-goal = Bantu kami mencapai { $goal }
 read-terms-q = Sudahkah anda membaca terma kami?
-ready-to-record = Bersedia untuk menyumbangkan suara Anda?
+ready-to-record = Bersedia untuk menyumbangkan suara anda?
 all-locales = Semua
 today = Hari ini
 x-weeks-short =
@@ -283,20 +283,20 @@ email-subscription-title-new = Daftar untuk buletin Common Voice, peringatan mat
 ## Account Benefits
 
 benefits = Manfaat
-rich-data = Jadikan data yang Anda serahkan selengkap mungkin dengan menyediakan sebahagian data demografi awanama. Kami menyahkenal pasti semua data demografi sebelum menjadikannya umum.
+rich-data = Jadikan data yang anda serahkan selengkap mungkin dengan menyediakan sebahagian data demografi awanama. Kami menyahkenal pasti semua data demografi sebelum menjadikannya umum.
 improve-audio = Maklumat profil data audio dapat digunakan dalam melatih ketepatan pengecaman pertuturan.
-keep-track = Pantau kemajuan dan metrik Anda dalam pelbagai bahasa.
-compare-progress = Lihat bagaimana kemajuan Anda dibandingkan dengan penyumbang lain di seluruh dunia.
-view-goals = Lihat kemajuan Anda terhadap matlamat peribadi dan projek.
+keep-track = Pantau kemajuan dan metrik anda dalam pelbagai bahasa.
+compare-progress = Lihat bagaimana kemajuan anda dibandingkan dengan penyumbang lain di seluruh dunia.
+view-goals = Lihat kemajuan anda terhadap matlamat peribadi dan projek.
 join-newsletter = Secara sukarela sertai senarai e-mel kami untuk kemas kini dan maklumat baru mengenai projek ini.
 
 ## What's public
 
 whats-public = Apa yang umum?
-email-not-public = Kami tidak akan menjadikan e-mel Anda umum.
-recordings-and-locale-public = Jumlah rakaman dan bahasa yang Anda sumbangkan akan menjadi umum.
+email-not-public = Kami tidak akan menjadikan e-mel anda umum.
+recordings-and-locale-public = Jumlah rakaman dan bahasa yang anda sumbangkan akan menjadi umum.
 username-optin-public = Anda boleh pilih untuk jadikan nama pengguna anda terbuka atau awanama.
-demographic-deidentified-clarity-2 = Data demografi (seperti umur, jantina, bahasa dan aksen)  yang diserahkan secara pilihan, tidak akan didedahkan kepada umum pada profil Anda dan tidak akan dipautkan ke akaun anda dalam set data. Klip audio individu akan dikaitkan dengan data demografi untuk tujuan analisa yang lebih tepat - contohnya, seorang penyelidik mungkin ingin menyasarkan model latihan kepada segmen demografi tertentu
+demographic-deidentified-clarity-2 = Data demografi (seperti umur, jantina, bahasa dan aksen)  yang diserahkan secara pilihan, tidak akan didedahkan kepada umum pada profil anda dan tidak akan dipautkan ke akaun anda dalam set data. Klip audio individu akan dikaitkan dengan data demografi untuk tujuan analisa yang lebih tepat - contohnya, seorang penyelidik mungkin ingin menyasarkan model latihan kepada segmen demografi tertentu
 username-email-not-demographic = Nama pengguna dan e-mel anda tidak akan dikaitkan dengan data yang diterbitkan.
 
 ## Speak & Listen Shortcuts
