@@ -165,7 +165,7 @@ const copyExistingClips = (releaseDirPath: string, prevReleaseName?: string) =>
         const clipExists = fs.existsSync(prevReleaseClipPath)
 
         if (clipExists) {
-          process.stdout.write('Copying clip', prevReleaseClipPath)
+          process.stdout.write(`Copying clip ${prevReleaseClipPath}`)
           fs.copyFileSync(prevReleaseClipPath, currentReleaseClipPath)
           fs.rmSync(prevReleaseClipPath)
           callback()
