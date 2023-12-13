@@ -30,7 +30,7 @@ const ReviewCard: React.FC<Props> = ({
       ].join(' '),
       opacity: index < activeSentenceIndex ? 0 : 1,
     }}
-    data-testid="review-card">
+    data-testid={`${isActive ? 'active-review-card' : ''}`}>
     <p className="sentence">{sentence}</p>
     <Localized id="sc-my-source" vars={{ source }}>
       <p className="source" />

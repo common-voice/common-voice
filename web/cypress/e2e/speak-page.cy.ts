@@ -50,12 +50,10 @@ describe('The Speak Page', () => {
 
   // TODO: make this test work on Firefox
   it('submits (authenticated user)', () => {
-    // TODO: we need a way generate these cookies on the fly
-    cy.setCookie(
-      'connect.sid',
-      's%3ASqqNB1UMSlGszNyyY3H98NCyVwHJhPyc.dIijYB%2B1acUTaqN07x%2Bd%2F2ZajjhWUvwSffnghtAjeW8',
-      { secure: true }
-    )
+    const testUserEmail = Cypress.env('test_user_email')
+    const testUserPassword = Cypress.env('test_user_password')
+
+    cy.login(testUserEmail, testUserPassword)
 
     cy.visit('/speak')
 

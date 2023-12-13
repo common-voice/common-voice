@@ -1,13 +1,11 @@
 import { visitBulkSubmissionPage } from '../actions/bulk-submission-write-page.action'
 
 describe('The Write Page - Bulk Submission', () => {
-  it('loads bulk submission page', () => {
+  beforeEach(() => {
     visitBulkSubmissionPage()
   })
 
   it('uploads a file', () => {
-    visitBulkSubmissionPage()
-
     // upload file
     cy.get('input[type=file]').attachFile('sample-bulk-submission.tsv')
 
@@ -21,8 +19,6 @@ describe('The Write Page - Bulk Submission', () => {
   })
 
   it('accepts only .tsv files', () => {
-    visitBulkSubmissionPage()
-
     // upload invalid json file
     cy.get('input[type=file]').attachFile('example.json')
 
