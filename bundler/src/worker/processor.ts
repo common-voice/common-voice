@@ -40,7 +40,9 @@ const processPipeline = pipe(
 
 export const processLocale = async (job: Job<ProcessLocaleJob>) => {
   const { locale, releaseName } = job.data
-  const releaseDirPath = path.join(__dirname, '..', '..', releaseName)
+
+  const releaseDirPath = path.join('/cache', releaseName)
+
   const env: AppEnv = {
     ...job.data,
     releaseDirPath,

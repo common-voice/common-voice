@@ -9,6 +9,7 @@ import { pipe } from 'fp-ts/lib/function'
 import { prepareDir } from '../infrastructure/filesystem'
 import { CORPORA_CREATOR_SPLIT_FILES } from '../infrastructure/corporaCreator'
 import { AppEnv } from '../types'
+import { getTmpDir } from '../config/config'
 
 export const generateTarFilename = (locale: string, releaseName: string) =>
   `${releaseName}-${locale}.tar.gz`
@@ -20,7 +21,7 @@ const createTarballWriteStream = (outFilepath: string) => {
 const tarPromise = (outFilepath: string, pathsToCompress: string[]) =>
   new Promise<void>((resolve, reject) => {
     tar
-      .c({ gzip: true }, pathsToCompress)
+      .c({ gzip: true, cwd: getTmpDir() }, pathsToCompress)
       .pipe(createTarballWriteStream(outFilepath))
       .on('finish', () => {
         resolve()
@@ -54,11 +55,11 @@ const getPathsToAddToTarball =
   (
     locale: string,
     releaseName: string,
-    releaseBasePath: string,
+    releaseDirPath: string,
     releaseType: string,
   ): IO.IO<string[]> =>
   () => {
-    const dir = path.join(releaseBasePath, locale)
+    const dir = path.join(releaseDirPath, locale)
     const paths = fs.readdirSync(dir, {
       encoding: 'utf-8',
       recursive: false,
@@ -74,7 +75,7 @@ const getPathsToAddToTarball =
 const compressPipeline = (
   locale: string,
   releaseName: string,
-  releaseBasePath: string,
+  releaseDirPath: string,
   releaseTarballDir: string,
   releaseType: string,
 ): TE.TaskEither<Error, string> => {
@@ -87,7 +88,7 @@ const compressPipeline = (
     ),
     TE.let(
       'paths',
-      getPathsToAddToTarball(locale, releaseName, releaseBasePath, releaseType),
+      getPathsToAddToTarball(locale, releaseName, releaseDirPath, releaseType),
     ),
     TE.chainFirst(() => TE.fromIO(prepareDir(releaseTarballDir))),
     TE.chainFirst(({ tarballFilepath, paths }) =>
