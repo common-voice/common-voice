@@ -2,7 +2,7 @@
 
 yes-receive-emails = Ya, hantarkan e-mel kepada saya. Saya ingin terus mengetahui tentang projek Common Voice.
 stayintouch = Kami di Mozilla sedang membina komuniti di sekitar teknologi suara. Kami ingin terus berhubung dengan kemas kini, sumber data baru dan untuk mengetahui lebih lanjut mengenai bagaimana anda menggunakan data ini.
-privacy-info = Kami berjanji untuk mengendalikan maklumat Anda dengan cermat. Ketahui selanjutnya dalam <privacyLink>Dasar Privasi</privacyLink> kami.
+privacy-info = Kami berjanji untuk mengendalikan maklumat anda dengan cermat. Ketahui selanjutnya dalam <privacyLink>Dasar Privasi</privacyLink> kami.
 return-to-cv = Kembali ke Common Voice
 email-input =
     .label = E-mel
@@ -11,12 +11,10 @@ loading = Memuatkan…
 email-opt-in-info = Saya ingin menerima e-mel seperti peringatan matlamat, kemas kini kemajuan saya dan buletin mengenai Common Voice.
 email-opt-in-info-title = Sertai senarai mel Common Voice
 email-opt-in-info-sub-with-challenge = Terima e-mel seperti peringatan cabaran dan matlamat, kemas kini kemajuan, dan buletin mengenai Common Voice.
-email-opt-in-privacy-v2 =
-    Dengan memilih untuk menerima e-mel, Anda menyatakan bahawa anda bersetuju dengan Mozilla mengendalikan 
-     maklumat tersebut seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla.
+email-opt-in-privacy-v2 = Dengan memilih untuk menerima e-mel, Anda menyatakan bahawa anda bersetuju dengan Mozilla mengendalikan maklumat tersebut seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla.
 indicates-required = Medan bertanda asterisk (*) diperlukan.
 not-available-abbreviation = N/A
-banner-error-slow-1 = Maaf, Common Voice berjalan perlahan. Terima kasih atas minat Anda.
+banner-error-slow-1 = Maaf, Common Voice berjalan perlahan. Terima kasih atas minat anda.
 banner-error-slow-2 = Kami menerima banyak trafik dan sedang menyiasat isu tersebut
 banner-error-slow-link = Halaman Status
 error-something-went-wrong = Ooops, ada sesuatu yang tidak kena
@@ -216,7 +214,7 @@ cookies = Kuki
 faq = Soalan Lazim
 content-license-text = Kandungan tersedia di bawah <licenseLink>lesen Creative Commons</licenseLink>
 share-title = Bantu kami mencari orang lain untuk menderma suara mereka!
-share-text = Bantu mengajar mesin bagaimana orang sebenar bercakap, sumbangkan suara Anda di { $link }
+share-text = Bantu mengajar mesin bagaimana orang sebenar bercakap, sumbangkan suara anda di { $link }
 link-copied = Pautan Disalin
 back-top = Kembali ke atas
 logout = Log Keluar
