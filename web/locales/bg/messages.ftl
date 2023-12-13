@@ -1292,9 +1292,25 @@ sc-add-result =
         [one] Предоставено изречение. { $duplicates } изречение беше отхвърлено като дубликат.
        *[other] Предоставени изречения. { $duplicates } изречения бяха отхвърлени като дубликати.
     }
+sc-add-err-submission = Грешка при изпращане
+sc-add-lang-process-notice = Ако вашият език не е посочен тук, можете да го заявите чрез <languageProcessLink>този процес</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Изреченията не са изпратени, сигурни ли сте, че искате да напуснете?
+sc-confirm-sentences-title = Потвърждаване на нови изречения
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Няма намерени изречения
+        [one] Едно намерено изречение
+       *[other] { $countOfSentences } намерени изречения.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } отхвърлени от вас
 
 ## LANGUAGE INFO
 
