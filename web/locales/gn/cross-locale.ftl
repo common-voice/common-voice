@@ -4,7 +4,7 @@ contribute = Eipytyvõ
 get-involved-button = Eike eipytyvõ
 get-involved-title = Eipytyvõ { $lang } ñe’ẽme
 get-involved-text =
-    Aguyjevete ndéve eipytyvõ haguére { $lang } ñe’ẽme. Romba’apo mbarete ikatu hag̃uáicha ojeporukuaa opaite ñe’ẽnguéra
+    Aguyjevete ndéve eipytyvõ haguére { $lang } ñe’ẽme. Romba’apo mbarete hína ikatu hag̃uáicha ojeporukuaa opaite ñe’ẽnguéra
     Atykuérape romomarandu ñanduti veve rupive. Eipytyvõséramo, ehai ko’ápe ne ñanduti veve.
 get-involved-form-title = Eñemboheraguapy { $lang } mbohekopyahúpe:
 get-involved-email =
