@@ -243,7 +243,15 @@ const streamQueryResultToFile = (
     console.log(
       `Query result for ${locale} finished streaming. Closing DB connection.`,
     )
-    conn.end()
+    const endConnection = () =>
+      new Promise<void>((resolve, reject) => {
+        conn.end(err => {
+          if (err) reject(err)
+          resolve()
+        })
+      })
+
+    await endConnection()
   }, logError)
 
 const copyExistingClipsFromPrevRelease =
@@ -265,7 +273,7 @@ const copyExistingClipsFromPrevRelease =
       delimiter: '\t',
     })
 
-    clips.forEach(clip => {
+    for (const clip of clips) {
       const filename = createClipFilename(clip.locale, clip.id)
       const prevReleaseClipPath = path.join(
         getPreviousReleaseClipDir(clip.locale, previousReleaseName),
@@ -285,7 +293,7 @@ const copyExistingClipsFromPrevRelease =
         fs.copyFileSync(prevReleaseClipPath, currentReleaseClipPath)
         fs.unlinkSync(prevReleaseClipPath)
       }
-    })
+    }
 
     console.log('Finished copying existing clips from previous release')
   }
@@ -304,7 +312,7 @@ const fetchAllClipsForLocale = (
       delimiter: '\t',
     })
 
-    clips.forEach(async clip => {
+    for (const clip of clips) {
       const clipFilename = createClipFilename(clip.locale, clip.id)
       const clipFilepath = path.join(
         releaseDirPath,
@@ -331,7 +339,7 @@ const fetchAllClipsForLocale = (
           Promise.reject(buffer.left)
         }
       }
-    })
+    }
 
     console.log('Finished downloading clips for locale', locale)
   }, logError)
