@@ -1,12 +1,19 @@
 import fs, { read } from 'node:fs'
+import { pipeline } from 'node:stream/promises'
 import path from 'node:path'
 import { Transform } from 'node:stream'
 
 import tar from 'tar'
-import { readerTaskEither as RTE, task as T, taskEither as TE } from 'fp-ts'
+import {
+  io as IO,
+  readerTaskEither as RTE,
+  task as T,
+  taskEither as TE,
+} from 'fp-ts'
 import { constVoid, pipe } from 'fp-ts/lib/function'
 import { stringify } from 'csv-stringify'
 import { parse } from 'csv-parse'
+import { parse as parseSync } from 'csv-parse/sync'
 
 import { streamingQuery } from '../infrastructure/database'
 import {
@@ -23,7 +30,6 @@ import {
 } from '../config/config'
 import { prepareDir } from '../infrastructure/filesystem'
 import { generateTarFilename } from './compress'
-import { pipeline } from 'node:stream/promises'
 
 const CLIPS_BUCKET = getClipsBucketName()
 
@@ -244,27 +250,49 @@ const streamQueryResultToFile = (
     conn.end()
   }, logError)
 
-const copyExistingClipsFromPrevRelease = (
-  tmpClipsFilepath: string,
-  locale: string,
-  releaseDirPath: string,
-  previousReleaseName: string,
-): TE.TaskEither<Error, void> => {
-  console.log(
-    'Start copying existing clips from previous release for locale',
-    locale,
-  )
-
-  return TE.tryCatch(async () => {
-    const readStream = fs.createReadStream(tmpClipsFilepath)
-    await pipeline(
-      readStream,
-      parse({ delimiter: '\t', columns: true }),
-      copyExistingClips(releaseDirPath, previousReleaseName),
+const copyExistingClipsFromPrevRelease =
+  (
+    tmpClipsFilepath: string,
+    locale: string,
+    releaseDirPath: string,
+    previousReleaseName: string,
+  ): IO.IO<void> =>
+  () => {
+    console.log(
+      'Start copying existing clips from previous release for locale',
+      locale,
     )
+
+    const fileContent = fs.readFileSync(tmpClipsFilepath, { encoding: 'utf-8' })
+    const clips: ClipRow[] = parseSync(fileContent, {
+      columns: true,
+      delimiter: '\t',
+    })
+
+    clips.forEach(clip => {
+      const filename = createClipFilename(clip.locale, clip.id)
+      const prevReleaseClipPath = path.join(
+        getPreviousReleaseClipDir(clip.locale, previousReleaseName),
+        filename,
+      )
+
+      const currentReleaseClipPath = path.join(
+        releaseDirPath,
+        clip.locale,
+        'clips',
+        filename,
+      )
+
+      const clipExists = fs.existsSync(prevReleaseClipPath)
+
+      if (clipExists) {
+        fs.copyFileSync(prevReleaseClipPath, currentReleaseClipPath)
+        fs.unlinkSync(prevReleaseClipPath)
+      }
+    })
+
     console.log('Finished copying existing clips from previous release')
-  }, logError)
-}
+  }
 
 const fetchAllClipsForLocale = (
   tmpClipsFilepath: string,
@@ -395,11 +423,13 @@ export const fetchAllClipsPipeline = (
     TE.chainFirst(() => TE.fromIO(prepareDir(clipsDirPath))),
     TE.chainFirst(({ clipsTmpPath }) =>
       previousReleaseName
-        ? copyExistingClipsFromPrevRelease(
-            clipsTmpPath,
-            locale,
-            releaseDirPath,
-            previousReleaseName,
+        ? TE.fromIO(
+            copyExistingClipsFromPrevRelease(
+              clipsTmpPath,
+              locale,
+              releaseDirPath,
+              previousReleaseName,
+            ),
           )
         : TE.right(constVoid()),
     ),
