@@ -5,6 +5,7 @@ import { Transform } from 'node:stream'
 
 import tar from 'tar'
 import {
+  either as E,
   io as IO,
   readerTaskEither as RTE,
   task as T,
@@ -18,6 +19,7 @@ import { parse as parseSync } from 'csv-parse/sync'
 import { streamingQuery } from '../infrastructure/database'
 import {
   doesFileExistInBucket,
+  downloadFileFromBucket,
   streamDownloadFileFromBucket,
 } from '../infrastructure/storage'
 import { AppEnv, ClipRow } from '../types'
@@ -99,9 +101,7 @@ const transformClips = (isMinorityLanguage: boolean) =>
         age: isMinorityLanguage ? '' : chunk.age,
       }
 
-      this.push(clipRowToTsvEntry(updatedClipRow), 'utf-8')
-
-      callback()
+      callback(null, clipRowToTsvEntry(updatedClipRow))
     },
     objectMode: true,
   })
@@ -122,12 +122,10 @@ const downloadClips = (releaseDirPath: string) => {
       const writeStream = fs.createWriteStream(
         path.join(releaseDirPath, chunk.locale, 'clips', clipFilename),
       )
-      process.stdout.write(`Downloading ${clipFilename}\r`)
       streamDownloadFileFromBucket(CLIPS_BUCKET)(chunk.path)
         .pipe(writeStream)
         .on('finish', () => {
-          this.push(chunk, encoding)
-          callback()
+          callback(null, chunk)
         })
     },
     objectMode: true,
@@ -150,11 +148,11 @@ const checkClipForExistence = (releaseDirPath: string) => {
           TE.getOrElse(() => T.of(false)),
         )().then(doesExist => {
           if (doesExist) {
-            this.push(chunk, encoding)
+            callback(null, chunk)
           } else {
             console.log(`Skipping file ${chunk.path}`)
+            callback()
           }
-          callback()
         })
       }
     },
@@ -169,8 +167,7 @@ const copyExistingClips = (releaseDirPath: string, prevReleaseName?: string) =>
   new Transform({
     transform(chunk: ClipRow, encoding, callback) {
       if (!prevReleaseName) {
-        this.push(chunk, encoding)
-        callback()
+        callback(null, chunk)
       } else {
         const filename = createClipFilename(chunk.locale, chunk.id)
         const prevReleaseClipPath = path.join(
@@ -191,8 +188,7 @@ const copyExistingClips = (releaseDirPath: string, prevReleaseName?: string) =>
           fs.unlinkSync(prevReleaseClipPath)
           callback()
         } else {
-          this.push(chunk, encoding)
-          callback()
+          callback(null, chunk)
         }
       }
     },
@@ -212,10 +208,10 @@ const filterMissingClips = (releaseDirPath: string) =>
       const clipExists = fs.existsSync(currentReleaseClipPath)
 
       if (clipExists) {
-        this.push(chunk, encoding)
+        callback(null, chunk)
+      } else {
+        callback()
       }
-
-      callback()
     },
     objectMode: true,
   })
@@ -298,21 +294,47 @@ const fetchAllClipsForLocale = (
   tmpClipsFilepath: string,
   locale: string,
   releaseDirPath: string,
-): TE.TaskEither<Error, void> => {
-  console.log('Fetching clips for locale', locale)
+): TE.TaskEither<Error, void> =>
+  TE.tryCatch(async () => {
+    console.log('Fetching clips for locale', locale)
 
-  return TE.tryCatch(async () => {
-    const readStream = fs.createReadStream(tmpClipsFilepath)
+    const fileContent = fs.readFileSync(tmpClipsFilepath, { encoding: 'utf-8' })
+    const clips: ClipRow[] = parseSync(fileContent, {
+      columns: true,
+      delimiter: '\t',
+    })
 
-    await pipeline(
-      readStream,
-      parse({ delimiter: '\t', columns: true }),
-      checkClipForExistence(releaseDirPath),
-      downloadClips(releaseDirPath),
-    )
+    clips.forEach(async clip => {
+      const clipFilename = createClipFilename(clip.locale, clip.id)
+      const clipFilepath = path.join(
+        releaseDirPath,
+        clip.locale,
+        'clips',
+        clipFilename,
+      )
+
+      if (fs.existsSync(clipFilepath)) {
+        return
+      }
+
+      const existsInBucket = await pipe(
+        doesFileExistInBucket(CLIPS_BUCKET)(clip.path),
+        TE.getOrElse(() => T.of(false)),
+      )()
+
+      if (existsInBucket) {
+        const buffer = await downloadFileFromBucket(CLIPS_BUCKET)(clip.path)()
+
+        if (E.isRight(buffer)) {
+          fs.writeFileSync(clipFilepath, buffer.right)
+        } else {
+          Promise.reject(buffer.left)
+        }
+      }
+    })
+
     console.log('Finished downloading clips for locale', locale)
   }, logError)
-}
 
 const createClipsTsv = (
   tmpClipsFilepath: string,
