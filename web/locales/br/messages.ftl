@@ -1107,6 +1107,8 @@ contribution-misreadings-example-1-title = An dinosaored ramzel eus an Triaseg.
 contribution-misreadings-example-2-title = An dinosaor ramzel eus an Triaseg.
 contribution-misreadings-example-3-title = An dinosaored ramzel eus an Trias-.
 contribution-misreadings-example-4-title = An dinosaored ramzel eus an Triaseg. Ya.
+contribution-misreadings-example-5-title = Mont a reomp er-maez da bakañ ur banne kafe.
+contribution-misreadings-example-6-title = Mont ’reomp er-maez da bakañ ur banne kafe.
 contribution-misreadings-example-6-explanation = [Rankout a rafe bezañ “Ni ’zo”]
 contribution-misreadings-example-7-title = Mont a reomp er-maez da bakañ ur banne kafe.
 contribution-volume-title = Live-son
@@ -1283,6 +1285,13 @@ report-sc-different-language = Yezh disheñvel
 
 ## BULK SUBMISSION 
 
+try-upload-again-md = Klaskit pellgas adarre
+select-file = Diuzañ ar restr
+select-file-mobile = Diuzit ar restr da bellgas
+accepted-files = Doare restr degemeret: .tsv hepken
+upload-progress-text = O pellgas...
+upload-more-btn-text = Pellgas muioc'h a frazennoù?
 file-invalid-type = Restr direizh
+file-too-large = Re vras eo ar restr
 file-too-small = Re vihan eo ar restr
 too-many-files = Re a restroù a zo
