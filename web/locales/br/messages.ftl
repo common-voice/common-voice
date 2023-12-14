@@ -1283,3 +1283,6 @@ report-sc-different-language = Yezh disheñvel
 
 ## BULK SUBMISSION 
 
+file-invalid-type = Restr direizh
+file-too-small = Re vihan eo ar restr
+too-many-files = Re a restroù a zo
