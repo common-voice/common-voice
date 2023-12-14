@@ -1371,12 +1371,54 @@ sc-criteria-item-6 = Ако ви свършат изреченията за пр
 ## REVIEW
 
 sc-review-lang-not-selected = Не сте избрали никакви езици. Моля, отидете във вашия <profileLink>Профил</profileLink>, за да изберете езици.
+sc-review-form-button-reject = Отхвърляне
+sc-review-form-button-skip = Пропускане
+sc-review-form-button-approve = Одобряване
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Д
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = Н
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = П
+sc-review-form-keyboard-usage-custom = Можете също да използвате клавишни комбинации: { sc-review-form-button-approve-shortcut } за одобряване, { sc-review-form-button-reject-shortcut } за отхвърляне, { sc-review-form-button-skip-shortcut } за пропускане
+sc-review-form-button-submit =
+    .submitText = Завършване на прегледа
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Няма прегледани изречения.
+        [one] Едно прегледано изречение. Благодаря ви!
+       *[other] { $sentences } прегледани изречения. Благодаря ви!
+    }
+sc-review-form-review-failure = Прегледът не можа да бъде запазен. Моля, опитайте отново по-късно.
+sc-review-link = Преглед
 
 ## SETTINGS
 
+sc-settings-title = Настройки
+sc-settings-ui-language = Език на интерфейса
+sc-settings-reset-skipped = Нулиране на пропуснатите изречения
+sc-settings-skipped-decription = Преди сте пропускали изречения, докато преглеждате. Нулирането на пропуснатите изречения ще покаже отново всички пропуснати изречения. Това е независимо от езика.
+sc-settings-show-all-button = Показване на всички пропуснати изречения отново
+sc-settings-failed = Невъзможност за промяна на настройките. Моля, опитайте отново.
+# VALIDATION
+sc-validation-number-of-words = Изречението трябва да съдържа между 1 и 14 (включително) думи
+sc-validation-no-numbers = Изречението не трябва да съдържа числа
+sc-validation-no-symbols = Изречението не трябва да съдържа символи
+sc-validation-no-abbreviations = Изречението не трябва да съдържа съкращения
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Изберете език/локализация
+# PARTNERSHIPS PAGE
+partnerships-header = Партньорства
+partnerships-header-text = Отнема много, за да се случи Common Voice! Ние не го правим сами. Искате ли да си партнирате с нас? Ще се радваме да ни разкажете повече.
+partnerships-get-in-touch = Свържете се
+partnerships-become-a-partner = Станете Common Voice партньор
+partnerships-community-header = Общност, творци и гражданско общество
+partnerships-community-description = Общността е туптящото сърце на Common Voice – те идват от цял свят и са езикови активисти, учени и творци. Можете да научите повече за това как да се включите на нашата страница <about>Относно</about> и в нашата <community>общност</community>. Ако се интересувате от по-задълбочено организационно партньорство, <emailFragment>свържете се с нас.</emailFragment>
 sentence-collection = Списък с изречения
 
 ## REVIEW PAGE
