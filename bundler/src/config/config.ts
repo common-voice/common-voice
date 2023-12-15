@@ -43,6 +43,7 @@ const getDbConfig_ = (config: Config): IO.IO<DbConfig> => () => config.dbConfig
 const getClipsBucketName_ = (config: Config): IO.IO<string> => () => config.clipsBucketName 
 const getDatasetBundlerBucketName_ = (config: Config): IO.IO<string> => () => config.datasetBundlerBucketName
 const getRedisUrl_ = (config: Config): IO.IO<string> => () => config.redisUrl
+const getTmpDir_ = (config: Config): IO.IO<string> => () => config.environment === 'local' ? path.join(__dirname, '..', '..') : path.resolve(TMP_DIR)
 
 export const getQueriesDir = getQueriesDir_
 export const getRedisUrl = getRedisUrl_(config)
@@ -51,4 +52,4 @@ export const getEnvironment = getEnvironment_(config)
 export const getDbConfig = getDbConfig_(config)
 export const getClipsBucketName = getClipsBucketName_(config)
 export const getDatasetBundlerBucketName = getDatasetBundlerBucketName_(config)
-export const getTmpDir = () => path.resolve(TMP_DIR)
+export const getTmpDir = getTmpDir_(config)

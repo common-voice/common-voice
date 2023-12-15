@@ -15,7 +15,7 @@ import { runReportedSentences } from '../core/reportedSentences'
 import { runUpload } from '../core/upload'
 import { runCleanUp } from '../core/cleanUp'
 import { doesFileExistInBucket } from '../infrastructure/storage'
-import { getDatasetBundlerBucketName } from '../config/config'
+import { getDatasetBundlerBucketName, getTmpDir } from '../config/config'
 
 const processPipeline = pipe(
   RTE.Do,
@@ -41,7 +41,7 @@ const processPipeline = pipe(
 export const processLocale = async (job: Job<ProcessLocaleJob>) => {
   const { locale, releaseName } = job.data
 
-  const releaseDirPath = path.join('/cache', releaseName)
+  const releaseDirPath = path.join(getTmpDir(), releaseName)
 
   const env: AppEnv = {
     ...job.data,

@@ -322,7 +322,7 @@ const fetchAllClipsForLocale = (
       )
 
       if (fs.existsSync(clipFilepath)) {
-        return
+        continue
       }
 
       const existsInBucket = await pipe(
@@ -405,17 +405,22 @@ const extractClipsFromPreviousRelease = (
     return TE.right(constVoid())
   }
 
-  console.log('Extracting', filepath)
-
   return TE.tryCatch(
     () =>
-      tar.x(
-        {
-          cwd: getTmpDir(),
-          f: filepath,
-        },
-        [`${prevReleaseName}/${locale}/clips`],
-      ),
+      new Promise<void>((resolve, reject) => {
+        console.log('Extracting', filepath)
+        fs.createReadStream(filepath)
+          .pipe(
+            tar.x(
+              {
+                cwd: getTmpDir(),
+              },
+              [`${prevReleaseName}/${locale}/clips`],
+            ),
+          )
+          .on('close', () => resolve())
+          .on('error', (err: unknown) => reject(err))
+      }),
     (err: unknown) => {
       console.log(err)
       return Error(String(err))

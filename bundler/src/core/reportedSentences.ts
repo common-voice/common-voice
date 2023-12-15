@@ -42,7 +42,7 @@ const fetchReportedSentencesForLocale =
   (includeClipsFrom: string) =>
   (includeClipsUntil: string) =>
   (releaseDirPath: string): TE.TaskEither<Error, void> => {
-    console.log('Fetching clips for locale', locale)
+    console.log('Fetching reported sentences for locale', locale)
 
     return TE.tryCatch(
       () =>
