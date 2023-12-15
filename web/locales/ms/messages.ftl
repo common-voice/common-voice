@@ -670,6 +670,7 @@ data-download-deny = Tidak
 data-download-license = Lesen: <licenseLink> CC-0 </licenseLink>
 data-download-modal = Anda akan memulakan muat turun <size> { $size } GB </size>, teruskan?
 data-subtitle = Kami sedang membina set data suara terbuka dan tersedia untuk umum yang semua orang boleh gunakan untuk melatih aplikasi berdaya pertuturan.
+data-explanatory-text = Kami percaya bahawa set data suara yang besar dan tersedia untuk umum memupuk inovasi dan persaingan komersial yang sihat dalam teknologi pertuturan berasaskan pembelajaran mesin. Ini adalah usaha global dan kami menjemput semua orang untuk mengambil bahagian. Matlamat kami adalah untuk membantu teknologi pertuturan menjadi lebih inklusif, mencerminkan kepelbagaian suara dari seluruh dunia.
 data-get-started = <BRBlogLink>Mulakan Pengecaman Pertuturan</BRBlogLink>
 data-other-title = Set data suara lain ...
 data-other-goto = Pergi ke { $name }
@@ -678,6 +679,7 @@ data-bundle-button = Muat turun Pakej Dataset
 data-bundle-description = Data Common Voice serta semua set data suara lain di atas.
 release-version = Versi
 dataset-date = Tarikh
+license = Lesen: <licenseLink>{ $license }</licenseLink>
 license-mixed = Campuran
 data-download-singleword-title = Muat turun Segmen Sasaran Kata Tunggal
 data-download-singleword-callout-v2 = Ini adalah segmen dipacu kes yang mengandungi data untuk pengiktirafan digit yang dipertuturkan dan pengesahan ya / tidak.
@@ -686,6 +688,7 @@ terms-agree = Saya setuju
 terms-disagree = saya tidak bersetuju
 review-aborted = Muat naik dibatalkan. Adakah anda ingin memadam rakaman anda?
 review-submit-title = Semak & Hantar
+review-submit-msg = Terima kasih kerana merakam!<lineBreak></lineBreak>Sekarang semak dan serahkan klip anda di bawah.
 review-recording = Semakan
 review-rerecord = Rakam semula
 review-cancel = Batal Serahan
@@ -694,7 +697,8 @@ review-delete-recordings = Padamkan rakaman saya
 
 ## Datasets Page
 
-datasets-headline = Kami sedang membina set data suara terbuka dan tersedia untuk umum yang semua orang boleh gunakan untuk melatih aplikasi berdaya pertuturan.
+datasets-heading = Set data
+datasets-headline = Kami sedang membina set data suara berbilang-bahasa sumber terbuka yang sesiapa sahaja boleh gunakan untuk melatih aplikasi yang berdaya pertuturan.
 datasets-positioning =
     Kami percaya bahawa set data suara yang besar dan tersedia untuk umum akan memupuk inovasi dan persaingan komersial yang sihat dalam teknologi pertuturan berasaskan pembelajaran mesin.
     
