@@ -537,6 +537,7 @@ about-yes-votes-text = Untuk menjadikannya dalam set data Common Voice, klip sua
 about-no-votes = ≥ 2 Tiada undian
 about-no-votes-text = Apabila pengguna menolak klip suara ia kembali ke Baris Gilir. Jika ditolak untuk kali kedua, klip suara dialihkan ke Klip Graveyard.
 about-dataset-new = Set Data Common Voice
+about-dataset-new-text = Set Data Common Voice mengandungi berribu-ribu sampel suara yang membantu pembangun membina alat pengecaman suara.
 about-clip-graveyard = Perkuburan Klip
 about-clip-graveyard-text =
     Klip Graveyard terdiri daripada klip suara yang tidak dimasukkan ke dalam set data Common Voice. Sama seperti set data, Clip Graveyard tersedia untuk dimuat turun.
