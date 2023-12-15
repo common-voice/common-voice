@@ -19,6 +19,7 @@ banner-error-slow-2 = Kami menerima banyak trafik dan sedang menyiasat isu terse
 banner-error-slow-link = Halaman Status
 error-something-went-wrong = Ooops, ada sesuatu yang tidak kena
 error-clip-upload = Muat naik klip ini terus gagal, teruskan mencuba lagi?
+error-clip-upload-server = Muat naik klip ini gagal di pelayan. Muat semula halaman atau cuba lagi nanti.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
