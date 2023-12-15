@@ -1,7 +1,8 @@
-import fs, { read } from 'node:fs'
+import fs from 'node:fs'
 import { pipeline } from 'node:stream/promises'
 import path from 'node:path'
 import { Transform } from 'node:stream'
+import zlib from 'node:zlib'
 
 import tar from 'tar'
 import {
@@ -162,38 +163,6 @@ const checkClipForExistence = (releaseDirPath: string) => {
 
 const getPreviousReleaseClipDir = (locale: string, prevReleaseName: string) =>
   path.join(getTmpDir(), prevReleaseName, locale, 'clips')
-
-const copyExistingClips = (releaseDirPath: string, prevReleaseName?: string) =>
-  new Transform({
-    transform(chunk: ClipRow, encoding, callback) {
-      if (!prevReleaseName) {
-        callback(null, chunk)
-      } else {
-        const filename = createClipFilename(chunk.locale, chunk.id)
-        const prevReleaseClipPath = path.join(
-          getPreviousReleaseClipDir(chunk.locale, prevReleaseName),
-          filename,
-        )
-        const currentReleaseClipPath = path.join(
-          releaseDirPath,
-          chunk.locale,
-          'clips',
-          filename,
-        )
-        const clipExists = fs.existsSync(prevReleaseClipPath)
-
-        if (clipExists) {
-          process.stdout.write(`Copying file ${filename}\r`)
-          fs.copyFileSync(prevReleaseClipPath, currentReleaseClipPath)
-          fs.unlinkSync(prevReleaseClipPath)
-          callback()
-        } else {
-          callback(null, chunk)
-        }
-      }
-    },
-    objectMode: true,
-  })
 
 const filterMissingClips = (releaseDirPath: string) =>
   new Transform({
@@ -406,21 +375,18 @@ const extractClipsFromPreviousRelease = (
   }
 
   return TE.tryCatch(
-    () =>
-      new Promise<void>((resolve, reject) => {
-        console.log('Extracting', filepath)
-        fs.createReadStream(filepath)
-          .pipe(
-            tar.x(
-              {
-                cwd: getTmpDir(),
-              },
-              [`${prevReleaseName}/${locale}/clips`],
-            ),
-          )
-          .on('close', () => resolve())
-          .on('error', (err: unknown) => reject(err))
-      }),
+    async () => {
+      console.log('Extracting', filepath)
+      const readStream = fs.createReadStream(filepath)
+      const gunzip = zlib.createGunzip()
+      const extractStream = tar.x({
+        cwd: getTmpDir(),
+      })
+
+      await pipeline(readStream, gunzip, extractStream)
+
+      console.log('Finished extracting', filepath)
+    },
     (err: unknown) => {
       console.log(err)
       return Error(String(err))

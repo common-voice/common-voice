@@ -1,5 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
+import { pipeline } from 'node:stream/promises'
 
 import tar from 'tar'
 
@@ -18,16 +19,11 @@ const createTarballWriteStream = (outFilepath: string) => {
   return fs.createWriteStream(outFilepath)
 }
 
-const tarPromise = (outFilepath: string, pathsToCompress: string[]) =>
-  new Promise<void>((resolve, reject) => {
-    tar
-      .c({ gzip: true, cwd: getTmpDir() }, pathsToCompress)
-      .pipe(createTarballWriteStream(outFilepath))
-      .on('finish', () => {
-        resolve()
-      })
-      .on('error', () => reject())
-  })
+const tarPromise = async (outFilepath: string, pathsToCompress: string[]) => {
+  const readStream = tar.c({ gzip: true, cwd: getTmpDir() }, pathsToCompress)
+
+  await pipeline(readStream, createTarballWriteStream(outFilepath))
+}
 
 const compress =
   (pathsToCompress: string[]) =>
