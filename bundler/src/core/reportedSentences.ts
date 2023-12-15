@@ -59,8 +59,10 @@ const fetchReportedSentencesForLocale =
             .pipe(transformSentences())
             .pipe(writeFileStreamToTsv(locale, releaseDirPath))
             .on('finish', () => {
-              conn.end()
-              resolve()
+              conn.end(err => {
+                if (err) reject(err)
+                resolve()
+              })
             })
             .on('error', (err: unknown) => reject(err))
         }),
