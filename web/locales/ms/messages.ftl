@@ -18,6 +18,7 @@ banner-error-slow-1 = Maaf, Common Voice berjalan perlahan. Terima kasih atas mi
 banner-error-slow-2 = Kami menerima banyak trafik dan sedang menyiasat isu tersebut
 banner-error-slow-link = Halaman Status
 error-something-went-wrong = Ooops, ada sesuatu yang tidak kena
+error-clip-upload = Muat naik klip ini terus gagal, teruskan mencuba lagi?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
