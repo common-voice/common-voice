@@ -33,6 +33,7 @@ import {
 } from '../config/config'
 import { prepareDir } from '../infrastructure/filesystem'
 import { generateTarFilename } from './compress'
+import { extractTar } from '../infrastructure/tar'
 
 const CLIPS_BUCKET = getClipsBucketName()
 
@@ -374,24 +375,7 @@ const extractClipsFromPreviousRelease = (
     return TE.right(constVoid())
   }
 
-  return TE.tryCatch(
-    async () => {
-      console.log('Extracting', filepath)
-      const readStream = fs.createReadStream(filepath)
-      const gunzip = zlib.createGunzip()
-      const extractStream = tar.x({
-        cwd: getTmpDir(),
-      })
-
-      await pipeline(readStream, gunzip, extractStream)
-
-      console.log('Finished extracting', filepath)
-    },
-    (err: unknown) => {
-      console.log(err)
-      return Error(String(err))
-    },
-  )
+  return extractTar(filepath)
 }
 
 export const fetchAllClipsPipeline = (
