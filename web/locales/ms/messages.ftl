@@ -544,6 +544,11 @@ about-clip-graveyard-text =
     
     Kami ingin mengucapkan terima kasih kepada orang dan organisasi berikut atas bantuan mereka dengan projek ini:
 about-get-involved = Melibatkan diri
+about-get-involved-text-2 =
+    Mahu membantu menjadikan Common Voice lebih baik?
+    Hebat! Hubungi kami melalui e-mel atau forum <<discourseLink>>Discourse</discourseLink>,
+    laporkan isu laman melalui <githubLink>GitHub</githubLink>, atau sertai 
+    komuniti bersembang<<matrixLink>>Matrix</matrixLink>.
 about-stay-in-touch = Bagaimana saya boleh terus berhubung?
 about-stay-in-touch-button = Daftar
 about-stay-in-touch-text-1 = <emailFragment>Daftar</emailFragment> ke senarai mel kami untuk mengetahui cara anda boleh mengambil bahagian dalam kempen, acara dan ciri reka bentuk bersama di Common Voice.
