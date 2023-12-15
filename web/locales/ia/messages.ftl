@@ -744,6 +744,7 @@ number-of-voices = Numero de voces
 splits = Cesuras
 email-to-download = Insere email pro discargar
 why-email = <b>Proque un adresse de e-mail?</b> Es possibile que nos debera contactar te in le futuro sur cambiamentos concernente le collection de datos. Un adresse de e-mail nos forni un puncto de contacto.
+why-donate = Perque demanda tu?
 confirm-size = Tu es preste a initiar un discargamento de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -820,7 +821,7 @@ request-language-heading = Demandar un nove lingua
 request-language-explanation-1 =
     Verifica si tu lingua es in le lista super le
     <languagesPageLink>Pagina de linguas de Common Voice</languagesPageLink>.
-    Si non, plena iste forma e nos <strong>te inviara un practic email
+    Si non, compila iste formulario e nos <strong>te inviara un practic email
     explicante como implementar tu lingua</strong>.
 request-language-explanation-2 =
     Nos alsi <strong>face saper a nostre gestor de communitate
@@ -1724,7 +1725,7 @@ guidelines = Lineas guida
 contact-us = Contactar nos
 add-sentence-success = 1 phrase colligite
 add-sentence-error = Error dum le phrase era addite
-required-field = Per favor completa iste campo.
+required-field = Per favor compila iste campo.
 single-sentence-submission = Invio de phrases singule
 bulk-sentence-submission = Invio de gruppo de phrases
 single-sentence = Phrase singule
