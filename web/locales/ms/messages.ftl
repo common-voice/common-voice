@@ -969,7 +969,7 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-       *[other] Bantu Common Voice mencapai { $hours } jam dalam bahasa dengan matlamat peribadi
+       *[other] Bantu Common Voice mencapai { $hours } jam dalam sesuatu bahasa dengan matlamat peribadi
     }
 set-a-goal = Tetapkan matlamat
 cant-decide = Tidak dapat membuat keputusan?
@@ -1105,6 +1105,7 @@ sc-footer-privacy = Privasi
 
 ## GENERAL
 
+sc-languages-fetch-error = Kami gagal mendapatkan bahasa yang tersedia. Sumbangan tidak boleh dibuat pada masa ini. Sila cuba sebentar lagi.
 
 ## HOW-TO
 
