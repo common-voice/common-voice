@@ -243,8 +243,10 @@ const copyExistingClipsFromPrevRelease =
       columns: true,
       delimiter: '\t',
     })
-    
-    console.log(`Copying clips from previous release ${previousReleaseName} ...`)
+
+    console.log(
+      `Copying clips from previous release ${previousReleaseName} ...`,
+    )
     for (const clip of clips) {
       const filename = createClipFilename(clip.locale, clip.id)
       const prevReleaseClipPath = path.join(
@@ -278,11 +280,17 @@ const fetchAllClipsForLocale = (
   TE.tryCatch(async () => {
     console.log('Fetching clips for locale', locale)
 
-    const fileContent = fs.readFileSync(tmpClipsFilepath, { encoding: 'utf-8' })
-    const clips: ClipRow[] = parseSync(fileContent, {
+    const clips: ClipRow[] = []
+    const parser = parse({
       columns: true,
       delimiter: '\t',
     })
+
+    parser.on('data', (chunk: ClipRow) => {
+      clips.push(chunk)
+    })
+
+    await pipeline(fs.createReadStream(tmpClipsFilepath), parser)
 
     for (const clip of clips) {
       const clipFilename = createClipFilename(clip.locale, clip.id)
