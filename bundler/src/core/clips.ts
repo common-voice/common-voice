@@ -236,13 +236,15 @@ const copyExistingClipsFromPrevRelease =
       'Start copying existing clips from previous release for locale',
       locale,
     )
-
+    console.log(`Reading file content into memory (${tmpClipsFilepath})`)
     const fileContent = fs.readFileSync(tmpClipsFilepath, { encoding: 'utf-8' })
+    console.log(`Parsing file content (${tmpClipsFilepath})`)
     const clips: ClipRow[] = parseSync(fileContent, {
       columns: true,
       delimiter: '\t',
     })
-
+    
+    console.log(`Copying clips from previous release ${previousReleaseName} ...`)
     for (const clip of clips) {
       const filename = createClipFilename(clip.locale, clip.id)
       const prevReleaseClipPath = path.join(
