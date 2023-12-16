@@ -215,7 +215,7 @@ terms = Terma
 cookies = Kuki
 faq = Soalan Lazim
 content-license-text = Kandungan tersedia di bawah <licenseLink>lesen Creative Commons</licenseLink>
-share-title = Bantu kami mencari orang lain untuk menderma suara mereka!
+share-title = Bantu kami mencari orang lain untuk menyumbangkan suara mereka!
 share-text = Bantu mengajar mesin bagaimana orang sebenar bercakap, sumbangkan suara anda di { $link }
 link-copied = Pautan Disalin
 back-top = Kembali ke atas
@@ -1041,7 +1041,7 @@ read-more-about = Baca lebih lanjut di halaman Perihal kami
 
 demo-get-started = Mari kita mulakan
 demo-welcome = Selamat Datang ke Common Voice
-demo-welcome-subheader = Berminat untuk belajar lebih banyak dan menyumbang kepada projek ini?
+demo-welcome-subheader = Berminat untuk mengetahui lebih lanjut dan menyumbang kepada projek ini?
 
 ## Demo Datasets
 
