@@ -44,6 +44,7 @@ be = Hviterussisk
 bg = Bulgarsk
 bm = Bambara
 bn = Bengalsk
+bo = Tibetansk
 br = Bretonsk
 bs = Bosnisk
 bxr = Burjatisk
@@ -1109,4 +1110,11 @@ see-less = <chevron></chevron>Se mindre
 
 
 # [/SentenceCollector]
+
+sentence-collection = Setningsinnsamling
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
 
