@@ -772,6 +772,7 @@ more = Mere
 close = Luk
 download = Hent
 dataset-version = Version
+clipboard-not-supported = Udklipsholder er ikke understøttet
 
 ## Download Modal
 
@@ -849,6 +850,8 @@ language-section-in-progress = I gang
 language-section-in-progress-new-description = Disse sprog er i øjeblikket under udvikling af fællesskabet. Grafikken viser, hvor langt det enkelte sprog er kommet med at <localizationGlossaryLink>oversætte hjemmesiden</localizationGlossaryLink> og <sentenceCollectionGlossaryLink>indsamling af sætninger</sentenceCollectionGlossaryLink>.
 language-section-launched = Startet
 language-section-launched-description = For disse lancerede sprog er hjemmesiden blevet <localizationGlossaryLink>oversat</localizationGlossaryLink>, og tilstrækkeligt mange <sentenceCollectionGlossaryLink>sætninger er blevet indsamlet</sentenceCollectionGlossaryLink> til at bidragsydere kan hjælpe med at <speakLink>indtale</speakLink> og <listenLink>godkende</listenLink> optagelser.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Sidst opdateret: { $lastUpdatedTimeStamp }
 languages-show-more = Se flere
 languages-show-less = Se mindre
 language-meter-in-progress = Status
@@ -1533,6 +1536,8 @@ sc-validation-no-abbreviations = Sætning bør ikke indeholde forkortelser
 
 localization-select =
     .label = Vælg sprog/oversættelse
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerskaber
 sentence-collection = Indsamling af sætninger
 
 ## REVIEW PAGE
@@ -1540,3 +1545,8 @@ sentence-collection = Indsamling af sætninger
 
 ## BULK SUBMISSION 
 
+select-file = Vælg fil
+file-invalid-type = Ugyldig fil
+file-too-large = Filen er for stor
+file-too-small = Filen er for lille
+too-many-files = For mange filer
