@@ -42,6 +42,7 @@ be = Hviderussisk
 bg = Bulgarsk
 bm = Bambara
 bn = Bengalsk
+bo = Tibetansk
 br = Bretonsk
 bs = Bosnisk
 bxr = Burjatisk
@@ -604,7 +605,6 @@ about-playbook-how-add-sentences = Hvordan tilføjer jeg sætninger?
 about-playbook-how-add-sentences-content-1 = <strong>Sætnings-indsamleren</strong> er et værktøj til at indsamle og validere sætninger i det offentlige domæne. Du skal <scAccountLink>oprette en konto</scAccountLink>. Tilføj derefter dit sprog til din <strong>profil</strong>. Du kan <strong>tilføje</strong> sætninger eller <strong>gennemgå</strong> tidligere tilføjede sætninger.
 about-playbook-how-add-sentences-content-2 = Sætninger skal gennemgås og accepteres af to personer for at blive inkluderet i Common Voice. Du opretter retningslinjer for dit sprog <languageGuidelinesLink>her</languageGuidelinesLink>. Sætninger skal være i det <licenseLink>offentlige domæne</licenseLink> og være kortere end 15 ord. Du kan bede ejeren af en tekst om at gøre den til <waiverLink>CC0 ved hjælp af vores afståelsesproces</waiverLink> og sende den til os på commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Du kan bruge <scraperLink>Sætningsudtrækkeren</scraperLink> til at benytte korte sætninger fra Wikipedia.
-about-playbook-how-add-sentences-content-4 = Sætninger, der er blevet valideret, eksporteres om onsdagen og er tilgængelige efter næste udgivelse.
 
 ## How to record quality
 
@@ -918,6 +918,9 @@ target-segment-generic-card = Du bidrager til et målsegment
 target-segment-first-banner = Vær med til at lave det første målsegment til Common Voice på { $locale }
 target-segment-add-voice = Tilføj din stemme
 target-segment-learn-more = Læs mere
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1522,3 +1525,10 @@ sc-validation-no-abbreviations = Sætning bør ikke indeholde forkortelser
 
 localization-select =
     .label = Vælg sprog/oversættelse
+sentence-collection = Indsamling af sætninger
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
