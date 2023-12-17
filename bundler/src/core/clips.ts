@@ -31,7 +31,7 @@ import {
   getQueriesDir,
   getTmpDir,
 } from '../config/config'
-import { prepareDir } from '../infrastructure/filesystem'
+import { prepareDir, rmFilepath } from '../infrastructure/filesystem'
 import { generateTarFilename } from './compress'
 import { extractTar } from '../infrastructure/tar'
 
@@ -384,7 +384,10 @@ const extractClipsFromPreviousRelease = (
     return TE.right(constVoid())
   }
 
-  return extractTar(filepath)
+  return pipe(
+    extractTar(filepath),
+    TE.chain(() => TE.fromIO(rmFilepath(filepath))),
+  )
 }
 
 export const fetchAllClipsPipeline = (

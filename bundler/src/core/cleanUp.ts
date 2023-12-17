@@ -25,10 +25,6 @@ export const cleanUp = (
           recursive: true,
           force: true,
         })
-        await fs.rm(
-          path.join(getTmpDir(), generateTarFilename(locale, prevReleaseName)),
-          { force: true },
-        )
       }
     },
     (err: unknown) => Error(String(err)),
