@@ -224,29 +224,28 @@ const streamQueryResultToFile = (
     await endConnection()
   }, logError)
 
-const copyExistingClipsFromPrevRelease =
-  (
-    tmpClipsFilepath: string,
-    locale: string,
-    releaseDirPath: string,
-    previousReleaseName: string,
-  ): IO.IO<void> =>
-  () => {
-    console.log(
-      'Start copying existing clips from previous release for locale',
-      locale,
-    )
-    console.log(`Reading file content into memory (${tmpClipsFilepath})`)
-    const fileContent = fs.readFileSync(tmpClipsFilepath, { encoding: 'utf-8' })
-    console.log(`Parsing file content (${tmpClipsFilepath})`)
-    const clips: ClipRow[] = parseSync(fileContent, {
+const copyExistingClipsFromPrevRelease = (
+  tmpClipsFilepath: string,
+  releaseDirPath: string,
+  previousReleaseName: string,
+) =>
+  TE.tryCatch(async () => {
+    const clips: ClipRow[] = []
+    const parser = parse({
       columns: true,
       delimiter: '\t',
     })
 
+    parser.on('data', (chunk: ClipRow) => {
+      clips.push(chunk)
+    })
+
+    await pipeline(fs.createReadStream(tmpClipsFilepath), parser)
+
     console.log(
       `Copying clips from previous release ${previousReleaseName} ...`,
     )
+
     for (const clip of clips) {
       const filename = createClipFilename(clip.locale, clip.id)
       const prevReleaseClipPath = path.join(
@@ -270,7 +269,7 @@ const copyExistingClipsFromPrevRelease =
     }
 
     console.log('Finished copying existing clips from previous release')
-  }
+  }, logError)
 
 const fetchAllClipsForLocale = (
   tmpClipsFilepath: string,
@@ -418,13 +417,10 @@ export const fetchAllClipsPipeline = (
     TE.chainFirst(() => TE.fromIO(prepareDir(clipsDirPath))),
     TE.chainFirst(({ clipsTmpPath }) =>
       previousReleaseName
-        ? TE.fromIO(
-            copyExistingClipsFromPrevRelease(
-              clipsTmpPath,
-              locale,
-              releaseDirPath,
-              previousReleaseName,
-            ),
+        ? copyExistingClipsFromPrevRelease(
+            clipsTmpPath,
+            releaseDirPath,
+            previousReleaseName,
           )
         : TE.right(constVoid()),
     ),
