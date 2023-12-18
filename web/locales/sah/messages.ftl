@@ -1032,6 +1032,9 @@ bulk-sentence-submission = Элбэх этиини киллэрии
 
 ## REVIEW PAGE
 
+sc-redirect-page-subtitle-1 = Этиини хамыйыы Common Voice сүрүн платформатыгар көстө. Эһиги билигин Common Voice-ка этиини <writeURL>суруйуоххутун</writeURL> эбэтэр <reviewURL>тургутуоххутун</reviewURL> сөп.
 
 ## BULK SUBMISSION 
 
+bulk-upload-success-toast = Элбэх этии киирдэ
+upload-more-btn-text = Өссө этиилэри киллэрэҕит?
