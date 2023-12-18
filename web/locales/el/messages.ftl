@@ -240,7 +240,7 @@ help = Βοήθεια
 contact = Επικοινωνία
 privacy = Απόρρητο
 terms = Όροι
-cookies = Cookies
+cookies = Cookie
 faq = Συχνές ερωτήσεις
 content-license-text = Το περιεχόμενο διατίθεται υπό την <licenseLink>άδεια Creative Commons</licenseLink>
 share-title = Βοηθήστε μας να βρούμε και άλλους που θα συνεισφέρουν τη φωνή τους!
@@ -1262,7 +1262,7 @@ sc-footer-translate = Μετάφραση σελίδας
 sc-footer-report-copyright = Αναφορά ζητημάτων πνευματικών δικαιωμάτων
 sc-footer-privacy = Απόρρητο
 sc-footer-terms = Όροι
-sc-footer-cookies = Cookies
+sc-footer-cookies = Cookie
 sc-login-signup-button = Σύνδεση/Εγγραφή
 sc-logout-button = Αποσύνδεση
 
