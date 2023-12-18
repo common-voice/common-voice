@@ -42,6 +42,7 @@ ba = Башкиир тыла
 bas = Басаа тыла
 be = Белорус тыла
 bg = Болгар тыла
+bm = Бамана тыла
 bn = Бенгаал тыл
 bo = Тибет тыла
 br = Бретон тыла
@@ -336,6 +337,7 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Хат суруттар
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Билигин суруллубуту суох гын
+shortcut-submit = Return
 request-language-text = Эн тылыҥ Common Voice-ка көстүбэт дуо?
 request-language-button = Тылы киллэрэргэ сайаапка
 
@@ -831,7 +833,20 @@ overall-accuracy = Төһө чопчута
 create-custom-goal = Сыалла туруорун
 both-speak-and-listen = Иккиэннэрэ
 both-speak-and-listen-long = Иккиэннэрэ (Сурутуу уонна Тургутуу)
+daily-goal = Күннээҕи сыал
+weekly-goal = Нэдиэлэ сыала
+easy-difficulty = Чэпчэкитик
+average-difficulty = Ортоку
+difficult-difficulty = Эрэйдээх
+pro-difficulty = Про
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } клип
+       *[other] { $count } клип
+    }
 confirm-goal = Сыалы бигэргэт
+share-goal-type-speak = Саҥар
+share-goal-type-listen = Иһит
 
 ## Profile Delete
 
@@ -848,6 +863,13 @@ profile-form-delete = Профиль соттор
 
 ## Profile Download
 
+download-profile-title = Профиль
+download-recordings-title = Суруттарыы
+download-size = Кээмэй
+download-selected = Талыллыбыт
+download-request-button = Хачайдааһын
+download-request-title = { $created }
+download-request-link-text = Zip №{ $offset } / { $total }
 
 ## Landing
 
@@ -858,6 +880,8 @@ profile-not-required = Профиль хайаан да ирдэммэт, ол �
 
 ## Demo Datasets
 
+card-button-next = Салгыы
+demo-account = Аккаунт
 
 ## Demo Account
 
@@ -870,6 +894,11 @@ profile-not-required = Профиль хайаан да ирдэммэт, ол �
 
 ## Validation criteria
 
+contribution-criteria-nav = Критерийдэр
+contribution-for-example = холобуругар
+contribution-volume-title = Тыас улахана
+see-more = <chevron></chevron>Элбэхтэ
+see-less = <chevron></chevron>Аҕыйахта
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -878,6 +907,16 @@ profile-not-required = Профиль хайаан да ирдэммэт, ол �
 
 ## HEADER/FOOTER
 
+sc-header-review = Тургут
+sc-header-my = Мин этиилэрим
+sc-header-statistics = Статистика
+sc-header-profile = Профиль
+sc-footer-discourse = Discourse
+sc-footer-privacy = Кистэлэҥи хааччыйыы
+sc-footer-terms = Усулуобуйалар
+sc-footer-cookies = Куукалар
+sc-login-signup-button = Киирии / Бэлиэтэнии
+sc-logout-button = Тахсыы
 
 ## HOME
 
@@ -890,39 +929,62 @@ profile-not-required = Профиль хайаан да ирдэммэт, ол �
 
 ## MY SENTENCES
 
+sc-my-title = Мин этиилэрим
 
 ## REJECTED
 
 
 ## STATS
 
+sc-stats-title = Статистика
 
 ## ADD
 
+sc-submit-select-language =
+    .labelText = Тылы тал
+sc-submit-button =
+    .submitText = Ыыт
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Тылы эбии
 
 ## ADD SENTENCES CONFIRMATION
 
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Уопсайа
 
 ## LOGIN
 
+sc-login-err-try-again = Баһаалыста, иккистээн боруобалааҥ.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профиль: { $username }
+sc-personal-your-languages = Эн тылларыҥ:
+sc-personal-remove-button = соттор
 
 ## REVIEW CRITERIA
 
 
 ## REVIEW
 
+sc-review-form-button-skip = Көтүт
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-link = Тургут
 
 ## SETTINGS
 
+sc-settings-title = Туруоруулар
 
 # [/SentenceCollector]
 
