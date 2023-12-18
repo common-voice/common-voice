@@ -418,6 +418,7 @@ profile-close = Сап
 profile-explanation = Наблюдайте за прогрессом, пользуясь профилем, и помогайте улучшать точность наших голосовых данных.
 thanks-for-account = Аатыҥ бигэргэннэ, аны билигин профильгын толор.
 why-demographic = Бу туох суолталааҕый?
+why-demographic-explanation-2 = Анонимнай дааннайдар (холобур, сааһыҥ, пол, аксыаныҥ) массыына киһи саҥатын үчүгэйдик өйдүүрүгэр көмө буолуохтарын сөп. Эһиги ааккыт уонна электроннай почтаҕыт хаһан да эһиги ыыппыт дааннайдаргытын кытта ситимнэниэ суохтара уонна эһиги талыаххытын сөп, ааккытын көстөр эбэтэр көстүбэт гына.
 accept-privacy = Mozilla <privacyLink>Бүк охсунуу бэлитикэтин</privacyLink> кытта сөбүлэһэбин
 accept-privacy-title = Кистээһин сиэрэ
 accept-privacy-and-terms = Common Voice <termsLink>усулуобуйатын</termsLink> уонна <privacyLink>Кистээһинин сиэрин</privacyLink> кытта сөбүлэһэбин.
@@ -445,7 +446,9 @@ browse-file = Перетащите или <browseWrap>выберите файл<
 connect-gravatar = Gravatar холбооһун
 gravatar_not_found = Данный адрес эл. почты не зарегистрирован в gravatar
 file_too_large = Талбыт файлгыт аһара улахан размердаах
+avatar-uploaded = Аватар киирдэ
 max-file-size = муҥутаан { $kb }КБ
+remove-avatar = Аватар соттор
 
 ## Profile - Email
 
