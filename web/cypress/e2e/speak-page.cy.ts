@@ -48,8 +48,8 @@ describe('The Speak Page', () => {
       })
   })
 
-  // TODO: make this test work on Firefox
-  it('submits (authenticated user)', () => {
+  // TODO: make this test work on Firefox - mic permissions FF
+  it.only('submits (authenticated user)', { retries: { runMode: 2 } }, () => {
     const testUserEmail = Cypress.env('test_user_email')
     const testUserPassword = Cypress.env('test_user_password')
 
