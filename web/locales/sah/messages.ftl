@@ -724,6 +724,7 @@ language-search-input =
 language-speakers = Саҥарааччылар
 localized = Локализовано
 sentences = Этиилэр
+language-validation-hours = Чаас
 
 ## Contribution
 
@@ -733,6 +734,11 @@ contribute = Кытын
 listen = Иһит
 skip = Көтүт
 shortcuts = Сочетаниялар
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> клип
+       *[other] <bold>{ $count }</bold> клип
+    }
 goal-help-recording = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по записи в { $goalValue }!
 goal-help-validation = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по проверке в { $goalValue }!
 contribute-more =
@@ -776,6 +782,11 @@ share-title-new = Саҥарар дьону буларга <bold>көмөлөс 
 
 ## Reporting
 
+report-different-language = Атын тыл
+report-other-comment =
+    .placeholder = Комментарий
+success = Бэлэм буолла
+continue = Салгыы
 
 ## Goals
 
@@ -805,6 +816,7 @@ clips-you-validated = Эн тургутууҥ
 todays-recorded-progress = Бүгүн Common Voice-ка суруттарылынна
 todays-validated-progress = Бүгүн Common Voice-ка тургутулунна
 stats = Статистика
+awards = Наҕараадалар
 you = Эн
 everyone = Бары
 contribution-activity = Кыттааччылар көхтөрө
