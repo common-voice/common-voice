@@ -562,6 +562,7 @@ about-nav-why-common-voice = Тоҕо?
 about-nav-how-it-works = Хайдах?
 about-nav-partners = Партнердар
 about-nav-get-involved = Кыттыс
+about-nav-how-it-works-2 = Common Voice хайдах үлэлиирий?
 
 ## Community Playbook Content
 ## What is a language
@@ -569,9 +570,13 @@ about-nav-get-involved = Кыттыс
 
 ## How do I add a language
 
+about-playbook-how-add-language = Мин хайдах тылы киллэрэбин?
+about-playbook-how-add-language-translating-heading = Саайты тылбаастааһын
+about-playbook-how-add-language-collecting-sentences-heading = Этиилэри хомуйуу
 
 ## How does localization work
 
+about-playbook-how-localize = Сайт локализацията хайдах үлэлиирий?
 
 ## How to add sentences
 
@@ -1028,7 +1033,13 @@ sc-criteria-title = Тургутуу критерийа
 sc-review-title = Этиилэри тургутуу
 sc-review-loading = Этиилэри хачайдааһын...
 sc-review-select-language = Баһаалыста, ханнык тылынан этиилэри тургутаргытын талыҥ.
+sc-review-no-sentences = Тургутарга этии билигин суох, ол гынан баран эһиги саҥа этиилэри <addLink>киллэриэххитин</addLink> син!
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Источник: { $sentenceSource }
+sc-review-form-button-reject = Ылыныма
 sc-review-form-button-skip = Көтүт
+sc-review-form-button-approve = Ылын
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
