@@ -761,6 +761,13 @@ request-language-form-info-explanation =
     Төһө кыалларынан тыл туһунан информацията киллэриҥ. 
     Онно киириэхтэээх:
 request-language-form-info-explanation-list-1 = Эһиги тылгыт аата
+request-language-google-recaptcha-required = Эһиги салгыаххытын баҕарар буоллаххытына reCAPTCHA толоруллуохтаах
+request-language-google-recaptcha-error = reCAPTCHA-ҕа туох эрэ сатаммата. Баһаалыста, өссө биирдэ холонон көр.
+# Success page
+request-language-success-heading = Махтал! Эһиги саҥа тыл киллэрэргэ ыйытык ыыттыгыт
+request-language-success-list-1 =
+    Common Voice-ка тылы киллэрэр хардыылар тустарынан 
+    кыра быһаарыылаах сурук эһиэхэ электроннай почтанан тиийиэҕэ
 
 ## Languages Overview
 
@@ -768,6 +775,8 @@ language-section-in-progress = Бэлэмнэнэ сылдьаллар
 language-section-in-progress-new-description = Бу тыллар билигин сообщество көмөтүнэн бэлэмнэнэ сылдьаллар. Прогресс индикатора хас биирдии тылга  <localizationGlossaryLink>вебсайт тылбаастааһына</localizationGlossaryLink> уонна <sentenceCollectionGlossaryLink>этиилэри хамыйыы</sentenceCollectionGlossaryLink> төһө ыраах тиийбиттэрин көрдөрөр
 language-section-launched = Киирбиттэр
 language-section-launched-description = Бу киирбит тылларга вебсайт <localizationGlossaryLink>тылбаастаммыт</localizationGlossaryLink> уонна <sentenceCollectionGlossaryLink>этиилэрэ</sentenceCollectionGlossaryLink> толору хамыллыбыт, онон <speakLink>куолаһы хаммыйыахха</speakLink> уонна <listenLink>истиэххэ</listenLink> сөп.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Бүтэһик саҥардыы: { $lastUpdatedTimeStamp }
 languages-show-more = Элбэхтэ
 languages-show-less = Аҕыйахта
 language-meter-in-progress = Прогресс
@@ -778,6 +787,7 @@ language-speakers = Саҥарааччылар
 localized = Локализовано
 sentences = Этиилэр
 language-validation-hours = Чаас
+language-validation-progress = Тургутуу прогреһа
 
 ## Contribution
 
@@ -804,6 +814,7 @@ contribute-more =
 record-cta = Суруттарыыны саҕалаа
 record-platform-not-supported = Нам жаль, в настоящее время ваша платформа не поддерживается.
 record-platform-not-supported-desktop = На настольных компьютерах, вы можете загрузить последний:
+record-platform-not-supported-ios-non-safari = iOS-ка сурутууну холбуурга, баһаалыста, Safari туттуҥ...
 record-must-allow-microphone = Микрофоҥҥа доступ биэриэххэ наада.
 record-no-mic-found = Микрофон булуллубата
 record-error-too-short = Суруттарыы наһаа кылгас.
