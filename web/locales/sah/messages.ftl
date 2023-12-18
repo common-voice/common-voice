@@ -828,6 +828,8 @@ record-again-instruction = Бэртээхэй! <recordIcon></recordIcon> Аны�
 record-again-instruction2 = Салҕаан ис, өссө суруттар <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Бүтэһик!
 review-tooltip = Манна клиптары тургут & хат суруттар
+share-clip = Килиипкин бэрис
+share-common-voice = Common Voice-ы бэрис
 review-instruction = Клиптары тургутуоххун & хат суруттарыаххын сөп
 record-submit-tooltip = Бэлэм буоллаҕына { $actionType }
 clips-uploaded = Клип киирдэ
@@ -840,8 +842,15 @@ listen-instruction = <playIcon></playIcon>{ $actionType } этии сөпкө ч
 listen-again-instruction = Туйгун үлэ! <playIcon></playIcon> Өссө истиҥ, бэлэм буоллаххытына
 listen-3rd-time-instruction = 2 бэлэм, салҕыы тур!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Бүтэһик!
+listen-empty-state = Биһиэхэ тургутар килииптэр бүттүлэр, хойутуу холонон көрүҥ.
 listen-abort-title = Тургутууну тохтотоҕут?
 listen-abort-cancel = Ситэри тургутуу
+listen-abort-confirm = Тургутууну тохтот
+speak-empty-state = Бу тылынан саҥарарга сөптөөх этиилэр биһиэхэ бүттүлэр...
+speak-empty-state-cta = Этиитэли киллэрии
+speak-loading-error =
+    Эһиги саҥараргытыгар барсар биир да этиини биһиги булбатыбыт.
+    Хойутуу холонон көрүҥ.
 record-button-label = Саҥаҕын суруттар
 share-title-new = Саҥарар дьону буларга <bold>көмөлөс дуу</bold>
 target-segment-add-voice = Бэйэҥ куоласкын киллэр
@@ -856,6 +865,8 @@ contribute-sentence-collection-nav-header = Этии хомуурунньуга
 
 report = Үҥсүү
 report-title = Үҥсүүнү ыытыы
+report-offensive-language = Киһи өһүргэнэр тыла
+report-offensive-language-detail = Бу этиигэ дискриминациялыыр эбэтэр киһини өһүргэтэр тыл баар.
 report-different-language = Атын тыл
 report-offensive-speech = Киһи өһүргэнэр саҥарыыта
 report-offensive-speech-detail = Бу манна дискриминация эбэтэр киһини өһүргэтэр саҥарыы баар
@@ -1124,8 +1135,10 @@ sc-settings-title = Туруоруулар
 # [/SentenceCollector]
 
 sentence-collection = Этии хомуурунньуктара
+offensive-content = Иһинээҕитэ киһини өһүргэтэр
 public-domain = Киһи-аймах бас билиитэ
 reviewing-sentences = Этиилэри көрүү
+adding-sentences-subheader-offensive-content = Иһинээҕитэ киһини өһүргэтэр
 # WRITE PAGE
 write-instruction = Киһи-аймах бас билиитэ этиини <icon></icon> киллэриҥ
 sentence-input-value = Киһи-аймах бас билиитэ этиигитин манна суруйуҥ
