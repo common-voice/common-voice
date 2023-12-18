@@ -701,6 +701,8 @@ get-started-speech = Common Voice атын программаларга хайд
 other-datasets = Атын куолас дааннайын набордара
 feedback-q = Сыанабыл хаалларыы
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ - диэн <docsLink>аһаҕас кодтаах инструменнар хомуурдара</docsLink> аныгы диалогтаах ИИ моделларын оҥорооччуларга аналлаах.
+community-playbook = Кыттааччыларга үөрэнэр кинигэ
+resource-playbook-info = Common Voice бары тиһимигэр <playbookLink>туһалаах рекомендациялар</playbookLink> бааллар, тылбаастааһынтан саҕалаан дааннай хомуурун туттар туһунан, уонна өссө, биһиги бөлөхпүтүн кытта билсэр туһунан.
 data-other-librispeech-description = LibriSpeech представляет собой собрание из примерно 1000 часов 16 кГц аудиозаписей английской речи, полученных из аудиокниг проекта LibriVox.
 data-other-ted-name = TED-LIUM Хомуур
 data-other-ted-description = TED-LIUM Хомуур диэн TED сайтка баар аудио кэпсэтиилэр уонна кинилэр транскрипцияларыттан оҥоһуллубут.
@@ -750,10 +752,14 @@ other-language = Атын тыллар
 
 ## Request Language Pages
 
+request-language-heading = Саҥа тылы киллэрэргэ көрдөһүү
 request-language-form-email =
     .label = Электроннай почта аадырыскыт
 request-language-form-info =
     .label = Тыл туһунан иһитиннэрии
+request-language-form-info-explanation =
+    Төһө кыалларынан тыл туһунан информацията киллэриҥ. 
+    Онно киириэхтэээх:
 request-language-form-info-explanation-list-1 = Эһиги тылгыт аата
 
 ## Languages Overview
