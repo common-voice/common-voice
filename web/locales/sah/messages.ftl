@@ -948,6 +948,9 @@ sc-logout-button = Тахсыы
 ## MY SENTENCES
 
 sc-my-title = Мин этиилэрим
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Киллэрии: { $batchId }
 
 ## REJECTED
 
@@ -969,6 +972,23 @@ sc-add-lang-sec-button = Тылы эбии
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Биир да этии суох.
+       *[other] { $countOfSentences } этии баар.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = Эн ылымматыҥ - { $countOfInvalidated }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ыытарга бэлэм этии суох!
+       *[other] { $readyCount } этии ыытарга бэлэм!
+    }
 
 ## LANGUAGE INFO
 
@@ -1007,6 +1027,8 @@ sc-settings-title = Туруоруулар
 # [/SentenceCollector]
 
 sentence-collection = Этии хомуурунньуктара
+single-sentence-submission = Биир этиини киллэрии
+bulk-sentence-submission = Элбэх этиини киллэрии
 
 ## REVIEW PAGE
 
