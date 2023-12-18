@@ -567,6 +567,7 @@ about-nav-how-it-works-2 = Common Voice хайдах үлэлиирий?
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Common Voice тыла диэн тугуй?
 
 ## How do I add a language
 
@@ -579,6 +580,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Этиилэри 
 about-playbook-how-localize = Сайт локализацията хайдах үлэлиирий?
 about-playbook-how-localize-content-1 = Common Voice сайт тылбаастааһына <strong>Pontoon</strong> нөҥүө үлэлиир.
 about-playbook-how-localize-content-4 = Тылбаас 75% буоллаҕына сайт үлэлииригэр бэлэм буолар.
+about-playbook-how-localize-content-5 = Биһиги быһаарыылаах видеобытын көрүҥ көмө быһыытынан
 
 ## How to add sentences
 
@@ -586,6 +588,7 @@ about-playbook-how-add-sentences = Мин этиини хайдах киллэр
 
 ## How to record quality
 
+about-playbook-how-record-quality = Үрдүк хаачыстыбалаах куолаһы мин хайдах суруттарыахпын сөбүй?
 
 ## How to grow language
 
@@ -594,6 +597,7 @@ about-playbook-how-grow-language-content-4 = Социальнай ситимнэ
 
 ## How to validate
 
+about-playbook-how-validate = Килииби ылыахха сөбүн хайдах билэбин?
 
 ## How to access dataset
 
@@ -617,6 +621,7 @@ de-identified-explanation = Процесс, с помощью которого �
 
 ## Error pages
 
+error-title-404 = Страницаны сатаан булбатыбыт
 error-code = Алҕас { $code }
 
 ## Data
