@@ -826,10 +826,13 @@ contribute-sentence-collection-nav-header = Этии хомуурунньуга
 report = Үҥсүү
 report-title = Үҥсүүнү ыытыы
 report-different-language = Атын тыл
+report-offensive-speech = Киһи өһүргэнэр саҥарыыта
+report-offensive-speech-detail = Бу манна дискриминация эбэтэр киһини өһүргэтэр саҥарыы баар
 report-other-comment =
     .placeholder = Комментарий
 success = Бэлэм буолла
 continue = Салгыы
+report-success = Үҥсүү ситиһиилээхтик барда
 
 ## Goals
 
@@ -868,6 +871,7 @@ recorded-clips = Клип суруллубут
 validated-clips = Клип тургутуллубут
 total-approved = Бигэргэтиллибит
 overall-accuracy = Төһө чопчута
+set-visibility = Мин көстөрбүн туруоруу
 
 ## Custom Goals
 
@@ -880,12 +884,14 @@ easy-difficulty = Чэпчэкитик
 average-difficulty = Ортоку
 difficult-difficulty = Эрэйдээх
 pro-difficulty = Про
+want-to-continue = Эн салҕыаххын баҕараҕын?
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } клип
        *[other] { $count } клип
     }
 confirm-goal = Сыалы бигэргэт
+goal-interval-weekly = Нэдиэлэ аайы
 share-goal-type-speak = Саҥар
 share-goal-type-listen = Иһит
 
@@ -905,11 +911,14 @@ profile-form-delete = Профиль соттор
 ## Profile Download
 
 download-profile-title = Профиль
+download-profile-size = Аҕыйах байт
 download-recordings-title = Суруттарыы
+download-recordings-size = Үксүн хас мегабайт
 download-size = Кээмэй
 download-selected = Талыллыбыт
 download-request-button = Хачайдааһын
 download-request-title = { $created }
+download-request-refresh-button = Саҥарт
 download-request-link-text = Zip №{ $offset } / { $total }
 
 ## Landing
@@ -922,6 +931,8 @@ profile-not-required = Профиль хайаан да ирдэммэт, ол �
 ## Demo Datasets
 
 card-button-next = Салгыы
+card-button-back = Төттөрү
+demo-language-select-label = Тыллары көрүү
 demo-account = Аккаунт
 
 ## Demo Account
