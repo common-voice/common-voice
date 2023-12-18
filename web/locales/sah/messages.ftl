@@ -605,6 +605,8 @@ about-playbook-how-access-dataset = Дааннай хомуурун хайдах
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-5 = Сыаналааһын уонна билинии.
+about-playbook-how-project-governance-content-6 = Хардары-таары эппиэтинэс.
 
 ## Glossary
 
@@ -623,6 +625,7 @@ de-identified-explanation = Процесс, с помощью которого �
 ## Error pages
 
 error-title-404 = Страницаны сатаан булбатыбыт
+error-title-503 = Биһиэхэ кэтэбилэ суох тохтобул
 error-code = Алҕас { $code }
 
 ## Data
