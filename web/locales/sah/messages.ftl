@@ -350,6 +350,7 @@ shortcut-rerecord-toggle-label = Хат суруттар
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Билигин суруллубуту суох гын
 shortcut-submit = Return
+shortcut-submit-label = Клиптары ыыт
 request-language-text = Эн тылыҥ Common Voice-ка көстүбэт дуо?
 request-language-button = Тылы киллэрэргэ сайаапка
 
@@ -387,6 +388,8 @@ profile-form-custom-accent-help-text =
 profile-form-custom-accent-placeholder-2 = Аксыаҥҥын ойуулуур суругу суруйан саҕалаа
 profile-form-age =
     .label = Сааһа
+profile-form-gender-2 =
+    .label = Пол
 leaderboard-visibility =
     .label = Лидердар таблицаларыгар көстөрө
 hidden = Көстүбэт
