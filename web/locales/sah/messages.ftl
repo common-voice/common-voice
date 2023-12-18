@@ -577,9 +577,12 @@ about-playbook-how-add-language-collecting-sentences-heading = Этиилэри 
 ## How does localization work
 
 about-playbook-how-localize = Сайт локализацията хайдах үлэлиирий?
+about-playbook-how-localize-content-1 = Common Voice сайт тылбаастааһына <strong>Pontoon</strong> нөҥүө үлэлиир.
+about-playbook-how-localize-content-4 = Тылбаас 75% буоллаҕына сайт үлэлииригэр бэлэм буолар.
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Мин этиини хайдах киллэрихпин син?
 
 ## How to record quality
 
@@ -699,6 +702,8 @@ more = Салгыы
 close = Сап
 download = Хачайдааһын
 dataset-version = Версия
+sha256-checksum-copied = SHA256 хонтуруоллуур сууммата ылылынна!
+sha256-checksum-copied-error = SHA256 хонтуруоллуур сууммата сатаан ылыллыбата
 
 ## Download Modal
 
@@ -733,6 +738,9 @@ other-language = Атын тыллар
 
 request-language-form-email =
     .label = Электроннай почта аадырыскыт
+request-language-form-info =
+    .label = Тыл туһунан иһитиннэрии
+request-language-form-info-explanation-list-1 = Эһиги тылгыт аата
 
 ## Languages Overview
 
@@ -801,14 +809,22 @@ listen-instruction = <playIcon></playIcon>{ $actionType } этии сөпкө ч
 listen-again-instruction = Туйгун үлэ! <playIcon></playIcon> Өссө истиҥ, бэлэм буоллаххытына
 listen-3rd-time-instruction = 2 бэлэм, салҕыы тур!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Бүтэһик!
+listen-abort-title = Тургутууну тохтотоҕут?
+listen-abort-cancel = Ситэри тургутуу
 record-button-label = Саҥаҕын суруттар
 share-title-new = Саҥарар дьону буларга <bold>көмөлөс дуу</bold>
+target-segment-add-voice = Бэйэҥ куоласкын киллэр
+target-segment-learn-more = Сиһилии
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Куолас хомуурунньуга
+contribute-sentence-collection-nav-header = Этии хомуурунньуга
 
 ## Reporting
 
+report = Үҥсүү
+report-title = Үҥсүүнү ыытыы
 report-different-language = Атын тыл
 report-other-comment =
     .placeholder = Комментарий
