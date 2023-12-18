@@ -944,6 +944,7 @@ sc-logout-button = Тахсыы
 
 ## HOW-TO
 
+sc-howto-findpd-title = Киһи-аймах бас билиитигэр баар этиилэри көрдөөһүн
 
 ## MY SENTENCES
 
@@ -961,6 +962,7 @@ sc-stats-title = Статистика
 
 ## ADD
 
+sc-submit-err-confirm-pd = Бу этиилэр киһи-аймах бас билиитэ буолалар диэн бигэргэт.
 sc-submit-select-language =
     .labelText = Тылы тал
 sc-submit-button =
