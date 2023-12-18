@@ -753,7 +753,7 @@ action-tap = Таарый
 contribute = Кытын
 listen = Иһит
 write = Суруйуу
-review = Тургут
+review = Тургутуу
 skip = Көтүт
 shortcuts = Сочетаниялар
 clips-with-count-pluralized =
@@ -1020,10 +1020,14 @@ sc-personal-remove-button = соттор
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Тургутуу критерийа
+sc-criteria-title = Тургутуу критерийа
 
 ## REVIEW
 
 sc-review-title = Этиилэри тургутуу
+sc-review-loading = Этиилэри хачайдааһын...
+sc-review-select-language = Баһаалыста, ханнык тылынан этиилэри тургутаргытын талыҥ.
 sc-review-form-button-skip = Көтүт
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
@@ -1033,6 +1037,13 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = Тургутууну түмүктээ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Биир да этии тургутуллубата.
+       *[other] { $sentences } этии тургутулунна. Махтал!
+    }
 sc-review-link = Тургут
 
 ## SETTINGS
@@ -1043,6 +1054,7 @@ sc-settings-title = Туруоруулар
 
 sentence-collection = Этии хомуурунньуктара
 public-domain = Киһи-аймах бас билиитэ
+reviewing-sentences = Этиилэри көрүү
 # WRITE PAGE
 write-instruction = Киһи-аймах бас билиитэ этиини <icon></icon> киллэриҥ
 sentence-input-value = Киһи-аймах бас билиитэ этиигитин манна суруйуҥ
@@ -1053,6 +1065,7 @@ bulk-sentence-submission = Элбэх этиини киллэрии
 
 ## REVIEW PAGE
 
+report-sc-different-language = Атын тыл
 sc-redirect-page-subtitle-1 = Этиини хамыйыы Common Voice сүрүн платформатыгар көстө. Эһиги билигин Common Voice-ка этиини <writeURL>суруйуоххутун</writeURL> эбэтэр <reviewURL>тургутуоххутун</reviewURL> сөп.
 
 ## BULK SUBMISSION 
