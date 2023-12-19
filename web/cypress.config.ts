@@ -11,14 +11,6 @@ export default defineConfig({
           launchOptions.preferences[
             'network.proxy.testing_localhost_is_secure_when_hijacked'
           ] = true
-
-          launchOptions.preferences['permissions.default.microphone'] = 1
-          // allowing this for the purpose of running tests
-          launchOptions.preferences['media.devices.insecure.enabled'] = true
-          launchOptions.preferences['media.getusermedia.insecure.enabled'] =
-            true
-          launchOptions.preferences['media.getusermedia.audiocapture.enabled'] =
-            true
         }
 
         return launchOptions
