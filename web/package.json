@@ -101,7 +101,7 @@
     "build": "webpack --mode=production",
     "build:audit": "AUDIT=true webpack --mode=production",
     "cypress:open": "cypress open",
-    "cy:run": "cypress run --browser chrome",
+    "cy:run": "cypress run",
     "dev": "webpack --mode=development --watch",
     "lint": "yarn lint:js && yarn lint:css",
     "lint:js": "eslint .",
