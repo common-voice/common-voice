@@ -23,10 +23,11 @@ const streamUpload =
       () =>
         new Promise<void>((resolve, reject) => {
           const file = storage.bucket(bucket).file(path)
+          console.log(`Uploading ${path} to ${bucket}`)
           data
             .pipe(file.createWriteStream())
             .on('finish', () => {
-              console.log(`Successfully uploaded ${path}`)
+              console.log(`Successfully uploaded ${path} to ${bucket}`)
               resolve()
             })
             .on('error', (err: Error) => {

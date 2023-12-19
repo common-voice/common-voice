@@ -44,6 +44,7 @@ be = Hviterussisk
 bg = Bulgarsk
 bm = Bambara
 bn = Bengalsk
+bo = Tibetansk
 br = Bretonsk
 bs = Bosnisk
 bxr = Burjatisk
@@ -68,6 +69,7 @@ eo = Esperanto
 es = Spansk
 et = Estisk
 eu = Baskisk
+ewo = Ewondo
 fa = Persisk
 ff = Fulfulde
 fi = Finsk
@@ -78,6 +80,7 @@ ga-IE = Irsk
 gl = Galisisk
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebraisk
 hi = Hindi
@@ -97,6 +100,7 @@ it = Italiensk
 izh = Ingrisk
 ja = Japansk
 jbo = Lojban
+jv = Javanesisk
 ka = Georgisk
 kaa = Karakalpak
 kab = Kabylsk
@@ -117,6 +121,7 @@ lij = Ligurisk
 ln = Lingala
 lo = Laotisk
 lt = Litauisk
+ltg = Lettgallisk
 lv = Latvisk
 mai = Maithili
 mdf = Moksja
@@ -147,6 +152,7 @@ nyn = Runyankole
 oc = Oksitansk
 om = Oromo
 or = Oriya
+os = Ossetisk
 pa-IN = Panjabi
 pap-AW = Papiamento (Aruba)
 pl = Polsk
@@ -240,6 +246,7 @@ share-text = Hjelp til med å lære maskiner hvordan virkelige folk snakker, bid
 link-copied = Lenke kopiert
 back-top = Tilbake til toppen
 logout = Logg av
+donate = Donere
 
 ## Home Page
 
@@ -513,6 +520,7 @@ how-does-it-work-text = Vi masseinnsamler et åpent datasett av stemmer. Bidra m
 
 about-language-req-subtitle = Noen ber om å legge til et språk.
 about-localization-title = Oversettelse av nettsted
+about-localization-subtitle = Teksten på nettsiden er oversatt til det språket.
 about-sentence-collection-title = Setningsinnsamling
 about-sentence-collection-subtitle = Det samles inn setninger slik at folk kan lese høyt.
 about-new-lang-title = Lansering av nytt språk
@@ -549,6 +557,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Hvordan holder jeg kontakten?
 about-stay-in-touch-button = Registrer deg
 about-stay-in-touch-text-1 = <emailFragment>Registrer deg</emailFragment> på e-postlisten vår for å lære hvordan du kan delta i begivenheter, arrangementer og samarbeidsdesignfunksjoner på Common Voice.
+about-stay-in-touch-text-2 = Du kan møte andre i Mozilla-språkmiljøene ved å bli med i <discourseLink>Discourse</discourseLink> for aktuelle samtaler, eller <matrixLink>Matrix</matrixLink> for raske råd.
 about-nav-why-common-voice = Hvorfor?
 about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
@@ -1109,4 +1118,11 @@ see-less = <chevron></chevron>Se mindre
 
 
 # [/SentenceCollector]
+
+sentence-collection = Setningsinnsamling
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
 

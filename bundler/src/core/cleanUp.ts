@@ -2,10 +2,10 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
-import { pipe } from 'fp-ts/lib/function'
+import { constVoid, pipe } from 'fp-ts/lib/function'
 
 import { AppEnv } from '../types'
-import { getTmpDir } from '../config/config'
+import { getEnvironment, getTmpDir } from '../config/config'
 import { generateTarFilename } from './compress'
 
 export const cleanUp = (
@@ -25,10 +25,6 @@ export const cleanUp = (
           recursive: true,
           force: true,
         })
-        await fs.rm(
-          path.join(getTmpDir(), generateTarFilename(locale, prevReleaseName)),
-          { force: true },
-        )
       }
     },
     (err: unknown) => Error(String(err)),
@@ -38,10 +34,14 @@ export const cleanUp = (
 export const runCleanUp = (
   tarFilepath: string,
 ): RTE.ReaderTaskEither<AppEnv, Error, void> => {
-  return pipe(
-    RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale, releaseDirPath, previousReleaseName }) =>
-      cleanUp(locale, releaseDirPath, tarFilepath, previousReleaseName),
-    ),
-  )
+  const isLocal = getEnvironment() === 'local'
+  return isLocal
+    ? RTE.right(constVoid())
+    : pipe(
+        RTE.ask<AppEnv>(),
+        RTE.chainTaskEitherK(
+          ({ locale, releaseDirPath, previousReleaseName }) =>
+            cleanUp(locale, releaseDirPath, tarFilepath, previousReleaseName),
+        ),
+      )
 }

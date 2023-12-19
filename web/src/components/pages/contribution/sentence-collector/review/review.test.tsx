@@ -81,9 +81,12 @@ describe('Review page', () => {
       }))
 
     renderWithProviders(<Review />)
+    const activeReviewCard = screen.getByTestId('active-review-card')
     const reviewCards = screen.getAllByTestId('review-card')
 
-    expect(reviewCards.length).toEqual(mockPendingSentences.length)
+    expect(activeReviewCard).toBeTruthy()
+    // because the other card is the active one
+    expect(reviewCards.length).toEqual(mockPendingSentences.length - 1)
     spy.mockRestore()
   })
 

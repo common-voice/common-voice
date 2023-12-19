@@ -1,16 +1,26 @@
 import fs from 'node:fs'
+import { pipeline } from 'node:stream/promises'
 import path from 'node:path'
 import { Transform } from 'node:stream'
+import zlib from 'node:zlib'
 
 import tar from 'tar'
-import { readerTaskEither as RTE, task as T, taskEither as TE } from 'fp-ts'
+import {
+  either as E,
+  io as IO,
+  readerTaskEither as RTE,
+  task as T,
+  taskEither as TE,
+} from 'fp-ts'
 import { constVoid, pipe } from 'fp-ts/lib/function'
 import { stringify } from 'csv-stringify'
 import { parse } from 'csv-parse'
+import { parse as parseSync } from 'csv-parse/sync'
 
 import { streamingQuery } from '../infrastructure/database'
 import {
   doesFileExistInBucket,
+  downloadFileFromBucket,
   streamDownloadFileFromBucket,
 } from '../infrastructure/storage'
 import { AppEnv, ClipRow } from '../types'
@@ -21,8 +31,9 @@ import {
   getQueriesDir,
   getTmpDir,
 } from '../config/config'
-import { prepareDir } from '../infrastructure/filesystem'
+import { prepareDir, rmFilepath } from '../infrastructure/filesystem'
 import { generateTarFilename } from './compress'
+import { extractTar } from '../infrastructure/tar'
 
 const CLIPS_BUCKET = getClipsBucketName()
 
@@ -44,7 +55,10 @@ export const TSV_COLUMNS = [
 export type CLIPS_TSV_ROW = {
   [K in (typeof TSV_COLUMNS)[number]]: string
 }
-
+const logError = (err: unknown) => {
+  console.log(err)
+  return Error(String(err))
+}
 const getTmpClipsPath = (locale: string) =>
   path.join(getTmpDir(), `${locale}_clips.tsv`)
 
@@ -89,9 +103,7 @@ const transformClips = (isMinorityLanguage: boolean) =>
         age: isMinorityLanguage ? '' : chunk.age,
       }
 
-      this.push(clipRowToTsvEntry(updatedClipRow), 'utf-8')
-
-      callback()
+      callback(null, clipRowToTsvEntry(updatedClipRow))
     },
     objectMode: true,
   })
@@ -105,75 +117,53 @@ const transformClips = (isMinorityLanguage: boolean) =>
  *
  * The stream is in object mode.
  */
-const downloadClips = (releaseDirPath: string) =>
-  new Transform({
+const downloadClips = (releaseDirPath: string) => {
+  return new Transform({
     transform(chunk: ClipRow, encoding, callback) {
       const clipFilename = createClipFilename(chunk.locale, chunk.id)
       const writeStream = fs.createWriteStream(
         path.join(releaseDirPath, chunk.locale, 'clips', clipFilename),
       )
-
       streamDownloadFileFromBucket(CLIPS_BUCKET)(chunk.path)
         .pipe(writeStream)
         .on('finish', () => {
-          this.push(chunk, encoding)
-          callback()
+          callback(null, chunk)
         })
     },
     objectMode: true,
   })
+}
 
-const checkClipForExistence = (releaseDirPath: string) =>
-  new Transform({
+const checkClipForExistence = (releaseDirPath: string) => {
+  return new Transform({
     transform(chunk: ClipRow, encoding, callback) {
-      pipe(
-        doesFileExistInBucket(CLIPS_BUCKET)(chunk.path),
-        TE.getOrElse(() => T.of(false)),
-      )().then(doesExist => {
-        if (doesExist) {
-          this.push(chunk, encoding)
-        } else {
-          console.log(`Skipping file ${chunk.path}`)
-        }
+      const clipFilename = createClipFilename(chunk.locale, chunk.id)
+      if (
+        fs.existsSync(
+          path.join(releaseDirPath, chunk.locale, 'clips', clipFilename),
+        )
+      ) {
         callback()
-      })
+      } else {
+        pipe(
+          doesFileExistInBucket(CLIPS_BUCKET)(chunk.path),
+          TE.getOrElse(() => T.of(false)),
+        )().then(doesExist => {
+          if (doesExist) {
+            callback(null, chunk)
+          } else {
+            console.log(`Skipping file ${chunk.path}`)
+            callback()
+          }
+        })
+      }
     },
     objectMode: true,
   })
+}
 
 const getPreviousReleaseClipDir = (locale: string, prevReleaseName: string) =>
   path.join(getTmpDir(), prevReleaseName, locale, 'clips')
-
-const copyExistingClips = (releaseDirPath: string, prevReleaseName?: string) =>
-  new Transform({
-    transform(chunk: ClipRow, encoding, callback) {
-      if (!prevReleaseName) {
-        this.push(chunk, encoding)
-      } else {
-        const filename = createClipFilename(chunk.locale, chunk.id)
-        const prevReleaseClipPath = path.join(
-          getPreviousReleaseClipDir(chunk.locale, prevReleaseName),
-          filename,
-        )
-        const currentReleaseClipPath = path.join(
-          releaseDirPath,
-          chunk.locale,
-          'clips',
-          filename,
-        )
-        const clipExists = fs.existsSync(prevReleaseClipPath)
-
-        if (clipExists) {
-          fs.copyFileSync(prevReleaseClipPath, currentReleaseClipPath)
-          fs.rmSync(prevReleaseClipPath)
-        } else {
-          this.push(chunk, encoding)
-        }
-      }
-      callback()
-    },
-    objectMode: true,
-  })
 
 const filterMissingClips = (releaseDirPath: string) =>
   new Transform({
@@ -188,10 +178,10 @@ const filterMissingClips = (releaseDirPath: string) =>
       const clipExists = fs.existsSync(currentReleaseClipPath)
 
       if (clipExists) {
-        this.push(chunk, encoding)
+        callback(null, chunk)
+      } else {
+        callback()
       }
-
-      callback()
     },
     objectMode: true,
   })
@@ -202,60 +192,136 @@ const streamQueryResultToFile = (
   includeClipsUntil: string,
   locale: string,
 ) =>
-  TE.tryCatch(
-    () =>
-      new Promise<void>((resolve, reject) => {
-        const { conn, stream } = streamingQuery(
-          fs.readFileSync(path.join(getQueriesDir(), 'bundleLocale.sql'), {
-            encoding: 'utf-8',
-          }),
-          [includeClipsFrom, includeClipsUntil, locale],
-        )
-        console.log('Start Stream Processing')
-
-        const writeStream = fs.createWriteStream(clipsTmpPath)
-
-        stream
-          .pipe(stringify({ header: true, delimiter: '\t' }))
-          .pipe(writeStream)
-          .on('finish', () => {
-            console.log(
-              `Query result for ${locale} finished streaming. Closing connection.`,
-            )
-            conn.end()
-            resolve()
-          })
-          .on('error', (err: unknown) => reject(err))
+  TE.tryCatch(async () => {
+    const { conn, stream } = streamingQuery(
+      fs.readFileSync(path.join(getQueriesDir(), 'bundleLocale.sql'), {
+        encoding: 'utf-8',
       }),
-    (reason: unknown) => Error(String(reason)),
-  )
+      [includeClipsFrom, includeClipsUntil, locale],
+    )
+
+    const writeStream = fs.createWriteStream(clipsTmpPath)
+
+    console.log('Start streaming query result')
+
+    await pipeline(
+      stream,
+      stringify({ header: true, delimiter: '\t' }),
+      writeStream,
+    )
+
+    console.log(
+      `Query result for ${locale} finished streaming. Closing DB connection.`,
+    )
+    const endConnection = () =>
+      new Promise<void>((resolve, reject) => {
+        conn.end(err => {
+          if (err) reject(err)
+          resolve()
+        })
+      })
+
+    await endConnection()
+  }, logError)
+
+const copyExistingClipsFromPrevRelease = (
+  tmpClipsFilepath: string,
+  releaseDirPath: string,
+  previousReleaseName: string,
+) =>
+  TE.tryCatch(async () => {
+    const clips: ClipRow[] = []
+    const parser = parse({
+      columns: true,
+      delimiter: '\t',
+    })
+
+    parser.on('data', (chunk: ClipRow) => {
+      clips.push(chunk)
+    })
+
+    await pipeline(fs.createReadStream(tmpClipsFilepath), parser)
+
+    console.log(
+      `Copying clips from previous release ${previousReleaseName} ...`,
+    )
+
+    for (const clip of clips) {
+      const filename = createClipFilename(clip.locale, clip.id)
+      const prevReleaseClipPath = path.join(
+        getPreviousReleaseClipDir(clip.locale, previousReleaseName),
+        filename,
+      )
+
+      const currentReleaseClipPath = path.join(
+        releaseDirPath,
+        clip.locale,
+        'clips',
+        filename,
+      )
+
+      const clipExists = fs.existsSync(prevReleaseClipPath)
+
+      if (clipExists) {
+        fs.copyFileSync(prevReleaseClipPath, currentReleaseClipPath)
+        fs.unlinkSync(prevReleaseClipPath)
+      }
+    }
+
+    console.log('Finished copying existing clips from previous release')
+  }, logError)
 
 const fetchAllClipsForLocale = (
   tmpClipsFilepath: string,
   locale: string,
   releaseDirPath: string,
-  previousReleaseName?: string,
-): TE.TaskEither<Error, void> => {
-  console.log('Fetching clips for locale', locale)
+): TE.TaskEither<Error, void> =>
+  TE.tryCatch(async () => {
+    console.log('Fetching clips for locale', locale)
 
-  return TE.tryCatch(
-    () =>
-      new Promise<void>((resolve, reject) => {
-        const readStream = fs.createReadStream(tmpClipsFilepath)
+    const clips: ClipRow[] = []
+    const parser = parse({
+      columns: true,
+      delimiter: '\t',
+    })
 
-        readStream
-          .pipe(parse({ delimiter: '\t', columns: true }))
-          .pipe(copyExistingClips(releaseDirPath, previousReleaseName))
-          .pipe(checkClipForExistence(releaseDirPath))
-          .pipe(downloadClips(releaseDirPath))
-          .on('finish', () => {
-            resolve()
-          })
-          .on('error', (err: unknown) => reject(err))
-      }),
-    (reason: unknown) => Error(String(reason)),
-  )
-}
+    parser.on('data', (chunk: ClipRow) => {
+      clips.push(chunk)
+    })
+
+    await pipeline(fs.createReadStream(tmpClipsFilepath), parser)
+
+    for (const clip of clips) {
+      const clipFilename = createClipFilename(clip.locale, clip.id)
+      const clipFilepath = path.join(
+        releaseDirPath,
+        clip.locale,
+        'clips',
+        clipFilename,
+      )
+
+      if (fs.existsSync(clipFilepath)) {
+        continue
+      }
+
+      const existsInBucket = await pipe(
+        doesFileExistInBucket(CLIPS_BUCKET)(clip.path),
+        TE.getOrElse(() => T.of(false)),
+      )()
+
+      if (existsInBucket) {
+        const buffer = await downloadFileFromBucket(CLIPS_BUCKET)(clip.path)()
+
+        if (E.isRight(buffer)) {
+          fs.writeFileSync(clipFilepath, buffer.right)
+        } else {
+          Promise.reject(buffer.left)
+        }
+      }
+    }
+
+    console.log('Finished downloading clips for locale', locale)
+  }, logError)
 
 const createClipsTsv = (
   tmpClipsFilepath: string,
@@ -263,25 +329,18 @@ const createClipsTsv = (
   isMinorityLanguage: boolean,
   releaseDirPath: string,
 ): TE.TaskEither<Error, void> => {
-  console.log('Fetching clips for locale', locale)
+  console.log('Creating clips.tsv for', locale)
 
-  return TE.tryCatch(
-    () =>
-      new Promise<void>((resolve, reject) => {
-        const readStream = fs.createReadStream(tmpClipsFilepath)
-
-        readStream
-          .pipe(parse({ delimiter: '\t', columns: true }))
-          .pipe(filterMissingClips(releaseDirPath))
-          .pipe(transformClips(isMinorityLanguage))
-          .pipe(writeFileStreamToTsv(locale, releaseDirPath))
-          .on('finish', () => {
-            resolve()
-          })
-          .on('error', (err: unknown) => reject(err))
-      }),
-    (reason: unknown) => Error(String(reason)),
-  )
+  return TE.tryCatch(async () => {
+    const readStream = fs.createReadStream(tmpClipsFilepath)
+    await pipeline(
+      readStream,
+      parse({ delimiter: '\t', columns: true }),
+      filterMissingClips(releaseDirPath),
+      transformClips(isMinorityLanguage),
+      writeFileStreamToTsv(locale, releaseDirPath),
+    )
+  }, logError)
 }
 
 const downloadPreviousRelease = (locale: string, prevReleaseName?: string) => {
@@ -290,21 +349,16 @@ const downloadPreviousRelease = (locale: string, prevReleaseName?: string) => {
   const tarFilename = generateTarFilename(locale, prevReleaseName)
   const storagePath = `${prevReleaseName}/${tarFilename}`
 
-  const downloadRelease = TE.tryCatch(
-    () => {
-      console.log('Downloading release', storagePath)
-      const writeStream = fs.createWriteStream(
-        path.join(getTmpDir(), tarFilename),
-      )
-      return new Promise<void>((resolve, reject) => {
-        streamDownloadFileFromBucket(getDatasetBundlerBucketName())(storagePath)
-          .pipe(writeStream)
-          .on('finish', () => resolve())
-          .on('error', (err: unknown) => reject(err))
-      })
-    },
-    (reason: unknown) => Error(String(reason)),
-  )
+  const downloadRelease = TE.tryCatch(async () => {
+    console.log('Downloading release', storagePath)
+    const writeStream = fs.createWriteStream(
+      path.join(getTmpDir(), tarFilename),
+    )
+    await pipeline(
+      streamDownloadFileFromBucket(getDatasetBundlerBucketName())(storagePath),
+      writeStream,
+    )
+  }, logError)
 
   return pipe(
     TE.Do,
@@ -320,10 +374,8 @@ const downloadPreviousRelease = (locale: string, prevReleaseName?: string) => {
 
 const extractClipsFromPreviousRelease = (
   locale: string,
-  prevReleaseName?: string,
+  prevReleaseName: string,
 ) => {
-  if (!prevReleaseName) return TE.right(constVoid())
-
   const filename = generateTarFilename(locale, prevReleaseName)
   const filepath = path.join(getTmpDir(), filename)
 
@@ -332,21 +384,9 @@ const extractClipsFromPreviousRelease = (
     return TE.right(constVoid())
   }
 
-  console.log('Extracting', filepath)
-
-  return TE.tryCatch(
-    () =>
-      tar.x(
-        {
-          cwd: getTmpDir(),
-          f: filepath,
-        },
-        [`${prevReleaseName}/${locale}/clips`],
-      ),
-    (err: unknown) => {
-      console.log(err)
-      return Error(String(err))
-    },
+  return pipe(
+    extractTar(filepath),
+    TE.chain(() => TE.fromIO(rmFilepath(filepath))),
   )
 }
 
@@ -365,7 +405,9 @@ export const fetchAllClipsPipeline = (
     TE.let('clipsTmpPath', () => getTmpClipsPath(locale)),
     TE.chainFirst(() => downloadPreviousRelease(locale, previousReleaseName)),
     TE.chainFirst(() =>
-      extractClipsFromPreviousRelease(locale, previousReleaseName),
+      previousReleaseName
+        ? extractClipsFromPreviousRelease(locale, previousReleaseName)
+        : TE.right(constVoid()),
     ),
     TE.chainFirst(({ clipsTmpPath }) =>
       streamQueryResultToFile(
@@ -377,16 +419,24 @@ export const fetchAllClipsPipeline = (
     ),
     TE.chainFirst(() => TE.fromIO(prepareDir(clipsDirPath))),
     TE.chainFirst(({ clipsTmpPath }) =>
-      fetchAllClipsForLocale(
-        clipsTmpPath,
-        locale,
-        releaseDirPath,
-        previousReleaseName,
-      ),
+      previousReleaseName
+        ? copyExistingClipsFromPrevRelease(
+            clipsTmpPath,
+            releaseDirPath,
+            previousReleaseName,
+          )
+        : TE.right(constVoid()),
+    ),
+    TE.chainFirst(({ clipsTmpPath }) =>
+      fetchAllClipsForLocale(clipsTmpPath, locale, releaseDirPath),
     ),
     TE.chainFirst(({ clipsTmpPath }) =>
       createClipsTsv(clipsTmpPath, locale, isMinorityLanguage, releaseDirPath),
     ),
+    TE.mapLeft(e => {
+      console.log(e)
+      return e
+    }),
     TE.as(constVoid()),
   )
 }

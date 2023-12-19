@@ -11,6 +11,7 @@ export const createWorker: IO.IO<void> = () => {
     async job => {
       switch (job.name) {
         case 'init': {
+          console.log('Initializing dataset release...')
           return pipe(
             job.data,
             addProcessLocaleJobs,

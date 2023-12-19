@@ -1107,8 +1107,14 @@ contribution-misreadings-example-1-title = An dinosaored ramzel eus an Triaseg.
 contribution-misreadings-example-2-title = An dinosaor ramzel eus an Triaseg.
 contribution-misreadings-example-3-title = An dinosaored ramzel eus an Trias-.
 contribution-misreadings-example-4-title = An dinosaored ramzel eus an Triaseg. Ya.
+contribution-misreadings-example-5-title = Mont a reomp er-maez da bakañ ur banne kafe.
+contribution-misreadings-example-6-title = Mont ’reomp er-maez da bakañ ur banne kafe.
 contribution-misreadings-example-6-explanation = [Rankout a rafe bezañ “Ni ’zo”]
 contribution-misreadings-example-7-title = Mont a reomp er-maez da bakañ ur banne kafe.
+contribution-misreadings-example-7-explanation = [N‘eus ‘a’ ebet en destenn orin]
+contribution-background-noise-title = Trouz foñs
+contribution-background-noise-example-2-explanation = [N’hall ket bezañ klevet ul lodenn eus an destenn]
+contribution-background-voices-title = Mouezhioù er foñs
 contribution-volume-title = Live-son
 contribution-reader-effects-title = Efedoù al lenner
 contribution-just-unsure-title = Etre daou soñj?
@@ -1213,6 +1219,12 @@ sc-personal-remove-button = dilemel
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Kriterioù ar gwiriañ
+sc-criteria-title = Kriterioù ar gwiriañ
+sc-criteria-make-sure = Bezit sur e klot ar frazenn gant ar c'hriterioù da-heul:
+sc-criteria-item-1 = Ar frazenn a rank bezañ distaget en un doare reizh.
+sc-criteria-item-2 = Ar frazenn a rank bezañ reizh a-fet yezhadur.
+sc-criteria-item-3 = Ar frazenn a rank bezañ aes da zistagañ.
 
 ## REVIEW
 
@@ -1256,10 +1268,15 @@ guidelines-header = Sturiadurioù ar c'hemer-perzh
 voice-collection = Dastumad mouezhioù
 sentence-collection = Dastumadeg frazennoù
 misreadings = Fazioù lenn
+background-voices = Mouezhioù er foñs
 volume = Live-son
+reader-effects = Efedoù al lenner
 just-unsure = Etre daou soñj?
 example = Skouer
+misreadings-tip-1 = [Rankout a rafe bezañ “Ni ’zo”]
+misreadings-tip-2 = [N‘eus ‘a’ ebet en destenn orin]
 background-noise-example-1 = An dinosaored ramzel eus an Triaseg.
+background-voices-tip-1 = Dont a rez? [galvet gant ur vouezh all]
 still-have-questions = Goulennoù ho peus c’hoazh?
 contact-common-voice = Mont e darempred gant skipailh Common Voice
 public-domain = Domani Foran
@@ -1268,14 +1285,18 @@ reviewing-sentences = Gwiriañ Frazennoù
 citing-sentences-subheader-websites = Lec'hiennoù
 citing-sentences-subheader-offline-sources = Mammennoù ezlinenn
 adding-sentences-subheader-length = Hirded
+adding-sentences-subheader-speakable = Aes da zistagañ
 adding-sentences-subheader-numbers = Niverennoù
 adding-sentences-subheader-punctuation = Poentadur
 sentence =
     .label = Frazenn
 citation-input-value = Mammenn ho frazenn
 new-sentence-rule-2 = Nebeutoc’h eget 15 ger
+guidelines = Sturiadurioù
 contact-us = Mont e darempred
 add-sentence-success = 1 frazenn bet dastumet
+add-sentence-error = Fazi en ur ouzhpennañ frazennoù
+required-field = Leugnit ar maez-mañ, mar plij.
 
 ## REVIEW PAGE
 
@@ -1283,3 +1304,13 @@ report-sc-different-language = Yezh disheñvel
 
 ## BULK SUBMISSION 
 
+try-upload-again-md = Klaskit pellgas adarre
+select-file = Diuzañ ar restr
+select-file-mobile = Diuzit ar restr da bellgas
+accepted-files = Doare restr degemeret: .tsv hepken
+upload-progress-text = O pellgas...
+upload-more-btn-text = Pellgas muioc'h a frazennoù?
+file-invalid-type = Restr direizh
+file-too-large = Re vras eo ar restr
+file-too-small = Re vihan eo ar restr
+too-many-files = Re a restroù a zo
