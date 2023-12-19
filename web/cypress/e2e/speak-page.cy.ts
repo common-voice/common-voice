@@ -50,7 +50,7 @@ describe('The Speak Page', () => {
 
   // This test fails on Firefox because it does not allow mic access for e2e tests
   // Also we need the retries because the authentication flow with auth0 is flaky
-  it('submits (authenticated user)', { retries: { runMode: 2 } }, () => {
+  it('submits (authenticated user)', { retries: { runMode: 3 } }, () => {
     const testUserEmail = Cypress.env('test_user_email')
     const testUserPassword = Cypress.env('test_user_password')
 

@@ -27,4 +27,7 @@ Cypress.Commands.add('login', (email: string, password: string) => {
   )
 
   cy.get('[data-testid=user-menu]').should('exist')
+
+  // Ensure we can see the name of the test account
+  cy.contains('Mozilla-E2E')
 })
