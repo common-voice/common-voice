@@ -759,6 +759,7 @@ number-of-voices = اوازوں دی تعداد
 splits = ٹکڑے
 email-to-download = ڈاؤن لوڈ کرݨ کیتے ای میل درج کرو
 why-email = <b>ہک ای میل کیوں؟</b> ڈیٹا سیٹ وچ تبدیلیاں بارے ساکوں مستقبل وچ تہاݙے نال رابطہ کرݨ دی لوڑ پئے سڳدی ہے، ہک ای میل ساکوں رابطے دا ہک موقع ݙیندے۔
+why-donate = تساں کیوں پچھدے پئے ہو؟
 confirm-size = تساں <b>{ $size }</b>  کوں ڈاؤن لوڈ شروع کرݨ کیتے  تیار ہو
 size-gigabyte = جی بی
 size-megabyte = ایم بی
@@ -949,6 +950,7 @@ listen-empty-state = ایں زبان وچ تصدیق کرݨ کیتے ساݙے ک
 listen-loading-error =
     اساں تہاݙے سُݨݨ کیتے کوئی آڈیو کلپ کائنی گھن سڳے۔
     سوہݨا، ولدا بعد وچ کوشش کرو۔
+listen-abort-cancel = تصدیق کرݨ جاری رکھو
 speak-empty-state = ایں زبان وچ رکاڈ کرݨ کیتے ساݙے کول جملے مُک ڳئے ہن۔۔۔
 speak-empty-state-cta = فقرے پاؤ
 speak-loading-error =

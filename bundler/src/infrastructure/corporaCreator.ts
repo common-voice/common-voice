@@ -44,7 +44,7 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
   new Promise<void>((resolve, reject) => {
     const cc = spawn('create-corpora', [
       '-d',
-      path.join(releaseDirPath),
+      releaseDirPath,
       '-f',
       path.join(releaseDirPath, locale, 'clips.tsv'),
     ])

@@ -6,10 +6,11 @@ RUN apt-get update && \
 
 RUN groupmod -g 10001 node && usermod -u 10001 -g 10001 node
 
+RUN mkdir /cache && chmod 777 /cache
+
 USER node
 
 RUN mkdir -p /home/node/code && \
-    mkdir -p /home/node/tmp && \
     cd /home/node && \
     curl https://sh.rustup.rs -sSf | sh -s -- -y && \
     git clone --depth 1 -b release-v1.0.1 https://github.com/common-voice/CorporaCreator.git && \

@@ -42,7 +42,7 @@ const fetchReportedSentencesForLocale =
   (includeClipsFrom: string) =>
   (includeClipsUntil: string) =>
   (releaseDirPath: string): TE.TaskEither<Error, void> => {
-    console.log('Fetching clips for locale', locale)
+    console.log('Fetching reported sentences for locale', locale)
 
     return TE.tryCatch(
       () =>
@@ -59,8 +59,10 @@ const fetchReportedSentencesForLocale =
             .pipe(transformSentences())
             .pipe(writeFileStreamToTsv(locale, releaseDirPath))
             .on('finish', () => {
-              conn.end()
-              resolve()
+              conn.end(err => {
+                if (err) reject(err)
+                resolve()
+              })
             })
             .on('error', (err: unknown) => reject(err))
         }),

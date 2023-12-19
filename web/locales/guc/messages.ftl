@@ -231,14 +231,28 @@ zza = Zaza
 
 speak = Aashajawaa
 speak-now = Paashajaa müinma yaa
+datasets = Anaajaalaa kachikimaajatü
 languages = Anüikiirua
+about = Süchikuu Common Voice
+partner = Partner
 profile = Ka’yataayakuwa’ipakalü
 help = Akaaliijiaa
 contact = E’raajalaa
+privacy = Akalaamainjia
+terms = Sukuwa'ipamaajatü
+cookies = Püchikanain
 faq = Asakiriaa pejeewakalü ma’in
+content-license-text = Püchajaaka achiki eesü sulu'u <licenseLink>Aapuushikii Creative Commons</licenseLink>
+share-title = ¡Pükaajijaa waya shii'iree kojuyainjanain na wayuu aapaweeka sünüiki!
+share-text = Pükaalijaa waya sünain wekirajaain na kachuweerakalüirua süpüla nayaawatüinjatüin wanüiki, paapaa pünüiki sulu'upünaa { $link }
+link-copied = Ashatünüsü shiyaawase
+back-top = Ouyantaa eere su'ttuin
+logout = Asürülaa a'yatawaa
+donate = Asülajaa
 
 ## Home Page
 
+home-title = Tü aa'innaka sümaa Common Voice shi'ipajatü saa'inraaka Mozilla süpüla ekirajaanüin na kachuweerakalüirua süpüla nayaawatüinjatüin sünüiki tü wayuukalüirua.
 show-wall-of-text = Aashaje’eraa ako’omüinjiaa
 vote-yes = aa
 vote-no = nnojo

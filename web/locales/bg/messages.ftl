@@ -612,7 +612,7 @@ glossary = Речник на термините
 localization = Локализация
 localization-explanation = Това е нашия процес на превод и адаптиране на нашето съдържание за много езици.
 sentence-collection = Списък с изречения
-sentence-collection-explanation = Събиране на публично достъпни изречения или писане на нови.
+sentence-collection-explanation = Събиране на  изречения с обществено достояние или писане на нови.
 hours-recorded-explanation = Часове гласови записи събрани до сега.
 hours-validated-explanation = Броят на часовете гласови записи, одобрени от двама от общо трима потребители с глас „ДА“. Те определят напредъка към целта на проекта от 10 000 часа.
 sst = Реч в текст (speech-to-text, STT)
@@ -800,6 +800,8 @@ language-search-input =
 language-speakers = Говорители
 localized = Превод
 sentences = Изречения
+language-validation-hours = Часa
+language-validation-progress = Напредък на валидирането
 
 ## Contribution
 
@@ -807,6 +809,8 @@ action-click = Изберете
 action-tap = Докоснете
 contribute = Помогнете
 listen = Прослушване
+write = Писане
+review = Преглед
 skip = Пропускане
 shortcuts = Бързи клавиши
 clips-with-count-pluralized =
@@ -853,8 +857,17 @@ listen-again-instruction = Страхотна работа! <playIcon></playIcon
 listen-3rd-time-instruction = Изминаха 2, продължете!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Последно!
 listen-empty-state = Няма повече записи за проверка за този език…
+listen-loading-error =
+    Не можахме да получим аудио клипове за прослушване
+    Моля, опитайте отново по-късно.
+listen-abort-title = Валидирането приключи ли?
+listen-abort-cancel = Продължаване на валидирането
+listen-abort-confirm = Завършване на  валидирането
 speak-empty-state = Няма повече изречения за запис на този език…
 speak-empty-state-cta = Дарете изречение
+speak-loading-error =
+    Не успяхме да намерим изречения, за да ги изговорите.
+    Моля, опитайте отново по-късно.
 record-button-label = Запишете гласа си
 share-title-new = <bold>Помогнете</bold> да намерим още гласове
 keep-track-profile = Следете напредъка си като създадете профил
@@ -867,6 +880,8 @@ target-segment-learn-more = Научете повече
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Гласова колекция
+contribute-sentence-collection-nav-header = Колекция със изречения
 
 ## Reporting
 
@@ -1019,6 +1034,34 @@ profile-form-delete = Изтриване на профила
 
 ## Profile Download
 
+download-q = Желаете да изтеглите вашите данни?
+download-info = Кажете ни какво искате да изтеглите:
+download-profile-title = Профил
+download-profile-info = Включва имейл, потребителско име и демографска информация, налични веднага
+download-profile-size = Няколко байта
+download-recordings-title = Записи
+download-recordings-info = Включва mp3 файлове и свързани изречения. Може да отнеме известно време за подготовка
+download-recordings-size = Обикновено мегабайти
+download-recordings-unavailable = Не можете да поискате вашите записи, докато друга заявка вече е в ход.
+download-recently-requested = Можете да заявите ново изтегляне на вашите записи на всеки { $days } дни.
+download-size = Размер
+download-selected = Избрано
+download-start = Изтегляне на данните от профила
+download-request = Заявка на записи
+download-requests = Заявки за изтегляне на минали записи
+download-requests-info = Когато поискате вашите записи, ние ги компилираме в един или няколко ZIP файла. Ето вашите предишни заявки:
+download-request-button = Изтегляне
+download-request-title = { $created }
+download-request-description = { $clipCount } гласови клипа, общ размер на архива { $size }. Изтича на { $expires }.
+download-request-archive-single = Единичен ZIP файл, съдържащ
+download-request-archive-multiple = Разделете на { $archiveCount } ZIP файлове, съдържащи
+download-request-assembling-description = Вашите файлове се сглобяват. Моля, проверете отново по-късно.
+download-request-refresh-button = Опресняване
+download-request-modal-title = Връзки за изтегляне
+download-request-modal-description = Ето връзките за изтегляне на вашите ZIP файлове.
+download-request-link-text = Zip #{ $offset } от { $total }
+download-request-metadata-link = Текст на изречението
+download-request-link-single = Можете също така да копирате и поставите директните URL адреси в любимия си мениджър за изтегляне. Те ще изтекат след 12 часа, но можете да се върнете на тази страница, за да генерирате нови по всяко време.
 
 ## Landing
 
@@ -1062,10 +1105,46 @@ demo-listen-subtitle = Готови ли сте да допринесете?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Личните табла за управление ви информират за вашия напредък и този на общността.
+demo-dashboard-card-body = За всеки дарен гласов клип и всеки валидиран аудио клип таблата за управление на вашия акаунт се актуализират, за да отразят последния ви напредък на всеки език, на който допринасяте. Да, можете да допринесете за повече от един!<br/><br/> Използвайте таблото за управление, за да проследявате статистиката си, да видите как се справяте заедно с другите в общността и да зададете ежедневни или седмични цели за принос.
 
 ## Validation criteria
 
+contribution-criteria-nav = Критерии
+contribution-criteria-link = Разберете критериите за принос
+contribution-criteria-page-title = Критерии за принос
 contribution-criteria-page-description = Разберете на какво да обърнете внимание, когато слушате гласови записи и направите и вашите гласови записи по-богати!
+contribution-for-example = например
+contribution-misreadings-title = Неправилни разчитания
+contribution-misreadings-description = Когато слушате, проверете много внимателно дали записаното е точно това, което е написано; отхвърлете, ако има дори незначителни грешки. <br />Много често срещаните грешки включват:
+contribution-misreadings-description-extended-list-1 = Липсват <strong>думи</strong>  в началото на записа.
+contribution-misreadings-example-8-explanation = [Несъответстващо съдържание]
+contribution-varying-pronunciations-title = Различни произношения
+contribution-varying-pronunciations-description = Бъдете внимателни, преди да отхвърлите клип на основание, че читателят е произнесъл погрешно дума, поставил е ударението на грешното място или очевидно е пренебрегнал въпросителен знак. Има голямо разнообразие от произношения, използвани по целия свят, някои от които може да не сте чували в местната общност. Моля, предоставете свобода на преценка за тези, които може да говорят различно от вас.
+contribution-varying-pronunciations-description-extended = От друга страна, ако смятате, че читателят вероятно никога не е срещал думата преди и просто прави неправилно предположение за произношението, моля, отхвърлете. Ако не сте сигурни, използвайте бутона за пропускане.
+contribution-varying-pronunciations-example-1-title = На главата си носеше барета.
+contribution-varying-pronunciations-example-1-explanation = [„Барeта“ е ОК, независимо дали с ударение върху първата сричка (Великобритания) или втората (САЩ)]
+contribution-varying-pronunciations-example-2-title = Ръката му беше вдигната.
+contribution-varying-pronunciations-example-2-explanation = [„Raised“ на английски винаги се произнася като една сричка, а не като две]
+contribution-background-noise-title = Фонов шум
+contribution-background-noise-description = Искаме алгоритмите за машинно обучение да могат да се справят с различни фонови шумове и дори относително силни шумове могат да бъдат приети, при условие че не ви пречат да чуете целия текст. Тихата фонова музика е ОК; достатъчно силна музика, за да ви попречи да чуете всяка дума, не е така.
+contribution-background-noise-description-extended = Ако записът се разпада или има пращене, отхвърлете, освен ако не може да се чуе целият текст.
+contribution-background-noise-example-1-fixed-title = <strong>[Кихане]</strong> Гигантските динозаври от <strong>[кашлица]</strong> триас.
+contribution-background-noise-example-2-fixed-title = Гигантският дино <strong>[кашля]</strong> от триас.
+contribution-background-noise-example-2-explanation = [Част от текста не се чува]
+contribution-background-noise-example-3-fixed-title = <strong>[Пращене]</strong> гигантски динозаври от <strong>[пращене]</strong> -риас.
+contribution-background-voices-title = Фонови гласове
+contribution-background-voices-description = Тихият фонов шум е ОК, но ние не искаме допълнителни гласове, които могат да накарат машинен алгоритъм да идентифицира думи, които не са в писмения текст. Ако можете да чуете различни думи, различни от тези в текста, клипът трябва да бъде отхвърлен. Обикновено това се случва, когато телевизорът е оставен включен или когато наблизо се води разговор.
+contribution-background-voices-description-extended = Ако записът се разпадне или има пращене, отхвърлете, освен ако не може да се чуе целият текст.
+contribution-background-voices-example-1-title = Гигантските динозаври от триаса. <strong>[чете се от един глас]</strong>
+contribution-background-voices-example-1-explanation = Идваш ли? <strong>[извикан от друг]</strong>
+contribution-volume-title = Сила на звука
+contribution-volume-description = Ще има естествени разлики в силата на гласа на читателите. Отхвърлете само ако силата на звука е толкова висока, че записът се разпада, или (по-често) ако е толкова ниска, че не можете да чуете какво се казва, без да се позовавате на писмения текст.
+contribution-reader-effects-title = Читателски ефекти
+contribution-reader-effects-description = Повечето записи са на хора, които говорят с естествения си глас. Можете да приемете случайни нестандартни записи, които се извикват, шепнат или очевидно се предават с „драматичен“ глас. Моля, отхвърлете изпятите записи и тези, използващи компютърно синтезиран глас.
+contribution-just-unsure-title = Просто не сте сигурни?
+contribution-just-unsure-description = Ако попаднете на нещо, което тези указания не покриват, моля, гласувайте според най-добрата си преценка. Ако наистина не можете да решите, използвайте бутона за пропускане и преминете към следващия запис.
+see-more = <chevron></chevron>Вижте още
+see-less = <chevron></chevron>Вижте по-малко
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1074,54 +1153,272 @@ contribution-criteria-page-description = Разберете на какво да
 
 ## HEADER/FOOTER
 
+sc-header-home = Начало
+sc-header-how-to = Начин на употреба
+sc-header-add = Добавяне
+sc-header-review = Преглед
+sc-header-rejected = Отхвърлени изречения
+sc-header-my = Моите изречения
+sc-header-statistics = Статистика
+sc-header-profile = Профил
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Докладване на дефекти
+sc-footer-translate = Превод на тази страницата
+sc-footer-report-copyright = Докладване за проблеми с авторските права
+sc-footer-privacy = Поверителност
+sc-footer-terms = Условия
+sc-footer-cookies = Бисквитки
+sc-login-signup-button = Влизане / Регистриране
+sc-logout-button = Изход
 
 ## HOME
 
+sc-home-title = Добре дошли при събирача на изречения на Common Voice
+sc-home-intro = Събирача на изречения е част от <commonVoiceLink>Common Voice</commonVoiceLink>. Той позволява на сътрудниците да събират и валидират изречения, създадени от общността. Можете да използвате този инструмент и за внасяне и почистване на малък до среден корпус от обществено достояние, който сте намерили или събрали. Всички изречения трябва да са обществено достояние. Одобрените изречения се изнасят всяка седмица в хранилището на Common Voice и се издават на уебсайта на Common Voice при всяко ново внедряване.
+sc-home-collect-title = Събиране на изречения
+sc-home-collect-text = Помогнете ни, като пишете или събирате изречения от обществено достояние.
+sc-home-review-title = Преглеждане на изреченията
+sc-home-review-text = Помогнете ни, като прегледате изреченията за коректност според указанията.
 
 ## GENERAL
 
+sc-languages-fetch-error = Не успяхме да извлечем наличните езици. В момента е невъзможно да допринесете към проекта. Моля, опитайте отново по-късно.
 
 ## HOW-TO
 
+sc-howto-title = Начин на употреба
+sc-howto-addlang-title = Добавяне на езици за работа
+sc-howto-addlang-text = След като влезете, можете да изберете вашите езици от раздела на профила.
+sc-howto-addsen-title = Добавяне на нови изречения
+sc-howto-addsen-item-1 = Всички изречения, които добавяте, трябва да бъдат под <wikipediaLink>лиценз за обществено достояние (CC-0)</wikipediaLink>. За да подкрепим включването на работа, която не е под публичен лиценз, създадохме <cc0WaiverLink>шаблон за Споразумение за принос</cc0WaiverLink> за произведения, за които собственикът на авторските права би искал да допринесе с материала за Common Voice.
+sc-howto-addsen-item-2 = Числа. Не трябва да има цифри в изходния текст, защото те могат да причинят проблеми, когато се четат на глас. Начинът, по който се чете число, зависи от контекста и може да доведе до объркване в набора от данни. Например числото „2409“ може точно да се разчете и като „двадесет и четири нула девет“ и като „две хиляди четиристотин девет“.
+sc-howto-addsen-item-3 = Съкращения и акроними. Съкращения и акроними като „САЩ“ или „ICE“ трябва да се избягват в изходния текст, защото могат да бъдат прочетени по начин, който не съвпада с изписването им. Освен това може да има множество точни показания за едно съкращение. Например акронимът „ICE“ може да се произнесе като „I-C-E“ или като една дума.
+sc-howto-addsen-item-4 = Пунктуация. Специални символи и препинателни знаци трябва да се включват само когато е абсолютно необходимо. Малко вероятно някога да имате нужда от специален символ като „@“ или „#“. ”
+sc-howto-addsen-item-5 = Чужди букви. Буквите трябва да са валидни на езика, на който се говори. Например „ж“ е буква в българската азбука, но никога не се използва на английски и затова никога не трябва да се появява в изходния текст на английски.
+sc-howto-addsen-item-6 = Езиците могат да имат свои <validationRulesLink>собствени правила за валидиране</validationRulesLink> с допълнителни изисквания. Ако няма конкретен валидиращ файл за даден език, ние използваме общите правила.
+sc-howto-addsen-post-1 = Предпочитаме естествени/разговорни изречения. Докато фонетичното разнообразие и различните думи в изреченията са важни, ние се опитваме да направим записването на изречения възможно най-забавно. Затова би било чудесно, ако се опитате да запазите изреченията си възможно най-естествени/ангажиращи.
+sc-howto-cite-title = Как да се цитира
+sc-howto-cite-pre-1 = Важно е да посочите къде сте намерили публичния лиценз, за да избегнете плагиатство и да позволите последващи действия при <copyrightIssuesLink>проблеми с авторски права</copyrightIssuesLink>. Ето няколко начина, по които можете да цитирате работата.
+sc-howto-cite-item-1 = Можете да включите уебсайта, напр. „Common Voice – https://commonvoice.mozilla.org/“
+sc-howto-cite-item-2 = Можете да използвате академичен стил на препратка, напр. Харвардски стил „Mozilla (2021) Common Voice. Наличен на https://commonvoice.mozilla.org/ (Достъп: 15 септември 2021 г.)“
+sc-howto-cite-item-3 = За текст в обществено достояние, който не е достъпен онлайн, можете да използвате академичен стил на препратка, напр. Харвардски стил „Джес (2021) Моите стихотворения с обществен лиценз“
+sc-howto-review-title = Преглеждане на изреченията
+sc-howto-review-subtitle = Уверете се, че изречението отговаря на следните критерии:
+sc-howto-review-criteria-1 = Изречението трябва да бъде изписано правилно.
+sc-howto-review-criteria-2 = Изречението трябва да е граматически правилно.
+sc-howto-review-criteria-3 = Изречението трябва да може да се изговори.
+sc-howto-review-criteria-4 = Ако изречението отговаря на критериите, щракнете върху бутона „Одобряване“.
+sc-howto-review-criteria-5 = Ако изречението не отговаря на горните критерии, щракнете върху бутона „Отхвърляне“. Ако не сте сигурни за изречението, можете също да го пропуснете и да преминете към следващото.
+sc-howto-review-criteria-6 = Ако ви свършат изреченията за преглед, моля, помогнете ни да съберем повече изречения!
+sc-howto-findpd-title = Намиране на съществуващи изречения с обществено достояние
+sc-howto-findpd-subtitle = Потърсете ги в Интернет
+sc-howto-findpd-text-2 = Не забравяйте, че се нуждаем от разрешение за публикуване на тези изречения, така че винаги се уверявайте, че текстът принадлежи към <wikipediaLink>обществено достояние</wikipediaLink>. Ако няма изрично указание, свържете се с лицето, на което принадлежи текстът, и го попитайте дали иска да допринесе със своя текст в общественото достояние. Ако искат, помогнете им да преминат през процеса на <cc0WaiverLink>Споразумение за допринасяне</cc0WaiverLink>. Ако те не искат да допринесат с текста, тогава нямате право да използвате този текст.
+sc-howto-findpd-tips = Ето няколко съвета за намиране на изречения:
+sc-howto-findpd-tips-1 = Най-добрите източници, които можете да търсите, са подкасти, преписи, филмови сценарии и всичко, което потенциално може да съдържа ежедневни разговори.
+sc-howto-findpd-tips-2 = Правителствени процедури, книги и статии също са страхотни, но тъй като текстът има тенденция да бъде малко по-официален, те не са толкова приоритетни.
+sc-howto-findpd-tips-3 = За съжаление все още не можем да имаме статии от Wikimedia. Така че не копирайте текст от там.
+sc-howto-findpd-subtitle-2 = Партнирайте с местни организации или лица
+sc-howto-findpd-partner-1 = Има много обществени организации, които биха искали да си сътрудничат и вече имат много текстове, които могат да дарят като обществено достояние. Свържете се с местни университети, правителства и организации с отворен код, за да говорите за проекта и да поискате тяхната помощ.
+sc-howto-findpd-partner-2 = Експертите лингвисти също могат да помогнат, опитайте се да се свържете с местните лингвистични университети (както учители, така и студенти) и вижте дали те могат да ви помогнат да съберете разнообразен набор от различни по звук изречения на вашия език.
 
 ## MY SENTENCES
 
+sc-my-title = Моите изречения
+sc-my-description = Тази страница ви дава общ преглед на всички изпратени от вас изречения. Можете също така да изтриете вече изпратени изречения, ако е необходимо, като поставите отметка в квадратчето до него и щракнете върху &quot;Изтриване на избраните изречения&quot; на дъното. Моля, премахвайте изречения само ако е абсолютно необходимо, например ако сте забелязали след факта, че дадено изречение е защитено с авторски права.
+sc-my-loading = Зареждане на изреченията...
+sc-my-err-fetching = Грешка при извличането на вашите изречения. Моля, опитайте отново.
+sc-my-no-sentences = Няма намерени изречения!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Изпращане: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Източник: { $source }
+sc-my-delete = Изтрий избраните изречения
+sc-my-deleting = Изтрване на избраните изречения…
+sc-my-err-failed-delete = Неуспешно изтриване на избраните изречения… Моля, опитайте отново!
 
 ## REJECTED
 
+sc-rejected-title = Отхвърлени изречения
+sc-rejected-loading = Изтрване на отхвърлениете изречения…
+sc-rejected-err-fetching = Грешка при извличане на отхвърлени изречения. Моля, опитайте отново.
+sc-rejected-none-found = Няма намерени отхвърлени изречения!
 
 ## STATS
 
+sc-stats-title = Статистика
+sc-stats-updating = Обновяване...
+sc-stats-error = Не можахме да извлечем статистиката. Моля, опитайте отново по-късно.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Събирачът на изречения на Common Voice е събрал { $sentenceCount } изречения на { $languageCount } езика!
 
 ## ADD
 
+sc-submit-err-select-lang = Моля, изберете език.
+sc-submit-err-add-sentences = Моля, добавете изречения.
+sc-submit-err-add-source = Моля, добавете източник.
+sc-submit-err-confirm-pd = Моля, потвърдете, че тези изречения са обществено достояние.
+sc-submit-prompt =
+    .message = Изреченията не са изпратени, сигурни ли сте, че искате да напуснете?
+sc-submit-title = Добавяне на изречения
+sc-submit-select-language =
+    .labelText = Избор на език
+sc-submit-add-sentences = Добавете изречения , класифицирани като<wikipediaLink>обществено достояние</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Едно изречение на ред
+sc-submit-from-where = Откъде са тези изречения  с<wikipediaLink>обществено достояние</wikipediaLink> ?
+sc-submit-ph-read-how-to =
+    .placeholder = Прочетете нашите инструкции, ако не сте сигурни как да допринасяте
+sc-submit-confirm = Потвърждавам, че тези изречения са <wikipediaLink>обществено достояние</wikipediaLink> и имам разрешение да ги кача.
+sc-submit-button =
+    .submitText = Изпращане
+sc-submit-filtered = Филтрирани изречения поради неизпълнение на изискванията (моля, изпратете фиксирани версии като нови изречения):
+sc-submit-guidelines = Моля, проверете <howToLink>указанията</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Не можа да се добави език
+sc-add-lang-sec-label = Добавете език, на който искате да допринесете
+sc-add-lang-sec-button = Добавяне на език
+sc-add-err-unexpected = Върнат е неочакван отговор от сървъра
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Предоставени изречения. { $duplicates } изречения бяха отхвърлени като дубликати.
+        [one] Предоставено изречение. { $duplicates } изречение беше отхвърлено като дубликат.
+       *[other] Предоставени изречения. { $duplicates } изречения бяха отхвърлени като дубликати.
+    }
+sc-add-err-submission = Грешка при изпращане
+sc-add-lang-process-notice = Ако вашият език не е посочен тук, можете да го заявите чрез <languageProcessLink>този процес</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Изреченията не са изпратени, сигурни ли сте, че искате да напуснете?
+sc-confirm-sentences-title = Потвърждаване на нови изречения
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Няма намерени изречения
+        [one] Едно намерено изречение
+       *[other] { $countOfSentences } намерени изречения.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } отхвърлени от вас
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Няма прегледани изречения.
+        [one] Едно изречение вече е прегледано. Добра работа!
+       *[other] { $countOfReviewed } изречения вече са прегледани. Добра работа!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Няма изречения готови за изпращане!
+        [one] Едно изречение е готово за изпращане!
+       *[other] { $readyCount } изречения са готови за изпращане!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } изречения не са прегледани. Ако искате, можете също да прегледате изреченията си сега, преди да ги изпратите.
+sc-confirm-button-text = Потвърждение
+sc-confirm-uploading = Изреченията се качват. Това може да отнеме няколко минути в зависимост от броя на добавените изречения. Моля, не затваряйте този уебсайт.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Всичко
+sc-lang-info-title-personal = Личен
+sc-lang-info-add-more = <addLink>Добавете още изречения сега!</addLink>
 
 ## LOGIN
 
+sc-login-err-failed = Неуспешно включване
+sc-login-err-try-again = Моля, опитайте отново.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профил: { $username }
+sc-personal-err-lang-not-found = Езикът не може да бъде премахнат: езикът не е намерен
+sc-personal-err-remove = Езикът не можа да бъде премахнат
+sc-personal-your-languages = Вашите езици:
+sc-personal-remove-button = премахване
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } добавени от вас
+sc-personal-not-added = Все още не сте добавили никакви езици.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Критерии за преглед
+sc-criteria-title = Критерии за преглед
+sc-criteria-make-sure = Уверете се, че изречението отговаря на следните критерии:
+sc-criteria-item-1 = Изречението трябва да бъде изписано правилно.
+sc-criteria-item-2 = Изречението трябва да е граматически правилно.
+sc-criteria-item-3 = Изречението трябва да може да се изговори.
+sc-criteria-item-4 = Ако изречението отговаря на критериите, щракнете върху &quot;Одобряване&quot; бутон вдясно.
+sc-criteria-item-5-2 = Ако изречението не отговаря на горните критерии, щракнете върху &quot;Отхвърляне&quot; бутон отляво. Ако не сте сигурни за изречението, можете също да го пропуснете и да преминете към следващото.
+sc-criteria-item-6 = Ако ви свършат изреченията за преглед, моля, помогнете ни да съберем повече изречения!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Не сте избрали никакви езици. Моля, отидете във вашия <profileLink>Профил</profileLink>, за да изберете езици.
+sc-review-form-button-reject = Отхвърляне
+sc-review-form-button-skip = Пропускане
+sc-review-form-button-approve = Одобряване
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Д
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = Н
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = П
+sc-review-form-keyboard-usage-custom = Можете също да използвате клавишни комбинации: { sc-review-form-button-approve-shortcut } за одобряване, { sc-review-form-button-reject-shortcut } за отхвърляне, { sc-review-form-button-skip-shortcut } за пропускане
+sc-review-form-button-submit =
+    .submitText = Завършване на прегледа
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Няма прегледани изречения.
+        [one] Едно прегледано изречение. Благодаря ви!
+       *[other] { $sentences } прегледани изречения. Благодаря ви!
+    }
+sc-review-form-review-failure = Прегледът не можа да бъде запазен. Моля, опитайте отново по-късно.
+sc-review-link = Преглед
 
 ## SETTINGS
 
+sc-settings-title = Настройки
+sc-settings-ui-language = Език на интерфейса
+sc-settings-reset-skipped = Нулиране на пропуснатите изречения
+sc-settings-skipped-decription = Преди сте пропускали изречения, докато преглеждате. Нулирането на пропуснатите изречения ще покаже отново всички пропуснати изречения. Това е независимо от езика.
+sc-settings-show-all-button = Показване на всички пропуснати изречения отново
+sc-settings-failed = Невъзможност за промяна на настройките. Моля, опитайте отново.
+# VALIDATION
+sc-validation-number-of-words = Изречението трябва да съдържа между 1 и 14 (включително) думи
+sc-validation-no-numbers = Изречението не трябва да съдържа числа
+sc-validation-no-symbols = Изречението не трябва да съдържа символи
+sc-validation-no-abbreviations = Изречението не трябва да съдържа съкращения
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Изберете език/локализация
+# PARTNERSHIPS PAGE
+partnerships-header = Партньорства
+partnerships-header-text = Отнема много, за да се случи Common Voice! Ние не го правим сами. Искате ли да си партнирате с нас? Ще се радваме да ни разкажете повече.
+partnerships-get-in-touch = Свържете се
+partnerships-become-a-partner = Станете Common Voice партньор
+partnerships-community-header = Общност, творци и гражданско общество
+partnerships-community-description = Общността е туптящото сърце на Common Voice – те идват от цял свят и са езикови активисти, учени и творци. Можете да научите повече за това как да се включите на нашата страница <about>Относно</about> и в нашата <community>общност</community>. Ако се интересувате от по-задълбочено организационно партньорство, <emailFragment>свържете се с нас.</emailFragment>
 sentence-collection = Списък с изречения
 
 ## REVIEW PAGE

@@ -93,3 +93,8 @@ export const countLines = (filepaths: string[]) =>
     () => countLinesPromise(filepaths),
     reason => Error(String(reason)),
   )
+
+export const rmFilepath =
+  (filepath: string): IO.IO<void> =>
+  () =>
+    fs.rmSync(filepath)
