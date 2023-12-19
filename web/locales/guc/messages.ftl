@@ -231,6 +231,7 @@ zza = Zaza
 
 speak = Aashajawaa
 speak-now = Paashajaa müinma yaa
+datasets = Anaajaalaa kachikimaajatü
 languages = Anüikiirua
 profile = Ka’yataayakuwa’ipakalü
 help = Akaaliijiaa
