@@ -233,9 +233,14 @@ speak = Aashajawaa
 speak-now = Paashajaa müinma yaa
 datasets = Anaajaalaa kachikimaajatü
 languages = Anüikiirua
+about = Süchikuu Common Voice
+partner = Partner
 profile = Ka’yataayakuwa’ipakalü
 help = Akaaliijiaa
 contact = E’raajalaa
+privacy = Akalaamainjia
+terms = Sukuwa'ipamaajatü
+cookies = Püchikanain
 faq = Asakiriaa pejeewakalü ma’in
 
 ## Home Page
