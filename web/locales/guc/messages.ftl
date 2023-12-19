@@ -242,6 +242,7 @@ privacy = Akalaamainjia
 terms = Sukuwa'ipamaajatü
 cookies = Püchikanain
 faq = Asakiriaa pejeewakalü ma’in
+content-license-text = Püchajaaka achiki eesü sulu'u <licenseLink>Aapuushikii Creative Commons</licenseLink>
 
 ## Home Page
 
