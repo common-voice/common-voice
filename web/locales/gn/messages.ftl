@@ -493,8 +493,8 @@ faq-do-want-native-q = ¿Kóva ndaha’éi che ñe’ẽte ha ojekuaa upéva che
 faq-do-want-native-a = Ikatu, ndeichagua oñe’ẽva roipota orepytyvõ! Common Voice ombyatykuaa mba’éichapa ombohyapuambue tapicha oñe’ẽva, upéva rupi omba’apokuaaporãvéta tembiporu ñe’ẽryapu ñeikũmby rehegua. Ja’ekuaa opaite tapicha taha’eha’éva iñe’ẽte térã nahániri oipytyvõkuaa.
 faq-why-different-speakers-q = Mba’érepa peikotevẽ opaite tapicháre oñe’ẽkuaáva peteĩ ñe’ẽme
 faq-why-different-speakers-a =
-    Heta ñe’ẽryapu ñongatupyre ombyaty mba’éichapa oñe’ẽ sa’i tapicha ha péicha oñemboyke ambue ombohyapuambuévape, techapyrãrõ <articleLink>kuimba’e ha tapicha aty avano’õ iviru sa’ivévape</articleLink>. Ndajajesarekóirõ tapicha aty michĩvéva ombohyapuambuéva ñe’ẽ térã iñe’ẽambuéva rehe, opytáta tapykuépe, oñembo’ykémavavoi chupekuéra. Heta mohendaha noikũmbykuaái kuña ñe’ẽ ohendúvo.
-    ¡Upévare rombyatýta opaichagua ñe’ẽryapu, taha’e kuña térã kuimba’e, iñe’ẽ’ypýva térã iñe’ẽkõiva!
+    Heta ñe’ẽryapu ñongatupyre ombyaty mba’éichapa oñe’ẽ sa’i tapicha ha péicha oñemboyke ambue ombohyapuambuévape, techapyrãrõ <articleLink>kuimba’e ha tapicha aty avano’õ iviru sa’ivévape</articleLink>. Ndajajesarekóirõ tapicha aty michĩvéva ombohyapuambuéva ñe’ẽ térã iñe’ẽambuéva, opytáta tapykuépe, oñembo’ykémavavoi chupekuéra. Heta mohendaha noikũmbykuaái kuña ñe’ẽ ohendúvo.
+    ¡Upévare rombyaty opaichagua ñe’ẽryapu, taha’e kuña térã kuimba’e, iñe’ẽ’ypýva térã iñe’ẽkõiva!
 faq-why-my-lang-q = Mba’érepa che ñe’ẽtee ndaipóri gueteri
 faq-why-my-lang-a =
     Common Voice ha’e pyendavusu crowdsourcing rehegua, ha umi ñe’ẽ oñembojoapypaite omba’aporeíva rupive.
