@@ -262,6 +262,7 @@ wall-of-text-first = Tü anüikika aleinjatü wapüleerua, saashajaaya wayuukal�
 wall-of-text-second = Tü atüjaaka shi'yataaka amaa na mülo'usuka awashirüin nnojotsü jutatüin süpüla mainma wayuu. Saa'in wamüin tia maka süsha'wale'erüin tü kakiiwaaka. Sünainjee tia akuwa'ipaka woju'itirüin tü a'yatawaaka sümaa Common Voice, wane a'yatawaa shii'iree wajutalaain sukuwa'ipa tü ayaawataaka anüiki.
 show-wall-of-text = Aashaje’eraa ako’omüinjiaa
 help-us-title = ¡Pükaalijaa waya sünain anouta tü ashajuushikalü!
+help-us-explain = Püjüttaa eere tü ee'iyatiapüleeka, paapajaa tü pütchika otta müsia püküjaa wamüin süchiki: ¿anasü süküjia tü pütchika sünainjeeka tü ashajuushikalü?
 vote-yes = aa
 vote-no = nnojo
 all-locales = Apüshuaꞌa
