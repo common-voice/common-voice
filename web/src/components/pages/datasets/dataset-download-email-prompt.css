@@ -5,17 +5,16 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 
     .input-group {
         padding: 1rem;
+        flex: 0 1 60%;
         @media (--sm-down) {
             width: 100%;
         }
 
         &.button-container {
             display: flex;
-            flex: 0 1 40%;
             align-content: space-around;
 
             @media (--sm-down) {

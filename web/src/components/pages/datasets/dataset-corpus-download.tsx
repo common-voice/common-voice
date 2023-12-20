@@ -61,6 +61,18 @@ const DatasetCorpusDownload = ({
     setSelectedTableRowIndex(index);
   };
 
+  const getMargin = (rowIndex: number) => {
+    if (rowIndex === 0) {
+      return '16px';
+    }
+
+    if (selectedTableRowIndex >= languageDatasets.length - 4) {
+      return 55 * (languageDatasets.length - 4);
+    }
+
+    return 55 * selectedTableRowIndex;
+  };
+
   useEffect(() => {
     setIsLoading(true);
 
@@ -134,17 +146,20 @@ const DatasetCorpusDownload = ({
           </div>
           <div
             style={{
-              height: '210px',
-              width: '170px',
-              backgroundColor: '#E2ECF7',
               marginInlineStart: '35px',
-              // marginBlockStart: '50px',
-              marginBlockStart:
-                selectedTableRowIndex === 0
-                  ? '50px'
-                  : 55 * selectedTableRowIndex,
-            }}
-          />
+              marginBlockStart: getMargin(selectedTableRowIndex),
+            }}>
+            <p style={{ marginBlockEnd: '12px', fontWeight: 'bold' }}>
+              Splits (Age & Sex)
+            </p>
+            <div
+              style={{
+                height: '210px',
+                width: '170px',
+                backgroundColor: '#E2ECF7',
+              }}
+            />
+          </div>
         </div>
       </div>
     </div>
