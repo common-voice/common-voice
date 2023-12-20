@@ -255,6 +255,7 @@ donate = Asülajaa
 home-title = Tü aa'innaka sümaa Common Voice shi'ipajatü saa'inraaka Mozilla süpüla ekirajaanüin na kachuweerakalüirua süpüla nayaawatüinjatüin sünüiki tü wayuukalüirua.
 default-tagline = Mozilla Common Voice shia wane a'yatawaa süpüla we'iküin na kachuweerakalüirua süpüla nayaawatüinjatüin sünüiki na wayuukalüirua.
 home-cta = Paashajaa, ¡pi'itaa pünüiki yaaya!
+wall-of-text-start = Tü anüikika aleinjatü wapüleerua, saashajaaya wayuukalüirua. Shia atalatitka waa'in süpüla wakumajüin wane süpülajana anüiki shii'iree nekirajaain sünainjee na kachuweerakalüirua. Akatsa'a süpüla wakumajüin süpülajanaka anüiki, acheküsü kojuyainjatüin tü pütchikalüirua sulu'u.
 show-wall-of-text = Aashaje’eraa ako’omüinjiaa
 vote-yes = aa
 vote-no = nnojo
