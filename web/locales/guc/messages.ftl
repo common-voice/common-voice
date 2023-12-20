@@ -258,6 +258,7 @@ home-cta = Paashajaa, ¡pi'itaa pünüiki yaaya!
 wall-of-text-start = Tü anüikika aleinjatü wapüleerua, saashajaaya wayuukalüirua. Shia atalatitka waa'in süpüla wakumajüin wane süpülajana anüiki shii'iree nekirajaain sünainjee na kachuweerakalüirua. Akatsa'a süpüla wakumajüin süpülajanaka anüiki, acheküsü kojuyainjatüin tü pütchikalüirua sulu'u.
 wall-of-text-more-mobile = Tü atüjaaka shi'yataaka amaa na mülo'usuka awashirüin nnojotsü jutatüin namüin na wayuukalüirua. Saa'in wamüin tia maka süsha'wale'erüin tü kakiiwaaka. Sünainjee tia akuwa'ipaka woju'itirüin tü a'yatawaaka sümaa Common Voice, wane a'yatawaa shii'iree wajutalaain sukuwa'ipa tü ayaawataaka anüiki.
 wall-of-text-more-desktop = Müinma yaa eesü süpüla pi'itaain pünüiki müleka pükaalijaweere waya shii'iree wakumajüin wane süpülajana anüiki eekai jutatüin sukuwa'ipa napüleerua na atüjaka aainjaa akumajiaa süpüla serulaalü otta müsia walekerü.<lineBreak></lineBreak>Paasheje'eraa shi'ipa tü ashajuushika süpüla pükaalijüin waya sünain wekirajaain na kachuweerakalüirua sünain nayaawatüinjatüin sünüiki wayuu. Pünalayaa sümüin na'yataain na waneeinua müleka pikirajaweere nanainjee. ¡Mapüleesalü sukuwa'ipa!
+wall-of-text-first = Tü anüikika aleinjatü wapüleerua, saashajaaya wayuukalüirua. Shia atalatitka waa'in süpüla wakumajüin wane süpülajana anüiki shii'iree nekirajaain sünainjee na kachuweerakalüirua. Akatsa'a süpüla wakumajüin süpülajanaka anüiki, cho'ujaasü kojuyainjatüin tü pütchikalüirua napüla na akumajüshiikana.
 show-wall-of-text = Aashaje’eraa ako’omüinjiaa
 vote-yes = aa
 vote-no = nnojo
