@@ -263,8 +263,11 @@ wall-of-text-second = Tü atüjaaka shi'yataaka amaa na mülo'usuka awashirüin 
 show-wall-of-text = Aashaje’eraa ako’omüinjiaa
 help-us-title = ¡Pükaalijaa waya sünain anouta tü ashajuushikalü!
 help-us-explain = Püjüttaa eere tü ee'iyatiapüleeka, paapajaa tü pütchika otta müsia püküjaa wamüin süchiki: ¿anasü süküjia tü pütchika sünainjeeka tü ashajuushikalü?
+no-clips-to-validate = Nnojoluyaakai saa'in pütchi süpüla paapajüin eekai wanaawain sümaa anüikika tüü. Pükaalijaa waya joolu'u pi'itaa wane pütchi süpüla eeinjatüin.
 vote-yes = aa
 vote-no = nnojo
+toggle-play-tooltip = Püjüttaa { shortcut-play-toggle } süpüla ja'yainjatü shipijana
+speak-subtitle = Pi'itaa pünüiki
 all-locales = Apüshuaꞌa
 today = Soꞌukaꞌi
 
