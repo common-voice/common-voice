@@ -1,0 +1,27 @@
+.metadata-viewer-container {
+    /* display: flex; */
+    width: 100%;
+    /* justify-content: space-around; */
+
+    & .md-metadata-info {
+        display: flex;
+        /* height: 100%; */
+        padding: 12px;
+        background-color: #e2ecf7;
+        justify-content: space-around;
+        align-items: center;
+
+        svg.expanded {
+            transform: rotate(180deg);
+        }
+    }
+
+    & .expanded-box {
+        background-color: #e2ecf7;
+        height: 300px;
+
+        &.collapsed {
+            display: none;
+        }
+    }
+}

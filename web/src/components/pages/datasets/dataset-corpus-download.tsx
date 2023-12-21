@@ -10,13 +10,14 @@ import useSortedLocales from '../../../hooks/use-sorted-locales';
 import { LabeledSelect, Spinner } from '../../ui/ui';
 
 import DatasetDownloadEmailPrompt from './dataset-download-email-prompt';
-
-import './dataset-corpus-download.css';
 import { useAPI } from '../../../hooks/store-hooks';
 import DatasetCorpusDownloadTable from './dataset-corpus-download-table';
 import PageHeading from '../../ui/page-heading';
 import { formatBytes } from '../../../utility';
 import { DeltaReadMoreLink } from '../../shared/links';
+import { MobileDatasetMetadataViewer } from './mobile-dataset-metadata-viewer';
+
+import './dataset-corpus-download.css';
 
 interface Props extends WithLocalizationProps {
   languagesWithDatasets: { id: number; name: string }[];
@@ -116,14 +117,8 @@ const DatasetCorpusDownload = ({
             ))}
           </LabeledSelect>
         </div>
-        <div style={{ display: 'flex' }}>
-          <div
-            style={{
-              display: 'flex',
-              width: '100%',
-              alignItems: 'start',
-              flexDirection: 'column',
-            }}>
+        <div className="table-metadata-container">
+          <div className="table-email-prompt-container">
             {isLoading && <Spinner />}
             {!isLoading && languageDatasets && (
               <DatasetCorpusDownloadTable
@@ -132,6 +127,8 @@ const DatasetCorpusDownload = ({
                 selectedId={selectedDataset?.id || languageDatasets[0].id}
               />
             )}
+
+            {!isLoading && languageDatasets && <MobileDatasetMetadataViewer />}
 
             {selectedDataset && selectedDataset.download_path && (
               <DatasetDownloadEmailPrompt
@@ -148,17 +145,12 @@ const DatasetCorpusDownload = ({
             style={{
               marginInlineStart: '35px',
               marginBlockStart: getMargin(selectedTableRowIndex),
-            }}>
+            }}
+            className="hidden-md-down">
             <p style={{ marginBlockEnd: '12px', fontWeight: 'bold' }}>
               Splits (Age & Sex)
             </p>
-            <div
-              style={{
-                height: '210px',
-                width: '170px',
-                backgroundColor: '#E2ECF7',
-              }}
-            />
+            <div className="metadata-info" />
           </div>
         </div>
       </div>
