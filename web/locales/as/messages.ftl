@@ -1717,6 +1717,13 @@ adding-sentences-subheader-special-characters-explanation-2 = ভাষাবো
 adding-sentences-subheader-offensive-content = আপত্তিজনক বিষয়বস্তু
 adding-sentences-subheader-offensive-content-explanation = যদি বাক্যটো আপত্তিজনক বা উদ্বেগজনক - উদাহৰণস্বৰূপে অশালীন বিষয়বস্তুৰ কাৰণে বা আমাৰ <communityGuidelines>সম্প্ৰদায়িক অংশগ্ৰহণৰ নিৰ্দেশনা</communityGuidelines>ৰ অন্য উলংঘাৰ কাৰ‌ণে - তেন্তে আপুনি বাক্যটো নাকচ কৰা উচিত। সমস্যাটো বহলাই তুলিবলৈ আপুনি আমাৰ সৈতে <emailFragment>commonvoice@mozilla.com</emailFragment>-ত যোগাযোগ কৰিবও পাৰে।
 reviewing-sentences-explanation-1 = যদি বাক্যটোৱে ওপৰৰ মাপকাঠী পূৰণ কৰে, তেন্তে "হয়" বুটামটোত ক্লিক কৰিব।
+reviewing-sentences-explanation-2 = যদি বাক্যটোৱে ওপৰৰ মাপকাঠী পূৰণ নকৰে, তেন্তে "নহয়" বুটামটোত ক্লিক কৰিব।
+reviewing-sentences-explanation-3 = যদি আপুনি বাক্যটোৰ বিষয়ে নিশ্চিত নহয়, তেন্তে আপুনি বাক্যটো এৰি পৰৱৰ্তী বাক্যটোলৈও যাব পাৰে।
+reviewing-sentences-explanation-4 = যদি পৰ্যালোচনা কৰিবলৈ আপোনাৰ বাক্য শেষ হৈ যায়, তেন্তে অনুগ্ৰহ কৰি আমাক অধিক বাক্য সংগ্ৰহ কৰাত সহায় কৰিব!
+# WRITE PAGE
+write-instruction = <icon></icon> এটা ৰাজহুৱা ড’মেইনৰ বাক্য যোগ কৰক
+sentence =
+    .label = বাক্য
 new-sentence-rule-3 = শুদ্ধ ব্যাকৰণ ব্যৱহাৰ কৰক
 new-sentence-rule-4 = শুদ্ধ বানান আৰু যতি-চিহ্ন ব্যৱহাৰ কৰক
 required-field = অনুগ্ৰহ কৰি এই ক্ষেত্ৰটো ভৰাওক।
