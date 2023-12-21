@@ -1684,6 +1684,7 @@ public-domain = ৰাজহুৱা ড’মেইন
 citing-sentences = বাক্য উদ্ধৃত কৰা
 adding-sentences = বাক্য যোগ কৰা
 reviewing-sentences = বাক্য পৰ্যালোচনা কৰা
+public-domain-explanation-1 = সকলো পাঠ্য বাক্য <publicDomain>ৰাজহুৱা ড’মেইন</publicDomain> (<cc0>cc0</cc0>)ৰ হোৱাটো অতি গুৰুত্বপূৰ্ণ কাৰণ কমন ভইচ ডেটাছেটটো cc0 লাইচেন্সৰ অধীনত মুকলি কৰা হয়। আপুনি নিশ্চিত হ’লেহে বাক্য আপল’ড কৰিব আৰু সদায়েই প্ৰাসংগিক উদ্ধৃতি অন্তৰ্ভুক্ত কৰিব।
 adding-sentences-subheader-numbers-explanation = আদৰ্শৰূপে উৎস-পাঠত কোনো সংখ্যা থকা উচিত নহয় কিয়নো সেইবোৰ ফুটাই পঢ়োঁতে সমস্যাৰ সৃষ্টি হ’ব পাৰে। এটা সংখ্যা কেনেকৈ পঢ়া হয় সেইটো প্ৰসংগৰ ওপৰত নিৰ্ভৰ কৰে আৰু ডেটাছেটত বিভ্ৰান্তিৰ সৃষ্টি কৰিব পাৰে। উদাহৰণস্বৰূপে— “2409” সংখ্যাটো সঠিকভাৱে “চৌবিছশ ন” আৰু “দুহাজাৰ চাৰিশ ন” দুয়ো ধৰণে পঢ়িব পৰা যায়।
 adding-sentences-subheader-abbreviations = সংক্ষিপ্ত আৰু আদ্যক্ষৰী ৰূপ
 required-field = অনুগ্ৰহ কৰি এই ক্ষেত্ৰটো ভৰাওক।
@@ -1698,3 +1699,11 @@ sc-redirect-page-title = আমি কেতবোৰ ডাঙৰ সাল-স
 
 ## BULK SUBMISSION 
 
+bulk-upload-success-toast = সমূহীয়াকৈ বাক্যবোৰ আপল’ড কৰা হ’ল
+bulk-upload-failed-toast = আপল’ড বিফল হ’ল, অনুগ্ৰহ কৰি আকৌ চেষ্টা কৰক।
+bulk-submission-success-header = আপোনাৰ সমূহীয়া দাখিলৰ বৰঙ‌নি আগবঢ়োৱাৰ বাবে ধন্যবাদ!
+upload-more-btn-text = অধিক বাক্য আপল’ড কৰিবনে?
+file-invalid-type = অবৈধ ফাইল
+file-too-large = ফাইলটো বৰ ডাঙৰ
+file-too-small = ফাইলটো বৰ সৰু
+too-many-files = বৰ বেছি ফাইল
