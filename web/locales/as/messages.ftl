@@ -1713,7 +1713,7 @@ adding-sentences-subheader-abbreviations = সংক্ষিপ্ত আৰু
 adding-sentences-subheader-abbreviations-explanation = উৎস-পাঠত “অ: ৰা: প: নি:” বা “ইং”ৰ দৰে সংক্ষিপ্ত ৰূপ আৰু সংক্ষিপ্ত শব্দবোৰ এৰাই চলা উচিত কাৰণ সেইবোৰ বানানৰ লগত মিল নৰখাকৈ প‌ঢ়িব পৰা যায়। তদুপৰি এটা সংক্ষিপ্ত শব্দৰ কেইবাটাও সঠিক উচ্চাৰণ থাকিব পাৰে।
 adding-sentences-subheader-punctuation = যতি-চিহ্ন
 adding-sentences-subheader-punctuation-explanation = অতি প্ৰয়োজনীয় পৰিস্থিতিতহে বিশেষ চিহ্ন আৰু যতি-চিহ্ন অন্তৰ্ভুক্ত কৰা উচিত। উদাহৰণস্বৰূপে, “ৰ’দ” আৰু “ল’ৰালি”ৰ দৰে অসমীয়া শব্দত ঊৰ্ধ্বকমা অন্তৰ্ভুক্ত কৰা হয় আৰু উৎস-পাঠত অন্তৰ্ভুক্ত কৰা উচিত, কিন্তু আপোনাক কেতিয়াও “@” বা “#”ৰ দৰে বিশেষ চিহ্নৰ প্ৰয়োজন হোৱাৰ সম্ভাৱনা নাই।
-adding-sentences-subheader-special-characters = বিশেষ আৰু বিদেশী বৰ্ণ
+adding-sentences-subheader-special-characters = বিশেষ আৰু আচহুৱা বৰ্ণ
 adding-sentences-subheader-special-characters-explanation-1 = আখৰবোৰ কথিত ভাষাটোৰ ক্ষেত্ৰত বৈধ হ’বই লাগিব। উদাহৰণস্বৰূপে, “র” বাংলা বৰ্ণমালাৰ এটা বৰ্ণ যি অসমীয়াত কেতিয়াও ব্যৱহাৰ কৰা নহয় আৰু সেয়েহে অসমীয়া ভাষাৰ কোনো উৎস-পাঠতেই থকাটো কেতিয়াও উচিত নহয়।
 adding-sentences-subheader-special-characters-explanation-2 = ভাষাবোৰৰ স্থানীয়কৰণ কৰোঁতে অতিৰিক্ত প্ৰয়োজনীয়তাৰ লগতে নিজস্ব বৈধকৰণৰ নিয়মাৱলী নিৰ্ধাৰণ কৰিব পৰা যায়। এটা ভাষাৰ কোনো নিৰ্দিষ্ট বৈধকৰণৰ ফাইল নাথাকিলে ইংৰাজীৰ নিয়মাৱলী অৱদানকাৰীসকলে দেখা পাব।
 adding-sentences-subheader-offensive-content = আপত্তিজনক বিষয়বস্তু
@@ -1734,9 +1734,20 @@ citation =
 sc-write-submit-confirm = মই নিশ্চিত কৰিছোঁ যে এই বাক্যটো <wikipediaLink>ৰাজহুৱা ড’মেইন</wikipediaLink>ৰ আৰু মোৰ লগত এইটো আপল’ড কৰাৰ অনুমতি আছে।
 sc-review-write-title = মই কি কি বাক্য যোগ কৰিব পাৰোঁ?
 new-sentence-rule-1 = কোনো <no Copyright>কপিৰাইট</no কপিৰাইট> নিষেধাজ্ঞা নথকা (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = প্ৰতিটো বাক্যত 15টাতকৈ কম শব্দ
 new-sentence-rule-3 = শুদ্ধ ব্যাকৰণ ব্যৱহাৰ কৰক
 new-sentence-rule-4 = শুদ্ধ বানান আৰু যতি-চিহ্ন ব্যৱহাৰ কৰক
+new-sentence-rule-5 = কোনো সংখ্যা আৰু বিশেষ বৰ্ণ থাকিব নোৱাৰিব
+new-sentence-rule-6 = কোনো আচহুৱা বৰ্ণ থাকিব নোৱাৰিব
+new-sentence-rule-7 = উপযুক্ত উদ্ধৃতি অন্তৰ্ভুক্ত কৰিব
+new-sentence-rule-8 = আদৰ্শগতভাৱে স্বাভাৱিক আৰু কথোপকথনমূলক (বাক্যটো প‌ঢ়িবলৈ সহজ হোৱা উচিত)
+how-to-cite = উদ্ধৃতি কেনেকৈ দিম?
+how-to-cite-explanation-bold = এটা URL লিংক বা কামৰ সম্পূৰ্ণ নামৰ সৈতে উদ্ধৃতি দিয়ক।
+guidelines = নিৰ্দেশনাৱলী
+contact-us = আমাক যোগাযোগ কৰক
 required-field = অনুগ্ৰহ কৰি এই ক্ষেত্ৰটো ভৰাওক।
+single-sentence = এটাই বাক্য
+bulk-sentences = সমূহীয়া বাক্য
 
 ## REVIEW PAGE
 
@@ -1748,12 +1759,20 @@ sc-redirect-page-title = আমি কেতবোৰ ডাঙৰ সাল-স
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction-drop = আপল’ড কৰিবলৈ ফাইল ইয়ালৈ আনি এৰি দিয়ক
+try-upload-again = আপোনাৰ ফাইলটো ইয়ালৈ টানি আনি আকৌ চেষ্টা কৰক
+try-upload-again-md = আকৌ আপল’ড কৰি চাওক
 select-file = ফাইল বাছনি কৰক
 select-file-mobile = আপল’ড কৰিবলৈ ফাইল বাছনি কৰক
 accepted-files = গৃহীত ফাইলৰ প্ৰকাৰ: কেৱল .tsv
+maximum-file-size = সৰ্বাধিক ফাইলৰ আকাৰ: 25 MB
+what-needs-to-be-in-file = মোৰ ফাইলত কি কি থাকিব লাগিব?
+upload-progress-text = আপল’ড প্ৰগতিশীল অৱস্থাত আছে...
+sc-bulk-submit-confirm = মই নিশ্চিত কৰিছোঁ যে এই বাক্যকেইটা <wikipediaLink>ৰাজহুৱা ড’মেইন</wikipediaLink>ৰ আৰু মোৰ লগত এইকেইটা আপল’ড কৰাৰ অনুমতি আছে।
 bulk-upload-success-toast = সমূহীয়াকৈ বাক্যবোৰ আপল’ড কৰা হ’ল
 bulk-upload-failed-toast = আপল’ড বিফল হ’ল, অনুগ্ৰহ কৰি আকৌ চেষ্টা কৰক।
 bulk-submission-success-header = সমূহীয়া বৰঙ‌নি আগবঢ়োৱাৰ বাবে আপোনাক ধন্যবাদ!
+bulk-submission-success-subheader = আপুনি কমন ভইচক আমাৰ দৈনিক বাক্যৰ লক্ষ্যত উপনীত হোৱাত সহায় কৰি আছে!
 upload-more-btn-text = অধিক বাক্য আপল’ড কৰিবনে?
 file-invalid-type = অবৈধ ফাইল
 file-too-large = ফাইলটো বৰ ডাঙৰ
