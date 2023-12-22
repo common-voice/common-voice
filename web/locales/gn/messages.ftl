@@ -470,13 +470,13 @@ change-email-setings = Emoambue ne ñanduti veve eikévo Ñembosako’ípe oĩva
 faq-title = Oñeporanduvéva (FAQ)
 faq-what-cv-q = Mba’épa Common Voice?
 faq-what-cv-a =
-    Tembiporu ñe’ẽ oikũmbýva omoambue mba’éicha jaiporu mohendaha, ojapokuaáva térã ohai ja’éva chupe. Jepérõ ãichagua tembiporu hepyete ha ijára. Common Voice niko Mozilla rembiapokue, oñepyrũva ikatu hag̃ua opavave oiporu tembiporu ñe’ẽ oikũmbýva. Common Voice omono’õ ñe’ẽ ñongatupyre oñeme’ẽreíva ojeporukuaa hag̃ua opaite ñe’ẽme.
+    Tembiporu ñe’ẽ oikũmbýva omoambue mba’éicha jaiporu mohendaha, ojapokuaa térã ohai ja’éva chupe. Jepérõ ãichagua tembiporu hepyete ha ijára. Common Voice niko Mozilla ojapopyre, oñepyrũva ikatu hag̃ua opavave oiporu tembiporu ñe’ẽ oikũmbýva. Common Voice omono’õ ñe’ẽ oñeme’ẽreíva ojeporukuaa hag̃ua opaite ñe’ẽme.
     
     Rombyaty ñe’ẽ ñongatupyre heta ñe’ẽ sa’ivémava oñeñe’ẽ ko’ág̃a imbarete ha okakuaa hag̃ua. Romba’apo tembiporu’i oikũmbykuaáva ñe’ẽ ohendúva hérava Deep Speech rehe.
 faq-what-cv-a-2 =
     Tembiporu ñe’ẽ oikũmbývaniko omoambue ohóvo mba’eichaitépa jaiporu mohendahakuéra, ikatúvagui ojapo térã ohai ja’éva chupe. Jepéramo upéva ko’ãichagua tembiporu hepyete ha ijára. Common Voice niko Mozilla rembiapokue, oñemoñepyrũva ikatu hag̃uáicha opavavete oiporukuaa tembiporu ñe’ẽ oikũmbýva. Common Voice omono’õ ohóvo ñe’ẽ ñongatupyre oñeme’ẽreíva oporopytyvõséva ikatu hag̃uáicha ojeporukuaa opaite ñe’ẽme ñande yvy ape ari tuichakue.
     
-    Ore ndaha’éi rombyatýva umi ñe’ẽ ojepurvéva añónte, avei umi sa’ivéva oñeñe’ẽ. Oñemoherakuãvo mba’ekuaarã aty ayvu rehegua omoneĩtava mboguatahakuéra, iviruhetáva ha tekohápe rohechapa ko’ã mba’e.
+    Ore ndaha’éi rombyatýva umi ñe’ẽ ojepurvéva añónte, avei umi sa’ivéva oñeñe’ẽ. Oñemoherakuãvo mba’ekuaarã aty ayvu rehegua omoneĩtava mboguataharakuéra, iviruhetáva ha tekohápe rohechapa ko’ã mba’e.
 faq-why-important-q = Mba’érepa ehecharamo
 faq-why-important-a = Ñane ñe’ẽ rupive ningo ñañomomarandu’ypy jepi ambue yvypóra ndive, ñande rógape, ñane irũ ndive ha ñamba’apohápe avei. Upéva rehe tembiporu ñe’ẽryapu reheve omba’apóva ñanepytyvõkuaa jaiporuporãve hag̃ua ñane mohendahakuéra ha ñane pumbyry avei. Ore roykekose ñanduti guerojeraharakuérape ojapo hag̃ua tembiporu’i oikũmbykuaáva oje’éva chupe taha’e ombohasakuaa hag̃ua ambue ñe’ẽme térã ojapo hag̃ua ojejeruréva chupe ñane pumbyry guive. Rombyasy haimete opaite ñe’ẽryapu ñongatupyre oĩva ñandutípe ijarateeha ha upévare ndaikatúi oimeraẽva oiporu. Upevakuére roimo’ã Common Voice rupive ikatutaha ñame’ẽ tembiporu’i apoharakuérape oĩva ñande yvy ape ári oikotevẽva omoheñói hag̃ua tembiporu ñe’ẽryapu oiporúva opaite ñe’ẽme ha opavavetépe g̃uarãva.
 faq-how-get-q = Mba’éichapa arekokuaa Common Voice mba’ekuaarã
