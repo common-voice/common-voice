@@ -1749,9 +1749,9 @@ contact-us = আমাক যোগাযোগ কৰক
 add-sentence-success = এটা বাক্য সংগৃহীত
 add-sentence-error = বাক্য যোগ কৰোঁতে ত্ৰুটি ঘটিছে
 required-field = অনুগ্ৰহ কৰি এই ক্ষেত্ৰটো ভৰাওক।
-single-sentence-submission = এটাই বাক্যৰ দাখিল
+single-sentence-submission = একক বাক্যৰ দাখিল
 bulk-sentence-submission = সমূহীয়া বাক্যৰ দাখিল
-single-sentence = এটাই বাক্য
+single-sentence = একক বাক্য
 bulk-sentences = সমূহীয়া বাক্য
 
 ## REVIEW PAGE
@@ -1764,11 +1764,17 @@ report-sc-different-language = বেলেগ ভাষা
 report-sc-different-language-detail = এয়া মই পৰ্যালোচনা কৰি থকা ভাষাতকৈ কোনো বেলেগ ভাষাত লিখা আছে।
 sentences-fetch-error = বাক্যবোৰ আনোতে কিবা ত্ৰুটি ঘটিছে
 review-error = এই বাক্যটো পৰ্যালোচনা কৰোঁতে এটা ত্ৰুটি ঘটিছে
+review-error-rate-limit-exceeded = আপুনি বৰ বেগাই গৈ আছে। অনুগ্ৰহ কৰি অলপমান সময় লৈ বাক্যটো পৰ্যালোচনা কৰি ইয়াৰ শুদ্ধতা নিশ্চিত কৰক।
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = আমি কেতবোৰ ডাঙৰ সাল-সলনি কৰি আছোঁ
+sc-redirect-page-subtitle-1 = বাক্য-সংগ্ৰাহকটো মূল কমন ভইচ প্লেটফৰ্মলৈ স্থানান্তৰিত হৈ আছে। আপুনি এতিয়া কমন ভইচত বাক্য <writeURL>লিখিব</writeURL> পাৰে নাইবা একক বাক্যৰ দাখিলবোৰ <reviewURL>পৰ্যালোচনা</reviewURL> কৰিব পাৰে।
+sc-redirect-page-subtitle-2 = <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> নাইবা <emailLink>ইমেইল</emailLink>ত আমাক প্ৰশ্ন সোধক।
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = ৰাজহুৱা ড’মেইনৰ বাক্য <icon></icon> আপল’ড কৰক
+sc-bulk-upload-instruction = আপোনাৰ ফাইলটো ইয়ালৈ ধৰি টানি আনক বা আপল’ড কৰিবলৈ <uploadButton>ক্লিক কৰক</uploadButton>
 sc-bulk-upload-instruction-drop = আপল’ড কৰিবলৈ ফাইল ইয়ালৈ আনি এৰি দিয়ক
 try-upload-again = আপোনাৰ ফাইলটো ইয়ালৈ টানি আনি আকৌ চেষ্টা কৰক
 try-upload-again-md = আকৌ আপল’ড কৰি চাওক
