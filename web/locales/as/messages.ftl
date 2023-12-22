@@ -1723,7 +1723,7 @@ reviewing-sentences-explanation-2 = যদি বাক্যটোৱে ওপ
 reviewing-sentences-explanation-3 = যদি আপুনি বাক্যটোৰ বিষয়ে নিশ্চিত নহয়, তেন্তে আপুনি বাক্যটো এৰি পৰৱৰ্তী বাক্যটোলৈও যাব পাৰে।
 reviewing-sentences-explanation-4 = যদি পৰ্যালোচনা কৰিবলৈ আপোনাৰ বাক্য শেষ হৈ যায়, তেন্তে অনুগ্ৰহ কৰি আমাক অধিক বাক্য সংগ্ৰহ কৰাত সহায় কৰিব!
 # WRITE PAGE
-write-instruction = <icon></icon> এটা ৰাজহুৱা ড’মেইনৰ বাক্য যোগ কৰক
+write-instruction = এটা ৰাজহুৱা ড’মেইনৰ বাক্য <icon></icon> যোগ কৰক
 write-page-subtitle = ইয়াত অৱদান আগবঢ়োৱা বাক্যবোৰ এক ৰাজহুৱাভাৱে উপলব্ধ cc-0 অনুজ্ঞাপত্ৰ-প্ৰাপ্ত ডেটাছেটত যোগ কৰা হ’ব।
 sentence =
     .label = বাক্য
@@ -1756,9 +1756,14 @@ bulk-sentences = সমূহীয়া বাক্য
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = পৰীক্ষা কৰক <icon></icon> এইটো ভাষিক ৰূপত শুদ্ধ বাক্য নেকি?
+sc-review-rules-title = বাক্যটোৱে নিৰ্দেশনাৱলী পূৰণ কৰিছেনে?
+sc-review-empty-state = বৰ্তমান এই ভাষাত পৰ্যালোচনা কৰিবলগীয়া এটাও বাক্য নাই।
 report-sc-different-language = বেলেগ ভাষা
 report-sc-different-language-detail = এয়া মই পৰ্যালোচনা কৰি থকা ভাষাতকৈ কোনো বেলেগ ভাষাত লিখা আছে।
 sentences-fetch-error = বাক্যবোৰ আনোতে কিবা ত্ৰুটি ঘটিছে
+review-error = এই বাক্যটো পৰ্যালোচনা কৰোঁতে এটা ত্ৰুটি ঘটিছে
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = আমি কেতবোৰ ডাঙৰ সাল-সলনি কৰি আছোঁ
 
