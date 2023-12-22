@@ -364,7 +364,7 @@ request-language-button = Ejerure peteĩ Ñe’ẽ
 ## ProjectStatus
 
 status-title = ¡Mba’éicha oiko aponde’a: ehecha mboýmapa ohupyty!
-status-contribute = Eme’ẽ nde ahy’o pu
+status-contribute = Eme’ẽ nde ahy’o ryapu
 status-hours =
     { $hours ->
         [one] ¡Peteĩ aravóma oñemoneĩ ko’ág̃a peve!
@@ -402,7 +402,7 @@ leaderboard-visibility =
 hidden = Kañygua
 visible = Hecháva
 native-language =
-    .label = Ñe’ẽ ypyrguáva
+    .label = Ñe’ẽ ypyguáva
 profile-form-add-accent = Embojuaju myanduhe pyahu mba’etepyre "{ $inputValue }"
 profile-form-submit-save = Ñongatu
 profile-form-submit-saved = Ñongatupyre
@@ -413,7 +413,7 @@ other = Ambue
 why-profile-title = Mba’érepa mba’ete
 why-profile-text =
     Emombe’umivéramo nde rehegua oipytyvõkuaáta opaite ñe’ẽryapu ojeporu porãve hag̃ua ko’ẽreíre.
-    Tembiporu oñeha’ãva ohaívo ohendúva oiporu remombe’úva chupe ohai porãve rekávo.
+    Tembiporu oñeha’ãva ohaívo ohendúva oiporu remombe’úva chupe ohai porãvévo tenondeve.
 dashboard = Tabléro
 build-profile = Hemoheñói Mba’ete
 avatar = Avatar
