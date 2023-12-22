@@ -960,7 +960,7 @@ target-segment-learn-more = অধিক জানক
 
 ## Contribution Nav Items
 
-contribute-voice-collection-nav-header = মাতৰ সংগ্ৰহ
+contribute-voice-collection-nav-header = মাত-সংগ্ৰহ
 contribute-sentence-collection-nav-header = বাক্য-সংগ্ৰহ
 
 ## Reporting
