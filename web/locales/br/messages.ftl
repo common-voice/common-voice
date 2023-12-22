@@ -1163,6 +1163,7 @@ sc-howto-review-title = Gwiriañ Frazennoù
 ## MY SENTENCES
 
 sc-my-title = Ma Frazennoù
+sc-my-no-sentences = Frazenn ebet kavet!
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Mammenn: { $source }
