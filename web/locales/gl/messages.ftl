@@ -403,7 +403,7 @@ male = Masculino
 female = Feminino
 # Gender
 other = Outro
-why-profile-title = Por que un perfil?
+why-profile-title = Por que crear un perfil?
 why-profile-text = Ao fornecer algunha información sobre si, os datos de son que vostede envía a Common Voice serán máis adecuados para os motores de recoñecemento da fala que os utilicen co fin de mellorar a súa precisión.
 dashboard = Taboleiro
 build-profile = Construír o perfil
