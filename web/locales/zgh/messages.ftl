@@ -770,6 +770,7 @@ number-of-voices = ⵓⵟⵟⵓⵏ ⵏ ⵉⴳⵕⴹⴰⵏ
 splits = ⵉⴳⵣⵎⴰⵏ
 email-to-download = ⵙⵙⴽⵛⵎ ⵉⵎⴰⵢⵍ ⵃⵎⴰ ⴰⴷ ⵜⴰⴳⵎⴷ
 why-email = <b>ⵎⴰⵅⴼ ⵉⵎⴰⵢⵍ?</b> ⵉⵖⵉⵢ ⴰⴷ ⵏⴰⵙⵔ ⴰⴷ ⴷⵉⴷⵓⵏ ⵏⵎⵢⴰⵡⴰⴹ ⴳ ⵢⵉⵎⴰⵍ ⵅⴼ ⵉⵙⵏⴼⵍⵏ ⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ, ⵉⵎⴰⵢⵍ ⴰ ⵔⴰⴷ ⵉⴳ ⴰⵎⵎⴰⴽ ⵏ ⵓⵎⵢⴰⵡⴰⴹ.
+why-donate = ⵎⴰⵖⵔ ⵜⵙⵇⵙⴰⴷ?
 confirm-size = ⵜⵎⵓⵜⵜⴳⴷ ⴰⴷ ⵜⵙⵙⵏⵜⵉⴷ ⵢⴰⵏ ⵡⴰⴳⴰⵎ ⵏ <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -887,6 +888,8 @@ language-section-in-progress = ⴳ ⵡⴰⵍⴰⵢ
 language-section-in-progress-new-description = ⵍⵍⴰⵏⵜ ⵜⵓⵜⵍⴰⵢⵉⵏ ⴰ ⵙ ⵓⵎⵉⵔⴰⵏ ⴷⴷⴰⵡ ⵓⵙⴱⵓⵖⵍⵓ ⵏ ⵜⴳⵔⴰⵡⵜ. ⵉⵜⵜⵢⴰⵙⴰⵔ <localizationGlossaryLink>ⵓⵙⵙⴷⵖⵔ ⵏ ⵓⵙⵉⵜⵡⵉⴱ</localizationGlossaryLink> ⴷ <sentenceCollectionGlossaryLink>ⵓⴳⵔⵔⵓ ⵏ ⵜⵡⵉⵏⴰⵙ</sentenceCollectionGlossaryLink> ⵃⵎⴰ ⴰⴷ ⵏⵏⵓⵕⵥⵎⵏⵜ.
 language-section-launched = ⵏⵏⵓⵕⵥⵎⵏⵜ
 language-section-launched-description = ⵉ ⵜⵓⵜⵍⴰⵢⵉⵏ ⴰ ⵏⵏⵓⵕⵥⵎⵏⵉⵏ, <localizationGlossaryLink>ⵉⵜⵜⵓⵙⴷⵖⵔ</localizationGlossaryLink> ⵓⵙⵉⵜⵡⵉⴱ ⵙ ⵓⵎⵓⵔⵙ, ⵉⵍⵉⵏⵜ ⵖⵓⵔⵙ <sentenceCollectionGlossaryLink>ⵜⵡⵉⵏⴰⵙ ⵜⵜⵓⴳⵔⴰⵏⵉⵏ</sentenceCollectionGlossaryLink> ⵓⴷⴰⵏⵉⵏ ⵉ ⵓⵙⵙⵓⵔⴳ ⵏ ⵡⴰⵔⵔⴰⴳⵏ ⵉⵙⵓⵍⴰⵏⵏ ⵏ <speakLink>ⵓⵙⵉⵡⵍ</speakLink> ⴷ <listenLink>ⵜⵎⵙⵍⵉⵡⵜ</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = ⴰⵙⴷⵖⵉ ⴰⵎⴳⴳⴰⵔⵓ: { $lastUpdatedTimeStamp }
 languages-show-more = ⵥⵕ ⵓⴳⴳⴰⵔ
 languages-show-less = ⵥⵕ ⴷⵔⵓⵙ
 language-meter-in-progress = ⴰⵍⴰⵢ
@@ -1814,7 +1817,9 @@ sc-redirect-page-subtitle-2 = ⵙⵇⵙⴰ ⴰⵏⵖ ⵉⵙⵇⵙⵉⵜⵏ ⴳ <
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = ⵙⴽⵜⵔ <icon></icon> ⵜⵉⵡⵉⵏⴰⵙ ⵏ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ
+sc-bulk-upload-instruction = ⵙⵓⵛⵛⴹⴰⵜ ⴰⴼⴰⵢⵍⵓ ⵏⵏⵓⵏ ⴷⴰ ⵏⵉⵖ <uploadButton>ⵜⴽⵍⵉⴽⵉⵎ ⵃⵎⴰ ⴰⴷ ⵜ ⵜⵙⴽⵜⵔⵎ</uploadButton>
 sc-bulk-upload-instruction-drop = ⵙⵔⵙ ⴰⴼⴰⵢⵍⵓ ⴷⴰ ⵃⵎⴰ ⴰⴷ ⵜ ⵜⵙⴽⵜⵔⴷ
+try-upload-again = ⴰⵔⵎⴰⵜ ⴷⴰⵖ ⵙ ⵓⵙⵓⵛⵛⴹ ⵏ ⵓⴼⴰⵢⵍⵓ ⵏⵏⵓⵏ ⴷⴰ
 try-upload-again-md = ⴰⵔⵎ ⴷⴰⵖ ⴰⵙⴽⵜⵔ
 select-file = ⵙⵜⵢ ⴰⴼⴰⵢⵍⵓ
 select-file-mobile = ⵙⵜⵢ ⴰⴼⴰⵢⵍⵓ ⵉ ⵓⵙⴽⵜⵔ
