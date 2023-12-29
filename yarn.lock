@@ -3135,10 +3135,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.2.tgz#ee771e2ba4b3dc5b372935d549fd9617bf345b8c"
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
-"@types/mysql@2.15.24":
-  version "2.15.24"
-  resolved "https://registry.yarnpkg.com/@types/mysql/-/mysql-2.15.24.tgz#ccdb7de49567d4bb5029b6f13a49342167b0370a"
-  integrity sha512-I0qULi8JBEg0oso69Fe4H4QPR+IdE0yRhZLu3uRhGwQ92m2Epz1cSD5jnXY0nMeZQKd61U8EvnOVMbNE74o3Kw==
+"@types/mysql@2.15.25":
+  version "2.15.25"
+  resolved "https://registry.yarnpkg.com/@types/mysql/-/mysql-2.15.25.tgz#a1dd241f2c95b1695ced5c336d567d5431aff698"
+  integrity sha512-pKjbzNu/xvD2xOx4psIfxu9CBg+GovLvQFk8NYTW3oT7Gf5QY65MvNgQNFvVb0nC3l9DCKGqBFYhujVrDqii4A==
   dependencies:
     "@types/node" "*"
 
