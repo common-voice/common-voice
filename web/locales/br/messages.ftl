@@ -1217,6 +1217,18 @@ sc-confirm-button-text = Kadarnaat
 
 sc-lang-info-title-total = Hollad
 sc-lang-info-title-personal = Personel
+sc-lang-info-review-now = <reviewLink>Gwiriit bremañ!</reviewLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Frazenn gwiriet ebet.
+        [one] 1 frazenn gwiriet.
+        [two] { $validatedSentences } frazenn gwiriet.
+        [few] { $validatedSentences } frazenn gwiriet.
+        [many] { $validatedSentences } frazenn gwiriet.
+       *[other] { $validatedSentences } frazenn gwiriet.
+    }
 
 ## LOGIN
 
@@ -1227,6 +1239,7 @@ sc-login-err-try-again = Klaskit en-dro mar plij.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil: { $username }
+sc-personal-err-remove = Ne c'haller ket lemel ar yezh
 sc-personal-your-languages = Ho yezhoù:
 sc-personal-remove-button = dilemel
 
