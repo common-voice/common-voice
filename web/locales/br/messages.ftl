@@ -1200,6 +1200,17 @@ sc-add-lang-sec-button = Ouzhpennañ ur yezh
 
 ## ADD SENTENCES CONFIRMATION
 
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Frazenn ebet kavet.
+        [one] 1 frazenn kavet.
+        [two] { $countOfSentences } frazenn kavet.
+        [few] { $countOfSentences } frazenn kavet.
+        [many] { $countOfSentences } frazenn kavet.
+       *[other] { $countOfSentences } frazenn kavet.
+    }
 sc-confirm-button-text = Kadarnaat
 
 ## LANGUAGE INFO
