@@ -728,6 +728,7 @@ more = Muioc’h
 close = Serriñ
 download = Pellgargañ
 dataset-version = Stumm
+clipboard-not-supported = N’eo ket skoret ar golver
 
 ## Download Modal
 
