@@ -1239,9 +1239,10 @@ sc-login-err-try-again = Klaskit en-dro mar plij.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Profil: { $username }
-sc-personal-err-remove = Ne c'haller ket lemel ar yezh
+sc-personal-err-remove = Ne c’haller ket lemel ar yezh
 sc-personal-your-languages = Ho yezhoù:
 sc-personal-remove-button = dilemel
+sc-personal-not-added = N’ho peus ouzhpennet yezh ebet c’hoazh.
 
 ## REVIEW CRITERIA
 
@@ -1294,6 +1295,7 @@ guidelines-header = Sturiadurioù ar c'hemer-perzh
 voice-collection = Dastumad mouezhioù
 sentence-collection = Dastumadeg frazennoù
 misreadings = Fazioù lenn
+background-noise = Trouz foñs
 background-voices = Mouezhioù er foñs
 volume = Live-son
 reader-effects = Efedoù al lenner
@@ -1302,6 +1304,7 @@ example = Skouer
 misreadings-tip-1 = [Rankout a rafe bezañ “Ni ’zo”]
 misreadings-tip-2 = [N‘eus ‘a’ ebet en destenn orin]
 background-noise-example-1 = An dinosaored ramzel eus an Triaseg.
+background-noise-example-3 = An dinosaor ramzel [paz] an Triaseg.
 background-voices-tip-1 = Dont a rez? [galvet gant ur vouezh all]
 still-have-questions = Goulennoù ho peus c’hoazh?
 contact-common-voice = Mont e darempred gant skipailh Common Voice
@@ -1318,6 +1321,7 @@ sentence =
     .label = Frazenn
 citation-input-value = Mammenn ho frazenn
 new-sentence-rule-2 = Nebeutoc’h eget 15 ger
+new-sentence-rule-6 = Lizherenn estren ebet
 guidelines = Sturiadurioù
 contact-us = Mont e darempred
 add-sentence-success = 1 frazenn bet dastumet
