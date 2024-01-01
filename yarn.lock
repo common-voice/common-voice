@@ -3337,10 +3337,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/redlock@4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@types/redlock/-/redlock-4.0.4.tgz#e89d0b69fd68c35c2e1490b5cf2ed283ee7baf55"
-  integrity sha512-1Q2cbSmuGQzqowWDVXkSDsj96muMSs1RiDBDHqSCiycyrpvNcMkmGZRaVrDgnbiL/YWXh3DAlKplAtIO4rzV7g==
+"@types/redlock@4.0.7":
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/@types/redlock/-/redlock-4.0.7.tgz#33ed56f22a38d6b2f2e6ae5ed1b3fc1875a08e6b"
+  integrity sha512-5D6egBv0fCfdbmnCETjEynVuiwFMEFFc3YFjh9EwhaaVTAi0YmB6UI1swq1S1rjIu+n27ppmlTFDK3D3cadJqg==
   dependencies:
     "@types/bluebird" "*"
     "@types/ioredis" "^4.28.10"
