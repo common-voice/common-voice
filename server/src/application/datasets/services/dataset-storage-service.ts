@@ -7,6 +7,7 @@ import {
 import { DatasetSplits } from '../../../core/datasets/types/dataset'
 import { pipe } from 'fp-ts/lib/function'
 import { log } from 'fp-ts/lib/Console'
+import { local } from 'fp-ts/lib/Reader'
 
 const BUCKET_NAME = getConfig().DATASET_BUCKET_NAME
 const downloadFromDatasetsBucket = downloadFileFromBucket(BUCKET_NAME)
@@ -29,12 +30,17 @@ const mapDataset = (locale: string, filepath: string, releaseDir: string) =>
     TE.let('datasetStats', ({ datasetStatsBuffer }) =>
       JSON.parse(datasetStatsBuffer.toString('utf-8'))
     ),
-    TE.map(({ datasetStats }) => ({
-      [releaseDir]: {
-        gender: datasetStats[locale].gender,
-        age: datasetStats[locale].age,
-      },
-    }))
+    TE.map(({ datasetStats }) => {
+      const { locales } = datasetStats
+      const localeSplit = locales[locale].splits
+      
+      return {
+        [releaseDir]: {
+          gender: localeSplit.gender,
+          age: localeSplit.age,
+        },
+      }
+    })
   )
 
 export const fetchDatasetSplits =
@@ -43,7 +49,6 @@ export const fetchDatasetSplits =
     return pipe(
       TE.Do,
       TE.let('filepath', () => getDatasetStatisticsPath(releaseDir)),
-      TE.chainFirst(({filepath}) => TE.fromIO(log(filepath))),
       TE.bind('doesDatasetStatsFileExist', ({ filepath }) =>
         TE.fromTask(doesFileExistInDatasetBucket(filepath))
       ),
