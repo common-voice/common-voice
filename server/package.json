@@ -69,7 +69,7 @@
     "@types/nodemailer": "6.4.4",
     "@types/passport-auth0": "1.0.5",
     "@types/redlock": "4.0.7",
-    "@types/request-promise-native": "1.0.18",
+    "@types/request-promise-native": "1.0.21",
     "@types/universal-analytics": "0.4.5",
     "dotenv": "16.0.3",
     "jest": "27.5.1",
