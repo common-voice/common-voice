@@ -762,6 +762,7 @@ number-of-voices = የድምፅ ብዛት
 splits = ክፋዮች
 email-to-download = ለማውረድ ኢሜል ያስገቡ
 why-email = <b> ኢሜል ለምን? </b> በውሂብ ስብስቡ ላይ ስለሚደረጉ ለውጦች ወደፊት እርስዎን ማነጋገር ሊያስፈልገን ይችላል ፣ ኢሜል የመገናኛ ነጥብ ይሰጠናል።
+why-donate = ለምን ይጠይቃሉ?
 confirm-size = የ <b> { $size } </b> ን ማውረድ ለመጀመር ተዘጋጅቷል
 size-gigabyte = ጊባ
 size-megabyte = ሜባ
@@ -878,6 +879,8 @@ language-section-in-progress = በሂደት ላይ
 language-section-in-progress-new-description = እነዚህ ቋንቋዎች በአሁኑ ጊዜ በማህበረሰብ ልማት ላይ ናቸው። <localizationGlossaryLink>የድረ-ገጽ አካባቢያዊነት</localizationGlossaryLink> እና አረፍተ-ነገር ስብሰባ</sentenceCollectionGlossaryLink> ለማስጀመር ያስፈልጋል።
 language-section-launched = ተለቀቀ
 language-section-launched-description = ለእነዚህ ለጀመሩ ቋንቋዎች ድህረ ገጹ በተሳካ ሁኔታ <localizationGlossaryLink>አካባቢያዊ</localizationGlossaryLink> እና በቂ <sentenceCollectionGlossaryLink>የተሰበሰበ ዓረፍተ ነገር አለው</sentenceCollectionGlossaryLink> ቀጣይነት ያለው <speakLink>ንግግር</speakLink> እና ማደመጥ አስተዋፆ ለማስጀመር።
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = መጨረሻ የዘመነው፡ { $lastUpdatedTimeStamp }
 languages-show-more = ተጨማሪ ይመልከቱ
 languages-show-less = ያነሰ ይመልከቱ
 language-meter-in-progress = ሂደት
@@ -947,6 +950,9 @@ listen-empty-state = ቅንጥቦች አልቆብን ይሆናል - ገጹን �
 listen-loading-error =
     ለማዳመጥ ምንም የድምጽ ቅንጥቦችን ማግኘት አልቻልንም።
     እባክዎ ቆየት ብለው ይሞክሩ።
+listen-abort-title = ቅንጥቦችን ማረጋገጥ ይጨርስ?
+listen-abort-cancel = ማረጋገጡን ይቀጥሉ
+listen-abort-confirm = ማረጋገጥን ጨርስ
 speak-empty-state = በዚህ ቋንቋ ለመቅዳት ዓረፍተ ነገር አልቆብናል...
 speak-empty-state-cta = ዓረፍተ ነገሮችን አበርክቱ
 speak-loading-error =

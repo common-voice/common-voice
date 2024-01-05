@@ -2,12 +2,9 @@ import fs from 'node:fs'
 import { pipeline } from 'node:stream/promises'
 import path from 'node:path'
 import { Transform } from 'node:stream'
-import zlib from 'node:zlib'
 
-import tar from 'tar'
 import {
   either as E,
-  io as IO,
   readerTaskEither as RTE,
   task as T,
   taskEither as TE,
@@ -15,12 +12,12 @@ import {
 import { constVoid, pipe } from 'fp-ts/lib/function'
 import { stringify } from 'csv-stringify'
 import { parse } from 'csv-parse'
-import { parse as parseSync } from 'csv-parse/sync'
 
 import { streamingQuery } from '../infrastructure/database'
 import {
   doesFileExistInBucket,
   downloadFileFromBucket,
+  getMetadataFromFile,
   streamDownloadFileFromBucket,
 } from '../infrastructure/storage'
 import { AppEnv, ClipRow } from '../types'
@@ -304,19 +301,22 @@ const fetchAllClipsForLocale = (
         continue
       }
 
-      const existsInBucket = await pipe(
-        doesFileExistInBucket(CLIPS_BUCKET)(clip.path),
-        TE.getOrElse(() => T.of(false)),
+      const fileSize = await pipe(
+        getMetadataFromFile(CLIPS_BUCKET)(clip.path),
+        TE.map(metadata => Number(metadata.size)),
+        TE.getOrElse(() => T.of(0)),
       )()
 
-      if (existsInBucket) {
-        const buffer = await downloadFileFromBucket(CLIPS_BUCKET)(clip.path)()
+      if (fileSize <= 256) {
+        continue
+      }
+      
+      const buffer = await downloadFileFromBucket(CLIPS_BUCKET)(clip.path)()
 
-        if (E.isRight(buffer)) {
-          fs.writeFileSync(clipFilepath, buffer.right)
-        } else {
-          Promise.reject(buffer.left)
-        }
+      if (E.isRight(buffer)) {
+        fs.writeFileSync(clipFilepath, buffer.right)
+      } else {
+        Promise.reject(buffer.left)
       }
     }
 
@@ -343,9 +343,7 @@ const createClipsTsv = (
   }, logError)
 }
 
-const downloadPreviousRelease = (locale: string, prevReleaseName?: string) => {
-  if (!prevReleaseName) return TE.right(constVoid())
-
+const downloadPreviousRelease = (locale: string, prevReleaseName: string) => {
   const tarFilename = generateTarFilename(locale, prevReleaseName)
   const storagePath = `${prevReleaseName}/${tarFilename}`
 
@@ -403,7 +401,11 @@ export const fetchAllClipsPipeline = (
   return pipe(
     TE.Do,
     TE.let('clipsTmpPath', () => getTmpClipsPath(locale)),
-    TE.chainFirst(() => downloadPreviousRelease(locale, previousReleaseName)),
+    TE.chainFirst(() =>
+      previousReleaseName
+        ? downloadPreviousRelease(locale, previousReleaseName)
+        : TE.right(constVoid()),
+    ),
     TE.chainFirst(() =>
       previousReleaseName
         ? extractClipsFromPreviousRelease(locale, previousReleaseName)

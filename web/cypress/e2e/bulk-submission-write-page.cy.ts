@@ -1,11 +1,12 @@
 import { visitBulkSubmissionPage } from '../actions/bulk-submission-write-page.action'
 
+// Retries are needed because the auth0 login flow is flaky
 describe('The Write Page - Bulk Submission', () => {
   beforeEach(() => {
     visitBulkSubmissionPage()
   })
 
-  it('uploads a file', () => {
+  it('uploads a file', { retries: { runMode: 3 } }, () => {
     // upload file
     cy.get('input[type=file]').attachFile('sample-bulk-submission.tsv')
 
@@ -18,7 +19,7 @@ describe('The Write Page - Bulk Submission', () => {
     cy.contains('Thank you for contributing your bulk submission!')
   })
 
-  it('accepts only .tsv files', () => {
+  it('accepts only .tsv files', { retries: { runMode: 3 } }, () => {
     // upload invalid json file
     cy.get('input[type=file]').attachFile('example.json')
 

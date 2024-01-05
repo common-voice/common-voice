@@ -950,7 +950,9 @@ listen-empty-state = ایں زبان وچ تصدیق کرݨ کیتے ساݙے ک
 listen-loading-error =
     اساں تہاݙے سُݨݨ کیتے کوئی آڈیو کلپ کائنی گھن سڳے۔
     سوہݨا، ولدا بعد وچ کوشش کرو۔
+listen-abort-title = کلپاں دی تصدیق دا خاتمہ کروں؟
 listen-abort-cancel = تصدیق کرݨ جاری رکھو
+listen-abort-confirm = تصدیق کرݨ ختم کرو
 speak-empty-state = ایں زبان وچ رکاڈ کرݨ کیتے ساݙے کول جملے مُک ڳئے ہن۔۔۔
 speak-empty-state-cta = فقرے پاؤ
 speak-loading-error =

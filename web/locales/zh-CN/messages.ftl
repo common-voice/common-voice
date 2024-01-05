@@ -740,6 +740,7 @@ number-of-voices = 录音人数
 splits = 分割
 email-to-download = 输入电子邮件地址进行下载
 why-email = <b>为什么需要电子邮件地址？</b>这是因为未来我们可能会联系您，提供数据集的相关更新信息。 邮件地址可作为我们联系您的方式。
+why-donate = 为什么这么问？
 confirm-size = 我已准备好下载 <b>{ $size }</b> 的文件
 size-gigabyte = GB
 size-megabyte = MB
@@ -848,7 +849,7 @@ language-section-in-progress-new-description = 这些语言当前处于社区发
 language-section-launched = 已上线
 language-section-launched-description = 推出的语言代表网站已成功<localizationGlossaryLink>本地化</localizationGlossaryLink>，也收集了足够多<sentenceCollectionGlossaryLink>句子</sentenceCollectionGlossaryLink>，足以支持<speakLink>说话</speakLink>及<listenLink>聆听</listenLink>的贡献。
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
-language-section-last-updated = 最后更新 { $lastUpdatedTimeStamp }
+language-section-last-updated = 最后更新：{ $lastUpdatedTimeStamp }
 languages-show-more = 显示更多
 languages-show-less = 显示更少
 language-meter-in-progress = 进度
