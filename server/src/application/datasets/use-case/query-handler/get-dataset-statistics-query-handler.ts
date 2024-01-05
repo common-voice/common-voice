@@ -22,13 +22,14 @@ const getDatasetStatisticsFile = (
     TE.Do,
     TE.bind('languageDataset', () => getLanguageDatasetStats(locale)),
     TE.let('releaseDirs', ({ languageDataset }) =>
-      languageDataset.map(dataset => dataset.release_dir)
+      languageDataset
+        .map(dataset => dataset.release_dir)
+        .filter(releaseDir => !releaseDir.includes('delta'))
     ),
     TE.bind('datasetSplits', ({ releaseDirs }) => {
       return pipe(releaseDirs, TE.traverseArray(fetchDatasetSplits(locale)))
     }),
     TE.map(({ languageDataset, datasetSplits }) => {
-      console.log(datasetSplits)
       const allSplits = datasetSplits.reduce(
         (acc, curr) => ({ ...acc, ...curr }),
         {}

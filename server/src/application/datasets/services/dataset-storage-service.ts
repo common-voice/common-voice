@@ -14,7 +14,7 @@ const downloadFromDatasetsBucket = downloadFileFromBucket(BUCKET_NAME)
 const doesFileExistInDatasetsBucket = doesFileExistInBucket(BUCKET_NAME)
 
 const getDatasetStatisticsPath = (releaseDir: string) =>
-  `${releaseDir}/${releaseDir}.json`
+  `stats/${releaseDir}.json`
 
 export const doesFileExistInDatasetBucket = (filepath: string) =>
   pipe(
