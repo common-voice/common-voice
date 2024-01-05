@@ -1,12 +1,9 @@
 import { defineConfig } from 'cypress'
-import { cypressBrowserPermissionsPlugin } from 'cypress-browser-permissions'
 
 export default defineConfig({
   e2e: {
     baseUrl: 'http://localhost:9000', // TODO: generate this based on the env we run the test
-    setupNodeEvents(on, config) {
-      config = cypressBrowserPermissionsPlugin(on, config)
-
+    setupNodeEvents(on) {
       on('before:browser:launch', (browser, launchOptions) => {
         if (browser.family === 'firefox') {
           // launchOptions.preferences is a map of preference names to values
@@ -18,11 +15,6 @@ export default defineConfig({
 
         return launchOptions
       })
-    },
-    env: {
-      browserPermissions: {
-        microphone: 'allow',
-      },
     },
     viewportWidth: 1500,
     viewportHeight: 1000,

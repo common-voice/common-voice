@@ -1,9 +1,10 @@
-// TODO: fix login
 export const visitReviewPage = () => {
   const testUserEmail = Cypress.env('test_user_email')
   const testUserPassword = Cypress.env('test_user_password')
 
-  cy.visit('/review')
+  cy.visit('/')
+
+  cy.get('[data-testid=login-button]').click()
 
   cy.origin(
     Cypress.env('auth0_domain'),
@@ -11,12 +12,15 @@ export const visitReviewPage = () => {
     ({ email, password }) => {
       cy.get('input[name=username]').type(email)
 
-      // {enter} causes the form to submit
-      cy.get('input[name=password]').type(`${password}{enter}`, {
+      cy.get('input[name=password]').type(`${password}`, {
         log: false,
       })
+
+      cy.get('[data-action-button-primary=true]').click()
     }
   )
+
+  cy.visit('/review')
 
   cy.get('[data-testid=review-page]', { timeout: 10000 }).should('be.visible')
 

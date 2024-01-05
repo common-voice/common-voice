@@ -754,6 +754,7 @@ number-of-voices = Počet hlasů
 splits = Rozdělení
 email-to-download = Pro stažení zadejte svou e-mailovou adresu
 why-email = <b>Proč e-mail?</b> Je možné, že vás budeme potřebovat v budoucnu kontaktovat ohledně změn v datech.
+why-donate = Nač se ptáte?
 confirm-size = Jste připraveni stáhnout <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -1740,6 +1741,8 @@ reviewing-sentences-explanation-1 = Splňuje-li věta výše uvedená kritéria,
 reviewing-sentences-explanation-2 = Pokud věta nesplňuje výše uvedená kritéria, klepněte na tlačítko "Ne".
 reviewing-sentences-explanation-3 = Pokud si větou nejste jisti, je možné ji přeskočit a přejít na další.
 reviewing-sentences-explanation-4 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
+# WRITE PAGE
+write-instruction = Přidat <icon></icon> větu jako volné dílo
 write-page-subtitle = Věty, kterými zde přispějete, budou přidány do veřejně dostupného datasetu pod licencí cc-0.
 sentence =
     .label = Věta
@@ -1772,6 +1775,8 @@ bulk-sentences = Více vět
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Zkontrolujte <icon></icon>, že je tato věta jazykově správně.
 sc-review-rules-title = Odpovídá věta doporučením?
 sc-review-empty-state = Tento jazyk nyní nemá k ověření žádné věty.
 report-sc-different-language = Další jazyk
@@ -1786,6 +1791,9 @@ sc-redirect-page-subtitle-2 = Ptejte se na <matrixLink>Matrixu</matrixLink>, <di
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Nahrát <icon></icon> věty jako volné dílo
+sc-bulk-upload-instruction = Přetáhněte sem soubor nebo <uploadButton>klepněte pro nahrání</uploadButton>
 sc-bulk-upload-instruction-drop = Sem přetáhněte soubor na nahrání
 try-upload-again = Zkuste to znovu přesunutím souboru sem
 try-upload-again-md = Zkuste nahrát znovu
