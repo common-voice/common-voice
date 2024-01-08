@@ -213,11 +213,11 @@ vote-no = ኢፋል
 toggle-play-tooltip = { shortcut-play-toggle } ጭቀጦ እግል ታሽቁዋ ኣው ታብጡራ
 speak-subtitle = አብ ክርንኩም አትበራዖ
 speak-goal-text = ክሊፕ ሳጃላ
-listen-subtitle = ኣስዋት አግል ንሓቅቅ ስደውና
+listen-subtitle = እክርን አግል ንሓቅቅ ስደውና
 listen-goal-text = ክሊፕ ታሓቃቃ
 hours-recorded = ላትሰጀለያ ሳዓት
 hours-validated = ላትሓቀቀያ ሳዓት
-voices-online = ኣዘ ዲብ ኸጥ ላህሌት ኣስዋት
+voices-online = ኣዘ ዲብ ኸጥ ላህሌት እክርን
 todays-progress = ናይ ዮም ትቅዱም
 help-reach-goal = ስደውና ኣስክ { $goal } አገል ኔብጻሕ
 read-terms-q = ሹሩጥና ቃራአኩምማ?
@@ -623,6 +623,7 @@ action-click = ጭቀጥ
 action-tap = ክሳእ
 contribute = ሳህም
 listen = ሰምዖ
+write = ክተቦ
 skip = ሕለፍዎ
 shortcuts = ገበይ ሓቻር
 clips-with-count-pluralized =
@@ -795,7 +796,7 @@ n-clips-pluralized =
         [one] ክሊፕ
        *[other] ክሊፕ
     }
-help-share-goal = ኣስዋት ብዕደት እግል ንርከብ ስደውና, ሓደፍካ ሻርክ
+help-share-goal = እክርን ብዕደት እግል ንርከብ ስደውና, ሓደፍካ ሻርክ
 confirm-goal = ሓደፍኩም ኣክዶ
 goal-interval-weekly = ኩል ሳምን
 # $type is one of share-goal-type-*
