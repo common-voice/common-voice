@@ -38,6 +38,7 @@ import { reportsRouter } from '../api/reports/routes';
 import { pipe } from 'fp-ts/lib/function';
 import { streamUploadToBucket } from '../infrastructure/storage/storage';
 import { bulkSubmissionsRouter } from '../api/bulk-submissions/routes';
+import { datasetRouter } from '../api/datasets/routes';
 
 export default class API {
   model: Model;
@@ -129,9 +130,10 @@ export default class API {
       this.getAllDatasets
     );
     router.get('/datasets/languages', this.getAllLanguagesWithDatasets);
-    router.get(
-      '/datasets/languages/:languageCode',
-      this.getLanguageDatasetStats
+
+    router.use(
+      '/datasets/languages',
+      datasetRouter
     );
 
     router.post('/newsletter/:email', this.subscribeToNewsletter);
