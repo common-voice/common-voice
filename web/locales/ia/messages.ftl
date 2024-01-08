@@ -405,7 +405,7 @@ female = Feminin
 other = Altere
 why-profile-title = Proque un profilo?
 why-profile-text = Si tu forni alcun informationes sur te, le datos audio que tu invia a Common Voice essera plus utile pro le motores de recognition de voce que usa iste datos pro meliorar lor precision.
-dashboard = Tabuliero
+dashboard = Pannello de controlo
 build-profile = Crear le profilo
 avatar = Avatar
 goals = Objectivos
@@ -1170,7 +1170,7 @@ demo-listen-subtitle = Preste a contribuer?
 
 ## Demo Dashboard
 
-demo-dashboard-card-header = Le tabulieros personal te tene al currente con le progresso individual e communitari.
+demo-dashboard-card-header = Le pannellos personal te tene al currente con le progresso individual e communitari.
 demo-dashboard-card-body = Pro cata retalio de voce donate e cata retalio de audio validate, le tabulieros de tu conto se actualisa pro reflecter le ultime progresso in cata lingua in que tu contribue. Si, tu pote contribuer a plure linguas!<br/><br/>Usa le tabulieros pro traciar tu statisticas, comparar tu progresso con illo de alteres in le communitate, e definir objectivos de contribution quotidian o septimanal.
 
 ## Validation criteria

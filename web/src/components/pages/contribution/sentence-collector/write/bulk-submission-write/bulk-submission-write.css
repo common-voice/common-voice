@@ -27,7 +27,8 @@
             & .upload-dropzone {
                 border: 1px dashed var(--dark-grey);
                 width: 670px;
-                height: 37.5vh;
+                height: calc(30vh + 92px);
+                min-height: 360px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
