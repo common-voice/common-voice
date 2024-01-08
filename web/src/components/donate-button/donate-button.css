@@ -14,7 +14,10 @@
         @media (--lg-down) {
             display: flex;
         }
+    }
 
+    &.apply-right-margin {
+        margin-inline-end: 16px;
     }
 
     svg {
