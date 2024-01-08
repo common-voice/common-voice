@@ -222,7 +222,7 @@ export default class Model {
 
   getLanguageDatasetStats = lazyCache(
     'get-language-datasets',
-    async (languageCode: string): Promise<any[]> => {
+    async (languageCode: string) => {
       return await this.db.getLanguageDatasetStats(languageCode);
     },
     DAY

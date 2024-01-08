@@ -1723,6 +1723,8 @@ bulk-sentences = ڈھڳ جملے
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = <icon></icon> دی پڑتال کرو جو بھلا ایہ لسانی طور تے درست جملہ ہے؟
 sc-review-rules-title = بھلا جملہ ہدایات دے مطابق ہے؟
 sc-review-empty-state = ایں زبان وچ نظرثانی کیتے ایں ویلے کوئی جملے کائنی۔
 report-sc-different-language = مختلف زبان
@@ -1751,6 +1753,7 @@ sc-bulk-submit-confirm = میں تصدیق کرینداں جو ایہ جملہ <
 bulk-upload-success-toast = ڈھڳ جملے اپ لوڈ تھی ڳئے
 bulk-upload-failed-toast = اپ لوڈ وچ ناکامی تھئی، سوہݨا ولدا کوشش کرو۔
 bulk-submission-success-header = تہاݙے ڈھڳ جمع کرواوݨ تے دان کرݨ تے تہاݙے تھورائت ہیسے!
+bulk-submission-success-subheader = تساں ساݙے روز دے جملیاں دا ہدف پورا کرݨ کیتے مدد کریندے پئے ہو!
 upload-more-btn-text = ٻئے جملے اپ لوڈ کروں؟
 file-invalid-type = غلط فائل
 file-too-large = فائل ٻہوں وݙی ہے

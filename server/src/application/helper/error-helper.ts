@@ -3,6 +3,7 @@ import {
   ApplicationError,
   ApplicationErrorKind,
   BulkSubmissionErrorKind,
+  DatasetErrorKind,
   PresentableApplicationError,
   SentenceValidationErrorKind,
 } from '../types/error'
@@ -17,6 +18,7 @@ export const createError =
 export const createValidationError = createError('Validation')
 
 export const createBulkSubmissionError = createError(BulkSubmissionErrorKind)
+export const createDatasetError = createError(DatasetErrorKind)
 
 export const createSentenceValidationError = (
   err: ValidatorRuleError

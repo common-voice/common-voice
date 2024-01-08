@@ -61,7 +61,7 @@
     }
 
     & label.citation-input {
-        input[type="text"] {
+        input[type='text'] {
             @media (--xs-down) {
                 font-size: var(--font-size-xs);
 
@@ -73,12 +73,12 @@
     }
 
     & label.sentence-input.sentence-error,
-        label.citation-input.citation-error {
+    label.citation-input.citation-error {
         textarea {
             border-color: var(--red);
         }
 
-        input[type="text"] {
+        input[type='text'] {
             border-color: var(--red);
         }
     }
@@ -118,9 +118,12 @@
                     font-size: var(--font-size-xs);
                 }
             }
+
+            & .write-rules {
+                min-height: 350px;
+            }
         }
     }
-
 
     & .expandable-container {
         width: 700px;
@@ -226,7 +229,6 @@
                     width: 190px;
                 }
 
-
                 a {
                     color: var(--blue);
                     text-decoration: underline;
@@ -285,4 +287,3 @@
         }
     }
 }
-

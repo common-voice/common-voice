@@ -5,6 +5,7 @@ export const SentenceValidationErrorKind = 'SentenceValidation'
 export const ValidationErrorKind = 'Validation'
 export const DatabaseErrorKind = 'DatabaseError'
 export const BulkSubmissionErrorKind = 'BulkSubmissionError'
+export const DatasetErrorKind = 'DatasetError'
 export const OtherErrorKind = 'Other'
 
 export const ApplicationErrorKinds = [
@@ -13,6 +14,7 @@ export const ApplicationErrorKinds = [
   SentenceValidationErrorKind,
   DatabaseErrorKind,
   BulkSubmissionErrorKind,
+  DatasetErrorKind,
   OtherErrorKind,
 ] as const
 

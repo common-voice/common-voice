@@ -244,7 +244,7 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             </div>
             <div>
               <div className="hidden-sm-down">
-                <DonateButton />
+                <DonateButton shouldApplyRightMargin={!user.account} />
               </div>
               {user.account ? (
                 <UserMenu />

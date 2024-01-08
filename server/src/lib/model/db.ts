@@ -15,6 +15,7 @@ import {
 import lazyCache from '../lazy-cache';
 import { taskOption as TO, taskEither as TE } from 'fp-ts';
 import { pipe } from 'fp-ts/lib/function';
+import { DatasetStatistics } from '../../core/datasets/types/dataset';
 const MINUTE = 1000 * 60;
 const DAY = MINUTE * 60 * 24;
 
@@ -1069,7 +1070,7 @@ export default class DB {
     return rows;
   }
 
-  async getLanguageDatasetStats(languageCode: string): Promise<Language[]> {
+  async getLanguageDatasetStats(languageCode: string): Promise<Omit<DatasetStatistics, 'splits'>[]> {
     const [rows] = await this.mysql.query(
       `SELECT
       ld.id,
