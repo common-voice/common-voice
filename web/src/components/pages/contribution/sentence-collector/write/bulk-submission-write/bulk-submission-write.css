@@ -70,6 +70,19 @@
                     }
                 }
 
+                & .upload-additional-information {
+                    width: 500px;
+                    text-align: center;
+
+                    a {
+                        color: var(--anchor-text-blue);
+                    }
+
+                    @media (--xs-down) {
+                        width: 300px;
+                    }
+                }
+
                 & .or-conjunction {
                     color: var(--warm-grey);
                 }
@@ -215,6 +228,10 @@
                     svg {
                         margin-inline-end: 8px;
                     }
+                }
+
+                p.template-additional-information {
+                    margin-block-start: 8px;
                 }
             }
         }
