@@ -1,16 +1,16 @@
 ## General
 
 yes-receive-emails = Héẽ, chemomarandumi. Aikuaaseve ko’ẽreíre Common Voice Aponde’a rehegua.
-stayintouch = Ore Mozilla-ygua romongakuaa tapicha aty omba’apóva tembiporu ñe’ẽ jeporúre. Akóinte roikuaase oĩvo mba’e térã kuaapyrã pyahu ha rohendu hag̃ua mba’éichapa reiporu ko kuaapyrã.
-privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha umi kuaapyrã nde reheguáre. Emoñe’ẽve rehe <privacyLink>ko’ápe</privacyLink>.
+stayintouch = Ore Mozilla-ygua romongakuaa tapicha aty omba’apóva tembiporu ñe’ẽ jeporúre. Akóinte roikuaase oĩvo mba’e térã kuaapyrã pyahu ha rohendu hag̃ua mba’éicha eiporu ko kuaapyrã.
+privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha umi kuaapyrã nde reheguávare. Emoñe’ẽve <privacyLink>ko’ápe</privacyLink>.
 return-to-cv = Ejevy Common Voice-pe
 email-input =
     .label = Ñanduti veve
 submit-form-action = Emondo
 loading = Henyhẽhína…
-email-opt-in-info = Pembou chéve ñanduti veve rupi marandu hupytyrã rehegua térã mba’éichapa oguatahína tembiapo ha Common Voice.
+email-opt-in-info = Pembou chéve ñanduti veve rupi marandu hupytyrã rehegua térã mba’éicha oguatahína tembiapo ha Common Voice.
 email-opt-in-info-title = Ejuaju Common Voice ñanduti veve rysýire
-email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñanduti vevépe marandu ojehupytyséva, avei mba’éichapa oguata tembiapo ha Common Voice rehegua.
+email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñanduti vevépe marandu ojehupytyséva, avei mba’éicha oguata tembiapo ha Common Voice rehegua.
 email-opt-in-privacy-v2 = Emongurusúrõ oñemog̃uahẽ hag̃ua ndéve marandu he’ise emoneĩha mba’éichapa Mozilla oiporu tapichakuéra kuaapyrã oñemoesakãva <privacyLink>ko’ápe</privacyLink>.
 indicates-required = Remyanyhẽva’erã katuete (*) tenda’i hairenda.
 not-available-abbreviation = N/A
