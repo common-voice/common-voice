@@ -80,6 +80,19 @@ const UploadZoneContent: React.FC<Props> = ({
             data-testid="submit-button"
           />
         </Localized>
+        <Localized
+          id="bulk-upload-additional-information"
+          elems={{
+            emailFragment: (
+              <a
+                href="mailto:commonvoice@mozilla.com"
+                target="_blank"
+                rel="noreferrer"
+              />
+            ),
+          }}>
+          <p className="upload-additional-information" />
+        </Localized>
       </div>
     )
   }

@@ -35,31 +35,16 @@ const BulkUploadInstruction: React.FC<Props> = ({
     }
 
     return (
-      <>
-        <Localized
-          id="sc-bulk-upload-instruction"
-          elems={{
-            uploadButton: <button onClick={handleClick} className="upload" />,
-          }}>
-          <h2
-            className="upload-dropzone-instruction hidden-md-down"
-            data-testid="upload-dropzone-instruction"
-          />
-        </Localized>
-        <Localized
-          id="bulk-upload-additional-information"
-          elems={{
-            emailFragment: (
-              <a
-                href="mailto:commonvoice@mozilla.com"
-                target="_blank"
-                rel="noreferrer"
-              />
-            ),
-          }}>
-          <p className="upload-additional-information" />
-        </Localized>
-      </>
+      <Localized
+        id="sc-bulk-upload-instruction"
+        elems={{
+          uploadButton: <button onClick={handleClick} className="upload" />,
+        }}>
+        <h2
+          className="upload-dropzone-instruction hidden-md-down"
+          data-testid="upload-dropzone-instruction"
+        />
+      </Localized>
     )
   }
 

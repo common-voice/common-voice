@@ -73,6 +73,7 @@
                 & .upload-additional-information {
                     width: 500px;
                     text-align: center;
+                    margin-block-start: 16px;
 
                     a {
                         color: var(--anchor-text-blue);
@@ -80,6 +81,7 @@
 
                     @media (--xs-down) {
                         width: 300px;
+                        font-size: var(--font-size-xs);
                     }
                 }
 
