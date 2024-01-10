@@ -60,6 +60,9 @@ export const processBulkSubmissionUpload =
           filepath: downloadUrl,
           filename: job.data.filename,
           languageLocale: job.data.localeName,
+          contact: {
+            email: job.data.userClientEmail
+          }
         })
       ),
       TE.fold(
@@ -69,10 +72,10 @@ export const processBulkSubmissionUpload =
     )()
   }
 
-export const bulkSubmissionUploadProcessor = processBulkSubmissionUpload(
-  uploadToBucket(BULK_SUBMISSION_BUCKET)
-)(doesFileExistInBucket(BULK_SUBMISSION_BUCKET))(
-  makePublicInBucket(BULK_SUBMISSION_BUCKET)
-)(getPublicUrlFromBucket(BULK_SUBMISSION_BUCKET))(
-  sendBulkSubmissionNotificationEmail
-)
+export const bulkSubmissionUploadProcessor = 
+  processBulkSubmissionUpload
+    (uploadToBucket(BULK_SUBMISSION_BUCKET))
+    (doesFileExistInBucket(BULK_SUBMISSION_BUCKET))
+    (makePublicInBucket(BULK_SUBMISSION_BUCKET))
+    (getPublicUrlFromBucket(BULK_SUBMISSION_BUCKET))
+    (sendBulkSubmissionNotificationEmail)

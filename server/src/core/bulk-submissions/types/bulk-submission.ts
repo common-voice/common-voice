@@ -3,9 +3,14 @@ export type BulkSubmission = {
   source: string
 }
 
+export type BulkSubmissionContactInformation = {
+  email: string
+}
+
 export type BulkSubmissionEmailData = {
   emailTo: string
   filepath: string
   filename: string
   languageLocale: string
+  contact: BulkSubmissionContactInformation
 }
