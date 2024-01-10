@@ -113,6 +113,19 @@ const BulkSubmissionWrite = () => {
                   }}>
                   <p />
                 </Localized>
+                <Localized
+                  id="template-file-additional-information"
+                  elems={{
+                    emailFragment: (
+                      <a
+                        href="mailto:commonvoice@mozilla.com"
+                        target="_blank"
+                        rel="noreferrer"
+                      />
+                    ),
+                  }}>
+                  <p className="template-additional-information" />
+                </Localized>
               </ExpandableInformation>
             </div>
           </div>
