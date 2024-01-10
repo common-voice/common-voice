@@ -11,4 +11,5 @@ export type BulkSubmissionUploadJob = {
   filepath: string
   filename: string
   localeName: string
+  userClientEmail: string
 }
