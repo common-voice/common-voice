@@ -70,6 +70,22 @@
                     }
                 }
 
+                & .upload-additional-information {
+                    width: 500px;
+                    text-align: center;
+                    margin-block-start: 16px;
+                    font-size: var(--font-size-sm);
+
+                    a {
+                        color: var(--anchor-text-blue);
+                    }
+
+                    @media (--xs-down) {
+                        width: 300px;
+                        font-size: var(--font-size-xs);
+                    }
+                }
+
                 & .or-conjunction {
                     color: var(--warm-grey);
                 }
@@ -215,6 +231,10 @@
                     svg {
                         margin-inline-end: 8px;
                     }
+                }
+
+                p.template-additional-information {
+                    margin-block-start: 8px;
                 }
             }
         }
