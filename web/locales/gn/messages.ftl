@@ -1702,6 +1702,7 @@ new-sentence-rule-7 = Emoinge jehaikue hekopeguáva
 new-sentence-rule-8 = Hekojera añetete ha eñomongetakuaa ipype (ndahasyichéne ñe’ẽjoaju ñemoñe’ẽ)
 how-to-cite = Mba’éichapa ahechaukáta
 how-to-cite-explanation-bold = Emombe’u URL juajuha térã tembiapokue réra rupive.
+how-to-cite-explanation = Ne ñe’ẽngueteéramo, ereva’erã <italicizedText>“Jehojehegui”</italicizedText>. Roikuaase mo’õitépa rejuhu ko tetepy roikumby hag̃ua ha’épa opavave oiporukuaáva ha nadiporiha apohare derécho. Eñemomaranduve hag̃ua ko’ãva rehegua, eporandu ore <guidelinesLink>kuatiarogue rekoguata</guidelinesLink>.
 guidelines = Tekoguatarã
 contact-us = Eñe’ẽ orendive
 add-sentence-success = 1 ñe’ẽjuaju mbyatypyre
