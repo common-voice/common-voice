@@ -1645,6 +1645,7 @@ new-sentence-rule-7 = 明確標示出處（歌詞、台詞、市售書籍皆不�
 new-sentence-rule-8 = 結構簡單易讀（複雜的句子請截斷成兩句）
 how-to-cite = 我該如何引用？
 how-to-cite-explanation-bold = 引用時請提供網址或作品全名。
+how-to-cite-explanation = 如果是你自己造的句子，只需註明<italicizedText>「Self Citation」（自我引用）</italicizedText>即可。我們需要知道內容的來源，以便確認其是否屬於公眾領域、是否有版權限制。更多引用方面的資訊，請參閱我們的<guidelinesLink>指南頁面</guidelinesLink>。
 guidelines = 指南
 contact-us = 聯絡我們
 add-sentence-success = 已收集到 1 句
@@ -1672,6 +1673,7 @@ review-error-rate-limit-exceeded = 您操作得太快了，請花點時間確認
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = 上傳 <icon></icon> 公眾領域的句子
 sc-bulk-upload-instruction-drop = 將檔案放到此處進行上傳
+try-upload-again = 再次將檔案拖到此處即可重試
 try-upload-again-md = 嘗試再上傳一次
 select-file = 選擇檔案
 select-file-mobile = 選擇要上傳的檔案
