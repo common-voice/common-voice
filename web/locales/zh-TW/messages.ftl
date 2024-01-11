@@ -1594,7 +1594,9 @@ public-domain-explanation-1 = 因為 Common Voice 語音資料庫採取 <publicD
 citing-sentences-subheader-websites = 網站
 citing-sentences-subheader-websites-explanation = 您可以包含網址，例如「Common Voice - https://commonvoice.mozilla.org/」
 citing-sentences-subheader-academic-reference = 學術參考資料
+citing-sentences-subheader-academic-reference-explanation = 您也可以使用學術參考文獻格式，例如哈佛格式「Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)」
 citing-sentences-subheader-offline-sources = 離線來源
+citing-sentences-subheader-offline-sources-explanation = 若為沒有線上版本的公眾領域文字，也可以使用學術參考文獻格式。例如哈佛格式「Jess (2021) My Public license poems」
 citation =
     .label = 引用
 self-citation = 自我引用
@@ -1614,6 +1616,10 @@ reviewing-sentences-explanation-1 = 若句子符合上述標準，請點擊「�
 reviewing-sentences-explanation-2 = 若句子不符合上述標準，請點擊「拒絕」按鈕。
 reviewing-sentences-explanation-3 = 如果您不確定句子是否符合上述標準，也可以略過，跳到下一句。
 reviewing-sentences-explanation-4 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
+sentence =
+    .label = 語句
+sentence-input-value = 在此輸入公眾領域語句
+citation-input-value = 語句的來源
 citation =
     .label = 引用
 new-sentence-rule-1 = <noCopyright>無版權限制</noCopyright> (<cc0>cc-0 公眾授權</cc0>)
@@ -1624,9 +1630,37 @@ new-sentence-rule-5 = 不包含英數字（數字可改為國字大寫）
 new-sentence-rule-6 = 沒有外語文字
 new-sentence-rule-7 = 明確標示出處（歌詞、台詞、市售書籍皆不可）
 new-sentence-rule-8 = 結構簡單易讀（複雜的句子請截斷成兩句）
+how-to-cite = 我該如何引用？
+how-to-cite-explanation-bold = 引用時請提供網址或作品全名。
+guidelines = 指南
+contact-us = 聯絡我們
+add-sentence-error = 加入句子時發生問題
+required-field = 請填寫此欄位。
+single-sentence-submission = 送出單一句子
+bulk-sentence-submission = 送出大批句子
+single-sentence = 單一句子
+bulk-sentences = 大批句子
 
 ## REVIEW PAGE
 
+sc-review-empty-state = 此語言目前沒有需要審核的語句。
+report-sc-different-language = 其他語言
+sentences-fetch-error = 取得句子時發生錯誤
+review-error = 審核此句子時發生錯誤
 
 ## BULK SUBMISSION 
 
+select-file = 選擇檔案
+select-file-mobile = 選擇要上傳的檔案
+accepted-files = 接受的檔案類型：只接受 .tsv
+maximum-file-size = 最大檔案大小：25 MB
+what-needs-to-be-in-file = 檔案裡需要有哪些內容？
+upload-progress-text = 正在上傳…
+bulk-upload-success-toast = 已上傳大批句子
+bulk-upload-failed-toast = 上傳失敗，請重試。
+bulk-submission-success-header = 感謝您捐出大批句子！
+upload-more-btn-text = 要上傳更多句子嗎？
+file-invalid-type = 檔案無效
+file-too-large = 檔案太大
+file-too-small = 檔案太小
+too-many-files = 檔案太多
