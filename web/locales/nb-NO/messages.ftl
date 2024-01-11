@@ -668,6 +668,7 @@ review-delete-recordings = Slett opptakene mine
 
 ## Datasets Page
 
+datasets-heading = Datasett
 datasets-headline = Vi bygger et åpen kildekode, flerspråklig datasett med stemmer som alle kan bruke for å trene applikasjoner med talegjenkjenning.
 datasets-positioning =
     Vi tror at store, offentlig tilgjengelige stemmedatasett vil fremme innovasjon og sunn kommersiell konkurranse innen maskinlæringsbasert taleteknologi.
