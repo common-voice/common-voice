@@ -1647,6 +1647,7 @@ how-to-cite = 我該如何引用？
 how-to-cite-explanation-bold = 引用時請提供網址或作品全名。
 guidelines = 指南
 contact-us = 聯絡我們
+add-sentence-success = 已收集到 1 句
 add-sentence-error = 加入句子時發生問題
 required-field = 請填寫此欄位。
 single-sentence-submission = 送出單一句子
@@ -1656,6 +1657,9 @@ bulk-sentences = 大批句子
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = 確認 <icon></icon> 是一句符合語法的句子嗎？
+sc-review-rules-title = 句子內容符合準則嗎？
 sc-review-empty-state = 此語言目前沒有需要審核的語句。
 report-sc-different-language = 其他語言
 sentences-fetch-error = 取得句子時發生錯誤
