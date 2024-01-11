@@ -1662,11 +1662,17 @@ sc-review-instruction = 確認 <icon></icon> 是一句符合語法的句子嗎�
 sc-review-rules-title = 句子內容符合準則嗎？
 sc-review-empty-state = 此語言目前沒有需要審核的語句。
 report-sc-different-language = 其他語言
+report-sc-different-language-detail = 這句話是用其他語言撰寫的句子。
 sentences-fetch-error = 取得句子時發生錯誤
 review-error = 審核此句子時發生錯誤
+review-error-rate-limit-exceeded = 您操作得太快了，請花點時間確認句子內容是否正確。
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = 上傳 <icon></icon> 公眾領域的句子
+sc-bulk-upload-instruction-drop = 將檔案放到此處進行上傳
+try-upload-again-md = 嘗試再上傳一次
 select-file = 選擇檔案
 select-file-mobile = 選擇要上傳的檔案
 accepted-files = 接受的檔案類型：只接受 .tsv
