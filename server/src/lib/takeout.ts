@@ -370,17 +370,12 @@ export default class Takeout {
   }
 
   private static splitIntoChunks(paths: string[]): string[][] {
-    const todo = [...paths];
-    const chunks = [];
+    var result = [];
 
-    do {
-      const currentChunk = [];
-      while (todo.length && currentChunk.length < kChunkMaxFiles) {
-        const clip = todo.pop();
-        currentChunk.push(clip);
-      }
-      chunks.push(currentChunk);
-    } while (todo.length);
-    return chunks;
+    for (let i = 0; i < paths.length; i += kChunkMaxFiles) {
+      result.push(paths.slice(i, i + kChunkMaxFiles));
+    }
+
+    return result;
   }
 }
