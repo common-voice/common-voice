@@ -98,6 +98,7 @@ it = 義大利語
 izh = 伊喬里亞語
 ja = 日語
 jbo = 邏輯語
+jv = 爪哇語
 ka = 喬治亞語
 kaa = 卡拉卡爾帕克語
 kab = 卡拜爾語
@@ -243,6 +244,7 @@ share-text = 請到 { $link } 獻聲，協助我們教導機器了解人們是�
 link-copied = 已複製鏈結
 back-top = 回到頁面頂端
 logout = 登出
+donate = 捐款
 
 ## Home Page
 
@@ -604,7 +606,6 @@ about-playbook-how-add-sentences = 要如何加入句子？
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> 是一套用來收集與驗證公眾領域語句的工具。您要先<scAccountLink>註冊帳號</scAccountLink>，然後將您使用的語言加到<strong>個人資料</strong>中，然後就可以<strong>新增</strong>句子或者<strong>審核</strong>先前新增的句子。
 about-playbook-how-add-sentences-content-2 = 每個句子都必須經過兩個人審核接受才會被加入 Common Voice。您可以<languageGuidelinesLink>在此</languageGuidelinesLink>建立您的語言的審核標準。句子的內容必須使用<licenseLink>公眾領域</licenseLink>授權條款，並且不超過 15 個字。您可以請文字內容的作者或著作權擁有者<waiverLink>以 CC0 條款拋棄著作權</waiverLink>，並且寄到 commonvoice@mozilla.com 給我們即可使用。
 about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 來從維基百科收集短句。
-about-playbook-how-add-sentences-content-4 = 每週三會匯出驗證完成的句子，並且在下次發行時一併發布。
 
 ## How to record quality
 
@@ -731,6 +732,7 @@ number-of-voices = 錄音人數
 splits = 分割
 email-to-download = 輸入 E-Mail 即可下載
 why-email = <b>為什麼需要 E-Mail?</b>未來我們可能會聯絡您，提供資料集的相關更新資訊。E-Mail 可作為我們聯絡您的方式。
+why-donate = 為什麼要問這個？
 confirm-size = 請準備好下載 <b>{ $size }</b> 的檔案
 size-gigabyte = GB
 size-megabyte = MB
@@ -829,6 +831,8 @@ language-section-in-progress = 準備中
 language-section-in-progress-new-description = 這些語言目前正由社群開發中，進度條展示每種語言<localizationGlossaryLink>網站在地化</localizationGlossaryLink>及<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>的狀況。
 language-section-launched = 已上線
 language-section-launched-description = 以下「已上線」的語言，代表網站已經成功<localizationGlossaryLink>在地化</localizationGlossaryLink>，且也已經<sentenceCollectionGlossaryLink>搜集了夠多句子</sentenceCollectionGlossaryLink>讓大家能用<speakLink>說話</speakLink>及<listenLink>聆聽</listenLink>的方式貢獻。
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = 最後更新：{ $lastUpdatedTimeStamp }
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-meter-in-progress = 進度
@@ -892,6 +896,9 @@ listen-3rd-time-instruction = 完成兩筆了<playIcon></playIcon>，繼續保�
 listen-last-time-instruction = <playIcon></playIcon>最後一筆了！
 listen-empty-state = 我們已經沒有這種語言的片段可以驗證了…
 listen-loading-error = 我們無法取得錄音片段讓您聆聽確認，請稍候再試。
+listen-abort-title = 是否完成驗證片段？
+listen-abort-cancel = 繼續驗證
+listen-abort-confirm = 完成驗證
 speak-empty-state = 我們已經沒有這種語言的文字可以錄音了…
 speak-empty-state-cta = 貢獻語句
 speak-loading-error = 我們無法取得句子讓您錄音，請稍候再試。
@@ -1584,6 +1591,10 @@ citing-sentences = 引用句子
 adding-sentences = 新增句子
 reviewing-sentences = 審核句子
 public-domain-explanation-1 = 因為 Common Voice 語音資料庫採取 <publicDomain>無版權限制</publicDomain> （<cc0>CC0授權</cc0>）的方式釋出，確保所有的句子都屬於 <publicDomain>公眾授權</publicDomain>（公共領域）萬分重要。請務必指提交你確定無任何版權疑慮的句子，並且標示明確的出處。
+citing-sentences-subheader-websites = 網站
+citing-sentences-subheader-websites-explanation = 您可以包含網址，例如「Common Voice - https://commonvoice.mozilla.org/」
+citing-sentences-subheader-academic-reference = 學術參考資料
+citing-sentences-subheader-offline-sources = 離線來源
 citation =
     .label = 引用
 self-citation = 自我引用
@@ -1613,3 +1624,9 @@ new-sentence-rule-5 = 不包含英數字（數字可改為國字大寫）
 new-sentence-rule-6 = 沒有外語文字
 new-sentence-rule-7 = 明確標示出處（歌詞、台詞、市售書籍皆不可）
 new-sentence-rule-8 = 結構簡單易讀（複雜的句子請截斷成兩句）
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
