@@ -570,7 +570,10 @@ about-no-votes-text = Oĩramo poruhára ombotovéva ayvu ñeñongatu, ojevýta h
 about-dataset-new = Common Voice mba’ekuaarã rupa
 about-dataset-new-text = Common Voice mba’ekuaarã renda omoinge hetaiterei ayvu oipytyvõva mboguataharakuérape omoheñóivo tembiporu oikũmbykuaáva ayvu.
 about-clip-graveyard = Ñongatuhakuéra mbyatyha
-about-clip-graveyard-text = Pe ñongatupyre oiko’ỹva ha’e ayvu ñongatupyre ndoikekuaáiva Common Voice mba’ekuaarã rendápe. Oikoháicha avei pe mba’ekuaarã renda rehe, pe ñongatupyre oiko’ỹva ikatu oñemboguejy.
+about-clip-graveyard-text =
+    Pe ñongatupyre oiko’ỹva ha’e ayvu ñongatupyre ndoikekuaáiva Common Voice mba’ekuaarã rendápe. Oikoháicha avei pe mba’ekuaarã renda rehe, pe ñongatupyre oiko’ỹva ikatu oñemboguejy.
+    
+    Roaguyjeveme’ẽse ko’ã tapicha ha atyguasúpe ore pytyvõre apopyrãme:
 about-get-involved = Poropytyvõ
 about-get-involved-text-2 =
     Eipytyvõsépa ikatu hag̃ua Common Voice iporãve?
