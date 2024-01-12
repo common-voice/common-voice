@@ -563,8 +563,8 @@ about-clip-graveyard-text = O Cemiterio de fragmentos contén fragmentos de voz 
 about-get-involved = Participe
 about-get-involved-text-2 =
     Quere axudar a mellorar Common Voice?
-    Xenial! Póñase en contacto vía correo electrónico ou vía foros <discourseLink>Discourse</discourseLink>
-    remita incidencias da páxina vía <githubLink>GitHub</githubLink>, ou únase ao chat da comunidade <matrixLink>Matrix</matrixLink>.
+    Xenial! Póñase en contacto vía correo electrónico ou vía os foros <discourseLink>Discourse</discourseLink>,
+    remita incidencias da páxina vía <githubLink>GitHub</githubLink>, ou únase ao chat da comunidade en <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Como estar en contacto?
 about-stay-in-touch-button = Unirse
 about-stay-in-touch-text-1 = <emailFragment>Unirse</emailFragment> á nosa lista de correo para descubrir como participar en campañas, eventos e iniciativas de mellora de Common Voice.
