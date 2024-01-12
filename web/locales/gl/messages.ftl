@@ -760,7 +760,7 @@ whats-inside = Que inclúe o conxunto de datos de Common Voice?
 dataset-description-hours =
     Cada entrada do conxunto de datos consta dun único ficheiro MP3 e o correspondente ficheiro de texto. Moitas das <b>{ $total }</b> horas gravadas no conxunto de datos tamén inclúen metadatos demográficos como idade, xénero e acento que poden axudar a mellorar a precisión dos modelos de recoñecemento da fala.
     
-    O conxunto de datos inclúe actualmente <b>{ $valid }</b> horas validadas en <b>{ $languages }</b> idiomas, pero estamos a engadir constantemente máis voces e idiomas. Visite á nosa <languagesLink>pestana Idiomas</languagesLink> para solicitar un idioma ou comezar a colaborar.
+    O conxunto de datos inclúe actualmente <b>{ $valid }</b> horas validadas en <b>{ $languages }</b> idiomas, pero estamos a engadir constantemente máis voces e idiomas. Visite a nosa <languagesLink>pestana Idiomas</languagesLink> para solicitar un idioma ou comezar a colaborar.
 want-dataset-update = Quere recibir actualizacións de cando publicamos unha nova versión do conxunto de datos Common Voice? Subscríbase ao noso boletín.
 subscribe = Subscribir
 get-started-speech = Introdución ao recoñecemento da fala
