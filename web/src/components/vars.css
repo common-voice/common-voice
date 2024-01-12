@@ -104,6 +104,12 @@
     }
 }
 
+.hidden-lg-down {
+    @media (--lg-down) {
+        display: none !important;
+    }
+}
+
 .hidden-md-up {
     @media (--md-up) {
         display: none !important;

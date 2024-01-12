@@ -16,9 +16,12 @@ import PageHeading from '../../ui/page-heading';
 import { formatBytes } from '../../../utility';
 import { DeltaReadMoreLink } from '../../shared/links';
 
-import './dataset-corpus-download.css';
+import {
+  DatasetMetadata,
+  DesktopMetaDataViewer,
+} from './metadata-viewer/desktop-metadata-viewer';
 
-const APPROXIMATE_TABLE_ROW_HEIGHT = 55;
+import './dataset-corpus-download.css';
 
 interface Props extends WithLocalizationProps {
   languagesWithDatasets: { id: number; name: string }[];
@@ -31,6 +34,7 @@ type LanguageDatasets = {
   id: number;
   checksum: string;
   size: number;
+  splits: DatasetMetadata;
 };
 
 const DatasetCorpusDownload = ({
@@ -62,20 +66,6 @@ const DatasetCorpusDownload = ({
   const handleRowSelect = (selectedId: number, index: number) => {
     setSelectedDataset(languageDatasets.find(d => d.id === selectedId));
     setSelectedTableRowIndex(index);
-  };
-
-  const getVerticalOffset = (rowIndex: number) => {
-    if (rowIndex === 0) {
-      return '16px';
-    }
-
-    if (selectedTableRowIndex >= languageDatasets.length - 4) {
-      return `${
-        APPROXIMATE_TABLE_ROW_HEIGHT * (languageDatasets.length - 4)
-      }px`;
-    }
-
-    return `${APPROXIMATE_TABLE_ROW_HEIGHT * selectedTableRowIndex}px`;
   };
 
   useEffect(() => {
@@ -144,19 +134,13 @@ const DatasetCorpusDownload = ({
             )}
           </div>
 
-          <div className="metadata-viewer-container hidden-md-down">
-            <div
-              style={{
-                transform: `translateY(${getVerticalOffset(
-                  selectedTableRowIndex
-                )})`,
-              }}>
-              <Localized id="datatset-splits">
-                <p className="header" />
-              </Localized>
-              <div className="info" />
-            </div>
-          </div>
+          {selectedDataset && selectedDataset.splits && (
+            <DesktopMetaDataViewer
+              selectedTableRowIndex={selectedTableRowIndex}
+              datasetsCount={languageDatasets.length}
+              metadata={selectedDataset.splits}
+            />
+          )}
         </div>
       </div>
     </div>

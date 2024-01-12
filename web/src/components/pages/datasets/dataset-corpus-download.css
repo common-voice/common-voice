@@ -141,7 +141,7 @@
             }
 
             & .info {
-                height: 250px;
+                height: fit-content;
                 width: 220px;
                 background-color: var(--lighter-blue);
             }
