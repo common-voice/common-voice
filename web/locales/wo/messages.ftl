@@ -277,6 +277,13 @@ wall-of-text-second =
 show-wall-of-text = Dolli Jàng
 help-us-title = Dimbali nu nu nangu baat yi!
 help-us-explain = Bësal ci "dawal", dégglul ta nga wax nu: ndax ni ñu waxee baat yi jaar na yoon ?
+no-clips-to-validate = Mel na ni baat yi nga man a dégglu ci làkk wii jeex na. Dimbali nu nu am ci yeneen ci enregistrer bi ngay enregistrer ay baat.
+vote-yes = Waaw
+vote-no = Déedéet
+toggle-play-tooltip = Bësal { shortcut-play-toggle } ngir dem ci mode bii dawal (mode lecture)
+speak-subtitle = Joxeel sa baat
+speak-paragraph = Enregistrer ay baat dafa bokk ci defarug sunu jumtukaay yu ubbeeku yi (base de données ouvertes); ñenn ñi dañuy wax sax tamit ni mooy pàcc bi gën a neex.
+speak-goal-text = Enregistrer nañ baat yi
 
 ## Account Benefits
 
