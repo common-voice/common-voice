@@ -242,9 +242,19 @@ privacy = Sutura (Confidentialité)
 terms = Sàrt yi
 cookies = Kukii yi (Cookies)
 faq = Laaj ak Tontu
+content-license-text = Mbir mi jébbal nañ ko ci <licenseLink>licence Creative Commons</licenseLink>
+share-title = Jàppale nu ngir nu gis ñeneen ñu joxe seen baat!
+share-text = Dimbali nu ngir nu man a jàngal masin yi naka la nit ñi di waxee, joxeel sa baat ci { $link }
+link-copied = Toppandoo (copier) nañ lien bi
+back-top = Dellu ci kaw
+logout = Génn
+donate = Joxe
 
 ## Home Page
 
+home-title = Common Voice mooy naal wii Mozilla naal ngir jàngal masin yi naka la nit dëgg di waxee.
+default-tagline = Common Voice, ab naal la bu Mozilla naal ngir jàngal masin yi nan la nit dëgg di waxee.
+home-cta = Waxal, jàpp ci fii!
 
 ## Account Benefits
 
