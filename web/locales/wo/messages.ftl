@@ -53,6 +53,20 @@ ca = Katalaŋ
 cak = Kaksikel
 ckb = Diggu Kurdis
 cnh = Aka Siin
+co = Kors
+cs = Cek
+cv = Suwaas
+cy = Galuwa
+da = Danuwaa
+dag = Dagbani
+de = Almaa
+dsb = Sorab, Suuf
+dv = Diweyi
+dyu = Jula
+el = Gerek
+en = Angale
+eo = Esperanto
+es = Español
 
 # [/]
 
