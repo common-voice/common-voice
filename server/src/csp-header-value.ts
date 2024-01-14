@@ -33,7 +33,7 @@ const SOURCES = {
     'https://www.google-analytics.com',
     'https://www.googletagmanager.com',
     'https://pontoon.mozilla.org',
-    'https://anlp.ksaa.gov.sa',
+    'https://voicewall.ksaa.gov.sa',
     'https://*.sentry.io',
   ],
   'font-src': ["'self'", 'https://fonts.gstatic.com'],

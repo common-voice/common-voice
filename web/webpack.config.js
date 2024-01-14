@@ -107,7 +107,7 @@ module.exports = (_env, argv) => {
     output: {
       path: OUTPUT_PATH,
       filename: '[name].[contenthash].js',
-      publicPath: '/voicewall/dist/',
+      publicPath: '/dist/',
       hashDigestLength: HASH_LENGTH,
     },
     stats: 'errors-only',

@@ -80,7 +80,7 @@ if (DOMAIN) {
           {
             stage: 'https://commonvoice.allizom.org',
             prod: 'https://commonvoice.mozilla.org',
-            dev: 'https://anlp.ksaa.gov.sa/voicewall',
+            dev: 'https://voicewall.ksaa.gov.sa/voicewall',
             sandbox: 'https://sandbox.voice.mozit.cloud',
           } as any
         )[ENVIRONMENT] || '') + CALLBACK_URL,
@@ -137,7 +137,7 @@ router.get(
     const { locale, old_user, old_email, redirect, enrollment } = currentState;
 
     // const basePath = locale ? `/${locale}/` : '/';
-    const basePath = '/voicewall/ar/';
+    const basePath = '/ar/';
     if (!user) {
       response.redirect(basePath + 'login-failure');
     } else if (old_user) {
@@ -148,7 +148,7 @@ router.get(
       if (!success) {
         session.passport.user = old_user;
       }
-      response.redirect('/voicewall/profile/settings?success=' + success.toString());
+      response.redirect('/profile/settings?success=' + success.toString());
     } else if (enrollment?.challenge && enrollment?.team) {
       if (
         !(await UserClient.enrollRegisteredUser(

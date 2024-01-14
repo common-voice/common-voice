@@ -30,7 +30,7 @@ interface Vote extends Event {
   challengeEnded?: boolean;
 }
 
-const API_PATH = location.origin + '/voicewall/api/v1';
+const API_PATH = location.origin + '/api/v1';
 
 const getChallenge = (user: User.State): string => {
   return user?.account?.enrollment?.challenge
@@ -158,7 +158,7 @@ export default class API {
   }
 
   fetchLocaleMessages(locale: string): Promise<string> {
-    return this.fetch(`/voicewall/locales/${locale}/messages.ftl`, { isJSON: false });
+    return this.fetch(`/locales/${locale}/messages.ftl`, { isJSON: false });
   }
 
   async fetchCrossLocaleMessages(): Promise<string[][]> {
@@ -192,7 +192,7 @@ export default class API {
     name: 'privacy' | 'terms' | 'challenge-terms'
   ): Promise<string> {
     const locale = name === 'challenge-terms' ? 'en' : this.locale;
-    return this.fetch(`/voicewall/${name}/${locale}.html`, { isJSON: false });
+    return this.fetch(`/${name}/${locale}.html`, { isJSON: false });
   }
 
   skipSentence(id: string) {

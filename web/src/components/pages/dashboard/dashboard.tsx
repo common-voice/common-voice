@@ -283,7 +283,7 @@ export default function Dashboard() {
         console.warn(`A sessionStorage error occurred ${e.message}`);
       }
 
-      window.location.href = '/voicewall/login';
+      window.location.href = '/login';
     }
   }, []);
 

@@ -60,7 +60,7 @@ const AccountModal = (props: ModalProps) => {
       <Localized id="login-signup">
         <LinkButton
           rounded
-          href="/voicewall/login"
+          href="/login"
           className={getTrackClass('fs', `nudge-profile-modal`)}
           onClick={() => {
             try {
