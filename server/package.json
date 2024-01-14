@@ -17,7 +17,7 @@
     "cookie-parser": "1.4.6",
     "crypto-js": "^4.2.0",
     "csv-parse": "^5.5.0",
-    "db-migrate": "0.11.13",
+    "db-migrate": "0.11.14",
     "db-migrate-mysql": "1.1.10",
     "db-migrate-plugin-typescript": "2.0.0",
     "event-stream": "3.3.5",
