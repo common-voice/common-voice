@@ -209,12 +209,39 @@ uk = Ukareene
 ur = Urdu
 uz = Usbek
 ve = Tsiwenda
+vec = Wenisiyeŋ
+vi = Wiyetnamiyeŋ
+vot = Wotik
+wo = Wolof
+xh = Xosa
+yi = Yidis
+yo = Yoruba
+yue = Kantone
+zgh = Tamasig
+zh-CN = Sinuwa (Siin)
+zh-HK = Sinuwa (Ong Kong)
+zh-TW = Sinuwa (Taywan)
+zu = Sulu
+zza = Sasa
 
 # [/]
 
 
 ## Layout
 
+speak = Waxal
+speak-now = Man ngaa wax
+datasets = Jumutukaay yi (Jeu de Données)
+languages = Kàllaama yi
+about = Ci mbir mi
+partner = Àndadoo
+profile = Melokaan (Profil)
+help = Ndimbal
+contact = Jokkalante
+privacy = Sutura (Confidentialité)
+terms = Sàrt yi
+cookies = Kukii yi (Cookies)
+faq = Laaj ak Tontu
 
 ## Home Page
 
