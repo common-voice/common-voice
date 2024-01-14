@@ -263,6 +263,10 @@ wall-of-text-more-mobile =
     Lu ёpp ci jumtukaay (données) yii barabu liggéeyukaay yu mag yi di jëfandikoo, kenn manu cee jot lumooy lim bu néew. Yaakaar na nu ni
     loolu dafay xoj sunu manug defar lu bees lu musul am. Loolu moo waral ñu ubbi naal wii di Common Voice, di ab naal buy tax
     ñëpp man a jot ci masin yuy ràññee ay kàddu.
+wall-of-text-more-desktop =
+    Léegi man ngaa joxe sa baat ngir dimbali nu nu man a dajale fenn, ay waat yu baree bari yoo xam ne ku nekk da na ko man a jëfandikóo
+    ngir defar ay applications ak i site web yu amul fenn. So bëggée jàngal masin yi nii nit dëgg di waxee, nangay jàng (lire) baat (phrases) yiñ lay wan rek.
+    Man ngaa saytu tamit lii ñeneen ñi jot a def ngir yéwenal ligéey bi. Noonu la yombee!
 
 ## Account Benefits
 
