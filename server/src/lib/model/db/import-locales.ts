@@ -112,6 +112,71 @@ const VARIANTS: Variant[] = [
     variant_name: 'Portuguese (Portugal)',
     variant_token: 'pt-PT',
   },
+  {
+    locale_name: 'ca',
+    variant_name: 'Central',
+    variant_token: 'ca-central',
+  },
+  {
+    locale_name: 'ca',
+    variant_name: 'Balear',
+    variant_token: 'ca-balear',
+  },
+  {
+    locale_name: 'ca',
+    variant_name: 'Nord-Occidental',
+    variant_token: 'ca-nwestern',
+  },
+  {
+    locale_name: 'ca',
+    variant_name: 'Septentrional',
+    variant_token: 'ca-northern',
+  },
+  {
+    locale_name: 'ca',
+    variant_name: 'Tortosí',
+    variant_token: 'ca-valencia-tortosi',
+  },
+  {
+    locale_name: 'ca',
+    variant_name: 'Valencià central',
+    variant_token: 'ca-valencia-central',
+  },
+  {
+    locale_name: 'ca',
+    variant_name: 'Valencià septentrional',
+    variant_token: 'ca-valencia-northern',
+  },
+  {
+    locale_name: 'ca',
+    variant_name: 'Valencià meridional',
+    variant_token: 'ca-valencia-southern',
+  },
+  {
+    locale_name: 'ca',
+    variant_name: 'Alacantí',
+    variant_token: 'ca-valencia-alacant',
+  },
+  {
+    locale_name: 'ca',
+    variant_name: 'Alguerès',
+    variant_token: 'ca-algueres',
+  },
+  {
+    locale_name: 'zgh',
+    variant_name: 'ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)',
+    variant_token: 'zgh-shi',
+  },
+  {
+    locale_name: 'zgh',
+    variant_name: 'ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)',
+    variant_token: 'zgh-tzm',
+  },
+  {
+    locale_name: 'zgh',
+    variant_name: 'ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)',
+    variant_token: 'zgh-rif',
+  }
 ];
 
 type Locale = {

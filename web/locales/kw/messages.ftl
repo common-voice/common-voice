@@ -40,10 +40,12 @@ ba = Bashkir
 bas = Basaa
 be = Belarussek
 bg = Bulgarek
+bm = Bambara
 bn = Bengalek
 br = Bretonek
 bs = Bosnek
 bxr = Buryat
+byv = Medumba
 ca = Katalanek
 cak = Kaqchikel
 ckb = Kurdek Kresek
@@ -53,6 +55,7 @@ cs = Check
 cv = Chuvash
 cy = Kembrek
 da = Danek
+dag = Dagbani
 de = Almaynek
 dsb = Iselsorbek
 dv = Dhivehi
@@ -206,6 +209,7 @@ zh-CN = Chinek (China)
 zh-HK = Chinek (Hong Kong)
 zh-TW = Chinek (Taiwan)
 zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -217,6 +221,7 @@ speak-now = Kowsowgh lemmyn
 datasets = Settys data
 languages = Yethow
 about = A-dro dhyn
+partner = Kespar
 profile = Profil
 help = Gweres
 contact = Kestava

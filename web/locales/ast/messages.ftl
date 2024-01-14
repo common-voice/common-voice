@@ -1,7 +1,6 @@
 ## General
 
-yes-receive-emails = Sí, unviáime correos. Quiero tar informáu tocante al proyeutu Common Voice.
-stayintouch = En Mozilla tamos construyendo una comunidá alredor de la teunoloxía de voz. Quedriemos siguir en contautu con anovamientos, fontes de datos nueves y oyer más tocante a cómo uses estos datos.
+yes-receive-emails = Sí, unviáime mensaxes. Quiero tar informáu tocante al proyeutu Common Voice.
 privacy-info = Prometémoste que vamos remanar la to información con curiáu. Llei más nel nuesu <privacyLink>avisu de privacidá</privacyLink>
 return-to-cv = Volver a Common Voice
 email-input =
@@ -296,7 +295,6 @@ shortcut-record-toggle-label = Grabar/Parar
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Regrabar el clip
 request-language-text = ¿Entá nun ves la to llingua en Common Voice?
-request-language-text-learn = ¡Conoz cómo solicitala equí!
 request-language-button = Solicitar una llingua
 
 ## ProjectStatus
@@ -347,7 +345,7 @@ dashboard = Panel
 build-profile = Creación del perfil
 avatar = Avatar
 goals = Metes
-settings = Axustes
+settings = Configuración
 edit-profile = Editar el perfil
 profile-create-success = ¡El perfil creóse con ésitu!
 profile-close = Zarrar
@@ -383,7 +381,7 @@ manage-subscriptions = Xestión de les soscripciones
 manage-email-subscriptions = Xestión de les soscripciones per corréu
 email-already-used = El corréu yá s'usa nuna cuenta diferente
 add-language = Amestar una llingua
-change-email-setings = Camuda'l corréu n'Axustes, so Identidá del aniciu de sesión
+change-email-setings = Camuda la direición de corréu electrónicu na seición «Identidá de la cuenta» de la configuración
 
 ## FAQ
 
@@ -415,7 +413,6 @@ faq-why-different-speakers-a =
     La mayoría de bases de datos de voz tán entrenaes con una representación escesiva de d'algún rasgu demográficu que xenera resultaos sesgaos a lo <articleLink>masculino y de clas media</articleLink>. Los acentos y dialeutos que tienden a ser infrarrepresentaos nos conxuntos de datos d'entrenamientu asóciense davezu con grupos de xente que yá tán marxinaos. Munches maquines tienen problemes pa entender les voces femenines.
     ¡Ye por eso polo que na nuesa base de datos queremos variedá!
 faq-why-my-lang-q = ¿Por qué nun s'inclúi entá la mio llingua?
-faq-why-my-lang-new-a = Mozilla nun favorez a una llingua u otra, en cuentes d'eso, Common Voice ye una iniciativa dirixida dafechu pola comunidá. Por embargu, p'amestar una llingua <multilangLink>hai que facer unes coses enantes</multilangLink> y comenzar a recoyer voces donaes. Lo primero, el sitiu web de Common Voice tien de tar traducíu pa que los miembros de la comunidá puean collaborar usando la so llingua. Darréu, precisamos tener una coleición grande de frases ensin copyright pa que la xente les llea n'alto. Nel momentu qu'esos requirimientos se cumplen, esa llingua «llánzase» en Common Voice pa que la xente grabe la so voz y valide les collaboraciones d'otros. Si quies ayudar a llanzar una llingua nueva, visita la nuesa <sentenceCollectorLink>ferramienta de recoyida de frases</sentenceCollectorLink> pa entamar.
 faq-what-quality-q = ¿Qué nivel de calidá d'audiu se rique pa qu'un clip s'use nel conxuntu de datos?
 faq-what-quality-a = Queremos que'l conxuntu de datos de Common Voice reflexe la calidá del audiu qu'un motor de fala a testu va sentir nun entornu real, polo que pidimos variedá. Amás d'una comunidá de falantes diversa, un conxuntu de datos con calidá d'audiu variable va permitir deprender a esi motor a remanar situaciones estremaes del mundu real, dende voces de fondu hasta'l ruíu de coches. Mentanto que'l to clip de voz seya intelixible, habría ser abondo pal conxuntu de datos.
 faq-why-10k-hours-q = ¿Por qué ta la meta en 10.000 hores d'audiu validaes?
@@ -467,12 +464,6 @@ about-dataset-new = Conxuntu de datos de Common Voice
 about-dataset-new-text = Contién milenta muestres de voz qu'ayuden a los desendolcadores a crear ferramientes de reconocencia de voz.
 about-clip-graveyard = Cementeriu de clips
 about-clip-graveyard-text = Fórmenlu los clips que nun s'incluyeron nel conxuntu de datos de Common Voice. Sicasí, ta disponible pa baxar.
-about-partners = Socios
-about-become-a-partner = Conversión a sociu
-about-partnership =
-    Common Voice ye un proyeutu collaborativu que depende de la comunidá de socios y collaboradores pa crear el conxuntu de datas de voz abiertu más grande del momentu.
-    
-    Queremos agradecer a les persones y organizaciones de darréu pola so ayuda col proyeutu:
 about-get-involved = Andecha
 about-get-involved-text-2 =
     ¿Quies ameyorar Common Voice más?
@@ -511,10 +502,6 @@ about-nav-get-involved = Andecha
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Intelixencia artificial
-mycroft-description = Mycroft ye'l primer asistente de códigu abiertu del mundu y pue executase en cualesquier llugar (ordenador, coche o nuna Raspberry Pi).
-mycroft-secondary-description = Esto ye software de códigu abiertu que pues mecer, estender y ameyorar llibremente. Mycroft pue usase en cualesquier cosa, dende un proyeutu de ciencies hasta una aplicación empresarial
 
 ## Glossary
 
@@ -547,7 +534,7 @@ data-download-license = Llicencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Tas a piques d'aniciar la descarga de <size>{ $size }GB</size>, ¿siguir?
 data-subtitle = Tamos construyendo un conxuntu de datos públicu que tol mundu pue usar pa entrenar a les aplicaciones qu'usen la voz.
 data-explanatory-text = Creyemos qu'unos conxuntos de datos de voz grandes y públicos dan puxu a la innovación y competencia comercial sana nel campu de la teunoloxía de la voz basada nel deprendizaxe automáticu. Esto ye un esfuerciu global y convidamos a que tol mundu participe. L'oxetivu de nueso ye ayudar a que la teunoloxía de voz seya más inclusiva reflexando la diversidá de voces nel mundu.
-data-get-started = <speechBlogLink>Entamar cola reconocencia de voz</speechBlogLink>
+data-get-started = <speechBlogLink>Comenzar cola reconocencia de voz</speechBlogLink>
 data-other-title = Otros conxuntos de datos de voz...
 data-other-goto = Dir a { $name }
 data-other-download = Baxar datos
@@ -652,6 +639,9 @@ request-language-success-content = Mui pronto vamos ponenos en contautu con más
 select-language = Esbilla una llingua...
 other-language = Otra llingua
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = En cursu
@@ -667,7 +657,6 @@ language-search-input =
 language-speakers = Falantes
 localized = Tradúxose
 sentences = Frases
-total-hours = Hores totales
 
 ## Contribution
 
@@ -726,7 +715,7 @@ speak-empty-state-cta = Collaborar con frases
 record-button-label = Grabar la to voz
 share-title-new = <bold>Ayúdanos</bold> a atopar más voces
 keep-track-profile = Sigui'l to progresu con un perfil
-login-to-get-started = Anicia sesión o rexístrate pa entamar
+login-to-get-started = Anicia sesión o rexístrate pa comenzar
 target-segment-first-card = Tas collaborando nel nuesu primer segmentu de voz oxetivu
 target-segment-generic-card = Tas collaborando nun segmentu de voz oxetivu
 target-segment-first-banner = Ayuda a crear el primer segmentu de voz de Common Voice en { $locale }
@@ -799,7 +788,7 @@ show-ranking = Amosar la mio clasificación
 
 ## Custom Goals
 
-get-started-goals = Entamar coles metes
+get-started-goals = Comenzar coles metes
 create-custom-goal = Crear una meta global
 goal-type = ¿Qué tipu de meta quies crear?
 both-speak-and-listen = Dambos
@@ -896,7 +885,7 @@ read-more-about = Llei más tocante a nós na nuesa páxina Tocante a
 
 ## DemoLayout
 
-demo-get-started = Vamos entamar
+demo-get-started = Vamos comenzar
 demo-welcome = Afáyate en Common Voice
 demo-welcome-subheader = ¿Interésate saber más y collaborar nel proyeutu?
 
@@ -1007,7 +996,8 @@ sc-criteria-item-6 = Si escoses les frases a revisar, ¡ayudanos a atropar más!
 
 ## SETTINGS
 
-sc-settings-title = Axustes
+sc-settings-title = Configuración
+sc-settings-ui-language = Llingua de la interfaz
 
 # [/SentenceCollector]
 

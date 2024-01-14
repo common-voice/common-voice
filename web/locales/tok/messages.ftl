@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = o pana e lipu tawa mi. mi wile sona e ijo pi pali Common Voice Project.
+yes-receive-emails = o pana e lipu tawa mi. mi wile sona e ijo sin pi kulupu Common Voice Project.
 stayintouch = lon kulupu Mozilla la, mi mute li pali e ilo pi toki kalama. mi mute li wile e ni: sina pana e ijo sin, e sona sin, e kepeken sina pi ilo ni tawa mi mute.
 privacy-info = awen pona pi sona sina li suli tawa mi. o kama sona e nasin lon lipu pi <privacyLink>nasin sona mi</privacyLink>
 return-to-cv = o tawa ilo Common Voice
@@ -18,6 +18,10 @@ banner-error-slow-1 = mi pakala. ilo Common Voice li pakala lili. sina pona tan 
 banner-error-slow-2 = jan mute li kama tawa ilo. mi alasa sona e pakala.
 banner-error-slow-link = ilo li pilin seme?
 error-something-went-wrong = ijo li pakala.
+error-clip-upload = mi ken ala pana e kalama sina. mi o awen alasa pana e ona anu seme?
+error-clip-upload-server =
+    mi awen ken ala pana.
+    o sin e lipu ni, anu kama sin lon tenpo kama.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +44,13 @@ ba = toki Pakosa
 bas = toki Pasawa
 be = toki Pijelalukaja
 bg = toki Pokasi
+bm = toki Pamanankan
 bn = toki Panla
+bo = toki Sipetan
 br = toki Peson
 bs = toki Posan
 bxr = toki Pulijata
+byv = toki Makijunpa
 ca = toki Katala
 cak = toki Kakisike
 ckb = toki Solani
@@ -53,6 +60,7 @@ cs = toki Seki
 cv = toki Sepasula
 cy = toki Kinla
 da = toki Tansi
+dag = toki Takani
 de = toki Tosi
 dsb = toki Tonosesuki
 dv = toki Sipeki
@@ -76,6 +84,7 @@ gom = toki Konki
 ha = toki Awasa
 he = toki Iwisi
 hi = toki Insi
+hil = toki Ilikanan
 hr = toki Lowasi
 hsb = toki Konkosepusina
 ht = toki Awisi
@@ -90,6 +99,7 @@ is = toki Isilenka
 it = toki Italija
 izh = toki Inkelon
 ja = toki Nijon
+jbo = toki Losupan
 ka = toki Katuli
 kaa = toki Kalakapa
 kab = toki Sakeli
@@ -98,6 +108,7 @@ ki = toki Kekojo
 kk = toki Kasakusa
 km = toki Kemalapisa
 kmr = toki Kunlansi
+kn = toki Kanata
 knn = toki Konkani (sitelen Tepanakali)
 ko = toki Anku, toki Soson
 kpv = toki Komi Sijan
@@ -106,6 +117,8 @@ ky = toki Kukusa
 lb = toki Lesepoje
 lg = toki Lukanta
 lij = toki Likile
+ln = toki Linkala
+lo = toki Pasala
 lt = toki Lijetupiju
 lv = toki Lapijesu
 mai = toki Metili
@@ -125,10 +138,12 @@ my = toki Mijama
 myv = toki Elisijan
 nan-tw = toki Minan
 nb-NO = toki Nosiki lipu
+nd = toki Isintepele Sasenjakato
 ne-NP = toki Nepali
 nia = toki Linika
 nl = toki Netelan
 nn-NO = toki Nosiki sin
+nr = toki Isintepele Sesewula
 nso = toki Soto Noto
 nyn = toki Lunjankole
 oc = toki Usita
@@ -155,6 +170,7 @@ si = toki Sinala
 sk = toki Sopa
 skr = toki Salaki
 sl = toki Soleni
+snk = toki Soninkankane
 so = toki Somalija
 sq = toki Sipe
 sr = toki Sepi
@@ -178,6 +194,7 @@ ts = toki Sisonka
 tt = toki Tatasa
 tw = toki Sijuwi
 ty = toki Tasiti
+tyv = toki Tuwa
 uby = toki Tuwekise
 udm = toki Untu
 ug = toki Uwiku
@@ -188,14 +205,17 @@ ve = toki Sipenta
 vec = toki Peneto
 vi = toki Wije
 vot = toki Patija
+wo = toki Olo
 xh = toki Sosa
 yi = toki Isi
 yo = toki Jolupa
 yue = toki Kantun
+zgh = toki Samasi
 zh-CN = toki Sonko
 zh-HK = toki Onkon
 zh-TW = toki Tawan
 zu = toki Sulu
+zza = toki Sasa
 
 # [/]
 
@@ -207,6 +227,7 @@ speak-now = o toki uta
 datasets = kulupu kalama
 languages = toki
 about = sona
+partner = kulupu poka
 profile = lipu jan
 help = o pona e mi
 contact = o toki tawa lawa
@@ -220,6 +241,7 @@ share-text = sina wile pana e sona toki tawa ilo la, o pana e toki uta sina lon 
 link-copied = sina kama jo e nimi nasin
 back-top = o tawa sewi
 logout = o weka tan sijelo ilo
+donate = o pana e mani
 
 ## Home Page
 
@@ -399,7 +421,9 @@ why-demographic = ni li suli tan seme?
 why-demographic-explanation-2 = sona ni li pona e ilo kute: tenpo sike lon en kule kon en nasin kalama toki. ijo ala li ken lukin e nimi sina lon poka pi sona sina. sina wile la sina ken len e nimi sina.
 accept-privacy = ni li pona: ilo li jo e sona mi kepeken <privacyLink>nasin pi len sona</privacyLink> pi kulupu Mozilla
 accept-privacy-title = nasin pi len sona li pona tawa mi
+accept-privacy-and-terms = <termsLink>lawa kepeken</termsLink> en <privacyLink>nasin pi len sona</privacyLink> li pona tawa mi.
 login-identity = nasin nimi pi sijelo sina
+login = o kama lon
 login-signup = o kama / o pali e sijelo ilo
 edit = o ante
 email-subscriptions = lipu wile pi poki lipu sina
@@ -580,7 +604,6 @@ about-playbook-how-add-sentences = nasin seme la mi ken pana e sitelen?
 about-playbook-how-add-sentences-content-1 = <strong>ilo Sentence Collector</strong> li kama jo e sitelen, li pona e sitelen open. o pali e <scAccountLink>sijelo ilo</scAccountLink>. ni la, o pana e toki sina tawa <strong>lipu jan</strong> sina. sina ken <strong>pana</strong> e sitelen. sina ken <strong>pona</strong> e sitelen.
 about-playbook-how-add-sentences-content-2 = sitelen li pona tawa jan tu la, ilo li pana e sitelen ni tawa sona pi ilo Common Voice. sina ken pali e nasin pona pi toki sina <languageGuidelinesLink>lon lipu ni</languageGuidelinesLink>. ni o lon: <licenseLink>jan ale li ken kepeken</licenseLink> sitelen ale. sitelen o kepeken nimi 14 anu lili. o toki tawa jan sitelen la, ona li ken kepeken <waiverLink>lipu ni</waiverLink>, li ken pana e sitelen ona kepeken nasin open. ona li ken pana e lipu tawa poki lipu commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = sina ken kepeken <scraperLink>ilo pi nimi tan</scraperLink>. ona la sina ken kama jo e sitelen tan lipu Wikipedia.
-about-playbook-how-add-sentences-content-4 = toki li pona la, mi pana insa e ona lon tenpo suno nanpa tu wan pi tenpo suno. mi pana e ona lon ilo lon tenpo pi pana weka kalama.
 
 ## How to record quality
 
@@ -694,6 +717,7 @@ datasets-positioning =
     
     o lukin e lipu ni tawa sona ni: mi pana e sona pi kulupu sona ante. ilo Common Voice li kama suli la, mi pana e sin ona tawa lipu ni.
 language = toki
+download-dataset-header = o kama jo e kulupu kalama
 # File size in gigabytes
 size = suli
 validated-hr-total = nanpa tenpo pona
@@ -739,6 +763,9 @@ more = o mute
 close = o pini
 download = o kama jo
 dataset-version = nanpa
+sha256-checksum-copied = sina kama jo e nanpa pi nasin SHA256!
+sha256-checksum-copied-error = pakala la sina kama ala jo e nanpa pi nasin SHA256
+clipboard-not-supported = sina ken ala kama jo e sitelen.
 
 ## Download Modal
 
@@ -819,6 +846,7 @@ action-click = pilin
 action-tap = pilin
 contribute = o pana
 listen = o kute
+write = o sitelen
 skip = mi sona ala, o pana e toki ante
 shortcuts = nena pali
 clips-with-count-pluralized =
@@ -881,6 +909,10 @@ target-segment-first-banner = o pona e pali suli nanpa wan pi ilo Common Voice l
 target-segment-add-voice = o pana e toki uta sina
 target-segment-learn-more = o kama sona
 
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = kulupu kalama
+
 ## Reporting
 
 report = o toki e pakala
@@ -923,10 +955,10 @@ validations =
 your-languages = toki sina
 toward-next-goal = tawa wile pali sin
 goal-reached = sina pini!
-clips-you-recorded = kalama awen sina
-clips-you-validated = kalama awen pi pona sina
-todays-recorded-progress = kalama awen tan tenpo suno ni
-todays-validated-progress = kalama awen pona tan tenpo suno ni
+clips-you-recorded = sina pana e kalama pi mute ni
+clips-you-validated = sina kute e kalama pi mute ni
+todays-recorded-progress = tenpo suno ni la kalama awen
+todays-validated-progress = tenpo suno ni la kalama awen pona
 stats = pali
 awards = ijo tan pali pona
 you = sina
@@ -1472,3 +1504,49 @@ sc-validation-no-abbreviations = o kepeken ala sitelen lili lon sitelen sina.
 
 localization-select =
     .label = o kepeken toki
+# PARTNERSHIPS PAGE
+partnerships-header = kulupu poka
+partnerships-header-text =
+    pali Common Voice li mute a!
+    ni la kulupu mute li kama li pali lon poka li pona e ilo.
+    sina wile ala wile poka? wile la o kama toki tawa mi!
+partnerships-get-in-touch = o kama toki
+partnerships-become-a-partner = o kama poka pi kulupu Common Voice
+partnerships-our-partners = kulupu poka
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = sina pona tan ni: sina pana e kalama sina!
+first-cta-subtitle-text = sina wile ala wile pana e sona pi nasin toki sina?
+why-donate = sina wile e mani tan seme?
+add-information-button = o pana e sona
+continue-speaking-button = o awen kalama
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = sina pona tan ni: sina pana e kalama sina!
+second-cta-subtitle-text = sina pali e sijelo la sina ken sona e ni: sina pali seme? kin la sina ken toki tawa kulupu pi ilo ni.
+already-have-an-account = sina jo ala jo e sijelo? jo la <login>o kama lon</login>
+create-profile-button = o pali e sijelo
+# IMAGE TAGS
+img-alt-success-checkmark = sitelen pona
+sentence-collection = kama jo sitelen
+varying-pronunciations = nimi la kalama li ante
+misreadings = pakala toki
+offensive-content = toki ike
+background-noise = kalama pi ijo ante
+background-voices = toki pi jan ante
+volume = wawa kalama
+reader-effects = nasin toki jan
+just-unsure = sina sona ala anu seme?
+background-noise-explanation = sina o ken kute e nimi ale lon kalama. kalama suli en toki pi jan ante en kalama musi la ilo o awen ken sona e nimi. ijo li pakala e toki la sina ken ala kute e nimi ale la o weka e toki.
+citing-sentences-subheader-websites = sitelen li tan lipu ilo
+citing-sentences-subheader-offline-sources = sitelen li tan ala ilo
+adding-sentences-subheader-length = suli sitelen
+adding-sentences-subheader-length-explanation = sitelen la nimi o mute lili, o lili tawa luka luka luka.
+adding-sentences-subheader-spelling-punctuation-explanation = nimi sitelen o pona lon nasin o pakala ala tawa lukin.
+adding-sentences-subheader-speakable = sina o ken toki e sitelen
+adding-sentences-subheader-punctuation = sitelen pini
+adding-sentences-subheader-offensive-content = toki ike
+write-page-subtitle = sina pana e toki la ona li kama lon kulupu sona li tawa ale kepeken nasin CC0.
+sentence =
+    .label = sitelen
+citation-input-value = sitelen li tan seme?
+report-sc-different-language = toki ante
+review-error-rate-limit-exceeded = sina kepeken tenpo pi lili ike. o lukin e sitelen lon tenpo pona, o sona e pona ona.

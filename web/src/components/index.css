@@ -60,9 +60,23 @@ body,
     width: 100%;
     height: 100vh;
     max-height: 100%;
+}
 
+#main.write, #main.review {
     @media (--md-down) {
-        overflow-y: auto;
+        height: auto;
+    }
+}
+
+#main {
+    &.nav-modal-active {
+        @media (--lg-down) {
+            overflow-y: hidden;
+
+            & .header {
+                display: flex;
+            }
+        }
     }
 }
 
@@ -152,6 +166,29 @@ button {
             color: var(--ksaa-1);
         }
     }
+    &.speak,
+    &.listen,
+    &.write,
+    &.review  {
+        max-height: calc(100dvh - 2px);
+
+        & header {
+            @media (--lg-down) {
+                display: none;
+            }
+        }
+
+        #content {
+            min-height: 70%;
+        }
+    }
+
+    &.write,
+    &.review {
+        @media (--md-down) {
+            overflow: auto;
+        }
+    }
 }
 
 /**
@@ -177,6 +214,19 @@ button {
     flex-grow: 1;
     width: 100%;
     min-height: 100%;
+
+    &.write,
+    &.review {
+        @media (--sm-down) {
+            min-height: auto;
+        }
+    }
+
+    &.review {
+        & .spinner--floating {
+            position: fixed;
+        }
+    }
 }
 
 .Logo {
@@ -266,22 +316,11 @@ a.small,
     text-decoration: underline;
 }
 
-.with-down-arrow::after {
-    content: '';
-    position: absolute;
-    inset-inline-end: 15px;
-    width: 13px;
-    height: 100%;
-    background: url('~img/down-arrow.svg') no-repeat 0 center;
-    background-size: 13px 9px;
-    pointer-events: none;
-}
-
 .tippy-popper {
     & .tippy-tooltip {
         border-radius: 20px;
         padding: 9px 25px;
-        max-width: 140px;
+        max-width: 200px;
         line-height: 1.5;
         font-size: var(--font-size-xs);
         font-style: italic;

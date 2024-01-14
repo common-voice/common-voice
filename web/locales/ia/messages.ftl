@@ -18,6 +18,8 @@ banner-error-slow-1 = Desolate, Common Voice es exequite lentemente. Gratias pro
 banner-error-slow-2 = Nos recipe multe traffico e actualmente nos investiga le problemas.
 banner-error-slow-link = Pagina de stato
 error-something-went-wrong = Desolate, alco errate eveniva
+error-clip-upload = Le cargamento de ce clip falle ancora, retentar?
+error-clip-upload-server = Le cargamento de ce clip falle ancora al servitor, recarga le pagina o prova plus tarde.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -42,6 +44,7 @@ be = Bielorusso
 bg = Bulgaro
 bm = Bambara
 bn = Bengali
+bo = Tibetano
 br = Breton
 bs = Bosniano
 bxr = Buriato
@@ -66,6 +69,7 @@ eo = Esperanto
 es = Espaniol
 et = Estoniano
 eu = Basco
+ewo = Ewondo
 fa = Persiano
 ff = Fula
 fi = Finnese
@@ -76,6 +80,7 @@ ga-IE = Irlandese
 gl = Galiciano
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebreo
 hi = Hindi
@@ -95,6 +100,7 @@ it = Italiano
 izh = Azoriano
 ja = Japonese
 jbo = Lojban
+jv = Javanese
 ka = Georgiano
 kaa = Karakalpak
 kab = Cabilo
@@ -115,6 +121,7 @@ lij = Ligure
 ln = Lingala
 lo = Lao
 lt = Lituano
+ltg = Latgaliano
 lv = Latviano
 mai = Maithili
 mdf = Moksha
@@ -135,15 +142,19 @@ nan-tw = Taiwanese (Minnan)
 nb-NO = Norvegiano Bokmål
 nd = IsiNdebele (nord)
 ne-NP = Nepalese
+nhe = Huasteca Nahuatl oriental
+nhi = Westelijk Sierra Puebla Nahuatl
 nia = Nias
 nl = Nederlandese
 nn-NO = Norvegiano Nynorsk
 nr = IsiNdebele (sud)
 nso = sotho del nord
+ny = Chinyanja
 nyn = Nyankole
 oc = Occitano
 om = oromo
 or = Odia
+os = Osseta
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Polonese
@@ -190,6 +201,7 @@ ts = xitsonga
 tt = Tataro
 tw = Twi
 ty = Tahitiano
+tyv = Tuvano
 uby = Ubykh
 udm = Udmurte
 ug = Uyghur
@@ -200,6 +212,7 @@ ve = tshivenda
 vec = Venetian
 vi = Vietnamese
 vot = Votico
+wo = Wolof
 xh = Xhosa
 yi = Yiddish
 yo = Yoruba
@@ -235,6 +248,7 @@ share-text = Adjuta a inseniar a machinas como personas real parla! Dona tu voce
 link-copied = Ligamine copiate
 back-top = Retornar al initio
 logout = Clauder session
+donate = Donar
 
 ## Home Page
 
@@ -391,7 +405,7 @@ female = Feminin
 other = Altere
 why-profile-title = Proque un profilo?
 why-profile-text = Si tu forni alcun informationes sur te, le datos audio que tu invia a Common Voice essera plus utile pro le motores de recognition de voce que usa iste datos pro meliorar lor precision.
-dashboard = Tabuliero
+dashboard = Pannello de controlo
 build-profile = Crear le profilo
 avatar = Avatar
 goals = Objectivos
@@ -405,7 +419,9 @@ why-demographic = Proque es isto relevante?
 why-demographic-explanation-2 = Le datos anonymisate de usatores como etate, genere e accento adjuta a meliorar le datos audio usate pro augmentar le precision del motores de recognition de voce. Tu nomine de usator e adresse de e-mail non essera jammais associate con tu datos submittite, e tu pote eliger si render tu nomine de usator public o anonyme.
 accept-privacy = Io concorda que vos tracta iste informationes como vos explica in le <privacyLink>Politica de confidentialitate</privacyLink> de Mozilla
 accept-privacy-title = Politica de confidentialitate
+accept-privacy-and-terms = Io concorda con le <termsLink>Terminos</termsLink> e con le <privacyLink>Aviso de confidentialitate</privacyLink>
 login-identity = Identitate pro aperir session
+login = Aperir session
 login-signup = Aperir session / Inscriber se
 edit = Modificar
 email-subscriptions = Subscriptiones de email
@@ -602,7 +618,6 @@ about-playbook-how-add-sentences = Como adde io phrases?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> es un instrumento pro colliger e validar phrases de dominio public. Tu <scAccountLink>debera crear un conto</scAccountLink>. E pois, adder tu lingua a tu <strong>Profilo</strong>. <s0/>Tu potera <strong>Adder</strong> phrases o <strong>Revider</strong> phrases previemente addite.
 about-playbook-how-add-sentences-content-2 = Le phrases debe esser revidite e acceptate per duo personas pro includer los in Common Voice. Que tu crea lineas guida pro tu lingua <languageGuidelinesLink>hic</languageGuidelinesLink>. Le phrases debe esser de <licenseLink>dominio public</licenseLink> e plus curte que 15 vocabulos. Tu pote demandar al proprietario de un texto de render lo <waiverLink>CC0, per nostre processo de exemption</waiverLink>, e inviar lo nos a <a0>commonvoice@mozilla.com</a0>
 about-playbook-how-add-sentences-content-3 = Tu pote usar le <scraperLink>Extractor de phrase</scraperLink> pro procurar te curte phrases ex Wikipedia.
-about-playbook-how-add-sentences-content-4 = Le phrases que ha essite validate es exportate le mercuridis, e es disponibile post le publication successive.
 
 ## How to record quality
 
@@ -620,7 +635,7 @@ about-playbook-how-grow-language-content-1 = Crear opportunitates pro que divers
 about-playbook-how-grow-language-content-2 = Eventos
 about-playbook-how-grow-language-content-3 = Tu pote developpar eventos pro adjutar personas a collaborar. Il es plus facile que tu pensa. Tu pote facer lo online con un instrumento de video-conferentias, o in persona si illo es secur. <eventTemplate>Discoperi nostre modellos e ressources pro developpar eventos</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Medios social
-about-playbook-how-grow-language-content-5 = Tu pote usar platteformas de medios social pro diffunder le message. Comparti messages que explica perque illo es importante, e continge altere personas qui parla re problemas como derectos linguistic, voce intelligentia artificial del voce, o le prejudicios in le technologia. Vide altere consilios sur <campaignLink>developpar un campania social, includite le contento que tu pote re-usar</campaignLink>.
+about-playbook-how-grow-language-content-5 = Tu pote usar platteformas de medios social pro diffunder le message. Comparti messages que explica su importantia e entra in contacto con altere personas pro discuter problemas como derectos linguistic,  intelligentia artificial vocal, o prejudicios in le technologia. Vide plus consilios sur <campaignLink>gerer un campania social e obtener contento que tu pote re-usar</campaignLink>.
 about-playbook-how-grow-language-content-6 = Societates e retes
 about-playbook-how-grow-language-content-7 = Trova alteres qui cura. Que pote esser universitates, scholas de linguas, gruppos de propugnation o communitates de scientia de datos. Attinge les e explica clarmente como illes pote adjutar e perque. <outreachTemplates>Vide nostre e-mails modello de extension</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Sia creative!</strong> Tu communitate linguistic sera unic, e istos es solo alcun manieras pro comenciar.
@@ -678,7 +693,7 @@ data-download-button = Discargar datos de Common Voice
 data-download-yes = Si
 data-download-deny = No
 data-download-license = Licentia: <licenseLink>CC-0</licenseLink>
-data-download-modal = Tu va initiar a discargar de <size>{ $size }GB</size>, continuar?
+data-download-modal = Tu es sur le puncto de initiar un discargamento de <size>{ $size }GB</size>, continuar?
 data-subtitle = Nos construe un collection de datos de voces aperte e publicamente disponibile que omnes pote usar pro maestrar applicationes ad activation vocal.
 data-explanatory-text = Nos crede que le grande e publicamente disponibile collectiones de datos vocal favori le innovation e le salubre competition commercial in le apprendimento automatic basate sur le technologia del voce. Isto es un effortio global e nos invita omnes a participar. Nostre scopo es adjutar le technologia del voce a ser plus inclusive, reflectente le diversitate del voces del mundo.
 data-get-started = <speechBlogLink>Comenciar con le Recognition de voce</speechBlogLink>
@@ -719,7 +734,6 @@ language = Lingua
 download-dataset-header = Discarga le collection de datos
 download-delta-explainer = Nos faceva alcun modificationes. Le segmentos delta contine solo le plus recente registrationes plus recente desde le ultime version. <deltaLink>Pro leger plus re iste labor</deltaLink>.
 download-dataset-tag = Elige le collection de datos del lingua desirate e le version que tu vole discargar.
-download-dataset-access = Cerca tu versiones precedente del collection de datos? Invia un email a <emailLink> { $email } </emailLink
 # File size in gigabytes
 size = Dimension
 validated-hr-total = Horas validate Total
@@ -730,10 +744,12 @@ number-of-voices = Numero de voces
 splits = Cesuras
 email-to-download = Insere email pro discargar
 why-email = <b>Proque un adresse de e-mail?</b> Es possibile que nos debera contactar te in le futuro sur cambiamentos concernente le collection de datos. Un adresse de e-mail nos forni un puncto de contacto.
+why-donate = Perque demanda tu?
 confirm-size = Tu es preste a initiar un discargamento de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Tu concorda</b> de non tentar de determinar le identitate del parlantes in le collection de datos de Common Voice
+confirm-join-mailing-list = Io vole junger me al lista de diffusion de Common Voice
 download-language = Discargar { $language }
 validated-hours = Horas validate
 recorded-hours = Horas registrate
@@ -766,6 +782,9 @@ more = Plus
 close = Clauder
 download = Discargar
 dataset-version = Version
+sha256-checksum-copied = Summa de controlo SHA256 copiate!
+sha256-checksum-copied-error = Impossibile copiar le summa de controlo SHA256
+clipboard-not-supported = Area de transferentia non supportate
 
 ## Download Modal
 
@@ -802,7 +821,7 @@ request-language-heading = Demandar un nove lingua
 request-language-explanation-1 =
     Verifica si tu lingua es in le lista super le
     <languagesPageLink>Pagina de linguas de Common Voice</languagesPageLink>.
-    Si non, plena iste forma e nos <strong>te inviara un practic email
+    Si non, compila iste formulario e nos <strong>te inviara un practic email
     explicante como implementar tu lingua</strong>.
 request-language-explanation-2 =
     Nos alsi <strong>face saper a nostre gestor de communitate
@@ -843,6 +862,8 @@ language-section-in-progress = In curso
 language-section-in-progress-new-description = Iste linguas es actualmente sub disveloppamento de communitate. Le barras de progresso indica le avantiamento de cata lingua in le processo de <localizationGlossaryLink>localisation del sito web </localizationGlossaryLink> e <sentenceCollectionGlossaryLink>collection de phrases</sentenceCollectionGlossaryLink>.
 language-section-launched = Lanceate
 language-section-launched-description = Le sito web ha essite <localizationGlossaryLink>localisate</localizationGlossaryLink> con successo pro iste linguas lanceate, e il ha satis <sentenceCollectionGlossaryLink>phrases colligite</sentenceCollectionGlossaryLink> pro permitter le contributiones continue de <speakLink>Parlar</speakLink> e <listenLink>Ascoltar</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Ultime actualisation: { $lastUpdate }
 languages-show-more = Vider plus
 languages-show-less = Vider minus
 language-meter-in-progress = Progresso
@@ -861,6 +882,8 @@ action-click = Clicca sur
 action-tap = Tocca
 contribute = Contribuer
 listen = Ascoltar
+write = Scriber
+review = Revider
 skip = Saltar
 shortcuts = Accessos directe
 clips-with-count-pluralized =
@@ -908,6 +931,9 @@ listen-3rd-time-instruction = Duo facite, continua assi!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Le ultime!
 listen-empty-state = Nos non ha plus registrationes a validar pro iste lingua...
 listen-loading-error = Impossibile trovar alcun registration audio a facer te ascoltar. Retenta plus tarde.
+listen-abort-title = Terminar le validation del registrationes?
+listen-abort-cancel = Continuar le validation
+listen-abort-confirm = Terminar le validation
 speak-empty-state = Nos non ha plus phrases a registrar pro iste lingua...
 speak-empty-state-cta = Contribue con altere phrases
 speak-loading-error = Impossibile trovar alcun phrases a facer te pronunciar. Retenta plus tarde.
@@ -920,6 +946,11 @@ target-segment-generic-card = Tu contribue a un segmento objectivo
 target-segment-first-banner = Adjuta crear le prime segmento objectivo de Common Voice in { $locale }
 target-segment-add-voice = Adde tu voce
 target-segment-learn-more = Saper plus
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Collection de voces
+contribute-sentence-collection-nav-header = Collection de phrases
 
 ## Reporting
 
@@ -999,7 +1030,7 @@ average-difficulty = Normal
 difficult-difficulty = Difficile
 pro-difficulty = Professional
 lose-goal-progress-warning = Si tu modifica tu objectivo, tu pote perder tu progresso existente.
-want-to-continue = Desira tu continuar?
+want-to-continue = Vole tu continuar?
 finish-editing = Fini primo le modificationes?
 lose-changes-warning = Si tu exi ora, tu perdera tu modificationes
 build-custom-goal = Crea un objectivo personal
@@ -1050,7 +1081,7 @@ share-goal-type-speak = Parlar
 share-goal-type-listen = Ascoltar
 share-goal-type-both = Parlar e ascoltar
 # LINK will be replaced with the current URL
-goal-share-text = Io ha justo create un objectivo personal pro donation de voce a #CommonVoice -- junge te a me e adjuta inseniar al machinas como parla le personas real { $link }
+goal-share-text = Io ha justo ora create un objectivo personal pro donar mi voce a #CommonVoice -- participa con me e adjuta a inseniar al machinas como parla le personas real { $link }
 weekly-goal-created = Tu objectivo septimanal ha essite create
 daily-goal-created = Tu objectivo quotidian ha essite create
 track-progress = Tracia tu progresso ci e sur tu pagina de statistica.
@@ -1139,7 +1170,7 @@ demo-listen-subtitle = Preste a contribuer?
 
 ## Demo Dashboard
 
-demo-dashboard-card-header = Le tabulieros personal te tene al currente con le progresso individual e communitari.
+demo-dashboard-card-header = Le pannellos personal te tene al currente con le progresso individual e communitari.
 demo-dashboard-card-body = Pro cata retalio de voce donate e cata retalio de audio validate, le tabulieros de tu conto se actualisa pro reflecter le ultime progresso in cata lingua in que tu contribue. Si, tu pote contribuer a plure linguas!<br/><br/>Usa le tabulieros pro traciar tu statisticas, comparar tu progresso con illo de alteres in le communitate, e definir objectivos de contribution quotidian o septimanal.
 
 ## Validation criteria
@@ -1172,7 +1203,7 @@ contribution-misreadings-example-8-title = Le bombo passava veloce.
 contribution-misreadings-example-8-explanation = [Contento discorde]
 contribution-varying-pronunciations-title = Pronunciationes variate
 contribution-varying-pronunciations-description = Sia prudente ante rejectar un registration sur le base que le lector ha mal-pronunciate un parola, ha ponite le accento in le position errate o apparentemente ha ignorate un puncto de interrogation. Un large varietate de pronunciationes es usate in tote le mundo, parte del qual tu pote non haber audite in tu communitate local. Forni un margine de appreciation pro ille qui pote parlar differentemente de te.
-contribution-varying-pronunciations-description-extended = Del altere latere, si tu pensa que le lector antea ha probabilemente jammais incontrate le parola e que ille simplemente face un non correcte estimation del pronunciation, per favor rejecta lo. Si tu non es secur, usa le button saltar.
+contribution-varying-pronunciations-description-extended = Del altere latere, si tu pensa que le lector probabilemente non ha jammais incontrate le parola antea e que ille simplemente face un estimation incorrecte del pronunciation, per favor rejecta lo. Si tu non es secur, usa le button saltar.
 contribution-varying-pronunciations-example-1-title = Le puero usava un cappello.
 contribution-varying-pronunciations-example-1-explanation = [In interlingua le duple litteras de "cappello" pote esser pronunciate como singule]
 contribution-varying-pronunciations-example-2-title = Nos a multe tempore.
@@ -1193,7 +1224,7 @@ contribution-volume-title = Volumine
 contribution-volume-description = Il sera natural variationes in volumine inter lectores. Rejecta solo si le volumine es assi alte que le registration se interrumpe, o (plus communmente) si illo es assi basse que tu non pote audir lo que es dicite sin referentia al texto scribite.
 contribution-reader-effects-title = Effectos del lector
 contribution-reader-effects-description = Le major parte del registrationes es de personas qui parla in lor natural voce. Tu pote acceptar le occasional registration non-standard que es critate, susurrate, o obviemente fornite in un voce ‘dramatic’. Per favor rejecta registrationes cantate e illos que usa un voce synthetisate per computator.
-contribution-just-unsure-title = Justo insecur?
+contribution-just-unsure-title = Ha tu dubitas?
 contribution-just-unsure-description = Si tu ha incontrate qualcosa que iste lineas guida non coperi, per favor vota in accordo a tu melior judicio. Si tu realmente non pote decider, usa le button saltar e va al sequente registration.
 see-more = <chevron></chevron>Vider plus
 see-less = <chevron></chevron>Vider minus
@@ -1264,7 +1295,7 @@ sc-howto-addsen-item-3 =
     In addition, on pote haber plure accurate lecturas pro un singule abbreviation.
     Per exemplo, le acronymo “ICE” pote esser pronunciate “I-C-E” o como singule parola.
 sc-howto-addsen-item-4 = Punctuation. Symbolos special e punctuation deberea solo esser includite quando absolutemente necessari. Per exemplo, un apostropho es includite in vocabulos anglese como “don’t” e “we’re” e debe esser includite in le texto fonte, ma il es inverisimile que tu unquam besoniara de un symbolo special como “@” o “#.”
-sc-howto-addsen-item-5 = Litteras estranier. Le litteras debe esser valide in le lingua a parlar. Per exemplo, “ж” es un littera in le alphabeto russe ma jammais es usate in anglese e assi non deberea jammais apparer in ulle texto fonte anglese.
+sc-howto-addsen-item-5 = Litteras estranier. Le litteras debe esser valide in le lingua a parlar. Per exemplo, “ж” es un littera in le alphabeto russe ma non es jammais usate in anglese e dunque non deberea jammais apparer in alcun texto fonte anglese.
 sc-howto-addsen-item-6 = Le linguas pote haber lor <validationRulesLink>proprie regulas de validation</validationRulesLink> con altere requisitos. Si il non ha un specific validation file pro un lingua, nos usa le generic regulas del anglese.
 sc-howto-addsen-post-1 = Nos prefere phrases natural/conversational. Durante que le diversitate phonetic e differente vocabulos in phrases es importante, nos tenta render phrases a registrar le plus amusante possibile. Pro isto il esserea formidabile si tu pote tentar de mantener tu phrases le plus natural e involvente possibile.
 sc-howto-cite-title = Como citar
@@ -1282,7 +1313,7 @@ sc-howto-review-criteria-5 = Si le phrase non incontra le superior criterios, cl
 sc-howto-review-criteria-6 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger plus phrases!
 sc-howto-findpd-title = Trovar phrases existente de dominio public
 sc-howto-findpd-subtitle = Cercar los in internet
-sc-howto-findpd-text-2 = Rememora que nos besonia le permission pro publicar ille phrases, assi sempre assecura te que le texto pertine al <wikipediaLink>dominio public</wikipediaLink>. Si il non ha un indication explicite, continge le persona proprietario del texto e demanda si ille vole contribuer lor texto al dominio public. Si ille lo vole, adjuta le ir per le processo de <cc0WaiverLink>Accordo de collaborationes</cc0WaiverLink>. Si illes non vole contribuer le texto, alora non te es permittite usar ille texto.
+sc-howto-findpd-text-2 = Rememora que nos require permission pro publicar ille phrases, dunque sempre assecura te que le texto pertine al <wikipediaLink>dominio public</wikipediaLink>. Si il non ha un indication explicite, contacta le proprietario del texto e demanda si ille vole contribuer su texto al dominio public. Si ille lo vole, adjuta le a sequer le processo de <cc0WaiverLink>Accordo de contributiones</cc0WaiverLink>. Si ille non vole contribuer le texto, alora non te es permittite usar ille texto.
 sc-howto-findpd-tips = Ecce alcun consilios utile pro trovar phrases:
 sc-howto-findpd-tips-1 = Le melior fontes pro recercar es podcasts, transcriptiones, scenarios de film e alco que pote continer conversationes del vita quotidian.
 sc-howto-findpd-tips-2 = Alsi deliberationes, libros e articulos governative es formidabile, totevia pois que le texto tende a esser un poco plus formal illos es de minor prioritate.
@@ -1559,3 +1590,185 @@ partnerships-small-business-description = Nos cerca sempre de audir le consummat
 partnerships-corporates-header = Corporationes e platteformas de grande scala
 partnerships-corporates-description = Si tu vole discuter altero re le insimul de datos, vole co-investir in le expansiones de platteformas planate o prestar attention a opportunitates de collaboration, <emailFragment>scribe nos un rango.</emailFragment>
 partnerships-our-partners = Nostre socios
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Gratias pro donar tu registrationes vocal!
+first-cta-subtitle-text = Vole tu compartir alcun informationes re como tu parla?
+why-donate = Perque demanda tu?
+why-donate-explanation-1 = Fornir iste informationes es optional: tu deberea solo adder illo si tu te senti commode. Quando nos publica le insimul de datos, nos pseudonymisa tote le informationes personal, e verifica que le informationes como tu nomine e email non es connectite a informationes demographic como etate o sexo.
+why-donate-explanation-2 = Proque le technologia functiona ben pro totes, le datos que adjuta le disveloppatores a producer technologia debe reflecte un grande varietate de gente. Per exemplo, si nos non include ulle parlantes con un particular accento, pois le technologia non functionara ben pro gente con ille accento. <learnMore>Pro saper plus re perque metadatos importa.</learnMore>
+add-information-button = Adder informationes
+continue-speaking-button = No gratias, continuar a parlar
+create-profile-text = Vole tu salvar tu informationes? <createProfile>Crea un profilo</createProfile>
+thanks-for-voice-toast = Gratias pro le informationes re tu voce
+thanks-for-voice-toast-error = Un error occurreva durante le invio del informationes re tu voce
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Gratias pro contribuer con tu voce!
+second-cta-subtitle-text = Con un profilo, tu pote mantener tracia de tu activitate e connecter te con collaboratores de un communitate de datos vocal.
+already-have-an-account = Ha tu jam un conto? <login>Accede</login>
+create-profile-button = Crear un profilo
+# IMAGE TAGS
+img-alt-success-checkmark = marca de successo
+# GUIDELINES PAGE
+guidelines-header = Lineas guida de contribution
+guidelines-header-subtitle = Saper como collaborar e validar phrases e registrationes audio al collection de datos de Common Voice
+voice-collection = Collection de voces
+sentence-collection = Collection de phrases
+varying-pronunciations = Pronunciationes variate
+misreadings = Errores de lectura
+offensive-content = Contento offensive
+background-noise = Ruito de fundo
+background-voices = Voces de fundo
+volume = Volumine
+reader-effects = Effectos del lector
+just-unsure = Ha tu dubitas?
+example = Exemplo
+varying-pronunciations-explanation-1 = Presso nos es benvenite differente accentos! Sia multo caute ante rejectar un registration si tu pensa que le lector ha mal-pronunciate un parola, ha ponite le accento in le placia errate, o ha ignorate punctuation. Un large varietate de pronunciationes es usate in tote le mundo, parte del qual tu pote non haber audite in tu communitate local. Forni un generose margine de appreciamento pro qui pote parlar differentemente de te.
+varying-pronunciations-explanation-2 = Del altere latere, si tu pensa que le lector  non ha jammais incontrate le parola antea e que ille  face un estimation incorrecte del pronunciation, per favor rejecta lo. Si tu non es secur, usa le button saltar.
+varying-pronunciations-example = Le route non era clar.
+varying-pronunciations-tip-1 = [Le anglese canadian poterea render le sono "route" como "rowt"]
+varying-pronunciations-tip-2 = [Le anglese britannic poterea pronunciar "root"]
+offensive-content-explanation = Le phrases es verificate per un processo de moderation del communitate, totevia iste processo non es perfecte. Si tu vide o audi un phrase que te offende o molesta - per exemplo perque illo viola nostre <participationGuidelines>lineas guida de participation del communitate</participationGuidelines> - usa le button bandiera in le pagina. Tu alsi pote attinger nos a <emailFragment><a0>commonvoice@mozilla.com</a0></emailFragment>.
+misreadings-explanation-1 = Leger correctemente tote le parolas sur le pagina es importante. Quando tu ascolta, verifica multo accuratemente que lo que ha essite registrate es exactemente lo que ha essite scribite; rejecta si illes ha addite, contrahite o omittite parolas.
+misreadings-explanation-2 = Alcun errores plus commun:
+misreadings-explanation-3 = Omitter le articulo al initio del registration
+misreadings-explanation-4 = Omitter le 's' al fin de un parola.
+misreadings-explanation-5 = Lectura de contractiones que non es realmente illac, tal como "We're" in vice de "We are", o vice versa.
+misreadings-explanation-6 = Carentia del fin del ultime parola per secar le registration troppo presto.
+misreadings-explanation-7 = Facer plure tentativas de leger un parola.
+misreadings-example-1 = Nos exi pro prender le caffe.
+misreadings-example-2 = Nos exi pro prender le caffe.
+misreadings-example-3 = Nos exi pro prender un caffe.
+misreadings-example-4 = Le bombo passava veloce.
+misreadings-tip-1 = [Debe esser “We are”]
+misreadings-tip-2 = [Nulle ‘un’ in le texto original]
+misreadings-tip-3 = [Contento discorde]
+background-noise-explanation = Tu debe poter audir cata parola del registration. Nos vole que le algorithmos de apprendimento automatic pote gerer un varietate de ruito de fundo, e mesmo relativemente alte ruitos o quiete musica de fundo pote esser acceptate a condition que illos non te impedi de audir le totalitate del texto. Crepitationes o ‘interruptiones’ que te impedi de audir le texto significa que tu deberea rejectar le registration.
+background-noise-example-1 = Le gigantesc dinosauros del triassico.
+background-noise-example-2 = [Sternutar] Le gigante dinosauros del [tusse] Trias.
+background-noise-example-3 = Le gigante dino [tusse] le Trias.
+background-noise-example-4 = [Crepitation] gigante dinosauros de [crepitation] -rias.
+background-noise-tip-1 = [interrumpite per ruito de fundo]
+background-noise-tip-2 = [Parte del texto non pote esser audite]
+background-voices-explanation = Un micre ruito de fundo va ben, ma si tu pote audir un altere persona dicer parolas distincte, le registration debe esser rejectate. Typicamente isto eveni ubi le TV ha essite lassate accendite o ubi il ha un conversation vicin.
+background-voices-example-1 = Le gigantesc dinosauros del trias. [legite per un sol voce]
+background-voices-tip-1 = Esque tu veni? [vocate per un altere]
+volume-explanation = Il habera variationes natural del volumine inter lectores. Rejecta solo si le volumine es assi alte que le registration se interrumpe, o (plus communmente) si illo es assi basse que tu non pote audir lo que es dicite sin referentia al texto scribite.
+reader-effects-explanation = Le major parte del registrationes es de personas qui parla in lor voce natural. Tu pote acceptar registration occasional non-standard que es critate, susurrate, o obviemente fornite in un voce ‘dramatic’. Per favor rejecta registrationes cantate e los que usa un voce synthetisate per computator.
+just-unsure-explanation = Si tu ha incontrate alco que iste lineas guida non coperi, per favor vota in accordo a tu melior judicio. Si tu realmente non pote decider, usa le button saltar e va al sequente registration.
+still-have-questions = Altere questiones?
+contact-common-voice = Contactar le equipa de Common Voice
+public-domain = Dominio public
+citing-sentences = Citante phrases
+adding-sentences = Addente phrases
+reviewing-sentences = Revidente phrases
+public-domain-explanation-1 = Il es multo importante que tote le phrases de texto es de <publicDomain>dominio public</publicDomain> (<cc0>cc0</cc0>) perque le collection de datos de Common Voice es publicate sub licentia cc0. Solo e sempre carga un phrase si tu es secur, e sempre include le pertinente citation.
+public-domain-explanation-2 = Le melior phrases pro producer un utile motor de recognition vocal es un conversation colloquial, moderne. Alcun ideas pro adjutar te a generar phrases es:
+public-domain-explanation-3 = Crea phrases colloquial e moderne tu mesme, o con tu amicos, o con tu communitate linguistic, per exemplo per un ‘marathon de scriptura’
+public-domain-explanation-4 = Contacta autores, dramaturgos o scenaristas e demanda si illes esserea disposite a dedicar un parve parte de lor obras al dominio public
+public-domain-explanation-5 = Cerca textos ubi le derectos de autor non plus se applica - per exemplo le major parte del libros que era publicate ante le 1920
+public-domain-explanation-6 = Attinge governamentos, organisationes non-lucrative o interprisas mediatic pro vider si ulle de lor contento de web, reportos o altere contento pote esser devote al publico dominio
+citing-sentences-explanation-1 = Il es importante includer citationes assi nos pote verificar que le phrases es de dominio public e non se applica alcun restriction de derectos de autor.
+citing-sentences-subheader-websites = Sitos web
+citing-sentences-subheader-websites-explanation = Tu pote includer le sito web, e.g. "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Referentia accademic
+citing-sentences-subheader-academic-reference-explanation = Tu pote usar le stilo de citation academic, e.g stilo (de citation) Harvard  "Mozilla (2021) Common Voice. Disponibile a https://commonvoice.mozilla.org/ (Accedite: le 15 de septembre 2021)"
+citing-sentences-subheader-offline-sources = Fontes foras linea
+citing-sentences-subheader-offline-sources-explanation = Pro texto de dominio public que non es disponibile online, tu pote usar le stilo de citation academic e.g. Stilo Harvard "Jess (2021) Mi poemas de licentia public"
+citation =
+    .label = Citation
+self-citation = Auto citation
+self-citation-explanation = Isto es como tu cita te mesme quando tu mesme scribe un contento.
+adding-sentences-subheader-length = Longor
+adding-sentences-subheader-length-explanation = Le phrase debe haber minus que 15 parolas.
+adding-sentences-subheader-spelling-punctuation = Orthographia e punctuation
+adding-sentences-subheader-spelling-punctuation-explanation = Le orthographia del phrase debe esser correcte.
+adding-sentences-subheader-speakable = Pronunciabile
+adding-sentences-subheader-speakable-explanation = Le melior phrases es natural e conversational, illes deberea esser facile a leger pro quicunque. Dum es importante le diversitate phonetic e le parolas differente in le phrases, nos alsi tenta render phrases a registrar tanto involvente e amusante, pro nostre communitate de voluntarios, como possibile.
+adding-sentences-subheader-numbers = Numeros
+adding-sentences-subheader-numbers-explanation = Il non debe haber idealmente ulle digitos in le texto fonte perque illos pote causar problemas quando on lege in alte voce. Le maniera que un numero es legite depende del contexto e pote introducer confusion in le collection de datos. Per exemplo, le numero “2409” pote esser correctemente legite como ambe “vinti-quatro zero nove” e “duo milles quatro cento nove”.
+adding-sentences-subheader-abbreviations = Abbreviationes e acronymos
+adding-sentences-subheader-abbreviations-explanation = Abbreviationes e acronymos como “USA” o “ICE” debe esser evitate in le texto fonte perque illos pote esser legite in un maniera que non coincide con lor orthographia. In addition, on pote haber plure accurate lecturas pro un singule abbreviation.
+adding-sentences-subheader-punctuation = Punctuation
+adding-sentences-subheader-punctuation-explanation = Symbolos special e punctuation deberea solo esser includite si absolutemente necessari. Per exemplo, un apostropho es includite in vocabulos anglese como “don’t” e “we’re” e debe esser includite in le texto fonte, ma il es inverisimile que tu unquam besoniara de un symbolo special como “@” o “#.”
+adding-sentences-subheader-special-characters = Characteres special e litteras estranier
+adding-sentences-subheader-special-characters-explanation-1 = Le litteras debe esser valide in le lingua a parlar. Per exemplo, “ж” es un littera in le alphabeto russe ma non es jammais usate in anglese e dunque non deberea jammais apparer in alcun texto fonte anglese.
+adding-sentences-subheader-special-characters-explanation-2 = Le linguas pote haber lor proprie regulas de validation con requisitos ulterior quando illos es localisate. Si il non ha file de validation specific pro un lingua, le regulas anglese sera monstrate al collaboratores.
+adding-sentences-subheader-offensive-content = Contento offensive
+adding-sentences-subheader-offensive-content-explanation = Si le phrase es offensive o moleste, per exemplo per contento explicite, o per un altere violation de nostre <communityGuidelines>lineas guida de participation del communitate</communityGuidelines>, tu deberea rejectar le phrase. Tu alsi pote attinger nos a <emailFragment>commonvoice@mozilla.com</emailFragment> pro facer remontar le problema.
+reviewing-sentences-explanation-1 = Si le phrase satisface le precedente criterios, clicca le button "Si".
+reviewing-sentences-explanation-2 = Si le phrase no satisface le precedente criterios, clicca le button "No".
+reviewing-sentences-explanation-3 = Si tu non es secur re le phrase, tu pote alsi saltar lo e mover al successive.
+reviewing-sentences-explanation-4 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger altere phrases!
+# WRITE PAGE
+write-instruction = Adde <icon></icon> un phrase de dominio public
+write-page-subtitle = Le phrases fornite ci sera addite a un insimul de datos publicamente disponibile con licentia cc-0.
+sentence =
+    .label = Phrase
+sentence-input-value = Insere ci tu phrase de dominio public
+citation-input-value = Fonte de tu phrase
+citation =
+    .label = Citation
+sc-write-submit-confirm = Io confirma que iste phrases es del <wikipediaLink>dominio public</wikipediaLink> e que io ha le permission de cargar los.
+sc-review-write-title = Qual phrases pote io adder?
+new-sentence-rule-1 = <noCopyright>Nulle</noCopyright> limitationes de derectos de autor (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Minus que 15 parolas
+new-sentence-rule-3 = Usar grammatica correcte
+new-sentence-rule-4 = Usar orthographia e punctuation correcte
+new-sentence-rule-5 = Nulle numeros e characteres special
+new-sentence-rule-6 = Nulle litteras estranier
+new-sentence-rule-7 = Includer citation appropriate
+new-sentence-rule-8 = Idealmente natural e conversational (le phrase debe esser facile a leger)
+how-to-cite = Como pote io citar
+how-to-cite-explanation-bold = Citar con un ligamine URL o le nomine complete del labor.
+how-to-cite-explanation = Si il es tu proprie parolas, justo dice <italicizedText>“Citation proprie”</italicizedText>. Nos besonia de saper ubi tu trovava iste contento, assi que nos pote verificar que illo es de dominio public e nulle limitationes de derectos de autor se applica. Pro altere informationes re le citation vider nostre <guidelinesLink>Pagina de lineas guida</guidelinesLink>.
+guidelines = Lineas guida
+contact-us = Contactar nos
+add-sentence-success = 1 phrase colligite
+add-sentence-error = Error dum le phrase era addite
+required-field = Per favor compila iste campo.
+single-sentence-submission = Invio de phrases singule
+bulk-sentence-submission = Invio de gruppo de phrases
+single-sentence = Phrase singule
+bulk-sentences = Gruppo de phrases
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Verifica <icon></icon>es iste un phrase linguisticamente correcte?
+sc-review-rules-title = An le phrase satisface le lineas guida?
+sc-review-empty-state = Il ha actualmente nulle phrases a revider in iste lingua.
+report-sc-different-language = Lingua differente
+report-sc-different-language-detail = Illo es scripte in un lingua differente que lo que io revide.
+sentences-fetch-error = Un error occurreva durante le recuperation del phrases
+review-error = Un error occurreva durante le revision de iste phrase
+review-error-rate-limit-exceeded = Tu vade troppo rapide. Attende un momento pro revider que le phrase es correcte.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Nos va facer alcun grande cambios
+sc-redirect-page-subtitle-1 = Le Collector de phrases se move al nucleo del platteforma Common Voice. Ora tu pote <writeURL>scriber</writeURL> un phrase o <reviewURL>revider</reviewURL> singule invios de phrases sur Common Voice.
+sc-redirect-page-subtitle-2 = Demanda nos questiones sur <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> o <emailLink>email</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Inviar <icon></icon> phrases de dominio public
+sc-bulk-upload-instruction = Trahe e depone tu file hic o <uploadButton>clicca pro cargar</uploadButton>
+sc-bulk-upload-instruction-drop = Depone ci tu file pro cargar lo
+try-upload-again = Tenta ancora per traher ci tu file
+try-upload-again-md = Retenta cargar
+select-file = Eliger file
+select-file-mobile = Selige le file a cargar
+accepted-files = Typos de file acceptate: .tsv solo
+maximum-file-size = Maxime dimension del file: 25 MB
+what-needs-to-be-in-file = Que debe esser mi file?
+what-needs-to-be-in-file-explanation = Tu phrases debe esser libere de derectos de autor (CC0 o labor original autorisate per le mittente) e esser clar, grammaticalmente correcte e facile a leger. Le phrases debe prender grosso modo 10-15 secundas a leger e debe evitar de includer numeros, nomines proprie e characteres special.
+upload-progress-text = Cargamento in curso...
+sc-bulk-submit-confirm = Io confirma que iste phrases es del <wikipediaLink>dominio public</wikipediaLink> e que io ha le permission de cargar los.
+bulk-upload-success-toast = Gruppo de phrases cargate
+bulk-upload-failed-toast = Cargamento fallite, retenta.
+bulk-submission-success-header = Gratias pro contribuer con tu invio de gruppo!!
+bulk-submission-success-subheader = Tu adjuta Common Voice attinger nostre propositos de phrases quotidian!
+upload-more-btn-text = Cargar altere phrases?
+file-invalid-type = File non valide
+file-too-large = File troppo grande
+file-too-small = File troppo micre
+too-many-files = Troppo de files

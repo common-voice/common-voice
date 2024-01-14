@@ -345,6 +345,8 @@ profile-form-additional-language =
     .label = Karagdagang Wika
 profile-form-language =
     .label = Wika
+profile-form-variant =
+    .label = Aling variant ng { $language } ang sinasalita mo?
 profile-form-variant-default-value = Walang variant na napili
 profile-form-accent =
     .label = Punto
@@ -393,6 +395,7 @@ skip-submission-note = Tandaan: Kailangan mo pa ring mamili sa pagitan ng Magsal
 off = Off
 on = On
 help-accent = Kailangan mo ng tulong sa mga variant?
+help-accent-explanation = Ang iyong diin ay kung paano mong binibigkas ang mga salita. Maari itong mabubuo depende kung saan ka na nakatira, aling wika ang sinasalita mo, at maraming iba pang dahilan. Pwede mong ibahagi ang anumang kaalaman na sa tingin mo ay makabuluhan dito.
 help-variants = Kailangan mo ng tulong sa mga variant?
 
 ## Profile - Email
@@ -435,6 +438,7 @@ faq-what-quality-q = Ano'ng audio quality ang kailangan para magamit ang voice c
 faq-why-10k-hours-q = Bakit 10,000 na validated hours kada lengguwahe ang kailangan para sa pag-capture ng audio?
 faq-how-calc-hours-q = Paano binibilang ng Common Voice ang mga oras?
 faq-where-src-from-2-q = Saan nanggagaling ang mga pinagmulang teksto?
+faq-why-not-ask-read-q = Bakit hindi mo tanungin ang mga tao na magbasa mula sa mga libro o mga artikulo sa Wikipedia gamit ang iba't ibang wika?
 faq-why-account-q = Bakit ko kailangan gumawa ng account?
 faq-is-account-public-q = Naisasapubliko ba ang impormasyon sa aking account?
 faq-how-privacy-q = Paano niyo nasisiguro ang anonymity at pagkapribado ng mga tao na nag-donate ng boses nila?
@@ -467,6 +471,7 @@ about-speak = Magsalita
 about-listen-queue = Listen-Queue
 about-listen = Makinig
 about-is-it-valid = Wasto ba ang clip?
+about-is-it-valid-text = Ang isang voice clip ay mamarkahan na "wasto" kapag binigyan ito ng isang user ng Oo na boto.
 about-yes-votes = ≥ 2 Yes votes
 about-no-votes = ≥ 2 No votes
 about-dataset-new = Common Voice Dataset
@@ -502,6 +507,7 @@ about-playbook-how-localize-content-5 = Panoorin ang video explainer para tumulo
 ## How to add sentences
 
 about-playbook-how-add-sentences = Paano magdagdag ng pangungusap?
+about-playbook-how-add-sentences-content-3 = Maaari mong gamitin ang <scraperLink>Sentence extractor</scraperLink> para magamit ang mga maiikling pangungusap mula sa Wikipedia.
 about-playbook-how-add-sentences-content-4 = Ang mga pangungusap na na-validate ay ine-export tuwing Miyerkules, at available pagkatapos ng susunod na release.
 
 ## How to record quality
@@ -542,6 +548,7 @@ glossary = Talatinigan
 localization = Lokalisasyon
 sentence-collection = Pagkalap ng mga Pangungusap
 sst = Speech-to-text (STT)
+sst-explanation = Kino-convert ng mga teknolohiyang Speech-to-text (STT) ang voice data na maging text.
 
 ## Error pages
 
@@ -561,13 +568,17 @@ data-other-title = Iba pang mga dataset ng boses...
 data-other-goto = Pumunta sa { $name }
 data-other-download = Download Data
 data-bundle-button = Download Dataset Bundle
+data-bundle-description = Common Voice data at lahat ng ibang voice datasets sa taas.
 release-version = Bersyon
 dataset-date = Petsa
 license = Lisensya: <licenseLink>{ $license }</licenseLink>
 license-mixed = Magkahalo
+data-download-singleword-title = I-download ang Single Word Target Segment
+review-terms = Sa paggagamit ng Common Voice, sumasang-ayon ka sa aming <termsLink>Terms<termsLink> at <privacyLink>Abiso sa Privacy</privacyLink>
 terms-agree = Sumasang-ayon ako
 terms-disagree = Hindi ako sumasang-ayon
 review-submit-title = Suriin at Ipasa
+review-submit-msg = Salamat sa iyong pag-record!<lineBreak></lineBreak>Ngayon suriin at ipasa ang iyong mga clip sa ibaba.
 review-recording = Suriin
 review-rerecord = i-Record Muli
 review-cancel = Kanselahin ang Pagpasa
@@ -600,6 +611,7 @@ other-datasets = Iba pang mga Voice Dataset
 feedback-q = Feedback?
 community-playbook = Community Playbook
 data-other-ted-name = TED-LIUM Corpus
+your-feedback = Mayroon ka bang mga ideya kung paano namin mapapahusay ang dataset ng Common Voice? Ipaalam sa amin sa Discourse
 go-discourse = Magpunta sa Discourse
 go-languages-page = Pumunta sa Pahina ng Mga Wika
 ready-to-validate = Handa ka na bang tumulong sa pagpapatunay ng mga pangungusap?
@@ -639,13 +651,21 @@ other-language = Iba pang Wika
 request-language-heading = Magtanong tungkol sa isang bagong wika
 request-language-form-email =
     .label = Iyong email address
+request-language-form-info =
+    .label = Impormasyon tungkol sa wika
 request-language-form-info-explanation-list-1 = Mga pangalan ng iyong wika
 request-language-google-recaptcha-required = Kinakailangan ang reCAPTCHA kung gusto mong magpatuloy
+# Success page
+request-language-success-heading = Salamat po! Nagpadala ka ng bagong tanong tungkol sa wika
+request-language-success-list-1 =
+    Ikaw ay dapat makatanggap ng isang email sa ilang sandali na nagpapaliwanag
+    tungkol sa mga hakbang upang maidagdag ang iyong wika sa Common Voice
 
 ## Languages Overview
 
 language-section-in-progress = Isinasagawa
 language-section-launched = Inilunsad na
+languages-show-more = Tingnan ng Higit Pa
 languages-show-less = Tignan ng Kaunti
 language-meter-in-progress = Progreso
 language-total-progress = Kabuuan
@@ -672,6 +692,7 @@ clips-with-count-pluralized =
     }
 record-cta = Magrecord na
 record-platform-not-supported = Paumanhin, hindi suportado ang platform mo.
+record-platform-not-supported-ios-non-safari = Sa iOS mangyaring magpatuloy sa Safari upang paganahin ang pag-record…
 record-must-allow-microphone = Dapat mong payagan ang pag-access sa mikropono.
 record-no-mic-found = Walang makitang mikropono.
 record-error-too-short = Masyadong maikli ang recording.
@@ -679,6 +700,7 @@ record-error-too-long = Masyadong mahaba ang recording.
 record-error-too-quiet = Masyadong tahimik ang recording.
 record-cancel = Kanselahin ang Muling pag-record
 record-three-more-instruction = Tatlo na lang!
+record-again-instruction = Mahusay!<recordIcon></recordIcon> I-record ang iyong susunod na clip
 review-tooltip = Suriin at muling i-record ang mga clip
 share-clip = Ibahagi ang iyong clip
 share-common-voice = Ibahagi ang Common Voice
@@ -693,6 +715,7 @@ listen-last-time-instruction = <playIcon></playIcon>Panghuli!
 speak-empty-state-cta = Mag-ambag ng mga pangungusap
 record-button-label = I-record ang boses mo
 share-title-new = <bold>Tulungan kaming</bold> humanap ng marami pang mga tinig
+keep-track-profile = Subaybayan ang iyong pag-unlad gamit ang isang profile
 login-to-get-started = Mag-log in o mag-sign up para makapagsimula
 target-segment-add-voice = Idagdag ang Iyong Boses
 target-segment-learn-more = Matuto Nang Higit Pa
@@ -706,6 +729,7 @@ report-grammar-or-spelling = Mali sa balarila / baybayin
 report-different-language = Ibang lengguwahe
 report-difficult-pronounce = Mahirap bigkasin
 report-offensive-speech = Bastos na salita
+report-offensive-speech-detail = Ang clip na ito ay may walang-galang o bastos na salita.
 report-other-comment =
     .placeholder = Kumento
 success = Tagumpay
@@ -743,6 +767,10 @@ you = Ikaw
 everyone = Lahat
 contribution-activity = Aktibidad ng Kontribusyon
 top-contributors = Mga Nangungunang Contributor
+recorded-clips = Naitala na mga Clips
+validated-clips = Napagtibay na mga Clips
+overall-accuracy = Pangkalahatang Katumpakan
+set-visibility = i-Set ang aking visibility
 show-ranking = Ipakita ang aking ranking
 
 ## Custom Goals
@@ -773,6 +801,7 @@ goal-interval-weekly = Linguhan
 share-goal-type-speak = Nagsasalita
 share-goal-type-listen = Nakikinig
 share-goal-type-both = Pagsasalita at Pakikinig
+return-to-edit-goal = Bumalik dito upang i-edit ang iyong layunin anumang oras.
 share-goal = Ibahagi ang aking layunin
 
 ## Profile Delete
@@ -783,8 +812,12 @@ profile-form-delete = Burahin ang Profile
 
 ## Profile Download
 
+download-q = Kailangang i-download ang iyong data?
+download-info = Ipaalam niyo sa amin kung ano ang gusto mong i-download:
 download-profile-title = Profile
 download-recordings-title = Mga Recording
+download-recordings-info = May kasamang mga mp3 at mga kaugnay na pangungusap, maaaring tumagal ng ilang oras upang ihanda
+download-recordings-size = Karaniwang megabytes
 download-size = Laki
 download-selected = Pinili
 download-request-button = i-Download
@@ -797,6 +830,7 @@ download-request-link-text = Zip #{ $offset } of { $total }
 
 welcome-staff = Mabuhay ang mga kawani ng { $company }!
 login-company = Log In / Sign Up with { $company } email
+read-more-about = Magbasa pa sa aming About page
 
 ## DemoLayout
 
@@ -825,11 +859,18 @@ demo-listen-subtitle = Handa nang mag-ambag?
 ## Validation criteria
 
 contribution-criteria-nav = Pamantayan
+contribution-criteria-link = Unawain ang contribution criteria
 contribution-for-example = halimbawa
 contribution-misreadings-title = Mga maling pagbabasa
+contribution-misreadings-example-1-title = Ang mga higanteng dinosaur ng Triassic.
+contribution-misreadings-example-2-title = Ang higanteng dinosaur ng Triassic.
 contribution-misreadings-example-2-explanation = [Dapat ay mga 'dinosaur']
+contribution-misreadings-example-3-title = Ang higanteng dinosaurs ng Triassi-.
+contribution-misreadings-example-5-title = Kami ay lalabas para kumuha ng kape.
 contribution-misreadings-example-6-title = Lalabas kami para kumuha ng kape.
 contribution-misreadings-example-6-explanation = [Dapat ay "Kami na"]
+contribution-misreadings-example-7-title = Kami ay lalabas para kumuha ng kape.
+contribution-varying-pronunciations-example-1-title = Sa kanyang ulo ay nagsuot siya ng beret.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.

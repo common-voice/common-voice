@@ -1,19 +1,28 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import { Localized } from '@fluent/react';
+import {
+  Localized,
+  withLocalization,
+  WithLocalizationProps,
+} from '@fluent/react';
 import classNames from 'classnames';
 
 import { useAPI } from '../../../hooks/store-hooks';
+import useCopyToClipboard from '../../../hooks/use-copy-to-clipboard';
 import { CloudIcon } from '../../ui/icons';
 import { Button, LabeledCheckbox, LabeledInput, LinkButton } from '../../ui/ui';
+import DonateButton from '../../donate-button/donate-button';
+
 import './dataset-download-email-prompt.css';
-interface DownloadFormProps {
+
+interface DownloadFormProps extends WithLocalizationProps {
   downloadPath: string;
-  isLight: boolean;
+  isLight?: boolean;
   selectedLocale: string;
   releaseId: string;
   checksum: string;
   size: number | string;
+  isSubscribedToMailingList: boolean;
 }
 
 interface FormState {
@@ -21,6 +30,7 @@ interface FormState {
   isEmailValid: boolean;
   confirmNoIdentify: boolean;
   confirmSize: boolean;
+  confirmJoinMailingList: boolean;
   downloadLink?: string;
   hideEmailForm: boolean;
 }
@@ -32,6 +42,8 @@ const DatasetDownloadEmailPrompt = ({
   releaseId,
   checksum,
   size,
+  getString,
+  isSubscribedToMailingList,
 }: DownloadFormProps) => {
   const api = useAPI();
 
@@ -40,15 +52,19 @@ const DatasetDownloadEmailPrompt = ({
     isEmailValid: false,
     confirmNoIdentify: false,
     confirmSize: false,
+    confirmJoinMailingList: false,
     downloadLink: null,
     hideEmailForm: false,
   } as FormState);
+
+  const [, copy] = useCopyToClipboard(getString);
 
   const {
     email,
     isEmailValid,
     confirmNoIdentify,
     confirmSize,
+    confirmJoinMailingList,
     downloadLink,
     hideEmailForm,
   } = formState;
@@ -71,6 +87,14 @@ const DatasetDownloadEmailPrompt = ({
   const saveHasDownloaded = async () => {
     if (canDownloadFile) {
       await api.saveHasDownloaded(email, selectedLocale, releaseId);
+    }
+
+    if (confirmJoinMailingList) {
+      try {
+        await api.subscribeToNewsletter(email);
+      } catch (error) {
+        console.error(error);
+      }
     }
   };
 
@@ -158,37 +182,60 @@ const DatasetDownloadEmailPrompt = ({
               onChange={handleInputChange}
               required
             />
-          </div>
-          <div className="input-group">
-            <LinkButton
-              role="button"
-              href={canDownloadFile ? downloadLink : null}
-              onClick={saveHasDownloaded}
-              rounded
-              blank
-              className="download-language">
-              <Localized
-                id={
-                  canDownloadFile ? 'data-bundle-button' : 'email-to-download'
-                }
+            {!isSubscribedToMailingList && (
+              <LabeledCheckbox
+                label={<Localized id="confirm-join-mailing-list" />}
+                name="confirmJoinMailingList"
+                checked={confirmJoinMailingList}
+                onChange={handleInputChange}
               />
-              <CloudIcon />
-            </LinkButton>
-            <Localized id="why-email" elems={{ b: <strong /> }}>
-              <p className="why-email " />
-            </Localized>
-            {checksum && (
-              <div className="checksum">
-                <strong>sha256 checksum</strong>: {checksum}
-              </div>
             )}
+          </div>
+          <div className="input-group button-container">
+            <div>
+              <LinkButton
+                role="button"
+                href={canDownloadFile ? downloadLink : null}
+                onClick={saveHasDownloaded}
+                rounded
+                blank
+                className="download-language">
+                <Localized
+                  id={
+                    canDownloadFile ? 'data-bundle-button' : 'email-to-download'
+                  }
+                />
+                <CloudIcon />
+              </LinkButton>
+              <Localized id="why-email" elems={{ b: <strong /> }}>
+                <p className="why-email" />
+              </Localized>
+              {checksum && (
+                <div
+                  className="checksum"
+                  onClick={() => copy(checksum)}
+                  onKeyDown={() => copy(checksum)}
+                  role="button"
+                  tabIndex={0}>
+                  <strong>sha256 checksum</strong>: <p>{checksum}</p>
+                </div>
+              )}
+            </div>
+            <div className="donate-btn-container">
+              <DonateButton />
+              <Localized id="why-donate" elems={{ b: <strong /> }}>
+                <p className="why-donate" />
+              </Localized>
+            </div>
           </div>
         </>
       )}
     </div>
   );
 };
+
 DatasetDownloadEmailPrompt.defaultProps = {
   isLight: false,
 };
-export default DatasetDownloadEmailPrompt;
+
+export default withLocalization(DatasetDownloadEmailPrompt);

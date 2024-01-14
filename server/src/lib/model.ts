@@ -190,6 +190,7 @@ export default class Model {
     original_sentence_id: string;
     path: string;
     sentence: string;
+    duration: number;
   }) {
     await this.db.saveClip(clipData);
   }
@@ -221,7 +222,7 @@ export default class Model {
 
   getLanguageDatasetStats = lazyCache(
     'get-language-datasets',
-    async (languageCode: string): Promise<any[]> => {
+    async (languageCode: string) => {
       return await this.db.getLanguageDatasetStats(languageCode);
     },
     DAY

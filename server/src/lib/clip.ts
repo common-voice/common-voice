@@ -1,9 +1,6 @@
-import * as crypto from 'crypto';
-import { S3 } from 'aws-sdk';
 import { NextFunction, Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
 import { getConfig } from '../config-helper';
-import { AWS } from './aws';
 import Model from './model';
 import getLeaderboard from './model/leaderboard';
 import { earnBonus, hasEarnedBonus } from './model/achievements';
@@ -13,10 +10,18 @@ import Bucket from './bucket';
 import Awards from './model/awards';
 import { checkGoalsAfterContribution } from './model/goals';
 import { ChallengeToken, challengeTokens } from 'common';
+import validate from './validation';
+import { clipsSchema } from './validation/clips';
+import { streamUploadToBucket } from '../infrastructure/storage/storage';
+import { pipe } from 'fp-ts/lib/function';
+import {taskEither as TE, task as T, identity as Id} from 'fp-ts';
 
+const { promisify } = require('util');
 const Transcoder = require('stream-transcoder');
 const { Converter } = require('ffmpeg-stream');
-const { Readable } = require('stream');
+const { Readable, PassThrough } = require('stream');
+const mp3Duration = require('mp3-duration');
+const calcMp3Duration = promisify(mp3Duration);
 
 enum ERRORS {
   MISSING_PARAM = 'MISSING_PARAM',
@@ -29,14 +34,12 @@ enum ERRORS {
  * Clip - Responsibly for saving and serving clips.
  */
 export default class Clip {
-  private s3: S3;
   private bucket: Bucket;
   private model: Model;
 
   constructor(model: Model) {
-    this.s3 = AWS.getS3();
     this.model = model;
-    this.bucket = new Bucket(this.model, this.s3);
+    this.bucket = new Bucket(this.model);
   }
 
   getRouter() {
@@ -70,7 +73,7 @@ export default class Clip {
     router.get('/voices', this.serveVoicesStats);
     router.get('/votes/daily_count', this.serveDailyVotesCount);
     router.get('/:clip_id', this.serveClip);
-    router.get('*', this.serveRandomClips);
+    router.get('*', validate({ query: clipsSchema }), this.serveRandomClips);
 
     return router;
   }
@@ -224,11 +227,6 @@ export default class Clip {
       );
       return;
     } else {
-      // If the folder does not exist, we create it.
-      await this.s3
-        .putObject({ Bucket: getConfig().CLIP_BUCKET_NAME, Key: folder })
-        .promise();
-
       let audioInput = request;
 
       if (getConfig().FLAG_BUFFER_STREAM_ENABLED && format.includes('aac')) {
@@ -244,77 +242,90 @@ export default class Clip {
         audioInput = converter.createBufferedInputStream();
         audioStream.pipe(audioInput);
       }
+      
+      const pass = new PassThrough();
+
+      let chunks: any = []; 
+
+      pass.on('error', (error: string) => {
+        this.clipSaveError(
+          headers,
+          response,
+          500,
+          `${error}`,
+          `ffmpeg ${error}`,
+          'clip'
+        );
+        return;
+      })
+      pass.on('data', function (chunk: any) {
+        chunks.push(chunk);
+      });
+      pass.on('finish', async () => {
+        const buffer = Buffer.concat(chunks);
+        const durationInSec = await calcMp3Duration(buffer);
+
+        console.log(`clip written to s3 ${metadata}`);
+
+        await this.model.saveClip({
+          client_id: client_id,
+          localeId: sentence.locale_id,
+          original_sentence_id: sentenceId,
+          path: clipFileName,
+          sentence: sentence.text,
+          duration: durationInSec * 1000,
+        });
+        await Awards.checkProgress(client_id, { id: sentence.locale_id });
+
+        await checkGoalsAfterContribution(client_id, {
+          id: sentence.locale_id,
+        });
+
+        Basket.sync(client_id).catch(e => console.error(e));
+
+        const challenge = headers.challenge as ChallengeToken;
+        const ret = challengeTokens.includes(challenge)
+          ? {
+              filePrefix: filePrefix,
+              showFirstContributionToast: await earnBonus(
+                'first_contribution',
+                [challenge, client_id]
+              ),
+              hasEarnedSessionToast: await hasEarnedBonus(
+                'invite_contribute_same_session',
+                client_id,
+                challenge
+              ),
+              // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
+              // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
+              showFirstStreakToast: await earnBonus('three_day_streak', [
+                client_id,
+                client_id,
+                challenge,
+              ]),
+              challengeEnded: await this.model.db.hasChallengeEnded(
+                challenge
+              ),
+            }
+          : { filePrefix };
+          response.json(ret);
+        })
 
       const audioOutput = new Transcoder(audioInput)
         .audioCodec('mp3')
         .format('mp3')
         .channels(1)
         .sampleRate(32000)
-        .on('error', (error: string) => {
-          this.clipSaveError(
-            headers,
-            response,
-            500,
-            `${error}`,
-            `ffmpeg ${error}`,
-            'clip'
-          );
-          return;
-        })
-        .on('finish', async () => {
-          console.log(`clip written to s3 ${metadata}`);
+        .stream()
+        .pipe(pass);
 
-          await this.model.saveClip({
-            client_id: client_id,
-            localeId: sentence.locale_id,
-            original_sentence_id: sentenceId,
-            path: clipFileName,
-            sentence: sentence.text,
-          });
-          await Awards.checkProgress(client_id, { id: sentence.locale_id });
-
-          await checkGoalsAfterContribution(client_id, {
-            id: sentence.locale_id,
-          });
-
-          Basket.sync(client_id).catch(e => console.error(e));
-
-          const challenge = headers.challenge as ChallengeToken;
-          const ret = challengeTokens.includes(challenge)
-            ? {
-                filePrefix: filePrefix,
-                showFirstContributionToast: await earnBonus(
-                  'first_contribution',
-                  [challenge, client_id]
-                ),
-                hasEarnedSessionToast: await hasEarnedBonus(
-                  'invite_contribute_same_session',
-                  client_id,
-                  challenge
-                ),
-                // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
-                // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
-                showFirstStreakToast: await earnBonus('three_day_streak', [
-                  client_id,
-                  client_id,
-                  challenge,
-                ]),
-                challengeEnded: await this.model.db.hasChallengeEnded(
-                  challenge
-                ),
-              }
-            : { filePrefix };
-          response.json(ret);
-        })
-        .stream();
-
-      await this.s3
-        .upload({
-          Bucket: getConfig().CLIP_BUCKET_NAME,
-          Key: clipFileName,
-          Body: audioOutput,
-        })
-        .promise();
+      await pipe(
+        streamUploadToBucket,
+        Id.ap(getConfig().CLIP_BUCKET_NAME),
+        Id.ap(clipFileName),
+        Id.ap(audioOutput),
+        TE.getOrElse((err: Error) => T.of(console.log(err)))
+      )()
     }
   };
 
@@ -323,7 +334,7 @@ export default class Clip {
     response: Response
   ): Promise<void> => {
     const { client_id, params } = request;
-    const count = this.getCountFromQuery(request) || 1;
+    const count = Number(request.query.count) || 1;
     const clips = await this.bucket.getRandomClips(
       client_id,
       params.locale,
@@ -386,22 +397,5 @@ export default class Clip {
     }
 
     return JSON.parse(cursor);
-  }
-
-  private getCountFromQuery(request: Request) {
-    const { count } = request.query;
-
-    if (!count || typeof count !== 'string') {
-      return null;
-    }
-
-    const number = parseInt(count, 10);
-
-    // if invalid number return nothing
-    if (Number.isNaN(number)) {
-      return null;
-    }
-
-    return number;
   }
 }

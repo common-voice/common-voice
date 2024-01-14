@@ -1,9 +1,12 @@
+import pick = require('lodash.pick');
+
 import lazyCache from '../lazy-cache';
 import { getMySQLInstance } from './db/mysql';
-import { TableNames, TimeUnits } from 'common';
+import { QueryOptions, TableNames, TimeUnits } from 'common';
+
 const db = getMySQLInstance();
 
-type StatisticsCount = {
+export type StatisticsCount = {
   total_count: number;
   date?: string;
 };
@@ -13,14 +16,8 @@ const FILTERS = {
   hasEmail: 'email IS NOT null',
 };
 
-type Filters = 'rejected' | 'hasEmail';
-
-type QueryOptions = {
-  groupByColumn?: string;
-  isDistinct?: boolean;
-  isDuplicate?: boolean;
-  filter?: Filters;
-};
+const yearlySumReducer = (total: number, row: StatisticsCount) =>
+  (total += row.total_count);
 
 /**
  * Attach metadata about the stats (like when it was fetched)
@@ -39,6 +36,8 @@ const queryStatistics = async (
 ) => {
   const isDistinct = options?.isDistinct ?? false;
   const isDuplicate = options?.isDuplicate ?? false;
+  const year = getYearFromOptions(options);
+  options = { ...options, year };
   let monthlyIncrease, totalCount;
 
   if (isDistinct) {
@@ -47,17 +46,16 @@ const queryStatistics = async (
     totalCount = await getUniqueSpeakersTotal();
   } else if (isDuplicate) {
     // Specific query flow since logic is more complicated
-    monthlyIncrease = await getMonthlyDuplicateSentences();
+    monthlyIncrease = await getMonthlyDuplicateSentences(options);
     totalCount = await getTotalDuplicateSentences();
   } else {
     // Simple queries
     monthlyIncrease = await getMonthlyContributions(tableName, options);
     totalCount = await getTotal(tableName, options);
   }
-  const yearlySum = monthlyIncrease.reduce(
-    (total: number, row) => (total += row.total_count),
-    0
-  );
+
+  const yearlySum = monthlyIncrease.reduce(yearlySumReducer, 0);
+
   totalCount = totalCount.total_count;
 
   return { yearlySum, totalCount, monthlyIncrease };
@@ -92,22 +90,22 @@ const formatStatistics = async (
 
 const getMonthlyContributions = async (
   tableName: TableNames,
-  options?: QueryOptions
+  options: QueryOptions
 ): Promise<StatisticsCount[]> => {
   const filter = options?.filter;
   const conditional = filter && FILTERS[filter];
 
   const [rows] = await db.query(`
     SELECT
-      MAX(DATE_FORMAT(created_at, "%Y-%c-%d")) as date,
+      MAX(DATE_FORMAT(created_at, "%Y-%m-%d")) as date,
       COUNT(created_at) as total_count
     FROM
       ${tableName} d
     WHERE
-      created_at > now() - INTERVAL 12 MONTH
+      YEAR(created_at) = ${options.year}
       ${conditional ? 'AND ' + conditional : ''}
     GROUP BY
-      DATE_FORMAT(created_at, "%Y-%c")
+      DATE_FORMAT(created_at, "%Y-%m")
     ORDER BY created_at DESC;
   `);
   return rows;
@@ -120,26 +118,28 @@ const getUniqueMonthlyContributions = async (
   const { groupByColumn } = options;
   const [rows] = await db.query(`
   SELECT
-      MAX(DATE_FORMAT(created_at, "%Y-%c-%d")) as date,
+      MAX(DATE_FORMAT(created_at, "%Y-%m-%d")) as date,
       COUNT(created_at) as total_count
    FROM
     (
       SELECT * 
-      FROM ${tableName} d GROUP BY ${groupByColumn}
+      FROM ${tableName} d 
+      WHERE YEAR(created_at) = ${options.year}
+      GROUP BY ${groupByColumn}
     ) d
-    WHERE
-      created_at > now() - INTERVAL 12 MONTH
     GROUP BY
-      DATE_FORMAT(created_at, "%Y-%c")
+      DATE_FORMAT(created_at, "%Y-%m")
     ORDER BY created_at DESC;
   `);
   return rows;
 };
 
-const getMonthlyDuplicateSentences = async (): Promise<StatisticsCount[]> => {
+const getMonthlyDuplicateSentences = async (
+  options: QueryOptions
+): Promise<StatisticsCount[]> => {
   const [rows] = await db.query(`
     SELECT
-      MAX(DATE_FORMAT(created_at, "%Y-%c-%d")) as date,
+      MAX(DATE_FORMAT(created_at, "%Y-%m-%d")) as date,
       COUNT(created_at) as total_count
     FROM
       (
@@ -154,9 +154,9 @@ const getMonthlyDuplicateSentences = async (): Promise<StatisticsCount[]> => {
         sentenceCount > 1
         ) d
     WHERE
-      created_at > now() - INTERVAL 12 MONTH
+      YEAR(created_at) = ${options.year}
     GROUP BY
-      DATE_FORMAT(created_at, "%Y-%c")
+      DATE_FORMAT(created_at, "%Y-%m")
     ORDER BY
       created_at DESC;
   `);
@@ -196,6 +196,7 @@ const getUniqueSpeakersTotal = async (): Promise<StatisticsCount> => {
     `);
   return rows;
 };
+
 const getTotal = async (
   tableName: TableNames,
   options?: QueryOptions
@@ -212,6 +213,47 @@ const getTotal = async (
   `);
   return rows;
 };
+
+const queryClipsWithMetadata = async (): Promise<StatisticsCount[]> => {
+  const [rows] = await db.query(`
+  SELECT
+	  MAX(DATE_FORMAT(created_at, "%Y-%m")) as date,
+	  COUNT(1) as total_count
+  FROM
+	(
+	SELECT
+		c.id,
+		c.created_at
+	FROM
+		clips c
+	LEFT JOIN user_client_accents uca ON
+		uca.client_id = c.client_id
+	LEFT JOIN user_client_variants ucv ON
+		ucv.client_id = c.client_id
+	LEFT JOIN demographics d ON
+		d.client_id = c.client_id
+	WHERE
+		(uca.id IS NOT NULL
+			OR 
+		ucv.id IS NOT NULL
+			OR 
+		d.age_id IS NOT NULL
+			OR 
+		d.gender_id IS NOT NULL)
+	GROUP BY
+		c.id 
+        ) clips_with_metadata
+    GROUP BY
+            DATE_FORMAT(created_at, "%Y-%m")
+    ORDER BY
+            created_at DESC;
+  `);
+
+  return rows;
+};
+
+const getYearFromOptions = (options?: QueryOptions): number =>
+  Number(options?.year ?? new Date().getFullYear());
 
 export const getStatistics = lazyCache(
   'get-stats',
@@ -234,5 +276,104 @@ export const getStatistics = lazyCache(
       metadata,
     };
   },
+  TimeUnits.DAY
+);
+
+export const formatMetadataStatistics = (
+  yearlySumMetadata: number,
+  yearlySumClips: number,
+  totalCountMetadata: number,
+  totalCountClips: number,
+  monthlyIncreaseMetadata: StatisticsCount[],
+  monthlyIncreaseClips: StatisticsCount[]
+) => {
+  const flatMonthlyIncreaseMetadata: { [key: string]: number } =
+    monthlyIncreaseMetadata
+      .map(row => ({ [row.date]: row.total_count }))
+      .reduce((acc, curr) => ({ ...acc, ...curr }), {});
+
+  const flatMonthlyIncreaseClips: { [key: string]: number } =
+    monthlyIncreaseClips
+      .map(row => ({ [row.date]: row.total_count }))
+      .reduce((acc, curr) => ({ ...acc, ...curr }), {});
+
+  const monthlyIncrease = Object.keys(flatMonthlyIncreaseClips)
+    .map(key => ({
+      [key]: `${flatMonthlyIncreaseMetadata[key] ?? 0}/${
+        flatMonthlyIncreaseClips[key]
+      }`,
+    }))
+    .reduce((acc, curr) => ({ ...acc, ...curr }), {});
+
+  const monthlyIncreaseCoverage = Object.keys(flatMonthlyIncreaseClips)
+    .map(key => ({
+      [key]: +(
+        (flatMonthlyIncreaseMetadata[key] ?? 0) / flatMonthlyIncreaseClips[key]
+      ).toFixed(2),
+    }))
+    .reduce((acc, curr) => ({ ...acc, ...curr }), {});
+
+  const metadata = getResponseMetadata();
+
+  return {
+    yearly_sum: `${yearlySumMetadata}/${yearlySumClips}`,
+    yearly_sum_coverage: +(yearlySumMetadata / yearlySumClips).toFixed(2) || 0,
+    total_count: `${totalCountMetadata}/${totalCountClips}`,
+    total_count_coverage: +(totalCountMetadata / totalCountClips).toFixed(2),
+    monthly_increase: monthlyIncrease,
+    monthly_increase_coverage: monthlyIncreaseCoverage,
+    metadata,
+  };
+};
+
+// The route parameter is just a placeholder to have a unique redis cache key. Without it, we would have
+// an overlap with the clips endpoint.
+const getMetadataQueryHandlerImpl = async (
+  table: TableNames,
+  options?: QueryOptions
+) => {
+  const year = getYearFromOptions(options);
+  options = { ...options, year };
+  const [metadata, clips, totalCountClips] = await Promise.all([
+    queryClipsWithMetadata(),
+    getMonthlyContributions(table, options),
+    getTotal(table, options),
+  ]);
+
+  const formatDate = (row: StatisticsCount): StatisticsCount => ({
+    date: row.date.split('-').slice(0, 2).join('-'),
+    total_count: row.total_count,
+  });
+
+  const monthlyIncreaseClips = clips.map(formatDate);
+
+  const monthlyIncreaseMeta = metadata
+    .filter(row => new Date(row.date).getFullYear() === year);
+
+  const yearlySumMeta = monthlyIncreaseMeta
+    .map(row => pick(row, ['total_count']))
+    .reduce(yearlySumReducer, 0);
+
+  const yearlySumClips = monthlyIncreaseClips
+    .map(row => pick(row, ['total_count']))
+    .reduce(yearlySumReducer, 0);
+
+  const totalCountMeta = metadata
+    .map(row => pick(row, ['total_count']))
+    .reduce(yearlySumReducer, 0);
+
+  return formatMetadataStatistics(
+    yearlySumMeta,
+    yearlySumClips,
+    totalCountMeta,
+    totalCountClips.total_count,
+    monthlyIncreaseMeta,
+    monthlyIncreaseClips
+  );
+};
+
+export const getMetadataQueryHandler = lazyCache(
+  'get-stats-metadata',
+  getMetadataQueryHandlerImpl,
   TimeUnits.DAY
 );

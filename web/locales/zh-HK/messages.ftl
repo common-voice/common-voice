@@ -18,6 +18,7 @@ banner-error-slow-1 = 唔好意思，Common Voice 運作得比較慢。多謝你
 banner-error-slow-2 = 我哋收到好多網絡流量，而家調查緊呢啲問題。
 banner-error-slow-link = 狀態版面
 error-something-went-wrong = 唔好意思，有啲嘢出錯咗
+error-clip-upload = 段錄音一直上傳失敗，要繼續嘗試嗎？
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,7 +41,9 @@ ba = 巴什基爾文
 bas = 巴薩文
 be = 白俄羅斯文
 bg = 保加利亞文
+bm = 班巴拉文
 bn = 孟加拉文
+bo = 藏語
 br = 布里多尼文
 bs = 波斯尼亞文
 bxr = 布里亞特語
@@ -53,9 +56,11 @@ cs = 捷克文
 cv = 楚瓦什文
 cy = 威爾斯文
 da = 丹麥文
+dag = 達戈姆巴文
 de = 德文
 dsb = 下索布文
 dv = 迪維西文
+dyu = 迪烏拉語
 el = 希臘文
 en = 英文
 eo = 世界語
@@ -71,9 +76,11 @@ fy-NL = 菲士蘭文
 ga-IE = 愛爾蘭文
 gl = 加利西亞文
 gn = 瓜拉尼文
+gom = 貢加尼文
 ha = 豪薩文
 he = 希伯來文
 hi = 印地文
+hil = 希利蓋農文
 hr = 克羅地亞文
 hsb = 上索布文
 ht = 海地文
@@ -88,6 +95,7 @@ is = 冰島文
 it = 義大利文
 izh = 伊喬里亞文
 ja = 日文
+jbo = 邏輯文
 ka = 喬治亞文
 kaa = 卡拉卡爾帕克文
 kab = 卡拜爾文
@@ -96,6 +104,7 @@ ki = 基庫尤文
 kk = 哈薩克文
 km = 高棉文
 kmr = 北庫爾德文
+kn = 卡納達文
 ko = 韓文
 kpv = 科米-齊良文
 kw = 康和文
@@ -103,6 +112,7 @@ ky = 吉爾吉斯文
 lb = 盧森堡文
 lg = 盧干達文
 lij = 利古里亞文
+lo = 老撾文
 lt = 立陶宛文
 lv = 拉脫維亞文
 mai = 邁提利文
@@ -112,6 +122,7 @@ mhr = 草原馬里文
 mk = 馬其頓文
 ml = 馬拉亞拉姆文
 mn = 蒙古文
+mni = 曼尼普爾文
 mos = 莫西文
 mr = 馬拉提文
 mrj = 山地馬里文
@@ -121,18 +132,22 @@ my = 緬甸文
 myv = 厄爾茲亞文
 nan-tw = 台語（閩南話）
 nb-NO = 挪威文（書面語）
+nd = 恩德貝萊文（北方）
 ne-NP = 尼泊爾文
 nia = 尼亞斯文
 nl = 荷蘭文
 nn-NO = 挪威文（新挪威語）
 nyn = 尼揚科勒文
 oc = 奧克文
+om = 柯羅毛文
 or = 歐利亞文
+os = 奧塞梯語
 pa-IN = 旁遮普語
 pap-AW = 帕皮阿門托文（阿魯巴）
 pl = 波蘭文
 ps = 普什圖文
 pt = 葡萄牙文
+quc = 基切文
 rm-sursilv = 羅曼蘇塞瓦語
 rm-vallader = 羅曼什瓦拉德文
 ro = 羅馬尼亞文
@@ -149,6 +164,7 @@ sl = 斯洛維尼亞文
 so = 索馬里文
 sq = 阿爾巴尼亞文
 sr = 塞爾維亞文
+ss = 斯威士文
 sv-SE = 瑞典文
 sw = 斯華希里文
 syr = 敘利亞文
@@ -156,9 +172,11 @@ ta = 泰米爾文
 te = 泰盧固文
 tg = 塔吉克文
 th = 泰文
+ti = 提格利尼亞文
 tig = 提古利話
 tk = 土庫曼話
 tl = 他加祿文
+tn = 茨華拿文
 tok = 道本語
 tr = 土耳其文
 tt = 韃靼文
@@ -177,10 +195,12 @@ xh = 科薩話
 yi = 意第緒文
 yo = 約魯巴文
 yue = 粵文
+zgh = 柏柏文
 zh-CN = 中文（大陸）
 zh-HK = 中文（香港）
 zh-TW = 中文（臺灣）
 zu = 祖魯話
+zza = 扎扎文
 
 # [/]
 
@@ -192,6 +212,7 @@ speak-now = 而家開始講話
 datasets = 數據集
 languages = 所有語言
 about = 關於我哋
+partner = 合作夥伴
 profile = 個人檔案
 help = 說明
 contact = 聯絡我們
@@ -386,6 +407,8 @@ off = 關
 on = 開
 help-accent = 須要知多一點「口音」嘅意思？
 help-accent-explanation = 你嘅口音即係你講嘢嘅方式。呢樣嘢可以由你住過嘅地方、你講嘅其他語言、同埋好多其他因素所形成㗎。你可以喺呢度分享任何你覺得相關嘅資訊。
+help-variants = 需要關於語言變體的相關說明嗎？
+help-variants-explanation = 語言變體係一種語言嘅特定形式。只由居住喺某啲地區或社群嘅人共享。有時亦稱為「方言」。
 
 ## Profile - Email
 
@@ -467,12 +490,24 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = 點解會有 Common Voice？
+how-does-it-work-title-v2 = Common Voice 喺點運作㗎？
 how-does-it-work-text = 我們集合眾人之力，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證他人的錄音片段是否正確，讓數據集能夠變得更好。
 
 ## How does it work section
 
+about-language-req-subtitle = 有人要求加入一種語言。
 about-localization-title = 網站本地化
+about-localization-subtitle = 網站被翻譯為該語言。
+about-sentence-collection-title = 收集句子
+about-sentence-collection-subtitle = 收集好啲句子俾人錄音。
+about-new-lang-title = 發布新語言
+about-new-lang-subtitle = 我哋會推出呢個語言嘅 Common Voice 網站。
+about-voice-contrib-title = 貢獻錄音
+about-voice-contrib-subtitle = 一班人貢獻自己嘅錄音。
+about-voice-validation-title = 驗證錄音
+about-voice-validation-subtitle = 而另一班人會驗證呢啲錄音片段。
 about-dataset-release-title = 數據集發佈
+about-dataset-release-subtitle = 我哋每 3 個月發放一次數據庫。
 about-subscribe-text = 想同 Common Voice 計劃保持聯絡？
 about-speak = 講
 about-speak-text = 貢獻者會朗讀數據庫内由大衆提供的句子，變成錄音片段。
@@ -498,6 +533,7 @@ about-get-involved-text-2 =
     <matrixLink>Matrix</matrixLink>群組聊天室。
 about-stay-in-touch = 點樣可以保持聯絡？
 about-stay-in-touch-button = 註冊
+about-stay-in-touch-text-2 = 加入 <discourseLink>Discourse</discourseLink> 嚟認識 Mozilla 嘅語言社群並一齊討論，或者加入 <matrixLink>Matrix</matrixLink> 嚟獲得快啲嘅建議。
 about-nav-why-common-voice = 點解？
 about-nav-how-it-works = 點做？
 about-nav-partners = 合作夥伴
@@ -509,6 +545,7 @@ about-nav-playbook = 了解點樣成爲我哋一份子
 ## What is a language
 
 about-playbook-what-is-language-content-1 = 對語言嘅睇法有好多種。以語音識別模型嘅用途嚟講，Common Voice 建議集中喺「容易互相理解」或者「如果呢種語言嘅講者想互相理解，佢哋做唔做得到？」
+about-playbook-what-is-language-content-3 = 有啲語言嘅文法、詞彙同發音差異可以好大。因此，我哋喺 2022 年<ctaLink>引入咗「語言變體」</ctaLink>。令各個社群能夠喺更完善嘅數據集中準確識別語言。
 
 ## How do I add a language
 
@@ -518,7 +555,9 @@ about-playbook-how-add-language-content-1 =
     如果唔係，你可以<languageRequestLink>要求新增你嘅語言</languageRequestLink>。
     之後有兩個步驟：翻譯網站、同埋收集句子。
 about-playbook-how-add-language-translating-heading = 翻譯網站
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>睇一睇 Pontoon 嘅使用教學指南。</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> 睇睇我哋嘅 Sentence Collector 使用教學短片</sentenceCollectorVideo>。
 
 ## How does localization work
 
@@ -769,6 +808,9 @@ target-segment-generic-card = 你現正貢獻緊畀一個目標群體分項
 target-segment-first-banner = 幫助 Common Voice 創立 { $locale } 的第一個目標群體分項
 target-segment-add-voice = 添加您的聲音
 target-segment-learn-more = 瞭解更多
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1094,3 +1136,12 @@ sc-settings-title = 設定
 
 localization-select =
     .label = 選擇語言/地區
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = 多謝捐出你嘅錄音
+sentence-collection = 語句收集
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+

@@ -3,7 +3,6 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import URLS from '../../urls';
 import { LocaleLink } from '../locale-helpers';
-import { ArrowLeft } from '../ui/icons';
 import { Button, LabeledCheckbox, LabeledInput } from '../ui/ui';
 import {
   SubscribeMapDispatchToProps,
@@ -13,7 +12,6 @@ import {
   SubscribeProps,
 } from './types';
 import './subscribe.css';
-import { Link } from 'react-router-dom';
 import classNames from 'classnames';
 
 interface State {
@@ -23,9 +21,11 @@ interface State {
 }
 
 class Subscribe extends React.Component<SubscribeProps, State> {
-  state: State = { email: '', privacyAgreed: false, submitStatus: null };
-
-  emailInputRef = React.createRef<HTMLInputElement>();
+  state: State = {
+    email: '',
+    privacyAgreed: Boolean(this.props.account),
+    submitStatus: null,
+  };
 
   handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     this.setState({ email: event.target.value });
@@ -37,12 +37,13 @@ class Subscribe extends React.Component<SubscribeProps, State> {
 
   handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const { account, api, addNotification } = this.props;
+    const { account, api, addNotification, updateUser } = this.props;
     this.setState({ submitStatus: 'submitting' });
     try {
       await api.subscribeToNewsletter(
         account ? account.email : this.state.email
       );
+      updateUser({ isSubscribedToMailingList: true });
       addNotification(
         <Localized id="profile-form-submit-saved">
           <span />
@@ -62,8 +63,7 @@ class Subscribe extends React.Component<SubscribeProps, State> {
     const { submitStatus } = this.state;
     const isEditable = submitStatus == null;
     const email = account ? account.email : this.state.email;
-    const privacyAgreed = account || this.state.privacyAgreed;
-    const emailInput = this.emailInputRef.current;
+    const privacyAgreed = this.state.privacyAgreed;
 
     if (account?.basket_token || submitStatus == 'submitted') {
       return null;
@@ -83,19 +83,12 @@ class Subscribe extends React.Component<SubscribeProps, State> {
                 disabled={!isEditable || account}
                 type="email"
                 required
-                ref={this.emailInputRef}
               />
             </Localized>
 
             <Button
               type="submit"
-              disabled={
-                !isEditable ||
-                !privacyAgreed ||
-                !email ||
-                !emailInput ||
-                !emailInput.checkValidity()
-              }>
+              disabled={!isEditable || !privacyAgreed || !email}>
               {!demoMode && (
                 <Localized id="subscribe">
                   <span />

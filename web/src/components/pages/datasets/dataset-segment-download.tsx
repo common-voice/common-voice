@@ -1,4 +1,8 @@
-import { Localized, withLocalization } from '@fluent/react';
+import {
+  Localized,
+  withLocalization,
+  WithLocalizationProps,
+} from '@fluent/react';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 
@@ -13,7 +17,13 @@ import { useAPI } from '../../../hooks/store-hooks';
 import { Dataset, Datasets } from 'common';
 import { useLocale } from '../../locale-helpers';
 
-const DatasetSegmentDownload = () => {
+interface Props extends WithLocalizationProps {
+  isSubscribedToMailingList: boolean;
+}
+
+const DatasetSegmentDownload: React.FC<Props> = ({
+  isSubscribedToMailingList,
+}) => {
   const [isLoading, setIsLoading] = useState(true);
   const [releaseData, setReleaseData] = useState<Dataset>();
   const api = useAPI();
@@ -99,6 +109,7 @@ const DatasetSegmentDownload = () => {
             size={bundleState.size}
             releaseId={bundleState?.id?.toString()}
             selectedLocale={null}
+            isSubscribedToMailingList={isSubscribedToMailingList}
             isLight
           />
         </div>
