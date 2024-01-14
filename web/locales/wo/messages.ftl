@@ -160,6 +160,7 @@ pap-AW = Papiamento (Aruba)
 pl = Polone
 ps = Pasto
 pt = Portugees
+quc = K'iche'
 
 # [/]
 
