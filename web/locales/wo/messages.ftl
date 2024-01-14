@@ -255,6 +255,7 @@ donate = Joxe
 home-title = Common Voice mooy naal wii Mozilla naal ngir jàngal masin yi naka la nit dëgg di waxee.
 default-tagline = Common Voice, ab naal la bu Mozilla naal ngir jàngal masin yi nan la nit dëgg di waxee.
 home-cta = Waxal, jàpp ci fii!
+wall-of-text-start = Kàddu, lu naturel la, kàddu lu nité la. Loolu moo tax ñuy bég ci di defar ay baat yu ñu man a jëfandikoo
 
 ## Account Benefits
 
