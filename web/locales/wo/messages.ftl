@@ -8,6 +8,14 @@ email-input =
     .label = Email
 submit-form-action = Yónnée
 loading = Taaxirlu...
+email-opt-in-info = Daama bëggóon a jot ay emails yu mel ni ay fàttali ci lima war a def, ay yëglee ci sama yokkute ak yeneen xeet i bataaxal ci Common Voice.
+email-opt-in-info-title = Bokk ci ñii Common Voice di yónnée ay emails
+email-opt-in-info-sub-with-challenge = Jot ay emails yu melni ay joŋante ak i fàttali ci luma war a def, ay yëglé ci sama yokkute ak ay newsletters yu jëm ci Common Voice.
+email-opt-in-privacy-v2 = Soo nangoo jot ay emails, dafay firi ni nangu nga tamit Mozilla jëfandikoo say bataaxal (informations) niko Mozilla tërëlée ci séen <privacyLink>Politique de confidentialité</privacyLink> bi.
+indicates-required = Fépp fuñu def ab asterisk (*) war nga fa def dara.
+not-available-abbreviation = N/A
+banner-error-slow-1 = Nu ngi jéggalu, Common Voice dafa yéex jamono jii. Nu ngi lay jaajëfël bu baax ci sa yéené.
+banner-error-slow-2 = Ñi fii ñëw jamono jii dafa bari lool te nu ngi saytu jafe-jafe yi.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
