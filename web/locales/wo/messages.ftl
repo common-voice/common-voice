@@ -161,6 +161,11 @@ pl = Polone
 ps = Pasto
 pt = Portugees
 quc = K'iche'
+quy = Kuwesuwa Sanka
+rm-sursilv = Romaans Sursilwan
+rm-vallader = Romaans Walader
+ro = Rume
+ru = Ris
 
 # [/]
 
