@@ -255,7 +255,14 @@ donate = Joxe
 home-title = Common Voice mooy naal wii Mozilla naal ngir jàngal masin yi naka la nit dëgg di waxee.
 default-tagline = Common Voice, ab naal la bu Mozilla naal ngir jàngal masin yi nan la nit dëgg di waxee.
 home-cta = Waxal, jàpp ci fii!
-wall-of-text-start = Kàddu, lu naturel la, kàddu lu nité la. Loolu moo tax ñuy bég ci di defar ay baat yu ñu man a jëfandikoo
+wall-of-text-start =
+    Kàddu, lu naturel la, kàddu lu nité la. Loolu moo waral ñuy bég ci di defar ay jumtukaayu xarala yu am solo yoo xamni
+    danañ man a jëfandikoo ay kàddu. Waaye ngir man a defar yooyu jumtukaay, danuy soxla 
+    ay waat (voix) yu baree bari.
+wall-of-text-more-mobile =
+    Lu ёpp ci jumtukaay (données) yii barabu liggéeyukaay yu mag yi di jëfandikoo, kenn manu cee jot lumooy lim bu néew. Yaakaar na nu ni
+    loolu dafay xoj sunu manug defar lu bees lu musul am. Loolu moo waral ñu ubbi naal wii di Common Voice, di ab naal buy tax
+    ñëpp man a jot ci masin yuy ràññee ay kàddu.
 
 ## Account Benefits
 
