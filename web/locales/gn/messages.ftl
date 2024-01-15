@@ -494,16 +494,16 @@ faq-is-goal-assistant-q = ¿Common Voice ohupytyséva ha’e ayvu pytyvõha jeja
 faq-is-goal-assistant-a = Ore rupytyrã tuichavéva Common Voice kuaapy’aty reheve ha’ehína pe opaite oiporukuaáva ñe’ẽñeikũmby rembiporu iñe’ẽteépe oikotevẽhápe. Tembiporu pytyvõha oñe’ẽkuaávaniko peteĩchante ko’ãichagua tembiporu, ikatu avei ojejapo heta ambue mba’e Common Voice kuaapy’ypy ndive.
 faq-do-want-native-q = ¿Kóva ndaha’éi che ñe’ẽte ha ojekuaa upéva cherehe añe’ẽvo, jepémo aipytyvõkuaápa?
 faq-do-want-native-a = ¡Ikatu, ndeichagua oñe’ẽva roipota orepytyvõ! Common Voice ombyatykuaa mba’éichapa ombohyapuambue tapicha oñe’ẽva, upéva rupi omba’apokuaaporãvéta tembiporu ñe’ẽryapu ñeikũmby rehegua. Ja’ekuaa opaite tapicha taha’eha’éva iñe’ẽte térã nahániri oipytyvõkuaa.
-faq-why-different-speakers-q = Mba’érepa peikotevẽ opaite tapicháre oñe’ẽkuaáva peteĩ ñe’ẽme.
+faq-why-different-speakers-q = Mba’érepa peikotevẽ tapichakuérare oñe’ẽkuaáva peteĩ ñe’ẽme.
 faq-why-different-speakers-a =
-    Heta ñe’ẽryapu ñongatupyre ombyaty mba’éichapa oñe’ẽ sa’i tapicha ha péicha oñemboyke ombohyapuambuévape, techapyrã <articleLink>kuimba’e ha tapicha aty avano’õ iviru sa’ivévape</articleLink>. Ndajajesarekóirõ tapicha aty michĩvéva ombohyapuambuéva ñe’ẽ térã iñe’ẽambuéva, opytáta tapykuépe, oñembo’ykemavavoi chupekuéra. Heta mohendaha noikũmbykuaái kuña ñe’ẽ ohendúvo.
-    ¡Upévare rombyaty opaichagua ñe’ẽryapu, taha’e kuña térã kuimba’e, iñe’ẽ’ypýva térã iñe’ẽkõiva!
+    Heta ñe’ẽryapu ñongatupyre ombyaty mba’éichapa oñe’ẽva sa’i tapicha ha oñemboyke oñe’ẽambuévape, techapyrã <articleLink>kuimba’e ha tapicha aty avano’õ iviru sa’ivéva</articleLink>. Ndajajesarekóirõ tapicha aty’i ombohyapuambuéva ñe’ẽ térã iñe’ẽambuéva, opytáta tapykuépe, oñembo’ykemavavoi chupekuéra. Heta mohendaha noikũmbykuaái kuña ñe’ẽ ohendúvo.
+    ¡Upévare rombyaty opaichagua ñe’ẽryapu, taha’e kuña térã kuimba’e, iñe’ẽ’ypy térã iñe’ẽkõiva!
 faq-why-my-lang-q = Mba’érepa che ñe’ẽtee ndaipóri gueteri
 faq-why-my-lang-a =
     Common Voice ha’e pyendavusu crowdsourcing rehegua, ha umi ñe’ẽ oñembojoapypaite omba’aporeíva rupive.
     ¡Rovy’aitereíta remoĩrõ ne ñe’ẽ! <languageRequestLink>Eporandu emoĩ hag̃ua ne ñe’ẽ.</languageRequestLink>
 faq-what-quality-q = Mba’eichaitépa iporãveva’erã umi ñe’ẽryapu ikatu hag̃uáicha oike kuaapy atýpe
-faq-what-quality-a = Roipota Common Voice kuaapy’aty toreko opaichagua ñe’ẽryapu ikatu hag̃ua tembiporu oikũmbýtava oje’éva chupe omba’apokuaa avei ka’aguýpe. Iporã oĩrõ opaichagua ñe’ẽryapu, péichante oñembokatupyrýta avei tembiporu’i ojapoporã hembiapo ndohenduporãkuaáirõ jepe. Katu yvypóra oikũmbykuaava’erã oje’éva ñe’ẽryapu ñongatupyrépe.
+faq-what-quality-a = Roipota Common Voice kuaapy’aty toguereko opaichagua ñe’ẽryapu ikatu hag̃uáicha tembiporu oikũmbýtava oje’éva chupe omba’apokuaa avei ka’aguýpe. Iporã oĩrõ opaichagua ñe’ẽryapu, péichante oñembokatupyrýta avei tembiporu’i ojapoporã hembiapo ndohenduporãkuaáirõ jepe. Katu yvypóra oikũmbykuaava’erã oje’éva ñe’ẽryapu ñongatupyrépe.
 faq-why-10k-hours-q = Mba’érepiko pehupytyse 10,000 aravo ñe’ẽryapu ñongatupyre peteĩ ñe’ẽmegua?
 faq-why-10k-hours-a = Tembiporu’i ñe’ẽryapu oikũmbýva oikotevẽ upe tetakue ikatupyry hag̃ua ñe’ẽryapu jehaípe.
 faq-how-calc-hours-q = ¿Mba’éicha omboaje Common Voice aravokuéra?
@@ -570,7 +570,10 @@ about-no-votes-text = Oĩramo poruhára ombotovéva ayvu ñeñongatu, ojevýta h
 about-dataset-new = Common Voice mba’ekuaarã rupa
 about-dataset-new-text = Common Voice mba’ekuaarã renda omoinge hetaiterei ayvu oipytyvõva mboguataharakuérape omoheñóivo tembiporu oikũmbykuaáva ayvu.
 about-clip-graveyard = Ñongatuhakuéra mbyatyha
-about-clip-graveyard-text = Pe ñongatupyre oiko’ỹva ha’e ayvu ñongatupyre ndoikekuaáiva Common Voice mba’ekuaarã rendápe. Oikoháicha avei pe mba’ekuaarã renda rehe, pe ñongatupyre oiko’ỹva ikatu oñemboguejy.
+about-clip-graveyard-text =
+    Pe ñongatupyre oiko’ỹva ha’e ayvu ñongatupyre ndoikekuaáiva Common Voice mba’ekuaarã rendápe. Oikoháicha avei pe mba’ekuaarã renda rehe, pe ñongatupyre oiko’ỹva ikatu oñemboguejy.
+    
+    Roaguyjeveme’ẽse ko’ã tapicha ha atyguasúpe ore pytyvõre apopyrãme:
 about-get-involved = Poropytyvõ
 about-get-involved-text-2 =
     Eipytyvõsépa ikatu hag̃ua Common Voice iporãve?
@@ -578,20 +581,20 @@ about-get-involved-text-2 =
     renda rupive, orekuaaukami avei oĩrõ apañuãi ñanduti rendápe:<githubLink>GitHub</githubLink> térã eike <matrixLink>Atyrusu</matrixLink>ñemongeta rendápe.
 about-stay-in-touch = ¿Mba’éicha aiméta ñe’ẽme?
 about-stay-in-touch-button = Eñemboheraguapy
-about-stay-in-touch-text-1 = <emailFragment>Eñemboheraguapy</emailFragment> ore ñanduti veve rysýipe eikuaa hag̃ua mba’éichapa ejekuaaukáta, tembiaporã ha tembiapoite Common Voice moha’ãngajeýpe.
+about-stay-in-touch-text-1 = <emailFragment>Eñemboheraguapy</emailFragment> ore ñanduti veve rysýipe eikuaa hag̃ua mba’éicha ejekuaaukáta, tembiaporã ha tembiapoite Common Voice moha’ãngajeýpe.
 about-stay-in-touch-text-2 = Eikuaáta ambue tapichápe Mozilla rekoha ñe’ẽnguérape ejuajúvo <discourseLink>Discourse</discourseLink> oñeñomongeta hag̃ua térã <matrixLink>Matrix</matrixLink> ereko hag̃ua ñemoñe’ẽ pya’e.
-about-nav-why-common-voice = ¿Mba’ére?
+about-nav-why-common-voice = Mba’érepa
 about-nav-how-it-works = ¿Mba’e?
 about-nav-partners = Irũnguéra
 about-nav-get-involved = Ñepytyvõ
-about-nav-how-it-works-2 = ¿Mba’éicha omba’apo Common Voice?
+about-nav-how-it-works-2 = Mba’éichapa omba’apo Common Voice
 about-nav-playbook = Aikuaa mba’éichapa aikéta
 
 ## Community Playbook Content
 ## What is a language
 
 about-playbook-what-is-language = ¿Mba’épa ñe’ẽ Common Voice ryepýpe?
-about-playbook-what-is-language-content-1 = Heta hendáicha oñeñamindu’u ñe’ẽre. Ha mba’íchapa ojehecháta ayvúpe, Common Voice oipota ema’ẽ pe ‘inteligibilidad mutua’ ojeheróva rehe térã ‘¿ikatúpa ko’ã ñe’ẽ poruhára oñoikũmby oñondivepa péicha ojapóramo?’
+about-playbook-what-is-language-content-1 = Heta hendáicha oñeñamindu’u ñe’ẽre. Ha mba’éichapa ojehecháta ayvúpe, Common Voice oipota ema’ẽ pe ‘inteligibilidad mutua’ ojeheróva rehe térã ‘¿ikatúpa ko’ã ñe’ẽ poruhára oñoikũmby oñondivepa péicha ojapóramo?’
 about-playbook-what-is-language-content-2 = Roipota ayvu hetaichagua roikũmby porã hag̃ua opaichagua ñe’ẽhára. Kóva oiko hag̃ua, ayvu mba’ekuaarã aty ohechaukava opaichagua tapicha iñambuéva ojuehegui.
 about-playbook-what-is-language-content-3 = Heta ñẽ’e iñambue tuicha iñe’ẽtekuaápe, ñe’ẽndy ha iñemboayvúpe. Upéicha rupi, roñepyrũ <ctaLink>romoinge 'Ñe’ẽambue'</ctaLink> 2022 guive. Kóva ome’ẽ tekohakuérape mba’éichapa ohechakuaáta iñe’ẽnguéra pe mba’ekuaarã aty tuichavéva pa’ũme.
 
