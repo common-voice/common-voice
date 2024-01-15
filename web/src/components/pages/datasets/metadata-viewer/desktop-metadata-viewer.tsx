@@ -12,6 +12,7 @@ export type DatasetMetadata = {
     female: number
   }
   age: {
+    '': number
     teens: number
     twenties: number
     thirties: number
@@ -31,6 +32,7 @@ type Props = {
 }
 
 const AGE_MAPPING = {
+  '': 'No information available',
   teens: '< 20',
   twenties: '20 - 29',
   thirties: '30 - 39',
@@ -58,14 +60,13 @@ export const DesktopMetaDataViewer = ({
             rowIndex: selectedTableRowIndex,
             datasetsCount,
           })})`,
-        }}
-        className="hidden-lg-down">
+        }}>
         <Localized id="datatset-splits">
           <p className="header" />
         </Localized>
         <div className="info">
           <div className="age-splits">
-            {(Object.keys(age) as Array<keyof typeof age>).map(el =>
+            {(Object.keys(AGE_MAPPING) as Array<keyof typeof age>).map(el =>
               el ? (
                 <p key={el}>
                   <span>{formatNumberToPercentage(age[el])}</span>
