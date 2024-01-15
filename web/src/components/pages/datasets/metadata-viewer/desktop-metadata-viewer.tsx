@@ -1,8 +1,10 @@
 import React from 'react'
-import { Localized } from '@fluent/react'
+import { Localized, useLocalization } from '@fluent/react'
 
 import { getVerticalOffset } from './get-vertical-offset'
 import { formatNumberToPercentage } from '../../../../utility'
+
+import './desktop-metadata-viewer.css'
 
 export type DatasetMetadata = {
   gender: {
@@ -28,7 +30,6 @@ type Props = {
   metadata: DatasetMetadata
 }
 
-// TODO: move this to constants
 const AGE_MAPPING = {
   teens: '< 20',
   twenties: '20 - 29',
@@ -47,9 +48,10 @@ export const DesktopMetaDataViewer = ({
   metadata,
 }: Props) => {
   const { age, gender } = metadata
+  const { l10n } = useLocalization()
 
   return (
-    <div className="metadata-viewer-container hidden-md-down">
+    <div className="metadata-viewer-container hidden-lg-down">
       <div
         style={{
           transform: `translateY(${getVerticalOffset({
@@ -61,38 +63,42 @@ export const DesktopMetaDataViewer = ({
         <Localized id="datatset-splits">
           <p className="header" />
         </Localized>
-        <div
-          className="info"
-          style={{
-            paddingInlineStart: '24px',
-            paddingBlock: '12px',
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-          }}>
-          {(Object.keys(age) as Array<keyof typeof age>).map(
-            el =>
-              el && (
+        <div className="info">
+          <div className="age-splits">
+            {(Object.keys(age) as Array<keyof typeof age>).map(el =>
+              el ? (
                 <p key={el}>
-                  <span style={{ fontWeight: 'bold' }}>
-                    {formatNumberToPercentage(age[el])}
-                  </span>{' '}
+                  <span>{formatNumberToPercentage(age[el])}</span>
                   {AGE_MAPPING[el]}
                 </p>
-              )
-          )}
-
-          {(Object.keys(gender) as Array<keyof typeof gender>).map(
-            el =>
-              el && (
-                <p key={el} style={{ textTransform: 'capitalize' }}>
-                  <span style={{ fontWeight: 'bold' }}>
-                    {formatNumberToPercentage(gender[el])}
-                  </span>{' '}
-                  {el}
+              ) : (
+                <p
+                  title={l10n.getString('no-information-available')}
+                  className="no-information">
+                  <span>{formatNumberToPercentage(age[el])}</span>
+                  {l10n.getString('no-information-available')}
                 </p>
               )
-          )}
+            )}
+          </div>
+
+          <div className="gender-splits">
+            {(Object.keys(gender) as Array<keyof typeof gender>).map(el =>
+              el ? (
+                <p key={el} className="gender">
+                  <span>{formatNumberToPercentage(gender[el])}</span>
+                  {el}
+                </p>
+              ) : (
+                <p
+                  title={l10n.getString('no-information-available')}
+                  className="no-information">
+                  <span>{formatNumberToPercentage(gender[el])}</span>
+                  {l10n.getString('no-information-available')}
+                </p>
+              )
+            )}
+          </div>
         </div>
       </div>
     </div>

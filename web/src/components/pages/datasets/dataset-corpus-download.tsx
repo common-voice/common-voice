@@ -134,7 +134,7 @@ const DatasetCorpusDownload = ({
             )}
           </div>
 
-          {selectedDataset && selectedDataset.splits && (
+          {!isLoading && selectedDataset && selectedDataset.splits && (
             <DesktopMetaDataViewer
               selectedTableRowIndex={selectedTableRowIndex}
               datasetsCount={languageDatasets.length}

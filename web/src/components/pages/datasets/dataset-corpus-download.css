@@ -131,20 +131,5 @@
             align-items: start;
             flex-direction: column;
         }
-
-        & .metadata-viewer-container {
-            margin-inline-start: 36px;
-
-            & p.header {
-                margin-block-end: 12px;
-                font-weight: bold;
-            }
-
-            & .info {
-                height: fit-content;
-                width: 220px;
-                background-color: var(--lighter-blue);
-            }
-        }
     }
 }

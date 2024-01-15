@@ -1,0 +1,42 @@
+.metadata-viewer-container {
+    margin-inline-start: 36px;
+
+    & p.header {
+        margin-block-end: 12px;
+        font-weight: bold;
+    }
+
+    & .info {
+        height: fit-content;
+        width: 220px;
+        background-color: var(--lighter-blue);
+        padding-inline-start: 24px;
+        padding-block: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & .age-splits {
+            margin-block-end: 12px;
+        }
+
+        & .age-splits,
+        .gender-splits {
+            .no-information {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                width: 150px;
+            }
+        }
+
+        span {
+            font-weight: bold;
+            margin-inline-end: 4px;
+        }
+
+        p.gender {
+            text-transform: capitalize;
+        }
+    }
+}
