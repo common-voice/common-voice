@@ -10,17 +10,16 @@ import {
 import { constVoid, pipe } from 'fp-ts/lib/function'
 import { taskEither as TE, task as T } from 'fp-ts'
 
-const uploader = AWS.getS3();
 const getUnsignedUrl = (bucket: string, key: string) => {
   const {
     ENVIRONMENT,
-    S3_LOCAL_DEVELOPMENT_ENDPOINT,
+    STORAGE_LOCAL_DEVELOPMENT_ENDPOINT,
     CLIP_BUCKET_NAME,
     AWS_REGION,
   } = getConfig();
 
   if (ENVIRONMENT === 'local') {
-    return `${S3_LOCAL_DEVELOPMENT_ENDPOINT}/${CLIP_BUCKET_NAME}/${key}`;
+    return `${STORAGE_LOCAL_DEVELOPMENT_ENDPOINT}/${CLIP_BUCKET_NAME}/${key}`;
   }
 
   return `https://common-voice-clips.eu-central-1.linodeobjects.com/${key}`;

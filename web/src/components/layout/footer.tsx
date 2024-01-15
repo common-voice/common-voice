@@ -95,13 +95,13 @@ const Footer = React.memo(() => {
                 href="https://www.mozilla.org/en-US/privacy/websites/#cookies"
                 rel="noopener noreferrer"
               />
-            </Localized> */}
+            </Localized>
           </div>
           <div className="divider-vertical" />
           <div>
             <LocalizedLocaleLink id="about" to={URLS.ABOUT} />
             <GitHubLink>GitHub</GitHubLink>
-          </div> */}
+          </div>
         </div>
 
         <div id="sharing">
