@@ -19,7 +19,7 @@ import { DeltaReadMoreLink } from '../../shared/links';
 import {
   DatasetMetadata,
   DesktopMetaDataViewer,
-} from './metadata-viewer/desktop-metadata-viewer';
+} from './metadata-viewer/desktop/metadata-viewer';
 
 import './dataset-corpus-download.css';
 

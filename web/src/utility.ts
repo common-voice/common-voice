@@ -164,3 +164,6 @@ export const castTrueString = (strValue: string) => strValue === 'true';
 
 export const formatNumberToPercentage = (numberValue: number) =>
   `${Math.round(numberValue * 100)}%`;
+
+export const sortObjectByValue = (obj: Record<string, any>) =>
+  Object.fromEntries(Object.entries(obj).sort(([, a], [, b]) => b - a));
