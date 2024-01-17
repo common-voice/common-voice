@@ -262,7 +262,7 @@ wall-of-text-more-desktop =
     ojeporukuaáva oñemoheñói hag̃ua tembiporu’i pyahu mba’e’oka ha ñandutípe. Emoñe’ẽ hatã ñe’ẽjoaju ikatu hag̃ua mohendaha oikuaa ne ñe’ẽ ryapu.
     Ehendu ambue rembiapo ha ere oĩporãpa. ¡Ndahasyiete!
 wall-of-text-first =
-    Ñe’ẽ yvypóra mba’e. Upévare rovy’a rojapóvo ko tembiapo, roikuave’ẽ tembiporu ñe’ẽ ñembohyapurã ikatu hag̃ua mohendaha ohai ha ojapokuaa oje’éva chupe.
+    Ñe’ẽ yvypóra mba’e. Upévare rovy’a rojapóvo ko tembiapo, roikuave’ẽ tembiporu ñe’ẽ ñembohyapurã ikatu hag̃uáicha mohendaha ohai ha ojapokuaa oje’éva chupe.
     Upevarã roikotevẽ heta ñe’ẽryapu ñongatupyre.
 wall-of-text-second =
     Heta ñe’ẽryapu ñongatupyre oĩva yvy ape ári oĩ Estádo mba’e’ỹ pópe ha upévare ndoiporukuaái opavave.
