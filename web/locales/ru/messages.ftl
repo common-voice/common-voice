@@ -743,6 +743,7 @@ validated-hr-total = Всего часов проверено
 overall-hr-total = Часов всего
 cv-license = Лицензия
 audio-format = Аудиоформат
+dataset-splits = Разделение (возраст и пол)
 number-of-voices = Количество голосов
 splits = Разделение
 email-to-download = Введите адрес электронной почты для загрузки
