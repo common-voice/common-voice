@@ -765,7 +765,6 @@ validated-hr-total = Validated Hr. Total
 overall-hr-total = Overall Hr. Total
 cv-license = License
 audio-format = Audio Format
-dataset-splits = Splits (Age and Sex)
 number-of-voices = Number of Voices
 splits = Splits
 email-to-download = Enter Email to Download
