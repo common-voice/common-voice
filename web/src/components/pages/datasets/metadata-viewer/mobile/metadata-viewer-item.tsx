@@ -1,10 +1,10 @@
 import React from 'react'
-import { Localized, useLocalization } from '@fluent/react'
+import { useLocalization } from '@fluent/react'
+import classNames from 'classnames'
 
-import { ChevronDown } from '../../../../ui/icons'
+import { CheckMark, ChevronDown } from '../../../../ui/icons'
 import { LanguageDataset } from '../types'
 import { formatBytes, msToHours } from '../../../../../utility'
-import classNames from 'classnames'
 
 type Props = {
   releaseData: LanguageDataset
@@ -45,7 +45,10 @@ export const MetaDataViewerItem = ({
           selected: isItemSelected,
         })}
         onClick={() => onSelect(releaseData.id)}>
-        <p>{releaseData.name}</p>
+        <p className="release-name">
+          {isItemSelected && <CheckMark />}
+          {releaseData.name}
+        </p>
         <div>
           <p className="dataset-release-date">
             {Intl.DateTimeFormat(locale).format(
@@ -82,20 +85,15 @@ export const MetaDataViewerItem = ({
               <p className="metadata">Age</p>
 
               <div className="age-splits">
-                {(Object.keys(AGE_MAPPING) as Array<keyof typeof age>).map(el =>
-                  el ? (
-                    <p key={el}>
-                      <span>{`${Math.round(age[el] * 100)}%`}</span>
-                      {AGE_MAPPING[el]}
-                    </p>
-                  ) : (
-                    <p
-                      title={l10n.getString('no-information-available')}
-                      className="no-information">
-                      <span>{`${Math.round(age[el] * 100)}%`}</span>
-                      {l10n.getString('no-information-available')}
-                    </p>
-                  )
+                {(Object.keys(AGE_MAPPING) as Array<keyof typeof age>).map(
+                  el =>
+                    el.length > 0 &&
+                    age[el] > 0 && (
+                      <p key={el}>
+                        <span>{`${Math.round(age[el] * 100)}%`}</span>
+                        {AGE_MAPPING[el]}
+                      </p>
+                    )
                 )}
               </div>
             </div>
@@ -126,20 +124,15 @@ export const MetaDataViewerItem = ({
                   Object.keys(releaseData.splits.gender) as Array<
                     keyof typeof gender
                   >
-                ).map(el =>
-                  el ? (
-                    <p key={el} className="gender">
-                      <span>{`${Math.round(gender[el] * 100)}%`}</span>
-                      {el}
-                    </p>
-                  ) : (
-                    <p
-                      title={l10n.getString('no-information-available')}
-                      className="no-information">
-                      <span>{`${Math.round(gender[el] * 100)}%`}</span>
-                      {l10n.getString('no-information-available')}
-                    </p>
-                  )
+                ).map(
+                  el =>
+                    el.length > 0 &&
+                    gender[el] > 0 && (
+                      <p key={el} className="gender">
+                        <span>{`${Math.round(gender[el] * 100)}%`}</span>
+                        {el}
+                      </p>
+                    )
                 )}
               </div>
             </div>

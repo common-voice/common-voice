@@ -28,6 +28,10 @@
         &.selected {
             background-color: #e2ecf7;
             border-bottom: none;
+
+            svg {
+                margin-inline-end: 4px;
+            }
         }
 
         div {
@@ -69,6 +73,10 @@
 
         div.age-splits,
         div.gender-splits {
+            p {
+                text-transform: capitalize;
+            }
+
             span {
                 font-weight: bold;
                 margin-inline-end: 4px;

@@ -7,6 +7,7 @@ import classNames from 'classnames';
 import * as React from 'react';
 import { formatBytes, msToHours } from '../../../utility';
 import { useLocale } from '../../locale-helpers';
+
 import './dataset-corpus-download-table.css';
 
 interface Props {
