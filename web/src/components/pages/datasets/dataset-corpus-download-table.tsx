@@ -11,7 +11,7 @@ import './dataset-corpus-download-table.css';
 
 interface Props {
   releaseData: any[];
-  onRowSelect: (selectedId: number, index: number) => void;
+  onRowSelect: any;
   selectedId: number | null;
 }
 
@@ -92,10 +92,10 @@ const DatasetCorpusDownloadTable = ({
         </tr>
       </thead>
       <tbody>
-        {releaseData.map((row, index) => {
+        {releaseData.map(row => {
           return (
             <tr
-              onClick={() => onRowSelect(row.id, index)}
+              onClick={() => onRowSelect(row.id)}
               className={classNames({ selected: row.id === selectedId })}
               key={row.id + row.release_dir}>
               {Object.keys(COLUMNS).map((col: string, index) => {
