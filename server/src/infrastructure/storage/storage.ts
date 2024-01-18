@@ -3,9 +3,12 @@ import { taskEither as TE } from 'fp-ts'
 import { getConfig } from '../../config-helper'
 import { Readable } from 'stream'
 import { StatusCodes } from 'http-status-codes'
-import { Metadata } from '@google-cloud/storage/build/src/nodejs-common'
 
 const TWELVE_HOURS_IN_MS = 1000 * 60 * 60 * 12
+
+export type Metadata = {
+  size: number
+}
 
 const storage =
   getConfig().ENVIRONMENT === 'local'
@@ -124,7 +127,10 @@ const getMetadata =
     return TE.tryCatch(
       async () => {
         const [metadata] = await storage.bucket(bucket).file(path).getMetadata()
-        return metadata
+        
+        return {
+          size: Number(metadata.size)
+        }
       },
       (err: Error) => err
     )

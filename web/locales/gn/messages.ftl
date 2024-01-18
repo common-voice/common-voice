@@ -11,8 +11,8 @@ loading = Henyhẽhína…
 email-opt-in-info = Pembou chéve ñanduti veve rupi marandu hupytyrã rehegua térã mba’éicha oguatahína tembiapo ha Common Voice.
 email-opt-in-info-title = Ejuaju Common Voice ñanduti veve rysýire
 email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñanduti vevépe marandu ojehupytyséva, avei mba’éicha oguata tembiapo ha Common Voice rehegua.
-email-opt-in-privacy-v2 = Emongurusúrõ oñemog̃uahẽ hag̃ua ndéve marandu he’ise emoneĩha mba’éichapa Mozilla oiporu tapichakuéra kuaapyrã oñemoesakãva <privacyLink>ko’ápe</privacyLink>.
-indicates-required = Remyanyhẽva’erã katuete (*) tenda’i hairenda.
+email-opt-in-privacy-v2 = Emongurusúrõ oñemog̃uahẽ hag̃ua ndéve marandu he’ise emoneĩha mba’éichapa Mozilla oiporu tapichakuéra kuaapyrã oñemyesakãva <privacyLink>ko’ápe</privacyLink>.
+indicates-required = Emyanyhẽva’erã katuete (*) tenda’i hairenda.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Rombyasy, Common Voice omba’apóma mbeguekatu. Aguyje emomba’ére.
 banner-error-slow-2 = Og̃uahẽ oréve heta jeku’egua ha ko’ág̃aite rohapykuehoroína umi apañuãi.
@@ -240,7 +240,7 @@ help = Pytyvõ
 contact = Máva ndivépa oñeñe’ẽkuaa
 privacy = Kuaapyrã ñemi ñeñangareko
 terms = Mbojojaha
-cookies = Cookie-kuéra
+cookies = Kookiekuéra
 faq = Oñeporanduvéva
 content-license-text = Mba’ekuaa ojeporukuaa <licenseLink>Creative Commons license</licenseLink>rupive.
 share-title = Oreykeko rojuhúvo orepytyvõséva ijayvúpe.
@@ -252,17 +252,17 @@ donate = Ñeme’ẽ
 
 ## Home Page
 
-home-title = Common Voice Mozilla rembiapo oipytyvõva mohendhápe oñe’ẽvo yvypóraicha.
+home-title = Common Voice Mozilla rembiapokue oipytyvõva mohendahápe oñe’ẽvo yvypóraicha.
 default-tagline = Common Voice ha’e Mozilla rembiapokue ombo’éva mohendahápe yvypóra oñe’ẽháicha.
 home-cta = ¡Eñe’ẽ, eipytyvõmi ko’ápe!
 wall-of-text-start = Ñande ahy’o ayvu niko yvypóra mba’eteete. Upévare roipytyvõse oĩ hag̃uáicha ñe’ẽ rembiporu jaiporukuaáva opavave ñane mohendahápe. Rojapo hag̃ua upéva roikotevẽ hetaiterei ñe’ẽryapu ñongatupyre.
-wall-of-text-more-mobile = Haimete opa ñe’ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Roimo’ã ndaupeichaiva’erãha. Upévare romoheñói Aponde’a Common Voice, roipotágui opavave oiporu pe ñe’ẽ rembiporu.
+wall-of-text-more-mobile = Haimete opaite ñe’ẽryapu ojeporukuaáva oñeñongatu empresa privada-pe ha upévare ndaopavavéi oiporukuaa. Roimo’ã ndaupeichaiva’erãha. Upévare romoheñói Aponde’a Common Voice, roipotágui opavave oiporu pe ñe’ẽ rembiporu.
 wall-of-text-more-desktop =
-    Eme’ẽkuaa nde ayvu ha eipytyvõ jajapo hag̃ua ñe’ẽ ha ñe’ẽjoaju ryapu apesã opaitépe g̃uarã
+    Eme’ẽkuaa nde ayvu ha eipytyvõ jajapo hag̃ua ñe’ẽ ha ñe’ẽjoaju ryapu apesã opavavépe g̃uarã
     ojeporukuaáva oñemoheñói hag̃ua tembiporu’i pyahu mba’e’oka ha ñandutípe. Emoñe’ẽ hatã ñe’ẽjoaju ikatu hag̃ua mohendaha oikuaa ne ñe’ẽ ryapu.
     Ehendu ambue rembiapo ha ere oĩporãpa. ¡Ndahasyiete!
 wall-of-text-first =
-    Ñe’ẽ yvypóra mba’e. Upévare rovy’a rojapóvo ko tembiapo, roikuave’ẽ tembiporu ñe’ẽ ñembohyapurã ikatu hag̃ua mohendaha ohai ha ojapokuaa oje’éva chupe.
+    Ñe’ẽ yvypóra mba’e. Upévare rovy’a rojapóvo ko tembiapo, roikuave’ẽ tembiporu ñe’ẽ ñembohyapurã ikatu hag̃uáicha mohendaha ohai ha ojapokuaa oje’éva chupe.
     Upevarã roikotevẽ heta ñe’ẽryapu ñongatupyre.
 wall-of-text-second =
     Heta ñe’ẽryapu ñongatupyre oĩva yvy ape ári oĩ Estádo mba’e’ỹ pópe ha upévare ndoiporukuaái opavave.
