@@ -173,12 +173,12 @@ export default class Takeout {
     //   .map((keys, offset) => bucket.zipTakeoutFilesToS3(takeout, offset, keys)));
     const fileSizes: {size: number}[] = [];
 
-    chunkedClips.forEach(async (chunk: string[], index: number) => {
+    for (const [index, chunk] of chunkedClips.entries()) {
       fileSizes.push(
         await this.bucket.zipTakeoutFilesToS3(takeout, index, chunk)
       );
       await job.progress(Math.ceil((100 * index) / chunkedClips.length));
-    });
+    }
 
     fileSizes.push(await this.bucket.uploadClipMetadata(takeout, clips));
     const totalSize = fileSizes.reduce(
@@ -370,17 +370,12 @@ export default class Takeout {
   }
 
   private static splitIntoChunks(paths: string[]): string[][] {
-    const todo = [...paths];
-    const chunks = [];
+    var result = [];
 
-    do {
-      const currentChunk = [];
-      while (todo.length && currentChunk.length < kChunkMaxFiles) {
-        const clip = todo.pop();
-        currentChunk.push(clip);
-      }
-      chunks.push(currentChunk);
-    } while (todo.length);
-    return chunks;
+    for (let i = 0; i < paths.length; i += kChunkMaxFiles) {
+      result.push(paths.slice(i, i + kChunkMaxFiles));
+    }
+
+    return result;
   }
 }
