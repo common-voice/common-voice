@@ -65,7 +65,7 @@ export const DesktopMetaDataViewer = ({
             datasetsCount,
           })})`,
         }}>
-        <Localized id="datatset-splits">
+        <Localized id="dataset-splits">
           <p className="header" />
         </Localized>
         <div className="info">
