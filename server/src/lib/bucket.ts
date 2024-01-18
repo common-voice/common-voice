@@ -6,6 +6,7 @@ import { ClientClip } from './takeout'
 import * as Sentry from '@sentry/node'
 import { pipe } from 'fp-ts/lib/function'
 import {
+  Metadata,
   deleteFileFromBucket,
   doesFileExistInBucket,
   downloadFileFromBucket,
@@ -16,7 +17,6 @@ import {
   uploadToBucket,
 } from '../infrastructure/storage/storage'
 import { task as T, taskEither as TE } from 'fp-ts'
-import { Metadata } from '@google-cloud/storage/build/src/nodejs-common'
 import * as archiver from 'archiver'
 import { zip } from 'fp-ts/lib/ReadonlyArray'
 
@@ -49,7 +49,6 @@ export default class Bucket {
       getSignedUrlFromBucket(bucket)(key),
       TE.getOrElse(() => T.of(`Cannot get signed url for ${key}`))
     )()
-
 
     return url
   }
@@ -168,33 +167,24 @@ export default class Bucket {
 
     const bucket = getConfig().CLIP_BUCKET_NAME
     const passThrough = new PassThrough()
-
-    const downloadList = paths.map(path => downloadFileFromBucket(bucket)(path))
-
-    const buffers = await pipe(
-      downloadList,
-      TE.sequenceArray,
-      TE.match(
-        e => {
-          console.log(e)
-          return [] as Buffer[]
-        },
-        buffers => buffers
-      )
-    )()
-
-    const bufferList = zip(buffers)(paths)
-
     const archive = archiver('zip', { zlib: { level: 6 } })
+    
     archive.pipe(passThrough)
 
-    bufferList.forEach(([path, buffer]) =>
-      archive.append(buffer, {
-        name: `takeout_${takeout.id}_pt_${chunkIndex}/${
-          path.split('/').length > 1 ? path.split('/')[1] : path
-        }`,
-      })
-    )
+    for (const path of paths) {
+      await pipe(
+        path,
+        downloadFileFromBucket(bucket),
+        TE.map(buffer => ({ path, buffer })),
+        TE.map(clip =>
+          archive.append(clip.buffer, {
+            name: `takeout_${takeout.id}_pt_${chunkIndex}/${
+              path.split('/').length > 1 ? path.split('/')[1] : path
+            }`,
+          })
+        )
+      )()
+    }
 
     archive.finalize()
 

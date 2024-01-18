@@ -11,14 +11,17 @@ Please format your bulk sentences into a TSV file with two columns, one containi
 
 The more information you are able to provide in the Source column, the easier it will be to get your bulk sentence submission validated.
 
-| Sentence  |  Source |  Additional rationale for open license
-|---|---|---|
-| Six years have passed since I resolved on my present undertaking. | Frankenstien, Mary Shelly, 1818, https://www.gutenberg.org/files/42324/42324-h/42324-h.htm | My own submission, copyright waived |
-| During her illness, many arguments had been urged to persuade my mother to refrain from attending upon her. | Frankenstien, Mary Shelly, 1818, https://www.gutenberg.org/files/42324/42324-h/42324-h.htm | My own submission, copyright waived |
-| She died calmly; and her countenance expressed affection even in death. | Frankenstien, Mary Shelly, 1818, https://www.gutenberg.org/files/42324/42324-h/42324-h.htm | MCV CC0 waiver process - see legal form |
-| My cat is a strange little dude. | Jessica Rose (self)  | MCV CC0 waiver process - see legal form |
-| I should have brought sunscreen. | Jessica Rose (self)  | More than 100 years since publication |
-| Have you read the Doraemon comics yet? | Jessica Rose (self) | More than 100 years since publication |
+| Sentence  |  Source |  Additional rationale for open license | Sentence Quality Assurance Feedback (optional) O = satisfactory sentence, X = unsatisfactory sentence
+|---|---|---|---|
+| Six years have passed since I resolved on my present undertaking. | Frankenstien, Mary Shelly, 1818, https://www.gutenberg.org/files/42324/42324-h/42324-h.htm | My own submission, copyright waived | O
+| During her illness, many arguments had been urged to persuade my mother to refrain from attending upon her. | Frankenstien, Mary Shelly, 1818, https://www.gutenberg.org/files/42324/42324-h/42324-h.htm | My own submission, copyright waived | O
+| She died calmly; and her countenance expressed affection even in death. | Frankenstien, Mary Shelly, 1818, https://www.gutenberg.org/files/42324/42324-h/42324-h.htm | MCV CC0 waiver process - see legal form | O
+| My cat is a strange little dude. | Jessica Rose (self)  | MCV CC0 waiver process - see legal form | O
+| I should have brought sunscreen. | Jessica Rose (self)  | More than 100 years since publication | O
+| Have you read the Doraemon comics yet? | Jessica Rose (self) | More than 100 years since publication | O
+| Her don't like pizza. | Jane Doe (self) | My own submission, copyright waived | X
+| The cat was sitin on the windowsill. | Jane Doe (self) | My own submission, copyright waived | X
+| The 3 elephants were playing in the mud | Jane Doe (self) | My own submission, copyright waived | X
 
 You will need a Github account to submit bulk sentences to Common Voice. If you don’t currently have an account, you can [sign up for one here](https://github.com/signup).
 

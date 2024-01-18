@@ -563,8 +563,8 @@ about-clip-graveyard-text = O Cemiterio de fragmentos contén fragmentos de voz 
 about-get-involved = Participe
 about-get-involved-text-2 =
     Quere axudar a mellorar Common Voice?
-    Xenial! Póñase en contacto vía correo electrónico ou vía foros <discourseLink>Discourse</discourseLink>
-    remita incidencias da páxina vía <githubLink>GitHub</githubLink>, ou únase ao chat da comunidade <matrixLink>Matrix</matrixLink>.
+    Xenial! Póñase en contacto vía correo electrónico ou vía os foros <discourseLink>Discourse</discourseLink>,
+    remita incidencias da páxina vía <githubLink>GitHub</githubLink>, ou únase ao chat da comunidade en <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Como estar en contacto?
 about-stay-in-touch-button = Unirse
 about-stay-in-touch-text-1 = <emailFragment>Unirse</emailFragment> á nosa lista de correo para descubrir como participar en campañas, eventos e iniciativas de mellora de Common Voice.
@@ -760,7 +760,7 @@ whats-inside = Que inclúe o conxunto de datos de Common Voice?
 dataset-description-hours =
     Cada entrada do conxunto de datos consta dun único ficheiro MP3 e o correspondente ficheiro de texto. Moitas das <b>{ $total }</b> horas gravadas no conxunto de datos tamén inclúen metadatos demográficos como idade, xénero e acento que poden axudar a mellorar a precisión dos modelos de recoñecemento da fala.
     
-    O conxunto de datos inclúe actualmente <b>{ $valid }</b> horas validadas en <b>{ $languages }</b> idiomas, pero estamos a engadir constantemente máis voces e idiomas. Visite á nosa <languagesLink>pestana Idiomas</languagesLink> para solicitar un idioma ou comezar a colaborar.
+    O conxunto de datos inclúe actualmente <b>{ $valid }</b> horas validadas en <b>{ $languages }</b> idiomas, pero estamos a engadir constantemente máis voces e idiomas. Visite a nosa <languagesLink>pestana Idiomas</languagesLink> para solicitar un idioma ou comezar a colaborar.
 want-dataset-update = Quere recibir actualizacións de cando publicamos unha nova versión do conxunto de datos Common Voice? Subscríbase ao noso boletín.
 subscribe = Subscribir
 get-started-speech = Introdución ao recoñecemento da fala
@@ -1760,7 +1760,7 @@ new-sentence-rule-7 = Incluír a cita axeitada
 new-sentence-rule-8 = Idealmente natural e conversacional (debería ser fácil de ler a frase)
 how-to-cite = Como citar?
 how-to-cite-explanation-bold = Citar coa URL da ligazón ou co nome completo da obra.
-how-to-cite-explanation = Se son as súas propias palabras, simplemente diga <italicizedText>«Cita propia»</italicizedText>. Necesitamos saber onde atopou este contido para poder comprobar que é de dominio público e non se aplican restricións de copyright. Para obter máis información sobre as citas, consulte a nosa <guidelinesLink>páxina de directrices</guidelinesLink>.
+how-to-cite-explanation = Se son as súas propias palabras, simplemente poña <italicizedText>«Cita propia»</italicizedText>. Necesitamos saber onde atopou este contido para poder comprobar que é de dominio público e non se aplican restricións de copyright. Para obter máis información sobre as citas, consulte a nosa <guidelinesLink>páxina de directrices</guidelinesLink>.
 guidelines = Directrices
 contact-us = Contacta connosco
 add-sentence-success = 1 frase recollida
@@ -1793,6 +1793,8 @@ sc-redirect-page-subtitle-2 = Fáganos preguntas en <matrixLink>Matrix</matrixLi
 sc-bulk-upload-header = Envíe <icon></icon> frases de dominio público
 sc-bulk-upload-instruction = Arrastre o seu ficheiro aquí ou <uploadButton>prema para envialo</uploadButton>
 sc-bulk-upload-instruction-drop = Solte o ficheiro aquí para cargalo
+bulk-upload-additional-information = Se quere achegar máis información sobre este ficheiro, póñase en contacto con <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Se quere achegar información sobre este ficheiro que non está incluída no modelo, póñase en contacto con <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Inténteo de novo arrastrando o ficheiro aquí
 try-upload-again-md = Intente cargar de novo
 select-file = Seleccionar un ficheiro
