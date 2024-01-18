@@ -736,6 +736,7 @@ validated-hr-total = 总验证小时数
 overall-hr-total = 总综合小时数
 cv-license = 许可协议
 audio-format = 音频格式
+dataset-splits = 分割（年龄和性别）
 number-of-voices = 录音人数
 splits = 分割
 email-to-download = 输入电子邮件地址进行下载
