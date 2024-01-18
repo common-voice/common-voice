@@ -1,3 +1,5 @@
+@import url('../../../../media.css');
+
 .metadata-viewer-container-md {
     width: 100%;
 
@@ -24,6 +26,12 @@
         justify-content: space-between;
         align-items: center;
         border-bottom: 1px solid var(--grey);
+
+        p.release-name {
+            @media (--xs-down) {
+                width: 140px;
+            }
+        }
 
         &.selected {
             background-color: #e2ecf7;
@@ -68,6 +76,7 @@
             span {
                 color: var(--black);
                 font-size: 16px;
+                margin-inline-start: 4px;
             }
         }
 

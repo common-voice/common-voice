@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLocalization } from '@fluent/react'
+import { Localized, useLocalization } from '@fluent/react'
 import classNames from 'classnames'
 
 import { CheckMark, ChevronDown } from '../../../../ui/icons'
@@ -61,11 +61,11 @@ export const MetaDataViewerItem = ({
       <div className={`expanded-box ${!isItemSelected ? 'collapsed' : ''}`}>
         <div>
           <p className="metadata">
-            {l10n.getString('size')}{' '}
+            {l10n.getString('size')}
             <span>{formatBytes(releaseData.size, locale)}</span>
           </p>
           <p className="metadata">
-            {l10n.getString('validated-hours')}{' '}
+            {l10n.getString('validated-hours')}
             <span>
               {Intl.NumberFormat(locale).format(
                 msToHours(releaseData.valid_clips_duration)
@@ -73,7 +73,7 @@ export const MetaDataViewerItem = ({
             </span>
           </p>
           <p className="metadata">
-            {l10n.getString('number-of-voices')}{' '}
+            {l10n.getString('number-of-voices')}
             <span>
               {releaseData.total_users.toLocaleString(locale, {
                 style: 'decimal',
@@ -82,7 +82,9 @@ export const MetaDataViewerItem = ({
           </p>
           {releaseData?.splits?.age && (
             <div className="age">
-              <p className="metadata">Age</p>
+              <Localized id="dataset-metadata-age">
+                <p className="metadata" />
+              </Localized>
 
               <div className="age-splits">
                 {(Object.keys(AGE_MAPPING) as Array<keyof typeof age>).map(
@@ -101,7 +103,7 @@ export const MetaDataViewerItem = ({
         </div>
         <div>
           <p className="metadata">
-            {l10n.getString('recorded-hours')}{' '}
+            {l10n.getString('recorded-hours')}
             <span>
               {Intl.NumberFormat(locale).format(
                 msToHours(releaseData.total_clips_duration)
@@ -117,7 +119,9 @@ export const MetaDataViewerItem = ({
 
           {releaseData?.splits?.gender && (
             <div className="sex">
-              <p className="metadata">Sex</p>
+              <Localized id="dataset-metadata-sex">
+                <p className="metadata" />
+              </Localized>
 
               <div className="gender-splits">
                 {(

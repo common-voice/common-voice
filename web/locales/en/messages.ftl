@@ -813,6 +813,10 @@ sha256-checksum-copied = SHA256 Checksum Copied!
 sha256-checksum-copied-error = Failed to copy SHA256 Checksum
 clipboard-not-supported = Clipboard not supported
 no-information-available = No information available
+# dataset metadata
+dataset-metadata-sex = Sex
+# dataset metadata
+dataset-metadata-age = Age
 
 ## Download Modal
 download-title = Your download has started.
