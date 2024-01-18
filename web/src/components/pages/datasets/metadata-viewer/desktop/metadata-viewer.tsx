@@ -85,7 +85,8 @@ export const DesktopMetaDataViewer = ({
           <div className="gender-splits">
             {(Object.keys(gender) as Array<keyof typeof gender>).map(
               el =>
-                el && (
+                el.length > 0 &&
+                gender[el] > 0 && (
                   <p key={el} className="gender">
                     <span>{formatNumberToPercentage(gender[el])}</span>
                     {el}
