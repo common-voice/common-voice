@@ -7,7 +7,6 @@ import classNames from 'classnames';
 import * as React from 'react';
 import { formatBytes, msToHours } from '../../../utility';
 import { useLocale } from '../../locale-helpers';
-
 import './dataset-corpus-download-table.css';
 
 interface Props {
@@ -80,7 +79,7 @@ const DatasetCorpusDownloadTable = ({
   const [locale] = useLocale();
 
   return (
-    <table className="table dataset-table hidden-md-down">
+    <table className="table dataset-table">
       <thead>
         <tr>
           {Object.values(COLUMNS).map(column => {
