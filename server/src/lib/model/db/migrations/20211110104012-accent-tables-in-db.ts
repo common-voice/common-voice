@@ -88,7 +88,7 @@ const ACCENTS: any = {
   },
   eu: {
     mendebalekoa:
-      'Mendebalekoa (Araba, Bizkaia, Gipuzkoako mendebaleko herri batzuk)',
+      'Mendebalekoa (Araka, Bizkaia, Gipuzkoako mendebaleko herri batzuk)',
     erdialdekoa_nafarra: 'Erdialdekoa edo Nafarra (Gipuzkoa, Nafarroa)',
     nafarlapurtarra_zuberoatarra:
       'Nafar-lapurtarra edo Zuberotarra (Lapurdi, Nafarroa Beherea, Zuberoa)',
