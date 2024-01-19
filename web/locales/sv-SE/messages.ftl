@@ -748,6 +748,7 @@ validated-hr-total = Totalt validerade timmar
 overall-hr-total = Totalt antal timmar
 cv-license = Licens
 audio-format = Ljudformat
+dataset-splits = Uppdelning (ålder och kön)
 number-of-voices = Antal röster
 splits = Uppdelning
 email-to-download = Ange e-postadress för nedladdning
