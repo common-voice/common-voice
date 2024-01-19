@@ -2,30 +2,42 @@ import {
   Localized,
   withLocalization,
   WithLocalizationProps,
-} from '@fluent/react';
-import * as React from 'react';
-import { useState, useEffect } from 'react';
-import { localeConnector } from '../../locale-helpers';
-import useSortedLocales from '../../../hooks/use-sorted-locales';
-import { LabeledSelect, Spinner } from '../../ui/ui';
+} from '@fluent/react'
+import * as React from 'react'
+import { useState, useEffect } from 'react'
+import { localeConnector } from '../../locale-helpers'
+import useSortedLocales from '../../../hooks/use-sorted-locales'
+import { LabeledSelect, Spinner } from '../../ui/ui'
 
-import DatasetDownloadEmailPrompt from './dataset-download-email-prompt';
+import DatasetDownloadEmailPrompt from './dataset-download-email-prompt'
+import { useAPI } from '../../../hooks/store-hooks'
+import DatasetCorpusDownloadTable from './dataset-corpus-download-table'
+import PageHeading from '../../ui/page-heading'
+import { formatBytes } from '../../../utility'
+import { DeltaReadMoreLink } from '../../shared/links'
+import { MobileDatasetMetadataViewer } from './metadata-viewer/mobile/metadata-viewer'
 
-import { useAPI } from '../../../hooks/store-hooks';
-import DatasetCorpusDownloadTable from './dataset-corpus-download-table';
-import PageHeading from '../../ui/page-heading';
-import { formatBytes } from '../../../utility';
-import { DeltaReadMoreLink } from '../../shared/links';
-import { MobileDatasetMetadataViewer } from './metadata-viewer/mobile/metadata-viewer';
+import { LanguageDataset } from './metadata-viewer/types'
 
-import { LanguageDataset } from './metadata-viewer/types';
+import {
+  DatasetMetadata,
+  DesktopMetaDataViewer,
+} from './metadata-viewer/desktop/metadata-viewer'
 
-import './dataset-corpus-download.css';
+import './dataset-corpus-download.css'
 
 interface Props extends WithLocalizationProps {
-  languagesWithDatasets: { id: number; name: string }[];
-  initialLanguage: string;
-  isSubscribedToMailingList: boolean;
+  languagesWithDatasets: { id: number; name: string }[]
+  initialLanguage: string
+  isSubscribedToMailingList: boolean
+}
+
+type LanguageDatasets = {
+  download_path: string
+  id: number
+  checksum: string
+  size: number
+  splits: DatasetMetadata
 }
 
 const DatasetCorpusDownload = ({
@@ -34,38 +46,42 @@ const DatasetCorpusDownload = ({
   initialLanguage,
   isSubscribedToMailingList,
 }: Props) => {
-  const [isLoading, setIsLoading] = useState(true);
-  const [selectedDataset, setSelectedDataset] = useState<LanguageDataset>();
+  const [isLoading, setIsLoading] = useState(true)
+  const [selectedDataset, setSelectedDataset] = useState<LanguageDataset>()
   const [languageDatasets, setLanguageDatasets] = useState<LanguageDataset[]>(
     []
-  );
-  const api = useAPI();
+  )
 
-  const [locale, setLocale] = useState(initialLanguage);
+  const [selectedTableRowIndex, setSelectedTableRowIndex] = useState(0)
+  const api = useAPI()
+
+  const [locale, setLocale] = useState(initialLanguage)
   const sortedLanguages = useSortedLocales(
     languagesWithDatasets.map(s => s.name),
     getString
-  )[0];
+  )[0]
 
   const handleLanguageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const newLocale = event.target.value;
-    setLocale(newLocale);
-  };
+    const newLocale = event.target.value
+    setLocale(newLocale)
+  }
 
-  const handleRowSelect = (selectedId: number) =>
-    setSelectedDataset(languageDatasets.find(d => d.id === selectedId));
+  const handleRowSelect = (selectedId: number, index: number) => {
+    setSelectedDataset(languageDatasets.find(d => d.id === selectedId))
+    setSelectedTableRowIndex(index)
+  }
 
   useEffect(() => {
-    setIsLoading(true);
+    setIsLoading(true)
 
     api.getLanguageDatasetStats(locale).then(data => {
       setLanguageDatasets(
         data.filter((dataset: LanguageDataset) => !!dataset.download_path)
-      );
-      setSelectedDataset(data[0]);
-      setIsLoading(false);
-    });
-  }, [locale]);
+      )
+      setSelectedDataset(data[0])
+      setIsLoading(false)
+    })
+  }, [locale])
 
   return (
     <div className="dataset-corpus-download">
@@ -124,10 +140,18 @@ const DatasetCorpusDownload = ({
               />
             )}
           </div>
+
+          {!isLoading && selectedDataset && selectedDataset.splits && (
+            <DesktopMetaDataViewer
+              selectedTableRowIndex={selectedTableRowIndex}
+              datasetsCount={languageDatasets.length}
+              metadata={selectedDataset.splits}
+            />
+          )}
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default localeConnector(withLocalization(DatasetCorpusDownload));
+export default localeConnector(withLocalization(DatasetCorpusDownload))

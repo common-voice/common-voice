@@ -4,26 +4,19 @@ import classNames from 'classnames'
 
 import { CheckMark, ChevronDown } from '../../../../ui/icons'
 import { LanguageDataset } from '../types'
-import { formatBytes, msToHours } from '../../../../../utility'
+import {
+  formatBytes,
+  formatNumberToPercentage,
+  msToHours,
+  sortObjectByValue,
+} from '../../../../../utility'
+import { AGE_MAPPING } from '../constants'
 
 type Props = {
   releaseData: LanguageDataset
   locale: string
   onSelect: (selecteId: number) => void
   selectedId: number
-}
-
-const AGE_MAPPING = {
-  '': 'No information available',
-  teens: '< 20',
-  twenties: '20 - 29',
-  thirties: '30 - 39',
-  fourties: '40 - 49',
-  fifties: '50 - 59',
-  sixties: '60 - 69',
-  seventies: '70 - 79',
-  eighties: '80 - 89',
-  nineties: '90 - 99',
 }
 
 export const MetaDataViewerItem = ({
@@ -36,7 +29,7 @@ export const MetaDataViewerItem = ({
 
   const isItemSelected = releaseData.id === selectedId
 
-  const { splits: { age, gender } = {} } = releaseData
+  const sortedAge = sortObjectByValue(releaseData?.splits?.age || {})
 
   return (
     <div className="metadata-viewer-item">
@@ -87,12 +80,20 @@ export const MetaDataViewerItem = ({
               </Localized>
 
               <div className="age-splits">
-                {(Object.keys(AGE_MAPPING) as Array<keyof typeof age>).map(
+                {(
+                  Object.keys(sortedAge) as Array<
+                    keyof typeof releaseData.splits.age
+                  >
+                ).map(
                   el =>
                     el.length > 0 &&
-                    age[el] > 0 && (
+                    releaseData?.splits?.age[el] > 0 && (
                       <p key={el}>
-                        <span>{`${Math.round(age[el] * 100)}%`}</span>
+                        <span>
+                          {formatNumberToPercentage(
+                            releaseData?.splits?.age[el]
+                          )}
+                        </span>
                         {AGE_MAPPING[el]}
                       </p>
                     )
@@ -126,14 +127,18 @@ export const MetaDataViewerItem = ({
               <div className="gender-splits">
                 {(
                   Object.keys(releaseData.splits.gender) as Array<
-                    keyof typeof gender
+                    keyof typeof releaseData.splits.gender
                   >
                 ).map(
                   el =>
                     el.length > 0 &&
-                    gender[el] > 0 && (
+                    releaseData?.splits?.gender[el] > 0 && (
                       <p key={el} className="gender">
-                        <span>{`${Math.round(gender[el] * 100)}%`}</span>
+                        <span>
+                          {formatNumberToPercentage(
+                            releaseData?.splits?.gender[el]
+                          )}
+                        </span>
                         {el}
                       </p>
                     )
