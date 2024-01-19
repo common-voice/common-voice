@@ -6,11 +6,11 @@ import { CheckMark, ChevronDown } from '../../../../ui/icons'
 import { LanguageDataset } from '../types'
 import {
   formatBytes,
-  formatNumberToPercentage,
   msToHours,
   sortObjectByValue,
 } from '../../../../../utility'
-import { AGE_MAPPING } from '../constants'
+import { AgeSplits } from '../age-splits'
+import { GenderSplits } from '../gender-splits'
 
 type Props = {
   releaseData: LanguageDataset
@@ -29,7 +29,9 @@ export const MetaDataViewerItem = ({
 
   const isItemSelected = releaseData.id === selectedId
 
-  const sortedAge = sortObjectByValue(releaseData?.splits?.age || {})
+  const sortedAgeSplits = sortObjectByValue(
+    releaseData?.splits?.age || {}
+  ) as LanguageDataset['splits']['age']
 
   return (
     <div className="metadata-viewer-item">
@@ -79,26 +81,7 @@ export const MetaDataViewerItem = ({
                 <p className="metadata" />
               </Localized>
 
-              <div className="age-splits">
-                {(
-                  Object.keys(sortedAge) as Array<
-                    keyof typeof releaseData.splits.age
-                  >
-                ).map(
-                  el =>
-                    el.length > 0 &&
-                    releaseData?.splits?.age[el] > 0 && (
-                      <p key={el}>
-                        <span>
-                          {formatNumberToPercentage(
-                            releaseData?.splits?.age[el]
-                          )}
-                        </span>
-                        {AGE_MAPPING[el]}
-                      </p>
-                    )
-                )}
-              </div>
+              <AgeSplits ageSplits={sortedAgeSplits} />
             </div>
           )}
         </div>
@@ -124,26 +107,7 @@ export const MetaDataViewerItem = ({
                 <p className="metadata" />
               </Localized>
 
-              <div className="gender-splits">
-                {(
-                  Object.keys(releaseData.splits.gender) as Array<
-                    keyof typeof releaseData.splits.gender
-                  >
-                ).map(
-                  el =>
-                    el.length > 0 &&
-                    releaseData?.splits?.gender[el] > 0 && (
-                      <p key={el} className="gender">
-                        <span>
-                          {formatNumberToPercentage(
-                            releaseData?.splits?.gender[el]
-                          )}
-                        </span>
-                        {el}
-                      </p>
-                    )
-                )}
-              </div>
+              <GenderSplits genderSplits={releaseData.splits.gender} />
             </div>
           )}
         </div>

@@ -2,47 +2,29 @@ import React from 'react'
 import { Localized } from '@fluent/react'
 
 import { getVerticalOffset } from './get-vertical-offset'
-import {
-  formatNumberToPercentage,
-  sortObjectByValue,
-} from '../../../../../utility'
+import { sortObjectByValue } from '../../../../../utility'
+import { LanguageDataset } from '../types'
 
 import './metadata-viewer.css'
-import { AGE_MAPPING } from '../constants'
-
-export type DatasetMetadata = {
-  gender: {
-    male: number
-    female: number
-  }
-  age: {
-    '': number
-    teens: number
-    twenties: number
-    thirties: number
-    fourties: number
-    fifties: number
-    sixties: number
-    seventies: number
-    eighties: number
-    nineties: number
-  }
-}
+import { AgeSplits } from '../age-splits'
+import { GenderSplits } from '../gender-splits'
 
 type Props = {
   selectedTableRowIndex: number
   datasetsCount: number
-  metadata: DatasetMetadata
+  splits: LanguageDataset['splits']
 }
 
 export const DesktopMetaDataViewer = ({
   selectedTableRowIndex,
   datasetsCount,
-  metadata,
+  splits,
 }: Props) => {
-  const { age, gender } = metadata
+  const { age, gender } = splits
 
-  const sortedAge = sortObjectByValue(age)
+  const sortedAgeSplits = sortObjectByValue(
+    age
+  ) as LanguageDataset['splits']['age']
 
   return (
     <div className="metadata-viewer-container hidden-lg-down">
@@ -57,31 +39,8 @@ export const DesktopMetaDataViewer = ({
           <p className="header" />
         </Localized>
         <div className="info">
-          <div className="age-splits">
-            {(Object.keys(sortedAge) as Array<keyof typeof age>).map(
-              el =>
-                el.length > 0 &&
-                age[el] > 0 && (
-                  <p key={el}>
-                    <span>{formatNumberToPercentage(age[el])}</span>
-                    {AGE_MAPPING[el]}
-                  </p>
-                )
-            )}
-          </div>
-
-          <div className="gender-splits">
-            {(Object.keys(gender) as Array<keyof typeof gender>).map(
-              el =>
-                el.length > 0 &&
-                gender[el] > 0 && (
-                  <p key={el} className="gender">
-                    <span>{formatNumberToPercentage(gender[el])}</span>
-                    {el}
-                  </p>
-                )
-            )}
-          </div>
+          <AgeSplits ageSplits={sortedAgeSplits} />
+          <GenderSplits genderSplits={gender} />
         </div>
       </div>
     </div>

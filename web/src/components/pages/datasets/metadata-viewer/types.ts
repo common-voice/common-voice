@@ -20,7 +20,7 @@ export type Splits = {
   age: Age
 }
 
-type Age = {
+export type Age = {
   '': number
   twenties: number
   thirties: number
@@ -33,7 +33,7 @@ type Age = {
   nineties: number
 }
 
-type Gender = {
+export type Gender = {
   '': number
   male: number
   female: number

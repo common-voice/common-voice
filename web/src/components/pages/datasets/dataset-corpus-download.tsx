@@ -19,10 +19,7 @@ import { MobileDatasetMetadataViewer } from './metadata-viewer/mobile/metadata-v
 
 import { LanguageDataset } from './metadata-viewer/types'
 
-import {
-  DatasetMetadata,
-  DesktopMetaDataViewer,
-} from './metadata-viewer/desktop/metadata-viewer'
+import { DesktopMetaDataViewer } from './metadata-viewer/desktop/metadata-viewer'
 
 import './dataset-corpus-download.css'
 
@@ -37,7 +34,7 @@ type LanguageDatasets = {
   id: number
   checksum: string
   size: number
-  splits: DatasetMetadata
+  splits: LanguageDataset['splits']
 }
 
 const DatasetCorpusDownload = ({
@@ -145,7 +142,7 @@ const DatasetCorpusDownload = ({
             <DesktopMetaDataViewer
               selectedTableRowIndex={selectedTableRowIndex}
               datasetsCount={languageDatasets.length}
-              metadata={selectedDataset.splits}
+              splits={selectedDataset.splits}
             />
           )}
         </div>

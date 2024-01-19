@@ -1,4 +1,6 @@
-export const AGE_MAPPING = {
+import { Age } from './types'
+
+export const AGE_MAPPING: Record<keyof Age, string> = {
   '': 'No information available',
   teens: '< 20',
   twenties: '20 - 29',
