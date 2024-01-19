@@ -10,17 +10,23 @@ import useSortedLocales from '../../../hooks/use-sorted-locales';
 import { LabeledSelect, Spinner } from '../../ui/ui';
 
 import DatasetDownloadEmailPrompt from './dataset-download-email-prompt';
-
-import './dataset-corpus-download.css';
 import { useAPI } from '../../../hooks/store-hooks';
 import DatasetCorpusDownloadTable from './dataset-corpus-download-table';
 import PageHeading from '../../ui/page-heading';
 import { formatBytes } from '../../../utility';
 import { DeltaReadMoreLink } from '../../shared/links';
 
+import {
+  DatasetMetadata,
+  DesktopMetaDataViewer,
+} from './metadata-viewer/desktop/metadata-viewer';
+
+import './dataset-corpus-download.css';
+
 interface Props extends WithLocalizationProps {
   languagesWithDatasets: { id: number; name: string }[];
   initialLanguage: string;
+  isSubscribedToMailingList: boolean;
 }
 
 type LanguageDatasets = {
@@ -28,18 +34,22 @@ type LanguageDatasets = {
   id: number;
   checksum: string;
   size: number;
+  splits: DatasetMetadata;
 };
 
 const DatasetCorpusDownload = ({
   getString,
   languagesWithDatasets,
   initialLanguage,
+  isSubscribedToMailingList,
 }: Props) => {
   const [isLoading, setIsLoading] = useState(true);
   const [selectedDataset, setSelectedDataset] = useState<LanguageDatasets>();
   const [languageDatasets, setLanguageDatasets] = useState<LanguageDatasets[]>(
     []
   );
+
+  const [selectedTableRowIndex, setSelectedTableRowIndex] = useState(0);
   const api = useAPI();
 
   const [locale, setLocale] = useState(initialLanguage);
@@ -53,8 +63,10 @@ const DatasetCorpusDownload = ({
     setLocale(newLocale);
   };
 
-  const handleRowSelect = (selectedId: number) =>
+  const handleRowSelect = (selectedId: number, index: number) => {
     setSelectedDataset(languageDatasets.find(d => d.id === selectedId));
+    setSelectedTableRowIndex(index);
+  };
 
   useEffect(() => {
     setIsLoading(true);
@@ -99,29 +111,34 @@ const DatasetCorpusDownload = ({
             ))}
           </LabeledSelect>
         </div>
-        <div
-          style={{
-            display: 'flex',
-            width: '100%',
-            alignItems: 'start',
-            flexDirection: 'column',
-          }}>
-          {isLoading && <Spinner />}
-          {!isLoading && languageDatasets && (
-            <DatasetCorpusDownloadTable
-              onRowSelect={handleRowSelect}
-              releaseData={languageDatasets}
-              selectedId={selectedDataset?.id || languageDatasets[0].id}
-            />
-          )}
+        <div className="table-metadata-container">
+          <div className="table-email-prompt-container">
+            {isLoading && <Spinner />}
+            {!isLoading && languageDatasets && (
+              <DatasetCorpusDownloadTable
+                onRowSelect={handleRowSelect}
+                releaseData={languageDatasets}
+                selectedId={selectedDataset?.id || languageDatasets[0].id}
+              />
+            )}
 
-          {selectedDataset && selectedDataset.download_path && (
-            <DatasetDownloadEmailPrompt
-              selectedLocale={locale}
-              downloadPath={selectedDataset.download_path}
-              releaseId={selectedDataset.id.toString()}
-              checksum={selectedDataset.checksum}
-              size={formatBytes(selectedDataset.size, initialLanguage)}
+            {selectedDataset && selectedDataset.download_path && (
+              <DatasetDownloadEmailPrompt
+                selectedLocale={locale}
+                downloadPath={selectedDataset.download_path}
+                releaseId={selectedDataset.id.toString()}
+                checksum={selectedDataset.checksum}
+                size={formatBytes(selectedDataset.size, initialLanguage)}
+                isSubscribedToMailingList={isSubscribedToMailingList}
+              />
+            )}
+          </div>
+
+          {!isLoading && selectedDataset && selectedDataset.splits && (
+            <DesktopMetaDataViewer
+              selectedTableRowIndex={selectedTableRowIndex}
+              datasetsCount={languageDatasets.length}
+              metadata={selectedDataset.splits}
             />
           )}
         </div>
