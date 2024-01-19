@@ -26,6 +26,7 @@ import './dataset-corpus-download.css';
 interface Props extends WithLocalizationProps {
   languagesWithDatasets: { id: number; name: string }[];
   initialLanguage: string;
+  isSubscribedToMailingList: boolean;
 }
 
 type LanguageDatasets = {
@@ -40,6 +41,7 @@ const DatasetCorpusDownload = ({
   getString,
   languagesWithDatasets,
   initialLanguage,
+  isSubscribedToMailingList,
 }: Props) => {
   const [isLoading, setIsLoading] = useState(true);
   const [selectedDataset, setSelectedDataset] = useState<LanguageDatasets>();
