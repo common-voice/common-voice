@@ -718,6 +718,7 @@ number-of-voices = Ličba hłosow
 splits = Poddźělenja
 email-to-download = E-mejlowu adresu za sćehnjenje zapodać
 why-email = <b>Čehodla e-mejlowa adresa?</b> Dyrbimy so snano z wami w přichodźe wo změnach na datowej sadźbje do zwiska stajić, e-mejlowa adresa nam kontaktowu móžnosć dawa.
+why-donate = Čehodla so prašeće?
 confirm-size = Sće za start sćehnjenja wulkosće <b>{ $size }</b> přihotowany
 size-gigabyte = GB
 size-megabyte = MB
@@ -1561,6 +1562,7 @@ reader-effects = Efekty čitarja
 just-unsure = Jenož njewěsty?
 example = Přikład
 varying-pronunciations-example = Ruta běše njejasna.
+misreadings-explanation-2 = Jara časte zmylki su:
 misreadings-explanation-5 = Kontrakcije při čitanju, na přikład „žno“ město „hižo“ abo nawopak.
 misreadings-explanation-6 = Falowacy kónc poslednjeho słowa, dokelž natočenje je so přespěšnišo wotrězało.
 misreadings-explanation-7 = Wjacore pospyty słowo čitać.
@@ -1620,16 +1622,16 @@ add-sentence-error = Zmylk při přidawanju sady
 required-field = Prošu wupjelńće tute polo.
 single-sentence = Jedna sada
 bulk-sentences = Wjele sadow
-# REVIEW PAGE
-sc-review-instruction-first-part = Přepruwować
-sc-review-instruction-second-part = Je to rěčnje korektna sada?
+
+## REVIEW PAGE
+
 sc-review-rules-title = Wotpowěduje sada směrnicam?
 report-sc-different-language = Druha rěč
 report-sc-different-language-detail = Je w druhej rěči napisana hač přepruwuju.
 sc-redirect-page-subtitle-2 = Stajće nam prašenja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mejlu</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Nahrać
-or-conjuction = abo
+
+## BULK SUBMISSION 
+
 select-file = Dataju wubrać
 select-file-mobile = Wubjerće dataju za nahraće
 accepted-files = Akceptowane datajowe typy: jenož .tsv
