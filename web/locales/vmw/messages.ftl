@@ -385,12 +385,15 @@ about-nav-playbook = Musuwele moota woowirela mpantta
 ## How do I add a language
 
 about-playbook-how-add-language = Manamuna xeeni nikhale anincereriwa aya nnttaava?
+about-playbook-how-add-language-translating-heading = Mutaphulelo waesayiti.
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> woone muttharelelo ahu a mananna a orumeela ePontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Muwehe ekhiya ahu mwamuthanlo a malove</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Muwehe tho sooweha sa malove</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Manamuna xeeni otaphulela awe opuro?
+about-playbook-how-localize-content-1 = Mutaphulelo wa esayiti ya Common Voice onipakiwa o <strong>Pontoon</strong>.
 about-playbook-how-localize-content-4 = Esayiti enikhala yoolikaneene yaphiyererya nnakhala 75% wi emalele.
 
 ## How to add sentences
@@ -543,6 +546,7 @@ language-section-last-updated = Woowoniheriwa esya: { $lastUpdatedTimeStamp }
 languages-show-more = Moone vancipale
 languages-show-less = Moone vakhaani
 language-meter-in-progress = Wetthesaka
+language-total-progress = Soothene
 language-search-input =
     .placeholder = Otholathola
 language-speakers = Olavula owareliwa
@@ -629,12 +633,15 @@ recordings =
 
 ## Dashboard
 
+toward-next-goal = Ninrowa mukhiseryo oowaattamela.
 goal-reached = Emeta oophwanyaneya
 todays-recorded-progress = Mweettelo wa olelo wa Common Voice mwa ikilipi sookaravariwa
 todays-validated-progress = Mweettelo wa olelo wa Common Voice mwa ikilipi soowaavaliyariwa.
 awards = Etthuvo
 everyone = Otheene
+top-contributors = Makhaliheri mulupale
 recorded-clips = Ikilipi okaravariwa
+total-approved = Weemererana sothene
 overall-accuracy = Aroromeleya wotene
 set-visibility = Muleelihe Wooneya waka
 visibility-overlay-note = Noota: Mwasueliha ntoko 'Wooneya', orukunixa iwo wookhala wolempwa <profileLink>elatarato ya paaxina</profileLink>
@@ -679,6 +686,7 @@ share-goal-type-listen = Owaruni
 share-goal-type-both = Olavula ni wiiwa
 # LINK will be replaced with the current URL
 goal-share-text = kimanle waakuva opaka emeeta emosa yaawaka yoovahererya nsu kiroyihaka #oCommonVoice--nikhale hoothe ni mkikhaliherye wiixuttiha ikaruma moota xeeni atthu anlavulaya neexariya{ $link }
+track-progress = Mwiiweleleke va mweettelo ni epaaxina anyu ya mwaalakelo.
 return-to-edit-goal = Muhokolowe va wira muleeliherye Vanrowaya omalela mwapheela
 share-goal = Mukawe vammalelaka
 
@@ -789,6 +797,7 @@ sc-header-my = Soolempwa yawaka
 sc-header-statistics = Exitatistika
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Muhime ophwanyeya ebugs
+sc-footer-translate = Otaphulele epaaxina ela.
 sc-footer-report-copyright = Muhimye milattu sa ehakhi sa mwaneene
 sc-footer-terms = Ikettelo sahuos
 sc-footer-cookies = maKookie
@@ -908,6 +917,22 @@ sc-confirm-button-text = Okhomaaliha
 ## LANGUAGE INFO
 
 sc-lang-info-title-personal = Atthu
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] khavo nuulumo noomalela.
+        [one] nuulumo emosa noomalela.
+       *[other] { $totalSentences } nuulumo noomalela.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Khavo moolumo aniwehawehiwa.
+        [one] moolumo emosa aniwehawehiwa.
+       *[other] { $totalInReview } moolumo aniwehawehiwa.
+    }
 # Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
@@ -1071,6 +1096,8 @@ report-sc-different-language-detail = Eri yoolempwa munttaavani noovirikana nihi
 
 sc-bulk-upload-instruction = Mwiire ompurula kaaphiyaka anyu muruuhe moono oola nno nnakhala <uploadButton>muttapunye wiira evonyeriwe</uploadButton>
 sc-bulk-upload-instruction-drop = Mwiire ompurula arikiivu anyu mmuruhaka nno wiira evonyeriwe
+try-upload-again = Ottehe tho vakina oruuha murupaawe nno.
+try-upload-again-md = Ottehe tho oveleeliherya vakina.
 select-file = Muthanle murupa
 select-file-mobile = Muthanle murupa mmosa wowira muhoolihe
 maximum-file-size = Wuukumala wootepaxa sa mirupa: 25 MB
@@ -1079,3 +1106,4 @@ bulk-submission-success-header = Kooxukhuru mwaha wookhaliherya oveleeliha mukhu
 file-invalid-type = Murupa orakala
 file-too-large = Murupa ophova wuunuwa
 file-too-small = Murupa ophova  okhala mwamukhaani
+too-many-files = Murupa sikina
