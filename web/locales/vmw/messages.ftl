@@ -3,6 +3,7 @@
 return-to-cv = Muhokolowele o Common Voice
 email-input =
     .label = Emeeyili
+submit-form-action = Orumihela
 loading = Ettukhulakani...
 email-opt-in-info = Kiphavela wakhelela emeeyiili, iye ntooko  soorepela sa miphiimo, solaleeryiwa vasya muhina mwa manamuno awuunuwelo ni nlaaka na milaleeryo s amihuupi variyari va  Common Voice.
 email-opt-in-info-title = Mwirele mpantta mulixitani wa onyakulihana wa Common Voice
@@ -235,6 +236,7 @@ shortcut-record-toggle-label = Mukaravareke/weemela
 shortcut-rerecord-toggle-label = Mukaravike ekilipe
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Muhiye otakiherya ele eniira wettaka
+shortcut-submit-label = Orumihela ikilipes
 request-language-text = Nttaava nanyu nleelo nnakhala khaniiri muhina mwa Common Voice?
 request-language-button = Mukohe nttava
 
@@ -556,6 +558,7 @@ target-segment-learn-more = Musuwela tho
 ## Reporting
 
 report = Olepa
+report-title = Nvahererye moolumo.
 report-offensive-language = Elavulelo oruwana
 report-grammar-or-spelling = Yookosyiwa muhina mwa makhalelo nnakhala malelpeliwo
 report-different-language = Nttava ekina
@@ -570,6 +573,7 @@ report-success = Soohimiya soohoolihiya ni murettele
 
 ## Goals
 
+streaks = Mametaxi
 days =
     { $count ->
         [one] nihiku
@@ -712,6 +716,7 @@ contribution-varying-pronunciations-example-2-explanation = [‘Yawawo’  ni ek
 contribution-background-noise-description-extended = Ankhi yookaravariwa ovonyeya wala wooniherya onyakula, mukootte, waahikhale wiira yoolempwa nlelo ekhanle yoowiwiwa oratteene.
 contribution-background-noise-example-1-fixed-title = <strong>[okumiha iphumu]</strong> Matinosawuru oorekamasa ya <strong>[okothomola]</strong> Tiriyaasiku.
 contribution-background-noise-example-2-explanation = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
+contribution-background-noise-example-3-fixed-title = <strong>[Estalo]</strong> tinosawuru oorakama <strong>[estalo]</strong> -mutakhwani.
 contribution-background-voices-description-extended = Ankhi yookaravariwa ovonyeya wala wooniherya onyakula, mukootte, waahikhale wiira yoolempwa nlelo ekhanle yoowiwiwa oratteene.
 contribution-reader-effects-title = Soowoneya sa musomi
 contribution-just-unsure-title = Khamurina exariya?
@@ -767,6 +772,9 @@ sc-howto-findpd-subtitle-2 = Mpake opatthani ni miloko wala ekamosa-kamosa ammut
 sc-my-loading = Ettukhulaka maalumo aanyu...
 sc-my-no-sentences = Kekhanle farase ekhottiwe ephwanyiwe!
 # Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Nvahereryo: { $batchId }
+# Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
 sc-my-source = Ophattuwa:  { $source }
 sc-my-delete = Mukumihe moolumo othaleeliwa
@@ -803,6 +811,14 @@ sc-submit-guidelines = Owehe saana  <howToLink>malamulo </howToLink>.
 ## ADD LANGUAGE
 
 # Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] { "" }
+        [one] { "" }
+       *[other] Malove oovahereriya. { $duplicates } malove oovonyoliwa yanenli.
+    }
+# Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
     { $sentences ->
@@ -810,6 +826,7 @@ sc-add-err-failed =
         [one] Moolumo emosa oohikela
        *[other] { $sentences } Moolumo oohikela
     }
+sc-add-err-submission = Nvahereryo woovonyeya
 sc-add-lang-process-notice = Ankhi nttaava nanyu nahaalepinwe va, nyuwo mookhala oovekela mutharihelaka <languageProcessLink>epuruseesu ela</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
