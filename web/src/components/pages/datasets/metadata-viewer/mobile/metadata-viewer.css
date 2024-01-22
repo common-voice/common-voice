@@ -62,6 +62,10 @@
         display: flex;
         justify-content: space-between;
 
+        @media (--xs-down) {
+            margin-inline-end: 20px;
+        }
+
         &.collapsed {
             display: none;
         }
