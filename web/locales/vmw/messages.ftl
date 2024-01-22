@@ -259,6 +259,8 @@ join-newsletter = Mwatthuna vale, mwiilepihe liixita ahu ya i-mayili wii mwakhel
 
 ## What's public
 
+whats-public = Ti exeene ya atthu ootheene?
+email-not-public = Khanimpweha vamukaneya mihupi nanyu sa emeyili.
 recordings-and-locale-public = Numuru na ikaravasawu ni wamattaava ale onikelaawe okhaliherya anookela wooniheriwa vaatthuni.
 
 ## Speak & Listen Shortcuts
@@ -299,6 +301,8 @@ profile-form-native-language =
     .label = Nttava anyu
 profile-form-additional-language =
     .label = Mattaava ekina
+profile-form-variant =
+    .label = Muvirikano xeene { $language } ori a malavulelo anyu?
 profile-form-variant-default-value = Kekhanle variyante ethanliwe
 profile-form-accent =
     .label = Malavulelo
@@ -319,6 +323,7 @@ male = Mulopwana
 female = Muthiyana
 # Gender
 other = Mukina
+why-profile-title = Mwaha wa xeene eperifiili?
 dashboard = ePaineli
 build-profile = Ohuwa eperefile
 avatar = Avatare
@@ -362,14 +367,21 @@ add-language = Yoohela ntaava nanyu
 ## FAQ
 
 faq-title = Sohoka wa mutthu
+faq-what-cv-q = Ti exeeni Common Voice?
 faq-how-get-q = Moonta xeeni kikhale aka opwaanya mihiupisa Common Voice?
+faq-when-release2-q = Sinikela ovonyiwa yaakhani itaatu sa Common Voice ni mattaava makina?
+faq-what-cv-and-deepspeech-q = Muvirikano xeene okhanle okhuma Common Voice ni Deep Speech?
 faq-is-goal-assistant-q = Mphiyereryo wa Common Voice oteka mukhaliheryo onoonela nsu?
 faq-do-want-native-q = Miyo  nnkihiyo mulipo olavula owareliwa ni miyo kilavula na elavulelo aka ni kinilavuula manamuna, nyuuwose nleeelo muphavelasa nsuna naka?
+faq-what-quality-q = Mwinnuwelo xeene wooreerela omphaveleya wa nsu wi ekilipi na nsu nlo nirumeeliwe munikhuruni mwa itaatu?
 faq-why-10k-hours-a = Ola ti mwaattamelo wa nummeru na iwoora sooreerela wi oterenari esixiteema ya mulavulelo ottharaka mutthaka.
 faq-how-calc-hours-q = Manamuna xeeni Common Voice okontha awe iwoora?
 faq-how-calc-hours-a = Nihiirela ikootha niphimaka orakama waya wakhula ekaravasawu ni nto noophitaanya nuumeru neno wa nuumeru noomalela sa ikaravasawu mmattaavani wootheene.
+faq-where-src-from-2-q = Enikhuma woowi ephattu ya mutthaka?
 faq-is-account-public-q = Ihapari sa ekontha aaka ti soosuweliwa naatthu otheene?
 faq-how-privacy-q = Manamuna xeexe mullipiherya okhupaarela alipo ahittuna wisuwanyeyiha ni mukhalelo wa esiiri ya atthu akhaale tanivaha masu aya?
+faq-what-determine-identity-q = Eyo enihimya wiira miyo nkinkela "olakelela waasuweliha" anamalavula munikhuruni wa itaatu sa Common Voice?
+faq-what-is-cv = Ti exeeni Common Voice?
 faq-using-cv = Manamuna xeeni oorumeela Common Voice?
 faq-search-for-answers =
     .label = Otholathola makhulelo
@@ -413,6 +425,7 @@ about-nav-playbook = Musuwele moota woowirela mpantta
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Ti exeeni nttaava muhina mwa Common Voice?
 
 ## How do I add a language
 
@@ -521,12 +534,14 @@ cv-license = Elicensa
 number-of-voices = Numuru na masu
 splits = Okawanyeya
 email-to-download = Mulaleerye emeeyili mmosa wiira yopaxaariwa
+why-donate = Mwaha wa xeene okohaka?
 size-gigabyte = GB
 size-megabyte = MB
 confirm-join-mailing-list = Kinipheela wiirela mpantta mulixitani wa ovaanyihana wa Kommom Voyise
 download-language = Opaaxari { $language }
 validated-hours = Iwoora woomalela
 recorded-hours = Iwoora a karavariwa
+whats-inside = Ti exeeni eniphwanyaneya muhina mwa nikhuru na itaatu wa Common Voice?
 subscribe = Mwiilepihe
 get-started-speech = Opacerihiwa osuwelexiwa nsu
 feedback-q = Munipwavela ovaha moonelo anyu?
@@ -650,6 +665,7 @@ contribute-voice-collection-nav-header = Ottottela nsu
 
 report = Olepa
 report-title = Nvahererye moolumo.
+report-ask = Mukutokuto xeeni murinaanyu ni nuulumo nla?
 report-offensive-language = Elavulelo oruwana
 report-offensive-language-detail = Nuulumo ti noohittittimiha wala ninrumeela mulavulelo wooveeha.
 report-grammar-or-spelling = Yookosyiwa muhina mwa makhalelo nnakhala malelpeliwo
@@ -705,6 +721,7 @@ show-ranking = Mooniherye ovara waka muteko
 ## Custom Goals
 
 get-started-goals = Opacerihiwa miphimo
+goal-type = Mmalelo xeeni nyuwo munitthunaayu ophiyererya?
 both-speak-and-listen = Ayili
 daily-goal = Emeta ya kata nihiku
 weekly-goal = Emeta ya esumana
@@ -817,6 +834,7 @@ contribution-criteria-nav = Otthokiherya
 contribution-criteria-link = Osuweleke mittharihelo sa muncereriho.
 contribution-for-example = sintoko
 contribution-misreadings-title = Ovonya wa osoma
+contribution-misreadings-description = Wiiwaka, othokoceke wakhala wiira ele ekaravariwe ti ele elepiwe; okhottele yakhala wiira yoovonyeya vkhaani. <br/> Mivonyeyo sinceene sinoonaneya wa:
 contribution-misreadings-description-extended-list-1 = Ohikhala malepo 'Um' wala 'O' woopacerani wa karavasawu.
 contribution-misreadings-description-extended-list-2 = Ohikhala nlepo <strong>'s'</strong> woomalelani wa nlamulo nimosa.
 contribution-misreadings-description-extended-list-3 = Osoma wa ovukula ahikhanle mutexitoni, notko "y'maasi" ohiya ya maasi wala orikaniha.
@@ -942,6 +960,7 @@ sc-submit-select-language =
     .labelText = Muthanle nttava
 sc-submit-ph-one-per-line =
     .placeholder = Farase emosa khula munlano
+sc-submit-from-where = Moolumo awo anikhuma woowi <wikipediaLink> ti oosuweliwa ni atthu</wikipediaLink>?
 sc-submit-ph-read-how-to =
     .placeholder = Osome ekiyahu mwaha wa moota xene okhanlawe oopaka, wakhala wii khorina ekekhayi ya moota wa ovaha
 sc-submit-confirm = Kinakhulela wiira makhhuru a mooluno animwiira mmpaatte wa  <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
@@ -1094,6 +1113,7 @@ partnerships-corporates-description = Mwapheela olavulatho mukhalelo wa muukelo 
 partnerships-our-partners = Mulipa owuka yawihu
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Kooxukhuru mwaha woovaha ekiliipi ni nsu nanyu!
+why-donate = Mwaha wa xeene okohaka?
 add-information-button = Adicionar informações
 continue-speaking-button = Nnaari, kooxukhuru, otthikela olavulaka
 thanks-for-voice-toast = Kooxukhuru mwaha wa miteko sanyu sa nsu
@@ -1162,6 +1182,7 @@ citation-input-value = Okhuma wa malove anyu
 citation =
     .label = Ohimya ookwanela
 sc-write-submit-confirm = Kinakhulela wiira makhhuru a mooluno animwiira mmpaatte we <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
+sc-review-write-title = Moolumo xeeni kintthunaaka ohela?
 new-sentence-rule-1 = <noCopyright> Ohiyeviha wa ihakhi sa anamapaka</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Ohiphiya moolumo 15 kuta maluvo
 new-sentence-rule-3 = Murumeele ekaramaatika ohivonyeya.
@@ -1200,6 +1221,7 @@ try-upload-again-md = Ottehe tho oveleeliherya vakina.
 select-file = Muthanle murupa
 select-file-mobile = Muthanle murupa mmosa wowira muhoolihe
 maximum-file-size = Wuukumala wootepaxa sa mirupa: 25 MB
+what-needs-to-be-in-file = Ti exeeni kiniphavelaaka okhalana mukaaphiyakani mwaka?
 upload-progress-text = Ovahererya yeettaka...
 sc-bulk-submit-confirm = kinakhulela wiira makhhuru a mooluno animwiira mmpaatte wa  <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
 bulk-upload-failed-toast = Ovonya wa ovahererya, mweererye vasya.
