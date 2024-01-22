@@ -192,6 +192,7 @@ uz = Usbeke
 ve = Tshiventa
 vec = Venesiano
 vi = Vietnamita
+vot = Vootiko
 yue = Cantonexi
 zgh = Tamazike
 
@@ -232,6 +233,7 @@ listen-subtitle = Munikhalihe okupaleela nsu
 listen-goal-text = Ikilipi weemererana
 hours-recorded = Iwoora a karavariwa
 hours-validated = Iwoora woomalela.
+voices-online = Masu onilayini niinaano
 todays-progress = Mweettelo wa olelo.
 help-reach-goal = Munikhaliherye wiira niphiwerihe { $goal }
 read-terms-q = Nyuwo moosoma ikettelo sahu?
@@ -362,6 +364,7 @@ faq-is-goal-assistant-q = Mphiyereryo wa Common Voice oteka mukhaliheryo onoonel
 faq-do-want-native-q = Miyo  nnkihiyo mulipo olavula owareliwa ni miyo kilavula na elavulelo aka ni kinilavuula manamuna, nyuuwose nleeelo muphavelasa nsuna naka?
 faq-why-10k-hours-a = Ola ti mwaattamelo wa nummeru na iwoora sooreerela wi oterenari esixiteema ya mulavulelo ottharaka mutthaka.
 faq-how-calc-hours-q = Manamuna xeeni Common Voice okontha awe iwoora?
+faq-how-calc-hours-a = Nihiirela ikootha niphimaka orakama waya wakhula ekaravasawu ni nto noophitaanya nuumeru neno wa nuumeru noomalela sa ikaravasawu mmattaavani wootheene.
 faq-is-account-public-q = Ihapari sa ekontha aaka ti soosuweliwa naatthu otheene?
 faq-how-privacy-q = Manamuna xeexe mullipiherya okhupaarela alipo ahittuna wisuwanyeyiha ni mukhalelo wa esiiri ya atthu akhaale tanivaha masu aya?
 faq-using-cv = Manamuna xeeni oorumeela Common Voice?
@@ -382,8 +385,10 @@ about-sentence-collection-subtitle = Malove anootholiwa wiira atthu asome ni nsu
 about-new-lang-title = Olaleyiwa wa nttava nsya
 about-voice-contrib-title = Okhalihera wa nsu
 about-voice-contrib-subtitle = Atthu annorwa ni enakhaliha ni masu awaya.
+about-voice-validation-title = Waakhulela nsu
 about-voice-validation-subtitle = Atthu akina annemererya ikilipi iwo sa masu.
 about-dataset-release-title = Novonyerya nikhuuru na mihupi
+about-subscribe-text = Mumpheela okhala mulavulaka ni Common Voice?
 about-listen-queue = Muthito wa wiiwela
 about-listen-queue-text = Ikilipi  nsu siniheleliwa mupholani wa ovahererya wiira ekhalane wooneya wiira wiiweyeke.
 about-listen = wiiwa
@@ -417,6 +422,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Manamuna xeeni otaphulela awe opuro?
 about-playbook-how-localize-content-1 = Mutaphulelo wa esayiti ya Common Voice onipakiwa o <strong>Pontoon</strong>.
 about-playbook-how-localize-content-4 = Esayiti enikhala yoolikaneene yaphiyererya nnakhala 75% wi emalele.
+about-playbook-how-localize-content-5 = Muwehe evitiyu aahu yooleliha
 
 ## How to add sentences
 
@@ -467,12 +473,14 @@ de-identified-explanation = Mweettelo wa mihupi wa mukhalelo wa namukhaliherya s
 
 ## Error pages
 
+error-title-404 = Khawakhwenye opwanya epaaxina ela wiira nyuwo
 error-code = Ovonya { $code }
 
 ## Data
 
 data-download-button = Mukuruuxe mihuupi sa Common Voice
 data-download-license = Elisensa: <licenseLink>CC-0</licenseLink>
+data-subtitle = Niri nitekelelaka nikhuro nimosa sa itaatu sa nsu soohuleya ni soopwanyiwa sooolaleeriwa wa atthu ootheene arumeeleke yeereryaka sooheleliwa ni ikharuma sa nsu.
 data-get-started = <speechBlogLink>Mpacerye osuwela nsu</speechBlogLink>
 data-other-title = Mixovo mikina sa mitthaka sa masu...
 data-other-goto = Oroowa wiira { $name }
@@ -495,6 +503,7 @@ review-delete-recordings = Muttipihe sotakiherya saka
 
 ## Datasets Page
 
+datasets-positioning = Ninikupaleela wiira nikhuro na itaatu sa nsu nuulupale, soopwaneya waatthuni, sirowa okumiha yoohelela esiya ni muwaneliwo anakoso eekumi wa itekonoloxiya soowirela mpantta nsu wa mwiixuttiho wa ikaruma. Nikhuro sa itaatu mattaava-manci wa Common Voice ti khanle nikhuru nuulupale ya itaatu soopwanyeya waatthuni, masi khayiyano mmosaru. Mukupaleele epaaxina ela sintoco eriyari yoowoniherya wa makhuru makina sa itaatu ya nsu ya kootiku yoohuleya ni, khula okathi Common Voice oniira inuwaka, nipuro noovonya soohelela isya.
 download-dataset-header = Opaxaari nikhuuru na mihuupi
 download-dataset-tag = Muthanle ekhurupu ya mattava ni mwinyaathi enipavelaanyu
 # File size in gigabytes
@@ -519,6 +528,7 @@ resource-playbook-info = <playbookLink>Mphwanye soolelihiwa sinovarelani muteko<
 data-other-librispeech-description = LipriSpeech ti erutthu yoowattamela 1000 okathi wa osoma ekilisi wa 16khz, sookhuma mwiiwo sa iliivuru sa puruxeetu LipriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIUM Corpus  epakiwe ni wa soolavuliwa sa milaleeryo ni milipeliyo saya, siniphwanyaneya musayitini mwa TED.
+data-other-voxforge-description = VoxForge opakinwe wa ottottela mulavulo soolempwa eniira orumeeliwa ni ikaruma osuweliha mulavulo oohilinvwa ni sa kootiku oohuleya.
 go-discourse = Oroowa wa Discourse
 go-languages-page = Oroowa nikukhu na mattaava
 ready-to-validate = Olikana wii mukhalihe wemererya soolempwa?
@@ -686,6 +696,7 @@ show-ranking = Mooniherye ovara waka muteko
 get-started-goals = Opacerihiwa miphimo
 both-speak-and-listen = Ayili
 daily-goal = Emeta ya kata nihiku
+weekly-goal = Emeta ya esumana
 easy-difficulty = Yookhweya
 average-difficulty = Eriari
 difficult-difficulty = Orikarika
@@ -711,6 +722,7 @@ n-clips-pluralized =
     }
 help-share-goal = Munikhaliherye wiira nipwanye maasu manceene, mukawaanye ni muphiimo anyu
 confirm-goal = Okhomaaliha Emeta
+goal-interval-weekly = Esumana
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Mukawe vammalelaanyu wakhula nihiku { $type } { $count } ekiliipi
 # $type is one of share-goal-type-*
@@ -720,6 +732,7 @@ share-goal-type-listen = Owaruni
 share-goal-type-both = Olavula ni wiiwa
 # LINK will be replaced with the current URL
 goal-share-text = kimanle waakuva opaka emeeta emosa yaawaka yoovahererya nsu kiroyihaka #oCommonVoice--nikhale hoothe ni mkikhaliherye wiixuttiha ikaruma moota xeeni atthu anlavulaya neexariya{ $link }
+weekly-goal-created = { "" }
 track-progress = Mwiiweleleke va mweettelo ni epaaxina anyu ya mwaalakelo.
 return-to-edit-goal = Muhokolowe va wira muleeliherye Vanrowaya omalela mwapheela
 share-goal = Mukawe vammalelaka
@@ -802,7 +815,9 @@ contribution-misreadings-example-2-explanation = [Ohaana okhalaka ‘tinosawurus
 contribution-misreadings-example-3-explanation = [Olepa wa masu onyimihiwe vahinatthi omaliha malove ookiserya]
 contribution-misreadings-example-4-title = Matinosawuru oorekamasa a oTiriyaasiku. Aayo.
 contribution-misreadings-example-4-explanation = [Sookaravariwa iteestu sinceen sahaapheliwa]
+contribution-misreadings-example-5-title = Nikhume nawurye ekafe emosa.
 contribution-misreadings-example-6-explanation = [Yaahaana akhalaka “ya maasi”]
+contribution-misreadings-example-7-title = We are going out to get a coffee.
 contribution-misreadings-example-7-explanation = [Ohikhala 'emosa' texito yoopacera]
 contribution-misreadings-example-8-title = Nnonope noovira niwakuva
 contribution-misreadings-example-8-explanation = [Soolempha sookhala khisimpwanela]
@@ -817,6 +832,7 @@ contribution-background-noise-example-2-explanation = [Nipuro nimosa na texito k
 contribution-background-noise-example-3-fixed-title = <strong>[Estalo]</strong> tinosawuru oorakama <strong>[estalo]</strong> -mutakhwani.
 contribution-background-voices-description-extended = Ankhi yookaravariwa ovonyeya wala wooniherya onyakula, mukootte, waahikhale wiira yoolempwa nlelo ekhanle yoowiwiwa oratteene.
 contribution-background-voices-example-1-title = Matinosawuru oorekamasa a oTiriyaasiku.  <strong>[yoosomwa ni nsu nimosa]</strong>
+contribution-volume-title = Evolume
 contribution-reader-effects-title = Soowoneya sa musomi
 contribution-just-unsure-title = Khamurina exariya?
 
@@ -1083,6 +1099,8 @@ misreadings-explanation-3 = Ohikhala nlepo <strong>'A'</strong> wala <strong>'Nt
 misreadings-explanation-4 = Ohikhala nlepo 's' yoomalelani wa nlamulo nimosa.
 misreadings-explanation-5 = Osoma wa ovukula ahikhanle mutexitoni, notko "y'maasi" ohiya ya maasi wala orikaniha.
 misreadings-explanation-6 = Ohikhala woomalela wa nlamulo nookiserya mwaha wa ekaravasawu omaalihiwa noowaakuveyaxa.
+misreadings-example-1 = Nikhume nawurye ekafe emosa.
+misreadings-example-3 = We are going out to get a coffee.
 misreadings-example-4 = Nnonope noovira niwakuva.
 misreadings-tip-1 = [Yaahaana akhalaka “ya maasi”]
 misreadings-tip-2 = [Ohikhala 'emosa' texito yoopacera]
@@ -1100,6 +1118,7 @@ public-domain-explanation-3 = Mupake  nyeenyu  meekhiinyu  moolumo  masya  ni  a
 public-domain-explanation-5 = Mwaavye etestu eri soohiheleliwatho ihaakhi sa anamupaka, sintoko, ilivuru sinceene soolaleyiwa eyaakha ya 1920  ehinatthi
 public-domain-explanation-6 = Mulavule ni kuverunu, miloko sinvara muteko mwaha wa okhoola wala mithukumano sa mitthaka wii ewehe yakhala wii ikaruma sa weepi, mitthaka soolempwa wala itthu sikina sikhanle soovelelihiwa wa osuwela vamayithori.
 citing-sentences-explanation-1 = Ti yuulupalexa wiira ohelela soosuweliwa wiira netthuneke owehaweha sintoko maalumo anisuweliwa naatthu ni khenrumeeliwa kherina mukhoottihiwo wa ihaakhi sa namapaka.
+citing-sentences-subheader-websites = Sites
 citing-sentences-subheader-academic-reference = Mooniheryo akateemika
 citing-sentences-subheader-offline-sources = Onkhuma itthu ota wa intereneti
 citing-sentences-subheader-offline-sources-explanation = Niirelaka mutthaka owulaana ni anamunceene ohikhale otthukuwa eene, nyuuwo mokhala orumeelaka mukhaleelo wa ethoonyeryo ya axuutthi, ntoko nthoonyeryo manamuuna a Harvard "Jess ( 2021 ) My Public licence poems"
