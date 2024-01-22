@@ -11,8 +11,13 @@ not-available-abbreviation = Ohikwanela
 mdf = Moksha
 mn = Mongoli
 mos = Moree
+nb-NO = ooNoroweka (Bokmal)
 ne-NP = Nepalexi
 nia = Nias
+nso = Sooto ya norote
+nyn = Ancolee
+oc = Ositaaniko
+or = Otia
 
 # [/]
 
@@ -50,13 +55,17 @@ status-goal = Meeta ninrowahu: { $goal }
 
 profile-form-native-language =
     .label = Nttava anyu
+profile-form-variant-default-value = Kekhanle variyante ethanliwe
 native-language =
     .label = Nttava anyu
+skip-submission-note = Noota: Eriyari ya Olavula wala Wiiwa nyuwo mwarowanyu ninlelo othanla wii muvirikanyihe mukhalelo wa okhaliherya.
+off = Ottipiha
 help-accent = Mumphavela okhaliheriwa ni malavulelo anyu?
 help-variants = Mumphavela okhaliheriwa ni malavulelo anyu?
 
 ## Profile - Email
 
+gravatar_not_found = Khaphwanyiwe Karavatari ya e-meyili anyu
 
 ## Profile - Email
 
@@ -112,9 +121,11 @@ license-mixed = Otakaihereya
 
 ## Datasets Page
 
+number-of-voices = Numuru na masu
 
 ## Download Modal
 
+download-no = Nnaari, kooxukhuru
 
 ## Contact Modal
 
@@ -133,21 +144,30 @@ request-language-form-info-explanation-list-1 = Masina a nttava nanyu
 
 ## Contribution
 
+record-no-mic-found = Khaphwanyiwe mikorofone mmosa.
 
 ## Contribution Nav Items
 
 
 ## Reporting
 
+report-offensive-language = Elavulelo oruwana
+report-offensive-speech = Nuulumo oruwana
 
 ## Goals
 
 
 ## Dashboard
 
+visibility-overlay-note = Noota: Mwasueliha ntoko 'Wooneya', orukunixa iwo wookhala wolempwa <profileLink>elatarato ya paaxina</profileLink>
 
 ## Custom Goals
 
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] ikilipi emosa
+       *[other] { $count } ikilipi
+    }
 
 ## Profile Delete
 
@@ -200,18 +220,23 @@ sc-header-my = Soolempwa yawaka
 
 ## HOW-TO
 
+sc-howto-addlang-text = Wakela, nyu mookhala oothanla mattava valatarotoni wa muteko.
 
 ## MY SENTENCES
 
+sc-my-no-sentences = Kekhanle farase ekhottiwe ephwanyiwe!
 
 ## REJECTED
 
+sc-rejected-none-found = Kekhanle farase ekhottiwe ephwanyiwe!
 
 ## STATS
 
 
 ## ADD
 
+sc-submit-ph-one-per-line =
+    .placeholder = Farase emosa khula munlano
 
 ## ADD LANGUAGE
 
@@ -239,11 +264,18 @@ sc-header-my = Soolempwa yawaka
 
 # [/SentenceCollector]
 
+continue-speaking-button = Nnaari, kooxukhuru, otthikela olavulaka
+offensive-content = Soolempha soruwana
 misreadings-explanation-3 = Ohikhala nlepo <strong>'A'</strong> wala <strong>'Nto'</strong> woopacerani wa karavasawu.
 misreadings-explanation-4 = Ohikhala nlepo 's' yoomalelani wa nlamulo nimosa.
 misreadings-explanation-6 = Ohikhala woomalela wa nlamulo nookiserya mwaha wa ekaravasawu omaalihiwa noowaakuveyaxa.
 misreadings-tip-2 = [Ohikhala 'emosa' texito yoopacera]
+citing-sentences-subheader-offline-sources = Onkhuma itthu ota wa intereneti
+adding-sentences-subheader-numbers = Numuru
+adding-sentences-subheader-numbers-explanation = Manumuru
 new-sentence-rule-1 = <noCopyright> Ohiyeviha wa ihakhi sa anamapaka</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-5 = Ohikhala numuru nnakhala ikaratere exipesiyale
+new-sentence-rule-6 = Ohikhala iletara sa ilapo sookhopela
 
 ## REVIEW PAGE
 
