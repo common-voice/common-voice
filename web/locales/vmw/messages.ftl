@@ -430,6 +430,7 @@ about-listen-queue-text = Ikilipi  nsu siniheleliwa mupholani wa ovahererya wiir
 about-listen = wiiwa
 about-listen-text = Marumeeliha antthunela ni exariya wa ikilipi soovahiwa, awehawehaka sintoko olavunle osomme nlamulo woohivonya.
 about-is-it-valid = Mutthico ti wootthunihiwa?
+about-yes-votes = ≥ Ivootu 2  Hooye
 about-yes-votes-text = Wiira okele munikhuruni wa itaatu sa Common Voice, ikilipi ya nsu enniphavela waavaliyariwa ni atthu ayili anamakhalela.
 about-no-votes = ≥ Ivooto 2  Nnaari
 about-dataset-new-text = Ekhurupu ya etaatu ya Common Voice erina imilyaare sa amoostara ya masu ankhaliherya  winnuwiha oteka ikaruma soosuwela wa nsu.
@@ -669,6 +670,8 @@ record-error-too-short = Ekaravaawu yaari vakhaani.
 record-error-too-long = Ekaravasawu yoophiya otthyaawene.
 record-error-too-quiet = Ekaravasawu ehanle ni miiwanyeyo vakhaaani.
 record-cancel = Ohiha ekaravasawu
+record-instruction = { $actionType }<recordIcon></recordIcon> noomala osoma  woomaleyavom malepo yaala ookwenela
+record-stop-instruction = { $actionType } <stopIcon></stopIcon> mwamala miteko iya sotheene
 record-three-more-instruction = Wa vararu, enoorowa!
 record-again-instruction2 = Muthikeleke siiso, mukaravavi vasya <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Okiserya!
@@ -676,11 +679,13 @@ review-tooltip = Moonexexe ni mwiyaathi ifarase murowaka ohoolo
 share-clip = Mukawe ekilipi anyu
 share-common-voice = Mmukawe Common Voice
 review-instruction = Moonexexaka, mwiiyaathi  ifarase imara sikina mwaapheelaka
+record-submit-tooltip = { $actionType }  mwamala  muteko iya  sotheene
 clips-uploaded = sookaravariwa opakhirya
 record-abort-title = Opixa okhomoni otakiha wopacerya?
 record-abort-text = Mweemela niinaano khamunlola mweettelo aanyu ootheene
 record-abort-continue = Mumalihere ekaravasawu
 record-abort-delete = Okhuuma ni otthipiha nikhuro na moolumo
+listen-instruction = { $actionType } <playIcon></playIcon> Molove ookwanela  ahuulumiwa woorereyavo?
 listen-3rd-time-instruction = 2 soomalela<playIcon></playIcon>, mutthikele siiso!
 listen-last-time-instruction = <playIcon></playIcon> Okiserya!
 listen-abort-title = Okhomoni wa waakhulela ikiliipi?
@@ -950,6 +955,7 @@ sc-home-review-text = Munikhaliherye matthikelaka oxukurya moolumo wiira muweha 
 
 ## HOW-TO
 
+sc-howto-addlang-title = Adding languages to work with
 sc-howto-addlang-text = Wakela, nyu mookhala oothanla mattava valatarotoni wa muteko.
 sc-howto-addsen-title = Muhele malove ekina
 sc-howto-cite-title = Erumeeliwa sayi
@@ -1018,6 +1024,7 @@ sc-submit-guidelines = Owehe saana  <howToLink>malamulo </howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-label = Muhele nttaava muntthunaanyu olavula
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
@@ -1202,6 +1209,7 @@ background-noise-tip-2 = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
 background-voices-example-1 = Matinosawuru oorekamasa a oTiriyaasiku.  <strong>[yoosomwa ni nsu nimosa]</strong>
 still-have-questions = Nlelo ehaavo enooxankihani?
 public-domain = Sa osuwela vamayirhori
+adding-sentences = Ovukula wa malove ookwanela.
 reviewing-sentences = Woonexexa
 public-domain-explanation-3 = Mupake  nyeenyu  meekhiinyu  moolumo  masya  ni  a  mivaanelo,  hoothe  ni  axirikha  anyu  nnakhala  mmuttettheni  mwa  malavuleelo,  ntoko  ntthoonyeryo,  murumeelaka  'ekwaha  yoolepa'
 public-domain-explanation-5 = Mwaavye etestu eri soohiheleliwatho ihaakhi sa anamupaka, sintoko, ilivuru sinceene soolaleyiwa eyaakha ya 1920  ehinatthi
@@ -1229,6 +1237,8 @@ reviewing-sentences-explanation-1 = Ankhi nlamulo otthunela mithinto soovarela o
 reviewing-sentences-explanation-2 = Ankhi nlamulo ohitthunela mithinto soovarela osulu, mutthitte vaputawuni "Nnaari"
 reviewing-sentences-explanation-3 = Ankhi mwaahikhalane exariya wa nlamulo, nyuwo navetho mookhala ohipeela ni ootupha murowelaka ekina.
 reviewing-sentences-explanation-4 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere othukumana maalumo manceene!
+# WRITE PAGE
+write-instruction = Muhele <icon></icon> nlove nimosa nookwanela noosuweliwa mmuttettheni.
 write-page-subtitle = Malove ootthokiheraniyava ari ootakanihiya mukhurupuni mowooneya ni alaleiyale mukisensani cc-0.
 sentence =
     .label = Soolempwa
