@@ -40,10 +40,13 @@ ba = Baškiršćina
 bas = Basašćina
 be = Běłorušćina
 bg = Bułgaršćina
+bm = Bambaršćina, Bambara
 bn = Bengalšćina
+bo = Tibetšćina
 br = Bretońšćina
 bs = Bosnišćina
 bxr = Burjatšćina
+byv = Medumba
 ca = Katalańšćina
 cak = Kaqchikel
 ckb = Centralna kurdišćina
@@ -53,6 +56,7 @@ cs = Češćina
 cv = Čuwašćina
 cy = Kymrišćina
 da = Dańšćina
+dag = Dagbani
 de = Nimšćina
 dsb = Dolnoserbšćina
 dv = Dhivehi
@@ -63,6 +67,7 @@ eo = Esperanto
 es = Špańšćina
 et = Estnišćina
 eu = Baskišćina
+ewo = Ewondo
 fa = Persišćina
 ff = Fulašćina
 fi = Finšćina
@@ -73,6 +78,7 @@ ga-IE = Iršćina
 gl = Galicišćina
 gn = Guaranšćina, Guarani
 gom = Goaska konkanišćina
+gu-IN = Guźaratšćina
 ha = Hausa
 he = Hebrejšćina
 hi = Hindišćina
@@ -92,6 +98,7 @@ it = Italšćina
 izh = Ižoršćina
 ja = Japańšćina
 jbo = Loźbańšćina
+jv = Jawańšćina
 ka = Georgišćina
 kaa = Karakalpakšćina
 kab = Kabylšćina
@@ -112,6 +119,7 @@ lij = Ligurišćina
 ln = Lingala
 lo = Laošćina, laotišćina
 lt = Litawšćina
+ltg = Latgalšćina
 lv = Letišćina
 mai = Majtilišćina
 mdf = Mokša
@@ -141,6 +149,7 @@ nyn = Nkorešćina
 oc = Okcitańšćina
 om = Afaan Ormoo
 or = Odiašćina
+os = Osetšćina
 pa-IN = Pundžabšćina
 pap-AW = Papiamento (Aruba)
 pl = Pólšćina
@@ -187,6 +196,7 @@ ts = Tsongašćina
 tt = Tataršćina
 tw = Twi
 ty = Tahitišćina
+tyv = Tuwińšćina
 uby = Ubychišćina
 udm = Udmurtšćina
 ug = Ujguršćina
@@ -197,6 +207,7 @@ ve = Venda
 vec = Wenecianišćina
 vi = Vietnamšćina
 vot = Wotšćina
+wo = Wolof
 xh = Xhosa
 yi = Jiddišćina
 yo = Joruba
@@ -206,6 +217,7 @@ zh-CN = Chinšćina (China)
 zh-HK = Chinšćina (Hong Kong)
 zh-TW = Chinšćina (Taiwan)
 zu = Zulušćina, Zulu
+zza = Zaza
 
 # [/]
 
@@ -217,6 +229,7 @@ speak-now = Powědajśo něnto
 datasets = Datowe sajźby
 languages = Rěcy
 about = Wó nas
+partner = Partnaŕ
 profile = Profil
 help = Pomoc
 contact = Kontakt
@@ -230,6 +243,7 @@ share-text = Pomagajśo mašinam wucyś, kak luźe powědaju, dajśo swój głos
 link-copied = Wótkaz kopěrowany
 back-top = Slědk górjej
 logout = Wótzjawiś
+donate = Pósćiś
 
 ## Home Page
 
@@ -408,7 +422,9 @@ why-demographic = Cogodla jo to wažne?
 why-demographic-explanation-2 = Anonymizěrowane wužywarske daty ako starstwo, rod a akcent pomagaju awdiodaty pólěpšyś, kótarež se wužywaju, aby dokradnosć softwary powědańskego spóznaśa treněrowali. Waše wužywarske mě a e-mailowa adresa se nigda z wašymi pósłanymi datami njezwězujotej, a móžośo wubraś, lěc dej wašo wužywarske mě zjawne abo anonymne byś.
 accept-privacy = Som wobjadny, až se toś te informacije wužywaju, kak se w <privacyLink>pšawidłach priwatnosći</privacyLink> Mozilla wujasnjujo.
 accept-privacy-title = Pšawidła priwatnosći
+accept-privacy-and-terms = Zwólijom do <termsLink>wužywańskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
 login-identity = Pśizjawjeńska identita
+login = Pśizjawiś
 login-signup = Pśizjawiś/Registrěrowaś
 edit = Wobźěłaś
 email-subscriptions = E-mailowe abonementy
@@ -498,7 +514,7 @@ faq-what-determine-identity-q = Co wóznamjenijo, až njamógu „identitu“ po
 faq-what-determine-identity-a =
     Datowa sajźba Common Voice jo wótwórjona a zjawnje pśistupna resursa, kótaraž dajo se za treněrowanje šyrokeje wjelerakosći pśez powědanje wóźonych nałoženjow wužywaś. Aby my wěstotu našych sobustatkujucych šćitali, pšosymy kuždego, kótaryž datowu sajźbu Common Voice ześěgujo, priwatnosć našych sobustatkujucych respektěrowaś.
     
-    Ze wšych głosowych klipow w datowej sajźbje se informacije wótwónoźuju, kótarež wósoby identificěruju. Gaž datowu sajźbu ześěgujośo, zwolijośo do togo, až njewopytujośo identitu sobustatkujucego póstajiś. To groni, až njamóžośo wopytaś, informacije w datowej sajźbje z wósobinskimi informacijami sobustatkujucego zwěazaś.  Móžośo pak datowu sajźbu wužywaś, aby powědańske spóznaśe, spóznaśe powědarjow abo druge nałoženja pśez to treněrował, až, na pśikład, informacije w datowej sajźbje z drugimi informacijami zwězujośo, kótarež su južo w datowej sajźbje.
+    Ze wšych głosowych klipow w datowej sajźbje se informacije wótwónoźuju, kótarež wósoby identificěruju. Gaž datowu sajźbu ześěgujośo, zwólijośo do togo, až njewopytujośo identitu sobustatkujucego póstajiś. To groni, až njamóžośo wopytaś, informacije w datowej sajźbje z wósobinskimi informacijami sobustatkujucego zwěazaś.  Móžośo pak datowu sajźbu wužywaś, aby powědańske spóznaśe, spóznaśe powědarjow abo druge nałoženja pśez to treněrował, až, na pśikład, informacije w datowej sajźbje z drugimi informacijami zwězujośo, kótarež su južo w datowej sajźbje.
 faq-what-is-cv = Co jo Common Vocie?
 faq-using-cv = Common Voice wužywaś
 faq-description = Common Voice jo źěl iniciatiwy Mozilla, kótaryž pomaga, mašiny wucyś, kak napšawdne luźe powědaju.
@@ -594,7 +610,6 @@ about-playbook-how-add-sentences = Kak mógu sady pśidaś?
 about-playbook-how-add-sentences-content-1 = <strong>Zgromaźowak sadow</strong> jo rěd za gromaźenje a pśeglědowanje zjawnje pśistupnych sadow. <scAccountLink>Musyśo konto załožyś</scAccountLink>. Pśidajśo pón swójomu <strong>profiloju</strong> swóju rěc. Móžośo sady <strong>pśidaś</strong> abo do togo pśidane sady <strong>pśeglědowaś</strong>.
 about-playbook-how-add-sentences-content-2 = Sady muse se wót dweju wósobowu pśeglědowaś a akceptěrowaś, by se do Common Voice pśewzeli. Směrnice za swóju rěc <languageGuidelinesLink>how</languageGuidelinesLink> napórajośo. Sady muse <licenseLink>zjawnje pśistupne</licenseLink> a krotše ako 15 słowow byś. Móžośo wobsejźarja teksta pšosyś, aby jen z pomocu našogo wótrjaceńskego wózjawjenja pód <waiverLink>CC0</waiverLink> stajił a jo na commonvoice@mozilla.com pósłał.
 about-playbook-how-add-sentences-content-3 = Móžośo <scraperLink>ekstraktor sadow</scraperLink> wužywaś, aby krotke sady z Wikipedije dostał.
-about-playbook-how-add-sentences-content-4 = Sady, kótarež su pśeglědane, se srjodu eksportěruju a su pó pśiducem wózjawjenju k dispoziciji.
 
 ## How to record quality
 
@@ -668,7 +683,7 @@ license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Měšany
 data-download-singleword-title = Ześěgniśo celowy segment jadnotliwego słowa
 data-download-singleword-callout-v2 = To jo segment, kótaryž se pśez nałožowańske pady pógónujo a daty wopśimujo, aby spóznaśe powědanych cyfrow a spóznaśe jo/ně zmóžnił.
-review-terms = Gaž Common Voice wužywaśo, zwolijośo do našych <termsLink>wužywarskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
+review-terms = Gaž Common Voice wužywaśo, zwólijośo do našych <termsLink>wužywarskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
 terms-agree = Som wobjadny
 terms-disagree = Njejsom wobjadny
 review-aborted = Nagraśe pśetergnjone. Cośo swójo nagraśe wulašowaś?
@@ -691,6 +706,8 @@ datasets-positioning =
     
     Mějśo toś ten bok ako referencny dypk za druge głosowe datowe sajbźy wótwórjonego žrědła a, dokulaž Common Voice dalej rosćo, ako startowy dypk za naše nejnowše aktualizacije.
 language = Rěc
+download-dataset-header = Datowu sajźbu ześěgnuś
+download-dataset-tag = Wubjeŕśo póžedanu rěcnu datowu sajźbu a wersiju, kótaruž cośo ześěgnuś.
 # File size in gigabytes
 size = Wjelikosć
 validated-hr-total = Wobkšuśone góźiny dogromady
@@ -704,7 +721,8 @@ why-email = <b>Cogodla e-mailowa adresa?</b> Musymy se snaź z wami w pśichoźe
 confirm-size = Sćo za start ześěgnjenja wjelikosći <b>{ $size }</b> spśigótowany
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = <b>Zwolijośo</b> do togo, až njewopytajośo, identitu powědarjow w datowej sajźbje zwěsćiś
+confirm-no-identify = <b>Zwólijośo</b> do togo, až njewopytajośo, identitu powědarjow w datowej sajźbje zwěsćiś
+confirm-join-mailing-list = Cu rozpósłańskej lisćinje Common Voice pśistupiś
 download-language = { $language } sćahnyć
 validated-hours = Wobkšuśone góźiny
 recorded-hours = Nagrate góźiny
@@ -737,6 +755,9 @@ more = Wěcej
 close = Zacyniś
 download = Ześěgnuś
 dataset-version = Wersija
+sha256-checksum-copied = Pśespytowańska suma SHA256 kopěrowana!
+sha256-checksum-copied-error = Kopěrowanje pśespytowańskeje sumy SHA256 njejo se raźiło
+clipboard-not-supported = Mjazywótkład se njepódpěra
 
 ## Download Modal
 
@@ -813,6 +834,8 @@ action-click = Kliknuś
 action-tap = Pótusnuś
 contribute = Sobu źěłaś
 listen = Słuchaś
+write = Pisaś
+review = Pśeglědaś
 skip = Pśeskócyś
 shortcuts = Skrotconki
 clips-with-count-pluralized =
@@ -874,6 +897,11 @@ target-segment-generic-card = Pśinosujośo k celowemu segmentoju
 target-segment-first-banner = Pomagajśo prědny celowy segment Common Voice w { $locale } napóraś
 target-segment-add-voice = Pśidajśo swój głos
 target-segment-learn-more = Dalšne informacije
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Zběrka głosow
+contribute-sentence-collection-nav-header = Zběrka sadow
 
 ## Reporting
 
@@ -1498,3 +1526,121 @@ sc-validation-no-abbreviations = Sada njeměła skrotconki wopśimowaś
 
 localization-select =
     .label = Rěc/Lokalizaciju wubraś
+# PARTNERSHIPS PAGE
+partnerships-header = Partnaŕstwa
+partnerships-get-in-touch = Kontakt
+partnerships-become-a-partner = Buźćo partnaŕ Common Voice
+partnerships-foundations-header = Załožby
+partnerships-governments-header = Kněžaŕstwa
+partnerships-academia-header = Uniwersity, akademikarje a slěźarje
+partnerships-our-partners = Naše partnarje
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Wjeliki źěk, až sćo pósćił waše powědańske klipy!
+why-donate = Cogodla se pšašaśo?
+add-information-button = Informacije pśidaś
+continue-speaking-button = Ně, źěkujom se, z powědanim pókšacowaś
+create-profile-text = Cośo swóje informacije składowaś? <createProfile>Załožćo profil</createProfile>
+thanks-for-voice-toast = Wjeliki źěk za waše powědańske informacije
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Wjeliki źěk, až waš głos pśinosujośo!
+already-have-an-account = Maśo južo konto? <login>Pśizjawiś</login>
+create-profile-button = Profil załožyś
+# IMAGE TAGS
+img-alt-success-checkmark = Symbol wuspěcha
+# GUIDELINES PAGE
+guidelines-header = Směrnice za sobustatkujuce
+voice-collection = Zběrka głosow
+sentence-collection = Zběrka sadow
+varying-pronunciations = Rozdźělne wugronjenja
+misreadings = Cytańske zmólki
+offensive-content = Njepśistojne wopśimjeśe
+background-noise = Slězynowe šumy
+background-voices = Slězynowe głose
+volume = Głosnosć
+reader-effects = Efekty cytarja
+just-unsure = Jano njewěsty?
+example = Pśikład
+varying-pronunciations-example = Ruta jo była njejasna.
+misreadings-explanation-5 = Kontrakcije pśi cytanju, na pśikład „pón“ město „pótom“ abo nawopak.
+misreadings-explanation-6 = Felujucy kóńc slědnego słowa, dokulaž nagraśe jo se pśemalsnjej wótrězało.
+misreadings-explanation-7 = Někotare wopyty słowo cytaś.
+misreadings-example-1 = Źomy pó kafej.
+misreadings-example-2 = Źomy pó kafej.
+misreadings-example-3 = Źomy pó kafej.
+misreadings-example-4 = Tšmjel jo mimo leśeł.
+misreadings-tip-1 = [Dejało „Źomy“ groniś]
+misreadings-tip-2 = [‘a’ njejo w originalnem teksće]
+misreadings-tip-3 = [Wopśimjeśe njewótpowědujo]
+background-noise-example-1 = Wjelicke dinosawrierje triasa.
+background-noise-tip-2 = [Źěl teksta njejo słyšaś]
+background-voices-example-1 = Wjelicke dinosawriery triasa. [cyta se wót jadnogo głosa]
+still-have-questions = Maśo hyšći pšašanja?
+contact-common-voice = Stajśo z teamom Common Voice do zwiska
+citing-sentences = Sady citěrowaś
+adding-sentences = Sady pśidaś
+reviewing-sentences = Sady pśeglědaś
+citing-sentences-subheader-websites = Websedła
+citing-sentences-subheader-websites-explanation = Wy mógał websedło pódaś, na pś. „Common Voice - https://commonvoice.mozilla.org/“
+citing-sentences-subheader-offline-sources = Žrědła offline
+citation =
+    .label = Citat
+self-citation = Sebjecitěrowanje
+adding-sentences-subheader-length = Dłujkosć
+adding-sentences-subheader-length-explanation = Sada dejała mjenjej ako 15 słowow měś.
+adding-sentences-subheader-spelling-punctuation = Pšawopis a interpunkcija
+adding-sentences-subheader-spelling-punctuation-explanation = Sada musy pšawje napisana byś.
+adding-sentences-subheader-speakable = Wugranjajobny
+adding-sentences-subheader-numbers = Licby
+adding-sentences-subheader-abbreviations = Skrotconki a akronymy
+adding-sentences-subheader-punctuation = Interpunkcija
+adding-sentences-subheader-special-characters = Wósebne znamuška a cuze pismiki
+adding-sentences-subheader-special-characters-explanation-1 = Pismiki muse w rěcy płaśiwe byś, w kótarejž se powědaju. “ж” na přikład jo pismik w ruskem alfabeśe, ale se nigda w engelšćinje njewužywa a njeměli se togodla nigda w engelskem žrědłowem teksće zjawiś.
+adding-sentences-subheader-offensive-content = Njepśistojne wopśimjeśe
+reviewing-sentences-explanation-1 = Jolic sada kriterijam górjejce wótpowědujo, klikniśo na tłocašk „Jo“.
+reviewing-sentences-explanation-2 = Jolic sada kriterijam górjejce njewótpowědujo, klikniśo na tłocašk „Ně“.
+reviewing-sentences-explanation-4 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
+sentence =
+    .label = Sada
+citation-input-value = Žrědło wašeje sady
+citation =
+    .label = Citat
+sc-write-submit-confirm = Wobkšuśijom, až toś ta sada jo <wikipediaLink>zjawnje pśistupne</wikipediaLink> a mam pšawo ju nagraś.
+sc-review-write-title = Kótare sady mógu pśidaś?
+new-sentence-rule-1 = <noCopyright>Žedne wobgranicowanja awtorstwa (<cc0>cc--0</cc0>)
+new-sentence-rule-2 = Mjenjej ako 15 słowow
+new-sentence-rule-3 = Korektnu gramatiku wužywaś
+new-sentence-rule-4 = Korektny pšawopis a korektnu interpunkciju wužywaś
+new-sentence-rule-5 = Žedne licby a wósebne znamuška
+new-sentence-rule-6 = Žedne cuze pismiki
+how-to-cite = Kak citěrujom?
+guidelines = Směrnice
+contact-us = Kontakt
+add-sentence-success = 1 sada zezběrana
+add-sentence-error = Zmólka pśi pśidawanju sady
+required-field = Pšosym wupołniśo toś to pólo.
+single-sentence = Jadna sada
+bulk-sentences = Wjele sadow
+
+## REVIEW PAGE
+
+sc-review-rules-title = Wótpowědujo sada směrnicam?
+report-sc-different-language = Druga rěc
+report-sc-different-language-detail = Jo w drugej rěcy napisana ako pśeglědujom.
+sc-redirect-page-subtitle-2 = Stajśo nam pšašanja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mailu</emailLink>.
+
+## BULK SUBMISSION 
+
+select-file = Dataju wubraś
+select-file-mobile = Wubjeŕśo dataju za nagraśe
+accepted-files = Akceptěrowane datajowe typy: jano .tsv
+maximum-file-size = Maksimalna datajowa wjelikosć: 25 MB
+what-needs-to-be-in-file = Co musy w mójej dataji byś?
+upload-progress-text = Nagraśe běžy…
+sc-bulk-submit-confirm = Wobkšuśijom, až toś te sady su <wikipediaLink>zjawnje pśistupne</wikipediaLink> a mam pšawo je nagraś.
+bulk-upload-success-toast = Wěcej sadow nagrate
+bulk-upload-failed-toast = Nagraśe njejo se raźiło, wopytajśo pšosym hyšći raz.
+upload-more-btn-text = Dalšne sady nagraś?
+file-invalid-type = Njepłaśiwa dataja
+file-too-large = Dataja jo pśewjelika
+file-too-small = Dataja jo pśemała
+too-many-files = Pśewjele datajow

@@ -410,6 +410,7 @@ A apólice de seguro irá expirar em dois mil e vinte.
 A apólice de seguro irá expirar em vinte e vinte.
 A aquisição fracassada gerou dúvidas sobre se a liderança da empresa é competente.
 A arbitrariedade da tirania deve ser claramente distinguida.
+A arcada dentária daquela vadia foi encontrada, estamos fritos
 A areia flutua sobre as soleiras da velha casa.
 A areia é expulsa quando dois animais correm
 A argila desapareceu sob uma espessa camada de folhas.
@@ -450,6 +451,7 @@ A bailarina fez uma abertura
 A baleia azul é um animal enorme.
 A bananeira produziu bem desta vez
 A banca de revistas do meu bairro parece ter fechado as portas de vez
+A bancada foi comprada, eles vão votar junto conosco
 A banda está se preparando para o seu desempenho
 A bandeira é vermelha, azul e amarela.
 A barreira de plástico se quebrou.
@@ -644,6 +646,7 @@ A cortina abriu, o show começou.
 A costureira consentiu com essas carícias.
 A costureira é hábil no manejo das fibras e tecidos
 A cota, por pessoa e por turno, é a indicada no anexo oito.
+A cova ficou muito rasa, a polícia vai descobrir desse jeito
 A criança absorveu informações como uma esponja.
 A criança com uma camisa verde está em uma cama sorrindo
 A criança de camisa preta e calça jeans correu pelo caminho.
@@ -783,6 +786,7 @@ A esperança tem um fundo profundo.
 A espinha, quando nasce, já ataca.
 A esta hora da manhã?
 A estagflação corresponde ao pior dos cenários
+A estatura e a ancestralidade cadavérica foi identificada
 A estação enfileirou um ingresso
 A estrada era tão íngreme que o motoqueiro teve que mudar algumas marchas.
 A estrada foi fechada após o evento.
@@ -819,8 +823,10 @@ A expressão facial autêntica do ator estava convencendo o júri.
 A expressão é muito rigorosa
 A extensa rede de estradas agrícolas evita a necessidade de abrir novos acessos.
 A extensão não pode exceder vinte páginas em um lado.
+A extração da cocaína deu certo
 A faca foi pendurada dentro de sua bainha brilhante.
 A faculdade decidiu diminuir seu plano de aumentar seus espaços de estacionamento.
+A facção executou seu rival
 A falta de credenciamento neste processo implicará a não valorização do mérito.
 A falta de informação não justifica nada.
 A falta de moradia ensina a trabalhar mal.
@@ -1042,6 +1048,7 @@ A lagarta respondeu com um aceno de cabeça.
 A laje foi escavada em blocos pesados ​​de ardósia.
 A lama estava salpicada na frente de sua camisa branca.
 A lama jazia profundamente ao longo da rua.
+A lavagem de dinheiro foi feita com sucesso
 A legislação brasileira garante, a todas as crianças e adolescentes
 A lei do funil: a largura para mim, o estreito para você.
 A lei geral da acumulação capitalista
@@ -1101,6 +1108,7 @@ A luz rosa na caixa marrom brilhou.
 A luz verde na caixa marrom piscou.
 A lâmpada de latão havia sido perturbada.
 A lâmpada de neon vermelha estava quebrada.
+A lâmpada pifou, estragou.
 A língua é mais valiosa que um agricultor.
 A língua é viva e progride no tempo
 A macieira está doente
@@ -1187,6 +1195,7 @@ A mesma voz que eu
 A metade conquistada do mundo nas costas de seu cavalo.
 A milícia atua naquela comunidade.
 A milícia dominou a favela.
+A milícia dominou o Rio de Janeiro
 A milícia e os traficantes estão em conflito.
 A milícia entrou na favela.
 A milícia está infiltrada.
@@ -1218,6 +1227,7 @@ A motocicleta fez um barulho alto.
 A moça e o rapaz eram namorados.
 A moça ouviu-o espantada.
 A moça soltou o recipiente? e a água caiu.
+A muamba já tá vindo, vai chegar no aeroporto
 A mudança é tão boa quanto um descanso.
 A mudança é, então, clara.
 A mulher assina acima em uma tabela durante uma reunião da sociedade do chapéu.
@@ -1418,6 +1428,7 @@ A pilastra dá sustentação à estrutura
 A pilha de moedas era maior que a cesta de frutas.
 A pilha serviu no controle remoto
 A pior moto sempre puxa mais.
+A pirataria continua firme por meio dos torrents
 A piscina costumava ser estufas tropicais.
 A piscina estava cheia de cloro.
 A pista parece muito curta para este tipo de avião.
@@ -1594,6 +1605,7 @@ A robótica do assalto aos cofres públicos
 A rodovia estava congestionada
 A rodovia para Goiânia estava fechada.
 A rosa caiu no chão.
+A rotina e o trajeto do carro-forte foi mapeado e delineado
 A rua estava vazia.
 A ruína é a mesma para todos.
 A rádio que mudou, dá-lhe notícias, vídeos, fotos.
@@ -2168,8 +2180,10 @@ Advérbio, conjunção, preposição e interjeição
 Adão Fogassa
 Adão é um bandido.
 Afaste-se de mim, embusteiro
+Afeganistão, Omã, Catar, Kuwait, Iêmen, Judá
 Afeta positivamente a correta previsão do orçamento setorial.
 Afetar a circulação sanguínea
+Afexárida, Antioquia, Teerã, Arbela, Ária, Bactro
 Afinal de contas, dois meses de relacionamento não dão tanto direito a você.
 Afinal, a ideia que saiu temporariamente
 Afinal, eles estão vivendo sob o teto dos outros.
@@ -2378,6 +2392,7 @@ Airton Cabral do Nascimento
 Airton Medeiros de Oliveira
 Airton Sena do Nascimento Maia
 Airton da Mota Trindade
+Airã, Chipre, Veleio Patérculo, Dido, Elissa, Sidônia, sidônios, tírios
 Aiuaba
 Aiuruoca
 Aja como deveria, com a moeda que você paga, você pagará.
@@ -2551,6 +2566,7 @@ Alexandre Feitosa de Almeida
 Alexandre Loures Bitencourt
 Alexandre de Oliveira Cardoso
 Alexandria
+Alexandria, língua franca, heréticas, gnósticos, dissensões, greco-bizantino
 Alexandro, Caren, Daiane, Adriane e Fagner
 Alexsandro Costa da Silva
 Alexsandro Gomes de Lima
@@ -2937,6 +2953,7 @@ Amil, Bob's, Cavé, Granado, Friburgo, Cinemaxx, Cisper, Condor, D'Alegria
 Aminoácidos imprescindíveis para a construção muscular
 Amizade de um lado e interesse do outro.
 Amizade é amor sem asas.
+Amonitas, Fenícia, caldeu, Abraão, Isaac, Jacó
 Amontada
 Amor antigo e madeiras antigas estão tentando entrar.
 Amor antigo, água no cesto.
@@ -2950,6 +2967,7 @@ Amor em casa, quem quer que tenha; quem não tem, está atrás dele.
 Amor, tosse, fumaça e dinheiro não podem ficar escondidos por muito tempo.
 Amores, tristezas e dinheiro, eles não podem ser secretos.
 Amorinópolis
+Amoritas, caldeus, elamitas, cuneiforme, zigurates
 Amostragem estatística
 Amostras de material genético encontradas serão confrontadas com as dos suspeitos
 Amostras, descrições e fotografias dos produtos a serem fornecidos.
@@ -3004,6 +3022,7 @@ Anapu
 Anapurus
 Anarcocomunismo, comunitarismo
 Anarquismo, anarquista, anarco, anarquia
+Anasazis, inuites, iroqueses, olmecas, Montezuma
 Anastácio
 Anatomia, botânica, citologia e embriologia
 Anaurilândia
@@ -3133,6 +3152,7 @@ Anti-frio na estrada de asfalto
 Anti-imperialismo, antirracismo
 Anti-pobre, aporofobia
 Antiderrapante em casa
+Antioquia, Paquistão, coiné, politeísmo, oligárquica, Basileu, Seleuco
 Antivírus são importantes para se evitar spywares e malwares
 Antonella e Gustavo
 Antonieta de Carvalho Borges
@@ -3141,6 +3161,7 @@ Antonina Barbosa Fraga
 Antonina do Norte
 Antonino Calixto da Silva
 Antony da Silva Matos
+Antípatro, Diana dos Éfesos, Efésia, Ptolomeu, Alexandria
 Antônia Adilina Soares
 Antônia Alice Soares da Paes
 Antônia Alves Maciel
@@ -3905,11 +3926,13 @@ Após o prazo ou conclusão da inspeção, o desenvolvedor pode cobrir as valas.
 Após seis meses, os currículos que permanecem neste Serviço serão destruídos ex officio.
 Após sua expulsão da taverna, ele não queria nada com a esposa de Canyamel.
 Após um ano de desenvolvimento de garagem
+Aqueia de Micenas, Hélade, dórios, dóricas, genos
 Aquela cor rosa fluorescente está machucando meus olhos.
 Aquela mulher agora
 Aquela mulher era incompreensível.
 Aquela noite foi a última da feira.
 Aquela regência está incorreta
+Aquela vagabunda, desgraçada, vadia, filha da puta, imbecil
 Aquelas pessoas que estão suspensas, enquanto dura a situação de suspensão de funções.
 Aquele androide insano continua a me ignorar.
 Aquele cara ali gosta de beber muito? fala muito? mas não faz nada.
@@ -3951,6 +3974,7 @@ Aqueles que são aquecidos ao fogo também têm que pagar a lenha.
 Aqueles que têm medo de estar com medo de seus pais.
 Aqueles são ricos, eles têm amigos.
 Aqueles também querem ter lábios rosados?
+Aquemênida, Indo, Cassandro, Seleuco, Lisímaco, gálatas, helenísticos
 Aqui a rosa tem uma vida efêmera.
 Aqui ele faz, o pagamento.
 Aqui estou? entre meu rebanho e meu tesouro? o menino pensou.
@@ -4026,6 +4050,7 @@ Araguaçu
 Araguaína
 Araioses
 Aral Moreira
+Aral, iranianas, Manziquerta, reconquistas bizantinas, mongólicas, Osmã
 Aramari
 Arambaré
 Arame
@@ -4110,6 +4135,7 @@ Ariadna de Lima Chaves Neta
 Arialdo Pereira da Silva
 Arialdo de Oliveira Saldanha
 Ariana Grande participou de Brilhante Victória.
+Arianos, Ansã, aquemênidas, metonímico, sassânidas, xá, Irão, dárico, Safávida
 Ariberto da Silva Bruno
 Aricanduva
 Ariel Pullig dos Santos
@@ -4207,6 +4233,7 @@ Arroio do Padre
 Arroio do Sal
 Arroio do Tigre
 Arroio dos Ratos
+Arrombaram a virgem que estava embriagada
 Arroz e feijão fornecem fibras, carboidratos e um pouco de proteína
 Arruinado para sempre, perdido e o que é pior, desonrado.
 Artemildo Saraiva de Araújo
@@ -4458,6 +4485,7 @@ As notícias falsas proliferam na rede mundial de computadores
 As novas invenções nos ajudam, mas nunca devemos nos tornar seus escravos.
 As obras, os ricos os tornam pobres.
 As onças parecem famintas neste zoológico
+As ossadas foram encontradas, o corpo estava putrificado e desmembrado
 As ovelhas com lobos não formam um casal.
 As ovelhas foram levadas para casa por um cachorro.
 As ovelhas haviam lhe ensinado isso.
@@ -4695,6 +4723,7 @@ Assistência a reuniões do conselho escolar de professores e professores que ai
 Assistência técnica e assessoria metodológica para o desenvolvimento das ações contempladas no projeto.
 Associação de pesquisa de pintura oceânica de Taipei
 Assu
+Assua, egeia, frígios, Lídia, Trebizonda, Sinope, Calcedônia, Pérgamo, Éfeso
 Assuma o controle da minha vida
 Assuma vossos erros
 Assume o controle das medidas preventivas e acessórias dos procedimentos sancionatórios.
@@ -4706,6 +4735,8 @@ Assunção Freitas Jara
 Assunção Leandro dos Santos
 Assunção do Piauí
 Assustar um pássaro não é o jeito de pegá-lo.
+Assíria e Síria
+Assírios e sírios
 Asterio Francisco Pereira da Silva
 Astolfo Dutra
 Astorga
@@ -4936,6 +4967,7 @@ Aurora
 Aurora do Pará
 Aurora do Tocantins
 Austro Ferreira de Souza
+Austrália, insurgência, Hezbollah, israelo-libanesa, patrulhamento, bombardeios
 Ausência faz o coração aumentar mais a afeição.
 Autazes
 Auto da Compadecida, do dramaturgo e romancista brasileiro Ariano Suassuna
@@ -4991,6 +5023,8 @@ Ações de prevenção ao suicídio e cuidado com a saúde mental
 Ações que violam o sistema legal.
 Baba disse que ele era um homem muito bom.
 Babaçulândia
+Babilônia, Macedônia, bizantinos
+Babilônico, babilônica, Talião, cassitas, hititas
 Bacabal
 Bacabeira
 Bacon? panquecas e xarope de bordo é um início saudável para qualquer dia.
@@ -5871,6 +5905,7 @@ Cadastro de Pessoas Físicas
 Cadeira alta em abril: bom verão está chegando.
 Cadeiras de garçom são usadas para cair
 Caderno, mochila, cola, compasso, tesoura e grafite
+Cadáver do acidente estava desfigurado, cérebro escorria sobre o asfalto enquanto cão lambia
 Cadê meu sapato?
 Caetano da Silva Costa
 Caetanos
@@ -5886,6 +5921,9 @@ Café da manhã no café da manhã de amanhã
 Café e lanche
 Café preto, bolachas, biscoitos, pão, manteiga e margarina
 Café é bom, lanches são deliciosos.
+Caguei com tudo, matei a vadia, a polícia vai descobrir
+Cagueta não tem vez
+Caguetou, morreu
 Caiabu
 Caiana
 Caiapônia
@@ -6102,6 +6140,8 @@ Canal e Armazém
 Canal e Armazém de Otaru
 Canalizar significa que um espírito passou as informações através de um médium.
 Canalize seu ódio para os responsáveis da situação, a burguesia é o alvo
+Cananeus, canaanitas, tiberiano, hivitas, Canaã
+Cananeus, gauleses, cretenses, etruscos, celtas
 Cananéia
 Canapi
 Canarana
@@ -6487,6 +6527,7 @@ Casa Grande
 Casa Nova
 Casa da mãe Joana
 Casa de Dee agora?
+Casa de Saud, protetorado, britânico, Transjordânia, Jordânia, Abedalá
 Casa de ferreiro, espeto de pau
 Casa de um homem é o seu castelo
 Casa inteligente.
@@ -6545,6 +6586,7 @@ Castanhal
 Castanhas do Pará, Caju e amendoim
 Castanheira
 Castanheiras
+Castas, enchentes, vazantes, agropastoril, pirâmides
 Castelo
 Castelo do Piauí
 Castelândia
@@ -6857,6 +6899,7 @@ China tem liberdade e democracia
 Chinelo, óculos, protetor solar e bola
 Chineses em outras partes do mundo
 Chineses estão esperando pelo carro
+Chipre, aiatolá Khomeini, alcaida, Ucrânia, Cuaite, Baçorá, Emirados Árabes Unidos
 Chirlene de Melo Lima
 Chopinzinho
 Chora
@@ -6906,6 +6949,7 @@ Cidade Gaúcha
 Cidade Ocidental
 Cidade de navegadores e viajantes que, ontem como hoje, deixaram tudo virado do avesso.
 Cidades como Amesterdão
+Cidades-estado, pontiagudo, cunha, acádio, Mesopotâmia
 Cidalia Costa da Silva
 Cidelândia
 Cidiney Menezes Fiesca
@@ -7071,6 +7115,7 @@ Cláudia tinha uma conta corrente no Itaú e na Caixa.
 Cláudia, Alexandre, Edílson e Ângelo
 Cláudio
 Cláudio tinha uma conta no Banco do Brasil e no Itaú.
+Cnido, Antália, neobabilônica, neobabilônia
 Coaraci
 Coari
 Coberto com lona
@@ -7123,6 +7168,7 @@ Colheita tardia e semeie logo; Se eu reinicializá-lo por um ano, cem acertarão
 Colina
 Colina de George e os bosques de Painshill.
 Colinas
+Colinas de Golã, Cisjordânia, curdos, Curdistão, Anfal, cipriotas
 Colinas do Sul
 Colinas do Tocantins
 Colinas intocadas
@@ -7165,6 +7211,7 @@ Coloque-os em uma bandeja em papel absorvente.
 Coloque-os em uma panela.
 Coloque-os para ferver em uma panela com água e sal.
 Coloquei créditos no celular, de novo
+Coloquei um sonífero na bebida, boa noite cinderela, para fazer o boy desmaiar
 Colorado
 Colorado do Oeste
 Coluna
@@ -7279,6 +7326,7 @@ Começo porque não tenho força para pensar
 Começou a chover.
 Começou a nevar no caminho.
 Começou a soprar com mais força a elevação das areias do deserto.
+Comi ela mesmo
 Comida caseira
 Comida e vinho
 Comissão decide de maneira unânime pela cassação
@@ -7599,6 +7647,7 @@ Compre um chinelo tropical
 Compre uma reimpressão deste livro
 Compreende as estações de proteção catódica e acessórios instalados no tubo.
 Compreendo o seu gesto
+Comprei um rifle, uma pistola, uma granada de fragmentação
 Compressão de dados.
 Compromete-se a financiar a parte do orçamento que não cobre a subvenção concedida.
 Comprometido em aumentar a taxa de participação da mulher no trabalho
@@ -7670,6 +7719,7 @@ Condução pouco especializada
 Conectado por pessoas externas
 Conectando-se da família ao local de trabalho
 Conferência de Genebra
+Conferência de Jacarta, represa, clero xiita, seculares, árabe-israelense
 Conferências sobre software livre.
 Confie em mim? estar sozinho com meus pensamentos era muito mais perturbador.
 Confie em sua própria mente, mas consulte o estrangeiro.
@@ -7716,6 +7766,7 @@ Conscientização de todos os operadores para que eles utilizem primeiro produto
 Consciência faz covardes de todos nós
 Consegui o emprego após aquela entrevista tumultuada
 Conseguimos conquistar com braço forte
+Conseguimos subornar os guardas e policiais da fronteira do Paraguai
 Conseguiremos completar a missão imposta pelo reinado?
 Conselheiro Lafaiete
 Conselheiro Mairinck
@@ -7951,10 +8002,12 @@ Cortando as coisas
 Cortando barbas, elas aprendem a se barbear.
 Cortar a grama.
 Cortar o pano de ouro em fitas finas.
+Cortaram a cabeça dela e o resto dos membros
 Corte a alça para apertar a caixa.
 Corte a torta em grandes partes.
 Corte fatias de pão grosso por cerca de um centímetro.
 Corte-o em pequenos pedaços e separe-o.
+Cortona, Todi, Orvieto, veios, Tarquinia, Fescênia
 Cortá-los e drená-los bem.
 Cortês
 Corumbataí
@@ -7964,6 +8017,7 @@ Corumbiara
 Corumbá
 Corumbá de Goiás
 Corupá
+Corupédio, Lisímaco, Sóter, Gonatas, Filadelfo, indianos, hinduístas, hinduísmo
 Coruripe
 Corvos velhos não pegam minhocas perto da represa.
 Coréia do Norte e do Sul são muito diferentes.
@@ -7999,11 +8053,13 @@ Crato
 Cravinhos
 Cravolândia
 Craíbas
+Creatina, laqueadura, vasectomia
 Creio que esse cavalheiro está no seu quarto
 Creio que não.
 Creio que sim;
 Crepúsculo engole, há inverno por semanas.
 Cresce e gordo
+Crescente fértil, politeístas, agropastoreio
 Crescer gradualmente
 Crescimento da soberania popular revolucionária
 Cresça com raiva lentamente? há bastante tempo.
@@ -8107,6 +8163,7 @@ Cruzília
 Crítica da Economia Política
 Crítica da Filosofia do Direito de Hegel
 Crítica do Programa de Gotha
+Cu, anal, oral, vaginal
 Cubati
 Cubatão
 Cubra a vida com uma colher cheia.
@@ -8184,9 +8241,12 @@ Custódia
 Cutias
 Cáceres
 Cálculo renal
+Cária, Lícia, Pisídia, Bitínia, Parta, Bizâncio, Bálcãs, Cirenaica, Teodósio
+Cáspio, Volga
 Cássia
 Cássia dos Coqueiros
 Cássia, Léo, Jéferson, Anna e Estevão
+Cátaros, mongóis, toltecas, zapotecas, mixtecas
 Câmeras de vigilância foram montadas para permitir que a polícia encontrasse atividades suspeitas.
 Cândido Godói
 Cândido Mendes
@@ -8196,6 +8256,7 @@ Cândido Sales
 Cândido de Abreu
 Cânhamo é uma erva daninha encontrada em partes dos trópicos.
 Cânticos sagrados da antiga religião
+Cã, Caim, Abel, Judá
 Cães correndo ao redor de uma pista
 Cães de corrida correm ao redor de uma curva.
 Cães e gatos comem mal armazenados.
@@ -8252,6 +8313,7 @@ Dado o grau de antropização, as espécies encontradas são geralmente de ampla
 Dados acadêmicos e profissionais: história, pertencente a associações profissionais, trabalho em que participa.
 Dados desclassificados revelam que o cidadão soviético médio se alimentava melhor
 Dados são o novo petróleo
+Dagon, Tanit, primogênitos, Baal, Hades, Poseidon, Cadmo, dragão, ânfora, Eubeia
 Daiane Schmidt Batista
 Daiane Terra Queiroga
 Damianópolis
@@ -8265,6 +8327,7 @@ Danielly, Manuele, Jamily, Lorrana e Wiliane
 Dano sofrido faz você saber, mas raramente rico.
 Danos ao erário
 Dançarina étnica fica na frente de outros artistas em um palco.
+Danúbio, Hungria, Albânia, Bósnia, islão, Sérvia, Romênia, Bulgária
 Daquele momento em diante, começou a declinar.
 Daqueles que se casam nos anos cinquenta, poucos chegam nos anos sessenta.
 Daqui a alguns minutos
@@ -8422,6 +8485,7 @@ De volta à escola é realmente interessante
 Debaixo do chão havia um mundo desconhecido por qualquer humano.
 Debater e votar a validação ou revogação do decreto-lei.
 Debates tentam descobrir como invocar os infortúnios que eles prevêem.
+Decapitaram a x nove, cortaram o cabelo dela e deram um tiro no olho
 Decepção psicológica
 Decida-se amar essa criança
 Decidi trazer dinheiro para minha mãe.
@@ -8458,6 +8522,7 @@ Defesa Contra as Artes das Trevas
 Define parâmetros de controladoria
 Definitivamente fratura ou precisa abrir uma faca
 Definição de veloz.
+Degolaram. Ela foi degolada e enterrada
 Degradação ambiental
 Deitado eternamente em berço esplêndido
 Deite
@@ -9004,6 +9069,7 @@ Disse-lhe só que esperasse.
 Disseminada por outro espectro partidário
 Disseram que ele é um corno.
 Disseram-lhe que, se as pessoas não trabalhassem, elas viveriam mal.
+Dissolvi o corpo com ácido sulfúrico, não sobrou nada, nem os ossos
 Distorcido na cama do hospital
 Distrações raras.
 Distribuída
@@ -9320,6 +9386,7 @@ Dois reais por um pão de queijo é um bom valor
 Dois santos em um dia.
 Dois snowboarders estão no ar sobre a neve
 Dois socorristas estão tratando um paciente ao ar livre.
+Dois terços, Eufrates, tardia, liga de Assua, presumivelmente, topográfico
 Dois velhos com chapéus estão de pé entre os carros com seus acordeões.
 Dois velhos em chapéus cochilam ao sol do lado de fora
 Dois velhos sorrindo em vestes.
@@ -9369,6 +9436,7 @@ Dores do Indaiá
 Dores do Rio Preto
 Dores do Turvo
 Doresópolis
+Dorflex, xarelto, selozok
 Dorme mais calmamente aquele que não tem dívidas que o que tem dinheiro.
 Dormentes
 Dormia.
@@ -9944,6 +10012,7 @@ Efetivamente reduzir a taxa de criminalidade juvenil
 Efetivamente, há ainda muito oportunismo
 Egesa, Drogaria, Sercla, Zema, Bel, Algar, Italac, Itambé, Locamerica, Verdemar, Usiminas, Ricardo Eletro
 Egito, Nigéria, Somália e Sudão estão se desenvolvendo rápido
+Egito, egípcios, atenienses, espartanos, Atenas, Esparta
 Ego versus intuição
 Ei!
 Ei, eu comprei suco de abacaxi sem adição de açúcar.
@@ -9962,6 +10031,7 @@ Ela acha que o mundo tem pés de barro.
 Ela acorda a filha adormecida
 Ela acordou do pesadelo.
 Ela acusou um ex-condenado por perseguição e agressão sexual.
+Ela adorava fumar narguilé com essências e sabores diversos
 Ela agora gosta de sua preocupação no começo.
 Ela ainda chorou a tarde toda.
 Ela ainda está respirando
@@ -10029,9 +10099,11 @@ Ela era a encarregada de tudo.
 Ela era a estagiária mais inteligente
 Ela era gentil com velhos doentes.
 Ela era muito engraçada.
+Ela era necrófila e praticava sexo com cadáveres e defuntos no necrotério
 Ela era uma chefe legal.
 Ela era uma costureira pobre e sempre usava luvas.
 Ela era uma excelente diretora
+Ela era uma zoófila e praticava atos de bestialidade e zoofilia. Foi presa
 Ela ergueu a bandeira de pirata.
 Ela escreveu as coisas.
 Ela escreveu para mim todos os dias desde então.
@@ -10099,7 +10171,10 @@ Ela foi até a loja e teve que comprar tudo agora.
 Ela foi com a barriga para o pão.
 Ela foi de mochila pela Europa com um amigo do ensino médio.
 Ela foi direto para ficar com ele em sua casa.
+Ela foi empalada e teve corrimento de sangue através de seus orifícios
+Ela foi fatiada e queimada vida, dentro de pneus
 Ela foi infectada com bacilos da difteria com a idade de um ano.
+Ela foi morta, executada, assassinada, apagada
 Ela foi para a sala de estar
 Ela foi à farmácia para pegar as pílulas.
 Ela fugiu para a Lituânia, onde se refugiou
@@ -10108,7 +10183,9 @@ Ela ganhou um Oscar.
 Ela garantiu esse lugar?
 Ela gosta da vida no país
 Ela gosta de ler livros de suspense
+Ela gosta de ser dominada e dominar
 Ela gosta de você.
+Ela gostava de vaporizar com vaporizadores, cigarros eletrônicos e usar adesivos de nicotina
 Ela habilmente destruiu o brinquedo.
 Ela hackeou um banco de dados.
 Ela infelizmente tem um acidente vascular cerebral
@@ -10195,6 +10272,7 @@ Ela precisa obter suas transcrições e passaporte primeiro.
 Ela precisa ser algo que as pessoas querem fazer parte.
 Ela precisará ter as mesmas informações para entender tudo corretamente.
 Ela prefere a vida no país.
+Ela preferia cigarro de menta ou mentolado
 Ela prometeu sem pensar
 Ela quebrou o braço em vários lugares.
 Ela quer falar com o tio Francis.
@@ -10246,6 +10324,7 @@ Ela tem cinco metros de altura.
 Ela tem dez minutos de idade.
 Ela tem idade para ser sua vó.
 Ela tem mais quatro irmãs e dois irmãos mais novos.
+Ela tem mania de perseguição
 Ela tem medo de que todos se tornem inconvenientes
 Ela tem muita sorte de seguir a inveja.
 Ela tem o sorriso mais lindo que eu já vi.
@@ -10264,8 +10343,10 @@ Ela tentou parar o sangramento de suas coxas com um lenço de papel.
 Ela terá que replicá-lo com precisão.
 Ela teve o perfil hackeado.
 Ela teve pneumonia uma vez.
+Ela teve uma overdose, deixa ela aí, vamos sair daqui
 Ela tinha fibras de aço
 Ela tinha idade para ser sua mãe.
+Ela traficava drogas em bairros de classe média alta
 Ela tá pirando legal.
 Ela usava uma capa que a deixava invisível
 Ela vai começar às duas horas.
@@ -10275,6 +10356,7 @@ Ela vai ouvir muito a sério
 Ela vai perder a cabeça quando descobrir.
 Ela vai ser na terça-feira?
 Ela vem naturalmente.
+Ela vende drogas dentro do banheiro feminino da boate
 Ela viaja todo final de ano para a França.
 Ela virou-se para John e gritou? "Look Out!"
 Ela viu um caracol na mesa.
@@ -10305,6 +10387,7 @@ Ela é muito engraçada
 Ela é muito incerta.
 Ela é nebulosa.
 Ela é paleontóloga
+Ela é praticante de sadomasoquismo e masoquismo
 Ela é progressista, porquanto apresenta reivindicações democráticas
 Ela é quase macia no chão
 Ela é romântica.
@@ -10360,10 +10443,12 @@ Ele agora se lembrava
 Ele agradeceu às criaturas, porque nada precisou ser drenado.
 Ele ainda chama a mãe de "mamãe".
 Ele ainda está ao redor da área.
+Ele ainda está desaparecido, estão buscando, mas sem sucesso
 Ele ainda gosta dela.
 Ele ainda toca a criança de vez em quando.
 Ele alegou que não conseguia lembrar o que aconteceu no caminho.
 Ele alugou um flat.
+Ele anda esquisito, se converteu ao islamismo e virou muçulmano
 Ele apareceu com as primeiras estrelas da noite.
 Ele apenas ficou em silêncio e em silêncio
 Ele aprecia a capacidade de abstrair, generalizar e pensar de forma construtiva.
@@ -10373,6 +10458,7 @@ Ele assentiu e não disse nada.
 Ele assentiu.
 Ele assimila o conhecimento, mas tem lacunas em seu treinamento.
 Ele assumiu a liderança e manteve toda a distância.
+Ele atirava com um fuzil, rifle, carabina, garrucha, submetralhadora, metralhadora e sniper
 Ele atuou em vários filmes.
 Ele avaliará o progresso e as dificuldades para procurar soluções em tempo real.
 Ele avistou os navios.
@@ -10387,6 +10473,11 @@ Ele beliscou sua bochecha.
 Ele caminhou
 Ele caminhou lentamente pelo mercado.
 Ele carrega o rosto a qualquer momento de sua vida.
+Ele carregava drogas, fazia o transporte como aviãozinho
+Ele carregava galões de gasolina e álcool para iniciar um incêndio, era um incendiário
+Ele carregava machete, martelo, facão, canivetes, facas, soco inglês
+Ele carregava taco de baseball, cacetete, bastão retrátil e spray de pimenta
+Ele chacinou uma multidão inteira com uma escopeta, uma pistola, um revólver
 Ele chamou o professor pelo primeiro nome.
 Ele chega em Canton, ele vai lá alguns dias e retorna.
 Ele chega quando?
@@ -10440,6 +10531,8 @@ Ele decidiu retornar ao estábulo de seu amigo pela rota mais longa possível.
 Ele decidiu se concentrar em assuntos mais práticos.
 Ele dedicou sua afeição ao seu trabalho.
 Ele defendeu os traficantes.
+Ele defendia a eugenia e a raça superior ariana
+Ele defendia a perseguição de minorias
 Ele definitivamente vai comprar
 Ele deixou a casa e seus pensamentos atrás dele.
 Ele deixou muito claro
@@ -10470,6 +10563,7 @@ Ele diz que não precisaria esperar o ano todo, é muito caro.
 Ele diz sim.
 Ele dorme de dez horas.
 Ele dorme dez horas por dia.
+Ele drogou a bebida da jovem numa balada e a molestou. Ela não lembra
 Ele dá a todos a sua opinião.
 Ele e sua expressão são muito rigorosos
 Ele elogia o mar e foge dele.
@@ -10503,6 +10597,7 @@ Ele era um clérigo que era alto.
 Ele era um garoto muito atraente, fisicamente e intelectualmente.
 Ele era um guarda civil em Guantánamo e não errou.
 Ele era um homem rico?
+Ele era um pedófilo que praticava pedofilia, foi inocentado pela justiça brasileira
 Ele era um ser insignificante e pretensioso.
 Ele ergueu as sobrancelhas.
 Ele errou
@@ -10549,8 +10644,10 @@ Ele estendeu a mão e pegou uma concha do chão.
 Ele esteve aqui?
 Ele está a caminho.
 Ele está agora em um caminho muito diferente e reconstruindo sua vida.
+Ele está alucinando e ameaçando matar todo mundo
 Ele está angustiado com sua netinha
 Ele está certo
+Ele está com um coágulo no cérebro
 Ele está desesperado, ele não sabe o que fazer.
 Ele está em uma escalada golpista
 Ele está estudando a língua Japonesa.
@@ -10564,6 +10661,8 @@ Ele está muito ameaçado para falar.
 Ele está muito nervoso.
 Ele está na mesa.
 Ele está no meu quarto.
+Ele está numa fase de hipomania. Antes estava numa fase depressiva
+Ele está ouvindo vozes e está com mania de perseguição e delírios
 Ele está procurando por você.
 Ele está sempre cheio de crianças que jogam e jogam sem parar.
 Ele está sempre fazendo um discurso.
@@ -10574,16 +10673,21 @@ Ele excluiu cinco tabelas do banco de dados.
 Ele experimentou as imagens com os dedos enquanto ouvia.
 Ele fala sobre sua infância no microfone que ela tinha para o Natal.
 Ele falou com ela.
+Ele falsificou vários documentos públicos importantes
 Ele faz o que ele quer, o que ele pode.
+Ele fez bombas caseiras de fragmentação, com pregos e misturas químicas explosivas
 Ele fez muito.
 Ele fez outra reverência.
 Ele fez seu movimento, depois de pensar muito
 Ele fez tanto ghostwriting que ele começa a se sentir como um fantasma? também.
 Ele fez três conversas simultâneas!
 Ele fez um corte na lateral da embalagem
+Ele fez um ritual satânico, é thelemita
 Ele fez um silêncio.
 Ele fez um vento e suas saias subiram.
+Ele fez uma chacina, um massacre, um tiroteio em massa
 Ele fez uma delação premiada
+Ele fez uma mistura de remédios, o lean, e ficou esquizofrênico
 Ele fez uma selfie.
 Ele ficou alarmado com o que aconteceu.
 Ele ficou atordoado e subjugado.
@@ -10608,19 +10712,25 @@ Ele foi o sétimo sucessor de São Francisco na cabeça da ordem.
 Ele foi recebido pelo Donald Trump.
 Ele forneceria tudo para ele.
 Ele franziu a testa
+Ele fumava crack e injetava heroína
+Ele fumava ganja, cannabis, maconha e salvia divinorum
 Ele ganhou muito em felicidade, mas não em moralidade.
 Ele geralmente recebe visitas de intérpretes, diretores e produtores de renome internacional.
 Ele girou
+Ele gosta de machucar animais
 Ele gostava de disparar tiros e sentia prazer em pescar.
+Ele gostava de tomar clonazepam, diazepam e sertralina
 Ele gostou da água em seu copo.
 Ele gravou tudo com sua filmadora para ter uma prova impermeável.
 Ele grita
 Ele habilmente destruiu o coelho.
+Ele hackeou a comunicação com a polícia
 Ele hackeou o sistema do banco.
 Ele hackeou um banco de dados.
 Ele havia entendido a história que o velho rei lhe dissera.
 Ele havia tombado sobre a borda e caído no buraco.
 Ele ia perder o lugar e todas as coisas boas que aprendera.
+Ele invadiu uma escola e fez um atentado terrorista
 Ele irá acompanhar o arranjo completamente.
 Ele irá verificar todos os dias o funcionamento do equipamento eletrônico.
 Ele já estava novamente acostumado ao silêncio do deserto.
@@ -10633,6 +10743,7 @@ Ele levantou o troféu alto.
 Ele lhe dá o direito político de comandar.
 Ele lida com manutenção, desenvolvimento e distribuição, sem incluir publicidade.
 Ele ligou o microfone no momento em que a galinha estava pronta para gritar.
+Ele me chupou, amiga. Dei uma bela mamada no pau dele
 Ele me conduz ao lado do rio tranquilo.
 Ele me deixou completamente desapontado
 Ele me deu sua palavra de honra.
@@ -10644,6 +10755,7 @@ Ele modificou um jogo de t-rex para um evento de Natal.
 Ele monitora a renda final de outras administrações no campo de uma política setorial.
 Ele morava com a família num pequeno bueiro.
 Ele morreu
+Ele morreu degolado na cela da penitenciária
 Ele morreu sem dor ou glória.
 Ele moveu cerca de? invisível, mas todos puderam ouvi-lo.
 Ele muda de cor quando você diz as palavras "esponja azul".
@@ -10779,6 +10891,7 @@ Ele pegou seu celular e fez uma selfie.
 Ele pegou seu dinheiro e contou.
 Ele pegou um engarrafamento na estrutural.
 Ele pegou uma das pedras.
+Ele pensou em se vingar
 Ele pensou que com alguma paciência seria capaz de transformar tudo em ouro.
 Ele pensou que estava quebrando uma nuvem na frente de seus olhos.
 Ele pensou que? com alguma paciência? ele seria capaz de transformar tudo em ouro.
@@ -10798,6 +10911,7 @@ Ele precisava de uma bebida.
 Ele preferia química a matemática
 Ele prega consciências e vende vinagre.
 Ele preparou um sanduíche e bebeu chá quente de um copo de cristal.
+Ele pretendia explodir um prédio e fazer uma grande explosão
 Ele primeiro pediu referências e depois fez a entrevista.
 Ele propôs uma solução.
 Ele provavelmente está tentando o portão!
@@ -10810,6 +10924,7 @@ Ele queria comprar uma Lamborghini vermelha.
 Ele queria contar a ele sobre Fátima.
 Ele queria dizer isso para o alquimista?, mas ele estava com medo do homem.
 Ele queria esquecer a visão e retornar à sua meditação.
+Ele queria matar sua namorada
 Ele rapidamente afastou as mãos.
 Ele rastreia despesas menores e controla bancos e dinheiro.
 Ele realmente era um rei sábio.
@@ -10830,11 +10945,13 @@ Ele sabe que ela está com raiva.
 Ele sabia como cortá-los e como abatê-los.
 Ele sabia como ele era!
 Ele sabia que ele era mais forte que seu amigo.
+Ele sacrificou um bode no altar
 Ele sai para comprar coisas
 Ele saiu do inferno e ele não quer voltar.
 Ele saiu sem se despedir do comerciante de cristal.
 Ele saudou a todos e todos a saudaram quando ela a viu.
 Ele se aproximou da massa e ficou surpreso com o tamanho e a forma.
+Ele se embriagou e atropelou crianças, os órgãos estouraram jorrando sangue por toda parte
 Ele se enganou de novo
 Ele se envolveu com o tráfico.
 Ele se escondeu atrás do armário
@@ -10904,6 +11021,7 @@ Ele tem um milhão de seguidores
 Ele tem um rosto bonito.
 Ele tem um sorriso petrificado, para você curar.
 Ele tem uma cabeça grande.
+Ele tem uma ponto cinquenta atrás da picape
 Ele tentaria cumprir a ordem do pai o mais rápido possível.
 Ele tentou coletar estrume da rua e vendê-los, mas ele não saiu.
 Ele tentou com toda a força abrir a porta em pânico.
@@ -10914,17 +11032,23 @@ Ele teve que cuspir um pouco de tabaco da boca.
 Ele teve sniffles durante todo o dia.
 Ele tinha aproximadamente a mesma idade e altura que o menino.
 Ele tinha assumido que ele logo voltaria para suas ovelhas.
+Ele tinha atropelado uma ciclista mas fugiu da cena do crime
 Ele tinha certeza de que a garota nunca entenderia.
 Ele tinha em sua carteira ações da Friboi
 Ele tinha estragado a tampa que fechava seu estômago.
 Ele tinha feito isso por anos? e sabia o horário de todos que passavam.
 Ele tinha fé.
+Ele tinha muitos revólveres, lançador de granadas, detonadores, machadinhas
 Ele tinha o escritório lá e minha mãe estava carregando a loja.
 Ele tinha quatorze anos.
 Ele tinha uma Lamborghini amarela.
 Ele tinha visto reis e mendigos andando pelas areias do deserto.
 Ele tirou uma gota de sangue.
 Ele toca a cabeça dela de vez em quando.
+Ele tomava bala, doce, anfetaminas, metanfetamina e estava em surto psicótico, tendo muitas alucinações
+Ele tomava o chá de cacto de peyote, uma droga alucinógena e psicodélica legal
+Ele tomou aspirina e paracetamol
+Ele tomou ayahuasca, surtou e virou esquizofrênico psicótico
 Ele tomou um gole da xícara de café e balançou a cabeça.
 Ele trabalha na Agência de Água da Catalunha, Ivan.
 Ele trabalha nessa área.
@@ -10933,7 +11057,11 @@ Ele trabalhou duro nesta temporada.
 Ele traz seu próprio almoço para o trabalho? e come sozinho em sua mesa.
 Ele trouxe seis ovelhas com ele.
 Ele tá com a boca machucada.
+Ele tá fazendo os corres para a facção
 Ele usa dois chips de operadoras diferentes
+Ele usa metadona para redução de danos
+Ele usava a pistola taurus e glock
+Ele usava um colete kevlar e placas blindadas soldadas
 Ele usava um terno desgastado.
 Ele usou a senha dela.
 Ele vagou por um tempo, mantendo as palmeiras do oásis à vista.
@@ -10944,6 +11072,7 @@ Ele vazou essa informação.
 Ele veio em um voo da Gol.
 Ele veio, como a roda do tempo, o primeiro domingo da Quaresma.
 Ele vem quando?
+Ele vende crack e ritalina
 Ele vestiu sua roupa árabe de linho branco? comprou especialmente para este dia.
 Ele viajou para Portugual eu acho.
 Ele viajou pra Lisboa pela Tap.
@@ -10972,6 +11101,7 @@ Ele é filiado ao tráfico.
 Ele é forçado até certo ponto por causa de sua condição.
 Ele é grato, rápido de fazer e gostar de todos.
 Ele é grato.
+Ele é hitlerista, nazista, nacional socialista, um psicopata
 Ele é louco ou bêbado ou algo assim.
 Ele é membro do Comitê Conjunto sobre Políticas de Igualdade.
 Ele é meu escritor favorito.
@@ -10990,7 +11120,10 @@ Ele é o ator mais bem pago este ano.
 Ele é o homem que os anúncios são escritos para.
 Ele é o veterinário que cuidou do meu coelho
 Ele é o único marido que tenho.
+Ele é paranoico, ela também é paranoica
 Ele é piloto da Gol.
+Ele é protofascista, fascista e neofascista
+Ele é psicopata, sociopata, misógino e antissocial
 Ele é quem lida com os banheiros e a limpeza das instalações.
 Ele é responsável pelo financiamento
 Ele é rico, porém não trabalha.
@@ -11286,6 +11419,7 @@ Eles também podem recorrer a programas primários de alfabetização por meio d
 Eles também precisam experimentar o nível sanguíneo até oito vezes por dia.
 Eles também serão mais escuros; Este é necessariamente o anterior.
 Eles também serão responsáveis ​​pelo trabalhador ao viajar em seu próprio veículo.
+Eles tem bipolaridade e borderline
 Eles tinham muito a divulgar.
 Eles tiram as fichas de dominó do mármore das mesas com ruído.
 Eles tiveram que desistir de melhorar.
@@ -11319,6 +11453,7 @@ Eles, sim, eles abaixo de Deus.
 Elesbão Veloso
 Eletrobras Furnas, Embelleze, Embratel, Enel, Eneva, Everest, Farmoquímica, Fiago, Forship, Petrópolis, Severiano, Guanabara
 Eletronuclear
+Eletrólitos, vômitos diarreias, insuficiência cardíaca, dor, febre
 Elias Fausto
 Elias Jabbour
 Elias Jabbour é um grande especialista do socialismo com características chinesas
@@ -11640,6 +11775,7 @@ Empréstimo sob o teto dos outros
 Empurre a bandeja sobre a borda da mesa.
 Empurre a nota entre duas folhas.
 Empurre a porta
+Empurrei ela de cima de um prédio, ela se espatifou no chão e morreu
 Empuxo, equações, pressão, Aquimedes, Pascal, turbulência, capilaridade
 Emulação de sistema.
 Encaminhar as atividades dos primeiros ex-alunos
@@ -11713,6 +11849,7 @@ Enfeites natalinos
 Enfileiramento é algo em que os britânicos se destacam.
 Enfim, a hipocrisia
 Enfim, todos conseguiram escapar! Opa! Quase todos!
+Enforquei ele até a morte
 Enfrentando a situação da diplomacia internacional hoje
 Enfrentando os olhos piscando
 Enfrente seus olhos chorando
@@ -11778,6 +11915,8 @@ Entenda todos os problemas que lhe são apresentados e para os quais foi convoca
 Entende-se que a concessão será reduzida anualmente.
 Entender mais sobre a nossa situação será surpreendido.
 Entendo.
+Enterraram a droga para despistar os policiais e cães farejadores
+Enterraram o cadáver, o corpo. Está com cheiro de podridão
 Entesouramento
 Entidades que possuem um Centro de Informações para Jovens vinculado à Rede.
 Entrada para o museu
@@ -12021,10 +12160,12 @@ Era um benefício que prestava.
 Era um cinto de couro, meio brega.
 Era um enviado de Antônio Lisboa da Silva.
 Era um pacto com o poder invisível.
+Era um pederasta, um lunático, um monstro
 Era um pouco mais velha que ambos:
 Era um processo terapêutico.
 Era um senhor de meia idade.
 Era um trabalhador irregular
+Era um verdadeiro stalker
 Era uma cidade recreativa.
 Era uma cobra cujo veneno poderia matar uma pessoa em minutos.
 Era uma emoção tão grande que suas veias estavam cheias de adrenalina.
@@ -12067,6 +12208,7 @@ Esboçando no final da Austrália
 Escada
 Escala de administração especial, subescala técnica, classe técnica auxiliar, grupo C.
 Escalando quatro montanhas sagradas ontem
+Escalei o muro, arrombei o cadeado e furtei algumas joias
 Escalou a montanha
 Escapou do cativeiro com auxílio de um canivete
 Escola Mandarim de Taipei
@@ -12085,6 +12227,7 @@ Escolhemos uma topologia de toro para nossa rede.
 Escolta.
 Esconder a verdade é esconder ouro.
 Esconder loja
+Esconderam a bucha ali no matagal, no mato
 Escorra bem, despeje a farinha e frite em óleo quente, na lateral da pele.
 Escorra e mexa em uma panela com uma corrente de óleo e sal.
 Escorregou na casca de banana
@@ -12106,6 +12249,7 @@ Escusado será dizer que eles estão descontentes com a linguagem.
 Escusado será dizer.
 Escutara o clamor da base eleitoral
 Escute o pote chamando a chaleira de preto.
+Esfinge, Nínive, babilônios, Melcarte, Hélade, Héracles
 Esforce-se para encontrar uma oportunidade de trabalho
 Esmagando a parede de tijolos
 Esmagando a parede de tijolos vermelhos
@@ -12272,6 +12416,7 @@ Essa terra não é boa.
 Essa tomografia embaçada não me ajuda muito com o diagnóstico.
 Essa tá muito fácil.
 Essa tática de infiltração fascista é, aliás, empregada por toda parte
+Essa vagabunda vai pagar com a vida
 Essa vida pode sempre ter sabor.
 Essa árvore têm uma madeira maciça.
 Essa é a Pedra Filosofal e o Elixir da Vida.
@@ -12844,6 +12989,7 @@ Estou feliz
 Estou feliz que vocês estejam aqui.
 Estou indo para casa e vejo minha esposa e família.
 Estou interessado apenas no presente.
+Estou machucado, estou ferido, vou morrer
 Estou mais nervoso que uma chama!
 Estou matando cachorro a grito
 Estou me especializando em fisiologia, histologia e microbiologia
@@ -12882,6 +13028,7 @@ Estou tão feliz em te ver.
 Estou tão ocupada que ela está com raiva.
 Estou um pouco nervosa
 Estou usando apenas o estilo de relatório padrão.
+Estrabão, sacas, getas, avéstico, védico
 Estratégia inusitada para uma vida melhor
 Estratégia que promove a diversificação da economia local.
 Estreito
@@ -12906,6 +13053,7 @@ Estudar o campo gravitacional e outras finalidades científicas
 Estude o comunismo, o marxismo-leninismo e ganhe terapia gratuita no discord da Soberana.
 Estudos clínicos da nova vacina ainda são excelentes.
 Estudos investigam a influência dos ciclos lunares no sono e no período menstrual
+Estuprei ela, foi forçado. Mas ela tinha me estuprado antes, fui abusado.
 Está aberto ao público?
 Está acontecendo alguma coisa?
 Está ao virar da esquina.
@@ -12961,6 +13109,7 @@ Estática, dinâmica, atrito, inércia, choque, gravitação
 Estância
 Estância Velha
 Estão excluídos da regra do caput
+Estão me perseguindo! Socorro!
 Estética campestre
 Estômago cheio, rumores vazios.
 Estúpido, também estou satisfeito com isso.
@@ -13056,6 +13205,7 @@ Eu apreciaria se você pudesse criar uma tabela concisa.
 Eu aprendi a falar galês na escola.
 Eu aprendi coisas da ovelha? e aprendi coisas do cristal? ele pensou.
 Eu aprendi os segredos do alquimista em minhas viagens.
+Eu assaltei uma joalheria e um banco, mas fui preso na segunda vez
 Eu assinarei, mas apenas por quinze mil pesetas.
 Eu assisti a previsão do tempo.
 Eu assustei
@@ -14400,6 +14550,7 @@ Eu vou levar dez pedaços.
 Eu vou levar isso comigo até eu morrer.
 Eu vou mandar o Ned escrever.
 Eu vou manter você em mente.
+Eu vou matar esse desgraçado
 Eu vou matar os dois!
 Eu vou me tornar amarga e desconfiada das pessoas porque uma pessoa me traiu.
 Eu vou mentir para o professor.
@@ -14446,6 +14597,7 @@ Europa, Encélado e Titã são potenciais satélites habitáveis
 Eusébio
 Eva quer o cabelo dela.
 Eva teve um relacionamento misterioso com Ronald.
+Evangelho de Marcos, Biblos, Gebal, papiro, baixo-relevo, Corsabade
 Evellyn, Natieli, Mireli, Sthefany e Izabella
 Evidente.
 Evidentemente, a necessidade de renovação processual faz parte
@@ -14464,6 +14616,8 @@ Evitem aprovar sentenças de cunho sexista, partidário, intolerante ou com erro
 Evitemos que a tecnologia seja utilizada pelos governos para perseguir os cidadãos
 Evolução da retinite por citomegalovirus após suspensão de terapia
 Ewbank da Câmara
+Exames como os necroscópicos, tanatologia, toxicologia são importantes
+Exames necroscópicos como a autópsia, tanatologia, toxicologia são importantes
 Examinando a floresta durante a noite, ela só podia confiar em seus instintos.
 Examinei o poder legislativo e o poder executivo da União.
 Exata.
@@ -14633,6 +14787,7 @@ Família fica em volta de uma fogueira lá fora.
 Família na sala de estar
 Família reunida em uma casa desfrutando de companhia
 Famílias estão fugindo da guerra na Síria, se refugiando em países da Europa
+Faraó, faraós, cênico, harpas, tambores, flauta, polis, olímpicos
 Faremos a autobiografia tão logo seja possível
 Faremos isso mudando os ritmos, padrões de comportamento e, claro, alterando o relacionamento.
 Faria Lemos
@@ -14904,6 +15059,7 @@ Finanças do condado e da cidade
 Findo
 Findo o prazo
 Fingindo ser feliz
+Finlândia, intifada, Oslo, Osama Bin Laden, Talibã
 Fins de semana são sempre divertidos.
 Fio de malha mantém os pintos dentro.
 Fio deve ser coberto com borracha.
@@ -15092,6 +15248,7 @@ Foi um teste decisivo.
 Foi um trabalho duro.
 Foi um triste silêncio.
 Foi uma boa ideia?
+Foi uma briga de gangues, dentro do presídio de segurança máxima
 Foi uma conta de cento e vinte libras.
 Foi uma das principais batalhas no período inicial da guerra civil comunista.
 Foi uma decisão governamental o esvaziamento dos silos
@@ -15319,6 +15476,7 @@ Galinha velha faz um bom caldo.
 Galinhos
 Galo da sorte conhece os ovos.
 Galvão
+Galácia, Gália, gauleses, gálatas, frígia, Ancira, Ancara, Midas, Górdio
 Gameleira
 Gameleira de Goiás
 Gameleiras
@@ -15418,6 +15576,7 @@ Gerenciar os reparos que são a conseqüência de acidentes com veículos.
 Gerencie as configurações de segurança do usuário e supervisione-o.
 Gerencie com cuidado as postagens na comunidade
 Gerente do Facebook
+Germânicos, teutônicos, cartagineses, assírios
 Gestão de Recursos Distribuidora de Títulos e Valores Mobiliários
 Gestão de conflitos
 Gestão de fundos e outras tecnologias
@@ -15439,6 +15598,7 @@ Giraffas, Politec, Rede Bittar de Hotéis, Catedral
 Girau do Ponciano
 Giruá
 Gisele, Emerson, Breno, Alex e Liliane
+Gizé, Olímpia, Zeus, Ártemis, Mausoléu, Helicarnasso, Colosso de Rodes
 Glauber Braga
 Glaucilândia
 Gleice, Bianca, Vinicios, Karen, Welton e Wellinton
@@ -15453,6 +15613,7 @@ Glória de Dourados
 Glória do Goitá
 Glória, Jonas, Denise e Beatriz
 Godofredo Viana
+Godos, ostrogodos, burgúndios, hunos, visigodos
 Godoy Moreira
 Goiaba sem sementes
 Goiabeira
@@ -15558,6 +15719,7 @@ Graças a Deus você está lá!
 Graças ao entusiasmo de tantos amigos
 Graças aos nossos óculos de realidade aumentada, ganhamos conhecimento dos detalhes.
 Graças à extensibilidade dos navegadores modernos? isso funciona surpreendentemente bem.
+Greco-bactriano, arsácida, cuchana
 Gregor riu alto.
 Greta tinha um bom veleiro.
 Greve no Banco Central é panela de pressão para o governo
@@ -15710,6 +15872,8 @@ Habilidades paranormais
 Habilidades pessoais e sociais que melhoram a comunicação interpessoal.
 Habitação
 Habitação no térreo, porta número um, tipo D, com distribuição própria para morar.
+Hackearam o site do governo
+Hackers invadem bancos de dados públicos e vendem dados sigilosos e sensíveis
 Haha, que viagem, isso.
 Harmonia
 Harmonização facial já é uma prática compartilhada entre influenciadores digitais
@@ -15757,6 +15921,7 @@ Havia uma luz verde cintilante emanando da estátua.
 Havia uma mulher desaparecida!
 Havia uma variedade de mercadorias disponíveis no mercado.
 Havia vozes levantadas e uma espécie de luta parecia estar acontecendo..
+Hebreus, hebreu, pictograma, fonéticos, suméria, migratórios
 Hecatombe épica
 Heehaw e Feliz Natal.
 Hehehe!
@@ -15767,6 +15932,7 @@ Heitor era o nome do prefessor.
 Heitoraí
 Helena e Miguel
 Helena era o nome da atriz.
+Helenizada, selêucidas, Tigranes, Armênia, Pompeu, Lúculo
 Heliodora
 Heliópolis
 Heloísa e Gabriel
@@ -15774,6 +15940,7 @@ Henderson entrou na estação de trem para telegrafar as notícias para Londres.
 Henderson estava aceitando.
 Henderson levantou-se com uma pá na mão.
 Henrique e Ana Clara
+Hepatite, câncer de mama, artrite reumatoide
 Herculândia
 Herval
 Herval d'Oeste
@@ -15782,9 +15949,11 @@ Heróis do mar, nobre povo
 Hexadecimal, bytes, opcodes, acrônimos, bootloader, binário, hexadecimais
 Hey Lucy, você já se lembrou da letra do hino?
 Hiago, Ketlin, Brena, Natasha e Jeniffer
+Hicsos, árabes, arameus, sefarditas, asquenazitas, diáspora
 Hidrelétricas e barragens sendo construídas
 Hidrolina
 Hidrolândia
+Hierápolis, Hircânia, Estacar, Candaar, Pasárgada, Persépolis, Samaria
 Higiene bucal é necessária se quiser manter seus dentes e gengiva saudáveis
 Higienize a ferida e coloque um curativo
 Hipermercado ao lado da estação
@@ -15792,10 +15961,12 @@ Hipoteca não pode ser paga
 Hipotética queda do chefe de Estado
 Hipster executa no violão.
 Hipótese da geração espontânea ou abiogênese
+Hirão, Templo de Salomão, Crônicas, Dã, maçônica, buril, Jezebel, Elias, Acabe, siro-fenícios
 Historicamente, nossos conselhos nascem com a administração romana.
 Historicidade e regimental
 História Pública, Ian Neves, faz parte do discord da Soberana
 História do Canal de Suez e das estruturas
+Hitita, micênicos, Aqueus, Teres, Luca, sardenhos, Serdem, Cadexe
 Ho Chi Minh
 Hoje
 Hoje a aventura realmente começa.
@@ -15900,6 +16071,7 @@ Homens sendo entrevistados pela Fox News
 Homens tocando instrumentos em um campo de beisebol.
 Homens usando capacetes e coletes de segurança estão trabalhando.
 Homofobia é outra forma de divisão dos trabalhadores, contra quem não gera mais escravos
+Homérico, Etrúria, Tínia, Uni, etrusca, Montes Apeninos, Tirreno, Arno, Tibre, Volterra
 Honestamente, eu espero que ele morra.
 Honesto Ahmed não convenceu os desenvolvedores.
 Hong Kong é muito ventoso
@@ -16078,6 +16250,7 @@ Há, sim, buscas dispersas e desiguais no valor de suas contribuições.
 Há? o alquimista separou o disco em quatro partes.
 Hélida Rangel Queirós
 Hélio faz sua voz estridente.
+Hélios, Artemísia, Constantinopla, Miquerinos
 Iacanga
 Iaciara
 Iacri
@@ -16133,6 +16306,8 @@ Ibituruna
 Ibiá
 Ibiúna
 Ibotirama
+Ibuprofeno, levotiroxina
+Ibéria, Guerras Púnicas, Seleuco, Antígono, Demétrio, Ptolemeus, Astarte
 Icapuí
 Icaraí de Minas
 Icaraíma
@@ -16175,6 +16350,7 @@ Ignorância é o melhor desprezo.
 Igrapiúna
 Igreja Nova
 Igreja e Estado são separados por um motivo.
+Igreja ortodoxa, ortodoxia, ortodoxo, heterodoxo
 Igreja, mar ou casa real, se você quer riqueza.
 Igrejas vazias de guerra e cemitérios completos.
 Igrejinha
@@ -16403,6 +16579,7 @@ Investigadores encontraram dois suspeitos
 Investimento direto estrangeiro
 Investimentos em Selic, tesouro, ações e fundos
 Investimentos que favoreçam a melhoria da eficiência energética em edifícios.
+Invoca o exu caveirinha
 Inácio Martins
 Inúbia Paulista
 Inútil como uma porta de tela em um submarino.
@@ -17150,6 +17327,7 @@ Jones Manoel, Sabrina Fernandes
 Jordi Gil i Pujol, Subdiretor Geral de Assuntos Interdepartamentais, que atuará como presidente.
 Jordânia
 Jordão
+Jordão, litorânea, Israel, israelitas, israelenses
 Jorge anotou a senha da Ana.
 Jorge lavou suas mãos
 Jorge não para de espalhar fake news
@@ -17304,6 +17482,7 @@ Já faz vinte anos que o planejamento não sabe o que fazer aqui.
 Já fez o almoço?
 Já fez o jantar?
 Já fez?
+Já fiz de tudo e não adiantou de nada
 Já foi dito antes, mas tem que ser repetido.
 Já foi dito que em minha terra tudo progride do casamento político levítico.
 Já foi?
@@ -17548,6 +17727,7 @@ Leonardo DiCaprio está encarando o novo filme.
 Leonardo Péricles foi o único candidato presidenciável negro, barrado dos debates pela imprensa racista
 Leonardo foi um pintor famoso.
 Leonel Radde
+Leonório, Leotário, moribundo, Museus Capitolinos, ptolemaico, Cerauno, Antígono Gônatas
 Leopoldina
 Leopoldo de Bulhões
 Ler
@@ -17560,6 +17740,7 @@ Lesões repetidas entre si
 Letícia era minha amiga na escola.
 Leva em conta as principais variantes territoriais da língua e é completamente configurável.
 Leva tempo, claro.
+Levamos a carga de drogas através de submarinos improvisados
 Levantai hoje de novo o esplendor de Portugal!
 Levante a carga para o ombro esquerdo.
 Levante a pedra por cima da cerca.
@@ -17582,6 +17763,7 @@ Leve e não irritante
 Leve em conta os grilhões da Nova cidade de Taipei
 Leve estas cápsulas para a casa da Sra. David.
 Leve-a para Chiayi para ver um médico.
+Levei o corpo pra uma roça, um sítio, um lugar distante
 Levou um tempo para chegar ao escritório.
 Levou um tempo para se acostumar com isso.
 Levá-la ao hospital todos os dias para fazer reabilitação
@@ -17612,6 +17794,7 @@ Lidar com isso com luvas de pelica.
 Lidar com resíduos e reciclar recursos adequadamente
 Lidera a corrida para o senado
 Lidera golpe militar no Sudão e depõe primeiro-ministro
+Lideranças comunitárias exigiram os seus direitos na prefeitura
 Lidiane, Alexander, Carina, Artu e Mayra
 Lidianópolis
 Ligar luzes.
@@ -18036,6 +18219,7 @@ Mané, boboca
 Mao Tse-Tung
 Mao Tse-tung
 Mao Zedong
+Maomé Ali, grão-vizir, armênios, Armênia, turca, Grã-Bretanha, Tríplice Aliança, Áustria, Itália
 Maoísta, maoísmo
 Mapas de navios são diferentes daqueles para aviões.
 Mapeie os olhos piscando
@@ -18160,6 +18344,7 @@ Marmelópolis
 Marque o local com uma placa pintada de vermelho.
 Marques de Souza
 Marquinho
+Marrocos, Bagdá, normandos, Palermo, Fatímida, bizantina
 Marta canta bem depois do abate.
 Marte é quase inabitável.
 Marte, Júpiter, Saturno, Urano, Netuno são planetas da Via Láctea
@@ -18508,6 +18693,7 @@ Massa.
 Massapê
 Massapê do Piauí
 Massaranduba
+Masságetas, presbítero, Helesponto, Cáucaso, Marduque, iluminura, Hárpago
 Mata
 Mata Grande
 Mata Roma
@@ -18646,6 +18832,7 @@ Medina
 Meditar ajuda a limpar a mente e a manter o foco no presente
 Medo de mágoa
 Medo de possíveis finais
+Medos, Jardins Suspensos da Babilônia
 Meia hora mais tarde? a pá dele bateu em algo sólido.
 Meia hora não haverá tempo para o pessoal assistido.
 Meio litro de água da torneira.
@@ -18773,6 +18960,8 @@ Metade do pão é melhor que nada.
 Metade homem nu, inclinando-se fora da janela, tirando fotos.
 Meteoritos colidiam fortemente com a superfície terrestre
 Meter o bedelho onde não é convidado
+Metformina, paracetamol, nimesulida, hidroclorotiazida, levonorgestrel
+Meti no cu dela até ela chorar
 Metidos nos cantos?
 Meu acordo com vocês senhores permanece!
 Meu amigo Marko está chegando neste final de semana.
@@ -19015,6 +19204,7 @@ Mister Turner não ficará feliz com isso.
 Misture tudo
 Misture tudo bem
 Misturou as miçangas para formar um pequeno objeto decorativo
+Misturou remédios e drogas, morreu, cai fora
 Mistério
 Miszar estava dormindo mal.
 Miséria da Filosofia
@@ -19041,6 +19231,7 @@ Mogi Guaçu
 Mogi Mirim
 Mogi das Cruzes
 Moiporá
+Moisés, monoteístas, judaica, cristã, islâmica
 Moisés, que também contou a sua morte
 Moita Bonita
 Moji Das Cruzes
@@ -19129,6 +19320,7 @@ Mormaço
 Morpará
 Morra, diabo!
 Morretes
+Morreu como indigente, teve seu corpo abusado e estuprado múltiplas vezes
 Morreu de susto
 Morreu por asfixia acidental
 Morreu, mas passa bem
@@ -19414,6 +19606,7 @@ Mãe se calou porque estava muito frio.
 Mãe sou eu.
 Mãe, sogra, cocaína.
 Médico e subdelegado vieram daí a pouco.
+Médicos legistas e odontolegistas
 Métodos de gerenciamento de organização e operação
 Métricas patológicas usadas pelas pesquisadoras
 México
@@ -19570,6 +19763,7 @@ Nai irá a algum lugar depois das dez, mas certamente antes das dez horas.
 Nanotecnologia, robótica, aditiva, aeroespacial, biomédica, modelagem, fenômenos, biomecânica
 Nantes
 Nanuque
+Napoleão Bonaparte, Holanda, Inglaterra, França, Índia, China, Malásia, Indonésia
 Naque
 Naquela noite, houve outro jorrando de gás do planeta distante.
 Naquela época, era o melhor ônibus de longa distância no Japão.
@@ -19634,6 +19828,9 @@ Nação valente, imortal
 Ne vem.
 Necessitaremos de mais contribuições transversais, horizontais e verticais
 Necessitávamos controlar a ansiedade
+Necrochorume infesta cemitérios e aquíferos
+Necrofilia foi praticada pelo médico legista e pelo rabecão no hospital
+Necropsias e laudos cadavéricos
 Negros falando no mercado.
 Neiva do céu!
 Nelson Mandela foi presidente da África do Sul por cinco anos.
@@ -19770,6 +19967,7 @@ Neta de bebê nos braços
 Netek é uma marca de unidade de estado sólido
 Neto
 Neto também é grande
+Netuno, Ugarit, Yamm, Mot, Ponto
 Neutralize todos os inimigos atrás das barricadas com o seu taser.
 Nevando na estrada da montanha
 Neve caindo lá fora
@@ -19784,6 +19982,7 @@ Nicolas e Maria Luiza
 Nicolas e Daniel.
 Nicolau Vergueiro
 Nicoli, Franciane, Lorrane, Thamires e Kaíke
+Nicomédia, Galípoli, Paxá, Adrianópolis, Edirne, Baixo Danúbio, húngaras, sultanato
 Nikola Tesla nasceu no Império Austríaco e foi inventor e físico
 Nilo Peçanha
 Nilópolis
@@ -20206,6 +20405,7 @@ Nova régua, uma nova ordem.
 Nova tela inicial.
 Novais
 Novak não ficará feliz com isso.
+Novalgina, lisador, doralgina, doril, dipirona, lacto-purga
 Novamente.
 Novas histórias, velhas lutas.
 Novas opções de integração de email para usuários que desejam enviar emails com anexos.
@@ -20910,6 +21110,7 @@ Não é bom para a sobrevivência em Taipei
 Não é bom que o burro não estremeça no estábulo.
 Não é como se achássemos que nos tratam com xenofobia e preconceito linguístico
 Não é conhecido.
+Não é corrupção, é lobby
 Não é de admirar que as pessoas sejam tão poucas
 Não é difícil formular tudo isso como um polinômio.
 Não é do vento que eu falei.
@@ -21667,6 +21868,7 @@ O artigo seis estados especifica que esta lei deve assegurar a cooperação inte
 O artigo terceiro do Estatuto da Catalunha diz "A língua da Catalunha é catalã".
 O artista decora a parede com um teste padrão azul e branco original.
 O asfalto dificulta o escoamento da água.
+O assalto ao carro-forte deu certo
 O assistente virtual em catalão não está disponível em nenhuma plataforma.
 O astigmatismo forte pode ser corrigido por lentes de contato.
 O ataque ao nosso servidor raiz sobrecarregou nosso administrador sênior.
@@ -21687,6 +21889,7 @@ O azul é a cor que escolheram para o quarto de hóspedes.
 O açougueiro me deu um quilo de presunto de graça!
 O bacalhau é o principal negócio da costa norte.
 O bacharelado começaria mais tarde.
+O bairro inteiro está sem iluminação pública
 O banco pergunta a senha da conta.
 O banco pressionou pelo pagamento da dívida.
 O banco vai reabrir na próxima semana.
@@ -21737,6 +21940,7 @@ O boto-cor-de-rosa é representado por um homem belo e galanteador
 O branco ao lado do preto destaca mais.
 O braço de leva estava deitado na grama fria.
 O brilho no topo tornava-o impróprio para ler.
+O buceta, que droga, que merda, que caralho
 O bufão da extrema direita mundial
 O cabelo da amiga dela era loiro.
 O cabelo de uma menina corre atrás dela enquanto balança
@@ -21864,6 +22068,8 @@ O ciclista vermelho ofegante está entre a natureza.
 O ciclone será responsável por muitas mortes
 O cientista escreveu seu papel.
 O cientista está escrevendo seu artigo.
+O cigarro eletrônico foi proibido sendo que é mais saudável que o cigarro tradicional
+O cigarro eletrônico é muito mais saudável porque não tem milhares de químicos
 O cilindro rolou montanha abaixo
 O cinema foi abandonado.
 O cinturão continental aperta muito pouco.
@@ -21931,7 +22137,9 @@ O coração quer o que o coração quer.
 O coração, se pudesse pensar, pararia.
 O corpo dela
 O corpo docente está superqualificado.
+O corpo está num saco preto no porta-malas
 O corpo foi descoberto perto da loja da Tesco na cidade no domingo.
+O corpo já está podre, se decompondo e tá fedendo muito
 O corpo todo está suado no carro
 O corpo todo é neve
 O corpo é atingido com força
@@ -22230,6 +22438,7 @@ O frio de junho mata a divisão.
 O frio de outubro mata a lagarta.
 O fruto de uma figueira é em forma de maçã.
 O fucarão atingiu a costa noroeste ao entardecer
+O fulano me ameaçou de morte pela internet
 O funcionamento desta Comissão não apresentará despesas adicionais.
 O funcionário sugeriu que pedíssemos a sopa.
 O fundador do islamismo foi Mohammad, ou Maomé
@@ -22310,6 +22519,7 @@ O gênio deve sair da lâmpada
 O hall de tráfego tem uma área especial para o design de Londres.
 O hambúrguer é de carne de porco.
 O headphone tinha quebrado
+O helicóptero com a mercadoria está chegando, sejam ligeiros em pegar a muamba
 O herói misterioso voltou a fazer um salvamento.
 O herói sempre tem inimigos.
 O hidratante move-o e as chuvas do leste.
@@ -22417,6 +22627,7 @@ O integrador fornece os animais, os meios de produção e os serviços acordados
 O interesse da América é separar a Grã-Bretanha.
 O interesse de conversão é profissional
 O interesse do autor pode limitar-se à declaração:
+O interpol conseguiu prender células de grupos terroristas neonazistas brasileiros da internet
 O interruptor não funciona, que pimentas fazem!
 O interruptor traseiro não pode ser desligado.
 O inverno ainda pode ir
@@ -22434,6 +22645,7 @@ O isolamento era apenas parcial
 O isolamento talhou-me à sua imagem e semelhança.
 O item custa cinco ienes.
 O item é cinco euros.
+O jagunço matou em nome do mandante
 O jardim é mais antigo que a casa.
 O jogador de beisebol dá um soco na bola.
 O jogador de futebol em vermelho está tentando bloquear o jogador em branco.
@@ -22545,6 +22757,7 @@ O mar é lindo no chão.
 O mar é lindo olhando de longe.
 O mar, o amigo se coloca no esquecimento.
 O mar, quanto mais você tem, mais vibra.
+O marido esfaqueou ela, ela gritou e os vizinhos ouviram
 O marinheiro no mar; o labrador, a terra e o soldado, para a guerra.
 O marreco decidiu se tratar com uma fonoaudióloga
 O matador de leões.
@@ -22923,6 +23136,7 @@ O poeta às vezes vive entre dois mundos
 O policial está tendo nota na mão.
 O policial foi acusado de vazar uma operação sigilosa.
 O policial foi truculento em sua abordagem
+O policiamento é fraco nessa região
 O polo norte de Marte é uma gigantesca espiral
 O polvo ficou preocupado com a lula.
 O ponteiro das horas vira trezentos e sessenta graus
@@ -23022,6 +23236,7 @@ O professor não está feliz com seus alunos.
 O professor pensou que ele havia aprendido tudo o que podia.
 O programa da festa vale três euros e meio.
 O programa de monitoramento ambiental busca o cumprimento de medidas preventivas, corretivas e compensatórias.
+O programa e o livro foram pirateados e disponibilizados gratuitamente na internet
 O programa nunca tratou da questão religiosa.
 O programa oferecido será composto por alojamento e pensão completa.
 O progresso desta semana pode ser dito muito
@@ -23038,6 +23253,7 @@ O projeto prevê a extensão de duas linhas de transmissão
 O proletariado agrícola britânico
 O proletariado se revoltará contra a burguesia
 O promotor participou da reunião
+O prontuário estava sujo e maculado de vícios
 O proprietário afetado compartilhará a parte atribuída com o detentor do direito.
 O proprietário certifica a reutilização do silicato e do derivado fornecido pelo fornecedor.
 O proprietário ou detentor da clínica enfrentará as despesas da administração.
@@ -23479,6 +23695,7 @@ O salmão de janeiro, para o rei o primeiro.
 O salário à peça
 O salário é o mesmo que em outro lugar
 O salão de assembléia principal
+O sangue do corpo frio coagulou, está todo roxo e fedendo
 O sangue dos mortos, a voz chorosa da natureza chama: é hora de partir.
 O sangue esfria lentamente e começa um processo que quase terá que detê-los.
 O santo se chamava Antônio José de Souza.
@@ -23505,6 +23722,7 @@ O senador de Idaho foi contra isso.
 O senhor tem um grande susto...
 O sentimento de instabilidade é perpetuado no meio da ordem.
 O sentimento de mágoa é subjetivo
+O sepultamento aconteceu. A moça foi sepultada e logo foi vilipendiada por um necrófilo
 O ser humano é naturalmente egoísta e altruísta, mas o capitalismo favorece o primeiro
 O servidor discord da Soberana é o maior do Brasil
 O servidor está anormal.
@@ -23530,6 +23748,7 @@ O sistema de produção de nitrogênio tem isolamento acústico.
 O sistema de seleção será a oposição da concorrência.
 O sistema para determinar o preço do contrato é o dos preços unitários.
 O site da empresa foi invadido
+O site do governo foi hackeado
 O site pede uma senha pra entrar.
 O skatista está andando no trilho de prata, enquanto outros três jovens olham.
 O snowboarder fica com ar sério.
@@ -23549,6 +23768,7 @@ O sol está forte e o clima está muito quente
 O sol fluirá novamente e a serra reverberará os campos.
 O sol foi transformado em um disco de ouro.
 O sol nasceu mais cedo hoje.
+O sol negro é um símbolo neonazista usado pelos ucranianos
 O sol pensou por um minuto.
 O sol pensou sobre esse? e decidiu brilhar mais intensamente.
 O sol queimava impiedosamente do céu.
@@ -23686,6 +23906,7 @@ O tráfego era enorme.
 O tráfego está caótico, precisamos de um guarda de trânsito
 O tráfego é pesado no centro da cidade.
 O tráfego é terrível hoje.
+O tráfico dominou a favela e os moradores pagam impostos e taxas
 O tráfico está muito lento.
 O trânsito hoje estava terrível.
 O tubo começou a enferrujar enquanto novo.
@@ -23720,6 +23941,7 @@ O valor de cada bolsa é de vinte e cinco mil euros brutos.
 O valor do prêmio será o valor que é repetido três vezes.
 O valor patrimonial das fazendas próximas irá descer.
 O vandalismo poderia transmitir algumas mensagens engraçadas? também!
+O vape dela tinha teor de canabidiol
 O vaqueiro era muito rápido.
 O vaso de ouro é raro e caro.
 O vasto mundo
@@ -23820,6 +24042,7 @@ O xadrez é uma simulação da guerra.
 O xadrez é uma simulação militar.
 O xerife do condado, um funcionário da justiça, executa a sentença.
 O youtuber foi desmonetizado
+O zapzap está perdendo espaço para o telegram
 O zlibrary não caiu, ainda há o libgen e o anna's archive
 O Átila nunca pediu demissão da Via Engenharia.
 O Índice de Desenvolvimento Humano sofreu uma queda
@@ -23902,6 +24125,7 @@ Oceano Atlântico.
 Oceano e rio secando
 Oceanos Pacífico, Atlântico, Índico, Antártico e Glacial Ártico
 Ocorre após uma longa jornada
+Ocultamos o corpo, precisamos descartar as ferramentas do crime
 Ocupa uma área construída de aproximadamente dezessete metros, oitenta e dois centímetros quadrados.
 Ocupa uma área total de setecentos e nove metros quadrados, retangular, ligeiramente irregular.
 Ocupações
@@ -24279,6 +24503,7 @@ Os burros e os ignorantes são filhos de primos irmãos.
 Os cabos precisam de isolamento para evitar curtos-circuitos.
 Os cachorros do Estado costumam ser um pouco ignorantes
 Os cadáveres que podem ocorrer serão incinerados em um forno a lenha na fazenda.
+Os cadáveres se encontraram em avançado estado de putrefação e decomposição
 Os camelos ganharam uma folga.
 Os candidatos admitidos, uma vez nomeados, iniciarão um período experimental de quatro meses.
 Os candidatos com menos de cinco pontos serão eliminados.
@@ -24606,6 +24831,7 @@ Os pós limpos têm poucas impurezas.
 Os quatro músicos estão se preparando para tocar seus instrumentos.
 Os quilombolas vivem em áreas protegidas pelo governo
 Os raios deixavam ela assustada.
+Os raios duplos são um símbolo nazista usado pelos ucranianos de Azov
 Os ratos levaram o maior susto!
 Os ratos voam para o norte, mas eles não têm uma bússola.
 Os refrescos de cortesia foram satisfatórios.
@@ -24623,6 +24849,8 @@ Os satélites giram em torno dos planetas como a Terra.
 Os sectários modernos se opõem à associação à sociedade de hoje.
 Os segredos das redes sociais para viciar e manipular opiniões
 Os segredos eram desconhecidos.
+Os seguranças deixaram o capanga fugir
+Os seguranças estão bem armados, com coletes e capacetes balísticos
 Os sem-teto parecem gostar de sopa.
 Os senadores são eleitos para cargos no Senado Federal
 Os senhores estão atrasados para a reunião maçônica
@@ -24633,6 +24861,7 @@ Os setores emergentes que poderiam ser relevantes.
 Os setores mais avançados do proletariado se organizam em coletivos e partidos
 Os setores que estão no estabelecimento devem ser anotados e justificados.
 Os sistemas de depuração para emissões atmosféricas possuem um plano de manutenção periódica.
+Os skinheads neonazistas mataram uma gangue de punks anarquistas
 Os socialistas levaram o computador para a sessão plenária.
 Os soldados mortos foram substituídos por outros? e a vida continuou.
 Os solos agrícolas que estamos na área de estudo são de alta capacidade agrológica.
@@ -24912,6 +25141,7 @@ Palácio do Catetinho
 Palácio do Congresso Nacional
 Palácio do Jaburu
 Palácio do Supremo Tribunal Federal
+Pan-turquismo, Meca, ocidentalização e secularização, emancipadas, latino
 Panambi
 Panamá
 Pancas
@@ -25388,6 +25618,7 @@ Passou este passe
 Pastores alemães correndo em um piso verde, enquanto um grande grupo de pessoas olhar.
 Pastos Bons
 Patente alta, bigode grosso
+Pater, gentílico, Istambul, Tarento, Crotona, Síbaris, espartanos
 Patinadora no gelo sendo atingida por outro jogador
 Patis
 Pato Bragado
@@ -25620,6 +25851,7 @@ Pensou rapidamente no inexplicável de tantas cousas.
 Pentecoste
 Pentágono confirma autenticidade de vídeo com óvnis
 Penápolis
+Península Ibérica, Estrabão, Britânia, gaélicas, citas, Fênio Farsa, Hanão, Guiné, circum-navegar
 Pep toma a pomada.
 Pequena conspiração, pouca brisa.
 Pequenas falhas permitiram entrar em maior.
@@ -25676,6 +25908,7 @@ Peritiba
 Peritoró
 Peritos criminais já estão examinando o local
 Peritos criminais registraram suas conclusões no laudo citado anteriormente
+Peritos da criminalística identificam serial killer
 Peritos examinarão todos os vestígios
 Perl tem muitas coisas legais.
 Permitam-me adicionar uma palavra a este tópico.
@@ -25687,6 +25920,8 @@ Pernambuco, Sergipe, Alagoas, Rondônia, Pará
 Pernilongos malditos
 Perobal
 Perolândia
+Persa, hindu, chinesa, macedônio, asteca, inca, maia, mesopotâmica
+Persas, Ciro, Eufrates, acadianos
 Perseguição de Estrangeiros em Bruxelas
 Personagem de ficção
 Persuadir um bezerro a beber de um balde.
@@ -25781,6 +26016,7 @@ Peter se encolheu de volta, horrorizado.
 Peter tem idade suficiente para ter um cérebro.
 Peterson, Giulia, Micaela, Wanessa e Nayara
 Petista, bolsominion
+Petra, Machu Picchu, Coliseu, Taj Mahal
 Petrobras Biocombustível
 Petrolina
 Petrolina de Goiás
@@ -25816,9 +26052,11 @@ Piedade dos Gerais
 Pierre decidiu pesquisar a cultura gay.
 Pietra Borges Abreu
 Pietro e Sarah
+Pigmalião, cananeia, cananeu
 Pilar
 Pilar de Goiás
 Pilar do Sul
+Pilares de Hércules, estreito de Gibraltar, périplo, cartagineses, cunharam, pictórico, hieróglifos
 Pilha, alcalinas, duracell, rayovak, cartela, sony, alcalina
 Piloto de bicicleta no ar em uma rampa
 Piloto de rodeio na cobrança de touro.
@@ -25908,6 +26146,7 @@ Pires do Rio
 Piripiri
 Piripá
 Piritiba
+Piroca, piroquinha, bucetinha, bucetão, xana, xoxota, pauzão
 Pirpirituba
 Pisca
 Piscando
@@ -25948,6 +26187,8 @@ Plano de reconstrução econômica
 Plano mental, físico, espiritual e campo das ideias
 Planos agradáveis ​​falham sem sorte.
 Planos de longo prazo deveriam ter sido feitos há muito tempo
+Planta a bomba na A
+Planta a bomba na B
 Plantação de cabras, pior do que nublado.
 Planura
 Platina
@@ -26857,6 +27098,7 @@ Provações e expiações
 Provisão gratuita de creches.
 Prudente de Morais
 Prudentópolis
+Pré-homérico, homérico, balcânica, indo-europeus, arianos
 Prévia da inflação se eleva
 Prévia das modificações das campeãs
 Pró-família
@@ -26912,6 +27154,7 @@ Pão não é um pequeno risco de tomar banho.
 Pé de Serra
 Pérola
 Pérola d'Oeste
+Pó, loló, maconha, haxixe, cachaça, codeína, cocaína, heroína
 Põe-no sobre a cômoda.
 Quadra
 Quadrinhos humorísticos
@@ -28133,6 +28376,7 @@ Queremos vender botas artesanais de chukka naquele caminhão de comida.
 Queremos vender botas artesanais naquele caminhão.
 Queremos ver você.
 Queria escrever duzentas frases.
+Queria me drogar até ter uma overdose
 Queria o Cristiano Ronaldo jogando no meu time.
 Queria ter um milhão de dólares.
 Querida, eu tenho um presente para você.
@@ -28314,6 +28558,7 @@ Reconstituição artística fundamental
 Reconstrução da casa inteira, custódia da carta
 Reconstrução, hegemonia, unificada, neofascismo
 Recreio
+Recua e chama um médico
 Recuou para o buraco.
 Recuperamos a maioria dos arquivos excluídos?, mas alguns ainda estão sendo processados.
 Recuperando gradualmente a força
@@ -28324,6 +28569,7 @@ Redentora
 Redenção
 Redenção da Serra
 Redenção do Gurgueia
+Redpill, incel, ancap, mangina
 Reducionismo e revisionismo histórico
 Reduto
 Reduza a dor da vítima
@@ -28722,6 +28968,8 @@ Rotina operacional
 Roubando Peter para pagar Paul
 Roubar um porco e entregar os pés em esmola a Deus.
 Roubar um porco? e entregar os pés em esmolas a Deus.
+Roubei a loja, não tinha seguranças nem câmeras, me dei bem
+Roubou um carro e fugiu, atropelou pessoas
 Roupa suja se lava em casa
 Roupas de bebê são minúsculas.
 Roupas e alojamentos são gratuitos para os jovens.
@@ -28761,6 +29009,7 @@ Rãs cuspem nas abelhas.
 Róger, Daniela, Josiane, Luciane e Maciel
 Rômulo, Marcus, Willian, Jessé e Edilene
 Rússia vence a guerra contra a Ucrânia, marcando a queda do império decadente estadunidense
+Saariana, oromos
 Sabará
 Sabe me dizer se o Gouveia está?
 Sabe que estou casado?
@@ -28788,6 +29037,7 @@ Sacramento
 Sacramento, em Calafornia, provavelmente terá conexão de alta velocidade em breve.
 Sacramento, na Califórnia, provavelmente terá conexão de alta velocidade em breve.
 Sacudiu minha cabeça
+Saddam Hussein, Nasser, antiocidentais
 Sagrada Família
 Sagres
 Sai da porta da cozinha
@@ -28811,6 +29061,7 @@ Saiu apressado após a chamada
 Saiu com pedras nas mãos
 Saiu do armário e não há quem o obrigue a voltar para lá
 Saiu um novo episódio ontem.
+Saladino, Acre, Sidom, bastiões, mameluco, Damasco, Cairo, Cutuz
 Salamanca foi chamado e emprestou-se para assassinar Fring, o chileno.
 Saldanha Marinho
 Sales
@@ -28871,6 +29122,7 @@ Sampaio
 Samsung, Corsair, Western Digital
 Samuel e Rafaela
 Samuel escreveu em seu testamento que seus netos deveriam herdar todo o seu dinheiro.
+Samósata, Sárdis, Sidom, Susa, Tarso
 San Antonio, salve-nos do fogo e do demônio.
 San Juan chegou, a primavera passou.
 San Juan na sexta-feira, colheita de cinzas.
@@ -28882,6 +29134,7 @@ Sandra Nóbrega Antunes
 Sangonera perdeu a serenidade, sem saber para onde estava indo.
 Sangonera seria responsável.
 Sangue não é água.
+Sangário, Justino, Breno, tolistóbogos, Amintas, Midas, Apolo, Delfos, gaulês
 Sangão
 Sanharó
 Sanidade, lucidez, discernimento, inteligência e bom senso
@@ -29127,6 +29380,7 @@ Sarapuí
 Sardoá
 Sarutaiá
 Sarzedo
+Sassânidas, Partas, Tauro, turcos, cruzada, oguzes, seljúcidas, uralo-altaica
 Satisfez suas necessidades
 Satuba
 Satubinha
@@ -29447,6 +29701,7 @@ Segundo dados do serviço, passaram a existir mais de um milhão de frases.
 Segundo filho fumando, bebendo
 Segundo o dicionário, isso não é verdade.
 Segundo parágrafo do parágrafo anterior
+Segura e joga a granada
 Segurando o saco de papel com dinheiro
 Segurança da Guerrilha
 Segurança, leve esse cara embora!
@@ -29623,6 +29878,7 @@ Separe as roupas por tipo.
 Separe o fígado quando estiver cozido.
 Seque-se com esta toalha
 Sequer demonstra tecnicamente vosso comprometimento
+Sequestrei uma mulher, o preço do resgate será caro
 Sequestro de sessão
 Seqüestros
 Ser assassinado a sangue frio não é um absurdo.
@@ -29812,6 +30068,7 @@ Seus corações estão congelados no gelo
 Seus efeitos são amplamente criticados.
 Seus ingressos estão quase esgotados.
 Seus joelhos vieram à cabeça.
+Seus membros foram decepados e enfiados em estacas
 Seus negócios não foram bem nos últimos anos de sua vida.
 Seus olhos cristalizados não mais derramam lágrimas
 Seus olhos falavam.
@@ -29840,6 +30097,7 @@ Shein, Haier, Lenovo, We Chat, Asus, Tik-Tok, AliExpress
 Shenzhen é uma metrópole da China continental
 Siderópolis
 Sidnei, Olívia, Elaine e Leonardo
+Sidom, Sodoma, Gomorra, Gaza, Mediterrâneo, jubileus
 Sidrolândia
 Sierra Maestra
 Siga a estrada de tijolos amarelos
@@ -30019,6 +30277,7 @@ Sociedade atual
 Sociedade de Taiwan durante este tempo
 Socorro
 Socorro do Piauí
+Socorro, me ajudem!
 Soda tem muito açúcar.
 Sofia Manzano foi candidata marxista-leninista, comunista e é economista
 Sofrendo do golpe cruel do terremoto
@@ -30218,17 +30477,20 @@ Sujeira e poeira em todos os lugares? me dê a vassoura!
 Sujeitos e objeto de expropriação.
 Sul Brasil
 Sulina
+Sultão, seljúcidas, Sogut, senhorio, embrião, otomano, Bajazeto, Paleólogo, Pelecano
 Sumaré
 Sumidouro
 Sumo de toranja é muito delicioso
 Sumuel tinha o hábito de acordar cedo.
 Sumé
+Sumérios, acadianos, mesopotâmicos, babilônicos
 Super delicioso e barato
 Super engarrafamento, realmente não pode andar
 Superar o relacionamento passado
 Supere as metas e incentive as pessoas.
 Supere o medo de ser julgada e criticada
 Superfície de serviço de manutenção e limpeza de grelhas de irrigação.
+Superintendência de polícia técnico-científica
 Superior Tribunal de Justiça
 Supervisiona a gestão econômica derivada de vendas pelos diferentes procedimentos.
 Supervisiona a transmissão de casas com proteção oficial.
@@ -30263,6 +30525,7 @@ Suécia, Suíça, Finlândia, Dinamarca, Alemanha e Reino Unido
 Sylvester precisava meditar para clarear sua mente.
 Sábado, minha família e eu vamos assar biscoitos juntos.
 Sátiro Dias
+Sátrapa, Nabonido, Amásis, Capadócia, Isaías, Daniel, Esdras, Jeová
 São Benedito
 São Benedito do Rio Preto
 São Benedito do Sul
@@ -30705,6 +30968,7 @@ Taió
 Tal lugar
 Tal momento dipolar oscilante pode trocar energia com uma onda eletromagnética de mesma freqüência.
 Tal qual ocorreu na comissão de inquérito
+Tales de Mileto, Pitágoras, jônia, orientalziante, Toscana, itálica, Argélia, Bosa, Sardenha
 Talismã
 Talison, Josiele, Walisson, Tauane e Tayná
 Talita, Priscila, Giovani, Isabela e Rúbia
@@ -30806,6 +31070,7 @@ Também é difícil encontrar
 Também é importante conter espécies ameaçadas de flora nos Pireneus catalães.
 Também, por que não?
 Tampe o frasco com uma tampa de latão apertada.
+Tampão, canal de Suez, primeiro-ministro, Rainha Vitória, Argélia, Dodecaneso
 Tanabi
 Tangará
 Tangará da Serra
@@ -30949,9 +31214,11 @@ Tem que ser gentil comigo.
 Tem que ter alguma prática.
 Tem sido uma tarde.
 Tem um anel de ferro em relevo.
+Tem um cara me seguindo
 Tem um coeficiente de setenta e cinco milésimos por cento.
 Tem um forte caráter local
 Tem um peso de setecentas toneladas
+Tem uma biqueira com traficantes da facção ali em cima na favela
 Tem uma boa integração de sua educação com a atividade profissional.
 Tem uma população de quase meio milhão.
 Tem uma superfície construída de dez metros, sessenta e dois centímetros quadrados.
@@ -31191,6 +31458,7 @@ Tinha uns sessenta e quatro anos, rijos e prósperos
 Tinha desaparecido
 Tinha dito a ele para cavar onde suas lágrimas caíram.
 Tinha o dom de se fazer aceito e necessário;
+Tinha um corpo boiando no rio, mas não quis denunciar
 Tinha um diâmetro de cerca de trinta jardas.
 Tinha um sabor leve e suave
 Tinha uma promoção da American Airlines pra Boston.
@@ -31524,6 +31792,7 @@ Torres
 Torrinha
 Torta de maçã é um prato icônico.
 Tortura a cavalo, saltos direitos.
+Torturei aquele filho da puta até a morte, enviei foto do corpo pra família
 Torça a válvula e libere o vapor quente.
 Toshiba, absorciometria bifotônica, angiotomografia, colangiografia percutânea trans-hepática, densitometria
 Tosse seca, com catarro, e persistente
@@ -31617,6 +31886,7 @@ Transportadora Associada de Gás
 Transportadora Brasileira Gasoduto Bolívia‐Brasil
 Transsexuais, transsexual, travesti
 Traríamos menos do que o que fora insuficiente
+Trastuzumabe, sofosbuvir, adalimumabe, losartana potássica, dipirona
 Trata-se de compartilhar, em última análise, uma revolução ética.
 Trata-se de um assentamento de ciganos e ciganas
 Trata-se de uma das criações mais representativas do génio humano
@@ -31966,6 +32236,7 @@ Tá seguro.
 Tá suave.
 Tá ótimo.
 Tá, agora preciso dormir. Tá ficando tarde.
+Tártaros, hunos, turcos, arcaizantes, apasíacas, corásmios, soguedianos
 Táticas de Rua
 Tânger não é como o resto da África.
 Tânia e Domingos se casaram em Recife, mas se conheceram em Fortaleza.
@@ -31984,7 +32255,10 @@ Técnica clássica com base marrom
 Técnicas que eles trazem para aprender as habilidades de autonomia pessoal e social.
 Tóquio é tão úmida nesta época do ano.
 Tóquio é uma cidade cosmopolita e tecnologicamente avançada
+Tô escondendo um pacote embaixo da casa
+Tô fazendo e vendendo armas artesanais caseiras
 Tô finalmente trazendo para o canal porque finalmente foi traduzido para o português.
+Tô levando cigarro contrabandeado do Paraguai para a fronteira com escolta
 Tô nem ai
 Túnel de tempo paralelo
 Uarini
@@ -32009,6 +32283,8 @@ Ubuntu Kylin
 Ubá
 Uchoa
 Ufanismo sorrateiro
+Ufologia, ufólogos, alienígenas, extraterrestres
+Ugarítico, aramaico, etíope, gala, amárico, maltês, tigrínia
 Uibaí
 Uiramutã
 Uirapuru
@@ -33237,6 +33513,7 @@ Um músico no palco chega a um fã na platéia.
 Um músico vestido de preto toca sua trombeta diretamente no microfone.
 Um nadador de boné azul está competindo com outros.
 Um navio encalha, o preço da gasolina sobe
+Um necrófilo invadiu o cemitério e arrombou uma tumba, fazendo sexo com o defunto
 Um negro toca saxofone alto em frente a uma loja de tijolos.
 Um novo aplicativo que fornece uma maneira fácil de navegar e instalar aplicativos.
 Um novo filme é exibido pela primeira vez no cinema.
@@ -34272,6 +34549,7 @@ Use sua preguiça para construir bons hábitos
 Use um capacete de vídeo
 Use um casaco e morra quente
 Use um lápis para escrever o primeiro rascunho.
+Usei um pé de cabra pra arrombar o portão, meus comparsas invadiram junto
 Usinas termoelétricas são demasiadamente poluidoras
 Uso louça velha e mobília velha.
 Uso de ferramentas de computador e de escritório em geral, quando apropriado.
@@ -34289,6 +34567,7 @@ Va ser inútil.
 Vaca e carneiro, pote de senhor.
 Vacaria
 Vacas, porcos, patos e galinhas podem ser encontrados em fazendas
+Vacilão morre cedo
 Vacina para tuberculose
 Vacinas são um recurso valioso que salva vidas
 Vacine-se contra meningite
@@ -34656,6 +34935,7 @@ Vieiras
 Vieirópolis
 Vigia
 Vigésimo segundo capítulo. Transformação de mais-valia em capital
+Vikings, escandinavos, celtas, gauleses, romanos
 Vila Bela da Santíssima Trindade
 Vila Boa
 Vila Flor
@@ -35876,6 +36156,7 @@ Várzea da Palma
 Várzea da Roça
 Várzea do Poço
 Vândalos invadiram o capitólio e causaram destruição
+Vândalos, suevos, francos, núbios, Cártago
 Véspera de Natal à meia noite?
 Vê-se então que o espírito do não-militar surgiu em mim.
 Vê-se que eles se conheceram no instituto.
@@ -35952,6 +36233,7 @@ Xavantina
 Xavier é responsável por essa desgraça!
 Xaxim
 Xeque-mate
+Xerife, Líbia, Cairo, anglo-soviética, Sinai
 Xexéu
 Xi jinping
 Xiao Lu pensou que ele poderia estar atordoado e animado.
@@ -36004,6 +36286,7 @@ Zulmira Cordeiro Sampaio
 Zulmira Ribeiro da Silva
 Zulmira Silva de Oliveira
 Zumbis estavam desfilando nas ruas e bebendo cerveja em copos de papel.
+Zênite, Levante, hitita, egípcia, Biblos, Eritreu
 a conseqüência antes da conclusão.
 a premissa antes da conseqüência
 a primeira é que eu não sou propriamente um autor defunto
@@ -36347,6 +36630,7 @@ apêndice, apófise, aponeurose, aqueduto, aracnoide-máter, meninge, aréola ma
 após elaboração de lista própria, respeitar-se-á a ordem
 aquacultura, aquaponia, hidroponia, aeroponia, agronômica, agrárias, agroecologia
 aquecido, alto torque, frequência, inversor, rotativos, agitadores, agitador, rotativo
+aquedutos, braceletes, colares, brincos, joias, adornos, necrópoles, afrescos, muralhas, marfim
 aquelas nuvens escuras que cobrem o azul como um crepe funéreo
 aquinhoado
 aquíferos, Alto Ganges, Irã, México, Arábia Saudita, zonas úmidas, alagamentos
@@ -36546,6 +36830,7 @@ biosfera, biólogo, evolutiva, herpetologia, bíceps, audição, baço, biotecno
 biotecnologia, colonização, agro-pecuária, linha férrea, cooperativas agropecuárias, apuramento
 biquadrada, biunívoca, braça, lógicos, retangular, calcular, cálculo, decimal, centésimos
 birita, bizú, adivinhão, cachaça, malandragem, boca de sirí, meretrício, boieiro, bombeta, bondão
+birremes, galé, velas, remos, epicentro
 bisturi, cureta, espátula, punção, canulação, retina, porta-agulha, trefina
 bitributação, apreensão, cabo, caducar, calúnia
 biópsia, delicada, machadinho, atrauma, atraumática, conjuntiva, aorta, endoscopia, pelicano
@@ -36602,6 +36887,7 @@ cadinho, porcelana, eletrocardiógrafo
 cafeicultura, citricultura, floricultura, forragicultura, fruticultura, gramicultura, haveicultura
 cafeína, canabinoides, alucinógenas, psicodélicas, psicoativos
 cagueta, bater grade, batota, beca, bela roba, berrante, berro, biabada, bicuda, bidraque, bidú
+caixinhas, diabetes tipo, hipertensão, pílula anticoncepcional, hipotireoidismo
 calendário
 cambau, camburão, camelar, campana, cana, cana dura, canavial, candonga, arruaça
 cambiais, subsidiados, oleaginosas, gergelim, deflacionando, fitopatologia, modelagem, culturas
@@ -36714,6 +37000,7 @@ cinematográfica
 cinquenta por cento
 cinzéis, debulhadora, autopropulsadas, estacionária, talos, multifuncional, rastejante, estacionárias, correia
 cinética, equidistam, condutância, condutor, Siemens
+cipriotas, célebres, faiança, Egeu, dispersão, Eubeia, levantina
 circuito, perpendicularmente, frequencímetro, fusão
 circunstanciada
 circunstanciado
@@ -37324,9 +37611,11 @@ ditão pé de meia, cola na boqueta, esticar o chiclete, radinho, miaral, fuça
 divergência, turmas, seções, tribunais
 dividenda
 dividendo, divisão, divisibilidade, divisor, divisores primos, dízima periódica, dodecágono, dúzia
+divindades, Adônis, Amon, Astarte, Baal Safon, Baal Shemen, El, Eshmun
 divisão
 divisório
 divórcio
+diádoco, Monoftalmo, Nicomedes, Bitínia, Antíoco
 diâmetro, corpúsculos, radiano, alcalino-terroso, radioativo, quimicamente, telegrafia, telefone, radiofonia, hertzianas
 diâmetro, improvisada, funcional, sucata, volantes, decaminhão, puxão, anular, insurgentes
 dióxido de carbono, ozônio troposférico, latitudes, vulneráveis, joeirando
@@ -37483,6 +37772,7 @@ emendar
 emendas
 emende
 emigração e imigração, entrada, extradição e expulsão de estrangeiros;
+emirado, califado, califa, emir
 emissora
 emissores, gotejadores, triangulares, rodas, concêntricos, inseticidas, fungicidas, feijão
 emissão
@@ -37493,6 +37783,7 @@ empenhando-se em demonstrar sua imoralidade, em condenar, fulminar, envergonhar.
 empilhadas, paletes, empilhadeira
 empobrecendo, injustamente, lícita, disposição legal
 empossados
+empreendimento, fonético, ilustrações, Tebas, Creta, Agenor, caracteres
 empresas altamente mecanizadas
 empresário individual
 empréstimo
@@ -37503,6 +37794,7 @@ encanamento, cartuchos, bules, antenas, percussão, elástico, caseira, espoleta
 encargo
 encefalopatia bilirrubínica, endométrio, endometriose, eritrócitos, escara, hemácias, escarlatina, fêmur
 encoberto pela história política, pelas particularidades do regime jurídico
+encomendado, arqueológico, Eritreia, minoica, geneticistas
 encontrar um restaurante em Pembine Montana
 encontrar-vos-eis face a face com uns ideólogos autênticos da pequena burguesia
 endereço residencial ou profissional onde receberão intimações
@@ -37540,6 +37832,7 @@ envolvem a agricultura e a indústria extrativa
 epena, bufotenina, floral
 epitaxial, impurezas, operativo, clock, conversores, sinais, transistores, barramento, console
 epub
+epônimo, cedros-do-líbano, sarcófago, Cádis
 equações diferenciais parciais ou ordinárias, computacional, simulações numéricas, partículas, micro, nano, passível
 equidistantes, equidistância, paralelas, paralelogramo, quadrilátero, pentadacágono, pentágono, polígino
 equipotenciais, superfícies, semiologia, radiação, viscosímetro, cronômetro, resistores, multicronômetro, circulares, capacitor
@@ -37627,6 +37920,7 @@ estradas de ferro
 estramônio, psicodélicos, contracultura, ácido lisérgico
 estranho, mercúrio, corantes, acetato, alvaiade, cinábrio, auripigmento, enxofre, fumo, cal, argamassas
 estratosfera, evaporação, bolhas, exosfera, colisões, elípticas, oscilação, mecanicamente separável, precedente
+estreitos, cordilheiras, Hális, deltas, Cilícia, pavimentos, confinada
 estremar
 estria, canaleta, guia, farol, articulação, junta, buzina, mangueira, alojamento, vela, admissão, coletor, isolador
 estriado dorsal, reversa, dinorfina, subunidade, neuronal, adormecidos, vasomotora
@@ -37755,6 +38049,7 @@ feito, flagrante delito, impróprio, presumido, apontado, próprio ofendido, pre
 feltro, para-lama, alargador, funil, engraxadeira, volante, neblina, pedal do freio, garfo, forquilha, chassis
 fenda, opaco, prismáticas, deflexão, espectros, dielétricas, dinâmico, divergente
 fentanil, manteiga, apache
+fenícia, vassalos, Artaxerxes, Xerxes, Diodoro Sículo, Árados
 ferramentas de código aberto
 fiador
 fiadores
@@ -37856,6 +38151,7 @@ genérica, multiparadigma
 genérico
 genérico, ações universais, individualizar, demandados
 genética primitiva, hibridização, acamamento, mudas, recombinante, germinativas, durabilidade
+genética, haplogrupo, Tunísia, Beirute, Amarna
 geodésica
 geológica
 geoquímica, fotoquímica, neuroquímica, bio-orgânica, bioinorgânica, actinídeos, fulerenos, polímeros, organometálica
@@ -37876,6 +38172,7 @@ glutamina, ornitina, arginina, precursores, descarboxilação, piridoxal fosfato
 gnome shell
 gnu hurd
 gnu, debian, ubuntu
+golfo, Azerbaijão, Armênia, Geórgia, irã, Iraque, Síria, ortográfica
 golpeadas
 google chrome
 goprelto, numbrino, cefaleia, epistaxe, taquicardia sinusal, bicarbonato
@@ -37900,6 +38197,7 @@ gráfico
 guanaco, guentar, guindado, guitarra, guitarrista, guzula, habea, highlander
 guarda
 guarda de crianças e adolescentes
+guerras médicas, confederação de Delos, macedônico
 guevarismo, foquismo, bolivarianismo, revolucionário, nacionalismo, extrema-esquerda
 gás lacrimogênio, cloro, cloreto de hidrogênio, membranas mucosas
 gás mostarda, biocidas, mimetizador, diclorofenoxiacético, rodenticidas
@@ -37918,6 +38216,8 @@ haskell, progress, forth
 havendo previsão orçamentária, ter os valores adiantados
 haveres
 hebraica, judeus, muçulmanos, sufistas, mameluco, indiano, polpa de celulose
+hebraica, septuaginta, torá, alcorão, talmude
+helenística, helenístico, helenização
 hematoencefálica, tópica, sódio, ducto nasal, ducto lacrimal, cardiotoxicidade, glaucoma, pupilas, benzocaína
 hemisfério
 hemogramas, psicoterapia, ocupacional, musicoterapia, psicopedagogia
@@ -37937,6 +38237,7 @@ hidrológico
 hidroperóxidos, borano, alceno, aril, vinil, butilmagnésio, olefina, haloéteres, halogênio
 hidrosfera, hidrossolúvel, hidroxila, hidróxido, amônio, hipoclorito
 hidráulico, jato, pressão, declive, desmoronamento, leitos submersos, mascarita, escafandro, chupadora
+hieroglífica, golfo pérsico, iranianos, jônios, eólicos, dóricos, arcaico, cretense, micênica
 hioscina, hiosciamina, atropina, tropânicos
 hipercinéticos, déficit de atenção, desvio de conduta, desafiador opositivo, mutismo eletivo
 hiperêmese, resina, brotos, caules, herbácea, skunk
@@ -37991,6 +38292,7 @@ ideólogo
 idoneidade
 idônea
 idôneo
+ilcanato, grão-cã, khan, Quedebuga, Orontes, emires, Selim, reinado, abássida
 ilegitimidade
 ilegítima
 ilíquida
@@ -38173,6 +38475,7 @@ interposição de recurso, para propositura de ação
 interposta
 interposto
 interpretadores de comandos, editores de texto, imagem, tocadores de som
+interregno, Tamerlão, Trebizonda, turco-muçulmana, Maomé, conquistador, especiarias, descobrimentos
 interveio
 interveniente
 intervenção federal no Estado
@@ -38222,6 +38525,7 @@ isolação, nivelamento, plug, peneiras
 isopropilmagnésio, permuta, acetal, proquiral, dicetonas, aldeído, estereoisômero, enolato, alifáticas
 isopícnica, gradientes, macromoléculas, cloreto de césio, adenina, timina, guanina, citosina, sacarose
 isótopos, hexafluoreto, urânio, reagentes químicos
+italiotas, Lácio, Nápoles, Siracusa, Magna, romanização, etruscos, Tirreno
 itinerante
 jack, judiaria, pipa, jaula, cela
 jarros, agitadoras, aquecedoras, mantas, liofilizadores, importados, homogeneizadores, gaiolas
@@ -38461,6 +38765,7 @@ mensalão, lama, acrônimo, lava-jato, petrolão, tucano, ambulâncias
 mentalmente
 meramente
 mercúrio, gadolínio, chumbo, nasogástrica, eméticos, xarope de Ipecacu, catárticos, laxantes
+meridional, pirataria, pirateado, pirateada
 meso-estriadas, autoconfiante, hiperativo, dopaminérgicas, pervertidas, facilitadora
 metabolismo, colesterol, insulina, fígado, baseado, dependência
 metabolito, inativo, urina, cabelo, fluído oral, suor
@@ -38509,6 +38814,7 @@ modulados
 mola de martelo, mecanismo, disparo, tiras, ar comprimido, autocontido, válvula, canhões
 moleculares, transição, laminar, turbulento
 molivoltímetro, balões, refluxação, dispersores, dispersor, termoreatores, infravermelho, esterilizador, pérolas
+molusco gastrópode, Sarepta, vinhas, Ascalão, jarras, terracota
 momentum linear, momentum angular, infinitesimal, fenomenologia, macro-áreas, modelagem, fenomenologia
 monetariamente
 monitorando, gerenciando, entrega, recebimento
@@ -38613,6 +38919,7 @@ negocistas
 nenhum brasileiro será extraditado, salvo o naturalizado, em caso de crime comum
 nenhuma pena passará da pessoa do condenado
 neodímio, promécio, samário, európio, gadolínio, térbio, disprósio, hólmio, érbio, túlio, itérbio
+neosaldina, aradois, buscopan
 nepotismo, patronato, favoritismo, nomeação, integrantes, favorecimento, elevação
 net, descompiladores, descompilação, executáveis
 netscape
@@ -39183,6 +39490,8 @@ protelatório
 protelatórios
 protestado
 protesto
+proto-canaanita, alfabeto, inscrição, Egeu, subgrupo, noroeste, amálgama
+proto-semíticos, semitas, península arábica, Corno de África
 protocolada
 protraídos
 prova
@@ -39193,6 +39502,7 @@ provocada
 prudente
 práticas
 pré-alfa, alfa, safari, microsoft edge
+pré-história, sítios arqueológicos, sambaqui, heteus, Hatusa, Troia, egeia, não-heteus
 prédios
 prévia
 prévio ajuste
@@ -39216,6 +39526,8 @@ pílulas, oxy, sonhador, algodão, boi, perces
 pó de anjo, valetes de maçã, bars, bennies, brócolos, bolos, turquia fria, calão, gutter
 pó, solventes, solvente, não voláteis, prensado, filtrado, glicerina, topicamente
 púbis, púbico, oxímetro, papilomavírus, paramétrio, pelos pubianos, puberdade, pelve, bacia
+púnico, cananeia, fenício, vogais, linguística, Homero
+púrpura, escravos, hipocampo, Sicília, escavado, Marrocos, Mogador, engobo
 quadrilha, qualificação, agravada, queixa-crime, quinto
 quadrilátero, desiguais, paralelos, tubo, borracha, vidro, plástico
 quadrilátero, mágico, quadrante, delimitada, quadrantes, quadricelular, quadríduo, quadriênio, quadrilátero
@@ -39479,6 +39791,7 @@ rolagem, rasterização, esquemas, preenchimento automático
 rolamento, rugosidade, hiperfinos, senóide, justaposição, superposição, sobrepor, solidificação
 rolamento, sapatos de dança, bomba eletrônica
 rolete, bagageiro, teto-solar, ferrugem, selado, prender, fixar, emissor, sensor, jumelos, eixo, cunha, calço
+romano-persas, califas, visigótica, gótica, gótico, Omíada
 romanos, transcendentes, polinômio, oblíqua, obtuso, octaedro, octógono, octante, polígino, poliedro
 rotação de culturas, sintéticos, reprodução seletiva, nitrato de amônio, rendimento, pousio
 rotação do dinheiro
@@ -39597,6 +39910,7 @@ seu xavier, carcereiro, simpatia, suador, suar, sujeira, tacsola, tempestade
 sexagesimal, simétrico, simétrica, simetria, plano, ponto, ente, invertida
 sexagésimo
 seção
+siciliana, Sículos, filisteus, anatoliana, Mármara, Bósforo, Dardanelos, Trácia
 sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas
 signatários
 silhueta de uma jovem mulher pulando e um belo cenário no fundo.
@@ -39686,6 +40000,7 @@ suicídio, autismo, típicos, atípicos, clozapina, involuntário, internamento,
 sulco, vanga, enxadão, timão, temão, apo, teiró, relha
 sulfato, citrato, magnésio, catárticos salinos, sacarídeos, sorbitol, emese, ipecacuanha, glicóis
 sulfóxido, sulfona, sulfínico, sulfônico, sulfonato, tiocianato, tiocetona, tial, tiocarboxílico, fosfina
+sultanatos, sacro, condado de Edessa, Principado, Reino de Jerusalém
 sumária
 superveniente
 supervenientes
@@ -39890,6 +40205,7 @@ tão inconsciente como todo instinto
 técnicas moleculares, modificam, geneticamente, nutricional, extensos esforços, mutagênese, raios X, ultravioleta
 tétano, botulismo, subcutânea, picada, mordida, antibióticos, antimicrobianos
 têm acesso aos diferentes conteúdos curriculares
+tíria, Hecateu, Mileto, Filo de Biblos
 título
 títulos da dívida pública
 ubuntu touch
@@ -40180,6 +40496,7 @@ zé Doca
 Às vezes é muito impulsivo, mas não é uma característica constante.
 Às vezes, apareço na forma de uma solução? ou uma boa ideia.
 Às vezes? simplesmente não há como segurar o rio.
+Ágade, Sargão, gútios, Hamurábi
 Ágata Queiroz Cristina
 Água Azul do Norte
 Água Boa
@@ -40240,6 +40557,7 @@ zé Doca
 Áreas plantadas são protegidas por barreiras de onda para minimizar a erosão.
 Árvore que é transplantada, deixe-a regar bem.
 Árvore velha e transplantada, previamente morta que enraizou.
+Ásia Menor, Anatólia, anatoliano, Peloponeso, Constantino
 Áurea
 Âncora enrolada em posição de âncora.
 Ânfora mínima é para crianças.
@@ -40737,12 +41055,15 @@ zé Doca
 É óbvio que para o governo valenciano o termo catalão é uma palavra tabu.
 É, até certo ponto, lógico em um movimento de construção e crescimento.
 Éderson, Luigi, Eveli, Elizângela e Pricila
+Édito de Milão, bárbaros, ocidente, oriente
 Época das vacas magras
+Érice, Sicília, Mário, Híraces, latinizado, Hispânia
 Érico Cardoso
 És belo, és forte, impávido colosso
 Évelyn, Welliton, Victória, Anne, Eric e Ramom
 Índice bibliográfico
 Índice de Cartas escritas
+Ísis, Melcarte, Osíris, Shed, Reshef, Yam
 Ó Pátria amada, idolatrada
 Óbidos
 Óculos e bengala, sinal do médico.

@@ -21,6 +21,7 @@ export type LanguageStatistics = BaseLanguage & {
   sentencesCount: SentenceCount;
   localizedPercentage: number;
   locale?: string;
+  lastFetched: string;
 };
 
 export enum TableNames {

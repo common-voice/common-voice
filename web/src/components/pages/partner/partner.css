@@ -8,8 +8,8 @@
 
 .partnerships-container {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
     max-width: var(--desktop-width);
     min-height: 100%;
     transition: opacity var(--transition-duration-slow) var(--easing);
@@ -31,7 +31,7 @@
         font-size: 48px;
 
         @media (--md-only) {
-            margin-top: 0;
+            margin-block-start: 0;
         }
     }
 
@@ -70,12 +70,11 @@
         color: var(--white);
         font-size: 16px;
         max-width: 220px;
-        margin-top: 50px;
+        margin-block-start: 50px;
         padding: 15px;
-        justify-content: flex-start;
 
         @media (--md-only) {
-            margin-top: 15px;
+            margin-block-start: 15px;
         }
 
         @media (--xs-down) {
@@ -98,11 +97,11 @@
 }
 
 .partnerships-container svg {
-    flex: 0.5;
+    margin-inline-end: 8px;
 }
 
 .partnerships-section {
-    margin-bottom: 40px;
+    margin-block-end: 40px;
 
     @media (--md-up) {
         background: url('./images/waves.png');
@@ -138,12 +137,12 @@
 
 .become-a-partner-container .section-heading-text {
     font-size: 36px;
-    margin-bottom: 32px;
+    margin-block-end: 32px;
 }
 
 .our-partners-container .section-heading-text {
     font-size: 36px;
-    margin-bottom: 32px;
+    margin-block-end: 32px;
     text-align: center;
 }
 
@@ -153,7 +152,7 @@
     }
 
     & img {
-        margin-bottom: 20px;
+        margin-block-end: 20px;
     }
 }
 
@@ -163,13 +162,13 @@
     justify-content: center;
 
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-block-end: 20px;
 
     row-gap: 20px;
 
     @media (--lg-up) {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
         justify-items: center;
         align-items: center;
 
@@ -177,6 +176,12 @@
             max-width: 100%;
             height: auto;
         }
+    }
+
+    & .makerere-logo,
+    .nvidia-logo,
+    collectivat-logo {
+        width: 370px;
     }
 
     @media (--xs-down) {

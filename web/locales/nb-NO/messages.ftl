@@ -18,6 +18,8 @@ banner-error-slow-1 = Beklager, Common Voice kjører sakte. Takk for din interes
 banner-error-slow-2 = Vi mottar mye trafikk og undersøker nå problemene.
 banner-error-slow-link = Statusside
 error-something-went-wrong = Beklager, noe gikk galt.
+error-clip-upload = Opplasting av dette klippet fungerer fortsatt ikke, ønsker du å prøve videre?
+error-clip-upload-server = Opplasting av dette klippet feiler stadig på serveren. Last inn siden på nytt, eller prøv igjen senere.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +42,13 @@ ba = Basjkirsk
 bas = Basaa
 be = Hviterussisk
 bg = Bulgarsk
+bm = Bambara
 bn = Bengalsk
+bo = Tibetansk
 br = Bretonsk
 bs = Bosnisk
 bxr = Burjatisk
+byv = Medumba
 ca = Katalansk
 cak = Kakchikel
 ckb = Sentralkurdisk
@@ -53,15 +58,18 @@ cs = Tsjekkisk
 cv = Tsjuvasjisk
 cy = Walisisk
 da = Dansk
+dag = Dagbani
 de = Tysk
 dsb = Lavsorbisk
 dv = Dhivehi
+dyu = Dioula
 el = Gresk
 en = Engelsk
 eo = Esperanto
 es = Spansk
 et = Estisk
 eu = Baskisk
+ewo = Ewondo
 fa = Persisk
 ff = Fulfulde
 fi = Finsk
@@ -72,9 +80,11 @@ ga-IE = Irsk
 gl = Galisisk
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebraisk
 hi = Hindi
+hil = Hiligaynon
 hr = Kroatisk
 hsb = Høysorbisk
 ht = Haitisk
@@ -89,6 +99,8 @@ is = Islandsk
 it = Italiensk
 izh = Ingrisk
 ja = Japansk
+jbo = Lojban
+jv = Javanesisk
 ka = Georgisk
 kaa = Karakalpak
 kab = Kabylsk
@@ -97,6 +109,7 @@ ki = Kikuyu
 kk = Kasakhisk
 km = Khmer
 kmr = Nordkurdisk
+kn = Kannada
 knn = Konkani (Devanāgarī)
 ko = Koreansk
 kpv = Komi-syriansk
@@ -105,7 +118,10 @@ ky = Kirgisisk
 lb = Luxembourgsk
 lg = Luganda
 lij = Ligurisk
+ln = Lingala
+lo = Laotisk
 lt = Litauisk
+ltg = Lettgallisk
 lv = Latvisk
 mai = Maithili
 mdf = Moksja
@@ -124,13 +140,19 @@ my = Burmesisk
 myv = Erziamordvinsk
 nan-tw = Taiwansk (Minnan)
 nb-NO = Norsk (bokmål)
+nd = Nordndebele
 ne-NP = Nepalsk
+nhe = Østlig la Huasteca-nahuatl
 nia = Nias
 nl = Nederlandsk
 nn-NO = Norsk (nynorsk)
+nr = Sørndebele
+nso = Nordsotho
 nyn = Runyankole
 oc = Oksitansk
+om = Oromo
 or = Oriya
+os = Ossetisk
 pa-IN = Panjabi
 pap-AW = Papiamento (Aruba)
 pl = Polsk
@@ -147,13 +169,18 @@ sah = Jakutisk
 sat = Santali (Ol Chiki)
 sc = Sardisk
 scn = Siciliansk
+sdh = Sørkurdisk
 shi = Shilha
 si = Singalesisk
 sk = Slovakisk
+skr = Saraiki
 sl = Slovensk
+snk = Soninke
 so = Somali
 sq = Albansk
 sr = Serbisk
+ss = Svati
+st = Sotho
 sv-SE = Svensk
 sw = Swahili
 syr = Gammelsyrisk
@@ -165,24 +192,35 @@ ti = Tigrinja
 tig = Tigre
 tk = Turkmensk
 tl = Tagalog
+tn = Setswana
+tok = Toki pona
 tr = Tyrkisk
+ts = Tsonga
 tt = Tatar
 tw = Twi
 ty = Tahitisk
+tyv = Tuvinsk
 uby = Ubykh
 udm = Udmurtisk
 ug = Uigurisk
 uk = Ukrainsk
 ur = Urdu
 uz = Usbekisk
+ve = Tshivenda
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+wo = Wolof
+xh = Xhosa
 yi = Jiddisch
+yo = Joruba
 yue = Kantonesisk
+zgh = Berbisk
 zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
+zu = Zulu
+zza = Zazaisk
 
 # [/]
 
@@ -194,6 +232,7 @@ speak-now = Snakk nå
 datasets = Datasett
 languages = Språk
 about = Om
+partner = Partner
 profile = Profil
 help = Hjelp
 contact = Kontakt
@@ -207,6 +246,7 @@ share-text = Hjelp til med å lære maskiner hvordan virkelige folk snakker, bid
 link-copied = Lenke kopiert
 back-top = Tilbake til toppen
 logout = Logg av
+donate = Donere
 
 ## Home Page
 
@@ -382,6 +422,7 @@ why-demographic-explanation-2 = Anonymiserte brukerdata, som alder, kjønn og di
 accept-privacy = Jeg godtar at dere håndterer denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 accept-privacy-title = Personvernbestemmelser
 login-identity = Innloggingsidentitet
+login = Logg inn
 login-signup = Logg inn / registrer deg
 edit = Rediger
 email-subscriptions = E-postabonnement
@@ -479,6 +520,7 @@ how-does-it-work-text = Vi masseinnsamler et åpent datasett av stemmer. Bidra m
 
 about-language-req-subtitle = Noen ber om å legge til et språk.
 about-localization-title = Oversettelse av nettsted
+about-localization-subtitle = Teksten på nettsiden er oversatt til det språket.
 about-sentence-collection-title = Setningsinnsamling
 about-sentence-collection-subtitle = Det samles inn setninger slik at folk kan lese høyt.
 about-new-lang-title = Lansering av nytt språk
@@ -515,17 +557,35 @@ about-get-involved-text-2 =
 about-stay-in-touch = Hvordan holder jeg kontakten?
 about-stay-in-touch-button = Registrer deg
 about-stay-in-touch-text-1 = <emailFragment>Registrer deg</emailFragment> på e-postlisten vår for å lære hvordan du kan delta i begivenheter, arrangementer og samarbeidsdesignfunksjoner på Common Voice.
+about-stay-in-touch-text-2 = Du kan møte andre i Mozilla-språkmiljøene ved å bli med i <discourseLink>Discourse</discourseLink> for aktuelle samtaler, eller <matrixLink>Matrix</matrixLink> for raske råd.
 about-nav-why-common-voice = Hvorfor?
 about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
 about-nav-get-involved = Bli med
+about-nav-how-it-works-2 = Hvordan fungerer Common Voice?
+about-nav-playbook = Les om hvordan du deltar
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Hva er et språk på Common Voice?
+about-playbook-what-is-language-content-1 = Det er mange måter å tenke språk på. Når det gjelder talegjenkjenningsmodeller, foreslår Common Voice å fokusere på «gjensidig forståelighet», eller «kan de som snakker dette språket stort sett forstå hverandre hvis de prøver?»
+about-playbook-what-is-language-content-2 = Vi ønsker at talemodeller skal bli bedre til å forstå et mangfold av talere. For at dette skal skje, må et stemmedatasett representere mange forskjellige personer.
+about-playbook-what-is-language-content-3 = Noen språk har enorm variasjon i grammatikk, ordforråd og uttale. Av denne grunn <ctaLink>introduserer vi «Varianter»</ctaLink> i 2022. Dette gir fellesskap en måte å skille språkene sine i det større datasettet.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Hvordan legger jeg til et språk?
+about-playbook-how-add-language-content-1 = Kontroller først om språket ditt <languageLink>allerede eksisterer</languageLink>. Hvis det ikke gjør det, må du <strong>oversette nettstedet og samle setninger</strong>.
+about-playbook-how-add-language-translating-heading = Oversettelse av nettsiden
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Se vår veiledning om hvordan du bruker Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Vi bruker et Mozilla-verktøy kalt <pontoonLink>Pontoon</pontoonLink> for oversettelser. Pontoon har mange språk,
+    men hvis den ikke har ditt kan du <pontoonRequestLink>be om at språket ditt blir lagt til</pontoonRequestLink>.
+    Deretter, for å gjøre språket tilgjengelig på Common Voice-prosjektet,
+    <githubRepoLink>be om det nye språket på GitHub</githubRepoLink>. <localizationFragment>Se mer på nettstedsoversettelse</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Innsamling av setninger
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Se vår veiledning i hvordan du bruker setningsinnsamleren</sentenceCollectorVideo>.
 
 ## How does localization work
 
@@ -538,9 +598,12 @@ about-nav-get-involved = Bli med
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-6 = Partnerskap og nettverk
 
 ## How to validate
 
+about-playbook-how-validate = Hvordan vet jeg om jeg skal godkjenne et stemmeklipp?
+about-playbook-how-validate-content-1 = Hvis du kunne <strong>høre dem</strong> og <strong>forstå dem</strong>, er det vanligvis <strong>best å godkjenne</strong>.
 
 ## How to access dataset
 
@@ -605,6 +668,7 @@ review-delete-recordings = Slett opptakene mine
 
 ## Datasets Page
 
+datasets-heading = Datasett
 datasets-headline = Vi bygger et åpen kildekode, flerspråklig datasett med stemmer som alle kan bruke for å trene applikasjoner med talegjenkjenning.
 datasets-positioning =
     Vi tror at store, offentlig tilgjengelige stemmedatasett vil fremme innovasjon og sunn kommersiell konkurranse innen maskinlæringsbasert taleteknologi.
@@ -766,6 +830,9 @@ target-segment-generic-card = Du bidrar til et målsegment
 target-segment-first-banner = Hjelp med å lage Common Voice sitt første målsegment i { $locale }
 target-segment-add-voice = Legg til stemmen din
 target-segment-learn-more = Les mer
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1052,4 +1119,11 @@ see-less = <chevron></chevron>Se mindre
 
 
 # [/SentenceCollector]
+
+sentence-collection = Setningsinnsamling
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
 

@@ -3,20 +3,24 @@
 @custom-media --md-up (width >= 768px);
 @custom-media --lg-up (width >= 992px);
 @custom-media --xl-up (width >= 1200px);
+@custom-media --xxl-up (width >= 1350px);
 
 @custom-media --xs-down (width < 576px);
 @custom-media --sm-down (width < 768px);
 @custom-media --md-down (width < 992px);
 @custom-media --lg-down (width < 1200px);
+@custom-media --xxl-down (width < 1350px);
 
 @custom-media --xs-only (width < 576px);
 @custom-media --sm-only (width >= 576px) and (width < 768px);
 @custom-media --md-only (width >= 768px) and (width < 992px);
 @custom-media --lg-only (width >= 992px) and (width < 1200px);
+@custom-media --md-and-lg-only (width >= 768px) and (width < 1200px);
 @custom-media --xl-only (width >= 1200px);
 @custom-media --demo-only (width < 1040px);
 
 @custom-media --tall (height > 800px);
+@custom-media --xl-tall (height > 910px);
 
 @keyframes fade-in {
     from {

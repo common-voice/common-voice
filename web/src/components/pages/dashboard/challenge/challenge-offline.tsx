@@ -15,7 +15,11 @@ function ChallengeOffline({
   location,
 }: { duration: ChallengeDuration } & RouteComponentProps<any, any, any>) {
   const addAchievement = useAction(Notifications.actions.addAchievement);
-  const dateFormat = { year: 'numeric', month: 'short', day: 'numeric' };
+  const dateFormat = {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  } as Intl.DateTimeFormatOptions;
 
   useEffect(() => {
     if (isBeforeChallenge && location.state?.earlyEnroll) {

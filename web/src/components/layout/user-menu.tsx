@@ -1,4 +1,5 @@
 import { Localized } from '@fluent/react';
+import classNames from 'classnames';
 import * as React from 'react';
 import { useState } from 'react';
 import { useAccount } from '../../hooks/store-hooks';
@@ -6,10 +7,10 @@ import { trackNav } from '../../services/tracker';
 import URLS from '../../urls';
 import { LocaleLink, useLocale } from '../locale-helpers';
 import {
+  ChevronDown,
   CogIcon,
   DashboardIcon,
   LogoutIcon,
-  MenuIcon,
   UserIcon,
 } from '../ui/icons';
 import { Avatar, Hr } from '../ui/ui';
@@ -22,7 +23,7 @@ export default function UserMenu() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div>
+    <div data-testid="user-menu">
       <div
         className={'user-menu ' + (showMenu ? 'active' : '')}
         onMouseEnter={() => setShowMenu(true)}
@@ -36,7 +37,7 @@ export default function UserMenu() {
               {account.username}
             </span>
           </div>
-          <MenuIcon className={showMenu ? 'active' : ''} />
+          <ChevronDown className={classNames({ 'rotate-180': showMenu })} />
         </button>
         <div className="menu-wrap">
           <div className="menu">

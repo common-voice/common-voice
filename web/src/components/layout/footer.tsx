@@ -12,11 +12,23 @@ import { ContactLink, DiscourseLink, GitHubLink } from '../shared/links';
 
 import './footer.css';
 
-const LocalizedLocaleLink = ({ id, to }: { id: string; to: string }) => {
+const LocalizedLocaleLink = ({
+  id,
+  to,
+  dataTestId,
+}: {
+  id: string;
+  to: string;
+  dataTestId?: string;
+}) => {
   const [locale] = useLocale();
   return (
     <Localized id={id}>
-      <LocaleLink to={to} onClick={() => trackNav(id, locale)} />
+      <LocaleLink
+        to={to}
+        onClick={() => trackNav(id, locale)}
+        data-testid={dataTestId}
+      />
     </Localized>
   );
 };
@@ -26,9 +38,9 @@ const Footer = React.memo(() => {
   return (
     <footer>
       <div id="help-links">
-        <LocaleLink to={URLS.FAQ} onClick={() => trackNav('faq', locale)}>
+        <LocaleLink to={URLS.ABOUT} onClick={() => trackNav('about', locale)}>
           <SupportIcon />
-          <Localized id="faq">
+          <Localized id="about">
             <div />
           </Localized>
         </LocaleLink>
@@ -67,8 +79,16 @@ const Footer = React.memo(() => {
         <div className="divider-bottom" />
         <div className="links">
           <div>
-            <LocalizedLocaleLink id="privacy" to={URLS.PRIVACY} />
-            <LocalizedLocaleLink id="terms" to={URLS.TERMS} />
+            <LocalizedLocaleLink
+              id="privacy"
+              to={URLS.PRIVACY}
+              dataTestId="privacy-link"
+            />
+            <LocalizedLocaleLink
+              id="terms"
+              to={URLS.TERMS}
+              dataTestId="terms-link"
+            />
             <Localized id="cookies">
               <a
                 target="_blank"

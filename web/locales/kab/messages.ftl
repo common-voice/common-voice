@@ -44,6 +44,7 @@ be = Tabilarusit
 bg = Tabulgarit
 bm = Tabumbrit
 bn = Tabengalit
+bo = Tatibitant
 br = Tabrutunt
 bs = Tabusnit
 bxr = Taburyat
@@ -68,6 +69,7 @@ eo = Taspiruntit
 es = Taspanit
 et = Tastunit
 eu = Tabaskit
+ewo = Ewondo
 fa = Tafarsit
 ff = Tafulaht
 fi = Tafinit
@@ -78,6 +80,7 @@ ga-IE = Tirlandit
 gl = Tagalisit
 gn = Tagaranit
 gom = Goan Konkani
+gu-IN = Taguǧaṛatit
 ha = Tahawsit
 he = Taɛebrit
 hi = Tahendit
@@ -96,6 +99,8 @@ is = Taṣlandit
 it = Taṭelyanit
 izh = Tizhuryant
 ja = Tajapunit
+jbo = Lojban
+jv = Tajavanit
 ka = Tajyuṛjit
 kaa = Karakalpak
 kab = Taqbaylit
@@ -116,6 +121,7 @@ lij = Taliguriant
 ln = Talingalat
 lo = Talawsit
 lt = Talitwaynit
+ltg = Latgalian
 lv = Talitunit
 mai = Maïthili
 mdf = Mukca
@@ -145,6 +151,7 @@ nyn = Nyankole
 oc = Tuksitant
 om = Afaan Ormoo
 or = Odia
+os = Ossetian
 pa-IN = Tapenǧabit
 pap-AW = Tapapiyamant (Aruba)
 pl = Tapulunit
@@ -235,6 +242,7 @@ share-text = Mudd afus i tmacicin ad mmeslayent am yimdanen, efk-d taɣect-ik de
 link-copied = Aseɣwen yettwanɣel
 back-top = Uɣal d asawen
 logout = Ffeɣ
+donate = Mudd tawsa
 
 ## Home Page
 
@@ -407,6 +415,7 @@ accept-privacy = Qebleɣ akken ad tesqedcem talɣut inu am akken yella deg <priv
 accept-privacy-title = Tasertit n tbaḍnit
 accept-privacy-and-terms = Qebleɣ <termsLink>Tiwtilin</termsLink> d <privacyLink> Tasertit n tbaḍnit </privacyLink> n Common Voice
 login-identity = Tinekkit n tuqna
+login = Qqen
 login-signup = Kcem / Jerred
 edit = Ẓreg
 email-subscriptions = Ajerred ɣer Imayl
@@ -594,7 +603,6 @@ about-playbook-how-add-sentences = Amek ara rnuɣ tifyar?
 about-playbook-how-add-sentences-content-1 = <strong>Sentencd Collector</strong> d afecku n ugar d usebter n tefyar n taɣult tazayezt. Ilaq <scAccountLink> ad ternuḍ amiḍan</scAccountLink>. Syin, rnu tutlayt-ik•im ɣer <strong> Amaɣnu-inek•inem</strong>. Tzemreḍ<strong>ad ternuḍ</strong> tifyar neɣ <strong> ad tesneqdeḍ</strong> tifyar yettwasnen yakan.
 about-playbook-how-add-sentences-content-2 = Tifyar ilaq ad ttwasneqdent syin ad ttwaqeblent sɣur sin n yimdanen akken ad ttwarnunt ɣer Common Voice. D kečč/kemm ara yernun iberdan n useqdec n tutlayt-ik•im <languageGuidelinesLink>da</languageGuidelinesLink>. Tifyar ilaq ad ilint deg <licenseLink> taɣult tazayezt</licenseLink> ur ttɛeddint ara 15 n wawalen. Tzemreḍ ad testeqsiḍ bab n uḍris akken ad t-tesqedceḍ ddaw turagt<waiverLink> CC0 s useqdec n ukala-nneɣ n wannuf</waiverLink>, syin azen-aɣ-t-id ɣer commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Tzemreḍ ad tesqedceḍ <scraperLink>amakkas n tefyar</scraperLink> akken ad tleqḍeḍ tifyar meẓẓiyen seg Wikipédia.
-about-playbook-how-add-sentences-content-4 = Tifyaryettwaqeblen ad d-ffɣent yal larbɛa daɣen ad ilint wejdent i llqem i d-iteddun.
 
 ## How to record quality
 
@@ -746,6 +754,7 @@ more = Ugar
 close = Mdel
 download = Sader
 dataset-version = Lqem
+clipboard-not-supported = Tacfawt ur tettusefrak ara
 
 ## Download Modal
 
@@ -821,6 +830,8 @@ action-click = Senned
 action-tap = Sit ɣef
 contribute = Ttekki
 listen = Timesliwt
+write = Aru
+review = Acegger
 skip = Suref
 shortcuts = Inegzumen
 clips-with-count-pluralized =
@@ -880,6 +891,11 @@ target-segment-generic-card = Tettekkaḍ deg teggayt tasaḍast
 target-segment-first-banner = Mudd tallalt i tmerna n taggayt tasaḍast tamezwarut n Common Voice deg { $locale }
 target-segment-add-voice = Rnu taɣect-ik.m
 target-segment-learn-more = Issin ugar
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Alqaḍ n tuɣac
+contribute-sentence-collection-nav-header = Alqaḍ n tefyar
 
 ## Reporting
 
@@ -1199,6 +1215,7 @@ sc-howto-addsen-title = Rnu tifyar tmaynutin
 sc-howto-cite-title = Amek ara d-temmleḍ
 sc-howto-cite-item-1 = Tzemreḍ ad tsedduḍ asmel web, am. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Senqed tifyar
+sc-howto-review-subtitle = Ttḥeqs dakken tafyirt teḍfer isefranen-a:
 sc-howto-review-criteria-1 = Tafyirt ilaq ad tettwaru akken iwata.
 sc-howto-review-criteria-2 = Tafyirt ilaq ad tili d tameɣtut seg tama n tjerrumt.
 sc-howto-review-criteria-3 = Tafyirt ilaq ad tili tettwanṭaq.
@@ -1282,6 +1299,7 @@ sc-add-err-failed =
        *[other] { $sentences } n tefyar ccḍent
     }
 sc-add-err-submission = Tuccḍa deg tuzna
+sc-add-lang-process-notice = Ma ulac tutlayt-ik deg tebdart-a, tzemreḍ ad tt-tessutreḍ deg <languageProcessLink> ukala-a </languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1388,9 +1406,12 @@ sc-personal-not-added = Ur terniḍ ara yakan tutlayin.
 
 sc-criteria-modal = Tiwtilin n usenqed
 sc-criteria-title = Tiwtilin n usenqed
+sc-criteria-make-sure = Ttḥeqs dakken tafyirt teḍfer isefranen-a:
 sc-criteria-item-1 = Tafyirt ilaq ad tettwaru akken iwata.
 sc-criteria-item-2 = Tafyirt ilaq ad tili d tameɣtut seg tama n tjerrumt.
+sc-criteria-item-3 = Tafyirt ilaq ad tili tettwanṭaq.
 sc-criteria-item-4 = Ma yella tafyirt deg-s akk isefranen, sit ɣef tqeffalt &quot;Sentem&quot; yellan ɣef yeffus.
+sc-criteria-item-5-2 = Ma tafyirt ur teddi ara d yisefranen n ufella, sit ɣef tqeffalt &quot;Agi&quot; i yellan deg tama tazelmaḍt. Mayella ur tettḥeqqeḍ ara ɣef tefyirt, tzemreḍ daɣen ad as-tɛeddiḍ akken ad tedduḍ ɣer tin i d-itteddun.
 sc-criteria-item-6 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
 
 ## REVIEW
@@ -1445,6 +1466,70 @@ sc-validation-no-abbreviations = Ur ilaq ara tafyirt ad tegber asiwzel
 
 localization-select =
     .label = Fren tutlayt/tasuqqilt
+# PARTNERSHIPS PAGE
+partnerships-header = Imɛawanen
+partnerships-get-in-touch = Nermres-aɣ-d
 partnerships-become-a-partner = Uɣal d amendid n Common Voice
 partnerships-foundations-header = Tisbeddiyin
 partnerships-our-partners = Iwiziwen-nneɣ
+why-donate = Ayɣer i testeqsaḍ?
+add-information-button = Rnu talɣut
+create-profile-button = Rnu amaɣnu
+# GUIDELINES PAGE
+guidelines-header = Iwellihen n uttekki
+voice-collection = Alqaḍ n tuɣac
+sentence-collection = Alqaḍ n tefyar
+varying-pronunciations = Asenqed n tɣuri
+misreadings = Tuccḍa deg tɣuri
+background-noise = Lḥess n deffir
+background-voices = Lḥess n deffir
+volume = Ableɣ
+just-unsure = Tkukraḍ?
+example = Amedya
+misreadings-explanation-5 = Kra n temsertit tettwaɣra akken ur ilaq ara, am tčiḍdeg umḍiq n teččiḍ neɣ akken-nniḍen.
+misreadings-explanation-6 = Txuṣṣ taggara n wawal aneggaru seg unegzum n usekles s lemɣawla.
+misreadings-explanation-7 = Ɛreḍ acḥal n tikkal deg tɣuri n wawal.
+misreadings-example-1 = Ad nteddu ad nsew lqehwa.
+misreadings-example-3 = Ad nteddu ad nsew lqehwa deg beṛa.
+misreadings-example-4 = Inṭeq-d uẓru
+misreadings-tip-1 = [Ilaq ad yili ad nsew]
+misreadings-tip-2 = [Llan sin n 'ṛ' deg uḍris aneẓli]
+misreadings-tip-3 = [Tafyirt-a ur tesɛi ara lmeɛna]
+background-noise-example-1 = Adinuẓur ameqqran n Trias.
+background-noise-tip-2 = [Aḥric seg uḍris ur yettwafham ara]
+still-have-questions = Ɣur-k yakan isteqsiyen?
+public-domain = Taɣult tazayazt
+adding-sentences = Timerna n tefyar
+reviewing-sentences = Asenqed n tefyar
+citing-sentences-subheader-websites = Ismal web
+citing-sentences-subheader-websites-explanation = Tzemreḍ ad tsedduḍ asmel web, am. "Common Voice - https://commonvoice.mozilla.org/"
+citation =
+    .label = Abder
+adding-sentences-subheader-length = Teɣzi
+adding-sentences-subheader-numbers = Imḍanen
+adding-sentences-subheader-punctuation = Asigez
+reviewing-sentences-explanation-4 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
+sentence =
+    .label = Tafyirt
+citation-input-value = Aɣbalu n tefyirt-ik·im
+citation =
+    .label = Abder
+sc-review-write-title = Anti tifyar i zemreɣ ad rnuɣ?
+new-sentence-rule-3 = Seqdec tajerrumt tameɣtut
+contact-us = Nermes-aɣ-d
+add-sentence-success = 1 tefyirt i d-yettwalqaḍen
+add-sentence-error = Tuccḍa deg tmerna n tefyirt
+required-field = Ma ulac aɣilif ččaṛ urti-yagi.
+single-sentence-submission = Tuzna n tefyirt tasuft
+single-sentence = Tafyirt tasuft
+bulk-sentences = Aṭas n tefyar
+
+## REVIEW PAGE
+
+report-sc-different-language = Tutlayt niḍen
+
+## BULK SUBMISSION 
+
+try-upload-again-md = Ɛreḍ asali tikkelt niḍen
+select-file = Fren afaylu
+upload-progress-text = Asali ietddu...

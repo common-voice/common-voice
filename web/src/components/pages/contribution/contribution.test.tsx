@@ -99,8 +99,8 @@ describe('Contribution - Speak', () => {
   it('renders Contribution page', () => {
     renderContributionPage();
 
+    expect(screen.getByTestId('contribution-page')).toBeTruthy();
     expect(screen.getByText('Test string text')).toBeTruthy();
-    expect(screen.getByText('Speak')).toBeTruthy();
   });
 
   it('submits clips', () => {

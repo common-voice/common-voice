@@ -15,9 +15,9 @@
     color: var(--blue);
     cursor: pointer;
     display: flex;
+    align-items: center;
 
-    &.align-center {
-        align-items: center;
+    &.justify-center {
         justify-content: center;
     }
 

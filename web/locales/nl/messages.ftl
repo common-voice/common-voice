@@ -44,6 +44,7 @@ be = Wit-Russisch
 bg = Bulgaars
 bm = Bambara
 bn = Bengaals
+bo = Tibetaans
 br = Bretons
 bs = Bosnisch
 bxr = Boerjatisch
@@ -68,6 +69,7 @@ eo = Esperanto
 es = Spaans
 et = Estisch
 eu = Baskisch
+ewo = Ewondo
 fa = Perzisch
 ff = Fula
 fi = Fins
@@ -78,6 +80,7 @@ ga-IE = Iers
 gl = Galicisch
 gn = Guaraní
 gom = Goanees Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebreeuws
 hi = Hindi
@@ -97,6 +100,7 @@ it = Italiaans
 izh = Izjorisch
 ja = Japans
 jbo = Lojban
+jv = Javaans
 ka = Georgisch
 kaa = Karakalpaks
 kab = Kabylisch
@@ -117,6 +121,7 @@ lij = Ligurisch
 ln = Lingala
 lo = Laotiaans
 lt = Litouws
+ltg = Letgaals
 lv = Lets
 mai = Maithili
 mdf = Moksja
@@ -138,15 +143,18 @@ nb-NO = Noors Bokmål
 nd = IsiNdebele (Noordelijk)
 ne-NP = Nepalees
 nhe = Oostelijk Huasteca Nahuatl
+nhi = Westelijk Sierra Puebla Nahuatl
 nia = Nias
 nl = Nederlands
 nn-NO = Noors Nynorsk
 nr = IsiNdebele (Zuidelijk)
 nso = Noord-Sotho
+ny = Chinyanja
 nyn = Nyankole
 oc = Occitaans
 om = Afaan Oromo
 or = Odia
+os = Ossetisch
 pa-IN = Punjabi
 pap-AW = Papiaments (Aruba)
 pl = Pools
@@ -240,6 +248,7 @@ share-text = Help machines te leren hoe echte mensen spreken, doneer uw stem op 
 link-copied = Koppeling gekopieerd
 back-top = Naar boven
 logout = Afmelden
+donate = Doneren
 
 ## Home Page
 
@@ -412,6 +421,7 @@ accept-privacy = Ik ga akkoord met hoe u met deze gegevens omgaat, zoals uitgele
 accept-privacy-title = Privacybeleid
 accept-privacy-and-terms = Ik ga akkoord met de <termsLink>Voorwaarden</termsLink> en <privacyLink>Privacyverklaring</privacyLink> van Common Voice
 login-identity = Aanmeldingsidentiteit
+login = Aanmelden
 login-signup = Aanmelden / Registreren
 edit = Bewerken
 email-subscriptions = E-mailinschrijvingen
@@ -600,7 +610,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Hoe werkt websitelocalisatie?
 about-playbook-how-localize-content-1 = De vertaling van de Common Voice-website gebeurt op <strong>Pontoon</strong>.
-about-playbook-how-localize-content-2 = <pontoonAccountLink>Maak een account aan</pontoonAccountLink> als u er nog geen heeft. Kies vervolgens uw taal <strong>(‘Team’)</strong> en kies vervolgens het project, <pontoonCvLink>Common Voice</pontoonCvLink>. Er zullen bestanden zijn om te vertalen. Klik op een ervan, dan toont Pontoon woorden in het Engels en een vak om ze te vertalen.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Maak een account aan</pontoonAccountLink> als u er nog geen hebt. Kies vervolgens uw taal <strong>(‘Team’)</strong> en kies vervolgens het project, <pontoonCvLink>Common Voice</pontoonCvLink>. Er zullen bestanden zijn om te vertalen. Klik op een ervan, dan toont Pontoon woorden in het Engels en een vak om ze te vertalen.
 about-playbook-how-localize-content-3 = De vertaling is uit het Engels, maar u kunt <strong>Suggesties</strong> in andere talen zien. Klik op het pictogram <strong>Profiel</strong>, vervolgens op de koppeling <strong>Settings</strong> en voeg eventuele talen toe die u spreekt. In de rechterbenedenhoek staat een lijst met vertalingen genaamd <strong>Locales</strong>. Vertalingen verschijnen na een dag op de website.
 about-playbook-how-localize-content-4 = De website kan worden gelanceerd wanneer 75% is voltooid.
 about-playbook-how-localize-content-5 = Bekijk onze video-uitleg om te helpen
@@ -611,7 +621,6 @@ about-playbook-how-add-sentences = Hoe voeg ik zinnen toe?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is een hulpmiddel voor het verzamelen en valideren van zinnen in het publieke domein. U moet <scAccountLink>een account aanmaken</scAccountLink>. Voeg vervolgens uw taal toe aan uw <strong>Profiel</strong>. U kunt zinnen <strong>Toevoegen</strong> of eerder toegevoegde zinnen <strong>Beoordelen</strong>.
 about-playbook-how-add-sentences-content-2 = Zinnen moeten door twee mensen worden beoordeeld en geaccepteerd om te worden opgenomen in Common Voice. U maakt <languageGuidelinesLink>hier</languageGuidelinesLink> richtlijnen voor uw taal. Zinnen moeten in het <licenseLink>publieke domein</licenseLink> staan en korter zijn dan 15 woorden. U kunt de eigenaar van een tekst vragen om deze <waiverLink>CC0 te maken met behulp van ons ontheffingsproces</waiverLink> en deze naar ons sturen op commonvoice@mozilla.com.
 about-playbook-how-add-sentences-content-3 = U kunt de <scraperLink>Sentence extractor</scraperLink> gebruiken om korte zinnen uit Wikipedia te gebruiken.
-about-playbook-how-add-sentences-content-4 = Gevalideerde zinnen worden op woensdag geëxporteerd en zijn na de volgende uitgave beschikbaar.
 
 ## How to record quality
 
@@ -734,10 +743,12 @@ validated-hr-total = Totaal aantal gevalideerde uren
 overall-hr-total = Algemeen aantal uren
 cv-license = Licentie
 audio-format = Audio-indeling
+dataset-splits = Opsplitsingen (leeftijd en geslacht)
 number-of-voices = Aantal stemmen
 splits = Opdelingen
 email-to-download = Voer uw e-mailadres in om te downloaden
 why-email = <b>Waarom een e-mailadres?</b> Mogelijk moeten we in de toekomst contact met u opnemen over wijzigingen in de gegevensset, en een e-mailadres geeft ons contactinformatie.
+why-donate = Waarom vraagt u dat?
 confirm-size = U staat op het punt om een download van <b>{ $size }</b> te starten
 size-gigabyte = GB
 size-megabyte = MB
@@ -855,6 +866,8 @@ language-section-in-progress = In uitvoering
 language-section-in-progress-new-description = Deze talen worden momenteel door de gemeenschap ontwikkeld. De voortgangsbalken geven aan hoe ver elke taal is met de <localizationGlossaryLink>websitevertaling</localizationGlossaryLink> en het <sentenceCollectionGlossaryLink>verzamelen van zinnen</sentenceCollectionGlossaryLink>.
 language-section-launched = Beschikbaar
 language-section-launched-description = Voor deze beschikbare talen is de website met succes <localizationGlossaryLink>vertaald</localizationGlossaryLink>, en zijn er voldoende <sentenceCollectionGlossaryLink>zinnen verzameld</sentenceCollectionGlossaryLink> voor doorlopende bijdragen aan het <speakLink>spreken</speakLink> en <listenLink>luisteren</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Laatst bijgewerkt: { $lastUpdatedTimeStamp }
 languages-show-more = Meer zien
 languages-show-less = Minder zien
 language-meter-in-progress = Voortgang
@@ -873,6 +886,8 @@ action-click = Klik op
 action-tap = Tik op
 contribute = Bijdragen
 listen = Luisteren
+write = Schrijven
+review = Beoordelen
 skip = Overslaan
 shortcuts = Sneltoetsen
 clips-with-count-pluralized =
@@ -918,6 +933,9 @@ listen-empty-state = We hebben in deze taal geen te valideren fragmenten meer…
 listen-loading-error =
     We kunnen geen audiofragmenten voor u ophalen om naar te luisteren.
     Probeer het later nog eens.
+listen-abort-title = Valideren van fragmenten voltooien?
+listen-abort-cancel = Doorgaan met valideren
+listen-abort-confirm = Valideren voltooien
 speak-empty-state = We hebben in deze taal geen op te nemen zinnen meer…
 speak-empty-state-cta = Zinnen bijdragen
 speak-loading-error =
@@ -932,6 +950,11 @@ target-segment-generic-card = U draagt bij aan een doelsegment
 target-segment-first-banner = Help bij het maken van het eerste doelsegment in het { $locale } van Common Voice
 target-segment-add-voice = Uw stem toevoegen
 target-segment-learn-more = Meer info
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Spraakcollectie
+contribute-sentence-collection-nav-header = Zinnenverzameling
 
 ## Reporting
 
@@ -1651,3 +1674,177 @@ already-have-an-account = Hebt u al een account? <login>Aannmelden</login>
 create-profile-button = Een profiel aanmaken
 # IMAGE TAGS
 img-alt-success-checkmark = succesvinkje
+# GUIDELINES PAGE
+guidelines-header = Richtlijnen voor bijdragen
+guidelines-header-subtitle = Leer hoe u zinnen en audiofragmenten aan de Common Voice-gegevensset kunt bijdragen en valideren
+voice-collection = Spraakcollectie
+sentence-collection = Zinnenverzameling
+varying-pronunciations = Uiteenlopende uitspraken
+misreadings = Verkeerd gelezen
+offensive-content = Aanstootgevende inhoud
+background-noise = Achtergrondgeluid
+background-voices = Achtergrondgeluiden
+volume = Volume
+reader-effects = Lezereffecten
+just-unsure = Gewoon onzeker?
+example = Voorbeeld
+varying-pronunciations-explanation-1 = We verwelkomen verschillende accenten! Wees heel voorzichtig voordat u een fragment afwijst als u denkt dat een lezer een woord verkeerd uitspreekt, de nadruk op de verkeerde plaats legt of interpunctie negeert. Er wordt een grote variëteit aan uitspraken in de wereld gebruikt, en sommige hebt u mogelijk in uw omgeving niet gehoord. Bied een ruime marge aan personen die anders dan u spreken.
+varying-pronunciations-explanation-2 = Als u daarentegen denkt dat de lezer het woord nog nooit heeft gebruikt en een onjuiste inschatting van de uitspraak doet, wijs het fragment dan af. Als u het niet zeker weet, gebruik dan de knop Overslaan.
+varying-pronunciations-example = De route was onduidelijk.
+varying-pronunciations-tip-1 = [Canadees Engels zou ‘route’ kunnen laten klinken als ‘rowt’]
+varying-pronunciations-tip-2 = [Brits Engels zou ‘root’ kunnen maken]
+offensive-content-explanation = Zinnen worden beoordeeld via een moderatieproces door de gemeenschap, maar dit proces is niet perfect. Als u een zin ziet of hoort die u beledigt of van streek maakt – bijvoorbeeld omdat deze in strijd is met onze <participationGuidelines>richtlijnen voor deelname aan de gemeenschap</participationGuidelines> – gebruik dan de labelknop in de gebruikersinterface. U kunt ook contact met ons opnemen via <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = Het is belangrijk om alle woorden op de pagina correct te lezen. Controleer tijdens het luisteren heel goed of wat er is opgenomen, precies is wat er is geschreven; wijs het fragment af als de spreker woorden heeft toegevoegd, ingekort of gemist.
+misreadings-explanation-2 = Veel voorkomende fouten zijn onder meer:
+misreadings-explanation-3 = Ontbrekende ‘Een’, ‘De’ of ‘Het’ aan het begin van de opname.
+misreadings-explanation-4 = Een ontbrekende ‘s’ aan het eind van een woord.
+misreadings-explanation-5 = Samenvoegingen die er eigenlijk niet zijn, zoals ‘Zo’n’ in plaats van ‘Zo een’, of andersom.
+misreadings-explanation-6 = Het einde van het laatste woord ontbreekt door het te snel afbreken van de opname.
+misreadings-explanation-7 = Meerdere pogingen om een woord te lezen.
+misreadings-example-1 = Ik heb koffie met haar gedronken.
+misreadings-example-2 = Ik heb koffie met ’r gedronken.
+misreadings-example-3 = Ik heb een koffie met haar gedronken.
+misreadings-example-4 = De hommel vloog voorbij.
+misreadings-tip-1 = [Zou ‘haar’ moeten zijn]
+misreadings-tip-2 = [Er zit geen ‘een’ in de oorspronkelijke tekst]
+misreadings-tip-3 = [Niet-overeenkomende inhoud]
+background-noise-explanation = U moet elk woord van de opname kunnen horen. We willen dat algoritmen voor machinaal leren een verscheidenheid aan achtergrondgeluiden kunnen verwerken, en zelfs relatief harde geluiden of zachte achtergrondmuziek kunnen worden geaccepteerd, op voorwaarde dat ze u er niet van weerhouden om de hele tekst te horen. Gekraak of ‘wegvallen’, waardoor u de tekst niet hoort, betekent dat u het fragment moet weigeren.
+background-noise-example-1 = De enorme dinosaurussen van het Trias.
+background-noise-example-2 = [Niezen] De enorme dinosaurussen van het [hoest] Trias.
+background-noise-example-3 = De enorme dino [hoest] van het Trias.
+background-noise-example-4 = [Gekraak] enorme dinosaurussen [gekraak] -rias.
+background-noise-tip-1 = [onderbroken door achtergrondgeluid]
+background-noise-tip-2 = [De tekst is deels onverstaanbaar]
+background-voices-explanation = Een beetje achtergrondgeluid is oké, maar als u een andere persoon duidelijk hoorbare woorden kunt horen spreken, moet het fragment worden afgewezen. Meestal gebeurt dit als de tv nog aan staat of als er in de buurt een gesprek wordt gevoerd.
+background-voices-example-1 = De enorme dinosaurussen van het Trias. [gelezen door één stem]
+background-voices-tip-1 = Kom je? [geroepen door een ander]
+volume-explanation = Er zullen natuurlijke variaties in volume tussen lezers zijn. Wijs het fragment alleen af als het volume zo hoog is dat de opname onderbroken wordt, of (vaker) als het zo laag is dat onverstaanbaar is wat er wordt gezegd zonder naar de geschreven tekst te moeten kijken.
+reader-effects-explanation = De meeste opnames zijn van mensen die met hun natuurlijke stem praten. U kunt af en toe een afwijkende opname accepteren die wordt geschreeuwd, gefluisterd of duidelijk wordt afgeleverd met een ‘dramatische’ stem. Wijs gezongen opnames en opnames met een computergegenereerde stem af.
+just-unsure-explanation = Als u iets tegenkomt dat niet in deze richtlijnen wordt behandeld, stem dan naar uw beste oordeel. Als u echt niet kunt beslissen, gebruik dan de knop Overslaan en ga door naar de volgende opname.
+still-have-questions = Nog steeds vragen?
+contact-common-voice = Neem contact op met het Common Voice-team
+public-domain = Publiek domein
+citing-sentences = Bronnen van zinnen vermelden
+adding-sentences = Zinnen toevoegen
+reviewing-sentences = Zinnen beoordelen
+public-domain-explanation-1 = Het is heel belangrijk dat alle tekstzinnen <publicDomain>publiek domein</publicDomain> (<cc0>cc0</cc0>) zijn, aangezien de Common Voice-dataset wordt uitgegeven onder een cc0-licentie. Upload een zin alleen als u hier zeker van bent en voeg altijd de relevante bronvermelding toe.
+public-domain-explanation-2 = De beste zinnen voor het bouwen van een bruikbare spraakherkenningsengine zijn in moderne spreektaal. Enkele ideeën om u te helpen bij het aanmaken van zinnen zijn;
+public-domain-explanation-3 = Maak zelf moderne, informele zinnen of met uw vrienden of taalgemeenschap – bijvoorbeeld door middel van een ‘write-a-thon’
+public-domain-explanation-4 = Neem contact op met auteurs, toneelschrijvers of scenarioschrijvers en vraag of ze bereid zijn een klein deel van hun werken aan het publieke domein te wijden
+public-domain-explanation-5 = Zoek naar tekst waarop het auteursrecht niet meer van toepassing is – bijvoorbeeld de meeste boeken die voor 1920 zijn gepubliceerd
+public-domain-explanation-6 = Neem contact op met overheden, nonprofitorganisaties of mediaorganisaties om te zien of hun webinhoud, rapporten of andere inhoud kan worden toegewezen aan het publieke domein
+citing-sentences-explanation-1 = Het is belangrijk om bronvermeldingen op te nemen, zodat we kunnen controleren of zinnen zich in het publieke domein bevinden en er geen auteursrechtbeperkingen van toepassing zijn.
+citing-sentences-subheader-websites = Websites
+citing-sentences-subheader-websites-explanation = U kunt de website opnemen, bijvoorbeeld ‘Common Voice - https://commonvoice.mozilla.org/’
+citing-sentences-subheader-academic-reference = Academische referentie
+citing-sentences-subheader-academic-reference-explanation =
+    U kunt een academische referentiestijl gebruiken, bijvoorbeeld Harvard-stijl
+    ‘Mozilla (2021) Common Voice. Beschikbaar op https://commonvoice.mozilla.org/ (Benaderd: 15 september 2021)’
+citing-sentences-subheader-offline-sources = Offline bronnen
+citing-sentences-subheader-offline-sources-explanation =
+    Voor publiek-domeintekst die niet online beschikbaar is, kunt u de academische referentiestijl gebruiken,
+    b.v. Harvard-stijl ‘Jess (2021) Mijn openbare licentiegedichten’
+citation =
+    .label = Citaat
+self-citation = Zelfcitatie
+self-citation-explanation = Op deze manier citeert u zichzelf als u zelf de inhoud hebt geschreven.
+adding-sentences-subheader-length = Lengte
+adding-sentences-subheader-length-explanation = De zin mag maximaal 15 woorden bevatten.
+adding-sentences-subheader-spelling-punctuation = Spelling en interpunctie
+adding-sentences-subheader-spelling-punctuation-explanation = De zin moet correct gespeld zijn.
+adding-sentences-subheader-speakable = Uitspreekbaar
+adding-sentences-subheader-speakable-explanation = De beste zinnen zijn natuurlijk en gespreksgerelateerd – ze moeten voor iemand gemakkelijk te lezen zijn. Hoewel fonetische diversiteit en verschillende woorden in zinnen belangrijk zijn, proberen we het opnemen van zinnen ook zo boeiend en leuk mogelijk te maken voor onze vrijwilligersgemeenschap.
+adding-sentences-subheader-numbers = Getallen
+adding-sentences-subheader-numbers-explanation = Er mogen idealiter geen cijfers in de brontekst staan, omdat deze problemen kunnen veroorzaken wanneer ze hardop worden voorgelezen. De manier waarop een getal wordt gelezen is afhankelijk van de context en kan verwarring in de dataset veroorzaken. Het getal ‘2409’ kan bijvoorbeeld nauwkeurig worden gelezen als zowel ‘vierentwintig nul negen’ en ‘tweeduizend vierhonderd negen’.
+adding-sentences-subheader-abbreviations = Afkortingen en acroniemen
+adding-sentences-subheader-abbreviations-explanation = Afkortingen en acroniemen zoals ‘USA’ of ‘ICE’ moeten in de brontekst worden vermeden, omdat ze kunnen worden gelezen op een manier die niet overeenkomt met hun spelling. Bovendien kunnen er meerdere accurate uitspraken zijn voor dezelfde afkorting.
+adding-sentences-subheader-punctuation = Interpunctie
+adding-sentences-subheader-punctuation-explanation = Speciale symbolen en leestekens mogen alleen worden opgenomen wanneer dit absoluut noodzakelijk is. Er is bijvoorbeeld een apostrof opgenomen in Nederlandse woorden als ‘z’n’ en deze zou in de brontekst moeten worden opgenomen, maar het is onwaarschijnlijk dat u ooit een speciaal symbool zoals ‘@‘ of ‘#’ nodig hebt.
+adding-sentences-subheader-special-characters = Speciale tekens en buitenlandse letters
+adding-sentences-subheader-special-characters-explanation-1 = Letters moeten geldig zijn in de taal die wordt gesproken. ‘ж’ is bijvoorbeeld een letter in het Russische alfabet, maar wordt nooit in het Nederlands gebruikt en zou dus ook nooit mogen verschijnen in een Nederlandse brontekst.
+adding-sentences-subheader-special-characters-explanation-2 = Talen kunnen hun eigen validatieregels hebben met aanvullende vereisten wanneer ze worden gelokaliseerd. Als er geen specifiek validatiebestand voor een taal is, worden de Engelse regels weergegeven voor bijdragers.
+adding-sentences-subheader-offensive-content = Aanstootgevende inhoud
+adding-sentences-subheader-offensive-content-explanation = Als de zin aanstootgevend of verontrustend is – bijvoorbeeld vanwege expliciete inhoud of een andere schending van onze <communityGuidelines>richtlijnen voor deelname aan de gemeenschap</communityGuidelines> – moet u de zin afwijzen. U kunt ook contact met ons opnemen via <emailFragment>commonvoice@mozilla.com</emailFragment> om het probleem te escaleren.
+reviewing-sentences-explanation-1 = Als de zin aan de bovenstaande criteria voldoet, klik dan op de knop ‘Ja’.
+reviewing-sentences-explanation-2 = Als de zin niet aan de bovenstaande criteria voldoet, klik dan op de knop ‘Nee’.
+reviewing-sentences-explanation-3 = Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
+reviewing-sentences-explanation-4 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
+# WRITE PAGE
+write-instruction = Een <icon></icon> zin uit het publieke domein toevoegen
+write-page-subtitle = Zinnen die hier zijn bijgedragen worden toegevoegd aan een openbaar beschikbare cc-0 gelicenseerde dataset.
+sentence =
+    .label = Zin
+sentence-input-value = Voer hier uw publieke domeinzin in
+citation-input-value = Bron van uw zin
+citation =
+    .label = Citaat
+sc-write-submit-confirm =
+    Ik bevestig dat deze zin <wikipediaLink>publiek domein</wikipediaLink> is en
+    ik toestemming heb om deze te uploaden.
+sc-review-write-title = Welke zinnen kan ik toevoegen?
+new-sentence-rule-1 = <noCopyright>Geen copyright</noCopyright>-beperkingen (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Minder dan 15 woorden
+new-sentence-rule-3 = Gebruik de juiste grammatica
+new-sentence-rule-4 = Gebruik correcte spelling en interpunctie
+new-sentence-rule-5 = Geen cijfers en speciale tekens
+new-sentence-rule-6 = Geen vreemde tekens
+new-sentence-rule-7 = Voeg de juiste bronvermelding toe
+new-sentence-rule-8 = In het beste geval natuurlijk en gemoedelijk (het zou gemakkelijk moeten zijn om de zin te lezen)
+how-to-cite = Hoe citeer ik?
+how-to-cite-explanation-bold = Citeer met een URL-koppeling of de volledige naam van het werk.
+how-to-cite-explanation = Als het uw eigen woorden zijn, zeg dan gewoon <italicizedText>‘Zelfcitaat’</italicizedText>. We moeten weten waar u deze inhoud hebt gevonden, zodat we kunnen controleren of deze zich in het publieke domein bevindt en of er geen auteursrechtelijke beperkingen van toepassing zijn. Zie voor meer informatie over citeren onze <guidelinesLink>Richtlijnenpagina</guidelinesLink>.
+guidelines = Richtlijnen
+contact-us = Contact opnemen
+add-sentence-success = 1 zin verzameld
+add-sentence-error = Fout bij toevoegen van zin
+required-field = Vul dit veld in.
+single-sentence-submission = Indienen van één zin
+bulk-sentence-submission = Bulkindiening van zinnen
+single-sentence = Losse zin
+bulk-sentences = Bulkzinnen
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Controleren <icon></icon> of dit een taalkundig correcte zin is?
+sc-review-rules-title = Voldoet de zin aan de richtlijnen?
+sc-review-empty-state = Er zijn momenteel geen zinnen om te beoordelen in deze taal.
+report-sc-different-language = Andere taal
+report-sc-different-language-detail = Het is geschreven in een andere taal dan die ik aan het beoordelen ben.
+sentences-fetch-error = Er is een fout opgetreden bij het ophalen van zinnen
+review-error = Er is een fout opgetreden bij het beoordelen van deze zin
+review-error-rate-limit-exceeded = U gaat te snel. Neem even de tijd om de zin te bekijken om er zeker van te zijn dat deze correct is.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = We voeren enkele grote veranderingen door
+sc-redirect-page-subtitle-1 = De Sentence Collector verhuist naar de kern van het Common Voice-platform. U kunt nu een zin <writeURL>schrijven</writeURL> of inzendingen van losse zinnen <reviewURL>beoordelen</reviewURL> op Common Voice.
+sc-redirect-page-subtitle-2 = Stel ons vragen op <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> of <emailLink>e-mail</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Zinnen <icon></icon> uit het publieke domein uploaden
+sc-bulk-upload-instruction = Sleep uw bestand hierheen of <uploadButton>klik om te uploaden</uploadButton>
+sc-bulk-upload-instruction-drop = Sleep bestand hierheen om te uploaden
+bulk-upload-additional-information = Als u aanvullende informatie over dit bestand wilt verstrekken, neem dan contact op met <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Als u aanvullende informatie over dit bestand wilt verstrekken die niet in de sjabloon is opgenomen, neem dan contact op met <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Probeer het opnieuw door uw bestand hierheen te slepen
+try-upload-again-md = Probeer opnieuw te uploaden
+select-file = Bestand selecteren
+select-file-mobile = Selecteer te uploaden bestand
+accepted-files = Geaccepteerde bestandstypen: alleen .tsv
+maximum-file-size = Maximale bestandsgrootte: 25 MB
+what-needs-to-be-in-file = Wat moet er in mijn bestand zitten?
+what-needs-to-be-in-file-explanation = Bekijk ons <templateFileLink>sjabloonbestand</templateFileLink>. Uw zinnen moeten vrij van auteursrechten zijn (CC0 of origineel werk met toestemming van de indiener) en duidelijk, grammaticaal correct en gemakkelijk te lezen zijn. Ingediende zinnen zouden een leeslengte van ongeveer 10 tot 15 seconden moeten hebben en mogen geen cijfers, eigennamen en speciale tekens bevatten.
+upload-progress-text = Upload bezig…
+sc-bulk-submit-confirm =
+    Ik bevestig dat deze zinnen <wikipediaLink>publiek domein</wikipediaLink> zijn en
+    ik toestemming heb om ze te uploaden.
+bulk-upload-success-toast = Bulkupload zinnen voltooid
+bulk-upload-failed-toast = Upload mislukt, probeer het opnieuw.
+bulk-submission-success-header = Bedankt voor het indienen van uw bulkinzending!
+bulk-submission-success-subheader = U helpt Common Voice onze dagelijkse zinsdoelen te bereiken!
+upload-more-btn-text = Meer zinnen uploaden?
+file-invalid-type = Ongeldig bestand
+file-too-large = Bestand is te groot
+file-too-small = Bestand is te klein
+too-many-files = Te veel bestanden

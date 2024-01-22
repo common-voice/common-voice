@@ -42,6 +42,7 @@ be = białoruski
 bg = bułgarski
 bm = bambara
 bn = bengalski
+bo = tybetański
 br = bretoński
 bs = bośniacki
 bxr = buriacki
@@ -66,6 +67,7 @@ eo = esperanto
 es = hiszpański
 et = estoński
 eu = baskijski
+ewo = ewondo
 fa = perski
 ff = ful
 fi = fiński
@@ -76,6 +78,7 @@ ga-IE = irlandzki
 gl = galicyjski
 gn = guarani
 gom = goańskie konkani
+gu-IN = gudźarati
 ha = hausa
 he = hebrajski
 hi = hindi
@@ -95,6 +98,7 @@ it = włoski
 izh = iżorski
 ja = japoński
 jbo = lojban
+jv = jawajski
 ka = gruziński
 kaa = karakałpacki
 kab = kabylski
@@ -115,6 +119,7 @@ lij = liguryjski
 ln = lingala
 lo = laotański
 lt = litewski
+ltg = łatgalski
 lv = łotewski
 mai = maithili
 mdf = moksza
@@ -136,15 +141,18 @@ nb-NO = norweski (bokmål)
 nd = ndebele północny
 ne-NP = nepalski
 nhe = wschodni nahuatl huastecański
+nhi = zachodni nahuatl sierra puebla
 nia = nias
 nl = holenderski
 nn-NO = norweski (nynorsk)
 nr = ndebele południowy
 nso = północny sotho
+ny = czewa
 nyn = nyankole
 oc = oksytański
 om = oromo
 or = orija
+os = osetyjski
 pa-IN = pendżabski
 pap-AW = papiamento (Aruba)
 pl = polski
@@ -238,6 +246,7 @@ share-text = Pomóż nauczyć komputery, jak mówią prawdziwi ludzie — wspom�
 link-copied = Skopiowano odnośnik
 back-top = Powrót na górę
 logout = Wyloguj się
+donate = Przekaż datek
 
 ## Home Page
 
@@ -406,6 +415,7 @@ why-demographic-explanation-2 = Anonimowe dane o użytkowniku, takie jak wiek, 
 accept-privacy = Pozwalam wykorzystywać te dane w sposób opisany w <privacyLink>zasadach ochrony prywatności</privacyLink> Mozilli
 accept-privacy-title = Zasady ochrony prywatności
 login-identity = Tożsamość logowania
+login = Zaloguj się
 login-signup = Zaloguj/zarejestruj się
 edit = Edytuj
 email-subscriptions = Subskrypcje e-mail
@@ -779,6 +789,9 @@ target-segment-generic-card = Przyczyniasz się do segmentu docelowego
 target-segment-first-banner = Pomóż utworzyć pierwszy segment docelowy projektu Common Voice w języku: { $locale }
 target-segment-add-voice = Dodaj swój głos
 target-segment-learn-more = Więcej informacji
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1163,3 +1176,4 @@ sc-settings-ui-language = Język interfejsu
 
 # [/SentenceCollector]
 
+sentence-collection = Zbieranie zdań

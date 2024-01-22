@@ -225,6 +225,18 @@ To update the list of locales run:
 > yarn import-locales
 ```
 
+## Running End to End Tests
+
+Some end to end tests require you to create a test user for login purposes. To do so you will need to create a `cypress.env.json` file with the login details for that user and your auth0 domain. This file should be located in the root of the `web` directory. Your JSON file should look like this:
+
+```json
+{
+  "auth0_domain": "auth0_domain",
+  "test_user_email": "test user email",
+  "test_user_password": "test user password"
+}
+```
+
 ## Submitting an Issue
 
 Did you notice a bug? Do you have a feature request? Please file an issue [here on GitHub](https://github.com/mozilla/common-voice/issues).

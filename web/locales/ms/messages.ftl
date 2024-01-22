@@ -1,8 +1,8 @@
 ## General
 
 yes-receive-emails = Ya, hantarkan e-mel kepada saya. Saya ingin terus mengetahui tentang projek Common Voice.
-stayintouch = Kami di Mozilla sedang membina komuniti di sekitar teknologi suara. Kami ingin terus berhubung dengan kemas kini, sumber data baru dan untuk mengetahui lebih lanjut mengenai bagaimana Anda menggunakan data ini.
-privacy-info = Kami berjanji untuk mengendalikan maklumat Anda dengan cermat. Ketahui selanjutnya dalam <privacyLink>Notis Privasi</privacyLink> kami.
+stayintouch = Kami di Mozilla sedang membina komuniti di sekitar teknologi suara. Kami ingin terus berhubung dengan kemas kini, sumber data baru dan untuk mengetahui lebih lanjut mengenai bagaimana anda menggunakan data ini.
+privacy-info = Kami berjanji untuk mengendalikan maklumat anda dengan cermat. Ketahui selanjutnya dalam <privacyLink>Dasar Privasi</privacyLink> kami.
 return-to-cv = Kembali ke Common Voice
 email-input =
     .label = E-mel
@@ -11,15 +11,15 @@ loading = Memuatkan…
 email-opt-in-info = Saya ingin menerima e-mel seperti peringatan matlamat, kemas kini kemajuan saya dan buletin mengenai Common Voice.
 email-opt-in-info-title = Sertai senarai mel Common Voice
 email-opt-in-info-sub-with-challenge = Terima e-mel seperti peringatan cabaran dan matlamat, kemas kini kemajuan, dan buletin mengenai Common Voice.
-email-opt-in-privacy-v2 =
-    Dengan memilih untuk menerima e-mel, Anda menyatakan bahawa anda baik-baik saja dengan Mozilla mengendalikan 
-     maklumat ini seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla.
+email-opt-in-privacy-v2 = Dengan memilih untuk menerima e-mel, anda menyatakan bahawa anda bersetuju dengan Mozilla mengendalikan maklumat tersebut seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla.
 indicates-required = Medan bertanda asterisk (*) diperlukan.
 not-available-abbreviation = N/A
-banner-error-slow-1 = Maaf, Common Voice berjalan perlahan. Terima kasih atas minat Anda.
+banner-error-slow-1 = Maaf, Common Voice berjalan perlahan. Terima kasih atas minat anda.
 banner-error-slow-2 = Kami menerima banyak trafik dan sedang menyiasat isu tersebut
 banner-error-slow-link = Halaman Status
 error-something-went-wrong = Ooops, ada sesuatu yang tidak kena
+error-clip-upload = Muat naik klip ini terus gagal, teruskan mencuba lagi?
+error-clip-upload-server = Muat naik klip ini gagal di pelayan. Muat semula halaman atau cuba lagi nanti.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -215,11 +215,12 @@ terms = Terma
 cookies = Kuki
 faq = Soalan Lazim
 content-license-text = Kandungan tersedia di bawah <licenseLink>lesen Creative Commons</licenseLink>
-share-title = Bantu kami mencari orang lain untuk menderma suara mereka!
-share-text = Bantu mengajar mesin bagaimana orang sebenar bercakap, sumbangkan suara Anda di { $link }
+share-title = Bantu kami mencari orang lain untuk menyumbangkan suara mereka!
+share-text = Bantu mengajar mesin bagaimana orang sebenar bercakap, sumbangkan suara anda di { $link }
 link-copied = Pautan Disalin
 back-top = Kembali ke atas
 logout = Log Keluar
+donate = Derma
 
 ## Home Page
 
@@ -234,7 +235,7 @@ wall-of-text-more-mobile =
     itu yang menyekat inovasi. Oleh itu, kita telah melancarkan Projek Common Voice, projek untuk membantu membuat suara
     pengiktirafan terbuka kepada semua orang.
 wall-of-text-more-desktop =
-    Kini Anda dapat menyumbangkan suara Anda untuk membantu kami membina pangkalan data suara sumber terbuka yang boleh digunakan oleh orang untuk membuat aplikasi inovatif untuk peranti dan web.<lineBreak></lineBreak> 
+    Kini anda dapat menyumbangkan suara anda untuk membantu kami membina pangkalan data suara sumber terbuka yang boleh digunakan oleh sesiapa sahaja untuk membina aplikasi yang inovatif untuk peranti dan web.
     Baca ayat untuk membantu mesin mengetahui bagaimana orang sebenar bercakap. Periksa hasil kerja penyumbang lain untuk meningkatkan kualiti. ia semudah itu!
 wall-of-text-first =
     Suara adalah semulajadi, suara adalah manusia. Itulah sebabnya kami teruja mencipta teknologi suara yang boleh digunakan
@@ -249,7 +250,7 @@ no-clips-to-validate = Nampaknya tidak ada klip untuk didengarkan dalam bahasa i
 vote-yes = Ya
 vote-no = Tidak
 toggle-play-tooltip = Tekan { shortcut-play-toggle }  untuk togol mode main
-speak-subtitle = Sumbangkan suara Anda
+speak-subtitle = Sumbangkan suara anda
 speak-paragraph = Merakam klip suara merupakan bahagian penting dalam membina set data terbuka kami; ada juga yang mengatakan ia adalah bahagian yang menyeronokkan juga.
 speak-goal-text = Klip dirakam
 listen-subtitle = Tolong kami mengesahkan suara
@@ -260,8 +261,8 @@ hours-validated = Jam Disahkan
 voices-online = Suara Dalam Talian Sekarang
 todays-progress = Perkembangan Hari ini
 help-reach-goal = Bantu kami mencapai { $goal }
-read-terms-q = Sudahkah Anda membaca terma kami?
-ready-to-record = Bersedia untuk menyumbangkan suara Anda?
+read-terms-q = Sudahkah anda membaca terma kami?
+ready-to-record = Bersedia untuk menyumbangkan suara anda?
 all-locales = Semua
 today = Hari ini
 x-weeks-short =
@@ -278,26 +279,26 @@ x-years-short =
     }
 help-make-dataset = Bantu kami membina set data berkualiti tinggi dan terbuka untuk umum
 sign-up-account = Daftarkan akaun
-email-subscription-title = Daftar untuk mendapatkan kemas kini emel
+email-subscription-title = Daftar untuk mendapatkan kemas kini e-mel
 email-subscription-title-new = Daftar untuk buletin Common Voice, peringatan matlamat dan kemas kini kemajuan
 
 ## Account Benefits
 
 benefits = Manfaat
-rich-data = Jadikan data yang Anda serahkan selengkap mungkin dengan menyediakan sebahagian data demografi awanama. Kami menyahkenal pasti semua data demografi sebelum menjadikannya umum.
+rich-data = Jadikan data yang anda serahkan selengkap mungkin dengan menyediakan sebahagian data demografi awanama. Kami menyahkenal pasti semua data demografi sebelum menjadikannya umum.
 improve-audio = Maklumat profil data audio dapat digunakan dalam melatih ketepatan pengecaman pertuturan.
-keep-track = Pantau kemajuan dan metrik Anda dalam pelbagai bahasa.
-compare-progress = Lihat bagaimana kemajuan Anda dibandingkan dengan penyumbang lain di seluruh dunia.
-view-goals = Lihat kemajuan Anda terhadap matlamat peribadi dan projek.
+keep-track = Pantau kemajuan dan metrik anda dalam pelbagai bahasa.
+compare-progress = Lihat bagaimana kemajuan anda dibandingkan dengan penyumbang lain di seluruh dunia.
+view-goals = Lihat kemajuan anda terhadap matlamat peribadi dan projek.
 join-newsletter = Secara sukarela sertai senarai e-mel kami untuk kemas kini dan maklumat baru mengenai projek ini.
 
 ## What's public
 
 whats-public = Apa yang umum?
-email-not-public = Kami tidak akan menjadikan e-mel Anda umum.
-recordings-and-locale-public = Jumlah rakaman dan bahasa yang Anda sumbangkan akan menjadi umum.
+email-not-public = Kami tidak akan menjadikan e-mel anda umum.
+recordings-and-locale-public = Jumlah rakaman dan bahasa yang anda sumbangkan akan menjadi umum.
 username-optin-public = Anda boleh pilih untuk jadikan nama pengguna anda terbuka atau awanama.
-demographic-deidentified-clarity-2 = Data demografi (seperti umur, jantina, bahasa dan aksen)  yang diserahkan secara pilihan, tidak akan didedahkan kepada umum pada profil Anda dan tidak akan dipautkan ke akaun anda dalam set data. Klip audio individu akan dikaitkan dengan data demografi untuk tujuan analisa yang lebih tepat - contohnya, seorang penyelidik mungkin ingin menyasarkan model latihan kepada segmen demografi tertentu
+demographic-deidentified-clarity-2 = Data demografi (seperti umur, jantina, bahasa dan aksen)  yang diserahkan secara pilihan, tidak akan didedahkan kepada umum pada profil anda dan tidak akan dipautkan ke akaun anda dalam set data. Klip audio individu akan dikaitkan dengan data demografi untuk tujuan analisa yang lebih tepat - contohnya, seorang penyelidik mungkin ingin menyasarkan model latihan kepada segmen demografi tertentu
 username-email-not-demographic = Nama pengguna dan e-mel anda tidak akan dikaitkan dengan data yang diterbitkan.
 
 ## Speak & Listen Shortcuts
@@ -401,9 +402,10 @@ accept-privacy = Saya setuju Mozilla mengendalikan maklumat ini seperti yang ter
 accept-privacy-title = Dasar Polisi
 accept-privacy-and-terms = Saya bersetuju dengan <termsLink>Terma</termsLink> dan <privacyLink>Notis Privasi</privacyLink>
 login-identity = Identiti Log Masuk
+login = Log Masuk
 login-signup = Log Masuk / Daftar
 edit = Sunting
-email-subscriptions = Langganan E-mel
+email-subscriptions = Langganan e-mel
 download-profile = Muat turun Data Saya
 contribution-experience = Pengalaman Sumbangan
 skip-submission-feedback = Langkau Penghantaran Maklum balas
@@ -430,8 +432,8 @@ remove-avatar = Buang Avatar
 ## Profile - Email
 
 manage-subscriptions = Urus Langganan
-manage-email-subscriptions = Urus Langganan E-mel
-email-already-used = E-mel sudah digunakan untuk akaun lain
+manage-email-subscriptions = Urus Langganan e-mel
+email-already-used = e-mel telah digunakan untuk akaun lain
 add-language = Tambah Bahasa
 change-email-setings = Tukar e-mel anda melalui Tetapan di bawah Identiti Log Masuk
 
@@ -535,13 +537,20 @@ about-yes-votes-text = Untuk menjadikannya dalam set data Common Voice, klip sua
 about-no-votes = ≥ 2 Tiada undian
 about-no-votes-text = Apabila pengguna menolak klip suara ia kembali ke Baris Gilir. Jika ditolak untuk kali kedua, klip suara dialihkan ke Klip Graveyard.
 about-dataset-new = Set Data Common Voice
+about-dataset-new-text = Set Data Common Voice mengandungi berribu-ribu sampel suara yang membantu pembangun membina alat pengecaman suara.
 about-clip-graveyard = Perkuburan Klip
 about-clip-graveyard-text =
     Klip Graveyard terdiri daripada klip suara yang tidak dimasukkan ke dalam set data Common Voice. Sama seperti set data, Clip Graveyard tersedia untuk dimuat turun.
     
     Kami ingin mengucapkan terima kasih kepada orang dan organisasi berikut atas bantuan mereka dengan projek ini:
 about-get-involved = Melibatkan diri
+about-get-involved-text-2 =
+    Mahu membantu menjadikan Common Voice lebih baik?
+    Hebat! Hubungi kami melalui e-mel atau forum <<discourseLink>>Discourse</discourseLink>,
+    laporkan isu laman melalui <githubLink>GitHub</githubLink>, atau sertai 
+    komuniti bersembang<<matrixLink>>Matrix</matrixLink>.
 about-stay-in-touch = Bagaimana saya boleh terus berhubung?
+about-stay-in-touch-button = Daftar
 about-stay-in-touch-text-1 = <emailFragment>Daftar</emailFragment> ke senarai mel kami untuk mengetahui cara anda boleh mengambil bahagian dalam kempen, acara dan ciri reka bentuk bersama di Common Voice.
 about-stay-in-touch-text-2 = Anda boleh bertemu orang lain dalam komuniti bahasa Mozilla dengan menyertai <discourseLink>Discourse</discourseLink> untuk perbualan topikal, atau <matrixLink>Matrix</matrixLink> untuk mendapatkan nasihat pantas.
 about-nav-why-common-voice = Kenapa?
@@ -596,7 +605,6 @@ about-playbook-how-add-sentences = Bagaimana saya boleh menambah ayat?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ialah alat untuk mengumpul dan mengesahkan ayat domain awam. Anda akan <scAccountLink>perlu membuat akaun</scAccountLink>. Kemudian, tambahkan bahasa anda pada <strong>Profil</strong> anda. Anda boleh <strong>Tambah</strong> ayat atau <strong>Semak</strong> ayat yang ditambahkan sebelum ini.
 about-playbook-how-add-sentences-content-2 = Ayat mesti disemak dan diterima oleh dua orang untuk disertakan dalam Common Voice. Anda membuat garis panduan untuk bahasa anda <languageGuidelinesLink>di sini</languageGuidelinesLink>. Ayat mestilah dalam <licenseLink>domain awam</licenseLink> dan lebih pendek daripada 15 patah perkataan. Anda boleh meminta pemilik teks untuk menjadikannya <waiverLink>CC0 menggunakan proses penepian kami</waiverLink> dan hantar kepada kami di commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Anda boleh menggunakan <scraperLink>Sentence extractor</scraperLink> untuk memanfaatkan ayat pendek daripada Wikipedia.
-about-playbook-how-add-sentences-content-4 = Ayat yang telah disahkan dieksport pada hari Rabu, dan tersedia selepas keluaran seterusnya.
 
 ## How to record quality
 
@@ -670,6 +678,7 @@ data-download-deny = Tidak
 data-download-license = Lesen: <licenseLink> CC-0 </licenseLink>
 data-download-modal = Anda akan memulakan muat turun <size> { $size } GB </size>, teruskan?
 data-subtitle = Kami sedang membina set data suara terbuka dan tersedia untuk umum yang semua orang boleh gunakan untuk melatih aplikasi berdaya pertuturan.
+data-explanatory-text = Kami percaya bahawa set data suara yang besar dan tersedia untuk umum memupuk inovasi dan persaingan komersial yang sihat dalam teknologi pertuturan berasaskan pembelajaran mesin. Ini adalah usaha global dan kami menjemput semua orang untuk mengambil bahagian. Matlamat kami adalah untuk membantu teknologi pertuturan menjadi lebih inklusif, mencerminkan kepelbagaian suara dari seluruh dunia.
 data-get-started = <BRBlogLink>Mulakan Pengecaman Pertuturan</BRBlogLink>
 data-other-title = Set data suara lain ...
 data-other-goto = Pergi ke { $name }
@@ -678,6 +687,7 @@ data-bundle-button = Muat turun Pakej Dataset
 data-bundle-description = Data Common Voice serta semua set data suara lain di atas.
 release-version = Versi
 dataset-date = Tarikh
+license = Lesen: <licenseLink>{ $license }</licenseLink>
 license-mixed = Campuran
 data-download-singleword-title = Muat turun Segmen Sasaran Kata Tunggal
 data-download-singleword-callout-v2 = Ini adalah segmen dipacu kes yang mengandungi data untuk pengiktirafan digit yang dipertuturkan dan pengesahan ya / tidak.
@@ -686,6 +696,7 @@ terms-agree = Saya setuju
 terms-disagree = saya tidak bersetuju
 review-aborted = Muat naik dibatalkan. Adakah anda ingin memadam rakaman anda?
 review-submit-title = Semak & Hantar
+review-submit-msg = Terima kasih kerana merakam!<lineBreak></lineBreak>Sekarang semak dan serahkan klip anda di bawah.
 review-recording = Semakan
 review-rerecord = Rakam semula
 review-cancel = Batal Serahan
@@ -694,7 +705,8 @@ review-delete-recordings = Padamkan rakaman saya
 
 ## Datasets Page
 
-datasets-headline = Kami sedang membina set data suara terbuka dan tersedia untuk umum yang semua orang boleh gunakan untuk melatih aplikasi berdaya pertuturan.
+datasets-heading = Set data
+datasets-headline = Kami sedang membina set data suara berbilang-bahasa sumber terbuka yang sesiapa sahaja boleh gunakan untuk melatih aplikasi yang berdaya pertuturan.
 datasets-positioning =
     Kami percaya bahawa set data suara yang besar dan tersedia untuk umum akan memupuk inovasi dan persaingan komersial yang sihat dalam teknologi pertuturan berasaskan pembelajaran mesin.
     
@@ -815,6 +827,7 @@ language-search-input =
 language-speakers = Penceramah
 localized = Dilokalisasi
 sentences = Ayat
+language-validation-hours = Jam
 
 ## Contribution
 
@@ -869,6 +882,9 @@ target-segment-generic-card = Anda menyumbang kepada segmen sasaran
 target-segment-first-banner = Bantu membuat segmen sasaran pertama Common Voice di { $locale }
 target-segment-add-voice = Tambahkan Suara Anda
 target-segment-learn-more = Ketahui Selanjutnya
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -953,7 +969,7 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
-       *[other] Bantu Common Voice mencapai { $hours } jam dalam bahasa dengan matlamat peribadi
+       *[other] Bantu Common Voice mencapai { $hours } jam dalam sesuatu bahasa dengan matlamat peribadi
     }
 set-a-goal = Tetapkan matlamat
 cant-decide = Tidak dapat membuat keputusan?
@@ -1010,6 +1026,7 @@ profile-form-delete = Hapus Profil
 
 ## Profile Download
 
+download-profile-title = Profil
 download-recordings-title = Rakaman
 download-request-description = { $clipCount } klip suara, jumlah saiz arkib { $size }. Tamat tempoh { $expires }.
 
@@ -1024,7 +1041,7 @@ read-more-about = Baca lebih lanjut di halaman Perihal kami
 
 demo-get-started = Mari kita mulakan
 demo-welcome = Selamat Datang ke Common Voice
-demo-welcome-subheader = Berminat untuk belajar lebih banyak dan menyumbang kepada projek ini?
+demo-welcome-subheader = Berminat untuk mengetahui lebih lanjut dan menyumbang kepada projek ini?
 
 ## Demo Datasets
 
@@ -1088,6 +1105,7 @@ sc-footer-privacy = Privasi
 
 ## GENERAL
 
+sc-languages-fetch-error = Kami gagal mendapatkan bahasa yang tersedia. Sumbangan tidak boleh dibuat pada masa ini. Sila cuba sebentar lagi.
 
 ## HOW-TO
 
@@ -1154,6 +1172,12 @@ partnerships-academia-description = Inovasi terbuka adalah teras kepada apa yang
 partnerships-small-business-header = Perniagaan kecil, termasuk start up teknologi dan AI
 partnerships-small-business-description = Kami sentiasa mahu mendengar daripada pengguna data mengenai keperluan dan konteks mereka - daripada bekerjasama dalam platform pengumpulan data untuk menyediakan wawasan kesihatan data, kami mahu <emailFragment>mendapat maklum balas daripada anda.</emailFragment>
 partnerships-corporates-header = Syarikat korporat dan platform berskala besar
-partnerships-corporates-description = Jika Anda ingin bercakap lebih lanjut tentang set data, ingin melabur bersama dalam pengembangan platform yang dirancang atau mencari peluang kerjasama, <emailFragment>turun talian kepada kami.</emailFragment>
+partnerships-corporates-description = Jika anda ingin bercakap lebih lanjut tentang set data ini, ingin melabur bersama dalam pengembangan platform yang dirancang atau mencari peluang kerjasama, <emailFragment>turun talian kepada kami.</emailFragment>
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Terima kasih kerana menderma klip suara anda!
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+

@@ -92,3 +92,17 @@ export function useLocalStorageState<T>(
 
   return [value, setValue];
 }
+
+export function useLanguages() {
+  return useTypedSelector(({ languages }) => languages);
+}
+
+export function useSentences() {
+  return useTypedSelector(({ sentences }) => sentences)
+}
+
+export function useAbortContributionModal() {
+  return useTypedSelector(
+    ({ abortContributionModal }) => abortContributionModal
+  );
+}

@@ -14,8 +14,15 @@ export function hash(str: string, salt?: string): string {
 /**
  * Used to hash sentences in import-sentences.ts
  */
-export function hashSentence(str: string) {
+export function hashSentence(str: string): string {
   return crypto.createHmac('sha256', SENTENCE_SALT).update(str).digest('hex');
+}
+
+/**
+ * Create sentence id hash over sentence and locale id
+ */
+export function   createSentenceId(sentence: string, localeId: number): string {
+  return hashSentence(`${localeId}:${sentence}`);
 }
 
 /**

@@ -44,6 +44,7 @@ be = Wit-Russysk
 bg = Bulgaarsk
 bm = Bambara
 bn = Bingaalsk
+bo = Tibetaansk
 br = Bretonsk
 bs = Bosnysk
 bxr = Burjatysk
@@ -68,6 +69,7 @@ eo = Esperanto
 es = Spaansk
 et = Estysk
 eu = Baskysk
+ewo = Ewondo
 fa = Perzysk
 ff = Fula
 fi = Finsk
@@ -78,6 +80,7 @@ ga-IE = Iersk
 gl = Galisysk
 gn = Guaraní
 gom = Goaneesk Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebriuwsk
 hi = Hindy
@@ -97,6 +100,7 @@ it = Italiaansk
 izh = Izjorysk
 ja = Japansk
 jbo = Lojban
+jv = Javaansk
 ka = Georgysk
 kaa = Karakalpaksk
 kab = Kabylysk
@@ -117,6 +121,7 @@ lij = Ligurysk
 ln = Lingala
 lo = Laotiaansk
 lt = Litousk
+ltg = Letgaalsk
 lv = Letsk
 mai = Maithili
 mdf = Moksja
@@ -138,15 +143,18 @@ nb-NO = Noarsk Bokmål
 nd = IsiNdebele (Noardlik)
 ne-NP = Nepaleesk
 nhe = Eastlik Huasteca Nahuatl
+nhi = Westersk Sierra Puebla Nahuatl
 nia = Nias
 nl = Nederlânsk
 nn-NO = Norwegysk Nynorsk
 nr = IsiNdebele (Súdlik)
 nso = Noard-Sotho
+ny = Chinyanja
 nyn = Nyankole
 oc = Okkitaansk
 om = Afaan Oromo
 or = Odia
+os = Ossetysk
 pa-IN = Punjabi
 pap-AW = Papiamintsk (Aruba)
 pl = Poalsk
@@ -240,6 +248,7 @@ share-text = Help mei masinen te learen hoe’t echte minsken prate, donearje jo
 link-copied = Keppeling kopiearre
 back-top = Nei boppe
 logout = Ofmelde
+donate = Donearje
 
 ## Home Page
 
@@ -422,6 +431,7 @@ accept-privacy = Ik gean akkoart mei hoe’t jo mei dizze gegevens omgean, lykas
 accept-privacy-title = Privacybelied
 accept-privacy-and-terms = Ik gean akkoard mei de <termsLink>Betingsten</termsLink> en <privacyLink>Privacybelied</privacyLink> fan Common Voice
 login-identity = Oanmeldingsidentiteit
+login = Oanmelde
 login-signup = Oanmelde / Registrearje
 edit = Bewurkje
 email-subscriptions = E-mailynskriuwingen
@@ -620,7 +630,6 @@ about-playbook-how-add-sentences = Hoe foegje ik sinnen ta?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> is in helpmiddel foar it sammeljen en falidearjen fan sinnen yn it publike domein. Jo moatte <scAccountLink>in account oanmeitsje</scAccountLink>. Foegje dêrnei jo taal ta oan jo <strong>Profyl</strong>. Jo kinne sinnen <strong>Tafoegje</strong> of earder tafoege sinnen <strong>Beoardiele</strong>.
 about-playbook-how-add-sentences-content-2 = Sinnen moatte troch twa minsken beoardiele en akseptearre wurde om opnommen te wurden yn Common Voice. Jo meitsje <languageGuidelinesLink>hjir</languageGuidelinesLink> rjochtlinen foar jo taal. Sinnen moatte yn it <licenseLink>publike domein</licenseLink> stean en koarter wêze as 15 wurden. Jo kinne de eigener fan in tekst freegje om dizze <waiverLink>CC0 te meitsjen mei help fan ús ûntheffingsproses</waiverLink> en dizze nei ús stjoeren fia commonvoice@mozilla.com.
 about-playbook-how-add-sentences-content-3 = Jo kinne de <scraperLink>Sentence extractor</scraperLink> brûke om koarte sinnen út Wikipedia te brûken.
-about-playbook-how-add-sentences-content-4 = Falidearre sinnen wurde op woansdei eksportearre en binne nei de folgjende útjefte beskikber.
 
 ## How to record quality
 
@@ -743,10 +752,12 @@ validated-hr-total = Totaal falidearre oeren
 overall-hr-total = Totaal oeren
 cv-license = Lisinsje
 audio-format = Audioformaat
+dataset-splits = Splitsingen (leeftiid en geslacht)
 number-of-voices = Oantal stimmen
 splits = Sindielen
 email-to-download = Fier e-mailadres yn om te downloaden
 why-email = <b>Wêrom in e-mailadres?</b> Mooglik moatte wy jo yn de takomst oer wizigingen yn de gegevensset ynformearje. In e-mailadres jout ús in kontaktmooglikheid.
+why-donate = Wêrom freegje jo dat?
 confirm-size = Jo binne ree om in download te starten fan <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -864,6 +875,8 @@ language-section-in-progress = Yn útfiering
 language-section-in-progress-new-description = Dizze talen wurde op dit stuit troch de mienskip ûntwikkele. De foartgongsbalken jouwe oan hoe fier elke taal is mei de <localizationGlossaryLink>websiteoersetting</localizationGlossaryLink> en it <sentenceCollectionGlossaryLink>sammeljen fan sinnen</sentenceCollectionGlossaryLink>.
 language-section-launched = Lansearre
 language-section-launched-description = Foar dizze beskikbere talen is de website mei sukses <localizationGlossaryLink>oerset</localizationGlossaryLink>, en binne der genôch <sentenceCollectionGlossaryLink>sinnen sammele</sentenceCollectionGlossaryLink> foar trochgeande bydragen oan it <speakLink>sprekken</speakLink> en <listenLink>harkjen</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Lêst bywurke: { $lastUpdatedTimeStamp }
 languages-show-more = Mear besjen
 languages-show-less = Minder besjen
 language-meter-in-progress = Yn útfiering
@@ -882,6 +895,8 @@ action-click = Klik op
 action-tap = Tik op
 contribute = Meiwurkje
 listen = Harkje
+write = Skriuwe
+review = Beoardiele
 skip = Oerslaan
 shortcuts = Fluchkeppelingen
 clips-with-count-pluralized =
@@ -927,6 +942,9 @@ listen-empty-state = Wy hawwe yn dizze taal gjin te falidearjen fragminten mear�
 listen-loading-error =
     Wy kinne gjin audiofragminten foar jo ophelje om nei te harkjen.
     Probearje it letter nochris.
+listen-abort-title = Falidearjen fan fragminten foltôgje?
+listen-abort-cancel = Trochgean mei falidearjen
+listen-abort-confirm = Falidearjen foltôgje
 speak-empty-state = Wy hawwe yn dizze taal gjin op te nimmen sinnen mear…
 speak-empty-state-cta = Sinnen bydrage
 speak-loading-error =
@@ -941,6 +959,11 @@ target-segment-generic-card = Jo drage by oan in doelsegmint
 target-segment-first-banner = Help by it meitsjen fan it earste doelsegmint yn it { $locale } fan Common Voice
 target-segment-add-voice = Jo stim tafoegje
 target-segment-learn-more = Mear ynfo
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Spraakkolleksje
+contribute-sentence-collection-nav-header = Sinnensamling
 
 ## Reporting
 
@@ -1660,3 +1683,177 @@ already-have-an-account = Hawwe jo al in account? <login>Oanmelde</login>
 create-profile-button = In profyl oanmeitsje
 # IMAGE TAGS
 img-alt-success-checkmark = suksesfinkje
+# GUIDELINES PAGE
+guidelines-header = Rjochtlinen foar bydragen
+guidelines-header-subtitle = Lear hoe’t jo sinnen en audiofragminten oan de Common Voice-gegevensset bydrage en falidearje kinne
+voice-collection = Spraakkolleksje
+sentence-collection = Sinnensamling
+varying-pronunciations = Utienrinnende útspraken
+misreadings = Lêsflaters
+offensive-content = Oanstjitjaande ynhâld
+background-noise = Eftergrûnlûd
+background-voices = Eftergrûnstimmen
+volume = Folume
+reader-effects = Lêzereffekten
+just-unsure = Gewoan ûnwis?
+example = Foarbyld
+varying-pronunciations-explanation-1 = Wy hjitte ferskate aksinten wolkom! Wês foarsichtich eardat jo in fragmint ôfwize as jo tinke dat in lêzer in wurd ferkeard útsprutsen hat, de klam op it ferkearde plak lein hat, of blykber in ynterpunksje negearre hat. Der is wrâldwiid in grut ferskaat oan útspraken yn gebrûk, guon fan dy hawwe jo miskien net heard yn jo lokale mienskip. Jou asjebleaft in romme marzje fan wurdearring foar dyjingen dy’t oars kinne sprekke as jo.
+varying-pronunciations-explanation-2 = Mar as jo tinke dat de lêzer it wurd noch nea brûkt hat en in ferkeare ynskatting fan de útspraak docht, wiis it fragmint dan ôf. As jo net wis binne, brûk dan de knop Oerslaan.
+varying-pronunciations-example = De rûte wie ûndúdlik.
+varying-pronunciations-tip-1 = [Kanadeesk Ingelsk soe ‘route’ klinken litte kinne as ‘rowt’]
+varying-pronunciations-tip-2 = [Britsk Ingels soe ‘root’ meitsje kinne]
+offensive-content-explanation = Sinnen wurde beoardiele fia in moderaasjeproses troch de mienskip, mar dit proses is net perfekt. As jo in sin sjogge of hearre dy’t jo belediget of fan streek makket – bygelyks omdat dizze yn striid is mei ús <participationGuidelines>rjochtlinen foar dielname oan de mienskip</participationGuidelines> – brûk dan de labelknop yn de brûkersinterface. Jo kinne ek kontakt mei ús opnimme fia <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = It is wichtich om alle wurden op de side korrekt te lêzen. Kontrolearje wylst it harkjen hiel goed of wat der opnommen is, krekt is wat der skreaun is; wiis it fragmint ôf as de sprekker wurden tafoege, ynkoarte of mist hat.
+misreadings-explanation-2 = Faaks foarkommende flaters omfetsje:
+misreadings-explanation-3 = Untbrekkende ‘In’, ‘De’ of ‘It’ oan it begjin fan de opname.
+misreadings-explanation-4 = In ûntbrekkende ‘s’ oan it ein fan in wurd.
+misreadings-explanation-5 = Gearfoegingen dy’t der eins net binne, lykas ‘Sa’n’ yn stee fan ‘Sa ien’, of oarsom.
+misreadings-explanation-6 = It ein fan it lêste wurd ûntbrekt troch it te fluch ôfbrekken fan de opname.
+misreadings-explanation-7 = Meardere besykjen om in wurd te lêzen.
+misreadings-example-1 = Ik haw kofje mei har dronken.
+misreadings-example-2 = Ik haw kofje mei 'r dronken.
+misreadings-example-3 = Ik haw in kofje mei har dronken.
+misreadings-example-4 = De hommel fleach foarby.
+misreadings-tip-1 = [Soe ‘har’ wêze moatte]
+misreadings-tip-2 = [Der sit gjin ‘in’ yn de oarspronklike tekst]
+misreadings-tip-3 = [Net-oerienkommende ynhâld]
+background-noise-explanation = Jo moatte elk wurd fan de opname hearre kinne. Wy wolle dat algoritmen foar masinaal learen in ferskaat oan eftergrûnlûden ferwurkje kinne, en sels relatyf hurde lûden of stille eftergrûnmuzyk kinne akseptearre wurde op betingst dat se net foarkomme dat jo de hiele tekst hearre. Kreakjen of ‘fuortfallen’ wêrtroch jo de tekst net hearre, betsjut dat jo it fragmint ôfwize moatte.
+background-noise-example-1 = De enoarme dinosaurussen fan it Trias.
+background-noise-example-2 = [Prúste] De enoarme dinosaurussen fan it [hoast] Trias.
+background-noise-example-3 = De enoarme dino [hoast] fan it Trias.
+background-noise-example-4 = [Kreakje] enoarme dinosaurussen [kreakjen] -rias.
+background-noise-tip-1 = [ûnderbrutsen troch eftergrûnlûd]
+background-noise-tip-2 = [De tekst is foar in part net te hearren]
+background-voices-explanation = In bytsje eftergrûnlûd is goed, mar as jo in oare persoan hearre kinne dy’t ûnderskate wurden sprekt, moat it fragmint ôfwiisd wurde. Typysk bart dit wêr’t de TV oan litten is, of wêr’t in petear yn de buert is.
+background-voices-example-1 = De enoarme dinosaurussen fan it Trias. [lêzen troch ien stim]
+background-voices-tip-1 = Komsto? [roppen troch in oar]
+volume-explanation = Der sille natuerlike fariaasjes yn folume tusken lêzers wêze. Wiis it fragmint allinnich ôf as it folume sa heech is dat de opname ûnderbrutsen wurdt, of (faker) as it sa leech is dat ûnfersteanber is wat der sein wurdt sûnder nei de skreaune tekst sjen te moatten.
+reader-effects-explanation = De measte opnamen binne fan minsken dy’t mei harren natuerlike stim prate. Jo kinne sa no en dan in ôfwikende opname akseptearje dy’t skreauwend of flústere wurdt of dúdlik ôflevere wurdt mei in ‘dramatyske’ stim. Wiis songen opnamen en opnamen mei in kompjûtergenerearre stim ôf.
+just-unsure-explanation = As jo wat tsjinkomme dat net yn dizze rjochtlinen behannele wurdt, stim dan nei jo bêste oardiel. As jo echt net beslisse kinne, brûk dan de knop Oerslaan en gean troch nei de folgjende opname.
+still-have-questions = Hawwe jo noch fragen?
+contact-common-voice = Nim kontakt op mei it Common Voice-team
+public-domain = Publike domein
+citing-sentences = Sinnen sitearje
+adding-sentences = Sinnen tafoegje
+reviewing-sentences = Sinnen beoardiele
+public-domain-explanation-1 = It is tige wichtich dat alle tekstsinnen <publicDomain>publyk domein</publicDomain> (<cc0>cc0</cc0>) binne, omdat de Common Voice-dataset frijjûn wurdt ûnder in cc0-lisinsje. Laad allinnich in sin op as jo wis binne en foegje altyd de relevante boarnefermelding ta.
+public-domain-explanation-2 = De bêste sinnen foar it bouwen fan in brûkbere spraakwerkenningsmasine binne in moderne sprektaal. Guon ideeën om jo te helpen sinnen te generearjen binne;
+public-domain-explanation-3 = Meitsje sels moderne, ynformele sinnen of mei jo freonen of taalmienskip – bygelyks troch in ‘write-a-thon’
+public-domain-explanation-4 = Nim kontakt op mei auteurs, toanielskriuwers of senarioskriuwers en freegje oft se ree binne om in lyts part fan har wurken te wijen oan it publike domein
+public-domain-explanation-5 = Sykje nei tekst dêr’t it auteursrjocht net mear jildt – bygelyks de measte boeken dy’t foar 1920 útjûn binne
+public-domain-explanation-6 = Nim kontakt op mei oerheden, non-profitorganisaasjes of mediaorganisaasjes om te sjen oft ien fan har webynhâld, rapporten of oare ynhâld tawizen wurde kin oan it publike domein
+citing-sentences-explanation-1 = It is wichtich om boarnefermeldingen op te nimmen, sadat wy kontrolearje kinne dat sinnen yn it publike domein binne en der gjin auteursrjochtbeheiningen fan tapassing binne.
+citing-sentences-subheader-websites = Websites
+citing-sentences-subheader-websites-explanation = Jo kinne de website opnimme, bygelyks ‘Common Voice - https://commonvoice.mozilla.org/’
+citing-sentences-subheader-academic-reference = Akademyske referinsje
+citing-sentences-subheader-academic-reference-explanation =
+    Jo kinne in akademyske referinsjestyl brûke, bygelyks Harvard-styl
+    ‘Mozilla (2021) Common Voice. Beskikber op https://commonvoice.mozilla.org/ (Benadere: 15 septimber 2021)’
+citing-sentences-subheader-offline-sources = Offline boarnen
+citing-sentences-subheader-offline-sources-explanation =
+    Foar publyk-domeintekst dy’t net online beskikber is, kinne jo de akademyske referinsjestyl brûke,
+    byg. Harvard-styl ‘Jess (2021) Myn iepenbiere lisinsjegedichten’
+citation =
+    .label = Sitaat
+self-citation = Selssitaasje
+self-citation-explanation = Op dizze manier sitearje jo josels as jo sels de ynhâld skreaun hawwe.
+adding-sentences-subheader-length = Lingte
+adding-sentences-subheader-length-explanation = De sin moat minder as 15 wurden befetsje.
+adding-sentences-subheader-spelling-punctuation = Stavering en ynterpunksje
+adding-sentences-subheader-spelling-punctuation-explanation = De sin moat goed stavere wêze.
+adding-sentences-subheader-speakable = Sprekber
+adding-sentences-subheader-speakable-explanation = De bêste sinnen binne natuerlik en konversaasjerelatearre – se moatte maklik wêze foar ien om te lêzen. Wylst fonetysk ferskaat en ferskillende wurden yn sinnen wichtich is, probearje wy ek it opnimmen fan sinnen sa boeiend en aardich mooglik te meitsjen foar ús frijwilligersmienskip.
+adding-sentences-subheader-numbers = Nûmers
+adding-sentences-subheader-numbers-explanation = Der meie idealiter gjin sifers yn de boarnetekst stean, omdat dizze problemen feroarsaakje kinne wannear’t se hurdop foarlêzen wurde. De manier wêrop in getal lêzen wurdt is ôfhinklik fan de kontekst en kin betizing yn de dataset feroarsaakje. It getal ‘2409’ kin bygelyks sekuer lêzen wurde as sawol ‘fjouwerentweintich nul njoggen’ as ‘twatûzen fjouwerhûndert njoggen’.
+adding-sentences-subheader-abbreviations = Ofkoartingen en akronimen
+adding-sentences-subheader-abbreviations-explanation = Ofkoartingen en akronimen lykas ‘USA’ of ‘ICE’ moatte foarkommen wurde yn de boarnetekst, omdat se lêzen wurde kinne op in manier dy’t net oerienkomt mei har stavering. Derneist kinne der meardere krekte útspraken wêze foar ien inkelde ôfkoarting.
+adding-sentences-subheader-punctuation = Ynterpunksje
+adding-sentences-subheader-punctuation-explanation = Spesjale symboalen en lêstekens meie allinnich opnommen wurde wannear’t dit absolút needsaaklik is. Der is bygelyks in apostrof opnommen yn Fryske wurden as ‘dy’t’ en dizze soe yn de boarnetekst opnommen wurde moatte, mar it is net wierskynlik dat jo ea in spesjaal symboal lykas ‘@‘ of ‘#’ nedich hawwe.
+adding-sentences-subheader-special-characters = Spesjale karakters en bûtenlânske karakters
+adding-sentences-subheader-special-characters-explanation-1 = Letters moatte jildich wêze yn de taal dy’t sprutsen wurdt. ‘ж’ is bygelyks in letter yn it Russyske alfabet, mar wurdt nea yn it Frysk brûkt en soe dus ek nea ferskine meie yn in Fryske boarnetekst.
+adding-sentences-subheader-special-characters-explanation-2 = Talen kinne har eigen falidaasjeregels hawwe mei ekstra easken as se lokalisearre wurde. As der gjin spesifyk falidaasjebestân foar in taal is, wurde de Ingelske regels werjoen foar bydragers.
+adding-sentences-subheader-offensive-content = Oanstjitjaande ynhâld
+adding-sentences-subheader-offensive-content-explanation = As de sin oanstjitlik of fersteurend is – bygelyks fanwegen eksplisite ynhâld, of in oare oertrêding fan ús <communityGuidelines>rjochtlinen foar mienskipspartisipaasje</communityGuidelines> – moatte jo de sin ôfwize. Jo kinne ek kontakt opnimme mei ús op <emailFragment>commonvoice@mozilla.com</emailFragment> om it probleem te eskalearjen.
+reviewing-sentences-explanation-1 = As de sin oan de boppesteande kritearia foldocht, klik dan op de knop ‘Ja’.
+reviewing-sentences-explanation-2 = As de sin net oan de boppesteande kritearia foldocht, klik dan op de knop ‘Nee’.
+reviewing-sentences-explanation-3 = As jo net wis binne oer de sin, kinne jo it ek oerslaan en trochgean nei de folgjende.
+reviewing-sentences-explanation-4 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
+# WRITE PAGE
+write-instruction = In <icon></icon> sin út it publike domein tafoegje
+write-page-subtitle = Sinnen dy’t hjir bydroegen wurde sille tafoege wurde oan in publyklik beskikbere cc-0 lisinsearre dataset.
+sentence =
+    .label = Sin
+sentence-input-value = Fier hjir jo publike domeinsin yn
+citation-input-value = Boarne fan jo sin
+citation =
+    .label = Sitaat
+sc-write-submit-confirm =
+    Ik befêstigje dat dizze sin <wikipediaLink>publyk domein</wikipediaLink> is en
+    ik tastimming haw om dizze op te laden.
+sc-review-write-title = Hokker sinnen kin ik tafoegje?
+new-sentence-rule-1 = <noCopyright>Gjin auteursrjocht</noCopyright>-beheiningen (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Minder as 15 wurden
+new-sentence-rule-3 = Brûk de krekte grammatika
+new-sentence-rule-4 = Brûk krekte stavering en ynterpunksje
+new-sentence-rule-5 = Gjin sifers en spesjale tekens
+new-sentence-rule-6 = Gjin frjemde tekens
+new-sentence-rule-7 = Foegje de krekte boarnefermelding ta
+new-sentence-rule-8 = Yn it beste gefal natuerlik en gemoedlik (it soe maklik wêze moatte om de sin te lêzen)
+how-to-cite = Hoe sitearje ik?
+how-to-cite-explanation-bold = Sitearje mei in URL-keppeling of de folsleine namme fan it wurk.
+how-to-cite-explanation = As it jo eigen wurden binne, sis dan gewoan <italicizedText>‘Selssitaait’</italicizedText>. Wy moatte witte wêr’t jo dizze ynhâld fûn hawwe, sadat wy kontrolearje kinne dat it yn it publike domein is en gjin auteursrjochtbeheiningen jilde. Sjoch foar mear ynformaasje oer sitearjen ús <guidelinesLink>Rjochtlineside</guidelinesLink>.
+guidelines = Rjochtlinen
+contact-us = Kontakt opnimme
+add-sentence-success = 1 sin sammele
+add-sentence-error = Flater by it tafoegjen fan sin
+required-field = Folje dit fjild yn.
+single-sentence-submission = Yntsjinjen fan ien sin
+bulk-sentence-submission = Bulkyntsjinning fan sinnen
+single-sentence = Losse sin
+bulk-sentences = Bulksinnen
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kontrolearje <icon></icon> of dit in taalkundich korrekte sin is?
+sc-review-rules-title = Foldocht de sin oan de rjochtlinen?
+sc-review-empty-state = Der binne op it stuit gjin sinnen om te beoardielen yn dizze taal.
+report-sc-different-language = Oare taal
+report-sc-different-language-detail = It is skreaun yn in oare taal dan hokker ik oan it beoardielen bin.
+sentences-fetch-error = Der is in flater bard by it opheljen fan sinnen
+review-error = Der is in flater bard by it beoardielen fan dizze sin
+review-error-rate-limit-exceeded = Jo geane te hurd. Nim efkes de tiid om de sin te besjen om der wis fan te wêzen dat dizze korrekt is.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Wy fiere inkelde grutte feroaringen troch
+sc-redirect-page-subtitle-1 = De Sentence Collector ferhuzet nei de kearn fan it Common Voice-platfoarm. Jo kinne no in sin <writeURL>skriuwe</writeURL> of ynstjoeringen fan losse sinnen <reviewURL>beoardiele</reviewURL> op Common Voice.
+sc-redirect-page-subtitle-2 = Stel ús fragen op <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> of fia in <emailLink>e-mailberjocht</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Sinnen <icon></icon> út it publike domein oplade
+sc-bulk-upload-instruction = Sleep jo bestân hjir hinne of <uploadButton>klik om op te laden</uploadButton>
+sc-bulk-upload-instruction-drop = Sleep bestân hjir hinne om op te laden
+bulk-upload-additional-information = As jo oanfoljende ynformaasje oer dit bestân jaan wolle, nim dan kontakt op mei <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = As jo oanfoljende ynformaasje oer dit bestân jaan wolle dy’t net yn de sjabloan opnommen is, nim dan kontakt op mei <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Probearje it opnij troch jo bestân hjir hinne te slepen
+try-upload-again-md = Probearje opnij op te laden
+select-file = Bestân selektearje
+select-file-mobile = Selektearje op te laden bestân
+accepted-files = Akseptearre bestânstypen: allinnich .tsv
+maximum-file-size = Maksimum bestânsgrutte: 25 MB
+what-needs-to-be-in-file = Wat moat der yn myn bestân sitte?
+what-needs-to-be-in-file-explanation = Besjoch ús <templateFileLink>sjabloanbestân</templateFileLink>. Jo sinnen moatte frij fan auteursrjochten wêze (CC0 of orizjineel wurk mei tastimming fan de yntsjinner) en dúdlik, grammatikaal korrekt en maklik te lêzen wêze. Yntsjinne sinnen soene in lêslingte fan ûngefear 10 oant 15 sekonden hawwe moatte en meie gjin sifers, eigennammen en spesjale tekens befetsje.
+upload-progress-text = Oplaad dwaande…
+sc-bulk-submit-confirm =
+    Ik befêstigje dat dizze sinnen <wikipediaLink>publyk domein</wikipediaLink> binne en
+    ik tastimming haw om se op te laden.
+bulk-upload-success-toast = Bulkoplaad sinnen foltôge
+bulk-upload-failed-toast = Opladen mislearre, probearje it opnij.
+bulk-submission-success-header = Tank foar it yntsjinjen fan jo bulkyntsjoering!
+bulk-submission-success-subheader = Jo helpe Common Voice ús deistige sinsdoelen te berikken!
+upload-more-btn-text = Mear sinnen oplade?
+file-invalid-type = Unjildich bestân
+file-too-large = Bestân is te grut
+file-too-small = Bestân is te lyts
+too-many-files = Tefolle bestannen

@@ -349,11 +349,14 @@ sentence-collection = ܟܘܢܫܐ ܕܡܡܠ݇ܠܐ
 
 ## Data
 
+dataset-date = ܬܫܥܝܬܐ
 review-cancel = ܒܛܘܠ ܫܕܪܬܐ
 review-delete-recordings = ܫܘܦ ܡܟܬܒܢܘܬܝ
 
 ## Datasets Page
 
+datasets-heading = ܣܕܪ̈ܐ ܫܘܘܕܥ̈ܝܐ
+cv-license = ܦܣܣܐ
 validated-hours = ܫܥ̈ܐ ܫܪܝܪ̈ܐ
 
 ## Download Modal
@@ -388,6 +391,9 @@ share-clip = ܫܘܬܦ ܡܐܡܪܟ‎
 clips-uploaded = ܡܐܡܪ̈ܐ ܡܘܣܩ ܠܗ
 record-abort-submit = ܫܕܪ ܡܐܡܪ̈ܐ
 record-abort-delete = ܦܠܘܛ ܘܫܘܦ ܡܐܡܪ̈ܐ
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -446,6 +452,7 @@ demo-get-started = ܬܝܡܘܢ ܫܪܚ
 
 ## HOME
 
+sc-home-collect-text = ܥܕܪ ܩܬܢ ܒܟܬܒܬܐ ܐܘ ܓܒܝܬܐ ܡܐܡܪ̈ܐ ܝܪܬܘܬܐ ܓܠܝܐ.
 
 ## GENERAL
 
@@ -520,3 +527,5 @@ sc-lang-info-validated =
 
 localization-select =
     .label = ܓܒܝ ܠܫܢܐ / ܕܘܟܬܢܐܝܬ
+sentence-collection = ܟܘܢܫܐ ܕܡܡܠ݇ܠܐ
+public-domain = ܝܪܬܘܬܐ ܓܠܝܐ

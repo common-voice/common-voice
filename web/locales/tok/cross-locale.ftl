@@ -1,6 +1,6 @@
 ## Languages
 
-contribute = o pana e pona
+contribute = o pana
 get-involved-button = o kama, o pali
 get-involved-title = o pana tawa { $lang }
 get-involved-text =

@@ -16,6 +16,7 @@ indicates-required = * Zahtevano polje
 not-available-abbreviation = Ni na voljo
 banner-error-slow-1 = Oprostite, Common Voice deluje počasi. Hvala za vaše zanimanje.
 banner-error-slow-link = Stran s stanjem
+error-something-went-wrong = Se opravičujemo, prišlo je do napake
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -39,6 +40,7 @@ bas = basa
 be = beloruščina
 bg = bolgarščina
 bn = bengalščina
+bo = Tibetanščina
 br = bretonščina
 bs = bosanščina
 bxr = burijatščina
@@ -739,6 +741,9 @@ target-segment-first-banner = Pomagajte ustvariti prvi ciljni segment Common Voi
 target-segment-add-voice = Dodajte svoj glas
 target-segment-learn-more = Več o tem
 
+## Contribution Nav Items
+
+
 ## Reporting
 
 report = Prijavi
@@ -1063,4 +1068,11 @@ sc-validation-no-symbols = Stavek ne sme vsebovati simbolov
 sc-validation-no-abbreviations = Stavek ne sme vsebovati krajšav
 
 # [/SentenceCollector]
+
+sentence-collection = Zbiranje stavkov
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
 

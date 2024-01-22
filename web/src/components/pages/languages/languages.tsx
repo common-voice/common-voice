@@ -6,6 +6,7 @@ import {
 } from '@fluent/react';
 import * as React from 'react';
 import { useState, useEffect } from 'react';
+import { format } from 'date-fns';
 import { BaseLanguage, LanguageStatistics } from 'common';
 
 import { useAPI } from '../../../hooks/store-hooks';
@@ -299,6 +300,9 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
       : filteredInProgress.slice(0, 3);
   const nativeNames = useNativeLocaleNames();
 
+  // since all languages have the same lastFetched value we can use any language's lastFetched value
+  const lastUpdatedTimeStamp = launched[0]?.lastFetched;
+
   return (
     <React.Fragment>
       {modalOptions && (
@@ -311,7 +315,24 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
       <Page className="languages-page" isCentered>
         <LanguagesPageWaves />
         <div className="top">
-          <PageHeading>Languages</PageHeading>
+          <div>
+            <PageHeading>
+              <Localized id="languages" />
+            </PageHeading>
+            {launched.length > 0 && (
+              <p className="last-updated-timestamp">
+                <Localized
+                  id="language-section-last-updated"
+                  vars={{
+                    lastUpdatedTimeStamp: format(
+                      new Date(lastUpdatedTimeStamp),
+                      'do LLL. yyy h:mmaaa'
+                    ),
+                  }}
+                />
+              </p>
+            )}
+          </div>
           <div className="text">
             <div className="inner">
               <p>

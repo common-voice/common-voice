@@ -18,6 +18,8 @@ banner-error-slow-1 = Því miður gengur Common Voice vefurinn hægt fyrir sig 
 banner-error-slow-2 = Við erum að fá mjög mikla umferð og erum nú að rannsaka málin.
 banner-error-slow-link = Stöðusíða
 error-something-went-wrong = Því miður, eitthvað fór úrskeiðis
+error-clip-upload = Upphleðsla þessa búts mistekst stöðugt, halda áfram að reyna aftur?
+error-clip-upload-server = Upphleðsla þessa búts mistekst stöðugt á þjóninum. Endurlestu síðuna eða reyndu aftur síðar.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -42,6 +44,7 @@ be = Hvítrússneska
 bg = Búlgarska
 bm = Bambaríska
 bn = Bengalska
+bo = Tíbetska
 br = Bretónska
 bs = Bosníska
 bxr = Búrjatíska
@@ -136,11 +139,13 @@ nb-NO = Norskt bókmál
 nd = IsiNdebele (Norður)
 ne-NP = Nepalska
 nhe = Austur-Huasteca Nahuatl
+nhi = Vestur Sierra Puebla Nahuatl
 nia = Nias
 nl = Hollenska
 nn-NO = Nýnorska
 nr = IsiNdebele (Suður)
 nso = Norður-sótó
+ny = Chinyanja
 nyn = Runyankole
 oc = Oksítanska
 om = Afaan Ormoo
@@ -414,7 +419,9 @@ why-demographic = Hvers vegna skiptir þetta máli?
 why-demographic-explanation-2 = Nafnlaus notendagögn eins og um aldur, kyn og hreim hjálpa til við að bæta hljóðgögnin sem notuð eru til að þjálfa talgreiningarvélar. Notendanöfn og tölvupóstföng verða aldrei tengd þeim gögnum sem lögð verða fram. Það er valkvætt hvort notandanafn birtist opinberlega eða sé ósýnilegt.
 accept-privacy = Mér finnst allt í lagi að þið meðhöndlið þessar upplýsingar eins og útskýrt er í <privacyLink>persónuverndarstefnu</privacyLink> Mozilla
 accept-privacy-title = Persónuverndarstefna
+accept-privacy-and-terms = Ég samþykki <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> Common Voice
 login-identity = Innskráningarauðkenni
+login = Skrá inn
 login-signup = Skrá inn / Nýskrá
 edit = Breyta
 email-subscriptions = Tölvupóstáskriftir
@@ -739,6 +746,7 @@ confirm-size = Þú getur nú hafið niðurhal með stærðina <b>{ $size }</b>.
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Þú samþykkir</b> að þú munir ekki reyna að bera kennsl á mælendur í gagnasafni Samróms.
+confirm-join-mailing-list = Ég vil skrá mig á póstlista Common Voice
 download-language = Sækja { $language }
 validated-hours = Staðfestar klukkustundir
 recorded-hours = Klukkustundir af upptökum
@@ -771,6 +779,9 @@ more = Meira
 close = Loka
 download = Sækja
 dataset-version = Útgáfa
+sha256-checksum-copied = SHA256-gátsumma afrituð!
+sha256-checksum-copied-error = Mistókst að afrita SHA256-gátsummu
+clipboard-not-supported = Klippispjald ekki stutt
 
 ## Download Modal
 
@@ -866,6 +877,8 @@ action-click = Smella
 action-tap = Ýta
 contribute = Leggðu lið
 listen = Hlusta
+write = Skrifa
+review = Yfirfara
 skip = Fara í næstu
 shortcuts = Flýtileiðir
 clips-with-count-pluralized =
@@ -929,6 +942,11 @@ target-segment-generic-card = Þú leggur af mörkum til hlutamarkmiðs
 target-segment-first-banner = Hjálpaðu til við að klára fyrsta hlutamarkmið Samróms í { $locale }
 target-segment-add-voice = Bættu við röddinni þinni
 target-segment-learn-more = Fræðast meira
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Raddasafn
+contribute-sentence-collection-nav-header = Söfnun setninga
 
 ## Reporting
 
@@ -1557,3 +1575,70 @@ partnerships-small-business-description = Við leggjum áherslu á að heyra fr�
 partnerships-corporates-header = Stórfyrirtæki og tækniþjónustufyrirtæki
 partnerships-corporates-description = Ef þú ert að leita að einhverju til að segja meira um gagnasafnið, vilt vera meðfjárfestir í fyrirhuguðum stækkunum kerfisins eða leitar að samstarfstækifærum, þá skaltu <emailFragment>senda okkur línu.</emailFragment>
 partnerships-our-partners = Samstarfsaðilar okkar
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Þakka þér fyrir að gefa raddbútana þína!
+first-cta-subtitle-text = Viltu deila upplýsingum um hvernig þú talar?
+why-donate = Afhverju spyrðu?
+add-information-button = Bæta við upplýsingum
+continue-speaking-button = Nei takk, halda áfram að tala
+create-profile-text = Viltu vista upplýsingarnar þínar? <createProfile>Útbúðu notandasnið</createProfile>
+thanks-for-voice-toast = Takk fyrir raddupplýsingarnar þínar
+thanks-for-voice-toast-error = Villa kom upp við að senda raddupplýsingarnar þínar
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Þakka þér fyrir að leggja þitt af mörkum!
+second-cta-subtitle-text = Með notandasniði geturðu fylgst með virkni þinni og tengst við samfélag þeirra sem gefa raddsýni.
+already-have-an-account = Ertu nú þegar með reikning? <login>Skrá inn</login>
+create-profile-button = Búa til notandasnið
+# IMAGE TAGS
+img-alt-success-checkmark = gátmerki fyrir árangur
+# GUIDELINES PAGE
+guidelines-header = Leiðbeiningar varðandi framlög
+voice-collection = Raddasafn
+sentence-collection = Söfnun setninga
+varying-pronunciations = Mismunandi framburður
+misreadings = Mislestur
+offensive-content = Óviðeigandi efni
+background-noise = Bakgrunnshávaði
+background-voices = Bakgrunnsraddir
+volume = Hljóðstyrkur
+reader-effects = Mismunandi upplestur
+just-unsure = Ertu ekki viss?
+example = Dæmi
+misreadings-explanation-2 = Mjög algeng mistök eru:
+still-have-questions = Ertu enn með spurningar?
+contact-common-voice = Hafðu samband við Common Voice teymið
+public-domain = Opinber gögn
+citing-sentences = Vitna í setningar
+adding-sentences = Bæta við setningum
+reviewing-sentences = Yfirfara setningar
+citing-sentences-subheader-websites = Vefsvæði
+citing-sentences-subheader-websites-explanation = Þú gætir látið vefslóðina fylgja með, t.d. "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Fræðileg tilvísun
+citing-sentences-subheader-academic-reference-explanation = Þú gætir notað fræðilegan tilvísunarstíl, t.d. Harvard-stíl "Mozilla (2021) Common Voice. Fáanlegt á https://commonvoice.mozilla.org/ (Sótt: 15. september 2021)"
+citing-sentences-subheader-offline-sources = Heimildir sem ekki eru á netinu
+citing-sentences-subheader-offline-sources-explanation = Fyrir texta í almenningseigu sem ekki eru tiltækir á internetinu gætirðu notað fræðilegan tilvísunarstíl, t.d. Harvard-stílinn "Jóna Jóns (2021) Ljóðmæli mín í almenningseigu"
+citation =
+    .label = Tilvitnun
+adding-sentences-subheader-length = Lengd
+adding-sentences-subheader-length-explanation = Setningin ætti að innihalda færri en 15 orð.
+adding-sentences-subheader-spelling-punctuation = Stafsetning og greinarmerki
+adding-sentences-subheader-spelling-punctuation-explanation = Setningin verður að vera rétt stafsett.
+adding-sentences-subheader-numbers = Tölur
+adding-sentences-subheader-punctuation = Greinarmerki
+adding-sentences-subheader-offensive-content = Óviðeigandi efni
+sentence =
+    .label = Setning
+citation =
+    .label = Tilvitnun
+new-sentence-rule-2 = Færri en 15 orð
+guidelines = Leiðbeiningar
+contact-us = Hafa samband
+add-sentence-success = 1 setningu safnað
+add-sentence-error = Villa við að bæta við setningu
+required-field = Fylltu út í þennan reit.
+# REVIEW PAGE
+sc-review-instruction-first-part = Merkja
+sc-review-instruction-second-part = er þetta málfræðilega rétt setning?
+report-sc-different-language = Annað tungumál
+report-sc-different-language-detail = Það er ritað á öðru tungumáli en ég er að yfirfara.
+sentences-fetch-error = Villa kom upp við að sækja setningar

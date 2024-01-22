@@ -18,6 +18,7 @@ banner-error-slow-1 = 唔好意思，Common Voice 運作得比較慢。多謝你
 banner-error-slow-2 = 我哋收到好多網絡流量，而家調查緊呢啲問題。
 banner-error-slow-link = 狀態版面
 error-something-went-wrong = 唔好意思，有啲嘢出錯咗
+error-clip-upload = 段錄音一直上傳失敗，要繼續嘗試嗎？
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -42,6 +43,7 @@ be = 白俄羅斯文
 bg = 保加利亞文
 bm = 班巴拉文
 bn = 孟加拉文
+bo = 藏語
 br = 布里多尼文
 bs = 波斯尼亞文
 bxr = 布里亞特語
@@ -58,6 +60,7 @@ dag = 達戈姆巴文
 de = 德文
 dsb = 下索布文
 dv = 迪維西文
+dyu = 迪烏拉語
 el = 希臘文
 en = 英文
 eo = 世界語
@@ -138,6 +141,7 @@ nyn = 尼揚科勒文
 oc = 奧克文
 om = 柯羅毛文
 or = 歐利亞文
+os = 奧塞梯語
 pa-IN = 旁遮普語
 pap-AW = 帕皮阿門托文（阿魯巴）
 pl = 波蘭文
@@ -541,6 +545,7 @@ about-nav-playbook = 了解點樣成爲我哋一份子
 ## What is a language
 
 about-playbook-what-is-language-content-1 = 對語言嘅睇法有好多種。以語音識別模型嘅用途嚟講，Common Voice 建議集中喺「容易互相理解」或者「如果呢種語言嘅講者想互相理解，佢哋做唔做得到？」
+about-playbook-what-is-language-content-3 = 有啲語言嘅文法、詞彙同發音差異可以好大。因此，我哋喺 2022 年<ctaLink>引入咗「語言變體」</ctaLink>。令各個社群能夠喺更完善嘅數據集中準確識別語言。
 
 ## How do I add a language
 
@@ -803,6 +808,9 @@ target-segment-generic-card = 你現正貢獻緊畀一個目標群體分項
 target-segment-first-banner = 幫助 Common Voice 創立 { $locale } 的第一個目標群體分項
 target-segment-add-voice = 添加您的聲音
 target-segment-learn-more = 瞭解更多
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1128,3 +1136,12 @@ sc-settings-title = 設定
 
 localization-select =
     .label = 選擇語言/地區
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = 多謝捐出你嘅錄音
+sentence-collection = 語句收集
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+

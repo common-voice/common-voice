@@ -132,7 +132,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
           summaryLocalizedId="why-donate"
           icon={<QuestionMarkIcon />}
           hideBorder
-          alignCenter>
+          justifyCenter>
           <Localized id="why-donate-explanation-1">
             <p />
           </Localized>
