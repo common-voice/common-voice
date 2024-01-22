@@ -741,6 +741,7 @@ validated-hr-total = Total d’heures validées
 overall-hr-total = Total d’heures
 cv-license = Licence
 audio-format = Format audio
+dataset-splits = Répartition (âge et sexe)
 number-of-voices = Nombre de voix
 splits = Répartition
 email-to-download = Saisissez votre adresse e-mail pour accéder au téléchargement

@@ -743,6 +743,7 @@ validated-hr-total = Totaal aantal gevalideerde uren
 overall-hr-total = Algemeen aantal uren
 cv-license = Licentie
 audio-format = Audio-indeling
+dataset-splits = Opsplitsingen (leeftijd en geslacht)
 number-of-voices = Aantal stemmen
 splits = Opdelingen
 email-to-download = Voer uw e-mailadres in om te downloaden

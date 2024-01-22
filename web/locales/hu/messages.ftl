@@ -744,6 +744,7 @@ validated-hr-total = Ellenőrzött óra összesen
 overall-hr-total = Óra összesen
 cv-license = Licenc
 audio-format = Hangformátum
+dataset-splits = Megoszlások (kor és nem)
 number-of-voices = Hangok száma
 splits = Felosztások
 email-to-download = Adja meg az e-mail címét a letöltéshez
