@@ -146,7 +146,10 @@ rw = Kinyarwanta
 sah = Sakha
 sat = Santali (Ol Xiki)
 sc = Sarto
+scn = Sisiliano
 sdh = Ekuurtu ya suuli
+shi = Taxelhit
+si = Cinkalexi
 skr = Saraiki
 sq = Alapanexi
 sr = Serivio
@@ -191,6 +194,9 @@ read-terms-q = Nyuwo moosoma ikettelo sahu?
 ready-to-record = Olikana wii muvahe masu awinyu?
 all-locales = Soothene
 help-make-dataset = Munikhaliherye oteeka nukhuuru nimosa na mihuupi sootepa oreera, sotaphuuwa variyari vanamunceene
+sign-up-account = Mulepihe ekontha emosa
+email-subscription-title = Mwiilepihe wiira mwaakhele ehapari mwimeelini
+email-subscription-title-new = Mwiilepihe wiira mwaakhele mucommon voiceboletins, muupuwelelo vammalelaanyu ni soolavula sikina soowinnuwa.
 
 ## Account Benefits
 
@@ -322,6 +328,7 @@ about-listen = wiiwa
 about-is-it-valid = Mutthico ti wootthunihiwa?
 about-get-involved = Mukeleke
 about-stay-in-touch = Manamuna xeeni vakhale aya ovanelana?
+about-stay-in-touch-button = Mwiilepihe
 about-stay-in-touch-text-1 = <emailFragment>mwiilipihe</emailFragment> muhina mwa ewarakha ahu ya masina a emeeyili wiira musuwele manamuuna nyuuwo mukhale anyu wiirela mpantta wa nlaka, miira ni miraarelo sa maratteliwo owiranela muhina mwa oCommon Voice.
 about-nav-partners = Mamulipa owuka
 about-nav-get-involved = Mukeleke
@@ -431,6 +438,7 @@ go-languages-page = Oroowa nikukhu na mattaava
 ready-to-validate = Olikana wii mukhalihe wemererya soolempwa?
 close = Owala
 download = Downloati
+sha256-checksum-copied = Otakaniha woowehaweha SHA256 yootakihiya!
 sha256-checksum-copied-error = Ovonya okathi otakiha wataniha manamunaa owehiwa a SHA256
 dataset-metadata-sex = Athiyana ni Alopwana
 
@@ -488,6 +496,7 @@ language-validation-hours = Iwoora
 
 action-click = Muttapunye
 contribute = Muruuhe mwaakanyerelo anyu
+shortcuts = Ataalyu
 contribute-more =
     { $count ->
         [one] Olikana wii nipake emosa yinceene?
@@ -499,6 +508,8 @@ record-cancel = Ohiha ekaravasawu
 record-again-instruction2 = Muthikeleke siiso, mukaravavi vasya <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Okiserya!
 review-tooltip = Moonexexe ni mwiyaathi ifarase murowaka ohoolo
+share-clip = Mukawe ekilipi anyu
+share-common-voice = Mmukawe Common Voice
 review-instruction = Moonexexaka, mwiiyaathi  ifarase imara sikina mwaapheelaka
 clips-uploaded = sookaravariwa opakhirya
 record-abort-title = Opixa okhomoni otakiha wopacerya?
@@ -554,6 +565,7 @@ recorded-clips = Ikilipi okaravariwa
 overall-accuracy = Aroromeleya wotene
 set-visibility = Muleelihe Wooneya waka
 visibility-overlay-note = Noota: Mwasueliha ntoko 'Wooneya', orukunixa iwo wookhala wolempwa <profileLink>elatarato ya paaxina</profileLink>
+show-ranking = Mooniherye ovara waka muteko
 
 ## Custom Goals
 
@@ -585,10 +597,15 @@ n-clips-pluralized =
     }
 help-share-goal = Munikhaliherye wiira nipwanye maasu manceene, mukawaanye ni muphiimo anyu
 confirm-goal = Okhomaaliha Emeta
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Mukawe vammalelaanyu wakhula nihiku { $type } { $count } ekiliipi
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Mukawe vammalelanyu wakhula esumana{ $type } { $count } ekiliipi
 share-goal-type-listen = Owaruni
 # LINK will be replaced with the current URL
 goal-share-text = kimanle waakuva opaka emeeta emosa yaawaka yoovahererya nsu kiroyihaka #oCommonVoice--nikhale hoothe ni mkikhaliherye wiixuttiha ikaruma moota xeeni atthu anlavulaya neexariya{ $link }
 return-to-edit-goal = Muhokolowe va wira muleeliherye Vanrowaya omalela mwapheela
+share-goal = Mukawe vammalelaka
 
 ## Profile Delete
 
@@ -606,6 +623,7 @@ download-selected = Othanliwe
 download-start = Muupacerye ompaka tonlooti
 download-request = Muvekeke download
 download-requests = Sovekeliwa sa mahiku avinre sa okuruxiwa
+download-request-archive-single = Murupa ZIP mmosa okhalanne
 download-request-refresh-button = Ovusheriwa
 download-request-modal-title = Maluutte sa itawulooti
 download-request-modal-description = Nva siiri maluutte wiira mukuruuxe ipaaxita sothukumanyiwa ZIP.
@@ -654,8 +672,10 @@ contribution-misreadings-description-extended-list-1 = Ohikhala malepo 'Um' wala
 contribution-misreadings-description-extended-list-2 = Ohikhala nlepo <strong>'s'</strong> woomalelani wa nlamulo nimosa.
 contribution-misreadings-description-extended-list-3 = Osoma wa ovukula ahikhanle mutexitoni, notko "y'maasi" ohiya ya maasi wala orikaniha.
 contribution-misreadings-description-extended-list-4 = Ohikhala woomalela wa nlamulo nookiserya mwaha wa ekaravasawu omaalihiwa noowaakuveyaxa.
+contribution-misreadings-example-2-explanation = [Ohaana okhalaka ‘tinosawurus’]
 contribution-misreadings-example-3-explanation = [Olepa wa masu onyimihiwe vahinatthi omaliha malove ookiserya]
 contribution-misreadings-example-4-explanation = [Sookaravariwa iteestu sinceen sahaapheliwa]
+contribution-misreadings-example-6-explanation = [Yaahaana akhalaka “ya maasi”]
 contribution-misreadings-example-7-explanation = [Ohikhala 'emosa' texito yoopacera]
 contribution-misreadings-example-8-explanation = [Soolempha sookhala khisimpwanela]
 contribution-varying-pronunciations-example-1-title = Mmiravo owo aawara xapewu mosa.
@@ -822,6 +842,7 @@ sc-review-form-button-submit =
 
 sc-settings-ui-language = Nttaava na muwehanano owiitho olupanyaka
 sc-settings-reset-skipped = Muhimeerye  malove sihimpheeliya
+sc-settings-show-all-button = Mooniherye tho malove otheene ookhottiya
 # VALIDATION
 sc-validation-number-of-words = Malove ahaana okhalana okhuma 1 mpakha 14
 sc-validation-no-numbers = Nlove yiihikhalane manumuru.
@@ -850,6 +871,7 @@ misreadings-explanation-3 = Ohikhala nlepo <strong>'A'</strong> wala <strong>'Nt
 misreadings-explanation-4 = Ohikhala nlepo 's' yoomalelani wa nlamulo nimosa.
 misreadings-explanation-5 = Osoma wa ovukula ahikhanle mutexitoni, notko "y'maasi" ohiya ya maasi wala orikaniha.
 misreadings-explanation-6 = Ohikhala woomalela wa nlamulo nookiserya mwaha wa ekaravasawu omaalihiwa noowaakuveyaxa.
+misreadings-tip-1 = [Yaahaana akhalaka “ya maasi”]
 misreadings-tip-2 = [Ohikhala 'emosa' texito yoopacera]
 misreadings-tip-3 = [Soolempha sookhala khisimpwanela]
 background-noise-tip-1 = [othikiliwa mwaha wa onyakula wa muhina]
@@ -892,6 +914,8 @@ guidelines = Malamulo
 contact-us = Wuulume ni hiyo
 add-sentence-error = Wovonyola okathi wowuncererya moolumo
 required-field = Mulepe nipuro nla.
+single-sentence-submission = Ovahererya wa nlove nimosa
+single-sentence = Nlove nimosa
 
 ## REVIEW PAGE
 
