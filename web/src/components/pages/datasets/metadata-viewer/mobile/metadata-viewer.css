@@ -62,10 +62,6 @@
         display: flex;
         justify-content: space-between;
 
-        @media (--xs-down) {
-            margin-inline-end: 20px;
-        }
-
         &.collapsed {
             display: none;
         }
@@ -76,6 +72,10 @@
             color: var(--dark-grey);
             font-size: 14px;
             margin-block-end: 8px;
+
+            @media (--xs-down) {
+                max-width: 120px;
+            }
 
             span {
                 color: var(--black);
