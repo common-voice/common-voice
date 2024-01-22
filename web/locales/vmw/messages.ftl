@@ -383,6 +383,7 @@ about-localization-subtitle = Mutthaka wa esayiti onittaphuleliwa ni nttaava nlo
 about-sentence-collection-title = Wuuraana wa malove
 about-sentence-collection-subtitle = Malove anootholiwa wiira atthu asome ni nsu nuulupale.
 about-new-lang-title = Olaleyiwa wa nttava nsya
+about-new-lang-subtitle = Noovonyerya esayiti ya Common Voice vanttaava nla.
 about-voice-contrib-title = Okhalihera wa nsu
 about-voice-contrib-subtitle = Atthu annorwa ni enakhaliha ni masu awaya.
 about-voice-validation-title = Waakhulela nsu
@@ -764,6 +765,7 @@ download-request-metadata-link = Eteestu ya Malove
 
 ## Landing
 
+welcome-staff = Murwe ni murettele, nikhuru wa { $company }!
 login-company = Mukele/ mwiilepihe ni emayili ya { $company }
 profile-not-required = Khivankhanyereryaniwa okhala mukhalelo wiira  okhaliherye, nnaamwi vakhaale vamuraarelo
 read-more-about = Osuwele vanceene mwaha wa Common Voice
@@ -771,6 +773,7 @@ read-more-about = Osuwele vanceene mwaha wa Common Voice
 ## DemoLayout
 
 demo-get-started = Nipacereyke
+demo-welcome = Murwe ni murettele oCommon Voice
 demo-welcome-subheader = Muthunelaka wiixutta vanceene ni okhaliherya eporoxeetu?
 
 ## Demo Datasets
