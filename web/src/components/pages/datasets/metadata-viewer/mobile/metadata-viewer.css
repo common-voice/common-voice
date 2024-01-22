@@ -73,6 +73,10 @@
             font-size: 14px;
             margin-block-end: 8px;
 
+            @media (--xs-down) {
+                max-width: 120px;
+            }
+
             span {
                 color: var(--black);
                 font-size: 16px;
