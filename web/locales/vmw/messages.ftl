@@ -9,6 +9,7 @@ email-opt-in-info = Kiphavela wakhelela emeeyiili, iye ntooko  soorepela sa miph
 email-opt-in-info-title = Mwirele mpantta mulixitani wa onyakulihana wa Common Voice
 email-opt-in-info-sub-with-challenge = Mwaakhele e-meyili, ntoko soohiliyala sa ophavela ni soowiira, oreherya, opwaha ni ipoletim sa mitthaka mwaha wa Common Voice.
 not-available-abbreviation = Ohikwanela
+banner-error-slow-2 = Niniira naakhelaka wuukheeriwa muteko munceene vaniinano va ni niniira niwehawehaka milattu.
 banner-error-slow-link = Epaaxina ya staatu
 error-something-went-wrong = Muswammaha,  ehaavo ehikhanle saana
 
@@ -47,6 +48,7 @@ co = korso
 crh = Taartaro
 cs = Tcheco
 cv = Tchuvache
+cy = Galexi
 da = Tinamarekexi
 dag = Takpani
 de = Alemao
@@ -131,6 +133,7 @@ nb-NO = ooNoroweka (Bokmal)
 nd = IsiNdebele (Norete)
 ne-NP = Nepalexi
 nhe = Huasteca Nahuatl Oriental
+nhi = Nahuatl oSierra Puepala Ositentali
 nia = Nias
 nl = Holandexi
 nr = IsiNdebele (Sul)
@@ -389,6 +392,7 @@ about-voice-contrib-subtitle = Atthu annorwa ni enakhaliha ni masu awaya.
 about-voice-validation-title = Waakhulela nsu
 about-voice-validation-subtitle = Atthu akina annemererya ikilipi iwo sa masu.
 about-dataset-release-title = Novonyerya nikhuuru na mihupi
+about-dataset-release-subtitle = Ninvonyera nikhuru ya itaatu khula mweeri 3(miraru)
 about-subscribe-text = Mumpheela okhala mulavulaka ni Common Voice?
 about-listen-queue = Muthito wa wiiwela
 about-listen-queue-text = Ikilipi  nsu siniheleliwa mupholani wa ovahererya wiira ekhalane wooneya wiira wiiweyeke.
@@ -475,6 +479,7 @@ de-identified-explanation = Mweettelo wa mihupi wa mukhalelo wa namukhaliherya s
 ## Error pages
 
 error-title-404 = Khawakhwenye opwanya epaaxina ela wiira nyuwo
+error-title-503 = Niri ni ohivareya muteko nahaalipelelahu
 error-code = Ovonya { $code }
 
 ## Data
@@ -504,6 +509,7 @@ review-delete-recordings = Muttipihe sotakiherya saka
 
 ## Datasets Page
 
+datasets-headline = Niri nitekelelaka nikhuro nimosa sa itaatu sa nsu mattaava-manci, ya kootiku yoohuleya, ni soopwanyiwa sooolaleeriwa wa atthu ootheene arumeeleke yeereryaka sooheleliwa ni ikharuma sa nsu.
 datasets-positioning = Ninikupaleela wiira nikhuro na itaatu sa nsu nuulupale, soopwaneya waatthuni, sirowa okumiha yoohelela esiya ni muwaneliwo anakoso eekumi wa itekonoloxiya soowirela mpantta nsu wa mwiixuttiho wa ikaruma. Nikhuro sa itaatu mattaava-manci wa Common Voice ti khanle nikhuru nuulupale ya itaatu soopwanyeya waatthuni, masi khayiyano mmosaru. Mukupaleele epaaxina ela sintoco eriyari yoowoniherya wa makhuru makina sa itaatu ya nsu ya kootiku yoohuleya ni, khula okathi Common Voice oniira inuwaka, nipuro noovonya soohelela isya.
 download-dataset-header = Opaxaari nikhuuru na mihuupi
 download-dataset-tag = Muthanle ekhurupu ya mattava ni mwinyaathi enipavelaanyu
@@ -561,11 +567,13 @@ contact-required = *ophaveleya
 request-language-form-language =
     .label = Nttava
 request-language-success-title = Ovekeliwa wa nttaava sooroyihiwa ni murettele, kooxukhuru.
+request-language-success-content = Hiyo ninootthikela olavula ni nyuwo voohipisa niruuhaka mihupi sikinaku sintthuna wuukhaliheryani ohela nttaava nanyu oCommon Voice.
 select-language = Muthanle nttava nimosa
 other-language = Nttava ekina
 
 ## Request Language Pages
 
+request-language-explanation-2 = Tho <strong> ninamwaahimeerya maxirenti ahu a mmuttettheni wiira nyuwo munniphavela wiira mpantta </strong>, wiira yuukhaliheryekeni wa ele munniphavelaanyu waka mihupi siniphavelaanyu osuwela.
 request-language-form-info =
     .label = Ihapari wa mukhalelo wa nttaava
 request-language-form-info-explanation-list-1 = Masina a nttava nanyu
@@ -605,6 +613,7 @@ contribute-more =
        *[other] Olikana wii nipake yinceene { $count }?
     }
 record-cta = Opaceriha ekaravasawu
+record-platform-not-supported = Muniswaamihe, masi ekaruma aanyu khenlikanelana.
 record-platform-not-supported-ios-non-safari = No iOS, oroweke oholo ni Safari wii olipihe olempa...
 record-no-mic-found = Khaphwanyiwe mikorofone mmosa.
 record-error-too-short = Ekaravaawu yaari vakhaani.
@@ -626,6 +635,7 @@ record-abort-delete = Okhuuma ni otthipiha nikhuro na moolumo
 listen-last-time-instruction = <playIcon></playIcon> Okiserya!
 listen-abort-title = Okhomoni wa waakhulela ikiliipi?
 listen-abort-confirm = Okhomoni wa waakhulela
+speak-empty-state = Hiyo khinirina maalumo wiira nikaravari wa nttaava nla...
 record-button-label = Mulepe masu awinyu
 keep-track-profile = Mutharihele mweettelo aanyu ni eperfili emosa
 login-to-get-started = Mukele wala mwiilepihe wiira mpacerye
@@ -863,6 +873,7 @@ sc-logout-button = Okhuma
 
 ## HOME
 
+sc-home-title = Murwe ni murettele namathukumaniha maalumo wa Common Voice
 sc-home-collect-title = Orowela soolempwa
 sc-home-collect-text = Munikhalihere muleepaka nnakhala muthukumannyaka moolumo osuweliwa ni anamunceene.
 sc-home-review-title = Otthikrla woona soolempwa
@@ -1103,6 +1114,7 @@ misreadings-explanation-4 = Ohikhala nlepo 's' yoomalelani wa nlamulo nimosa.
 misreadings-explanation-5 = Osoma wa ovukula ahikhanle mutexitoni, notko "y'maasi" ohiya ya maasi wala orikaniha.
 misreadings-explanation-6 = Ohikhala woomalela wa nlamulo nookiserya mwaha wa ekaravasawu omaalihiwa noowaakuveyaxa.
 misreadings-example-1 = Nikhume nawurye ekafe emosa.
+misreadings-example-2 = Kinrowa omana ekoopu emosa ya maasi.
 misreadings-example-3 = We are going out to get a coffee.
 misreadings-example-4 = Nnonope noovira niwakuva.
 misreadings-tip-1 = [Yaahaana akhalaka “ya maasi”]
@@ -1174,6 +1186,8 @@ sc-review-rules-title = Nikhuuru na moolumo a mittaala?
 sc-review-empty-state = Wa niinaano va, khaavo moolumo ooreerela owehaweha nttaava nla.
 report-sc-different-language = Nttava ovirikana
 report-sc-different-language-detail = Eri yoolempwa munttaavani noovirikana nihikhanle nla kinwehawehaka.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Niniira nipakaka mipittikuxo suulupale
 
 ## BULK SUBMISSION 
 
