@@ -8,6 +8,8 @@ email-opt-in-info = Kiphavela wakhelela emeeyiili, iye ntooko  soorepela sa miph
 email-opt-in-info-title = Mwirele mpantta mulixitani wa onyakulihana wa Common Voice
 email-opt-in-info-sub-with-challenge = Mwaakhele e-meyili, ntoko soohiliyala sa ophavela ni soowiira, oreherya, opwaha ni ipoletim sa mitthaka mwaha wa Common Voice.
 not-available-abbreviation = Ohikwanela
+banner-error-slow-link = Epaaxina ya staatu
+error-something-went-wrong = Muswammaha,  ehaavo ehikhanle saana
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -45,11 +47,13 @@ cv = Tchuvache
 da = Tinamarekexi
 dag = Takpani
 de = Alemao
+dsb = Soraapio ya vathi
 dv = Tivehi
 dyu = Tioula
 el = aKriki
 en = Enkelexi
 eo = Exiperanto
+es = Espanyola
 et = Exitoniano
 eu = Baxico
 ewo = Euonto
@@ -69,6 +73,7 @@ he = Heparaiko
 hi = Hinti
 hil = Hilikaynon
 hr = Koroata
+hsb = Soraapio wa sulu
 ht = Kirioulo wa mahaiti
 hu = Huunkaro
 hy-AM = Marameenio
@@ -147,7 +152,7 @@ sah = Sakha
 sat = Santali (Ol Xiki)
 sc = Sarto
 scn = Sisiliano
-sdh = Ekuurtu ya suuli
+sdh = Ekuurtu ya osuuli
 shi = Taxelhit
 si = Cinkalexi
 sk = Eslovaco
@@ -166,6 +171,8 @@ yue = Cantonexi
 
 ## Layout
 
+speak = Mulavuleke
+speak-now = Mulavule naanano va
 datasets = Nikhuuru na mihupi
 partner = Mulipa owuka
 profile = ePerefile
@@ -182,6 +189,7 @@ logout = Okhuma
 ## Home Page
 
 default-tagline = Mozilla Common Voice ti yoopaceriwa wiira ekhaliherye wiixuttiha ikaruma ni atthu eekeekhayi olavula.
+home-cta = Muvahe nsu nanyu!
 show-wall-of-text = Musuwela tho
 help-us-title = Munikhaliherye okupaleela moolumo!
 help-us-explain = Mutthittye peleyi, nwiriyane ni munileele: ale ahuuluma yoolempwa vathi woolempwa saana?
@@ -254,6 +262,7 @@ profile-form-accent =
     .label = Malavulelo
 profile-form-custom-accent-help-text =
     .label = Manamuna xeexi mukhale anyo othalakasa malavulelo anyu?
+profile-form-custom-accent-placeholder-2 = Mpaceryeke olepa wiira musuwele enihimya anyu.
 profile-form-gender-2 =
     .label = Athiyana ni Alopwana
 leaderboard-visibility =
@@ -395,6 +404,8 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Ihapari  since
 
 glossary = eKolosaryo
 localization = Muthanle nttaava
+sst = Speech-to-text (STT)
+sst-explanation = Itekinoloxiya speech-to-text (STT) ennivirikanyiha itaatu sa nsu mpakha sateestu.
 de-identified = Nsina na mutthu wa oteexerya vakina
 
 ## Error pages
@@ -405,6 +416,7 @@ error-code = Ovonya { $code }
 
 data-download-button = Mukuruuxe mihuupi sa Common Voice
 data-download-license = Elisensa: <licenseLink>CC-0</licenseLink>
+data-get-started = <speechBlogLink>Mpacerye osuwela nsu</speechBlogLink>
 data-other-title = Mixovo mikina sa mitthaka sa masu...
 data-other-goto = Oroowa wiira { $name }
 data-other-download = Opaxaari nikhuuru na mihuupi
@@ -431,6 +443,7 @@ size = Owittivala
 overall-hr-total = Iwoora soohteene
 cv-license = Elicensa
 number-of-voices = Numuru na masu
+splits = Okawanyeya
 email-to-download = Mulaleerye emeeyili mmosa wiira yopaxaariwa
 size-gigabyte = GB
 size-megabyte = MB
@@ -497,6 +510,7 @@ languages-show-less = Moone vakhaani
 language-meter-in-progress = Wetthesaka
 language-search-input =
     .placeholder = Otholathola
+language-speakers = Olavula owareliwa
 localized = Ataphuleliwe
 sentences = Soolempwa
 language-validation-hours = Iwoora
@@ -512,6 +526,7 @@ contribute-more =
         [one] Olikana wii nipake emosa yinceene?
        *[other] Olikana wii nipake yinceene { $count }?
     }
+record-cta = Opaceriha ekaravasawu
 record-platform-not-supported-ios-non-safari = No iOS, oroweke oholo ni Safari wii olipihe olempa...
 record-no-mic-found = Khaphwanyiwe mikorofone mmosa.
 record-cancel = Ohiha ekaravasawu
@@ -611,7 +626,9 @@ confirm-goal = Okhomaaliha Emeta
 share-n-daily-contribution-goal = Mukawe vammalelaanyu wakhula nihiku { $type } { $count } ekiliipi
 # $type is one of share-goal-type-*
 share-n-weekly-contribution-goal = Mukawe vammalelanyu wakhula esumana{ $type } { $count } ekiliipi
+share-goal-type-speak = Olavula
 share-goal-type-listen = Owaruni
+share-goal-type-both = Olavula ni wiiwa
 # LINK will be replaced with the current URL
 goal-share-text = kimanle waakuva opaka emeeta emosa yaawaka yoovahererya nsu kiroyihaka #oCommonVoice--nikhale hoothe ni mkikhaliherye wiixuttiha ikaruma moota xeeni atthu anlavulaya neexariya{ $link }
 return-to-edit-goal = Muhokolowe va wira muleeliherye Vanrowaya omalela mwapheela
@@ -634,6 +651,7 @@ download-start = Muupacerye ompaka tonlooti
 download-request = Muvekeke download
 download-requests = Sovekeliwa sa mahiku avinre sa okuruxiwa
 download-request-archive-single = Murupa ZIP mmosa okhalanne
+download-request-archive-multiple = Okawanya { $archiveCount } mmurupani mwa ZIP mukhanlene
 download-request-refresh-button = Ovusheriwa
 download-request-modal-title = Maluutte sa itawulooti
 download-request-modal-description = Nva siiri maluutte wiira mukuruuxe ipaaxita sothukumanyiwa ZIP.
@@ -710,6 +728,7 @@ sc-header-how-to = Sayi
 sc-header-add = Othukumanya
 sc-header-rejected = Soolempwa sookhottiwa
 sc-header-my = Soolempwa yawaka
+sc-header-statistics = Exitatistika
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Muhime ophwanyeya ebugs
 sc-footer-report-copyright = Muhimye milattu sa ehakhi sa mwaneene
@@ -747,6 +766,9 @@ sc-howto-findpd-subtitle-2 = Mpake opatthani ni miloko wala ekamosa-kamosa ammut
 
 sc-my-loading = Ettukhulaka maalumo aanyu...
 sc-my-no-sentences = Kekhanle farase ekhottiwe ephwanyiwe!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Ophattuwa:  { $source }
 sc-my-delete = Mukumihe moolumo othaleeliwa
 sc-my-deleting = Voohiya nikhuuru na moolumo othanleliwa...
 
@@ -757,6 +779,7 @@ sc-rejected-none-found = Kekhanle farase ekhottiwe ephwanyiwe!
 
 ## STATS
 
+sc-stats-title = Exitatistika
 
 ## ADD
 
@@ -844,6 +867,9 @@ sc-review-loading = Ettukhulaka maalumo...
 sc-review-select-language = Muthanle nttava nimosa wii nwehe saana soolempwa.
 sc-review-form-prompt =
     .message = Ifarase sowoonexexiwa khasihoolilhiye, muhaana ehaakhi
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Ophattuwa: { $sentenceSource }
 sc-review-form-button-reject = Okhootta
 sc-review-form-button-approve = Waakhulela
 sc-review-form-button-submit =
@@ -889,6 +915,7 @@ misreadings-tip-3 = [Soolempha sookhala khisimpwanela]
 background-noise-example-2 = [okumiha iphumu] Matinosawuru oorekamasa ya [okothomola] Tiriyaasiku.
 background-noise-tip-1 = [othikiliwa mwaha wa onyakula wa muhina]
 background-noise-tip-2 = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
+still-have-questions = Nlelo ehaavo enooxankihani?
 public-domain = Sa osuwela vamayirhori
 reviewing-sentences = Woonexexa
 public-domain-explanation-3 = Mupake  nyeenyu  meekhiinyu  moolumo  masya  ni  a  mivaanelo,  hoothe  ni  axirikha  anyu  nnakhala  mmuttettheni  mwa  malavuleelo,  ntoko  ntthoonyeryo,  murumeelaka  'ekwaha  yoolepa'
@@ -902,9 +929,12 @@ citation =
     .label = Ohimya ookwanela
 self-citation = Soohimya solempwa aka
 adding-sentences-subheader-length = Owittivala
+adding-sentences-subheader-spelling-punctuation = Olepa ni otthittya
+adding-sentences-subheader-speakable = Wiira ahimiye
 adding-sentences-subheader-numbers = Numuru
 adding-sentences-subheader-numbers-explanation = Manumuru
 adding-sentences-subheader-punctuation = Pontuwasawu
+adding-sentences-subheader-special-characters = Mukhalelo woovirikana ni  nlepo na elapo ekina
 reviewing-sentences-explanation-1 = Ankhi nlamulo otthunela mithinto soovarela osulu, mutthitte vaputawuni "Aayo".
 reviewing-sentences-explanation-2 = Ankhi nlamulo ohitthunela mithinto soovarela osulu, mutthitte vaputawuni "Nnaari"
 reviewing-sentences-explanation-3 = Ankhi mwaahikhalane exariya wa nlamulo, nyuwo navetho mookhala ohipeela ni ootupha murowelaka ekina.
@@ -913,6 +943,7 @@ write-page-subtitle = Malove ootthokiheraniyava ari ootakanihiya mukhurupuni mow
 sentence =
     .label = Soolempwa
 sentence-input-value = Muttapunye vaava nuulumo eniiriwa anamunceene
+citation-input-value = Okhuma wa malove anyu
 citation =
     .label = Ohimya ookwanela
 sc-write-submit-confirm = Kinakhulela wiira makhhuru a mooluno animwiira mmpaatte we <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
