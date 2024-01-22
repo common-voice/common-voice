@@ -129,8 +129,11 @@ nyn = Ancolee
 oc = Ositaaniko
 or = Otia
 os = Osseto
+pa-IN = Puncapi
 pap-AW = Papiyamento (Arupa)
+pl = Poloneexi
 ps = Pachto
+pt = Ekunya
 quc = K'ixe
 rw = Kinyarwanta
 sdh = Ekuurtu ya suuli
@@ -144,8 +147,10 @@ yue = Cantonexi
 
 datasets = Nikhuuru na mihupi
 partner = Mulipa owuka
+profile = ePerefile
 help = Mukhaliheryo
 contact = Wuulume
+privacy = Ampuwasha
 cookies = maKookie
 faq = Sohoka wa mutthu
 share-title = Munikhaliherye okumaana annamakhaliha a nsu!
@@ -157,7 +162,9 @@ logout = Okhuma
 
 default-tagline = Mozilla Common Voice ti yoopaceriwa wiira ekhaliherye wiixuttiha ikaruma ni atthu eekeekhayi olavula.
 help-us-title = Munikhaliherye okupaleela moolumo!
+help-us-explain = Mutthittye peleyi, nwiriyane ni munileele: ale ahuuluma yoolempwa vathi woolempwa saana?
 vote-no = Nnaari
+toggle-play-tooltip = Mutthittye { shortcut-play-toggle } wii ovaxe mukhalelo wa okoowiha
 speak-subtitle = Mwiire ovaaha nsu nanyu
 speak-goal-text = Ikilipi okaravariwa
 listen-subtitle = Munikhalihe okupaleela nsu
@@ -172,6 +179,7 @@ help-make-dataset = Munikhaliherye oteeka nukhuuru nimosa na mihuupi sootepa ore
 ## Account Benefits
 
 benefits = Mureerelo
+improve-audio = Mitthaka sa elatarato sa olipihera mitthaka sa masu sivareliwe muteko wa olimaleliha ni ororomeleya wa ophimelela wa masu.
 keep-track = Mutharihele mweettelo aanyu ni soophima samattaava ovirikana.
 join-newsletter = Mwatthuna vale, mwiilepihe liixita ahu ya i-mayili wii mwakhele mitthaka isya mwaha wa poroxetu
 
@@ -234,6 +242,7 @@ edit-profile = Murenceliha eperefile
 profile-close = Owala
 profile-explanation = Mutharihele mweettelo aanyu ni eperfili emosa ni mukhaliherye wiira sookaravariwa sikhaleke khula maara wookweyiheya.
 accept-privacy = Kinitthunela wiira ihapari iya sirumeeliwekw moota sinleliheriwaya <privacyLink>oPoliitika wa soohakanyeriwa</privacyLink> sa Mozilla.
+accept-privacy-title = Miyuupuwelo sa pirivasitate
 accept-privacy-and-terms = Kinikupaleela vamosa ni<termsLink>Ikettelo </termsLink> ni  <privacyLink>Ikasoopa sa wikhupaarela </privacyLink> wa Common Voice
 login = Mukeeleke
 login-signup = Mukele/ mwiilepihe
@@ -334,6 +343,7 @@ about-playbook-how-access-dataset-content-2 = Mwiiraka oomwaavyaka ikaruma sa mu
 
 about-playbook-how-project-governance = Mitumereero sa eporoceentu sinitumereeriwa sayi sayii?
 about-playbook-how-project-governance-content-2 = Nroromelo nahu nri noolipihiwa ni mukhalelo wa:
+about-playbook-how-project-governance-content-3 = Pirivasitate, ororomeleya ni oowooneya
 about-playbook-how-project-governance-content-6 = Wisuwela wa khula mutthu.
 about-playbook-how-project-governance-content-7 = <governanceLink>Ihapari  sinceene  mwaha  wa  manamuuno  ahu  wa  matumereryo  sa  muthokiho o</governanceLink>
 
@@ -424,6 +434,7 @@ language-section-launched = Okhumiwa
 language-section-launched-description = Mattava yaala alaleeriwe, munikukhuni mwaari yoomalelana <localizationGlossaryLink> otaphuleliwa </localizationGlossaryLink> sookhala <sentenceCollectionGlossaryLink> moolumo oottotteliwa </sentenceCollectionGlossaryLink> ophiyerya wiira akweheryekeorooka omuhooli mikhaliheryo sa <speakLink> olavula </speakLink> ni <listenLink> Owiriyana </listenLink>
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Woowoniheriwa esya: { $lastUpdatedTimeStamp }
+language-meter-in-progress = Wetthesaka
 localized = Ataphuleliwe
 language-validation-hours = Iwoora
 
@@ -660,9 +671,13 @@ sc-lang-info-title-personal = Atthu
 ## LOGIN
 
 sc-login-err-failed = Ovonyeya wa okupaleela
+sc-login-err-try-again = Mweererye vasya.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Elatarato: { $username }
 
 ## REVIEW CRITERIA
 
@@ -674,6 +689,7 @@ sc-criteria-item-6 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere
 ## REVIEW
 
 sc-review-loading = Ettukhulaka maalumo...
+sc-review-select-language = Muthanle nttava nimosa wii nwehe saana soolempwa.
 sc-review-form-button-approve = Waakhulela
 sc-review-form-button-submit =
     .submitText = Mumalihe owoonexexa
@@ -706,6 +722,7 @@ misreadings-tip-2 = [Ohikhala 'emosa' texito yoopacera]
 misreadings-tip-3 = [Soolempha sookhala khisimpwanela]
 background-noise-tip-1 = [othikiliwa mwaha wa onyakula wa muhina]
 background-noise-tip-2 = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
+public-domain = Sa osuwela vamayirhori
 public-domain-explanation-3 = Mupake  nyeenyu  meekhiinyu  moolumo  masya  ni  a  mivaanelo,  hoothe  ni  axirikha  anyu  nnakhala  mmuttettheni  mwa  malavuleelo,  ntoko  ntthoonyeryo,  murumeelaka  'ekwaha  yoolepa'
 public-domain-explanation-5 = Mwaavye etestu eri soohiheleliwatho ihaakhi sa anamupaka, sintoko, ilivuru sinceene soolaleyiwa eyaakha ya 1920  ehinatthi
 citing-sentences-explanation-1 = Ti yuulupalexa wiira ohelela soosuweliwa wiira netthuneke owehaweha sintoko maalumo anisuweliwa naatthu ni khenrumeeliwa kherina mukhoottihiwo wa ihaakhi sa namapaka.
@@ -717,6 +734,7 @@ citation =
 adding-sentences-subheader-length = Owittivala
 adding-sentences-subheader-numbers = Numuru
 adding-sentences-subheader-numbers-explanation = Manumuru
+adding-sentences-subheader-punctuation = Pontuwasawu
 reviewing-sentences-explanation-1 = Ankhi nlamulo otthunela mithinto soovarela osulu, mutthitte vaputawuni "Aayo".
 reviewing-sentences-explanation-2 = Ankhi nlamulo ohitthunela mithinto soovarela osulu, mutthitte vaputawuni "Nnaari"
 reviewing-sentences-explanation-3 = Ankhi mwaahikhalane exariya wa nlamulo, nyuwo navetho mookhala ohipeela ni ootupha murowelaka ekina.
