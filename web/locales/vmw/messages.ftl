@@ -150,9 +150,14 @@ scn = Sisiliano
 sdh = Ekuurtu ya suuli
 shi = Taxelhit
 si = Cinkalexi
+sk = Eslovaco
 skr = Saraiki
+sl = Esloveno
+snk = Soninke
+so = Somali
 sq = Alapanexi
 sr = Serivio
+ss = Suaati
 tn = Tswana
 yue = Cantonexi
 
@@ -278,6 +283,7 @@ login-signup = Mukele/ mwiilepihe
 edit = Murenceliha
 email-subscriptions = Eleepihiwa wa imeeyili
 download-profile = Opaxaari nikhuuru na mihuupi
+skip-submission-feedback = Mwiixikhe soolavuliya sa nvahereryo
 skip-submission-note = Noota: Eriyari ya Olavula wala Wiiwa nyuwo mwarowanyu ninlelo othanla wii muvirikanyihe mukhalelo wa okhaliherya.
 off = Ottipiha
 help-accent = Mumphavela okhaliheriwa ni malavulelo anyu?
@@ -316,6 +322,7 @@ how-does-it-work-title-v2 = Manamuna xeeni arumeeliwa aya  Common Voice?
 
 ## How does it work section
 
+about-language-req-subtitle = Ahaavo anvekela wiira nttava nimosa niheliye.
 about-localization-title = Nttaava othanliwe wa esite ela
 about-sentence-collection-title = Wuuraana wa malove
 about-sentence-collection-subtitle = Malove anootholiwa wiira atthu asome ni nsu nuulupale.
@@ -419,6 +426,8 @@ review-delete-recordings = Muttipihe sotakiherya saka
 
 download-dataset-header = Opaxaari nikhuuru na mihuupi
 download-dataset-tag = Muthanle ekhurupu ya mattava ni mwinyaathi enipavelaanyu
+# File size in gigabytes
+size = Owittivala
 overall-hr-total = Iwoora soohteene
 cv-license = Elicensa
 number-of-voices = Numuru na masu
@@ -496,6 +505,7 @@ language-validation-hours = Iwoora
 
 action-click = Muttapunye
 contribute = Muruuhe mwaakanyerelo anyu
+skip = Otupha
 shortcuts = Ataalyu
 contribute-more =
     { $count ->
@@ -682,6 +692,7 @@ contribution-varying-pronunciations-example-1-title = Mmiravo owo aawara xapewu 
 contribution-varying-pronunciations-example-2-title = Ntaata nanyu khaniveenye.
 contribution-varying-pronunciations-example-2-explanation = [‘Yawawo’  ni ekunya enromoliwa ntoko nlove nimosa, ohiya piili]
 contribution-background-noise-description-extended = Ankhi yookaravariwa ovonyeya wala wooniherya onyakula, mukootte, waahikhale wiira yoolempwa nlelo ekhanle yoowiwiwa oratteene.
+contribution-background-noise-example-1-fixed-title = <strong>[okumiha iphumu]</strong> Matinosawuru oorekamasa ya <strong>[okothomola]</strong> Tiriyaasiku.
 contribution-background-noise-example-2-explanation = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
 contribution-background-voices-description-extended = Ankhi yookaravariwa ovonyeya wala wooniherya onyakula, mukootte, waahikhale wiira yoolempwa nlelo ekhanle yoowiwiwa oratteene.
 contribution-reader-effects-title = Soowoneya sa musomi
@@ -858,6 +869,7 @@ partnerships-header = Wiraana
 partnerships-get-in-touch = Wuulume ni
 partnerships-foundations-header = Epakaliwo
 partnerships-governments-header = maKuveerunu
+partnerships-small-business-header = Impereesa saamukhaani, otakanihaka startups ya etekinoloxiya ya ankhili ya olumwenku
 partnerships-corporates-header = Nikhuru ya okhalana muulupale ni nipuro niivariwa muteko mukarumani
 partnerships-corporates-description = Mwapheela olavulatho mukhalelo wa muukelo sa itaatu, ovahererya hoothe  woovalatheya wa ekaruma sooheleliwa wala ohaavya sooreereya mukhaliheryo, <emailFragment>nvonyere muhupi</emailFragment>.
 partnerships-our-partners = Mulipa owuka yawihu
@@ -874,6 +886,7 @@ misreadings-explanation-6 = Ohikhala woomalela wa nlamulo nookiserya mwaha wa ek
 misreadings-tip-1 = [Yaahaana akhalaka “ya maasi”]
 misreadings-tip-2 = [Ohikhala 'emosa' texito yoopacera]
 misreadings-tip-3 = [Soolempha sookhala khisimpwanela]
+background-noise-example-2 = [okumiha iphumu] Matinosawuru oorekamasa ya [okothomola] Tiriyaasiku.
 background-noise-tip-1 = [othikiliwa mwaha wa onyakula wa muhina]
 background-noise-tip-2 = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
 public-domain = Sa osuwela vamayirhori
