@@ -188,7 +188,10 @@ udm = Udmurte
 ug = Uykur
 uk = Ukrainian
 ur = Urtu
+uz = Usbeke
 ve = Tshiventa
+vec = Venesiano
+vi = Vietnamita
 yue = Cantonexi
 zgh = Tamazike
 
@@ -246,6 +249,7 @@ benefits = Mureerelo
 improve-audio = Mitthaka sa elatarato sa olipihera mitthaka sa masu sivareliwe muteko wa olimaleliha ni ororomeleya wa ophimelela wa masu.
 keep-track = Mutharihele mweettelo aanyu ni soophima samattaava ovirikana.
 compare-progress = Muwehe winnuwa wanyu wakhala wira vannilikana  nanaamakhaliherya akina a olumwenku
+view-goals = Muwehe mweettelo aanyu mulikanihaka ni soopwanya sanyu ni sa puruxeetu
 join-newsletter = Mwatthuna vale, mwiilepihe liixita ahu ya i-mayili wii mwakhele mitthaka isya mwaha wa poroxetu
 
 ## What's public
@@ -301,6 +305,7 @@ profile-form-gender-2 =
 leaderboard-visibility =
     .label = Oweheya mukwaaturuni wa makhulupale
 hidden = Owipitha
+visible = Oowooneya
 native-language =
     .label = Nttava anyu
 profile-form-submit-save = Opweha
@@ -375,10 +380,12 @@ about-localization-subtitle = Mutthaka wa esayiti onittaphuleliwa ni nttaava nlo
 about-sentence-collection-title = Wuuraana wa malove
 about-sentence-collection-subtitle = Malove anootholiwa wiira atthu asome ni nsu nuulupale.
 about-new-lang-title = Olaleyiwa wa nttava nsya
+about-voice-contrib-title = Okhalihera wa nsu
 about-voice-contrib-subtitle = Atthu annorwa ni enakhaliha ni masu awaya.
 about-voice-validation-subtitle = Atthu akina annemererya ikilipi iwo sa masu.
 about-dataset-release-title = Novonyerya nikhuuru na mihupi
 about-listen-queue = Muthito wa wiiwela
+about-listen-queue-text = Ikilipi  nsu siniheleliwa mupholani wa ovahererya wiira ekhalane wooneya wiira wiiweyeke.
 about-listen = wiiwa
 about-listen-text = Marumeeliha antthunela ni exariya wa ikilipi soovahiwa, awehawehaka sintoko olavunle osomme nlamulo woohivonya.
 about-is-it-valid = Mutthico ti wootthunihiwa?
@@ -443,6 +450,7 @@ about-playbook-how-access-dataset-content-2 = Mwiiraka oomwaavyaka ikaruma sa mu
 about-playbook-how-project-governance = Mitumereero sa eporoceentu sinitumereeriwa sayi sayii?
 about-playbook-how-project-governance-content-2 = Nroromelo nahu nri noolipihiwa ni mukhalelo wa:
 about-playbook-how-project-governance-content-3 = Pirivasitate, ororomeleya ni oowooneya
+about-playbook-how-project-governance-content-5 = Ottittimiha ni osuwelaxiha.
 about-playbook-how-project-governance-content-6 = Wisuwela wa khula mutthu.
 about-playbook-how-project-governance-content-7 = <governanceLink>Ihapari  sinceene  mwaha  wa  manamuuno  ahu  wa  matumereryo  sa  muthokiho o</governanceLink>
 
@@ -470,6 +478,7 @@ data-other-title = Mixovo mikina sa mitthaka sa masu...
 data-other-goto = Oroowa wiira { $name }
 data-other-download = Opaxaari nikhuuru na mihuupi
 data-bundle-button = Mukuruuxe epakooti ya nikhuuru na mihuupi
+release-version = Everesawu
 dataset-date = Nihiku
 license = Elisensa: <licenseLink>{ $license }</licenseLink>
 license-mixed = Otakaihereya
@@ -490,6 +499,7 @@ download-dataset-header = Opaxaari nikhuuru na mihuupi
 download-dataset-tag = Muthanle ekhurupu ya mattava ni mwinyaathi enipavelaanyu
 # File size in gigabytes
 size = Owittivala
+validated-hr-total = Iwoora soohteene woomalela
 overall-hr-total = Iwoora soohteene
 cv-license = Elicensa
 number-of-voices = Numuru na masu
@@ -499,6 +509,7 @@ size-gigabyte = GB
 size-megabyte = MB
 confirm-join-mailing-list = Kinipheela wiirela mpantta mulixitani wa ovaanyihana wa Kommom Voyise
 download-language = Opaaxari { $language }
+validated-hours = Iwoora woomalela
 recorded-hours = Iwoora a karavariwa
 subscribe = Mwiilepihe
 get-started-speech = Opacerihiwa osuwelexiwa nsu
@@ -568,6 +579,7 @@ language-speakers = Olavula owareliwa
 localized = Ataphuleliwe
 sentences = Soolempwa
 language-validation-hours = Iwoora
+language-validation-progress = Murowelo wa mutthunelo
 
 ## Contribution
 
@@ -611,6 +623,7 @@ target-segment-learn-more = Musuwela tho
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Ottottela nsu
 
 ## Reporting
 
@@ -645,6 +658,11 @@ recordings =
         [one] ekaravawu
        *[other] makaravawu
     }
+validations =
+    { $count ->
+        [one] Iwaakhulela emosa
+       *[other] Iwaakhulela
+    }
 
 ## Dashboard
 
@@ -656,6 +674,7 @@ awards = Etthuvo
 everyone = Otheene
 top-contributors = Makhaliheri mulupale
 recorded-clips = Ikilipi okaravariwa
+validated-clips = ikilipi weemererana
 total-approved = Weemererana sothene
 overall-accuracy = Aroromeleya wotene
 set-visibility = Muleelihe Wooneya waka
@@ -747,6 +766,7 @@ demo-language-select-card-body = Mwaha wookhaliherya  wa atthu ikonto259 mwa mat
 card-button-next = Opwahererya
 card-button-back = Otthika
 demo-language-select-label = Ottottela mattavani
+demo-eofy-sub_header = Mixovo sa itaatu sa nsu, soolikala wiira iruuheliwe ota
 demo-account = Ekonta
 
 ## Demo Account
@@ -786,6 +806,7 @@ contribution-misreadings-example-6-explanation = [Yaahaana akhalaka “ya maasi�
 contribution-misreadings-example-7-explanation = [Ohikhala 'emosa' texito yoopacera]
 contribution-misreadings-example-8-title = Nnonope noovira niwakuva
 contribution-misreadings-example-8-explanation = [Soolempha sookhala khisimpwanela]
+contribution-varying-pronunciations-title = Malavulelo oovirikana
 contribution-varying-pronunciations-example-1-title = Mmiravo owo aawara xapewu mosa.
 contribution-varying-pronunciations-example-2-title = Ntaata nanyu khaniveenye.
 contribution-varying-pronunciations-example-2-explanation = [‘Yawawo’  ni ekunya enromoliwa ntoko nlove nimosa, ohiya piili]
@@ -960,6 +981,14 @@ sc-lang-info-left-for-you =
        *[other] { $unreviewedSentencesByYou } maalamulo ookhala wiira nyu muwehe tho.
     }
 # Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] khavo maalumo ootthuniwa.
+        [one] maalumo emosa ootthuniwa.
+       *[other] { $validatedSentences } maalumo ootthuniwa.
+    }
+# Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
@@ -1043,11 +1072,13 @@ second-cta-header-text = Kooxukhuru mwaha wookhaliherya ni nsu nanyu!
 # IMAGE TAGS
 img-alt-success-checkmark = Muttapunye othanla ni murettele
 guidelines-header-subtitle = Osuweleke mananna oowuncererya ni otthuniherya moolumo ni ikilipi sa aawutiyu wa nikhuru na itaatu sa Common Voice.
+voice-collection = Ottottela nsu
 offensive-content = Soolempha soruwana
 reader-effects = Soowoneya sa musomi
 just-unsure = Khamurina exariya?
 example = Moniheryo
 varying-pronunciations-example = Kihoolo epittula emosa ya mukatthe.
+misreadings-explanation-2 = Soovonya sinceene sinttharana:
 misreadings-explanation-3 = Ohikhala nlepo <strong>'A'</strong> wala <strong>'Nto'</strong> woopacerani wa karavasawu.
 misreadings-explanation-4 = Ohikhala nlepo 's' yoomalelani wa nlamulo nimosa.
 misreadings-explanation-5 = Osoma wa ovukula ahikhanle mutexitoni, notko "y'maasi" ohiya ya maasi wala orikaniha.
