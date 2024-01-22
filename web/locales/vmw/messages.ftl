@@ -203,6 +203,8 @@ yi = Iitixe
 yo = Iorubaa
 yue = Cantonexi
 zgh = Tamazike
+zu = Sulu
+zza = Sasa
 
 # [/]
 
@@ -650,6 +652,8 @@ contribute = Muruuhe mwaakanyerelo anyu
 write = Mulepeke
 skip = Otupha
 shortcuts = Ataalyu
+goal-help-recording = Nyuwo moomukhaliherya Common Voice ophiyererya <goalPercentage></goalPercentage> mukotelo ahu wa nihiku wa { $goalValue } ikaravasawu!
+goal-help-validation = Nyuwo moomukhaliherya Common Voice ophiyererya <goalPercentage></goalPercentage> mukotelo ahu wa nihiku wa { $goalValue } myaakhulelo!
 contribute-more =
     { $count ->
         [one] Olikana wii nipake emosa yinceene?
@@ -827,6 +831,7 @@ download-request-archive-multiple = Okawanya { $archiveCount } mmurupani mwa ZIP
 download-request-refresh-button = Ovusheriwa
 download-request-modal-title = Maluutte sa itawulooti
 download-request-modal-description = Nva siiri maluutte wiira mukuruuxe ipaaxita sothukumanyiwa ZIP.
+download-request-link-text = Zip #{ $offset } ya { $total }
 download-request-metadata-link = Eteestu ya Malove
 
 ## Landing
