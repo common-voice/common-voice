@@ -357,6 +357,7 @@ about-dataset-release-title = Novonyerya nikhuuru na mihupi
 about-listen-queue = Muthito wa wiiwela
 about-listen = wiiwa
 about-is-it-valid = Mutthico ti wootthunihiwa?
+about-dataset-new-text = Ekhurupu ya etaatu ya Common Voice erina imilyaare sa amoostara ya masu ankhaliherya  winnuwiha oteka ikaruma soosuwela wa nsu.
 about-get-involved = Mukeleke
 about-stay-in-touch = Manamuna xeeni vakhale aya ovanelana?
 about-stay-in-touch-button = Mwiilepihe
@@ -419,6 +420,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Ihapari  since
 
 glossary = eKolosaryo
 localization = Muthanle nttaava
+hours-recorded-explanation = Mwaalakelo wa iwoora sa ekaravasawu ya nsu nittottenla ahu mpakha va.
 sst = Speech-to-text (STT)
 sst-explanation = Itekinoloxiya speech-to-text (STT) ennivirikanyiha itaatu sa nsu mpakha sateestu.
 de-identified = Nsina na mutthu wa oteexerya vakina
@@ -582,6 +584,7 @@ report-different-language-detail = Eyo ti yoolempwa munttaavani noovirikana nihi
 report-difficult-pronounce = Mukutha kuttho wa mataphulelo
 report-difficult-pronounce-detail = Eyo yookhalana nulumo wala soolavula soolipa osoma wala ohimya.
 report-offensive-speech = Nuulumo oruwana
+report-offensive-speech-detail = Ekilipi ehaana nlavulelo nihirina nttittimiho wala nooveha
 report-other-comment =
     .placeholder = Mataphulelo
 success = Okhoola
@@ -729,6 +732,7 @@ contribution-misreadings-example-3-explanation = [Olepa wa masu onyimihiwe vahin
 contribution-misreadings-example-4-explanation = [Sookaravariwa iteestu sinceen sahaapheliwa]
 contribution-misreadings-example-6-explanation = [Yaahaana akhalaka “ya maasi”]
 contribution-misreadings-example-7-explanation = [Ohikhala 'emosa' texito yoopacera]
+contribution-misreadings-example-8-title = Nnonope noovira niwakuva
 contribution-misreadings-example-8-explanation = [Soolempha sookhala khisimpwanela]
 contribution-varying-pronunciations-example-1-title = Mmiravo owo aawara xapewu mosa.
 contribution-varying-pronunciations-example-2-title = Ntaata nanyu khaniveenye.
@@ -810,6 +814,10 @@ sc-rejected-none-found = Kekhanle farase ekhottiwe ephwanyiwe!
 ## STATS
 
 sc-stats-title = Exitatistika
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Namwiirula a mooluno a Common Voice ohiirula { $sentenceCount } moolumo mwa { $languageCount } mattaava!
 
 ## ADD
 
@@ -955,10 +963,12 @@ misreadings-explanation-3 = Ohikhala nlepo <strong>'A'</strong> wala <strong>'Nt
 misreadings-explanation-4 = Ohikhala nlepo 's' yoomalelani wa nlamulo nimosa.
 misreadings-explanation-5 = Osoma wa ovukula ahikhanle mutexitoni, notko "y'maasi" ohiya ya maasi wala orikaniha.
 misreadings-explanation-6 = Ohikhala woomalela wa nlamulo nookiserya mwaha wa ekaravasawu omaalihiwa noowaakuveyaxa.
+misreadings-example-4 = Nnonope noovira niwakuva.
 misreadings-tip-1 = [Yaahaana akhalaka “ya maasi”]
 misreadings-tip-2 = [Ohikhala 'emosa' texito yoopacera]
 misreadings-tip-3 = [Soolempha sookhala khisimpwanela]
 background-noise-example-2 = [okumiha iphumu] Matinosawuru oorekamasa ya [okothomola] Tiriyaasiku.
+background-noise-example-3 = Matiinu [tosse] oorekamasa a oTiriyaasiku.
 background-noise-tip-1 = [othikiliwa mwaha wa onyakula wa muhina]
 background-noise-tip-2 = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
 still-have-questions = Nlelo ehaavo enooxankihani?
