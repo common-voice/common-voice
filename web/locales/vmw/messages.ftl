@@ -200,6 +200,7 @@ shortcut-play-toggle-label = Oruma/Okwasula
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Mukaravareke/weemela
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Muhiye otakiherya ele eniira wettaka
 request-language-text = Nttaava nanyu nleelo nnakhala khaniiri muhina mwa Common Voice?
@@ -468,6 +469,7 @@ record-abort-delete = Okhuuma ni otthipiha nikhuro na moolumo
 listen-last-time-instruction = <playIcon></playIcon> Okiserya!
 listen-abort-title = Okhomoni wa waakhulela ikiliipi?
 listen-abort-confirm = Okhomoni wa waakhulela
+record-button-label = Mulepe masu awinyu
 keep-track-profile = Mutharihele mweettelo aanyu ni eperfili emosa
 login-to-get-started = Mukele wala mwiilepihe wiira mpacerye
 target-segment-first-banner = Mukhaliherye wiira epakiwe mmpantte opacerya  okweya wa Common Voice mwa  { $locale }
@@ -557,6 +559,7 @@ download-profile-size = Amabytes amosa amosa
 download-recordings-info = Muhelele murupa mp3 ni maalumo oolatthanihana
 download-start = Muupacerye ompaka tonlooti
 download-requests = Sovekeliwa sa mahiku avinre sa okuruxiwa
+download-request-refresh-button = Ovusheriwa
 download-request-modal-title = Maluutte sa itawulooti
 download-request-modal-description = Nva siiri maluutte wiira mukuruuxe ipaaxita sothukumanyiwa ZIP.
 
@@ -625,6 +628,7 @@ contribution-just-unsure-title = Khamurina exariya?
 sc-header-home = Ottuli
 sc-header-how-to = Sayi
 sc-header-add = Othukumanya
+sc-header-rejected = Soolempwa sookhottiwa
 sc-header-my = Soolempwa yawaka
 sc-footer-discourse = Discourse
 sc-footer-cookies = maKookie
@@ -703,6 +707,14 @@ sc-confirm-button-text = Okhomaaliha
 ## LANGUAGE INFO
 
 sc-lang-info-title-personal = Atthu
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Khivetthu soolempwa ookhottiwa
+        [one] ookhottiwa soolempwa emosa
+       *[other] { $rejectedSentences } soolempwa sookhottiwa.
+    }
 
 ## LOGIN
 
@@ -726,6 +738,7 @@ sc-criteria-item-6 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere
 
 sc-review-loading = Ettukhulaka maalumo...
 sc-review-select-language = Muthanle nttava nimosa wii nwehe saana soolempwa.
+sc-review-form-button-reject = Okhootta
 sc-review-form-button-approve = Waakhulela
 sc-review-form-button-submit =
     .submitText = Mumalihe owoonexexa
