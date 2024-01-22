@@ -719,6 +719,7 @@ validated-hr-total = Wobkrućene hodźiny dohromady
 overall-hr-total = Hodźiny dohromady
 cv-license = Licenca
 audio-format = Awdioformat
+dataset-splits = Rozdźělenje (staroba a splah)
 number-of-voices = Ličba hłosow
 splits = Poddźělenja
 email-to-download = E-mejlowu adresu za sćehnjenje zapodać
@@ -764,6 +765,10 @@ dataset-version = Wersija
 sha256-checksum-copied = Pruwowanska suma SHA256 kopěrowana!
 sha256-checksum-copied-error = Kopěrowanje pruwowanskeje sumy SHA256 njeje so poradźiło
 clipboard-not-supported = Mjezyskład so njepodpěruje
+no-information-available = Žane informacije k dispoziciji
+dataset-metadata-sex = Splah
+# dataset metadata - age of contributor
+dataset-metadata-age = Staroba
 
 ## Download Modal
 
@@ -822,6 +827,8 @@ language-section-in-progress = W přihotowanju
 language-section-in-progress-new-description = Tute rěče so tuchwilu wot zhromadźenstwa wuwiwaja. Postupowe lajsty pokazuja, do kotreje měry <localizationGlossaryLink>lokalizacija websydła</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>zběrka sadow</sentenceCollectionGlossaryLink> kóždeje rěče stej postupjenej.
 language-section-launched = Startowany
 language-section-launched-description = Za tute aktiwizowane rěče je so websydło wuspěšnje <localizationGlossaryLink>lokalizowane</localizationGlossaryLink>, a ma dosć <sentenceCollectionGlossaryLink>zběranych sadow</sentenceCollectionGlossaryLink>. zo bychu so přichodne přinoški za <speakLink>rěčenje</speakLink> a <listenLink>słuchanje</listenLink> dowolili.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Poslednja aktualizacija: { $lastUpdatedTimeStamp }
 languages-show-more = Wjace pokazać
 languages-show-less = Mjenje pokazać
 language-meter-in-progress = Postup
@@ -892,6 +899,9 @@ listen-again-instruction = Wulkotne dźěło! <playIcon></playIcon> Słuchajće 
 listen-3rd-time-instruction = 2 sčinjenej, <playIcon></playIcon> dale tak!
 listen-last-time-instruction = <playIcon></playIcon> Poslednje!
 listen-empty-state = Klipy su nam wušli, kotrež so w tutej rěči přepruwuja...
+listen-abort-title = Přepruwowanje klipow dokónčić?
+listen-abort-cancel = Z přepruwowanjom pokročować
+listen-abort-confirm = Přepruwowanje dokónčić
 speak-empty-state = Sady su nam wušli, kotrež so w tutej rěči natočeja...
 speak-empty-state-cta = Sady přinošować
 record-button-label = Nahrajće swój hłós
