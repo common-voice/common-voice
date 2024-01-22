@@ -183,6 +183,7 @@ tl = Filipino
 tn = Tswana
 tok = Toki Pona
 tr = Turko
+ts = Xitsonka
 tw = Twi
 ty = Taitiano
 tyv = Tuvan
@@ -196,6 +197,10 @@ ve = Tshiventa
 vec = Venesiano
 vi = Vietnamita
 vot = Vootiko
+wo = Wolof
+xh = Xhosa
+yi = Iitixe
+yo = Iorubaa
 yue = Cantonexi
 zgh = Tamazike
 
@@ -227,6 +232,7 @@ home-cta = Muvahe nsu nanyu!
 show-wall-of-text = Musuwela tho
 help-us-title = Munikhaliherye okupaleela moolumo!
 help-us-explain = Mutthittye peleyi, nwiriyane ni munileele: ale ahuuluma yoolempwa vathi woolempwa saana?
+vote-yes = Ayo
 vote-no = Nnaari
 toggle-play-tooltip = Mutthittye { shortcut-play-toggle } wii ovaxe mukhalelo wa okoowiha
 speak-subtitle = Mwiire ovaaha nsu nanyu
@@ -262,6 +268,7 @@ join-newsletter = Mwatthuna vale, mwiilepihe liixita ahu ya i-mayili wii mwakhel
 whats-public = Ti exeene ya atthu ootheene?
 email-not-public = Khanimpweha vamukaneya mihupi nanyu sa emeyili.
 recordings-and-locale-public = Numuru na ikaravasawu ni wamattaava ale onikelaawe okhaliherya anookela wooniheriwa vaatthuni.
+username-optin-public = Nyuwo pooti othanla ohiya nsina nanyu wiira nooniweke ni atthu wala ovitha.
 
 ## Speak & Listen Shortcuts
 
@@ -333,6 +340,7 @@ edit-profile = Murenceliha eperefile
 profile-create-success = Eperefile yoopakiya ni murettele
 profile-close = Owala
 profile-explanation = Mutharihele mweettelo aanyu ni eperfili emosa ni mukhaliherye wiira sookaravariwa sikhaleke khula maara wookweyiheya.
+why-demographic = Mwaha wa xeene ela eryaaya yooreerela?
 accept-privacy = Kinitthunela wiira ihapari iya sirumeeliwekw moota sinleliheriwaya <privacyLink>oPoliitika wa soohakanyeriwa</privacyLink> sa Mozilla.
 accept-privacy-title = Miyuupuwelo sa pirivasitate
 accept-privacy-and-terms = Kinikupaleela vamosa ni<termsLink>Ikettelo </termsLink> ni  <privacyLink>Ikasoopa sa wikhupaarela </privacyLink> wa Common Voice
@@ -368,16 +376,23 @@ add-language = Yoohela ntaava nanyu
 
 faq-title = Sohoka wa mutthu
 faq-what-cv-q = Ti exeeni Common Voice?
+faq-why-important-q = Mwaha wa xeene ela eryaaya yooreerela?
 faq-how-get-q = Moonta xeeni kikhale aka opwaanya mihiupisa Common Voice?
 faq-when-release2-q = Sinikela ovonyiwa yaakhani itaatu sa Common Voice ni mattaava makina?
+faq-why-mission-q = Mwaha wa xeeni Common Voice oniirelaawe mpantta wa Mozilla?
 faq-what-cv-and-deepspeech-q = Muvirikano xeene okhanle okhuma Common Voice ni Deep Speech?
 faq-is-goal-assistant-q = Mphiyereryo wa Common Voice oteka mukhaliheryo onoonela nsu?
 faq-do-want-native-q = Miyo  nnkihiyo mulipo olavula owareliwa ni miyo kilavula na elavulelo aka ni kinilavuula manamuna, nyuuwose nleeelo muphavelasa nsuna naka?
+faq-why-different-speakers-q = Mwaha wa xeeni nyuwosa munaaphavelaanyu atthu owaatta ni mattaava oovirikana?
+faq-why-my-lang-q = Mwaha wa xeeni nttaava naka nihikhanlaaawe mpuwa?
 faq-what-quality-q = Mwinnuwelo xeene wooreerela omphaveleya wa nsu wi ekilipi na nsu nlo nirumeeliwe munikhuruni mwa itaatu?
+faq-why-10k-hours-q = Mwaha wa xeeni otthuniwaka ovarihiwa iwoora 10, 000 sa nsu?
 faq-why-10k-hours-a = Ola ti mwaattamelo wa nummeru na iwoora sooreerela wi oterenari esixiteema ya mulavulelo ottharaka mutthaka.
 faq-how-calc-hours-q = Manamuna xeeni Common Voice okontha awe iwoora?
 faq-how-calc-hours-a = Nihiirela ikootha niphimaka orakama waya wakhula ekaravasawu ni nto noophitaanya nuumeru neno wa nuumeru noomalela sa ikaravasawu mmattaavani wootheene.
 faq-where-src-from-2-q = Enikhuma woowi ephattu ya mutthaka?
+faq-why-not-ask-read-q = Mwaha wa xeene nyuwosa muhinaavekelaanyu atthu wiira asomeke iliivuru wala soolempwa muhina mwa Wikipeetiya ni mattaava oovirikana?
+faq-why-account-q = Mwaha wa xeeni kintthunaaka wiilepiha ekontha?
 faq-is-account-public-q = Ihapari sa ekontha aaka ti soosuweliwa naatthu otheene?
 faq-how-privacy-q = Manamuna xeexe mullipiherya okhupaarela alipo ahittuna wisuwanyeyiha ni mukhalelo wa esiiri ya atthu akhaale tanivaha masu aya?
 faq-what-determine-identity-q = Eyo enihimya wiira miyo nkinkela "olakelela waasuweliha" anamalavula munikhuruni wa itaatu sa Common Voice?
@@ -388,6 +403,7 @@ faq-search-for-answers =
 
 ## ABOUT US
 
+about-title = Ti exeeni Common Voice?
 how-does-it-work-title-v2 = Manamuna xeeni arumeeliwa aya  Common Voice?
 
 ## How does it work section
@@ -417,6 +433,8 @@ about-get-involved = Mukeleke
 about-stay-in-touch = Manamuna xeeni vakhale aya ovanelana?
 about-stay-in-touch-button = Mwiilepihe
 about-stay-in-touch-text-1 = <emailFragment>mwiilipihe</emailFragment> muhina mwa ewarakha ahu ya masina a emeeyili wiira musuwele manamuuna nyuuwo mukhale anyu wiirela mpantta wa nlaka, miira ni miraarelo sa maratteliwo owiranela muhina mwa oCommon Voice.
+about-stay-in-touch-text-2 = Nyuwo pooti waasuwela atthu akinaku mmuttettheni wa nttaava na Mozilla, wiiraka mpantta wa  <discourseLink>Discourse</discourseLink> wiira sikhale mivaanelo wa soovaravara, wala  <matrixLink>Matrix</matrixLink> wiira okhale muvaho wa miruku voowaakuveya.
+about-nav-why-common-voice = Mwaha aya?
 about-nav-partners = Mamulipa owuka
 about-nav-get-involved = Mukeleke
 about-nav-how-it-works-2 = Manamuna xeeni arumeeliwa aya  Common Voice?
@@ -498,7 +516,9 @@ error-code = Ovonya { $code }
 ## Data
 
 data-download-button = Mukuruuxe mihuupi sa Common Voice
+data-download-yes = Ayo
 data-download-license = Elisensa: <licenseLink>CC-0</licenseLink>
+data-download-modal = Nyuo munihala opacerya ompaka tonlooti wa  <size>{ $size }GB</size>, ontthuna otthikela?
 data-subtitle = Niri nitekelelaka nikhuro nimosa sa itaatu sa nsu soohuleya ni soopwanyiwa sooolaleeriwa wa atthu ootheene arumeeleke yeereryaka sooheleliwa ni ikharuma sa nsu.
 data-get-started = <speechBlogLink>Mpacerye osuwela nsu</speechBlogLink>
 data-other-title = Mixovo mikina sa mitthaka sa masu...
@@ -535,6 +555,7 @@ number-of-voices = Numuru na masu
 splits = Okawanyeya
 email-to-download = Mulaleerye emeeyili mmosa wiira yopaxaariwa
 why-donate = Mwaha wa xeene okohaka?
+confirm-size = Moolikana wiira muupacerye ompaka tonlooti wa  <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-join-mailing-list = Kinipheela wiirela mpantta mulixitani wa ovaanyihana wa Kommom Voyise
@@ -620,6 +641,7 @@ language-validation-progress = Murowelo wa mutthunelo
 action-click = Muttapunye
 action-tap = Toke
 contribute = Muruuhe mwaakanyerelo anyu
+write = Mulepeke
 skip = Otupha
 shortcuts = Ataalyu
 contribute-more =
@@ -708,6 +730,7 @@ goal-reached = Emeta oophwanyaneya
 todays-recorded-progress = Mweettelo wa olelo wa Common Voice mwa ikilipi sookaravariwa
 todays-validated-progress = Mweettelo wa olelo wa Common Voice mwa ikilipi soowaavaliyariwa.
 awards = Etthuvo
+you = Nyuwo
 everyone = Otheene
 top-contributors = Makhaliheri mulupale
 recorded-clips = Ikilipi okaravariwa
@@ -767,6 +790,7 @@ share-goal = Mukawe vammalelaka
 
 ## Profile Delete
 
+delete-q = Munitthu ovekela wiira ikaravasawu sanyu sa nsu sittipihiwe, wala muntthuna ohiya munikhuruni mwa itaatu sa Common Voice?
 keep = Mukhalihe
 remove = Okumiha
 profile-form-delete = Mukumihe eperefili
@@ -779,6 +803,8 @@ download-profile-info = Muhelele email, nsina na muvareli ni ihapari saatthu mmu
 download-profile-size = Amabytes amosa amosa
 download-recordings-info = Muhelele murupa mp3 ni maalumo oolatthanihana
 download-recordings-size = Okathi nuukathi megabytes
+download-recordings-unavailable = Nyuwo pooti ovekela ikaravasawu sanyu okathi sikinaku sinviraaya seettaka.
+download-recently-requested = Nyuwo pooti ovekela ottipiha ikaravasawu sanyu wala khula  { $days } mahiku.
 download-selected = Othanliwe
 download-start = Muupacerye ompaka tonlooti
 download-request = Muvekeke download
@@ -793,6 +819,7 @@ download-request-metadata-link = Eteestu ya Malove
 ## Landing
 
 welcome-staff = Murwe ni murettele, nikhuru wa { $company }!
+help-contribute = Nyuwo pooti okhaliherya oteka nikhuru na itaatu nookhalana ekootiku yootthukuwa opakaka eperifiili muhina mwa Common Voice ni mukhaliheryaka ni nsu nanyu.
 login-company = Mukele/ mwiilepihe ni emayili ya { $company }
 profile-not-required = Khivankhanyereryaniwa okhala mukhalelo wiira  okhaliherye, nnaamwi vakhaale vamuraarelo
 read-more-about = Osuwele vanceene mwaha wa Common Voice
@@ -1083,6 +1110,7 @@ sc-review-form-prompt =
 sc-review-form-source = Ophattuwa: { $sentenceSource }
 sc-review-form-button-reject = Okhootta
 sc-review-form-button-approve = Waakhulela
+sc-review-form-keyboard-usage-custom = Nyuwo tho mwaphavela pooti omurumeela ataalyu a itekalaatu: { sc-review-form-button-approve-shortcut } wi mutthuniherye, { sc-review-form-button-reject-shortcut } wi mukottiherye, { sc-review-form-button-skip-shortcut } wi muvikane
 sc-review-form-button-submit =
     .submitText = Mumalihe owoonexexa
 
@@ -1113,12 +1141,14 @@ partnerships-corporates-description = Mwapheela olavulatho mukhalelo wa muukelo 
 partnerships-our-partners = Mulipa owuka yawihu
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Kooxukhuru mwaha woovaha ekiliipi ni nsu nanyu!
+first-cta-subtitle-text = Munitthuna ovaha mihupo sikinaku wa mananna nyuwo munlavulaanyu?
 why-donate = Mwaha wa xeene okohaka?
 add-information-button = Adicionar informações
 continue-speaking-button = Nnaari, kooxukhuru, otthikela olavulaka
 thanks-for-voice-toast = Kooxukhuru mwaha wa miteko sanyu sa nsu
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Kooxukhuru mwaha wookhaliherya ni nsu nanyu!
+second-cta-subtitle-text = Ni eperifiili, nyuwo mummalela oveleelaka miteko sanyu ni wiira mpantta muhina mwa muttetthe wa anamakhaliherya akinaku a itaatu sa nsu.
 # IMAGE TAGS
 img-alt-success-checkmark = Muttapunye othanla ni murettele
 guidelines-header-subtitle = Osuweleke mananna oowuncererya ni otthuniherya moolumo ni ikilipi sa aawutiyu wa nikhuru na itaatu sa Common Voice.
