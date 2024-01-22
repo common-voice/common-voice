@@ -757,6 +757,7 @@ validated-hr-total = Overených Hod. Spolu
 overall-hr-total = Celkovo Hod. Spolu
 cv-license = Licencia
 audio-format = Formát zvuku
+dataset-splits = Rozchody (vek a pohlavie)
 number-of-voices = Počet hlasov
 splits = Rozdelenie
 email-to-download = Ak chcete stiahnuť, zadajte svoju e‑mailovú adresu

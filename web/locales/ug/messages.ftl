@@ -748,6 +748,7 @@ validated-hr-total = ئومۇمىي دەلىللەنگەن سائەت
 overall-hr-total = جەمئىي تەخمىنەن سائەت
 cv-license = ئىجازەتنامە
 audio-format = ئۈن پىچىمى
+dataset-splits = پارچىلاش (ياش ۋە جىنسى)
 number-of-voices = ئاۋاز سانى
 splits = بۆلۈنمە
 email-to-download = چۈشۈرۈش ئۈچۈن ئېلخەت ئادرېسىڭىزنى كىرگۈزۈڭ

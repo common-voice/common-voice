@@ -752,6 +752,7 @@ validated-hr-total = Totaal falidearre oeren
 overall-hr-total = Totaal oeren
 cv-license = Lisinsje
 audio-format = Audioformaat
+dataset-splits = Splitsingen (leeftiid en geslacht)
 number-of-voices = Oantal stimmen
 splits = Sindielen
 email-to-download = Fier e-mailadres yn om te downloaden
