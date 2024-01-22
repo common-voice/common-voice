@@ -1,5 +1,6 @@
 ## General
 
+return-to-cv = Muhokolowele o Common Voice
 email-input =
     .label = Emeeyili
 loading = Ettukhulakani...
@@ -137,6 +138,10 @@ ps = Pachto
 pt = Ekunya
 quc = K'ixe
 quy = Kexua Xanka
+rm-sursilv = Romanxe (sursilvan)
+rm-vallader = Romanxe(Vallader)
+ro = Romeno
+ru = Ruso
 rw = Kinyarwanta
 sdh = Ekuurtu ya suuli
 sq = Alapanexi
@@ -201,6 +206,7 @@ shortcut-play-toggle-label = Oruma/Okwasula
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = Mukaravareke/weemela
+shortcut-rerecord-toggle-label = Mukaravike ekilipe
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Muhiye otakiherya ele eniira wettaka
 request-language-text = Nttaava nanyu nleelo nnakhala khaniiri muhina mwa Common Voice?
@@ -379,6 +385,9 @@ license-mixed = Otakaihereya
 data-download-singleword-title = Opaxaari mpantta woorowa wa moolumo omeekha
 terms-agree = kiiri okupalyeene
 terms-disagree = Nnakhala nkiikupali
+review-submit-title = Moonexexe ni muhoolihe
+review-recording = Otthikrla woona
+review-rerecord = Mutthikeke okaravari
 review-cancel = Ohiha woovonyeya
 review-keep-recordings = Muhihe sookaravariwa
 review-delete-recordings = Muttipihe sotakiherya saka
@@ -413,6 +422,7 @@ download-helpus = Munikhaliherye oteeka muttetthe mmosa ikererkheere mwa ikaruum
 download-form-email =
     .label = Muttapunye emeeyili anyu
     .value = Kooxukhuru. kinotthikelani
+download-back = Muhokolowele  ekhurupu enlepa ya Common Voice
 download-no = Nnaari, kooxukhuru
 
 ## Contact Modal
@@ -421,6 +431,7 @@ contact-form-name =
     .label = Nsina nyu
 contact-form-message =
     .label = Mitxaka
+contact-required = *ophaveleya
 
 ## Request Language Modal
 
@@ -463,6 +474,8 @@ record-no-mic-found = Khaphwanyiwe mikorofone mmosa.
 record-cancel = Ohiha ekaravasawu
 record-again-instruction2 = Muthikeleke siiso, mukaravavi vasya <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Okiserya!
+review-tooltip = Moonexexe ni mwiyaathi ifarase murowaka ohoolo
+review-instruction = Moonexexaka, mwiiyaathi  ifarase imara sikina mwaapheelaka
 clips-uploaded = sookaravariwa opakhirya
 record-abort-title = Opixa okhomoni otakiha wopacerya?
 record-abort-text = Mweemela niinaano khamunlola mweettelo aanyu ootheene
@@ -549,6 +562,7 @@ confirm-goal = Okhomaaliha Emeta
 share-goal-type-listen = Owaruni
 # LINK will be replaced with the current URL
 goal-share-text = kimanle waakuva opaka emeeta emosa yaawaka yoovahererya nsu kiroyihaka #oCommonVoice--nikhale hoothe ni mkikhaliherye wiixuttiha ikaruma moota xeeni atthu anlavulaya neexariya{ $link }
+return-to-edit-goal = Muhokolowe va wira muleeliherye Vanrowaya omalela mwapheela
 
 ## Profile Delete
 
@@ -563,6 +577,7 @@ download-profile-info = Muhelele email, nsina na muvareli ni ihapari saatthu mmu
 download-profile-size = Amabytes amosa amosa
 download-recordings-info = Muhelele murupa mp3 ni maalumo oolatthanihana
 download-start = Muupacerye ompaka tonlooti
+download-request = Muvekeke download
 download-requests = Sovekeliwa sa mahiku avinre sa okuruxiwa
 download-request-refresh-button = Ovusheriwa
 download-request-modal-title = Maluutte sa itawulooti
@@ -646,6 +661,7 @@ sc-logout-button = Okhuma
 
 sc-home-collect-title = Orowela soolempwa
 sc-home-collect-text = Munikhalihere muleepaka nnakhala muthukumannyaka moolumo osuweliwa ni anamunceene.
+sc-home-review-title = Otthikrla woona soolempwa
 sc-home-review-text = Munikhaliherye matthikelaka oxukurya moolumo wiira muweha vakhala wiira ari olokeene, ntoko mithaala saya.
 
 ## GENERAL
@@ -657,6 +673,7 @@ sc-howto-addlang-text = Wakela, nyu mookhala oothanla mattava valatarotoni wa mu
 sc-howto-addsen-title = Muhele malove ekina
 sc-howto-cite-title = Erumeeliwa sayi
 sc-howto-cite-item-3 = Niirelaka mutthaka owulaana ni anamunceene ohikhale otthukuwa eene, nyuuwo mokhala orumeelaka mukhaleelo wa ethoonyeryo ya axuutthi, ntoko nthoonyeryo manamuuna a Harvard "Jess ( 2021 ) My Public licence poems"
+sc-howto-review-title = Otthikrla woona soolempwa
 sc-howto-review-subtitle = Nvarelelihe wiira nlamulo nintthunela mithinto soovarela:
 sc-howto-review-criteria-4 = Ankhi nlamulo otthunela mithinto soovarela, mutthitte vaputawuni "Opheela".
 sc-howto-review-criteria-6 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere othukumana maalumo manceene!
@@ -736,6 +753,8 @@ sc-profile-title = Elatarato: { $username }
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Mukhalelo owoonexexa
+sc-criteria-title = Mukhalelo owoonexexa
 sc-criteria-make-sure = Nvarelelihe wiira nlamulo nintthunela mithinto soovarela:
 sc-criteria-item-4 = Ankhi nlamulo otthunela mithinto soovarela, mutthitte vaputawuni &quot; Opheela&quot; moono moolopwana.
 sc-criteria-item-5-2 = Ankhi nlamulo otthunela mithinto soovarela, mutthitte vaputawuni &quot; Opheela&quot; moono moolopwana.
@@ -745,6 +764,8 @@ sc-criteria-item-6 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere
 
 sc-review-loading = Ettukhulaka maalumo...
 sc-review-select-language = Muthanle nttava nimosa wii nwehe saana soolempwa.
+sc-review-form-prompt =
+    .message = Ifarase sowoonexexiwa khasihoolilhiye, muhaana ehaakhi
 sc-review-form-button-reject = Okhootta
 sc-review-form-button-approve = Waakhulela
 sc-review-form-button-submit =
@@ -753,6 +774,7 @@ sc-review-form-button-submit =
 ## SETTINGS
 
 sc-settings-ui-language = Nttaava na muwehanano owiitho olupanyaka
+sc-settings-reset-skipped = Muhimeerye  malove sihimpheeliya
 
 # [/SentenceCollector]
 
@@ -781,6 +803,7 @@ misreadings-tip-3 = [Soolempha sookhala khisimpwanela]
 background-noise-tip-1 = [othikiliwa mwaha wa onyakula wa muhina]
 background-noise-tip-2 = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
 public-domain = Sa osuwela vamayirhori
+reviewing-sentences = Woonexexa
 public-domain-explanation-3 = Mupake  nyeenyu  meekhiinyu  moolumo  masya  ni  a  mivaanelo,  hoothe  ni  axirikha  anyu  nnakhala  mmuttettheni  mwa  malavuleelo,  ntoko  ntthoonyeryo,  murumeelaka  'ekwaha  yoolepa'
 public-domain-explanation-5 = Mwaavye etestu eri soohiheleliwatho ihaakhi sa anamupaka, sintoko, ilivuru sinceene soolaleyiwa eyaakha ya 1920  ehinatthi
 public-domain-explanation-6 = Mulavule ni kuverunu, miloko sinvara muteko mwaha wa okhoola wala mithukumano sa mitthaka wii ewehe yakhala wii ikaruma sa weepi, mitthaka soolempwa wala itthu sikina sikhanle soovelelihiwa wa osuwela vamayithori.
