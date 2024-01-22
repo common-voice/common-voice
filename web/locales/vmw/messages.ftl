@@ -204,6 +204,7 @@ shortcut-record-toggle-label = Mukaravareke/weemela
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Muhiye otakiherya ele eniira wettaka
 request-language-text = Nttaava nanyu nleelo nnakhala khaniiri muhina mwa Common Voice?
+request-language-button = Mukohe nttava
 
 ## ProjectStatus
 
@@ -266,6 +267,7 @@ browse-file = Mwiire ompurula ni mutaphule, nnakhala  <browseWrap>muthanle</brow
 gravatar_not_found = Khaphwanyiwe Karavatari ya e-meyili anyu
 avatar-uploaded = Avatare orumihela
 max-file-size = yootepaxa { $kb }kb
+remove-avatar = Okhumiha avatare
 
 ## Profile - Email
 
@@ -480,6 +482,7 @@ target-segment-learn-more = Musuwela tho
 
 ## Reporting
 
+report = Olepa
 report-offensive-language = Elavulelo oruwana
 report-grammar-or-spelling = Yookosyiwa muhina mwa makhalelo nnakhala malelpeliwo
 report-different-language = Nttava ekina
@@ -490,6 +493,7 @@ report-offensive-speech = Nuulumo oruwana
 report-other-comment =
     .placeholder = Mataphulelo
 continue = Wuluxaa
+report-success = Soohimiya soohoolihiya ni murettele
 
 ## Goals
 
@@ -549,6 +553,7 @@ goal-share-text = kimanle waakuva opaka emeeta emosa yaawaka yoovahererya nsu ki
 ## Profile Delete
 
 keep = Mukhalihe
+remove = Okumiha
 profile-form-delete = Mukumihe eperefili
 
 ## Profile Download
@@ -631,6 +636,8 @@ sc-header-add = Othukumanya
 sc-header-rejected = Soolempwa sookhottiwa
 sc-header-my = Soolempwa yawaka
 sc-footer-discourse = Discourse
+sc-footer-report-bugs = Muhime ophwanyeya ebugs
+sc-footer-report-copyright = Muhimye milattu sa ehakhi sa mwaneene
 sc-footer-cookies = maKookie
 sc-login-signup-button = Mukele/ mwiilepihe
 sc-logout-button = Okhuma
@@ -711,7 +718,7 @@ sc-lang-info-title-personal = Atthu
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
-        [0] Khivetthu soolempwa ookhottiwa
+        [0] Khive soolempwa ookhottiwa
         [one] ookhottiwa soolempwa emosa
        *[other] { $rejectedSentences } soolempwa sookhottiwa.
     }
