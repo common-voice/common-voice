@@ -43,6 +43,7 @@ cak = Kaxikel
 ckb = Ekuurtu ya centerale
 cnh = Hakha Chin
 co = korso
+crh = Taartaro
 cs = Tcheco
 cv = Tchuvache
 da = Tinamarekexi
@@ -124,6 +125,7 @@ ms = Malaio
 mt = Maltese
 my = Pirimanexi
 myv = Eresya
+nan-tw = Tayiwanes (Minnan)
 nb-NO = ooNoroweka (Bokmal)
 nd = IsiNdebele (Norete)
 ne-NP = Nepalexi
@@ -164,8 +166,17 @@ so = Somali
 sq = Alapanexi
 sr = Serivio
 ss = Suaati
+sw = Suahiili
+syr = Siriiako
+ta = Tamil
+te = Teluko
+tg = Tacike
+th = Tailandexi
+tl = Filipino
 tn = Tswana
+ty = Taitiano
 yue = Cantonexi
+zgh = Tamazike
 
 # [/]
 
@@ -180,6 +191,7 @@ profile = ePerefile
 help = Mukhaliheryo
 contact = Wuulume
 privacy = Ampuwasha
+terms = Ikettelo sahuos
 cookies = maKookie
 faq = Sohoka wa mutthu
 share-title = Munikhaliherye okumaana annamakhaliha a nsu!
@@ -284,6 +296,7 @@ avatar = Avatare
 goals = Mametaxi
 settings = Ikonfikurasawu
 edit-profile = Murenceliha eperefile
+profile-create-success = Eperefile yoopakiya ni murettele
 profile-close = Owala
 profile-explanation = Mutharihele mweettelo aanyu ni eperfili emosa ni mukhaliherye wiira sookaravariwa sikhaleke khula maara wookweyiheya.
 accept-privacy = Kinitthunela wiira ihapari iya sirumeeliwekw moota sinleliheriwaya <privacyLink>oPoliitika wa soohakanyeriwa</privacyLink> sa Mozilla.
@@ -452,11 +465,13 @@ size-megabyte = MB
 confirm-join-mailing-list = Kinipheela wiirela mpantta mulixitani wa ovaanyihana wa Kommom Voyise
 download-language = Opaaxari { $language }
 recorded-hours = Iwoora a karavariwa
+subscribe = Mwiilepihe
 get-started-speech = Opacerihiwa osuwelexiwa nsu
 feedback-q = Munipwavela ovaha moonelo anyu?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ti mmosa <docsLink> toolkit wa ikanyeryo yotaphuwa </docsLink> wiira alipo anitokosa alipiherye manamuno ovaha miruuku oreera opattuxiwa muhina mwa mivaanelo sa amwaavano okhiserya.
 resource-playbook-info = <playbookLink>Mphwanye soolelihiwa sinovarelani muteko</playbookLink> exoronata yootheene muCommon Voice, okhuma ophwanyaneya mpakha ovarela muteko mitthaka soopwexereriwa, ohiya moota onatanaaya ni muttetthe ahu.
 data-other-librispeech-description = LipriSpeech ti erutthu yoowattamela 1000 okathi wa osoma ekilisi wa 16khz, sookhuma mwiiwo sa iliivuru sa puruxeetu LipriVox.
+data-other-ted-name = TED-LIUM Corpus
 go-discourse = Oroowa wa Discourse
 go-languages-page = Oroowa nikukhu na mattaava
 ready-to-validate = Olikana wii mukhalihe wemererya soolempwa?
@@ -520,6 +535,7 @@ language-validation-hours = Iwoora
 ## Contribution
 
 action-click = Muttapunye
+action-tap = Toke
 contribute = Muruuhe mwaakanyerelo anyu
 skip = Otupha
 shortcuts = Ataalyu
@@ -568,6 +584,7 @@ report-difficult-pronounce-detail = Eyo yookhalana nulumo wala soolavula soolipa
 report-offensive-speech = Nuulumo oruwana
 report-other-comment =
     .placeholder = Mataphulelo
+success = Okhoola
 continue = Wuluxaa
 report-success = Soohimiya soohoolihiya ni murettele
 
@@ -647,6 +664,7 @@ profile-form-delete = Mukumihe eperefili
 ## Profile Download
 
 download-q = Mumphavela okuruxa mitthaka sanyu?
+download-info = Muhimye empheela anyu:
 download-profile-info = Muhelele email, nsina na muvareli ni ihapari saatthu mmuttettheni
 download-profile-size = Amabytes amosa amosa
 download-recordings-info = Muhelele murupa mp3 ni maalumo oolatthanihana
@@ -674,6 +692,7 @@ demo-welcome-subheader = Muthunelaka wiixutta vanceene ni okhaliherya eporoxeetu
 
 ## Demo Datasets
 
+demo-language-select-card-body = Mwaha wookhaliherya  wa atthu ikonto259 mwa mattaava 50, nave itaatu iyo sinnireliya mpantta wiira yireele mpantta mwa aplikativu onsuweliha nsu  wiira naakhule  nsu na mwanaatamu.
 card-button-next = Opwahererya
 card-button-back = Otthika
 demo-language-select-label = Ottottela mattavani
@@ -704,6 +723,7 @@ contribution-misreadings-description-extended-list-1 = Ohikhala malepo 'Um' wala
 contribution-misreadings-description-extended-list-2 = Ohikhala nlepo <strong>'s'</strong> woomalelani wa nlamulo nimosa.
 contribution-misreadings-description-extended-list-3 = Osoma wa ovukula ahikhanle mutexitoni, notko "y'maasi" ohiya ya maasi wala orikaniha.
 contribution-misreadings-description-extended-list-4 = Ohikhala woomalela wa nlamulo nookiserya mwaha wa ekaravasawu omaalihiwa noowaakuveyaxa.
+contribution-misreadings-description-extended-list-5 = Emara sinceene kimananihaka osoma malepo
 contribution-misreadings-example-2-explanation = [Ohaana okhalaka ‘tinosawurus’]
 contribution-misreadings-example-3-explanation = [Olepa wa masu onyimihiwe vahinatthi omaliha malove ookiserya]
 contribution-misreadings-example-4-explanation = [Sookaravariwa iteestu sinceen sahaapheliwa]
@@ -737,6 +757,7 @@ sc-header-statistics = Exitatistika
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Muhime ophwanyeya ebugs
 sc-footer-report-copyright = Muhimye milattu sa ehakhi sa mwaneene
+sc-footer-terms = Ikettelo sahuos
 sc-footer-cookies = maKookie
 sc-login-signup-button = Mukele/ mwiilepihe
 sc-logout-button = Okhuma
@@ -764,6 +785,7 @@ sc-howto-review-criteria-6 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munik
 sc-howto-findpd-title = Nnira sithukumanyaka masu okhala mwa anamunceene
 sc-howto-findpd-subtitle = Mupheele mwinterneeti
 sc-howto-findpd-tips = Muwehe sooleliwa vakhaani ntoko manamuna opwanya makhuuru a moolumo:
+sc-howto-findpd-tips-1 = Mapuro anreerela opheelasa, podcasts, mutaranskirisawuni, mwaalano wa efiliimi ni sikina sinreerela opweha moolumo anaanano.
 sc-howto-findpd-tips-2 = Mivarelwo muhina mwa kuveeruni, iliiviru ni soleeleria tho ti sopwanela, masi vamosa ni mutthaka okhaala okhala oteepa okhala emakhanya, okhalana ohoolelihiwa wamukhaani.
 sc-howto-findpd-subtitle-2 = Mpake opatthani ni miloko wala ekamosa-kamosa ammuttettheni
 
@@ -916,8 +938,15 @@ partnerships-small-business-header = Impereesa saamukhaani, otakanihaka startups
 partnerships-corporates-header = Nikhuru ya okhalana muulupale ni nipuro niivariwa muteko mukarumani
 partnerships-corporates-description = Mwapheela olavulatho mukhalelo wa muukelo sa itaatu, ovahererya hoothe  woovalatheya wa ekaruma sooheleliwa wala ohaavya sooreereya mukhaliheryo, <emailFragment>nvonyere muhupi</emailFragment>.
 partnerships-our-partners = Mulipa owuka yawihu
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Kooxukhuru mwaha woovaha ekiliipi ni nsu nanyu!
 add-information-button = Adicionar informações
 continue-speaking-button = Nnaari, kooxukhuru, otthikela olavulaka
+thanks-for-voice-toast = Kooxukhuru mwaha wa miteko sanyu sa nsu
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Kooxukhuru mwaha wookhaliherya ni nsu nanyu!
+# IMAGE TAGS
+img-alt-success-checkmark = Muttapunye othanla ni murettele
 offensive-content = Soolempha soruwana
 reader-effects = Soowoneya sa musomi
 just-unsure = Khamurina exariya?
@@ -994,6 +1023,7 @@ select-file = Muthanle murupa
 select-file-mobile = Muthanle murupa mmosa wowira muhoolihe
 maximum-file-size = Wuukumala wootepaxa sa mirupa: 25 MB
 sc-bulk-submit-confirm = kinakhulela wiira makhhuru a mooluno animwiira mmpaatte wa  <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
+bulk-submission-success-header = Kooxukhuru mwaha wookhaliherya oveleeliha mukhurupuni!
 file-invalid-type = Murupa orakala
 file-too-large = Murupa ophova wuunuwa
 file-too-small = Murupa ophova  okhala mwamukhaani
