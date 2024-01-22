@@ -34,6 +34,7 @@ be = Pieloruso
 bg = Puulukaro
 bm = Pamapara
 bn = Mapenkale
+bo = Tipetano
 br = Peretawu
 bs = Pooxinio
 bxr = Puriato
@@ -172,8 +173,11 @@ ta = Tamil
 te = Teluko
 tg = Tacike
 th = Tailandexi
+ti = Tikriinia
+tig = Tikree
 tl = Filipino
 tn = Tswana
+tok = Toki Pona
 ty = Taitiano
 yue = Cantonexi
 zgh = Tamazike
@@ -215,10 +219,12 @@ listen-subtitle = Munikhalihe okupaleela nsu
 listen-goal-text = Ikilipi weemererana
 hours-recorded = Iwoora a karavariwa
 hours-validated = Iwoora woomalela.
+todays-progress = Mweettelo wa olelo.
 help-reach-goal = Munikhaliherye wiira niphiwerihe { $goal }
 read-terms-q = Nyuwo moosoma ikettelo sahu?
 ready-to-record = Olikana wii muvahe masu awinyu?
 all-locales = Soothene
+today = Olelo
 help-make-dataset = Munikhaliherye oteeka nukhuuru nimosa na mihuupi sootepa oreera, sotaphuuwa variyari vanamunceene
 sign-up-account = Mulepihe ekontha emosa
 email-subscription-title = Mwiilepihe wiira mwaakhele ehapari mwimeelini
@@ -234,6 +240,7 @@ join-newsletter = Mwatthuna vale, mwiilepihe liixita ahu ya i-mayili wii mwakhel
 
 ## What's public
 
+recordings-and-locale-public = Numuru na ikaravasawu ni wamattaava ale onikelaawe okhaliherya anookela wooniheriwa vaatthuni.
 
 ## Speak & Listen Shortcuts
 
@@ -317,6 +324,7 @@ help-variants = Mumphavela okhaliheriwa ni malavulelo anyu?
 
 browse-file = Mwiire ompurula ni mutaphule, nnakhala  <browseWrap>muthanle</browseWrap>
 gravatar_not_found = Khaphwanyiwe Karavatari ya e-meyili anyu
+file_too_large = Murupa othanliwe ti wootepa wunnuwa.
 avatar-uploaded = Avatare orumihela
 max-file-size = yootepaxa { $kb }kb
 remove-avatar = Okhumiha avatare
@@ -334,6 +342,7 @@ faq-title = Sohoka wa mutthu
 faq-how-get-q = Moonta xeeni kikhale aka opwaanya mihiupisa Common Voice?
 faq-is-goal-assistant-q = Mphiyereryo wa Common Voice oteka mukhaliheryo onoonela nsu?
 faq-do-want-native-q = Miyo  nnkihiyo mulipo olavula owareliwa ni miyo kilavula na elavulelo aka ni kinilavuula manamuna, nyuuwose nleeelo muphavelasa nsuna naka?
+faq-why-10k-hours-a = Ola ti mwaattamelo wa nummeru na iwoora sooreerela wi oterenari esixiteema ya mulavulelo ottharaka mutthaka.
 faq-how-calc-hours-q = Manamuna xeeni Common Voice okontha awe iwoora?
 faq-is-account-public-q = Ihapari sa ekontha aaka ti soosuweliwa naatthu otheene?
 faq-how-privacy-q = Manamuna xeexe mullipiherya okhupaarela alipo ahittuna wisuwanyeyiha ni mukhalelo wa esiiri ya atthu akhaale tanivaha masu aya?
@@ -348,6 +357,7 @@ how-does-it-work-title-v2 = Manamuna xeeni arumeeliwa aya  Common Voice?
 
 about-language-req-subtitle = Ahaavo anvekela wiira nttava nimosa niheliye.
 about-localization-title = Nttaava othanliwe wa esite ela
+about-localization-subtitle = Mutthaka wa esayiti onittaphuleliwa ni nttaava nlo.
 about-sentence-collection-title = Wuuraana wa malove
 about-sentence-collection-subtitle = Malove anootholiwa wiira atthu asome ni nsu nuulupale.
 about-new-lang-title = Olaleyiwa wa nttava nsya
@@ -357,6 +367,7 @@ about-dataset-release-title = Novonyerya nikhuuru na mihupi
 about-listen-queue = Muthito wa wiiwela
 about-listen = wiiwa
 about-is-it-valid = Mutthico ti wootthunihiwa?
+about-yes-votes-text = Wiira okele munikhuruni wa itaatu sa Common Voice, ikilipi ya nsu enniphavela waavaliyariwa ni atthu ayili anamakhalela.
 about-dataset-new-text = Ekhurupu ya etaatu ya Common Voice erina imilyaare sa amoostara ya masu ankhaliherya  winnuwiha oteka ikaruma soosuwela wa nsu.
 about-get-involved = Mukeleke
 about-stay-in-touch = Manamuna xeeni vakhale aya ovanelana?
@@ -380,6 +391,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = Manamuna xeeni otaphulela awe opuro?
+about-playbook-how-localize-content-4 = Esayiti enikhala yoolikaneene yaphiyererya nnakhala 75% wi emalele.
 
 ## How to add sentences
 
@@ -420,10 +432,12 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Ihapari  since
 
 glossary = eKolosaryo
 localization = Muthanle nttaava
+localization-explanation = Ola muteko ahu a mutaphulelo ni mutthakaseryo wa soolepa sahu wa mikano sinceene (mattaava).
 hours-recorded-explanation = Mwaalakelo wa iwoora sa ekaravasawu ya nsu nittottenla ahu mpakha va.
 sst = Speech-to-text (STT)
 sst-explanation = Itekinoloxiya speech-to-text (STT) ennivirikanyiha itaatu sa nsu mpakha sateestu.
 de-identified = Nsina na mutthu wa oteexerya vakina
+de-identified-explanation = Mweettelo wa mihupi wa mukhalelo wa namukhaliherya sinipwehiwa mooriipela mwa ikilipi saya sa nsu nookhaliheriwa, iyo sattiyeliwa wiira sipaxariwe sintoko mpantta wa nikhuru na itaatu.
 
 ## Error pages
 
@@ -442,6 +456,7 @@ dataset-date = Nihiku
 license = Elisensa: <licenseLink>{ $license }</licenseLink>
 license-mixed = Otakaihereya
 data-download-singleword-title = Opaxaari mpantta woorowa wa moolumo omeekha
+data-download-singleword-callout-v2 = Ola muttharelo oowoopereriwa a murumeelo wa mwaha orina itaatu wi oxuttihe musuweliho wa mitthittelo sa milavulelo  ni muttiyeliyo wa mutthunelo/mukhottelo.
 terms-agree = kiiri okupalyeene
 terms-disagree = Nnakhala nkiikupali
 review-submit-title = Moonexexe ni muhoolihe
@@ -474,6 +489,7 @@ resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ti mmosa <docsLink>
 resource-playbook-info = <playbookLink>Mphwanye soolelihiwa sinovarelani muteko</playbookLink> exoronata yootheene muCommon Voice, okhuma ophwanyaneya mpakha ovarela muteko mitthaka soopwexereriwa, ohiya moota onatanaaya ni muttetthe ahu.
 data-other-librispeech-description = LipriSpeech ti erutthu yoowattamela 1000 okathi wa osoma ekilisi wa 16khz, sookhuma mwiiwo sa iliivuru sa puruxeetu LipriVox.
 data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = TED-LIUM Corpus  epakiwe ni wa soolavuliwa sa milaleeryo ni milipeliyo saya, siniphwanyaneya musayitini mwa TED.
 go-discourse = Oroowa wa Discourse
 go-languages-page = Oroowa nikukhu na mattaava
 ready-to-validate = Olikana wii mukhalihe wemererya soolempwa?
@@ -549,7 +565,11 @@ contribute-more =
 record-cta = Opaceriha ekaravasawu
 record-platform-not-supported-ios-non-safari = No iOS, oroweke oholo ni Safari wii olipihe olempa...
 record-no-mic-found = Khaphwanyiwe mikorofone mmosa.
+record-error-too-short = Ekaravaawu yaari vakhaani.
+record-error-too-long = Ekaravasawu yoophiya otthyaawene.
+record-error-too-quiet = Ekaravasawu ehanle ni miiwanyeyo vakhaaani.
 record-cancel = Ohiha ekaravasawu
+record-three-more-instruction = Wa vararu, enoorowa!
 record-again-instruction2 = Muthikeleke siiso, mukaravavi vasya <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Okiserya!
 review-tooltip = Moonexexe ni mwiyaathi ifarase murowaka ohoolo
@@ -578,7 +598,9 @@ target-segment-learn-more = Musuwela tho
 report = Olepa
 report-title = Nvahererye moolumo.
 report-offensive-language = Elavulelo oruwana
+report-offensive-language-detail = Nuulumo ti noohittittimiha wala ninrumeela mulavulelo wooveeha.
 report-grammar-or-spelling = Yookosyiwa muhina mwa makhalelo nnakhala malelpeliwo
+report-grammar-or-spelling-detail = Nuulumo nivonyen'ye mulavuleliyo wala mulepeliyo.
 report-different-language = Nttava ekina
 report-different-language-detail = Eyo ti yoolempwa munttaavani noovirikana nihikhanle nla kinlavulaaka.
 report-difficult-pronounce = Mukutha kuttho wa mataphulelo
@@ -608,6 +630,8 @@ recordings =
 ## Dashboard
 
 goal-reached = Emeta oophwanyaneya
+todays-recorded-progress = Mweettelo wa olelo wa Common Voice mwa ikilipi sookaravariwa
+todays-validated-progress = Mweettelo wa olelo wa Common Voice mwa ikilipi soowaavaliyariwa.
 awards = Etthuvo
 everyone = Otheene
 recorded-clips = Ikilipi okaravariwa
@@ -789,6 +813,9 @@ sc-howto-cite-title = Erumeeliwa sayi
 sc-howto-cite-item-3 = Niirelaka mutthaka owulaana ni anamunceene ohikhale otthukuwa eene, nyuuwo mokhala orumeelaka mukhaleelo wa ethoonyeryo ya axuutthi, ntoko nthoonyeryo manamuuna a Harvard "Jess ( 2021 ) My Public licence poems"
 sc-howto-review-title = Otthikrla woona soolempwa
 sc-howto-review-subtitle = Nvarelelihe wiira nlamulo nintthunela mithinto soovarela:
+sc-howto-review-criteria-1 = Nuulumo nihaana olepiwa oratteene.
+sc-howto-review-criteria-2 = Nuulumo nihaana okhala noolavuliwa saana.
+sc-howto-review-criteria-3 = Ohaana oweryaneya oromola nuulumo.
 sc-howto-review-criteria-4 = Ankhi nlamulo otthunela mithinto soovarela, mutthitte vaputawuni "Opheela".
 sc-howto-review-criteria-6 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere othukumana maalumo manceene!
 sc-howto-findpd-title = Nnira sithukumanyaka masu okhala mwa anamunceene
@@ -909,6 +936,9 @@ sc-personal-added-by-you = { $sentences } etakaniheriye ni nyuwo
 sc-criteria-modal = ⓘ Mukhalelo owoonexexa
 sc-criteria-title = Mukhalelo owoonexexa
 sc-criteria-make-sure = Nvarelelihe wiira nlamulo nintthunela mithinto soovarela:
+sc-criteria-item-1 = Nuulumo nihaana olepiwa oratteene.
+sc-criteria-item-2 = Nuulumo nihaana okhala noolavuliwa saana.
+sc-criteria-item-3 = Ohaana oweryaneya oromola nuulumo.
 sc-criteria-item-4 = Ankhi nlamulo otthunela mithinto soovarela, mutthitte vaputawuni &quot; Opheela&quot; moono moolopwana.
 sc-criteria-item-5-2 = Ankhi nlamulo otthunela mithinto soovarela, mutthitte vaputawuni &quot; Opheela&quot; moono moolopwana.
 sc-criteria-item-6 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere othukumana maalumo manceene!
@@ -964,6 +994,7 @@ offensive-content = Soolempha soruwana
 reader-effects = Soowoneya sa musomi
 just-unsure = Khamurina exariya?
 example = Moniheryo
+varying-pronunciations-example = Kihoolo epittula emosa ya mukatthe.
 misreadings-explanation-3 = Ohikhala nlepo <strong>'A'</strong> wala <strong>'Nto'</strong> woopacerani wa karavasawu.
 misreadings-explanation-4 = Ohikhala nlepo 's' yoomalelani wa nlamulo nimosa.
 misreadings-explanation-5 = Osoma wa ovukula ahikhanle mutexitoni, notko "y'maasi" ohiya ya maasi wala orikaniha.
@@ -977,6 +1008,7 @@ background-noise-example-2 = [okumiha iphumu] Matinosawuru oorekamasa ya [okotho
 background-noise-example-3 = Matiinu [tosse] oorekamasa a oTiriyaasiku.
 background-noise-tip-1 = [othikiliwa mwaha wa onyakula wa muhina]
 background-noise-tip-2 = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
+background-voices-example-1 = Matinosawuru oorekamasa a oTiriyaasiku.  <strong>[yoosomwa ni nsu nimosa]</strong>
 still-have-questions = Nlelo ehaavo enooxankihani?
 public-domain = Sa osuwela vamayirhori
 reviewing-sentences = Woonexexa
@@ -990,8 +1022,11 @@ citing-sentences-subheader-offline-sources-explanation = Niirelaka mutthaka owul
 citation =
     .label = Ohimya ookwanela
 self-citation = Soohimya solempwa aka
+self-citation-explanation = Ti nsa ontthunaawo wiihimyaka, wakhala wiira ti olempe mutthaka owo.
 adding-sentences-subheader-length = Owittivala
+adding-sentences-subheader-length-explanation = Nuulumo nihaana okhala nnakhala malove 5.
 adding-sentences-subheader-spelling-punctuation = Olepa ni otthittya
+adding-sentences-subheader-spelling-punctuation-explanation = Nuulumo nihaana olepiwa oratteene.
 adding-sentences-subheader-speakable = Wiira ahimiye
 adding-sentences-subheader-numbers = Numuru
 adding-sentences-subheader-numbers-explanation = Manumuru
@@ -1028,6 +1063,7 @@ single-sentence = Nlove nimosa
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Muttapunye <icon></icon> is this a linguistically correct sentence?
 sc-review-rules-title = Nikhuuru na moolumo a mittaala?
+sc-review-empty-state = Wa niinaano va, khaavo moolumo ooreerela owehaweha nttaava nla.
 report-sc-different-language = Nttava ovirikana
 report-sc-different-language-detail = Eri yoolempwa munttaavani noovirikana nihikhanle nla kinwehawehaka.
 
