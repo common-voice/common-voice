@@ -5,9 +5,10 @@ import { getVerticalOffset } from './get-vertical-offset'
 import { sortObjectByValue } from '../../../../../utility'
 import { LanguageDataset } from '../types'
 
-import './metadata-viewer.css'
 import { AgeSplits } from '../age-splits'
 import { GenderSplits } from '../gender-splits'
+
+import './metadata-viewer.css'
 
 type Props = {
   selectedTableRowIndex: number
