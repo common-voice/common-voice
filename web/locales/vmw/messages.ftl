@@ -149,6 +149,8 @@ sc = Sarto
 sdh = Ekuurtu ya suuli
 skr = Saraiki
 sq = Alapanexi
+sr = Serivio
+tn = Tswana
 yue = Cantonexi
 
 # [/]
@@ -258,6 +260,7 @@ dashboard = ePaineli
 build-profile = Ohuwa eperefile
 avatar = Avatare
 goals = Mametaxi
+settings = Ikonfikurasawu
 edit-profile = Murenceliha eperefile
 profile-close = Owala
 profile-explanation = Mutharihele mweettelo aanyu ni eperfili emosa ni mukhaliherye wiira sookaravariwa sikhaleke khula maara wookweyiheya.
@@ -308,6 +311,8 @@ how-does-it-work-title-v2 = Manamuna xeeni arumeeliwa aya  Common Voice?
 ## How does it work section
 
 about-localization-title = Nttaava othanliwe wa esite ela
+about-sentence-collection-title = Wuuraana wa malove
+about-sentence-collection-subtitle = Malove anootholiwa wiira atthu asome ni nsu nuulupale.
 about-new-lang-title = Olaleyiwa wa nttava nsya
 about-voice-contrib-subtitle = Atthu annorwa ni enakhaliha ni masu awaya.
 about-voice-validation-subtitle = Atthu akina annemererya ikilipi iwo sa masu.
@@ -330,6 +335,8 @@ about-nav-playbook = Musuwele moota woowirela mpantta
 ## How do I add a language
 
 about-playbook-how-add-language = Manamuna xeeni nikhale anincereriwa aya nnttaava?
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Muwehe ekhiya ahu mwamuthanlo a malove</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Muwehe tho sooweha sa malove</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -425,6 +432,7 @@ ready-to-validate = Olikana wii mukhalihe wemererya soolempwa?
 close = Owala
 download = Downloati
 sha256-checksum-copied-error = Ovonya okathi otakiha wataniha manamunaa owehiwa a SHA256
+dataset-metadata-sex = Athiyana ni Alopwana
 
 ## Download Modal
 
@@ -473,6 +481,7 @@ language-meter-in-progress = Wetthesaka
 language-search-input =
     .placeholder = Otholathola
 localized = Ataphuleliwe
+sentences = Soolempwa
 language-validation-hours = Iwoora
 
 ## Contribution
@@ -543,6 +552,7 @@ awards = Etthuvo
 everyone = Otheene
 recorded-clips = Ikilipi okaravariwa
 overall-accuracy = Aroromeleya wotene
+set-visibility = Muleelihe Wooneya waka
 visibility-overlay-note = Noota: Mwasueliha ntoko 'Wooneya', orukunixa iwo wookhala wolempwa <profileLink>elatarato ya paaxina</profileLink>
 
 ## Custom Goals
@@ -566,6 +576,7 @@ help-reach-hours-general-pluralized =
         [one] Omukhaluiherya Common Voice  wiira opwaanyerexa { $hours } iwoora mwa nttaava nimosa ni mphimo omekhaawo
        *[other] Mmukhalihe Common Voice  wiira opwanyererye { $hours } iwoora mwe nttaava nimosa ni mphiimo omekhaawe
     }
+set-a-goal = Muleelihe mummalelaanyu
 which-goal-type = Muniphavela wuluma, owiriyana wala sooteene?
 n-clips-pluralized =
     { NUMBER($count) ->
@@ -598,6 +609,7 @@ download-requests = Sovekeliwa sa mahiku avinre sa okuruxiwa
 download-request-refresh-button = Ovusheriwa
 download-request-modal-title = Maluutte sa itawulooti
 download-request-modal-description = Nva siiri maluutte wiira mukuruuxe ipaaxita sothukumanyiwa ZIP.
+download-request-metadata-link = Eteestu ya Malove
 
 ## Landing
 
@@ -622,6 +634,7 @@ demo-account = Ekonta
 demo-account-card-header = Nnakhala khivankhanyereryaniwa okhala okootha wiir amuvaahe mukhaliheryo, nnaamwi vakhaale voreerela.
 demo-account-enter-email =
     .label = Muttapunye emeeyili emosa wiira weyiwo ovonyeriwa nnluutte nimosa na opattuxiwa ekoontha.
+demo-account-sign-up = Muhoolihe elink  empattuxa ekontha
 
 ## Demo Contribute
 
@@ -720,6 +733,8 @@ sc-submit-err-select-lang = Mutthanle nttava nimosa.
 sc-submit-err-add-sentences = Mpwexerere soolempwa.
 sc-submit-err-add-source = Mpwexerere opacera omosa.
 sc-submit-err-confirm-pd = Owehe saana wii soolempwa tisosuweliwa ni atthu.
+sc-submit-prompt =
+    .message = Moolumo oohivahereriya, muhaana ehaakhi wira mumphela okhuma?
 sc-submit-title = Muhele malove
 sc-submit-select-language =
     .labelText = Muthanle nttava
@@ -733,10 +748,20 @@ sc-submit-guidelines = Owehe saana  <howToLink>malamulo </howToLink>.
 
 ## ADD LANGUAGE
 
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Khaveru moolumo oohikela
+        [one] Moolumo emosa oohikela
+       *[other] { $sentences } Moolumo oohikela
+    }
 sc-add-lang-process-notice = Ankhi nttaava nanyu nahaalepinwe va, nyuwo mookhala oovekela mutharihelaka <languageProcessLink>epuruseesu ela</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Moolumo oohivahereriya, muhaana ehaakhi wira mumphela okhuma?
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
@@ -769,6 +794,9 @@ sc-login-err-try-again = Mweererye vasya.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Elatarato: { $username }
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } etakaniheriye ni nyuwo
 
 ## REVIEW CRITERIA
 
@@ -794,6 +822,11 @@ sc-review-form-button-submit =
 
 sc-settings-ui-language = Nttaava na muwehanano owiitho olupanyaka
 sc-settings-reset-skipped = Muhimeerye  malove sihimpheeliya
+# VALIDATION
+sc-validation-number-of-words = Malove ahaana okhalana okhuma 1 mpakha 14
+sc-validation-no-numbers = Nlove yiihikhalane manumuru.
+sc-validation-no-symbols = Nlove niikhalane nlepa.
+sc-validation-no-abbreviations = Nlove niivukulanyiye
 
 # [/SentenceCollector]
 
@@ -832,6 +865,7 @@ citing-sentences-subheader-offline-sources = Onkhuma itthu ota wa intereneti
 citing-sentences-subheader-offline-sources-explanation = Niirelaka mutthaka owulaana ni anamunceene ohikhale otthukuwa eene, nyuuwo mokhala orumeelaka mukhaleelo wa ethoonyeryo ya axuutthi, ntoko nthoonyeryo manamuuna a Harvard "Jess ( 2021 ) My Public licence poems"
 citation =
     .label = Ohimya ookwanela
+self-citation = Soohimya solempwa aka
 adding-sentences-subheader-length = Owittivala
 adding-sentences-subheader-numbers = Numuru
 adding-sentences-subheader-numbers-explanation = Manumuru
@@ -840,6 +874,9 @@ reviewing-sentences-explanation-1 = Ankhi nlamulo otthunela mithinto soovarela o
 reviewing-sentences-explanation-2 = Ankhi nlamulo ohitthunela mithinto soovarela osulu, mutthitte vaputawuni "Nnaari"
 reviewing-sentences-explanation-3 = Ankhi mwaahikhalane exariya wa nlamulo, nyuwo navetho mookhala ohipeela ni ootupha murowelaka ekina.
 reviewing-sentences-explanation-4 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere othukumana maalumo manceene!
+write-page-subtitle = Malove ootthokiheraniyava ari ootakanihiya mukhurupuni mowooneya ni alaleiyale mukisensani cc-0.
+sentence =
+    .label = Soolempwa
 sentence-input-value = Muttapunye vaava nuulumo eniiriwa anamunceene
 citation =
     .label = Ohimya ookwanela
