@@ -750,6 +750,7 @@ validated-hr-total = Celkem validovaných hodin
 overall-hr-total = Celkový počet hodin
 cv-license = Licence
 audio-format = Zvukový formát
+dataset-splits = Rozdělení (věk a pohlaví)
 number-of-voices = Počet hlasů
 splits = Rozdělení
 email-to-download = Pro stažení zadejte svou e-mailovou adresu

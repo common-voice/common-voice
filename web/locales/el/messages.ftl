@@ -745,6 +745,7 @@ validated-hr-total = Ώρες επαλήθευσης
 overall-hr-total = Συνολικές ώρες
 cv-license = Άδεια
 audio-format = Μορφή ήχου
+dataset-splits = Ομάδες (Ηλικία και φύλο)
 number-of-voices = Αριθμός φωνών
 splits = Τμήματα
 email-to-download = Εισαγωγή email για λήψη

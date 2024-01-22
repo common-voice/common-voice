@@ -758,6 +758,7 @@ validated-hr-total = አጠቃላይ የተረጋገጡ ሰዓቶች
 overall-hr-total = በአጠቃላይ ሰዓት ጠቅላላ
 cv-license = ፈቃድ
 audio-format = የድምጽ ቅርጸት
+dataset-splits = መለያየት (ዕድሜ እና ጾታ)
 number-of-voices = የድምፅ ብዛት
 splits = ክፋዮች
 email-to-download = ለማውረድ ኢሜል ያስገቡ

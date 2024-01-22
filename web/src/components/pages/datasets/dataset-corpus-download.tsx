@@ -15,11 +15,11 @@ import DatasetCorpusDownloadTable from './dataset-corpus-download-table';
 import PageHeading from '../../ui/page-heading';
 import { formatBytes } from '../../../utility';
 import { DeltaReadMoreLink } from '../../shared/links';
+import { MobileDatasetMetadataViewer } from './metadata-viewer/mobile/metadata-viewer';
 
-import {
-  DatasetMetadata,
-  DesktopMetaDataViewer,
-} from './metadata-viewer/desktop/metadata-viewer';
+import { LanguageDataset } from './metadata-viewer/types';
+
+import { DesktopMetaDataViewer } from './metadata-viewer/desktop/metadata-viewer';
 
 import './dataset-corpus-download.css';
 
@@ -29,14 +29,6 @@ interface Props extends WithLocalizationProps {
   isSubscribedToMailingList: boolean;
 }
 
-type LanguageDatasets = {
-  download_path: string;
-  id: number;
-  checksum: string;
-  size: number;
-  splits: DatasetMetadata;
-};
-
 const DatasetCorpusDownload = ({
   getString,
   languagesWithDatasets,
@@ -44,8 +36,8 @@ const DatasetCorpusDownload = ({
   isSubscribedToMailingList,
 }: Props) => {
   const [isLoading, setIsLoading] = useState(true);
-  const [selectedDataset, setSelectedDataset] = useState<LanguageDatasets>();
-  const [languageDatasets, setLanguageDatasets] = useState<LanguageDatasets[]>(
+  const [selectedDataset, setSelectedDataset] = useState<LanguageDataset>();
+  const [languageDatasets, setLanguageDatasets] = useState<LanguageDataset[]>(
     []
   );
 
@@ -73,7 +65,7 @@ const DatasetCorpusDownload = ({
 
     api.getLanguageDatasetStats(locale).then(data => {
       setLanguageDatasets(
-        data.filter((dataset: LanguageDatasets) => !!dataset.download_path)
+        data.filter((dataset: LanguageDataset) => !!dataset.download_path)
       );
       setSelectedDataset(data[0]);
       setIsLoading(false);
@@ -122,6 +114,10 @@ const DatasetCorpusDownload = ({
               />
             )}
 
+            {!isLoading && languageDatasets && (
+              <MobileDatasetMetadataViewer releaseData={languageDatasets} />
+            )}
+
             {selectedDataset && selectedDataset.download_path && (
               <DatasetDownloadEmailPrompt
                 selectedLocale={locale}
@@ -138,7 +134,7 @@ const DatasetCorpusDownload = ({
             <DesktopMetaDataViewer
               selectedTableRowIndex={selectedTableRowIndex}
               datasetsCount={languageDatasets.length}
-              metadata={selectedDataset.splits}
+              splits={selectedDataset.splits}
             />
           )}
         </div>

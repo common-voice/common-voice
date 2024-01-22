@@ -1,0 +1,99 @@
+@import url('../../../../media.css');
+
+.metadata-viewer-container-md {
+    width: 100%;
+
+    & .header-container {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            margin-inline-start: 12px;
+            margin-block-end: 8px;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        p:last-of-type {
+            margin-inline-end: 85px;
+        }
+    }
+
+    & .md-metadata-info {
+        display: flex;
+        padding: 20px;
+        background-color: var(--white);
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--grey);
+
+        p.release-name {
+            @media (--xs-down) {
+                width: 140px;
+            }
+        }
+
+        &.selected {
+            background-color: #e2ecf7;
+            border-bottom: none;
+
+            svg {
+                margin-inline-end: 4px;
+            }
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+
+            p.dataset-release-date {
+                margin-inline-end: 24px;
+            }
+
+            svg.expanded {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    & .expanded-box {
+        background-color: #e2ecf7;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        &.collapsed {
+            display: none;
+        }
+
+        p.metadata {
+            text-transform: uppercase;
+            font-weight: 400;
+            color: var(--dark-grey);
+            font-size: 14px;
+            margin-block-end: 8px;
+
+            @media (--xs-down) {
+                max-width: 120px;
+            }
+
+            span {
+                color: var(--black);
+                font-size: 16px;
+                margin-inline-start: 4px;
+            }
+        }
+
+        div.age-splits,
+        div.gender-splits {
+            p {
+                text-transform: capitalize;
+            }
+
+            span {
+                font-weight: bold;
+                margin-inline-end: 4px;
+            }
+        }
+    }
+}
