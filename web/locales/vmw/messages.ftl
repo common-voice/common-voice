@@ -269,6 +269,7 @@ whats-public = Ti exeene ya atthu ootheene?
 email-not-public = Khanimpweha vamukaneya mihupi nanyu sa emeyili.
 recordings-and-locale-public = Numuru na ikaravasawu ni wamattaava ale onikelaawe okhaliherya anookela wooniheriwa vaatthuni.
 username-optin-public = Nyuwo pooti othanla ohiya nsina nanyu wiira nooniweke ni atthu wala ovitha.
+username-email-not-demographic = Nsina nanyu ni e-mail khasinkela otakanxeriwa ni itaatu soowooniheriwa atthu.
 
 ## Speak & Listen Shortcuts
 
@@ -463,6 +464,7 @@ about-playbook-how-localize-content-5 = Muwehe evitiyu aahu yooleliha
 ## How to add sentences
 
 about-playbook-how-add-sentences = Manamuna xeeni nikhale anincereriwa aya nikhuru na moolumo?
+about-playbook-how-add-sentences-content-3 = Nyuwo pooti orumeela <scraperLink> mukumiho wa moolumo </scraperLink> wiira woonelo muraarelo moolumo makhaani oWikipeetiya.
 
 ## How to record quality
 
@@ -583,6 +585,7 @@ dataset-metadata-sex = Athiyana ni Alopwana
 
 ## Download Modal
 
+download-title = Tonlooti anyu oopacerya.
 download-helpus = Munikhaliherye oteeka muttetthe mmosa ikererkheere mwa ikaruuma isya sa nsu, mukhanyererye mivaanelo murumeelaa e-meeyiili.
 download-form-email =
     .label = Muttapunye emeeyili anyu
@@ -610,12 +613,15 @@ other-language = Nttava ekina
 ## Request Language Pages
 
 request-language-explanation-2 = Tho <strong> ninamwaahimeerya maxirenti ahu a mmuttettheni wiira nyuwo munniphavela wiira mpantta </strong>, wiira yuukhaliheryekeni wa ele munniphavelaanyu waka mihupi siniphavelaanyu osuwela.
+request-language-form-email =
+    .label = Mihupi anyu wa email.
 request-language-form-info =
     .label = Ihapari wa mukhalelo wa nttaava
 request-language-form-info-explanation-list-1 = Masina a nttava nanyu
 request-language-form-info-explanation-list-2 = <isoCodeLink>Ikootiku ISO</isoCodeLink> mwasuwela
 request-language-form-info-explanation-list-3 = Ilinkhi sa isayiti sikhanle onikhaliherya osuwela nttaava
 request-language-google-recaptcha-required = reCAPTCHA tiyophaveleya wakhala wii omphavela otthikela
+request-language-success-list-1 = Nyuwo munimwaakhela email niinaano eleeliherya mittharelelo sooheliwa nttaava nanyu muhina mwa Common Voice
 
 ## Languages Overview
 
@@ -652,6 +658,7 @@ contribute-more =
 record-cta = Opaceriha ekaravasawu
 record-platform-not-supported = Muniswaamihe, masi ekaruma aanyu khenlikanelana.
 record-platform-not-supported-ios-non-safari = No iOS, oroweke oholo ni Safari wii olipihe olempa...
+record-must-allow-microphone = Nyuwo muhaana otthuniherya emikorofoone.
 record-no-mic-found = Khaphwanyiwe mikorofone mmosa.
 record-error-too-short = Ekaravaawu yaari vakhaani.
 record-error-too-long = Ekaravasawu yoophiya otthyaawene.
@@ -676,6 +683,8 @@ speak-empty-state = Hiyo khinirina maalumo wiira nikaravari wa nttaava nla...
 record-button-label = Mulepe masu awinyu
 keep-track-profile = Mutharihele mweettelo aanyu ni eperfili emosa
 login-to-get-started = Mukele wala mwiilepihe wiira mpacerye
+target-segment-first-card = Nyuwo munivira mukhaliheryaka muttharelelo woophaveleya woopacerya
+target-segment-generic-card = Nyuwo munivira mukhaliheryaka muttharelelo woophaveleya
 target-segment-first-banner = Mukhaliherye wiira epakiwe mmpantte opacerya  okweya wa Common Voice mwa  { $locale }
 target-segment-learn-more = Musuwela tho
 
@@ -725,6 +734,7 @@ validations =
 
 ## Dashboard
 
+your-languages = Mattaava anyu
 toward-next-goal = Ninrowa mukhiseryo oowaattamela.
 goal-reached = Emeta oophwanyaneya
 todays-recorded-progress = Mweettelo wa olelo wa Common Voice mwa ikilipi sookaravariwa
@@ -766,6 +776,8 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Muleelihe mummalelaanyu
 which-goal-type = Muniphavela wuluma, owiriyana wala sooteene?
+receiving-emails-info = Ekontha anyu eniphwanyaneya yoopakiweene wiira mwaakheleleke emails, sintoko myuupuxero sa mikotelo, mihupi sa mweettelo ni soohisuweliwa sa Common Voice
+not-receiving-emails-info = Nto niinaano va, ekontha anyu eniphwanyaneya yoopakiweene wa <bold> NNAKHALA </bold> waakhela emails, sintoko myuupuxero sa mikotelo, mihupi sa mweettelo anyu ni iwarakha sa soohimmwa sa nihiku wa Common Voice
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] ikilipi emosa
@@ -784,6 +796,7 @@ share-goal-type-both = Olavula ni wiiwa
 # LINK will be replaced with the current URL
 goal-share-text = kimanle waakuva opaka emeeta emosa yaawaka yoovahererya nsu kiroyihaka #oCommonVoice--nikhale hoothe ni mkikhaliherye wiixuttiha ikaruma moota xeeni atthu anlavulaya neexariya{ $link }
 weekly-goal-created = { "" }
+daily-goal-created = Mmalelo anyu wa nihiku vano woopakiwa
 track-progress = Mwiiweleleke va mweettelo ni epaaxina anyu ya mwaalakelo.
 return-to-edit-goal = Muhokolowe va wira muleeliherye Vanrowaya omalela mwapheela
 share-goal = Mukawe vammalelaka
@@ -932,6 +945,7 @@ sc-home-review-text = Munikhaliherye matthikelaka oxukurya moolumo wiira muweha 
 sc-howto-addlang-text = Wakela, nyu mookhala oothanla mattava valatarotoni wa muteko.
 sc-howto-addsen-title = Muhele malove ekina
 sc-howto-cite-title = Erumeeliwa sayi
+sc-howto-cite-item-1 = Nyuwo pooti ottipiha esayiti, sintoko, "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-3 = Niirelaka mutthaka owulaana ni anamunceene ohikhale otthukuwa eene, nyuuwo mokhala orumeelaka mukhaleelo wa ethoonyeryo ya axuutthi, ntoko nthoonyeryo manamuuna a Harvard "Jess ( 2021 ) My Public licence poems"
 sc-howto-review-title = Otthikrla woona soolempwa
 sc-howto-review-subtitle = Nvarelelihe wiira nlamulo nintthunela mithinto soovarela:
@@ -1083,9 +1097,11 @@ sc-login-err-try-again = Mweererye vasya.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Elatarato: { $username }
+sc-personal-your-languages = Mattaava anyu:
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } etakaniheriye ni nyuwo
+sc-personal-not-added = Nyuwo nlelo khamuhenle nnakhala nttaava nimosa.
 
 ## REVIEW CRITERIA
 
@@ -1184,6 +1200,7 @@ public-domain-explanation-5 = Mwaavye etestu eri soohiheleliwatho ihaakhi sa ana
 public-domain-explanation-6 = Mulavule ni kuverunu, miloko sinvara muteko mwaha wa okhoola wala mithukumano sa mitthaka wii ewehe yakhala wii ikaruma sa weepi, mitthaka soolempwa wala itthu sikina sikhanle soovelelihiwa wa osuwela vamayithori.
 citing-sentences-explanation-1 = Ti yuulupalexa wiira ohelela soosuweliwa wiira netthuneke owehaweha sintoko maalumo anisuweliwa naatthu ni khenrumeeliwa kherina mukhoottihiwo wa ihaakhi sa namapaka.
 citing-sentences-subheader-websites = Sites
+citing-sentences-subheader-websites-explanation = Nyuwo pooti ottipiha esayiti, sintoko, "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Mooniheryo akateemika
 citing-sentences-subheader-offline-sources = Onkhuma itthu ota wa intereneti
 citing-sentences-subheader-offline-sources-explanation = Niirelaka mutthaka owulaana ni anamunceene ohikhale otthukuwa eene, nyuuwo mokhala orumeelaka mukhaleelo wa ethoonyeryo ya axuutthi, ntoko nthoonyeryo manamuuna a Harvard "Jess ( 2021 ) My Public licence poems"
@@ -1256,6 +1273,7 @@ upload-progress-text = Ovahererya yeettaka...
 sc-bulk-submit-confirm = kinakhulela wiira makhhuru a mooluno animwiira mmpaatte wa  <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
 bulk-upload-failed-toast = Ovonya wa ovahererya, mweererye vasya.
 bulk-submission-success-header = Kooxukhuru mwaha wookhaliherya oveleeliha mukhurupuni!
+bulk-submission-success-subheader = Nyuwo munnimukhaliherya Common Voice oophiyerya mikotelo sa moolumo a nihiku!
 upload-more-btn-text = Ovaherere maalumo makina?
 file-invalid-type = Murupa orakala
 file-too-large = Murupa ophova wuunuwa
