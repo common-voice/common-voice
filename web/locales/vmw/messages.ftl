@@ -143,7 +143,11 @@ rm-vallader = Romanxe(Vallader)
 ro = Romeno
 ru = Ruso
 rw = Kinyarwanta
+sah = Sakha
+sat = Santali (Ol Xiki)
+sc = Sarto
 sdh = Ekuurtu ya suuli
+skr = Saraiki
 sq = Alapanexi
 yue = Cantonexi
 
@@ -191,6 +195,7 @@ help-make-dataset = Munikhaliherye oteeka nukhuuru nimosa na mihuupi sootepa ore
 benefits = Mureerelo
 improve-audio = Mitthaka sa elatarato sa olipihera mitthaka sa masu sivareliwe muteko wa olimaleliha ni ororomeleya wa ophimelela wa masu.
 keep-track = Mutharihele mweettelo aanyu ni soophima samattaava ovirikana.
+compare-progress = Muwehe winnuwa wanyu wakhala wira vannilikana  nanaamakhaliherya akina a olumwenku
 join-newsletter = Mwatthuna vale, mwiilepihe liixita ahu ya i-mayili wii mwakhele mitthaka isya mwaha wa poroxetu
 
 ## What's public
@@ -243,6 +248,8 @@ leaderboard-visibility =
 hidden = Owipitha
 native-language =
     .label = Nttava anyu
+profile-form-submit-save = Opweha
+profile-form-submit-saved = Oheleliwa
 male = Mulopwana
 female = Muthiyana
 # Gender
@@ -291,6 +298,8 @@ faq-do-want-native-q = Miyo  nnkihiyo mulipo olavula owareliwa ni miyo kilavula 
 faq-how-calc-hours-q = Manamuna xeeni Common Voice okontha awe iwoora?
 faq-is-account-public-q = Ihapari sa ekontha aaka ti soosuweliwa naatthu otheene?
 faq-how-privacy-q = Manamuna xeexe mullipiherya okhupaarela alipo ahittuna wisuwanyeyiha ni mukhalelo wa esiiri ya atthu akhaale tanivaha masu aya?
+faq-search-for-answers =
+    .label = Otholathola makhulelo
 
 ## ABOUT US
 
@@ -395,6 +404,7 @@ review-delete-recordings = Muttipihe sotakiherya saka
 ## Datasets Page
 
 download-dataset-header = Opaxaari nikhuuru na mihuupi
+download-dataset-tag = Muthanle ekhurupu ya mattava ni mwinyaathi enipavelaanyu
 overall-hr-total = Iwoora soohteene
 cv-license = Elicensa
 number-of-voices = Numuru na masu
@@ -438,6 +448,7 @@ contact-required = *ophaveleya
 request-language-form-language =
     .label = Nttava
 request-language-success-title = Ovekeliwa wa nttaava sooroyihiwa ni murettele, kooxukhuru.
+select-language = Muthanle nttava nimosa
 other-language = Nttava ekina
 
 ## Request Language Pages
@@ -456,7 +467,11 @@ language-section-launched = Okhumiwa
 language-section-launched-description = Mattava yaala alaleeriwe, munikukhuni mwaari yoomalelana <localizationGlossaryLink> otaphuleliwa </localizationGlossaryLink> sookhala <sentenceCollectionGlossaryLink> moolumo oottotteliwa </sentenceCollectionGlossaryLink> ophiyerya wiira akweheryekeorooka omuhooli mikhaliheryo sa <speakLink> olavula </speakLink> ni <listenLink> Owiriyana </listenLink>
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Woowoniheriwa esya: { $lastUpdatedTimeStamp }
+languages-show-more = Moone vancipale
+languages-show-less = Moone vakhaani
 language-meter-in-progress = Wetthesaka
+language-search-input =
+    .placeholder = Otholathola
 localized = Ataphuleliwe
 language-validation-hours = Iwoora
 
@@ -576,6 +591,7 @@ download-q = Mumphavela okuruxa mitthaka sanyu?
 download-profile-info = Muhelele email, nsina na muvareli ni ihapari saatthu mmuttettheni
 download-profile-size = Amabytes amosa amosa
 download-recordings-info = Muhelele murupa mp3 ni maalumo oolatthanihana
+download-selected = Othanliwe
 download-start = Muupacerye ompaka tonlooti
 download-request = Muvekeke download
 download-requests = Sovekeliwa sa mahiku avinre sa okuruxiwa
@@ -678,6 +694,7 @@ sc-howto-review-subtitle = Nvarelelihe wiira nlamulo nintthunela mithinto soovar
 sc-howto-review-criteria-4 = Ankhi nlamulo otthunela mithinto soovarela, mutthitte vaputawuni "Opheela".
 sc-howto-review-criteria-6 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere othukumana maalumo manceene!
 sc-howto-findpd-title = Nnira sithukumanyaka masu okhala mwa anamunceene
+sc-howto-findpd-subtitle = Mupheele mwinterneeti
 sc-howto-findpd-tips = Muwehe sooleliwa vakhaani ntoko manamuna opwanya makhuuru a moolumo:
 sc-howto-findpd-tips-2 = Mivarelwo muhina mwa kuveeruni, iliiviru ni soleeleria tho ti sopwanela, masi vamosa ni mutthaka okhaala okhala oteepa okhala emakhanya, okhalana ohoolelihiwa wamukhaani.
 sc-howto-findpd-subtitle-2 = Mpake opatthani ni miloko wala ekamosa-kamosa ammuttettheni
@@ -704,6 +721,8 @@ sc-submit-err-add-sentences = Mpwexerere soolempwa.
 sc-submit-err-add-source = Mpwexerere opacera omosa.
 sc-submit-err-confirm-pd = Owehe saana wii soolempwa tisosuweliwa ni atthu.
 sc-submit-title = Muhele malove
+sc-submit-select-language =
+    .labelText = Muthanle nttava
 sc-submit-ph-one-per-line =
     .placeholder = Farase emosa khula munlano
 sc-submit-ph-read-how-to =
@@ -849,6 +868,8 @@ report-sc-different-language-detail = Eri yoolempwa munttaavani noovirikana nihi
 
 sc-bulk-upload-instruction = Mwiire ompurula kaaphiyaka anyu muruuhe moono oola nno nnakhala <uploadButton>muttapunye wiira evonyeriwe</uploadButton>
 sc-bulk-upload-instruction-drop = Mwiire ompurula arikiivu anyu mmuruhaka nno wiira evonyeriwe
+select-file = Muthanle murupa
+select-file-mobile = Muthanle murupa mmosa wowira muhoolihe
 maximum-file-size = Wuukumala wootepaxa sa mirupa: 25 MB
 sc-bulk-submit-confirm = kinakhulela wiira makhhuru a mooluno animwiira mmpaatte wa  <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
 file-invalid-type = Murupa orakala
