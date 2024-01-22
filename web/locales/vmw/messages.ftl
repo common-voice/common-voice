@@ -51,6 +51,7 @@ eo = Exiperanto
 et = Exitoniano
 eu = Baxico
 ewo = Euonto
+fa = Peresa
 ff = Fula
 fi = Finlantexi
 fo = Feroese
@@ -128,6 +129,8 @@ nyn = Ancolee
 oc = Ositaaniko
 or = Otia
 os = Osseto
+pap-AW = Papiyamento (Arupa)
+ps = Pachto
 quc = K'ixe
 rw = Kinyarwanta
 sdh = Ekuurtu ya suuli
@@ -140,6 +143,7 @@ yue = Cantonexi
 ## Layout
 
 datasets = Nikhuuru na mihupi
+partner = Mulipa owuka
 help = Mukhaliheryo
 contact = Wuulume
 cookies = maKookie
@@ -179,6 +183,7 @@ join-newsletter = Mwatthuna vale, mwiilepihe liixita ahu ya i-mayili wii mwakhel
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Oruma/Okwasula
 
 ## Speak Shortcuts
 
@@ -188,6 +193,7 @@ request-language-text = Nttaava nanyu nleelo nnakhala khaniiri muhina mwa Common
 
 ## ProjectStatus
 
+status-title = Mukhalelo wotheene wa poroxetu: nwehe opwaha wahu!
 status-hours =
     { $hours ->
         [one] iwoora emosa  sirumeeleya mpaakha vaava!
@@ -271,6 +277,7 @@ how-does-it-work-title-v2 = Manamuna xeeni arumeeliwa aya  Common Voice?
 
 about-localization-title = Nttaava othanliwe wa esite ela
 about-new-lang-title = Olaleyiwa wa nttava nsya
+about-voice-contrib-subtitle = Atthu annorwa ni enakhaliha ni masu awaya.
 about-voice-validation-subtitle = Atthu akina annemererya ikilipi iwo sa masu.
 about-dataset-release-title = Novonyerya nikhuuru na mihupi
 about-listen-queue = Muthito wa wiiwela
@@ -279,6 +286,7 @@ about-is-it-valid = Mutthico ti wootthunihiwa?
 about-get-involved = Mukeleke
 about-stay-in-touch = Manamuna xeeni vakhale aya ovanelana?
 about-stay-in-touch-text-1 = <emailFragment>mwiilipihe</emailFragment> muhina mwa ewarakha ahu ya masina a emeeyili wiira musuwele manamuuna nyuuwo mukhale anyu wiirela mpantta wa nlaka, miira ni miraarelo sa maratteliwo owiranela muhina mwa oCommon Voice.
+about-nav-partners = Mamulipa owuka
 about-nav-get-involved = Mukeleke
 about-nav-how-it-works-2 = Manamuna xeeni arumeeliwa aya  Common Voice?
 about-nav-playbook = Musuwele moota woowirela mpantta
@@ -308,6 +316,7 @@ about-playbook-how-record-content-4 = Miikupaleelihe wiira ekaruma eniira ekarav
 
 about-playbook-how-grow-language = Moota xeene nikhale ahu vekekhayi opaka manamuna owunuuherya nttaava nimosa muhina mwa Common Voice?
 about-playbook-how-grow-language-content-2 = Mithukumano
+about-playbook-how-grow-language-content-6 = Opatthani ni iphiro
 
 ## How to validate
 
@@ -370,6 +379,7 @@ download-language = Opaaxari { $language }
 get-started-speech = Opacerihiwa osuwelexiwa nsu
 feedback-q = Munipwavela ovaha moonelo anyu?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ti mmosa <docsLink> toolkit wa ikanyeryo yotaphuwa </docsLink> wiira alipo anitokosa alipiherye manamuno ovaha miruuku oreera opattuxiwa muhina mwa mivaanelo sa amwaavano okhiserya.
+resource-playbook-info = <playbookLink>Mphwanye soolelihiwa sinovarelani muteko</playbookLink> exoronata yootheene muCommon Voice, okhuma ophwanyaneya mpakha ovarela muteko mitthaka soopwexereriwa, ohiya moota onatanaaya ni muttetthe ahu.
 data-other-librispeech-description = LipriSpeech ti erutthu yoowattamela 1000 okathi wa osoma ekilisi wa 16khz, sookhuma mwiiwo sa iliivuru sa puruxeetu LipriVox.
 go-discourse = Oroowa wa Discourse
 go-languages-page = Oroowa nikukhu na mattaava
@@ -430,6 +440,7 @@ record-abort-title = Opixa okhomoni otakiha wopacerya?
 record-abort-text = Mweemela niinaano khamunlola mweettelo aanyu ootheene
 record-abort-continue = Mumalihere ekaravasawu
 record-abort-delete = Okhuuma ni otthipiha nikhuro na moolumo
+listen-last-time-instruction = <playIcon></playIcon> Okiserya!
 listen-abort-title = Okhomoni wa waakhulela ikiliipi?
 listen-abort-confirm = Okhomoni wa waakhulela
 keep-track-profile = Mutharihele mweettelo aanyu ni eperfili emosa
@@ -447,58 +458,125 @@ report-grammar-or-spelling = Yookosyiwa muhina mwa makhalelo nnakhala malelpeliw
 report-different-language = Nttava ekina
 report-different-language-detail = Eyo ti yoolempwa munttaavani noovirikana nihikhanle nla kinlavulaaka.
 report-difficult-pronounce = Mukutha kuttho wa mataphulelo
+report-difficult-pronounce-detail = Eyo yookhalana nulumo wala soolavula soolipa osoma wala ohimya.
 report-offensive-speech = Nuulumo oruwana
+report-other-comment =
+    .placeholder = Mataphulelo
+continue = Wuluxaa
 
 ## Goals
 
+days =
+    { $count ->
+        [one] nihiku
+       *[other] nihiku
+    }
 
 ## Dashboard
 
+goal-reached = Emeta oophwanyaneya
+awards = Etthuvo
+everyone = Otheene
+recorded-clips = Ikilipi okaravariwa
 overall-accuracy = Aroromeleya wotene
 visibility-overlay-note = Noota: Mwasueliha ntoko 'Wooneya', orukunixa iwo wookhala wolempwa <profileLink>elatarato ya paaxina</profileLink>
 
 ## Custom Goals
 
+get-started-goals = Opacerihiwa miphimo
+both-speak-and-listen = Ayili
+daily-goal = Emeta ya kata nihiku
+easy-difficulty = Yookhweya
+average-difficulty = Eriari
+difficult-difficulty = Orikarika
+want-to-continue = Muniphavela otthikela?
+finish-editing = Okhomoni wa nlaka nopaacerya?
+lose-changes-warning = Mwakhuma niinaano, khamunlola soopittikuxiwa sanyu
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Mukhalihe opwaanya { $hours } iwoora  { $language }  vamosa ni mphiimo mmosa wa omutthu awe
+       *[other] Mukhalihe opwaanya { NUMBER($hours) } iwoora  { $language } vamosa ni mphiimo mmosa wa omekhaawe
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Omukhaluiherya Common Voice  wiira opwaanyerexa { $hours } iwoora mwa nttaava nimosa ni mphimo omekhaawo
+       *[other] Mmukhalihe Common Voice  wiira opwanyererye { $hours } iwoora mwe nttaava nimosa ni mphiimo omekhaawe
+    }
+which-goal-type = Muniphavela wuluma, owiriyana wala sooteene?
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] ikilipi emosa
        *[other] { $count } ikilipi
     }
+help-share-goal = Munikhaliherye wiira nipwanye maasu manceene, mukawaanye ni muphiimo anyu
+confirm-goal = Okhomaaliha Emeta
+share-goal-type-listen = Owaruni
+# LINK will be replaced with the current URL
+goal-share-text = kimanle waakuva opaka emeeta emosa yaawaka yoovahererya nsu kiroyihaka #oCommonVoice--nikhale hoothe ni mkikhaliherye wiixuttiha ikaruma moota xeeni atthu anlavulaya neexariya{ $link }
 
 ## Profile Delete
 
+keep = Mukhalihe
+profile-form-delete = Mukumihe eperefili
 
 ## Profile Download
 
 download-q = Mumphavela okuruxa mitthaka sanyu?
+download-profile-info = Muhelele email, nsina na muvareli ni ihapari saatthu mmuttettheni
+download-profile-size = Amabytes amosa amosa
+download-recordings-info = Muhelele murupa mp3 ni maalumo oolatthanihana
+download-start = Muupacerye ompaka tonlooti
+download-requests = Sovekeliwa sa mahiku avinre sa okuruxiwa
+download-request-modal-title = Maluutte sa itawulooti
+download-request-modal-description = Nva siiri maluutte wiira mukuruuxe ipaaxita sothukumanyiwa ZIP.
 
 ## Landing
 
+login-company = Mukele/ mwiilepihe ni emayili ya { $company }
+profile-not-required = Khivankhanyereryaniwa okhala mukhalelo wiira  okhaliherye, nnaamwi vakhaale vamuraarelo
 
 ## DemoLayout
 
+demo-get-started = Nipacereyke
+demo-welcome-subheader = Muthunelaka wiixutta vanceene ni okhaliherya eporoxeetu?
 
 ## Demo Datasets
 
 card-button-next = Opwahererya
+card-button-back = Otthika
+demo-language-select-label = Ottottela mattavani
+demo-account = Ekonta
 
 ## Demo Account
 
+demo-account-card-header = Nnakhala khivankhanyereryaniwa okhala okootha wiir amuvaahe mukhaliheryo, nnaamwi vakhaale voreerela.
+demo-account-enter-email =
+    .label = Muttapunye emeeyili emosa wiira weyiwo ovonyeriwa nnluutte nimosa na opattuxiwa ekoontha.
 
 ## Demo Contribute
 
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Mukhalelo wa atthu sinnokhaliherani osuwela itthu ni opwaha wa khula mutthu ni wa muttetthe.
 
 ## Validation criteria
 
+contribution-criteria-nav = Otthokiherya
+contribution-for-example = sintoko
+contribution-misreadings-title = Ovonya wa osoma
 contribution-misreadings-description-extended-list-1 = Ohikhala malepo 'Um' wala 'O' woopacerani wa karavasawu.
 contribution-misreadings-description-extended-list-2 = Ohikhala nlepo <strong>'s'</strong> woomalelani wa nlamulo nimosa.
 contribution-misreadings-description-extended-list-4 = Ohikhala woomalela wa nlamulo nookiserya mwaha wa ekaravasawu omaalihiwa noowaakuveyaxa.
 contribution-misreadings-example-4-explanation = [Sookaravariwa iteestu sinceen sahaapheliwa]
 contribution-misreadings-example-7-explanation = [Ohikhala 'emosa' texito yoopacera]
+contribution-misreadings-example-8-explanation = [Soolempha sookhala khisimpwanela]
 contribution-varying-pronunciations-example-1-title = Mmiravo owo aawara xapewu mosa.
+contribution-varying-pronunciations-example-2-title = Ntaata nanyu khaniveenye.
+contribution-background-noise-description-extended = Ankhi yookaravariwa ovonyeya wala wooniherya onyakula, mukootte, waahikhale wiira yoolempwa nlelo ekhanle yoowiwiwa oratteene.
+contribution-background-noise-example-2-explanation = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
+contribution-background-voices-description-extended = Ankhi yookaravariwa ovonyeya wala wooniherya onyakula, mukootte, waahikhale wiira yoolempwa nlelo ekhanle yoowiwiwa oratteene.
+contribution-just-unsure-title = Khamurina exariya?
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -507,10 +585,20 @@ contribution-varying-pronunciations-example-1-title = Mmiravo owo aawara xapewu 
 
 ## HEADER/FOOTER
 
+sc-header-home = Ottuli
+sc-header-how-to = Sayi
+sc-header-add = Othukumanya
 sc-header-my = Soolempwa yawaka
+sc-footer-discourse = Discourse
+sc-footer-cookies = maKookie
+sc-login-signup-button = Mukele/ mwiilepihe
+sc-logout-button = Okhuma
 
 ## HOME
 
+sc-home-collect-title = Orowela soolempwa
+sc-home-collect-text = Munikhalihere muleepaka nnakhala muthukumannyaka moolumo osuweliwa ni anamunceene.
+sc-home-review-text = Munikhaliherye matthikelaka oxukurya moolumo wiira muweha vakhala wiira ari olokeene, ntoko mithaala saya.
 
 ## GENERAL
 
@@ -518,13 +606,27 @@ sc-header-my = Soolempwa yawaka
 ## HOW-TO
 
 sc-howto-addlang-text = Wakela, nyu mookhala oothanla mattava valatarotoni wa muteko.
+sc-howto-addsen-title = Muhele malove ekina
+sc-howto-cite-title = Erumeeliwa sayi
+sc-howto-cite-item-3 = Niirelaka mutthaka owulaana ni anamunceene ohikhale otthukuwa eene, nyuuwo mokhala orumeelaka mukhaleelo wa ethoonyeryo ya axuutthi, ntoko nthoonyeryo manamuuna a Harvard "Jess ( 2021 ) My Public licence poems"
+sc-howto-review-subtitle = Nvarelelihe wiira nlamulo nintthunela mithinto soovarela:
+sc-howto-review-criteria-4 = Ankhi nlamulo otthunela mithinto soovarela, mutthitte vaputawuni "Opheela".
+sc-howto-review-criteria-6 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere othukumana maalumo manceene!
+sc-howto-findpd-title = Nnira sithukumanyaka masu okhala mwa anamunceene
+sc-howto-findpd-tips = Muwehe sooleliwa vakhaani ntoko manamuna opwanya makhuuru a moolumo:
+sc-howto-findpd-tips-2 = Mivarelwo muhina mwa kuveeruni, iliiviru ni soleeleria tho ti sopwanela, masi vamosa ni mutthaka okhaala okhala oteepa okhala emakhanya, okhalana ohoolelihiwa wamukhaani.
+sc-howto-findpd-subtitle-2 = Mpake opatthani ni miloko wala ekamosa-kamosa ammuttettheni
 
 ## MY SENTENCES
 
+sc-my-loading = Ettukhulaka maalumo aanyu...
 sc-my-no-sentences = Kekhanle farase ekhottiwe ephwanyiwe!
+sc-my-delete = Mukumihe moolumo othaleeliwa
+sc-my-deleting = Voohiya nikhuuru na moolumo othanleliwa...
 
 ## REJECTED
 
+sc-rejected-loading = Ettukhulaka maalumo ookhoottiwa...
 sc-rejected-none-found = Kekhanle farase ekhottiwe ephwanyiwe!
 
 ## STATS
@@ -532,51 +634,123 @@ sc-rejected-none-found = Kekhanle farase ekhottiwe ephwanyiwe!
 
 ## ADD
 
+sc-submit-err-select-lang = Mutthanle nttava nimosa.
+sc-submit-err-add-sentences = Mpwexerere soolempwa.
+sc-submit-err-add-source = Mpwexerere opacera omosa.
+sc-submit-err-confirm-pd = Owehe saana wii soolempwa tisosuweliwa ni atthu.
+sc-submit-title = Muhele malove
 sc-submit-ph-one-per-line =
     .placeholder = Farase emosa khula munlano
+sc-submit-confirm = Kinakhulela wiira makhhuru a mooluno animwiira mmpaatte wa  <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
+sc-submit-filtered = Mwa  moolumo  wuluuliwa  mwaha  wa  avonyola  muhina  mwa  sopwanelela  (mukelihe  muthinto  o  wuluuliwa  ntoko  masu  masya ):
+sc-submit-guidelines = Owehe saana  <howToLink>malamulo </howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-process-notice = Ankhi nttaava nanyu nahaalepinwe va, nyuwo mookhala oovekela mutharihelaka <languageProcessLink>epuruseesu ela</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Okhomaaliha
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-personal = Atthu
 
 ## LOGIN
 
+sc-login-err-failed = Ovonyeya wa okupaleela
 
 ## PROFILE
 
 
 ## REVIEW CRITERIA
 
+sc-criteria-make-sure = Nvarelelihe wiira nlamulo nintthunela mithinto soovarela:
+sc-criteria-item-4 = Ankhi nlamulo otthunela mithinto soovarela, mutthitte vaputawuni &quot; Opheela&quot; moono moolopwana.
+sc-criteria-item-5-2 = Ankhi nlamulo otthunela mithinto soovarela, mutthitte vaputawuni &quot; Opheela&quot; moono moolopwana.
+sc-criteria-item-6 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere othukumana maalumo manceene!
 
 ## REVIEW
 
+sc-review-loading = Ettukhulaka maalumo...
+sc-review-form-button-approve = Waakhulela
+sc-review-form-button-submit =
+    .submitText = Mumalihe owoonexexa
 
 ## SETTINGS
 
+sc-settings-ui-language = Nttaava na muwehanano owiitho olupanyaka
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Muthanle nttava/elapo
+# PARTNERSHIPS PAGE
+partnerships-header = Wiraana
+partnerships-get-in-touch = Wuulume ni
+partnerships-foundations-header = Epakaliwo
+partnerships-governments-header = maKuveerunu
+partnerships-corporates-header = Nikhuru ya okhalana muulupale ni nipuro niivariwa muteko mukarumani
+partnerships-corporates-description = Mwapheela olavulatho mukhalelo wa muukelo sa itaatu, ovahererya hoothe  woovalatheya wa ekaruma sooheleliwa wala ohaavya sooreereya mukhaliheryo, <emailFragment>nvonyere muhupi</emailFragment>.
 partnerships-our-partners = Mulipa owuka yawihu
+add-information-button = Adicionar informações
 continue-speaking-button = Nnaari, kooxukhuru, otthikela olavulaka
 offensive-content = Soolempha soruwana
+just-unsure = Khamurina exariya?
+example = Moniheryo
 misreadings-explanation-3 = Ohikhala nlepo <strong>'A'</strong> wala <strong>'Nto'</strong> woopacerani wa karavasawu.
 misreadings-explanation-4 = Ohikhala nlepo 's' yoomalelani wa nlamulo nimosa.
 misreadings-explanation-6 = Ohikhala woomalela wa nlamulo nookiserya mwaha wa ekaravasawu omaalihiwa noowaakuveyaxa.
 misreadings-tip-2 = [Ohikhala 'emosa' texito yoopacera]
+misreadings-tip-3 = [Soolempha sookhala khisimpwanela]
+background-noise-tip-1 = [othikiliwa mwaha wa onyakula wa muhina]
+background-noise-tip-2 = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
+public-domain-explanation-3 = Mupake  nyeenyu  meekhiinyu  moolumo  masya  ni  a  mivaanelo,  hoothe  ni  axirikha  anyu  nnakhala  mmuttettheni  mwa  malavuleelo,  ntoko  ntthoonyeryo,  murumeelaka  'ekwaha  yoolepa'
+public-domain-explanation-5 = Mwaavye etestu eri soohiheleliwatho ihaakhi sa anamupaka, sintoko, ilivuru sinceene soolaleyiwa eyaakha ya 1920  ehinatthi
+citing-sentences-explanation-1 = Ti yuulupalexa wiira ohelela soosuweliwa wiira netthuneke owehaweha sintoko maalumo anisuweliwa naatthu ni khenrumeeliwa kherina mukhoottihiwo wa ihaakhi sa namapaka.
+citing-sentences-subheader-academic-reference = Mooniheryo akateemika
 citing-sentences-subheader-offline-sources = Onkhuma itthu ota wa intereneti
+citing-sentences-subheader-offline-sources-explanation = Niirelaka mutthaka owulaana ni anamunceene ohikhale otthukuwa eene, nyuuwo mokhala orumeelaka mukhaleelo wa ethoonyeryo ya axuutthi, ntoko nthoonyeryo manamuuna a Harvard "Jess ( 2021 ) My Public licence poems"
+citation =
+    .label = Ohimya ookwanela
+adding-sentences-subheader-length = Owittivala
 adding-sentences-subheader-numbers = Numuru
 adding-sentences-subheader-numbers-explanation = Manumuru
+reviewing-sentences-explanation-1 = Ankhi nlamulo otthunela mithinto soovarela osulu, mutthitte vaputawuni "Aayo".
+reviewing-sentences-explanation-2 = Ankhi nlamulo ohitthunela mithinto soovarela osulu, mutthitte vaputawuni "Nnaari"
+reviewing-sentences-explanation-3 = Ankhi mwaahikhalane exariya wa nlamulo, nyuwo navetho mookhala ohipeela ni ootupha murowelaka ekina.
+reviewing-sentences-explanation-4 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere othukumana maalumo manceene!
+sentence-input-value = Muttapunye vaava nuulumo eniiriwa anamunceene
+citation =
+    .label = Ohimya ookwanela
+sc-write-submit-confirm = Kinakhulela wiira makhhuru a mooluno animwiira mmpaatte we <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
 new-sentence-rule-1 = <noCopyright> Ohiyeviha wa ihakhi sa anamapaka</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Ohiphiya moolumo 15 kuta maluvo
 new-sentence-rule-5 = Ohikhala numuru nnakhala ikaratere exipesiyale
 new-sentence-rule-6 = Ohikhala iletara sa ilapo sookhopela
+new-sentence-rule-7 = Muhelelemo soolavuliwa sookhalela
+new-sentence-rule-8 = Voreerela ve ephaattu  ni natural  ni vekekwhayi( vahaana vakhalaka vokweeya osoma muulumo)
+how-to-cite = Erumeeliwa sayi?
+guidelines = Malamulo
+contact-us = Wuulume ni hiyo
+add-sentence-error = Wovonyola okathi wowuncererya moolumo
+required-field = Mulepe nipuro nla.
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Muttapunye <icon></icon> is this a linguistically correct sentence?
+sc-review-rules-title = Nikhuuru na moolumo a mittaala?
+report-sc-different-language = Nttava ovirikana
+report-sc-different-language-detail = Eri yoolempwa munttaavani noovirikana nihikhanle nla kinwehawehaka.
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction = Mwiire ompurula kaaphiyaka anyu muruuhe moono oola nno nnakhala <uploadButton>muttapunye wiira evonyeriwe</uploadButton>
+sc-bulk-upload-instruction-drop = Mwiire ompurula arikiivu anyu mmuruhaka nno wiira evonyeriwe
+maximum-file-size = Wuukumala wootepaxa sa mirupa: 25 MB
+sc-bulk-submit-confirm = kinakhulela wiira makhhuru a mooluno animwiira mmpaatte wa  <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
+file-invalid-type = Murupa orakala
+file-too-large = Murupa ophova wuunuwa
+file-too-small = Murupa ophova  okhala mwamukhaani
