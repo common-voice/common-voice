@@ -176,6 +176,8 @@ sah = Якутский
 sat = Сантали (Ол Чики)
 sc = Сардинский
 scn = Сицилийский
+sco = Шотландский
+sd = Синдхи
 sdh = Южный Курдский
 shi = Шильхский
 si = Сингальский
@@ -216,7 +218,9 @@ uz = Узбекский
 ve = Венда
 vec = Венетский
 vi = Вьетнамский
+vmw = Махува
 vot = Водский
+wep = Вестфальский
 wo = Волоф
 xh = Коса
 yi = Идиш
@@ -794,6 +798,10 @@ dataset-version = Версия
 sha256-checksum-copied = Контрольная сумма SHA256 скопирована!
 sha256-checksum-copied-error = Не удалось скопировать контрольную сумму SHA256.
 clipboard-not-supported = Буфер обмена не поддерживается
+no-information-available = Нет доступной информации
+dataset-metadata-sex = Пол
+# dataset metadata - age of contributor
+dataset-metadata-age = Возраст
 
 ## Download Modal
 
