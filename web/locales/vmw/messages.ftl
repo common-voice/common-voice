@@ -175,10 +175,20 @@ tg = Tacike
 th = Tailandexi
 ti = Tikriinia
 tig = Tikree
+tk = Turcomano
 tl = Filipino
 tn = Tswana
 tok = Toki Pona
+tr = Turko
+tw = Twi
 ty = Taitiano
+tyv = Tuvan
+uby = Upykh
+udm = Udmurte
+ug = Uykur
+uk = Ukrainian
+ur = Urtu
+ve = Tshiventa
 yue = Cantonexi
 zgh = Tamazike
 
@@ -274,6 +284,8 @@ english = Enkelexi
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Nsina nyu
 profile-form-native-language =
     .label = Nttava anyu
 profile-form-additional-language =
@@ -322,6 +334,7 @@ help-variants = Mumphavela okhaliheriwa ni malavulelo anyu?
 
 ## Profile - Email
 
+browse-file-title = Nvaherere murupa sa elatharatu
 browse-file = Mwiire ompurula ni mutaphule, nnakhala  <browseWrap>muthanle</browseWrap>
 gravatar_not_found = Khaphwanyiwe Karavatari ya e-meyili anyu
 file_too_large = Murupa othanliwe ti wootepa wunnuwa.
@@ -346,6 +359,7 @@ faq-why-10k-hours-a = Ola ti mwaattamelo wa nummeru na iwoora sooreerela wi oter
 faq-how-calc-hours-q = Manamuna xeeni Common Voice okontha awe iwoora?
 faq-is-account-public-q = Ihapari sa ekontha aaka ti soosuweliwa naatthu otheene?
 faq-how-privacy-q = Manamuna xeexe mullipiherya okhupaarela alipo ahittuna wisuwanyeyiha ni mukhalelo wa esiiri ya atthu akhaale tanivaha masu aya?
+faq-using-cv = Manamuna xeeni oorumeela Common Voice?
 faq-search-for-answers =
     .label = Otholathola makhulelo
 
@@ -366,6 +380,7 @@ about-voice-validation-subtitle = Atthu akina annemererya ikilipi iwo sa masu.
 about-dataset-release-title = Novonyerya nikhuuru na mihupi
 about-listen-queue = Muthito wa wiiwela
 about-listen = wiiwa
+about-listen-text = Marumeeliha antthunela ni exariya wa ikilipi soovahiwa, awehawehaka sintoko olavunle osomme nlamulo woohivonya.
 about-is-it-valid = Mutthico ti wootthunihiwa?
 about-yes-votes-text = Wiira okele munikhuruni wa itaatu sa Common Voice, ikilipi ya nsu enniphavela waavaliyariwa ni atthu ayili anamakhalela.
 about-dataset-new-text = Ekhurupu ya etaatu ya Common Voice erina imilyaare sa amoostara ya masu ankhaliherya  winnuwiha oteka ikaruma soosuwela wa nsu.
@@ -703,6 +718,7 @@ download-info = Muhimye empheela anyu:
 download-profile-info = Muhelele email, nsina na muvareli ni ihapari saatthu mmuttettheni
 download-profile-size = Amabytes amosa amosa
 download-recordings-info = Muhelele murupa mp3 ni maalumo oolatthanihana
+download-recordings-size = Okathi nuukathi megabytes
 download-selected = Othanliwe
 download-start = Muupacerye ompaka tonlooti
 download-request = Muvekeke download
@@ -752,6 +768,7 @@ demo-dashboard-card-header = Mukhalelo wa atthu sinnokhaliherani osuwela itthu n
 ## Validation criteria
 
 contribution-criteria-nav = Otthokiherya
+contribution-criteria-link = Osuweleke mittharihelo sa muncereriho.
 contribution-for-example = sintoko
 contribution-misreadings-title = Ovonya wa osoma
 contribution-misreadings-description-extended-list-1 = Ohikhala malepo 'Um' wala 'O' woopacerani wa karavasawu.
@@ -855,6 +872,7 @@ sc-rejected-none-found = Kekhanle farase ekhottiwe ephwanyiwe!
 ## STATS
 
 sc-stats-title = Exitatistika
+sc-stats-updating = Oturuka…
 # Variables:
 #   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
 #   $languageCount (Number) - Total number of languages these sentences represent
@@ -934,6 +952,14 @@ sc-lang-info-in-review =
        *[other] { $totalInReview } moolumo aniwehawehiwa.
     }
 # Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] khavo maalamulo ookhala wiira nyu muwehe tho.
+        [one] maalamulo emosa ookhala wiira nyu muwehe tho.
+       *[other] { $unreviewedSentencesByYou } maalamulo ookhala wiira nyu muwehe tho.
+    }
+# Variables:
 #   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
 sc-lang-info-rejected =
     { $rejectedSentences ->
@@ -1002,6 +1028,7 @@ partnerships-header = Wiraana
 partnerships-get-in-touch = Wuulume ni
 partnerships-foundations-header = Epakaliwo
 partnerships-governments-header = maKuveerunu
+partnerships-academia-header = Universitaati, maakateemiku ni mapeskisatoore
 partnerships-small-business-header = Impereesa saamukhaani, otakanihaka startups ya etekinoloxiya ya ankhili ya olumwenku
 partnerships-corporates-header = Nikhuru ya okhalana muulupale ni nipuro niivariwa muteko mukarumani
 partnerships-corporates-description = Mwapheela olavulatho mukhalelo wa muukelo sa itaatu, ovahererya hoothe  woovalatheya wa ekaruma sooheleliwa wala ohaavya sooreereya mukhaliheryo, <emailFragment>nvonyere muhupi</emailFragment>.
@@ -1015,6 +1042,7 @@ thanks-for-voice-toast = Kooxukhuru mwaha wa miteko sanyu sa nsu
 second-cta-header-text = Kooxukhuru mwaha wookhaliherya ni nsu nanyu!
 # IMAGE TAGS
 img-alt-success-checkmark = Muttapunye othanla ni murettele
+guidelines-header-subtitle = Osuweleke mananna oowuncererya ni otthuniherya moolumo ni ikilipi sa aawutiyu wa nikhuru na itaatu sa Common Voice.
 offensive-content = Soolempha soruwana
 reader-effects = Soowoneya sa musomi
 just-unsure = Khamurina exariya?
@@ -1071,6 +1099,8 @@ citation =
 sc-write-submit-confirm = Kinakhulela wiira makhhuru a mooluno animwiira mmpaatte we <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
 new-sentence-rule-1 = <noCopyright> Ohiyeviha wa ihakhi sa anamapaka</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Ohiphiya moolumo 15 kuta maluvo
+new-sentence-rule-3 = Murumeele ekaramaatika ohivonyeya.
+new-sentence-rule-4 = Murumeele mulepo ni mutthittiya ohivonyeya.
 new-sentence-rule-5 = Ohikhala numuru nnakhala ikaratere exipesiyale
 new-sentence-rule-6 = Ohikhala iletara sa ilapo sookhopela
 new-sentence-rule-7 = Muhelelemo soolavuliwa sookhalela
@@ -1094,6 +1124,8 @@ report-sc-different-language-detail = Eri yoolempwa munttaavani noovirikana nihi
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Muvahererye <icon></icon>  maalumo osuweliwa ni anamunceene
 sc-bulk-upload-instruction = Mwiire ompurula kaaphiyaka anyu muruuhe moono oola nno nnakhala <uploadButton>muttapunye wiira evonyeriwe</uploadButton>
 sc-bulk-upload-instruction-drop = Mwiire ompurula arikiivu anyu mmuruhaka nno wiira evonyeriwe
 try-upload-again = Ottehe tho vakina oruuha murupaawe nno.
@@ -1101,8 +1133,11 @@ try-upload-again-md = Ottehe tho oveleeliherya vakina.
 select-file = Muthanle murupa
 select-file-mobile = Muthanle murupa mmosa wowira muhoolihe
 maximum-file-size = Wuukumala wootepaxa sa mirupa: 25 MB
+upload-progress-text = Ovahererya yeettaka...
 sc-bulk-submit-confirm = kinakhulela wiira makhhuru a mooluno animwiira mmpaatte wa  <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
+bulk-upload-failed-toast = Ovonya wa ovahererya, mweererye vasya.
 bulk-submission-success-header = Kooxukhuru mwaha wookhaliherya oveleeliha mukhurupuni!
+upload-more-btn-text = Ovaherere maalumo makina?
 file-invalid-type = Murupa orakala
 file-too-large = Murupa ophova wuunuwa
 file-too-small = Murupa ophova  okhala mwamukhaani
