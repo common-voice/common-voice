@@ -747,7 +747,9 @@ language-validation-progress = Murowelo wa mutthunelo
 action-click = Muttapunye
 action-tap = Toke
 contribute = Muruuhe mwaakanyerelo anyu
+listen = wiiwa
 write = Mulepeke
+review = Otthikrla woona
 skip = Otupha
 shortcuts = Ataalyu
 clips-with-count-pluralized =
@@ -784,6 +786,7 @@ record-submit-tooltip = { $actionType }  mwamala  muteko iya  sotheene
 clips-uploaded = sookaravariwa opakhirya
 record-abort-title = Opixa okhomoni otakiha wopacerya?
 record-abort-text = Mweemela niinaano khamunlola mweettelo aanyu ootheene
+record-abort-submit = Orumihela ikilipes
 record-abort-continue = Mumalihere ekaravasawu
 record-abort-delete = Okhuuma ni otthipiha nikhuro na moolumo
 listen-instruction = { $actionType } <playIcon></playIcon> Molove ookwanela  ahuulumiwa woorereyavo?
@@ -858,6 +861,7 @@ clips-you-recorded = Ikiliipi iye mukaravanraanyu
 clips-you-validated = Ikiliipi iye mukupanlaanyu
 todays-recorded-progress = Mweettelo wa olelo wa Common Voice mwa ikilipi sookaravariwa
 todays-validated-progress = Mweettelo wa olelo wa Common Voice mwa ikilipi soowaavaliyariwa.
+stats = Estatistica
 awards = Etthuvo
 you = Nyuwo
 everyone = Otheene
@@ -936,16 +940,20 @@ profile-form-delete = Mukumihe eperefili
 
 download-q = Mumphavela okuruxa mitthaka sanyu?
 download-info = Muhimye empheela anyu:
+download-profile-title = ePerefile
 download-profile-info = Muhelele email, nsina na muvareli ni ihapari saatthu mmuttettheni
 download-profile-size = Amabytes amosa amosa
+download-recordings-title = makaravawu
 download-recordings-info = Muhelele murupa mp3 ni maalumo oolatthanihana
 download-recordings-size = Okathi nuukathi megabytes
 download-recordings-unavailable = Nyuwo pooti ovekela ikaravasawu sanyu okathi sikinaku sinviraaya seettaka.
 download-recently-requested = Nyuwo pooti ovekela ottipiha ikaravasawu sanyu wala khula  { $days } mahiku.
+download-size = Owittivala
 download-selected = Othanliwe
 download-start = Muupacerye ompaka tonlooti
 download-request = Muvekeke download
 download-requests = Sovekeliwa sa mahiku avinre sa okuruxiwa
+download-request-button = Downloati
 download-request-title = { $created }
 download-request-archive-single = Murupa ZIP mmosa okhalanne
 download-request-archive-multiple = Okawanya { $archiveCount } mmurupani mwa ZIP mukhanlene
@@ -1025,6 +1033,7 @@ contribution-varying-pronunciations-example-1-title = Mmiravo owo aawara xapewu 
 contribution-varying-pronunciations-example-1-explanation = [Malepo oopacerya annisomwa elapo ya OParasiili (mmiravo, exapeyu),  masi nave OPorutukaale malove yaala anisommwa(m´miravo,  ´xapeyu)]
 contribution-varying-pronunciations-example-2-title = Ntaata nanyu khaniveenye.
 contribution-varying-pronunciations-example-2-explanation = [‘Yawawo’  ni ekunya enromoliwa ntoko nlove nimosa, ohiya piili]
+contribution-background-noise-title = Onyakula woottayi
 contribution-background-noise-description-extended = Ankhi yookaravariwa ovonyeya wala wooniherya onyakula, mukootte, waahikhale wiira yoolempwa nlelo ekhanle yoowiwiwa oratteene.
 contribution-background-noise-example-1-fixed-title = <strong>[okumiha iphumu]</strong> Matinosawuru oorekamasa ya <strong>[okothomola]</strong> Tiriyaasiku.
 contribution-background-noise-example-2-fixed-title = Matiinu <strong>[okothomola]</strong> oorekamasa a oTiriyaasiku.
@@ -1048,13 +1057,16 @@ see-less = <chevron></chevron>Moone vakhaani
 sc-header-home = Ottuli
 sc-header-how-to = Sayi
 sc-header-add = Othukumanya
+sc-header-review = Otthikrla woona
 sc-header-rejected = Soolempwa sookhottiwa
 sc-header-my = Soolempwa yawaka
 sc-header-statistics = Exitatistika
+sc-header-profile = ePerefile
 sc-footer-discourse = Discourse
 sc-footer-report-bugs = Muhime ophwanyeya ebugs
 sc-footer-translate = Otaphulele epaaxina ela.
 sc-footer-report-copyright = Muhimye milattu sa ehakhi sa mwaneene
+sc-footer-privacy = Ampuwasha
 sc-footer-terms = Ikettelo sahuos
 sc-footer-cookies = maKookie
 sc-login-signup-button = Mukele/ mwiilepihe
@@ -1095,6 +1107,7 @@ sc-howto-findpd-subtitle-2 = Mpake opatthani ni miloko wala ekamosa-kamosa ammut
 
 ## MY SENTENCES
 
+sc-my-title = Soolempwa yawaka
 sc-my-loading = Ettukhulaka maalumo aanyu...
 sc-my-no-sentences = Kekhanle farase ekhottiwe ephwanyiwe!
 # Variables:
@@ -1108,6 +1121,7 @@ sc-my-deleting = Voohiya nikhuuru na moolumo othanleliwa...
 
 ## REJECTED
 
+sc-rejected-title = Soolempwa sookhottiwa
 sc-rejected-loading = Ettukhulaka maalumo ookhoottiwa...
 sc-rejected-none-found = Kekhanle farase ekhottiwe ephwanyiwe!
 
@@ -1138,6 +1152,8 @@ sc-submit-from-where = Moolumo awo anikhuma woowi <wikipediaLink> ti oosuweliwa 
 sc-submit-ph-read-how-to =
     .placeholder = Osome ekiyahu mwaha wa moota xene okhanlawe oopaka, wakhala wii khorina ekekhayi ya moota wa ovaha
 sc-submit-confirm = Kinakhulela wiira makhhuru a mooluno animwiira mmpaatte wa  <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
+sc-submit-button =
+    .submitText = Orumihela
 sc-submit-filtered = Mwa  moolumo  wuluuliwa  mwaha  wa  avonyola  muhina  mwa  sopwanelela  (mukelihe  muthinto  o  wuluuliwa  ntoko  masu  masya ):
 sc-submit-guidelines = Owehe saana  <howToLink>malamulo </howToLink>.
 
@@ -1145,6 +1161,7 @@ sc-submit-guidelines = Owehe saana  <howToLink>malamulo </howToLink>.
 
 sc-add-lang-could-not-add = Khawaakhwen´ye ohela ntaava
 sc-add-lang-sec-label = Muhele nttaava muntthunaanyu olavula
+sc-add-lang-sec-button = Yoohela ntaava nanyu
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
 sc-add-result =
@@ -1191,6 +1208,7 @@ sc-confirm-button-text = Okhomaaliha
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Soothene
 sc-lang-info-title-personal = Atthu
 # Variables:
 #   $totalSentences (Number) - Number of sentences uploaded in total for this language
@@ -1246,6 +1264,7 @@ sc-profile-title = Elatarato: { $username }
 sc-personal-err-lang-not-found = Khawakhwen´ye okumiha nttaava
 sc-personal-err-remove = Khawakhwen´ye okumiha nttaava: nttaava khanaaphwanyiwe
 sc-personal-your-languages = Mattaava anyu:
+sc-personal-remove-button = Okumiha
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } etakaniheriye ni nyuwo
@@ -1265,6 +1284,7 @@ sc-criteria-item-6 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere
 
 ## REVIEW
 
+sc-review-title = Otthikrla woona soolempwa
 sc-review-loading = Ettukhulaka maalumo...
 sc-review-select-language = Muthanle nttava nimosa wii nwehe saana soolempwa.
 sc-review-form-prompt =
@@ -1273,10 +1293,18 @@ sc-review-form-prompt =
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Ophattuwa: { $sentenceSource }
 sc-review-form-button-reject = Okhootta
+sc-review-form-button-skip = Otupha
 sc-review-form-button-approve = Waakhulela
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Nyuwo tho mwaphavela pooti omurumeela ataalyu a itekalaatu: { sc-review-form-button-approve-shortcut } wi mutthuniherye, { sc-review-form-button-reject-shortcut } wi mukottiherye, { sc-review-form-button-skip-shortcut } wi muvikane
 sc-review-form-button-submit =
     .submitText = Mumalihe owoonexexa
+sc-review-link = Otthikrla woona
 
 ## SETTINGS
 
