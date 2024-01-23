@@ -54,6 +54,7 @@ cak = Cakchiquel
 ckb = Kurde central
 cnh = Hakha Chin
 co = Corse
+crh = Tatar de Crimée
 cs = Tchèque
 cv = Tchouvache
 cy = Gallois
@@ -171,6 +172,8 @@ sah = Iakoute
 sat = Santali (Ol Chiki)
 sc = Sarde
 scn = Sicilien
+sco = Écossais
+sd = Sindhi
 sdh = Kurde du Sud
 shi = Tachelhit/chleuh
 si = Sinhala
@@ -787,6 +790,7 @@ dataset-version = Version
 sha256-checksum-copied = Somme de contrôle SHA256 copiée !
 sha256-checksum-copied-error = Échec de la copie de la somme de contrôle SHA256
 clipboard-not-supported = Presse-papiers non pris en charge
+no-information-available = Aucune information disponible
 
 ## Download Modal
 

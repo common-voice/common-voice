@@ -149,7 +149,10 @@
         }
         @media (--lg-up) {
             /* Compensate for translateY */
-            margin-bottom: -70px;
+            &.logged-in {
+                margin-bottom: -70px;
+            }
+
             flex-direction: row;
 
             & > :first-child {
