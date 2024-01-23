@@ -215,6 +215,7 @@ ve = Venda
 vec = Velencei
 vi = Vietnámi
 vot = Vót
+wep = Vesztfáliai
 wo = Volof
 xh = Xhosza
 yi = Jiddis
@@ -793,6 +794,10 @@ dataset-version = Verzió
 sha256-checksum-copied = SHA256 ellenőrzőösszeg másolva.
 sha256-checksum-copied-error = Az SHA256 ellenőrzőösszeg másolása sikertelen
 clipboard-not-supported = A vágólap nem támogatott
+no-information-available = Nem áll rendelkezésre információ
+dataset-metadata-sex = Nem
+# dataset metadata - age of contributor
+dataset-metadata-age = Életkor
 
 ## Download Modal
 
