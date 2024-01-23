@@ -203,6 +203,9 @@ yi = Iitixe
 yo = Iorubaa
 yue = Cantonexi
 zgh = Tamazike
+zh-CN = Xineexi (Xiina)
+zh-HK = Xineexi (Onki Konki)
+zh-TW = Xineexi (Tayiwani)
 zu = Sulu
 zza = Sasa
 
@@ -225,6 +228,7 @@ faq = Sohoka wa mutthu
 share-title = Munikhaliherye okumaana annamakhaliha a nsu!
 share-text = Mukhaliherye oxuuttiha maakina ntooko mutthu mmosa olavula, muvahaaka nsu nanyu mwa  { $link }
 link-copied = Link okopiyari
+back-top = Otthikela osuluu
 logout = Okhuma
 
 ## Home Page
@@ -374,6 +378,7 @@ manage-subscriptions = Olela milepiho sa imayili
 manage-email-subscriptions = Wethiha mulepiheryo
 email-already-used = Ela  e-meeyili  ela  eniira  erumeeliwaka  ni  ekootha emoha wovirikana
 add-language = Yoohela ntaava nanyu
+change-email-setings = Muvirikanihe e-mail  anyu murumeelaka ikofikurasawu sa Itentitaati seyiya sinikelaniwa mumeilni
 
 ## FAQ
 
@@ -430,10 +435,12 @@ about-listen-queue-text = Ikilipi  nsu siniheleliwa mupholani wa ovahererya wiir
 about-listen = wiiwa
 about-listen-text = Marumeeliha antthunela ni exariya wa ikilipi soovahiwa, awehawehaka sintoko olavunle osomme nlamulo woohivonya.
 about-is-it-valid = Mutthico ti wootthunihiwa?
+about-is-it-valid-text = Ekiliipi yoopakiwa ni nsu nkhalelo aya "tiwoorerela" mutthu yoola onirumeela namuna yeela onnithoonya wi Hooye.
 about-yes-votes = ≥ Ivootu 2  Hooye
 about-yes-votes-text = Wiira okele munikhuruni wa itaatu sa Common Voice, ikilipi ya nsu enniphavela waavaliyariwa ni atthu ayili anamakhalela.
 about-no-votes = ≥ Ivooto 2  Nnaari
 about-dataset-new-text = Ekhurupu ya etaatu ya Common Voice erina imilyaare sa amoostara ya masu ankhaliherya  winnuwiha oteka ikaruma soosuwela wa nsu.
+about-clip-graveyard = Mahiye a ikiliipi
 about-get-involved = Mukeleke
 about-stay-in-touch = Manamuna xeeni vakhale aya ovanelana?
 about-stay-in-touch-button = Mwiilepihe
@@ -557,6 +564,7 @@ size = Owittivala
 validated-hr-total = Iwoora soohteene woomalela
 overall-hr-total = Iwoora soohteene
 cv-license = Elicensa
+audio-format = Nkhalelo wa mwiiwelo
 number-of-voices = Numuru na masu
 splits = Okawanyeya
 email-to-download = Mulaleerye emeeyili mmosa wiira yopaxaariwa
@@ -564,6 +572,7 @@ why-donate = Mwaha wa xeene okohaka?
 confirm-size = Moolikana wiira muupacerye ompaka tonlooti wa  <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Nyuwo munnikupali</b> muphavelaka woonaxaxa nipuro onikhumaawe mutthu yoola nnikhuruni na itaatu sa  Common Voice
 confirm-join-mailing-list = Kinipheela wiirela mpantta mulixitani wa ovaanyihana wa Kommom Voyise
 download-language = Opaaxari { $language }
 validated-hours = Iwoora woomalela
@@ -585,6 +594,7 @@ close = Owala
 download = Downloati
 sha256-checksum-copied = Otakaniha woowehaweha SHA256 yootakihiya!
 sha256-checksum-copied-error = Ovonya okathi otakiha wataniha manamunaa owehiwa a SHA256
+clipboard-not-supported = Nipuru ninrowaaya oveleeliwa khanirenre
 dataset-metadata-sex = Athiyana ni Alopwana
 
 ## Download Modal
@@ -616,6 +626,7 @@ other-language = Nttava ekina
 
 ## Request Language Pages
 
+request-language-heading = Mukohe mwaha wa nttaava nsya
 request-language-explanation-2 = Tho <strong> ninamwaahimeerya maxirenti ahu a mmuttettheni wiira nyuwo munniphavela wiira mpantta </strong>, wiira yuukhaliheryekeni wa ele munniphavelaanyu waka mihupi siniphavelaanyu osuwela.
 request-language-form-email =
     .label = Mihupi anyu wa email.
@@ -654,6 +665,11 @@ contribute = Muruuhe mwaakanyerelo anyu
 write = Mulepeke
 skip = Otupha
 shortcuts = Ataalyu
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> ikiliipi emosa
+       *[other] <bold>{ $count }</bold> ikiliipi
+    }
 goal-help-recording = Nyuwo moomukhaliherya Common Voice ophiyererya <goalPercentage></goalPercentage> mukotelo ahu wa nihiku wa { $goalValue } ikaravasawu!
 goal-help-validation = Nyuwo moomukhaliherya Common Voice ophiyererya <goalPercentage></goalPercentage> mukotelo ahu wa nihiku wa { $goalValue } myaakhulelo!
 contribute-more =
@@ -692,11 +708,13 @@ listen-abort-title = Okhomoni wa waakhulela ikiliipi?
 listen-abort-confirm = Okhomoni wa waakhulela
 speak-empty-state = Hiyo khinirina maalumo wiira nikaravari wa nttaava nla...
 record-button-label = Mulepe masu awinyu
+share-title-new = <bold>Munivarelele</bold>  mwaha wi nintthuna waaphwanya atthu okhalana masu ovirikana.
 keep-track-profile = Mutharihele mweettelo aanyu ni eperfili emosa
 login-to-get-started = Mukele wala mwiilepihe wiira mpacerye
 target-segment-first-card = Nyuwo munivira mukhaliheryaka muttharelelo woophaveleya woopacerya
 target-segment-generic-card = Nyuwo munivira mukhaliheryaka muttharelelo woophaveleya
 target-segment-first-banner = Mukhaliherye wiira epakiwe mmpantte opacerya  okweya wa Common Voice mwa  { $locale }
+target-segment-add-voice = Muhele nsu nanyu
 target-segment-learn-more = Musuwela tho
 
 ## Contribution Nav Items
@@ -767,14 +785,17 @@ show-ranking = Mooniherye ovara waka muteko
 get-started-goals = Opacerihiwa miphimo
 goal-type = Mmalelo xeeni nyuwo munitthunaayu ophiyererya?
 both-speak-and-listen = Ayili
+both-speak-and-listen-long = Hoothe  (olavula ni wiiwa)
 daily-goal = Emeta ya kata nihiku
 weekly-goal = Emeta ya esumana
 easy-difficulty = Yookhweya
 average-difficulty = Eriari
 difficult-difficulty = Orikarika
+lose-goal-progress-warning = Mwavukula meettelo ya ephiro mumphavelaanyu otthara, nyuwo munoovonya meettelo anyu.
 want-to-continue = Muniphavela otthikela?
 finish-editing = Okhomoni wa nlaka nopaacerya?
 lose-changes-warning = Mwakhuma niinaano, khamunlola soopittikuxiwa sanyu
+build-custom-goal = Opaka ephiro yooreera
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] Mukhalihe opwaanya { $hours } iwoora  { $language }  vamosa ni mphiimo mmosa wa omutthu awe
@@ -786,6 +807,7 @@ help-reach-hours-general-pluralized =
        *[other] Mmukhalihe Common Voice  wiira opwanyererye { $hours } iwoora mwe nttaava nimosa ni mphiimo omekhaawe
     }
 set-a-goal = Muleelihe mummalelaanyu
+cant-decide = Khamwiniisona saana?
 which-goal-type = Muniphavela wuluma, owiriyana wala sooteene?
 receiving-emails-info = Ekontha anyu eniphwanyaneya yoopakiweene wiira mwaakheleleke emails, sintoko myuupuxero sa mikotelo, mihupi sa mweettelo ni soohisuweliwa sa Common Voice
 not-receiving-emails-info = Nto niinaano va, ekontha anyu eniphwanyaneya yoopakiweene wa <bold> NNAKHALA </bold> waakhela emails, sintoko myuupuxero sa mikotelo, mihupi sa mweettelo anyu ni iwarakha sa soohimmwa sa nihiku wa Common Voice
@@ -907,6 +929,7 @@ contribution-misreadings-example-8-title = Nnonope noovira niwakuva
 contribution-misreadings-example-8-explanation = [Soolempha sookhala khisimpwanela]
 contribution-varying-pronunciations-title = Malavulelo oovirikana
 contribution-varying-pronunciations-example-1-title = Mmiravo owo aawara xapewu mosa.
+contribution-varying-pronunciations-example-1-explanation = [Malepo oopacerya annisomwa elapo ya OParasiili (mmiravo, exapeyu),  masi nave OPorutukaale malove yaala anisommwa(m´miravo,  ´xapeyu)]
 contribution-varying-pronunciations-example-2-title = Ntaata nanyu khaniveenye.
 contribution-varying-pronunciations-example-2-explanation = [‘Yawawo’  ni ekunya enromoliwa ntoko nlove nimosa, ohiya piili]
 contribution-background-noise-description-extended = Ankhi yookaravariwa ovonyeya wala wooniherya onyakula, mukootte, waahikhale wiira yoolempwa nlelo ekhanle yoowiwiwa oratteene.
@@ -914,11 +937,13 @@ contribution-background-noise-example-1-fixed-title = <strong>[okumiha iphumu]</
 contribution-background-noise-example-2-fixed-title = Matiinu <strong>[okothomola]</strong> oorekamasa a oTiriyaasiku.
 contribution-background-noise-example-2-explanation = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
 contribution-background-noise-example-3-fixed-title = <strong>[Estalo]</strong> tinosawuru oorakama <strong>[estalo]</strong> -mutakhwani.
+contribution-background-voices-title = Nsu noottayi
 contribution-background-voices-description-extended = Ankhi yookaravariwa ovonyeya wala wooniherya onyakula, mukootte, waahikhale wiira yoolempwa nlelo ekhanle yoowiwiwa oratteene.
 contribution-background-voices-example-1-title = Matinosawuru oorekamasa a oTiriyaasiku.  <strong>[yoosomwa ni nsu nimosa]</strong>
 contribution-volume-title = Evolume
 contribution-reader-effects-title = Soowoneya sa musomi
 contribution-just-unsure-title = Khamurina exariya?
+see-less = <chevron></chevron>Moone vakhaani
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1013,6 +1038,7 @@ sc-submit-prompt =
 sc-submit-title = Muhele malove
 sc-submit-select-language =
     .labelText = Muthanle nttava
+sc-submit-add-sentences = Muhela malove ookwanela  <wikipediaLink>oosuweliwa wala oolamaleliwa mmuttettheni</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Farase emosa khula munlano
 sc-submit-from-where = Moolumo awo anikhuma woowi <wikipediaLink> ti oosuweliwa ni atthu</wikipediaLink>?
@@ -1163,6 +1189,7 @@ localization-select =
 # PARTNERSHIPS PAGE
 partnerships-header = Wiraana
 partnerships-get-in-touch = Wuulume ni
+partnerships-become-a-partner = Mwiire mpantta wa nikhuru na Common Voice.
 partnerships-foundations-header = Epakaliwo
 partnerships-governments-header = maKuveerunu
 partnerships-academia-header = Universitaati, maakateemiku ni mapeskisatoore
@@ -1177,6 +1204,7 @@ why-donate = Mwaha wa xeene okohaka?
 add-information-button = Adicionar informações
 continue-speaking-button = Nnaari, kooxukhuru, otthikela olavulaka
 thanks-for-voice-toast = Kooxukhuru mwaha wa miteko sanyu sa nsu
+thanks-for-voice-toast-error = Yookhala etthu evonyen´ye okathi yaavelelihiwaaya ehapari ela ya nsu.
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Kooxukhuru mwaha wookhaliherya ni nsu nanyu!
 second-cta-subtitle-text = Ni eperifiili, nyuwo mummalela oveleelaka miteko sanyu ni wiira mpantta muhina mwa muttetthe wa anamakhaliherya akinaku a itaatu sa nsu.
@@ -1185,6 +1213,7 @@ img-alt-success-checkmark = Muttapunye othanla ni murettele
 guidelines-header-subtitle = Osuweleke mananna oowuncererya ni otthuniherya moolumo ni ikilipi sa aawutiyu wa nikhuru na itaatu sa Common Voice.
 voice-collection = Ottottela nsu
 offensive-content = Soolempha soruwana
+background-noise = Onyakula woottayi
 reader-effects = Soowoneya sa musomi
 just-unsure = Khamurina exariya?
 example = Moniheryo
@@ -1209,6 +1238,7 @@ background-noise-tip-2 = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
 background-voices-example-1 = Matinosawuru oorekamasa a oTiriyaasiku.  <strong>[yoosomwa ni nsu nimosa]</strong>
 still-have-questions = Nlelo ehaavo enooxankihani?
 public-domain = Sa osuwela vamayirhori
+citing-sentences = Ohimya malove ookwanela
 adding-sentences = Ovukula wa malove ookwanela.
 reviewing-sentences = Woonexexa
 public-domain-explanation-3 = Mupake  nyeenyu  meekhiinyu  moolumo  masya  ni  a  mivaanelo,  hoothe  ni  axirikha  anyu  nnakhala  mmuttettheni  mwa  malavuleelo,  ntoko  ntthoonyeryo,  murumeelaka  'ekwaha  yoolepa'
@@ -1257,13 +1287,16 @@ new-sentence-rule-6 = Ohikhala iletara sa ilapo sookhopela
 new-sentence-rule-7 = Muhelelemo soolavuliwa sookhalela
 new-sentence-rule-8 = Voreerela ve ephaattu  ni natural  ni vekekwhayi( vahaana vakhalaka vokweeya osoma muulumo)
 how-to-cite = Erumeeliwa sayi?
+how-to-cite-explanation-bold = Muthanle elinki ya nikhuru URL wala muhimye nsina noomalela na nikhuru nenla
 guidelines = Malamulo
 contact-us = Wuulume ni hiyo
 add-sentence-success = Malove emosa ookwanenela athanliwea
 add-sentence-error = Wovonyola okathi wowuncererya moolumo
 required-field = Mulepe nipuro nla.
 single-sentence-submission = Ovahererya wa nlove nimosa
+bulk-sentence-submission = Oveleeliha makhuru a malove  ookwanela
 single-sentence = Nlove nimosa
+bulk-sentences = Nikhuru na malove ookwanela
 
 ## REVIEW PAGE
 
@@ -1273,8 +1306,11 @@ sc-review-rules-title = Nikhuuru na moolumo a mittaala?
 sc-review-empty-state = Wa niinaano va, khaavo moolumo ooreerela owehaweha nttaava nla.
 report-sc-different-language = Nttava ovirikana
 report-sc-different-language-detail = Eri yoolempwa munttaavani noovirikana nihikhanle nla kinwehawehaka.
+sentences-fetch-error = Yookhala etthu evonyen´ye okathi waaphaveliwa oruuhiwa malove ookwanela.
+review-error = Yookhala etthu evonyen´ye okathi  loonaxaxiwaaya nlove nla nookwanela.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Niniira nipakaka mipittikuxo suulupale
+sc-redirect-page-subtitle-2 = Munikohe nkhalelo wa <matrixLink>Matiriixi</matrixLink>, <discourseLink>Tixikoorisi</discourseLink> wala <emailLink>email</emailLink>.
 
 ## BULK SUBMISSION 
 
@@ -1290,6 +1326,7 @@ maximum-file-size = Wuukumala wootepaxa sa mirupa: 25 MB
 what-needs-to-be-in-file = Ti exeeni kiniphavelaaka okhalana mukaaphiyakani mwaka?
 upload-progress-text = Ovahererya yeettaka...
 sc-bulk-submit-confirm = kinakhulela wiira makhhuru a mooluno animwiira mmpaatte wa  <wikipediaLink>osuwela wa anamunceene</wikipediaLink> ni kihaana mweemereryo wiira kiveleelihe.
+bulk-upload-success-toast = Makhuru a malove ookwanela aveleelihiwa
 bulk-upload-failed-toast = Ovonya wa ovahererya, mweererye vasya.
 bulk-submission-success-header = Kooxukhuru mwaha wookhaliherya oveleeliha mukhurupuni!
 bulk-submission-success-subheader = Nyuwo munnimukhaliherya Common Voice oophiyerya mikotelo sa moolumo a nihiku!
