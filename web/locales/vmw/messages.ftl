@@ -242,11 +242,13 @@ privacy = Ampuwasha
 terms = Ikettelo sahuos
 cookies = maKookie
 faq = Sohoka wa mutthu
+content-license-text = Nisomi linooniheriwa <licenseLink>Creative Commons</licenseLink>
 share-title = Munikhaliherye okumaana annamakhaliha a nsu!
 share-text = Mukhaliherye oxuuttiha maakina ntooko mutthu mmosa olavula, muvahaaka nsu nanyu mwa  { $link }
 link-copied = Link okopiyari
 back-top = Otthikela osuluu
 logout = Okhuma
+donate = Ohiyera
 
 ## Home Page
 
@@ -278,6 +280,11 @@ x-weeks-short =
         [one] { "" }
        *[other] { $count } isumana
     }
+x-months-short =
+    { $count ->
+        [one] mwere emosa
+       *[other] { $count }mwere
+    }
 x-years-short =
     { $count ->
         [one] { "" }
@@ -303,21 +310,38 @@ whats-public = Ti exeene ya atthu ootheene?
 email-not-public = Khanimpweha vamukaneya mihupi nanyu sa emeyili.
 recordings-and-locale-public = Numuru na ikaravasawu ni wamattaava ale onikelaawe okhaliherya anookela wooniheriwa vaatthuni.
 username-optin-public = Nyuwo pooti othanla ohiya nsina nanyu wiira nooniweke ni atthu wala ovitha.
+demographic-deidentified-clarity-2 = Watthuna, mitthaka sa atthu arumihiwa ( nthonyihero, iyaakha, emuxeeni, nttava ni mavulavulelo) enkhala yookumihiwa Emutthu ni mitthaka sa masu arumihiwe, ni khenrowa ohiiwa vamayithori wa atthu mularatoni mwaya
 username-email-not-demographic = Nsina nanyu ni e-mail khasinkela otakanxeriwa ni itaatu soowooniheriwa atthu.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = Oruma/Okwasula
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = Mukaravareke/weemela
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Mukaravike ekilipe
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Muhiye otakiherya ele eniira wettaka
+shortcut-submit = Otthika
 shortcut-submit-label = Orumihela ikilipes
 request-language-text = Nttaava nanyu nleelo nnakhala khaniiri muhina mwa Common Voice?
 request-language-button = Mukohe nttava
@@ -352,6 +376,8 @@ profile-form-accent =
 profile-form-custom-accent-help-text =
     .label = Manamuna xeexi mukhale anyo othalakasa malavulelo anyu?
 profile-form-custom-accent-placeholder-2 = Mpaceryeke olepa wiira musuwele enihimya anyu.
+profile-form-age =
+    .label = Iyaakha
 profile-form-gender-2 =
     .label = Athiyana ni Alopwana
 leaderboard-visibility =
@@ -360,6 +386,7 @@ hidden = Owipitha
 visible = Oowooneya
 native-language =
     .label = Nttava anyu
+profile-form-add-accent = Muhele malavulelo  yooreerela  esya "{ $inputValue }
 profile-form-submit-save = Opweha
 profile-form-submit-saved = Oheleliwa
 male = Mulopwana
@@ -380,6 +407,7 @@ why-demographic = Mwaha wa xeene ela eryaaya yooreerela?
 accept-privacy = Kinitthunela wiira ihapari iya sirumeeliwekw moota sinleliheriwaya <privacyLink>oPoliitika wa soohakanyeriwa</privacyLink> sa Mozilla.
 accept-privacy-title = Miyuupuwelo sa pirivasitate
 accept-privacy-and-terms = Kinikupaleela vamosa ni<termsLink>Ikettelo </termsLink> ni  <privacyLink>Ikasoopa sa wikhupaarela </privacyLink> wa Common Voice
+login-identity = Musuwanyero wa ovaha okela
 login = Mukeeleke
 login-signup = Mukele/ mwiilepihe
 edit = Murenceliha
@@ -389,6 +417,7 @@ contribution-experience = Nsuwelo wa namuna yoosuwela okhalihana
 skip-submission-feedback = Mwiixikhe soolavuliya sa nvahereryo
 skip-submission-note = Noota: Eriyari ya Olavula wala Wiiwa nyuwo mwarowanyu ninlelo othanla wii muvirikanyihe mukhalelo wa okhaliherya.
 off = Ottipiha
+on = Okumanela
 help-accent = Mumphavela okhaliheriwa ni malavulelo anyu?
 help-variants = Mumphavela okhaliheriwa ni malavulelo anyu?
 
@@ -396,6 +425,7 @@ help-variants = Mumphavela okhaliheriwa ni malavulelo anyu?
 
 browse-file-title = Nvaherere murupa sa elatharatu
 browse-file = Mwiire ompurula ni mutaphule, nnakhala  <browseWrap>muthanle</browseWrap>
+connect-gravatar = Mulikanihe ni Karavataari
 gravatar_not_found = Khaphwanyiwe Karavatari ya e-meyili anyu
 file_too_large = Murupa othanliwe ti wootepa wunnuwa.
 avatar-uploaded = Avatare orumihela
