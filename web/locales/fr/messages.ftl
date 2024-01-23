@@ -220,6 +220,7 @@ vec = Vénitien
 vi = Vietnamien
 vmw = Makua
 vot = Vote
+wep = Westphalien
 wo = Wolof
 xh = Xhosa
 yi = Yiddish
@@ -796,6 +797,9 @@ sha256-checksum-copied = Somme de contrôle SHA256 copiée !
 sha256-checksum-copied-error = Échec de la copie de la somme de contrôle SHA256
 clipboard-not-supported = Presse-papiers non pris en charge
 no-information-available = Aucune information disponible
+dataset-metadata-sex = Sexe
+# dataset metadata - age of contributor
+dataset-metadata-age = Âge
 
 ## Download Modal
 
