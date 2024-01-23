@@ -2,6 +2,8 @@ import { Localized } from '@fluent/react';
 import * as React from 'react';
 import { useState } from 'react';
 import { shallowEqual } from 'react-redux';
+import classNames from 'classnames';
+
 import { trackHome } from '../../../services/tracker';
 import { useTypedSelector } from '../../../stores/tree';
 import { ContributableLocaleLock } from '../../locale-helpers';
@@ -19,7 +21,7 @@ type HeroType = 'speak' | 'listen';
 export default function HomePage() {
   const heroes = ['speak', 'listen'];
 
-  const { locale } = useTypedSelector(
+  const { locale, user } = useTypedSelector(
     ({ locale, user }) => ({
       locale,
       user,
@@ -119,44 +121,48 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className="stats">
+      <div className={classNames('stats', { 'logged-in': user.account })}>
         <ClipsStats.Root />
         <VoiceStats />
       </div>
 
-      <section className="contribute-section">
-        <div className="mars-container">
-          <img src="/img/mars.svg" alt="Mars" />
-        </div>
-        <div className="cta">
-          <ContributableLocaleLock
-            render={({ isContributable }: { isContributable: boolean }) =>
-              isContributable ? (
-                <>
-                  <RecordLink onClick={() => trackHome('speak-mars', locale)} />
-                  <h1>
-                    <Localized id="ready-to-record" />
-                  </h1>
-                </>
-              ) : (
-                <>
-                  <h1>
-                    <Localized id="request-language-text" />
-                  </h1>
-                  <div style={{ width: '100%' }} />
-                  <Localized id="request-language-button">
-                    <LinkButton
-                      type="button"
-                      className="request-language"
-                      to={URLS.LANGUAGE_REQUEST}
+      {user.account && (
+        <section className="contribute-section">
+          <div className="mars-container">
+            <img src="/img/mars.svg" alt="Mars" />
+          </div>
+          <div className="cta">
+            <ContributableLocaleLock
+              render={({ isContributable }: { isContributable: boolean }) =>
+                isContributable ? (
+                  <>
+                    <RecordLink
+                      onClick={() => trackHome('speak-mars', locale)}
                     />
-                  </Localized>
-                </>
-              )
-            }
-          />
-        </div>
-      </section>
+                    <h1>
+                      <Localized id="ready-to-record" />
+                    </h1>
+                  </>
+                ) : (
+                  <>
+                    <h1>
+                      <Localized id="request-language-text" />
+                    </h1>
+                    <div style={{ width: '100%' }} />
+                    <Localized id="request-language-button">
+                      <LinkButton
+                        type="button"
+                        className="request-language"
+                        to={URLS.LANGUAGE_REQUEST}
+                      />
+                    </Localized>
+                  </>
+                )
+              }
+            />
+          </div>
+        </section>
+      )}
     </Page>
   );
 }
