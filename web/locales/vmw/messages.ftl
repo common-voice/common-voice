@@ -675,6 +675,8 @@ sha256-checksum-copied = Otakaniha woowehaweha SHA256 yootakihiya!
 sha256-checksum-copied-error = Ovonya okathi otakiha wataniha manamunaa owehiwa a SHA256
 clipboard-not-supported = Nipuru ninrowaaya oveleeliwa khanirenre
 dataset-metadata-sex = Athiyana ni Alopwana
+# dataset metadata - age of contributor
+dataset-metadata-age = Iyaakha
 
 ## Download Modal
 
@@ -688,6 +690,7 @@ download-no = Nnaari, kooxukhuru
 
 ## Contact Modal
 
+contact-title = Wuulume ni hiyo
 contact-form-name =
     .label = Nsina nyu
 contact-form-message =
@@ -696,6 +699,7 @@ contact-required = *ophaveleya
 
 ## Request Language Modal
 
+request-language-title = Ovekeliwa wa nttaava
 request-language-form-language =
     .label = Nttava
 request-language-success-title = Ovekeliwa wa nttaava sooroyihiwa ni murettele, kooxukhuru.
@@ -716,6 +720,8 @@ request-language-form-info-explanation-list-2 = <isoCodeLink>Ikootiku ISO</isoCo
 request-language-form-info-explanation-list-3 = Ilinkhi sa isayiti sikhanle onikhaliherya osuwela nttaava
 request-language-google-recaptcha-required = reCAPTCHA tiyophaveleya wakhala wii omphavela otthikela
 request-language-success-list-1 = Nyuwo munimwaakhela email niinaano eleeliherya mittharelelo sooheliwa nttaava nanyu muhina mwa Common Voice
+request-language-success-list-2 = Axitokwene ahu a muttetthe anrowa olavula ni nyuwo wii mwakhalihere, wala wahimeere wakhala wii wookhala muttetthe mmosa onvara muteko wa nttava naya
+request-language-success-list-3 = Mwiiraka oomwaavyaka ikaruma sa muthinto soosuwelatho awutomaatiku sa nsu, mookhala oolupanyeya ni mutthu mukina mmuttettheni, <discourseLink>moovanelani</discourseLink>
 
 ## Languages Overview
 
