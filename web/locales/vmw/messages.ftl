@@ -766,6 +766,7 @@ validations =
 your-languages = Mattaava anyu
 toward-next-goal = Ninrowa mukhiseryo oowaattamela.
 goal-reached = Emeta oophwanyaneya
+clips-you-recorded = Ikiliipi iye mukaravanraanyu
 todays-recorded-progress = Mweettelo wa olelo wa Common Voice mwa ikilipi sookaravariwa
 todays-validated-progress = Mweettelo wa olelo wa Common Voice mwa ikilipi soowaavaliyariwa.
 awards = Etthuvo
