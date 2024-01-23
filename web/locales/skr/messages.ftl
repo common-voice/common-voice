@@ -54,6 +54,7 @@ cak = کاکچیل
 ckb = مرکزی کُردی
 cnh = ہخا چن
 co = کارسیکائی
+crh = کرایمن ٹاٹر
 cs = چیک
 cv = كوئیش
 cy = ویلش
@@ -123,6 +124,7 @@ lo = لاؤ
 lt = لیتھونی
 ltg = لٹگالین
 lv = لاٹیوی
+lzz = لاز
 mai = مائتھیلی
 mdf = موکشا
 mg = مالاگاسی
@@ -171,6 +173,8 @@ sah = ساکھا
 sat = سنتالی(اول چِکی)
 sc = سردینی
 scn = سسلین
+sco = سکوٹس
+sd = سندھی
 sdh = جنوبی کُردی
 shi = شلہا
 si = سنہالی
@@ -802,6 +806,9 @@ dataset-version = ورشن
 sha256-checksum-copied = ایس ایچ اے 256 پڑتالی جمع نقل تھی ڳیا!
 sha256-checksum-copied-error = ایس ایچ اے 256 پڑتالی جمع نقل کرݨ وچ ناکامی تھئی۔
 clipboard-not-supported = کلپ بورڈ سہارا تھیا کائنی
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
 
 ## Download Modal
 
