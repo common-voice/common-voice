@@ -256,6 +256,16 @@ read-terms-q = Nyuwo moosoma ikettelo sahu?
 ready-to-record = Olikana wii muvahe masu awinyu?
 all-locales = Soothene
 today = Olelo
+x-weeks-short =
+    { $count ->
+        [one] { "" }
+       *[other] { $count } isumana
+    }
+x-years-short =
+    { $count ->
+        [one] { "" }
+       *[other] { $count } iyaakha
+    }
 help-make-dataset = Munikhaliherye oteeka nukhuuru nimosa na mihuupi sootepa oreera, sotaphuuwa variyari vanamunceene
 sign-up-account = Mulepihe ekontha emosa
 email-subscription-title = Mwiilepihe wiira mwaakhele ehapari mwimeelini
@@ -298,6 +308,7 @@ request-language-button = Mukohe nttava
 ## ProjectStatus
 
 status-title = Mukhalelo wotheene wa poroxetu: nwehe opwaha wahu!
+status-contribute = Muruuhe mwaakanyerelo wa nsu nanyu
 status-hours =
     { $hours ->
         [one] iwoora emosa  sirumeeleya mpaakha vaava!
@@ -357,6 +368,7 @@ login-signup = Mukele/ mwiilepihe
 edit = Murenceliha
 email-subscriptions = Eleepihiwa wa imeeyili
 download-profile = Opaxaari nikhuuru na mihuupi
+contribution-experience = Nsuwelo wa namuna yoosuwela okhalihana
 skip-submission-feedback = Mwiixikhe soolavuliya sa nvahereryo
 skip-submission-note = Noota: Eriyari ya Olavula wala Wiiwa nyuwo mwarowanyu ninlelo othanla wii muvirikanyihe mukhalelo wa okhaliherya.
 off = Ottipiha
@@ -431,6 +443,7 @@ about-voice-validation-subtitle = Atthu akina annemererya ikilipi iwo sa masu.
 about-dataset-release-title = Novonyerya nikhuuru na mihupi
 about-dataset-release-subtitle = Ninvonyera nikhuru ya itaatu khula mweeri 3(miraru)
 about-subscribe-text = Mumpheela okhala mulavulaka ni Common Voice?
+about-speak-text = Anamakhalihana annikaravari ikiliipi orumeelaka nsu noohivuwaxa arumeelaka makhuru a malove ookwanela
 about-listen-queue = Muthito wa wiiwela
 about-listen-queue-text = Ikilipi  nsu siniheleliwa mupholani wa ovahererya wiira ekhalane wooneya wiira wiiweyeke.
 about-listen = wiiwa
@@ -725,6 +738,7 @@ target-segment-learn-more = Musuwela tho
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Ottottela nsu
+contribute-sentence-collection-nav-header = Wuuraana wa malove
 
 ## Reporting
 
@@ -778,6 +792,7 @@ todays-validated-progress = Mweettelo wa olelo wa Common Voice mwa ikilipi soowa
 awards = Etthuvo
 you = Nyuwo
 everyone = Otheene
+contribution-activity = Muteko wooruuha mwaakanyerelo
 top-contributors = Makhaliheri mulupale
 recorded-clips = Ikilipi okaravariwa
 validated-clips = ikilipi weemererana
@@ -862,6 +877,7 @@ download-selected = Othanliwe
 download-start = Muupacerye ompaka tonlooti
 download-request = Muvekeke download
 download-requests = Sovekeliwa sa mahiku avinre sa okuruxiwa
+download-request-title = { $created }
 download-request-archive-single = Murupa ZIP mmosa okhalanne
 download-request-archive-multiple = Okawanya { $archiveCount } mmurupani mwa ZIP mukhanlene
 download-request-refresh-button = Ovusheriwa
@@ -914,6 +930,7 @@ demo-dashboard-card-header = Mukhalelo wa atthu sinnokhaliherani osuwela itthu n
 
 contribution-criteria-nav = Otthokiherya
 contribution-criteria-link = Osuweleke mittharihelo sa muncereriho.
+contribution-criteria-page-title = Iphiro sinithariwa wi mutthu aruuha mwaakanyerelo
 contribution-for-example = sintoko
 contribution-misreadings-title = Ovonya wa osoma
 contribution-misreadings-description = Wiiwaka, othokoceke wakhala wiira ele ekaravariwe ti ele elepiwe; okhottele yakhala wiira yoovonyeya vkhaani. <br/> Mivonyeyo sinceene sinoonaneya wa:
@@ -1057,6 +1074,7 @@ sc-submit-guidelines = Owehe saana  <howToLink>malamulo </howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Khawaakhwen´ye ohela ntaava
 sc-add-lang-sec-label = Muhele nttaava muntthunaanyu olavula
 # Variables:
 #   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
@@ -1081,6 +1099,17 @@ sc-add-lang-process-notice = Ankhi nttaava nanyu nahaalepinwe va, nyuwo mookhala
 
 sc-confirm-are-you-sure =
     .message = Moolumo oohivahereriya, muhaana ehaakhi wira mumphela okhuma?
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] { "" }
+        [one] { "" }
+       *[other] { $countOfSentences } malove ookwenela aaphwanyiwa
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } ekhottiwe ni nyuwo
 # Variables:
 #   $readyCount (Number) - Number of sentences ready to be uploaded
 sc-confirm-ready =
@@ -1145,6 +1174,8 @@ sc-login-err-try-again = Mweererye vasya.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Elatarato: { $username }
+sc-personal-err-lang-not-found = Khawakhwen´ye okumiha nttaava
+sc-personal-err-remove = Khawakhwen´ye okumiha nttaava: nttaava khanaaphwanyiwe
 sc-personal-your-languages = Mattaava anyu:
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
@@ -1215,8 +1246,11 @@ thanks-for-voice-toast-error = Yookhala etthu evonyen´ye okathi yaavelelihiwaay
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Kooxukhuru mwaha wookhaliherya ni nsu nanyu!
 second-cta-subtitle-text = Ni eperifiili, nyuwo mummalela oveleelaka miteko sanyu ni wiira mpantta muhina mwa muttetthe wa anamakhaliherya akinaku a itaatu sa nsu.
+create-profile-button = Mupake eperefili
 # IMAGE TAGS
 img-alt-success-checkmark = Muttapunye othanla ni murettele
+# GUIDELINES PAGE
+guidelines-header = Iphiro sookhalihana
 guidelines-header-subtitle = Osuweleke mananna oowuncererya ni otthuniherya moolumo ni ikilipi sa aawutiyu wa nikhuru na itaatu sa Common Voice.
 voice-collection = Ottottela nsu
 offensive-content = Soolempha soruwana
@@ -1240,6 +1274,7 @@ misreadings-tip-3 = [Soolempha sookhala khisimpwanela]
 background-noise-example-1 = Matinosawuru oorekamasa a oTiriyaasiku
 background-noise-example-2 = [okumiha iphumu] Matinosawuru oorekamasa ya [okothomola] Tiriyaasiku.
 background-noise-example-3 = Matiinu [tosse] oorekamasa a oTiriyaasiku.
+background-noise-example-4 = [ophutuwa] matinosaawuru aalupale [ophutuwa] -okathi wa khalayi.
 background-noise-tip-1 = [othikiliwa mwaha wa onyakula wa muhina]
 background-noise-tip-2 = [Nipuro nimosa na texito khanikhanle noowiriyaniwa]
 background-voices-example-1 = Matinosawuru oorekamasa a oTiriyaasiku.  <strong>[yoosomwa ni nsu nimosa]</strong>
