@@ -791,6 +791,9 @@ dataset-version = Έκδοση
 sha256-checksum-copied = Το SHA256 Checksum αντιγράφηκε!
 sha256-checksum-copied-error = Αποτυχία αντιγραφής του SHA256 Checksum
 clipboard-not-supported = Το πρόχειρο δεν υποστηρίζεται
+dataset-metadata-sex = Φύλο
+# dataset metadata - age of contributor
+dataset-metadata-age = Ηλικία
 
 ## Download Modal
 
