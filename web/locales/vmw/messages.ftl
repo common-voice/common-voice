@@ -233,6 +233,7 @@ logout = Okhuma
 
 ## Home Page
 
+home-title = Nikhuru wala eporoxeetu Common Voice yuupuweleliwe ni nikhuru na Mozilla wi yaaxuttihe atthu atthu yaathoonyiheryaka  namuna anilavulaaya
 default-tagline = Mozilla Common Voice ti yoopaceriwa wiira ekhaliherye wiixuttiha ikaruma ni atthu eekeekhayi olavula.
 home-cta = Muvahe nsu nanyu!
 show-wall-of-text = Musuwela tho
@@ -462,6 +463,7 @@ about-playbook-what-is-language = Ti exeeni nttaava muhina mwa Common Voice?
 about-playbook-how-add-language = Manamuna xeeni nikhale anincereriwa aya nnttaava?
 about-playbook-how-add-language-translating-heading = Mutaphulelo waesayiti.
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> woone muttharelelo ahu a mananna a orumeela ePontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Okusanyerya malove ookwenela
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Muwehe ekhiya ahu mwamuthanlo a malove</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Muwehe tho sooweha sa malove</sentenceCollectorFragment>.
 
@@ -538,6 +540,7 @@ data-other-title = Mixovo mikina sa mitthaka sa masu...
 data-other-goto = Oroowa wiira { $name }
 data-other-download = Opaxaari nikhuuru na mihuupi
 data-bundle-button = Mukuruuxe epakooti ya nikhuuru na mihuupi
+data-bundle-description = Itaatu sa nikhuru na Common Voice ni makhuru makinaaku a itaatu aniphwanyaneya osulu.
 release-version = Everesawu
 dataset-date = Nihiku
 license = Elisensa: <licenseLink>{ $license }</licenseLink>
@@ -705,8 +708,10 @@ listen-instruction = { $actionType } <playIcon></playIcon> Molove ookwanela  ahu
 listen-3rd-time-instruction = 2 soomalela<playIcon></playIcon>, mutthikele siiso!
 listen-last-time-instruction = <playIcon></playIcon> Okiserya!
 listen-abort-title = Okhomoni wa waakhulela ikiliipi?
+listen-abort-cancel = Mutthikele okhupali
 listen-abort-confirm = Okhomoni wa waakhulela
 speak-empty-state = Hiyo khinirina maalumo wiira nikaravari wa nttaava nla...
+speak-empty-state-cta = Muruuhe mwaakanyerelo anyu wa malove ookwanela
 record-button-label = Mulepe masu awinyu
 share-title-new = <bold>Munivarelele</bold>  mwaha wi nintthuna waaphwanya atthu okhalana masu ovirikana.
 keep-track-profile = Mutharihele mweettelo aanyu ni eperfili emosa
@@ -767,6 +772,7 @@ your-languages = Mattaava anyu
 toward-next-goal = Ninrowa mukhiseryo oowaattamela.
 goal-reached = Emeta oophwanyaneya
 clips-you-recorded = Ikiliipi iye mukaravanraanyu
+clips-you-validated = Ikiliipi iye mukupanlaanyu
 todays-recorded-progress = Mweettelo wa olelo wa Common Voice mwa ikilipi sookaravariwa
 todays-validated-progress = Mweettelo wa olelo wa Common Voice mwa ikilipi soowaavaliyariwa.
 awards = Etthuvo
