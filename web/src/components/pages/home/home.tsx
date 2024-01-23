@@ -6,7 +6,6 @@ import { trackHome } from '../../../services/tracker';
 import { useTypedSelector } from '../../../stores/tree';
 import { ContributableLocaleLock } from '../../locale-helpers';
 import { RecordLink } from '../../primary-buttons/primary-buttons';
-import RegisterSection from '../../register-section/register-section';
 import { LinkButton } from '../../ui/ui';
 import Page from '../../ui/page';
 import Hero from './hero';
@@ -20,7 +19,7 @@ type HeroType = 'speak' | 'listen';
 export default function HomePage() {
   const heroes = ['speak', 'listen'];
 
-  const { locale, user } = useTypedSelector(
+  const { locale } = useTypedSelector(
     ({ locale, user }) => ({
       locale,
       user,
@@ -74,7 +73,6 @@ export default function HomePage() {
           )
         }
       />
-
       <div className="text">
         <div className="inner">
           <div className="title">
@@ -121,65 +119,44 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-
       <div className="stats">
         <ClipsStats.Root />
         <VoiceStats />
       </div>
 
-      {user.account ? (
-        <section className="contribute-section">
-          <div className="mars-container">
-            <img src="/img/mars.svg" alt="Mars" />
-          </div>
-          <div className="cta">
-            <ContributableLocaleLock
-              render={({ isContributable }: { isContributable: boolean }) =>
-                isContributable ? (
-                  <>
-                    <RecordLink
-                      onClick={() => trackHome('speak-mars', locale)}
+      <section className="contribute-section">
+        <div className="mars-container">
+          <img src="/img/mars.svg" alt="Mars" />
+        </div>
+        <div className="cta">
+          <ContributableLocaleLock
+            render={({ isContributable }: { isContributable: boolean }) =>
+              isContributable ? (
+                <>
+                  <RecordLink onClick={() => trackHome('speak-mars', locale)} />
+                  <h1>
+                    <Localized id="ready-to-record" />
+                  </h1>
+                </>
+              ) : (
+                <>
+                  <h1>
+                    <Localized id="request-language-text" />
+                  </h1>
+                  <div style={{ width: '100%' }} />
+                  <Localized id="request-language-button">
+                    <LinkButton
+                      type="button"
+                      className="request-language"
+                      to={URLS.LANGUAGE_REQUEST}
                     />
-                    <h1>
-                      <Localized id="ready-to-record" />
-                    </h1>
-                  </>
-                ) : (
-                  <>
-                    <h1>
-                      <Localized id="request-language-text" />
-                    </h1>
-                    <div style={{ width: '100%' }} />
-                    <Localized id="request-language-button">
-                      <LinkButton
-                        type="button"
-                        className="request-language"
-                        to={URLS.LANGUAGE_REQUEST}
-                      />
-                    </Localized>
-                  </>
-                )
-              }
-            />
-          </div>
-        </section>
-      ) : (
-        <RegisterSection marsSrc="/img/mars.svg">
-          <h1>
-            <Localized id="help-make-dataset" />
-          </h1>
-          <h2>
-            <Localized id="profile-not-required" />
-          </h2>
-          <Localized id="sign-up-account">
-            <LinkButton
-              rounded
-              href="/login"
-              onClick={() => trackHome('click-benefits-register', locale)}
-            />
-          </Localized>
-        </RegisterSection>
-      )}
+                  </Localized>
+                </>
+              )
+            }
+          />
+        </div>
+      </section>
     </Page>
   );
 }
