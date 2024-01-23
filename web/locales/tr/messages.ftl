@@ -785,6 +785,10 @@ dataset-version = Sürüm
 sha256-checksum-copied = SHA256 sağlama toplamı kopyalandı.
 sha256-checksum-copied-error = SHA256 sağlama toplamı kopyalanamadı
 clipboard-not-supported = Pano desteklenmiyor
+no-information-available = Bilgi yok
+dataset-metadata-sex = Cinsiyet
+# dataset metadata - age of contributor
+dataset-metadata-age = Yaş
 
 ## Download Modal
 
