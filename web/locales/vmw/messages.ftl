@@ -582,6 +582,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Ihapari  since
 glossary = eKolosaryo
 localization = Muthanle nttaava
 localization-explanation = Ola muteko ahu a mutaphulelo ni mutthakaseryo wa soolepa sahu wa mikano sinceene (mattaava).
+sentence-collection = Wuuraana wa malove
 sentence-collection-explanation = Akusanyeriwaka malove ookwenela yaala oosuwelexiwa ni atthu a mmuttettheni, wala olepa malowe yaala ookwanela masya wi atthu asuwele
 hours-recorded-explanation = Mwaalakelo wa iwoora sa ekaravasawu ya nsu nittottenla ahu mpakha va.
 hours-validated-explanation = Mwaalakelo wa iwoora sa ekaravasawu ya nsu nittottenla ahu mpakha va
@@ -1308,6 +1309,7 @@ sc-review-link = Otthikrla woona
 
 ## SETTINGS
 
+sc-settings-title = Ikonfikurasawu
 sc-settings-ui-language = Nttaava na muwehanano owiitho olupanyaka
 sc-settings-reset-skipped = Muhimeerye  malove sihimpheeliya
 sc-settings-show-all-button = Mooniherye tho malove otheene ookhottiya
@@ -1350,8 +1352,13 @@ img-alt-success-checkmark = Muttapunye othanla ni murettele
 guidelines-header = Iphiro sookhalihana
 guidelines-header-subtitle = Osuweleke mananna oowuncererya ni otthuniherya moolumo ni ikilipi sa aawutiyu wa nikhuru na itaatu sa Common Voice.
 voice-collection = Ottottela nsu
+sentence-collection = Wuuraana wa malove
+varying-pronunciations = Malavulelo oovirikana
+misreadings = Ovonya wa osoma
 offensive-content = Soolempha soruwana
 background-noise = Onyakula woottayi
+background-voices = Nsu noottayi
+volume = Evolume
 reader-effects = Soowoneya sa musomi
 just-unsure = Khamurina exariya?
 example = Moniheryo
@@ -1402,6 +1409,7 @@ adding-sentences-subheader-numbers = Numuru
 adding-sentences-subheader-numbers-explanation = Manumuru
 adding-sentences-subheader-punctuation = Pontuwasawu
 adding-sentences-subheader-special-characters = Mukhalelo woovirikana ni  nlepo na elapo ekina
+adding-sentences-subheader-offensive-content = Soolempha soruwana
 reviewing-sentences-explanation-1 = Ankhi nlamulo otthunela mithinto soovarela osulu, mutthitte vaputawuni "Aayo".
 reviewing-sentences-explanation-2 = Ankhi nlamulo ohitthunela mithinto soovarela osulu, mutthitte vaputawuni "Nnaari"
 reviewing-sentences-explanation-3 = Ankhi mwaahikhalane exariya wa nlamulo, nyuwo navetho mookhala ohipeela ni ootupha murowelaka ekina.
