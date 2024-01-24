@@ -54,6 +54,7 @@ cak = Kaqchikel ñe’ẽ
 ckb = Kurdisch Mbytegua ñe’ẽ
 cnh = Hakha Chin ñe’ẽ
 co = Corsica ñe’ẽ
+crh = Tártaro Crimea-gua
 cs = Czech ñe’ẽ
 cv = Chuvash ñe’ẽ
 cy = Welsh ñe’ẽ
