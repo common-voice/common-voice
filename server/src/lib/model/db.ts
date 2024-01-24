@@ -512,7 +512,10 @@ export default class DB {
       })
     );
 
-    if (validClips.size > count) return Array.from(validClips);
+    if (validClips.size > count) {
+      Sentry.captureMessage(`Returning ${validClips.size} valid clips from cache for locale id ${locale_id}`, Sentry.Severity.Info)
+      return Array.from(validClips);
+    }
 
     const [clips] = await this.mysql.query(
       `
@@ -553,6 +556,7 @@ export default class DB {
       ]
     );
 
+    Sentry.captureMessage(`Returning ${clips.length} clips with few votes for locale id ${locale_id}`, Sentry.Severity.Info)
     return clips as DBClip[];
   }
 
