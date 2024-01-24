@@ -54,6 +54,7 @@ cak = Κακτσικέλ
 ckb = Κεντρικά Κουρδικά
 cnh = Χάκχα Τσιν
 co = Κορσικά
+crh = Ταταρικά Κριμαίας
 cs = Τσέχικα
 cv = Τσουβασικά
 cy = Ουαλικά
@@ -791,6 +792,7 @@ dataset-version = Έκδοση
 sha256-checksum-copied = Το SHA256 Checksum αντιγράφηκε!
 sha256-checksum-copied-error = Αποτυχία αντιγραφής του SHA256 Checksum
 clipboard-not-supported = Το πρόχειρο δεν υποστηρίζεται
+no-information-available = Δεν υπάρχουν διαθέσιμες πληροφορίες
 dataset-metadata-sex = Φύλο
 # dataset metadata - age of contributor
 dataset-metadata-age = Ηλικία
