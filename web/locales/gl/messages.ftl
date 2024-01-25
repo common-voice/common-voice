@@ -789,6 +789,9 @@ dataset-version = Versión
 sha256-checksum-copied = Copiouse a suma de verificación SHA256.
 sha256-checksum-copied-error = Produciuse un erro ao copiar a suma de verificación SHA256
 clipboard-not-supported = O portapapeis non é compatible
+dataset-metadata-sex = Xénero
+# dataset metadata - age of contributor
+dataset-metadata-age = Idade
 
 ## Download Modal
 
