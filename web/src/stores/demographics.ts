@@ -287,9 +287,13 @@ export const AGES = {
   nineties: '> 89',
 };
 
+// TODO: add types for gender
 export const GENDERS = {
   '': '',
-  male: 'Male',
-  female: 'Female',
-  other: 'Other',
+  male_masculine: 'Male/Masculine',
+  female_feminine: 'Female/Feminine',
+  intersex: 'Intersex',
+  transgender: 'Transgender',
+  'non-binary': 'Non-binary',
+  do_not_wish_to_say: "Don't wish to say",
 };
