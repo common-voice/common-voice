@@ -2,6 +2,8 @@ import { AddingSentences } from './sidebar-content/sentence-collection/adding-se
 import { CitingSentences } from './sidebar-content/sentence-collection/citing-sentences';
 import { PublicDomain } from './sidebar-content/sentence-collection/public-domain';
 import { ReviewingSentences } from './sidebar-content/sentence-collection/reviewing-sentences';
+import { Domain } from './sidebar-content/sentence-collection/domain';
+
 import { BackgoundNoise } from './sidebar-content/voice-collection/background-noise';
 import { BackgoundVoices } from './sidebar-content/voice-collection/background-voices';
 import { Effects } from './sidebar-content/voice-collection/effects';
@@ -10,6 +12,8 @@ import { OffensiveContent } from './sidebar-content/voice-collection/offensive-c
 import { Unsure } from './sidebar-content/voice-collection/unsure';
 import { VaryingPronounciation } from './sidebar-content/voice-collection/varying-pronunciations';
 import { Volume } from './sidebar-content/voice-collection/volume';
+
+import { GuidelinesSection } from './types';
 
 export const VOICE_NAV_IDS: Record<string, string> = {
   PRONUNCIATIONS: 'varying-pronunciations',
@@ -27,9 +31,10 @@ export const SENTENCE_NAV_IDS: Record<string, string> = {
   CITING_SENTENCES: 'citing-sentences',
   ADDING_SENTENCES: 'adding-sentences',
   REVIEWING_SENTENCES: 'reviewing-sentences',
+  DOMAIN: 'domain',
 };
 
-export const voiceGuidelinesSections = [
+export const voiceGuidelinesSections: GuidelinesSection[] = [
   {
     id: VOICE_NAV_IDS.PRONUNCIATIONS,
     component: VaryingPronounciation,
@@ -72,7 +77,7 @@ export const voiceGuidelinesSections = [
   },
 ];
 
-export const sentenceGuidelineSections = [
+export const sentenceGuidelineSections: GuidelinesSection[] = [
   {
     id: SENTENCE_NAV_IDS.PUBLIC_DOMAIN,
     component: PublicDomain,
@@ -91,6 +96,11 @@ export const sentenceGuidelineSections = [
   {
     id: SENTENCE_NAV_IDS.REVIEWING_SENTENCES,
     component: ReviewingSentences,
+    visible: true,
+  },
+  {
+    id: SENTENCE_NAV_IDS.DOMAIN,
+    component: Domain,
     visible: true,
   },
 ];
