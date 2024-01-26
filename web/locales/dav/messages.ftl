@@ -17,6 +17,8 @@ not-available-abbreviation = Mbai
 banner-error-slow-1 = Difuyenyi w'ughoma, Common Voice yaw,iaenda mboa. Chaw'ucha kwa kucha aha.
 banner-error-slow-2 = Daw'iachelwa ni trafiki mbaa na deko dilolagha shekeria niki.
 banner-error-slow-link = Ni W'ada
+error-something-went-wrong = Ai, kilambo chimu chaenda kisaya
+error-clip-upload = Ichi klipu chaw'ialema kujoka, dichurie kutima?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
