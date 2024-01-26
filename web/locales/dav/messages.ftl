@@ -27,6 +27,14 @@ error-clip-upload-server = Kujosa ichi klipu kwaw'iakwama aja nalughu savenyi. R
 
 ## Languages
 
+ab = Kiabkhaz
+ace = Kiacehnese
+ady = Kiadyghe
+af = Kikaburu
+am = Kiamhara
+an = Kiaragona
+ar = Kiarabu
+arn = Kimapudungu
 
 # [/]
 
