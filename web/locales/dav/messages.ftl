@@ -16,9 +16,10 @@ indicates-required = Andu ukokose kuw'ikirilo nyeri nyeri (*), icho chilombwagha
 not-available-abbreviation = Mbai
 banner-error-slow-1 = Difuyenyi w'ughoma, Common Voice yaw,iaenda mboa. Chaw'ucha kwa kucha aha.
 banner-error-slow-2 = Daw'iachelwa ni trafiki mbaa na deko dilolagha shekeria niki.
-banner-error-slow-link = Ni W'ada
+banner-error-slow-link = Peji Emanyisha Ni W'ada
 error-something-went-wrong = Ai, kilambo chimu chaenda kisaya
 error-clip-upload = Ichi klipu chaw'ialema kujoka, dichurie kutima?
+error-clip-upload-server = Kujosa ichi klipu kwaw'iakwama aja nalughu savenyi. Rughua peji w'uw'ishi angu kaia kaia nao kutime sena.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
