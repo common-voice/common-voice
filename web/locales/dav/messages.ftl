@@ -51,9 +51,12 @@ bxr = Kiburyati
 byv = Kimedumba
 ca = Kikatalani
 cak = Kikakichikeli
-ckb = Kikurdi ghadi
+ckb = Kikurdi cha ghadi
 cnh = Kihakha Chini
 co = Kikorisiki
+crh = Kitata cha Krimia
+cs = Kicheki
+cv = Kichuvashi
 
 # [/]
 
