@@ -11,7 +11,9 @@ loading = Yaw'iacha...
 email-opt-in-info = Nakunde nipateghe imeili renikumbusira malengo ghapo, maendeleo ghapo na habari ra Common Voice.
 email-opt-in-info-title = Ngia kukaie umu wa aw'a w'idumilwagha barua ngelo kwa ngelo ni Common Voice.
 email-opt-in-info-sub-with-challenge = Pata imeili sa reksukuma na kukumbusira lengo rako, maendeleo ghako, na habari ra Common Voice.
-email-opt-in-privacy-v2 = Kwa kusaghua kupara imeili kwaw'iaghora kwarumiria Mozilla iw'wadie agha malagho seji ielezero andenyi ya <privacyLink>Kielelezo cha Kulindilwa kwa Malagho gha Kiviso</privacyLink> cha Mozilla.
+email-opt-in-privacy-v2 = Kwa kusaghua kupata imeili, kwaaghora kwarumiria Mozilla iw'ike malagho ghako seji ieleshero andenyi ya <privacyLink>Maandiko gha Malagho gha Kiviso</privacyLink> gha Mozilla.
+indicates-required = Andu ukokose kuw'ikirilo nyeri nyeri (*), icho chilombwagha aho chekundika.
+not-available-abbreviation = Mbai
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
