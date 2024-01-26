@@ -14,6 +14,9 @@ email-opt-in-info-sub-with-challenge = Pata imeili sa reksukuma na kukumbusira l
 email-opt-in-privacy-v2 = Kwa kusaghua kupata imeili, kwaaghora kwarumiria Mozilla iw'ike malagho ghako seji ieleshero andenyi ya <privacyLink>Maandiko gha Malagho gha Kiviso</privacyLink> gha Mozilla.
 indicates-required = Andu ukokose kuw'ikirilo nyeri nyeri (*), icho chilombwagha aho chekundika.
 not-available-abbreviation = Mbai
+banner-error-slow-1 = Difuyenyi w'ughoma, Common Voice yaw,iaenda mboa. Chaw'ucha kwa kucha aha.
+banner-error-slow-2 = Daw'iachelwa ni trafiki mbaa na deko dilolagha shekeria niki.
+banner-error-slow-link = Ni W'ada
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
