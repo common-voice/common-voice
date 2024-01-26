@@ -8,6 +8,9 @@ email-input =
     .label = Imeili
 submit-form-action = Ghenja
 loading = Yaw'iacha...
+email-opt-in-info = Nakunde nipateghe imeili renikumbusira malengo ghapo, maendeleo ghapo na habari ra Common Voice.
+email-opt-in-info-title = Ngia kukaie umu wa aw'a w'idumilwagha barua ngelo kwa ngelo ni Common Voice.
+email-opt-in-info-sub-with-challenge = Pata imeili sa reksukuma na kukumbusira lengo rako, maendeleo ghako, na habari ra Common Voice.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
