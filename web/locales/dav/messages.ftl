@@ -35,6 +35,25 @@ am = Kiamhara
 an = Kiaragona
 ar = Kiarabu
 arn = Kimapudungu
+as = Kiasamiya
+ast = Kiaustria
+az = Kiazabaijani
+ba = Kibashkiri
+bas = Kibasaa
+be = Kibelarusi
+bg = Kibulgari
+bm = Kibambara
+bn = Kibengali
+bo = Kitibeti
+br = Kibreti
+bs = Kibosnia
+bxr = Kiburyati
+byv = Kimedumba
+ca = Kikatalani
+cak = Kikakichikeli
+ckb = Kikurdi ghadi
+cnh = Kihakha Chini
+co = Kikorisiki
 
 # [/]
 
