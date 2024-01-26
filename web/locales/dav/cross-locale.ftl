@@ -12,5 +12,5 @@ get-involved-submit = Ghenja
 get-involved-stayintouch = Isi aha Mozilla daw'uyaagha w'umweri ghwa wandu w'iko na bea ya teknoloji ya madedo. Dakunde dikaie kikiwasiliana na w'andu eri diw'imanyishe ilagho jingi iw'ishi, angu andu kungi kuw'ishi kuw'onikie kopatira data, na dakunde disikireghe seji mwaw'uyatumia ihi data.
 get-involved-privacy-info = Dakuhakikishira dilindiagha malagho ghako nicha. Shoma zaidi andenyi ya <privacyLink>Malagho Gha Kiviso</privacyLink>.
 get-involved-success-title = Kwafaulu kungia kibughi chechangia { $language }. Saw'ucha.
-get-involved-success-text = Dmanyishagha w'andu iji malagho ghangi maw'ishi ghafumirika.
+get-involved-success-text = Dimanyishagha w'andu iji malagho ghangi maw'ishi ghafumirika.
 get-involved-return-to-languages = W'uya kwa Viteto
