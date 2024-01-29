@@ -1,4 +1,5 @@
 import { AllowedSchema } from 'express-json-validator-middleware'
+import { sentenceDomains } from 'common'
 
 export const AddSentenceRequest: AllowedSchema = {
   type: 'object',
@@ -16,6 +17,10 @@ export const AddSentenceRequest: AllowedSchema = {
     },
     localeName: {
       type: 'string',
+    },
+    domain: {
+      type: 'string',
+      enum: [...sentenceDomains],
     },
   },
 }
