@@ -54,6 +54,7 @@ cak = Kaqchikel
 ckb = Kurdo central
 cnh = Hakha Chin
 co = Corso
+crh = tatar crimean
 cs = Checo
 cv = Chuvasio
 cy = Gallese
@@ -171,6 +172,8 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Siciliano
+sco = scotese
+sd = sindhi
 sdh = Kurdo meridional
 shi = Shilha
 si = Sinhala
@@ -785,6 +788,10 @@ dataset-version = Version
 sha256-checksum-copied = Summa de controlo SHA256 copiate!
 sha256-checksum-copied-error = Impossibile copiar le summa de controlo SHA256
 clipboard-not-supported = Area de transferentia non supportate
+no-information-available = Nulle information disponibile
+dataset-metadata-sex = Genere
+# dataset metadata - age of contributor
+dataset-metadata-age = Etate
 
 ## Download Modal
 
