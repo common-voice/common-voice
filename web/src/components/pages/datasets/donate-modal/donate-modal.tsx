@@ -1,9 +1,9 @@
-import React from 'react'
+import * as React from 'react'
 
 import Modal from '../../../modal/modal'
+import DonateButton from '../../../donate-button/donate-button'
 
 import './donate-modal.css'
-import DonateButton from '../../../donate-button/donate-button'
 
 export const DonateModal = () => (
   <Modal testId="donate" innerClassName="donate-modal">

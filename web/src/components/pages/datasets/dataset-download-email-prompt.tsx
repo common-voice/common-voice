@@ -12,9 +12,9 @@ import useCopyToClipboard from '../../../hooks/use-copy-to-clipboard';
 import { CloudIcon } from '../../ui/icons';
 import { Button, LabeledCheckbox, LabeledInput, LinkButton } from '../../ui/ui';
 import DonateButton from '../../donate-button/donate-button';
+import { DonateModal } from './donate-modal/donate-modal';
 
 import './dataset-download-email-prompt.css';
-import { DonateModal } from './donate-modal/donate-modal';
 
 interface DownloadFormProps extends WithLocalizationProps {
   downloadPath: string;
@@ -200,7 +200,7 @@ const DatasetDownloadEmailPrompt = ({
             <div>
               <LinkButton
                 role="button"
-                // href={canDownloadFile ? downloadLink : null}
+                href={canDownloadFile ? downloadLink : null}
                 onClick={saveHasDownloaded}
                 rounded
                 blank
