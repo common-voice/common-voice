@@ -1,3 +1,7 @@
+body.ReactModal__Body--open {
+    overflow: hidden;
+}
+
 .ReactModal__Overlay {
     background: rgba(57, 58, 63, 0.85) !important;
 }
@@ -7,6 +11,14 @@
     background: none;
     max-width: 60rem;
     margin-top: 14.5rem;
+
+    & .close {
+        right: 0;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background: var(--light-grey);
+    }
 
     & .container {
         display: flex;

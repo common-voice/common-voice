@@ -120,6 +120,10 @@ const DatasetDownloadEmailPrompt = ({
     }));
   };
 
+  const handleCloseDonateModal = () => {
+    setShowDonateModal(false);
+  };
+
   useEffect(() => {
     updateLink().then(downloadLink => {
       setFormState(prevState => ({
@@ -139,7 +143,9 @@ const DatasetDownloadEmailPrompt = ({
 
   return (
     <div className={datasetDownloadPromptClassName}>
-      {showDonateModal && <DonateModal />}
+      {showDonateModal && (
+        <DonateModal onCloseDonateModal={handleCloseDonateModal} />
+      )}
       {hideEmailForm ? (
         <>
           <Button className="email-button" rounded onClick={showEmailForm}>
