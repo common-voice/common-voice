@@ -54,6 +54,7 @@ cak = Kakshikel
 ckb = Kurde Qendrore
 cnh = Haka Çin
 co = Korse
+crh = Tatare Krimease
 cs = Çekisht
 cv = Çuvashe
 cy = Uells
@@ -79,6 +80,7 @@ ga-IE = Irlandisht
 gl = Galiciane
 gn = Guaraneze
 gom = Goan Konkani
+gu-IN = Gujaratase
 ha = Hausa
 he = Hebraisht
 hi = Indiane
@@ -189,9 +191,11 @@ ug = Ujgur
 uk = Ukrainase
 ur = Urdu
 uz = Uzbeke
+ve = Tshivenda
 vec = Venetishte
 vi = Vietnamisht
 vot = Votik
+wo = Uolofe
 xh = Xhosa
 yi = Jidish
 yo = Joruba
@@ -763,6 +767,10 @@ dataset-version = Version
 sha256-checksum-copied = Checksum-i  SHA256 u Kopjua!
 sha256-checksum-copied-error = S’u arrit të kopjohej Checksum-i SHA256
 clipboard-not-supported = Nuk mbulohet e papastra
+no-information-available = S’ka informacion
+dataset-metadata-sex = Gjini
+# dataset metadata - age of contributor
+dataset-metadata-age = Moshë
 
 ## Download Modal
 
