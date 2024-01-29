@@ -748,6 +748,7 @@ validated-hr-total = Tổng số giờ đã xác nhận
 overall-hr-total = Tổng số giờ
 cv-license = Giấy phép
 audio-format = Định dạng âm thanh
+dataset-splits = Chia tách (tuổi và giới tính)
 number-of-voices = Số lượng tiếng nói
 splits = Tách
 email-to-download = Nhập email để tải xuống
