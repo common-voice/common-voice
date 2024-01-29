@@ -1,0 +1,27 @@
+.ReactModal__Overlay {
+    background: rgba(57, 58, 63, 0.85) !important;
+}
+
+.ReactModal__Content .inner.donate-modal {
+    box-shadow: none;
+    background: none;
+    max-width: 60rem;
+    margin-top: 14.5rem;
+
+    & .container {
+        display: flex;
+
+        & .container-item {
+            background: var(--white);
+            width: 100%;
+            margin-inline-end: 20px;
+            border-radius: 16px;
+            height: 50vh;
+        }
+
+        & .container-item:last-of-type {
+            margin-inline-end: 0px;
+            width: 70%;
+        }
+    }
+}
