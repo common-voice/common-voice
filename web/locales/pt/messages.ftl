@@ -54,6 +54,7 @@ cak = Caqchiquel
 ckb = Curdo central
 cnh = Hakha Chin
 co = Corso
+crh = Tártaro da Crimeia
 cs = Tcheco
 cv = Tchuvache
 cy = Galês
@@ -743,6 +744,7 @@ validated-hr-total = Total de horas validadas
 overall-hr-total = Total de horas
 cv-license = Licença
 audio-format = Formato de áudio
+dataset-splits = Grupos (idade e sexo)
 number-of-voices = Número de vozes
 splits = Divisões
 email-to-download = Informe um email para baixar
@@ -788,6 +790,10 @@ dataset-version = Versão
 sha256-checksum-copied = Soma de verificação SHA256 copiada!
 sha256-checksum-copied-error = Falha ao copiar a soma de verificação SHA256
 clipboard-not-supported = Área de transferência não suportada
+no-information-available = Nenhuma informação disponível
+dataset-metadata-sex = Sexo
+# dataset metadata - age of contributor
+dataset-metadata-age = Idade
 
 ## Download Modal
 
