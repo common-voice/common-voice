@@ -7,6 +7,10 @@ return-to-cv = Dogi e Common Voice
 loading = { "" }
 email-opt-in-info = An gi gombo mar yudo barupe mag mbui kuom dongruok mara, parona kod weche matuch e oboke mar Common Voice
 email-opt-in-info-title = Doni e kanyakla mayudo barupe mawuok Common Voice
+indicates-required = Kuonde mokete alama mar (*) dwarore
+banner-error-slow-1 = Mos, Common Voice tiyo kata ringo mos. Erokamano kuom bedo gi siso.
+banner-error-slow-2 = Wayudo ji mathoth ahinya kende wayongo tiend gima kelo mano
+error-something-went-wrong = Mos, gimoro ok odhi kare
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
