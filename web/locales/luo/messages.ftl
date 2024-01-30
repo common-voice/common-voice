@@ -4,6 +4,9 @@ yes-receive-emails = Kamano, orna barup mbui. Agombo bedo gi ngeyo matut kuom do
 stayintouch = Wan kaka Mozila wagero achiel mar oganda mar puoth kuom dwol. Wagombo bedo e tudruok kuom weche manyien, kod deche manyien kendo winjo mamoko kuom kaka itiyo gi dechego
 privacy-info = Wasingo ni wabiro rito weche moa kuomi kod ritruok.  Som mathoth koa <privacyLink>Weche ma ng'ato owuon onrgo ng'e</privacyLink>.
 return-to-cv = Dogi e Common Voice
+loading = { "" }
+email-opt-in-info = An gi gombo mar yudo barupe mag mbui kuom dongruok mara, parona kod weche matuch e oboke mar Common Voice
+email-opt-in-info-title = Doni e kanyakla mayudo barupe mawuok Common Voice
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
