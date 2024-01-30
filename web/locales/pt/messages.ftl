@@ -76,6 +76,7 @@ ff = Fula
 fi = Finlandês
 fo = Feroês
 fr = Francês
+fuf = Pular da Guiné
 fy-NL = Frisão
 ga-IE = Irlandês
 gl = Galego
