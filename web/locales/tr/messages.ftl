@@ -738,10 +738,12 @@ validated-hr-total = Doğrulanmış toplam saat
 overall-hr-total = Genel toplam saat
 cv-license = Lisans
 audio-format = Ses biçimi
+dataset-splits = Ayrımlar (yaş ve cinsiyet)
 number-of-voices = Ses sayısı
 splits = Ayrımlar
 email-to-download = İndirmek için e-postanızı yazın
 why-email = <b>Neden e-posta istiyorsunuz?</b> Veri kümesindeki değişiklikler hakkında gelecekte sizinle iletişim kurmamız gerekebilir. E-postanız bize bir iletişim bilgisi sağlar.
+why-donate = Neden soruyorsunuz?
 confirm-size = <b>{ $size }</b> boyutundaki indirme işlemini başlatmaya hazırım
 size-gigabyte = GB
 size-megabyte = MB
@@ -783,6 +785,10 @@ dataset-version = Sürüm
 sha256-checksum-copied = SHA256 sağlama toplamı kopyalandı.
 sha256-checksum-copied-error = SHA256 sağlama toplamı kopyalanamadı
 clipboard-not-supported = Pano desteklenmiyor
+no-information-available = Bilgi yok
+dataset-metadata-sex = Cinsiyet
+# dataset metadata - age of contributor
+dataset-metadata-age = Yaş
 
 ## Download Modal
 
@@ -1697,6 +1703,7 @@ sc-redirect-page-subtitle-2 = Bize <matrixLink>Matrix</matrixLink>, <discourseLi
 sc-bulk-upload-header = Kamu malı cümleleri yükleyin <icon></icon>
 sc-bulk-upload-instruction = Dosyanızı yüklemek için buraya sürükleyin veya <uploadButton>buraya tıklayın</uploadButton>
 sc-bulk-upload-instruction-drop = Yüklemek için dosyayı buraya bırakın
+bulk-upload-additional-information = Bu dosyayla ilgili vermek istediğiniz ek bilgiler varsa <emailFragment>commonvoice@mozilla.com</emailFragment> ile iletişime geçebilirsiniz.
 try-upload-again = Dosyanızı buraya sürükleyerek yeniden deneyin
 try-upload-again-md = Yeniden yüklemeyi deneyin
 select-file = Dosya seçin

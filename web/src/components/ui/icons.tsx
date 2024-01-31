@@ -156,6 +156,22 @@ export const CheckIcon = uniqueIcon((id, props) => (
   </svg>
 ))
 
+export const CheckMark = () => (
+  <svg
+    width="13"
+    height="10"
+    viewBox="0 0 13 10"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M12.6675 0.749092C12.9442 1.02571 12.9442 1.47421 12.6675 1.75083L4.87587 9.54249C4.59925 9.81911 4.15075 9.81911 3.87413 9.54249L0.332466 6.00083C0.0558446 5.72421 0.0558446 5.27571 0.332466 4.99909C0.609087 4.72247 1.05758 4.72247 1.3342 4.99909L4.375 8.03989L11.6658 0.749092C11.9424 0.472471 12.3909 0.472471 12.6675 0.749092Z"
+      fill="#629FF4"
+    />
+  </svg>
+)
+
 export const CheckWithBoxIcon = () => (
   <svg width="22" height="22" viewBox="0 0 22 22">
     <path
@@ -1274,20 +1290,19 @@ export const FontIcon = ({ type, ...props }: FontIconProps) => (
 export const XIcon = () => {
   return (
     <svg
-    xmlns="http://www.w3.org/2000/svg"
-    height="25px"
-    width="24px"
-    viewBox="0 0 512 512"
-    className="XIcon"
-  >
-    <path
-      fill="#fff"
-      d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
-    />
-  </svg>
-  );
-};
+      xmlns="http://www.w3.org/2000/svg"
+      height="25px"
+      width="24px"
+      viewBox="0 0 512 512"
+      className="XIcon">
+      <path
+        fill="#fff"
+        d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+      />
+    </svg>
+  )
+}
 
-import starSvg from './icons/star.svg';
+import starSvg from './icons/star.svg'
 
-export const StarIcon = Icon(starSvg);
+export const StarIcon = Icon(starSvg)

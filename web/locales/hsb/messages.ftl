@@ -52,6 +52,7 @@ cak = Kaqchikel
 ckb = Centralna kurdišćina
 cnh = Hakha Chin
 co = Korsišćina
+crh = Krimska tataršćina
 cs = Čěšćina
 cv = Čuwašćina
 cy = Walizišćina
@@ -121,6 +122,7 @@ lo = Laošćina
 lt = Litawšćina
 ltg = Latgalšćina
 lv = Letišćina
+lzz = Lazišćina
 mai = Majtilišćina
 mdf = Mokša
 mg = Malagasišćina
@@ -166,6 +168,8 @@ sah = Sachašćina
 sat = Santališćina (Ol Chiki)
 sc = Sardinšćina
 scn = Sicilšćina
+sco = Šotiska jendźelšćina (Scots)
+sd = Sindišćina, Sindhi
 sdh = Južna kurdišćina
 shi = Tašelhitšćina
 si = Singalezišćina
@@ -207,6 +211,7 @@ ve = Venda
 vec = Wenecianišćina
 vi = Vietnamšćina
 vot = Wotšćina
+wep = Westfalšćina
 wo = Wolof
 xh = Xhosa
 yi = Jiddišćina
@@ -714,10 +719,12 @@ validated-hr-total = Wobkrućene hodźiny dohromady
 overall-hr-total = Hodźiny dohromady
 cv-license = Licenca
 audio-format = Awdioformat
+dataset-splits = Rozdźělenje (staroba a splah)
 number-of-voices = Ličba hłosow
 splits = Poddźělenja
 email-to-download = E-mejlowu adresu za sćehnjenje zapodać
 why-email = <b>Čehodla e-mejlowa adresa?</b> Dyrbimy so snano z wami w přichodźe wo změnach na datowej sadźbje do zwiska stajić, e-mejlowa adresa nam kontaktowu móžnosć dawa.
+why-donate = Čehodla so prašeće?
 confirm-size = Sće za start sćehnjenja wulkosće <b>{ $size }</b> přihotowany
 size-gigabyte = GB
 size-megabyte = MB
@@ -758,6 +765,10 @@ dataset-version = Wersija
 sha256-checksum-copied = Pruwowanska suma SHA256 kopěrowana!
 sha256-checksum-copied-error = Kopěrowanje pruwowanskeje sumy SHA256 njeje so poradźiło
 clipboard-not-supported = Mjezyskład so njepodpěruje
+no-information-available = Žane informacije k dispoziciji
+dataset-metadata-sex = Splah
+# dataset metadata - age of contributor
+dataset-metadata-age = Staroba
 
 ## Download Modal
 
@@ -816,6 +827,8 @@ language-section-in-progress = W přihotowanju
 language-section-in-progress-new-description = Tute rěče so tuchwilu wot zhromadźenstwa wuwiwaja. Postupowe lajsty pokazuja, do kotreje měry <localizationGlossaryLink>lokalizacija websydła</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>zběrka sadow</sentenceCollectionGlossaryLink> kóždeje rěče stej postupjenej.
 language-section-launched = Startowany
 language-section-launched-description = Za tute aktiwizowane rěče je so websydło wuspěšnje <localizationGlossaryLink>lokalizowane</localizationGlossaryLink>, a ma dosć <sentenceCollectionGlossaryLink>zběranych sadow</sentenceCollectionGlossaryLink>. zo bychu so přichodne přinoški za <speakLink>rěčenje</speakLink> a <listenLink>słuchanje</listenLink> dowolili.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Poslednja aktualizacija: { $lastUpdatedTimeStamp }
 languages-show-more = Wjace pokazać
 languages-show-less = Mjenje pokazać
 language-meter-in-progress = Postup
@@ -886,6 +899,9 @@ listen-again-instruction = Wulkotne dźěło! <playIcon></playIcon> Słuchajće 
 listen-3rd-time-instruction = 2 sčinjenej, <playIcon></playIcon> dale tak!
 listen-last-time-instruction = <playIcon></playIcon> Poslednje!
 listen-empty-state = Klipy su nam wušli, kotrež so w tutej rěči přepruwuja...
+listen-abort-title = Přepruwowanje klipow dokónčić?
+listen-abort-cancel = Z přepruwowanjom pokročować
+listen-abort-confirm = Přepruwowanje dokónčić
 speak-empty-state = Sady su nam wušli, kotrež so w tutej rěči natočeja...
 speak-empty-state-cta = Sady přinošować
 record-button-label = Nahrajće swój hłós
@@ -1561,6 +1577,7 @@ reader-effects = Efekty čitarja
 just-unsure = Jenož njewěsty?
 example = Přikład
 varying-pronunciations-example = Ruta běše njejasna.
+misreadings-explanation-2 = Jara časte zmylki su:
 misreadings-explanation-5 = Kontrakcije při čitanju, na přikład „žno“ město „hižo“ abo nawopak.
 misreadings-explanation-6 = Falowacy kónc poslednjeho słowa, dokelž natočenje je so přespěšnišo wotrězało.
 misreadings-explanation-7 = Wjacore pospyty słowo čitać.
@@ -1620,16 +1637,16 @@ add-sentence-error = Zmylk při přidawanju sady
 required-field = Prošu wupjelńće tute polo.
 single-sentence = Jedna sada
 bulk-sentences = Wjele sadow
-# REVIEW PAGE
-sc-review-instruction-first-part = Přepruwować
-sc-review-instruction-second-part = Je to rěčnje korektna sada?
+
+## REVIEW PAGE
+
 sc-review-rules-title = Wotpowěduje sada směrnicam?
 report-sc-different-language = Druha rěč
 report-sc-different-language-detail = Je w druhej rěči napisana hač přepruwuju.
 sc-redirect-page-subtitle-2 = Stajće nam prašenja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mejlu</emailLink>.
-# BULK SUBMISSION 
-sc-bulk-upload-instruction-first-part = Nahrać
-or-conjuction = abo
+
+## BULK SUBMISSION 
+
 select-file = Dataju wubrać
 select-file-mobile = Wubjerće dataju za nahraće
 accepted-files = Akceptowane datajowe typy: jenož .tsv

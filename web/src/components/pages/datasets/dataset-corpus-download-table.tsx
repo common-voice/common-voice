@@ -7,11 +7,12 @@ import classNames from 'classnames';
 import * as React from 'react';
 import { formatBytes, msToHours } from '../../../utility';
 import { useLocale } from '../../locale-helpers';
+
 import './dataset-corpus-download-table.css';
 
 interface Props {
   releaseData: any[];
-  onRowSelect: any;
+  onRowSelect: (selectedId: number, index: number) => void;
   selectedId: number | null;
 }
 
@@ -79,7 +80,7 @@ const DatasetCorpusDownloadTable = ({
   const [locale] = useLocale();
 
   return (
-    <table className="table dataset-table">
+    <table className="table dataset-table hidden-md-down">
       <thead>
         <tr>
           {Object.values(COLUMNS).map(column => {
@@ -92,10 +93,10 @@ const DatasetCorpusDownloadTable = ({
         </tr>
       </thead>
       <tbody>
-        {releaseData.map(row => {
+        {releaseData.map((row, index) => {
           return (
             <tr
-              onClick={() => onRowSelect(row.id)}
+              onClick={() => onRowSelect(row.id, index)}
               className={classNames({ selected: row.id === selectedId })}
               key={row.id + row.release_dir}>
               {Object.keys(COLUMNS).map((col: string, index) => {
