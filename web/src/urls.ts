@@ -57,7 +57,5 @@ export default Object.freeze({
   STAGING_ROOT: 'https://commonvoice.allizom.org',
   GITHUB_ROOT: 'https://github.com/mozilla/common-voice',
   MOZILLA_BLOG_ROOT: 'http://foundation.mozilla.org/blog',
-  S3_BUCKET:
-    'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com',
   S3_CDN: 'https://cdn.commonvoice.mozilla.org',
 })

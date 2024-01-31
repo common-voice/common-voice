@@ -1,15 +1,16 @@
 import { Localized } from '@fluent/react';
 import * as React from 'react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { InView } from 'react-intersection-observer';
 import URLS from '../../../urls';
 import { useLocalizedDiscourseURL } from '../../locale-helpers';
 import { Button, LinkButton, StyledLink } from '../../ui/ui';
 import Dots from './dots';
-import datasets from './other-datasets';
+import otherDatasets from './other-datasets';
 import getStartedResource from './get-started';
 
 import './resources.css';
+import { useAPI } from '../../../hooks/store-hooks';
 
 const NAV_IDS = {
   getStarted: 'get-started',
@@ -147,6 +148,21 @@ const Resources = () => {
     [null, 0]
   )[0];
   const discourseURL = useLocalizedDiscourseURL();
+
+  const api = useAPI()
+  const [datasets, setDatasets] = useState(otherDatasets)
+
+  useEffect(() => {
+    const updateVoxforgeDataset = async () => {
+      const datasets = otherDatasets.slice()
+      const voxforgeDatasetIndex = datasets.findIndex(dataset => dataset.id == 'voxforge')
+      const { url } = await api.getPublicUrl(datasets[voxforgeDatasetIndex].download, 'dataset')
+      datasets[voxforgeDatasetIndex].download = url
+      setDatasets(datasets)
+    }
+    updateVoxforgeDataset()
+  }, [datasets])
+  
 
   return (
     <div className="dataset-resources">
