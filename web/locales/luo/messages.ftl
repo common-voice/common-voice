@@ -6,6 +6,7 @@ privacy-info = Wasingo ni wabiro rito weche moa kuomi kod ritruok.  Som mathoth 
 return-to-cv = Dogi e Common Voice
 email-input =
     .label = Barup mbui
+submit-form-action = Or
 loading = Biro...
 email-opt-in-info = An gi gombo mar yudo barupe mag mbui kuom dongruok mara, parona kod weche matuch e oboke mar Common Voice
 email-opt-in-info-title = Doni e kanyakla mayudo barupe mawuok Common Voice
