@@ -57,6 +57,7 @@ co = Kikorisiki
 crh = Kitata cha Krimia
 cs = Kicheki
 cv = Kichuvashi
+cy = Kiwalesi
 
 # [/]
 
