@@ -17,6 +17,9 @@ import { DonateModal } from './donate-modal/donate-modal';
 
 import './dataset-download-email-prompt.css';
 
+// max width to show the donate modal
+const MAX_WIDTH_FOR_DONATE_MODAL = 992;
+
 interface DownloadFormProps extends WithLocalizationProps {
   downloadPath: string;
   isLight?: boolean;
@@ -49,7 +52,7 @@ const DatasetDownloadEmailPrompt = ({
 }: DownloadFormProps) => {
   const api = useAPI();
 
-  const isMobileWidth = useIsMaxWindowWidth();
+  const isMaxWidth = useIsMaxWindowWidth(MAX_WIDTH_FOR_DONATE_MODAL);
 
   const [formState, setFormState] = useState({
     email: '',
@@ -91,7 +94,10 @@ const DatasetDownloadEmailPrompt = ({
   };
 
   const saveHasDownloaded = async () => {
-    setShowDonateModal(true);
+    if (!isMaxWidth) {
+      setShowDonateModal(true);
+    }
+
     if (canDownloadFile) {
       await api.saveHasDownloaded(email, selectedLocale, releaseId);
     }
@@ -146,7 +152,7 @@ const DatasetDownloadEmailPrompt = ({
 
   return (
     <div className={datasetDownloadPromptClassName}>
-      {showDonateModal && !isMobileWidth && (
+      {showDonateModal && !isMaxWidth && (
         <DonateModal onCloseDonateModal={handleCloseDonateModal} />
       )}
       {hideEmailForm ? (

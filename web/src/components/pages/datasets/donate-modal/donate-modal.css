@@ -4,6 +4,8 @@ body.ReactModal__Body--open {
 
 .ReactModal__Overlay {
     background: rgba(57, 58, 63, 0.85) !important;
+    overflow: auto;
+    display: unset;
 }
 
 .ReactModal__Content .inner.donate-modal {
@@ -11,6 +13,7 @@ body.ReactModal__Body--open {
     background: none;
     max-width: 60rem;
     margin-top: 14.5rem;
+    min-height: auto;
 
     & .close {
         right: 0;
@@ -29,6 +32,7 @@ body.ReactModal__Body--open {
             margin-inline-end: 20px;
             border-radius: 16px;
             height: 50vh;
+            min-height: 600px;
 
             &.first {
                 display: flex;
