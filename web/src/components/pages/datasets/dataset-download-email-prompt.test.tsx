@@ -276,4 +276,25 @@ describe('DatasetDownloadEmailPrompt', () => {
       '1'
     );
   });
+
+  it('shows the donate modal after download button is clicked', async () => {
+    const { getByRole, getByTestId, getByText }: RenderResult =
+      renderWithProviders(
+        <DatasetDownloadEmailPrompt
+          selectedLocale={locale}
+          downloadPath={selectedDataset.download_path}
+          releaseId={selectedDataset.id.toString()}
+          checksum={selectedDataset.checksum}
+          size={selectedDataset.size}
+          isSubscribedToMailingList={false}
+        />
+      );
+
+    await act(async () => {
+      fireEvent.click(getByRole('button', { name: 'Enter Email to Download' }));
+    });
+
+    expect(getByTestId('donate-modal')).toBeTruthy();
+    expect(getByText('Support the Common Voice platform')).toBeTruthy();
+  });
 });

@@ -20,7 +20,7 @@ export const DonateModal = ({ onCloseDonateModal }: Props) => {
   const [, toLocaleRoute] = useLocale()
 
   return (
-    <Modal testId="donate" innerClassName="donate-modal">
+    <Modal testId="donate-modal" innerClassName="donate-modal">
       <button type="button" className="close" onClick={onCloseDonateModal}>
         <CloseIcon black />
       </button>
