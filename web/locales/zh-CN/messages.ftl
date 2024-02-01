@@ -166,6 +166,7 @@ ps = 普什图语
 pt = 葡萄牙语
 quc = 基切语
 quy = 克丘亚语（昌卡）
+qvi = Kichwa 语
 rm-sursilv = 罗曼什语（苏斯勒万）
 rm-vallader = 罗曼什瓦勒德语
 ro = 罗马尼亚语
@@ -791,6 +792,9 @@ sha256-checksum-copied = SHA256 校验和已复制！
 sha256-checksum-copied-error = 复制 SHA256 校验和失败
 clipboard-not-supported = 剪贴板不支持
 no-information-available = 无相关信息
+dataset-metadata-sex = 生理性别
+# dataset metadata - age of contributor
+dataset-metadata-age = 年龄
 
 ## Download Modal
 
