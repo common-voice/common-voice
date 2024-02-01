@@ -1,33 +1,33 @@
-import { Localized } from '@fluent/react';
-import * as React from 'react';
-import { useEffect, useState } from 'react';
-import { InView } from 'react-intersection-observer';
-import URLS from '../../../urls';
-import { useLocalizedDiscourseURL } from '../../locale-helpers';
-import { Button, LinkButton, StyledLink } from '../../ui/ui';
-import Dots from './dots';
-import otherDatasets from './other-datasets';
-import getStartedResource from './get-started';
+import { Localized } from '@fluent/react'
+import * as React from 'react'
+import { useEffect, useState } from 'react'
+import { InView } from 'react-intersection-observer'
+import URLS from '../../../urls'
+import { useLocalizedDiscourseURL } from '../../locale-helpers'
+import { Button, LinkButton, StyledLink } from '../../ui/ui'
+import Dots from './dots'
+import otherDatasets from './other-datasets'
+import getStartedResource from './get-started'
 
-import './resources.css';
-import { useAPI } from '../../../hooks/store-hooks';
+import './resources.css'
+import { useAPI } from '../../../hooks/store-hooks'
 
 const NAV_IDS = {
   getStarted: 'get-started',
   other: 'other-datasets',
   feedback: 'feedback',
-};
+}
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const GetStartedResource = React.memo((props: any) => {
   const { title, id, trademark, titleLocalized, image, url, description } =
-    props;
+    props
 
   Object.keys(description.linkElems).forEach(el => {
     description.linkElems[el] = (
       <StyledLink href={description.linkElems[el]} blank />
-    );
-  });
+    )
+  })
 
   return (
     <div key={id} className="box">
@@ -49,15 +49,15 @@ const GetStartedResource = React.memo((props: any) => {
         </div>
       </div>
     </div>
-  );
-});
+  )
+})
 
-GetStartedResource.displayName = 'GetStartedResource';
+GetStartedResource.displayName = 'GetStartedResource'
 
 const Dataset = React.memo(
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ({ color, name, id, url, download, license }: any) => {
-    const [collapsed, setCollapsed] = useState(true);
+    const [collapsed, setCollapsed] = useState(true)
     return (
       <div className="other-dataset box">
         <img src={require(`./images/${id}.jpg`)} alt="" role="presentation" />
@@ -118,51 +118,54 @@ const Dataset = React.memo(
           </div>
         </div>
       </div>
-    );
+    )
   }
-);
+)
 
-Dataset.displayName = 'Dataset';
+Dataset.displayName = 'Dataset'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Section = ({ name, onChangeIntersection, ...props }: any) => (
   <InView
     onChange={(_isVisible, entry) => {
-      const { width, height } = entry.intersectionRect;
-      onChangeIntersection(name, width * height);
+      const { width, height } = entry.intersectionRect
+      onChangeIntersection(name, width * height)
     }}
     threshold={[0.1, 0.2, 0.3, 0.4, 0.5]}>
     <section id={name} {...props} />
   </InView>
-);
+)
 
-Section.displayName = 'Section';
+Section.displayName = 'Section'
 
 const Resources = () => {
-  const [intersections, setIntersections] = useState({});
+  const [intersections, setIntersections] = useState({})
   const handleIntersectionChange = (name: string, intersection: number) =>
-    setIntersections({ ...intersections, [name]: intersection });
+    setIntersections({ ...intersections, [name]: intersection })
   const activeSection = Object.entries(intersections).reduce(
     ([maxId, maxValue], [id, value]) =>
       value > maxValue ? [id, value] : [maxId, maxValue],
     [null, 0]
-  )[0];
-  const discourseURL = useLocalizedDiscourseURL();
+  )[0]
+  const discourseURL = useLocalizedDiscourseURL()
 
   const api = useAPI()
-  const [datasets, setDatasets] = useState(otherDatasets)
+  const [datasets, setDatasets] = useState([])
 
   useEffect(() => {
-    const updateVoxforgeDataset = async () => {
-      const datasets = otherDatasets.slice()
-      const voxforgeDatasetIndex = datasets.findIndex(dataset => dataset.id == 'voxforge')
-      const { url } = await api.getPublicUrl(datasets[voxforgeDatasetIndex].download, 'dataset')
-      datasets[voxforgeDatasetIndex].download = url
-      setDatasets(datasets)
+    const updateDataset = async () => {
+      const voxforgeDataset = otherDatasets.find(
+        dataset => dataset.id == 'voxforge'
+      )
+      const { url } = await api.getPublicUrl(
+        voxforgeDataset.download,
+        'dataset'
+      )
+      voxforgeDataset.download = url
+      setDatasets(otherDatasets)
     }
-    updateVoxforgeDataset()
-  }, [datasets])
-  
+    updateDataset()
+  }, [])
 
   return (
     <div className="dataset-resources">
@@ -197,9 +200,8 @@ const Resources = () => {
           name={NAV_IDS.other}
           onChangeIntersection={handleIntersectionChange}
           className="other-datasets">
-          {datasets.map(dataset => (
-            <Dataset key={dataset.id} {...dataset} />
-          ))}
+          {datasets &&
+            datasets.map(dataset => <Dataset key={dataset.id} {...dataset} />)}
         </Section>
 
         <Section
@@ -237,9 +239,9 @@ const Resources = () => {
         </Section>
       </div>
     </div>
-  );
-};
+  )
+}
 
-Resources.displayName = 'Resources';
+Resources.displayName = 'Resources'
 
-export default Resources;
+export default Resources
