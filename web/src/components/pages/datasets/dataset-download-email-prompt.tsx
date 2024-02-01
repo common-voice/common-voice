@@ -9,6 +9,7 @@ import classNames from 'classnames';
 
 import { useAPI } from '../../../hooks/store-hooks';
 import useCopyToClipboard from '../../../hooks/use-copy-to-clipboard';
+import useIsMaxWindowWidth from '../../../hooks/use-is-max-window-width';
 import { CloudIcon } from '../../ui/icons';
 import { Button, LabeledCheckbox, LabeledInput, LinkButton } from '../../ui/ui';
 import DonateButton from '../../donate-button/donate-button';
@@ -47,6 +48,8 @@ const DatasetDownloadEmailPrompt = ({
   isSubscribedToMailingList,
 }: DownloadFormProps) => {
   const api = useAPI();
+
+  const isMobileWidth = useIsMaxWindowWidth();
 
   const [formState, setFormState] = useState({
     email: '',
@@ -143,7 +146,7 @@ const DatasetDownloadEmailPrompt = ({
 
   return (
     <div className={datasetDownloadPromptClassName}>
-      {showDonateModal && (
+      {showDonateModal && !isMobileWidth && (
         <DonateModal onCloseDonateModal={handleCloseDonateModal} />
       )}
       {hideEmailForm ? (
