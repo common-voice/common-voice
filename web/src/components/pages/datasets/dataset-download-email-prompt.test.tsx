@@ -3,8 +3,7 @@ import { axe, toHaveNoViolations } from 'jest-axe';
 import { act, fireEvent, RenderResult } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
-import { renderWithLocalization } from '../../../../test/render-with-localization';
-
+import { renderWithProviders } from '../../../../test/render-with-providers';
 import DatasetDownloadEmailPrompt from './dataset-download-email-prompt';
 
 expect.extend(toHaveNoViolations);
@@ -44,7 +43,7 @@ afterEach(() => {
 describe('DatasetDownloadEmailPrompt', () => {
   it('should render with no accessibility violations', async () => {
     await act(async () => {
-      const renderResult: RenderResult = renderWithLocalization(
+      const renderResult: RenderResult = renderWithProviders(
         <DatasetDownloadEmailPrompt
           selectedLocale={locale}
           downloadPath={selectedDataset.download_path}
@@ -61,7 +60,7 @@ describe('DatasetDownloadEmailPrompt', () => {
 
   it('should render email form with no accessibility violations', async () => {
     await act(async () => {
-      const { getByRole, container }: RenderResult = renderWithLocalization(
+      const { getByRole, container }: RenderResult = renderWithProviders(
         <DatasetDownloadEmailPrompt
           selectedLocale={locale}
           downloadPath={selectedDataset.download_path}
@@ -81,7 +80,7 @@ describe('DatasetDownloadEmailPrompt', () => {
 
   it('should handle bundleURLTemplate strings', async () => {
     await act(async () => {
-      renderWithLocalization(
+      renderWithProviders(
         <DatasetDownloadEmailPrompt
           selectedLocale={locale}
           downloadPath={selectedDataset.download_path}
@@ -101,7 +100,7 @@ describe('DatasetDownloadEmailPrompt', () => {
 
   it('should allow download if filled in details', async () => {
     const { getByRole, queryByRole, getByLabelText }: RenderResult =
-      renderWithLocalization(
+      renderWithProviders(
         <DatasetDownloadEmailPrompt
           selectedLocale={locale}
           downloadPath={selectedDataset.download_path}
@@ -163,7 +162,7 @@ describe('DatasetDownloadEmailPrompt', () => {
       queryByRole,
       getByLabelText,
       queryByLabelText,
-    }: RenderResult = renderWithLocalization(
+    }: RenderResult = renderWithProviders(
       <DatasetDownloadEmailPrompt
         selectedLocale={locale}
         downloadPath={selectedDataset.download_path}
@@ -221,7 +220,7 @@ describe('DatasetDownloadEmailPrompt', () => {
 
   it('should still allow download if user decides not to join mailing list', async () => {
     const { getByRole, queryByRole, getByLabelText }: RenderResult =
-      renderWithLocalization(
+      renderWithProviders(
         <DatasetDownloadEmailPrompt
           selectedLocale={locale}
           downloadPath={selectedDataset.download_path}
