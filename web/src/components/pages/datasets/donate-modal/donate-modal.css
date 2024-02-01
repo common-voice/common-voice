@@ -29,6 +29,84 @@ body.ReactModal__Body--open {
             margin-inline-end: 20px;
             border-radius: 16px;
             height: 50vh;
+
+            &.first {
+                display: flex;
+                flex-direction: column;
+
+                img.mars-bg {
+                    width: inherit;
+                    border-top-left-radius: 16px;
+                    border-top-right-radius: 16px;
+                }
+
+                div.download-message {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    margin-inline-start: 24px;
+                    margin-block-start: 12px;
+                    width: 255px;
+                    height: 100%;
+                    margin-block-end: 12px;
+
+                    h2 {
+                        font-size: 40px;
+                        text-align: justify;
+                        margin-block-start: 20px;
+                    }
+
+                    div.links {
+                        margin-block-start: auto;
+                        display: flex;
+                        align-items: center;
+                        color: var(--warm-grey);
+
+                        a {
+                            font-size: var(--font-size-xs);
+                            text-decoration: underline;
+                            margin-inline-start: 4px;
+                            margin-inline-end: 4px;
+                            color: inherit;
+                        }
+                    }
+                }
+            }
+
+            &.second {
+                display: flex;
+                flex-direction: column;
+
+                h3 {
+                    font-size: var(--font-size-xl);
+                    text-align: left;
+                    font-weight: normal;
+                    padding: 32px;
+                    width: 300px;
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                div.explanation-button-container {
+                    margin-inline-start: 28px;
+                    margin-inline-end: 28px;
+                    margin-block-end: auto;
+                    margin-block-start: auto;
+
+                    p.donate-modal-explanation {
+                        text-align: justify;
+                        margin-block-end: 20px;
+                    }
+
+                    & a.donate-btn {
+                        border-radius: 8px;
+                        background: var(--blue);
+                        color: var(--white);
+                    }
+                }
+            }
         }
 
         & .container-item:last-of-type {
