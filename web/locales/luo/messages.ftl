@@ -197,6 +197,7 @@ help-us-title = Konywa loso wechegi
 vote-yes = Ayie
 vote-no = ooyo
 speak-subtitle = Chiu duondi
+ready-to-record = Iseikri ne chiwo duondi?
 
 ## Account Benefits
 
@@ -395,6 +396,7 @@ demo-listen-subtitle = Iseikri ne chiuruok?
 
 # [/SentenceCollector]
 
+why-donate = Ango miyo ipenjo?
 
 ## REVIEW PAGE
 
