@@ -35,7 +35,8 @@
   },
   "resolutions": {
     "browserslist": "^4.16.5",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "webpack": "5.76.3"
   },
   "scripts": {
     "clean": "rm -r node_modules && rm -r common/node_modules && rm -r server/node_modules && rm -r web/node_modules",
