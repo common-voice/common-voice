@@ -446,6 +446,18 @@ lose-goal-progress-warning = Sama iloko chenro mari mar tiyo, inyalo wito tie wa
 want-to-continue = Bende idwaro dhi nyime?
 finish-editing = Tiek ngiyo ndikono maber mondi?
 lose-changes-warning = wuok sani biro miyo lokruok miseketo lal
+build-custom-goal = Ger chenro mari mar tiyo
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Konywa chopo saa { $hours } e dho { $language } gi chenro ma mari mar tiyo
+       *[other] Konywa chopo seche { $hours } e dho { $language } gi chenro ma mari mar tiyo
+    }
+set-a-goal = Ket chenro mar tiyo
+cant-decide = Ok inyal yiero?
+how-many-per-day = Ber ahinya! weche adiwa odiochieng kodiochieng?
+how-many-a-week = Ber ahinya! weche adi juma ka juma?
+which-goal-type = Idwaro loso koso idwaro chiko iti koso giduto?
+confirm-goal = Ngiyanena tie wachno
 
 ## Profile Delete
 
