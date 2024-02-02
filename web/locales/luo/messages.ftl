@@ -276,13 +276,29 @@ add-language = Med dhok moro
 
 faq-why-different-speakers-q = Angomomiyo udwaro ji mangeny mawacho dhok ka dhok?
 faq-why-my-lang-q = Angomomiyo dhowa ok omedi kanyo?
+faq-why-10k-hours-q = Angomomiyo idwaro dhok ka dhok ochop seche 10,000 mar duol momaki?
+faq-how-calc-hours-q = Ere kaka Common Voice kwano seche?
+faq-where-src-from-2-q = Ere kuma weche go duto wuokie?
+faq-why-not-ask-read-q = Ok upenj ji mondo osom buge kata ndiko manie Wikipedia kuom dhok mopogore opogore?
+faq-search-for-answers =
+    .label = Many duoko
 
 ## ABOUT US
 
 
 ## How does it work section
 
+about-sentence-collection-title = Choko weche
+about-voice-contrib-title = Choko duonde
 about-voice-contrib-subtitle = Ji biro to chiwo dwondegi kanyachiel
+about-speak = Losi / wuo
+about-listen = Chik iti
+about-get-involved = Donjie e riuruok
+about-stay-in-touch = Ere kaka anyalo tudora kodu?
+about-nav-why-common-voice = Nango?
+about-nav-how-it-works = Nade?
+about-nav-get-involved = Donjie e riuruok
+about-nav-playbook = Puojri kaka inyalo betie achiel
 
 ## Community Playbook Content
 ## What is a language
@@ -290,15 +306,20 @@ about-voice-contrib-subtitle = Ji biro to chiwo dwondegi kanyachiel
 
 ## How do I add a language
 
+about-playbook-how-add-language = Ere kaka damed dhok moro?
 
 ## How does localization work
 
+about-playbook-how-localize-content-5 = Tem ingianena wechewago mondo okonyi
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Ere kaka anyalo medo weche?
 
 ## How to record quality
 
+about-playbook-how-record-content-2 = Bed kama onge koko - kamokwe mondo wawinji maler.
+about-playbook-how-record-content-3 = Som weche go duto maler - kik iwe moro amora kata kik imed wecheni iwuon.
 
 ## How to grow language
 
@@ -311,15 +332,28 @@ about-voice-contrib-subtitle = Ji biro to chiwo dwondegi kanyachiel
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Ere kaka weche mag chenro go iloso?
 
 ## Glossary
 
 
 ## Error pages
 
+error-title-404 = Ne ok wany yudo wang kalatasno ne in
 
 ## Data
 
+data-other-goto = Dhi ka { $name }
+dataset-date = Tarik
+license-mixed = Onywandore/oriwore
+terms-agree = Ayie
+terms-disagree = Ok ayiego
+review-submit-title = Non maber kaeto ior
+review-recording = Non maber/ kendo
+review-rerecord = Mak duol kendo
+review-cancel = keth/ruchi oteno
+review-keep-recordings = Kan duondego
+review-delete-recordings = Ruch gik mane amakogo
 
 ## Datasets Page
 
@@ -339,10 +373,22 @@ language = Dhok
 
 ## Languages Overview
 
+languages-show-more = Ne moko
+languages-show-less = Ne  Matin
+language-meter-in-progress = dhi nyime
+language-total-progress = Giduto
+language-search-input =
+    .placeholder = Many
+language-speakers = Jomaloso / Jomawuoyo
+sentences = Weche
+language-validation-progress = Kaka nono dhi nyime
 
 ## Contribution
 
+action-click = Yier
+action-tap = Go/mul
 contribute = Chiu pachi
+listen = Winji
 
 ## Contribution Nav Items
 
