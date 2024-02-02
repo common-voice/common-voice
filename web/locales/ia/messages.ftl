@@ -1348,7 +1348,7 @@ sc-my-no-sentences = Nulle phrases trovate!
 sc-my-submission = Invio: { $batchId }
 # Variables:
 #   $source (String) - Associated source the user filled out when uploading the sentence
-sc-my-source = Fonte: { $fonte }
+sc-my-source = Fonte: { $source }
 sc-my-delete = Deler phrases seligite
 sc-my-deleting = Deletion del phrases seligite
 sc-my-err-failed-delete = Impossibile deler phrases seligite… Retenta!

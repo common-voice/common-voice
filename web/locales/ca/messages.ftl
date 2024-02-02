@@ -54,6 +54,7 @@ cak = kaqtxikel
 ckb = kurd central
 cnh = hakha chin
 co = cors
+crh = tàtar de Crimea
 cs = txec
 cv = txuvaix
 cy = gal·lès
@@ -171,6 +172,8 @@ sah = iacut
 sat = santali (ol chiki)
 sc = sard
 scn = sicilià
+sco = escocès
+sd = sindhi
 sdh = kurd del sud
 shi = chelha
 si = singalès
@@ -740,6 +743,7 @@ validated-hr-total = Hores validades totals
 overall-hr-total = Hores totals
 cv-license = Llicència
 audio-format = Format d'àudio
+dataset-splits = Divisions (edat i sexe)
 number-of-voices = Nombre de veus
 splits = Divisions
 email-to-download = Introduïu l'adreça electrònica per baixar
@@ -785,6 +789,10 @@ dataset-version = Versió
 sha256-checksum-copied = S'ha copiat la suma de verificació SHA256
 sha256-checksum-copied-error = No s'ha pogut copiar la suma de verificació SHA256
 clipboard-not-supported = El porta-retalls no és compatible
+no-information-available = No hi ha cap informació disponible
+dataset-metadata-sex = Gènere
+# dataset metadata - age of contributor
+dataset-metadata-age = Edat
 
 ## Download Modal
 
@@ -931,7 +939,7 @@ listen-3rd-time-instruction = 2 menys! Mantingueu el ritme! <playIcon></playIcon
 listen-last-time-instruction = <playIcon></playIcon> L'últim!
 listen-empty-state = No hi ha cap més tall per validar en aquesta llengua...
 listen-loading-error =
-    No hem pogut cap tall de veu perquè el reviseu.
+    No hem pogut carregar cap tall de veu perquè el reviseu.
     Torneu a intentar-ho més tard.
 listen-abort-title = Voleu deixar de validar talls?
 listen-abort-cancel = Continua validant
