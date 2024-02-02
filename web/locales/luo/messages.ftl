@@ -42,8 +42,13 @@ br = Dhobreton
 bs = Dhobosnia
 byv = Dhomedumba
 ca = Dhokatalan
+cs = Dhochek
+cv = Dhochuvas
+cy = dhowels
 da = Dhodenmak
+dag = Dhodagbani
 de = Dhojaman
+dv = Dhodhivehi
 dyu = Dhodioula
 el = Dhogreek
 en = Dhongere
@@ -511,6 +516,14 @@ contribution-criteria-nav = Chenro
 contribution-criteria-link = Winj maber chenro mag chiuruok
 contribution-for-example = Ranyisi
 contribution-misreadings-title = Somo marach
+contribution-misreadings-description-extended-list-5 = Temo dingeny kisomo wach.
+contribution-misreadings-example-5-title = Wadhi madho kahawa oko.
+contribution-misreadings-example-6-title = wadhi madho kahawa oko
+contribution-misreadings-example-7-title = wadhi madho kahawa oko.
+contribution-varying-pronunciations-example-1-title = Oruako ogudu e wiye.
+contribution-varying-pronunciations-example-2-title = Otingo bade malo
+contribution-background-noise-title = Nitie koko chien kanyo
+contribution-just-unsure-title = Ok an kod adieri
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -519,6 +532,21 @@ contribution-misreadings-title = Somo marach
 
 ## HEADER/FOOTER
 
+sc-header-home = Dala
+sc-header-how-to = Kaka
+sc-header-add = Medi
+sc-header-review = Non maber
+sc-header-rejected = Weche motamruok
+sc-header-my = wechega / wechena
+sc-header-statistics = Kwan / kwano
+sc-header-profile = Picha
+sc-footer-discourse = Thuon weche
+sc-footer-report-bugs = chiew duoko mag kudni
+sc-footer-translate = Lok weche manie karatas ni
+sc-footer-report-copyright = Ful weche ma okop kamachielo
+sc-footer-privacy = Weche ma ng'ato owuon
+sc-footer-terms = Chike
+sc-login-signup-button = donjo e komputa
 
 ## HOME
 
@@ -528,18 +556,40 @@ contribution-misreadings-title = Somo marach
 
 ## HOW-TO
 
+sc-howto-title = Kaka
+sc-howto-addlang-title = Medo dhok minyalo tiyo godo
+sc-howto-addlang-text = Kisedongo e kompiuta inyalo yiero dhok koa e kar picha mari.
+sc-howto-addsen-title = med weche manyien
+sc-howto-cite-title = Kaka inyalo por wach
 
 ## MY SENTENCES
 
+sc-my-title = Wechega/ wechena
+sc-my-no-sentences = Onge weche moyudi
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Chiwo: { $batchId }
+sc-my-delete = Ruchi weche moyier go
 
 ## REJECTED
 
+sc-rejected-title = Weche motamruok
+sc-rejected-loading = Kelo weche motamruok...
 
 ## STATS
 
+sc-stats-title = Kwan
 
 ## ADD
 
+sc-submit-err-select-lang = Kiyie to yier dhok
+sc-submit-err-add-sentences = Kiyie to med weche
+sc-submit-title = Med weche
+sc-submit-select-language =
+    .labelText = Yier dhok
+sc-submit-add-sentences = Medi <wikipediaLink>public domain</wikipediaLink> weche
+sc-submit-ph-one-per-line =
+    .placeholder = Med wach achiel kachiel e laini
 
 ## ADD LANGUAGE
 
@@ -552,12 +602,22 @@ contribution-misreadings-title = Somo marach
 
 ## LOGIN
 
+sc-login-err-try-again = Tem kendo
 
 ## PROFILE
 
+sc-personal-err-remove = Ok anyal golo dhok
+sc-personal-your-languages = Dhowa:
+sc-personal-remove-button = Gol
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = weche { $sentences } maimedo
+sc-personal-not-added = pok imed dhok moro amora
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = Ngiyanena chenro
+sc-criteria-make-sure = Ngiyanena ni wechego oluwo chenro mochiew
 
 ## REVIEW
 
