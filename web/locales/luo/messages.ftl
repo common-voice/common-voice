@@ -27,7 +27,7 @@ error-clip-upload-server = Keto vidio machuokni osiko tamore e sava. Tem kendo
 
 ## Languages
 
-bg = dhobulgeria
+bg = Dhobulgeria
 da = Dhodenmak
 de = Dhojaman
 en = Dhongere
@@ -36,12 +36,18 @@ pa-IN = Dhopunjabi
 pl = Dhopoland
 pt = Dhoureno
 ru = dhorasia
-sco = dhoskotland
-sl = dhoslovenia
-so = dhosomalia
-sv-SE = dhoswiden
-sw = dhoswaili
-th = dhothai
+sco = Dhoskotland
+sl = Dhoslovenia
+so = Dhosomalia
+sv-SE = Dhoswiden
+sw = Dhoswaili
+th = Dhothai
+tr = Dhotaki
+vi = Dhovietnam
+yo = Dhoyoruba
+zh-CN = Dhochaina
+zh-HK = Dhochaina (hongkong)
+zh-TW = Dhochaina  miwacho Taiwan
 
 # [/]
 
