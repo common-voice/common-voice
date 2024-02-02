@@ -178,6 +178,9 @@ zza = Dhozaza
 speak = Wuo
 speak-now = Wuo sani
 about = Kuom
+partner = Wat
+profile = Picha
+help = Kony
 
 ## Home Page
 
