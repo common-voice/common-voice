@@ -177,6 +177,7 @@ zza = Dhozaza
 
 speak = Wuo
 speak-now = Wuo sani
+languages = Dhok
 about = Kuom
 partner = Wat
 profile = Picha
@@ -197,6 +198,8 @@ help-us-title = Konywa loso wechegi
 vote-yes = Ayie
 vote-no = ooyo
 speak-subtitle = Chiu duondi
+hours-recorded = Seche mondiki
+hours-validated = Seche monon
 ready-to-record = Iseikri ne chiwo duondi?
 
 ## Account Benefits
