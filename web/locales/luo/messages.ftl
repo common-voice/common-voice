@@ -186,9 +186,11 @@ privacy = Weche ma ng'ato owuon
 terms = Chike
 faq = Penjo ma sakasa
 share-title = Konywa yudo jomoko mondo okonywa kod duol
+donate = Chiu
 
 ## Home Page
 
+home-cta = Losi, chiu pachi ka!
 
 ## Account Benefits
 
@@ -207,6 +209,7 @@ share-title = Konywa yudo jomoko mondo okonywa kod duol
 
 ## ProjectStatus
 
+status-contribute = Chiu dwondi
 
 ## ProfileForm
 
@@ -225,6 +228,7 @@ share-title = Konywa yudo jomoko mondo okonywa kod duol
 
 ## How does it work section
 
+about-voice-contrib-subtitle = Ji biro to chiwo dwondegi kanyachiel
 
 ## Community Playbook Content
 ## What is a language
@@ -284,6 +288,7 @@ language = Dhok
 
 ## Contribution
 
+contribute = Chiu pachi
 
 ## Contribution Nav Items
 
