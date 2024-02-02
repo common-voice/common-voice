@@ -457,10 +457,21 @@ cant-decide = Ok inyal yiero?
 how-many-per-day = Ber ahinya! weche adiwa odiochieng kodiochieng?
 how-many-a-week = Ber ahinya! weche adi juma ka juma?
 which-goal-type = Idwaro loso koso idwaro chiko iti koso giduto?
-confirm-goal = Ngiyanena tie wachno
+confirm-goal = Ngiyanena chenro mari tiyo
+goal-interval-weekly = Juma ka juma
+share-goal-type-speak = Loso
+share-goal-type-listen = Chiko it
+share-goal-type-both = Loso kod chiko it
+weekly-goal-created = Chenro mari mar tiyo juma ka juma oselosi
+daily-goal-created = Chenro mari mar tiyo odiochieng ka odiochieng oselosi
+track-progress = Ngi e wang karatasni kaka idhi nyime
+return-to-edit-goal = Duog kae mondo ilos chenro mari mar tiyo saa asaya.
 
 ## Profile Delete
 
+keep = Kan
+remove = gol
+profile-form-delete = Gol Ranginy maga
 
 ## Profile Download
 
