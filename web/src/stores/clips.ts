@@ -55,7 +55,7 @@ async function removeClipsWithErrors(clips: Clip[]) {
     .map(clipWithErrors => clipWithErrors.clip);
 }
 
-const MIN_CACHE_SIZE = 10;
+const MIN_CACHE_SIZE = 50;
 
 // eslint-disable-next-line @typescript-eslint/no-namespace
 export namespace Clips {
