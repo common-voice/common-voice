@@ -10,6 +10,7 @@ submit-form-action = Or
 loading = Donjo
 email-opt-in-info = An gi gombo mar yudo barupe mag mbui kuom dongruok mara, parona kod weche matuch e oboke mar Common Voice
 email-opt-in-info-title = Donji e kanyakla mayudo barupe mawuok Common Voice
+email-opt-in-info-sub-with-challenge = Yudo barupe mag mbui kuom gik modhiero kod parona dwaro,  weche matuch kachiel gi weche mondiki manyien e Common Voice
 indicates-required = Kuonde mokete alama mar (*) dwarore.
 banner-error-slow-1 = Mos, Common Voice tiyo kata ringo mos. Erokamano kuom bedo gi siso.
 banner-error-slow-2 = Wayudo ji mathoth ahinya kendo wayongo tiend gima kelo mano.
