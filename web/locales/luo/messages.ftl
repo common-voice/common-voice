@@ -16,6 +16,7 @@ indicates-required = Kuonde mokete alama mar (*) dwarore.
 not-available-abbreviation = Ok dwarre
 banner-error-slow-1 = Mos, Common Voice tiyo kata ringo mos. Erokamano kuom bedo gi siso.
 banner-error-slow-2 = Wayudo ji mathoth ahinya kendo wayongo tiend gima kelo mano.
+banner-error-slow-link = Oboke mar chalmare
 error-something-went-wrong = Mos, gimoro ok odhi kare
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
