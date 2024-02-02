@@ -68,7 +68,7 @@ export const DonateModal = ({ onCloseDonateModal }: Props) => {
             <Localized id="donate-modal-explanation" elems={{ bold: <b /> }}>
               <p className="donate-modal-explanation" />
             </Localized>
-            <DonateButton onClick={onCloseDonateModal} />
+            <DonateButton onClick={onCloseDonateModal} showHeartIcon={false} />
           </div>
         </div>
       </div>

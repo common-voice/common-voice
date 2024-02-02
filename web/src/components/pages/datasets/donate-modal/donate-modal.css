@@ -108,6 +108,7 @@ body.ReactModal__Body--open {
                         border-radius: 8px;
                         background: var(--blue);
                         color: var(--white);
+                        text-transform: capitalize;
                     }
                 }
             }

@@ -94,7 +94,7 @@ const DatasetDownloadEmailPrompt = ({
   };
 
   const saveHasDownloaded = async () => {
-    if (!isMaxWidth) {
+    if (!isMaxWidth && canDownloadFile) {
       setShowDonateModal(true);
     }
 

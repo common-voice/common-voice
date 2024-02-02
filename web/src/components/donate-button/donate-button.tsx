@@ -10,11 +10,13 @@ import './donate-button.css'
 type DonateButtonProps = {
   shouldApplyRightMargin?: boolean
   onClick?: () => void
+  showHeartIcon?: boolean
 }
 
 const DonateButton = ({
   shouldApplyRightMargin,
   onClick,
+  showHeartIcon = true,
 }: DonateButtonProps) => (
   <LinkButton
     href="?form=FUNUAFTPPYR"
@@ -23,7 +25,7 @@ const DonateButton = ({
     })}
     rounded
     onClick={onClick}>
-    <HeartIcon />
+    {showHeartIcon && <HeartIcon />}
     <Localized id="donate" />
   </LinkButton>
 )
