@@ -7,13 +7,19 @@ return-to-cv = Dogi e Common Voice
 email-input =
     .label = Barup mbui
 submit-form-action = Or
-loading = Biro...
+loading = Donjo
 email-opt-in-info = An gi gombo mar yudo barupe mag mbui kuom dongruok mara, parona kod weche matuch e oboke mar Common Voice
 email-opt-in-info-title = Donji e kanyakla mayudo barupe mawuok Common Voice
+email-opt-in-info-sub-with-challenge = Yudo barupe mag mbui kuom gik modhiero kod parona dwaro,  weche matuch kachiel gi weche mondiki manyien e Common Voice
+email-opt-in-privacy-v2 = Kuom yie mar yudo barup mbui, ilero ni in kod yie ni Mozila biro rito weche tudruok kaka oyangi e Mozila's<privacyLink>Mosing Maling'ling'</privacyLink>.
 indicates-required = Kuonde mokete alama mar (*) dwarore.
+not-available-abbreviation = Ok dwarre
 banner-error-slow-1 = Mos, Common Voice tiyo kata ringo mos. Erokamano kuom bedo gi siso.
 banner-error-slow-2 = Wayudo ji mathoth ahinya kendo wayongo tiend gima kelo mano.
-error-something-went-wrong = Mos, gimoro ok odhi kare
+banner-error-slow-link = Oboke mar chalmare
+error-something-went-wrong = Mos, gimoro ok odhi maber
+error-clip-upload = Keto vidio machuokni osiko tamore, med temo?
+error-clip-upload-server = Keto vidio machuokni osiko tamore e sava. Tem kendo
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
