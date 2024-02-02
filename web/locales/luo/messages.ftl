@@ -18,6 +18,7 @@ banner-error-slow-1 = Mos, Common Voice tiyo kata ringo mos. Erokamano kuom bedo
 banner-error-slow-2 = Wayudo ji mathoth ahinya kendo wayongo tiend gima kelo mano.
 banner-error-slow-link = Oboke mar chalmare
 error-something-went-wrong = Mos, gimoro ok odhi kare
+error-clip-upload = Keto vidio machuokni osiko tamore, med temo
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
