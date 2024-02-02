@@ -224,7 +224,7 @@ const DatasetDownloadEmailPrompt = ({
             <div className="donate-btn-container">
               <DonateButton />
               <Localized
-                id="donate-button-explanation"
+                id="why-donate-datasets-page"
                 elems={{ b: <strong /> }}>
                 <p className="why-donate" />
               </Localized>
