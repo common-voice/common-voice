@@ -389,22 +389,63 @@ action-click = Yier
 action-tap = Go/mul
 contribute = Chiu pachi
 listen = Winji
+write = Ndiki
+review = Non kendo
+skip = kal
+shortcuts = Ngado machiek
+target-segment-add-voice = med duondi
+target-segment-learn-more = Med puonjori
 
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Choko dwol
+contribute-sentence-collection-nav-header = choko weche
 
 ## Reporting
 
+report = Ripot/duoko
+report-title = chiu ripot
+report-ask = En weche mage maiyudo kuom wechego?
+report-offensive-language = dhook maricho
+report-different-language = dhok mopogore
+success = Ber
+continue = dhi nyime
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Odiochieng
+       *[other] Odiochienge
+    }
+recordings =
+    { $count ->
+        [one] Mak duol
+       *[other] Mak duonde
+    }
 
 ## Dashboard
 
+you = In
+everyone = ji duto
+set-visibility = Kaka anene
+show-ranking = Nyis ranginy mara
 
 ## Custom Goals
 
+get-started-goals = Chak kod tie wach
+both-speak-and-listen = duto
+both-speak-and-listen-long = Giduto (wuoyo kod chiko it)
+daily-goal = Chenro mag tiyo odiochieng ka odiochieng
+weekly-goal = Chenro maag tiyo juma ka juma
+easy-difficulty = Mayot
+average-difficulty = Madiere
+difficult-difficulty = Matek
+pro-difficulty = lony'
+lose-goal-progress-warning = Sama iloko chenro mari mar tiyo, inyalo wito tie wachni
+want-to-continue = Bende idwaro dhi nyime?
+finish-editing = Tiek ngiyo ndikono maber mondi?
+lose-changes-warning = wuok sani biro miyo lokruok miseketo lal
 
 ## Profile Delete
 
