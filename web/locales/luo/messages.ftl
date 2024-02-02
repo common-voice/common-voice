@@ -236,22 +236,46 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Losi/Chung
 shortcut-rerecord-toggle = [1-5]
+shortcut-discard-ongoing-recording = ESC
+shortcut-submit = duogo
+request-language-button = Kwa dhok
 
 ## ProjectStatus
 
 status-contribute = Chiu dwondi
+english = Dhongere
 
 ## ProfileForm
 
+profile-form-language =
+    .label = Dhok
+profile-form-age =
+    .label = Higa
+hidden = Mopondo
+visible = Mineno
+profile-form-submit-save = Kan
+profile-form-submit-saved = Mosekan
+male = Dichuo
+female = Miyo
+# Gender
+other = Moko
+profile-close = Lor
+why-demographic = Ma omaki kod ango?
+login = Donji
+login-signup = Donji
+edit = Lok
 
 ## Profile - Email
 
 
 ## Profile - Email
 
+add-language = Med dhok moro
 
 ## FAQ
 
+faq-why-different-speakers-q = Angomomiyo udwaro ji mangeny mawacho dhok ka dhok?
+faq-why-my-lang-q = Angomomiyo dhowa ok omedi kanyo?
 
 ## ABOUT US
 
