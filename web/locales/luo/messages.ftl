@@ -181,6 +181,11 @@ about = Kuom
 partner = Wat
 profile = Picha
 help = Kony
+contact = Tudruok
+privacy = Weche ma ng'ato owuon
+terms = Chike
+faq = Penjo ma sakasa
+share-title = Konywa yudo jomoko mondo okonywa kod duol
 
 ## Home Page
 
