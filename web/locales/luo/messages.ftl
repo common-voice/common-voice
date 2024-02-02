@@ -42,6 +42,7 @@ br = Dhobreton
 bs = Dhobosnia
 byv = Dhomedumba
 ca = Dhokatalan
+cak = dhogwatamala
 cs = Dhochek
 cv = Dhochuvas
 cy = dhowels
@@ -341,6 +342,7 @@ about-playbook-how-project-governance = Ere kaka weche mag chenro go iloso?
 
 ## Glossary
 
+sentence-collection = choko weche
 
 ## Error pages
 
@@ -618,16 +620,60 @@ sc-personal-not-added = pok imed dhok moro amora
 
 sc-criteria-modal = Ngiyanena chenro
 sc-criteria-make-sure = Ngiyanena ni wechego oluwo chenro mochiew
+sc-criteria-item-1 = Wechego nyaka ndik maber
+sc-criteria-item-2 = Wechego nya ndik maber
+sc-criteria-item-3 = Wechego nyaka somre
 
 ## REVIEW
 
+sc-review-form-button-reject = Tamri
+sc-review-form-button-skip = kal
+sc-review-form-button-approve = Yiego
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = Tieko nono
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] onge weche mosenon
+        [one] wach achiel mosenon
+       *[other] weche { $sentences } mosenon. Erokamano!
+    }
+sc-review-form-review-failure = Weche mainonogo ok ne nyal kanore. Kiyie to tem kendo bange.
+sc-review-link = Non maber/ kendo
 
 ## SETTINGS
 
+sc-settings-title = chenro
+sc-validation-no-numbers = Weche ok oneg obed kod nembni
+sc-validation-no-symbols = Weche ok onego oting ranyisi
+sc-validation-no-abbreviations = weche mondiki ok onego oting alama mag wuoyo
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Yier dhok
+# PARTNERSHIPS PAGE
+partnerships-header = Riuruok
+partnerships-get-in-touch = Watudre
+partnerships-become-a-partner = Bed e riuruok ma Common Voice
+partnerships-our-partners = Jowa mawariworego
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Erokamano kuom chiwo duondi!
+first-cta-subtitle-text = Bende diher chiwo wach kaluowore kaka iwacho dhok?
 why-donate = Ango miyo ipenjo?
+add-information-button = Med wach
+continue-speaking-button = Ok kamano , med wuoyo
+thanks-for-voice-toast = Erokamano kuom chiwo wach duondi
+create-profile-button = Ket pichani
+voice-collection = Choko dwol / Choko duonde
+sentence-collection = choko weche
 
 ## REVIEW PAGE
 
