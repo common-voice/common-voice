@@ -475,15 +475,25 @@ profile-form-delete = Gol Ranginy maga
 
 ## Profile Download
 
+download-selected = Moseyier
+download-request = kwayo duonde
+download-request-refresh-button = Yaw Manyien
 
 ## Landing
 
+welcome-staff = Ruako jotij { $company }
 
 ## DemoLayout
 
+demo-get-started = Wachakuru
+demo-welcome = Waruaki Common Voice
 
 ## Demo Datasets
 
+card-button-next = Machielo
+card-button-back = chien
+demo-language-select-label = Ngiane dhok mopogore
+demo-eofy-header = Weche mag giko higa 2019
 
 ## Demo Account
 
@@ -497,6 +507,10 @@ demo-listen-subtitle = Iseikri ne chiuruok?
 
 ## Validation criteria
 
+contribution-criteria-nav = Chenro
+contribution-criteria-link = Winj maber chenro mag chiuruok
+contribution-for-example = Ranyisi
+contribution-misreadings-title = Somo marach
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
