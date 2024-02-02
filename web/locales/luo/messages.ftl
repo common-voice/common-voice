@@ -186,11 +186,17 @@ privacy = Weche ma ng'ato owuon
 terms = Chike
 faq = Penjo ma sakasa
 share-title = Konywa yudo jomoko mondo okonywa kod duol
+logout = Wuogi
 donate = Chiu
 
 ## Home Page
 
 home-cta = Losi, chiu pachi ka!
+show-wall-of-text = Som mangeny
+help-us-title = Konywa loso wechegi
+vote-yes = Ayie
+vote-no = ooyo
+speak-subtitle = Chiu duondi
 
 ## Account Benefits
 
@@ -292,6 +298,7 @@ contribute = Chiu pachi
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Choko dwol
 
 ## Reporting
 
@@ -325,6 +332,7 @@ contribute = Chiu pachi
 
 ## Demo Contribute
 
+demo-listen-subtitle = Iseikri ne chiuruok?
 
 ## Demo Dashboard
 
