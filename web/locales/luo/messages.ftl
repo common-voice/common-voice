@@ -159,16 +159,25 @@ ty = Dhotahiti
 tyv = Dhotuvan
 ve = Dhoshivenda
 vi = Dhovietnam
+vmw = Dhoemakuwa
+wo = Dhowalof
+xh = Dhohosa
 yo = Dhoyoruba
+yue = Dhokantonese
 zh-CN = Dhochaina
-zh-HK = Dhochaina (hongkong)
+zh-HK = Dhochaina miwacho Hongkong
 zh-TW = Dhochaina  miwacho Taiwan
+zu = Dhozulu
+zza = Dhozaza
 
 # [/]
 
 
 ## Layout
 
+speak = Wuo
+speak-now = Wuo sani
+about = Kuom
 
 ## Home Page
 
@@ -248,6 +257,7 @@ zh-TW = Dhochaina  miwacho Taiwan
 
 ## Datasets Page
 
+language = Dhok
 
 ## Download Modal
 
