@@ -17,8 +17,9 @@ not-available-abbreviation = Ok dwarre
 banner-error-slow-1 = Mos, Common Voice tiyo kata ringo mos. Erokamano kuom bedo gi siso.
 banner-error-slow-2 = Wayudo ji mathoth ahinya kendo wayongo tiend gima kelo mano.
 banner-error-slow-link = Oboke mar chalmare
-error-something-went-wrong = Mos, gimoro ok odhi kare
-error-clip-upload = Keto vidio machuokni osiko tamore, med temo
+error-something-went-wrong = Mos, gimoro ok odhi maber
+error-clip-upload = Keto vidio machuokni osiko tamore, med temo?
+error-clip-upload-server = Keto vidio machuokni osiko tamore e sava. Tem kendo
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
