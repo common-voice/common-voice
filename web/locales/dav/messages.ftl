@@ -132,6 +132,27 @@ mdf = Kimokisha
 mg = Kimalagasi
 mhr = Kimari cha Nyasinyi
 mk = Kimasedonia
+ml = Kimalayalami
+mn = Kimongolia
+mni = Kimetei Loni
+mos = Kimossi
+mr = Kimarathi
+mrj = Kimari cha Mghondinyi
+ms = Kimalei
+mt = Kimalta
+my = Kibama
+myv = Kierizia
+nan-tw = Kitaiwani (Minani)
+nb-NO = Kibokumali cha Norwei
+nd = Kindew'ele
+ne-NP = Kinepali
+nhe = Kinawatili cha Wasteka Mashariki
+nhi = Kinawatili cha Siera Puew'ula
+nia = Kiniasi
+nl = Kiholanzi
+nn-NO = Kinainorski cha Norwei
+nr = Kindew'ele cha Isi
+nso = Kisutu cha Lughu
 
 # [/]
 
