@@ -59,6 +59,8 @@ cs = Kicheki
 cv = Kichuvashi
 cy = Kiwalesi
 da = Kidenishi
+dag = Kidaw'ani
+de = Kijeremani
 
 # [/]
 
