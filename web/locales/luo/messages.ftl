@@ -27,6 +27,7 @@ error-clip-upload-server = Keto vidio machuokni osiko tamore e sava. Tem kendo
 
 ## Languages
 
+ab = Dho jo Abkhaz
 af = Dhoafrikans
 am = Dhoamharic
 ar = Dhoarab
@@ -82,6 +83,7 @@ hyw = Dhoarmenia ma podho chieng
 ia = Dhok molosi kaluwore gi weche mogol e dho kisungu maji jotiyogo ahinya. kendo dhokni inyalo tigo e puonjruok mar masinde￼Type
 id = Dhoindonesia
 ig = Dhoigbo
+is = Dho jojaman modak Iceland
 it = Dhoitali
 ja = Dhojapan
 jbo = Dholoban
@@ -133,6 +135,7 @@ ro = Dhoromania
 ru = dhorasia
 rw = Dhokinyarwanda
 sah = Dhosaka
+sat = Dho joindia. ￼Type
 sc = Dhosadini
 scn = Dhosisili
 sco = Dhoskotland
