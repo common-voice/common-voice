@@ -169,6 +169,7 @@ tt = Dhotatar
 tw = Dhotwi
 ty = Dhotahiti
 tyv = Dhotuvan
+uby = Dho Ubik
 ve = Dhoshivenda
 vi = Dhovietnam
 vmw = Dhoemakuwa
