@@ -79,6 +79,7 @@ ht = Dhohaiti
 hu = Dhohungari
 hy-AM = Dhoarmenia
 hyw = Dhoarmenia ma podho chieng
+ia = Dhok molosi kaluwore gi weche mogol e dho kisungu maji jotiyogo ahinya. kendo dhokni inyalo tigo e puonjruok mar masinde￼Type
 id = Dhoindonesia
 ig = Dhoigbo
 it = Dhoitali
