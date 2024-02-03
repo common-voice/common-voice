@@ -153,6 +153,9 @@ nl = Kiholanzi
 nn-NO = Kinainorski cha Norwei
 nr = Kindew'ele cha Isi
 nso = Kisutu cha Lughu
+ny = Kinyanja
+nyn = Kinkole
+oc = Kiositani
 
 # [/]
 
