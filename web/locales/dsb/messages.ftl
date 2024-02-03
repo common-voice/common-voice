@@ -724,7 +724,6 @@ number-of-voices = Licba głosow
 splits = Rozdźělenja
 email-to-download = E-mailowu adresu za ześěgnjenje zapódaś
 why-email = <b>Cogodla e-mailowa adresa?</b> Musymy se snaź z wami w pśichoźe wó změnach na datowej sajźbje do zwiska stajiś, e-mailowa adresa nam kontaktowu móžnosć dawa.
-why-donate = Cogodla se pšašaśo?
 confirm-size = Sćo za start ześěgnjenja wjelikosći <b>{ $size }</b> spśigótowany
 size-gigabyte = GB
 size-megabyte = MB
@@ -1593,6 +1592,7 @@ background-noise-tip-2 = [Źěl teksta njejo słyšaś]
 background-voices-example-1 = Wjelicke dinosawriery triasa. [cyta se wót jadnogo głosa]
 still-have-questions = Maśo hyšći pšašanja?
 contact-common-voice = Stajśo z teamom Common Voice do zwiska
+public-domain = Zjawnje wužywajobny
 citing-sentences = Sady citěrowaś
 adding-sentences = Sady pśidaś
 reviewing-sentences = Sady pśeglědaś
@@ -1602,6 +1602,7 @@ citing-sentences-subheader-offline-sources = Žrědła offline
 citation =
     .label = Citat
 self-citation = Sebjecitěrowanje
+self-citation-explanation = Tak citěrujośo samogo, jolic sćo napisał wopśimjeśe sam.
 adding-sentences-subheader-length = Dłujkosć
 adding-sentences-subheader-length-explanation = Sada dejała mjenjej ako 15 słowow měś.
 adding-sentences-subheader-spelling-punctuation = Pšawopis a interpunkcija
@@ -1618,6 +1619,7 @@ reviewing-sentences-explanation-2 = Jolic sada kriterijam górjejce njewótpowě
 reviewing-sentences-explanation-4 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
 sentence =
     .label = Sada
+sentence-input-value = Zapódajśo how swóju zjawnje wužywajobnu sadu
 citation-input-value = Žrědło wašeje sady
 citation =
     .label = Citat
@@ -1647,6 +1649,9 @@ sc-redirect-page-subtitle-2 = Stajśo nam pšašanja na <matrixLink>Matrix</matr
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Nagrajśo <icon></icon> zjawnje wužywajobne sady
+sc-bulk-upload-instruction = Śěgniśo swóju dataju sem abo <uploadButton>klikniśo za nagrawanje</uploadButton>
 select-file = Dataju wubraś
 select-file-mobile = Wubjeŕśo dataju za nagraśe
 accepted-files = Akceptěrowane datajowe typy: jano .tsv
