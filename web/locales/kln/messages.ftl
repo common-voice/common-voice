@@ -7,6 +7,7 @@ return-to-cv = wegun gei common  voice.
 email-input =
     .label = emailit
 submit-form-action = yokten
+loading = tesetai....
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
