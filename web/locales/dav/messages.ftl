@@ -61,7 +61,7 @@ cy = Kiwalesi
 da = Kidenishi
 dag = Kidaw'ani
 de = Kijeremani
-dsb = Kisorow'ian Cha Isi
+dsb = Kisorow'ia Cha Isi
 dv = Kidivei
 dyu = Kidula
 el = Kigiriki
@@ -156,6 +156,12 @@ nso = Kisutu cha Lughu
 ny = Kinyanja
 nyn = Kinkole
 oc = Kiositani
+om = Kiromo
+or = Kiodia
+os = Kioseti
+pa-IN = Kipunjabi
+pap-AW = Kipapiamento cha Aruba
+pl = Kipolandi
 
 # [/]
 
