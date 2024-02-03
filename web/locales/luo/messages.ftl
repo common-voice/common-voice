@@ -201,6 +201,8 @@ donate = Chiu
 
 ## Home Page
 
+home-title = Common Voice mar Mozilla en chenro mar puonjo  masinde kaka dhano wuoyo.
+default-tagline = Mozilla Commin Voice en chenro mar konyo masinde kaka dhano wuoyo.
 home-cta = Losi, chiu pachi ka!
 show-wall-of-text = Som mangeny
 help-us-title = Konywa loso wechegi
