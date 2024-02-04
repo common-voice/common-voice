@@ -278,9 +278,23 @@ listen-subtitle = Konywa nono duonde makare
 listen-goal-text = Duonde momak machuk mosenon
 hours-recorded = Seche mondiki
 hours-validated = Seche monon
+voices-online = Dwol e intanet koro
+todays-progress = Dongruok ma kawuono
+help-reach-goal = Konywa chopo e oreya
+read-terms-q = Bende isesomo chike wa?
 ready-to-record = Iseikri ne chiwo duondi?
 all-locales = Duto
 today = Kawuono
+x-weeks-short =
+    { $count ->
+        [one] Juma
+       *[other] Kwan mar jumbe
+    }
+x-months-short =
+    { $count ->
+        [one] Dwe
+       *[other] Kwan mar dweche
+    }
 
 ## Account Benefits
 
@@ -408,9 +422,12 @@ about-playbook-how-record-content-3 = Som weche go duto maler - kik iwe moro amo
 
 about-playbook-how-validate = Ere kaka anyalo ngeyo ni apuotho duol mosemaki koso?
 about-playbook-how-validate-content-2 = <strong>Kik iwed duonde machuok ma jomoko omako nikech gin kod kabind duol mopogore ni mari<strong> - nikech duonde ji duto beyo to konyo masinde ng'eyo duonde jiduto.
+about-playbook-how-validate-content-3 = Kiparo ni kaka osom wechego miyo <strong> wechego bedo matek ng'eyo</strong>, kata kaponi nitie <strong>   koko mangeny mawinjore </strong>, kata ka nitie <strong>jomoko wuoyo be</strong>, to ikwayo mondo iwed duol momakno. <accuracyLink> Som mangeny kuom puonjruok mawaketo kanyo mar lony madwarore</accuracyLink>
+about-playbook-how-validate-content-4 = To ka duol momaki okwed gi ji ariyo (2), ibiro gole e migawo mopogore e kwan mar weche.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Ere kaka anyalo yudo kendo tiyo kod kwan mar wechego?
 
 ## How are decisions made
 
@@ -441,6 +458,17 @@ review-delete-recordings = Ruch gik mane amakogo
 ## Datasets Page
 
 language = Dhok
+# File size in gigabytes
+size = Duong'
+validated-hr-total = Kwan seche duto mosenon
+splits = Pogruok
+email-to-download = Keti barup mbui ekinyal golo
+size-gigabyte = GB
+feedback-q = Ingi duoko?
+go-discourse = Dhiye thuon wach
+more = Mangeny moloyo
+# dataset metadata - age of contributor
+dataset-metadata-age = Iga
 
 ## Download Modal
 
@@ -552,6 +580,7 @@ return-to-edit-goal = Duog kae mondo ilos chenro mari mar tiyo saa asaya.
 
 ## Profile Delete
 
+delete-q = Bende idwaroni duondi misemaki mondo oruchi, koso diher mondo okan gi e migawo mar Common Voice.
 keep = Kan
 remove = gol
 profile-form-delete = Gol Ranginy maga
