@@ -367,6 +367,7 @@ goals = Dwache
 settings = chenro
 profile-close = Lor
 why-demographic = Ma omaki kod ango?
+accept-privacy = An kare gi mulo wachni kaka uwache e chike mag weche mopondo mag Mozilla
 login = Donji
 login-signup = Donji
 edit = Lok
