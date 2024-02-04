@@ -272,6 +272,8 @@ no-clips-to-validate = Nenoreni ni onge sani weche momaki mangato nyalo chikone 
 vote-yes = Ayie
 vote-no = ooyo
 speak-subtitle = Chiu duondi
+speak-goal-text = Duol machuok momaki
+listen-subtitle = Konywa nono duonde makare
 hours-recorded = Seche mondiki
 hours-validated = Seche monon
 ready-to-record = Iseikri ne chiwo duondi?
@@ -742,6 +744,8 @@ thanks-for-voice-toast = Erokamano kuom chiwo wach duondi
 create-profile-button = Ket pichani
 voice-collection = Choko dwol / Choko duonde
 sentence-collection = choko weche
+still-have-questions = Pod in kod penjo?
+contact-common-voice = Tudri kod jo Common Voice kuom penjo moroamora
 
 ## REVIEW PAGE
 
