@@ -274,6 +274,7 @@ vote-no = ooyo
 speak-subtitle = Chiu duondi
 speak-goal-text = Duol machuok momaki
 listen-subtitle = Konywa nono duonde makare
+listen-goal-text = Duonde momak machuk mosenon
 hours-recorded = Seche mondiki
 hours-validated = Seche monon
 ready-to-record = Iseikri ne chiwo duondi?
@@ -314,6 +315,7 @@ shortcut-record-toggle-label = Losi/Chung
 shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = duogo
+shortcut-submit-label = Kan dunde machuok
 request-language-button = Kwa dhok
 
 ## ProjectStatus
@@ -394,6 +396,7 @@ about-playbook-how-add-sentences = Ere kaka anyalo medo weche?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Ere kaka anyalo mako duol machuok kod ranginy mamalo?
 about-playbook-how-record-content-2 = Bed kama onge koko - kamokwe mondo wawinji maler.
 about-playbook-how-record-content-3 = Som weche go duto maler - kik iwe moro amora kata kik imed wecheni iwuon.
 
@@ -746,6 +749,10 @@ voice-collection = Choko dwol / Choko duonde
 sentence-collection = choko weche
 still-have-questions = Pod in kod penjo?
 contact-common-voice = Tudri kod jo Common Voice kuom penjo moroamora
+public-domain = Aluora ma galamoro
+citing-sentences = Wacho  weche mosendiki
+adding-sentences = medo weche manyien
+reviewing-sentences = Nono weche mosendiki
 
 ## REVIEW PAGE
 
