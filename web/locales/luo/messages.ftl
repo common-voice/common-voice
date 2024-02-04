@@ -275,6 +275,7 @@ speak-subtitle = Chiu duondi
 speak-paragraph = Mako duod ji mawuoyo en achiel kuom gik mawatiyogo mondo wager dechwa moyangore; jomoko nyalo wacho ni bende enie mokelo mor timo.￼Type
 speak-goal-text = Duol machuok momaki
 listen-subtitle = Konywa nono duonde makare
+listen-paragraph = Nono duonde momaki bende ber ahinya kaluwore kod gombo mar Common Voice. Yie ikaw thuolo ichik iti kendo ikonywa loso kwan duonde maler ma oganda nyalo tiyogo.
 listen-goal-text = Duonde momak machuk mosenon
 hours-recorded = Seche mondiki
 hours-validated = Seche monon
@@ -295,6 +296,13 @@ x-months-short =
         [one] Dwe
        *[other] Kwan mar dweche
     }
+x-years-short =
+    { $count ->
+        [one] higa
+       *[other] kwan mar higni
+    }
+help-make-dataset = Konywa loso deche maberie moloyo, mar oganda moyaore
+email-subscription-title = yaw barup mbui ma mari iwuon
 
 ## Account Benefits
 
@@ -342,6 +350,8 @@ english = Dhongere
 
 profile-form-language =
     .label = Dhok
+profile-form-variant =
+    .label = Iwacho loko mar dholuo mane?
 profile-form-age =
     .label = Higa
 hidden = Mopondo
@@ -580,7 +590,7 @@ return-to-edit-goal = Duog kae mondo ilos chenro mari mar tiyo saa asaya.
 
 ## Profile Delete
 
-delete-q = Bende idwaroni duondi misemaki mondo oruchi, koso diher mondo okan gi e migawo mar Common Voice.
+delete-q = Bende idwaroni duondi misemaki mondo oruchi, koso diher mondo okan gi e kwan mar weche mar Common Voice?
 keep = Kan
 remove = gol
 profile-form-delete = Gol Ranginy maga
@@ -606,6 +616,7 @@ card-button-next = Machielo
 card-button-back = chien
 demo-language-select-label = Ngiane dhok mopogore
 demo-eofy-header = Weche mag giko higa 2019
+demo-account = Akaunt
 
 ## Demo Account
 
