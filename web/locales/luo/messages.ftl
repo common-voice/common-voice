@@ -250,6 +250,8 @@ faq = Penjo ma sakasa
 content-license-text = weche duto mondik yudore e <licenseLink>Creative Commons license</licenseLink>
 share-title = Konywa yudo jomoko mondo okonywa kod duol
 share-text = Konywa puonjo masinde kaka dhano wuoyo kaeto imed duondi e { $link }
+link-copied = Weche moyudore osekopi
+back-top = Dog malo
 logout = Wuogi
 donate = Chiu
 
@@ -258,6 +260,7 @@ donate = Chiu
 home-title = Common Voice mar Mozilla en chenro mar puonjo  masinde kaka dhano wuoyo.
 default-tagline = Mozilla Commin Voice en chenro mar konyo masinde kaka dhano wuoyo.
 home-cta = Losi, chiu pachi ka!
+wall-of-text-start = Duol en gima omi dhano nono, Duol en mar dhano. Mano emomiyo wamor kuom loso teknologi matiyo gi duol e masinde. To mondo walos teknologi ma tiyo gi duol, duond ji mangeny mochoki dwarore.
 show-wall-of-text = Som mangeny
 help-us-title = Konywa loso wechegi
 vote-yes = Ayie
