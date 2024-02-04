@@ -310,6 +310,7 @@ benefits = Ber
 
 ## What's public
 
+demographic-deidentified-clarity-2 = Kihero to weche mawuoyo kuomi (kaka iki, chal mari ka in dichuo kata dhako, dhok miwacho, kod kit loso mari) ok bi ket ayanga e karatasi, to ok bitud gi akaunt mari e kwan mar weche. To duol ma ngato ochiwo ibiro tud kod weche mawuoyo kuome mana mondo okony tiegruok - kuom ranyisi, ngato nyalo dwaro loso teknologia mana matiyogi gimoro achiel.
 
 ## Speak & Listen Shortcuts
 
@@ -362,6 +363,8 @@ male = Dichuo
 female = Miyo
 # Gender
 other = Moko
+goals = Dwache
+settings = chenro
 profile-close = Lor
 why-demographic = Ma omaki kod ango?
 login = Donji
@@ -514,6 +517,13 @@ write = Ndiki
 review = Non kendo
 skip = kal
 shortcuts = Ngado machiek
+clips-with-count-pluralized =
+    { $count ->
+        [one] duol momaki
+       *[other] duonde momaki
+    }
+record-again-instruction = Ber! <recordIcon></recordIcon> Mak duondi maluwo
+review-tooltip = Non kendo kaeto ichak imak duolno kae kimedodhi
 target-segment-add-voice = med duondi
 target-segment-learn-more = Med puonjori
 
