@@ -272,6 +272,7 @@ no-clips-to-validate = Nenoreni ni onge sani weche momaki mangato nyalo chikone 
 vote-yes = Ayie
 vote-no = ooyo
 speak-subtitle = Chiu duondi
+speak-paragraph = Mako duod ji mawuoyo en achiel kuom gik mawatiyogo mondo wager dechwa moyangore; jomoko nyalo wacho ni bende enie mokelo mor timo.￼Type
 speak-goal-text = Duol machuok momaki
 listen-subtitle = Konywa nono duonde makare
 listen-goal-text = Duonde momak machuk mosenon
@@ -405,6 +406,8 @@ about-playbook-how-record-content-3 = Som weche go duto maler - kik iwe moro amo
 
 ## How to validate
 
+about-playbook-how-validate = Ere kaka anyalo ngeyo ni apuotho duol mosemaki koso?
+about-playbook-how-validate-content-2 = <strong>Kik iwed duonde machuok ma jomoko omako nikech gin kod kabind duol mopogore ni mari<strong> - nikech duonde ji duto beyo to konyo masinde ng'eyo duonde jiduto.
 
 ## How to access dataset
 
