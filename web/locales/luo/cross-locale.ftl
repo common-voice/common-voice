@@ -3,7 +3,7 @@
 contribute = Chiu pachi
 get-involved-button = Donjri
 get-involved-title = chiw pachi e { $lang }
-get-involved-text = Erokamano ni chung mar dwaro chiwo pacho ne { $lang }. watiyo matek mondo waik dhok duto kendo wachoni  kanyakla duto weche manyien kokalo kuom barup mbui. ka idwaro chiwo pachi to chiw barupi mar mbui piny kanyo.
+get-involved-text = Erokamano ni chung mar dwaro chiwo pacho ne { $lang }. Watiyo matek mondo waik dhok duto kendo wachoni  kanyakla duto weche manyien kokalo kuom barup mbui. Ka idwaro chiwo pachi to chiw barupi mar mbui piny kanyo.
 get-involved-form-title = Kwayo bedo achiel kuom yudo weche { $lang } manyien
 get-involved-email =
     .label = Barup mbui
