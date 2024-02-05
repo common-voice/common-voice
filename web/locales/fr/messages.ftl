@@ -755,7 +755,6 @@ number-of-voices = Nombre de voix
 splits = Répartition
 email-to-download = Saisissez votre adresse e-mail pour accéder au téléchargement
 why-email = <b>Pourquoi demandons-nous une adresse e-mail ?</b> Nous aurons peut-être besoin de vous contacter plus tard pour des modifications du jeu de données, votre adresse e-mail nous le permettra.
-why-donate = Pourquoi cette question ?
 confirm-size = Vous vous apprêtez à lancer un téléchargement de <b>{ $size }</b>
 size-gigabyte = Go
 size-megabyte = Mo
@@ -1534,8 +1533,8 @@ sc-review-form-button-submit =
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Aucune phrase vérifiée.
-        [one] Une phrase vérifiée. Merci !
-       *[other] { $phrases } phrases vérifiées. Merci !
+        [1] Une phrase vérifiée. Merci !
+       *[other] { $sentences } phrases vérifiées. Merci !
     }
 sc-review-form-review-failure = La vérification n’a pas pu être enregistrée. Veuillez réessayer plus tard.
 sc-review-link = Révision

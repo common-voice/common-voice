@@ -1,10 +1,10 @@
-export type TaxonomyToken = 'singlewordBenchmark' | 'covid19Spotter';
+export type TaxonomyToken = 'singlewordBenchmark' | 'covid19Spotter'
 
 export type TaxonomyType = {
-  name: string;
-  source: string;
-  locales: string[];
-};
+  name: string
+  source: string
+  locales: string[]
+}
 
 export const taxonomies: { [key in TaxonomyToken]: TaxonomyType } = {
   singlewordBenchmark: {
@@ -30,7 +30,7 @@ export const taxonomies: { [key in TaxonomyToken]: TaxonomyType } = {
     source: 'du-covid-keywords',
     locales: ['rw'],
   },
-};
+}
 
 export const sentenceDomains = [
   'agriculture',
