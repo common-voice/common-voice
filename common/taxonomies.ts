@@ -31,3 +31,20 @@ export const taxonomies: { [key in TaxonomyToken]: TaxonomyType } = {
     locales: ['rw'],
   },
 };
+
+export const sentenceDomains = [
+  'agriculture',
+  'automotive',
+  'finance',
+  'food_service_retail',
+  'general',
+  'healthcare',
+  'history_law_government',
+  'language_fundamentals',
+  'media_entertainment',
+  'nature_environment',
+  'news_current_affairs',
+  'technology_robotics',
+] as const
+
+export type SentenceDomain = typeof sentenceDomains[number]
