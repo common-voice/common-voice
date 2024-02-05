@@ -405,6 +405,7 @@ about-speak = Losi / wuo
 about-listen = Chik iti
 about-is-it-valid = Be duol momakino ni kare?
 about-is-it-valid-text = Duol momaki ni "kare" ka ngato opuodhe ni en kare.
+about-yes-votes-text = Mondo duol momaki odonjie deche mar duol mar Common Voice, duol momaki yaka puodhi gi ji ariyo mopogore.
 about-get-involved = Donjie e riuruok
 about-stay-in-touch = Ere kaka anyalo tudora kodu?
 about-nav-why-common-voice = Nango?
@@ -530,6 +531,7 @@ clips-with-count-pluralized =
     }
 record-again-instruction = Ber! <recordIcon></recordIcon> Mak duondi maluwo
 review-tooltip = Non kendo kaeto ichak imak duolno kae kimedodhi
+clips-uploaded = Duonde momaki mosekan
 record-abort-submit = Or duonde momaki
 target-segment-add-voice = med duondi
 target-segment-learn-more = Med puonjori
@@ -566,6 +568,8 @@ recordings =
 
 you = In
 everyone = ji duto
+recorded-clips = Duonde momaki
+validated-clips = Duonde mopuodhi
 set-visibility = Kaka anene
 show-ranking = Nyis ranginy mara
 
