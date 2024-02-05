@@ -3,9 +3,9 @@ import { SentenceDomain, SentenceSubmissionError } from 'common'
 export type SingleSubmissionWriteState = {
   sentence: string
   citation: string
+  sentenceDomain?: SentenceDomain
   error: SentenceSubmissionError
   confirmPublicDomain: boolean
-  sentenceDomain?: SentenceDomain
 }
 
 export enum SingleSubmissionWriteActionType {
@@ -87,8 +87,8 @@ export const singleSubmissionWriteReducer = (
         ...state,
         sentence: '',
         citation: '',
-        sentenceDomain: undefined,
         confirmPublicDomain: false,
+        sentenceDomain: '' as SentenceDomain,
         error: undefined,
       }
 

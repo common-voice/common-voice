@@ -111,6 +111,7 @@ const SingleSubmissionWrite: React.FC<SingleSubmissionWriteProps> = ({
       source: state.citation,
       localeId,
       localeName: currentLocale,
+      domain: state.sentenceDomain,
     }
 
     try {

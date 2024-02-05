@@ -72,7 +72,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               data-testid="sentence-domain-select">
               <option value="" />
               {Object.entries(SENTENCE_DOMAIN_MAPPING).map(([key, value]) => (
-                <option key={key} value={value}>
+                <option key={key} value={key}>
                   {l10n.getString(key, null, value)}
                 </option>
               ))}
