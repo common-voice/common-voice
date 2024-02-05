@@ -406,6 +406,7 @@ about-listen = Chik iti
 about-is-it-valid = Be duol momakino ni kare?
 about-is-it-valid-text = Duol momaki ni "kare" ka ngato opuodhe ni en kare.
 about-yes-votes-text = Mondo duol momaki odonjie deche mar duol mar Common Voice, duol momaki yaka puodhi gi ji ariyo mopogore.
+about-clip-graveyard = Liendi duol
 about-get-involved = Donjie e riuruok
 about-stay-in-touch = Ere kaka anyalo tudora kodu?
 about-nav-why-common-voice = Nango?
@@ -531,8 +532,11 @@ clips-with-count-pluralized =
     }
 record-again-instruction = Ber! <recordIcon></recordIcon> Mak duondi maluwo
 review-tooltip = Non kendo kaeto ichak imak duolno kae kimedodhi
+review-instruction = Ngi kendo dual misemako kaeto ichaki mak duol kendo kaponi dwarore
 clips-uploaded = Duonde momaki mosekan
 record-abort-submit = Or duonde momaki
+record-abort-delete = Wuogi kaeto iruch duonde mosemaki
+listen-abort-title = Isetieko puotho duonde momaki?
 target-segment-add-voice = med duondi
 target-segment-learn-more = Med puonjori
 
@@ -548,6 +552,7 @@ report-title = chiu ripot
 report-ask = En weche mage maiyudo kuom wechego?
 report-offensive-language = dhook maricho
 report-different-language = dhok mopogore
+report-offensive-speech-detail = Duol momaki ni otingo weche maonge luor kendo dhok maricho.
 success = Ber
 continue = dhi nyime
 
@@ -566,6 +571,7 @@ recordings =
 
 ## Dashboard
 
+clips-you-recorded = Duonde misemako
 you = In
 everyone = ji duto
 recorded-clips = Duonde momaki
@@ -599,6 +605,11 @@ cant-decide = Ok inyal yiero?
 how-many-per-day = Ber ahinya! weche adiwa odiochieng kodiochieng?
 how-many-a-week = Ber ahinya! weche adi juma ka juma?
 which-goal-type = Idwaro loso koso idwaro chiko iti koso giduto?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] duol { $count }
+       *[other] duonde { $count }
+    }
 confirm-goal = Ngiyanena chenro mari tiyo
 goal-interval-weekly = Juma ka juma
 share-goal-type-speak = Loso
