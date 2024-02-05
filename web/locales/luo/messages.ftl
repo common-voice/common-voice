@@ -307,6 +307,7 @@ email-subscription-title = yaw barup mbui ma mari iwuon
 ## Account Benefits
 
 benefits = Ber
+rich-data = Or wecheni mochanoreno to kik iket nyingi kata higa mari ok dwar ni mago ofweny
 
 ## What's public
 
@@ -337,6 +338,7 @@ shortcut-vote-no = n
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Losi/Chung
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Nuo mako duol
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = duogo
 shortcut-submit-label = Kan dunde machuok
@@ -398,8 +400,11 @@ faq-search-for-answers =
 about-sentence-collection-title = Choko weche
 about-voice-contrib-title = Choko duonde
 about-voice-contrib-subtitle = Ji biro to chiwo dwondegi kanyachiel
+about-voice-validation-subtitle = Jomoko puotho duonde momakigo
 about-speak = Losi / wuo
 about-listen = Chik iti
+about-is-it-valid = Be duol momakino ni kare?
+about-is-it-valid-text = Duol momaki ni "kare" ka ngato opuodhe ni en kare.
 about-get-involved = Donjie e riuruok
 about-stay-in-touch = Ere kaka anyalo tudora kodu?
 about-nav-why-common-voice = Nango?
@@ -525,6 +530,7 @@ clips-with-count-pluralized =
     }
 record-again-instruction = Ber! <recordIcon></recordIcon> Mak duondi maluwo
 review-tooltip = Non kendo kaeto ichak imak duolno kae kimedodhi
+record-abort-submit = Or duonde momaki
 target-segment-add-voice = med duondi
 target-segment-learn-more = Med puonjori
 
