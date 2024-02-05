@@ -1,6 +1,6 @@
 import { pipe } from 'fp-ts/lib/function'
-import { insertBulkSentencesIntoDb, insertSentenceIntoDb } from '../../repository/sentences-repository'
-import { either as E, taskEither as TE } from 'fp-ts'
+import { insertBulkSentencesIntoDb } from '../../repository/sentences-repository'
+import { taskEither as TE } from 'fp-ts'
 import { AddBulkSentencesCommand } from './command/add-bulk-sentences-command'
 import { readTsvIntoMemory } from '../../../../infrastructure/parser/tsvParser'
 
