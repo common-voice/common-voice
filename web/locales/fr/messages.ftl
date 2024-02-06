@@ -410,8 +410,6 @@ native-language =
 profile-form-add-accent = Ajouter un nouvel accent personnalisé « { $inputValue } »
 profile-form-submit-save = Enregistrer
 profile-form-submit-saved = Enregistré
-male = Masculin
-female = Féminin
 # Gender
 other = Autre
 why-profile-title = Pourquoi créer un profil ?
@@ -1646,6 +1644,7 @@ public-domain = Domaine public
 citing-sentences = Citation de phrases
 adding-sentences = Ajout de phrases
 reviewing-sentences = Vérification de phrases
+domain = Domaine
 public-domain-explanation-1 = Il est très important que toutes les phrases du texte soient dans le <publicDomain>domaine public</publicDomain> (<cc0>cc0</cc0>), car le jeu de données de Common Voice est publié sous licence cc0. Envoyez une phrase uniquement si vous en êtes sûr·e et ajoutez toujours la citation pertinente.
 public-domain-explanation-2 = Les meilleures phrases pour créer un moteur de reconnaissance vocale utile sont des phrases informelles issues du langage moderne. Voici quelques idées pour vous aider à générer des phrases :
 public-domain-explanation-3 = Rédigez des phrases modernes et informelles vous-même ou avec vos amis ou votre communauté linguistique, par exemple via un évènement dédié à la rédaction de contenus.
@@ -1684,7 +1683,11 @@ reviewing-sentences-explanation-1 = Si la phrase répond aux critères ci-dessus
 reviewing-sentences-explanation-2 = Si la phrase ne répond pas aux critères ci-dessus, cliquez sur le bouton « Non ».
 reviewing-sentences-explanation-3 = Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 reviewing-sentences-explanation-4 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
-# WRITE PAGE
+# Indicates that the domain of a sentence is general
+sentence-domain-general = Général
+
+## WRITE PAGE
+
 write-instruction = Ajoutez <icon></icon> une phrase du domaine public
 write-page-subtitle = Les phrases fournies ici seront ajoutées à un jeu de données public sous licence cc-0.
 sentence =
