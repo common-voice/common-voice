@@ -1244,6 +1244,7 @@ sc-lang-info-validated =
 
 ## LOGIN
 
+sc-login-err-failed = C'hwitadenn war ar c'hennask
 sc-login-err-try-again = Klaskit en-dro mar plij.
 
 ## PROFILE
