@@ -1690,15 +1690,20 @@ reviewing-sentences-explanation-1 = Si la phrase répond aux critères ci-dessus
 reviewing-sentences-explanation-2 = Si la phrase ne répond pas aux critères ci-dessus, cliquez sur le bouton « Non ».
 reviewing-sentences-explanation-3 = Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 reviewing-sentences-explanation-4 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
+domain-explanation = Le domaine fait référence au sujet de la phrase. Actuellement, vous pouvez choisir entre :
 # Indicates that the domain of a sentence is general
 sentence-domain-general = Général
 sentence-domain-agriculture = Agriculture
+sentence-domain-automotive = Automobile
 sentence-domain-finance = Finance
 sentence-domain-food-service-retail = Nourriture, service et vente au détail
 sentence-domain-healthcare = Santé
 sentence-domain-history-law-government = Histoire, droit et gouvernement
 sentence-domain-media-entertainment = Médias et divertissement
 sentence-domain-nature-environment = Nature et environnement
+sentence-domain-news-current-affairs = Actualités
+sentence-domain-technology-robotics = Technologie et robotique
+sentence-domain-language-fundamentals = Principes de base des langues (chiffres, lettres, argent)
 
 ## WRITE PAGE
 
@@ -1732,8 +1737,12 @@ single-sentence-submission = Envoi de phrase unique
 bulk-sentence-submission = Envoi de plusieurs phrases
 single-sentence = Phrase unique
 bulk-sentences = Plusieurs phrases
+sentence-domain =
+    .label = Domaine de la phrase
 # Sentence Domain dropdown option
 agriculture = Agriculture
+# Sentence Domain dropdown option
+automotive = Automobile
 # Sentence Domain dropdown option
 finance = Finance
 # Sentence Domain dropdown option
@@ -1745,9 +1754,15 @@ healthcare = Santé
 # Sentence Domain dropdown option
 history_law_government = Histoire, droit et gouvernement
 # Sentence Domain dropdown option
+language_fundamentals = Principes de base des langues (chiffres, lettres, argent)
+# Sentence Domain dropdown option
 media_entertainment = Médias et divertissement
 # Sentence Domain dropdown option
 nature_environment = Nature et environnement
+# Sentence Domain dropdown option
+news_current_affairs = Actualités
+# Sentence Domain dropdown option
+technology_robotics = Technologie et robotique
 
 ## REVIEW PAGE
 
