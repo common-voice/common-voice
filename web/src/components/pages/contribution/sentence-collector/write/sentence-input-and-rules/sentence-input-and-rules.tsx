@@ -63,7 +63,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               dataTestId="sentence-textarea"
             />
           </Localized>
-          <Localized id="sentence-domain" attrs={{ label: true }}>
+          <Localized id="sentence-domain-select" attrs={{ label: true }}>
             <LabeledSelect
               value={sentenceDomain}
               onChange={handleSentenceDomainChange}

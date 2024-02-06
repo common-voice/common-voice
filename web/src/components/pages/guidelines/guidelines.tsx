@@ -86,7 +86,11 @@ const Guidelines = () => {
           <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
             <nav>
               <ul>
-                {Object.keys(VOICE_NAV_IDS).map(key => (
+                {(
+                  Object.keys(VOICE_NAV_IDS) as Array<
+                    keyof typeof VOICE_NAV_IDS
+                  >
+                ).map(key => (
                   <li key={VOICE_NAV_IDS[key]}>
                     <div className="line" />
                     <Link
@@ -113,7 +117,11 @@ const Guidelines = () => {
           <TabPanel selectedClassName="tabpanel--selected" className="tabpanel">
             <nav>
               <ul>
-                {Object.keys(SENTENCE_NAV_IDS).map(key => (
+                {(
+                  Object.keys(SENTENCE_NAV_IDS) as Array<
+                    keyof typeof SENTENCE_NAV_IDS
+                  >
+                ).map(key => (
                   <li key={SENTENCE_NAV_IDS[key]}>
                     <div className="line" />
                     <Link

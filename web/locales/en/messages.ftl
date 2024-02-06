@@ -1677,7 +1677,7 @@ public-domain = Public Domain
 citing-sentences = Citing Sentences
 adding-sentences = Adding Sentences
 reviewing-sentences = Reviewing Sentences
-domain = Domain
+sentence-domain = Sentence Domain
 public-domain-explanation-1 = It is very important that all text sentences are <publicDomain>public domain</publicDomain> (<cc0>cc0</cc0>) as the Common Voice dataset is released under a cc0 license. Only ever upload a sentence if you are sure, and always include the relevant citation.
 public-domain-explanation-2 = The best sentences for building a useful speech recognition engine are colloquial, modern parlance. Some ideas to help you generate sentences are;
 public-domain-explanation-3 = Create modern, colloquial sentences by yourself or with your friends or language community - for example through a ‘write-a-thon’
@@ -1717,19 +1717,6 @@ reviewing-sentences-explanation-2 = If the sentence does not meet the above crit
 reviewing-sentences-explanation-3 = If you are unsure about the sentence, you may also skip it and move on to the next one.
 reviewing-sentences-explanation-4 = If you run out of sentences to review, please help us collect more sentences!
 domain-explanation = Domain refers to the subject matter of the sentence. Currently, you can choose between:
-# Indicates that the domain of a sentence is general
-sentence-domain-general = General
-sentence-domain-agriculture = Agriculture
-sentence-domain-automotive = Automotive
-sentence-domain-finance = Finance
-sentence-domain-food-service-retail = Food, Service and Retail
-sentence-domain-healthcare = Healthcare
-sentence-domain-history-law-government = History, Law and Government
-sentence-domain-media-entertainment = Media and Entertainment
-sentence-domain-nature-environment = Nature and Environment
-sentence-domain-news-current-affairs = News and Current Affairs
-sentence-domain-technology-robotics = Technology and Robotics
-sentence-domain-language-fundamentals = Language Fundamentals (e.g. Digits, Letters, Money)
 
 ## WRITE PAGE
 write-instruction = Add <icon></icon> a public domain sentence
@@ -1762,7 +1749,7 @@ single-sentence-submission = Single Sentence Submission
 bulk-sentence-submission = Bulk Sentence Submission
 single-sentence = Single Sentence
 bulk-sentences = Bulk Sentences
-sentence-domain =
+sentence-domain-select =
     .label = Sentence Domain
 # Sentence Domain dropdown option
 agriculture = Agriculture

@@ -146,6 +146,7 @@ nan-tw = Dhotawanese ma Minnan
 nb-NO = Dhonorwegia ma Bokmal
 nd = Dhoisindebele ma nyanduat
 ne-NP = Dhonepali
+nhe = Dho jomeksik['
 nia = Dhonias
 nl = Dhokaburu
 nr = Dhoisindebele ma milambo
@@ -271,6 +272,7 @@ help-us-explain = Di tugo, chik iti kaeto inyiswa: Be wach moket piny kanyo osom
 no-clips-to-validate = Nenoreni ni onge sani weche momaki mangato nyalo chikone ite. Yie ikonywa pongo laini kod mako duondi sani.
 vote-yes = Ayie
 vote-no = ooyo
+toggle-play-tooltip = Di { shortcut-play-toggle } mondo ilok  idhi kuma inyalo tugo
 speak-subtitle = Chiu duondi
 speak-paragraph = Mako duod ji mawuoyo en achiel kuom gik mawatiyogo mondo wager dechwa moyangore; jomoko nyalo wacho ni bende enie mokelo mor timo.￼Type
 speak-goal-text = Duol machuok momaki
@@ -302,16 +304,28 @@ x-years-short =
        *[other] kwan mar higni
     }
 help-make-dataset = Konywa loso deche maberie moloyo, mar oganda moyaore
+sign-up-account = Yaw akaont mamari iwuon
 email-subscription-title = yaw barup mbui ma mari iwuon
+email-subscription-title-new = Donjie Common Voice mondi iyud otegi mag oboke, inyal parni chenro mari mar tiyo kod kit dongruok.
 
 ## Account Benefits
 
 benefits = Ber
 rich-data = Or wecheni mochanoreno to kik iket nyingi kata higa mari ok dwar ni mago ofweny
+improve-audio = Weche michiwo mawuoyo kuomi koriwore gi deche duol momaki miyo teknoloji molosi mar ngeyo kit dunde ti maber.
+keep-track = Yie ilim dongruok mari kaluwore kod tich misetimo e dhok mopogore opogore.
+compare-progress = Ne kaka dongruok mari pimore kod oganda mamoko e piny ngima.
+view-goals = Ne dongruok mari to pime gi chenro mari miketo mar tiyo kod dongruok madwarore e chenroni.
+join-newsletter = Kihero to inyalo donjo e barupwa mar mbui mondo iyudi weche manyien kuom chenroni.
 
 ## What's public
 
+whats-public = Angoma nitie e ayanga?
+email-not-public = Ok wabiketo barupi mar mbui ayanga.
+recordings-and-locale-public = Kwan duonde misemako kod dhok miyie chiurine ibiro ket ayanga.
+username-optin-public = Inyalo yiero keto nyingi mitiyo donjie chenroni ayanga kata inyalo pande.
 demographic-deidentified-clarity-2 = Kihero to weche mawuoyo kuomi (kaka iki, chal mari ka in dichuo kata dhako, dhok miwacho, kod kit loso mari) ok bi ket ayanga e karatasi, to ok bitud gi akaunt mari e kwan mar weche. To duol ma ngato ochiwo ibiro tud kod weche mawuoyo kuome mana mondo okony tiegruok - kuom ranyisi, ngato nyalo dwaro loso teknologia mana matiyogi gimoro achiel.
+username-email-not-demographic = Nyingi mitiyogo donjie chenroni kod barupi mar mbui ok bitud gi deche moket ayanga.
 
 ## Speak & Listen Shortcuts
 
@@ -340,12 +354,15 @@ shortcut-record-toggle-label = Losi/Chung
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nuo mako duol
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Ruchi duol mimako sani
 shortcut-submit = duogo
 shortcut-submit-label = Kan dunde machuok
+request-language-text = Okineno dhou e Common Voice?
 request-language-button = Kwa dhok
 
 ## ProjectStatus
 
+status-title = Chutho tich dhi nade nyaka newachaki: ne kuma waseae!
 status-contribute = Chiu dwondi
 english = Dhongere
 
@@ -361,8 +378,6 @@ hidden = Mopondo
 visible = Mineno
 profile-form-submit-save = Kan
 profile-form-submit-saved = Mosekan
-male = Dichuo
-female = Miyo
 # Gender
 other = Moko
 goals = Dwache
@@ -539,6 +554,8 @@ review-instruction = Ngi kendo dual misemako kaeto ichaki mak duol kendo kaponi 
 clips-uploaded = Duonde momaki mosekan
 record-abort-submit = Or duonde momaki
 record-abort-delete = Wuogi kaeto iruch duonde mosemaki
+listen-empty-state = Nenore ni watieko duonde momaki - temane yao kalatas kendo kata ang item bange.
+listen-loading-error = Nok wanyal yudoni duonde momaki minyalo chike iti. Wakwayo ni item kendo bange.
 listen-abort-title = Isetieko puotho duonde momaki?
 target-segment-add-voice = med duondi
 target-segment-learn-more = Med puonjori
@@ -825,12 +842,16 @@ thanks-for-voice-toast = Erokamano kuom chiwo wach duondi
 create-profile-button = Ket pichani
 voice-collection = Choko dwol / Choko duonde
 sentence-collection = choko weche
+background-voices-explanation = Koko matin kawinjore e duol momaki ok rach, to kaponi inyalo winjo ng'at moro kawuonyo gietoke, duol momaki no onengo kwedi. Mae timorega ka ngato oweyo TV nono, kata kaponi jomoko wuoyo machiengni.
 still-have-questions = Pod in kod penjo?
 contact-common-voice = Tudri kod jo Common Voice kuom penjo moroamora
 public-domain = Aluora ma galamoro
 citing-sentences = Wacho  weche mosendiki
 adding-sentences = medo weche manyien
 reviewing-sentences = Nono weche mosendiki
+
+## WRITE PAGE
+
 
 ## REVIEW PAGE
 
