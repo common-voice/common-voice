@@ -1728,6 +1728,9 @@ sentence-domain-healthcare = Egészségügy
 sentence-domain-history-law-government = Történelem, jog és kormányzás
 sentence-domain-media-entertainment = Média és szórakoztatóipar
 sentence-domain-nature-environment = Természet és környezetvédelem
+sentence-domain-news-current-affairs = Hírek és aktuális témák
+sentence-domain-technology-robotics = Technológia és robotika
+sentence-domain-language-fundamentals = Nyelvi alapok (például számok, betűk, pénz)
 
 ## WRITE PAGE
 
@@ -1761,6 +1764,32 @@ single-sentence-submission = Egy mondatos beküldés
 bulk-sentence-submission = Mondatok tömeges beküldése
 single-sentence = Egyetlen mondat
 bulk-sentences = Több mondat
+sentence-domain =
+    .label = Mondatdomén
+# Sentence Domain dropdown option
+agriculture = Mezőgazdaság
+# Sentence Domain dropdown option
+automotive = Autóipar
+# Sentence Domain dropdown option
+finance = Pénzügy
+# Sentence Domain dropdown option
+food_service_retail = Élelmiszer, szolgáltatás és kiskereskedelem
+# Sentence Domain dropdown option
+general = Általános
+# Sentence Domain dropdown option
+healthcare = Egészségügy
+# Sentence Domain dropdown option
+history_law_government = Történelem, jog és kormányzás
+# Sentence Domain dropdown option
+language_fundamentals = Nyelvi alapok (például számok, betűk, pénz)
+# Sentence Domain dropdown option
+media_entertainment = Média és szórakoztatóipar
+# Sentence Domain dropdown option
+nature_environment = Természet és környezetvédelem
+# Sentence Domain dropdown option
+news_current_affairs = Hírek és aktuális témák
+# Sentence Domain dropdown option
+technology_robotics = Technológia és robotika
 
 ## REVIEW PAGE
 
