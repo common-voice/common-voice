@@ -272,6 +272,7 @@ help-us-explain = Di tugo, chik iti kaeto inyiswa: Be wach moket piny kanyo osom
 no-clips-to-validate = Nenoreni ni onge sani weche momaki mangato nyalo chikone ite. Yie ikonywa pongo laini kod mako duondi sani.
 vote-yes = Ayie
 vote-no = ooyo
+toggle-play-tooltip = Di { shortcut-play-toggle } mondo ilok  idhi kuma inyalo tugo
 speak-subtitle = Chiu duondi
 speak-paragraph = Mako duod ji mawuoyo en achiel kuom gik mawatiyogo mondo wager dechwa moyangore; jomoko nyalo wacho ni bende enie mokelo mor timo.￼Type
 speak-goal-text = Duol machuok momaki
