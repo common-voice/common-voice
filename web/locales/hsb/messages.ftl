@@ -407,6 +407,12 @@ native-language =
 profile-form-add-accent = Nowy swójski akcent „{ $inputValue }“ přidać
 profile-form-submit-save = Składować
 profile-form-submit-saved = Składowany
+male_masculine = Muski
+female_feminine = Žónski
+intersex = Interseksualny
+transgender = Transgender
+non-binary = Njebinarne
+do_not_wish_to_say = Nochcu podać
 # Gender
 other = Druhe
 why-profile-title = Čehodla profil?
@@ -1638,9 +1644,29 @@ required-field = Prošu wupjelńće tute polo.
 single-sentence = Jedna sada
 bulk-sentences = Wjele sadow
 # Sentence Domain dropdown option
+agriculture = Ratarstwo
+# Sentence Domain dropdown option
+automotive = Awta
+# Sentence Domain dropdown option
+finance = Financy
+# Sentence Domain dropdown option
+food_service_retail = Cyroba, posłužba a předań
+# Sentence Domain dropdown option
 general = Powšitkowne
 # Sentence Domain dropdown option
 healthcare = Strowotnistwo
+# Sentence Domain dropdown option
+history_law_government = Stawizny, prawnistwo a knježerstwo
+# Sentence Domain dropdown option
+language_fundamentals = Rěčne zakłady (na pr. cyfry, pismiki, pjenjezy)
+# Sentence Domain dropdown option
+media_entertainment = Medije a zabawjenje
+# Sentence Domain dropdown option
+nature_environment = Přiroda a wobswět
+# Sentence Domain dropdown option
+news_current_affairs = Nowinki a aktualne naležnosće
+# Sentence Domain dropdown option
+technology_robotics = Technologija a robotika
 
 ## REVIEW PAGE
 
