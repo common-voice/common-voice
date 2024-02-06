@@ -14,10 +14,10 @@ const sentenceDomains = [
   'general',
   'healthcare',
   'history_law_government',
+  'language_fundamentals',
   'media_entertainment',
   'nature_environment',
   'news_current_affairs',
-  'language_fundamentals',
   'technology_robotics',
 ]
 
@@ -31,7 +31,7 @@ export const SentenceDomain: React.FC<SidebarContentProps> = ({
     <div className="sidebar-content" id={id}>
       <span className="line" />
       <div className="sidebar-content-header">
-        <Localized id="domain">
+        <Localized id="sentence-domain">
           <TextButton
             onClick={toggleVisibleSection}
             className="guidelines-content-heading"
