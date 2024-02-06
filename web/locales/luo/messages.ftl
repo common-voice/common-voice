@@ -146,6 +146,7 @@ nan-tw = Dhotawanese ma Minnan
 nb-NO = Dhonorwegia ma Bokmal
 nd = Dhoisindebele ma nyanduat
 ne-NP = Dhonepali
+nhe = Dho jomeksik['
 nia = Dhonias
 nl = Dhokaburu
 nr = Dhoisindebele ma milambo
@@ -361,8 +362,6 @@ hidden = Mopondo
 visible = Mineno
 profile-form-submit-save = Kan
 profile-form-submit-saved = Mosekan
-male = Dichuo
-female = Miyo
 # Gender
 other = Moko
 goals = Dwache
@@ -539,6 +538,8 @@ review-instruction = Ngi kendo dual misemako kaeto ichaki mak duol kendo kaponi 
 clips-uploaded = Duonde momaki mosekan
 record-abort-submit = Or duonde momaki
 record-abort-delete = Wuogi kaeto iruch duonde mosemaki
+listen-empty-state = Nenore ni watieko duonde momaki - temane yao kalatas kendo kata ang item bange.
+listen-loading-error = Nok wanyal yudoni duonde momaki minyalo chike iti. Wakwayo ni item kendo bange.
 listen-abort-title = Isetieko puotho duonde momaki?
 target-segment-add-voice = med duondi
 target-segment-learn-more = Med puonjori
@@ -825,12 +826,16 @@ thanks-for-voice-toast = Erokamano kuom chiwo wach duondi
 create-profile-button = Ket pichani
 voice-collection = Choko dwol / Choko duonde
 sentence-collection = choko weche
+background-voices-explanation = Koko matin kawinjore e duol momaki ok rach, to kaponi inyalo winjo ng'at moro kawuonyo gietoke, duol momaki no onengo kwedi. Mae timorega ka ngato oweyo TV nono, kata kaponi jomoko wuoyo machiengni.
 still-have-questions = Pod in kod penjo?
 contact-common-voice = Tudri kod jo Common Voice kuom penjo moroamora
 public-domain = Aluora ma galamoro
 citing-sentences = Wacho  weche mosendiki
 adding-sentences = medo weche manyien
 reviewing-sentences = Nono weche mosendiki
+
+## WRITE PAGE
+
 
 ## REVIEW PAGE
 
