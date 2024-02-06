@@ -1,8 +1,9 @@
-import { SentenceSubmissionError } from 'common'
+import { SentenceDomain, SentenceSubmissionError } from 'common'
 
 export type SingleSubmissionWriteState = {
   sentence: string
   citation: string
+  sentenceDomain?: SentenceDomain
   error: SentenceSubmissionError
   confirmPublicDomain: boolean
 }
@@ -11,6 +12,7 @@ export enum SingleSubmissionWriteActionType {
   SET_PUBLIC_DOMAIN = 'SET_PUBLIC_DOMAIN',
   SET_SENTENCE = 'SET_SENTENCE',
   SET_CITATION = 'SET_CITATION',
+  SET_SENTENCE_DOMAIN = 'SET_SENTENCE_DOMAIN',
   ADD_SENTENCE_SUCCESS = 'ADD_SENTENCE_SUCCESS',
   ADD_SENTENCE_ERROR = 'ADD_SENTENCE_ERROR',
 }
@@ -29,6 +31,11 @@ type SetCitationAction = {
   payload: { citation: string }
 }
 
+type SetSingleSentenceDomain = {
+  type: SingleSubmissionWriteActionType.SET_SENTENCE_DOMAIN
+  payload: { sentenceDomain: SentenceDomain }
+}
+
 type AddSentenceSuccessAction = {
   type: SingleSubmissionWriteActionType.ADD_SENTENCE_SUCCESS
 }
@@ -44,6 +51,7 @@ type Action =
   | SetCitationAction
   | AddSentenceSuccessAction
   | AddSentenceErrorAction
+  | SetSingleSentenceDomain
 
 export const singleSubmissionWriteReducer = (
   state: SingleSubmissionWriteState,
@@ -68,12 +76,19 @@ export const singleSubmissionWriteReducer = (
         citation: action.payload.citation,
       }
 
+    case SingleSubmissionWriteActionType.SET_SENTENCE_DOMAIN:
+      return {
+        ...state,
+        sentenceDomain: action.payload.sentenceDomain,
+      }
+
     case SingleSubmissionWriteActionType.ADD_SENTENCE_SUCCESS:
       return {
         ...state,
         sentence: '',
         citation: '',
         confirmPublicDomain: false,
+        sentenceDomain: '' as SentenceDomain,
         error: undefined,
       }
 

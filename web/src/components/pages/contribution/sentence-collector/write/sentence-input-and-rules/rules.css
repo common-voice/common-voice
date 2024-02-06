@@ -117,9 +117,14 @@
 }
 
 .rules.write-rules {
-    @media (--lg-up) {
-        height: calc(30vh + 92px);
-        min-height: 360px;
+    @media (--xl-up) {
+        height: calc(30vh + 82px);
+        min-height: 440px;
+        max-height: 500px;
+    }
+
+    @media (--lg-only) {
+        max-height: 445px;
     }
 
     @media (--md-down) {

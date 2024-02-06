@@ -14,7 +14,11 @@ import { useLocale } from '../../../../../locale-helpers'
 
 import { SentenceInputAndRules } from '../sentence-input-and-rules/sentence-input-and-rules'
 import { Sentences } from '../../../../../../stores/sentences'
-import { SentenceSubmission, SentenceSubmissionError } from 'common'
+import {
+  SentenceDomain,
+  SentenceSubmission,
+  SentenceSubmissionError,
+} from 'common'
 import { Notifications } from '../../../../../../stores/notifications'
 import { useAction, useLanguages } from '../../../../../../hooks/store-hooks'
 import {
@@ -34,6 +38,7 @@ export type SingleSubmissionWriteProps = WithLocalizationProps
 const initialState: SingleSubmissionWriteState = {
   sentence: '',
   citation: '',
+  sentenceDomain: undefined,
   error: undefined,
   confirmPublicDomain: false,
 }
@@ -89,6 +94,15 @@ const SingleSubmissionWrite: React.FC<SingleSubmissionWriteProps> = ({
     })
   }
 
+  const handleSentenceDomainChange = (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
+    singleSubmissionWriteDispatch({
+      type: SingleSubmissionWriteActionType.SET_SENTENCE_DOMAIN,
+      payload: { sentenceDomain: event.target.value as SentenceDomain },
+    })
+  }
+
   const handleSubmit = async (evt: React.SyntheticEvent) => {
     evt.preventDefault()
 
@@ -97,6 +111,7 @@ const SingleSubmissionWrite: React.FC<SingleSubmissionWriteProps> = ({
       source: state.citation,
       localeId,
       localeName: currentLocale,
+      domain: state.sentenceDomain,
     }
 
     try {
@@ -143,8 +158,10 @@ const SingleSubmissionWrite: React.FC<SingleSubmissionWriteProps> = ({
           getString={getString}
           handleSentenceInputChange={handleSentenceInputChange}
           handleCitationChange={handleCitationChange}
+          handleSentenceDomainChange={handleSentenceDomainChange}
           sentence={state.sentence}
           citation={state.citation}
+          sentenceDomain={state?.sentenceDomain}
           error={state.error}
         />
       </div>

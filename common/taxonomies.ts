@@ -44,7 +44,7 @@ export const sentenceDomains = [
   'media_entertainment',
   'nature_environment',
   'news_current_affairs',
-  'technology_robotics ',
+  'technology_robotics',
 ] as const
 
 export type SentenceDomain = typeof sentenceDomains[number]
