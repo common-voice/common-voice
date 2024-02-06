@@ -77,7 +77,7 @@
     }
 
     & label.sentence-domain-select {
-        margin-block-end: 40px;
+        margin-block-end: 36px;
     }
 
     & label.sentence-input.sentence-error,
@@ -124,14 +124,6 @@
                     border-radius: 4px;
                     color: var(--white);
                     font-size: var(--font-size-xs);
-                }
-            }
-
-            & .write-rules {
-                min-height: 443px;
-
-                @media (--lg-only) {
-                    max-height: 445px;
                 }
             }
         }
