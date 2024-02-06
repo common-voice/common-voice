@@ -315,10 +315,17 @@ rich-data = Or wecheni mochanoreno to kik iket nyingi kata higa mari ok dwar ni 
 improve-audio = Weche michiwo mawuoyo kuomi koriwore gi deche duol momaki miyo teknoloji molosi mar ngeyo kit dunde ti maber.
 keep-track = Yie ilim dongruok mari kaluwore kod tich misetimo e dhok mopogore opogore.
 compare-progress = Ne kaka dongruok mari pimore kod oganda mamoko e piny ngima.
+view-goals = Ne dongruok mari to pime gi chenro mari miketo mar tiyo kod dongruok madwarore e chenroni.
+join-newsletter = Kihero to inyalo donjo e barupwa mar mbui mondo iyudi weche manyien kuom chenroni.
 
 ## What's public
 
+whats-public = Angoma nitie e ayanga?
+email-not-public = Ok wabiketo barupi mar mbui ayanga.
+recordings-and-locale-public = Kwan duonde misemako kod dhok miyie chiurine ibiro ket ayanga.
+username-optin-public = Inyalo yiero keto nyingi mitiyo donjie chenroni ayanga kata inyalo pande.
 demographic-deidentified-clarity-2 = Kihero to weche mawuoyo kuomi (kaka iki, chal mari ka in dichuo kata dhako, dhok miwacho, kod kit loso mari) ok bi ket ayanga e karatasi, to ok bitud gi akaunt mari e kwan mar weche. To duol ma ngato ochiwo ibiro tud kod weche mawuoyo kuome mana mondo okony tiegruok - kuom ranyisi, ngato nyalo dwaro loso teknologia mana matiyogi gimoro achiel.
+username-email-not-demographic = Nyingi mitiyogo donjie chenroni kod barupi mar mbui ok bitud gi deche moket ayanga.
 
 ## Speak & Listen Shortcuts
 
@@ -347,12 +354,15 @@ shortcut-record-toggle-label = Losi/Chung
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nuo mako duol
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Ruchi duol mimako sani
 shortcut-submit = duogo
 shortcut-submit-label = Kan dunde machuok
+request-language-text = Okineno dhou e Common Voice?
 request-language-button = Kwa dhok
 
 ## ProjectStatus
 
+status-title = Chutho tich dhi nade nyaka newachaki: ne kuma waseae!
 status-contribute = Chiu dwondi
 english = Dhongere
 
