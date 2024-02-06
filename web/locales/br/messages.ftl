@@ -414,6 +414,9 @@ native-language =
 profile-form-add-accent = Ouzhpennañ ar pouez-mouezh personelaet nevez "{ $inputValue }"
 profile-form-submit-save = Enrollañ
 profile-form-submit-saved = Enrollet
+male_masculine = Gourel
+female_feminine = Benel
+transgender = Treuzjener
 # Gender
 other = All
 why-profile-title = Perak ur profil?
@@ -731,6 +734,9 @@ close = Serriñ
 download = Pellgargañ
 dataset-version = Stumm
 clipboard-not-supported = N’eo ket skoret ar golver
+dataset-metadata-sex = Reizh
+# dataset metadata - age of contributor
+dataset-metadata-age = Oad
 
 ## Download Modal
 
@@ -780,6 +786,8 @@ language-section-in-progress = War ober
 language-section-in-progress-new-description = Ar yezhoù-mañ a zo war ziorren gant ar gumuniezh evit ar mare. Ar barrennoù araokadur a ziskouez pegen pell eo aet pep yezh evit <localizationGlossaryLink>treiñ al lec’hienn</localizationGlossaryLink> ha <sentenceCollectionGlossaryLink>dastum frazennoù</sentenceCollectionGlossaryLink>.
 language-section-launched = Loc’het
 language-section-launched-description = Evit ar yezhoù lañset-mañ eo bet <localizationGlossaryLink>troet</localizationGlossaryLink> al lec’hienn ha dastumet eo bet trawalc’h a <sentenceCollectionGlossaryLink>frazennoù</sentenceCollectionGlossaryLink> evit aotren kendaoladoù <speakLink>Komz</speakLink> ha <listenLink>Selaou</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Hizivaet da ziwezhañ: { $lastUpdatedTimeStamp }
 languages-show-more = Gouzout hiroc’h
 languages-show-less = Gwelet nebeutoc’h
 language-meter-in-progress = War ober
@@ -1056,6 +1064,7 @@ download-request-button = Pellgargañ
 download-request-title = { $created }
 download-request-refresh-button = Freskaat
 download-request-modal-title = Liammoù pellgargañ
+download-request-link-text = Zip n°{ $offset } diwar { $total }
 download-request-metadata-link = Testenn ar frazenn
 
 ## Landing
@@ -1202,6 +1211,7 @@ sc-add-lang-sec-button = Ouzhpennañ ur yezh
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Kadarnaat ar frazennoù nevez
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
