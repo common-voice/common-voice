@@ -1651,7 +1651,8 @@ public-domain = Domaine public
 citing-sentences = Citation de phrases
 adding-sentences = Ajout de phrases
 reviewing-sentences = Vérification de phrases
-domain = Domaine
+sentence-domain =
+    .label = Domaine de la phrase
 public-domain-explanation-1 = Il est très important que toutes les phrases du texte soient dans le <publicDomain>domaine public</publicDomain> (<cc0>cc0</cc0>), car le jeu de données de Common Voice est publié sous licence cc0. Envoyez une phrase uniquement si vous en êtes sûr·e et ajoutez toujours la citation pertinente.
 public-domain-explanation-2 = Les meilleures phrases pour créer un moteur de reconnaissance vocale utile sont des phrases informelles issues du langage moderne. Voici quelques idées pour vous aider à générer des phrases :
 public-domain-explanation-3 = Rédigez des phrases modernes et informelles vous-même ou avec vos amis ou votre communauté linguistique, par exemple via un évènement dédié à la rédaction de contenus.
@@ -1691,19 +1692,6 @@ reviewing-sentences-explanation-2 = Si la phrase ne répond pas aux critères ci
 reviewing-sentences-explanation-3 = Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 reviewing-sentences-explanation-4 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 domain-explanation = Le domaine fait référence au sujet de la phrase. Actuellement, vous pouvez choisir entre :
-# Indicates that the domain of a sentence is general
-sentence-domain-general = Général
-sentence-domain-agriculture = Agriculture
-sentence-domain-automotive = Automobile
-sentence-domain-finance = Finance
-sentence-domain-food-service-retail = Nourriture, service et vente au détail
-sentence-domain-healthcare = Santé
-sentence-domain-history-law-government = Histoire, droit et gouvernement
-sentence-domain-media-entertainment = Médias et divertissement
-sentence-domain-nature-environment = Nature et environnement
-sentence-domain-news-current-affairs = Actualités
-sentence-domain-technology-robotics = Technologie et robotique
-sentence-domain-language-fundamentals = Principes de base des langues (chiffres, lettres, argent)
 
 ## WRITE PAGE
 
@@ -1737,7 +1725,7 @@ single-sentence-submission = Envoi de phrase unique
 bulk-sentence-submission = Envoi de plusieurs phrases
 single-sentence = Phrase unique
 bulk-sentences = Plusieurs phrases
-sentence-domain =
+sentence-domain-select =
     .label = Domaine de la phrase
 # Sentence Domain dropdown option
 agriculture = Agriculture
