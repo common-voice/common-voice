@@ -7,21 +7,21 @@ import { TextButton } from '../../../../ui/ui'
 import { ChevronDown } from '../../../../ui/icons'
 
 const sentenceDomains = [
-  'sentence-domain-general',
-  'sentence-domain-agriculture',
-  'sentence-domain-automotive',
-  'sentence-domain-finance',
-  'sentence-domain-food-service-retail',
-  'sentence-domain-healthcare',
-  'sentence-domain-history-law-government',
-  'sentence-domain-media-entertainment',
-  'sentence-domain-nature-environment',
-  'sentence-domain-news-current-affairs',
-  'sentence-domain-technology-robotics',
-  'sentence-domain-language-fundamentals',
+  'agriculture',
+  'automotive',
+  'finance',
+  'food_service_retail',
+  'general',
+  'healthcare',
+  'history_law_government',
+  'media_entertainment',
+  'nature_environment',
+  'news_current_affairs',
+  'language_fundamentals',
+  'technology_robotics',
 ]
 
-export const Domain: React.FC<SidebarContentProps> = ({
+export const SentenceDomain: React.FC<SidebarContentProps> = ({
   id,
   contentVisible,
   toggleVisibleSection,
@@ -48,8 +48,8 @@ export const Domain: React.FC<SidebarContentProps> = ({
             <p className="guidelines-content-explanation" />
           </Localized>
           <ul>
-            {sentenceDomains.map(domain => (
-              <Localized id={domain} key={domain}>
+            {sentenceDomains.map(sentenceDomain => (
+              <Localized id={sentenceDomain} key={sentenceDomain}>
                 <li />
               </Localized>
             ))}
