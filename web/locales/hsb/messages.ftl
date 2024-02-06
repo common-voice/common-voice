@@ -407,8 +407,6 @@ native-language =
 profile-form-add-accent = Nowy swójski akcent „{ $inputValue }“ přidać
 profile-form-submit-save = Składować
 profile-form-submit-saved = Składowany
-male = Muski
-female = Źónski
 # Gender
 other = Druhe
 why-profile-title = Čehodla profil?
@@ -724,7 +722,6 @@ number-of-voices = Ličba hłosow
 splits = Poddźělenja
 email-to-download = E-mejlowu adresu za sćehnjenje zapodać
 why-email = <b>Čehodla e-mejlowa adresa?</b> Dyrbimy so snano z wami w přichodźe wo změnach na datowej sadźbje do zwiska stajić, e-mejlowa adresa nam kontaktowu móžnosć dawa.
-why-donate = Čehodla so prašeće?
 confirm-size = Sće za start sćehnjenja wulkosće <b>{ $size }</b> přihotowany
 size-gigabyte = GB
 size-megabyte = MB
@@ -1616,6 +1613,9 @@ adding-sentences-subheader-offensive-content = Njepřistojny wobsah
 reviewing-sentences-explanation-1 = Jeli sada kriterijam horjeka wotpowěduje, klikńće na tłóčatko „Haj“.
 reviewing-sentences-explanation-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Ně“.
 reviewing-sentences-explanation-4 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
+
+## WRITE PAGE
+
 sentence =
     .label = Sada
 citation-input-value = Žórło wašeje sady
@@ -1637,6 +1637,10 @@ add-sentence-error = Zmylk při přidawanju sady
 required-field = Prošu wupjelńće tute polo.
 single-sentence = Jedna sada
 bulk-sentences = Wjele sadow
+# Sentence Domain dropdown option
+general = Powšitkowne
+# Sentence Domain dropdown option
+healthcare = Strowotnistwo
 
 ## REVIEW PAGE
 
