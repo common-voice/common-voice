@@ -753,6 +753,7 @@ number-of-voices = Nombre de voix
 splits = Répartition
 email-to-download = Saisissez votre adresse e-mail pour accéder au téléchargement
 why-email = <b>Pourquoi demandons-nous une adresse e-mail ?</b> Nous aurons peut-être besoin de vous contacter plus tard pour des modifications du jeu de données, votre adresse e-mail nous le permettra.
+why-donate-datasets-page = Mozilla Common Voice est le jeu de données vocales ouvertes participatif le plus diversifié au monde, et nous sommes entièrement financés grâce aux dons. Nous dépensons près d’un million de dollars par an pour héberger les jeux de données et améliorer la plateforme pour les plus de 100 communautés linguistiques qui font confiance à notre service. Si vous appréciez les données ouvertes et inclusives, <b>faites un don !</b>
 confirm-size = Vous vous apprêtez à lancer un téléchargement de <b>{ $size }</b>
 size-gigabyte = Go
 size-megabyte = Mo
