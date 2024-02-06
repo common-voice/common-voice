@@ -7,6 +7,10 @@
         height: 100%;
         min-height: 78vh;
         justify-content: space-between;
+
+        @media (--sm-down) {
+            padding: 20px 20px 0;
+        }
     }
 
     & .subtitle {
@@ -25,7 +29,7 @@
 
     & label.sentence-input {
         margin: 0 auto 40px;
-        height: 30vh;
+        height: 20vh;
         min-height: 260px;
 
         @media (--xl-up) {
@@ -33,7 +37,7 @@
         }
 
         @media (--md-down) {
-            width: 85vw;
+            width: 90vw;
         }
 
         @media (--md-down) {
@@ -70,6 +74,10 @@
                 }
             }
         }
+    }
+
+    & label.sentence-domain-select {
+        margin-block-end: 36px;
     }
 
     & label.sentence-input.sentence-error,
@@ -117,10 +125,6 @@
                     color: var(--white);
                     font-size: var(--font-size-xs);
                 }
-            }
-
-            & .write-rules {
-                min-height: 350px;
             }
         }
     }

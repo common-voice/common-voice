@@ -12,7 +12,7 @@ import {
   UserLanguage,
   SentenceSubmission,
   SentenceVote,
-  TakeoutResponse
+  TakeoutResponse,
 } from 'common'
 import { Locale } from '../stores/locale'
 import { User } from '../stores/user'
@@ -543,8 +543,9 @@ export default class API {
     source,
     localeId,
     localeName,
+    domain,
   }: SentenceSubmission) {
-    const data = { sentence, source, localeId, localeName }
+    const data = { domain, sentence, source, localeId, localeName }
 
     return this.fetch(`${API_PATH}/sentences`, {
       method: 'POST',

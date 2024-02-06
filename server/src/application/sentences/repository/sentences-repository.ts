@@ -21,7 +21,6 @@ const insertSentenceTransaction = async (
   sentence: SentenceSubmission
 ) => {
   const sentenceId = createSentenceId(sentence.sentence, sentence.locale_id)
-  console.log(sentenceId)
   const conn = await mysql2.createConnection(db.getMysqlOptions())
 
   try {
@@ -33,12 +32,13 @@ const insertSentenceTransaction = async (
      `,
       [sentenceId, sentence.sentence, sentence.source, sentence.locale_id]
     )
+
     await conn.query(
       `
-        INSERT INTO sentence_metadata(sentence_id, client_id)
-        VALUES (?, ?);
+        INSERT INTO sentence_metadata(sentence_id, client_id, domain_id)
+        VALUES (?, ?, ?);
      `,
-      [sentenceId, sentence.client_id]
+      [sentenceId, sentence.client_id, sentence.domain_id]
     )
     await conn.commit()
   } catch (err) {
@@ -117,60 +117,60 @@ const insertBulkSentencesTransaction = async (
 
 const insertSentence =
   (db: Mysql) =>
-  (
-    sentenceSubmission: SentenceSubmission
-  ): TE.TaskEither<ApplicationError, unknown> => {
-    return TE.tryCatch(
-      () => insertSentenceTransaction(db, sentenceSubmission),
-      (err: MysqlError) => {
-        if (err.errno && err.errno === DUPLICATE_KEY_ERR) {
+    (
+      sentenceSubmission: SentenceSubmission
+    ): TE.TaskEither<ApplicationError, unknown> => {
+      return TE.tryCatch(
+        () => insertSentenceTransaction(db, sentenceSubmission),
+        (err: MysqlError) => {
+          if (err.errno && err.errno === DUPLICATE_KEY_ERR) {
+            return createPendingSentencesRepositoryError(
+              `Duplicate entry '${sentenceSubmission.sentence}'`,
+              err
+            )
+          }
+
           return createPendingSentencesRepositoryError(
-            `Duplicate entry '${sentenceSubmission.sentence}'`,
+            `Error inserting pending sentence '${sentenceSubmission.sentence}'`,
             err
           )
         }
-
-        return createPendingSentencesRepositoryError(
-          `Error inserting pending sentence '${sentenceSubmission.sentence}'`,
-          err
-        )
-      }
-    )
-  }
+      )
+    }
 
 const insertBulkSentences =
   (db: Mysql) =>
-  (
-    sentenceSubmissions: SentenceSubmission[]
-  ): TE.TaskEither<Error, unknown> => {
-    return TE.tryCatch(
-      () => insertBulkSentencesTransaction(db, sentenceSubmissions),
-      (err: Error) => err
-    )
-  }
+    (
+      sentenceSubmissions: SentenceSubmission[]
+    ): TE.TaskEither<Error, unknown> => {
+      return TE.tryCatch(
+        () => insertBulkSentencesTransaction(db, sentenceSubmissions),
+        (err: Error) => err
+      )
+    }
 
 const insertSentenceVote =
   (db: Mysql) =>
-  (vote: {
-    sentenceId: number
-    vote: boolean
-    clientId: string
-  }): TE.TaskEither<ApplicationError, unknown> => {
-    return TE.tryCatch(
-      () =>
-        db.query(
-          `INSERT INTO sentence_votes (sentence_id, vote, client_id)
+    (vote: {
+      sentenceId: number
+      vote: boolean
+      clientId: string
+    }): TE.TaskEither<ApplicationError, unknown> => {
+      return TE.tryCatch(
+        () =>
+          db.query(
+            `INSERT INTO sentence_votes (sentence_id, vote, client_id)
           VALUES (?, ?, ?)
           ON DUPLICATE KEY UPDATE vote = VALUES(vote)`,
-          [vote.sentenceId, vote.vote, vote.clientId]
-        ),
-      (err: Error) =>
-        createPendingSentencesRepositoryError(
-          `Error inserting vote for pending_sentence ${vote.sentenceId} with client_id ${vote.clientId}`,
-          err
-        )
-    )
-  }
+            [vote.sentenceId, vote.vote, vote.clientId]
+          ),
+        (err: Error) =>
+          createPendingSentencesRepositoryError(
+            `Error inserting vote for pending_sentence ${vote.sentenceId} with client_id ${vote.clientId}`,
+            err
+          )
+      )
+    }
 
 const mapRowToSentence = ([pendingSentenceRows]: [
   [SentencesForReviewRow]
@@ -184,14 +184,14 @@ const mapRowToSentence = ([pendingSentenceRows]: [
 
 const findSentencesForReview =
   (db: Mysql) =>
-  (queryParams: {
-    localeId: number
-    clientId: string
-  }): TO.TaskOption<Sentence[]> => {
-    return pipe(
-      TO.tryCatch(() =>
-        db.query(
-          `SELECT
+    (queryParams: {
+      localeId: number
+      clientId: string
+    }): TO.TaskOption<Sentence[]> => {
+      return pipe(
+        TO.tryCatch(() =>
+          db.query(
+            `SELECT
             sentences.id,
             sentences.text,
             sentences.source,
@@ -215,14 +215,29 @@ const findSentencesForReview =
             number_of_votes = 2 AND number_of_approving_votes = 1 # a tie at one each
           LIMIT 50
         `,
-          [queryParams.localeId, queryParams.clientId, queryParams.clientId]
-        )
-      ),
-      TO.map(mapRowToSentence)
-    )
-  }
+            [queryParams.localeId, queryParams.clientId, queryParams.clientId]
+          )
+        ),
+        TO.map(mapRowToSentence)
+      )
+    }
+
+const findSentenceDomainByName = (db: Mysql) => (domainName: string): TO.TaskOption<number> =>
+  TO.tryCatch(
+    async () => {
+      const [[result]] = await db.query(
+        `
+          SELECT id FROM sentence_domains WHERE domain = ?
+        `,
+        [domainName]
+      )
+
+      return result ? Promise.resolve(result.id) : Promise.reject()
+    }
+  )
 
 export const insertSentenceIntoDb = insertSentence(db)
 export const insertBulkSentencesIntoDb = insertBulkSentences(db)
 export const insertSentenceVoteIntoDb = insertSentenceVote(db)
 export const findSentencesForReviewInDb = findSentencesForReview(db)
+export const findSentenceDomainByNameInDb = findSentenceDomainByName(db)
