@@ -2,7 +2,7 @@ import { AddingSentences } from './sidebar-content/sentence-collection/adding-se
 import { CitingSentences } from './sidebar-content/sentence-collection/citing-sentences';
 import { PublicDomain } from './sidebar-content/sentence-collection/public-domain';
 import { ReviewingSentences } from './sidebar-content/sentence-collection/reviewing-sentences';
-import { Domain } from './sidebar-content/sentence-collection/domain';
+import { SentenceDomain } from './sidebar-content/sentence-collection/sentence-domain';
 
 import { BackgoundNoise } from './sidebar-content/voice-collection/background-noise';
 import { BackgoundVoices } from './sidebar-content/voice-collection/background-voices';
@@ -15,7 +15,7 @@ import { Volume } from './sidebar-content/voice-collection/volume';
 
 import { GuidelinesSection } from './types';
 
-export const VOICE_NAV_IDS: Record<string, string> = {
+export const VOICE_NAV_IDS = {
   PRONUNCIATIONS: 'varying-pronunciations',
   OFFENSIVE_CONTENT: 'offensive-content',
   MISREADINGS: 'misreadings',
@@ -26,12 +26,12 @@ export const VOICE_NAV_IDS: Record<string, string> = {
   UNSURE: 'just-unsure',
 };
 
-export const SENTENCE_NAV_IDS: Record<string, string> = {
+export const SENTENCE_NAV_IDS = {
   PUBLIC_DOMAIN: 'public-domain',
   CITING_SENTENCES: 'citing-sentences',
   ADDING_SENTENCES: 'adding-sentences',
   REVIEWING_SENTENCES: 'reviewing-sentences',
-  DOMAIN: 'domain',
+  SENTENCE_DOMAIN: 'sentence-domain',
 };
 
 export const voiceGuidelinesSections: GuidelinesSection[] = [
@@ -99,8 +99,8 @@ export const sentenceGuidelineSections: GuidelinesSection[] = [
     visible: true,
   },
   {
-    id: SENTENCE_NAV_IDS.DOMAIN,
-    component: Domain,
+    id: SENTENCE_NAV_IDS.SENTENCE_DOMAIN,
+    component: SentenceDomain,
     visible: true,
   },
 ];
