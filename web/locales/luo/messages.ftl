@@ -304,12 +304,17 @@ x-years-short =
        *[other] kwan mar higni
     }
 help-make-dataset = Konywa loso deche maberie moloyo, mar oganda moyaore
+sign-up-account = Yaw akaont mamari iwuon
 email-subscription-title = yaw barup mbui ma mari iwuon
+email-subscription-title-new = Donjie Common Voice mondi iyud otegi mag oboke, inyal parni chenro mari mar tiyo kod kit dongruok.
 
 ## Account Benefits
 
 benefits = Ber
 rich-data = Or wecheni mochanoreno to kik iket nyingi kata higa mari ok dwar ni mago ofweny
+improve-audio = Weche michiwo mawuoyo kuomi koriwore gi deche duol momaki miyo teknoloji molosi mar ngeyo kit dunde ti maber.
+keep-track = Yie ilim dongruok mari kaluwore kod tich misetimo e dhok mopogore opogore.
+compare-progress = Ne kaka dongruok mari pimore kod oganda mamoko e piny ngima.
 
 ## What's public
 
