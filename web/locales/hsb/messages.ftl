@@ -645,6 +645,7 @@ about-playbook-how-access-dataset = Kak mam přistup k datowej sadźbje a kak m�
 ## How are decisions made
 
 about-playbook-how-project-governance = Kak so projektowe rozsudy tworja?
+about-playbook-how-project-governance-content-2 = Naše wjedźenje na slědowacych stołpach bazuje:
 about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
 about-playbook-how-project-governance-content-5 = Hódnota a připóznaće.
 about-playbook-how-project-governance-content-6 = Mjezsobna rozprawniska winowatosć.
@@ -1553,6 +1554,7 @@ partnerships-community-header = Zhromadnosć, kreatiwni a ciwilna towaršnosć
 partnerships-foundations-header = Załožby
 partnerships-governments-header = Knježerstwa
 partnerships-academia-header = Uniwersity, akademikarjo a slědźerjo
+partnerships-corporates-header = Wulke korporacije a předewzaća platformow
 partnerships-our-partners = Naši partnerjo
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Wulki dźak, zo sće waše rěčenske klipy darił!
