@@ -413,8 +413,12 @@ native-language =
 profile-form-add-accent = Új egyéni akcentus hozzáadása: „{ $inputValue }”
 profile-form-submit-save = Mentés
 profile-form-submit-saved = Mentve
-male = Férfi
-female = Nő
+male_masculine = Férfi/férfias
+female_feminine = Női/nőies
+intersex = Interszexuális
+transgender = Transznemű
+non-binary = Nem bináris
+do_not_wish_to_say = Nem szeretném megmondani
 # Gender
 other = Egyéb
 why-profile-title = Miért kell a profil?
@@ -1672,6 +1676,7 @@ public-domain = Közkincs
 citing-sentences = Mondatok idézése
 adding-sentences = Mondatok hozzáadása
 reviewing-sentences = Mondatok ellenőrzése
+domain = Domén
 public-domain-explanation-1 = Nagyon fontos, hogy minden szöveges mondat <publicDomain>közkincs</publicDomain> (<cc0>cc0</cc0>) legyen, mivel a Common Voice adatkészlet cc0 licenc alatt kerül kiadásra. Csak akkor töltsön fel mondatot, ha biztos benne, és mindig adja meg a releváns idézetet.
 public-domain-explanation-2 = Egy hasznos beszédfelismerő motor építéséhez a legjobb mondatok köznyelviek, és modern szóhasználatúak. Néhány ötlet a mondatok előállításához:
 public-domain-explanation-3 = Alkosson modern, köznyelvi mondatokat egyedül, barátaival vagy nyelvi közösségével – például egy „write-a-thon” segítségével
@@ -1712,7 +1717,20 @@ reviewing-sentences-explanation-1 = Ha a mondat megfelel a fenti feltételeknek,
 reviewing-sentences-explanation-2 = Ha a mondat nem felel meg a fenti feltételeknek, kattintson a „Nem” gombra.
 reviewing-sentences-explanation-3 = Ha nem biztos a mondattal kapcsolatban, ki is hagyhatja, és továbbugorhat a következőre.
 reviewing-sentences-explanation-4 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében.
-# WRITE PAGE
+domain-explanation = A domén a mondat témakörére utal. Jelenleg ezek közül választhat:
+# Indicates that the domain of a sentence is general
+sentence-domain-general = Általános
+sentence-domain-agriculture = Mezőgazdaság
+sentence-domain-automotive = Autóipar
+sentence-domain-finance = Pénzügy
+sentence-domain-food-service-retail = Élelmiszer, szolgáltatás és kiskereskedelem
+sentence-domain-healthcare = Egészségügy
+sentence-domain-history-law-government = Történelem, jog és kormányzás
+sentence-domain-media-entertainment = Média és szórakoztatóipar
+sentence-domain-nature-environment = Természet és környezetvédelem
+
+## WRITE PAGE
+
 write-instruction = Közkincsű mondat hozzáadása <icon></icon>
 write-page-subtitle = Az itt beküldött mondatok egy nyilvánosan elérhető, cc-0 licenc alatt közzétett adatkészlethez adódnak.
 sentence =
