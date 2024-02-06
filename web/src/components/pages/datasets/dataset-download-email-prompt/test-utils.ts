@@ -7,7 +7,7 @@ import {
 } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 
-type downloadDatasetParams = {
+type DownloadDatasetParams = {
   queryByRole: (role: ByRoleMatcher, options?: ByRoleOptions) => HTMLElement
   getByLabelText: (id: Matcher, options?: SelectorMatcherOptions) => HTMLElement
   getByRole: (role: ByRoleMatcher, options?: ByRoleOptions) => HTMLElement
@@ -24,7 +24,7 @@ export const downloadDataset = ({
   getByRole,
   isSubscribedToMailingList = false,
   queryByLabelText,
-}: downloadDatasetParams) => {
+}: DownloadDatasetParams) => {
   // check the download link is disabled
   const disabledDownloadLink = queryByRole('link', {
     name: /Enter Email to Download/,
