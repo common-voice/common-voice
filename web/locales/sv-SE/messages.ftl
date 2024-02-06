@@ -411,8 +411,12 @@ native-language =
 profile-form-add-accent = Lägg till ny anpassad accent "{ $inputValue }"
 profile-form-submit-save = Spara
 profile-form-submit-saved = Sparad
-male = Man
-female = Kvinna
+male_masculine = Man/Maskulin
+female_feminine = Kvinna/Feminin
+intersex = Intersex
+transgender = Transpersoner
+non-binary = Icke-binär
+do_not_wish_to_say = Vill inte säga
 # Gender
 other = Annat
 why-profile-title = Varför behövs en profil?
@@ -1676,6 +1680,7 @@ public-domain = Allmän
 citing-sentences = Citerar meningar
 adding-sentences = Lägga till meningar
 reviewing-sentences = Granska meningar
+sentence-domain = Meningsdomän
 public-domain-explanation-1 = Det är mycket viktigt att alla textmeningar är <publicDomain>allmänna</publicDomain> (<cc0>cc0</cc0>) eftersom Common Voice-datauppsättningen släpps under en cc0-licens. Ladda bara upp en mening om du är säker och inkludera alltid relevant källa.
 public-domain-explanation-2 = De bästa meningarna för att bygga en användbar taligenkänningsmotor är vardagligt, modernt språkbruk. Några idéer som hjälper dig att skapa meningar är;
 public-domain-explanation-3 = Skapa moderna, vardagliga meningar själv eller med dina vänner eller språkgemenskap - till exempel genom ett "skriv-maraton"
@@ -1714,7 +1719,10 @@ reviewing-sentences-explanation-1 = Om meningen uppfyller kriterierna ovan, klic
 reviewing-sentences-explanation-2 = Om meningen inte uppfyller ovanstående kriterier, klicka på knappen "Nej".
 reviewing-sentences-explanation-3 = Om du är osäker på meningen kan du också hoppa över den och gå vidare till nästa.
 reviewing-sentences-explanation-4 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
-# WRITE PAGE
+domain-explanation = Domän avser innehållet för meningen. För närvarande kan du välja mellan:
+
+## WRITE PAGE
+
 write-instruction = Lägg till <icon></icon> en mening som är allmän egendom
 write-page-subtitle = Meningar som bidrags här kommer att läggas till i en allmänt tillgänglig cc-0-licensierad datamängd.
 sentence =
@@ -1745,6 +1753,32 @@ single-sentence-submission = Inlämning av en enda mening
 bulk-sentence-submission = Massinlämning
 single-sentence = Enstaka mening
 bulk-sentences = Flera meningar
+sentence-domain-select =
+    .label = Meningsdomän
+# Sentence Domain dropdown option
+agriculture = Lantbruk
+# Sentence Domain dropdown option
+automotive = Fordon
+# Sentence Domain dropdown option
+finance = Finans
+# Sentence Domain dropdown option
+food_service_retail = Mat, service och detaljhandel
+# Sentence Domain dropdown option
+general = Allmänt
+# Sentence Domain dropdown option
+healthcare = Sjukvård
+# Sentence Domain dropdown option
+history_law_government = Historia, juridik och regering
+# Sentence Domain dropdown option
+language_fundamentals = Grundläggande språk (t.ex. siffror, bokstäver, pengar)
+# Sentence Domain dropdown option
+media_entertainment = Media och underhållning
+# Sentence Domain dropdown option
+nature_environment = Natur och miljö
+# Sentence Domain dropdown option
+news_current_affairs = Nyheter och aktuella frågor
+# Sentence Domain dropdown option
+technology_robotics = Teknik och robotik
 
 ## REVIEW PAGE
 
