@@ -62,10 +62,27 @@ type Gender = {
   do_not_wish_to_say: number
 }
 
+type SentenceDomain = {
+  '': number
+  agriculture: number
+  automotive: number
+  finance: number
+  food_service_retail: number
+  general: number
+  healthcare: number
+  history_law_government: number
+  language_fundamentals: number
+  media_entertainment: number
+  nature_environment: number
+  news_current_affairs: number
+  technology_robotics: number
+}
+
 type Splits = {
   accent: Accent
   age: Age
   gender: Gender
+  sentence_domain: SentenceDomain
 }
 
 type Locale = {
@@ -117,6 +134,21 @@ const createEmptyLocale = (): Locale => {
         transgender: 0,
         'non-binary': 0,
         do_not_wish_to_say: 0,
+      },
+      sentence_domain: {
+        '': 0,
+        agriculture: 0,
+        automotive: 0,
+        finance: 0,
+        food_service_retail: 0,
+        general: 0,
+        healthcare: 0,
+        history_law_government: 0,
+        language_fundamentals: 0,
+        media_entertainment: 0,
+        nature_environment: 0,
+        news_current_affairs: 0,
+        technology_robotics: 0,
       },
     },
     users: 0,
@@ -200,6 +232,7 @@ const extractStatsFromClipsFile = (locale: string, releaseDirPath: string) =>
             initialLocale.clips++
             initialLocale.splits.age[data.age as keyof Age]++
             initialLocale.splits.gender[data.gender as keyof Gender]++
+            initialLocale.splits.sentence_domain[data.sentence_domain as keyof SentenceDomain]++
           })
           .on('finish', () => {
             stats.locales[locale] = initialLocale
