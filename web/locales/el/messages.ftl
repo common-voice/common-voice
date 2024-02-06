@@ -1712,6 +1712,14 @@ sentence-domain-general = Γενικός
 sentence-domain-agriculture = Γεωργία
 sentence-domain-automotive = Αυτοκίνηση
 sentence-domain-finance = Οικονομικά
+sentence-domain-food-service-retail = Φαγητό, εξυπηρέτηση και λιανική
+sentence-domain-healthcare = Υγειονομική περίθαλψη
+sentence-domain-history-law-government = Ιστορία, νόμοι και διακυβέρνηση
+sentence-domain-media-entertainment = Πολυμέσα και ψυχαγωγία
+sentence-domain-nature-environment = Φύση και περιβάλλον
+sentence-domain-news-current-affairs = Ειδήσεις και επικαιρότητα
+sentence-domain-technology-robotics = Τεχνολογία και ρομποτική
+sentence-domain-language-fundamentals = Βασικά στοιχεία γλώσσας (π.χ. αριθμοί, γράμματα, χρήματα)
 
 ## WRITE PAGE
 
@@ -1745,6 +1753,32 @@ single-sentence-submission = Υποβολή μεμονωμένης πρότασ�
 bulk-sentence-submission = Υποβολή πολλαπλών προτάσεων
 single-sentence = Μεμονωμένη πρόταση
 bulk-sentences = Πολλαπλές προτάσεις
+sentence-domain =
+    .label = Τομέας πρότασης
+# Sentence Domain dropdown option
+agriculture = Γεωργία
+# Sentence Domain dropdown option
+automotive = Αυτοκίνηση
+# Sentence Domain dropdown option
+finance = Οικονομικά
+# Sentence Domain dropdown option
+food_service_retail = Φαγητό, εξυπηρέτηση και λιανική
+# Sentence Domain dropdown option
+general = Γενικός
+# Sentence Domain dropdown option
+healthcare = Υγειονομική περίθαλψη
+# Sentence Domain dropdown option
+history_law_government = Ιστορία, νόμοι και διακυβέρνηση
+# Sentence Domain dropdown option
+language_fundamentals = Βασικά στοιχεία γλώσσας (π.χ. αριθμοί, γράμματα, χρήματα)
+# Sentence Domain dropdown option
+media_entertainment = Πολυμέσα και ψυχαγωγία
+# Sentence Domain dropdown option
+nature_environment = Φύση και περιβάλλον
+# Sentence Domain dropdown option
+news_current_affairs = Ειδήσεις και επικαιρότητα
+# Sentence Domain dropdown option
+technology_robotics = Τεχνολογία και ρομποτική
 
 ## REVIEW PAGE
 
