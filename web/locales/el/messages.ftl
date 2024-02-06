@@ -408,8 +408,7 @@ native-language =
 profile-form-add-accent = Προσθήκη νέας προσαρμοσμένης προφοράς «{ $inputValue }»
 profile-form-submit-save = Αποθήκευση
 profile-form-submit-saved = Έγινε αποθήκευση
-male = Άνδρας
-female = Γυναίκα
+do_not_wish_to_say = Δεν επιθυμώ να πω
 # Gender
 other = Άλλο
 why-profile-title = Γιατί να δημιουργήσετε προφίλ;
@@ -1669,6 +1668,7 @@ public-domain = Δημόσιος τομέας
 citing-sentences = Παράθεση προτάσεων
 adding-sentences = Προσθήκη προτάσεων
 reviewing-sentences = Έλεγχος προτάσεων
+domain = Τομέας
 public-domain-explanation-1 = Είναι πολύ σημαντικό όλες οι προτάσεις κειμένου να ανήκουν στον <publicDomain>δημόσιο τομέα</publicDomain> (<cc0>cc0</cc0>), καθώς το σύνολο δεδομένων του Common Voice κυκλοφορεί με άδεια cc0. Μεταφορτώστε μια πρόταση μόνο εάν είστε σίγουροι για αυτό και συμπεριλάβετε πάντα τη σχετική παραπομπή.
 public-domain-explanation-2 = Οι καλύτερες προτάσεις για τη δημιουργία μιας χρήσιμης μηχανής αναγνώρισης ομιλίας είναι η καθομιλουμένη, η σύγχρονη γλώσσα. Μερικές ιδέες που θα σας βοηθήσουν να δημιουργήσετε προτάσεις είναι:
 public-domain-explanation-3 = Δημιουργήστε σύγχρονες, καθημερινές προτάσεις μόνοι σας, με τους φίλους σας ή με μια γλωσσική κοινότητα, για παράδειγμα μέσω μιας εκδήλωσης συγγραφής.
@@ -1707,7 +1707,14 @@ reviewing-sentences-explanation-1 = Εάν η πρόταση πληροί τα �
 reviewing-sentences-explanation-2 = Εάν η πρόταση δεν πληροί τα παραπάνω κριτήρια, κάντε κλικ στο κουμπί «Όχι».
 reviewing-sentences-explanation-3 = Εάν δεν είστε σίγουροι για την πρόταση, μπορείτε επίσης να την παραλείψετε και να προχωρήσετε στην επόμενη.
 reviewing-sentences-explanation-4 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
-# WRITE PAGE
+# Indicates that the domain of a sentence is general
+sentence-domain-general = Γενικός
+sentence-domain-agriculture = Γεωργία
+sentence-domain-automotive = Αυτοκίνηση
+sentence-domain-finance = Οικονομικά
+
+## WRITE PAGE
+
 write-instruction = <icon></icon> Προσθήκη πρότασης δημόσιου τομέα
 write-page-subtitle = Οι προτάσεις που υποβάλλονται εδώ θα προστεθούν σε ένα δημόσια διαθέσιμο σύνολο δεδομένων με άδεια cc-0.
 sentence =
