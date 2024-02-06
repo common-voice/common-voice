@@ -32,9 +32,6 @@ afterEach(() => {
   jest.clearAllMocks()
 })
 
-// TODO: At the moment we can't test validation errors like creating a sentence with numbers
-// we should write tests for this in e2e tests
-
 describe('Single Submission Write page', () => {
   it('renders Single Submission Write page', () => {
     renderWithProviders(<SingleSubmissionWrite />)
@@ -74,11 +71,15 @@ describe('Single Submission Write page', () => {
     const citationInput = screen.getByTestId('citation-input')
     const checkBox = screen.getByTestId('public-domain-checkbox')
     const submitButton = screen.getByTestId('submit-button')
+    const sentenceDomainDropdown = screen.getByTestId('sentence-domain-select')
 
     fireEvent.change(sentenceTextArea, {
       target: { value: 'This is a mock sentence' },
     })
-    fireEvent.change(citationInput, { target: { value: 'me' } })
+
+    fireEvent.change(sentenceDomainDropdown, { target: { value: 'general' } })
+
+    fireEvent.change(citationInput, { target: { value: 'self' } })
 
     fireEvent.click(checkBox)
 
@@ -86,8 +87,9 @@ describe('Single Submission Write page', () => {
 
     await waitFor(async () => {
       expect(useActionMock).toHaveBeenCalledWith({
+        domain: 'general',
         sentence: 'This is a mock sentence',
-        source: 'me',
+        source: 'self',
         localeId: 1,
         localeName: 'mock-locale-1',
       })
