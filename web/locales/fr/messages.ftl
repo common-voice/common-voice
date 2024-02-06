@@ -410,6 +410,12 @@ native-language =
 profile-form-add-accent = Ajouter un nouvel accent personnalisé « { $inputValue } »
 profile-form-submit-save = Enregistrer
 profile-form-submit-saved = Enregistré
+male_masculine = Masculin
+female_feminine = Féminin
+intersex = Intersexe
+transgender = Transgenre
+non-binary = Non binaire
+do_not_wish_to_say = Ne préfère pas répondre
 # Gender
 other = Autre
 why-profile-title = Pourquoi créer un profil ?
@@ -1686,6 +1692,13 @@ reviewing-sentences-explanation-3 = Si vous avez un doute, vous pouvez égalemen
 reviewing-sentences-explanation-4 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
 # Indicates that the domain of a sentence is general
 sentence-domain-general = Général
+sentence-domain-agriculture = Agriculture
+sentence-domain-finance = Finance
+sentence-domain-food-service-retail = Nourriture, service et vente au détail
+sentence-domain-healthcare = Santé
+sentence-domain-history-law-government = Histoire, droit et gouvernement
+sentence-domain-media-entertainment = Médias et divertissement
+sentence-domain-nature-environment = Nature et environnement
 
 ## WRITE PAGE
 
@@ -1719,6 +1732,22 @@ single-sentence-submission = Envoi de phrase unique
 bulk-sentence-submission = Envoi de plusieurs phrases
 single-sentence = Phrase unique
 bulk-sentences = Plusieurs phrases
+# Sentence Domain dropdown option
+agriculture = Agriculture
+# Sentence Domain dropdown option
+finance = Finance
+# Sentence Domain dropdown option
+food_service_retail = Nourriture, service et vente au détail
+# Sentence Domain dropdown option
+general = Général
+# Sentence Domain dropdown option
+healthcare = Santé
+# Sentence Domain dropdown option
+history_law_government = Histoire, droit et gouvernement
+# Sentence Domain dropdown option
+media_entertainment = Médias et divertissement
+# Sentence Domain dropdown option
+nature_environment = Nature et environnement
 
 ## REVIEW PAGE
 
