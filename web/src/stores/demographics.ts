@@ -1,6 +1,9 @@
 // Please note - this list is no longer the canonical list of
 // accents on the platform and will be removed in a future
 // dataset release. For more info, please see this Discourse
+
+import { Gender } from 'common';
+
 // post: https://discourse.mozilla.org/t/89754
 export const LEGACY_ACCENTS: any = {
   br: {
@@ -287,9 +290,12 @@ export const AGES = {
   nineties: '> 89',
 };
 
-export const GENDERS = {
+export const GENDERS: Gender = {
   '': '',
-  male: 'Male',
-  female: 'Female',
-  other: 'Other',
+  male_masculine: 'Male/Masculine',
+  female_feminine: 'Female/Feminine',
+  intersex: 'Intersex',
+  transgender: 'Transgender',
+  'non-binary': 'Non-binary',
+  do_not_wish_to_say: "Don't wish to say",
 };

@@ -401,7 +401,7 @@ profile-form-custom-accent-placeholder-2 = Start typing to describe your accent
 profile-form-age =
     .label = Age
 profile-form-gender-2 =
-    .label = Gender
+    .label = Sex or Gender
 leaderboard-visibility =
     .label = Leaderboard Visibility
 hidden = Hidden
@@ -414,8 +414,12 @@ profile-form-add-accent = Add new custom accent "{ $inputValue }"
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
 
-male = Male
-female = Female
+male_masculine = Male/Masculine
+female_feminine = Female/Feminine
+intersex = Intersex
+transgender = Transgender
+non-binary = Non-binary
+do_not_wish_to_say = Don't wish to say
 # Gender
 other = Other
 why-profile-title = Why a profile?
