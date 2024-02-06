@@ -3,6 +3,7 @@ SELECT
   clips.client_id,
   path,
   REPLACE(sentence, '\r\n', ' ') AS sentence,
+  COALESCE(sentence_domains.domain, '') AS sentence_domain,
   COALESCE(SUM(votes.is_valid), 0) AS up_votes,
   COALESCE(SUM(NOT votes.is_valid), 0) AS down_votes,
   COALESCE(age, '') AS age,
@@ -54,6 +55,13 @@ FROM clips
       LEFT JOIN ages ON demographics.age_id = ages.id
       LEFT JOIN genders ON demographics.gender_id = genders.id
   ) demographics ON clips.id = demographics.clip_id
+  -- A subquery for sentence domains is faster than a full join
+  LEFT JOIN (
+    SELECT s.id as sentence_id, sd.domain
+    FROM sentences s
+      INNER JOIN sentence_metadata sm ON sm.sentence_id = s.id 
+      INNER JOIN sentence_domains sd ON sm.domain_id = sd.id
+  ) sentence_domains ON clips.original_sentence_id = sentence_domains.sentence_id
 WHERE clips.created_at BETWEEN ? AND ?
 AND locales.name = ?
 GROUP BY clips.id
