@@ -23,6 +23,8 @@ services:
   storage:
     image: fsouza/fake-gcs-server
     container_name: storage
+    volumes:
+      - ./storage:/data
     ports:
       - 8080:8080
     networks:
