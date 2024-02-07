@@ -426,8 +426,12 @@ native-language =
 profile-form-add-accent = Ychwanegwch acen o fath newydd "{ $inputValue }"
 profile-form-submit-save = Cadw
 profile-form-submit-saved = Wedi'u Cadw
-male = Gwryw
-female = Benyw
+male_masculine = Gwryw/Gwrywaidd
+female_feminine = Benyw/Benywaidd
+intersex = Rhyngryw
+transgender = Trawsrywiol
+non-binary = Anneuaidd
+do_not_wish_to_say = Ddim yn dymuno dweud
 # Gender
 other = Arall
 why-profile-title = Pam proffil?
@@ -1769,6 +1773,7 @@ public-domain = Parth Cyhoeddus
 citing-sentences = Dyfynnu Brawddegau
 adding-sentences = Ychwanegu Brawddegau
 reviewing-sentences = Adolygu Brawddegau
+sentence-domain = Parth Brawddeg
 public-domain-explanation-1 = Mae'n bwysig iawn bod pob brawddeg o destun yn un <publicDomain>parth cyhoeddus</publicDomain> (<cc0>cc0</cc0>) gan fod set ddata Common Voice yn cael ei rhyddhau o dan drwydded cc0. Dim ond os ydych yn siŵr o hynny y dylech lwytho brawddeg, a dylech gynnwys y cyfeiriad perthnasol bob tro.
 public-domain-explanation-2 = Y brawddegau gorau ar gyfer adeiladu peiriant adnabod lleferydd defnyddiol yw lleferydd llafar, modern. Dyma rhai syniadau i'ch helpu i greu brawddegau;
 public-domain-explanation-3 = Crëwch frawddegau modern, llafar ar eich pen eich hun neu gyda’ch ffrindiau neu’ch cymuned iaith – er enghraifft drwy gynnal ‘ysgrifennu-a-thon’!
@@ -1807,7 +1812,10 @@ reviewing-sentences-explanation-1 = Os yw'r frawddeg yn cwrdd â'r meini prawf, 
 reviewing-sentences-explanation-2 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch ar y botwm "Na".
 reviewing-sentences-explanation-3 = Os ydych chi'n ansicr am y frawddeg, gallwch chi ei hepgor a symud ymlaen i'r un nesaf.
 reviewing-sentences-explanation-4 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
-# WRITE PAGE
+domain-explanation = Mae parth yn cyfeirio at bwnc testun y frawddeg. Ar hyn o bryd, gallwch ddewis rhwng:
+
+## WRITE PAGE
+
 write-instruction = Ychwanegu <icon></icon> brawddeg parth cyhoeddus
 write-page-subtitle = Bydd brawddegau sy'n cael eu cyfrannu yma yn cael eu hychwanegu at set ddata drwyddedig cc-0 sydd ar gael yn gyhoeddus.
 sentence =
@@ -1838,6 +1846,32 @@ single-sentence-submission = Cyflwyno Un Frawddeg
 bulk-sentence-submission = Cyflwyno Brawddegau Lluosog
 single-sentence = Un Frawddeg
 bulk-sentences = Brawddegau Lluosog
+sentence-domain-select =
+    .label = Parth Brawddeg
+# Sentence Domain dropdown option
+agriculture = Amaethyddiaeth
+# Sentence Domain dropdown option
+automotive = Modurol
+# Sentence Domain dropdown option
+finance = Cyllid
+# Sentence Domain dropdown option
+food_service_retail = Bwyd, Gwasanaethau a Manwerthu
+# Sentence Domain dropdown option
+general = Cyffredinol
+# Sentence Domain dropdown option
+healthcare = Gofal iechyd
+# Sentence Domain dropdown option
+history_law_government = Hanes, Cyfraith a Llywodraeth
+# Sentence Domain dropdown option
+language_fundamentals = Hanfodion Iaith (e.e. Nodau, Llythrennau, Arian)
+# Sentence Domain dropdown option
+media_entertainment = Cyfryngau ac Adloniant
+# Sentence Domain dropdown option
+nature_environment = Natur a'r Amgylchedd
+# Sentence Domain dropdown option
+news_current_affairs = Newyddion a Materion Cyfoes
+# Sentence Domain dropdown option
+technology_robotics = Technoleg a Roboteg
 
 ## REVIEW PAGE
 

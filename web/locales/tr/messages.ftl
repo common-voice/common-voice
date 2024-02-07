@@ -408,8 +408,10 @@ native-language =
 profile-form-add-accent = "{ $inputValue }" aksanını ekle
 profile-form-submit-save = Kaydet
 profile-form-submit-saved = Kaydedildi
-male = Erkek
-female = Kadın
+male_masculine = Erkek/Eril
+female_feminine = Kadın/Dişil
+non-binary = Non-binary
+do_not_wish_to_say = Söylemek istemiyorum
 # Gender
 other = Diğer
 why-profile-title = Neden profil oluşturmalıyım?
@@ -1658,7 +1660,9 @@ reviewing-sentences-explanation-1 = Cümle yukarıdaki ölçütleri karşılıyo
 reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamıyorsa "Hayır" düğmesine tıklayın.
 reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
 reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = Kamu malı bir cümle ekleyin <icon></icon>
 write-page-subtitle = Buradan gönderilen cümleler, halka açık ve cc-0 lisanslı bir veri kümesine eklenecektir.
 sentence =
@@ -1688,6 +1692,30 @@ single-sentence-submission = Tek cümle gönderimi
 bulk-sentence-submission = Toplu cümle gönderimi
 single-sentence = Tek cümle
 bulk-sentences = Toplu cümle
+# Sentence Domain dropdown option
+agriculture = Tarım
+# Sentence Domain dropdown option
+automotive = Otomotiv
+# Sentence Domain dropdown option
+finance = Finans
+# Sentence Domain dropdown option
+food_service_retail = Yemek, Hizmet ve Alışveriş
+# Sentence Domain dropdown option
+general = Genel
+# Sentence Domain dropdown option
+healthcare = Sağlık
+# Sentence Domain dropdown option
+history_law_government = Tarih, Hukuk ve Kamu Yönetimi
+# Sentence Domain dropdown option
+language_fundamentals = Dilin Temelleri (örn. rakamlar, harfler, para)
+# Sentence Domain dropdown option
+media_entertainment = Medya ve Eğlence
+# Sentence Domain dropdown option
+nature_environment = Doğa ve Çevre
+# Sentence Domain dropdown option
+news_current_affairs = Haberler ve Güncel Olaylar
+# Sentence Domain dropdown option
+technology_robotics = Teknoloji ve Robotik
 
 ## REVIEW PAGE
 

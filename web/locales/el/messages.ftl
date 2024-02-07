@@ -408,6 +408,11 @@ native-language =
 profile-form-add-accent = Προσθήκη νέας προσαρμοσμένης προφοράς «{ $inputValue }»
 profile-form-submit-save = Αποθήκευση
 profile-form-submit-saved = Έγινε αποθήκευση
+male_masculine = Αρσενικό
+female_feminine = Θηλυκό
+intersex = Διαφυλικός/-ή
+transgender = Διεμφυλικός/-ή
+non-binary = Μη δυαδικό
 do_not_wish_to_say = Δεν επιθυμώ να πω
 # Gender
 other = Άλλο
@@ -1668,7 +1673,8 @@ public-domain = Δημόσιος τομέας
 citing-sentences = Παράθεση προτάσεων
 adding-sentences = Προσθήκη προτάσεων
 reviewing-sentences = Έλεγχος προτάσεων
-domain = Τομέας
+sentence-domain =
+    .label = Τομέας πρότασης
 public-domain-explanation-1 = Είναι πολύ σημαντικό όλες οι προτάσεις κειμένου να ανήκουν στον <publicDomain>δημόσιο τομέα</publicDomain> (<cc0>cc0</cc0>), καθώς το σύνολο δεδομένων του Common Voice κυκλοφορεί με άδεια cc0. Μεταφορτώστε μια πρόταση μόνο εάν είστε σίγουροι για αυτό και συμπεριλάβετε πάντα τη σχετική παραπομπή.
 public-domain-explanation-2 = Οι καλύτερες προτάσεις για τη δημιουργία μιας χρήσιμης μηχανής αναγνώρισης ομιλίας είναι η καθομιλουμένη, η σύγχρονη γλώσσα. Μερικές ιδέες που θα σας βοηθήσουν να δημιουργήσετε προτάσεις είναι:
 public-domain-explanation-3 = Δημιουργήστε σύγχρονες, καθημερινές προτάσεις μόνοι σας, με τους φίλους σας ή με μια γλωσσική κοινότητα, για παράδειγμα μέσω μιας εκδήλωσης συγγραφής.
@@ -1707,19 +1713,7 @@ reviewing-sentences-explanation-1 = Εάν η πρόταση πληροί τα �
 reviewing-sentences-explanation-2 = Εάν η πρόταση δεν πληροί τα παραπάνω κριτήρια, κάντε κλικ στο κουμπί «Όχι».
 reviewing-sentences-explanation-3 = Εάν δεν είστε σίγουροι για την πρόταση, μπορείτε επίσης να την παραλείψετε και να προχωρήσετε στην επόμενη.
 reviewing-sentences-explanation-4 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
-# Indicates that the domain of a sentence is general
-sentence-domain-general = Γενικός
-sentence-domain-agriculture = Γεωργία
-sentence-domain-automotive = Αυτοκίνηση
-sentence-domain-finance = Οικονομικά
-sentence-domain-food-service-retail = Φαγητό, εξυπηρέτηση και λιανική
-sentence-domain-healthcare = Υγειονομική περίθαλψη
-sentence-domain-history-law-government = Ιστορία, νόμοι και διακυβέρνηση
-sentence-domain-media-entertainment = Πολυμέσα και ψυχαγωγία
-sentence-domain-nature-environment = Φύση και περιβάλλον
-sentence-domain-news-current-affairs = Ειδήσεις και επικαιρότητα
-sentence-domain-technology-robotics = Τεχνολογία και ρομποτική
-sentence-domain-language-fundamentals = Βασικά στοιχεία γλώσσας (π.χ. αριθμοί, γράμματα, χρήματα)
+domain-explanation = Ο τομέας αναφέρεται στο θέμα της πρότασης. Προς το παρόν, μπορείτε να επιλέξετε μεταξύ των παρακάτω:
 
 ## WRITE PAGE
 
@@ -1753,7 +1747,7 @@ single-sentence-submission = Υποβολή μεμονωμένης πρότασ�
 bulk-sentence-submission = Υποβολή πολλαπλών προτάσεων
 single-sentence = Μεμονωμένη πρόταση
 bulk-sentences = Πολλαπλές προτάσεις
-sentence-domain =
+sentence-domain-select =
     .label = Τομέας πρότασης
 # Sentence Domain dropdown option
 agriculture = Γεωργία
