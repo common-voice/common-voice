@@ -408,8 +408,12 @@ native-language =
 profile-form-add-accent = Nieuw aangepast accent ‘{ $inputValue }’ toevoegen
 profile-form-submit-save = Opslaan
 profile-form-submit-saved = Opgeslagen
-male = Mannelijk
-female = Vrouwelijk
+male_masculine = Mannelijk/Mannelijk
+female_feminine = Vrouwelijk/Vrouwelijk
+intersex = Intersekse
+transgender = Transgender
+non-binary = Non-binair
+do_not_wish_to_say = Zeg ik liever niet
 # Gender
 other = Anders
 why-profile-title = Waarom een profiel?
@@ -1782,7 +1786,10 @@ reviewing-sentences-explanation-1 = Als de zin aan de bovenstaande criteria vold
 reviewing-sentences-explanation-2 = Als de zin niet aan de bovenstaande criteria voldoet, klik dan op de knop ‘Nee’.
 reviewing-sentences-explanation-3 = Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
 reviewing-sentences-explanation-4 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
-# WRITE PAGE
+domain-explanation = Domein verwijst naar het onderwerp van de zin. Momenteel kunt u kiezen tussen:
+
+## WRITE PAGE
+
 write-instruction = Een <icon></icon> zin uit het publieke domein toevoegen
 write-page-subtitle = Zinnen die hier zijn bijgedragen worden toegevoegd aan een openbaar beschikbare cc-0 gelicenseerde dataset.
 sentence =
@@ -1815,6 +1822,32 @@ single-sentence-submission = Indienen van één zin
 bulk-sentence-submission = Bulkindiening van zinnen
 single-sentence = Losse zin
 bulk-sentences = Bulkzinnen
+sentence-domain-select =
+    .label = Zinsdomein
+# Sentence Domain dropdown option
+agriculture = Landbouw
+# Sentence Domain dropdown option
+automotive = Automotive
+# Sentence Domain dropdown option
+finance = Financieel
+# Sentence Domain dropdown option
+food_service_retail = Voedsel, service en detailhandel
+# Sentence Domain dropdown option
+general = Algemeen
+# Sentence Domain dropdown option
+healthcare = Gezondheidszorg
+# Sentence Domain dropdown option
+history_law_government = Geschiedenis, recht en overheid
+# Sentence Domain dropdown option
+language_fundamentals = Taalbasis (bijv. cijfers, letters, geld)
+# Sentence Domain dropdown option
+media_entertainment = Media en amusement
+# Sentence Domain dropdown option
+nature_environment = Natuur en milieu
+# Sentence Domain dropdown option
+news_current_affairs = Nieuws en actualiteiten
+# Sentence Domain dropdown option
+technology_robotics = Technologie en robotica
 
 ## REVIEW PAGE
 

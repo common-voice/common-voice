@@ -1730,7 +1730,8 @@ public-domain = Gemeinfrei
 citing-sentences = Sätze zitieren
 adding-sentences = Sätze hinzufügen
 reviewing-sentences = Sätze überprüfen
-domain = Thema
+sentence-domain =
+    .label = Thema des Satzes
 public-domain-explanation-1 = Es ist sehr wichtig, dass alle Textsätze <publicDomain>gemeinfrei</publicDomain> (<cc0>cc0</cc0>) sind, da der Common-Voice-Datensatz unter einer cc0-Lizenz steht. Laden Sie einen Satz nur hoch, wenn Sie sicher sind, und fügen Sie immer das relevante Zitat hinzu.
 public-domain-explanation-2 = Die besten Sätze, um eine nützliche Spracherkennungs-Engine zu entwickeln, sind umgangssprachlicher, moderner Sprachgebrauch. Einige Ideen, die Ihnen helfen, Sätze zu erzeugen, sind;
 public-domain-explanation-3 = Bilden Sie moderne, umgangssprachliche Sätze selbst oder mit Ihren Freunden oder Ihrer Sprachgemeinschaft – zum Beispiel durch einen „Write-a-thon“
@@ -1780,19 +1781,6 @@ reviewing-sentences-explanation-2 = Wenn der Satz die genannten Kriterien nicht 
 reviewing-sentences-explanation-3 = Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
 reviewing-sentences-explanation-4 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
 domain-explanation = Mit „Thema“ ist das Thema des Satzes gemeint. Derzeit können Sie wählen zwischen:
-# Indicates that the domain of a sentence is general
-sentence-domain-general = Allgemein
-sentence-domain-agriculture = Landwirtschaft
-sentence-domain-automotive = Autos
-sentence-domain-finance = Finanzen
-sentence-domain-food-service-retail = Essen, Service und Verkauf
-sentence-domain-healthcare = Gesundheit
-sentence-domain-history-law-government = Geschichte, Recht und Staat
-sentence-domain-media-entertainment = Medien und Unterhaltung
-sentence-domain-nature-environment = Natur und Umwelt
-sentence-domain-news-current-affairs = Nachrichten und aktuelle Themen
-sentence-domain-technology-robotics = Technologie und Robotik
-sentence-domain-language-fundamentals = Grundlagen der Sprache (z.B. Ziffern, Buchstaben, Geld)
 
 ## WRITE PAGE
 
@@ -1828,7 +1816,7 @@ single-sentence-submission = Einreichung eines einzelnen Satzes
 bulk-sentence-submission = Einreichung mehrerer Sätze
 single-sentence = Einzelner Satz
 bulk-sentences = Mehrere Sätze
-sentence-domain =
+sentence-domain-select =
     .label = Thema des Satzes
 # Sentence Domain dropdown option
 agriculture = Landwirtschaft
