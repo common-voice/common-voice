@@ -806,6 +806,11 @@ no-information-available = Keine Informationen verfügbar
 dataset-metadata-sex = Geschlecht
 # dataset metadata - age of contributor
 dataset-metadata-age = Alter
+donate-modal-message = Ihr Datensatz wird heruntergeladen!
+dataset-donate-modal-heading = Wussten Sie …
+donate-modal-explanation-1 = Es kostet fast eine Million Dollar im Jahr, die Datensätze zu hosten und die Plattform für die über 100 Sprachgemeinschaften zu verbessern, die sich auf unsere Arbeit verlassen.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Wenn Sie Wert auf offene, inklusive Daten legen – spenden Sie heute!</bold>
 
 ## Download Modal
 
