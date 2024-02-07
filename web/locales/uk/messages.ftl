@@ -249,7 +249,7 @@ help = Допомога
 contact = Зв'язок
 privacy = Приватність
 terms = Умови
-cookies = Куки
+cookies = Файли cookie
 faq = Поширені запитання
 content-license-text = Вміст доступний на умовах ліцензії <licenseLink>Creative Commons</licenseLink>
 share-title = Допоможіть нам знайти інших охочих записати свій голос!
@@ -422,8 +422,6 @@ native-language =
 profile-form-add-accent = Додайте новий власний акцент «{ $inputValue }»
 profile-form-submit-save = Зберегти
 profile-form-submit-saved = Збережено
-male = Чоловічі
-female = Жіночі
 # Gender
 other = Інше
 why-profile-title = Нащо потрібен профіль?
@@ -1299,7 +1297,7 @@ sc-footer-translate = Перекласти цю сторінку
 sc-footer-report-copyright = Повідомте про проблеми з авторським правом
 sc-footer-privacy = Приватність
 sc-footer-terms = Умови
-sc-footer-cookies = Куки
+sc-footer-cookies = Файли cookie
 sc-login-signup-button = Увійти / Зареєструватися
 sc-logout-button = Вийти
 
@@ -1818,7 +1816,9 @@ reviewing-sentences-explanation-1 = Якщо речення відповідає
 reviewing-sentences-explanation-2 = Якщо речення не відповідає наведеним критеріям, натисніть кнопку «Ні».
 reviewing-sentences-explanation-3 = Якщо ви не впевнені щодо речення, ви також можете пропустити його та перейти до наступного.
 reviewing-sentences-explanation-4 = Якщо у вас закінчилося речення для розгляду, допоможіть нам зібрати більше речень!
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = Додайте <icon></icon> речення суспільного надбання
 write-page-subtitle = Надані тут речення буде додано до загальнодоступного набору даних з ліцензією cc-0.
 sentence =
