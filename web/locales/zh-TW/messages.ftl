@@ -406,8 +406,12 @@ native-language =
 profile-form-add-accent = 新增自訂腔調「{ $inputValue }」
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
-male = 男性
-female = 女性
+male_masculine = 男性
+female_feminine = 女性
+intersex = 雙性
+transgender = 跨性別
+non-binary = 非二元性別
+do_not_wish_to_say = 我不想說
 # Gender
 other = 其他
 why-profile-title = 為什麼需要帳號？
@@ -746,7 +750,6 @@ number-of-voices = 錄音人數
 splits = 分割
 email-to-download = 輸入 E-Mail 即可下載
 why-email = <b>為什麼需要 E-Mail?</b>未來我們可能會聯絡您，提供資料集的相關更新資訊。E-Mail 可作為我們聯絡您的方式。
-why-donate = 為什麼要問這個？
 confirm-size = 請準備好下載 <b>{ $size }</b> 的檔案
 size-gigabyte = GB
 size-megabyte = MB
@@ -1609,6 +1612,7 @@ public-domain = Public Domain
 citing-sentences = 引用句子
 adding-sentences = 新增句子
 reviewing-sentences = 審核句子
+sentence-domain = 語句領域
 public-domain-explanation-1 = 因為 Common Voice 語音資料庫採取 <publicDomain>無版權限制</publicDomain> （<cc0>CC0授權</cc0>）的方式釋出，確保所有的句子都屬於 <publicDomain>公眾授權</publicDomain>（公共領域）萬分重要。請務必指提交你確定無任何版權疑慮的句子，並且標示明確的出處。
 public-domain-explanation-2 = 要打造好用的語音識別引擎，最好的語句是現代口語。以下是一些能幫助您造句的好點子：
 public-domain-explanation-3 = 自己動手，或與朋友或語言社群一起創造現代、口語化句子（例如：舉辦「寫作馬拉松」）
@@ -1641,7 +1645,9 @@ reviewing-sentences-explanation-1 = 若句子符合上述標準，請點擊「�
 reviewing-sentences-explanation-2 = 若句子不符合上述標準，請點擊「拒絕」按鈕。
 reviewing-sentences-explanation-3 = 如果您不確定句子是否符合上述標準，也可以略過，跳到下一句。
 reviewing-sentences-explanation-4 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = 加入 <icon></icon> 公眾領域的句子
 sentence =
     .label = 語句
@@ -1649,6 +1655,7 @@ sentence-input-value = 在此輸入公眾領域語句
 citation-input-value = 語句的來源
 citation =
     .label = 引用
+sc-review-write-title = 我可以加入哪些句子？
 new-sentence-rule-1 = <noCopyright>無版權限制</noCopyright> (<cc0>cc-0 公眾授權</cc0>)
 new-sentence-rule-2 = 少於 15 字
 new-sentence-rule-3 = 使用正確語法
@@ -1669,6 +1676,22 @@ single-sentence-submission = 送出單一句子
 bulk-sentence-submission = 送出大批句子
 single-sentence = 單一句子
 bulk-sentences = 大批句子
+sentence-domain-select =
+    .label = 語句領域
+# Sentence Domain dropdown option
+agriculture = 農業
+# Sentence Domain dropdown option
+automotive = 汽車
+# Sentence Domain dropdown option
+finance = 金融
+# Sentence Domain dropdown option
+food_service_retail = 食品、服務與零售
+# Sentence Domain dropdown option
+general = 一般
+# Sentence Domain dropdown option
+healthcare = 醫療衛生
+# Sentence Domain dropdown option
+history_law_government = 歷史、法律與政府機關
 
 ## REVIEW PAGE
 
