@@ -410,8 +410,12 @@ native-language =
 profile-form-add-accent = Ajouter un nouvel accent personnalisé « { $inputValue } »
 profile-form-submit-save = Enregistrer
 profile-form-submit-saved = Enregistré
-male = Masculin
-female = Féminin
+male_masculine = Masculin
+female_feminine = Féminin
+intersex = Intersexe
+transgender = Transgenre
+non-binary = Non binaire
+do_not_wish_to_say = Ne préfère pas répondre
 # Gender
 other = Autre
 why-profile-title = Pourquoi créer un profil ?
@@ -755,7 +759,7 @@ number-of-voices = Nombre de voix
 splits = Répartition
 email-to-download = Saisissez votre adresse e-mail pour accéder au téléchargement
 why-email = <b>Pourquoi demandons-nous une adresse e-mail ?</b> Nous aurons peut-être besoin de vous contacter plus tard pour des modifications du jeu de données, votre adresse e-mail nous le permettra.
-why-donate = Pourquoi cette question ?
+why-donate-datasets-page = Mozilla Common Voice est le jeu de données vocales ouvertes participatif le plus diversifié au monde, et nous sommes entièrement financés grâce aux dons. Nous dépensons près d’un million de dollars par an pour héberger les jeux de données et améliorer la plateforme pour les plus de 100 communautés linguistiques qui font confiance à notre service. Si vous appréciez les données ouvertes et inclusives, <b>faites un don !</b>
 confirm-size = Vous vous apprêtez à lancer un téléchargement de <b>{ $size }</b>
 size-gigabyte = Go
 size-megabyte = Mo
@@ -1534,8 +1538,8 @@ sc-review-form-button-submit =
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Aucune phrase vérifiée.
-        [one] Une phrase vérifiée. Merci !
-       *[other] { $phrases } phrases vérifiées. Merci !
+        [1] Une phrase vérifiée. Merci !
+       *[other] { $sentences } phrases vérifiées. Merci !
     }
 sc-review-form-review-failure = La vérification n’a pas pu être enregistrée. Veuillez réessayer plus tard.
 sc-review-link = Révision
@@ -1647,6 +1651,8 @@ public-domain = Domaine public
 citing-sentences = Citation de phrases
 adding-sentences = Ajout de phrases
 reviewing-sentences = Vérification de phrases
+sentence-domain =
+    .label = Domaine de la phrase
 public-domain-explanation-1 = Il est très important que toutes les phrases du texte soient dans le <publicDomain>domaine public</publicDomain> (<cc0>cc0</cc0>), car le jeu de données de Common Voice est publié sous licence cc0. Envoyez une phrase uniquement si vous en êtes sûr·e et ajoutez toujours la citation pertinente.
 public-domain-explanation-2 = Les meilleures phrases pour créer un moteur de reconnaissance vocale utile sont des phrases informelles issues du langage moderne. Voici quelques idées pour vous aider à générer des phrases :
 public-domain-explanation-3 = Rédigez des phrases modernes et informelles vous-même ou avec vos amis ou votre communauté linguistique, par exemple via un évènement dédié à la rédaction de contenus.
@@ -1685,7 +1691,10 @@ reviewing-sentences-explanation-1 = Si la phrase répond aux critères ci-dessus
 reviewing-sentences-explanation-2 = Si la phrase ne répond pas aux critères ci-dessus, cliquez sur le bouton « Non ».
 reviewing-sentences-explanation-3 = Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 reviewing-sentences-explanation-4 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
-# WRITE PAGE
+domain-explanation = Le domaine fait référence au sujet de la phrase. Actuellement, vous pouvez choisir entre :
+
+## WRITE PAGE
+
 write-instruction = Ajoutez <icon></icon> une phrase du domaine public
 write-page-subtitle = Les phrases fournies ici seront ajoutées à un jeu de données public sous licence cc-0.
 sentence =
@@ -1716,6 +1725,32 @@ single-sentence-submission = Envoi de phrase unique
 bulk-sentence-submission = Envoi de plusieurs phrases
 single-sentence = Phrase unique
 bulk-sentences = Plusieurs phrases
+sentence-domain-select =
+    .label = Domaine de la phrase
+# Sentence Domain dropdown option
+agriculture = Agriculture
+# Sentence Domain dropdown option
+automotive = Automobile
+# Sentence Domain dropdown option
+finance = Finance
+# Sentence Domain dropdown option
+food_service_retail = Nourriture, service et vente au détail
+# Sentence Domain dropdown option
+general = Général
+# Sentence Domain dropdown option
+healthcare = Santé
+# Sentence Domain dropdown option
+history_law_government = Histoire, droit et gouvernement
+# Sentence Domain dropdown option
+language_fundamentals = Principes de base des langues (chiffres, lettres, argent)
+# Sentence Domain dropdown option
+media_entertainment = Médias et divertissement
+# Sentence Domain dropdown option
+nature_environment = Nature et environnement
+# Sentence Domain dropdown option
+news_current_affairs = Actualités
+# Sentence Domain dropdown option
+technology_robotics = Technologie et robotique
 
 ## REVIEW PAGE
 

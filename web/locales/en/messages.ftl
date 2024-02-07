@@ -401,7 +401,7 @@ profile-form-custom-accent-placeholder-2 = Start typing to describe your accent
 profile-form-age =
     .label = Age
 profile-form-gender-2 =
-    .label = Gender
+    .label = Sex or Gender
 leaderboard-visibility =
     .label = Leaderboard Visibility
 hidden = Hidden
@@ -414,8 +414,12 @@ profile-form-add-accent = Add new custom accent "{ $inputValue }"
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
 
-male = Male
-female = Female
+male_masculine = Male/Masculine
+female_feminine = Female/Feminine
+intersex = Intersex
+transgender = Transgender
+non-binary = Non-binary
+do_not_wish_to_say = Don't wish to say
 # Gender
 other = Other
 why-profile-title = Why a profile?
@@ -1673,6 +1677,7 @@ public-domain = Public Domain
 citing-sentences = Citing Sentences
 adding-sentences = Adding Sentences
 reviewing-sentences = Reviewing Sentences
+sentence-domain = Sentence Domain
 public-domain-explanation-1 = It is very important that all text sentences are <publicDomain>public domain</publicDomain> (<cc0>cc0</cc0>) as the Common Voice dataset is released under a cc0 license. Only ever upload a sentence if you are sure, and always include the relevant citation.
 public-domain-explanation-2 = The best sentences for building a useful speech recognition engine are colloquial, modern parlance. Some ideas to help you generate sentences are;
 public-domain-explanation-3 = Create modern, colloquial sentences by yourself or with your friends or language community - for example through a ‘write-a-thon’
@@ -1711,8 +1716,9 @@ reviewing-sentences-explanation-1 = If the sentence meets the criteria above, cl
 reviewing-sentences-explanation-2 = If the sentence does not meet the above criteria, click the "No" button.
 reviewing-sentences-explanation-3 = If you are unsure about the sentence, you may also skip it and move on to the next one.
 reviewing-sentences-explanation-4 = If you run out of sentences to review, please help us collect more sentences!
+domain-explanation = Domain refers to the subject matter of the sentence. Currently, you can choose between:
 
-# WRITE PAGE
+## WRITE PAGE
 write-instruction = Add <icon></icon> a public domain sentence
 write-page-subtitle = Sentences contributed here will be added to a publicly available cc-0 licensed dataset.
 sentence = 
@@ -1743,6 +1749,32 @@ single-sentence-submission = Single Sentence Submission
 bulk-sentence-submission = Bulk Sentence Submission
 single-sentence = Single Sentence
 bulk-sentences = Bulk Sentences
+sentence-domain-select =
+    .label = Sentence Domain
+# Sentence Domain dropdown option
+agriculture = Agriculture
+# Sentence Domain dropdown option
+automotive = Automotive
+# Sentence Domain dropdown option
+finance = Finance
+# Sentence Domain dropdown option
+food_service_retail = Food, Service and Retail
+# Sentence Domain dropdown option
+general = General
+# Sentence Domain dropdown option
+healthcare = Healthcare
+# Sentence Domain dropdown option
+history_law_government = History, Law and Government
+# Sentence Domain dropdown option
+language_fundamentals = Language Fundamentals (e.g. Digits, Letters, Money)
+# Sentence Domain dropdown option
+media_entertainment = Media and Entertainment
+# Sentence Domain dropdown option
+nature_environment = Nature and Environment
+# Sentence Domain dropdown option
+news_current_affairs = News and Current Affairs
+# Sentence Domain dropdown option
+technology_robotics = Technology and Robotics
 
 ## REVIEW PAGE
 # <icon></icon> will be replace with an icon that represents review

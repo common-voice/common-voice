@@ -3,6 +3,7 @@ export type ClipRow = {
   client_id: string
   path: string
   sentence: string
+  sentence_domain: string
   up_votes: string
   down_votes: string
   age: string
