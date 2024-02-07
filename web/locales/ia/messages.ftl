@@ -413,6 +413,7 @@ female_feminine = Feminin
 intersex = Intersexo
 transgender = Transgene
 non-binary = Non binari
+do_not_wish_to_say = Non desira responder
 # Gender
 other = Altere
 why-profile-title = Proque un profilo?
@@ -802,6 +803,10 @@ no-information-available = Nulle information disponibile
 dataset-metadata-sex = Genere
 # dataset metadata - age of contributor
 dataset-metadata-age = Etate
+donate-modal-message = Tu collection de datos es discargate!
+dataset-donate-modal-heading = Sape tu…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>So tu apprecia le datos gratuite e inclusive - dona hodie!</bold>
 
 ## Download Modal
 
@@ -1750,6 +1755,8 @@ single-sentence-submission = Invio de phrases singule
 bulk-sentence-submission = Invio de gruppo de phrases
 single-sentence = Phrase singule
 bulk-sentences = Gruppo de phrases
+sentence-domain-select =
+    .label = Dominio del phrase
 # Sentence Domain dropdown option
 agriculture = Agricultura
 # Sentence Domain dropdown option
