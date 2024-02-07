@@ -33,6 +33,28 @@ describe('The Write Page - Single Submission', () => {
 
     // assert text area is empty after adding a sentence
     cy.get('[data-testid=sentence-textarea]').should('have.value', '')
+
+    cy.get('.notification-pill').contains('1 sentence collected')
+  })
+
+  it('adds a sentence with domain', () => {
+    cy.visit('/write')
+
+    const randomSentence = faker.lorem.sentence(SENTENCE_LENGTH)
+
+    // Type in the sentence and citation fields
+    typeSingleSubmission({
+      sentence: randomSentence,
+      shouldTypeCitation: true,
+      shouldSelectDomain: true,
+    })
+
+    submitSingleSubmissionForm()
+
+    // assert text area is empty after adding a sentence
+    cy.get('[data-testid=sentence-textarea]').should('have.value', '')
+
+    cy.get('.notification-pill').contains('1 sentence collected')
   })
 
   it('requires citation to add a sentence', () => {
