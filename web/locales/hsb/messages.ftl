@@ -773,6 +773,8 @@ no-information-available = Žane informacije k dispoziciji
 dataset-metadata-sex = Splah
 # dataset metadata - age of contributor
 dataset-metadata-age = Staroba
+donate-modal-message = Waša datowa sadźba so sćahuje!
+dataset-donate-modal-heading = Sće wědźał, zo …
 
 ## Download Modal
 
