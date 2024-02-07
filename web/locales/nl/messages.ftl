@@ -1846,6 +1846,8 @@ media_entertainment = Media en amusement
 nature_environment = Natuur en milieu
 # Sentence Domain dropdown option
 news_current_affairs = Nieuws en actualiteiten
+# Sentence Domain dropdown option
+technology_robotics = Technologie en robotica
 
 ## REVIEW PAGE
 
