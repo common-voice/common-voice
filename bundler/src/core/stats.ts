@@ -55,15 +55,34 @@ type Age = {
 
 type Gender = {
   '': number
-  male: number
-  female: number
-  other: number
+  male_masculine: number
+  female_feminine: number
+  transgender: number
+  'non-binary': number
+  do_not_wish_to_say: number
+}
+
+type SentenceDomain = {
+  '': number
+  agriculture: number
+  automotive: number
+  finance: number
+  food_service_retail: number
+  general: number
+  healthcare: number
+  history_law_government: number
+  language_fundamentals: number
+  media_entertainment: number
+  nature_environment: number
+  news_current_affairs: number
+  technology_robotics: number
 }
 
 type Splits = {
   accent: Accent
   age: Age
   gender: Gender
+  sentence_domain: SentenceDomain
 }
 
 type Locale = {
@@ -110,9 +129,26 @@ const createEmptyLocale = (): Locale => {
       },
       gender: {
         '': 0,
-        male: 0,
-        female: 0,
-        other: 0,
+        male_masculine: 0,
+        female_feminine: 0,
+        transgender: 0,
+        'non-binary': 0,
+        do_not_wish_to_say: 0,
+      },
+      sentence_domain: {
+        '': 0,
+        agriculture: 0,
+        automotive: 0,
+        finance: 0,
+        food_service_retail: 0,
+        general: 0,
+        healthcare: 0,
+        history_law_government: 0,
+        language_fundamentals: 0,
+        media_entertainment: 0,
+        nature_environment: 0,
+        news_current_affairs: 0,
+        technology_robotics: 0,
       },
     },
     users: 0,
@@ -196,6 +232,7 @@ const extractStatsFromClipsFile = (locale: string, releaseDirPath: string) =>
             initialLocale.clips++
             initialLocale.splits.age[data.age as keyof Age]++
             initialLocale.splits.gender[data.gender as keyof Gender]++
+            initialLocale.splits.sentence_domain[data.sentence_domain as keyof SentenceDomain]++
           })
           .on('finish', () => {
             stats.locales[locale] = initialLocale
@@ -233,24 +270,24 @@ const unitToHours = (
 }
 const calculateDurations =
   (locale: string) =>
-  (totalDurationInMs: number) =>
-  (stats: Stats): Stats => {
-    const localeStats = stats.locales[locale]
-    const validClips = localeStats.buckets.validated
+    (totalDurationInMs: number) =>
+      (stats: Stats): Stats => {
+        const localeStats = stats.locales[locale]
+        const validClips = localeStats.buckets.validated
 
-    localeStats.duration = totalDurationInMs
-    localeStats.avgDurationSecs =
-      Math.round(localeStats.duration / localeStats.clips) / 1000
-    localeStats.validDurationSecs =
-      Math.round((localeStats.duration / localeStats.clips) * validClips) / 1000
+        localeStats.duration = totalDurationInMs
+        localeStats.avgDurationSecs =
+          Math.round(localeStats.duration / localeStats.clips) / 1000
+        localeStats.validDurationSecs =
+          Math.round((localeStats.duration / localeStats.clips) * validClips) / 1000
 
-    localeStats.totalHrs = unitToHours(localeStats.duration, 'ms', 2)
-    localeStats.validHrs = unitToHours(localeStats.validDurationSecs, 's', 2)
+        localeStats.totalHrs = unitToHours(localeStats.duration, 'ms', 2)
+        localeStats.validHrs = unitToHours(localeStats.validDurationSecs, 's', 2)
 
-    stats.locales[locale] = localeStats
+        stats.locales[locale] = localeStats
 
-    return stats
-  }
+        return stats
+      }
 
 export const statsPipeline = (
   locale: string,

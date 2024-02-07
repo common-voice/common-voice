@@ -407,8 +407,12 @@ native-language =
 profile-form-add-accent = Nowy swójski akcent „{ $inputValue }“ přidać
 profile-form-submit-save = Składować
 profile-form-submit-saved = Składowany
-male = Muski
-female = Źónski
+male_masculine = Muski
+female_feminine = Žónski
+intersex = Interseksualny
+transgender = Transgender
+non-binary = Njebinarne
+do_not_wish_to_say = Nochcu podać
 # Gender
 other = Druhe
 why-profile-title = Čehodla profil?
@@ -641,6 +645,7 @@ about-playbook-how-access-dataset = Kak mam přistup k datowej sadźbje a kak m�
 ## How are decisions made
 
 about-playbook-how-project-governance = Kak so projektowe rozsudy tworja?
+about-playbook-how-project-governance-content-2 = Naše wjedźenje na slědowacych stołpach bazuje:
 about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
 about-playbook-how-project-governance-content-5 = Hódnota a připóznaće.
 about-playbook-how-project-governance-content-6 = Mjezsobna rozprawniska winowatosć.
@@ -724,7 +729,6 @@ number-of-voices = Ličba hłosow
 splits = Poddźělenja
 email-to-download = E-mejlowu adresu za sćehnjenje zapodać
 why-email = <b>Čehodla e-mejlowa adresa?</b> Dyrbimy so snano z wami w přichodźe wo změnach na datowej sadźbje do zwiska stajić, e-mejlowa adresa nam kontaktowu móžnosć dawa.
-why-donate = Čehodla so prašeće?
 confirm-size = Sće za start sćehnjenja wulkosće <b>{ $size }</b> přihotowany
 size-gigabyte = GB
 size-megabyte = MB
@@ -1546,9 +1550,11 @@ localization-select =
 partnerships-header = Partnerstwa
 partnerships-get-in-touch = Kontakt
 partnerships-become-a-partner = Budźće partner Common Voice
+partnerships-community-header = Zhromadnosć, kreatiwni a ciwilna towaršnosć
 partnerships-foundations-header = Załožby
 partnerships-governments-header = Knježerstwa
 partnerships-academia-header = Uniwersity, akademikarjo a slědźerjo
+partnerships-corporates-header = Wulke korporacije a předewzaća platformow
 partnerships-our-partners = Naši partnerjo
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Wulki dźak, zo sće waše rěčenske klipy darił!
@@ -1593,6 +1599,7 @@ background-noise-tip-2 = [Dźěl teksta słyšeć njeje]
 background-voices-example-1 = Hoberske dinosawriery triasa. [čita so wot jednoho hłosa]
 still-have-questions = Maće hišće prašenja?
 contact-common-voice = Stajće z teamom Common Voice do zwiska
+public-domain = Zjawnje wužiwajomny
 citing-sentences = Sady citować
 adding-sentences = Sady přidać
 reviewing-sentences = Sady přepruwować
@@ -1616,6 +1623,9 @@ adding-sentences-subheader-offensive-content = Njepřistojny wobsah
 reviewing-sentences-explanation-1 = Jeli sada kriterijam horjeka wotpowěduje, klikńće na tłóčatko „Haj“.
 reviewing-sentences-explanation-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Ně“.
 reviewing-sentences-explanation-4 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
+
+## WRITE PAGE
+
 sentence =
     .label = Sada
 citation-input-value = Žórło wašeje sady
@@ -1637,6 +1647,30 @@ add-sentence-error = Zmylk při přidawanju sady
 required-field = Prošu wupjelńće tute polo.
 single-sentence = Jedna sada
 bulk-sentences = Wjele sadow
+# Sentence Domain dropdown option
+agriculture = Ratarstwo
+# Sentence Domain dropdown option
+automotive = Awta
+# Sentence Domain dropdown option
+finance = Financy
+# Sentence Domain dropdown option
+food_service_retail = Cyroba, posłužba a předań
+# Sentence Domain dropdown option
+general = Powšitkowne
+# Sentence Domain dropdown option
+healthcare = Strowotnistwo
+# Sentence Domain dropdown option
+history_law_government = Stawizny, prawnistwo a knježerstwo
+# Sentence Domain dropdown option
+language_fundamentals = Rěčne zakłady (na pr. cyfry, pismiki, pjenjezy)
+# Sentence Domain dropdown option
+media_entertainment = Medije a zabawjenje
+# Sentence Domain dropdown option
+nature_environment = Přiroda a wobswět
+# Sentence Domain dropdown option
+news_current_affairs = Nowinki a aktualne naležnosće
+# Sentence Domain dropdown option
+technology_robotics = Technologija a robotika
 
 ## REVIEW PAGE
 

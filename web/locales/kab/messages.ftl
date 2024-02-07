@@ -54,6 +54,7 @@ cak = Kaqčikel
 ckb = Takurdit Talemmast
 cnh = Haxa Cin
 co = Takuṛsit
+crh = Aṭaṭaṛ n Krimi
 cs = Tačikit
 cv = Tačuvacit
 cy = Tagalit
@@ -393,8 +394,6 @@ native-language =
 profile-form-add-accent = Rnu aɣdebbu udmawan amaynut « { $inputValue } »
 profile-form-submit-save = Sekles
 profile-form-submit-saved = Yettwasekles
-male = Amalay
-female = Unti
 # Gender
 other = Ayen-nniḍen
 why-profile-title = Acuɣer amaɣnu?
@@ -1509,6 +1508,9 @@ adding-sentences-subheader-length = Teɣzi
 adding-sentences-subheader-numbers = Imḍanen
 adding-sentences-subheader-punctuation = Asigez
 reviewing-sentences-explanation-4 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
+
+## WRITE PAGE
+
 sentence =
     .label = Tafyirt
 citation-input-value = Aɣbalu n tefyirt-ik·im

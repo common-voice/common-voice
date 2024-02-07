@@ -38,6 +38,7 @@ export const TSV_COLUMNS = [
   'client_id',
   'path',
   'sentence',
+  'sentence_domain',
   'up_votes',
   'down_votes',
   'age',
@@ -104,60 +105,6 @@ const transformClips = (isMinorityLanguage: boolean) =>
     },
     objectMode: true,
   })
-
-/**
- * Downloads the clips as they come in and saves them in clips
- * directory: `releaseName/locale/clips/`. Passes the unaltered result
- * from the previous stream to the next.
- *
- * @remarks
- *
- * The stream is in object mode.
- */
-const downloadClips = (releaseDirPath: string) => {
-  return new Transform({
-    transform(chunk: ClipRow, encoding, callback) {
-      const clipFilename = createClipFilename(chunk.locale, chunk.id)
-      const writeStream = fs.createWriteStream(
-        path.join(releaseDirPath, chunk.locale, 'clips', clipFilename),
-      )
-      streamDownloadFileFromBucket(CLIPS_BUCKET)(chunk.path)
-        .pipe(writeStream)
-        .on('finish', () => {
-          callback(null, chunk)
-        })
-    },
-    objectMode: true,
-  })
-}
-
-const checkClipForExistence = (releaseDirPath: string) => {
-  return new Transform({
-    transform(chunk: ClipRow, encoding, callback) {
-      const clipFilename = createClipFilename(chunk.locale, chunk.id)
-      if (
-        fs.existsSync(
-          path.join(releaseDirPath, chunk.locale, 'clips', clipFilename),
-        )
-      ) {
-        callback()
-      } else {
-        pipe(
-          doesFileExistInBucket(CLIPS_BUCKET)(chunk.path),
-          TE.getOrElse(() => T.of(false)),
-        )().then(doesExist => {
-          if (doesExist) {
-            callback(null, chunk)
-          } else {
-            console.log(`Skipping file ${chunk.path}`)
-            callback()
-          }
-        })
-      }
-    },
-    objectMode: true,
-  })
-}
 
 const getPreviousReleaseClipDir = (locale: string, prevReleaseName: string) =>
   path.join(getTmpDir(), prevReleaseName, locale, 'clips')

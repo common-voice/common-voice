@@ -408,8 +408,12 @@ native-language =
 profile-form-add-accent = Neuen benutzerdefinierten Akzent hinzufügen „{ $inputValue }“
 profile-form-submit-save = Speichern
 profile-form-submit-saved = Gespeichert
-male = Männlich
-female = Weiblich
+male_masculine = Männlich
+female_feminine = Weiblich
+intersex = Intersexuell
+transgender = Transgender
+non-binary = Nicht-binär
+do_not_wish_to_say = Möchte ich nicht angeben
 # Gender
 other = Sonstiges
 why-profile-title = Warum ein Profil?
@@ -757,7 +761,7 @@ number-of-voices = Anzahl der Stimmen
 splits = Unterteilungen
 email-to-download = Zum Download E-Mail-Adresse eingeben
 why-email = <b>Warum eine E-Mail-Adresse?</b> Möglicherweise müssen wir Sie in Zukunft über Änderungen am Datensatz informieren. Eine E-Mail-Adresse gibt uns eine Kontaktmöglichkeit.
-why-donate = Warum fragen Sie?
+why-donate-datasets-page = Mozilla Common Voice ist der weltweit vielfältigste offene Sprachdatensatz aus Crowdsourcing – und wir sind vollständig auf Spenden angewiesen. Es kostet fast eine Million Dollar im Jahr, die Datensätze zu hosten und die Plattform für die über 100 Sprachgemeinschaften zu verbessern, die sich auf das verlassen, was wir tun. Wenn Sie Wert auf offene, integrative Daten legen – <b>spenden Sie noch heute!</b>
 confirm-size = Sie können jetzt einen Download von <b>{ $size }</b> starten
 size-gigabyte = GB
 size-megabyte = MB
@@ -1726,6 +1730,8 @@ public-domain = Gemeinfrei
 citing-sentences = Sätze zitieren
 adding-sentences = Sätze hinzufügen
 reviewing-sentences = Sätze überprüfen
+sentence-domain =
+    .label = Thema des Satzes
 public-domain-explanation-1 = Es ist sehr wichtig, dass alle Textsätze <publicDomain>gemeinfrei</publicDomain> (<cc0>cc0</cc0>) sind, da der Common-Voice-Datensatz unter einer cc0-Lizenz steht. Laden Sie einen Satz nur hoch, wenn Sie sicher sind, und fügen Sie immer das relevante Zitat hinzu.
 public-domain-explanation-2 = Die besten Sätze, um eine nützliche Spracherkennungs-Engine zu entwickeln, sind umgangssprachlicher, moderner Sprachgebrauch. Einige Ideen, die Ihnen helfen, Sätze zu erzeugen, sind;
 public-domain-explanation-3 = Bilden Sie moderne, umgangssprachliche Sätze selbst oder mit Ihren Freunden oder Ihrer Sprachgemeinschaft – zum Beispiel durch einen „Write-a-thon“
@@ -1774,7 +1780,10 @@ reviewing-sentences-explanation-1 = Wenn der Satz die genannten Kriterien erfül
 reviewing-sentences-explanation-2 = Wenn der Satz die genannten Kriterien nicht erfüllt, klicken Sie auf die Schaltfläche „Nein“.
 reviewing-sentences-explanation-3 = Wenn Sie sich bei dem Satz nicht sicher sind, können Sie ihn auch überspringen und zum nächsten übergehen.
 reviewing-sentences-explanation-4 = Wenn Ihnen die Sätze zur Überprüfung ausgehen, helfen Sie uns bitte, weitere Sätze zu sammeln!
-# WRITE PAGE
+domain-explanation = Mit „Thema“ ist das Thema des Satzes gemeint. Derzeit können Sie wählen zwischen:
+
+## WRITE PAGE
+
 write-instruction = Fügen Sie <icon></icon> einen gemeinfreien Satz hinzu
 write-page-subtitle = Hier beigetragene Sätze werden zu einem öffentlich zugänglichen cc-0-lizenzierten Datensatz hinzugefügt.
 sentence =
@@ -1807,6 +1816,32 @@ single-sentence-submission = Einreichung eines einzelnen Satzes
 bulk-sentence-submission = Einreichung mehrerer Sätze
 single-sentence = Einzelner Satz
 bulk-sentences = Mehrere Sätze
+sentence-domain-select =
+    .label = Thema des Satzes
+# Sentence Domain dropdown option
+agriculture = Landwirtschaft
+# Sentence Domain dropdown option
+automotive = Autos
+# Sentence Domain dropdown option
+finance = Finanzen
+# Sentence Domain dropdown option
+food_service_retail = Essen, Service und Verkauf
+# Sentence Domain dropdown option
+general = Allgemein
+# Sentence Domain dropdown option
+healthcare = Gesundheit
+# Sentence Domain dropdown option
+history_law_government = Geschichte, Recht und Staat
+# Sentence Domain dropdown option
+language_fundamentals = Grundlagen der Sprache (z.B. Ziffern, Buchstaben, Geld)
+# Sentence Domain dropdown option
+media_entertainment = Medien und Unterhaltung
+# Sentence Domain dropdown option
+nature_environment = Natur und Umwelt
+# Sentence Domain dropdown option
+news_current_affairs = Nachrichten und aktuelle Themen
+# Sentence Domain dropdown option
+technology_robotics = Technologie und Robotik
 
 ## REVIEW PAGE
 

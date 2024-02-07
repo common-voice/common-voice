@@ -52,6 +52,7 @@ cak = Какчыкельская
 ckb = Цэнтральна-курдская
 cnh = Чынская
 co = Карсіканская
+crh = Крымска-татарская
 cs = Чэшская
 cv = Чувашская
 cy = Валійская
@@ -242,6 +243,7 @@ share-text = Дапамажыце навучыць машыны голасу с�
 link-copied = Спасылка скапіявана
 back-top = Вярнуцца ўгару
 logout = Выйсці
+donate = Ахвяраваць
 
 ## Home Page
 
@@ -396,8 +398,10 @@ native-language =
 profile-form-add-accent = Дадаць новы ўласны акцэнт "{ $inputValue }"
 profile-form-submit-save = Захаваць
 profile-form-submit-saved = Захавана
-male = Мужчына
-female = Жанчына
+male_masculine = Мужчынскі
+female_feminine = Жаночы
+transgender = Трансгендэр
+non-binary = Небінарны
 # Gender
 other = Іншы
 why-profile-title = Навошта патрэбны профіль?
@@ -615,6 +619,7 @@ about-playbook-how-grow-language-content-8 = <strong>Будзьце творчы
 ## How to validate
 
 about-playbook-how-validate = Як вызначыць, ці варта ўхваліць галасавы кліп?
+about-playbook-how-validate-content-1 = Калі вы <strong>пачулі</strong> і <strong>зразумелі</strong> тое, што было сказана, то звычайна <strong>лепш зацвердзіць</strong>.
 about-playbook-how-validate-content-2 = <strong>Не адхіляйце запісы, дзе дыктар прамаўляе з «акцэнтам», адрозным ад вашага ўласнага.</strong> Гэта важна, каб распазнаванне маўлення лепш працавала для ўсіх.
 about-playbook-how-validate-content-4 = Калі 2 чалавекі адхілілі запіс, ён будзе апублікаваны ў асобным падмностве набору дадзеных.
 
@@ -750,6 +755,10 @@ dataset-version = Версія
 sha256-checksum-copied = Кантрольная сума SHA256 скапіравана!
 sha256-checksum-copied-error = Не атрымалася скапіраваць кантрольную суму SHA256
 clipboard-not-supported = Буфер абмену не падтрымліваецца
+no-information-available = Няма даступных звестак
+dataset-metadata-sex = Пол
+# dataset metadata - age of contributor
+dataset-metadata-age = Узрост
 
 ## Download Modal
 
@@ -824,9 +833,9 @@ language-validation-progress = Прагрэс праверкі
 action-click = Націснуць
 action-tap = Дакрануцца
 contribute = Прыняць удзел
-listen = Праслухаць
-write = Пішыце
-review = Правярайце
+listen = Слухаць
+write = Пісаць
+review = Правяраць
 skip = Прапусціць
 shortcuts = Цэтлікі
 clips-with-count-pluralized =
@@ -952,7 +961,7 @@ contribution-activity = Актыўнасць удзелу
 top-contributors = Топ удзельнікаў
 recorded-clips = Запісана кліпаў
 validated-clips = Праверана кліпаў
-total-approved = Усяго ўхвалена
+total-approved = Усяго зацверджана
 overall-accuracy = Агульная дакладнасць
 set-visibility = Змяніць маю бачнасць
 visibility-explainer = Гэтая налада кантралюе вашу бачнасць у рэйтынгу ўдзельнікаў. Калі выбраць "Схаваны", ваш прагрэс будзе прыватным. Гэта значыць, ваша выява, імя карыстальніка і прагрэс не будуць адлюстроўвацца ў рэйтынгу. Звярніце ўвагу, што абнаўленне рэйтынгу займае ~{ $minutes } хвілін.
@@ -1228,11 +1237,37 @@ sc-my-delete = Выдаліць выбраныя сказы
 ## REJECTED
 
 sc-rejected-title = Адхіленыя сказы
+sc-rejected-none-found = Адхіленых сказаў не знойдзена!
 
 ## STATS
 
 sc-stats-title = Статыстыка
 sc-stats-updating = Абнаўленне…
+sc-stats-error = Не атрымалася атрымаць статыстыку. Калі ласка, паспрабуйце пазней.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary =
+    { $sentenceCount ->
+        [one]
+            { $languageCount ->
+                [one] Common Voice Sentence Collector сабраў { $sentenceCount } сказ на { $languageCount } мове!
+                [few] Common Voice Sentence Collector сабраў { $sentenceCount } сказ на { $languageCount } мовах!
+               *[many] Common Voice Sentence Collector сабраў { $sentenceCount } сказ на { $languageCount } мовах!
+            }
+        [few]
+            { $languageCount ->
+                [one] Common Voice Sentence Collector сабраў { $sentenceCount } сказы на { $languageCount } мове!
+                [few] Common Voice Sentence Collector сабраў { $sentenceCount } сказы на { $languageCount } мовах!
+               *[many] Common Voice Sentence Collector сабраў { $sentenceCount } сказы на { $languageCount } мовах!
+            }
+       *[many]
+            { $languageCount ->
+                [one] Common Voice Sentence Collector сабраў { $sentenceCount } сказаў на { $languageCount } мове!
+                [few] Common Voice Sentence Collector сабраў { $sentenceCount } сказаў на { $languageCount } мовах!
+               *[many] Common Voice Sentence Collector сабраў { $sentenceCount } сказаў на { $languageCount } мовах!
+            }
+    }
 
 ## ADD
 
@@ -1378,6 +1413,9 @@ adding-sentences-subheader-numbers-explanation = У ідэале патрабу�
 adding-sentences-subheader-abbreviations = Абрэвіятуры і скароты
 adding-sentences-subheader-punctuation = Знакі прыпынку
 adding-sentences-subheader-punctuation-explanation = Спецыяльныя сімвалы і знакі прыпынку варта ўключаць, толькі калі гэта абсалютна неабходна. Напрыклад, у англійскіх словах, такіх як «don’t» ці «we’re», ёсць апостраф, і ён павінен быць у зыходным тэксце. Але наўрад ці вам калі-небудзь спатрэбіцца спецыяльны сімвал, такі як «@» ці «#».
+
+## WRITE PAGE
+
 write-page-subtitle = Сказы, дададзеныя тут, будуць уключаны ў агульнадаступны набор дадзеных пад ліцэнзіяй cc-0.
 sentence =
     .label = Сказ
@@ -1385,7 +1423,7 @@ sentence-input-value = Напішыце тут ваш сказ, які знах�
 citation-input-value = Крыніца вашага сказа
 citation =
     .label = Цытата
-what-can-i-add = Якія тыпы сказаў я магу дадаваць?
+sc-review-write-title = Якія сказы можна дадаць?
 new-sentence-rule-1 = <noCopyright>Няма абмежаванняў паводле аўтарскага права</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Менш за 15 слоў
 new-sentence-rule-3 = Без граматычных памылак
@@ -1401,4 +1439,13 @@ contact-us = Звязацца з намі
 add-sentence-success = 1 сказ сабраны
 add-sentence-error = Памылка пры даданні сказа
 required-field = Калі ласка, запоўніце гэтае поле
+single-sentence-submission = Адправіць адзін сказ
+bulk-sentence-submission = Дабавіць шмат сказаў
+single-sentence = Адзін сказ
+
+## REVIEW PAGE
+
 report-sc-different-language = Іншая мова
+
+## BULK SUBMISSION 
+

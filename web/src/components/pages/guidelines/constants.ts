@@ -2,6 +2,8 @@ import { AddingSentences } from './sidebar-content/sentence-collection/adding-se
 import { CitingSentences } from './sidebar-content/sentence-collection/citing-sentences';
 import { PublicDomain } from './sidebar-content/sentence-collection/public-domain';
 import { ReviewingSentences } from './sidebar-content/sentence-collection/reviewing-sentences';
+import { SentenceDomain } from './sidebar-content/sentence-collection/sentence-domain';
+
 import { BackgoundNoise } from './sidebar-content/voice-collection/background-noise';
 import { BackgoundVoices } from './sidebar-content/voice-collection/background-voices';
 import { Effects } from './sidebar-content/voice-collection/effects';
@@ -11,7 +13,9 @@ import { Unsure } from './sidebar-content/voice-collection/unsure';
 import { VaryingPronounciation } from './sidebar-content/voice-collection/varying-pronunciations';
 import { Volume } from './sidebar-content/voice-collection/volume';
 
-export const VOICE_NAV_IDS: Record<string, string> = {
+import { GuidelinesSection } from './types';
+
+export const VOICE_NAV_IDS = {
   PRONUNCIATIONS: 'varying-pronunciations',
   OFFENSIVE_CONTENT: 'offensive-content',
   MISREADINGS: 'misreadings',
@@ -22,14 +26,15 @@ export const VOICE_NAV_IDS: Record<string, string> = {
   UNSURE: 'just-unsure',
 };
 
-export const SENTENCE_NAV_IDS: Record<string, string> = {
+export const SENTENCE_NAV_IDS = {
   PUBLIC_DOMAIN: 'public-domain',
   CITING_SENTENCES: 'citing-sentences',
   ADDING_SENTENCES: 'adding-sentences',
   REVIEWING_SENTENCES: 'reviewing-sentences',
+  SENTENCE_DOMAIN: 'sentence-domain',
 };
 
-export const voiceGuidelinesSections = [
+export const voiceGuidelinesSections: GuidelinesSection[] = [
   {
     id: VOICE_NAV_IDS.PRONUNCIATIONS,
     component: VaryingPronounciation,
@@ -72,7 +77,7 @@ export const voiceGuidelinesSections = [
   },
 ];
 
-export const sentenceGuidelineSections = [
+export const sentenceGuidelineSections: GuidelinesSection[] = [
   {
     id: SENTENCE_NAV_IDS.PUBLIC_DOMAIN,
     component: PublicDomain,
@@ -91,6 +96,11 @@ export const sentenceGuidelineSections = [
   {
     id: SENTENCE_NAV_IDS.REVIEWING_SENTENCES,
     component: ReviewingSentences,
+    visible: true,
+  },
+  {
+    id: SENTENCE_NAV_IDS.SENTENCE_DOMAIN,
+    component: SentenceDomain,
     visible: true,
   },
 ];

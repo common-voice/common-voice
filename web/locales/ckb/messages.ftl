@@ -475,6 +475,7 @@ about-sentence-collection-subtitle = ڕستەکان کۆدەکرێنەوە بۆ 
 about-new-lang-title = سەرهەڵدانی زمانی نوێ
 about-new-lang-subtitle = ئێمە ماڵپەڕی دەنگی گشتی لەم زمانەدا دەکەینەوە.
 about-voice-contrib-title = بەشداریی دەنگ
+about-voice-validation-title = ڕاستاندنی دەنگ
 about-voice-validation-subtitle = کەسانی تر ئەو کلیپە دەنگانە پشتڕاست دەکەنەوە.
 about-dataset-release-title = بڵاوکردنەوەی داتاسێت
 about-dataset-release-subtitle = ئێمە هەر ٣ مانگ جارێک داتا سێتەکە بڵاو دەکەینەوە.
@@ -534,7 +535,6 @@ about-playbook-how-localize-content-5 = سەیری ڕوونکەرەوە ڤیدی
 ## How to add sentences
 
 about-playbook-how-add-sentences = چۆن ڕستەکان زیاد بکەم؟
-about-playbook-how-add-sentences-content-4 = ئەو ڕستانەی ڕاستێنراون ڕۆژانی چوارشەممە ناردە دەکرێن، و پاش دەرچوونی دواتر بەردەست دەبن.
 
 ## How to record quality
 
@@ -1276,3 +1276,9 @@ sc-validation-no-abbreviations = ڕستە نابێت کورتکراوەی تێد
 localization-select =
     .label = زمان/ناوچەکردن هەڵبژێرە
 sentence-collection = کۆکردنەوەی ڕستە
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+

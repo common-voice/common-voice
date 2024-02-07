@@ -408,8 +408,7 @@ native-language =
 profile-form-add-accent = Προσθήκη νέας προσαρμοσμένης προφοράς «{ $inputValue }»
 profile-form-submit-save = Αποθήκευση
 profile-form-submit-saved = Έγινε αποθήκευση
-male = Άνδρας
-female = Γυναίκα
+do_not_wish_to_say = Δεν επιθυμώ να πω
 # Gender
 other = Άλλο
 why-profile-title = Γιατί να δημιουργήσετε προφίλ;
@@ -759,7 +758,7 @@ number-of-voices = Αριθμός φωνών
 splits = Τμήματα
 email-to-download = Εισαγωγή email για λήψη
 why-email = <b>Γιατί χρειάζεστε το email μου;</b> Για την περίπτωση που θα χρειαστεί να επικοινωνήσουμε μαζί σας σχετικά με αλλαγές στο σύνολο δεδομένων.
-why-donate = Γιατί ρωτάτε;
+why-donate-datasets-page = Το Mozilla Common Voice είναι το πιο ποικιλόμορφο και ανοικτό σύνολο δεδομένων ομιλίας παγκοσμίως. Τα δεδομένα προέρχονται από την κοινότητα και η χρηματοδότησή του εξαρτάται αποκλειστικά από δωρεές. Η «φιλοξενία» των συνόλων δεδομένων, καθώς και η βελτίωση της πλατφόρμας για τις 100+ γλωσσικές κοινότητες που βασίζονται στο έργο μας, κοστίζουν σχεδόν ένα εκατομμύριο δολάρια ετησίως. Εάν εκτιμάτε τα ανοικτά, συμπεριληπτικά δεδομένα, <b>κάντε μια δωρεά σήμερα!</b>
 confirm-size = Πρόκειται να αρχίσετε μια λήψη <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -1669,6 +1668,7 @@ public-domain = Δημόσιος τομέας
 citing-sentences = Παράθεση προτάσεων
 adding-sentences = Προσθήκη προτάσεων
 reviewing-sentences = Έλεγχος προτάσεων
+domain = Τομέας
 public-domain-explanation-1 = Είναι πολύ σημαντικό όλες οι προτάσεις κειμένου να ανήκουν στον <publicDomain>δημόσιο τομέα</publicDomain> (<cc0>cc0</cc0>), καθώς το σύνολο δεδομένων του Common Voice κυκλοφορεί με άδεια cc0. Μεταφορτώστε μια πρόταση μόνο εάν είστε σίγουροι για αυτό και συμπεριλάβετε πάντα τη σχετική παραπομπή.
 public-domain-explanation-2 = Οι καλύτερες προτάσεις για τη δημιουργία μιας χρήσιμης μηχανής αναγνώρισης ομιλίας είναι η καθομιλουμένη, η σύγχρονη γλώσσα. Μερικές ιδέες που θα σας βοηθήσουν να δημιουργήσετε προτάσεις είναι:
 public-domain-explanation-3 = Δημιουργήστε σύγχρονες, καθημερινές προτάσεις μόνοι σας, με τους φίλους σας ή με μια γλωσσική κοινότητα, για παράδειγμα μέσω μιας εκδήλωσης συγγραφής.
@@ -1707,7 +1707,22 @@ reviewing-sentences-explanation-1 = Εάν η πρόταση πληροί τα �
 reviewing-sentences-explanation-2 = Εάν η πρόταση δεν πληροί τα παραπάνω κριτήρια, κάντε κλικ στο κουμπί «Όχι».
 reviewing-sentences-explanation-3 = Εάν δεν είστε σίγουροι για την πρόταση, μπορείτε επίσης να την παραλείψετε και να προχωρήσετε στην επόμενη.
 reviewing-sentences-explanation-4 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
-# WRITE PAGE
+# Indicates that the domain of a sentence is general
+sentence-domain-general = Γενικός
+sentence-domain-agriculture = Γεωργία
+sentence-domain-automotive = Αυτοκίνηση
+sentence-domain-finance = Οικονομικά
+sentence-domain-food-service-retail = Φαγητό, εξυπηρέτηση και λιανική
+sentence-domain-healthcare = Υγειονομική περίθαλψη
+sentence-domain-history-law-government = Ιστορία, νόμοι και διακυβέρνηση
+sentence-domain-media-entertainment = Πολυμέσα και ψυχαγωγία
+sentence-domain-nature-environment = Φύση και περιβάλλον
+sentence-domain-news-current-affairs = Ειδήσεις και επικαιρότητα
+sentence-domain-technology-robotics = Τεχνολογία και ρομποτική
+sentence-domain-language-fundamentals = Βασικά στοιχεία γλώσσας (π.χ. αριθμοί, γράμματα, χρήματα)
+
+## WRITE PAGE
+
 write-instruction = <icon></icon> Προσθήκη πρότασης δημόσιου τομέα
 write-page-subtitle = Οι προτάσεις που υποβάλλονται εδώ θα προστεθούν σε ένα δημόσια διαθέσιμο σύνολο δεδομένων με άδεια cc-0.
 sentence =
@@ -1738,6 +1753,32 @@ single-sentence-submission = Υποβολή μεμονωμένης πρότασ�
 bulk-sentence-submission = Υποβολή πολλαπλών προτάσεων
 single-sentence = Μεμονωμένη πρόταση
 bulk-sentences = Πολλαπλές προτάσεις
+sentence-domain =
+    .label = Τομέας πρότασης
+# Sentence Domain dropdown option
+agriculture = Γεωργία
+# Sentence Domain dropdown option
+automotive = Αυτοκίνηση
+# Sentence Domain dropdown option
+finance = Οικονομικά
+# Sentence Domain dropdown option
+food_service_retail = Φαγητό, εξυπηρέτηση και λιανική
+# Sentence Domain dropdown option
+general = Γενικός
+# Sentence Domain dropdown option
+healthcare = Υγειονομική περίθαλψη
+# Sentence Domain dropdown option
+history_law_government = Ιστορία, νόμοι και διακυβέρνηση
+# Sentence Domain dropdown option
+language_fundamentals = Βασικά στοιχεία γλώσσας (π.χ. αριθμοί, γράμματα, χρήματα)
+# Sentence Domain dropdown option
+media_entertainment = Πολυμέσα και ψυχαγωγία
+# Sentence Domain dropdown option
+nature_environment = Φύση και περιβάλλον
+# Sentence Domain dropdown option
+news_current_affairs = Ειδήσεις και επικαιρότητα
+# Sentence Domain dropdown option
+technology_robotics = Τεχνολογία και ρομποτική
 
 ## REVIEW PAGE
 

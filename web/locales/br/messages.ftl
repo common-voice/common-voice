@@ -52,6 +52,7 @@ cak = Kakchikeleg
 ckb = Kurdeg ar c’hreiz
 cnh = Hakaeg
 co = Korseg
+crh = Tatareg a vro Grimea
 cs = Tchekeg
 cv = Tchouvacheg
 cy = Kembraeg
@@ -121,6 +122,7 @@ lo = Laoseg
 lt = Lituaneg
 ltg = Latgalianeg
 lv = Latveg
+lzz = Lazeg
 mai = Maitilieg
 mdf = Mokcheg
 mg = Malagasieg
@@ -169,6 +171,8 @@ sah = Yakouteg
 sat = Santali (Ol Chiki)
 sc = Sardinieg
 scn = Sikilianeg
+sco = Skoseg
+sd = Sindhi
 sdh = Kurdeg ar Su
 shi = Tacheliteg
 si = Sinhaleg
@@ -210,6 +214,7 @@ ve = Tshivendaeg
 vec = Veneteg
 vi = Vietnameg
 vot = Voteg
+wep = Westfalieg
 wo = Wolof
 xh = Xhosaeg
 yi = Yiddish
@@ -409,8 +414,9 @@ native-language =
 profile-form-add-accent = Ouzhpennañ ar pouez-mouezh personelaet nevez "{ $inputValue }"
 profile-form-submit-save = Enrollañ
 profile-form-submit-saved = Enrollet
-male = Paotr
-female = Plac’h
+male_masculine = Gourel
+female_feminine = Benel
+transgender = Treuzjener
 # Gender
 other = All
 why-profile-title = Perak ur profil?
@@ -694,7 +700,6 @@ number-of-voices = Niver a vouezhioù
 splits = Troc’hadennoù
 email-to-download = Enankit ur chomlec’h postel evit pellgargañ
 why-email = <b>Perak ur chomlec’h postel?</b> Gallout a rafec’h kaout ezhomm kelaouiñ ac’hanoc’h eus kemmoù er spletad roadennoù, gant ur chomlec’h postel hon eus un doare da vont e darempred ganeoc’h.
-why-donate = Perak e c'houlennit eta?
 confirm-size = Emaoc’h o vont da lañsañ ur bellgagadenn <b>{ $size }</b>
 size-gigabyte = Go
 size-megabyte = Mo
@@ -729,6 +734,9 @@ close = Serriñ
 download = Pellgargañ
 dataset-version = Stumm
 clipboard-not-supported = N’eo ket skoret ar golver
+dataset-metadata-sex = Reizh
+# dataset metadata - age of contributor
+dataset-metadata-age = Oad
 
 ## Download Modal
 
@@ -778,6 +786,8 @@ language-section-in-progress = War ober
 language-section-in-progress-new-description = Ar yezhoù-mañ a zo war ziorren gant ar gumuniezh evit ar mare. Ar barrennoù araokadur a ziskouez pegen pell eo aet pep yezh evit <localizationGlossaryLink>treiñ al lec’hienn</localizationGlossaryLink> ha <sentenceCollectionGlossaryLink>dastum frazennoù</sentenceCollectionGlossaryLink>.
 language-section-launched = Loc’het
 language-section-launched-description = Evit ar yezhoù lañset-mañ eo bet <localizationGlossaryLink>troet</localizationGlossaryLink> al lec’hienn ha dastumet eo bet trawalc’h a <sentenceCollectionGlossaryLink>frazennoù</sentenceCollectionGlossaryLink> evit aotren kendaoladoù <speakLink>Komz</speakLink> ha <listenLink>Selaou</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Hizivaet da ziwezhañ: { $lastUpdatedTimeStamp }
 languages-show-more = Gouzout hiroc’h
 languages-show-less = Gwelet nebeutoc’h
 language-meter-in-progress = War ober
@@ -1054,6 +1064,7 @@ download-request-button = Pellgargañ
 download-request-title = { $created }
 download-request-refresh-button = Freskaat
 download-request-modal-title = Liammoù pellgargañ
+download-request-link-text = Zip n°{ $offset } diwar { $total }
 download-request-metadata-link = Testenn ar frazenn
 
 ## Landing
@@ -1200,6 +1211,7 @@ sc-add-lang-sec-button = Ouzhpennañ ur yezh
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Kadarnaat ar frazennoù nevez
 # Variables:
 #   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
 sc-confirm-sentences-found =
@@ -1232,6 +1244,7 @@ sc-lang-info-validated =
 
 ## LOGIN
 
+sc-login-err-failed = C'hwitadenn war ar c'hennask
 sc-login-err-try-again = Klaskit en-dro mar plij.
 
 ## PROFILE
@@ -1317,6 +1330,9 @@ adding-sentences-subheader-length = Hirded
 adding-sentences-subheader-speakable = Aes da zistagañ
 adding-sentences-subheader-numbers = Niverennoù
 adding-sentences-subheader-punctuation = Poentadur
+
+## WRITE PAGE
+
 sentence =
     .label = Frazenn
 citation-input-value = Mammenn ho frazenn

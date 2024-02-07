@@ -418,8 +418,12 @@ native-language =
 profile-form-add-accent = Nij oanpast aksint ‘{ $inputValue }’ tafoegje
 profile-form-submit-save = Bewarje
 profile-form-submit-saved = Bewarre
-male = Man
-female = Frou
+male_masculine = Manlik/Manlik
+female_feminine = Froulik/froulik
+intersex = Yntersekse
+transgender = Transgender
+non-binary = Non-binêr
+do_not_wish_to_say = Sis ik leaver net
 # Gender
 other = Oars
 why-profile-title = Wêrom in profyl?
@@ -766,7 +770,7 @@ number-of-voices = Oantal stimmen
 splits = Sindielen
 email-to-download = Fier e-mailadres yn om te downloaden
 why-email = <b>Wêrom in e-mailadres?</b> Mooglik moatte wy jo yn de takomst oer wizigingen yn de gegevensset ynformearje. In e-mailadres jout ús in kontaktmooglikheid.
-why-donate = Wêrom freegje jo dat?
+why-donate-datasets-page = Mozilla Common Voice is de meast ferskaat crowdsourcete iepen-spraakgegevensset yn de wrâld – en wy wurde folslein mooglik makke troch donaasjes. It kostet hast in miljoen dollar yn it jier om de gegevenssets te hosten en it platfoarm te ferbetterjen foar de mear as 100 taalmienskippen dy’t fertrouwe op wat wy dogge. As jo iepen, ynklusive gegevens wurdearje – <b>donearje dan hjoed noch!</b>
 confirm-size = Jo binne ree om in download te starten fan <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -1749,6 +1753,7 @@ public-domain = Publike domein
 citing-sentences = Sinnen sitearje
 adding-sentences = Sinnen tafoegje
 reviewing-sentences = Sinnen beoardiele
+sentence-domain = Sinsdomein
 public-domain-explanation-1 = It is tige wichtich dat alle tekstsinnen <publicDomain>publyk domein</publicDomain> (<cc0>cc0</cc0>) binne, omdat de Common Voice-dataset frijjûn wurdt ûnder in cc0-lisinsje. Laad allinnich in sin op as jo wis binne en foegje altyd de relevante boarnefermelding ta.
 public-domain-explanation-2 = De bêste sinnen foar it bouwen fan in brûkbere spraakwerkenningsmasine binne in moderne sprektaal. Guon ideeën om jo te helpen sinnen te generearjen binne;
 public-domain-explanation-3 = Meitsje sels moderne, ynformele sinnen of mei jo freonen of taalmienskip – bygelyks troch in ‘write-a-thon’
@@ -1791,7 +1796,10 @@ reviewing-sentences-explanation-1 = As de sin oan de boppesteande kritearia fold
 reviewing-sentences-explanation-2 = As de sin net oan de boppesteande kritearia foldocht, klik dan op de knop ‘Nee’.
 reviewing-sentences-explanation-3 = As jo net wis binne oer de sin, kinne jo it ek oerslaan en trochgean nei de folgjende.
 reviewing-sentences-explanation-4 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
-# WRITE PAGE
+domain-explanation = Domein ferwiist nei it ûnderwerp fan de sin. Op dit stuit kinne jo kieze tusken:
+
+## WRITE PAGE
+
 write-instruction = In <icon></icon> sin út it publike domein tafoegje
 write-page-subtitle = Sinnen dy’t hjir bydroegen wurde sille tafoege wurde oan in publyklik beskikbere cc-0 lisinsearre dataset.
 sentence =
@@ -1824,6 +1832,32 @@ single-sentence-submission = Yntsjinjen fan ien sin
 bulk-sentence-submission = Bulkyntsjinning fan sinnen
 single-sentence = Losse sin
 bulk-sentences = Bulksinnen
+sentence-domain-select =
+    .label = Sinsdomein
+# Sentence Domain dropdown option
+agriculture = Lânbou
+# Sentence Domain dropdown option
+automotive = Automotive
+# Sentence Domain dropdown option
+finance = Finansjeel
+# Sentence Domain dropdown option
+food_service_retail = Iten, tsjinsten en detailhannel
+# Sentence Domain dropdown option
+general = Algemien
+# Sentence Domain dropdown option
+healthcare = Sûnenssoarch
+# Sentence Domain dropdown option
+history_law_government = Skiednis, rjocht en regear
+# Sentence Domain dropdown option
+language_fundamentals = Taalbegrippen (byg. sifers, letters, jild)
+# Sentence Domain dropdown option
+media_entertainment = Media en ferdivedaasje
+# Sentence Domain dropdown option
+nature_environment = Natuer en miljeu
+# Sentence Domain dropdown option
+news_current_affairs = Nijs en aktualiteiten
+# Sentence Domain dropdown option
+technology_robotics = Technology en robotika
 
 ## REVIEW PAGE
 
