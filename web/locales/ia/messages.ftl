@@ -1760,6 +1760,8 @@ sentence-domain-select =
 # Sentence Domain dropdown option
 agriculture = Agricultura
 # Sentence Domain dropdown option
+automotive = Automobile
+# Sentence Domain dropdown option
 finance = Financia
 # Sentence Domain dropdown option
 general = General
