@@ -1692,6 +1692,16 @@ general = 一般
 healthcare = 醫療衛生
 # Sentence Domain dropdown option
 history_law_government = 歷史、法律與政府機關
+# Sentence Domain dropdown option
+language_fundamentals = 語言基礎（例如：數字、字母、金額）
+# Sentence Domain dropdown option
+media_entertainment = 媒體與娛樂
+# Sentence Domain dropdown option
+nature_environment = 自然與環境
+# Sentence Domain dropdown option
+news_current_affairs = 新聞時事
+# Sentence Domain dropdown option
+technology_robotics = 科技與機器人
 
 ## REVIEW PAGE
 
@@ -1704,6 +1714,8 @@ report-sc-different-language-detail = 這句話是用其他語言撰寫的句子
 sentences-fetch-error = 取得句子時發生錯誤
 review-error = 審核此句子時發生錯誤
 review-error-rate-limit-exceeded = 您操作得太快了，請花點時間確認句子內容是否正確。
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = 我們有些重大變更
 
 ## BULK SUBMISSION 
 
