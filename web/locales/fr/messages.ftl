@@ -804,7 +804,10 @@ no-information-available = Aucune information disponible
 dataset-metadata-sex = Sexe
 # dataset metadata - age of contributor
 dataset-metadata-age = Âge
+donate-modal-message = Votre jeu de données est en cours de téléchargement !
 dataset-donate-modal-heading = Le saviez-vous ?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Si les données ouvertes et inclusives sont importantes à vos yeux, faites un don !</bold>
 
 ## Download Modal
 
