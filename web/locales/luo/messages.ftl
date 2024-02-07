@@ -580,9 +580,19 @@ other-language = Dhok moro
 ## Request Language Pages
 
 request-language-heading = Penj mar dhok manyien
+request-language-form-email =
+    .label = Barupi mar mbui
+request-language-form-info =
+    .label = Weche mawuoyo kuom dhok
+request-language-form-info-explanation-list-1 = Nyinge mag dhou
+request-language-form-info-explanation-list-2 = <isoCodeLink>Nembni mag ISO</isoCodeLink> kongere
+# Success page
+request-language-success-heading = Erokamano! Iseoro kwayo mar dhok manyien
 
 ## Languages Overview
 
+language-section-in-progress = Madhi nyime
+language-section-launched = Osechaki
 languages-show-more = Ne moko
 languages-show-less = Ne  Matin
 language-meter-in-progress = dhi nyime
@@ -590,7 +600,9 @@ language-total-progress = Giduto
 language-search-input =
     .placeholder = Many
 language-speakers = Jomaloso / Jomawuoyo
+localized = Oseketgi e alworagi
 sentences = Weche
+language-validation-hours = Seche
 language-validation-progress = Kaka nono dhi nyime
 
 ## Contribution
@@ -608,6 +620,19 @@ clips-with-count-pluralized =
         [one] duol momaki
        *[other] duonde momaki
     }
+goal-help-recording = Isekonyo Common Voice chopo kiwango <goalPercentage></goalPercentage> kuom duol { $goalValue } midwaro pile ka pile!
+contribute-more =
+    { $count ->
+        [one] Iseikori timo { $count } moro?
+       *[other] Useikoru timo { $count } moko?
+    }
+record-cta = Chak mako duol
+record-platform-not-supported = Watimo mos, migawo mitiyogono ok nyalre.
+record-platform-not-supported-ios-non-safari = Kitiyo kod iOS, yie idhi nyime kod Safari mondo iyaw mako duol...
+record-must-allow-microphone = Nyaka iyiene gima mako duol.
+record-no-mic-found = Ok oyudi gima mako duol.
+record-error-too-short = Duol momakino ne chiek ahinya.
+record-error-too-long = Duol momakino ne bor ahinya.
 record-again-instruction = Ber! <recordIcon></recordIcon> Mak duondi maluwo
 review-tooltip = Non kendo kaeto ichak imak duolno kae kimedodhi
 review-instruction = Ngi kendo dual misemako kaeto ichaki mak duol kendo kaponi dwarore
