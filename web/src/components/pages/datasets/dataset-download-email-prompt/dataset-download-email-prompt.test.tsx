@@ -218,6 +218,6 @@ describe('DatasetDownloadEmailPrompt', () => {
     downloadDataset({ queryByRole, getByLabelText, getByRole })
 
     expect(getByTestId('donate-modal')).toBeTruthy()
-    expect(getByText('Support the Common Voice platform')).toBeTruthy()
+    expect(getByText('Did you know…')).toBeTruthy()
   })
 })
