@@ -806,6 +806,9 @@ no-information-available = Нет доступной информации
 dataset-metadata-sex = Пол
 # dataset metadata - age of contributor
 dataset-metadata-age = Возраст
+donate-modal-message = Ваш набор данных загружается!
+dataset-donate-modal-heading = Знаете ли вы, что…
+donate-modal-explanation-1 = Размещение наборов данных и улучшение платформы для более чем 100 языковых сообществ обходится почти в миллион долларов в год?
 
 ## Download Modal
 
