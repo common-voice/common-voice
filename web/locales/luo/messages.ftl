@@ -376,12 +376,26 @@ english = Dhongere
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Nying mar tich
+profile-form-native-language =
+    .label = Dhowa
+profile-form-additional-language =
+    .label = Dhok moko
 profile-form-language =
     .label = Dhok
 profile-form-variant =
     .label = Iwacho loko mar dholuo mane?
+profile-form-variant-default-value = Onge kabind dhok moyier
+profile-form-accent =
+    .label = Kabind duol
+profile-form-custom-accent-help-text =
+    .label = Ere kaka inyalo lero kabind duondi?
+profile-form-custom-accent-placeholder-2 = Chak ndiko mondo iler kabind duondi
 profile-form-age =
-    .label = Higa
+    .label = Iga
+profile-form-gender-2 =
+    .label = Dhako kata dichuo
 hidden = Mopondo
 visible = Mineno
 profile-form-submit-save = Kan
