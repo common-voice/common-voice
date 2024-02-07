@@ -218,7 +218,9 @@ uz = Үзбәк
 ve = Венда
 vec = Венеция
 vi = Вьетнам
+vmw = Махува
 vot = Вот
+wep = Вестфаль
 wo = Волоф
 xh = Коса
 yi = Идиш
@@ -744,6 +746,7 @@ validated-hr-total = Тикшерелгән сәгатьләр саны, бар�
 overall-hr-total = Сәгать саны, барлыгы
 cv-license = Лицензия
 audio-format = Аудио форматы
+dataset-splits = Бүлемнәр (яшь һәм җенес)
 number-of-voices = Тавыш саны
 splits = Бүлемнәр
 email-to-download = Йөкләү өчен эл. почтагызны языгыз
@@ -788,6 +791,10 @@ dataset-version = Версия
 sha256-checksum-copied = SHA256 контроль суммасы копияләнде!
 sha256-checksum-copied-error = SHA256 контроль суммасын копияләп булмады
 clipboard-not-supported = Алмашу буферы тәэмин ителми
+no-information-available = Мәгълүмат юк
+dataset-metadata-sex = Җенес
+# dataset metadata - age of contributor
+dataset-metadata-age = Яшь
 
 ## Download Modal
 
