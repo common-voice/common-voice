@@ -427,9 +427,14 @@ why-demographic = Ma omaki kod ango?
 accept-privacy = An kare gi mulo wachni kaka uwache e chike mag weche mopondo mag Mozilla
 accept-privacy-title = Chike matayo weche ma ng'ato owuon
 accept-privacy-and-terms = Ayie luwo <termsLink> chike duto </termsLink> mag Commom Voice kod <privacyLink>chike matayo weche ma ng'ato owuon</privacyLink>
+login-identity = Nying mafwenyo ng'ato
 login = Donji
 login-signup = Donji
 edit = Lok
+email-subscriptions = Donjoe yudo weche kokalo barup mbui
+download-profile = Golo weche mawuoyo kuoma
+contribution-experience = Bedogi ngeyo kuom chiuruok
+skip-submission-feedback = chikri kar chiwo duoko
 
 ## Profile - Email
 
@@ -556,12 +561,25 @@ dataset-metadata-age = Iga
 
 ## Contact Modal
 
+contact-title = Kalatas mar tudruok
+contact-form-name =
+    .label = Nying
+contact-form-message =
+    .label = Wach
+contact-required = *idwaro
 
 ## Request Language Modal
 
+request-language-title = Dhok Midwaro
+request-language-form-language =
+    .label = Dhok
+request-language-success-title = Kwayo dhok osechopo maber, erokamo.
+select-language = Yier dhok
+other-language = Dhok moro
 
 ## Request Language Pages
 
+request-language-heading = Penj mar dhok manyien
 
 ## Languages Overview
 
