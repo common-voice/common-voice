@@ -408,8 +408,11 @@ native-language =
 profile-form-add-accent = Adde un nove accento personal "{ $inputValue }"
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvate
-male = Masculin
-female = Feminin
+male_masculine = Masculin
+female_feminine = Feminin
+intersex = Intersexo
+transgender = Transgene
+non-binary = Non binari
 # Gender
 other = Altere
 why-profile-title = Proque un profilo?
@@ -1675,6 +1678,7 @@ public-domain = Dominio public
 citing-sentences = Citante phrases
 adding-sentences = Addente phrases
 reviewing-sentences = Revidente phrases
+sentence-domain = Dominio del phrase
 public-domain-explanation-1 = Il es multo importante que tote le phrases de texto es de <publicDomain>dominio public</publicDomain> (<cc0>cc0</cc0>) perque le collection de datos de Common Voice es publicate sub licentia cc0. Solo e sempre carga un phrase si tu es secur, e sempre include le pertinente citation.
 public-domain-explanation-2 = Le melior phrases pro producer un utile motor de recognition vocal es un conversation colloquial, moderne. Alcun ideas pro adjutar te a generar phrases es:
 public-domain-explanation-3 = Crea phrases colloquial e moderne tu mesme, o con tu amicos, o con tu communitate linguistic, per exemplo per un ‘marathon de scriptura’
@@ -1713,7 +1717,9 @@ reviewing-sentences-explanation-1 = Si le phrase satisface le precedente criteri
 reviewing-sentences-explanation-2 = Si le phrase no satisface le precedente criterios, clicca le button "No".
 reviewing-sentences-explanation-3 = Si tu non es secur re le phrase, tu pote alsi saltar lo e mover al successive.
 reviewing-sentences-explanation-4 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger altere phrases!
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = Adde <icon></icon> un phrase de dominio public
 write-page-subtitle = Le phrases fornite ci sera addite a un insimul de datos publicamente disponibile con licentia cc-0.
 sentence =
@@ -1744,6 +1750,20 @@ single-sentence-submission = Invio de phrases singule
 bulk-sentence-submission = Invio de gruppo de phrases
 single-sentence = Phrase singule
 bulk-sentences = Gruppo de phrases
+# Sentence Domain dropdown option
+agriculture = Agricultura
+# Sentence Domain dropdown option
+finance = Financia
+# Sentence Domain dropdown option
+general = General
+# Sentence Domain dropdown option
+healthcare = Cura del sanitate
+# Sentence Domain dropdown option
+history_law_government = Historia, Lege e Governamento
+# Sentence Domain dropdown option
+media_entertainment = Medios e intertenimento
+# Sentence Domain dropdown option
+nature_environment = Natura e ambiente
 
 ## REVIEW PAGE
 
