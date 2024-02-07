@@ -364,6 +364,14 @@ request-language-button = Kwa dhok
 
 status-title = Chutho tich dhi nade nyaka newachaki: ne kuma waseae!
 status-contribute = Chiu dwondi
+status-hours =
+    { $hours ->
+        [one] Duto saa achiel mag duol momaki mosepuodhi!
+       *[other] Duto seche { $hours } mag duol momaki mosepuodhi!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Dwaro mar tich: { $goal }
 english = Dhongere
 
 ## ProfileForm
