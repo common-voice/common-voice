@@ -60,12 +60,15 @@ export const DonateModal = ({ onCloseDonateModal }: Props) => {
           </div>
         </div>
         <div className="container-item second">
-          <Localized id="support-common-voice">
+          <Localized id="dataset-donate-modal-heading">
             <h3 />
           </Localized>
           <img src={require('./images/donate-bg2.png')} alt="" />
           <div className="explanation-button-container">
-            <Localized id="donate-modal-explanation" elems={{ bold: <b /> }}>
+            <Localized id="donate-modal-explanation-1">
+              <p className="donate-modal-explanation" />
+            </Localized>
+            <Localized id="donate-modal-explanation-2" elems={{ bold: <b /> }}>
               <p className="donate-modal-explanation" />
             </Localized>
             <DonateButton onClick={onCloseDonateModal} showHeartIcon={false} />

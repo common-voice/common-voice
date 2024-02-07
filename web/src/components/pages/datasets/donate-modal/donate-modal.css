@@ -12,7 +12,7 @@ body.ReactModal__Body--open {
     box-shadow: none;
     background: none;
     max-width: 60rem;
-    margin-top: 14.5rem;
+    margin-top: 10rem;
     min-height: auto;
 
     & .close {
@@ -100,8 +100,12 @@ body.ReactModal__Body--open {
                     margin-block-start: auto;
 
                     p.donate-modal-explanation {
-                        text-align: justify;
+                        text-align: left;
                         margin-block-end: 20px;
+
+                        &:first-of-type {
+                            margin-block-end: 4px;
+                        }
                     }
 
                     & a.donate-btn {

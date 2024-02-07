@@ -831,9 +831,10 @@ dataset-metadata-sex = Sex
 # dataset metadata - age of contributor
 dataset-metadata-age = Age
 donate-modal-message = Your dataset is downloading!
-support-common-voice = Support the Common Voice platform
+dataset-donate-modal-heading = Did you know…
+donate-modal-explanation-1 = It costs almost a million dollars a year to host the datasets and improve the platform for the 100+ language communities who rely on what we do?
 # Text in <bold></bold> will shown in bold
-donate-modal-explanation = It costs almost a million dollars a year to host the datasets and improve the platform for the 100+ language communities who rely on what we do. <bold>If you value open, inclusive data - donate today!</bold>
+donate-modal-explanation-2 = <bold>If you value open, inclusive data - donate today!</bold>
 
 ## Download Modal
 download-title = Your download has started.
