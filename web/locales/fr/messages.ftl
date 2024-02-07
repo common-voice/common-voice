@@ -804,6 +804,7 @@ no-information-available = Aucune information disponible
 dataset-metadata-sex = Sexe
 # dataset metadata - age of contributor
 dataset-metadata-age = Âge
+dataset-donate-modal-heading = Le saviez-vous ?
 
 ## Download Modal
 
