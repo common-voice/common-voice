@@ -42,7 +42,7 @@ describe('The Write Page - Single Submission', () => {
 
     const randomSentence = faker.lorem.sentence(SENTENCE_LENGTH)
 
-    // Type in the sentence and citation fields
+    // Type in the sentence and citation fields and add a sentence domain
     typeSingleSubmission({
       sentence: randomSentence,
       shouldTypeCitation: true,
