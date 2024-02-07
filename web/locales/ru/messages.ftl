@@ -809,6 +809,8 @@ dataset-metadata-age = Возраст
 donate-modal-message = Ваш набор данных загружается!
 dataset-donate-modal-heading = Знаете ли вы, что…
 donate-modal-explanation-1 = Размещение наборов данных и улучшение платформы для более чем 100 языковых сообществ обходится почти в миллион долларов в год?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Если вы цените открытые, инклюзивные данные - пожертвуйте сегодня!</bold>
 
 ## Download Modal
 
