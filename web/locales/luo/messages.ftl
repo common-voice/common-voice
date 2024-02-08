@@ -435,9 +435,11 @@ email-subscriptions = Donjoe yudo weche kokalo barup mbui
 download-profile = Golo weche mawuoyo kuoma
 contribution-experience = Bedogi ngeyo kuom chiuruok
 skip-submission-feedback = chikri kar chiwo duoko
+help-accent = Idwaro kony kod kabind duol?
 
 ## Profile - Email
 
+browse-file-title = Ket picha
 
 ## Profile - Email
 
@@ -862,6 +864,7 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = Wechegi manie <wikipediaLink>aluora ma galamoro</wikipediaLink> owuok kange?
 sc-submit-ph-read-how-to =
     .placeholder = Som ane kaka  onengo tim kaok in kod adieri kaka inyal tud wechego gi wuongi.
+sc-submit-confirm = Ayieni wechegi yudore e <wikipediaLink>aluora ma galamoro</wikipediaLink> kendo oyiena chiwogi ka.
 sc-submit-button =
     .submitText = Chiu
 
@@ -956,9 +959,15 @@ reviewing-sentences = Nono weche mosendiki
 
 ## WRITE PAGE
 
+write-instruction = Medi <icon></icon> wach mayudore e aluora ma galamoro
+sentence-input-value = Ndik kae wachno moae e aluora ma galamoro
+sc-write-submit-confirm = Ayieni wachni yudore e <wikipediaLink>aluora ma galamoro</wikipediaLink> kendo oyiena chiwe ka.
 
 ## REVIEW PAGE
 
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Ket <icon></icon> weche moae aluora ma galamoro
+sc-bulk-submit-confirm = Ayieni wechegi yudore e <wikipediaLink>aluora ma galamoro</wikipediaLink> kendo oyiena chiwogi ka.
