@@ -35,7 +35,9 @@ export type Age = {
 
 export type Gender = {
   '': number
-  male: number
-  female: number
-  other: number
+  male_masculine: number
+  female_feminine: number
+  intersex: number
+  transgender: number
+  do_not_wish_to_say: number
 }
