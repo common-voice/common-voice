@@ -521,6 +521,7 @@ about-playbook-how-project-governance = Ere kaka weche mag chenro go iloso?
 ## Glossary
 
 sentence-collection = choko weche
+sentence-collection-explanation = Choko weche kowuok kuom aluora ma galamoro, kata  ndiko weche manyien midhiketie aluora ma galamoro.
 
 ## Error pages
 
@@ -813,6 +814,7 @@ sc-login-signup-button = donjo e komputa
 
 ## HOME
 
+sc-home-collect-text = Konywa kod ndiko weche kata choko weche koae aluora ma galamoro.
 
 ## GENERAL
 
@@ -857,6 +859,9 @@ sc-submit-select-language =
 sc-submit-add-sentences = Medi <wikipediaLink>public domain</wikipediaLink> weche
 sc-submit-ph-one-per-line =
     .placeholder = Med wach achiel kachiel e laini
+sc-submit-from-where = Wechegi manie <wikipediaLink>aluora ma galamoro</wikipediaLink> owuok kange?
+sc-submit-ph-read-how-to =
+    .placeholder = Som ane kaka  onengo tim kaok in kod adieri kaka inyal tud wechego gi wuongi.
 sc-submit-button =
     .submitText = Chiu
 
