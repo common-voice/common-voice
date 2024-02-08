@@ -443,6 +443,8 @@ browse-file-title = Ket picha
 
 ## Profile - Email
 
+manage-email-subscriptions = Pang barup mbui mosechiu
+email-already-used = Barup mbuini osetigo e akaont moro
 add-language = Med dhok moro
 
 ## FAQ
@@ -475,26 +477,38 @@ about-no-votes-text = Ka ngato okwero duol momaki to iduoke e laini. Ka duolno o
 about-clip-graveyard = Liendi duol
 about-get-involved = Donjie e riuruok
 about-stay-in-touch = Ere kaka anyalo tudora kodu?
+about-stay-in-touch-button = Ndikri piny
 about-nav-why-common-voice = Nango?
 about-nav-how-it-works = Nade?
+about-nav-partners = Jokanyakla
 about-nav-get-involved = Donjie e riuruok
+about-nav-how-it-works-2 = Ere kaka Common Voice ni tiyo?
 about-nav-playbook = Puojri kaka inyalo betie achiel
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Dhok en ango e Common Voice?
 
 ## How do I add a language
 
 about-playbook-how-add-language = Ere kaka damed dhok moro?
+about-playbook-how-add-language-translating-heading = Loko weche manie migawoni
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ngii puonjruok kaka itiyo kod Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Choko weche
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ngii puonjruok marwa kaka itiyo kod gir choko weche</sentenceCollectorVideo>
 
 ## How does localization work
 
+about-playbook-how-localize = Ere kaka loko wecheg manie migawoni tiyo?
+about-playbook-how-localize-content-1 = Loko migao mar Common Voice <strong>pontoon</strong>.
+about-playbook-how-localize-content-4 = Migaoni biro bedo moikore koselok weche machopo 75% manyiso tieko.
 about-playbook-how-localize-content-5 = Tem ingianena wechewago mondo okonyi
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Ere kaka anyalo medo weche?
+about-playbook-how-add-sentences-content-3 = Inyalo tiyo kod <scraperLink> gir golo weche</scraperLink> mondi igol weche koae Wikipedia.
 
 ## How to record quality
 
