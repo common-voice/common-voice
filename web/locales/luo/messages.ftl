@@ -355,7 +355,7 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nuo mako duol
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Ruchi duol mimako sani
-shortcut-submit = duogo
+shortcut-submit = Duogi
 shortcut-submit-label = Kan dunde machuok
 request-language-text = Okineno dhou e Common Voice?
 request-language-button = Kwa dhok
@@ -634,9 +634,16 @@ record-no-mic-found = Ok oyudi gima mako duol.
 record-error-too-short = Duol momakino ne chiek ahinya.
 record-error-too-long = Duol momakino ne bor ahinya.
 record-error-too-quiet = Duol momakino ne ilose mos ahinya.
+record-cancel = Ruchi duol momak kendono
+record-instruction = { $actionType }<recordIcon></recordIcon> som wechego matek
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> Itimo maber
+record-three-more-instruction = Adek emodong!
 record-again-instruction = Ber! <recordIcon></recordIcon> Mak duondi maluwo
+record-again-instruction2 = Itimo maber, mak duondi kendo <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Ma e mogik!
 review-tooltip = Non kendo kaeto ichak imak duolno kae kimedodhi
 review-instruction = Ngi kendo dual misemako kaeto ichaki mak duol kendo kaponi dwarore
+record-submit-tooltip = { $actionType } Chiu kiseikori
 clips-uploaded = Duonde momaki mosekan
 record-abort-submit = Or duonde momaki
 record-abort-delete = Wuogi kaeto iruch duonde mosemaki
@@ -840,12 +847,18 @@ sc-stats-title = Kwan
 
 sc-submit-err-select-lang = Kiyie to yier dhok
 sc-submit-err-add-sentences = Kiyie to med weche
+sc-submit-err-add-source = Yie indik kuma igole wechegi.
+sc-submit-err-confirm-pd = Yie anena ni wechegi yudore ayanga ne jiduto.
+sc-submit-prompt =
+    .message = Wechego ok o or, in kod adieri nidwaro wuok?
 sc-submit-title = Med weche
 sc-submit-select-language =
     .labelText = Yier dhok
 sc-submit-add-sentences = Medi <wikipediaLink>public domain</wikipediaLink> weche
 sc-submit-ph-one-per-line =
     .placeholder = Med wach achiel kachiel e laini
+sc-submit-button =
+    .submitText = Chiu
 
 ## ADD LANGUAGE
 
