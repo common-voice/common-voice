@@ -633,6 +633,7 @@ record-must-allow-microphone = Nyaka iyiene gima mako duol.
 record-no-mic-found = Ok oyudi gima mako duol.
 record-error-too-short = Duol momakino ne chiek ahinya.
 record-error-too-long = Duol momakino ne bor ahinya.
+record-error-too-quiet = Duol momakino ne ilose mos ahinya.
 record-again-instruction = Ber! <recordIcon></recordIcon> Mak duondi maluwo
 review-tooltip = Non kendo kaeto ichak imak duolno kae kimedodhi
 review-instruction = Ngi kendo dual misemako kaeto ichaki mak duol kendo kaponi dwarore
