@@ -1709,6 +1709,7 @@ reviewing-sentences-explanation-1 = ئەگەر بۇ جۈملە يۇقىرىدى�
 reviewing-sentences-explanation-2 = ئەگەر بۇ جۈملە يۇقىرىدىكى ئۆلچەمگە توشمىسا، «بولماپتۇ» توپچىسى بېسىلىدۇ.
 reviewing-sentences-explanation-3 = ئەگەر سىز بۇ جۈملىنى جەزملىيەلمىسىڭىز، ئۇنىڭدىن ئاتلاپ كېيىنكى جۈملىگە يۆتكەلسىڭىز بولىدۇ.
 reviewing-sentences-explanation-4 = ئەگەر تەكشۈرىدىغان جۈملە تۈگەپ كەتسە، تېخىمۇ كۆپ جۈملە توپلىشىمىزغا ياردەم قىلىڭ!
+domain-explanation = دائىرە جۈملە تېمىسىنى كۆرسىتىدۇ. نۆۋەتتە تاللىيالايدىغان دائىرىڭىز:
 
 ## WRITE PAGE
 
@@ -1747,6 +1748,8 @@ sentence-domain-select =
 # Sentence Domain dropdown option
 agriculture = دېھقانچىلىق
 # Sentence Domain dropdown option
+automotive = ماشىنا
+# Sentence Domain dropdown option
 finance = ئىقتىساد
 # Sentence Domain dropdown option
 food_service_retail = يېمەكلىك، مۇلازىمەت ۋە پارچە سېتىش
@@ -1756,6 +1759,16 @@ general = ئادەتتىكى
 healthcare = ساقلىقنى ساقلاش
 # Sentence Domain dropdown option
 history_law_government = تارىخ، قانۇن ۋە ھۆكۈمەت
+# Sentence Domain dropdown option
+language_fundamentals = تىل ئاساسى (مەسىلەن سان، ھەرپ، پۇل)
+# Sentence Domain dropdown option
+media_entertainment = تاراتقۇ ۋە كۆڭۈل ئېچىش
+# Sentence Domain dropdown option
+nature_environment = تەبىئەت ۋە مۇھىت
+# Sentence Domain dropdown option
+news_current_affairs = خەۋەر ۋە نۆۋەتتىكى ۋەقەلەر
+# Sentence Domain dropdown option
+technology_robotics = تېخنىكا ۋە ماشىنا ئادەم
 
 ## REVIEW PAGE
 
