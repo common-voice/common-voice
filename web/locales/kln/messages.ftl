@@ -50,6 +50,7 @@ cs = Czech
 cv = Chuvash
 cy = Welsh
 da = Danish
+dag = kutitit ab Dagbani
 de = cherumanik
 dsb = sorbian,murot ngweny
 dv = dhivehi
@@ -90,7 +91,10 @@ ie = interlingue
 ig = kutit ab Igbo
 is = Bik ab Iceland
 it = italiainik
+izh = kutit ab izhorian
 ja = kutitab chapanis
+jbo = kutit ab lojban
+jv = kutit ab Javanese
 ka = Chitab Georgia
 ki = kog'oyo
 kk = kazakh
@@ -111,6 +115,7 @@ lt = kutit ab lithuanian
 ltg = kutit ab latgalian
 lv = kutit ab latfian
 lzz = kutit ab las
+mg = kutit ab Malagsy
 
 # [/]
 
