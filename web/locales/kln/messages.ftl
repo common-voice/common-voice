@@ -71,6 +71,7 @@ fy-NL = Frisian
 ga-IE = kutit nebo Irish
 gl = galician
 gn = guarani
+gom = Goan Konkani
 gu-IN = kutit nebo Gujarati
 guc = kutit nebo Wayuunaiki
 ha = kutitab hausa
@@ -93,13 +94,23 @@ ja = kutitab chapanis
 ka = Chitab Georgia
 ki = kog'oyo
 kk = kazakh
+km = khmer
+kmr = kutit ab kurmanji kurdish
+kn = kutit ab kannada
+knn = kutit ab konkani
 ko = kutit ab korean
 kpv = komi-Zyrian
+kw = kutitab corni
+ky = kutit ab kyrgyz
 lb = kutitab luxembourg
 lg = kutitab nebo Luganda
 lij = ligurian
 ln = Kutit ab Lingala
 lo = lao
+lt = kutit ab lithuanian
+ltg = kutit ab latgalian
+lv = kutit ab latfian
+lzz = kutit ab las
 
 # [/]
 
