@@ -8,6 +8,8 @@ email-input =
     .label = emailit
 submit-form-action = yokten
 loading = tesetai....
+email-opt-in-info = amechei anyoru emailishiek , cheibwotwo tesestai chebo common voice
+email-opt-in-info-title = chut common si inyou emailishiek
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
