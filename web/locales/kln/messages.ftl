@@ -10,6 +10,7 @@ submit-form-action = yokten
 loading = tesetai....
 email-opt-in-info = amechei anyoru emailishiek , cheibwotwo tesestai chebo common voice
 email-opt-in-info-title = chut common si inyou emailishiek
+error-something-went-wrong = mutyo, kapit lelutiet.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,6 +18,20 @@ email-opt-in-info-title = chut common si inyou emailishiek
 
 ## Languages
 
+ab = Abkhas
+ace = emetab Acehnese
+af = biik chetuen
+an = Aragonese
+arn = Mapudungun
+as = Assamese
+ast = Asturian
+az = Azerbaijani
+ba = Bashkir
+bas = Basaa
+bg = Bukgarian
+bm = Bambara
+bn = Bengali
+bo = Tibetan
 
 # [/]
 
