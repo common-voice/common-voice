@@ -32,6 +32,18 @@ bg = Bukgarian
 bm = Bambara
 bn = Bengali
 bo = Tibetan
+br = Breton
+bs = Bosnian
+bxr = Buryat
+byv = Medumba
+ca = Catalan
+cak = kaqchikel
+ckb = central kurdish
+cnh = Hakha Chin
+co = corsican
+crh = crimean tatar
+cs = Czech
+eu = basque
 
 # [/]
 
