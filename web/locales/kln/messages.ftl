@@ -11,6 +11,7 @@ loading = tesetai....
 email-opt-in-info = amechei anyoru emailishiek , cheibwotwo tesestai chebo common voice
 email-opt-in-info-title = chut common si inyou emailishiek
 error-something-went-wrong = mutyo, kapit lelutiet.
+error-clip-upload = ngut kumoimukosei iyokte clippit nii, icharuben kora?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -21,7 +22,9 @@ error-something-went-wrong = mutyo, kapit lelutiet.
 ab = Abkhas
 ace = emetab Acehnese
 af = biik chetuen
+am = amaharik
 an = Aragonese
+ar = Kutit ab waarabu
 arn = Mapudungun
 as = Assamese
 ast = Asturian
@@ -74,6 +77,29 @@ ha = kutitab hausa
 he = kutitab uibrainiak
 hi = kutitab wahindi
 hil = Hiligaynon
+hr = Croatian
+hsb = sorbuan,murot barak
+ht = Bik ab Haiti
+hu = Bik ab Hungary
+hy-AM = Chito nibo Armenia
+hyw = Chito nebo Armenia murot katam
+ia = interlingua
+id = Bik ab Indoneshia
+ie = interlingue
+ig = kutit ab Igbo
+is = Bik ab Iceland
+it = italiainik
+ja = kutitab chapanis
+ka = Chitab Georgia
+ki = kog'oyo
+kk = kazakh
+ko = kutit ab korean
+kpv = komi-Zyrian
+lb = kutitab luxembourg
+lg = kutitab nebo Luganda
+lij = ligurian
+ln = Kutit ab Lingala
+lo = lao
 
 # [/]
 
