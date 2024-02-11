@@ -116,6 +116,8 @@ ltg = kutit ab latgalian
 lv = kutit ab latfian
 lzz = kutit ab las
 mg = kutit ab Malagsy
+mhr = kutit ab Meadow Mari
+mk = macedonian
 
 # [/]
 
