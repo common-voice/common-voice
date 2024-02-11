@@ -822,6 +822,9 @@ dataset-metadata-sex = Pohlavie
 dataset-metadata-age = Vek
 donate-modal-message = Váš súbor údajov sa sťahuje!
 dataset-donate-modal-heading = Vedeli ste, že…
+donate-modal-explanation-1 = Hosting súborov údajov a vylepšovanie platformy pre viac ako 100 jazykových komunít, ktoré sa spoliehajú na to, čo robíme, stojí takmer milión dolárov ročne?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ak si ceníte otvorené, inkluzívne dáta – prispejte ešte dnes!</bold>
 
 ## Download Modal
 
@@ -1691,6 +1694,7 @@ public-domain = Verejná licencia
 citing-sentences = Citovanie viet
 adding-sentences = Pridávanie viet
 reviewing-sentences = Kontrola viet
+sentence-domain = Zatriedenie vety
 public-domain-explanation-1 = Je veľmi dôležité, aby všetky textové vety boli dostupné pod <publicDomain>verejnou licenciou</publicDomain> (<cc0>cc0</cc0>), keďže kolekcia údajov Common Voice je vydávaná pod licenciou cc0. Nahrajte vetu, len ak ste si istí, a vždy uveďte príslušnú citáciu.
 public-domain-explanation-2 = Najlepšie vety na vytvorenie užitočného nástroja na rozpoznávanie reči sú hovorové, moderné výrazy. Niekoľko tipov, ktoré vám pomôžu pri vytváraní viet:
 public-domain-explanation-3 = Vytvárajte moderné hovorové vety sami alebo so svojimi priateľmi alebo jazykovou komunitou – napríklad prostredníctvom „write-a-thon“
@@ -1729,6 +1733,7 @@ reviewing-sentences-explanation-1 = Ak veta spĺňa vyššie uvedené kritériá
 reviewing-sentences-explanation-2 = Ak veta nespĺňa vyššie uvedené kritériá, kliknite na tlačidlo „Nie“.
 reviewing-sentences-explanation-3 = Ak si nie ste istí vetou, môžete ju tiež preskočiť a prejsť na ďalšiu.
 reviewing-sentences-explanation-4 = Ak vám dochádzajú vety na kontrolu, môžete nám pomôcť zhromaždiť ďalšie vety.
+domain-explanation = Zatriedenie odkazuje na predmet vety. V súčasnosti si môžete vybrať z nasledovných položiek:
 
 ## WRITE PAGE
 
@@ -1762,6 +1767,8 @@ single-sentence-submission = Odoslanie jednej vety
 bulk-sentence-submission = Odoslanie viacerých viet
 single-sentence = Jedna veta
 bulk-sentences = Viaceré vety
+sentence-domain-select =
+    .label = Zatriedenie vety
 # Sentence Domain dropdown option
 agriculture = Poľnohospodárstvo
 # Sentence Domain dropdown option
@@ -1774,6 +1781,18 @@ food_service_retail = Stravovanie, služby a maloobchod
 general = Všeobecné
 # Sentence Domain dropdown option
 healthcare = Zdravotná starostlivosť
+# Sentence Domain dropdown option
+history_law_government = História, právo a vláda
+# Sentence Domain dropdown option
+language_fundamentals = Základy jazyka (napr. číslice, písmená, peniaze)
+# Sentence Domain dropdown option
+media_entertainment = Médiá a zábava
+# Sentence Domain dropdown option
+nature_environment = Príroda a životné prostredie
+# Sentence Domain dropdown option
+news_current_affairs = Správy a aktuálne udalosti
+# Sentence Domain dropdown option
+technology_robotics = Technológia a robotika
 
 ## REVIEW PAGE
 
