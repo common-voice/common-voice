@@ -166,8 +166,35 @@ sd = kutit ab  Sindhi
 sdh = southern kurdish
 shi = kutit ab  Shilha
 si = kutit ab Sinhala
-so = kutitab somalik
+sk = kutit ab Slovak
+skr = kutit ab Saraikik
+sl = kutit ab  Slovenian
+snk = kutit ab Soninkeinik
+so = kutitab Somalik
+sq = kutit ab Albanian
+sr = kutit ab Serbian
+ss = kutit ab Siswati
+st = kutit ab  Sotho murot ngweny
+sv-SE = kutitab biikap emetab Sweden
 sw = kutit ab Kiswali
+syr = kutit ab Syriac
+ta = kutit ab Tamil
+te = kutit ab  Telugu
+tg = kutit ab  Tajik
+th = kutitab Taik
+ti = kutit ab Tigrinya
+tig = kutit ab Tigre
+tk = kutitab Turkmenik
+tl = kutit ab Tagalog
+tn = kutit ab Setswana
+tok = Tkutit ab Toki Pona
+tr = kutitab bikab emetab Turkey
+ts = kutit ab Xitsonga
+tt = kutit ab Tatar
+tw = kutit ab Twi
+ty = kutit ab  Tahitian
+tyv = kutit ab Tuvan
+uby = kutit ab Ubykh
 udm = kutit ab  Udmurt
 ug = kutit ab  Uyghur
 uk = kutitab Ukraine
@@ -198,36 +225,97 @@ zza = kutit ab Zaza
 
 speak = ngalal
 speak-now = ngalal nguno
+datasets = dataseti
 languages = kutit
 about = agobo
 partner = mito tuai
 profile = kegereet
 help = toreto
 contact = nambetab simet
+privacy = kit nebo kibortoi
+terms = ngalek chekesubi
+cookies = vidadukushek
+faq = tebutik chemuck keteb
+share-title = toretech kenyoru biik alak asigotoretech sautingwai
+link-copied = kagocopen linkit
+back-top = wegungee barak
+logout = imande
+donate = ketoret
 
 ## Home Page
 
+home-cta = ngalal,iyumji yu!
+show-wall-of-text = soman alak
+vote-yes = kayan
+vote-no = achaa
+speak-subtitle = toretishe sautingung
+hours-recorded = saishek chegigirekodeni
+voices-online = sautishek chemiten nguseetab kasari
+todays-progress = boishetab raa
+help-reach-goal = toretech asigeit borset ni
+read-terms-q = tos kisomaan olegimoktoi?
+ready-to-record = ichopot itoret sautingung
+all-locales = tugul
+today = raini
 
 ## Account Benefits
 
+benefits = tuguk chegororon
 
 ## What's public
 
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = S
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = inam/itelel
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-submit = wegen
+shortcut-submit-label = kagigoitoo clipinik
+request-language-text = tomo igeer kutit eng sautit nenaat?
+request-language-button = teep kutit?
 
 ## ProjectStatus
 
+status-contribute = tesyin sautingung
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = borset nerube
+english = kiingeresa
 
 ## ProfileForm
 
+profile-form-username =
+    .label = kainetab chito
+profile-form-native-language =
+    .label = kutitab orit
+profile-form-additional-language =
+    .label = kutit age
+profile-form-language =
+    .label = kutit
+profile-form-variant =
+    .label = ingololdoi ano kutit?
+profile-form-accent =
+    .label = olengololdoi
+profile-form-custom-accent-placeholder-2 = tau itypen asigenai olengololdoi
 
 ## Profile - Email
 
