@@ -36,22 +36,22 @@ bg = Bukgarian
 bm = Bambara
 bn = Bengali
 bo = Tibetan
-br = Breton
-bs = Bosnian
-bxr = Buryat
-byv = Medumba
-ca = Catalan
-cak = kaqchikel
-ckb = central kurdish
-cnh = Hakha Chin
-co = corsican
-crh = crimean tatar
-cs = Czech
-cv = Chuvash
-cy = Welsh
-da = Danish
+br = kutit ab Breton
+bs = kutit ab Bosnian
+bxr = kutit ab Buryat
+byv = kutit ab Medumba
+ca = kutit ab Catalan
+cak = kutit ab kaqchikel
+ckb = kutit ab  Kurdish murot orit
+cnh = kutit ab Hakha Chin
+co = kutit ab Corsican
+crh = kutit ab Crimean Tatar
+cs = kutit ab Czech
+cv = kutit ab Chuvash
+cy = kutit ab Welsh
+da = kutit ab Danish
 dag = kutitit ab Dagbani
-de = cherumanik
+de = kutit ab cherumanik
 dsb = sorbian,murot ngweny
 dv = dhivehi
 dyu = Dioula
@@ -96,6 +96,9 @@ ja = kutitab chapanis
 jbo = kutit ab lojban
 jv = kutit ab Javanese
 ka = Chitab Georgia
+kaa = kutit ab Karakalpak
+kab = kutit ab Kabyle
+kbd = kutit ab Kabardian
 ki = kog'oyo
 kk = kazakh
 km = khmer
@@ -115,6 +118,8 @@ lt = kutit ab lithuanian
 ltg = kutit ab latgalian
 lv = kutit ab latfian
 lzz = kutit ab las
+mai = kutit ab Maithili
+mdf = Kutitab Moksha
 mg = kutit ab Malagsy
 mhr = kutit ab Meadow Mari
 mk = kutit ab Macedonian
@@ -150,6 +155,7 @@ pap-AW = kutit ab  Papiamento (Aruba)
 pl = kutitab polishek
 ps = kutit ab  Pashto
 pt = kutitab biikab portugal
+quc = kutit ab K'iche'
 quy = kutit ab  Quechua chanka
 qvi = metit
 rm-sursilv = kutit ab  Romansh sursilvan
@@ -249,7 +255,11 @@ show-wall-of-text = soman alak
 vote-yes = kayan
 vote-no = achaa
 speak-subtitle = toretishe sautingung
+speak-goal-text = clipinik chegigirekoden
+listen-subtitle = toretech isaisan sautinik
+listen-goal-text = klipinik chegigesaisan
 hours-recorded = saishek chegigirekodeni
+hours-validated = saishek chegigesaisan
 voices-online = sautishek chemiten nguseetab kasari
 todays-progress = boishetab raa
 help-reach-goal = toretech asigeit borset ni
@@ -257,6 +267,11 @@ read-terms-q = tos kisomaan olegimoktoi?
 ready-to-record = ichopot itoret sautingung
 all-locales = tugul
 today = raini
+x-years-short =
+    { $count ->
+        [one] agenge(ne u )1
+       *[other] alak (ne u )2
+    }
 
 ## Account Benefits
 
@@ -264,6 +279,9 @@ benefits = tuguk chegororon
 
 ## What's public
 
+whats-public = nee kiy nebo chitugul?
+email-not-public = makiyae koek nebo chitugul emailingung
+recordings-and-locale-public = nambetab recordings ako kuti neginyumee kotagu eng chi tugul
 
 ## Speak & Listen Shortcuts
 
@@ -288,6 +306,8 @@ shortcut-vote-no = n
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
+shortcut-record-toggle-label = recorden/itelel
+shortcut-discard-ongoing-recording = mangu
 shortcut-submit = wegen
 shortcut-submit-label = kagigoitoo clipinik
 request-language-text = tomo igeer kutit eng sautit nenaat?
@@ -318,26 +338,47 @@ profile-form-accent =
 profile-form-custom-accent-placeholder-2 = tau itypen asigenai olengololdoi
 profile-form-age =
     .label = kenyishek
+profile-form-gender-2 =
+    .label = chepto anan werit
 hidden = kigiuny
 visible = taguu
+native-language =
+    .label = kutitab orit
+profile-form-submit-save = konoor
+profile-form-submit-saved = kagekonor
+male_masculine = muren
+female_feminine = chepto
+intersex = cheptoo ako werit
+transgender = chito negiwalge koek muren anan ko chepto
 do_not_wish_to_say = mamache amwaa
 # Gender
 other = alak
+build-profile = teech togengung
+edit-profile = teshin anan inemum tuguk cheibaru togengung
+profile-close = keer
 why-demographic = kaine asigoba kamanuut?
+login = chuut orit
+login-signup = chuut orit/sirgei
+edit = inemu anan iteshi
 off = ziman
 on = inam
 help-accent = tos imeche toretet eng olengololdoi?
 
 ## Profile - Email
 
+remove-avatar = inemu Avatar
 
 ## Profile - Email
 
+add-language = teshii kuti
 
 ## FAQ
 
+faq-title = tebushek chegitebe missing
 faq-what-cv-q = ne sautit ne naat?
 faq-why-important-q = kaine asigoba kamanuut?
+faq-how-get-q = anyoru kole ne ngalekab sautit nenaat ?
+faq-why-my-lang-q = kaine asigo tomo keteshi kutinyu?
 faq-what-is-cv = nee sautit ne naat?
 faq-using-cv = miten kobaishe sautit ne naat
 faq-search-for-answers =
@@ -346,14 +387,20 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = kaine asigosautit nenaat?
+how-does-it-work-title-v2 = yoee boishet kole ne sautit nenaat
 
 ## How does it work section
 
+about-language-req-subtitle = kateep chi koteshyi kuti
 about-sentence-collection-title = keyumii ngalalutik
+about-new-lang-title = keyate kuti age ne mbya
+about-voice-contrib-title = yumsetsb sautishek
 about-speak = ngalal
 about-listen-queue = kastee-igany
 about-listen = kastee
+about-is-it-valid = tos kararan clipinito?
 about-no-votes = ≥2 mami kuraishek
+about-get-involved = imache kobaaten
 about-stay-in-touch = much kengalal kolenee?
 about-nav-why-common-voice = kaine?
 about-nav-how-it-works = amune?
@@ -418,6 +465,8 @@ download-no = achaa,kongoi
 
 ## Contact Modal
 
+contact-form-name =
+    .label = kainet
 
 ## Request Language Modal
 
@@ -428,6 +477,7 @@ other-language = kutit age
 
 ## Request Language Pages
 
+request-language-heading = teep kutit ne mpya?
 
 ## Languages Overview
 
@@ -493,6 +543,8 @@ average-difficulty = miten kwen
 difficult-difficulty = wiiy
 set-a-goal = indene borsengung
 cant-decide = maamuani
+goal-interval-weekly = wiikit
+share-goal-type-speak = miten kongalali
 
 ## Profile Delete
 
