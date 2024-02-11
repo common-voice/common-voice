@@ -407,8 +407,12 @@ native-language =
 profile-form-add-accent = Nowy swójski akcent „{ $inputValue }“ pśidaś
 profile-form-submit-save = Składowaś
 profile-form-submit-saved = Skłaźony
-male = Muski
-female = Žeńscyny
+male_masculine = Muskecy/Maskulinowy
+female_feminine = Žeńscyny/Femininy
+intersex = Interseksuelny
+transgender = Transgender
+non-binary = Njebinarne
+do_not_wish_to_say = Njok pódaś
 # Gender
 other = Druge
 why-profile-title = Cogodla profil?
@@ -1617,6 +1621,9 @@ adding-sentences-subheader-offensive-content = Njepśistojne wopśimjeśe
 reviewing-sentences-explanation-1 = Jolic sada kriterijam górjejce wótpowědujo, klikniśo na tłocašk „Jo“.
 reviewing-sentences-explanation-2 = Jolic sada kriterijam górjejce njewótpowědujo, klikniśo na tłocašk „Ně“.
 reviewing-sentences-explanation-4 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
+
+## WRITE PAGE
+
 sentence =
     .label = Sada
 sentence-input-value = Zapódajśo how swóju zjawnje wužywajobnu sadu
