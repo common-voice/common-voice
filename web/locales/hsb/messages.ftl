@@ -1664,7 +1664,7 @@ healthcare = Strowotnistwo
 # Sentence Domain dropdown option
 history_law_government = Stawizny, prawnistwo a knježerstwo
 # Sentence Domain dropdown option
-language_fundamentals = Rěčne zakłady (na pr. cyfry, pismiki, pjenjezy)
+language_fundamentals = Rěčne zakłady (na př. cyfry, pismiki, pjenjezy)
 # Sentence Domain dropdown option
 media_entertainment = Medije a zabawjenje
 # Sentence Domain dropdown option
