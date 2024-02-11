@@ -117,13 +117,85 @@ lv = kutit ab latfian
 lzz = kutit ab las
 mg = kutit ab Malagsy
 mhr = kutit ab Meadow Mari
-mk = macedonian
+mk = kutit ab Macedonian
+ml = malayalamindik
+mn = kutit ab Mongolianindet
+mni = kutit ab Meetei Lon
+mos = kutit ab Mossi
+mr = marathi
+mrj = tulwop Mari
+ms = kutitab Malayindinik
+mt = kutit ab Maltese
+my = kutit ab Burmese
+myv = kutit ab Erzya
+nan-tw = kutit ab Taiwanese(minnan)
+nb-NO = Norwegian Bokmal
+nd = isindebelen(olin toror)
+ne-NP = kutit ab  Nepalik
+nhe = kutit ab   Huasteca Nauatl murot katam
+nhi = kutit ab   Sierra Puebla Nahuatl murot tai
+nia = kutit ab  Nias
+nl = kutit ab  Waholanzi
+nn-NO = kutit ab Norwegian Nynorsk
+nr = IsiNdebele(olin bore)
+nso = kutit ab Sotho murot barak
+ny = kutit ab Chinyanja
+nyn = kutit ab  Runyankhole
+oc = kutit ab  Occitan
+om = kutit ab  Oromoek chebo Afaan
+or = kutit ab  Odia
+os = kutit ab  Ossetianindet
+pa-IN = kutit ab  Punjabik
+pap-AW = kutit ab  Papiamento (Aruba)
+pl = kutitab polishek
+ps = kutit ab  Pashto
+pt = kutitab biikab portugal
+quy = kutit ab  Quechua chanka
+qvi = metit
+rm-sursilv = kutit ab  Romansh sursilvan
+rm-vallader = kutit ab  Romansh Vallader
+ro = kutitab Romaniek
+ru = kutitab Urusi
+rw = kutitab Kinyarwandaik
+sah = kutit ab Sakha
+sat = santali(Ol chiki)
+sc = kutit ab  Sardininde
+scn = sicilianinde
+sco = kutit ab  Scotinindet
+sd = kutit ab  Sindhi
+sdh = southern kurdish
+so = kutitab somalik
+sw = kutit ab Kiswali
+ve = kutit ab Tshivenda
+vi = kutit ab vietnamese
+vmw = kutit ab  Emakhuwa
+vot = kutit ab  votic
+wep = kutit ab Westphalian
+wo = kutit ab Wolof
+xh = kutit ab Xhosa
+yi = kutit ab  Yiddish
+yo = kutitab Yorubaik
+yue = kutitab kantonisik
+zgh = kutit ab tamazight
+zh-CN = kutitab Chinese
+zh-HK = kutit ab  chinese Chebo Hong Kong
+zh-TW = kutit ab Chinese chebo Taiwan
+zu = kutit ab  Zulu
+zza = kutit ab Zaza
 
 # [/]
 
 
 ## Layout
 
+speak = ngalal
+speak-now = ngalal nguno
+languages = kutit
+about = agobo
+partner = mito tuai
+profile = kegereet
+help = toreto
+contact = nambetab simet
 
 ## Home Page
 
