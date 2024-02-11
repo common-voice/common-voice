@@ -316,6 +316,17 @@ profile-form-variant =
 profile-form-accent =
     .label = olengololdoi
 profile-form-custom-accent-placeholder-2 = tau itypen asigenai olengololdoi
+profile-form-age =
+    .label = kenyishek
+hidden = kigiuny
+visible = taguu
+do_not_wish_to_say = mamache amwaa
+# Gender
+other = alak
+why-demographic = kaine asigoba kamanuut?
+off = ziman
+on = inam
+help-accent = tos imeche toretet eng olengololdoi?
 
 ## Profile - Email
 
@@ -325,12 +336,27 @@ profile-form-custom-accent-placeholder-2 = tau itypen asigenai olengololdoi
 
 ## FAQ
 
+faq-what-cv-q = ne sautit ne naat?
+faq-why-important-q = kaine asigoba kamanuut?
+faq-what-is-cv = nee sautit ne naat?
+faq-using-cv = miten kobaishe sautit ne naat
+faq-search-for-answers =
+    .label = chengee walutik?
 
 ## ABOUT US
 
+about-title = kaine asigosautit nenaat?
 
 ## How does it work section
 
+about-sentence-collection-title = keyumii ngalalutik
+about-speak = ngalal
+about-listen-queue = kastee-igany
+about-listen = kastee
+about-no-votes = ≥2 mami kuraishek
+about-stay-in-touch = much kengalal kolenee?
+about-nav-why-common-voice = kaine?
+about-nav-how-it-works = amune?
 
 ## Community Playbook Content
 ## What is a language
@@ -368,42 +394,105 @@ profile-form-custom-accent-placeholder-2 = tau itypen asigenai olengololdoi
 
 ## Data
 
+data-download-yes = ayanii
+data-download-deny = achaa
+dataset-date = tarikit
+terms-agree = ayani
+terms-disagree = mayani
 
 ## Datasets Page
 
+language = kutit
+size-gigabyte = GB
+size-megabyte = MB
+more = alak
+close = keer
+download = downloaden
+# dataset metadata - age of contributor
+dataset-metadata-age = kenyishek
+dataset-donate-modal-heading = tos ingen?
 
 ## Download Modal
 
+download-no = achaa,kongoi
 
 ## Contact Modal
 
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = kutit
+select-language = chakuan kutit
+other-language = kutit age
 
 ## Request Language Pages
 
 
 ## Languages Overview
 
+languages-show-more = keer chechang
+languages-show-less = keer chengering
+language-meter-in-progress = tesetaindo
+language-total-progress = kagiyum
+language-search-input =
+    .placeholder = cheng
+language-speakers = biik chengololi
+sentences = ngalalutik
+language-validation-hours = saishek
 
 ## Contribution
 
+contribute = iyum
+listen = gaas
+write = siir
+skip = sogorte
+record-three-more-instruction = somok cheganget
+speak-empty-state-cta = iyum ngalalutik
+target-segment-add-voice = teshi sautingung
+target-segment-learn-more = soman alak
 
 ## Contribution Nav Items
 
+contribute-sentence-collection-nav-header = iyumnatetab ngalalutik
 
 ## Reporting
 
+report = istagan
+report-offensive-language = kutit nemagararan
+report-different-language = kutii age
+report-other-comment =
+    .placeholder = mwaa giiy
+success = keboor
+continue = testai
 
 ## Goals
 
+days =
+    { $count ->
+        [one] betut
+       *[other] betushek
+    }
 
 ## Dashboard
 
+goal-reached = borset negogenyor
+you = inyee
+everyone = chii tugul
+contribution-activity = olegogiyaita yumset
+set-visibility = indene gerenyu
 
 ## Custom Goals
 
+both-speak-and-listen = tuwai
+both-speak-and-listen-long = tuwai(ngalal ak igaste)
+daily-goal = borsetab betut
+weekly-goal = borsetab weekit
+easy-difficulty = rahisii
+average-difficulty = miten kwen
+difficult-difficulty = wiiy
+set-a-goal = indene borsengung
+cant-decide = maamuani
 
 ## Profile Delete
 
