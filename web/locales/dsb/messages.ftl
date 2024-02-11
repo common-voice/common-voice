@@ -772,6 +772,8 @@ no-information-available = Žedne informacije k dispoziciji
 dataset-metadata-sex = Rod
 # dataset metadata - age of contributor
 dataset-metadata-age = Starstwo
+donate-modal-message = Waša datowa sajźba se ześěgujo!
+dataset-donate-modal-heading = Sćo wěźeł…
 
 ## Download Modal
 
@@ -1549,9 +1551,11 @@ localization-select =
 partnerships-header = Partnaŕstwa
 partnerships-get-in-touch = Kontakt
 partnerships-become-a-partner = Buźćo partnaŕ Common Voice
+partnerships-community-header = Zgromadnosć, kreatiwne a ciwilna towarišnosć
 partnerships-foundations-header = Załožby
 partnerships-governments-header = Kněžaŕstwa
 partnerships-academia-header = Uniwersity, akademikarje a slěźarje
+partnerships-corporates-header = Wjelike korporacije a pśedewześa platformow
 partnerships-our-partners = Naše partnarje
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Wjeliki źěk, až sćo pósćił waše powědańske klipy!
@@ -1646,6 +1650,30 @@ add-sentence-error = Zmólka pśi pśidawanju sady
 required-field = Pšosym wupołniśo toś to pólo.
 single-sentence = Jadna sada
 bulk-sentences = Wjele sadow
+# Sentence Domain dropdown option
+agriculture = Rolnikaŕstwo
+# Sentence Domain dropdown option
+automotive = Awta
+# Sentence Domain dropdown option
+finance = Finance
+# Sentence Domain dropdown option
+food_service_retail = Caroba, słužbywugbaśe a pśedań
+# Sentence Domain dropdown option
+general = Powšykne
+# Sentence Domain dropdown option
+healthcare = Strowotnistwo
+# Sentence Domain dropdown option
+history_law_government = Stawizny, pšawnistwo a kněžaŕstwo
+# Sentence Domain dropdown option
+language_fundamentals = Rěcne zakłady (na pś. cyfry, pismiki, pjenjeze)
+# Sentence Domain dropdown option
+media_entertainment = Medije a rozwjaselenje
+# Sentence Domain dropdown option
+nature_environment = Pśiroda a wobswět
+# Sentence Domain dropdown option
+news_current_affairs = Nowosći a aktualne nastupnosći
+# Sentence Domain dropdown option
+technology_robotics = Technologija a robotika
 
 ## REVIEW PAGE
 
