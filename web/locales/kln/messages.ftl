@@ -530,7 +530,7 @@ goal-reached = borset negogenyor
 you = inyee
 everyone = chii tugul
 contribution-activity = olegogiyaita boishet
-set-visibility = indene gerenyu
+set-visibility = indene takunenyun'y
 
 ## Custom Goals
 
@@ -584,10 +584,10 @@ demo-listen-subtitle = ichobot iyum?
 
 ## Validation criteria
 
-contribution-for-example = che u;
+contribution-for-example = che u
 contribution-misreadings-example-5-title = kibendi sang bigeee chaik
 contribution-misreadings-example-6-title = kibendi sang bigeee chaik
-contribution-varying-pronunciations-example-2-title = kindeno eut barak
+contribution-varying-pronunciations-example-2-title = kimii eut  nyiny barak
 contribution-varying-pronunciations-example-2-explanation = kimwaa
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
@@ -597,7 +597,7 @@ contribution-varying-pronunciations-example-2-explanation = kimwaa
 
 ## HEADER/FOOTER
 
-sc-header-home = gaa
+sc-header-home = Taunet
 
 ## HOME
 
@@ -701,7 +701,7 @@ report-sc-different-language = kutii age
 report-sc-different-language-detail = kigisiir eng kutit age eng nagere
 sentences-fetch-error = kagobit latutyet kanganyoru ngalaluti choto
 review-error = kagobiit latutyet kangageere ngalalet ni
-review-error-rate-limit-exceeded = iwendineng chokchinet missing.iip kasarta igeer ngalalutik chu asinai nda mi komnyei
+review-error-rate-limit-exceeded = iwendineng' chokchinet missing ip kasarta igeer ng'alalutik chu asinai nda mi komnyei
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = mi kechope walet neo
 
@@ -721,7 +721,7 @@ bulk-upload-failed-toast = masiir uploading,tyem kongeny
 bulk-submission-success-header = kongoi eng kayumset nebo tuguk chechang chegegoite
 bulk-submission-success-subheader = imi itoreti sautit nenaat koityi ngalalutik chebo betut koboor
 upload-more-btn-text = uploaden ngalalutik alak?
-file-invalid-type = masikchi failit
+file-invalid-type = masikchi failit ni
 file-too-large = Oo misiing filit
 file-too-small = mining filit mising
-too-many-files = chang filinik chu mising
+too-many-files = chang filinik chu mising'
