@@ -1687,6 +1687,7 @@ sc-redirect-page-subtitle-2 = Stajće nam prašenja na <matrixLink>Matrix</matri
 ## BULK SUBMISSION 
 
 sc-bulk-upload-instruction-drop = Pušćće dataju tu, zo byšće ju nahrał
+try-upload-again-md = Nahraće znowa spytać
 select-file = Dataju wubrać
 select-file-mobile = Wubjerće dataju za nahraće
 accepted-files = Akceptowane datajowe typy: jenož .tsv
