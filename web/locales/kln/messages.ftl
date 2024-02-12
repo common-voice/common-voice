@@ -545,12 +545,19 @@ set-a-goal = indene borsengung
 cant-decide = maamuani
 goal-interval-weekly = wiikit
 share-goal-type-speak = miten kongalali
+share-goal-type-listen = miten kogasee
+share-goal-type-both = ngololi ako gostoi
+share-goal = pcheiten borsenyu
 
 ## Profile Delete
 
+keep = kegonor
+remove = inemu
 
 ## Profile Download
 
+download-size = tyana
+download-selected = kigikwey
 
 ## Landing
 
@@ -560,18 +567,28 @@ share-goal-type-speak = miten kongalali
 
 ## Demo Datasets
 
+card-button-next = nesupi
+card-button-back = awechgei let
+demo-language-select-label = cheng kutit
+demo-eofy-header = 2019 tangasanetab let nebo kenyit
 
 ## Demo Account
 
 
 ## Demo Contribute
 
+demo-listen-subtitle = ichobot iyum?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-for-example = che u;
+contribution-misreadings-example-5-title = kibendi sang bigeee chaik
+contribution-misreadings-example-6-title = kibendi sang bigeee chaik
+contribution-varying-pronunciations-example-2-title = kindeno eut barak
+contribution-varying-pronunciations-example-2-explanation = kimwaa
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -580,6 +597,7 @@ share-goal-type-speak = miten kongalali
 
 ## HEADER/FOOTER
 
+sc-header-home = gaa
 
 ## HOME
 
@@ -592,6 +610,7 @@ share-goal-type-speak = miten kongalali
 
 ## MY SENTENCES
 
+sc-my-title = sentensihsek chu
 
 ## REJECTED
 
@@ -601,9 +620,18 @@ share-goal-type-speak = miten kongalali
 
 ## ADD
 
+sc-submit-title = tesyin sentensishek
+sc-submit-select-language =
+    .labelText = kweey kuti
+sc-submit-add-sentences = tesyi
+sc-submit-ph-one-per-line =
+    .placeholder = sentensit agenge eng lainda
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = matatesyi kuti
+sc-add-lang-sec-label = tesyi kuti nemache iyumchi
+sc-add-lang-sec-button = tesyi kutii
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -622,18 +650,78 @@ share-goal-type-speak = miten kongalali
 
 ## REVIEW
 
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 
 ## SETTINGS
 
 
 # [/SentenceCollector]
 
+partnerships-get-in-touch = twekwech
+partnerships-governments-header = serikalit
+partnerships-small-business-header = mungaraishek  chemengech cheu; tech ako AI
+partnerships-our-partners = biik chegiyoe boishet tugul
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = kongoi eng kogoito nebo sautingung
+first-cta-subtitle-text = tos imache imwaa olengololdoi?
+why-donate = kaine asitep?
+add-information-button = tesyii ngalek
+continue-speaking-button = oloo,kongoi,testai ingalali
+thanks-for-voice-toast = kongoi eng ngalalutikab sautingung
+example = ku ni
+misreadings-example-1 = kibendi sang asibigee chaik
+misreadings-example-2 = kibendi sang asibigee chai
+misreadings-example-3 = kibendi sang asigebe bigee chaik
+background-voices-tip-1 = tos imi inyoni?(mi kobirchini age)
+still-have-questions = tos itinye tebushek?
+adding-sentences-subheader-speakable = muuch kengalale
+adding-sentences-subheader-numbers = nambok
 
 ## WRITE PAGE
 
+contact-us = birwech
+add-sentence-success = ngalalutij chegigiyum
+add-sentence-error = masikchi ketesyini ngalalet noto
+required-field = Gaigai,inyiit yu
+single-sentence-submission = ngalalutik che  agenge chegigoitoi
+bulk-sentence-submission = ngalalutik chechang chegigoitoi
+single-sentence = ngalalet agenge
+bulk-sentences = ngalalautik chechang
+# Sentence Domain dropdown option
+agriculture = yoisetab mbaret
 
 ## REVIEW PAGE
 
+report-sc-different-language = kutii age
+report-sc-different-language-detail = kigisiir eng kutit age eng nagere
+sentences-fetch-error = kagobit latutyet kanganyoru ngalaluti choto
+review-error = kagobiit latutyet kangageere ngalalet ni
+review-error-rate-limit-exceeded = iwendineng chokchinet missing.iip kasarta igeer ngalalutik chu asinai nda mi komnyei
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = mi kechope walet neo
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction-drop = indene filingung yu asiuploaden
+try-upload-again = tyem kogeny indene failingung yu
+try-upload-again-md = tyem iuploaden kogeny
+select-file = kweey filit
+select-file-mobile = kweey filit asiuploaden
+accepted-files = filin chegiyonii
+maximum-file-size = filit negiyoni ko neo ko 25MB
+what-needs-to-be-in-file = ne nemagat eng filinyu?
+upload-progress-text = mi kotesetai uploading
+bulk-upload-success-toast = ngalalutik chechang chekagiuploaden
+bulk-upload-failed-toast = masiir uploading,tyem kongeny
+bulk-submission-success-header = kongoi eng kayumset nebo tuguk chechang chegegoite
+bulk-submission-success-subheader = imi itoreti sautit nenaat koityi ngalalutik chebo betut koboor
+upload-more-btn-text = uploaden ngalalutik alak?
+file-invalid-type = masikchi failit
+file-too-large = Oo misiing filit
+file-too-small = mining filit mising
+too-many-files = chang filinik mising
