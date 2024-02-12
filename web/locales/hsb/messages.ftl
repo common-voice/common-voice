@@ -1599,6 +1599,7 @@ misreadings-tip-3 = [Wobsah njewotpowěduje]
 background-noise-example-1 = Hoberske dinosawriery triasa.
 background-noise-tip-2 = [Dźěl teksta słyšeć njeje]
 background-voices-example-1 = Hoberske dinosawriery triasa. [čita so wot jednoho hłosa]
+background-voices-tip-1 = Přińdźeš? [hłós druheho]
 still-have-questions = Maće hišće prašenja?
 contact-common-voice = Stajće z teamom Common Voice do zwiska
 public-domain = Zjawnje wužiwajomny
@@ -1679,10 +1680,13 @@ technology_robotics = Technologija a robotika
 sc-review-rules-title = Wotpowěduje sada směrnicam?
 report-sc-different-language = Druha rěč
 report-sc-different-language-detail = Je w druhej rěči napisana hač přepruwuju.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Přewjedźemy někotre změny
 sc-redirect-page-subtitle-2 = Stajće nam prašenja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mejlu</emailLink>.
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction-drop = Pušćće dataju tu, zo byšće ju nahrał
 select-file = Dataju wubrać
 select-file-mobile = Wubjerće dataju za nahraće
 accepted-files = Akceptowane datajowe typy: jenož .tsv
