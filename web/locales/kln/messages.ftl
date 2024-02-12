@@ -441,7 +441,7 @@ about-nav-how-it-works = amune?
 
 ## Data
 
-data-download-yes = ayanii
+data-download-yes = ayani
 data-download-deny = achaa
 dataset-date = tarikit
 terms-agree = ayani
@@ -482,7 +482,7 @@ request-language-heading = teep kutit ne mpya?
 ## Languages Overview
 
 languages-show-more = keer chechang
-languages-show-less = keer chengering
+languages-show-less = keer cheng'ering
 language-meter-in-progress = tesetaindo
 language-total-progress = kagiyum
 language-search-input =
@@ -529,7 +529,7 @@ days =
 goal-reached = borset negogenyor
 you = inyee
 everyone = chii tugul
-contribution-activity = olegogiyaita yumset
+contribution-activity = olegogiyaita boishet
 set-visibility = indene gerenyu
 
 ## Custom Goals
@@ -724,4 +724,4 @@ upload-more-btn-text = uploaden ngalalutik alak?
 file-invalid-type = masikchi failit
 file-too-large = Oo misiing filit
 file-too-small = mining filit mising
-too-many-files = chang filinik mising
+too-many-files = chang filinik chu mising
