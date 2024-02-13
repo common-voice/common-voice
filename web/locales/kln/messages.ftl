@@ -10,6 +10,10 @@ submit-form-action = yokten
 loading = tesetai....
 email-opt-in-info = amechei anyoru emailishiek , cheibwotwo tesestai chebo common voice
 email-opt-in-info-title = chut common si inyou emailishiek
+not-available-abbreviation = mamitei
+banner-error-slow-1 = mutyo, Common Voice koyaei mutyo. Koigoi akobo korunet ngu iyai kasit.
+banner-error-slow-2 = Kinyorun kasisheek chechang; ako ng'no kuchunguzani ngalen.
+banner-error-slow-link = Pagit neiboru boishet
 error-something-went-wrong = mutyo, kapit lelutiet.
 error-clip-upload = ngut kumoimukosei iyokte clippit nii, icharuben kora?
 
@@ -21,6 +25,7 @@ error-clip-upload = ngut kumoimukosei iyokte clippit nii, icharuben kora?
 
 ab = Abkhas
 ace = emetab Acehnese
+ady = Adyghe
 af = biik chetuen
 am = amaharik
 an = Aragonese
@@ -267,21 +272,40 @@ read-terms-q = tos kisomaan olegimoktoi?
 ready-to-record = ichopot itoret sautingung
 all-locales = tugul
 today = raini
+x-weeks-short =
+    { $count ->
+        [one] wiikit
+       *[other] { $iit }wk
+    }
+x-months-short =
+    { $count ->
+        [one] mo
+       *[other] mo
+    }
 x-years-short =
     { $count ->
         [one] agenge(ne u )1
        *[other] alak (ne u )2
     }
+help-make-dataset = toretech keteech ngalek chebo barak ago chetagu eng chitugul
+sign-up-account = sirgei asinyoru akount nengung
+email-subscription-title = sirgei asigeupdatenin eng emailingung
+email-subscription-title-new = sirgei asinyoru tuguk chenoyotin cheu sautitab logoywekab barueshej,kabwatutikab borset  ago oleitesetai
 
 ## Account Benefits
 
 benefits = tuguk chegororon
+compare-progress = geer olitesetai ago biik alak cheyoe yumset eng ngweny
+view-goals = geer oletesetai kosiir borset nengung binafsi ago boishet
+join-newsletter = muuch ichut listit nebo email asinyoru ngalek chebo nguno eng boishet neyae
 
 ## What's public
 
 whats-public = nee kiy nebo chitugul?
 email-not-public = makiyae koek nebo chitugul emailingung
 recordings-and-locale-public = nambetab recordings ako kuti neginyumee kotagu eng chi tugul
+username-optin-public = imuuch iyai kainengung neboishe eng boishengung kotook eng biik tugul anan iuny
+username-email-not-demographic = kainet niboishe anan ko emailit komatinyegei ago ngalek chegigesir
 
 ## Speak & Listen Shortcuts
 
@@ -315,6 +339,7 @@ request-language-button = teep kutit?
 
 ## ProjectStatus
 
+status-title = kiiy tugul negiyai:Geer kinyoo oletyan!
 status-contribute = tesyin sautingung
 # Variables:
 # $goal - number of hours representing the next goal
@@ -333,17 +358,23 @@ profile-form-language =
     .label = kutit
 profile-form-variant =
     .label = ingololdoi ano kutit?
+profile-form-variant-default-value = mekweei kiy age tugul
 profile-form-accent =
     .label = olengololdoi
+profile-form-custom-accent-help-text =
+    .label = tos imwaa kole unee olingololdoi
 profile-form-custom-accent-placeholder-2 = tau itypen asigenai olengololdoi
 profile-form-age =
     .label = kenyishek
 profile-form-gender-2 =
     .label = chepto anan werit
+leaderboard-visibility =
+    .label = Geeretab boditab kandoiset
 hidden = kigiuny
 visible = taguu
 native-language =
     .label = kutitab orit
+profile-form-add-accent = tesyii olegingololdoi age" nambet kiit negendene"
 profile-form-submit-save = konoor
 profile-form-submit-saved = kagekonor
 male_masculine = muren
@@ -353,24 +384,50 @@ transgender = chito negiwalge koek muren anan ko chepto
 do_not_wish_to_say = mamache amwaa
 # Gender
 other = alak
+why-profile-title = kainee profilit?
+dashboard = dashboardit
 build-profile = teech togengung
+goals = borset
+settings = olemuch ichop
 edit-profile = teshin anan inemum tuguk cheibaru togengung
+profile-create-success = kararan, kechop profilingung!
 profile-close = keer
+profile-explanation = geer oletesetai kiboishen profilit ak itoret ngalekab sautit asigoek sasawa
+thanks-for-account = kongoi amu keyaan akountingung,nguno ngechop profilingung
 why-demographic = kaine asigoba kamanuut?
+accept-privacy-title = ngalekab kaungengung
+accept-privacy-and-terms = kayaan sauti nenaat <termsLink>Termishek</termslink>ak<privacyLink>notic neungaat </privacyLink>
+login-identity = ne neibaru kole inye negailogen in
 login = chuut orit
 login-signup = chuut orit/sirgei
 edit = inemu anan iteshi
+email-subscriptions = subscriptionishek chebo emailingung
+download-profile = downloaden data nenyu
+contribution-experience = ki unee yumset nengung
+skip-submission-feedback = sogortee olegigimwaita tuguk chegigesubmiten
+skip-submission-note = Naay kole agoi ikweey ndengololi anan igastai asiwaal oleyumsei
 off = ziman
 on = inam
 help-accent = tos imeche toretet eng olengololdoi?
+help-variants = tos imache toretet eng varianishek?
 
 ## Profile - Email
 
+browse-file-title = uploaden pikchayat
+connect-gravatar = ikonnecten ak gravatar
+gravatar_not_found = mamiten gravatar emailingung
+file_too_large = filit negekwei ko oo mising
+avatar-uploaded = kageuploaden avatar
+max-file-size = { $kb } kb max
 remove-avatar = inemu Avatar
 
 ## Profile - Email
 
+manage-subscriptions = tinemu anan itesyi subscriptionishek
+manage-email-subscriptions = riip subskripshionishekab emailingung
+email-already-used = kageboishen emailit eng akount age
 add-language = teshii kuti
+change-email-setings = waal emailingung eng settings ingweny nebo login nengung
 
 ## FAQ
 
@@ -378,6 +435,7 @@ faq-title = tebushek chegitebe missing
 faq-what-cv-q = ne sautit ne naat?
 faq-why-important-q = kaine asigoba kamanuut?
 faq-how-get-q = anyoru kole ne ngalekab sautit nenaat ?
+faq-when-release2-q = Auu neinemu sautit nenaat eng kuti alak?
 faq-why-my-lang-q = kaine asigo tomo keteshi kutinyu?
 faq-what-is-cv = nee sautit ne naat?
 faq-using-cv = miten kobaishe sautit ne naat
@@ -399,6 +457,7 @@ about-speak = ngalal
 about-listen-queue = kastee-igany
 about-listen = kastee
 about-is-it-valid = tos kararan clipinito?
+about-is-it-valid-text = kigimarken sautitab clipit kogisikchi ngogabaishe chito agoiyan anan koesho
 about-no-votes = ≥2 mami kuraishek
 about-get-involved = imache kobaaten
 about-stay-in-touch = much kengalal kolenee?
