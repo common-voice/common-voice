@@ -468,6 +468,8 @@ change-email-setings = Lok barupi mar mbui kokadho kuom chenro mar donjo kod kid
 
 faq-title = Penjo Mathothne ipenjo
 faq-what-cv-q = Komon Vois en ango?
+faq-what-cv-a = Duol loko kaka watimo tundruok kod masinde, to e sani masindego bechgi ni malo kendo nyiewo gi tek. Comon voice kowuok e riuwruk mar Mozilla koro konyoduonde fwenyo yot kendo ber ni duondegi chopo ne oganda malach. Comon voice ber e choko kendo kano weche mathoth ahinya mag duonde e piny ngima. Gitimo ma e dhok miwacho e pinje duto.
+faq-why-important-q = Angoma omiyo gini nigi nengo?
 faq-why-different-speakers-q = Angomomiyo udwaro ji mangeny mawacho dhok ka dhok?
 faq-why-my-lang-q = Angomomiyo dhowa ok omedi kanyo?
 faq-what-quality-q = Ranginy mane midwaro e duol momaki mondo duolno otigodo e deche?
