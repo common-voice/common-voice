@@ -1,14 +1,21 @@
 ## General
 
-stayintouch = Mozillas xomaşi teknolojiş gomti ar k'ata geptzopxumt. Meyondğanupete, ağani data mondunepete ok'omçinu do data muç'o ixmart çkva dido oçkinu minonan/ bgorumt.
-return-to-cv = Comman Voiceşa Goikti
+stayintouch = Mozillas xomaşi teknolojiş gomti ar ǩata geptzopxumt. Meyondğanupete, ağani data mondunepete oǩomçinu do data muç̌o ixmart çkva dido oçkinu minonan/ bgorumt.
+privacy-info = Çkinapape tkvani becit̆obate na psturesaratereşi nena dogidumt. Daha fazlamuşi <privacyLink>T'obaşobaşi Tkvalas<privacyLink>gaǩitxenan.
+return-to-cv = Comman Voiceşa Goikti.
 email-input =
     .label = Emaili
 submit-form-action = Mendancğoni
+email-opt-in-info = Comman Voiceşi noğire goşinupe, ixenu dulyapeşi meoğanupe do anbaişi bultenepe steri e-postape eç̌opumu minon.
+email-opt-in-info-title = Comman Voiceşi maili listhes eǩomanthalit.
+email-opt-in-info-sub-with-challenge = Comman Voiceşi omondunu do noğire goşinupe, ixenu dulyapeşi meoğanupe do anbaişi bultenepe steri e-post̆ape eç̌opit.
+email-opt-in-privacy-v2 = E-post̆ape ǩebuli doyat-na Mozillaşi ham çkinapape na tku steri oxmaru-muşis izini na meçameri iyet  <privacyLink>Privacy Policy</privacyLink>.
 not-available-abbreviation = H/V
-banner-error-slow-1 = Mixarsuvit, Comman Voicek tamo itsadeburs/ içalişams. Memak'atit şeni ntsaşa extit.
+banner-error-slow-1 = Mixarsuvit, Comman Voicek tamo itsadeburs/ içalişams. Memaǩatit şeni ntsaşa extit.
+banner-error-slow-2 = Opşa trafiği ephç̌opumt do hus problemepe goviǩitxamt.
 banner-error-slow-link = Butkaşi Xali
 error-something-went-wrong = Mixarsuvit, mutxanepe gemapaşes
+error-clip-upload-server = Ham ǩilibi var eiğmalinen, xolo geitsadinas-i?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -17,12 +24,14 @@ error-something-went-wrong = Mixarsuvit, mutxanepe gemapaşes
 ## Languages
 
 ab = Abaza
+ace = Adiğe
 ady = Atzuğe
 af = Afrik'anuri
 am = Aramikuri
 an = Aragonuri
 ar = Arap'uri
 arn = Mapudunguri
+as = Assamesuri
 ast = Asturianuri
 az = Azeruri
 ba = Başkiruri
@@ -31,6 +40,7 @@ be = Belarusuri
 bg = Bulgaruri
 bm = Bambaruri
 bn = Bengaluri
+bo = Tibet̆uri
 br = Bretonuri
 bs = Bosnanuri
 bxr = Buryaturi
