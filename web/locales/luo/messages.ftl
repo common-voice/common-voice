@@ -408,6 +408,8 @@ profile-form-submit-saved = Mosekan
 male_masculine = Dichuo/kido mar dichuo
 female_feminine = Dhako/kido mar dhako
 intersex = Kido mar ngama ok dichuo kata dhako
+transgender = Oti gath
+non-binary = ma ok opogore
 do_not_wish_to_say = Ok adwar wacho
 # Gender
 other = Mamoko
