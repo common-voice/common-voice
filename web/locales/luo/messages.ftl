@@ -462,9 +462,12 @@ manage-subscriptions = Tayo chiwo
 manage-email-subscriptions = Pang barup mbui mosechiu
 email-already-used = Barup mbuini osetigo e akaont moro
 add-language = Med dhok moro
+change-email-setings = Lok barupi mar mbui kokadho kuom chenro mar donjo kod kido
 
 ## FAQ
 
+faq-title = Penjo Mathothne ipenjo
+faq-what-cv-q = Komon Vois en ango?
 faq-why-different-speakers-q = Angomomiyo udwaro ji mangeny mawacho dhok ka dhok?
 faq-why-my-lang-q = Angomomiyo dhowa ok omedi kanyo?
 faq-what-quality-q = Ranginy mane midwaro e duol momaki mondo duolno otigodo e deche?
