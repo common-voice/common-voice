@@ -29,6 +29,26 @@ ba = Başkiruri
 bas = Basaruri
 be = Belarusuri
 bg = Bulgaruri
+bm = Bambaruri
+bn = Bengaluri
+br = Bretonuri
+bs = Bosnanuri
+bxr = Buryaturi
+byv = Medumburi
+ca = Katalanuri
+cak = Kakçikeluri
+ckb = Şkaguri Kyurduri
+cnh = Haxa Çinuri
+co = Korsikanuri
+cs = Çeǩuri
+cv = Çuvaşuri
+cy = Galuri
+da = Danişuri
+dag = Dağbanuri
+de = Alamanuri
+dsb = Tzaleni Sorbinuri
+dv = Divexuri
+dyu = Dioluri
 fa = Farsuri
 fr = Frenk'uri
 he = Çifut'uri
@@ -128,8 +148,6 @@ profile-form-gender-2 =
 hidden = T'k'obaşe
 profile-form-submit-save = Şinaxi
 profile-form-submit-saved = Kodoliç'aru
-male = Mamuli
-female = Daduli
 # Gender
 other = Majura
 settings = Getzopxi
@@ -334,4 +352,13 @@ shortcuts = Gzamk'ule
 
 
 # [/SentenceCollector]
+
+
+## WRITE PAGE
+
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
 
