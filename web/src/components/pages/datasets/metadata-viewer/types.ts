@@ -39,5 +39,6 @@ export type Gender = {
   female_feminine: number
   intersex: number
   transgender: number
+  'non-binary': number
   do_not_wish_to_say: number
 }
