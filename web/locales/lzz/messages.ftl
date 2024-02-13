@@ -178,6 +178,7 @@ sk = Slovakuri
 skr = Saraikuri
 sl = Slovenuri
 snk = Soninkuri
+tk = Turkmenuri
 yi = Çifut'uri
 zu = Zuluri
 zza = Zazanuri
