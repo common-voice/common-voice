@@ -444,6 +444,7 @@ on = nyime
 help-accent = Idwaro kony kod kabind duol?
 help-accent-explanation = Kit dhok en ayanga kaka iwuoyo. Onyalo lokore kaluowore kod kuma isedakie, kata kod kit dhok moko miwacho to kod weche mamoko. Koro inyalo wacho wach moro amora miparoni donjore kae.
 help-variants = Idwaro kony kod mopogore opogore?
+help-variants-explanation = Kabind duonde gin kit dhok, kuom ranyisi kaka dho joma odak kanyachiel kata e gweng'. Sechemoko iluongo gi ni dhoudi.
 
 ## Profile - Email
 
