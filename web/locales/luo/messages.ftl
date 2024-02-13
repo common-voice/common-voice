@@ -437,7 +437,13 @@ email-subscriptions = Donjoe yudo weche kokalo barup mbui
 download-profile = Golo weche mawuoyo kuoma
 contribution-experience = Bedogi ngeyo kuom chiuruok
 skip-submission-feedback = chikri kar chiwo duoko
+skip-submission-description = Sama itimo solro mag weche, kar duoko ibiro kal kisechuoyo kar "chiu". Solro biro dhiyo nyime e achiel kachiel kuom ondamo abich mag mako weche kata nonro.
+skip-submission-note = Yangi: Ibiro dwar ni iyier kar wuoyo kata ling mondo ilok wecheni misolo.
+off = lor
+on = nyime
 help-accent = Idwaro kony kod kabind duol?
+help-accent-explanation = Kit dhok en ayanga kaka iwuoyo. Onyalo lokore kaluowore kod kuma isedakie, kata kod kit dhok moko miwacho to kod weche mamoko. Koro inyalo wacho wach moro amora miparoni donjore kae.
+help-variants = Idwaro kony kod mopogore opogore?
 
 ## Profile - Email
 
