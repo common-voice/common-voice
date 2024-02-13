@@ -454,9 +454,11 @@ connect-gravatar = Tudruok kod Gravatar
 gravatar_not_found = Onge gravata moyud e barupi mar mbui
 file_too_large = Sanduk wach miyierono duong ahinya
 avatar-uploaded = Avatar oseruako e kompyuta
+remove-avatar = Gol Avatar
 
 ## Profile - Email
 
+manage-subscriptions = Tayo chiwo
 manage-email-subscriptions = Pang barup mbui mosechiu
 email-already-used = Barup mbuini osetigo e akaont moro
 add-language = Med dhok moro
