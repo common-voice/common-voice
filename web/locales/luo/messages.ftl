@@ -545,6 +545,7 @@ about-playbook-how-add-sentences-content-3 = Inyalo tiyo kod <scraperLink> gir g
 about-playbook-how-record-quality = Ere kaka anyalo mako duol machuok kod ranginy mamalo?
 about-playbook-how-record-content-2 = Bed kama onge koko - kamokwe mondo wawinji maler.
 about-playbook-how-record-content-3 = Som weche go duto maler - kik iwe moro amora kata kik imed wecheni iwuon.
+about-playbook-how-record-content-5 = <accuracyLink>Ne puonjruok mamoko kaka onego itim</accuracyLink>
 
 ## How to grow language
 
@@ -575,6 +576,8 @@ error-title-404 = Ne ok wany yudo wang kalatasno ne in
 
 ## Data
 
+data-download-yes = Eee!
+data-download-deny = Ooyo
 data-other-goto = Dhi ka { $name }
 dataset-date = Tarik
 license-mixed = Onywandore/oriwore
