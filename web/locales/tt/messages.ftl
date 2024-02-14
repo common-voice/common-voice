@@ -410,6 +410,12 @@ native-language =
 profile-form-add-accent = Яңа үзгә "{ $inputValue }" акцентын өстәү
 profile-form-submit-save = Саклау
 profile-form-submit-saved = Сакланды
+male_masculine = Ир кеше/Мөзәккәр
+female_feminine = Хатын-кыз/Мөәннәс
+intersex = Интерсекс
+transgender = Трансгендер
+non-binary = Бинар булмаган
+do_not_wish_to_say = Әйтергә теләмим
 # Gender
 other = Башка
 why-profile-title = Профиль нигә кирәк?
