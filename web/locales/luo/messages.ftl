@@ -355,7 +355,7 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nuo mako duol
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Ruchi duol mimako sani
-shortcut-submit = duogo
+shortcut-submit = Duogi
 shortcut-submit-label = Kan dunde machuok
 request-language-text = Okineno dhou e Common Voice?
 request-language-button = Kwa dhok
@@ -408,6 +408,8 @@ profile-form-submit-saved = Mosekan
 male_masculine = Dichuo/kido mar dichuo
 female_feminine = Dhako/kido mar dhako
 intersex = Kido mar ngama ok dichuo kata dhako
+transgender = Oti gath
+non-binary = ma ok opogore
 do_not_wish_to_say = Ok adwar wacho
 # Gender
 other = Mamoko
@@ -435,16 +437,48 @@ email-subscriptions = Donjoe yudo weche kokalo barup mbui
 download-profile = Golo weche mawuoyo kuoma
 contribution-experience = Bedogi ngeyo kuom chiuruok
 skip-submission-feedback = chikri kar chiwo duoko
+skip-submission-description = Sama itimo solro mag weche, kar duoko ibiro kal kisechuoyo kar "chiu". Solro biro dhiyo nyime e achiel kachiel kuom ondamo abich mag mako weche kata nonro.
+skip-submission-note = Yangi: Ibiro dwar ni iyier kar wuoyo kata ling mondo ilok wecheni misolo.
+off = lor
+on = nyime
+help-accent = Idwaro kony kod kabind duol?
+help-accent-explanation = Kit dhok en ayanga kaka iwuoyo. Onyalo lokore kaluowore kod kuma isedakie, kata kod kit dhok moko miwacho to kod weche mamoko. Koro inyalo wacho wach moro amora miparoni donjore kae.
+help-variants = Idwaro kony kod mopogore opogore?
+help-variants-explanation = Kabind duonde gin kit dhok, kuom ranyisi kaka dho joma odak kanyachiel kata e gweng'. Sechemoko iluongo gi ni dhoudi.
 
 ## Profile - Email
 
+browse-file-title = Ket picha
+browse-file = Ywa kaeto ibol kanyo kata <browseWrap>Yangi<browseWrap>
+connect-gravatar = Tudruok kod Gravatar
+gravatar_not_found = Onge gravata moyud e barupi mar mbui
+file_too_large = Sanduk wach miyierono duong ahinya
+avatar-uploaded = Avatar oseruako e kompyuta
+remove-avatar = Gol Avatar
 
 ## Profile - Email
 
+manage-subscriptions = Tayo chiwo
+manage-email-subscriptions = Pang barup mbui mosechiu
+email-already-used = Barup mbuini osetigo e akaont moro
 add-language = Med dhok moro
+change-email-setings = Lok barupi mar mbui kokadho kuom chenro mar donjo kod kido
 
 ## FAQ
 
+faq-title = Penjo Mathothne ipenjo
+faq-what-cv-q = Komon Vois en ango?
+faq-what-cv-a = Duol loko kaka watimo tundruok kod masinde, to e sani masindego bechgi ni malo kendo nyiewo gi tek. Comon voice kowuok e riuwruk mar Mozilla koro konyoduonde fwenyo yot kendo ber ni duondegi chopo ne oganda malach. Comon voice ber e choko kendo kano weche mathoth ahinya mag duonde e piny ngima. Gitimo ma e dhok miwacho e pinje duto.
+faq-why-important-q = Angoma omiyo gini nigi nengo?
+faq-why-important-a = Duol e yo mawatudore gi jowadwa kendo nonro mar duol kokadho kuom teknologi mar simo mar luedo kod kompiuta miyo mani bedo mayot. Wadwaro tiego jomoloso gige duol e migawoni mondo ofweny weche kod dwonde ka giloko mapiyo e saa mowinjore. Kuom sani thoth duonde nyaka sol kendo ger mondo dhok duto ji oyudre e migawoni kata kamano en chandruok nikech nengo nimalo mar choko duonde. Wageno ni sandug duonde mochok kod Common voice biro miyo jo nonro thuolo mar yango nonro mar duonde in dhok milonygo. Mondo mi yango duol obed gino momako piny ngima, wachoko duonde kuom dhok miyacho malach kachiel kod mago miyacho gi ogendni matin ma nonro madongo osegweyo oko. Ndiko moyangore dhogegi biro konyo jo nonro , johala, kod jogo duto moyango weche duol mondo odin ondamo ma osebedo giwegi
+faq-how-get-q = Ere kaka anyalo yudo weche moka  e Comon voice?
+faq-how-get-a = Weche mokan e Common Voice inyalo yudi mayot <licenseLink>CC<licenseLink>ka in kod laisens kuom <datasetLink> kokadho kuom it oboke<datasetLink>.Inyalo bende yudogi kwonde twak mar oganda e it oboke achielno.
+faq-when-release2-q = Karang'o mibiro gol weche kod duonde  manie Common voice e dhok moko?
+faq-why-mission-q = Ang'o momiyo Common voice en achiel mar tije ma Mozilla timo?
+faq-why-mission-a = Mozila oyangore ne kano weche kendo miyo ji duto thuolo mayot mar yudo wechegi. Mondo gitim mano, gidwaro tiego jo nonro mag mbui kokadho kuom Common Voice. Kaka weche mag dongruok mag duol medo landore kendo kadho kuonde mane ong'ere nitiye kodgi, wan gi geno ni ji duto nyaka yud konyruok marom. Mano tiende ni nyaka koro ter nyalo kuom dhok mamoko kendo rwako lep mopogore kod kwan mar oganda e seche migero kendo itemo nonro mar teknoloji mar duol. Common Voice en mwandu mar oganda mar ng'ato ang'ata kendo grube  mag Mozilla kod jok magere e piny ngima osechako tiyo kode e chenro maggi.
+faq-what-cv-and-deepspeech-q = Ere pogruok manie kind Common Voice kod Deep Speech?
+faq-is-goal-assistant-q = Dibed ni dwaro mar Common Voice en ni oger jakony mar wuoyo?
+faq-do-want-native-q = Ok an japinyni to ang'eyo dhogi kendo awuoyo gi lep mopogore, bende pod anyalo chiwo duonda?
 faq-why-different-speakers-q = Angomomiyo udwaro ji mangeny mawacho dhok ka dhok?
 faq-why-my-lang-q = Angomomiyo dhowa ok omedi kanyo?
 faq-what-quality-q = Ranginy mane midwaro e duol momaki mondo duolno otigodo e deche?
@@ -473,26 +507,38 @@ about-no-votes-text = Ka ngato okwero duol momaki to iduoke e laini. Ka duolno o
 about-clip-graveyard = Liendi duol
 about-get-involved = Donjie e riuruok
 about-stay-in-touch = Ere kaka anyalo tudora kodu?
+about-stay-in-touch-button = Ndikri piny
 about-nav-why-common-voice = Nango?
 about-nav-how-it-works = Nade?
+about-nav-partners = Jokanyakla
 about-nav-get-involved = Donjie e riuruok
+about-nav-how-it-works-2 = Ere kaka Common Voice ni tiyo?
 about-nav-playbook = Puojri kaka inyalo betie achiel
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Dhok en ango e Common Voice?
 
 ## How do I add a language
 
 about-playbook-how-add-language = Ere kaka damed dhok moro?
+about-playbook-how-add-language-translating-heading = Loko weche manie migawoni
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ngii puonjruok kaka itiyo kod Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Choko weche
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ngii puonjruok marwa kaka itiyo kod gir choko weche</sentenceCollectorVideo>
 
 ## How does localization work
 
+about-playbook-how-localize = Ere kaka loko wecheg manie migawoni tiyo?
+about-playbook-how-localize-content-1 = Loko migao mar Common Voice <strong>pontoon</strong>.
+about-playbook-how-localize-content-4 = Migaoni biro bedo moikore koselok weche machopo 75% manyiso tieko.
 about-playbook-how-localize-content-5 = Tem ingianena wechewago mondo okonyi
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Ere kaka anyalo medo weche?
+about-playbook-how-add-sentences-content-3 = Inyalo tiyo kod <scraperLink> gir golo weche</scraperLink> mondi igol weche koae Wikipedia.
 
 ## How to record quality
 
@@ -521,6 +567,7 @@ about-playbook-how-project-governance = Ere kaka weche mag chenro go iloso?
 ## Glossary
 
 sentence-collection = choko weche
+sentence-collection-explanation = Choko weche kowuok kuom aluora ma galamoro, kata  ndiko weche manyien midhiketie aluora ma galamoro.
 
 ## Error pages
 
@@ -633,9 +680,17 @@ record-must-allow-microphone = Nyaka iyiene gima mako duol.
 record-no-mic-found = Ok oyudi gima mako duol.
 record-error-too-short = Duol momakino ne chiek ahinya.
 record-error-too-long = Duol momakino ne bor ahinya.
+record-error-too-quiet = Duol momakino ne ilose mos ahinya.
+record-cancel = Ruchi duol momak kendono
+record-instruction = { $actionType }<recordIcon></recordIcon> som wechego matek
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> Itimo maber
+record-three-more-instruction = Adek emodong!
 record-again-instruction = Ber! <recordIcon></recordIcon> Mak duondi maluwo
+record-again-instruction2 = Itimo maber, mak duondi kendo <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Ma e mogik!
 review-tooltip = Non kendo kaeto ichak imak duolno kae kimedodhi
 review-instruction = Ngi kendo dual misemako kaeto ichaki mak duol kendo kaponi dwarore
+record-submit-tooltip = { $actionType } Chiu kiseikori
 clips-uploaded = Duonde momaki mosekan
 record-abort-submit = Or duonde momaki
 record-abort-delete = Wuogi kaeto iruch duonde mosemaki
@@ -805,6 +860,7 @@ sc-login-signup-button = donjo e komputa
 
 ## HOME
 
+sc-home-collect-text = Konywa kod ndiko weche kata choko weche koae aluora ma galamoro.
 
 ## GENERAL
 
@@ -839,12 +895,22 @@ sc-stats-title = Kwan
 
 sc-submit-err-select-lang = Kiyie to yier dhok
 sc-submit-err-add-sentences = Kiyie to med weche
+sc-submit-err-add-source = Yie indik kuma igole wechegi.
+sc-submit-err-confirm-pd = Yie anena ni wechegi yudore ayanga ne jiduto.
+sc-submit-prompt =
+    .message = Wechego ok o or, in kod adieri nidwaro wuok?
 sc-submit-title = Med weche
 sc-submit-select-language =
     .labelText = Yier dhok
 sc-submit-add-sentences = Medi <wikipediaLink>public domain</wikipediaLink> weche
 sc-submit-ph-one-per-line =
     .placeholder = Med wach achiel kachiel e laini
+sc-submit-from-where = Wechegi manie <wikipediaLink>aluora ma galamoro</wikipediaLink> owuok kange?
+sc-submit-ph-read-how-to =
+    .placeholder = Som ane kaka  onengo tim kaok in kod adieri kaka inyal tud wechego gi wuongi.
+sc-submit-confirm = Ayieni wechegi yudore e <wikipediaLink>aluora ma galamoro</wikipediaLink> kendo oyiena chiwogi ka.
+sc-submit-button =
+    .submitText = Chiu
 
 ## ADD LANGUAGE
 
@@ -937,9 +1003,15 @@ reviewing-sentences = Nono weche mosendiki
 
 ## WRITE PAGE
 
+write-instruction = Medi <icon></icon> wach mayudore e aluora ma galamoro
+sentence-input-value = Ndik kae wachno moae e aluora ma galamoro
+sc-write-submit-confirm = Ayieni wachni yudore e <wikipediaLink>aluora ma galamoro</wikipediaLink> kendo oyiena chiwe ka.
 
 ## REVIEW PAGE
 
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Ket <icon></icon> weche moae aluora ma galamoro
+sc-bulk-submit-confirm = Ayieni wechegi yudore e <wikipediaLink>aluora ma galamoro</wikipediaLink> kendo oyiena chiwogi ka.

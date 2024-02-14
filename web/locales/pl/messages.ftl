@@ -52,6 +52,7 @@ cak = kakczikel
 ckb = sorani
 cnh = haka czin
 co = korsykański
+crh = krymskotatarski
 cs = czeski
 cv = czuwaski
 cy = walijski
@@ -73,12 +74,14 @@ ff = ful
 fi = fiński
 fo = farerski
 fr = francuski
+fuf = pular gwinejski
 fy-NL = fryzyjski
 ga-IE = irlandzki
 gl = galicyjski
 gn = guarani
 gom = goańskie konkani
 gu-IN = gudźarati
+guc = wayuu
 ha = hausa
 he = hebrajski
 hi = hindi
@@ -121,6 +124,7 @@ lo = laotański
 lt = litewski
 ltg = łatgalski
 lv = łotewski
+lzz = lazyjski
 mai = maithili
 mdf = moksza
 mg = malgaski
@@ -160,6 +164,7 @@ ps = paszto
 pt = portugalski
 quc = kicze
 quy = keczua chanka
+qvi = kichwa
 rm-sursilv = retoromański (sursilvan)
 rm-vallader = retoromański (vallader)
 ro = rumuński
@@ -169,6 +174,8 @@ sah = jakucki
 sat = santali (ol ciki)
 sc = sardyński
 scn = sycylijski
+sco = scots
+sd = sindhi
 sdh = południowokurdyjski
 shi = shilha
 si = syngaleski
@@ -209,7 +216,9 @@ uz = uzbecki
 ve = venda
 vec = wenecki
 vi = wietnamski
+vmw = makua
 vot = wotycki
+wep = westfalijski
 wo = wolof
 xh = xhosa
 yi = jidysz
@@ -394,8 +403,6 @@ native-language =
     .label = Język ojczysty
 profile-form-submit-save = Zapisz
 profile-form-submit-saved = Zapisane
-male = Mężczyzna
-female = Kobieta
 # Gender
 other = Inna
 why-profile-title = Po co profil?
@@ -1177,3 +1184,12 @@ sc-settings-ui-language = Język interfejsu
 # [/SentenceCollector]
 
 sentence-collection = Zbieranie zdań
+
+## WRITE PAGE
+
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+

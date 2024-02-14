@@ -408,8 +408,12 @@ native-language =
 profile-form-add-accent = يېڭى { $inputValue } تەلەپپۇز قوشۇش
 profile-form-submit-save = ساقلا
 profile-form-submit-saved = ساقلاندى
-male = ئەر
-female = ئايال
+male_masculine = ئەر
+female_feminine = ئايال
+intersex = جىنس ئۆزگەرتكەن
+transgender = جىنىس ئۆزگەرتكۈچى
+non-binary = ئىككىلىك ئەمەس
+do_not_wish_to_say = دېگۈم يوق
 # Gender
 other = باشقا
 why-profile-title = نېمە ئۈچۈن تەرجىمىھال قۇرۇلىدۇ؟
@@ -762,7 +766,7 @@ number-of-voices = ئاۋاز سانى
 splits = بۆلۈنمە
 email-to-download = چۈشۈرۈش ئۈچۈن ئېلخەت ئادرېسىڭىزنى كىرگۈزۈڭ
 why-email = <b>نېمە ئۈچۈن ئېلخەت؟</b> بىز كەلگۈسىدە سانلىق مەلۇمات ئۆزگىرىشى توغرىسىدا سىز بىلەن ئېلخەت ئارقىلىق ئالاقە قىلىشىمىز مۇمكىن.
-why-donate = نېمىشقا سورايسىز؟
+why-donate-datasets-page = Mozilla Common Voice دۇنيادىكى ئەڭ كۆپ خىللىققا ئىگە ئوچۇق تىل سانلىق ساندان توپلىمى - بىز پۈتۈنلەي ئىئانىگە تايىنىمىز. ساندان توپلىمىنىڭ مۇلازىمېتىرى ۋە قىلغان ئىشىمىزغا تايىنىدىغان 100+ تىل جامائىتى ئىشلىتىۋاتقان سۇپىنى ياخشىلاشقا يىلىغا بىر مىليون دوللار ئەتراپىدا پۇل كېتىدۇ. ئەگەر ئوچۇق، سىغدۇرۇشچان سانلىق مەلۇماتنى قەدىرلىسىڭىز - <b> بۈگۈن ئىئانە قىلىڭ! </b>
 confirm-size = <b>{ $size }</b> نى چۈشۈرۈشنى باشلاشقا بولىدۇ
 size-gigabyte = GB
 size-megabyte = MB
@@ -807,6 +811,11 @@ no-information-available = ھېچقانداق ئۇچۇر يوق
 dataset-metadata-sex = جىنسى
 # dataset metadata - age of contributor
 dataset-metadata-age = يېشى
+donate-modal-message = سانلىق مەلۇمات توپلىمىڭىز چۈشۈۋاتىدۇ!
+dataset-donate-modal-heading = بىلەمسىز…
+donate-modal-explanation-1 = ساندان توپلىمىنىڭ مۇلازىمېتىرى ۋە قىلغان ئىشىمىزغا تايىنىدىغان 100+ تىل جامائىتى ئىشلىتىۋاتقان سۇپىنى ياخشىلاشقا يىلىغا بىر مىليون دوللار ئەتراپىدا پۇل كېتىدۇ؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>ئەگەر ئوچۇق، سىغدۇرۇشچان سانلىق مەلۇماتىڭىز بولسا-بۈگۈن ئىئانە قىلىڭ!</bold>
 
 ## Download Modal
 
@@ -1663,6 +1672,7 @@ public-domain = ئاممىۋى دائىرە
 citing-sentences = نەقىل جۈملىلەر
 adding-sentences = جۈملە قوشۇش
 reviewing-sentences = جۈملىلەرنى تەكشۈرۈش
+sentence-domain = جۈملە دائىرىسى
 public-domain-explanation-1 = Common Voice ساندان توپلىمى cc0 ئىجازەتنامىسىدە تارقىتىلغانلىقى ئۈچۈن، بارلىق تېكىست جۈملىلىرىنىڭ <publicDomain> ئاممىۋى دائىرە </publicDomain> (<cc0> cc0 </cc0>) ئىجازىتىدە بولۇشى تولىمۇ مۇھىم. ئەگەر جەزملەشتۈرسىڭىز ئاندىن جۈملە يۈكلەڭ، ھەمدە ھەمىشە مۇناسىۋەتلىك نەقىل مەنبەسىنى ئەسكەرتىڭ.
 public-domain-explanation-2 = تىل تونۇش موتورى قۇرۇشقا ئىشلىتىدىغان ئەڭ ياخشى جۈملە شەكلى ئېغىز تىلىدىكى جۈملىلەرنىڭ زامانىمىزدىكى ئىشلىتىلىشىدۇر. تۆۋەندىكىسى جۈملە شەكىللەندۈرۈشنىڭ بەزى ئۇسۇللىرى؛
 public-domain-explanation-3 = ئۆزىڭىز ياكى دوستلىرىڭىز ياكى تىل جامائىتىڭىز بىلەن زامانىۋى، جانلىق تىلدىكى جۈملىلىرىنى تۈزۈڭ - مەسىلەن «كۆزۈڭگە قاراپ ماڭ» دېگەندەك.
@@ -1701,7 +1711,10 @@ reviewing-sentences-explanation-1 = ئەگەر بۇ جۈملە يۇقىرىدى�
 reviewing-sentences-explanation-2 = ئەگەر بۇ جۈملە يۇقىرىدىكى ئۆلچەمگە توشمىسا، «بولماپتۇ» توپچىسى بېسىلىدۇ.
 reviewing-sentences-explanation-3 = ئەگەر سىز بۇ جۈملىنى جەزملىيەلمىسىڭىز، ئۇنىڭدىن ئاتلاپ كېيىنكى جۈملىگە يۆتكەلسىڭىز بولىدۇ.
 reviewing-sentences-explanation-4 = ئەگەر تەكشۈرىدىغان جۈملە تۈگەپ كەتسە، تېخىمۇ كۆپ جۈملە توپلىشىمىزغا ياردەم قىلىڭ!
-# WRITE PAGE
+domain-explanation = دائىرە جۈملە تېمىسىنى كۆرسىتىدۇ. نۆۋەتتە تاللىيالايدىغان دائىرىڭىز:
+
+## WRITE PAGE
+
 write-instruction = ئاممىۋى دائىرىدىكى جۈملە <icon> </icon> قوشۇڭ
 write-page-subtitle = بۇ جايدا تۆھپە قوشۇلغان جۈملىلەر cc-0 ئىجازىتىدىكى ئاشكارا سانلىق مەلۇمات توپلىمىغا قوشۇلىدۇ.
 sentence =
@@ -1732,6 +1745,32 @@ single-sentence-submission = يەككە جۈملە يوللاش
 bulk-sentence-submission = تۈركۈملەپ جۈملە يوللاش
 single-sentence = يەككە جۈملە
 bulk-sentences = كۆپ جۈملە
+sentence-domain-select =
+    .label = جۈملە دائىرىسى
+# Sentence Domain dropdown option
+agriculture = دېھقانچىلىق
+# Sentence Domain dropdown option
+automotive = ماشىنا
+# Sentence Domain dropdown option
+finance = ئىقتىساد
+# Sentence Domain dropdown option
+food_service_retail = يېمەكلىك، مۇلازىمەت ۋە پارچە سېتىش
+# Sentence Domain dropdown option
+general = ئادەتتىكى
+# Sentence Domain dropdown option
+healthcare = ساقلىقنى ساقلاش
+# Sentence Domain dropdown option
+history_law_government = تارىخ، قانۇن ۋە ھۆكۈمەت
+# Sentence Domain dropdown option
+language_fundamentals = تىل ئاساسى (مەسىلەن سان، ھەرپ، پۇل)
+# Sentence Domain dropdown option
+media_entertainment = تاراتقۇ ۋە كۆڭۈل ئېچىش
+# Sentence Domain dropdown option
+nature_environment = تەبىئەت ۋە مۇھىت
+# Sentence Domain dropdown option
+news_current_affairs = خەۋەر ۋە نۆۋەتتىكى ۋەقەلەر
+# Sentence Domain dropdown option
+technology_robotics = تېخنىكا ۋە ماشىنا ئادەم
 
 ## REVIEW PAGE
 

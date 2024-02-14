@@ -823,6 +823,11 @@ no-information-available = Dim gwybodaeth ar gael
 dataset-metadata-sex = Rhyw
 # dataset metadata - age of contributor
 dataset-metadata-age = Oed
+donate-modal-message = Mae eich set ddata yn cael ei lwytho i lawr!
+dataset-donate-modal-heading = Oeddech chi'n gwybod…
+donate-modal-explanation-1 = Mae’n costio bron i filiwn o ddoleri’r flwyddyn i gynnal y setiau data a gwella’r llwyfan ar gyfer y 100+ o gymunedau iaith sy’n dibynnu ar yr hyn rydym yn ei wneud?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Os ydych yn gwerthfawrogi data agored, cynhwysol - cyfrannwch heddiw!</bold>
 
 ## Download Modal
 
