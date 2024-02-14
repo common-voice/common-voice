@@ -423,8 +423,12 @@ native-language =
 profile-form-add-accent = Pridať nový vlastný prízvuk "{ $inputValue }"
 profile-form-submit-save = Uložiť
 profile-form-submit-saved = Uložené
-male = Muž
-female = Žena
+male_masculine = Muž/mužské
+female_feminine = Žena/ženské
+intersex = Intersex
+transgender = Transgender
+non-binary = Nebinárne
+do_not_wish_to_say = Nechcem uviesť
 # Gender
 other = Iné
 why-profile-title = Prečo chcete profil?
@@ -441,7 +445,7 @@ profile-explanation = Sledujte svoj pokrok pomocou profilu a pomôžte nám spre
 thanks-for-account = Ďakujeme za potvrdenie vášho účtu, poďme vytvoriť váš profil.
 why-demographic = Prečo na tom záleží?
 why-demographic-explanation-2 = Anonymizované údaje, ako vek, pohlavie a prízvuk pomáhajú vylepšovať naše údaje, ktoré budú použité na trénovanie systémov rozpoznávania reči. Vaše používateľské meno a e‑mailová adresa nebudú nikdy spojené s odoslanými údajmi a môžete si vybrať, či chcete svoje používateľské meno zverejniť alebo nie.
-accept-privacy = Súhlasím so spracovaním týchto údajov tak, ako je to popísané v <privacyLink>Zásadách ochrany osobných údajov</privacyLink>
+accept-privacy = Súhlasím so spracovaním týchto údajov tak, ako je to popísané v <privacyLink>Zásadách ochrany osobných údajov</privacyLink>.
 accept-privacy-title = Zásady ochrany osobných údajov
 accept-privacy-and-terms = Súhlasím s <termsLink>Podmienkami používania služby</termsLink> a <privacyLink>Vyhlásení o ochrane osobných údajov</privacyLink> projektu Common Voice
 login-identity = Identita pre prihlásenie
@@ -816,6 +820,11 @@ no-information-available = Nie sú dostupné žiadne informácie
 dataset-metadata-sex = Pohlavie
 # dataset metadata - age of contributor
 dataset-metadata-age = Vek
+donate-modal-message = Váš súbor údajov sa sťahuje!
+dataset-donate-modal-heading = Vedeli ste, že…
+donate-modal-explanation-1 = Hosting súborov údajov a vylepšovanie platformy pre viac ako 100 jazykových komunít, ktoré sa spoliehajú na to, čo robíme, stojí takmer milión dolárov ročne?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ak si ceníte otvorené, inkluzívne dáta – prispejte ešte dnes!</bold>
 
 ## Download Modal
 
@@ -1685,6 +1694,7 @@ public-domain = Verejná licencia
 citing-sentences = Citovanie viet
 adding-sentences = Pridávanie viet
 reviewing-sentences = Kontrola viet
+sentence-domain = Zatriedenie vety
 public-domain-explanation-1 = Je veľmi dôležité, aby všetky textové vety boli dostupné pod <publicDomain>verejnou licenciou</publicDomain> (<cc0>cc0</cc0>), keďže kolekcia údajov Common Voice je vydávaná pod licenciou cc0. Nahrajte vetu, len ak ste si istí, a vždy uveďte príslušnú citáciu.
 public-domain-explanation-2 = Najlepšie vety na vytvorenie užitočného nástroja na rozpoznávanie reči sú hovorové, moderné výrazy. Niekoľko tipov, ktoré vám pomôžu pri vytváraní viet:
 public-domain-explanation-3 = Vytvárajte moderné hovorové vety sami alebo so svojimi priateľmi alebo jazykovou komunitou – napríklad prostredníctvom „write-a-thon“
@@ -1723,7 +1733,10 @@ reviewing-sentences-explanation-1 = Ak veta spĺňa vyššie uvedené kritériá
 reviewing-sentences-explanation-2 = Ak veta nespĺňa vyššie uvedené kritériá, kliknite na tlačidlo „Nie“.
 reviewing-sentences-explanation-3 = Ak si nie ste istí vetou, môžete ju tiež preskočiť a prejsť na ďalšiu.
 reviewing-sentences-explanation-4 = Ak vám dochádzajú vety na kontrolu, môžete nám pomôcť zhromaždiť ďalšie vety.
-# WRITE PAGE
+domain-explanation = Zatriedenie odkazuje na predmet vety. V súčasnosti si môžete vybrať z nasledovných položiek:
+
+## WRITE PAGE
+
 write-instruction = Pridajte <icon></icon> vetu dostupnú pod verejnou licenciou
 write-page-subtitle = Tu pridané vety budú zaradené do verejne dostupného súboru údajov s licenciou cc-0.
 sentence =
@@ -1754,6 +1767,32 @@ single-sentence-submission = Odoslanie jednej vety
 bulk-sentence-submission = Odoslanie viacerých viet
 single-sentence = Jedna veta
 bulk-sentences = Viaceré vety
+sentence-domain-select =
+    .label = Zatriedenie vety
+# Sentence Domain dropdown option
+agriculture = Poľnohospodárstvo
+# Sentence Domain dropdown option
+automotive = Automobilový priemysel
+# Sentence Domain dropdown option
+finance = Financie
+# Sentence Domain dropdown option
+food_service_retail = Stravovanie, služby a maloobchod
+# Sentence Domain dropdown option
+general = Všeobecné
+# Sentence Domain dropdown option
+healthcare = Zdravotná starostlivosť
+# Sentence Domain dropdown option
+history_law_government = História, právo a vláda
+# Sentence Domain dropdown option
+language_fundamentals = Základy jazyka (napr. číslice, písmená, peniaze)
+# Sentence Domain dropdown option
+media_entertainment = Médiá a zábava
+# Sentence Domain dropdown option
+nature_environment = Príroda a životné prostredie
+# Sentence Domain dropdown option
+news_current_affairs = Správy a aktuálne udalosti
+# Sentence Domain dropdown option
+technology_robotics = Technológia a robotika
 
 ## REVIEW PAGE
 

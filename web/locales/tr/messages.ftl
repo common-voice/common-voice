@@ -410,6 +410,8 @@ profile-form-submit-save = Kaydet
 profile-form-submit-saved = Kaydedildi
 male_masculine = Erkek/Eril
 female_feminine = Kadın/Dişil
+intersex = İnterseks
+transgender = Trans
 non-binary = Non-binary
 do_not_wish_to_say = Söylemek istemiyorum
 # Gender
@@ -799,6 +801,9 @@ no-information-available = Bilgi yok
 dataset-metadata-sex = Cinsiyet
 # dataset metadata - age of contributor
 dataset-metadata-age = Yaş
+donate-modal-message = Veri kümeniz indiriliyor
+dataset-donate-modal-heading = Biliyor muydunuz…
+donate-modal-explanation-1 = Veri kümelerini barındırmak ve yaptığımız işe güvenen 100’den fazla dil topluluğu için platformu geliştirmek yılda neredeyse bir milyon dolara mal oluyor.
 
 ## Download Modal
 
@@ -1621,6 +1626,7 @@ misreadings-tip-3 = [Farklı içerik]
 background-noise-example-1 = Bu hastalıklar vücudunu sarsmıştı.
 background-noise-example-2 = [Hapşırma] Bu hastalıklar vücudunu [öksürme] sarsmıştı.
 background-noise-example-3 = Bu hastalık vücudunu [öksürme] sarsmıştı.
+background-noise-tip-1 = [arka plan gürültüsüyle kesintiye uğradı]
 background-noise-tip-2 = [Metnin bir kısmı duyulamıyor]
 background-voices-example-1 = Bu hastalıklar vücudunu sarsmıştı. [biri tarafından okunuyor]
 background-voices-tip-1 = Geliyor musun? [başka biri sesleniyor]
@@ -1633,6 +1639,7 @@ public-domain = Kamu malı
 citing-sentences = Alıntı cümleler
 adding-sentences = Cümle ekleme
 reviewing-sentences = Cümleleri inceleme
+sentence-domain = Cümlenin konusu
 citing-sentences-subheader-websites = Web siteleri
 citing-sentences-subheader-websites-explanation = Web sitesi adresini verebilirsiniz. Örn. "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Akademik atıf
@@ -1692,6 +1699,8 @@ single-sentence-submission = Tek cümle gönderimi
 bulk-sentence-submission = Toplu cümle gönderimi
 single-sentence = Tek cümle
 bulk-sentences = Toplu cümle
+sentence-domain-select =
+    .label = Cümlenin konusu
 # Sentence Domain dropdown option
 agriculture = Tarım
 # Sentence Domain dropdown option

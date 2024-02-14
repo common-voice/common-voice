@@ -484,7 +484,7 @@ faq-what-cv-a-2 =
     Teknologin för röstigenkänning revolutionerar sättet på hur vi interagerar med maskiner, men dagens tillgängliga system är både dyra och patentskyddade. 'Mozilla Common Voice' är ett initiativ för att göra röstigenkänningsteknologin både bättre och tillgängligt för alla.
     'Common Voice' är en massiv global databas med donerade röster som låter vem som helst, snabbt och lätt att träna appar med röstigenkänning i potentiellt vilket språk som helst.
     
-    Vi samlar inte bara på röster från dom största språken utan även ifrån mindre talade språk.
+    Vi samlar inte bara på röster från de största språken utan även ifrån mindre talade språk.
     Att publicera ett dataset med ett stort utbud av röster lägger grunden för att stimulera programutvecklare, entreprenörer och andra grupper att själva börja lägga till data som saknas.
 faq-why-important-q = Varför är det viktigt?
 faq-why-important-a =
@@ -811,6 +811,11 @@ no-information-available = Ingen information tillgänglig
 dataset-metadata-sex = Kön
 # dataset metadata - age of contributor
 dataset-metadata-age = Ålder
+donate-modal-message = Din datamängd laddas ner!
+dataset-donate-modal-heading = Visste du att…
+donate-modal-explanation-1 = Det kostar nästan en miljon dollar per år att vara värd för datamängder och förbättra plattformen för de över 100 språkgemenskaper som litar på det vi gör?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Om du värderar öppen, inkluderande data - donera idag!</bold>
 
 ## Download Modal
 
