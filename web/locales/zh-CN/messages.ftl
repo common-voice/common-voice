@@ -404,8 +404,6 @@ native-language =
 profile-form-add-accent = 添加新的自定义口音“{ $inputValue }”
 profile-form-submit-save = 保存
 profile-form-submit-saved = 已保存
-male = 男
-female = 女
 # Gender
 other = 其他
 why-profile-title = 为什么要创建用户资料？
@@ -1660,7 +1658,9 @@ reviewing-sentences-explanation-1 = 若句子符合上述要求，请点击“�
 reviewing-sentences-explanation-2 = 若句子不符合要求，请点击“否”按钮。
 reviewing-sentences-explanation-3 = 若您没有把握判断，可以跳过当前语句，继续审核下一条语句。
 reviewing-sentences-explanation-4 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = 添加 <icon></icon> 公有领域的语句
 write-page-subtitle = 此处贡献的语句将被添加到采用 cc-0 许可证的公开数据集中。
 sentence =
@@ -1691,6 +1691,10 @@ single-sentence-submission = 提交单句
 bulk-sentence-submission = 批量提交语句
 single-sentence = 单句
 bulk-sentences = 批量语句
+sentence-domain-select =
+    .label = 语句域
+# Sentence Domain dropdown option
+agriculture = 农业
 
 ## REVIEW PAGE
 
