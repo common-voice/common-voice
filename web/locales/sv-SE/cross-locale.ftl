@@ -13,4 +13,4 @@ get-involved-stayintouch = Vi på Mozilla bygger en gemenskap kring röstteknik.
 get-involved-privacy-info = Vi lovar att hantera din information med försiktighet. Läs mer i vår <privacyLink>sekretesspolicy</privacyLink>.
 get-involved-success-title = Du har registrerat dig för att bidra till { $language }. Tack.
 get-involved-success-text = Vi håller kontakten med mer information då den blir tillgänglig.
-get-involved-return-to-languages = Tillbaka till dom olika språken
+get-involved-return-to-languages = Tillbaka till de olika språken

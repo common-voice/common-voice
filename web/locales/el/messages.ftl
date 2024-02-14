@@ -808,6 +808,11 @@ no-information-available = Δεν υπάρχουν διαθέσιμες πληρ
 dataset-metadata-sex = Φύλο
 # dataset metadata - age of contributor
 dataset-metadata-age = Ηλικία
+donate-modal-message = Γίνεται λήψη του συνόλου δεδομένων σας!
+dataset-donate-modal-heading = Γνωρίζατε ότι…
+donate-modal-explanation-1 = Η «φιλοξενία» των συνόλων δεδομένων, καθώς και η βελτίωση της πλατφόρμας για τις 100+ γλωσσικές κοινότητες που βασίζονται στο έργο μας, κοστίζουν σχεδόν ένα εκατομμύριο δολάρια ετησίως;
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Εάν εκτιμάτε τα ανοικτά, συμπεριληπτικά δεδομένα, κάντε μια δωρεά σήμερα!</bold>
 
 ## Download Modal
 

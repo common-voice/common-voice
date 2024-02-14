@@ -406,8 +406,12 @@ native-language =
 profile-form-add-accent = Aggiungi nuovo accento personalizzato “{ $inputValue }”
 profile-form-submit-save = Salva
 profile-form-submit-saved = Salva
-male = Maschio
-female = Femmina
+male_masculine = Uomo/Maschile
+female_feminine = Donna/Femminile
+intersex = Intersessuale
+transgender = Transgender
+non-binary = Non binario
+do_not_wish_to_say = Preferisco non rispondere
 # Gender
 other = Altro
 why-profile-title = Perché registrare un profilo?
@@ -791,6 +795,11 @@ no-information-available = Nessuna informazione disponibile
 dataset-metadata-sex = Sesso
 # dataset metadata - age of contributor
 dataset-metadata-age = Età
+donate-modal-message = Il tuo dataset è in fase di download.
+dataset-donate-modal-heading = Lo sapevi che…
+donate-modal-explanation-1 = Ospitare i dataset e migliorare la piattaforma per le oltre 100 comunità linguistiche che fanno affidamento su ciò che facciamo costa quasi un milione di dollari all’anno?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Se apprezzi la possibilità di accedere a dati aperti e inclusivi, fai una donazione oggi stesso</bold>
 
 ## Download Modal
 
@@ -1643,6 +1652,7 @@ public-domain = Pubblico dominio
 citing-sentences = Citare frasi
 adding-sentences = Aggiungere frasi
 reviewing-sentences = Convalidare frasi
+sentence-domain = Dominio della frase
 public-domain-explanation-1 = È molto importante che tutte le frasi siano di <publicDomain>pubblico dominio</publicDomain> (<cc0>cc0</cc0>) poiché il dataset di Common Voice è distribuito con licenza cc0. Inserisci una frase solo se ne sei sicuro e includi sempre la citazione.
 public-domain-explanation-2 = Le frasi migliori per costruire un motore di riconoscimento vocale efficace sono quelle in cui viene utilizzato un linguaggio colloquiale e attuale. Ecco alcune idee per aiutarti a generare frasi:
 public-domain-explanation-3 = Crea frasi colloquiali e attuali individualmente, con i tuoi amici o con la tua comunità linguistica, per esempio organizzando una "maratona di scrittura"
@@ -1681,7 +1691,10 @@ reviewing-sentences-explanation-1 = Se la frase soddisfa tutti i criteri descrit
 reviewing-sentences-explanation-2 = Se la frase non soddisfa tutti i criteri descritti sopra, fai clic sul pulsante “No“.
 reviewing-sentences-explanation-3 = Se non sei sicuro, puoi anche saltare la frase e passare a quella successiva.
 reviewing-sentences-explanation-4 = Se non ci sono più frasi da convalidare, aiutaci a raccoglierne altre!
-# WRITE PAGE
+domain-explanation = Il dominio si riferisce all’argomento della frase. Al momento, puoi scegliere tra:
+
+## WRITE PAGE
+
 write-instruction = <icon></icon> Aggiungi una frase di pubblico dominio
 write-page-subtitle = Le frasi inserite verranno aggiunte a un dataset con licenza cc-0 disponibile pubblicamente.
 sentence =
@@ -1712,6 +1725,32 @@ single-sentence-submission = Invio di una singola frase
 bulk-sentence-submission = Invio di frasi in blocco
 single-sentence = Singola frase
 bulk-sentences = Frasi in blocco
+sentence-domain-select =
+    .label = Dominio della frase
+# Sentence Domain dropdown option
+agriculture = Agricoltura
+# Sentence Domain dropdown option
+automotive = Automobili
+# Sentence Domain dropdown option
+finance = Finanza
+# Sentence Domain dropdown option
+food_service_retail = Cibo, servizi e vendita al dettaglio
+# Sentence Domain dropdown option
+general = Generale
+# Sentence Domain dropdown option
+healthcare = Sanità
+# Sentence Domain dropdown option
+history_law_government = Storia, diritto e governo
+# Sentence Domain dropdown option
+language_fundamentals = Fondamenti della lingua (ad es. cifre, lettere, valuta)
+# Sentence Domain dropdown option
+media_entertainment = Media e intrattenimento
+# Sentence Domain dropdown option
+nature_environment = Natura e ambiente
+# Sentence Domain dropdown option
+news_current_affairs = Notizie e attualità
+# Sentence Domain dropdown option
+technology_robotics = Tecnologia e robotica
 
 ## REVIEW PAGE
 

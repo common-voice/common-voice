@@ -404,8 +404,12 @@ native-language =
 profile-form-add-accent = Thêm trọng âm tùy chỉnh mới "{ $inputValue }"
 profile-form-submit-save = Lưu
 profile-form-submit-saved = Đã lưu
-male = Nam
-female = Nữ
+male_masculine = Nam/Nam tính
+female_feminine = Nữ/Nữ tính
+intersex = Liên giới tính
+transgender = Chuyển giới
+non-binary = Phi nhị nguyên giới
+do_not_wish_to_say = Không muốn nói
 # Gender
 other = Khác
 why-profile-title = Tại sao phải tạo một hồ sơ?
@@ -798,6 +802,11 @@ no-information-available = Không có thông tin có sẵn
 dataset-metadata-sex = Giới tính
 # dataset metadata - age of contributor
 dataset-metadata-age = Tuổi
+donate-modal-message = Tập dữ liệu của bạn đang được tải xuống!
+dataset-donate-modal-heading = Bạn có biết…
+donate-modal-explanation-1 = Chi phí gần một triệu đô la mỗi năm để lưu trữ các bộ dữ liệu và cải thiện nền tảng cho hơn 100 cộng đồng ngôn ngữ dựa vào những gì chúng tôi làm?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Nếu bạn coi trọng dữ liệu mở, toàn diện - hãy quyên góp ngay hôm nay!</bold>
 
 ## Download Modal
 
@@ -1750,7 +1759,9 @@ reviewing-sentences-explanation-1 = Nếu câu đáp ứng các tiêu chí trên
 reviewing-sentences-explanation-2 = Nếu câu không đáp ứng các tiêu chí trên, hãy nhấp vào nút "Không".
 reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu đó, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
 reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = Thêm <icon></icon> một câu thuộc phạm vi công cộng
 write-page-subtitle = Các câu được đóng góp ở đây sẽ được thêm vào bộ dữ liệu được cấp phép cc-0 có sẵn công khai.
 sentence =
@@ -1781,6 +1792,30 @@ single-sentence-submission = Gửi câu riêng lẻ
 bulk-sentence-submission = Gửi hàng loạt câu
 single-sentence = Câu đơn
 bulk-sentences = Hàng loạt câu
+# Sentence Domain dropdown option
+agriculture = Nông nghiệp
+# Sentence Domain dropdown option
+automotive = Công nghiệp ô tô
+# Sentence Domain dropdown option
+finance = Tài chính
+# Sentence Domain dropdown option
+food_service_retail = Thực phẩm, dịch vụ và bán lẻ
+# Sentence Domain dropdown option
+general = Tổng quát
+# Sentence Domain dropdown option
+healthcare = Chăm sóc sức khoẻ
+# Sentence Domain dropdown option
+history_law_government = Lịch sử, luật pháp và chính phủ
+# Sentence Domain dropdown option
+language_fundamentals = Nguyên tắc cơ bản về ngôn ngữ (ví dụ: chữ số, chữ cái, tiền)
+# Sentence Domain dropdown option
+media_entertainment = Truyền thông và giải trí
+# Sentence Domain dropdown option
+nature_environment = Thiên nhiên và môi trường
+# Sentence Domain dropdown option
+news_current_affairs = Tin tức và thời sự
+# Sentence Domain dropdown option
+technology_robotics = Công nghệ và máy móc
 
 ## REVIEW PAGE
 
