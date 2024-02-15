@@ -765,9 +765,16 @@ report-offensive-language-detail = Wachno otingo weche maonge luor kendo dhok ma
 report-grammar-or-spelling = Wechego ok ondik kaka onengo bedi
 report-grammar-or-spelling-detail = Wechegi ok ondik kaka onengo bedi
 report-different-language = dhok mopogore
+report-different-language-detail = Ondikgi e dhok mopogore kod mawawacho
+report-difficult-pronounce = Tek wacho
+report-difficult-pronounce-detail = Otingo weche matek somo kendo wacho
+report-offensive-speech = Weche maricho
 report-offensive-speech-detail = Duol momaki ni otingo weche maonge luor kendo dhok maricho.
+report-other-comment =
+    .placeholder = Wachie
 success = Ber
 continue = dhi nyime
+report-success = Oteno nokalo maber
 
 ## Goals
 
@@ -781,20 +788,38 @@ recordings =
         [one] Mak duol
        *[other] Mak duonde
     }
+validations =
+    { $count ->
+        [one] mopuodhi
+       *[other] mopuodhi
+    }
 
 ## Dashboard
 
+your-languages = dhou
+toward-next-goal = dhi nyime kichiko okang midwaro
+goal-reached = Ochop okang midwaro
 clips-you-recorded = Duonde misemako
+clips-you-validated = Duode momaki misepuotho
+todays-recorded-progress = Kaka tij mako duonde osebedo kawuono e Common Voice
+todays-validated-progress = Kaka tij puodho duonde osebedo kawuono e Common Voice
+stats = Kwan
+awards = Mich
 you = In
 everyone = ji duto
+top-contributors = Josolo mangula
 recorded-clips = Duonde momaki
 validated-clips = Duonde mopuodhi
+total-approved = Duto mosepuodhi
+overall-accuracy = Kaka Weche Duto Ochanre
 set-visibility = Kaka anene
 show-ranking = Nyis ranginy mara
 
 ## Custom Goals
 
 get-started-goals = Chak kod tie wach
+create-custom-goal = Los chenro mamari kaka idwaro tiyo
+goal-type = Ere kaka idwaro tiyo?
 both-speak-and-listen = duto
 both-speak-and-listen-long = Giduto (wuoyo kod chiko it)
 daily-goal = Chenro mag tiyo odiochieng ka odiochieng
@@ -842,8 +867,12 @@ profile-form-delete = Gol Ranginy maga
 
 ## Profile Download
 
+download-q = Idwaro golo wecheni?
+download-info = Nyiswa gima idwaro golo:
 download-selected = Moseyier
 download-request = kwayo duonde
+download-requests = Kwayo golo duonde monosemaki
+download-request-button = Gol
 download-request-refresh-button = Yaw Manyien
 
 ## Landing
