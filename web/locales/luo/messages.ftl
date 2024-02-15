@@ -486,6 +486,8 @@ faq-why-10k-hours-q = Angomomiyo idwaro dhok ka dhok ochop seche 10,000 mar duol
 faq-how-calc-hours-q = Ere kaka Common Voice kwano seche?
 faq-where-src-from-2-q = Ere kuma weche go duto wuokie?
 faq-why-not-ask-read-q = Ok upenj ji mondo osom buge kata ndiko manie Wikipedia kuom dhok mopogore opogore?
+faq-what-is-cv = Common Voice en ango?
+faq-using-cv = Tiyo kod Common Voice
 faq-search-for-answers =
     .label = Many duoko
 
@@ -1157,9 +1159,14 @@ sentence-input-value = Ndik kae wachno moae e aluora ma galamoro
 citation-input-value = Kuma weche owuoke
 sc-write-submit-confirm = Ayieni wachni yudore e <wikipediaLink>aluora ma galamoro</wikipediaLink> kendo oyiena chiwe ka.
 sc-review-write-title = Weche mage matong amedi?
+new-sentence-rule-2 = Matin ne weche 15 e wach ka wach
+guidelines = Ranyisi
+contact-us = Tudri kodwa
+single-sentence = Wach achiel
 
 ## REVIEW PAGE
 
+report-sc-different-language = Dhok mopogore
 
 ## BULK SUBMISSION 
 
