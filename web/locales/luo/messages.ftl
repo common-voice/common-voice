@@ -495,15 +495,21 @@ faq-search-for-answers =
 ## How does it work section
 
 about-sentence-collection-title = Choko weche
+about-new-lang-title = Chako dhok mayien
+about-new-lang-subtitle = Wayao chenro e Common Voice ne dhok ni.
 about-voice-contrib-title = Choko duonde
 about-voice-contrib-subtitle = Ji biro to chiwo dwondegi kanyachiel
+about-voice-validation-title = Puotho duol
 about-voice-validation-subtitle = Jomoko puotho duonde momakigo
 about-speak = Losi / wuo
 about-listen = Chik iti
 about-is-it-valid = Be duol momakino ni kare?
 about-is-it-valid-text = Duol momaki ni "kare" ka ngato opuodhe ni en kare.
+about-yes-votes = mokalo ji 2 oyie
 about-yes-votes-text = Mondo duol momaki odonjie deche mar duol mar Common Voice, duol momaki yaka puodhi gi ji ariyo mopogore.
+about-no-votes = mokalo ji 2 adagi
 about-no-votes-text = Ka ngato okwero duol momaki to iduoke e laini. Ka duolno okwed mar ariyo gi ng'at machielo, igole to itere e liendi duol.
+about-dataset-new = Deche manie Common Voice
 about-clip-graveyard = Liendi duol
 about-get-involved = Donjie e riuruok
 about-stay-in-touch = Ere kaka anyalo tudora kodu?
@@ -567,19 +573,26 @@ about-playbook-how-project-governance = Ere kaka weche mag chenro go iloso?
 
 ## Glossary
 
+glossary = Weche
 sentence-collection = choko weche
 sentence-collection-explanation = Choko weche kowuok kuom aluora ma galamoro, kata  ndiko weche manyien midhiketie aluora ma galamoro.
 
 ## Error pages
 
 error-title-404 = Ne ok wany yudo wang kalatasno ne in
+error-code = Okethore { $code }
 
 ## Data
 
+data-download-button = Gol Deche manie Common Voice
 data-download-yes = Eee!
 data-download-deny = Ooyo
+data-other-title = Deche mamoko mag duol...
 data-other-goto = Dhi ka { $name }
+data-other-download = Golo Deche
+data-bundle-button = Golo Deche
 dataset-date = Tarik
+license = Otas mar rusa:<licenseLink>{ $license }</licenseLink>
 license-mixed = Onywandore/oriwore
 terms-agree = Ayie
 terms-disagree = Ok ayiego
@@ -593,6 +606,7 @@ review-delete-recordings = Ruch gik mane amakogo
 
 ## Datasets Page
 
+datasets-heading = Deche
 language = Dhok
 # File size in gigabytes
 size = Duong'
