@@ -876,16 +876,20 @@ download-request-button = Gol
 download-request-title = { $created }
 download-request-description = { $clipCount } Duonde mosemaki, kwan duto { $size }. Rumo { $expires }.
 download-request-archive-single = Dero achiel motingo weche
+download-request-archive-multiple = pogi e deche { $archiveCount } motingo weche
 download-request-refresh-button = Yaw Manyien
+download-request-metadata-link = Ndiko mar wach
 
 ## Landing
 
 welcome-staff = Ruako jotij { $company }
+read-more-about = Som weche mamoko e migapwa
 
 ## DemoLayout
 
 demo-get-started = Wachakuru
 demo-welcome = Waruaki Common Voice
+demo-welcome-subheader = In kod dwaro mar puonjori mangeny kendo chiwo ne migawoni?
 
 ## Demo Datasets
 
