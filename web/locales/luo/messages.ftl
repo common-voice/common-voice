@@ -491,16 +491,25 @@ faq-search-for-answers =
 
 ## ABOUT US
 
+about-title = Ango momiyo Common Voice?
+how-does-it-work-title-v2 = Ere kaka Common Voice ni tiyo?
 
 ## How does it work section
 
+about-language-req-subtitle = Ngato kwayo mondo omed dhok moro.
+about-localization-title = Loko weche manie chenroni
+about-localization-subtitle = Weche manie chenroni iloko e dhok no.
 about-sentence-collection-title = Choko weche
+about-sentence-collection-subtitle = weche ichoko mondo ji osom matek
 about-new-lang-title = Chako dhok mayien
 about-new-lang-subtitle = Wayao chenro e Common Voice ne dhok ni.
 about-voice-contrib-title = Choko duonde
 about-voice-contrib-subtitle = Ji biro to chiwo dwondegi kanyachiel
 about-voice-validation-title = Puotho duol
 about-voice-validation-subtitle = Jomoko puotho duonde momakigo
+about-dataset-release-title = Yao deche
+about-dataset-release-subtitle = Wayao deche mag weche dweche adek ka dweche adek.
+about-subscribe-text = Idwaro ni mondo imed tutori kod Common Voice?
 about-speak = Losi / wuo
 about-listen = Chik iti
 about-is-it-valid = Be duol momakino ni kare?
@@ -893,6 +902,7 @@ demo-welcome-subheader = In kod dwaro mar puonjori mangeny kendo chiwo ne migawo
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice e migawo maduong mar oganda e piny ngima, man kod deche mathoth mogik mag dhok mopogore.
 card-button-next = Machielo
 card-button-back = chien
 demo-language-select-label = Ngiane dhok mopogore
