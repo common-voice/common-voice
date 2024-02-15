@@ -801,9 +801,9 @@ dataset-metadata-sex = 生理性别
 dataset-metadata-age = 年龄
 donate-modal-message = 正在下载您的数据集
 dataset-donate-modal-heading = 你知道吗…
-donate-modal-explanation-1 = 每年托管数据集和为 100 多个依赖于我们工作的语言社区改进平台需要花费将近一百万美元。
+donate-modal-explanation-1 = 目前有 100 多个语言社区依赖于我们的工作。为托管数据集，以及改善服务这些语言社区的平台，我们每年需要支出约 100 万美元。
 # Text in <bold></bold> will shown in bold
-donate-modal-explanation-2 = <bold>如果您珍视开放、包容的数据体验，那么今天就捐款吧！</bold>
+donate-modal-explanation-2 = <bold>如果您也珍视开放且包容的数据，请向我们捐款！</bold>
 
 ## Download Modal
 
