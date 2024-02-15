@@ -331,7 +331,9 @@ shortcut-vote-no = n
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = r
 shortcut-record-toggle-label = recorden/itelel
+shortcut-rerecord-toggle-label = tau irecorden klipit
 shortcut-discard-ongoing-recording = mangu
+shortcut-discard-ongoing-recording-label = inemu recordings chetesetai
 shortcut-submit = wegen
 shortcut-submit-label = kagigoitoo clipinik
 request-language-text = tomo igeer kutit eng sautit nenaat?
@@ -395,6 +397,7 @@ profile-close = keer
 profile-explanation = geer oletesetai kiboishen profilit ak itoret ngalekab sautit asigoek sasawa
 thanks-for-account = kongoi amu keyaan akountingung,nguno ngechop profilingung
 why-demographic = kaine asigoba kamanuut?
+accept-privacy = ami komnyei ngiborye ngalechu ak yai imwae agoba inet eng mozilla<privacyLink>polisi neungat</privacyLink>
 accept-privacy-title = ngalekab kaungengung
 accept-privacy-and-terms = kayaan sauti nenaat <termsLink>Termishek</termslink>ak<privacyLink>notic neungaat </privacyLink>
 login-identity = ne neibaru kole inye negailogen in
@@ -414,6 +417,7 @@ help-variants = tos imache toretet eng varianishek?
 ## Profile - Email
 
 browse-file-title = uploaden pikchayat
+browse-file = ibote ak ibagakte anan <browseWrap>cheng</browseWrap>
 connect-gravatar = ikonnecten ak gravatar
 gravatar_not_found = mamiten gravatar emailingung
 file_too_large = filit negekwei ko oo mising
@@ -436,7 +440,14 @@ faq-what-cv-q = ne sautit ne naat?
 faq-why-important-q = kaine asigoba kamanuut?
 faq-how-get-q = anyoru kole ne ngalekab sautit nenaat ?
 faq-when-release2-q = Auu neinemu sautit nenaat eng kuti alak?
+faq-why-mission-q = kaine asigomiten borsetab mozilla sautit nenaat?
+faq-is-goal-assistant-q = tos boore sautit nenaat koteech sauti netoreti
+faq-do-want-native-q = mai chito nengololi kuti nebo iman ak mi olanhololdoi,tos timache sautinyu?
+faq-why-different-speakers-q = kaine asimache biik chengololsot chechang eng kuti agenge?
 faq-why-my-lang-q = kaine asigo tomo keteshi kutinyu?
+faq-how-calc-hours-q = iiti kole nee sautit nenaat saishek ?
+faq-why-account-q = kaine asiasirgee asiaboishe akountit?
+faq-is-account-public-q = tos ngalekab akount nenyun ko togu eng chii tugul?
 faq-what-is-cv = nee sautit ne naat?
 faq-using-cv = miten kobaishe sautit ne naat
 faq-search-for-answers =
@@ -458,27 +469,39 @@ about-listen-queue = kastee-igany
 about-listen = kastee
 about-is-it-valid = tos kararan clipinito?
 about-is-it-valid-text = kigimarken sautitab clipit kogisikchi ngogabaishe chito agoiyan anan koesho
+about-yes-votes = ≥2 kuraishek chebo iman
 about-no-votes = ≥2 mami kuraishek
+about-clip-graveyard = klipit nebo graveyardit
 about-get-involved = imache kobaaten
 about-stay-in-touch = much kengalal kolenee?
+about-stay-in-touch-button = sirgei
 about-nav-why-common-voice = kaine?
 about-nav-how-it-works = amune?
+about-nav-partners = biik cheyoe boishet tuguk
+about-nav-get-involved = imache kobaaten
+about-nav-playbook = slmanchin ole tos iyai boishet
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ne kutii eng sautit nenaat?
 
 ## How do I add a language
 
+about-playbook-how-add-language = atesyini kuti alak kunee?
+about-playbook-how-add-language-collecting-sentences-heading = mi koyumi ngalalutik
 
 ## How does localization work
 
+about-playbook-how-localize-content-5 = geer videoit neelezani asigotoretin
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = atesyini kole ne ngalalutik?
 
 ## How to record quality
 
+about-playbook-how-record-quality = tos arecorden kole ne sauti nebo barak eng klipit?
 
 ## How to grow language
 
@@ -502,15 +525,36 @@ about-nav-how-it-works = amune?
 
 data-download-yes = ayani
 data-download-deny = achaa
+data-other-title = ngalalutikab sauti age
+data-other-goto = wiiy { $kainet }
+data-other-download = downloaden ngalek
+data-bundle-button = downloaden ngalek chegigiruruch
 dataset-date = tarikit
+license-mixed = kigiburuch
+data-download-singleword-title = downloaden ngolyot agenge negibore eng segmentit
 terms-agree = ayani
 terms-disagree = mayani
+review-submit-title = geer agisanyan
+review-submit-msg = kongoi amu kerecoeden!<lineBreak></lineBreak>nguno muuch igeer ago isanyen klipishek chu mi ngweny
+review-recording = geer kogeny
+review-rerecord = recorden kogeny
+review-cancel = mati sanyan
+review-keep-recordings = testai irecordeni
+review-delete-recordings = istee recordings chechuuk
 
 ## Datasets Page
 
+datasets-heading = dataseti
 language = kutit
+# File size in gigabytes
+size = Ootindo
+number-of-voices = nambetab sauti
+splits = chegigipchei
+email-to-download = indene emailit asigodownloaden
 size-gigabyte = GB
 size-megabyte = MB
+go-languages-page = wiiy olemi pagit nebo kuti chesere
+ready-to-validate = achopot atoretin iigeer nda saii ngalalutik
 more = alak
 close = keer
 download = downloaden
@@ -520,6 +564,11 @@ dataset-donate-modal-heading = tos ingen?
 
 ## Download Modal
 
+download-title = kagotoy download nengung
+download-form-email =
+    .label = indene emailingung
+    .value = kongoi,asigengalal
+download-back = wektengei eng sauti chenoyotin
 download-no = achaa,kongoi
 
 ## Contact Modal
