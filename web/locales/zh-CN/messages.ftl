@@ -409,7 +409,7 @@ female_feminine = 女
 intersex = 双性人
 transgender = 跨性别者
 non-binary = 非二元性别
-do_not_wish_to_say = 不想透露
+do_not_wish_to_say = 保密
 # Gender
 other = 其他
 why-profile-title = 为什么要创建用户资料？
@@ -1723,11 +1723,11 @@ history_law_government = 历史、法律与政府
 # Sentence Domain dropdown option
 language_fundamentals = 语言基础（例如数字、字母、货币）
 # Sentence Domain dropdown option
-media_entertainment = 媒体和娱乐
+media_entertainment = 媒体与娱乐
 # Sentence Domain dropdown option
 nature_environment = 自然与环境
 # Sentence Domain dropdown option
-news_current_affairs = 新闻和时事
+news_current_affairs = 新闻与时事
 # Sentence Domain dropdown option
 technology_robotics = 技术与机器人
 
