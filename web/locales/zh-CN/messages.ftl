@@ -1705,7 +1705,7 @@ bulk-sentence-submission = 批量提交语句
 single-sentence = 单句
 bulk-sentences = 批量语句
 sentence-domain-select =
-    .label = 语句域
+    .label = 语句领域
 # Sentence Domain dropdown option
 agriculture = 农业
 # Sentence Domain dropdown option
