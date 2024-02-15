@@ -511,6 +511,7 @@ about-dataset-release-title = Yao deche
 about-dataset-release-subtitle = Wayao deche mag weche dweche adek ka dweche adek.
 about-subscribe-text = Idwaro ni mondo imed tutori kod Common Voice?
 about-speak = Losi / wuo
+about-listen-queue = Riedo mar chiko it
 about-listen = Chik iti
 about-is-it-valid = Be duol momakino ni kare?
 about-is-it-valid-text = Duol momaki ni "kare" ka ngato opuodhe ni en kare.
@@ -564,6 +565,9 @@ about-playbook-how-record-content-5 = <accuracyLink>Ne puonjruok mamoko kaka one
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Chenro
+about-playbook-how-grow-language-content-4 = Oinga mag tudruok e mbui
+about-playbook-how-grow-language-content-6 = Riuruok kod tudruok
 
 ## How to validate
 
@@ -600,6 +604,7 @@ data-other-title = Deche mamoko mag duol...
 data-other-goto = Dhi ka { $name }
 data-other-download = Golo Deche
 data-bundle-button = Golo Deche
+release-version = Loko mopogore
 dataset-date = Tarik
 license = Otas mar rusa:<licenseLink>{ $license }</licenseLink>
 license-mixed = Onywandore/oriwore
@@ -878,6 +883,7 @@ profile-form-delete = Gol Ranginy maga
 
 download-q = Idwaro golo wecheni?
 download-info = Nyiswa gima idwaro golo:
+download-recordings-title = Mako duonde
 download-selected = Moseyier
 download-request = kwayo duonde
 download-requests = Kwayo golo duonde monosemaki
@@ -933,6 +939,8 @@ contribution-varying-pronunciations-example-1-title = Oruako ogudu e wiye.
 contribution-varying-pronunciations-example-2-title = Otingo bade malo
 contribution-background-noise-title = Nitie koko chien kanyo
 contribution-just-unsure-title = Ok an kod adieri
+see-more = <chevron></chevron>Ne Mangeny
+see-less = <chevron></chevron>Ne matin
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -956,10 +964,14 @@ sc-footer-report-copyright = Ful weche ma okop kamachielo
 sc-footer-privacy = Weche ma ng'ato owuon
 sc-footer-terms = Chike
 sc-login-signup-button = donjo e komputa
+sc-logout-button = Wuog oko
 
 ## HOME
 
+sc-home-title = waruaki e choko weche e Common Voice
+sc-home-collect-title = Chok weche
 sc-home-collect-text = Konywa kod ndiko weche kata choko weche koae aluora ma galamoro.
+sc-home-review-title = Non weche
 
 ## GENERAL
 
@@ -971,15 +983,22 @@ sc-howto-addlang-title = Medo dhok minyalo tiyo godo
 sc-howto-addlang-text = Kisedongo e kompiuta inyalo yiero dhok koa e kar picha mari.
 sc-howto-addsen-title = med weche manyien
 sc-howto-cite-title = Kaka inyalo por wach
+sc-howto-review-title = Non weche
+sc-howto-findpd-subtitle = Manygi e mbui
 
 ## MY SENTENCES
 
 sc-my-title = Wechega/ wechena
+sc-my-loading = Wechegi biro...
 sc-my-no-sentences = Onge weche moyudi
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Chiwo: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Kuma giae: { $source }
 sc-my-delete = Ruchi weche moyier go
+sc-my-deleting = Rucho weche moyiergo...
 
 ## REJECTED
 
@@ -989,6 +1008,8 @@ sc-rejected-loading = Kelo weche motamruok...
 ## STATS
 
 sc-stats-title = Kwan
+sc-stats-updating = Medo weche manyien...
+sc-stats-error = Neok wanyal yudo kwan. Tem kendo bange.
 
 ## ADD
 
@@ -1013,6 +1034,8 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ok anyal medo dhok
+sc-add-lang-sec-button = Med Dhok
 
 ## ADD SENTENCES CONFIRMATION
 
