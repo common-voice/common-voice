@@ -1398,15 +1398,29 @@ sc-validation-no-abbreviations = Җөмләдә кыскартылмалар б�
 
 # [/SentenceCollector]
 
+partnerships-get-in-touch = Элемтәгә керү
+partnerships-become-a-partner = Common Voice-ның партнёры булыгыз
+partnerships-academia-header = Университетлар, академик оешмалар һәм фәнни хезмәткәрләр
 partnerships-our-partners = Партнёрларыбыз
+add-information-button = Мәгълүмат өстәү
+continue-speaking-button = Юк, рәхмәт, сөйләүне дәвам итү
 thanks-for-voice-toast = Тавыш мәгълүматыгыз өчен рәхмәт
 thanks-for-voice-toast-error = Тавыш мәгълүматыгызны җибәрүдә хата килеп чыкты
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Тавышыгызны иганә иткәнегез өчен рәхмәт!
+create-profile-button = Профиль булдыру
 sentence-collection = Җөмләләр тупланмасы
+volume = Тавыш көче
+reader-effects = Укучы эффектлары
+public-domain = Иҗтимагый милектә
+citing-sentences-subheader-websites = Веб-сайтлар
 
 ## WRITE PAGE
 
+single-sentence-submission = Бер җөмлә җибәрү
+bulk-sentence-submission = Күп җөмлә җибәрү
+single-sentence = Бер җөмлә
+bulk-sentences = Күп җөмлә
 
 ## REVIEW PAGE
 
