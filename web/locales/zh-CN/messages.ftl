@@ -1721,7 +1721,7 @@ healthcare = 医疗
 # Sentence Domain dropdown option
 history_law_government = 历史、法律与政府
 # Sentence Domain dropdown option
-language_fundamentals = 语言基础例如数字、字母、货币
+language_fundamentals = 语言基础（例如数字、字母、货币）
 # Sentence Domain dropdown option
 media_entertainment = 媒体和娱乐
 # Sentence Domain dropdown option
