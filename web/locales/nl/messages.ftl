@@ -806,6 +806,11 @@ no-information-available = Geen informatie beschikbaar
 dataset-metadata-sex = Geslacht
 # dataset metadata - age of contributor
 dataset-metadata-age = Leeftijd
+donate-modal-message = Uw gegevensset wordt gedownload!
+dataset-donate-modal-heading = Wist u dat…
+donate-modal-explanation-1 = het bijna een miljoen dollar per jaar kost om de gegevenssets te hosten en het platform te verbeteren voor de meer dan 100 taalgemeenschappen die afhankelijk zijn van wat we doen?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Als u open, inclusieve gegevens waardeert – doneer dan vandaag nog!</bold>
 
 ## Download Modal
 
