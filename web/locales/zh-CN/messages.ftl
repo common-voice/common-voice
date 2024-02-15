@@ -801,7 +801,7 @@ dataset-metadata-sex = 生理性别
 dataset-metadata-age = 年龄
 donate-modal-message = 正在下载您的数据集
 dataset-donate-modal-heading = 你知道吗…
-donate-modal-explanation-1 = 目前有 100 多个语言社区依赖于我们的工作。为托管数据集，以及改善服务这些语言社区的平台，我们每年需要支出约 100 万美元。
+donate-modal-explanation-1 = 目前有 100 多个语言社区依靠我们的工作来活动及发展。为托管数据集，以及改善服务这些语言社区的平台，我们每年需要支出约 100 万美元。
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>如果您也珍视开放且包容的数据，请向我们捐款！</bold>
 
@@ -1631,7 +1631,7 @@ public-domain = 公有领域
 citing-sentences = 引用语句
 adding-sentences = 添加语句
 reviewing-sentences = 审核语句
-sentence-domain = 语句域
+sentence-domain = 语句领域
 public-domain-explanation-1 = 请注意，由于 Common Voice 数据集采用 CC0 许可协议发布，因此其所有语句文本都需来自公有领域（按 CC0 许可协议授权）。请在确定语句符合要求后再上传，上传时需要注明出处。
 public-domain-explanation-2 = 用于构建语音识别引擎的最佳语句类型是口语化的现代用语。以下是一些生成语句的方法：
 public-domain-explanation-3 = 自行撰写现代的口语化语句，或与朋友及语言社区一道，通过“造句马拉松”活动等形式去撰写句子。
@@ -1713,7 +1713,7 @@ automotive = 汽车
 # Sentence Domain dropdown option
 finance = 金融
 # Sentence Domain dropdown option
-food_service_retail = 餐饮、服务和零售
+food_service_retail = 餐饮、服务与零售
 # Sentence Domain dropdown option
 general = 常规
 # Sentence Domain dropdown option
