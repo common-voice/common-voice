@@ -873,6 +873,9 @@ download-selected = Moseyier
 download-request = kwayo duonde
 download-requests = Kwayo golo duonde monosemaki
 download-request-button = Gol
+download-request-title = { $created }
+download-request-description = { $clipCount } Duonde mosemaki, kwan duto { $size }. Rumo { $expires }.
+download-request-archive-single = Dero achiel motingo weche
 download-request-refresh-button = Yaw Manyien
 
 ## Landing
