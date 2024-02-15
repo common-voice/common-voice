@@ -404,6 +404,12 @@ native-language =
 profile-form-add-accent = 添加新的自定义口音“{ $inputValue }”
 profile-form-submit-save = 保存
 profile-form-submit-saved = 已保存
+male_masculine = 男
+female_feminine = 女
+intersex = 双性人
+transgender = 跨性别者
+non-binary = 非二元性别
+do_not_wish_to_say = 不想透露
 # Gender
 other = 其他
 why-profile-title = 为什么要创建用户资料？
@@ -793,6 +799,11 @@ no-information-available = 无相关信息
 dataset-metadata-sex = 生理性别
 # dataset metadata - age of contributor
 dataset-metadata-age = 年龄
+donate-modal-message = 正在下载您的数据集
+dataset-donate-modal-heading = 你知道吗…
+donate-modal-explanation-1 = 每年托管数据集和为 100 多个依赖于我们工作的语言社区改进平台需要花费将近一百万美元。
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>如果您珍视开放、包容的数据体验，那么今天就捐款吧！</bold>
 
 ## Download Modal
 
@@ -1620,6 +1631,7 @@ public-domain = 公有领域
 citing-sentences = 引用语句
 adding-sentences = 添加语句
 reviewing-sentences = 审核语句
+sentence-domain = 语句域
 public-domain-explanation-1 = 请注意，由于 Common Voice 数据集采用 CC0 许可协议发布，因此其所有语句文本都需来自公有领域（按 CC0 许可协议授权）。请在确定语句符合要求后再上传，上传时需要注明出处。
 public-domain-explanation-2 = 用于构建语音识别引擎的最佳语句类型是口语化的现代用语。以下是一些生成语句的方法：
 public-domain-explanation-3 = 自行撰写现代的口语化语句，或与朋友及语言社区一道，通过“造句马拉松”活动等形式去撰写句子。
@@ -1658,6 +1670,7 @@ reviewing-sentences-explanation-1 = 若句子符合上述要求，请点击“�
 reviewing-sentences-explanation-2 = 若句子不符合要求，请点击“否”按钮。
 reviewing-sentences-explanation-3 = 若您没有把握判断，可以跳过当前语句，继续审核下一条语句。
 reviewing-sentences-explanation-4 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
+domain-explanation = 领域是指句子的专业主题。目前您可以选择：
 
 ## WRITE PAGE
 
@@ -1695,6 +1708,28 @@ sentence-domain-select =
     .label = 语句域
 # Sentence Domain dropdown option
 agriculture = 农业
+# Sentence Domain dropdown option
+automotive = 汽车
+# Sentence Domain dropdown option
+finance = 金融
+# Sentence Domain dropdown option
+food_service_retail = 餐饮、服务和零售
+# Sentence Domain dropdown option
+general = 常规
+# Sentence Domain dropdown option
+healthcare = 医疗
+# Sentence Domain dropdown option
+history_law_government = 历史、法律与政府
+# Sentence Domain dropdown option
+language_fundamentals = 语言基础例如数字、字母、货币
+# Sentence Domain dropdown option
+media_entertainment = 媒体和娱乐
+# Sentence Domain dropdown option
+nature_environment = 自然与环境
+# Sentence Domain dropdown option
+news_current_affairs = 新闻和时事
+# Sentence Domain dropdown option
+technology_robotics = 技术与机器人
 
 ## REVIEW PAGE
 
