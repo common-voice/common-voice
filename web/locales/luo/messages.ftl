@@ -1036,19 +1036,34 @@ sc-submit-button =
 
 sc-add-lang-could-not-add = Ok anyal medo dhok
 sc-add-lang-sec-button = Med Dhok
+sc-add-err-unexpected = Duoko mopogore kowuok kuom sava
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Yie gi weche manyien
+sc-confirm-button-text = Yie go
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Duto
+sc-lang-info-title-personal = Maga
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Onge kwand weche.
+        [one] Kwan 1 mag weche.
+       *[other] Kwan { $totalSentences } mag weche.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Donjo otamore.
 sc-login-err-try-again = Tem kendo
 
 ## PROFILE
 
+sc-personal-err-lang-not-found = Ok anyal golo dhok: dhok ok oyudi
 sc-personal-err-remove = Ok anyal golo dhok
 sc-personal-your-languages = Dhowa:
 sc-personal-remove-button = Gol
@@ -1108,13 +1123,16 @@ partnerships-our-partners = Jowa mawariworego
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Erokamano kuom chiwo duondi!
 first-cta-subtitle-text = Bende diher chiwo wach kaluowore kaka iwacho dhok?
-why-donate = Ango miyo ipenjo?
+why-donate = Ango momiyo ipenjo?
 add-information-button = Med wach
 continue-speaking-button = Ok kamano , med wuoyo
 thanks-for-voice-toast = Erokamano kuom chiwo wach duondi
+already-have-an-account = In kod akaont? <login>Dinji</login>
 create-profile-button = Ket pichani
 voice-collection = Choko dwol / Choko duonde
 sentence-collection = choko weche
+background-noise = Koko mawuok chien
+example = Ranyisi
 background-voices-explanation = Koko matin kawinjore e duol momaki ok rach, to kaponi inyalo winjo ng'at moro kawuonyo gietoke, duol momaki no onengo kwedi. Mae timorega ka ngato oweyo TV nono, kata kaponi jomoko wuoyo machiengni.
 still-have-questions = Pod in kod penjo?
 contact-common-voice = Tudri kod jo Common Voice kuom penjo moroamora
@@ -1122,12 +1140,23 @@ public-domain = Aluora ma galamoro
 citing-sentences = Wacho  weche mosendiki
 adding-sentences = medo weche manyien
 reviewing-sentences = Nono weche mosendiki
+adding-sentences-subheader-length = Bor
+adding-sentences-subheader-speakable = Manyalo wachore
+adding-sentences-subheader-numbers = Kwan
+adding-sentences-subheader-abbreviations = Ranyisi mag ndiko weche
+adding-sentences-subheader-punctuation = Ranyisi mag wach
+adding-sentences-subheader-special-characters = Ndiko mopondo kendo mawendo
+adding-sentences-subheader-offensive-content = Weche maok kare
 
 ## WRITE PAGE
 
 write-instruction = Medi <icon></icon> wach mayudore e aluora ma galamoro
+sentence =
+    .label = Wach
 sentence-input-value = Ndik kae wachno moae e aluora ma galamoro
+citation-input-value = Kuma weche owuoke
 sc-write-submit-confirm = Ayieni wachni yudore e <wikipediaLink>aluora ma galamoro</wikipediaLink> kendo oyiena chiwe ka.
+sc-review-write-title = Weche mage matong amedi?
 
 ## REVIEW PAGE
 
