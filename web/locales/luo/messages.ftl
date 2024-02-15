@@ -611,17 +611,36 @@ language = Dhok
 # File size in gigabytes
 size = Duong'
 validated-hr-total = Kwan seche duto mosenon
+dataset-splits = Pogo (Iga kod Chal - dichuo kata dhako)
+number-of-voices = Kwan duonde
 splits = Pogruok
 email-to-download = Keti barup mbui ekinyal golo
 size-gigabyte = GB
+validated-hours = Seche mosepuodhi
+recorded-hours = Seche mosemaki
+subscribe = Ndikri
+other-datasets = Deche mamoko mag duol
 feedback-q = Ingi duoko?
 go-discourse = Dhiye thuon wach
+go-languages-page = Dhi e otas motingo dhok
+ready-to-validate = Iseikori konyo puodho weche?
 more = Mangeny moloyo
+close = Machiegni
+download = Gol
+dataset-version = Loko mopogore
+no-information-available = Onge weche ma nitie
+dataset-metadata-sex = Chal - dhako kata dichuo
 # dataset metadata - age of contributor
 dataset-metadata-age = Iga
+donate-modal-message = Golo deche dhi mbele!
+dataset-donate-modal-heading = Bende ingeyo...
 
 ## Download Modal
 
+download-form-email =
+    .label = Ket barupi mar mbui
+    .value = Erokamano, wabiro tudore
+download-no = Ooyo! Erokamano
 
 ## Contact Modal
 
@@ -710,10 +729,18 @@ review-instruction = Ngi kendo dual misemako kaeto ichaki mak duol kendo kaponi 
 record-submit-tooltip = { $actionType } Chiu kiseikori
 clips-uploaded = Duonde momaki mosekan
 record-abort-submit = Or duonde momaki
+record-abort-continue = Tiek mako duol
 record-abort-delete = Wuogi kaeto iruch duonde mosemaki
+listen-instruction = { $actionType }<playIcon></playIcon> be negiwacho wechego makare?
+listen-again-instruction = Tich maber! <playIcon></playIcon> chik iti kendo kiseikori.
+listen-3rd-time-instruction = Isetieko 2, med tiyo matek!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Mogik!
 listen-empty-state = Nenore ni watieko duonde momaki - temane yao kalatas kendo kata ang item bange.
 listen-loading-error = Nok wanyal yudoni duonde momaki minyalo chike iti. Wakwayo ni item kendo bange.
 listen-abort-title = Isetieko puotho duonde momaki?
+listen-abort-cancel = Dhi nyime kod puotho
+listen-abort-confirm = Tiek puodho weche
+speak-empty-state = Wasetieko weche e dhokni minyalo maki...
 target-segment-add-voice = med duondi
 target-segment-learn-more = Med puonjori
 
