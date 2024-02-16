@@ -289,6 +289,7 @@ wall-of-text-first = Lwaka ni kimae, lwaka ni kidamu. Niyo shekeria erirwa ni ku
 
 ## ProfileForm
 
+edit-profile = Ghalua  Sura
 
 ## Profile - Email
 
