@@ -446,6 +446,7 @@ faq-do-want-native-q = mai chito nengololi kuti nebo iman ak mi olanhololdoi,tos
 faq-why-different-speakers-q = kaine asimache biik chengololsot chechang eng kuti agenge?
 faq-why-my-lang-q = kaine asigo tomo keteshi kutinyu?
 faq-how-calc-hours-q = iiti kole nee sautit nenaat saishek ?
+faq-where-src-from-2-q = Bonu ano ngalek
 faq-why-account-q = kaine asiasirgee asiaboishe akountit?
 faq-is-account-public-q = tos ngalekab akount nenyun ko togu eng chii tugul?
 faq-what-is-cv = nee sautit ne naat?
@@ -461,8 +462,11 @@ how-does-it-work-title-v2 = yoee boishet kole ne sautit nenaat
 ## How does it work section
 
 about-language-req-subtitle = kateep chi koteshyi kuti
+about-localization-title = Website nebo bororyet
+about-localization-subtitle = Kakitranslaten website notol eng kutit notok
 about-sentence-collection-title = keyumii ngalalutik
 about-new-lang-title = keyate kuti age ne mbya
+about-new-lang-subtitle = Kakilunchen Common Voice Site eng' kutit notok
 about-voice-contrib-title = yumsetsb sautishek
 about-speak = ngalal
 about-listen-queue = kastee-igany
@@ -479,6 +483,7 @@ about-nav-why-common-voice = kaine?
 about-nav-how-it-works = amune?
 about-nav-partners = biik cheyoe boishet tuguk
 about-nav-get-involved = imache kobaaten
+about-nav-how-it-works-2 = tos yooe boishet sauti nenaat ?
 about-nav-playbook = slmanchin ole tos iyai boishet
 
 ## Community Playbook Content
@@ -548,16 +553,26 @@ datasets-heading = dataseti
 language = kutit
 # File size in gigabytes
 size = Ootindo
+dataset-splits = chegigipchei(kenyishek ak mure anan ko chepto)
 number-of-voices = nambetab sauti
 splits = chegigipchei
 email-to-download = indene emailit asigodownloaden
 size-gigabyte = GB
 size-megabyte = MB
+download-language = downloaden { $language }
+validated-hours = saishek chebo iman
+recorded-hours = saishek chegigirecoden
+whats-inside = ne nemi Sauti nenaat?
+subscribe = subscriben
+get-started-speech = tau iboishe oleginoin kingololi
+other-datasets = sauti alak
+feedback-q = tos itinye ngolyo neiwektoi?
 go-languages-page = wiiy olemi pagit nebo kuti chesere
 ready-to-validate = achopot atoretin iigeer nda saii ngalalutik
 more = alak
 close = keer
 download = downloaden
+dataset-metadata-sex = muren anan ko cheptoo
 # dataset metadata - age of contributor
 dataset-metadata-age = kenyishek
 dataset-donate-modal-heading = tos ingen?
@@ -573,11 +588,16 @@ download-no = achaa,kongoi
 
 ## Contact Modal
 
+contact-title = formit netinye nambeshek chemuuch kebir simet
 contact-form-name =
     .label = kainet
+contact-form-message =
+    .label = ngolyo
+contact-required = magaat
 
 ## Request Language Modal
 
+request-language-title = tebeetab kuti?
 request-language-form-language =
     .label = kutit
 select-language = chakuan kutit
@@ -586,9 +606,16 @@ other-language = kutit age
 ## Request Language Pages
 
 request-language-heading = teep kutit ne mpya?
+request-language-form-email =
+    .label = email address nengung
+request-language-form-info =
+    .label = mwaae agoba kuti
+request-language-form-info-explanation = tesyin ngalek agoba kuti noto.chuto komuuch kouchu:
+request-language-form-info-explanation-list-1 = kainaikab kuti
 
 ## Languages Overview
 
+language-section-in-progress = tesetai
 languages-show-more = keer chechang
 languages-show-less = keer cheng'ering
 language-meter-in-progress = tesetaindo
@@ -596,16 +623,46 @@ language-total-progress = kagiyum
 language-search-input =
     .placeholder = cheng
 language-speakers = biik chengololi
+localized = kipkaa
 sentences = ngalalutik
 language-validation-hours = saishek
 
 ## Contribution
 
+action-click = kweey
+action-tap = tiny
 contribute = iyum
 listen = gaas
 write = siir
 skip = sogorte
+shortcuts = oret nenwach
+clips-with-count-pluralized =
+    { $count ->
+        [one] 	<bold>{ $count }</bold>klipit
+       *[other] <bold>{ $count }</bold>klipishek
+    }
+goal-help-recording = kwetoret sauti nenaat koit <goalPercentage></goalPercentage>chebo kila betut { $goalValue } kerekoden borset!
+goal-help-validation = kwetoret sautit nenaat koit borsetab betut
+contribute-more =
+    { $count ->
+        [one] ichopot iyai
+       *[other] alak
+    }
+record-cta = tau irekoden
+record-platform-not-supported = mutyo mising,manamat platformingung
+record-platform-not-supported-desktop = iyumsei ngidownloaden eng kompyutait
+record-platform-not-supported-ios-non-safari = imite iboishe iOS gaigai testai ago safari asirekoden
+record-must-allow-microphone = agoi iyani mikrofonit asigeyotun
+record-no-mic-found = mamiten mikrofonit negaginyor
+record-error-too-short = kanwaach mising rekoding
+record-error-too-long = kakooi mising recordingnoto
+record-error-too-quiet = ka kisiis ochei recording
+record-cancel = bisten irecordeni kogeny
+record-instruction = { $actionType }<recordIcon></recordIcon> ak isoman sentensinoto negasat
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ngoketar
 record-three-more-instruction = somok cheganget
+record-abort-submit = kagigoitoo clipinik
+record-abort-continue = kagetar kerecordeni
 speak-empty-state-cta = iyum ngalalutik
 target-segment-add-voice = teshi sautingung
 target-segment-learn-more = soman alak
