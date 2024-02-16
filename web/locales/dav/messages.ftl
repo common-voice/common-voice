@@ -291,6 +291,23 @@ read-terms-q = Kwashomie Masikirano?
 ready-to-record = Kwakudegha kuzoye kurekodi lwaka lwako?
 all-locales = Rose
 today = Linu
+x-weeks-short =
+    { $count ->
+        [one] Juma
+       *[other] Juma{ $count }
+    }
+x-months-short =
+    { $count ->
+        [one] mori { $count }
+       *[other] meri { $count }
+    }
+x-years-short =
+    { $count ->
+        [one] mwaka{ $count }
+       *[other] miaka{ $count }
+    }
+help-make-dataset = Ditesie kuagha mafungu gha data ghiko mwari sena gha mana.
+sign-up-account = Fungua Akaunti
 
 ## Account Benefits
 
