@@ -201,12 +201,47 @@ ti = Kitirginya
 tig = Kitigre
 tk = Kiturukimeni
 tl = Kitagalog
+tn = Kitswana
+tok = Kitoki Pona
+tr = Kituruki
+ts = Kitsonga
+tt = Kitatari
+tw = Kitwii
+ty = Kitahiti
+tyv = Kituvani
+uby = Kiubiki
+udm = Kiudumurti
+ug = Kiuguru
+uk = Kiukrania
+ur = Kiurdu
+uz = Kiuzbeki
+ve = Kivenda
+vec = Kiveneti
+vi = Kivietinamu
+vmw = Kiemakuwa
+vot = Kivotiki
+wep = Kiwestifalia
+wo = Kiwolofu
+xh = Kikosa
+yi = Kiyidi
+yo = Kiyoruba
+yue = Kikantoni
+zgh = Kitamaziti
+zh-CN = Kichina (China)
+zh-HK = Kichina (Hong Kong)
+zh-TW = Kichina (Taiwani)
+zu = Kizulu
+zza = KIzaza
 
 # [/]
 
 
 ## Layout
 
+speak = Deda
+speak-now = Deda idakoni
+datasets = Mafungu gha data
+languages = Viteto
 
 ## Home Page
 
