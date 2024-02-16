@@ -268,6 +268,14 @@ wall-of-text-start = Lwaka ni kimae, lwaka ni kidamu. Niyo shekeria erirwa ni ku
 wall-of-text-more-mobile = Data iri ritumilwagha ni kampuni mbaha ndeiko mwari kutumilwa ni w'andu w'engi. Daghesha iji ilagho jaghiria kudunga malaghio maw'ishi. Kwa huw'o dazoye mradi ghwa Common Voice, na ughu mpango ni ghow'ika mwari kwa w'andu w'ose wutaalamu ghwa machini kutambukilwa ni madedo gha w'adamu .
 wall-of-text-more-desktop = Idanaa kwadima kufunya lwaka lwako kutesie kuagha data ya chwaka andu-mwari kwa w'ose w'ikunde kutumia kuboisa apu ra viria vose na mtandao. Shoma kibelele cha sentensi eri kutesie mashini rielelo seji w'adamu w'idedagha. Zoza kazi ra w'andu w'azima w'ichangie chwaka raw'o eri dichurie kufwana kwaro . Ijo ndejikurie!
 wall-of-text-first = Lwaka ni kimae, lwaka ni kidamu. Niyo shekeria erirwa ni kuboisa teknoloji ya chwaka idimagha kutumika kwa w'uraisi. Ela kudunga viria va chwaka, data ra chwaka ndazi kuchumba rekundika.
+wall-of-text-second = Data iri ritumilwagha ni kampuni mbaha nderiko mwari kutumilwa ni w'andu w'engi. Daghesha iji ilagho jaghiria kudunga malaghio maw'ishi. Kwa huw'o dazoye mradi ghwa Common Voice, na ughu mpango ni ghow'ika w'orinyi w'utaalamu ghwa kompiuta kutambukilwa ni madedo, na w'andu w'ose w'idime kutumia ughu w'utaalamu kuseko na vighirio vingi.
+show-wall-of-text = Endelia Kushoma
+help-us-title = Ditesienyi kuzighana ngera sentensi reko karakara.
+help-us-explain = Fwada aha icheze, sikiria nao kudighorie: iho sentensi iko aho nakosi le, w'aidedie nicha?
+no-clips-to-validate = Yabonyeria vibelele vesikiria vasia kwa ichi kiteto. Ditesie kuchuria madedo ghamu kwa kurekodi idakoni.
+vote-yes = Hee.
+vote-no = Hata
+toggle-play-tooltip = Fwada { shortcut-play-toggle } kughalusa kucheza.
 
 ## Account Benefits
 
