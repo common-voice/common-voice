@@ -802,6 +802,7 @@ no-information-available = Nem áll rendelkezésre információ
 dataset-metadata-sex = Nem
 # dataset metadata - age of contributor
 dataset-metadata-age = Életkor
+donate-modal-message = Az adatkészlet letöltése folyamatban van!
 dataset-donate-modal-heading = Tudta-e…
 donate-modal-explanation-1 = Évi majdnem egymillió dollárba kerül az adatkészletek tárolása és a platform fejlesztése a ránk támaszkodó több mint 100+ nyelvi közösség számára?
 # Text in <bold></bold> will shown in bold
