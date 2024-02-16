@@ -264,6 +264,8 @@ donate = Kumba Igome
 home-title = Common Voice ni mpango ghwa Mozilla ghotesia kufundisha mashini seji w'andu w'a kilolia w'idedagha.
 default-tagline = Mozilla Common Voice ni mpango ghotesia kufundisha mashini seji w'andu w'a kilolia w'idedagha.
 home-cta = Deda nandighi, kumba lwaka lwako aha!
+wall-of-text-start = Lwaka ni kimae, lwaka ni kidamu. Niyo shekeria erirwa ni kudunga lwaka ludimagha kutumika kwa teknoloji ya mashini redu.Ela kudunga viria va chwaka, data ra chwaka ndazi kuchumba rekundika.
+wall-of-text-more-mobile = Data iri ritumilwagha ni kampuni mbaha ndeiko mwari kutumilwa ni w'andu w'engi. Daghesha iji ilagho jaghiria kudunga malaghio maw'ishi. Kwa huw'o dazoye mradi ghwa Common Voice, na ughu mpango ni ghow'ika mwari kwa w'andu w'ose wutaalamu ghwa machini kutambukilwa ni madedo gha w'adamu .
 
 ## Account Benefits
 
