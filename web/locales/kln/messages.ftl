@@ -10,12 +10,14 @@ submit-form-action = yokten
 loading = tesetai....
 email-opt-in-info = amechei anyoru emailishiek , cheibwotwo tesestai chebo common voice
 email-opt-in-info-title = chut common si inyou emailishiek
+indicates-required = olegigimarken ago(*)kemache
 not-available-abbreviation = mamitei
 banner-error-slow-1 = mutyo, Common Voice koyaei mutyo. Koigoi akobo korunet ngu iyai kasit.
 banner-error-slow-2 = Kinyorun kasisheek chechang; ako ng'no kuchunguzani ngalen.
 banner-error-slow-link = Pagit neiboru boishet
 error-something-went-wrong = mutyo, kapit lelutiet.
 error-clip-upload = ngut kumoimukosei iyokte clippit nii, icharuben kora?
+error-clip-upload-server = masirtoi ngeupladen klipinito.Reloaden pagitbagityem kogeny koi.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -465,17 +467,25 @@ about-language-req-subtitle = kateep chi koteshyi kuti
 about-localization-title = Website nebo bororyet
 about-localization-subtitle = Kakitranslaten website notol eng kutit notok
 about-sentence-collection-title = keyumii ngalalutik
+about-sentence-collection-subtitle = kigiyum ngalalutik asigosoman biik eng sauti
 about-new-lang-title = keyate kuti age ne mbya
 about-new-lang-subtitle = Kakilunchen Common Voice Site eng' kutit notok
 about-voice-contrib-title = yumsetsb sautishek
 about-voice-contrib-subtitle = Bwone bikok ako koito suatit ng'wai
+about-voice-validation-title = kogagiyan kole kararan sautit
+about-voice-validation-subtitle = gasee biik alak ndo kararan klipishejab sauti
+about-dataset-release-title = kaginemu dataset
+about-dataset-release-subtitle = kinemu sataset eng arawek somok
+about-subscribe-text = tos imache ingololi ak sauti nenayat
 about-speak = ngalal
 about-listen-queue = kastee-igany
+about-listen-queue-text = kindenoi klipishekab sauti ak kegoito eng lainda asigochopok ichek kogasta
 about-listen = kastee
 about-is-it-valid = tos kararan clipinito?
 about-is-it-valid-text = kigimarken sautitab clipit kogisikchi ngogabaishe chito agoiyan anan koesho
 about-yes-votes = ≥2 kuraishek chebo iman
 about-no-votes = ≥2 mami kuraishek
+about-dataset-new = dataset nebo sautit nenaat
 about-clip-graveyard = klipit nebo graveyardit
 about-get-involved = imache kobaaten
 about-stay-in-touch = much kengalal kolenee?
@@ -499,6 +509,7 @@ about-playbook-how-add-language-collecting-sentences-heading = mi koyumi ngalalu
 
 ## How does localization work
 
+about-playbook-how-localize = yoe boishet kole ne sititab gaa?
 about-playbook-how-localize-content-5 = geer videoit neelezani asigotoretin
 
 ## How to add sentences
@@ -523,6 +534,7 @@ about-playbook-how-record-quality = tos arecorden kole ne sauti nebo barak eng k
 
 ## Glossary
 
+sentence-collection = keyumii ngalalutik
 
 ## Error pages
 
@@ -536,10 +548,13 @@ data-other-goto = wiiy { $kainet }
 data-other-download = downloaden ngalek
 data-bundle-button = downloaden ngalek chegigiruruch
 dataset-date = tarikit
+license = licensit:licenseLink>{ $license }</licenseLink>
 license-mixed = kigiburuch
 data-download-singleword-title = downloaden ngolyot agenge negibore eng segmentit
+review-terms = ngiboishen sautit nenayat,ko iyoni <termsLink>Terms</termsLink> ako<privacyLink>Privacy Notice</privacyLink>
 terms-agree = ayani
 terms-disagree = mayani
+review-aborted = matigotestai uploading.Tos timache ioste recordings cheguuk?
 review-submit-title = geer agisanyan
 review-submit-msg = kongoi amu kerecoeden!<lineBreak></lineBreak>nguno muuch igeer ago isanyen klipishek chu mi ngweny
 review-recording = geer kogeny
@@ -552,14 +567,21 @@ review-delete-recordings = istee recordings chechuuk
 
 datasets-heading = dataseti
 language = kutit
+download-dataset-header = downloaden dataset
 # File size in gigabytes
 size = Ootindo
+validated-hr-total = chegigemwaa Hr.chegigetesyi
+overall-hr-total = tugul Hr.kogagetes
+cv-license = licensit
+audio-format = editen audio
 dataset-splits = chegigipchei(kenyishek ak mure anan ko chepto)
 number-of-voices = nambetab sauti
 splits = chegigipchei
 email-to-download = indene emailit asigodownloaden
+confirm-size = ichopot itau idownloaden <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-join-mailing-list = tos imache isirgei eng listitab sautit nenaat
 download-language = downloaden { $language }
 validated-hours = saishek chebo iman
 recorded-hours = saishek chegigirecoden
@@ -568,19 +590,31 @@ subscribe = subscriben
 get-started-speech = tau iboishe oleginoin kingololi
 other-datasets = sauti alak
 feedback-q = tos itinye ngolyo neiwektoi?
+data-other-ted-name = TED-LIUM corpus
+go-discourse = wiiy discourse
+missing-language = megeree kutingung kogagiboor eng dataset?ngimache itep agoba kuti nemoche iwe eng pagitab kuti
 go-languages-page = wiiy olemi pagit nebo kuti chesere
 ready-to-validate = achopot atoretin iigeer nda saii ngalalutik
 more = alak
 close = keer
 download = downloaden
+dataset-version = versionit
+sha256-checksum-copied = kagecopen SHA256 Checksum!
+sha256-checksum-copied-error = masiir kocopen SHA256 checksum
+clipboard-not-supported = magiriich klipboardit
+no-information-available = mamiten ngalek chegaginyor
 dataset-metadata-sex = muren anan ko cheptoo
 # dataset metadata - age of contributor
 dataset-metadata-age = kenyishek
+donate-modal-message = miten kodownloadeni dataset nengung!
 dataset-donate-modal-heading = tos ingen?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>ndayatasgei nambet,negigitesyi data -igoite raa!</bold>
 
 ## Download Modal
 
 download-title = kagotoy download nengung
+download-helpus = toretech itech gaa kobune sauti,ngengalal eng email
 download-form-email =
     .label = indene emailingung
     .value = kongoi,asigengalal
@@ -601,22 +635,43 @@ contact-required = magaat
 request-language-title = tebeetab kuti?
 request-language-form-language =
     .label = kutit
+request-language-success-title = kagegoitoo tebut tab kuti,kongoi.
+request-language-success-content = asigengalal agoba ngalek chebo kitesyimi kole ne kuti eng sauti nenaat komaloit
 select-language = chakuan kutit
 other-language = kutit age
 
 ## Request Language Pages
 
 request-language-heading = teep kutit ne mpya?
+request-language-explanation-2 =
+    kiyae kogeny <strong> konay kandoindetab gaa 
+    ngimache isirgei </strong>, asigogonin toretet anan ko ngalek chetos imach
 request-language-form-email =
     .label = email address nengung
 request-language-form-info =
     .label = mwaae agoba kuti
 request-language-form-info-explanation = tesyin ngalek agoba kuti noto.chuto komuuch kouchu:
 request-language-form-info-explanation-list-1 = kainaikab kuti
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeLink> nda nayotin
+request-language-form-info-explanation-list-3 = miten yu links chemuuch iboishe asigotoretin iguiye agoba kuti
+request-language-google-recaptcha-required = reCAPTCHA kimache asitestai
+request-language-google-recaptcha-error = masikchi kiiy eng reCAPTCHA.tyem kogeny
+# Success page
+request-language-success-heading = kongoi!keyokte tebut agoba kuti age
+request-language-success-list-1 = inyoru emailit komaloit nemwauun olitesyini kutingung kowa sauti nenaat
+request-language-success-list-2 = ngalalun chito neindochini gaa asigogonin toretet ak komwaun ndamiten gaa neyoe kutit negung
+request-language-success-list-3 =
+    komeges agoba achek eng betushek chebwane,ingololwech kobun<emailLink>{ $email }</emailLink>
+    ak kiwalun!
+request-language-error = muuch komaginyoru tebut noto.Gaigai,sirwech email eng <emailLink>{ $email }</emailLink> ak kiwaluun!
 
 ## Languages Overview
 
 language-section-in-progress = tesetai
+language-section-in-progress-new-description = kuti churachu komiten koteeche gaa<localizationGlossaryLink>Website localization</localizationGlossaryLink> ak<sentenceCollectionGlossaryLink>yumsetab ngalalutik</sentenceCollectionGlossaryLink> agomeche kotoi
+language-section-launched = kogitoy/kogiyaat
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = kigiupdateni nebo leet { $lastUpdatedTimeStamp }
 languages-show-more = keer chechang
 languages-show-less = keer cheng'ering
 language-meter-in-progress = tesetaindo
@@ -635,6 +690,7 @@ action-tap = tiny
 contribute = iyum
 listen = gaas
 write = siir
+review = geer kogeny
 skip = sogorte
 shortcuts = oret nenwach
 clips-with-count-pluralized =
@@ -662,25 +718,50 @@ record-cancel = bisten irecordeni kogeny
 record-instruction = { $actionType }<recordIcon></recordIcon> ak isoman sentensinoto negasat
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ngoketar
 record-three-more-instruction = somok cheganget
+record-last-instruction = <recordIcon></recordIcon>nebo let!
+review-tooltip = tigeer kogeny ak irecoden kogeny klipishek yu yo iwendi
+share-clip = igoitee klipingung
+share-common-voice = igoite sauti nenaat
+review-instruction = keer ak irecoden kogeny klipishek ngimoche
+record-submit-tooltip = { $actionType } igiite yo ichopot
+clips-uploaded = klipishek chegageuploaden
+record-abort-title = taar irecordeni korok?
+record-abort-text = ngimande kobaruu kole menyoruu teseptai nengung
 record-abort-submit = kagigoitoo clipinik
 record-abort-continue = kagetar kerecordeni
+record-abort-delete = mangun ak iistee klipishek
+listen-instruction = { $actionType }<playIcon></playIcon> tos kingalal komnyei ngalalutik choto?
+listen-again-instruction = boishet negararan!<playIcon></playIcon>gastee kogeny yo ichopot
+listen-3rd-time-instruction = 2 ngweny ,testai ak iwe barak<playIcon></playIcon>
 speak-empty-state-cta = iyum ngalalutik
 target-segment-add-voice = teshi sautingung
 target-segment-learn-more = soman alak
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = kayumsetab sauti
 contribute-sentence-collection-nav-header = iyumnatetab ngalalutik
 
 ## Reporting
 
 report = istagan
+report-title = igoite repotit
+report-ask = tos kwebun ne eng sentensinotok?
 report-offensive-language = kutit nemagararan
+report-offensive-language-detail = tinyei sentensinotok kuti nemobo konyit
+report-grammar-or-spelling = masikchi grammer anan ko spelling
+report-grammar-or-spelling-detail = tinyei sentensinitok grammer anan ko spelling chemasikchi
 report-different-language = kutii age
+report-different-language-detail = kigisiir eng kuti nemangololi
+report-difficult-pronounce = wiiy kemwaa
+report-difficult-pronounce-detail = tinyei ngalek chewiien asigesoman anan kemwaa
+report-offensive-speech = mabo konyiit ngalalenyi
+report-offensive-speech-detail = tinyei klipit kuti nemabo konyit
 report-other-comment =
     .placeholder = mwaa giiy
 success = keboor
 continue = testai
+report-success = kogigoito repotit komnyei
 
 ## Goals
 
@@ -689,17 +770,45 @@ days =
         [one] betut
        *[other] betushek
     }
+recordings =
+    { $count ->
+        [one] recording agenge
+       *[other] recordings chechang
+    }
+validations =
+    { $count ->
+        [one] kiit neibaru kole mi komnyei
+       *[other] tuguk cheibaru kole miten komnyei
+    }
 
 ## Dashboard
 
+your-languages = kutingung
+toward-next-goal = eng borset age
 goal-reached = borset negogenyor
+clips-you-recorded = klipishek chegigerekoden
+clips-you-validated = klipishek chebo iman
+todays-recorded-progress = tesetoindo nebo raa eng klipishek chegigirekoden
+todays-validated-progress = tesetoindo nebo raa eng klipishek chebo iman
+stats = stats
+awards = boiboyet
 you = inyee
 everyone = chii tugul
 contribution-activity = olegogiyaita boishet
+top-contributors = biik cheyumse chebo barak
+recorded-clips = klipishek chegigerekoden
+validated-clips = klipishek chebo iman
+total-approved = tugul chegigepitishan
+overall-accuracy = tugul chebo iman
 set-visibility = indene takunenyun'y
+visibility-overlay-note = Naay:ngendene kole 'tagu',komuch kewaal kongete<profileLink>pagitab Profilit</profileLink>
+show-ranking = iborte nambenyu
 
 ## Custom Goals
 
+get-started-goals = tau eng borsenyun
+create-custom-goal = tau borset
+goal-type = borset neune nemoche itech?
 both-speak-and-listen = tuwai
 both-speak-and-listen-long = tuwai(ngalal ak igaste)
 daily-goal = borsetab betut
@@ -707,12 +816,29 @@ weekly-goal = borsetab weekit
 easy-difficulty = rahisii
 average-difficulty = miten kwen
 difficult-difficulty = wiiy
+pro-difficulty = pro
+lose-goal-progress-warning = kiiste anan itesyinborsengubg,komuuch ibeet tesetoindo nengung
+want-to-continue = ros imache itestai?
+finish-editing = taar iediteni korok?
+lose-changes-warning = ngimandee nguno koleen muuch ibeet kiiy tugul negewal
+build-custom-goal = teech borsengung
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] toreto  { $hours } sait eng  ako { $language }borsetab chi
+       *[other] toreto ait { $hours } saishek { $language } ako borsetab chi
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] toret sauti nenayat koit  { $hours }sait eng kuti ak borsetab chi
+       *[other] toret sauti nenayat koit  { $hours }sait eng kuti ak borsetab chi
+    }
 set-a-goal = indene borsengung
 cant-decide = maamuani
 goal-interval-weekly = wiikit
 share-goal-type-speak = miten kongalali
 share-goal-type-listen = miten kogasee
 share-goal-type-both = ngololi ako gostoi
+weekly-goal-created = kagetoi borsengung nebo weekit
 share-goal = pcheiten borsenyu
 
 ## Profile Delete
@@ -755,6 +881,7 @@ contribution-misreadings-example-5-title = kibendi sang bigeee chaik
 contribution-misreadings-example-6-title = kibendi sang bigeee chaik
 contribution-varying-pronunciations-example-2-title = kimii eut  nyiny barak
 contribution-varying-pronunciations-example-2-explanation = kimwaa
+contribution-just-unsure-title = tos mangen?
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -816,6 +943,12 @@ sc-add-lang-sec-button = tesyi kutii
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = kagonyorunen { $sentenceSource }
+sc-review-form-button-reject = esheen
+sc-review-form-button-skip = sogorte
+sc-review-form-button-approve = ipitishan
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
@@ -838,18 +971,87 @@ first-cta-subtitle-text = tos imache imwaa olengololdoi?
 why-donate = kaine asitep?
 add-information-button = tesyii ngalek
 continue-speaking-button = oloo,kongoi,testai ingalali
+create-profile-text = tos imache igonor ngaleguuk?<createProfile>tau profilingun</createProfile>
 thanks-for-voice-toast = kongoi eng ngalalutikab sautingung
+thanks-for-voice-toast-error = masikchi yo kegoiti ngalek agoba sauti ngung
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = kongoi amu ketes sautingung!
+second-cta-subtitle-text = kitinye profilingung,koimuchii igeer olitesetai ak ituiye ak biikap gaa cheiyumi sauti ngwai
+already-have-an-account = tos itinye akount?<login>Logen-In</login>
+create-profile-button = tau profilit
+# IMAGE TAGS
+img-alt-success-checkmark = ibaru oleiboorse
+# GUIDELINES PAGE
+guidelines-header = tuguk chetoretin eng yumset
+guidelines-header-subtitle = iguiyee oleyumi ak isaisan sentensishek ak klipishek chebo kutit eng sautitab kuti
+voice-collection = yumsetab sauti
+sentence-collection = keyumii ngalalutik
+varying-pronunciations = magergei olengololdoi
+misreadings = magisoman komnyei
+offensive-content = tinyei ngalek chemobo konyit
+background-noise = sauti nemangu eng yoimiten
+background-voices = sauti nemiten olemi chito
+volume = olegasuu kiy
+reader-effects = olesomandoi chito
+just-unsure = mangen?
 example = ku ni
+varying-pronunciations-example = kimatagu routit
+varying-pronunciations-tip-1 = kingeresekab emetab canada komuuch kogos "route" ku "rout"
+varying-pronunciations-tip-2 = kingeresejab emetab Britain kogosuu ku "root"
+misreadings-explanation-2 = miten tuguk chemasikchi ku:
+misreadings-explanation-3 = ngomamiten 'A' anan 'The' eng tai yoirecodeni
+misreadings-explanation-4 = yo momiten 's eng leet nebo ngolyo
+misreadings-explanation-7 = ityem mising yo isomani ngolyo
 misreadings-example-1 = kibendi sang asibigee chaik
 misreadings-example-2 = kibendi sang asibigee chai
 misreadings-example-3 = kibendi sang asigebe bigee chaik
+misreadings-example-4 = kirwai bumblebee
+misreadings-tip-1 = magaat koek "kimite"
+misreadings-tip-2 = mamiten'a'eng textit negibo tai
+misreadings-tip-3 = [magipangan komnyei ngalek choto]
+background-noise-tip-1 = [mataimin sauti nemiten yoto imite]
 background-voices-tip-1 = tos imi inyoni?(mi kobirchini age)
 still-have-questions = tos itinye tebushek?
+contact-common-voice = ngimache ingalal ago biikap sauti nenaat
+public-domain = sentensi chetagu eng biik tugul
+adding-sentences = tesyin ngalalutik
+reviewing-sentences = geer sentensishek
+sentence-domain = unee sentensi
+citing-sentences-subheader-offline-sources = ngalek chegiginyoru chemamiten internet
+citation =
+    .label = citation
+adding-sentences-subheader-length = koindo
+adding-sentences-subheader-length-explanation = magaat kotinye ngalek taman ak muut sentensi noto
+adding-sentences-subheader-spelling-punctuation = spelling ako punctuation eng ngalek
+adding-sentences-subheader-spelling-punctuation-explanation = magaat kogigispellen ngalek komnyei
 adding-sentences-subheader-speakable = muuch kengalale
 adding-sentences-subheader-numbers = nambok
+adding-sentences-subheader-abbreviations = abbreviationishek ak acronymishek
+adding-sentences-subheader-punctuation = punctuation eng ngalek
+adding-sentences-subheader-offensive-content = tinyei ngalek chemobo konyit
 
 ## WRITE PAGE
 
+write-page-subtitle = yumsetab sentensishek ketesyini eng oletaguu cc- 0 dataset negigelicensen
+sentence =
+    .label = ngalek
+sentence-input-value = indene sentensi nebo biik tugul yuu
+citation-input-value = bunuu ano ngaleguk
+citation =
+    .label = citation
+sc-write-submit-confirm = ayani kole sentensinito ko<wikipediaLink>kotagu eng biik tugul</wikipediaLink>ak atinye ruhusa aauploden
+sc-review-write-title = ngalek che une chemuch atesyi?
+new-sentence-rule-1 = <noCopyright>makimache copyright</noCopyright> maiyanatin (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = kimeche ngalek chengering kosiir taman ak muut eng sentence agenge
+new-sentence-rule-3 = boishe grammer nebo iman
+new-sentence-rule-4 = boishe spelling ak punctuation chebo iman
+new-sentence-rule-5 = magiyanii nambok ak ngalek chemobo kawaida
+new-sentence-rule-6 = magimeche ngalek chebunu sang
+new-sentence-rule-7 = tesyin citations chemagatin
+new-sentence-rule-8 = mechee koba gaa ako muuch kengalale(ko ma wiiy kesoman sentensiinoto)
+how-to-cite = aciten kole ne?
+how-to-cite-explanation-bold = citen ago linkitab  URL anan ko kainet tugul nebo boishengung
+guidelines = tuguk cheibaru oret
 contact-us = birwech
 add-sentence-success = ngalalutij chegigiyum
 add-sentence-error = masikchi ketesyini ngalalet noto
@@ -858,11 +1060,39 @@ single-sentence-submission = ngalalutik che  agenge chegigoitoi
 bulk-sentence-submission = ngalalutik chechang chegigoitoi
 single-sentence = ngalalet agenge
 bulk-sentences = ngalalautik chechang
+sentence-domain-select =
+    .label = oleu sentensi/oleu ngalalek
 # Sentence Domain dropdown option
 agriculture = yoisetab mbaret
+# Sentence Domain dropdown option
+automotive = mashinishek
+# Sentence Domain dropdown option
+finance = robinik
+# Sentence Domain dropdown option
+food_service_retail = amitwogik,boishet ak mungaret
+# Sentence Domain dropdown option
+general = tuguk tugul
+# Sentence Domain dropdown option
+healthcare = oleginyoen biik/boiboiyetab borwek
+# Sentence Domain dropdown option
+history_law_government = tuguk chegibo keny/sheria nebo emet ak serikalit
+# Sentence Domain dropdown option
+language_fundamentals = tuguk chemiten eng kuti cheu;robinik,barueshek ak nambok
+# Sentence Domain dropdown option
+media_entertainment = media ak olegoboiboen biik
+# Sentence Domain dropdown option
+nature_environment = gereetab ngweny ak oleu ngweny
+# Sentence Domain dropdown option
+news_current_affairs = logoywekab emet ak tuguk nguno chegabiit
+# Sentence Domain dropdown option
+technology_robotics = teknolojia ak robotik
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Geer <icon></icon>nda miten komnyei olegigingalalda sentesinoto?
+sc-review-rules-title = tos ngalalutik kogigisiir olemagaat?
+sc-review-empty-state = mamiten ngalalutik chegigere kogeny eng kuti nito
 report-sc-different-language = kutii age
 report-sc-different-language-detail = kigisiir eng kutit age eng nagere
 sentences-fetch-error = kagobit latutyet kanganyoru ngalaluti choto
@@ -870,10 +1100,17 @@ review-error = kagobiit latutyet kangageere ngalalet ni
 review-error-rate-limit-exceeded = iwendineng' chokchinet missing ip kasarta igeer ng'alalutik chu asinai nda mi komnyei
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = mi kechope walet neo
+sc-redirect-page-subtitle-1 = yumsetab ngalalutik kowendi sautit nenaat neo,eng nguno much<writeURL>isiir</writeURL> ngolyo <reviewURL>igeer kogeny</reviewURL> ngolyo agenge chegigiyum eng sauti nenayat.
+sc-redirect-page-subtitle-2 = ndaitinye tebut iteb eng <matrixLink>Matrix</matrixLink><discourseLink>Discourse</discourseLink> or <emailLink>emailit</emailLink>.
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = uploaden  <icon></icon>ngalalutik chebo biik chechang<icon>
+sc-bulk-upload-instruction = naam filingung eng yuh anan <uploadButton>iklicken asiuploadenupload</uploadButton>
 sc-bulk-upload-instruction-drop = indene filingung yu asiuploaden
+bulk-upload-additional-information = nda itinye ngalek vhemeech
+template-file-additional-information = nda tos mi ngalek chemeche igoite agoba filinito nemagotesta templatit, ingololi <emailFragment>commonvoice@mozilla.com</emailFragment
 try-upload-again = tyem kogeny indene failingung yu
 try-upload-again-md = tyem iuploaden kogeny
 select-file = kweey filit
@@ -882,6 +1119,7 @@ accepted-files = filin chegiyonii
 maximum-file-size = filit negiyoni ko neo ko 25MB
 what-needs-to-be-in-file = ne nemagat eng filinyu?
 upload-progress-text = mi kotesetai uploading
+sc-bulk-submit-confirm = kanay kole iman sentenses kole<wikipediaLink>bo chii tugul</wikipediaLink>ak atinye ruhusa a uploaden.
 bulk-upload-success-toast = ngalalutik chechang chekagiuploaden
 bulk-upload-failed-toast = masiir uploading,tyem kongeny
 bulk-submission-success-header = kongoi eng kayumset nebo tuguk chechang chegegoite
