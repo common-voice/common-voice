@@ -243,11 +243,17 @@ about = Hemuşeni
 partner = Maneba
 profile = Profili
 help = Memişvelit
+contact = ǩont̆aǩt̆i
+privacy = t̆obaşoba
+terms = Şart̆epe
+cookies = ǩaǩape
+faq = FAQ
 content-license-text = Doloxdenepe <licenseLink>Creative Commons license</licenseLink> lisansişi tude koren.
 share-title = Nena-nişis memxacu şeni çkvape odzirus memişvelit.
 link-copied = Linki k'opya dixenu.
 back-top = Tişa Kexti
 logout = Kogamaxtit
+donate = Mixaresirit
 
 ## Home Page
 
@@ -262,11 +268,44 @@ wall-of-text-second = Didi şirǩet̆epek na oxmaraman datapeşi dido muşi ǩo�
 show-wall-of-text = Majurape iǩitxi/ golioni
 help-us-title = Ham cumlepe getzuranu şeni memişvelit.
 help-us-explain = Osteri/ Obiri tuşis gyobazgit. İucit-işǩinit-isiminit do cumle tzori/ ese iǩitxui mitzvit.
+no-clips-to-validate = Ham nenas oşǩinoni aina ǩlibi var giğuran steri idziren. Hatzi (hus) bazi ǩlibepe doloç̌arit do jilemona opşus meişvelit.
 vote-yes = Ho
 vote-no = Var
+toggle-play-tooltip = Osteru modi gontzǩapu şeni { shortcut-play-toggle } hak gyobazgit/ cobazgit
+speak-subtitle = Nena-tkvani mixarsuvit
+speak-paragraph = Nenaşi ǩlibepe doloç̌aru goncameri data sistemi getzopxuşi enni vorsi gza oren. Ham artsope (bazepe) şeni oxoktinoni oren.
+speak-goal-text = Doloç̌areri ǩlibepe
+listen-subtitle = Xomape otzuranus memişvelit.
+listen-paragraph = Xarsuveri ǩlibepeşi otzorinu (tzori na oren oxotzonu) Comman Voiceşi misyoni şeni eşit̆i derece becit̆i oren. Ar işǩinit (iucit) do ǩalitoni goncameri nenaşi data getzopxu şeni meişvelit.
+listen-goal-text = Doloç̌areri saatepe
+hours-recorded = Tzorineri saatepe
+hours-validated = Tzorineri saatepe
+voices-online = Hus (hatzi) onlaini na oren xomape
+todays-progress = Andğaneri Ogzalapa
+help-reach-goal = { $goal } olva şeni meişvelit
+read-terms-q = Oxmaruşi şart̆epe iǩitxiti/ golioniti
+ready-to-record = Xoma-tkvani oxorsuvu şeni xadziri oret-i?
+all-locales = İri/ Mteli
+today = Andğa
+x-weeks-short =
+    { $count ->
+        [one] Xaft̆a
+       *[other] { $count }wk
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }mo
+       *[other] { "" }
+    }
+help-make-dataset = Çku mağala ǩalitete, iris goncameri ar dataset̆i getzopxu şeni memişvelit.
+sign-up-account = Ar xesap̌i kogetzopxit
+email-subscription-title = E-posta oağanu şeni kodoliç̌arit.
+email-subscription-title-new = Comman Voiceşi xaberi bultenepes, gonoşinupes do ogzaloni ondğalurepes doliç̌arit.
 
 ## Account Benefits
 
+benefits = Pelapape
+rich-data = Momincğonit datapeşi daha ǩai oxenu şeni bazi anonimi demografiǩuri datape momçit. Mteli demografiǩuri datape ǩamus p̌i gontzǩaşe noçinepe gotziğit.
 
 ## What's public
 
