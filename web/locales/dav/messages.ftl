@@ -280,6 +280,17 @@ speak-subtitle = Changa lwaka lwako
 speak-paragraph = Kurekodi vibelele va chwaka ni suti eri kuagha mafungu gha data; w'amu w'aghorie ijo nijo jimu jisingie kwa ichi chaghu.
 speak-goal-text = Vibelele virekodilo
 listen-subtitle = Ditesienyi kusikiria madedo ngera gheko karakara.
+listen-paragraph = Kusikiria sena ngera madedo gheko nicha ni ilagho ja mana kwa w'udumiki ghwa Common Voice. Sikiria nao kukabonya huw'o kwaditesia kuboisa andu mwari kwa data ya chwaka.
+listen-goal-text = Vibelele viw'onekie veko nicha
+hours-recorded = Masaa Ghirekodilo
+hours-validated = Masaa gha madedo ghiko karakara
+voices-online = Chwaka riko Mtandaonyi Idakoni
+todays-progress = Misele yavikilwa Linu
+help-reach-goal = Ditesie kuvikia { $goal }
+read-terms-q = Kwashomie Masikirano?
+ready-to-record = Kwakudegha kuzoye kurekodi lwaka lwako?
+all-locales = Rose
+today = Linu
 
 ## Account Benefits
 
