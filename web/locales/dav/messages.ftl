@@ -162,6 +162,45 @@ os = Kioseti
 pa-IN = Kipunjabi
 pap-AW = Kipapiamento cha Aruba
 pl = Kipolandi
+ps = Kipashito
+pt = Kiportugizi
+quc = Kikiche
+quy = Kikechua Chanka
+qvi = Kikichwa
+rm-sursilv = Kirumi cha Suruselva
+rm-vallader = Kirumi cha Valada
+ro = Kiromania
+ru = Kirusi
+rw = Kinyarwanda
+sah = Kisaka
+sat = Kisantali
+sc = Kisardinia
+scn = Kisisili
+sco = Kiskoti
+sd = Kisindhi
+sdh = Kikurdi
+shi = Kishila
+si = Kisinhala
+sk = Kislovaki
+skr = Kisaraiki
+sl = Kislovenia
+snk = Kisoninke
+so = Kisomali
+sq = Kialbania
+sr = Kisabia
+ss = Kiswati
+st = Kisutu cha Isi
+sv-SE = Kiswidi
+sw = Kiswahili
+syr = Kisiria
+ta = Kitamili
+te = Kitelugu
+tg = Kitajiki
+th = Kitai
+ti = Kitirginya
+tig = Kitigre
+tk = Kiturukimeni
+tl = Kitagalog
 
 # [/]
 
@@ -362,6 +401,9 @@ pl = Kipolandi
 
 
 # [/SentenceCollector]
+
+
+## WRITE PAGE
 
 
 ## REVIEW PAGE
