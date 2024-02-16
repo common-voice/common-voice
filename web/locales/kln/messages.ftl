@@ -468,6 +468,7 @@ about-sentence-collection-title = keyumii ngalalutik
 about-new-lang-title = keyate kuti age ne mbya
 about-new-lang-subtitle = Kakilunchen Common Voice Site eng' kutit notok
 about-voice-contrib-title = yumsetsb sautishek
+about-voice-contrib-subtitle = Bwone bikok ako koito suatit ng'wai
 about-speak = ngalal
 about-listen-queue = kastee-igany
 about-listen = kastee
