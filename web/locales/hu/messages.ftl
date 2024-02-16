@@ -802,6 +802,10 @@ no-information-available = Nem áll rendelkezésre információ
 dataset-metadata-sex = Nem
 # dataset metadata - age of contributor
 dataset-metadata-age = Életkor
+dataset-donate-modal-heading = Tudta-e…
+donate-modal-explanation-1 = Évi majdnem egymillió dollárba kerül az adatkészletek tárolása és a platform fejlesztése a ránk támaszkodó több mint 100+ nyelvi közösség számára?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ha értékeli a nyílt, inkluzív adatokat – adományozzon még ma!</bold>
 
 ## Download Modal
 
@@ -1676,7 +1680,8 @@ public-domain = Közkincs
 citing-sentences = Mondatok idézése
 adding-sentences = Mondatok hozzáadása
 reviewing-sentences = Mondatok ellenőrzése
-domain = Domén
+sentence-domain =
+    .label = Mondatdomén
 public-domain-explanation-1 = Nagyon fontos, hogy minden szöveges mondat <publicDomain>közkincs</publicDomain> (<cc0>cc0</cc0>) legyen, mivel a Common Voice adatkészlet cc0 licenc alatt kerül kiadásra. Csak akkor töltsön fel mondatot, ha biztos benne, és mindig adja meg a releváns idézetet.
 public-domain-explanation-2 = Egy hasznos beszédfelismerő motor építéséhez a legjobb mondatok köznyelviek, és modern szóhasználatúak. Néhány ötlet a mondatok előállításához:
 public-domain-explanation-3 = Alkosson modern, köznyelvi mondatokat egyedül, barátaival vagy nyelvi közösségével – például egy „write-a-thon” segítségével
@@ -1718,19 +1723,6 @@ reviewing-sentences-explanation-2 = Ha a mondat nem felel meg a fenti feltétele
 reviewing-sentences-explanation-3 = Ha nem biztos a mondattal kapcsolatban, ki is hagyhatja, és továbbugorhat a következőre.
 reviewing-sentences-explanation-4 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében.
 domain-explanation = A domén a mondat témakörére utal. Jelenleg ezek közül választhat:
-# Indicates that the domain of a sentence is general
-sentence-domain-general = Általános
-sentence-domain-agriculture = Mezőgazdaság
-sentence-domain-automotive = Autóipar
-sentence-domain-finance = Pénzügy
-sentence-domain-food-service-retail = Élelmiszer, szolgáltatás és kiskereskedelem
-sentence-domain-healthcare = Egészségügy
-sentence-domain-history-law-government = Történelem, jog és kormányzás
-sentence-domain-media-entertainment = Média és szórakoztatóipar
-sentence-domain-nature-environment = Természet és környezetvédelem
-sentence-domain-news-current-affairs = Hírek és aktuális témák
-sentence-domain-technology-robotics = Technológia és robotika
-sentence-domain-language-fundamentals = Nyelvi alapok (például számok, betűk, pénz)
 
 ## WRITE PAGE
 
@@ -1764,8 +1756,6 @@ single-sentence-submission = Egy mondatos beküldés
 bulk-sentence-submission = Mondatok tömeges beküldése
 single-sentence = Egyetlen mondat
 bulk-sentences = Több mondat
-sentence-domain =
-    .label = Mondatdomén
 # Sentence Domain dropdown option
 agriculture = Mezőgazdaság
 # Sentence Domain dropdown option
