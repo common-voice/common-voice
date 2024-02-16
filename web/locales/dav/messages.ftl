@@ -242,9 +242,28 @@ speak = Deda
 speak-now = Deda idakoni
 datasets = Mafungu gha data
 languages = Viteto
+about = Ni Kindoki
+partner = M'mbao
+profile = Fwana
+help = W'utesia
+contact = Andu kovikilwa
+privacy = Malagho ghako gha kiviso
+terms = Masikirano
+cookies = Vidakuzi
+faq = Makotio gha shwa kwa shwa
+content-license-text = Maza iri riko aisi ya leseni ya <licenseLink>Creative Commons </licenseLink>
+share-title = Ditesienyi kulola w'andu w'azima w'ikumbe chwaka raw'o!
+share-text = Tesienyi kufundisha mashini seji w'adamu w'a kilolia w'idedagha, funya lwaka lwako aha { $link }
+link-copied = Kitumalilo Chaw'adwa
+back-top = W'uya aja kuzoyenyi Chongonyi
+logout = Fuma Putu
+donate = Kumba Igome
 
 ## Home Page
 
+home-title = Common Voice ni mpango ghwa Mozilla ghotesia kufundisha mashini seji w'andu w'a kilolia w'idedagha.
+default-tagline = Mozilla Common Voice ni mpango ghotesia kufundisha mashini seji w'andu w'a kilolia w'idedagha.
+home-cta = Deda nandighi, kumba lwaka lwako aha!
 
 ## Account Benefits
 
