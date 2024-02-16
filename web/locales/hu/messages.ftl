@@ -1756,6 +1756,8 @@ single-sentence-submission = Egy mondatos beküldés
 bulk-sentence-submission = Mondatok tömeges beküldése
 single-sentence = Egyetlen mondat
 bulk-sentences = Több mondat
+sentence-domain-select =
+    .label = Mondatdomén
 # Sentence Domain dropdown option
 agriculture = Mezőgazdaság
 # Sentence Domain dropdown option
