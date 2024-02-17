@@ -601,6 +601,8 @@ about-playbook-how-localize-content-5 = Kupata w'utesia, zighana video yedu yeel
 ## How to add sentences
 
 about-playbook-how-add-sentences = Nichuria sentensi w'ada?
+about-playbook-how-add-sentences-content-1 = Kwadima kuchuria sentensi aja kwa <writePageLink>Peji Yeandika</writePageLink> angu kuzoze sentensi aja kwa <reviewPageLink>Peji yeazoza</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Sentensi kungirwa Common Voice, suti rizozo na kurumirilwa ni w'andu w'aw'i. Sentensi suti rikaie <licenseLink>ra w'andu w'ose</licenseLink> na rikaie vui risevike malagho 15. Kwadima kulomba mwandiki waro uribonye <waiverLink>CC0 kwa chia yedu einja vighirio</waiverLink>, nao kudidumie aja commonvoice@mozilla.com
 
 ## How to record quality
 
