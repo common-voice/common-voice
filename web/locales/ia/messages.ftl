@@ -1773,6 +1773,10 @@ history_law_government = Historia, Lege e Governamento
 media_entertainment = Medios e intertenimento
 # Sentence Domain dropdown option
 nature_environment = Natura e ambiente
+# Sentence Domain dropdown option
+news_current_affairs = Novas e Affaires Currente
+# Sentence Domain dropdown option
+technology_robotics = Technologia e Robotica
 
 ## REVIEW PAGE
 
