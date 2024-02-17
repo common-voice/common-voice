@@ -603,9 +603,14 @@ about-playbook-how-localize-content-5 = Kupata w'utesia, zighana video yedu yeel
 about-playbook-how-add-sentences = Nichuria sentensi w'ada?
 about-playbook-how-add-sentences-content-1 = Kwadima kuchuria sentensi aja kwa <writePageLink>Peji Yeandika</writePageLink> angu kuzoze sentensi aja kwa <reviewPageLink>Peji yeazoza</reviewPageLink>.
 about-playbook-how-add-sentences-content-2 = Sentensi kungirwa Common Voice, suti rizozo na kurumirilwa ni w'andu w'aw'i. Sentensi suti rikaie <licenseLink>ra w'andu w'ose</licenseLink> na rikaie vui risevike malagho 15. Kwadima kulomba mwandiki waro uribonye <waiverLink>CC0 kwa chia yedu einja vighirio</waiverLink>, nao kudidumie aja commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Kwadima kutumia<scraperLink>Kiburua sentensi</scraperLink> eri kupate sentensi vui kufuma kwa Wikipedia.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Mundu warekodii w'ada clipu cha lwaka chiko chiboie?
+about-playbook-how-record-content-1 = Deda kwa lwaka lwako lwa kawaida! Aha, dakunde kudede seji koni kudedagha toe - dekunda mdedo ghwako seji koni ghuko, na dekunda ngera kwaded nandighi angu mboa mboa, kudede w'oruw'o, na staili yaro, na kibori charo, sigha w'oruw'o.
+about-playbook-how-record-content-2 = Injika andu kuko na ndoghoi - yakundikie kusikirike kwa w'uraisi.
+about-playbook-how-record-content-3 = Shoma sentensi nicha - kusekakia malagho, kusekeghalusa malagho na kusekechuria ghangi mazima.
 
 ## How to grow language
 
