@@ -630,6 +630,7 @@ about-playbook-how-grow-language-content-8 = <strong>Kaia mdungi!</strong> W'amz
 
 about-playbook-how-validate = Nimanyagha w'ada ngera klipu cha lwaka chaboie?
 about-playbook-how-validate-content-1 = Ikakaia <strong>kwamsikira</strong> na <strong>kwamuelelwa</strong>, ni nicha<strong>kurumirie klipu</strong>.
+about-playbook-how-validate-content-2 = <strong>Kaw'ona mundu oka na mdedo gusefwanane na ghwako, kuseleghe vlipu vape</strong> - huw'o niko ikundikie eri mashini itambukilo ni madedo gha kula mundu hata ngera wadedaa w'ada.
 
 ## How to access dataset
 
