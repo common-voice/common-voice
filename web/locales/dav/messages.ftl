@@ -470,6 +470,7 @@ change-email-setings = Ghalua imeili yako kuidia kwa Mipango aisi ya Uhu Nani
 
 faq-title = Makotio Gha Ngelo Kwa Ngelo
 faq-what-cv-q = Common Voice ni Kii?
+faq-what-cv-a = Teknoloji emanya chwaka yaghalue seji w'adamu w'ingirianaa na mashini, ela kwa idakoni seji sistimu raro riko, ni raw'andu na reko na iguri ibaa. Common Voice ni mradi ghwa Mozilla ghobonya teknoloji emanya chwaka ichurie kuboa na kukaia mwari kwa kula mundu. Common Voice ni kidasi kibaa cha data ya chwaka richangilo ni w'andu. Ichi kidasi cha data chatesia mndu uo wose kuboisa kwa shwaa apu ra madedo kwa kiteto icho chose.
 
 ## ABOUT US
 
