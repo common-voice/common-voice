@@ -443,9 +443,16 @@ on = Kora
 help-accent = Kwakunde w'utesia ghwa madedo?
 help-accent-explanation = Madedo ghako ni seji kughoragha malagho. Ghadima kushekerelwa ni andu kukaie, viteto vizima kudedagha na maza zima ndazi. Kwadima kughora ijojose kufwanilwagha jafwane aha.
 help-variants = Kwakunde wutesia na mbari ya madedo?
+help-variants-explanation = Mbari ya madedo ni fwana imu ya kiteto - sa w'uja idedwagha in w'andu w'a kifumbu chimu, angu w'andu w'ikanye w'ungara. Ngelo rimu ivi viteto vifwane kusighana vaw'angwagha lahaja.
 
 ## Profile - Email
 
+browse-file-title = Josa faili ya picha
+browse-file = Kurudua nao kupotuo angu <browserWrap>Law'ua<browserWrap>
+connect-gravatar = Ngia na Gravatar
+gravatar_not_found = Imeili yako ndeiw'wadie gravatar
+file_too_large = Faili kwasaghua eka mbaa kuchumba
+avatar-uploaded = Avatari yajoswa
 
 ## Profile - Email
 
