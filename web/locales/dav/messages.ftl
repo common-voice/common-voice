@@ -623,9 +623,13 @@ about-playbook-how-grow-language-content-3 = Kwadima kupanga ituku kuw'ange w'an
 about-playbook-how-grow-language-content-4 = Vibughi va Simunyi
 about-playbook-how-grow-language-content-5 = Kwadima kutumia vibughi va simunyi kueresha wudumwa. Ghoria w'angu angu kwaki ihi kazi ikundikie ibonyo. W'adana mkonu na w'azima aw'a w'ijaa malagho sa haki ra viteto, AI ya lwaka, angu kusua and kupendelia kushekerelwagha ni teknoloji. W'ona maoni zaidi aja kwa <campaignLink>kuendesha kampeni ya w'andunyi, na maza rimu kudimagha kurumia sena</campaignLink>
 about-playbook-how-grow-language-content-6 = Kuw'wadiana mkonu na kumanyana
+about-playbook-how-grow-language-content-7 = Lola w'azima wiko na bea na ihi kazi. Yadima kukai ni yunivaziti, skulu ra viteto, vibughi va w'adederii andu vibughi va sayansi ya data. W'ilole nao kuw'ieleshere nicha w'adima kukutesia w'ada na kwaki kukunde w'utesia ghwaw'o. <outreachTemplates>W'ona mfwano ghodu ghwa imeili relola w'atesia</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Kaia mdungi!</strong> W'amzenyu w'eko na chia ra kimzaw'o, na iri ni chia rimu ndini rezoya.
 
 ## How to validate
 
+about-playbook-how-validate = Nimanyagha w'ada ngera klipu cha lwaka chaboie?
+about-playbook-how-validate-content-1 = Ikakaia <strong>kwamsikira</strong> na <strong>kwamuelelwa</strong>, ni nicha<strong>kurumirie klipu</strong>.
 
 ## How to access dataset
 
