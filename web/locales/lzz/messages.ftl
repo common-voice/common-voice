@@ -252,7 +252,8 @@ cookies = ǩaǩape
 faq = FAQ
 content-license-text = Doloxdenepe <licenseLink>Creative Commons license</licenseLink> lisansişi tude koren.
 share-title = Nena-nişis memxacu şeni çkvape odzirus memişvelit.
-link-copied = Linki k'opya dixenu.
+share-text = Mtini ǩoçepek muçho isinapaman doguru şeni memişvelit, nena-skani mixarsuvit { $link }
+link-copied = Linki ǩopya dixenu.
 back-top = Tişa Kexti
 logout = Kogamaxtit
 donate = Mixaresirit
@@ -299,6 +300,11 @@ x-months-short =
         [one] { $count }mo
        *[other] { "" }
     }
+x-years-short =
+    { $count ->
+        [one] y
+       *[other] { "" }
+    }
 help-make-dataset = Çku mağala ǩalitete, iris goncameri ar dataset̆i getzopxu şeni memişvelit.
 sign-up-account = Ar xesap̌i kogetzopxit
 email-subscription-title = E-posta oağanu şeni kodoliç̌arit.
@@ -335,7 +341,8 @@ shortcut-vote-no = V
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = d
-shortcut-record-toggle-label = Doloç'ari/ Dodgiti
+shortcut-record-toggle-label = Doloç̌ari/ Dodgiti
+shortcut-rerecord-toggle = [1-5]
 shortcut-submit = Goikti
 shortcut-submit-label = K'ilibi mendancğoni
 
