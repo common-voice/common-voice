@@ -426,6 +426,13 @@ thanks-for-account = Chaw'ucha kwa kumangisha akaunti yako, danu diaghe fwana ya
 why-demographic = Iji jeko na manaki?
 why-demographic-explanation-2 = Data yako ya kiviso (sa w'uja: miaka, ko-mnduki, na madedo), yaditesia kuboisa data esikiria itumikagha kwa kufundisha mashini kumanya madedo gi. Sare yako na imeili jingi nderiindanishwagha na data kuchangie, na kwadima kusaghua ngera kwakunde sare yako ikaie mwari angu ivisike.
 accept-privacy = Ndekune ilagho mkakunda kutumia iri maza seji mueleshere kwa <privacyLink>Sera relindia Maza ra Kiviso</privacyLink> ya Mozilla
+accept-privacy-title = Sera relindia Maza ra Kiviso
+accept-privacy-and-terms = Narumiriana na <termsLink>Tamzi</termsLink> na <privacyLink>Maeleshero gha Maza ra Kiviso</privacyLink>
+login-identity = Uhu Nani
+login = Kungia
+login-signup = Kungia / Kurejesta
+edit = Kughalusa
+email-subscriptions = Kudumilwagha Imeili
 
 ## Profile - Email
 
