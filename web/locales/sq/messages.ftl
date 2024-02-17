@@ -383,8 +383,11 @@ native-language =
 profile-form-add-accent = Shtoni theks të ri vetjak "{ $inputValue }"
 profile-form-submit-save = Ruaje
 profile-form-submit-saved = U ruajt
-male = Mashkull
-female = Femër
+male_masculine = Mashkull/Mashkullore
+female_feminine = Femër/Femërore
+transgender = Ndërgjinor
+non-binary = Jo-dyor
+do_not_wish_to_say = S’dëshiroj ta them
 # Gender
 other = Tjetër
 why-profile-title = Ç’duhet profili?
@@ -726,11 +729,12 @@ validated-hr-total = Orë të Vlerësuara Gjithsej
 overall-hr-total = Orë Gjithsej
 cv-license = Licencë
 audio-format = Format Audio
+dataset-splits = Ndarje (Moshë dhe Gjini)
 number-of-voices = Numër Zërash
 splits = Ndarje
 email-to-download = Jepni Email-in për Shkarkim
 why-email = <b>Pse email?</b> Mund të na duhet të lidhemi me ju në të ardhmen rreth ndryshimesh në grupin e të dhënave, dhe email-i na jep një pikë kontakti.
-why-donate = Pse pyesni?
+why-donate-datasets-page = Mozilla Common Voice është grupi i hapur i të dhënave të të folurit më i larmishëm në botë, i krijuar nga vullnetarë - dhe jemi tërësisht të bazuar në dhurime. Kushton gati një milion dollarë në vit të strehosh grupet e të dhënave dhe të përmirësosh platformën në mbi 100 bashkësi gjuhësh që bazohen në atë që bëjmë ne. Nëse çmoni të dhëna të hapur, përfshirëse - <b>dhuroni që sot!</b>
 confirm-size = Jeni gati të nisni një shkarkim prej <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -771,6 +775,11 @@ no-information-available = S’ka informacion
 dataset-metadata-sex = Gjini
 # dataset metadata - age of contributor
 dataset-metadata-age = Moshë
+donate-modal-message = Grupi juaj i të dhënave po shkarkohet!
+dataset-donate-modal-heading = E dini se…
+donate-modal-explanation-1 = Kushton gati një milion dollarë në vit të strehosh grupet e të dhënave dhe të përmirësosh platformën në mbi 100 bashkësi gjuhësh që bazohen në atë që bëjmë ne?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Nëse çmoni të dhëna të hapur, përfshirëse - <b>dhuroni që sot!</bold>
 
 ## Download Modal
 
@@ -1672,7 +1681,9 @@ reviewing-sentences-explanation-1 = Nëse togfjalëshi i plotëson kriteret më 
 reviewing-sentences-explanation-2 = Nëse togfjalëshi s’i plotëson kriteret më sipër, klikoni mbi butonin “Jo”
 reviewing-sentences-explanation-3 = Nëse jeni të pasigurt për frazën, mundeni edhe ta anashkaloni frazën dhe të vazhdoni me pasuesen.
 reviewing-sentences-explanation-4 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = Shtoni një togfjalësh <icon></icon> në përkatësi publike
 write-page-subtitle = Togfjalëshat e dhënë këtu do të shtohen te një grup të dhënash të përdorshme publikisht sipas licencës cc-0.
 sentence =
