@@ -469,6 +469,7 @@ change-email-setings = Ghalua imeili yako kuidia kwa Mipango aisi ya Uhu Nani
 ## FAQ
 
 faq-title = Makotio Gha Ngelo Kwa Ngelo
+faq-what-cv-q = Common Voice ni Kii?
 
 ## ABOUT US
 
