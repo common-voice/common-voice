@@ -473,12 +473,66 @@ faq-what-cv-q = Common Voice ni Kii?
 faq-what-cv-a = Teknoloji emanya chwaka yaghalue seji w'adamu w'ingirianaa na mashini, ela kwa idakoni seji sistimu raro riko, ni raw'andu na reko na iguri ibaa. Common Voice ni mradi ghwa Mozilla ghobonya teknoloji emanya chwaka ichurie kuboa na kukaia mwari kwa kula mundu. Common Voice ni kidasi kibaa cha data ya chwaka richangilo ni w'andu. Ichi kidasi cha data chatesia mndu uo wose kuboisa kwa shwaa apu ra madedo kwa kiteto icho chose.
 faq-what-cv-a-2 = Teknoloji emanya chwaka yaghalue seji w'adamu w'ingirianaa na mashini, ela kwa idakoni seji sistimu raro riko, ni raw'andu na reko na iguri ibaa. Common Voice ni mradi ghwa Mozilla ghobonya teknoloji emanya chwaka ichurie kuboa na kukaia mwari kwa kula mundu. Common Voice ni kidasi kibaa cha data ya chwaka richangilo ni w'andu. Ichi kidasi cha data chatesia mndu uo wose kuboisa kwa shwaa apu ra madedo kwa kiteto icho chose. Ndedaw'iatumbanya chwaka riekeri ra viteto vierie, ela hata na viteto videdwagha ni mtalo mtini ghwa w'andu. Kuchapisha kidasi cha data chiko na chumi zimazima kwadimisha w'aboisi w'a teknoloji, w'andu w'iko na kampuni raw'o w'eni, na vibughi videdagha ivo viteto, w'iizighane w'ichure ijo ivongo w'eni.
 faq-why-important-q = Kwaki iji ilagho jiko ja mana?
+faq-why-important-a = Viteto mando ghamu nivo chia ya kawaida ededanya na teknoloji ra chwaka raw'iareda kulegheresha maza kuidia kompiuta na simu ra mkonu na viria vizima sa ivo. Dekunda ditesie w'andu w'eunda appu ra teknoloji remanya chwaka sa w'atafsiri w'iko aeni na w'atesia w'a kidijitali. Ela kwa idakoni data ra chwaka nyingi rikundikie reagha iri appu reka gali na rekunda w'andu w'a m ali mbaa. Dasuw'iria vifungu va data ra Common Voice rinekagha aw'a w'aboisi chija chikundikie kuumba na kubonya teknoloji ya madedo ipatikane kwa viteto vaw'o. Kuboisa kumanya chwaka kwa w'urumwengu ghose kwa w'ujumla, daw'iatumbanya sampuli ra viteto videdwagha kuchumba na vija videdwagha ni w'andu w'atineri w'ori na kwa huw'o visenekwagha w'udumiki ghotambulwa. Kuchapishwa kwa vifungu va data ra chwaka zima zima kunekagha ndighi w'atalamu, w'ajasiriamali, na w'ungara ghose ghwa viteto w'izighane agho mavongo eri w'ighichure w'eni.
+faq-how-get-q = Nadima kupata w'ada data ya Common Voice?
+faq-how-get-a = Data ya Common Voice eko tayari kupakulwa aisi ya <licenseLink>CC0</licenseLink>leseni <datasetLink>page ra vifungu va data </datasetLink>. Sena kwadima kupakua vifungu va data zima raenga riko mwari kwa w'andu w'ose kwa ichenii peji.
+faq-when-release2-q = Mufunguagha lii data ra Common Voice kwa viteto vizima?
+faq-when-release2-a = Ihi vashoni ya viteto vingi va data ra Common Voice kwa idakoni yaw'iaidia mikonunyi ya w'andu w'engi kurielesha na kuriw'ika kwa mafungu. Kaw'ona kwakunde kuditesie kureda Common Voice kwa viteto viw'ishi, enda kuzighane aha <sentenceCollectorLink>Kiria Chetumbanya Sentensi</sentenceCollectorLink>kwa kuchuria sentensi mbishi kwa mafungu gha data, na Mozilla <pontoonLink>Pontoon</pontoonLink> kwa kutafsiri tovuti cheni. Viteto viw'ishi vachurilwa kwa Common Voice kwa mchango ghwa chwaka iji sentensi 5000 rarumirilwa na kutumbanywa.
+faq-why-mission-q = Kwaki Common Voice iw'aghilo ikaie sehemu ya misheni ya Mozilla?
+faq-why-mission-a = Mozilla ekufunya putu kuw'ika mdambo mwari na ghuvikilwagha ni w'andu w'ose. Kubonya huw'o defwana kuneka ndighi w'aboisi w'a mdambo kwa miradi sa Common Voice. Ee teknoloji ra chwaka risasarikagha kuchumba programu, darumirie angu ridumukie w'andu w'ose karakara. Kwa huw'o kutambua kwaro ni kukumba mali kwa viteto zaidi na kuboisa w'ulalo ghwa madedo mazima na mbari iji diaghaa na kutima teknoloji ra chwaka. Common Voice ni mali ya w'andu w'ose na hata w'abonyi kazi w'a Mozilla w'urumwengunyi ghose w'aw'iatumia kwa miradi redu w'ori.
+faq-what-cv-and-deepspeech-q = Common Voice na Deep Speech rasighane hao?
+faq-what-cv-and-deepspeech-a = Data ra Common Voice raendanya na programu iko mwari emaya chwaka ya injini ya Deep Speech. Ifunyo ja imbiri ja Deep Search jerefunywa mori ghwa Novemba 2017 na ghudua ghukizoghua kufuma iyo ngelo. Anduamweri na mafungu gha data gha Common Voic, darumiria anguihi programu ya teknoloji emanya chwaka iko mwari efwana idime kupatikana kwa w'andu w'ose. Ni isuw'irio jedu iri teknoloji ridimishe w'ashomi w'eagha na w'ifufute mbeo ya mazwagha maw'ishi na w'udumiki.
+faq-is-goal-assistant-q = Lengo ya Common Voice ni kuagha mtesia wa lwaka?
+faq-is-goal-assistant-a = Lengo ya vifungu va data ya Common Voice ni kudimisha mndu uwowose w'urumwengunyi kuagha kumanya madedo, kumanya nani udedagha, angu programu iyoyose ikundikagha kwa data ra chwaka. Mtesia wa lwaka ni sehemu imweri tu ya programu aghadi ya ndazi kudima kutumia kuagha data.
+faq-do-want-native-q = Ini moni ichi kiteto ni cha kighenyi kwapo kwa huw'o nachideda kishambala, ngera mkundagha lwaka lwapo?
+faq-do-want-native-a = Hee, dalukunde haswa lwaka lwako! Lengo imu ya Common Voice to kutumbanya madedo ghisefwanane kufuma kula andu seji ichadimika eri w'udumiki ghomanya chwaka ghubonye kazi nicha kwa w'andu w'ose.Kwa huw'o michango ra w'andu w'isededagha ivo viteto ela si kimzaw'o chingi ni ilagho haswa ja mana.
+faq-why-different-speakers-q = Kwaki mkunde w'andu w'engi huw'u w'isefwanane w'ededa kwa kula kiteto?
+faq-why-different-speakers-a = Kavui w'ulindiri ghwa data rose ra madedo ghwafundishwa kwa kupendelia  <articleLink> w'omi na w'andu w'a kilasi cha ghadi na ghadi </articleLink>. Chia ya madedo na tofauti ra madedo ghisemangilwagha nicha kwa kufundisha vifungu va data kwa kawaida vaendanya na w'andu angu makundi ghimerie kuliw'ika angu ghisukumilo cha mwanonyi. Mashini nyingi reka na w'asi kuelelwa ni chwaka ra w'aka. Ihi niyo mana kwa database yedu ya chwaka dekunda mranganyiko!
+faq-why-my-lang-q = Kwaki kiteto chapo chiduagha chisengirilo andenyi?
+faq-why-my-lang-a = Common Voice ni andu kwa izungu ja w'andu kuchanga, na viteto vechurilwa ni w'andu w'ikufunyire. Diboilwagha nandighi kukachuria kiteto chako! <languageRequestLink> Kotia seji kudimagha kungira kiteto chako.</languageRequestLink>
+faq-what-quality-q = W'elee, ni kipimoki cha klipu cha lwaka kuboa chikundikie eri chitumike kwa kifungu cha data?
+faq-what-quality-a = Dakunde vifungu va data va Common Voice visikirike nicha eri mashini ya madedo-maandiko isikire, kwa huw'o daw'iakunda data risefwanane. Kuchumba huw'o w'andu w'ededa w'isefwanane, lwaka kusikirika kiw'uzima kwafundisha mashini ya madedo-maandiko kuzighana hali zima zima ra kawaida w'urumwengunyi, kufuma ndoghoi ya w'andu na ya magare. Ilagho ja mana ni kaw'aona klipu isikirikagha, yafwane kwa kifungu cha data.
+faq-why-10k-hours-q = Kwaki masaa elfu ikumi (10,000) kwa kula kiteto ghiw'ikilo kukaia lengo ya kipimo chedaka chwaka?
+faq-why-10k-hours-a = Agha nigho dighore kipimo cha masaa ghikundikie ghefundisha kuboisa mfumo ghwa madedo kughalulwa ghiw'uye maandiko.
+faq-how-calc-hours-q = Common Voice yabonyagha mtalo ghwa masaa w'ada?
+faq-how-calc-hours-a = Dabonya mtalo ghwa masaa kwa kukisia kipimo cha kula rekodi, nao kuzidisha ugho mtalo na mitalo yose ya rekodi ra viteto vose.
+faq-where-src-from-2-q = W'elee, maandiko gha kuzoya ghafumagha hao?
+faq-where-src-from-2-a = Maandiko ghedu ghezoya ghafuma kwa michango ya imbiri na sena kufuma kwa madedo kufuma kwa mitandao ya w'andu w'ose na maandiko gha sinema sa <italic> Ni Maisha ya Ajabu (It's a Wonderful Life</italic>) Kwadima kuzighana sentensi redu ra kuzoyenyi<githubLink>GitHub Folder</githubLink>
+faq-why-not-ask-read-q = Kwaki msekotiagha w'andu w'ishome kufuma vuonyi angu maandiko gha Wikipedia kwa viteto vizima vizima?
+faq-why-not-ask-read-a = Eri kubonya Common Voice ikaie ya w'utesia seji ichadimika dew'ona ditumie tu maandiko ghipatikanagha aisi ya rusa ya Creative Commons (CC0) leseni. Kutumia iyo CC0 ebonya malagho ghikuo kupata maandiko gha kimae, ela ghaneka kula mndu rusa etumia data ra chwaka kuseko na kighirio chingi kufuma kwa Mozilla. Ilagho ibaa mwisho dekunda vifungu va data ra viteto vingi ritumike seji ichadimika kwa w'andu w'ose, sa w'ashomi, univaziti, miradi, serikali, mashirika, na aw'ow'ose w'ikunde.
+faq-why-account-q = Kwaki iko suti niandike akaunti?
+faq-is-account-public-q = Malagho gha akaunti yapo ghiw'onwaa ni w'andu w'ose?
+faq-how-privacy-q = Moko na w'uhakika angu w'andu wichangaa chwaka w'aw'ialindilwa w'isemanyike?
+faq-how-privacy-a = Vilipu va  data ra chwaka vazughulwa fwana ra w'andu w'ichangie. Mndu ukachanga kuidia kwa akaunti yape, maandiko ghedima kummanya ghaghaluswa eri chwaka ra ivo vilipu rapangwa mafungu ghidima kupakulwa ela iro data jingi nderiw'onyerwagha mwari kwa peji ya profaili ya mndu moni.
+faq-what-determine-identity-q = W'elee, mana yaro nikii w'ei sidimagha kusaghua kutambulishwa kwa w'adedi kwa data riko kwa Common Voice?
+faq-what-determine-identity-a = Data ya Common Voice eka mwari kutumilwa ni w'andu w'ose kufundisha programu raenga ra chwaka. Kulindia w'andu w'ichdichangie, dalomba kula mndu upakuagha data ra Common Voice w'ibonye huw'o kwa ishima na kuzighana malagho ghifwane ghikaie kivisonyi. Vlipu vose va chwaka vazughulwa eri kuvisa malagho gha kibinafsi. Kukapakua ivo vifungu va data, kwarumiria angu ndokusungiagha w'ubinafsi ghwa mndu uchangie data. Mana yaro ni kuelelwa ndokudimagha kutumalia habari ra uo mndu na vifungu va data. Ela, kwadima kutumia vifungu va data kufundisha kumanya madedo, kumanya nani udedagha, na appu zima sa w'uja kutumalia habari ra vifungu va data na habari zima riko andenyi ya data.
+faq-what-is-cv = W'elee, Common Voice ni kii?
+faq-using-cv = Kutumia Common Voice
+faq-description = Common Voice ni mpande ghumu ghwa Mozilla ghuzolo ghotesia kufundisha mashini kumanya seji w'andu w'a kilolia w'idedagha.
+faq-search-for-answers =
+    .label = Lola majibu
 
 ## ABOUT US
 
+about-title = Kwaki Common Voice?
+about-header-description-v2 = <p> Common Voice ni vifungu va data ra chwaka viko mwari kutumilwa ni w'andu w'ose, vanekwa ndighi ni chwaka ra w'andu w'ikufunyire kuchanga w'urumwengu ghose. W'andu w'ikunde kuaghaappu ra chwaka w'adima kutumia vifungu va data kufundisha mashini. </p> Kwa idakoni, data ra chwaka nyingi ni mali ya kampuni, na ijo jaghiria w'ujuzi na maendeleo. Data ra chwaka sena nderiko rikalte kwa w'andu w'isededagha kingereza, w'andu w'achilu, w'akelemeri, w'aka, makundi mazima mazima. Mana yaro ni angu teknoloji edimisha chwaka ndeibonyagha kazi ngelo rose kwa viteto vingi, na aja ibonyagha kazi, yadima kukaia isebonyagha nicha kwa w'andu w'ose. Dekunda dighaluse agho kwa kuw'anga w'andu kula andu wikumbe chwaka raw'o. </p>
+how-does-it-work-title-v2 = Common Voice yabonyaa kazi w'ada?
+how-does-it-work-text = Isi datumbanya mafungu gha data ra chwaka kwa mazungu gha w'andu w'ose, Kumba lwaka lwako, sahihisha vlipu va chwaka ra w'andu w'azima, bonya mafungu gha data ghiboo kwa kula mndu.
 
 ## How does it work section
 
+about-language-req-subtitle = Mndumu wakotia kiteto chichurilo.
+about-localization-title = Mdambodambo Ghwanekelo W'ukitina
+about-localization-subtitle = Malagho gha ughu mdambodambo ghamerie kutafsirilwa kwa icho kiteto.
+about-sentence-collection-title = Kutumbanya Sentensi
+about-sentence-collection-subtitle = Sentensi ratumbanywa eri w'andu w'ishome nandighi
+about-new-lang-title = Kuzoya Kiteto Kiw'ishi
+about-new-lang-subtitle = Common Voice yazolo kwa ichi kiteto.
+about-voice-contrib-title = Kuchanga Lwaka
+about-voice-contrib-subtitle = W'andu w'acha nao w'ichange chwaka raw'o.
+about-voice-validation-title = Kuhakikisha madedo
+about-voice-validation-subtitle = W'andu w'azima w'aahakikisha ivo vibelele va chwaka.
+about-dataset-release-title = Mafungu gha Data Ghilekerelo
 
 ## Community Playbook Content
 ## What is a language
