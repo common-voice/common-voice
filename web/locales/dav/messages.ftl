@@ -326,6 +326,7 @@ join-newsletter = Ngera kwakunde, ngia kukaie umu wa w'aja w'idumilwagha imeili 
 whats-public = Nikii chiko mwari kwa w'andu w'ose?
 email-not-public = Ndediw'ikagha imeili yako w'orinyi.
 recordings-and-locale-public = Mtalo ghwa vibelele kwarekodi na kwa viteto viao, iro maza rikaiagha w'orinyi.
+username-optin-public = Kwadima kusaghua kuw'ika sare yako w'orinyi angu isamanyike ni yani.
 
 ## Speak & Listen Shortcuts
 
