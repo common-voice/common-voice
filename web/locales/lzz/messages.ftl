@@ -364,6 +364,7 @@ profile-form-language =
     .label = Nena
 profile-form-variant =
     .label = { $language }şi nam varianti isinapam?
+profile-form-variant-default-value = Aina varianti goşatsxuneri va oren.
 profile-form-accent =
     .label = Aksani
 profile-form-age =
