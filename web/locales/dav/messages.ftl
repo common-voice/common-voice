@@ -433,6 +433,9 @@ login = Kungia
 login-signup = Kungia / Kurejesta
 edit = Kughalusa
 email-subscriptions = Kudumilwagha Imeili
+download-profile = Budua Data Yapo
+contribution-experience = Luma Lochanga
+skip-submission-feedback = Sikunde Kuneka Maghesho
 
 ## Profile - Email
 
