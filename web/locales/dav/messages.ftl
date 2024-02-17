@@ -442,6 +442,7 @@ off = Rima
 on = Kora
 help-accent = Kwakunde w'utesia ghwa madedo?
 help-accent-explanation = Madedo ghako ni seji kughoragha malagho. Ghadima kushekerelwa ni andu kukaie, viteto vizima kudedagha na maza zima ndazi. Kwadima kughora ijojose kufwanilwagha jafwane aha.
+help-variants = Kwakunde wutesia ghwa mlaghao ghifwane kiw'uzima (ela mana yaro ni imweri)?
 
 ## Profile - Email
 
