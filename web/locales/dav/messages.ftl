@@ -585,6 +585,7 @@ about-playbook-how-add-language-translating-heading = Kughalusa kiteto kwa tovut
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> Zighana mlongozo seji kufwane kutumie Pontoon. </translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = Datumia kiria cha Mozilla chiw'angwa <pontoonLink>Pontoon</pontoonLink> kwa kutafsiri. Pontoon yeko na viteto vingi, ela keredoka yako iseko kwadima <pontoonRequestLink>kulomba kiteto chako chingiro</pontoonRequestLink>. Nao, kubonya icho kiteto chiw'oneke kwa mradi ghwa Common Voice, <githubRepoLink>kwachilomba ichi kiteto kiw'ishi kwa GitHub</githubRepoLink>. <localizationFragment>W'ona ghamu zaidi aighu ya kutafsiri saiti</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Kutumbanya sentensi
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Zighana malongozo ghedu ghibonyeria seji Mwakutumbanya Sentensi utumilwagha</sentenceCollectorVideo>.
 
 ## How does localization work
 
