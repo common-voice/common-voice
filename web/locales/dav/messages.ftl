@@ -631,9 +631,12 @@ about-playbook-how-grow-language-content-8 = <strong>Kaia mdungi!</strong> W'amz
 about-playbook-how-validate = Nimanyagha w'ada ngera klipu cha lwaka chaboie?
 about-playbook-how-validate-content-1 = Ikakaia <strong>kwamsikira</strong> na <strong>kwamuelelwa</strong>, ni nicha<strong>kurumirie klipu</strong>.
 about-playbook-how-validate-content-2 = <strong>Kaw'ona mundu oka na mdedo gusefwanane na ghwako, kuseleghe vlipu vape</strong> - huw'o niko ikundikie eri mashini itambukilo ni madedo gha kula mundu hata ngera wadedaa w'ada.
+about-playbook-how-validate-content-3 = Kaw'ona mdedo ghwashekeria <strong>kulemo ni kumanya niki chaw'iaghorwa</strong>, angu <strong>ndoghoi eka nyingi</strong>, angu w'andu w'azima na w'ew'eni w'eka w'idedagha</strong>, kwaro icho klipu chileghe. <accuracyLink>W'ona mazima zaidi aja dighorie seji kumanyagha klipu chaboie angu ndechiboie.
+about-playbook-how-validate-content-4 = Klupu chikaleghwa ni wandu 2, chalekerelwa kwa ifungu ja data izima itini ja nambai.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Nidimagha w'ada kupata na kutumia ifungu ja data?
 
 ## How are decisions made
 
