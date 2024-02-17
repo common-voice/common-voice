@@ -412,7 +412,16 @@ do_not_wish_to_say = Sikunde kughora
 # Gender
 other = Hinoko
 why-profile-title = Profaili ni ya indoki?
+why-profile-text = Kwa kudighoria maza rimu rako, ihi data esikiria kuingiragha kwa Common Voice ikaiagha ifwane  kuchumba kwa viria vetambukilwa ni madedo.
+dashboard = Dashibodi
+build-profile = Agha Fwana
+avatar = Mrumu
+goals = Malengo
+settings = Mipango
 edit-profile = Ghalua  Sura
+profile-create-success = Ola kwafanikilwa,  fwana yakatayari!
+profile-close = Funga
+profile-explanation = Nughiria maendelio ghako kuidia fwana yako na kuditesie eri data ya madedo ikaie gi.
 
 ## Profile - Email
 
