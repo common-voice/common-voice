@@ -611,9 +611,13 @@ about-playbook-how-record-quality = Mundu warekodii w'ada clipu cha lwaka chiko 
 about-playbook-how-record-content-1 = Deda kwa lwaka lwako lwa kawaida! Aha, dakunde kudede seji koni kudedagha toe - dekunda mdedo ghwako seji koni ghuko, na dekunda ngera kwaded nandighi angu mboa mboa, kudede w'oruw'o, na staili yaro, na kibori charo, sigha w'oruw'o.
 about-playbook-how-record-content-2 = Injika andu kuko na ndoghoi - yakundikie kusikirike kwa w'uraisi.
 about-playbook-how-record-content-3 = Shoma sentensi nicha - kusekakia malagho, kusekeghalusa malagho na kusekechuria ghangi mazima.
+about-playbook-how-record-content-4 = Hakikisha kurekodi kwaw'oka kande kusezoye kudeda, na kuserimishe kande kusemerie kudeda.
+about-playbook-how-record-content-5 = <accuracyLink>W'ona ghamu zaidi ghebonyeria seji mundu udimagha kumanya sentensi yaboie. </accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Didimagha w'ada kuzoghora kiteto aha Common Voice kwa chia ifwanagha?
+about-playbook-how-grow-language-content-1 = Kuneka w'ulalo eri wandu wa mbari rose w'idime kuchangia Common Voice, huw'o niko dimanyagha loli daagha mafungu gha data ghidimagha kutumilwa ni w'andu w'engi. Daboisire maw'utesia na mifano kudimagha kutumia!
 
 ## How to validate
 
