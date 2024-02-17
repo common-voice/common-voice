@@ -389,6 +389,17 @@ profile-form-language =
     .label = Kiteto
 profile-form-variant =
     .label = Ni { $language } chiao kudedagha?
+profile-form-variant-default-value = Ndokusaghue mbari ya madedo
+profile-form-custom-accent-help-text =
+    .label = Dieleshere madedo ghako ni gha kiw'ada?
+profile-form-custom-accent-placeholder-2 = Zoya kuandika kueleshere seji kudedagha
+profile-form-age =
+    .label = Miaka
+profile-form-gender-2 =
+    .label = Ko-Mnduki
+leaderboard-visibility =
+    .label = Vilongozi Kuw'ikwa W'orinyi angu Kuviswa
+hidden = Yaviswa
 edit-profile = Ghalua  Sura
 
 ## Profile - Email
