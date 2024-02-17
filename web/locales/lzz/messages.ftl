@@ -343,6 +343,7 @@ shortcut-vote-no = V
 shortcut-record-toggle = d
 shortcut-record-toggle-label = Doloç̌ari/ Dodgiti
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Nena gori
 shortcut-submit = Goikti
 shortcut-submit-label = K'ilibi mendancğoni
 
