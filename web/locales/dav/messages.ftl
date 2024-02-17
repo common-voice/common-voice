@@ -594,9 +594,13 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Kubonya saiti ikaie ya kimzenyu le, ijo jabonywa ja kiw'ada?
 about-playbook-how-localize-content-1 = Kutafsiri saiti ya Common Voice kwabonyerwa <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Fungua akaunti</pontoonAccountLink> ikakaia ndokune. Nao, saghua <strong>Timu</strong> ya kiteto chako nao kusaghuo mradi ghwa <pontoonCvLink>Common Voice</pontoonCvLink>. Kuw'onagha faili retafririlwa. Saghua imweri, nao kwaw'ona malagho gha Kingereza na kibalo cheandika tafsiri yaro.
+about-playbook-how-localize-content-3 = Kutafsiri kwabonya kufuma kwa Kingereza, ela kuw'onagha <strong>Malagho Mazima</strong> gha viteto vizima. Adada ikoni ja <strong>Profaili</strong>, nao kamba ya <strong>Mipango</strong> nao kwachuria viteto ivo vose kudedagha. Naisi ngulainyi ya mkonu gha kiw'omi, kuw'onagha tafsiri riw'angwagha <strong>Lokali</strong>. Tafsiri raw'oneka saitinyi ituku jimweri jikaida.
+about-playbook-how-localize-content-4 = Saiti yakaia tayari kufungulwa dime yamerelwa 75%.
+about-playbook-how-localize-content-5 = Kupata w'utesia, zighana video yedu yeeleshera
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Nichuria sentensi w'ada?
 
 ## How to record quality
 
