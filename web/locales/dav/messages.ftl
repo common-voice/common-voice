@@ -637,9 +637,12 @@ about-playbook-how-validate-content-4 = Klupu chikaleghwa ni wandu 2, chalekerel
 ## How to access dataset
 
 about-playbook-how-access-dataset = Nidimagha w'ada kupata na kutumia ifungu ja data?
+about-playbook-how-access-dataset-content-1 = Kwadima kuenda kwa <datasetsPage>peji ya mafungu gha data</datasetsPage>, kusaghuo kwakunde ifungu ja lii na viteto kukunde ni viyao, nao budua ifungu jako! Faili reko na <metadataLink>metadata raro</metadataLink></metadataLink>, sa kwa mfano w'adedi ni w'anduki, angu vlipu ngera varumirilo. Suti kungire imeili yako niko kudimagha kubudua ifungu ja data.
+about-playbook-how-access-dataset-content-2 = Ikakaia kwaw'ialola viria veagha mwadeli remanyisha mashini madedo, kwadima kuw'wadana na w'andu w'azima kibughinyi <discourseLink> aja Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Maamuzi gha mradi le, ghabonyaa gha kiw'ada?
 
 ## Glossary
 
