@@ -437,6 +437,11 @@ download-profile = Budua Data Yapo
 contribution-experience = Luma Lochanga
 skip-submission-feedback = Sikunde Kuneka Maghesho
 skip-submission-description = Ngelo ya kuchangia, dime kwafwada 'Ghenja', ndokuwunjirwagha maghesho mpaka kumerie kurekodi angu kuzoza viblelele visanu.
+skip-submission-note = W'ona: Kikakunda kughaluo fwana ya mchango ghwako, ni suti kusaghuo sena Kudeda angu Kusikiria.
+off = Rima
+on = Kora
+help-accent = Kwakunde w'utesia ghwa madedo?
+help-accent-explanation = Madedo ghako ni seji kughoragha malagho. Ghadima kushekerelwa ni andu kukaie, viteto vizima kudedagha na maza zima ndazi. Kwadima kughora ijojose kufwanilwagha jafwane aha.
 
 ## Profile - Email
 
