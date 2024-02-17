@@ -422,6 +422,10 @@ edit-profile = Ghalua  Sura
 profile-create-success = Ola kwafanikilwa,  fwana yakatayari!
 profile-close = Funga
 profile-explanation = Nughiria maendelio ghako kuidia fwana yako na kuditesie eri data ya madedo ikaie gi.
+thanks-for-account = Chaw'ucha kwa kumangisha akaunti yako, danu diaghe fwana yako.
+why-demographic = Iji jeko na manaki?
+why-demographic-explanation-2 = Data yako ya kiviso (sa w'uja: miaka, ko-mnduki, na madedo), yaditesia kuboisa data esikiria itumikagha kwa kufundisha mashini kumanya madedo gi. Sare yako na imeili jingi nderiindanishwagha na data kuchangie, na kwadima kusaghua ngera kwakunde sare yako ikaie mwari angu ivisike.
+accept-privacy = Ndekune ilagho mkakunda kutumia iri maza seji mueleshere kwa <privacyLink>Sera relindia Maza ra Kiviso</privacyLink> ya Mozilla
 
 ## Profile - Email
 
