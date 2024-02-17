@@ -357,12 +357,38 @@ shortcut-record-toggle-label = Rekodi/Sigha
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Rekodi kibelele sena
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Dagha ghaja kwarekodi
+shortcut-submit = W'uya
+shortcut-submit-label = Ghenja vibelele
+request-language-text = Ndokuw'onie kiteto chako kwa Common Voice kande?
+request-language-button = Lomba Kiteto
 
 ## ProjectStatus
 
+status-title = Aha mradi ghose ghwavika: Zighanenyi seji davika kula!
+status-contribute = Kumba Lwaka Lwako
+status-hours =
+    { $hours ->
+        [one] Huw'u isaa Jimweri jarumirilwa!
+       *[other] Huw'u masaa { $hours } gharumirilwa!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Malengo Ghiko Kavui: { $goal }
+english = Kingereza
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Sare
+profile-form-native-language =
+    .label = Kiteto cha Kuvailonyi
+profile-form-additional-language =
+    .label = Kiteto Chechuria
+profile-form-language =
+    .label = Kiteto
+profile-form-variant =
+    .label = Ni { $language } chiao kudedagha?
 edit-profile = Ghalua  Sura
 
 ## Profile - Email
