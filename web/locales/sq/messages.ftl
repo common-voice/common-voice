@@ -1714,6 +1714,30 @@ single-sentence-submission = Parashtrim i Një Fraze
 bulk-sentence-submission = Parashtrim Frazash Në Masë
 single-sentence = Frazë Njëshe
 bulk-sentences = Mori Frazash
+# Sentence Domain dropdown option
+agriculture = Bujqësi
+# Sentence Domain dropdown option
+automotive = Industri automjetesh
+# Sentence Domain dropdown option
+finance = Financë
+# Sentence Domain dropdown option
+food_service_retail = Ushqim, Shërbim dhe Shitje Me Pakicë
+# Sentence Domain dropdown option
+general = Të përgjithshme
+# Sentence Domain dropdown option
+healthcare = Shëndetësi
+# Sentence Domain dropdown option
+history_law_government = Histori, Ligje dhe Qeveri
+# Sentence Domain dropdown option
+language_fundamentals = Baza Gjuhësore (p.sh. Shfira, Shkronja, Para)
+# Sentence Domain dropdown option
+media_entertainment = Media dhe Spektakël
+# Sentence Domain dropdown option
+nature_environment = Natyrë dhe Mjedis
+# Sentence Domain dropdown option
+news_current_affairs = Lajme dhe Çështje Aktuale
+# Sentence Domain dropdown option
+technology_robotics = Teknologji dhe Robotikë
 
 ## REVIEW PAGE
 
