@@ -327,15 +327,36 @@ whats-public = Nikii chiko mwari kwa w'andu w'ose?
 email-not-public = Ndediw'ikagha imeili yako w'orinyi.
 recordings-and-locale-public = Mtalo ghwa vibelele kwarekodi na kwa viteto viao, iro maza rikaiagha w'orinyi.
 username-optin-public = Kwadima kusaghua kuw'ika sare yako w'orinyi angu isamanyike ni yani.
+demographic-deidentified-clarity-2 = Maza ndini rako kwasaghua kungira kwa data (sa w'uja: miaka, ko-mnduki, kiteto, na seji mdedagha kimzenyu) jingi nderiw'ikwagha w'orinyi, hata nderiw'ipwanywagha na akaunti yako andenyi ya vifungu va data. Kula kibelele cha madedo chirekodilo chaindanishwa na mdedi seji uko (ni muka, ni mundwaw'omi, waghane w'ada, na maza sa iro). Iji ni  kwa w'undu ghoisaraw'ua data nicha kwa malengo gha msaki. Kwa mfwano, msaki wadima kukunda kufundisha kompiuta imanye madedo gha irika jimu jiekeri.
+username-email-not-demographic = Sare yako na imeili yako, iro maza nderiindanishwagha na data ichapishiro.
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = r
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = k
+shortcut-play-toggle-label = Kaba/Sigha
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = e
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = a
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Rekodi/Sigha
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Rekodi kibelele sena
+shortcut-discard-ongoing-recording = ESC
 
 ## ProjectStatus
 
