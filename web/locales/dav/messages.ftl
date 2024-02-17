@@ -390,6 +390,8 @@ profile-form-language =
 profile-form-variant =
     .label = Ni { $language } chiao kudedagha?
 profile-form-variant-default-value = Ndokusaghue mbari ya madedo
+profile-form-accent =
+    .label = Madedo
 profile-form-custom-accent-help-text =
     .label = Dieleshere madedo ghako ni gha kiw'ada?
 profile-form-custom-accent-placeholder-2 = Zoya kuandika kueleshere seji kudedagha
@@ -453,12 +455,20 @@ connect-gravatar = Ngia na Gravatar
 gravatar_not_found = Imeili yako ndeiw'wadie gravatar
 file_too_large = Faili kwasaghua eka mbaa kuchumba
 avatar-uploaded = Avatari yajoswa
+max-file-size = Kusechumbishe kb{ $kb }
+remove-avatar = Inja Avatar
 
 ## Profile - Email
 
+manage-subscriptions = Mangia Viandikishiro Vako
+manage-email-subscriptions = Mangia Viandikishiro Vako va Imeili
+email-already-used = Imeili yaw'iatumika kwa akaunti zima
+add-language = Churia Kiteto
+change-email-setings = Ghalua imeili yako kuidia kwa Mipango aisi ya Uhu Nani
 
 ## FAQ
 
+faq-title = Makotio Gha Ngelo Kwa Ngelo
 
 ## ABOUT US
 
