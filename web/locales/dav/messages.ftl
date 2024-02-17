@@ -399,7 +399,19 @@ profile-form-gender-2 =
     .label = Ko-Mnduki
 leaderboard-visibility =
     .label = Vilongozi Kuw'ikwa W'orinyi angu Kuviswa
-hidden = Yaviswa
+hidden = Ivisiro
+visible = W'orinyi
+native-language =
+    .label = Kiteto Chevalwa
+profile-form-add-accent = Churia madedo maw'ishi "{ $inputValue }"
+profile-form-submit-save = Kira
+profile-form-submit-saved = Ikirilo
+male_masculine = Mndu wa Kiw'omi
+female_feminine = Mndu wa Kiw'aka
+do_not_wish_to_say = Sikunde kughora
+# Gender
+other = Hinoko
+why-profile-title = Profaili ni ya indoki?
 edit-profile = Ghalua  Sura
 
 ## Profile - Email
