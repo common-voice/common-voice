@@ -316,9 +316,16 @@ email-subscription-title-new = Ara kungire eri kudumilo magazeti gha Common Voic
 benefits = Fwaida
 rich-data = Bonya data yako ikaie inorie kwa kungira malagho ghamu ghako gha kiviso. Diinjagha agho gha kivisonyi imbiri eghiw'ika w'orinyi.
 improve-audio = Maza ndini kwaandika kwa Profaili yako (sa kwa mfwano kwaghane w'ada, angu oho ni mka angu m'ndwaw'omi) ghatesia data ya madedo itumilwagha kwa kufundisha kompiuta kumanya agho madedo nicha tiki.
+keep-track = Manya maendeleo ghako na vipimo varo kwa viteto vizima vizima ivi kwaw'iachangia.
+compare-progress = Zighana seji maendelio ghako ghifwane dime kwaghifwananisha na gha w'andu w'azima w'ichangie andu kose w'urumwengunyi.
+view-goals = Zighana maendelio ghako ghiindane na malengo ghako okumoni sena na ghaja gha mradi ghose.
+join-newsletter = Ngera kwakunde, ngia kukaie umu wa w'aja w'idumilwagha imeili maza mbishi ra ughu mradi.
 
 ## What's public
 
+whats-public = Nikii chiko mwari kwa w'andu w'ose?
+email-not-public = Ndediw'ikagha imeili yako w'orinyi.
+recordings-and-locale-public = Mtalo ghwa vibelele kwarekodi na kwa viteto viao, iro maza rikaiagha w'orinyi.
 
 ## Speak & Listen Shortcuts
 
