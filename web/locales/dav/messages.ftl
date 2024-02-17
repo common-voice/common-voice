@@ -315,6 +315,7 @@ email-subscription-title-new = Ara kungire eri kudumilo magazeti gha Common Voic
 
 benefits = Fwaida
 rich-data = Bonya data yako ikaie inorie kwa kungira malagho ghamu ghako gha kiviso. Diinjagha agho gha kivisonyi imbiri eghiw'ika w'orinyi.
+improve-audio = Maza ndini kwaandika kwa Profaili yako (sa kwa mfwano kwaghane w'ada, angu oho ni mka angu m'ndwaw'omi) ghatesia data ya madedo itumilwagha kwa kufundisha kompiuta kumanya agho madedo nicha tiki.
 
 ## What's public
 
