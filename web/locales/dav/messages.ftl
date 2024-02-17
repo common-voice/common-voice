@@ -618,6 +618,8 @@ about-playbook-how-record-content-5 = <accuracyLink>W'ona ghamu zaidi ghebonyeri
 
 about-playbook-how-grow-language = Didimagha w'ada kuzoghora kiteto aha Common Voice kwa chia ifwanagha?
 about-playbook-how-grow-language-content-1 = Kuneka w'ulalo eri wandu wa mbari rose w'idime kuchangia Common Voice, huw'o niko dimanyagha loli daagha mafungu gha data ghidimagha kutumilwa ni w'andu w'engi. Daboisire maw'utesia na mifano kudimagha kutumia!
+about-playbook-how-grow-language-content-2 = Maw'oneko
+about-playbook-how-grow-language-content-3 = Kwadima kupanga ituku kuw'ange w'andu wichchanga. Kwadima kughesha ni ilagho jikurie, ela hata. Mwadima kupwana kwa zumu, angu w'ushu kwa w'ushu ikakaia ndengwa ingi ndeiko. <eventTemplate>Sungia mifano na vitesio vedu vibonyeriagha  seji ituku sa ijo jidimagha kuendeshwa</eventTemplate>
 
 ## How to validate
 
