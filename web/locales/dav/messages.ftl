@@ -591,6 +591,9 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 ## How does localization work
 
+about-playbook-how-localize = Kubonya saiti ikaie ya kimzenyu le, ijo jabonywa ja kiw'ada?
+about-playbook-how-localize-content-1 = Kutafsiri saiti ya Common Voice kwabonyerwa <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Fungua akaunti</pontoonAccountLink> ikakaia ndokune. Nao, saghua <strong>Timu</strong> ya kiteto chako nao kusaghuo mradi ghwa <pontoonCvLink>Common Voice</pontoonCvLink>. Kuw'onagha faili retafririlwa. Saghua imweri, nao kwaw'ona malagho gha Kingereza na kibalo cheandika tafsiri yaro.
 
 ## How to add sentences
 
