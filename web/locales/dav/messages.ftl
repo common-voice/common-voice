@@ -410,6 +410,9 @@ profile-form-submit-save = Kira
 profile-form-submit-saved = Ikirilo
 male_masculine = Mndu wa Kiw'omi
 female_feminine = Mndu wa Kiw'aka
+intersex = mundu uko kuw'i
+transgender = Mundu wa kifirika
+non-binary = Si muka si mndwaw'omi
 do_not_wish_to_say = Sikunde kughora
 # Gender
 other = Hinoko
@@ -533,13 +536,55 @@ about-voice-contrib-subtitle = W'andu w'acha nao w'ichange chwaka raw'o.
 about-voice-validation-title = Kuhakikisha madedo
 about-voice-validation-subtitle = W'andu w'azima w'aahakikisha ivo vibelele va chwaka.
 about-dataset-release-title = Mafungu gha Data Ghilekerelo
+about-dataset-release-subtitle = Dalekeria mafungu gha data kila meri idadu.
+about-subscribe-text = Kwakunde kuendelie kudedanya na Common Voice?
+about-speak = Deda
+about-speak-text = W'andu w'ichangagha w'arekodi vibelele va chwaka kwa chia eshoma kufuma kwa bengi ya sentensi richangilo.
+about-listen-queue = Sikiria-Foleni
+about-listen-queue-text = Vibelele va chwaka vangirwa kwa foleni eri viw'oke kusikirilwa.
+about-listen = Sikiria
+about-listen-text = W'andu w'etumia w'isahihishe vlipu vichangilo, w'ikizighana ngera mndu ushomie washomie sentensi nicha.
+about-is-it-valid = Icho klipu cheko nicha?
+about-is-it-valid-text = Klipu cha lwaka chaw'ikwa alama ighoragha "valid" iji chanekwa kura ya Hee.
+about-yes-votes = ≥ 2 Kura ra Hee
+about-yes-votes-text = Kudima kungia kwa vifungu va data ra Common Voice, ni suti klipu cha lwaka chisahihisho ni w'andu w'aw'i w'ivitumiagha.
+about-no-votes = ≥ 2 Kura ra Hata
+about-no-votes-text = Mndu utumiagha ukalegha klipu cha lwaka chaw'unjwa kwa foleni. Chikaleghwa indo ja kaw'i, icho klipu cha lwaka chaenjwa andu kwa Makaburi gha Vlipu.
+about-dataset-new = Vifungu va Chwaka ra Common Voice
+about-dataset-new-text = Vifungu va chwaka ra Common Voice veka na maghana gha maelfu gha sampuli ra chwaka retesia w'atalamu w'eagha vombo vemanya chwaka.
+about-clip-graveyard = Makaburi gha Vlipu.
+about-clip-graveyard-text = Makaburi gha Vlipu gheka na vlipu va chwaka visedimie kungia kwa vifungu va data ra Common Voice. Sa vifungu va data, Makaburi gha Vlipu gheko mwari na vidimagha kupakulwa. Dakunde diw'ifunyire chaw'ucha aw'a w'andu na mashirika ghiteserie kwa ughu mradi:
+about-get-involved = Ngienyi mtesie
+about-get-involved-text-2 = Mwakunde mbinye Common Voice iboo kuchumba? Ni nicha! Dumenyi imeili angu <discourseLink> Discourse <discourseLink> mapwanyiko, enjenyi mazughunuko ghenyu gha tovuti kuidia <githubLink> GitHub </githubLink>, angu mungie <matrixLink> Matrix <matrixLink> Ipwanyikonyi jejia malagho
+about-stay-in-touch = Nidimagha w'ada kuendelia kudedanya?
+about-stay-in-touch-button = Kukuandukishe
+about-stay-in-touch-text-1 = <emailFragment>Kukuandikishe </emailFragment> w'andu w'ose w'iandikie marina ghaw'o wikunde kukufundisha kungia kwa kampeni, mabonyo na w'ungara ghwa maza ra Common Voice.
+about-stay-in-touch-text-2 = Kwadima kupwana na w'ambedu w'a w'ungara ghwa kiteto cha Mozilla kwa kungia <discourceLink>Discourse<discourseLink>kwa malagho gheja gha kiidakoni, angu <matrixLink>Matrix<matrixLink> kwa w'ushauri ghwa shwashwa.
+about-nav-why-common-voice = Angu kwaki?
+about-nav-how-it-works = Angu w'ada?
+about-nav-partners = W'ashirika
+about-nav-get-involved = Ngienyi mtesie
+about-nav-how-it-works-2 = Common Voice yabonyagha kazi w'ada?
+about-nav-playbook = Kukufundishe seji kudimagha kungia kutesie
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Kiteto ni kii kwa Common Voice?
+about-playbook-what-is-language-content-1 =
+    Reko chia raenga reghesha viteto. Kwa w'undu ghwa ija mibolo emanya madedo, Common Voice yaghorie huw'u, "kumanyika kose," angu "aw'a w'andu w'idedagha ichi 
+     kiteto w'adima kueliana w'ikatima?"
+about-playbook-what-is-language-content-2 = Dekunda sampuli ra madedo riboie kuchumba hswa kwa kuelelwa ni w'andu w'azima w'azima  w'isefwanane madedo. Eri iji ilagho jobonyeke, ni suti vifungu va chwaka vifume kwa w'andu w'engi w'isefwanane.
+about-playbook-what-is-language-content-3 = Viteto vimu veka na tofauti mbaa seji viandikwagha, malagho ghikurie, angu seji ghidedwagha. Kwa huw'o, daw'iareda <ctaLink> malagho "ghisekanye kichuku" <ctaLink> mwaka ghwa 2022.Iji ilagho janeka w'andu w'iko na w'ungara chia ebagua kiteto chaw'o aghadi ya vifungu va data vibaa.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Nadima w'ada kuchuria kiteto?
+about-playbook-how-add-language-content-1 = Ilagho ja imbiri, zighana ngera kiteto chako <languageLink> cheko tayari </languageLink>.Reko ngazi iw'i. Kughalusa kiteto kwa tovuti, na kutumbanya sentensi
+about-playbook-how-add-language-translating-heading = Kughalusa kiteto kwa tovuti
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> Zighana mlongozo seji kufwane kutumie Pontoon. </translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = Datumia kiria cha Mozilla chiw'angwa <pontoonLink>Pontoon</pontoonLink> kwa kutafsiri.
+about-playbook-how-add-language-collecting-sentences-heading = Kutumbanya sentensi
 
 ## How does localization work
 
