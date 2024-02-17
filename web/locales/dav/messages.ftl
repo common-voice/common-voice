@@ -620,6 +620,9 @@ about-playbook-how-grow-language = Didimagha w'ada kuzoghora kiteto aha Common V
 about-playbook-how-grow-language-content-1 = Kuneka w'ulalo eri wandu wa mbari rose w'idime kuchangia Common Voice, huw'o niko dimanyagha loli daagha mafungu gha data ghidimagha kutumilwa ni w'andu w'engi. Daboisire maw'utesia na mifano kudimagha kutumia!
 about-playbook-how-grow-language-content-2 = Maw'oneko
 about-playbook-how-grow-language-content-3 = Kwadima kupanga ituku kuw'ange w'andu wichchanga. Kwadima kughesha ni ilagho jikurie, ela hata. Mwadima kupwana kwa zumu, angu w'ushu kwa w'ushu ikakaia ndengwa ingi ndeiko. <eventTemplate>Sungia mifano na vitesio vedu vibonyeriagha  seji ituku sa ijo jidimagha kuendeshwa</eventTemplate>
+about-playbook-how-grow-language-content-4 = Vibughi va Simunyi
+about-playbook-how-grow-language-content-5 = Kwadima kutumia vibughi va simunyi kueresha wudumwa. Ghoria w'angu angu kwaki ihi kazi ikundikie ibonyo. W'adana mkonu na w'azima aw'a w'ijaa malagho sa haki ra viteto, AI ya lwaka, angu kusua and kupendelia kushekerelwagha ni teknoloji. W'ona maoni zaidi aja kwa <campaignLink>kuendesha kampeni ya w'andunyi, na maza rimu kudimagha kurumia sena</campaignLink>
+about-playbook-how-grow-language-content-6 = Kuw'wadiana mkonu na kumanyana
 
 ## How to validate
 
