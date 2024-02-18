@@ -631,19 +631,19 @@ about-playbook-how-grow-language-content-8 = <strong>Kaia mdungi!</strong> W'amz
 about-playbook-how-validate = Nimanyagha w'ada ngera klipu cha lwaka chaboie?
 about-playbook-how-validate-content-1 = Ikakaia <strong>kwamsikira</strong> na <strong>kwamuelelwa</strong>, ni nicha<strong>kurumirie klipu</strong>.
 about-playbook-how-validate-content-2 = <strong>Kaw'ona mundu oka na mdedo ghusefwanane na ghwako, kuseleghe vlipu vape</strong> - huw'o niko ikundikie eri mashini itambukilo ni madedo gha kula mundu, hata ngera wadedaa wa kiw'ada.
-about-playbook-how-validate-content-3 = Kaw'ona mdedo ghwashekeria <strong>kulemo ni kumanya niki chaw'iaghorwa</strong>, angu <strong>ndoghoi eka nyingi</strong>, angu w'andu w'azima na w'ew'eni w'eka w'idedagha</strong>, kwaro icho klipu chileghe. <accuracyLink>W'ona mazima zaidi aja dighorie seji kumanyagha klipu chaboie angu ndechiboie.
+about-playbook-how-validate-content-3 = Kaw'ona seji lumi lughora lwabonya <strong> kuelelwa kukuo <strong>, angu koka na <strong> ndoghoi nanyuma </strong>, angu ngera koko <strong> w'andu w'azima naw'o w'aw'iadeda w'ori </strong>, basi kuleghe icho klipu. <accuracyLink> W'ona maelezo ghichurilo kwa viwango vikundikie </accuracyLink>.
 about-playbook-how-validate-content-4 = Klupu chikaleghwa ni wandu 2, chalekerelwa kwa ifungu ja data izima itini ja nambai.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Nidimagha w'ada kupata na kutumia ifungu ja data?
-about-playbook-how-access-dataset-content-1 = Kwadima kuenda kwa <datasetsPage>peji ya mafungu gha data</datasetsPage>, kusaghuo kwakunde ifungu ja lii na viteto kukunde ni viyao, nao budua ifungu jako! Faili reko na <metadataLink>metadata raro</metadataLink></metadataLink>, sa kwa mfano w'adedi ni w'anduki, angu vlipu ngera varumirilo. Suti kungire imeili yako niko kudimagha kubudua ifungu ja data.
+about-playbook-how-access-dataset-content-1 = Kwadima kuenda aja <datasetsPage> peji ya vifungu va data <datasetsPage>, saghua chija kiteto kukunde aghadi ya viteto viko, nwao kuchipakuo! Faili reko na <metadataLink>eko na metadata yaro <metadataLink>, sa w'uja malagho gha ni w'anduki w'aw'iazighana na kusahihisha iro data. Ni suti kuneke imeili yako iji kukunde kupakua vifungu va data.
 about-playbook-how-access-dataset-content-2 = Ikakaia kwaw'ialola viria veagha mwadeli remanyisha mashini madedo, kwadima kuw'wadana na w'andu w'azima kibughinyi <discourseLink> aja Discourse</discourseLink>.
 
 ## How are decisions made
 
-about-playbook-how-project-governance = Maamuzi gha mradi le, ghabonyaa gha kiw'ada?
-about-playbook-how-project-governance-content-1 = Mozilla Common Voice edima kuboiswa ni vibughi vizima vizima w'adederii w'a hachi, w'ashomi w'a viteto, w'asayansi w'a data, w'aelimu na w'aboisi w'a programu kufuma w'urumwengunyi ghose. Mradi ghomangilwa ni Mozilla Foundation.
+about-playbook-how-project-governance = Maamuzi gha mradi le, ghabonywaa gha kiw'ada?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice edima kuboiswa ni vibughi va w'adederii hachi, w'ashomi w'a viteto, w'asayansi w'a data, w'aelimu na w'aboisi w'a programu kufuma w'urumwengunyi ghose. Mrudi ghomangilwa ni Mozilla Foundation.
 about-playbook-how-project-governance-content-2 = W'ulongozi ghodu ghomangishwa ni iri nguro:
 about-playbook-how-project-governance-content-3 = W'ulindiri ghwa malagho gha kiviso, w'ulindiri ghwa ndengwa na Kukaia mwari.
 about-playbook-how-project-governance-content-4 = Kungira w'aisanga andenyi na kuw'ineka w'uhuru ghobonya w'uamuzi.
