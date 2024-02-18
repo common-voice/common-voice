@@ -680,6 +680,7 @@ data-download-deny = Hata
 data-download-license = Leseni: <licenseLink>CC-0</licenseLink>
 data-download-modal = Huw'u kwamba kupakua msigo ghwa data ghughane <size>{ $size }</size>, diendelie?
 data-subtitle = Daw'uyaagha dataseti ya chwaka iko mwari kwa w'andu w'ose na idimagha kutumilwa ni w'andu w'ose kufundisha apu ritambukilwagha ni madedo.
+data-explanatory-text = Isi daw'ona angu mafungu gha data mabaa sena ghidimagha kutumilwa ni w'andu w'ose ghatesia kudunga maza mbishi na kushindana kuboie kwa teknoloji ra agha matuku. W'urumwengu ghose daw'uyatesiana ihi kazi na karibisha kula mundu uw'adane na isi. Lengo yedu ni kubonya teknoloji ya madedo ikaie ya w'andu w'ose, seji koni diko w'andu w'a fwana zima zima w'urumwengunyi.
 
 ## Datasets Page
 
