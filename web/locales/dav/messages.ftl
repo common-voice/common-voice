@@ -656,6 +656,11 @@ about-playbook-how-project-governance-content-7 = <governanceLink> Shoma zaidi a
 glossary = Kamusi
 localization = W'ukitina
 localization-explanation = Ihi nio chia ditumiagha efasiria na kuw'usa malagho gha vifumbu na viteto vizima.
+sentence-collection-explanation = Kutumbanya sentensi riseko ra mndungi, angu kuandika mbishi kurilikeriagha rikaie ra w'andu w'ose.
+hours-recorded-explanation = Mtalo ghwa masaa ghose gha chwaka rirekodilo.
+hours-validated-explanation = Mtalo ghwa masaa gha chwaka rirekodilo nema rikahakikishwa kwa kunekwa "Hee" ni w'andu 2 aghadi ya 3. Ivo vabonyeria kusoghodera lengo mbaa ya mradi ya masaa 10k.
+sst = Madedo-kuw'unjwa-maandiko (SST)
+sst-explanation = Teknoloji ra madedo-kuw'unjwa-maandiko (SST) raghalusa data ya chwaka iw'uye maandiko.
 
 ## Error pages
 
