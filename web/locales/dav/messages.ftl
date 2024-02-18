@@ -686,6 +686,11 @@ data-other-title = Dataseti ra chwaka zima
 data-other-goto = Ghenda kwa { $name }
 data-other-download = Pakua data
 data-bundle-button = Pakua msigo ghwa dataseti
+data-bundle-description = Data ya Common Voice andwamweri na dataseti rose ra chwaka riko aha naighu.
+release-version = Ifunyo
+dataset-date = Nili
+license = Leseni: <licenseLink>{ $license }</licenseLink>
+license-mixed = Iranganyiro
 
 ## Datasets Page
 
