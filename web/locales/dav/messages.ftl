@@ -661,9 +661,12 @@ hours-recorded-explanation = Mtalo ghwa masaa ghose gha chwaka rirekodilo.
 hours-validated-explanation = Mtalo ghwa masaa gha chwaka rirekodilo nema rikahakikishwa kwa kunekwa "Hee" ni w'andu 2 aghadi ya 3. Ivo vabonyeria kusoghodera lengo mbaa ya mradi ya masaa 10k.
 sst = Madedo-kuw'unjwa-maandiko (SST)
 sst-explanation = Teknoloji ra madedo-kuw'unjwa-maandiko (SST) raghalusa data ya chwaka iw'uye maandiko.
+de-identified = Isemanyike w'andu w'aro ni w'eke ani
+de-identified-explanation = Seji profaili ya mchangi iviswagha kufuma kwa iri chwaka unosere dime rakapakilwa eri rikumbo kwa ija dataseti idulwagha.
 
 ## Error pages
 
+error-title-404 = Iyo peji daisow'a
 
 ## Data
 
