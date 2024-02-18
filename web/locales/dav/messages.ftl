@@ -594,7 +594,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Kubonya saiti ikaie ya kimzenyu le, ijo jabonywa ja kiw'ada?
 about-playbook-how-localize-content-1 = Kutafsiri saiti ya Common Voice kwabonyerwa <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Fungua akaunti</pontoonAccountLink> ikakaia ndokune. Nao, saghua <strong>Timu</strong> ya kiteto chako nao kusaghuo mradi ghwa <pontoonCvLink>Common Voice</pontoonCvLink>. Kuw'onagha faili retafririlwa. Saghua imweri, nao kwaw'ona malagho gha Kingereza na kibalo cheandika tafsiri yaro.
-about-playbook-how-localize-content-3 = Kutafsiri kwabonya kufuma kwa Kingereza, ela kuw'onagha <strong>Malagho Mazima</strong> gha viteto vizima. Adada ikoni ja <strong>Profaili</strong>, nao kamba ya <strong>Mipango</strong> nao kwachuria viteto ivo vose kudedagha. Naisi ngulainyi ya mkonu gha kiw'omi, kuw'onagha tafsiri riw'angwagha <strong>Lokali</strong>. Tafsiri raw'oneka saitinyi ituku jimweri jikaida.
+about-playbook-how-localize-content-3 = Kutafsiri kwabonywa kufuma kwa Kingereza, ela kuw'onagha <strong>Malagho Mazima</strong> gha viteto vizima. Fwada ikoni ja <strong>Profaili</strong>, nao mrizi ghwa <strong>Mipango</strong> nema kwachuria viteto ivo vose kudedagha. Aho cha naisi ngulainyi, mkonu ghwa kiw'omi, kuw'onagha tafsiri riw'angwagha <strong>Lokali</strong>. Tafsiri raw'oneka saitinyi ituku jimweri jikaida.
 about-playbook-how-localize-content-4 = Saiti yakaia tayari kufungulwa dime yamerelwa 75%.
 about-playbook-how-localize-content-5 = Kupata w'utesia, zighana video yedu yeeleshera
 
@@ -630,7 +630,7 @@ about-playbook-how-grow-language-content-8 = <strong>Kaia mdungi!</strong> W'amz
 
 about-playbook-how-validate = Nimanyagha w'ada ngera klipu cha lwaka chaboie?
 about-playbook-how-validate-content-1 = Ikakaia <strong>kwamsikira</strong> na <strong>kwamuelelwa</strong>, ni nicha<strong>kurumirie klipu</strong>.
-about-playbook-how-validate-content-2 = <strong>Kaw'ona mundu oka na mdedo gusefwanane na ghwako, kuseleghe vlipu vape</strong> - huw'o niko ikundikie eri mashini itambukilo ni madedo gha kula mundu hata ngera wadedaa w'ada.
+about-playbook-how-validate-content-2 = <strong>Kaw'ona mundu oka na mdedo ghusefwanane na ghwako, kuseleghe vlipu vape</strong> - huw'o niko ikundikie eri mashini itambukilo ni madedo gha kula mundu, hata ngera wadedaa wa kiw'ada.
 about-playbook-how-validate-content-3 = Kaw'ona mdedo ghwashekeria <strong>kulemo ni kumanya niki chaw'iaghorwa</strong>, angu <strong>ndoghoi eka nyingi</strong>, angu w'andu w'azima na w'ew'eni w'eka w'idedagha</strong>, kwaro icho klipu chileghe. <accuracyLink>W'ona mazima zaidi aja dighorie seji kumanyagha klipu chaboie angu ndechiboie.
 about-playbook-how-validate-content-4 = Klupu chikaleghwa ni wandu 2, chalekerelwa kwa ifungu ja data izima itini ja nambai.
 
@@ -643,9 +643,19 @@ about-playbook-how-access-dataset-content-2 = Ikakaia kwaw'ialola viria veagha m
 ## How are decisions made
 
 about-playbook-how-project-governance = Maamuzi gha mradi le, ghabonyaa gha kiw'ada?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice edima kuboiswa ni vibughi vizima vizima w'adederii w'a hachi, w'ashomi w'a viteto, w'asayansi w'a data, w'aelimu na w'aboisi w'a programu kufuma w'urumwengunyi ghose. Mradi ghomangilwa ni Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = W'ulongozi ghodu ghomangishwa ni iri nguro:
+about-playbook-how-project-governance-content-3 = W'ulindiri ghwa malagho gha kiviso, w'ulindiri ghwa ndengwa na Kukaia mwari.
+about-playbook-how-project-governance-content-4 = Kungira w'aisanga andenyi na kuw'ineka w'uhuru ghobonya w'uamuzi.
+about-playbook-how-project-governance-content-5 = Nguma na kumanyika.
+about-playbook-how-project-governance-content-6 = W'uhachi kwa mipande rose.
+about-playbook-how-project-governance-content-7 = <governanceLink> Shoma zaidi aighu ya w'utawali ghodu <governanceLink>
 
 ## Glossary
 
+glossary = Kamusi
+localization = W'ukitina
+localization-explanation = Ihi nio chia ditumiagha efasiria na kuw'usa malagho gha vifumbu na viteto vizima.
 
 ## Error pages
 
