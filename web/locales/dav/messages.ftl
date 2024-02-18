@@ -691,6 +691,7 @@ release-version = Ifunyo
 dataset-date = Nili
 license = Leseni: <licenseLink>{ $license }</licenseLink>
 license-mixed = Iranganyiro
+data-download-singleword-title = Pakua Kibengula cha Ilagho Jimweri
 
 ## Datasets Page
 
