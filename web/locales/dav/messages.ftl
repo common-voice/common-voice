@@ -667,6 +667,8 @@ de-identified-explanation = Seji profaili ya mchangi iviswagha kufuma kwa iri ch
 ## Error pages
 
 error-title-404 = Iyo peji daisow'a
+error-content-404 = Ngera <homepageLink>peji ya mzinyi</homepageLink> yedu yadima kutesia? Kukotia iswali, loli ngia kibalo chiw'angwaa <matrixLink>Matrix </matrixLink>, kumba iriso aja <githubLink>Github</githubLink> keredoka shida ringi ratajwa, angu ghenda kibalo chedu chemumua malagho na w'ambenyu aja <discourseLink>Discourse</discourseLink>.
+error-title-503 = Ola mashini redu kwa idakoni ranyama kunyama kusepangilo.
 
 ## Data
 
