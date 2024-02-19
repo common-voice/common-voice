@@ -1749,6 +1749,7 @@ public-domain = Publiek domein
 citing-sentences = Bronnen van zinnen vermelden
 adding-sentences = Zinnen toevoegen
 reviewing-sentences = Zinnen beoordelen
+sentence-domain = Zinsdomein
 public-domain-explanation-1 = Het is heel belangrijk dat alle tekstzinnen <publicDomain>publiek domein</publicDomain> (<cc0>cc0</cc0>) zijn, aangezien de Common Voice-dataset wordt uitgegeven onder een cc0-licentie. Upload een zin alleen als u hier zeker van bent en voeg altijd de relevante bronvermelding toe.
 public-domain-explanation-2 = De beste zinnen voor het bouwen van een bruikbare spraakherkenningsengine zijn in moderne spreektaal. Enkele ideeën om u te helpen bij het aanmaken van zinnen zijn;
 public-domain-explanation-3 = Maak zelf moderne, informele zinnen of met uw vrienden of taalgemeenschap – bijvoorbeeld door middel van een ‘write-a-thon’
