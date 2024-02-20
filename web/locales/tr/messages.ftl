@@ -266,7 +266,10 @@ default-tagline = Mozilla Common Voice makinelere gerçek insanların nasıl kon
 home-cta = Konuşarak katkı sağla!
 wall-of-text-start = Ses doğaldır, insanidir. Bu yüzden makinelerimiz için kullanılabilir ses teknolojileri üretmekle ilgileniyoruz. Ama ses sistemleri yaratmak için çok büyük miktarlarda ses verisine ihtiyaç var.
 wall-of-text-more-mobile = Büyük şirketlerin kullandığı verilerin çoğu insanların çoğunluğunun kullanımına açık değil. Biz bunun yenileşmeyi bastırdığını düşünüyoruz. Bu yüzden ses tanıma sistemlerini herkese açık hale getirmek için Common Voice projesini başlattık.
-wall-of-text-more-desktop = Herkesin cihazlara ve web'e yönelik yenilikçi uygulamalar geliştirmede kullanabileceği, açık kaynaklı bir ses veritabanı oluşturmamıza yardımcı olmak için sesinizi bağışlayabilirsiniz.<lineBreak></lineBreak>Gerçek insanların nasıl konuştuğunu makinelere öğretmek için bir cümle okuyun. Kaliteyi artırmak için diğer gönüllülerin kayıtlarını kontrol edin. Bu kadar basit!
+wall-of-text-more-desktop =
+    Herkesin cihazlara ve web’e yönelik yenilikçi uygulamalar geliştirmede kullanabileceği, açık kaynaklı bir ses veritabanı oluşturmamıza yardımcı olmak için sesinizi bağışlayabilirsiniz.
+    Gerçek insanların nasıl konuştuğunu makinelere öğretmek için bir cümle okuyun.
+    Kaliteyi artırmak için diğer gönüllülerin kayıtlarını kontrol edin. Bu kadar basit!
 wall-of-text-first = Ses doğaldır, insanidir. Bu yüzden makinelerimiz için kullanılabilir ses teknolojileri üretmekle ilgileniyoruz. Ama ses sistemleri yaratmak için geliştiricilerin çok büyük miktarlarda ses verisine ihtiyacı var.
 wall-of-text-second = Büyük şirketlerin kullandığı verilerin çoğu insanların çoğunluğunun kullanımına açık değil. Biz bunun yenileşmeyi bastırdığını düşünüyoruz. Bu yüzden ses tanıma sistemlerini herkese açık ve erişilebilir hale getirmek için Common Voice projesini başlattık.
 show-wall-of-text = Devamını oku
@@ -595,8 +598,8 @@ about-nav-playbook = Nasıl katılacağınızı öğrenin
 
 about-playbook-what-is-language = Common Voice'ta dil nedir?
 about-playbook-what-is-language-content-1 = Dil üzerine düşünmenin birçok yolu var. Konuşma tanıma modelleri geliştirme amacı söz konusu olduğunda, Common Voice "karşılıklı anlaşılabilirlik" veya "Bu dili konuşanlar birbirlerini genelde anlayabilirler mi?" üzerine odaklanmayı öneriyor.
-about-playbook-what-is-language-content-2 = Konuşma modellerinin çok çeşitli konuşmacıları anlamada daha iyi olmasını istiyoruz. Bunun için ses veri kümesilerinin birçok farklı insanı temsil etmesi gerekir.
-about-playbook-what-is-language-content-3 = Bazı diller arasında gramer, söz dağarcığı ve telaffuz açısından çok büyük farklılıklar vardır. Bu nedenle, 2022'de <ctaLink>"varyantları" uygulamaya sokuyoruz</ctaLink>. Bu özellik, topluluklara daha büyük veri kümeleri içinde kendi dillerini ayırt etmelerinin bir yolunu sunuyor.
+about-playbook-what-is-language-content-2 = Konuşma modellerinin çok çeşitli konuşmacıları anlamada daha iyi olmasını istiyoruz. Bunun için ses veri kümelerinin birçok farklı insanı temsil etmesi gerekir.
+about-playbook-what-is-language-content-3 = Bazı diller arasında dilbilgisi, söz dağarcığı ve telaffuz açısından çok büyük farklılıklar vardır. Bu nedenle, 2022'de <ctaLink>"varyantları" uygulamaya sokuyoruz</ctaLink>. Bu özellik, topluluklara daha büyük veri kümeleri içinde kendi dillerini ayırt etmelerinin bir yolunu sunuyor.
 
 ## How do I add a language
 
@@ -973,7 +976,7 @@ report-title = Rapor gönderin
 report-ask = Bu cümleyle ilgili hangi sorunları yaşıyorsunuz?
 report-offensive-language = Hakaret
 report-offensive-language-detail = Cümlenin kaba veya saldırgan bir üslubu var.
-report-grammar-or-spelling = Dil bilgisi / yazım hatası
+report-grammar-or-spelling = Dilbilgisi / yazım hatası
 report-grammar-or-spelling-detail = Cümlede gramer veya yazım hatası var.
 report-different-language = Farklı dil
 report-different-language-detail = Konuştuğumdan farklı bir dilde yazılmış.
