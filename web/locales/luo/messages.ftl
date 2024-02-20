@@ -480,6 +480,7 @@ faq-why-mission-a = Mozila oyangore ne kano weche kendo miyo ji duto thuolo mayo
 faq-what-cv-and-deepspeech-q = Ere pogruok manie kind Common Voice kod Deep Speech?
 faq-is-goal-assistant-q = Dibed ni dwaro mar Common Voice en ni oger jakony mar wuoyo?
 faq-do-want-native-q = Ok an japinyni to ang'eyo dhogi kendo awuoyo gi lep mopogore, bende pod anyalo chiwo duonda?
+faq-do-want-native-a = Ee, wadwaro duondi ahinya. Common Voice dwaro kabind dwonde mopogore opogore mondi teknologi mibolosi oti maber gi duonde duto. Emomiyo kata jok mapuojore dhok moro nyalo chiwo duondgi.
 faq-why-different-speakers-q = Angomomiyo udwaro ji mangeny mawacho dhok ka dhok?
 faq-why-my-lang-q = Angomomiyo dhowa ok omedi kanyo?
 faq-what-quality-q = Ranginy mane midwaro e duol momaki mondo duolno otigodo e deche?
