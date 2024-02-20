@@ -904,6 +904,11 @@ help-reach-hours-pluralized =
         [one] Konywa chopo saa { $hours } e dho { $language } gi chenro ma mari mar tiyo
        *[other] Konywa chopo seche { $hours } e dho { $language } gi chenro ma mari mar tiyo
     }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Kony Common Voice ochopie saa { $hours } e dhok kod keto gombo mari mar tich.
+       *[other] Kony Common Voice ochopie seche { $hours } e dhok kod keto gombo mari mar tich.
+    }
 set-a-goal = Ket chenro mar tiyo
 cant-decide = Ok inyal yiero?
 how-many-per-day = Ber ahinya! weche adiwa odiochieng kodiochieng?
