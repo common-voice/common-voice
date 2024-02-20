@@ -518,7 +518,7 @@ faq-where-src-from-2-a =
     Kaynak metinlerimiz, özgün katılımcı bağışlarının yanı sıra <italic>It’s a Wonderful Life</italic> gibi kamuya açık film senaryolarındaki diyaloglardan oluşur.
     
     Kaynak cümlelerimizi bu <githubLink>GitHub klasöründe</githubLink> görüntüleyebilirsiniz.
-faq-why-not-ask-read-q = Neden insanlardan farklı dillerdeki kitapları veya Wikipedia makalelerini okumalarını istemiyorsunuz?
+faq-why-not-ask-read-q = Neden insanlardan farklı dillerdeki kitapları veya Vikipedi makalelerini okumalarını istemiyorsunuz?
 faq-why-not-ask-read-a = Common Voice veri kümesini olabildiğince yararlı hale getirmek için yalnızca Creative Commons (CC0) lisanslı kaynak metinlere izin vermeye karar verdik. CC0 standardını kullanmak, kaynak metin bulup derlemenin daha zor olduğu anlamına geliyor; ancak elde edilen ses verilerini kullanım kısıtlamaları olmadan ve Mozilla'dan izin almadan herkesin kullanmasına izin veriyor. Sonuç olarak, çok dilli veri kümesini araştırmacılar, üniversiteler, girişimler, devletler, sosyal amaçlı kuruluşlar ve bu işe meraklı kişiler dahil herkes için olabildiğince faydalı hale getirmek istiyoruz.
 faq-why-account-q = Neden hesap açayım?
 faq-is-account-public-q = Hesap bilgilerimi herkes görecek mi?
@@ -631,7 +631,7 @@ about-playbook-how-localize-content-5 = Açıklayıcı videomuzu izleyin
 about-playbook-how-add-sentences = Nasıl cümle ekleyebilirim?
 about-playbook-how-add-sentences-content-1 = <strong>Cümle Toplayıcı</strong>, kamuya açık cümleleri toplamamızı ve doğrulamamızı sağlayan bir araçtır. Önce <scAccountLink>bir hesap oluşturmanız gerekecek</scAccountLink>. Ardından dilinizi <strong>profilinize</strong> ekleyin. Sonra cümleleri <strong>ekleyebilir</strong> veya önceden eklenmiş cümleleri <strong>inceleyebilirsiniz</strong>.
 about-playbook-how-add-sentences-content-2 = Cümlelerin Common Voice'a dahil olabilmesi için iki kişi tarafından incelenip kabul edilmesi gerekir. <languageGuidelinesLink>Burada</languageGuidelinesLink> dilinizin yönergelerini oluşturabilirsiniz. Cümleler <licenseLink>kamu malı</licenseLink> olmalı ve 15 kelimeden kısa olmalıdır. Bir metnin sahibinden <waiverLink>feragat sürecimizi kullanarak metnin lisansını CC0 yapmasını</waiverLink> isteyebilir ve commonvoice@mozilla.com adresinden bize gönderebilirsiniz.
-about-playbook-how-add-sentences-content-3 = Wikipedia'daki kısa cümlelerden yararlanmak için <scraperLink>Cümle çekici</scraperLink>'yi kullanabilirsiniz.
+about-playbook-how-add-sentences-content-3 = Vikipedi'deki kısa cümlelerden yararlanmak için <scraperLink>Cümle çekici</scraperLink>'yi kullanabilirsiniz.
 
 ## How to record quality
 
