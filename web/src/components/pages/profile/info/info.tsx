@@ -34,9 +34,9 @@ import { isEnrolled } from '../../dashboard/challenge/constants';
 import { UserLanguage } from 'common';
 
 import ProfileInfoLanguages from './languages/languages';
+import ExpandableInformation from '../../../expandable-information/expandable-information';
 
 import './info.css';
-import ExpandableInformation from '../../../expandable-information/expandable-information';
 
 const Options = withLocalization(
   ({
@@ -271,6 +271,23 @@ function ProfileInfo({
           </LabeledSelect>
         </Localized>
       </div>
+
+      <ExpandableInformation summaryLocalizedId="help-sex-or-gender-changes">
+        <Localized
+          id="help-sex-or-gender-changes-explanation"
+          elems={{
+            learnMoreLink: (
+              <a
+                href="https://foundation.mozilla.org/en/blog/expanding-gender-options-on-common-voice/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link"
+              />
+            ),
+          }}>
+          <div />
+        </Localized>
+      </ExpandableInformation>
 
       <ProfileInfoLanguages
         userLanguages={userLanguages}

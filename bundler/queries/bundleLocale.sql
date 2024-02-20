@@ -2,6 +2,7 @@ SELECT
   clips.id,
   clips.client_id,
   path,
+  original_sentence_id as sentence_id,
   REPLACE(sentence, '\r\n', ' ') AS sentence,
   COALESCE(sentence_domains.domain, '') AS sentence_domain,
   COALESCE(SUM(votes.is_valid), 0) AS up_votes,

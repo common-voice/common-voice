@@ -458,6 +458,8 @@ help-accent = Need some help with accent?
 help-accent-explanation = Your accent is the way you pronounce words. It can be shaped by where you have lived, which other languages you speak and lots of other factors. You can share any information you feel is relevant here.
 help-variants = Need some help with variants?
 help-variants-explanation = Variants are a specific form of a language - for example shared by those living in a geography or commmunity. Sometimes these are called dialects.
+help-sex-or-gender-changes = Need help with the Sex or Gender changes?
+help-sex-or-gender-changes-explanation = We are offering more options to give people more choice in what they tell us about their sex or gender identity. Please self-describe in the way that feels most natural to you. <learnMoreLink>Learn more about our approach to sex and gender.</learnMoreLink>
 
 ## Profile - Email
 browse-file-title = Upload an image file
