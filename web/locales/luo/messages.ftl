@@ -530,6 +530,7 @@ about-yes-votes-text = Mondo duol momaki odonjie deche mar duol mar Common Voice
 about-no-votes = mokalo ji 2 adagi
 about-no-votes-text = Ka ngato okwero duol momaki to iduoke e laini. Ka duolno okwed mar ariyo gi ng'at machielo, igole to itere e liendi duol.
 about-dataset-new = Deche manie Common Voice
+about-dataset-new-text = Deche duol mag Common Voice nigi duonde momaki manyalo chopo miche kod alufe, to duonde gi konyo loso teknoloji matiyogi kendo nyalo fwenyo duol.
 about-clip-graveyard = Liendi duol
 about-get-involved = Donjie e riuruok
 about-stay-in-touch = Ere kaka anyalo tudora kodu?
@@ -553,6 +554,7 @@ about-playbook-how-add-language-translating-heading = Loko weche manie migawoni
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ngii puonjruok kaka itiyo kod Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Choko weche
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ngii puonjruok marwa kaka itiyo kod gir choko weche</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 = Inyalo <sentenceCollectorLinkAdd>medo weche matin</sentenceCollectorLinkAdd>, kata inyalo <bulkImportDocsLink>keto weche mathoth dichiel kitiyo kod ranginy mar "Github" </bulkImportDocsLink>. Par mana ni weche go dwaroni obedie<licenseLink>(e aluora mag oganda) CC0</licenseLink> kata inyalo ndiko magi iwuon.
 
 ## How does localization work
 
