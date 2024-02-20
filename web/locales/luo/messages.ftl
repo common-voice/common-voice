@@ -584,10 +584,12 @@ about-playbook-how-grow-language = Ere kaka wanyalo gero dhok moro e Common Voic
 about-playbook-how-grow-language-content-2 = Chenro
 about-playbook-how-grow-language-content-4 = Oinga mag tudruok e mbui
 about-playbook-how-grow-language-content-6 = Riuruok kod tudruok
+about-playbook-how-grow-language-content-8 = <strong>Ti gi rieko!</strong> Joma wacho dhou biro bedo mopogore kod mamoko, kendo magi mana yore matin manyalo konyou chako.
 
 ## How to validate
 
 about-playbook-how-validate = Ere kaka anyalo ngeyo ni apuotho duol mosemaki koso?
+about-playbook-how-validate-content-1 = Kinyalo <strong>winjo gi </strong> kendo inyalo <strong>winjo tiend wach </strong>, to inyalo <strong>puotho gi</strong>.
 about-playbook-how-validate-content-2 = <strong>Kik iwed duonde machuok ma jomoko omako nikech gin kod kabind duol mopogore ni mari<strong> - nikech duonde ji duto beyo to konyo masinde ng'eyo duonde jiduto.
 about-playbook-how-validate-content-3 = Kiparo ni kaka osom wechego miyo <strong> wechego bedo matek ng'eyo</strong>, kata kaponi nitie <strong>   koko mangeny mawinjore </strong>, kata ka nitie <strong>jomoko wuoyo be</strong>, to ikwayo mondo iwed duol momakno. <accuracyLink> Som mangeny kuom puonjruok mawaketo kanyo mar lony madwarore</accuracyLink>
 about-playbook-how-validate-content-4 = To ka duol momaki okwed gi ji ariyo (2), ibiro gole e migawo mopogore e kwan mar weche.
@@ -599,6 +601,9 @@ about-playbook-how-access-dataset = Ere kaka anyalo yudo kendo tiyo kod kwan mar
 ## How are decisions made
 
 about-playbook-how-project-governance = Ere kaka weche mag chenro go iloso?
+about-playbook-how-project-governance-content-2 = Lochwa ogur e sirni mag:
+about-playbook-how-project-governance-content-3 = Weche mag ngato owuon, rito kod ler mar weche.
+about-playbook-how-project-governance-content-4 = Riuruok mag oganda kendo ngado paro.
 
 ## Glossary
 
