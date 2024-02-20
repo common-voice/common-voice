@@ -150,6 +150,7 @@ nhe = Dho jomeksik['
 nhi = Dho jomeksiko
 nia = Dhonias
 nl = Dhokaburu
+nn-NO = Dhonorweyi
 nr = Dhoisindebele ma milambo
 nso = Sotho ma Nyanduat
 ny = Dhochinyanja
@@ -447,6 +448,7 @@ help-accent = Idwaro kony kod kabind duol?
 help-accent-explanation = Kit dhok en ayanga kaka iwuoyo. Onyalo lokore kaluowore kod kuma isedakie, kata kod kit dhok moko miwacho to kod weche mamoko. Koro inyalo wacho wach moro amora miparoni donjore kae.
 help-variants = Idwaro kony kod mopogore opogore?
 help-variants-explanation = Kabind duonde gin kit dhok, kuom ranyisi kaka dho joma odak kanyachiel kata e gweng'. Sechemoko iluongo gi ni dhoudi.
+help-sex-or-gender-changes = Idwaro kony loko weche mag kit ngato kaka dichuo kata dhako?
 
 ## Profile - Email
 
@@ -486,6 +488,7 @@ faq-do-want-native-a = Ee, wadwaro duondi ahinya. Common Voice dwaro kabind dwon
 faq-why-different-speakers-q = Angomomiyo udwaro ji mangeny mawacho dhok ka dhok?
 faq-why-different-speakers-a = Ngeny deche mag duol ok nigi duonde motingo ji duto, ngeny duonde gin mag <articleLink>jomachuo kod jomanigi pesa</articleLink>. Kabind duonde gi dhok maonge e deche gi gin mag jomaok nyal konyore kendgi. Ngeny teknoloji mag dunde ok nyal poge duond jomamine maber.  Emomiyo wadwaro kabind dwonde mopogore opogore e deche wa mag duol.
 faq-why-my-lang-q = Angomomiyo dhowa ok omedi kanyo?
+faq-why-my-lang-a = Common voice tiyo gi ji duto, kendo dhok te momedi omed gi jomochiure. Dwagomb mondo imed dhou! <languageRequestLink> Penj kaka inyalo medo dhou</languageRequestLink>
 faq-what-quality-q = Ranginy mane midwaro e duol momaki mondo duolno otigodo e deche?
 faq-why-10k-hours-q = Angomomiyo idwaro dhok ka dhok ochop seche 10,000 mar duol momaki?
 faq-why-10k-hours-a = Magi e seche mag duol momaki madwarore mondo olosgo teknoloji manyalo loko weche koe duol.
@@ -660,6 +663,7 @@ license-mixed = Onywandore/oriwore
 review-terms = Kitiyo gi Common Voice, tiende ni iyie gi <termsLink>chike duto</termsLink> kod <privacyLink>chike matayo weche ma ng'ato owuon</privacyLink>
 terms-agree = Ayie
 terms-disagree = Ok ayiego
+review-aborted = Kano weche otamre. Idwaro rucho duonde misemako?
 review-submit-title = Non maber kaeto ior
 review-submit-msg = Erokamano kuom mako duondi!<lineBreak></lineBreak> Koro inyalo ngio gi kendo kaeto ichiu dondi piny ka.
 review-recording = Non maber/ kendo
