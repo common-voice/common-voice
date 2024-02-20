@@ -147,6 +147,7 @@ nb-NO = Dhonorwegia ma Bokmal
 nd = Dhoisindebele ma nyanduat
 ne-NP = Dhonepali
 nhe = Dho jomeksik['
+nhi = Dho jomeksiko
 nia = Dhonias
 nl = Dhokaburu
 nr = Dhoisindebele ma milambo
@@ -247,6 +248,7 @@ help = Kony
 contact = Tudruok
 privacy = Weche ma ng'ato owuon
 terms = Chike
+cookies = dero matin
 faq = Penjo ma sakasa
 content-license-text = weche duto mondik yudore e <licenseLink>Creative Commons license</licenseLink>
 share-title = Konywa yudo jomoko mondo okonywa kod duol
@@ -496,6 +498,7 @@ faq-how-privacy-q = Ere kaka upando fwenyruok mag joma osolonu duonde?
 faq-what-determine-identity-q = Tiende nango kiwacho ni ok anyal "fwenyo" joma chiwo duodgi ne deche mag Common Voice?
 faq-what-is-cv = Common Voice en ango?
 faq-using-cv = Tiyo kod Common Voice
+faq-description = Common Voice en chenro e migap Mozilla moketi mondo opuonj mashinde kaka ji loso.
 faq-search-for-answers =
     .label = Many duoko
 
@@ -503,6 +506,7 @@ faq-search-for-answers =
 
 about-title = Ango momiyo Common Voice?
 how-does-it-work-title-v2 = Ere kaka Common Voice ni tiyo?
+how-does-it-work-text = Wakwayo ji duto mondo ochiure ne loso deche moyangore mag duol momaki. Chiu duondi, puodh duonde momaki gi jomoko, ket deche obed maber ne ji duto.
 
 ## How does it work section
 
@@ -617,7 +621,7 @@ sentence-collection = choko weche
 sentence-collection-explanation = Choko weche kowuok kuom aluora ma galamoro, kata  ndiko weche manyien midhiketie aluora ma galamoro.
 hours-recorded-explanation = Kwand seche duol momaki mawasechoko nyaka sani.
 sst = Loko weche koe duol
-sst-explanation = Teknoloji maloko weche koe duol kau duol to lokogi weche mondiki.
+sst-explanation = Teknoloji maloko weche-koe-duol kau duol to lokogi weche mondiki.
 de-identified = Ok ong'ere ni en ng'a
 
 ## Error pages
