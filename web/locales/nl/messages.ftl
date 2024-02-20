@@ -806,6 +806,11 @@ no-information-available = Geen informatie beschikbaar
 dataset-metadata-sex = Geslacht
 # dataset metadata - age of contributor
 dataset-metadata-age = Leeftijd
+donate-modal-message = Uw gegevensset wordt gedownload!
+dataset-donate-modal-heading = Wist u dat…
+donate-modal-explanation-1 = het bijna een miljoen dollar per jaar kost om de gegevenssets te hosten en het platform te verbeteren voor de meer dan 100 taalgemeenschappen die afhankelijk zijn van wat we doen?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Als u open, inclusieve gegevens waardeert – doneer dan vandaag nog!</bold>
 
 ## Download Modal
 
@@ -1744,6 +1749,7 @@ public-domain = Publiek domein
 citing-sentences = Bronnen van zinnen vermelden
 adding-sentences = Zinnen toevoegen
 reviewing-sentences = Zinnen beoordelen
+sentence-domain = Zinsdomein
 public-domain-explanation-1 = Het is heel belangrijk dat alle tekstzinnen <publicDomain>publiek domein</publicDomain> (<cc0>cc0</cc0>) zijn, aangezien de Common Voice-dataset wordt uitgegeven onder een cc0-licentie. Upload een zin alleen als u hier zeker van bent en voeg altijd de relevante bronvermelding toe.
 public-domain-explanation-2 = De beste zinnen voor het bouwen van een bruikbare spraakherkenningsengine zijn in moderne spreektaal. Enkele ideeën om u te helpen bij het aanmaken van zinnen zijn;
 public-domain-explanation-3 = Maak zelf moderne, informele zinnen of met uw vrienden of taalgemeenschap – bijvoorbeeld door middel van een ‘write-a-thon’

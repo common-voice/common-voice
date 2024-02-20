@@ -147,6 +147,7 @@ nb-NO = Dhonorwegia ma Bokmal
 nd = Dhoisindebele ma nyanduat
 ne-NP = Dhonepali
 nhe = Dho jomeksik['
+nhi = Dho jomeksiko
 nia = Dhonias
 nl = Dhokaburu
 nr = Dhoisindebele ma milambo
@@ -247,6 +248,7 @@ help = Kony
 contact = Tudruok
 privacy = Weche ma ng'ato owuon
 terms = Chike
+cookies = dero matin
 faq = Penjo ma sakasa
 content-license-text = weche duto mondik yudore e <licenseLink>Creative Commons license</licenseLink>
 share-title = Konywa yudo jomoko mondo okonywa kod duol
@@ -454,6 +456,7 @@ connect-gravatar = Tudruok kod Gravatar
 gravatar_not_found = Onge gravata moyud e barupi mar mbui
 file_too_large = Sanduk wach miyierono duong ahinya
 avatar-uploaded = Avatar oseruako e kompyuta
+max-file-size = { $kb }kb moromo
 remove-avatar = Gol Avatar
 
 ## Profile - Email
@@ -479,15 +482,23 @@ faq-why-mission-a = Mozila oyangore ne kano weche kendo miyo ji duto thuolo mayo
 faq-what-cv-and-deepspeech-q = Ere pogruok manie kind Common Voice kod Deep Speech?
 faq-is-goal-assistant-q = Dibed ni dwaro mar Common Voice en ni oger jakony mar wuoyo?
 faq-do-want-native-q = Ok an japinyni to ang'eyo dhogi kendo awuoyo gi lep mopogore, bende pod anyalo chiwo duonda?
+faq-do-want-native-a = Ee, wadwaro duondi ahinya. Common Voice dwaro kabind dwonde mopogore opogore mondi teknologi mibolosi oti maber gi duonde duto. Emomiyo kata jok mapuojore dhok moro nyalo chiwo duondgi.
 faq-why-different-speakers-q = Angomomiyo udwaro ji mangeny mawacho dhok ka dhok?
+faq-why-different-speakers-a = Ngeny deche mag duol ok nigi duonde motingo ji duto, ngeny duonde gin mag <articleLink>jomachuo kod jomanigi pesa</articleLink>. Kabind duonde gi dhok maonge e deche gi gin mag jomaok nyal konyore kendgi. Ngeny teknoloji mag dunde ok nyal poge duond jomamine maber.  Emomiyo wadwaro kabind dwonde mopogore opogore e deche wa mag duol.
 faq-why-my-lang-q = Angomomiyo dhowa ok omedi kanyo?
 faq-what-quality-q = Ranginy mane midwaro e duol momaki mondo duolno otigodo e deche?
 faq-why-10k-hours-q = Angomomiyo idwaro dhok ka dhok ochop seche 10,000 mar duol momaki?
+faq-why-10k-hours-a = Magi e seche mag duol momaki madwarore mondo olosgo teknoloji manyalo loko weche koe duol.
 faq-how-calc-hours-q = Ere kaka Common Voice kwano seche?
 faq-where-src-from-2-q = Ere kuma weche go duto wuokie?
 faq-why-not-ask-read-q = Ok upenj ji mondo osom buge kata ndiko manie Wikipedia kuom dhok mopogore opogore?
+faq-why-account-q = Ango momiyo onengo adonji e akaunt?
+faq-is-account-public-q = Be ni weche mag akaont mara nie ayanga?
+faq-how-privacy-q = Ere kaka upando fwenyruok mag joma osolonu duonde?
+faq-what-determine-identity-q = Tiende nango kiwacho ni ok anyal "fwenyo" joma chiwo duodgi ne deche mag Common Voice?
 faq-what-is-cv = Common Voice en ango?
 faq-using-cv = Tiyo kod Common Voice
+faq-description = Common Voice en chenro e migap Mozilla moketi mondo opuonj mashinde kaka ji loso.
 faq-search-for-answers =
     .label = Many duoko
 
@@ -495,6 +506,7 @@ faq-search-for-answers =
 
 about-title = Ango momiyo Common Voice?
 how-does-it-work-title-v2 = Ere kaka Common Voice ni tiyo?
+how-does-it-work-text = Wakwayo ji duto mondo ochiure ne loso deche moyangore mag duol momaki. Chiu duondi, puodh duonde momaki gi jomoko, ket deche obed maber ne ji duto.
 
 ## How does it work section
 
@@ -513,8 +525,11 @@ about-dataset-release-title = Yao deche
 about-dataset-release-subtitle = Wayao deche mag weche dweche adek ka dweche adek.
 about-subscribe-text = Idwaro ni mondo imed tutori kod Common Voice?
 about-speak = Losi / wuo
+about-speak-text = Jok mochiwore somo weche koae dech weche mochoki to gimako duondegi.
 about-listen-queue = Riedo mar chiko it
+about-listen-queue-text = Duonde mosemaki iketo e riedo maikogi ne joma biro winjogi.
 about-listen = Chik iti
+about-listen-text = Jomoko puodho ber mar duonde momaki, kagi nono ka ng'ama ne osomo wach be nosome maber.
 about-is-it-valid = Be duol momakino ni kare?
 about-is-it-valid-text = Duol momaki ni "kare" ka ngato opuodhe ni en kare.
 about-yes-votes = mokalo ji 2 oyie
@@ -522,10 +537,12 @@ about-yes-votes-text = Mondo duol momaki odonjie deche mar duol mar Common Voice
 about-no-votes = mokalo ji 2 adagi
 about-no-votes-text = Ka ngato okwero duol momaki to iduoke e laini. Ka duolno okwed mar ariyo gi ng'at machielo, igole to itere e liendi duol.
 about-dataset-new = Deche manie Common Voice
+about-dataset-new-text = Deche duol mag Common Voice nigi duonde momaki manyalo chopo miche kod alufe, to duonde gi konyo loso teknoloji matiyogi kendo nyalo fwenyo duol.
 about-clip-graveyard = Liendi duol
 about-get-involved = Donjie e riuruok
 about-stay-in-touch = Ere kaka anyalo tudora kodu?
 about-stay-in-touch-button = Ndikri piny
+about-stay-in-touch-text-1 = <emailFragment>Donji</emailFragment> e migapwa mar barup mbui mondo inge kaka inyalo bedo kanyakla  gi gik madhi mbele e Common Voice.
 about-nav-why-common-voice = Nango?
 about-nav-how-it-works = Nade?
 about-nav-partners = Jokanyakla
@@ -537,14 +554,18 @@ about-nav-playbook = Puojri kaka inyalo betie achiel
 ## What is a language
 
 about-playbook-what-is-language = Dhok en ango e Common Voice?
+about-playbook-what-is-language-content-2 = Wadwaro ni mondo teknoloji matiyo gi duol oti maber gi duonde mopogore opogore. Nikech ma, deche mag duonde nyaka bed gi ji moa e kuonde mopogore.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Ere kaka damed dhok moro?
+about-playbook-how-add-language-content-1 = Mokwongo, ngi ka dhou <languageLink>nitie</languageLink>. Ka dhou onge, inyalo <languageRequestLink>kwayo medo dhou</languageRequestLink>. Nitiere kidienje ariyo. Loko chenroni e dhou kendo choko weche.
 about-playbook-how-add-language-translating-heading = Loko weche manie migawoni
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ngii puonjruok kaka itiyo kod Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Choko weche
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ngii puonjruok marwa kaka itiyo kod gir choko weche</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 = Inyalo <sentenceCollectorLinkAdd>medo weche matin</sentenceCollectorLinkAdd>, kata inyalo <bulkImportDocsLink>keto weche mathoth dichiel kitiyo kod ranginy mar "Github" </bulkImportDocsLink>. Par mana ni weche go dwaroni obedie<licenseLink>(e aluora mag oganda) CC0</licenseLink> kata inyalo ndiko magi iwuon.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ngi mangeny kuom choko weche</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -556,24 +577,30 @@ about-playbook-how-localize-content-5 = Tem ingianena wechewago mondo okonyi
 ## How to add sentences
 
 about-playbook-how-add-sentences = Ere kaka anyalo medo weche?
+about-playbook-how-add-sentences-content-1 = Inyali medo weche e <writePageLink>otas ndiko weche</writePageLink> kata inyalo nono weche e <reviewPageLink>otas nono weche</reviewPageLink>.
 about-playbook-how-add-sentences-content-3 = Inyalo tiyo kod <scraperLink> gir golo weche</scraperLink> mondi igol weche koae Wikipedia.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Ere kaka anyalo mako duol machuok kod ranginy mamalo?
+about-playbook-how-record-content-1 = Losi kitiyogi duondi mapile! Wayiegi duondi miwuoyogo pile ka pile -  wadwaro duondi kaka en, kendo wadwaro teko mar koko mar duondi kod kit duondi owuogi kaka pile.
 about-playbook-how-record-content-2 = Bed kama onge koko - kamokwe mondo wawinji maler.
 about-playbook-how-record-content-3 = Som weche go duto maler - kik iwe moro amora kata kik imed wecheni iwuon.
+about-playbook-how-record-content-4 = Tem ingi ni chenro mako duol kapok ichako mako duondi, kendo chenro kik chung kapok itieko.
 about-playbook-how-record-content-5 = <accuracyLink>Ne puonjruok mamoko kaka onego itim</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Ere kaka wanyalo gero dhok moro e Common Voice?
 about-playbook-how-grow-language-content-2 = Chenro
 about-playbook-how-grow-language-content-4 = Oinga mag tudruok e mbui
 about-playbook-how-grow-language-content-6 = Riuruok kod tudruok
+about-playbook-how-grow-language-content-8 = <strong>Ti gi rieko!</strong> Joma wacho dhou biro bedo mopogore kod mamoko, kendo magi mana yore matin manyalo konyou chako.
 
 ## How to validate
 
 about-playbook-how-validate = Ere kaka anyalo ngeyo ni apuotho duol mosemaki koso?
+about-playbook-how-validate-content-1 = Kinyalo <strong>winjo gi </strong> kendo inyalo <strong>winjo tiend wach </strong>, to inyalo <strong>puotho gi</strong>.
 about-playbook-how-validate-content-2 = <strong>Kik iwed duonde machuok ma jomoko omako nikech gin kod kabind duol mopogore ni mari<strong> - nikech duonde ji duto beyo to konyo masinde ng'eyo duonde jiduto.
 about-playbook-how-validate-content-3 = Kiparo ni kaka osom wechego miyo <strong> wechego bedo matek ng'eyo</strong>, kata kaponi nitie <strong>   koko mangeny mawinjore </strong>, kata ka nitie <strong>jomoko wuoyo be</strong>, to ikwayo mondo iwed duol momakno. <accuracyLink> Som mangeny kuom puonjruok mawaketo kanyo mar lony madwarore</accuracyLink>
 about-playbook-how-validate-content-4 = To ka duol momaki okwed gi ji ariyo (2), ibiro gole e migawo mopogore e kwan mar weche.
@@ -585,16 +612,29 @@ about-playbook-how-access-dataset = Ere kaka anyalo yudo kendo tiyo kod kwan mar
 ## How are decisions made
 
 about-playbook-how-project-governance = Ere kaka weche mag chenro go iloso?
+about-playbook-how-project-governance-content-2 = Lochwa ogur e sirni mag:
+about-playbook-how-project-governance-content-3 = Weche mag ngato owuon, rito kod ler mar weche.
+about-playbook-how-project-governance-content-4 = Riuruok mag oganda kendo ngado paro.
+about-playbook-how-project-governance-content-5 = Nengo kendo ngeyo.
+about-playbook-how-project-governance-content-6 = Ngado bura mar ji duto.
+about-playbook-how-project-governance-content-7 = <governanceLink>som thoth wechewa kaka lochwa obet</governanceLink>
 
 ## Glossary
 
 glossary = Weche
+localization = Loko dho chenro
+localization-explanation = Maendi ekaka waloko dhok kod weche manie chenro e dhok mopogore opogore.
 sentence-collection = choko weche
 sentence-collection-explanation = Choko weche kowuok kuom aluora ma galamoro, kata  ndiko weche manyien midhiketie aluora ma galamoro.
+hours-recorded-explanation = Kwand seche duol momaki mawasechoko nyaka sani.
+sst = Loko weche koe duol
+sst-explanation = Teknoloji maloko weche-koe-duol kau duol to lokogi weche mondiki.
+de-identified = Ok ong'ere ni en ng'a
 
 ## Error pages
 
 error-title-404 = Ne ok wany yudo wang kalatasno ne in
+error-title-503 = Chenro ok nyal yudore gisani.
 error-code = Okethore { $code }
 
 ## Data
@@ -602,6 +642,10 @@ error-code = Okethore { $code }
 data-download-button = Gol Deche manie Common Voice
 data-download-yes = Eee!
 data-download-deny = Ooyo
+data-download-license = Chik: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ichiegni chako golo weche maromo <size>GB { $size }</size>, wadhi mbele?
+data-subtitle = Wagero deche duol momaki moyangore ne oganda kendo ji duto nyalo tiyogo tiego teknoloji matiyo gi dhok mopogore opogore.
+data-get-started = <speechBlogLink>Chak tiegori kod weche teknoloji ma tiyogi duol</speechBlogLink>
 data-other-title = Deche mamoko mag duol...
 data-other-goto = Dhi ka { $name }
 data-other-download = Golo Deche
@@ -627,6 +671,7 @@ language = Dhok
 # File size in gigabytes
 size = Duong'
 validated-hr-total = Kwan seche duto mosenon
+audio-format = kit duol mosemaki
 dataset-splits = Pogo (Iga kod Chal - dichuo kata dhako)
 number-of-voices = Kwan duonde
 splits = Pogruok
@@ -637,6 +682,7 @@ recorded-hours = Seche mosemaki
 subscribe = Ndikri
 other-datasets = Deche mamoko mag duol
 feedback-q = Ingi duoko?
+data-other-ted-name = Dero mar TED-LIUM
 go-discourse = Dhiye thuon wach
 go-languages-page = Dhi e otas motingo dhok
 ready-to-validate = Iseikori konyo puodho weche?
@@ -650,6 +696,9 @@ dataset-metadata-sex = Chal - dhako kata dichuo
 dataset-metadata-age = Iga
 donate-modal-message = Golo deche dhi mbele!
 dataset-donate-modal-heading = Bende ingeyo...
+donate-modal-explanation-1 = Bende ingeyoni en machiegni dola million e yiga mondo okan deche e chenroni kendo mondo chenroni oting dhoudi mokalo mia achiel matiyogi kode?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Kigeno weche moyangore kendo mariwoji - to chiuri kawuono!</bold>
 
 ## Download Modal
 
@@ -673,20 +722,25 @@ request-language-title = Dhok Midwaro
 request-language-form-language =
     .label = Dhok
 request-language-success-title = Kwayo dhok osechopo maber, erokamo.
+request-language-success-content = Wabiro tudore kodi machiegni gi weche mamoko kaka inyalo medo dhou e chenro mar Common Voice.
 select-language = Yier dhok
 other-language = Dhok moro
 
 ## Request Language Pages
 
 request-language-heading = Penj mar dhok manyien
+request-language-explanation-1 = Ngiyanena ka dhou en achiel kuom dhok monyis e <languagesPageLink>otas motingo dhok e Common Voice </languagesPageLink>. Kaok iyudo to ndik otasni kaeto <strong>iboorni barup mbui manyiso kaka inyalo medo dhou</strong>.
+request-language-explanation-2 = Wabiro bende <strong>nyiso jatendwa mochungne migawono mondo onge ni idwa tiyo kodgi</strong>, mondo gimiyi kony minyalo dwaro.
 request-language-form-email =
     .label = Barupi mar mbui
 request-language-form-info =
     .label = Weche mawuoyo kuom dhok
+request-language-form-info-explanation = Med weche duto kaka inyalo kuom dhokni. Weche nyalo bedo kaka:
 request-language-form-info-explanation-list-1 = Nyinge mag dhou
 request-language-form-info-explanation-list-2 = <isoCodeLink>Nembni mag ISO</isoCodeLink> kongere
 # Success page
 request-language-success-heading = Erokamano! Iseoro kwayo mar dhok manyien
+request-language-success-list-1 = Onego bedni iyudo barup mbui maleroni kidienje monego ilu mondo imed dhou e Common Voice
 
 ## Languages Overview
 
@@ -741,9 +795,13 @@ record-again-instruction = Ber! <recordIcon></recordIcon> Mak duondi maluwo
 record-again-instruction2 = Itimo maber, mak duondi kendo <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ma e mogik!
 review-tooltip = Non kendo kaeto ichak imak duolno kae kimedodhi
+share-clip = Or duondi mimako
+share-common-voice = Orne jomoko Common Voice
 review-instruction = Ngi kendo dual misemako kaeto ichaki mak duol kendo kaponi dwarore
 record-submit-tooltip = { $actionType } Chiu kiseikori
 clips-uploaded = Duonde momaki mosekan
+record-abort-title = Tiek mako duondi mokuongo?
+record-abort-text = Wuok sani tiendeni ibiro lalo tich misetimo
 record-abort-submit = Or duonde momaki
 record-abort-continue = Tiek mako duol
 record-abort-delete = Wuogi kaeto iruch duonde mosemaki
@@ -761,7 +819,10 @@ speak-empty-state-cta = Med weche
 speak-loading-error = Neokwanyal yudoni weche minyalo wacho. Wakwayo ni item kendo bange.
 record-button-label = Mak duondi
 share-title-new = <bold>Konywa</bold> yudo duonde mamoko
+keep-track-profile = Nge kuma isechopo gi tich kod akaunt
 login-to-get-started = Donji kaa ndikri mondo ichaki
+target-segment-first-card = Ichiuri ne migau mokuongo.
+target-segment-generic-card = Ichiuri ne migau
 target-segment-first-banner = Konywa gero migawo mokwongo mar Common Voice e { $locale }
 target-segment-add-voice = med duondi
 target-segment-learn-more = Med puonjori
@@ -853,6 +914,11 @@ help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] Konywa chopo saa { $hours } e dho { $language } gi chenro ma mari mar tiyo
        *[other] Konywa chopo seche { $hours } e dho { $language } gi chenro ma mari mar tiyo
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Kony Common Voice ochopie saa { $hours } e dhok kod keto gombo mari mar tich.
+       *[other] Kony Common Voice ochopie seche { $hours } e dhok kod keto gombo mari mar tich.
     }
 set-a-goal = Ket chenro mar tiyo
 cant-decide = Ok inyal yiero?
