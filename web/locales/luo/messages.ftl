@@ -483,6 +483,7 @@ faq-why-mission-q = Ang'o momiyo Common voice en achiel mar tije ma Mozilla timo
 faq-why-mission-a = Mozila oyangore ne kano weche kendo miyo ji duto thuolo mayot mar yudo wechegi. Mondo gitim mano, gidwaro tiego jo nonro mag mbui kokadho kuom Common Voice. Kaka weche mag dongruok mag duol medo landore kendo kadho kuonde mane ong'ere nitiye kodgi, wan gi geno ni ji duto nyaka yud konyruok marom. Mano tiende ni nyaka koro ter nyalo kuom dhok mamoko kendo rwako lep mopogore kod kwan mar oganda e seche migero kendo itemo nonro mar teknoloji mar duol. Common Voice en mwandu mar oganda mar ng'ato ang'ata kendo grube  mag Mozilla kod jok magere e piny ngima osechako tiyo kode e chenro maggi.
 faq-what-cv-and-deepspeech-q = Ere pogruok manie kind Common Voice kod Deep Speech?
 faq-is-goal-assistant-q = Dibed ni dwaro mar Common Voice en ni oger jakony mar wuoyo?
+faq-is-goal-assistant-a = Gombo Common Voice en ni ng'ato ang'ata nyalo loso teknoloji matiyo gi duol kaka teknoloji manyalo tiego duond ng'ato, kata teknoloji moramora matiyo gi duonde momaki. Teknoloji manyalo loso kaka ndano en achiel kuom teknoloji minyal losi gi deche duol momaki.
 faq-do-want-native-q = Ok an japinyni to ang'eyo dhogi kendo awuoyo gi lep mopogore, bende pod anyalo chiwo duonda?
 faq-do-want-native-a = Ee, wadwaro duondi ahinya. Common Voice dwaro kabind dwonde mopogore opogore mondi teknologi mibolosi oti maber gi duonde duto. Emomiyo kata jok mapuojore dhok moro nyalo chiwo duondgi.
 faq-why-different-speakers-q = Angomomiyo udwaro ji mangeny mawacho dhok ka dhok?
@@ -675,7 +676,9 @@ review-delete-recordings = Ruch gik mane amakogo
 ## Datasets Page
 
 datasets-heading = Deche
+datasets-headline = Wagero deche duol momaki motingo duonde mopogore moyangore ne oganda kendo ji duto nyalo tiyogo tiego teknoloji matiyo gi dhok mopogore opogore.
 language = Dhok
+download-dataset-header = Gol deche
 # File size in gigabytes
 size = Duong'
 validated-hr-total = Kwan seche duto mosenon
