@@ -525,6 +525,7 @@ about-dataset-release-title = Yao deche
 about-dataset-release-subtitle = Wayao deche mag weche dweche adek ka dweche adek.
 about-subscribe-text = Idwaro ni mondo imed tutori kod Common Voice?
 about-speak = Losi / wuo
+about-speak-text = Jok mochiwore somo weche koae dech weche mochoki to gimako duondegi.
 about-listen-queue = Riedo mar chiko it
 about-listen = Chik iti
 about-is-it-valid = Be duol momakino ni kare?
