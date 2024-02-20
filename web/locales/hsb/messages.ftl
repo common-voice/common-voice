@@ -448,6 +448,7 @@ help-accent = Trjebaće pomoc wo akcenće?
 help-accent-explanation = Waš akcent je wašnje, kak słowa wurjekujeće. Jeho charakter wot toho wotwisuje, hdźež sće žiwy był, kotre druhe rěče rěčiće a wot wjele druhich faktorow. Móžeće wšě informacije zdźělić, kotrež za relewantne maće.
 help-variants = Trjebaće pomoc za warianty?
 help-variants-explanation = Warianty su specifiska forma rěče - rěča so na přikład wot ludźi, kotřiž su we wěstym regionje abo zhromadźenstwje žiwi. Druhdy wone so dialekty mjenuja.
+help-sex-or-gender-changes = Trjebaće pomoc při měnjenju splaha abo splažneje identity?
 
 ## Profile - Email
 
@@ -1680,6 +1681,7 @@ technology_robotics = Technologija a robotika
 sc-review-rules-title = Wotpowěduje sada směrnicam?
 report-sc-different-language = Druha rěč
 report-sc-different-language-detail = Je w druhej rěči napisana hač přepruwuju.
+review-error = Při přepruwowanju tuteje sady je zmylk nastał
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Přewjedźemy někotre změny
 sc-redirect-page-subtitle-2 = Stajće nam prašenja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mejlu</emailLink>.
