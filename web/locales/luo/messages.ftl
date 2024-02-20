@@ -604,10 +604,14 @@ about-playbook-how-project-governance = Ere kaka weche mag chenro go iloso?
 about-playbook-how-project-governance-content-2 = Lochwa ogur e sirni mag:
 about-playbook-how-project-governance-content-3 = Weche mag ngato owuon, rito kod ler mar weche.
 about-playbook-how-project-governance-content-4 = Riuruok mag oganda kendo ngado paro.
+about-playbook-how-project-governance-content-5 = Nengo kendo ngeyo.
+about-playbook-how-project-governance-content-6 = Ngado bura mar ji duto.
+about-playbook-how-project-governance-content-7 = <governanceLink>som thoth wechewa kaka lochwa obet</governanceLink>
 
 ## Glossary
 
 glossary = Weche
+localization = Loko dho chenro
 sentence-collection = choko weche
 sentence-collection-explanation = Choko weche kowuok kuom aluora ma galamoro, kata  ndiko weche manyien midhiketie aluora ma galamoro.
 
