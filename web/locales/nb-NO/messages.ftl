@@ -401,8 +401,6 @@ native-language =
 profile-form-add-accent = Legg til ny tilpasset dialekt «{ $inputValue }»
 profile-form-submit-save = Lagre
 profile-form-submit-saved = Lagret
-male = Mann
-female = Kvinne
 # Gender
 other = Annet
 why-profile-title = Hvorfor opprette en profil?
@@ -547,7 +545,10 @@ about-no-votes-text = Når en bruker underkjenner et lydklipp, blir det returner
 about-dataset-new = Common Voice-datasettet
 about-dataset-new-text = Common Voice-datasettet inneholder hundretusenvis av lydklipp som hjelper utviklere med å lage talegjenkjenningsverktøy.
 about-clip-graveyard = Lydklippfyllinga
-about-clip-graveyard-text = Lydklippfyllinga inneholder lydklipp som ikke ble tatt med i Common Voice-datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengelig for nedlasting.
+about-clip-graveyard-text =
+    Lydklippfyllinga inneholder lydklipp som ikke ble tatt med i Common Voice-datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengelig for nedlasting.
+    
+    Vi vil takke følgende personer og organisasjoner for deres hjelp med prosjektet:
 about-get-involved = Bli med
 about-get-involved-text-2 =
     Vil du hjelpe til med å gjøre Common Voice enda  bedre?
@@ -1121,6 +1122,9 @@ see-less = <chevron></chevron>Se mindre
 # [/SentenceCollector]
 
 sentence-collection = Setningsinnsamling
+
+## WRITE PAGE
+
 
 ## REVIEW PAGE
 
