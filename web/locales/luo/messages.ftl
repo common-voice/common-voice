@@ -657,6 +657,7 @@ release-version = Loko mopogore
 dataset-date = Tarik
 license = Otas mar rusa:<licenseLink>{ $license }</licenseLink>
 license-mixed = Onywandore/oriwore
+review-terms = Kitiyo gi Common Voice, tiende ni iyie gi <termsLink>chike duto</termsLink> kod <privacyLink>chike matayo weche ma ng'ato owuon</privacyLink>
 terms-agree = Ayie
 terms-disagree = Ok ayiego
 review-submit-title = Non maber kaeto ior
