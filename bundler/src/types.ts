@@ -2,6 +2,7 @@ export type ClipRow = {
   id: string
   client_id: string
   path: string
+  sentence_id: string
   sentence: string
   sentence_domain: string
   up_votes: string
@@ -15,8 +16,8 @@ export type ClipRow = {
 }
 
 export const REPORTED_SENTENCES_COLUMNS = [
-  'sentence',
   'sentence_id',
+  'sentence',
   'locale',
   'reason',
 ] as const
