@@ -449,6 +449,8 @@ help-accent = Hulp nodig met accent?
 help-accent-explanation = Uw accent is de manier waarop u woorden uitspreekt. Het kan worden gevormd door waar u hebt gewoond, welke andere talen u spreekt en tal van andere factoren. U kunt hier alle informatie delen die u relevant vindt.
 help-variants = Hulp nodig bij varianten?
 help-variants-explanation = Varianten zijn een specifieke vorm van een taal – bijvoorbeeld gesproken door mensen die in een gebied of gemeenschap wonen. Soms worden dit dialecten genoemd.
+help-sex-or-gender-changes = Hulp nodig bij de geslachts- of genderwijzigingen?
+help-sex-or-gender-changes-explanation = We bieden meer opties om mensen meer keuze te geven in wat ze ons vertellen over hun geslacht of genderidentiteit. Beschrijf uzelf op de manier die voor u het meest natuurlijk aanvoelt. <learnMoreLink>Meer info over onze benadering van geslacht en gender.</learnMoreLink>
 
 ## Profile - Email
 
