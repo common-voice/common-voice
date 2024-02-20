@@ -592,6 +592,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Ne puonjruok mamoko kaka one
 ## How to grow language
 
 about-playbook-how-grow-language = Ere kaka wanyalo gero dhok moro e Common Voice?
+about-playbook-how-grow-language-content-1 = Yawo thuolo ne oganda mopogore opogore mondo osol weche e Common Voice miyo deche konyo ji mathoth. Waseloso chenro gi ranyisi munyalo tiyogo!
 about-playbook-how-grow-language-content-2 = Chenro
 about-playbook-how-grow-language-content-4 = Oinga mag tudruok e mbui
 about-playbook-how-grow-language-content-6 = Riuruok kod tudruok
@@ -627,6 +628,7 @@ localization-explanation = Maendi ekaka waloko dhok kod weche manie chenro e dho
 sentence-collection = choko weche
 sentence-collection-explanation = Choko weche kowuok kuom aluora ma galamoro, kata  ndiko weche manyien midhiketie aluora ma galamoro.
 hours-recorded-explanation = Kwand seche duol momaki mawasechoko nyaka sani.
+hours-validated-explanation = Kwand seche duondi mosemaki mosepuodhi gi ji 2 kuom ji 3. Magi ikwano e kwand dwaro mar chenroni chopo seche alufu apar.
 sst = Loko weche koe duol
 sst-explanation = Teknoloji maloko weche-koe-duol kau duol to lokogi weche mondiki.
 de-identified = Ok ong'ere ni en ng'a
@@ -650,6 +652,7 @@ data-other-title = Deche mamoko mag duol...
 data-other-goto = Dhi ka { $name }
 data-other-download = Golo Deche
 data-bundle-button = Golo Deche
+data-bundle-description = Deche Common Voice  koriu kod deche mamoko malo kanyo.
 release-version = Loko mopogore
 dataset-date = Tarik
 license = Otas mar rusa:<licenseLink>{ $license }</licenseLink>
