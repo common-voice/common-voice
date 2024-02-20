@@ -612,12 +612,18 @@ about-playbook-how-project-governance-content-7 = <governanceLink>som thoth wech
 
 glossary = Weche
 localization = Loko dho chenro
+localization-explanation = Maendi ekaka waloko dhok kod weche manie chenro e dhok mopogore opogore.
 sentence-collection = choko weche
 sentence-collection-explanation = Choko weche kowuok kuom aluora ma galamoro, kata  ndiko weche manyien midhiketie aluora ma galamoro.
+hours-recorded-explanation = Kwand seche duol momaki mawasechoko nyaka sani.
+sst = Loko weche koe duol
+sst-explanation = Teknoloji maloko weche koe duol kau duol to lokogi weche mondiki.
+de-identified = Ok ong'ere ni en ng'a
 
 ## Error pages
 
 error-title-404 = Ne ok wany yudo wang kalatasno ne in
+error-title-503 = Chenro ok nyal yudore gisani.
 error-code = Okethore { $code }
 
 ## Data
@@ -625,6 +631,10 @@ error-code = Okethore { $code }
 data-download-button = Gol Deche manie Common Voice
 data-download-yes = Eee!
 data-download-deny = Ooyo
+data-download-license = Chik: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ichiegni chako golo weche maromo <size>GB { $size }</size>, wadhi mbele?
+data-subtitle = Wagero deche duol momaki moyangore ne oganda kendo ji duto nyalo tiyogo tiego teknoloji matiyo gi dhok mopogore opogore.
+data-get-started = <speechBlogLink>Chak tiegori kod weche teknoloji ma tiyogi duol</speechBlogLink>
 data-other-title = Deche mamoko mag duol...
 data-other-goto = Dhi ka { $name }
 data-other-download = Golo Deche
@@ -650,6 +660,7 @@ language = Dhok
 # File size in gigabytes
 size = Duong'
 validated-hr-total = Kwan seche duto mosenon
+audio-format = kit duol mosemaki
 dataset-splits = Pogo (Iga kod Chal - dichuo kata dhako)
 number-of-voices = Kwan duonde
 splits = Pogruok
@@ -660,6 +671,7 @@ recorded-hours = Seche mosemaki
 subscribe = Ndikri
 other-datasets = Deche mamoko mag duol
 feedback-q = Ingi duoko?
+data-other-ted-name = Dero mar TED-LIUM
 go-discourse = Dhiye thuon wach
 go-languages-page = Dhi e otas motingo dhok
 ready-to-validate = Iseikori konyo puodho weche?
@@ -673,6 +685,9 @@ dataset-metadata-sex = Chal - dhako kata dichuo
 dataset-metadata-age = Iga
 donate-modal-message = Golo deche dhi mbele!
 dataset-donate-modal-heading = Bende ingeyo...
+donate-modal-explanation-1 = Bende ingeyoni en machiegni dola million e yiga mondo okan deche e chenroni kendo mondo chenroni oting dhoudi mokalo mia achiel matiyogi kode?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Kigeno weche moyangore kendo mariwoji - to chiuri kawuono!</bold>
 
 ## Download Modal
 
@@ -696,20 +711,25 @@ request-language-title = Dhok Midwaro
 request-language-form-language =
     .label = Dhok
 request-language-success-title = Kwayo dhok osechopo maber, erokamo.
+request-language-success-content = Wabiro tudore kodi machiegni gi weche mamoko kaka inyalo medo dhou e chenro mar Common Voice.
 select-language = Yier dhok
 other-language = Dhok moro
 
 ## Request Language Pages
 
 request-language-heading = Penj mar dhok manyien
+request-language-explanation-1 = Ngiyanena ka dhou en achiel kuom dhok monyis e <languagesPageLink>otas motingo dhok e Common Voice </languagesPageLink>. Kaok iyudo to ndik otasni kaeto <strong>iboorni barup mbui manyiso kaka inyalo medo dhou</strong>.
+request-language-explanation-2 = Wabiro bende <strong>nyiso jatendwa mochungne migawono mondo onge ni idwa tiyo kodgi</strong>, mondo gimiyi kony minyalo dwaro.
 request-language-form-email =
     .label = Barupi mar mbui
 request-language-form-info =
     .label = Weche mawuoyo kuom dhok
+request-language-form-info-explanation = Med weche duto kaka inyalo kuom dhokni. Weche nyalo bedo kaka:
 request-language-form-info-explanation-list-1 = Nyinge mag dhou
 request-language-form-info-explanation-list-2 = <isoCodeLink>Nembni mag ISO</isoCodeLink> kongere
 # Success page
 request-language-success-heading = Erokamano! Iseoro kwayo mar dhok manyien
+request-language-success-list-1 = Onego bedni iyudo barup mbui maleroni kidienje monego ilu mondo imed dhou e Common Voice
 
 ## Languages Overview
 
