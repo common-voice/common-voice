@@ -692,7 +692,7 @@ dataset-date = Nili
 license = Leseni: <licenseLink>{ $license }</licenseLink>
 license-mixed = Iranganyiro
 data-download-singleword-title = Pakua Kibengula cha Ilagho Jimweri
-data-download-singleword-callout-v2 = Ughu ni mpande ghuko na data edimisha madedo ghemanya mtalo na hee angu hata.
+data-download-singleword-callout-v2 = Ughu nigho mpande ghuko na data edimisha kumanya mtalo ghwa madedo na hee angu hata.
 review-terms = Kwa kutumia Common Voice, kwarumiriana na <termsLink> Tamzi <termsLink> na <privacyLink> Maeleshero gha Maza ra Kiviso </privacyLink>
 terms-agree = Narumiria
 terms-disagree = Sirumirie
@@ -742,6 +742,33 @@ get-started-speech = Zoya na Kumanya Madedo
 other-datasets = Mafungu gha data gha chwaka zima
 feedback-q = Funya Maghesho?
 resource-nemo-info = <githubLink> NVIDIA NeMo </githubLink> ni <docsLink> mazwagha gha mwari </docsLink> kwa w'ashomi w'edunga fwana ra madedo gha kiidakoni gha Akili Bandia.
+resource-deepspeech-info = Mozilla mdambo mwari ghomanya chwaka, injini ya Deep Speech ghwadima kutumika kuagha apu remanya madedo. Shoma <githubLink> Github w'uvui ghwa maeleshero </githubLink> angu ngia <discourseLink> DeepSpeech Discourse </discourseLink> kukufundishe seji kudimaa kuzoya.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> ni teknoloji mwari ya madedo ikufunyire. Miradi raw'o ni andwamweri na viria va mafundisho gha ndenyi vitumiagha STT na TTS.
+community-playbook = Chuo cha W'umweri
+resource-playbook-info = <playbookLink>Pata w'ulongozi ghokutesia ghufwane </playbookLink> ghubonyeriagha charo chose cha Common Voice, kufuma w'ukitina mpaka kutumika kwa data, na seji kudimagha kuvikia w'ungara ghodu.
+data-other-librispeech-description = LibriSpeech ni kazi itumbanyiro ya masaa elfu imweri gha 16Khz gha madedo gha kingereza ghishomelo kufuma kwa vuo vishomelo vesikiria kwa mradi ghwa LibriVox.
+data-other-ted-name = TED-LIUM Maandiko ghitumbanyiro
+data-other-ted-description = Maandiko ghitumbanyiro ghiw'angwaa TED-LIUM gheboiswa kufuma kwa malagho ghijilo ghifasirilo ghipatikanagha kwa mdambo ghwa TED.
+data-other-voxforge-description = VoxForge ew'usirilwa kutumbanya madedo ghofasirilo ghetumilwa duhu kufuma Andu Mwari kwa Viria vemanya madedo.
+data-other-tatoeba-description = Tatoeba  ni mafungu gha sentensi ra data mabaha, tasfiri, na madedo ghesikiria ghitumilwaa kufundisha viteto. Kukapakua aha kwapata Kingereza chirekodilo ni w'aisanga.
+your-feedback = Koko na magheshi ghangi seji didimagha kuchuria kuboisa mafungu gha data ghiboie? Dighorie kwa peji eja malagho nesi.
+go-discourse = Ghenda kwa Malagho
+missing-language = Ndokwaw'iaw'ona kiteto chako kwa mafungu gha data? Kulomba kiteto, enda kwa peji ya Viteto.
+go-languages-page = Enda kwa peji ya Viteto
+ready-to-validate = Koko tayari kutesia kuhakikisha sentensi?
+more = Ghechuria
+close = Funga
+download = Pakua
+dataset-version = Ifunyo
+sha256-checksum-copied = SHA256 Cecksum Yafunywa kopi!
+sha256-checksum-copied-error = Kopi yalema SHA256 Checksum
+clipboard-not-supported = Kukopia ndokudimikagha
+no-information-available = Ndokune habari ingi
+dataset-metadata-sex = Mnduki
+# dataset metadata - age of contributor
+dataset-metadata-age = Miaka
+donate-modal-message = Mafungu ghako gha data ghaw'iapakulwa!
+dataset-donate-modal-heading = Kwaichi...
 
 ## Download Modal
 
