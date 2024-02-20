@@ -479,7 +479,7 @@ faq-what-cv-q = Common Voice nedir?
 faq-what-cv-a =
     Ses tanıma teknolojisi, makinelerle etkileşime girme biçimimizde devrim yaratıyor ancak şu anda mevcut sistemler pahalı ve tescilli. Common Voice, Mozilla’nın ses tanıma teknolojilerini herkes için daha iyi ve daha erişilebilir hale getirme girişiminin bir parçasıdır. Common Voice, herkesin ses özelliği olan uygulamaları potansiyel olarak her dilde hızlı ve kolay bir şekilde eğitmesine olanak tanıyan geniş bir küresel bağışlanmış ses veritabanıdır.
     
-    Ses örneklerini yalnızca yaygın olarak konuşulan dillerden değil, aynı zamanda daha az konuşmacısı olan dillerden de topluyoruz. Farklı bir ses veri kümesi yayınlamak geliştiricileri, girişimcileri ve toplulukları bu boşluğu kendileri ele almaya teşvik edecektir. Common Voice veri kümesine ek olarak, Deep Speech adlı açık kaynaklı bir konuşma tanıma motoru da kuruyoruz.
+    Ses örneklerini yalnızca yaygın olarak konuşulan dillerden değil, aynı zamanda daha az konuşmacısı olan dillerden de topluyoruz. Farklı bir ses veri kümesi yayımlamak geliştiricileri, girişimcileri ve toplulukları bu boşluğu kendileri ele almaya teşvik edecektir. Common Voice veri kümesine ek olarak, Deep Speech adlı açık kaynaklı bir konuşma tanıma motoru da kuruyoruz.
 faq-what-cv-a-2 =
     Ses tanıma teknolojisi, makinelerle etkileşime girme biçimimizde devrim yaratıyor ancak şu anda mevcut sistemler pahalı ve tescilli. Mozilla Common Voice, ses tanıma teknolojilerini herkes için iyileştirmeye ve daha erişilebilir hale getirmeye çalışan bir girişim. Common Voice, herkesin ses özelliği olan uygulamaları potansiyel olarak her dilde hızlı ve kolay bir şekilde eğitmesine olanak tanıyan bağışlanmış seslerden oluşan geniş ve küresel bir veritabanı.
     
@@ -488,7 +488,7 @@ faq-why-important-q = Ne önemi var?
 faq-why-important-a =
     Konuşma genellikle birbirimizle iletişim kurmamızın en doğal yoludur ve ses teknolojileri bu rahatlığı bilgisayarlarımıza ve mobil cihazlarımıza getirmektedir. Geliştiricilere, gerçek zamanlı çevirmenler ve ses özellikli dijital asistanlar gibi harika ses tanıma uygulamaları oluşturma konusunda güç vermek istiyoruz. Ancak şu anda bu tür uygulamaları oluşturmak için gereken ses verilerinin çoğu pahalı ve özeldir. Common Voice veri kümesinin, geliştiricilere, yenilikler yapmaları ve konuşma teknolojisini kendi dillerinde kullanıma sunmaları için ihtiyaç duydukları şeyi vereceğini umuyoruz.
     
-    Ses tanıma özelliğini daha da evrensel hale getirmek için, yaygın olarak konuşulan dillerde ve genellikle ticari konuşma tanıma hizmetleri tarafından kullanılan daha az sayıda konuşmacıya sahip olan ses örneklerini topluyoruz. Farklı bir ses veri setinin yayınlanması, geliştiricileri, girişimcileri ve tüm konuşma topluluklarını bu boşluğu kendileri ele almaya teşvik edecektir.
+    Ses tanıma özelliğini daha da evrensel hale getirmek için, yaygın olarak konuşulan dillerde ve genellikle ticari konuşma tanıma hizmetleri tarafından kullanılan daha az sayıda konuşmacıya sahip olan ses örneklerini topluyoruz. Farklı bir ses veri setinin yayımlanması, geliştiricileri, girişimcileri ve tüm konuşma topluluklarını bu boşluğu kendileri ele almaya teşvik edecektir.
 faq-how-get-q = Common Voice verilerini nasıl indirebilirim?
 faq-how-get-a = Common Voice veri kümesi, <datasetLink>Veri Kümeleri sayfamızdaki</datasetLink> <licenseLink>CC0</licenseLink> lisansıyla indirilebilir. Halka açık diğer birkaç veri kümesini de aynı sayfadan indirebilirsiniz.
 faq-when-release2-q = Diğer dillerdeki Common Voice verilerini ne zaman yayımlayacaksınız?
@@ -660,7 +660,7 @@ about-playbook-how-validate = Bir ses kaydını onaylayıp onaylamayacağıma na
 about-playbook-how-validate-content-1 = <strong>Kaydı duyabiliyorsanız</strong> ve <strong>anlayabiliyorsanız</strong> genellikle <strong>onaylamak en iyisidir</strong>.
 about-playbook-how-validate-content-2 = <strong>Konuşmacının sizinkinden farklı aksana sahip olduğu kayıtları reddetmeyin</strong>. Bu kayıtlar ses tanımanın herkes için daha iyi çalışması için önemlidir.
 about-playbook-how-validate-content-3 = Telaffuzun kaydı <strong>anlamayı imkansız kıldığını</strong> düşünüyorsanız veya <strong>çok fazla arka plan gürültüsü</strong> varsa veya <strong>başka insanların da konuştuğunu</strong> duyuyorsanız kaydı reddetmelisiniz. <accuracyLink>Doğruluk kriterlerimizde daha fazla bilgi görün</accuracyLink>.
-about-playbook-how-validate-content-4 = Bir kayıt 2 kişi tarafından reddedilirse veri kümesinin farklı bir alt kümesinde yayınlanır.
+about-playbook-how-validate-content-4 = Bir kayıt 2 kişi tarafından reddedilirse veri kümesinin farklı bir alt kümesinde yayımlanır.
 
 ## How to access dataset
 
@@ -807,6 +807,8 @@ dataset-metadata-age = Yaş
 donate-modal-message = Veri kümeniz indiriliyor
 dataset-donate-modal-heading = Biliyor muydunuz…
 donate-modal-explanation-1 = Veri kümelerini barındırmak ve yaptığımız işe güvenen 100’den fazla dil topluluğu için platformu geliştirmek yılda neredeyse bir milyon dolara mal oluyor.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Açık ve kapsayıcı verilere değer veriyorsanız bağış yapın!</bold>
 
 ## Download Modal
 
