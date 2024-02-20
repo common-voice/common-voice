@@ -612,8 +612,12 @@ about-playbook-how-project-governance-content-7 = <governanceLink>som thoth wech
 
 glossary = Weche
 localization = Loko dho chenro
+localization-explanation = Maendi ekaka waloko dhok kod weche manie chenro e dhok mopogore opogore.
 sentence-collection = choko weche
 sentence-collection-explanation = Choko weche kowuok kuom aluora ma galamoro, kata  ndiko weche manyien midhiketie aluora ma galamoro.
+hours-recorded-explanation = Kwand seche duol momaki mawasechoko nyaka sani.
+sst = Loko weche koe duol
+sst-explanation = Teknoloji maloko weche koe duol kau duol to lokogi weche mondiki.
 
 ## Error pages
 
