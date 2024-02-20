@@ -656,7 +656,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink> Shoma zaidi a
 glossary = Kamusi
 localization = W'ukitina
 localization-explanation = Ihi nio chia ditumiagha efasiria na kuw'usa malagho gha vifumbu na viteto vizima.
-sentence-collection-explanation = Kutumbanya sentensi riseko ra mndungi, angu kuandika mbishi kurilikeriagha rikaie ra w'andu w'ose.
+sentence-collection-explanation = Kutumbanya sentensi andu mwari kwa w'andu w'ose, angu kuandika rimu mbishi anyaho.
 hours-recorded-explanation = Mtalo ghwa masaa ghose gha chwaka rirekodilo.
 hours-validated-explanation = Mtalo ghwa masaa gha chwaka rirekodilo nema rikahakikishwa kwa kunekwa "Hee" ni w'andu 2 aghadi ya 3. Ivo vabonyeria kusoghodera lengo mbaa ya mradi ya masaa 10k.
 sst = Madedo-kuw'unjwa-maandiko (SST)
@@ -692,9 +692,23 @@ dataset-date = Nili
 license = Leseni: <licenseLink>{ $license }</licenseLink>
 license-mixed = Iranganyiro
 data-download-singleword-title = Pakua Kibengula cha Ilagho Jimweri
+data-download-singleword-callout-v2 = Ughu ni mpande ghuko na data edimisha madedo ghemanya mtalo na hee angu hata.
+review-terms = Kwa kutumia Common Voice, kwarumiriana na <termsLink> Tamzi <termsLink> na <privacyLink> Maeleshero gha Maza ra Kiviso </privacyLink>
+terms-agree = Narumiria
+terms-disagree = Sirumirie
+review-aborted = Kupakia kwadufunuka. Kwakunde kufute rija kwarekodi?
+review-submit-title = W'uria na Kuenje
+review-submit-msg = Chaw'ucha kwa kurekodi <lineBreak></lineBreak> Danu w'uria nao kupakie vlipu vako aha naisi.
+review-recording = Zighana ngera yaboie
+review-rerecord = Rekodi sena
+review-cancel = Tana na kupakia
+review-keep-recordings = W'ika rija klipu kwarekodi
+review-delete-recordings = Futa klipu rapo
 
 ## Datasets Page
 
+datasets-heading = Mafungu gha data
+datasets-headline = Daw'uyaagha mafungu gha data gha chwaka iko mwari kwa w'andu w'ose na ghidimagha kutumilwa ni w'andu w'ose kufundisha apu ritambukilwagha ni madedo.
 
 ## Download Modal
 
