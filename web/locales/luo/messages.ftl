@@ -618,10 +618,12 @@ sentence-collection-explanation = Choko weche kowuok kuom aluora ma galamoro, ka
 hours-recorded-explanation = Kwand seche duol momaki mawasechoko nyaka sani.
 sst = Loko weche koe duol
 sst-explanation = Teknoloji maloko weche koe duol kau duol to lokogi weche mondiki.
+de-identified = Ok ong'ere ni en ng'a
 
 ## Error pages
 
 error-title-404 = Ne ok wany yudo wang kalatasno ne in
+error-title-503 = Chenro ok nyal yudore gisani.
 error-code = Okethore { $code }
 
 ## Data
@@ -629,6 +631,10 @@ error-code = Okethore { $code }
 data-download-button = Gol Deche manie Common Voice
 data-download-yes = Eee!
 data-download-deny = Ooyo
+data-download-license = Chik: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ichiegni chako golo weche maromo <size>GB { $size }</size>, wadhi mbele?
+data-subtitle = Wagero deche duol momaki moyangore ne oganda kendo ji duto nyalo tiyogo tiego teknoloji matiyo gi dhok mopogore opogore.
+data-get-started = <speechBlogLink>Chak tiegori kod weche teknoloji ma tiyogi duol</speechBlogLink>
 data-other-title = Deche mamoko mag duol...
 data-other-goto = Dhi ka { $name }
 data-other-download = Golo Deche
