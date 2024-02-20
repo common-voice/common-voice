@@ -555,6 +555,7 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ngii
 about-playbook-how-add-language-collecting-sentences-heading = Choko weche
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ngii puonjruok marwa kaka itiyo kod gir choko weche</sentenceCollectorVideo>
 about-playbook-how-add-language-collecting-sentences-content-2 = Inyalo <sentenceCollectorLinkAdd>medo weche matin</sentenceCollectorLinkAdd>, kata inyalo <bulkImportDocsLink>keto weche mathoth dichiel kitiyo kod ranginy mar "Github" </bulkImportDocsLink>. Par mana ni weche go dwaroni obedie<licenseLink>(e aluora mag oganda) CC0</licenseLink> kata inyalo ndiko magi iwuon.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ngi mangeny kuom choko weche</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -571,12 +572,15 @@ about-playbook-how-add-sentences-content-3 = Inyalo tiyo kod <scraperLink> gir g
 ## How to record quality
 
 about-playbook-how-record-quality = Ere kaka anyalo mako duol machuok kod ranginy mamalo?
+about-playbook-how-record-content-1 = Losi kitiyogi duondi mapile! Wayiegi duondi miwuoyogo pile ka pile -  wadwaro duondi kaka en, kendo wadwaro teko mar koko mar duondi kod kit duondi owuogi kaka pile.
 about-playbook-how-record-content-2 = Bed kama onge koko - kamokwe mondo wawinji maler.
 about-playbook-how-record-content-3 = Som weche go duto maler - kik iwe moro amora kata kik imed wecheni iwuon.
+about-playbook-how-record-content-4 = Tem ingi ni chenro mako duol kapok ichako mako duondi, kendo chenro kik chung kapok itieko.
 about-playbook-how-record-content-5 = <accuracyLink>Ne puonjruok mamoko kaka onego itim</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Ere kaka wanyalo gero dhok moro e Common Voice?
 about-playbook-how-grow-language-content-2 = Chenro
 about-playbook-how-grow-language-content-4 = Oinga mag tudruok e mbui
 about-playbook-how-grow-language-content-6 = Riuruok kod tudruok
