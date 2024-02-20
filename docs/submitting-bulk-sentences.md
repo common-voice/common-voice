@@ -14,7 +14,7 @@ Please format your bulk sentences into a [.TSV](https://en.wikipedia.org/wiki/Ta
 - The source for your sentence
 - Additional infomation about why this source is eligible for inclusion in a CC0 dataset
 - A blank column for our team to use in the quality control process
-- An optional column showing the domain for sentences, as described in this blog post
+- An optional column showing the domain for sentences, as described in [this blog post](https://foundation.mozilla.org/en/blog/domain-datasets-common-voice/)
 
 The more information you are able to provide in the Source column, the easier it will be to get your bulk sentence submission validated.
 
