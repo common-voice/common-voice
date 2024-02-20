@@ -554,10 +554,12 @@ about-nav-playbook = Puojri kaka inyalo betie achiel
 ## What is a language
 
 about-playbook-what-is-language = Dhok en ango e Common Voice?
+about-playbook-what-is-language-content-2 = Wadwaro ni mondo teknoloji matiyo gi duol oti maber gi duonde mopogore opogore. Nikech ma, deche mag duonde nyaka bed gi ji moa e kuonde mopogore.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Ere kaka damed dhok moro?
+about-playbook-how-add-language-content-1 = Mokwongo, ngi ka dhou <languageLink>nitie</languageLink>. Ka dhou onge, inyalo <languageRequestLink>kwayo medo dhou</languageRequestLink>. Nitiere kidienje ariyo. Loko chenroni e dhou kendo choko weche.
 about-playbook-how-add-language-translating-heading = Loko weche manie migawoni
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ngii puonjruok kaka itiyo kod Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Choko weche
@@ -575,6 +577,7 @@ about-playbook-how-localize-content-5 = Tem ingianena wechewago mondo okonyi
 ## How to add sentences
 
 about-playbook-how-add-sentences = Ere kaka anyalo medo weche?
+about-playbook-how-add-sentences-content-1 = Inyali medo weche e <writePageLink>otas ndiko weche</writePageLink> kata inyalo nono weche e <reviewPageLink>otas nono weche</reviewPageLink>.
 about-playbook-how-add-sentences-content-3 = Inyalo tiyo kod <scraperLink> gir golo weche</scraperLink> mondi igol weche koae Wikipedia.
 
 ## How to record quality
