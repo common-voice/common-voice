@@ -1,5 +1,6 @@
 ## General
 
+yes-receive-emails = Ho, ma e-post̆a momicğonit. Comman Voice Proje mu oren oçkinnu minon.
 stayintouch = Mozillas xomaşi teknolojiş gomti ar ǩata geptzopxumt. Meyondğanupete, ağani data mondunepete oǩomçinu do data muç̌o ixmart çkva dido oçkinu minonan/ bgorumt.
 privacy-info = Çkinapape tkvani becit̆obate na psturesaratereşi nena dogidumt. Daha fazlamuşi <privacyLink>T'obaşobaşi Tkvalas<privacyLink>gaǩitxenan.
 return-to-cv = Comman Voiceşa Goikti.
@@ -10,11 +11,13 @@ email-opt-in-info = Comman Voiceşi noğire goşinupe, ixenu dulyapeşi meoğanu
 email-opt-in-info-title = Comman Voiceşi maili listhes eǩomanthalit.
 email-opt-in-info-sub-with-challenge = Comman Voiceşi omondunu do noğire goşinupe, ixenu dulyapeşi meoğanupe do anbaişi bultenepe steri e-post̆ape eç̌opit.
 email-opt-in-privacy-v2 = E-post̆ape ǩebuli doyat-na Mozillaşi ham çkinapape na tku steri oxmaru-muşis izini na meçameri iyet  <privacyLink>Privacy Policy</privacyLink>.
+indicates-required = Ar murutsxite (*) neğareri svalepe opşalu diç̌irs.
 not-available-abbreviation = H/V
 banner-error-slow-1 = Mixarsuvit, Comman Voicek tamo itsadeburs/ içalişams. Memaǩatit şeni ntsaşa extit.
 banner-error-slow-2 = Opşa trafiği ephç̌opumt do hus problemepe goviǩitxamt.
 banner-error-slow-link = Butkaşi Xali
 error-something-went-wrong = Mixarsuvit, mutxanepe gemapaşes
+error-clip-upload = Ham ǩilibi var eiğmalinen, xolo geitsadinas-i?
 error-clip-upload-server = Ham ǩilibi var eiğmalinen, xolo geitsadinas-i?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -78,6 +81,7 @@ ga-IE = İrlandanuri
 gl = Galiçuri
 gn = Guaranuri
 gom = Goan Konkanuri
+gu-IN = Gujaraturi
 guc = Vayuunaikuri
 ha = Hausuri
 he = Çifut̆uri
@@ -98,6 +102,7 @@ it = İtalyanuri
 izh = İzxoruri
 ja = Japonuri
 jbo = Lojbanuri
+jv = Javanuri
 ka = Korturi
 kaa = Ǩaraǩalpaǩuri
 kab = Kabiluri
@@ -112,6 +117,7 @@ ko = Ǩorenuri
 kpv = Komi-Zyrianuri
 kw = Kornişuri
 ky = Ǩirgizuri
+lb = Luksanburǩuri
 lg = Luganduri
 lij = Luksanburǩuri
 ln = Luganduri
@@ -182,8 +188,47 @@ so = Somaluri
 sq = Arnavut̆uri
 sr = Sirp̌uri
 ss = Sisvaturi
+st = Omjoreturi Sot̆uri
+sv-SE = İsveç̌uri
+sw = Svahiluri
+syr = Suryanuri
+ta = Tamiluri
+te = Teliguri
+tg = Taciǩuri
+th = Taiuri
+ti = Tigrinyuri
+tig = Tigruri
 tk = Turkmenuri
-yi = Çifut'uri
+tl = Tagaloguri
+tn = Sestvanuri
+tok = Toki Ponauri
+tr = Turkuri
+ts = Xitsonguri
+tt = Tataruri
+tw = Tviuri
+ty = Tahit̆uri
+tyv = Tuvanuri
+uby = Ubixuri
+udm = Udmurturi
+ug = Uygururi
+uk = Uǩranuri
+ur = Urduri
+uz = Uzbeǩuri
+ve = Tşivenduri
+vec = Venetianuri
+vi = Viet̆namuri
+vmw = Votiǩuri
+vot = Volofuri
+wep = Xosauri
+wo = Çifut̆uri
+xh = Yoruburi
+yi = Çifut̆uri
+yo = Yoruburi
+yue = Kantonesuri
+zgh = Tamazigt̆uri
+zh-CN = Çinuri
+zh-HK = Çinuri (Hon konguri)
+zh-TW = Çinuri (Tayvanuri)
 zu = Zuluri
 zza = Zazanuri
 
@@ -200,11 +245,18 @@ about = Hemuşeni
 partner = Maneba
 profile = Profili
 help = Memişvelit
+contact = ǩont̆aǩt̆i
+privacy = t̆obaşoba
+terms = Şart̆epe
+cookies = ǩaǩape
+faq = FAQ
 content-license-text = Doloxdenepe <licenseLink>Creative Commons license</licenseLink> lisansişi tude koren.
 share-title = Nena-nişis memxacu şeni çkvape odzirus memişvelit.
-link-copied = Linki k'opya dixenu.
+share-text = Mtini ǩoçepek muçho isinapaman doguru şeni memişvelit, nena-skani mixarsuvit { $link }
+link-copied = Linki ǩopya dixenu.
 back-top = Tişa Kexti
 logout = Kogamaxtit
+donate = Mixaresirit
 
 ## Home Page
 
@@ -219,11 +271,49 @@ wall-of-text-second = Didi şirǩet̆epek na oxmaraman datapeşi dido muşi ǩo�
 show-wall-of-text = Majurape iǩitxi/ golioni
 help-us-title = Ham cumlepe getzuranu şeni memişvelit.
 help-us-explain = Osteri/ Obiri tuşis gyobazgit. İucit-işǩinit-isiminit do cumle tzori/ ese iǩitxui mitzvit.
+no-clips-to-validate = Ham nenas oşǩinoni aina ǩlibi var giğuran steri idziren. Hatzi (hus) bazi ǩlibepe doloç̌arit do jilemona opşus meişvelit.
 vote-yes = Ho
 vote-no = Var
+toggle-play-tooltip = Osteru modi gontzǩapu şeni { shortcut-play-toggle } hak gyobazgit/ cobazgit
+speak-subtitle = Nena-tkvani mixarsuvit
+speak-paragraph = Nenaşi ǩlibepe doloç̌aru goncameri data sistemi getzopxuşi enni vorsi gza oren. Ham artsope (bazepe) şeni oxoktinoni oren.
+speak-goal-text = Doloç̌areri ǩlibepe
+listen-subtitle = Xomape otzuranus memişvelit.
+listen-paragraph = Xarsuveri ǩlibepeşi otzorinu (tzori na oren oxotzonu) Comman Voiceşi misyoni şeni eşit̆i derece becit̆i oren. Ar işǩinit (iucit) do ǩalitoni goncameri nenaşi data getzopxu şeni meişvelit.
+listen-goal-text = Doloç̌areri saatepe
+hours-recorded = Tzorineri saatepe
+hours-validated = Tzorineri saatepe
+voices-online = Hus (hatzi) onlaini na oren xomape
+todays-progress = Andğaneri Ogzalapa
+help-reach-goal = { $goal } olva şeni meişvelit
+read-terms-q = Oxmaruşi şart̆epe iǩitxiti/ golioniti
+ready-to-record = Xoma-tkvani oxorsuvu şeni xadziri oret-i?
+all-locales = İri/ Mteli
+today = Andğa
+x-weeks-short =
+    { $count ->
+        [one] Xaft̆a
+       *[other] { $count }wk
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }mo
+       *[other] { "" }
+    }
+x-years-short =
+    { $count ->
+        [one] y
+       *[other] { "" }
+    }
+help-make-dataset = Çku mağala ǩalitete, iris goncameri ar dataset̆i getzopxu şeni memişvelit.
+sign-up-account = Ar xesap̌i kogetzopxit
+email-subscription-title = E-posta oağanu şeni kodoliç̌arit.
+email-subscription-title-new = Comman Voiceşi xaberi bultenepes, gonoşinupes do ogzaloni ondğalurepes doliç̌arit.
 
 ## Account Benefits
 
+benefits = Pelapape
+rich-data = Momincğonit datapeşi daha ǩai oxenu şeni bazi anonimi demografiǩuri datape momçit. Mteli demografiǩuri datape ǩamus p̌i gontzǩaşe noçinepe gotziğit.
 
 ## What's public
 
@@ -239,13 +329,21 @@ shortcut-skip = i
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = d
 shortcut-play-toggle-label = İsteri/ Dodgiti
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = H
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = V
 
 ## Speak Shortcuts
 
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = d
-shortcut-record-toggle-label = Doloç'ari/ Dodgiti
+shortcut-record-toggle-label = Doloç̌ari/ Dodgiti
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Nena gori
 shortcut-submit = Goikti
 shortcut-submit-label = K'ilibi mendancğoni
 
@@ -266,6 +364,7 @@ profile-form-language =
     .label = Nena
 profile-form-variant =
     .label = { $language }şi nam varianti isinapam?
+profile-form-variant-default-value = Aina varianti goşatsxuneri va oren.
 profile-form-accent =
     .label = Aksani
 profile-form-age =
@@ -285,6 +384,7 @@ login-identity = Amaxtimui oçinoba
 login = Amaxti
 login-signup = Amaxti/ Doliç'ari
 edit = Sturesari
+email-subscriptions = E-mailişi abonobape
 download-profile = Datape-çkimi Kogeiği
 help-accent = Aksani şeni meşvelu gorum-i?
 help-variants = Variantepe şeni meşvelu gorum-i?

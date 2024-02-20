@@ -454,6 +454,7 @@ connect-gravatar = Tudruok kod Gravatar
 gravatar_not_found = Onge gravata moyud e barupi mar mbui
 file_too_large = Sanduk wach miyierono duong ahinya
 avatar-uploaded = Avatar oseruako e kompyuta
+max-file-size = { $kb }kb moromo
 remove-avatar = Gol Avatar
 
 ## Profile - Email
@@ -479,31 +480,57 @@ faq-why-mission-a = Mozila oyangore ne kano weche kendo miyo ji duto thuolo mayo
 faq-what-cv-and-deepspeech-q = Ere pogruok manie kind Common Voice kod Deep Speech?
 faq-is-goal-assistant-q = Dibed ni dwaro mar Common Voice en ni oger jakony mar wuoyo?
 faq-do-want-native-q = Ok an japinyni to ang'eyo dhogi kendo awuoyo gi lep mopogore, bende pod anyalo chiwo duonda?
+faq-do-want-native-a = Ee, wadwaro duondi ahinya. Common Voice dwaro kabind dwonde mopogore opogore mondi teknologi mibolosi oti maber gi duonde duto. Emomiyo kata jok mapuojore dhok moro nyalo chiwo duondgi.
 faq-why-different-speakers-q = Angomomiyo udwaro ji mangeny mawacho dhok ka dhok?
+faq-why-different-speakers-a = Ngeny deche mag duol ok nigi duonde motingo ji duto, ngeny duonde gin mag <articleLink>jomachuo kod jomanigi pesa</articleLink>. Kabind duonde gi dhok maonge e deche gi gin mag jomaok nyal konyore kendgi. Ngeny teknoloji mag dunde ok nyal poge duond jomamine maber.  Emomiyo wadwaro kabind dwonde mopogore opogore e deche wa mag duol.
 faq-why-my-lang-q = Angomomiyo dhowa ok omedi kanyo?
 faq-what-quality-q = Ranginy mane midwaro e duol momaki mondo duolno otigodo e deche?
 faq-why-10k-hours-q = Angomomiyo idwaro dhok ka dhok ochop seche 10,000 mar duol momaki?
+faq-why-10k-hours-a = Magi e seche mag duol momaki madwarore mondo olosgo teknoloji manyalo loko weche koe duol.
 faq-how-calc-hours-q = Ere kaka Common Voice kwano seche?
 faq-where-src-from-2-q = Ere kuma weche go duto wuokie?
 faq-why-not-ask-read-q = Ok upenj ji mondo osom buge kata ndiko manie Wikipedia kuom dhok mopogore opogore?
+faq-why-account-q = Ango momiyo onengo adonji e akaunt?
+faq-is-account-public-q = Be ni weche mag akaont mara nie ayanga?
+faq-how-privacy-q = Ere kaka upando fwenyruok mag joma osolonu duonde?
+faq-what-determine-identity-q = Tiende nango kiwacho ni ok anyal "fwenyo" joma chiwo duodgi ne deche mag Common Voice?
+faq-what-is-cv = Common Voice en ango?
+faq-using-cv = Tiyo kod Common Voice
 faq-search-for-answers =
     .label = Many duoko
 
 ## ABOUT US
 
+about-title = Ango momiyo Common Voice?
+how-does-it-work-title-v2 = Ere kaka Common Voice ni tiyo?
 
 ## How does it work section
 
+about-language-req-subtitle = Ngato kwayo mondo omed dhok moro.
+about-localization-title = Loko weche manie chenroni
+about-localization-subtitle = Weche manie chenroni iloko e dhok no.
 about-sentence-collection-title = Choko weche
+about-sentence-collection-subtitle = weche ichoko mondo ji osom matek
+about-new-lang-title = Chako dhok mayien
+about-new-lang-subtitle = Wayao chenro e Common Voice ne dhok ni.
 about-voice-contrib-title = Choko duonde
 about-voice-contrib-subtitle = Ji biro to chiwo dwondegi kanyachiel
+about-voice-validation-title = Puotho duol
 about-voice-validation-subtitle = Jomoko puotho duonde momakigo
+about-dataset-release-title = Yao deche
+about-dataset-release-subtitle = Wayao deche mag weche dweche adek ka dweche adek.
+about-subscribe-text = Idwaro ni mondo imed tutori kod Common Voice?
 about-speak = Losi / wuo
+about-listen-queue = Riedo mar chiko it
 about-listen = Chik iti
 about-is-it-valid = Be duol momakino ni kare?
 about-is-it-valid-text = Duol momaki ni "kare" ka ngato opuodhe ni en kare.
+about-yes-votes = mokalo ji 2 oyie
 about-yes-votes-text = Mondo duol momaki odonjie deche mar duol mar Common Voice, duol momaki yaka puodhi gi ji ariyo mopogore.
+about-no-votes = mokalo ji 2 adagi
 about-no-votes-text = Ka ngato okwero duol momaki to iduoke e laini. Ka duolno okwed mar ariyo gi ng'at machielo, igole to itere e liendi duol.
+about-dataset-new = Deche manie Common Voice
+about-dataset-new-text = Deche duol mag Common Voice nigi duonde momaki manyalo chopo miche kod alufe, to duonde gi konyo loso teknoloji matiyogi kendo nyalo fwenyo duol.
 about-clip-graveyard = Liendi duol
 about-get-involved = Donjie e riuruok
 about-stay-in-touch = Ere kaka anyalo tudora kodu?
@@ -527,6 +554,8 @@ about-playbook-how-add-language-translating-heading = Loko weche manie migawoni
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Ngii puonjruok kaka itiyo kod Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Choko weche
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ngii puonjruok marwa kaka itiyo kod gir choko weche</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 = Inyalo <sentenceCollectorLinkAdd>medo weche matin</sentenceCollectorLinkAdd>, kata inyalo <bulkImportDocsLink>keto weche mathoth dichiel kitiyo kod ranginy mar "Github" </bulkImportDocsLink>. Par mana ni weche go dwaroni obedie<licenseLink>(e aluora mag oganda) CC0</licenseLink> kata inyalo ndiko magi iwuon.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ngi mangeny kuom choko weche</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -543,15 +572,24 @@ about-playbook-how-add-sentences-content-3 = Inyalo tiyo kod <scraperLink> gir g
 ## How to record quality
 
 about-playbook-how-record-quality = Ere kaka anyalo mako duol machuok kod ranginy mamalo?
+about-playbook-how-record-content-1 = Losi kitiyogi duondi mapile! Wayiegi duondi miwuoyogo pile ka pile -  wadwaro duondi kaka en, kendo wadwaro teko mar koko mar duondi kod kit duondi owuogi kaka pile.
 about-playbook-how-record-content-2 = Bed kama onge koko - kamokwe mondo wawinji maler.
 about-playbook-how-record-content-3 = Som weche go duto maler - kik iwe moro amora kata kik imed wecheni iwuon.
+about-playbook-how-record-content-4 = Tem ingi ni chenro mako duol kapok ichako mako duondi, kendo chenro kik chung kapok itieko.
+about-playbook-how-record-content-5 = <accuracyLink>Ne puonjruok mamoko kaka onego itim</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Ere kaka wanyalo gero dhok moro e Common Voice?
+about-playbook-how-grow-language-content-2 = Chenro
+about-playbook-how-grow-language-content-4 = Oinga mag tudruok e mbui
+about-playbook-how-grow-language-content-6 = Riuruok kod tudruok
+about-playbook-how-grow-language-content-8 = <strong>Ti gi rieko!</strong> Joma wacho dhou biro bedo mopogore kod mamoko, kendo magi mana yore matin manyalo konyou chako.
 
 ## How to validate
 
 about-playbook-how-validate = Ere kaka anyalo ngeyo ni apuotho duol mosemaki koso?
+about-playbook-how-validate-content-1 = Kinyalo <strong>winjo gi </strong> kendo inyalo <strong>winjo tiend wach </strong>, to inyalo <strong>puotho gi</strong>.
 about-playbook-how-validate-content-2 = <strong>Kik iwed duonde machuok ma jomoko omako nikech gin kod kabind duol mopogore ni mari<strong> - nikech duonde ji duto beyo to konyo masinde ng'eyo duonde jiduto.
 about-playbook-how-validate-content-3 = Kiparo ni kaka osom wechego miyo <strong> wechego bedo matek ng'eyo</strong>, kata kaponi nitie <strong>   koko mangeny mawinjore </strong>, kata ka nitie <strong>jomoko wuoyo be</strong>, to ikwayo mondo iwed duol momakno. <accuracyLink> Som mangeny kuom puonjruok mawaketo kanyo mar lony madwarore</accuracyLink>
 about-playbook-how-validate-content-4 = To ka duol momaki okwed gi ji ariyo (2), ibiro gole e migawo mopogore e kwan mar weche.
@@ -563,20 +601,37 @@ about-playbook-how-access-dataset = Ere kaka anyalo yudo kendo tiyo kod kwan mar
 ## How are decisions made
 
 about-playbook-how-project-governance = Ere kaka weche mag chenro go iloso?
+about-playbook-how-project-governance-content-2 = Lochwa ogur e sirni mag:
+about-playbook-how-project-governance-content-3 = Weche mag ngato owuon, rito kod ler mar weche.
+about-playbook-how-project-governance-content-4 = Riuruok mag oganda kendo ngado paro.
+about-playbook-how-project-governance-content-5 = Nengo kendo ngeyo.
+about-playbook-how-project-governance-content-6 = Ngado bura mar ji duto.
+about-playbook-how-project-governance-content-7 = <governanceLink>som thoth wechewa kaka lochwa obet</governanceLink>
 
 ## Glossary
 
+glossary = Weche
+localization = Loko dho chenro
 sentence-collection = choko weche
 sentence-collection-explanation = Choko weche kowuok kuom aluora ma galamoro, kata  ndiko weche manyien midhiketie aluora ma galamoro.
 
 ## Error pages
 
 error-title-404 = Ne ok wany yudo wang kalatasno ne in
+error-code = Okethore { $code }
 
 ## Data
 
+data-download-button = Gol Deche manie Common Voice
+data-download-yes = Eee!
+data-download-deny = Ooyo
+data-other-title = Deche mamoko mag duol...
 data-other-goto = Dhi ka { $name }
+data-other-download = Golo Deche
+data-bundle-button = Golo Deche
+release-version = Loko mopogore
 dataset-date = Tarik
+license = Otas mar rusa:<licenseLink>{ $license }</licenseLink>
 license-mixed = Onywandore/oriwore
 terms-agree = Ayie
 terms-disagree = Ok ayiego
@@ -590,21 +645,41 @@ review-delete-recordings = Ruch gik mane amakogo
 
 ## Datasets Page
 
+datasets-heading = Deche
 language = Dhok
 # File size in gigabytes
 size = Duong'
 validated-hr-total = Kwan seche duto mosenon
+dataset-splits = Pogo (Iga kod Chal - dichuo kata dhako)
+number-of-voices = Kwan duonde
 splits = Pogruok
 email-to-download = Keti barup mbui ekinyal golo
 size-gigabyte = GB
+validated-hours = Seche mosepuodhi
+recorded-hours = Seche mosemaki
+subscribe = Ndikri
+other-datasets = Deche mamoko mag duol
 feedback-q = Ingi duoko?
 go-discourse = Dhiye thuon wach
+go-languages-page = Dhi e otas motingo dhok
+ready-to-validate = Iseikori konyo puodho weche?
 more = Mangeny moloyo
+close = Machiegni
+download = Gol
+dataset-version = Loko mopogore
+no-information-available = Onge weche ma nitie
+dataset-metadata-sex = Chal - dhako kata dichuo
 # dataset metadata - age of contributor
 dataset-metadata-age = Iga
+donate-modal-message = Golo deche dhi mbele!
+dataset-donate-modal-heading = Bende ingeyo...
 
 ## Download Modal
 
+download-form-email =
+    .label = Ket barupi mar mbui
+    .value = Erokamano, wabiro tudore
+download-no = Ooyo! Erokamano
 
 ## Contact Modal
 
@@ -693,10 +768,24 @@ review-instruction = Ngi kendo dual misemako kaeto ichaki mak duol kendo kaponi 
 record-submit-tooltip = { $actionType } Chiu kiseikori
 clips-uploaded = Duonde momaki mosekan
 record-abort-submit = Or duonde momaki
+record-abort-continue = Tiek mako duol
 record-abort-delete = Wuogi kaeto iruch duonde mosemaki
+listen-instruction = { $actionType }<playIcon></playIcon> be negiwacho wechego makare?
+listen-again-instruction = Tich maber! <playIcon></playIcon> chik iti kendo kiseikori.
+listen-3rd-time-instruction = Isetieko 2, med tiyo matek!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Mogik!
 listen-empty-state = Nenore ni watieko duonde momaki - temane yao kalatas kendo kata ang item bange.
 listen-loading-error = Nok wanyal yudoni duonde momaki minyalo chike iti. Wakwayo ni item kendo bange.
 listen-abort-title = Isetieko puotho duonde momaki?
+listen-abort-cancel = Dhi nyime kod puotho
+listen-abort-confirm = Tiek puodho weche
+speak-empty-state = Wasetieko weche e dhokni minyalo maki...
+speak-empty-state-cta = Med weche
+speak-loading-error = Neokwanyal yudoni weche minyalo wacho. Wakwayo ni item kendo bange.
+record-button-label = Mak duondi
+share-title-new = <bold>Konywa</bold> yudo duonde mamoko
+login-to-get-started = Donji kaa ndikri mondo ichaki
+target-segment-first-banner = Konywa gero migawo mokwongo mar Common Voice e { $locale }
 target-segment-add-voice = med duondi
 target-segment-learn-more = Med puonjori
 
@@ -711,10 +800,20 @@ report = Ripot/duoko
 report-title = chiu ripot
 report-ask = En weche mage maiyudo kuom wechego?
 report-offensive-language = dhook maricho
+report-offensive-language-detail = Wachno otingo weche maonge luor kendo dhok maricho.
+report-grammar-or-spelling = Wechego ok ondik kaka onengo bedi
+report-grammar-or-spelling-detail = Wechegi ok ondik kaka onengo bedi
 report-different-language = dhok mopogore
+report-different-language-detail = Ondikgi e dhok mopogore kod mawawacho
+report-difficult-pronounce = Tek wacho
+report-difficult-pronounce-detail = Otingo weche matek somo kendo wacho
+report-offensive-speech = Weche maricho
 report-offensive-speech-detail = Duol momaki ni otingo weche maonge luor kendo dhok maricho.
+report-other-comment =
+    .placeholder = Wachie
 success = Ber
 continue = dhi nyime
+report-success = Oteno nokalo maber
 
 ## Goals
 
@@ -728,20 +827,38 @@ recordings =
         [one] Mak duol
        *[other] Mak duonde
     }
+validations =
+    { $count ->
+        [one] mopuodhi
+       *[other] mopuodhi
+    }
 
 ## Dashboard
 
+your-languages = dhou
+toward-next-goal = dhi nyime kichiko okang midwaro
+goal-reached = Ochop okang midwaro
 clips-you-recorded = Duonde misemako
+clips-you-validated = Duode momaki misepuotho
+todays-recorded-progress = Kaka tij mako duonde osebedo kawuono e Common Voice
+todays-validated-progress = Kaka tij puodho duonde osebedo kawuono e Common Voice
+stats = Kwan
+awards = Mich
 you = In
 everyone = ji duto
+top-contributors = Josolo mangula
 recorded-clips = Duonde momaki
 validated-clips = Duonde mopuodhi
+total-approved = Duto mosepuodhi
+overall-accuracy = Kaka Weche Duto Ochanre
 set-visibility = Kaka anene
 show-ranking = Nyis ranginy mara
 
 ## Custom Goals
 
 get-started-goals = Chak kod tie wach
+create-custom-goal = Los chenro mamari kaka idwaro tiyo
+goal-type = Ere kaka idwaro tiyo?
 both-speak-and-listen = duto
 both-speak-and-listen-long = Giduto (wuoyo kod chiko it)
 daily-goal = Chenro mag tiyo odiochieng ka odiochieng
@@ -789,21 +906,34 @@ profile-form-delete = Gol Ranginy maga
 
 ## Profile Download
 
+download-q = Idwaro golo wecheni?
+download-info = Nyiswa gima idwaro golo:
+download-recordings-title = Mako duonde
 download-selected = Moseyier
 download-request = kwayo duonde
+download-requests = Kwayo golo duonde monosemaki
+download-request-button = Gol
+download-request-title = { $created }
+download-request-description = { $clipCount } Duonde mosemaki, kwan duto { $size }. Rumo { $expires }.
+download-request-archive-single = Dero achiel motingo weche
+download-request-archive-multiple = pogi e deche { $archiveCount } motingo weche
 download-request-refresh-button = Yaw Manyien
+download-request-metadata-link = Ndiko mar wach
 
 ## Landing
 
 welcome-staff = Ruako jotij { $company }
+read-more-about = Som weche mamoko e migapwa
 
 ## DemoLayout
 
 demo-get-started = Wachakuru
 demo-welcome = Waruaki Common Voice
+demo-welcome-subheader = In kod dwaro mar puonjori mangeny kendo chiwo ne migawoni?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice e migawo maduong mar oganda e piny ngima, man kod deche mathoth mogik mag dhok mopogore.
 card-button-next = Machielo
 card-button-back = chien
 demo-language-select-label = Ngiane dhok mopogore
@@ -834,6 +964,8 @@ contribution-varying-pronunciations-example-1-title = Oruako ogudu e wiye.
 contribution-varying-pronunciations-example-2-title = Otingo bade malo
 contribution-background-noise-title = Nitie koko chien kanyo
 contribution-just-unsure-title = Ok an kod adieri
+see-more = <chevron></chevron>Ne Mangeny
+see-less = <chevron></chevron>Ne matin
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -857,10 +989,14 @@ sc-footer-report-copyright = Ful weche ma okop kamachielo
 sc-footer-privacy = Weche ma ng'ato owuon
 sc-footer-terms = Chike
 sc-login-signup-button = donjo e komputa
+sc-logout-button = Wuog oko
 
 ## HOME
 
+sc-home-title = waruaki e choko weche e Common Voice
+sc-home-collect-title = Chok weche
 sc-home-collect-text = Konywa kod ndiko weche kata choko weche koae aluora ma galamoro.
+sc-home-review-title = Non weche
 
 ## GENERAL
 
@@ -872,15 +1008,22 @@ sc-howto-addlang-title = Medo dhok minyalo tiyo godo
 sc-howto-addlang-text = Kisedongo e kompiuta inyalo yiero dhok koa e kar picha mari.
 sc-howto-addsen-title = med weche manyien
 sc-howto-cite-title = Kaka inyalo por wach
+sc-howto-review-title = Non weche
+sc-howto-findpd-subtitle = Manygi e mbui
 
 ## MY SENTENCES
 
 sc-my-title = Wechega/ wechena
+sc-my-loading = Wechegi biro...
 sc-my-no-sentences = Onge weche moyudi
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Chiwo: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Kuma giae: { $source }
 sc-my-delete = Ruchi weche moyier go
+sc-my-deleting = Rucho weche moyiergo...
 
 ## REJECTED
 
@@ -890,6 +1033,8 @@ sc-rejected-loading = Kelo weche motamruok...
 ## STATS
 
 sc-stats-title = Kwan
+sc-stats-updating = Medo weche manyien...
+sc-stats-error = Neok wanyal yudo kwan. Tem kendo bange.
 
 ## ADD
 
@@ -914,19 +1059,36 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Ok anyal medo dhok
+sc-add-lang-sec-button = Med Dhok
+sc-add-err-unexpected = Duoko mopogore kowuok kuom sava
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Yie gi weche manyien
+sc-confirm-button-text = Yie go
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Duto
+sc-lang-info-title-personal = Maga
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Onge kwand weche.
+        [one] Kwan 1 mag weche.
+       *[other] Kwan { $totalSentences } mag weche.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Donjo otamore.
 sc-login-err-try-again = Tem kendo
 
 ## PROFILE
 
+sc-personal-err-lang-not-found = Ok anyal golo dhok: dhok ok oyudi
 sc-personal-err-remove = Ok anyal golo dhok
 sc-personal-your-languages = Dhowa:
 sc-personal-remove-button = Gol
@@ -986,13 +1148,16 @@ partnerships-our-partners = Jowa mawariworego
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Erokamano kuom chiwo duondi!
 first-cta-subtitle-text = Bende diher chiwo wach kaluowore kaka iwacho dhok?
-why-donate = Ango miyo ipenjo?
+why-donate = Ango momiyo ipenjo?
 add-information-button = Med wach
 continue-speaking-button = Ok kamano , med wuoyo
 thanks-for-voice-toast = Erokamano kuom chiwo wach duondi
+already-have-an-account = In kod akaont? <login>Dinji</login>
 create-profile-button = Ket pichani
 voice-collection = Choko dwol / Choko duonde
 sentence-collection = choko weche
+background-noise = Koko mawuok chien
+example = Ranyisi
 background-voices-explanation = Koko matin kawinjore e duol momaki ok rach, to kaponi inyalo winjo ng'at moro kawuonyo gietoke, duol momaki no onengo kwedi. Mae timorega ka ngato oweyo TV nono, kata kaponi jomoko wuoyo machiengni.
 still-have-questions = Pod in kod penjo?
 contact-common-voice = Tudri kod jo Common Voice kuom penjo moroamora
@@ -1000,15 +1165,31 @@ public-domain = Aluora ma galamoro
 citing-sentences = Wacho  weche mosendiki
 adding-sentences = medo weche manyien
 reviewing-sentences = Nono weche mosendiki
+adding-sentences-subheader-length = Bor
+adding-sentences-subheader-speakable = Manyalo wachore
+adding-sentences-subheader-numbers = Kwan
+adding-sentences-subheader-abbreviations = Ranyisi mag ndiko weche
+adding-sentences-subheader-punctuation = Ranyisi mag wach
+adding-sentences-subheader-special-characters = Ndiko mopondo kendo mawendo
+adding-sentences-subheader-offensive-content = Weche maok kare
 
 ## WRITE PAGE
 
 write-instruction = Medi <icon></icon> wach mayudore e aluora ma galamoro
+sentence =
+    .label = Wach
 sentence-input-value = Ndik kae wachno moae e aluora ma galamoro
+citation-input-value = Kuma weche owuoke
 sc-write-submit-confirm = Ayieni wachni yudore e <wikipediaLink>aluora ma galamoro</wikipediaLink> kendo oyiena chiwe ka.
+sc-review-write-title = Weche mage matong amedi?
+new-sentence-rule-2 = Matin ne weche 15 e wach ka wach
+guidelines = Ranyisi
+contact-us = Tudri kodwa
+single-sentence = Wach achiel
 
 ## REVIEW PAGE
 
+report-sc-different-language = Dhok mopogore
 
 ## BULK SUBMISSION 
 

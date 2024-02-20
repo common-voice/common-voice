@@ -815,6 +815,11 @@ no-information-available = Gjin ynformaasje beskikber
 dataset-metadata-sex = Geslacht
 # dataset metadata - age of contributor
 dataset-metadata-age = Leeftiid
+donate-modal-message = Jo gegevensset wurdt download!
+dataset-donate-modal-heading = Wisten jo dat…
+donate-modal-explanation-1 = It kostet hast in miljoen dollar yn it jier om de gegevenssets te hosten en it platfoarm te ferbetterjen foar de mear as 100 taalmienskippen dy’t ôfhinklik binne fan wat wy dogge?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>As jo iepen, ynklusyf gegevens wurdearje – donearje hjoed noch!</bold>
 
 ## Download Modal
 
