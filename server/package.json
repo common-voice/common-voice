@@ -35,7 +35,7 @@
     "lodash.pick": "4.4.0",
     "mp3-duration": "^1.1.0",
     "mysql2": "3.6.3",
-    "nodemailer": "6.7.3",
+    "nodemailer": "6.9.9",
     "passport": "0.6.0",
     "passport-auth0": "0.6.1",
     "rate-limiter-flexible": "2.4.1",
