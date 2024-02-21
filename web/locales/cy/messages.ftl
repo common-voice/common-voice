@@ -467,6 +467,7 @@ help-accent = Angen cymorth gydag acen?
 help-accent-explanation = Eich acen yw'r ffordd rydych chi'n ynganu geiriau. Mae'n cael ei ffurfio gan ble rydych chi wedi byw, pa ieithoedd eraill rydych chi'n eu siarad a llawer o ffactorau eraill. Gallwch chi rannu unrhyw wybodaeth rydych chi'n teimlo sy'n berthnasol yma.
 help-variants = Angen cymorth gydag amrywiadau?
 help-variants-explanation = Mae amrywiadau yn ffurf benodol ar iaith - er enghraifft sy'n cael eu rhannu gan y rhai sy'n byw mewn ardal ddaearyddol neu gymuned. Weithiau mae'r rhain yn cael eu galw'n dafodieithoedd.
+help-sex-or-gender-changes = Angen help gyda'r newidiadau Rhyw neu Rywedd?
 
 ## Profile - Email
 
