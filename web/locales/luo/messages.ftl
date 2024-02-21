@@ -1233,7 +1233,9 @@ voice-collection = Choko dwol / Choko duonde
 sentence-collection = choko weche
 misreadings = Ma okosom maber
 background-noise = Koko mawuok chien
+just-unsure = Ok in kod adieri?
 example = Ranyisi
+varying-pronunciations-example = Yo ne ok ong'ere maber.
 background-voices-explanation = Koko matin kawinjore e duol momaki ok rach, to kaponi inyalo winjo ng'at moro kawuonyo gietoke, duol momaki no onengo kwedi. Mae timorega ka ngato oweyo TV nono, kata kaponi jomoko wuoyo machiengni.
 still-have-questions = Pod in kod penjo?
 contact-common-voice = Tudri kod jo Common Voice kuom penjo moroamora
@@ -1266,6 +1268,7 @@ single-sentence = Wach achiel
 ## REVIEW PAGE
 
 report-sc-different-language = Dhok mopogore
+report-sc-different-language-detail = Ondike kod dhok mopogore kod manono.
 
 ## BULK SUBMISSION 
 
