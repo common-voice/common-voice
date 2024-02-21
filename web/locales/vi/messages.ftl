@@ -445,6 +445,8 @@ help-accent = Cần một số trợ giúp về trọng âm?
 help-accent-explanation = Trọng âm của bạn là cách bạn phát âm các từ. Nó có thể được định hình bởi nơi bạn đã sống, bạn nói ngôn ngữ nào khác và rất nhiều yếu tố khác. Bạn có thể chia sẻ bất kỳ thông tin nào bạn cảm thấy có liên quan tại đây.
 help-variants = Cần một số trợ giúp với biến thể?
 help-variants-explanation = Biến thể là một dạng cụ thể của một ngôn ngữ - ví dụ như được chia sẻ bởi những người sống trong một khu vực địa lý hoặc cộng đồng. Đôi khi chúng được gọi là tiếng địa phương.
+help-sex-or-gender-changes = Cần trợ giúp về việc thay đổi giới tính?
+help-sex-or-gender-changes-explanation = Chúng tôi đang cung cấp nhiều lựa chọn hơn để giúp mọi người có nhiều lựa chọn hơn trong những gì họ cho chúng tôi biết về giới tính của họ. Hãy tự miêu tả theo cách mà bạn cảm thấy tự nhiên nhất. <learnMoreLink>Tìm hiểu thêm về cách tiếp cận của chúng tôi về giới tính.</learnMoreLink>
 
 ## Profile - Email
 
