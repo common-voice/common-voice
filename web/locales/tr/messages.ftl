@@ -698,7 +698,7 @@ de-identified-explanation = Veri kümesi indirilmek üzere paketlendiği zaman k
 error-title-404 = Aradığınız sayfayı bulamadık
 error-content-404 = <homepageLink>Ana sayfamız</homepageLink> işinize yarayabilir. Soru sormak için <matrixLink>Matrix topluluk sohbetine</matrixLink> katılabilir, <githubLink>GitHub</githubLink> aracılığıyla site sorunlarını takip edebilir ve <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edebilirsiniz.
 error-title-503 = Beklenmedik bir kesinti yaşıyoruz
-error-content-503 = Site en kısa sürede yeniden açılacaktır. En güncel bilgiler için <matrixLink Matrix topluluk sohbetine</matrixLink> katılabilir, site deneyimiyle ilgili sorunları bildirmek ve izlemek için <githubLink>GitHub</githubLink> veya <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edebilirsiniz.
+error-content-503 = Site en kısa sürede yeniden açılacaktır. En güncel bilgiler için <matrixLink>Matrix topluluk sohbetine</matrixLink> katılabilir, site deneyimiyle ilgili sorunları bildirmek ve izlemek için <githubLink>GitHub</githubLink> veya <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edebilirsiniz.
 error-code = Hata { $code }
 
 ## Data
@@ -926,7 +926,7 @@ record-cancel = Yeniden kaydetmeyi iptal et
 record-instruction = <recordIcon></recordIcon> düğmesine { $actionType }, sonra cümleyi net bir şekilde okuyun
 record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = Üç tane kaldı!
-record-again-instruction = Harika! <recordIcon></recordIcon> Sonraki klibinizi kaydedin
+record-again-instruction = Harika! <recordIcon></recordIcon> Sıradaki kaydınızı kaydedin
 record-again-instruction2 = Böyle devam edin, tekrar kaydedin <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Bu son!
 review-tooltip = İlerledikçe bu kayıtları gözden geçirip yeniden kaydedin
@@ -979,7 +979,7 @@ report-ask = Bu cümleyle ilgili hangi sorunları yaşıyorsunuz?
 report-offensive-language = Hakaret
 report-offensive-language-detail = Cümlenin kaba veya saldırgan bir üslubu var.
 report-grammar-or-spelling = Dilbilgisi / yazım hatası
-report-grammar-or-spelling-detail = Cümlede gramer veya yazım hatası var.
+report-grammar-or-spelling-detail = Cümlede dilbilgisi veya yazım hatası var.
 report-different-language = Farklı dil
 report-different-language-detail = Konuştuğumdan farklı bir dilde yazılmış.
 report-difficult-pronounce = Telaffuzu zor
@@ -1109,7 +1109,7 @@ share-goal = Hedefimi paylaş
 
 ## Profile Delete
 
-delete-q = Ses kayıtlarınızın da silinmesini istiyorsunuz musunuz yoksa bunlar Common Voice veri kümesinde kalabilir mi?
+delete-q = Ses kayıtlarınızın da silinmesini istiyor musunuz yoksa bunlar Common Voice veri kümesinde kalabilir mi?
 keep = Tut
 remove = Sil
 keep-info = Anonim ses kayıtlarınız Common Voice veri kümesinde kalacaktır. Profilinizi sildikten sonra kayıtlarınızı veri kümesinden kaldırma talebinde bulunamazsınız.
@@ -1303,7 +1303,7 @@ sc-howto-addsen-item-5 = Yabancı harfler. Harfler konuşulan dilde geçerli olm
 sc-howto-addsen-item-6 = Diller <validationRulesLink>kendi doğrulama kurallarına</validationRulesLink> ve ek zorunluluklara sahip olabilir. Bir dil için belirli bir doğrulama dosyası yoksa genel İngilizce kurallarını kullanıyoruz.
 sc-howto-addsen-post-1 = Doğal cümleleri ve konuşma cümlelerini tercih ediyoruz. Cümlelerdeki fonetik çeşitlilik ve farklı kelimeler önemli olmakla birlikte, cümle kaydetmeyi de mümkün olduğunca eğlenceli hale getirmeye çalışıyoruz. Bu nedenle, cümlelerinizi mümkün olduğunca doğal/çekici tutmaya çalışmanız harika olur.
 sc-howto-cite-title = Nasıl alıntı yapılır?
-sc-howto-cite-pre-1 = İntihalden kaçınmak ve <copyrightIssuesLink>telif hakkı sorunlarını</copyrightIssuesLink> ile gidermemizi sağlamak için kamu malı kaynakları nereden bulduğunuzu belirtmeniz önemlidir. İşte kaynaklartan alıntı yapmanın birkaç yolu…
+sc-howto-cite-pre-1 = İntihalden kaçınmak ve <copyrightIssuesLink>telif hakkı sorunlarını</copyrightIssuesLink> gidermemizi sağlamak için kamu malı kaynakları nereden bulduğunuzu belirtmeniz önemlidir. İşte kaynaklardan alıntı yapmanın birkaç yolu…
 sc-howto-cite-item-1 = Web sitesi adresini verebilirsiniz. Örn. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Akademik referans stilini kullanabilirsiniz. Örneğin Harvard stili ile: "Mozilla (2021) Common Voice. https://commonvoice.mozilla.org/ adresinde mevcuttur (Erişim tarihi: 15 Eylül 2021)"
 sc-howto-cite-item-3 = Çevrimiçi olmayan kamu malı metinler için akademik referans stilini kullanabilirsiniz. Örneğin Harvard stili ile: "Jess (2021) Kamu Malı Lisanslı Şiirlerim"
