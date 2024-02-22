@@ -80,8 +80,6 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
       gender,
     };
 
-    console.log({ data });
-
     try {
       await saveAnonymousAccount(data);
       addNotification(successUploadMessage, 'success');
