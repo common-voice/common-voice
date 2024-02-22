@@ -742,7 +742,8 @@
             margin: 0 0 2em;
             width: 60%;
             text-align: center;
-            ` @media (--md-down) {
+
+            @media (--md-down) {
                 width: 80%;
             }
 
