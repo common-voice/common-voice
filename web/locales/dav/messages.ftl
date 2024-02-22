@@ -771,21 +771,64 @@ dataset-metadata-sex = Mnduki
 dataset-metadata-age = Miaka
 donate-modal-message = Mafungu ghako gha data ghaw'iapakulwa!
 dataset-donate-modal-heading = Kwaichi...
+donate-modal-explanation-1 = Garama ya mafungu gha data kuw'ikwa na kuchurilwa kuboiswa mtandaonyi ni kavui dola milioni imweri kwa mwaka kwa mapwanyiko gha w'andu w'idedagha zaidi ya viteto100 sena w'ategemea kazi daw'iabonya.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = Kaw'ona mwaw'onie mana ya kuboa kwa platifomu iko mwari, na data ya w'ungara - changa linu!
 
 ## Download Modal
 
+download-title = Kupakua kwameria kuzoya.
+download-helpus = Ditesie kuagha w'ungara ghwa teknoloji ya chwaka, endelia kudedanya nesi kuidia imeili.
+download-form-email =
+    .label = Andika imeili yako
+    .value = Chaw'ucha, diendeliagha kudedanya.
+download-back = W'uya kwa mafungu gha data gha Common Voice.
+download-no = A-a Chaw'ucha
 
 ## Contact Modal
 
+contact-title = Fomu ya W'ujumbe
+contact-form-name =
+    .label = Irina
+contact-form-message =
+    .label = W'ujumbe
+contact-required = *Ni Suti
 
 ## Request Language Modal
 
+request-language-title = Ilombi ja Kiteto
+request-language-form-language =
+    .label = Kiteto
+request-language-success-title = Ilombi ja kiteto jangia nicha, chaw'ucha.
+request-language-success-content = Dikudumiagha w'ujumbe na malagho mazima seji kudimagha kuchuria kiteto chako kwa Common Voice kafwani huw'u.
+select-language = Saghua Kiteto...
+other-language = Kiteto Kizima
 
 ## Request Language Pages
 
+request-language-heading = Kotia aighu ya kiteto kizima
+request-language-explanation-1 = Zighana ngera kiteto chao cheko kwa listi <languagesPageLink>Common Voice Languages page</languagesPageLink>. Si huw'o, chura ihifomu eri dikudumie <strong>imeili ekueleshera seji kiteto chako chizolo kuaghwa</strong>.
+request-language-explanation-2 = Sena dibonyagha huw'u, <strong>dighoriagha m'baa odu angu kwakunde</strong>, eri w'ikuneke w'utesia ughoghose kukunde angu ngera jeko jingi kuchakunda.
+request-language-form-email =
+    .label = Imeili yako
+request-language-form-info =
+    .label = Maza ra icho kiteto
+request-language-form-info-explanation = Churia ijojose kuchaadima aighu ya ichi kiteto. Andenyi kwadima kughora:
+request-language-form-info-explanation-list-1 = Marina gha kiteto chako
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeLink> Iji yamanyika
+request-language-form-info-explanation-list-3 = Mitumalio kwa saiti ridimagha kuditesia kuelelwa ni ichi kiteto
+request-language-google-recaptcha-required = reCAPTCHA yakundikie kaw'ona kwakunde kuendelia
+request-language-google-recaptcha-error = Kilambo chimu chaenda laghelaghe na reCAPTCHA. Dalomba kutime sena.
+# Success page
+request-language-success-heading = Chaw'ucha! Kwaenja ikoto ja kiteto kiw'ishi
+request-language-success-list-1 = Kadu katini kupatagha imeili ielezagha misele ikundikagha kuvikia kiteto chako kujumulishwa kwa Common Voice
+request-language-success-list-2 = M'baa wa W'ungara ghodu ukudumiagha momu ghofunya w'utesia, na kukughoria ngera ghoko w'umweri ghungi ghumerie kuw'oka kudumikia  kiteto chako
+request-language-success-list-3 = Iji kusesikire kufuma kodu kwa matuku aw'i, didumie w'ujumbe aha <emailLink>{ $email }</emailLink> nao dikuw'unjiragha majibu!
+request-language-error = Ngera ndedipatire ilombi jako. Dalomba kudidumie imeili isiw'eni aha <emailLink>{ $email }</emailLink> na dikuw'unjiragha majibu!
 
 ## Languages Overview
 
+language-section-in-progress = Yaw'iaendelia
 
 ## Contribution
 
