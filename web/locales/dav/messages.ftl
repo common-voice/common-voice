@@ -829,9 +829,39 @@ request-language-error = Ngera ndedipatire ilombi jako. Dalomba kudidumie imeili
 ## Languages Overview
 
 language-section-in-progress = Yaw'iaendelia
+language-section-in-progress-new-description = Ivi viteto veka viaghwagha ni w'ungara kwa idakoni. <localizationGlossaryLink>Saiti ya w'akitina</localizationGlossaryLink> na <sentenceCollectionGlossaryLink>sentensi kutumbanywa</sentenceCollectionGlossaryLink> yakundikie eri kuzoya.
+language-section-launched = Yazolwa
+language-section-launched-description = Kwa ivi viteto vizolo kwa saiti vafanikilo <localizationGlossaryLink>localized</localizationGlossaryLink>, na yakate <sentenseCollectionGlossaryLink>sentensi ritumbanyiro</sentenceCollectionGlossaryLink> kudimisha kuendelia <speakLink>Kudeda</speakLink> na <listenLink>Kusikiria</listenLink> michango.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Indo ja mwisho kunughirilwa: { $lastUpdatedTimeStamp }
+languages-show-more = W'ona Kubaha
+languages-show-less = W'ona Kutini
+language-meter-in-progress = Maendeleo
+language-total-progress = Mtalo Ghose
+language-search-input =
+    .placeholder = Lola
+language-speakers = W'adedi
+localized = W'ukitina
+sentences = Sentensi
+language-validation-hours = Masaa
+language-validation-progress = Maendeleo gha Kuhakikisha
 
 ## Contribution
 
+action-click = Tocha
+action-tap = Adada
+contribute = Changa
+listen = Sikiria
+write = Andika
+review = W'uria
+skip = Rama
+shortcuts = Chia vui
+clips-with-count-pluralized =
+    { $count ->
+        [one] Klipu <bold>{ $count }</bold>
+       *[other] Vlipu <bold>{ $count }</bold>
+    }
+goal-help-recording = Kwatesia Common Voice kuvikia <goalPercentage> </goalPercentage> kwa kerekodi { $goalValue } kula ituku!
 
 ## Contribution Nav Items
 
