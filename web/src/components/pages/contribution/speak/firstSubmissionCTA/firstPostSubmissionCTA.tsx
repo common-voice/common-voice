@@ -18,7 +18,9 @@ import {
 } from '../../../profile/info/languages/languages';
 import ExpandableInformation from '../../../../expandable-information/expandable-information';
 import { QuestionMarkIcon } from '../../../../ui/icons';
-import { Button } from '../../../../ui/ui';
+import { Button, LabeledSelect, Options } from '../../../../ui/ui';
+
+import { GENDERS } from '../../../../../stores/demographics';
 
 import './firstPostSubmissionCTA.css';
 
@@ -50,11 +52,14 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
 
   const [accentsAll, setAccentsAll] = React.useState<AccentsAll>({});
   const [variantsAll, setVariantsAll] = React.useState<VariantsAll>({});
+  const [gender, setGender] = React.useState('');
 
   const isVariantInputVisible = Boolean(variantsAll[locale]);
 
   const isAddInformationButtonDisabled =
-    userLanguages[0].accents.length === 0 && !userLanguages[0].variant;
+    userLanguages[0].accents.length === 0 &&
+    !userLanguages[0].variant &&
+    gender.length === 0;
 
   const api = useAPI();
 
@@ -72,7 +77,10 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   const handleAddInformationClick = async () => {
     const data = {
       languages: userLanguages,
+      gender,
     };
+
+    console.log({ data });
 
     try {
       await saveAnonymousAccount(data);
@@ -82,6 +90,10 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
     }
 
     onReset();
+  };
+
+  const handleSelectChange = (evt: React.ChangeEvent<HTMLSelectElement>) => {
+    setGender(evt.target.value);
   };
 
   return (
@@ -122,6 +134,17 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
                   setUserLanguages={setUserLanguages}
                 />
               </div>
+
+              <Localized
+                id="first-cta-gender-select-help-text"
+                attrs={{ label: true }}>
+                <LabeledSelect
+                  value={gender}
+                  onChange={handleSelectChange}
+                  name="gender">
+                  <Options>{GENDERS}</Options>
+                </LabeledSelect>
+              </Localized>
             </div>
           ))}
         </div>
