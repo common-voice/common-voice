@@ -1612,7 +1612,7 @@ partnerships-our-partners = Our Partners
 
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Thank you for donating your voice clips!
-first-cta-subtitle-text = Would you like to share some information about yourself? It helps developers build more inclusive technology
+first-cta-subtitle-text = By telling us about yourself you will help developers build more inclusive technology
 why-donate = Why are you asking?
 why-donate-explanation-1 = This information is optional to provide - you should only add it if you feel comfortable. When we release the dataset, we pseudonymise all personal information, and make sure information like your name and email are not connected to demographic information like age or sex.
 why-donate-explanation-2 = For technology to work well for everyone, the data that helps developers to build technology needs to reflect a diverse range of people. For example, if we don't include any speakers with a particular accent, then the technology won't work well for people with that accent. <learnMore>Learn more about why metadata matters.</learnMore>
