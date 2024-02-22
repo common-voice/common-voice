@@ -861,7 +861,29 @@ clips-with-count-pluralized =
         [one] Klipu <bold>{ $count }</bold>
        *[other] Vlipu <bold>{ $count }</bold>
     }
-goal-help-recording = Kwatesia Common Voice kuvikia <goalPercentage> </goalPercentage> kwa kerekodi { $goalValue } kula ituku!
+goal-help-recording = Kwatesia Common Voice kuvikia <goalPercentage> </goalPercentage> yedu ya kurekodi { $goalValue } kula ituku!
+goal-help-validation = Kwatesia Common Voice kuvikia <goalPercentage> </goalPercentage> yedu ya kuhakikisha { $goalValue } kula ituku!
+contribute-more =
+    { $count ->
+        [one] Koko tayari kuchuria { $count } imu?
+       *[other] Koko tayari kuchuria { $count } rimu?
+    }
+record-cta = Zoya kurekodi
+record-platform-not-supported = Difuye w'ughoma, platifomu yako ndeyaw'iasaghikwa kwa idakoni.
+record-platform-not-supported-desktop = Kwa kompiuta ra mezenyi kwadima kuchanga kwa kupakua...
+record-platform-not-supported-ios-non-safari = Kwa iOS dalomba kuendelie na Safari kudimisha kurekodi...
+record-must-allow-microphone = Ni suti kufunguo andu kwa maikrofoni.
+record-no-mic-found = Maikrofoni ndeipatikie.
+record-error-too-short = Rekodi eka vui nandighi.
+record-error-too-long = Rekodi eka ndacha nandighi.
+record-error-too-quiet = Rekodi enyama nandighi.
+record-cancel = Inja Kiw'urio cha Rekodi
+record-instruction = { $actionType }<recordIcon></recordIcon> nao kushome sentensi nandighi
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> kukameria
+record-three-more-instruction = Idadu na kwameria!
+record-again-instruction = Nicha! <recordIcon></recordIcon> Rekodi klipu chinughiagha
+record-again-instruction2 = Kwabonya nicha, rekodi sena <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Cha mwisho!
 
 ## Contribution Nav Items
 
