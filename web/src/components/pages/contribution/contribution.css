@@ -293,7 +293,7 @@
             }
 
             @media (--md-only) {
-                margin-right: 20px
+                margin-right: 20px;
             }
         }
 
@@ -411,7 +411,7 @@
         .guidelines-button {
             svg {
                 margin-inline-end: 10px;
-                
+
                 path {
                     fill: var(--black);
                 }
@@ -505,7 +505,8 @@
         .instruction,
         .primary-buttons,
         .buttons button[type='button'],
-        .extra-button {
+        .extra-button,
+        .guidelines-button {
             display: none;
             filter: blur(10px);
             pointer-events: none;
@@ -551,6 +552,14 @@
                 display: flex;
                 height: 46px;
             }
+        }
+    }
+
+    &.first-cta-visible,
+    &.second-cta-visible {
+        div.buttons {
+            filter: blur(10px);
+            pointer-events: none;
         }
     }
 
@@ -732,9 +741,8 @@
         .labeled-checkbox {
             margin: 0 0 2em;
             width: 60%;
-            text-align: center;`
-
-            @media (--md-down) {
+            text-align: center;
+            ` @media (--md-down) {
                 width: 80%;
             }
 
