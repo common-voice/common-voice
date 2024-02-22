@@ -884,6 +884,19 @@ record-three-more-instruction = Idadu na kwameria!
 record-again-instruction = Nicha! <recordIcon></recordIcon> Rekodi klipu chinughiagha
 record-again-instruction2 = Kwabonya nicha, rekodi sena <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Cha mwisho!
+review-tooltip = W'uria & kurekodi vlipu sena ekuendeliagha
+share-clip = W'aghia klipu
+share-common-voice = W'aghia Common Voice
+review-instruction = W'uria & kurekodi vlipu sena iji ifwane
+record-submit-tooltip = { $actionType } Enja kukakaia tayari
+clips-uploaded = Vlipu vajoswa
+record-abort-title = Kumerie kurekodi imbiri?
+record-abort-text = Kukafuma idakoni kwalaghasha maendeleo ghako ghose
+record-abort-submit = Ghenja vlipu
+record-abort-continue = Meria kurekodi
+record-abort-delete = Fuma & Kufute Vlipu
+listen-instruction = { $actionType }<playIcon></playIcon> w'aghora iyo sentensi nicha?
+listen-again-instruction = Kazimiboie! <playIcon></playIcon> Sikiria sena iji kwaka tayari
 
 ## Contribution Nav Items
 
