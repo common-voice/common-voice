@@ -1,21 +1,13 @@
 import * as React from 'react';
 import { Localized } from '@fluent/react';
-import { UserLanguage } from 'common';
 import cx from 'classnames';
+
 import InputLanguageVariant from '../../../profile/info/languages/input-language-variant';
 import InputLanguageAccents from '../../../profile/info/languages/input-language-accents/input-language-accents';
 
-import { User } from '../../../../../stores/user';
-import {
-  useAction,
-  useAPI,
-  useLocalStorageState,
-} from '../../../../../hooks/store-hooks';
+import { useAPI } from '../../../../../hooks/store-hooks';
 import { Notifications } from '../../../../../stores/notifications';
-import {
-  AccentsAll,
-  VariantsAll,
-} from '../../../profile/info/languages/languages';
+
 import ExpandableInformation from '../../../../expandable-information/expandable-information';
 import { QuestionMarkIcon } from '../../../../ui/icons';
 import { Button, LabeledSelect, Options } from '../../../../ui/ui';
@@ -23,10 +15,11 @@ import { Button, LabeledSelect, Options } from '../../../../ui/ui';
 import { GENDERS } from '../../../../../stores/demographics';
 
 import './firstPostSubmissionCTA.css';
+import { useFirstPostSubmissionCTA } from './hooks/useFirstPostSubmissionCTA';
 
 export const USER_LANGUAGES = 'userLanguages';
 
-type FirstPostSubmissionCtaProps = {
+export type FirstPostSubmissionCtaProps = {
   locale: string;
   onReset: () => void;
   addNotification: typeof Notifications.actions.addPill;
@@ -41,25 +34,27 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   successUploadMessage,
   errorUploadMessage,
 }) => {
-  const saveAnonymousAccount = useAction(
-    User.actions.saveAnonymousAccountLanguages
-  );
-  const [areLanguagesLoading, setAreLanguagesLoading] = React.useState(true);
-
-  const [userLanguages, setUserLanguages] = useLocalStorageState<
-    UserLanguage[]
-  >([{ locale, accents: [] }], USER_LANGUAGES);
-
-  const [accentsAll, setAccentsAll] = React.useState<AccentsAll>({});
-  const [variantsAll, setVariantsAll] = React.useState<VariantsAll>({});
-  const [gender, setGender] = React.useState('');
-
-  const isVariantInputVisible = Boolean(variantsAll[locale]);
-
-  const isAddInformationButtonDisabled =
-    userLanguages[0].accents.length === 0 &&
-    !userLanguages[0].variant &&
-    gender.length === 0;
+  const {
+    areLanguagesLoading,
+    setAreLanguagesLoading,
+    accentsAll,
+    setAccentsAll,
+    variantsAll,
+    setVariantsAll,
+    setUserLanguages,
+    handleAddInformationClick,
+    handleSelectChange,
+    gender,
+    userLanguages,
+    isAddInformationButtonDisabled,
+    isVariantInputVisible,
+  } = useFirstPostSubmissionCTA({
+    locale,
+    onReset,
+    addNotification,
+    successUploadMessage,
+    errorUploadMessage,
+  });
 
   const api = useAPI();
 
@@ -73,26 +68,6 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
       });
     }
   }, []);
-
-  const handleAddInformationClick = async () => {
-    const data = {
-      languages: userLanguages,
-      gender,
-    };
-
-    try {
-      await saveAnonymousAccount(data);
-      addNotification(successUploadMessage, 'success');
-    } catch {
-      addNotification(errorUploadMessage, 'error');
-    }
-
-    onReset();
-  };
-
-  const handleSelectChange = (evt: React.ChangeEvent<HTMLSelectElement>) => {
-    setGender(evt.target.value);
-  };
 
   return (
     <div className="first-cta-container" data-testid="first-submission-cta">
