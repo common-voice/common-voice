@@ -445,6 +445,7 @@ help-accent = 需要口音方面的帮助？
 help-accent-explanation = 口音就是您发音的方式，通常受到您生活过的地方、会说的语言等诸多因素影响。您可以在此分享任何您认为有关的信息。
 help-variants = 需要关于变体的帮助说明吗？
 help-variants-explanation = 变体是一种语言的特定形式 - 例如在某片区域内人们的说话方式被称为一种变体。有时称其为方言。
+help-sex-or-gender-changes = 需要更改“生理性别”或“性别认同”设置方面的帮助？
 
 ## Profile - Email
 
