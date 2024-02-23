@@ -452,6 +452,8 @@ help-accent = Behöver du hjälp med accent?
 help-accent-explanation = Din accent är hur du uttalar ord. Det kan formas av var du har bott, vilka andra språk du talar och massor av andra faktorer. Du kan dela all information som du tycker är relevant här.
 help-variants = Behöver du hjälp med dialekter?
 help-variants-explanation = Varianter är en specifik form av ett språk - till exempel delas av de som bor i ett visst geografiskt område eller ett visst samhälle. Ibland kallas dessa för dialekter.
+help-sex-or-gender-changes = Behöver du hjälp med köns- eller könsförändringar?
+help-sex-or-gender-changes-explanation = Vi erbjuder fler alternativ för att ge människor större valfrihet i vad de berättar om sitt kön eller könsidentitet. Beskriv själv på det sätt som känns mest naturligt för dig. <learnMoreLink>Lär dig mer om vårt förhållningssätt till sex och kön.</learnMoreLink>
 
 ## Profile - Email
 

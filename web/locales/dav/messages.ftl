@@ -449,6 +449,8 @@ help-accent = Kwakunde w'utesia ghwa madedo?
 help-accent-explanation = Madedo ghako ni seji kughoragha malagho. Ghadima kushekerelwa ni andu kukaie, viteto vizima kudedagha na maza zima ndazi. Kwadima kughora ijojose kufwanilwagha jafwane aha.
 help-variants = Kwakunde wutesia na mbari ya madedo?
 help-variants-explanation = Mbari ya madedo ni fwana imu ya kiteto - sa w'uja idedwagha in w'andu w'a kifumbu chimu, angu w'andu w'ikanye w'ungara. Ngelo rimu ivi viteto vifwane kusighana vaw'angwagha lahaja.
+help-sex-or-gender-changes = Kwakunde w'utesia ghomanya ni mnduki angu maghaluso gha fwana?
+help-sex-or-gender-changes-explanation = Daw'iafunya w'ulalo ghosaghua eri w'andu w'ikaie na w'uhuru ghodighoria seji w'ikutambuagha (w'umi, w'aka, angu kiw'uzima). Dalomba kudieze seji kusikiragha kukaia kidamu chako. <learnMoreLink>Kufundishe zaidi seji diw'onagha iri maza ra jinsia.</learnMoreLink>
 
 ## Profile - Email
 
@@ -769,39 +771,271 @@ dataset-metadata-sex = Mnduki
 dataset-metadata-age = Miaka
 donate-modal-message = Mafungu ghako gha data ghaw'iapakulwa!
 dataset-donate-modal-heading = Kwaichi...
+donate-modal-explanation-1 = Garama ya mafungu gha data kuw'ikwa na kuchurilwa kuboiswa mtandaonyi ni kavui dola milioni imweri kwa mwaka kwa mapwanyiko gha w'andu w'idedagha zaidi ya viteto100 sena w'ategemea kazi daw'iabonya.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = Kaw'ona mwaw'onie mana ya kuboa kwa platifomu iko mwari, na data ya w'ungara - changa linu!
 
 ## Download Modal
 
+download-title = Kupakua kwameria kuzoya.
+download-helpus = Ditesie kuagha w'ungara ghwa teknoloji ya chwaka, endelia kudedanya nesi kuidia imeili.
+download-form-email =
+    .label = Andika imeili yako
+    .value = Chaw'ucha, diendeliagha kudedanya.
+download-back = W'uya kwa mafungu gha data gha Common Voice.
+download-no = A-a Chaw'ucha
 
 ## Contact Modal
 
+contact-title = Fomu ya W'ujumbe
+contact-form-name =
+    .label = Irina
+contact-form-message =
+    .label = W'ujumbe
+contact-required = *Ni Suti
 
 ## Request Language Modal
 
+request-language-title = Ilombi ja Kiteto
+request-language-form-language =
+    .label = Kiteto
+request-language-success-title = Ilombi ja kiteto jangia nicha, chaw'ucha.
+request-language-success-content = Dikudumiagha w'ujumbe na malagho mazima seji kudimagha kuchuria kiteto chako kwa Common Voice kafwani huw'u.
+select-language = Saghua Kiteto...
+other-language = Kiteto Kizima
 
 ## Request Language Pages
 
+request-language-heading = Kotia aighu ya kiteto kizima
+request-language-explanation-1 = Zighana ngera kiteto chao cheko kwa listi <languagesPageLink>Common Voice Languages page</languagesPageLink>. Si huw'o, chura ihifomu eri dikudumie <strong>imeili ekueleshera seji kiteto chako chizolo kuaghwa</strong>.
+request-language-explanation-2 = Sena dibonyagha huw'u, <strong>dighoriagha m'baa odu angu kwakunde</strong>, eri w'ikuneke w'utesia ughoghose kukunde angu ngera jeko jingi kuchakunda.
+request-language-form-email =
+    .label = Imeili yako
+request-language-form-info =
+    .label = Maza ra icho kiteto
+request-language-form-info-explanation = Churia ijojose kuchaadima aighu ya ichi kiteto. Andenyi kwadima kughora:
+request-language-form-info-explanation-list-1 = Marina gha kiteto chako
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeLink> Iji yamanyika
+request-language-form-info-explanation-list-3 = Mitumalio kwa saiti ridimagha kuditesia kuelelwa ni ichi kiteto
+request-language-google-recaptcha-required = reCAPTCHA yakundikie kaw'ona kwakunde kuendelia
+request-language-google-recaptcha-error = Kilambo chimu chaenda laghelaghe na reCAPTCHA. Dalomba kutime sena.
+# Success page
+request-language-success-heading = Chaw'ucha! Kwaenja ikoto ja kiteto kiw'ishi
+request-language-success-list-1 = Kadu katini kupatagha imeili ielezagha misele ikundikagha kuvikia kiteto chako kujumulishwa kwa Common Voice
+request-language-success-list-2 = M'baa wa W'ungara ghodu ukudumiagha momu ghofunya w'utesia, na kukughoria ngera ghoko w'umweri ghungi ghumerie kuw'oka kudumikia  kiteto chako
+request-language-success-list-3 = Iji kusesikire kufuma kodu kwa matuku aw'i, didumie w'ujumbe aha <emailLink>{ $email }</emailLink> nao dikuw'unjiragha majibu!
+request-language-error = Ngera ndedipatire ilombi jako. Dalomba kudidumie imeili isiw'eni aha <emailLink>{ $email }</emailLink> na dikuw'unjiragha majibu!
 
 ## Languages Overview
 
+language-section-in-progress = Yaw'iaendelia
+language-section-in-progress-new-description = Ivi viteto veka viaghwagha ni w'ungara kwa idakoni. <localizationGlossaryLink>Saiti ya w'akitina</localizationGlossaryLink> na <sentenceCollectionGlossaryLink>sentensi kutumbanywa</sentenceCollectionGlossaryLink> yakundikie eri kuzoya.
+language-section-launched = Yazolwa
+language-section-launched-description = Kwa ivi viteto vizolo kwa saiti vafanikilo <localizationGlossaryLink>localized</localizationGlossaryLink>, na yakate <sentenseCollectionGlossaryLink>sentensi ritumbanyiro</sentenceCollectionGlossaryLink> kudimisha kuendelia <speakLink>Kudeda</speakLink> na <listenLink>Kusikiria</listenLink> michango.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Indo ja mwisho kunughirilwa: { $lastUpdatedTimeStamp }
+languages-show-more = W'ona Kubaha
+languages-show-less = W'ona Kutini
+language-meter-in-progress = Maendeleo
+language-total-progress = Mtalo Ghose
+language-search-input =
+    .placeholder = Lola
+language-speakers = W'adedi
+localized = W'ukitina
+sentences = Sentensi
+language-validation-hours = Masaa
+language-validation-progress = Maendeleo gha Kuhakikisha
 
 ## Contribution
 
+action-click = Tocha
+action-tap = Adada
+contribute = Changa
+listen = Sikiria
+write = Andika
+review = W'uria
+skip = Rama
+shortcuts = Chia vui
+clips-with-count-pluralized =
+    { $count ->
+        [one] Klipu <bold>{ $count }</bold>
+       *[other] Vlipu <bold>{ $count }</bold>
+    }
+goal-help-recording = Kwatesia Common Voice kuvikia <goalPercentage> </goalPercentage> yedu ya kurekodi { $goalValue } kula ituku!
+goal-help-validation = Kwatesia Common Voice kuvikia <goalPercentage> </goalPercentage> yedu ya kuhakikisha { $goalValue } kula ituku!
+contribute-more =
+    { $count ->
+        [one] Koko tayari kuchuria { $count } imu?
+       *[other] Koko tayari kuchuria { $count } rimu?
+    }
+record-cta = Zoya kurekodi
+record-platform-not-supported = Difuye w'ughoma, platifomu yako ndeyaw'iasaghikwa kwa idakoni.
+record-platform-not-supported-desktop = Kwa kompiuta ra mezenyi kwadima kuchanga kwa kupakua...
+record-platform-not-supported-ios-non-safari = Kwa iOS dalomba kuendelie na Safari kudimisha kurekodi...
+record-must-allow-microphone = Ni suti kufunguo andu kwa maikrofoni.
+record-no-mic-found = Maikrofoni ndeipatikie.
+record-error-too-short = Rekodi eka vui nandighi.
+record-error-too-long = Rekodi eka ndacha nandighi.
+record-error-too-quiet = Rekodi enyama nandighi.
+record-cancel = Inja Kiw'urio cha Rekodi
+record-instruction = { $actionType }<recordIcon></recordIcon> nao kushome sentensi nandighi
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> kukameria
+record-three-more-instruction = Idadu na kwameria!
+record-again-instruction = Nicha! <recordIcon></recordIcon> Rekodi klipu chinughiagha
+record-again-instruction2 = Kwabonya nicha, rekodi sena <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Cha mwisho!
+review-tooltip = W'uria & kurekodi vlipu sena ekuendeliagha
+share-clip = W'aghia klipu
+share-common-voice = W'aghia Common Voice
+review-instruction = W'uria & kurekodi vlipu sena iji ifwane
+record-submit-tooltip = { $actionType } Enja kukakaia tayari
+clips-uploaded = Vlipu vajoswa
+record-abort-title = Kumerie kurekodi imbiri?
+record-abort-text = Kukafuma idakoni kwalaghasha maendeleo ghako ghose
+record-abort-submit = Ghenja vlipu
+record-abort-continue = Meria kurekodi
+record-abort-delete = Fuma & Kufute Vlipu
+listen-instruction = { $actionType }<playIcon></playIcon> w'aghora iyo sentensi nicha?
+listen-again-instruction = Kazimiboie! <playIcon></playIcon> Sikiria sena iji kwaka tayari
+listen-3rd-time-instruction = Iw'i rasia, kazi iboie!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Cha mwisho!
+listen-empty-state = Ngera vlipu vasia - fungua peji sena, angu tima sena nyuma.
+listen-loading-error = Ndedipatire vlipu vingi kudima kusikiria. Dalomba kutime sena nyuma.
+listen-abort-title = Kwameria kuhakikisha vlipu?
+listen-abort-cancel = Endelia kuhakikisha
+listen-abort-confirm = Meria kuhakikisha
+speak-empty-state = Dasirilwa ni sentensi rerekodi kwa ichi kiteto...
+speak-empty-state-cta = Changa sentensi
+speak-loading-error = Ndedipatire sentensi ringi kudimaa kurighora. Dalomba kutime sena nyuma.
+record-button-label = Rekodi lwaka lwako
+share-title-new = <bold>Ditesie</bold> kupata chwaka rimu
+keep-track-profile = Kuw'ike mtalo ghwa maendelio ghako na profaili
+login-to-get-started = Ngia angu kukuandikishe eri kuzoye
+target-segment-first-card = Kwaw'achangia lengo yedu ya imbiri
+target-segment-generic-card = Kwaw'iachangia mpande ghumu ghwa lengo yedu
+target-segment-first-banner = Tesia kuboisa lengo ya Common Voice ya mpande ghwa kifumbu chimweri cha { $locale }
+target-segment-add-voice = Churia Lwaka Lwako
+target-segment-learn-more = Churia Kumanya
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Kutumbanya Chwaka
+contribute-sentence-collection-nav-header = Kutumbanya Sentensi
 
 ## Reporting
 
+report = Ripoti
+report-title = Ghenja ripoti
+report-ask = Ni w'asiki kwaw'iapata na ihi sentensi?
+report-offensive-language = Madedo ghisene ishima
+report-offensive-language-detail = Ihi sentensi esow'a ishima angu eka na malagho ghiseboie.
+report-grammar-or-spelling = Grama/maandiko gheka makosa
+report-grammar-or-spelling-detail = Sentensi eka na makosa gha grama angu maandiko.
+report-different-language = Kiteto kizima
+report-different-language-detail = Eandikwa kwa kiteto chisefwanane na chija naw'iadeda.
+report-difficult-pronounce = Jekua kujighora
+report-difficult-pronounce-detail = Eka na malagho ghikurie kushoma angu kughora.
+report-offensive-speech = Madedo ghizamie
+report-offensive-speech-detail = Klipu eka na madedo ghisene ishima.
+report-other-comment =
+    .placeholder = Funya Maghesho
+success = Kwafanikilwa
+continue = Endelia
+report-success = Ripoti yaghenjwa nicha
 
 ## Goals
 
+streaks = Mando alinga
+days =
+    { $count ->
+        [one] Ituku
+       *[other] Matuku
+    }
+recordings =
+    { $count ->
+        [one] Rekodi
+       *[other] Rekodi
+    }
+validations =
+    { $count ->
+        [one] Hakikisho
+       *[other] Hakikisho
+    }
 
 ## Dashboard
 
+your-languages = Viteto vako
+toward-next-goal = Endelia na lengo yanughiria
+goal-reached = Lengo yavikilwa
+clips-you-recorded = Vlipu kwarekodi
+clips-you-validated = Vlipu kwahakikisha
+todays-recorded-progress = Vlipu va Common Voice kwavikia kurekodi linu
+todays-validated-progress = Vlipu va Common Voice kwavikia kuhakikisha linu
+stats = Takwimu
+awards = Zawadi
+you = Oho
+everyone = W'andu W'ose
+contribution-activity = Maza rechanga
+top-contributors = W'aja W'ichangie kuchumba
+recorded-clips = Vlipu Virekodilo
+validated-clips = Vlipu Vihakikishiro
+total-approved = Vose Viisiro
+overall-accuracy = W'uhakika ghwa W'ujumla
+set-visibility = Boisa Kuw'oneka kwapo
+visibility-explainer = Iri mifunguo niro rishekeriagha kuw'oneka kwa m'bau gholongoza. Rikavisika, basi maendeleo ghako ghavisika. Kutambwa kwaro ni angu fwana yako, irina jako na maendeleo ghako ndeghiw'onekagha kwa ugho m'bau imbiri. W'ona angu kukaghalusa m'bau w'uw'ishi ghwadwa dakika- { $minutes } kughalua  maendeleo.
+visibility-overlay-note = Kumbuka: Ikaw'ikwa "Iw'oneke", yadima kughaluswa aha<profileLink>Peji ya Profaili</profileLink>
+show-ranking = Nibonyerie neko wa kalinga
 
 ## Custom Goals
 
+get-started-goals = Zoya malengo ghako
+create-custom-goal = Panga lengo kumoni
+goal-type = Ni lengoki kukunde kuaghe?
+both-speak-and-listen = Rose iw'i
+both-speak-and-listen-long = Ghose aw'i (Kudeda na Kusikiria)
+daily-goal = Lengo ya Ituku
+weekly-goal = Lengo ya Juma
+easy-difficulty = Ileghere
+average-difficulty = Isekurie nandighi
+difficult-difficulty = Ikurie
+pro-difficulty = Mtalamu
+lose-goal-progress-warning = Kukawuria kughaluse lengo yako kwadima kulaghasha maendeleo kwabonya.
+want-to-continue = Kwakunde kuendelia?
+finish-editing = Kumerie kughalusa kande?
+lose-changes-warning = Kukafuma idakoni kwalaghasha ghaja kwaghalusa
+build-custom-goal = Agha lengo yako kumoni
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Tesia kuvikia isaa { $hours } kwa { $language } iko na lengo yapo binafsi
+       *[other] Tesia kuvikia masaa { $hours } kwa { $language } ghiko na lengo yapo binafsi
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Tesia Common Voice kuvikia { $hours } isaa kwa kiteto chiko na lengo ya kibinafsi
+       *[other] Tesia Common Voice kuvikia { $hours } masaa kwa kiteto chiko na lengo ya kibinafsi
+    }
+set-a-goal = W'ika lengo
+cant-decide = Ndokumanyire kwakunde w'ada?
+how-many-per-day = Ni nicha! Vilipu vilinga kwa ituku?
+how-many-a-week = Ni nicha! Vlipu vilinga kwa njumwa?
+which-goal-type = Kwaw'ekunda kudeda, kuskiria angu ghose aw'i?
+receiving-emails-info = Kwakunde kupateghe imeili rekukumbusira malengo ghako, maendeleo ghako na habari ra Common Voice.
+not-receiving-emails-info = <bold>Nondukunde</bold> kupateghe imeili rekukumbusira malengo ghapo, maendeleo ghako na habari ra Common Voice.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] Klipu { $count }
+       *[other] Vlipu { $count }
+    }
+help-share-goal = Ditesie kulola chawka rimu, eresha mazumuni ghako
+confirm-goal = Hakikisha isuw´irio
+goal-interval-weekly = Kula Juma
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Ghoria w'andu lengo yako ya Klipu { $count } kula ituku ya { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Ghoria w'andu lengo yako ya Klipu { $count } kula Juma  ya { $type }
+share-goal-type-speak = Kudeda
+share-goal-type-listen = Kusikiria
+share-goal-type-both = Kudeda na Kusikiria
 
 ## Profile Delete
 

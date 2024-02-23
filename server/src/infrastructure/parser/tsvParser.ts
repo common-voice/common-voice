@@ -2,7 +2,9 @@ import { parse } from 'csv-parse'
 import { Readable } from 'stream'
 import { taskEither as TE } from 'fp-ts'
 
-export const readTsvIntoMemory = <T>(readable: Readable): TE.TaskEither<Error, T[]> => {
+export type ReadTsvIntoMemory = <T>(readable: Readable) => TE.TaskEither<Error, T[]>
+
+export const readTsvIntoMemory: ReadTsvIntoMemory = <T>(readable: Readable): TE.TaskEither<Error, T[]> => {
   return TE.tryCatch(
     () =>
       new Promise((res, rej) => {

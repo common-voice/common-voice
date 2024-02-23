@@ -459,6 +459,8 @@ help-accent = Help nedich mei aksint?
 help-accent-explanation = Jo aksint is de manier wêrop jo wurden útsprekke. It kin foarme wurde troch wêr’t jo wenne hawwe, hokker oare talen jo sprekke en tal fan oare faktoaren. Jo kinne hjir alle ynformaasje diele dy’t jo relevant fine.
 help-variants = Help nedich mei farianten?
 help-variants-explanation = Farianten binne in spesifike foarm fan in taal – bygelyks sprutsen troch minsken dy’t yn in gebiet of mienskip wenje. Somtiden wurde dit dialekten neamd.
+help-sex-or-gender-changes = Help nedich mei de geslachts- of genderwizigingen?
+help-sex-or-gender-changes-explanation = Wy biede mear opsjes te jaan minsken mear kar te jaan yn wat se ús fertelle oer harren geslacht of genderidenteit. Beskriuw josels op de manier dy't foar jo it meast natuerlik fielt. <learnMoreLink>Mear ynfo oer ús oanpak fan geslacht en gender.</learnMoreLink>
 
 ## Profile - Email
 

@@ -1,9 +1,9 @@
 ---
-name: New Language Localization Request
-about: Request a language for localization on Common Voice that is currently not available on Pontoon
-title: 'LOCALIZATION REQUEST: '
-labels: 'Type: localization'
-assignees: 'Heyhillary'
+name: New Language Localisation Request
+about: Request a language for localisation on Common Voice that is currently not available on Pontoon
+title: 'LOCALISATION REQUEST: '
+labels: 'Type: localisation'
+assignees: 'ftyers'
 ---
 
 # Welcome to the Common Voice Community !
@@ -20,7 +20,7 @@ assignees: 'Heyhillary'
 
 **Language code**
 
-<!--- Please provide the ISO-639-1 code-->
+<!--- Please provide the ISO-639 code-->
 
 **Language size**
 

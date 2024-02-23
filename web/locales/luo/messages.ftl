@@ -150,6 +150,7 @@ nhe = Dho jomeksik['
 nhi = Dho jomeksiko
 nia = Dhonias
 nl = Dhokaburu
+nn-NO = Dhonorweyi
 nr = Dhoisindebele ma milambo
 nso = Sotho ma Nyanduat
 ny = Dhochinyanja
@@ -447,6 +448,7 @@ help-accent = Idwaro kony kod kabind duol?
 help-accent-explanation = Kit dhok en ayanga kaka iwuoyo. Onyalo lokore kaluowore kod kuma isedakie, kata kod kit dhok moko miwacho to kod weche mamoko. Koro inyalo wacho wach moro amora miparoni donjore kae.
 help-variants = Idwaro kony kod mopogore opogore?
 help-variants-explanation = Kabind duonde gin kit dhok, kuom ranyisi kaka dho joma odak kanyachiel kata e gweng'. Sechemoko iluongo gi ni dhoudi.
+help-sex-or-gender-changes = Idwaro kony loko weche mag kit ngato kaka dichuo kata dhako?
 
 ## Profile - Email
 
@@ -481,11 +483,13 @@ faq-why-mission-q = Ang'o momiyo Common voice en achiel mar tije ma Mozilla timo
 faq-why-mission-a = Mozila oyangore ne kano weche kendo miyo ji duto thuolo mayot mar yudo wechegi. Mondo gitim mano, gidwaro tiego jo nonro mag mbui kokadho kuom Common Voice. Kaka weche mag dongruok mag duol medo landore kendo kadho kuonde mane ong'ere nitiye kodgi, wan gi geno ni ji duto nyaka yud konyruok marom. Mano tiende ni nyaka koro ter nyalo kuom dhok mamoko kendo rwako lep mopogore kod kwan mar oganda e seche migero kendo itemo nonro mar teknoloji mar duol. Common Voice en mwandu mar oganda mar ng'ato ang'ata kendo grube  mag Mozilla kod jok magere e piny ngima osechako tiyo kode e chenro maggi.
 faq-what-cv-and-deepspeech-q = Ere pogruok manie kind Common Voice kod Deep Speech?
 faq-is-goal-assistant-q = Dibed ni dwaro mar Common Voice en ni oger jakony mar wuoyo?
+faq-is-goal-assistant-a = Gombo Common Voice en ni ng'ato ang'ata nyalo loso teknoloji matiyo gi duol kaka teknoloji manyalo tiego duond ng'ato, kata teknoloji moramora matiyo gi duonde momaki. Teknoloji manyalo loso kaka ndano en achiel kuom teknoloji minyal losi gi deche duol momaki.
 faq-do-want-native-q = Ok an japinyni to ang'eyo dhogi kendo awuoyo gi lep mopogore, bende pod anyalo chiwo duonda?
 faq-do-want-native-a = Ee, wadwaro duondi ahinya. Common Voice dwaro kabind dwonde mopogore opogore mondi teknologi mibolosi oti maber gi duonde duto. Emomiyo kata jok mapuojore dhok moro nyalo chiwo duondgi.
 faq-why-different-speakers-q = Angomomiyo udwaro ji mangeny mawacho dhok ka dhok?
 faq-why-different-speakers-a = Ngeny deche mag duol ok nigi duonde motingo ji duto, ngeny duonde gin mag <articleLink>jomachuo kod jomanigi pesa</articleLink>. Kabind duonde gi dhok maonge e deche gi gin mag jomaok nyal konyore kendgi. Ngeny teknoloji mag dunde ok nyal poge duond jomamine maber.  Emomiyo wadwaro kabind dwonde mopogore opogore e deche wa mag duol.
 faq-why-my-lang-q = Angomomiyo dhowa ok omedi kanyo?
+faq-why-my-lang-a = Common voice tiyo gi ji duto, kendo dhok te momedi omed gi jomochiure. Dwagomb mondo imed dhou! <languageRequestLink> Penj kaka inyalo medo dhou</languageRequestLink>
 faq-what-quality-q = Ranginy mane midwaro e duol momaki mondo duolno otigodo e deche?
 faq-why-10k-hours-q = Angomomiyo idwaro dhok ka dhok ochop seche 10,000 mar duol momaki?
 faq-why-10k-hours-a = Magi e seche mag duol momaki madwarore mondo olosgo teknoloji manyalo loko weche koe duol.
@@ -660,6 +664,7 @@ license-mixed = Onywandore/oriwore
 review-terms = Kitiyo gi Common Voice, tiende ni iyie gi <termsLink>chike duto</termsLink> kod <privacyLink>chike matayo weche ma ng'ato owuon</privacyLink>
 terms-agree = Ayie
 terms-disagree = Ok ayiego
+review-aborted = Kano weche otamre. Idwaro rucho duonde misemako?
 review-submit-title = Non maber kaeto ior
 review-submit-msg = Erokamano kuom mako duondi!<lineBreak></lineBreak> Koro inyalo ngio gi kendo kaeto ichiu dondi piny ka.
 review-recording = Non maber/ kendo
@@ -671,18 +676,30 @@ review-delete-recordings = Ruch gik mane amakogo
 ## Datasets Page
 
 datasets-heading = Deche
+datasets-headline = Wagero deche duol momaki motingo duonde mopogore moyangore ne oganda kendo ji duto nyalo tiyogo tiego teknoloji matiyo gi dhok mopogore opogore.
 language = Dhok
+download-dataset-header = Gol deche
+download-dataset-tag = Yier dhok dech duol midwaro kendo yier kabind dero midwaro golo.
 # File size in gigabytes
 size = Duong'
 validated-hr-total = Kwan seche duto mosenon
+overall-hr-total = Seche duto koriu
+cv-license = Chik tich
 audio-format = kit duol mosemaki
 dataset-splits = Pogo (Iga kod Chal - dichuo kata dhako)
 number-of-voices = Kwan duonde
 splits = Pogruok
 email-to-download = Keti barup mbui ekinyal golo
+why-email = <b>Ango momiyi idwaro barup mbui?</b> Wanyalo dwaro tudore kodi mbele ka kuom weche deche, barup mbui miyo wanyalo tudore kodi.
+confirm-size = Iikori ne golo <b>{ $size }</b>
 size-gigabyte = GB
+size-megabyte = MB
+confirm-no-identify = <b>Iyie</b> ni okibitemo ngeyo jok mochiwore ne deche mag Common Voice
+confirm-join-mailing-list = Idwa donjo e kanyakla mayudo barupe mawuok Common Voice
+download-language = Gol { $language }
 validated-hours = Seche mosepuodhi
 recorded-hours = Seche mosemaki
+whats-inside = Ango manitie ei deche duol mag Common Voice?
 subscribe = Ndikri
 other-datasets = Deche mamoko mag duol
 feedback-q = Ingi duoko?
@@ -989,9 +1006,13 @@ demo-account = Akaunt
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = Ket barupi mar mbui mar oro tudruok mar donjo
+demo-account-sign-up = Or tundruok mar donjo
 
 ## Demo Contribute
 
+demo-contribute-card-header = Iseikori medo duondi kendo miyowa iti?
 demo-listen-subtitle = Iseikri ne chiuruok?
 
 ## Demo Dashboard
@@ -1001,15 +1022,22 @@ demo-listen-subtitle = Iseikri ne chiuruok?
 
 contribution-criteria-nav = Chenro
 contribution-criteria-link = Winj maber chenro mag chiuruok
+contribution-criteria-page-title = Gik madwarore mondo omi ng'ato ochiure
 contribution-for-example = Ranyisi
 contribution-misreadings-title = Somo marach
+contribution-misreadings-description-extended-list-2 = Onge <strong>'s</strong> e 'giko wach
 contribution-misreadings-description-extended-list-5 = Temo dingeny kisomo wach.
 contribution-misreadings-example-5-title = Wadhi madho kahawa oko.
 contribution-misreadings-example-6-title = wadhi madho kahawa oko
+contribution-misreadings-example-6-explanation = [Onengo bedi "wan"]
 contribution-misreadings-example-7-title = wadhi madho kahawa oko.
+contribution-misreadings-example-8-explanation = [Weche ma ok owinjore]
+contribution-varying-pronunciations-title = Kit somo dhok opogore
 contribution-varying-pronunciations-example-1-title = Oruako ogudu e wiye.
 contribution-varying-pronunciations-example-2-title = Otingo bade malo
 contribution-background-noise-title = Nitie koko chien kanyo
+contribution-background-voices-title = koko mawuok oko
+contribution-volume-title = koko
 contribution-just-unsure-title = Ok an kod adieri
 see-more = <chevron></chevron>Ne Mangeny
 see-less = <chevron></chevron>Ne matin
@@ -1203,8 +1231,11 @@ already-have-an-account = In kod akaont? <login>Dinji</login>
 create-profile-button = Ket pichani
 voice-collection = Choko dwol / Choko duonde
 sentence-collection = choko weche
+misreadings = Ma okosom maber
 background-noise = Koko mawuok chien
+just-unsure = Ok in kod adieri?
 example = Ranyisi
+varying-pronunciations-example = Yo ne ok ong'ere maber.
 background-voices-explanation = Koko matin kawinjore e duol momaki ok rach, to kaponi inyalo winjo ng'at moro kawuonyo gietoke, duol momaki no onengo kwedi. Mae timorega ka ngato oweyo TV nono, kata kaponi jomoko wuoyo machiengni.
 still-have-questions = Pod in kod penjo?
 contact-common-voice = Tudri kod jo Common Voice kuom penjo moroamora
@@ -1237,6 +1268,7 @@ single-sentence = Wach achiel
 ## REVIEW PAGE
 
 report-sc-different-language = Dhok mopogore
+report-sc-different-language-detail = Ondike kod dhok mopogore kod manono.
 
 ## BULK SUBMISSION 
 
