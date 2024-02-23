@@ -447,6 +447,8 @@ help-accent = Hai bisogno di aiuto con l’accento?
 help-accent-explanation = Il tuo accento è il modo in cui pronunci le parole. Può essere condizionato dal luogo in cui hai vissuto, da quali altre lingue parli e da molti altri fattori. Qui puoi condividere qualsiasi informazione che ritieni pertinente.
 help-variants = Hai bisogno di aiuto con le varianti?
 help-variants-explanation = Le varianti sono una forma specifica di una lingua, ad esempio condivisa da coloro che vivono in determinate aree geografiche o comunità. A volte queste varianti vengono chiamate dialetti.
+help-sex-or-gender-changes = Hai bisogno di aiuto per le modifiche relative a sesso o genere?
+help-sex-or-gender-changes-explanation = Abbiamo deciso di offrire più opzioni per garantire alle persone maggiore scelta nel definire il proprio sesso o la propria identità di genere. Descriviti nel modo che ritieni più naturale. <learnMoreLink>Ulteriori informazioni sul nostro approccio a sesso e genere.</learnMoreLink>
 
 ## Profile - Email
 

@@ -1,22 +1,32 @@
 import { pipe } from 'fp-ts/lib/function'
-import { insertBulkSentencesIntoDb } from '../../repository/sentences-repository'
+import { InsertBulkSentences } from '../../repository/sentences-repository'
 import { taskEither as TE } from 'fp-ts'
 import { AddBulkSentencesCommand } from './command/add-bulk-sentences-command'
-import { readTsvIntoMemory } from '../../../../infrastructure/parser/tsvParser'
+import { ReadTsvIntoMemory } from '../../../../infrastructure/parser/tsvParser'
+import { FetchUserClientIdByEmail } from '../../repository/user-repository'
 
-export const AddBulkSentencesCommandHandler = (
-  cmd: AddBulkSentencesCommand
-) => {
-  return pipe(
-    readTsvIntoMemory<{ Sentence: string; Source: string }>(cmd.tsvFile),
-    TE.map(sentences =>
-      sentences.map(submission => ({
-        sentence: submission.Sentence,
-        source: submission.Source,
-        locale_id: cmd.localeId,
-        client_id: cmd.clientId,
-      }))
-    ),
-    TE.chain(insertBulkSentencesIntoDb)
-  )
-}
+export const AddBulkSentencesCommandHandler =
+  (readTsvIntoMemory: ReadTsvIntoMemory) =>
+  (fetchUserClientIdByEmail: FetchUserClientIdByEmail) =>
+  (insertBulkSentences: InsertBulkSentences) =>
+  (cmd: AddBulkSentencesCommand) => {
+    return pipe(
+      TE.Do,
+      TE.bind('sentences', () =>
+        readTsvIntoMemory<{
+          'Sentence (mandatory)': string
+          'Source (mandatory)': string
+        }>(cmd.tsvFile)
+      ),
+      TE.bind('clientId', () => fetchUserClientIdByEmail(cmd.email)),
+      TE.map(({ sentences, clientId }) =>
+        sentences.map(submission => ({
+          sentence: submission['Sentence (mandatory)'],
+          source: submission['Source (mandatory)'],
+          locale_id: cmd.localeId,
+          client_id: clientId,
+        }))
+      ),
+      TE.chain(insertBulkSentences)
+    )
+  }

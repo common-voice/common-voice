@@ -138,11 +138,13 @@ const insertSentence =
       )
     }
 
+export type InsertBulkSentences = (sentenceSubmissions: SentenceSubmission[]) => TE.TaskEither<Error, void>
+
 const insertBulkSentences =
   (db: Mysql) =>
     (
       sentenceSubmissions: SentenceSubmission[]
-    ): TE.TaskEither<Error, unknown> => {
+    ): TE.TaskEither<Error, void> => {
       return TE.tryCatch(
         () => insertBulkSentencesTransaction(db, sentenceSubmissions),
         (err: Error) => err
