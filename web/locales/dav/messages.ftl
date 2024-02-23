@@ -940,12 +940,46 @@ report-offensive-speech-detail = Klipu eka na madedo ghisene ishima.
 report-other-comment =
     .placeholder = Funya Maghesho
 success = Kwafanikilwa
+continue = Endelia
+report-success = Ripoti yaghenjwa nicha
 
 ## Goals
 
+streaks = Mando alinga
+days =
+    { $count ->
+        [one] Ituku
+       *[other] Matuku
+    }
+recordings =
+    { $count ->
+        [one] Rekodi
+       *[other] Rekodi
+    }
+validations =
+    { $count ->
+        [one] Hakikisho
+       *[other] Hakikisho
+    }
 
 ## Dashboard
 
+your-languages = Viteto vako
+toward-next-goal = Endelia na lengo yanughiria
+goal-reached = Lengo yavikilwa
+clips-you-recorded = Vlipu kwarekodi
+clips-you-validated = Vlipu kwahakikisha
+todays-recorded-progress = Vlipu va Common Voice kwavikia kurekodi linu
+todays-validated-progress = Vlipu va Common Voice kwavikia kuhakikisha linu
+stats = Takwimu
+awards = Zawadi
+you = Oho
+everyone = W'andu W'ose
+contribution-activity = Maza rechanga
+top-contributors = W'aja W'ichangie kuchumba
+recorded-clips = Vlipu Virekodilo
+validated-clips = Vlipu Vihakikishiro
+total-approved = Vose Viisiro
 
 ## Custom Goals
 
