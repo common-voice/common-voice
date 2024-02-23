@@ -1026,6 +1026,16 @@ n-clips-pluralized =
         [one] Klipu { $count }
        *[other] Vlipu { $count }
     }
+help-share-goal = Ditesie kulola chawka rimu, eresha mazumuni ghako
+confirm-goal = Hakikisha isuw´irio
+goal-interval-weekly = Kula Juma
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Ghoria w'andu lengo yako ya Klipu { $count } kula ituku ya { $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Ghoria w'andu lengo yako ya Klipu { $count } kula Juma  ya { $type }
+share-goal-type-speak = Kudeda
+share-goal-type-listen = Kusikiria
+share-goal-type-both = Kudeda na Kusikiria
 
 ## Profile Delete
 
