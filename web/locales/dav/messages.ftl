@@ -924,6 +924,22 @@ contribute-sentence-collection-nav-header = Kutumbanya Sentensi
 
 ## Reporting
 
+report = Ripoti
+report-title = Ghenja ripoti
+report-ask = Ni w'asiki kwaw'iapata na ihi sentensi?
+report-offensive-language = Madedo ghisene ishima
+report-offensive-language-detail = Ihi sentensi esow'a ishima angu eka na malagho ghiseboie.
+report-grammar-or-spelling = Grama/maandiko gheka makosa
+report-grammar-or-spelling-detail = Sentensi eka na makosa gha grama angu maandiko.
+report-different-language = Kiteto kizima
+report-different-language-detail = Eandikwa kwa kiteto chisefwanane na chija naw'iadeda.
+report-difficult-pronounce = Jekua kujighora
+report-difficult-pronounce-detail = Eka na malagho ghikurie kushoma angu kughora.
+report-offensive-speech = Madedo ghizamie
+report-offensive-speech-detail = Klipu eka na madedo ghisene ishima.
+report-other-comment =
+    .placeholder = Funya Maghesho
+success = Kwafanikilwa
 
 ## Goals
 
