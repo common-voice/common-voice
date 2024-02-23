@@ -45,5 +45,11 @@ Now you can either drag and drop your TSV of bulk sentences into the shaded uplo
 
 After dragging to upload your file, you'll be asked to check a box to confirm that these sentences are in the public domain. Check this box and press 'Submit' to send your bulk sentence upload to the Common Voice team for processing.
 
+## After Submitting Your Bulk Sentences
+
+Once your file has been sent, our team will quality control the bulk sentence submission by asking a community member from the same language community to evaluate a randomly selected sample of sentences from your file. After quality control checks have been passed, our engineers with merge your approved bulk setences file into the text corpus for the appropriate language. If we have questions or concerns with your bulk sentence sumission, our team will contact you to discuss them.
+
+There is currently a backlog for bulk sentence review, so there may be a short wait for your sentence to be processed.
+
 ## Questions or Problems with Bulk Sentence Uploads
 Email the team at commonvoice@mozilla.org for support or with your questions.
