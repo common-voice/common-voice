@@ -1016,6 +1016,16 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = W'ika lengo
 cant-decide = Ndokumanyire kwakunde w'ada?
+how-many-per-day = Ni nicha! Vilipu vilinga kwa ituku?
+how-many-a-week = Ni nicha! Vlipu vilinga kwa njumwa?
+which-goal-type = Kwaw'ekunda kudeda, kuskiria angu ghose aw'i?
+receiving-emails-info = Kwakunde kupateghe imeili rekukumbusira malengo ghako, maendeleo ghako na habari ra Common Voice.
+not-receiving-emails-info = <bold>Nondukunde</bold> kupateghe imeili rekukumbusira malengo ghapo, maendeleo ghako na habari ra Common Voice.
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] Klipu { $count }
+       *[other] Vlipu { $count }
+    }
 
 ## Profile Delete
 
