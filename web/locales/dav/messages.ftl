@@ -908,9 +908,19 @@ speak-empty-state = Dasirilwa ni sentensi rerekodi kwa ichi kiteto...
 speak-empty-state-cta = Changa sentensi
 speak-loading-error = Ndedipatire sentensi ringi kudimaa kurighora. Dalomba kutime sena nyuma.
 record-button-label = Rekodi lwaka lwako
+share-title-new = <bold>Ditesie</bold> kupata chwaka rimu
+keep-track-profile = Kuw'ike mtalo ghwa maendelio ghako na profaili
+login-to-get-started = Ngia angu kukuandikishe eri kuzoye
+target-segment-first-card = Kwaw'achangia lengo yedu ya imbiri
+target-segment-generic-card = Kwaw'iachangia mpande ghumu ghwa lengo yedu
+target-segment-first-banner = Tesia kuboisa lengo ya Common Voice ya mpande ghwa kifumbu chimweri cha { $locale }
+target-segment-add-voice = Churia Lwaka Lwako
+target-segment-learn-more = Churia Kumanya
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Kutumbanya Chwaka
+contribute-sentence-collection-nav-header = Kutumbanya Sentensi
 
 ## Reporting
 
