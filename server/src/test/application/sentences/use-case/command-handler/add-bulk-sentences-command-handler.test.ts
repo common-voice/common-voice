@@ -11,7 +11,7 @@ describe('Add bulk sentences command handler', () => {
     const fetchUserClientIdByEmailMock = jest.fn(() => TE.right('abc1234'))
     const insertBulkSentencesMock = jest.fn(() => TE.right(constVoid()))
     const tsvFileReadable = fs.createReadStream(
-      path.join('/', 'code', 'docs', 'sample-bulk-submission.tsv'),
+      path.join(__dirname, 'sample-bulk-submission.tsv'),
       {
         encoding: 'utf-8',
       }
@@ -41,10 +41,12 @@ describe('Add bulk sentences command handler', () => {
   })
 
   it('should not insert into the db if user id cannot be found', async () => {
-    const fetchUserClientIdByEmailMock = jest.fn(() => TE.left(new Error('Cannot find user with this email')))
+    const fetchUserClientIdByEmailMock = jest.fn(() =>
+      TE.left(new Error('Cannot find user with this email'))
+    )
     const insertBulkSentencesMock = jest.fn(() => TE.right(constVoid()))
     const tsvFileReadable = fs.createReadStream(
-      path.join('/', 'code', 'docs', 'sample-bulk-submission.tsv'),
+      path.join(__dirname, 'sample-bulk-submission.tsv'),
       {
         encoding: 'utf-8',
       }
@@ -62,10 +64,7 @@ describe('Add bulk sentences command handler', () => {
       Id.ap(insertBulkSentencesMock)
     )
 
-    const result = await pipe(
-      cmd,
-      sut
-    )()
+    const result = await pipe(cmd, sut)()
 
     expect(fetchUserClientIdByEmailMock).toBeCalledTimes(1)
     expect(fetchUserClientIdByEmailMock).toBeCalledWith(cmd.email)
