@@ -408,8 +408,12 @@ native-language =
 profile-form-add-accent = Engada un novo acento personalizado "{ $inputValue }"
 profile-form-submit-save = Gardar
 profile-form-submit-saved = Gardado
-male = Masculino
-female = Feminino
+male_masculine = Macho/Masculino
+female_feminine = Femia/Feminino
+intersex = Intersexual
+transgender = Transxénero
+non-binary = Non binario
+do_not_wish_to_say = Prefiro non responder
 # Gender
 other = Outro
 why-profile-title = Por que crear un perfil?
@@ -445,6 +449,7 @@ help-accent = Necesita axuda co acento?
 help-accent-explanation = O acento é a forma en que pronuncia as palabras. Poden influír nel o(s) lugar(es) onde viviu, as outras linguas que fala e moitos outros factores. Pode compartir aquí calquera información que considere relevante.
 help-variants = Necesita axuda coas variedades?
 help-variants-explanation = As variedades son formas específicas dunha lingua. Por exemplo, unha variedade é a que comparten as persoas que viven nunha determinada zona xeográfica ou comunidade. Ás veces estas chámanse dialectos.
+help-sex-or-gender-changes = Necesita axuda cos cambios de sexo ou xénero?
 
 ## Profile - Email
 
@@ -757,7 +762,6 @@ number-of-voices = Número de voces
 splits = Subconxuntos
 email-to-download = Escriba o enderezo de correo para descargar
 why-email = <b>Por que un enderezo de correo?</b> É posible que precisemos poñernos en contacto con vostede no futuro para trasladarlle posibles cambios no conxunto de datos.
-why-donate = Por que preguntamos?
 confirm-size = Estou preparado para iniciar unha descarga de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -802,6 +806,10 @@ no-information-available = Non hai información dispoñíbel
 dataset-metadata-sex = Xénero
 # dataset metadata - age of contributor
 dataset-metadata-age = Idade
+donate-modal-message = O seu conxunto de datos estase descargando!
+dataset-donate-modal-heading = Sabía…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = { "" }
 
 ## Download Modal
 
@@ -1715,6 +1723,7 @@ public-domain = Dominio Público
 citing-sentences = Citar frases
 adding-sentences = Engadir frases
 reviewing-sentences = Revisar frases
+sentence-domain = { "" }
 public-domain-explanation-1 = É moi importante que todas as frases sexan de <publicDomain>dominio público</publicDomain> (<cc0>cc0</cc0>), xa que o conxunto de datos de Common Voice se publica baixo licenza cc0. Antes de subir frases, asegúrese diso e inclúa sempre a cita correspondente.
 public-domain-explanation-2 = As mellores frases para construír un motor de recoñecemento da fala útil son as da linguaxe coloquial e actual. A seguir atopará unha serie de ideas para axudarlle a xerar frases:
 public-domain-explanation-3 = Cree frases actuais e coloquiais en solitario, cos seus amigos ou coa súa comunidade lingüística, por exemplo, a través dun maratón de escritura
@@ -1753,7 +1762,9 @@ reviewing-sentences-explanation-1 = Se a frase cumpre os criterios anteriores, p
 reviewing-sentences-explanation-2 = Se a frase non cumpre os criterios anteriores, prema no botón "Non".
 reviewing-sentences-explanation-3 = Se ten dúbidas sobre a frase, pode omitila e pasar á seguinte.
 reviewing-sentences-explanation-4 = Se xa non quedan frases para revisar, axúdenos a recoller máis!
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = Engada <icon></icon> unha frase de dominio público
 write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de datos con licenza cc-0 dispoñible publicamente.
 sentence =
@@ -1784,6 +1795,30 @@ single-sentence-submission = Envío dunha única frase
 bulk-sentence-submission = Envío masivo de frases
 single-sentence = Frase única
 bulk-sentences = Grupo de frases
+# Sentence Domain dropdown option
+agriculture = Agricultura
+# Sentence Domain dropdown option
+automotive = Automoción
+# Sentence Domain dropdown option
+finance = Finanzas
+# Sentence Domain dropdown option
+food_service_retail = Alimentos, servizos e comercio polo miúdo
+# Sentence Domain dropdown option
+general = Xeral
+# Sentence Domain dropdown option
+healthcare = Asistencia sanitaria
+# Sentence Domain dropdown option
+history_law_government = Historia, dereito e goberno
+# Sentence Domain dropdown option
+language_fundamentals = Fundamentos da linguaxe (por exemplo, díxitos, letras, diñeiro)
+# Sentence Domain dropdown option
+media_entertainment = Medios e entretemento
+# Sentence Domain dropdown option
+nature_environment = Natureza e medio ambiente
+# Sentence Domain dropdown option
+news_current_affairs = Noticias e actualidade
+# Sentence Domain dropdown option
+technology_robotics = Tecnoloxía e robótica
 
 ## REVIEW PAGE
 
