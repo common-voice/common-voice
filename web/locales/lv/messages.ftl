@@ -1936,6 +1936,7 @@ reviewing-sentences-explanation-1 = Ja teikums atbilst iepriekš minētajiem kri
 reviewing-sentences-explanation-2 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Nē".
 reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat to izlaist un pāriet uz nākamo.
 reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
+domain-explanation = Joma attiecas uz teikuma saturu. Jūs varat izvēlēties vienu no:
 
 ## WRITE PAGE
 
@@ -1969,6 +1970,32 @@ single-sentence-submission = Viena teikuma pievienošana
 bulk-sentence-submission = Vairāku teikumu pievienošana
 single-sentence = Viens teikums
 bulk-sentences = Vairāki teikumi
+sentence-domain-select =
+    .label = Teikuma joma
+# Sentence Domain dropdown option
+agriculture = Lauksaimniecība
+# Sentence Domain dropdown option
+automotive = Auto industrija
+# Sentence Domain dropdown option
+finance = Finanses
+# Sentence Domain dropdown option
+food_service_retail = Pārtika, apkalpošana un mazumtirdzniecība
+# Sentence Domain dropdown option
+general = Vispārīgs
+# Sentence Domain dropdown option
+healthcare = Veselības aprūpe
+# Sentence Domain dropdown option
+history_law_government = Vēsture, tiesības un valdība
+# Sentence Domain dropdown option
+language_fundamentals = Valodas pamati (piemēram, cipari, burti, nauda)
+# Sentence Domain dropdown option
+media_entertainment = Plašsaziņas līdzekļi un izklaide
+# Sentence Domain dropdown option
+nature_environment = Daba un vide
+# Sentence Domain dropdown option
+news_current_affairs = Ziņas un aktualitātes
+# Sentence Domain dropdown option
+technology_robotics = Tehnoloģijas un robotika
 
 ## REVIEW PAGE
 
