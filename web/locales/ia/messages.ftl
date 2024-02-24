@@ -449,6 +449,7 @@ help-accent = Besonia tu auxilio con le accento?
 help-accent-explanation = Tu accento es le maniera que tu pronuncia le vocabulos. Illo pote esser formate per ubi tu viveva, qual altere linguas tu parla e plure altere factores. Tu pote compartir ulle informationes que tu senti esser pertinente hic.
 help-variants = Besonia tu de auxilio con le variantes?
 help-variants-explanation = Le variantes es un forma specific de un lingua, per exemplo compartite per illes vivente in un area geographic o communitate. Aliquando illos es appellate dialectos.
+help-sex-or-gender-changes = Besonia tu de adjuta con le cambios de sexo o genere?
 
 ## Profile - Email
 
