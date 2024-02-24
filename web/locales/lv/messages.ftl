@@ -54,6 +54,7 @@ cak = Kaqchikel
 ckb = Centrālā kurdi
 cnh = Hakha Chin
 co = Korsikāņu
+crh = Krimas tatāru
 cs = Čehu
 cv = Čuvašu
 cy = Velsiešu
@@ -75,12 +76,14 @@ ff = Fulu
 fi = Somu
 fo = Fēru
 fr = Franču
+fuf = Pular Guinea
 fy-NL = Frīzu
 ga-IE = Īru
 gl = Galisiešu
 gn = Guaranu
 gom = Goans Konkani
 gu-IN = Gudžaratu
+guc = Wayuunaiki
 ha = Hausu
 he = Ebreju
 hi = Hindi
@@ -123,6 +126,7 @@ lo = Laosas
 lt = Lietuviešu
 ltg = Latgaliešu
 lv = Latviešu
+lzz = Laz
 mai = Maithili
 mdf = Moksha
 mg = Malagasiešu
@@ -162,6 +166,7 @@ ps = Pashto
 pt = Portugāļu
 quc = K'iche'
 quy = Kečua čanka
+qvi = Kichwa
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 ro = Rumāņu
@@ -171,6 +176,8 @@ sah = Jakutu
 sat = Santali (Ol Chiki)
 sc = Sardīniešu
 scn = Sicīliešu
+sco = Skotu
+sd = Sindhu
 sdh = Dienvidu kurdu
 shi = Shilha
 si = Sinhala
@@ -211,7 +218,9 @@ uz = Uzbeku
 ve = Tshivenda
 vec = Venēciešu
 vi = Vjetnamiešu
+vmw = Emakhuwa
 vot = Votisku
+wep = Vestfāleņu
 wo = Volofu
 xh = Khosu
 yi = Jidišu
@@ -405,8 +414,12 @@ native-language =
 profile-form-add-accent = Pievienot jaunu akcentu “{ $inputValue }”
 profile-form-submit-save = Saglabāt
 profile-form-submit-saved = Saglabāts
-male = Vīrietis
-female = Sieviete
+male_masculine = Vīrietis/vīrišķīgs
+female_feminine = Sieviete/sievišķīgs
+intersex = Starpdzimumu
+transgender = Transpersona
+non-binary = Nebinārs
+do_not_wish_to_say = Nevēlos atklāt
 # Gender
 other = Cits
 why-profile-title = Kāpēc veidot profilu?
@@ -442,6 +455,8 @@ help-accent = Vai nepieciešama palīdzība ar akcentu?
 help-accent-explanation = Jūsu akcents ir veids, kā jūs izrunājat vārdus. To var ietekmēt jūsu dzīvesvieta, citas valodas, kuras runājat, un daudzi citi faktori. Šeit varat dalīties ar jebkuru informāciju, kas, jūsuprāt, ir svarīga.
 help-variants = Vai nepieciešama palīdzība ar variantiem?
 help-variants-explanation = Varianti ir noteikta valodas forma, piemēram, tie, kas dzīvo kādā ģeogrāfijā vai kopienā. Dažreiz tos sauc par dialektiem.
+help-sex-or-gender-changes = Nepieciešama palīdzība saistībā ar dzimuma norādīšanu?
+help-sex-or-gender-changes-explanation = Mēs piedāvājam vairāk iespēju, lai sniegtu cilvēkiem plašākas izvēles iespējas sava dzimuma vai dzimuma identitātes norādīšanā. Lūdzu, aprakstiet sevi tā, kā tas jums šķiet visdabiskāk. <learnMoreLink>Uzziniet vairāk par mūsu pieeju dzimumam norādīšanā.</learnMoreLink>
 
 ## Profile - Email
 
@@ -759,7 +774,7 @@ number-of-voices = Balsu skaits
 splits = Statistika
 email-to-download = Ievadiet e-pastu, lai lejupielādētu
 why-email = <b>Kāpēc e-pasts?</b> Mums, iespējams, nākotnē būs jāsazinās ar jums par izmaiņām datu kopā, to darīsim ar e-pasta palīdzību.
-why-donate = Kāpēc jūs jautājat?
+why-donate-datasets-page = Mozilla Common Voice ir pasaulē daudzveidīgākā atklātās runas datu kopa, kas iegūta no pūļa, un mūsu darbību pilnībā nodrošina ziedojumi. Datu kopu uzturēšana un platformas uzlabošana vairāk nekā 100 valodu kopienām, kuras paļaujas uz mūsu darbu, izmaksā gandrīz miljonu dolāru gadā. Ja jums ir svarīgi atvērti, iekļaujoši dati - <b>ziedojiet jau šodien!</b>
 confirm-size = Jūs esat gatavs sākt lejupielādēt <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -800,6 +815,15 @@ dataset-version = Versija
 sha256-checksum-copied = SHA256 kontrolsumma nokopēta!
 sha256-checksum-copied-error = Neizdevās nokopēt SHA256 kontrolsummu
 clipboard-not-supported = Starpliktuve netiek atbalstīta
+no-information-available = Informācija nav pieejama
+dataset-metadata-sex = Dzimums
+# dataset metadata - age of contributor
+dataset-metadata-age = Vecums
+donate-modal-message = Jūsu datu kopa tiek lejupielādēta!
+dataset-donate-modal-heading = Vai zinājāt…
+donate-modal-explanation-1 = Datu kopu uzturēšana un platformas uzlabošana vairāk nekā 100 valodu kopienām, kuras paļaujas uz to, ko mēs darām, maksā gandrīz miljonu dolāru gadā?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ja jums ir svarīgi atvērti, iekļaujoši dati, ziedojiet jau šodien!</bold>
 
 ## Download Modal
 
@@ -1873,6 +1897,7 @@ public-domain = Publiskie dati
 citing-sentences = Atsauce uz teikumu avotu
 adding-sentences = Teikumu pievienošana
 reviewing-sentences = Teikumu pārbaude
+sentence-domain = Teikuma joma
 public-domain-explanation-1 = Ir ļoti svarīgi, lai visi teikumi būtu <publicDomain>publiskais domēns</publicDomain> (<cc0>cc0</cc0>), jo Common Voice datu kopa tiek izlaista ar cc0 licenci. Augšupielādējiet teikumu tikai tad, ja esat pārliecināts par tā publiskumu, un vienmēr iekļaujiet atsauci uz avotu.
 public-domain-explanation-2 = Labākie teikumi noderīga runas atpazīšanas rīka izveidei ir sarunvaloda, mūsdienīga valoda. Dažas idejas, kas palīdzēs ģenerēt teikumus, ir;
 public-domain-explanation-3 = Izveidojiet mūsdienīgus sarunvalodas teikumus pats vai kopā ar draugiem vai valodu kopienu, piemēram, rīkojot “rakstīšanas maratonu”
@@ -1911,7 +1936,9 @@ reviewing-sentences-explanation-1 = Ja teikums atbilst iepriekš minētajiem kri
 reviewing-sentences-explanation-2 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Nē".
 reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat to izlaist un pāriet uz nākamo.
 reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = Pievienojiet <icon></icon> publiskā īpašuma teikumu
 write-page-subtitle = Šeit ievietotie teikumi tiks pievienoti publiski pieejamai cc-0 licencētai datu kopai.
 sentence =
