@@ -464,6 +464,8 @@ help-accent = Potrebujete pomoc s prízvukom?
 help-accent-explanation = Váš prízvuk je spôsob, akým vyslovujete slová. Môže to byť ovplyvnené tým, kde ste žili, akými inými jazykmi hovoríte a mnohými ďalšími faktormi. Tu môžete zdieľať akékoľvek informácie, ktoré považujete za relevantné.
 help-variants = Potrebujete pomoc s variantmi?
 help-variants-explanation = Varianty sú špecifickou formou jazyka – napríklad zdieľané ľuďmi žijúcimi v určitej geografii alebo komunite. Niekedy sa im hovorí dialekty.
+help-sex-or-gender-changes = Potrebujete pomoc s definovaním pohlavia alebo rodu?
+help-sex-or-gender-changes-explanation = Ponúkame viac možností, ako dať ľuďom väčší výber v tom, čo nám hovoria o svojom pohlaví alebo rodovej identite. Opíšte sa tak, ako je to pre vás najprirodzenejšie. <learnMoreLink>Ďalšie informácie o našom prístupe k pohlaviu a rodu.</learnMoreLink>
 
 ## Profile - Email
 
