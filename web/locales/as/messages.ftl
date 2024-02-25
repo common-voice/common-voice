@@ -766,7 +766,7 @@ number-of-voices = মাতৰ সংখ্যা
 splits = বিভাজন
 email-to-download = ডাউনল’ড কৰিবলৈ ইমেইল লিখক
 why-email = <b>ইমেইল কিয় লাগে?</b> ডেটাছেটৰ সাল-সলনি সম্পৰ্কে আমি ভৱিষ্যতে আপোনাৰ সৈতে যোগাযোগ কৰাৰ প্ৰয়োজন হ’ব পাৰে, ইমেইল এটাই আমাক যোগাযোগৰ এক মাধ্যম প্ৰদান কৰে।
-why-donate-datasets-page = Mozilla কমন ভইচ হৈছে বিশ্বৰ আটাইতকৈ বৈচিত্ৰময় ক্ৰাউডছ’ৰ্চ-যোগে তৈয়াৰ কৰা মুক্ত কথন-সম্বন্ধীয় ডেটাছেট - আৰু আমি সম্পূৰ্ণৰূপে অনুদানৰ দ্বাৰা চালিত। ডেটাছেটবোৰ হ’ষ্ট কৰিবলৈ আৰু আমি কৰা কামৰ ওপৰত নিৰ্ভৰ কৰা 100ৰো অধিক ভাষিক সমাজৰ বাবে প্লেটফৰ্ম উন্নত কৰিবলৈ বছৰি প্ৰায় এক নিযুত ডলাৰ খৰচ হয়। যদি আপুনি মুক্ত, অন্তৰ্ভুক্তিমূলক ডেটাক মূল্য দিয়ে - <b>আজিয়েই দান কৰক!</b>
+why-donate-datasets-page = Mozilla কমন ভইচ হৈছে বিশ্বৰ আটাইতকৈ বৈচিত্ৰময় ক্ৰাউডছ’ৰ্চ-যোগে তৈয়াৰ কৰা মুক্ত কথন-সম্বন্ধীয় ডেটাছেট - আৰু আমি সম্পূৰ্ণৰূপে অনুদানৰ দ্বাৰা চালিত। ডেটাছেটবোৰ হ’ষ্ট কৰিবলৈ আৰু আমি কৰা কামৰ ওপৰত নিৰ্ভৰ কৰা 100ৰো অধিক ভাষিক সমাজৰ বাবে প্লেটফৰ্ম উন্নত কৰিবলৈ বছৰি প্ৰায় এক নিযুত ডলাৰ খৰচ হয়। যদি আপুনি মুক্ত, অন্তৰ্ভুক্তিমূলক ডেটাক মূল্য দিয়ে - <b>আজিয়েই দান কৰক!</b>
 confirm-size = আপুনি <b>{ $size }</b>-ৰ ডাউনল’ড এটা আৰম্ভ কৰিবলৈ তৈয়াৰ হৈছে
 size-gigabyte = GB
 size-megabyte = MB
@@ -813,9 +813,9 @@ dataset-metadata-sex = লিংগ
 dataset-metadata-age = বয়স
 donate-modal-message = আপোনাৰ ডেটাছেট ডাউনল’ড হৈ আছে!
 dataset-donate-modal-heading = আপুনি জানিছিলনে…
-donate-modal-explanation-1 = ডেটাছেটবোৰ হ’ষ্ট কৰিবলৈ আৰু আমি কৰা কামৰ ওপৰত নিৰ্ভৰ কৰা 100ৰো অধিক ভাষিক সমাজৰ বাবে প্লেটফৰ্ম উন্নত কৰিবলৈ বছৰি প্ৰায় এক নিযুত ডলাৰ খৰচ হয়?
+donate-modal-explanation-1 = ডেটাছেটবোৰ হ’ষ্ট কৰিবলৈ আৰু আমি কৰা কামৰ ওপৰত নিৰ্ভৰ কৰা 100ৰো অধিক ভাষিক সমাজৰ বাবে প্লেটফৰ্ম উন্নত কৰিবলৈ বছৰি প্ৰায় এক নিযুত ডলাৰ খৰচ হয়?
 # Text in <bold></bold> will shown in bold
-donate-modal-explanation-2 = <bold>যদি আপুনি মুক্ত, অন্তৰ্ভুক্তিমূলক ডেটাক মূল্য দিয়ে - আজিয়েই দান কৰক!</bold>
+donate-modal-explanation-2 = <bold>যদি আপুনি মুক্ত, অন্তৰ্ভুক্তিমূলক ডেটাক মূল্য দিয়ে - আজিয়েই দান কৰক!</bold>
 
 ## Download Modal
 
@@ -1748,7 +1748,7 @@ reviewing-sentences-explanation-1 = যদি বাক্যটোৱে ওপ
 reviewing-sentences-explanation-2 = যদি বাক্যটোৱে ওপৰৰ মাপকাঠী পূৰণ নকৰে, তেন্তে "নহয়" বুটামটোত ক্লিক কৰিব।
 reviewing-sentences-explanation-3 = যদি আপুনি বাক্যটোৰ বিষয়ে নিশ্চিত নহয়, তেন্তে আপুনি বাক্যটো এৰি পৰৱৰ্তী বাক্যটোলৈও যাব পাৰে।
 reviewing-sentences-explanation-4 = যদি পৰ্যালোচনা কৰিবলৈ আপোনাৰ বাক্য শেষ হৈ যায়, তেন্তে অনুগ্ৰহ কৰি আমাক অধিক বাক্য সংগ্ৰহ কৰাত সহায় কৰিব!
-domain-explanation = ড’মেইন বুলিলে বাক্যটোৰ বিষয়বস্তুক বুজোৱা হয়। বৰ্তমান আপুনি এইকেইটাৰ মাজৰ পৰা এটা বাছি ল’ব পাৰে:
+domain-explanation = ড’মেইন বুলিলে বাক্যটোৰ বিষয়বস্তুক বুজোৱা হয়। বৰ্তমান আপুনি এইকেইটাৰ মাজৰ পৰা এটা বাছি ল’ব পাৰে:
 
 ## WRITE PAGE
 
@@ -1787,11 +1787,27 @@ sentence-domain-select =
 # Sentence Domain dropdown option
 agriculture = কৃষি
 # Sentence Domain dropdown option
-automotive = মটৰ-গাড়ী
+automotive = মটৰ-গাড়ী
 # Sentence Domain dropdown option
 finance = বিত্ত
 # Sentence Domain dropdown option
 food_service_retail = খাদ্য, সেৱা আৰু খুচুৰা ব্যৱসায়
+# Sentence Domain dropdown option
+general = সাধাৰণ
+# Sentence Domain dropdown option
+healthcare = স্বাস্থ্যসেৱা
+# Sentence Domain dropdown option
+history_law_government = বুৰঞ্জী, আইন আৰু চৰকাৰ
+# Sentence Domain dropdown option
+language_fundamentals = ভাষাৰ মৌলিক দিশ (যেনে অংক, আখৰ, ধন)
+# Sentence Domain dropdown option
+media_entertainment = সংবাদমাধ্যম আৰু মনোৰঞ্জন
+# Sentence Domain dropdown option
+nature_environment = প্ৰকৃতি আৰু পৰিৱেশ
+# Sentence Domain dropdown option
+news_current_affairs = বাতৰি আৰু সাম্প্ৰতিক পৰিস্থিতি
+# Sentence Domain dropdown option
+technology_robotics = প্ৰযুক্তি আৰু যন্ত্ৰমানৱ-বিজ্ঞান
 
 ## REVIEW PAGE
 
