@@ -67,7 +67,7 @@ dyu = দিউলা
 el = গ্ৰীক
 en = ইংৰাজী
 eo = এছপাৰেণ্ট’
-es = স্পেনীয়
+es = স্পেইনীয়
 et = ইষ্ট’নীয়
 eu = বাস্ক
 ewo = ইৱোন্দো
@@ -412,8 +412,12 @@ native-language =
 profile-form-add-accent = নিজৰ মতে নতুন উচ্চাৰণ যোগ কৰক "{ $inputValue }"
 profile-form-submit-save = সাঁচি থওক
 profile-form-submit-saved = সাঁচি থোৱা হ’ল
-male = পুৰুষ
-female = স্ত্ৰী
+male_masculine = পুৰুষ/পুং-লিংক
+female_feminine = মহিলা/স্ত্ৰী-লিংক
+intersex = মিশ্ৰলিংগ
+transgender = ৰূপান্তৰিত লিংগ
+non-binary = নন-বাইনেৰী
+do_not_wish_to_say = ক’ব খোজা নাই
 # Gender
 other = অন্য
 why-profile-title = প্ৰ’ফাইল কিয় লাগে?
@@ -449,6 +453,7 @@ help-accent = উচ্চাৰণৰ ক্ষেত্ৰত কিছু স
 help-accent-explanation = আপোনাৰ উচ্চাৰণ হৈছে আপুনি শব্দবোৰ কোৱাৰ ধৰণ। আপুনি ক’ত বাস কৰিছে, আপুনি আন কোনবোৰ ভাষা কয় আৰু আন বহুতো কাৰকৰ প্ৰভাৱ ইয়াৰ ওপৰত পৰিব পাৰে। আপুনি প্ৰাসংগিক বুলি ভবা যিকোনো তথ্য ইয়াত ভাগ-বতৰা কৰিব পাৰে।
 help-variants = ধৰণ-সম্বন্ধে কিছু সহায় লাগে নেকি?
 help-variants-explanation = ধৰণ হৈছে ভাষা এটাৰ এক নিৰ্দিষ্ট ৰূপ - উদাহৰণস্বৰূপে কোনো ভৌগোলিক ঠাই বা সমাজত বাস কৰাসকলে যি ব্যৱহাৰ কৰে। কেতিয়াবা এইবোৰক উপভাষা বুলি কোৱা হয়।
+help-sex-or-gender-changes = লিংগ বা লিংগপৰিচয়-পৰিৱৰ্তন সম্পৰ্কে সহায়ৰ প্ৰয়োজন নেকি?
 
 ## Profile - Email
 
@@ -760,7 +765,6 @@ number-of-voices = মাতৰ সংখ্যা
 splits = বিভাজন
 email-to-download = ডাউনল’ড কৰিবলৈ ইমেইল লিখক
 why-email = <b>ইমেইল কিয় লাগে?</b> ডেটাছেটৰ সাল-সলনি সম্পৰ্কে আমি ভৱিষ্যতে আপোনাৰ সৈতে যোগাযোগ কৰাৰ প্ৰয়োজন হ’ব পাৰে, ইমেইল এটাই আমাক যোগাযোগৰ এক মাধ্যম প্ৰদান কৰে।
-why-donate = আপোনালোকে কিয় সুধি আছে?
 confirm-size = আপুনি <b>{ $size }</b>-ৰ ডাউনল’ড এটা আৰম্ভ কৰিবলৈ তৈয়াৰ হৈছে
 size-gigabyte = GB
 size-megabyte = MB
@@ -1736,7 +1740,9 @@ reviewing-sentences-explanation-1 = যদি বাক্যটোৱে ওপ
 reviewing-sentences-explanation-2 = যদি বাক্যটোৱে ওপৰৰ মাপকাঠী পূৰণ নকৰে, তেন্তে "নহয়" বুটামটোত ক্লিক কৰিব।
 reviewing-sentences-explanation-3 = যদি আপুনি বাক্যটোৰ বিষয়ে নিশ্চিত নহয়, তেন্তে আপুনি বাক্যটো এৰি পৰৱৰ্তী বাক্যটোলৈও যাব পাৰে।
 reviewing-sentences-explanation-4 = যদি পৰ্যালোচনা কৰিবলৈ আপোনাৰ বাক্য শেষ হৈ যায়, তেন্তে অনুগ্ৰহ কৰি আমাক অধিক বাক্য সংগ্ৰহ কৰাত সহায় কৰিব!
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = এটা ৰাজহুৱা ড’মেইনৰ বাক্য <icon></icon> যোগ কৰক
 write-page-subtitle = ইয়াত অৱদান আগবঢ়োৱা বাক্যবোৰ এক ৰাজহুৱাভাৱে উপলব্ধ cc-0 অনুজ্ঞাপত্ৰ-প্ৰাপ্ত ডেটাছেটত যোগ কৰা হ’ব।
 sentence =
