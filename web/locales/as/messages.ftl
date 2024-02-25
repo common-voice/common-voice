@@ -1790,6 +1790,8 @@ agriculture = কৃষি
 automotive = মটৰ-গাড়ী
 # Sentence Domain dropdown option
 finance = বিত্ত
+# Sentence Domain dropdown option
+food_service_retail = খাদ্য, সেৱা আৰু খুচুৰা ব্যৱসায়
 
 ## REVIEW PAGE
 
