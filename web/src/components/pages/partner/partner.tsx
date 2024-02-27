@@ -10,6 +10,7 @@ import { COMMON_VOICE_EMAIL } from '../../../constants'
 import { PartnerOptionSection } from './partner-option-section'
 import { PARTNER_OPTIONS } from './partner-options'
 import Subscribe from '../../email-subscribe-block/subscribe'
+import { DonateBanner } from '../../donate-banner/donate-banner'
 
 import './partner.css'
 
@@ -104,6 +105,9 @@ const Partner = () => (
           />
         </div>
       </div>
+    </section>
+    <section>
+      <DonateBanner />
     </section>
     <Subscribe light partnerships subscribeText="about-subscribe-text" />
   </Page>

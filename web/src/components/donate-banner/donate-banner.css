@@ -1,0 +1,27 @@
+.donate-banner-container {
+    background: #fc707a;
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+
+    .donate-cta {
+        h2 {
+            font-size: var(--font-size-max);
+            width: 250px;
+        }
+    }
+
+    .donate-cta-explanation {
+        width: 500px;
+
+        .logo-and-button-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+
+            img {
+                width: 10rem;
+            }
+        }
+    }
+}
