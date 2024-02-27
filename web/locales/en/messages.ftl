@@ -1825,3 +1825,9 @@ file-invalid-type = Invalid file
 file-too-large = File is too large
 file-too-small = File is too small
 too-many-files = Too many files
+
+## Donate banner
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>We need</mark><br/><mark>your help!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = It costs almost a million dollars a year to host the datasets and improve the platform for the 100+ language communities who rely on what we do. <strong>If you value open, inclusive data - donate today!</strong>
