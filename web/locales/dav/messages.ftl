@@ -1102,19 +1102,45 @@ demo-welcome-subheader = Kwakunde kuchurie kumanya  na kuchanga kwa ughu mradi?
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice niyo mbaa zaidi w'urumwengunyi kwa viteto viko na mafungu gha data ra chwaka.
-demo-language-select-card-body = Chaw'ucha kwa michango ya w'andu, w'aidie 259k kwa viteto mirongo 50, iri data raw'iatumilwa kufundisha apu ra madedo eri kutesia kuboisa kusikira nicha lwaka lwa mdamu.
+demo-language-select-card-body = Kwa michango ya w'andu 259k na kuchumba na viteto 50 na kuchumba,  iri data raw'iatumilwa kufundisha apu ra madedo eri risikire nicha lwaka lwa mdamu.
+card-button-next = Chenugha
+card-button-back = W'uya nanyuma
+demo-language-select-label = Selia Mdambo ghwa Viteto
+demo-eofy-header = 2019 Ifunyo ja Mwisho-ghwa-Mwaka
+demo-eofy-sub_header = Mafungu gha Chwaka, Ghaw'urwa Ghepakulwa
+demo-account = Akaunti
 
 ## Demo Account
 
+demo-account-card-header = Kukaia na akaunti si suti eri kuchanga, ela kwatesiagha.
+demo-account-card-body = Kwa mpande ghwa kiw'omi dabonyeria kuboa na kueleshera malagho diw'ikagha w'orinyi. Tumia miachirio aisi kuzoya akaunti yako ya Common Voice kwa kiria chako.
+demo-account-enter-email =
+    .label = Ngira imeili eri kudumilo mtumalio ghokudimisha kungia
+demo-account-sign-up = Duma mtumalio ghongia
 
 ## Demo Contribute
 
+demo-contribute-card-header = Kwavikia kufunya lwaka lwako angu kufunya kudu kusikirie?
+demo-contribute-card-body-v2 = Danu angu kwamanya kutineri aighu ya Common Voice, kwaki kuseitimagha? Fwada aikoni ya maikrofoni kuzoya kushoma sentensi nandighi.<br/><br/>Kaw'ona kokunda kusikiria chwaka ra w'andu w'azima, fwada aikoni esikiria. Oho kwatesia kuisa ngera rekodi raindane the sentensi riandikilo kwa skrini.
+demo-listen-subtitle = Kwalighisa kuzoya kuchanga?
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = Dashibodi yako niyo ikubonyeriagha maendeleo ghako okumoni na gha w'azima w'a ughu w'ungara.
+demo-dashboard-card-body = Kwa kula klipu cha lwaka kwachanga, na kula klipu kwasikiria kukahakikisha, akaunti yako ibonyeriagha agho maendelio kwa dashibodi kwa kula kiteto kwachichangia. Hee, kwadima kuchanga kwa viteto zaidi ya chimweri!<br/><br/> Tumia dashibodi kuw'ika mtalo ghwako, zighana seji kwaw'iaendelia anduamweri na w'ambenyu w'ungarenyi, na kudunge chaghu chako chemeria ituku kwa ituku angu cha juma ndazi.
 
 ## Validation criteria
 
+contribution-criteria-nav = Vigezo
+contribution-criteria-link = Elelwa ni mchango ghwa kiw'ada ghukundikie
+contribution-criteria-page-title = Mfwano Ghochanga
+contribution-criteria-page-description = Elelwa kwaw'ialola kii kukakasikiria vlipu va chwaka sena kutesie kubonya rekodi  ra lwaka lwako rikaie ra mana kuchumba!
+contribution-for-example = Sa dighambe
+contribution-misreadings-title = Kushoma kisaya
+contribution-misreadings-description = Kukakasikiria, zighana nicha ngera chija chirekodilo ni checheni loli chiandikilo; legha ichochose chiko hata na makosa matineri.<br/>Makosa ghamu mengi ni sa agha:
+contribution-misreadings-description-extended-list-1 = Yasow'a <strong>'Ya'</strong> angu <strong>'Ya'</strong> aja kuzoyenyi kwa rekodi.
+contribution-misreadings-description-extended-list-2 = Yasow'a<strong>w'ungi</strong> ghwa ijo ilagho.
+contribution-misreadings-description-extended-list-3 = Kushoma ilagho sa izima jikunde kufwanana najo.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
