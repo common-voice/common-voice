@@ -1161,6 +1161,8 @@ contribution-varying-pronunciations-title = Madedo mazima mazima
 contribution-varying-pronunciations-description = Kuzighane nicha kusekelegha klipu angu w'ei ilagho jeghorwa kisaya, jezitirilwa andu kusefwane, angu alama ya ikotio eliw'ika. Gheko madedo mengi ghitumilwagha w'urumwengunyi, ghamu ngera jingi kuseghisikire kwa w'andu w'a mzenyu. Kuneke w'andu w'azima ishima w'aja madedo ghaw'o ghisefwanane na ghako.
 contribution-varying-pronunciations-description-extended = Ija chia, kaw'ona uhu mndu ushomie useichi ijo ilagho naimbiri, na w'aw'iatimatima kujighora, kujileghe.Kaw'ona kusemanyagha nicha, tumia kifunguo cherama.
 contribution-varying-pronunciations-example-1-title = Chongonyi orwa kofia.
+contribution-varying-pronunciations-example-1-explanation = [Kwadima kushoma 'Aba' (Ki'wusi) angu 'Apa' (Kimbale). Ghose ni karakara.]
+contribution-varying-pronunciations-example-2-title = Udeka wawusira mukonu ghwake
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
