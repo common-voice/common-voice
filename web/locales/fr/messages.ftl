@@ -451,6 +451,8 @@ help-accent = Besoin d’aide pour l’accent ?
 help-accent-explanation = Votre accent est votre manière de prononcer les mots. Il peut être façonné par les endroits où vous avez vécu, les autres langues que vous parlez et beaucoup d’autres facteurs. Vous pouvez partager toute information que vous jugez pertinente ici.
 help-variants = Besoin d’aide avec les variantes linguistiques ?
 help-variants-explanation = Les variantes linguistiques sont une forme spécifique d’une langue, par exemple partagée par les personnes qui vivent dans une zone géographique ou une communauté particulière. Elles sont parfois appelées dialectes.
+help-sex-or-gender-changes = Besoin d’aide pour les changements liés au sexe ou au genre ?
+help-sex-or-gender-changes-explanation = Nous proposons davantage d’options pour offrir aux personnes plus de liberté pour indiquer leur sexe ou leur identité de genre. Vous êtes libres vous décrire de la manière qui vous semble la plus naturelle. <learnMoreLink>En savoir plus sur notre approche en ce qui concerne le sexe et le genre.</learnMoreLink>
 
 ## Profile - Email
 
@@ -806,7 +808,7 @@ dataset-metadata-sex = Sexe
 dataset-metadata-age = Âge
 donate-modal-message = Votre jeu de données est en cours de téléchargement !
 dataset-donate-modal-heading = Le saviez-vous ?
-donate-modal-explanation-1 = Cela coûte près d’un million de dollars par an pour héberger les jeux de données et améliorer la plateforme pour les plus de 100 communautés linguistiques qui font confiance à notre travail.
+donate-modal-explanation-1 = Nous dépensons près d’un million de dollars chaque année pour héberger les jeux de données et améliorer la plateforme pour les plus de 100 communautés linguistiques qui font confiance à notre travail.
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Si les données ouvertes et inclusives sont importantes à vos yeux, faites un don !</bold>
 
