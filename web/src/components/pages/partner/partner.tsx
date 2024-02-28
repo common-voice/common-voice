@@ -106,7 +106,7 @@ const Partner = () => (
         </div>
       </div>
     </section>
-    <section>
+    <section className="donate-banner-section">
       <DonateBanner background="coral" />
     </section>
     <Subscribe light partnerships subscribeText="about-subscribe-text" />
