@@ -1165,6 +1165,11 @@ contribution-varying-pronunciations-example-1-explanation = [Kwadima kushoma 'Ab
 contribution-varying-pronunciations-example-2-title = Udeka waw'usira mukonu ghwake
 contribution-varying-pronunciations-example-2-explanation = ['Mukonu' kwa Kidaw'ida toe ghwaghorwa 'Mknonu'. Uha 'u' wa naimbiri ndousikirikagha.]
 contribution-background-noise-title = Ndoghoi ya Nanyuma
+contribution-background-noise-description = Dekunda iri mashini refundishar ridime kutala na kubonya masabu na ndoghoi ndini hata mbaa kutini risedime kukughiria kusikira ishomo jose. Chumbo risikirikagha kwa kula ni karakara; ela chumbo risikirikagha nandighi rikughirie kusikira kula ilagho si nicha kungi.
+contribution-background-noise-description-extended = Kaw'ona rekodi yadumbuka, angu isikirike seji yakwaruzika, ilegho isakaia ishomo jose jiduagha jikisikirika.
+contribution-background-noise-example-1-fixed-title = <strong>[Tinya]</strong> Dinasori mbaa ra <strong>[Koa]</strong> Triasiki.
+contribution-background-noise-example-2-fixed-title = Ijumu ja dino <strong>[koa]</strong>ja Triasiki.
+contribution-background-noise-example-2-explanation = [Malagho ghamu ndeghiw'esikirika]
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
