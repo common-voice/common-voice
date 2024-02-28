@@ -34,6 +34,10 @@ import { Flags } from '../stores/flags';
 import LanguagesProvider from './languages-provider';
 import ErrorBoundary from './error-boundary/error-boundary';
 import LocalizedErrorBoundary from './error-boundary/localized-error-boundary';
+import {
+  DonateBannerActions,
+  DonateBannerState,
+} from '../stores/donate-banner';
 
 const ListenPage = React.lazy(
   () => import('./pages/contribution/listen/listen')
@@ -66,6 +70,7 @@ interface PropsFromState {
   uploads: Uploads.State
   languages: Languages.State
   messageOverwrites: Flags.MessageOverwrites
+  donateBanner: DonateBannerState
 }
 
 interface PropsFromDispatch {
@@ -74,6 +79,7 @@ interface PropsFromDispatch {
   setLocale: typeof Locale.actions.set
   refreshUser: typeof User.actions.refresh
   updateUser: typeof User.actions.update
+  setDonateBannerColour: typeof DonateBannerActions.setDonateBannerColour
 }
 
 interface LocalizedPagesProps
@@ -105,6 +111,8 @@ let LocalizedPage: any = class extends React.Component<
     if (isMobileSafari()) {
       document.body.classList.add('mobile-safari')
     }
+
+    this.setDonateBannerColour();
 
     Modal.setAppElement('#root')
   }
@@ -184,6 +192,16 @@ let LocalizedPage: any = class extends React.Component<
     return true
   }
 
+  setDonateBannerColour() {
+    const randomValue = Math.random();
+
+    if (randomValue < 0.5) {
+      this.props.setDonateBannerColour('pink');
+    } else {
+      this.props.setDonateBannerColour('coral');
+    }
+  }
+
   render() {
     const { locale, notifications, toLocaleRoute, location, languages } =
       this.props
@@ -260,13 +278,22 @@ LocalizedPage.displayName = 'LocalizedPage';
 LocalizedPage = withRouter(
   localeConnector(
     connect<PropsFromState, PropsFromDispatch>(
-      ({ api, flags, notifications, languages, uploads, user }: StateTree) => ({
+      ({
+        api,
+        flags,
+        notifications,
+        languages,
+        uploads,
+        user,
+        donateBanner,
+      }: StateTree) => ({
         account: user.account,
         api,
         messageOverwrites: flags.messageOverwrites,
         notifications,
         uploads,
         languages,
+        donateBanner,
       }),
       {
         addNotification: Notifications.actions.addBanner,
@@ -274,6 +301,7 @@ LocalizedPage = withRouter(
         setLocale: Locale.actions.set,
         refreshUser: User.actions.refresh,
         updateUser: User.actions.update,
+        setDonateBannerColour: DonateBannerActions.setDonateBannerColour,
       }
     )(LocalizedPage)
   )

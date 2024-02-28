@@ -5,10 +5,12 @@ import { Localized } from '@fluent/react'
 import LogoImage from '../ui/logo-image/logo-image'
 import DonateButton from '../donate-button/donate-button'
 
+import { DonateBannerColour } from '../../stores/donate-banner'
+
 import './donate-banner.css'
 
 type Props = {
-  background: 'pink' | 'coral'
+  background: DonateBannerColour
 }
 
 export const DonateBanner = ({ background }: Props) => {

@@ -9,6 +9,7 @@ import { RequestedLanguages } from './requested-languages';
 import { Uploads } from './uploads';
 import { User } from './user';
 import { AbortContributionModalState } from './abort-contribution-modal';
+import { DonateBannerState } from './donate-banner';
 
 export default interface StateTree {
   api: API;
@@ -21,7 +22,8 @@ export default interface StateTree {
   sentences: Sentences.State;
   uploads: Uploads.State;
   user: User.State;
-  abortContributionModal: AbortContributionModalState
+  abortContributionModal: AbortContributionModalState;
+  donateBanner: DonateBannerState;
 }
 
 export const useTypedSelector: TypedUseSelectorHook<StateTree> = useSelector;

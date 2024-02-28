@@ -98,11 +98,15 @@ export function useLanguages() {
 }
 
 export function useSentences() {
-  return useTypedSelector(({ sentences }) => sentences)
+  return useTypedSelector(({ sentences }) => sentences);
 }
 
 export function useAbortContributionModal() {
   return useTypedSelector(
     ({ abortContributionModal }) => abortContributionModal
   );
+}
+
+export function useDonateBanner() {
+  return useTypedSelector(({ donateBanner }) => donateBanner);
 }
