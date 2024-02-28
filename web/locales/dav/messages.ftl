@@ -1131,7 +1131,7 @@ demo-dashboard-card-body = Kwa kula klipu cha lwaka kwachanga, na kula klipu kwa
 
 ## Validation criteria
 
-contribution-criteria-nav = Vigezo
+contribution-criteria-nav = Mfwano
 contribution-criteria-link = Elelwa ni mchango ghwa kiw'ada ghukundikie
 contribution-criteria-page-title = Mfwano Ghochanga
 contribution-criteria-page-description = Elelwa kwaw'ialola kii kukakasikiria vlipu va chwaka sena kutesie kubonya rekodi  ra lwaka lwako rikaie ra mana kuchumba!
@@ -1141,6 +1141,16 @@ contribution-misreadings-description = Kukakasikiria, zighana nicha ngera chija 
 contribution-misreadings-description-extended-list-1 = Yasow'a <strong>'Ya'</strong> angu <strong>'Ya'</strong> aja kuzoyenyi kwa rekodi.
 contribution-misreadings-description-extended-list-2 = Yasow'a<strong>w'ungi</strong> ghwa ijo ilagho.
 contribution-misreadings-description-extended-list-3 = Kushoma ilagho sa izima jikunde kufwanana najo.
+contribution-misreadings-description-extended-list-4 = Kusow'a ilagho ja mwisho ghwa sentensi irekodilo kwa w'undu ghodumbua shwaw'ori.
+contribution-misreadings-description-extended-list-5 = Kutima kushoma ilagho mando ghaenga.
+contribution-misreadings-example-1-title = Dinasori mbaa ra ngelo ya Triasiki.
+contribution-misreadings-example-2-title = Dinasori mbaa ya ngelo ya Triasiki.
+contribution-misreadings-example-2-explanation = [Kumangu ni ‘dinosari’]
+contribution-misreadings-example-3-title = Dinasori mbaa ra ngelo ya Triasi-.
+contribution-misreadings-example-3-explanation = [Rekodi edumbika isemerekie ilagho ja mwisho]
+contribution-misreadings-example-4-title = Dinasori mbaa ra ngelo ya Triasiki. Hee.
+contribution-misreadings-example-4-explanation = [Rekodi eka na malagho mengi kuchumba ghaja ghikundikie]
+contribution-misreadings-example-5-title = Daw'iafuma diendelola kahawa.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
