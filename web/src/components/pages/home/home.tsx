@@ -11,8 +11,10 @@ import { RecordLink } from '../../primary-buttons/primary-buttons';
 import { LinkButton } from '../../ui/ui';
 import Page from '../../ui/page';
 import Hero from './hero';
+import { DonateBanner } from '../../donate-banner/donate-banner';
 import { ClipsStats, VoiceStats } from './stats';
 import URLS from '../../../urls';
+import { useDonateBanner } from '../../../hooks/store-hooks';
 
 import './home.css';
 
@@ -28,6 +30,8 @@ export default function HomePage() {
     }),
     shallowEqual
   );
+
+  const donateBanner = useDonateBanner();
 
   const [activeHero, setActiveHero] = useState<null | HeroType>(null);
   const [showWallOfText, setShowWallOfText] = useState(false);
@@ -163,6 +167,10 @@ export default function HomePage() {
           </div>
         </section>
       )}
+
+      <section className="donate-banner-section">
+        <DonateBanner background={donateBanner.colour} />
+      </section>
     </Page>
   );
 }
