@@ -1162,7 +1162,9 @@ contribution-varying-pronunciations-description = Kuzighane nicha kusekelegha kl
 contribution-varying-pronunciations-description-extended = Ija chia, kaw'ona uhu mndu ushomie useichi ijo ilagho naimbiri, na w'aw'iatimatima kujighora, kujileghe.Kaw'ona kusemanyagha nicha, tumia kifunguo cherama.
 contribution-varying-pronunciations-example-1-title = Chongonyi orwa kofia.
 contribution-varying-pronunciations-example-1-explanation = [Kwadima kushoma 'Aba' (Ki'wusi) angu 'Apa' (Kimbale). Ghose ni karakara.]
-contribution-varying-pronunciations-example-2-title = Udeka wawusira mukonu ghwake
+contribution-varying-pronunciations-example-2-title = Udeka waw'usira mukonu ghwake
+contribution-varying-pronunciations-example-2-explanation = ['Mukonu' kwa Kidaw'ida toe ghwaghorwa 'Mknonu'. Uha 'u' wa naimbiri ndousikirikagha.]
+contribution-background-noise-title = Ndoghoi ya Nanyuma
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
