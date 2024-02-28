@@ -1087,12 +1087,22 @@ download-request-link-single = Kwadima kukopia kukakadishire shwaa andu kwako kw
 
 ## Landing
 
+welcome-staff = Karibunyi w'abonyi kazi w'a { $company }!
+help-contribute = Kwadima kutesia kuagha mafungu gha data ghiko mwari sena risefwanane kwa kuzoya profaili ya Common Voice na kuchanga lwaka lwako.
+login-company = Ngia/Fungua Akaunti na imeili ya { $company }
+profile-not-required = Kukaia na profaili si suti kungi eri kuchanga ela koko na w'utesia, zighana kwaki aha naisi.
+read-more-about = Churia kushoma peji ya Aighu yedu
 
 ## DemoLayout
 
+demo-get-started = Ola Ndoko Dizoye
+demo-welcome = Ngia kwa Common Voice
+demo-welcome-subheader = Kwakunde kuchurie kumanya  na kuchanga kwa ughu mradi?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice niyo mbaa zaidi w'urumwengunyi kwa viteto viko na mafungu gha data ra chwaka.
+demo-language-select-card-body = Chaw'ucha kwa michango ya w'andu, w'aidie 259k kwa viteto mirongo 50, iri data raw'iatumilwa kufundisha apu ra madedo eri kutesia kuboisa kusikira nicha lwaka lwa mdamu.
 
 ## Demo Account
 
