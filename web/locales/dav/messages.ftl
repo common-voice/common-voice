@@ -1150,7 +1150,17 @@ contribution-misreadings-example-3-title = Dinasori mbaa ra ngelo ya Triasi-.
 contribution-misreadings-example-3-explanation = [Rekodi edumbika isemerekie ilagho ja mwisho]
 contribution-misreadings-example-4-title = Dinasori mbaa ra ngelo ya Triasiki. Hee.
 contribution-misreadings-example-4-explanation = [Rekodi eka na malagho mengi kuchumba ghaja ghikundikie]
-contribution-misreadings-example-5-title = Daw'iafuma diendelola kahawa.
+contribution-misreadings-example-5-title = Daw'uyafuma diendegua kahawa.
+contribution-misreadings-example-6-title = Daw'efuma diendegua kahawa.
+contribution-misreadings-example-6-explanation = [Efwana "daw'uya"]
+contribution-misreadings-example-7-title = Daw'uyafuma diendegua kahawa imweri.
+contribution-misreadings-example-7-explanation = [Ndekune 'imweri' kwa maandiko]
+contribution-misreadings-example-8-title = Choki yaida anyaha naiseghe.
+contribution-misreadings-example-8-explanation = [Malagho ghisefwanane]
+contribution-varying-pronunciations-title = Madedo mazima mazima
+contribution-varying-pronunciations-description = Kuzighane nicha kusekelegha klipu angu w'ei ilagho jeghorwa kisaya, jezitirilwa andu kusefwane, angu alama ya ikotio eliw'ika. Gheko madedo mengi ghitumilwagha w'urumwengunyi, ghamu ngera jingi kuseghisikire kwa w'andu w'a mzenyu. Kuneke w'andu w'azima ishima w'aja madedo ghaw'o ghisefwanane na ghako.
+contribution-varying-pronunciations-description-extended = Ija chia, kaw'ona uhu mndu ushomie useichi ijo ilagho naimbiri, na w'aw'iatimatima kujighora, kujileghe.Kaw'ona kusemanyagha nicha, tumia kifunguo cherama.
+contribution-varying-pronunciations-example-1-title = Chongonyi orwa kofia.
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
