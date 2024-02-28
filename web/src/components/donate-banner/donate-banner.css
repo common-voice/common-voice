@@ -1,15 +1,31 @@
+@import url('../media.css');
+
 .donate-banner-container {
     padding: 32px;
     display: flex;
     justify-content: space-around;
     background-size: 100% 100%;
 
+    @media (--md-down) {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
     &.bg-pink {
         background-image: url('./assets/donate-banner-desktop-pink.png');
+
+        @media (--md-down) {
+            background-image: url('./assets/donate-banner-mobile-pink.png');
+        }
     }
 
     &.bg-coral {
         background-image: url('./assets/donate-banner-desktop-coral.png');
+
+        @media (--md-down) {
+            background-image: url('./assets/donate-banner-mobile-coral.png');
+        }
     }
 
     .donate-cta {
@@ -32,12 +48,18 @@
     }
 
     .donate-cta-explanation {
-        width: 500px;
+        @media (--md-up) {
+            width: 500px;
+        }
 
         p {
             color: var(--white);
             font-family: var(--strong-font-family);
             font-size: var(--font-size-lg);
+
+            @media (--md-down) {
+                text-align: center;
+            }
         }
 
         .logo-and-button-container {
@@ -58,6 +80,11 @@
                 path {
                     fill: var(--black);
                 }
+            }
+
+            @media (--md-down) {
+                flex-direction: column-reverse;
+                gap: 20px;
             }
         }
     }

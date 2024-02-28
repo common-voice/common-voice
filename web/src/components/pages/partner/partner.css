@@ -1,3 +1,5 @@
+@import url('../../media.css');
+
 .partner-main-container {
     --type-color: var(--blue);
 
