@@ -1036,12 +1036,41 @@ share-n-weekly-contribution-goal = Ghoria w'andu lengo yako ya Klipu { $count } 
 share-goal-type-speak = Kudeda
 share-goal-type-listen = Kusikiria
 share-goal-type-both = Kudeda na Kusikiria
+# LINK will be replaced with the current URL
+goal-share-text = Nadunga chaghu chapo nimoni chechanga lwaka kwa #CommonVoice--chonyi muditesie kufundisha mashini seji w'andu w'a kilolia w'idedagha{ $link }
+weekly-goal-created = Chaghu chako cha juma chameria kuboiswa
+daily-goal-created = Chaghu chako cha ituku chameria kuboiswa
+track-progress = Nughia kazi yako aha na mtalo ghwaro kwa peji ya masabu.
+return-to-edit-goal = W'uya aha kughaluo chaghu chako ngelo iyoyose.
+share-goal = Bonyeria chaghu chapo
 
 ## Profile Delete
 
+delete-q = Kwakunde kulombe lwaka lwako w'ori lufuto, angu kwakunde luw'iko kwa mafungu gha data gha Common Voice?
+keep = W'ika
+remove = Inja
+keep-info = Rekodi ra lwaka lwako kivisonyi rakaia kwa mafungu gha data gha Common Voice. Kukameria kuinja profaili yako ndokudimagha sena kuenja ilombi jeinja rekodi rako kufuma kwa mafungu gha data.
+remove-info = Dizighanagha ilombi jako jeinja rekodi ra lwaka lwako kwa mafungu gha data. Iji yakaia ilombi jako jarumirilwa, didumagha w'ujumbe kwa w'andu w'ipakue mafungu gha data eri w'iinje rekodi ra lwaka lwako w'ori.
+why-delete-recordings = Rekodi ra Common Voice ratumilwa ni w'ashomi, w'andu w'iko na zoghori ndini, na w'aja w'iboilwagha ni kumanya chwaka eri kutesia kufundisha na kuzoghora maza ra mibolo ya chwaka riko mwari kwa w'ose. Kwadima kudighoria kwaki kukunde kuinja rekodi rako?
+profile-form-delete = Inja Profaili
 
 ## Profile Download
 
+download-q = Kwakunde kupakuo data yako?
+download-info = Dighorie ni kii kukunde kupakua:
+download-profile-title = Profaili
+download-profile-info = Ekanye na imeili, irina ja akaunti yako na malagho ghekumanya aghadi ya w'aisanga, ghipatikanagha shwaw'ori
+download-profile-size = Baiti ndineri
+download-recordings-title = Rekodi
+download-recordings-info = Ekanye na mp3 na sentensi raro, ridwagha ngelo kuboisa
+download-recordings-size = Kwa maliso megabaiti
+download-recordings-unavailable = Ndokudimagha kulomba rekodi rako kaw'ona kwakotereghe na kwaw'iaendelia kuboisirwa.
+download-recently-requested = Kwadima kukotia kufunyiro rekodi rako kula matuku { $days }
+download-size = Vipimo
+download-selected = Iri risaghulo
+download-start = Pakua data ya profaili
+download-request = Lomba rekodi
+download-requests = Rekodi riidie rilombelo ripakulo
 
 ## Landing
 
