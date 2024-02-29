@@ -853,7 +853,7 @@ action-tap = Adada
 contribute = Changa
 listen = Sikiria
 write = Andika
-review = W'uria
+review = Zoza
 skip = Rama
 shortcuts = Chia vui
 clips-with-count-pluralized =
@@ -1195,7 +1195,7 @@ see-less = <chevron></chevron>W'ona kutini
 sc-header-home = Mzinyi
 sc-header-how-to = Seji-ku
 sc-header-add = Churia
-sc-header-review = W'uria
+sc-header-review = Zoza
 sc-header-rejected = Sentensi Rileghelo
 sc-header-my = Sentensi Rapo
 sc-header-statistics = Mitalo
@@ -1225,7 +1225,7 @@ sc-home-review-text = Ditesie kuw'uria maandiko agha Kwa kughirekebisha karakara
 sc-howto-title = Seji ku
 sc-howto-addlang-title = Kuchuria kiteto kubonya nacho
 sc-howto-addsen-title = Churia sentensi mbishi
-sc-howto-review-title = Kuw'uria Sentensi
+sc-howto-review-title = Kuzoza Sentensi
 sc-howto-review-subtitle = Hakikisha iyo sentensi yakatisha chia rifwane
 sc-howto-review-criteria-1 = Iyo sentensi lazima  iandikike nicha
 sc-howto-review-criteria-2 = Iyo sentensi lazima iandikike mbari nicha
@@ -1278,6 +1278,7 @@ sc-my-title = Sentensi Rapo
 
 ## WRITE PAGE
 
+single-sentence-submission = Kuchanga sentensi imweri
 
 ## REVIEW PAGE
 
