@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Localized } from '@fluent/react';
+import { Localized, useLocalization } from '@fluent/react';
 import cx from 'classnames';
 
 import InputLanguageVariant from '../../../profile/info/languages/input-language-variant';
@@ -13,9 +13,9 @@ import { QuestionMarkIcon } from '../../../../ui/icons';
 import { Button, LabeledSelect, Options } from '../../../../ui/ui';
 
 import { GENDERS } from '../../../../../stores/demographics';
+import { useFirstPostSubmissionCTA } from './hooks/useFirstPostSubmissionCTA';
 
 import './firstPostSubmissionCTA.css';
-import { useFirstPostSubmissionCTA } from './hooks/useFirstPostSubmissionCTA';
 
 export const USER_LANGUAGES = 'userLanguages';
 
@@ -57,6 +57,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   });
 
   const api = useAPI();
+  const { l10n } = useLocalization();
 
   React.useEffect(() => {
     if (areLanguagesLoading) {
@@ -115,6 +116,9 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
                   value={gender}
                   onChange={handleSelectChange}
                   name="gender">
+                  <option selected value="">
+                    {l10n.getString('first-cta-gender-select-default-option')}
+                  </option>
                   <Options>{GENDERS}</Options>
                 </LabeledSelect>
               </Localized>

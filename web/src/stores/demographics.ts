@@ -291,7 +291,6 @@ export const AGES = {
 };
 
 export const GENDERS: Gender = {
-  '': '',
   male_masculine: 'Male/Masculine',
   female_feminine: 'Female/Feminine',
   intersex: 'Intersex',
