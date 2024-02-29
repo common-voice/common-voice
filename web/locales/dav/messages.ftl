@@ -1170,6 +1170,20 @@ contribution-background-noise-description-extended = Kaw'ona rekodi yadumbuka, a
 contribution-background-noise-example-1-fixed-title = <strong>[Tinya]</strong> Dinasori mbaa ra <strong>[Koa]</strong> Triasiki.
 contribution-background-noise-example-2-fixed-title = Ijumu ja dino <strong>[koa]</strong>ja Triasiki.
 contribution-background-noise-example-2-explanation = [Malagho ghamu ndeghiw'esikirika]
+contribution-background-noise-example-3-fixed-title = <strong>[Kwaruzika]</strong>majumu gha dinasori gha<strong>[kwaruzika]</strong>-riasiki.
+contribution-background-voices-title = Chwaka Nanyuma
+contribution-background-voices-description = Ndoghoi nanyuma ni karakara, ela ndedikunde chwaka reshekeria mashini ya mtalo kuw'ada malagho ghiseko andenyi ya ishomo jiandikilo. kukadima kusikira malagho ghiseko ishominyi, icho klipu kuchileghe. Mando mengi agha ghakaia andu TV yasighwa yakorwa, angu w'andu w'ijagha malagho kavueri.
+contribution-background-voices-description-extended = Kaw'ona rekodi yadumbuka, angu yakwaruzika, ileghe isakaia ishomo jose jaw'iasikirika.
+contribution-background-voices-example-1-title = Majumu gha dinasori gha Triasiki.<strong>[ishomo ni lwaka lumweri]</strong>
+contribution-background-voices-example-1-explanation = Kwaw'echa? <strong>[kwaw'angwa ni mbenyu]</strong>
+contribution-volume-title = Lwaka
+contribution-volume-description = Lwaka lughalukagha kwa w'undu ghwa kushomwa ni w'andu w'isefwanane. Legha ishomo kaw'ona loka ighu nandighi hata ludumbuke, angu (sa mando malazi) loka ndonyi nandighi hata ndokusikiragha nikii chighorwagha kusezighanire iandiko jaro.
+contribution-reader-effects-title = W'ashomi na W'ushomi
+contribution-reader-effects-description = Rekodi raenga ni ra w'andu w'idedagha kwa chwaka raw'o ra kula ituku. Kwadima kurumiria lwaka lumu sa lokema, loghoghoria, angu lwa 'machachari'. Legha rekodi riborelo na rija rituagha lwaka lwa kompiuta.
+contribution-just-unsure-title = Ndokumanyire?
+contribution-just-unsure-description = Kukaw'ona kilambo chingi chiseghorelo aha, tumia kuelelwa na ija hikima yako kumoni. Kaw'ona kwalemwa ni kubonya w'uamuzi, tumia kifunguo cherama nao kuende kwa rekodi inughiagha.
+see-more = <chevron></chevron>W'ona ghamu ghechuria
+see-less = <chevron></chevron>W'ona kutini
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1178,18 +1192,53 @@ contribution-background-noise-example-2-explanation = [Malagho ghamu ndeghiw'esi
 
 ## HEADER/FOOTER
 
+sc-header-home = Mzinyi
+sc-header-how-to = Seji-ku
+sc-header-add = Churia
+sc-header-review = W'uria
+sc-header-rejected = Sentensi Rileghelo
+sc-header-my = Sentensi Rapo
+sc-header-statistics = Mitalo
+sc-header-profile = Profaili
+sc-footer-discourse = Malagho
+sc-footer-report-bugs = Repoti Mdudu
+sc-footer-translate = Fasiria ihi peji
+sc-footer-report-copyright = Ripoti maza ra w'ukitina
+sc-footer-privacy = Kiviso
+sc-footer-terms = Masikirano
+sc-footer-cookies = Vidakuzi
+sc-login-signup-button = Kungia / Kurejesta
+sc-logout-button = Kufuma
 
 ## HOME
 
+sc-home-title = Ngia kwa matumbanyo gha Common Voice
+sc-home-collect-title = Kutumbanya sentensi
+sc-home-review-title = Kuw'uria sentensi
+sc-home-review-text = Ditesie kuw'uria maandiko agha Kwa kughirekebisha karakara na mawonyero
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Seji ku
+sc-howto-addlang-title = Kuchuria kiteto kubonya nacho
+sc-howto-addsen-title = Churia sentensi mbishi
+sc-howto-review-title = Kuw'uria Sentensi
+sc-howto-review-subtitle = Hakikisha iyo sentensi yakatisha chia rifwane
+sc-howto-review-criteria-1 = Iyo sentensi lazima  iandikike nicha
+sc-howto-review-criteria-2 = Iyo sentensi lazima iandikike mbari nicha
+sc-howto-review-criteria-3 = Sentensi lazima ikaie yawadedeka
+sc-howto-review-criteria-4 = Kawona iyo sentensi yakatisha chia rifwane vada icho kifado
+sc-howto-review-criteria-6 = Kapungukilwa ni kuidiria sentensi nalomba kuditesie kukusanya sentensi nyingi angu rikate
+sc-howto-findpd-tips = Aha reko chia re Pata sentensi
+sc-howto-findpd-tips-3 = Kwa bahati bado ndediwadie  maandiko gha Wikipedia. Kwa huwo kusenughira agho maandiko.
+sc-howto-findpd-subtitle-2 = Kuwadana na mashirika ga ndenyi ama wadu wieka/wadu binafsi.
 
 ## MY SENTENCES
 
+sc-my-title = Sentensi Rapo
 
 ## REJECTED
 
