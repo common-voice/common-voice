@@ -1279,6 +1279,7 @@ sc-my-title = Sentensi Rapo
 ## WRITE PAGE
 
 single-sentence-submission = Kuchanga sentensi imweri
+bulk-sentence-submission = Kuchanga Msigo Ghwa Sentensi
 
 ## REVIEW PAGE
 
