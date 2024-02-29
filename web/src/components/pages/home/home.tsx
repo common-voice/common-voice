@@ -11,7 +11,7 @@ import { RecordLink } from '../../primary-buttons/primary-buttons';
 import { LinkButton } from '../../ui/ui';
 import Page from '../../ui/page';
 import Hero from './hero';
-import { DonateBanner } from '../../donate-banner/donate-banner';
+import { DonateBanner } from '../../donate-banner';
 import { ClipsStats, VoiceStats } from './stats';
 import URLS from '../../../urls';
 import { useDonateBanner } from '../../../hooks/store-hooks';

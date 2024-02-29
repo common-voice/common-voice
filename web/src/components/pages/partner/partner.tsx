@@ -10,7 +10,7 @@ import { COMMON_VOICE_EMAIL } from '../../../constants'
 import { PartnerOptionSection } from './partner-option-section'
 import { PARTNER_OPTIONS } from './partner-options'
 import Subscribe from '../../email-subscribe-block/subscribe'
-import { DonateBanner } from '../../donate-banner/donate-banner'
+import { DonateBanner } from '../../donate-banner'
 
 import { useDonateBanner } from '../../../hooks/store-hooks'
 
