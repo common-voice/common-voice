@@ -3409,10 +3409,10 @@
   resolved "https://registry.yarnpkg.com/@types/tough-cookie/-/tough-cookie-4.0.1.tgz#8f80dd965ad81f3e1bc26d6f5c727e132721ff40"
   integrity sha512-Y0K95ThC3esLEYD6ZuqNek29lNX2EM1qxV8y2FTLUB0ff5wWrk7az+mLrnNFUnaXcgKye22+sFBRXOgpPILZNg==
 
-"@types/universal-analytics@0.4.5":
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/@types/universal-analytics/-/universal-analytics-0.4.5.tgz#6a4a88477a70f7ca1ce19caede561ca728149810"
-  integrity sha512-Opb+Un786PS3te24VtJR/QPmX00P/pXaJQtLQYJklQefP4xP0Ic3mPc2z6SDz97OrITzR+RHTBEwjtNRjZ/nLQ==
+"@types/universal-analytics@0.4.8":
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/@types/universal-analytics/-/universal-analytics-0.4.8.tgz#c96bd8d4ab2bdb9989c5c895c8df2ec5a15fee36"
+  integrity sha512-HozCrji3dIImmQcKnP7cN0ZBiYTjuOavzgPRY0CbT4AQ2zH/ZRqYDNTMiYI7aBeMV5ylbu+h59WG/N8qGePmww==
 
 "@types/webpack-merge@5.0.0":
   version "5.0.0"
