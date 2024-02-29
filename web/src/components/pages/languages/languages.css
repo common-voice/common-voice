@@ -163,4 +163,8 @@
             }
         }
     }
+
+    .donate-banner-section {
+        margin-inline: 30px;
+    }
 }

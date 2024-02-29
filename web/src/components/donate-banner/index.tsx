@@ -11,9 +11,15 @@ import './donate-banner.css'
 
 type Props = {
   background: DonateBannerColour
+  donateCTALocalizedId?: string
+  donateCTAExplanationLocalizedId?: string
 }
 
-export const DonateBanner = ({ background }: Props) => {
+export const DonateBanner = ({
+  background,
+  donateCTALocalizedId = 'donate-banner-cta',
+  donateCTAExplanationLocalizedId = 'donate-banner-cta-explanation',
+}: Props) => {
   return (
     <div
       className={classNames('donate-banner-container', {
@@ -21,7 +27,7 @@ export const DonateBanner = ({ background }: Props) => {
       })}>
       <div className="donate-cta">
         <Localized
-          id="donate-banner-cta"
+          id={donateCTALocalizedId}
           elems={{ mark: <mark />, br: <div /> }}>
           <h2 />
         </Localized>
@@ -30,7 +36,7 @@ export const DonateBanner = ({ background }: Props) => {
       <div className="donate-cta-explanation">
         <Localized
           elems={{ strong: <strong /> }}
-          id="donate-banner-cta-explanation">
+          id={donateCTAExplanationLocalizedId}>
           <p />
         </Localized>
 

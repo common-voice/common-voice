@@ -1831,3 +1831,6 @@ too-many-files = Too many files
 donate-banner-cta = <mark>We need</mark><br/><mark>your help!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = It costs almost a million dollars a year to host the datasets and improve the platform for the 100+ language communities who rely on what we do. <strong>If you value open, inclusive data - donate today!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Using CV for</mark><br/><mark>your research?</mark>
+languages-donate-banner-cta-explanation = Common Voice is funded by donations and grants! We love collaborating with academics, civil society and industry researchers. Common Voice is free to use, but contributing to platform and hosting costs through grant proposals is really helpful.
