@@ -13,7 +13,6 @@
 /* We need to use !important because the react modal library we use sets inline-styles */
 .ReactModal__Content {
     position: static !important;
-    margin-top: 2em;
     pointer-events: none;
     border: none !important;
 
@@ -25,6 +24,10 @@
         right: 0 !important;
         bottom: 0 !important;
         border-radius: 0 !important;
+    }
+
+    @media (--md-up) {
+        margin-top: 2em;
     }
 
     & .close {

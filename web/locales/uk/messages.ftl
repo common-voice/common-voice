@@ -2,7 +2,7 @@
 
 yes-receive-emails = Так, надсилайте мені листи. Я бажаю бути в курсі подій проєкту Common Voice.
 stayintouch = Ми в Mozilla створюємо спільноту навколо технології. Ми бажаємо тримати зв'язок з вами стосовно оновлень, нових джерел даних, а також дізнатися більше про те, як ви використовуєте ці дані.
-privacy-info = Ми обіцяємо обережно поводитися з вашою інформацією. Ознайомтеся докладніше в нашому <privacyLink>повідомленні про приватність</privacyLink>.
+privacy-info = Ми обіцяємо обережно поводитися з вашою інформацією. Ознайомтеся про це докладніше в нашому <privacyLink>Положенні про приватність</privacyLink>.
 return-to-cv = Повернутися до Common Voice
 email-input =
     .label = Е-пошта
@@ -44,6 +44,7 @@ be = Білоруська
 bg = Болгарська
 bm = Бамбарська
 bn = Бенгальська
+bo = Тибетська
 br = Бретонська
 bs = Боснійська
 bxr = Бурятська
@@ -53,6 +54,7 @@ cak = Какчикельська
 ckb = Центрально-курдська
 cnh = Чинська
 co = Корсиканська
+crh = Кримськотатарська
 cs = Чеська
 cv = Чуваська
 cy = Валлійська
@@ -68,16 +70,20 @@ eo = Есперанто
 es = Іспанська
 et = Естонська
 eu = Баскська
+ewo = Евондо
 fa = Перська
 ff = Фульфульде
 fi = Фінська
 fo = Фарерська
 fr = Французька
+fuf = Гвінейська пулар
 fy-NL = Фризька
 ga-IE = Ірландська
 gl = Галісійська
 gn = Гуарані
 gom = Гоанська Конкані
+gu-IN = Гуджараті
+guc = Ваюунаікі
 ha = Хауса
 he = Іврит
 hi = Гінді
@@ -97,6 +103,7 @@ it = Італійська
 izh = Іжорська
 ja = Японська
 jbo = Ложбан
+jv = Яванська
 ka = Грузинська
 kaa = Каракалпацька
 kab = Кабільська
@@ -117,7 +124,9 @@ lij = Лігурійська
 ln = Лінгала
 lo = Лаоська
 lt = Литовська
+ltg = Латгальська
 lv = Латвійська
+lzz = Лазська
 mai = Майтхілі
 mdf = Мокшанська
 mg = Малагасійська
@@ -138,15 +147,18 @@ nb-NO = Норвезька Букмол
 nd = IsiNdebele (північна)
 ne-NP = Непальська
 nhe = Східна уастека науатль
+nhi = Західна сьєра-пуебльська науатль
 nia = Ніаська
 nl = Нідерландська
 nn-NO = Норвезька Нюношк
 nr = IsiNdebele (південна)
 nso = Північна сото
+ny = Ньянджа
 nyn = Ньянколе
 oc = Окситанська
 om = Оромо
 or = Орія
+os = Осетинська
 pa-IN = Панджабі
 pap-AW = Пап'яменто (Аруба)
 pl = Польська
@@ -154,6 +166,7 @@ ps = Пушту
 pt = Португальська
 quc = Кіче
 quy = Кечуа
+qvi = Кічуа
 rm-sursilv = Ретороманська сурсільванська
 rm-vallader = Ретороманська вальядерська
 ro = Румунська
@@ -163,6 +176,8 @@ sah = Якутська
 sat = Санталі (Ол-чикі)
 sc = Сардинська
 scn = Сицилійська
+sco = Шотландська
+sd = Синдхи
 sdh = Південнокурдська
 shi = Ташельхіт
 si = Сингальська
@@ -203,7 +218,9 @@ uz = Узбецька
 ve = Вендійська
 vec = Венеційська
 vi = В’єтнамська
+vmw = Макува
 vot = Водська
+wep = Вестфальська
 wo = Волоф
 xh = Коса
 yi = Їдиш
@@ -232,14 +249,15 @@ help = Допомога
 contact = Зв'язок
 privacy = Приватність
 terms = Умови
-cookies = Куки
-faq = ЧаП
+cookies = Файли cookie
+faq = Поширені запитання
 content-license-text = Вміст доступний на умовах ліцензії <licenseLink>Creative Commons</licenseLink>
 share-title = Допоможіть нам знайти інших охочих записати свій голос!
 share-text = Допоможіть навчити машини розуміти мову людей. Запишіть свій голос тут { $link }
 link-copied = Посилання скопійовано
 back-top = Нагору
 logout = Вийти
+donate = Підтримати
 
 ## Home Page
 
@@ -404,8 +422,12 @@ native-language =
 profile-form-add-accent = Додайте новий власний акцент «{ $inputValue }»
 profile-form-submit-save = Зберегти
 profile-form-submit-saved = Збережено
-male = Чоловічі
-female = Жіночі
+male_masculine = Чоловік/чоловічий
+female_feminine = Жінка/жіночий
+intersex = Інтерсекс
+transgender = Трансгендер
+non-binary = Небінарний
+do_not_wish_to_say = Не бажаю вказувати
 # Gender
 other = Інше
 why-profile-title = Нащо потрібен профіль?
@@ -424,7 +446,7 @@ why-demographic = Чому це важливо?
 why-demographic-explanation-2 = Знеособлені дані користувачів про вік, стать і акцент допомагають вдосконалити аудіодані, що застосовуються для навчання точності розпізнавання мови. Ваше ім'я користувача та адреса електронної пошти ніколи не будуть пов'язані з надісланими вами даними, крім того, ви також можете керувати доступністю свого імені користувача іншим, чи залишатися анонімними.
 accept-privacy = Я погоджуюся з тим, як ви поводитеся з цією інформацією, як це описано в <privacyLink>Політиці приватності</privacyLink> Mozilla
 accept-privacy-title = Політика приватності
-accept-privacy-and-terms = Я погоджуюся з <termsLink>Умовами</termsLink> та <privacyLink>Повідомленням про приватність</privacyLink> Common Voice
+accept-privacy-and-terms = Я погоджуюся з <termsLink>Умовами надання послуг</termsLink> і <privacyLink>Положенням про приватність</privacyLink> Common Voice
 login-identity = Запис для входу
 login = Увійти
 login-signup = Увійти / Зареєструватися
@@ -441,6 +463,8 @@ help-accent = Потрібна допомога з акцентом?
 help-accent-explanation = Ваш акцент — це те, як ви вимовляєте слова. Він може залежати від того, де ви проживали, якими іншими мовами ви володієте та багатьма іншими факторами. Тут ви можете поділитися будь-якою інформацією, яку вважаєте необхідною.
 help-variants = Потрібна допомога з варіантами?
 help-variants-explanation = Варіанти — це специфічна форма мови, якою, наприклад, спілкуються ті, хто живе в певній місцевості чи спільноті. Іноді їх називають діалектами.
+help-sex-or-gender-changes = Потрібна допомога щодо зміни статі чи гендерної ідентичності?
+help-sex-or-gender-changes-explanation = Ми пропонуємо більше варіантів, щоб дати людям свободу вибору щодо повідомлення нам про свою стать або гендерну ідентичність. Будь ласка, опишіть себе так, як вам здається найприроднішим. <learnMoreLink>Дізнайтеся більше про наш підхід до статі та гендеру.</learnMoreLink>
 
 ## Profile - Email
 
@@ -463,7 +487,7 @@ change-email-setings = Змініть свою адресу електронно
 
 ## FAQ
 
-faq-title = Часті запитання
+faq-title = Поширені запитання
 faq-what-cv-q = Що таке Common Voice?
 faq-what-cv-a =
     Технологія розпізнавання голосу революціонізує спосіб взаємодії з машинами, але наявні тепер системи є комерційними й дорогими. Common Voice є частиною ініціативи Mozilla щодо поліпшення технологій розпізнавання голосу доступним для всіх. Common Voice - це велика база даних зібраних голосів, яка дозволяє будь-кому швидко та легко під'єднати до програми голосову підтримку будь-якою мовою.
@@ -626,7 +650,6 @@ about-playbook-how-add-sentences = Як додати речення?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> — це засіб для збору та перевірки речень, які є суспільним надбанням. Вам <scAccountLink>потрібно створити обліковий запис</scAccountLink>. Потім додайте свою мову до свого <strong>профілю</strong>. Ви можете <strong>Додати</strong> речення або <strong>Переглянути</strong> раніше додані речення.
 about-playbook-how-add-sentences-content-2 = Речення повинні бути переглянуті та прийняті двома людьми, щоб бути включеними до Common Voice. Ви створюєте рекомендації для своєї мови <languageGuidelinesLink>тут</languageGuidelinesLink>. Речення мають бути <licenseLink>суспільним надбанням</licenseLink> і коротшими за 15 слів. Ви можете попросити власника тексту зробити його <waiverLink>CC0, використовуючи нашу процедуру відмови</waiverLink>, і надіслати нам на commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Ви можете використовувати <scraperLink>видобувач речень</scraperLink>, щоб додавати короткі речення з Вікіпедії.
-about-playbook-how-add-sentences-content-4 = Затверджені речення експортуються по середах і доступні після наступного випуску.
 
 ## How to record quality
 
@@ -717,7 +740,7 @@ license = Ліцензія: <licenseLink>{ $license }</licenseLink>
 license-mixed = Змішана
 data-download-singleword-title = Завантажте сегмент призначений для розпізнавання одного слова
 data-download-singleword-callout-v2 = Це сегмент, керований випадками використання, який містить дані для посилення розпізнавання вимовлених цифр та розпізнавання так / ні.
-review-terms = Використовуючи Common Voice, ви приймаєте наші <termsLink>Умови</termsLink> та <privacyLink>Повідомлення про приватність</privacyLink>
+review-terms = Використовуючи Common Voice, ви приймаєте наші <termsLink>Умови надання послуг</termsLink> і <privacyLink>Положення про приватність</privacyLink>
 terms-agree = Я погоджуюся
 terms-disagree = Я не погоджуюся
 review-aborted = Вивантаження перервано. Ви хочете видалити свої записи?
@@ -749,10 +772,12 @@ validated-hr-total = Всього годин перевірено
 overall-hr-total = Всього годин
 cv-license = Ліцензія
 audio-format = Формат аудіо
+dataset-splits = Поділ (вік і стать)
 number-of-voices = Кількість голосів
 splits = Статистика
 email-to-download = Вкажіть адресу електронної пошти для завантаження
 why-email = <b>Навіщо електронна пошта?</b> У майбутньому може знадобитися зв’язатися з вами щодо змін у наборі даних, електронна пошта надасть нам таку можливість.
+why-donate-datasets-page = Mozilla Common Voice – це найрізноманітніший у світі набір даних відкритого мовлення, створений краудсорсингом, і ми працюємо виключно за рахунок внесків. Розміщення наборів даних і вдосконалення платформи для понад 100 мовних спільнот, які покладаються на нашу роботу, коштує майже мільйон доларів на рік. Якщо ви цінуєте відкриті, повні дані, <b>зробіть свій внесок сьогодні!</b>
 confirm-size = Ви готові розпочати завантаження файлу <b>{ $size }</b>
 size-gigabyte = ГБ
 size-megabyte = МБ
@@ -793,6 +818,15 @@ dataset-version = Версія
 sha256-checksum-copied = Контрольну суму SHA256 скопійовано!
 sha256-checksum-copied-error = Не вдалося скопіювати контрольну суму SHA256
 clipboard-not-supported = Буфер обміну не підтримується
+no-information-available = Немає доступної інформації
+dataset-metadata-sex = Стать
+# dataset metadata - age of contributor
+dataset-metadata-age = Вік
+donate-modal-message = Ваш набір даних завантажується!
+dataset-donate-modal-heading = Чи знаєте ви, що…
+donate-modal-explanation-1 = Розміщення наборів даних і вдосконалення платформи для понад 100 мовних спільнот, які покладаються на нашу роботу, коштує майже мільйон доларів на рік?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Якщо ви цінуєте відкриті та доступні дані – зробіть внесок сьогодні!</bold>
 
 ## Download Modal
 
@@ -870,6 +904,8 @@ language-section-in-progress = У процесі
 language-section-in-progress-new-description = Наразі ці мови розвиваються спільнотою. Індикатори досягнень вказують на успіхи <localizationGlossaryLink>локалізації вебсайту</localizationGlossaryLink> та <sentenceCollectionGlossaryLink>зборі речень</sentenceCollectionGlossaryLink> для кожної мови.
 language-section-launched = Запущено
 language-section-launched-description = Для цих мов вебсайт успішно <localizationGlossaryLink>локалізовано</localizationGlossaryLink>, і зібрано достатньо <sentenceCollectionGlossaryLink>речень</sentenceCollectionGlossaryLink>, щоб почати збір <speakLink>озвучувань</speakLink> та <listenLink>перевірку записів</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Востаннє оновлено: { $lastUpdatedTimeStamp }
 languages-show-more = Більше мов
 languages-show-less = Згорнути
 language-meter-in-progress = Перебіг виконання
@@ -888,6 +924,8 @@ action-click = Клацніть
 action-tap = Торкнутися
 contribute = Долучитися
 listen = Слухати
+write = Записати
+review = Перевірити
 skip = Пропустити
 shortcuts = Швидкі клавіші
 clips-with-count-pluralized =
@@ -934,6 +972,9 @@ listen-empty-state = У нас закінчилися записи для пер
 listen-loading-error =
     Нам не вдалося отримати аудіокліпи для прослуховування.
     Будь ласка, спробуйте пізніше.
+listen-abort-title = Завершити перевірку кліпів?
+listen-abort-cancel = Продовжити перевірку
+listen-abort-confirm = Завершити перевірку
 speak-empty-state = У нас закінчилися речення для запису цією мовою ...
 speak-empty-state-cta = Запропонуйте свої речення
 speak-loading-error =
@@ -952,6 +993,7 @@ target-segment-learn-more = Докладніше
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Збірка голосів
+contribute-sentence-collection-nav-header = Збірка речень
 
 ## Reporting
 
@@ -1268,7 +1310,7 @@ sc-footer-translate = Перекласти цю сторінку
 sc-footer-report-copyright = Повідомте про проблеми з авторським правом
 sc-footer-privacy = Приватність
 sc-footer-terms = Умови
-sc-footer-cookies = Куки
+sc-footer-cookies = Файли cookie
 sc-login-signup-button = Увійти / Зареєструватися
 sc-logout-button = Вийти
 
@@ -1688,3 +1730,211 @@ already-have-an-account = Вже маєте обліковий запис? <logi
 create-profile-button = Створити профіль
 # IMAGE TAGS
 img-alt-success-checkmark = позначка успішності
+# GUIDELINES PAGE
+guidelines-header = Настанови щодо внесків
+guidelines-header-subtitle = Дізнайтеся, як додати та перевірити речення та аудіозаписи до набору даних Common Voice
+voice-collection = Збірка голосів
+sentence-collection = Збірка речень
+varying-pronunciations = Різна вимова
+misreadings = Неправильне прочитання
+offensive-content = Образливий вміст
+background-noise = Сторонні звуки
+background-voices = Сторонні голоси
+volume = Гучність
+reader-effects = Штучність вимови
+just-unsure = Просто не впевнені?
+example = Приклад
+varying-pronunciations-explanation-1 = Ми вітаємо різні акценти! Будьте дуже обережні, перш ніж відхиляти кліп на тій підставі, що, на вашу думку, читач неправильно вимовив слово, неправильно поставив наголос або проігнорував розділові знаки. У всьому світі існує велика різноманітність вимов, деякі з яких ви, можливо, не чули у своїй місцевості. Будь ласка, надайте свободу вимови для тих, хто може говорити не так, як ви.
+varying-pronunciations-explanation-2 = З іншого боку, якщо ви думаєте, що читач ніколи раніше не стикався з цим словом і робить неправильну здогадку щодо вимови, відхиліть кліп. Якщо ви не впевнені, скористайтеся кнопкою пропуску.
+varying-pronunciations-example = The route was unclear.
+varying-pronunciations-tip-1 = [У канадській англійській мові "route" може звучати як "rowt"]
+varying-pronunciations-tip-2 = [У британській англійська може звучати "root"]
+offensive-content-explanation = Речення відхиляються через процес модерації спільноти, однак він не ідеальний. Якщо ви бачите або чуєте речення, яке вас ображає або засмучує, наприклад через те, що воно порушує наші <participationGuidelines>правила участі в спільноті</participationGuidelines>, скористайтеся кнопкою прапорця в інтерфейсі користувача. Ви також можете зв’язатися з нами за адресою <emailFragment>commonvoice@mozilla.com</emailFragment>
+misreadings-explanation-1 = Важливо правильно прочитати всі слова на сторінці. Під час прослуховування дуже уважно перевіряйте, чи записане точно відповідає написаному; відхиляйте, якщо мовці додають, скорочують або пропускають слова.
+misreadings-explanation-2 = До дуже поширених помилок належать:
+misreadings-explanation-3 = На початку запису відсутні «A» або «The».
+misreadings-explanation-4 = Відсутність «s» у кінці слова.
+misreadings-explanation-5 = Читання скорочень, яких насправді не існує, таких як «Мо'» замість «Може», або навпаки.
+misreadings-explanation-6 = Пропуск закінчення останнього слова через занадто швидке обривання запису.
+misreadings-explanation-7 = Кілька спроб прочитати слово.
+misreadings-example-1 = Може сходимо на каву?
+misreadings-example-2 = Мо' сходимо на каву?
+misreadings-example-3 = Може сходимо на цю каву?
+misreadings-example-4 = Повз нас пролетів джміль.
+misreadings-tip-1 = [Повинно бути «Може»]
+misreadings-tip-2 = [В оригінальному тексті немає «цю»]
+misreadings-tip-3 = [Невідповідний вміст]
+background-noise-explanation = Ви повинні бути в змозі почути кожне слово запису. Ми хочемо, щоб алгоритми машинного навчання могли обробляти різні фонові шуми, і навіть відносно гучні шуми або тиха фонова музика можуть бути прийнятні за умови, що вони не заважають вам почути весь текст. Потріскування або «розриви», які заважають вам почути текст, означають, що ви повинні відхилити кліп.
+background-noise-example-1 = Любові не буває забагато.
+background-noise-example-2 = [Чхання]Любові не буває [кашель] забагато.
+background-noise-example-3 = Любові не був [кашель] багато.
+background-noise-example-4 = [Тріск] не буває [тріск] -багато.
+background-noise-tip-1 = [перервано фоновим шумом]
+background-noise-tip-2 = [Частину тексту не чути]
+background-voices-explanation = Незначний фоновий шум – це нормально, але якщо ви чуєте, як інша особа говорить чіткі слова, кліп слід відхилити. Зазвичай це трапляється там, де залишили увімкненим телевізор або де поблизу відбувається розмова.
+background-voices-example-1 = Любові не буває забагато. [прочитано одним голосом]
+background-voices-tip-1 = Ти йдеш? [кличе інший]
+volume-explanation = Будуть природні коливання гучності між читачами. Відхиляйте записи лише якщо гучність настільки значна, що запис хрипить, або (частіше), якщо вона настільки низька, що ви не можете зрозуміти вимовлене не глянувши на написаний текст.
+reader-effects-explanation = Більшість записів — це люди, які розмовляють своїм природним голосом. Ви можете прийняти випадкові нестандартні записи, у яких читачі викрикують, шепочуть або явно передають написане «драматичним» голосом. Будь ласка, відхиліть заспівані записи та записи, що використовують комп'ютерний синтезований голос.
+just-unsure-explanation = Якщо ви стикаєтесь із випадком, не описаним у цих настановах, просимо голосувати якнайоб'єктивніше. Якщо ви дійсно не можете визначитися, натисніть кнопку пропуску та переходьте до наступного запису.
+still-have-questions = Залишились запитання?
+contact-common-voice = Зверніться до команди Common Voice
+public-domain = Публічний домен
+citing-sentences = Цитування речень
+adding-sentences = Додавання речень
+reviewing-sentences = Розгляд речень
+sentence-domain = Належність речення
+public-domain-explanation-1 = Дуже важливо, щоб усі текстові речення були <publicDomain>суспільним надбанням</publicDomain> (<cc0>cc0</cc0>), оскільки набір даних Common Voice випущено за ліцензією cc0. Вивантажуйте речення, лише якщо ви впевнені, і завжди включайте відповідну цитату.
+public-domain-explanation-2 = Найкращі речення для створення корисного механізму розпізнавання мовлення – це розмовна сучасна мова. Деякі ідеї, які допоможуть вам сформувати речення:
+public-domain-explanation-3 = Створюйте сучасні розмовні речення самостійно або разом із друзями чи мовною спільнотою - наприклад, за допомогою «письменницького марафону»
+public-domain-explanation-4 = Зв'яжіться з авторами, драматургами чи сценаристами та запитайте, чи готові вони поділитися невеликою частиною своїх творів для суспільного надбання
+public-domain-explanation-5 = Шукайте текст, на який більше не поширюється авторське право - наприклад, більшість книг, виданих до 1920 року
+public-domain-explanation-6 = Зв'яжіться з державними, некомерційними або медіаорганізаціями, щоб дізнатися, чи можна вважати будь-які  їхні вебматеріали, звіти чи інший вміст суспільним надбанням
+citing-sentences-explanation-1 = Важливо включати цитати, щоб ми могли перевірити, що речення є суспільним надбанням і до них не застосовуються обмеження авторських прав.
+citing-sentences-subheader-websites = Вебсайти
+citing-sentences-subheader-websites-explanation = Ви можете включити вебсайт, наприклад «Common Voice — https://commonvoice.mozilla.org/»
+citing-sentences-subheader-academic-reference = Академічні посилання
+citing-sentences-subheader-academic-reference-explanation =
+    Ви можете використовувати академічний стиль посилань, наприклад, гарвардський стиль
+    «Mozilla (2021) Common Voice. Доступно на https://commonvoice.mozilla.org/ (Доступно від: 15 вересня 2021 року)»
+citing-sentences-subheader-offline-sources = Офлайн-джерела
+citing-sentences-subheader-offline-sources-explanation =
+    Для загальнодоступного тексту, що недоступний онлайн, ви можете використовувати академічний стиль посилання
+    наприклад, гарвардський стиль «Jess (2021) My Public license poems»
+citation =
+    .label = Цитата
+self-citation = Самоцитування
+self-citation-explanation = Ось як ви цитуєте себе, якщо ви самі написали текст.
+adding-sentences-subheader-length = Довжина
+adding-sentences-subheader-length-explanation = У реченні має бути менше ніж 15 слів.
+adding-sentences-subheader-spelling-punctuation = Орфографія і розділові знаки
+adding-sentences-subheader-spelling-punctuation-explanation = Речення має бути написано правильно.
+adding-sentences-subheader-speakable = Вимовність
+adding-sentences-subheader-speakable-explanation = Найкращі речення — природні та розмовні — вони мають легко читатися. Хоча фонетична різноманітність і різні слова в реченнях важливі, ми також намагаємося зробити запис речень якомога привабливішим і веселішим для нашої спільноти волонтерів.
+adding-sentences-subheader-numbers = Числа
+adding-sentences-subheader-numbers-explanation =
+    Ідеально, щоб у тексті джерела не було чисел, оскільки вони можуть викликати проблеми
+    під час читання вголос. Спосіб читання числа залежить від контексту і може створити плутанину в наборі даних.
+    Наприклад, число «2409» можна було б точно прочитати як «двадцять чотири нуль дев'ять» і
+    «дві тисячі чотириста дев'ять».
+adding-sentences-subheader-abbreviations = Скорочення та абревіатури
+adding-sentences-subheader-abbreviations-explanation = У тексті джерела слід уникати таких абревіатур і скорочень, як «США» або «ICE», оскільки вони можуть бути прочитані інакше від написання. Крім того, для однієї абревіатури може бути кілька правильних прочитань.
+adding-sentences-subheader-punctuation = Розділові знаки
+adding-sentences-subheader-punctuation-explanation = Спеціальні символи та розділові знаки слід включати тільки у разі крайньої потреби. Наприклад, апостроф включається в англійські слова, як-от «don’t» і «we’re» і повинні бути включені до тексту джерела, але навряд чи вам коли-небудь знадобиться спеціальний символ, як-от «@» або «#».
+adding-sentences-subheader-special-characters = Спеціальні символи та іноземні букви
+adding-sentences-subheader-special-characters-explanation-1 = Букви мають належати до мови, якою вимовляються. Наприклад, «ж» — це літера кириличної абетки, але ніколи не використовується в англійській мові, і тому ніколи не повинна з'являтися в жодному англійському вихідному тексті.
+adding-sentences-subheader-special-characters-explanation-2 = Мови можуть мати власні правила перевірки з додатковими вимогами під час локалізації. Якщо немає спеціального файлу перевірки для мови, учасникам показуватимуться правила англійською мовою.
+adding-sentences-subheader-offensive-content = Образливий вміст
+adding-sentences-subheader-offensive-content-explanation = Якщо речення образливе або неоднозначне - наприклад, через відвертий вміст або інше порушення наших <communityGuidelines>правил участі в спільноті</communityGuidelines> - вам слід відхилити речення. Ви також можете зв’язатися з нами за адресою <emailFragment>commonvoice@mozilla.com</emailFragment>, щоб передати проблему на вищий рівень.
+reviewing-sentences-explanation-1 = Якщо речення відповідає критеріям, натисніть кнопку «Так».
+reviewing-sentences-explanation-2 = Якщо речення не відповідає наведеним критеріям, натисніть кнопку «Ні».
+reviewing-sentences-explanation-3 = Якщо ви не впевнені щодо речення, ви також можете пропустити його та перейти до наступного.
+reviewing-sentences-explanation-4 = Якщо у вас закінчилося речення для розгляду, допоможіть нам зібрати більше речень!
+domain-explanation = Належність стосується теми речення. Наразі ви можете вибрати між:
+
+## WRITE PAGE
+
+write-instruction = Додайте <icon></icon> речення суспільного надбання
+write-page-subtitle = Надані тут речення буде додано до загальнодоступного набору даних з ліцензією cc-0.
+sentence =
+    .label = Речення
+sentence-input-value = Введіть сюди речення, яке є суспільним надбанням
+citation-input-value = Джерело вашого речення
+citation =
+    .label = Цитата
+sc-write-submit-confirm =
+    Я підтверджую, що це речення є <wikipediaLink>суспільним надбанням</wikipediaLink>
+    і я маю дозвіл на його вивантаження.
+sc-review-write-title = Які речення я можу додати?
+new-sentence-rule-1 = <noCopyright>Без обмежень авторським правом</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Менше ніж 15 слів
+new-sentence-rule-3 = Дотримуйтеся правил граматики
+new-sentence-rule-4 = Дотримуйтеся правил правопису та пунктуації
+new-sentence-rule-5 = Без цифр і спеціальних символів
+new-sentence-rule-6 = Жодних іноземних букв
+new-sentence-rule-7 = Додайте відповідну цитату
+new-sentence-rule-8 = Ідеально природне і розмовне (речення має легко читатися)
+how-to-cite = Як цитувати?
+how-to-cite-explanation-bold = Цитата з URL-посиланням або повною назвою твору.
+how-to-cite-explanation = Якщо це ваші власні слова, просто вкажіть <italicizedText>“Самоцитування”</italicizedText>. Нам потрібно знати, де ви знайшли цей вміст, щоб ми могли перевірити, чи він є суспільним надбанням і на нього не поширюються жодні обмеження авторського права. Щоб дізнатися більше про цитування, перегляньте нашу <guidelinesLink>Сторінку настанов</guidelinesLink>.
+guidelines = Настанови
+contact-us = Зв'язатися з нами
+add-sentence-success = Зібрано 1 речення
+add-sentence-error = Помилка додавання речення
+required-field = Заповніть це поле.
+single-sentence-submission = Подання окремих речень
+bulk-sentence-submission = Масове подання речень
+single-sentence = Одне речення
+bulk-sentences = Масові речення
+sentence-domain-select =
+    .label = Належність речення
+# Sentence Domain dropdown option
+agriculture = Сільське господарство
+# Sentence Domain dropdown option
+automotive = Автомобільна галузь
+# Sentence Domain dropdown option
+finance = Фінанси
+# Sentence Domain dropdown option
+food_service_retail = Харчування, обслуговування та роздрібна торгівля
+# Sentence Domain dropdown option
+general = Загальне
+# Sentence Domain dropdown option
+healthcare = Охорона здоров'я
+# Sentence Domain dropdown option
+history_law_government = Історія, право та уряд
+# Sentence Domain dropdown option
+language_fundamentals = Основи мови (наприклад, цифри, букви, гроші)
+# Sentence Domain dropdown option
+media_entertainment = Медіа та розваги
+# Sentence Domain dropdown option
+nature_environment = Природа і навколишнє середовище
+# Sentence Domain dropdown option
+news_current_affairs = Новини та поточні події
+# Sentence Domain dropdown option
+technology_robotics = Технології та робототехніка
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Перевірте <icon></icon>, чи це лінгвістично правильне речення?
+sc-review-rules-title = Чи відповідає речення настановам?
+sc-review-empty-state = Зараз немає речень цією мовою для розгляду.
+report-sc-different-language = Інша мова
+report-sc-different-language-detail = Написано мовою, відмінною від тої, яку я розглядаю.
+sentences-fetch-error = Під час отримання речень сталася помилка
+review-error = Під час розгляду цього речення сталася помилка
+review-error-rate-limit-exceeded = Ви надто поспішаєте. Перегляньте речення уважніше, щоб переконатися, що воно правильне.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Ми робимо великі зміни
+sc-redirect-page-subtitle-1 = Sentence Collector переходить на основну платформу Common Voice. Тепер ви можете <writeURL>написати</writeURL> речення або <reviewURL>розглянути</reviewURL> окремі пропозиції на Common Voice.
+sc-redirect-page-subtitle-2 = Ставте нам запитання на <matrixLink>Matrix</matrixLink>, на <discourseLink>Discourse</discourseLink> або <emailLink>електронною поштою</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Вивантажте <icon></icon> речення суспільного надбання
+sc-bulk-upload-instruction = Перетягніть свій файл сюди або <uploadButton>натисніть, щоб вивантажити</uploadButton>
+sc-bulk-upload-instruction-drop = Перетягніть файл сюди, щоб вивантажити
+bulk-upload-additional-information = Якщо ви хочете надати додаткову інформацію про цей файл, напишіть на <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Якщо ви хочете надати додаткову інформацію про цей файл, яка не включена в шаблон, напишіть на <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Повторіть спробу, перетягнувши файл сюди
+try-upload-again-md = Спробуйте вивантажити знову
+select-file = Виберіть файл
+select-file-mobile = Виберіть файл для вивантаження
+accepted-files = Прийнятні типи файлів: лише .tsv
+maximum-file-size = Максимальний розмір файлу: 25 МБ
+what-needs-to-be-in-file = Що має бути в моєму файлі?
+what-needs-to-be-in-file-explanation = Перегляньте наш <templateFileLink>файл шаблону</templateFileLink>. Ваші речення не мають бути захищені авторським правом (CC0 або дозволена оригінальна робота автора) і бути чіткими, граматично правильними та зрозумілими. На прочитання надісланих речень потрібно приблизно 10-15 секунд. У надісланих реченнях слід уникати чисел, власних імен та спеціальних символів.
+upload-progress-text = Триває виавантаження...
+sc-bulk-submit-confirm =
+    Я підтверджую, що це речення є <wikipediaLink>суспільним надбанням</wikipediaLink>
+    і я маю дозвіл на його вивантаження.
+bulk-upload-success-toast = Масове вивантаження речень завершено
+bulk-upload-failed-toast = Помилка вивантаження, повторіть спробу.
+bulk-submission-success-header = Дякуємо за ваш внесок!
+bulk-submission-success-subheader = Ви допомагаєте Common Voice досягати щоденних цілей щодо речень!
+upload-more-btn-text = Вивантажити більше речень?
+file-invalid-type = Неприпустимий файл
+file-too-large = Файл завеликий
+file-too-small = Файл замалий
+too-many-files = Забагато файлів

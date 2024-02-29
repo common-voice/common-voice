@@ -20,3 +20,13 @@ export type UserClient = {
   custom_goals?: CustomGoal[];
   enrollment?: Enrollment;
 };
+
+export type Gender = {
+  '': string;
+  male_masculine: string;
+  female_feminine: string;
+  intersex: string;
+  transgender: string;
+  'non-binary': string;
+  do_not_wish_to_say: string;
+};

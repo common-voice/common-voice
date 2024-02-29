@@ -10,10 +10,8 @@ import { useLocale } from '../../../locale-helpers';
 import {
   PlayOutlineIcon,
   RedoIcon,
-  ShareIcon,
   StopIcon,
 } from '../../../ui/icons';
-import { getAudioFormat } from '../../../../utility';
 import { ContributionPillProps } from '../contribution';
 import Pill, { PillStatus } from '../pill';
 import { SentenceRecording } from './sentence-recording';
@@ -41,17 +39,32 @@ function RecordingPill({
   const [locale] = useLocale();
   const [isPlaying, setIsPlaying] = useState(false);
   const [showSentenceTooltip, setShowSentenceTooltip] = useState(false);
-  const audioRef = useRef(null);
+  const audioContext = useRef(null);
+  const source = useRef(null);
 
   const toggleIsPlaying = () => {
-    const { current: audio } = audioRef;
-    let nextIsPlaying = !isPlaying;
+    const nextIsPlaying = !isPlaying;
+
     if (nextIsPlaying) {
       trackRecording('listen', locale);
-      audio.play();
+
+      audioContext.current = new (window.AudioContext || window.webkitAudioContext)();
+      source.current = audioContext.current.createBufferSource();
+
+      clip.recording.blob.arrayBuffer().then(arrayBuffer => {
+        audioContext.current.decodeAudioData(arrayBuffer).then((audioBuffer: any) =>{
+          source.current.buffer = audioBuffer
+          source.current.onended = () => {
+            source.current = audioContext.current.createBufferSource();
+            setShowSentenceTooltip(false);
+            setIsPlaying(false);
+          }
+          source.current.connect(audioContext.current.destination);
+          source.current.start(0);
+        });
+      });
     } else {
-      audio.pause();
-      audio.currentTime = 0;
+      source.current.stop(0);
       setShowSentenceTooltip(false);
     }
     setIsPlaying(nextIsPlaying);
@@ -69,9 +82,6 @@ function RecordingPill({
 
       {!children && status === 'done' && (
         <>
-          <audio preload="auto" onEnded={toggleIsPlaying} ref={audioRef}>
-            <source src={clip.recording.url} type={getAudioFormat()} />
-          </audio>
           <Tooltip
             arrow
             open={isPlaying || showSentenceTooltip}

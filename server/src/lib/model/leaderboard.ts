@@ -6,13 +6,11 @@ import { getConfig } from '../../config-helper';
 import lazyCache from '../lazy-cache';
 import { getMySQLInstance } from './db/mysql';
 import Bucket from '../bucket';
-import { AWS } from '../aws';
 import Model from '../model';
 import { ChallengeLeaderboardArgument, ChallengeToken } from 'common';
 
-const s3 = AWS.getS3();
 const model = new Model();
-const bucket = new Bucket(model, s3);
+const bucket = new Bucket(model);
 
 const db = getMySQLInstance();
 

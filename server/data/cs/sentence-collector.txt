@@ -1196,6 +1196,7 @@ Chceme spolupracovat na tomto úkolu se všemi, kteří sledují stejný zájem.
 Chcete dům z kamene?
 Chcete ještě něco dodat?
 Chcete pokoj s balkónem, nebo bez?
+Chcete si ve čtvrtek zahrát hru?
 Chcete vidět, nejsem-li vyzvědač.
 Chcete vědět víc?
 Chcete vědět, co je to utrpení?
@@ -1784,6 +1785,7 @@ Dáma ve zlatém je zvláštní film.
 Dáme ho k nám!
 Dáte si kávu?
 Dáte si taky kafe?
+Dávají mi sílu.
 Dávají zrovna nějaký film.
 Dávala mi najevo, že překážím.
 Dává mu rum.
@@ -2454,6 +2456,7 @@ Je to kvůli tomu, aby vynikala její velikost.
 Je to láska této pouště.
 Je to mrhání časem.
 Je to mužské jméno.
+Je to můj pastýř.
 Je to můj splněný sen.
 Je to na konci ulice.
 Je to na můj vkus celkem složitý.
@@ -2831,6 +2834,7 @@ Jsem zvědavej, kolik bude sněhu.
 Jsi někde online?
 Jsi oblá a jsi měkká.
 Jsi prý hrubiánem.
+Jsi se mnou.
 Jsi zvláštní člověk.
 Jsi-li nešťasten, je mi to líto a připravil jsem ti pláč.
 Jsi-li součástí některé této skupiny, zveme tě taky.
@@ -3457,6 +3461,7 @@ Leda byste mi násilím zavřel ústa.
 Leda na povidlový omáčce.
 Leda snad jen jako koncový zákazník?
 Ledová kra se vynořila z černa noci.
+Lehla jsem si vedle stojaté vody.
 Lenka se odděluje z dvojce a Bob medvědím objetím drtí Jirku.
 Lenka si sedá na židli.
 Lenka střídá Jirku v medvědím objetí.
@@ -3638,6 +3643,7 @@ Minimální a rok starý návod.
 Ministerský předseda oznámil, že ze zdravotních důvodů podává demisi.
 Ministerstvo vnitra vyřadilo tři prezidentské kandidáty.
 Minuli vesnice bez obyvatel, viděli dragouny.
+Minulé pondělí jsem byl plavat.
 Misionáře, anarchisty, Armádu spásy, všechno možné.
 Mladinkého Václava vedli poručníci od hradu ke hradu.
 Mladá matka však zpívala ukolébavku dále.
@@ -4437,6 +4443,7 @@ Nebudeš mít jiného úkolu, jiné práce, jiné starosti než zdokonalit sama 
 Nebudeš na to stačit!
 Nebudeš-li ho vyrábět rychleji než příroda, pak na ten celý krám nakašlat.
 Nebudu mít klid, dokud svůj příběh někomu nevypovím.
+Nebudu se bát žádného zla.
 Nebudu se moc rozepisovat, jak to probíhalo.
 Nebudu sem sypat tuny čísel, každý se může podívat sám.
 Nebudu teď dělat reklamu nikomu konkrétnímu.
@@ -5132,6 +5139,7 @@ Obklop se bolestí!
 Obklopíš se krámama, a věci, které si vlastníval, teď vlastní tebe.
 Obleva pokračuje s deštěm.
 Oblečen byl zcela nenápadně.
+Obnovuje mou duši.
 Obrace mě nebaví.
 Obrannou politiku bude vláda realizovat v úzké meziresortní spolupráci.
 Obraťte se prosím na něj.
@@ -6027,6 +6035,7 @@ Proběhla za účasti nejvyšších státních představitelů.
 Procesory, počítače, mikrořadiče
 Procházel se s ní.
 Procházela se po rozlehlém ošuntělém nádraží.
+Procházím nejtemnějším údolím.
 Procházím se po okolí a hledám něco fotogenického.
 Procházím teď zápočty.
 Procházím zápočty a zdá se mi, že některé kapitoly jsou poněkud prázdnější.
@@ -7043,6 +7052,7 @@ Stěhuje se jako vrabec z Čech.
 Stěhuje se s bratrem Josefem do nového domu na Vinohradech.
 Střecha plní funkci pouze nosnou a hydroizolační.
 Střechy byly realizovány z dřevěných trámů a kulatiny.
+Středa je můj oblíbený den v týdnu.
 Středem je stále náš Velký Pastýř.
 Středoškoláci se mohou zapojit taky.
 Střelka kompasu ukazuje sever.
@@ -7491,6 +7501,7 @@ Tento dívčí obličej byl půvabný nad pomyšlení.
 Tento materiál je velmi tvrdý a nepříliš křehký.
 Tento proces bude zároveň veden snahou o adekvátní redukci movité i nemovité infrastruktury.
 Tento prvek nazýváme sedlový bod.
+Tento pátek je můj poslední den v práci.
 Tento týden už v Brně nebudu, ale příští týden se určitě můžeme sejít.
 Tento široký záběr umožňuje zapojení mnoha různých studentů do soutěže.
 Tentokrát u maminky se dvěma syny.
@@ -8184,6 +8195,7 @@ Uvádím ho zde v plném znění.
 Uvítám jakékoliv komentáře k těmto výsledkům a jakékoliv vaše výsledky.
 Učitelé se mě už naučili ignorovat.
 Učí se mluvit, psát a počítat.
+Učím děti o bibli každý čtvrtek.
 Už aby byla tady.
 Už aby tady bylo jaro.
 Už asi nic moc.
@@ -8291,6 +8303,7 @@ V lékařství a biologii se musí dodržovat zejména.
 V mramorových sálech se konají krátkodobé výstavy.
 V médiích o tom ale nebylo ani slovo.
 V naší peci piští myši, v naší peci psíci spí.
+V neděli jdu do kostela.
 V neděli půjdeme někam na večeři a máme zamluvený pokoj v hotelu.
 V nemocnici se o něj postarají.
 V noci, oknem, právě tadyhle.
@@ -8338,6 +8351,7 @@ V příštím roce již nezaměstnanost nemá mnoho prostoru pro další pokles.
 V rohu stojí stůl.
 V rámci Evropské unie se bude vláda zasazovat o odbourání protekcionistických bariér.
 V rámci projektování nových střech se zásadně nenavrhují.
+V sobotu budeme s rodinou péct cukroví.
 V sobotu dorazím.
 V sobotu máme večer sraz se třídou ze střední školy.
 V sobotu večer se žádná schůzka neuskutečnila.
@@ -8369,6 +8383,7 @@ V té době už byl vdovec.
 V těchto dvou případech tam budeme oba a budou obhajovat dva projekty současně.
 V Ústřední knihovně na Kapucínském náměstí číslo jedenáct.
 V úterý můžu až od jedné.
+V úterý si chci koupit nějaké oblečení.
 V úterý?
 V Česku definujeme trošku jinak.
 V čem by nám bylo lépe?
@@ -8419,6 +8434,7 @@ Ve webové aplikaci jsou nejnovější modely.
 Ve čtvrtek nebudu v Brně, tak v pátek nebo zítra dopoledne.
 Ve škole nebylo nic.
 Ve škole zatím nejsem, ale určitě dneska dojdu.
+Vede mě podél tiché řeky.
 Vede se mi celkem dobře.
 Vedení se rozhodlo celou akci zhodnotit.
 Vedení školy následně uplatnilo své nejnovější poznatky.

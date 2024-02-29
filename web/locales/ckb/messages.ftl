@@ -142,6 +142,7 @@ sah = ساخا
 sat = Santali (Ol Chiki)
 sc = ساردینی
 scn = سیسیلیە
+sdh = کوردیی باشووری
 shi = شیلها
 si = سینهالا
 sk = سلۆڤاکی
@@ -181,6 +182,7 @@ zh-CN = چینی (چین)
 zh-HK = چینی (هۆنگ کۆنگ)
 zh-TW = چینی (تایوان)
 zu = زولوو
+zza = زازاکی
 
 # [/]
 
@@ -352,8 +354,6 @@ native-language =
     .label = زمانی دایک
 profile-form-submit-save = پاشەکەوتکردن
 profile-form-submit-saved = پاشەکەوت کرا
-male = نێر
-female = مێ
 # Gender
 other = هی تر
 why-profile-title = بۆچی پەڕەی کەسی پێویستە؟
@@ -373,6 +373,7 @@ why-demographic-explanation-2 = زانیاری نەناسراو وەکوو تە�
 accept-privacy = ڕازیم بە چۆنیەتی بەکارهێنانی ئام زانیاریانە بەرامبەر بۆ <privacyLink>نهێنی پارێزی</privacyLink> مۆزیلا.
 accept-privacy-title = سیاسەتی پاراستنی نهێنی
 login-identity = ناسنامەی تێپەڕبوون
+login = چوونەژوورەوە
 login-signup = چوونەژوور/هەژمارکردنی خۆت
 edit = دەستکاری
 email-subscriptions = بەشداری پۆستی ئەلیکترۆنیی
@@ -463,6 +464,7 @@ faq-search-for-answers =
 
 about-title = بۆچی دەنگی گشتی؟
 about-header-description-v2 = <p>دەنگی باو کۆمەڵە داتایەکی دەنگییە کە بەردەستە بۆ گشتی، کە بە دەنگی بەشداربووانی خۆبەخش لە سەرانسەری جیهان بەهێز دەکرێت. ئەو کەسانەی کە دەیانەوێت بەرنامەی دەنگ دروست بکەن دەتوانن داتا سێتەکە بەکاربهێنن بۆ ڕاهێنانی مۆدێلی فێربوونی ئامێر.</p><p>لە ئێستادا زۆربەی داتا سێتەکانی دەنگ لەلایەن کۆمپانیاکانەوە خاوەندارێتی دەکرێن، ئەمەش داهێنانەکان دەخنکێنێت. هەروەها کۆمەڵە داتا دەنگییەکان کەم نوێنەرایەتی دەکەن: کەسانی نائینگلیزی، کەسانی ڕەنگاوڕەنگ، کەمئەندامان، ژنان و کەسانی LGBTQIA+. ئەمەش بەو مانایەیە کە تەکنەلۆژیای چالاککراوی دەنگ بە هیچ شێوەیەک بۆ زۆرێک لە زمانەکان کارناکات، و لەو شوێنانەی کە کاردەکات، لەوانەیە بە یەکسانی بۆ هەمووان کارێکی باش نەکات. ئێمە دەمانەوێت ئەوە بگۆڕین بە کۆکردنەوەی خەڵک لە هەموو شوێنێک بۆ ئەوەی دەنگیان هاوبەش بکەن.</p>
+how-does-it-work-title-v2 = کۆمۆنڤۆیس چۆن کار دەکات؟
 how-does-it-work-text = ئێمە زانیاریسێتێکی کراوەی دەنگەکان کۆمەڵبەخش دەکەین. دەنگی خۆت ببەخشە، وردبەرەوە لە گرتە ئامادە کراوەکانی کەسانی تر و بیسەلمێنە و زانیاریسێتەکە بۆ هەموان باشتر بکە.
 
 ## How does it work section
@@ -475,7 +477,9 @@ about-sentence-collection-subtitle = ڕستەکان کۆدەکرێنەوە بۆ 
 about-new-lang-title = سەرهەڵدانی زمانی نوێ
 about-new-lang-subtitle = ئێمە ماڵپەڕی دەنگی گشتی لەم زمانەدا دەکەینەوە.
 about-voice-contrib-title = بەشداریی دەنگ
+about-voice-validation-title = ڕاستاندنی دەنگ
 about-voice-validation-subtitle = کەسانی تر ئەو کلیپە دەنگانە پشتڕاست دەکەنەوە.
+about-dataset-release-title = بڵاوکردنەوەی داتاسێت
 about-dataset-release-subtitle = ئێمە هەر ٣ مانگ جارێک داتا سێتەکە بڵاو دەکەینەوە.
 about-subscribe-text = دەتەوێت لە پەیوەندیدا بمێنیتەوە لەگەڵ دەنگی باو؟
 about-speak = قسە بکە
@@ -525,6 +529,7 @@ about-playbook-how-add-language-collecting-sentences-heading = کۆکردنەو�
 
 ## How does localization work
 
+about-playbook-how-localize = سایتی ناوچەییکردن چۆن کاردەکات؟
 about-playbook-how-localize-content-1 = وەرگێڕانی دەنگی گشتی ڕوودەدات لە <strong> پۆنتوون </strong>.
 about-playbook-how-localize-content-4 = ماڵپەڕەکە ئامادە دەبێت بۆ کردنەوە کاتێک تەواوبوونی گەیشتە ٧٥٪ .
 about-playbook-how-localize-content-5 = سەیری ڕوونکەرەوە ڤیدیۆییەکەمان بکە بۆ یارمەتی
@@ -532,7 +537,6 @@ about-playbook-how-localize-content-5 = سەیری ڕوونکەرەوە ڤیدی
 ## How to add sentences
 
 about-playbook-how-add-sentences = چۆن ڕستەکان زیاد بکەم؟
-about-playbook-how-add-sentences-content-4 = ئەو ڕستانەی ڕاستێنراون ڕۆژانی چوارشەممە ناردە دەکرێن، و پاش دەرچوونی دواتر بەردەست دەبن.
 
 ## How to record quality
 
@@ -667,6 +671,10 @@ more = زیاتر
 close = داخستن
 download = داگرتن
 dataset-version = وەشان
+dataset-metadata-sex = ڕەگەز
+# dataset metadata - age of contributor
+dataset-metadata-age = تەمەن
+dataset-donate-modal-heading = دەتزانی...
 
 ## Download Modal
 
@@ -730,6 +738,7 @@ language-search-input =
 language-speakers = بێژەران
 localized = خۆماڵی کراو
 sentences = ڕستەکان
+language-validation-hours = سەعات
 
 ## Contribution
 
@@ -737,6 +746,8 @@ action-click = کلیک
 action-tap = لێدان
 contribute = بەشداری
 listen = ببیستە
+write = بنووسە
+review = پێدابچۆوە
 skip = تێپەڕاندن
 shortcuts = قەدبڕەکان
 clips-with-count-pluralized =
@@ -795,6 +806,10 @@ target-segment-generic-card = تۆ بەشداری دەکەیت لە بەشی ب�
 target-segment-first-banner = یارمەتی بدە کە یەکەمین بەشی ئامانجی دەنگی گشتی بۆ { $locale } درووست بکەین
 target-segment-add-voice = دەنگی خۆت زیاد کە
 target-segment-learn-more = زیاتر بزانە
+
+## Contribution Nav Items
+
+contribute-sentence-collection-nav-header = کۆکردنەوەی ڕستە
 
 ## Reporting
 
@@ -1270,3 +1285,20 @@ sc-validation-no-abbreviations = ڕستە نابێت کورتکراوەی تێد
 
 localization-select =
     .label = زمان/ناوچەکردن هەڵبژێرە
+partnerships-governments-header = حکومەتەکان
+why-donate = بۆچی دەپرسیت؟
+create-profile-button = پرۆفایلێک دروست بکە
+voice-collection = کۆکردنەوەی دەنگ
+sentence-collection = کۆکردنەوەی ڕستە
+background-noise = ژاوەژاوی پشتەوە
+background-voices = دەنگی پشتەوە
+example = نموونە
+
+## WRITE PAGE
+
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+

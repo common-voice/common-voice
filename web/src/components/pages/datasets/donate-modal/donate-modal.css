@@ -1,0 +1,126 @@
+body.ReactModal__Body--open {
+    overflow: hidden;
+}
+
+.ReactModal__Overlay {
+    background: rgba(57, 58, 63, 0.85) !important;
+    overflow: auto;
+    display: unset;
+}
+
+.ReactModal__Content .inner.donate-modal {
+    box-shadow: none;
+    background: none;
+    max-width: 60rem;
+    margin-top: 10rem;
+    min-height: auto;
+
+    & .close {
+        right: 0;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background: var(--light-grey);
+    }
+
+    & .container {
+        display: flex;
+
+        & .container-item {
+            background: var(--white);
+            width: 100%;
+            margin-inline-end: 20px;
+            border-radius: 16px;
+            height: 50vh;
+            min-height: 600px;
+
+            &.first {
+                display: flex;
+                flex-direction: column;
+
+                img.mars-bg {
+                    width: inherit;
+                    border-top-left-radius: 16px;
+                    border-top-right-radius: 16px;
+                }
+
+                div.download-message {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    margin-inline-start: 24px;
+                    margin-block-start: 12px;
+                    width: 255px;
+                    height: 100%;
+                    margin-block-end: 12px;
+
+                    h2 {
+                        font-size: 40px;
+                        text-align: justify;
+                        margin-block-start: 20px;
+                    }
+
+                    div.links {
+                        margin-block-start: auto;
+                        display: flex;
+                        align-items: center;
+                        color: var(--warm-grey);
+
+                        a {
+                            font-size: var(--font-size-xs);
+                            text-decoration: underline;
+                            margin-inline-start: 4px;
+                            margin-inline-end: 4px;
+                            color: inherit;
+                        }
+                    }
+                }
+            }
+
+            &.second {
+                display: flex;
+                flex-direction: column;
+
+                h3 {
+                    font-size: var(--font-size-xl);
+                    text-align: left;
+                    font-weight: normal;
+                    padding: 32px;
+                    width: 300px;
+                }
+
+                img {
+                    width: 100%;
+                }
+
+                div.explanation-button-container {
+                    margin-inline-start: 28px;
+                    margin-inline-end: 28px;
+                    margin-block-end: auto;
+                    margin-block-start: auto;
+
+                    p.donate-modal-explanation {
+                        text-align: left;
+                        margin-block-end: 20px;
+
+                        &:first-of-type {
+                            margin-block-end: 4px;
+                        }
+                    }
+
+                    & a.donate-btn {
+                        border-radius: 8px;
+                        background: var(--blue);
+                        color: var(--white);
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+
+        & .container-item:last-of-type {
+            margin-inline-end: 0px;
+            width: 70%;
+        }
+    }
+}

@@ -44,6 +44,7 @@ be = Belorusz
 bg = Bolgár
 bm = Bambara
 bn = Bengáli
+bo = Tibeti
 br = Breton
 bs = Bosnyák
 bxr = Burját
@@ -53,6 +54,7 @@ cak = Kacsikel
 ckb = Közép-kurd
 cnh = Hakha Chin
 co = Korzikai
+crh = Krími tatár
 cs = Cseh
 cv = Csuvas
 cy = Walesi
@@ -68,6 +70,7 @@ eo = Eszperantó
 es = Spanyol
 et = Észt
 eu = Baszk
+ewo = Ewondo
 fa = Perzsa
 ff = Fula
 fi = Finn
@@ -78,6 +81,7 @@ ga-IE = Ír
 gl = Galícia
 gn = Guarani
 gom = Goan konkani
+gu-IN = Gudzsaráti
 ha = Hausza
 he = Héber
 hi = Hindi
@@ -97,6 +101,7 @@ it = Olasz
 izh = Izsór
 ja = Japán
 jbo = Lojban
+jv = Jávai
 ka = Grúz
 kaa = Karakalpak
 kab = Kabil
@@ -117,6 +122,7 @@ lij = Ligur
 ln = Lingala
 lo = Lao
 lt = Litván
+ltg = Latgal
 lv = Lett
 mai = Maithili
 mdf = Moksa
@@ -138,15 +144,18 @@ nb-NO = Norvég bokmål
 nd = Ndebele (északi)
 ne-NP = Nepáli
 nhe = Keleti huastecai nahuatl
+nhi = Nyugat-Sierra Puebla-i navatl
 nia = Nias
 nl = Holland
 nn-NO = Norvég nynorsk
 nr = Ndebele (déli)
 nso = Északi szeszotó
+ny = Csicseva
 nyn = Nyankole
 oc = Okcitán
 om = Oromo
 or = Orija
+os = Oszét
 pa-IN = Pandzsábi
 pap-AW = Papiamento (Aruba)
 pl = Lengyel
@@ -163,6 +172,8 @@ sah = Szaha
 sat = Szantáli
 sc = Szárd
 scn = Szicíliai
+sco = Scots
+sd = Sindhi
 sdh = Déli kurd
 shi = Tachelhit
 si = Szingaléz
@@ -204,6 +215,7 @@ ve = Venda
 vec = Velencei
 vi = Vietnámi
 vot = Vót
+wep = Vesztfáliai
 wo = Volof
 xh = Xhosza
 yi = Jiddis
@@ -240,6 +252,7 @@ share-text = Segítsen megtanítani a gépeknek, hogyan beszélnek az igazi embe
 link-copied = Hivatkozás másolva
 back-top = Vissza a tetejére
 logout = Kijelentkezés
+donate = Adományozás
 
 ## Home Page
 
@@ -400,15 +413,19 @@ native-language =
 profile-form-add-accent = Új egyéni akcentus hozzáadása: „{ $inputValue }”
 profile-form-submit-save = Mentés
 profile-form-submit-saved = Mentve
-male = Férfi
-female = Nő
+male_masculine = Férfi/férfias
+female_feminine = Női/nőies
+intersex = Interszexuális
+transgender = Transznemű
+non-binary = Nem bináris
+do_not_wish_to_say = Nem szeretném megmondani
 # Gender
 other = Egyéb
 why-profile-title = Miért kell a profil?
-why-profile-text = Az, hogy megad néhány adatot magáról, hozzájárul ahhoz, hogy a hangminták, amiket a Common Voice részére beküld, hasznosabbak legyenek a hangfelismerő rendszerek számára, amelyek a pontosságuk növelésére használhatják ezeket az adatokat.
+why-profile-text = Az, hogy megad néhány adatot magáról, hozzájárul ahhoz, hogy a hangminták, amelyeket a Common Voice részére beküld, hasznosabbak legyenek a hangfelismerő rendszerek számára, amelyek a pontosságuk növelésére használhatják ezeket az adatokat.
 dashboard = Vezérlőpult
 build-profile = Összeállítási profil
-avatar = Avatár
+avatar = Profilkép
 goals = Célok
 settings = Beállítások
 edit-profile = Profil szerkesztése
@@ -442,10 +459,10 @@ help-variants-explanation = A változatok egy nyelv sajátos formáját jelentik
 
 browse-file-title = Képfájl feltöltése
 browse-file = Fogjon és vigyen elemet, vagy <browseWrap>Tallózzon</browseWrap>
-connect-gravatar = Kapcsolódás a Gravatarral
-gravatar_not_found = Nem található gravatar az e-mail címéhez
+connect-gravatar = Összekapcsolódás a Gravatarral
+gravatar_not_found = Nem található gravatar az e-mail-címéhez
 file_too_large = A kiválasztott fájl túl nagy
-avatar-uploaded = Profilkép feltöltése
+avatar-uploaded = Profilkép feltöltve
 max-file-size = legfeljebb { $kb }kb
 remove-avatar = Profilkép eltávolítása
 
@@ -563,7 +580,7 @@ about-get-involved-text-2 =
     Nagyszerű! Lépjen velünk kapcsolatba e-mailben vagy a <discourseLink>Discourse</discourseLink>
     fórumon, küldjön be hibákat <githubLink>GitHubon</githubLink>,
     vagy csatlakozzon a <matrixLink>Matrix</matrixLink> közösségi csevegéshez.
-about-stay-in-touch = Hogyan maradhatok kapcsolatban?
+about-stay-in-touch = Hogyan tarthatom a kapcsolatot?
 about-stay-in-touch-button = Regisztráció
 about-stay-in-touch-text-1 = <emailFragment>Regisztráljon</emailFragment> a levelezőlistánkra, hogy megtudja, hogyan vehet részt kampányokban, eseményekben és a Common Voice közös tervezési funkcióiban.
 about-stay-in-touch-text-2 = Találkozhat másokkal a Mozilla nyelvi közösségeiben, ha csatlakozik a <discourseLink>Discourse</discourseLink>-hoz, ha egy adott témához kapcsolódó beszélgetéseket szeretne, vagy a <matrixLink>Matrix</matrixLink>hoz, ha gyors tanácsokat szeretne kapni.
@@ -603,7 +620,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Hogyan működik a webhely lokalizációja?
 about-playbook-how-localize-content-1 = A Common Voice webhely fordítása a <strong>Pontoonon</strong> történik.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Hozzon létre egy fiókot</pontoonAccountLink> ha még nem rendelkezik vele. Majd válassza ki a nyelvet <strong>(„Team”)</strong> és a <pontoonCvLink>Common Voice</pontoonCvLink> projektet. Ott lesznek a lefordítandó fájlok. Kattintson egyre, majd megjeleníti a szavakat angolul, és egy dobozt, amelyben lefordíthatja.
-about-playbook-how-localize-content-3 = A fordítás angolból történik, de láthat <strong>javaslatokat</strong> más nyelveken is. Kattintson a <strong>Profil</strong> ikonra, majd a <strong>Settings</strong> hivatkozásra, és adja hozzá azokat a nyelveken, amelyeket beszéli. A jobb alsó sarokban lesz egy fordításokat tartalmazó lista, a <strong>Locales</strong> lapon. A fordítások egy nap után jelennek meg az oldalon.
+about-playbook-how-localize-content-3 = A fordítás angolból történik, de láthat <strong>javaslatokat</strong> más nyelveken is. Kattintson a <strong>Profil</strong> ikonra, majd a <strong>Beállítások</strong> hivatkozásra, és adja hozzá azokat a nyelveket, amelyeket beszéli. A jobb alsó sarokban lesz egy fordításokat tartalmazó lista, a <strong>Nyelvek</strong>. A fordítások egy nap után jelennek meg az oldalon.
 about-playbook-how-localize-content-4 = A webhely akkor áll készen az indításra, ha eléri a 75%-os készültséget.
 about-playbook-how-localize-content-5 = A segítséghez tekintse meg a magyarázó videónkat
 
@@ -613,7 +630,6 @@ about-playbook-how-add-sentences = Hogyan adhatok hozzá mondatokat?
 about-playbook-how-add-sentences-content-1 = A <strong>mondatgyűjtő</strong> egy eszköz, amely közkincsű mondatok gyűjtésére és ellenőrzésére szolgál. <scAccountLink>Létre kell hoznia egy fiókot</scAccountLink>. Majd adja hozzá a nyelvét a <strong>profiljában</strong>. <strong>Hozzáadhat</strong> mondatokat, vagy <strong>ellenőrizheti</strong> az előzőleg hozzáadottakat.
 about-playbook-how-add-sentences-content-2 = A mondatokat két embernek kell átnéznie és elfogadnia, hogy bekerüljenek a Common Voice-ba. <languageGuidelinesLink>Itt</languageGuidelinesLink> hozhat létre irányelveket az Ön nyelvéhez. A mondatoknak <licenseLink>közkincsnek</licenseLink>, és 15 szónál rövidebbnek kell lenniük. Megkérheti a szöveg tulajdonosát, hogy <waiverLink>CC0 alatt licencelje a lemondási folyamatunk használatával</waiverLink>, majd küldje el nekünk a commonvoice@mozilla.com címre.
 about-playbook-how-add-sentences-content-3 = Használhatja a <scraperLink>Mondatgyűjtőt</scraperLink>, hogy rövid mondatokat vegyen át a Wikipédiáról.
-about-playbook-how-add-sentences-content-4 = Az ellenőrzött mondatok szerdánként kerülnek exportálásra, és a következő kiadás után lesznek elérhetők.
 
 ## How to record quality
 
@@ -736,10 +752,12 @@ validated-hr-total = Ellenőrzött óra összesen
 overall-hr-total = Óra összesen
 cv-license = Licenc
 audio-format = Hangformátum
+dataset-splits = Megoszlások (kor és nem)
 number-of-voices = Hangok száma
 splits = Felosztások
 email-to-download = Adja meg az e-mail címét a letöltéshez
 why-email = <b>Miért szükséges az e-mail cím?</b> Előfordulhat, hogy a jövőben kapcsolatba kell lépnünk Önnel az adatkészlet változásával kapcsolatban, és ezt az e-mail cím biztosítja.
+why-donate-datasets-page = A Mozilla Common Voice a világ legváltozatosabb, közösségi forrásból származó nyílt beszéd-adatkészlete – és teljesen adományokból működünk. Évente majdnem egymillió dollárba kerül az adatkészletek kiszolgálása és a platform fejlesztése a ránk támaszkodó több mint 100 nyelvi közösség számára. Ha értékeli a nyílt, inkluzív adatokat – <b>adományozzon még ma!</b>
 confirm-size = Készen áll <b>{ $size }</b> letöltésének kezdeményezésére
 size-gigabyte = GB
 size-megabyte = MB
@@ -780,6 +798,15 @@ dataset-version = Verzió
 sha256-checksum-copied = SHA256 ellenőrzőösszeg másolva.
 sha256-checksum-copied-error = Az SHA256 ellenőrzőösszeg másolása sikertelen
 clipboard-not-supported = A vágólap nem támogatott
+no-information-available = Nem áll rendelkezésre információ
+dataset-metadata-sex = Nem
+# dataset metadata - age of contributor
+dataset-metadata-age = Életkor
+donate-modal-message = Az adatkészlet letöltése folyamatban van!
+dataset-donate-modal-heading = Tudta-e…
+donate-modal-explanation-1 = Évi majdnem egymillió dollárba kerül az adatkészletek tárolása és a platform fejlesztése a ránk támaszkodó több mint 100+ nyelvi közösség számára?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ha értékeli a nyílt, inkluzív adatokat – adományozzon még ma!</bold>
 
 ## Download Modal
 
@@ -856,6 +883,8 @@ language-section-in-progress = Folyamatban
 language-section-in-progress-new-description = Ezek a nyelvek jelenleg közösségi fejlesztés alatt állnak. A folyamatjelzők a <localizationGlossaryLink>webhely lokalizáció</localizationGlossaryLink> és a <sentenceCollectionGlossaryLink>mondatgyűjtemény</sentenceCollectionGlossaryLink> előrehaladását jelzi.
 language-section-launched = Elindítva
 language-section-launched-description = Az elindított nyelvek esetén a webhely már sikeresen <localizationGlossaryLink>lokalizálva lett</localizationGlossaryLink>, és elég <sentenceCollectionGlossaryLink>összegyűjtött mondat</sentenceCollectionGlossaryLink> van, hogy lehetővé tegye a <speakLink>Beszéd</speakLink> és <listenLink>Hallgatás</listenLink> közreműködéseket.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Legutóbb frissítve: { $lastUpdatedTimeStamp }
 languages-show-more = Több
 languages-show-less = Kevesebb
 language-meter-in-progress = Előrehaladás
@@ -874,6 +903,8 @@ action-click = Kattintson
 action-tap = Koppintson
 contribute = Közreműködés
 listen = Figyeljen
+write = Írás
+review = Ellenőrzés
 skip = Kihagyás
 shortcuts = Gyorsbillentyűk
 clips-with-count-pluralized =
@@ -919,6 +950,9 @@ listen-empty-state = Elfogytak az ellenőrzésre váró klipek ezen a nyelven: f
 listen-loading-error =
     Nem tudtunk meghallgatható hangfelvételeket lekérni.
     Próbálja újra később.
+listen-abort-title = Befejezi a klipek ellenőrzését?
+listen-abort-cancel = Ellenőrzés folytatása
+listen-abort-confirm = Ellenőrzés befejezése
 speak-empty-state = Elfogytak az felvételre váró mondatok ezen a nyelven…
 speak-empty-state-cta = Mondatok hozzáadása
 speak-loading-error =
@@ -937,6 +971,7 @@ target-segment-learn-more = További tudnivalók
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Hanggyűjtemény
+contribute-sentence-collection-nav-header = Mondatok gyűjtése
 
 ## Reporting
 
@@ -1563,7 +1598,7 @@ localization-select =
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerkapcsolatok
 partnerships-header-text = Sok kell ahhoz, hogy a Common Voice megvalósuljon. Nem egyedül csináljuk. A partnerünk szeretne lenni? Meghallgatnánk.
-partnerships-get-in-touch = Lépjen kapcsolatba
+partnerships-get-in-touch = Kapcsolatfelvétel
 partnerships-become-a-partner = Legyen Ön is Common Voice partner
 partnerships-community-header = Közösség, alkotók és civil társadalom
 partnerships-community-description = A közösség a Common Voice dobogó szíve – a világ minden tájáról érkeznek, nyelvi aktivisták, tudósok és művészek. A részvételről a <about>Névjegy</about> oldalon és a <community>Közösségi játékkönyvünkben</community> tudhat meg többet. Ha mélyebb szervezeti partnerségre vágyik, <emailFragment>vegye fel velünk a kapcsolatot</emailFragment>.
@@ -1596,3 +1631,199 @@ already-have-an-account = Már van fiókja? <login>Bejelentkezés</login>
 create-profile-button = Profil létrehozása
 # IMAGE TAGS
 img-alt-success-checkmark = sikert jelző pipa
+# GUIDELINES PAGE
+guidelines-header = Közreműködői irányelvek
+guidelines-header-subtitle = Értse meg, hogyan adhat hozzá mondatokat és hangklipeket a Common Voice adatkészlethez, illetve hogyan ellenőrizheti őket
+voice-collection = Hanggyűjtés
+sentence-collection = Mondatok gyűjtése
+varying-pronunciations = Változó kiejtések
+misreadings = Félreolvasások
+offensive-content = Sértő tartalom
+background-noise = Háttérzaj
+background-voices = Hangok a háttérben
+volume = Hangerő
+reader-effects = Felolvasói hatások
+just-unsure = Csak bizonytalan?
+example = Példa
+varying-pronunciations-explanation-1 = Minden akcentust szívesen várunk! Legyen nagyon óvatos, mielőtt azért utasít el egy klipet, mert az olvasó hibásan ejtett ki egy szót, rossz helyre tette a hangsúlyt, vagy figyelmen kívül hagyta a központozást. Sokféle kiejtést használnak, és nem biztos, hogy mindet hallotta a helyi közösségében. Erősen vegye figyelembe, hogy mások másképpen beszélnek.
+varying-pronunciations-explanation-2 = Másrészt, ha úgy gondolja, hogy az olvasó még soha nem találkozott a szóval, és tévesen tippelt a kiejtésére, akkor utasítsa el. Ha bizonytalan, használja a kihagyás gombot.
+offensive-content-explanation = A mondatok egy közösségi moderálási folyamat során kerülnek átvizsgálásra, azonban ez a folyamat nem tökéletes. Ha olyan mondatot lát vagy hall, amely sérti Önt – például mert sérti a <participationGuidelines>közösségi részvételi irányelveinket</participationGuidelines> –, akkor használja a jelentés gombot a felületen. Felkereshet minket a <emailFragment>commonvoice@mozilla.com</emailFragment> címen is.
+misreadings-explanation-1 = Számít, hogy az oldalon lévő összes szót helyesen olvassa-e fel. Hallgatáskor nagyon gondosan ellenőrizze, hogy pontosan az lett rögzítve, ami le lett írva; elutasítsa el, ha hozzáadott, összevont vagy kihagyott szavakat.
+misreadings-explanation-2 = A gyakori hibák közé tartoznak a következők:
+misreadings-explanation-3 = Hiányzó „A” vagy „Az” a felvétel elején.
+misreadings-explanation-4 = Hiányzó ragok a szavak végén.
+misreadings-explanation-5 = Olyan összevonások felolvasása, melyek nem szerepelnek a szövegben.
+misreadings-explanation-6 = Hiányzó utolsó szó a felvétel túl gyors befejezése miatt.
+misreadings-explanation-7 = Többszöri próbálkozás egy szó felolvasására.
+misreadings-example-1 = Kimegyünk kávézni.
+misreadings-example-2 = Elmegyünk kávézni.
+misreadings-example-3 = Megyünk kávézni.
+misreadings-example-4 = A dongó elszállt.
+misreadings-tip-1 = [Ennek kellene lennie: „Kimegyünk”]
+misreadings-tip-2 = [Hiányzik az igekötő]
+misreadings-tip-3 = [Nem egyező tartalom]
+background-noise-explanation = Hallania kell a felvétel minden szavát. Azt szeretnénk, ha a gépi tanulási algoritmusok képesek legyenek kezelni a különféle háttérzajokat, és még a viszonylag hangos zajok vagy a halk háttérzenék is elfogadhatók, feltéve, hogy nem akadályozzák abban, hogy hallja a szöveg egészét. A szöveg érthetőségét megakadályozó recsegések vagy „szakadások” azt jelentik, hogy el kell utasítania a klipet.
+background-noise-example-1 = A triász óriás dinoszauruszai.
+background-noise-example-2 = [Tüsszentés] A triász [köhögés] óriás dinoszauruszai.
+background-noise-example-3 = A triász óriás dinója [köhögés].
+background-noise-example-4 = [Recsegés] triász óriás [ropogás]-oszauruszai.
+background-noise-tip-1 = [háttérzaj szakítja meg]
+background-noise-tip-2 = [A szöveg egy része nem hallható]
+background-voices-explanation = Egy kis háttérzaj rendben van, de ha hallja, hogy valaki más is beszél, akkor a klipet el kell utasítani. Ez jellemzően akkor történik, ha a TV bekapcsolva maradt, vagy a közelben beszélgetés folyik.
+background-voices-example-1 = A triász óriás dinoszauruszai. [egy hang által felolvasva]
+background-voices-tip-1 = Jössz? [más hívta]
+volume-explanation = Természetes eltérések lesznek az olvasók hangereje között. Csak azokat utasítsa el, ahol a hangerő olyan magas, hogy szétesik a felvétel, vagy (ami gyakrabban előfordul) olyan halk, hogy az írott szöveg nélkül nem érti, hogy pontosan mit is olvas fel.
+reader-effects-explanation = A legtöbb felvételen az emberek a természetes hangjukon beszélnek. Elfogadhatja az alkalmi nem szokásos felvételeket, amelyen kiabálnak, suttognak vagy csak „drámai” hangok olvassák fel. Viszont a felénekelt vagy számítógéppel szintetizált felvételeket utasítsa el.
+just-unsure-explanation = Ha olyan dologgal találkozik, amelyre ezek az irányelvek nem vonatkoznak, akkor szavazzon a legjobb megítélése szerint. Ha valóban nem tud dönteni, akkor használja a kihagyás gombot, és folytassa a következő felvétellel.
+still-have-questions = További kérdése van?
+contact-common-voice = Lépjen kapcsolatba a Common Voice csapattal
+public-domain = Közkincs
+citing-sentences = Mondatok idézése
+adding-sentences = Mondatok hozzáadása
+reviewing-sentences = Mondatok ellenőrzése
+sentence-domain =
+    .label = Mondatdomén
+public-domain-explanation-1 = Nagyon fontos, hogy minden szöveges mondat <publicDomain>közkincs</publicDomain> (<cc0>cc0</cc0>) legyen, mivel a Common Voice adatkészlet cc0 licenc alatt kerül kiadásra. Csak akkor töltsön fel mondatot, ha biztos benne, és mindig adja meg a releváns idézetet.
+public-domain-explanation-2 = Egy hasznos beszédfelismerő motor építéséhez a legjobb mondatok köznyelviek, és modern szóhasználatúak. Néhány ötlet a mondatok előállításához:
+public-domain-explanation-3 = Alkosson modern, köznyelvi mondatokat egyedül, barátaival vagy nyelvi közösségével – például egy „write-a-thon” segítségével
+public-domain-explanation-4 = Lépjen kapcsolatba szerzőkkel, drámaírókkal vagy forgatókönyvírókkal, és kérdezze meg, hogy hajlandóak lennének-e munkáik egy részét közkincsként felajánlani
+public-domain-explanation-5 = Keressen olyan szövegeket, amelyekre a szerzői jog már nem vonatkozik – például a legtöbb 1920 előtt megjelent könyvet
+public-domain-explanation-6 = Lépjen kapcsolatba kormányzatokkal, nonprofit vagy médiaszervezetekkel, és kérdezzen rá, hogy a webes tartalmuk, jelentéseik vagy más tartalmuk felajánlható-e közkincsként
+citing-sentences-explanation-1 = Fontos, hogy használja az idézeteket, mert így ellenőrizhetjük, hogy a mondatok közkincsek-e, és hogy nem vonatkozik-e rájuk szerzői jogi korlátozás.
+citing-sentences-subheader-websites = Webhelyek
+citing-sentences-subheader-websites-explanation = Felveheti a weboldalt, például „Common Voice – https://commonvoice.mozilla.org/”
+citing-sentences-subheader-academic-reference = Akadémiai hivatkozás
+citing-sentences-subheader-academic-reference-explanation =
+    Használhat akadémiai hivatkozási stílust, például a Harvard-stílust:
+    „Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)”
+citing-sentences-subheader-offline-sources = Offline források
+citing-sentences-subheader-offline-sources-explanation = Az interneten nem elérhető közkincsű szövegek esetén használhatja az akadémiai hivatkozási stílust, például a Harvard-stílust: „Jess (2021) Saját nyilvános licencű költeményeim”
+citation =
+    .label = Idézet
+self-citation = Saját idézés
+self-citation-explanation = Így hivatkozik saját magára, ha a tartalmat saját maga írta.
+adding-sentences-subheader-length = { "" }
+adding-sentences-subheader-length-explanation = A mondatnak 15 szónál rövidebbnek kell lennie.
+adding-sentences-subheader-spelling-punctuation = Helyesírás és központozás
+adding-sentences-subheader-spelling-punctuation-explanation = A mondatot helyesen kell leírni.
+adding-sentences-subheader-speakable = Kimondható
+adding-sentences-subheader-speakable-explanation = A legjobb mondatok természetesek és társalgási jellegűek – könnyen olvashatónak kell lenniük. Bár a fonetikai sokféleség és a mondatok különböző szavai fontosak, igyekszünk a mondatok rögzítését is a lehető legvonzóbbá és szórakoztatóbbá tenni az önkéntes közösség számára.
+adding-sentences-subheader-numbers = Számok
+adding-sentences-subheader-numbers-explanation = A forrásszövegben ideális esetben ne legyenek számok, mert problémákat okozhatnak a hangos felolvasásnál. A számok kiolvasása a környezetüktől függ, és zavart okozhatnak az adatkészletben. Például a „250” olvasható „kétszázötvenként” vagy „kettőszázötvenként” is.
+adding-sentences-subheader-abbreviations = Rövidítések és mozaikszavak
+adding-sentences-subheader-abbreviations-explanation = Az olyan rövidítéseket és mozaikszavakat, mint a „USA” vagy az „ICE”, kerülni kell a forrásszövegben, mert előfordulhat, hogy azok kiejtése nem esik egybe a leírásukkal. Továbbá, egy rövidítésnek több helyes olvasata is lehet.
+adding-sentences-subheader-punctuation = Központozás
+adding-sentences-subheader-punctuation-explanation = Speciális szimbólumokat és írásjeleket csak akkor szabad használni, ha feltétlenül szükséges. Például egy aposztróf szerepel az olyan angol szavakban, mint a „don't” és a „we're”, ezeknek szerepelnie kell a forrásszövegben, de nem valószínű, hogy valaha is szükség lesz az olyan speciális szimbólumra, mint a „@” vagy a „#”.
+adding-sentences-subheader-special-characters = Speciális karakterek és idegen betűk
+adding-sentences-subheader-special-characters-explanation-1 = A betűknek érvényesnek kell lenniük a beszélt nyelven. Például a „ж” egy betű az orosz ábécében, de soha nem használják az angolban, ezért soha nem szerepelhet semmilyen angol forrásszövegben.
+adding-sentences-subheader-special-characters-explanation-2 = A nyelveknek saját ellenőrzési szabályaik lehetnek, további követelményekkel a honosításukkor. Ha egy nyelvhez nincs konkrét ellenőrzőfájl, akkor az angol szabályok jelennek meg a közreműködők számára.
+adding-sentences-subheader-offensive-content = Sértő tartalom
+adding-sentences-subheader-offensive-content-explanation = Ha a mondat sértő vagy felháborító – például kifejezetten szókimondó tartalom miatt, vagy megsérti a <communityGuidelines>közösségi részvételi irányelveinket</communityGuidelines> –, akkor a mondatot el kell utasítania. A probléma eszkalálásához felveheti velünk a kapcsolatot a <emailFragment>commonvoice@mozilla.com</emailFragment> címen.
+reviewing-sentences-explanation-1 = Ha a mondat megfelel a fenti feltételeknek, kattintson az „Igen” gombra.
+reviewing-sentences-explanation-2 = Ha a mondat nem felel meg a fenti feltételeknek, kattintson a „Nem” gombra.
+reviewing-sentences-explanation-3 = Ha nem biztos a mondattal kapcsolatban, ki is hagyhatja, és továbbugorhat a következőre.
+reviewing-sentences-explanation-4 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében.
+domain-explanation = A domén a mondat témakörére utal. Jelenleg ezek közül választhat:
+
+## WRITE PAGE
+
+write-instruction = Közkincsű mondat hozzáadása <icon></icon>
+write-page-subtitle = Az itt beküldött mondatok egy nyilvánosan elérhető, cc-0 licenc alatt közzétett adatkészlethez adódnak.
+sentence =
+    .label = Mondat
+sentence-input-value = Írja ide a közkincsű mondatot
+citation-input-value = A mondat forrása
+citation =
+    .label = Idézet
+sc-write-submit-confirm = Megerősítem, hogy ez a mondat <wikipediaLink>közkincs</wikipediaLink>, és engedéllyel töltöm fel.
+sc-review-write-title = Milyen mondatokat adhatok hozzá?
+new-sentence-rule-1 = <noCopyright>Nincs szerzői jogi</noCopyright> korlátozás (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Kevesebb mint 15 szó
+new-sentence-rule-3 = Használjon helyes nyelvtant
+new-sentence-rule-4 = Írjon helyesen, és használjon központozást
+new-sentence-rule-5 = Ne legyenek benne számok és speciális karakterek
+new-sentence-rule-6 = Ne legyenek benne idegen betűk
+new-sentence-rule-7 = Idézze megfelelően
+new-sentence-rule-8 = Ideálisan természetes és társalgási jellegű (a mondatnak könnyen olvashatónak kell lennie)
+how-to-cite = Hogyan kell idézni?
+how-to-cite-explanation-bold = Idézzen a teljes webcím-hivatkozással vagy a mű teljes nevével.
+how-to-cite-explanation = Ha ezek a saját szavai, akkor csak mondja, hogy <italicizedText>„saját idézet”</italicizedText>. Tudnunk kell, hogy hol találta a tartalmat, hogy ellenőrizhessük, hogy valóban közkincs-e, és nem vonatkoznak-e rá szerzői jogi korlátozások. Az idézéssel kapcsolatos további információkért lásd az <guidelinesLink>Irányelvek oldalt</guidelinesLink>.
+guidelines = Irányelvek
+contact-us = Kapcsolat
+add-sentence-success = 1 mondat összegyűjtve
+add-sentence-error = Hiba a mondat hozzáadásakor
+required-field = Töltse ki ezt a mezőt.
+single-sentence-submission = Egy mondatos beküldés
+bulk-sentence-submission = Mondatok tömeges beküldése
+single-sentence = Egyetlen mondat
+bulk-sentences = Több mondat
+sentence-domain-select =
+    .label = Mondatdomén
+# Sentence Domain dropdown option
+agriculture = Mezőgazdaság
+# Sentence Domain dropdown option
+automotive = Autóipar
+# Sentence Domain dropdown option
+finance = Pénzügy
+# Sentence Domain dropdown option
+food_service_retail = Élelmiszer, szolgáltatás és kiskereskedelem
+# Sentence Domain dropdown option
+general = Általános
+# Sentence Domain dropdown option
+healthcare = Egészségügy
+# Sentence Domain dropdown option
+history_law_government = Történelem, jog és kormányzás
+# Sentence Domain dropdown option
+language_fundamentals = Nyelvi alapok (például számok, betűk, pénz)
+# Sentence Domain dropdown option
+media_entertainment = Média és szórakoztatóipar
+# Sentence Domain dropdown option
+nature_environment = Természet és környezetvédelem
+# Sentence Domain dropdown option
+news_current_affairs = Hírek és aktuális témák
+# Sentence Domain dropdown option
+technology_robotics = Technológia és robotika
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Ellenőrizze <icon></icon>, hogy ez egy nyelvileg helyes mondat-e?
+sc-review-rules-title = A mondat megfelel az irányelveknek?
+sc-review-empty-state = Jelenleg nincsenek ellenőrizendő mondatok ezen a nyelven.
+report-sc-different-language = Más nyelv
+report-sc-different-language-detail = Ez más nyelven íródott, mint amit ellenőrzök.
+sentences-fetch-error = Hiba történt a mondatok lekérése során
+review-error = Hiba történt a mondat ellenőrzése során
+review-error-rate-limit-exceeded = Túl gyorsan halad. Szánjon rá egy kis időt a mondat helyességének ellenőrzésére.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Néhány nagy változtatást vezetünk be
+sc-redirect-page-subtitle-1 = A mondatgyűjtő átköltözik a központi Common Voice platformra. Mostantól a Common Voice-on <writeURL>írhat</writeURL> mondatokat vagy <reviewURL>ellenőrizheti</reviewURL> az egymondatos beküldéseket.
+sc-redirect-page-subtitle-2 = Kérdezzen a <matrixLink>Matrixon</matrixLink>, a <discourseLink>Discourse-on</discourseLink> vagy <emailLink>e-mailben</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Közkincsű mondatok feltöltése <icon></icon>
+sc-bulk-upload-instruction = Húzza ide a fájlt, vagy <uploadButton>kattintson a feltöltéshez</uploadButton>
+sc-bulk-upload-instruction-drop = A feltöltéshez vigye ide a fájlt
+bulk-upload-additional-information = Ha további információkat szeretne megadni erről a fájlról, vegye fel velünk a kapcsolatot a <emailFragment>commonvoice@mozilla.com</emailFragment> címen
+template-file-additional-information = Ha további információkat szeretne megadni erről a fájlról, melyek nem szerepelnek a sablonban, akkor vegye fel velünk a kapcsolatot a <emailFragment>commonvoice@mozilla.com</emailFragment> címen
+try-upload-again = Próbálja újra a fájl idehúzásával
+try-upload-again-md = Próbálja újból feltölteni
+select-file = Fájl kiválasztása
+select-file-mobile = Válassza ki a feltöltendő fájlt
+accepted-files = Elfogadott fájltípusok: csak .tsv
+maximum-file-size = Maximális fájlméret: 25 MB
+what-needs-to-be-in-file = Minek kell lennie a fájlomban?
+what-needs-to-be-in-file-explanation = Nézze meg a <templateFileLink>sablonfájlunkat</templateFileLink>. A mondatoknak szerzői jogoktól mentesnek (CC0 vagy a beküldő eredeti munkája), valamint egyértelműnek, nyelvtanilag helyesnek és könnyen olvashatónak kell lenniük. A beküldött mondatok felolvasásának nagyjából 10-15 másodpercet kellene igénybe vennie, valamint kerülje a számok, tulajdonnevek és speciális karakterek használatát.
+upload-progress-text = Feltöltés folyamatban…
+sc-bulk-submit-confirm = Megerősítem, hogy ezek a mondatok <wikipediaLink>közkincsek</wikipediaLink>, és engedéllyel töltöm fel őket.
+bulk-upload-success-toast = Mondatok tömeges feltöltése
+bulk-upload-failed-toast = A feltöltés sikertelen, próbálja újra.
+bulk-submission-success-header = Köszönjük, hogy közreműködött a tömeges feltöltésével!
+bulk-submission-success-subheader = Segít a Common Voice-nak elérni a napi mondatokkal kapcsolatos céljait!
+upload-more-btn-text = Tölt fel további mondatokat?
+file-invalid-type = Érvénytelen fájl
+file-too-large = A fájl túl nagy
+file-too-small = A fájl túl kicsi
+too-many-files = Túl sok fájl

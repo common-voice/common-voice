@@ -77,6 +77,16 @@
 }
 
 .record-abort {
+    &.inner {
+        @media (--md-up) {
+            min-height: 55vh;
+        }
+
+        @media (--sm-down) {
+            height: 100vh;
+        }
+    }
+
     & .title {
         margin-top: 58px;
         margin-bottom: 10px;

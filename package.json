@@ -11,10 +11,11 @@
     "maintenance"
   ],
   "engines": {
-    "node": ">=12"
+    "node": ">=18"
   },
   "devDependencies": {
-    "@fluent/syntax": "0.18.1",
+    "@fluent/syntax": "0.19.0",
+    "@types/node": "18.18.11",
     "@typescript-eslint/eslint-plugin": "5.55.0",
     "@typescript-eslint/parser": "5.55.0",
     "concurrently": "5.3.0",
@@ -30,11 +31,14 @@
     "node-fetch": "2.6.9",
     "prettier": "2.6.0",
     "pretty-quick": "3.1.3",
-    "typescript": "4.0.2"
+    "typescript": "5.2.2"
   },
   "resolutions": {
     "browserslist": "^4.16.5",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "webpack": "5.76.3",
+    "loader-utils": "^2.0.3",
+    "@babel/traverse": "^7.23.3"
   },
   "scripts": {
     "clean": "rm -r node_modules && rm -r common/node_modules && rm -r server/node_modules && rm -r web/node_modules",
@@ -50,7 +54,7 @@
     "lint:web": "cd web && yarn lint",
     "prettier": "prettier \"**/*.{ts,tsx}\" --write",
     "start": "yarn build:common && concurrently -p \"[{name}]\" -n \"CO,BE,FE\" -c \"bgYellow.bold,bgBlue.bold,bgMagenta.bold,bgCyan.bold\" \"cd common && yarn dev\" \"cd server && yarn start\" \"cd web && yarn dev\"",
-    "start:prod": "yarn build:common && node server/js/main.js",
+    "start:prod": "yarn build:common && node --trace-warnings server/js/main.js",
     "start:maint": "cd maintenance && yarn dev",
     "test": "yarn build:common && concurrently --kill-others-on-fail \"cd web && yarn test\" \"cd server && SERVER_CONFIG_PATH='../config.json' yarn test\""
   },
@@ -59,5 +63,5 @@
       "pre-commit": "pretty-quick --staged"
     }
   },
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "yarn@1.22.21"
 }

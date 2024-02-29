@@ -14,10 +14,12 @@ email-opt-in-info-sub-with-challenge = 來定電子批，比論講挑戰、目�
 email-opt-in-privacy-v2 = 若欲收電子批，就表示你同意 Mozilla 照<privacyLink>隱私權保護政策</privacyLink>所說明的方式來處理遮的資訊。
 indicates-required = * 表示彼个欄位必須愛寫
 not-available-abbreviation = 無適用
-banner-error-slow-1 = 感謝您使用 Common Voice，很抱歉目前網站有點慢。
-banner-error-slow-2 = 我們收到大量連線流量，目前正在分析相關問題。
+banner-error-slow-1 = 感謝汝使用 Common Voice，失禮阮這陣網站小可仔慢。
+banner-error-slow-2 = 收着大量接線流量，阮隨共相關問題開拆。
 banner-error-slow-link = 狀態頁面
 error-something-went-wrong = 歹勢，有一屑仔物仔怪怪
+error-clip-upload = 上傳這段聲音失敗，欲繼續無？
+error-clip-upload-server = 上傳這段聲音到服侍器失敗，閣來上傳抑是等一下閣試一改。
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -40,10 +42,13 @@ ba = 巴什噶爾語
 bas = 巴薩語
 be = 白俄羅斯語
 bg = 保加利亞語
+bm = 班巴拉語
 bn = 孟加拉語
+bo = 藏語
 br = 布里多尼語
 bs = 波士尼亞語
 bxr = 布里亞特語
+byv = 梅敦巴語
 ca = 加泰隆語
 cak = 喀克奇可語
 ckb = 中庫德語
@@ -53,9 +58,11 @@ cs = 捷克語
 cv = 楚瓦什語
 cy = 威爾斯語
 da = 丹麥語
+dag = 達巴尼語
 de = 德語
 dsb = 下索布語
 dv = 馬爾地夫語
+dyu = 竇烏拉語
 el = 希臘語
 en = 英語
 eo = 世界語（Esperanto）
@@ -75,6 +82,7 @@ gom = 果亞康卡尼語
 ha = 豪薩語
 he = 希伯來語
 hi = 印地語
+hil = 希利蓋農語
 hr = 克羅埃西亞語
 hsb = 上索布語
 ht = 海地語
@@ -89,6 +97,7 @@ is = 冰島語
 it = 意大利語
 izh = 伊喬里亞語
 ja = 日語
+jbo = 邏輯語
 ka = 喬治亞語
 kaa = 卡拉卡爾帕克語
 kab = 卡拜爾語
@@ -97,6 +106,7 @@ ki = 吉庫尤語
 kk = 哈薩克語
 km = 高棉語
 kmr = 庫曼吉庫德語
+kn = 康納達語
 knn = 康卡尼語（天城文）
 ko = 韓語
 kpv = 科米-齊良語
@@ -105,6 +115,8 @@ ky = 吉爾吉斯語
 lb = 盧森堡語
 lg = 盧干達語
 lij = 利古里亞語
+ln = 林格拉語
+lo = 寮語
 lt = 立陶宛語
 lv = 拉脫維亞語
 mai = 邁蒂利語
@@ -124,12 +136,19 @@ my = 緬甸語
 myv = 厄茲亞語
 nan-tw = 臺語
 nb-NO = 書面挪威語
+nd = 北恩德貝勒語（辛巴威）
 ne-NP = 尼泊爾語
+nhe = 墨西哥東華斯特的納華特語
+nhi = 西部山區普埃布拉納瓦特語
 nia = 尼亞斯語
 nl = 荷蘭語
 nn-NO = 新挪威語
+nr = 南恩德貝勒語（南非）
+nso = 北索桃語
+ny = 欣亞尼亞語
 nyn = 尼安科萊語
 oc = 奧西坦語
+om = 奧羅莫語
 or = 奧里亞語
 pa-IN = 旁遮普語
 pap-AW = 帕皮亞門托語（阿魯巴）
@@ -147,14 +166,18 @@ sah = 薩哈語
 sat = Santali（Ol Chiki 字）
 sc = 薩丁尼亞語
 scn = 西西里語
+sdh = 南庫德語
 shi = 施盧赫語
 si = 僧加羅語
 sk = 斯洛伐克語
 skr = 沙賴基語
 sl = 斯洛維尼亞語
+snk = 索寧克語
 so = 索馬利亞語
 sq = 阿爾巴尼亞語
 sr = 塞爾維亞語
+ss = 史瓦濟蘭語
+st = 塞索托語
 sv-SE = 瑞典語
 sw = 斯瓦希里語
 syr = 敘利亞語
@@ -166,26 +189,35 @@ ti = 提格利尼亞語
 tig = 提格雷語
 tk = 土庫曼語
 tl = 塔加祿語（菲律賓）
+tn = 札那語
 tok = 道本語
 tr = 土耳其語
+ts = 希宋加語
 tt = 韃靼語
 tw = 特威語 (西非)
 ty = 大溪地語
+tyv = 圖瓦語
 uby = 尤比克語
 udm = 烏德莫特語
 ug = 維吾爾語
 uk = 烏克蘭語
 ur = 烏爾都語
 uz = 烏茲別克語
+ve = 齊溫達語
 vec = 威尼斯語
 vi = 越南語
 vot = 沃特語
+wo = 渥魯夫語
+xh = 科薩語（南非）
 yi = 意第緒語
 yo = 約魯巴語 (奈及利亞)
 yue = 粵語
+zgh = 塔馬塞特語
 zh-CN = 華語（中國）
 zh-HK = 廣東話（香港）
 zh-TW = 華語（台灣）
+zu = 祖魯語（南非）
+zza = 扎扎語
 
 # [/]
 
@@ -204,7 +236,7 @@ privacy = 隱私權
 terms = 使用條款
 cookies = Cookie
 faq = 捷看的問題
-content-license-text = 內容依照 <licenseLink>Creative Commons 條款</licenseLink>授權大眾使用
+content-license-text = 內容照 <licenseLink>Creative Commons 條款</licenseLink> 來授權予大眾使用
 share-title = 共阮鬥揣人來錄音！
 share-text = 請到 { $link } 來提供你的聲音，來幫贊阮教機器，予機器了解咱人是按怎講話的。
 link-copied = 共連結複製好勢囉
@@ -219,14 +251,14 @@ home-cta = 有話大聲說，在此獻聲！
 wall-of-text-start = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有大量的語音數據。
 wall-of-text-more-mobile = 大部分由大公司使用的資料，並未開放給大多數人使用。我們覺得這樣會阻礙創新，所以創立了想讓每個人都可以自由來進行語音識別的 Common Voice 專案。
 wall-of-text-more-desktop =
-    現在起，您可以將自己的聲音捐給我們，以幫助我們打造開放原始碼的語音資料庫，讓任何人都得以為裝置與網際網路打造創新的應用程式。<lineBreak></lineBreak>
-    只要朗讀一段文字，即可幫助機器了解人們如何說話，也可看看其他貢獻者的心血結晶來協助改善品質，就是這麼簡單！
+    對這陣開始，汝會當共家己的聲寄予阮，來幫贊阮建設開放原始碼的語音資料庫，予大眾攏會使為裝置佮網際網路建設創新的APP。<lineBreak></lineBreak>
+    只愛朗讀句話，隨鬥機器了解人類是按怎說話，嘛通檢查覓仔其他自願者的錄音來鬥阮改良品質，着遐呢簡單！
 wall-of-text-first = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有大量的語音數據。
 wall-of-text-second = 各大公司使用的資料，通常並未開放給大眾使用。我們認為這樣會阻礙創新，所以創立了讓每個人都可以自由進行語音識別的 Common Voice 專案。
 show-wall-of-text = 了解更多
 help-us-title = 來共咱鬥檢查語句！
-help-us-explain = 按下播放按鈕，聽一聽，然後告訴我們: 他們正確說出下面的句子了嗎？
-no-clips-to-validate = 看來這個語言沒有任何片段可聽。請幫助我們錄下一些片段。
+help-us-explain = 共播送鈕揤落，聽看覓，然後報予咱知：甘有共紲落來的語句講對？
+no-clips-to-validate = 看起來這個語言無任何音檔通聽。請共咱鬥錄一寡音檔。
 vote-yes = 著
 vote-no = 毋著
 toggle-play-tooltip = 共 { shortcut-play-toggle } 揤落就會當切換放送模式
@@ -312,7 +344,6 @@ shortcut-discard-ongoing-recording-label = 捨棄目前錄音
 shortcut-submit = 轉去
 shortcut-submit-label = 送出片節
 request-language-text = Common Voice 敢揣無你的語言？
-request-language-text-learn = 了解如何在此要求！
 request-language-button = 要求新的語言
 
 ## ProjectStatus
@@ -380,6 +411,7 @@ why-demographic-explanation-2 = 匿名化的使用者資料，如年齡、性別
 accept-privacy = 我同意你依照 Mozilla 的<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊
 accept-privacy-title = 隱私權保護政策
 login-identity = 登入身分
+login = 登錄
 login-signup = 登入 / 開新口座
 edit = 編輯
 email-subscriptions = 電子郵件訂閱
@@ -448,7 +480,6 @@ faq-why-different-speakers-a =
     大多數的語音資料庫的語音來源偏重於某群特定人口，造成結果偏向於<articleLink>男性與中產階級</articleLink>。而在訓練資料集中，各種不同的口音與方言會與被邊緣化的人群相關連起來。許多機器也很難理解女性的聲音。
     這就是為什麼我們的語音資料庫應該海納百川，收集各種語音！
 faq-why-my-lang-q = 為啥物猶閣無我的語言？
-faq-why-my-lang-new-a = Mozilla 不特別偏好哪種語言，然而 Common Voice 是一個純社群發起的專案，需要<multilangLink>幾個步驟才能新增語言</multilangLink>並開始收集語音片段。首先需要完成翻譯 Common Voice 網站，這樣社群成員才能用自己的語言進行貢獻。次之，我們需要大量的無版權語句，讓人們可以大聲說出來。當兩個條件都滿足後 Common Voice 即可「上線」，讓人們開始錄音，並驗證其他人所錄下的片段。若您想要協助準備讓新語言上限，歡迎到<sentenceCollectorLink>語句收集工具</sentenceCollectorLink>開始幫忙。
 faq-what-quality-q = 錄音品質要到什麼等級，才能用於資料集中？
 faq-what-quality-a = 我們希望 Common Voice 資料集能夠反映出語音轉文字引擎就算在野外也會聽到的聲音，所以我們希望能夠收集各種環境與錄音品質下的片段。除了各種說話者以外，若資料集中包含各種語音品質的片段，可讓語音轉文字引擎處理各種現實環境下的狀況，例如背景中有人在講話，或是有車輛的噪音。只要您的片段能讓人足夠聽得懂，即可收錄至資料集中。
 faq-why-10k-hours-q = 為什麼每個語言有一萬小時的音檔驗證目標？
@@ -518,12 +549,6 @@ about-dataset-new = Common Voice 資料集
 about-dataset-new-text = Common Voice 資料集包含數十萬筆語音樣本，可幫助開發者打造語音識別工具。
 about-clip-graveyard = 片段回收桶
 about-clip-graveyard-text = 回收桶中包含無法進入 Common Voice 資料集的語音片段。與資料集一樣，回收桶內容也有提供下載。
-about-partners = 夥伴
-about-become-a-partner = 成為夥伴
-about-partnership =
-    Common Voice 是一套由眾人鼎力相助的專案。我們依賴由夥伴與貢獻者所組成的社群，來打有史以來最大的開放原始碼語音資料集。
-    
-    特別感謝下列人員與組織單位，協助本專案:
 about-get-involved = 參與我們
 about-get-involved-text-2 =
     想要幫忙讓 Common Voice 變得更棒嗎？
@@ -553,9 +578,7 @@ about-playbook-what-is-language-content-3 = 某些語言有許多不同的文法
 
 about-playbook-how-add-language = 要如何加入語言？
 about-playbook-how-add-language-content-1 = 首先請先確認您的語言是否<languageLink>已經存在</languageLink>。若還不存在的話，請<strong>將網站翻譯成您的語言，並且收集語句</strong>。
-about-playbook-how-add-language-content-2 = <translateVideo>使用</translateVideo> Pontoon</pontoonLink> <strong>來翻譯網站</strong>。Pontoon 上有許多語言，若沒有您想參與貢獻的語言，可以<pontoonRequestLink>要求加入新語言</pontoonRequestLink>。然後再到 <repoLink>GitHub</repoLink> 上面請 Common Voice 加入此專案。若需更多資訊請點擊了解<localizationFragment>網站翻譯流程</localizationFragment>。
-about-playbook-how-add-language-content-3 = <scVideo>使用</scVideo><scLink>Sentence Collector</scLink><strong>來收集句子</strong>。
-about-playbook-how-add-language-content-4 = 您可以在此<scLinkAdd>加入少量</scLinkAdd>的句子，或是透過 Github 發需求來<bulkImportDocsLink>批次大量匯入</bulkImportDocsLink>。請務必記得所有句子都必須使用 <licenseLink>CC0（或公眾領域）</licenseLink>授權條款，或是由您自行撰寫。若需更多資訊，請閱讀<scFragment>收集句子</scFragment>段落。
+about-playbook-how-add-language-translating-heading = 翻譯這个網站
 
 ## How does localization work
 
@@ -619,10 +642,6 @@ about-playbook-how-project-governance-content-4 = 社群參與決策。
 about-playbook-how-project-governance-content-5 = 價值與重視。
 about-playbook-how-project-governance-content-6 = 相互問責。
 about-playbook-how-project-governance-content-7 = <governanceLink>更加了解我們如何治理本專案</governanceLink>
-mycroft-title = Mycroft Ai
-mycroft-subtitle = 人工智慧
-mycroft-description = Mycroft 是全球第一套的開放原始碼語音助理，不論是在電腦、車子、Raspberry Pi 或是任何地方都能運作。
-mycroft-secondary-description = 這是一套可以自由混搭、延伸、改進的開放原始碼軟體。Mycroft 可以用於科學專案，或企業軟體應用等各種情境中。
 
 ## Glossary
 
@@ -690,6 +709,7 @@ datasets-positioning =
     
     您可於此頁面找到其他的開放原始碼語音資料集。隨 Common Voice 持續成長，我們也會於此處張貼更新資訊。
 language = 語言
+download-dataset-header = 下載資料集
 # File size in gigabytes
 size = 大小
 validated-hr-total = 總驗證時數
@@ -803,7 +823,6 @@ language-search-input =
 language-speakers = 使用者數
 localized = 已翻譯
 sentences = 句子
-total-hours = 已驗證時數
 
 ## Contribution
 
@@ -866,6 +885,9 @@ target-segment-generic-card = 您正在朝目標段落數貢獻錄音
 target-segment-first-banner = 幫助 Common Voice 設定 { $locale } 的第一組目標段落數
 target-segment-add-voice = 加入您的聲音
 target-segment-learn-more = 了解更多
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1452,3 +1474,14 @@ sc-validation-no-abbreviations = 句子不應包含縮寫
 
 localization-select =
     .label = 選擇語言 / 語系
+partnerships-governments-header = 政府
+partnerships-academia-header = 大學、學術機關佮學者
+sentence-collection = 語句集合
+new-sentence-rule-1 = <noCopyright>無版權制限</noCopyright> (<cc0>cc-0 公眾授權</cc0>)
+new-sentence-rule-2 = 較少 15 字
+new-sentence-rule-3 = 漢字為主，免句號
+new-sentence-rule-4 = 台羅參考發音著用大括號標
+new-sentence-rule-5 = 例：多謝你（To-siā--lí）
+new-sentence-rule-6 = 英數字無含（數字通改漢字大寫）
+new-sentence-rule-7 = 出處愛標明（歌詞、台詞、市賣冊啥攏袂使）
+new-sentence-rule-8 = 結構簡單好讀（複雜个句著節做兩句拜託）

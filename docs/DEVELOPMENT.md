@@ -10,6 +10,7 @@ The project is organized into the following directories:
 - _scripts_: Some scripts for managing data
 - _server_: The server-side app logic, written in [TypeScript](http://www.typescriptlang.org/).
 - _web_: The Common Voice website files, written in [TypeScript](http://www.typescriptlang.org/). We use [React](https://reactjs.org/) to build the website.
+- _bundler_: Service that is creating the dataset release bundles for Common Voice, written in [TypeScript](http://www.typescriptlang.org/).
 
 ## Docker
 
@@ -26,19 +27,26 @@ You can find configurable options, like the port Common Voice is running on, in 
 
 If you're using Docker, you should save this file as `.env-local-docker` (see `.env-local-docker.example`) in the root directory of the project, and it will be formatted like unix env values, with each key having a `CV_` prefix. For example:
 
-```
+```Dotenv
 CV_DB_ROOT_PASS="root"
 CV_MYSQLHOST="db"
 CV_IMPORT_SENTENCES="true"
 ```
 
-> You can copy the example with `cp .env-local-docker.example .env-local-docker`.
+Copy the example with:
+
+```sh
+> cd common-voice
+> cp .env-local-docker.example .env-local-docker
+```
+
+This will instruct your application to import the sentences located in `server/data/*` on start up. This step is _IMPORTANT_ to be able to contribute to specific languages.
 
 ### Setup steps
 
 Run the following commands:
 
-```
+```sh
 > cd common-voice
 > docker-compose up
 ```
@@ -46,13 +54,32 @@ Run the following commands:
 This is going to:
 
 - Launch a mysql instance configured for `common-voice`
-- Launch an s3proxy instance to store files locally and avoid going through setting up AWS S3.
-- Mount the project using a Docker volume to allow reflecting changes to the codebase directly to the container.
+- Launch a fake GCP Cloud Storage instance to store files locally and avoid going through setting up GCP Cloud Storage
+- Mount the project using a Docker volume to allow reflecting changes to the codebase directly to the container
+- Import sentences from `server/data/*`
 - Launch `common-voice` server
+- Launch `bundler` service
 
-You can visit the website at [http://localhost:9000](http://localhost:9000).
+Once you've have imported the sentences for all locales (or just the ones that are of interest to you) open a new terminal and flush the redis cache:
 
-**Note**: Docker can be a very memory-intensive process. If you notice intermittent failures, or if features like auto-rebuilding crash, try increasing Docker's available memory from within Docker's _Preferences > Resources_ settings.\*\*
+```sh
+> docker exec -it redis redis-cli FLUSHALL
+```
+
+This will ensure that on the next restart the languages, that we just imported sentences for, will be available for contribution.
+
+Restart the server and you should be able to visit the website at [http://localhost:9000](http://localhost:9000).
+
+**Notes**:
+
+The _bundler_ service is not strictly needed to run the common voice website. Run the following commands to just run the minimal setup:
+
+```sh
+> cd common-voice
+> docker-compose up web
+```
+
+Docker can be a very memory-intensive process. If you notice intermittent failures, or if features like auto-rebuilding crash, try increasing Docker's available memory from within Docker's _Preferences > Resources_ settings.\*\*
 
 #### Apple M1 Silicon
 
@@ -75,14 +102,14 @@ ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it runn
 
 You may need to build a new image. You can do that by issuing the following commands:
 
-```
+```sh
 > cd docker/
 > docker build .
 ```
 
 Then after this you can:
 
-```
+```sh
 > cd ..
 > docker-compose up
 ```
@@ -107,7 +134,7 @@ You can find configurable options, like the port Common Voice is running on, in 
 
 If you installed the app manually, create a `/config.json` with the config you want to override in JSON format. The keys will not have a `CV_` prefix. For example:
 
-```
+```json
 {
   "IMPORT_SENTENCES": false,
   "MYSQLDBNAME": "voice",
@@ -121,15 +148,15 @@ Once the required components are installed, you need to prepare your database.
 
 You can either create a MySQL superuser that that uses the default `DB_ROOT_USER` and `DB_ROOT_PASS` values from `/server/src/config-helper.ts` or create your own config as described above.
 
-### S3 configuration
+### Cloud Storage configuration
 
-The Common Voice project uses S3 for voice clip storage. This will be provided for you if you use the Docker installation, but if you are doing local development you will need to set up your own S3 instance. For detaield instructions on how to do that, see [HOWTO_S3.md](./HOWTO_S3.md)
+The Common Voice project uses Google Cloud Storage for voice clip storage. This will be provided for you if you use the Docker installation, but if you are doing local development you will need to set up your own Cloud Storage instance. For detailed although outdated instructions on how to do that, see [HOWTO_S3.md](./HOWTO_S3.md). The steps to setup Buckets on GCP should be similar.
 
 ### Setup steps
 
 Make sure your MySQL server is running. Then run the following commands:
 
-```
+```sh
 > yarn
 > yarn start
 ```
@@ -138,7 +165,7 @@ This will:
 
 1. Install all JavaScript dependencies.
 2. Build and serve files located in the `web` folder on localhost.
-3. Save uploaded voice clips onto Amazon's S3.
+3. Save uploaded voice clips onto Google's Cloud Storage.
 4. Lint and rebuild all js files on every change.
 
 You can then access the website at [http://localhost:9000](http://localhost:9000).
@@ -167,7 +194,7 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
 
 For Docker, in `.env-local-docker`:
 
-```env
+```Dotenv
 CV_AUTH0_DOMAIN="<domain_here>"
 CV_AUTH0_CLIENT_ID="<client_id_here>"
 CV_AUTH0_CLIENT_SECRET="<client_secret_here>"
@@ -196,14 +223,14 @@ To add a migration run:
 
 At the moment you manually have to change the migration file extension to `.ts`. A migration has to expose the following API:
 
-```typescript
+```ts
 export const up = async function (db: any): Promise<any> {
-  return null;
-};
+  return null
+}
 
 export const down = async function (): Promise<any> {
-  return null;
-};
+  return null
+}
 ```
 
 Migrations are always run when the server is started.
@@ -221,8 +248,20 @@ We're using [Fluent](http://projectfluent.org/) to localize strings. You can fin
 
 To update the list of locales run:
 
-```
+```sh
 > yarn import-locales
+```
+
+## Running End to End Tests
+
+Some end to end tests require you to create a test user for login purposes. To do so you will need to create a `cypress.env.json` file with the login details for that user and your auth0 domain. This file should be located in the root of the `web` directory. Your JSON file should look like this:
+
+```json
+{
+  "auth0_domain": "auth0_domain",
+  "test_user_email": "test user email",
+  "test_user_password": "test user password"
+}
 ```
 
 ## Submitting an Issue

@@ -79,7 +79,9 @@ function ProfileInfoLanguages({
 
   return (
     <>
-      <h2>Languages</h2>
+      <Localized id="languages">
+        <h2 />
+      </Localized>
 
       <div className="form-fields">
         {userLanguages.map(({ locale, accents }) => (

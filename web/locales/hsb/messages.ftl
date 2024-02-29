@@ -42,6 +42,7 @@ be = Běłorušćina
 bg = Bołharšćina
 bm = Bambaršćina, Bambara
 bn = Bengalšćina
+bo = Tibetšćina
 br = Bretonšćina
 bs = Bosnišćina
 bxr = Burjatšćina
@@ -51,6 +52,7 @@ cak = Kaqchikel
 ckb = Centralna kurdišćina
 cnh = Hakha Chin
 co = Korsišćina
+crh = Krimska tataršćina
 cs = Čěšćina
 cv = Čuwašćina
 cy = Walizišćina
@@ -66,6 +68,7 @@ eo = Esperanto
 es = Španišćina
 et = Estnišćina
 eu = Baskišćina
+ewo = Ewondo
 fa = Persišćina
 ff = Fulašćina
 fi = Finšćina
@@ -76,6 +79,7 @@ ga-IE = Iršćina
 gl = Galicišćina
 gn = Guaranšćina, Guarani
 gom = Goaska konkanišćina
+gu-IN = Gudžaratšćina
 ha = Hausa
 he = Hebrejšćina
 hi = Hindišćina
@@ -95,6 +99,7 @@ it = Italšćina
 izh = Ižoršćina
 ja = Japanšćina
 jbo = Lodźbanšćina
+jv = Jawanšćina
 ka = Georgišćina
 kaa = Karakalpakšćina
 kab = Kabylšćina
@@ -115,7 +120,9 @@ lij = Ligurišćina
 ln = Lingala
 lo = Laošćina
 lt = Litawšćina
+ltg = Latgalšćina
 lv = Letišćina
+lzz = Lazišćina
 mai = Majtilišćina
 mdf = Mokša
 mg = Malagasišćina
@@ -144,6 +151,7 @@ nyn = Nkorešćina
 oc = Okcitanšćina
 om = Afaan Ormoo
 or = Odiašćina
+os = Osetšćina
 pa-IN = Pundžabšćina
 pap-AW = Papiamento (Aruba)
 pl = Pólšćina
@@ -160,6 +168,8 @@ sah = Sachašćina
 sat = Santališćina (Ol Chiki)
 sc = Sardinšćina
 scn = Sicilšćina
+sco = Šotiska jendźelšćina (Scots)
+sd = Sindišćina, Sindhi
 sdh = Južna kurdišćina
 shi = Tašelhitšćina
 si = Singalezišćina
@@ -201,6 +211,7 @@ ve = Venda
 vec = Wenecianišćina
 vi = Vietnamšćina
 vot = Wotšćina
+wep = Westfalšćina
 wo = Wolof
 xh = Xhosa
 yi = Jiddišćina
@@ -237,6 +248,7 @@ share-text = Pomhajće mašinam wučić, kak ludźo rěča, darće swój hłós 
 link-copied = Wotkaz kopěrowany
 back-top = Wróćo horje
 logout = Wotzjewić
+donate = Darić
 
 ## Home Page
 
@@ -395,8 +407,12 @@ native-language =
 profile-form-add-accent = Nowy swójski akcent „{ $inputValue }“ přidać
 profile-form-submit-save = Składować
 profile-form-submit-saved = Składowany
-male = Muski
-female = Źónski
+male_masculine = Muski
+female_feminine = Žónski
+intersex = Interseksualny
+transgender = Transgender
+non-binary = Njebinarne
+do_not_wish_to_say = Nochcu podać
 # Gender
 other = Druhe
 why-profile-title = Čehodla profil?
@@ -417,6 +433,7 @@ accept-privacy = Sym přezjedny, zo so tute informacije wužiwaja, kak so w <pri
 accept-privacy-title = Prawidła priwatnosće
 accept-privacy-and-terms = Zwolu do našich <termsLink>wužiwarskich wuměnjenjow</termsLink> a <privacyLink>zdźělenki priwatnosće</privacyLink>
 login-identity = Přizjewjenska identita
+login = Přizjewić
 login-signup = Přizjewić/Registrować
 edit = Wobdźěłać
 email-subscriptions = E-mejlowe abonementy
@@ -431,6 +448,7 @@ help-accent = Trjebaće pomoc wo akcenće?
 help-accent-explanation = Waš akcent je wašnje, kak słowa wurjekujeće. Jeho charakter wot toho wotwisuje, hdźež sće žiwy był, kotre druhe rěče rěčiće a wot wjele druhich faktorow. Móžeće wšě informacije zdźělić, kotrež za relewantne maće.
 help-variants = Trjebaće pomoc za warianty?
 help-variants-explanation = Warianty su specifiska forma rěče - rěča so na přikład wot ludźi, kotřiž su we wěstym regionje abo zhromadźenstwje žiwi. Druhdy wone so dialekty mjenuja.
+help-sex-or-gender-changes = Trjebaće pomoc při měnjenju splaha abo splažneje identity?
 
 ## Profile - Email
 
@@ -602,7 +620,6 @@ about-playbook-how-add-sentences = Kak móžu sady přidać?
 about-playbook-how-add-sentences-content-1 = <strong>Hromadźak sadow</strong> je nastroj za hromadźenje a přepruwowanje zjawnje přistupnych sadow. <scAccountLink>Dyrbiće konto załožić</scAccountLink>. Přidajće potom swojemu <strong>profilej</strong> swoju rěč. Móžeće sady <strong>přidać</strong> abo do toho přidate sady <strong>přepruwować</strong>.
 about-playbook-how-add-sentences-content-2 = Sady dyrbja so wot dweju wosobow přepruwować a akceptować, zo bychu so do Common Voice přewzali. Směrnicy za swoju rěč <languageGuidelinesLink>tu</languageGuidelinesLink> wutworiće. Sady dyrbja <licenseLink>zjawnje přistupne</licenseLink> a krótše hač 15 słowow być. Móžeće wobsedźerja teksta prosyć, zo by jón z pomocu našeho wozjewjenja wzdaća pod <waiverLink>CC0</waiverLink> stajił a jo na commonvoice@mozilla.com pósłał.
 about-playbook-how-add-sentences-content-3 = Móžeće <scraperLink>ekstraktor sadow</scraperLink> wužiwać, zo byšće krótke sady z Wikipedije dóstał.
-about-playbook-how-add-sentences-content-4 = Sady, kotrež su přepruwowane, so na srjedach eksportuja a su po přichodnym wozjewjenju k dispoziciji.
 
 ## How to record quality
 
@@ -629,6 +646,7 @@ about-playbook-how-access-dataset = Kak mam přistup k datowej sadźbje a kak m�
 ## How are decisions made
 
 about-playbook-how-project-governance = Kak so projektowe rozsudy tworja?
+about-playbook-how-project-governance-content-2 = Naše wjedźenje na slědowacych stołpach bazuje:
 about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
 about-playbook-how-project-governance-content-5 = Hódnota a připóznaće.
 about-playbook-how-project-governance-content-6 = Mjezsobna rozprawniska winowatosć.
@@ -707,6 +725,7 @@ validated-hr-total = Wobkrućene hodźiny dohromady
 overall-hr-total = Hodźiny dohromady
 cv-license = Licenca
 audio-format = Awdioformat
+dataset-splits = Rozdźělenje (staroba a splah)
 number-of-voices = Ličba hłosow
 splits = Poddźělenja
 email-to-download = E-mejlowu adresu za sćehnjenje zapodać
@@ -751,6 +770,12 @@ dataset-version = Wersija
 sha256-checksum-copied = Pruwowanska suma SHA256 kopěrowana!
 sha256-checksum-copied-error = Kopěrowanje pruwowanskeje sumy SHA256 njeje so poradźiło
 clipboard-not-supported = Mjezyskład so njepodpěruje
+no-information-available = Žane informacije k dispoziciji
+dataset-metadata-sex = Splah
+# dataset metadata - age of contributor
+dataset-metadata-age = Staroba
+donate-modal-message = Waša datowa sadźba so sćahuje!
+dataset-donate-modal-heading = Sće wědźał, zo …
 
 ## Download Modal
 
@@ -809,6 +834,8 @@ language-section-in-progress = W přihotowanju
 language-section-in-progress-new-description = Tute rěče so tuchwilu wot zhromadźenstwa wuwiwaja. Postupowe lajsty pokazuja, do kotreje měry <localizationGlossaryLink>lokalizacija websydła</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>zběrka sadow</sentenceCollectionGlossaryLink> kóždeje rěče stej postupjenej.
 language-section-launched = Startowany
 language-section-launched-description = Za tute aktiwizowane rěče je so websydło wuspěšnje <localizationGlossaryLink>lokalizowane</localizationGlossaryLink>, a ma dosć <sentenceCollectionGlossaryLink>zběranych sadow</sentenceCollectionGlossaryLink>. zo bychu so přichodne přinoški za <speakLink>rěčenje</speakLink> a <listenLink>słuchanje</listenLink> dowolili.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Poslednja aktualizacija: { $lastUpdatedTimeStamp }
 languages-show-more = Wjace pokazać
 languages-show-less = Mjenje pokazać
 language-meter-in-progress = Postup
@@ -827,6 +854,8 @@ action-click = Kliknyć
 action-tap = Podótknyć so
 contribute = Sobu dźěłać
 listen = Słuchać
+write = Pisać
+review = Přepruwować
 skip = Přeskočić
 shortcuts = Skrótšenki
 clips-with-count-pluralized =
@@ -877,6 +906,9 @@ listen-again-instruction = Wulkotne dźěło! <playIcon></playIcon> Słuchajće 
 listen-3rd-time-instruction = 2 sčinjenej, <playIcon></playIcon> dale tak!
 listen-last-time-instruction = <playIcon></playIcon> Poslednje!
 listen-empty-state = Klipy su nam wušli, kotrež so w tutej rěči přepruwuja...
+listen-abort-title = Přepruwowanje klipow dokónčić?
+listen-abort-cancel = Z přepruwowanjom pokročować
+listen-abort-confirm = Přepruwowanje dokónčić
 speak-empty-state = Sady su nam wušli, kotrež so w tutej rěči natočeja...
 speak-empty-state-cta = Sady přinošować
 record-button-label = Nahrajće swój hłós
@@ -888,6 +920,11 @@ target-segment-generic-card = Přinošujeće k cilowemu segmentej
 target-segment-first-banner = Pomhajće prěni cilowy segment Common Voice w { $locale } wutworić
 target-segment-add-voice = Přidajće swój hłós
 target-segment-learn-more = Dalše informacije
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Zběrka hłosow
+contribute-sentence-collection-nav-header = Zběrka sadow
 
 ## Reporting
 
@@ -1516,12 +1553,14 @@ localization-select =
 partnerships-header = Partnerstwa
 partnerships-get-in-touch = Kontakt
 partnerships-become-a-partner = Budźće partner Common Voice
+partnerships-community-header = Zhromadnosć, kreatiwni a ciwilna towaršnosć
 partnerships-foundations-header = Załožby
 partnerships-governments-header = Knježerstwa
 partnerships-academia-header = Uniwersity, akademikarjo a slědźerjo
+partnerships-corporates-header = Wulke korporacije a předewzaća platformow
 partnerships-our-partners = Naši partnerjo
 # FIRST POST SUBMISSION CTA
-first-cta-header-text = Wulki dźak, zo waše rěčenske klipy darił!
+first-cta-header-text = Wulki dźak, zo sće waše rěčenske klipy darił!
 why-donate = Čehodla so prašeće?
 add-information-button = Informacije přidać
 continue-speaking-button = Ně, dźakuju so, z rěčenjom pokročować
@@ -1533,3 +1572,135 @@ already-have-an-account = Maće hižo konto? <login>Přizjewić</login>
 create-profile-button = Profil załožić
 # IMAGE TAGS
 img-alt-success-checkmark = Symbol wuspěcha
+# GUIDELINES PAGE
+guidelines-header = Směrnicy za sobuskutkowarjow
+voice-collection = Zběrka hłosow
+sentence-collection = Zběrka sadow
+varying-pronunciations = Rozdźělne wurjekowanja
+misreadings = Čitanske zmylki
+offensive-content = Njepřistojny wobsah
+background-noise = Pozadkowe šumy
+background-voices = Pozadkowe hłosy
+volume = Sylnosć zwuka
+reader-effects = Efekty čitarja
+just-unsure = Jenož njewěsty?
+example = Přikład
+varying-pronunciations-example = Ruta běše njejasna.
+misreadings-explanation-2 = Jara časte zmylki su:
+misreadings-explanation-5 = Kontrakcije při čitanju, na přikład „žno“ město „hižo“ abo nawopak.
+misreadings-explanation-6 = Falowacy kónc poslednjeho słowa, dokelž natočenje je so přespěšnišo wotrězało.
+misreadings-explanation-7 = Wjacore pospyty słowo čitać.
+misreadings-example-1 = Dźemy po kofej.
+misreadings-example-2 = Dźemy po kofej.
+misreadings-example-3 = Dźemy po jedyn kofej.
+misreadings-example-4 = Čmjeła nimo lećeše.
+misreadings-tip-1 = [Dyrbjało „Dźemy“ rěkać]
+misreadings-tip-2 = [‘a’ w originalnym teksće njeje]
+misreadings-tip-3 = [Wobsah njewotpowěduje]
+background-noise-example-1 = Hoberske dinosawriery triasa.
+background-noise-tip-2 = [Dźěl teksta słyšeć njeje]
+background-voices-example-1 = Hoberske dinosawriery triasa. [čita so wot jednoho hłosa]
+background-voices-tip-1 = Přińdźeš? [hłós druheho]
+still-have-questions = Maće hišće prašenja?
+contact-common-voice = Stajće z teamom Common Voice do zwiska
+public-domain = Zjawnje wužiwajomny
+citing-sentences = Sady citować
+adding-sentences = Sady přidać
+reviewing-sentences = Sady přepruwować
+citing-sentences-subheader-websites = Websydła
+citing-sentences-subheader-websites-explanation = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“
+citing-sentences-subheader-offline-sources = Žórła offline
+citation =
+    .label = Citat
+self-citation = Sebjecitowanje
+adding-sentences-subheader-length = Dołhosć
+adding-sentences-subheader-length-explanation = Sada dyrbjała mjenje hač 15 słowow měć.
+adding-sentences-subheader-spelling-punctuation = Prawopis a interpunkcija
+adding-sentences-subheader-spelling-punctuation-explanation = Sada dyrbi prawje napisana być.
+adding-sentences-subheader-speakable = Wurjekujomny
+adding-sentences-subheader-numbers = Ličby
+adding-sentences-subheader-abbreviations = Skrótšenki a akronymy
+adding-sentences-subheader-punctuation = Interpunkcija
+adding-sentences-subheader-special-characters = Wosebite znamješka a cuze pismiki
+adding-sentences-subheader-special-characters-explanation-1 = Pismiki dyrbja w rěči płaćiwe być, w kotrejž so je rěča. “ж” na přikład je pismik w ruskim alfabeće, ale so ženje w jendźelšćinje njewužiwa a njeměli so tohodla ženje w jendźelskim žórłowym teksće jewić.
+adding-sentences-subheader-offensive-content = Njepřistojny wobsah
+reviewing-sentences-explanation-1 = Jeli sada kriterijam horjeka wotpowěduje, klikńće na tłóčatko „Haj“.
+reviewing-sentences-explanation-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Ně“.
+reviewing-sentences-explanation-4 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
+
+## WRITE PAGE
+
+sentence =
+    .label = Sada
+citation-input-value = Žórło wašeje sady
+citation =
+    .label = Citat
+sc-write-submit-confirm = Wobkrućam, zo tuta sada je <wikipediaLink>zjawnje přistupne</wikipediaLink> a mam prawo ju nahrać.
+sc-review-write-title = Kotre sady móžu přidać?
+new-sentence-rule-1 = <noCopyright>Žane wobmjezowanja awtorstwa (<cc0>cc--0</cc0>)
+new-sentence-rule-2 = Mjenje hač 15 słowow
+new-sentence-rule-3 = Korektnu gramatiku wužiwać
+new-sentence-rule-4 = Korektny prawopis a korektnu interpunkciju wužiwać
+new-sentence-rule-5 = Žane ličby a wosebite znamješka
+new-sentence-rule-6 = Žane cuze pismiki
+how-to-cite = Kak cituju?
+guidelines = Směrnicy
+contact-us = Kontakt
+add-sentence-success = 1 sada zběrana
+add-sentence-error = Zmylk při přidawanju sady
+required-field = Prošu wupjelńće tute polo.
+single-sentence = Jedna sada
+bulk-sentences = Wjele sadow
+# Sentence Domain dropdown option
+agriculture = Ratarstwo
+# Sentence Domain dropdown option
+automotive = Awta
+# Sentence Domain dropdown option
+finance = Financy
+# Sentence Domain dropdown option
+food_service_retail = Cyroba, posłužba a předań
+# Sentence Domain dropdown option
+general = Powšitkowne
+# Sentence Domain dropdown option
+healthcare = Strowotnistwo
+# Sentence Domain dropdown option
+history_law_government = Stawizny, prawnistwo a knježerstwo
+# Sentence Domain dropdown option
+language_fundamentals = Rěčne zakłady (na př. cyfry, pismiki, pjenjezy)
+# Sentence Domain dropdown option
+media_entertainment = Medije a zabawjenje
+# Sentence Domain dropdown option
+nature_environment = Přiroda a wobswět
+# Sentence Domain dropdown option
+news_current_affairs = Nowinki a aktualne naležnosće
+# Sentence Domain dropdown option
+technology_robotics = Technologija a robotika
+
+## REVIEW PAGE
+
+sc-review-rules-title = Wotpowěduje sada směrnicam?
+report-sc-different-language = Druha rěč
+report-sc-different-language-detail = Je w druhej rěči napisana hač přepruwuju.
+review-error = Při přepruwowanju tuteje sady je zmylk nastał
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Přewjedźemy někotre změny
+sc-redirect-page-subtitle-2 = Stajće nam prašenja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mejlu</emailLink>.
+
+## BULK SUBMISSION 
+
+sc-bulk-upload-instruction-drop = Pušćće dataju tu, zo byšće ju nahrał
+try-upload-again-md = Nahraće znowa spytać
+select-file = Dataju wubrać
+select-file-mobile = Wubjerće dataju za nahraće
+accepted-files = Akceptowane datajowe typy: jenož .tsv
+maximum-file-size = Maksimalna datajowa wulkosć: 25 MB
+what-needs-to-be-in-file = Što dyrbi w mojej dataji być?
+upload-progress-text = Nahraće běži…
+sc-bulk-submit-confirm = Wobkrućam, zo tute sady su <wikipediaLink>zjawnje přistupne</wikipediaLink> a mam prawo je nahrać.
+bulk-upload-success-toast = Wjace sadow nahrate
+bulk-upload-failed-toast = Nahraće njeje so poradźiło, spytajće prošu hišće raz.
+upload-more-btn-text = Dalše sady nahrać?
+file-invalid-type = Njepłaćiwa dataja
+file-too-large = Dataja je přewulka
+file-too-small = Dataja je přemała
+too-many-files = Přewjele datajow

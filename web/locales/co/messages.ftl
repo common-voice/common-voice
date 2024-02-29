@@ -18,6 +18,7 @@ banner-error-slow-1 = Scusateci, Common Voice hè lentu pà arrisponde. Grazie p
 banner-error-slow-2 = Ricivimu assai trafficu è circhemu attualmentu una suluzione à issu prublemu.
 banner-error-slow-link = Paghjina di statu
 error-something-went-wrong = Scusateci, un sbagliu hè accadutu
+error-clip-upload = L’inviu di stu pezzu si fiasca cuntinuamente. Pruvà torna ?
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -41,7 +42,9 @@ bas = Basaa
 be = Bielorussiu
 bg = Bulgaru
 bn = Bengalese
+bo = Tibetanu
 br = Brittonu
+bs = Busnianu
 bxr = Buriatu
 ca = Catalanu
 cak = Kaqchikel
@@ -133,6 +136,7 @@ rw = Kinyarwanda
 sah = Iacutu
 sc = Sardu
 scn = Sicilianu
+sdh = Curdu meridiunale
 shi = Tascelì
 si = Singalese
 sk = Sluvaccu
@@ -164,6 +168,7 @@ yue = Cantunese
 zh-CN = Chinese (China)
 zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
+zu = Zulù
 
 # [/]
 
@@ -175,6 +180,7 @@ speak-now = Parlà avà
 datasets = Banche di dati
 languages = Lingue
 about = Apprupositu
+partner = Diventà partenariu
 profile = Prufilu
 help = Aiutu
 contact = Cuntattu
@@ -446,6 +452,10 @@ faq-is-account-public-q = Sò publiche l'infurmazioni di u mio contu ?
 faq-how-privacy-q = Cumu assicurate l'anonimatu è a vita privata di e persone chì anu datu a so voce ?
 faq-how-privacy-a = Tutti l’infurmazione chì permettani l’identificazione da e parsone sò sguassati di i campioni vucale. Quandu un cuntributore furnisce dati demugrafiche trà u so prufile, st’infurmazione hè anonimizzata da i so campioni vucale nanzu à esse impacchettata in a banca di dati è ùn maì pubblicata annantu à a so paghjina di prufile.
 faq-what-determine-identity-q = Chì vole dì chì ùn possu « diterminà l’identità » di i locutori in a banca di dati Common Voice ?
+faq-what-determine-identity-a =
+    A banca di dati di Common Voice hè una risorza aperta è dispunibile publicamente chì pò esse ghjuvata pà addestrà una varietà d’appiecazione ligate à a voce. Pà pruteghje a securità di i nostri cuntributori, noi dumandemu à tutti chì scaricani a banca di dati di Common Voice di rispettà a vita privata di i cuntributori.
+    
+    Tutti l’arrighjistramenti di a banca di dati sò anunimizzati. Quandu scaricheti una banca di dati, seti d’accunsenti d’ùn pruvà micca à identificà un cuntributore. Vole dì chì ùn pudeti micca pruvà à ligà l’infurmazione di banca di dati cù l’infurmazione persunale d’un cuntributore. Tuttavia, pudeti impiegà a banca di dati pà addestrà appiecazione legandu infurmazione di a banca di dati cù altre infurmazione dighjà in a banca di dati.
 faq-what-is-cv = Chì hè Common Voice ?
 faq-using-cv = Adopru di Common Voice
 faq-description = Common Voice hè una parta di l'iniziativa di Mozilla per aiutà à insegnà à e macchine cumu parlanu e vere persone.
@@ -455,6 +465,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Parchì Common Voice ?
+about-header-description-v2 =
+    <p>Common Voice hè una banca di dati publicamenti dispunibile, custituita da e voce di cuntributori di u mondu sanu. Quiddi chì volini custruì appiecazione vucale poni ghjuvà a banca di dati pà addestrà mudelli d’amparera.</p>
+    <p>Oghji, a maiurità di e banche di dati appartenini à imprese, ciò chì frena l’innuvazione. E banche di dati ani ancu un prublemu di sopra-riprisentazioni di mascii bianchi anglofoni. Vole dì chì e tecnulugie vucale poni viaghjà male pà u restu di a pupulazione, o ancu micca pà altre lingue. Vulemu cambià sta situazione mubilizendu la ghjenti da pertuttu pà sparte a so voce.</p>
 how-does-it-work-title-v2 = Comu funziona Common Voice ?
 how-does-it-work-text = Rializemu una banca di dati vucale cù è fonte aperte cù l'aiutu di u publicu. Date a vostra voce, cunvalidate è campione di l'altri, migliurate a banca di dati pà tuttu u mondu.
 
@@ -467,6 +480,7 @@ about-sentence-collection-subtitle = Infrasate sò raccolte pà esse lette ad’
 about-new-lang-title = Publicazione d’una nova lingua
 about-new-lang-subtitle = Publichemu u situ di Common Voice in sta lingua.
 about-voice-contrib-title = Cuntribuzione di voce
+about-voice-contrib-subtitle = A ghjente vene è cuntribuisce cù a so voce.
 about-voice-validation-title = Cunvalidazione di voce
 about-voice-validation-subtitle = Altre parsone cunvalidani sti campioni vucali.
 about-dataset-release-title = Publicazione di a banca di dati
@@ -495,6 +509,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Cumu possu stà in cuntattu ?
 about-stay-in-touch-button = Arrighjistrassi
 about-stay-in-touch-text-1 = <emailFragment>Arrighjistratevi</emailFragment> à a nostra lista di distribuzione pà amparà comu pudeti participà in campagni, ivinimenti è à a creazione di novi funzione pà Common Voice.
+about-stay-in-touch-text-2 = Pudete scuntrà altri membri di a cumunità linguistica di Mozilla raghjunghjendu u <discourseLink>Discourse</discourseLink> pè cunversazione tematiche, o <matrixLink>Matrix</matrixLink> pè cunsiglii rapidi.
 about-nav-why-common-voice = Parchì ?
 about-nav-how-it-works = Comu ?
 about-nav-partners = Partinarii
@@ -507,12 +522,22 @@ about-nav-playbook = Amparate comu participà
 
 about-playbook-what-is-language = Cosa hè una lingua in Common Voice ?
 about-playbook-what-is-language-content-1 = Ci sò tanti maneri di pinsà à a lingua. Pà i mudeli di ricuniscenza vucale, Common Voice arricumanda di cuncintrassi sopr’a « capiscitura mutuale » o di risponde à a quistioni « e parsone chì parlani sta lingua poni capisciesi s’eddi si parlani ? »
+about-playbook-what-is-language-content-2 = Vulemu chì i mudeli vucali siini meglii à capisce locutori variati. Pà questu, una banca di dati vucale hà da raprisentà mori di parsoni sfarenti.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Comu aghjunghju una lingua ?
+about-playbook-how-add-language-content-1 =
+    Primu, verificate si a vostra lingua <languageLink>esiste dighjà</languageLink>.
+    S’edda ùn hè micca, pudeti <languageRequestLink>chere pà aghjunghje a vostra lingua</languageRequestLink>.
+    Ci sò duie tappe. Traduce u situ, è raccoglie l’infrasate.
 about-playbook-how-add-language-translating-heading = Traduce u situ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Fighjuleti a nostra guida sopr’a l'utilisazione di Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Ci ghjuvemu un arnesu di Mozilla chjamatu <pontoonLink>Pontoon</pontoonLink> pà e traduzzione. Pontoon hà tanti lingue,
+    ma si falta a vostra, pudeti <pontoonRequestLink>chere pà aghjunghje a vostra lingue</pontoonRequestLink>.
+    Dopu, pà rende a lingua dispunibile annantu à u prughjettu Common Voice,
+    <githubRepoLink>chiriti a lingua nova annantu à GitHub</githubRepoLink>.<localizationFragment>Vede di più sopr’a traduzzione di u situ</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Raccolta d’infrasate
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Fighjuleti a nostra guida sopr’a l’utilisazione di u raccogliatore d’infrasate</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
@@ -524,6 +549,9 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = Comu funziona a lucalizazione di situ ?
+about-playbook-how-localize-content-1 = A traduzzione di u situ Common Voice si face annantu à <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Create un contu</pontoonAccountLink> se ùn avete micca dighjà unu. Dopu, scigliti a vostra squadra <strong>(« Team »)</strong> di lingua è in fine sciglite u prughjettu, <pontoonCvLink>Common Voice</pontoonCvLink>. Ci sarani schedarii da traduce. Appughjeti sopr’a unu, e traduciti e parolle Inglese.
+about-playbook-how-localize-content-3 = A traduzzione si face da l’Inglese, mà pudeti vede <strong>asempii</strong> in altre lingue. Appughjeti <strong>Prufilu</strong>, è dopu <strong>Prifirenze</strong> e aghjunghjiti tutte e lingue chì vo parlate. Inghjò, à a dritta, ci sarà una lista di traduzzione chjamata <strong>Locales</strong>. E traduzzione si vedeni annantu à u situ dopu à un ghjornu.
 about-playbook-how-localize-content-4 = U situ hè prontu à esse publicatu quandu eddu hè traduttu a 75%.
 about-playbook-how-localize-content-5 = Fighjuleti a nostra spiecazione video pà aiutà
 
@@ -533,10 +561,14 @@ about-playbook-how-add-sentences = Comu possu aghjunghje infrasate ?
 
 ## How to record quality
 
+about-playbook-how-record-content-2 = Evitate troppu di rumore di fondu - duverebbe esse facile di sente vi.
+about-playbook-how-record-content-3 = Leghjite a frase cun cura - ùn scurdate nunda, ùn cambiate nunda è ùn aghjunghjite micca parolle.
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Eventi
 about-playbook-how-grow-language-content-4 = Rete suciale
+about-playbook-how-grow-language-content-6 = Partenariati è rete
 
 ## How to validate
 
@@ -761,6 +793,9 @@ login-to-get-started = Cunnittiti vi o iscrivite vi pà cummincià
 target-segment-first-banner = Aiuteti à creà u primu segmentu d’ugettivu di Common Voice in { $locale }
 target-segment-add-voice = Aghjustà a vostra voce
 target-segment-learn-more = Sapene di più
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1059,3 +1094,4 @@ see-less = <chevron></chevron>Vedene di menu
 
 # [/SentenceCollector]
 
+sentence-collection = Racolta d'infrasate

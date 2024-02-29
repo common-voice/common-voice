@@ -1,9 +1,6 @@
-import * as crypto from 'crypto';
-import { S3 } from 'aws-sdk';
 import { NextFunction, Request, Response } from 'express';
 const PromiseRouter = require('express-promise-router');
 import { getConfig } from '../config-helper';
-import { AWS } from './aws';
 import Model from './model';
 import getLeaderboard from './model/leaderboard';
 import { earnBonus, hasEarnedBonus } from './model/achievements';
@@ -15,8 +12,10 @@ import { checkGoalsAfterContribution } from './model/goals';
 import { ChallengeToken, challengeTokens } from 'common';
 import validate from './validation';
 import { clipsSchema } from './validation/clips';
+import { streamUploadToBucket } from '../infrastructure/storage/storage';
+import { pipe } from 'fp-ts/lib/function';
+import {taskEither as TE, task as T, identity as Id} from 'fp-ts';
 
-const fs = require('fs');
 const { promisify } = require('util');
 const Transcoder = require('stream-transcoder');
 const { Converter } = require('ffmpeg-stream');
@@ -35,14 +34,12 @@ enum ERRORS {
  * Clip - Responsibly for saving and serving clips.
  */
 export default class Clip {
-  private s3: S3;
   private bucket: Bucket;
   private model: Model;
 
   constructor(model: Model) {
-    this.s3 = AWS.getS3();
     this.model = model;
-    this.bucket = new Bucket(this.model, this.s3);
+    this.bucket = new Bucket(this.model);
   }
 
   getRouter() {
@@ -230,11 +227,6 @@ export default class Clip {
       );
       return;
     } else {
-      // If the folder does not exist, we create it.
-      await this.s3
-        .putObject({ Bucket: getConfig().CLIP_BUCKET_NAME, Key: folder })
-        .promise();
-
       let audioInput = request;
 
       if (getConfig().FLAG_BUFFER_STREAM_ENABLED && format.includes('aac')) {
@@ -327,13 +319,13 @@ export default class Clip {
         .stream()
         .pipe(pass);
 
-      await this.s3
-        .upload({
-          Bucket: getConfig().CLIP_BUCKET_NAME,
-          Key: clipFileName,
-          Body: audioOutput,
-        })
-        .promise();
+      await pipe(
+        streamUploadToBucket,
+        Id.ap(getConfig().CLIP_BUCKET_NAME),
+        Id.ap(clipFileName),
+        Id.ap(audioOutput),
+        TE.getOrElse((err: Error) => T.of(console.log(err)))
+      )()
     }
   };
 

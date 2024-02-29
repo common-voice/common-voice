@@ -8,6 +8,11 @@
         display: flex;
         flex-direction: column;
 
+        & .last-updated-timestamp {
+            font-family: var(--strong-font-family);
+            font-size: 20px;
+        }
+
         @media (--md-up) {
             flex-direction: row;
             justify-content: space-between;

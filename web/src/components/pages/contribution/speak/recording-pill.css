@@ -7,7 +7,7 @@
         margin: 0 12px;
         width: 133px;
 
-        font-size: var(--font-size-xs);
+        font-size: var(--font-size-sm);
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.4px;
@@ -16,7 +16,7 @@
         overflow: hidden;
         text-overflow: ellipsis;
 
-        color: var(--warm-grey);
+        color: var(--dark-grey);
     }
 
     & .padder {

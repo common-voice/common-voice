@@ -144,3 +144,46 @@
         }
     }
 }
+
+.listen-abort {
+    &.inner {
+        @media (--md-up) {
+            min-height: 55vh;
+        }
+
+        @media (--sm-down) {
+            height: 100vh;
+        }
+    }
+
+    & .title {
+        margin-top: 58px;
+        margin-bottom: 10px;
+        font-size: var(--font-size-xxl);
+        font-weight: normal;
+    }
+
+    & .text {
+        margin-bottom: 35px;
+        font-size: 20px;
+    }
+
+    & .buttons {
+        margin-bottom: 40px;
+    }
+
+    & .button {
+        height: 57px;
+    }
+
+    & .text-button {
+        font-size: var(--font-size-xs);
+        font-weight: 600;
+        text-decoration: underline;
+
+        &:hover {
+            color: var(--blue);
+            text-decoration-color: var(--blue);
+        }
+    }
+}

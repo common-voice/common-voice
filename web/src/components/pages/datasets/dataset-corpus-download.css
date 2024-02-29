@@ -2,7 +2,7 @@
     background: var(--lighter-grey);
     display: flex;
     justify-content: center;
-    .dataset-corpus-download-container{
+    .dataset-corpus-download-container {
         @media (--xl-up) {
             transform: translateY(-2%);
         }
@@ -119,6 +119,17 @@
             li:last-child::after {
                 content: '';
             }
+        }
+    }
+
+    .table-metadata-container {
+        display: flex;
+
+        & .table-email-prompt-container {
+            display: flex;
+            width: 100%;
+            align-items: start;
+            flex-direction: column;
         }
     }
 }

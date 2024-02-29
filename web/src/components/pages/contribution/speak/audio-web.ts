@@ -45,12 +45,14 @@ export default class AudioWeb {
 
   private getMicrophone(): Promise<MediaStream> {
     return new Promise(function (res: Function, rej: Function) {
-      function deny(error: MediaStreamError) {
+      function deny(error: DOMException) {
         rej(
-          ({
-            NotAllowedError: AudioError.NOT_ALLOWED,
-            NotFoundError: AudioError.NO_MIC,
-          } as { [errorName: string]: AudioError })[error.name] || error
+          (
+            {
+              NotAllowedError: AudioError.NOT_ALLOWED,
+              NotFoundError: AudioError.NO_MIC,
+            } as { [errorName: string]: AudioError }
+          )[error.name] || error
         );
       }
       function resolve(stream: MediaStream) {
@@ -61,8 +63,6 @@ export default class AudioWeb {
         navigator.mediaDevices
           .getUserMedia({ audio: true })
           .then(resolve, deny);
-      } else if (navigator.getUserMedia) {
-        navigator.getUserMedia({ audio: true }, resolve, deny);
       } else if (navigator.webkitGetUserMedia) {
         navigator.webkitGetUserMedia({ audio: true }, resolve, deny);
       } else if (navigator.mozGetUserMedia) {
@@ -78,7 +78,6 @@ export default class AudioWeb {
   isMicrophoneSupported() {
     return (
       navigator.mediaDevices?.getUserMedia ||
-      navigator.getUserMedia ||
       navigator.webkitGetUserMedia ||
       navigator.mozGetUserMedia
     );
@@ -86,9 +85,19 @@ export default class AudioWeb {
 
   // Check if audio recording is supported
   isAudioRecordingSupported() {
+    const supportedFormats = [
+      'audio/webm', // For Chrome
+      'audio/ogg; codecs=opus', // For Firefox
+      'audio/mp4', // For Safari
+    ];
+
+    // check if at least one of the formats is supported in the browser
+    const isAudioFormatSupported = supportedFormats.some(format =>
+      window.MediaRecorder.isTypeSupported(format)
+    );
+
     return (
-      typeof window.MediaRecorder !== 'undefined' &&
-      !window.MediaRecorder.notSupported
+      typeof window.MediaRecorder !== 'undefined' && isAudioFormatSupported
     );
   }
 

@@ -7,6 +7,11 @@ interface NativeNames {
   [property: string]: string;
 }
 
+interface LocaleNameAndIDMapping {
+  id: number;
+  name: string;
+}
+
 export interface State {
   isLoading: boolean;
   allLocales?: Locales;
@@ -15,6 +20,7 @@ export interface State {
   rtlLocales?: Locales;
   translatedLocales?: Locales;
   contributableNativeNames?: NativeNames;
+  localeNameAndIDMapping?: LocaleNameAndIDMapping[];
 }
 
 enum ActionType {
@@ -30,6 +36,7 @@ interface LoadedAction {
     rtlLocales: Locales;
     translatedLocales: Locales;
     contributableNativeNames: NativeNames;
+    localeNameAndIDMapping: LocaleNameAndIDMapping[];
   };
 }
 
@@ -80,6 +87,11 @@ export const actions = {
         .filter(language => language.is_contributable)
         .map(language => language.name);
 
+      const localeNameAndIDMapping = allLanguages.map(language => ({
+        id: language.id,
+        name: language.name,
+      }));
+
       dispatch({
         type: ActionType.LOADED,
         payload: {
@@ -89,6 +101,7 @@ export const actions = {
           rtlLocales,
           translatedLocales,
           contributableNativeNames,
+          localeNameAndIDMapping,
         },
       });
     };
@@ -111,6 +124,7 @@ export function reducer(state: State = INITIAL_STATE, action: Action): State {
         rtlLocales: action.payload.rtlLocales,
         translatedLocales: action.payload.translatedLocales,
         contributableNativeNames: action.payload.contributableNativeNames,
+        localeNameAndIDMapping: action.payload.localeNameAndIDMapping,
       };
 
     default:

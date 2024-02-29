@@ -44,6 +44,7 @@ be = بلاروسي
 bg = بلغاریه ایی
 bm = بامبارایي
 bn = بنګالي
+bo = تبتي
 br = بریټانوي
 bs = بوسنیایي
 bxr = بوریاټي
@@ -138,6 +139,7 @@ nb-NO = نارويژي بوکلم
 nd = IsiNdebele (شمال)
 ne-NP = نیپالي
 nhe = ختیځ واسټيکا ناهوت
+nhi = لویدیځ سیرا پیوبلا ناهاتل
 nia = نیاس
 nl = الماني
 nn-NO = نارویژي نینورسک
@@ -627,7 +629,6 @@ about-playbook-how-add-sentences = څنګه جملې اضافه کړم؟
 about-playbook-how-add-sentences-content-1 = <strong>د جملې راټولونکی</strong> د عامه ډومین جملو راټولولو او اعتبار کولو لپاره یوه وسیله ده. تاسو به <scAccountLink> ته اړتیا ولرئ چې یو حساب جوړ کړئ</scAccountLink>. بیا، خپله ژبه په خپل <strong>پروفایل</strong> کې اضافه کړئ. تاسو کولی شئ جملې <strong>اضافه کړئ</strong> یا <strong>بیا کتنه</strong> مخکې اضافه شوي جملې.
 about-playbook-how-add-sentences-content-2 = جملې باید بیاکتنه وشي او د دوه خلکو لخوا ومنل شي ترڅو په عام غږ کې شامل شي. تاسو د خپلې ژبې لپاره لارښودونه <languageGuidelinesLink>دلته</languageGuidelinesLink> جوړ کړئ. جملې باید په <licenseLink> عامه ډومین</licenseLink> کې وي او د 15 کلمو څخه لنډې وي. تاسو کولی شئ د متن له مالک څخه وغواړئ چې دا زموږ د معافیت پروسې په کارولو سره <waiverLink>CC0</waiverLink> جوړ کړي، او موږ ته په commonvoice@mozilla.com ولیږئ.
 about-playbook-how-add-sentences-content-3 = تاسو کولی شئ د ویکیپیډیا څخه د لنډو جملو د ګټې اخیستنې لپاره <scraperLink>Sentence Extractor</scraperLink> وکاروئ.
-about-playbook-how-add-sentences-content-4 = هغه جملې چې تایید شوي د څلورنۍ په ورځ صادریږي، او د راتلونکي خپريدو وروسته شتون لري.
 
 ## How to record quality
 
@@ -887,6 +888,8 @@ action-click = کلیک
 action-tap = ټپ کړئ
 contribute = مرسته وکړئ
 listen = واورئ
+write = ولیکئ
+review = بیاکتنه
 skip = پرېږدئ
 shortcuts = لنډلارې
 clips-with-count-pluralized =
@@ -954,6 +957,7 @@ target-segment-learn-more = نور زده کړئ
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = د غږ راټولول
+contribute-sentence-collection-nav-header = د جملو ټولګه
 
 ## Reporting
 
@@ -1600,3 +1604,31 @@ already-have-an-account = ایا دمخه حساب لرئ؟ <login>ننوتل</l
 create-profile-button = یو پروفایل جوړ کړئ
 # IMAGE TAGS
 img-alt-success-checkmark = د بریالیتوب نښه
+# GUIDELINES PAGE
+guidelines-header = د ونډې لارښوونې
+voice-collection = د غږ راټولول
+sentence-collection = د جملې ټولګه
+varying-pronunciations = مختلف تلفظونه
+misreadings = غلط لوستونه
+offensive-content = توهين کوونکي مواد
+background-noise = شاته شور
+background-voices = د شاته غږونه
+volume = حجم
+reader-effects = د لوستونکي اغیزې
+example = بېلګه
+misreadings-example-1 = موږ د قهوې اخیستو لپاره بهر ځو.
+misreadings-example-3 = موږ د قهوې اخیستو لپاره بهر ځو.
+misreadings-example-4 = مچۍ په تېزۍ سره روانه شوه.
+misreadings-tip-1 = [باید "موږ یو" وي]
+misreadings-tip-2 = [په اصلي متن کې 'a' نه دی]
+misreadings-tip-3 = [مطابقت نه  لرونکې منځپانګه]
+background-noise-example-1 = د ټریاسیک لوی ډیناسور.
+background-noise-tip-2 = [د متن یوه برخه اوریدل کیدی نشي]
+citing-sentences-subheader-websites-explanation = تاسو کولی شئ ویب پاڼه شامله کړئ، د مثال په توګه "عام غږ - https://commonvoice.mozilla.org/"
+adding-sentences-subheader-offensive-content = توهين کوونکې منځپانګه
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+

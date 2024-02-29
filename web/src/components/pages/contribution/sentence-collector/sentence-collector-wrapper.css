@@ -1,0 +1,91 @@
+@import url('../../../media.css');
+
+.write-page,
+.review-page {
+    width: 100%;
+
+    & .review-wrapper,
+    .write-wrapper {
+        background-image: linear-gradient(
+            to top,
+            var(--white) 20%,
+            var(--desert-storm)
+        );
+
+        @media (--xl-up) {
+            overflow: auto;
+        }
+
+        & .write,
+        .review {
+            width: 100%;
+            height: 100%;
+            max-width: var(--wide-desktop-width);
+
+            @media (--lg-up) {
+                padding: 2rem 1rem 0.5rem;
+            }
+
+            @media (--sm-down) {
+                padding-bottom: 30px;
+            }
+        }
+
+        & .write.centered {
+            margin: 0 auto;
+        }
+
+        & .review {
+            margin: 0 auto;
+            .instruction {
+                width: fit-content;
+            }
+
+            height: auto;
+        }
+
+        & .instruction {
+            margin: 2vh auto;
+
+            span {
+                display: flex;
+            }
+
+            svg {
+                margin: 0 8px;
+            }
+
+            svg.edit-icon {
+                @media (--xs-down) {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+
+            @media (--xs-down) {
+                font-size: var(--font-size-xs);
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    & .review-wrapper {
+        overflow-x: hidden;
+    }
+
+    & .write-wrapper {
+        background-image: none;
+    }
+
+    & .edit-icon {
+        path {
+            fill: var(--blue);
+        }
+    }
+
+    & .review-icon {
+        path {
+            fill: var(--light-purple);
+        }
+    }
+}

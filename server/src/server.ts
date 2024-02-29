@@ -14,14 +14,16 @@ import { scrubUserActivity } from './lib/model/db/scrub-user-activity';
 import Model from './lib/model';
 import API from './lib/api';
 import { redis, useRedis, redlock } from './lib/redis';
-import { APIError, ClientError, getElapsedSeconds } from './lib/utility';
-import { importSentences } from './lib/model/db/import-sentences';
+import { APIError, getElapsedSeconds } from './lib/utility';
 import { getConfig } from './config-helper';
 import authRouter from './auth-router';
 import fetchLegalDocument from './fetch-legal-document';
 import { createTaskQueues, TaskQueues } from './lib/takeout';
 import getCSPHeaderValue from './csp-header-value';
 import { ValidationError } from 'express-json-validator-middleware';
+import { setupUpdateValidatedSentencesQueue } from './infrastructure/queues/updateValidatedSentencesQueue';
+import { setupBulkSubmissionQueue } from './infrastructure/queues/bulkSubmissionQueue';
+import { importSentences } from './lib/model/db/import-sentences';
 
 const MAINTENANCE_VERSION_KEY = 'maintenance-version';
 const FULL_CLIENT_PATH = path.join(__dirname, '..', '..', 'web');
@@ -52,6 +54,8 @@ export default class Server {
       if (ready) {
         this.taskQueues = createTaskQueues(this.api.takeout);
         this.api.takeout.setQueue(this.taskQueues.dataTakeout);
+        setupUpdateValidatedSentencesQueue()
+        setupBulkSubmissionQueue()
       }
     });
 
@@ -242,7 +246,7 @@ export default class Server {
   /**
    * Perform any scheduled maintenance on the data model.
    */
-  async performMaintenance(doImport: boolean): Promise<void> {
+  async performMaintenance(): Promise<void> {
     const start = Date.now();
     this.print('performing Maintenance');
 
@@ -251,7 +255,13 @@ export default class Server {
       await scrubUserActivity();
       await importLocales();
 
-      if (doImport) {
+      // We no longer need to import sentences from files since users can now
+      // directly add sentences on the CV platform. However, it is still
+      // valuable to set up a local development environment.
+      if (
+        'local' == getConfig().ENVIRONMENT &&
+        getConfig().IMPORT_SENTENCES
+      ) {
         await importSentences(await this.model.db.mysql.createPool());
       }
 
@@ -320,7 +330,7 @@ export default class Server {
     const { ENVIRONMENT } = getConfig();
 
     if (!ENVIRONMENT || ENVIRONMENT === 'local') {
-      await this.performMaintenance(options.doImport);
+      await this.performMaintenance();
       return;
     }
 
@@ -344,7 +354,7 @@ export default class Server {
     }
 
     try {
-      await this.performMaintenance(options.doImport);
+      await this.performMaintenance();
       await redis.set(MAINTENANCE_VERSION_KEY, this.version);
     } catch (e) {
       this.print('error during maintenance', e);

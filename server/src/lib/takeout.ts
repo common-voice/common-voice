@@ -1,10 +1,9 @@
 import Mysql from './model/db/mysql';
 import Bucket from './bucket';
-import { S3 } from 'aws-sdk';
 import * as Bull from 'bull';
 import { Job, Queue, QueueOptions } from 'bull';
 import { getConfig } from '../config-helper';
-import { TakeoutRequest, TakeoutState } from 'common';
+import { TakeoutResponse, TakeoutRequest, TakeoutState } from 'common';
 
 // How many concurrent takeouts can take place at any time.
 const kTakeoutConcurrency = 10;
@@ -88,13 +87,11 @@ export type ClientClip = {
 
 export default class Takeout {
   private readonly db: Mysql;
-  private readonly s3: S3;
   private readonly bucket: Bucket;
   private queue: Bull.Queue<TakeoutTask>;
 
-  constructor(db: Mysql, s3: S3, bucket: Bucket) {
+  constructor(db: Mysql, bucket: Bucket) {
     this.db = db;
-    this.s3 = s3;
     this.bucket = bucket;
   }
 
@@ -112,20 +109,26 @@ export default class Takeout {
   async generateDownloadLinks(
     client_id: string,
     takeout_id: number
-  ): Promise<(string | string[])[]> {
+  ): Promise<TakeoutResponse> {
     const takeout = await this.getTakeout(takeout_id);
     if (takeout === null) throw 'no such takeout';
     if (takeout.client_id !== client_id) throw 'no such takeout';
     if (takeout.state !== TakeoutState.AVAILABLE)
       throw 'takeout is unavailable';
+
     const keys = [...Array(takeout.archive_count).keys()].map(offset =>
       this.bucket.takeoutKey(takeout, offset)
     );
 
-    const links = [
-      keys.map(key => this.bucket.getPublicUrl(key)),
-      this.bucket.getPublicUrl(this.bucket.metadataKey(takeout)),
-    ];
+    const urls = await Promise.all(keys.map(key => this.bucket.getPublicUrl(key)))
+
+    const links = {
+      parts: urls.map(url => decodeURIComponent(url)),
+      metadata: decodeURIComponent(await this.bucket.getPublicUrl(this.bucket.metadataKey(takeout))),
+    };
+
+    console.log(links)
+
     return links;
   }
 
@@ -168,18 +171,18 @@ export default class Takeout {
     // the server. So do the expensive work on each chunk sequentially.
     // const replies = await Promise.all(chunkedKeys
     //   .map((keys, offset) => bucket.zipTakeoutFilesToS3(takeout, offset, keys)));
-    const fileSizes: S3.HeadObjectOutput[] = [];
+    const fileSizes: {size: number}[] = [];
 
-    chunkedClips.forEach(async (chunk: string[], index: number) => {
+    for (const [index, chunk] of chunkedClips.entries()) {
       fileSizes.push(
         await this.bucket.zipTakeoutFilesToS3(takeout, index, chunk)
       );
       await job.progress(Math.ceil((100 * index) / chunkedClips.length));
-    });
+    }
 
     fileSizes.push(await this.bucket.uploadClipMetadata(takeout, clips));
     const totalSize = fileSizes.reduce(
-      (acc, curr) => (acc += curr.ContentLength),
+      (acc, curr) => (acc += curr.size),
       0
     );
 
@@ -367,17 +370,12 @@ export default class Takeout {
   }
 
   private static splitIntoChunks(paths: string[]): string[][] {
-    const todo = [...paths];
-    const chunks = [];
+    var result = [];
 
-    do {
-      const currentChunk = [];
-      while (todo.length && currentChunk.length < kChunkMaxFiles) {
-        const clip = todo.pop();
-        currentChunk.push(clip);
-      }
-      chunks.push(currentChunk);
-    } while (todo.length);
-    return chunks;
+    for (let i = 0; i < paths.length; i += kChunkMaxFiles) {
+      result.push(paths.slice(i, i + kChunkMaxFiles));
+    }
+
+    return result;
   }
 }

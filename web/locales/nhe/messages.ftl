@@ -6,13 +6,13 @@ privacy-info = Tlatitejmaka tipiaze cuidado ipan mo informacion.Shi tlachia ipan
 return-to-cv = Ti mokuapase Common Voice
 email-input =
     .label = email
-submit-form-action = enviar
+submit-form-action = Titlanise
 loading = Cargando...
 email-opt-in-info = Ninekiskia xinechtitlanilij emails ipan tlen tinekin tichihuase, then tichiheia ,tlen ticonchiheia huan huan yankhuik tlatoli then Common Voice.
 email-opt-in-info-title = Xitechpalehui ipan Common Voice timitz tlalise ipan mailing list.
 email-opt-in-info-sub-with-challenge = Ninekiskia xinechtitlanilij emails ipan tlen tinekin tichihuase, then tichiheia ,tlen ticonchiheia huan huan yankhuik tlatoli then Common Voice.
 email-opt-in-privacy-v2 = Al optar por recibir correos electrónicos, declara que está de acuerdo con que Mozilla maneje esta información como se explica en la <privacyLink>Política de privacidad</privacyLink> de Mozilla.
-indicates-required = Se requieren campos marcados con un asterisco (*).
+indicates-required = Moneki campos tlen kipiaan (*).
 not-available-abbreviation = N/A
 banner-error-slow-1 = Lo sentimos, Common Voice se está ejecutando lentamente. Gracias por tu interés.
 banner-error-slow-2 = We're receiving a lot of traffic and are currently investigating the issues.
@@ -43,6 +43,7 @@ be = Bielorruso
 bg = Búlgaro
 bm = Bambara
 bn = bengalí
+bo = Tibetano
 br = bretón
 bs = Bosnio
 bxr = Buriatia
@@ -136,10 +137,12 @@ nan-tw = Taiwanés (Minnan)
 nb-NO = Bokmal noruego
 ne-NP = Nepali
 nhe = Náhuatl de la Huasteca Oriental
+nhi = Náhuatl tlen Sierra Puebla Occidental
 nia = Nías
 nl = Holandés
 nn-NO = Nynorsk noruego
 nso = Sesotho del norte
+ny = Chinyanja
 nyn = Runyankole
 oc = Occitano
 om = Afaan Oromo
@@ -218,12 +221,12 @@ zza = Zazo
 
 ## Layout
 
-speak = Camatise
-speak-now = Camatise nama
-datasets = Datasets
+speak = Kamatis
+speak-now = Kamatise nama
+datasets = Conjunto de datos
 languages = Idiomas
-about = Acerca de
-partner = Partner
+about = Ipan Common Voice
+partner = Solcios
 profile = Perfil
 help = Tlapaleuistli
 contact = Contacto
@@ -240,7 +243,7 @@ logout = Cerrar sesión
 
 ## Home Page
 
-home-title = Common Voice es la iniciativa de Mozilla para ayudar a enseñar a las máquinas cómo hablan las personas reales.
+home-title = Common Voice ipa se iniciativa tlen Mozilla ipan tikin machtise ne computadoras kenikatza kamatin se masehuali.
 default-tagline = Common Voice es la iniciativa de Mozilla para ayudar a enseñar a las máquinas cómo hablan las personas reales.
 home-cta = Shi kamati ipan ti techmalehis
 wall-of-text-start =
@@ -336,8 +339,8 @@ shortcut-rerecord-toggle-label = Regrabar clip
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Descartar grabación en curso
 shortcut-submit = Timo cuapase
-shortcut-submit-label = Enviar clips
-request-language-text = ¿Todavía no ve su idioma en Common Voice?
+shortcut-submit-label = Titlanise clips
+request-language-text = ¿Ashtikita mo idioma ipan Common Voice?
 request-language-button = Solicitar un idioma
 
 ## ProjectStatus
@@ -397,7 +400,6 @@ profile-explanation = Realice un seguimiento de su progreso con un perfil y ayud
 thanks-for-account = Gracias por confirmar su cuenta, ahora vamos a crear su perfil.
 why-demographic = ¿Por qué importa esto?
 why-demographic-explanation-2 = Los datos de usuario anónimos, como la edad, el sexo y el acento, ayudan a mejorar los datos de audio utilizados para entrenar la precisión de los motores de reconocimiento de voz. Su nombre de usuario y correo electrónico nunca se asociarán con sus datos enviados, y puede elegir si desea que su nombre de usuario sea público o anónimo.
-accept-privacy = Estoy de acuerdo con que manejes esta información como explicas en la <privacyLink>Política de privacidad</privacyLink> de Mozilla.
 accept-privacy-title = política de privacidad
 accept-privacy-and-terms = Acepto los <termsLink>Términos</termsLink> y el <privacyLink>Aviso de privacidad</privacyLink> de Common Voice
 login-identity = Identidad de inicio de sesión
@@ -445,6 +447,7 @@ faq-why-important-a =
     
     Para hacer que el reconocimiento de voz sea aún más universal, recopilamos muestras de voz en los idiomas más hablados, así como en aquellos con una población de hablantes más pequeña, a menudo desatendidos por los servicios comerciales de reconocimiento de voz. La publicación de un conjunto de datos diverso de voces permitirá a los desarrolladores, empresarios y comunidades de habla completas abordar esta brecha por sí mismos.
 faq-how-get-q = ¿Cómo puedo obtener los datos de Common Voice?
+faq-how-get-a = El conjunto de datos de Common Voice está disponible para su descarga bajo la licencia <licenseLink>CC0</licenseLink> en <datasetLink>nuestra página de Conjuntos de datos</datasetLink>. También puede descargar otros conjuntos de datos disponibles públicamente desde la misma página.
 faq-when-release2-q = ¿Cuándo publicará los datos de Common Voice en otros idiomas?
 faq-why-mission-q = ¿Por qué Common Voice es parte de la misión de Mozilla?
 faq-why-mission-a = Mozilla se dedica a mantener la web abierta y accesible para todos. Para hacer eso, necesitamos empoderar a los creadores web a través de proyectos como Common Voice. A medida que las tecnologías de voz proliferan más allá de las aplicaciones de nicho, creemos que deben servir a todos los usuarios por igual. Eso significa invertir en más idiomas y adaptarse a diversos acentos y datos demográficos al crear y probar tecnologías de voz. Common Voice es un recurso público disponible para todos y los equipos y desarrolladores de Mozilla de todo el mundo ya lo están utilizando también en nuestros propios proyectos.
@@ -466,6 +469,10 @@ faq-why-account-q = ¿Por qué debo registrarme para obtener una cuenta?
 faq-is-account-public-q = ¿La información de mi cuenta es pública?
 faq-how-privacy-q = ¿Cómo garantizan el anonimato y la privacidad de las personas que donaron sus voces?
 faq-how-privacy-a = Todos los clips de voz en el conjunto de datos se eliminan de la información de identificación personal. Cuando un colaborador proporciona datos demográficos a través de su perfil, esa información se desidentifica de sus clips de voz antes de agruparse para su descarga en el conjunto de datos y nunca se hace pública en su página de perfil.
+faq-what-determine-identity-a =
+    El conjunto de datos de Common Voice es un recurso abierto y disponible públicamente que se puede usar para entrenar una amplia variedad de aplicaciones habilitadas para el habla. Para proteger la seguridad de nuestros colaboradores, pedimos a todos los que descargan el conjunto de datos de Common Voice que respeten la privacidad de los colaboradores.
+    
+    Todos los clips de voz en el conjunto de datos se eliminan de la información de identificación personal. Cuando descarga el conjunto de datos, acepta no intentar determinar la identidad de ningún colaborador. Eso significa que no puede intentar vincular la información del conjunto de datos con la información personal de un colaborador. Sin embargo, puede usar el conjunto de datos para entrenar el reconocimiento de voz, el reconocimiento de hablantes u otras aplicaciones, por ejemplo, vinculando información en el conjunto de datos con otra información que ya se encuentra en el conjunto de datos.
 faq-what-is-cv = ¿Que is Common Voice?
 faq-using-cv = Usando Common Voice
 faq-search-for-answers =
@@ -473,8 +480,11 @@ faq-search-for-answers =
 
 ## ABOUT US
 
-about-title = ¿Por que Common Voice?
-how-does-it-work-title-v2 = ¿Como funciona Common Voice?
+about-title = ¿Kenke Common Voice?
+about-header-description-v2 =
+    <p>Common Voice es un conjunto de datos de voz disponible públicamente, impulsado por las voces de colaboradores voluntarios de todo el mundo. Las personas que quieran crear aplicaciones de voz pueden usar el conjunto de datos para entrenar modelos de aprendizaje automático.</p>
+    <p>Actualmente, la mayoría de los conjuntos de datos de voz son propiedad de empresas, lo que sofoca la innovación. Los conjuntos de datos de voz también subrepresentan: personas que no hablan inglés, personas de color, personas discapacitadas, mujeres y personas LGBTQIA+. Esto significa que la tecnología habilitada por voz no funciona en absoluto para muchos idiomas, y donde funciona, es posible que no funcione igual de bien para todos. Queremos cambiar eso al movilizar a las personas en todas partes para que compartan su voz.</p>
+how-does-it-work-title-v2 = ¿Keni katsa tekiti Common Voice?
 how-does-it-work-text = Estamos colaborando con un conjunto de datos de voces de código abierto. Done su voz, valide la precisión de los clips de otras personas, mejore el conjunto de datos para todos.
 
 ## How does it work section
@@ -497,11 +507,13 @@ about-speak = Hablar
 about-speak-text = Los colaboradores graban clips de voz leyendo de un banco de oraciones donadas.
 about-listen-queue = Cola de escucha
 about-listen-queue-text = Los clips de voz se ingresan en una cola de envío que los prepara para escucharlos.
-about-listen = Escuchar
+about-listen = Tlakakis
 about-listen-text = Los usuarios validan la precisión de los clips donados, verificando que el orador lea la oración correctamente.
 about-is-it-valid = ¿Es válido el clip?
 about-is-it-valid-text = Un clip de voz se marca como "válido" cuando un usuario vota Sí.
 about-yes-votes-text = Para convertirlo en el conjunto de datos de Common Voice, dos usuarios independientes deben validar un clip de voz.
+about-dataset-new = Conjunto de datos Common Voice
+about-get-involved = Kenikatsa hueli titechpalehui
 about-nav-why-common-voice = Por qué ?
 about-nav-how-it-works = Cómo ?
 about-nav-partners = Socios
@@ -603,7 +615,7 @@ data-download-singleword-callout-v2 = Este es un segmento basado en casos de uso
 terms-agree = Estoy de acuerdo
 terms-disagree = No estoy de acuerdo
 review-aborted = Carga abortada. ¿Quieres borrar tus grabaciones?
-review-submit-title = Revisar y enviar
+review-submit-title = TiTlachilise wa titlanise
 review-recording = Revisar
 review-rerecord = volver a grabar
 review-cancel = Cancelar envío
@@ -626,6 +638,7 @@ audio-format = Formato de audio
 number-of-voices = Número de voces
 splits = Divisiones
 email-to-download = Ingrese el correo electrónico para descargar
+confirm-join-mailing-list = Nineki nitepalehuis ipan Common Voice ipan mailing list.
 validated-hours = Horas Validadas
 recorded-hours = Horas Registradas
 whats-inside = ¿Qué hay dentro del conjunto de datos de Common Voice?
@@ -640,34 +653,58 @@ data-other-ted-description = El corpus TED-LIUM se elaboró a partir de charlas 
 data-other-tatoeba-description = Tatoeba es una gran base de datos de oraciones, traducciones y audio hablado para usar en el aprendizaje de idiomas. Esta descarga contiene inglés hablado grabado por su comunidad.
 your-feedback = ¿Tiene ideas sobre cómo podemos mejorar el conjunto de datos de Common Voice? Háganos saber en Discourse
 go-discourse = Ir a Discurso
+missing-language = Tla ashtikita mo idioma, shiya ipan to pagina de idiomas.
 go-languages-page = Ir a la página de idiomas
 ready-to-validate = ¿Listo para ayudar a validar oraciones?
 more = Más
 close = tsakua
 download = Descargar
 dataset-version = Versión
+sha256-checksum-copied = SHA256 Suma de verificación copiado!
+sha256-checksum-copied-error = Error al copiar SHA256 Checksum
 clipboard-not-supported = Portapapeles no compatible
 
 ## Download Modal
 
 download-title = Su descarga ha comenzado.
 download-helpus = Ayúdenos a construir una comunidad en torno a la tecnología de voz, manténgase en contacto por correo electrónico.
+download-form-email =
+    .label = Nika mo email
+    .value = Taskamati, tikamatise
 download-back = Volver a Conjuntos de datos de Common Voice
+download-no = Ashkana Tlaskamati
 
 ## Contact Modal
 
 contact-title = Formulario de contacto
 contact-form-name =
     .label = Nombre
+contact-form-message =
+    .label = Mensaje
+contact-required = Ne moneki.
 
 ## Request Language Modal
 
 request-language-title = Solicitud de idioma
 request-language-form-language =
     .label = Idioma
+request-language-success-title = Mo idioma request kuali mo titlanij, tlaskamati.
+select-language = Seleccione el idioma
+other-language = Seyoj Idioma
 
 ## Request Language Pages
 
+request-language-heading = Ni neki se yankhik idioma
+request-language-explanation-1 = Shikita tla mo idioma huala ipan lista tlen <languagesPageLink> Lista de idiomas Common Voice </languagesPageLink>.Tlan ashkana huala,shitekihio no formulario huan tohuanti ti <strong>timitstitlanise se email ipan tikuamachulis kenikatsa titlalis mo idioma</strong>.
+request-language-explanation-2 = Ipan <strong> kimatis to community manager then to comunidad ipan ta tineki titepaleuis</strong, ipan huelis mitsmakas apoyo o informacion tlen huelis titekihuis
+request-language-form-email =
+    .label = Mo direccion email.
+request-language-form-info =
+    .label = Informacion then mo idioma.
+request-language-form-info-explanation = Shi tlali nochi infomacion then hueli ipan mo idioma.Ni hueli kipias
+request-language-form-info-explanation-list-1 = Kenikatsa itoka mo idioma
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeLink> tla ashtimati
+request-language-form-info-explanation-list-3 = Paginas web then hueli techpalehuis ti cuamachilise mo idioma.
 # Success page
 request-language-success-heading = ¡Gracias! Ha enviado una nueva consulta de idioma
 
@@ -708,7 +745,7 @@ review-instruction = Revisar y volver a grabar clips si es necesario
 clips-uploaded = Clips subidos
 record-abort-title = ¿Terminar de grabar primero?
 record-abort-text = Si te vas ahora, perderás tu progreso.
-record-abort-submit = Enviar clips
+record-abort-submit = Titlanise clips
 record-abort-continue = Terminar de grabar
 record-abort-delete = Salir y eliminar clips
 listen-empty-state = Es posible que nos hayamos quedado sin clips: actualice la página o vuelva a intentarlo más tarde.
@@ -816,6 +853,10 @@ keep = Mantener
 remove = Eliminar
 keep-info = Sus grabaciones de voz anónimas permanecerán en el conjunto de datos de Common Voice. Una vez que elimine su perfil, ya no podrá enviar una solicitud para eliminar sus grabaciones del conjunto de datos.
 remove-info = Revisaremos su solicitud para eliminar sus grabaciones de voz del conjunto de datos. Si se aprueba su solicitud, nos pondremos en contacto con quienes descargaron el conjunto de datos y les solicitaremos que también eliminen sus grabaciones de voz.
+why-delete-recordings =
+    Las grabaciones de Common Voice son utilizadas por académicos, pequeñas empresas y entusiastas del reconocimiento de voz para ayudar a capacitar y hacer crecer los recursos disponibles públicamente, como los modelos de voz.
+    
+    ¿Puede decirnos por qué desea que se eliminen sus grabaciones?
 profile-form-delete = Borrar perfil
 
 ## Profile Download
@@ -856,6 +897,7 @@ demo-welcome-subheader = ¿Interesado en aprender más y contribuir al proyecto?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice es el conjunto de datos de voz en varios idiomas disponible públicamente más grande del mundo.
 card-button-next = Próximo
 card-button-back = Atrás
 demo-language-select-label = Explorar idiomas
@@ -865,7 +907,7 @@ demo-language-select-label = Explorar idiomas
 demo-account-card-body = A la derecha describimos los beneficios y aclaramos qué información hacemos pública. Use los enlaces a continuación para comenzar con una cuenta de Common Voice en su propio dispositivo.
 demo-account-enter-email =
     .label = Ingrese el correo electrónico para enviar un enlace de registro
-demo-account-sign-up = Enviar enlace de registro
+demo-account-sign-up = Ti titlanise se enlace ipan registro
 
 ## Demo Contribute
 
@@ -1013,7 +1055,7 @@ sc-submit-ph-one-per-line =
 sc-submit-ph-read-how-to =
     .placeholder = Lea nuestro Cómo hacerlo si no está seguro de cómo atribuirlo.(masculino)
 sc-submit-button =
-    .submitText = enviar
+    .submitText = Titlanise
 sc-submit-filtered = Oraciones filtradas debido a que fallan los requisitos (envíe versiones corregidas como nuevas oraciones):
 
 ## ADD LANGUAGE
@@ -1113,10 +1155,11 @@ why-donate-explanation-2 = Para que la tecnología funcione bien para todos, los
 add-information-button = Añadir información
 continue-speaking-button = No gracias, sigue hablando
 thanks-for-voice-toast = Gracias por la información de tu voz.
-thanks-for-voice-toast-error = Se produjo un error al enviar la información de su voz
+thanks-for-voice-toast-error = Tipian se error kema ti tilanihe mo información de voz
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Gracias por aportar tu voz!
 second-cta-subtitle-text = Con un perfil, puede realizar un seguimiento de su actividad y conectarse con una comunidad de colaboradores de datos de voz.
 create-profile-button = Crear un perfil
 # IMAGE TAGS
 img-alt-success-checkmark = marca de éxito
+sentence-collection = Colección de oraciones

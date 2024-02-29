@@ -6,10 +6,6 @@
     width: 70%;
     z-index: 10;
 
-    @media (--xs-only) {
-        height: 90%;
-    }
-
     .header-text-container {
         margin-bottom: 80px;
 

@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = o pana e lipu tawa mi. mi wile sona e ijo pi pali Common Voice Project.
+yes-receive-emails = o pana e lipu tawa mi. mi wile sona e ijo sin pi kulupu Common Voice Project.
 stayintouch = lon kulupu Mozilla la, mi mute li pali e ilo pi toki kalama. mi mute li wile e ni: sina pana e ijo sin, e sona sin, e kepeken sina pi ilo ni tawa mi mute.
 privacy-info = awen pona pi sona sina li suli tawa mi. o kama sona e nasin lon lipu pi <privacyLink>nasin sona mi</privacyLink>
 return-to-cv = o tawa ilo Common Voice
@@ -46,6 +46,7 @@ be = toki Pijelalukaja
 bg = toki Pokasi
 bm = toki Pamanankan
 bn = toki Panla
+bo = toki Sipetan
 br = toki Peson
 bs = toki Posan
 bxr = toki Pulijata
@@ -240,6 +241,7 @@ share-text = sina wile pana e sona toki tawa ilo la, o pana e toki uta sina lon 
 link-copied = sina kama jo e nimi nasin
 back-top = o tawa sewi
 logout = o weka tan sijelo ilo
+donate = o pana e mani
 
 ## Home Page
 
@@ -421,6 +423,7 @@ accept-privacy = ni li pona: ilo li jo e sona mi kepeken <privacyLink>nasin pi l
 accept-privacy-title = nasin pi len sona li pona tawa mi
 accept-privacy-and-terms = <termsLink>lawa kepeken</termsLink> en <privacyLink>nasin pi len sona</privacyLink> li pona tawa mi.
 login-identity = nasin nimi pi sijelo sina
+login = o kama lon
 login-signup = o kama / o pali e sijelo ilo
 edit = o ante
 email-subscriptions = lipu wile pi poki lipu sina
@@ -601,7 +604,6 @@ about-playbook-how-add-sentences = nasin seme la mi ken pana e sitelen?
 about-playbook-how-add-sentences-content-1 = <strong>ilo Sentence Collector</strong> li kama jo e sitelen, li pona e sitelen open. o pali e <scAccountLink>sijelo ilo</scAccountLink>. ni la, o pana e toki sina tawa <strong>lipu jan</strong> sina. sina ken <strong>pana</strong> e sitelen. sina ken <strong>pona</strong> e sitelen.
 about-playbook-how-add-sentences-content-2 = sitelen li pona tawa jan tu la, ilo li pana e sitelen ni tawa sona pi ilo Common Voice. sina ken pali e nasin pona pi toki sina <languageGuidelinesLink>lon lipu ni</languageGuidelinesLink>. ni o lon: <licenseLink>jan ale li ken kepeken</licenseLink> sitelen ale. sitelen o kepeken nimi 14 anu lili. o toki tawa jan sitelen la, ona li ken kepeken <waiverLink>lipu ni</waiverLink>, li ken pana e sitelen ona kepeken nasin open. ona li ken pana e lipu tawa poki lipu commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = sina ken kepeken <scraperLink>ilo pi nimi tan</scraperLink>. ona la sina ken kama jo e sitelen tan lipu Wikipedia.
-about-playbook-how-add-sentences-content-4 = toki li pona la, mi pana insa e ona lon tenpo suno nanpa tu wan pi tenpo suno. mi pana e ona lon ilo lon tenpo pi pana weka kalama.
 
 ## How to record quality
 
@@ -844,6 +846,7 @@ action-click = pilin
 action-tap = pilin
 contribute = o pana
 listen = o kute
+write = o sitelen
 skip = mi sona ala, o pana e toki ante
 shortcuts = nena pali
 clips-with-count-pluralized =
@@ -906,6 +909,10 @@ target-segment-first-banner = o pona e pali suli nanpa wan pi ilo Common Voice l
 target-segment-add-voice = o pana e toki uta sina
 target-segment-learn-more = o kama sona
 
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = kulupu kalama
+
 ## Reporting
 
 report = o toki e pakala
@@ -948,10 +955,10 @@ validations =
 your-languages = toki sina
 toward-next-goal = tawa wile pali sin
 goal-reached = sina pini!
-clips-you-recorded = kalama awen sina
-clips-you-validated = kalama awen pi pona sina
-todays-recorded-progress = kalama awen tan tenpo suno ni
-todays-validated-progress = kalama awen pona tan tenpo suno ni
+clips-you-recorded = sina pana e kalama pi mute ni
+clips-you-validated = sina kute e kalama pi mute ni
+todays-recorded-progress = tenpo suno ni la kalama awen
+todays-validated-progress = tenpo suno ni la kalama awen pona
 stats = pali
 awards = ijo tan pali pona
 you = sina
@@ -1505,3 +1512,41 @@ partnerships-header-text =
     sina wile ala wile poka? wile la o kama toki tawa mi!
 partnerships-get-in-touch = o kama toki
 partnerships-become-a-partner = o kama poka pi kulupu Common Voice
+partnerships-our-partners = kulupu poka
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = sina pona tan ni: sina pana e kalama sina!
+first-cta-subtitle-text = sina wile ala wile pana e sona pi nasin toki sina?
+why-donate = sina wile e mani tan seme?
+add-information-button = o pana e sona
+continue-speaking-button = o awen kalama
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = sina pona tan ni: sina pana e kalama sina!
+second-cta-subtitle-text = sina pali e sijelo la sina ken sona e ni: sina pali seme? kin la sina ken toki tawa kulupu pi ilo ni.
+already-have-an-account = sina jo ala jo e sijelo? jo la <login>o kama lon</login>
+create-profile-button = o pali e sijelo
+# IMAGE TAGS
+img-alt-success-checkmark = sitelen pona
+sentence-collection = kama jo sitelen
+varying-pronunciations = nimi la kalama li ante
+misreadings = pakala toki
+offensive-content = toki ike
+background-noise = kalama pi ijo ante
+background-voices = toki pi jan ante
+volume = wawa kalama
+reader-effects = nasin toki jan
+just-unsure = sina sona ala anu seme?
+background-noise-explanation = sina o ken kute e nimi ale lon kalama. kalama suli en toki pi jan ante en kalama musi la ilo o awen ken sona e nimi. ijo li pakala e toki la sina ken ala kute e nimi ale la o weka e toki.
+citing-sentences-subheader-websites = sitelen li tan lipu ilo
+citing-sentences-subheader-offline-sources = sitelen li tan ala ilo
+adding-sentences-subheader-length = suli sitelen
+adding-sentences-subheader-length-explanation = sitelen la nimi o mute lili, o lili tawa luka luka luka.
+adding-sentences-subheader-spelling-punctuation-explanation = nimi sitelen o pona lon nasin o pakala ala tawa lukin.
+adding-sentences-subheader-speakable = sina o ken toki e sitelen
+adding-sentences-subheader-punctuation = sitelen pini
+adding-sentences-subheader-offensive-content = toki ike
+write-page-subtitle = sina pana e toki la ona li kama lon kulupu sona li tawa ale kepeken nasin CC0.
+sentence =
+    .label = sitelen
+citation-input-value = sitelen li tan seme?
+report-sc-different-language = toki ante
+review-error-rate-limit-exceeded = sina kepeken tenpo pi lili ike. o lukin e sitelen lon tenpo pona, o sona e pona ona.

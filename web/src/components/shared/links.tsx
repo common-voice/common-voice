@@ -93,3 +93,14 @@ export const ContactLink = ({ dispatch, ...props }: SharedLinkProps) => {
     </>
   );
 };
+
+export const EmailLink = ({ ...props }: SharedLinkProps) => {
+  return (
+    <a
+      href="mailto:commonvoice@mozilla.com"
+      target="_blank"
+      rel="noreferrer"
+      {...props}
+    />
+  )
+}

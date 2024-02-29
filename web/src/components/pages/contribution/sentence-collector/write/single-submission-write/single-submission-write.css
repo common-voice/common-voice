@@ -1,0 +1,293 @@
+@import url('../../../../../media.css');
+
+.write-wrapper {
+    & .guidelines-form {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        min-height: 78vh;
+        justify-content: space-between;
+
+        @media (--sm-down) {
+            padding: 20px 20px 0;
+        }
+    }
+
+    & .subtitle {
+        margin-bottom: 20px;
+        font-size: var(--font-size-sm);
+        font-style: italic;
+        color: var(--near-black);
+
+        @media (--xs-down) {
+            font-size: var(--font-size-xs);
+            text-align: center;
+            margin-right: 12px;
+            margin-left: 12px;
+        }
+    }
+
+    & label.sentence-input {
+        margin: 0 auto 40px;
+        height: 20vh;
+        min-height: 260px;
+
+        @media (--xl-up) {
+            width: 700px;
+        }
+
+        @media (--md-down) {
+            width: 90vw;
+        }
+
+        @media (--md-down) {
+            height: 15vh;
+        }
+
+        textarea {
+            height: 100%;
+            resize: none;
+            font-size: var(--font-size-xl);
+            padding: 16px;
+
+            @media (--xs-down) {
+                font-size: var(--font-size);
+            }
+
+            &::placeholder {
+                font-size: var(--font-size);
+
+                @media (--xs-down) {
+                    font-size: var(--font-size-xs);
+                }
+            }
+        }
+    }
+
+    & label.citation-input {
+        input[type='text'] {
+            @media (--xs-down) {
+                font-size: var(--font-size-xs);
+
+                &::placeholder {
+                    font-size: var(--font-size-xs);
+                }
+            }
+        }
+    }
+
+    & label.sentence-domain-select {
+        margin-block-end: 36px;
+    }
+
+    & label.sentence-input.sentence-error,
+    label.citation-input.citation-error {
+        textarea {
+            border-color: var(--red);
+        }
+
+        input[type='text'] {
+            border-color: var(--red);
+        }
+    }
+
+    & .inputs-and-instruction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+
+        & .inputs-and-rules-wrapper {
+            display: flex;
+
+            @media (--md-down) {
+                flex-direction: column;
+            }
+
+            & .inputs {
+                height: 100%;
+
+                @media (--lg-only) {
+                    width: 55vw;
+                }
+
+                & div.citation-error-message {
+                    background: var(--near-black);
+                    height: 56px;
+                    width: 200px;
+                    position: absolute;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 4px;
+                    color: var(--white);
+                    font-size: var(--font-size-xs);
+                }
+            }
+        }
+    }
+
+    & .expandable-container {
+        width: 700px;
+
+        & .expandable-information__summary {
+            @media (--xs-down) {
+                font-size: var(--font-size-xs);
+            }
+        }
+
+        & .expandable-information__text {
+            a {
+                color: var(--blue);
+            }
+        }
+
+        @media (--xs-down) {
+            font-size: var(--font-size-xs);
+        }
+
+        @media (--md-down) {
+            width: 85vw;
+        }
+
+        & .bold {
+            font-weight: 600;
+            margin-inline-end: 4px;
+            display: inline-block;
+        }
+
+        & .expandable-information__summary__arrow {
+            polygon {
+                fill: var(--black);
+            }
+        }
+    }
+
+    & .buttons {
+        display: flex;
+        justify-content: space-between;
+
+        & .write-form-container {
+            flex-direction: column;
+
+            @media (--md-down) {
+                margin-bottom: 16px;
+            }
+        }
+
+        > * {
+            display: flex;
+            align-items: center;
+        }
+
+        & .button {
+            height: 57px;
+            padding: 0 38px;
+            min-width: auto;
+            width: auto;
+
+            @media (--md-down) {
+                border: none;
+                padding: 0 10px;
+            }
+
+            svg {
+                margin-inline-end: 10px;
+                width: 22px;
+                height: 22px;
+
+                path {
+                    fill: var(--black);
+                }
+            }
+        }
+
+        & .guidelines-button {
+            margin-inline-end: 20px;
+        }
+
+        form {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            @media (--md-down) {
+                width: 100%;
+            }
+        }
+
+        & .labeled-checkbox {
+            margin-bottom: 12px;
+
+            @media (--md-down) {
+                width: 100%;
+            }
+
+            & span.label {
+                font-size: var(--font-size-xs);
+                @media (--lg-up) {
+                    width: 190px;
+                }
+
+                a {
+                    color: var(--blue);
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        & .submit {
+            button {
+                border: none;
+                color: var(--white);
+                border-radius: 50px;
+                width: 178px;
+                height: 57px;
+                background: var(--blue);
+                font-family: var(--base-font-family);
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+
+            &.disabled {
+                & button {
+                    cursor: default;
+                    color: var(--warm-grey);
+                    background: var(--desert-storm);
+                }
+
+                & .background {
+                    display: none;
+                }
+            }
+
+            & .background {
+                height: auto;
+            }
+        }
+
+        & .primary-button {
+            @media (--md-down) {
+                width: 100%;
+            }
+
+            button {
+                @media (--md-down) {
+                    width: 100%;
+                }
+            }
+        }
+
+        @media (--md-down) {
+            flex-direction: column-reverse;
+            align-items: center;
+            margin: 0 40px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}

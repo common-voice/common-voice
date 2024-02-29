@@ -44,6 +44,7 @@ be = 白俄羅斯語
 bg = 保加利亞語
 bm = 班巴拉語
 bn = 孟加拉語
+bo = 藏語
 br = 布里多尼語
 bs = 波士尼亞語
 bxr = 布里亞特語
@@ -53,6 +54,7 @@ cak = 喀克奇可語
 ckb = 中庫德語
 cnh = 哈卡秦語
 co = 科西嘉語
+crh = 克里米亞韃靼語
 cs = 捷克語
 cv = 楚瓦什語
 cy = 威爾斯語
@@ -68,16 +70,20 @@ eo = 世界語（Esperanto）
 es = 西班牙語
 et = 愛沙尼亞語
 eu = 巴斯克語
+ewo = 埃溫多語
 fa = 波斯語
 ff = 富拉語
 fi = 芬蘭語
 fo = 法羅語
 fr = 法語
+fuf = 幾內亞普拉語
 fy-NL = 弗利西亞語
 ga-IE = 愛爾蘭語
 gl = 加里西亞語
 gn = 瓜拉尼語
 gom = 果亞康卡尼語
+gu-IN = 古吉拉特語
+guc = 瓦尤語
 ha = 豪薩語
 he = 希伯來語
 hi = 印地語
@@ -97,6 +103,7 @@ it = 義大利語
 izh = 伊喬里亞語
 ja = 日語
 jbo = 邏輯語
+jv = 爪哇語
 ka = 喬治亞語
 kaa = 卡拉卡爾帕克語
 kab = 卡拜爾語
@@ -117,7 +124,9 @@ lij = 利古里亞語
 ln = 林格拉語
 lo = 寮語
 lt = 立陶宛語
+ltg = 拉特加萊語
 lv = 拉脫維亞語
+lzz = 拉茲語
 mai = 邁蒂利語
 mdf = 莫克沙語
 mg = 馬拉加西語
@@ -138,15 +147,18 @@ nb-NO = 挪威語（Bokmål）
 nd = 北恩德貝勒語（辛巴威）
 ne-NP = 尼泊爾語
 nhe = 墨西哥東華斯特的納華特語
+nhi = 西部山區普埃布拉納瓦特語
 nia = 尼亞斯語
 nl = 荷蘭語
 nn-NO = 挪威語（Nynorsk）
 nr = 南恩德貝勒語（南非）
 nso = 北索托語
+ny = 欣亞尼亞語
 nyn = 尼安科萊語
 oc = 奧西坦語
 om = 阿方奧羅莫語
 or = 奧里亞語
+os = 奧賽梯語
 pa-IN = 旁遮普語
 pap-AW = 帕皮亞門托語（阿魯巴）
 pl = 波蘭語
@@ -154,6 +166,7 @@ ps = 普什圖語
 pt = 葡萄牙語
 quc = 基切語
 quy = 克丘亞占卡語
+qvi = 吉楚瓦語
 rm-sursilv = 羅曼蘇塞瓦語
 rm-vallader = 羅曼什瓦拉德語
 ro = 羅馬尼亞語
@@ -163,6 +176,8 @@ sah = 薩哈語
 sat = Santali（Ol Chiki 字）
 sc = 薩丁尼亞語
 scn = 西西里語
+sco = 蘇格蘭語
+sd = 辛德語（印度）
 sdh = 南庫德語
 shi = 施盧赫語
 si = 僧加羅語
@@ -203,7 +218,9 @@ uz = 烏茲別克語
 ve = 齊溫達語
 vec = 威尼斯語
 vi = 越南語
+vmw = 伊瑪楚瓦語
 vot = 沃特語
+wep = 西發里亞語
 wo = 渥魯夫語
 xh = 科薩語（南非）
 yi = 意第緒語
@@ -240,6 +257,7 @@ share-text = 請到 { $link } 獻聲，協助我們教導機器了解人們是�
 link-copied = 已複製鏈結
 back-top = 回到頁面頂端
 logout = 登出
+donate = 捐款
 
 ## Home Page
 
@@ -388,8 +406,12 @@ native-language =
 profile-form-add-accent = 新增自訂腔調「{ $inputValue }」
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
-male = 男性
-female = 女性
+male_masculine = 男性
+female_feminine = 女性
+intersex = 雙性
+transgender = 跨性別
+non-binary = 非二元性別
+do_not_wish_to_say = 我不想說
 # Gender
 other = 其他
 why-profile-title = 為什麼需要帳號？
@@ -425,6 +447,7 @@ help-accent = 需要關於腔調的說明嗎？
 help-accent-explanation = 腔調就是您發音的方式，可能會受您生活的地方、您會說的其他語言以及其他許多因素影響。您可以在此分享任何您覺得有關的資訊。
 help-variants = 需要關於變體的相關說明嗎？
 help-variants-explanation = 變體是一種語言的特定格式，像是由居住在共同地區或社群的人才有的特定說話腔調。有時這也稱為「方言」。
+help-sex-or-gender-changes = 需要更改性別嗎？
 
 ## Profile - Email
 
@@ -601,7 +624,6 @@ about-playbook-how-add-sentences = 要如何加入句子？
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> 是一套用來收集與驗證公眾領域語句的工具。您要先<scAccountLink>註冊帳號</scAccountLink>，然後將您使用的語言加到<strong>個人資料</strong>中，然後就可以<strong>新增</strong>句子或者<strong>審核</strong>先前新增的句子。
 about-playbook-how-add-sentences-content-2 = 每個句子都必須經過兩個人審核接受才會被加入 Common Voice。您可以<languageGuidelinesLink>在此</languageGuidelinesLink>建立您的語言的審核標準。句子的內容必須使用<licenseLink>公眾領域</licenseLink>授權條款，並且不超過 15 個字。您可以請文字內容的作者或著作權擁有者<waiverLink>以 CC0 條款拋棄著作權</waiverLink>，並且寄到 commonvoice@mozilla.com 給我們即可使用。
 about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 來從維基百科收集短句。
-about-playbook-how-add-sentences-content-4 = 每週三會匯出驗證完成的句子，並且在下次發行時一併發布。
 
 ## How to record quality
 
@@ -724,6 +746,7 @@ validated-hr-total = 總驗證時數
 overall-hr-total = 全體總時數
 cv-license = 授權條款
 audio-format = 音檔格式
+dataset-splits = 拆開（年齡與性別）
 number-of-voices = 錄音人數
 splits = 分割
 email-to-download = 輸入 E-Mail 即可下載
@@ -768,6 +791,12 @@ dataset-version = 版本
 sha256-checksum-copied = 已複製 SHA256 Checksum！
 sha256-checksum-copied-error = SHA256 Checksum 複製失敗！
 clipboard-not-supported = 不支援剪貼簿
+no-information-available = 無可用資訊
+dataset-metadata-sex = 性別
+# dataset metadata - age of contributor
+dataset-metadata-age = 年齡
+donate-modal-message = 正在下載您的資料集！
+dataset-donate-modal-heading = 您知道嗎…
 
 ## Download Modal
 
@@ -826,6 +855,8 @@ language-section-in-progress = 準備中
 language-section-in-progress-new-description = 這些語言目前正由社群開發中，進度條展示每種語言<localizationGlossaryLink>網站在地化</localizationGlossaryLink>及<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>的狀況。
 language-section-launched = 已上線
 language-section-launched-description = 以下「已上線」的語言，代表網站已經成功<localizationGlossaryLink>在地化</localizationGlossaryLink>，且也已經<sentenceCollectionGlossaryLink>搜集了夠多句子</sentenceCollectionGlossaryLink>讓大家能用<speakLink>說話</speakLink>及<listenLink>聆聽</listenLink>的方式貢獻。
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = 最後更新：{ $lastUpdatedTimeStamp }
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-meter-in-progress = 進度
@@ -844,6 +875,8 @@ action-click = 點擊
 action-tap = 點選
 contribute = 參與貢獻
 listen = 聆聽
+write = 寫句子
+review = 審核句子
 skip = 略過
 shortcuts = 捷徑
 clips-with-count-pluralized =
@@ -887,6 +920,9 @@ listen-3rd-time-instruction = 完成兩筆了<playIcon></playIcon>，繼續保�
 listen-last-time-instruction = <playIcon></playIcon>最後一筆了！
 listen-empty-state = 我們已經沒有這種語言的片段可以驗證了…
 listen-loading-error = 我們無法取得錄音片段讓您聆聽確認，請稍候再試。
+listen-abort-title = 是否完成驗證片段？
+listen-abort-cancel = 繼續驗證
+listen-abort-confirm = 完成驗證
 speak-empty-state = 我們已經沒有這種語言的文字可以錄音了…
 speak-empty-state-cta = 貢獻語句
 speak-loading-error = 我們無法取得句子讓您錄音，請稍候再試。
@@ -903,6 +939,7 @@ target-segment-learn-more = 了解更多
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = 收集語音
+contribute-sentence-collection-nav-header = Sentence Collection
 
 ## Reporting
 
@@ -1525,3 +1562,185 @@ already-have-an-account = 已經有帳號了嗎？<login>請登入</login>
 create-profile-button = 註冊帳號
 # IMAGE TAGS
 img-alt-success-checkmark = 成功勾勾
+# GUIDELINES PAGE
+guidelines-header = 貢獻指南
+guidelines-header-subtitle = 了解如何向 Common Voice 資料庫貢獻語音與協助驗證
+voice-collection = 收集語音
+sentence-collection = 語句集合
+varying-pronunciations = 不同發音
+misreadings = 誤讀
+offensive-content = 冒犯性內容
+background-noise = 背景噪音
+background-voices = 背景說話聲
+volume = 音量
+reader-effects = 聲音的表現
+just-unsure = 還是不確定嗎？
+example = 範例
+varying-pronunciations-explanation-1 = 我們歡迎不同的腔調！當你認為錄音者發音錯誤、或重音放錯地方時，請務必謹慎決定是否要拒絕一段錄音。世界上有很多不同的腔調，有些在你的地區可能不太習慣。對跟你不同腔調的貢獻者，也請保持客氣。
+varying-pronunciations-explanation-2 = 反過來說，如果你覺得錄音者根本沒看過這個字，不知道正確發音，只是在有邊讀邊、無邊讀中間時，請拒絕這個錄音。如果你無法確定，請按跳過。
+varying-pronunciations-example = 周潤發跟鳳飛飛
+varying-pronunciations-tip-1 = (有些人可能會把「周潤發」讀出「鄒論花」)
+varying-pronunciations-tip-2 = (有些人可能會把「鳳飛飛」發音「鬨揮揮」)
+offensive-content-explanation = 句子是透過社群管理程序來進行審查的，但這個程序並不完美。若您看到或聽到冒犯您，或讓您不滿意的句子（例如句子違反了我們的<participationGuidelines>社群參與準則</participationGuidelines>），請使用網站中的標記按鈕。您也可以寄信到 <emailFragment>commonvoice@mozilla.com</emailFragment> 來聯絡我們。
+misreadings-explanation-1 = 朗讀出所有文字十分重要。聆聽錄音片段時，請注意內容是否與文字內容完全一致，如有添字、漏字，則將其駁回。
+misreadings-explanation-2 = 常見錯誤包含有：
+misreadings-explanation-3 = 句首多了「啊」或句尾多了「吼」
+misreadings-explanation-4 = 省略了某些詞，例如「桌子上」讀成「桌上」。
+misreadings-explanation-5 = 閱讀時略過或多了某些字。例如「錄音的注意事項」一句中，只唸出「錄音注意事項」（未唸出「的」字），或唸成「錄音時的注意事項」（多出「時」字）。
+misreadings-explanation-6 = 因為太快按下停止錄音而導致句尾被截斷。
+misreadings-explanation-7 = 錄音中多次嘗試念出某些文字。
+misreadings-example-1 = 我們要出去買咖啡。
+misreadings-example-2 = 我們要去買咖啡。
+misreadings-example-3 = 我們要出去買杯咖啡。
+misreadings-example-4 = 大黃蜂路過。
+misreadings-tip-1 = （少了「出」）
+misreadings-tip-2 = （原句中沒有「杯」）
+misreadings-tip-3 = （內容完全不符）
+background-noise-explanation = 錄音中的每一個字都應清晰可辨。我們希望機器學習演算法能夠處理各種背景噪音，甚至可以接受相對嘈雜或小聲的背景音樂，但前提是這些聲音不妨礙您聽清整個文本。如出現妨礙您聽清文本的雜音，或朗讀聲音斷斷續續，則將其駁回。
+background-noise-example-1 = 三疊紀的大恐龍。
+background-noise-example-2 = （打噴嚏）三疊紀的好大（咳嗽）恐龍。
+background-noise-example-3 = 三疊紀（咳嗽）的大恐龍。
+background-noise-example-4 = [雜音]…三疊紀的大…[雜音]…龍。
+background-noise-tip-1 = [被背景噪音打斷]
+background-noise-tip-2 = [聽不清楚某些字]
+background-voices-explanation = 可以接受一定程度的背景噪音，但如果您聽到錄音中有其他人在說話，則應駁回該錄音。這種情況常發生於身邊開著電視，或附近有人在交談。
+background-voices-example-1 = 三疊紀的大恐龍...你好了嗎？
+background-voices-tip-1 = [在第一個人錄音時，背景傳來另一個人的聲音]
+volume-explanation = 錄音者的聲音大小會有自然差異。當音量太高以至於破音，或音量太小以至於（不看書面文字就）不知道在唸什麼時，請駁回。
+reader-effects-explanation = 大部分的錄音者是以日常說話的方式錄製。當偶而聽到「不自然」的錄音，例如用喊的、氣音、或者「戲劇性」的演出時，仍可以接受。但請拒絕把句子唱出來，或是電腦合成的聲音。
+just-unsure-explanation = 如果你遇到本指南中沒有涵蓋的狀況，還請自行盡力判斷。如果真的很難決定，直接按下「略過」到下一句去吧。
+still-have-questions = 還有疑問嗎？
+contact-common-voice = 聯絡 Common Voice 團隊
+public-domain = Public Domain
+citing-sentences = 引用句子
+adding-sentences = 新增句子
+reviewing-sentences = 審核句子
+sentence-domain = 語句領域
+public-domain-explanation-1 = 因為 Common Voice 語音資料庫採取 <publicDomain>無版權限制</publicDomain> （<cc0>CC0授權</cc0>）的方式釋出，確保所有的句子都屬於 <publicDomain>公眾授權</publicDomain>（公共領域）萬分重要。請務必指提交你確定無任何版權疑慮的句子，並且標示明確的出處。
+public-domain-explanation-2 = 要打造好用的語音識別引擎，最好的語句是現代口語。以下是一些能幫助您造句的好點子：
+public-domain-explanation-3 = 自己動手，或與朋友或語言社群一起創造現代、口語化句子（例如：舉辦「寫作馬拉松」）
+public-domain-explanation-4 = 聯絡作者、劇作家或電影編劇並詢問他們是否願意將部分作品貢獻給公眾領域
+public-domain-explanation-5 = 尋找不再受著作權保護的文字（例如大多數在 1920 年之前出版的書籍）
+public-domain-explanation-6 = 聯絡政府、非營利組織或媒體以看看他們是否可以將任何網頁內容、報告或其他內容貢獻給公眾領域
+citing-sentences-explanation-1 = 正確引用內容是相當重要，這樣我們才可以確認句子是否皆屬於公眾領域並不受著作權限制。
+citing-sentences-subheader-websites = 網站
+citing-sentences-subheader-websites-explanation = 您可以包含網址，例如「Common Voice - https://commonvoice.mozilla.org/」
+citing-sentences-subheader-academic-reference = 學術參考資料
+citing-sentences-subheader-academic-reference-explanation = 您也可以使用學術參考文獻格式，例如哈佛格式「Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)」
+citing-sentences-subheader-offline-sources = 離線來源
+citing-sentences-subheader-offline-sources-explanation = 若為沒有線上版本的公眾領域文字，也可以使用學術參考文獻格式。例如哈佛格式「Jess (2021) My Public license poems」
+citation =
+    .label = 引用
+self-citation = 自我引用
+self-citation-explanation = 如果是您自己撰寫的內容，請依下列方式引用自己。
+adding-sentences-subheader-length = 長度
+adding-sentences-subheader-length-explanation = 一個句子的長度應該不要超過 15 個字。
+adding-sentences-subheader-spelling-punctuation = 拼字與標點符號
+adding-sentences-subheader-spelling-punctuation-explanation = 句子必須拼得正確。
+adding-sentences-subheader-speakable = 好念
+adding-sentences-subheader-speakable-explanation = 最理想的句子應該自然流暢、且口語化 — 人們能夠輕鬆閱讀並理解這些句子。雖然句子中的抑揚頓挫與單字都很重要，但我們也嘗試讓錄音過程盡可能對志工社群來說，更有吸引力和有趣。
+adding-sentences-subheader-numbers = 數字
+adding-sentences-subheader-numbers-explanation = 原文段落中不應包含數字，因為會在唸出來的時候造成問題。數字的念法需依前後文而定，可能會在資料集中造成混淆。舉例來說，數字「2409」有時會念成「兩千四百零九」，也有可能念成「二四零九」。
+adding-sentences-subheader-abbreviations = 縮寫
+adding-sentences-subheader-punctuation = 標點符號
+adding-sentences-subheader-punctuation-explanation = 應該只在有絕對必要的時候才加入特殊符號及標點。舉例來說，英文字「don’t」、「we’re」當中的撇號（apostrophe）應該包含在原文段落中，但不太可能會需要「@」或「#」等特殊符號。
+adding-sentences-subheader-special-characters = 特殊符號與外文
+adding-sentences-subheader-special-characters-explanation-1 = 必須使用原文語言所使用的相關文字或字母，舉例來說：「ж」是俄語字母，但英文或中文都不會用到，因此不該包含在原文中。
+adding-sentences-subheader-offensive-content = 冒犯性內容
+reviewing-sentences-explanation-1 = 若句子符合上述標準，請點擊「通過」按鈕。
+reviewing-sentences-explanation-2 = 若句子不符合上述標準，請點擊「拒絕」按鈕。
+reviewing-sentences-explanation-3 = 如果您不確定句子是否符合上述標準，也可以略過，跳到下一句。
+reviewing-sentences-explanation-4 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
+
+## WRITE PAGE
+
+write-instruction = 加入 <icon></icon> 公眾領域的句子
+sentence =
+    .label = 語句
+sentence-input-value = 在此輸入公眾領域語句
+citation-input-value = 語句的來源
+citation =
+    .label = 引用
+sc-review-write-title = 我可以加入哪些句子？
+new-sentence-rule-1 = <noCopyright>無版權限制</noCopyright> (<cc0>cc-0 公眾授權</cc0>)
+new-sentence-rule-2 = 少於 15 字
+new-sentence-rule-3 = 使用正確語法
+new-sentence-rule-4 = 正確使用標點符號（句尾不需句號）
+new-sentence-rule-5 = 不包含英數字（數字可改為國字大寫）
+new-sentence-rule-6 = 沒有外語文字
+new-sentence-rule-7 = 明確標示出處（歌詞、台詞、市售書籍皆不可）
+new-sentence-rule-8 = 結構簡單易讀（複雜的句子請截斷成兩句）
+how-to-cite = 我該如何引用？
+how-to-cite-explanation-bold = 引用時請提供網址或作品全名。
+how-to-cite-explanation = 如果是你自己造的句子，只需註明<italicizedText>「Self Citation」（自我引用）</italicizedText>即可。我們需要知道內容的來源，以便確認其是否屬於公眾領域、是否有版權限制。更多引用方面的資訊，請參閱我們的<guidelinesLink>指南頁面</guidelinesLink>。
+guidelines = 指南
+contact-us = 聯絡我們
+add-sentence-success = 已收集到 1 句
+add-sentence-error = 加入句子時發生問題
+required-field = 請填寫此欄位。
+single-sentence-submission = 送出單一句子
+bulk-sentence-submission = 送出大批句子
+single-sentence = 單一句子
+bulk-sentences = 大批句子
+sentence-domain-select =
+    .label = 語句領域
+# Sentence Domain dropdown option
+agriculture = 農業
+# Sentence Domain dropdown option
+automotive = 汽車
+# Sentence Domain dropdown option
+finance = 金融
+# Sentence Domain dropdown option
+food_service_retail = 食品、服務與零售
+# Sentence Domain dropdown option
+general = 一般
+# Sentence Domain dropdown option
+healthcare = 醫療衛生
+# Sentence Domain dropdown option
+history_law_government = 歷史、法律與政府機關
+# Sentence Domain dropdown option
+language_fundamentals = 語言基礎（例如：數字、字母、金額）
+# Sentence Domain dropdown option
+media_entertainment = 媒體與娛樂
+# Sentence Domain dropdown option
+nature_environment = 自然與環境
+# Sentence Domain dropdown option
+news_current_affairs = 新聞時事
+# Sentence Domain dropdown option
+technology_robotics = 科技與機器人
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = 確認 <icon></icon> 是一句符合語法的句子嗎？
+sc-review-rules-title = 句子內容符合準則嗎？
+sc-review-empty-state = 此語言目前沒有需要審核的語句。
+report-sc-different-language = 其他語言
+report-sc-different-language-detail = 這句話是用其他語言撰寫的句子。
+sentences-fetch-error = 取得句子時發生錯誤
+review-error = 審核此句子時發生錯誤
+review-error-rate-limit-exceeded = 您操作得太快了，請花點時間確認句子內容是否正確。
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = 我們有些重大變更
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = 上傳 <icon></icon> 公眾領域的句子
+sc-bulk-upload-instruction-drop = 將檔案放到此處進行上傳
+try-upload-again = 再次將檔案拖到此處即可重試
+try-upload-again-md = 嘗試再上傳一次
+select-file = 選擇檔案
+select-file-mobile = 選擇要上傳的檔案
+accepted-files = 接受的檔案類型：只接受 .tsv
+maximum-file-size = 最大檔案大小：25 MB
+what-needs-to-be-in-file = 檔案裡需要有哪些內容？
+upload-progress-text = 正在上傳…
+bulk-upload-success-toast = 已上傳大批句子
+bulk-upload-failed-toast = 上傳失敗，請重試。
+bulk-submission-success-header = 感謝您捐出大批句子！
+upload-more-btn-text = 要上傳更多句子嗎？
+file-invalid-type = 檔案無效
+file-too-large = 檔案太大
+file-too-small = 檔案太小
+too-many-files = 檔案太多

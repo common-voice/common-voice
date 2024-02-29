@@ -1,0 +1,36 @@
+{
+  "name": "bundler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --max-old-space-size=8192 js/main.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.1",
+    "@types/mysql": "^2.15.24",
+    "@types/node": "^18.17.11",
+    "@types/redlock": "^4.0.5",
+    "prettier": "3.0.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.3.1",
+    "@types/tar": "^6.1.7",
+    "bullmq": "^4.9.0",
+    "config": "^3.3.9",
+    "csv-parse": "^5.5.2",
+    "csv-stringify": "^6.4.5",
+    "dotenv": "^16.3.1",
+    "fp-ts": "^2.16.1",
+    "ioredis": "^5.3.2",
+    "mysql": "^2.18.1",
+    "redlock": "^4.2.0",
+    "stream-transform": "^3.3.0",
+    "tar": "^6.2.0"
+  }
+}

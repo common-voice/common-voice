@@ -34,9 +34,9 @@ import { isEnrolled } from '../../dashboard/challenge/constants';
 import { UserLanguage } from 'common';
 
 import ProfileInfoLanguages from './languages/languages';
+import ExpandableInformation from '../../../expandable-information/expandable-information';
 
 import './info.css';
-import ExpandableInformation from '../../../expandable-information/expandable-information';
 
 const Options = withLocalization(
   ({
@@ -178,7 +178,7 @@ function ProfileInfo({
       async () => {
         await saveAccount(data);
         if (!user.account?.basket_token && sendEmails) {
-          await api.subscribeToNewsletter(user.userClients[0].email);
+          await api.subscribeToNewsletter(user.userClients[0]?.email);
         }
 
         addNotification(getString('profile-form-submit-saved'));
@@ -203,7 +203,9 @@ function ProfileInfo({
 
   return (
     <div className="profile-info">
-      <h1>Profile</h1>
+      <Localized id="profile">
+        <h1 />
+      </Localized>
 
       {termsStatus === 'show' && (
         <TermsModal onAgree={submit} onDisagree={() => setTermsStatus(null)} />
@@ -270,6 +272,23 @@ function ProfileInfo({
         </Localized>
       </div>
 
+      <ExpandableInformation summaryLocalizedId="help-sex-or-gender-changes">
+        <Localized
+          id="help-sex-or-gender-changes-explanation"
+          elems={{
+            learnMoreLink: (
+              <a
+                href="https://foundation.mozilla.org/en/blog/expanding-gender-options-on-common-voice/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link"
+              />
+            ),
+          }}>
+          <div />
+        </Localized>
+      </ExpandableInformation>
+
       <ProfileInfoLanguages
         userLanguages={userLanguages}
         setUserLanguages={setUserLanguages}
@@ -287,7 +306,7 @@ function ProfileInfo({
               html={<>{getString('change-email-setings')}</>}
               theme="dark">
               <Localized id="email-input" attrs={{ label: true }}>
-                <LabeledInput value={user.userClients[0].email} disabled />
+                <LabeledInput value={user.userClients[0]?.email} disabled />
               </Localized>
             </Tooltip>
 

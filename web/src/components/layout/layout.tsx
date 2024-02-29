@@ -10,14 +10,9 @@ import { Locale } from '../../stores/locale';
 import URLS from '../../urls';
 import { replacePathLocale } from '../../utility';
 import { LocaleNavLink } from '../locale-helpers';
-import {
-  CogIcon,
-  DashboardIcon,
-  ListenIcon,
-  MenuIcon,
-  MicIcon,
-} from '../ui/icons';
+import { CogIcon, DashboardIcon, MenuIcon } from '../ui/icons';
 import { Avatar, LinkButton } from '../ui/ui';
+import DonateButton from '../donate-button/donate-button';
 import Content from './content';
 import Footer from './footer';
 import LocalizationSelect from '../localization-select/localization-select';
@@ -35,6 +30,7 @@ import {
   challengeTokens,
 } from 'common';
 import API from '../../services/api';
+import { SecondaryNav } from './nav/secondary-nav';
 
 interface PropsFromState {
   locale: Locale.State;
@@ -96,10 +92,12 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
   componentDidUpdate(prevProps: LayoutProps) {
     const { pathname, key, hash } = this.props.location;
+    const { setLocale, locale } = this.props;
 
     const hasPathnameChanged = pathname !== prevProps.location.pathname;
     const locationKeyHasChanged = key !== prevProps.location.key;
     const shouldScrollToHash = hash && locationKeyHasChanged;
+    const hasLocaleChanged = prevProps.locale !== locale;
 
     if (hasPathnameChanged) {
       this.setState({ isMenuVisible: false });
@@ -109,6 +107,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
 
     if (!hasPathnameChanged && shouldScrollToHash) {
       this.visitHash();
+    }
+
+    if (hasLocaleChanged) {
+      setLocale(locale);
     }
   }
 
@@ -138,10 +140,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   };
 
   private handleLocaleChange = async (locale: string) => {
-    const { setLocale, history } = this.props;
+    const { history } = this.props;
     trackGlobal('change-language', locale);
     history.push(replacePathLocale(history.location.pathname, locale));
-    setLocale(locale);
   };
 
   private getChallengeToken = () => {
@@ -169,6 +170,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
     const CONTRIBUTION_PAGES = [
       `/${locale}${URLS.SPEAK}`,
       `/${locale}${URLS.LISTEN}`,
+      `/${locale}${URLS.WRITE}`,
+      `/${locale}${URLS.REVIEW}`,
     ];
 
     const isBuildingProfile = location.pathname.includes(URLS.PROFILE_INFO);
@@ -206,7 +209,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        <div className="header-wrapper">
+        <div
+          className={cx('header-wrapper', {
+            'contribution-page-active': isContributionPageActive,
+          })}>
           <header className={cx('header', { active: hasScrolled })}>
             <div>
               {isContributionPageActive && (
@@ -237,11 +243,20 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               />
             </div>
             <div>
+              <div className="hidden-sm-down">
+                <DonateButton shouldApplyRightMargin={!user.account} />
+              </div>
               {user.account ? (
                 <UserMenu />
               ) : isBuildingProfile ? null : (
                 <Localized id="login-signup">
-                  <LinkButton className="login" href="/login" rounded outline />
+                  <LinkButton
+                    className="login"
+                    href="/login"
+                    rounded
+                    outline
+                    data-testid="login-button"
+                  />
                 </Localized>
               )}
               <LocalizationSelectComplex
@@ -267,43 +282,20 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             </div>
           </header>
           {isContributionPageActive && (
-            <div className="secondary-nav">
-              <MenuIcon onClick={handleSecondaryNavMobileMenuClick} />
-              <div className="options">
-                <div
-                  className={cx({
-                    'selected-option': location.pathname.includes(URLS.SPEAK),
-                  })}>
-                  <MicIcon />
-                  <Localized id="speak">
-                    <LocaleNavLink
-                      to={isDemoMode ? URLS.DEMO_SPEAK : URLS.SPEAK}
-                    />
-                  </Localized>
-                  {location.pathname.includes(URLS.SPEAK) && (
-                    <span className="border" />
-                  )}
-                </div>
-                <div
-                  className={cx({
-                    'selected-option': location.pathname.includes(URLS.LISTEN),
-                  })}>
-                  <ListenIcon />
-                  <Localized id="listen">
-                    <LocaleNavLink
-                      to={isDemoMode ? URLS.DEMO_LISTEN : URLS.LISTEN}
-                    />
-                  </Localized>
-                  {location.pathname.includes(URLS.LISTEN) && (
-                    <span className="border" />
-                  )}
-                </div>
-              </div>
-            </div>
+            <SecondaryNav
+              handleSecondaryNavMobileMenuClick={
+                handleSecondaryNavMobileMenuClick
+              }
+              isDemoMode={isDemoMode}
+              isLoggedIn={Boolean(user.account)}
+            />
           )}
         </div>
         <NonProductionBanner />
-        <main id="content">
+        <main
+          id="content"
+          className={className}
+          data-testid={pathParts[2] ? pathParts.slice(2).join(' ') : 'home'}>
           {children ? children : <Content location={location} />}
         </main>
         {shouldHideFooter ? <></> : <Footer />}
@@ -341,13 +333,17 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               )}
               {user.account ? (
                 <Localized id="logout">
-                  <LinkButton rounded href="/logout" />
+                  <LinkButton rounded href="/logout" className="auth-button" />
                 </Localized>
               ) : (
                 <Localized id="login-signup">
-                  <LinkButton rounded href="/login" />
+                  <LinkButton rounded href="/login" className="auth-button" />
                 </Localized>
               )}
+
+              <div className="donate-btn-container">
+                <DonateButton />
+              </div>
             </div>
           </Nav>
         </div>

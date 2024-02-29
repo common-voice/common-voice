@@ -3,6 +3,7 @@ import Mysql, { getMySQLInstance } from './db/mysql';
 import Schema from './db/schema';
 import ClipTable, { DBClip } from './db/tables/clip-table';
 import VoteTable from './db/tables/vote-table';
+import * as Sentry from '@sentry/node';
 import {
   ChallengeToken,
   Sentence,
@@ -12,6 +13,9 @@ import {
   Datasets,
 } from 'common';
 import lazyCache from '../lazy-cache';
+import { taskOption as TO, taskEither as TE } from 'fp-ts';
+import { pipe } from 'fp-ts/lib/function';
+import { DatasetStatistics } from '../../core/datasets/types/dataset';
 const MINUTE = 1000 * 60;
 const DAY = MINUTE * 60 * 24;
 
@@ -24,7 +28,7 @@ const THREE_WEEKS = 3 * 7 * 24 * 60 * 60 * 1000;
 // Ref JIRA ticket OI-1300 - we want to exclude languages with fewer than 500k active global speakers
 // from the single sentence record limit, because they are unlikely to amass enough unique speakers
 // to benefit from single sentence constraints
-const SINGLE_SENTENCE_LIMIT = ['en', 'de', 'fr', 'kab', 'rw', 'ca', 'es'];
+const SINGLE_SENTENCE_LIMIT = ['en', 'de', 'fr', 'kab', 'rw', 'es'];
 
 const teammate_subquery =
   '(SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?)';
@@ -91,6 +95,22 @@ export async function getLocaleId(locale: string): Promise<number> {
   }
 
   return languageIds[locale];
+}
+
+export function getLocaleIdF(locale: string): TE.TaskEither<Error, number> {
+  const languageIds = TE.tryCatch(
+    () => getLanguageMap(),
+    (err: Error) => err
+  )
+
+  return pipe(
+    languageIds,
+    TE.chain(languageIds =>
+      typeof languageIds[locale] === 'number'
+        ? TE.right(languageIds[locale])
+        : TE.left(Error(`Locale ${locale} does not exist`))
+    )
+  )
 }
 
 export async function getTermIds(term_names: string[]): Promise<number[]> {
@@ -196,17 +216,21 @@ export default class DB {
   ): Promise<DBClip[]> {
     const [rows] = await this.mysql.query(
       `
-        SELECT c.id as id, 
-        c.path as path, 
-        s.has_valid_clip as has_valid_clip,
-        c.client_id as client_id, 
-        s.text as sentence,
-        c.original_sentence_id as original_sentence_id
+        SELECT 
+          c.id as id, 
+          c.path as path, 
+          s.has_valid_clip as has_valid_clip,
+          c.client_id as client_id, 
+          s.text as sentence,
+          c.original_sentence_id as original_sentence_id
         FROM clips c
-        LEFT JOIN sentences s ON s.id = c.original_sentence_id and c.locale_id = ?
-        WHERE c.is_valid IS NULL AND s.clips_count <= 15
-        ORDER BY rand()
-        limit ?
+        INNER JOIN 
+          sentences s ON s.id = c.original_sentence_id 
+          AND c.locale_id = ? 
+        WHERE 
+          c.is_valid IS NULL 
+        ORDER BY RAND()
+        LIMIT ?
       `,
       [languageId, limit]
     );
@@ -309,22 +333,26 @@ export default class DB {
         FROM (
           SELECT id, text
           FROM sentences
-          WHERE is_used AND locale_id = ? AND NOT EXISTS (
-            SELECT original_sentence_id
-            FROM clips
-            WHERE clips.original_sentence_id = sentences.id AND
-              clips.client_id = ?
-            UNION ALL
-            SELECT sentence_id
-            FROM skipped_sentences skipped
-            WHERE skipped.sentence_id = sentences.id AND
-              skipped.client_id = ?
-            UNION ALL
-            SELECT sentence_id
-            FROM reported_sentences reported
-            WHERE reported.sentence_id = sentences.id AND
-              reported.client_id = ?
-          )
+          WHERE 
+            is_used 
+            AND locale_id = ? 
+            AND clips_count <= 15
+            AND NOT EXISTS (
+              SELECT original_sentence_id
+              FROM clips
+              WHERE clips.original_sentence_id = sentences.id AND
+                clips.client_id = ?
+              UNION ALL
+              SELECT sentence_id
+              FROM skipped_sentences skipped
+              WHERE skipped.sentence_id = sentences.id AND
+                skipped.client_id = ?
+              UNION ALL
+              SELECT sentence_id
+              FROM reported_sentences reported
+              WHERE reported.sentence_id = sentences.id AND
+                reported.client_id = ?
+            )
           ${exemptFromSSRL ? '' : 'AND (clips_count = 0 OR has_valid_clip = 0)'}
           ORDER BY clips_count ASC
           LIMIT ?
@@ -398,6 +426,7 @@ export default class DB {
     locale: string,
     count: number
   ): Promise<DBClip[]> {
+    Sentry.captureMessage(`Find clips needing validation for ${locale} locale`, Sentry.Severity.Info)
     let taxonomySentences: DBClip[] = [];
     const locale_id = await getLocaleId(locale);
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale);
@@ -411,6 +440,9 @@ export default class DB {
         count,
         prioritySegments
       );
+      Sentry.captureMessage(`There are ${prioritySegments.length} priority segments for ${locale} locale`, Sentry.Severity.Info)
+    } else {
+      Sentry.captureMessage(`There are 0 priority segments for ${locale} locale`, Sentry.Severity.Info)
     }
 
     const regularSentences =
@@ -422,7 +454,8 @@ export default class DB {
             count - taxonomySentences.length,
             exemptFromSSRL
           );
-
+    
+    Sentry.captureMessage(`There are ${regularSentences.length} regular sentences for ${locale} locale`, Sentry.Severity.Info)     
     return taxonomySentences.concat(regularSentences);
   }
 
@@ -470,16 +503,19 @@ export default class DB {
       submittedUserClipIds.map((row: { clip_id: number }) => row.clip_id)
     );
 
-    //get clips that a user hasnt already seen
+    //get clips that a user hasn't already seen
     const validClips = new Set(
       validUserClips.filter((clip: DBClip) => {
         if (exemptFromSSRL) return !skipClipIds.has(clip.id);
-        //only return clips that have not been valiadated before
+        //only return clips that have not been validated before
         return !skipClipIds.has(clip.id) && clip.has_valid_clip === 0;
       })
     );
 
-    if (validClips.size > count) return Array.from(validClips);
+    if (validClips.size > count) {
+      Sentry.captureMessage(`Returning ${validClips.size} valid clips from cache for locale id ${locale_id}`, Sentry.Severity.Info)
+      return Array.from(validClips);
+    }
 
     const [clips] = await this.mysql.query(
       `
@@ -520,6 +556,7 @@ export default class DB {
       ]
     );
 
+    Sentry.captureMessage(`Returning ${clips.length} clips with few votes for locale id ${locale_id}`, Sentry.Severity.Info)
     return clips as DBClip[];
   }
 
@@ -949,16 +986,25 @@ export default class DB {
 
   async getLanguages(): Promise<Language[]> {
     const [rows] = await this.mysql.query(
-      `SELECT 
-      l.id, 
-      l.name, 
-      l.target_sentence_count as target_sentence_count, 
-      count(1) as total_sentence_count,
-      l.is_contributable
-        FROM locales l
-        LEFT JOIN sentences s ON s.locale_id = l.id
-        GROUP BY l.id`
+      `
+      SELECT
+        l.id,
+        l.name,
+        l.target_sentence_count as target_sentence_count,
+        COALESCE(s.total_sentence_count, 0) as total_sentence_count,
+        l.is_contributable
+      FROM locales l
+      LEFT JOIN (
+        SELECT locale_id, COUNT(*) as total_sentence_count
+        FROM sentences
+        WHERE is_validated = TRUE
+        GROUP BY locale_id
+      ) s ON l.id = s.locale_id
+      `
     );
+
+    const lastFetched = new Date()
+
     return rows.map(
       (row: {
         id: number;
@@ -974,6 +1020,7 @@ export default class DB {
           targetSentenceCount: row.target_sentence_count,
           currentCount: row.total_sentence_count,
         },
+        lastFetched,
       })
     );
   }
@@ -1027,7 +1074,7 @@ export default class DB {
     return rows;
   }
 
-  async getLanguageDatasetStats(languageCode: string): Promise<Language[]> {
+  async getLanguageDatasetStats(languageCode: string): Promise<Omit<DatasetStatistics, 'splits'>[]> {
     const [rows] = await this.mysql.query(
       `SELECT
       ld.id,
@@ -1263,26 +1310,6 @@ export default class DB {
     } catch (error) {
       console.error(
         `Unable to insert downloader (error message: ${error.message})`
-      );
-    }
-  }
-
-  async createReport(
-    client_id: string,
-    {
-      kind,
-      id,
-      reasons,
-    }: { kind: 'clip' | 'sentence'; id: string; reasons: string[] }
-  ) {
-    const [table, column] =
-      kind == 'clip'
-        ? ['reported_clips', 'clip_id']
-        : ['reported_sentences', 'sentence_id'];
-    for (const reason of reasons) {
-      await this.mysql.query(
-        `INSERT INTO ${table} (client_id, ${column}, reason) VALUES (?, ?, ?)`,
-        [client_id, id, reason]
       );
     }
   }

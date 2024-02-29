@@ -10,6 +10,10 @@ const NavigationPrompt = require('react-router-navigation-prompt').default;
 import { Locale } from '../../../../stores/locale';
 import { Notifications } from '../../../../stores/notifications';
 import { Sentences } from '../../../../stores/sentences';
+import {
+  AbortContributionModalActions,
+  AbortContributionModalStatus,
+} from '../../../../stores/abort-contribution-modal';
 import { Sentence as SentenceType } from 'common';
 import StateTree from '../../../../stores/tree';
 import { Uploads } from '../../../../stores/uploads';
@@ -68,6 +72,8 @@ interface PropsFromDispatch {
   tallyRecording: typeof User.actions.tallyRecording;
   refreshUser: typeof User.actions.refresh;
   updateUser: typeof User.actions.update;
+  setAbortContributionModalVisible: typeof AbortContributionModalActions.setAbortContributionModalVisible;
+  setAbortStatus: typeof AbortContributionModalActions.setAbortStatus;
 }
 
 interface Props
@@ -385,7 +391,7 @@ class SpeakPage extends React.Component<Props, State> {
       tallyRecording,
       user,
       refreshUser,
-      getString
+      getString,
     } = this.props;
 
     if (!hasAgreed && !(user.privacyAgreed || user.account)) {
@@ -555,6 +561,25 @@ class SpeakPage extends React.Component<Props, State> {
     });
   };
 
+  private setAbortContributionModalVisiblity = (
+    abortContributionModalVisibilty: boolean
+  ) => {
+    const { setAbortContributionModalVisible } = this.props;
+    setAbortContributionModalVisible(abortContributionModalVisibilty);
+  };
+
+  private handleAbortCancel = (onCancel: () => void) => {
+    onCancel();
+    this.props.setAbortStatus(AbortContributionModalStatus.REJECTED);
+    this.setAbortContributionModalVisiblity(false);
+  };
+
+  private handleAbortConfirm = (onConfirm: () => void) => {
+    onConfirm();
+    this.props.setAbortStatus(AbortContributionModalStatus.CONFIRMED);
+    this.setAbortContributionModalVisiblity(false);
+  };
+
   render() {
     const { getString, user, isLoading, hasLoadingError } = this.props;
     const {
@@ -578,9 +603,20 @@ class SpeakPage extends React.Component<Props, State> {
           {noNewClips && isLoading && <Spinner delayMs={500} />}
           {!isSubmitted && (
             <NavigationPrompt
-              when={clips.filter(clip => clip.recording).length > 0}>
+              when={() => {
+                const clipsToRecord =
+                  clips.filter(clip => clip.recording).length > 0;
+
+                if (clipsToRecord) {
+                  this.setAbortContributionModalVisiblity(true);
+                }
+
+                return clipsToRecord;
+              }}>
               {({ onConfirm, onCancel }: any) => (
-                <Modal innerClassName="record-abort" onRequestClose={onCancel}>
+                <Modal
+                  innerClassName="record-abort"
+                  onRequestClose={() => this.handleAbortCancel(onCancel)}>
                   <Localized id="record-abort-title">
                     <h1 className="title" />
                   </Localized>
@@ -594,7 +630,7 @@ class SpeakPage extends React.Component<Props, State> {
                         rounded
                         className={getTrackClass('fs', 'exit-submit-clips')}
                         onClick={() => {
-                          if (this.upload()) onConfirm();
+                          if (this.upload()) this.handleAbortConfirm(onConfirm);
                         }}
                       />
                     </Localized>
@@ -606,7 +642,7 @@ class SpeakPage extends React.Component<Props, State> {
                           'fs',
                           'exit-continue-recording'
                         )}
-                        onClick={onCancel}
+                        onClick={() => this.handleAbortCancel(onCancel)}
                       />
                     </Localized>
                   </ModalButtons>
@@ -709,6 +745,7 @@ class SpeakPage extends React.Component<Props, State> {
                 trackClass="speak-record"
                 status={recordingStatus}
                 onClick={this.handleRecordClick}
+                data-testid="record-button"
               />
             }
             pills={clips.map((clip, i) => (props: ContributionPillProps) => (
@@ -803,6 +840,9 @@ const mapDispatchToProps = {
   tallyRecording: User.actions.tallyRecording,
   refreshUser: User.actions.refresh,
   updateUser: User.actions.update,
+  setAbortContributionModalVisible:
+    AbortContributionModalActions.setAbortContributionModalVisible,
+  setAbortStatus: AbortContributionModalActions.setAbortStatus,
 };
 
 export default withRouter(

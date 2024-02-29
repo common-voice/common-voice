@@ -44,6 +44,7 @@ be = Belarut
 bg = Bulgaria
 bm = Bambara
 bn = Bengal
+bo = Tibetan
 br = Breton
 bs = Bosnian
 bxr = Buryat
@@ -53,6 +54,7 @@ cak = Kaqchikel
 ckb = Tiếng Soran
 cnh = Hakha Chin
 co = Corsican
+crh = Thổ Nhĩ Kỳ
 cs = Séc
 cv = Chuvash
 cy = Wales
@@ -68,16 +70,20 @@ eo = Quốc tế ngữ
 es = Tây Ban Nha
 et = Estonia
 eu = Basque
+ewo = Ewondo
 fa = Ba Tư
 ff = Fula
 fi = Phần Lan
 fo = Faroe
 fr = Pháp
+fuf = Pular Guinea
 fy-NL = Frisia
 ga-IE = Ireland
 gl = Galicia
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
+guc = Wayuunaiki
 ha = Hausa
 he = Do Thái
 hi = Hindi
@@ -97,6 +103,7 @@ it = Ý
 izh = Izhorian
 ja = Nhật
 jbo = Lojban
+jv = Javanese
 ka = Gruzia
 kaa = Karakalpak
 kab = Kabyle
@@ -117,7 +124,9 @@ lij = Ligurian
 ln = Lingala
 lo = Lào
 lt = Litva
+ltg = Latgalian
 lv = Latvia
+lzz = Laz
 mai = Maithili
 mdf = Moksha
 mg = Malagasy
@@ -138,15 +147,18 @@ nb-NO = Na Uy Bokmål
 nd = IsiNdebele (Bắc)
 ne-NP = Nepal
 nhe = Đông Huasteca Nahuatl
+nhi = Western Sierra Puebla Nahuatl
 nia = Nias
 nl = Hà Lan
 nn-NO = Na Uy Nynorsk
 nr = IsiNdebele (Nam)
 nso = Bắc Sotho
+ny = Chinyanja
 nyn = Nyankole
 oc = Occitan
 om = Afaan Ormoo
 or = Odia
+os = Ossetia
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Ba Lan
@@ -154,6 +166,7 @@ ps = Pashto
 pt = Bồ Đào Nha
 quc = K'iche'
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Romansh Sursilva
 rm-vallader = Romansh
 ro = Rumani
@@ -163,6 +176,8 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardinia
 scn = Sicilian
+sco = Scots
+sd = Sindhi
 sdh = Southern Kurdish
 shi = Shilha
 si = Sinhala
@@ -203,7 +218,9 @@ uz = Uzbek
 ve = Tshivenda
 vec = Venetian
 vi = Việt
+vmw = Emakhuwa
 vot = Votic
+wep = Westphalian
 wo = Wolof
 xh = Xhosa
 yi = Yiddish
@@ -240,6 +257,7 @@ share-text = Hãy giúp dạy cho các phần mềm cách nói chuyện của co
 link-copied = Đã sao chép liên kết
 back-top = Trở về đầu trang
 logout = Đăng xuất
+donate = Quyên góp
 
 ## Home Page
 
@@ -386,8 +404,12 @@ native-language =
 profile-form-add-accent = Thêm trọng âm tùy chỉnh mới "{ $inputValue }"
 profile-form-submit-save = Lưu
 profile-form-submit-saved = Đã lưu
-male = Nam
-female = Nữ
+male_masculine = Nam/Nam tính
+female_feminine = Nữ/Nữ tính
+intersex = Liên giới tính
+transgender = Chuyển giới
+non-binary = Phi nhị nguyên giới
+do_not_wish_to_say = Không muốn nói
 # Gender
 other = Khác
 why-profile-title = Tại sao phải tạo một hồ sơ?
@@ -423,6 +445,8 @@ help-accent = Cần một số trợ giúp về trọng âm?
 help-accent-explanation = Trọng âm của bạn là cách bạn phát âm các từ. Nó có thể được định hình bởi nơi bạn đã sống, bạn nói ngôn ngữ nào khác và rất nhiều yếu tố khác. Bạn có thể chia sẻ bất kỳ thông tin nào bạn cảm thấy có liên quan tại đây.
 help-variants = Cần một số trợ giúp với biến thể?
 help-variants-explanation = Biến thể là một dạng cụ thể của một ngôn ngữ - ví dụ như được chia sẻ bởi những người sống trong một khu vực địa lý hoặc cộng đồng. Đôi khi chúng được gọi là tiếng địa phương.
+help-sex-or-gender-changes = Cần trợ giúp về việc thay đổi giới tính?
+help-sex-or-gender-changes-explanation = Chúng tôi đang cung cấp nhiều lựa chọn hơn để giúp mọi người có nhiều lựa chọn hơn trong những gì họ cho chúng tôi biết về giới tính của họ. Hãy tự miêu tả theo cách mà bạn cảm thấy tự nhiên nhất. <learnMoreLink>Tìm hiểu thêm về cách tiếp cận của chúng tôi về giới tính.</learnMoreLink>
 
 ## Profile - Email
 
@@ -608,7 +632,6 @@ about-playbook-how-add-sentences = Làm cách nào để thêm câu?
 about-playbook-how-add-sentences-content-1 = <strong>Công cụ thu thập câu</strong> là một công cụ để thu thập và xác thực các câu trong miền công cộng. Bạn sẽ <scAccountLink>cần tạo một tài khoản</scAccountLink>. Sau đó, thêm ngôn ngữ của bạn vào <strong>Hồ sơ</strong> của bạn. Bạn có thể <strong>thêm</strong> câu hoặc <strong>xem lại</strong> các câu đã thêm trước đó.
 about-playbook-how-add-sentences-content-2 = Các câu phải được hai người xem xét và chấp nhận mới được đưa vào Common Voice. Bạn tạo nguyên tắc cho ngôn ngữ của mình <languageGuidelinesLink>tại đây</languageGuidelinesLink>. Các câu phải nằm trong <licenseLink>miền công khai</licenseLink> và ngắn hơn 15 từ. Bạn có thể yêu cầu chủ sở hữu của văn bản đặt nó thành <waiverLink>CC0 sử dụng quy trình từ bỏ của chúng tôi</waiverLink> và gửi cho chúng tôi theo địa chỉ commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Bạn có thể sử dụng <scraperLink>công cụ trích xuất câu</scraperLink> để tận dụng các câu ngắn từ Wikipedia.
-about-playbook-how-add-sentences-content-4 = Các câu đã được xác thực sẽ được xuất vào các ngày Thứ Tư và có sẵn sau bản phát hành tiếp theo.
 
 ## How to record quality
 
@@ -731,10 +754,12 @@ validated-hr-total = Tổng số giờ đã xác nhận
 overall-hr-total = Tổng số giờ
 cv-license = Giấy phép
 audio-format = Định dạng âm thanh
+dataset-splits = Chia tách (tuổi và giới tính)
 number-of-voices = Số lượng tiếng nói
 splits = Tách
 email-to-download = Nhập email để tải xuống
 why-email = <b>Tại sao lại cần email?</b> Chúng tôi có thể cần liên hệ với bạn trong tương lai về các thay đổi đối với tập dữ liệu, một email cung cấp cho chúng tôi một điểm liên hệ.
+why-donate-datasets-page = Mozilla Common Voice là tập dữ liệu giọng nói mở được huy động từ cộng đồng đa dạng nhất trên thế giới - và chúng tôi được hỗ trợ hoàn toàn bởi sự đóng góp. Chi phí gần một triệu đô la mỗi năm để lưu trữ các bộ dữ liệu và cải thiện nền tảng cho hơn 100 cộng đồng ngôn ngữ dựa vào những gì chúng tôi làm. Nếu bạn coi trọng dữ liệu mở, toàn diện - <b>hãy quyên góp hôm nay!</b>
 confirm-size = Bạn đã sẵn sàng để bắt đầu tải xuống <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -775,6 +800,15 @@ dataset-version = Phiên bản
 sha256-checksum-copied = Đã sao chép Checksum SHA256!
 sha256-checksum-copied-error = Không thể sao chép Checksum SHA256
 clipboard-not-supported = Khay nhớ tạm không được hỗ trợ
+no-information-available = Không có thông tin có sẵn
+dataset-metadata-sex = Giới tính
+# dataset metadata - age of contributor
+dataset-metadata-age = Tuổi
+donate-modal-message = Tập dữ liệu của bạn đang được tải xuống!
+dataset-donate-modal-heading = Bạn có biết…
+donate-modal-explanation-1 = Chi phí gần một triệu đô la mỗi năm để lưu trữ các bộ dữ liệu và cải thiện nền tảng cho hơn 100 cộng đồng ngôn ngữ dựa vào những gì chúng tôi làm?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Nếu bạn coi trọng dữ liệu mở, toàn diện - hãy quyên góp ngay hôm nay!</bold>
 
 ## Download Modal
 
@@ -851,6 +885,8 @@ language-section-in-progress = Trong tiến trình
 language-section-in-progress-new-description = Những ngôn ngữ này hiện đang được phát triển cộng đồng. Các thanh tiến trình cho biết mỗi ngôn ngữ trong quá trình <localizationGlossaryLink>bản địa hóa trang web</localizationGlossaryLink> và <sentenceCollectionGlossaryLink>thu thập câu</sentenceCollectionGlossaryLink>.
 language-section-launched = Ra mắt
 language-section-launched-description = Đối với những ngôn ngữ được phát hành này, trang web đã được <localizationGlossaryLink>bản địa hóa</localizationGlossaryLink> thành công và có đủ <sentenceCollectionGlossaryLink>các câu được thu thập</sentenceCollectionGlossaryLink> để cho phép đóng góp <speakLink>Nói</speakLink> và <listenLink>Nghe</listenLink> liên tục.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Cập nhật lần cuối: { $lastUpdatedTimeStamp }
 languages-show-more = Xem thêm
 languages-show-less = Xem ít hơn
 language-meter-in-progress = Tiến trình
@@ -869,6 +905,8 @@ action-click = Nhấp
 action-tap = Chạm
 contribute = Đóng góp
 listen = Nghe
+write = Viết
+review = Xem xét
 skip = Bỏ qua
 shortcuts = Phím tắt
 clips-with-count-pluralized =
@@ -916,6 +954,9 @@ listen-empty-state = Chúng tôi đã hết đoạn thoại để xác thực b�
 listen-loading-error =
     Chúng tôi không thể nhận được bất kỳ đoạn âm thanh nào để bạn nghe.
     Vui lòng thử lại sau.
+listen-abort-title = Hoàn tất xác thực clip?
+listen-abort-cancel = Tiếp tục xác thực
+listen-abort-confirm = Hoàn tất xác thực
 speak-empty-state = Chúng tôi đã hết câu để ghi lại bằng ngôn ngữ này...
 speak-empty-state-cta = Đóng góp câu
 speak-loading-error =
@@ -934,6 +975,7 @@ target-segment-learn-more = Tìm hiểu thêm
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Bộ sưu tập giọng nói
+contribute-sentence-collection-nav-header = Bộ sưu tập câu
 
 ## Reporting
 
@@ -1162,22 +1204,22 @@ contribution-misreadings-title = Đọc sai
 contribution-misreadings-description = Khi nghe, hãy kiểm tra thật kỹ xem những gì đã ghi có chính xác là những gì đã được viết hay không; từ chối nếu có sai sót dù chỉ là nhỏ. Những sai lầm rất phổ biến <br /> bao gồm:
 contribution-misreadings-description-extended-list-1 = Thiếu <strong>'A'</strong> hoặc <strong>'The'</strong> ở đầu bản ghi.
 contribution-misreadings-description-extended-list-2 = Thiếu <strong>'s'</strong> ở cuối một từ.
-contribution-misreadings-description-extended-list-3 = Đọc các từ mà nó không thực sự ở đó, chẳng hạn như "Chúng tôi" thay vì "Chúng tôi là" hoặc ngược lại.
+contribution-misreadings-description-extended-list-3 = Đọc các từ mà nó không thực sự ở đó, chẳng hạn như "We're" thay vì "We are" hoặc ngược lại.
 contribution-misreadings-description-extended-list-4 = Bỏ lỡ phần cuối của từ cuối cùng do cắt đoạn ghi âm quá nhanh.
 contribution-misreadings-description-extended-list-5 = Mất nhiều lần để đọc một từ.
-contribution-misreadings-example-1-title = Những con khủng long khổng lồ của kỷ Trias.
-contribution-misreadings-example-2-title = Con khủng long khổng lồ của kỷ Trias.
-contribution-misreadings-example-2-explanation = [Nên là 'Những con khủng long']
-contribution-misreadings-example-3-title = Những con khủng long khổng lồ của Triassi-.
+contribution-misreadings-example-1-title = The giant dinosaurs of the Triassic.
+contribution-misreadings-example-2-title = The giant dinosaur of the Triassic.
+contribution-misreadings-example-2-explanation = [Nên là 'dinosaurs']
+contribution-misreadings-example-3-title = The giant dinosaurs of the Triassi-.
 contribution-misreadings-example-3-explanation = [Đoạn ghi âm bị cắt trước khi kết thúc từ cuối cùng]
-contribution-misreadings-example-4-title = Những con khủng long khổng lồ của kỷ Trias. Đúng.
+contribution-misreadings-example-4-title = The giant dinosaurs of the Triassic. Yes.
 contribution-misreadings-example-4-explanation = [Có nhiều từ thừa đã được ghi lại so với văn bản được yêu cầu]
-contribution-misreadings-example-5-title = Chúng tôi sẽ ra ngoài để uống cà phê.
-contribution-misreadings-example-6-title = Chúng ta sẽ ra ngoài uống cà phê.
-contribution-misreadings-example-6-explanation = [Nên là "Chúng tôi"]
-contribution-misreadings-example-7-title = Chúng tôi sẽ ra ngoài để uống một cà phê.
-contribution-misreadings-example-7-explanation = [Không có ‘một’ trong văn bản gốc]
-contribution-misreadings-example-8-title = Bumblebee đã tăn tốc.
+contribution-misreadings-example-5-title = We are going out to get coffee.
+contribution-misreadings-example-6-title = We’re going out to get coffee.
+contribution-misreadings-example-6-explanation = [Nên là "We are"]
+contribution-misreadings-example-7-title = We are going out to get a coffee.
+contribution-misreadings-example-7-explanation = [Không có ‘a’ trong văn bản gốc]
+contribution-misreadings-example-8-title = The bumblebee sped by.
 contribution-misreadings-example-8-explanation = [Nội dung không khớp]
 contribution-varying-pronunciations-title = Thay đổi cách phát âm
 contribution-varying-pronunciations-description = Hãy thận trọng trước khi từ chối một đoạn thoại cho rằng người đọc đã phát âm sai một từ, đặt trọng âm không đúng chỗ hoặc rõ ràng đã bỏ qua một dấu chấm hỏi. Có rất nhiều cách phát âm được sử dụng trên khắp thế giới, một số cách phát âm có thể bạn chưa nghe thấy trong cộng đồng địa phương của mình. Vui lòng đánh giá cao những người có thể nói khác với bạn.
@@ -1628,3 +1670,195 @@ already-have-an-account = Bạn đã có tài khoản? <login>Đăng nhập</log
 create-profile-button = Tạo hồ sơ
 # IMAGE TAGS
 img-alt-success-checkmark = dấu kiểm thành công
+# GUIDELINES PAGE
+guidelines-header = Nguyên tắc cộng tác viên
+guidelines-header-subtitle = Tìm hiểu cách đóng góp và xác thực các câu và đoạn âm thanh cho bộ dữ liệu Common Voice
+voice-collection = Bộ sưu tập giọng nói
+sentence-collection = Bộ sưu tập câu
+varying-pronunciations = Thay đổi cách phát âm
+misreadings = Đọc sai
+offensive-content = Nội dung phản cảm
+background-noise = Tiếng ồn
+background-voices = Giọng nền
+volume = Âm lượng
+reader-effects = Hiệu ứng trình đọc
+just-unsure = Không chắc chắn?
+example = Ví dụ
+varying-pronunciations-explanation-1 = Chúng tôi hoan nghênh các điểm nhấn khác nhau! Hãy thật thận trọng trước khi từ chối một đoạn ghi âm mà bạn cho rằng người đọc đã phát âm sai một từ, đặt trọng âm sai chỗ hoặc bỏ qua dấu câu. Có rất nhiều cách phát âm được sử dụng trên khắp thế giới, một số cách phát âm mà bạn có thể chưa từng nghe thấy ở cộng đồng địa phương của mình. Vui lòng đánh giá cao những người có thể nói khác với bạn.
+varying-pronunciations-explanation-2 = Mặt khác, nếu bạn nghĩ rằng người đọc chưa bao giờ bắt gặp từ này trước đây và đang đoán sai cách phát âm, vui lòng từ chối. Nếu bạn không chắc chắn, hãy sử dụng nút bỏ qua.
+varying-pronunciations-example = The route was unclear.
+varying-pronunciations-tip-1 = [Tiếng Anh Canada có thể khiến "route" nghe giống như "rowt"]
+varying-pronunciations-tip-2 = [Tiếng Anh British có thể nghe thành "root"]
+offensive-content-explanation = Các câu được xem xét thông qua quy trình kiểm duyệt cộng đồng, tuy nhiên quy trình này không hoàn hảo. Nếu bạn nhìn thấy hoặc nghe thấy một câu xúc phạm hoặc làm bạn khó chịu - chẳng hạn như vì câu đó vi phạm <participationGuidelines>nguyên tắc tham gia cộng đồng</participationGuidelines> của chúng tôi - vui lòng sử dụng nút gắn cờ trong giao diện người dùng. Bạn cũng có thể liên hệ với chúng tôi tại <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = Đọc tất cả các từ trên trang một cách chính xác không có vấn đề gì. Khi nghe, hãy kiểm tra thật cẩn thận xem những gì đã được ghi lại có đúng như những gì đã được viết không; từ chối nếu họ đã thêm hoặc bỏ sót từ.
+misreadings-explanation-2 = Những sai lầm rất phổ biến bao gồm:
+misreadings-explanation-3 = Thiếu 'A' hoặc 'The' ở đầu bản ghi.
+misreadings-explanation-4 = Thiếu một 's' ở cuối một từ.
+misreadings-explanation-5 = Đọc các từ mà nó không thực sự ở đó, chẳng hạn như "We're" thay vì "We are" hoặc ngược lại.
+misreadings-explanation-6 = Bỏ lỡ phần cuối của từ cuối cùng do cắt đoạn ghi âm quá nhanh.
+misreadings-explanation-7 = Mất nhiều lần để đọc một từ.
+misreadings-example-1 = We are going out to get coffee.
+misreadings-example-2 = We're going out to get coffee.
+misreadings-example-3 = We are going out to get a coffee.
+misreadings-example-4 = The bumblebee sped by.
+misreadings-tip-1 = [Nên là “We are”]
+misreadings-tip-2 = [Không có ‘a’ trong văn bản gốc]
+misreadings-tip-3 = [Nội dung không khớp]
+background-noise-explanation = Bạn cần có khả năng nghe từng từ của đoạn ghi âm. Chúng tôi muốn các thuật toán máy học có thể xử lý nhiều loại tiếng ồn xung quanh và thậm chí có thể chấp nhận cả tiếng ồn tương đối lớn hoặc nhạc nền yên tĩnh với điều kiện là chúng không ngăn cản bạn nghe toàn bộ văn bản. Tiếng lạo xạo hoặc tiếng ồn khiến bạn không thể nghe thấy văn bản có nghĩa là bạn nên từ chối đoạn ghi âm đó.
+background-noise-example-1 = The giant dinosaurs of the Triassic.
+background-noise-example-2 = [Hắt hơi] The giant dinosaurs of the [cough] Triassic.
+background-noise-example-3 = The giant dino [ho] the Triassic.
+background-noise-example-4 = [Tiếng lạo xạo] giant dinosaurs of [Tiếng lạo xạo] -riassic.
+background-noise-tip-1 = [bị gián đoạn bởi tiếng ồn xung quanh]
+background-noise-tip-2 = [Không thể nghe thấy một phần của văn bản]
+background-voices-explanation = Một chút tiếng ồn xung quanh thì không sao, nhưng nếu bạn có thể nghe thấy một người khác nói những từ khác biệt thì nên từ chối đoạn ghi âm đó. Thông thường, điều này xảy ra khi TV vẫn bật hoặc khi có cuộc trò chuyện đang diễn ra gần đó.
+background-voices-example-1 = The giant dinosaurs of the Triassic. [đọc bằng một giọng nói]
+background-voices-tip-1 = Are you coming? [được gọi bởi người khác]
+volume-explanation = Sẽ có sự thay đổi tự nhiên về khối lượng giữa các độc giả. Chỉ từ chối nếu âm lượng quá cao khiến bản ghi âm bị vỡ hoặc (phổ biến hơn) nếu âm lượng quá nhỏ khiến bạn không thể nghe được những gì đang được nói nếu không tham chiếu đến văn bản đã viết.
+reader-effects-explanation = Hầu hết các bản ghi âm là của những người nói chuyện bằng giọng nói tự nhiên của họ. Bạn có thể chấp nhận bản ghi âm không chuẩn thỉnh thoảng được hét lên, thì thầm hoặc rõ ràng là được phân phối bằng giọng ‘kịch tính’. Vui lòng từ chối các bản ghi âm đã hát và những bản ghi âm sử dụng giọng nói do máy tính tổng hợp.
+just-unsure-explanation = Nếu bạn gặp điều gì đó mà các nguyên tắc này không đề cập đến, vui lòng bỏ phiếu theo đánh giá tốt nhất của bạn. Nếu bạn thực sự không thể quyết định, hãy sử dụng nút bỏ qua và chuyển sang bản ghi tiếp theo.
+still-have-questions = Vẫn còn câu hỏi?
+contact-common-voice = Liên hệ với nhóm Common Voice
+public-domain = Phạm vi công cộng
+citing-sentences = Trích dẫn câu
+adding-sentences = Thêm câu
+reviewing-sentences = Xem lại câu
+public-domain-explanation-1 = Điều rất quan trọng là tất cả các câu văn bản đều là <publicDomain>phạm vi công cộng</publicDomain> (<cc0>cc0</cc0>) vì bộ dữ liệu Common Voice được phát hành theo giấy phép cc0. Chỉ tải lên một câu nếu bạn chắc chắn và luôn bao gồm trích dẫn có liên quan.
+public-domain-explanation-2 = Các câu tốt nhất để xây dựng một công cụ nhận dạng giọng nói hữu ích là cách nói thông tục, hiện đại. Một số ý tưởng để giúp bạn tạo câu là;
+public-domain-explanation-3 = Tạo các câu thông tục, hiện đại của chính bạn hoặc với bạn bè hoặc cộng đồng ngôn ngữ của bạn - ví dụ như thông qua 'write-a-thon'
+public-domain-explanation-4 = Liên hệ với các tác giả, nhà viết kịch hoặc nhà biên kịch và hỏi xem họ có sẵn sàng cống hiến một phần nhỏ tác phẩm của họ cho phạm vi công cộng không
+public-domain-explanation-5 = Tìm văn bản không còn áp dụng bản quyền - ví dụ: hầu hết các sách được xuất bản trước năm 1920
+public-domain-explanation-6 = Liên hệ với các chính phủ, tổ chức phi lợi nhuận hoặc tổ chức truyền thông để xem liệu có bất kỳ nội dung web, báo cáo hoặc nội dung nào khác của họ có thể được dành riêng cho phạm vi công cộng hay không
+citing-sentences-explanation-1 = Điều quan trọng là bao gồm các trích dẫn để chúng tôi có thể kiểm tra xem các câu đó có thuộc phạm vi công cộng và không áp dụng hạn chế bản quyền nào không.
+citing-sentences-subheader-websites = Trang web
+citing-sentences-subheader-websites-explanation = Bạn có thể bao gồm trang web, ví dụ: "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Tham khảo học thuật
+citing-sentences-subheader-academic-reference-explanation = Bạn có thể sử dụng phong cách tham chiếu Học thuật, ví dụ: harvard style "Mozilla (2021) Common Voice. Có sẵn tại https://commonvoice.mozilla.org/ (Ngày truy cập: 15 tháng 9 năm 2021)"
+citing-sentences-subheader-offline-sources = Nguồn ngoại tuyến
+citing-sentences-subheader-offline-sources-explanation = Đối với văn bản thuộc phạm vi công cộng không có sẵn trực tuyến, bạn có thể sử dụng kiểu tham chiếu Học thuật, ví dụ: harvard style "Jess (2021) My Public licence poems"
+citation =
+    .label = Nguồn trích dẫn
+self-citation = Tự trích dẫn
+self-citation-explanation = Đây là cách bạn tự trích dẫn nếu bạn tự viết nội dung.
+adding-sentences-subheader-length = Độ dài
+adding-sentences-subheader-length-explanation = Câu nên có ít hơn 15 từ.
+adding-sentences-subheader-spelling-punctuation = Chính tả và dấu câu
+adding-sentences-subheader-spelling-punctuation-explanation = Câu phải được viết đúng chính tả.
+adding-sentences-subheader-speakable = Nói được
+adding-sentences-subheader-speakable-explanation = Những câu hay nhất là những câu tự nhiên và mang tính đàm thoại — chúng phải dễ đọc đối với người khác. Mặc dù sự đa dạng về ngữ âm và các từ khác nhau trong câu là quan trọng, nhưng chúng tôi cũng đang cố gắng làm cho các câu ghi âm trở nên hấp dẫn và thú vị nhất có thể cho cộng đồng tình nguyện viên của chúng tôi.
+adding-sentences-subheader-numbers = Số
+adding-sentences-subheader-numbers-explanation = Lý tưởng nhất là không có chữ số trong văn bản nguồn vì chúng có thể gây ra sự cố khi đọc to. Cách đọc một số phụ thuộc vào ngữ cảnh và có thể gây nhầm lẫn trong tập dữ liệu. Ví dụ: số “2409” có thể được đọc chính xác cả hai là “hai nghìn bốn trăm linh chín” và “hai bốn không chín”.
+adding-sentences-subheader-abbreviations = Chữ viết tắt và từ viết tắt
+adding-sentences-subheader-abbreviations-explanation = Nên tránh viết tắt và từ viết tắt như “USA” hoặc “ICE” trong văn bản nguồn vì chúng có thể được đọc theo cách không trùng với cách viết của chúng. Ngoài ra, có thể có nhiều cách đọc chính xác cho một chữ viết tắt.
+adding-sentences-subheader-punctuation = Dấu câu
+adding-sentences-subheader-punctuation-explanation = Các ký hiệu đặc biệt và dấu câu chỉ nên được đưa vào khi thực sự cần thiết. Ví dụ: dấu nháy đơn được bao gồm trong các từ tiếng Anh như “don't” và “we're” và nên được đưa vào văn bản nguồn, nhưng không chắc bạn sẽ cần một ký hiệu đặc biệt như “@” hoặc “#”.
+adding-sentences-subheader-special-characters = Ký tự đặc biệt và chữ cái nước ngoài
+adding-sentences-subheader-special-characters-explanation-1 = Các chữ cái phải hợp lệ trong ngôn ngữ được sử dụng. Ví dụ: “ж” là một chữ cái trong bảng chữ cái tiếng Nga nhưng không bao giờ được sử dụng trong tiếng Anh và vì vậy sẽ không bao giờ xuất hiện trong bất kỳ văn bản nguồn tiếng Anh nào.
+adding-sentences-subheader-special-characters-explanation-2 = Các ngôn ngữ có thể có quy tắc xác thực riêng với các yêu cầu bổ sung khi bản địa hóa. Nếu không có tệp xác thực cụ thể cho một ngôn ngữ, quy tắc tiếng Anh sẽ hiển thị cho cộng tác viên.
+adding-sentences-subheader-offensive-content = Nội dung xúc phạm
+adding-sentences-subheader-offensive-content-explanation = Nếu câu đó xúc phạm hoặc gây khó chịu - chẳng hạn như do nội dung tục tĩu hoặc vi phạm <communityGuidelines>nguyên tắc tham gia cộng đồng</communityGuidelines> của chúng tôi - thì bạn nên từ chối câu đó. Bạn cũng có thể liên hệ với chúng tôi tại <emailFragment>commonvoice@mozilla.com</emailFragment> để giải quyết vấn đề.
+reviewing-sentences-explanation-1 = Nếu câu đáp ứng các tiêu chí trên, hãy nhấp vào nút "Có".
+reviewing-sentences-explanation-2 = Nếu câu không đáp ứng các tiêu chí trên, hãy nhấp vào nút "Không".
+reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu đó, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
+reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
+
+## WRITE PAGE
+
+write-instruction = Thêm <icon></icon> một câu thuộc phạm vi công cộng
+write-page-subtitle = Các câu được đóng góp ở đây sẽ được thêm vào bộ dữ liệu được cấp phép cc-0 có sẵn công khai.
+sentence =
+    .label = Câu
+sentence-input-value = Nhập câu thuộc phạm vi công cộng của bạn vào đây
+citation-input-value = Nguồn câu của bạn
+citation =
+    .label = Nguồn trích dẫn
+sc-write-submit-confirm = Tôi xác nhận rằng câu này thuộc <wikipediaLink>phạm vi công cộng</wikipediaLink> và tôi có quyền tải nó lên.
+sc-review-write-title = Tôi có thể thêm những câu nào?
+new-sentence-rule-1 = <noCopyright>Không hạn chế bản quyền</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Ít hơn 15 từ
+new-sentence-rule-3 = Sử dụng đúng ngữ pháp
+new-sentence-rule-4 = Sử dụng đúng chính tả và dấu câu
+new-sentence-rule-5 = Không có số và ký tự đặc biệt
+new-sentence-rule-6 = Không có ký tự nước ngoài
+new-sentence-rule-7 = Bao gồm trích dẫn thích hợp
+new-sentence-rule-8 = Lý tưởng nhất là tự nhiên và có tính đàm thoại (câu phải dễ đọc)
+how-to-cite = Cách để tôi trích dẫn?
+how-to-cite-explanation-bold = Trích dẫn với một liên kết URL hoặc tên đầy đủ của tác phẩm.
+how-to-cite-explanation = Nếu đó là câu của chính bạn, chỉ cần nói <italicizedText>“Tự trích dẫn”</italicizedText>. Chúng tôi cần biết bạn đã tìm thấy nội dung này ở đâu để chúng tôi có thể kiểm tra xem nội dung đó có thuộc phạm vi công cộng và không áp dụng hạn chế bản quyền nào không. Để biết thêm thông tin về trích dẫn, hãy xem <guidelinesLink>trang Nguyên tắc</guidelinesLink> của chúng tôi.
+guidelines = Nguyên tắc
+contact-us = Liên hệ với chúng tôi
+add-sentence-success = 1 câu đã sưu tập
+add-sentence-error = Lỗi khi thêm câu
+required-field = Vui lòng điền vào trường này.
+single-sentence-submission = Gửi câu riêng lẻ
+bulk-sentence-submission = Gửi hàng loạt câu
+single-sentence = Câu đơn
+bulk-sentences = Hàng loạt câu
+# Sentence Domain dropdown option
+agriculture = Nông nghiệp
+# Sentence Domain dropdown option
+automotive = Công nghiệp ô tô
+# Sentence Domain dropdown option
+finance = Tài chính
+# Sentence Domain dropdown option
+food_service_retail = Thực phẩm, dịch vụ và bán lẻ
+# Sentence Domain dropdown option
+general = Tổng quát
+# Sentence Domain dropdown option
+healthcare = Chăm sóc sức khoẻ
+# Sentence Domain dropdown option
+history_law_government = Lịch sử, luật pháp và chính phủ
+# Sentence Domain dropdown option
+language_fundamentals = Nguyên tắc cơ bản về ngôn ngữ (ví dụ: chữ số, chữ cái, tiền)
+# Sentence Domain dropdown option
+media_entertainment = Truyền thông và giải trí
+# Sentence Domain dropdown option
+nature_environment = Thiên nhiên và môi trường
+# Sentence Domain dropdown option
+news_current_affairs = Tin tức và thời sự
+# Sentence Domain dropdown option
+technology_robotics = Công nghệ và máy móc
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kiểm tra <icon></icon> đây có phải là một câu đúng về mặt ngôn ngữ không?
+sc-review-rules-title = Liệu câu đáp ứng các nguyên tắc?
+sc-review-empty-state = Hiện tại không có câu nào để xem lại bằng ngôn ngữ này.
+report-sc-different-language = Ngôn ngữ khác
+report-sc-different-language-detail = Nó được viết bằng một ngôn ngữ khác với những gì tôi đang xem xét.
+sentences-fetch-error = Đã xảy ra lỗi khi tải câu
+review-error = Đã xảy ra lỗi khi xem xét câu này
+review-error-rate-limit-exceeded = Bạn đang đi quá nhanh. Hãy dành một chút thời gian để xem lại câu để đảm bảo nó đúng.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Chúng tôi đang thực hiện một số thay đổi lớn
+sc-redirect-page-subtitle-1 = Trình thu thập câu đang chuyển sang nền tảng cốt lõi của Common Voice. Giờ đây, bạn có thể <writeURL>viết</writeURL> một câu hoặc <reviewURL>xem xét</reviewURL> các bài gửi một câu trên Common Voice.
+sc-redirect-page-subtitle-2 = Đặt câu hỏi cho chúng tôi trên <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> hoặc <emailLink>email</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Tải lên <icon></icon> các câu thuộc phạm vi công cộng
+sc-bulk-upload-instruction = Kéo tập tin của bạn vào đây hoặc <uploadButton>nhấp vào đây để tải lên</uploadButton>
+sc-bulk-upload-instruction-drop = Thả tập tin vào đây để tải lên
+bulk-upload-additional-information = Nếu có thêm thông tin bạn muốn cung cấp về tập tin này, vui lòng liên hệ <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Nếu có thông tin bổ sung bạn muốn cung cấp về tập tin này mà nó không có trong mẫu, vui lòng liên hệ <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Hãy thử lại bằng cách kéo tập tin của bạn vào đây
+try-upload-again-md = Hãy thử tải lên lại
+select-file = Chọn tập tin
+select-file-mobile = Chọn tập tin để tải lên
+accepted-files = Các loại tập tin được chấp nhận: chỉ .tsv
+maximum-file-size = Kích thước tối đa của tập tin: 25 MB
+what-needs-to-be-in-file = Những gì cần có trong hồ sơ của tôi?
+what-needs-to-be-in-file-explanation = Hãy xem qua <templateFileLink>tập tin mẫu</templateFileLink> của chúng tôi. Câu của bạn phải không có bản quyền (CC0 hoặc tác phẩm gốc được người gửi cho phép) và rõ ràng, đúng ngữ pháp và dễ đọc. Các câu đã gửi sẽ mất khoảng 10-15 giây để đọc và nên tránh bao gồm số, danh từ riêng và ký tự đặc biệt.
+upload-progress-text = Đang tải lên...
+sc-bulk-submit-confirm = Tôi xác nhận rằng những câu này thuộc <wikipediaLink>phạm vi công cộng</wikipediaLink> và tôi có quyền tải chúng lên.
+bulk-upload-success-toast = Đã gửi hàng loạt câu
+bulk-upload-failed-toast = Tải lên không thành công, vui lòng thử lại.
+bulk-submission-success-header = Cảm ơn bạn đã gửi số lượng lớn đóng góp của bạn!
+bulk-submission-success-subheader = Bạn đang giúp Common Voice đạt được mục tiêu câu hàng ngày của chúng tôi!
+upload-more-btn-text = Tải lên nhiều câu hơn?
+file-invalid-type = Tập tin không hợp lệ
+file-too-large = Tập tin quá lớn
+file-too-small = Tập tin quá nhỏ
+too-many-files = Quá nhiều tập tin

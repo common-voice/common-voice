@@ -100,6 +100,7 @@ const LabeledFormControl = React.forwardRef((allProps: any, ref) => {
     required,
     disabled,
     isLabelVisuallyHidden,
+    dataTestId,
     ...props
   } = allProps;
 
@@ -109,6 +110,7 @@ const LabeledFormControl = React.forwardRef((allProps: any, ref) => {
       aria-required={required}
       required={required}
       disabled={disabled}
+      data-testid={dataTestId}
       {...props}
     />
   );
@@ -141,15 +143,17 @@ const LabeledFormControl = React.forwardRef((allProps: any, ref) => {
 LabeledFormControl.displayName = 'LabeledFormControl';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const LabeledInput = React.forwardRef(({ type, ...props }: any, ref) => (
-  <LabeledFormControl
-    component="input"
-    ref={ref}
-    type={type || 'text'}
-    name={type}
-    {...props}
-  />
-));
+export const LabeledInput = React.forwardRef(
+  ({ type, component, ...props }: any, ref) => (
+    <LabeledFormControl
+      component={component || 'input'}
+      ref={ref}
+      type={type || 'text'}
+      name={type}
+      {...props}
+    />
+  )
+);
 LabeledInput.displayName = 'LabeledInput';
 
 export const LabeledSelect = (props: any) => (

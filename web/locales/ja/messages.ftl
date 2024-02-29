@@ -38,10 +38,13 @@ ba = バシキール語
 bas = バサ語
 be = ベラルーシ語
 bg = ブルガリア語
+bm = バンバラ語
 bn = ベンガル語
+bo = チベット語
 br = ブルトン語
 bs = ボスニア語
 bxr = ブリヤート語
+byv = メドゥンバ語
 ca = カタルーニャ語
 cak = カクチケル語
 ckb = 中央クルド語
@@ -51,9 +54,11 @@ cs = チェコ語
 cv = チュヴァシ語
 cy = ウェールズ語
 da = デンマーク語
+dag = ダグバニ語
 de = ドイツ語
 dsb = 低地ソルブ語
 dv = ディベヒ語
+dyu = ディウラ語
 el = ギリシャ語
 en = 英語
 eo = エスペラント
@@ -73,6 +78,7 @@ gom = ゴア・コンカニ語
 ha = ハウサ語
 he = ヘブライ語
 hi = ヒンディー語
+hil = ヒリガイノン語
 hr = クロアチア語
 hsb = 高地ソルブ語
 ht = ハイチ語
@@ -87,6 +93,7 @@ is = アイスランド語
 it = イタリア語
 izh = イングリア語
 ja = 日本語
+jbo = ロジバン
 ka = ジョージア語
 kaa = カラカルパク語
 kab = カビル語
@@ -95,6 +102,7 @@ ki = キクユ語
 kk = カザフ語
 km = クメール語
 kmr = クルマンジークルド語
+kn = カンナダ語
 knn = コンカニ語 （デーヴァナーガリー）
 ko = 韓国語
 kpv = コミ・ジリエーン語
@@ -103,6 +111,8 @@ ky = キルギス語
 lb = ルクセンブルク語
 lg = ガンダ語
 lij = リグリア語
+ln = リンガラ語
+lo = ラオス語
 lt = リトアニア語
 lv = ラトビア語
 mai = マイティリー語
@@ -122,12 +132,19 @@ my = ビルマ語
 myv = エルジャ語
 nan-tw = 台湾閩南語
 nb-NO = ノルウェー語 (ブークモール)
+nd = 北ンデベレ語
 ne-NP = ネパール語
+nhe = ナワトル語 (東ワステカ)
+nhi = ナワトル語 (西シエラ・プエブラ)
 nia = ニアス語
 nl = オランダ語
 nn-NO = ノルウェー語 (ニーノシュク)
+nr = 南ンデベレ語
+nso = 北ソト語
+ny = ニャンジャ語
 nyn = ニャンコレ語
 oc = オック語
+om = アファーン・オロモー
 or = オリヤー語
 pa-IN = パンジャブ語
 pap-AW = パピアメント語 (アルバ)
@@ -145,14 +162,18 @@ sah = サハ語
 sat = サンタル語 （オル・チキ文字）
 sc = サルデーニャ語
 scn = シチリア語
+sdh = 南クルド語
 shi = シルハ語
 si = シンハラ語
 sk = スロバキア語
 skr = サライキ語
 sl = スロベニア語
+snk = ソニンケ語
 so = ソマリ語
 sq = アルバニア語
 sr = セルビア語
+ss = シスワティ語
+st = 南ソト語
 sv-SE = スウェーデン語
 sw = スワヒリ語
 syr = シリア語
@@ -164,26 +185,35 @@ ti = ティグリニャ語
 tig = ティグレ語
 tk = トルクメン語
 tl = タガログ語
+tn = セツワナ語
 tok = トキポナ
 tr = トルコ語
+ts = ツォンガ語
 tt = タタール語
 tw = トウィ語
 ty = タヒチ語
+tyv = トゥバ語
 uby = ウビフ語
 udm = ウドムルト語
 ug = ウイグル語
 uk = ウクライナ語
 ur = ウルドゥー語
 uz = ウズベク語
+ve = ヴェンダ語
 vec = ベネチア語
 vi = ベトナム語
 vot = ヴォート語
+wo = ウォロフ語
+xh = コーサ語
 yi = イディッシュ語
 yo = ヨルバ語
 yue = 広東語
+zgh = タマジット語
 zh-CN = 中国語 (中国)
 zh-HK = 中国語 (香港)
 zh-TW = 中国語 (台湾)
+zu = ズールー語
+zza = ザザキ語
 
 # [/]
 
@@ -195,6 +225,7 @@ speak-now = 話してください
 datasets = データセット
 languages = 言語
 about = Common Voice について
+partner = パートナー
 profile = プロファイル
 help = ヘルプ
 contact = お問い合わせ
@@ -308,7 +339,6 @@ shortcut-discard-ongoing-recording-label = 録音中のデータを破棄
 shortcut-submit = Return
 shortcut-submit-label = 録音を提出
 request-language-text = あなたの使っている言語は Common Voice にありますか？
-request-language-text-learn = リクエストする方法をここで学びましょう！
 request-language-button = 言語の追加をリクエスト
 
 ## ProjectStatus
@@ -334,8 +364,14 @@ profile-form-additional-language =
     .label = 追加言語
 profile-form-language =
     .label = 言語
+profile-form-variant =
+    .label = あなたは { $language } のどの方言を話しますか？
+profile-form-variant-default-value = 方言が選択されていません
 profile-form-accent =
     .label = 方言
+profile-form-custom-accent-help-text =
+    .label = 自分のアクセントをどのように説明しますか?
+profile-form-custom-accent-placeholder-2 = アクセントの説明の入力を開始します
 profile-form-age =
     .label = 年齢
 profile-form-gender-2 =
@@ -346,6 +382,7 @@ hidden = 非公開
 visible = 公開
 native-language =
     .label = 母国語
+profile-form-add-accent = 新しいカスタムアクセント "{ $inputValue }" を追加
 profile-form-submit-save = 保存
 profile-form-submit-saved = 保存済み
 male = 男性
@@ -368,7 +405,9 @@ why-demographic = どうしてこれが問題なのですか？
 why-demographic-explanation-2 = 年齢や性別、アクセントといった音声に関わるより詳細なユーザーデータは、匿名化した上で音声認識エンジンの精度向上に利用されます。あなたのユーザー名およびメールアドレスが送信したデータと関連付けられることは決してありません。また、ユーザー名を公開するか匿名にしておくかも選択できます。
 accept-privacy = Mozillaの<privacyLink>プライバシーポリシー</privacyLink>の下でこの情報が用いられることに同意します。
 accept-privacy-title = プライバシーポリシー
+accept-privacy-and-terms = Common Voice の <termsLink>利用規約</termsLink> および <privacyLink>プライバシー通知</privacyLink> に同意します。
 login-identity = ログイン用アカウント
+login = ログイン
 login-signup = ログイン / アカウント登録
 edit = 編集
 email-subscriptions = メールニュースの購読を変更
@@ -379,6 +418,10 @@ skip-submission-description = 投稿中は、[送信] をクリックした後�
 skip-submission-note = 注意: 「読み上げ」か「聞き取り」から貢献の種類を選んでください
 off = オフ
 on = オン
+help-accent = アクセントについて助けが必要ですか？
+help-accent-explanation = アクセントは単語の発音の仕方です。それは、あなたが住んでいた場所、他にどの言語を話すか、その他多くの要因によって形作られます。関連すると思われる情報はここで共有できます。
+help-variants = 方言について助けが必要ですか？
+help-variants-explanation = 方言は、言語の特定の形式です。たとえば、ある地域やコミュニティに住んでいる人々によって共有されます。これらは変種と呼ばれることもあります。
 
 ## Profile - Email
 
@@ -389,6 +432,7 @@ gravatar_not_found = あなたのメールアドレスは Gravatar に見つか�
 file_too_large = 選択したファイルのサイズが大きすぎます
 avatar-uploaded = アバターをアップロードしました
 max-file-size = 最大 { $kb } kb
+remove-avatar = アバターを削除
 
 ## Profile - Email
 
@@ -432,7 +476,6 @@ faq-why-different-speakers-a =
     ほとんどの音声データベースは、特定の人口統計を過剰に表現してトレーニングされているため、<articleLink>男性と中流階級</articleLink>に偏っています。トレーニングデータセットで過小評価される傾向のあるアクセントと方言は、通常、すでに疎外されている人々のグループに関連付けられています。多くの機械も女性の声を理解するのに苦労しています。
     これが、音声データベースに多様性が必要な理由です！
 faq-why-my-lang-q = 私の言語がまだ含まれていないのはなぜですか？
-faq-why-my-lang-new-a = Mozilla は、ある言語を別の言語よりも優先したり選び取ったりしません。Common Voice は純粋にコミュニティ主導のイニシアチブですから、<multilangLink>新しい言語を追加するいくつかの手順</multilangLink>により、音声寄付の収集を開始します。まず、コミュニティメンバーが自分の言語で音声の寄付がアクセスできるように、Common Voice のウェブサイトを翻訳する必要があります。次に、人々が声に出して読むための、著作権フリーの文章の大規模なコレクションが必要です。これらの要件の両方が満たされると、共通の音声で言語が「起動」され、人々が音声を録音し、他の寄付を検証できるようになります。新しい言語の立ち上げを支援したい場合は、<sentenceCollectorLink>センテンスコレクションツール</sentenceCollectorLink>にアクセスして開始してください。
 faq-what-quality-q = 音声クリップをデータセットで使用するには、どの程度の音質が必要ですか？
 faq-what-quality-a = Common Voice データセットに音声認識エンジンで実際に聞こえる音声品質を反映させる必要があるため、私たちは様々な音声を探しています。話者の多様なコミュニティに加えて、様々な音声品質を持つデータセットは、音声認識エンジンに、周囲の会話から車の騒音まで、さまざまな現実の状況を処理するように教えます。あなたの音声クリップが理解できる限り、それはデータセットにとって十分であるべきです。
 faq-why-10k-hours-q = 音声をキャプチャーするために、言語ごとの目標として 1 万時間の検証が必要なのはなぜですか？
@@ -484,14 +527,9 @@ about-dataset-new = Common Voice データセット
 about-dataset-new-text = Common Voice データセットには、開発者が音声認識ツールを構築するのに役立つ数十万の音声サンプルが含まれています。
 about-clip-graveyard = Clip Graveyard
 about-clip-graveyard-text = Clip Graveyard は、Common Voice データセットに含まれなかった音声クリップで構成されています。データセットと同様に、Clip Graveyard もダウンロードできます。
-about-partners = パートナー
-about-become-a-partner = パートナーになる
-about-partnership =
-    Common Voice は共同プロジェクトであり、私たちはこれまでで最大のオープンソースの音声データセットを構築するためにパートナーと貢献者のコミュニティに依存しています。
-    
-    このプロジェクトを手伝ってくれた以下の人々と組織に感謝します:
 about-get-involved = 参加しよう
 about-get-involved-text-2 = Common Voice をさらに改善しませんか？ ご協力いただける方は、メールまたは <discourseLink>Discourse</discourseLink> フォーラムでご連絡ください。サイトの問題は <githubLink>GitHub</githubLink> 経由か、<matrixLink>Matrix</matrixLink> コミュニティのチャットでフィードバックしてください。
+about-stay-in-touch-button = アカウント登録
 about-nav-why-common-voice = なぜ？
 about-nav-how-it-works = どうやって？
 about-nav-partners = パートナー
@@ -525,12 +563,6 @@ about-playbook-how-grow-language-content-2 = イベント
 
 ## How are decisions made
 
-mycroft-title = Mycroft Ai
-mycroft-subtitle = 人工知能
-mycroft-description =
-    Mycroft は世界初のオープンソースアシスタントです。
-    Mycroft は、デスクトップコンピュータ上、自動車内、Raspberry Pi 上など、どこでも動作します。
-mycroft-secondary-description = これはオープンソースソフトウェアで、自由にリミックス、拡張、そして改良することができます。 Mycroft は科学プロジェクトから企業のソフトウェアアプリケーションまで何にでも使用できます。
 
 ## Glossary
 
@@ -572,6 +604,8 @@ release-version = バージョン
 dataset-date = 日付
 license = ライセンス：<licenseLink>{ $license }</licenseLink>
 license-mixed = 複合ライセンス
+data-download-singleword-title = 一語対象セグメントのダウンロード
+data-download-singleword-callout-v2 = これは、数字の音声認識と「はい・いいえ」の識別を開発するためのデータを含む、ユースケースに特化したセグメントです。
 review-terms = Common Voice を利用すると、「<termsLink>利用規約</termsLink>」と「<privacyLink>プライバシーについて</privacyLink>」に同意したものとみなします。
 terms-agree = 同意する
 terms-disagree = 同意しない
@@ -684,7 +718,6 @@ language-search-input =
 language-speakers = 話者数
 localized = ローカライズ済み
 sentences = 文章
-total-hours = 合計時間
 
 ## Contribution
 
@@ -746,6 +779,9 @@ target-segment-first-card = あなたは私たちの最初の目標セグメン�
 target-segment-first-banner = { $locale } における Common Voice の最初の目標セグメント作成にご協力ください
 target-segment-add-voice = あなたの声を追加
 target-segment-learn-more = 詳細情報
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -956,3 +992,4 @@ demo-account = アカウント
 
 # [/SentenceCollector]
 
+sentence-collection = 文章コレクション

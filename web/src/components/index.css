@@ -62,9 +62,15 @@ body,
     max-height: 100%;
 }
 
+#main.write, #main.review {
+    @media (--md-down) {
+        height: auto;
+    }
+}
+
 #main {
     &.nav-modal-active {
-        @media (--md-down) {
+        @media (--lg-down) {
             overflow-y: hidden;
 
             & .header {
@@ -151,13 +157,26 @@ button {
     background-color: var(--white);
 
     &.speak,
-    &.listen {
-        overflow: hidden;
+    &.listen,
+    &.write,
+    &.review  {
+        max-height: calc(100dvh - 2px);
 
         & header {
-            @media (--md-down) {
+            @media (--lg-down) {
                 display: none;
             }
+        }
+
+        #content {
+            min-height: 70%;
+        }
+    }
+
+    &.write,
+    &.review {
+        @media (--md-down) {
+            overflow: auto;
         }
     }
 }
@@ -185,6 +204,19 @@ button {
     flex-grow: 1;
     width: 100%;
     min-height: 100%;
+
+    &.write,
+    &.review {
+        @media (--sm-down) {
+            min-height: auto;
+        }
+    }
+
+    &.review {
+        & .spinner--floating {
+            position: fixed;
+        }
+    }
 }
 
 .Logo {
@@ -278,7 +310,7 @@ a.small,
     & .tippy-tooltip {
         border-radius: 20px;
         padding: 9px 25px;
-        max-width: 140px;
+        max-width: 200px;
         line-height: 1.5;
         font-size: var(--font-size-xs);
         font-style: italic;

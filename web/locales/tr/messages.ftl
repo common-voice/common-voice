@@ -44,6 +44,7 @@ be = Belarusça
 bg = Bulgarca
 bm = Bambara
 bn = Bengalce
+bo = Tibetçe
 br = Bretonca
 bs = Boşnakça
 bxr = Buryatça
@@ -53,6 +54,7 @@ cak = Kakçikelce
 ckb = Soranice
 cnh = Hakha Chin
 co = Korsikaca
+crh = Kırım Tatarcası
 cs = Çekçe
 cv = Çuvaşça
 cy = Galce
@@ -68,16 +70,20 @@ eo = Esperanto
 es = İspanyolca
 et = Estonca
 eu = Baskça
+ewo = Ewondo
 fa = Farsça
 ff = Fulaca
 fi = Fince
 fo = Faroece
 fr = Fransızca
+fuf = Pular Guinea
 fy-NL = Frizce
 ga-IE = İrlandaca
-gl = Galce
+gl = Galiçyaca
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Güceratça
+guc = Wayuunaiki
 ha = Hausaca
 he = İbranice
 hi = Hintçe
@@ -97,6 +103,7 @@ it = İtalyanca
 izh = İngrice
 ja = Japonca
 jbo = Lojban
+jv = Cava dili
 ka = Gürcüce
 kaa = Karakalpakça
 kab = Berberice
@@ -117,7 +124,9 @@ lij = Liguryanca
 ln = Lingala
 lo = Lao
 lt = Litvanca
+ltg = Latgalce
 lv = Letonca
+lzz = Lazca
 mai = Maithili
 mdf = Mokşa
 mg = Malgaşça
@@ -138,15 +147,18 @@ nb-NO = Norveç Bokmål
 nd = IsiNdebele (Kuzey)
 ne-NP = Nepalce
 nhe = Doğu Huasteca Nahuatl dili
+nhi = Batı Sierra Puebla Nahuatl
 nia = Nias
 nl = Felemenkçe
 nn-NO = Norveççe (Nynorsk)
 nr = IsiNdebele (Güney)
 nso = Kuzey Sotho
+ny = Çevaca
 nyn = Nyankole
 oc = Oksitanca
 om = Oromca
 or = Odia
+os = Osetçe
 pa-IN = Pencapça
 pap-AW = Papiamento (Aruba)
 pl = Lehçe
@@ -154,6 +166,7 @@ ps = Peştuca
 pt = Portekizce
 quc = Kiçece
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Romanşça Sursilvan
 rm-vallader = Romanşça Vallader
 ro = Rumence
@@ -163,12 +176,14 @@ sah = Yakutça
 sat = Santali (Ol Chiki)
 sc = Sardinya dili
 scn = Sicilyaca
+sco = İskoçça
+sd = Sind dili
 sdh = Kelhurice
 shi = Şilha
 si = Seylanca
 sk = Slovakça
 skr = Saraiki
-sl = Slovakça
+sl = Slovence
 snk = Soninke
 so = Somalice
 sq = Arnavutça
@@ -203,7 +218,9 @@ uz = Özbekçe
 ve = Venda
 vec = Venedikçe
 vi = Vietnamca
+vmw = Emakhuwa
 vot = Votic
+wep = Vestfalya dili
 wo = Volofça
 xh = Xhosa
 yi = Yidiş
@@ -240,6 +257,7 @@ share-text = Makinelere gerçek insanların nasıl konuştuğunu öğretin: { $l
 link-copied = Bağlantı kopyalandı
 back-top = Başa dön
 logout = Çıkış
+donate = Bağış yap
 
 ## Home Page
 
@@ -248,7 +266,10 @@ default-tagline = Mozilla Common Voice makinelere gerçek insanların nasıl kon
 home-cta = Konuşarak katkı sağla!
 wall-of-text-start = Ses doğaldır, insanidir. Bu yüzden makinelerimiz için kullanılabilir ses teknolojileri üretmekle ilgileniyoruz. Ama ses sistemleri yaratmak için çok büyük miktarlarda ses verisine ihtiyaç var.
 wall-of-text-more-mobile = Büyük şirketlerin kullandığı verilerin çoğu insanların çoğunluğunun kullanımına açık değil. Biz bunun yenileşmeyi bastırdığını düşünüyoruz. Bu yüzden ses tanıma sistemlerini herkese açık hale getirmek için Common Voice projesini başlattık.
-wall-of-text-more-desktop = Herkesin cihazlara ve web'e yönelik yenilikçi uygulamalar geliştirmede kullanabileceği, açık kaynaklı bir ses veritabanı oluşturmamıza yardımcı olmak için sesinizi bağışlayabilirsiniz.<lineBreak></lineBreak>Gerçek insanların nasıl konuştuğunu makinelere öğretmek için bir cümle okuyun. Kaliteyi artırmak için diğer gönüllülerin kayıtlarını kontrol edin. Bu kadar basit!
+wall-of-text-more-desktop =
+    Herkesin cihazlara ve web’e yönelik yenilikçi uygulamalar geliştirmede kullanabileceği, açık kaynaklı bir ses veritabanı oluşturmamıza yardımcı olmak için sesinizi bağışlayabilirsiniz.
+    Gerçek insanların nasıl konuştuğunu makinelere öğretmek için bir cümle okuyun.
+    Kaliteyi artırmak için diğer gönüllülerin kayıtlarını kontrol edin. Bu kadar basit!
 wall-of-text-first = Ses doğaldır, insanidir. Bu yüzden makinelerimiz için kullanılabilir ses teknolojileri üretmekle ilgileniyoruz. Ama ses sistemleri yaratmak için geliştiricilerin çok büyük miktarlarda ses verisine ihtiyacı var.
 wall-of-text-second = Büyük şirketlerin kullandığı verilerin çoğu insanların çoğunluğunun kullanımına açık değil. Biz bunun yenileşmeyi bastırdığını düşünüyoruz. Bu yüzden ses tanıma sistemlerini herkese açık ve erişilebilir hale getirmek için Common Voice projesini başlattık.
 show-wall-of-text = Devamını oku
@@ -337,7 +358,7 @@ shortcut-vote-no = h
 shortcut-record-toggle = k
 shortcut-record-toggle-label = Kaydet/Durdur
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Yeniden kaydedin
+shortcut-rerecord-toggle-label = Yeniden kaydet
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Yapılmakta olan kaydı sil
 shortcut-submit = Enter
@@ -390,8 +411,12 @@ native-language =
 profile-form-add-accent = "{ $inputValue }" aksanını ekle
 profile-form-submit-save = Kaydet
 profile-form-submit-saved = Kaydedildi
-male = Erkek
-female = Kadın
+male_masculine = Erkek/Eril
+female_feminine = Kadın/Dişil
+intersex = İnterseks
+transgender = Trans
+non-binary = Non-binary
+do_not_wish_to_say = Söylemek istemiyorum
 # Gender
 other = Diğer
 why-profile-title = Neden profil oluşturmalıyım?
@@ -454,7 +479,7 @@ faq-what-cv-q = Common Voice nedir?
 faq-what-cv-a =
     Ses tanıma teknolojisi, makinelerle etkileşime girme biçimimizde devrim yaratıyor ancak şu anda mevcut sistemler pahalı ve tescilli. Common Voice, Mozilla’nın ses tanıma teknolojilerini herkes için daha iyi ve daha erişilebilir hale getirme girişiminin bir parçasıdır. Common Voice, herkesin ses özelliği olan uygulamaları potansiyel olarak her dilde hızlı ve kolay bir şekilde eğitmesine olanak tanıyan geniş bir küresel bağışlanmış ses veritabanıdır.
     
-    Ses örneklerini yalnızca yaygın olarak konuşulan dillerden değil, aynı zamanda daha az konuşmacısı olan dillerden de topluyoruz. Farklı bir ses veri kümesi yayınlamak geliştiricileri, girişimcileri ve toplulukları bu boşluğu kendileri ele almaya teşvik edecektir. Common Voice veri kümesine ek olarak, Deep Speech adlı açık kaynaklı bir konuşma tanıma motoru da kuruyoruz.
+    Ses örneklerini yalnızca yaygın olarak konuşulan dillerden değil, aynı zamanda daha az konuşmacısı olan dillerden de topluyoruz. Farklı bir ses veri kümesi yayımlamak geliştiricileri, girişimcileri ve toplulukları bu boşluğu kendileri ele almaya teşvik edecektir. Common Voice veri kümesine ek olarak, Deep Speech adlı açık kaynaklı bir konuşma tanıma motoru da kuruyoruz.
 faq-what-cv-a-2 =
     Ses tanıma teknolojisi, makinelerle etkileşime girme biçimimizde devrim yaratıyor ancak şu anda mevcut sistemler pahalı ve tescilli. Mozilla Common Voice, ses tanıma teknolojilerini herkes için iyileştirmeye ve daha erişilebilir hale getirmeye çalışan bir girişim. Common Voice, herkesin ses özelliği olan uygulamaları potansiyel olarak her dilde hızlı ve kolay bir şekilde eğitmesine olanak tanıyan bağışlanmış seslerden oluşan geniş ve küresel bir veritabanı.
     
@@ -463,7 +488,7 @@ faq-why-important-q = Ne önemi var?
 faq-why-important-a =
     Konuşma genellikle birbirimizle iletişim kurmamızın en doğal yoludur ve ses teknolojileri bu rahatlığı bilgisayarlarımıza ve mobil cihazlarımıza getirmektedir. Geliştiricilere, gerçek zamanlı çevirmenler ve ses özellikli dijital asistanlar gibi harika ses tanıma uygulamaları oluşturma konusunda güç vermek istiyoruz. Ancak şu anda bu tür uygulamaları oluşturmak için gereken ses verilerinin çoğu pahalı ve özeldir. Common Voice veri kümesinin, geliştiricilere, yenilikler yapmaları ve konuşma teknolojisini kendi dillerinde kullanıma sunmaları için ihtiyaç duydukları şeyi vereceğini umuyoruz.
     
-    Ses tanıma özelliğini daha da evrensel hale getirmek için, yaygın olarak konuşulan dillerde ve genellikle ticari konuşma tanıma hizmetleri tarafından kullanılan daha az sayıda konuşmacıya sahip olan ses örneklerini topluyoruz. Farklı bir ses veri setinin yayınlanması, geliştiricileri, girişimcileri ve tüm konuşma topluluklarını bu boşluğu kendileri ele almaya teşvik edecektir.
+    Ses tanıma özelliğini daha da evrensel hale getirmek için, yaygın olarak konuşulan dillerde ve genellikle ticari konuşma tanıma hizmetleri tarafından kullanılan daha az sayıda konuşmacıya sahip olan ses örneklerini topluyoruz. Farklı bir ses veri setinin yayımlanması, geliştiricileri, girişimcileri ve tüm konuşma topluluklarını bu boşluğu kendileri ele almaya teşvik edecektir.
 faq-how-get-q = Common Voice verilerini nasıl indirebilirim?
 faq-how-get-a = Common Voice veri kümesi, <datasetLink>Veri Kümeleri sayfamızdaki</datasetLink> <licenseLink>CC0</licenseLink> lisansıyla indirilebilir. Halka açık diğer birkaç veri kümesini de aynı sayfadan indirebilirsiniz.
 faq-when-release2-q = Diğer dillerdeki Common Voice verilerini ne zaman yayımlayacaksınız?
@@ -493,7 +518,7 @@ faq-where-src-from-2-a =
     Kaynak metinlerimiz, özgün katılımcı bağışlarının yanı sıra <italic>It’s a Wonderful Life</italic> gibi kamuya açık film senaryolarındaki diyaloglardan oluşur.
     
     Kaynak cümlelerimizi bu <githubLink>GitHub klasöründe</githubLink> görüntüleyebilirsiniz.
-faq-why-not-ask-read-q = Neden insanlardan farklı dillerdeki kitapları veya Wikipedia makalelerini okumalarını istemiyorsunuz?
+faq-why-not-ask-read-q = Neden insanlardan farklı dillerdeki kitapları veya Vikipedi makalelerini okumalarını istemiyorsunuz?
 faq-why-not-ask-read-a = Common Voice veri kümesini olabildiğince yararlı hale getirmek için yalnızca Creative Commons (CC0) lisanslı kaynak metinlere izin vermeye karar verdik. CC0 standardını kullanmak, kaynak metin bulup derlemenin daha zor olduğu anlamına geliyor; ancak elde edilen ses verilerini kullanım kısıtlamaları olmadan ve Mozilla'dan izin almadan herkesin kullanmasına izin veriyor. Sonuç olarak, çok dilli veri kümesini araştırmacılar, üniversiteler, girişimler, devletler, sosyal amaçlı kuruluşlar ve bu işe meraklı kişiler dahil herkes için olabildiğince faydalı hale getirmek istiyoruz.
 faq-why-account-q = Neden hesap açayım?
 faq-is-account-public-q = Hesap bilgilerimi herkes görecek mi?
@@ -541,7 +566,7 @@ about-listen-queue = Dinleme Kuyruğu
 about-listen-queue-text = Ses kayıtları, dinleyiciler tarafından dinlenmek üzere bir gönderim kuyruğuna eklenir.
 about-listen = Dinle
 about-listen-text = Kullanıcılar, konuşmacıların cümleyi doğru okuduğunu kontrol ederek bağışlanan kayıtların doğruluğunu onaylar.
-about-is-it-valid = Klip geçerli mi?
+about-is-it-valid = Ses kaydı geçerli mi?
 about-is-it-valid-text = Bir ses kaydı, bir kullanıcı Evet oyu verdiğinde "geçerli" olarak işaretlenir.
 about-yes-votes = Evet oyları ≥ 2
 about-yes-votes-text = Common Voice veri kümesine girebilmesi için bir ses kaydının iki ayrı kullanıcı tarafından doğrulanması gerekir.
@@ -573,8 +598,8 @@ about-nav-playbook = Nasıl katılacağınızı öğrenin
 
 about-playbook-what-is-language = Common Voice'ta dil nedir?
 about-playbook-what-is-language-content-1 = Dil üzerine düşünmenin birçok yolu var. Konuşma tanıma modelleri geliştirme amacı söz konusu olduğunda, Common Voice "karşılıklı anlaşılabilirlik" veya "Bu dili konuşanlar birbirlerini genelde anlayabilirler mi?" üzerine odaklanmayı öneriyor.
-about-playbook-what-is-language-content-2 = Konuşma modellerinin çok çeşitli konuşmacıları anlamada daha iyi olmasını istiyoruz. Bunun için ses veri kümesilerinin birçok farklı insanı temsil etmesi gerekir.
-about-playbook-what-is-language-content-3 = Bazı diller arasında gramer, söz dağarcığı ve telaffuz açısından çok büyük farklılıklar vardır. Bu nedenle, 2022'de <ctaLink>"varyantları" uygulamaya sokuyoruz</ctaLink>. Bu özellik, topluluklara daha büyük veri kümeleri içinde kendi dillerini ayırt etmelerinin bir yolunu sunuyor.
+about-playbook-what-is-language-content-2 = Konuşma modellerinin çok çeşitli konuşmacıları anlamada daha iyi olmasını istiyoruz. Bunun için ses veri kümelerinin birçok farklı insanı temsil etmesi gerekir.
+about-playbook-what-is-language-content-3 = Bazı diller arasında dilbilgisi, söz dağarcığı ve telaffuz açısından çok büyük farklılıklar vardır. Bu nedenle, 2022'de <ctaLink>"varyantları" uygulamaya sokuyoruz</ctaLink>. Bu özellik, topluluklara daha büyük veri kümeleri içinde kendi dillerini ayırt etmelerinin bir yolunu sunuyor.
 
 ## How do I add a language
 
@@ -606,13 +631,12 @@ about-playbook-how-localize-content-5 = Açıklayıcı videomuzu izleyin
 about-playbook-how-add-sentences = Nasıl cümle ekleyebilirim?
 about-playbook-how-add-sentences-content-1 = <strong>Cümle Toplayıcı</strong>, kamuya açık cümleleri toplamamızı ve doğrulamamızı sağlayan bir araçtır. Önce <scAccountLink>bir hesap oluşturmanız gerekecek</scAccountLink>. Ardından dilinizi <strong>profilinize</strong> ekleyin. Sonra cümleleri <strong>ekleyebilir</strong> veya önceden eklenmiş cümleleri <strong>inceleyebilirsiniz</strong>.
 about-playbook-how-add-sentences-content-2 = Cümlelerin Common Voice'a dahil olabilmesi için iki kişi tarafından incelenip kabul edilmesi gerekir. <languageGuidelinesLink>Burada</languageGuidelinesLink> dilinizin yönergelerini oluşturabilirsiniz. Cümleler <licenseLink>kamu malı</licenseLink> olmalı ve 15 kelimeden kısa olmalıdır. Bir metnin sahibinden <waiverLink>feragat sürecimizi kullanarak metnin lisansını CC0 yapmasını</waiverLink> isteyebilir ve commonvoice@mozilla.com adresinden bize gönderebilirsiniz.
-about-playbook-how-add-sentences-content-3 = Wikipedia'daki kısa cümlelerden yararlanmak için <scraperLink>Cümle çekici</scraperLink>'yi kullanabilirsiniz.
-about-playbook-how-add-sentences-content-4 = Doğrulanan cümleler çarşamba günleri dışa aktarılır ve bir sonraki sürümde kullanılabilir hale gelir.
+about-playbook-how-add-sentences-content-3 = Vikipedi'deki kısa cümlelerden yararlanmak için <scraperLink>Cümle çekici</scraperLink>'yi kullanabilirsiniz.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Kaliteli bir ses kaydını nasıl kaydederim?
-about-playbook-how-record-content-1 = Normal sesinizle konuş! Her türlü konuşma şeklinize açığız. Aksanınızı olduğu gibi duymak istiyoruz. Her zamanki ses düzeyiniz, üslubunuz ve tonlamanızla konuşun.
+about-playbook-how-record-content-1 = Normal sesinizle konuşun! Her türlü konuşma şeklinize açığız. Aksanınızı olduğu gibi duymak istiyoruz. Her zamanki ses düzeyiniz, üslubunuz ve tonlamanızla konuşun.
 about-playbook-how-record-content-2 = Çok fazla arka plan gürültüsünden kaçının. Sesinizin kolayca duyulması gerekir.
 about-playbook-how-record-content-3 = Cümleyi dikkatlice okuyun. Kelimeleri atlamayın, değiştirmeyin ve kelime eklemeyin.
 about-playbook-how-record-content-4 = Konuşmaya başlamadan önce platformun kayıt yaptığından ve konuşmanız bitince kaydı durdurduğunuzdan emin olun.
@@ -636,7 +660,7 @@ about-playbook-how-validate = Bir ses kaydını onaylayıp onaylamayacağıma na
 about-playbook-how-validate-content-1 = <strong>Kaydı duyabiliyorsanız</strong> ve <strong>anlayabiliyorsanız</strong> genellikle <strong>onaylamak en iyisidir</strong>.
 about-playbook-how-validate-content-2 = <strong>Konuşmacının sizinkinden farklı aksana sahip olduğu kayıtları reddetmeyin</strong>. Bu kayıtlar ses tanımanın herkes için daha iyi çalışması için önemlidir.
 about-playbook-how-validate-content-3 = Telaffuzun kaydı <strong>anlamayı imkansız kıldığını</strong> düşünüyorsanız veya <strong>çok fazla arka plan gürültüsü</strong> varsa veya <strong>başka insanların da konuştuğunu</strong> duyuyorsanız kaydı reddetmelisiniz. <accuracyLink>Doğruluk kriterlerimizde daha fazla bilgi görün</accuracyLink>.
-about-playbook-how-validate-content-4 = Bir kayıt 2 kişi tarafından reddedilirse veri kümesinin farklı bir alt kümesinde yayınlanır.
+about-playbook-how-validate-content-4 = Bir kayıt 2 kişi tarafından reddedilirse veri kümesinin farklı bir alt kümesinde yayımlanır.
 
 ## How to access dataset
 
@@ -674,7 +698,7 @@ de-identified-explanation = Veri kümesi indirilmek üzere paketlendiği zaman k
 error-title-404 = Aradığınız sayfayı bulamadık
 error-content-404 = <homepageLink>Ana sayfamız</homepageLink> işinize yarayabilir. Soru sormak için <matrixLink>Matrix topluluk sohbetine</matrixLink> katılabilir, <githubLink>GitHub</githubLink> aracılığıyla site sorunlarını takip edebilir ve <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edebilirsiniz.
 error-title-503 = Beklenmedik bir kesinti yaşıyoruz
-error-content-503 = Site en kısa sürede yeniden açılacaktır. En güncel bilgiler için <matrixLink Matrix topluluk sohbetine</matrixLink> katılabilir, site deneyimiyle ilgili sorunları bildirmek ve izlemek için <githubLink>GitHub</githubLink> veya <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edebilirsiniz.
+error-content-503 = Site en kısa sürede yeniden açılacaktır. En güncel bilgiler için <matrixLink>Matrix topluluk sohbetine</matrixLink> katılabilir, site deneyimiyle ilgili sorunları bildirmek ve izlemek için <githubLink>GitHub</githubLink> veya <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edebilirsiniz.
 error-code = Hata { $code }
 
 ## Data
@@ -703,7 +727,7 @@ terms-agree = Kabul ediyorum
 terms-disagree = Kabul etmiyorum
 review-aborted = Yükleme iptal edildi. Kayıtlarınızı silmek istiyor musunuz?
 review-submit-title = İncele ve gönder
-review-submit-msg = Kayıt için teşekkürler!<lineBreak></lineBreak>Şimdi aşağıdaki klipleri inceleyin ve gönderin.
+review-submit-msg = Kayıt için teşekkürler!<lineBreak></lineBreak>Şimdi aşağıdaki kayıtları inceleyin ve gönderin.
 review-recording = Dinle
 review-rerecord = Yeniden kaydet
 review-cancel = Gönderimi iptal et
@@ -730,14 +754,15 @@ validated-hr-total = Doğrulanmış toplam saat
 overall-hr-total = Genel toplam saat
 cv-license = Lisans
 audio-format = Ses biçimi
+dataset-splits = Ayrımlar (yaş ve cinsiyet)
 number-of-voices = Ses sayısı
 splits = Ayrımlar
 email-to-download = İndirmek için e-postanızı yazın
 why-email = <b>Neden e-posta istiyorsunuz?</b> Veri kümesindeki değişiklikler hakkında gelecekte sizinle iletişim kurmamız gerekebilir. E-postanız bize bir iletişim bilgisi sağlar.
-confirm-size = <b>{ $size }</b> boyutundaki indirme işlemini başlatmaya hazırsınız
+confirm-size = <b>{ $size }</b> boyutundaki indirme işlemini başlatmaya hazırım
 size-gigabyte = GB
 size-megabyte = MB
-confirm-no-identify = Common Voice veri kümesindeki konuşmacıların kimliğini belirlemeye çalışmamayı <b>kabul ediyorsunuz</b>
+confirm-no-identify = Common Voice veri kümesindeki konuşmacıların kimliğini belirlemeye çalışmamayı <b>kabul ediyorum</b>
 confirm-join-mailing-list = Common Voice e-posta listesine katılmak istiyorum
 download-language = { $language } indir
 validated-hours = Doğrulanmış saat
@@ -775,6 +800,15 @@ dataset-version = Sürüm
 sha256-checksum-copied = SHA256 sağlama toplamı kopyalandı.
 sha256-checksum-copied-error = SHA256 sağlama toplamı kopyalanamadı
 clipboard-not-supported = Pano desteklenmiyor
+no-information-available = Bilgi yok
+dataset-metadata-sex = Cinsiyet
+# dataset metadata - age of contributor
+dataset-metadata-age = Yaş
+donate-modal-message = Veri kümeniz indiriliyor
+dataset-donate-modal-heading = Biliyor muydunuz…
+donate-modal-explanation-1 = Veri kümelerini barındırmak ve yaptığımız işe güvenen 100’den fazla dil topluluğu için platformu geliştirmek yılda neredeyse bir milyon dolara mal oluyor.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Açık ve kapsayıcı verilere değer veriyorsanız bağış yapın!</bold>
 
 ## Download Modal
 
@@ -843,6 +877,8 @@ language-section-in-progress = Devam ediyor
 language-section-in-progress-new-description = Bu diller şu anda topluluk geliştirme aşamasındadır. İlerleme çubukları, her dilin <localizationGlossaryLink>web sitesi yerelleştirme</localizationGlossaryLink> ve <sentenceCollectionGlossaryLink>cümle toplama</sentenceCollectionGlossaryLink> sürecinde ne kadar ilerlediğini gösterir.
 language-section-launched = Yayımlandı
 language-section-launched-description = Bu başlatılan diller için web sitesi başarıyla <localizationGlossaryLink>yerelleştirilmiştir</localizationGlossaryLink> ve devam eden <speakLink>Konuşma</speakLink> ve <listenLink>Dinleme</listenLink> katkılarına izin vermek için yeterli sayıda <sentenceCollectionGlossaryLink>cümle toplanmıştır</sentenceCollectionGlossaryLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Son güncelleme: { $lastUpdatedTimeStamp }
 languages-show-more = Daha fazlasını göster
 languages-show-less = Daha az göster
 language-meter-in-progress = İlerleme
@@ -861,6 +897,8 @@ action-click = tıklayın
 action-tap = dokunun
 contribute = Katkıda bulun
 listen = Dinle
+write = Yaz
+review = İncele
 skip = Atla
 shortcuts = Kısayollar
 clips-with-count-pluralized =
@@ -888,7 +926,7 @@ record-cancel = Yeniden kaydetmeyi iptal et
 record-instruction = <recordIcon></recordIcon> düğmesine { $actionType }, sonra cümleyi net bir şekilde okuyun
 record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>
 record-three-more-instruction = Üç tane kaldı!
-record-again-instruction = Harika! <recordIcon></recordIcon> Sonraki klibinizi kaydedin
+record-again-instruction = Harika! <recordIcon></recordIcon> Sıradaki kaydınızı kaydedin
 record-again-instruction2 = Böyle devam edin, tekrar kaydedin <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Bu son!
 review-tooltip = İlerledikçe bu kayıtları gözden geçirip yeniden kaydedin
@@ -899,9 +937,9 @@ record-submit-tooltip = { $actionType } hazır olduğunuzda gönderin
 clips-uploaded = Yüklenen kayıt
 record-abort-title = Önce kayıt bitirilsin mi?
 record-abort-text = Şimdi çıkarsanız yaptıklarınız kaydedilmeyecek
-record-abort-submit = Klipleri gönder
+record-abort-submit = Kayıtları gönder
 record-abort-continue = Kaydı bitir
-record-abort-delete = Klipleri sil ve çık
+record-abort-delete = Kayıtları sil ve çık
 listen-instruction = <playIcon></playIcon> düğmesine { $actionType }. Cümle doğru okunmuş mu?
 listen-again-instruction = Çok iyi iş! <playIcon></playIcon> Hazır olduğunuzda yeniden dinleyin.
 listen-3rd-time-instruction = İkisi gitti, çalışmaya devam! <playIcon></playIcon>
@@ -910,6 +948,9 @@ listen-empty-state = Doğrulanacak ses kaydı kalmamış olabilir. Sayfayı yeni
 listen-loading-error =
     Dinleyebileceğiniz hiç ses kaydı bulamadık.
     Lütfen daha sonra tekrar deneyin.
+listen-abort-title = Kayıt doğrulama bitirilsin mi?
+listen-abort-cancel = Doğrulamaya devam et
+listen-abort-confirm = Doğrulamayı bitir
 speak-empty-state = Bu dilde kaydedilecek cümle kalmadı...
 speak-empty-state-cta = Cümlelere katkıda bulunun
 speak-loading-error =
@@ -928,6 +969,7 @@ target-segment-learn-more = Daha fazla bilgi alın
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Ses Toplama
+contribute-sentence-collection-nav-header = Cümle Toplama
 
 ## Reporting
 
@@ -936,8 +978,8 @@ report-title = Rapor gönderin
 report-ask = Bu cümleyle ilgili hangi sorunları yaşıyorsunuz?
 report-offensive-language = Hakaret
 report-offensive-language-detail = Cümlenin kaba veya saldırgan bir üslubu var.
-report-grammar-or-spelling = Dil bilgisi / yazım hatası
-report-grammar-or-spelling-detail = Cümlede gramer veya yazım hatası var.
+report-grammar-or-spelling = Dilbilgisi / yazım hatası
+report-grammar-or-spelling-detail = Cümlede dilbilgisi veya yazım hatası var.
 report-different-language = Farklı dil
 report-different-language-detail = Konuştuğumdan farklı bir dilde yazılmış.
 report-difficult-pronounce = Telaffuzu zor
@@ -1067,7 +1109,7 @@ share-goal = Hedefimi paylaş
 
 ## Profile Delete
 
-delete-q = Ses kayıtlarınızın da silinmesini istiyorsunuz musunuz yoksa bunlar Common Voice veri kümesinde kalabilir mi?
+delete-q = Ses kayıtlarınızın da silinmesini istiyor musunuz yoksa bunlar Common Voice veri kümesinde kalabilir mi?
 keep = Tut
 remove = Sil
 keep-info = Anonim ses kayıtlarınız Common Voice veri kümesinde kalacaktır. Profilinizi sildikten sonra kayıtlarınızı veri kümesinden kaldırma talebinde bulunamazsınız.
@@ -1261,7 +1303,7 @@ sc-howto-addsen-item-5 = Yabancı harfler. Harfler konuşulan dilde geçerli olm
 sc-howto-addsen-item-6 = Diller <validationRulesLink>kendi doğrulama kurallarına</validationRulesLink> ve ek zorunluluklara sahip olabilir. Bir dil için belirli bir doğrulama dosyası yoksa genel İngilizce kurallarını kullanıyoruz.
 sc-howto-addsen-post-1 = Doğal cümleleri ve konuşma cümlelerini tercih ediyoruz. Cümlelerdeki fonetik çeşitlilik ve farklı kelimeler önemli olmakla birlikte, cümle kaydetmeyi de mümkün olduğunca eğlenceli hale getirmeye çalışıyoruz. Bu nedenle, cümlelerinizi mümkün olduğunca doğal/çekici tutmaya çalışmanız harika olur.
 sc-howto-cite-title = Nasıl alıntı yapılır?
-sc-howto-cite-pre-1 = İntihalden kaçınmak ve <copyrightIssuesLink>telif hakkı sorunlarını</copyrightIssuesLink> ile gidermemizi sağlamak için kamu malı kaynakları nereden bulduğunuzu belirtmeniz önemlidir. İşte kaynaklartan alıntı yapmanın birkaç yolu…
+sc-howto-cite-pre-1 = İntihalden kaçınmak ve <copyrightIssuesLink>telif hakkı sorunlarını</copyrightIssuesLink> gidermemizi sağlamak için kamu malı kaynakları nereden bulduğunuzu belirtmeniz önemlidir. İşte kaynaklardan alıntı yapmanın birkaç yolu…
 sc-howto-cite-item-1 = Web sitesi adresini verebilirsiniz. Örn. "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Akademik referans stilini kullanabilirsiniz. Örneğin Harvard stili ile: "Mozilla (2021) Common Voice. https://commonvoice.mozilla.org/ adresinde mevcuttur (Erişim tarihi: 15 Eylül 2021)"
 sc-howto-cite-item-3 = Çevrimiçi olmayan kamu malı metinler için akademik referans stilini kullanabilirsiniz. Örneğin Harvard stili ile: "Jess (2021) Kamu Malı Lisanslı Şiirlerim"
@@ -1536,6 +1578,7 @@ localization-select =
     .label = Dil seçin
 # PARTNERSHIPS PAGE
 partnerships-header = İş Ortaklıkları
+partnerships-header-text = Common Voice'u tek başımıza geliştirmiyoruz. Bizimle iş birliği yapmak ister misiniz?
 partnerships-get-in-touch = Bize ulaşın
 partnerships-become-a-partner = Common Voice İş Ortağı Olun
 partnerships-community-header = Toplum, Yaratıcılar ve Sivil Toplum
@@ -1560,3 +1603,176 @@ already-have-an-account = Zaten hesabınız var mı? <login>Giriş yapın</login
 create-profile-button = Profil oluştur
 # IMAGE TAGS
 img-alt-success-checkmark = başarı onay işareti
+# GUIDELINES PAGE
+guidelines-header = Katkıda bulunma yönergeleri
+voice-collection = Ses toplama
+sentence-collection = Cümle derleme
+varying-pronunciations = Farklı telaffuzlar
+misreadings = Yanlış okumalar
+offensive-content = Saldırgan üslup
+background-noise = Arka plan gürültüsü
+background-voices = Arka plan sesleri
+volume = Ses seviyesi
+reader-effects = Okuyucu efektleri
+just-unsure = Emin değil misiniz?
+example = Örnek
+varying-pronunciations-explanation-2 = Öte yandan, okuyucunun kelimeyle daha önce hiç karşılaşmadığını ve kelimeyi yanlış telaffuz ettiğini düşünüyorsanız lütfen kaydı reddedin. Emin değilseniz atlama düğmesini kullanın.
+misreadings-explanation-2 = Yaygın hatalar arasında şunları sayabiliriz:
+misreadings-explanation-3 = Kaydın başında ya da sonunda bir sözcüğü atlamak ya da metinde olmayan bir ek sözcük kaydetmek.
+misreadings-explanation-4 = Kayıt sırasında bazı sözcükleri iki denemede okuma ya da yazılandan farklı bir sözcük kaydetme.
+misreadings-explanation-5 = Yanlış telaffuzla okuma nedeniyle kelimelerin başka anlamlara dönüşmesi.
+misreadings-explanation-6 = Kaydın aceleyle sonlandırılması nedeniyle son kelimenin sonunun kaydedilmemesi.
+misreadings-explanation-7 = Bir kelimeyi okumak için birkaç deneme yapmak.
+misreadings-example-1 = Gardaşlar da gelince oda birdenbire doldu.
+misreadings-example-2 = Kardeşler de gelince o da birdenbire doldu.
+misreadings-example-3 = Kardeşler de gelince oda birdenbire doldu.
+misreadings-example-4 = Tamam canım, bitiyor birazdan.
+misreadings-tip-1 = [“oda” olmalıydı]
+misreadings-tip-2 = [Metinde "gardaş" olarak yerel dilde geçiyor]
+misreadings-tip-3 = [Farklı içerik]
+background-noise-example-1 = Bu hastalıklar vücudunu sarsmıştı.
+background-noise-example-2 = [Hapşırma] Bu hastalıklar vücudunu [öksürme] sarsmıştı.
+background-noise-example-3 = Bu hastalık vücudunu [öksürme] sarsmıştı.
+background-noise-example-4 = [ÇATIRTI] hastalıklar vücudunu [ÇATIRTI] -mıştı.
+background-noise-tip-1 = [arka plan gürültüsüyle kesintiye uğradı]
+background-noise-tip-2 = [Metnin bir kısmı duyulamıyor]
+background-voices-example-1 = Bu hastalıklar vücudunu sarsmıştı. [biri tarafından okunuyor]
+background-voices-tip-1 = Geliyor musun? [başka biri sesleniyor]
+volume-explanation = Okuyucular arasında ses seviyesi ile ilgili doğal farklılıklar olacaktır. Yalnızca ses kaydı bozulacak kadar yüksekse veya (daha yaygın olarak) yazılı metne bağlı kalmadan duyulamayacak kadar düşük sesle söyleniyorsa reddedin.
+reader-effects-explanation = Çoğu kayıt, doğal sesleriyle konuşan insanlara aittir. Ara sıra önünüze gelirse bağırılan, fısıldanan veya açıkça "dramatik" bir sesle yapılan standart dışı kayıtları da kabul edebilirsiniz. Lütfen şarkı biçiminde söylenen kayıtları ve bilgisayar tarafından sentezlenmiş sesleri reddedin.
+just-unsure-explanation = Bu yönergelerin kapsamadığı bir şeyle karşılaşırsanız, lütfen sağduyunuza göre oy verin. Gerçekten karar veremiyorsanız, atlama düğmesini kullanın ve bir sonraki kayda geçin.
+still-have-questions = Hâlâ sorularınız var mı?
+contact-common-voice = Common Voice ekibiyle iletişime geçebilirsiniz
+public-domain = Kamu malı
+citing-sentences = Alıntı cümleler
+adding-sentences = Cümle ekleme
+reviewing-sentences = Cümleleri inceleme
+sentence-domain = Cümlenin konusu
+citing-sentences-subheader-websites = Web siteleri
+citing-sentences-subheader-websites-explanation = Web sitesi adresini verebilirsiniz. Örn. "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Akademik atıf
+citing-sentences-subheader-academic-reference-explanation = Akademik atıf stilini kullanabilirsiniz. Örneğin Harvard stili ile: "Mozilla (2021) Common Voice. https://commonvoice.mozilla.org/ adresinde mevcuttur (Erişim tarihi: 15 Eylül 2021)"
+citing-sentences-subheader-offline-sources = Çevrimdışı kaynaklar
+citing-sentences-subheader-offline-sources-explanation = Çevrimiçi olarak bulunmayan kamu malı metinler için akademik atıf stilini kullanabilirsiniz. Örneğin Harvard stili ile: "Jess (2021) Kamu Malı Lisanslı Şiirlerim"
+citation =
+    .label = Kaynak
+self-citation = Kendine atıf
+self-citation-explanation = İçeriği kendiniz yazdıysanız bu şekilde kaynak gösterebilirsiniz.
+adding-sentences-subheader-length = Uzunluk
+adding-sentences-subheader-length-explanation = Cümle 15 kelimeden kısa olmalıdır.
+adding-sentences-subheader-spelling-punctuation = Yazım ve noktalama
+adding-sentences-subheader-spelling-punctuation-explanation = Cümle, yazım kurallarına uygun olarak yazılmış olmalıdır.
+adding-sentences-subheader-speakable = Sesli okunabilir
+adding-sentences-subheader-numbers = Sayılar
+adding-sentences-subheader-numbers-explanation = Kaynak metinde rakamlar mümkün mertebe olmamalıdır çünkü sesli okunduğunda sorun yaratabilirler. Bir sayının okunma şekli bağlama bağlıdır ve veri kümesinde karışıklığa neden olabilir. Örneğin, “2409” sayısı hem “yirmi dört sıfır dokuz” hem de “iki bin dört yüz dokuz” olarak doğru bir şekilde okunabilir.
+adding-sentences-subheader-abbreviations = Kısaltmalar ve kısa adlar
+adding-sentences-subheader-punctuation = Noktalama işaretleri
+adding-sentences-subheader-punctuation-explanation = Özel semboller ve noktalama işaretleri yalnızca kesinlikle gerekli olduğunda dahil edilmelidir. Örneğin, "Ahmet'in" ve "N'aber?" gibi sözcüklerdeki kesme işareti kaynak metne dahil edilmelidir, ancak büyük olasılıkla "@" veya "#" gibi özel sembollere ihtiyacınız olmayacaktır.
+adding-sentences-subheader-special-characters = Özel karakterler ve yabancı harfler
+adding-sentences-subheader-special-characters-explanation-1 = Harfler konuşulan dilde geçerli olmalıdır. Örneğin, "ж" Rus alfabesinde bir harftir ancak Türkçede asla kullanılmaz ve bu nedenle hiçbir Türkçe kaynak metinde yer almamalıdır.
+adding-sentences-subheader-offensive-content = Saldırgan üslup
+reviewing-sentences-explanation-1 = Cümle yukarıdaki ölçütleri karşılıyorsa "Evet" düğmesine tıklayın.
+reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamıyorsa "Hayır" düğmesine tıklayın.
+reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
+reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
+
+## WRITE PAGE
+
+write-instruction = Kamu malı bir cümle ekleyin <icon></icon>
+write-page-subtitle = Buradan gönderilen cümleler, halka açık ve cc-0 lisanslı bir veri kümesine eklenecektir.
+sentence =
+    .label = Cümle
+sentence-input-value = Kamu malı cümlenizi buraya yazın
+citation-input-value = Cümlenizin kaynağı
+citation =
+    .label = Kaynak
+sc-write-submit-confirm = Bu cümlenin <wikipediaLink>kamu malı</wikipediaLink> olduğunu ve bunu yükleme iznim olduğunu onaylıyorum.
+sc-review-write-title = Hangi cümleleri ekleyebilirim?
+new-sentence-rule-1 = <noCopyright>Telif hakkı</noCopyright> kısıtlaması olmayan (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = 15 kelimeden kısa
+new-sentence-rule-3 = Dilbilgisi açısından doğru
+new-sentence-rule-4 = Yazım kurallarına uygun ve noktalama işaretleri doğru
+new-sentence-rule-5 = Sayı ve özel karakter içermeyen
+new-sentence-rule-6 = Alfabede olmayan karakterler içermeyen
+new-sentence-rule-7 = Kaynağı doğru şekilde gösterilmiş
+new-sentence-rule-8 = Mümkün olduğunda doğal ve konuşma dilinde (Cümleyi okuması kolay olmalı)
+how-to-cite = Nasıl kaynak gösteririm?
+how-to-cite-explanation-bold = Bir URL bağlantısı veya çalışmanın tam adıyla kaynak gösterin.
+guidelines = Yönergeler
+contact-us = Bize ulaşın
+add-sentence-success = 1 cümle toplandı
+add-sentence-error = Cümle eklenirken hata oluştu
+required-field = Lütfen bu alanı doldurun.
+single-sentence-submission = Tek cümle gönderimi
+bulk-sentence-submission = Toplu cümle gönderimi
+single-sentence = Tek cümle
+bulk-sentences = Toplu cümle
+sentence-domain-select =
+    .label = Cümlenin konusu
+# Sentence Domain dropdown option
+agriculture = Tarım
+# Sentence Domain dropdown option
+automotive = Otomotiv
+# Sentence Domain dropdown option
+finance = Finans
+# Sentence Domain dropdown option
+food_service_retail = Yemek, Hizmet ve Alışveriş
+# Sentence Domain dropdown option
+general = Genel
+# Sentence Domain dropdown option
+healthcare = Sağlık
+# Sentence Domain dropdown option
+history_law_government = Tarih, Hukuk ve Kamu Yönetimi
+# Sentence Domain dropdown option
+language_fundamentals = Dilin Temelleri (örn. rakamlar, harfler, para)
+# Sentence Domain dropdown option
+media_entertainment = Medya ve Eğlence
+# Sentence Domain dropdown option
+nature_environment = Doğa ve Çevre
+# Sentence Domain dropdown option
+news_current_affairs = Haberler ve Güncel Olaylar
+# Sentence Domain dropdown option
+technology_robotics = Teknoloji ve Robotik
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Dilbigisi açısından doğru olup olmadığını <icon></icon> kontrol edin
+sc-review-rules-title = Cümle yönergelere uygun mu?
+sc-review-empty-state = Şu anda bu dilde incelenecek cümle yok.
+report-sc-different-language = Farklı dil
+report-sc-different-language-detail = İncelediğimden farklı bir dilde yazılmış.
+sentences-fetch-error = Cümleler getirilirken bir hata oluştu
+review-error = Bu cümle incelenirken bir hata oluştu
+review-error-rate-limit-exceeded = Çok hızlı ilerliyorsunuz. Lütfen cümlenin doğrulunu kontrol etmek için biraz daha zaman ayırın.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Bazı büyük değişiklikler yapıyoruz
+sc-redirect-page-subtitle-1 = Cümle Toplayıcı, ana Common Voice platformuna taşınıyor. Artık Common Voice'ta cümle <writeURL>yazabilir</writeURL> veya gönderilen cümleleri <reviewURL>denetleyebilirsiniz</reviewURL>.
+sc-redirect-page-subtitle-2 = Bize <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> veya <emailLink>e-posta</emailLink> üzerinden soru sorabilirsiniz.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Kamu malı cümleleri yükleyin <icon></icon>
+sc-bulk-upload-instruction = Dosyanızı yüklemek için buraya sürükleyin veya <uploadButton>buraya tıklayın</uploadButton>
+sc-bulk-upload-instruction-drop = Yüklemek için dosyayı buraya bırakın
+bulk-upload-additional-information = Bu dosyayla ilgili vermek istediğiniz ek bilgiler varsa <emailFragment>commonvoice@mozilla.com</emailFragment> ile iletişime geçebilirsiniz.
+try-upload-again = Dosyanızı buraya sürükleyerek yeniden deneyin
+try-upload-again-md = Yeniden yüklemeyi deneyin
+select-file = Dosya seçin
+select-file-mobile = Yüklenecek dosyayı seçin
+accepted-files = Kabul edilen dosya türleri: yalnızca .tsv
+maximum-file-size = Maksimum dosya boyutu: 25 MB
+what-needs-to-be-in-file = Dosyamda neler olması gerekiyor?
+what-needs-to-be-in-file-explanation = Lütfen <templateFileLink>şablon dosyamızı</templateFileLink> kontrol edin. Cümleleriniz telif hakkı içermemeli (CC0 lisanslı veya gönderenin izinli özgün çalışması olmalı); açık, dilbilgisi açısından doğru ve okunması kolay olmalıdır. Gönderilecek cümlelerin okunması yaklaşık 10 ila 15 saniye sürmeli ve sayı, özel isim ve özel karakter içermemelidir.
+upload-progress-text = Yükleme devam ediyor...
+sc-bulk-submit-confirm = Bu cümlelerin <wikipediaLink>kamu malı</wikipediaLink> olduğunu ve bunları yükleme iznim olduğunu onaylıyorum.
+bulk-upload-success-toast = Toplu cümleler yüklendi
+bulk-upload-failed-toast = Yükleme başarısız oldu, lütfen yeniden deneyin.
+bulk-submission-success-header = Toplu gönderiminizle katkıda bulunduğunuz için teşekkür ederiz!
+bulk-submission-success-subheader = Common Voice’un günlük cümle hedeflerimize ulaşmasına yardımcı oluyorsunuz!
+upload-more-btn-text = Daha fazla cümle yükleyecek misiniz?
+file-invalid-type = Geçersiz dosya
+file-too-large = Dosya çok büyük
+file-too-small = Dosya çok küçük
+too-many-files = Çok fazla dosya

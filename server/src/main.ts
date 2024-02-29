@@ -1,13 +1,7 @@
 import Server from './server';
-import { getConfig, getSecrets } from './config-helper';
-
-async function initialize() {
-  await getSecrets();
-}
+import { getConfig } from './config-helper';
 
 async function runServer() {
-  await initialize();
-
   // Handle any top-level exceptions uncaught in the app.
   process.on('uncaughtException', function (err: any) {
     if (err.code === 'EADDRINUSE') {
@@ -26,7 +20,7 @@ async function runServer() {
 
   // If this file is run directly, boot up a new server instance.
   if (require.main === module) {
-    let server = new Server();
+    const server = new Server();
     server
       .run({ doImport: getConfig().IMPORT_SENTENCES })
       .catch(e => console.log('error while starting server', e));

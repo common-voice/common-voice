@@ -11,7 +11,7 @@ export namespace Notifications {
     | { kind: 'banner'; bannerProps: { storageKey?: string; links: any[] } }
   );
 
-  type NotificationType = 'success' | 'error' | 'achievement';
+  export type NotificationType = 'success' | 'error' | 'achievement';
 
   export type State = Notification[];
 

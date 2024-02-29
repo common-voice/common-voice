@@ -42,6 +42,7 @@ be = Hviderussisk
 bg = Bulgarsk
 bm = Bambara
 bn = Bengalsk
+bo = Tibetansk
 br = Bretonsk
 bs = Bosnisk
 bxr = Burjatisk
@@ -66,6 +67,7 @@ eo = Esperanto
 es = Spansk
 et = Estisk
 eu = Baskisk
+ewo = Ewondo
 fa = Persisk
 ff = Fulah
 fi = Finsk
@@ -76,6 +78,7 @@ ga-IE = Irsk
 gl = Galicisk
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebraisk
 hi = Hindi
@@ -95,6 +98,7 @@ it = Italiensk
 izh = Izhorian
 ja = Japansk
 jbo = Lojban
+jv = Javanesisk
 ka = Georgisk
 kaa = Karakalpakisk
 kab = Kabylisk
@@ -144,6 +148,7 @@ nyn = Nyankole
 oc = Occitansk
 om = Oromo
 or = Oriya
+os = Ossetisk
 pa-IN = Punjabisk
 pap-AW = Papiamento (Aruba)
 pl = Polsk
@@ -190,6 +195,7 @@ ts = Tsonga
 tt = Tatarisk
 tw = Twi
 ty = Tahitiansk
+tyv = Tuvinsk
 uby = Ubykh
 udm = Udmurt
 ug = Uigurisk
@@ -220,6 +226,7 @@ speak-now = Tal nu
 datasets = Datasæt
 languages = Sprog
 about = Om
+partner = Partner
 profile = Profil
 help = Hjælp
 contact = Kontakt
@@ -233,6 +240,7 @@ share-text = Hjælp med at lære maskiner, hvordan mennesker taler - bidrag med 
 link-copied = Link kopieret
 back-top = Tilbage til toppen
 logout = Log ud
+donate = Doner
 
 ## Home Page
 
@@ -404,6 +412,7 @@ why-demographic-explanation-2 = Anonymiserede brugerdata som alder, køn og acce
 accept-privacy = Det er helt fint, at I håndterer disse oplysninger som beskrevet i Mozillas <privacyLink>privatlivspolitik</privacyLink>
 accept-privacy-title = Privatlivspolitik
 login-identity = Login-identitet
+login = Log ind
 login-signup = Log ind / Opret dig
 edit = Rediger
 email-subscriptions = Mail-abonnementer
@@ -604,7 +613,6 @@ about-playbook-how-add-sentences = Hvordan tilføjer jeg sætninger?
 about-playbook-how-add-sentences-content-1 = <strong>Sætnings-indsamleren</strong> er et værktøj til at indsamle og validere sætninger i det offentlige domæne. Du skal <scAccountLink>oprette en konto</scAccountLink>. Tilføj derefter dit sprog til din <strong>profil</strong>. Du kan <strong>tilføje</strong> sætninger eller <strong>gennemgå</strong> tidligere tilføjede sætninger.
 about-playbook-how-add-sentences-content-2 = Sætninger skal gennemgås og accepteres af to personer for at blive inkluderet i Common Voice. Du opretter retningslinjer for dit sprog <languageGuidelinesLink>her</languageGuidelinesLink>. Sætninger skal være i det <licenseLink>offentlige domæne</licenseLink> og være kortere end 15 ord. Du kan bede ejeren af en tekst om at gøre den til <waiverLink>CC0 ved hjælp af vores afståelsesproces</waiverLink> og sende den til os på commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Du kan bruge <scraperLink>Sætningsudtrækkeren</scraperLink> til at benytte korte sætninger fra Wikipedia.
-about-playbook-how-add-sentences-content-4 = Sætninger, der er blevet valideret, eksporteres om onsdagen og er tilgængelige efter næste udgivelse.
 
 ## How to record quality
 
@@ -764,6 +772,7 @@ more = Mere
 close = Luk
 download = Hent
 dataset-version = Version
+clipboard-not-supported = Udklipsholder er ikke understøttet
 
 ## Download Modal
 
@@ -841,6 +850,8 @@ language-section-in-progress = I gang
 language-section-in-progress-new-description = Disse sprog er i øjeblikket under udvikling af fællesskabet. Grafikken viser, hvor langt det enkelte sprog er kommet med at <localizationGlossaryLink>oversætte hjemmesiden</localizationGlossaryLink> og <sentenceCollectionGlossaryLink>indsamling af sætninger</sentenceCollectionGlossaryLink>.
 language-section-launched = Startet
 language-section-launched-description = For disse lancerede sprog er hjemmesiden blevet <localizationGlossaryLink>oversat</localizationGlossaryLink>, og tilstrækkeligt mange <sentenceCollectionGlossaryLink>sætninger er blevet indsamlet</sentenceCollectionGlossaryLink> til at bidragsydere kan hjælpe med at <speakLink>indtale</speakLink> og <listenLink>godkende</listenLink> optagelser.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Sidst opdateret: { $lastUpdatedTimeStamp }
 languages-show-more = Se flere
 languages-show-less = Se mindre
 language-meter-in-progress = Status
@@ -918,6 +929,9 @@ target-segment-generic-card = Du bidrager til et målsegment
 target-segment-first-banner = Vær med til at lave det første målsegment til Common Voice på { $locale }
 target-segment-add-voice = Tilføj din stemme
 target-segment-learn-more = Læs mere
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1522,3 +1536,17 @@ sc-validation-no-abbreviations = Sætning bør ikke indeholde forkortelser
 
 localization-select =
     .label = Vælg sprog/oversættelse
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerskaber
+sentence-collection = Indsamling af sætninger
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
+select-file = Vælg fil
+file-invalid-type = Ugyldig fil
+file-too-large = Filen er for stor
+file-too-small = Filen er for lille
+too-many-files = For mange filer

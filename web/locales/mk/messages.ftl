@@ -15,6 +15,8 @@ email-opt-in-privacy-v2 = Со тоа што ќе се вклучите за д�
 indicates-required = * Означува задолжителни полиња
 not-available-abbreviation = недостапно
 banner-error-slow-1 = Извинете, Common Voice работи бавно. Ви благодариме за вашиот интерес.
+banner-error-slow-2 = Примаме многу сообраќај и во моментов ги истражуваме проблемите.
+banner-error-slow-link = Статусна страница
 error-something-went-wrong = Извинете, нешто тргна наопаку
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -38,7 +40,9 @@ ba = Башкир
 bas = Басаа
 be = Белоруски
 bg = Бугарски
+bm = Бамбара
 bn = Бенгали
+bo = Тибетски
 br = Бретонски
 bs = Босански
 bxr = Бурјат
@@ -69,9 +73,11 @@ fy-NL = Фризиски
 ga-IE = Ирски
 gl = Галициски
 gn = Гварани
+gu-IN = Гуџарати
 ha = Хауса
 he = Еврејски
 hi = Хинди
+hil = Хилигајнон
 hr = Хрватски
 hsb = Српски, горен
 ht = Хаитски
@@ -86,6 +92,7 @@ is = Исландски
 it = Италјански
 izh = Изоријан
 ja = Јапонски
+jv = Јавански
 ka = Грузиски
 kaa = Каракалак
 kab = Кабилски
@@ -98,9 +105,13 @@ ko = Корејски
 kpv = Коми-Зиријан
 kw = Корнишки
 ky = Киргиски
+lb = Луксембуршки
 lg = Луганда
 lij = Лигурски
+ln = Лингала
+lo = Лаотски
 lt = Литвански
+ltg = Латгалски
 lv = Латвиски
 mai = Маитхили
 mdf = Мокша
@@ -125,6 +136,7 @@ nn-NO = Норвешки Нинорск
 nyn = Нијанколе
 oc = Очитан
 or = Орија
+os = Осетски
 pa-IN = Пунџаби
 pap-AW = Папиаменски (Аруба)
 pl = Полски
@@ -142,7 +154,9 @@ scn = Сицилијански
 shi = Шилха
 si = Синхала
 sk = Словачки
+skr = Сараики
 sl = Словенечки
+snk = Сонинке
 so = Сомалиски
 sq = Албански
 sr = Српски
@@ -171,6 +185,7 @@ uz = Узбекистански
 vec = Венециски
 vi = Виетнамски
 vot = Гласно
+wo = Волоф
 xh = Хоса
 yi = Јидиш
 yo = Јоруба
@@ -190,6 +205,7 @@ speak-now = Зборувај сега
 datasets = Податочни множества
 languages = Јазици
 about = За
+partner = Партнер
 profile = Профил
 help = Помош
 contact = Контакт
@@ -203,6 +219,7 @@ share-text = Помогнете им на машините да научат к�
 link-copied = Врската е ископирана
 back-top = Назад кон врвот
 logout = Одјави се
+donate = Донирајте
 
 ## Home Page
 
@@ -377,7 +394,9 @@ why-demographic = Зошто ова е важно?
 why-demographic-explanation-2 = Анонимизираните податоци за корисниците, како што се возраста, полот и акцентот, помагаат во подобрување на аудио податоците што се користат за тренирање на точноста на моделите за препознавање говор. Вашето корисничко име и е-пошта никогаш нема да бидат поврзани со вашите доставени податоци и можете да изберете дали да го направите вашето корисничко име јавно или анонимно.
 accept-privacy = Јас сум во ред да ги користите овие информации како што објаснувате во <privacyLink>Политиката за приватност</privacyLink> на Mozilla
 accept-privacy-title = Политика за приватност
+accept-privacy-and-terms = Се согласувам со <termsLink>условите</termsLink> и <privacyLink>известување за приватност</privacyLink> на Common Voice
 login-identity = Идентитет за најавување
+login = Најавете се
 login-signup = Најава / Регистрација
 edit = Уредување
 email-subscriptions = Претплати за е-пошта
@@ -390,6 +409,7 @@ off = Исклучен
 on = Вклучен
 help-accent = Ви треба помош со акцентот?
 help-accent-explanation = Вашиот акцент е начинот на кој ги изговарате зборовите. Тоа може да се обликува според местото каде сте живееле, кои други јазици ги зборувате и многу други фактори. Овде можете да ги споделите сите информации што сметате дека се релевантни.
+help-variants = Ви треба помош со варијанти?
 
 ## Profile - Email
 
@@ -482,10 +502,15 @@ how-does-it-work-text = Собираме голем број гласови за
 
 ## How does it work section
 
+about-language-req-subtitle = Некој побара да се додаде јазик.
 about-localization-title = Локализација на веб-страница
 about-localization-subtitle = Текстот на веб-страницата е преведен на тој јазик.
 about-sentence-collection-title = Збирка на реченици
 about-sentence-collection-subtitle = Се собираат реченици за луѓето да ги читаат на глас.
+about-voice-contrib-title = Гласовен придонес
+about-voice-contrib-subtitle = Луѓето доаѓаат и го придонесуваат својот глас.
+about-voice-validation-title = Гласовна валидација
+about-voice-validation-subtitle = Други луѓе ги потврдуваат тие гласовни клипови.
 about-subscribe-text = Сакате да останете во контакт со Common Voice?
 about-speak = Зборувај
 about-speak-text = Придонесувачите снимаат гласовни снимки читајќи од збирка на донирани реченици.
@@ -510,11 +535,13 @@ about-get-involved-text-2 =
     форуми, пријавете ги проблемите на <githubLink>GitHub</githubLink>, или придружете се на дискусијата во
     заедница <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Како да останам во контакт?
+about-stay-in-touch-button = Регистрирајте се
 about-nav-why-common-voice = Зошто?
 about-nav-how-it-works = Како?
 about-nav-partners = Партнери
 about-nav-get-involved = Приклучете се
 about-nav-how-it-works-2 = Како функционира Common Voice?
+about-nav-playbook = Дознајте како да учествувате
 
 ## Community Playbook Content
 ## What is a language
@@ -524,10 +551,16 @@ about-playbook-what-is-language = Што е јазик на Common Voice?
 ## How do I add a language
 
 about-playbook-how-add-language = Како да додадам јазик?
+about-playbook-how-add-language-translating-heading = Преведување на страницата
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Гледајте го нашиот водич за тоа како да го користите Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Собирање реченици
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Гледајте го нашиот водич за користење на собирачот на реченици</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Видете повеќе за собирањето реченици</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Како функционира локализацијата на страницата?
+about-playbook-how-localize-content-1 = Преведувањето на страницата Common Voice се случува на <strong>Pontoon</strong>.
 
 ## How to add sentences
 
@@ -535,20 +568,31 @@ about-playbook-how-add-sentences = Како да додадам реченици
 
 ## How to record quality
 
+about-playbook-how-record-quality = Како да снимам висококвалитетен гласовен клип?
+about-playbook-how-record-content-2 = Избегнувајте премногу бучава во заднина - Треба да е лесно за да ве слушаме.
+about-playbook-how-record-content-3 = Прочитајте ја реченицата внимателно - не пропуштајте, менувајте или додавајте зборови.
+about-playbook-how-record-content-4 = Проверете дали платформата снима пред да започнете да зборувате и дека ќе престане само штом ќе завршите.
+about-playbook-how-record-content-5 = <accuracyLink>Погледнете повеќе за критериумите за точност.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Како можеме ефективно да развиеме јазик на Common Voice?
 about-playbook-how-grow-language-content-2 = Настани
 about-playbook-how-grow-language-content-4 = Социјални мрежи
+about-playbook-how-grow-language-content-6 = Партнерства и мрежи
 
 ## How to validate
 
+about-playbook-how-validate = Како да знам дали да одобрам гласовен клип?
+about-playbook-how-validate-content-4 = Ако клипот е одбиен од 2 лица, тој се објавува во различно подмножество од сетот.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Како да пристапам и да ја користам базата на податоци?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Како се донесуваат проектните одлуки?
 about-playbook-how-project-governance-content-3 = Приватност, безбедност и транспарентност.
 about-playbook-how-project-governance-content-4 = Учество на заедницата и донесување одлуки.
 about-playbook-how-project-governance-content-5 = Вредност и признание.
@@ -630,10 +674,12 @@ number-of-voices = Број на гласови
 splits = Исечоци
 email-to-download = Внесете е-пошта за преземање
 why-email = <b>Зошто е-пошта?</b> Можеби ќе треба да ве контактираме во иднина во врска со промените во базата на податоци - е-пошта ни овозможува точка за контакт.
+why-donate = Зошто прашувате?
 confirm-size = Подготвени сте да започнете преземање на <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Вие се согласувате</b> да не се обидете да го утврдите идентитетот на говорниците во базата на податоци на Common Voice
+confirm-join-mailing-list = Сакате да се приклучите на листата за е-пошта на Common Voice
 download-language = Преземете { $language }
 validated-hours = Потврдени часови
 recorded-hours = Снимени часови
@@ -649,6 +695,7 @@ other-datasets = Други гласовни податочни сетови
 feedback-q = Имате мислење?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ е <docsLink> пакет со алатки со отворен код</docsLink> за истражувачи кои развиваат најсовремени разговорни модели со вештачка интелигенција.
 resource-coqui-info = <coquiLink> Coqui </coquiLink> е посветена на технологија за отворен говор. Нивните проекти вклучуваат STT и TTS машини базирани на длабоко учење.
+community-playbook = Книга на заедницата
 data-other-librispeech-description = LibriSpeech е корпус од приближно 1000 часа од 16Khz прочитан англиски говор добиен од читани аудио-книги од проектот LibriVox.
 data-other-ted-name = Корпус TED-LIUM
 data-other-ted-description = Корпусот TED-LIUM беше изработен од аудио-говори и нивните транскрипции, достапни на мрежното место на TED.
@@ -663,6 +710,8 @@ more = Повеќе
 close = Затвори
 download = Преземи
 dataset-version = Верзија
+sha256-checksum-copied = SHA256 контролната сума е копирана!
+clipboard-not-supported = Таблата со исечоци не е поддржана
 
 ## Download Modal
 
@@ -702,6 +751,7 @@ request-language-form-info =
     .label = Информации за јазикот
 request-language-form-info-explanation-list-1 = Имиња на вашиот јазик
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO кодови</isoCodeLink> ако се познати
+request-language-form-info-explanation-list-3 = Врски до веб-локации кои можат да ни помогнат да го разбереме јазикот
 request-language-google-recaptcha-required = Потребна е reCAPTCHA ако сакате да продолжите
 
 ## Languages Overview
@@ -728,6 +778,8 @@ action-click = Клик
 action-tap = Допир
 contribute = Придонеси
 listen = Слушај
+write = Пишувај
+review = Прегледај
 skip = Прескокни
 shortcuts = Кратенки
 clips-with-count-pluralized =
@@ -774,6 +826,8 @@ listen-again-instruction = Одлична работа! <playIcon></playIcon> С
 listen-3rd-time-instruction = 2 завршени, продолжете!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Последен!
 listen-empty-state = Ни снемаа клипови за валидација на овој јазик...
+listen-abort-cancel = Продолжете со валидирање
+listen-abort-confirm = Завршете со валидирање
 speak-empty-state = Ни снемаа реченици за да снимаме на овој јазик ...
 speak-empty-state-cta = Придонесувајте реченици
 record-button-label = Снимете го вашиот глас
@@ -785,6 +839,11 @@ target-segment-generic-card = Придонесувате кон целен се�
 target-segment-first-banner = Помогнете да се создаде првиот целен сегмент на Common Voice на { $locale }
 target-segment-add-voice = Додајте го вашиот глас
 target-segment-learn-more = Дознајте повеќе
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Збирка на гласови
+contribute-sentence-collection-nav-header = Збирка на реченици
 
 ## Reporting
 
@@ -937,16 +996,27 @@ profile-form-delete = Избриши профил
 
 ## Profile Download
 
+download-q = Дали треба да ги преземете вашите податоци?
 download-info = Кажете ни што сакате да преземете:
 download-profile-title = Профил
+download-profile-info = Вклучува е-пошта, корисничко име и демографски информации, достапни веднаш
 download-profile-size = Неколку бајти
 download-recordings-title = Снимки
+download-recordings-info = Вклучува mp3 датотеки и сродни реченици, може да потрае некое време за да се подготви
 download-recordings-size = Обично мегабајти
+download-recordings-unavailable = Не можете да ги побарате вашите снимки додека друго барање е веќе во тек.
+download-recently-requested = Може да побарате ново преземање на вашите снимки на секои { $days } дена.
 download-size = Големина
 download-selected = Одбрано
+download-start = Преземете податоци за профилот
+download-request = Побарајте снимки
+download-requests = Барања за преземање снимки од минатото
+download-requests-info = Кога ги барате вашите снимки, ние ги составуваме во една или повеќе ZIP-датотеки. Еве ги вашите минати барања:
 download-request-button = Преземи
 download-request-title = { $created }
+download-request-description = { $clipCount } гласовни клипови, вкупна големина на архива { $size }. Истекува на { $expires }.
 download-request-refresh-button = Освежи
+download-request-modal-title = Врски за преземање
 download-request-metadata-link = Текст на реченицата
 
 ## Landing
@@ -1014,6 +1084,7 @@ contribution-background-noise-title = Бучава во позадина
 contribution-background-noise-example-2-fixed-title = Џиновскиот дино <strong>[к'хм]</strong> Тријас.
 contribution-background-noise-example-2-explanation = [Дел од текстот не може се слушне]
 contribution-background-voices-title = Гласови во позадина
+contribution-background-voices-description-extended = Ако снимката се прекине или има крцкање, отфрлете ја, освен ако не може да се слушне целиот текст.
 contribution-background-voices-example-1-explanation = Дали доаѓаш? <strong> [повикан од друг] </strong>
 contribution-volume-title = Глас
 contribution-reader-effects-title = Ефекти на читателот
@@ -1030,6 +1101,7 @@ see-less = <chevron> </chevron> Види помалку
 ## HEADER/FOOTER
 
 sc-header-home = Дома
+sc-header-how-to = Како да
 sc-header-add = Додај
 sc-header-review = Прегледај
 sc-header-rejected = Одбиени реченици
@@ -1048,6 +1120,7 @@ sc-logout-button = Одјавете се
 
 ## HOME
 
+sc-home-title = Добредојдовте во собирачот на реченици за Common Voice
 sc-home-review-title = Прегледајте реченици
 
 ## GENERAL
@@ -1055,6 +1128,7 @@ sc-home-review-title = Прегледајте реченици
 
 ## HOW-TO
 
+sc-howto-addsen-title = Додадете нови реченици
 sc-howto-cite-title = Како да се цитира
 sc-howto-review-title = Прегледајте реченици
 sc-howto-review-criteria-1 = Реченицата мора да биде правилно напишана.
@@ -1100,6 +1174,7 @@ sc-add-err-submission = Грешка при поднесување
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Потврди нови реченици
 sc-confirm-button-text = Потврди
 
 ## LANGUAGE INFO
@@ -1117,11 +1192,13 @@ sc-login-err-try-again = Обиди се повторно.
 # Variables:
 #   $username (String) - eMail address of the logged in user
 sc-profile-title = Профил: { $username }
+sc-personal-err-remove = Не може да се отстрани јазикот
 sc-personal-your-languages = Вашите јазици:
 sc-personal-remove-button = отстрани
 # Variables:
 #   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
 sc-personal-added-by-you = { $sentences } додадени од вас
+sc-personal-not-added = Сè уште немате додадено ниту еден јазик.
 
 ## REVIEW CRITERIA
 
@@ -1132,12 +1209,26 @@ sc-criteria-item-2 = Реченицата мора да биде грамати�
 
 ## REVIEW
 
+sc-review-title = Прегледајте реченици
+sc-review-loading = Се вчитуваат реченици…
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Извор: { $sentenceSource }
 sc-review-form-button-reject = Отфрли
 sc-review-form-button-skip = Прескокни
 sc-review-form-button-approve = Одобри
+sc-review-form-button-submit =
+    .submitText = Заврши преглед
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Нема прегледана реченица.
+        [one] 1 реченица е прегледана. Ви благодариме!
+       *[other] { $sentences } реченици се прегледани. Ви благодариме!
+    }
+sc-review-form-review-failure = Прегледот не може да се зачува. Обидете се повторно подоцна.
+sc-review-link = Преглед
 
 ## SETTINGS
 
@@ -1150,3 +1241,72 @@ sc-validation-no-abbreviations = Реченицата не треба да со�
 
 # PARTNERSHIPS PAGE
 partnerships-header = Партнерства
+partnerships-get-in-touch = Стапете во контакт
+partnerships-become-a-partner = Станете Common Voice партнер
+partnerships-community-header = Заедница, креативци и граѓанско општество
+partnerships-foundations-header = Фондации
+partnerships-governments-header = Влади
+partnerships-academia-header = Универзитети, академици и истражувачи
+partnerships-small-business-header = Мали бизниси, вклучително технолошки и AI стартапи
+partnerships-our-partners = Нашите партнери
+why-donate = Зошто прашувате?
+add-information-button = Додадете информации
+create-profile-button = Создај профил
+# IMAGE TAGS
+img-alt-success-checkmark = ознака за успех
+# GUIDELINES PAGE
+guidelines-header = Насоки за придонес
+guidelines-header-subtitle = Разберете како да придонесете и потврдите реченици и аудио клипови во базата на податоци на Common Voice
+voice-collection = Збирка на гласови
+sentence-collection = Збирка на реченици
+varying-pronunciations = Различни изговори
+misreadings = Погрешно читање
+offensive-content = Навредлива содржина
+background-noise = Бучава во позадина
+background-voices = Гласови во позадина
+volume = Глас
+reader-effects = Ефекти на читателот
+just-unsure = Само несигурни?
+example = Пример
+varying-pronunciations-example = Маршутата беше нејасна.
+misreadings-explanation-2 = Многу чести грешки вклучуваат:
+misreadings-tip-3 = [Содржината не се совпаѓа]
+background-noise-tip-1 = [прекинат со бучава во позадина]
+background-noise-tip-2 = [Дел од текстот не може се слушне]
+background-voices-tip-1 = Дали доаѓаш? [повикан од друг]
+public-domain = Јавен домен
+citing-sentences = Цитирање реченици
+adding-sentences = Додавање реченици
+reviewing-sentences = Преглед на реченици
+public-domain-explanation-5 = Побарајте текст каде што повеќе не важат авторските права - на пример повеќето книги што биле објавени пред 1920 година
+citing-sentences-subheader-websites = Мрежни места
+adding-sentences-subheader-length = Должина
+adding-sentences-subheader-length-explanation = Реченицата треба да има помалку од 15 зборови.
+adding-sentences-subheader-spelling-punctuation = Правопис и интерпункција
+adding-sentences-subheader-spelling-punctuation-explanation = Реченицата мора да биде правилно напишана.
+adding-sentences-subheader-speakable = Изговорлива
+adding-sentences-subheader-numbers = Броеви
+adding-sentences-subheader-abbreviations = Кратенки и акроними
+adding-sentences-subheader-punctuation = Интерпункциски знаци
+adding-sentences-subheader-offensive-content = Навредлива содржина
+sentence =
+    .label = Реченица
+sentence-input-value = Внесете ја вашата реченица од јавниот домен тука
+citation-input-value = Извор на вашата реченица
+sc-review-write-title = Какви реченици можам да додадам?
+new-sentence-rule-1 = <noCopyright>Нема ограничувања за авторски права</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Помалку од 15 зборови по реченица
+new-sentence-rule-3 = Употребувајте точна граматика
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
+select-file = Изберете датотека
+select-file-mobile = Изберете датотека за прикачување
+maximum-file-size = Максимална големина на датотеката: 25 МБ
+file-invalid-type = Невалидна датотека
+file-too-large = Датотеката е преголема
+file-too-small = Датотеката е премногу мала
+too-many-files = Премногу датотеки

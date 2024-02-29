@@ -8,6 +8,8 @@ export default Object.freeze({
   RECORD: '/record', // old, here for redirect purposes
   SPEAK: '/speak',
   LISTEN: '/listen',
+  WRITE: '/write',
+  REVIEW: '/review',
 
   PROFILE,
   PROFILE_INFO: PROFILE + '/info',
@@ -33,6 +35,8 @@ export default Object.freeze({
   ABOUT: '/about',
   CRITERIA: '/criteria',
   PARTNER: '/partner',
+  GUIDELINES: '/guidelines',
+  SENTENCE_COLLECTOR_REDIRECT: '/sentence-collector-redirect',
 
   LANGUAGES: '/languages',
   LANGUAGE_REQUEST: '/language/request',
@@ -53,7 +57,5 @@ export default Object.freeze({
   STAGING_ROOT: 'https://commonvoice.allizom.org',
   GITHUB_ROOT: 'https://github.com/mozilla/common-voice',
   MOZILLA_BLOG_ROOT: 'http://foundation.mozilla.org/blog',
-  S3_BUCKET:
-    'https://voice-prod-bundler-ee1969a6ce8178826482b88e843c335139bd3fb4.s3.amazonaws.com',
   S3_CDN: 'https://cdn.commonvoice.mozilla.org',
-});
+})

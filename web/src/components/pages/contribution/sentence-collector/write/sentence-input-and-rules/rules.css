@@ -1,0 +1,133 @@
+@import url('../../../../../media.css');
+
+.rules {
+    @media (--lg-up) {
+        width: 350px;
+        margin-inline-start: 50px;
+        min-height: 320px;
+    }
+
+    & .inner {
+        background: var(--desert-storm);
+        padding: 24px 34px 0;
+        height: 100%;
+
+        @media (--md-down) {
+            padding-top: 16px;
+        }
+
+        & .rules-title-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            & .icon-and-title {
+                width: 100%;
+                display: flex;
+                align-items: flex-start;
+            }
+
+            svg {
+                transition: transform var(--easing) var(--transition-duration);
+
+                @media (--lg-up) {
+                    display: none;
+                }
+            }
+
+            & svg.chevron {
+                margin-top: 6px;
+            }
+
+            & svg.alert-icon {
+                margin-inline-end: 8px;
+            }
+
+            & svg.rotate-180 {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    & .inner.rules-hidden {
+        @media (--xs-down) {
+            padding-bottom: 0;
+            padding-top: 16px;
+            padding-left: 16px;
+        }
+    }
+
+    & .text-button {
+        font-size: var(--font-size-sm);
+        margin-bottom: 16px;
+        cursor: auto;
+        width: 100%;
+
+        [dir='ltr'] & {
+            text-align: left;
+        }
+
+        [dir='rtl'] & {
+            text-align: right;
+        }
+
+        @media (--xs-down) {
+            font-size: var(--font-size-xs);
+        }
+
+        @media (--md-down) {
+            margin-top: 3px;
+        }
+
+        @media (--lg-up) {
+            pointer-events: none;
+        }
+    }
+
+    ul {
+        font-size: var(--font-size-sm);
+        color: var(--near-black);
+
+        @media (--md-down) {
+            padding-bottom: 16px;
+        }
+
+        @media (--xs-down) {
+            font-size: var(--font-size-xs);
+        }
+
+        li {
+            margin-bottom: 12px;
+            width: 250px;
+
+            a {
+                color: var(--anchor-text-blue);
+                text-decoration: underline;
+            }
+        }
+
+        & li.error {
+            list-style-image: url('../../../../../ui/icons/alert.svg');
+        }
+
+        & li.last-rule {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.rules.write-rules {
+    @media (--xl-up) {
+        height: calc(30vh + 82px);
+        min-height: 440px;
+        max-height: 500px;
+    }
+
+    @media (--lg-only) {
+        max-height: 445px;
+    }
+
+    @media (--md-down) {
+        width: 100%;
+    }
+}

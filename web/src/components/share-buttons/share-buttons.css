@@ -7,6 +7,14 @@
     }
 }
 
+.XIcon path {
+    color: var(--white);
+    font-size: var(--font-size-xs);
+}
+.XIcon path:hover {
+    fill: var(--blue);
+}
+
 #link-copy {
     border: none;
     padding: 0;

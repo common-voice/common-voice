@@ -1,0 +1,38 @@
+@import url('../media.css');
+
+.donate-btn {
+    &.button {
+        background: var(--valid-green);
+        border: none;
+        text-transform: uppercase;
+        min-width: 7rem;
+
+        @media (--md-up) {
+            height: 2.5rem;
+        }
+
+        @media (--lg-down) {
+            display: flex;
+        }
+    }
+
+    &.apply-right-margin {
+        margin-inline-end: 16px;
+    }
+
+    svg {
+        margin-inline-end: 8px;
+        path {
+            fill: var(--white);
+        }
+    }
+}
+
+body:not(.mobile-safari) .button.donate-btn:hover {
+    color: var(--white);
+    background-color: var(--valid-green);
+
+    path {
+        fill: var(--white);
+    }
+}

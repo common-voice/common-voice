@@ -1,5 +1,4 @@
 import { PassThrough } from 'stream';
-import { S3 } from 'aws-sdk';
 import * as bodyParser from 'body-parser';
 import { MD5 } from 'crypto-js';
 import { NextFunction, Request, Response, Router } from 'express';
@@ -16,7 +15,6 @@ import Awards from './model/awards';
 import CustomGoal from './model/custom-goal';
 import getGoals from './model/goals';
 import UserClient from './model/user-client';
-import { AWS } from './aws';
 import * as Basket from './basket';
 import Bucket from './bucket';
 import Clip from './clip';
@@ -26,6 +24,7 @@ import Email from './email';
 import Challenge from './challenge';
 import Takeout from './takeout';
 import NotificationQueue, { uploadImage } from './queues/imageQueue';
+import {task as T, taskEither as TE, identity as Id} from 'fp-ts'
 
 import validate, {
   jobSchema,
@@ -34,6 +33,12 @@ import validate, {
   datasetSchema,
 } from './validation';
 import Statistics from './statistics';
+import SentencesRouter from '../api/sentences';
+import { reportsRouter } from '../api/reports/routes';
+import { pipe } from 'fp-ts/lib/function';
+import { streamUploadToBucket } from '../infrastructure/storage/storage';
+import { bulkSubmissionsRouter } from '../api/bulk-submissions/routes';
+import { datasetRouter } from '../api/datasets/routes';
 
 export default class API {
   model: Model;
@@ -41,7 +46,6 @@ export default class API {
   challenge: Challenge;
   email: Email;
   statistics: Statistics;
-  private readonly s3: S3;
   private readonly bucket: Bucket;
   readonly takeout: Takeout;
 
@@ -51,9 +55,8 @@ export default class API {
     this.statistics = new Statistics(this.model);
     this.challenge = new Challenge(this.model);
     this.email = new Email();
-    this.s3 = AWS.getS3();
-    this.bucket = new Bucket(this.model, this.s3);
-    this.takeout = new Takeout(this.model.db.mysql, this.s3, this.bucket);
+    this.bucket = new Bucket(this.model);
+    this.takeout = new Takeout(this.model.db.mysql, this.bucket);
   }
 
   getRouter(): Router {
@@ -100,6 +103,7 @@ export default class API {
       this.sendLanguageRequest
     );
     router.use('/statistics', this.statistics.getRouter());
+    router.use('/sentences', SentencesRouter);
 
     router.get(
       '/:locale/sentences',
@@ -126,21 +130,24 @@ export default class API {
       this.getAllDatasets
     );
     router.get('/datasets/languages', this.getAllLanguagesWithDatasets);
-    router.get(
-      '/datasets/languages/:languageCode',
-      this.getLanguageDatasetStats
+
+    router.use(
+      '/datasets/languages',
+      datasetRouter
     );
 
     router.post('/newsletter/:email', this.subscribeToNewsletter);
 
     router.post('/:locale/downloaders', this.insertDownloader);
 
-    router.post('/reports', this.createReport);
+    router.use('/reports', reportsRouter);
 
     router.use('/challenge', this.challenge.getRouter());
 
     router.get('/bucket/:bucket_type/:path', this.getPublicUrl);
     router.get('/server_date', this.getServerDate);
+
+    router.use('/:locale/bulk_submissions', bulkSubmissionsRouter)
 
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404);
@@ -344,7 +351,6 @@ export default class API {
           imageBucket: bucketName,
           client_id,
           rawImageData,
-          s3: this.s3,
         });
 
         if (!job) throw new Error('Upload cannot be completed');
@@ -416,15 +422,15 @@ export default class API {
         transcoder = new Transcoder(request);
       }
 
-      await Promise.all([
-        this.s3
-          .upload({
-            Bucket: getConfig().CLIP_BUCKET_NAME,
-            Key: clipFileName,
-            Body: transcoder.audioCodec('mp3').format('mp3').stream(),
-          })
-          .promise(),
-      ]);
+      await pipe(
+        streamUploadToBucket,
+        Id.ap(getConfig().CLIP_BUCKET_NAME),
+        Id.ap(clipFileName),
+        Id.ap(transcoder.audioCodec('mp3').format('mp3').stream()),
+        TE.getOrElse(
+          (e: Error) => T.of(console.log(e))
+        )
+      )()
 
       await UserClient.updateAvatarClipURL(user.emails[0].value, clipFileName);
 
@@ -533,11 +539,6 @@ export default class API {
         ? 'notification'
         : 'award'
     );
-    response.json({});
-  };
-
-  createReport = async ({ client_id, body }: Request, response: Response) => {
-    await this.model.db.createReport(client_id, body);
     response.json({});
   };
 

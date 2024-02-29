@@ -44,6 +44,7 @@ be = Hviterussisk
 bg = Bulgarsk
 bm = Bambara
 bn = Bengalsk
+bo = Tibetansk
 br = Bretonsk
 bs = Bosnisk
 bxr = Burjatisk
@@ -68,6 +69,7 @@ eo = Esperanto
 es = Spansk
 et = Estisk
 eu = Baskisk
+ewo = Ewondo
 fa = Persisk
 ff = Fulfulde
 fi = Finsk
@@ -78,6 +80,7 @@ ga-IE = Irsk
 gl = Galisisk
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Hausa
 he = Hebraisk
 hi = Hindi
@@ -97,6 +100,7 @@ it = Italiensk
 izh = Ingrisk
 ja = Japansk
 jbo = Lojban
+jv = Javanesisk
 ka = Georgisk
 kaa = Karakalpak
 kab = Kabylsk
@@ -117,6 +121,7 @@ lij = Ligurisk
 ln = Lingala
 lo = Laotisk
 lt = Litauisk
+ltg = Lettgallisk
 lv = Latvisk
 mai = Maithili
 mdf = Moksja
@@ -147,6 +152,7 @@ nyn = Runyankole
 oc = Oksitansk
 om = Oromo
 or = Oriya
+os = Ossetisk
 pa-IN = Panjabi
 pap-AW = Papiamento (Aruba)
 pl = Polsk
@@ -240,6 +246,7 @@ share-text = Hjelp til med å lære maskiner hvordan virkelige folk snakker, bid
 link-copied = Lenke kopiert
 back-top = Tilbake til toppen
 logout = Logg av
+donate = Donere
 
 ## Home Page
 
@@ -394,8 +401,6 @@ native-language =
 profile-form-add-accent = Legg til ny tilpasset dialekt «{ $inputValue }»
 profile-form-submit-save = Lagre
 profile-form-submit-saved = Lagret
-male = Mann
-female = Kvinne
 # Gender
 other = Annet
 why-profile-title = Hvorfor opprette en profil?
@@ -513,6 +518,7 @@ how-does-it-work-text = Vi masseinnsamler et åpent datasett av stemmer. Bidra m
 
 about-language-req-subtitle = Noen ber om å legge til et språk.
 about-localization-title = Oversettelse av nettsted
+about-localization-subtitle = Teksten på nettsiden er oversatt til det språket.
 about-sentence-collection-title = Setningsinnsamling
 about-sentence-collection-subtitle = Det samles inn setninger slik at folk kan lese høyt.
 about-new-lang-title = Lansering av nytt språk
@@ -539,7 +545,10 @@ about-no-votes-text = Når en bruker underkjenner et lydklipp, blir det returner
 about-dataset-new = Common Voice-datasettet
 about-dataset-new-text = Common Voice-datasettet inneholder hundretusenvis av lydklipp som hjelper utviklere med å lage talegjenkjenningsverktøy.
 about-clip-graveyard = Lydklippfyllinga
-about-clip-graveyard-text = Lydklippfyllinga inneholder lydklipp som ikke ble tatt med i Common Voice-datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengelig for nedlasting.
+about-clip-graveyard-text =
+    Lydklippfyllinga inneholder lydklipp som ikke ble tatt med i Common Voice-datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengelig for nedlasting.
+    
+    Vi vil takke følgende personer og organisasjoner for deres hjelp med prosjektet:
 about-get-involved = Bli med
 about-get-involved-text-2 =
     Vil du hjelpe til med å gjøre Common Voice enda  bedre?
@@ -549,6 +558,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Hvordan holder jeg kontakten?
 about-stay-in-touch-button = Registrer deg
 about-stay-in-touch-text-1 = <emailFragment>Registrer deg</emailFragment> på e-postlisten vår for å lære hvordan du kan delta i begivenheter, arrangementer og samarbeidsdesignfunksjoner på Common Voice.
+about-stay-in-touch-text-2 = Du kan møte andre i Mozilla-språkmiljøene ved å bli med i <discourseLink>Discourse</discourseLink> for aktuelle samtaler, eller <matrixLink>Matrix</matrixLink> for raske råd.
 about-nav-why-common-voice = Hvorfor?
 about-nav-how-it-works = Hvordan?
 about-nav-partners = Partnere
@@ -659,6 +669,7 @@ review-delete-recordings = Slett opptakene mine
 
 ## Datasets Page
 
+datasets-heading = Datasett
 datasets-headline = Vi bygger et åpen kildekode, flerspråklig datasett med stemmer som alle kan bruke for å trene applikasjoner med talegjenkjenning.
 datasets-positioning =
     Vi tror at store, offentlig tilgjengelige stemmedatasett vil fremme innovasjon og sunn kommersiell konkurranse innen maskinlæringsbasert taleteknologi.
@@ -1109,4 +1120,14 @@ see-less = <chevron></chevron>Se mindre
 
 
 # [/SentenceCollector]
+
+sentence-collection = Setningsinnsamling
+
+## WRITE PAGE
+
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
 

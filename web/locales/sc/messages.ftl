@@ -392,6 +392,7 @@ why-demographic-explanation-2 = Is datos anonimizados comente s'edade, su gèner
 accept-privacy = Atzeto chi impreades custas informatziones de acordu cun s'<privacyLink>avisu de riservadesa</privacyLink> de Mozilla
 accept-privacy-title = Avisu de riservadesa
 login-identity = Identidade de intrada
+login = Identìfica·ti
 login-signup = Intra/Registra·ti
 edit = Modìfica
 email-subscriptions = Sutiscritziones tràmite posta eletrònica
@@ -547,6 +548,7 @@ about-playbook-what-is-language = Ite est una limba in Common Voice?
 about-playbook-how-add-language = Comente fatzo a agiùnghere una limba?
 about-playbook-how-add-language-translating-heading = Tradutzione de su situ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Càstia sa ghia nostra in pitzus de s'impreu de Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Regorta de fràsias
 
 ## How does localization work
 
@@ -646,6 +648,7 @@ datasets-positioning =
     
     Càstia·ti custa pàgina comente riferimentu pro àteros pachetes de datos vocales lìberos e, a manu a manu chi Common Voice sighit a crèschere, comente una pàgina pro is atualizatziones de is versiones nostras.
 language = Limba
+download-dataset-header = Iscàrriga su pachete de datos
 # File size in gigabytes
 size = Mannària
 validated-hr-total = Totale de oras aprovadas
@@ -750,6 +753,7 @@ language-search-input =
 language-speakers = Faeddadores
 localized = Localizadu
 sentences = Frases
+language-validation-hours = Oras
 
 ## Contribution
 
@@ -757,6 +761,8 @@ action-click = Clica
 action-tap = Toca
 contribute = Contribui
 listen = Ascurta
+write = Iscrie
+review = Revisiona
 skip = Brinca
 shortcuts = Incurtzaduras
 clips-with-count-pluralized =
@@ -814,6 +820,11 @@ target-segment-generic-card = Ses cuntribuende a unu segmentu obietivu
 target-segment-first-banner = Agiuda a creare su primu segmentu obietivu de Common Voice in { $locale }
 target-segment-add-voice = Agiunghe sa boghe tua
 target-segment-learn-more = Àteras informatziones
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Regorta de boghes
+contribute-sentence-collection-nav-header = Regorta de fràsias
 
 ## Reporting
 
@@ -1105,39 +1116,125 @@ see-less = <chevron></chevron>Càstia prus pagu
 
 ## HEADER/FOOTER
 
+sc-header-home = Pàgina printzipale
+sc-header-how-to = Ghia
+sc-header-add = Agiunghe
+sc-header-review = Revisiona
+sc-header-rejected = Fràsias refudadas
+sc-header-my = Is fràsias mias
+sc-header-statistics = Istatìsticas
+sc-header-profile = Profilu
+sc-footer-discourse = Discursu
+sc-footer-report-bugs = Sinnala faddinas
+sc-footer-translate = Tradue custa pàgina
+sc-footer-report-copyright = Sinnala problemas de deretos de autore
+sc-footer-privacy = Riservadesa
+sc-footer-terms = Cunditziones
+sc-footer-cookies = Testimòngios
+sc-login-signup-button = Identìfica·ti/Registra·ti
+sc-logout-button = Serra sa sessione
 
 ## HOME
 
+sc-home-collect-text = Agiuda·nos iscriende o regollende fràsias in domìniu pùblicu.
+sc-home-review-title = Revisiona is fràsias
+sc-home-review-text = Agiuda·nos revisionende sa curretzione de is fràsias de acòrdiu cun is ghias.
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Ghia
+sc-howto-addlang-title = Agiùnghere lìnguas pro nce traballare
+sc-howto-addsen-title = Agiùnghere fràsias noas
+sc-howto-review-subtitle = Assegura·ti chi is fràsias sighint is critèrios imbenientes:
+sc-howto-review-criteria-1 = Sa fràsia depet èssere iscrita bene, chena de faddinas de ortografia.
+sc-howto-review-criteria-2 = Sa grammàtica de sa fràsia depet èssere curreta.
+sc-howto-review-criteria-3 = Sa fràsia depet pòdere èssere pronuntziada.
+sc-howto-review-criteria-4 = Si sa fràsia sighit custos critèrios, incarca su butone «Aprova».
+sc-howto-review-criteria-5 = Si sa fràsia non sighit is critèrios anteriores, incarca su butone «Refuda». Si no ddu isces, dda podes brincare pro colare a cussa imbeniente.
+sc-howto-review-criteria-6 = Si non nc'at prus fràsias de revisionare, agiuda·nos a nde regòllere àteras!
+sc-howto-findpd-title = Agatare fràsias in domìniu pùblicu
+sc-howto-findpd-subtitle = Chirca·nde in internet
 
 ## MY SENTENCES
 
+sc-my-title = Is fràsias mias
+sc-my-loading = Carrighende is fràsias tuas…
+sc-my-err-fetching = Faddina in sa recuperatzione de is fràsias tuas. Torra·nce a provare.
+sc-my-no-sentences = Nissuna fràsia agatada.
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Imbiu: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Orìgine: { $source }
+sc-my-delete = Cantzella is fràsias seletzionadas
+sc-my-deleting = Cantzellende is fràsias seletzionadas…
+sc-my-err-failed-delete = Faddina cantzellende is fràsias seletzionadas… Torra·nce a provare.
 
 ## REJECTED
 
+sc-rejected-title = Fràsias refudadas
+sc-rejected-loading = Carrighende is fràsias refudadas…
+sc-rejected-err-fetching = Faddina in sa recuperatzione de is fràsias refudadas. Torra·nce a provare.
+sc-rejected-none-found = Nissuna fràsia refudada agatada.
 
 ## STATS
 
+sc-stats-title = Istatìsticas
+sc-stats-updating = Atualizende...
+sc-stats-error = Impossìbile recuperare is istatìsticas. Torra·nce a provare a pustis.
 
 ## ADD
 
+sc-submit-err-select-lang = Seletziona una lìngua.
+sc-submit-err-add-sentences = Agiunghe fràsias.
+sc-submit-err-add-source = Agiùnghere un'orìgine.
+sc-submit-err-confirm-pd = Cunfirma chi custas fràsias sunt in domìniu pùblicu.
+sc-submit-prompt =
+    .message = No as imbiadu is fràsias. Seguru chi boles essire?
+sc-submit-title = Agiunghe fràsias
+sc-submit-select-language =
+    .labelText = Seletziona una lìngua
+sc-submit-add-sentences = Agiunghe fràsias de <wikipediaLink>domìniu pùblicu</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Una fràsia pro lìnia
+sc-submit-from-where = Dae in ue benint custas fràsias de <wikipediaLink>domìniu pùblicu</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Leghe sa ghia nostra si no isces comente tzitare s'orìgine
+sc-submit-confirm = Cunfirmo chi custas fràsias sunt in <wikipediaLink>domìniu pùblicu</wikipediaLink> e chi tèngio permissu pro ddas carrigare.
+sc-submit-button =
+    .submitText = Imbia
+sc-submit-guidelines = Leghe is <howToLink>ghias</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Impossìbile agiùnghere sa lìngua
+sc-add-lang-sec-label = Agiunghe sa lìngua a sa chi boles contribuire
+sc-add-lang-sec-button = Agiunghe una lìngua
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Cunfirma is fràsias noas
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Nissuna fràsia agatada.
+        [one] 1 fràsia agatada.
+       *[other] { $countOfSentences } fràsias agatadas.
+    }
 # Variables:
 #   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
 sc-confirm-rejected-by-you = As refudadu { $countOfInvalidated } fràsias
+sc-confirm-button-text = Cunfirma
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Totale
+sc-lang-info-title-personal = Personale
 # Variables:
 #   $validatedSentences (Number) - Number of sentences which have been approved for this language
 sc-lang-info-validated =
@@ -1149,18 +1246,122 @@ sc-lang-info-validated =
 
 ## LOGIN
 
+sc-login-err-failed = Faddina in s'identificatzione
+sc-login-err-try-again = Torra·nce a provare.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profilu: { $username }
+sc-personal-err-lang-not-found = Impossìbile bogare sa lìngua: no agatada
+sc-personal-err-remove = Impossìbile bogare sa lìngua
+sc-personal-your-languages = Is lìnguas tuas:
+sc-personal-remove-button = boga
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = Nd'as agiuntas { $sentences }
+sc-personal-not-added = No as ancora agiuntu nissuna lìngua.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Critèrios de revisione
+sc-criteria-title = Critèrios de revisione
+sc-criteria-make-sure = Assegura·ti chi is fràsias sighint is critèrios imbenientes:
+sc-criteria-item-1 = Sa fràsia depet èssere iscrita bene, chena de faddinas de ortografia.
+sc-criteria-item-2 = Sa grammàtica de sa fràsia depet èssere curreta.
+sc-criteria-item-3 = Sa fràsia depet pòdere èssere pronuntziada.
+sc-criteria-item-4 = Si sa fràsia sighit custos critèrios, incarca su butone &quot;Aprova&quot; in artu a dereta.
+sc-criteria-item-5-2 = Si sa fràsia non sighit is critèrios anteriores, incarca su butone &quot;Refuda&quot; a manca. Si no ddu isces, dda podes brincare pro colare a cussa imbeniente.
+sc-criteria-item-6 = Si non nc'at prus fràsias de revisionare, agiuda·nos a nde regòllere àteras!
 
 ## REVIEW
 
+sc-review-lang-not-selected = No as seletzionadu nissuna lìngua. Bae a su <profileLink>Profilu</profileLink> tuo pro nde seletzionare.
+sc-review-title = Revisiona is fràsias
+sc-review-loading = Carrighende is fràsias…
+sc-review-select-language = Seletziona una lìngua pro revisionare fràsias.
+sc-review-no-sentences = Nissuna fràsia de revisionare. <addLink>Agiunghe·nde àteras!</addLink>
+sc-review-form-prompt =
+    .message = No as imbiadu is fràsias revisionadas. Boles lassare sa pàgina?
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Orìgine: { $sentenceSource }
+sc-review-form-button-reject = Refuda
+sc-review-form-button-skip = Brinca
+sc-review-form-button-approve = Aprova
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = E
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = B
+sc-review-form-keyboard-usage-custom = Podes impreare is curtzadòrgios de tecladu: { sc-review-form-button-approve-shortcut } pro aprovare, { sc-review-form-button-reject-shortcut } pro refudare, { sc-review-form-button-skip-shortcut } pro brincare.
+sc-review-link = Revisiona
 
 ## SETTINGS
 
+sc-settings-title = Cunfiguratzione
+sc-settings-ui-language = Lìngua de s'interfache
 
 # [/SentenceCollector]
 
+partnerships-foundations-header = Fundatziones
+partnerships-governments-header = Guvernos
+add-information-button = Agiunghe informatziones
+continue-speaking-button = No gràtzias, sighi a chistionare
+create-profile-button = Crea unu profilu
+voice-collection = Regorta de boghes
+sentence-collection = Regòllida de frases
+varying-pronunciations = Pronùntzias chi mudant
+misreadings = Faddinas de leghidura
+offensive-content = Cuntenutu ofensivu
+background-noise = Abbolotu de isfundu
+background-voices = Boghes de isfundu
+volume = Volume
+reader-effects = Efetos de leghidura
+just-unsure = Tenes dudas?
+example = Esempru
+still-have-questions = Tenes ancora dudas?
+contact-common-voice = Cuntata s'iscuadra de Common Voice
+public-domain = Domìniu pùblicu
+citing-sentences = Tzitatzione de fràsias
+adding-sentences = Agiunta de fràsias
+reviewing-sentences = Revisione de fràsias
+citing-sentences-subheader-websites = Sitos web
+citing-sentences-subheader-websites-explanation = Dias pòdere inclùdere su situ web, pro esempru «Common Voice - https://commonvoice.mozilla.org/»
+citing-sentences-subheader-academic-reference = Tzitatzione acadèmica
+citation =
+    .label = Tzitatzione
+self-citation = Autotzitatzione
+adding-sentences-subheader-length = Longària
+adding-sentences-subheader-length-explanation = Sa fràsia depet tènnere prus pagu de 15 faeddos.
+adding-sentences-subheader-spelling-punctuation = Ortografia e puntegiadura
+adding-sentences-subheader-spelling-punctuation-explanation = Sa fràsia depet èssere iscrita bene, chena de faddinas de ortografia.
+adding-sentences-subheader-speakable = Pronuntziàbile
+adding-sentences-subheader-numbers = Nùmeros
+adding-sentences-subheader-punctuation = Puntegiadura
+adding-sentences-subheader-special-characters = Caràteres ispetziales e lìteras istràngias
+sentence =
+    .label = Fràsia
+sentence-input-value = Inserta·nce inoghe sa fràsia in domìniu pùblicu
+citation-input-value = Orìgine de sa fràsia
+citation =
+    .label = Tzitatzione
+what-can-i-add = Cale tipu de fràsias potzo agiùnghere?
+new-sentence-rule-1 = <noCopyright>Chena deretos de autore</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Prus pagu de 15 faeddos
+new-sentence-rule-3 = Sa grammàtica est curreta
+new-sentence-rule-4 = S'ortografia e sa puntegiadura sunt curretas
+new-sentence-rule-5 = Chena nùmeros nen caràteres ispetziales
+new-sentence-rule-6 = Chena lìteras istràngias
+new-sentence-rule-7 = Cun sa tzitatzione oportuna
+new-sentence-rule-8 = Sa fràsia diat dèpere èssere naturale e discursiva (fàtzile de lèghere)
+how-to-cite = Comente potzo fàghere una tzitatzione?
+how-to-cite-explanation-bold = Tzita frunende unu ligòngiu o su nòmine cumpletu de s'òpera.
+guidelines = Ghias
+contact-us = Cuntata·nos
+add-sentence-success = 1 fràsia regorta
+add-sentence-error = Faddina in s'agiunta de sa fràsia
+required-field = Cumpila custu campu.
+report-sc-different-language = Lìngua diferente

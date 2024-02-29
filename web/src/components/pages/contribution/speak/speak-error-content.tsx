@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Localized } from '@fluent/react';
+import URLS from '../../../../urls'
 
 import {
   ArrowRight,
@@ -59,8 +60,7 @@ const NoSentencesAvailable = () => (
       </h1>
       <LinkButton
         rounded
-        blank
-        href="https://common-voice.github.io/sentence-collector/">
+        to={URLS.WRITE}>
         <ArrowRight className="speak-sc-icon" />{' '}
         <Localized id="speak-empty-state-cta">
           <span />

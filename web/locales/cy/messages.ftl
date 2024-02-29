@@ -44,6 +44,7 @@ be = Belarusieg
 bg = Bwlgareg
 bm = Bambara
 bn = Bengaleg
+bo = Tibeteg
 br = Llydaweg
 bs = Bosnieg
 bxr = Buryat
@@ -53,6 +54,7 @@ cak = Kaqchikel
 ckb = Cwrdeg y Canoldir
 cnh = Hakha Chin
 co = Corseg
+crh = Tatar Crimea
 cs = Tsiec
 cv = Chuvash
 cy = Cymraeg
@@ -68,16 +70,20 @@ eo = Esperanto
 es = Sbaeneg
 et = Estoneg
 eu = Basgeg
+ewo = Ewondo
 fa = Persieg
 ff = Fulah
 fi = Ffinneg
 fo = Ffaroeg
 fr = Ffrangeg
+fuf = Gini Pular
 fy-NL = Ffriseg
 ga-IE = Gwyddeleg
 gl = Galisieg
 gn = Guarani
 gom = Goan Konkani
+gu-IN = Gujarati
+guc = Wayuunaiki
 ha = Hausa
 he = Hebraeg
 hi = Hindi
@@ -97,6 +103,7 @@ it = Eidaleg
 izh = Izhorieg
 ja = Japanëeg
 jbo = Lojban
+jv = Java
 ka = Georgeg
 kaa = Karakalpak
 kab = Kabyle
@@ -117,7 +124,9 @@ lij = Ligurieg
 ln = Lingala
 lo = Lao
 lt = Lithiuanieg
+ltg = Latgalieg
 lv = Latfieg
+lzz = Laz
 mai = Maithili
 mdf = Moksha
 mg = Malagaseg
@@ -138,15 +147,18 @@ nb-NO = Bokmål Norwyeg
 nd = IsiNdebele (Gogleddol)
 ne-NP = Nepaleg
 nhe = Huasteca Nahuatl Dwyreiniol
+nhi = Nahuatl Puebla Sierra Gorllenwinol
 nia = Nias
 nl = Iseldireg
 nn-NO = Norwyeg Nynorsk
 nr = IsiNdebele (Deheuol)
 nso = Sotho Gogleddol
+ny = Chinyanja
 nyn = Nyankole
 oc = Occitaneg
 om = Afaan Ormoo
 or = Odia
+os = Ossetian
 pa-IN = Punjabi
 pap-AW = Papiamento (Aruba)
 pl = Pwyleg
@@ -154,6 +166,7 @@ ps = Pashto
 pt = Portiwgaleg
 quc = K'iche'
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 ro = Rwmaneg
@@ -163,6 +176,8 @@ sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardinieg
 scn = Sisilieg
+sco = Scots
+sd = Sindhi
 sdh = Cwrdeg Deheuol
 shi = Shilha
 si = Sinhala
@@ -203,7 +218,9 @@ uz = Wsbeceg
 ve = Tshivenda
 vec = Venetieg
 vi = Fietnameg
+vmw = Emakhuwa
 vot = Votig
+wep = Westffalaidd
 wo = Wolof
 xh = Xhosa
 yi = Iddeweg Almaenig
@@ -226,7 +243,7 @@ speak-now = Siaradwch nawr
 datasets = Setiau data
 languages = Ieithoedd
 about = Amdanom Ni
-partner = Partner
+partner = Partneru
 profile = Proffil
 help = Cymorth
 contact = Cysylltu
@@ -240,6 +257,7 @@ share-text = Helpwch beiriannau i ddysgu sut mae pobl go iawn yn siarad, cyfrann
 link-copied = Dolen wedi'i chopïo
 back-top = Nôl i'r Brig
 logout = Allgofnodi
+donate = Cyfrannu
 
 ## Home Page
 
@@ -408,8 +426,12 @@ native-language =
 profile-form-add-accent = Ychwanegwch acen o fath newydd "{ $inputValue }"
 profile-form-submit-save = Cadw
 profile-form-submit-saved = Wedi'u Cadw
-male = Gwryw
-female = Benyw
+male_masculine = Gwryw/Gwrywaidd
+female_feminine = Benyw/Benywaidd
+intersex = Rhyngryw
+transgender = Trawsrywiol
+non-binary = Anneuaidd
+do_not_wish_to_say = Ddim yn dymuno dweud
 # Gender
 other = Arall
 why-profile-title = Pam proffil?
@@ -445,6 +467,8 @@ help-accent = Angen cymorth gydag acen?
 help-accent-explanation = Eich acen yw'r ffordd rydych chi'n ynganu geiriau. Mae'n cael ei ffurfio gan ble rydych chi wedi byw, pa ieithoedd eraill rydych chi'n eu siarad a llawer o ffactorau eraill. Gallwch chi rannu unrhyw wybodaeth rydych chi'n teimlo sy'n berthnasol yma.
 help-variants = Angen cymorth gydag amrywiadau?
 help-variants-explanation = Mae amrywiadau yn ffurf benodol ar iaith - er enghraifft sy'n cael eu rhannu gan y rhai sy'n byw mewn ardal ddaearyddol neu gymuned. Weithiau mae'r rhain yn cael eu galw'n dafodieithoedd.
+help-sex-or-gender-changes = Angen help gyda'r newidiadau Rhyw neu Rywedd?
+help-sex-or-gender-changes-explanation = Rydym yn cynnig mwy o ddewisiadau i bobl o ran yr hyn y maen nhw'n ei ddweud wrthym am eu hunaniaeth o ran eu rhyw neu rywedd. Disgrifiwch eich hun yn y ffordd sy'n teimlo'n fwyaf naturiol i chi. <learnMoreLink>Darllen rhagor am ein hagwedd tuag at ryw a rhywedd.</learnMoreLink>
 
 ## Profile - Email
 
@@ -629,7 +653,6 @@ about-playbook-how-add-sentences = Sut ydw i'n ychwanegu brawddegau?
 about-playbook-how-add-sentences-content-1 = Mae'r <strong>Casglwr Brawddegau </strong> yn offeryn ar gyfer casglu a dilysu brawddegau parth cyhoeddus. Bydd angen i chi <scAccountLink>greu cyfrif</scAccountLink>. Yna, ychwanegwch eich iaith at eich <strong>Proffil</strong>. Gallwch <strong>Ychwanegu</strong> brawddegau neu <strong>Adolygu</strong> brawddegau a ychwanegwyd yn flaenorol.
 about-playbook-how-add-sentences-content-2 = Rhaid i frawddegau gael eu hadolygu a'u derbyn gan ddau berson i'w cynnwys yn Common Voice. Rydych chi'n creu canllawiau ar gyfer eich iaith <languageGuidelinesLink>yma</languageGuidelinesLink>. Rhaid i frawddegau fod yn y <licenseLink>parth cyhoeddus</licenseLink> ac yn llai na 15 gair. Gallwch ofyn i berchennog neges destun ei wneud yn <waiverLink>CC0 gan ddefnyddio ein proses hepgor</waiverLink>, a'i anfon atom ar commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Gallwch ddefnyddio'r <scraperLink>Echdynnwr Brawddeg</scraperLink> i dynnu brawddegau byr o Wicipedia.
-about-playbook-how-add-sentences-content-4 = Mae brawddegau sydd wedi'u dilysu yn cael eu hallforio ar ddydd Mercher, a byddan nhw ar gael ar ôl y ryddhad nesaf.
 
 ## How to record quality
 
@@ -752,10 +775,12 @@ validated-hr-total = Cyfanswm Oriau â Ddilyswyd
 overall-hr-total = Cyfanswm yr Oriau
 cv-license = Trwydded
 audio-format = Fformat Sain
+dataset-splits = Gwahaniaeth (Oedran a Rhyw)
 number-of-voices = Nifer y Lleisiau
 splits = Rhannu
 email-to-download = Rhowch E-bost i'w Lwytho i Lawr
 why-email = <b> Pam e-bost? </ b> Efallai y bydd angen i chi gysylltu â chi yn y dyfodol ynghylch newidiadau i'r set ddata, mae e-bost yn rhoi pwynt cyswllt inni.
+why-donate-datasets-page = Mozilla Common Voice yw set ddata lleferydd agored torfol fwyaf amrywiol y byd - ac rydyn ni'n cael ein pweru'n gyfan gwbl gan roddion. Mae’n costio bron i filiwn o ddoleri’r flwyddyn i gynnal y setiau data a gwella’r llwyfan ar gyfer y 100  a mwy o gymunedau iaith sy’n dibynnu ar yr hyn rydym yn ei wneud. Os ydych yn gwerthfawrogi data agored, cynhwysol - <b>cyfranwch heddiw!</b>
 confirm-size = Rydych yn barod i gychwyn llwytho i lawr <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -796,6 +821,15 @@ dataset-version = Fersiwn
 sha256-checksum-copied = SHA256 Checksum Wedi'i Gopïo!
 sha256-checksum-copied-error = Wedi methu â chopïo SHA256 Checksum
 clipboard-not-supported = Nid yw'r clipfwrdd yn cael ei gopïo
+no-information-available = Dim gwybodaeth ar gael
+dataset-metadata-sex = Rhyw
+# dataset metadata - age of contributor
+dataset-metadata-age = Oed
+donate-modal-message = Mae eich set ddata yn cael ei lwytho i lawr!
+dataset-donate-modal-heading = Oeddech chi'n gwybod…
+donate-modal-explanation-1 = Mae’n costio bron i filiwn o ddoleri’r flwyddyn i gynnal y setiau data a gwella’r llwyfan ar gyfer y 100+ o gymunedau iaith sy’n dibynnu ar yr hyn rydym yn ei wneud?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Os ydych yn gwerthfawrogi data agored, cynhwysol - cyfrannwch heddiw!</bold>
 
 ## Download Modal
 
@@ -874,6 +908,8 @@ language-section-in-progress = Ar y Ffordd
 language-section-in-progress-new-description = Mae'r ieithoedd hyn ar hyn o bryd o dan ddatblygiad cymunedol. Mae'r bariau cynnydd yn nodi pa mor bell y mae pob iaith yn y broses o <localizationGlossaryLink>leoleiddio'u gwefan</localizationGlossaryLink> a <sentenceCollectionGlossaryLink>chasglu brawddegau</sentenceCollectionGlossaryLink>.
 language-section-launched = Ar Gael
 language-section-launched-description = Ar gyfer yr ieithoedd sydd wedi'u lansio, mae'r wefan wedi'i <localizationGlossaryLink> leoleiddio'n </localizationGlossaryLink>llwyddiannus, ac mae ganddo ddigon o <sentenceCollectionGlossaryLink>frawddegau wedi'u casglu</sentenceCollectionGlossaryLink> i ganiatáu cyfraniadau <speakLink>Siarad</speakLink> a <listenLink>Gwrando</ listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Diweddariad Diwethaf: { $lastUpdate }
 languages-show-more = Gweld Mwy
 languages-show-less = Gweld Llai
 language-meter-in-progress = Cynnydd
@@ -892,6 +928,8 @@ action-click = Cliciwch
 action-tap = Tapiwch
 contribute = Cyfrannu
 listen = Gwrando
+write = Ysgrifennu
+review = Adolygu
 skip = Hepgor
 shortcuts = Llwybrau Byr
 clips-with-count-pluralized =
@@ -941,6 +979,9 @@ listen-empty-state = Does dim rhagor o glipiau i'w dilysu yn yr iaith hon...
 listen-loading-error =
     Does dim rhagor o glipiau sain i chi wrando arnyn nhw.
     Ceisiwch eto, rhywbryd eto.
+listen-abort-title = Wedi gorffen dilysu clipiau?
+listen-abort-cancel = Parhau i ddilysu
+listen-abort-confirm = Gorffen dilysu
 speak-empty-state = Does dim rhagor o frawddegau i'w recordio yn yr iaith hon...
 speak-empty-state-cta = Cyfrannu brawddegau
 speak-loading-error =
@@ -959,6 +1000,7 @@ target-segment-learn-more = Dysgu Rhagor
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Casglu Lleisiau
+contribute-sentence-collection-nav-header = Casglu Brawddegau
 
 ## Reporting
 
@@ -1685,3 +1727,199 @@ already-have-an-account = Cyfrif yn barod? <login>Mewngofnodwch</login>
 create-profile-button = Crëwch broffil
 # IMAGE TAGS
 img-alt-success-checkmark = marc gwirio llwyddiant
+# GUIDELINES PAGE
+guidelines-header = Cyfrannu'n Effeithiol
+guidelines-header-subtitle = Deall sut i gyfrannu a dilysu brawddegau a chlipiau sain i set ddata Common Voice
+voice-collection = Casglu Lleisiau
+sentence-collection = Casglu Brawddegau
+varying-pronunciations = Ynganiadau Amrywiol
+misreadings = Camddarllen
+offensive-content = Cynnwys Amhriodol
+background-noise = Sŵn Cefndir
+background-voices = Lleisiau Cefndirol
+volume = Sŵn
+reader-effects = Effeithiau'r Darllenydd
+just-unsure = Dal Ddim yn Siŵr?
+example = Esiampl
+varying-pronunciations-explanation-1 = Rydym yn croesawu acenion gwahanol! Byddwch yn ofalus iawn cyn gwrthod clip ar y sail eich bod yn meddwl bod y darllenydd wedi cam-ynganu gair, wedi rhoi’r pwyslais yn y lle anghywir, neu wedi anwybyddu atalnodi. Mae amrywiaeth eang o ynganiadau’n cael eu defnyddio ledled y byd, ac efallai nad ydych chi wedi clywed rhai ohonynt yn eich cymuned leol. Byddwch yn barod i ganiatáu fod rhai pobl yn siarad yn wahanol i chi.
+varying-pronunciations-explanation-2 = Ar y llaw arall, os credwch nad yw'r darllenydd fwy na thebyg erioed wedi dod ar draws y gair o'r blaen, a'i fod wedi dyfalu yn anghywir am yr ynganiad, gwrthodwch hynny. Os nad ydych chi'n siŵr, defnyddiwch y botwm Hepgor.
+varying-pronunciations-example = The route was unclear.
+varying-pronunciations-tip-1 = [Efallai y bydd Saesneg Canada yn gwneud i "route" swnio fel "rowt"]
+varying-pronunciations-tip-2 = [Efallai y bydd Saesneg Prydain yn ei ynghanu fel "root"]
+offensive-content-explanation = Mae brawddegau'n cael eu hasesu trwy broses safoni cymunedol, ond nid yw'r broses hon yn berffaith. Os ydych yn gweld neu'n clywed brawddeg sy'n eich tramgwyddo neu'n peri gofid i chi - er enghraifft oherwydd ei fod yn torri ein <cyfranogiadCanllawiau>canllawiau cyfranogiad cymunedol</participationGuidelines> - defnyddiwch y botwm baner yn y rhyngwyneb. Gallwch hefyd gysylltu â ni yn <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = Mae darllen yr holl eiriau ar y dudalen yn gywir yn bwysig. Wrth wrando, gwiriwch yn ofalus iawn mai'r hyn sydd wedi'i recordio yw'r union beth sydd wedi'i ysgrifennu; gwrthodwch glip os ydyn nhw wedi ychwanegu, lleihau neu golli geiriau.
+misreadings-explanation-2 = Mae camgymeriadau cyffredin iawn yn cynnwys:
+misreadings-explanation-3 = Colli 'A' neu 'Y' ar ddechrau'r recordiad.
+misreadings-explanation-4 = Colli diwedd gair.
+misreadings-explanation-5 = Darllen crynodebau nad ydyn nhw yno mewn gwirionedd, fel "Ry' ni" yn lle "Rydyn ni", neu i'r gwrthwyneb.
+misreadings-explanation-6 = Colli diwedd y gair olaf trwy orffen y recordiad yn rhy gyflym.
+misreadings-explanation-7 = Cymryd sawl ymgais i ddarllen gair.
+misreadings-example-1 = Rydyn ni'n mynd allan i gael coffi.
+misreadings-example-2 = Ry ni'n mynd allan i gael coffi.
+misreadings-example-3 = Rydyn ni'n mynd allan i gael paned o goffi.
+misreadings-example-4 = Gwibiodd y cacwnen heibio.
+misreadings-tip-1 = [Dylai fod yn “Rydyn ni”]
+misreadings-tip-2 = [Dim ‘paned o’ yn y testun gwreiddiol]
+misreadings-tip-3 = [Nid yw'r cynnwys yn cyfateb]
+background-noise-explanation = Rhaid i chi allu clywed pob gair o'r recordiad. Rydym am i algorithmau dysgu peirianyddol allu ymdrin ag amrywiaeth o sŵn cefndir, ac mae modd derbyn hyd yn oed synau cymharol uchel neu gerddoriaeth gefndir dawel ar yr amod nad ydyn nhw'n eich atal rhag clywed y testun cyfan. Mae clecian neu ‘dorri fyny’ sy’n eich atal rhag clywed y testun yn golygu y dylech chi wrthod y clip.
+background-noise-example-1 = Dinosoriaid anferth y Triasig.
+background-noise-example-2 = [Tisian] Deinosoriaid anferth y [peswch] Triasig.
+background-noise-example-3 = Y cawr dino [peswch] y Triasig.
+background-noise-example-4 = [Craclo] deinosoriaid anferth o [craclo] -riassig.
+background-noise-tip-1 = [tarfu gan sŵn cefndir]
+background-noise-tip-2 = [Nid oes modd clywed rhan o'r testun]
+background-voices-explanation = Mae ychydig o sŵn cefndir yn iawn, ond os gallwch chi glywed rhywun arall yn siarad geiriau gwahanol, dylech wrthod y clip. Fel arfer, mae hyn yn digwydd lle mae'r teledu wedi'i adael ymlaen, neu lle mae sgwrs yn digwydd gerllaw.
+background-voices-example-1 = Dinosoriaid anferth y Triasig. [wedi'i ddarllen gan un llais]
+background-voices-tip-1 = Wyt ti'n dod? [galwad gan lais arall]
+volume-explanation = Bydd amrywiadau naturiol yn y sain recordio rhwng darllenwyr. Gwrthodwch dim ond os yw'r sain mor uchel nes bod y recordiad yn torri i fyny neu (yn fwy cyffredin) os yw mor isel fel na allwch glywed yr hyn sy'n cael ei ddweud heb edrych ar y testun ysgrifenedig.
+reader-effects-explanation = Mae'r mwyafrif o recordiadau yn bobl yn siarad yn eu llais naturiol. Gallwch dderbyn ambell recordiad ansafonol sy’n cael ei weiddi, ei sibrwd, neu ei gyflwyno’n amlwg mewn llais ‘dramatig’. Gwrthodwch recordiadau wedi'u canu a'r rhai sy'n defnyddio llais wedi'i syntheseiddio gan gyfrifiadur.
+just-unsure-explanation = Os dewch chi ar draws rhywbeth nad yw'r canllawiau hyn yn ei gynnwys, defnyddiwch eich synnwyr cyffredin. Os nad ydych yn gallu penderfynu go iawn, defnyddiwch y botwm hepgor a mynd ymlaen i'r recordiad nesaf.
+still-have-questions = Rhagor o gwestiynau?
+contact-common-voice = Cysylltwch â thîm Common Voice
+public-domain = Parth Cyhoeddus
+citing-sentences = Dyfynnu Brawddegau
+adding-sentences = Ychwanegu Brawddegau
+reviewing-sentences = Adolygu Brawddegau
+sentence-domain = Parth Brawddeg
+public-domain-explanation-1 = Mae'n bwysig iawn bod pob brawddeg o destun yn un <publicDomain>parth cyhoeddus</publicDomain> (<cc0>cc0</cc0>) gan fod set ddata Common Voice yn cael ei rhyddhau o dan drwydded cc0. Dim ond os ydych yn siŵr o hynny y dylech lwytho brawddeg, a dylech gynnwys y cyfeiriad perthnasol bob tro.
+public-domain-explanation-2 = Y brawddegau gorau ar gyfer adeiladu peiriant adnabod lleferydd defnyddiol yw lleferydd llafar, modern. Dyma rhai syniadau i'ch helpu i greu brawddegau;
+public-domain-explanation-3 = Crëwch frawddegau modern, llafar ar eich pen eich hun neu gyda’ch ffrindiau neu’ch cymuned iaith – er enghraifft drwy gynnal ‘ysgrifennu-a-thon’!
+public-domain-explanation-4 = Cysylltwch ag awduron, dramodwyr neu ysgrifenwyr sgrin a gofyn a fydden nhw'n fodlon cynnig cyfran fechan o'u gwaithu i'r parth cyhoeddus
+public-domain-explanation-5 = Chwiliwch am destun lle nad yw'r hawlfraint bellach yn berthnasol - er enghraifft y rhan fwyaf o lyfrau a gyhoeddwyd cyn 1920
+public-domain-explanation-6 = Gofynnwch i lywodraethau, sefydliadau dim-er-elw neu'r cyfryngau i weld a oes modd neilltuo unrhyw ran o'u cynnwys gwe, adroddiadau neu gynnwys arall i'r parth cyhoeddus
+citing-sentences-explanation-1 = Mae’n bwysig cynnwys cyfeiriadau fel y gallwn wirio bod brawddegau yn y parth cyhoeddus ac nad oes unrhyw gyfyngiad hawlfraint arnynt.
+citing-sentences-subheader-websites = Gwefannau
+citing-sentences-subheader-websites-explanation = Fe allech chi gynnwys y wefan, e.e. "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Cyfeirnodau Academaidd
+citing-sentences-subheader-academic-reference-explanation = Fe allech chi ddefnyddio arddull cyfeirio Academaidd, e.e. arddull Harvard "Mozilla (2021) Common Voice. Ar gael yn https://commonvoice.mozilla.org/ (Cyrchwyd: 15fed Medi 2021)"
+citing-sentences-subheader-offline-sources = Ffynonellau All-lein
+citing-sentences-subheader-offline-sources-explanation = Ar gyfer testun parth gyhoeddus nad yw ar gael ar-lein, fe allech chi ddefnyddio arddull cyfeirio academaidd e.e. arddull Harvard "Jess (2021) Fy ngherddi Trwydded Gyhoeddus i"
+citation =
+    .label = Cyfeirio
+self-citation = Hunan Gyfeirio
+self-citation-explanation = Dyma sut rydych chi'n cyfeirio'ch hun os gwnaethoch chi ysgrifennu'r cynnwys eich hun.
+adding-sentences-subheader-length = Hyd
+adding-sentences-subheader-length-explanation = Dylai'r frawddeg gynnwys llai na 15 gair.
+adding-sentences-subheader-spelling-punctuation = Sillafu ac Atalnodi
+adding-sentences-subheader-spelling-punctuation-explanation = Rhaid fod y frawddeg wedi ei sillafu'n gywir.
+adding-sentences-subheader-speakable = Ynganadwy
+adding-sentences-subheader-speakable-explanation = Mae'r brawddegau gorau yn naturiol ac yn sgyrsiol - dylen nhw fod yn hawdd i unrhyw un eu darllen. Tra bod amrywiaeth ffonetig a geiriau gwahanol mewn brawddegau yn bwysig, rydym hefyd yn ceisio gwneud recordio brawddegau mor ddifyr a hwyliog â phosibl i’n cymuned wirfoddol.
+adding-sentences-subheader-numbers = Rhifau
+adding-sentences-subheader-numbers-explanation = Dylai fod dim digidau yn y testun ffynhonnell oherwydd maen nhw'n gallu achosi problemau wrth eu darllen yn uchel. Mae'r ffordd y mae rhif yn cael ei ddarllen yn dibynnu ar y cyd-destun a gall gyflwyno dryswch yn y set ddata. Er enghraifft, mae modd darllen y rhif “2409” yn gywir fel “dau pedwar dim naw” a “dwy fil pedwar cant a naw”.
+adding-sentences-subheader-abbreviations = Byrfoddau ac Acronymau
+adding-sentences-subheader-abbreviations-explanation = Dylid osgoi byrfoddau ac acronymau fel “USA” neu “ICE” yn y testun ffynhonnell oherwydd bod modd eu darllen mewn ffordd nad yw'n cyd-fynd â'u sillafu. Yn ogystal, efallai y bydd mwy nag un darlleniad cywir ar gyfer un talfyriad.
+adding-sentences-subheader-punctuation = Atalnodi
+adding-sentences-subheader-punctuation-explanation = Dim ond pan fydd hynny'n hollol angenrheidiol y dylid cynnwys symbolau ac atalnodi arbennig. Er enghraifft, mae collnod yn cael ei gynnwys mewn geiriau Cymraeg fel “mae'r” a “wedi'u” ac mae angen ei gynnwys yn y testun ffynhonnell, ond mae'n annhebygol y bydd angen symbol arbennig fel “@” neu “#” arnoch chi.
+adding-sentences-subheader-special-characters = Nodau Arbennig a Thramor
+adding-sentences-subheader-special-characters-explanation-1 = Rhaid i nodau fod yn ddilys yn yr iaith sy'n cael ei siarad. Er enghraifft, nod yn yr wyddor Rwsiaidd yw “ж” ond nid yw byth yn cael ei defnyddio yn Gymraeg ac felly dylai fyth ymddangos mewn unrhyw destun o ffynhonnell Cymraeg.
+adding-sentences-subheader-special-characters-explanation-2 = Gall ieithoedd gael eu rheolau dilysu eu hunain gyda gofynion ychwanegol pan fyddan nhw'n lleoleiddio. Os nad oes ffeil ddilysu benodol ar gyfer iaith, bydd y rheolau Saesneg yn cael ei dangos i gyfranwyr.
+adding-sentences-subheader-offensive-content = Cynnwys Amhriodol
+adding-sentences-subheader-offensive-content-explanation = Os yw'r ddedfryd yn amhriodol neu'n peri gofid - er enghraifft oherwydd cynnwys rhywiol, neu sy'n groes i'n <communityGuidelines>canllawiau cyfranogiad cymunedol</communityGuidelines> - dylech wrthod y frawddeg. Gallwch hefyd gysylltu â ni yn <emailFragment>commonvoice@mozilla.com</emailFragment> i gyfeirio'r mater ymhellach.
+reviewing-sentences-explanation-1 = Os yw'r frawddeg yn cwrdd â'r meini prawf, cliciwch y botwm "Iawn".
+reviewing-sentences-explanation-2 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch ar y botwm "Na".
+reviewing-sentences-explanation-3 = Os ydych chi'n ansicr am y frawddeg, gallwch chi ei hepgor a symud ymlaen i'r un nesaf.
+reviewing-sentences-explanation-4 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
+domain-explanation = Mae parth yn cyfeirio at bwnc testun y frawddeg. Ar hyn o bryd, gallwch ddewis rhwng:
+
+## WRITE PAGE
+
+write-instruction = Ychwanegu <icon></icon> brawddeg parth cyhoeddus
+write-page-subtitle = Bydd brawddegau sy'n cael eu cyfrannu yma yn cael eu hychwanegu at set ddata drwyddedig cc-0 sydd ar gael yn gyhoeddus.
+sentence =
+    .label = Brawddeg
+sentence-input-value = Rhowch eich brawddeg parth cyhoeddus yma
+citation-input-value = Ffynhonnell eich brawddeg
+citation =
+    .label = Cyfeirio
+sc-write-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
+sc-review-write-title = Pa frawddegau y gallaf eu hychwanegu?
+new-sentence-rule-1 = <noCopyright>Dim cyfyngiadau hawlfraint</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Llai na 15 gair
+new-sentence-rule-3 = Defnyddiwch ramadeg cywir
+new-sentence-rule-4 = Defnyddiwch sillafu ac atalnodi cywir
+new-sentence-rule-5 = Dim rhifau na nodau arbennig
+new-sentence-rule-6 = Dim nodau tramor
+new-sentence-rule-7 = Cynhwyswch gyfeiriadaeth briodol
+new-sentence-rule-8 = Yn ddelfrydol naturiol a sgyrsiol (dylai fod yn hawdd i ddarllen y frawddeg)
+how-to-cite = Sut ydw i'n cyfeirio?
+how-to-cite-explanation-bold = Cyfeiriwch gyda dolen URL neu deitl llawn y gwaith.
+how-to-cite-explanation = Os mai eich geiriau eich hun ydyn nhw, dywedwch <italicizedText>“Hunanddyfynnu”</italicizedText>. Mae angen i ni wybod o ble daethoch chi o hyd i'r cynnwys hwn fel y gallwn wirio ei fod yn y parth cyhoeddus ac nad oes unrhyw gyfyngiadau hawlfraint yn berthnasol. I gael rhagor o wybodaeth am y dyfyniadau darllenwch ein <canllawiauLink>Tudalen Canllawiau</guidelinesLink>.
+guidelines = Canllawiau
+contact-us = Cysylltwch â Ni
+add-sentence-success = 1 frawddeg wedi'i chasglu
+add-sentence-error = Gwall wrth ychwanegu brawddeg
+required-field = Llenwch y maes hwn, os gwelwch yn dda.
+single-sentence-submission = Cyflwyno Un Frawddeg
+bulk-sentence-submission = Cyflwyno Brawddegau Lluosog
+single-sentence = Un Frawddeg
+bulk-sentences = Brawddegau Lluosog
+sentence-domain-select =
+    .label = Parth Brawddeg
+# Sentence Domain dropdown option
+agriculture = Amaethyddiaeth
+# Sentence Domain dropdown option
+automotive = Modurol
+# Sentence Domain dropdown option
+finance = Cyllid
+# Sentence Domain dropdown option
+food_service_retail = Bwyd, Gwasanaethau a Manwerthu
+# Sentence Domain dropdown option
+general = Cyffredinol
+# Sentence Domain dropdown option
+healthcare = Gofal iechyd
+# Sentence Domain dropdown option
+history_law_government = Hanes, Cyfraith a Llywodraeth
+# Sentence Domain dropdown option
+language_fundamentals = Hanfodion Iaith (e.e. Nodau, Llythrennau, Arian)
+# Sentence Domain dropdown option
+media_entertainment = Cyfryngau ac Adloniant
+# Sentence Domain dropdown option
+nature_environment = Natur a'r Amgylchedd
+# Sentence Domain dropdown option
+news_current_affairs = Newyddion a Materion Cyfoes
+# Sentence Domain dropdown option
+technology_robotics = Technoleg a Roboteg
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Gwirio <icon></icon> os yw hon yn frawddeg ieithyddol gywir
+sc-review-rules-title = A yw'r frawddeg yn cyd-fynd â'r canllawiau?
+sc-review-empty-state = Nid oes brawddegau i'w hadolygu yn yr iaith hon ar hyn o bryd.
+report-sc-different-language = Iaith wahanol
+report-sc-different-language-detail = Mae wedi'i hysgrifennu mewn iaith sy'n wahanol i'r hyn rwy'n ei hadolygu.
+sentences-fetch-error = Digwyddodd gwall wrth nôl brawddegau
+review-error = Digwyddodd gwall wrth adolygu'r frawddeg hon
+review-error-rate-limit-exceeded = Rydych chi'n mynd yn rhy gyflym. Cymerwch eiliad i adolygu'r frawddeg i wneud yn siŵr ei bod yn gywir.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Rydym yn gwneud rhai newidiadau mawr
+sc-redirect-page-subtitle-1 = Mae'r Casglwr Brawddegau yn symud i lwyfan craidd Common Voice. Nawr gallwch <writeURL>ysgrifennu</writeURL> brawddeg neu <reviewURL>adolygu</reviewURL> brawddeg unigol wedi eu cyflwyno ar Common Voice.
+sc-redirect-page-subtitle-2 = Gofynnwch gwestiynau i ni ar <matrixLink>Matrics</matrixLink>, <discourseLink>Discourse</discourseLink> neu <emailLink>email</emailLink>.
+
+## BULK SUBMISSION 
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Llwytho i fyny <icon></icon> brawddegau parth cyhoeddus
+sc-bulk-upload-instruction = Llusgwch eich ffeil yma neu <uploadButton>cliciwch i'w llwytho i fyny</uploadButton>
+sc-bulk-upload-instruction-drop = Gollwng ffeil yma i'w llwytho i fyny
+bulk-upload-additional-information = Os oes unrhyw wybodaeth ychwanegol yr hoffech ei darparu am y ffeil hon, cysylltwch â <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Os oes unrhyw wybodaeth ychwanegol yr hoffech ei darparu am y ffeil hon nad yw wedi'i chynnwys yn y templed, cysylltwch â <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Ceisiwch eto trwy lusgo'ch ffeil yma
+try-upload-again-md = Ceisiwch lwytho i fyny eto
+select-file = Dewis Ffeil
+select-file-mobile = Dewiswch Ffeil i'w Llwytho i Fyny
+accepted-files = Mathau o ffeiliau derbyniol: .tsv yn unig
+maximum-file-size = Maint mwyaf ffeil: 25 MB
+what-needs-to-be-in-file = Beth sydd angen bod yn fy ffeil?
+what-needs-to-be-in-file-explanation = Gwiriwch ein <templateFileLink>ffeil templed</templateFileLink>. Dylai eich brawddegau fod yn rhydd o hawlfraint (CC0 neu waith gwreiddiol â chaniatâd y cyflwynydd) a dylen nhw fod yn glir, yn ramadegol gywir ac yn hawdd eu darllen. Dylai brawddegau sy'n cael ei chyflwyno cymryd tua 10-15 eiliad i'w darllen a dylent osgoi cynnwys rhifau, enwau priod a nodau arbennig.
+upload-progress-text = Wrthi'n llwytho i fyny...
+sc-bulk-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
+bulk-upload-success-toast = Brawddegau Lluosog wedi'u Llwytho i Fyny
+bulk-upload-failed-toast = Methodd yr llwytho i fyny, rhowch gynnig arall arni.
+bulk-submission-success-header = Diolch am gyfrannu eich cyflwyniad lluosog!
+bulk-submission-success-subheader = Rydych chi'n helpu Common Voice i gyrraedd ein nodau brawddegau dyddiol!
+upload-more-btn-text = Llwytho rhagor o frawddegau?
+file-invalid-type = Ffeil annilys.
+file-too-large = Mae'r ffeil yn rhy fawr
+file-too-small = Mae'r ffeil yn rhy fach
+too-many-files = Gormod o ffeiliau

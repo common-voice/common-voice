@@ -42,6 +42,7 @@ be = Belaruseg
 bg = Bulgareg
 bm = Bambaraeg
 bn = Bengaleg
+bo = Tibetaneg
 br = Brezhoneg
 bs = Bosneg
 bxr = Bouriateg
@@ -51,6 +52,7 @@ cak = Kakchikeleg
 ckb = Kurdeg ar c’hreiz
 cnh = Hakaeg
 co = Korseg
+crh = Tatareg a vro Grimea
 cs = Tchekeg
 cv = Tchouvacheg
 cy = Kembraeg
@@ -66,6 +68,7 @@ eo = Esperanteg
 es = Spagnoleg
 et = Estoneg
 eu = Euskareg
+ewo = Ewondoeg
 fa = Perseg
 ff = Fouleg
 fi = Finneg
@@ -76,6 +79,7 @@ ga-IE = Iwerzhoneg
 gl = Galizeg
 gn = Gwaranieg
 gom = Goan Konkani
+gu-IN = Gujarati
 ha = Haousaeg
 he = Hebraeg
 hi = Hindeg
@@ -95,6 +99,7 @@ it = Italianeg
 izh = Ijoreg
 ja = Japaneg
 jbo = Lojbaneg
+jv = Javaneg
 ka = Jorjieg
 kaa = Karakalpakeg
 kab = Kabileg
@@ -115,7 +120,9 @@ lij = Ligureg
 ln = Lingalaeg
 lo = Laoseg
 lt = Lituaneg
+ltg = Latgalianeg
 lv = Latveg
+lzz = Lazeg
 mai = Maitilieg
 mdf = Mokcheg
 mg = Malagasieg
@@ -135,15 +142,19 @@ nan-tw = Taiwaneg (Minnan)
 nb-NO = Norvegeg bokmål
 nd = IsiNdebele (Norzh)
 ne-NP = Nepaleg
+nhe = Nahouatleg Huasteca ar Reter
+nhi = Nahouatleg Sierra Puebla ar C'hornog
 nia = Niaseg
 nl = Nederlandeg
 nn-NO = Norvegeg nynorsk
 nr = IsiNdebele (Su)
 nso = Sothoeg an norzh
+ny = Tchitcheweg
 nyn = Nyankole
 oc = Okitaneg
 om = Afaan Ormoo
 or = Oriyeg
+os = Oseteg
 pa-IN = Pandjabeg
 pap-AW = Papiamento (Aruba)
 pl = Poloneg
@@ -160,6 +171,8 @@ sah = Yakouteg
 sat = Santali (Ol Chiki)
 sc = Sardinieg
 scn = Sikilianeg
+sco = Skoseg
+sd = Sindhi
 sdh = Kurdeg ar Su
 shi = Tacheliteg
 si = Sinhaleg
@@ -190,6 +203,7 @@ ts = Gzitsongaeg
 tt = Tatareg
 tw = Twieg
 ty = Tahitianeg
+tyv = Touvaeg
 uby = Oubic’heg
 udm = Oudmourteg
 ug = Ouigoureg
@@ -200,6 +214,8 @@ ve = Tshivendaeg
 vec = Veneteg
 vi = Vietnameg
 vot = Voteg
+wep = Westfalieg
+wo = Wolof
 xh = Xhosaeg
 yi = Yiddish
 yo = Yoroubeg
@@ -235,6 +251,7 @@ share-text = Sikourit ar mekanikoù da gompren penaos e komz an dud wirion, roit
 link-copied = Liamm eilet
 back-top = Distreiñ d’al lein
 logout = Digevreañ
+donate = Reiñ un donezon
 
 ## Home Page
 
@@ -397,8 +414,9 @@ native-language =
 profile-form-add-accent = Ouzhpennañ ar pouez-mouezh personelaet nevez "{ $inputValue }"
 profile-form-submit-save = Enrollañ
 profile-form-submit-saved = Enrollet
-male = Paotr
-female = Plac’h
+male_masculine = Gourel
+female_feminine = Benel
+transgender = Treuzjener
 # Gender
 other = All
 why-profile-title = Perak ur profil?
@@ -532,6 +550,8 @@ about-voice-contrib-title = Kendaoladurioù mouezh
 about-voice-contrib-subtitle = Tud a zeu da gendeurel gant o mouezh.
 about-voice-validation-title = Gwiriekaat ar vouezh
 about-voice-validation-subtitle = Tud all o deus gwiriekaet ar c'hlipoù aodio-mañ.
+about-dataset-release-title = Ermeziadenn ar spletad roadennoù
+about-subscribe-text = Fellout a ra deoc'h chom e darempred gant Common Voice?
 about-speak = Komz
 about-speak-text = Ar gendaolerien a enroll klipoù mouezh en ul lenn e-touez un hollad a frazennoù roet.
 about-listen-queue = Roll gortoz
@@ -576,6 +596,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Dastum frazennoù
 ## How does localization work
 
 about-playbook-how-localize = Penaos ez en-dro troidigezh al lec'hienn?
+about-playbook-how-localize-content-1 = Evit treiñ lec'hienn Common Voice, kit war <strong>Pontoon</strong>.
 about-playbook-how-localize-content-5 = Sellout ouzh hon video displegañ evit kaout sikour
 
 ## How to add sentences
@@ -584,6 +605,7 @@ about-playbook-how-add-sentences = Penaos e c'hellan ouzhpennañ frazennoù?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Penaos enrollañ ur vouezh a galite uhel?
 
 ## How to grow language
 
@@ -597,6 +619,7 @@ about-playbook-how-validate = Penaos gouzout hag-eñ e rank bezañ gwiriekaet ur
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Penaos e c’hellan haeziñ hag implijout ar spletad roadennoù?
 
 ## How are decisions made
 
@@ -710,6 +733,10 @@ more = Muioc’h
 close = Serriñ
 download = Pellgargañ
 dataset-version = Stumm
+clipboard-not-supported = N’eo ket skoret ar golver
+dataset-metadata-sex = Reizh
+# dataset metadata - age of contributor
+dataset-metadata-age = Oad
 
 ## Download Modal
 
@@ -759,6 +786,8 @@ language-section-in-progress = War ober
 language-section-in-progress-new-description = Ar yezhoù-mañ a zo war ziorren gant ar gumuniezh evit ar mare. Ar barrennoù araokadur a ziskouez pegen pell eo aet pep yezh evit <localizationGlossaryLink>treiñ al lec’hienn</localizationGlossaryLink> ha <sentenceCollectionGlossaryLink>dastum frazennoù</sentenceCollectionGlossaryLink>.
 language-section-launched = Loc’het
 language-section-launched-description = Evit ar yezhoù lañset-mañ eo bet <localizationGlossaryLink>troet</localizationGlossaryLink> al lec’hienn ha dastumet eo bet trawalc’h a <sentenceCollectionGlossaryLink>frazennoù</sentenceCollectionGlossaryLink> evit aotren kendaoladoù <speakLink>Komz</speakLink> ha <listenLink>Selaou</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Hizivaet da ziwezhañ: { $lastUpdatedTimeStamp }
 languages-show-more = Gouzout hiroc’h
 languages-show-less = Gwelet nebeutoc’h
 language-meter-in-progress = War ober
@@ -777,6 +806,8 @@ action-click = Klikañ
 action-tap = Pouezit
 contribute = Kemer-perzh
 listen = Selaou
+write = Skrivañ
+review = Gwiriañ
 skip = Mont hebioù
 shortcuts = Berradennoù
 clips-with-count-pluralized =
@@ -822,6 +853,7 @@ listen-again-instruction = Labour vat! <playIcon></playIcon> Adselaou pa viot pr
 listen-3rd-time-instruction = 2 graet <playIcon></playIcon> , dalc’hit da vont!
 listen-last-time-instruction = <playIcon></playIcon> An hini ziwezhañ!
 listen-empty-state = N'hon eus tamm enrolladenn ebet ken da wiriañ er yezh-se...
+listen-abort-cancel = Kenderc'hel da gadarnaat
 speak-empty-state = N'hon eus tamm frazenn ebet ken da enrollañ er yezh-se...
 speak-empty-state-cta = Kinnig frazennoù
 record-button-label = Enrollit ho mouezh
@@ -837,6 +869,7 @@ target-segment-learn-more = Gouzout hiroc’h
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Dastumad mouezhioù
+contribute-sentence-collection-nav-header = Dastumad frazennoù
 
 ## Reporting
 
@@ -1019,16 +1052,20 @@ profile-form-delete = Dilemel ar profil
 
 ## Profile Download
 
+download-q = Ezhomm ho peus pellgargañ ho roadennoù?
 download-profile-title = Profil
 download-profile-size = Un nebeut bitoù
 download-recordings-title = Enrolladennoù
 download-size = Ment
 download-selected = Diuzet
 download-start = Pellgargañ roadennoù ar profil
+download-request = Goulenn enrolladennoù
 download-request-button = Pellgargañ
 download-request-title = { $created }
 download-request-refresh-button = Freskaat
 download-request-modal-title = Liammoù pellgargañ
+download-request-link-text = Zip n°{ $offset } diwar { $total }
+download-request-metadata-link = Testenn ar frazenn
 
 ## Landing
 
@@ -1074,11 +1111,22 @@ demo-dashboard-card-body = Evit pep klip mouezh pourvezet ganeoc'h ha pep klip a
 ## Validation criteria
 
 contribution-criteria-nav = Dezverkoù
+contribution-criteria-link = Kompren dezverkoù ar c'hemer perzh
 contribution-criteria-page-title = Dezverkoù ar c'hemer perzh
 contribution-for-example = da skouer
 contribution-misreadings-title = Fazioù lenn
+contribution-misreadings-example-1-title = An dinosaored ramzel eus an Triaseg.
+contribution-misreadings-example-2-title = An dinosaor ramzel eus an Triaseg.
+contribution-misreadings-example-3-title = An dinosaored ramzel eus an Trias-.
+contribution-misreadings-example-4-title = An dinosaored ramzel eus an Triaseg. Ya.
+contribution-misreadings-example-5-title = Mont a reomp er-maez da bakañ ur banne kafe.
+contribution-misreadings-example-6-title = Mont ’reomp er-maez da bakañ ur banne kafe.
 contribution-misreadings-example-6-explanation = [Rankout a rafe bezañ “Ni ’zo”]
 contribution-misreadings-example-7-title = Mont a reomp er-maez da bakañ ur banne kafe.
+contribution-misreadings-example-7-explanation = [N‘eus ‘a’ ebet en destenn orin]
+contribution-background-noise-title = Trouz foñs
+contribution-background-noise-example-2-explanation = [N’hall ket bezañ klevet ul lodenn eus an destenn]
+contribution-background-voices-title = Mouezhioù er foñs
 contribution-volume-title = Live-son
 contribution-reader-effects-title = Efedoù al lenner
 contribution-just-unsure-title = Etre daou soñj?
@@ -1112,16 +1160,27 @@ sc-logout-button = Digevreañ
 
 ## HOME
 
+sc-home-collect-title = Dastum frazennoù
+sc-home-review-title = Gwiriañ frazennoù
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Penaos
+sc-howto-addsen-title = Ouzhpennañ frazennoù nevez
+sc-howto-review-title = Gwiriañ Frazennoù
 
 ## MY SENTENCES
 
+sc-my-title = Ma Frazennoù
+sc-my-no-sentences = Frazenn ebet kavet!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Mammenn: { $source }
 sc-my-delete = Dilemel ar frazenn diuzet
+sc-my-deleting = O tilemel ar frazennoù diuzet…
 
 ## REJECTED
 
@@ -1133,10 +1192,16 @@ sc-stats-updating = Oc'h hizivaat…
 
 ## ADD
 
+sc-submit-err-select-lang = Diuzit ur yezh mar plij.
+sc-submit-err-add-sentences = Ouzhpennit frazennoù mar plij.
+sc-submit-err-add-source = Ouzhpennit ur vammenn mar plij.
+sc-submit-title = Ouzhpennañ Frazennoù
 sc-submit-select-language =
     .labelText = Diuzañ ur yezh
+sc-submit-add-sentences = Ouzhpennañ frazennoù a zo en <wikipediaLink>domani foran</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Ur frazenn dre linenn
+sc-submit-from-where = Eus pelec’h e teu ar frazennoù-mañ eus an <wikipediaLink>domani foran</wikipediaLink>?
 sc-submit-button =
     .submitText = Kas
 
@@ -1146,26 +1211,68 @@ sc-add-lang-sec-button = Ouzhpennañ ur yezh
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Kadarnaat ar frazennoù nevez
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Frazenn ebet kavet.
+        [one] 1 frazenn kavet.
+        [two] { $countOfSentences } frazenn kavet.
+        [few] { $countOfSentences } frazenn kavet.
+        [many] { $countOfSentences } frazenn kavet.
+       *[other] { $countOfSentences } frazenn kavet.
+    }
 sc-confirm-button-text = Kadarnaat
 
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Hollad
 sc-lang-info-title-personal = Personel
+sc-lang-info-review-now = <reviewLink>Gwiriit bremañ!</reviewLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Frazenn gwiriet ebet.
+        [one] 1 frazenn gwiriet.
+        [two] { $validatedSentences } frazenn gwiriet.
+        [few] { $validatedSentences } frazenn gwiriet.
+        [many] { $validatedSentences } frazenn gwiriet.
+       *[other] { $validatedSentences } frazenn gwiriet.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = C'hwitadenn war ar c'hennask
+sc-login-err-try-again = Klaskit en-dro mar plij.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-remove = Ne c’haller ket lemel ar yezh
 sc-personal-your-languages = Ho yezhoù:
 sc-personal-remove-button = dilemel
+sc-personal-not-added = N’ho peus ouzhpennet yezh ebet c’hoazh.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Kriterioù ar gwiriañ
+sc-criteria-title = Kriterioù ar gwiriañ
+sc-criteria-make-sure = Bezit sur e klot ar frazenn gant ar c'hriterioù da-heul:
+sc-criteria-item-1 = Ar frazenn a rank bezañ distaget en un doare reizh.
+sc-criteria-item-2 = Ar frazenn a rank bezañ reizh a-fet yezhadur.
+sc-criteria-item-3 = Ar frazenn a rank bezañ aes da zistagañ.
 
 ## REVIEW
 
+sc-review-title = Gwiriañ Frazennoù
+sc-review-loading = O kargañ frazennoù…
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Mammenn: { $sentenceSource }
 sc-review-form-button-reject = Nac'hañ
 sc-review-form-button-skip = Tremen
 sc-review-form-button-approve = Aprouiñ
@@ -1180,9 +1287,15 @@ sc-review-link = Gwiriañ
 ## SETTINGS
 
 sc-settings-title = Arventennoù
+sc-settings-ui-language = Yezh an etrefas
 
 # [/SentenceCollector]
 
+# PARTNERSHIPS PAGE
+partnerships-header = Kevelerezhioù
+partnerships-get-in-touch = Mont e darempred
+partnerships-become-a-partner = Dont da vezañ keveler da gCommon Voice
+partnerships-governments-header = Gouarnamantoù
 partnerships-our-partners = Hor c'hevelerien
 why-donate = Perak e c'houlennit eta?
 add-information-button = Ouzhpennañ titouroù
@@ -1190,3 +1303,60 @@ continue-speaking-button = Nann avat, kenderc'hel da gomz
 create-profile-button = Krouiñ ur profil
 # IMAGE TAGS
 img-alt-success-checkmark = merk kochañ berzh
+# GUIDELINES PAGE
+guidelines-header = Sturiadurioù ar c'hemer-perzh
+voice-collection = Dastumad mouezhioù
+sentence-collection = Dastumadeg frazennoù
+misreadings = Fazioù lenn
+background-noise = Trouz foñs
+background-voices = Mouezhioù er foñs
+volume = Live-son
+reader-effects = Efedoù al lenner
+just-unsure = Etre daou soñj?
+example = Skouer
+misreadings-tip-1 = [Rankout a rafe bezañ “Ni ’zo”]
+misreadings-tip-2 = [N‘eus ‘a’ ebet en destenn orin]
+background-noise-example-1 = An dinosaored ramzel eus an Triaseg.
+background-noise-example-3 = An dinosaor ramzel [paz] an Triaseg.
+background-voices-tip-1 = Dont a rez? [galvet gant ur vouezh all]
+still-have-questions = Goulennoù ho peus c’hoazh?
+contact-common-voice = Mont e darempred gant skipailh Common Voice
+public-domain = Domani Foran
+adding-sentences = Ouzhpennañ Frazennoù
+reviewing-sentences = Gwiriañ Frazennoù
+citing-sentences-subheader-websites = Lec'hiennoù
+citing-sentences-subheader-offline-sources = Mammennoù ezlinenn
+adding-sentences-subheader-length = Hirded
+adding-sentences-subheader-speakable = Aes da zistagañ
+adding-sentences-subheader-numbers = Niverennoù
+adding-sentences-subheader-punctuation = Poentadur
+
+## WRITE PAGE
+
+sentence =
+    .label = Frazenn
+citation-input-value = Mammenn ho frazenn
+new-sentence-rule-2 = Nebeutoc’h eget 15 ger
+new-sentence-rule-6 = Lizherenn estren ebet
+guidelines = Sturiadurioù
+contact-us = Mont e darempred
+add-sentence-success = 1 frazenn bet dastumet
+add-sentence-error = Fazi en ur ouzhpennañ frazennoù
+required-field = Leugnit ar maez-mañ, mar plij.
+
+## REVIEW PAGE
+
+report-sc-different-language = Yezh disheñvel
+
+## BULK SUBMISSION 
+
+try-upload-again-md = Klaskit pellgas adarre
+select-file = Diuzañ ar restr
+select-file-mobile = Diuzit ar restr da bellgas
+accepted-files = Doare restr degemeret: .tsv hepken
+upload-progress-text = O pellgas...
+upload-more-btn-text = Pellgas muioc'h a frazennoù?
+file-invalid-type = Restr direizh
+file-too-large = Re vras eo ar restr
+file-too-small = Re vihan eo ar restr
+too-many-files = Re a restroù a zo

@@ -1,6 +1,6 @@
 ## Languages
 
-contribute = ኣበርክት
+contribute = ኣበርክቶ
 get-involved-button = ተሳተፍ
 get-involved-title = ናብ { $lang } ኣበርክት
 get-involved-text = ኣብ { $lang } ኣበርክቶ ኽትገብሩ ስለ ዘሓረኹሞ ተገደስነት ነመስግን። ኩሉ ቛንቛታት ንኽኣቱ ኣበርቲዕና ንዓዪ ኢና። ነተን ጕጅለታት ድማ ብኢመይል እዋናዊ ሓበሬታ በብእዋኑ ነመሓላልፈለን ኢና። ክትሕግዝ እንተ ደሊኻ፡ ብኽብረትካ ኢመይልካ ኣብ ታሕቲ ሃብ።

@@ -8,6 +8,8 @@ import {
   useNativeNameAvailableLocales,
 } from '../locale-helpers';
 import VisuallyHidden from '../visually-hidden/visually-hidden';
+import { AbortContributionModalStatus } from '../../stores/abort-contribution-modal';
+import { useAbortContributionModal } from '../../hooks/store-hooks';
 
 import './localization-select.css';
 
@@ -24,6 +26,7 @@ function getLocaleWithName(locale: string) {
 const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
   const availableLocales = useAvailableLocales();
   const availableLocalesWithNames = useNativeNameAvailableLocales();
+  const { abortStatus } = useAbortContributionModal();
   const localWithName = getLocaleWithName(locale);
   const initialSelectedItem = localWithName
     ? localWithName.code
@@ -31,7 +34,7 @@ const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
   const items = availableLocalesWithNames.map(locale => locale.code);
 
   function onSelectedItemChange({ selectedItem }: { selectedItem: string }) {
-    if (selectedItem) {
+    if (selectedItem && selectedItem !== locale) {
       onLocaleChange(selectedItem);
     }
   }
@@ -43,7 +46,16 @@ const LocalizationSelectComplex = ({ locale, onLocaleChange }: Props) => {
     getMenuProps,
     highlightedIndex,
     getItemProps,
+    selectItem,
   } = useSelect({ items, initialSelectedItem, onSelectedItemChange });
+
+  React.useEffect(() => {
+    // if the user does not choose to switch in the abort modal
+    // set the locale as the selected item
+    if (abortStatus === AbortContributionModalStatus.REJECTED) {
+      selectItem(locale);
+    }
+  }, [abortStatus]);
 
   // don't show select if we dont have multiple locales
   if (items.length <= 1) {
