@@ -408,8 +408,12 @@ native-language =
 profile-form-add-accent = Adicionar novo sotaque personalizado "{ $inputValue }"
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvo
-male = Masculino
-female = Feminino
+male_masculine = Homem/Masculino
+female_feminine = Mulher/Feminino
+intersex = Intersexo
+transgender = Transgênero
+non-binary = Não binário
+do_not_wish_to_say = Não quero dizer
 # Gender
 other = Outro
 why-profile-title = Por que um perfil?
@@ -445,6 +449,8 @@ help-accent = Precisa de ajuda com sotaque?
 help-accent-explanation = Seu sotaque é a maneira como você pronuncia as palavras. Ele pode ser moldado de acordo com o local onde você viveu, os outros idiomas que você fala e muitos outros fatores. Você pode compartilhar qualquer informação que considere relevante aqui.
 help-variants = Precisa de ajuda com variantes?
 help-variants-explanation = Variante é uma forma específica de um idioma. Por exemplo, compartilhada por quem vive em uma área geográfica ou comunidade. Às vezes, é chamada de dialeto.
+help-sex-or-gender-changes = Precisa de ajuda com as mudanças de sexo ou gênero?
+help-sex-or-gender-changes-explanation = Estamos oferecendo mais opções para dar às pessoas mais escolhas sobre o que nos contam sobre seu sexo ou identidade de gênero. Descreva a si mesmo da maneira que sentir mais natural para você. <learnMoreLink>Saiba mais sobre nossa abordagem em relação a sexo e gênero.</learnMoreLink>
 
 ## Profile - Email
 
@@ -757,7 +763,6 @@ number-of-voices = Número de vozes
 splits = Divisões
 email-to-download = Informe um email para baixar
 why-email = <b>Por que um email?</b> Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados. Um email nos fornece um meio de contato.
-why-donate = Por que pergunta?
 confirm-size = Está preparado para iniciar um download de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -1698,7 +1703,9 @@ reviewing-sentences-explanation-1 = Se a frase atender aos critérios acima, cli
 reviewing-sentences-explanation-2 = Se a frase não atender aos critérios acima, clique no botão "Não".
 reviewing-sentences-explanation-3 = Se não tiver certeza sobre a frase, você também pode ignorar e passar para a próxima.
 reviewing-sentences-explanation-4 = Se não tiver mais frases para revisar, ajude-nos a coletar mais frases!
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = Adicionar <icon></icon> uma frase de domínio público
 write-page-subtitle = As frases contribuídas aqui são adicionadas a um conjunto de dados disponível publicamente de licença cc-0.
 sentence =
