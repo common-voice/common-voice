@@ -708,6 +708,12 @@ about-playbook-how-project-governance-content-5 = Value and recognition.
 about-playbook-how-project-governance-content-6 = Mutual accountability.
 about-playbook-how-project-governance-content-7 = <governanceLink>Read more about how we're governed</governanceLink>
 
+## How is Common Voice funded
+about-playbook-how-funded = How is Common Voice funded?
+about-playbook-how-funded-content-1 = Common Voice is a project of the Mozilla Foundation, a US 501c3. The project is currently funded entirely by <philantropicGrantLink>philanthropic grants</philantropicGrantLink>, and donations from people around the world.
+about-playbook-how-funded-content-2 = It costs a lot of money to continually host and release the datasets, improve the platform and run <africaMradiLink>community programmes</africaMradiLink>.
+about-playbook-how-funded-content-3 = If you or your organisation would like to contribute back to the project, you can make a <donateLink>donation</donateLink> or reach out to our partnerships team on <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 glossary = Glossary
 localization = Localization
