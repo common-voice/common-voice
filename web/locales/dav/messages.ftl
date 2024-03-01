@@ -603,8 +603,8 @@ about-playbook-how-localize-content-5 = Kupata w'utesia, zighana video yedu yeel
 ## How to add sentences
 
 about-playbook-how-add-sentences = Nichuria sentensi w'ada?
-about-playbook-how-add-sentences-content-1 = Kwadima kuchuria sentensi aja kwa <writePageLink>Peji Yeandika</writePageLink> angu kuzoze sentensi aja kwa <reviewPageLink>Peji yezoza</reviewPageLink>.
-about-playbook-how-add-sentences-content-2 = Sentensi kungirwa Common Voice, suti rizozo na kurumirilwa ni w'andu w'aw'i. Masharti gha kiteto chenyu mwaboisira <languageGuidelinesLink>aha</languageGuidelinesLink>. Sentensi suti rikaie <licenseLink>ra w'andu w'ose</licenseLink> na rikaie vui risevike malagho 15. Kwadima kulomba mwandiki waro uribonye <waiverLink>CC0 kunughia chia yedu einja vighirio</waiverLink>, nao kudidumie aja commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-1 = Kwadima kuchuria sentensi aja kwa <writePageLink>Peji Yeandika</writePageLink> angu kuidirie sentensi aja kwa <reviewPageLink>Peji Yeidiria</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Sentensi kungirwa Common Voice, suti riidirilo na kurumirilwa ni w'andu w'aw'i. Masharti gha kiteto chenyu mwaboisira <languageGuidelinesLink>aha</languageGuidelinesLink>. Sentensi suti rikaie <licenseLink>ra w'andu w'ose</licenseLink> na rikaie vui risevike malagho 15. Kwadima kulomba mwandiki waro uribonye <waiverLink>CC0 kunughia chia yedu einja vighirio</waiverLink>, nao kudidumie aja commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Kwadima kutumia<scraperLink>Kiburua sentensi</scraperLink> eri kupate sentensi vui kufuma kwa Wikipedia.
 
 ## How to record quality
@@ -699,8 +699,8 @@ review-terms = Kwa kutumia Common Voice, kwarumiriana na <termsLink> Tamzi <term
 terms-agree = Narumiria
 terms-disagree = Sirumirie
 review-aborted = Kupakia kwadufunuka. Kwakunde kufute rija kwarekodi?
-review-submit-title = Sikiria na Kueghenje
-review-submit-msg = Chaw'ucha kwa kurekodi <lineBreak></lineBreak> Danu sikiria nao kughenje vlipu vako aha naisi.
+review-submit-title = Kusikiria na Kughenja
+review-submit-msg = Chaw'ucha kwa kurekodi <lineBreak></lineBreak> Danu sikiria nao kughenje vlipu vako kwa kufwada kifado cheghenja aho naisi.
 review-recording = Sikiria
 review-rerecord = Rekodi sena
 review-cancel = Tana na kupakia
@@ -853,7 +853,7 @@ action-tap = Adada
 contribute = Changa
 listen = Sikiria
 write = Andika
-review = Zoza
+review = Idiria
 skip = Rama
 shortcuts = Chia vui
 clips-with-count-pluralized =
@@ -884,10 +884,10 @@ record-three-more-instruction = Idadu na kwameria!
 record-again-instruction = Nicha! <recordIcon></recordIcon> Rekodi klipu chinughiagha
 record-again-instruction2 = Kwabonya nicha, rekodi sena <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Cha mwisho!
-review-tooltip = Sikiria na kurekodi vlipu sena ekuendeliagha
+review-tooltip = Sikiria na kuw'urie kurekodi vlipu sena ekuendeliagha
 share-clip = W'aghia klipu
 share-common-voice = W'aghia Common Voice
-review-instruction = Sikiria nao kuw'urie kurekodi vlipu sena iji visefwane
+review-instruction = Sikiria nao kuw'urie kurekodi vlipu sena iji yakundika
 record-submit-tooltip = { $actionType } Enja kukakaia tayari
 clips-uploaded = Vlipu vajoswa
 record-abort-title = Kumerie kurekodi imbiri?
