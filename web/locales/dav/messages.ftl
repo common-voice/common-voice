@@ -1267,6 +1267,14 @@ sc-confirm-unreviewed = Sentensi { $countOfUnreviewed } nderizighaniro. Kaw'ona 
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ndekune sentensi rezighana.
+        [one] Sentensi 1 ezighana.
+       *[other] Sentensi { $totalInReview } raw'iazighanwa.
+    }
 
 ## LOGIN
 
