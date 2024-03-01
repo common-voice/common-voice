@@ -1215,7 +1215,7 @@ sc-logout-button = Kufuma
 sc-home-title = Ngia kwa matumbanyo gha Common Voice
 sc-home-collect-title = Kutumbanya sentensi
 sc-home-review-title = Zighana sentensi ngera raboie
-sc-home-review-text = Ditesie kuw'uria maandiko agha Kwa kughirekebisha karakara na mawonyero
+sc-home-review-text = Ditesie kukagua iri sentensi ngera ranughie maw'onyero.
 
 ## GENERAL
 
@@ -1230,8 +1230,8 @@ sc-howto-review-subtitle = Hakikisha iyo sentensi yakatisha chia rifwane
 sc-howto-review-criteria-1 = Iyo sentensi lazima  iandikike nicha
 sc-howto-review-criteria-2 = Iyo sentensi lazima iandikike mbari nicha
 sc-howto-review-criteria-3 = Sentensi lazima ikaie yawadedeka
-sc-howto-review-criteria-4 = Kawona iyo sentensi yakatisha chia rifwane vada icho kifado
-sc-howto-review-criteria-6 = Kapungukilwa ni kuidiria sentensi nalomba kuditesie kukusanya sentensi nyingi angu rikate
+sc-howto-review-criteria-4 = Kaw'ona iyo sentensi yako nicha, vada kifado cha "Rumiria"
+sc-howto-review-criteria-6 = Kukasirilwa ni sentensi reidiria, dalomba kuditesie kutumbanya sentensi rimu!
 sc-howto-findpd-tips = Aha reko chia re Pata sentensi
 sc-howto-findpd-tips-3 = Kwa bahati bado ndediwadie  maandiko gha Wikipedia. Kwa huwo kusenughira agho maandiko.
 sc-howto-findpd-subtitle-2 = Kuwadana na mashirika ga ndenyi ama wadu wieka/wadu binafsi.
