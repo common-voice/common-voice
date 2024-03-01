@@ -52,6 +52,11 @@ jest.mock('../../../hooks/store-hooks', () => ({
       fetchLanguageStats: mockFetchLanguageStats,
     };
   },
+  useDonateBanner: () => {
+    return {
+      color: 'pink',
+    };
+  },
 }));
 
 describe('LanguagesRequestFormPage', () => {
