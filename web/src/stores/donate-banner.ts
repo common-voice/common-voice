@@ -32,7 +32,7 @@ const INITIAL_STATE: DonateBannerState = {
   colour: null,
 }
 
-export function donateBannerColourReducer(
+export function donateBannerReducer(
   state: DonateBannerState = INITIAL_STATE,
   action: DonateBannerAction
 ) {

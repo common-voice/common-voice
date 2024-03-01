@@ -17,7 +17,7 @@ import {
   AbortContributionModalAction,
   abortContributionModalReducer,
 } from './abort-contribution-modal';
-import { DonateBannerAction, donateBannerColourReducer } from './donate-banner';
+import { DonateBannerAction, donateBannerReducer } from './donate-banner';
 
 export const USER_KEY = 'userdata';
 
@@ -90,7 +90,7 @@ export function reducers(
       abortContributionModal,
       action as AbortContributionModalAction
     ),
-    donateBanner: donateBannerColourReducer(
+    donateBanner: donateBannerReducer(
       donateBanner,
       action as DonateBannerAction
     ),
