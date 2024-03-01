@@ -1,6 +1,8 @@
 import React from 'react'
 import { Localized } from '@fluent/react'
 
+import { COMMON_VOICE_EMAIL } from '../../../../constants'
+
 const HowFunded = () => (
   <>
     <Localized
@@ -35,7 +37,7 @@ const HowFunded = () => (
         donateLink: <a href="?form=FUNUAFTPPYR" />,
         emailFragment: (
           <a
-            href="mailto:commonvoice@mozilla.com"
+            href={`mailto:${COMMON_VOICE_EMAIL}`}
             target="_blank"
             rel="noreferrer"
           />
