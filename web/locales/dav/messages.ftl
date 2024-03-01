@@ -1225,12 +1225,13 @@ sc-home-review-text = Ditesie kukagua iri sentensi ngera reko nicha kunighiana n
 sc-howto-title = Seji ku
 sc-howto-addlang-title = Kuchuria kiteto kubonya nacho
 sc-howto-addsen-title = Churia sentensi mbishi
-sc-howto-review-title = Kuidiria Sentensi
-sc-howto-review-subtitle = Hakikisha iyo sentensi yakatisha chia rifwane
-sc-howto-review-criteria-1 = Iyo sentensi lazima  iandikike nicha
-sc-howto-review-criteria-2 = Iyo sentensi lazima iandikike mbari nicha
-sc-howto-review-criteria-3 = Sentensi lazima ikaie yawadedeka
-sc-howto-review-criteria-4 = Kaw'ona iyo sentensi yako nicha, vada kifado cha "Rumiria"
+sc-howto-review-title = Idiria Sentensi
+sc-howto-review-subtitle = Hakikisha iyo sentensi yakatisha agha ghikundikie:
+sc-howto-review-criteria-1 = Iyo sentensi suti iandiko nicha.
+sc-howto-review-criteria-2 = Iyo sentensi suti ikaie ni ya Kidaw'ida tiki.
+sc-howto-review-criteria-3 = Sentensi suti idime kudedeka.
+sc-howto-review-criteria-4 = Kaw'ona iyo sentensi yeko nicha, vada kifado cha "Rumiria"
+sc-howto-review-criteria-5 = Kaw'ona sentensi ndeiindane na seji daghora aha naighu, fwada kifunguo cha "Kuleghga." Kaw'ona koka na ngera ngera aighu ya iyo sentensi, kwadima kuirama kuende kwa ija yanughiria.
 sc-howto-review-criteria-6 = Kukasirilwa ni sentensi reidiria, dalomba kuditesie kutumbanya sentensi rimu!
 sc-howto-findpd-tips = Aha reko chia re Pata sentensi
 sc-howto-findpd-tips-3 = Kwa bahati bado ndediwadie  maandiko gha Wikipedia. Kwa huwo kusenughira agho maandiko.
@@ -1254,6 +1255,15 @@ sc-my-title = Sentensi Rapo
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ndekune sentensi kwameria kuizighana.
+        [one] sentensi 1 kwameria kuzighana. Kazi iboie!
+       *[other] sentensi { $countOfReviewed } rameria kuzighanwa. Kazi iboie!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = Sentensi { $countOfUnreviewed } nderizighaniro. Kaw'ona kwakunde, kwadima kuzighana sentensi rako idakoni imbiri kuserienjere.
 
 ## LANGUAGE INFO
 
