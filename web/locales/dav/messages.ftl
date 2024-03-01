@@ -699,9 +699,9 @@ review-terms = Kwa kutumia Common Voice, kwarumiriana na <termsLink> Tamzi <term
 terms-agree = Narumiria
 terms-disagree = Sirumirie
 review-aborted = Kupakia kwadufunuka. Kwakunde kufute rija kwarekodi?
-review-submit-title = Sikiria na Kuenje
-review-submit-msg = Chaw'ucha kwa kurekodi <lineBreak></lineBreak> Danu w'uria nao kupakie vlipu vako aha naisi.
-review-recording = Zighana ngera yaboie
+review-submit-title = Sikiria na Kueghenje
+review-submit-msg = Chaw'ucha kwa kurekodi <lineBreak></lineBreak> Danu sikiria nao kughenje vlipu vako aha naisi.
+review-recording = Sikiria
 review-rerecord = Rekodi sena
 review-cancel = Tana na kupakia
 review-keep-recordings = W'ika rija klipu kwarekodi
@@ -884,10 +884,10 @@ record-three-more-instruction = Idadu na kwameria!
 record-again-instruction = Nicha! <recordIcon></recordIcon> Rekodi klipu chinughiagha
 record-again-instruction2 = Kwabonya nicha, rekodi sena <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Cha mwisho!
-review-tooltip = W'uria & kurekodi vlipu sena ekuendeliagha
+review-tooltip = Sikiria na kurekodi vlipu sena ekuendeliagha
 share-clip = W'aghia klipu
 share-common-voice = W'aghia Common Voice
-review-instruction = W'uria & kurekodi vlipu sena iji ifwane
+review-instruction = Sikiria nao kuw'urie kurekodi vlipu sena iji visefwane
 record-submit-tooltip = { $actionType } Enja kukakaia tayari
 clips-uploaded = Vlipu vajoswa
 record-abort-title = Kumerie kurekodi imbiri?
@@ -1214,7 +1214,7 @@ sc-logout-button = Kufuma
 
 sc-home-title = Ngia kwa matumbanyo gha Common Voice
 sc-home-collect-title = Kutumbanya sentensi
-sc-home-review-title = Kuw'uria sentensi
+sc-home-review-title = Zighana sentensi ngera raboie
 sc-home-review-text = Ditesie kuw'uria maandiko agha Kwa kughirekebisha karakara na mawonyero
 
 ## GENERAL
