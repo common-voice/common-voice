@@ -763,6 +763,7 @@ number-of-voices = Número de vozes
 splits = Divisões
 email-to-download = Informe um email para baixar
 why-email = <b>Por que um email?</b> Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados. Um email nos fornece um meio de contato.
+why-donate-datasets-page = O Mozilla Common Voice é o conjunto de dados de voz aberto de colaboração pública mais diversificado do mundo e é mantido inteiramente por doações. Custa quase um milhão de dólares por ano hospedar os conjuntos de dados e melhorar a plataforma para as mais de 100 comunidades de idiomas que dependem do que fazemos. Se você valoriza dados abertos e inclusivos, <b>faça uma doação!</b>
 confirm-size = Está preparado para iniciar um download de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
