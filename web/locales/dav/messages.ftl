@@ -1121,7 +1121,7 @@ demo-account-sign-up = Duma mtumalio ghongia
 ## Demo Contribute
 
 demo-contribute-card-header = Kwavikia kufunya lwaka lwako angu kufunya kudu kusikirie?
-demo-contribute-card-body-v2 = Danu angu kwamanya kutineri aighu ya Common Voice, kwaki kuseitimagha? Fwada aikoni ya maikrofoni kuzoya kushoma sentensi nandighi.<br/><br/>Kaw'ona kokunda kusikiria chwaka ra w'andu w'azima, fwada aikoni esikiria. Oho kwatesia kuisa ngera rekodi raindane the sentensi riandikilo kwa skrini.
+demo-contribute-card-body-v2 = Danu angu kwamanya kutineri aighu ya Common Voice, kwaki kuseitimagha? Fwada aikoni ya maikrofoni kuzoya kushoma sentensi nandighi.<br/><br/>Kaw'ona kokunda kuidiria michango ya chwaka ra w'andu w'azima, fwada aikoni esikiria. Kwatesia kungira tiki rija sentensi rashomelo seji koni riandikilo.
 demo-listen-subtitle = Kwalighisa kuzoya kuchanga?
 
 ## Demo Dashboard
@@ -1195,7 +1195,7 @@ see-less = <chevron></chevron>W'ona kutini
 sc-header-home = Mzinyi
 sc-header-how-to = Seji-ku
 sc-header-add = Churia
-sc-header-review = Zoza
+sc-header-review = Idiria
 sc-header-rejected = Sentensi Rileghelo
 sc-header-my = Sentensi Rapo
 sc-header-statistics = Mitalo
@@ -1214,8 +1214,8 @@ sc-logout-button = Kufuma
 
 sc-home-title = Ngia kwa matumbanyo gha Common Voice
 sc-home-collect-title = Kutumbanya sentensi
-sc-home-review-title = Zighana sentensi ngera raboie
-sc-home-review-text = Ditesie kukagua iri sentensi ngera ranughie maw'onyero.
+sc-home-review-title = Idiria sentensi
+sc-home-review-text = Ditesie kukagua iri sentensi ngera reko nicha kunighiana na maw'onyero.
 
 ## GENERAL
 
@@ -1225,7 +1225,7 @@ sc-home-review-text = Ditesie kukagua iri sentensi ngera ranughie maw'onyero.
 sc-howto-title = Seji ku
 sc-howto-addlang-title = Kuchuria kiteto kubonya nacho
 sc-howto-addsen-title = Churia sentensi mbishi
-sc-howto-review-title = Kuzoza Sentensi
+sc-howto-review-title = Kuidiria Sentensi
 sc-howto-review-subtitle = Hakikisha iyo sentensi yakatisha chia rifwane
 sc-howto-review-criteria-1 = Iyo sentensi lazima  iandikike nicha
 sc-howto-review-criteria-2 = Iyo sentensi lazima iandikike mbari nicha
