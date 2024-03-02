@@ -801,6 +801,8 @@ no-information-available = Мәгълүмат юк
 dataset-metadata-sex = Җенес
 # dataset metadata - age of contributor
 dataset-metadata-age = Яшь
+donate-modal-message = Мәгълүмат тупланмагыз иңдерелә!
+dataset-donate-modal-heading = Беләсезме…
 
 ## Download Modal
 
