@@ -450,6 +450,7 @@ help-accent-explanation = O acento é a forma en que pronuncia as palabras. Pode
 help-variants = Necesita axuda coas variedades?
 help-variants-explanation = As variedades son formas específicas dunha lingua. Por exemplo, unha variedade é a que comparten as persoas que viven nunha determinada zona xeográfica ou comunidade. Ás veces estas chámanse dialectos.
 help-sex-or-gender-changes = Necesita axuda cos cambios de sexo ou xénero?
+help-sex-or-gender-changes-explanation = Estamos ofrecendo máis opcións para darlle máis opcións á xente no que nos di sobre o seu sexo ou identidade de xénero. Por favor, autodescríbase da forma que lle pareza máis natural. <learnMoreLink>Obteña máis información sobre o noso enfoque do sexo e o xénero.</learnMoreLink>
 
 ## Profile - Email
 
@@ -762,6 +763,7 @@ number-of-voices = Número de voces
 splits = Subconxuntos
 email-to-download = Escriba o enderezo de correo para descargar
 why-email = <b>Por que un enderezo de correo?</b> É posible que precisemos poñernos en contacto con vostede no futuro para trasladarlle posibles cambios no conxunto de datos.
+why-donate-datasets-page = Mozilla Common Voice é o conxunto de datos de voz aberto de colaboración pública máis diversificado do mundo e é mantido enteiramente por doazóns. Custa case un millón de dólares ao ano aloxar os conxuntos de datos e mellorar a plataforma para as máis de 100 comunidades de idiomas que dependen do que facemos. Se valora os datos abertos e inclusivos, <b>faga unha doazón!</b>
 confirm-size = Estou preparado para iniciar unha descarga de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -808,6 +810,7 @@ dataset-metadata-sex = Xénero
 dataset-metadata-age = Idade
 donate-modal-message = O seu conxunto de datos estase descargando!
 dataset-donate-modal-heading = Sabía…
+donate-modal-explanation-1 = Custa case un millón de dólares ao ano aloxar os conxuntos de datos e mellorar a plataforma para as máis de 100 comunidades lingüísticas que confían no que facemos?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = { "" }
 
@@ -1762,6 +1765,7 @@ reviewing-sentences-explanation-1 = Se a frase cumpre os criterios anteriores, p
 reviewing-sentences-explanation-2 = Se a frase non cumpre os criterios anteriores, prema no botón "Non".
 reviewing-sentences-explanation-3 = Se ten dúbidas sobre a frase, pode omitila e pasar á seguinte.
 reviewing-sentences-explanation-4 = Se xa non quedan frases para revisar, axúdenos a recoller máis!
+domain-explanation = O dominio refírese ao asunto da oración. Actualmente, pode escoller entre:
 
 ## WRITE PAGE
 
@@ -1795,6 +1799,8 @@ single-sentence-submission = Envío dunha única frase
 bulk-sentence-submission = Envío masivo de frases
 single-sentence = Frase única
 bulk-sentences = Grupo de frases
+sentence-domain-select =
+    .label = Dominio da oración
 # Sentence Domain dropdown option
 agriculture = Agricultura
 # Sentence Domain dropdown option
