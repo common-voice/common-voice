@@ -76,12 +76,14 @@ ff = ful
 fi = finès
 fo = feroès
 fr = francès
+fuf = ful de Guinea
 fy-NL = frisó
 ga-IE = irlandès
 gl = gallec
 gn = guaraní
 gom = konkani
 gu-IN = gujarati
+guc = wayuunaiki
 ha = haussa
 he = hebreu
 hi = hindi
@@ -124,6 +126,7 @@ lo = laosià
 lt = lituà
 ltg = Latgalià
 lv = letó
+lzz = laz
 mai = maithili
 mdf = mokxa
 mg = malgaix
@@ -757,7 +760,7 @@ number-of-voices = Nombre de veus
 splits = Divisions
 email-to-download = Introduïu l'adreça electrònica per baixar
 why-email = <b>Per què una adreça electrònica?</b> És una forma de contacte en cas que ens haguéssim de posar en contacte en un futur per canvis en el conjunt de dades.
-why-donate-datasets-page = Mozilla Common Voice és el conjunt col·lectiu de dades de veu obertes més divers del món, i ens financem íntegrament amb donacions. Costa gairebé un milió de dòlars l'any allotjar els conjunts de dades i millorar la plataforma per a les més de 100 comunitats lingüístiques que depenen del que fem. Si valoreu les dades obertes i inclusives, <b>feu un donatiu avui!</b>
+why-donate-datasets-page = Mozilla Common Voice és el conjunt col·lectiu de dades de veu obertes més divers del món, i ens financem íntegrament amb donatius. Costa gairebé un milió de dòlars l'any allotjar els conjunts de dades i millorar la plataforma per a les més de 100 comunitats lingüístiques que depenen del que fem. Si valoreu les dades obertes i inclusives, <b>feu un donatiu avui!</b>
 confirm-size = Estic preparat per a iniciar una baixada de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -804,6 +807,9 @@ dataset-metadata-sex = Gènere
 dataset-metadata-age = Edat
 donate-modal-message = El conjunt de dades s'està baixant!
 dataset-donate-modal-heading = Sabíeu que...
+donate-modal-explanation-1 = Costa gairebé un milió de dòlars a l'any allotjar els conjunts de dades i millorar la plataforma per a les més de 100 comunitats lingüístiques que depenen del que fem?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Si valoreu les dades obertes i inclusives, feu un donatiu avui!</bold>
 
 ## Download Modal
 
@@ -1670,6 +1676,7 @@ public-domain = Domini públic
 citing-sentences = Citació de frases
 adding-sentences = Addició de frases
 reviewing-sentences = Revisió de frases
+sentence-domain = Domini de les frases
 public-domain-explanation-1 = És molt important que totes les frases de text siguin <publicDomain>domini públic</publicDomain> (<cc0>cc0</cc0>), ja que el conjunt de dades de Common Voice es publica sota una llicència cc0. Pengeu una frase només si n'esteu segur i incloeu sempre la citació corresponent.
 public-domain-explanation-2 = Les millors frases per a construir un motor de reconeixement de veu útil són les de llenguatge col·loquial i modern. Algunes idees per a ajudar-vos a generar frases són;
 public-domain-explanation-3 = Creeu frases modernes i col·loquials per vosaltres mateixos o amb els vostres amics o comunitat lingüística, per exemple mitjançant una «marató d'escriptura»
@@ -1708,6 +1715,7 @@ reviewing-sentences-explanation-1 = Si la frase compleix els criteris anteriors,
 reviewing-sentences-explanation-2 = Si la frase no compleix els criteris anteriors, feu clic en el botó «No».
 reviewing-sentences-explanation-3 = Si no esteu segur de la frase, també podeu saltar-la i passar a la següent.
 reviewing-sentences-explanation-4 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
+domain-explanation = El domini fa referència a la temàtica de la frase. Actualment, podeu triar entre:
 
 ## WRITE PAGE
 
