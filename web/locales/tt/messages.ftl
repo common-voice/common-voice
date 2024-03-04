@@ -803,6 +803,8 @@ dataset-metadata-sex = Җенес
 dataset-metadata-age = Яшь
 donate-modal-message = Мәгълүмат тупланмагыз иңдерелә!
 dataset-donate-modal-heading = Беләсезме…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ачык, инклюзив мәгълүматның кадерен беләсез икән — бүген иганә итегез!</bold>
 
 ## Download Modal
 
