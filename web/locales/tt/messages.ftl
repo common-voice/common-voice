@@ -1416,6 +1416,8 @@ volume = Тавыш көче
 reader-effects = Укучы эффектлары
 public-domain = Иҗтимагый милектә
 citing-sentences-subheader-websites = Веб-сайтлар
+adding-sentences-subheader-length = Озынлык
+adding-sentences-subheader-length-explanation = Җөмлә 15 сүздән кыскарак булырга тиеш.
 
 ## WRITE PAGE
 
