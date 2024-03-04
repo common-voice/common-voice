@@ -163,6 +163,7 @@ ps = paixtú
 pt = portuguès
 quc = quitxé
 quy = quítxua chanka
+qvi = quítxua septentrional
 rm-sursilv = romanx (sobreselvà)
 rm-vallader = romanx engiadinès
 ro = romanès
@@ -214,7 +215,9 @@ uz = uzbek
 ve = tshivenda
 vec = vènet
 vi = vietnamita
+vmw = makhuwa
 vot = vòtic
+wep = westfalià
 wo = wòlof
 xh = xhosa
 yi = ídix
@@ -444,6 +447,7 @@ help-accent-explanation = L'accent és la forma com pronuncieu les paraules. Es 
 help-variants = Us cal ajuda amb les variants?
 help-variants-explanation = Les variants són formes específiques d'una llengua. Per exemple, compartides per persones que viuen en una zona geogràfica o comunitat. De vegades s'anomenen dialectes.
 help-sex-or-gender-changes = Us cal ajuda amb els canvis de gènere o sexe?
+help-sex-or-gender-changes-explanation = Oferim més a opcions a les persones perquè puguin més opcions on triar sobre el que ens diuen sobre el seu sexe o identitat de gènere. Si us plau, descriviu-vos de la manera que us sembli més natural. <learnMoreLink>Obteniu més informació sobre el nostre enfocament del sexe i el gènere.</learnMoreLink>
 
 ## Profile - Email
 
@@ -753,6 +757,7 @@ number-of-voices = Nombre de veus
 splits = Divisions
 email-to-download = Introduïu l'adreça electrònica per baixar
 why-email = <b>Per què una adreça electrònica?</b> És una forma de contacte en cas que ens haguéssim de posar en contacte en un futur per canvis en el conjunt de dades.
+why-donate-datasets-page = Mozilla Common Voice és el conjunt col·lectiu de dades de veu obertes més divers del món, i ens financem íntegrament amb donacions. Costa gairebé un milió de dòlars l'any allotjar els conjunts de dades i millorar la plataforma per a les més de 100 comunitats lingüístiques que depenen del que fem. Si valoreu les dades obertes i inclusives, <b>feu un donatiu avui!</b>
 confirm-size = Estic preparat per a iniciar una baixada de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
