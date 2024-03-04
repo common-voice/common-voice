@@ -1416,18 +1416,48 @@ volume = Тавыш көче
 reader-effects = Укучы эффектлары
 public-domain = Иҗтимагый милектә
 citing-sentences-subheader-websites = Веб-сайтлар
+citation =
+    .label = Цитата
 adding-sentences-subheader-length = Озынлык
 adding-sentences-subheader-length-explanation = Җөмлә 15 сүздән кыскарак булырга тиеш.
+adding-sentences-subheader-spelling-punctuation = Орфография һәм тыныш билгеләре
+adding-sentences-subheader-spelling-punctuation-explanation = Җөмләдә орфографик хаталар булмаска тиеш.
+adding-sentences-subheader-speakable = Кычкырып укып була
+adding-sentences-subheader-numbers = Саннар
+adding-sentences-subheader-special-characters = Махсус символлар һәм чит тел хәрефләре
 
 ## WRITE PAGE
 
+sentence =
+    .label = Җөмлә
+sentence-input-value = Иҗтимагый милектәге җөмләгезне монда языгыз
+citation-input-value = Җөмләгезнең чыганагы
+citation =
+    .label = Цитата
+sc-write-submit-confirm = Бу җөмләнең <wikipediaLink>иҗтимагый милектә</wikipediaLink> булуын раслыйм һәм аны йөкләргә рөхсәтем бар.
+sc-review-write-title = Мин нинди җөмләләр өсти алам?
 single-sentence-submission = Бер җөмлә җибәрү
 bulk-sentence-submission = Күп җөмлә җибәрү
 single-sentence = Бер җөмлә
 bulk-sentences = Күп җөмлә
+# Sentence Domain dropdown option
+finance = Финанслар
+# Sentence Domain dropdown option
+food_service_retail = Ашамлык, хезмәт һәм сәүдә
+# Sentence Domain dropdown option
+general = Гомуми
+# Sentence Domain dropdown option
+healthcare = Сәламәтлек саклау
+# Sentence Domain dropdown option
+history_law_government = Тарих, хокук һәм дәүләт идарәсе
 
 ## REVIEW PAGE
 
 
 ## BULK SUBMISSION 
 
+upload-progress-text = Йөкләү дәвам итә...
+file-invalid-type = Яраксыз файл
+file-too-large = Файл артык зур
+file-too-small = Файл артык кечкенә
+too-many-files = Артык күп файл
