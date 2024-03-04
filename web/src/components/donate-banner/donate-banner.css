@@ -13,19 +13,11 @@
     }
 
     &.bg-pink {
-        background-image: url('./assets/donate-banner-desktop-pink.png');
-
-        @media (--md-down) {
-            background-image: url('./assets/donate-banner-mobile-pink.png');
-        }
+        background-image: url('./assets/donate-banner-desktop-pink.svg');
     }
 
     &.bg-coral {
-        background-image: url('./assets/donate-banner-desktop-coral.png');
-
-        @media (--md-down) {
-            background-image: url('./assets/donate-banner-mobile-coral.png');
-        }
+        background-image: url('./assets/donate-banner-desktop-coral.svg');
     }
 
     .donate-cta {
