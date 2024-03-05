@@ -656,7 +656,7 @@ about-playbook-how-grow-language-content-8 = <strong>Иҗатыгызны ачы
 
 about-playbook-how-validate = Аудиоязманы кабул итәргәме, юкмы икәнен ничек аңлый алам?
 about-playbook-how-validate-content-1 = Әгәр <strong>аларны ишетә</strong> һәм <strong>аңлый алгансыз икән</strong>, гадәттә <strong>иң яхшысы — кабул итү</strong>.
-about-playbook-how-validate-content-2 = <strong>Сөйләүченең акценты Сезнекеннән аерылып торган аудиоязмаларны кире кагмагыз</strong>. Сөйләм тану һәркем өчен дә яхшырак эшләсен өчен бу аудиоязмалар мөһим.
+about-playbook-how-validate-content-2 = <strong>Сөйләүченең акценты Сезнекеннән аерылып торган аудиоязмаларны кире какмагыз</strong>. Сөйләм тану һәркем өчен дә яхшырак эшләсен өчен бу аудиоязмалар мөһим.
 about-playbook-how-validate-content-3 = Әгәр дә әйтелешне <strong>аңлау мөмкин түгел</strong> дип уйлыйсыз икән, яисә <strong>арткы планда шау-шу күп булса</strong>, яисә <strong>башка кешеләр дә сөйләшсә</strong>, клипны кире кагыгыз. <accuracyLink>Күбрәк мәгълүмат өчен төгәллек критерийларыбызны карагыз</accuracyLink>.
 about-playbook-how-validate-content-4 = Әгәр дә клип 2 кеше тарафыннан кире кагылса, ул мәгълүмат тупланмасының аерым бер өлешендә нәшер ителә.
 
@@ -1207,6 +1207,10 @@ contribution-for-example = мәсәлән
 contribution-misreadings-title = Дөрес укымаулар
 contribution-misreadings-description = Сез тыңлаган аудиоязманың текстка туры килүен бик игътибар белән тикшерегез. Кечкенә генә хаталар булса да, аудиоязманы кире кагасыз. <br />Бик еш очраучы хата мисаллары:
 contribution-misreadings-description-extended-list-1 = Аудиоязма башында сүз яки сүзнең бер өлешен төшереп калдыру. Мәсәлән, "сәлам" урынына "әләм" дип яздыру.
+contribution-misreadings-description-extended-list-5 = Бер үк сүзне берничә тапкыр укырга тырышу.
+contribution-misreadings-example-2-title = Бу балык базарда сатыла.
+contribution-misreadings-example-2-explanation = ["балыклар" булырга тиеш иде]
+contribution-misreadings-example-3-title = Бу балыклар базарда саты-.
 contribution-misreadings-example-8-explanation = [Туры килмәгән эчтәлек]
 contribution-varying-pronunciations-title = Төрле әйтелешләр
 contribution-background-noise-title = Арткы планда шау-шу
