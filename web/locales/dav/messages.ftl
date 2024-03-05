@@ -243,7 +243,7 @@ speak-now = Deda idakoni
 datasets = Mafungu gha data
 languages = Viteto
 about = Ni Kindoki
-partner = M'mbao
+partner = W'adana Nesi
 profile = Fwana
 help = W'utesia
 contact = Andu kovikilwa
@@ -1235,7 +1235,7 @@ sc-howto-review-criteria-5 = Kaw'ona sentensi ndeiindane na seji daghora aha nai
 sc-howto-review-criteria-6 = Kukasirilwa ni sentensi reidiria, dalomba kuditesie kutumbanya sentensi rimu!
 sc-howto-findpd-tips = Aha reko chia re Pata sentensi
 sc-howto-findpd-tips-3 = Kwa bahati bado ndediwadie  maandiko gha Wikipedia. Kwa huwo kusenughira agho maandiko.
-sc-howto-findpd-subtitle-2 = Kuwadana na mashirika ga ndenyi ama wadu wieka/wadu binafsi.
+sc-howto-findpd-subtitle-2 = Kuw'adana na mashirika gha kavui angu w'andu w'a kavui
 
 ## MY SENTENCES
 
