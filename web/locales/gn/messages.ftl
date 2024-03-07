@@ -1734,6 +1734,14 @@ sentence-domain-select =
     .label = Ñe’ẽjuaju rendatee
 # Sentence Domain dropdown option
 agriculture = Temitỹmby
+# Sentence Domain dropdown option
+automotive = Mba’yrumỹi
+# Sentence Domain dropdown option
+finance = Viruporukuaa
+# Sentence Domain dropdown option
+general = Tuichakue
+# Sentence Domain dropdown option
+healthcare = Tesãirãre ñema’ẽ
 
 ## REVIEW PAGE
 
