@@ -1320,27 +1320,146 @@ sc-howto-addsen-item-4 = Tegnsetting. Spesialsymboler og tegnsetting bør kun in
 sc-howto-cite-title = Hvordan sitere
 sc-howto-review-title = Gjennomgå setninger
 sc-howto-review-subtitle = Sørg for at setningen oppfyller følgende kriterier:
+sc-howto-review-criteria-1 = Setningen må staves riktig.
+sc-howto-review-criteria-2 = Setningen må være grammatisk korrekt.
+sc-howto-review-criteria-3 = Setningen må kunne tales.
+sc-howto-review-criteria-4 = Hvis setningen oppfyller kriteriene, klikker du på "Godkjenn"-knappen.
+sc-howto-review-criteria-5 = Hvis setningen ikke oppfyller kriteriene ovenfor, klikker du på "Avvis"-knappen. Hvis du er usikker på setningen, kan du også hoppe over den og gå videre til neste.
+sc-howto-review-criteria-6 = Hvis du går tom for setninger å vurdere, vennligst hjelp oss med å samle inn flere setninger!
+sc-howto-findpd-title = Finne eksisterende setninger som er offentlig eiendom
+sc-howto-findpd-subtitle = Søk etter dem på Internett
+sc-howto-findpd-tips = Her er noen tips for å finne setninger:
+sc-howto-findpd-tips-3 = Dessverre kan vi ikke ha Wikimedia-artikler ennå. Så ikke kopier derfra.
+sc-howto-findpd-subtitle-2 = Samarbeid med lokale organisasjoner eller enkeltpersoner
 
 ## MY SENTENCES
 
+sc-my-title = Mine setninger
+sc-my-loading = Laster inn setningene dine …
+sc-my-err-fetching = Feil under lasting av setningene dine. Vennligst prøv på nytt.
+sc-my-no-sentences = Ingen setninger funnet!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Innsending: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Kilde: { $source }
+sc-my-delete = Slett valgte setninger
+sc-my-deleting = Sletter valgte setninger …
+sc-my-err-failed-delete = Kunne ikke slette valgte setninger... Prøv igjen!
 
 ## REJECTED
 
+sc-rejected-title = Avviste setninger
+sc-rejected-loading = Laster inn avviste setninger …
+sc-rejected-err-fetching = Feil under henting av avviste setninger. Vennligst prøv på nytt.
+sc-rejected-none-found = Fant ingen avviste setninger!
 
 ## STATS
 
+sc-stats-title = Statistikk
+sc-stats-updating = Oppdaterer …
+sc-stats-error = Vi kunne ikke hente statistikken. Prøv igjen senere.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector har samlet { $sentenceCount } setninger på { $languageCount } språk!
 
 ## ADD
 
+sc-submit-err-select-lang = Vennligst velg et språk.
+sc-submit-err-add-sentences = Vennligst legg til setninger.
+sc-submit-err-add-source = Vennligst legg til en kilde.
+sc-submit-err-confirm-pd = Vennligst bekreft at disse setningene er offentlig eiendom.
+sc-submit-prompt =
+    .message = Setninger ikke sendt inn, er du sikker på at du vil forlate?
+sc-submit-title = Legg til setninger
+sc-submit-select-language =
+    .labelText = Velg språk
+sc-submit-add-sentences = Legg til setninger som er <wikipediaLink>offentlig eiendom</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = En setning per linje
+sc-submit-from-where = Hvor er disse <wikipediaLink>offentlige domene</wikipediaLink>-setningene fra?
+sc-submit-ph-read-how-to =
+    .placeholder = Les vår fremgangsmåte hvis du er usikker på hvordan du skal oppgi kilder
+sc-submit-button =
+    .submitText = Send inn
+sc-submit-filtered = Filtrerte setninger på grunn av ikke oppfylte krav (vennligst send inn korrigerte versjoner som nye setninger):
+sc-submit-guidelines = Vennligst sjekk <howToLink>retningslinjene</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Kunne ikke legge til språk
+sc-add-lang-sec-label = Legg til et språk du ønsker å bidra til
+sc-add-lang-sec-button = Legg til språk
+sc-add-err-unexpected = Uventet svar returnert fra serveren
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Innsendte setninger. { $duplicates } setninger ble avvist som duplikater.
+        [one] Innsendte setninger. { $duplicates } setning ble avvist som duplikat.
+       *[other] Innsendte setninger. { $duplicates } setninger ble avvist som duplikater.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] { $setninger } setninger mislyktes
+        [one] { $setninger } setning mislyktes
+       *[other] { $setninger } setninger mislyktes
+    }
+sc-add-err-submission = Innsendingsfeil
+sc-add-lang-process-notice = Hvis språket ditt ikke er oppført her, kan du be om det gjennom <languageProcessLink>denne prosessen</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Setninger ikke sendt inn, er du sikker på at du vil forlate?
+sc-confirm-sentences-title = Bekreft nye setninger
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] { $countOfSentences } setninger funnet.
+        [one] { $countOfSentences } setning funnet.
+       *[other] { $countOfSentences } setninger funnet.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } avvist av deg
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ingen setninger er allerede gjennomgått.
+        [one] { $countOfReviewed } setning er allerede gjennomgått. Bra jobbet!
+       *[other] { $countOfReviewed } setninger er allerede gjennomgått. Bra jobbet!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ingen setninger klare for innsending!
+        [one] { $readyCount } setning klar for innsending!
+       *[other] { $readyCount } setninger klare for innsending!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } setninger er ikke gjennomgått. Hvis du vil, kan du også se gjennom setningene dine nå før du sender dem inn.
+sc-confirm-button-text = Bekreft
+sc-confirm-uploading = Setninger blir lastet opp. Dette kan ta flere minutter avhengig av antall setninger som legges til. Vennligst ikke lukk denne nettsiden.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Totalt
+sc-lang-info-title-personal = Personlig
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Ingen setninger totalt.
+        [one] { $totalSentences } setning totalt.
+       *[other] { $totalSentences } setninger totalt.
+    }
 
 ## LOGIN
 
