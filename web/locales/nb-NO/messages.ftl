@@ -665,6 +665,7 @@ about-playbook-how-grow-language-content-8 = <strong>Vær kreativ!</strong> Spr�
 about-playbook-how-validate = Hvordan vet jeg om jeg skal godkjenne et stemmeklipp?
 about-playbook-how-validate-content-1 = Hvis du kunne <strong>høre dem</strong> og <strong>forstå dem</strong>, er det vanligvis <strong>best å godkjenne</strong>.
 about-playbook-how-validate-content-2 = <strong>Ikke avvis klipp der taleren «har en aksent» som er forskjellig fra din egen</strong> – dette er viktig for at stemmegjenkjenning skal fungere bedre for alle.
+about-playbook-how-validate-content-3 = Hvis du tror uttalen gjør det <strong>umulig å forstå</strong>, eller det er <strong>mye bakgrunnsstøy</strong>, eller det er <strong>andre som snakker også</strong>, så skal du avvise klippet. <accuracyLink>Se mer informasjon i våre nøyaktighetskriterier</accuracyLink>.
 about-playbook-how-validate-content-4 = Hvis et klipp avvises av 2 personer, blir det utgitt i et annet delsett av datasettet.
 
 ## How to access dataset
@@ -1317,7 +1318,14 @@ sc-howto-addsen-item-1 = Alle setninger du sender inn må være under <wikipedia
 sc-howto-addsen-item-2 = Tall. Det skal ikke være noen sifre i kildeteksten fordi de kan skape problemer når de leses høyt. Måten et tall leses på avhenger av kontekst og kan føre til forvirring i datasettet. For eksempel kan tallet "2409" leses nøyaktig som både "tjuefire null ni" og "to tusen fire hundre ni".
 sc-howto-addsen-item-3 = Forkortelser og akronymer. Forkortelser og akronymer som "USA" eller "ICE" bør unngås i kildeteksten fordi de kan leses på en måte som ikke sammenfaller med stavemåten. I tillegg kan det være flere nøyaktige avlesninger for en enkelt forkortelse. For eksempel kan akronymet "ICE" uttales "I-C-E" eller som et enkelt ord.
 sc-howto-addsen-item-4 = Tegnsetting. Spesialsymboler og tegnsetting bør kun inkluderes når det er absolutt nødvendig. For eksempel brukes apostrof for genitiv etter norske ord som slutter på s og bør inkluderes i kildeteksten, men det er usannsynlig at du noen gang trenger et spesielt symbol som "@" eller "#. ”
+sc-howto-addsen-item-5 = Utenlandske tegn. Bokstaver må være gyldige på språket som snakkes. For eksempel er "ж" en bokstav i det russiske alfabetet, men brukes aldri på engelsk og bør derfor aldri brukes i en engelsk kildetekst.
+sc-howto-addsen-item-6 = Språk kan ha sine <validationRulesLink>egne valideringsregler</validationRulesLink> med tilleggskrav. Hvis det ikke er noen spesifikk valideringsfil for et språk, bruker vi de generiske engelske reglene.
+sc-howto-addsen-post-1 = Vi foretrekker naturlige/samtalesetninger. Mens fonetisk mangfold og forskjellige ord i setninger er viktig, prøver vi å gjøre innspilling av setninger så morsomt som mulig. Derfor ville det vært flott om du kunne prøve å holde setningene dine så naturlige/engasjerende som mulig.
 sc-howto-cite-title = Hvordan sitere
+sc-howto-cite-pre-1 = Det er viktig at du refererer til hvor du fant den offentlige lisensen for å unngå plagiering og for å tillate oppfølging av <copyrightIssuesLink>opphavsrettsproblemer</copyrightIssuesLink>. Her er noen måter du kan sitere arbeidet på.
+sc-howto-cite-item-1 = Du kan inkludere nettstedet, for eksempel "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Du kan bruke akademisk referansestil, f.eks. Harvard-stil "Mozilla (2021) Common Voice. Tilgjengelig på https://commonvoice.mozilla.org/ (Tilgjengelig: 15. september 2021)"
+sc-howto-cite-item-3 = For tekst som er offentlig eiendom, men ikke er tilgjengelig på nettet, kan du bruke akademisk referansestil, f.eks. Harvard-stil "Jess (2021) My Public license poems"
 sc-howto-review-title = Gjennomgå setninger
 sc-howto-review-subtitle = Sørg for at setningen oppfyller følgende kriterier:
 sc-howto-review-criteria-1 = Setningen må staves riktig.
@@ -1328,14 +1336,19 @@ sc-howto-review-criteria-5 = Hvis setningen ikke oppfyller kriteriene ovenfor, k
 sc-howto-review-criteria-6 = Hvis du går tom for setninger å vurdere, vennligst hjelp oss med å samle inn flere setninger!
 sc-howto-findpd-title = Finne eksisterende setninger som er offentlig eiendom
 sc-howto-findpd-subtitle = Søk etter dem på Internett
+sc-howto-findpd-text-2 = Husk at vi trenger tillatelse til å publisere disse setningene, så sørg alltid for at teksten tilhører <wikipediaLink>offentlig domene</wikipediaLink>. Hvis det ikke er noen eksplisitt indikasjon, ta kontakt med personen som teksten tilhører og spør om de ønsker å bidra med teksten sin til Public Domain. Hvis de vil, kan du hjelpe dem med å gå gjennom <cc0WaiverLink>bidragsavtalen</cc0WaiverLink>-prosessen. Hvis de ikke ønsker å bidra med teksten, så har du ikke lov til å bruke den teksten.
 sc-howto-findpd-tips = Her er noen tips for å finne setninger:
+sc-howto-findpd-tips-1 = De beste kildene du kan se etter er podcaster, transkripsjoner, filmmanus og alt som potensielt kan inneholde hverdagslige samtaler.
+sc-howto-findpd-tips-2 = Regjeringssaker, bøker og artikler er også gode, men siden teksten har en tendens til å være litt mer formell er de mindre prioriterte.
 sc-howto-findpd-tips-3 = Dessverre kan vi ikke ha Wikimedia-artikler ennå. Så ikke kopier derfra.
 sc-howto-findpd-subtitle-2 = Samarbeid med lokale organisasjoner eller enkeltpersoner
 sc-howto-findpd-partner-1 = Det er mange offentlige organisasjoner som kanskje ønsker å samarbeide og allerede har mange tekster de kan donere som offentlig eiendom. Ta kontakt med lokale universiteter, myndigheter og åpen kildekode-organisasjoner for å snakke om prosjektet og be om deres hjelp.
+sc-howto-findpd-partner-2 = Ekspertlingvister kan også hjelpe, prøv å nå ut til lokale språklige universiteter (både lærere og studenter) og se om de kan hjelpe til med å samle et mangfoldig sett med lyd-diverse setninger på språket ditt.
 
 ## MY SENTENCES
 
 sc-my-title = Mine setninger
+sc-my-description = Denne siden gir deg en oversikt over alle innsendte setninger. Du kan også slette allerede innsendte setninger om nødvendig, ved å merke av i boksen ved siden av den og klikke på &quot;Slett valgte setninger&quot; på bunnen. Vennligst kun fjern setninger hvis det er absolutt nødvendig, for eksempel hvis du la merke til at en setning er opphavsrettslig beskyttet.
 sc-my-loading = Laster inn setningene dine …
 sc-my-err-fetching = Feil under lasting av setningene dine. Vennligst prøv på nytt.
 sc-my-no-sentences = Ingen setninger funnet!
@@ -1383,6 +1396,7 @@ sc-submit-ph-one-per-line =
 sc-submit-from-where = Hvor er disse <wikipediaLink>offentlige domene</wikipediaLink>-setningene fra?
 sc-submit-ph-read-how-to =
     .placeholder = Les vår fremgangsmåte hvis du er usikker på hvordan du skal oppgi kilder
+sc-submit-confirm = Jeg bekrefter at disse setningene er <wikipediaLink>offentlig domene</wikipediaLink> og jeg har tillatelse til å laste dem opp.
 sc-submit-button =
     .submitText = Send inn
 sc-submit-filtered = Filtrerte setninger på grunn av ikke oppfylte krav (vennligst send inn korrigerte versjoner som nye setninger):
@@ -1479,12 +1493,41 @@ sc-lang-info-left-for-you =
     }
 sc-lang-info-review-now = <reviewLink>Gjennomgå nå!</reviewLink>
 sc-lang-info-add-more = <addLink>Legg til flere setninger nå!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ingen validerte setninger.
+        [one] { $validatedSentences } validert setninger.
+       *[other] { $validatedSentences } validerte setninger.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ingen avviste setninger.
+        [one] { $rejectedSentences } avvist setning.
+       *[other] { $rejectedSentences } avviste setninger.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Innlogging feilet
+sc-login-err-try-again = Prøv igjen.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Kunne ikke fjerne språk: språk ble ikke funnet
+sc-personal-err-remove = Kunne ikke fjerne språket
+sc-personal-your-languages = Dine språk:
+sc-personal-remove-button = fjern
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $setninger } lagt til av deg
+sc-personal-not-added = Du har ikke lagt til noen språk ennå.
 
 ## REVIEW CRITERIA
 
