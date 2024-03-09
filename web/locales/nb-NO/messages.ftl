@@ -966,6 +966,8 @@ target-segment-learn-more = Les mer
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Tale-klipp innsamling
+contribute-sentence-collection-nav-header = Setningsinnsamling
 
 ## Reporting
 
@@ -1125,19 +1127,31 @@ profile-form-delete = Slett profil
 download-q = Trenger du å laste ned dataene dine?
 download-info = Fortell oss hva du vil laste ned:
 download-profile-title = Profil
+download-profile-info = Inkluderer e-post, brukernavn og demografisk informasjon, tilgjengelig med en gang
+download-profile-size = Noen få bytes
 download-recordings-title = Innspillinger
+download-recordings-info = Inkluderer mp3-er og relaterte setninger, kan ta litt tid å forberede
+download-recordings-size = Vanligvis megabyte
+download-recordings-unavailable = Du kan ikke be om opptak mens en annen forespørsel allerede pågår.
+download-recently-requested = Du kan be om et nytt uttak av opptakene dine hver { $days } dag.
 download-size = Størrelse
 download-selected = Valgt
 download-start = Last ned profildata
+download-request = Be om opptak
+download-requests = Nedlastingsforespørsler fra tidligere opptak
+download-requests-info = Når du ber om opptakene dine, kompilerer vi dem til én eller flere ZIP-filer. Her er dine tidligere forespørsler:
 download-request-button = Last ned
 download-request-title = { $created }
+download-request-description = { $clipCount } stemmeklipp, total arkivstørrelse { $size }. Utløper { $expires }.
 download-request-archive-single = Enkel ZIP-fil som inneholder
 download-request-archive-multiple = Del opp i { $archiveCount } ZIP-filer som inneholder
+download-request-assembling-description = Filene dine blir satt sammen. Vennligst sjekk igjen senere.
 download-request-refresh-button = Oppdater
 download-request-modal-title = Nedlastingslenker
 download-request-modal-description = Her er lenkene for å laste ned ZIP-filene dine.
 download-request-link-text = Zip #{ $offset } av { $total }
 download-request-metadata-link = Setningstekst
+download-request-link-single = Du kan også kopiere og lime inn de direkte URL-ene i din favorittnedlastingsbehandler. De vil utløpe om 12 timer, men du kan når som helst komme tilbake til denne siden for å generere nye.
 
 ## Landing
 
@@ -1185,12 +1199,24 @@ demo-dashboard-card-body = For hvert stemmeklipp som doneres, og hvert lydklipp 
 
 ## Validation criteria
 
+contribution-criteria-nav = Kriterier
 contribution-criteria-link = Forstå bidragskriterier
 contribution-criteria-page-title = Bidragskriterier
+contribution-criteria-page-description = Forstå hva du skal se etter når du lytter til stemmeklipp, og bidra til å gjøre stemmeopptakene dine rikere også!
 contribution-for-example = for eksempel
 contribution-misreadings-title = Feillesninger
 contribution-misreadings-description-extended-list-2 = Mangler en <strong>«s»</strong> på slutten av et ord.
 contribution-misreadings-description-extended-list-5 = Bruker flere forsøk på å lese et ord.
+contribution-misreadings-example-1-title = De gigantiske dinosaurene i triastiden.
+contribution-misreadings-example-2-title = De gigantiske dinosauren i triastiden.
+contribution-misreadings-example-2-explanation = [Skal være "dinosaurene"]
+contribution-misreadings-example-3-title = De gigantiske dinosaurene i tri-.
+contribution-misreadings-example-3-explanation = [Opptaket avbrutt før slutten av siste ord]
+contribution-misreadings-example-4-title = De gigantiske dinosaurene i triastiden. Ja.
+contribution-misreadings-example-4-explanation = [Mer har blitt spilt inn enn den nødvendige teksten]
+contribution-misreadings-example-5-title = Vi skal ut og hente kaffe.
+contribution-misreadings-example-6-title = Vi går for å hente kaffe.
+contribution-misreadings-example-6-explanation = [Skal være "Vi er"]
 contribution-background-noise-title = Bakgrunnsstøy
 contribution-background-voices-title = Bakgrunnsstemmer
 contribution-volume-title = Volum
