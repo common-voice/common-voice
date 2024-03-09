@@ -1331,6 +1331,7 @@ sc-howto-findpd-subtitle = Søk etter dem på Internett
 sc-howto-findpd-tips = Her er noen tips for å finne setninger:
 sc-howto-findpd-tips-3 = Dessverre kan vi ikke ha Wikimedia-artikler ennå. Så ikke kopier derfra.
 sc-howto-findpd-subtitle-2 = Samarbeid med lokale organisasjoner eller enkeltpersoner
+sc-howto-findpd-partner-1 = Det er mange offentlige organisasjoner som kanskje ønsker å samarbeide og allerede har mange tekster de kan donere som offentlig eiendom. Ta kontakt med lokale universiteter, myndigheter og åpen kildekode-organisasjoner for å snakke om prosjektet og be om deres hjelp.
 
 ## MY SENTENCES
 
@@ -1460,6 +1461,24 @@ sc-lang-info-total =
         [one] { $totalSentences } setning totalt.
        *[other] { $totalSentences } setninger totalt.
     }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ingen setninger til vurdering.
+        [one] { $totalInReview } setning til vurdering.
+       *[other] { $totalInReview } setninger til vurdering.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Ingen setninger igjen som du kan se gjennom.
+        [one] { $unreviewedSentencesByYou } setning igjen som du kan se gjennom.
+       *[other] { $unreviewedSentencesByYou } setninger igjen som du kan se gjennom.
+    }
+sc-lang-info-review-now = <reviewLink>Gjennomgå nå!</reviewLink>
+sc-lang-info-add-more = <addLink>Legg til flere setninger nå!</addLink>
 
 ## LOGIN
 
@@ -1479,12 +1498,122 @@ sc-lang-info-total =
 # [/SentenceCollector]
 
 sentence-collection = Setningsinnsamling
+citation =
+    .label = Kildehenvisning
+self-citation = Selvsitering
+self-citation-explanation = Slik oppgir du deg selv som kilde hvis du har skrevet innholdet selv.
+adding-sentences-subheader-length = Lengde
+adding-sentences-subheader-length-explanation = Setningen bør ha færre enn 15 ord.
+adding-sentences-subheader-spelling-punctuation = Stavemåte og Tegnsetting
+adding-sentences-subheader-spelling-punctuation-explanation = Setningen må ha korrekt stavemåte
+adding-sentences-subheader-speakable = Lettlest
+adding-sentences-subheader-speakable-explanation = De beste setningene er naturlige og konverserende - det bør være enkelt å lese dem. Fonetisk mangfold og forskjellige ord i setninger er viktig, men vi prøver også å gjøre innspilling av setninger så engasjerende og morsomt  som mulig for vårt frivillige fellesskap.
+adding-sentences-subheader-numbers = Tall
+adding-sentences-subheader-numbers-explanation = Det bør ideelt sett ikke være noen tall i kildeteksten fordi de kan skape problemer når de leses høyt. Måten et tall leses på avhenger av kontekst og kan føre til forvirring i datasettet. For eksempel kan tallet "2409" leses korrekt som både "tjuefire null ni" og "to tusen fire hundre og ni".
+adding-sentences-subheader-abbreviations = Forkortelser og Akronymer
+adding-sentences-subheader-abbreviations-explanation = Forkortelser og akronymer som "USA" eller "ICE" bør unngås i kildeteksten fordi de kan leses på en måte som ikke stemmer overens med stavemåten. I tillegg kan det være flere vanlige uttalemåter for en enkelt forkortelse.
+adding-sentences-subheader-punctuation = Tegnsetting
+adding-sentences-subheader-punctuation-explanation = Spesialsymboler og tegnsetting bør kun inkluderes når det er absolutt nødvendig. For eksempel brukes en apostrof på norske ord i genitiv som "Johannes’ åpenbaring" og bør inkluderes i kildeteksten, men det er usannsynlig at du noensinne trenger et spesialsymbol som "@" eller "#. ”
+adding-sentences-subheader-special-characters = Spesialtegn og utenlandske bokstaver
+adding-sentences-subheader-special-characters-explanation-1 = Bokstaver må være gyldige på språket som snakkes. For eksempel er "ж" en bokstav i det russiske alfabetet, men brukes aldri på norsk og bør derfor aldri vises i noen norsk kildetekst.
+adding-sentences-subheader-special-characters-explanation-2 = Språk kan ha sine egne valideringsregler med ekstra krav når de oversettes. Hvis det ikke er noen spesifikk valideringsfil for et språk, vil de engelske reglene vises for bidragsytere.
+adding-sentences-subheader-offensive-content = Støtende Innhold
+reviewing-sentences-explanation-1 = Hvis setningen oppfyller kriteriene ovenfor, klikker du på "Ja"-knappen.
+reviewing-sentences-explanation-2 = Hvis setningen ikke oppfyller kriteriene ovenfor, klikker du på "Nei"-knappen.
+reviewing-sentences-explanation-3 = Hvis du er usikker på setningen, kan du også hoppe over den og gå videre til neste.
+reviewing-sentences-explanation-4 = Hvis du går tom for setninger å vurdere, vennligst hjelp oss med å samle inn flere setninger!
+domain-explanation = Domene refererer til emnet for setningen. For øyeblikket kan du velge mellom:
 
 ## WRITE PAGE
 
+write-instruction = Legg til <icon></icon> en offentlig domenesetning
+write-page-subtitle = Setninger som er bidratt her vil bli lagt til et offentlig tilgjengelig cc-0-lisensiert datasett.
+sentence =
+    .label = Setning
+sentence-input-value = Skriv inn setningen din (godkjent for offentlige domene) her
+citation-input-value = Kilden til setningen din
+citation =
+    .label = Kildehenvisning
+sc-write-submit-confirm = Jeg bekrefter at denne setningen er <wikipediaLink>offentlig domene</wikipediaLink> og jeg har tillatelse til å laste den opp.
+sc-review-write-title = Hvilke setninger kan jeg legge til?
+new-sentence-rule-1 = <noCopyright>Ingen opphavsretts</noCopyright>-begrensninger (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Færre enn 15 ord per setning
+new-sentence-rule-3 = Bruk riktig grammatikk
+new-sentence-rule-4 = Bruk riktig stavemåte og tegnsetting
+new-sentence-rule-5 = Ingen tall og spesialtegn
+new-sentence-rule-6 = Ingen utenlandske bokstaver
+new-sentence-rule-7 = Inkluder passende sitering
+new-sentence-rule-8 = Ideelt sett naturlig og samtalepreg (det skal være lett å lese setningen)
+how-to-cite = Hvordan siterer jeg?
+how-to-cite-explanation-bold = Sitér med en URL-kobling eller hele navnet på verket.
+guidelines = Retningslinjer
+contact-us = Kontakt oss
+add-sentence-success = 1 setning innsamlet
+add-sentence-error = Feil ved å legge til setning
+required-field = Fyll ut dette feltet.
+single-sentence-submission = Enkeltsetningsinnsending
+bulk-sentence-submission = Masseinnsending av setninger
+single-sentence = Enkelt setning
+bulk-sentences = Massesetninger
+sentence-domain-select =
+    .label = Setningsdomene
+# Sentence Domain dropdown option
+agriculture = Jordbruk
+# Sentence Domain dropdown option
+automotive = Bil
+# Sentence Domain dropdown option
+finance = Finans
+# Sentence Domain dropdown option
+food_service_retail = Mat, service og detaljhandel
+# Sentence Domain dropdown option
+general = Generelt
+# Sentence Domain dropdown option
+healthcare = Helsevesen
+# Sentence Domain dropdown option
+history_law_government = Historie, lov og stat
+# Sentence Domain dropdown option
+language_fundamentals = Grunnleggende språk (f.eks. sifre, bokstaver, penger)
+# Sentence Domain dropdown option
+media_entertainment = Media og underholdning
+# Sentence Domain dropdown option
+nature_environment = Natur og miljø
+# Sentence Domain dropdown option
+news_current_affairs = Nyheter og Aktuelle saker
+# Sentence Domain dropdown option
+technology_robotics = Teknologi og robotikk
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Sjekk <icon></icon> er dette en språklig korrekt setning?
+sc-review-rules-title = Oppfyller setningen retningslinjene?
+sc-review-empty-state = Det er for øyeblikket ingen setninger å vurdere på dette språket.
+report-sc-different-language = Annet språk
+report-sc-different-language-detail = Den er skrevet på et annet språk enn det jeg gjennomgår.
+sentences-fetch-error = Det oppsto en feil under henting av setninger
+review-error = Det oppstod en feil ved gjennomgang av denne setningen
+review-error-rate-limit-exceeded = Du er for rask. Ta deg tid til å se gjennom setningen for å sikre at den er riktig.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Vi gjør noen store endringer
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction-drop = Slipp filen her for å laste opp
+try-upload-again = Prøv igjen ved å dra filen hit
+try-upload-again-md = Prøv å laste opp igjen
+select-file = Velg fil
+select-file-mobile = Velg en fil å laste opp
+accepted-files = Godkjente filtyper: kun .tsv
+maximum-file-size = Maksimal filstørrelse: 25 MB
+what-needs-to-be-in-file = Hva må være i filen min?
+upload-progress-text = Opplasting pågår...
+sc-bulk-submit-confirm = Jeg bekrefter at disse setningene er <wikipediaLink>offentlig domene</wikipediaLink> og jeg har tillatelse til å laste dem opp.
+bulk-upload-success-toast = Massesetninger lastet opp
+bulk-upload-failed-toast = Opplasting mislyktes. Prøv på nytt.
+bulk-submission-success-header = Takk for at du bidro med masseinnsendingen!
+bulk-submission-success-subheader = Du hjelper Common Voice med å nå våre daglige setningsmål!
+upload-more-btn-text = Laste opp flere setninger?
+file-invalid-type = Ugyldig fil
+file-too-large = Filen er for stor
+file-too-small = Filen er for liten
+too-many-files = For mange filer
