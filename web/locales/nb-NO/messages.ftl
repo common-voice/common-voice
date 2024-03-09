@@ -1256,8 +1256,16 @@ contribution-background-noise-example-2-fixed-title = De gigantiske dino <strong
 contribution-background-noise-example-2-explanation = [Del av teksten kan ikke høres]
 contribution-background-noise-example-3-fixed-title = <strong>[Sprake]</strong> gigantiske dinosaurene i <strong>[hoste]</strong> triastiden.
 contribution-background-voices-title = Bakgrunnsstemmer
+contribution-background-voices-description = Et stille støy i bakgrunnen er OK, men vi vil ikke ha flere stemmer som kan føre til at en maskinalgoritme identifiserer ord som ikke er i den skrevne teksten. Hvis du kan høre andre ord enn de i teksten, bør klippet avvises. Vanligvis skjer dette der TV-en har blitt stående på, eller der det foregår en samtale i nærheten.
+contribution-background-voices-description-extended = Hvis opptaket hakker, eller har knitring, avvis med mindre hele teksten fortsatt kan høres.
+contribution-background-voices-example-1-title = De gigantiske dinosaurene i triastiden. <strong>[lest av én stemme]</strong>
+contribution-background-voices-example-1-explanation = Kommer du? <strong>[ropes av en annen]</strong>
 contribution-volume-title = Volum
+contribution-volume-description = Det vil være naturlige variasjoner i volum mellom leserne. Avvis bare hvis volumet er så høyt at opptaket brytes opp, eller (vanligere) hvis det er så lavt at du ikke kan høre hva som blir sagt uten referanse til den skrevne teksten.
+contribution-reader-effects-title = Lesereffekter
+contribution-reader-effects-description = De fleste opptak er av folk som snakker med sin naturlige stemme. Du kan godta en og annen ikke-standard innspilling som blir ropt, hvisket eller åpenbart levert med en "dramatisk" stemme. Vennligst avvis sangopptak og de som bruker en datamaskinsyntetisert stemme.
 contribution-just-unsure-title = Bare usikker?
+contribution-just-unsure-description = Hvis du kommer over noe som ikke er dekket av disse retningslinjene, forsøk og velg etter beste skjønn. Hvis du ikke føler det er mulig å bedømme klippet, bruk hopp over-knappen og gå videre til neste klipp.
 see-more = <chevron></chevron>Se mer
 see-less = <chevron></chevron>Se mindre
 
@@ -1268,15 +1276,50 @@ see-less = <chevron></chevron>Se mindre
 
 ## HEADER/FOOTER
 
+sc-header-home = Hjem
+sc-header-how-to = Hvordan
+sc-header-add = Legg til
+sc-header-review = Vurder
+sc-header-rejected = Avviste setninger
+sc-header-my = Mine setninger
+sc-header-statistics = Statistikk
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Rapporter en feil
+sc-footer-translate = Oversett denne siden
+sc-footer-report-copyright = Rapporter opphavsrettsproblemer
+sc-footer-privacy = Personvern
+sc-footer-terms = Vilkår
+sc-footer-cookies = Informasjonskapsler
+sc-login-signup-button = Logg inn / registrer deg
+sc-logout-button = Logg ut
 
 ## HOME
 
+sc-home-title = Velkommen til Common Voice-setningsinnsamler
+sc-home-intro = Setningssamleren er en del av <commonVoiceLink>Common Voice</commonVoiceLink>. Det lar bidragsytere samle inn og validere setninger laget av fellesskapet. Du kan også bruke dette verktøyet til å importere og rydde opp i små til mellomstore offentlige domenekorpus du har funnet eller samlet. Alle setninger må være offentlig domene. Godkjente setninger eksporteres hver uke til Common Voice-depotet og utgis på Common Voice-nettstedet ved hver ny distribusjon.
+sc-home-collect-title = Samle setninger
+sc-home-collect-text = Hjelp oss ved å skrive eller samle offentlig domene-setninger.
+sc-home-review-title = Vurder setninger
+sc-home-review-text = Hjelp oss ved å vurdere om setninger er korrekte i henhold til retningslinjene.
 
 ## GENERAL
 
+sc-languages-fetch-error = Vi klarte ikke å hente tilgjengelige språk. Bidrag er foreløpig ikke mulig. Prøv igjen senere.
 
 ## HOW-TO
 
+sc-howto-title = Hvordan
+sc-howto-addlang-title = Legger til språk å jobbe med
+sc-howto-addlang-text = Når du er logget inn kan du velge språk fra profilseksjonen.
+sc-howto-addsen-title = Legg til nye setninger
+sc-howto-addsen-item-1 = Alle setninger du sender inn må være under <wikipediaLink>Public Domain (CC-0)-lisens</wikipediaLink>. For å støtte inkludering av arbeid som ikke er under offentlig lisens, har vi laget en <cc0WaiverLink>bidragsavtalemal</cc0WaiverLink> for verk der opphavsrettseieren ønsker å bidra med materialet til Common Voice.
+sc-howto-addsen-item-2 = Tall. Det skal ikke være noen sifre i kildeteksten fordi de kan skape problemer når de leses høyt. Måten et tall leses på avhenger av kontekst og kan føre til forvirring i datasettet. For eksempel kan tallet "2409" leses nøyaktig som både "tjuefire null ni" og "to tusen fire hundre ni".
+sc-howto-addsen-item-3 = Forkortelser og akronymer. Forkortelser og akronymer som "USA" eller "ICE" bør unngås i kildeteksten fordi de kan leses på en måte som ikke sammenfaller med stavemåten. I tillegg kan det være flere nøyaktige avlesninger for en enkelt forkortelse. For eksempel kan akronymet "ICE" uttales "I-C-E" eller som et enkelt ord.
+sc-howto-addsen-item-4 = Tegnsetting. Spesialsymboler og tegnsetting bør kun inkluderes når det er absolutt nødvendig. For eksempel brukes apostrof for genitiv etter norske ord som slutter på s og bør inkluderes i kildeteksten, men det er usannsynlig at du noen gang trenger et spesielt symbol som "@" eller "#. ”
+sc-howto-cite-title = Hvordan sitere
+sc-howto-review-title = Gjennomgå setninger
+sc-howto-review-subtitle = Sørg for at setningen oppfyller følgende kriterier:
 
 ## MY SENTENCES
 
