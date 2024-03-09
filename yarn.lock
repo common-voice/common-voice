@@ -2896,10 +2896,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/cookie-parser@1.4.6":
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/@types/cookie-parser/-/cookie-parser-1.4.6.tgz#002643c514cccf883a65cbe044dbdc38c0b92ade"
-  integrity sha512-KoooCrD56qlLskXPLGUiJxOMnv5l/8m7cQD2OxJ73NPMhuSz9PmvwRD6EpjDyKBVrdJDdQ4bQK7JFNHnNmax0w==
+"@types/cookie-parser@1.4.7":
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@types/cookie-parser/-/cookie-parser-1.4.7.tgz#c874471f888c72423d78d2b3c32d1e8579cf3c8f"
+  integrity sha512-Fvuyi354Z+uayxzIGCwYTayFKocfV7TuDYZClCdIP9ckhvAu/ixDtCB6qx2TT0FKjPLf1f3P/J1rgf6lPs64mw==
   dependencies:
     "@types/express" "*"
 
