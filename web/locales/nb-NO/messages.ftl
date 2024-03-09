@@ -641,9 +641,17 @@ about-playbook-how-add-sentences-content-3 = Du kan bruke <scraperLink>Setningsu
 ## How to record quality
 
 about-playbook-how-record-quality = Hvordan spiller jeg inn et stemmeklipp av høy kvalitet?
+about-playbook-how-record-content-1 = Snakk med din vanlige stemme! Måten du snakker på er velkommen her - vi vil ha din aksent som den er, og vi vil ha ditt vanlige volum, stil og intonasjon.
+about-playbook-how-record-content-2 = Unngå for mye bakgrunnsstøy – det skal være lett å høre deg.
+about-playbook-how-record-content-3 = Les setningen nøye - ikke hopp over, endre eller legg til ord.
+about-playbook-how-record-content-4 = Sørg for at plattformen tar opp før du begynner å snakke, og at den ikke stopper før du er ferdig.
+about-playbook-how-record-content-5 = <accuracyLink>Se mer om nøyaktighetskriterier.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Hvordan kan vi effektivt utvikle et språk på Common Voice?
+about-playbook-how-grow-language-content-1 = Å skape muligheter for et mangfold av mennesker til å bidra til Common Voice sikrer at datasettet betjener så mange mennesker som mulig. Vi har laget ressurser og maler som du kan bruke!
+about-playbook-how-grow-language-content-2 = Arrangementer
 about-playbook-how-grow-language-content-6 = Partnerskap og nettverk
 
 ## How to validate
@@ -656,6 +664,12 @@ about-playbook-how-validate-content-1 = Hvis du kunne <strong>høre dem</strong>
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = Vårt styresett er bygget på verdiene av:
+about-playbook-how-project-governance-content-3 = Personvern, sikkerhet og åpenhet.
+about-playbook-how-project-governance-content-4 = Samfunnsdeltakelse og beslutningstaking.
+about-playbook-how-project-governance-content-5 = Verdi og anerkjennelse.
+about-playbook-how-project-governance-content-6 = Gjensidig ansvar.
+about-playbook-how-project-governance-content-7 = <governanceLink>Les mer om hvordan vi er administrert</governanceLink>
 
 ## Glossary
 
@@ -723,20 +737,26 @@ datasets-positioning =
     
     Se på denne siden som et referansehub for andre stemmesett med åpen kildekode, og etterhvert som Common Voice fortsetter å vokse, et hjem for våre datasettoppdateringer.
 language = Språk
+download-dataset-header = Last ned datasettet
+download-delta-explainer = Vi har gjort noen endringer. "Delta Segments" inneholder kun de aller nyeste lydklippene etter siste utgivelse. <deltaLink>Les mer on denne endringen</deltaLink>.
+download-dataset-tag = Velg datasettet for språket du trenger, deretter versjonen du ønsker laste ned.
 # File size in gigabytes
 size = Størrelse
 validated-hr-total = Antall validerte timer totalt
 overall-hr-total = Antall timer totalt
 cv-license = Lisens
 audio-format = Lydformat
+dataset-splits = Oppdelt (alder og kjønn)
 number-of-voices = Antall stemmer
 splits = Deler
 email-to-download = Skriv inn e-post for å laste ned
 why-email = <b>Hvorfor en e-postadresse?</b> Vi kan komme til å måtte kontakte deg i fremtiden om endringer i datasettet, en e-postadresse gir oss et kontaktpunkt.
+why-donate-datasets-page = Mozilla Common Voice er verdens mest mangfoldige crowdsourced åpne tale-datasett – og vi drives utelukkende av donasjoner. Det koster nesten en million dollar i året å være vert for datasettene og forbedre plattformen for de over 100 språksamfunnene som er avhengige av det vi gjør. Hvis du verdsetter åpne, inkluderende data - <b>doner i dag!</b>
 confirm-size = Du er forberedt på å starte nedlasting av <b> { $size } </b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Du sier deg enig</b> i å ikke prøve å identifisere talere i Common Voice-datasettet
+confirm-join-mailing-list = Jeg ønsker melde meg på Common Voice sin mailing liste
 download-language = Last ned { $language }
 validated-hours = Validerte timer
 recorded-hours = Innspilte timer
@@ -750,6 +770,8 @@ subscribe = Abonner
 get-started-speech = Kom i gang med talegjenkjenning
 other-datasets = Andre stemmedatasett
 feedback-q = Har du tilbakemeldinger?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er et <docsLink>åpen kildekodeverktøy</docsLink> for forskere som utvikler toppmoderne konversasjons-AI-modeller.
+community-playbook = Fellesskapets Spillebok
 data-other-librispeech-description = LibriSpeech er et korpus på omtrent 1000 timer med 16 kHz lest engelsk tale hentet fra innleste lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = TED-LIUM-korpuset ble produsert av presentasjoner og deres transkripsjoner tilgjengelig på TED-nettstedet.
@@ -764,6 +786,18 @@ more = Mer
 close = Lukk
 download = Last ned
 dataset-version = Versjon
+sha256-checksum-copied = SHA256-sjekksum kopiert!
+sha256-checksum-copied-error = Kunne ikke kopiere SHA256-sjekksum
+clipboard-not-supported = Utklippstavle støttes ikke
+no-information-available = Ingen informasjon er tilgjengelig
+dataset-metadata-sex = Kjønn
+# dataset metadata - age of contributor
+dataset-metadata-age = Alder
+donate-modal-message = Datasettet ditt lastes ned!
+dataset-donate-modal-heading = Visste du…
+donate-modal-explanation-1 = Det koster nesten en million dollar i året å være vert for datasettene og forbedre plattformen for de over 100 språksamfunnene som er avhengige av det vi gjør?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Hvis du verdsetter åpne, inkluderende data – doner i dag!</bold>
 
 ## Download Modal
 
@@ -796,6 +830,44 @@ other-language = Annet Språk
 
 ## Request Language Pages
 
+request-language-heading = Etterspør et nytt språk
+request-language-explanation-1 =
+    Sjekk om språket ditt er oppført på
+    <languagesPageLink>Common Voice Languages-siden</languagesPageLink>.
+    Hvis ikke, fyll ut dette skjemaet, så <strong>sender vi deg en nyttig e-post
+    som forklarer hvordan du setter opp språket ditt</strong>.
+request-language-explanation-2 =
+    Vi vil også <strong>gi beskjed til samfunnsansvarlig
+    at du er interessert</strong>, slik at de kan gi deg
+    ekstra støtte eller informasjon du måtte trenge.
+request-language-form-email =
+    .label = Din e-postadresse
+request-language-form-info =
+    .label = Informasjon om språket
+request-language-form-info-explanation =
+    Legg til så mye informasjon du kan om språket. Dette
+    kan inkludere:
+request-language-form-info-explanation-list-1 = Navn på språket ditt
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koder</isoCodeLink> hvis kjent
+request-language-form-info-explanation-list-3 = Lenker til nettsider som kan hjelpe oss å forstå språket
+request-language-google-recaptcha-required = reCAPTCHA kreves hvis du vil fortsette
+request-language-google-recaptcha-error = Noe gikk galt med reCAPTCHA. Vennligst prøv på nytt.
+# Success page
+request-language-success-heading = Takk skal du ha! Du har sendt en ny språkforespørsel
+request-language-success-list-1 =
+    Du mottar snart en e-post med en kort forklaring på
+    trinnene for å få språket ditt lagt til Common Voice
+request-language-success-list-2 =
+    Vår samfunnsansvarlige vil kontakte deg for å tilby
+    ekstra støtte, og for å gi deg beskjed om det er
+    allerede er et fellesskap som jobber med språket ditt
+request-language-success-list-3 =
+    Hvis du ikke hører fra oss innen et par dager,
+    ta kontakt på <emailLink>{ $email }</emailLink>
+    og vi kommer tilbake til deg!
+request-language-error =
+    Vi har kanskje ikke mottatt den forespørselen. Send oss en e-post direkte
+    på <emailLink>{ $email }</emailLink>, så kommer vi tilbake til deg!
 
 ## Languages Overview
 
@@ -803,6 +875,8 @@ language-section-in-progress = Pågående
 language-section-in-progress-new-description = Disse språkene er for tiden under utvikling. Fremdriftsindikatorene viser hvor langt hvert språk har kommet med <localizationGlossaryLink> nettstedslokalisering </localizationGlossaryLink> og <sentenceCollectionGlossaryLink> setningsinnsamling </sentenceCollectionGlossaryLink>.
 language-section-launched = Lansert
 language-section-launched-description = For disse lanserte språkene har nettstedet blitt <localizationGlossaryLink> lokalisert </localizationGlossaryLink>, og har nok <sentenceCollectionGlossaryLink> setninger samlet </sentenceCollectionGlossaryLink> til å gi mulighet for løpende <speakLink> Tale- </speakLink> og <listenLink> Lytte-</ listenLink > bidrag.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Sist oppdatert: { $lastUpdatedTimeStamp }
 languages-show-more = Vis mer
 languages-show-less = Vis mindre
 language-meter-in-progress = Framgang
@@ -812,6 +886,8 @@ language-search-input =
 language-speakers = Talt av
 localized = Oversatt
 sentences = Setninger
+language-validation-hours = Timer
+language-validation-progress = Valideringsprosess
 
 ## Contribution
 
@@ -819,6 +895,8 @@ action-click = Klikk
 action-tap = Trykk
 contribute = Bidra
 listen = Lytt
+write = Skriv
+review = Gjennomgå
 skip = Hopp over
 shortcuts = Snarveier
 clips-with-count-pluralized =
@@ -865,8 +943,17 @@ listen-again-instruction = Supert jobbet!<playIcon></playIcon> Hør på klippet 
 listen-3rd-time-instruction = 2 ferdig, fortsett slik!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>En igjen!
 listen-empty-state = Vi har gått tom for klipp å validere på dette språket…
+listen-loading-error =
+    Vi klarte ikke å laste noen lydklipp du kan lytte til.
+    Prøv igjen senere.
+listen-abort-title = Ferdig med å validere klippene?
+listen-abort-cancel = Fortsett å validere
+listen-abort-confirm = Fullfør valideringen
 speak-empty-state = Vi har gått tom for setninger å spille inn på dette språket…
 speak-empty-state-cta = Bidra med setninger
+speak-loading-error =
+    Vi klarte ikke å laste noen setninger du kan lese.
+    Prøv igjen senere.
 record-button-label = Ta opp stemmen din
 share-title-new = <bold>Hjelp oss</bold> med å finne flere stemmer
 keep-track-profile = Hold oversikt over fremgangen din med en profil
