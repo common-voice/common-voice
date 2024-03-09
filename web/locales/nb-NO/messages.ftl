@@ -635,6 +635,7 @@ about-playbook-how-localize-content-5 = Se vår videoforklaring for å hjelpe
 ## How to add sentences
 
 about-playbook-how-add-sentences = Hvordan legger jeg til setninger?
+about-playbook-how-add-sentences-content-1 = Du kan legge til setninger på <writePageLink>Skrive-siden</writePageLink> eller se gjennom setninger på <reviewPageLink>Gjennomgangssiden</reviewPageLink>.
 about-playbook-how-add-sentences-content-2 = Setninger må gjennomgås og aksepteres av to personer for å bli inkludert i Common Voice. Du lager retningslinjer for språket ditt <languageGuidelinesLink>her</languageGuidelinesLink>. Setninger må være i <licenseLink>offentlig domene</licenseLink> og være kortere enn 15 ord. Du kan be eieren av en tekst om å gjøre den til <waiverLink>CC0 ved å bruke vår fraskrivelsesprosess</waiverLink>, og sende til oss på commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Du kan bruke <scraperLink>Setningsuthenter</scraperLink> for å hente korte setninger fra Wikipedia.
 
@@ -652,12 +653,18 @@ about-playbook-how-record-content-5 = <accuracyLink>Se mer om nøyaktighetskrite
 about-playbook-how-grow-language = Hvordan kan vi effektivt utvikle et språk på Common Voice?
 about-playbook-how-grow-language-content-1 = Å skape muligheter for et mangfold av mennesker til å bidra til Common Voice sikrer at datasettet betjener så mange mennesker som mulig. Vi har laget ressurser og maler som du kan bruke!
 about-playbook-how-grow-language-content-2 = Arrangementer
+about-playbook-how-grow-language-content-3 = Du kan starte et arrangement for å oppfordre folk til å bidra. Det er enklere enn du tror. Du kan for eksempel holde en videokonferanse på nett, eller ansikt til ansikt hvis omstendighetene åpner for det. <eventTemplate>Sjekk malene og ressursene vi har for å avholde et slikt arrangement</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Sosiale medier
+about-playbook-how-grow-language-content-5 = Du kan bruke sosiale medier for å få ut budskapet. Del innlegg som forklarer hvorfor det er viktig, og ta kontakt med andre som snakker om spørsmål som språkrettigheter, stemme-AI eller skjevhet i teknologi. Se flere råd om <campaignLink>kjøring av en sosial kampanje, inkludert innhold du kan gjenbruke</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerskap og nettverk
+about-playbook-how-grow-language-content-7 = Finn andre som bryr seg. Det kan være universiteter, språkskoler, påvirkningsgrupper eller datavitenskapsmiljøer. Nå ut og forklar tydelig hvordan de kan hjelpe og hvorfor. <outreachTemplates>Se våre maler for oppsøkende e-poster</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Vær kreativ!</strong> Språkfellesskapet ditt vil være unikt, og dette er bare noen få måter å komme i gang på.
 
 ## How to validate
 
 about-playbook-how-validate = Hvordan vet jeg om jeg skal godkjenne et stemmeklipp?
 about-playbook-how-validate-content-1 = Hvis du kunne <strong>høre dem</strong> og <strong>forstå dem</strong>, er det vanligvis <strong>best å godkjenne</strong>.
+about-playbook-how-validate-content-2 = <strong>Ikke avvis klipp der taleren «har en aksent» som er forskjellig fra din egen</strong> – dette er viktig for at stemmegjenkjenning skal fungere bedre for alle.
 
 ## How to access dataset
 
