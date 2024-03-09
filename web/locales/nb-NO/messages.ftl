@@ -1531,9 +1531,38 @@ sc-personal-not-added = Du har ikke lagt til noen språk ennå.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Vurderingskriterier
+sc-criteria-title = Vurderingskriterier
+sc-criteria-make-sure = Sørg for at setningen oppfyller følgende kriterier:
+sc-criteria-item-1 = Setningen må staves riktig.
+sc-criteria-item-2 = Setningen må være grammatisk korrekt.
+sc-criteria-item-3 = Setningen må kunne tales.
+sc-criteria-item-4 = Hvis setningen oppfyller kriteriene, klikker du på "Godkjenn"-knappen til høyre.
+sc-criteria-item-5-2 = Hvis setningen ikke oppfyller kriteriene ovenfor, klikker du på "Avvis"-knappen til venstre. Hvis du er usikker på setningen, kan du også hoppe over den og gå videre til neste.
+sc-criteria-item-6 = Hvis du går tom for setninger å vurdere, vennligst hjelp oss med å samle inn flere setninger!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Du har ikke valgt noen språk. Gå til <profileLink>profilen</profileLink> din for å velge språk.
+sc-review-title = Gjennomgå setninger
+sc-review-loading = Laster inn setninger …
+sc-review-select-language = Velg et språk for å se gjennom setninger.
+sc-review-no-sentences = Ingen setninger å vurdere. <addLink>Legg til flere setninger nå!</addLink>
+sc-review-form-prompt =
+    .message = Gjennomgåtte setninger ikke sendt inn, er du sikker?
+sc-review-form-usage = Sveip til høyre for å godkjenne setningen. Sveip til venstre for å avvise den. Sveip opp for å hoppe over den. <strong>Ikke glem å sende inn vurderingen din!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Kilde: { $sentenceSource }
+sc-review-form-button-reject = Avvis
+sc-review-form-button-skip = Hopp over
+sc-review-form-button-approve = Godkjenn
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 
 ## SETTINGS
 
@@ -1681,6 +1710,8 @@ sc-redirect-page-title = Vi gjør noen store endringer
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Last opp <icon></icon> setninger godkjent for offentlig domene
 sc-bulk-upload-instruction-drop = Slipp filen her for å laste opp
 try-upload-again = Prøv igjen ved å dra filen hit
 try-upload-again-md = Prøv å laste opp igjen
