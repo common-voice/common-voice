@@ -538,6 +538,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Hvorfor Common Voice?
+about-header-description-v2 =
+    <p>Common Voice er et offentlig tilgjengelig datasett av alminnelige stemme-klipp som kommer fra frivillige bidragsytere over hele verden. Folk som ønsker å bygge applikasjoner som krever talegjenkjenning kan bruke datasettet til å trene maskinlæringsmodeller.</p>
+    <p>De fleste slike datasett eies av bedrifter, noe som hindrer innovasjon. De datasettene er dessverre også overrepresentert av kun en type mennesker, og mangler derfor mangfold av folk med forskjellig opprinnelse, språk, kjønn, og legning. Dette resulterer i at talegjenkjenning ikke fungerer like bra for alle, og noen ganger ikke i det hele tatt. Vi ønsker å endre dette ved å mobilisere folk overalt for å dele <b>stemmen</b> sin.</p>
 how-does-it-work-title-v2 = Hvordan fungerer Common Voice?
 how-does-it-work-text = Vi masseinnsamler et åpent datasett av stemmer. Bidra med din stemme, valider nøyaktigheten av andres lydklipp, gjør datasettet bedre for alle.
 
@@ -614,15 +617,30 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>be om det nye språket på GitHub</githubRepoLink>. <localizationFragment>Se mer på nettstedsoversettelse</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Innsamling av setninger
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Se vår veiledning i hvordan du bruker setningsinnsamleren</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Du kan <sentenceCollectorLinkAdd>legge til et lite antall setninger</sentenceCollectorLinkAdd>,
+    eller du kan gjøre <bulkImportDocsLink>masseimporter ved å bruke Github</bulkImportDocsLink>.
+    Husk at setninger må være <licenseLink>CC0 (eller offentlig eiendom)</licenseLink>, eller du kan skrive dine egne.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Se mer om innsamling av setninger</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Hvordan fungerer stedslokalisering?
+about-playbook-how-localize-content-1 = Oversettelse av Common Voice-nettstedet skjer på <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Opprett en konto</pontoonAccountLink> hvis du ikke har en. Velg deretter språket ditt <strong>(‘Team’)</strong> og velg deretter prosjektet, <pontoonCvLink>Common Voice</pontoonCvLink>. Det vil være filer å oversette. Klikk på en, så viser den ord på engelsk og en boks for å oversette dem.
+about-playbook-how-localize-content-3 = Oversettelsen er fra engelsk, men du kan se <strong>Forslag</strong> på andre språk. Klikk på <strong>Profil</strong>-ikonet, deretter <strong>Innstillinger</strong>-koblingen og legg til eventuelle språk du snakker. Nederst til høyre er en liste over oversettelser kalt <strong>Lokaler</strong>. Oversettelser vises på nettstedet etter en dag.
+about-playbook-how-localize-content-4 = Siden er klar til å bli lansert når den er 75 % fullført.
+about-playbook-how-localize-content-5 = Se vår videoforklaring for å hjelpe
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Hvordan legger jeg til setninger?
+about-playbook-how-add-sentences-content-2 = Setninger må gjennomgås og aksepteres av to personer for å bli inkludert i Common Voice. Du lager retningslinjer for språket ditt <languageGuidelinesLink>her</languageGuidelinesLink>. Setninger må være i <licenseLink>offentlig domene</licenseLink> og være kortere enn 15 ord. Du kan be eieren av en tekst om å gjøre den til <waiverLink>CC0 ved å bruke vår fraskrivelsesprosess</waiverLink>, og sende til oss på commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Du kan bruke <scraperLink>Setningsuthenter</scraperLink> for å hente korte setninger fra Wikipedia.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Hvordan spiller jeg inn et stemmeklipp av høy kvalitet?
 
 ## How to grow language
 
