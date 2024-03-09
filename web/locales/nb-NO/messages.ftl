@@ -54,6 +54,7 @@ cak = Kakchikel
 ckb = Sentralkurdisk
 cnh = Hakha Chin
 co = Korsisk
+crh = Krimtatarisk
 cs = Tsjekkisk
 cv = Tsjuvasjisk
 cy = Walisisk
@@ -75,12 +76,14 @@ ff = Fulfulde
 fi = Finsk
 fo = Færøysk
 fr = Fransk
+fuf = Fulfulde
 fy-NL = Frisisk
 ga-IE = Irsk
 gl = Galisisk
 gn = Guarani
 gom = Goan Konkani
 gu-IN = Gujarati
+guc = Wayuunaiki
 ha = Hausa
 he = Hebraisk
 hi = Hindi
@@ -123,6 +126,7 @@ lo = Laotisk
 lt = Litauisk
 ltg = Lettgallisk
 lv = Latvisk
+lzz = Lasisk
 mai = Maithili
 mdf = Moksja
 mg = Gassisk
@@ -143,11 +147,13 @@ nb-NO = Norsk (bokmål)
 nd = Nordndebele
 ne-NP = Nepalsk
 nhe = Østlig la Huasteca-nahuatl
+nhi = Vestlige Sierra Puebla Nahuatl
 nia = Nias
 nl = Nederlandsk
 nn-NO = Norsk (nynorsk)
 nr = Sørndebele
 nso = Nordsotho
+ny = Chinyanja
 nyn = Runyankole
 oc = Oksitansk
 om = Oromo
@@ -160,6 +166,7 @@ ps = Pashto
 pt = Portugisisk
 quc = K'iche'
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Sursilvan Retoromansk
 rm-vallader = Vallader
 ro = Rumensk
@@ -169,6 +176,8 @@ sah = Jakutisk
 sat = Santali (Ol Chiki)
 sc = Sardisk
 scn = Siciliansk
+sco = Skotsk
+sd = Sindhi
 sdh = Sørkurdisk
 shi = Shilha
 si = Singalesisk
@@ -209,7 +218,9 @@ uz = Usbekisk
 ve = Tshivenda
 vec = Venetiansk
 vi = Vietnamesisk
+vmw = Makua
 vot = Votisk
+wep = Westfalsk
 wo = Wolof
 xh = Xhosa
 yi = Jiddisch
@@ -401,6 +412,12 @@ native-language =
 profile-form-add-accent = Legg til ny tilpasset dialekt «{ $inputValue }»
 profile-form-submit-save = Lagre
 profile-form-submit-saved = Lagret
+male_masculine = Mann/Maskulin
+female_feminine = Dame/Feminin
+intersex = Intersex
+transgender = Transkjønnet
+non-binary = Ikke-binær
+do_not_wish_to_say = Ønsker ikke å si
 # Gender
 other = Annet
 why-profile-title = Hvorfor opprette en profil?
@@ -419,6 +436,7 @@ why-demographic = Hvorfor er dette viktig?
 why-demographic-explanation-2 = Anonymiserte brukerdata, som alder, kjønn og dialekt beriker stemmedataene som brukes for å trene talegjenkjenningsmotorene. Ditt brukernavn og e-postadresse vil aldri bli assosiert med dine bidrag, og du kan velge om du vil at brukernavnet ditt skal være offentlig eller anonymt.
 accept-privacy = Jeg godtar at dere håndterer denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 accept-privacy-title = Personvernbestemmelser
+accept-privacy-and-terms = Jeg aksepterer <termsLink>Betingelsene</termsLink> og <privacyLink>Personvernerklæringen</privacyLink> til Common Voice
 login-identity = Innloggingsidentitet
 login = Logg inn
 login-signup = Logg inn / registrer deg
@@ -435,6 +453,8 @@ help-accent = Trenger du hjelp med dialekt?
 help-accent-explanation = Dialekten din er måten du uttaler ord på. Det kan formes av hvor du har bodd, hvilke andre språk du snakker og mange andre faktorer. Du kan dele all informasjon du føler er relevant her.
 help-variants = Trenger du hjelp med varianter?
 help-variants-explanation = Varianter er en spesifikk form for et språk - for eksempel delt av de som bor i en geografi eller et samfunn. Noen ganger kalles disse dialekter.
+help-sex-or-gender-changes = Trenger du hjelp med endringene i kjønn?
+help-sex-or-gender-changes-explanation = Vi tilbyr flere alternativer for å gi folk flere valgmuligheter i hva de forteller oss om deres kjønn eller kjønnsidentitet. Vennligst beskriv selv på den måten som føles mest naturlig for deg. <learnMoreLink>Finn ut mer om vår tilnærming til sex og kjønn.</learnMoreLink>
 
 ## Profile - Email
 
@@ -463,6 +483,10 @@ faq-what-cv-a =
     Talegjenkjenningsteknologi revolusjonerer måten vi interagerer med maskiner, men tilgjengelige systemer er dyre og lukkede. Common Voice er en del av Mozillas initiativ for å gjøre talegjenkjenningsteknologi bedre og mer tilgjengelig for alle. Common Voice er en stor, global database med stemmebidrag, som lar hvem som helst, raskt og enkelt trene stemme-aktiverte applikasjoner i potensielt alle språk.
     
     Vi samler ikke bare lydklipp fra språk med stor utbredelse, men også fra de med færre brukere. Ved å publisere et variert datasett med stemmer, så setter vi utviklere, gründere og samfunn i stand til å selv fylle dette behovet. I tillegg til Common Voice datasettet, så bygger vi også en åpen kildekode talegjenkjenningsmotor som vi kaller Deep Speech.
+faq-what-cv-a-2 =
+    Talegjenkjenningsteknologi revolusjonerer måten vi samhandler med maskiner på, men nåværende tilgjengelige systemer er dyre og lukkede. Common Voice er en del av Mozillas initiativ for å gjøre talegjenkjenningsteknologi bedre og mer tilgjengelig for alle. Common Voice er en stor, global database med stemmebidrag, som lar hvem som helst, raskt og enkelt trene stemme-aktiverte applikasjoner i potensielt alle språk.
+    
+    Vi samler ikke bare lydklipp fra språk med stor utbredelse, men også fra de med færre brukere. Ved å publisere et variert datasett med stemmer, så setter vi utviklere, gründere og samfunn i stand til å selv fylle dette behovet.
 faq-why-important-q = Hvorfor er det viktig?
 faq-why-important-a =
     Tale er ofte den mest naturlige måten vi kommuniserer med hverandre, og taleteknologi gir oss den muligheten på datamaskiner og portable enheter. Vi ønsker å sette programvareutviklere i stand til å bygge fantastiske talegjenkjenningsapplikasjoner, som sanntidsoversetting og stemmestyrte personlige assistenter. Men akkurat nå er det meste av taledata som trengs for å bygge denne typen applikasjoner dyre og proprietære. Vi håper at Common Voice datasettet vil gi programvareutviklere det de trenger for å  lage nye ting og gjøre taleteknologi tilgjengelig på sitt eget språk.
@@ -483,6 +507,9 @@ faq-do-want-native-a = Ja! Vi vil særlig ha din stemme! Et delmål med Common V
 faq-why-different-speakers-q = Hvorfor trenger dere så mange forskjellige talere per språk?
 faq-why-different-speakers-a = De fleste stemmedatabaser trenes med en overvekt av visse demografier, noe som innebærer vekting mot <articleLink>menn og middelklasse</articleLink>.  Aksenter og dialekter som tenderer til å være underrepresentert i datasettene som benyttes til trening er typisk assosiert med grupper av mennesker som allerede er underrepresentert ellers i samfunnet. Mange talegjenkjenningsmotorer sliter også med å forstå kvinnelige stemmer. Derfor trenger vi stor variasjon i datasettet!
 faq-why-my-lang-q = Hvorfor er ikke mitt språk inkludert ennå?
+faq-why-my-lang-a =
+    Common Voice en en dugnadsplattform hvor alle språkene er lagt til av frivillige.
+    Vi ønsker gjerne at du legger til ditt språk! <languageRequestLink>Send forespørsel om å legge til ditt språk</languageRequestLink>
 faq-what-quality-q = Hva slags lydkvalitet kreves for at et lydklipp kan brukes i datasettet?
 faq-what-quality-a = Vi vil at Common Voice-datasettet skal reflektere lydkvaliteten som en tale-til-tekst motor opplever i virkeligheten. Så vi trenger variasjon. I tillegg til et variert utvalg av talere, vil et variert utvalg lydkvaliteter lære tale-til-tekst-motoren å håndtere varierende situasjoner i den virkelige verden, som for eksempel stemmer i bakgrunnen eller støy fra biler. Så lenge lydklippet ditt er forståelig. så burde det være godt nok for datasettet.
 faq-why-10k-hours-q = Hvorfor er 10 000 validerte timer målet for innhenting av lydklipp per språk?
