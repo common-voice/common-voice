@@ -665,12 +665,18 @@ about-playbook-how-grow-language-content-8 = <strong>Vær kreativ!</strong> Spr�
 about-playbook-how-validate = Hvordan vet jeg om jeg skal godkjenne et stemmeklipp?
 about-playbook-how-validate-content-1 = Hvis du kunne <strong>høre dem</strong> og <strong>forstå dem</strong>, er det vanligvis <strong>best å godkjenne</strong>.
 about-playbook-how-validate-content-2 = <strong>Ikke avvis klipp der taleren «har en aksent» som er forskjellig fra din egen</strong> – dette er viktig for at stemmegjenkjenning skal fungere bedre for alle.
+about-playbook-how-validate-content-4 = Hvis et klipp avvises av 2 personer, blir det utgitt i et annet delsett av datasettet.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Hvordan får jeg tilgang til og bruker datasettet?
+about-playbook-how-access-dataset-content-1 = Du kan gå til <datasetsPage>datasettsiden</datasetsPage>, velge versjonen og språkene du vil ha, og laste den ned! Filene har <metadataLink>tilknyttede metadata</metadataLink>, for eksempel demografisk informasjon og valideringsdata. Du må oppgi en e-postadresse for å laste ned datasettet.
+about-playbook-how-access-dataset-content-2 = Hvis du leter etter verktøy for å bygge ASR-modeller, kan du koble til andre mennesker i fellesskapet <discourseLink>på Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Hvordan tas prosjektavgjørelser?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice er gjort mulig av et mangfoldig fellesskap av aktivister, lingvister, datavitere, akademikere og programvareingeniører fra hele verden. Prosjektet ledes av Mozilla Foundation.
 about-playbook-how-project-governance-content-2 = Vårt styresett er bygget på verdiene av:
 about-playbook-how-project-governance-content-3 = Personvern, sikkerhet og åpenhet.
 about-playbook-how-project-governance-content-4 = Samfunnsdeltakelse og beslutningstaking.
@@ -778,7 +784,10 @@ get-started-speech = Kom i gang med talegjenkjenning
 other-datasets = Andre stemmedatasett
 feedback-q = Har du tilbakemeldinger?
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er et <docsLink>åpen kildekodeverktøy</docsLink> for forskere som utvikler toppmoderne konversasjons-AI-modeller.
+resource-deepspeech-info = Mozillas åpen kildekode-stemmegjenkjenningsmotor Deep Speech kan brukes til å bygge talegjenkjenningsapplikasjoner. Les vår <githubLink>Github-oversikt</githubLink> eller bli med på <discourseLink>DeepSpeech Discourse</discourseLink> for å lære hvordan du kommer i gang.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> er dedikert til åpen taleteknologi. Prosjektene deres inkluderer dyplæringsbaserte STT- og TTS-motorer.
 community-playbook = Fellesskapets Spillebok
+resource-playbook-info = <playbookLink>Finn nyttig veiledning</playbookLink> om hele Common Voice-reisen, fra lokalisering til datasettbruk, samt hvordan du kan koble til fellesskapet vårt.
 data-other-librispeech-description = LibriSpeech er et korpus på omtrent 1000 timer med 16 kHz lest engelsk tale hentet fra innleste lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = TED-LIUM-korpuset ble produsert av presentasjoner og deres transkripsjoner tilgjengelig på TED-nettstedet.
@@ -1212,7 +1221,10 @@ contribution-criteria-page-title = Bidragskriterier
 contribution-criteria-page-description = Forstå hva du skal se etter når du lytter til stemmeklipp, og bidra til å gjøre stemmeopptakene dine rikere også!
 contribution-for-example = for eksempel
 contribution-misreadings-title = Feillesninger
+contribution-misreadings-description = Når du lytter, sjekk veldig nøye at det som er tatt opp er nøyaktig det som er skrevet; avvis hvis det er mindre feil. <br />Veldig vanlige feil inkluderer:
+contribution-misreadings-description-extended-list-1 = Mangler <strong>«En»</strong> eller <strong>«Den»</strong> i starten av opptaket.
 contribution-misreadings-description-extended-list-2 = Mangler en <strong>«s»</strong> på slutten av et ord.
+contribution-misreadings-description-extended-list-3 = Lese sammentrekninger som ikke faktisk er der, for eksempel "Kan'ke" i stedet for "Kan ikke", eller omvendt.
 contribution-misreadings-description-extended-list-5 = Bruker flere forsøk på å lese et ord.
 contribution-misreadings-example-1-title = De gigantiske dinosaurene i triastiden.
 contribution-misreadings-example-2-title = De gigantiske dinosauren i triastiden.
