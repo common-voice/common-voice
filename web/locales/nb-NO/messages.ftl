@@ -1497,7 +1497,47 @@ sc-lang-info-add-more = <addLink>Legg til flere setninger nå!</addLink>
 
 # [/SentenceCollector]
 
+create-profile-button = Opprett en profil
+# IMAGE TAGS
+img-alt-success-checkmark = hake for godkjenning
+# GUIDELINES PAGE
+guidelines-header = Retningslinjer for bidrag
+voice-collection = Innsamling av stemmer
 sentence-collection = Setningsinnsamling
+varying-pronunciations-example = Ruten var uklar.
+varying-pronunciations-tip-2 = [Britisk engelsk kan lage "root"]
+misreadings-explanation-2 = Svært vanlige feil inkluderer:
+misreadings-explanation-3 = Mangler "En" eller "Den" i starten av opptaket.
+misreadings-explanation-4 = Mangler en "s" på slutten av et ord.
+misreadings-explanation-7 = Bruker flere forsøk på å lese et ord.
+misreadings-example-1 = Vi skal ut og hente kaffe.
+misreadings-example-2 = Vi går for å hente kaffe.
+misreadings-example-3 = Vi skal ut og hente kaffe.
+misreadings-example-4 = Humlen fløy forbi.
+misreadings-tip-1 = [Skal være "Vi er"]
+misreadings-tip-2 = [Ingen "én" i originalteksten]
+misreadings-tip-3 = [Lydopptak samsvarer ikke med teksten]
+background-noise-example-1 = De gigantiske dinosaurene i triastiden.
+background-noise-example-2 = [Nys] De gigantiske dinosaurene i [hoste] triastiden.
+background-noise-example-3 = De gigantiske dino [hoste] triastiden.
+background-noise-example-4 = [Sprake] gigantiske dinosaurene i [sprake] -rias.
+background-noise-tip-1 = [avbrutt av bakgrunnsstøy]
+background-noise-tip-2 = [En del av teksten kan ikke høres]
+background-voices-example-1 = De gigantiske dinosaurene i triastiden. [lest av én stemme]
+background-voices-tip-1 = Kommer du? [ropes av en annen]
+still-have-questions = Har du fortsatt spørsmål?
+contact-common-voice = Kontakt Common Voice-teamet
+public-domain = Offentlig Eiendom
+citing-sentences = Kildehenvisninger for setninger
+adding-sentences = Legge til setninger
+reviewing-sentences = Vurdere setninger
+sentence-domain = Setningsdomene
+citing-sentences-subheader-websites = Nettsteder
+citing-sentences-subheader-websites-explanation = Du kan inkludere nettstedet, for eksempel "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Akademisk Referanse
+citing-sentences-subheader-academic-reference-explanation = Du kan bruke akademisk referansestil, f.eks. Harvard-stil "Mozilla (2021) Common Voice. Tilgjengelig på https://commonvoice.mozilla.org/ (Hentet: 15. september 2021)"
+citing-sentences-subheader-offline-sources = Frakoblet tilstand
+citing-sentences-subheader-offline-sources-explanation = For tekst som er offentlig eiendom, men ikke er tilgjengelig på nettet, kan du bruke akademisk referansestil, f.eks. Harvard-stil "Jess (2021) My Public license poems"
 citation =
     .label = Kildehenvisning
 self-citation = Selvsitering
