@@ -1558,29 +1558,105 @@ sc-review-form-button-reject = Avvis
 sc-review-form-button-skip = Hopp over
 sc-review-form-button-approve = Godkjenn
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
-sc-review-form-button-approve-shortcut = Y
+sc-review-form-button-approve-shortcut = J
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
-sc-review-form-button-skip-shortcut = S
+sc-review-form-button-skip-shortcut = H
+sc-review-form-keyboard-usage-custom = Du kan også bruke tastatursnarveier: { sc-review-form-button-approve-shortcut } for å godkjenne, { sc-review-form-button-reject-shortcut } for å avvise, { sc-review-form-button-skip-shortcut } for å hoppe over
+sc-review-form-button-submit =
+    .submitText = Fullfør gjennomgangen
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ingen setninger gjennomgått.
+        [one] { $setninger } setning gjennomgått. Takk skal du ha!
+       *[other] { $setninger } setninger gjennomgått. Takk skal du ha!
+    }
+sc-review-form-review-failure = Gjennomgangen kunne ikke lagres. Prøv igjen senere.
+sc-review-link = Gjennomgang
 
 ## SETTINGS
 
+sc-settings-title = Innstillinger
+sc-settings-ui-language = Grensesnittspråk
+sc-settings-reset-skipped = Tilbakestill setninger du har hoppet over
+sc-settings-skipped-decription = Du hoppet tidligere over setninger mens du gjennomgikk. Tilbakestilling av setninger du har hoppet over vil vise alle setninger du har hoppet over på nytt. Dette er uavhengig av språket.
+sc-settings-show-all-button = Vis alle setninger du har hoppet over på nytt
+sc-settings-failed = Kunne ikke endre innstillingene. Vennligst prøv på nytt.
+# VALIDATION
+sc-validation-number-of-words = Setningen må inneholde mellom 1 og 14 (inklusive) ord
+sc-validation-no-numbers = Setning kan ikke inneholde tall
+sc-validation-no-symbols = Setningen kan ikke inneholde symboler
+sc-validation-no-abbreviations = Setningen kan ikke inneholde forkortelser
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Velg språk/lokalisering
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerskap
+partnerships-header-text = Det skal mye til for å få Common Voice til å skje! Vi gjør det ikke alene. Vil du samarbeide med oss? Vi vil gjerne høre fra deg.
+partnerships-get-in-touch = Ta kontakt
+partnerships-become-a-partner = Bli en Common Voice partner
+partnerships-community-header = Fellesskap, kreative og sivilsamfunn
+partnerships-community-description = Samfunnet er det bankende hjertet til Common Voice – de kommer fra hele verden, og er språkaktivister og vitenskapsmenn og kunstnere. Du kan lære mer om hvordan du blir involvert på vår <about>Om</about>-side og i vår <community>Community-spillebok</community>. Hvis du er interessert i et dypere organisatorisk partnerskap, <emailFragment>ta kontakt.</emailFragment>
+partnerships-foundations-header = Stiftelser
+partnerships-foundations-description = Vi samarbeider med stiftelser, sivilsamfunn og samfunnspartnere for å gjøre internett til et sunnere sted, med et spesielt fokus på Øst-Afrika. Finn ut mer om vårt <programmaticWork>programmatiske arbeid.</programmaticWork>
+partnerships-governments-header = Regjeringer
+partnerships-governments-description = Vi er glade for å støtte offentlig sektor sitt engasjement innen teknologi, innovasjon og språkrettigheter. Hvis du planlegger å kjøre et større prosjekt eller kampanje, vennligst <emailFragment>ta kontakt.</emailFragment>
+partnerships-academia-header = Universiteter, akademikere og forskere
+partnerships-academia-description = Åpen innovasjon er kjernen i det vi gjør. For forskningssamarbeid, datainnsamling eller intervjuer, <emailFragment>ta kontakt.</emailFragment>
+partnerships-small-business-header = Små bedrifter, inkludert oppstartsbedrifter innen teknologi og kunstig intelligens
+partnerships-small-business-description = Vi er alltid ute etter å høre fra dataforbrukere om deres behov og kontekst – fra samarbeid om datainnsamlingsplattformen til å gi datahelseinnsikt, vi ønsker å <emailFragment>høre fra deg.</emailFragment>
+partnerships-corporates-header = Storskala bedrifter og plattformselskaper
+partnerships-corporates-description = Hvis du ønsker å snakke mer om datasettet, vil medfinansiere planlagte utvidelser av plattformen eller se på samarbeidsmuligheter, <emailFragment>send oss en forespørsel.</emailFragment>
+partnerships-our-partners = Våre partnere
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Takk for at du donerte stemmeklippene dine!
+first-cta-subtitle-text = Vil du dele litt informasjon om hvordan du snakker?
+why-donate = Hvorfor spør dere?
+why-donate-explanation-1 = Denne informasjonen er valgfri å oppgi - du bør bare legge den til hvis du føler deg komfortabel. Når vi frigir datasettet, pseudonymiserer vi all personlig informasjon, og sørger for at informasjon som navn og e-post ikke er knyttet til demografisk informasjon som alder eller kjønn.
+why-donate-explanation-2 = For at teknologi skal fungere godt for alle, må dataene som hjelper utviklere med å bygge teknologi gjenspeile et mangfoldig spekter av mennesker. For eksempel, hvis vi ikke inkluderer noen talere med en bestemt aksent eller dialekt, vil ikke teknologien fungere bra for folk med den aksenten eller dialekten. <learnMore>Finn ut mer om hvorfor metadata er viktig.</learnMore>
+add-information-button = Legg til informasjon
+continue-speaking-button = Nei takk, fortsett å snakke
+create-profile-text = Vil du lagre informasjonen din? <createProfile>Opprett en profil</createProfile>
+thanks-for-voice-toast = Takk for informasjon om stemmen din
+thanks-for-voice-toast-error = Det oppsto en feil under innsending av informasjon om stemmen din
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Takk for at du bidro med stemmen din!
+second-cta-subtitle-text = Med en profil kan du holde oversikt over aktiviteten din og få kontakt med et fellesskap av bidragsytere til taledata.
+already-have-an-account = Har du allerede en konto? <login>Logg på</login>
 create-profile-button = Opprett en profil
 # IMAGE TAGS
 img-alt-success-checkmark = hake for godkjenning
 # GUIDELINES PAGE
 guidelines-header = Retningslinjer for bidrag
+guidelines-header-subtitle = Forstå hvordan du kan bidra med å validere setninger og lydklipp til Common Voice-datasettet
 voice-collection = Innsamling av stemmer
 sentence-collection = Setningsinnsamling
+varying-pronunciations = Varierende uttale
+misreadings = Feillesninger
+offensive-content = Støtende innhold
+background-noise = Bakgrunnsstøy
+background-voices = Stemmer i bakgrunnen
+volume = Volum
+reader-effects = Talemåte
+just-unsure = Bare usikker?
+example = Eksempel
+varying-pronunciations-explanation-1 = Vi ønsker forskjellige dialekter og aksenter velkommen! Vær veldig forsiktig før du avviser et klipp med den begrunnelse at du tror leseren har uttalt et ord feil, har lagt vekten på feil sted, eller har ignorert tegnsetting. Det er et bredt utvalg av talemåter i bruk rundt om i verden, noen av dem har du kanskje ikke hørt i lokalsamfunnet ditt. Gi en god margin for de som kanskje snakker annerledes enn deg.
+varying-pronunciations-explanation-2 = På den annen side, hvis du tror at leseren aldri har kommet over ordet før, og gjetter feil på uttalen, vennligst avvis. Hvis du er usikker, bruk hopp over-knappen.
 varying-pronunciations-example = Ruten var uklar.
+varying-pronunciations-tip-1 = [Canadisk engelsk kan få "route" til å høres ut som "rowt"]
 varying-pronunciations-tip-2 = [Britisk engelsk kan lage "root"]
+offensive-content-explanation = Setninger blir kontrollert gjennom en prosess for fellesskapsmoderering, men denne prosessen er ikke perfekt. Hvis du ser eller hører en setning som støter eller opprører deg - for eksempel fordi den bryter med våre <participationGuidelines>retningslinjer for fellesskapsdeltakelse</participationGuidelines> - vennligst bruk flaggknappen i brukergrensesnittet. Du kan også kontakte oss på <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = Det er viktig å lese alle ordene på siden riktig. Når du lytter, sjekk veldig nøye at det som er tatt opp er nøyaktig det som er skrevet; avvis hvis de har lagt til, trukket sammen eller utelatt ord.
 misreadings-explanation-2 = Svært vanlige feil inkluderer:
 misreadings-explanation-3 = Mangler "En" eller "Den" i starten av opptaket.
 misreadings-explanation-4 = Mangler en "s" på slutten av et ord.
+misreadings-explanation-5 = Lese sammentrekninger som ikke faktisk er der, for eksempel "Kan'ke" i stedet for "Kan ikke", eller omvendt.
+misreadings-explanation-6 = Mangler slutten av siste ord ved å avslutte opptaket for raskt.
 misreadings-explanation-7 = Bruker flere forsøk på å lese et ord.
 misreadings-example-1 = Vi skal ut og hente kaffe.
 misreadings-example-2 = Vi går for å hente kaffe.
@@ -1589,14 +1665,17 @@ misreadings-example-4 = Humlen fløy forbi.
 misreadings-tip-1 = [Skal være "Vi er"]
 misreadings-tip-2 = [Ingen "én" i originalteksten]
 misreadings-tip-3 = [Lydopptak samsvarer ikke med teksten]
+background-noise-explanation = Du må kunne høre hvert ord i opptaket. Vi vil at maskinlæringsalgoritmer skal kunne håndtere en rekke bakgrunnsstøy, og til og med relativt høye lyder eller stille bakgrunnsmusikk kan aksepteres forutsatt at de ikke hindrer deg i å høre hele teksten. Hvis spraking eller at opptaket hakker hindrer deg i å høre teksten betyr at du bør avvise klippet.
 background-noise-example-1 = De gigantiske dinosaurene i triastiden.
 background-noise-example-2 = [Nys] De gigantiske dinosaurene i [hoste] triastiden.
 background-noise-example-3 = De gigantiske dino [hoste] triastiden.
 background-noise-example-4 = [Sprake] gigantiske dinosaurene i [sprake] -rias.
 background-noise-tip-1 = [avbrutt av bakgrunnsstøy]
 background-noise-tip-2 = [En del av teksten kan ikke høres]
+background-voices-explanation = Litt bakgrunnsstøy er greit, men hvis du kan høre en annen person si tydelige ord, bør klippet avvises. Vanligvis skjer dette der TV-en har blitt stående på, eller der det foregår en samtale i nærheten.
 background-voices-example-1 = De gigantiske dinosaurene i triastiden. [lest av én stemme]
 background-voices-tip-1 = Kommer du? [ropes av en annen]
+volume-explanation = Det vil være naturlige variasjoner i volum på de forskjellige leserne. Avvis kun hvis volumet er så høyt at opptaket brytes opp, eller (vanligere) hvis det er så lavt at du ikke kan høre hva som blir sagt uten å referere til den skrevne teksten.
 still-have-questions = Har du fortsatt spørsmål?
 contact-common-voice = Kontakt Common Voice-teamet
 public-domain = Offentlig Eiendom
