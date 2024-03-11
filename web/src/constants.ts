@@ -22,3 +22,9 @@ export const WHATS_PUBLIC = [
 
 // @TODO: use this constant in other files where we use this email
 export const COMMON_VOICE_EMAIL = 'commonvoice@mozilla.com';
+
+export const AB_TESTING_SPLIT_KEY = 'ABTestingSplit';
+
+export const SPLIT_A = 'Split_A';
+
+export const SPLIT_B = "Split_B";

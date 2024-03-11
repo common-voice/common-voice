@@ -6,6 +6,8 @@ import DonateButton from '../donate-button/donate-button'
 
 import { useABTestingSplit } from '../../hooks/use-ab-testing-split'
 
+import { SPLIT_A } from '../../constants'
+
 import './donate-banner.css'
 
 type Props = {
@@ -19,11 +21,12 @@ export const DonateBanner = ({
 }: Props) => {
   const abTestingSplit = useABTestingSplit()
 
+  const donateBannerBackgroundColour =
+    abTestingSplit === SPLIT_A ? 'pink' : 'coral'
+
   return (
     <div
-      className={`donate-banner-container bg-${
-        abTestingSplit === 'Split_A' ? 'pink' : 'coral'
-      }`}>
+      className={`donate-banner-container bg-${donateBannerBackgroundColour}`}>
       <div className="donate-cta">
         <Localized
           id={donateCTALocalizedId}

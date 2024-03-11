@@ -34,6 +34,7 @@ import { Flags } from '../stores/flags';
 import LanguagesProvider from './languages-provider';
 import ErrorBoundary from './error-boundary/error-boundary';
 import LocalizedErrorBoundary from './error-boundary/localized-error-boundary';
+import { AB_TESTING_SPLIT_KEY, SPLIT_A, SPLIT_B } from '../constants';
 
 const ListenPage = React.lazy(
   () => import('./pages/contribution/listen/listen')
@@ -51,8 +52,6 @@ const SentryRoute = Sentry.withSentryRouting(Route)
 
 const SENTRY_DSN_WEB =
   'https://40742891598c4900aacac78dd1145d7e@o1069899.ingest.sentry.io/6251028'
-
-export const AB_TESTING_SPLIT_KEY = 'ABTestingSplit'
 
 Sentry.init({
   dsn: shouldEmitErrors() ? SENTRY_DSN_WEB : null,
@@ -194,9 +193,9 @@ let LocalizedPage: any = class extends React.Component<
     const randomValue = Math.random();
 
     if (randomValue < 0.5) {
-      localStorage.setItem(AB_TESTING_SPLIT_KEY, 'Split_A')
+      localStorage.setItem(AB_TESTING_SPLIT_KEY, SPLIT_A)
     } else {
-      localStorage.setItem(AB_TESTING_SPLIT_KEY, 'Split_B')
+      localStorage.setItem(AB_TESTING_SPLIT_KEY, SPLIT_B)
     }
   }
 
