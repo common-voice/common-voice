@@ -72,6 +72,15 @@
             box-shadow: 0 2px 5px 0 var(--light-grey);
             overflow: scroll;
         }
+
+        & label.for-input {
+            input[type='text'] {
+                &::placeholder {
+                    color: var(--black);
+                    opacity: 1; /* For Firefox */
+                }
+            }
+        }
     }
 
     .expandable-infomation-wrapper {

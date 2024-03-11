@@ -29,6 +29,7 @@ import {
   LabeledCheckbox,
   LabeledInput,
   LabeledSelect,
+  Options,
 } from '../../../ui/ui';
 import { isEnrolled } from '../../dashboard/challenge/constants';
 import { UserLanguage } from 'common';
@@ -37,23 +38,6 @@ import ProfileInfoLanguages from './languages/languages';
 import ExpandableInformation from '../../../expandable-information/expandable-information';
 
 import './info.css';
-
-const Options = withLocalization(
-  ({
-    children,
-    getString,
-  }: {
-    children: { [key: string]: string };
-  } & WithLocalizationProps) => (
-    <>
-      {Object.entries(children).map(([key, value]) => (
-        <option key={key} value={key}>
-          {getString(key, null, value)}
-        </option>
-      ))}
-    </>
-  )
-);
 
 function ProfileInfo({
   getString,
