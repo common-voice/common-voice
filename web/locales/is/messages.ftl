@@ -54,6 +54,7 @@ cak = Kaqchikel
 ckb = Mið-kúrdíska
 cnh = Hakatjínska
 co = Korsíska
+crh = Krímtataríska
 cs = Tékkneska
 cv = Tjúvasíska
 cy = Velska
@@ -69,16 +70,20 @@ eo = Esperanto
 es = Spænska
 et = Eistneska
 eu = Baskneska
+ewo = Ewondo
 fa = Persneska
 ff = Fúlanska
 fi = Finnska
 fo = Færeyska
 fr = Franska
+fuf = Púlar Gínea
 fy-NL = Frísneska
 ga-IE = Írska
 gl = Galisíska
 gn = Gvaraní
 gom = Goan Konkani
+gu-IN = Gújaratí
+guc = Wayuunaiki
 ha = Hása
 he = Hebreska
 hi = Hindí
@@ -98,6 +103,7 @@ it = Ítalska
 izh = Ingríska
 ja = Japanska
 jbo = Lojban
+jv = Javanska
 ka = Georgíska
 kaa = Karakalpak
 kab = Kabýlska
@@ -118,7 +124,9 @@ lij = Liguríska
 ln = Lingala
 lo = Laó
 lt = Litháenska
+ltg = Latgalian
 lv = Lettneska
+lzz = Laz
 mai = Maithilíska
 mdf = Mokseska
 mg = Malagasíska
@@ -150,6 +158,7 @@ nyn = Runyankole
 oc = Oksítanska
 om = Afaan Ormoo
 or = Oríja
+os = Ossetíska
 pa-IN = Punjabi
 pap-AW = Papíamentó (Arúba)
 pl = Pólska
@@ -157,6 +166,7 @@ ps = Pastó
 pt = Portúgalska
 quc = K'iche'
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Surilsvanrómanska
 rm-vallader = Valladerrómanska
 ro = Rúmverska
@@ -166,6 +176,8 @@ sah = Jakútíska
 sat = Santali (Ol Chiki)
 sc = Sardiníska
 scn = Sikileyska
+sco = Skoska
+sd = Sindhí
 sdh = Suður-Kúrdíska
 shi = Shilha
 si = Singalíska
@@ -206,7 +218,9 @@ uz = Úsbeska
 ve = Tshivenda
 vec = Feneyska
 vi = Víetnamska
+vmw = Emakhuwa
 vot = Votíska
+wep = Vestfalíska
 wo = Wolof
 xh = Xhósa
 yi = Jiddíska
@@ -243,6 +257,7 @@ share-text = Hjálpaðu við að kenna vélum hvernig alvöru fólk talar, gefð
 link-copied = Tengill afritaður
 back-top = Til baka
 logout = Skrá út
+donate = Styrkja
 
 ## Home Page
 
@@ -397,8 +412,11 @@ native-language =
 profile-form-add-accent = Bæta við nýjum sérsniðnum hreimi „{ $inputValue }“
 profile-form-submit-save = Vista
 profile-form-submit-saved = Vistað
-male = Karlkyns
-female = Kvenkyns
+male_masculine = Karl/karlkyns
+female_feminine = Kona/kvenkyns
+intersex = Intersex
+transgender = Trans
+do_not_wish_to_say = Vil ekki segja
 # Gender
 other = Annað
 why-profile-title = Hvers vegna notkunarsnið?
@@ -615,7 +633,6 @@ about-playbook-how-add-sentences = Hvernig bæti ég við setningum?
 about-playbook-how-add-sentences-content-1 = <strong>Setningasafnarinn</strong> er tól til að safna og staðfesta setningar. Þú munt þurfa að <scAccountLink>búa til aðgangsreikning</scAccountLink> til að geta notað það. Síðan skaltu bæta tungumálinu þínu við <strong>notkunarsniðið</strong> þitt. Þú getur <strong>bætt við</strong> setningum eða <strong>yfirfarið</strong> setningar sem áður hefur verið safnað.
 about-playbook-how-add-sentences-content-2 = Setningar þurfa yfirferð og samþykki af hálfu tveggja aðila til að vera með í Samrómi. Þú getur búið til leiðbeiningar fyrir tungumálið þitt <languageGuidelinesLink>hér</languageGuidelinesLink>. Setningar verða að vera í <licenseLink>almenningseigu</licenseLink> og vera styttri en 15 orð. Þú getur beðið eiganda texta um að gefa hann út með <waiverLink>CC0 notkunarleyfi með því að nota afsalsferli okkar</waiverLink> og senda okkur á commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Þú getur notað <scraperLink>setningaútdrátt</scraperLink> til að nýta stuttar setningar af Wikipedia.
-about-playbook-how-add-sentences-content-4 = Setningar sem hafa verið staðfestar eru fluttar út á miðvikudögum og eru tiltækar eftir næstu útgáfu.
 
 ## How to record quality
 
@@ -662,6 +679,9 @@ about-playbook-how-project-governance-content-4 = Virkni þátttakenda og ákvar
 about-playbook-how-project-governance-content-5 = Mati að verðleikum og viðurkenningu.
 about-playbook-how-project-governance-content-6 = Gagnkvæm ábyrgð.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lestu meira um hvernig okkur er stjórnað</governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -782,6 +802,15 @@ dataset-version = Útgáfa
 sha256-checksum-copied = SHA256-gátsumma afrituð!
 sha256-checksum-copied-error = Mistókst að afrita SHA256-gátsummu
 clipboard-not-supported = Klippispjald ekki stutt
+no-information-available = Engar upplýsingar tiltækar
+dataset-metadata-sex = Kyn
+# dataset metadata - age of contributor
+dataset-metadata-age = Aldur
+donate-modal-message = Gagnasafnið þitt er að hlaðast niður!
+dataset-donate-modal-heading = Vissir þú…
+donate-modal-explanation-1 = Það kostar tæpa milljón dollara á ári að hýsa gagnasöfnin og bæta kerfið fyrir meira en 100 tungumálasamfélögin sem treysta á það sem við gerum?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ef þú metur opin, inngild gögn – gefðu í dag!</bold>
 
 ## Download Modal
 
@@ -859,6 +888,8 @@ language-section-in-progress = Í vinnslu
 language-section-in-progress-new-description = Þessi tungumál eru um þessar mundir í þróun hjá Samrómssamfélaginu. Framvindustikan sýnir hversu langt hvert tungmál er komið í <localizationGlossaryLink>þýðingum vefsvæðisins</localizationGlossaryLink> og í <sentenceCollectionGlossaryLink>söfnun setninga</sentenceCollectionGlossaryLink>.
 language-section-launched = Gangsett
 language-section-launched-description = Fyrir þessi tungumál hefur vefsvæðið verið <localizationGlossaryLink>þýtt</localizationGlossaryLink> að fullu, og er komið með nóg af <sentenceCollectionGlossaryLink>söfnuðum setningum</sentenceCollectionGlossaryLink> til þess að leyfa áframhaldandi framlög fyrir <speakLink>tal-</speakLink> og <listenLink>hlustun</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Síðast uppfært: { $lastUpdatedTimeStamp }
 languages-show-more = Sjá meira
 languages-show-less = Sjá minna
 language-meter-in-progress = Framvinda
@@ -928,6 +959,9 @@ listen-empty-state = Við erum uppiskroppa með upptökur til að staðfesta á 
 listen-loading-error =
     Við gátum ekki náð í neinar hljóðupptökur sem þú getur hlustað á.
     Endilega reyndu aftur síðar.
+listen-abort-title = Ljúka við að staðfesta klippur?
+listen-abort-cancel = Halda áfram að staðfesta
+listen-abort-confirm = Ljúka við að staðfesta
 speak-empty-state = Við erum uppiskroppa með setningar til að taka upp á þessu máli...
 speak-empty-state-cta = Leggja til setningar
 speak-loading-error =
@@ -1584,6 +1618,9 @@ continue-speaking-button = Nei takk, halda áfram að tala
 create-profile-text = Viltu vista upplýsingarnar þínar? <createProfile>Útbúðu notandasnið</createProfile>
 thanks-for-voice-toast = Takk fyrir raddupplýsingarnar þínar
 thanks-for-voice-toast-error = Villa kom upp við að senda raddupplýsingarnar þínar
+first-cta-gender-select-default-option = Veldu valkost
+first-cta-gender-select-help-text =
+    .label = Hvernig myndir þú lýsa kyni þínu eða kynhneigð?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Þakka þér fyrir að leggja þitt af mörkum!
 second-cta-subtitle-text = Með notandasniði geturðu fylgst með virkni þinni og tengst við samfélag þeirra sem gefa raddsýni.
@@ -1626,6 +1663,9 @@ adding-sentences-subheader-spelling-punctuation-explanation = Setningin verður 
 adding-sentences-subheader-numbers = Tölur
 adding-sentences-subheader-punctuation = Greinarmerki
 adding-sentences-subheader-offensive-content = Óviðeigandi efni
+
+## WRITE PAGE
+
 sentence =
     .label = Setning
 citation =
@@ -1636,9 +1676,15 @@ contact-us = Hafa samband
 add-sentence-success = 1 setningu safnað
 add-sentence-error = Villa við að bæta við setningu
 required-field = Fylltu út í þennan reit.
-# REVIEW PAGE
-sc-review-instruction-first-part = Merkja
-sc-review-instruction-second-part = er þetta málfræðilega rétt setning?
+
+## REVIEW PAGE
+
 report-sc-different-language = Annað tungumál
 report-sc-different-language-detail = Það er ritað á öðru tungumáli en ég er að yfirfara.
 sentences-fetch-error = Villa kom upp við að sækja setningar
+
+## BULK SUBMISSION 
+
+
+## Donate banner
+
