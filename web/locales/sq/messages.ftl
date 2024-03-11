@@ -423,6 +423,8 @@ help-accent = Ju duhet ca ndihmë me thekset?
 help-accent-explanation = Theksi është mënyra se si shqiptoni fjalët. Mund të formohet nga ku keni jetuar, cilat gjuhë të tjera flisni dhe plot faktorë të tjerë. Këtu mund të jepni çfarëdo hollësie që mendoni se ka vend.
 help-variants = Ju duhet ca ndihmë me variantet?
 help-variants-explanation = Variantet një formë specifike për një gjuhë - për shembull të përbashkët për ata që banojnë në një vend, ose në një bashkësi. Ndonjëherë këta quhen dialekte.
+help-sex-or-gender-changes = Ju duhet ndihmë për ndryshime Seksi, ose Gjinie?
+help-sex-or-gender-changes-explanation = Po ofrojmë më tepër mundësi për t’u dhënë njerëzve më tepër zgjedhje në ato çka na tregojnë rreth identitetit të tyre seksor apo gjinor. Ju lutemi, vetë-përshkruhuni në mënyrën që ndjeni më natyrore për ju. <learnMoreLink>Mësoni më tepër rreth trajtimit tonë ndaj seksit dhe gjinisë.</learnMoreLink>
 
 ## Profile - Email
 
@@ -1681,6 +1683,7 @@ reviewing-sentences-explanation-1 = Nëse togfjalëshi i plotëson kriteret më 
 reviewing-sentences-explanation-2 = Nëse togfjalëshi s’i plotëson kriteret më sipër, klikoni mbi butonin “Jo”
 reviewing-sentences-explanation-3 = Nëse jeni të pasigurt për frazën, mundeni edhe ta anashkaloni frazën dhe të vazhdoni me pasuesen.
 reviewing-sentences-explanation-4 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
+domain-explanation = Përkatësia i referohet lëndës së subjektit të togfjalëshit. Aktualisht mund të zgjidhni mes:
 
 ## WRITE PAGE
 
@@ -1714,6 +1717,8 @@ single-sentence-submission = Parashtrim i Një Fraze
 bulk-sentence-submission = Parashtrim Frazash Në Masë
 single-sentence = Frazë Njëshe
 bulk-sentences = Mori Frazash
+sentence-domain-select =
+    .label = Përkatësi Togfjalëshi
 # Sentence Domain dropdown option
 agriculture = Bujqësi
 # Sentence Domain dropdown option

@@ -1,4 +1,8 @@
-import { Localized } from '@fluent/react';
+import {
+  Localized,
+  WithLocalizationProps,
+  withLocalization,
+} from '@fluent/react';
 import * as React from 'react';
 import { HTMLProps, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -256,4 +260,21 @@ export const Toggle = ({
       <div />
     </Localized>
   </div>
+);
+
+export const Options = withLocalization(
+  ({
+    children,
+    getString,
+  }: {
+    children: { [key: string]: string };
+  } & WithLocalizationProps) => (
+    <>
+      {Object.entries(children).map(([key, value]) => (
+        <option key={key} value={key}>
+          {getString(key, null, value)}
+        </option>
+      ))}
+    </>
+  )
 );

@@ -414,8 +414,6 @@ native-language =
 profile-form-add-accent = Embojuaju myanduhe pyahu mba’etepyre "{ $inputValue }"
 profile-form-submit-save = Ñongatu
 profile-form-submit-saved = Ñongatupyre
-male = Kuimba’e
-female = Kuña
 # Gender
 other = Ambue
 why-profile-title = Mba’érepa mba’ete
@@ -766,7 +764,6 @@ number-of-voices = Mboy Ahy’ópa
 splits = Ñemboja’o
 email-to-download = Ehai Ñanduti veve emboguejy hag̃ua
 why-email = <b>Mba’érepa roikotevẽ ñanduti vevére?</b> Oiméne romog̃uahẽ ndéve marandu iñambuéva jave kuaapy’aty, péicha roikuaaukakuaa.
-why-donate = ¿Mba’ére eporandu?
 confirm-size = Reiméma remboguejy hag̃uáicha <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -1700,7 +1697,9 @@ reviewing-sentences-explanation-1 = Pe ñe’ẽjuaju oiko hekopetéramo, eikutu
 reviewing-sentences-explanation-2 = Pe ñe’ẽjuaju ndoikóiramo hekopete, eikutu pe votõ "Nahániri".
 reviewing-sentences-explanation-3 = Ndereikuaaporãiramo ñe’ẽjuaju rehe, avei ikatu emboyke ha ehasánte chugui.
 reviewing-sentences-explanation-4 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = Embojuaju <icon></icon> ñe’ẽjuaju ojeporukuaáva
 write-page-subtitle = Umi ñe’ẽjuaju jehupipyre ojuajúta mba’ekuaarã aty ñemoneĩmbyre cc-0 opavave oiporukuaáva.
 sentence =
@@ -1731,6 +1730,18 @@ single-sentence-submission = Emondo peteĩ ñe’ẽjoaju año
 bulk-sentence-submission = Emondo heta ñe’ẽjoaju
 single-sentence = Peteĩ ñe’ẽjoaju
 bulk-sentences = Heta ñe’ẽjoaju
+sentence-domain-select =
+    .label = Ñe’ẽjuaju rendatee
+# Sentence Domain dropdown option
+agriculture = Temitỹmby
+# Sentence Domain dropdown option
+automotive = Mba’yrumỹi
+# Sentence Domain dropdown option
+finance = Viruporukuaa
+# Sentence Domain dropdown option
+general = Tuichakue
+# Sentence Domain dropdown option
+healthcare = Tesãirãre ñema’ẽ
 
 ## REVIEW PAGE
 
