@@ -18,6 +18,8 @@ banner-error-slow-1 = Hon digarezit, gorrek eo Common Voice. Trugarez evit hoc�
 banner-error-slow-2 = Kalz a dud a zo war al lec’hienn ha klask a reomp diskoulmañ ar c'hudennoù.
 banner-error-slow-link = Pajenn statud
 error-something-went-wrong = Hon digarezit, degouezhet ez eus bet ur fazi
+error-clip-upload = Uskargañ ar c’hlip-mañ a c’hwit bepred, kenderc'hel memestra?
+error-clip-upload-server = Uskargañ ar c’hlip-mañ a c’hwit bepred en dafariad. Adkargit ar bajenn pe klaskit en-dro diwezhatoc’h.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -416,7 +418,10 @@ profile-form-submit-save = Enrollañ
 profile-form-submit-saved = Enrollet
 male_masculine = Gourel
 female_feminine = Benel
+intersex = Etrereizhel
 transgender = Treuzjener
+non-binary = Andaouel
+do_not_wish_to_say = Ne faot ket din lavarout
 # Gender
 other = All
 why-profile-title = Perak ur profil?
@@ -435,6 +440,7 @@ why-demographic = Perak e vez pouezus?
 why-demographic-explanation-2 = Roadennoù implij dizanv evel an oad, ar jener, hag ar pouez-mouezh a sikour da wellaat ar roadennoù aodio implijet evit gourdoniñ ha kas war-raok al luskerioù anaoudegezh ar vouezh. Morse ne vo liammet hoc’h anv-implijer hag ho chomlec’h postel d’ar roadennoù a vez kaset ganeoc’h, ha gellout a rit dibab etre lakaat publik hoc’h anv-implijer pe chom dizanv.
 accept-privacy = Asantiñ a ran ec’h implijfec’h ar pezh titour-mañ evel ma vez lavaret e <privacyLink>politikerezh a-fet buhez prevez</privacyLink> Mozilla
 accept-privacy-title = Reolenn a-fet buhez prevez
+accept-privacy-and-terms = En ur implijout Common Voice e savit a-du gant hon <termsLink>zermenoù</termsLink> hag hon <privacyLink>evezhiadennoù a-fet buhez prevez</privacyLink>
 login-identity = Identelezh kevreañ
 login = Kennaskañ
 login-signup = Kevreañ / Lakaat e anv
@@ -451,6 +457,8 @@ help-accent = Ezhomm sikour gant ar pouez-mouezh?
 help-accent-explanation = Ar pouez-mouezh eo an doare ma distripit ar gerioù. Gallout a ra bezañ stummet dre al lec'h ma vevit, pe c'hoazh gant yezhoù pe abegoù all. Gallout a rit reiñ titouroù ouzhpenn amañ.
 help-variants = Ezhomm sikour gant an adstummoù?
 help-variants-explanation = An adstummoù eo stummoù resis ur yezh. Reoù boutin en ur gumuniezh pe ul lec’h resis, da skouer. Anvet eo rannyezh a-wechoù.
+help-sex-or-gender-changes = Ezhomm ho peus sikour gant ar cheñchamant rev pe jener?
+help-sex-or-gender-changes-explanation = Kinnig a reont muioc'h a zibaboù d'an dud war o fivelezh rev ha jener. Lakait ar pezh a fell deoc’h. <learnMoreLink>Lennit diwar-benn hon doare da verañ ar rev hag ar jener.</learnMoreLink>
 
 ## Profile - Email
 
@@ -503,6 +511,9 @@ faq-do-want-native-a = Ya, c’hoant hon eus ho mouezh! Ul lodenn eus pal Common
 faq-why-different-speakers-q = Perak ho peus ezhomm kement a gomzerien disheñvel dre yezh?
 faq-why-different-speakers-a = Lodenn vrasañ an diaz roadennoù mouezhioù a zo gourdonet gant un dreistdileuridigezh eus poblañsoù ’zo, dreist-holl ar <articleLink>gwazed a renkad etre</articleLink>. An taolioù-mouezh hag ar rannyezhoù a zo is-dileuriet er roadennoù gourdonañ a zo peurvuiañ liammet gant strolladoù a zo arlezekaet endeo. Meur a vekanik o deus diaesterioù evit adanavezout mouezhioù maouezed. Setu perak e fell deomp kaout liesseurted en hor diaz-roadennoù!
 faq-why-my-lang-q = Perak n’eo ket enkorfet ma yezh c’hoazh?
+faq-why-my-lang-a =
+    Ur savenn labour a-stroll eo Common Voice, hag an holl yezhoù a zo bet degaset gant tud a youl vat.
+    Plijet e vefemp ma ouzhpennfec'h ho yezh! <languageRequestLink>Goulennit diwar-benn ouzhpennañ ho yezh.</languageRequestLink>
 faq-what-quality-q = Peseurt perzhded son a zo goulennet evit implijout ur c’hlip mouezh er spletad roadennoù?
 faq-what-quality-a = Fellout a ra deomp e vefe spletad roadennoù Common Voice heverk eus perzhded ar son a vo enrollet gant un anaoudeger ar vouezh neuze e klaskomp kaout liesseurted. Asambles gant ur gumuniezh liesseurt e c’hallo ur spletad roadennoù gant perzhded son disheñvel deskiñ d’al lusker anaoudegezh ar vouezh merañ meur a zegouezhioù er bed gwirion, gant trouzioù ur c’harr pe gant tud o komz en drekleur. Keit ha m’eo komprenus ho klip mouezh eo mat a-walc’h da vezañ enkorfet er spletad roadennoù.
 faq-why-10k-hours-q = Perak eo 10 000 eurvezh gwiriekaet ar pal dre yezh evit tapout ar son?

@@ -76,12 +76,14 @@ ff = ful
 fi = finès
 fo = feroès
 fr = francès
+fuf = ful de Guinea
 fy-NL = frisó
 ga-IE = irlandès
 gl = gallec
 gn = guaraní
 gom = konkani
 gu-IN = gujarati
+guc = wayuunaiki
 ha = haussa
 he = hebreu
 hi = hindi
@@ -124,6 +126,7 @@ lo = laosià
 lt = lituà
 ltg = Latgalià
 lv = letó
+lzz = laz
 mai = maithili
 mdf = mokxa
 mg = malgaix
@@ -163,6 +166,7 @@ ps = paixtú
 pt = portuguès
 quc = quitxé
 quy = quítxua chanka
+qvi = quítxua septentrional
 rm-sursilv = romanx (sobreselvà)
 rm-vallader = romanx engiadinès
 ro = romanès
@@ -214,7 +218,9 @@ uz = uzbek
 ve = tshivenda
 vec = vènet
 vi = vietnamita
+vmw = makhuwa
 vot = vòtic
+wep = westfalià
 wo = wòlof
 xh = xhosa
 yi = ídix
@@ -402,8 +408,12 @@ native-language =
 profile-form-add-accent = Afegeix un nou accent personalitzat «{ $inputValue }»
 profile-form-submit-save = Desa
 profile-form-submit-saved = S'ha desat
-male = Home
-female = Dona
+male_masculine = Home
+female_feminine = Dona
+intersex = Intersexual
+transgender = Transgènere
+non-binary = No binari
+do_not_wish_to_say = Prefereixo no dir-ho
 # Gender
 other = Altre
 why-profile-title = Per què un perfil?
@@ -439,6 +449,8 @@ help-accent = Us cal ajuda sobre els accents?
 help-accent-explanation = L'accent és la forma com pronuncieu les paraules. Es pot crear a partir dels llocs on heu viscut, quines altres llengües parleu i molts altres factors. Podeu compartir aquí qualsevol informació que considereu rellevant.
 help-variants = Us cal ajuda amb les variants?
 help-variants-explanation = Les variants són formes específiques d'una llengua. Per exemple, compartides per persones que viuen en una zona geogràfica o comunitat. De vegades s'anomenen dialectes.
+help-sex-or-gender-changes = Us cal ajuda amb els canvis de gènere o sexe?
+help-sex-or-gender-changes-explanation = Oferim més a opcions a les persones perquè puguin més opcions on triar sobre el que ens diuen sobre el seu sexe o identitat de gènere. Si us plau, descriviu-vos de la manera que us sembli més natural. <learnMoreLink>Obteniu més informació sobre el nostre enfocament del sexe i el gènere.</learnMoreLink>
 
 ## Profile - Email
 
@@ -748,7 +760,7 @@ number-of-voices = Nombre de veus
 splits = Divisions
 email-to-download = Introduïu l'adreça electrònica per baixar
 why-email = <b>Per què una adreça electrònica?</b> És una forma de contacte en cas que ens haguéssim de posar en contacte en un futur per canvis en el conjunt de dades.
-why-donate = Per què ho demaneu?
+why-donate-datasets-page = Mozilla Common Voice és el conjunt col·lectiu de dades de veu obertes més divers del món, i ens financem íntegrament amb donatius. Costa gairebé un milió de dòlars l'any allotjar els conjunts de dades i millorar la plataforma per a les més de 100 comunitats lingüístiques que depenen del que fem. Si valoreu les dades obertes i inclusives, <b>feu un donatiu avui!</b>
 confirm-size = Estic preparat per a iniciar una baixada de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -793,6 +805,11 @@ no-information-available = No hi ha cap informació disponible
 dataset-metadata-sex = Gènere
 # dataset metadata - age of contributor
 dataset-metadata-age = Edat
+donate-modal-message = El conjunt de dades s'està baixant!
+dataset-donate-modal-heading = Sabíeu que...
+donate-modal-explanation-1 = Costa gairebé un milió de dòlars a l'any allotjar els conjunts de dades i millorar la plataforma per a les més de 100 comunitats lingüístiques que depenen del que fem?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Si valoreu les dades obertes i inclusives, feu un donatiu avui!</bold>
 
 ## Download Modal
 
@@ -1659,6 +1676,7 @@ public-domain = Domini públic
 citing-sentences = Citació de frases
 adding-sentences = Addició de frases
 reviewing-sentences = Revisió de frases
+sentence-domain = Domini de les frases
 public-domain-explanation-1 = És molt important que totes les frases de text siguin <publicDomain>domini públic</publicDomain> (<cc0>cc0</cc0>), ja que el conjunt de dades de Common Voice es publica sota una llicència cc0. Pengeu una frase només si n'esteu segur i incloeu sempre la citació corresponent.
 public-domain-explanation-2 = Les millors frases per a construir un motor de reconeixement de veu útil són les de llenguatge col·loquial i modern. Algunes idees per a ajudar-vos a generar frases són;
 public-domain-explanation-3 = Creeu frases modernes i col·loquials per vosaltres mateixos o amb els vostres amics o comunitat lingüística, per exemple mitjançant una «marató d'escriptura»
@@ -1697,7 +1715,10 @@ reviewing-sentences-explanation-1 = Si la frase compleix els criteris anteriors,
 reviewing-sentences-explanation-2 = Si la frase no compleix els criteris anteriors, feu clic en el botó «No».
 reviewing-sentences-explanation-3 = Si no esteu segur de la frase, també podeu saltar-la i passar a la següent.
 reviewing-sentences-explanation-4 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
-# WRITE PAGE
+domain-explanation = El domini fa referència a la temàtica de la frase. Actualment, podeu triar entre:
+
+## WRITE PAGE
+
 write-instruction = Afegeix <icon></icon> una frase de domini públic
 write-page-subtitle = Les frases aportades aquí s'afegiran a un conjunt de dades disponible públicament amb llicència cc-0.
 sentence =
@@ -1718,7 +1739,7 @@ new-sentence-rule-7 = Amb la citació corresponent
 new-sentence-rule-8 = Idealment, natural i conversacional (la frase ha de ser fàcil de llegir)
 how-to-cite = Com cal citar?
 how-to-cite-explanation-bold = Citeu amb un enllaç URL o el nom complet de l'obra.
-how-to-cite-explanation = Si són paraules vosgres, només heu de dir <italicizedText>«Autocitació»</italicizedText>. Hem de saber on heu trobat aquest contingut perquè puguem comprovar que és de domini públic i que no s'apliquen restriccions de drets d'autor. Per a obtenir més informació sobre la citació, consulteu la <guidelinesLink>Pàgina de Directrius</guidelinesLink>.
+how-to-cite-explanation = Si són paraules vostres, només cal que hi indiqueu <italicizedText>«Autocitació»</italicizedText>. Hem de saber on heu trobat aquest contingut perquè puguem comprovar que és de domini públic i que no s'apliquen restriccions de drets d'autor. Per a obtenir més informació sobre la citació, consulteu la <guidelinesLink>Pàgina de Directrius</guidelinesLink>.
 guidelines = Directrius
 contact-us = Contacteu-nos
 add-sentence-success = 1 frase recollida
@@ -1728,6 +1749,32 @@ single-sentence-submission = Enviament d'una única frase
 bulk-sentence-submission = Enviament massiu de frases
 single-sentence = Frase única
 bulk-sentences = Frases massives
+sentence-domain-select =
+    .label = Domini de les frases
+# Sentence Domain dropdown option
+agriculture = Agricultura
+# Sentence Domain dropdown option
+automotive = Automoció
+# Sentence Domain dropdown option
+finance = Finances
+# Sentence Domain dropdown option
+food_service_retail = Alimentació, serveis i venda al detall
+# Sentence Domain dropdown option
+general = General
+# Sentence Domain dropdown option
+healthcare = Atenció sanitària
+# Sentence Domain dropdown option
+history_law_government = Història, dret i govern
+# Sentence Domain dropdown option
+language_fundamentals = Fonaments de la llengua (p. ex., dígits, lletres i diners)
+# Sentence Domain dropdown option
+media_entertainment = Mitjans de comunicació i entreteniment
+# Sentence Domain dropdown option
+nature_environment = Natura i medi ambient
+# Sentence Domain dropdown option
+news_current_affairs = Notícies i actualitat
+# Sentence Domain dropdown option
+technology_robotics = Tecnologia i robòtica
 
 ## REVIEW PAGE
 

@@ -58,7 +58,7 @@ crh = Kitata cha Krimia
 cs = Kicheki
 cv = Kichuvashi
 cy = Kiwalesi
-da = Kidenishi
+da = Kideni
 dag = Kidaw'ani
 de = Kijeremani
 dsb = Kisorow'ia Cha Isi
@@ -243,7 +243,7 @@ speak-now = Deda idakoni
 datasets = Mafungu gha data
 languages = Viteto
 about = Ni Kindoki
-partner = M'mbao
+partner = W'adana Nesi
 profile = Fwana
 help = W'utesia
 contact = Andu kovikilwa
@@ -603,8 +603,8 @@ about-playbook-how-localize-content-5 = Kupata w'utesia, zighana video yedu yeel
 ## How to add sentences
 
 about-playbook-how-add-sentences = Nichuria sentensi w'ada?
-about-playbook-how-add-sentences-content-1 = Kwadima kuchuria sentensi aja kwa <writePageLink>Peji Yeandika</writePageLink> angu kuzoze sentensi aja kwa <reviewPageLink>Peji yeazoza</reviewPageLink>.
-about-playbook-how-add-sentences-content-2 = Sentensi kungirwa Common Voice, suti rizozo na kurumirilwa ni w'andu w'aw'i. Sentensi suti rikaie <licenseLink>ra w'andu w'ose</licenseLink> na rikaie vui risevike malagho 15. Kwadima kulomba mwandiki waro uribonye <waiverLink>CC0 kwa chia yedu einja vighirio</waiverLink>, nao kudidumie aja commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-1 = Kwadima kuchuria sentensi aja kwa <writePageLink>Peji Yeandika</writePageLink> angu kuidirie sentensi aja kwa <reviewPageLink>Peji Yeidiria</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Sentensi kungirwa Common Voice, suti riidirilo na kurumirilwa ni w'andu w'aw'i. Masharti gha kiteto chenyu mwaboisira <languageGuidelinesLink>aha</languageGuidelinesLink>. Sentensi suti rikaie <licenseLink>ra w'andu w'ose</licenseLink> na rikaie vui risevike malagho 15. Kwadima kulomba mwandiki waro uribonye <waiverLink>CC0 kunughia chia yedu einja vighirio</waiverLink>, nao kudidumie aja commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Kwadima kutumia<scraperLink>Kiburua sentensi</scraperLink> eri kupate sentensi vui kufuma kwa Wikipedia.
 
 ## How to record quality
@@ -699,9 +699,9 @@ review-terms = Kwa kutumia Common Voice, kwarumiriana na <termsLink> Tamzi <term
 terms-agree = Narumiria
 terms-disagree = Sirumirie
 review-aborted = Kupakia kwadufunuka. Kwakunde kufute rija kwarekodi?
-review-submit-title = W'uria na Kuenje
-review-submit-msg = Chaw'ucha kwa kurekodi <lineBreak></lineBreak> Danu w'uria nao kupakie vlipu vako aha naisi.
-review-recording = Zighana ngera yaboie
+review-submit-title = Kusikiria na Kughenja
+review-submit-msg = Chaw'ucha kwa kurekodi <lineBreak></lineBreak> Danu sikiria nao kughenje vlipu vako kwa kufwada kifado cheghenja aho naisi.
+review-recording = Sikiria
 review-rerecord = Rekodi sena
 review-cancel = Tana na kupakia
 review-keep-recordings = W'ika rija klipu kwarekodi
@@ -853,7 +853,7 @@ action-tap = Adada
 contribute = Changa
 listen = Sikiria
 write = Andika
-review = W'uria
+review = Idiria
 skip = Rama
 shortcuts = Chia vui
 clips-with-count-pluralized =
@@ -884,10 +884,10 @@ record-three-more-instruction = Idadu na kwameria!
 record-again-instruction = Nicha! <recordIcon></recordIcon> Rekodi klipu chinughiagha
 record-again-instruction2 = Kwabonya nicha, rekodi sena <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Cha mwisho!
-review-tooltip = W'uria & kurekodi vlipu sena ekuendeliagha
+review-tooltip = Sikiria na kuw'urie kurekodi vlipu sena ekuendeliagha
 share-clip = W'aghia klipu
 share-common-voice = W'aghia Common Voice
-review-instruction = W'uria & kurekodi vlipu sena iji ifwane
+review-instruction = Sikiria nao kuw'urie kurekodi vlipu sena iji yakundika
 record-submit-tooltip = { $actionType } Enja kukakaia tayari
 clips-uploaded = Vlipu vajoswa
 record-abort-title = Kumerie kurekodi imbiri?
@@ -1121,7 +1121,7 @@ demo-account-sign-up = Duma mtumalio ghongia
 ## Demo Contribute
 
 demo-contribute-card-header = Kwavikia kufunya lwaka lwako angu kufunya kudu kusikirie?
-demo-contribute-card-body-v2 = Danu angu kwamanya kutineri aighu ya Common Voice, kwaki kuseitimagha? Fwada aikoni ya maikrofoni kuzoya kushoma sentensi nandighi.<br/><br/>Kaw'ona kokunda kusikiria chwaka ra w'andu w'azima, fwada aikoni esikiria. Oho kwatesia kuisa ngera rekodi raindane the sentensi riandikilo kwa skrini.
+demo-contribute-card-body-v2 = Danu angu kwamanya kutineri aighu ya Common Voice, kwaki kuseitimagha? Fwada aikoni ya maikrofoni kuzoya kushoma sentensi nandighi.<br/><br/>Kaw'ona kokunda kuidiria michango ya chwaka ra w'andu w'azima, fwada aikoni esikiria. Kwatesia kungira tiki rija sentensi rashomelo seji koni riandikilo.
 demo-listen-subtitle = Kwalighisa kuzoya kuchanga?
 
 ## Demo Dashboard
@@ -1170,6 +1170,20 @@ contribution-background-noise-description-extended = Kaw'ona rekodi yadumbuka, a
 contribution-background-noise-example-1-fixed-title = <strong>[Tinya]</strong> Dinasori mbaa ra <strong>[Koa]</strong> Triasiki.
 contribution-background-noise-example-2-fixed-title = Ijumu ja dino <strong>[koa]</strong>ja Triasiki.
 contribution-background-noise-example-2-explanation = [Malagho ghamu ndeghiw'esikirika]
+contribution-background-noise-example-3-fixed-title = <strong>[Kwaruzika]</strong>majumu gha dinasori gha<strong>[kwaruzika]</strong>-riasiki.
+contribution-background-voices-title = Chwaka Nanyuma
+contribution-background-voices-description = Ndoghoi nanyuma ni karakara, ela ndedikunde chwaka reshekeria mashini ya mtalo kuw'ada malagho ghiseko andenyi ya ishomo jiandikilo. kukadima kusikira malagho ghiseko ishominyi, icho klipu kuchileghe. Mando mengi agha ghakaia andu TV yasighwa yakorwa, angu w'andu w'ijagha malagho kavueri.
+contribution-background-voices-description-extended = Kaw'ona rekodi yadumbuka, angu yakwaruzika, ileghe isakaia ishomo jose jaw'iasikirika.
+contribution-background-voices-example-1-title = Majumu gha dinasori gha Triasiki.<strong>[ishomo ni lwaka lumweri]</strong>
+contribution-background-voices-example-1-explanation = Kwaw'echa? <strong>[kwaw'angwa ni mbenyu]</strong>
+contribution-volume-title = Lwaka
+contribution-volume-description = Lwaka lughalukagha kwa w'undu ghwa kushomwa ni w'andu w'isefwanane. Legha ishomo kaw'ona loka ighu nandighi hata ludumbuke, angu (sa mando malazi) loka ndonyi nandighi hata ndokusikiragha nikii chighorwagha kusezighanire iandiko jaro.
+contribution-reader-effects-title = W'ashomi na W'ushomi
+contribution-reader-effects-description = Rekodi raenga ni ra w'andu w'idedagha kwa chwaka raw'o ra kula ituku. Kwadima kurumiria lwaka lumu sa lokema, loghoghoria, angu lwa 'machachari'. Legha rekodi riborelo na rija rituagha lwaka lwa kompiuta.
+contribution-just-unsure-title = Ndokumanyire?
+contribution-just-unsure-description = Kukaw'ona kilambo chingi chiseghorelo aha, tumia kuelelwa na ija hikima yako kumoni. Kaw'ona kwalemwa ni kubonya w'uamuzi, tumia kifunguo cherama nao kuende kwa rekodi inughiagha.
+see-more = <chevron></chevron>W'ona ghamu ghechuria
+see-less = <chevron></chevron>W'ona kutini
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1178,18 +1192,54 @@ contribution-background-noise-example-2-explanation = [Malagho ghamu ndeghiw'esi
 
 ## HEADER/FOOTER
 
+sc-header-home = Mzinyi
+sc-header-how-to = Seji-ku
+sc-header-add = Churia
+sc-header-review = Idiria
+sc-header-rejected = Sentensi Rileghelo
+sc-header-my = Sentensi Rapo
+sc-header-statistics = Mitalo
+sc-header-profile = Profaili
+sc-footer-discourse = Malagho
+sc-footer-report-bugs = Repoti Mdudu
+sc-footer-translate = Fasiria ihi peji
+sc-footer-report-copyright = Ripoti maza ra w'ukitina
+sc-footer-privacy = Kiviso
+sc-footer-terms = Masikirano
+sc-footer-cookies = Vidakuzi
+sc-login-signup-button = Kungia / Kurejesta
+sc-logout-button = Kufuma
 
 ## HOME
 
+sc-home-title = Ngia kwa matumbanyo gha Common Voice
+sc-home-collect-title = Kutumbanya sentensi
+sc-home-review-title = Idiria sentensi
+sc-home-review-text = Ditesie kukagua iri sentensi ngera reko nicha kunighiana na maw'onyero.
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Seji ku
+sc-howto-addlang-title = Kuchuria kiteto kubonya nacho
+sc-howto-addsen-title = Churia sentensi mbishi
+sc-howto-review-title = Idiria Sentensi
+sc-howto-review-subtitle = Hakikisha iyo sentensi yakatisha agha ghikundikie:
+sc-howto-review-criteria-1 = Iyo sentensi suti iandiko nicha.
+sc-howto-review-criteria-2 = Iyo sentensi suti ikaie ni ya Kidaw'ida tiki.
+sc-howto-review-criteria-3 = Sentensi suti idime kudedeka.
+sc-howto-review-criteria-4 = Kaw'ona iyo sentensi yeko nicha, vada kifado cha "Rumiria"
+sc-howto-review-criteria-5 = Kaw'ona sentensi ndeiindane na seji daghora aha naighu, fwada kifunguo cha "Kuleghga." Kaw'ona koka na ngera ngera aighu ya iyo sentensi, kwadima kuirama kuende kwa ija yanughiria.
+sc-howto-review-criteria-6 = Kukasirilwa ni sentensi reidiria, dalomba kuditesie kutumbanya sentensi rimu!
+sc-howto-findpd-tips = Aha reko chia re Pata sentensi
+sc-howto-findpd-tips-3 = Kwa bahati bado ndediwadie  maandiko gha Wikipedia. Kwa huwo kusenughira agho maandiko.
+sc-howto-findpd-subtitle-2 = Kuw'adana na mashirika gha kavui angu w'andu w'a kavui
 
 ## MY SENTENCES
 
+sc-my-title = Sentensi Rapo
 
 ## REJECTED
 
@@ -1205,9 +1255,26 @@ contribution-background-noise-example-2-explanation = [Malagho ghamu ndeghiw'esi
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ndekune sentensi kwameria kuizighana.
+        [one] sentensi 1 kwameria kuzighana. Kazi iboie!
+       *[other] sentensi { $countOfReviewed } rameria kuzighanwa. Kazi iboie!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = Sentensi { $countOfUnreviewed } nderizighaniro. Kaw'ona kwakunde, kwadima kuzighana sentensi rako idakoni imbiri kuserienjere.
 
 ## LANGUAGE INFO
 
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ndekune sentensi rezighana.
+        [one] Sentensi 1 ezighana.
+       *[other] Sentensi { $totalInReview } raw'iazighanwa.
+    }
 
 ## LOGIN
 
@@ -1229,6 +1296,8 @@ contribution-background-noise-example-2-explanation = [Malagho ghamu ndeghiw'esi
 
 ## WRITE PAGE
 
+single-sentence-submission = Kuchanga sentensi imweri
+bulk-sentence-submission = Kuchanga Msigo Ghwa Sentensi
 
 ## REVIEW PAGE
 

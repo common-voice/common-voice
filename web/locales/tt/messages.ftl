@@ -252,7 +252,7 @@ terms = Шартлар
 cookies = Кукилар
 faq = Сорау-Җавап
 content-license-text = Эчтәлек <licenseLink>Creative Commons лицензиясе</licenseLink> шартлары белән нәшер ителә
-share-title = Күбрәк тавыш яздырылган саен яхшырак. Бу проект хакында дусларыгызга сөйләгез!
+share-title = Күбрәк сөйләм яздырылган саен яхшырак. Бу проект хакында дусларыгызга сөйләгез!
 share-text = Машиналарга кешеләрнең ничек сөйләшүен өйрәтергә ярдәм итегез — { $link } сәхифәсендә тавышыгызны иганә итегез
 link-copied = Сылтама копияләнде
 back-top = Сәхифә башына
@@ -656,7 +656,7 @@ about-playbook-how-grow-language-content-8 = <strong>Иҗатыгызны ачы
 
 about-playbook-how-validate = Аудиоязманы кабул итәргәме, юкмы икәнен ничек аңлый алам?
 about-playbook-how-validate-content-1 = Әгәр <strong>аларны ишетә</strong> һәм <strong>аңлый алгансыз икән</strong>, гадәттә <strong>иң яхшысы — кабул итү</strong>.
-about-playbook-how-validate-content-2 = <strong>Сөйләүченең акценты Сезнекеннән аерылып торган аудиоязмаларны кире кагмагыз</strong>. Сөйләм тану һәркем өчен дә яхшырак эшләсен өчен бу аудиоязмалар мөһим.
+about-playbook-how-validate-content-2 = <strong>Сөйләүченең акценты Сезнекеннән аерылып торган аудиоязмаларны кире какмагыз</strong>. Сөйләм тану һәркем өчен дә яхшырак эшләсен өчен бу аудиоязмалар мөһим.
 about-playbook-how-validate-content-3 = Әгәр дә әйтелешне <strong>аңлау мөмкин түгел</strong> дип уйлыйсыз икән, яисә <strong>арткы планда шау-шу күп булса</strong>, яисә <strong>башка кешеләр дә сөйләшсә</strong>, клипны кире кагыгыз. <accuracyLink>Күбрәк мәгълүмат өчен төгәллек критерийларыбызны карагыз</accuracyLink>.
 about-playbook-how-validate-content-4 = Әгәр дә клип 2 кеше тарафыннан кире кагылса, ул мәгълүмат тупланмасының аерым бер өлешендә нәшер ителә.
 
@@ -801,6 +801,10 @@ no-information-available = Мәгълүмат юк
 dataset-metadata-sex = Җенес
 # dataset metadata - age of contributor
 dataset-metadata-age = Яшь
+donate-modal-message = Мәгълүмат тупланмагыз иңдерелә!
+dataset-donate-modal-heading = Беләсезме…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ачык, инклюзив мәгълүматның кадерен беләсез икән — бүген иганә итегез!</bold>
 
 ## Download Modal
 
@@ -1203,8 +1207,14 @@ contribution-for-example = мәсәлән
 contribution-misreadings-title = Дөрес укымаулар
 contribution-misreadings-description = Сез тыңлаган аудиоязманың текстка туры килүен бик игътибар белән тикшерегез. Кечкенә генә хаталар булса да, аудиоязманы кире кагасыз. <br />Бик еш очраучы хата мисаллары:
 contribution-misreadings-description-extended-list-1 = Аудиоязма башында сүз яки сүзнең бер өлешен төшереп калдыру. Мәсәлән, "сәлам" урынына "әләм" дип яздыру.
+contribution-misreadings-description-extended-list-2 = Сүз ахырында <strong>"лар/ләр"</strong> төшеп калган.
+contribution-misreadings-description-extended-list-5 = Бер үк сүзне берничә тапкыр укырга тырышу.
+contribution-misreadings-example-2-title = Бу балык базарда сатыла.
+contribution-misreadings-example-2-explanation = ["балыклар" булырга тиеш иде]
+contribution-misreadings-example-3-title = Бу балыклар базарда саты-.
 contribution-misreadings-example-8-explanation = [Туры килмәгән эчтәлек]
 contribution-varying-pronunciations-title = Төрле әйтелешләр
+contribution-varying-pronunciations-description = Укучының сүзне дөрес әйтмәве, басымны урынсыз калдыруы яки сорау билгесенә игътибар итмәве нигезендә язуны кире кагар алдыннан сак булыгыз. Дөньяның һәм илнең төрле почмакларында кулланылган төрле акцентлар һәм әйтелешләр булырга мөмкин. Зинһар, сездән башкача сөйләшә алганнарны кире какмагыз.
 contribution-background-noise-title = Арткы планда шау-шу
 contribution-background-voices-title = Арткы планда тавышлар
 contribution-volume-title = Тавыш көче
@@ -1412,18 +1422,51 @@ create-profile-button = Профиль булдыру
 sentence-collection = Җөмләләр тупланмасы
 volume = Тавыш көче
 reader-effects = Укучы эффектлары
+varying-pronunciations-explanation-1 = Без төрле акцентларны хуплыйбыз! Укучының сүзне дөрес әйтмәве, басымны урынсыз калдыруы яки сорау билгесенә игътибар итмәве нигезендә язуны кире кагар алдыннан сак булыгыз. Дөньяның һәм илнең төрле почмакларында кулланылган төрле акцентлар һәм әйтелешләр булырга мөмкин. Зинһар, сездән башкача сөйләшә алганнарны кире какмагыз.
 public-domain = Иҗтимагый милектә
 citing-sentences-subheader-websites = Веб-сайтлар
+citation =
+    .label = Цитата
+adding-sentences-subheader-length = Озынлык
+adding-sentences-subheader-length-explanation = Җөмлә 15 сүздән кыскарак булырга тиеш.
+adding-sentences-subheader-spelling-punctuation = Орфография һәм тыныш билгеләре
+adding-sentences-subheader-spelling-punctuation-explanation = Җөмләдә орфографик хаталар булмаска тиеш.
+adding-sentences-subheader-speakable = Кычкырып укып була
+adding-sentences-subheader-numbers = Саннар
+adding-sentences-subheader-special-characters = Махсус символлар һәм чит тел хәрефләре
 
 ## WRITE PAGE
 
+sentence =
+    .label = Җөмлә
+sentence-input-value = Иҗтимагый милектәге җөмләгезне монда языгыз
+citation-input-value = Җөмләгезнең чыганагы
+citation =
+    .label = Цитата
+sc-write-submit-confirm = Бу җөмләнең <wikipediaLink>иҗтимагый милектә</wikipediaLink> булуын раслыйм һәм аны йөкләргә рөхсәтем бар.
+sc-review-write-title = Мин нинди җөмләләр өсти алам?
 single-sentence-submission = Бер җөмлә җибәрү
 bulk-sentence-submission = Күп җөмлә җибәрү
 single-sentence = Бер җөмлә
 bulk-sentences = Күп җөмлә
+# Sentence Domain dropdown option
+finance = Финанслар
+# Sentence Domain dropdown option
+food_service_retail = Ашамлык, хезмәт һәм сәүдә
+# Sentence Domain dropdown option
+general = Гомуми
+# Sentence Domain dropdown option
+healthcare = Сәламәтлек саклау
+# Sentence Domain dropdown option
+history_law_government = Тарих, хокук һәм дәүләт идарәсе
 
 ## REVIEW PAGE
 
 
 ## BULK SUBMISSION 
 
+upload-progress-text = Йөкләү дәвам итә...
+file-invalid-type = Яраксыз файл
+file-too-large = Файл артык зур
+file-too-small = Файл артык кечкенә
+too-many-files = Артык күп файл

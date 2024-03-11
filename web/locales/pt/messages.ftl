@@ -408,8 +408,12 @@ native-language =
 profile-form-add-accent = Adicionar novo sotaque personalizado "{ $inputValue }"
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvo
-male = Masculino
-female = Feminino
+male_masculine = Homem/Masculino
+female_feminine = Mulher/Feminino
+intersex = Intersexo
+transgender = Transgênero
+non-binary = Não binário
+do_not_wish_to_say = Não quero dizer
 # Gender
 other = Outro
 why-profile-title = Por que um perfil?
@@ -445,6 +449,8 @@ help-accent = Precisa de ajuda com sotaque?
 help-accent-explanation = Seu sotaque é a maneira como você pronuncia as palavras. Ele pode ser moldado de acordo com o local onde você viveu, os outros idiomas que você fala e muitos outros fatores. Você pode compartilhar qualquer informação que considere relevante aqui.
 help-variants = Precisa de ajuda com variantes?
 help-variants-explanation = Variante é uma forma específica de um idioma. Por exemplo, compartilhada por quem vive em uma área geográfica ou comunidade. Às vezes, é chamada de dialeto.
+help-sex-or-gender-changes = Precisa de ajuda com as mudanças de sexo ou gênero?
+help-sex-or-gender-changes-explanation = Oferecemos mais opções para dar às pessoas mais escolhas sobre o que nos contam sobre seu sexo ou identidade de gênero. Descreva a si mesmo da maneira que sentir mais natural para você. <learnMoreLink>Saiba mais sobre nossa abordagem em relação a sexo e gênero.</learnMoreLink>
 
 ## Profile - Email
 
@@ -500,8 +506,8 @@ faq-why-different-speakers-a =
     É por isso que, no nosso banco de dados de voz, queremos variedade!
 faq-why-my-lang-q = Por que meu idioma ainda não foi incluído?
 faq-why-my-lang-a =
-    Common Voice é uma plataforma de terceirização coletiva (crowdsourcing), os idiomas foram todos adicionados por voluntários.
-    Adoraríamos que você adicionasse seu idioma! <languageRequestLink>Pergunte sobre como adicionar seu idioma.</languageRequestLink>
+    Common Voice é uma plataforma de colaboração pública (crowdsourcing), os idiomas foram todos adicionados por voluntários.
+    Adoraríamos que você adicionasse seu idioma! <languageRequestLink>Pergunte como adicionar seu idioma.</languageRequestLink>
 faq-what-quality-q = Qual o nível de qualidade de áudio é necessário para um clipe de voz ser usado no conjunto de dados?
 faq-what-quality-a = Queremos que o conjunto de dados do Common Voice reflita a qualidade de áudio que um mecanismo de conversão de fala para texto ouvirá no mundo real, por isso, estamos procurando variedade. Além de uma comunidade diversificada de falantes, um conjunto de dados com qualidade de áudio variada ensinará o mecanismo de conversão de fala para texto a lidar com várias situações do mundo real, desde conversas ao fundo até ruído de carro. Contanto que o seu clipe de voz seja inteligível, ele deve ser bom o suficiente para o conjunto de dados.
 faq-why-10k-hours-q = Por que 10.000 horas validadas é a meta por idioma de captura de áudio?
@@ -757,7 +763,7 @@ number-of-voices = Número de vozes
 splits = Divisões
 email-to-download = Informe um email para baixar
 why-email = <b>Por que um email?</b> Podemos precisar entrar em contato com você no futuro para informar mudanças no conjunto de dados. Um email nos fornece um meio de contato.
-why-donate = Por que pergunta?
+why-donate-datasets-page = O Mozilla Common Voice é o conjunto de dados de voz aberto de colaboração pública mais diversificado do mundo e é mantido inteiramente por doações. Custa quase um milhão de dólares por ano hospedar os conjuntos de dados e melhorar a plataforma para as mais de 100 comunidades de idiomas que dependem do que fazemos. Se você valoriza dados abertos e inclusivos, <b>faça uma doação!</b>
 confirm-size = Está preparado para iniciar um download de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -802,6 +808,11 @@ no-information-available = Nenhuma informação disponível
 dataset-metadata-sex = Sexo
 # dataset metadata - age of contributor
 dataset-metadata-age = Idade
+donate-modal-message = Seu conjunto de dados está sendo baixado!
+dataset-donate-modal-heading = Você sabia…
+donate-modal-explanation-1 = Custa quase um milhão de dólares por ano hospedar os conjuntos de dados e melhorar a plataforma para as mais de 100 comunidades de idiomas que dependem do que fazemos?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Se você valoriza dados abertos e inclusivos, faça uma doação!</bold>
 
 ## Download Modal
 
@@ -1660,6 +1671,7 @@ public-domain = Domínio público
 citing-sentences = Citação de frases
 adding-sentences = Adição de frases
 reviewing-sentences = Revisão de frases
+sentence-domain = Domínio da frase
 public-domain-explanation-1 = É muito importante que todas as sentenças de texto sejam de <publicDomain>domínio público</publicDomain> (<cc0>cc0</cc0>), pois o conjunto de dados do Common Voice é lançado sob uma licença cc0. Só envie uma frase se tiver certeza e sempre inclua a citação relevante.
 public-domain-explanation-2 = As melhores frases para construir um mecanismo útil de reconhecimento de voz são de linguagem coloquial e moderna. Eis algumas ideias para ajudar a gerar frases;
 public-domain-explanation-3 = Crie você mesmo frases modernas e coloquiais, com seus amigos ou comunidade linguística, por exemplo, através de uma 'maratona de redação'
@@ -1698,7 +1710,10 @@ reviewing-sentences-explanation-1 = Se a frase atender aos critérios acima, cli
 reviewing-sentences-explanation-2 = Se a frase não atender aos critérios acima, clique no botão "Não".
 reviewing-sentences-explanation-3 = Se não tiver certeza sobre a frase, você também pode ignorar e passar para a próxima.
 reviewing-sentences-explanation-4 = Se não tiver mais frases para revisar, ajude-nos a coletar mais frases!
-# WRITE PAGE
+domain-explanation = Domínio refere-se ao assunto da frase. Atualmente, você pode escolher entre:
+
+## WRITE PAGE
+
 write-instruction = Adicionar <icon></icon> uma frase de domínio público
 write-page-subtitle = As frases contribuídas aqui são adicionadas a um conjunto de dados disponível publicamente de licença cc-0.
 sentence =
@@ -1729,6 +1744,32 @@ single-sentence-submission = Envio de uma única frase
 bulk-sentence-submission = Envio de grupo de frases
 single-sentence = Uma única frase
 bulk-sentences = Grupo de frases
+sentence-domain-select =
+    .label = Domínio da frase
+# Sentence Domain dropdown option
+agriculture = Agricultura
+# Sentence Domain dropdown option
+automotive = Automotivo
+# Sentence Domain dropdown option
+finance = Finanças
+# Sentence Domain dropdown option
+food_service_retail = Alimentos, serviços e vendas à varejo
+# Sentence Domain dropdown option
+general = Geral
+# Sentence Domain dropdown option
+healthcare = Saúde
+# Sentence Domain dropdown option
+history_law_government = História, direito e governo
+# Sentence Domain dropdown option
+language_fundamentals = Fundamentos da linguagem (por exemplo, dígitos, letras, dinheiro)
+# Sentence Domain dropdown option
+media_entertainment = Mídia e entretenimento
+# Sentence Domain dropdown option
+nature_environment = Natureza e meio ambiente
+# Sentence Domain dropdown option
+news_current_affairs = Notícias e atualidades
+# Sentence Domain dropdown option
+technology_robotics = Tecnologia e robótica
 
 ## REVIEW PAGE
 

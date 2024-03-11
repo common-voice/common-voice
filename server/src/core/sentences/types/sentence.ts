@@ -1,4 +1,4 @@
-export type Sentence = {
+export type UnvalidatedSentence = {
   sentence: string
   sentenceId: string
   source: string
