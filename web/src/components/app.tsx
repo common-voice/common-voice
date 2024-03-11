@@ -108,7 +108,7 @@ let LocalizedPage: any = class extends React.Component<
     }
 
     if (!localStorage.getItem(AB_TESTING_SPLIT_KEY)) {
-      this.setDonateBannerColour()
+      this.setABSplit()
     }
 
     Modal.setAppElement('#root')
@@ -189,7 +189,7 @@ let LocalizedPage: any = class extends React.Component<
     return true
   }
 
-  setDonateBannerColour() {
+  setABSplit() {
     const randomValue = Math.random();
 
     if (randomValue < 0.5) {

@@ -27,4 +27,4 @@ export const AB_TESTING_SPLIT_KEY = 'ABTestingSplit';
 
 export const SPLIT_A = 'Split_A';
 
-export const SPLIT_B = "Split_B";
+export const SPLIT_B = 'Split_B';
