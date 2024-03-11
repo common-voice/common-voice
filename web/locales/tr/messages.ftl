@@ -122,7 +122,7 @@ lb = Lüksemburgca
 lg = Luganda
 lij = Liguryanca
 ln = Lingala
-lo = Lao
+lo = Laoca
 lt = Litvanca
 ltg = Latgalce
 lv = Letonca
@@ -678,6 +678,9 @@ about-playbook-how-project-governance-content-4 = Topluluk katılımı ve karar 
 about-playbook-how-project-governance-content-5 = Değer ve tanınma.
 about-playbook-how-project-governance-content-6 = Karşılıklı hesap verebilirlik.
 about-playbook-how-project-governance-content-7 = <governanceLink>Nasıl yönetildiğimiz hakkında daha fazla bilgi edinin</governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -1776,3 +1779,6 @@ file-invalid-type = Geçersiz dosya
 file-too-large = Dosya çok büyük
 file-too-small = Dosya çok küçük
 too-many-files = Çok fazla dosya
+
+## Donate banner
+
