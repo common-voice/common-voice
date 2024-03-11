@@ -681,6 +681,12 @@ about-playbook-how-project-governance-content-5 = Valeur et reconnaissance.
 about-playbook-how-project-governance-content-6 = Responsabilité mutuelle.
 about-playbook-how-project-governance-content-7 = <governanceLink>En savoir plus sur notre gouvernance</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Comment Common Voice est-il financé ?
+about-playbook-how-funded-content-1 = Common Voice est un projet de la Fondation Mozilla, une organisation 501c3 aux États-Unis. Le projet est actuellement entièrement financé par des <philantropGrantLink>subventions philanthropiques</philantropGrantLink> et des dons de personnes du monde entier.
+about-playbook-how-funded-content-2 = Héberger et publier en permanence les jeux de données, mais aussi améliorer la plateforme et lancer les <africaMradiLink>programmes communautaires</africaMradiLink> coûte beaucoup d’argent.
+
 ## Glossary
 
 glossary = Glossaire
@@ -1598,6 +1604,7 @@ continue-speaking-button = Non merci, continuer à parler
 create-profile-text = Souhaitez-vous enregistrer vos informations ? <createProfile>Créer un profil</createProfile>
 thanks-for-voice-toast = Merci pour vos informations vocales
 thanks-for-voice-toast-error = Une erreur est survenue lors de l’envoi de vos informations vocales
+first-cta-gender-select-default-option = Sélectionnez une option
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Merci d’avoir fait don de votre voix !
 second-cta-subtitle-text = Avec un profil, vous pouvez suivre votre activité et vous connecter à une communauté de contributeurs de données vocales.
@@ -1802,3 +1809,8 @@ file-invalid-type = Fichier non valide
 file-too-large = Le fichier est trop volumineux
 file-too-small = Le fichier est trop petit
 too-many-files = Trop de fichiers
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Nous avons besoin</mark><br/><mark>de votre aide !</mark>
