@@ -272,4 +272,8 @@
         margin-top: 50px;
         padding: 0 20px;
     }
+
+    & .donate-banner-section {
+        margin-inline: 30px;
+    }
 }

@@ -34,6 +34,7 @@ import { Flags } from '../stores/flags';
 import LanguagesProvider from './languages-provider';
 import ErrorBoundary from './error-boundary/error-boundary';
 import LocalizedErrorBoundary from './error-boundary/localized-error-boundary';
+import { AB_TESTING_SPLIT_KEY, SPLIT_A, SPLIT_B } from '../constants';
 
 const ListenPage = React.lazy(
   () => import('./pages/contribution/listen/listen')
@@ -96,7 +97,7 @@ let LocalizedPage: any = class extends React.Component<
     uploadPercentage: null,
   }
 
-  isUploading = false
+  isUploading = false;
 
   async componentDidMount() {
     this.props.updateUser({})
@@ -104,6 +105,10 @@ let LocalizedPage: any = class extends React.Component<
 
     if (isMobileSafari()) {
       document.body.classList.add('mobile-safari')
+    }
+
+    if (!localStorage.getItem(AB_TESTING_SPLIT_KEY)) {
+      this.setABSplit()
     }
 
     Modal.setAppElement('#root')
@@ -182,6 +187,16 @@ let LocalizedPage: any = class extends React.Component<
     }
 
     return true
+  }
+
+  setABSplit() {
+    const randomValue = Math.random();
+
+    if (randomValue < 0.5) {
+      localStorage.setItem(AB_TESTING_SPLIT_KEY, SPLIT_A)
+    } else {
+      localStorage.setItem(AB_TESTING_SPLIT_KEY, SPLIT_B)
+    }
   }
 
   render() {
