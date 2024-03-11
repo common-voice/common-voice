@@ -712,6 +712,12 @@ about-playbook-how-project-governance-content-5 = Value and recognition.
 about-playbook-how-project-governance-content-6 = Mutual accountability.
 about-playbook-how-project-governance-content-7 = <governanceLink>Read more about how we're governed</governanceLink>
 
+## How is Common Voice funded
+about-playbook-how-funded = How is Common Voice funded?
+about-playbook-how-funded-content-1 = Common Voice is a project of the Mozilla Foundation, a US 501c3. The project is currently funded entirely by <philantropicGrantLink>philanthropic grants</philantropicGrantLink>, and donations from people around the world.
+about-playbook-how-funded-content-2 = It costs a lot of money to continually host and release the datasets, improve the platform and run <africaMradiLink>community programmes</africaMradiLink>.
+about-playbook-how-funded-content-3 = If you or your organisation would like to contribute back to the project, you can make a <donateLink>donation</donateLink> or reach out to our partnerships team on <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 glossary = Glossary
 localization = Localization
@@ -1832,3 +1838,12 @@ file-invalid-type = Invalid file
 file-too-large = File is too large
 file-too-small = File is too small
 too-many-files = Too many files
+
+## Donate banner
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>We need</mark><br/><mark>your help!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = It costs almost a million dollars a year to host the datasets and improve the platform for the 100+ language communities who rely on what we do. <strong>If you value open, inclusive data - donate today!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Using CV for</mark><br/><mark>your research?</mark>
+languages-donate-banner-cta-explanation = Common Voice is funded by donations and grants! We love collaborating with academics, civil society and industry researchers. Common Voice is free to use, but contributing to platform and hosting costs through grant proposals is really helpful.
