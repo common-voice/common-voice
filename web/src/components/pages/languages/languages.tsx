@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
 import { format } from 'date-fns';
 import { BaseLanguage, LanguageStatistics } from 'common';
 
-import { useAPI, useDonateBanner } from '../../../hooks/store-hooks';
+import { useAPI } from '../../../hooks/store-hooks';
 import { useLocale, useNativeLocaleNames } from '../../locale-helpers';
 import useIsMaxWindowWidth from '../../../hooks/use-is-max-window-width';
 import URLS from '../../../urls';
@@ -110,7 +110,6 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
     modalOptions: null,
   } as State);
 
-  const donateBanner = useDonateBanner();
   const isMaxWidth = useIsMaxWindowWidth(MAX_WIDTH);
 
   const {
@@ -453,7 +452,6 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
         </div>
         <section className="donate-banner-section">
           <DonateBanner
-            background={donateBanner.colour}
             donateCTALocalizedId="languages-donate-banner-cta"
             donateCTAExplanationLocalizedId="languages-donate-banner-cta-explanation"
           />

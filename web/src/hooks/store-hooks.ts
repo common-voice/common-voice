@@ -106,7 +106,3 @@ export function useAbortContributionModal() {
     ({ abortContributionModal }) => abortContributionModal
   );
 }
-
-export function useDonateBanner() {
-  return useTypedSelector(({ donateBanner }) => donateBanner);
-}

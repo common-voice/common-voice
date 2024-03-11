@@ -34,10 +34,6 @@ import { Flags } from '../stores/flags';
 import LanguagesProvider from './languages-provider';
 import ErrorBoundary from './error-boundary/error-boundary';
 import LocalizedErrorBoundary from './error-boundary/localized-error-boundary';
-import {
-  DonateBannerActions,
-  DonateBannerState,
-} from '../stores/donate-banner';
 
 const ListenPage = React.lazy(
   () => import('./pages/contribution/listen/listen')
@@ -56,6 +52,8 @@ const SentryRoute = Sentry.withSentryRouting(Route)
 const SENTRY_DSN_WEB =
   'https://40742891598c4900aacac78dd1145d7e@o1069899.ingest.sentry.io/6251028'
 
+export const AB_TESTING_SPLIT_KEY = 'ABTestingSplit'
+
 Sentry.init({
   dsn: shouldEmitErrors() ? SENTRY_DSN_WEB : null,
   integrations: [new BrowserTracing()],
@@ -70,7 +68,6 @@ interface PropsFromState {
   uploads: Uploads.State
   languages: Languages.State
   messageOverwrites: Flags.MessageOverwrites
-  donateBanner: DonateBannerState
 }
 
 interface PropsFromDispatch {
@@ -79,7 +76,6 @@ interface PropsFromDispatch {
   setLocale: typeof Locale.actions.set
   refreshUser: typeof User.actions.refresh
   updateUser: typeof User.actions.update
-  setDonateBannerColour: typeof DonateBannerActions.setDonateBannerColour
 }
 
 interface LocalizedPagesProps
@@ -102,7 +98,7 @@ let LocalizedPage: any = class extends React.Component<
     uploadPercentage: null,
   }
 
-  isUploading = false
+  isUploading = false;
 
   async componentDidMount() {
     this.props.updateUser({})
@@ -112,7 +108,9 @@ let LocalizedPage: any = class extends React.Component<
       document.body.classList.add('mobile-safari')
     }
 
-    this.setDonateBannerColour();
+    if (!localStorage.getItem(AB_TESTING_SPLIT_KEY)) {
+      this.setDonateBannerColour()
+    }
 
     Modal.setAppElement('#root')
   }
@@ -196,9 +194,9 @@ let LocalizedPage: any = class extends React.Component<
     const randomValue = Math.random();
 
     if (randomValue < 0.5) {
-      this.props.setDonateBannerColour('pink');
+      localStorage.setItem(AB_TESTING_SPLIT_KEY, 'Split_A')
     } else {
-      this.props.setDonateBannerColour('coral');
+      localStorage.setItem(AB_TESTING_SPLIT_KEY, 'Split_B')
     }
   }
 
@@ -278,22 +276,13 @@ LocalizedPage.displayName = 'LocalizedPage';
 LocalizedPage = withRouter(
   localeConnector(
     connect<PropsFromState, PropsFromDispatch>(
-      ({
-        api,
-        flags,
-        notifications,
-        languages,
-        uploads,
-        user,
-        donateBanner,
-      }: StateTree) => ({
+      ({ api, flags, notifications, languages, uploads, user }: StateTree) => ({
         account: user.account,
         api,
         messageOverwrites: flags.messageOverwrites,
         notifications,
         uploads,
         languages,
-        donateBanner,
       }),
       {
         addNotification: Notifications.actions.addBanner,
@@ -301,7 +290,6 @@ LocalizedPage = withRouter(
         setLocale: Locale.actions.set,
         refreshUser: User.actions.refresh,
         updateUser: User.actions.update,
-        setDonateBannerColour: DonateBannerActions.setDonateBannerColour,
       }
     )(LocalizedPage)
   )

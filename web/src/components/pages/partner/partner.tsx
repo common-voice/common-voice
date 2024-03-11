@@ -12,13 +12,9 @@ import { PARTNER_OPTIONS } from './partner-options'
 import Subscribe from '../../email-subscribe-block/subscribe'
 import { DonateBanner } from '../../donate-banner'
 
-import { useDonateBanner } from '../../../hooks/store-hooks'
-
 import './partner.css'
 
 const Partner = () => {
-  const donateBanner = useDonateBanner()
-
   return (
     <Page className="partner-main-container" dataTestId="partnerships-page">
       <section className="partnerships-section">
@@ -112,7 +108,7 @@ const Partner = () => {
         </div>
       </section>
       <section className="donate-banner-section">
-        <DonateBanner background={donateBanner.colour} />
+        <DonateBanner />
       </section>
       <Subscribe light partnerships subscribeText="about-subscribe-text" />
     </Page>

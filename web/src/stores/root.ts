@@ -17,7 +17,6 @@ import {
   AbortContributionModalAction,
   abortContributionModalReducer,
 } from './abort-contribution-modal';
-import { DonateBannerAction, donateBannerReducer } from './donate-banner';
 
 export const USER_KEY = 'userdata';
 
@@ -46,7 +45,6 @@ export function reducers(
     notifications,
     uploads,
     abortContributionModal,
-    donateBanner,
   }: StateTree = {
     api: undefined,
     clips: undefined,
@@ -59,7 +57,6 @@ export function reducers(
     uploads: undefined,
     user: undefined,
     abortContributionModal: undefined,
-    donateBanner: undefined,
   },
   action:
     | Clips.Action
@@ -71,7 +68,6 @@ export function reducers(
     | Uploads.Action
     | User.Action
     | AbortContributionModalAction
-    | DonateBannerAction
 ): StateTree {
   const newState = {
     clips: Clips.reducer(locale, clips, action as Clips.Action),
@@ -89,10 +85,6 @@ export function reducers(
     abortContributionModal: abortContributionModalReducer(
       abortContributionModal,
       action as AbortContributionModalAction
-    ),
-    donateBanner: donateBannerReducer(
-      donateBanner,
-      action as DonateBannerAction
     ),
   };
 
