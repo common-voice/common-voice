@@ -24,4 +24,8 @@
             fill: var(--white);
         }
     }
+
+    .donate-banner-wrapper {
+        margin-inline: 30px;
+    }
 }

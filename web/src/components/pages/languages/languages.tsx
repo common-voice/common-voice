@@ -11,6 +11,7 @@ import { BaseLanguage, LanguageStatistics } from 'common';
 
 import { useAPI } from '../../../hooks/store-hooks';
 import { useLocale, useNativeLocaleNames } from '../../locale-helpers';
+import useIsMaxWindowWidth from '../../../hooks/use-is-max-window-width';
 import URLS from '../../../urls';
 import { CloseIcon, SearchIcon } from '../../ui/icons';
 import { LinkButton, StyledLink, TextButton } from '../../ui/ui';
@@ -22,8 +23,11 @@ import LanguagesPageWaves from './languages-waves';
 import LanguageCard from './language-card/language-card';
 import LoadingLanguageCard from './language-card/loading-language-card';
 import GetInvolvedModal from './get-involved-modal';
+import { DonateBanner } from '../../donate-banner';
 
 import './languages.css';
+
+const MAX_WIDTH = 1250;
 
 export interface ModalOptions {
   locale: string;
@@ -105,6 +109,8 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
     query: '',
     modalOptions: null,
   } as State);
+
+  const isMaxWidth = useIsMaxWindowWidth(MAX_WIDTH);
 
   const {
     isLoading,
@@ -312,7 +318,7 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
           onRequestClose={() => hideModal()}
         />
       )}
-      <Page className="languages-page" isCentered>
+      <Page className="languages-page" isCentered={isMaxWidth}>
         <LanguagesPageWaves />
         <div className="top">
           <div>
@@ -444,6 +450,12 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
             )}
           </section>
         </div>
+        <section className="donate-banner-section">
+          <DonateBanner
+            donateCTALocalizedId="languages-donate-banner-cta"
+            donateCTAExplanationLocalizedId="languages-donate-banner-cta-explanation"
+          />
+        </section>
       </Page>
     </React.Fragment>
   );

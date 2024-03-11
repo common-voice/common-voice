@@ -11,6 +11,7 @@ import { RecordLink } from '../../primary-buttons/primary-buttons';
 import { LinkButton } from '../../ui/ui';
 import Page from '../../ui/page';
 import Hero from './hero';
+import { DonateBanner } from '../../donate-banner';
 import { ClipsStats, VoiceStats } from './stats';
 import URLS from '../../../urls';
 
@@ -163,6 +164,10 @@ export default function HomePage() {
           </div>
         </section>
       )}
+
+      <section className="donate-banner-section">
+        <DonateBanner />
+      </section>
     </Page>
   );
 }
