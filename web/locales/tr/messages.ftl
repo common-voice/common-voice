@@ -194,13 +194,13 @@ sv-SE = İsveççe
 sw = Svahili
 syr = Süryanice
 ta = Tamilce
-te = Telugu
+te = Teluguca
 tg = Tacikçe
 th = Tayca
 ti = Tigrinya dili
 tig = Tigre
 tk = Türkmence
-tl = Tagalog
+tl = Tagalogca
 tn = Tsvana
 tok = Toki Pona
 tr = Türkçe
@@ -230,7 +230,7 @@ zgh = Tamazight
 zh-CN = Çince (Çin)
 zh-HK = Çince (Hong Kong)
 zh-TW = Çince (Tayvan)
-zu = Zulu
+zu = Zuluca
 zza = Zazaca
 
 # [/]
@@ -452,6 +452,7 @@ help-accent = Aksan konusunda yardıma mı ihtiyacınız var?
 help-accent-explanation = Aksanınız kelimeleri telaffuz etme şeklinizdir. Yaşadığınız yer, konuştuğunuz diğer diller ve daha birçok faktör aksanınızı etkileyebilir. İlgili olduğunu düşündüğünüz bilgileri burada paylaşabilirsiniz.
 help-variants = Türevlerle ilgili yardıma mı ihtiyacınız var?
 help-variants-explanation = Varyantlar, bir dilin belirli biçimleridir. Örneğin, bir coğrafyada veya toplulukta yaşayanlar tarafından paylaşılır. Bazen bunlara lehçe denir.
+help-sex-or-gender-changes = Cinsiyet değişiklikleri konusunda yardıma mı ihtiyacınız var?
 
 ## Profile - Email
 
@@ -681,6 +682,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Nasıl yöneti
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Common Voice nasıl finanse ediliyor?
 
 ## Glossary
 
@@ -1600,6 +1602,9 @@ continue-speaking-button = Hayır, konuşmaya devam et
 create-profile-text = Bilgilerinizi kaydetmek ister misiniz? <createProfile>Profil oluşturun</createProfile>
 thanks-for-voice-toast = Ses bilgileriniz için teşekkür ederiz
 thanks-for-voice-toast-error = Ses bilgileriniz gönderilirken bir hata oluştu
+first-cta-gender-select-default-option = Bir seçenek seçin
+first-cta-gender-select-help-text =
+    .label = Cinsiyetinizi nasıl tanımlarsınız?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Sesinizle katkıda bulunduğunuz için teşekkürler!
 already-have-an-account = Zaten hesabınız var mı? <login>Giriş yapın</login>
@@ -1782,3 +1787,5 @@ too-many-files = Çok fazla dosya
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Yardımınıza</mark><br/><mark>ihtiyacımız var!</mark>
