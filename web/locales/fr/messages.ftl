@@ -1605,6 +1605,8 @@ create-profile-text = Souhaitez-vous enregistrer vos informations ? <createProf
 thanks-for-voice-toast = Merci pour vos informations vocales
 thanks-for-voice-toast-error = Une erreur est survenue lors de l’envoi de vos informations vocales
 first-cta-gender-select-default-option = Sélectionnez une option
+first-cta-gender-select-help-text =
+    .label = Comment préférez-vous indiquer votre sexe ou votre genre ?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Merci d’avoir fait don de votre voix !
 second-cta-subtitle-text = Avec un profil, vous pouvez suivre votre activité et vous connecter à une communauté de contributeurs de données vocales.
@@ -1814,3 +1816,5 @@ too-many-files = Trop de fichiers
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Nous avons besoin</mark><br/><mark>de votre aide !</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Vous utilisez CV pour</mark><br/><mark>vos recherches ?</mark>
