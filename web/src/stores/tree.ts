@@ -21,7 +21,7 @@ export default interface StateTree {
   sentences: Sentences.State;
   uploads: Uploads.State;
   user: User.State;
-  abortContributionModal: AbortContributionModalState;
+  abortContributionModal: AbortContributionModalState
 }
 
 export const useTypedSelector: TypedUseSelectorHook<StateTree> = useSelector;

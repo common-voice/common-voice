@@ -98,7 +98,7 @@ export function useLanguages() {
 }
 
 export function useSentences() {
-  return useTypedSelector(({ sentences }) => sentences);
+  return useTypedSelector(({ sentences }) => sentences)
 }
 
 export function useAbortContributionModal() {
