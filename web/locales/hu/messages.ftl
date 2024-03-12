@@ -677,6 +677,13 @@ about-playbook-how-project-governance-content-5 = Érték és elismerés.
 about-playbook-how-project-governance-content-6 = Kölcsönös elszámoltathatóság.
 about-playbook-how-project-governance-content-7 = <governanceLink>További információk az irányításunkról</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Hogyan történik a Common Voice finanszírozása?
+about-playbook-how-funded-content-1 = A Common Voice a Mozilla Alapítvány projektje, egy amerikai nonprofit (501c3) szervezeté. A projektet jelenleg teljes egészében <philantropicGrantLink>jótékonysági támogatások</philantropicGrantLink>, és a világ minden tájáról érkező emberek adományai finanszírozzák.
+about-playbook-how-funded-content-2 = Sok pénzbe kerül az adatkészletek folyamatos tárolása és kiadása, a platform fejlesztése és a <africaMradiLink>közösségi programok</africaMradiLink> működtetése.
+about-playbook-how-funded-content-3 = Ha Ön vagy a szervezete szeretne hozzájárulni a projekthez, akkor <donateLink>adományozhat</donateLink> vagy felveheti a kapcsolatot a partnerségi csapattal a <emailFragment>commonvoice@mozilla.com</emailFragment> címen.
+
 ## Glossary
 
 glossary = Szójegyzék
@@ -1624,6 +1631,9 @@ continue-speaking-button = Köszönöm nem, beszéd folytatása
 create-profile-text = Szeretné menteni az adatait? <createProfile>Hozzon létre egy profilt</createProfile>
 thanks-for-voice-toast = Köszönjük a hanginformációit
 thanks-for-voice-toast-error = Hiba történt a hanginformációk elküldése során
+first-cta-gender-select-default-option = Válasszon egy lehetőséget
+first-cta-gender-select-help-text =
+    .label = Hogyan jellemezné a nemét?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Köszönjük, hogy közreműködött a hangjával.
 second-cta-subtitle-text = Egy profil segítségével nyomon követheti tevékenységét, és kapcsolatba léphet a hangadatokat biztosító közreműködők közösségével.
@@ -1827,3 +1837,12 @@ file-invalid-type = Érvénytelen fájl
 file-too-large = A fájl túl nagy
 file-too-small = A fájl túl kicsi
 too-many-files = Túl sok fájl
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Szükségünk van</mark><br/><mark>a segítségére!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Évente majdnem egymillió dollárba kerül az adatkészletek tárolása és a platform fejlesztése a ránk támaszkodó több mint 100 nyelvi közösség számára. <strong>Ha értékeli a nyílt, inkluzív adatokat – adományozzon még ma!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Kutatáshoz használja</mark><br/><mark>a CV-t?</mark>
