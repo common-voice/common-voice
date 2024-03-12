@@ -1921,3 +1921,4 @@ donate-banner-cta = <mark>We hebben</mark><br/><mark>uw hulp nodig!</mark>
 donate-banner-cta-explanation = Het kost bijna een miljoen dollar per jaar om de gegevenssets te hosten en het platform te verbeteren voor de meer dan 100 taalgemeenschappen die afhankelijk zijn van wat we doen. <strong>Als u open, inclusieve gegevens waardeert – doneer dan vandaag nog!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Gebruikt u CV voor</mark><br/><mark>uw onderzoek?</mark>
+languages-donate-banner-cta-explanation = Common Voice wordt gefinancierd door donaties en subsidies! We werken graag samen met academici, onderzoekers van het maatschappelijk middenveld en de industrie. Common Voice is gratis te gebruiken, maar bijdragen aan de platform- en hostingkosten via subsidievoorstellen helpt echt.
