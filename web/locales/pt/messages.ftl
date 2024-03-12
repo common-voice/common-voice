@@ -687,6 +687,8 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Mais informaç
 
 about-playbook-how-funded = Como o Common Voice é financiado?
 about-playbook-how-funded-content-1 = Common Voice é um projeto da Fundação Mozilla, uma organização US 501c3. Atualmente, o projeto é financiado inteiramente por <philantropicGrantLink>subsídios filantrópicos</philantropicGrantLink> e doações de pessoas do mundo todo.
+about-playbook-how-funded-content-2 = Custa muito dinheiro continuamente hospedar e disponibilizar os conjuntos de dados, melhorar a plataforma e conduzir <africaMradiLink>programas comunitários</africaMradiLink>.
+about-playbook-how-funded-content-3 = Se você ou sua organização quiser contribuir com o projeto, pode fazer uma <donateLink>doação</donateLink> ou entrar em contato com nossa equipe de parcerias em <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -1617,6 +1619,8 @@ create-profile-text = Quer salvar suas informações? <createProfile>Crie um per
 thanks-for-voice-toast = Obrigado por suas informações de voz
 thanks-for-voice-toast-error = Ocorreu um erro ao enviar suas informações de voz
 first-cta-gender-select-default-option = Selecione uma opção
+first-cta-gender-select-help-text =
+    .label = Como você descreveria seu sexo ou gênero?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Obrigado por contribuir com sua voz!
 second-cta-subtitle-text = Com um perfil, você pode acompanhar sua atividade e conectar-se a uma comunidade de contribuidores de dados de voz.
@@ -1825,3 +1829,7 @@ too-many-files = Arquivos demais
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Precisamos</mark><br/><mark>da sua ajuda!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Custa quase um milhão de dólares por ano hospedar os conjuntos de dados e melhorar a plataforma para as mais de 100 comunidades de idiomas que dependem do que fazemos. <strong>Se você valoriza dados abertos e inclusivos, faça uma doação!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Usa o Common Voice para</mark><br/><mark>sua pesquisa?</mark>
