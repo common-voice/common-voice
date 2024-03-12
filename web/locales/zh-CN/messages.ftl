@@ -676,6 +676,10 @@ about-playbook-how-project-governance-content-5 = 价值观和表彰。
 about-playbook-how-project-governance-content-6 = 相互问责。
 about-playbook-how-project-governance-content-7 = <governanceLink>详细了解我们如何管理此项目</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Common Voice 的筹资方式
+
 ## Glossary
 
 glossary = 词汇表
@@ -1776,3 +1780,6 @@ file-invalid-type = 文件无效
 file-too-large = 文件太大
 file-too-small = 文件太小
 too-many-files = 文件过多
+
+## Donate banner
+
