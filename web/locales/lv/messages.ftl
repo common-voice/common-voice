@@ -694,6 +694,12 @@ about-playbook-how-project-governance-content-5 = Vērtība un atzinība.
 about-playbook-how-project-governance-content-6 = Savstarpēja atbildība.
 about-playbook-how-project-governance-content-7 = <governanceLink>Uzziniet vairāk par to, kā mēs tiekam pārvaldīti</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Kas finansē Common Voice?
+about-playbook-how-funded-content-1 = Common Voice ir Mozilla Fonda projekts, ASV 501c3. Pašlaik projektu pilnībā finansē no <philantropicGrantLink>filantropiskām dotācijām</philantropicGrantLink> un cilvēku ziedojumiem visā pasaulē.
+about-playbook-how-funded-content-2 = Datu kopu uzturēšana, platformas attīstīšana un <africaMradiLink>kopienas programmu</africaMradiLink> atbalsts maksā daudz naudas.
+
 ## Glossary
 
 glossary = Apraksts
@@ -2040,3 +2046,6 @@ file-invalid-type = Nederīga datne
 file-too-large = Datne ir pārāk liela
 file-too-small = Datne ir pārāk maza
 too-many-files = Pārāk daudz datņu
+
+## Donate banner
+
