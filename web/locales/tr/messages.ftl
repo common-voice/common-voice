@@ -1789,3 +1789,5 @@ too-many-files = Çok fazla dosya
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Yardımınıza</mark><br/><mark>ihtiyacımız var!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Common Voice’u araştırmalarınızda</mark><br/><mark>kullanıyor musunuz?</mark>
