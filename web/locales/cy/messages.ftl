@@ -704,8 +704,8 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Darllenwch rag
 
 about-playbook-how-funded = Sut mae Common Voice yn cael ei ariannu?
 about-playbook-how-funded-content-1 = Mae Common Voice yn broject gan y Mozilla Foundation, sy'n US 501c3. Ar hyn o bryd mae'r project yn cael ei ariannu'n gyfan gwbl drwy <philantropicGrantLink>grantiau dyngarol</philantropicGrantLink> a rhoddion gan bobl ar draws y byd.
-about-playbook-how-funded-content-2 = Mae'n ddrud iawn cynnal a rhyddhau'r setiau data yn barhaus, gwella'r platfform a rhedeg <africaMradiLink>rhaglenni cymunedol</africaMradiLink>.
-about-playbook-how-funded-content-3 = Os hoffech chi neu'ch sefydliad gyfrannu'n ôl at y project, gallwch roi <donateLink>rhodd</donateLink> neu gysylltu â'n tîm partneriaethau ar <emailFragment>commonvoice@mozilla.com</emailFragment>.
+about-playbook-how-funded-content-2 = Mae'n ddrud iawn cynnal a rhyddhau'r setiau data, gwella'r platfform a rhedeg <africaMradiLink>rhaglenni cymunedol</africaMradiLink> yn barhaus.
+about-playbook-how-funded-content-3 = Os hoffech chi neu'ch sefydliad gyfrannu tuag at y project, gallwch roi <donateLink>rhodd</donateLink> neu gysylltu â'n tîm partneriaethau ar <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
