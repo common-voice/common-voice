@@ -651,6 +651,9 @@ about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transp
 about-playbook-how-project-governance-content-5 = Hódnota a připóznaće.
 about-playbook-how-project-governance-content-6 = Mjezsobna rozprawniska winowatosć.
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = Glosar
@@ -1566,6 +1569,9 @@ add-information-button = Informacije přidać
 continue-speaking-button = Ně, dźakuju so, z rěčenjom pokročować
 create-profile-text = Chceće swoje informacije składować? <createProfile>Załožće profil</createProfile>
 thanks-for-voice-toast = Wulki dźak za waše rěčenske informacije
+first-cta-gender-select-default-option = Wubjerće nastajenje
+first-cta-gender-select-help-text =
+    .label = Kak byšće swój splah  abo splažnu identitu wopisował?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Wulki dźak, zo waš hłós přinošujeće!
 already-have-an-account = Maće hižo konto? <login>Přizjewić</login>
@@ -1644,6 +1650,7 @@ new-sentence-rule-4 = Korektny prawopis a korektnu interpunkciju wužiwać
 new-sentence-rule-5 = Žane ličby a wosebite znamješka
 new-sentence-rule-6 = Žane cuze pismiki
 how-to-cite = Kak cituju?
+how-to-cite-explanation-bold = Citujće z URL-wotkazom abo połnym mjenom dźěła.
 guidelines = Směrnicy
 contact-us = Kontakt
 add-sentence-success = 1 sada zběrana
@@ -1679,6 +1686,7 @@ technology_robotics = Technologija a robotika
 ## REVIEW PAGE
 
 sc-review-rules-title = Wotpowěduje sada směrnicam?
+sc-review-empty-state = Tuchwilu sady za přepruwowanje w tutej rěči njejsu.
 report-sc-different-language = Druha rěč
 report-sc-different-language-detail = Je w druhej rěči napisana hač přepruwuju.
 review-error = Při přepruwowanju tuteje sady je zmylk nastał
@@ -1688,6 +1696,7 @@ sc-redirect-page-subtitle-2 = Stajće nam prašenja na <matrixLink>Matrix</matri
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction = Ćehńće swoju dataju sem abo <uploadButton>klikńće za nahrawanje</uploadButton>
 sc-bulk-upload-instruction-drop = Pušćće dataju tu, zo byšće ju nahrał
 try-upload-again-md = Nahraće znowa spytać
 select-file = Dataju wubrać
@@ -1704,3 +1713,10 @@ file-invalid-type = Njepłaćiwa dataja
 file-too-large = Dataja je přewulka
 file-too-small = Dataja je přemała
 too-many-files = Přewjele datajow
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Trjebamy</mark><br/><mark>wašu pomoc!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Wužiwaće Common Voice za</mark><br/><mark>swoje slědźenje?</mark>
