@@ -78,6 +78,7 @@ fy-NL = Фризийски
 ga-IE = Ирландски
 gl = Галисийски
 gn = Гуарани
+gu-IN = Гуджарати
 ha = Хауса
 he = Иврит
 hi = Хинди
@@ -346,8 +347,6 @@ native-language =
 profile-form-add-accent = Добавете нов персонализиран акцент „{ $inputValue }“
 profile-form-submit-save = Запазване
 profile-form-submit-saved = Запазено
-male = Мъж
-female = Жена
 # Gender
 other = Друг
 why-profile-title = Защо да си създадете профил?
@@ -605,6 +604,9 @@ about-playbook-how-project-governance-content-4 = Участие на общно
 about-playbook-how-project-governance-content-5 = Ценност и признание.
 about-playbook-how-project-governance-content-6 = Взаимна отговорност.
 about-playbook-how-project-governance-content-7 = <governanceLink>Прочетете повече за това как се управляваме</governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -1421,8 +1423,14 @@ partnerships-community-header = Общност, творци и гражданс
 partnerships-community-description = Общността е туптящото сърце на Common Voice – те идват от цял свят и са езикови активисти, учени и творци. Можете да научите повече за това как да се включите на нашата страница <about>Относно</about> и в нашата <community>общност</community>. Ако се интересувате от по-задълбочено организационно партньорство, <emailFragment>свържете се с нас.</emailFragment>
 sentence-collection = Списък с изречения
 
+## WRITE PAGE
+
+
 ## REVIEW PAGE
 
 
 ## BULK SUBMISSION 
+
+
+## Donate banner
 
