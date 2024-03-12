@@ -683,6 +683,13 @@ about-playbook-how-project-governance-content-5 = Wert und Anerkennung.
 about-playbook-how-project-governance-content-6 = Gegenseitige Rechenschaftspflicht.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lesen Sie mehr über unsere Führungsstruktur</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Wie wird Common Voice finanziert?
+about-playbook-how-funded-content-1 = Common Voice ist ein Projekt der Mozilla Foundation, einer US 501c3. Das Projekt wird derzeit vollständig durch <philantropGrantLink>philanthropische Zuwendungen</philantropGrantLink>, sowie Spenden von Menschen aus der ganzen Welt finanziert.
+about-playbook-how-funded-content-2 = Es kostet viel Geld, die Datensätze fortlaufend zu hosten und zu veröffentlichen, die Plattform zu verbessern und <africaMradiLink>Gemeinschaftsprogramme</africaMradiLink> zu betreiben.
+about-playbook-how-funded-content-3 = Wenn Sie oder Ihre Organisation das Projekt unterstützen möchte, können Sie an uns <donateLink>spenden</donateLink> oder sich unter <emailFragment>commonvoice@mozilla.com</emailFragment> an unser Partnerschaftsteam wenden.
+
 ## Glossary
 
 glossary = Glossar
@@ -1677,6 +1684,9 @@ continue-speaking-button = Nein danke, mit dem Sprechen fortfahren
 create-profile-text = Möchten Sie Ihre Daten speichern? <createProfile>Erstellen Sie ein Profil</createProfile>
 thanks-for-voice-toast = Vielen Dank für Ihre Sprachinformationen
 thanks-for-voice-toast-error = Beim Senden Ihrer Sprachinformationen ist ein Fehler aufgetreten
+first-cta-gender-select-default-option = Wählen Sie eine Option
+first-cta-gender-select-help-text =
+    .label = Wie würden Sie Ihr Geschlecht oder Geschlechteridentität beschreiben?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Vielen Dank, dass Sie Ihre Stimme beitragen!
 second-cta-subtitle-text = Mit einem Profil können Sie Ihre Aktivitäten im Auge behalten und mit einer Gemeinschaft von Mitwirkenden an Sprachdaten in Kontakt treten.
@@ -1895,3 +1905,13 @@ file-invalid-type = Ungültige Datei
 file-too-large = Die Datei ist zu groß
 file-too-small = Die Datei ist zu klein
 too-many-files = Zu viele Dateien
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Wir brauchen</mark><br/><mark>Ihre Hilfe!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Es kostet fast eine Million Dollar im Jahr, die Datensätze zu hosten und die Plattform für die über 100 Sprachgemeinschaften zu verbessern, die sich auf das verlassen, was wir tun. <strong>Wenn Sie Wert auf offene, integrative Daten legen – spenden Sie heute!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Verwenden Sie Common Voice für</mark><br/><mark>Ihre Forschung?</mark>
+languages-donate-banner-cta-explanation = Common Voice wird durch Spenden und Zuwendungen finanziert! Wir arbeiten gerne mit Akademikern, der Zivilgesellschaft und Forschern aus der Industrie zusammen. Common Voice ist kostenlos, aber es ist wirklich hilfreich, sich durch Zuwendungsvorschläge an den Plattform- und Hostingkosten zu beteiligen.

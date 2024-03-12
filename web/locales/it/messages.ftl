@@ -673,6 +673,13 @@ about-playbook-how-project-governance-content-5 = Valore e riconoscimento.
 about-playbook-how-project-governance-content-6 = Responsabilità reciproca.
 about-playbook-how-project-governance-content-7 = <governanceLink>Ulteriori informazioni sui criteri di gestione del progetto.</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Come viene finanziato Common Voice?
+about-playbook-how-funded-content-1 = Common Voice è un progetto di Mozilla Foundation, un’organizzazione US 501c3. Al momento, il progetto è interamente finanziato da <philantropicGrantLink>contributi filantropici</philantropicGrantLink> e donazioni da persone di tutto il mondo.
+about-playbook-how-funded-content-2 = Ospitare e rilasciare continuamente i dataset, migliorare la piattaforma e gestire i <africaMradiLink>programmi della comunità</africaMradiLink> è molto costoso.
+about-playbook-how-funded-content-3 = Se tu o la tua organizzazione volete contribuire al progetto, potete fare una <donateLink>donazione</donateLink> o contattare il nostro team che si occupa delle partnership all’indirizzo email <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = Glossario
@@ -1800,3 +1807,13 @@ file-invalid-type = File non valido
 file-too-large = Il file è troppo grande
 file-too-small = Il file è troppo piccolo
 too-many-files = Troppi file
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Abbiamo bisogno del tuo</mark><br/><mark>aiuto!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Ospitare i dataset e migliorare la piattaforma per le oltre 100 comunità linguistiche che fanno affidamento su ciò che facciamo costa quasi un milione di dollari all’anno. <strong>Se apprezzi la possibilità di accedere a dati aperti e inclusivi, fai una donazione oggi stesso!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Utilizzi Common Voice per</mark><br/><mark>le tue ricerche?</mark>
+languages-donate-banner-cta-explanation = Common Voice è finanziato da donazioni e sovvenzioni. Amiamo collaborare con accademici, società civile e ricercatori del settore. Common Voice è gratuito, ma sostenere parte dei costi della piattaforma e dell’hosting attraverso proposte di sovvenzione è davvero utile.

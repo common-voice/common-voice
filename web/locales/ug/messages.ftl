@@ -688,6 +688,10 @@ about-playbook-how-project-governance-content-5 = قىممەت ۋە تونۇش.
 about-playbook-how-project-governance-content-6 = ئۆز-ئارا جاۋابكارلىق.
 about-playbook-how-project-governance-content-7 = <governanceLink>قۇرۇلۇشنى قانداق باشقۇرۇدىغانلىقىمىزنى تەپسىلىي ئوقۇڭ</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Common Voice مەبلىغى قانداق كەلگەن؟
+
 ## Glossary
 
 glossary = ئاتالغۇلار
@@ -1614,6 +1618,9 @@ continue-speaking-button = رەھمەت، داۋاملىق سۆزلەي
 create-profile-text = ئۇچۇرلىرىڭىزنى ساقلىماقچىمۇ؟ <createProfile>تەرجىمىھال قۇرۇش</createProfile>
 thanks-for-voice-toast = ئاۋاز ئۇچۇرلىرىڭىزغا رەھمەت
 thanks-for-voice-toast-error = ئاۋاز ئۇچۇرلىرىڭىزنى يوللاشتا خاتالىق كۆرۈلدى
+first-cta-gender-select-default-option = تاللانما تاللىنىدۇ
+first-cta-gender-select-help-text =
+    .label = جىنسىڭىزنى قانداق تەسۋىرلەيسىز؟
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ئاۋازىڭىزنى قوشقانلىقىڭىزغا رەھمەت!
 second-cta-subtitle-text = تەرجىمىھال ئارقىلىق پائالىيىتىڭىزنى ئىزلاپ، ئاۋاز سانلىق مەلۇمات ئىجادكارلار جامائىتى بىلەن باغلىنالايسىز.
@@ -1817,3 +1824,8 @@ file-invalid-type = ئىناۋەتسىز ھۆججەت
 file-too-large = ھۆججەت بەك چوڭ
 file-too-small = ھۆججەت بەك كىچىك
 too-many-files = ھۆججەت بەك كۆپ
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>بىز </mark><br/><mark> ياردىمىڭىزگە موھتاج!</mark>

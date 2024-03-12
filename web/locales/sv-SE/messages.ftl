@@ -688,6 +688,10 @@ about-playbook-how-project-governance-content-5 = Värde och erkännande.
 about-playbook-how-project-governance-content-6 = Ömsesidigt ansvar.
 about-playbook-how-project-governance-content-7 = <governanceLink>Läs mer om hur vi styrs</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Hur finansieras Common Voice?
+
 ## Glossary
 
 glossary = Ordlista
@@ -1627,6 +1631,7 @@ continue-speaking-button = Nej tack, fortsätt tala
 create-profile-text = Vill du spara din information? <createProfile>Skapa en profil</createProfile>
 thanks-for-voice-toast = Tack för din röstinformation
 thanks-for-voice-toast-error = Ett fel uppstod när din röstinformation skickades
+first-cta-gender-select-default-option = Välj ett alternativ
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Tack för att du bidrar med din röst!
 second-cta-subtitle-text = Med en profil kan du hålla reda på din aktivitet och få kontakt med en grupp bidragsgivare av röstdata.
@@ -1830,3 +1835,8 @@ file-invalid-type = Felaktig fil
 file-too-large = Filen är för stor
 file-too-small = Filen är för liten
 too-many-files = För många filer
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Vi behöver</mark><br/><mark>din hjälp!</mark>
