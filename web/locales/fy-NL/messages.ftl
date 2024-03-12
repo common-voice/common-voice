@@ -692,6 +692,10 @@ about-playbook-how-project-governance-content-5 = Wearde en erkenning.
 about-playbook-how-project-governance-content-6 = Underlinge ferantwurdlikheid.
 about-playbook-how-project-governance-content-7 = <governanceLink>Mear ynfo oer hoe’t wy bestjoerd wurde</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Hoe wurdt Common Voice finansiere?
+
 ## Glossary
 
 glossary = Wurdenlist
@@ -1700,6 +1704,7 @@ continue-speaking-button = Nee tankewol, trochgean mei ynsprekken
 create-profile-text = Wolle jo jo gegevens bewarje? <createProfile>Meitsje in profyl oan</createProfile>
 thanks-for-voice-toast = Tank foar jo stimynformaasje
 thanks-for-voice-toast-error = Der is in flater bard by it ferstjoeren fan jo stimynformaasje
+first-cta-gender-select-default-option = Selektearje in opsje
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Tank foar it donearjen fan jo stim!
 second-cta-subtitle-text = Mei in profyl kinne jo jo aktiviteit byhâlde en ferbine mei in mienskip fan bydragers oan spraakgegevens.
@@ -1911,3 +1916,6 @@ file-invalid-type = Unjildich bestân
 file-too-large = Bestân is te grut
 file-too-small = Bestân is te lyts
 too-many-files = Tefolle bestannen
+
+## Donate banner
+
