@@ -1846,3 +1846,4 @@ donate-banner-cta = <mark>Szükségünk van</mark><br/><mark>a segítségére!</
 donate-banner-cta-explanation = Évente majdnem egymillió dollárba kerül az adatkészletek tárolása és a platform fejlesztése a ránk támaszkodó több mint 100 nyelvi közösség számára. <strong>Ha értékeli a nyílt, inkluzív adatokat – adományozzon még ma!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Kutatáshoz használja</mark><br/><mark>a CV-t?</mark>
+languages-donate-banner-cta-explanation = A Common Voice-ot adományokból és támogatásokból finanszírozzuk! Szeretünk együttműködni akadémikusokkal, civil társadalmi és ipari kutatókkal. A Common Voice használata ingyenes, de pályázatok útján történő hozzájárulás a platform és a tárhely költségeihez nagyon hasznos.
