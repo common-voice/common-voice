@@ -1619,6 +1619,7 @@ citing-sentences-subheader-offline-sources = Žórła offline
 citation =
     .label = Citat
 self-citation = Sebjecitowanje
+self-citation-explanation = Tak samoho citujeće, hdyž wy sam sće wobsah napisał.
 adding-sentences-subheader-length = Dołhosć
 adding-sentences-subheader-length-explanation = Sada dyrbjała mjenje hač 15 słowow měć.
 adding-sentences-subheader-spelling-punctuation = Prawopis a interpunkcija
