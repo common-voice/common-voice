@@ -1705,6 +1705,8 @@ create-profile-text = Wolle jo jo gegevens bewarje? <createProfile>Meitsje in pr
 thanks-for-voice-toast = Tank foar jo stimynformaasje
 thanks-for-voice-toast-error = Der is in flater bard by it ferstjoeren fan jo stimynformaasje
 first-cta-gender-select-default-option = Selektearje in opsje
+first-cta-gender-select-help-text =
+    .label = Hoe soene jo jo geslacht of gender omskriuwe?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Tank foar it donearjen fan jo stim!
 second-cta-subtitle-text = Mei in profyl kinne jo jo aktiviteit byhâlde en ferbine mei in mienskip fan bydragers oan spraakgegevens.
@@ -1919,3 +1921,7 @@ too-many-files = Tefolle bestannen
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Wy hawwe</mark><br/><mark>jo help nedich!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Brûke jo CV foar</mark><br/><mark>jo ûndersyk?</mark>
