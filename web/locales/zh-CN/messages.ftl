@@ -679,6 +679,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>详细了解�
 ## How is Common Voice funded
 
 about-playbook-how-funded = Common Voice 的筹资方式
+about-playbook-how-funded-content-1 = Common Voice 是 Mozilla 基金会（美国 501(c)(3) 组织）的项目，资金完全由世界各地人士<philantropicGrantLink>公益捐赠</philantropicGrantLink>。
 
 ## Glossary
 
