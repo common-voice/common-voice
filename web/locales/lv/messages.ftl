@@ -699,6 +699,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Uzziniet vair�
 about-playbook-how-funded = Kas finansē Common Voice?
 about-playbook-how-funded-content-1 = Common Voice ir Mozilla Fonda projekts, ASV 501c3. Pašlaik projektu pilnībā finansē no <philantropicGrantLink>filantropiskām dotācijām</philantropicGrantLink> un cilvēku ziedojumiem visā pasaulē.
 about-playbook-how-funded-content-2 = Datu kopu uzturēšana, platformas attīstīšana un <africaMradiLink>kopienas programmu</africaMradiLink> atbalsts maksā daudz naudas.
+about-playbook-how-funded-content-3 = Ja jūs vai jūsu organizācija vēlaties piedalīties projektā, varat veikt <donateLink>ziedojumu</donateLink> vai sazināties ar mūsu partnerības komandu, rakstot uz e-pasta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -1843,6 +1844,9 @@ continue-speaking-button = Nē, paldies, turpināšu ierakstīt
 create-profile-text = Vai vēlaties saglabāt savu informāciju? <createProfile>Izveidojiet profilu</createProfile>
 thanks-for-voice-toast = Paldies par balss informāciju
 thanks-for-voice-toast-error = Iesniedzot jūsu balss informāciju, radās kļūda
+first-cta-gender-select-default-option = Lūdzu izvēlieties
+first-cta-gender-select-help-text =
+    .label = Kā jūs raksturotu savu dzimumu?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Paldies, ka pievienojāt savas balss ierakstus!
 second-cta-subtitle-text = Izmantojot profilu, varēsiet sekot līdzi savai aktivitātei un sazināties ar balss datu vācēju kopienu.
@@ -2049,3 +2053,10 @@ too-many-files = Pārāk daudz datņu
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Mums ir nepieciešama</mark><br/><mark>jūsu palīdzība!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Datu kopu uzturēšana un platformas uzlabošana vairāk nekā 100 valodu kopienām, kuras paļaujas uz mums, izmaksā gandrīz miljonu dolāru gadā. <strong>Ja jums ir svarīgi atvērti, iekļaujoši dati, ziedojiet jau šodien!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Vai izmantojat CV</mark><br/><mark>savos pētījumos?</mark>
+languages-donate-banner-cta-explanation = Common Voice tiek finansēta no ziedojumiem un dotācijām! Mums patīk sadarboties ar akadēmiķiem, pilsonisko sabiedrību un nozares pētniekiem. Common Voice var izmantot bez maksas, taču platformas un serveru izmaksu segšana, izmantojot pētījumu programmu dotācijas, ir patiešām noderīga.
