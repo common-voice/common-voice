@@ -683,6 +683,10 @@ about-playbook-how-project-governance-content-5 = Valorização e reconhecimento
 about-playbook-how-project-governance-content-6 = Responsabilidade mútua.
 about-playbook-how-project-governance-content-7 = <governanceLink>Mais informações sobre nossos critérios de gerenciamento do projeto</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Como o Common Voice é financiado?
+
 ## Glossary
 
 glossary = Glossário
@@ -1611,6 +1615,7 @@ continue-speaking-button = Não, obrigado, continuar falando
 create-profile-text = Quer salvar suas informações? <createProfile>Crie um perfil</createProfile>
 thanks-for-voice-toast = Obrigado por suas informações de voz
 thanks-for-voice-toast-error = Ocorreu um erro ao enviar suas informações de voz
+first-cta-gender-select-default-option = Selecione uma opção
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Obrigado por contribuir com sua voz!
 second-cta-subtitle-text = Com um perfil, você pode acompanhar sua atividade e conectar-se a uma comunidade de contribuidores de dados de voz.
@@ -1814,3 +1819,8 @@ file-invalid-type = Arquivo inválido
 file-too-large = Arquivo grande demais
 file-too-small = Arquivo pequeno demais
 too-many-files = Arquivos demais
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Precisamos</mark><br/><mark>da sua ajuda!</mark>

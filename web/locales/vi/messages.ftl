@@ -679,6 +679,13 @@ about-playbook-how-project-governance-content-5 = Giá trị và sự công nh�
 about-playbook-how-project-governance-content-6 = Trách nhiệm giải trình.
 about-playbook-how-project-governance-content-7 = <governanceLink>Đọc thêm về cách chúng tôi quản lý</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Common Voice được tài trợ như thế nào?
+about-playbook-how-funded-content-1 = Common Voice là một dự án của Mozilla Foundation, a US 501c3. Dự án hiện được tài trợ hoàn toàn bởi <philantropicGrantLink>tài trợ từ thiện</philantropicGrantLink>, và sự quyên góp từ mọi người trên khắp thế giới.
+about-playbook-how-funded-content-2 = Sẽ tốn rất nhiều tiền để liên tục lưu trữ và phát hành các bộ dữ liệu, cải thiện nền tảng và chạy <africaMradiLink>chương trình cộng đồng</africaMradiLink>.
+about-playbook-how-funded-content-3 = Nếu bạn hoặc tổ chức của bạn muốn đóng góp lại cho dự án, bạn có thể <donateLink>quyên góp</donateLink> hoặc liên hệ với nhóm đối tác của chúng tôi trên <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = Từ vựng
@@ -1663,6 +1670,9 @@ continue-speaking-button = Không, cảm ơn, tiếp tục nói
 create-profile-text = Bạn muốn lưu thông tin của bạn? <createProfile>Tạo hồ sơ</createProfile>
 thanks-for-voice-toast = Cảm ơn thông tin giọng nói của bạn
 thanks-for-voice-toast-error = Đã xảy ra lỗi khi gửi thông tin giọng nói của bạn
+first-cta-gender-select-default-option = Chọn một tùy chọn
+first-cta-gender-select-help-text =
+    .label = Bạn mô tả giới tính của mình như thế nào?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Cảm ơn bạn đã đóng góp tiếng nói của bạn!
 second-cta-subtitle-text = Với một hồ sơ, bạn có thể theo dõi hoạt động của mình và kết nối với cộng đồng những người đóng góp dữ liệu giọng nói.
@@ -1862,3 +1872,13 @@ file-invalid-type = Tập tin không hợp lệ
 file-too-large = Tập tin quá lớn
 file-too-small = Tập tin quá nhỏ
 too-many-files = Quá nhiều tập tin
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Chúng tôi</mark><br/><mark>cần bạn giúp!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Chi phí gần một triệu đô la mỗi năm để lưu trữ các bộ dữ liệu và cải thiện nền tảng cho hơn 100 cộng đồng ngôn ngữ dựa vào những gì chúng tôi làm. <strong>Nếu bạn coi trọng dữ liệu mở, toàn diện - hãy quyên góp hôm nay!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Sử dụng CV</mark><br/><mark>cho nghiên cứu của bạn?</mark>
+languages-donate-banner-cta-explanation = Common Voice được tài trợ bởi quyên góp và tài trợ! Chúng tôi thích hợp tác với các học giả, xã hội dân sự và các nhà nghiên cứu trong ngành. Common Voice được sử dụng miễn phí nhưng việc quyên góp vào chi phí nền tảng và lưu trữ thông qua các đề xuất tài trợ thực sự hữu ích.

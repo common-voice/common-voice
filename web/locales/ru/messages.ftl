@@ -683,6 +683,13 @@ about-playbook-how-project-governance-content-5 = Ценность и призн
 about-playbook-how-project-governance-content-6 = Взаимная ответственность.
 about-playbook-how-project-governance-content-7 = <governanceLink>Узнайте больше о том, как у нас организовано управление</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Как финансируется Common Voice?
+about-playbook-how-funded-content-1 = Common Voice — это проект Mozilla Foundation, US 501c3. В настоящее время проект финансируется полностью за счет <philantropicGrantLink>благотворительных грантов</philantropicGrantLink>, а также пожертвований людей со всего мира.
+about-playbook-how-funded-content-2 = Постоянное размещение и выпуск наборов данных, улучшение платформы и запуск <americaMradiLink>программ сообщества</americaMradiLink> стоит огромных денег.
+about-playbook-how-funded-content-3 = Если вы или ваша организация хотите внести свой вклад в проект, вы можете сделать <donateLink>пожертвование</donateLink> или связаться с нашей командой по работе с партнёрами по адресу <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = Глоссарий
@@ -1652,6 +1659,9 @@ continue-speaking-button = Нет, спасибо, продолжайте гов
 create-profile-text = Хотите сохранить свою информацию? <createProfile>Создайте профиль</createProfile>
 thanks-for-voice-toast = Спасибо за вашу голосовую информацию
 thanks-for-voice-toast-error = Произошла ошибка при отправке вашей голосовой информации
+first-cta-gender-select-default-option = Выберите вариант
+first-cta-gender-select-help-text =
+    .label = Как бы вы описали свой пол или гендерную идентичность?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Спасибо за участие своим голосом!
 second-cta-subtitle-text = С помощью профиля вы можете отслеживать свою активность и подключаться к сообществу авторов голосовых данных.
@@ -1855,3 +1865,13 @@ file-invalid-type = Неподходящий файл
 file-too-large = Файл слишком большой
 file-too-small = Файл слишком маленький
 too-many-files = Слишком много файлов
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Нам нужна</mark><br/><mark>ваша помощь!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Размещение наборов данных и улучшение платформы для более чем 100 языковых сообществ обходится почти в миллион долларов в год. <strong>Если вы цените открытые, инклюзивные данные - сделайте пожертвование сегодня!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Используете CV для</mark><br/><mark>вашего исследования?</mark>
+languages-donate-banner-cta-explanation = Common Voice финансируется за счёт пожертвований и грантов! Нам нравится сотрудничать с учёными, гражданским обществом и отраслевыми исследователями. Common Voice бесплатен для использования, но участие в пожертвованиях на платформу и хостинг может быть действительно полезным.

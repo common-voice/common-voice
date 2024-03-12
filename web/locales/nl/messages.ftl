@@ -683,6 +683,13 @@ about-playbook-how-project-governance-content-5 = Waarde en erkenning.
 about-playbook-how-project-governance-content-6 = Wederzijdse verantwoordelijkheid.
 about-playbook-how-project-governance-content-7 = <governanceLink>Meer info over hoe we worden bestuurd</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Hoe wordt Common Voice gefinancierd?
+about-playbook-how-funded-content-1 = Common Voice is een project van de Mozilla Foundation, een US 501c3. Het project wordt momenteel volledig gefinancierd door <philantropicGrantLink>filantropische subsidies</philantropicGrantLink> en donaties van mensen over de hele wereld.
+about-playbook-how-funded-content-2 = Het kost veel geld om continu de gegevenssets te hosten en uit te geven, het platform te verbeteren en <africaMradiLink>gemeenschapsprogramma’s</africaMradiLink> uit te voeren.
+about-playbook-how-funded-content-3 = Als u of uw organisatie een wederkerige bijdrage wil doen aan het project, dan kunt u een <donateLink>donatie</donateLink> doen of contact opnemen met ons partnerteam via <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = Woordenlijst
@@ -1691,6 +1698,9 @@ continue-speaking-button = Nee bedankt, ga door met spreken
 create-profile-text = Wilt u uw gegevens opslaan? <createProfile>Maak een profiel aan</createProfile>
 thanks-for-voice-toast = Bedankt voor uw steminformatie
 thanks-for-voice-toast-error = Er is een fout opgetreden bij het verzenden van uw steminformatie
+first-cta-gender-select-default-option = Selecteer een optie
+first-cta-gender-select-help-text =
+    .label = Hoe zou u uw geslacht of gender omschrijven?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Bedankt voor het doneren van uw stem!
 second-cta-subtitle-text = Met een profiel kunt u uw activiteit bijhouden en verbinding maken met een gemeenschap van bijdragers aan spraakgegevens.
@@ -1902,3 +1912,10 @@ file-invalid-type = Ongeldig bestand
 file-too-large = Bestand is te groot
 file-too-small = Bestand is te klein
 too-many-files = Te veel bestanden
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>We hebben</mark><br/><mark>uw hulp nodig!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Het kost bijna een miljoen dollar per jaar om de gegevenssets te hosten en het platform te verbeteren voor de meer dan 100 taalgemeenschappen die afhankelijk zijn van wat we doen. <strong>Als u open, inclusieve gegevens waardeert – doneer dan vandaag nog!</strong>

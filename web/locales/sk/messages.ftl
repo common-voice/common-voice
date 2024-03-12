@@ -697,6 +697,13 @@ about-playbook-how-project-governance-content-5 = Hodnota a uznanie.
 about-playbook-how-project-governance-content-6 = Vzájomná zodpovednosť.
 about-playbook-how-project-governance-content-7 = <governanceLink>Prečítajte si viac o tom, ako sa riadime</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Ako je Common Voice financovaný?
+about-playbook-how-funded-content-1 = Common Voice je projekt Mozilla Foundation, US 501c3. Projekt je v súčasnosti plne financovaný z <philantropicGrantLink>filantropických grantov</philantropicGrantLink> a darov od ľudí z celého sveta.
+about-playbook-how-funded-content-2 = Neustále hosťovanie a zverejňovanie súborov údajov, zlepšovanie platformy a prevádzkovanie <africaMradiLink>komunitných programov</africaMradiLink> stojí veľa peňazí.
+about-playbook-how-funded-content-3 = Ak by ste vy alebo vaša organizácia chceli prispieť späť do projektu, môžete poskytnúť <donateLink>dar</donateLink> alebo sa obrátiť na náš tím pre partnerstvá na adrese <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = Slovník
@@ -1636,6 +1643,9 @@ continue-speaking-button = Nie, ďakujem, hovorme ďalej
 create-profile-text = Chcete uložiť tieto informácie? <createProfile>Vytvoriť profil</createProfile>
 thanks-for-voice-toast = Ďakujeme za vaše hlasové informácie
 thanks-for-voice-toast-error = Pri odosielaní vašich hlasových informácií sa vyskytla chyba
+first-cta-gender-select-default-option = Vyberte možnosť
+first-cta-gender-select-help-text =
+    .label = Ako by ste opísali svoje pohlavie alebo rod?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Ďakujeme, že ste prispeli svojím hlasom!
 second-cta-subtitle-text = Pomocou profilu môžete sledovať svoju aktivitu a spojiť sa s komunitou prispievateľov hlasových dát.
@@ -1839,3 +1849,13 @@ file-invalid-type = Neplatný súbor
 file-too-large = Súbor je príliš veľký
 file-too-small = Súbor je príliš malý
 too-many-files = Príliš veľa súborov
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Potrebujeme</mark><br/><mark>vašu pomoc!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Hosťovanie súborov údajov a zlepšenie platformy pre viac ako 100 jazykových komunít, ktoré sa spoliehajú na to, čo robíme, stojí takmer milión dolárov ročne. <strong>Ak si ceníte otvorené, inkluzívne dáta – pošlite dar ešte dnes!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Používate Common Voice</mark><br/><mark>na svoj výskum?</mark>
+languages-donate-banner-cta-explanation = Common Voice je financovaný z darov a grantov! Radi spolupracujeme s akademikmi, občianskou spoločnosťou a priemyselnými výskumníkmi. Používanie Common Voice je bezplatné, ale prispievanie na náklady na platformu a hosťovanie prostredníctvom návrhov grantov je skutočne užitočné.
