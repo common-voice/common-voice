@@ -679,7 +679,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>详细了解�
 ## How is Common Voice funded
 
 about-playbook-how-funded = Common Voice 的筹资方式
-about-playbook-how-funded-content-1 = Common Voice 是 Mozilla 基金会（美国 501(c)(3) 组织）的项目，资金完全由世界各地人士<philantropicGrantLink>公益捐赠</philantropicGrantLink>。
+about-playbook-how-funded-content-1 = Common Voice 是 Mozilla 基金会（美国 501(c)(3) 组织）的项目，资金完全来源于世界各地人士<philantropicGrantLink>公益捐赠</philantropicGrantLink>。
 
 ## Glossary
 
@@ -1578,6 +1578,8 @@ continue-speaking-button = 不用了，继续朗读
 create-profile-text = 想保存您的信息吗？<createProfile>创建用户资料</createProfile>
 thanks-for-voice-toast = 感谢您的提供的语音信息
 thanks-for-voice-toast-error = 提交您的语音信息时发生错误
+first-cta-gender-select-help-text =
+    .label = 您如何描述自己的生理性别或性别认同？
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = 感谢您贡献语音！
 second-cta-subtitle-text = 创建用户文件后，您就可以记录自己的活动并与语音数据贡献者社区联系。
@@ -1784,3 +1786,7 @@ too-many-files = 文件过多
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>我们需要</mark><br/><mark>您的帮助！</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>在用 Common Voice</mark><br/><mark>来做研究？</mark>
