@@ -692,6 +692,8 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Läs mer om hu
 
 about-playbook-how-funded = Hur finansieras Common Voice?
 about-playbook-how-funded-content-1 = Common Voice är ett projekt av Mozilla Foundation, en US 501c3. Projektet finansieras för närvarande helt av <philantropicGrantLink>filantropiska anslag</filantropicGrantLink> och donationer från människor runt om i världen.
+about-playbook-how-funded-content-2 = Det kostar mycket pengar att kontinuerligt vara värd för och släppa datamängder, förbättra plattformen och köra <africaMradiLink>gemenskapsprogram</africaMradiLink>.
+about-playbook-how-funded-content-3 = Om du eller din organisation vill bidra till projektet kan ni göra en <donateLink>donation</donateLink> eller kontakta vårt partnerskapsteam på <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -1633,6 +1635,8 @@ create-profile-text = Vill du spara din information? <createProfile>Skapa en pro
 thanks-for-voice-toast = Tack för din röstinformation
 thanks-for-voice-toast-error = Ett fel uppstod när din röstinformation skickades
 first-cta-gender-select-default-option = Välj ett alternativ
+first-cta-gender-select-help-text =
+    .label = Hur skulle du beskriva ditt kön?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Tack för att du bidrar med din röst!
 second-cta-subtitle-text = Med en profil kan du hålla reda på din aktivitet och få kontakt med en grupp bidragsgivare av röstdata.
@@ -1841,3 +1845,8 @@ too-many-files = För många filer
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Vi behöver</mark><br/><mark>din hjälp!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Det kostar nästan en miljon dollar per år att vara värd för datamängder och förbättra plattformen för de över 100 språkgemenskaper som förlitar sig på det vi gör. <strong>Om du värderar öppen, inkluderande data - donera idag!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Använder du CV för</mark><br/><mark>din forskning?</mark>
+languages-donate-banner-cta-explanation = Common Voice finansieras av donationer och bidrag! Vi älskar att samarbeta med akademiker, civilsamhället och forskare inom industrin. Common Voice är gratis att använda, men att bidra till plattforms- och värdkostnader genom bidragsförslag är verkligen användbart.
