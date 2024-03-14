@@ -419,6 +419,8 @@ male_masculine = Kuimba’e/Kuimba’e
 female_feminine = Kuña/Kuña
 intersex = Intersexual
 transgender = Transgénero
+non-binary = Oñeñandu’ỹva kuimba’e térã kuña
+do_not_wish_to_say = Nda’eséi
 # Gender
 other = Ambue
 why-profile-title = Mba’érepa mba’ete
@@ -691,6 +693,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Emoñe’ẽve
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = ¿Mba’éicha ivirureko Common Voice?
 
 ## Glossary
 
