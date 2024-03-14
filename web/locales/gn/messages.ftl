@@ -417,6 +417,8 @@ profile-form-submit-save = Ñongatu
 profile-form-submit-saved = Ñongatupyre
 male_masculine = Kuimba’e/Kuimba’e
 female_feminine = Kuña/Kuña
+intersex = Intersexual
+transgender = Transgénero
 # Gender
 other = Ambue
 why-profile-title = Mba’érepa mba’ete
