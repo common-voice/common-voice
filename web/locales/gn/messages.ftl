@@ -76,6 +76,7 @@ ff = Fulah ñe’ẽ
 fi = Finlandia ñe’ẽ
 fo = Faroese ñe’ẽ
 fr = Francia ñe’ẽ
+fuf = Pular Guinea
 fy-NL = Frisón ñe’ẽ
 ga-IE = Irlanda ñe’ẽ
 gl = Galicia ñe’ẽ
@@ -683,6 +684,9 @@ about-playbook-how-project-governance-content-4 = Tekohápe jeike ha mba’e tap
 about-playbook-how-project-governance-content-5 = Tepykue ha jehechakuaa.
 about-playbook-how-project-governance-content-6 = Jepapapy mokõiveguáva.
 about-playbook-how-project-governance-content-7 = <governanceLink>Emoñe’ẽve mba’éichapa roñemongu’e</governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -1785,3 +1789,6 @@ file-invalid-type = Marandurenda ndoikóiva
 file-too-large = Marandurenda tuichaiterei
 file-too-small = Marandurenda michĩeterei
 too-many-files = Heta marandurenda
+
+## Donate banner
+
