@@ -695,6 +695,9 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Mear ynfo oer 
 ## How is Common Voice funded
 
 about-playbook-how-funded = Hoe wurdt Common Voice finansiere?
+about-playbook-how-funded-content-1 = Common Voice is in projekt fan de Mozilla Foundation, in US 501c3. It projekt wurdt op dit stuit folslein finansiere troch <philantropicGrantLink>filantropyske subsydzjes</philantropicGrantLink> en donaasjes fan minsken fan oer de hiele wrâld.
+about-playbook-how-funded-content-2 = It kostet in soad jild om kontinu de gegevenssets te hosten en út te jaan, it platfoarm te ferbetterjen en <africaMradiLink>mienskipsprogramma's</africaMradiLink> út te fieren.
+about-playbook-how-funded-content-3 = As jo of jo organisaasje graach bydrage wolle oan it projekt, kinne jo in <donateLink>donaasje</donateLink> dwaan of kontakt opnimme mei ús partnerteam fia <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -1923,5 +1926,7 @@ too-many-files = Tefolle bestannen
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Wy hawwe</mark><br/><mark>jo help nedich!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = It kostet hast in miljoen dollar yn it jier om de gegevenssets te hosten en it platfoarm te ferbetterjen foar de mear as 100 taalmienskippen dy’t fertrouwe op wat wy dogge. <strong>As jo iepen, ynklusive gegevens wurdearje – donearje dan hjoed!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Brûke jo CV foar</mark><br/><mark>jo ûndersyk?</mark>
