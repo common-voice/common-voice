@@ -1682,6 +1682,7 @@ public-domain = Opavave oiporukuaáva
 citing-sentences = Emboysýi ñe’ẽjuaju
 adding-sentences = Emoĩve Ñe’ẽjuaju
 reviewing-sentences = Ehechajey Ñe’ẽjuaju
+sentence-domain = Ñe’ẽjuaju rendatee
 public-domain-explanation-2 = Umi ñe’ẽjuaju iporãva oñemoheñói hag̃ua ñe’ẽayvu ñeikumby mongu’eha oikóva ha’e ñe’ẽ syryry ha poravopyre. Ãva nepytyvõta ejapokuaa hag̃ua ñe’ẽjuaju;
 public-domain-explanation-3 = Emoheñói umi ñe’ẽjuaju ipyahu ha ojeporúva, neaño térã neangirũ térã eñe’ẽmemeha ndive, techapyrãrõ, peteĩ ‘jehai guasu’ ndive
 public-domain-explanation-4 = Eñe’ẽ apohare, ñoha’ãnga’apoha térã haihára ndive ha eporandu chupekuéra nome’ẽséipa hembiapokue opavave oipukuaa hag̃uáicha.
@@ -1755,9 +1756,21 @@ automotive = Mba’yrumỹi
 # Sentence Domain dropdown option
 finance = Viruporukuaa
 # Sentence Domain dropdown option
+food_service_retail = Jekarurã, mba’eporu ha ñevende sa’igua
+# Sentence Domain dropdown option
 general = Tuichakue
 # Sentence Domain dropdown option
 healthcare = Tesãirãre ñema’ẽ
+# Sentence Domain dropdown option
+history_law_government = Tembiasakue, Derécho ha Tekuái
+# Sentence Domain dropdown option
+media_entertainment = Momaranduha ha mbovy’aha
+# Sentence Domain dropdown option
+nature_environment = Tekopy ha Tekoha
+# Sentence Domain dropdown option
+news_current_affairs = Marandu ha Ag̃aguáva
+# Sentence Domain dropdown option
+technology_robotics = Tembiporupyahu ha Robótica
 
 ## REVIEW PAGE
 
