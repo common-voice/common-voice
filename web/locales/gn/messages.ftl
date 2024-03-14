@@ -415,6 +415,8 @@ native-language =
 profile-form-add-accent = Embojuaju myanduhe pyahu mba’etepyre "{ $inputValue }"
 profile-form-submit-save = Ñongatu
 profile-form-submit-saved = Ñongatupyre
+male_masculine = Kuimba’e/Kuimba’e
+female_feminine = Kuña/Kuña
 # Gender
 other = Ambue
 why-profile-title = Mba’érepa mba’ete
