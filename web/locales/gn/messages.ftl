@@ -819,6 +819,8 @@ no-information-available = Ndaipóri marandu eiporukuaáva
 dataset-metadata-sex = Meña
 # dataset metadata - age of contributor
 dataset-metadata-age = Ary
+donate-modal-message = ¡Ne mba’ekuaarã aty oguejyhína!
+dataset-donate-modal-heading = Eikuaápa…
 
 ## Download Modal
 
@@ -1619,6 +1621,9 @@ continue-speaking-button = Aguyje, eñe’ẽvékatu
 create-profile-text = ¿Eñongatusépa ne marandu? <createProfile>Emoheñói mba’ete</createProfile>
 thanks-for-voice-toast = Aguyje ne ñe’ẽ marandu rehe
 thanks-for-voice-toast-error = Oiko jejavy ne ñe’ẽ marandu emondokuévo
+first-cta-gender-select-default-option = Ehecha jeporavoha
+first-cta-gender-select-help-text =
+    .label = Mba’épa erekuaa ne meña ha heko rehe
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Aguyje ne ñe’ẽ ñeme’ẽre!
 second-cta-subtitle-text = Peteĩ mba’ete ndive, ehapykuehokuaa ne rembiapo ha eike ayvu mba’ekuaarã pytyvõhára rekohápe.
