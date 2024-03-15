@@ -693,6 +693,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>قۇرۇلۇش
 about-playbook-how-funded = Common Voice مەبلىغى قانداق كەلگەن؟
 about-playbook-how-funded-content-1 = Common Voice قۇرۇلۇشى Mozilla ۋەخپىسى (ئامېرىكا 501c3 تەشكىلاتى) نىڭ قۇرۇلۇشى، مەبلىغى پۈتۈنلەي دېگۈدەك دۇنيانىڭ ھەر قايسى جايلىرىدىكى كىشىلەرنى <philantropicGrantLink>خەير-ساخاۋەت ئىئانىسى</philantropicGrantLink> دىن كەلگەن.
 about-playbook-how-funded-content-2 = سانلىق مەلۇمات توپلىمىنى ئۈزلۈكسىز ئاسراش ۋە تارقىتىش، سۇپىنى ياخشىلاش ۋە <africaMradiLink>جامائەت پىروگراممىسى</africaMradiLink>نى ئىجرا قىلىشقا نۇرغۇن پۇل كېتىدۇ.
+about-playbook-how-funded-content-3 = ئەگەر سىز ياكى تەشكىلاتىڭىز بۇ تۈرگە يەنە تۆھپە قوشماقچى بولسىڭىز، <donateLink>ئىئانە</donateLink> قىلىش ياكى <emailFragment>commonvoice@mozilla.com</emailFragment>ھەمكارلىق گۇرۇپپىمىز بىلەن ئالاقىلاشسىڭىز بولىدۇ.
 
 ## Glossary
 
@@ -1831,3 +1832,5 @@ too-many-files = ھۆججەت بەك كۆپ
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>بىز </mark><br/><mark> ياردىمىڭىزگە موھتاج!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Common Voice نى ئىشلىتىپ</mark><br/><mark>تەتقىقات قىلامسىز؟</mark>
