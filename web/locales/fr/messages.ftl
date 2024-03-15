@@ -686,6 +686,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>En savoir plus
 about-playbook-how-funded = Comment Common Voice est-il financé ?
 about-playbook-how-funded-content-1 = Common Voice est un projet de la Fondation Mozilla, une organisation 501c3 aux États-Unis. Le projet est actuellement entièrement financé par des <philantropGrantLink>subventions philanthropiques</philantropGrantLink> et des dons de personnes du monde entier.
 about-playbook-how-funded-content-2 = Héberger et publier en permanence les jeux de données, mais aussi améliorer la plateforme et lancer les <africaMradiLink>programmes communautaires</africaMradiLink> coûte beaucoup d’argent.
+about-playbook-how-funded-content-3 = Si vous ou votre organisation souhaitez contribuer au projet, vous pouvez faire un <donateLink>don</donateLink> ou contacter notre équipe des partenariats à l’adresse <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -1816,5 +1817,7 @@ too-many-files = Trop de fichiers
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Nous avons besoin</mark><br/><mark>de votre aide !</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Héberger les jeux de données et améliorer la plateforme pour les plus de 100 communautés linguistiques qui font confiance à notre service coûte près d’un million de dollars par an. <strong>Si vous appréciez les données ouvertes et inclusives, faites un don aujourd’hui !</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Vous utilisez CV pour</mark><br/><mark>vos recherches ?</mark>

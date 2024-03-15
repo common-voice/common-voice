@@ -691,6 +691,9 @@ about-playbook-how-project-governance-content-7 = <governanceLink>قۇرۇلۇش
 ## How is Common Voice funded
 
 about-playbook-how-funded = Common Voice مەبلىغى قانداق كەلگەن؟
+about-playbook-how-funded-content-1 = Common Voice قۇرۇلۇشى Mozilla ۋەخپىسى (ئامېرىكا 501c3 تەشكىلاتى) نىڭ قۇرۇلۇشى، مەبلىغى پۈتۈنلەي دېگۈدەك دۇنيانىڭ ھەر قايسى جايلىرىدىكى كىشىلەرنى <philantropicGrantLink>خەير-ساخاۋەت ئىئانىسى</philantropicGrantLink> دىن كەلگەن.
+about-playbook-how-funded-content-2 = سانلىق مەلۇمات توپلىمىنى ئۈزلۈكسىز ئاسراش ۋە تارقىتىش، سۇپىنى ياخشىلاش ۋە <africaMradiLink>جامائەت پىروگراممىسى</africaMradiLink>نى ئىجرا قىلىشقا نۇرغۇن پۇل كېتىدۇ.
+about-playbook-how-funded-content-3 = ئەگەر سىز ياكى تەشكىلاتىڭىز بۇ تۈرگە يەنە تۆھپە قوشماقچى بولسىڭىز، <donateLink>ئىئانە</donateLink> قىلىش ياكى <emailFragment>commonvoice@mozilla.com</emailFragment>ھەمكارلىق گۇرۇپپىمىز بىلەن ئالاقىلاشسىڭىز بولىدۇ.
 
 ## Glossary
 
@@ -1829,3 +1832,8 @@ too-many-files = ھۆججەت بەك كۆپ
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>بىز </mark><br/><mark> ياردىمىڭىزگە موھتاج!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = قىلىۋاتقان ئىشىمىزغا تايىنىدىغان 100+ تىل جامائىتىنىڭ سۇپىسىنى ياخشىلاش ۋە سانلىق مەلۇمات توپلىمىنى ئاسراشقا يىلىغا بىر مىليون دوللار ئەتراپىدا چىقىم كېتىدۇ. <strong>ئەگەر ئوچۇق، سىغدۇرۇشچان سانلىق مەلۇماتنى قەدىرلىسىڭىز، بۈگۈن ئىئانە قىلىڭ!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Common Voice نى ئىشلىتىپ</mark><br/><mark>تەتقىقات قىلامسىز؟</mark>
+languages-donate-banner-cta-explanation = Common Voice خەير-ساخاۋەت ۋە ئىئانىگە تايىنىدۇ! بىز ئاكادېمىيە، پۇقرالار جەمئىيىتى ۋە كەسپىي تەتقىقاتچىلار بىلەن ھەمكارلىشىشنى ياقتۇرىمىز. Common Voice نى ھەقسىز ئىشلەتكىلى بولىدۇ ئەمما سۇپا ۋە مۇلازىمېتىر چىقىمىغا ھەسسە قوشۇشىڭىزغا ھەقىقەتەن ئېھتىياجلىق.

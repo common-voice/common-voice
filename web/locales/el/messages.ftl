@@ -685,6 +685,13 @@ about-playbook-how-project-governance-content-5 = Αξία και αναγνώρ
 about-playbook-how-project-governance-content-6 = Αμοιβαία ευθύνη.
 about-playbook-how-project-governance-content-7 = <governanceLink>Διαβάστε περισσότερα σχετικά με τον τρόπο διακυβέρνησής μας</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Πώς χρηματοδοτείται το Common Voice;
+about-playbook-how-funded-content-1 = Το Common Voice είναι ένα έργο του Ιδρύματος Mozilla, ένα US 501c3. Το έργο χρηματοδοτείται εξ ολοκλήρου από <philantropicGrantLink>φιλανθρωπικές επιχορηγήσεις</philantropicGrantLink> και από δωρεές ανθρώπων από όλο τον κόσμο.
+about-playbook-how-funded-content-2 = Κοστίζει αρκετά χρήματα η συνεχής φιλοξενία και υποστήριξη όλων των δεδομένων, η βελτίωση της πλατφόρμας και η εκτέλεση των <africaMradiLink>προγραμμάτων της κοινότητας</africaMradiLink>.
+about-playbook-how-funded-content-3 = Αν εσείς ή ο οργανισμός σας επιθυμείτε να συνεισφέρετε στο έργο, μπορείτε να κάνετε <donateLink>δωρεά</donateLink> ή να επικοινωνήσετε με την ομάδα συνεργασιών μας στο <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = Γλωσσάριο
@@ -1620,6 +1627,9 @@ continue-speaking-button = Όχι ευχαριστώ, συνέχεια ομιλ�
 create-profile-text = Θέλετε να αποθηκεύσετε τις πληροφορίες σας; <createProfile>Δημιουργήστε ένα προφίλ</createProfile>
 thanks-for-voice-toast = Σας ευχαριστούμε για τις πληροφορίες της ομιλίας σας
 thanks-for-voice-toast-error = Προέκυψε σφάλμα κατά την υποβολή των φωνητικών πληροφοριών σας
+first-cta-gender-select-default-option = Κάντε μια επιλογή
+first-cta-gender-select-help-text =
+    .label = Πώς θα περιγράφατε το φύλο σας;
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Σας ευχαριστούμε που συνεισφέρετε τη φωνή σας!
 second-cta-subtitle-text = Με ένα προφίλ, μπορείτε να παρακολουθείτε τη δραστηριότητά σας και να συνδεθείτε με μια κοινότητα εθελοντών φωνητικών δεδομένων.
@@ -1824,3 +1834,13 @@ file-invalid-type = Μη έγκυρο αρχείο
 file-too-large = Το αρχείο είναι πολύ μεγάλο
 file-too-small = Το αρχείο είναι πολύ μικρό
 too-many-files = Πάρα πολλά αρχεία
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Χρειαζόμαστε</mark><br/><mark>τη βοήθειά σας!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Η φιλοξενία του συνόλων των δεδομένων και η βελτίωση της πλατφόρμας για τις 100+ διαφορετικές γλωσσικά κοινότητες που στηρίζονται σε εμάς, κοστίζει σχεδόν ένα εκατομμύριο δολάρια ετησίως. <strong>Αν εκτιμάτε τα ανοικτά και χωρίς αποκλεισμούς δεδομένα, κάντε δωρεά σήμερα!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Χρησιμοποιείτε το βιογραφικό σας</mark><br/><mark>για την έρευνά σας;</mark>
+languages-donate-banner-cta-explanation = Το Common Voice χρηματοδοτείται από δωρεές και επιχορηγήσεις! Μας αρέσει να συνεργαζόμαστε με ακαδημαϊκούς, την κοινωνία των πολιτών και ερευνητές του κλάδου. Η χρήση του Common Voice είναι δωρεάν, αλλά η συνεισφορά στο κόστος της πλατφόρμας και της φιλοξενίας μέσω επιχορηγήσεων είναι πολύ χρήσιμη.

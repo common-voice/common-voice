@@ -700,6 +700,13 @@ about-playbook-how-project-governance-content-5 = Gwerth a chydnabyddiaeth.
 about-playbook-how-project-governance-content-6 = Atebolrwydd ar y cyd.
 about-playbook-how-project-governance-content-7 = <governanceLink>Darllenwch ragor am sut rydyn ni'n cael ein llywodraethu</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Sut mae Common Voice yn cael ei ariannu?
+about-playbook-how-funded-content-1 = Mae Common Voice yn broject gan y Mozilla Foundation, sy'n US 501c3. Ar hyn o bryd mae'r project yn cael ei ariannu'n gyfan gwbl drwy <philantropicGrantLink>grantiau dyngarol</philantropicGrantLink> a rhoddion gan bobl ar draws y byd.
+about-playbook-how-funded-content-2 = Mae'n ddrud iawn cynnal a rhyddhau'r setiau data, gwella'r platfform a rhedeg <africaMradiLink>rhaglenni cymunedol</africaMradiLink> yn barhaus.
+about-playbook-how-funded-content-3 = Os hoffech chi neu'ch sefydliad gyfrannu tuag at y project, gallwch roi <donateLink>rhodd</donateLink> neu gysylltu â'n tîm partneriaethau ar <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = Geirfa
@@ -1720,6 +1727,9 @@ continue-speaking-button = Dim diolch, parhau i siarad
 create-profile-text = Eisiau cadw'ch gwybodaeth? <createProfile>Crëwch broffil</createProfile>
 thanks-for-voice-toast = Diolch am y wybodaeth am eich llais
 thanks-for-voice-toast-error = Bu gwall wrth gyflwyno'r wybodaeth am eich llais
+first-cta-gender-select-default-option = Dewis opsiwn
+first-cta-gender-select-help-text =
+    .label = Sut byddech chi'n disgrifio'ch rhyw neu'ch rhywedd?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Diolch am gyfrannu eich llais!
 second-cta-subtitle-text = Gyda phroffil, gallwch gadw golwg ar eich gweithgaredd a chysylltu â chymuned o gyfranwyr data llais.
@@ -1923,3 +1933,13 @@ file-invalid-type = Ffeil annilys.
 file-too-large = Mae'r ffeil yn rhy fawr
 file-too-small = Mae'r ffeil yn rhy fach
 too-many-files = Gormod o ffeiliau
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Rydym angen</mark><br/><mark>eich cymorth!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Mae’n costio bron i filiwn o ddoleri’r flwyddyn i gynnal y setiau data a gwella’r llwyfan ar gyfer y 100+ o gymunedau iaith sy’n dibynnu ar yr hyn rydym yn ei wneud. <strong>Os ydych chi'n gwerthfawrogi data agored, cynhwysol - cyfrannwch heddiw!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Yn defnyddio CV ar gyfer</mark><br/><mark>eich ymchwil?</mark>
+languages-donate-banner-cta-explanation = Mae Common Voice yn cael ei ariannu gan roddion a grantiau! Rydym wrth ein bodd yn cydweithio ag academyddion, y gymdeithas sifil ac ymchwilwyr diwydiant. Mae Common Voice yn rhad ac am ddim i'w ddefnyddio, ond mae cyfrannu at gostau llwyfan a lletya trwy gynigion grant yn beth defnyddiol iawn.
