@@ -1832,5 +1832,7 @@ too-many-files = ھۆججەت بەك كۆپ
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>بىز </mark><br/><mark> ياردىمىڭىزگە موھتاج!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = قىلىۋاتقان ئىشىمىزغا تايىنىدىغان 100+ تىل جامائىتىنىڭ سۇپىسىنى ياخشىلاش ۋە سانلىق مەلۇمات توپلىمىنى ئاسراشقا يىلىغا بىر مىليون دوللار ئەتراپىدا چىقىم كېتىدۇ. <strong>ئەگەر ئوچۇق، سىغدۇرۇشچان سانلىق مەلۇماتنى قەدىرلىسىڭىز، بۈگۈن ئىئانە قىلىڭ!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Common Voice نى ئىشلىتىپ</mark><br/><mark>تەتقىقات قىلامسىز؟</mark>
