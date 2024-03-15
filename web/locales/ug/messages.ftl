@@ -691,6 +691,8 @@ about-playbook-how-project-governance-content-7 = <governanceLink>قۇرۇلۇش
 ## How is Common Voice funded
 
 about-playbook-how-funded = Common Voice مەبلىغى قانداق كەلگەن؟
+about-playbook-how-funded-content-1 = Common Voice قۇرۇلۇشى Mozilla ۋەخپىسى (ئامېرىكا 501c3 تەشكىلاتى) نىڭ قۇرۇلۇشى، مەبلىغى پۈتۈنلەي دېگۈدەك دۇنيانىڭ ھەر قايسى جايلىرىدىكى كىشىلەرنى <philantropicGrantLink>خەير-ساخاۋەت ئىئانىسى</philantropicGrantLink> دىن كەلگەن.
+about-playbook-how-funded-content-2 = سانلىق مەلۇمات توپلىمىنى ئۈزلۈكسىز ئاسراش ۋە تارقىتىش، سۇپىنى ياخشىلاش ۋە <africaMradiLink>جامائەت پىروگراممىسى</africaMradiLink>نى ئىجرا قىلىشقا نۇرغۇن پۇل كېتىدۇ.
 
 ## Glossary
 
