@@ -76,6 +76,7 @@ ff = Fulah ñe’ẽ
 fi = Finlandia ñe’ẽ
 fo = Faroese ñe’ẽ
 fr = Francia ñe’ẽ
+fuf = Pular Guinea
 fy-NL = Frisón ñe’ẽ
 ga-IE = Irlanda ñe’ẽ
 gl = Galicia ñe’ẽ
@@ -414,6 +415,12 @@ native-language =
 profile-form-add-accent = Embojuaju myanduhe pyahu mba’etepyre "{ $inputValue }"
 profile-form-submit-save = Ñongatu
 profile-form-submit-saved = Ñongatupyre
+male_masculine = Kuimba’e/Kuimba’e
+female_feminine = Kuña/Kuña
+intersex = Intersexual
+transgender = Transgénero
+non-binary = Oñeñandu’ỹva kuimba’e térã kuña
+do_not_wish_to_say = Nda’eséi
 # Gender
 other = Ambue
 why-profile-title = Mba’érepa mba’ete
@@ -684,6 +691,10 @@ about-playbook-how-project-governance-content-5 = Tepykue ha jehechakuaa.
 about-playbook-how-project-governance-content-6 = Jepapapy mokõiveguáva.
 about-playbook-how-project-governance-content-7 = <governanceLink>Emoñe’ẽve mba’éichapa roñemongu’e</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = ¿Mba’éicha ivirureko Common Voice?
+
 ## Glossary
 
 glossary = Ñe’ẽrysýi
@@ -808,6 +819,8 @@ no-information-available = Ndaipóri marandu eiporukuaáva
 dataset-metadata-sex = Meña
 # dataset metadata - age of contributor
 dataset-metadata-age = Ary
+donate-modal-message = ¡Ne mba’ekuaarã aty oguejyhína!
+dataset-donate-modal-heading = Eikuaápa…
 
 ## Download Modal
 
@@ -1608,6 +1621,9 @@ continue-speaking-button = Aguyje, eñe’ẽvékatu
 create-profile-text = ¿Eñongatusépa ne marandu? <createProfile>Emoheñói mba’ete</createProfile>
 thanks-for-voice-toast = Aguyje ne ñe’ẽ marandu rehe
 thanks-for-voice-toast-error = Oiko jejavy ne ñe’ẽ marandu emondokuévo
+first-cta-gender-select-default-option = Ehecha jeporavoha
+first-cta-gender-select-help-text =
+    .label = Mba’épa erekuaa ne meña ha heko rehe
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Aguyje ne ñe’ẽ ñeme’ẽre!
 second-cta-subtitle-text = Peteĩ mba’ete ndive, ehapykuehokuaa ne rembiapo ha eike ayvu mba’ekuaarã pytyvõhára rekohápe.
@@ -1666,6 +1682,7 @@ public-domain = Opavave oiporukuaáva
 citing-sentences = Emboysýi ñe’ẽjuaju
 adding-sentences = Emoĩve Ñe’ẽjuaju
 reviewing-sentences = Ehechajey Ñe’ẽjuaju
+sentence-domain = Ñe’ẽjuaju rendatee
 public-domain-explanation-2 = Umi ñe’ẽjuaju iporãva oñemoheñói hag̃ua ñe’ẽayvu ñeikumby mongu’eha oikóva ha’e ñe’ẽ syryry ha poravopyre. Ãva nepytyvõta ejapokuaa hag̃ua ñe’ẽjuaju;
 public-domain-explanation-3 = Emoheñói umi ñe’ẽjuaju ipyahu ha ojeporúva, neaño térã neangirũ térã eñe’ẽmemeha ndive, techapyrãrõ, peteĩ ‘jehai guasu’ ndive
 public-domain-explanation-4 = Eñe’ẽ apohare, ñoha’ãnga’apoha térã haihára ndive ha eporandu chupekuéra nome’ẽséipa hembiapokue opavave oipukuaa hag̃uáicha.
@@ -1739,9 +1756,21 @@ automotive = Mba’yrumỹi
 # Sentence Domain dropdown option
 finance = Viruporukuaa
 # Sentence Domain dropdown option
+food_service_retail = Jekarurã, mba’eporu ha ñevende sa’igua
+# Sentence Domain dropdown option
 general = Tuichakue
 # Sentence Domain dropdown option
 healthcare = Tesãirãre ñema’ẽ
+# Sentence Domain dropdown option
+history_law_government = Tembiasakue, Derécho ha Tekuái
+# Sentence Domain dropdown option
+media_entertainment = Momaranduha ha mbovy’aha
+# Sentence Domain dropdown option
+nature_environment = Tekopy ha Tekoha
+# Sentence Domain dropdown option
+news_current_affairs = Marandu ha Ag̃aguáva
+# Sentence Domain dropdown option
+technology_robotics = Tembiporupyahu ha Robótica
 
 ## REVIEW PAGE
 
@@ -1785,3 +1814,6 @@ file-invalid-type = Marandurenda ndoikóiva
 file-too-large = Marandurenda tuichaiterei
 file-too-small = Marandurenda michĩeterei
 too-many-files = Heta marandurenda
+
+## Donate banner
+
