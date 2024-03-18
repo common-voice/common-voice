@@ -688,6 +688,9 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Les mer om hvo
 ## How is Common Voice funded
 
 about-playbook-how-funded = Hvordan finansieres Common Voice?
+about-playbook-how-funded-content-1 = Common Voice er et prosjekt fra Mozilla Foundation, en US 501c3. Prosjektet er for tiden finansiert utelukkende av <philantropicGrantLink>filantropiske stipender</philantropicGrantLink>, og donasjoner fra mennesker over hele verden.
+about-playbook-how-funded-content-2 = Det koster mye penger å kontinuerlig være vert for og frigi datasettene, forbedre plattformen og kjøre <africaMradiLink>fellesskapsprogrammer</africaMradiLink>.
+about-playbook-how-funded-content-3 = Hvis du eller organisasjonen din ønsker å bidra tilbake til prosjektet, kan du gi en <donateLink>donasjon</donateLink> eller kontakte vårt partnerskapsteam på <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -1628,6 +1631,7 @@ continue-speaking-button = Nei takk, fortsett å snakke
 create-profile-text = Vil du lagre informasjonen din? <createProfile>Opprett en profil</createProfile>
 thanks-for-voice-toast = Takk for informasjon om stemmen din
 thanks-for-voice-toast-error = Det oppsto en feil under innsending av informasjon om stemmen din
+first-cta-gender-select-default-option = Velg et alternativ
 first-cta-gender-select-help-text =
     .label = Hvordan vil du beskrive ditt kjønn?
 # SECOND POST SUBMISSION CTA
@@ -1842,3 +1846,4 @@ donate-banner-cta = <mark>Vi trenger</mark><br/><mark>din hjelp!</mark>
 donate-banner-cta-explanation = Det koster nesten en million dollar i året å være vert for datasettene og forbedre plattformen for de over 100 språksamfunnene som er avhengige av det vi gjør. <strong>Hvis du verdsetter åpne, inkluderende data – doner i dag!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Bruker du CV for</mark><br/><mark>forskningen din?</mark>
+languages-donate-banner-cta-explanation = Common Voice er finansiert av donasjoner og tilskudd! Vi liker å samarbeide med akademikere, sivilsamfunn og industriforskere. Common Voice er gratis å bruke, men å bidra til plattform- og vertskostnader gjennom tilskuddsforslag er veldig nyttig.
