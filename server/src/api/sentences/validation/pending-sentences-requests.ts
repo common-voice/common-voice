@@ -18,9 +18,13 @@ export const AddSentenceRequest: AllowedSchema = {
     localeName: {
       type: 'string',
     },
-    domain: {
-      type: 'string',
-      enum: [...sentenceDomains],
+    domains: {
+      type: 'array',
+      items: {
+        type: 'string',
+        enum: [...sentenceDomains],
+      },
+      uniqueItems: true,
     },
   },
 }

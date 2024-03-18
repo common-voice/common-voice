@@ -6,5 +6,5 @@ export type AddSentenceCommand = {
   localeId: number
   localeName: string
   source: string,
-  domain: SentenceDomain
+  domains: SentenceDomain[]
 }
