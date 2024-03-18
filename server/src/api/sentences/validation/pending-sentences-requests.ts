@@ -3,7 +3,7 @@ import { sentenceDomains } from 'common'
 
 export const AddSentenceRequest: AllowedSchema = {
   type: 'object',
-  required: ['sentence', 'source', 'localeId', 'localeName'],
+  required: ['sentence', 'source', 'localeId', 'localeName', 'domains'],
   properties: {
     sentence: {
       type: 'string',
@@ -20,6 +20,7 @@ export const AddSentenceRequest: AllowedSchema = {
     },
     domains: {
       type: 'array',
+      maxItems: 3,
       items: {
         type: 'string',
         enum: [...sentenceDomains],
