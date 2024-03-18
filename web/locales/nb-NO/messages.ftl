@@ -685,6 +685,10 @@ about-playbook-how-project-governance-content-5 = Verdi og anerkjennelse.
 about-playbook-how-project-governance-content-6 = Gjensidig ansvar.
 about-playbook-how-project-governance-content-7 = <governanceLink>Les mer om hvordan vi er administrert</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Hvordan finansieres Common Voice?
+
 ## Glossary
 
 glossary = Ordliste
@@ -1624,6 +1628,8 @@ continue-speaking-button = Nei takk, fortsett å snakke
 create-profile-text = Vil du lagre informasjonen din? <createProfile>Opprett en profil</createProfile>
 thanks-for-voice-toast = Takk for informasjon om stemmen din
 thanks-for-voice-toast-error = Det oppsto en feil under innsending av informasjon om stemmen din
+first-cta-gender-select-help-text =
+    .label = Hvordan vil du beskrive ditt kjønn?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Takk for at du bidro med stemmen din!
 second-cta-subtitle-text = Med en profil kan du holde oversikt over aktiviteten din og få kontakt med et fellesskap av bidragsytere til taledata.
@@ -1827,3 +1833,12 @@ file-invalid-type = Ugyldig fil
 file-too-large = Filen er for stor
 file-too-small = Filen er for liten
 too-many-files = For mange filer
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Vi trenger</mark><br/><mark>din hjelp!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Det koster nesten en million dollar i året å være vert for datasettene og forbedre plattformen for de over 100 språksamfunnene som er avhengige av det vi gjør. <strong>Hvis du verdsetter åpne, inkluderende data – doner i dag!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Bruker du CV for</mark><br/><mark>forskningen din?</mark>
