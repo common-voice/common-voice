@@ -683,6 +683,10 @@ about-playbook-how-project-governance-content-5 = Valorización e recoñecemento
 about-playbook-how-project-governance-content-6 = Responsabilidade mutua.
 about-playbook-how-project-governance-content-7 = <governanceLink>Saber máis sobre a nosa gobernanza</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Como se financia Common Voice?
+
 ## Glossary
 
 glossary = Glosario
@@ -1869,3 +1873,6 @@ file-invalid-type = O ficheiro non é válido.
 file-too-large = O ficheiro é demasiado grande
 file-too-small = O ficheiro é demasiado pequeno
 too-many-files = Demasiados ficheiros
+
+## Donate banner
+
