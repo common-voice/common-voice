@@ -61,6 +61,7 @@
 
     &.play svg {
         height: 22px;
+        pointer-events: none;
 
         & path {
             fill: var(--valid-green);
