@@ -51,7 +51,7 @@ export const RecordButton = ({
 );
 
 export const RecordLink = (props: any) => (
-  <PrimaryButton className="stop" to={URLS.SPEAK} {...props}>
+  <PrimaryButton className="stop" to={URLS.SPEAK} {...props} data-testid="record-link">
     <MicIcon />
   </PrimaryButton>
 );
@@ -77,7 +77,7 @@ export const PlayButton = ({
 );
 
 export const PlayLink = (props: any) => (
-  <PrimaryButton className="play" to={URLS.LISTEN} {...props}>
+  <PrimaryButton className="play" to={URLS.LISTEN} {...props} data-testid="play-link">
     <OldPlayIcon />
   </PrimaryButton>
 );
