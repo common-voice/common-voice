@@ -122,7 +122,9 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-      <div className={classNames('stats', { 'logged-in': user.account })}>
+      <div
+        className={classNames('stats', { 'logged-in': user.account })}
+        id="stats">
         <ClipsStats.Root />
         <VoiceStats />
       </div>
