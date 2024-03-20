@@ -1897,10 +1897,10 @@
   resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-8.3.1.tgz#7753df0cb88d7649becf984a96dd1bd0a26f43e3"
   integrity sha512-FdgpFxY6V6rLZE9mmIBb9hM0xpfvQOSNOLnzolzKwsE1DH+gC7lEKV1p1IbR0lAYyvYd5a4u3qWJzowUkw1bIw==
 
-"@fluent/bundle@0.17.1":
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/@fluent/bundle/-/bundle-0.17.1.tgz#239388f55f115dca593f268d48a5ab8936dc9556"
-  integrity sha512-CRFNT9QcSFAeFDneTF59eyv3JXFGhIIN4boUO2y22YmsuuKLyDk+N1I/NQUYz9Ab63e6V7T6vItoZIG/2oOOuw==
+"@fluent/bundle@0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@fluent/bundle/-/bundle-0.18.0.tgz#bf67e306719a33baf3b66c88af5ac427d7800dbd"
+  integrity sha512-8Wfwu9q8F9g2FNnv82g6Ch/E1AW1wwljsUOolH5NEtdJdv0sZTuWvfCM7c3teB9dzNaJA8rn4khpidpozHWYEA==
 
 "@fluent/langneg@0.7.0":
   version "0.7.0"
