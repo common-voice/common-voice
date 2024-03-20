@@ -1821,3 +1821,4 @@ donate-banner-cta = <mark>Nous avons besoin</mark><br/><mark>de votre aide !</m
 donate-banner-cta-explanation = Héberger les jeux de données et améliorer la plateforme pour les plus de 100 communautés linguistiques qui font confiance à notre service coûte près d’un million de dollars par an. <strong>Si vous appréciez les données ouvertes et inclusives, faites un don aujourd’hui !</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Vous utilisez CV pour</mark><br/><mark>vos recherches ?</mark>
+languages-donate-banner-cta-explanation = Common Voice est financé par des dons et des subventions ! Nous aimons collaborer avec des universitaires et des chercheur·euse·s issu·e·s de la société civile ou de l’industrie. Common Voice est gratuit, mais contribuer à la plateforme et aux coûts d’hébergement en proposant des subventions est vraiment utile.

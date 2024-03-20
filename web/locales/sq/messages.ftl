@@ -385,6 +385,7 @@ profile-form-submit-save = Ruaje
 profile-form-submit-saved = U ruajt
 male_masculine = Mashkull/Mashkullore
 female_feminine = Femër/Femërore
+intersex = Interseks
 transgender = Ndërgjinor
 non-binary = Jo-dyor
 do_not_wish_to_say = S’dëshiroj ta them
@@ -656,6 +657,13 @@ about-playbook-how-project-governance-content-4 = Pjesëmarrje dhe vendimmarrje 
 about-playbook-how-project-governance-content-5 = Vlerë dhe njohje.
 about-playbook-how-project-governance-content-6 = Përgjegjësi e dyanshme.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lexoni më tepër se si drejtohemi</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Si financohet Common Voice?
+about-playbook-how-funded-content-1 = Common Voice është një projekt i Mozilla Foundation, një ent 501c3 në ShBA. Projekti aktualisht financohet tërësisht nga <philantropicGrantLink>grante filantropike</philantropicGrantLink> dhe dhurime nga persona anembanë botës.
+about-playbook-how-funded-content-2 = Kushton shumë të strehohen dhe hidhen në qarkullim vazhdimisht grupet e të dhënave, të përmirësohet platforma dhe të zhvillohen <africaMradiLink>programe bashkësisë</africaMradiLink>.
+about-playbook-how-funded-content-3 = Nëse ju, ose enti juaj do të donte të kontribuonte te projekti, mund të bëni një <donateLink>dhurim</donateLink>, ose të lidheni me ekipin tonë të partneritetit në <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -1585,6 +1593,8 @@ continue-speaking-button = Jo, faleminderit, vazhdojmë me të folurit
 create-profile-text = Doni të ruhen hollësitë tuaja? <createProfile>Krijoni një profil</createProfile>
 thanks-for-voice-toast = Faleminderit për hollësitë tuaja mbi zërin
 thanks-for-voice-toast-error = Ndodhi një gabim gjatë parashtrimit të hollësive tuaja mbi zërin
+first-cta-gender-select-help-text =
+    .label = Si do ta përshkruanit seksin, ose gjininë tuaj?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Faleminderit që jepni zërin tuaj!
 second-cta-subtitle-text = Me një profil, mund të ndiqni veprimtarinë tuaj dhe të lidheni me një bashkësi kontribuesish te të dhëna zanore.
@@ -1645,6 +1655,7 @@ public-domain = Përkatësi Publike
 citing-sentences = Citim Togfjalëshash
 adding-sentences = Shtim Togfjalëshash
 reviewing-sentences = Shqyrtim Togfjalëshash
+sentence-domain = Përkatësi Togfjalëshi
 public-domain-explanation-1 = Është shumë e rëndësishme që krejt frazat tekst të jenë nën <publicDomain>përkatësi publike</publicDomain> (<cc0>cc0</cc0>), ngaqë grupi i të dhënave Common Voice hidhet në qarkullim sipas një licence cc0. Ngarkojeni një frazë vetëm nëse jeni i sigurt dhe përfshini përherë citimin përkatës.
 public-domain-explanation-2 = Frazat më të mira për ndërtimin e një mekanizmi të dobishëm kuptimi të foluri janë ato nga e folura joformale, moderne. Disa ide për t’ju ndihmuar të prodhoni fraza janë;
 public-domain-explanation-3 = Krijoni fraza moderne, joformale ju vetë, ose me shokët tuaj, apo bashkësinë gjuhësore - për shembull, përmes një  “maratone shkrimi ”
@@ -1787,3 +1798,13 @@ file-invalid-type = Kartelë e pavlefshme
 file-too-large = Kartela është shumë e madhe
 file-too-small = Kartela është shumë e vogël
 too-many-files = Shumë kartela
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Na duhet</mark><br/><mark>ndihma juaj!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Kushton gati një milion dollarë në vit të strehohen grupet e të dhënave dhe të përmirësohet platforma për mbi 100 bashkësi gjuhës, që bazohen në çka bëjmë ne. <strong>Nëse vlerësoni të dhëna të hapëta, përfshirëse - dhuroni sot!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>E përdorni CV-në për</mark><br/><mark>punën tuaj kërkimore?</mark>
+languages-donate-banner-cta-explanation = Common Voice financohet nga dhurime dhe grante! E duam fort bashkëpunimin me akademikët, shoqërinë civile dhe kërkues të industrisë. Common Voice është falas për t’u përdorur, por dhënia e ndihmesës te platforma dhe kostot e strehimit përmes propozimesh për grante janë vërtet të dobishme.

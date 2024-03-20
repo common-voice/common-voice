@@ -63,5 +63,5 @@
       "pre-commit": "pretty-quick --staged"
     }
   },
-  "packageManager": "yarn@1.22.21"
+  "packageManager": "yarn@1.22.22"
 }

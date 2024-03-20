@@ -680,6 +680,8 @@ about-playbook-how-project-governance-content-7 = <governanceLink>详细了解�
 
 about-playbook-how-funded = Common Voice 的筹资方式
 about-playbook-how-funded-content-1 = Common Voice 是 Mozilla 基金会（美国 501(c)(3) 组织）的项目，资金完全来源于世界各地人士<philantropicGrantLink>公益捐赠</philantropicGrantLink>。
+about-playbook-how-funded-content-2 = 我们需要花费大量资金来持续托管和发布数据集、改进平台以及运行<africaMradiLink>社区计划</africaMradiLink>。
+about-playbook-how-funded-content-3 = 如果您或您的组织愿意回馈该项目，您可以<donateLink>捐款</donateLink>或联系我们的合作伙伴团队 <emailFragment>commonvoice@mozilla.com</emailFragment>。
 
 ## Glossary
 
@@ -1578,6 +1580,7 @@ continue-speaking-button = 不用了，继续朗读
 create-profile-text = 想保存您的信息吗？<createProfile>创建用户资料</createProfile>
 thanks-for-voice-toast = 感谢您的提供的语音信息
 thanks-for-voice-toast-error = 提交您的语音信息时发生错误
+first-cta-gender-select-default-option = 选择一项
 first-cta-gender-select-help-text =
     .label = 您如何描述自己的生理性别或性别认同？
 # SECOND POST SUBMISSION CTA
@@ -1788,5 +1791,8 @@ too-many-files = 文件过多
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>我们需要</mark><br/><mark>您的帮助！</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = 每年托管数据集和为 100 多个依赖我们产品的语言社区改进平台需要花费将近一百万美元。 <strong>如果您也重视开放、包容的数据，那么今天就捐款吧</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>在用 Common Voice</mark><br/><mark>来做研究？</mark>
+languages-donate-banner-cta-explanation = Common Voice 的资金来自捐款和基金！我们热爱与学术界、民间社会和行业研究人员的合作。 Common Voice 可以免费使用，但通过基金支付平台改善和托管费用也会非常有帮助。
