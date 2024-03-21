@@ -12,7 +12,7 @@ import { createPresentableError } from '../../../application/helper/error-helper
 import { StatusCodes } from 'http-status-codes'
 
 export default async (req: Request, res: Response) => {
-  const { sentence, localeId, localeName, source, domain } = req.body
+  const { sentence, localeId, localeName, source, domains } = req.body
 
   const command: AddSentenceCommand = {
     clientId: req.client_id,
@@ -20,13 +20,13 @@ export default async (req: Request, res: Response) => {
     localeId: localeId,
     localeName: localeName,
     source: source,
-    domain: domain
+    domains: domains
   }
 
   return pipe(
     AddSentenceCommandHandler(command),
     TE.mapLeft(createPresentableError),
-    TE.fold(
+    TE.match(
       err => {
         switch (err.kind) {
           case SentencesRepositoryErrorKind: {
