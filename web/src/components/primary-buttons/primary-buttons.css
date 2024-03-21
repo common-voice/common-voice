@@ -55,6 +55,7 @@
 
             @media (--md-up) {
                 height: 28px;
+                pointer-events: none;
             }
         }
     }
