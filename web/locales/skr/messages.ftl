@@ -76,12 +76,14 @@ ff = فولا
 fi = فینش
 fo = فاروس
 fr = فرانسیسی
+fuf = پولر گنی
 fy-NL = فریسیان
 ga-IE = آئرش
 gl = گیلیکین
 gn = گورانی
 gom = گوآن کونکانی
 gu-IN = گجراتی
+guc = وایونائیکی
 ha = ہوسا
 he = عبرانی
 hi = ہندی
@@ -414,8 +416,6 @@ native-language =
 profile-form-add-accent = نواں مرضی دا لہجہ شامل کرو "{ $inputValue }"
 profile-form-submit-save = محفوظ
 profile-form-submit-saved = محفوظ تھیا
-male = مرد
-female = تریمت
 # Gender
 other = ٻیا
 why-profile-title = ہک پروفائل کیوں؟
@@ -682,6 +682,9 @@ about-playbook-how-project-governance-content-5 = قدر تے سُن٘ڄاݨ
 about-playbook-how-project-governance-content-6 = باہمی احتساب
 about-playbook-how-project-governance-content-7 = <governanceLink>اساں حکومت کین٘ویں کریندیسے، ایں بارے ٻیا پڑھو </governanceLink>
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = فرہنگ
@@ -763,7 +766,6 @@ number-of-voices = اوازوں دی تعداد
 splits = ٹکڑے
 email-to-download = ڈاؤن لوڈ کرݨ کیتے ای میل درج کرو
 why-email = <b>ہک ای میل کیوں؟</b> ڈیٹا سیٹ وچ تبدیلیاں بارے ساکوں مستقبل وچ تہاݙے نال رابطہ کرݨ دی لوڑ پئے سڳدی ہے، ہک ای میل ساکوں رابطے دا ہک موقع ݙیندے۔
-why-donate = تساں کیوں پچھدے پئے ہو؟
 confirm-size = تساں <b>{ $size }</b>  کوں ڈاؤن لوڈ شروع کرݨ کیتے  تیار ہو
 size-gigabyte = جی بی
 size-megabyte = ایم بی
@@ -1697,7 +1699,9 @@ reviewing-sentences-explanation-1 = جے جملے اُتلے معیار تے پ�
 reviewing-sentences-explanation-2 = جے جملے اُتلے معیار تے پورے کائنی آندے تاں "کو" بٹݨ کلک کرو۔
 reviewing-sentences-explanation-3 = جے تہاکوں جملے بارے پک کائنی تاں تساں ایں کوں چھوڑ تے اڳلے جملے تے ون٘ڄ سڳدے ہو۔
 reviewing-sentences-explanation-4 = جے تہاݙے کول نظرثانی کیتے جملے کائنی تاں سوہݨا، ٻئے جملے کٹھے کرݨ وچ ساݙی مدد کرو!
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = <icon></icon> ہک عوامی ڈومین جملہ شامل کرو
 write-page-subtitle = اتھ ونگار تھئے ہوئے جملے عوامی دستیاب cc-0 لائسنس تھئے ڈیٹا سیٹ وچ شامل تھی ویسن۔
 sentence =
@@ -1727,6 +1731,8 @@ single-sentence-submission = کلھا جملہ جمع کرواوݨ
 bulk-sentence-submission = ڈھڳ جملے جمع کرواوݨ
 single-sentence = کلھا جملہ
 bulk-sentences = ڈھڳ جملے
+# Sentence Domain dropdown option
+general = عمومی
 
 ## REVIEW PAGE
 
@@ -1766,3 +1772,6 @@ file-invalid-type = غلط فائل
 file-too-large = فائل ٻہوں وݙی ہے
 file-too-small = فائل ٻہوں چھوٹی ہے
 too-many-files = ٻہوں ساریاں فائلاں
+
+## Donate banner
+
