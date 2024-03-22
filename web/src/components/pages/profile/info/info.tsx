@@ -29,31 +29,15 @@ import {
   LabeledCheckbox,
   LabeledInput,
   LabeledSelect,
+  Options,
 } from '../../../ui/ui';
 import { isEnrolled } from '../../dashboard/challenge/constants';
 import { UserLanguage } from 'common';
 
 import ProfileInfoLanguages from './languages/languages';
-
-import './info.css';
 import ExpandableInformation from '../../../expandable-information/expandable-information';
 
-const Options = withLocalization(
-  ({
-    children,
-    getString,
-  }: {
-    children: { [key: string]: string };
-  } & WithLocalizationProps) => (
-    <>
-      {Object.entries(children).map(([key, value]) => (
-        <option key={key} value={key}>
-          {getString(key, null, value)}
-        </option>
-      ))}
-    </>
-  )
-);
+import './info.css';
 
 function ProfileInfo({
   getString,
@@ -271,6 +255,23 @@ function ProfileInfo({
           </LabeledSelect>
         </Localized>
       </div>
+
+      <ExpandableInformation summaryLocalizedId="help-sex-or-gender-changes">
+        <Localized
+          id="help-sex-or-gender-changes-explanation"
+          elems={{
+            learnMoreLink: (
+              <a
+                href="https://foundation.mozilla.org/en/blog/expanding-gender-options-on-common-voice/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link"
+              />
+            ),
+          }}>
+          <div />
+        </Localized>
+      </ExpandableInformation>
 
       <ProfileInfoLanguages
         userLanguages={userLanguages}

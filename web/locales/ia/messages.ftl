@@ -408,8 +408,12 @@ native-language =
 profile-form-add-accent = Adde un nove accento personal "{ $inputValue }"
 profile-form-submit-save = Salvar
 profile-form-submit-saved = Salvate
-male = Masculin
-female = Feminin
+male_masculine = Masculin
+female_feminine = Feminin
+intersex = Intersexo
+transgender = Transgene
+non-binary = Non binari
+do_not_wish_to_say = Non desira responder
 # Gender
 other = Altere
 why-profile-title = Proque un profilo?
@@ -445,6 +449,7 @@ help-accent = Besonia tu auxilio con le accento?
 help-accent-explanation = Tu accento es le maniera que tu pronuncia le vocabulos. Illo pote esser formate per ubi tu viveva, qual altere linguas tu parla e plure altere factores. Tu pote compartir ulle informationes que tu senti esser pertinente hic.
 help-variants = Besonia tu de auxilio con le variantes?
 help-variants-explanation = Le variantes es un forma specific de un lingua, per exemplo compartite per illes vivente in un area geographic o communitate. Aliquando illos es appellate dialectos.
+help-sex-or-gender-changes = Besonia tu de adjuta con le cambios de sexo o genere?
 
 ## Profile - Email
 
@@ -799,6 +804,10 @@ no-information-available = Nulle information disponibile
 dataset-metadata-sex = Genere
 # dataset metadata - age of contributor
 dataset-metadata-age = Etate
+donate-modal-message = Tu collection de datos es discargate!
+dataset-donate-modal-heading = Sape tu…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>So tu apprecia le datos gratuite e inclusive - dona hodie!</bold>
 
 ## Download Modal
 
@@ -1675,6 +1684,7 @@ public-domain = Dominio public
 citing-sentences = Citante phrases
 adding-sentences = Addente phrases
 reviewing-sentences = Revidente phrases
+sentence-domain = Dominio del phrase
 public-domain-explanation-1 = Il es multo importante que tote le phrases de texto es de <publicDomain>dominio public</publicDomain> (<cc0>cc0</cc0>) perque le collection de datos de Common Voice es publicate sub licentia cc0. Solo e sempre carga un phrase si tu es secur, e sempre include le pertinente citation.
 public-domain-explanation-2 = Le melior phrases pro producer un utile motor de recognition vocal es un conversation colloquial, moderne. Alcun ideas pro adjutar te a generar phrases es:
 public-domain-explanation-3 = Crea phrases colloquial e moderne tu mesme, o con tu amicos, o con tu communitate linguistic, per exemplo per un ‘marathon de scriptura’
@@ -1713,7 +1723,9 @@ reviewing-sentences-explanation-1 = Si le phrase satisface le precedente criteri
 reviewing-sentences-explanation-2 = Si le phrase no satisface le precedente criterios, clicca le button "No".
 reviewing-sentences-explanation-3 = Si tu non es secur re le phrase, tu pote alsi saltar lo e mover al successive.
 reviewing-sentences-explanation-4 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger altere phrases!
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = Adde <icon></icon> un phrase de dominio public
 write-page-subtitle = Le phrases fornite ci sera addite a un insimul de datos publicamente disponibile con licentia cc-0.
 sentence =
@@ -1744,6 +1756,28 @@ single-sentence-submission = Invio de phrases singule
 bulk-sentence-submission = Invio de gruppo de phrases
 single-sentence = Phrase singule
 bulk-sentences = Gruppo de phrases
+sentence-domain-select =
+    .label = Dominio del phrase
+# Sentence Domain dropdown option
+agriculture = Agricultura
+# Sentence Domain dropdown option
+automotive = Automobile
+# Sentence Domain dropdown option
+finance = Financia
+# Sentence Domain dropdown option
+general = General
+# Sentence Domain dropdown option
+healthcare = Cura del sanitate
+# Sentence Domain dropdown option
+history_law_government = Historia, Lege e Governamento
+# Sentence Domain dropdown option
+media_entertainment = Medios e intertenimento
+# Sentence Domain dropdown option
+nature_environment = Natura e ambiente
+# Sentence Domain dropdown option
+news_current_affairs = Novas e Affaires Currente
+# Sentence Domain dropdown option
+technology_robotics = Technologia e Robotica
 
 ## REVIEW PAGE
 

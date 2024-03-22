@@ -422,6 +422,12 @@ native-language =
 profile-form-add-accent = Додайте новий власний акцент «{ $inputValue }»
 profile-form-submit-save = Зберегти
 profile-form-submit-saved = Збережено
+male_masculine = Чоловік/чоловічий
+female_feminine = Жінка/жіночий
+intersex = Інтерсекс
+transgender = Трансгендер
+non-binary = Небінарний
+do_not_wish_to_say = Не бажаю вказувати
 # Gender
 other = Інше
 why-profile-title = Нащо потрібен профіль?
@@ -457,6 +463,8 @@ help-accent = Потрібна допомога з акцентом?
 help-accent-explanation = Ваш акцент — це те, як ви вимовляєте слова. Він може залежати від того, де ви проживали, якими іншими мовами ви володієте та багатьма іншими факторами. Тут ви можете поділитися будь-якою інформацією, яку вважаєте необхідною.
 help-variants = Потрібна допомога з варіантами?
 help-variants-explanation = Варіанти — це специфічна форма мови, якою, наприклад, спілкуються ті, хто живе в певній місцевості чи спільноті. Іноді їх називають діалектами.
+help-sex-or-gender-changes = Потрібна допомога щодо зміни статі чи гендерної ідентичності?
+help-sex-or-gender-changes-explanation = Ми пропонуємо більше варіантів, щоб дати людям свободу вибору щодо повідомлення нам про свою стать або гендерну ідентичність. Будь ласка, опишіть себе так, як вам здається найприроднішим. <learnMoreLink>Дізнайтеся більше про наш підхід до статі та гендеру.</learnMoreLink>
 
 ## Profile - Email
 
@@ -479,7 +487,7 @@ change-email-setings = Змініть свою адресу електронно
 
 ## FAQ
 
-faq-title = Часті запитання
+faq-title = Поширені запитання
 faq-what-cv-q = Що таке Common Voice?
 faq-what-cv-a =
     Технологія розпізнавання голосу революціонізує спосіб взаємодії з машинами, але наявні тепер системи є комерційними й дорогими. Common Voice є частиною ініціативи Mozilla щодо поліпшення технологій розпізнавання голосу доступним для всіх. Common Voice - це велика база даних зібраних голосів, яка дозволяє будь-кому швидко та легко під'єднати до програми голосову підтримку будь-якою мовою.
@@ -814,6 +822,11 @@ no-information-available = Немає доступної інформації
 dataset-metadata-sex = Стать
 # dataset metadata - age of contributor
 dataset-metadata-age = Вік
+donate-modal-message = Ваш набір даних завантажується!
+dataset-donate-modal-heading = Чи знаєте ви, що…
+donate-modal-explanation-1 = Розміщення наборів даних і вдосконалення платформи для понад 100 мовних спільнот, які покладаються на нашу роботу, коштує майже мільйон доларів на рік?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Якщо ви цінуєте відкриті та доступні дані – зробіть внесок сьогодні!</bold>
 
 ## Download Modal
 
@@ -1770,6 +1783,7 @@ public-domain = Публічний домен
 citing-sentences = Цитування речень
 adding-sentences = Додавання речень
 reviewing-sentences = Розгляд речень
+sentence-domain = Належність речення
 public-domain-explanation-1 = Дуже важливо, щоб усі текстові речення були <publicDomain>суспільним надбанням</publicDomain> (<cc0>cc0</cc0>), оскільки набір даних Common Voice випущено за ліцензією cc0. Вивантажуйте речення, лише якщо ви впевнені, і завжди включайте відповідну цитату.
 public-domain-explanation-2 = Найкращі речення для створення корисного механізму розпізнавання мовлення – це розмовна сучасна мова. Деякі ідеї, які допоможуть вам сформувати речення:
 public-domain-explanation-3 = Створюйте сучасні розмовні речення самостійно або разом із друзями чи мовною спільнотою - наприклад, за допомогою «письменницького марафону»
@@ -1816,6 +1830,7 @@ reviewing-sentences-explanation-1 = Якщо речення відповідає
 reviewing-sentences-explanation-2 = Якщо речення не відповідає наведеним критеріям, натисніть кнопку «Ні».
 reviewing-sentences-explanation-3 = Якщо ви не впевнені щодо речення, ви також можете пропустити його та перейти до наступного.
 reviewing-sentences-explanation-4 = Якщо у вас закінчилося речення для розгляду, допоможіть нам зібрати більше речень!
+domain-explanation = Належність стосується теми речення. Наразі ви можете вибрати між:
 
 ## WRITE PAGE
 
@@ -1851,6 +1866,32 @@ single-sentence-submission = Подання окремих речень
 bulk-sentence-submission = Масове подання речень
 single-sentence = Одне речення
 bulk-sentences = Масові речення
+sentence-domain-select =
+    .label = Належність речення
+# Sentence Domain dropdown option
+agriculture = Сільське господарство
+# Sentence Domain dropdown option
+automotive = Автомобільна галузь
+# Sentence Domain dropdown option
+finance = Фінанси
+# Sentence Domain dropdown option
+food_service_retail = Харчування, обслуговування та роздрібна торгівля
+# Sentence Domain dropdown option
+general = Загальне
+# Sentence Domain dropdown option
+healthcare = Охорона здоров'я
+# Sentence Domain dropdown option
+history_law_government = Історія, право та уряд
+# Sentence Domain dropdown option
+language_fundamentals = Основи мови (наприклад, цифри, букви, гроші)
+# Sentence Domain dropdown option
+media_entertainment = Медіа та розваги
+# Sentence Domain dropdown option
+nature_environment = Природа і навколишнє середовище
+# Sentence Domain dropdown option
+news_current_affairs = Новини та поточні події
+# Sentence Domain dropdown option
+technology_robotics = Технології та робототехніка
 
 ## REVIEW PAGE
 

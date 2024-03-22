@@ -404,8 +404,12 @@ native-language =
 profile-form-add-accent = 添加新的自定义口音“{ $inputValue }”
 profile-form-submit-save = 保存
 profile-form-submit-saved = 已保存
-male = 男
-female = 女
+male_masculine = 男
+female_feminine = 女
+intersex = 双性人
+transgender = 跨性别者
+non-binary = 非二元性别
+do_not_wish_to_say = 保密
 # Gender
 other = 其他
 why-profile-title = 为什么要创建用户资料？
@@ -441,6 +445,8 @@ help-accent = 需要口音方面的帮助？
 help-accent-explanation = 口音就是您发音的方式，通常受到您生活过的地方、会说的语言等诸多因素影响。您可以在此分享任何您认为有关的信息。
 help-variants = 需要关于变体的帮助说明吗？
 help-variants-explanation = 变体是一种语言的特定形式 - 例如在某片区域内人们的说话方式被称为一种变体。有时称其为方言。
+help-sex-or-gender-changes = 需要更改“生理性别”或“性别认同”设置方面的帮助？
+help-sex-or-gender-changes-explanation = 我们提供更加多样的选项，让人们在向我们告知其生理性别或性别认同时，能够获得更全面的选择。请用您觉得最自然的方式来做自我描述。<learnMoreLink>详细了解我们处理生理性别和性别认同的方式</learnMoreLink>。
 
 ## Profile - Email
 
@@ -670,6 +676,13 @@ about-playbook-how-project-governance-content-5 = 价值观和表彰。
 about-playbook-how-project-governance-content-6 = 相互问责。
 about-playbook-how-project-governance-content-7 = <governanceLink>详细了解我们如何管理此项目</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Common Voice 的筹资方式
+about-playbook-how-funded-content-1 = Common Voice 是 Mozilla 基金会（美国 501(c)(3) 组织）的项目，资金完全来源于世界各地人士<philantropicGrantLink>公益捐赠</philantropicGrantLink>。
+about-playbook-how-funded-content-2 = 我们需要花费大量资金来持续托管和发布数据集、改进平台以及运行<africaMradiLink>社区计划</africaMradiLink>。
+about-playbook-how-funded-content-3 = 如果您或您的组织愿意回馈该项目，您可以<donateLink>捐款</donateLink>或联系我们的合作伙伴团队 <emailFragment>commonvoice@mozilla.com</emailFragment>。
+
 ## Glossary
 
 glossary = 词汇表
@@ -795,6 +808,11 @@ no-information-available = 无相关信息
 dataset-metadata-sex = 生理性别
 # dataset metadata - age of contributor
 dataset-metadata-age = 年龄
+donate-modal-message = 正在下载您的数据集
+dataset-donate-modal-heading = 你知道吗…
+donate-modal-explanation-1 = 目前有 100 多个语言社区依靠我们的工作来活动及发展。为托管数据集，以及改善服务这些语言社区的平台，我们每年需要支出约 100 万美元。
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>如果您也珍视开放且包容的数据，请向我们捐款！</bold>
 
 ## Download Modal
 
@@ -1562,6 +1580,9 @@ continue-speaking-button = 不用了，继续朗读
 create-profile-text = 想保存您的信息吗？<createProfile>创建用户资料</createProfile>
 thanks-for-voice-toast = 感谢您的提供的语音信息
 thanks-for-voice-toast-error = 提交您的语音信息时发生错误
+first-cta-gender-select-default-option = 选择一项
+first-cta-gender-select-help-text =
+    .label = 您如何描述自己的生理性别或性别认同？
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = 感谢您贡献语音！
 second-cta-subtitle-text = 创建用户文件后，您就可以记录自己的活动并与语音数据贡献者社区联系。
@@ -1622,6 +1643,7 @@ public-domain = 公有领域
 citing-sentences = 引用语句
 adding-sentences = 添加语句
 reviewing-sentences = 审核语句
+sentence-domain = 语句领域
 public-domain-explanation-1 = 请注意，由于 Common Voice 数据集采用 CC0 许可协议发布，因此其所有语句文本都需来自公有领域（按 CC0 许可协议授权）。请在确定语句符合要求后再上传，上传时需要注明出处。
 public-domain-explanation-2 = 用于构建语音识别引擎的最佳语句类型是口语化的现代用语。以下是一些生成语句的方法：
 public-domain-explanation-3 = 自行撰写现代的口语化语句，或与朋友及语言社区一道，通过“造句马拉松”活动等形式去撰写句子。
@@ -1660,7 +1682,10 @@ reviewing-sentences-explanation-1 = 若句子符合上述要求，请点击“�
 reviewing-sentences-explanation-2 = 若句子不符合要求，请点击“否”按钮。
 reviewing-sentences-explanation-3 = 若您没有把握判断，可以跳过当前语句，继续审核下一条语句。
 reviewing-sentences-explanation-4 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
-# WRITE PAGE
+domain-explanation = 领域是指句子的专业主题。目前您可以选择：
+
+## WRITE PAGE
+
 write-instruction = 添加 <icon></icon> 公有领域的语句
 write-page-subtitle = 此处贡献的语句将被添加到采用 cc-0 许可证的公开数据集中。
 sentence =
@@ -1691,6 +1716,32 @@ single-sentence-submission = 提交单句
 bulk-sentence-submission = 批量提交语句
 single-sentence = 单句
 bulk-sentences = 批量语句
+sentence-domain-select =
+    .label = 语句领域
+# Sentence Domain dropdown option
+agriculture = 农业
+# Sentence Domain dropdown option
+automotive = 汽车
+# Sentence Domain dropdown option
+finance = 金融
+# Sentence Domain dropdown option
+food_service_retail = 餐饮、服务与零售
+# Sentence Domain dropdown option
+general = 常规
+# Sentence Domain dropdown option
+healthcare = 医疗
+# Sentence Domain dropdown option
+history_law_government = 历史、法律与政府
+# Sentence Domain dropdown option
+language_fundamentals = 语言基础（例如数字、字母、货币）
+# Sentence Domain dropdown option
+media_entertainment = 媒体与娱乐
+# Sentence Domain dropdown option
+nature_environment = 自然与环境
+# Sentence Domain dropdown option
+news_current_affairs = 新闻与时事
+# Sentence Domain dropdown option
+technology_robotics = 技术与机器人
 
 ## REVIEW PAGE
 
@@ -1735,3 +1786,13 @@ file-invalid-type = 文件无效
 file-too-large = 文件太大
 file-too-small = 文件太小
 too-many-files = 文件过多
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>我们需要</mark><br/><mark>您的帮助！</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = 每年托管数据集和为 100 多个依赖我们产品的语言社区改进平台需要花费将近一百万美元。 <strong>如果您也重视开放、包容的数据，那么今天就捐款吧</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>在用 Common Voice</mark><br/><mark>来做研究？</mark>
+languages-donate-banner-cta-explanation = Common Voice 的资金来自捐款和基金！我们热爱与学术界、民间社会和行业研究人员的合作。 Common Voice 可以免费使用，但通过基金支付平台改善和托管费用也会非常有帮助。

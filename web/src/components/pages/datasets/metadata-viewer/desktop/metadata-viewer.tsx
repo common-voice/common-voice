@@ -27,6 +27,10 @@ export const DesktopMetaDataViewer = ({
     age
   ) as LanguageDataset['splits']['age']
 
+  const sortedGenderSplits = sortObjectByValue(
+    gender
+  ) as LanguageDataset['splits']['gender']
+
   return (
     <div className="metadata-viewer-container hidden-lg-down">
       <div
@@ -41,7 +45,7 @@ export const DesktopMetaDataViewer = ({
         </Localized>
         <div className="info">
           <AgeSplits ageSplits={sortedAgeSplits} />
-          <GenderSplits genderSplits={gender} />
+          <GenderSplits genderSplits={sortedGenderSplits} />
         </div>
       </div>
     </div>

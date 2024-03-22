@@ -1,190 +1,196 @@
+@import url('../../media.css');
+
 .partner-main-container {
     --type-color: var(--blue);
 
     @media (--md-down) {
         overflow-x: hidden;
     }
-}
 
-.partnerships-container {
-    display: flex;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    max-width: var(--desktop-width);
-    min-height: 100%;
-    transition: opacity var(--transition-duration-slow) var(--easing);
-    padding-top: 25px;
-
-    @media (--xs-down) {
-        flex-direction: column;
-    }
-
-    & .partnerships-header-text {
-        margin: 0px 20px 40px 20px;
-
-        @media (--lg-up) {
-            width: 566px;
-        }
-    }
-
-    & .page-heading {
-        font-size: 48px;
-
-        @media (--md-only) {
-            margin-block-start: 0;
-        }
-    }
-
-    & .partnerships-header-image {
-        @media (--xs-down) {
-            margin: 0 auto;
-        }
+    .partnerships-section {
+        margin-block-end: 40px;
 
         @media (--md-up) {
-            flex: 1;
-            text-align: right;
+            background: url('./images/waves.png');
+            background-size: 100% 100%;
         }
 
-        & img {
-            @media (--md-down) {
-                max-height: 220px;
+        @media (--xs-down) {
+            background: url('./images/waves-small.png');
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .partnerships-container {
+            display: flex;
+            margin-inline-start: auto;
+            margin-inline-end: auto;
+            max-width: var(--desktop-width);
+            min-height: 100%;
+            transition: opacity var(--transition-duration-slow) var(--easing);
+            padding-top: 25px;
+
+            @media (--xs-down) {
+                flex-direction: column;
+            }
+
+            & .partnerships-header-text {
+                margin: 0px 20px 40px 20px;
+
+                @media (--lg-up) {
+                    width: 566px;
+                }
+            }
+
+            & .page-heading {
+                font-size: 48px;
+
+                @media (--md-only) {
+                    margin-block-start: 0;
+                }
+            }
+
+            & .partnerships-header-image {
+                @media (--xs-down) {
+                    margin: 0 auto;
+                }
+
+                @media (--md-up) {
+                    flex: 1;
+                    text-align: right;
+                }
+
+                & img {
+                    @media (--md-down) {
+                        max-height: 220px;
+                    }
+                }
+            }
+
+            p {
+                font-weight: 300;
+
+                @media (--xs-down) {
+                    font-size: 18px;
+                }
+
+                @media (--lg-up) {
+                    font-size: 24px;
+                }
+            }
+
+            .button {
+                border: none;
+                background: var(--type-color);
+                color: var(--white);
+                font-size: 16px;
+                max-width: 220px;
+                margin-block-start: 50px;
+                padding: 15px;
+
+                @media (--md-only) {
+                    margin-block-start: 15px;
+                }
+
+                @media (--xs-down) {
+                    margin: 50px auto 25px auto;
+                }
+
+                &:hover {
+                    background: var(--type-color);
+                    color: var(--white);
+
+                    path {
+                        fill: var(--white);
+                    }
+                }
+            }
+
+            svg {
+                margin-inline-end: 8px;
+            }
+
+            path {
+                fill: var(--white);
             }
         }
     }
 
-    p {
-        font-weight: 300;
+    .become-a-partner-container {
+        max-width: 80rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
 
-        @media (--xs-down) {
-            font-size: 18px;
+        @media (--md-up) {
+            margin: 0 auto;
+            padding: 2rem 4rem;
         }
+
+        .section-heading-text {
+            font-size: 36px;
+            margin-block-end: 32px;
+        }
+
+        .become-a-partner-options {
+            @media (--xs-down) {
+                margin: 0 20px;
+            }
+
+            & img {
+                margin-block-end: 20px;
+            }
+        }
+    }
+
+    .our-partners-container {
+        .section-heading-text {
+            font-size: 36px;
+            margin-block-end: 32px;
+            text-align: center;
+        }
+
+        @media (--md-up) {
+            padding: 2rem 4rem;
+            margin: 0 auto;
+        }
+    }
+
+    .our-partners-images-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        margin: 0 auto;
+        margin-block-end: 20px;
+
+        row-gap: 20px;
 
         @media (--lg-up) {
-            font-size: 24px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            justify-items: center;
+            align-items: center;
+
+            & img {
+                max-width: 100%;
+                height: auto;
+            }
         }
-    }
 
-    .button {
-        border: none;
-        background: var(--type-color);
-        color: var(--white);
-        font-size: 16px;
-        max-width: 220px;
-        margin-block-start: 50px;
-        padding: 15px;
-
-        @media (--md-only) {
-            margin-block-start: 15px;
+        & .makerere-logo,
+        .nvidia-logo,
+        collectivat-logo {
+            width: 370px;
         }
 
         @media (--xs-down) {
-            margin: 50px auto 25px auto;
-        }
-    }
-}
-
-.partner-main-container .partnerships-container .button:hover {
-    background: var(--type-color);
-    color: var(--white);
-}
-
-.partner-main-container .partnerships-container .button:hover path {
-    fill: var(--white);
-}
-
-.partner-main-container .partnerships-container path {
-    fill: var(--white);
-}
-
-.partnerships-container svg {
-    margin-inline-end: 8px;
-}
-
-.partnerships-section {
-    margin-block-end: 40px;
-
-    @media (--md-up) {
-        background: url('./images/waves.png');
-        background-size: 100% 100%;
-    }
-
-    @media (--xs-down) {
-        background: url('./images/waves-small.png');
-        background-position: bottom;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-}
-
-.become-a-partner-container {
-    max-width: 80rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-
-    @media (--md-up) {
-        margin: 0 auto;
-        padding: 2rem 4rem;
-    }
-}
-
-.our-partners-container {
-    @media (--md-up) {
-        padding: 2rem 4rem;
-        margin: 0 auto;
-    }
-}
-
-.become-a-partner-container .section-heading-text {
-    font-size: 36px;
-    margin-block-end: 32px;
-}
-
-.our-partners-container .section-heading-text {
-    font-size: 36px;
-    margin-block-end: 32px;
-    text-align: center;
-}
-
-.become-a-partner-options {
-    @media (--xs-down) {
-        margin: 0 20px;
-    }
-
-    & img {
-        margin-block-end: 20px;
-    }
-}
-
-.our-partners-images-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    margin: 0 auto;
-    margin-block-end: 20px;
-
-    row-gap: 20px;
-
-    @media (--lg-up) {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-        justify-items: center;
-        align-items: center;
-
-        & img {
-            max-width: 100%;
-            height: auto;
+            width: 65%;
         }
     }
 
-    & .makerere-logo,
-    .nvidia-logo,
-    collectivat-logo {
-        width: 370px;
-    }
-
-    @media (--xs-down) {
-        width: 65%;
+    .donate-banner-section {
+        margin-inline: 30px;
     }
 }

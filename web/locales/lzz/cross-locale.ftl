@@ -4,6 +4,7 @@ contribute = Memaǩatit
 get-involved-button = Keǩomant̆alit
 get-involved-title = { $lang }-s naǩatit
 get-involved-text = "{ $lang }'s naǩatit şeni ntsaşa extit. K'at̆a nena xadziri oyapu şeni dido viçalişamt do ekibepe-çkuni e-postate meyopsturesarumt. Meǩatu ginonanna (gorumtna) tude e-posta adresi-tkvani doç̌arit.
+get-involved-form-title = Ondğaluru şeni { $lang } doliç̌arit.
 get-involved-email =
     .label = Emaili
 get-involved-opt-in = "Ho, ma e-posta momincğonit. Comman Voice's ham nenaşi ordapa şeni  meçkinu minon.

@@ -677,6 +677,13 @@ about-playbook-how-project-governance-content-5 = Érték és elismerés.
 about-playbook-how-project-governance-content-6 = Kölcsönös elszámoltathatóság.
 about-playbook-how-project-governance-content-7 = <governanceLink>További információk az irányításunkról</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Hogyan történik a Common Voice finanszírozása?
+about-playbook-how-funded-content-1 = A Common Voice a Mozilla Alapítvány projektje, egy amerikai nonprofit (501c3) szervezeté. A projektet jelenleg teljes egészében <philantropicGrantLink>jótékonysági támogatások</philantropicGrantLink>, és a világ minden tájáról érkező emberek adományai finanszírozzák.
+about-playbook-how-funded-content-2 = Sok pénzbe kerül az adatkészletek folyamatos tárolása és kiadása, a platform fejlesztése és a <africaMradiLink>közösségi programok</africaMradiLink> működtetése.
+about-playbook-how-funded-content-3 = Ha Ön vagy a szervezete szeretne hozzájárulni a projekthez, akkor <donateLink>adományozhat</donateLink> vagy felveheti a kapcsolatot a partnerségi csapattal a <emailFragment>commonvoice@mozilla.com</emailFragment> címen.
+
 ## Glossary
 
 glossary = Szójegyzék
@@ -802,6 +809,11 @@ no-information-available = Nem áll rendelkezésre információ
 dataset-metadata-sex = Nem
 # dataset metadata - age of contributor
 dataset-metadata-age = Életkor
+donate-modal-message = Az adatkészlet letöltése folyamatban van!
+dataset-donate-modal-heading = Tudta-e…
+donate-modal-explanation-1 = Évi majdnem egymillió dollárba kerül az adatkészletek tárolása és a platform fejlesztése a ránk támaszkodó több mint 100+ nyelvi közösség számára?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ha értékeli a nyílt, inkluzív adatokat – adományozzon még ma!</bold>
 
 ## Download Modal
 
@@ -1619,6 +1631,9 @@ continue-speaking-button = Köszönöm nem, beszéd folytatása
 create-profile-text = Szeretné menteni az adatait? <createProfile>Hozzon létre egy profilt</createProfile>
 thanks-for-voice-toast = Köszönjük a hanginformációit
 thanks-for-voice-toast-error = Hiba történt a hanginformációk elküldése során
+first-cta-gender-select-default-option = Válasszon egy lehetőséget
+first-cta-gender-select-help-text =
+    .label = Hogyan jellemezné a nemét?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Köszönjük, hogy közreműködött a hangjával.
 second-cta-subtitle-text = Egy profil segítségével nyomon követheti tevékenységét, és kapcsolatba léphet a hangadatokat biztosító közreműködők közösségével.
@@ -1676,7 +1691,8 @@ public-domain = Közkincs
 citing-sentences = Mondatok idézése
 adding-sentences = Mondatok hozzáadása
 reviewing-sentences = Mondatok ellenőrzése
-domain = Domén
+sentence-domain =
+    .label = Mondatdomén
 public-domain-explanation-1 = Nagyon fontos, hogy minden szöveges mondat <publicDomain>közkincs</publicDomain> (<cc0>cc0</cc0>) legyen, mivel a Common Voice adatkészlet cc0 licenc alatt kerül kiadásra. Csak akkor töltsön fel mondatot, ha biztos benne, és mindig adja meg a releváns idézetet.
 public-domain-explanation-2 = Egy hasznos beszédfelismerő motor építéséhez a legjobb mondatok köznyelviek, és modern szóhasználatúak. Néhány ötlet a mondatok előállításához:
 public-domain-explanation-3 = Alkosson modern, köznyelvi mondatokat egyedül, barátaival vagy nyelvi közösségével – például egy „write-a-thon” segítségével
@@ -1718,19 +1734,6 @@ reviewing-sentences-explanation-2 = Ha a mondat nem felel meg a fenti feltétele
 reviewing-sentences-explanation-3 = Ha nem biztos a mondattal kapcsolatban, ki is hagyhatja, és továbbugorhat a következőre.
 reviewing-sentences-explanation-4 = Ha elfogynak az ellenőrizhető mondatok, akkor segítsen további mondatok összegyűjtésében.
 domain-explanation = A domén a mondat témakörére utal. Jelenleg ezek közül választhat:
-# Indicates that the domain of a sentence is general
-sentence-domain-general = Általános
-sentence-domain-agriculture = Mezőgazdaság
-sentence-domain-automotive = Autóipar
-sentence-domain-finance = Pénzügy
-sentence-domain-food-service-retail = Élelmiszer, szolgáltatás és kiskereskedelem
-sentence-domain-healthcare = Egészségügy
-sentence-domain-history-law-government = Történelem, jog és kormányzás
-sentence-domain-media-entertainment = Média és szórakoztatóipar
-sentence-domain-nature-environment = Természet és környezetvédelem
-sentence-domain-news-current-affairs = Hírek és aktuális témák
-sentence-domain-technology-robotics = Technológia és robotika
-sentence-domain-language-fundamentals = Nyelvi alapok (például számok, betűk, pénz)
 
 ## WRITE PAGE
 
@@ -1764,7 +1767,7 @@ single-sentence-submission = Egy mondatos beküldés
 bulk-sentence-submission = Mondatok tömeges beküldése
 single-sentence = Egyetlen mondat
 bulk-sentences = Több mondat
-sentence-domain =
+sentence-domain-select =
     .label = Mondatdomén
 # Sentence Domain dropdown option
 agriculture = Mezőgazdaság
@@ -1834,3 +1837,13 @@ file-invalid-type = Érvénytelen fájl
 file-too-large = A fájl túl nagy
 file-too-small = A fájl túl kicsi
 too-many-files = Túl sok fájl
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Szükségünk van</mark><br/><mark>a segítségére!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Évente majdnem egymillió dollárba kerül az adatkészletek tárolása és a platform fejlesztése a ránk támaszkodó több mint 100 nyelvi közösség számára. <strong>Ha értékeli a nyílt, inkluzív adatokat – adományozzon még ma!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Kutatáshoz használja</mark><br/><mark>a CV-t?</mark>
+languages-donate-banner-cta-explanation = A Common Voice-ot adományokból és támogatásokból finanszírozzuk! Szeretünk együttműködni akadémikusokkal, civil társadalmi és ipari kutatókkal. A Common Voice használata ingyenes, de pályázatok útján történő hozzájárulás a platform és a tárhely költségeihez nagyon hasznos.

@@ -54,6 +54,7 @@ cak = Kaqchikel
 ckb = Centrālā kurdi
 cnh = Hakha Chin
 co = Korsikāņu
+crh = Krimas tatāru
 cs = Čehu
 cv = Čuvašu
 cy = Velsiešu
@@ -75,12 +76,14 @@ ff = Fulu
 fi = Somu
 fo = Fēru
 fr = Franču
+fuf = Pular Guinea
 fy-NL = Frīzu
 ga-IE = Īru
 gl = Galisiešu
 gn = Guaranu
 gom = Goans Konkani
 gu-IN = Gudžaratu
+guc = Wayuunaiki
 ha = Hausu
 he = Ebreju
 hi = Hindi
@@ -123,6 +126,7 @@ lo = Laosas
 lt = Lietuviešu
 ltg = Latgaliešu
 lv = Latviešu
+lzz = Laz
 mai = Maithili
 mdf = Moksha
 mg = Malagasiešu
@@ -162,6 +166,7 @@ ps = Pashto
 pt = Portugāļu
 quc = K'iche'
 quy = Kečua čanka
+qvi = Kichwa
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 ro = Rumāņu
@@ -171,6 +176,8 @@ sah = Jakutu
 sat = Santali (Ol Chiki)
 sc = Sardīniešu
 scn = Sicīliešu
+sco = Skotu
+sd = Sindhu
 sdh = Dienvidu kurdu
 shi = Shilha
 si = Sinhala
@@ -211,7 +218,9 @@ uz = Uzbeku
 ve = Tshivenda
 vec = Venēciešu
 vi = Vjetnamiešu
+vmw = Emakhuwa
 vot = Votisku
+wep = Vestfāleņu
 wo = Volofu
 xh = Khosu
 yi = Jidišu
@@ -405,8 +414,12 @@ native-language =
 profile-form-add-accent = Pievienot jaunu akcentu “{ $inputValue }”
 profile-form-submit-save = Saglabāt
 profile-form-submit-saved = Saglabāts
-male = Vīrietis
-female = Sieviete
+male_masculine = Vīrietis/vīrišķīgs
+female_feminine = Sieviete/sievišķīgs
+intersex = Starpdzimumu
+transgender = Transpersona
+non-binary = Nebinārs
+do_not_wish_to_say = Nevēlos atklāt
 # Gender
 other = Cits
 why-profile-title = Kāpēc veidot profilu?
@@ -442,6 +455,8 @@ help-accent = Vai nepieciešama palīdzība ar akcentu?
 help-accent-explanation = Jūsu akcents ir veids, kā jūs izrunājat vārdus. To var ietekmēt jūsu dzīvesvieta, citas valodas, kuras runājat, un daudzi citi faktori. Šeit varat dalīties ar jebkuru informāciju, kas, jūsuprāt, ir svarīga.
 help-variants = Vai nepieciešama palīdzība ar variantiem?
 help-variants-explanation = Varianti ir noteikta valodas forma, piemēram, tie, kas dzīvo kādā ģeogrāfijā vai kopienā. Dažreiz tos sauc par dialektiem.
+help-sex-or-gender-changes = Nepieciešama palīdzība saistībā ar dzimuma norādīšanu?
+help-sex-or-gender-changes-explanation = Mēs piedāvājam vairāk iespēju, lai sniegtu cilvēkiem plašākas izvēles iespējas sava dzimuma vai dzimuma identitātes norādīšanā. Lūdzu, aprakstiet sevi tā, kā tas jums šķiet visdabiskāk. <learnMoreLink>Uzziniet vairāk par mūsu pieeju dzimumam norādīšanā.</learnMoreLink>
 
 ## Profile - Email
 
@@ -679,6 +694,13 @@ about-playbook-how-project-governance-content-5 = Vērtība un atzinība.
 about-playbook-how-project-governance-content-6 = Savstarpēja atbildība.
 about-playbook-how-project-governance-content-7 = <governanceLink>Uzziniet vairāk par to, kā mēs tiekam pārvaldīti</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Kas finansē Common Voice?
+about-playbook-how-funded-content-1 = Common Voice ir Mozilla Fonda projekts, ASV 501c3. Pašlaik projektu pilnībā finansē no <philantropicGrantLink>filantropiskām dotācijām</philantropicGrantLink> un cilvēku ziedojumiem visā pasaulē.
+about-playbook-how-funded-content-2 = Datu kopu uzturēšana, platformas attīstīšana un <africaMradiLink>kopienas programmu</africaMradiLink> atbalsts maksā daudz naudas.
+about-playbook-how-funded-content-3 = Ja jūs vai jūsu organizācija vēlaties piedalīties projektā, varat veikt <donateLink>ziedojumu</donateLink> vai sazināties ar mūsu partnerības komandu, rakstot uz e-pasta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = Apraksts
@@ -759,7 +781,7 @@ number-of-voices = Balsu skaits
 splits = Statistika
 email-to-download = Ievadiet e-pastu, lai lejupielādētu
 why-email = <b>Kāpēc e-pasts?</b> Mums, iespējams, nākotnē būs jāsazinās ar jums par izmaiņām datu kopā, to darīsim ar e-pasta palīdzību.
-why-donate = Kāpēc jūs jautājat?
+why-donate-datasets-page = Mozilla Common Voice ir pasaulē daudzveidīgākā atklātās runas datu kopa, kas iegūta no pūļa, un mūsu darbību pilnībā nodrošina ziedojumi. Datu kopu uzturēšana un platformas uzlabošana vairāk nekā 100 valodu kopienām, kuras paļaujas uz mūsu darbu, izmaksā gandrīz miljonu dolāru gadā. Ja jums ir svarīgi atvērti, iekļaujoši dati - <b>ziedojiet jau šodien!</b>
 confirm-size = Jūs esat gatavs sākt lejupielādēt <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -800,6 +822,15 @@ dataset-version = Versija
 sha256-checksum-copied = SHA256 kontrolsumma nokopēta!
 sha256-checksum-copied-error = Neizdevās nokopēt SHA256 kontrolsummu
 clipboard-not-supported = Starpliktuve netiek atbalstīta
+no-information-available = Informācija nav pieejama
+dataset-metadata-sex = Dzimums
+# dataset metadata - age of contributor
+dataset-metadata-age = Vecums
+donate-modal-message = Jūsu datu kopa tiek lejupielādēta!
+dataset-donate-modal-heading = Vai zinājāt…
+donate-modal-explanation-1 = Datu kopu uzturēšana un platformas uzlabošana vairāk nekā 100 valodu kopienām, kuras paļaujas uz to, ko mēs darām, maksā gandrīz miljonu dolāru gadā?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ja jums ir svarīgi atvērti, iekļaujoši dati, ziedojiet jau šodien!</bold>
 
 ## Download Modal
 
@@ -1813,6 +1844,9 @@ continue-speaking-button = Nē, paldies, turpināšu ierakstīt
 create-profile-text = Vai vēlaties saglabāt savu informāciju? <createProfile>Izveidojiet profilu</createProfile>
 thanks-for-voice-toast = Paldies par balss informāciju
 thanks-for-voice-toast-error = Iesniedzot jūsu balss informāciju, radās kļūda
+first-cta-gender-select-default-option = Lūdzu izvēlieties
+first-cta-gender-select-help-text =
+    .label = Kā jūs raksturotu savu dzimumu?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Paldies, ka pievienojāt savas balss ierakstus!
 second-cta-subtitle-text = Izmantojot profilu, varēsiet sekot līdzi savai aktivitātei un sazināties ar balss datu vācēju kopienu.
@@ -1873,6 +1907,7 @@ public-domain = Publiskie dati
 citing-sentences = Atsauce uz teikumu avotu
 adding-sentences = Teikumu pievienošana
 reviewing-sentences = Teikumu pārbaude
+sentence-domain = Teikuma joma
 public-domain-explanation-1 = Ir ļoti svarīgi, lai visi teikumi būtu <publicDomain>publiskais domēns</publicDomain> (<cc0>cc0</cc0>), jo Common Voice datu kopa tiek izlaista ar cc0 licenci. Augšupielādējiet teikumu tikai tad, ja esat pārliecināts par tā publiskumu, un vienmēr iekļaujiet atsauci uz avotu.
 public-domain-explanation-2 = Labākie teikumi noderīga runas atpazīšanas rīka izveidei ir sarunvaloda, mūsdienīga valoda. Dažas idejas, kas palīdzēs ģenerēt teikumus, ir;
 public-domain-explanation-3 = Izveidojiet mūsdienīgus sarunvalodas teikumus pats vai kopā ar draugiem vai valodu kopienu, piemēram, rīkojot “rakstīšanas maratonu”
@@ -1911,7 +1946,10 @@ reviewing-sentences-explanation-1 = Ja teikums atbilst iepriekš minētajiem kri
 reviewing-sentences-explanation-2 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Nē".
 reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat to izlaist un pāriet uz nākamo.
 reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
-# WRITE PAGE
+domain-explanation = Joma attiecas uz teikuma saturu. Jūs varat izvēlēties vienu no:
+
+## WRITE PAGE
+
 write-instruction = Pievienojiet <icon></icon> publiskā īpašuma teikumu
 write-page-subtitle = Šeit ievietotie teikumi tiks pievienoti publiski pieejamai cc-0 licencētai datu kopai.
 sentence =
@@ -1942,6 +1980,32 @@ single-sentence-submission = Viena teikuma pievienošana
 bulk-sentence-submission = Vairāku teikumu pievienošana
 single-sentence = Viens teikums
 bulk-sentences = Vairāki teikumi
+sentence-domain-select =
+    .label = Teikuma joma
+# Sentence Domain dropdown option
+agriculture = Lauksaimniecība
+# Sentence Domain dropdown option
+automotive = Auto industrija
+# Sentence Domain dropdown option
+finance = Finanses
+# Sentence Domain dropdown option
+food_service_retail = Pārtika, apkalpošana un mazumtirdzniecība
+# Sentence Domain dropdown option
+general = Vispārīgs
+# Sentence Domain dropdown option
+healthcare = Veselības aprūpe
+# Sentence Domain dropdown option
+history_law_government = Vēsture, tiesības un valdība
+# Sentence Domain dropdown option
+language_fundamentals = Valodas pamati (piemēram, cipari, burti, nauda)
+# Sentence Domain dropdown option
+media_entertainment = Plašsaziņas līdzekļi un izklaide
+# Sentence Domain dropdown option
+nature_environment = Daba un vide
+# Sentence Domain dropdown option
+news_current_affairs = Ziņas un aktualitātes
+# Sentence Domain dropdown option
+technology_robotics = Tehnoloģijas un robotika
 
 ## REVIEW PAGE
 
@@ -1986,3 +2050,13 @@ file-invalid-type = Nederīga datne
 file-too-large = Datne ir pārāk liela
 file-too-small = Datne ir pārāk maza
 too-many-files = Pārāk daudz datņu
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Mums ir nepieciešama</mark><br/><mark>jūsu palīdzība!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Datu kopu uzturēšana un platformas uzlabošana vairāk nekā 100 valodu kopienām, kuras paļaujas uz mums, izmaksā gandrīz miljonu dolāru gadā. <strong>Ja jums ir svarīgi atvērti, iekļaujoši dati, ziedojiet jau šodien!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Vai izmantojat CV</mark><br/><mark>savos pētījumos?</mark>
+languages-donate-banner-cta-explanation = Common Voice tiek finansēta no ziedojumiem un dotācijām! Mums patīk sadarboties ar akadēmiķiem, pilsonisko sabiedrību un nozares pētniekiem. Common Voice var izmantot bez maksas, taču platformas un serveru izmaksu segšana, izmantojot pētījumu programmu dotācijas, ir patiešām noderīga.

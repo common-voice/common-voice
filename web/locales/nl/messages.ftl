@@ -449,6 +449,8 @@ help-accent = Hulp nodig met accent?
 help-accent-explanation = Uw accent is de manier waarop u woorden uitspreekt. Het kan worden gevormd door waar u hebt gewoond, welke andere talen u spreekt en tal van andere factoren. U kunt hier alle informatie delen die u relevant vindt.
 help-variants = Hulp nodig bij varianten?
 help-variants-explanation = Varianten zijn een specifieke vorm van een taal – bijvoorbeeld gesproken door mensen die in een gebied of gemeenschap wonen. Soms worden dit dialecten genoemd.
+help-sex-or-gender-changes = Hulp nodig bij de geslachts- of genderwijzigingen?
+help-sex-or-gender-changes-explanation = We bieden meer opties om mensen meer keuze te geven in wat ze ons vertellen over hun geslacht of genderidentiteit. Beschrijf uzelf op de manier die voor u het meest natuurlijk aanvoelt. <learnMoreLink>Meer info over onze benadering van geslacht en gender.</learnMoreLink>
 
 ## Profile - Email
 
@@ -681,6 +683,13 @@ about-playbook-how-project-governance-content-5 = Waarde en erkenning.
 about-playbook-how-project-governance-content-6 = Wederzijdse verantwoordelijkheid.
 about-playbook-how-project-governance-content-7 = <governanceLink>Meer info over hoe we worden bestuurd</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Hoe wordt Common Voice gefinancierd?
+about-playbook-how-funded-content-1 = Common Voice is een project van de Mozilla Foundation, een US 501c3. Het project wordt momenteel volledig gefinancierd door <philantropicGrantLink>filantropische subsidies</philantropicGrantLink> en donaties van mensen over de hele wereld.
+about-playbook-how-funded-content-2 = Het kost veel geld om continu de gegevenssets te hosten en uit te geven, het platform te verbeteren en <africaMradiLink>gemeenschapsprogramma’s</africaMradiLink> uit te voeren.
+about-playbook-how-funded-content-3 = Als u of uw organisatie een wederkerige bijdrage wil doen aan het project, dan kunt u een <donateLink>donatie</donateLink> doen of contact opnemen met ons partnerteam via <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = Woordenlijst
@@ -806,6 +815,11 @@ no-information-available = Geen informatie beschikbaar
 dataset-metadata-sex = Geslacht
 # dataset metadata - age of contributor
 dataset-metadata-age = Leeftijd
+donate-modal-message = Uw gegevensset wordt gedownload!
+dataset-donate-modal-heading = Wist u dat…
+donate-modal-explanation-1 = het bijna een miljoen dollar per jaar kost om de gegevenssets te hosten en het platform te verbeteren voor de meer dan 100 taalgemeenschappen die afhankelijk zijn van wat we doen?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Als u open, inclusieve gegevens waardeert – doneer dan vandaag nog!</bold>
 
 ## Download Modal
 
@@ -1684,6 +1698,9 @@ continue-speaking-button = Nee bedankt, ga door met spreken
 create-profile-text = Wilt u uw gegevens opslaan? <createProfile>Maak een profiel aan</createProfile>
 thanks-for-voice-toast = Bedankt voor uw steminformatie
 thanks-for-voice-toast-error = Er is een fout opgetreden bij het verzenden van uw steminformatie
+first-cta-gender-select-default-option = Selecteer een optie
+first-cta-gender-select-help-text =
+    .label = Hoe zou u uw geslacht of gender omschrijven?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Bedankt voor het doneren van uw stem!
 second-cta-subtitle-text = Met een profiel kunt u uw activiteit bijhouden en verbinding maken met een gemeenschap van bijdragers aan spraakgegevens.
@@ -1744,6 +1761,7 @@ public-domain = Publiek domein
 citing-sentences = Bronnen van zinnen vermelden
 adding-sentences = Zinnen toevoegen
 reviewing-sentences = Zinnen beoordelen
+sentence-domain = Zinsdomein
 public-domain-explanation-1 = Het is heel belangrijk dat alle tekstzinnen <publicDomain>publiek domein</publicDomain> (<cc0>cc0</cc0>) zijn, aangezien de Common Voice-dataset wordt uitgegeven onder een cc0-licentie. Upload een zin alleen als u hier zeker van bent en voeg altijd de relevante bronvermelding toe.
 public-domain-explanation-2 = De beste zinnen voor het bouwen van een bruikbare spraakherkenningsengine zijn in moderne spreektaal. Enkele ideeën om u te helpen bij het aanmaken van zinnen zijn;
 public-domain-explanation-3 = Maak zelf moderne, informele zinnen of met uw vrienden of taalgemeenschap – bijvoorbeeld door middel van een ‘write-a-thon’
@@ -1894,3 +1912,13 @@ file-invalid-type = Ongeldig bestand
 file-too-large = Bestand is te groot
 file-too-small = Bestand is te klein
 too-many-files = Te veel bestanden
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>We hebben</mark><br/><mark>uw hulp nodig!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Het kost bijna een miljoen dollar per jaar om de gegevenssets te hosten en het platform te verbeteren voor de meer dan 100 taalgemeenschappen die afhankelijk zijn van wat we doen. <strong>Als u open, inclusieve gegevens waardeert – doneer dan vandaag nog!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Gebruikt u CV voor</mark><br/><mark>uw onderzoek?</mark>
+languages-donate-banner-cta-explanation = Common Voice wordt gefinancierd door donaties en subsidies! We werken graag samen met academici, onderzoekers van het maatschappelijk middenveld en de industrie. Common Voice is gratis te gebruiken, maar bijdragen aan de platform- en hostingkosten via subsidievoorstellen helpt echt.

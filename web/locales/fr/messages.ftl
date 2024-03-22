@@ -451,6 +451,8 @@ help-accent = Besoin d’aide pour l’accent ?
 help-accent-explanation = Votre accent est votre manière de prononcer les mots. Il peut être façonné par les endroits où vous avez vécu, les autres langues que vous parlez et beaucoup d’autres facteurs. Vous pouvez partager toute information que vous jugez pertinente ici.
 help-variants = Besoin d’aide avec les variantes linguistiques ?
 help-variants-explanation = Les variantes linguistiques sont une forme spécifique d’une langue, par exemple partagée par les personnes qui vivent dans une zone géographique ou une communauté particulière. Elles sont parfois appelées dialectes.
+help-sex-or-gender-changes = Besoin d’aide pour les changements liés au sexe ou au genre ?
+help-sex-or-gender-changes-explanation = Nous proposons davantage d’options pour offrir aux personnes plus de liberté pour indiquer leur sexe ou leur identité de genre. Vous êtes libres vous décrire de la manière qui vous semble la plus naturelle. <learnMoreLink>En savoir plus sur notre approche en ce qui concerne le sexe et le genre.</learnMoreLink>
 
 ## Profile - Email
 
@@ -679,6 +681,13 @@ about-playbook-how-project-governance-content-5 = Valeur et reconnaissance.
 about-playbook-how-project-governance-content-6 = Responsabilité mutuelle.
 about-playbook-how-project-governance-content-7 = <governanceLink>En savoir plus sur notre gouvernance</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Comment Common Voice est-il financé ?
+about-playbook-how-funded-content-1 = Common Voice est un projet de la Fondation Mozilla, une organisation 501c3 aux États-Unis. Le projet est actuellement entièrement financé par des <philantropGrantLink>subventions philanthropiques</philantropGrantLink> et des dons de personnes du monde entier.
+about-playbook-how-funded-content-2 = Héberger et publier en permanence les jeux de données, mais aussi améliorer la plateforme et lancer les <africaMradiLink>programmes communautaires</africaMradiLink> coûte beaucoup d’argent.
+about-playbook-how-funded-content-3 = Si vous ou votre organisation souhaitez contribuer au projet, vous pouvez faire un <donateLink>don</donateLink> ou contacter notre équipe des partenariats à l’adresse <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = Glossaire
@@ -804,6 +813,11 @@ no-information-available = Aucune information disponible
 dataset-metadata-sex = Sexe
 # dataset metadata - age of contributor
 dataset-metadata-age = Âge
+donate-modal-message = Votre jeu de données est en cours de téléchargement !
+dataset-donate-modal-heading = Le saviez-vous ?
+donate-modal-explanation-1 = Nous dépensons près d’un million de dollars chaque année pour héberger les jeux de données et améliorer la plateforme pour les plus de 100 communautés linguistiques qui font confiance à notre travail.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Si les données ouvertes et inclusives sont importantes à vos yeux, faites un don !</bold>
 
 ## Download Modal
 
@@ -1591,6 +1605,9 @@ continue-speaking-button = Non merci, continuer à parler
 create-profile-text = Souhaitez-vous enregistrer vos informations ? <createProfile>Créer un profil</createProfile>
 thanks-for-voice-toast = Merci pour vos informations vocales
 thanks-for-voice-toast-error = Une erreur est survenue lors de l’envoi de vos informations vocales
+first-cta-gender-select-default-option = Sélectionnez une option
+first-cta-gender-select-help-text =
+    .label = Comment préférez-vous indiquer votre sexe ou votre genre ?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Merci d’avoir fait don de votre voix !
 second-cta-subtitle-text = Avec un profil, vous pouvez suivre votre activité et vous connecter à une communauté de contributeurs de données vocales.
@@ -1795,3 +1812,13 @@ file-invalid-type = Fichier non valide
 file-too-large = Le fichier est trop volumineux
 file-too-small = Le fichier est trop petit
 too-many-files = Trop de fichiers
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Nous avons besoin</mark><br/><mark>de votre aide !</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Héberger les jeux de données et améliorer la plateforme pour les plus de 100 communautés linguistiques qui font confiance à notre service coûte près d’un million de dollars par an. <strong>Si vous appréciez les données ouvertes et inclusives, faites un don aujourd’hui !</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Vous utilisez CV pour</mark><br/><mark>vos recherches ?</mark>
+languages-donate-banner-cta-explanation = Common Voice est financé par des dons et des subventions ! Nous aimons collaborer avec des universitaires et des chercheur·euse·s issu·e·s de la société civile ou de l’industrie. Common Voice est gratuit, mais contribuer à la plateforme et aux coûts d’hébergement en proposant des subventions est vraiment utile.

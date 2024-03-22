@@ -3,8 +3,7 @@ module.exports = {
   env: {
     node: true,
     browser: true,
-    es2021: true,
-    es2023: true
+    es2022: true
   },
   plugins: ['import', '@typescript-eslint', 'react', 'react-hooks', 'jsx-a11y'],
   extends: [
@@ -19,7 +18,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 12,
+    ecmaVersion: 2023,
     sourceType: 'module',
     tsconfigRootDir: __dirname,
     project: [

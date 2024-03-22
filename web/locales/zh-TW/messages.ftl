@@ -447,6 +447,7 @@ help-accent = 需要關於腔調的說明嗎？
 help-accent-explanation = 腔調就是您發音的方式，可能會受您生活的地方、您會說的其他語言以及其他許多因素影響。您可以在此分享任何您覺得有關的資訊。
 help-variants = 需要關於變體的相關說明嗎？
 help-variants-explanation = 變體是一種語言的特定格式，像是由居住在共同地區或社群的人才有的特定說話腔調。有時這也稱為「方言」。
+help-sex-or-gender-changes = 需要更改性別嗎？
 
 ## Profile - Email
 
@@ -794,6 +795,8 @@ no-information-available = 無可用資訊
 dataset-metadata-sex = 性別
 # dataset metadata - age of contributor
 dataset-metadata-age = 年齡
+donate-modal-message = 正在下載您的資料集！
+dataset-donate-modal-heading = 您知道嗎…
 
 ## Download Modal
 
@@ -1635,9 +1638,12 @@ adding-sentences-subheader-length-explanation = 一個句子的長度應該不�
 adding-sentences-subheader-spelling-punctuation = 拼字與標點符號
 adding-sentences-subheader-spelling-punctuation-explanation = 句子必須拼得正確。
 adding-sentences-subheader-speakable = 好念
+adding-sentences-subheader-speakable-explanation = 最理想的句子應該自然流暢、且口語化 — 人們能夠輕鬆閱讀並理解這些句子。雖然句子中的抑揚頓挫與單字都很重要，但我們也嘗試讓錄音過程盡可能對志工社群來說，更有吸引力和有趣。
 adding-sentences-subheader-numbers = 數字
+adding-sentences-subheader-numbers-explanation = 原文段落中不應包含數字，因為會在唸出來的時候造成問題。數字的念法需依前後文而定，可能會在資料集中造成混淆。舉例來說，數字「2409」有時會念成「兩千四百零九」，也有可能念成「二四零九」。
 adding-sentences-subheader-abbreviations = 縮寫
 adding-sentences-subheader-punctuation = 標點符號
+adding-sentences-subheader-punctuation-explanation = 應該只在有絕對必要的時候才加入特殊符號及標點。舉例來說，英文字「don’t」、「we’re」當中的撇號（apostrophe）應該包含在原文段落中，但不太可能會需要「@」或「#」等特殊符號。
 adding-sentences-subheader-special-characters = 特殊符號與外文
 adding-sentences-subheader-special-characters-explanation-1 = 必須使用原文語言所使用的相關文字或字母，舉例來說：「ж」是俄語字母，但英文或中文都不會用到，因此不該包含在原文中。
 adding-sentences-subheader-offensive-content = 冒犯性內容

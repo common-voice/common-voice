@@ -37,6 +37,7 @@ const CLIPS_BUCKET = getClipsBucketName()
 export const TSV_COLUMNS = [
   'client_id',
   'path',
+  'sentence_id',
   'sentence',
   'sentence_domain',
   'up_votes',

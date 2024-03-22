@@ -407,8 +407,12 @@ native-language =
 profile-form-add-accent = Nowy swójski akcent „{ $inputValue }“ pśidaś
 profile-form-submit-save = Składowaś
 profile-form-submit-saved = Skłaźony
-male = Muski
-female = Žeńscyny
+male_masculine = Muskecy/Maskulinowy
+female_feminine = Žeńscyny/Femininy
+intersex = Interseksuelny
+transgender = Transgender
+non-binary = Njebinarne
+do_not_wish_to_say = Njok pódaś
 # Gender
 other = Druge
 why-profile-title = Cogodla profil?
@@ -444,6 +448,7 @@ help-accent = Trjebaśo pomoc wó akcenśe?
 help-accent-explanation = Waš akcent jo nałog, kak słowa wugranjaśo. Jogo charakter wót togo wótwisujo, źož sćo był žywy, kótare druge rěcy powědaśo a wót wjele drugich faktorow. Móžośo wšykne informacije k wěsći daś, kótarež za relewantne maśo.
 help-variants = Trjebaśo pomoc za warianty?
 help-variants-explanation = Warianty su specifiska forma rěcy - powědaju se na pśikład wót luźi, kótarež su we wěstem regionje abo zgromaźeństwje žywe. Wótergi wóne se dialekty pomjenjuju.
+help-sex-or-gender-changes = Trjebaśo pomoc pśi změnjanju roda abo rodneje identity?
 
 ## Profile - Email
 
@@ -768,6 +773,8 @@ no-information-available = Žedne informacije k dispoziciji
 dataset-metadata-sex = Rod
 # dataset metadata - age of contributor
 dataset-metadata-age = Starstwo
+donate-modal-message = Waša datowa sajźba se ześěgujo!
+dataset-donate-modal-heading = Sćo wěźeł…
 
 ## Download Modal
 
@@ -1545,9 +1552,11 @@ localization-select =
 partnerships-header = Partnaŕstwa
 partnerships-get-in-touch = Kontakt
 partnerships-become-a-partner = Buźćo partnaŕ Common Voice
+partnerships-community-header = Zgromadnosć, kreatiwne a ciwilna towarišnosć
 partnerships-foundations-header = Załožby
 partnerships-governments-header = Kněžaŕstwa
 partnerships-academia-header = Uniwersity, akademikarje a slěźarje
+partnerships-corporates-header = Wjelike korporacije a pśedewześa platformow
 partnerships-our-partners = Naše partnarje
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Wjeliki źěk, až sćo pósćił waše powědańske klipy!
@@ -1590,6 +1599,7 @@ misreadings-tip-3 = [Wopśimjeśe njewótpowědujo]
 background-noise-example-1 = Wjelicke dinosawrierje triasa.
 background-noise-tip-2 = [Źěl teksta njejo słyšaś]
 background-voices-example-1 = Wjelicke dinosawriery triasa. [cyta se wót jadnogo głosa]
+background-voices-tip-1 = Pśiźoš? [głos drugego]
 still-have-questions = Maśo hyšći pšašanja?
 contact-common-voice = Stajśo z teamom Common Voice do zwiska
 public-domain = Zjawnje wužywajobny
@@ -1617,6 +1627,9 @@ adding-sentences-subheader-offensive-content = Njepśistojne wopśimjeśe
 reviewing-sentences-explanation-1 = Jolic sada kriterijam górjejce wótpowědujo, klikniśo na tłocašk „Jo“.
 reviewing-sentences-explanation-2 = Jolic sada kriterijam górjejce njewótpowědujo, klikniśo na tłocašk „Ně“.
 reviewing-sentences-explanation-4 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
+
+## WRITE PAGE
+
 sentence =
     .label = Sada
 sentence-input-value = Zapódajśo how swóju zjawnje wužywajobnu sadu
@@ -1639,12 +1652,38 @@ add-sentence-error = Zmólka pśi pśidawanju sady
 required-field = Pšosym wupołniśo toś to pólo.
 single-sentence = Jadna sada
 bulk-sentences = Wjele sadow
+# Sentence Domain dropdown option
+agriculture = Rolnikaŕstwo
+# Sentence Domain dropdown option
+automotive = Awta
+# Sentence Domain dropdown option
+finance = Finance
+# Sentence Domain dropdown option
+food_service_retail = Caroba, słužbywugbaśe a pśedań
+# Sentence Domain dropdown option
+general = Powšykne
+# Sentence Domain dropdown option
+healthcare = Strowotnistwo
+# Sentence Domain dropdown option
+history_law_government = Stawizny, pšawnistwo a kněžaŕstwo
+# Sentence Domain dropdown option
+language_fundamentals = Rěcne zakłady (na pś. cyfry, pismiki, pjenjeze)
+# Sentence Domain dropdown option
+media_entertainment = Medije a rozwjaselenje
+# Sentence Domain dropdown option
+nature_environment = Pśiroda a wobswět
+# Sentence Domain dropdown option
+news_current_affairs = Nowosći a aktualne nastupnosći
+# Sentence Domain dropdown option
+technology_robotics = Technologija a robotika
 
 ## REVIEW PAGE
 
 sc-review-rules-title = Wótpowědujo sada směrnicam?
 report-sc-different-language = Druga rěc
 report-sc-different-language-detail = Jo w drugej rěcy napisana ako pśeglědujom.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Pśewjeźomy někotare změny
 sc-redirect-page-subtitle-2 = Stajśo nam pšašanja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mailu</emailLink>.
 
 ## BULK SUBMISSION 
@@ -1652,6 +1691,8 @@ sc-redirect-page-subtitle-2 = Stajśo nam pšašanja na <matrixLink>Matrix</matr
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Nagrajśo <icon></icon> zjawnje wužywajobne sady
 sc-bulk-upload-instruction = Śěgniśo swóju dataju sem abo <uploadButton>klikniśo za nagrawanje</uploadButton>
+sc-bulk-upload-instruction-drop = Pušććo dataju how, aby ju nagrał
+try-upload-again-md = Nagraśe znowego wopytaś
 select-file = Dataju wubraś
 select-file-mobile = Wubjeŕśo dataju za nagraśe
 accepted-files = Akceptěrowane datajowe typy: jano .tsv

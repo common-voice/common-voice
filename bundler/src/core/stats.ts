@@ -89,6 +89,8 @@ type Locale = {
   buckets: Buckets
   duration: number
   reportedSentences: number
+  validatedSentences: number
+  unvalidatedSentences: number
   clips: number
   splits: Splits
   users: number
@@ -112,6 +114,8 @@ const createEmptyLocale = (): Locale => {
     },
     duration: 0,
     reportedSentences: 0,
+    validatedSentences: 0,
+    unvalidatedSentences: 0,
     clips: 0,
     splits: {
       accent: {},
@@ -168,17 +172,23 @@ const getAllRelevantFilepaths = (
   const ccFiles = CORPORA_CREATOR_FILES.map(entry =>
     path.join(releaseDirPath, locale, entry),
   )
-  const reportedSentencesFilepath = path.join(
-    releaseDirPath,
-    locale,
+  const sentenceFiles = [
     'reported.tsv',
-  )
-  return [...ccFiles, reportedSentencesFilepath]
+    'validated_sentences.tsv',
+    'unvalidated_sentences.tsv',
+  ].map(filename => path.join(releaseDirPath, locale, filename))
+
+  return [...ccFiles, ...sentenceFiles]
 }
 
 const mapLineCountsToStats = (
   obj: LineCounts,
-): { buckets: Buckets; reportedSentences: number } => {
+): {
+  buckets: Buckets
+  reportedSentences: number
+  validatedSentences: number
+  unvalidatedSentences: number
+} => {
   const buckets = Object.entries(obj).reduce((acc, [key, value]) => {
     if (!isCorporaCreatorFile(key)) return acc
 
@@ -189,22 +199,34 @@ const mapLineCountsToStats = (
   }, {} as Buckets)
 
   const reportedSentences = Number(obj['reported.tsv']) - 1
+  const validatedSentences = Number(obj['validated_sentences.tsv']) - 1
+  const unvalidatedSentences = Number(obj['unvalidated_sentences.tsv']) - 1
 
   return {
     buckets,
     reportedSentences,
+    validatedSentences,
+    unvalidatedSentences,
   }
 }
 
 const mergeStats = (
   locale: string,
   stats: Stats,
-  statCounts: Pick<Locale, 'buckets' | 'reportedSentences'>,
+  statCounts: Pick<
+    Locale,
+    | 'buckets'
+    | 'reportedSentences'
+    | 'validatedSentences'
+    | 'unvalidatedSentences'
+  >,
   checksum: string,
   size: number,
 ) => {
   stats.locales[locale].buckets = statCounts.buckets
   stats.locales[locale].reportedSentences = statCounts.reportedSentences
+  stats.locales[locale].validatedSentences = statCounts.validatedSentences
+  stats.locales[locale].unvalidatedSentences = statCounts.unvalidatedSentences
   stats.locales[locale].checksum = checksum
   stats.locales[locale].size = size
   return stats
@@ -232,7 +254,9 @@ const extractStatsFromClipsFile = (locale: string, releaseDirPath: string) =>
             initialLocale.clips++
             initialLocale.splits.age[data.age as keyof Age]++
             initialLocale.splits.gender[data.gender as keyof Gender]++
-            initialLocale.splits.sentence_domain[data.sentence_domain as keyof SentenceDomain]++
+            initialLocale.splits.sentence_domain[
+              data.sentence_domain as keyof SentenceDomain
+            ]++
           })
           .on('finish', () => {
             stats.locales[locale] = initialLocale
@@ -270,24 +294,24 @@ const unitToHours = (
 }
 const calculateDurations =
   (locale: string) =>
-    (totalDurationInMs: number) =>
-      (stats: Stats): Stats => {
-        const localeStats = stats.locales[locale]
-        const validClips = localeStats.buckets.validated
+  (totalDurationInMs: number) =>
+  (stats: Stats): Stats => {
+    const localeStats = stats.locales[locale]
+    const validClips = localeStats.buckets.validated
 
-        localeStats.duration = totalDurationInMs
-        localeStats.avgDurationSecs =
-          Math.round(localeStats.duration / localeStats.clips) / 1000
-        localeStats.validDurationSecs =
-          Math.round((localeStats.duration / localeStats.clips) * validClips) / 1000
+    localeStats.duration = totalDurationInMs
+    localeStats.avgDurationSecs =
+      Math.round(localeStats.duration / localeStats.clips) / 1000
+    localeStats.validDurationSecs =
+      Math.round((localeStats.duration / localeStats.clips) * validClips) / 1000
 
-        localeStats.totalHrs = unitToHours(localeStats.duration, 'ms', 2)
-        localeStats.validHrs = unitToHours(localeStats.validDurationSecs, 's', 2)
+    localeStats.totalHrs = unitToHours(localeStats.duration, 'ms', 2)
+    localeStats.validHrs = unitToHours(localeStats.validDurationSecs, 's', 2)
 
-        stats.locales[locale] = localeStats
+    stats.locales[locale] = localeStats
 
-        return stats
-      }
+    return stats
+  }
 
 export const statsPipeline = (
   locale: string,

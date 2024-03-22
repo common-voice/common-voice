@@ -40,7 +40,7 @@ bas = basa
 be = beloruščina
 bg = bolgarščina
 bn = bengalščina
-bo = Tibetanščina
+bo = tibetanščina
 br = bretonščina
 bs = bosanščina
 bxr = burijatščina
@@ -137,7 +137,7 @@ rw = ruandščina
 sah = jakutščina
 sc = sardinščina
 scn = sicilijanščina
-si = sinhalščina
+si = singalščina
 sk = slovaščina
 sl = slovenščina
 so = somalščina
@@ -352,8 +352,6 @@ native-language =
     .label = Materni jezik
 profile-form-submit-save = Shrani
 profile-form-submit-saved = Shranjeno
-male = Moški
-female = Ženski
 # Gender
 other = Drugo
 why-profile-title = Zakaj ustvariti profil?
@@ -1070,6 +1068,9 @@ sc-validation-no-abbreviations = Stavek ne sme vsebovati krajšav
 # [/SentenceCollector]
 
 sentence-collection = Zbiranje stavkov
+
+## WRITE PAGE
+
 
 ## REVIEW PAGE
 

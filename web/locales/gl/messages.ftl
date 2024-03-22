@@ -400,7 +400,7 @@ profile-form-age =
 profile-form-gender-2 =
     .label = Xénero
 leaderboard-visibility =
-    .label = Visibilidade da táboa de clasificación
+    .label = Visibilidade na táboa de clasificación
 hidden = Agochada
 visible = Visible
 native-language =
@@ -408,8 +408,12 @@ native-language =
 profile-form-add-accent = Engada un novo acento personalizado "{ $inputValue }"
 profile-form-submit-save = Gardar
 profile-form-submit-saved = Gardado
-male = Masculino
-female = Feminino
+male_masculine = Macho/Masculino
+female_feminine = Femia/Feminino
+intersex = Intersexual
+transgender = Transxénero
+non-binary = Non binario
+do_not_wish_to_say = Prefiro non responder
 # Gender
 other = Outro
 why-profile-title = Por que crear un perfil?
@@ -445,6 +449,8 @@ help-accent = Necesita axuda co acento?
 help-accent-explanation = O acento é a forma en que pronuncia as palabras. Poden influír nel o(s) lugar(es) onde viviu, as outras linguas que fala e moitos outros factores. Pode compartir aquí calquera información que considere relevante.
 help-variants = Necesita axuda coas variedades?
 help-variants-explanation = As variedades son formas específicas dunha lingua. Por exemplo, unha variedade é a que comparten as persoas que viven nunha determinada zona xeográfica ou comunidade. Ás veces estas chámanse dialectos.
+help-sex-or-gender-changes = Necesita axuda cos cambios de sexo ou xénero?
+help-sex-or-gender-changes-explanation = Estamos ofrecendo máis opcións para darlle máis opcións á xente no que nos di sobre o seu sexo ou identidade de xénero. Por favor, autodescríbase da forma que lle pareza máis natural. <learnMoreLink>Obteña máis información sobre o noso enfoque do sexo e o xénero.</learnMoreLink>
 
 ## Profile - Email
 
@@ -677,6 +683,13 @@ about-playbook-how-project-governance-content-5 = Valorización e recoñecemento
 about-playbook-how-project-governance-content-6 = Responsabilidade mutua.
 about-playbook-how-project-governance-content-7 = <governanceLink>Saber máis sobre a nosa gobernanza</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Como se financia Common Voice?
+about-playbook-how-funded-content-1 = Common Voice é un proxecto da Fundación Mozilla, unha organización sen ánimo de lucro segundo a lei federal dos Estados Unidos. O proxecto está financiado na súa totalidade a través de <philantropicGrantLink>subvencións filantrópicas</philantropicGrantLink> e doazóns de persoas de todo o mundo.
+about-playbook-how-funded-content-2 = É moi custoso aloxar e liberar continuamente os conxuntos de datos, mellorar a plataforma e levar a cabo <africaMradiLink>programas comunitarios</africaMradiLink>.
+about-playbook-how-funded-content-3 = Se vostede ou a súa organización quere contribuír ao proxecto, pode facer unha <donateLink>doazón</donateLink> ou contactar co noso equipo en <emailFragment>commonvoice@mozilla.com</emailFragment> para facerse socio.
+
 ## Glossary
 
 glossary = Glosario
@@ -757,7 +770,7 @@ number-of-voices = Número de voces
 splits = Subconxuntos
 email-to-download = Escriba o enderezo de correo para descargar
 why-email = <b>Por que un enderezo de correo?</b> É posible que precisemos poñernos en contacto con vostede no futuro para trasladarlle posibles cambios no conxunto de datos.
-why-donate = Por que preguntamos?
+why-donate-datasets-page = Mozilla Common Voice é o conxunto de datos de voz aberto de colaboración pública máis diversificado do mundo e é mantido enteiramente por doazóns. Custa case un millón de dólares ao ano aloxar os conxuntos de datos e mellorar a plataforma para as máis de 100 comunidades de idiomas que dependen do que facemos. Se valora os datos abertos e inclusivos, <b>faga unha doazón!</b>
 confirm-size = Estou preparado para iniciar unha descarga de <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -802,6 +815,11 @@ no-information-available = Non hai información dispoñíbel
 dataset-metadata-sex = Xénero
 # dataset metadata - age of contributor
 dataset-metadata-age = Idade
+donate-modal-message = O seu conxunto de datos estase descargando!
+dataset-donate-modal-heading = Sabía…
+donate-modal-explanation-1 = Custa case un millón de dólares ao ano aloxar os conxuntos de datos e mellorar a plataforma para as máis de 100 comunidades lingüísticas que confían no que facemos?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = { "" }
 
 ## Download Modal
 
@@ -1655,6 +1673,9 @@ continue-speaking-button = Non, grazas. Prefiro seguir falando
 create-profile-text = Quere gardar a súa información? <createProfile>Crear un perfil</createProfile>
 thanks-for-voice-toast = Grazas pola información sobre a súa voz
 thanks-for-voice-toast-error = Produciuse un erro ao enviar a información sobre a súa voz
+first-cta-gender-select-default-option = Seleccione unha opción
+first-cta-gender-select-help-text =
+    .label = Como describiría o seu sexo ou xénero?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Grazas por aportar a súa voz!
 second-cta-subtitle-text = Cun perfil, pode facer o seguimento da súa actividade e participar na comunidade de colaboradores de datos de voz.
@@ -1715,6 +1736,7 @@ public-domain = Dominio Público
 citing-sentences = Citar frases
 adding-sentences = Engadir frases
 reviewing-sentences = Revisar frases
+sentence-domain = { "" }
 public-domain-explanation-1 = É moi importante que todas as frases sexan de <publicDomain>dominio público</publicDomain> (<cc0>cc0</cc0>), xa que o conxunto de datos de Common Voice se publica baixo licenza cc0. Antes de subir frases, asegúrese diso e inclúa sempre a cita correspondente.
 public-domain-explanation-2 = As mellores frases para construír un motor de recoñecemento da fala útil son as da linguaxe coloquial e actual. A seguir atopará unha serie de ideas para axudarlle a xerar frases:
 public-domain-explanation-3 = Cree frases actuais e coloquiais en solitario, cos seus amigos ou coa súa comunidade lingüística, por exemplo, a través dun maratón de escritura
@@ -1753,7 +1775,10 @@ reviewing-sentences-explanation-1 = Se a frase cumpre os criterios anteriores, p
 reviewing-sentences-explanation-2 = Se a frase non cumpre os criterios anteriores, prema no botón "Non".
 reviewing-sentences-explanation-3 = Se ten dúbidas sobre a frase, pode omitila e pasar á seguinte.
 reviewing-sentences-explanation-4 = Se xa non quedan frases para revisar, axúdenos a recoller máis!
-# WRITE PAGE
+domain-explanation = O dominio refírese ao asunto da oración. Actualmente, pode escoller entre:
+
+## WRITE PAGE
+
 write-instruction = Engada <icon></icon> unha frase de dominio público
 write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de datos con licenza cc-0 dispoñible publicamente.
 sentence =
@@ -1784,6 +1809,32 @@ single-sentence-submission = Envío dunha única frase
 bulk-sentence-submission = Envío masivo de frases
 single-sentence = Frase única
 bulk-sentences = Grupo de frases
+sentence-domain-select =
+    .label = Dominio da oración
+# Sentence Domain dropdown option
+agriculture = Agricultura
+# Sentence Domain dropdown option
+automotive = Automoción
+# Sentence Domain dropdown option
+finance = Finanzas
+# Sentence Domain dropdown option
+food_service_retail = Alimentos, servizos e comercio polo miúdo
+# Sentence Domain dropdown option
+general = Xeral
+# Sentence Domain dropdown option
+healthcare = Asistencia sanitaria
+# Sentence Domain dropdown option
+history_law_government = Historia, dereito e goberno
+# Sentence Domain dropdown option
+language_fundamentals = Fundamentos da linguaxe (por exemplo, díxitos, letras, diñeiro)
+# Sentence Domain dropdown option
+media_entertainment = Medios e entretemento
+# Sentence Domain dropdown option
+nature_environment = Natureza e medio ambiente
+# Sentence Domain dropdown option
+news_current_affairs = Noticias e actualidade
+# Sentence Domain dropdown option
+technology_robotics = Tecnoloxía e robótica
 
 ## REVIEW PAGE
 
@@ -1828,3 +1879,13 @@ file-invalid-type = O ficheiro non é válido.
 file-too-large = O ficheiro é demasiado grande
 file-too-small = O ficheiro é demasiado pequeno
 too-many-files = Demasiados ficheiros
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Precisamos</mark><br/><mark>da súa axuda!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Custa case un millón de dólares ao ano aloxar os conxuntos de datos e mellorar a plataforma para as máis de 100 comunidades lingüísticas que dependen do noso traballo. <strong>Se valora os datos abertos e inclusivos, faga unha doazón hoxe.</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Está a usar CV para</mark><br/><mark>a súa investigación?</mark>
+languages-donate-banner-cta-explanation = Common Voice está financiado a través de doazóns e subvencións! Para nós é un pracer colaborar coa comunidade investigadora, a sociedade civil e o sector industrial. Malia que o uso de Common Voice é gratuíto, resúltanos moi útil recibir propostas de subvencións que axuden a cubrir os custos da plataforma e a almacenaxe dos datos.

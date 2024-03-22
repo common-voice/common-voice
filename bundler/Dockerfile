@@ -13,7 +13,7 @@ USER node
 RUN mkdir -p /home/node/code && \
     cd /home/node && \
     curl https://sh.rustup.rs -sSf | sh -s -- -y && \
-    git clone --depth 1 -b release-v1.1.0 https://github.com/common-voice/CorporaCreator.git && \
+    git clone --depth 1 -b release-v1.2.1 https://github.com/common-voice/CorporaCreator.git && \
     git clone --depth 1 -b release-v1.0.0 https://github.com/common-voice/mp3-duration-reporter.git && \
     cd CorporaCreator && \
     python3 setup.py install --user && \

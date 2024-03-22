@@ -383,8 +383,12 @@ native-language =
 profile-form-add-accent = Shtoni theks të ri vetjak "{ $inputValue }"
 profile-form-submit-save = Ruaje
 profile-form-submit-saved = U ruajt
-male = Mashkull
-female = Femër
+male_masculine = Mashkull/Mashkullore
+female_feminine = Femër/Femërore
+intersex = Interseks
+transgender = Ndërgjinor
+non-binary = Jo-dyor
+do_not_wish_to_say = S’dëshiroj ta them
 # Gender
 other = Tjetër
 why-profile-title = Ç’duhet profili?
@@ -420,6 +424,8 @@ help-accent = Ju duhet ca ndihmë me thekset?
 help-accent-explanation = Theksi është mënyra se si shqiptoni fjalët. Mund të formohet nga ku keni jetuar, cilat gjuhë të tjera flisni dhe plot faktorë të tjerë. Këtu mund të jepni çfarëdo hollësie që mendoni se ka vend.
 help-variants = Ju duhet ca ndihmë me variantet?
 help-variants-explanation = Variantet një formë specifike për një gjuhë - për shembull të përbashkët për ata që banojnë në një vend, ose në një bashkësi. Ndonjëherë këta quhen dialekte.
+help-sex-or-gender-changes = Ju duhet ndihmë për ndryshime Seksi, ose Gjinie?
+help-sex-or-gender-changes-explanation = Po ofrojmë më tepër mundësi për t’u dhënë njerëzve më tepër zgjedhje në ato çka na tregojnë rreth identitetit të tyre seksor apo gjinor. Ju lutemi, vetë-përshkruhuni në mënyrën që ndjeni më natyrore për ju. <learnMoreLink>Mësoni më tepër rreth trajtimit tonë ndaj seksit dhe gjinisë.</learnMoreLink>
 
 ## Profile - Email
 
@@ -506,7 +512,7 @@ faq-search-for-answers =
 
 about-title = Ç’duhet Common Voice?
 about-header-description-v2 =
-    <p>Common Voice është një grup të dhënash zëri që mund të kihet publikisht, i ngritur nga zërat e kontribuesve vullnetarë nga anembanë bota. Njerëzit që duan të krijojnë aplikacione zër mund ta përdorin grupin e të dhënave për të stërvitur modele të nxëni nga makinat.</p>
+    <p>Common Voice është një grup të dhënash zëri që mund të kihet publikisht, i ngritur nga zërat e kontribuesve vullnetarë nga anembanë bota. Njerëzit që duan të krijojnë aplikacione zëri mund ta përdorin grupin e të dhënave për të stërvitur modele të nxëni nga makinat.</p>
     <p>Deri sot, shumica e grupeve të të dhënave mbi zëra janë pronë shoqërish, çka e bën të ngecë novacionin. Grupet e të dhënave të zërit përfaqësojnë dobët: folës jo të anglishtes, persona me ngjyrë, persona me aftësi të kufizuara, gra dhe persona LGBTQIA+. Kjo do të thotë se teknologji të bazuara në zërin s’funksionojnë fare për mjaft gjuhë dhe atje ku funksionojnë, mund të mos kenë të njëjtin sukses për gjithkënd. Duam ta ndryshojmë këtë, duke mobilizuar njerëz kudo të japin zërin e tyre.</p>
 how-does-it-work-title-v2 = Si funksionon Common Voice work?
 how-does-it-work-text = Po krijojmë, me ndihmën e publikut, një grup të dhënash zanore me burim të hapur. Dhuroni zërin tuaj, vlerësoni përpikërinë e copëzave të incizuara nga persona të tjerë, bëjeni grupin e të dhënave më të mirë për këdo.
@@ -652,6 +658,13 @@ about-playbook-how-project-governance-content-5 = Vlerë dhe njohje.
 about-playbook-how-project-governance-content-6 = Përgjegjësi e dyanshme.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lexoni më tepër se si drejtohemi</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Si financohet Common Voice?
+about-playbook-how-funded-content-1 = Common Voice është një projekt i Mozilla Foundation, një ent 501c3 në ShBA. Projekti aktualisht financohet tërësisht nga <philantropicGrantLink>grante filantropike</philantropicGrantLink> dhe dhurime nga persona anembanë botës.
+about-playbook-how-funded-content-2 = Kushton shumë të strehohen dhe hidhen në qarkullim vazhdimisht grupet e të dhënave, të përmirësohet platforma dhe të zhvillohen <africaMradiLink>programe bashkësisë</africaMradiLink>.
+about-playbook-how-funded-content-3 = Nëse ju, ose enti juaj do të donte të kontribuonte te projekti, mund të bëni një <donateLink>dhurim</donateLink>, ose të lidheni me ekipin tonë të partneritetit në <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = Fjalorth
@@ -726,11 +739,12 @@ validated-hr-total = Orë të Vlerësuara Gjithsej
 overall-hr-total = Orë Gjithsej
 cv-license = Licencë
 audio-format = Format Audio
+dataset-splits = Ndarje (Moshë dhe Gjini)
 number-of-voices = Numër Zërash
 splits = Ndarje
 email-to-download = Jepni Email-in për Shkarkim
 why-email = <b>Pse email?</b> Mund të na duhet të lidhemi me ju në të ardhmen rreth ndryshimesh në grupin e të dhënave, dhe email-i na jep një pikë kontakti.
-why-donate = Pse pyesni?
+why-donate-datasets-page = Mozilla Common Voice është grupi i hapur i të dhënave të të folurit më i larmishëm në botë, i krijuar nga vullnetarë - dhe jemi tërësisht të bazuar në dhurime. Kushton gati një milion dollarë në vit të strehosh grupet e të dhënave dhe të përmirësosh platformën në mbi 100 bashkësi gjuhësh që bazohen në atë që bëjmë ne. Nëse çmoni të dhëna të hapur, përfshirëse - <b>dhuroni që sot!</b>
 confirm-size = Jeni gati të nisni një shkarkim prej <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -771,6 +785,11 @@ no-information-available = S’ka informacion
 dataset-metadata-sex = Gjini
 # dataset metadata - age of contributor
 dataset-metadata-age = Moshë
+donate-modal-message = Grupi juaj i të dhënave po shkarkohet!
+dataset-donate-modal-heading = E dini se…
+donate-modal-explanation-1 = Kushton gati një milion dollarë në vit të strehosh grupet e të dhënave dhe të përmirësosh platformën në mbi 100 bashkësi gjuhësh që bazohen në atë që bëjmë ne?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Nëse çmoni të dhëna të hapur, përfshirëse - <b>dhuroni që sot!</bold>
 
 ## Download Modal
 
@@ -1574,6 +1593,8 @@ continue-speaking-button = Jo, faleminderit, vazhdojmë me të folurit
 create-profile-text = Doni të ruhen hollësitë tuaja? <createProfile>Krijoni një profil</createProfile>
 thanks-for-voice-toast = Faleminderit për hollësitë tuaja mbi zërin
 thanks-for-voice-toast-error = Ndodhi një gabim gjatë parashtrimit të hollësive tuaja mbi zërin
+first-cta-gender-select-help-text =
+    .label = Si do ta përshkruanit seksin, ose gjininë tuaj?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Faleminderit që jepni zërin tuaj!
 second-cta-subtitle-text = Me një profil, mund të ndiqni veprimtarinë tuaj dhe të lidheni me një bashkësi kontribuesish te të dhëna zanore.
@@ -1634,6 +1655,7 @@ public-domain = Përkatësi Publike
 citing-sentences = Citim Togfjalëshash
 adding-sentences = Shtim Togfjalëshash
 reviewing-sentences = Shqyrtim Togfjalëshash
+sentence-domain = Përkatësi Togfjalëshi
 public-domain-explanation-1 = Është shumë e rëndësishme që krejt frazat tekst të jenë nën <publicDomain>përkatësi publike</publicDomain> (<cc0>cc0</cc0>), ngaqë grupi i të dhënave Common Voice hidhet në qarkullim sipas një licence cc0. Ngarkojeni një frazë vetëm nëse jeni i sigurt dhe përfshini përherë citimin përkatës.
 public-domain-explanation-2 = Frazat më të mira për ndërtimin e një mekanizmi të dobishëm kuptimi të foluri janë ato nga e folura joformale, moderne. Disa ide për t’ju ndihmuar të prodhoni fraza janë;
 public-domain-explanation-3 = Krijoni fraza moderne, joformale ju vetë, ose me shokët tuaj, apo bashkësinë gjuhësore - për shembull, përmes një  “maratone shkrimi ”
@@ -1672,7 +1694,10 @@ reviewing-sentences-explanation-1 = Nëse togfjalëshi i plotëson kriteret më 
 reviewing-sentences-explanation-2 = Nëse togfjalëshi s’i plotëson kriteret më sipër, klikoni mbi butonin “Jo”
 reviewing-sentences-explanation-3 = Nëse jeni të pasigurt për frazën, mundeni edhe ta anashkaloni frazën dhe të vazhdoni me pasuesen.
 reviewing-sentences-explanation-4 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
-# WRITE PAGE
+domain-explanation = Përkatësia i referohet lëndës së subjektit të togfjalëshit. Aktualisht mund të zgjidhni mes:
+
+## WRITE PAGE
+
 write-instruction = Shtoni një togfjalësh <icon></icon> në përkatësi publike
 write-page-subtitle = Togfjalëshat e dhënë këtu do të shtohen te një grup të dhënash të përdorshme publikisht sipas licencës cc-0.
 sentence =
@@ -1703,6 +1728,32 @@ single-sentence-submission = Parashtrim i Një Fraze
 bulk-sentence-submission = Parashtrim Frazash Në Masë
 single-sentence = Frazë Njëshe
 bulk-sentences = Mori Frazash
+sentence-domain-select =
+    .label = Përkatësi Togfjalëshi
+# Sentence Domain dropdown option
+agriculture = Bujqësi
+# Sentence Domain dropdown option
+automotive = Industri automjetesh
+# Sentence Domain dropdown option
+finance = Financë
+# Sentence Domain dropdown option
+food_service_retail = Ushqim, Shërbim dhe Shitje Me Pakicë
+# Sentence Domain dropdown option
+general = Të përgjithshme
+# Sentence Domain dropdown option
+healthcare = Shëndetësi
+# Sentence Domain dropdown option
+history_law_government = Histori, Ligje dhe Qeveri
+# Sentence Domain dropdown option
+language_fundamentals = Baza Gjuhësore (p.sh. Shfira, Shkronja, Para)
+# Sentence Domain dropdown option
+media_entertainment = Media dhe Spektakël
+# Sentence Domain dropdown option
+nature_environment = Natyrë dhe Mjedis
+# Sentence Domain dropdown option
+news_current_affairs = Lajme dhe Çështje Aktuale
+# Sentence Domain dropdown option
+technology_robotics = Teknologji dhe Robotikë
 
 ## REVIEW PAGE
 
@@ -1747,3 +1798,13 @@ file-invalid-type = Kartelë e pavlefshme
 file-too-large = Kartela është shumë e madhe
 file-too-small = Kartela është shumë e vogël
 too-many-files = Shumë kartela
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Na duhet</mark><br/><mark>ndihma juaj!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Kushton gati një milion dollarë në vit të strehohen grupet e të dhënave dhe të përmirësohet platforma për mbi 100 bashkësi gjuhës, që bazohen në çka bëjmë ne. <strong>Nëse vlerësoni të dhëna të hapëta, përfshirëse - dhuroni sot!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>E përdorni CV-në për</mark><br/><mark>punën tuaj kërkimore?</mark>
+languages-donate-banner-cta-explanation = Common Voice financohet nga dhurime dhe grante! E duam fort bashkëpunimin me akademikët, shoqërinë civile dhe kërkues të industrisë. Common Voice është falas për t’u përdorur, por dhënia e ndihmesës te platforma dhe kostot e strehimit përmes propozimesh për grante janë vërtet të dobishme.

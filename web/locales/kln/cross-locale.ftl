@@ -1,5 +1,6 @@
 ## Languages
 
+contribute = yumse
 get-involved-button = yumet
 get-involved-title = yum
 get-involved-text = gongoi eng yumet tab kalewen

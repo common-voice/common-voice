@@ -412,8 +412,12 @@ native-language =
 profile-form-add-accent = Přidat nový přízvuk „{ $inputValue }“
 profile-form-submit-save = Uložit
 profile-form-submit-saved = Uloženo
-male = Muž
-female = Žena
+male_masculine = Muž/mužské
+female_feminine = Žena/ženské
+intersex = Intersex
+transgender = Transgender
+non-binary = Nebinární
+do_not_wish_to_say = Nechci uvést
 # Gender
 other = Ostatní
 why-profile-title = Proč mít profil?
@@ -764,7 +768,6 @@ number-of-voices = Počet hlasů
 splits = Rozdělení
 email-to-download = Pro stažení zadejte svou e-mailovou adresu
 why-email = <b>Proč e-mail?</b> Je možné, že vás budeme potřebovat v budoucnu kontaktovat ohledně změn v datech.
-why-donate = Nač se ptáte?
 confirm-size = Jste připraveni stáhnout <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -809,6 +812,8 @@ no-information-available = Nejsou k dispozici žádné informace
 dataset-metadata-sex = Pohlaví
 # dataset metadata - age of contributor
 dataset-metadata-age = Věk
+donate-modal-message = Probíhá stahování datasetu!
+dataset-donate-modal-heading = Věděli jste že…
 
 ## Download Modal
 
@@ -1717,6 +1722,7 @@ public-domain = Public Domain
 citing-sentences = Uvádění zdrojů
 adding-sentences = Přidávání vět
 reviewing-sentences = Ověřování vět
+sentence-domain = Zařazení věty
 public-domain-explanation-1 = Je velmi důležité, aby všechny texty vět byly <publicDomain>public domain</publicDomain> (<cc0>cc0</cc0>), protože datová sada Common Voice se vydává pod licencí cc0. Věty nahrajte pouze tehdy, pokud jste si jisti, a vždy uveďte příslušný zdroj.
 public-domain-explanation-2 = Nejlepší věty pro sestavení užitečného nástroje pro rozpoznávání řeči jsou hovorové, moderní výrazy. Některé nápady, které vám pomohou při vytváření vět, jsou:
 public-domain-explanation-3 = Vytvářejte moderní, hovorové věty sami nebo se svými přáteli či jazykovou komunitou – například prostřednictvím „write-a-thon“
@@ -1755,7 +1761,10 @@ reviewing-sentences-explanation-1 = Splňuje-li věta výše uvedená kritéria,
 reviewing-sentences-explanation-2 = Pokud věta nesplňuje výše uvedená kritéria, klepněte na tlačítko "Ne".
 reviewing-sentences-explanation-3 = Pokud si větou nejste jisti, je možné ji přeskočit a přejít na další.
 reviewing-sentences-explanation-4 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
-# WRITE PAGE
+domain-explanation = Zařazení se vztahuje k předmětu věty. V současné době si můžete vybrat mezi:
+
+## WRITE PAGE
+
 write-instruction = Přidat <icon></icon> větu jako volné dílo
 write-page-subtitle = Věty, kterými zde přispějete, budou přidány do veřejně dostupného datasetu pod licencí cc-0.
 sentence =
@@ -1786,6 +1795,32 @@ single-sentence-submission = Odeslání jedné věty
 bulk-sentence-submission = Odeslání více vět
 single-sentence = Jedna věta
 bulk-sentences = Více vět
+sentence-domain-select =
+    .label = Zařazení věty
+# Sentence Domain dropdown option
+agriculture = Zemědělství
+# Sentence Domain dropdown option
+automotive = Automobilový průmysl
+# Sentence Domain dropdown option
+finance = Finance
+# Sentence Domain dropdown option
+food_service_retail = Jídlo, služby a maloobchod
+# Sentence Domain dropdown option
+general = Všeobecné
+# Sentence Domain dropdown option
+healthcare = Zdravotní péče
+# Sentence Domain dropdown option
+history_law_government = Historie, právo a stát
+# Sentence Domain dropdown option
+language_fundamentals = Základy jazyka (např. číslice, písmena, peníze)
+# Sentence Domain dropdown option
+media_entertainment = Média a zábava
+# Sentence Domain dropdown option
+nature_environment = Příroda a životní prostředí
+# Sentence Domain dropdown option
+news_current_affairs = Zprávy a události
+# Sentence Domain dropdown option
+technology_robotics = Technologie a robotika
 
 ## REVIEW PAGE
 

@@ -404,8 +404,12 @@ native-language =
 profile-form-add-accent = Thêm trọng âm tùy chỉnh mới "{ $inputValue }"
 profile-form-submit-save = Lưu
 profile-form-submit-saved = Đã lưu
-male = Nam
-female = Nữ
+male_masculine = Nam/Nam tính
+female_feminine = Nữ/Nữ tính
+intersex = Liên giới tính
+transgender = Chuyển giới
+non-binary = Phi nhị nguyên giới
+do_not_wish_to_say = Không muốn nói
 # Gender
 other = Khác
 why-profile-title = Tại sao phải tạo một hồ sơ?
@@ -441,6 +445,8 @@ help-accent = Cần một số trợ giúp về trọng âm?
 help-accent-explanation = Trọng âm của bạn là cách bạn phát âm các từ. Nó có thể được định hình bởi nơi bạn đã sống, bạn nói ngôn ngữ nào khác và rất nhiều yếu tố khác. Bạn có thể chia sẻ bất kỳ thông tin nào bạn cảm thấy có liên quan tại đây.
 help-variants = Cần một số trợ giúp với biến thể?
 help-variants-explanation = Biến thể là một dạng cụ thể của một ngôn ngữ - ví dụ như được chia sẻ bởi những người sống trong một khu vực địa lý hoặc cộng đồng. Đôi khi chúng được gọi là tiếng địa phương.
+help-sex-or-gender-changes = Cần trợ giúp về việc thay đổi giới tính?
+help-sex-or-gender-changes-explanation = Chúng tôi đang cung cấp nhiều lựa chọn hơn để giúp mọi người có nhiều lựa chọn hơn trong những gì họ cho chúng tôi biết về giới tính của họ. Hãy tự miêu tả theo cách mà bạn cảm thấy tự nhiên nhất. <learnMoreLink>Tìm hiểu thêm về cách tiếp cận của chúng tôi về giới tính.</learnMoreLink>
 
 ## Profile - Email
 
@@ -673,6 +679,13 @@ about-playbook-how-project-governance-content-5 = Giá trị và sự công nh�
 about-playbook-how-project-governance-content-6 = Trách nhiệm giải trình.
 about-playbook-how-project-governance-content-7 = <governanceLink>Đọc thêm về cách chúng tôi quản lý</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Common Voice được tài trợ như thế nào?
+about-playbook-how-funded-content-1 = Common Voice là một dự án của Mozilla Foundation, a US 501c3. Dự án hiện được tài trợ hoàn toàn bởi <philantropicGrantLink>tài trợ từ thiện</philantropicGrantLink>, và sự quyên góp từ mọi người trên khắp thế giới.
+about-playbook-how-funded-content-2 = Sẽ tốn rất nhiều tiền để liên tục lưu trữ và phát hành các bộ dữ liệu, cải thiện nền tảng và chạy <africaMradiLink>chương trình cộng đồng</africaMradiLink>.
+about-playbook-how-funded-content-3 = Nếu bạn hoặc tổ chức của bạn muốn đóng góp lại cho dự án, bạn có thể <donateLink>quyên góp</donateLink> hoặc liên hệ với nhóm đối tác của chúng tôi trên <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = Từ vựng
@@ -798,6 +811,11 @@ no-information-available = Không có thông tin có sẵn
 dataset-metadata-sex = Giới tính
 # dataset metadata - age of contributor
 dataset-metadata-age = Tuổi
+donate-modal-message = Tập dữ liệu của bạn đang được tải xuống!
+dataset-donate-modal-heading = Bạn có biết…
+donate-modal-explanation-1 = Chi phí gần một triệu đô la mỗi năm để lưu trữ các bộ dữ liệu và cải thiện nền tảng cho hơn 100 cộng đồng ngôn ngữ dựa vào những gì chúng tôi làm?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Nếu bạn coi trọng dữ liệu mở, toàn diện - hãy quyên góp ngay hôm nay!</bold>
 
 ## Download Modal
 
@@ -1652,6 +1670,9 @@ continue-speaking-button = Không, cảm ơn, tiếp tục nói
 create-profile-text = Bạn muốn lưu thông tin của bạn? <createProfile>Tạo hồ sơ</createProfile>
 thanks-for-voice-toast = Cảm ơn thông tin giọng nói của bạn
 thanks-for-voice-toast-error = Đã xảy ra lỗi khi gửi thông tin giọng nói của bạn
+first-cta-gender-select-default-option = Chọn một tùy chọn
+first-cta-gender-select-help-text =
+    .label = Bạn mô tả giới tính của mình như thế nào?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Cảm ơn bạn đã đóng góp tiếng nói của bạn!
 second-cta-subtitle-text = Với một hồ sơ, bạn có thể theo dõi hoạt động của mình và kết nối với cộng đồng những người đóng góp dữ liệu giọng nói.
@@ -1750,7 +1771,9 @@ reviewing-sentences-explanation-1 = Nếu câu đáp ứng các tiêu chí trên
 reviewing-sentences-explanation-2 = Nếu câu không đáp ứng các tiêu chí trên, hãy nhấp vào nút "Không".
 reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu đó, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
 reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = Thêm <icon></icon> một câu thuộc phạm vi công cộng
 write-page-subtitle = Các câu được đóng góp ở đây sẽ được thêm vào bộ dữ liệu được cấp phép cc-0 có sẵn công khai.
 sentence =
@@ -1781,6 +1804,30 @@ single-sentence-submission = Gửi câu riêng lẻ
 bulk-sentence-submission = Gửi hàng loạt câu
 single-sentence = Câu đơn
 bulk-sentences = Hàng loạt câu
+# Sentence Domain dropdown option
+agriculture = Nông nghiệp
+# Sentence Domain dropdown option
+automotive = Công nghiệp ô tô
+# Sentence Domain dropdown option
+finance = Tài chính
+# Sentence Domain dropdown option
+food_service_retail = Thực phẩm, dịch vụ và bán lẻ
+# Sentence Domain dropdown option
+general = Tổng quát
+# Sentence Domain dropdown option
+healthcare = Chăm sóc sức khoẻ
+# Sentence Domain dropdown option
+history_law_government = Lịch sử, luật pháp và chính phủ
+# Sentence Domain dropdown option
+language_fundamentals = Nguyên tắc cơ bản về ngôn ngữ (ví dụ: chữ số, chữ cái, tiền)
+# Sentence Domain dropdown option
+media_entertainment = Truyền thông và giải trí
+# Sentence Domain dropdown option
+nature_environment = Thiên nhiên và môi trường
+# Sentence Domain dropdown option
+news_current_affairs = Tin tức và thời sự
+# Sentence Domain dropdown option
+technology_robotics = Công nghệ và máy móc
 
 ## REVIEW PAGE
 
@@ -1825,3 +1872,13 @@ file-invalid-type = Tập tin không hợp lệ
 file-too-large = Tập tin quá lớn
 file-too-small = Tập tin quá nhỏ
 too-many-files = Quá nhiều tập tin
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Chúng tôi</mark><br/><mark>cần bạn giúp!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Chi phí gần một triệu đô la mỗi năm để lưu trữ các bộ dữ liệu và cải thiện nền tảng cho hơn 100 cộng đồng ngôn ngữ dựa vào những gì chúng tôi làm. <strong>Nếu bạn coi trọng dữ liệu mở, toàn diện - hãy quyên góp hôm nay!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Sử dụng CV</mark><br/><mark>cho nghiên cứu của bạn?</mark>
+languages-donate-banner-cta-explanation = Common Voice được tài trợ bởi quyên góp và tài trợ! Chúng tôi thích hợp tác với các học giả, xã hội dân sự và các nhà nghiên cứu trong ngành. Common Voice được sử dụng miễn phí nhưng việc quyên góp vào chi phí nền tảng và lưu trữ thông qua các đề xuất tài trợ thực sự hữu ích.

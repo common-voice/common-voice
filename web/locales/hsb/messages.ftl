@@ -448,6 +448,7 @@ help-accent = Trjebaće pomoc wo akcenće?
 help-accent-explanation = Waš akcent je wašnje, kak słowa wurjekujeće. Jeho charakter wot toho wotwisuje, hdźež sće žiwy był, kotre druhe rěče rěčiće a wot wjele druhich faktorow. Móžeće wšě informacije zdźělić, kotrež za relewantne maće.
 help-variants = Trjebaće pomoc za warianty?
 help-variants-explanation = Warianty su specifiska forma rěče - rěča so na přikład wot ludźi, kotřiž su we wěstym regionje abo zhromadźenstwje žiwi. Druhdy wone so dialekty mjenuja.
+help-sex-or-gender-changes = Trjebaće pomoc při měnjenju splaha abo splažneje identity?
 
 ## Profile - Email
 
@@ -650,6 +651,9 @@ about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transp
 about-playbook-how-project-governance-content-5 = Hódnota a připóznaće.
 about-playbook-how-project-governance-content-6 = Mjezsobna rozprawniska winowatosć.
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = Glosar
@@ -773,6 +777,8 @@ no-information-available = Žane informacije k dispoziciji
 dataset-metadata-sex = Splah
 # dataset metadata - age of contributor
 dataset-metadata-age = Staroba
+donate-modal-message = Waša datowa sadźba so sćahuje!
+dataset-donate-modal-heading = Sće wědźał, zo …
 
 ## Download Modal
 
@@ -1563,6 +1569,9 @@ add-information-button = Informacije přidać
 continue-speaking-button = Ně, dźakuju so, z rěčenjom pokročować
 create-profile-text = Chceće swoje informacije składować? <createProfile>Załožće profil</createProfile>
 thanks-for-voice-toast = Wulki dźak za waše rěčenske informacije
+first-cta-gender-select-default-option = Wubjerće nastajenje
+first-cta-gender-select-help-text =
+    .label = Kak byšće swój splah  abo splažnu identitu wopisował?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Wulki dźak, zo waš hłós přinošujeće!
 already-have-an-account = Maće hižo konto? <login>Přizjewić</login>
@@ -1597,6 +1606,7 @@ misreadings-tip-3 = [Wobsah njewotpowěduje]
 background-noise-example-1 = Hoberske dinosawriery triasa.
 background-noise-tip-2 = [Dźěl teksta słyšeć njeje]
 background-voices-example-1 = Hoberske dinosawriery triasa. [čita so wot jednoho hłosa]
+background-voices-tip-1 = Přińdźeš? [hłós druheho]
 still-have-questions = Maće hišće prašenja?
 contact-common-voice = Stajće z teamom Common Voice do zwiska
 public-domain = Zjawnje wužiwajomny
@@ -1609,6 +1619,7 @@ citing-sentences-subheader-offline-sources = Žórła offline
 citation =
     .label = Citat
 self-citation = Sebjecitowanje
+self-citation-explanation = Tak samoho citujeće, hdyž wy sam sće wobsah napisał.
 adding-sentences-subheader-length = Dołhosć
 adding-sentences-subheader-length-explanation = Sada dyrbjała mjenje hač 15 słowow měć.
 adding-sentences-subheader-spelling-punctuation = Prawopis a interpunkcija
@@ -1640,6 +1651,7 @@ new-sentence-rule-4 = Korektny prawopis a korektnu interpunkciju wužiwać
 new-sentence-rule-5 = Žane ličby a wosebite znamješka
 new-sentence-rule-6 = Žane cuze pismiki
 how-to-cite = Kak cituju?
+how-to-cite-explanation-bold = Citujće z URL-wotkazom abo połnym mjenom dźěła.
 guidelines = Směrnicy
 contact-us = Kontakt
 add-sentence-success = 1 sada zběrana
@@ -1662,7 +1674,7 @@ healthcare = Strowotnistwo
 # Sentence Domain dropdown option
 history_law_government = Stawizny, prawnistwo a knježerstwo
 # Sentence Domain dropdown option
-language_fundamentals = Rěčne zakłady (na pr. cyfry, pismiki, pjenjezy)
+language_fundamentals = Rěčne zakłady (na př. cyfry, pismiki, pjenjezy)
 # Sentence Domain dropdown option
 media_entertainment = Medije a zabawjenje
 # Sentence Domain dropdown option
@@ -1675,12 +1687,19 @@ technology_robotics = Technologija a robotika
 ## REVIEW PAGE
 
 sc-review-rules-title = Wotpowěduje sada směrnicam?
+sc-review-empty-state = Tuchwilu sady za přepruwowanje w tutej rěči njejsu.
 report-sc-different-language = Druha rěč
 report-sc-different-language-detail = Je w druhej rěči napisana hač přepruwuju.
+review-error = Při přepruwowanju tuteje sady je zmylk nastał
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Přewjedźemy někotre změny
 sc-redirect-page-subtitle-2 = Stajće nam prašenja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mejlu</emailLink>.
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction = Ćehńće swoju dataju sem abo <uploadButton>klikńće za nahrawanje</uploadButton>
+sc-bulk-upload-instruction-drop = Pušćće dataju tu, zo byšće ju nahrał
+try-upload-again-md = Nahraće znowa spytać
 select-file = Dataju wubrać
 select-file-mobile = Wubjerće dataju za nahraće
 accepted-files = Akceptowane datajowe typy: jenož .tsv
@@ -1695,3 +1714,10 @@ file-invalid-type = Njepłaćiwa dataja
 file-too-large = Dataja je přewulka
 file-too-small = Dataja je přemała
 too-many-files = Přewjele datajow
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Trjebamy</mark><br/><mark>wašu pomoc!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Wužiwaće Common Voice za</mark><br/><mark>swoje slědźenje?</mark>

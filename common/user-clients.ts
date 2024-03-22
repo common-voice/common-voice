@@ -22,7 +22,6 @@ export type UserClient = {
 };
 
 export type Gender = {
-  '': string;
   male_masculine: string;
   female_feminine: string;
   intersex: string;

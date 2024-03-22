@@ -54,6 +54,7 @@ cak = Kakchikel
 ckb = Sentralkurdisk
 cnh = Hakha Chin
 co = Korsisk
+crh = Krimtatarisk
 cs = Tsjekkisk
 cv = Tsjuvasjisk
 cy = Walisisk
@@ -75,12 +76,14 @@ ff = Fulfulde
 fi = Finsk
 fo = Færøysk
 fr = Fransk
+fuf = Fulfulde
 fy-NL = Frisisk
 ga-IE = Irsk
 gl = Galisisk
 gn = Guarani
 gom = Goan Konkani
 gu-IN = Gujarati
+guc = Wayuunaiki
 ha = Hausa
 he = Hebraisk
 hi = Hindi
@@ -123,6 +126,7 @@ lo = Laotisk
 lt = Litauisk
 ltg = Lettgallisk
 lv = Latvisk
+lzz = Lasisk
 mai = Maithili
 mdf = Moksja
 mg = Gassisk
@@ -143,11 +147,13 @@ nb-NO = Norsk (bokmål)
 nd = Nordndebele
 ne-NP = Nepalsk
 nhe = Østlig la Huasteca-nahuatl
+nhi = Vestlige Sierra Puebla Nahuatl
 nia = Nias
 nl = Nederlandsk
 nn-NO = Norsk (nynorsk)
 nr = Sørndebele
 nso = Nordsotho
+ny = Chinyanja
 nyn = Runyankole
 oc = Oksitansk
 om = Oromo
@@ -160,6 +166,7 @@ ps = Pashto
 pt = Portugisisk
 quc = K'iche'
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Sursilvan Retoromansk
 rm-vallader = Vallader
 ro = Rumensk
@@ -169,6 +176,8 @@ sah = Jakutisk
 sat = Santali (Ol Chiki)
 sc = Sardisk
 scn = Siciliansk
+sco = Skotsk
+sd = Sindhi
 sdh = Sørkurdisk
 shi = Shilha
 si = Singalesisk
@@ -209,7 +218,9 @@ uz = Usbekisk
 ve = Tshivenda
 vec = Venetiansk
 vi = Vietnamesisk
+vmw = Makua
 vot = Votisk
+wep = Westfalsk
 wo = Wolof
 xh = Xhosa
 yi = Jiddisch
@@ -401,8 +412,12 @@ native-language =
 profile-form-add-accent = Legg til ny tilpasset dialekt «{ $inputValue }»
 profile-form-submit-save = Lagre
 profile-form-submit-saved = Lagret
-male = Mann
-female = Kvinne
+male_masculine = Mann/Maskulin
+female_feminine = Dame/Feminin
+intersex = Intersex
+transgender = Transkjønnet
+non-binary = Ikke-binær
+do_not_wish_to_say = Ønsker ikke å si
 # Gender
 other = Annet
 why-profile-title = Hvorfor opprette en profil?
@@ -421,6 +436,7 @@ why-demographic = Hvorfor er dette viktig?
 why-demographic-explanation-2 = Anonymiserte brukerdata, som alder, kjønn og dialekt beriker stemmedataene som brukes for å trene talegjenkjenningsmotorene. Ditt brukernavn og e-postadresse vil aldri bli assosiert med dine bidrag, og du kan velge om du vil at brukernavnet ditt skal være offentlig eller anonymt.
 accept-privacy = Jeg godtar at dere håndterer denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 accept-privacy-title = Personvernbestemmelser
+accept-privacy-and-terms = Jeg aksepterer <termsLink>Betingelsene</termsLink> og <privacyLink>Personvernerklæringen</privacyLink> til Common Voice
 login-identity = Innloggingsidentitet
 login = Logg inn
 login-signup = Logg inn / registrer deg
@@ -437,6 +453,8 @@ help-accent = Trenger du hjelp med dialekt?
 help-accent-explanation = Dialekten din er måten du uttaler ord på. Det kan formes av hvor du har bodd, hvilke andre språk du snakker og mange andre faktorer. Du kan dele all informasjon du føler er relevant her.
 help-variants = Trenger du hjelp med varianter?
 help-variants-explanation = Varianter er en spesifikk form for et språk - for eksempel delt av de som bor i en geografi eller et samfunn. Noen ganger kalles disse dialekter.
+help-sex-or-gender-changes = Trenger du hjelp med endringene i kjønn?
+help-sex-or-gender-changes-explanation = Vi tilbyr flere alternativer for å gi folk flere valgmuligheter i hva de forteller oss om deres kjønn eller kjønnsidentitet. Vennligst beskriv selv på den måten som føles mest naturlig for deg. <learnMoreLink>Finn ut mer om vår tilnærming til sex og kjønn.</learnMoreLink>
 
 ## Profile - Email
 
@@ -465,6 +483,10 @@ faq-what-cv-a =
     Talegjenkjenningsteknologi revolusjonerer måten vi interagerer med maskiner, men tilgjengelige systemer er dyre og lukkede. Common Voice er en del av Mozillas initiativ for å gjøre talegjenkjenningsteknologi bedre og mer tilgjengelig for alle. Common Voice er en stor, global database med stemmebidrag, som lar hvem som helst, raskt og enkelt trene stemme-aktiverte applikasjoner i potensielt alle språk.
     
     Vi samler ikke bare lydklipp fra språk med stor utbredelse, men også fra de med færre brukere. Ved å publisere et variert datasett med stemmer, så setter vi utviklere, gründere og samfunn i stand til å selv fylle dette behovet. I tillegg til Common Voice datasettet, så bygger vi også en åpen kildekode talegjenkjenningsmotor som vi kaller Deep Speech.
+faq-what-cv-a-2 =
+    Talegjenkjenningsteknologi revolusjonerer måten vi samhandler med maskiner på, men nåværende tilgjengelige systemer er dyre og lukkede. Common Voice er en del av Mozillas initiativ for å gjøre talegjenkjenningsteknologi bedre og mer tilgjengelig for alle. Common Voice er en stor, global database med stemmebidrag, som lar hvem som helst, raskt og enkelt trene stemme-aktiverte applikasjoner i potensielt alle språk.
+    
+    Vi samler ikke bare lydklipp fra språk med stor utbredelse, men også fra de med færre brukere. Ved å publisere et variert datasett med stemmer, så setter vi utviklere, gründere og samfunn i stand til å selv fylle dette behovet.
 faq-why-important-q = Hvorfor er det viktig?
 faq-why-important-a =
     Tale er ofte den mest naturlige måten vi kommuniserer med hverandre, og taleteknologi gir oss den muligheten på datamaskiner og portable enheter. Vi ønsker å sette programvareutviklere i stand til å bygge fantastiske talegjenkjenningsapplikasjoner, som sanntidsoversetting og stemmestyrte personlige assistenter. Men akkurat nå er det meste av taledata som trengs for å bygge denne typen applikasjoner dyre og proprietære. Vi håper at Common Voice datasettet vil gi programvareutviklere det de trenger for å  lage nye ting og gjøre taleteknologi tilgjengelig på sitt eget språk.
@@ -485,6 +507,9 @@ faq-do-want-native-a = Ja! Vi vil særlig ha din stemme! Et delmål med Common V
 faq-why-different-speakers-q = Hvorfor trenger dere så mange forskjellige talere per språk?
 faq-why-different-speakers-a = De fleste stemmedatabaser trenes med en overvekt av visse demografier, noe som innebærer vekting mot <articleLink>menn og middelklasse</articleLink>.  Aksenter og dialekter som tenderer til å være underrepresentert i datasettene som benyttes til trening er typisk assosiert med grupper av mennesker som allerede er underrepresentert ellers i samfunnet. Mange talegjenkjenningsmotorer sliter også med å forstå kvinnelige stemmer. Derfor trenger vi stor variasjon i datasettet!
 faq-why-my-lang-q = Hvorfor er ikke mitt språk inkludert ennå?
+faq-why-my-lang-a =
+    Common Voice en en dugnadsplattform hvor alle språkene er lagt til av frivillige.
+    Vi ønsker gjerne at du legger til ditt språk! <languageRequestLink>Send forespørsel om å legge til ditt språk</languageRequestLink>
 faq-what-quality-q = Hva slags lydkvalitet kreves for at et lydklipp kan brukes i datasettet?
 faq-what-quality-a = Vi vil at Common Voice-datasettet skal reflektere lydkvaliteten som en tale-til-tekst motor opplever i virkeligheten. Så vi trenger variasjon. I tillegg til et variert utvalg av talere, vil et variert utvalg lydkvaliteter lære tale-til-tekst-motoren å håndtere varierende situasjoner i den virkelige verden, som for eksempel stemmer i bakgrunnen eller støy fra biler. Så lenge lydklippet ditt er forståelig. så burde det være godt nok for datasettet.
 faq-why-10k-hours-q = Hvorfor er 10 000 validerte timer målet for innhenting av lydklipp per språk?
@@ -513,6 +538,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Hvorfor Common Voice?
+about-header-description-v2 =
+    <p>Common Voice er et offentlig tilgjengelig datasett av alminnelige stemme-klipp som kommer fra frivillige bidragsytere over hele verden. Folk som ønsker å bygge applikasjoner som krever talegjenkjenning kan bruke datasettet til å trene maskinlæringsmodeller.</p>
+    <p>De fleste slike datasett eies av bedrifter, noe som hindrer innovasjon. De datasettene er dessverre også overrepresentert av kun en type mennesker, og mangler derfor mangfold av folk med forskjellig opprinnelse, språk, kjønn, og legning. Dette resulterer i at talegjenkjenning ikke fungerer like bra for alle, og noen ganger ikke i det hele tatt. Vi ønsker å endre dette ved å mobilisere folk overalt for å dele <b>stemmen</b> sin.</p>
 how-does-it-work-title-v2 = Hvordan fungerer Common Voice?
 how-does-it-work-text = Vi masseinnsamler et åpent datasett av stemmer. Bidra med din stemme, valider nøyaktigheten av andres lydklipp, gjør datasettet bedre for alle.
 
@@ -547,7 +575,10 @@ about-no-votes-text = Når en bruker underkjenner et lydklipp, blir det returner
 about-dataset-new = Common Voice-datasettet
 about-dataset-new-text = Common Voice-datasettet inneholder hundretusenvis av lydklipp som hjelper utviklere med å lage talegjenkjenningsverktøy.
 about-clip-graveyard = Lydklippfyllinga
-about-clip-graveyard-text = Lydklippfyllinga inneholder lydklipp som ikke ble tatt med i Common Voice-datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengelig for nedlasting.
+about-clip-graveyard-text =
+    Lydklippfyllinga inneholder lydklipp som ikke ble tatt med i Common Voice-datasettet. Akkurat som datasettet, er også lydklippfyllinga tilgjengelig for nedlasting.
+    
+    Vi vil takke følgende personer og organisasjoner for deres hjelp med prosjektet:
 about-get-involved = Bli med
 about-get-involved-text-2 =
     Vil du hjelpe til med å gjøre Common Voice enda  bedre?
@@ -586,30 +617,80 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>be om det nye språket på GitHub</githubRepoLink>. <localizationFragment>Se mer på nettstedsoversettelse</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Innsamling av setninger
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Se vår veiledning i hvordan du bruker setningsinnsamleren</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Du kan <sentenceCollectorLinkAdd>legge til et lite antall setninger</sentenceCollectorLinkAdd>,
+    eller du kan gjøre <bulkImportDocsLink>masseimporter ved å bruke Github</bulkImportDocsLink>.
+    Husk at setninger må være <licenseLink>CC0 (eller offentlig eiendom)</licenseLink>, eller du kan skrive dine egne.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Se mer om innsamling av setninger</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Hvordan fungerer stedslokalisering?
+about-playbook-how-localize-content-1 = Oversettelse av Common Voice-nettstedet skjer på <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Opprett en konto</pontoonAccountLink> hvis du ikke har en. Velg deretter språket ditt <strong>(‘Team’)</strong> og velg deretter prosjektet, <pontoonCvLink>Common Voice</pontoonCvLink>. Det vil være filer å oversette. Klikk på en, så viser den ord på engelsk og en boks for å oversette dem.
+about-playbook-how-localize-content-3 = Oversettelsen er fra engelsk, men du kan se <strong>Forslag</strong> på andre språk. Klikk på <strong>Profil</strong>-ikonet, deretter <strong>Innstillinger</strong>-koblingen og legg til eventuelle språk du snakker. Nederst til høyre er en liste over oversettelser kalt <strong>Lokaler</strong>. Oversettelser vises på nettstedet etter en dag.
+about-playbook-how-localize-content-4 = Siden er klar til å bli lansert når den er 75 % fullført.
+about-playbook-how-localize-content-5 = Se vår videoforklaring for å hjelpe
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Hvordan legger jeg til setninger?
+about-playbook-how-add-sentences-content-1 = Du kan legge til setninger på <writePageLink>Skrive-siden</writePageLink> eller se gjennom setninger på <reviewPageLink>Gjennomgangssiden</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Setninger må gjennomgås og aksepteres av to personer for å bli inkludert i Common Voice. Du lager retningslinjer for språket ditt <languageGuidelinesLink>her</languageGuidelinesLink>. Setninger må være i <licenseLink>offentlig domene</licenseLink> og være kortere enn 15 ord. Du kan be eieren av en tekst om å gjøre den til <waiverLink>CC0 ved å bruke vår fraskrivelsesprosess</waiverLink>, og sende til oss på commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Du kan bruke <scraperLink>Setningsuthenter</scraperLink> for å hente korte setninger fra Wikipedia.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Hvordan spiller jeg inn et stemmeklipp av høy kvalitet?
+about-playbook-how-record-content-1 = Snakk med din vanlige stemme! Måten du snakker på er velkommen her - vi vil ha din aksent som den er, og vi vil ha ditt vanlige volum, stil og intonasjon.
+about-playbook-how-record-content-2 = Unngå for mye bakgrunnsstøy – det skal være lett å høre deg.
+about-playbook-how-record-content-3 = Les setningen nøye - ikke hopp over, endre eller legg til ord.
+about-playbook-how-record-content-4 = Sørg for at plattformen tar opp før du begynner å snakke, og at den ikke stopper før du er ferdig.
+about-playbook-how-record-content-5 = <accuracyLink>Se mer om nøyaktighetskriterier.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Hvordan kan vi effektivt utvikle et språk på Common Voice?
+about-playbook-how-grow-language-content-1 = Å skape muligheter for et mangfold av mennesker til å bidra til Common Voice sikrer at datasettet betjener så mange mennesker som mulig. Vi har laget ressurser og maler som du kan bruke!
+about-playbook-how-grow-language-content-2 = Arrangementer
+about-playbook-how-grow-language-content-3 = Du kan starte et arrangement for å oppfordre folk til å bidra. Det er enklere enn du tror. Du kan for eksempel holde en videokonferanse på nett, eller ansikt til ansikt hvis omstendighetene åpner for det. <eventTemplate>Sjekk malene og ressursene vi har for å avholde et slikt arrangement</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Sosiale medier
+about-playbook-how-grow-language-content-5 = Du kan bruke sosiale medier for å få ut budskapet. Del innlegg som forklarer hvorfor det er viktig, og ta kontakt med andre som snakker om spørsmål som språkrettigheter, stemme-AI eller skjevhet i teknologi. Se flere råd om <campaignLink>kjøring av en sosial kampanje, inkludert innhold du kan gjenbruke</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerskap og nettverk
+about-playbook-how-grow-language-content-7 = Finn andre som bryr seg. Det kan være universiteter, språkskoler, påvirkningsgrupper eller datavitenskapsmiljøer. Nå ut og forklar tydelig hvordan de kan hjelpe og hvorfor. <outreachTemplates>Se våre maler for oppsøkende e-poster</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Vær kreativ!</strong> Språkfellesskapet ditt vil være unikt, og dette er bare noen få måter å komme i gang på.
 
 ## How to validate
 
 about-playbook-how-validate = Hvordan vet jeg om jeg skal godkjenne et stemmeklipp?
 about-playbook-how-validate-content-1 = Hvis du kunne <strong>høre dem</strong> og <strong>forstå dem</strong>, er det vanligvis <strong>best å godkjenne</strong>.
+about-playbook-how-validate-content-2 = <strong>Ikke avvis klipp der taleren «har en aksent» som er forskjellig fra din egen</strong> – dette er viktig for at stemmegjenkjenning skal fungere bedre for alle.
+about-playbook-how-validate-content-3 = Hvis du tror uttalen gjør det <strong>umulig å forstå</strong>, eller det er <strong>mye bakgrunnsstøy</strong>, eller det er <strong>andre som snakker også</strong>, så skal du avvise klippet. <accuracyLink>Se mer informasjon i våre nøyaktighetskriterier</accuracyLink>.
+about-playbook-how-validate-content-4 = Hvis et klipp avvises av 2 personer, blir det utgitt i et annet delsett av datasettet.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Hvordan får jeg tilgang til og bruker datasettet?
+about-playbook-how-access-dataset-content-1 = Du kan gå til <datasetsPage>datasettsiden</datasetsPage>, velge versjonen og språkene du vil ha, og laste den ned! Filene har <metadataLink>tilknyttede metadata</metadataLink>, for eksempel demografisk informasjon og valideringsdata. Du må oppgi en e-postadresse for å laste ned datasettet.
+about-playbook-how-access-dataset-content-2 = Hvis du leter etter verktøy for å bygge ASR-modeller, kan du koble til andre mennesker i fellesskapet <discourseLink>på Discourse</discourseLink>.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Hvordan tas prosjektavgjørelser?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice er gjort mulig av et mangfoldig fellesskap av aktivister, lingvister, datavitere, akademikere og programvareingeniører fra hele verden. Prosjektet ledes av Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Vårt styresett er bygget på verdiene av:
+about-playbook-how-project-governance-content-3 = Personvern, sikkerhet og åpenhet.
+about-playbook-how-project-governance-content-4 = Samfunnsdeltakelse og beslutningstaking.
+about-playbook-how-project-governance-content-5 = Verdi og anerkjennelse.
+about-playbook-how-project-governance-content-6 = Gjensidig ansvar.
+about-playbook-how-project-governance-content-7 = <governanceLink>Les mer om hvordan vi er administrert</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Hvordan finansieres Common Voice?
+about-playbook-how-funded-content-1 = Common Voice er et prosjekt fra Mozilla Foundation, en US 501c3. Prosjektet er for tiden finansiert utelukkende av <philantropicGrantLink>filantropiske stipender</philantropicGrantLink>, og donasjoner fra mennesker over hele verden.
+about-playbook-how-funded-content-2 = Det koster mye penger å kontinuerlig være vert for og frigi datasettene, forbedre plattformen og kjøre <africaMradiLink>fellesskapsprogrammer</africaMradiLink>.
+about-playbook-how-funded-content-3 = Hvis du eller organisasjonen din ønsker å bidra tilbake til prosjektet, kan du gi en <donateLink>donasjon</donateLink> eller kontakte vårt partnerskapsteam på <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -677,20 +758,26 @@ datasets-positioning =
     
     Se på denne siden som et referansehub for andre stemmesett med åpen kildekode, og etterhvert som Common Voice fortsetter å vokse, et hjem for våre datasettoppdateringer.
 language = Språk
+download-dataset-header = Last ned datasettet
+download-delta-explainer = Vi har gjort noen endringer. "Delta Segments" inneholder kun de aller nyeste lydklippene etter siste utgivelse. <deltaLink>Les mer on denne endringen</deltaLink>.
+download-dataset-tag = Velg datasettet for språket du trenger, deretter versjonen du ønsker laste ned.
 # File size in gigabytes
 size = Størrelse
 validated-hr-total = Antall validerte timer totalt
 overall-hr-total = Antall timer totalt
 cv-license = Lisens
 audio-format = Lydformat
+dataset-splits = Oppdelt (alder og kjønn)
 number-of-voices = Antall stemmer
 splits = Deler
 email-to-download = Skriv inn e-post for å laste ned
 why-email = <b>Hvorfor en e-postadresse?</b> Vi kan komme til å måtte kontakte deg i fremtiden om endringer i datasettet, en e-postadresse gir oss et kontaktpunkt.
+why-donate-datasets-page = Mozilla Common Voice er verdens mest mangfoldige crowdsourced åpne tale-datasett – og vi drives utelukkende av donasjoner. Det koster nesten en million dollar i året å være vert for datasettene og forbedre plattformen for de over 100 språksamfunnene som er avhengige av det vi gjør. Hvis du verdsetter åpne, inkluderende data - <b>doner i dag!</b>
 confirm-size = Du er forberedt på å starte nedlasting av <b> { $size } </b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Du sier deg enig</b> i å ikke prøve å identifisere talere i Common Voice-datasettet
+confirm-join-mailing-list = Jeg ønsker melde meg på Common Voice sin mailing liste
 download-language = Last ned { $language }
 validated-hours = Validerte timer
 recorded-hours = Innspilte timer
@@ -704,6 +791,11 @@ subscribe = Abonner
 get-started-speech = Kom i gang med talegjenkjenning
 other-datasets = Andre stemmedatasett
 feedback-q = Har du tilbakemeldinger?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er et <docsLink>åpen kildekodeverktøy</docsLink> for forskere som utvikler toppmoderne konversasjons-AI-modeller.
+resource-deepspeech-info = Mozillas åpen kildekode-stemmegjenkjenningsmotor Deep Speech kan brukes til å bygge talegjenkjenningsapplikasjoner. Les vår <githubLink>Github-oversikt</githubLink> eller bli med på <discourseLink>DeepSpeech Discourse</discourseLink> for å lære hvordan du kommer i gang.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> er dedikert til åpen taleteknologi. Prosjektene deres inkluderer dyplæringsbaserte STT- og TTS-motorer.
+community-playbook = Fellesskapets Spillebok
+resource-playbook-info = <playbookLink>Finn nyttig veiledning</playbookLink> om hele Common Voice-reisen, fra lokalisering til datasettbruk, samt hvordan du kan koble til fellesskapet vårt.
 data-other-librispeech-description = LibriSpeech er et korpus på omtrent 1000 timer med 16 kHz lest engelsk tale hentet fra innleste lydbøker i LibriVox-prosjektet.
 data-other-ted-name = TED-LIUM-korpus
 data-other-ted-description = TED-LIUM-korpuset ble produsert av presentasjoner og deres transkripsjoner tilgjengelig på TED-nettstedet.
@@ -718,6 +810,18 @@ more = Mer
 close = Lukk
 download = Last ned
 dataset-version = Versjon
+sha256-checksum-copied = SHA256-sjekksum kopiert!
+sha256-checksum-copied-error = Kunne ikke kopiere SHA256-sjekksum
+clipboard-not-supported = Utklippstavle støttes ikke
+no-information-available = Ingen informasjon er tilgjengelig
+dataset-metadata-sex = Kjønn
+# dataset metadata - age of contributor
+dataset-metadata-age = Alder
+donate-modal-message = Datasettet ditt lastes ned!
+dataset-donate-modal-heading = Visste du…
+donate-modal-explanation-1 = Det koster nesten en million dollar i året å være vert for datasettene og forbedre plattformen for de over 100 språksamfunnene som er avhengige av det vi gjør?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Hvis du verdsetter åpne, inkluderende data – doner i dag!</bold>
 
 ## Download Modal
 
@@ -750,6 +854,44 @@ other-language = Annet Språk
 
 ## Request Language Pages
 
+request-language-heading = Etterspør et nytt språk
+request-language-explanation-1 =
+    Sjekk om språket ditt er oppført på
+    <languagesPageLink>Common Voice Languages-siden</languagesPageLink>.
+    Hvis ikke, fyll ut dette skjemaet, så <strong>sender vi deg en nyttig e-post
+    som forklarer hvordan du setter opp språket ditt</strong>.
+request-language-explanation-2 =
+    Vi vil også <strong>gi beskjed til samfunnsansvarlig
+    at du er interessert</strong>, slik at de kan gi deg
+    ekstra støtte eller informasjon du måtte trenge.
+request-language-form-email =
+    .label = Din e-postadresse
+request-language-form-info =
+    .label = Informasjon om språket
+request-language-form-info-explanation =
+    Legg til så mye informasjon du kan om språket. Dette
+    kan inkludere:
+request-language-form-info-explanation-list-1 = Navn på språket ditt
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koder</isoCodeLink> hvis kjent
+request-language-form-info-explanation-list-3 = Lenker til nettsider som kan hjelpe oss å forstå språket
+request-language-google-recaptcha-required = reCAPTCHA kreves hvis du vil fortsette
+request-language-google-recaptcha-error = Noe gikk galt med reCAPTCHA. Vennligst prøv på nytt.
+# Success page
+request-language-success-heading = Takk skal du ha! Du har sendt en ny språkforespørsel
+request-language-success-list-1 =
+    Du mottar snart en e-post med en kort forklaring på
+    trinnene for å få språket ditt lagt til Common Voice
+request-language-success-list-2 =
+    Vår samfunnsansvarlige vil kontakte deg for å tilby
+    ekstra støtte, og for å gi deg beskjed om det er
+    allerede er et fellesskap som jobber med språket ditt
+request-language-success-list-3 =
+    Hvis du ikke hører fra oss innen et par dager,
+    ta kontakt på <emailLink>{ $email }</emailLink>
+    og vi kommer tilbake til deg!
+request-language-error =
+    Vi har kanskje ikke mottatt den forespørselen. Send oss en e-post direkte
+    på <emailLink>{ $email }</emailLink>, så kommer vi tilbake til deg!
 
 ## Languages Overview
 
@@ -757,6 +899,8 @@ language-section-in-progress = Pågående
 language-section-in-progress-new-description = Disse språkene er for tiden under utvikling. Fremdriftsindikatorene viser hvor langt hvert språk har kommet med <localizationGlossaryLink> nettstedslokalisering </localizationGlossaryLink> og <sentenceCollectionGlossaryLink> setningsinnsamling </sentenceCollectionGlossaryLink>.
 language-section-launched = Lansert
 language-section-launched-description = For disse lanserte språkene har nettstedet blitt <localizationGlossaryLink> lokalisert </localizationGlossaryLink>, og har nok <sentenceCollectionGlossaryLink> setninger samlet </sentenceCollectionGlossaryLink> til å gi mulighet for løpende <speakLink> Tale- </speakLink> og <listenLink> Lytte-</ listenLink > bidrag.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Sist oppdatert: { $lastUpdatedTimeStamp }
 languages-show-more = Vis mer
 languages-show-less = Vis mindre
 language-meter-in-progress = Framgang
@@ -766,6 +910,8 @@ language-search-input =
 language-speakers = Talt av
 localized = Oversatt
 sentences = Setninger
+language-validation-hours = Timer
+language-validation-progress = Valideringsprosess
 
 ## Contribution
 
@@ -773,6 +919,8 @@ action-click = Klikk
 action-tap = Trykk
 contribute = Bidra
 listen = Lytt
+write = Skriv
+review = Gjennomgå
 skip = Hopp over
 shortcuts = Snarveier
 clips-with-count-pluralized =
@@ -819,8 +967,17 @@ listen-again-instruction = Supert jobbet!<playIcon></playIcon> Hør på klippet 
 listen-3rd-time-instruction = 2 ferdig, fortsett slik!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>En igjen!
 listen-empty-state = Vi har gått tom for klipp å validere på dette språket…
+listen-loading-error =
+    Vi klarte ikke å laste noen lydklipp du kan lytte til.
+    Prøv igjen senere.
+listen-abort-title = Ferdig med å validere klippene?
+listen-abort-cancel = Fortsett å validere
+listen-abort-confirm = Fullfør valideringen
 speak-empty-state = Vi har gått tom for setninger å spille inn på dette språket…
 speak-empty-state-cta = Bidra med setninger
+speak-loading-error =
+    Vi klarte ikke å laste noen setninger du kan lese.
+    Prøv igjen senere.
 record-button-label = Ta opp stemmen din
 share-title-new = <bold>Hjelp oss</bold> med å finne flere stemmer
 keep-track-profile = Hold oversikt over fremgangen din med en profil
@@ -833,6 +990,8 @@ target-segment-learn-more = Les mer
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Tale-klipp innsamling
+contribute-sentence-collection-nav-header = Setningsinnsamling
 
 ## Reporting
 
@@ -992,19 +1151,31 @@ profile-form-delete = Slett profil
 download-q = Trenger du å laste ned dataene dine?
 download-info = Fortell oss hva du vil laste ned:
 download-profile-title = Profil
+download-profile-info = Inkluderer e-post, brukernavn og demografisk informasjon, tilgjengelig med en gang
+download-profile-size = Noen få bytes
 download-recordings-title = Innspillinger
+download-recordings-info = Inkluderer mp3-er og relaterte setninger, kan ta litt tid å forberede
+download-recordings-size = Vanligvis megabyte
+download-recordings-unavailable = Du kan ikke be om opptak mens en annen forespørsel allerede pågår.
+download-recently-requested = Du kan be om et nytt uttak av opptakene dine hver { $days } dag.
 download-size = Størrelse
 download-selected = Valgt
 download-start = Last ned profildata
+download-request = Be om opptak
+download-requests = Nedlastingsforespørsler fra tidligere opptak
+download-requests-info = Når du ber om opptakene dine, kompilerer vi dem til én eller flere ZIP-filer. Her er dine tidligere forespørsler:
 download-request-button = Last ned
 download-request-title = { $created }
+download-request-description = { $clipCount } stemmeklipp, total arkivstørrelse { $size }. Utløper { $expires }.
 download-request-archive-single = Enkel ZIP-fil som inneholder
 download-request-archive-multiple = Del opp i { $archiveCount } ZIP-filer som inneholder
+download-request-assembling-description = Filene dine blir satt sammen. Vennligst sjekk igjen senere.
 download-request-refresh-button = Oppdater
 download-request-modal-title = Nedlastingslenker
 download-request-modal-description = Her er lenkene for å laste ned ZIP-filene dine.
 download-request-link-text = Zip #{ $offset } av { $total }
 download-request-metadata-link = Setningstekst
+download-request-link-single = Du kan også kopiere og lime inn de direkte URL-ene i din favorittnedlastingsbehandler. De vil utløpe om 12 timer, men du kan når som helst komme tilbake til denne siden for å generere nye.
 
 ## Landing
 
@@ -1052,16 +1223,57 @@ demo-dashboard-card-body = For hvert stemmeklipp som doneres, og hvert lydklipp 
 
 ## Validation criteria
 
+contribution-criteria-nav = Kriterier
 contribution-criteria-link = Forstå bidragskriterier
 contribution-criteria-page-title = Bidragskriterier
+contribution-criteria-page-description = Forstå hva du skal se etter når du lytter til stemmeklipp, og bidra til å gjøre stemmeopptakene dine rikere også!
 contribution-for-example = for eksempel
 contribution-misreadings-title = Feillesninger
+contribution-misreadings-description = Når du lytter, sjekk veldig nøye at det som er tatt opp er nøyaktig det som er skrevet; avvis hvis det er mindre feil. <br />Veldig vanlige feil inkluderer:
+contribution-misreadings-description-extended-list-1 = Mangler <strong>«En»</strong> eller <strong>«Den»</strong> i starten av opptaket.
 contribution-misreadings-description-extended-list-2 = Mangler en <strong>«s»</strong> på slutten av et ord.
+contribution-misreadings-description-extended-list-3 = Lese sammentrekninger som ikke faktisk er der, for eksempel "Kan'ke" i stedet for "Kan ikke", eller omvendt.
+contribution-misreadings-description-extended-list-4 = Miste slutten på siste ord ved å kutte av opptaket for raskt.
 contribution-misreadings-description-extended-list-5 = Bruker flere forsøk på å lese et ord.
+contribution-misreadings-example-1-title = De gigantiske dinosaurene i triastiden.
+contribution-misreadings-example-2-title = De gigantiske dinosauren i triastiden.
+contribution-misreadings-example-2-explanation = [Skal være "dinosaurene"]
+contribution-misreadings-example-3-title = De gigantiske dinosaurene i tri-.
+contribution-misreadings-example-3-explanation = [Opptaket avbrutt før slutten av siste ord]
+contribution-misreadings-example-4-title = De gigantiske dinosaurene i triastiden. Ja.
+contribution-misreadings-example-4-explanation = [Mer har blitt spilt inn enn den nødvendige teksten]
+contribution-misreadings-example-5-title = Vi skal ut og hente kaffe.
+contribution-misreadings-example-6-title = Vi går for å hente kaffe.
+contribution-misreadings-example-6-explanation = [Skal være "Vi er"]
+contribution-misreadings-example-7-title = Vi skal ut og hente kaffe.
+contribution-misreadings-example-7-explanation = [Ingen 'én' i originalteksten]
+contribution-misreadings-example-8-title = Humlen fløy forbi.
+contribution-misreadings-example-8-explanation = [Ikke samsvarende innhold]
+contribution-varying-pronunciations-title = Varierende uttaler
+contribution-varying-pronunciations-description = Vær forsiktig før du avviser et klipp med begrunnelse at leseren har uttalt et ord feil, har lagt vekten på feil sted, eller tilsynelatende har ignorert et spørsmålstegn. Det er et stort utvalg uttale i bruk rundt om i verden, noen av dem har du kanskje ikke hørt i lokalsamfunnet ditt. Gi rom for variasjon overfor de som snakker annerledes enn deg.
+contribution-varying-pronunciations-description-extended = På den annen side, hvis du tror at leseren sannsynligvis aldri har kommet over ordet før, og bare gjetter feil på uttalen, vennligst avvis. Hvis du er usikker, bruk hopp over-knappen.
+contribution-varying-pronunciations-example-1-title = På hodet bar han en beret.
+contribution-varying-pronunciations-example-1-explanation = ['Beret' er OK enten med vekt på den første stavelsen (UK) eller den andre (USA)]
+contribution-varying-pronunciations-example-2-title = Hånden hans ble løftet opp.
+contribution-varying-pronunciations-example-2-explanation = ['Raised' på engelsk uttales alltid som én stavelse, ikke to]
 contribution-background-noise-title = Bakgrunnsstøy
+contribution-background-noise-description = Vi vil at maskinlæringsalgoritmene skal kunne håndtere bakgrunnsstøy, og til og med relativt høye lyder kan aksepteres forutsatt at de ikke hindrer deg i å høre hele teksten. Stille bakgrunnsmusikk er OK; musikk høy nok til å hindre deg i å høre hvert eneste ord er det ikke.
+contribution-background-noise-description-extended = Hvis opptaket hakker, eller har knitring, avvis med mindre hele teksten fortsatt kan høres.
+contribution-background-noise-example-1-fixed-title = <strong>[Nys]</strong> De gigantiske dinosaurene i <strong>[hoste]</strong> triastiden.
+contribution-background-noise-example-2-fixed-title = De gigantiske dino <strong>[hoste]</strong> triastiden.
+contribution-background-noise-example-2-explanation = [Del av teksten kan ikke høres]
+contribution-background-noise-example-3-fixed-title = <strong>[Sprake]</strong> gigantiske dinosaurene i <strong>[hoste]</strong> triastiden.
 contribution-background-voices-title = Bakgrunnsstemmer
+contribution-background-voices-description = Et stille støy i bakgrunnen er OK, men vi vil ikke ha flere stemmer som kan føre til at en maskinalgoritme identifiserer ord som ikke er i den skrevne teksten. Hvis du kan høre andre ord enn de i teksten, bør klippet avvises. Vanligvis skjer dette der TV-en har blitt stående på, eller der det foregår en samtale i nærheten.
+contribution-background-voices-description-extended = Hvis opptaket hakker, eller har knitring, avvis med mindre hele teksten fortsatt kan høres.
+contribution-background-voices-example-1-title = De gigantiske dinosaurene i triastiden. <strong>[lest av én stemme]</strong>
+contribution-background-voices-example-1-explanation = Kommer du? <strong>[ropes av en annen]</strong>
 contribution-volume-title = Volum
+contribution-volume-description = Det vil være naturlige variasjoner i volum mellom leserne. Avvis bare hvis volumet er så høyt at opptaket brytes opp, eller (vanligere) hvis det er så lavt at du ikke kan høre hva som blir sagt uten referanse til den skrevne teksten.
+contribution-reader-effects-title = Lesereffekter
+contribution-reader-effects-description = De fleste opptak er av folk som snakker med sin naturlige stemme. Du kan godta en og annen ikke-standard innspilling som blir ropt, hvisket eller åpenbart levert med en "dramatisk" stemme. Vennligst avvis sangopptak og de som bruker en datamaskinsyntetisert stemme.
 contribution-just-unsure-title = Bare usikker?
+contribution-just-unsure-description = Hvis du kommer over noe som ikke er dekket av disse retningslinjene, forsøk og velg etter beste skjønn. Hvis du ikke føler det er mulig å bedømme klippet, bruk hopp over-knappen og gå videre til neste klipp.
 see-more = <chevron></chevron>Se mer
 see-less = <chevron></chevron>Se mindre
 
@@ -1072,58 +1284,566 @@ see-less = <chevron></chevron>Se mindre
 
 ## HEADER/FOOTER
 
+sc-header-home = Hjem
+sc-header-how-to = Hvordan
+sc-header-add = Legg til
+sc-header-review = Vurder
+sc-header-rejected = Avviste setninger
+sc-header-my = Mine setninger
+sc-header-statistics = Statistikk
+sc-header-profile = Profil
+sc-footer-discourse = Discourse
+sc-footer-report-bugs = Rapporter en feil
+sc-footer-translate = Oversett denne siden
+sc-footer-report-copyright = Rapporter opphavsrettsproblemer
+sc-footer-privacy = Personvern
+sc-footer-terms = Vilkår
+sc-footer-cookies = Informasjonskapsler
+sc-login-signup-button = Logg inn / registrer deg
+sc-logout-button = Logg ut
 
 ## HOME
 
+sc-home-title = Velkommen til Common Voice-setningsinnsamler
+sc-home-intro = Setningssamleren er en del av <commonVoiceLink>Common Voice</commonVoiceLink>. Det lar bidragsytere samle inn og validere setninger laget av fellesskapet. Du kan også bruke dette verktøyet til å importere og rydde opp i små til mellomstore offentlige domenekorpus du har funnet eller samlet. Alle setninger må være offentlig domene. Godkjente setninger eksporteres hver uke til Common Voice-depotet og utgis på Common Voice-nettstedet ved hver ny distribusjon.
+sc-home-collect-title = Samle setninger
+sc-home-collect-text = Hjelp oss ved å skrive eller samle offentlig domene-setninger.
+sc-home-review-title = Vurder setninger
+sc-home-review-text = Hjelp oss ved å vurdere om setninger er korrekte i henhold til retningslinjene.
 
 ## GENERAL
 
+sc-languages-fetch-error = Vi klarte ikke å hente tilgjengelige språk. Bidrag er foreløpig ikke mulig. Prøv igjen senere.
 
 ## HOW-TO
 
+sc-howto-title = Hvordan
+sc-howto-addlang-title = Legger til språk å jobbe med
+sc-howto-addlang-text = Når du er logget inn kan du velge språk fra profilseksjonen.
+sc-howto-addsen-title = Legg til nye setninger
+sc-howto-addsen-item-1 = Alle setninger du sender inn må være under <wikipediaLink>Public Domain (CC-0)-lisens</wikipediaLink>. For å støtte inkludering av arbeid som ikke er under offentlig lisens, har vi laget en <cc0WaiverLink>bidragsavtalemal</cc0WaiverLink> for verk der opphavsrettseieren ønsker å bidra med materialet til Common Voice.
+sc-howto-addsen-item-2 = Tall. Det skal ikke være noen sifre i kildeteksten fordi de kan skape problemer når de leses høyt. Måten et tall leses på avhenger av kontekst og kan føre til forvirring i datasettet. For eksempel kan tallet "2409" leses nøyaktig som både "tjuefire null ni" og "to tusen fire hundre ni".
+sc-howto-addsen-item-3 = Forkortelser og akronymer. Forkortelser og akronymer som "USA" eller "ICE" bør unngås i kildeteksten fordi de kan leses på en måte som ikke sammenfaller med stavemåten. I tillegg kan det være flere nøyaktige avlesninger for en enkelt forkortelse. For eksempel kan akronymet "ICE" uttales "I-C-E" eller som et enkelt ord.
+sc-howto-addsen-item-4 = Tegnsetting. Spesialsymboler og tegnsetting bør kun inkluderes når det er absolutt nødvendig. For eksempel brukes apostrof for genitiv etter norske ord som slutter på s og bør inkluderes i kildeteksten, men det er usannsynlig at du noen gang trenger et spesielt symbol som "@" eller "#. ”
+sc-howto-addsen-item-5 = Utenlandske tegn. Bokstaver må være gyldige på språket som snakkes. For eksempel er "ж" en bokstav i det russiske alfabetet, men brukes aldri på engelsk og bør derfor aldri brukes i en engelsk kildetekst.
+sc-howto-addsen-item-6 = Språk kan ha sine <validationRulesLink>egne valideringsregler</validationRulesLink> med tilleggskrav. Hvis det ikke er noen spesifikk valideringsfil for et språk, bruker vi de generiske engelske reglene.
+sc-howto-addsen-post-1 = Vi foretrekker naturlige/samtalesetninger. Mens fonetisk mangfold og forskjellige ord i setninger er viktig, prøver vi å gjøre innspilling av setninger så morsomt som mulig. Derfor ville det vært flott om du kunne prøve å holde setningene dine så naturlige/engasjerende som mulig.
+sc-howto-cite-title = Hvordan sitere
+sc-howto-cite-pre-1 = Det er viktig at du refererer til hvor du fant den offentlige lisensen for å unngå plagiering og for å tillate oppfølging av <copyrightIssuesLink>opphavsrettsproblemer</copyrightIssuesLink>. Her er noen måter du kan sitere arbeidet på.
+sc-howto-cite-item-1 = Du kan inkludere nettstedet, for eksempel "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Du kan bruke akademisk referansestil, f.eks. Harvard-stil "Mozilla (2021) Common Voice. Tilgjengelig på https://commonvoice.mozilla.org/ (Tilgjengelig: 15. september 2021)"
+sc-howto-cite-item-3 = For tekst som er offentlig eiendom, men ikke er tilgjengelig på nettet, kan du bruke akademisk referansestil, f.eks. Harvard-stil "Jess (2021) My Public license poems"
+sc-howto-review-title = Gjennomgå setninger
+sc-howto-review-subtitle = Sørg for at setningen oppfyller følgende kriterier:
+sc-howto-review-criteria-1 = Setningen må staves riktig.
+sc-howto-review-criteria-2 = Setningen må være grammatisk korrekt.
+sc-howto-review-criteria-3 = Setningen må kunne tales.
+sc-howto-review-criteria-4 = Hvis setningen oppfyller kriteriene, klikker du på "Godkjenn"-knappen.
+sc-howto-review-criteria-5 = Hvis setningen ikke oppfyller kriteriene ovenfor, klikker du på "Avvis"-knappen. Hvis du er usikker på setningen, kan du også hoppe over den og gå videre til neste.
+sc-howto-review-criteria-6 = Hvis du går tom for setninger å vurdere, vennligst hjelp oss med å samle inn flere setninger!
+sc-howto-findpd-title = Finne eksisterende setninger som er offentlig eiendom
+sc-howto-findpd-subtitle = Søk etter dem på Internett
+sc-howto-findpd-text-2 = Husk at vi trenger tillatelse til å publisere disse setningene, så sørg alltid for at teksten tilhører <wikipediaLink>offentlig domene</wikipediaLink>. Hvis det ikke er noen eksplisitt indikasjon, ta kontakt med personen som teksten tilhører og spør om de ønsker å bidra med teksten sin til Public Domain. Hvis de vil, kan du hjelpe dem med å gå gjennom <cc0WaiverLink>bidragsavtalen</cc0WaiverLink>-prosessen. Hvis de ikke ønsker å bidra med teksten, så har du ikke lov til å bruke den teksten.
+sc-howto-findpd-tips = Her er noen tips for å finne setninger:
+sc-howto-findpd-tips-1 = De beste kildene du kan se etter er podcaster, transkripsjoner, filmmanus og alt som potensielt kan inneholde hverdagslige samtaler.
+sc-howto-findpd-tips-2 = Regjeringssaker, bøker og artikler er også gode, men siden teksten har en tendens til å være litt mer formell er de mindre prioriterte.
+sc-howto-findpd-tips-3 = Dessverre kan vi ikke ha Wikimedia-artikler ennå. Så ikke kopier derfra.
+sc-howto-findpd-subtitle-2 = Samarbeid med lokale organisasjoner eller enkeltpersoner
+sc-howto-findpd-partner-1 = Det er mange offentlige organisasjoner som kanskje ønsker å samarbeide og allerede har mange tekster de kan donere som offentlig eiendom. Ta kontakt med lokale universiteter, myndigheter og åpen kildekode-organisasjoner for å snakke om prosjektet og be om deres hjelp.
+sc-howto-findpd-partner-2 = Ekspertlingvister kan også hjelpe, prøv å nå ut til lokale språklige universiteter (både lærere og studenter) og se om de kan hjelpe til med å samle et mangfoldig sett med lyd-diverse setninger på språket ditt.
 
 ## MY SENTENCES
 
+sc-my-title = Mine setninger
+sc-my-description = Denne siden gir deg en oversikt over alle innsendte setninger. Du kan også slette allerede innsendte setninger om nødvendig, ved å merke av i boksen ved siden av den og klikke på &quot;Slett valgte setninger&quot; på bunnen. Vennligst kun fjern setninger hvis det er absolutt nødvendig, for eksempel hvis du la merke til at en setning er opphavsrettslig beskyttet.
+sc-my-loading = Laster inn setningene dine …
+sc-my-err-fetching = Feil under lasting av setningene dine. Vennligst prøv på nytt.
+sc-my-no-sentences = Ingen setninger funnet!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Innsending: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Kilde: { $source }
+sc-my-delete = Slett valgte setninger
+sc-my-deleting = Sletter valgte setninger …
+sc-my-err-failed-delete = Kunne ikke slette valgte setninger... Prøv igjen!
 
 ## REJECTED
 
+sc-rejected-title = Avviste setninger
+sc-rejected-loading = Laster inn avviste setninger …
+sc-rejected-err-fetching = Feil under henting av avviste setninger. Vennligst prøv på nytt.
+sc-rejected-none-found = Fant ingen avviste setninger!
 
 ## STATS
 
+sc-stats-title = Statistikk
+sc-stats-updating = Oppdaterer …
+sc-stats-error = Vi kunne ikke hente statistikken. Prøv igjen senere.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = Common Voice Sentence Collector har samlet { $sentenceCount } setninger på { $languageCount } språk!
 
 ## ADD
 
+sc-submit-err-select-lang = Vennligst velg et språk.
+sc-submit-err-add-sentences = Vennligst legg til setninger.
+sc-submit-err-add-source = Vennligst legg til en kilde.
+sc-submit-err-confirm-pd = Vennligst bekreft at disse setningene er offentlig eiendom.
+sc-submit-prompt =
+    .message = Setninger ikke sendt inn, er du sikker på at du vil forlate?
+sc-submit-title = Legg til setninger
+sc-submit-select-language =
+    .labelText = Velg språk
+sc-submit-add-sentences = Legg til setninger som er <wikipediaLink>offentlig eiendom</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = En setning per linje
+sc-submit-from-where = Hvor er disse <wikipediaLink>offentlige domene</wikipediaLink>-setningene fra?
+sc-submit-ph-read-how-to =
+    .placeholder = Les vår fremgangsmåte hvis du er usikker på hvordan du skal oppgi kilder
+sc-submit-confirm = Jeg bekrefter at disse setningene er <wikipediaLink>offentlig domene</wikipediaLink> og jeg har tillatelse til å laste dem opp.
+sc-submit-button =
+    .submitText = Send inn
+sc-submit-filtered = Filtrerte setninger på grunn av ikke oppfylte krav (vennligst send inn korrigerte versjoner som nye setninger):
+sc-submit-guidelines = Vennligst sjekk <howToLink>retningslinjene</howToLink>.
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Kunne ikke legge til språk
+sc-add-lang-sec-label = Legg til et språk du ønsker å bidra til
+sc-add-lang-sec-button = Legg til språk
+sc-add-err-unexpected = Uventet svar returnert fra serveren
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Innsendte setninger. { $duplicates } setninger ble avvist som duplikater.
+        [one] Innsendte setninger. { $duplicates } setning ble avvist som duplikat.
+       *[other] Innsendte setninger. { $duplicates } setninger ble avvist som duplikater.
+    }
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] { $setninger } setninger mislyktes
+        [one] { $setninger } setning mislyktes
+       *[other] { $setninger } setninger mislyktes
+    }
+sc-add-err-submission = Innsendingsfeil
+sc-add-lang-process-notice = Hvis språket ditt ikke er oppført her, kan du be om det gjennom <languageProcessLink>denne prosessen</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Setninger ikke sendt inn, er du sikker på at du vil forlate?
+sc-confirm-sentences-title = Bekreft nye setninger
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] { $countOfSentences } setninger funnet.
+        [one] { $countOfSentences } setning funnet.
+       *[other] { $countOfSentences } setninger funnet.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } avvist av deg
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Ingen setninger er allerede gjennomgått.
+        [one] { $countOfReviewed } setning er allerede gjennomgått. Bra jobbet!
+       *[other] { $countOfReviewed } setninger er allerede gjennomgått. Bra jobbet!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Ingen setninger klare for innsending!
+        [one] { $readyCount } setning klar for innsending!
+       *[other] { $readyCount } setninger klare for innsending!
+    }
+# Variables:
+#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
+sc-confirm-unreviewed = { $countOfUnreviewed } setninger er ikke gjennomgått. Hvis du vil, kan du også se gjennom setningene dine nå før du sender dem inn.
+sc-confirm-button-text = Bekreft
+sc-confirm-uploading = Setninger blir lastet opp. Dette kan ta flere minutter avhengig av antall setninger som legges til. Vennligst ikke lukk denne nettsiden.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Totalt
+sc-lang-info-title-personal = Personlig
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Ingen setninger totalt.
+        [one] { $totalSentences } setning totalt.
+       *[other] { $totalSentences } setninger totalt.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Ingen setninger til vurdering.
+        [one] { $totalInReview } setning til vurdering.
+       *[other] { $totalInReview } setninger til vurdering.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Ingen setninger igjen som du kan se gjennom.
+        [one] { $unreviewedSentencesByYou } setning igjen som du kan se gjennom.
+       *[other] { $unreviewedSentencesByYou } setninger igjen som du kan se gjennom.
+    }
+sc-lang-info-review-now = <reviewLink>Gjennomgå nå!</reviewLink>
+sc-lang-info-add-more = <addLink>Legg til flere setninger nå!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Ingen validerte setninger.
+        [one] { $validatedSentences } validert setninger.
+       *[other] { $validatedSentences } validerte setninger.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Ingen avviste setninger.
+        [one] { $rejectedSentences } avvist setning.
+       *[other] { $rejectedSentences } avviste setninger.
+    }
 
 ## LOGIN
 
+sc-login-err-failed = Innlogging feilet
+sc-login-err-try-again = Prøv igjen.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Profil: { $username }
+sc-personal-err-lang-not-found = Kunne ikke fjerne språk: språk ble ikke funnet
+sc-personal-err-remove = Kunne ikke fjerne språket
+sc-personal-your-languages = Dine språk:
+sc-personal-remove-button = fjern
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $setninger } lagt til av deg
+sc-personal-not-added = Du har ikke lagt til noen språk ennå.
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Vurderingskriterier
+sc-criteria-title = Vurderingskriterier
+sc-criteria-make-sure = Sørg for at setningen oppfyller følgende kriterier:
+sc-criteria-item-1 = Setningen må staves riktig.
+sc-criteria-item-2 = Setningen må være grammatisk korrekt.
+sc-criteria-item-3 = Setningen må kunne tales.
+sc-criteria-item-4 = Hvis setningen oppfyller kriteriene, klikker du på "Godkjenn"-knappen til høyre.
+sc-criteria-item-5-2 = Hvis setningen ikke oppfyller kriteriene ovenfor, klikker du på "Avvis"-knappen til venstre. Hvis du er usikker på setningen, kan du også hoppe over den og gå videre til neste.
+sc-criteria-item-6 = Hvis du går tom for setninger å vurdere, vennligst hjelp oss med å samle inn flere setninger!
 
 ## REVIEW
 
+sc-review-lang-not-selected = Du har ikke valgt noen språk. Gå til <profileLink>profilen</profileLink> din for å velge språk.
+sc-review-title = Gjennomgå setninger
+sc-review-loading = Laster inn setninger …
+sc-review-select-language = Velg et språk for å se gjennom setninger.
+sc-review-no-sentences = Ingen setninger å vurdere. <addLink>Legg til flere setninger nå!</addLink>
+sc-review-form-prompt =
+    .message = Gjennomgåtte setninger ikke sendt inn, er du sikker?
+sc-review-form-usage = Sveip til høyre for å godkjenne setningen. Sveip til venstre for å avvise den. Sveip opp for å hoppe over den. <strong>Ikke glem å sende inn vurderingen din!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Kilde: { $sentenceSource }
+sc-review-form-button-reject = Avvis
+sc-review-form-button-skip = Hopp over
+sc-review-form-button-approve = Godkjenn
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = J
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = H
+sc-review-form-keyboard-usage-custom = Du kan også bruke tastatursnarveier: { sc-review-form-button-approve-shortcut } for å godkjenne, { sc-review-form-button-reject-shortcut } for å avvise, { sc-review-form-button-skip-shortcut } for å hoppe over
+sc-review-form-button-submit =
+    .submitText = Fullfør gjennomgangen
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Ingen setninger gjennomgått.
+        [one] { $setninger } setning gjennomgått. Takk skal du ha!
+       *[other] { $setninger } setninger gjennomgått. Takk skal du ha!
+    }
+sc-review-form-review-failure = Gjennomgangen kunne ikke lagres. Prøv igjen senere.
+sc-review-link = Gjennomgang
 
 ## SETTINGS
 
+sc-settings-title = Innstillinger
+sc-settings-ui-language = Grensesnittspråk
+sc-settings-reset-skipped = Tilbakestill setninger du har hoppet over
+sc-settings-skipped-decription = Du hoppet tidligere over setninger mens du gjennomgikk. Tilbakestilling av setninger du har hoppet over vil vise alle setninger du har hoppet over på nytt. Dette er uavhengig av språket.
+sc-settings-show-all-button = Vis alle setninger du har hoppet over på nytt
+sc-settings-failed = Kunne ikke endre innstillingene. Vennligst prøv på nytt.
+# VALIDATION
+sc-validation-number-of-words = Setningen må inneholde mellom 1 og 14 (inklusive) ord
+sc-validation-no-numbers = Setning kan ikke inneholde tall
+sc-validation-no-symbols = Setningen kan ikke inneholde symboler
+sc-validation-no-abbreviations = Setningen kan ikke inneholde forkortelser
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Velg språk/lokalisering
+# PARTNERSHIPS PAGE
+partnerships-header = Partnerskap
+partnerships-header-text = Det skal mye til for å få Common Voice til å skje! Vi gjør det ikke alene. Vil du samarbeide med oss? Vi vil gjerne høre fra deg.
+partnerships-get-in-touch = Ta kontakt
+partnerships-become-a-partner = Bli en Common Voice partner
+partnerships-community-header = Fellesskap, kreative og sivilsamfunn
+partnerships-community-description = Samfunnet er det bankende hjertet til Common Voice – de kommer fra hele verden, og er språkaktivister og vitenskapsmenn og kunstnere. Du kan lære mer om hvordan du blir involvert på vår <about>Om</about>-side og i vår <community>Community-spillebok</community>. Hvis du er interessert i et dypere organisatorisk partnerskap, <emailFragment>ta kontakt.</emailFragment>
+partnerships-foundations-header = Stiftelser
+partnerships-foundations-description = Vi samarbeider med stiftelser, sivilsamfunn og samfunnspartnere for å gjøre internett til et sunnere sted, med et spesielt fokus på Øst-Afrika. Finn ut mer om vårt <programmaticWork>programmatiske arbeid.</programmaticWork>
+partnerships-governments-header = Regjeringer
+partnerships-governments-description = Vi er glade for å støtte offentlig sektor sitt engasjement innen teknologi, innovasjon og språkrettigheter. Hvis du planlegger å kjøre et større prosjekt eller kampanje, vennligst <emailFragment>ta kontakt.</emailFragment>
+partnerships-academia-header = Universiteter, akademikere og forskere
+partnerships-academia-description = Åpen innovasjon er kjernen i det vi gjør. For forskningssamarbeid, datainnsamling eller intervjuer, <emailFragment>ta kontakt.</emailFragment>
+partnerships-small-business-header = Små bedrifter, inkludert oppstartsbedrifter innen teknologi og kunstig intelligens
+partnerships-small-business-description = Vi er alltid ute etter å høre fra dataforbrukere om deres behov og kontekst – fra samarbeid om datainnsamlingsplattformen til å gi datahelseinnsikt, vi ønsker å <emailFragment>høre fra deg.</emailFragment>
+partnerships-corporates-header = Storskala bedrifter og plattformselskaper
+partnerships-corporates-description = Hvis du ønsker å snakke mer om datasettet, vil medfinansiere planlagte utvidelser av plattformen eller se på samarbeidsmuligheter, <emailFragment>send oss en forespørsel.</emailFragment>
+partnerships-our-partners = Våre partnere
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Takk for at du donerte stemmeklippene dine!
+first-cta-subtitle-text = Vil du dele litt informasjon om hvordan du snakker?
+why-donate = Hvorfor spør dere?
+why-donate-explanation-1 = Denne informasjonen er valgfri å oppgi - du bør bare legge den til hvis du føler deg komfortabel. Når vi frigir datasettet, pseudonymiserer vi all personlig informasjon, og sørger for at informasjon som navn og e-post ikke er knyttet til demografisk informasjon som alder eller kjønn.
+why-donate-explanation-2 = For at teknologi skal fungere godt for alle, må dataene som hjelper utviklere med å bygge teknologi gjenspeile et mangfoldig spekter av mennesker. For eksempel, hvis vi ikke inkluderer noen talere med en bestemt aksent eller dialekt, vil ikke teknologien fungere bra for folk med den aksenten eller dialekten. <learnMore>Finn ut mer om hvorfor metadata er viktig.</learnMore>
+add-information-button = Legg til informasjon
+continue-speaking-button = Nei takk, fortsett å snakke
+create-profile-text = Vil du lagre informasjonen din? <createProfile>Opprett en profil</createProfile>
+thanks-for-voice-toast = Takk for informasjon om stemmen din
+thanks-for-voice-toast-error = Det oppsto en feil under innsending av informasjon om stemmen din
+first-cta-gender-select-default-option = Velg et alternativ
+first-cta-gender-select-help-text =
+    .label = Hvordan vil du beskrive ditt kjønn?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Takk for at du bidro med stemmen din!
+second-cta-subtitle-text = Med en profil kan du holde oversikt over aktiviteten din og få kontakt med et fellesskap av bidragsytere til taledata.
+already-have-an-account = Har du allerede en konto? <login>Logg på</login>
+create-profile-button = Opprett en profil
+# IMAGE TAGS
+img-alt-success-checkmark = hake for godkjenning
+# GUIDELINES PAGE
+guidelines-header = Retningslinjer for bidrag
+guidelines-header-subtitle = Forstå hvordan du kan bidra med å validere setninger og lydklipp til Common Voice-datasettet
+voice-collection = Innsamling av stemmer
 sentence-collection = Setningsinnsamling
+varying-pronunciations = Varierende uttale
+misreadings = Feillesninger
+offensive-content = Støtende innhold
+background-noise = Bakgrunnsstøy
+background-voices = Stemmer i bakgrunnen
+volume = Volum
+reader-effects = Talemåte
+just-unsure = Bare usikker?
+example = Eksempel
+varying-pronunciations-explanation-1 = Vi ønsker forskjellige dialekter og aksenter velkommen! Vær veldig forsiktig før du avviser et klipp med den begrunnelse at du tror leseren har uttalt et ord feil, har lagt vekten på feil sted, eller har ignorert tegnsetting. Det er et bredt utvalg av talemåter i bruk rundt om i verden, noen av dem har du kanskje ikke hørt i lokalsamfunnet ditt. Gi en god margin for de som kanskje snakker annerledes enn deg.
+varying-pronunciations-explanation-2 = På den annen side, hvis du tror at leseren aldri har kommet over ordet før, og gjetter feil på uttalen, vennligst avvis. Hvis du er usikker, bruk hopp over-knappen.
+varying-pronunciations-example = Ruten var uklar.
+varying-pronunciations-tip-1 = [Canadisk engelsk kan få "route" til å høres ut som "rowt"]
+varying-pronunciations-tip-2 = [Britisk engelsk kan lage "root"]
+offensive-content-explanation = Setninger blir kontrollert gjennom en prosess for fellesskapsmoderering, men denne prosessen er ikke perfekt. Hvis du ser eller hører en setning som støter eller opprører deg - for eksempel fordi den bryter med våre <participationGuidelines>retningslinjer for fellesskapsdeltakelse</participationGuidelines> - vennligst bruk flaggknappen i brukergrensesnittet. Du kan også kontakte oss på <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = Det er viktig å lese alle ordene på siden riktig. Når du lytter, sjekk veldig nøye at det som er tatt opp er nøyaktig det som er skrevet; avvis hvis de har lagt til, trukket sammen eller utelatt ord.
+misreadings-explanation-2 = Svært vanlige feil inkluderer:
+misreadings-explanation-3 = Mangler "En" eller "Den" i starten av opptaket.
+misreadings-explanation-4 = Mangler en "s" på slutten av et ord.
+misreadings-explanation-5 = Lese sammentrekninger som ikke faktisk er der, for eksempel "Kan'ke" i stedet for "Kan ikke", eller omvendt.
+misreadings-explanation-6 = Mangler slutten av siste ord ved å avslutte opptaket for raskt.
+misreadings-explanation-7 = Bruker flere forsøk på å lese et ord.
+misreadings-example-1 = Vi skal ut og hente kaffe.
+misreadings-example-2 = Vi går for å hente kaffe.
+misreadings-example-3 = Vi skal ut og hente kaffe.
+misreadings-example-4 = Humlen fløy forbi.
+misreadings-tip-1 = [Skal være "Vi er"]
+misreadings-tip-2 = [Ingen "én" i originalteksten]
+misreadings-tip-3 = [Lydopptak samsvarer ikke med teksten]
+background-noise-explanation = Du må kunne høre hvert ord i opptaket. Vi vil at maskinlæringsalgoritmer skal kunne håndtere en rekke bakgrunnsstøy, og til og med relativt høye lyder eller stille bakgrunnsmusikk kan aksepteres forutsatt at de ikke hindrer deg i å høre hele teksten. Hvis spraking eller at opptaket hakker hindrer deg i å høre teksten betyr at du bør avvise klippet.
+background-noise-example-1 = De gigantiske dinosaurene i triastiden.
+background-noise-example-2 = [Nys] De gigantiske dinosaurene i [hoste] triastiden.
+background-noise-example-3 = De gigantiske dino [hoste] triastiden.
+background-noise-example-4 = [Sprake] gigantiske dinosaurene i [sprake] -rias.
+background-noise-tip-1 = [avbrutt av bakgrunnsstøy]
+background-noise-tip-2 = [En del av teksten kan ikke høres]
+background-voices-explanation = Litt bakgrunnsstøy er greit, men hvis du kan høre en annen person si tydelige ord, bør klippet avvises. Vanligvis skjer dette der TV-en har blitt stående på, eller der det foregår en samtale i nærheten.
+background-voices-example-1 = De gigantiske dinosaurene i triastiden. [lest av én stemme]
+background-voices-tip-1 = Kommer du? [ropes av en annen]
+volume-explanation = Det vil være naturlige variasjoner i volum på de forskjellige leserne. Avvis kun hvis volumet er så høyt at opptaket brytes opp, eller (vanligere) hvis det er så lavt at du ikke kan høre hva som blir sagt uten å referere til den skrevne teksten.
+reader-effects-explanation = De fleste opptak er av folk som snakker med sin naturlige stemme. Du kan godta en og annen ikke-standard innspilling som blir ropt, hvisket eller åpenbart lest med en "dramatisk" stemme. Vennligst avvis opptak som synges og de som bruker en datamaskinsyntetisert stemme.
+just-unsure-explanation = Hvis du kommer over noe som ikke er dekket av disse retningslinjene, forsøk og velg etter beste skjønn. Hvis du ikke føler det er mulig å bedømme klippet, bruk hopp over-knappen og gå videre til neste klipp.
+still-have-questions = Har du fortsatt spørsmål?
+contact-common-voice = Kontakt Common Voice-teamet
+public-domain = Offentlig Eiendom
+citing-sentences = Kildehenvisninger for setninger
+adding-sentences = Legge til setninger
+reviewing-sentences = Vurdere setninger
+sentence-domain = Setningsdomene
+public-domain-explanation-1 = Det er veldig viktig at alle setninger med tekst er <publicDomain>offentlig eiendom</publicDomain> (<cc0>cc0</cc0>) siden Common Voice-datasettet er utgitt under en cc0-lisens. Last bare opp en setning hvis du er sikker, og inkluder alltid den relevante kildehenvisningen.
+public-domain-explanation-2 = De beste setningene for å bygge en nyttig talegjenkjenningsmotor er dagligdags, moderne språkbruk. Noen ideer for å hjelpe deg med å generere setninger er;
+public-domain-explanation-3 = Lag moderne, dagligdagse setninger selv eller sammen med vennene dine eller språkmiljøet ditt – for eksempel gjennom et «skrive-maraton»
+public-domain-explanation-4 = Ta kontakt med forfattere, dramatikere eller manusforfattere og spør om de kan være villige til å frigi en liten del av verkene sine som offentlige eiendom
+public-domain-explanation-5 = Se etter tekster der opphavsretten ikke lenger gjelder - for eksempel de fleste bøker som ble utgitt før 1920
+public-domain-explanation-6 = Ta kontakt med myndigheter, ideelle organisasjoner eller medieorganisasjoner for å se om noe av deres nettinnhold, rapporter eller annet innhold kan frigis som offentlige eiendom
+citing-sentences-explanation-1 = Det er viktig å inkludere kildehenvisninger slik at vi kan sjekke at setninger er offentlige eiendom og at de ikke har opphavsrettslige begrensninger.
+citing-sentences-subheader-websites = Nettsteder
+citing-sentences-subheader-websites-explanation = Du kan inkludere nettstedet, for eksempel "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Akademisk Referanse
+citing-sentences-subheader-academic-reference-explanation = Du kan bruke akademisk referansestil, f.eks. Harvard-stil "Mozilla (2021) Common Voice. Tilgjengelig på https://commonvoice.mozilla.org/ (Hentet: 15. september 2021)"
+citing-sentences-subheader-offline-sources = Frakoblet tilstand
+citing-sentences-subheader-offline-sources-explanation = For tekst som er offentlig eiendom, men ikke er tilgjengelig på nettet, kan du bruke akademisk referansestil, f.eks. Harvard-stil "Jess (2021) My Public license poems"
+citation =
+    .label = Kildehenvisning
+self-citation = Selvsitering
+self-citation-explanation = Slik oppgir du deg selv som kilde hvis du har skrevet innholdet selv.
+adding-sentences-subheader-length = Lengde
+adding-sentences-subheader-length-explanation = Setningen bør ha færre enn 15 ord.
+adding-sentences-subheader-spelling-punctuation = Stavemåte og Tegnsetting
+adding-sentences-subheader-spelling-punctuation-explanation = Setningen må ha korrekt stavemåte
+adding-sentences-subheader-speakable = Lettlest
+adding-sentences-subheader-speakable-explanation = De beste setningene er naturlige og konverserende - det bør være enkelt å lese dem. Fonetisk mangfold og forskjellige ord i setninger er viktig, men vi prøver også å gjøre innspilling av setninger så engasjerende og morsomt  som mulig for vårt frivillige fellesskap.
+adding-sentences-subheader-numbers = Tall
+adding-sentences-subheader-numbers-explanation = Det bør ideelt sett ikke være noen tall i kildeteksten fordi de kan skape problemer når de leses høyt. Måten et tall leses på avhenger av kontekst og kan føre til forvirring i datasettet. For eksempel kan tallet "2409" leses korrekt som både "tjuefire null ni" og "to tusen fire hundre og ni".
+adding-sentences-subheader-abbreviations = Forkortelser og Akronymer
+adding-sentences-subheader-abbreviations-explanation = Forkortelser og akronymer som "USA" eller "ICE" bør unngås i kildeteksten fordi de kan leses på en måte som ikke stemmer overens med stavemåten. I tillegg kan det være flere vanlige uttalemåter for en enkelt forkortelse.
+adding-sentences-subheader-punctuation = Tegnsetting
+adding-sentences-subheader-punctuation-explanation = Spesialsymboler og tegnsetting bør kun inkluderes når det er absolutt nødvendig. For eksempel brukes en apostrof på norske ord i genitiv som "Johannes’ åpenbaring" og bør inkluderes i kildeteksten, men det er usannsynlig at du noensinne trenger et spesialsymbol som "@" eller "#. ”
+adding-sentences-subheader-special-characters = Spesialtegn og utenlandske bokstaver
+adding-sentences-subheader-special-characters-explanation-1 = Bokstaver må være gyldige på språket som snakkes. For eksempel er "ж" en bokstav i det russiske alfabetet, men brukes aldri på norsk og bør derfor aldri vises i noen norsk kildetekst.
+adding-sentences-subheader-special-characters-explanation-2 = Språk kan ha sine egne valideringsregler med ekstra krav når de oversettes. Hvis det ikke er noen spesifikk valideringsfil for et språk, vil de engelske reglene vises for bidragsytere.
+adding-sentences-subheader-offensive-content = Støtende Innhold
+adding-sentences-subheader-offensive-content-explanation = Hvis setningen er støtende eller opprivende - for eksempel på grunn av eksplisitt innhold, eller andre brudd på våre <communityGuidelines>retningslinjer for samfunnsdeltakelse</communityGuidelines> - bør du avvise setningen. Du kan også kontakte oss på <emailFragment>commonvoice@mozilla.com</emailFragment> for å eskalere problemet.
+reviewing-sentences-explanation-1 = Hvis setningen oppfyller kriteriene ovenfor, klikker du på "Ja"-knappen.
+reviewing-sentences-explanation-2 = Hvis setningen ikke oppfyller kriteriene ovenfor, klikker du på "Nei"-knappen.
+reviewing-sentences-explanation-3 = Hvis du er usikker på setningen, kan du også hoppe over den og gå videre til neste.
+reviewing-sentences-explanation-4 = Hvis du går tom for setninger å vurdere, vennligst hjelp oss med å samle inn flere setninger!
+domain-explanation = Domene refererer til emnet for setningen. For øyeblikket kan du velge mellom:
+
+## WRITE PAGE
+
+write-instruction = Legg til <icon></icon> en offentlig domenesetning
+write-page-subtitle = Setninger som er bidratt her vil bli lagt til et offentlig tilgjengelig cc-0-lisensiert datasett.
+sentence =
+    .label = Setning
+sentence-input-value = Skriv inn setningen din (godkjent for offentlige domene) her
+citation-input-value = Kilden til setningen din
+citation =
+    .label = Kildehenvisning
+sc-write-submit-confirm = Jeg bekrefter at denne setningen er <wikipediaLink>offentlig domene</wikipediaLink> og jeg har tillatelse til å laste den opp.
+sc-review-write-title = Hvilke setninger kan jeg legge til?
+new-sentence-rule-1 = <noCopyright>Ingen opphavsretts</noCopyright>-begrensninger (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Færre enn 15 ord per setning
+new-sentence-rule-3 = Bruk riktig grammatikk
+new-sentence-rule-4 = Bruk riktig stavemåte og tegnsetting
+new-sentence-rule-5 = Ingen tall og spesialtegn
+new-sentence-rule-6 = Ingen utenlandske bokstaver
+new-sentence-rule-7 = Inkluder passende sitering
+new-sentence-rule-8 = Ideelt sett naturlig og samtalepreg (det skal være lett å lese setningen)
+how-to-cite = Hvordan siterer jeg?
+how-to-cite-explanation-bold = Sitér med en URL-kobling eller hele navnet på verket.
+how-to-cite-explanation = Hvis det er dine egne ord, bare si <italicizedText>“Selvsitering”</italicizedText>. Vi trenger å vite hvor du fant dette innholdet, slik at vi kan sjekke at det er i det offentlige domene og ingen opphavsrettsbegrensninger gjelder. For mer informasjon om sitering, se våre <guidelinesLink>Retningslinjer</guidelinesLink>.
+guidelines = Retningslinjer
+contact-us = Kontakt oss
+add-sentence-success = 1 setning innsamlet
+add-sentence-error = Feil ved å legge til setning
+required-field = Fyll ut dette feltet.
+single-sentence-submission = Enkeltsetningsinnsending
+bulk-sentence-submission = Masseinnsending av setninger
+single-sentence = Enkelt setning
+bulk-sentences = Massesetninger
+sentence-domain-select =
+    .label = Setningsdomene
+# Sentence Domain dropdown option
+agriculture = Jordbruk
+# Sentence Domain dropdown option
+automotive = Bil
+# Sentence Domain dropdown option
+finance = Finans
+# Sentence Domain dropdown option
+food_service_retail = Mat, service og detaljhandel
+# Sentence Domain dropdown option
+general = Generelt
+# Sentence Domain dropdown option
+healthcare = Helsevesen
+# Sentence Domain dropdown option
+history_law_government = Historie, lov og stat
+# Sentence Domain dropdown option
+language_fundamentals = Grunnleggende språk (f.eks. sifre, bokstaver, penger)
+# Sentence Domain dropdown option
+media_entertainment = Media og underholdning
+# Sentence Domain dropdown option
+nature_environment = Natur og miljø
+# Sentence Domain dropdown option
+news_current_affairs = Nyheter og Aktuelle saker
+# Sentence Domain dropdown option
+technology_robotics = Teknologi og robotikk
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Sjekk <icon></icon> er dette en språklig korrekt setning?
+sc-review-rules-title = Oppfyller setningen retningslinjene?
+sc-review-empty-state = Det er for øyeblikket ingen setninger å vurdere på dette språket.
+report-sc-different-language = Annet språk
+report-sc-different-language-detail = Den er skrevet på et annet språk enn det jeg gjennomgår.
+sentences-fetch-error = Det oppsto en feil under henting av setninger
+review-error = Det oppstod en feil ved gjennomgang av denne setningen
+review-error-rate-limit-exceeded = Du er for rask. Ta deg tid til å se gjennom setningen for å sikre at den er riktig.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Vi gjør noen store endringer
+sc-redirect-page-subtitle-1 = Sentence Collector flytter til kjerneplattformen Common Voice. Du kan nå <writeURL>skrive</writeURL> en setning eller <reviewURL>se gjennom</reviewURL> enkeltsetningsinnsendinger på Common Voice.
+sc-redirect-page-subtitle-2 = Still oss spørsmål på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller <emailLink>e-post</emailLink>.
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Last opp <icon></icon> setninger godkjent for offentlig domene
+sc-bulk-upload-instruction = Dra filen din hit eller <uploadButton>klikk for å laste opp</uploadButton>
+sc-bulk-upload-instruction-drop = Slipp filen her for å laste opp
+bulk-upload-additional-information = Hvis det er tilleggsinformasjon du vil oppgi om denne filen, vennligst kontakt <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Hvis det er tilleggsinformasjon du vil oppgi om denne filen som ikke er inkludert i malen, vennligst kontakt <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Prøv igjen ved å dra filen hit
+try-upload-again-md = Prøv å laste opp igjen
+select-file = Velg fil
+select-file-mobile = Velg en fil å laste opp
+accepted-files = Godkjente filtyper: kun .tsv
+maximum-file-size = Maksimal filstørrelse: 25 MB
+what-needs-to-be-in-file = Hva må være i filen min?
+what-needs-to-be-in-file-explanation = Vennligst sjekk vår <templateFileLink>malfil</templateFileLink>. Setningene dine bør være opphavsrettsfrie (CC0 eller tillatt originalverk av innsenderen) og være klare, grammatisk korrekte og lette å lese. Innsendte setninger bør ta omtrent 10–15 sekunder å lese og bør unngå å inkludere tall, egennavn og spesialtegn.
+upload-progress-text = Opplasting pågår...
+sc-bulk-submit-confirm = Jeg bekrefter at disse setningene er <wikipediaLink>offentlig domene</wikipediaLink> og jeg har tillatelse til å laste dem opp.
+bulk-upload-success-toast = Massesetninger lastet opp
+bulk-upload-failed-toast = Opplasting mislyktes. Prøv på nytt.
+bulk-submission-success-header = Takk for at du bidro med masseinnsendingen!
+bulk-submission-success-subheader = Du hjelper Common Voice med å nå våre daglige setningsmål!
+upload-more-btn-text = Laste opp flere setninger?
+file-invalid-type = Ugyldig fil
+file-too-large = Filen er for stor
+file-too-small = Filen er for liten
+too-many-files = For mange filer
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Vi trenger</mark><br/><mark>din hjelp!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Det koster nesten en million dollar i året å være vert for datasettene og forbedre plattformen for de over 100 språksamfunnene som er avhengige av det vi gjør. <strong>Hvis du verdsetter åpne, inkluderende data – doner i dag!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Bruker du CV for</mark><br/><mark>forskningen din?</mark>
+languages-donate-banner-cta-explanation = Common Voice er finansiert av donasjoner og tilskudd! Vi liker å samarbeide med akademikere, sivilsamfunn og industriforskere. Common Voice er gratis å bruke, men å bidra til plattform- og vertskostnader gjennom tilskuddsforslag er veldig nyttig.

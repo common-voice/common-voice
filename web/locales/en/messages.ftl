@@ -458,6 +458,8 @@ help-accent = Need some help with accent?
 help-accent-explanation = Your accent is the way you pronounce words. It can be shaped by where you have lived, which other languages you speak and lots of other factors. You can share any information you feel is relevant here.
 help-variants = Need some help with variants?
 help-variants-explanation = Variants are a specific form of a language - for example shared by those living in a geography or commmunity. Sometimes these are called dialects.
+help-sex-or-gender-changes = Need help with the Sex or Gender changes?
+help-sex-or-gender-changes-explanation = We are offering more options to give people more choice in what they tell us about their sex or gender identity. Please self-describe in the way that feels most natural to you. <learnMoreLink>Learn more about our approach to sex and gender.</learnMoreLink>
 
 ## Profile - Email
 browse-file-title = Upload an image file
@@ -705,6 +707,12 @@ about-playbook-how-project-governance-content-4 = Community participation and de
 about-playbook-how-project-governance-content-5 = Value and recognition.
 about-playbook-how-project-governance-content-6 = Mutual accountability.
 about-playbook-how-project-governance-content-7 = <governanceLink>Read more about how we're governed</governanceLink>
+
+## How is Common Voice funded
+about-playbook-how-funded = How is Common Voice funded?
+about-playbook-how-funded-content-1 = Common Voice is a project of the Mozilla Foundation, a US 501c3. The project is currently funded entirely by <philantropicGrantLink>philanthropic grants</philantropicGrantLink>, and donations from people around the world.
+about-playbook-how-funded-content-2 = It costs a lot of money to continually host and release the datasets, improve the platform and run <africaMradiLink>community programmes</africaMradiLink>.
+about-playbook-how-funded-content-3 = If you or your organisation would like to contribute back to the project, you can make a <donateLink>donation</donateLink> or reach out to our partnerships team on <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 glossary = Glossary
@@ -1610,7 +1618,7 @@ partnerships-our-partners = Our Partners
 
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Thank you for donating your voice clips!
-first-cta-subtitle-text = Would you like to share some information about how you speak?
+first-cta-subtitle-text = By telling us about yourself, you will help developers build more inclusive technology
 why-donate = Why are you asking?
 why-donate-explanation-1 = This information is optional to provide - you should only add it if you feel comfortable. When we release the dataset, we pseudonymise all personal information, and make sure information like your name and email are not connected to demographic information like age or sex.
 why-donate-explanation-2 = For technology to work well for everyone, the data that helps developers to build technology needs to reflect a diverse range of people. For example, if we don't include any speakers with a particular accent, then the technology won't work well for people with that accent. <learnMore>Learn more about why metadata matters.</learnMore>
@@ -1619,6 +1627,9 @@ continue-speaking-button = No thanks, continue speaking
 create-profile-text = Want to save your information? <createProfile>Create a profile</createProfile>
 thanks-for-voice-toast = Thank you for your voice information
 thanks-for-voice-toast-error = An error occurred submitting your voice information
+first-cta-gender-select-default-option = Select an option
+first-cta-gender-select-help-text =
+  .label = How would you describe your sex or gender?
 
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Thank you for contributing your voice!
@@ -1823,3 +1834,12 @@ file-invalid-type = Invalid file
 file-too-large = File is too large
 file-too-small = File is too small
 too-many-files = Too many files
+
+## Donate banner
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>We need</mark><br/><mark>your help!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = It costs almost a million dollars a year to host the datasets and improve the platform for the 100+ language communities who rely on what we do. <strong>If you value open, inclusive data - donate today!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Using CV for</mark><br/><mark>your research?</mark>
+languages-donate-banner-cta-explanation = Common Voice is funded by donations and grants! We love collaborating with academics, civil society and industry researchers. Common Voice is free to use, but contributing to platform and hosting costs through grant proposals is really helpful.

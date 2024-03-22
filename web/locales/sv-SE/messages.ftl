@@ -452,6 +452,8 @@ help-accent = Behöver du hjälp med accent?
 help-accent-explanation = Din accent är hur du uttalar ord. Det kan formas av var du har bott, vilka andra språk du talar och massor av andra faktorer. Du kan dela all information som du tycker är relevant här.
 help-variants = Behöver du hjälp med dialekter?
 help-variants-explanation = Varianter är en specifik form av ett språk - till exempel delas av de som bor i ett visst geografiskt område eller ett visst samhälle. Ibland kallas dessa för dialekter.
+help-sex-or-gender-changes = Behöver du hjälp med köns- eller könsförändringar?
+help-sex-or-gender-changes-explanation = Vi erbjuder fler alternativ för att ge människor större valfrihet i vad de berättar om sitt kön eller könsidentitet. Beskriv själv på det sätt som känns mest naturligt för dig. <learnMoreLink>Lär dig mer om vårt förhållningssätt till sex och kön.</learnMoreLink>
 
 ## Profile - Email
 
@@ -484,7 +486,7 @@ faq-what-cv-a-2 =
     Teknologin för röstigenkänning revolutionerar sättet på hur vi interagerar med maskiner, men dagens tillgängliga system är både dyra och patentskyddade. 'Mozilla Common Voice' är ett initiativ för att göra röstigenkänningsteknologin både bättre och tillgängligt för alla.
     'Common Voice' är en massiv global databas med donerade röster som låter vem som helst, snabbt och lätt att träna appar med röstigenkänning i potentiellt vilket språk som helst.
     
-    Vi samlar inte bara på röster från dom största språken utan även ifrån mindre talade språk.
+    Vi samlar inte bara på röster från de största språken utan även ifrån mindre talade språk.
     Att publicera ett dataset med ett stort utbud av röster lägger grunden för att stimulera programutvecklare, entreprenörer och andra grupper att själva börja lägga till data som saknas.
 faq-why-important-q = Varför är det viktigt?
 faq-why-important-a =
@@ -686,6 +688,13 @@ about-playbook-how-project-governance-content-5 = Värde och erkännande.
 about-playbook-how-project-governance-content-6 = Ömsesidigt ansvar.
 about-playbook-how-project-governance-content-7 = <governanceLink>Läs mer om hur vi styrs</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Hur finansieras Common Voice?
+about-playbook-how-funded-content-1 = Common Voice är ett projekt av Mozilla Foundation, en US 501c3. Projektet finansieras för närvarande helt av <philantropicGrantLink>filantropiska anslag</filantropicGrantLink> och donationer från människor runt om i världen.
+about-playbook-how-funded-content-2 = Det kostar mycket pengar att kontinuerligt vara värd för och släppa datamängder, förbättra plattformen och köra <africaMradiLink>gemenskapsprogram</africaMradiLink>.
+about-playbook-how-funded-content-3 = Om du eller din organisation vill bidra till projektet kan ni göra en <donateLink>donation</donateLink> eller kontakta vårt partnerskapsteam på <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = Ordlista
@@ -811,6 +820,11 @@ no-information-available = Ingen information tillgänglig
 dataset-metadata-sex = Kön
 # dataset metadata - age of contributor
 dataset-metadata-age = Ålder
+donate-modal-message = Din datamängd laddas ner!
+dataset-donate-modal-heading = Visste du att…
+donate-modal-explanation-1 = Det kostar nästan en miljon dollar per år att vara värd för datamängder och förbättra plattformen för de över 100 språkgemenskaper som litar på det vi gör?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Om du värderar öppen, inkluderande data - donera idag!</bold>
 
 ## Download Modal
 
@@ -1620,6 +1634,9 @@ continue-speaking-button = Nej tack, fortsätt tala
 create-profile-text = Vill du spara din information? <createProfile>Skapa en profil</createProfile>
 thanks-for-voice-toast = Tack för din röstinformation
 thanks-for-voice-toast-error = Ett fel uppstod när din röstinformation skickades
+first-cta-gender-select-default-option = Välj ett alternativ
+first-cta-gender-select-help-text =
+    .label = Hur skulle du beskriva ditt kön?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Tack för att du bidrar med din röst!
 second-cta-subtitle-text = Med en profil kan du hålla reda på din aktivitet och få kontakt med en grupp bidragsgivare av röstdata.
@@ -1823,3 +1840,13 @@ file-invalid-type = Felaktig fil
 file-too-large = Filen är för stor
 file-too-small = Filen är för liten
 too-many-files = För många filer
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Vi behöver</mark><br/><mark>din hjälp!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Det kostar nästan en miljon dollar per år att vara värd för datamängder och förbättra plattformen för de över 100 språkgemenskaper som förlitar sig på det vi gör. <strong>Om du värderar öppen, inkluderande data - donera idag!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Använder du CV för</mark><br/><mark>din forskning?</mark>
+languages-donate-banner-cta-explanation = Common Voice finansieras av donationer och bidrag! Vi älskar att samarbeta med akademiker, civilsamhället och forskare inom industrin. Common Voice är gratis att använda, men att bidra till plattforms- och värdkostnader genom bidragsförslag är verkligen användbart.

@@ -1,7 +1,7 @@
 import { taskEither as TE, taskOption as TO } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { MysqlError } from 'mysql2Types'
-import { Sentence } from '../../../core/sentences/types'
+import { UnvalidatedSentence } from '../../../core/sentences/types'
 import { SentencesForReviewRow } from '../../../infrastructure/db/types'
 import Mysql, { getMySQLInstance } from '../../../lib/model/db/mysql'
 import { createSentenceId } from '../../../lib/utility'
@@ -29,17 +29,28 @@ const insertSentenceTransaction = async (
       `
         INSERT INTO sentences (id, text, source, locale_id)
         VALUES (?, ?, ?, ?);
-     `,
+      `,
       [sentenceId, sentence.sentence, sentence.source, sentence.locale_id]
     )
 
     await conn.query(
       `
-        INSERT INTO sentence_metadata(sentence_id, client_id, domain_id)
-        VALUES (?, ?, ?);
-     `,
-      [sentenceId, sentence.client_id, sentence.domain_id]
+        INSERT INTO sentence_metadata(sentence_id, client_id)
+        VALUES (?, ?);
+      `,
+      [sentenceId, sentence.client_id]
     )
+
+    for (const domainId of sentence.domain_ids ?? []) {
+      await conn.query(
+        `
+          INSERT INTO sentence_domains(sentence_id, domain_id)
+          VALUES (?, ?);
+        `,
+        [sentenceId, domainId]
+      )
+    }
+
     await conn.commit()
   } catch (err) {
     await conn.rollback()
@@ -138,11 +149,13 @@ const insertSentence =
       )
     }
 
+export type InsertBulkSentences = (
+  sentenceSubmissions: SentenceSubmission[]
+) => TE.TaskEither<Error, void>
+
 const insertBulkSentences =
   (db: Mysql) =>
-    (
-      sentenceSubmissions: SentenceSubmission[]
-    ): TE.TaskEither<Error, unknown> => {
+    (sentenceSubmissions: SentenceSubmission[]): TE.TaskEither<Error, void> => {
       return TE.tryCatch(
         () => insertBulkSentencesTransaction(db, sentenceSubmissions),
         (err: Error) => err
@@ -172,10 +185,10 @@ const insertSentenceVote =
       )
     }
 
-const mapRowToSentence = ([pendingSentenceRows]: [
+const toUnvalidatedSentence = ([unvalidatedSentenceRows]: [
   [SentencesForReviewRow]
-]): Sentence[] =>
-  pendingSentenceRows.map(row => ({
+]): UnvalidatedSentence[] =>
+  unvalidatedSentenceRows.map(row => ({
     sentence: row.text,
     sentenceId: row.id,
     source: row.source,
@@ -187,11 +200,12 @@ const findSentencesForReview =
     (queryParams: {
       localeId: number
       clientId: string
-    }): TO.TaskOption<Sentence[]> => {
+    }): TO.TaskOption<UnvalidatedSentence[]> => {
       return pipe(
         TO.tryCatch(() =>
           db.query(
-            `SELECT
+            `
+          SELECT
             sentences.id,
             sentences.text,
             sentences.source,
@@ -213,31 +227,31 @@ const findSentencesForReview =
           HAVING
             number_of_votes < 2 OR # not enough votes yet
             number_of_votes = 2 AND number_of_approving_votes = 1 # a tie at one each
-          LIMIT 50
+          LIMIT 100
         `,
             [queryParams.localeId, queryParams.clientId, queryParams.clientId]
           )
         ),
-        TO.map(mapRowToSentence)
+        TO.map(toUnvalidatedSentence)
       )
     }
 
-const findSentenceDomainByName = (db: Mysql) => (domainName: string): TO.TaskOption<number> =>
-  TO.tryCatch(
-    async () => {
-      const [[result]] = await db.query(
-        `
-          SELECT id FROM sentence_domains WHERE domain = ?
+const findDomainIdByName =
+  (db: Mysql) =>
+    (domainName: string): TO.TaskOption<number> =>
+      TO.tryCatch(async () => {
+        const [[result]] = await db.query(
+          `
+          SELECT id FROM domains WHERE domain = ?
         `,
-        [domainName]
-      )
+          [domainName]
+        )
 
-      return result ? Promise.resolve(result.id) : Promise.reject()
-    }
-  )
+        return result ? Promise.resolve(result.id) : Promise.reject()
+      })
 
 export const insertSentenceIntoDb = insertSentence(db)
 export const insertBulkSentencesIntoDb = insertBulkSentences(db)
 export const insertSentenceVoteIntoDb = insertSentenceVote(db)
 export const findSentencesForReviewInDb = findSentencesForReview(db)
-export const findSentenceDomainByNameInDb = findSentenceDomainByName(db)
+export const findDomainIdByNameInDb = findDomainIdByName(db)

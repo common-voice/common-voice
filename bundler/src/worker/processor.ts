@@ -16,6 +16,7 @@ import { runUpload } from '../core/upload'
 import { runCleanUp } from '../core/cleanUp'
 import { doesFileExistInBucket } from '../infrastructure/storage'
 import { getDatasetBundlerBucketName, getTmpDir } from '../config/config'
+import { runFetchSentencesForLocale } from '../core/sentences'
 
 const processPipeline = pipe(
   RTE.Do,
@@ -26,6 +27,7 @@ const processPipeline = pipe(
   RTE.bind('totalDurationInMs', runMp3DurationReporter),
   RTE.chainFirst(runCorporaCreator),
   RTE.chainFirst(runReportedSentences),
+  RTE.chainFirst(runFetchSentencesForLocale),
   RTE.bind('tarFilepath', runCompress),
   RTE.bind('uploadPath', ({ tarFilepath }) => runUpload(tarFilepath)),
   RTE.bind('stats', ({ totalDurationInMs, tarFilepath }) =>

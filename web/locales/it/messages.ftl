@@ -406,8 +406,12 @@ native-language =
 profile-form-add-accent = Aggiungi nuovo accento personalizzato “{ $inputValue }”
 profile-form-submit-save = Salva
 profile-form-submit-saved = Salva
-male = Maschio
-female = Femmina
+male_masculine = Uomo/Maschile
+female_feminine = Donna/Femminile
+intersex = Intersessuale
+transgender = Transgender
+non-binary = Non binario
+do_not_wish_to_say = Preferisco non rispondere
 # Gender
 other = Altro
 why-profile-title = Perché registrare un profilo?
@@ -443,6 +447,8 @@ help-accent = Hai bisogno di aiuto con l’accento?
 help-accent-explanation = Il tuo accento è il modo in cui pronunci le parole. Può essere condizionato dal luogo in cui hai vissuto, da quali altre lingue parli e da molti altri fattori. Qui puoi condividere qualsiasi informazione che ritieni pertinente.
 help-variants = Hai bisogno di aiuto con le varianti?
 help-variants-explanation = Le varianti sono una forma specifica di una lingua, ad esempio condivisa da coloro che vivono in determinate aree geografiche o comunità. A volte queste varianti vengono chiamate dialetti.
+help-sex-or-gender-changes = Hai bisogno di aiuto per le modifiche relative a sesso o genere?
+help-sex-or-gender-changes-explanation = Abbiamo deciso di offrire più opzioni per garantire alle persone maggiore scelta nel definire il proprio sesso o la propria identità di genere. Descriviti nel modo che ritieni più naturale. <learnMoreLink>Ulteriori informazioni sul nostro approccio a sesso e genere.</learnMoreLink>
 
 ## Profile - Email
 
@@ -667,6 +673,13 @@ about-playbook-how-project-governance-content-5 = Valore e riconoscimento.
 about-playbook-how-project-governance-content-6 = Responsabilità reciproca.
 about-playbook-how-project-governance-content-7 = <governanceLink>Ulteriori informazioni sui criteri di gestione del progetto.</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Come viene finanziato Common Voice?
+about-playbook-how-funded-content-1 = Common Voice è un progetto di Mozilla Foundation, un’organizzazione US 501c3. Al momento, il progetto è interamente finanziato da <philantropicGrantLink>contributi filantropici</philantropicGrantLink> e donazioni da persone di tutto il mondo.
+about-playbook-how-funded-content-2 = Ospitare e rilasciare continuamente i dataset, migliorare la piattaforma e gestire i <africaMradiLink>programmi della comunità</africaMradiLink> è molto costoso.
+about-playbook-how-funded-content-3 = Se tu o la tua organizzazione volete contribuire al progetto, potete fare una <donateLink>donazione</donateLink> o contattare il nostro team che si occupa delle partnership all’indirizzo email <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = Glossario
@@ -791,6 +804,11 @@ no-information-available = Nessuna informazione disponibile
 dataset-metadata-sex = Sesso
 # dataset metadata - age of contributor
 dataset-metadata-age = Età
+donate-modal-message = Il tuo dataset è in fase di download.
+dataset-donate-modal-heading = Lo sapevi che…
+donate-modal-explanation-1 = Ospitare i dataset e migliorare la piattaforma per le oltre 100 comunità linguistiche che fanno affidamento su ciò che facciamo costa quasi un milione di dollari all’anno?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Se apprezzi la possibilità di accedere a dati aperti e inclusivi, fai una donazione oggi stesso</bold>
 
 ## Download Modal
 
@@ -1583,6 +1601,9 @@ continue-speaking-button = No grazie, continua a parlare
 create-profile-text = Vuoi salvare le tue informazioni? <createProfile>Crea un profilo</createProfile>
 thanks-for-voice-toast = Grazie per aver aggiunto informazioni sulla tua voce
 thanks-for-voice-toast-error = Si è verificato un errore durante l’invio delle informazioni sulla tua voce
+first-cta-gender-select-default-option = Seleziona un’opzione
+first-cta-gender-select-help-text =
+    .label = Come descriveresti il tuo sesso o genere?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Grazie per aver donato la tua voce.
 second-cta-subtitle-text = Con un profilo puoi tenere traccia della tua attività ed entrare in contatto con una comunità di donatori di voce.
@@ -1643,6 +1664,7 @@ public-domain = Pubblico dominio
 citing-sentences = Citare frasi
 adding-sentences = Aggiungere frasi
 reviewing-sentences = Convalidare frasi
+sentence-domain = Dominio della frase
 public-domain-explanation-1 = È molto importante che tutte le frasi siano di <publicDomain>pubblico dominio</publicDomain> (<cc0>cc0</cc0>) poiché il dataset di Common Voice è distribuito con licenza cc0. Inserisci una frase solo se ne sei sicuro e includi sempre la citazione.
 public-domain-explanation-2 = Le frasi migliori per costruire un motore di riconoscimento vocale efficace sono quelle in cui viene utilizzato un linguaggio colloquiale e attuale. Ecco alcune idee per aiutarti a generare frasi:
 public-domain-explanation-3 = Crea frasi colloquiali e attuali individualmente, con i tuoi amici o con la tua comunità linguistica, per esempio organizzando una "maratona di scrittura"
@@ -1681,7 +1703,10 @@ reviewing-sentences-explanation-1 = Se la frase soddisfa tutti i criteri descrit
 reviewing-sentences-explanation-2 = Se la frase non soddisfa tutti i criteri descritti sopra, fai clic sul pulsante “No“.
 reviewing-sentences-explanation-3 = Se non sei sicuro, puoi anche saltare la frase e passare a quella successiva.
 reviewing-sentences-explanation-4 = Se non ci sono più frasi da convalidare, aiutaci a raccoglierne altre!
-# WRITE PAGE
+domain-explanation = Il dominio si riferisce all’argomento della frase. Al momento, puoi scegliere tra:
+
+## WRITE PAGE
+
 write-instruction = <icon></icon> Aggiungi una frase di pubblico dominio
 write-page-subtitle = Le frasi inserite verranno aggiunte a un dataset con licenza cc-0 disponibile pubblicamente.
 sentence =
@@ -1712,6 +1737,32 @@ single-sentence-submission = Invio di una singola frase
 bulk-sentence-submission = Invio di frasi in blocco
 single-sentence = Singola frase
 bulk-sentences = Frasi in blocco
+sentence-domain-select =
+    .label = Dominio della frase
+# Sentence Domain dropdown option
+agriculture = Agricoltura
+# Sentence Domain dropdown option
+automotive = Automobili
+# Sentence Domain dropdown option
+finance = Finanza
+# Sentence Domain dropdown option
+food_service_retail = Cibo, servizi e vendita al dettaglio
+# Sentence Domain dropdown option
+general = Generale
+# Sentence Domain dropdown option
+healthcare = Sanità
+# Sentence Domain dropdown option
+history_law_government = Storia, diritto e governo
+# Sentence Domain dropdown option
+language_fundamentals = Fondamenti della lingua (ad es. cifre, lettere, valuta)
+# Sentence Domain dropdown option
+media_entertainment = Media e intrattenimento
+# Sentence Domain dropdown option
+nature_environment = Natura e ambiente
+# Sentence Domain dropdown option
+news_current_affairs = Notizie e attualità
+# Sentence Domain dropdown option
+technology_robotics = Tecnologia e robotica
 
 ## REVIEW PAGE
 
@@ -1756,3 +1807,13 @@ file-invalid-type = File non valido
 file-too-large = Il file è troppo grande
 file-too-small = Il file è troppo piccolo
 too-many-files = Troppi file
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Abbiamo bisogno del tuo</mark><br/><mark>aiuto!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Ospitare i dataset e migliorare la piattaforma per le oltre 100 comunità linguistiche che fanno affidamento su ciò che facciamo costa quasi un milione di dollari all’anno. <strong>Se apprezzi la possibilità di accedere a dati aperti e inclusivi, fai una donazione oggi stesso!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Utilizzi Common Voice per</mark><br/><mark>le tue ricerche?</mark>
+languages-donate-banner-cta-explanation = Common Voice è finanziato da donazioni e sovvenzioni. Amiamo collaborare con accademici, società civile e ricercatori del settore. Common Voice è gratuito, ma sostenere parte dei costi della piattaforma e dell’hosting attraverso proposte di sovvenzione è davvero utile.
