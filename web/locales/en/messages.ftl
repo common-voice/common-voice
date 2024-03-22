@@ -810,6 +810,8 @@ subscribe = Subscribe
 get-started-speech = Get Started with Speech Recognition
 other-datasets = Other Voice Datasets
 feedback-q = Have Feedback?
+# This indicates that there is no data to display
+no-information = No information
 
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is an <docsLink>open-source toolkit</docsLink> for researchers developing state-of-the-art conversational AI models.
 resource-deepspeech-info = Mozilla’s open source voice recognition engine Deep Speech can be used to build speech recognition applications. Read our <githubLink>Github overview</githubLink> or join the <discourseLink>DeepSpeech Discourse</discourseLink> to learn how to get started.
