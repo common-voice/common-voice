@@ -512,7 +512,7 @@ faq-search-for-answers =
 
 about-title = Ç’duhet Common Voice?
 about-header-description-v2 =
-    <p>Common Voice është një grup të dhënash zëri që mund të kihet publikisht, i ngritur nga zërat e kontribuesve vullnetarë nga anembanë bota. Njerëzit që duan të krijojnë aplikacione zër mund ta përdorin grupin e të dhënave për të stërvitur modele të nxëni nga makinat.</p>
+    <p>Common Voice është një grup të dhënash zëri që mund të kihet publikisht, i ngritur nga zërat e kontribuesve vullnetarë nga anembanë bota. Njerëzit që duan të krijojnë aplikacione zëri mund ta përdorin grupin e të dhënave për të stërvitur modele të nxëni nga makinat.</p>
     <p>Deri sot, shumica e grupeve të të dhënave mbi zëra janë pronë shoqërish, çka e bën të ngecë novacionin. Grupet e të dhënave të zërit përfaqësojnë dobët: folës jo të anglishtes, persona me ngjyrë, persona me aftësi të kufizuara, gra dhe persona LGBTQIA+. Kjo do të thotë se teknologji të bazuara në zërin s’funksionojnë fare për mjaft gjuhë dhe atje ku funksionojnë, mund të mos kenë të njëjtin sukses për gjithkënd. Duam ta ndryshojmë këtë, duke mobilizuar njerëz kudo të japin zërin e tyre.</p>
 how-does-it-work-title-v2 = Si funksionon Common Voice work?
 how-does-it-work-text = Po krijojmë, me ndihmën e publikut, një grup të dhënash zanore me burim të hapur. Dhuroni zërin tuaj, vlerësoni përpikërinë e copëzave të incizuara nga persona të tjerë, bëjeni grupin e të dhënave më të mirë për këdo.
