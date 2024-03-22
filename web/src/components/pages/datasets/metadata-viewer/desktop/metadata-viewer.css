@@ -28,5 +28,12 @@
         p.gender {
             text-transform: capitalize;
         }
+
+        div.gender-splits {
+            p.no-information {
+                margin-block: 8px;
+                font-weight: bold;
+            }
+        }
     }
 }
