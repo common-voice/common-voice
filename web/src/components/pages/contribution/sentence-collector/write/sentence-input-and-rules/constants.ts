@@ -14,3 +14,21 @@ export const SENTENCE_DOMAIN_MAPPING: Record<SentenceDomain, string> = {
   news_current_affairs: 'News and Current Affairs',
   technology_robotics: 'Technology and Robotics',
 }
+
+export const domains = [
+  { id: 'agriculture', name: 'Agriculture' },
+  { id: 'automotive', name: 'Automotive' },
+  { id: 'finance', name: 'Finance' },
+  { id: 'food_service_retail', name: 'Food, Service and Retail' },
+  { id: 'general', name: 'General' },
+  { id: 'healthcare', name: 'Healthcare' },
+  { id: 'history_law_government', name: 'History, Law and Government' },
+  {
+    id: 'language_fundamentals',
+    name: 'Language Fundamentals (e.g. Digits, Letters, Money)',
+  },
+  { id: 'media_entertainment', name: 'Media and Entertainment' },
+  { id: 'nature_environment', name: 'Nature and Environment' },
+  { id: 'news_current_affairs', name: 'News and Current Affairs' },
+  { id: 'technology_robotics', name: 'echnology and Robotics' },
+]
