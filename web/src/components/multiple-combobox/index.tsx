@@ -1,48 +1,78 @@
 import * as React from 'react'
 import { useCombobox, useMultipleSelection } from 'downshift'
+import { Localized } from '@fluent/react'
 
-function getFilteredItems(selectedItems, inputValue) {
+import { LabeledInput } from '../ui/ui'
+import { SelectedItemsList } from './selected-items-list'
+
+import './multiple-combobox.css'
+
+export type MultipleComboBoxItem = { id: string; name: string }
+
+// TODO: move this to a hook
+const getFilteredItems = ({
+  elements,
+  selectedItems,
+  inputValue,
+}: {
+  elements: MultipleComboBoxItem[]
+  selectedItems: MultipleComboBoxItem[]
+  inputValue: string
+}) => {
   const lowerCasedInputValue = inputValue.toLowerCase()
 
   return elements.filter(
     element =>
       !selectedItems.includes(element) &&
-      element.toLowerCase().startsWith(lowerCasedInputValue)
+      element.name.toLowerCase().startsWith(lowerCasedInputValue)
   )
 }
 
-export const MultipleCombobox = () => {
+type Props = {
+  elements: MultipleComboBoxItem[]
+  maxNumberOfSelectedElements?: number
+}
+
+// TODO: can we fix the any
+const Input = LabeledInput as any
+
+export const MultipleCombobox: React.FC<Props> = ({
+  elements,
+  maxNumberOfSelectedElements,
+}) => {
   const [inputValue, setInputValue] = React.useState('')
-  const [selectedItems, setSelectedItems] = React.useState(initialSelectedItems)
+  const [selectedItems, setSelectedItems] = React.useState<
+    MultipleComboBoxItem[]
+  >([])
+
   const items = React.useMemo(
-    () => getFilteredItems(selectedItems, inputValue),
+    () => getFilteredItems({ elements, selectedItems, inputValue }),
     [selectedItems, inputValue]
   )
-  const { getSelectedItemProps, getDropdownProps, removeSelectedItem } =
-    useMultipleSelection({
-      selectedItems,
-      onStateChange({ selectedItems: newSelectedItems, type }) {
-        switch (type) {
-          case useMultipleSelection.stateChangeTypes
-            .SelectedItemKeyDownBackspace:
-          case useMultipleSelection.stateChangeTypes.SelectedItemKeyDownDelete:
-          case useMultipleSelection.stateChangeTypes.DropdownKeyDownBackspace:
-          case useMultipleSelection.stateChangeTypes.FunctionRemoveSelectedItem:
-            setSelectedItems(newSelectedItems)
-            break
-          default:
-            break
-        }
-      },
-    })
+
+  const { getDropdownProps, removeSelectedItem } = useMultipleSelection({
+    selectedItems,
+    onStateChange({ selectedItems: newSelectedItems, type }) {
+      switch (type) {
+        case useMultipleSelection.stateChangeTypes.SelectedItemKeyDownBackspace:
+        case useMultipleSelection.stateChangeTypes.SelectedItemKeyDownDelete:
+        case useMultipleSelection.stateChangeTypes.DropdownKeyDownBackspace:
+        case useMultipleSelection.stateChangeTypes.FunctionRemoveSelectedItem:
+          setSelectedItems(newSelectedItems)
+          break
+        default:
+          break
+      }
+    },
+  })
+
   const {
     isOpen,
-    getToggleButtonProps,
-    getLabelProps,
     getMenuProps,
     getInputProps,
     highlightedIndex,
     getItemProps,
+    openMenu,
   } = useCombobox({
     items,
     inputValue,
@@ -56,7 +86,12 @@ export const MultipleCombobox = () => {
         case useCombobox.stateChangeTypes.InputBlur:
           return {
             ...changes,
-            ...(changes.selectedItem && { isOpen: true, highlightedIndex: 0 }),
+            inputValue: '',
+          }
+        case useCombobox.stateChangeTypes.InputClick:
+          return {
+            ...changes,
+            isOpen: true,
           }
         default:
           return changes
@@ -81,30 +116,33 @@ export const MultipleCombobox = () => {
       }
     },
   })
+
+  const handleFocus: React.FocusEventHandler<HTMLInputElement> = () => {
+    openMenu()
+  }
+
+  const handleClick: React.MouseEventHandler<HTMLInputElement> = () => {
+    openMenu()
+  }
+
   return (
-    <div>
-      <label {...getLabelProps()}>Choose some elements:</label>
+    <div className="multiple-sentence-domain-select">
       <div>
-        {selectedItems.map((selectedItem, index) => (
-          <span
-            key={`selected-item-${index}`}
-            {...getSelectedItemProps({ selectedItem, index })}>
-            {selectedItem}
-            <span onClick={() => removeSelectedItem(selectedItem)}>
-              &#10005;
-            </span>
-          </span>
-        ))}
-        <div>
-          <input
-            {...getInputProps(getDropdownProps({ preventKeyAction: isOpen }))}
+        <Localized id="sentence-domain-select" attrs={{ label: true }}>
+          <Input
+            {...getInputProps(
+              getDropdownProps({
+                preventKeyAction: isOpen,
+                onFocus: handleFocus,
+                onClick: handleClick,
+                disabled: selectedItems.length === maxNumberOfSelectedElements,
+              })
+            )}
           />
-          <button {...getToggleButtonProps()} aria-label={'toggle menu'}>
-            &#8595;
-          </button>
-        </div>
+        </Localized>
       </div>
-      <ul {...getMenuProps()}>
+
+      <ul {...getMenuProps()} className={isOpen ? 'downshift-open' : ''}>
         {isOpen &&
           items.map((item, index) => (
             <li
@@ -113,10 +151,17 @@ export const MultipleCombobox = () => {
               }
               key={`${item}${index}`}
               {...getItemProps({ item, index })}>
-              {item}
+              {item.name}
             </li>
           ))}
       </ul>
+
+      {selectedItems && (
+        <SelectedItemsList
+          selectedItems={selectedItems}
+          removeItem={removeSelectedItem}
+        />
+      )}
     </div>
   )
 }

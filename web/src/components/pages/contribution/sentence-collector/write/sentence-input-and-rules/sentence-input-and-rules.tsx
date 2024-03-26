@@ -1,9 +1,10 @@
 import * as React from 'react'
-import { Localized, useLocalization } from '@fluent/react'
+import { Localized } from '@fluent/react'
 import classNames from 'classnames'
 
 import { EditIcon } from '../../../../../ui/icons'
-import { LabeledInput, LabeledSelect } from '../../../../../ui/ui'
+import { LabeledInput } from '../../../../../ui/ui'
+import { MultipleCombobox } from '../../../../../multiple-combobox'
 import { SingleSubmissionWriteProps } from '../single-submission-write/single-submission-write'
 import { Rules } from './rules'
 import { Instruction } from '../../instruction'
@@ -12,7 +13,7 @@ import { SentenceDomain, SentenceSubmissionError } from 'common'
 import { LabeledTextArea } from '../../../../../ui/ui'
 import { LocaleLink } from '../../../../../locale-helpers'
 import URLS from '../../../../../../urls'
-import { SENTENCE_DOMAIN_MAPPING } from './constants'
+import { sentenceDomains } from './constants'
 
 type Props = {
   getString: SingleSubmissionWriteProps['getString']
@@ -33,14 +34,10 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   getString,
   handleCitationChange,
   handleSentenceInputChange,
-  handleSentenceDomainChange,
   sentence,
   citation,
-  sentenceDomain,
   error,
 }) => {
-  const { l10n } = useLocalization()
-
   const isSentenceError = error && error !== SentenceSubmissionError.NO_CITATION
   const isCitationError = error === SentenceSubmissionError.NO_CITATION
 
@@ -63,21 +60,10 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               dataTestId="sentence-textarea"
             />
           </Localized>
-          <Localized id="sentence-domain-select" attrs={{ label: true }}>
-            <LabeledSelect
-              value={sentenceDomain}
-              onChange={handleSentenceDomainChange}
-              name="sentence-domain"
-              className="sentence-domain-select"
-              dataTestId="sentence-domain-select">
-              <option value="" />
-              {Object.entries(SENTENCE_DOMAIN_MAPPING).map(([key, value]) => (
-                <option key={key} value={key}>
-                  {l10n.getString(key, null, value)}
-                </option>
-              ))}
-            </LabeledSelect>
-          </Localized>
+          <MultipleCombobox
+            elements={sentenceDomains}
+            maxNumberOfSelectedElements={3}
+          />
           <Localized id="citation" attrs={{ label: true }}>
             <LabeledInput
               placeholder={getString('citation-input-value')}

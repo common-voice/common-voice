@@ -15,7 +15,7 @@ export const SENTENCE_DOMAIN_MAPPING: Record<SentenceDomain, string> = {
   technology_robotics: 'Technology and Robotics',
 }
 
-export const domains = [
+export const sentenceDomains = [
   { id: 'agriculture', name: 'Agriculture' },
   { id: 'automotive', name: 'Automotive' },
   { id: 'finance', name: 'Finance' },
@@ -30,5 +30,5 @@ export const domains = [
   { id: 'media_entertainment', name: 'Media and Entertainment' },
   { id: 'nature_environment', name: 'Nature and Environment' },
   { id: 'news_current_affairs', name: 'News and Current Affairs' },
-  { id: 'technology_robotics', name: 'echnology and Robotics' },
+  { id: 'technology_robotics', name: 'Technology and Robotics' },
 ]
