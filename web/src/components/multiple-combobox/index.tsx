@@ -7,8 +7,7 @@ import { SelectedItemsList } from './selected-items-list'
 
 import './multiple-combobox.css'
 
-// TODO: can we fix the any
-const Input = LabeledInput as any
+const Input = LabeledInput
 
 type Props = {
   items: string[]
@@ -117,6 +116,7 @@ export const MultipleCombobox: React.FC<Props> = ({
               })
             )}
             placeholder={l10n.getString('sentence-domain-select-placeholder')}
+            dataTestId="sentence-domain-select"
           />
         </Localized>
       </div>
@@ -131,7 +131,8 @@ export const MultipleCombobox: React.FC<Props> = ({
                   : {}
               }
               key={`${item}${index}`}
-              {...getItemProps({ item, index })}>
+              {...getItemProps({ item, index })}
+              data-testid={item}>
               {l10n.getString(item)}
             </li>
           ))}
