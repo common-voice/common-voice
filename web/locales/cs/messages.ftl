@@ -688,6 +688,9 @@ about-playbook-how-project-governance-content-5 = Hodnota a uznání.
 about-playbook-how-project-governance-content-6 = Vzájemná odpovědnost.
 about-playbook-how-project-governance-content-7 = <governanceLink>Přečtěte si více o našem fungování</governanceLink>
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = Slovník
@@ -1662,6 +1665,9 @@ continue-speaking-button = Ne, děkuji. Dál předčítat
 create-profile-text = Chcete informace uložit? <createProfile>Vytvořte si profil</createProfile>
 thanks-for-voice-toast = Děkuje za údaje o hlase.
 thanks-for-voice-toast-error = Při odesílání údajů o hlase došlo k chybě
+first-cta-gender-select-default-option = Vyberte možnost
+first-cta-gender-select-help-text =
+    .label = Jak byste popsali své pohlaví nebo gender?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Děkujeme, že jste přispěli svým hlasem!
 second-cta-subtitle-text = Pomocí profilu můžete sledovat svou aktivitu a spojit se s komunitou přispěvatelů hlasových dat.
@@ -1865,3 +1871,6 @@ file-invalid-type = Neplatný soubor
 file-too-large = Soubor je příliš velký
 file-too-small = Soubor je příliš malý
 too-many-files = Příliš mnoho souborů
+
+## Donate banner
+

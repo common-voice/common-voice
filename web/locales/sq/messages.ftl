@@ -1593,6 +1593,7 @@ continue-speaking-button = Jo, faleminderit, vazhdojmë me të folurit
 create-profile-text = Doni të ruhen hollësitë tuaja? <createProfile>Krijoni një profil</createProfile>
 thanks-for-voice-toast = Faleminderit për hollësitë tuaja mbi zërin
 thanks-for-voice-toast-error = Ndodhi një gabim gjatë parashtrimit të hollësive tuaja mbi zërin
+first-cta-gender-select-default-option = Përzgjidhni një mundësi
 first-cta-gender-select-help-text =
     .label = Si do ta përshkruanit seksin, ose gjininë tuaj?
 # SECOND POST SUBMISSION CTA
