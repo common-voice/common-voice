@@ -9,11 +9,11 @@ import { SingleSubmissionWriteProps } from '../single-submission-write/single-su
 import { Rules } from './rules'
 import { Instruction } from '../../instruction'
 import ExpandableInformation from '../../../../../expandable-information/expandable-information'
-import { SentenceDomain, SentenceSubmissionError } from 'common'
+import { SentenceSubmissionError } from 'common'
 import { LabeledTextArea } from '../../../../../ui/ui'
 import { LocaleLink } from '../../../../../locale-helpers'
 import URLS from '../../../../../../urls'
-import { sentenceDomains } from './constants'
+import { useMultipleComboBox } from '../../../../../multiple-combobox/use-multiple-combox'
 
 type Props = {
   getString: SingleSubmissionWriteProps['getString']
@@ -21,12 +21,11 @@ type Props = {
     event: React.ChangeEvent<HTMLTextAreaElement>
   ) => void
   handleCitationChange: (event: React.ChangeEvent<HTMLInputElement>) => void
-  handleSentenceDomainChange: (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => void
+  selectedSentenceDomains: string[]
+  setSelectedSentenceDomains: (domains: string[]) => void
   sentence: string
   citation: string
-  sentenceDomain: SentenceDomain
+  sentenceDomains: readonly string[]
   error: SentenceSubmissionError
 }
 
@@ -34,12 +33,21 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   getString,
   handleCitationChange,
   handleSentenceInputChange,
+  sentenceDomains,
+  selectedSentenceDomains,
+  setSelectedSentenceDomains,
   sentence,
   citation,
   error,
 }) => {
   const isSentenceError = error && error !== SentenceSubmissionError.NO_CITATION
   const isCitationError = error === SentenceSubmissionError.NO_CITATION
+
+  const { multipleComboBoxItems, inputValue, setInputValue } =
+    useMultipleComboBox({
+      items: sentenceDomains,
+      selectedItems: selectedSentenceDomains,
+    })
 
   return (
     <div className="inputs-and-instruction">
@@ -61,8 +69,12 @@ export const SentenceInputAndRules: React.FC<Props> = ({
             />
           </Localized>
           <MultipleCombobox
-            elements={sentenceDomains}
+            items={multipleComboBoxItems}
             maxNumberOfSelectedElements={3}
+            selectedItems={selectedSentenceDomains}
+            inputValue={inputValue}
+            setInputValue={setInputValue}
+            setSelectedItems={setSelectedSentenceDomains}
           />
           <Localized id="citation" attrs={{ label: true }}>
             <LabeledInput

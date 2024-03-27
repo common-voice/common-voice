@@ -1,54 +1,33 @@
 import * as React from 'react'
 import { useCombobox, useMultipleSelection } from 'downshift'
-import { Localized } from '@fluent/react'
+import { Localized, useLocalization } from '@fluent/react'
 
 import { LabeledInput } from '../ui/ui'
 import { SelectedItemsList } from './selected-items-list'
 
 import './multiple-combobox.css'
 
-export type MultipleComboBoxItem = { id: string; name: string }
-
-// TODO: move this to a hook
-const getFilteredItems = ({
-  elements,
-  selectedItems,
-  inputValue,
-}: {
-  elements: MultipleComboBoxItem[]
-  selectedItems: MultipleComboBoxItem[]
-  inputValue: string
-}) => {
-  const lowerCasedInputValue = inputValue.toLowerCase()
-
-  return elements.filter(
-    element =>
-      !selectedItems.includes(element) &&
-      element.name.toLowerCase().startsWith(lowerCasedInputValue)
-  )
-}
-
-type Props = {
-  elements: MultipleComboBoxItem[]
-  maxNumberOfSelectedElements?: number
-}
-
 // TODO: can we fix the any
 const Input = LabeledInput as any
 
-export const MultipleCombobox: React.FC<Props> = ({
-  elements,
-  maxNumberOfSelectedElements,
-}) => {
-  const [inputValue, setInputValue] = React.useState('')
-  const [selectedItems, setSelectedItems] = React.useState<
-    MultipleComboBoxItem[]
-  >([])
+type Props = {
+  items: string[]
+  maxNumberOfSelectedElements?: number
+  selectedItems: string[]
+  setInputValue: React.Dispatch<React.SetStateAction<string>>
+  setSelectedItems: (items: string[]) => void
+  inputValue: string
+}
 
-  const items = React.useMemo(
-    () => getFilteredItems({ elements, selectedItems, inputValue }),
-    [selectedItems, inputValue]
-  )
+export const MultipleCombobox: React.FC<Props> = ({
+  items,
+  selectedItems,
+  setSelectedItems,
+  maxNumberOfSelectedElements,
+  inputValue,
+  setInputValue,
+}) => {
+  const { l10n } = useLocalization()
 
   const { getDropdownProps, removeSelectedItem } = useMultipleSelection({
     selectedItems,
@@ -77,7 +56,7 @@ export const MultipleCombobox: React.FC<Props> = ({
     items,
     inputValue,
     selectedItem: null,
-    stateReducer(state, actionAndChanges) {
+    stateReducer(_, actionAndChanges) {
       const { changes, type } = actionAndChanges
 
       switch (type) {
@@ -106,7 +85,6 @@ export const MultipleCombobox: React.FC<Props> = ({
         case useCombobox.stateChangeTypes.InputKeyDownEnter:
         case useCombobox.stateChangeTypes.ItemClick:
           setSelectedItems([...selectedItems, newSelectedItem])
-
           break
         case useCombobox.stateChangeTypes.InputChange:
           setInputValue(newInputValue)
@@ -138,6 +116,7 @@ export const MultipleCombobox: React.FC<Props> = ({
                 disabled: selectedItems.length === maxNumberOfSelectedElements,
               })
             )}
+            placeholder={l10n.getString('sentence-domain-select-placeholder')}
           />
         </Localized>
       </div>
@@ -147,11 +126,13 @@ export const MultipleCombobox: React.FC<Props> = ({
           items.map((item, index) => (
             <li
               style={
-                highlightedIndex === index ? { backgroundColor: '#bde4ff' } : {}
+                highlightedIndex === index
+                  ? { backgroundColor: 'var(--light-grey)' }
+                  : {}
               }
               key={`${item}${index}`}
               {...getItemProps({ item, index })}>
-              {item.name}
+              {l10n.getString(item)}
             </li>
           ))}
       </ul>

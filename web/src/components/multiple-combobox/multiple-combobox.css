@@ -26,10 +26,10 @@
     }
 }
 
-.selected-accents-list {
+.selected-domains-list {
     margin-block-start: 30px;
 
-    .selected-accent {
+    .selected-domain {
         display: inline-flex;
         align-items: center;
         padding-inline-start: 1.5rem;
@@ -39,7 +39,7 @@
         border-radius: 15rem;
     }
 
-    .selected-accent--button {
+    .selected-domain--button {
         border: none;
         padding: 0.8rem 1.5rem;
         padding-inline-start: 1rem;

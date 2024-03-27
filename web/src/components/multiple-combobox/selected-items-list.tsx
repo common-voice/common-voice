@@ -1,28 +1,30 @@
 import React from 'react'
+import { useLocalization } from '@fluent/react'
 
-import { MultipleComboBoxItem } from '.'
 import { CloseIcon } from '../ui/icons'
 import VisuallyHidden from '../visually-hidden/visually-hidden'
 
 type Props = {
-  selectedItems: MultipleComboBoxItem[]
-  removeItem: (item: MultipleComboBoxItem) => void
+  selectedItems: string[]
+  removeItem: (item: string) => void
 }
 
 export const SelectedItemsList: React.FC<Props> = ({
   selectedItems,
   removeItem,
 }) => {
+  const { l10n } = useLocalization()
+
   return (
-    <div className="selected-accents-list">
+    <div className="selected-domains-list">
       {selectedItems.map(item => (
-        <span key={`accent-${item.id}`} className="selected-accent">
-          {item.name}
+        <span key={`domain-${item}`} className="selected-domain">
+          {l10n.getString(item)}
           <button
-            className="selected-accent--button"
+            className="selected-domain--button"
             onClick={() => removeItem(item)}
             type="button">
-            <VisuallyHidden>Remove {item.name}</VisuallyHidden>
+            <VisuallyHidden>Remove {l10n.getString(item)}</VisuallyHidden>
             <CloseIcon black />
           </button>
         </span>
