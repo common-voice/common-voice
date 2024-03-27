@@ -351,7 +351,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
     } = this.props;
     const { selectedPill } = this.state;
 
-    if (isSubmitted && type === 'listen') {
+    if (isSubmitted && type === 'listen' && !user.account) {
       return <Success onReset={onReset} type={type} />;
     }
 
