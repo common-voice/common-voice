@@ -1,5 +1,5 @@
 import Downshift from 'downshift';
-import { Localized } from '@fluent/react';
+import { Localized, useLocalization } from '@fluent/react';
 import * as React from 'react';
 import { useEffect } from 'react';
 import { useAction } from '../../hooks/store-hooks';
@@ -24,6 +24,8 @@ export default function LanguageAutocomplete({
     fetchRequestedLanguages();
   }, []);
 
+  const { l10n } = useLocalization()
+
   return (
     <Downshift onChange={onChange}>
       {({
@@ -45,11 +47,8 @@ export default function LanguageAutocomplete({
             <Localized id="language-autocomplete" attrs={{ label: true }}>
               <Input
                 {...getInputProps({
-                  label: (
-                    <Localized id="other-language">
-                      <span />
-                    </Localized>
-                  ),
+                  // TODO: need to see how this looks
+                  label: l10n.getString('other-language'),
                   required: true,
                   type: 'text',
                 })}

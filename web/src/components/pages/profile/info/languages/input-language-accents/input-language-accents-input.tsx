@@ -141,6 +141,14 @@ const InputLanguageAccentsInput = ({
             }
           };
 
+          const handleFocus: React.FocusEventHandler<HTMLInputElement> = () => {
+            openMenu();
+          };
+
+          const handleClick: React.MouseEventHandler<HTMLInputElement> = () => {
+            openMenu();
+          };
+
           return (
             <div>
               <Localized
@@ -149,8 +157,8 @@ const InputLanguageAccentsInput = ({
                 <Input
                   disabled={locale.length === 0}
                   {...getInputProps({
-                    onFocus: openMenu,
-                    onClick: openMenu,
+                    onFocus: handleFocus,
+                    onClick: handleClick,
                     type: 'text',
                     value: inputValue || '',
                     onKeyDown: handleKeyDown,

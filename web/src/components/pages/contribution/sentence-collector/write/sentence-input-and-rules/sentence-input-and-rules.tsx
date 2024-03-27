@@ -1,18 +1,19 @@
 import * as React from 'react'
-import { Localized, useLocalization } from '@fluent/react'
+import { Localized } from '@fluent/react'
 import classNames from 'classnames'
 
 import { EditIcon } from '../../../../../ui/icons'
-import { LabeledInput, LabeledSelect } from '../../../../../ui/ui'
+import { LabeledInput } from '../../../../../ui/ui'
+import { MultipleCombobox } from '../../../../../multiple-combobox'
 import { SingleSubmissionWriteProps } from '../single-submission-write/single-submission-write'
 import { Rules } from './rules'
 import { Instruction } from '../../instruction'
 import ExpandableInformation from '../../../../../expandable-information/expandable-information'
-import { SentenceDomain, SentenceSubmissionError } from 'common'
+import { SentenceSubmissionError } from 'common'
 import { LabeledTextArea } from '../../../../../ui/ui'
 import { LocaleLink } from '../../../../../locale-helpers'
 import URLS from '../../../../../../urls'
-import { SENTENCE_DOMAIN_MAPPING } from './constants'
+import { useMultipleComboBox } from '../../../../../multiple-combobox/use-multiple-combox'
 
 type Props = {
   getString: SingleSubmissionWriteProps['getString']
@@ -20,12 +21,11 @@ type Props = {
     event: React.ChangeEvent<HTMLTextAreaElement>
   ) => void
   handleCitationChange: (event: React.ChangeEvent<HTMLInputElement>) => void
-  handleSentenceDomainChange: (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => void
+  selectedSentenceDomains: string[]
+  setSelectedSentenceDomains: (domains: string[]) => void
   sentence: string
   citation: string
-  sentenceDomain: SentenceDomain
+  sentenceDomains: readonly string[]
   error: SentenceSubmissionError
 }
 
@@ -33,16 +33,21 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   getString,
   handleCitationChange,
   handleSentenceInputChange,
-  handleSentenceDomainChange,
+  sentenceDomains,
+  selectedSentenceDomains,
+  setSelectedSentenceDomains,
   sentence,
   citation,
-  sentenceDomain,
   error,
 }) => {
-  const { l10n } = useLocalization()
-
   const isSentenceError = error && error !== SentenceSubmissionError.NO_CITATION
   const isCitationError = error === SentenceSubmissionError.NO_CITATION
+
+  const { multipleComboBoxItems, inputValue, setInputValue } =
+    useMultipleComboBox({
+      items: sentenceDomains,
+      selectedItems: selectedSentenceDomains,
+    })
 
   return (
     <div className="inputs-and-instruction">
@@ -63,21 +68,14 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               dataTestId="sentence-textarea"
             />
           </Localized>
-          <Localized id="sentence-domain-select" attrs={{ label: true }}>
-            <LabeledSelect
-              value={sentenceDomain}
-              onChange={handleSentenceDomainChange}
-              name="sentence-domain"
-              className="sentence-domain-select"
-              dataTestId="sentence-domain-select">
-              <option value="" />
-              {Object.entries(SENTENCE_DOMAIN_MAPPING).map(([key, value]) => (
-                <option key={key} value={key}>
-                  {l10n.getString(key, null, value)}
-                </option>
-              ))}
-            </LabeledSelect>
-          </Localized>
+          <MultipleCombobox
+            items={multipleComboBoxItems}
+            maxNumberOfSelectedElements={3}
+            selectedItems={selectedSentenceDomains}
+            inputValue={inputValue}
+            setInputValue={setInputValue}
+            setSelectedItems={setSelectedSentenceDomains}
+          />
           <Localized id="citation" attrs={{ label: true }}>
             <LabeledInput
               placeholder={getString('citation-input-value')}

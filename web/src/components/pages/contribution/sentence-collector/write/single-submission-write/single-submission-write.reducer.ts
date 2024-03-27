@@ -1,9 +1,9 @@
-import { SentenceDomain, SentenceSubmissionError } from 'common'
+import { SentenceSubmissionError } from 'common'
 
 export type SingleSubmissionWriteState = {
   sentence: string
   citation: string
-  sentenceDomain?: SentenceDomain
+  sentenceDomains: string[]
   error: SentenceSubmissionError
   confirmPublicDomain: boolean
 }
@@ -33,7 +33,7 @@ type SetCitationAction = {
 
 type SetSingleSentenceDomain = {
   type: SingleSubmissionWriteActionType.SET_SENTENCE_DOMAIN
-  payload: { sentenceDomain: SentenceDomain }
+  payload: { sentenceDomains: string[] }
 }
 
 type AddSentenceSuccessAction = {
@@ -79,7 +79,7 @@ export const singleSubmissionWriteReducer = (
     case SingleSubmissionWriteActionType.SET_SENTENCE_DOMAIN:
       return {
         ...state,
-        sentenceDomain: action.payload.sentenceDomain,
+        sentenceDomains: [...action.payload.sentenceDomains],
       }
 
     case SingleSubmissionWriteActionType.ADD_SENTENCE_SUCCESS:
@@ -88,7 +88,7 @@ export const singleSubmissionWriteReducer = (
         sentence: '',
         citation: '',
         confirmPublicDomain: false,
-        sentenceDomain: '' as SentenceDomain,
+        sentenceDomains: [],
         error: undefined,
       }
 

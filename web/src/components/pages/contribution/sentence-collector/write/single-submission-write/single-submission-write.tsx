@@ -15,7 +15,7 @@ import { useLocale } from '../../../../../locale-helpers'
 import { SentenceInputAndRules } from '../sentence-input-and-rules/sentence-input-and-rules'
 import { Sentences } from '../../../../../../stores/sentences'
 import {
-  SentenceDomain,
+  sentenceDomains,
   SentenceSubmission,
   SentenceSubmissionError,
 } from 'common'
@@ -27,9 +27,9 @@ import {
   SingleSubmissionWriteState,
 } from './single-submission-write.reducer'
 
-import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
-
 import { trackSingleSubmission } from '../../../../../../services/tracker'
+
+import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 
 import './single-submission-write.css'
 
@@ -38,7 +38,7 @@ export type SingleSubmissionWriteProps = WithLocalizationProps
 const initialState: SingleSubmissionWriteState = {
   sentence: '',
   citation: '',
-  sentenceDomain: undefined,
+  sentenceDomains: [],
   error: undefined,
   confirmPublicDomain: false,
 }
@@ -94,12 +94,10 @@ const SingleSubmissionWrite: React.FC<SingleSubmissionWriteProps> = ({
     })
   }
 
-  const handleSentenceDomainChange = (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => {
+  const handleSentenceDomainChange = (domain: string[]) => {
     singleSubmissionWriteDispatch({
       type: SingleSubmissionWriteActionType.SET_SENTENCE_DOMAIN,
-      payload: { sentenceDomain: event.target.value as SentenceDomain },
+      payload: { sentenceDomains: domain },
     })
   }
 
@@ -111,7 +109,7 @@ const SingleSubmissionWrite: React.FC<SingleSubmissionWriteProps> = ({
       source: state.citation,
       localeId,
       localeName: currentLocale,
-      domain: state.sentenceDomain,
+      domains: state.sentenceDomains,
     }
 
     try {
@@ -158,10 +156,11 @@ const SingleSubmissionWrite: React.FC<SingleSubmissionWriteProps> = ({
           getString={getString}
           handleSentenceInputChange={handleSentenceInputChange}
           handleCitationChange={handleCitationChange}
-          handleSentenceDomainChange={handleSentenceDomainChange}
           sentence={state.sentence}
           citation={state.citation}
-          sentenceDomain={state?.sentenceDomain}
+          sentenceDomains={sentenceDomains}
+          setSelectedSentenceDomains={handleSentenceDomainChange}
+          selectedSentenceDomains={state.sentenceDomains}
           error={state.error}
         />
       </div>

@@ -76,7 +76,8 @@
         }
     }
 
-    & label.sentence-domain-select {
+    & label.sentence-domain-select,
+    .multiple-sentence-domain-select {
         margin-block-end: 36px;
     }
 

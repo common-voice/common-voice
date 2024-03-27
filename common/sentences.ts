@@ -1,11 +1,9 @@
-import { SentenceDomain } from './taxonomies'
-
 export type SentenceSubmission = {
   sentence: string
   source: string
   localeId: number
   localeName: string
-  domain?: SentenceDomain
+  domains: string[]
 }
 
 export enum SentenceSubmissionError {
