@@ -63,7 +63,7 @@
     "@types/jest": "27.5.2",
     "@types/lodash.omit": "4.5.9",
     "@types/lodash.pick": "4.4.9",
-    "@types/mysql": "2.15.25",
+    "@types/mysql": "2.15.26",
     "@types/node": "12.20.55",
     "@types/node-fetch": "2.6.2",
     "@types/nodemailer": "6.4.4",
