@@ -810,7 +810,6 @@ subscribe = Subscribe
 get-started-speech = Get Started with Speech Recognition
 other-datasets = Other Voice Datasets
 feedback-q = Have Feedback?
-# This indicates that there is no data to display
 no-information = No information
 
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is an <docsLink>open-source toolkit</docsLink> for researchers developing state-of-the-art conversational AI models.

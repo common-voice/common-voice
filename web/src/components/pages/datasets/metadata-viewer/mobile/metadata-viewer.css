@@ -95,12 +95,5 @@
                 margin-inline-end: 4px;
             }
         }
-
-        div.gender-splits {
-            p.no-information {
-                margin-block: 8px;
-                font-weight: bold;
-            }
-        }
     }
 }
