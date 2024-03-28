@@ -1,10 +1,19 @@
+@import url('../media.css');
+
 .multiple-sentence-domain-select {
     ul {
         background: #fff;
         margin: 0px 0 30px;
         position: absolute;
-        width: 48%;
         z-index: var(--override-z-index);
+
+        @media (--xl-up) {
+            width: 700px;
+        }
+
+        @media (--md-down) {
+            width: 90vw;
+        }
 
         &.downshift-open {
             border: 1px solid var(--light-grey);
@@ -21,6 +30,20 @@
 
             &:last-of-type {
                 border-bottom: none;
+            }
+        }
+
+        @media (--xs-down) {
+            font-size: var(--font-size-xs);
+        }
+    }
+
+    input[type='text'] {
+        @media (--xs-down) {
+            font-size: var(--font-size-xs);
+
+            &::placeholder {
+                font-size: var(--font-size-xs);
             }
         }
     }

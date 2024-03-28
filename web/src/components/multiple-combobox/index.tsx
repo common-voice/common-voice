@@ -83,7 +83,11 @@ export const MultipleCombobox: React.FC<Props> = ({
       switch (type) {
         case useCombobox.stateChangeTypes.InputKeyDownEnter:
         case useCombobox.stateChangeTypes.ItemClick:
-          setSelectedItems([...selectedItems, newSelectedItem])
+        case useCombobox.stateChangeTypes.InputBlur:
+          if (newSelectedItem) {
+            setSelectedItems([...selectedItems, newSelectedItem])
+            setInputValue('')
+          }
           break
         case useCombobox.stateChangeTypes.InputChange:
           setInputValue(newInputValue)
