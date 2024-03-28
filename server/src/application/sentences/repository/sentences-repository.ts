@@ -141,8 +141,6 @@ const insertSentence =
             )
           }
 
-          console.log({ err })
-
           return createPendingSentencesRepositoryError(
             `Error inserting pending sentence '${sentenceSubmission.sentence}'`,
             err
