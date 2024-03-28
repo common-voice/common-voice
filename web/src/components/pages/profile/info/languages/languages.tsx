@@ -10,11 +10,13 @@ import { useEffect } from 'react';
 import InputLanguageName from './input-language-name';
 import InputLanguageVariant from './input-language-variant';
 import InputLanguageAccents from './input-language-accents/input-language-accents';
-
-import './languages.css';
 import ExpandableInformation from '../../../../expandable-information/expandable-information';
+import { VariantContributionOptions } from '../variant-contribution-options';
+
 import URLS from '../../../../../urls';
 import { LocaleLink } from '../../../../locale-helpers';
+
+import './languages.css';
 
 export type AccentsAll = {
   [locale: string]: {
@@ -100,6 +102,14 @@ function ProfileInfoLanguages({
               setUserLanguages={setUserLanguages}
             />
 
+            {hasUserLanguagesWithVariants && (
+              <ExpandableInformation summaryLocalizedId="help-variants">
+                <Localized id="help-variants-explanation">
+                  <div />
+                </Localized>
+              </ExpandableInformation>
+            )}
+
             <InputLanguageAccents
               locale={locale}
               accents={accents}
@@ -107,25 +117,21 @@ function ProfileInfoLanguages({
               userLanguages={userLanguages}
               setUserLanguages={setUserLanguages}
             />
+
+            {hasUserLanguages && (
+              <ExpandableInformation summaryLocalizedId="help-accent">
+                <Localized id="help-accent-explanation">
+                  <div />
+                </Localized>
+              </ExpandableInformation>
+            )}
+
+            <VariantContributionOptions />
           </div>
         ))}
       </div>
 
       <div>
-        {hasUserLanguagesWithVariants && (
-          <ExpandableInformation summaryLocalizedId="help-variants">
-            <Localized id="help-variants-explanation">
-              <div />
-            </Localized>
-          </ExpandableInformation>
-        )}
-        {hasUserLanguages && (
-          <ExpandableInformation summaryLocalizedId="help-accent">
-            <Localized id="help-accent-explanation">
-              <div />
-            </Localized>
-          </ExpandableInformation>
-        )}
         <Button
           className="add-language"
           outline
