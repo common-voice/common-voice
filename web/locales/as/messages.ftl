@@ -1867,5 +1867,8 @@ too-many-files = বৰ বেছি ফাইল
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>আমাক আপোনাৰ</mark><br/><mark>সহায় লাগে!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ডেটাছেটবোৰ হ’ষ্ট কৰিবলৈ আৰু আমি কৰা কামৰ ওপৰত নিৰ্ভৰ কৰা ১০০ৰো অধিক ভাষিক সমাজৰ বাবে মঞ্চ উন্নত কৰিবলৈ বছৰি প্ৰায় এক মিলিয়ন ডলাৰ খৰচ হয়। <strong>যদি আপুনি মুকলি, অন্তৰ্ভুক্তিমূলক তথ্যক মূল্য দিয়ে - তেন্তে আজিয়েই দান কৰক!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>আপোনাৰ গৱেষণাৰ বাবে</mark><br/><mark>ক:ভ: ব্যৱহাৰ কৰি আছে?</mark>
+languages-donate-banner-cta-explanation = কমন ভইচৰ বাবে দান-বৰঙণিৰ দ্বাৰা পুঁজিৰ ব্যৱস্থা কৰা হয়! আমি শিক্ষাবিদ, নাগৰিক সমাজ আৰু উদ্যোগৰ গৱেষকৰ সৈতে সহযোগিতা কৰি ভাল পাওঁ। কমন ভইচ ব্যৱহাৰ কৰিবলৈ বিনামূলীয়া, কিন্তু অনুদানৰ প্ৰস্তাৱৰ জৰিয়তে মঞ্চ আৰু হ’ষ্টিঙৰ খৰচত অৰিহণা যোগোৱাটো সঁচাকৈয়ে সহায়ক।
