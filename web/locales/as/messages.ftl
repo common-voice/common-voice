@@ -110,7 +110,7 @@ kab = কবাইল
 kbd = কাবাৰ্ডিয়েন
 ki = কিকুয়ু
 kk = কাজাখ
-km = খমেৰ
+km = ক্ষ্মেৰ
 kmr = কোৰমাঞ্জী কুৰ্দিছ
 kn = কানাড়া
 knn = কোংকণী (দেৱনাগৰী)
@@ -685,6 +685,12 @@ about-playbook-how-project-governance-content-4 = সাম্প্ৰদায়
 about-playbook-how-project-governance-content-5 = মান আৰু স্বীকৃতি।
 about-playbook-how-project-governance-content-6 = পাৰস্পৰিক দায়বদ্ধতা।
 about-playbook-how-project-governance-content-7 = <governanceLink>আমি কেনেকৈ পৰিচালিত হওঁ— সেইবিষয়ে অধিক পঢ়ক</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = কমন ভইচৰ বাবে কেনেকৈ পুঁজিৰ ব্যৱস্থা কৰা হয়?
+about-playbook-how-funded-content-1 = কমন ভইচ হৈছে Mozilla ফাউণ্ডেশ্যনৰ এটা প্ৰকল্প, যি এক US 501c3। বৰ্তমান এই প্ৰকল্পটোৰ বাবে সম্পূৰ্ণৰূপে <philantropicGrantLink>পৰকল্যাণকামী অনুদান</philantropicGrantLink> আৰু বিশ্বৰ বিভিন্ন ঠাইৰ লোকৰ অনুদানৰ দ্বাৰা পুঁজিৰ ব্যৱস্থা কৰা হৈছে।
+about-playbook-how-funded-content-2 = ডেটাছেটবোৰ অবিৰতভাৱে হ’ষ্ট আৰু মুকলি কৰিবলৈ, মঞ্চ উন্নত কৰিবলৈ আৰু <africaMradiLink>জনগোষ্ঠীয় কাৰ্য্যক্ৰম</africaMradiLink> চলাবলৈ বহুত টকা খৰচ হয়।
 
 ## Glossary
 
@@ -1852,3 +1858,6 @@ file-invalid-type = অবৈধ ফাইল
 file-too-large = ফাইলটো বৰ ডাঙৰ
 file-too-small = ফাইলটো বৰ সৰু
 too-many-files = বৰ বেছি ফাইল
+
+## Donate banner
+
