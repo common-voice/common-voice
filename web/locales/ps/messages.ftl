@@ -54,6 +54,7 @@ cak = کاکچیل
 ckb = مرکزي کردي
 cnh = هاکه چن
 co = کورسیکني
+crh = د کریمیا تاتار
 cs = چکسلواکي
 cv = چوواش
 cy = ولش
@@ -69,16 +70,20 @@ eo = ایسپیرینټوي
 es = هسپانیه ایی
 et = ایستونینوي
 eu = باسک
+ewo = ایونډو
 fa = پاړسي
 ff = فواله
 fi = فنلینډي
 fo = فیروزي
 fr = فرانسوي
+fuf = پلر ګیني
 fy-NL = فريشاني
 ga-IE = ایرلینډي
 gl = ګالیسي
 gn = ګوراني
 gom = ګوان کونکاني
+gu-IN = ګجراتي
+guc = وایونایکی
 ha = هوسا
 he = عبري
 hi = هندي
@@ -119,6 +124,7 @@ ln = لينګلا
 lo = لاو
 lt = لیتوانیایي
 lv = لاتویني
+lzz = لاز
 mai = میتیلي
 mdf = موکشايي
 mg = مالاګسي
@@ -156,6 +162,7 @@ ps = پښتو
 pt = پورتګالي
 quc = کیشي
 quy = کویچو چانکا
+qvi = کیچوا
 rm-sursilv = رومانوي سورسیلواني
 rm-vallader = رومانوي ویلدر
 ro = رومانیایي
@@ -165,6 +172,8 @@ sah = سخايي
 sat = سنتالي (اول چیکي)
 sc = سارډیني
 scn = سیسیلي
+sco = سکاټ
+sd = سندي
 sdh = جنوبي کوردي
 shi = شله
 si = سنهالوي
@@ -206,6 +215,7 @@ ve = تشیویندا
 vec = وینوسي
 vi = ویتنامي
 vot = ووټیک
+wep = ویسټفالیا
 wo = ولوف
 xh = ژوسا
 yi = یدیش
@@ -402,8 +412,6 @@ native-language =
 profile-form-add-accent = نوی دودیز خجنښه اضافه کړئ "{ $inputValue }"
 profile-form-submit-save = خوندي کړئ
 profile-form-submit-saved = خوندي شو
-male = نر
-female = ښځه
 # Gender
 other = نور
 why-profile-title = ولې پېژنیال؟
@@ -675,6 +683,9 @@ about-playbook-how-project-governance-content-4 = د ټولنې ګډون او پ
 about-playbook-how-project-governance-content-5 = ارزښت او پیژندنه.
 about-playbook-how-project-governance-content-6 = متقابل حساب ورکول.
 about-playbook-how-project-governance-content-7 = <governanceLink>په دې اړه نور ولولئ چې موږ څنګه اداره کوو</governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -1627,8 +1638,14 @@ background-noise-tip-2 = [د متن یوه برخه اوریدل کیدی نشي
 citing-sentences-subheader-websites-explanation = تاسو کولی شئ ویب پاڼه شامله کړئ، د مثال په توګه "عام غږ - https://commonvoice.mozilla.org/"
 adding-sentences-subheader-offensive-content = توهين کوونکې منځپانګه
 
+## WRITE PAGE
+
+
 ## REVIEW PAGE
 
 
 ## BULK SUBMISSION 
+
+
+## Donate banner
 
