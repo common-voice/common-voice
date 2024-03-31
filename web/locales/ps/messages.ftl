@@ -252,6 +252,7 @@ share-text = ماشینونو ته په ښوولو کې چې څنګه ریښتی
 link-copied = تړونی کاپي شوی
 back-top = بېرته سر ته
 logout = وتل
+donate = مرسته وکړئ
 
 ## Home Page
 
@@ -412,6 +413,9 @@ native-language =
 profile-form-add-accent = نوی دودیز خجنښه اضافه کړئ "{ $inputValue }"
 profile-form-submit-save = خوندي کړئ
 profile-form-submit-saved = خوندي شو
+male_masculine = مذکر/نارینه
+female_feminine = ښځه/ښځینه
+do_not_wish_to_say = نه غواړم ووایم
 # Gender
 other = نور
 why-profile-title = ولې پېژنیال؟
@@ -686,6 +690,9 @@ about-playbook-how-project-governance-content-7 = <governanceLink>په دې اړ
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = عام غږ څنګه کار کوي؟
+about-playbook-how-funded-content-2 = دا په دوامداره توګه د ډیټاسیټونو کوربه کولو او خوشې کولو، پلیټ فارم ته وده ورکولو او د <africaMradiLink> د ټولنې پروګرامونو</africaMradiLink> چلولو لپاره ډیرې پیسې لګوي.
+about-playbook-how-funded-content-3 = که تاسو یا ستاسو سازمان غواړئ چې په دې پروژه کې بیرته مرسته وکړئ، تاسو کولی شئ یو <donateLink>ډونیشن</donateLink> وکړئ یا په <emailFragment>commonvoice@mozilla.com</emailFragment> کې زموږ د شراکت ټیم سره اړیکه ونیسئ.
 
 ## Glossary
 
@@ -762,10 +769,12 @@ validated-hr-total = باوري شوي ساعت ټولټال
 overall-hr-total = په ټوله کې د ساعت ټولټال
 cv-license = لایسنس
 audio-format = غږیز فارمټ
+dataset-splits = تقسیم (عمر او جنس)
 number-of-voices = د غږونو شمیر
 splits = ټوټې ټوټې
 email-to-download = د ډاونلوډ کولو لپاره برېښنالیک دننه کړئ
 why-email = <b> ولې یو بریښنالیک؟ </b> موږ ښايي اړتیا ولرو چې ستاسو  سره په راتلونکي کې په ډېټاسیټ کې د بدلونونو په اړه اړیکه ونیسو، بریښنالیک موږ ته د اړیکې یو نښه چمتو کوي.
+why-donate-datasets-page = موزیلا کامن غږ د نړۍ ترټولو متنوع کراوډ سورس خلاص وینا ډیټا سیټ دی - او موږ په بشپړ ډول د بسپنه ورکوو. دا د ډیټاسیټونو کوربه کولو او د 100+ ژبو ټولنو لپاره پلیټ فارم ته وده ورکولو لپاره په کال کې نږدې یو ملیون ډالر لګښت لري چې په هغه څه تکیه کوي چې موږ یې کوو. که تاسو پرانیستې، ټول شموله ډاټا ته ارزښت ورکړئ - <b>نن ورځ مرسته وکړئ!</b>
 confirm-size = تاسو د <b>{ $size }</b> ډاونلوډ پیلولو لپاره چمتو یاست
 size-gigabyte = جي بي
 size-megabyte = ام بي
@@ -806,6 +815,15 @@ dataset-version = نسخه
 sha256-checksum-copied = SHA256 چکسم کاپي شوی!
 sha256-checksum-copied-error = د SHA256 چیکسم کاپي کولو کې پاتې راغلی
 clipboard-not-supported = کلپ بورډ نه ملاتړ کیږي
+no-information-available = هیڅ معلومات نشته
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = ستاسو ډیټاسیټ ډاونلوډ کیږي!
+dataset-donate-modal-heading = ایا پوهیدئ…
+donate-modal-explanation-1 = دا د ډیټاسیټونو کوربه کولو او د 100+ ژبو ټولنو لپاره پلیټ فارم ته وده ورکولو لپاره په کال کې نږدې یو ملیون ډالر لګښت لري چې موږ په څه تکیه کوو؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <بولډ>که تاسو خلاص، ټول شموله ډاټا ته ارزښت ورکوئ - همدا نن مرسته وکړئ!</bold>
 
 ## Download Modal
 
@@ -881,6 +899,8 @@ language-section-in-progress = د پرمختګ په حال کې
 language-section-in-progress-new-description = دا ژبې دا مهال د ټولنې لخوا تر پراختیا لاندې دي. د پرمختګ پټې په ګوته کوي چې هره ژبه څومره ليری د <localizationGlossaryLink> ویب سایټ ځایي ژبې ته ژباړلو </localizationGlossaryLink> او <sentenceCollectionGlossaryLink> د جملو ټولګه </sentenceCollectionGlossaryLink> په پروسه کې ده.
 language-section-launched = په لاره اچول شوی
 language-section-launched-description = د دې پیل شوي ژبو لپاره ویب پاڼه په بریالیتوب سره <localizationGlossaryLink> ځایي ژبې ته ژباړل </localizationGlossaryLink> شوې، او کافي <sentenceCollectionGlossaryLink> جملې راټولې شوې دي </sentenceCollectionGlossaryLink> ترڅو د <speakLink> غږیدلو </speakLink> او <listenLink> اوریدلو </listenLink> رواني ونډې لپاره اجازه ورکړل شي.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = وروستی تازه شوی: { $lastUpdatedTimeStamp }
 languages-show-more = نور ووینئ
 languages-show-less = لږ ووینئ
 language-meter-in-progress = پرمختګ
@@ -950,6 +970,9 @@ listen-empty-state = موږ پدې ژبه کې د تاییدلو لپاره د �
 listen-loading-error =
     موږ ستاسو د اوریدلو لپاره هیڅ آډیو کلیپونه ترلاسه نشو کولی.
     مهرباني وکړئ وروسته بیا هڅه وکړئ.
+listen-abort-title = د تایید کلپونه ختم کړئ؟
+listen-abort-cancel = تایید ته دوام ورکړئ
+listen-abort-confirm = تایید کول پای ته ورسوئ
 speak-empty-state = موږ پدې ژبه کې د ثبتولو لپاره د جملو څخه خلاص شو...
 speak-empty-state-cta = د جملو مرسته وکړئ
 speak-loading-error =
@@ -1608,6 +1631,9 @@ continue-speaking-button = نه مننه، خبرو ته دوام ورکړئ
 create-profile-text = غواړئ خپل معلومات خوندي کړئ؟ <createProfile>یو پروفایل جوړ کړئ</createProfile>
 thanks-for-voice-toast = ستاسو د غږ معلوماتو لپاره مننه
 thanks-for-voice-toast-error = ستاسو د غږ معلوماتو په سپارلو کې یوه تېروتنه رامنځته شوه
+first-cta-gender-select-default-option = یو اختیار غوره کړئ
+first-cta-gender-select-help-text =
+    .label = تاسو به څنګه خپل جنسیت یا جندر بیان کړئ؟
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ستاسو د غږ کلپونو د مرستې لپاره مننه!
 second-cta-subtitle-text = د پروفایل سره، تاسو کولی شئ خپل فعالیت تعقیب کړئ او د غږ ډیټا مرسته کونکو ټولنې سره اړیکه ونیسئ.
@@ -1617,6 +1643,7 @@ create-profile-button = یو پروفایل جوړ کړئ
 img-alt-success-checkmark = د بریالیتوب نښه
 # GUIDELINES PAGE
 guidelines-header = د ونډې لارښوونې
+guidelines-header-subtitle = پوه شئ چې څنګه د ګډ غږ ډیټاسیټ ته د جملو او آډیو کلیپونو مرسته او اعتبار ورکړئ
 voice-collection = د غږ راټولول
 sentence-collection = د جملې ټولګه
 varying-pronunciations = مختلف تلفظونه
