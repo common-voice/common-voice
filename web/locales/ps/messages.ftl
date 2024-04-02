@@ -1681,6 +1681,7 @@ adding-sentences = د جملو اضافه کول
 reviewing-sentences = د جملو بیاکتنه
 sentence-domain = د جملې ډومین
 public-domain-explanation-1 = دا ډیره مهمه ده چې د متن ټولې جملې <publicDomain> عامه ډومین</publicDomain> (<cc0>cc0</cc0>) وي ځکه چې د عام غږ ډیټاسیټ د cc0 جواز لاندې خپور شوی. یوازې کله هم یوه جمله اپلوډ کړئ که تاسو ډاډه یاست، او تل اړونده حواله شامل کړئ.
+public-domain-explanation-2 = د ګټورې وینا پیژندنې انجن رامینځته کولو لپاره غوره جملې خبرې ، عصري خبرې دي. ځینې نظریات چې تاسو سره د جملو په جوړولو کې مرسته کوي؛
 citing-sentences-subheader-websites-explanation = تاسو کولی شئ ویب پاڼه شامله کړئ، د مثال په توګه "عام غږ - https://commonvoice.mozilla.org/"
 adding-sentences-subheader-offensive-content = توهين کوونکې منځپانګه
 
