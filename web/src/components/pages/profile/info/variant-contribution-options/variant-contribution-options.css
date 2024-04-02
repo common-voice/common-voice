@@ -1,3 +1,28 @@
 .variant-contribution-options-container {
-    /* margin-block-start: 20px; */
+    h3 {
+        font-size: 20px;
+    }
+
+    p.variant-contribution-help {
+        margin-block: 24px;
+    }
+
+    div.radio-container {
+        display: flex;
+        width: 100%;
+
+        label.radio-label {
+            display: flex;
+            align-items: baseline;
+            cursor: pointer;
+
+            input[type='radio'] {
+                margin-inline-end: 10px;
+            }
+
+            .radio-content {
+                width: 260px;
+            }
+        }
+    }
 }
