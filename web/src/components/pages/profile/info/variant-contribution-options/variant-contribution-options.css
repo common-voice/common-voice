@@ -1,3 +1,5 @@
+@import url('../../../../media.css');
+
 .variant-contribution-options-container {
     h3 {
         font-size: 20px;
@@ -23,6 +25,10 @@
             .radio-content {
                 width: 260px;
             }
+        }
+
+        @media (--md-down) {
+            flex-direction: column;
         }
     }
 }
