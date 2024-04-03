@@ -397,8 +397,6 @@ native-language =
 profile-form-add-accent = לייג צו אן אייגענעם אקצענט "{ $inputValue }"
 profile-form-submit-save = היט אפ
 profile-form-submit-saved = אפגעהיטן
-male = מאן
-female = פרוי
 # Gender
 other = אנדערע
 why-profile-title = פארוואס א פראפייל?
@@ -588,6 +586,9 @@ about-playbook-how-project-governance-content-4 = געמיינדע אנטייל 
 about-playbook-how-project-governance-content-5 = ווערד און אנערקענונג.
 about-playbook-how-project-governance-content-6 = קעגנזייטיגע פאראנטווארטליכקייט.
 about-playbook-how-project-governance-content-7 = <governanceLink>ליינט מער איבער וויאזוי מיר זענען רעגירט</governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -933,6 +934,7 @@ demo-account = קאנטע
 
 ## Demo Account
 
+demo-account-card-header = עס פארלאנגט זיך נישט צו האבן אן אקאונט צו ביישטייערן, דאך איז עס הילפבאר.
 
 ## Demo Contribute
 
@@ -1066,6 +1068,7 @@ sc-personal-not-added = איר האט נאכנישט צוגעלייגט קיין
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-6 = אויב לויפט איר אויס פון זאצן איבער צו קוקן, ביטע העלפט אונז זאמלען מער זאצן!
 
 ## REVIEW
 
@@ -1132,6 +1135,10 @@ adding-sentences-subheader-spelling-punctuation-explanation = די זאץ דאר
 adding-sentences-subheader-speakable = רעדעוודיג
 adding-sentences-subheader-numbers = נומערן
 reviewing-sentences-explanation-3 = אויב זענט איר נישט זיכער איבער דעם זאץ, קענט איר עס אויך איבערהיפן און ווייטער גיין צו דעם קומענדיגן.
+reviewing-sentences-explanation-4 = אויב לויפט איר אויס פון זאצן איבער צו קוקן, ביטע העלפט אונז זאמלען מער זאצן!
+
+## WRITE PAGE
+
 sentence =
     .label = זאץ
 citation =
@@ -1153,3 +1160,8 @@ review-error-rate-limit-exceeded = איר גייט צו שנעל. ביטע נע�
 
 ## BULK SUBMISSION 
 
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>מיר דארפן</mark><br/><mark>אייער הילף!</mark>
