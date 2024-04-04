@@ -1831,6 +1831,16 @@ general = አጠቃላይ
 healthcare = የጤና ጥበቃ
 # Sentence Domain dropdown option
 history_law_government = ታሪክ, ህግ እና መንግስት
+# Sentence Domain dropdown option
+language_fundamentals = የቋንቋ መሰረታዊ ነገሮች (ለምሳሌ አሃዞች፣ ደብዳቤዎች፣ ገንዘብ)
+# Sentence Domain dropdown option
+media_entertainment = ሚዲያ እና መዝናኛ
+# Sentence Domain dropdown option
+nature_environment = ተፈጥሮ እና አካባቢ
+# Sentence Domain dropdown option
+news_current_affairs = ዜና እና ወቅታዊ ጉዳዮች
+# Sentence Domain dropdown option
+technology_robotics = ቴክኖሎጂ እና ሮቦቲክስ
 
 ## REVIEW PAGE
 
