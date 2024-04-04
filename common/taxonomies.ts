@@ -33,11 +33,11 @@ export const taxonomies: { [key in TaxonomyToken]: TaxonomyType } = {
 }
 
 export const sentenceDomains = [
+  'general',
   'agriculture',
   'automotive',
   'finance',
   'food_service_retail',
-  'general',
   'healthcare',
   'history_law_government',
   'language_fundamentals',

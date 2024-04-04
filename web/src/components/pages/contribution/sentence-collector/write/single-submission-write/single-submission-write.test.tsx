@@ -77,7 +77,10 @@ describe('Single Submission Write page', () => {
       target: { value: 'This is a mock sentence' },
     })
 
-    fireEvent.change(sentenceDomainDropdown, { target: { value: 'general' } })
+    fireEvent.click(sentenceDomainDropdown)
+
+    // select general domain
+    fireEvent.click(screen.getByTestId('general'))
 
     fireEvent.change(citationInput, { target: { value: 'self' } })
 
@@ -87,7 +90,7 @@ describe('Single Submission Write page', () => {
 
     await waitFor(async () => {
       expect(useActionMock).toHaveBeenCalledWith({
-        domain: 'general',
+        domains: ['general'],
         sentence: 'This is a mock sentence',
         source: 'self',
         localeId: 1,
