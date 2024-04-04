@@ -2,7 +2,7 @@ import { pipe } from 'fp-ts/lib/function'
 import { validateSentence } from '../../../../core/sentences'
 import {
   insertSentenceIntoDb,
-  findSentenceDomainByNameInDb,
+  findDomainIdByNameInDb,
 } from '../../repository/sentences-repository'
 import { AddSentenceCommand } from './command/add-sentence-command'
 import {
@@ -11,8 +11,11 @@ import {
   taskEither as TE,
   taskOption as TO,
 } from 'fp-ts'
-import { ApplicationError } from '../../../types/error'
-import { createSentenceValidationError } from '../../../helper/error-helper'
+import { ApplicationError, OtherErrorKind } from '../../../types/error'
+import {
+  createError,
+  createSentenceValidationError,
+} from '../../../helper/error-helper'
 import { SentenceSubmission } from '../../../types/sentence-submission'
 
 const createSentenceSubmissionFromCommand = (
@@ -38,18 +41,25 @@ export const AddSentenceCommandHandler = (
     TE.bind('sentenceSubmission', () =>
       TE.fromEither(createSentenceSubmissionFromCommand(command))
     ),
-    TE.bind('domainId', () =>
-      pipe(
-        command.domain,
-        findSentenceDomainByNameInDb,
-        TO.getOrElseW(() => T.of(null)),
-        TE.fromTask
+    TE.bind('domainIds', () => {
+      const domains = command.domains ?? []
+      const findDomainIds = domains.map(domain =>
+        findDomainIdByNameInDb(domain)
       )
-    ),
-    TE.map(({ sentenceSubmission, domainId }): SentenceSubmission => {
+      return pipe(
+        findDomainIds,
+        TO.sequenceArray,
+        TE.fromTaskOption(() =>
+          createError(OtherErrorKind)(
+            `Could not find a matching domain in ${command.domains}`
+          )
+        )
+      )
+    }),
+    TE.map(({ sentenceSubmission, domainIds }): SentenceSubmission => {
       return {
         ...sentenceSubmission,
-        domain_id: domainId,
+        domain_ids: [...domainIds],
       }
     }),
     TE.chain(sentenceSubmission => insertSentenceIntoDb(sentenceSubmission))

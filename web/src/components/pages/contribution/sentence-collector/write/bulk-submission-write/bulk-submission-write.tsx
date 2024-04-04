@@ -99,7 +99,8 @@ const BulkSubmissionWrite = () => {
               <ExpandableInformation
                 summaryLocalizedId="what-needs-to-be-in-file"
                 icon={<LightBulbIcon />}
-                onToggle={handleToggle}>
+                onToggle={handleToggle}
+                dataTestId="bulk-option-expandable-information">
                 <Localized
                   id="what-needs-to-be-in-file-explanation"
                   elems={{
