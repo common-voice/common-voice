@@ -1657,7 +1657,12 @@ background-voices = د شاته غږونه
 volume = حجم
 reader-effects = د لوستونکي اغیزې
 example = بېلګه
+varying-pronunciations-explanation-1 = مخکې له دې چې په ځمکه کې یو کلیپ رد کړئ محتاط اوسئ چې لوستونکي یوه کلمه غلطه کړې وي، فشار یې په غلط ځای کې ځای پرځای کړی وي، یا یې په ښکاره ډول د پوښتنې نښه له پامه غورځولې وي. په ټوله نړۍ کې د تلفظونو پراخه ډولونه شتون لري، چې ځینې یې ممکن ستاسو په محلي ټولنه کې نه وي اوریدلي. مهرباني وکړئ د هغو کسانو لپاره د ستاینې حد چمتو کړئ څوک چې ممکن ستاسو څخه مختلف خبرې وکړي.
+misreadings-explanation-2 = ډیر عام غلطۍ عبارت دي له:
+misreadings-explanation-6 = په چټکۍ سره د ریکارډ قطع کولو سره د وروستي کلمې پای له لاسه ورکول.
+misreadings-explanation-7 = د یوې کلمې لوستلو لپاره څو هڅې کول.
 misreadings-example-1 = موږ د قهوې اخیستو لپاره بهر ځو.
+misreadings-example-2 = موږ د قهوې اخیستو لپاره بهر ځو.
 misreadings-example-3 = موږ د قهوې اخیستو لپاره بهر ځو.
 misreadings-example-4 = مچۍ په تېزۍ سره روانه شوه.
 misreadings-tip-1 = [باید "موږ یو" وي]
@@ -1665,6 +1670,18 @@ misreadings-tip-2 = [په اصلي متن کې 'a' نه دی]
 misreadings-tip-3 = [مطابقت نه  لرونکې منځپانګه]
 background-noise-example-1 = د ټریاسیک لوی ډیناسور.
 background-noise-tip-2 = [د متن یوه برخه اوریدل کیدی نشي]
+background-voices-tip-1 = ته راځې؟ [د بل لخوا ویل کیږي]
+volume-explanation = د لوستونکو ترمنځ به په حجم کې طبیعي توپیرونه وي. رد کړئ یوازې هغه وخت چې حجم دومره لوړ وي چې ریکارډ نګ ماتیږي، یا (په عام ډول) که دا دومره ټیټ وي چې تاسو نشئ اوریدلی چې د لیکل شوي متن ته اشاره کولو پرته څه ویل کیږي.
+reader-effects-explanation = ډیری ریکارډونه د هغه خلکو څخه دي چې په خپل طبیعي غږ کې خبرې کوي. تاسو کولی شئ کله ناکله غیر معیاري ریکارډونه ومنئ چې په "ډراماتیک" غږ کې، ګونګوسې، یا په ښکاره ډول وړاندې کیږي. مهرباني وکړئ د سندرو ریکارډونه رد کړئ او هغه څوک چې د کمپیوټر ترکیب شوي غږ کاروي.
+still-have-questions = اوس هم پوښتنې لرئ؟
+contact-common-voice = د ګډ غږ ټیم سره اړیکه ونیسئ
+public-domain = عامه ډومین
+citing-sentences = د جملې نقل کول
+adding-sentences = د جملو اضافه کول
+reviewing-sentences = د جملو بیاکتنه
+sentence-domain = د جملې ډومین
+public-domain-explanation-1 = دا ډیره مهمه ده چې د متن ټولې جملې <publicDomain> عامه ډومین</publicDomain> (<cc0>cc0</cc0>) وي ځکه چې د عام غږ ډیټاسیټ د cc0 جواز لاندې خپور شوی. یوازې کله هم یوه جمله اپلوډ کړئ که تاسو ډاډه یاست، او تل اړونده حواله شامل کړئ.
+public-domain-explanation-2 = د ګټورې وینا پیژندنې انجن رامینځته کولو لپاره غوره جملې خبرې ، عصري خبرې دي. ځینې نظریات چې تاسو سره د جملو په جوړولو کې مرسته کوي؛
 citing-sentences-subheader-websites-explanation = تاسو کولی شئ ویب پاڼه شامله کړئ، د مثال په توګه "عام غږ - https://commonvoice.mozilla.org/"
 adding-sentences-subheader-offensive-content = توهين کوونکې منځپانګه
 
@@ -1679,3 +1696,7 @@ adding-sentences-subheader-offensive-content = توهين کوونکې منځپ�
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>موږ</mark><br/><mark>ستاسو مرستې ته اړتیا لرو!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = دا د ډیټاسیټونو کوربه کولو او د 100+ ژبو ټولنو لپاره پلیټ فارم ته وده ورکولو لپاره په کال کې نږدې یو ملیون ډالر لګښت لري چې په هغه څه تکیه کوي چې موږ یې کوو. <strong>که تاسو خلاص، ټول شموله ډیټا ته ارزښت ورکوئ - نن ورځ مرسته وکړئ!</strong>
