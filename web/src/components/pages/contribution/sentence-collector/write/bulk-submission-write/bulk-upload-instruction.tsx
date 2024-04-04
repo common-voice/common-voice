@@ -38,7 +38,13 @@ const BulkUploadInstruction: React.FC<Props> = ({
       <Localized
         id="sc-bulk-upload-instruction"
         elems={{
-          uploadButton: <button onClick={handleClick} className="upload" />,
+          uploadButton: (
+            <button
+              onClick={handleClick}
+              className="upload"
+              data-testid="upload-btn"
+            />
+          ),
         }}>
         <h2
           className="upload-dropzone-instruction hidden-md-down"

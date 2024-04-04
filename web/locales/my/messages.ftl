@@ -14,6 +14,12 @@ email-opt-in-info-sub-with-challenge = စိန်ခေါ်မှုနှ�
 email-opt-in-privacy-v2 = အီးမေးလ်များ လက်ခံရန် စာရင်းသွင်းခြင်း ကို Mozilla ၏ <privacyLink>ကိုယ်ရေးအချက်အလက်မူဝါဒ</privacyLink> တွင် ရှင်းပြထားသည့်အတိုင်း  Mozilla မှ ကိုင်တွယ်ခြင်း အတွက် သင် အဆင်ပြေပါလိမ့်မည်။
 indicates-required = * သင်္ကေတသည် ရေးဖြည့်ပေးရန် လိုအပ်ကြောင်း ဖော်ပြချက်
 not-available-abbreviation = မ/ရ
+banner-error-slow-1 = ဝမ်းနည်းပါသည်၊ Common Voice သည် နှေးကွေးနေသည်။ သင့်စိတ်ဝင်စားမှုအတွက် ကျေးဇူးတင်ပါသည်။
+banner-error-slow-2 = ကျွန်ုပ်တို့သည် အသွားအလာအများအပြားကို လက်ခံရရှိနေပြီး ပြဿနာများ ကို လောလောဆယ် စုံစမ်းစစ်ဆေးနေပါသည်။
+banner-error-slow-link = အခြေအနေ စာမျက်နှာ
+error-something-went-wrong = ဆောရီး၊ တစ်ခုခု မှားသွားသည်။
+error-clip-upload = ဤကလစ်ကို အပ်လုဒ်တင်ခြင်းသည် မအောင်မြင်ပါ၊ ဆက်ကြိုးစားနေပါသလား။
+error-clip-upload-server = ဤကလစ်ကို အပ်လုဒ်တင်ခြင်းသည် ဆာဗာတွင် ဆက်လက်ပျက်ကွက်နေပါသည်။ စာမျက်နှာကို ပြန်လည်စတင်ပါ သို့မဟုတ် နောက်မှ ထပ်စမ်းကြည့်ပါ။
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -36,32 +42,41 @@ ba = ဘာရှ်ကီး
 bas = ဘာဆာ
 be = ဘယ်လာရုစ်
 bg = ဘူဂေးလ်ရီးယား
+bm = ဘန်ဘာရာ
 bn = ဘင်္ဂလီ
+bo = တီဘက်တန်
 br = ဘရီတွန်
+bs = ဘောစနီးယန်း
 bxr = ဘာရီရက်
+byv = မီံဒမ်ဘ
 ca = ကက်တလန်
 cak = ကချိကို
 ckb = အလယ်ပိုင်း ကရာဒစ်
 cnh = ဟားခါး ချင်း
 co = ကော်ရ်စီကန်
+crh = ခယိုင်မီးရမ် တာတာ
 cs = ချက်ဇ်
 cv = ကျူဘား
 cy = ဝဲလ်ရှ်
 da = ဒိန်းမတ်
+dag = ဒက်ဘခ်နီ
 de = ဂျာမန်
 dsb = ဆိုဘီယမ် အောက်ပိုင်း
 dv = ဒီဗေးဟီ
+dyu = ဒီအိုလာ
 el = ဂရိ
 en = အင်္ဂလိပ်
 eo = အက်စ်ပါရန်တို
 es = စပိန်
 et = အက်စတိုးနီးယန်း
 eu = ဘားစ်
+ewo = အီဝမ်ဒို
 fa = ပါရှန်
 ff = ဖူလာ
 fi = ဖင်းန်နစ်ရှ်
 fo = ဖဲဝီး
 fr = ပြင်သစ်
+fuf = ပူလာဂမ်နီ
 fy-NL = ဖရစ်ချင်း
 ga-IE = အိုင်ရစ်
 gl = ဂါလာစီယံ
@@ -305,8 +320,6 @@ native-language =
     .label = မိခင် ဘာသာစကား
 profile-form-submit-save = သိမ်း
 profile-form-submit-saved = သိမ်းပြီး
-male = ကျား
-female = မ
 # Gender
 other = အခြား
 why-profile-title = ပရိုဖိုင် က ဘာလိုလဲ?
@@ -453,6 +466,9 @@ about-nav-get-involved = ပါဝင်ဆောက်ရွက်ရန်
 
 
 ## How are decisions made
+
+
+## How is Common Voice funded
 
 
 ## Glossary
@@ -753,4 +769,17 @@ welcome-staff = ကြိုဆိုပါတယ် { $company } မှ ဝန�
 
 
 # [/SentenceCollector]
+
+sentence-collection = ဝါကျ စုဆောင်းခြင်း
+
+## WRITE PAGE
+
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
+
+## Donate banner
 
