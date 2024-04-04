@@ -543,9 +543,9 @@ export default class API {
     source,
     localeId,
     localeName,
-    domain,
+    domains,
   }: SentenceSubmission) {
-    const data = { domain, sentence, source, localeId, localeName }
+    const data = { domains, sentence, source, localeId, localeName }
 
     return this.fetch(`${API_PATH}/sentences`, {
       method: 'POST',
