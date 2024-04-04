@@ -1769,6 +1769,7 @@ single-sentence = Single Sentence
 bulk-sentences = Bulk Sentences
 sentence-domain-select =
     .label = Sentence Domain
+sentence-domain-select-placeholder = Select up to three domains
 # Sentence Domain dropdown option
 agriculture = Agriculture
 # Sentence Domain dropdown option
