@@ -34,11 +34,11 @@ export const up = async function (db: any): Promise<any> {
 
   // REMOVE domain_id COLUMN FROM sentence_metadata TABLE
   await db.runSql(`
-    ALTER TABLE sentence_metadata DROP CONSTRAINT domain_id_fk
+    ALTER TABLE sentence_metadata DROP FOREIGN KEY domain_id_fk
   `)
 
   await db.runSql(`
-    ALTER TABLE sentence_metadata DROP COLUMN IF EXISTS domain_id
+    ALTER TABLE sentence_metadata DROP COLUMN domain_id
   `)
 
   await db.runSql(`
