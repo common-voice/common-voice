@@ -803,6 +803,8 @@ subscribe = Prihlásiť sa k odberu
 get-started-speech = Začíname s rozpoznávaním reči
 other-datasets = Ďalšie kolekcie hlasových údajov
 feedback-q = Máte spätnú väzbu?
+# This indicates that there is no data to display
+no-information = Žiadne informácie
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ je <docsLink>súprava nástrojov s otvoreným zdrojom</docsLink> pre výskumníkov, ktorí vyvíjajú najmodernejšie modely konverzácie AI.
 resource-deepspeech-info = Open source nástroj na rozpoznávanie hlasu Deep Speech od Mozilly možno použiť na vytváranie aplikácií na rozpoznávanie reči. Prečítajte si náš <githubLink>prehľad na Githube</githubLink> alebo sa pripojte na fórum <discourseLink>DeepSpeech Discourse</discourseLink> a zistite, ako začať.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> sa venuje technológii otvorenej reči. Ich projekty zahŕňajú systémy STT a TTS založené na hlbokom učení.
