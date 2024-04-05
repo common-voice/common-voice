@@ -798,6 +798,8 @@ subscribe = Abonnearje
 get-started-speech = Begjinne mei spraakwerkenning
 other-datasets = Oare stimgegevensets
 feedback-q = Kommentaar?
+# This indicates that there is no data to display
+no-information = Gjin ynformaasje
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is in <docsLink>opensource-toolkit</docsLink> foar ûndersikers dy’t state-of-the-art-AI-modellen foar konversaasjes ûntwikkelje.
 resource-deepspeech-info = Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, kin brûkt wurde om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-foarum op Discourse</discourseLink> om te ûntdekken hoe’t jo begjinne kinne.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> is tawijd oan iepen spraaktechnology. Harren projekten omfetsje op deep learning basearre STT- en TTS-masinen.
@@ -1851,6 +1853,7 @@ single-sentence = Losse sin
 bulk-sentences = Bulksinnen
 sentence-domain-select =
     .label = Sinsdomein
+sentence-domain-select-placeholder = Selektearje maksimaal trije domeinen
 # Sentence Domain dropdown option
 agriculture = Lânbou
 # Sentence Domain dropdown option
