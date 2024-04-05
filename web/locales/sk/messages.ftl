@@ -1783,6 +1783,7 @@ single-sentence = Jedna veta
 bulk-sentences = Viaceré vety
 sentence-domain-select =
     .label = Zatriedenie vety
+sentence-domain-select-placeholder = Môžete zvoliť až tri zatriedenia
 # Sentence Domain dropdown option
 agriculture = Poľnohospodárstvo
 # Sentence Domain dropdown option
