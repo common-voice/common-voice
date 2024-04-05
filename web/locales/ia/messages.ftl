@@ -679,6 +679,9 @@ about-playbook-how-project-governance-content-5 = Valor e recognition.
 about-playbook-how-project-governance-content-6 = Reciproc responsabilitate.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lege plus re como nos es gerite</governanceLink>
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = Glossario
@@ -778,6 +781,8 @@ subscribe = Subscriber se
 get-started-speech = Comenciar con le Recognition de voce
 other-datasets = Other Voice Datasets
 feedback-q = Ha tu commentario?
+# This indicates that there is no data to display
+no-information = Nulle information
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ es un <docsLink>instrumentario open source</docsLink> pro recercatores que disveloppa modellos avantiate de intelligentia artificial conversational.
 resource-deepspeech-info = Le motor de recognition vocal open source de Mozilla, Deep Speech, pote esser usate pro crear applicationes de recognition vocal. Lege nostre <githubLink>summario sur GitHub</githubLink> o adhere al <discourseLink>DeepSpeech Discourse</discourseLink> pro saper como comenciar.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> es dedicate a render libere le technologia vocal. Su projectos include motores STT e TTS basate sur le apprendimento profunde.
@@ -1822,3 +1827,6 @@ file-invalid-type = File non valide
 file-too-large = File troppo grande
 file-too-small = File troppo micre
 too-many-files = Troppo de files
+
+## Donate banner
+
