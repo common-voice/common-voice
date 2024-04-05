@@ -214,6 +214,7 @@ uz = Üzbég
 ve = Venda
 vec = Velencei
 vi = Vietnámi
+vmw = Makua
 vot = Vót
 wep = Vesztfáliai
 wo = Volof
@@ -454,6 +455,7 @@ help-accent = Segítségre van szüksége az akcentussal kapcsolatban?
 help-accent-explanation = Az akcentusa az, ahogy a szavakat kiejti. Alakíthatja hogy hol élt, milyen más nyelveket beszél, és sok egyéb tényező. Itt megoszthat minden olyan információt, amelyet relevánsnak érez.
 help-variants = Segítségre van szüksége a változatokkal kapcsolatban?
 help-variants-explanation = A változatok egy nyelv sajátos formáját jelentik – például egy adott földrajzi területen vagy közösségben élők közös nyelvi formáját. Néha ezeket dialektusoknak nevezik.
+help-sex-or-gender-changes-explanation = Több lehetőséget kínálunk, hogy az emberek nemükről vagy nemi identitásukról többféle választási lehetőség közül választhassanak. Írja le magát az Ön számára legtermészetesebb módon. <learnMoreLink>Tudjon meg többet a biológiai és a társadalmi nemről alkotott megközelítésünkről.</learnMoreLink>
 
 ## Profile - Email
 
