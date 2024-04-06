@@ -421,6 +421,7 @@ profile-form-submit-save = محفوظ
 profile-form-submit-saved = محفوظ تھیا
 male_masculine = مرد/مذکر
 female_feminine = تریمت/مؤنث
+transgender = ہیجڑا
 # Gender
 other = ٻیا
 why-profile-title = ہک پروفائل کیوں؟
@@ -789,6 +790,8 @@ subscribe = سبسکرائب کرو
 get-started-speech = تقریر دی سُن٘ڄاݨ نال شروع کرو
 other-datasets = ٻئے وائس ڈیٹاسیٹس
 feedback-q = فیڈبیک ݙیسو؟
+# This indicates that there is no data to display
+no-information = کوئی معلومات کائنی
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ہک <docsLink>اوپن سورس ٹول کٹ </docsLink> انہاں محققین کیتے  ہے جیڑھے جدید ترین ڳالھ مہاڑ دے AI ماڈلز تیار کریندے پئے ہن۔
 resource-deepspeech-info =
     موزیلا دے اوپن سورس وائس ریکگنیشن انجن ڈیپ سپیچ کوں سپیچ ریکگنیشن ایپلی کیشنز بݨاوݨ کیتے استعمال کیتا ونڄ سڳدا ہے۔ اساݙا <githubLink>Github 
@@ -813,6 +816,7 @@ dataset-version = ورشن
 sha256-checksum-copied = ایس ایچ اے 256 پڑتالی جمع نقل تھی ڳیا!
 sha256-checksum-copied-error = ایس ایچ اے 256 پڑتالی جمع نقل کرݨ وچ ناکامی تھئی۔
 clipboard-not-supported = کلپ بورڈ سہارا تھیا کائنی
+no-information-available = کوئی معلومات دستیاب کائنی۔
 dataset-metadata-sex = جنس
 # dataset metadata - age of contributor
 dataset-metadata-age = عمر
@@ -1736,6 +1740,10 @@ single-sentence-submission = کلھا جملہ جمع کرواوݨ
 bulk-sentence-submission = ڈھڳ جملے جمع کرواوݨ
 single-sentence = کلھا جملہ
 bulk-sentences = ڈھڳ جملے
+sentence-domain-select =
+    .label = جملے دی ڈومین
+# Sentence Domain dropdown option
+agriculture = زراعت
 # Sentence Domain dropdown option
 general = عمومی
 
