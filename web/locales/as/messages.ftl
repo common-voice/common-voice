@@ -792,6 +792,8 @@ subscribe = ছাব‌স্ক্ৰাইব কৰক
 get-started-speech = কথন চিনাক্তকৰণেৰে আৰম্ভ হৈ যাওক
 other-datasets = অন্য ভইচ ডেটাছেটবোৰ
 feedback-q = সঁহাৰি আছেনে?
+# This indicates that there is no data to display
+no-information = তথ্য নাই
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ হৈছে অত্যাধুনিক কথোপকথনমূলক AI মডেল প্ৰস্তুত কৰা গৱেষকসকলৰ বাবে এক <docsLink>মুক্ত উৎসৰ টুলকিট</docsLink>।
 resource-deepspeech-info = কথন চিনাক্তকৰণ এপ্লিকেশ্যন তৈয়াৰ কৰিবলৈ Mozilla-ৰ মুক্ত উৎসৰ কণ্ঠস্বৰ চিনাক্তকৰণ ইঞ্জিন Deep Speech ব্যৱহাৰ কৰিব পাৰি। আমাৰ <githubLink>Github অৱলোকন</githubLink> পঢ়ক নাইবা কেনেকৈ আৰম্ভ কৰিব লাগে— জানিবলৈ <discourseLink>DeepSpeech Discourse</discourseLink>-ত যোগদান কৰক।
 resource-coqui-info = <coquiLink>Coqui</coquiLink> মুক্ত কথন প্ৰযুক্তিৰ বাবে উৎসৰ্গিত। তেওঁলোকৰ প্ৰকল্পবোৰৰ ভিতৰত আছে গভীৰ শিক্ষণ-ভিত্তিক STT আৰু TTS ইঞ্জিন।
@@ -1669,7 +1671,7 @@ img-alt-success-checkmark = চেকমাৰ্ক সফল
 # GUIDELINES PAGE
 guidelines-header = অৱদানৰ মাপকাঠী
 guidelines-header-subtitle = কমন ভইচ ডেটাছেটলৈ বাক্য আৰু অডিঅ’ ক্লিপ কেনেকৈ অৱদান দিয়া হয় আৰু বৈধকৰণ কৰা হয়— বুজি লওক
-voice-collection = মাতৰ সংগ্ৰহ
+voice-collection = মাত-সংগ্ৰহ
 sentence-collection = বাক্য-সংগ্ৰহ
 varying-pronunciations = বিভিন্ন উচ্চাৰণ
 misreadings = ভুল পঢ়ন
@@ -1753,7 +1755,7 @@ adding-sentences-subheader-special-characters = বিশেষ আৰু আচ
 adding-sentences-subheader-special-characters-explanation-1 = আখৰবোৰ কথিত ভাষাটোৰ ক্ষেত্ৰত বৈধ হ’বই লাগিব। উদাহৰণস্বৰূপে, “র” বাংলা বৰ্ণমালাৰ এটা বৰ্ণ যি অসমীয়াত কেতিয়াও ব্যৱহাৰ কৰা নহয় আৰু সেয়েহে অসমীয়া ভাষাৰ কোনো উৎস-পাঠতেই থকাটো কেতিয়াও উচিত নহয়।
 adding-sentences-subheader-special-characters-explanation-2 = ভাষাবোৰৰ স্থানীয়কৰণ কৰোঁতে অতিৰিক্ত প্ৰয়োজনীয়তাৰ লগতে নিজস্ব বৈধকৰণৰ নিয়মাৱলী নিৰ্ধাৰণ কৰিব পৰা যায়। এটা ভাষাৰ কোনো নিৰ্দিষ্ট বৈধকৰণৰ ফাইল নাথাকিলে ইংৰাজীৰ নিয়মাৱলী অৱদানকাৰীসকলে দেখা পাব।
 adding-sentences-subheader-offensive-content = আপত্তিজনক বিষয়বস্তু
-adding-sentences-subheader-offensive-content-explanation = যদি বাক্যটো আপত্তিজনক বা উদ্বেগজনক - উদাহৰণস্বৰূপে অশালীন বিষয়বস্তুৰ কাৰণে বা আমাৰ <communityGuidelines>সম্প্ৰদায়িক অংশগ্ৰহণৰ নিৰ্দেশনা</communityGuidelines>ৰ অন্য উলংঘাৰ কাৰ‌ণে - তেন্তে আপুনি বাক্যটো নাকচ কৰা উচিত। সমস্যাটো বহলাই তুলিবলৈ আপুনি আমাৰ সৈতে <emailFragment>commonvoice@mozilla.com</emailFragment>-ত যোগাযোগ কৰিবও পাৰে।
+adding-sentences-subheader-offensive-content-explanation = যদি বাক্যটো আপত্তিজনক বা উদ্বেগজনক - উদাহৰণস্বৰূপে অশালীন বিষয়বস্তুৰ কাৰণে বা আমাৰ <communityGuidelines>সম্প্ৰদায়িক অংশগ্ৰহণৰ নিৰ্দেশনা</communityGuidelines>ৰ অন্য উলংঘাৰ কাৰণে - তেন্তে আপুনি বাক্যটো নাকচ কৰা উচিত। সমস্যাটো বহলাই তুলিবলৈ আপুনি আমাৰ সৈতে <emailFragment>commonvoice@mozilla.com</emailFragment>-ত যোগাযোগ কৰিবও পাৰে।
 reviewing-sentences-explanation-1 = যদি বাক্যটোৱে ওপৰৰ মাপকাঠী পূৰণ কৰে, তেন্তে "হয়" বুটামটোত ক্লিক কৰিব।
 reviewing-sentences-explanation-2 = যদি বাক্যটোৱে ওপৰৰ মাপকাঠী পূৰণ নকৰে, তেন্তে "নহয়" বুটামটোত ক্লিক কৰিব।
 reviewing-sentences-explanation-3 = যদি আপুনি বাক্যটোৰ বিষয়ে নিশ্চিত নহয়, তেন্তে আপুনি বাক্যটো এৰি পৰৱৰ্তী বাক্যটোলৈও যাব পাৰে।
@@ -1794,6 +1796,7 @@ single-sentence = একক বাক্য
 bulk-sentences = সমূহীয়া বাক্য
 sentence-domain-select =
     .label = বাক্যৰ ড’মেইন
+sentence-domain-select-placeholder = তিনিটা পৰ্যন্ত ড’মেইন বাছনি কৰক
 # Sentence Domain dropdown option
 agriculture = কৃষি
 # Sentence Domain dropdown option
