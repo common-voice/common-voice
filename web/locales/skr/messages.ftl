@@ -422,6 +422,7 @@ profile-form-submit-saved = محفوظ تھیا
 male_masculine = مرد/مذکر
 female_feminine = تریمت/مؤنث
 transgender = ہیجڑا
+do_not_wish_to_say = کجھ کائنی ݙساوݨ چاہندا
 # Gender
 other = ٻیا
 why-profile-title = ہک پروفائل کیوں؟
@@ -1744,6 +1745,12 @@ sentence-domain-select =
     .label = جملے دی ڈومین
 # Sentence Domain dropdown option
 agriculture = زراعت
+# Sentence Domain dropdown option
+automotive = آٹو موٹیو
+# Sentence Domain dropdown option
+finance = فنانس
+# Sentence Domain dropdown option
+food_service_retail = خوراک، خدمت تے پرچون
 # Sentence Domain dropdown option
 general = عمومی
 
