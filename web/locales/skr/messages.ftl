@@ -1627,6 +1627,9 @@ continue-speaking-button = کائناں شکریہ، ٻولݨ جاری رکھو
 create-profile-text = آپݨی ڄاݨکاری محفوظ کرݨ چاہندے ہو؟<createProfile> پروفائل بݨاؤ</createProfile>
 thanks-for-voice-toast = تہاݙی اواز معلومات پاروں تہاݙا شکریہ
 thanks-for-voice-toast-error = تہاݙی اواز معلومات جمع کرواوݨ وچ خرابی تھی ڳئی
+first-cta-gender-select-default-option = ہک اختیار چݨو
+first-cta-gender-select-help-text =
+    .label = تساں آپݨی صنف یا جنس کوں کین٘ویں بیان کریسو؟
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = آپݨی اواز دان کرݨ تے تہاݙے تھورائت ہیسے!
 second-cta-subtitle-text = پروفائل نال تساں آپݨی سرگرمی تے نظر رکھ سڳدے ہو تے صوتی ڈیٹا وچ حصہ پاوݨ آلی برادری نال جُڑ سڳدے ہو۔
@@ -1743,6 +1746,7 @@ single-sentence = کلھا جملہ
 bulk-sentences = ڈھڳ جملے
 sentence-domain-select =
     .label = جملے دی ڈومین
+sentence-domain-select-placeholder = ترائے تائیں ڈومیناں چݨو
 # Sentence Domain dropdown option
 agriculture = زراعت
 # Sentence Domain dropdown option
