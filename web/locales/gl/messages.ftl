@@ -1829,7 +1829,7 @@ healthcare = Asistencia sanitaria
 # Sentence Domain dropdown option
 history_law_government = Historia, dereito e goberno
 # Sentence Domain dropdown option
-language_fundamentals = Fundamentos da linguaxe (por exemplo, díxitos, letras, diñeiro)
+language_fundamentals = Categorías básicas da lingua (por exemplo, díxitos, letras, diñeiro)
 # Sentence Domain dropdown option
 media_entertainment = Medios e entretemento
 # Sentence Domain dropdown option
