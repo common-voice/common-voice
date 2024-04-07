@@ -789,6 +789,8 @@ subscribe = Subscribir
 get-started-speech = Introdución ao recoñecemento da fala
 other-datasets = Outros conxuntos de datos de voz
 feedback-q = Desexa facer comentarios?
+# This indicates that there is no data to display
+no-information = Non hai información dispoñible
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ é un <docsLink>conxunto de ferramentas de código aberto</docsLink> para investigadores/as que desenvolven modelos conversacionais de última xeración.
 resource-deepspeech-info = Deep Speech é un motor de recoñecemento da fala de código aberto desenvolto por Mozilla que se pode usar para crear aplicacións de recoñecemento da fala. Consulte a nosa <githubLink>descrición xeral en Github</githubLink> e únase ao <discourseLink>DeepSpeech Discourse</discourseLink> para descubrir como comezar.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> dedícase á tecnoloxía da fala de código aberto. Os seus proxectos inclúen modelos de voz-a-texto e de texto-a-voz baseados na aprendizaxe profunda.
