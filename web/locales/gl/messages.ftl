@@ -1738,7 +1738,7 @@ public-domain = Dominio Público
 citing-sentences = Citar frases
 adding-sentences = Engadir frases
 reviewing-sentences = Revisar frases
-sentence-domain = { "" }
+sentence-domain = Dominio ao que pertence a frase
 public-domain-explanation-1 = É moi importante que todas as frases sexan de <publicDomain>dominio público</publicDomain> (<cc0>cc0</cc0>), xa que o conxunto de datos de Common Voice se publica baixo licenza cc0. Antes de subir frases, asegúrese diso e inclúa sempre a cita correspondente.
 public-domain-explanation-2 = As mellores frases para construír un motor de recoñecemento da fala útil son as da linguaxe coloquial e actual. A seguir atopará unha serie de ideas para axudarlle a xerar frases:
 public-domain-explanation-3 = Cree frases actuais e coloquiais en solitario, cos seus amigos ou coa súa comunidade lingüística, por exemplo, a través dun maratón de escritura
@@ -1813,6 +1813,7 @@ single-sentence = Frase única
 bulk-sentences = Grupo de frases
 sentence-domain-select =
     .label = Dominio da oración
+sentence-domain-select-placeholder = Seleccione ata tres campos
 # Sentence Domain dropdown option
 agriculture = Agricultura
 # Sentence Domain dropdown option
