@@ -1694,12 +1694,46 @@ adding-sentences-subheader-offensive-content = توهين کوونکې منځپ�
 
 ## WRITE PAGE
 
+# Sentence Domain dropdown option
+media_entertainment = رسنۍ او تفریح
+# Sentence Domain dropdown option
+nature_environment = طبیعت او چاپیریال
+# Sentence Domain dropdown option
+news_current_affairs = خبرونه او اوسنۍ چارې
+# Sentence Domain dropdown option
+technology_robotics = ټیکنالوژي او روبوټکس
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = <icon></icon> وګورئ ایا دا په ژبني لحاظ سمه جمله ده؟
+sc-review-rules-title = ایا جمله لارښوونې پوره کوي؟
+sc-review-empty-state = اوس مهال په دې ژبه کې د بیاکتنې لپاره هیڅ جملې شتون نلري.
+report-sc-different-language = بېل ژبه
+report-sc-different-language-detail = دا په هغه ژبه لیکل شوی چې زه یې بیاکتنه کوم توپیر لري.
+sentences-fetch-error = د جملو په راوړلو کې تېروتنه رامنځته شوه
+review-error = د دې جملې په بیاکتنه کې یوه تېروتنه رامنځته شوه
+review-error-rate-limit-exceeded = تاسو ډیر چټک روان یاست. مهرباني وکړئ د جملې بیاکتنې لپاره یو څه وخت ونیسئ ترڅو ډاډ ترلاسه کړئ چې دا سمه ده.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = موږ یو څه لوی بدلونونه کوو
+sc-redirect-page-subtitle-1 = د جملې راټولونکی د اصلي عام غږ پلیټ فارم ته حرکت کوي. تاسو اوس کولی شئ یو جمله <writeURL>لیکئ</writeURL> یا <reviewURL>بیاکتنه</reviewURL> په عام غږ کې د یوې جملې سپارل.
+sc-redirect-page-subtitle-2 = په <matrixLink>Matrix</matrixLink>، <discourseLink>Discourse</discourseLink> یا <emailLink>email</emailLink> باندې پوښتنې وکړئ.
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = د عامه ډومین جملې <icon></icon> پورته کړئ
+sc-bulk-upload-instruction = خپل فایل دلته کش کړئ یا <uploadButton>د پورته کولو لپاره کلیک وکړئ</uploadButton>
+sc-bulk-upload-instruction-drop = د اپلوډ کولو لپاره دلته فایل پریږدئ
+bulk-upload-additional-information = که تاسو د دې فایل په اړه نور معلومات غواړئ، نو مهرباني وکړئ اړیکه ونیسئ <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = که تاسو غواړئ د دې فایل په اړه نور معلومات چمتو کړئ چې په کېنډۍ کې نه دي شامل شوي، مهرباني وکړئ اړیکه ونیسئ <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = بیا هڅه وکړئ خپل فایل دلته راښکته کړئ
+try-upload-again-md = بیا د پورته کولو هڅه وکړئ
+select-file = فایل غوره کړئ
+select-file-mobile = د پورته کولو لپاره فایل غوره کړئ
+accepted-files = د منلو وړ دوتنې ډولونه: tsv یوازې
+maximum-file-size = د فایل اعظمي اندازه: 25 MB
+what-needs-to-be-in-file = زما په فایل کې څه ته اړتیا ده؟
 
 ## Donate banner
 
