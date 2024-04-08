@@ -54,6 +54,7 @@ cak = کاکچیل
 ckb = مرکزي کردي
 cnh = هاکه چن
 co = کورسیکني
+crh = د کریمیا تاتار
 cs = چکسلواکي
 cv = چوواش
 cy = ولش
@@ -69,16 +70,20 @@ eo = ایسپیرینټوي
 es = هسپانیه ایی
 et = ایستونینوي
 eu = باسک
+ewo = ایونډو
 fa = پاړسي
 ff = فواله
 fi = فنلینډي
 fo = فیروزي
 fr = فرانسوي
+fuf = پلر ګیني
 fy-NL = فريشاني
 ga-IE = ایرلینډي
 gl = ګالیسي
 gn = ګوراني
 gom = ګوان کونکاني
+gu-IN = ګجراتي
+guc = وایونایکی
 ha = هوسا
 he = عبري
 hi = هندي
@@ -119,6 +124,7 @@ ln = لينګلا
 lo = لاو
 lt = لیتوانیایي
 lv = لاتویني
+lzz = لاز
 mai = میتیلي
 mdf = موکشايي
 mg = مالاګسي
@@ -149,6 +155,7 @@ nyn = رنیانکولي
 oc = اوکسيټي
 om = افعان اورمو
 or = اوډیايي
+os = اوسیتیا
 pa-IN = پنجابي
 pap-AW = پاپیامینټو (اروبا)
 pl = پولنډي
@@ -156,6 +163,7 @@ ps = پښتو
 pt = پورتګالي
 quc = کیشي
 quy = کویچو چانکا
+qvi = کیچوا
 rm-sursilv = رومانوي سورسیلواني
 rm-vallader = رومانوي ویلدر
 ro = رومانیایي
@@ -165,6 +173,8 @@ sah = سخايي
 sat = سنتالي (اول چیکي)
 sc = سارډیني
 scn = سیسیلي
+sco = سکاټ
+sd = سندي
 sdh = جنوبي کوردي
 shi = شله
 si = سنهالوي
@@ -206,6 +216,7 @@ ve = تشیویندا
 vec = وینوسي
 vi = ویتنامي
 vot = ووټیک
+wep = ویسټفالیا
 wo = ولوف
 xh = ژوسا
 yi = یدیش
@@ -242,6 +253,7 @@ share-text = ماشینونو ته په ښوولو کې چې څنګه ریښتی
 link-copied = تړونی کاپي شوی
 back-top = بېرته سر ته
 logout = وتل
+donate = مرسته وکړئ
 
 ## Home Page
 
@@ -402,8 +414,10 @@ native-language =
 profile-form-add-accent = نوی دودیز خجنښه اضافه کړئ "{ $inputValue }"
 profile-form-submit-save = خوندي کړئ
 profile-form-submit-saved = خوندي شو
-male = نر
-female = ښځه
+male_masculine = مذکر/نارینه
+female_feminine = ښځه/ښځینه
+transgender = ټرانسجنډر
+do_not_wish_to_say = نه غواړم ووایم
 # Gender
 other = نور
 why-profile-title = ولې پېژنیال؟
@@ -441,6 +455,7 @@ help-accent = د خجنښې سره یو څه مرستې ته اړتیا لرئ؟
 help-accent-explanation = ستاسو خجنښه ستاسو د کلمو تلفظولو طریقه ده. دا د هغه ځای چیرته چې تاسو ژوند کړی، په نورو کومو ژبو خبرې کوئ او ډیری نور عواملو له مخې کیدای شي بڼه واخلي. تاسو کولی شئ هر هغه معلومات شریک کړئ چې تاسو یې احساس کوئ دلته اړین دي.
 help-variants = د ډولونو سره یو څه مرستې ته اړتیا لرئ؟
 help-variants-explanation = ډولونه د یوې ژبې ځانګړې بڼه ده - د بیلګې په توګه د هغو کسانو لخوا چې په یوې جغرافیه یا ټولنه کې ژوند کوي سره شریکه وي. ځینې وختونه دا د لهجو په نوم یادیږي.
+help-sex-or-gender-changes = د جنسیت یا جندر بدلونونو کې مرستې ته اړتیا لرئ؟
 
 ## Profile - Email
 
@@ -676,6 +691,12 @@ about-playbook-how-project-governance-content-5 = ارزښت او پیژندنه
 about-playbook-how-project-governance-content-6 = متقابل حساب ورکول.
 about-playbook-how-project-governance-content-7 = <governanceLink>په دې اړه نور ولولئ چې موږ څنګه اداره کوو</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = عام غږ څنګه کار کوي؟
+about-playbook-how-funded-content-2 = دا په دوامداره توګه د ډیټاسیټونو کوربه کولو او خوشې کولو، پلیټ فارم ته وده ورکولو او د <africaMradiLink> د ټولنې پروګرامونو</africaMradiLink> چلولو لپاره ډیرې پیسې لګوي.
+about-playbook-how-funded-content-3 = که تاسو یا ستاسو سازمان غواړئ چې په دې پروژه کې بیرته مرسته وکړئ، تاسو کولی شئ یو <donateLink>ډونیشن</donateLink> وکړئ یا په <emailFragment>commonvoice@mozilla.com</emailFragment> کې زموږ د شراکت ټیم سره اړیکه ونیسئ.
+
 ## Glossary
 
 glossary = وييزېرمه
@@ -751,10 +772,12 @@ validated-hr-total = باوري شوي ساعت ټولټال
 overall-hr-total = په ټوله کې د ساعت ټولټال
 cv-license = لایسنس
 audio-format = غږیز فارمټ
+dataset-splits = تقسیم (عمر او جنس)
 number-of-voices = د غږونو شمیر
 splits = ټوټې ټوټې
 email-to-download = د ډاونلوډ کولو لپاره برېښنالیک دننه کړئ
 why-email = <b> ولې یو بریښنالیک؟ </b> موږ ښايي اړتیا ولرو چې ستاسو  سره په راتلونکي کې په ډېټاسیټ کې د بدلونونو په اړه اړیکه ونیسو، بریښنالیک موږ ته د اړیکې یو نښه چمتو کوي.
+why-donate-datasets-page = موزیلا کامن غږ د نړۍ ترټولو متنوع کراوډ سورس خلاص وینا ډیټا سیټ دی - او موږ په بشپړ ډول د بسپنه ورکوو. دا د ډیټاسیټونو کوربه کولو او د 100+ ژبو ټولنو لپاره پلیټ فارم ته وده ورکولو لپاره په کال کې نږدې یو ملیون ډالر لګښت لري چې په هغه څه تکیه کوي چې موږ یې کوو. که تاسو پرانیستې، ټول شموله ډاټا ته ارزښت ورکړئ - <b>نن ورځ مرسته وکړئ!</b>
 confirm-size = تاسو د <b>{ $size }</b> ډاونلوډ پیلولو لپاره چمتو یاست
 size-gigabyte = جي بي
 size-megabyte = ام بي
@@ -773,6 +796,8 @@ subscribe = ګډون وکړئ
 get-started-speech = وینا پېژندنې باندې پیل وکړئ
 other-datasets = نور غږیز ډېټاسیټونه ...
 feedback-q = غبرګون لرئ؟
+# This indicates that there is no data to display
+no-information = معلومات نشته
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ د څیړونکو لپاره یو <docsLink>د خلاصې سرچینې اوزار کټ</docsLink> دی چې د عصري خبرو اترو AI ماډلونه رامینځته کوي.
 resource-deepspeech-info = د موزیلا د خلاصې سرچینې غږ پیژندنې انجن ډیپ سپیچ د وینا پیژندنې غوښتنلیکونو جوړولو لپاره کارول کیدی شي. زموږ <githubLink>Github عمومي کتنه</githubLink> ولولئ یا د <discourseLink>DeepSpeech Discourse</discourseLink> سره یوځای شئ ترڅو د پیل کولو څرنګوالی زده کړئ.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> د خلاصې وینا ټیکنالوژۍ ته وقف شوی. د دوی په پروژو کې د ژورې زده کړې پر بنسټ د STT او TTS انجنونه شامل دي.
@@ -795,6 +820,15 @@ dataset-version = نسخه
 sha256-checksum-copied = SHA256 چکسم کاپي شوی!
 sha256-checksum-copied-error = د SHA256 چیکسم کاپي کولو کې پاتې راغلی
 clipboard-not-supported = کلپ بورډ نه ملاتړ کیږي
+no-information-available = هیڅ معلومات نشته
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = ستاسو ډیټاسیټ ډاونلوډ کیږي!
+dataset-donate-modal-heading = ایا پوهیدئ…
+donate-modal-explanation-1 = دا د ډیټاسیټونو کوربه کولو او د 100+ ژبو ټولنو لپاره پلیټ فارم ته وده ورکولو لپاره په کال کې نږدې یو ملیون ډالر لګښت لري چې موږ په څه تکیه کوو؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <بولډ>که تاسو خلاص، ټول شموله ډاټا ته ارزښت ورکوئ - همدا نن مرسته وکړئ!</bold>
 
 ## Download Modal
 
@@ -870,6 +904,8 @@ language-section-in-progress = د پرمختګ په حال کې
 language-section-in-progress-new-description = دا ژبې دا مهال د ټولنې لخوا تر پراختیا لاندې دي. د پرمختګ پټې په ګوته کوي چې هره ژبه څومره ليری د <localizationGlossaryLink> ویب سایټ ځایي ژبې ته ژباړلو </localizationGlossaryLink> او <sentenceCollectionGlossaryLink> د جملو ټولګه </sentenceCollectionGlossaryLink> په پروسه کې ده.
 language-section-launched = په لاره اچول شوی
 language-section-launched-description = د دې پیل شوي ژبو لپاره ویب پاڼه په بریالیتوب سره <localizationGlossaryLink> ځایي ژبې ته ژباړل </localizationGlossaryLink> شوې، او کافي <sentenceCollectionGlossaryLink> جملې راټولې شوې دي </sentenceCollectionGlossaryLink> ترڅو د <speakLink> غږیدلو </speakLink> او <listenLink> اوریدلو </listenLink> رواني ونډې لپاره اجازه ورکړل شي.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = وروستی تازه شوی: { $lastUpdatedTimeStamp }
 languages-show-more = نور ووینئ
 languages-show-less = لږ ووینئ
 language-meter-in-progress = پرمختګ
@@ -939,6 +975,9 @@ listen-empty-state = موږ پدې ژبه کې د تاییدلو لپاره د �
 listen-loading-error =
     موږ ستاسو د اوریدلو لپاره هیڅ آډیو کلیپونه ترلاسه نشو کولی.
     مهرباني وکړئ وروسته بیا هڅه وکړئ.
+listen-abort-title = د تایید کلپونه ختم کړئ؟
+listen-abort-cancel = تایید ته دوام ورکړئ
+listen-abort-confirm = تایید کول پای ته ورسوئ
 speak-empty-state = موږ پدې ژبه کې د ثبتولو لپاره د جملو څخه خلاص شو...
 speak-empty-state-cta = د جملو مرسته وکړئ
 speak-loading-error =
@@ -1597,6 +1636,9 @@ continue-speaking-button = نه مننه، خبرو ته دوام ورکړئ
 create-profile-text = غواړئ خپل معلومات خوندي کړئ؟ <createProfile>یو پروفایل جوړ کړئ</createProfile>
 thanks-for-voice-toast = ستاسو د غږ معلوماتو لپاره مننه
 thanks-for-voice-toast-error = ستاسو د غږ معلوماتو په سپارلو کې یوه تېروتنه رامنځته شوه
+first-cta-gender-select-default-option = یو اختیار غوره کړئ
+first-cta-gender-select-help-text =
+    .label = تاسو به څنګه خپل جنسیت یا جندر بیان کړئ؟
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ستاسو د غږ کلپونو د مرستې لپاره مننه!
 second-cta-subtitle-text = د پروفایل سره، تاسو کولی شئ خپل فعالیت تعقیب کړئ او د غږ ډیټا مرسته کونکو ټولنې سره اړیکه ونیسئ.
@@ -1606,6 +1648,7 @@ create-profile-button = یو پروفایل جوړ کړئ
 img-alt-success-checkmark = د بریالیتوب نښه
 # GUIDELINES PAGE
 guidelines-header = د ونډې لارښوونې
+guidelines-header-subtitle = پوه شئ چې څنګه د ګډ غږ ډیټاسیټ ته د جملو او آډیو کلیپونو مرسته او اعتبار ورکړئ
 voice-collection = د غږ راټولول
 sentence-collection = د جملې ټولګه
 varying-pronunciations = مختلف تلفظونه
@@ -1615,8 +1658,18 @@ background-noise = شاته شور
 background-voices = د شاته غږونه
 volume = حجم
 reader-effects = د لوستونکي اغیزې
+just-unsure = بس ډاډه نه یاست؟
 example = بېلګه
+varying-pronunciations-explanation-1 = مخکې له دې چې په ځمکه کې یو کلیپ رد کړئ محتاط اوسئ چې لوستونکي یوه کلمه غلطه کړې وي، فشار یې په غلط ځای کې ځای پرځای کړی وي، یا یې په ښکاره ډول د پوښتنې نښه له پامه غورځولې وي. په ټوله نړۍ کې د تلفظونو پراخه ډولونه شتون لري، چې ځینې یې ممکن ستاسو په محلي ټولنه کې نه وي اوریدلي. مهرباني وکړئ د هغو کسانو لپاره د ستاینې حد چمتو کړئ څوک چې ممکن ستاسو څخه مختلف خبرې وکړي.
+varying-pronunciations-explanation-2 = له بلې خوا، که تاسو فکر کوئ چې لوستونکی شاید هیڅکله د کلمې سره مخ نه وي، او په ساده ډول د تلفظ په اړه غلط اټکل کوي، مهرباني وکړئ رد کړئ. که تاسو ډاډه نه یاست، د Skip تڼۍ وکاروئ.
+varying-pronunciations-example = لاره ناڅرګنده وه.
+varying-pronunciations-tip-1 = [کاناډا انګلیسي ممکن د "روټ" غږ د "راوټ" په څیر رامینځته کړي]
+varying-pronunciations-tip-2 = [برتانوي انګلیسي ممکن "روټ" جوړ کړي]
+misreadings-explanation-2 = ډیر عام غلطۍ عبارت دي له:
+misreadings-explanation-6 = په چټکۍ سره د ریکارډ قطع کولو سره د وروستي کلمې پای له لاسه ورکول.
+misreadings-explanation-7 = د یوې کلمې لوستلو لپاره څو هڅې کول.
 misreadings-example-1 = موږ د قهوې اخیستو لپاره بهر ځو.
+misreadings-example-2 = موږ د قهوې اخیستو لپاره بهر ځو.
 misreadings-example-3 = موږ د قهوې اخیستو لپاره بهر ځو.
 misreadings-example-4 = مچۍ په تېزۍ سره روانه شوه.
 misreadings-tip-1 = [باید "موږ یو" وي]
@@ -1624,11 +1677,33 @@ misreadings-tip-2 = [په اصلي متن کې 'a' نه دی]
 misreadings-tip-3 = [مطابقت نه  لرونکې منځپانګه]
 background-noise-example-1 = د ټریاسیک لوی ډیناسور.
 background-noise-tip-2 = [د متن یوه برخه اوریدل کیدی نشي]
+background-voices-tip-1 = ته راځې؟ [د بل لخوا ویل کیږي]
+volume-explanation = د لوستونکو ترمنځ به په حجم کې طبیعي توپیرونه وي. رد کړئ یوازې هغه وخت چې حجم دومره لوړ وي چې ریکارډ نګ ماتیږي، یا (په عام ډول) که دا دومره ټیټ وي چې تاسو نشئ اوریدلی چې د لیکل شوي متن ته اشاره کولو پرته څه ویل کیږي.
+reader-effects-explanation = ډیری ریکارډونه د هغه خلکو څخه دي چې په خپل طبیعي غږ کې خبرې کوي. تاسو کولی شئ کله ناکله غیر معیاري ریکارډونه ومنئ چې په "ډراماتیک" غږ کې، ګونګوسې، یا په ښکاره ډول وړاندې کیږي. مهرباني وکړئ د سندرو ریکارډونه رد کړئ او هغه څوک چې د کمپیوټر ترکیب شوي غږ کاروي.
+still-have-questions = اوس هم پوښتنې لرئ؟
+contact-common-voice = د ګډ غږ ټیم سره اړیکه ونیسئ
+public-domain = عامه ډومین
+citing-sentences = د جملې نقل کول
+adding-sentences = د جملو اضافه کول
+reviewing-sentences = د جملو بیاکتنه
+sentence-domain = د جملې ډومین
+public-domain-explanation-1 = دا ډیره مهمه ده چې د متن ټولې جملې <publicDomain> عامه ډومین</publicDomain> (<cc0>cc0</cc0>) وي ځکه چې د عام غږ ډیټاسیټ د cc0 جواز لاندې خپور شوی. یوازې کله هم یوه جمله اپلوډ کړئ که تاسو ډاډه یاست، او تل اړونده حواله شامل کړئ.
+public-domain-explanation-2 = د ګټورې وینا پیژندنې انجن رامینځته کولو لپاره غوره جملې خبرې ، عصري خبرې دي. ځینې نظریات چې تاسو سره د جملو په جوړولو کې مرسته کوي؛
 citing-sentences-subheader-websites-explanation = تاسو کولی شئ ویب پاڼه شامله کړئ، د مثال په توګه "عام غږ - https://commonvoice.mozilla.org/"
 adding-sentences-subheader-offensive-content = توهين کوونکې منځپانګه
+
+## WRITE PAGE
+
 
 ## REVIEW PAGE
 
 
 ## BULK SUBMISSION 
 
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>موږ</mark><br/><mark>ستاسو مرستې ته اړتیا لرو!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = دا د ډیټاسیټونو کوربه کولو او د 100+ ژبو ټولنو لپاره پلیټ فارم ته وده ورکولو لپاره په کال کې نږدې یو ملیون ډالر لګښت لري چې په هغه څه تکیه کوي چې موږ یې کوو. <strong>که تاسو خلاص، ټول شموله ډیټا ته ارزښت ورکوئ - نن ورځ مرسته وکړئ!</strong>

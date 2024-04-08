@@ -778,6 +778,8 @@ subscribe = Iscriviti
 get-started-speech = Inizia con il riconoscimento vocale
 other-datasets = Altri dataset vocali
 feedback-q = Hai suggerimenti?
+# This indicates that there is no data to display
+no-information = Nessuna informazione
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ è un <docsLink>toolkit open-source</docsLink> per i ricercatori che sviluppano modelli conversazionali di intelligenza artificiale all’avanguardia.
 resource-deepspeech-info = Il motore di riconoscimento vocale open source di Mozilla, Deep Speech, può essere utilizzato per creare applicazioni di riconoscimento vocale. Leggi la <githubLink>panoramica su GitHub</githubLink> o partecipa a <discourseLink>DeepSpeech su Discourse</discourseLink> per scoprire come cominciare.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> è un’organizzazione che si occupa di tecnologia aperta in ambito vocale. Alcuni dei loro progetti includono motori STT e TTS basati su deep learning.
@@ -1739,6 +1741,7 @@ single-sentence = Singola frase
 bulk-sentences = Frasi in blocco
 sentence-domain-select =
     .label = Dominio della frase
+sentence-domain-select-placeholder = Scegli fino a 3 domini
 # Sentence Domain dropdown option
 agriculture = Agricoltura
 # Sentence Domain dropdown option

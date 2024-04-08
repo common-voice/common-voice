@@ -15,7 +15,9 @@ export const typeSingleSubmission = ({
   cy.get('[data-testid=sentence-textarea]').type(sentence)
 
   if (shouldSelectDomain) {
-    cy.get('[data-testid=sentence-domain-select]').select('general')
+    cy.get('[data-testid=sentence-domain-select]').click()
+    // Select "General" as domain
+    cy.get('[data-testid=general]').click()
   }
 
   if (shouldTypeCitation) {

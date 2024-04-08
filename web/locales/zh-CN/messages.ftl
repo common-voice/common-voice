@@ -782,6 +782,8 @@ subscribe = 订阅
 get-started-speech = 语音识别入门
 other-datasets = 其他语音数据集
 feedback-q = 有反馈要提供？
+# This indicates that there is no data to display
+no-information = 没有信息
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ 是一套可让研究者开发最先进的对话式 AI 模型的<docsLink>开源工具包</docsLink>。
 resource-deepspeech-info = Mozilla 的开源语音识别引擎 Deep Speech，可用于构建语音识别应用程序。您可以阅读我们的 <githubLink>Github 概述</githubLink>或加入<discourseLink> DeepSpeech Discourse</discourseLink> 了解如何入门。
 resource-coqui-info = <coquiLink>Coqui</coquiLink> 致力于开放语音技术。他们的项目包括使用深度学习技术的 STT 与 TTS 引擎。
@@ -1718,6 +1720,7 @@ single-sentence = 单句
 bulk-sentences = 批量语句
 sentence-domain-select =
     .label = 语句领域
+sentence-domain-select-placeholder = 最多选择三个领域
 # Sentence Domain dropdown option
 agriculture = 农业
 # Sentence Domain dropdown option
