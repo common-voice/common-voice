@@ -1709,6 +1709,47 @@ sentence-input-value = خپل عامه ډومین جمله دلته دننه ک�
 citation-input-value = ستاسو د جملې سرچینه
 citation =
     .label = اقتباس
+sc-write-submit-confirm = زه تایید کوم چې دا جمله <wikipediaLink> عامه ډومین</wikipediaLink> ده او زه یې د پورته کولو اجازه لرم.
+sc-review-write-title = زه کوم جملې اضافه کولی شم؟
+new-sentence-rule-1 = <noCopyright>د کاپي حق نشته</noCopyright> محدودیتونه (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = په هره جمله کې له 15 څخه لږ کلمې
+new-sentence-rule-3 = صحیح ګرامر وکاروئ
+new-sentence-rule-4 = د سمې املا او جملې څخه کار واخلئ
+new-sentence-rule-5 = شمیرې او ځانګړي حروف مه کاروئ
+new-sentence-rule-6 = ده نورو بهرني ژبو توري مه کاروئ
+new-sentence-rule-7 = مناسب حواله شامل کړئ
+new-sentence-rule-8 = په مثالي توګه طبیعي او خبرو اترو (دا باید د جملې لوستل اسانه وي)
+how-to-cite = زه څنګه نقل کړم؟
+how-to-cite-explanation-bold = د یو آر ایل لینک یا د کار بشپړ نوم سره حواله کړئ.
+how-to-cite-explanation = که دا ستاسو خپل ټکي وي، یوازې ووایاست <italicizedText>"Self Citation"</italicizedText>. موږ اړتیا لرو پوه شو چې تاسو دا مینځپانګه چیرې موندلې ترڅو موږ وګورو چې دا په عامه ډومین کې دی او د کاپي حق محدودیت نه پلي کیږي. د حوالې په اړه د نورو معلوماتو لپاره زموږ <guidelinesLink>د لارښود پاڼه</guidelinesLink> وګورئ.
+guidelines = لارښوونې
+contact-us = موږ سره اړیکه ونیسئ
+add-sentence-success = 1 جمله راټوله شوې
+add-sentence-error = د جملې په زیاتولو کې تېروتنه
+required-field = مهرباني وکړئ دا ساحه ډکه کړئ.
+single-sentence-submission = د واحد جملې سپارل
+bulk-sentence-submission = د ډیرو جملو سپارل
+single-sentence = یوه جمله
+bulk-sentences = ډيري جملې
+sentence-domain-select =
+    .label = د جملې ډومین
+sentence-domain-select-placeholder = تر دریو ډومینونو پورې غوره کړئ
+# Sentence Domain dropdown option
+agriculture = کرنه
+# Sentence Domain dropdown option
+automotive = اتوماتیک
+# Sentence Domain dropdown option
+finance = مالیه
+# Sentence Domain dropdown option
+food_service_retail = خواړه، خدمت او پرچون
+# Sentence Domain dropdown option
+general = جنرال
+# Sentence Domain dropdown option
+healthcare = روغتیایی پاملرنه
+# Sentence Domain dropdown option
+history_law_government = تاریخ، قانون او حکومت
+# Sentence Domain dropdown option
+language_fundamentals = د ژبې اساسات (د بیلګې په توګه عددونه، لیکونه، پیسې)
 # Sentence Domain dropdown option
 media_entertainment = رسنۍ او تفریح
 # Sentence Domain dropdown option
