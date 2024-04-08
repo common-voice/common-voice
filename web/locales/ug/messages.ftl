@@ -253,7 +253,7 @@ cookies = Cookies
 faq = كۆپ سورالغان سوئاللار
 content-license-text = مەزمۇنلار <licenseLink> ئىجادىيەت ئورتاقلىق ئىجازەتنامىسى </licenseLink>دە ئىشلىتىلىدۇ
 share-title = ئاۋازىنى ئىئانە قىلىدىغانلارنى تېپىشىمىزغا ياردەملىشىڭ!
-share-text = ماشىنىلارغا ھەقىقىي كىشىلەرنىڭ قانداق سۆزلەيدىغانلىقىنى ئۆگىنىشىگە ياردەم قىلىڭ ، link $ ئۇلىنىش ئارقىلىق ئاۋازىڭىزنى ئىئانە قىلىڭ
+share-text = ماشىنىلارغا ھەقىقىي كىشىلەرنىڭ قانداق سۆزلەيدىغانلىقىنى ئۆگىنىشىگە ياردەم قىلىڭ ، { $link } ئۇلىنىش ئارقىلىق ئاۋازىڭىزنى ئىئانە قىلىڭ
 link-copied = ئۇلانما كۆچۈرۈلدى
 back-top = ئۈستىگە قايت
 logout = تىزىمدىن چىقىش
@@ -794,6 +794,8 @@ subscribe = مۇشتەرى بولۇش
 get-started-speech = ئاۋاز تونۇتۇشنى باشلاڭ
 other-datasets = باشقا ئاۋاز مەلۇمات توپى
 feedback-q = تەكلىپ-پىكرىڭىز بارمۇ؟
+# This indicates that there is no data to display
+no-information = ھېچقانداق ئۇچۇر يوق
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ تەتقىقاتچىلار ئەڭ ئىلغار سۆزلىشىش شەكلىدىكى سۈنئىي ئەقىل (AI) بۆلىكىنى ئىجاد قىلىدىغان بىر يۈرۈش <docsLink>ئوچۇق كودلۇق ئىجادكارلار قورال بوغچىسى</docsLink>
 resource-deepspeech-info = Common Voice سانلىق مەلۇمات ئامبىرى Mozilla نىڭ ئوچۇق مەنبەلىك ئاۋاز پەرقلەندۈرۈش ماتورى Deep Speech نى قوللىنىپ، ئاۋاز پەرقلەندۈرۈش پروگراممىلىرىنى قۇرالايسىز. قەيەردىن باشلاشنى بىلىشتە بىزنىڭ <githubLink>قىسقىچە تونۇشتۇرۇش  Github </githubLink>  نى ئوقۇڭ ياكى <discourseLink>DeepSpeech مۇنازىرىسىگە</discourseLink> قاتنىشىڭ.
 resource-coqui-info = <coquiLink> Coqui </coquiLink> ئوچۇق نۇتۇق تېخنىكىسىغا بېغىشلانغان. ئۇلارنىڭ تۈرلىرى چوڭقۇر ئۆگىنىشنى ئاساس قىلغان STT ۋە TTS موتورلىرىنى ئۆز ئىچىگە ئالىدۇ.
@@ -1759,6 +1761,7 @@ single-sentence = يەككە جۈملە
 bulk-sentences = كۆپ جۈملە
 sentence-domain-select =
     .label = جۈملە دائىرىسى
+sentence-domain-select-placeholder = كۆپ بولغاندا ئۈچ دائىرە تاللىنىدۇ
 # Sentence Domain dropdown option
 agriculture = دېھقانچىلىق
 # Sentence Domain dropdown option
