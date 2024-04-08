@@ -1690,10 +1690,25 @@ sentence-domain = د جملې ډومین
 public-domain-explanation-1 = دا ډیره مهمه ده چې د متن ټولې جملې <publicDomain> عامه ډومین</publicDomain> (<cc0>cc0</cc0>) وي ځکه چې د عام غږ ډیټاسیټ د cc0 جواز لاندې خپور شوی. یوازې کله هم یوه جمله اپلوډ کړئ که تاسو ډاډه یاست، او تل اړونده حواله شامل کړئ.
 public-domain-explanation-2 = د ګټورې وینا پیژندنې انجن رامینځته کولو لپاره غوره جملې خبرې ، عصري خبرې دي. ځینې نظریات چې تاسو سره د جملو په جوړولو کې مرسته کوي؛
 citing-sentences-subheader-websites-explanation = تاسو کولی شئ ویب پاڼه شامله کړئ، د مثال په توګه "عام غږ - https://commonvoice.mozilla.org/"
+citation =
+    .label = اقتباس
 adding-sentences-subheader-offensive-content = توهين کوونکې منځپانګه
+reviewing-sentences-explanation-1 = که جمله پورته معیارونه پوره کړي، د "هو" تڼۍ کلیک وکړئ.
+reviewing-sentences-explanation-2 = که جمله پورته معیارونه پوره نه کړي، د "نه" تڼۍ کلیک وکړئ.
+reviewing-sentences-explanation-3 = که تاسو د جملې په اړه ډاډه نه یاست، تاسو ممکن دا پریږدئ او بلې ته لاړ شئ.
+reviewing-sentences-explanation-4 = که تاسو د بیاکتنې لپاره جملې ختمې کړئ، مهرباني وکړئ موږ سره د نورو جملو په راټولولو کې مرسته وکړئ!
+domain-explanation = ډومین د جملې موضوع ته اشاره کوي. اوس مهال، تاسو کولی شئ تر منځ انتخاب کړئ:
 
 ## WRITE PAGE
 
+write-instruction = د عامه ډومین جمله <icon></icon> اضافه کړئ
+write-page-subtitle = دلته مرسته شوي جملې به په عامه توګه موجود cc-0 جواز لرونکي ډیټا سیټ کې اضافه شي.
+sentence =
+    .label = جمله
+sentence-input-value = خپل عامه ډومین جمله دلته دننه کړئ
+citation-input-value = ستاسو د جملې سرچینه
+citation =
+    .label = اقتباس
 # Sentence Domain dropdown option
 media_entertainment = رسنۍ او تفریح
 # Sentence Domain dropdown option
@@ -1734,6 +1749,18 @@ select-file-mobile = د پورته کولو لپاره فایل غوره کړئ
 accepted-files = د منلو وړ دوتنې ډولونه: tsv یوازې
 maximum-file-size = د فایل اعظمي اندازه: 25 MB
 what-needs-to-be-in-file = زما په فایل کې څه ته اړتیا ده؟
+what-needs-to-be-in-file-explanation = مهرباني وکړئ زموږ <templateFileLink>کینډۍ فایل</templateFileLink> وګورئ. ستاسو جملې باید د کاپي حق څخه پاک وي (CC0 یا د وړاندیز کونکي لخوا اجازه ورکړل شوي اصلي کار) او روښانه ، ګرامري سمه او لوستل اسانه وي. سپارل شوي جملې باید د لوستلو لپاره شاوخوا 10-15 ثانیې وخت ونیسي او د شمیرو ، مناسبو اسمونو او ځانګړي حروفونو په شمول باید مخنیوی وشي.
+upload-progress-text = اپلوډ روان دی...
+sc-bulk-submit-confirm = زه تصدیق کوم چې دا جملې <wikipediaLink> عامه ډومین</wikipediaLink> دي او زه د دوی د پورته کولو اجازه لرم.
+bulk-upload-success-toast = ډیری جملې پورته شوې
+bulk-upload-failed-toast = اپلوډ ناکام شو، مهرباني وکړئ بیا هڅه وکړئ.
+bulk-submission-success-header = ستاسو د لوی سپارلو د مرستې لپاره مننه!
+bulk-submission-success-subheader = تاسو د عام غږ سره زموږ د ورځني جملې اهدافو ته رسیدو کې مرسته کوئ!
+upload-more-btn-text = نورې جملې پورته کړئ؟
+file-invalid-type = ناباوره دوتنه
+file-too-large = فایل ډیر لوی دی
+file-too-small = فایل ډیر کوچنی دی
+too-many-files = ډیری فایلونه
 
 ## Donate banner
 
@@ -1741,3 +1768,6 @@ what-needs-to-be-in-file = زما په فایل کې څه ته اړتیا ده؟
 donate-banner-cta = <mark>موږ</mark><br/><mark>ستاسو مرستې ته اړتیا لرو!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = دا د ډیټاسیټونو کوربه کولو او د 100+ ژبو ټولنو لپاره پلیټ فارم ته وده ورکولو لپاره په کال کې نږدې یو ملیون ډالر لګښت لري چې په هغه څه تکیه کوي چې موږ یې کوو. <strong>که تاسو خلاص، ټول شموله ډیټا ته ارزښت ورکوئ - نن ورځ مرسته وکړئ!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>ستاسو د څیړنې لپاره د CV کارول</mark><br/><mark>؟</mark>
+languages-donate-banner-cta-explanation = عام غږ د بسپنه او بسپنې له لارې تمویل کیږي! موږ د اکادمیکانو، مدني ټولنې او صنعت څیړونکو سره همکاري خوښوو. عام غږ د کارولو لپاره وړیا دی، مګر د وړیا وړاندیزونو له لارې د پلیټ فارم او کوربه کولو لګښتونو کې مرسته کول واقعیا ګټور دي.
