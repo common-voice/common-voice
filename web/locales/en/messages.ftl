@@ -1794,6 +1794,41 @@ nature_environment = Nature and Environment
 news_current_affairs = News and Current Affairs
 # Sentence Domain dropdown option
 technology_robotics = Technology and Robotics
+sentence-variant-select = 
+    .label = Sentence Variant
+
+## LANGUAGE VARIANT CODES
+ca-algueres = Alguerès
+ca-central = Central
+ca-balear = Balear
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = North-Western Welsh
+cy-northeas = North-Eastern Welsh
+cy-midwales = Mid Wales
+cy-southwes = South-Western Welsh
+cy-southeas = South-Eastern Welsh
+cy-wladfa = Patagonian Welsh
+pt-BR = Portuguese (Brasil)
+pt-PT = Portuguese (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Central dialect
+sw-kibajuni = Kibajuni (KE) - Northern dialect
+sw-kimrima = Kimrima (TZ) - Northern dialect
+sw-kiunguja = Kiunguja (TZ) - Southern dialect
+sw-kipemba = Kipemba (TZ) - Southern dialect
+sw-kikae = Kimakunduchi/Kikae (TZ) - Southern dialect
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 # <icon></icon> will be replace with an icon that represents review

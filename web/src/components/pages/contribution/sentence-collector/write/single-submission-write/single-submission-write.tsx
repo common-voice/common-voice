@@ -20,6 +20,7 @@ const SingleSubmissionWrite: React.FC = () => {
     handlePublicDomainChange,
     handleSentenceDomainChange,
     handleSentenceInputChange,
+    handleSentenceVariantChange,
     handleSubmit,
     singleSentenceSubmissionState,
   } = useSingleSubmissionWrite()
@@ -41,6 +42,7 @@ const SingleSubmissionWrite: React.FC = () => {
             singleSentenceSubmissionState.sentenceDomains
           }
           error={singleSentenceSubmissionState.error}
+          handleSentenceVariantChange={handleSentenceVariantChange}
         />
       </div>
 

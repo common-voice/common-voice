@@ -3,7 +3,7 @@ import { Localized, useLocalization } from '@fluent/react'
 import classNames from 'classnames'
 
 import { EditIcon } from '../../../../../ui/icons'
-import { LabeledInput } from '../../../../../ui/ui'
+import { LabeledInput, LabeledSelect } from '../../../../../ui/ui'
 import { MultipleCombobox } from '../../../../../multiple-combobox'
 import { Rules } from './rules'
 import { Instruction } from '../../instruction'
@@ -19,6 +19,9 @@ type Props = {
     event: React.ChangeEvent<HTMLTextAreaElement>
   ) => void
   handleCitationChange: (event: React.ChangeEvent<HTMLInputElement>) => void
+  handleSentenceVariantChange: (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => void
   selectedSentenceDomains: string[]
   setSelectedSentenceDomains: (domains: string[]) => void
   sentence: string
@@ -27,9 +30,20 @@ type Props = {
   error: SentenceSubmissionError
 }
 
+const MOCK_LANG_VARIANT_CODES = [
+  'ca-central',
+  'ca-valencia-tortosi',
+  'ca-valencia-central',
+  'pt-BR',
+  'sw-barake',
+  'zgh-shi',
+  'zgh-tzm',
+]
+
 export const SentenceInputAndRules: React.FC<Props> = ({
   handleCitationChange,
   handleSentenceInputChange,
+  handleSentenceVariantChange,
   sentenceDomains,
   selectedSentenceDomains,
   setSelectedSentenceDomains,
@@ -75,6 +89,17 @@ export const SentenceInputAndRules: React.FC<Props> = ({
             setInputValue={setInputValue}
             setSelectedItems={setSelectedSentenceDomains}
           />
+          <Localized id="sentence-variant-select" attrs={{ label: true }}>
+            <LabeledSelect
+              className="sentence-variant-select"
+              onChange={handleSentenceVariantChange}>
+              {MOCK_LANG_VARIANT_CODES.map(el => (
+                <Localized id={el} key={el}>
+                  <option value={el}>{el}</option>
+                </Localized>
+              ))}
+            </LabeledSelect>
+          </Localized>
           <Localized id="citation" attrs={{ label: true }}>
             <LabeledInput
               placeholder={l10n.getString('citation-input-value')}

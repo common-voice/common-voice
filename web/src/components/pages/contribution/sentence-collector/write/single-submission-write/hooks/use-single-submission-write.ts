@@ -19,6 +19,7 @@ const initialState: SingleSubmissionWriteState = {
   sentence: '',
   citation: '',
   sentenceDomains: [],
+  sentenceVariant: undefined,
   error: undefined,
   confirmPublicDomain: false,
 }
@@ -81,6 +82,15 @@ export const useSingleSubmissionWrite = () => {
     })
   }
 
+  const handleSentenceVariantChange = (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
+    singleSubmissionWriteDispatch({
+      type: SingleSubmissionWriteActionType.SET_SENTENCE_VARIANT,
+      payload: { sentenceVariant: event.target.value },
+    })
+  }
+
   const handleSubmit = async (evt: React.SyntheticEvent) => {
     evt.preventDefault()
 
@@ -90,6 +100,7 @@ export const useSingleSubmissionWrite = () => {
       localeId,
       localeName: currentLocale,
       domains: state.sentenceDomains,
+      variant: state.sentenceVariant,
     }
 
     try {
@@ -129,6 +140,7 @@ export const useSingleSubmissionWrite = () => {
     handlePublicDomainChange,
     handleSentenceDomainChange,
     handleSentenceInputChange,
+    handleSentenceVariantChange,
     handleSubmit,
     singleSentenceSubmissionState: state,
   }
