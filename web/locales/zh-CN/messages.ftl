@@ -1567,7 +1567,6 @@ partnerships-governments-description = 我们非常愿意为公共部门的技�
 partnerships-academia-header = 高等院校、学者与研究人员
 partnerships-academia-description = 我们追求开放创新。如有意合作开展研究、收集数据或访谈，请<emailFragment>联系我们。</emailFragment>
 partnerships-small-business-header = 中小企业（包含科技或人工智能初创企业）
-partnerships-small-business-description = 我们一直希望了解数据使用者的具体需要和使用场景，请在数据收集平台上分享您对数据健康的见地，我们很乐意<emailFragment>听取您的意见。</emailFragment>
 partnerships-corporates-header = 大型企业与平台型企业
 partnerships-corporates-description = 如果您想了解数据库、投资本平台或寻求合作机会，<emailFragment>请联系我们。</emailFragment>
 partnerships-our-partners = 我们的合作伙伴
