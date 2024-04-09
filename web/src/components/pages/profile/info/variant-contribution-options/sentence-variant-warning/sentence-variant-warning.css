@@ -1,0 +1,6 @@
+.sentence-variant-warning-container {
+    width: 100%;
+    color: var(--white);
+    background-color: var(--anchor-text-blue);
+    padding: 20px;
+}

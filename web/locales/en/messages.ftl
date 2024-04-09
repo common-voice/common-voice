@@ -462,8 +462,8 @@ help-sex-or-gender-changes = Need help with the Sex or Gender changes?
 help-sex-or-gender-changes-explanation = We are offering more options to give people more choice in what they tell us about their sex or gender identity. Please self-describe in the way that feels most natural to you. <learnMoreLink>Learn more about our approach to sex and gender.</learnMoreLink>
 variant-contribution-options-header = Variant Contribution Options
 variant-contribution-help = Some variants and dialects within a language or language family are very different from each other. If you’re having trouble engaging around a particular variant, you can change your preferences here.
-variant-contribution-option-1 = Only show me sentences and clips from my variant
-variant-contribution-option-2 = Show me sentences and clips from all variants within my language
+variant-contribution-option-1 = Show me sentences and clips from all variants within my language
+variant-contribution-option-2 = Only show me sentences and clips from my variant
 
 
 ## Profile - Email

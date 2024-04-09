@@ -2,6 +2,7 @@ import * as React from 'react'
 import { Localized } from '@fluent/react'
 
 import { Radio } from '../../../../ui/ui'
+import { SentenceVariantWarning } from './sentence-variant-warning'
 
 import './variant-contribution-options.css'
 
@@ -20,7 +21,8 @@ export const VariantContributionOptions = () => {
           <Radio
             contentClass="radio-content"
             labelClass="radio-label"
-            name="variant-contribution-option">
+            name="variant-contribution-option"
+            checked>
             <Localized id="variant-contribution-option-1">
               <span />
             </Localized>
@@ -28,13 +30,14 @@ export const VariantContributionOptions = () => {
           <Radio
             contentClass="radio-content"
             labelClass="radio-label"
-            name="variant-contribution-option"
-            checked>
+            name="variant-contribution-option">
             <Localized id="variant-contribution-option-2">
               <span />
             </Localized>
           </Radio>
         </div>
+
+        <SentenceVariantWarning />
       </div>
     </div>
   )
