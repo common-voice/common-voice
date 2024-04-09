@@ -1753,6 +1753,7 @@ single-sentence = Peteĩ ñe’ẽjoaju
 bulk-sentences = Heta ñe’ẽjoaju
 sentence-domain-select =
     .label = Ñe’ẽjuaju rendatee
+sentence-domain-select-placeholder = Eiporavo mbohapy tendatee peve
 # Sentence Domain dropdown option
 agriculture = Temitỹmby
 # Sentence Domain dropdown option
@@ -1767,6 +1768,8 @@ general = Tuichakue
 healthcare = Tesãirãre ñema’ẽ
 # Sentence Domain dropdown option
 history_law_government = Tembiasakue, Derécho ha Tekuái
+# Sentence Domain dropdown option
+language_fundamentals = Ñe’ẽ reheguaite (techapyrã, Tairenda, Tai, Pirapire)
 # Sentence Domain dropdown option
 media_entertainment = Momaranduha ha mbovy’aha
 # Sentence Domain dropdown option
@@ -1821,3 +1824,7 @@ too-many-files = Heta marandurenda
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>¡Ñaikotevẽ</mark><br/><mark>ne ñepytyvõ!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>¿Eiporu CV </mark><br/><mark>nde jeporekarã?</mark>
