@@ -793,6 +793,8 @@ subscribe = Mboheraguapy
 get-started-speech = Eñepyrũ ko árape ayvu jeikuaa
 other-datasets = Ambue mba’ekuaarã ayvugua rupa
 feedback-q = ¿Eñe’ẽsépa?
+# This indicates that there is no data to display
+no-information = Marandu’ỹ
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ha’e <docsLink>tembiporu aty ijayvu jurujáva</docsLink> mba’erekaha omboguatáva IA ñomongetarã ipyahuetéva.
 resource-deepspeech-info = Mozilla ñe’ẽ jekuaaukarã mongu’eha ijayvu jurujáva, Deep Speech, eiporu emoheñói hag̃ua tembiporu’i ñe’ẽ jekuaaukarã. Emoñe’ẽ <githubLink>Github mbykypyre</githubLink> térã eike <discourseLink>DeepSpeech Discourse</discourseLink> eikuaa hag̃ua mba’éicha eñepyrũta.
 resource-coqui-info = <coquiLink>Mbojy</coquiLink> omba’apo tembiporupyahu ñe’ẽpu ijurujávare. Hembiaporãme oike STT mongu’eha ha TTS ojekóva tembikuaa pypukúre.
@@ -821,6 +823,8 @@ dataset-metadata-sex = Meña
 dataset-metadata-age = Ary
 donate-modal-message = ¡Ne mba’ekuaarã aty oguejyhína!
 dataset-donate-modal-heading = Eikuaápa…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Emomba’érõ mba’ekuaarã ijuruja ha ogueroikéva, ¡embojopói ko árape!</bold>
 
 ## Download Modal
 
@@ -1749,6 +1753,7 @@ single-sentence = Peteĩ ñe’ẽjoaju
 bulk-sentences = Heta ñe’ẽjoaju
 sentence-domain-select =
     .label = Ñe’ẽjuaju rendatee
+sentence-domain-select-placeholder = Eiporavo mbohapy tendatee peve
 # Sentence Domain dropdown option
 agriculture = Temitỹmby
 # Sentence Domain dropdown option
@@ -1763,6 +1768,8 @@ general = Tuichakue
 healthcare = Tesãirãre ñema’ẽ
 # Sentence Domain dropdown option
 history_law_government = Tembiasakue, Derécho ha Tekuái
+# Sentence Domain dropdown option
+language_fundamentals = Ñe’ẽ reheguaite (techapyrã, Tairenda, Tai, Pirapire)
 # Sentence Domain dropdown option
 media_entertainment = Momaranduha ha mbovy’aha
 # Sentence Domain dropdown option
@@ -1817,3 +1824,7 @@ too-many-files = Heta marandurenda
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>¡Ñaikotevẽ</mark><br/><mark>ne ñepytyvõ!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>¿Eiporu CV </mark><br/><mark>nde jeporekarã?</mark>

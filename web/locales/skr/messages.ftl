@@ -166,6 +166,7 @@ ps = پشتو
 pt = پرتگیزی
 quc = کیچہ
 quy = چوچا چنکا
+qvi = کیچوا
 rm-sursilv = رومانش سورسلوان
 rm-vallader = رومانش ویلڈر
 ro = رومانی
@@ -217,7 +218,9 @@ uz = اُزبک
 ve = شی وِنڈا
 vec = ونیتی
 vi = ویت نامی
+vmw = ایماکھُووا
 vot = ووٹک
+wep = ویسٹ پھالی
 wo = وُلوف
 xh = ہوسا
 yi = یدش
@@ -416,6 +419,10 @@ native-language =
 profile-form-add-accent = نواں مرضی دا لہجہ شامل کرو "{ $inputValue }"
 profile-form-submit-save = محفوظ
 profile-form-submit-saved = محفوظ تھیا
+male_masculine = مرد/مذکر
+female_feminine = تریمت/مؤنث
+transgender = ہیجڑا
+do_not_wish_to_say = کجھ کائنی ݙساوݨ چاہندا
 # Gender
 other = ٻیا
 why-profile-title = ہک پروفائل کیوں؟
@@ -784,6 +791,8 @@ subscribe = سبسکرائب کرو
 get-started-speech = تقریر دی سُن٘ڄاݨ نال شروع کرو
 other-datasets = ٻئے وائس ڈیٹاسیٹس
 feedback-q = فیڈبیک ݙیسو؟
+# This indicates that there is no data to display
+no-information = کوئی معلومات کائنی
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ہک <docsLink>اوپن سورس ٹول کٹ </docsLink> انہاں محققین کیتے  ہے جیڑھے جدید ترین ڳالھ مہاڑ دے AI ماڈلز تیار کریندے پئے ہن۔
 resource-deepspeech-info =
     موزیلا دے اوپن سورس وائس ریکگنیشن انجن ڈیپ سپیچ کوں سپیچ ریکگنیشن ایپلی کیشنز بݨاوݨ کیتے استعمال کیتا ونڄ سڳدا ہے۔ اساݙا <githubLink>Github 
@@ -808,6 +817,7 @@ dataset-version = ورشن
 sha256-checksum-copied = ایس ایچ اے 256 پڑتالی جمع نقل تھی ڳیا!
 sha256-checksum-copied-error = ایس ایچ اے 256 پڑتالی جمع نقل کرݨ وچ ناکامی تھئی۔
 clipboard-not-supported = کلپ بورڈ سہارا تھیا کائنی
+no-information-available = کوئی معلومات دستیاب کائنی۔
 dataset-metadata-sex = جنس
 # dataset metadata - age of contributor
 dataset-metadata-age = عمر
@@ -1617,6 +1627,9 @@ continue-speaking-button = کائناں شکریہ، ٻولݨ جاری رکھو
 create-profile-text = آپݨی ڄاݨکاری محفوظ کرݨ چاہندے ہو؟<createProfile> پروفائل بݨاؤ</createProfile>
 thanks-for-voice-toast = تہاݙی اواز معلومات پاروں تہاݙا شکریہ
 thanks-for-voice-toast-error = تہاݙی اواز معلومات جمع کرواوݨ وچ خرابی تھی ڳئی
+first-cta-gender-select-default-option = ہک اختیار چݨو
+first-cta-gender-select-help-text =
+    .label = تساں آپݨی صنف یا جنس کوں کین٘ویں بیان کریسو؟
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = آپݨی اواز دان کرݨ تے تہاݙے تھورائت ہیسے!
 second-cta-subtitle-text = پروفائل نال تساں آپݨی سرگرمی تے نظر رکھ سڳدے ہو تے صوتی ڈیٹا وچ حصہ پاوݨ آلی برادری نال جُڑ سڳدے ہو۔
@@ -1731,6 +1744,17 @@ single-sentence-submission = کلھا جملہ جمع کرواوݨ
 bulk-sentence-submission = ڈھڳ جملے جمع کرواوݨ
 single-sentence = کلھا جملہ
 bulk-sentences = ڈھڳ جملے
+sentence-domain-select =
+    .label = جملے دی ڈومین
+sentence-domain-select-placeholder = ترائے تائیں ڈومیناں چݨو
+# Sentence Domain dropdown option
+agriculture = زراعت
+# Sentence Domain dropdown option
+automotive = آٹو موٹیو
+# Sentence Domain dropdown option
+finance = فنانس
+# Sentence Domain dropdown option
+food_service_retail = خوراک، خدمت تے پرچون
 # Sentence Domain dropdown option
 general = عمومی
 

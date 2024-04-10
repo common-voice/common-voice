@@ -54,6 +54,7 @@ cak = Kakchikel
 ckb = Sentralkurdisk
 cnh = Hakha Chin
 co = Korsisk
+crh = Krimtatarisk
 cs = Tsjekkisk
 cv = Tsjuvasjisk
 cy = Walisisk
@@ -75,12 +76,14 @@ ff = Fula
 fi = Finsk
 fo = Færøysk
 fr = Fransk
+fuf = Fulfulde
 fy-NL = Frisisk
 ga-IE = Irsk
 gl = Galisisk
 gn = Guarani
 gom = Goan Konkani
 gu-IN = Gujarati
+guc = Wayuunaiki
 ha = Hausa
 he = Hebraisk
 hi = Hindi
@@ -123,6 +126,7 @@ lo = Laotisk
 lt = Litauisk
 ltg = Lettgallisk
 lv = Latvisk
+lzz = Lasisk
 mai = Maithili
 mdf = Moksja
 mg = Gassisk
@@ -143,6 +147,7 @@ nb-NO = Norsk (bokmål)
 nd = Nordndebele
 ne-NP = Nepalsk
 nhe = Austleg la Huasteca-nahuatl
+nhi = Vestlege Sierra Puebla Nahuatl
 nia = Nias
 nl = Nederlandsk
 nn-NO = Norsk (nynorsk)
@@ -161,6 +166,7 @@ ps = Pashto
 pt = Portugisisk
 quc = K'iche'
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Retoromansk surselva
 rm-vallader = Retoromansk (Vallader)
 ro = Rumensk
@@ -170,6 +176,8 @@ sah = Sakha
 sat = Santali (ol-chiki)
 sc = Sardinsk
 scn = Siciliansk
+sco = Skotsk
+sd = Sindhi
 sdh = Sørkurdisk
 shi = Shilha
 si = Singalesisk
@@ -210,7 +218,9 @@ uz = Usbekisk
 ve = Tshivenda
 vec = Venetiansk
 vi = Vietnamesisk
+vmw = Makua
 vot = Votisk
+wep = Westfalsk
 wo = Wolof
 xh = Xhosa
 yi = Jiddisk
@@ -398,8 +408,12 @@ native-language =
 profile-form-add-accent = Legg til ny tilpassa dialekt «{ $inputValue }»
 profile-form-submit-save = Lagre
 profile-form-submit-saved = Lagra
-male = Mann
-female = Kvinne
+male_masculine = Mann/Maskulin
+female_feminine = Dame/Feminin
+intersex = Intersex
+transgender = Transkjønna
+non-binary = Ikkje-binær
+do_not_wish_to_say = Ønskjer ikkje å seie det
 # Gender
 other = Anna
 why-profile-title = Kvifor ein profil?
@@ -608,6 +622,9 @@ about-playbook-how-validate = Korleis veit eg om jeg skal godkjenne eit stemmekl
 
 about-playbook-how-project-governance-content-7 = <governanceLink>Les meir om korleis vi blir styrt.</governanceLink>
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = Ordliste
@@ -703,6 +720,8 @@ subscribe = Abonner
 get-started-speech = Kom i gang med talegjenkjenning
 other-datasets = Andre stemmedatasett
 feedback-q = Har du ei tilbakemelding?
+# This indicates that there is no data to display
+no-information = Ingen informasjon
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er eit <docsLink>open-kjeldekodeverktøy</docsLink> for forskarar som utviklar moderne kunstig intelligens-modellar for samtalerobotar.
 resource-deepspeech-info = Mozilla Deep Speech er ein open kjeldekode-motor for taleattkjenning som kan brukast i taleattkjenningsapplikasjonar. Les  <githubLink>oppsummeringa på Github</githubLink> eller bli med på <discourseLink>DeepSpeech Discourse</discourseLink> for å lære meir om korleis du kjem i gang med systemet.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> jobbar for open taleteknologi. Prosjekta deira inkluderer system for tale-til-tekst og tekst-til-tale basert på djup læring.
@@ -724,6 +743,10 @@ dataset-version = Versjon
 sha256-checksum-copied = SHA256-kontrollsum kopiert!
 sha256-checksum-copied-error = Klarte ikkje å kopiere SHA256-kontrollsummen
 clipboard-not-supported = Utklippstavle ikkje støtta
+dataset-metadata-sex = Kjønn
+# dataset metadata - age of contributor
+dataset-metadata-age = Alder
+dataset-donate-modal-heading = Visste du at…
 
 ## Download Modal
 
@@ -1343,7 +1366,17 @@ reader-effects = Lesareffektar
 just-unsure = Berre usikker?
 example = Døme
 public-domain = Offentleg eigedom (ikkje verna av opphavsrett)
-# REVIEW PAGE
-sc-review-instruction-first-part = Kontroller
+
+## WRITE PAGE
+
+
+## REVIEW PAGE
+
 report-sc-different-language = Anna språk
 sc-redirect-page-subtitle-2 = Still spørsmål på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller <emailLink>e-post</emailLink>.
+
+## BULK SUBMISSION 
+
+
+## Donate banner
+

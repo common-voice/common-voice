@@ -783,6 +783,8 @@ subscribe = Abone ol
 get-started-speech = Konuşma tanımaya giriş
 other-datasets = Diğer ses veri kümeleri
 feedback-q = Görüşleriniz mi var?
+# This indicates that there is no data to display
+no-information = Bilgi yok
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™, en yeni teknolojilerle etkileşimli yapay zekâ modelleri geliştiren araştırmacılar için <docsLink>açık kaynaklı bir araç takımıdır</docsLink>.
 resource-deepspeech-info = Mozilla’nın açık kaynaklı ses tanıma motoru Deep Speech, konuşma tanıma uygulamaları oluşturmak için kullanılabilir. Nasıl başlayacağınızı öğrenmek için <githubLink>Github genel bakışımızı</githubLink> okuyun veya <discourseLink>DeepSpeech Discourse</discourseLink>'a katılın.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> açık konuşma teknolojileriyle ilgilenir. Projeleri arasında derin öğrenme tabanlı STT ve TTS motorları bulunur.
