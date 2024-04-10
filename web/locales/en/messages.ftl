@@ -464,7 +464,8 @@ variant-contribution-options-header = Variant Contribution Options
 variant-contribution-help = Some variants and dialects within a language or language family are very different from each other. If you’re having trouble engaging around a particular variant, you can change your preferences here.
 variant-contribution-option-1 = Show me sentences and clips from all variants within my language
 variant-contribution-option-2 = Only show me sentences and clips from my variant
-
+variant-contribution-warning-title = Not all sentences and clips have Variant tags yet!
+variant-contribution-warning-subtitle = If you’re having trouble contributing, you can switch back to seeing all content for your language at any time.
 
 ## Profile - Email
 browse-file-title = Upload an image file
