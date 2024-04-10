@@ -1692,6 +1692,7 @@ public-domain-explanation-2 = Umi ñe’ẽjuaju iporãva oñemoheñói hag̃ua 
 public-domain-explanation-3 = Emoheñói umi ñe’ẽjuaju ipyahu ha ojeporúva, neaño térã neangirũ térã eñe’ẽmemeha ndive, techapyrãrõ, peteĩ ‘jehai guasu’ ndive
 public-domain-explanation-4 = Eñe’ẽ apohare, ñoha’ãnga’apoha térã haihára ndive ha eporandu chupekuéra nome’ẽséipa hembiapokue opavave oipukuaa hag̃uáicha.
 public-domain-explanation-5 = Moñe’ẽrã ndoguerekovéimava apohára derécho; techapyrãramo, opavave aranduka ojehaiva’ekue ary 1920 mboyve.
+citing-sentences-explanation-1 = Ehaíkena kuaaukaha rohechajeykuaa hag̃ua ñe’ẽjuajukuéra ha’épa opavave oiporukuaáva ha ani oñemoĩ mba’eapohare derécho.
 citing-sentences-subheader-websites = Ñanduti renda
 citing-sentences-subheader-websites-explanation = Emoingekuaa ñanduti renda, techapyrã, "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Mbokatupyha Herakuãvéva
