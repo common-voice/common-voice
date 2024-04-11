@@ -351,11 +351,12 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
     } = this.props;
     const { selectedPill } = this.state;
 
-    if (isSubmitted && type === 'listen' && !user.account) {
+    const noUserAccount = !user.account;
+
+    if (isSubmitted && type === 'listen' && noUserAccount) {
       return <Success onReset={onReset} type={type} />;
     }
 
-    const noUserAccount = !user.account;
     const shouldShowCTA = shouldShowFirstCTA || shouldShowSecondCTA;
     const shouldHideCTA = !shouldShowFirstCTA && !shouldShowSecondCTA;
 
