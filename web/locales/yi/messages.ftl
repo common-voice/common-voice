@@ -630,6 +630,7 @@ review-delete-recordings = מעקט אויס מיין רעקארדירונגען
 
 language = שפרייך
 download-dataset-header = לאדנט אראפ די דאטא סעט
+download-dataset-tag = וועלט אויס דעם געוואונטשענעם שפרייך און וועלט אויס די ווערסיע וואס איר ווילט אראפלאדענען.
 # File size in gigabytes
 size = מאס
 validated-hr-total = סך הכול באשעטיגטע שטונדן
