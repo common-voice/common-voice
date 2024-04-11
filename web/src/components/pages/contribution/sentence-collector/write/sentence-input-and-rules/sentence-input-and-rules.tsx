@@ -100,7 +100,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
           )}
           <Localized id="citation" attrs={{ label: true }}>
             <LabeledInput
-              placeholder={l10n.getString('citation-input-value')}
+              placeholder={l10n.getString('citation-input-placeholder')}
               className={classNames('citation-input', {
                 'citation-error': isCitationError,
               })}
@@ -109,6 +109,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               dataTestId="citation-input"
               autoComplete="on"
               name="citation"
+              required
             />
           </Localized>
           {isCitationError && (

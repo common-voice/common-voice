@@ -1742,7 +1742,7 @@ write-page-subtitle = Sentences contributed here will be added to a publicly ava
 sentence = 
     .label = Sentence
 sentence-input-value = Enter your public domain sentence here
-citation-input-value = Source of your sentence
+citation-input-placeholder = Reference the source of your sentence (required)
 citation = 
     .label = Citation
 sc-write-submit-confirm = I confirm that this sentence is <wikipediaLink>public domain</wikipediaLink> and I have permission to upload it.
@@ -1769,7 +1769,7 @@ single-sentence = Single Sentence
 bulk-sentences = Bulk Sentences
 sentence-domain-select =
     .label = Sentence Domain
-sentence-domain-select-placeholder = Select up to three domains
+sentence-domain-select-placeholder = Select up to three domains (optional)
 # Sentence Domain dropdown option
 agriculture = Agriculture
 # Sentence Domain dropdown option
@@ -1796,7 +1796,8 @@ news_current_affairs = News and Current Affairs
 technology_robotics = Technology and Robotics
 sentence-variant-select = 
     .label = Sentence Variant
-sentence-variant-select-default-value = No variant selected
+sentence-variant-select-default-value = Select a variant (optional)
+sentence-variant-select-all-variants = General language / all variants
 
 ## LANGUAGE VARIANT CODES
 ca-algueres = Alguerès
