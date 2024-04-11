@@ -1796,6 +1796,7 @@ news_current_affairs = News and Current Affairs
 technology_robotics = Technology and Robotics
 sentence-variant-select = 
     .label = Sentence Variant
+sentence-variant-select-default-value = No variant selected
 
 ## LANGUAGE VARIANT CODES
 ca-algueres = Alguerès

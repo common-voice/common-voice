@@ -8,6 +8,7 @@ import { PrimaryButton } from '../../../../../primary-buttons/primary-buttons'
 import { SentenceInputAndRules } from '../sentence-input-and-rules/sentence-input-and-rules'
 import { sentenceDomains } from 'common'
 import { useSingleSubmissionWrite } from './hooks/use-single-submission-write'
+import { useGetVariants } from './hooks/use-get-variants'
 
 import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 import URLS from '../../../../../../urls'
@@ -24,6 +25,8 @@ const SingleSubmissionWrite: React.FC = () => {
     handleSubmit,
     singleSentenceSubmissionState,
   } = useSingleSubmissionWrite()
+
+  const { variants } = useGetVariants()
 
   return (
     <form
@@ -43,6 +46,7 @@ const SingleSubmissionWrite: React.FC = () => {
           }
           error={singleSentenceSubmissionState.error}
           handleSentenceVariantChange={handleSentenceVariantChange}
+          variants={variants}
         />
       </div>
 

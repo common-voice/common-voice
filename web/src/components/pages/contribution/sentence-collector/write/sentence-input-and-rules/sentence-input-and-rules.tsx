@@ -8,7 +8,7 @@ import { MultipleCombobox } from '../../../../../multiple-combobox'
 import { Rules } from './rules'
 import { Instruction } from '../../instruction'
 import ExpandableInformation from '../../../../../expandable-information/expandable-information'
-import { SentenceSubmissionError } from 'common'
+import { SentenceSubmissionError, Variant } from 'common'
 import { LabeledTextArea } from '../../../../../ui/ui'
 import { LocaleLink } from '../../../../../locale-helpers'
 import URLS from '../../../../../../urls'
@@ -28,17 +28,8 @@ type Props = {
   citation: string
   sentenceDomains: readonly string[]
   error: SentenceSubmissionError
+  variants: Variant[]
 }
-
-const MOCK_LANG_VARIANT_CODES = [
-  'ca-central',
-  'ca-valencia-tortosi',
-  'ca-valencia-central',
-  'pt-BR',
-  'sw-barake',
-  'zgh-shi',
-  'zgh-tzm',
-]
 
 export const SentenceInputAndRules: React.FC<Props> = ({
   handleCitationChange,
@@ -50,6 +41,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   sentence,
   citation,
   error,
+  variants,
 }) => {
   const isSentenceError = error && error !== SentenceSubmissionError.NO_CITATION
   const isCitationError = error === SentenceSubmissionError.NO_CITATION
@@ -75,6 +67,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               placeholder={l10n.getString('sentence-input-value')}
               className={classNames('sentence-input', {
                 'sentence-error': isSentenceError,
+                'variants-dropdown-hidden': !variants,
               })}
               onChange={handleSentenceInputChange}
               value={sentence}
@@ -89,17 +82,22 @@ export const SentenceInputAndRules: React.FC<Props> = ({
             setInputValue={setInputValue}
             setSelectedItems={setSelectedSentenceDomains}
           />
-          <Localized id="sentence-variant-select" attrs={{ label: true }}>
-            <LabeledSelect
-              className="sentence-variant-select"
-              onChange={handleSentenceVariantChange}>
-              {MOCK_LANG_VARIANT_CODES.map(el => (
-                <Localized id={el} key={el}>
-                  <option value={el}>{el}</option>
-                </Localized>
-              ))}
-            </LabeledSelect>
-          </Localized>
+          {variants && (
+            <Localized id="sentence-variant-select" attrs={{ label: true }}>
+              <LabeledSelect
+                className="sentence-variant-select"
+                onChange={handleSentenceVariantChange}>
+                <option value="">
+                  {l10n.getString('sentence-variant-select-default-value')}
+                </option>
+                {variants.map(el => (
+                  <Localized id={el.token} key={el.id}>
+                    <option value={el.token}>{el}</option>
+                  </Localized>
+                ))}
+              </LabeledSelect>
+            </Localized>
+          )}
           <Localized id="citation" attrs={{ label: true }}>
             <LabeledInput
               placeholder={l10n.getString('citation-input-value')}

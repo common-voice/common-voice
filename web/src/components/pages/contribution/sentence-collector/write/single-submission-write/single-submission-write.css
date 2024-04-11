@@ -62,6 +62,10 @@
                 }
             }
         }
+
+        &.variants-dropdown-hidden {
+            height: calc(14vh + 90px);
+        }
     }
 
     & label.citation-input {
