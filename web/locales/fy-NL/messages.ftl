@@ -798,6 +798,8 @@ subscribe = Abonnearje
 get-started-speech = Begjinne mei spraakwerkenning
 other-datasets = Oare stimgegevensets
 feedback-q = Kommentaar?
+# This indicates that there is no data to display
+no-information = Gjin ynformaasje
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is in <docsLink>opensource-toolkit</docsLink> foar ûndersikers dy’t state-of-the-art-AI-modellen foar konversaasjes ûntwikkelje.
 resource-deepspeech-info = Deep Speech, de iepenboarne-spraakwerkenningsmasine fan Mozilla, kin brûkt wurde om spraakwerkenningstapassingen te bouwen. Lês ús <githubLink>GitHub-oersicht</githubLink> of besykje it <discourseLink>DeepSpeech-foarum op Discourse</discourseLink> om te ûntdekken hoe’t jo begjinne kinne.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> is tawijd oan iepen spraaktechnology. Harren projekten omfetsje op deep learning basearre STT- en TTS-masinen.
@@ -1851,6 +1853,7 @@ single-sentence = Losse sin
 bulk-sentences = Bulksinnen
 sentence-domain-select =
     .label = Sinsdomein
+sentence-domain-select-placeholder = Selektearje maksimaal trije domeinen
 # Sentence Domain dropdown option
 agriculture = Lânbou
 # Sentence Domain dropdown option
@@ -1930,3 +1933,4 @@ donate-banner-cta = <mark>Wy hawwe</mark><br/><mark>jo help nedich!</mark>
 donate-banner-cta-explanation = It kostet hast in miljoen dollar yn it jier om de gegevenssets te hosten en it platfoarm te ferbetterjen foar de mear as 100 taalmienskippen dy’t fertrouwe op wat wy dogge. <strong>As jo iepen, ynklusive gegevens wurdearje – donearje dan hjoed!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Brûke jo CV foar</mark><br/><mark>jo ûndersyk?</mark>
+languages-donate-banner-cta-explanation = Common Voice wurdt finansiere troch donaasjes en subsydzjes! Wy hâlde fan gearwurkjen mei akademisy, boargerlike maatskippij en yndustryûndersikers. Common Voice is fergees te brûken, mar bydrage oan platfoarm- en hostingkosten fia subsydzjefoarstellen helpt echt.

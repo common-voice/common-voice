@@ -794,6 +794,8 @@ subscribe = Prenumerera
 get-started-speech = Kom igång med taligenkänning
 other-datasets = Andra röstdatamängder
 feedback-q = Har du feedback?
+# This indicates that there is no data to display
+no-information = Ingen information
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ är en <docsLink>verktygslåda med öppen källkod</docsLink> för forskare som utvecklar toppmoderna AI-modeller för konversation.
 resource-deepspeech-info = Mozilla´s röstigenkänningsmotor 'Deep Speech', med öppen källkod, kan användas för att skapa röstigenkänningsapplikationer. Läs vår  <githubLink>Github överblick</githubLink> eller anslut dig till <discourseLink>DeepSpeech Discourse</discourseLink> för att lära dig hur du själv kommer igång.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> är dedikerat till att öppna upp teknologin för röstigenkänning. Deras projekt inkluderar STT- och TTS-baserade djupinlärningsmotorer.
@@ -1772,6 +1774,7 @@ single-sentence = Enstaka mening
 bulk-sentences = Flera meningar
 sentence-domain-select =
     .label = Meningsdomän
+sentence-domain-select-placeholder = Välj upp till tre domäner
 # Sentence Domain dropdown option
 agriculture = Lantbruk
 # Sentence Domain dropdown option

@@ -1,0 +1,70 @@
+@import url('../media.css');
+
+.multiple-sentence-domain-select {
+    ul {
+        background: #fff;
+        margin: 0px 0 30px;
+        position: absolute;
+        z-index: var(--override-z-index);
+
+        @media (--xl-up) {
+            width: 700px;
+        }
+
+        @media (--md-down) {
+            width: 90vw;
+        }
+
+        &.downshift-open {
+            border: 1px solid var(--light-grey);
+            box-shadow: 0 2px 5px 0 var(--light-grey);
+            overflow: auto;
+            max-height: 500px;
+        }
+
+        li {
+            border-bottom: 1px solid var(--dark-grey);
+            cursor: pointer;
+            list-style: none;
+            padding: 15px;
+
+            &:last-of-type {
+                border-bottom: none;
+            }
+        }
+
+        @media (--xs-down) {
+            font-size: var(--font-size-xs);
+        }
+    }
+
+    input[type='text'] {
+        @media (--xs-down) {
+            font-size: var(--font-size-xs);
+
+            &::placeholder {
+                font-size: var(--font-size-xs);
+            }
+        }
+    }
+}
+
+.selected-domains-list {
+    margin-block-start: 30px;
+
+    .selected-domain {
+        display: inline-flex;
+        align-items: center;
+        padding-inline-start: 1.5rem;
+        margin-inline-end: 1rem;
+        margin-bottom: 1.5rem;
+        background: var(--light-grey);
+        border-radius: 15rem;
+    }
+
+    .selected-domain--button {
+        border: none;
+        padding: 0.8rem 1.5rem;
+        padding-inline-start: 1rem;
+    }
+}

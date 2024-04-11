@@ -806,6 +806,8 @@ subscribe = Tanysgryfio
 get-started-speech = Cychwyn gydag Adnabod Lleferydd
 other-datasets = Setiau Data Eraill
 feedback-q = Adborth?
+# This indicates that there is no data to display
+no-information = Dim gwybodaeth
 resource-nemo-info = Mae <githubLink> NVIDIA NeMo </githubLink> ™ yn <docsLink>becyn cymorth cod agored</docsLink> ar gyfer ymchwilwyr sy'n datblygu modelau AI sgyrsiol o'r radd flaenaf.
 resource-deepspeech-info = Mae modd defnyddio peiriant adnabod llais cod agored Mozilla, Deep Speech, i adeiladu rhaglenni adnabod lleferydd. Darllenwch ein <githubLink>trosolwg Github</githubLink> neu ymunwch â'r <discourseLink>DeepSpeech Discource</discourseLink> i ddysgu sut i ddechrau.
 resource-coqui-info = Mae <coquiLink>Coqui</coquiLink> yn ymroddedig i dechnoleg lleferydd agored. Mae eu prosiectau'n cynnwys peiriannau STT a TTS wedi'u seilio ar ddysgu dwfn.
@@ -1865,6 +1867,7 @@ single-sentence = Un Frawddeg
 bulk-sentences = Brawddegau Lluosog
 sentence-domain-select =
     .label = Parth Brawddeg
+sentence-domain-select-placeholder = Dewiswch hyd at dri pharth
 # Sentence Domain dropdown option
 agriculture = Amaethyddiaeth
 # Sentence Domain dropdown option

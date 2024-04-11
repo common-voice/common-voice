@@ -54,6 +54,7 @@ cak = کاکچیل
 ckb = مرکزي کردي
 cnh = هاکه چن
 co = کورسیکني
+crh = د کریمیا تاتار
 cs = چکسلواکي
 cv = چوواش
 cy = ولش
@@ -69,16 +70,20 @@ eo = ایسپیرینټوي
 es = هسپانیه ایی
 et = ایستونینوي
 eu = باسک
+ewo = ایونډو
 fa = پاړسي
 ff = فواله
 fi = فنلینډي
 fo = فیروزي
 fr = فرانسوي
+fuf = پلر ګیني
 fy-NL = فريشاني
 ga-IE = ایرلینډي
 gl = ګالیسي
 gn = ګوراني
 gom = ګوان کونکاني
+gu-IN = ګجراتي
+guc = وایونایکی
 ha = هوسا
 he = عبري
 hi = هندي
@@ -119,6 +124,7 @@ ln = لينګلا
 lo = لاو
 lt = لیتوانیایي
 lv = لاتویني
+lzz = لاز
 mai = میتیلي
 mdf = موکشايي
 mg = مالاګسي
@@ -149,6 +155,7 @@ nyn = رنیانکولي
 oc = اوکسيټي
 om = افعان اورمو
 or = اوډیايي
+os = اوسیتیا
 pa-IN = پنجابي
 pap-AW = پاپیامینټو (اروبا)
 pl = پولنډي
@@ -156,6 +163,7 @@ ps = پښتو
 pt = پورتګالي
 quc = کیشي
 quy = کویچو چانکا
+qvi = کیچوا
 rm-sursilv = رومانوي سورسیلواني
 rm-vallader = رومانوي ویلدر
 ro = رومانیایي
@@ -165,6 +173,8 @@ sah = سخايي
 sat = سنتالي (اول چیکي)
 sc = سارډیني
 scn = سیسیلي
+sco = سکاټ
+sd = سندي
 sdh = جنوبي کوردي
 shi = شله
 si = سنهالوي
@@ -206,6 +216,7 @@ ve = تشیویندا
 vec = وینوسي
 vi = ویتنامي
 vot = ووټیک
+wep = ویسټفالیا
 wo = ولوف
 xh = ژوسا
 yi = یدیش
@@ -242,6 +253,7 @@ share-text = ماشینونو ته په ښوولو کې چې څنګه ریښتی
 link-copied = تړونی کاپي شوی
 back-top = بېرته سر ته
 logout = وتل
+donate = مرسته وکړئ
 
 ## Home Page
 
@@ -402,8 +414,10 @@ native-language =
 profile-form-add-accent = نوی دودیز خجنښه اضافه کړئ "{ $inputValue }"
 profile-form-submit-save = خوندي کړئ
 profile-form-submit-saved = خوندي شو
-male = نر
-female = ښځه
+male_masculine = مذکر/نارینه
+female_feminine = ښځه/ښځینه
+transgender = ټرانسجنډر
+do_not_wish_to_say = نه غواړم ووایم
 # Gender
 other = نور
 why-profile-title = ولې پېژنیال؟
@@ -441,6 +455,7 @@ help-accent = د خجنښې سره یو څه مرستې ته اړتیا لرئ؟
 help-accent-explanation = ستاسو خجنښه ستاسو د کلمو تلفظولو طریقه ده. دا د هغه ځای چیرته چې تاسو ژوند کړی، په نورو کومو ژبو خبرې کوئ او ډیری نور عواملو له مخې کیدای شي بڼه واخلي. تاسو کولی شئ هر هغه معلومات شریک کړئ چې تاسو یې احساس کوئ دلته اړین دي.
 help-variants = د ډولونو سره یو څه مرستې ته اړتیا لرئ؟
 help-variants-explanation = ډولونه د یوې ژبې ځانګړې بڼه ده - د بیلګې په توګه د هغو کسانو لخوا چې په یوې جغرافیه یا ټولنه کې ژوند کوي سره شریکه وي. ځینې وختونه دا د لهجو په نوم یادیږي.
+help-sex-or-gender-changes = د جنسیت یا جندر بدلونونو کې مرستې ته اړتیا لرئ؟
 
 ## Profile - Email
 
@@ -676,6 +691,12 @@ about-playbook-how-project-governance-content-5 = ارزښت او پیژندنه
 about-playbook-how-project-governance-content-6 = متقابل حساب ورکول.
 about-playbook-how-project-governance-content-7 = <governanceLink>په دې اړه نور ولولئ چې موږ څنګه اداره کوو</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = عام غږ څنګه کار کوي؟
+about-playbook-how-funded-content-2 = دا په دوامداره توګه د ډیټاسیټونو کوربه کولو او خوشې کولو، پلیټ فارم ته وده ورکولو او د <africaMradiLink> د ټولنې پروګرامونو</africaMradiLink> چلولو لپاره ډیرې پیسې لګوي.
+about-playbook-how-funded-content-3 = که تاسو یا ستاسو سازمان غواړئ چې په دې پروژه کې بیرته مرسته وکړئ، تاسو کولی شئ یو <donateLink>ډونیشن</donateLink> وکړئ یا په <emailFragment>commonvoice@mozilla.com</emailFragment> کې زموږ د شراکت ټیم سره اړیکه ونیسئ.
+
 ## Glossary
 
 glossary = وييزېرمه
@@ -751,10 +772,12 @@ validated-hr-total = باوري شوي ساعت ټولټال
 overall-hr-total = په ټوله کې د ساعت ټولټال
 cv-license = لایسنس
 audio-format = غږیز فارمټ
+dataset-splits = تقسیم (عمر او جنس)
 number-of-voices = د غږونو شمیر
 splits = ټوټې ټوټې
 email-to-download = د ډاونلوډ کولو لپاره برېښنالیک دننه کړئ
 why-email = <b> ولې یو بریښنالیک؟ </b> موږ ښايي اړتیا ولرو چې ستاسو  سره په راتلونکي کې په ډېټاسیټ کې د بدلونونو په اړه اړیکه ونیسو، بریښنالیک موږ ته د اړیکې یو نښه چمتو کوي.
+why-donate-datasets-page = موزیلا کامن غږ د نړۍ ترټولو متنوع کراوډ سورس خلاص وینا ډیټا سیټ دی - او موږ په بشپړ ډول د بسپنه ورکوو. دا د ډیټاسیټونو کوربه کولو او د 100+ ژبو ټولنو لپاره پلیټ فارم ته وده ورکولو لپاره په کال کې نږدې یو ملیون ډالر لګښت لري چې په هغه څه تکیه کوي چې موږ یې کوو. که تاسو پرانیستې، ټول شموله ډاټا ته ارزښت ورکړئ - <b>نن ورځ مرسته وکړئ!</b>
 confirm-size = تاسو د <b>{ $size }</b> ډاونلوډ پیلولو لپاره چمتو یاست
 size-gigabyte = جي بي
 size-megabyte = ام بي
@@ -773,6 +796,8 @@ subscribe = ګډون وکړئ
 get-started-speech = وینا پېژندنې باندې پیل وکړئ
 other-datasets = نور غږیز ډېټاسیټونه ...
 feedback-q = غبرګون لرئ؟
+# This indicates that there is no data to display
+no-information = معلومات نشته
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ د څیړونکو لپاره یو <docsLink>د خلاصې سرچینې اوزار کټ</docsLink> دی چې د عصري خبرو اترو AI ماډلونه رامینځته کوي.
 resource-deepspeech-info = د موزیلا د خلاصې سرچینې غږ پیژندنې انجن ډیپ سپیچ د وینا پیژندنې غوښتنلیکونو جوړولو لپاره کارول کیدی شي. زموږ <githubLink>Github عمومي کتنه</githubLink> ولولئ یا د <discourseLink>DeepSpeech Discourse</discourseLink> سره یوځای شئ ترڅو د پیل کولو څرنګوالی زده کړئ.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> د خلاصې وینا ټیکنالوژۍ ته وقف شوی. د دوی په پروژو کې د ژورې زده کړې پر بنسټ د STT او TTS انجنونه شامل دي.
@@ -795,6 +820,15 @@ dataset-version = نسخه
 sha256-checksum-copied = SHA256 چکسم کاپي شوی!
 sha256-checksum-copied-error = د SHA256 چیکسم کاپي کولو کې پاتې راغلی
 clipboard-not-supported = کلپ بورډ نه ملاتړ کیږي
+no-information-available = هیڅ معلومات نشته
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = عمر
+donate-modal-message = ستاسو ډیټاسیټ ډاونلوډ کیږي!
+dataset-donate-modal-heading = ایا پوهیدئ…
+donate-modal-explanation-1 = دا د ډیټاسیټونو کوربه کولو او د 100+ ژبو ټولنو لپاره پلیټ فارم ته وده ورکولو لپاره په کال کې نږدې یو ملیون ډالر لګښت لري چې موږ په څه تکیه کوو؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <بولډ>که تاسو خلاص، ټول شموله ډاټا ته ارزښت ورکوئ - همدا نن مرسته وکړئ!</bold>
 
 ## Download Modal
 
@@ -870,6 +904,8 @@ language-section-in-progress = د پرمختګ په حال کې
 language-section-in-progress-new-description = دا ژبې دا مهال د ټولنې لخوا تر پراختیا لاندې دي. د پرمختګ پټې په ګوته کوي چې هره ژبه څومره ليری د <localizationGlossaryLink> ویب سایټ ځایي ژبې ته ژباړلو </localizationGlossaryLink> او <sentenceCollectionGlossaryLink> د جملو ټولګه </sentenceCollectionGlossaryLink> په پروسه کې ده.
 language-section-launched = په لاره اچول شوی
 language-section-launched-description = د دې پیل شوي ژبو لپاره ویب پاڼه په بریالیتوب سره <localizationGlossaryLink> ځایي ژبې ته ژباړل </localizationGlossaryLink> شوې، او کافي <sentenceCollectionGlossaryLink> جملې راټولې شوې دي </sentenceCollectionGlossaryLink> ترڅو د <speakLink> غږیدلو </speakLink> او <listenLink> اوریدلو </listenLink> رواني ونډې لپاره اجازه ورکړل شي.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = وروستی تازه شوی: { $lastUpdatedTimeStamp }
 languages-show-more = نور ووینئ
 languages-show-less = لږ ووینئ
 language-meter-in-progress = پرمختګ
@@ -939,6 +975,9 @@ listen-empty-state = موږ پدې ژبه کې د تاییدلو لپاره د �
 listen-loading-error =
     موږ ستاسو د اوریدلو لپاره هیڅ آډیو کلیپونه ترلاسه نشو کولی.
     مهرباني وکړئ وروسته بیا هڅه وکړئ.
+listen-abort-title = د تایید کلپونه ختم کړئ؟
+listen-abort-cancel = تایید ته دوام ورکړئ
+listen-abort-confirm = تایید کول پای ته ورسوئ
 speak-empty-state = موږ پدې ژبه کې د ثبتولو لپاره د جملو څخه خلاص شو...
 speak-empty-state-cta = د جملو مرسته وکړئ
 speak-loading-error =
@@ -1597,6 +1636,9 @@ continue-speaking-button = نه مننه، خبرو ته دوام ورکړئ
 create-profile-text = غواړئ خپل معلومات خوندي کړئ؟ <createProfile>یو پروفایل جوړ کړئ</createProfile>
 thanks-for-voice-toast = ستاسو د غږ معلوماتو لپاره مننه
 thanks-for-voice-toast-error = ستاسو د غږ معلوماتو په سپارلو کې یوه تېروتنه رامنځته شوه
+first-cta-gender-select-default-option = یو اختیار غوره کړئ
+first-cta-gender-select-help-text =
+    .label = تاسو به څنګه خپل جنسیت یا جندر بیان کړئ؟
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ستاسو د غږ کلپونو د مرستې لپاره مننه!
 second-cta-subtitle-text = د پروفایل سره، تاسو کولی شئ خپل فعالیت تعقیب کړئ او د غږ ډیټا مرسته کونکو ټولنې سره اړیکه ونیسئ.
@@ -1606,6 +1648,7 @@ create-profile-button = یو پروفایل جوړ کړئ
 img-alt-success-checkmark = د بریالیتوب نښه
 # GUIDELINES PAGE
 guidelines-header = د ونډې لارښوونې
+guidelines-header-subtitle = پوه شئ چې څنګه د ګډ غږ ډیټاسیټ ته د جملو او آډیو کلیپونو مرسته او اعتبار ورکړئ
 voice-collection = د غږ راټولول
 sentence-collection = د جملې ټولګه
 varying-pronunciations = مختلف تلفظونه
@@ -1615,20 +1658,197 @@ background-noise = شاته شور
 background-voices = د شاته غږونه
 volume = حجم
 reader-effects = د لوستونکي اغیزې
+just-unsure = بس ډاډه نه یاست؟
 example = بېلګه
+varying-pronunciations-explanation-1 = مخکې له دې چې په ځمکه کې یو کلیپ رد کړئ محتاط اوسئ چې لوستونکي یوه کلمه غلطه کړې وي، فشار یې په غلط ځای کې ځای پرځای کړی وي، یا یې په ښکاره ډول د پوښتنې نښه له پامه غورځولې وي. په ټوله نړۍ کې د تلفظونو پراخه ډولونه شتون لري، چې ځینې یې ممکن ستاسو په محلي ټولنه کې نه وي اوریدلي. مهرباني وکړئ د هغو کسانو لپاره د ستاینې حد چمتو کړئ څوک چې ممکن ستاسو څخه مختلف خبرې وکړي.
+varying-pronunciations-explanation-2 = له بلې خوا، که تاسو فکر کوئ چې لوستونکی شاید هیڅکله د کلمې سره مخ نه وي، او په ساده ډول د تلفظ په اړه غلط اټکل کوي، مهرباني وکړئ رد کړئ. که تاسو ډاډه نه یاست، د Skip تڼۍ وکاروئ.
+varying-pronunciations-example = لاره ناڅرګنده وه.
+varying-pronunciations-tip-1 = [کاناډا انګلیسي ممکن د "روټ" غږ د "راوټ" په څیر رامینځته کړي]
+varying-pronunciations-tip-2 = [برتانوي انګلیسي ممکن "روټ" جوړ کړي]
+offensive-content-explanation = جملې د ټولنې د اعتدال پروسې له لارې ارزول کیږي، مګر دا پروسه بشپړه نه ده. که تاسو یوه جمله وینئ یا واورئ چې تاسو ځوروي یا خپه کوي - د مثال په توګه ځکه چې دا زموږ د <participationGuidelines>د ټولنې د ګډون لارښودونو</participationGuidelines> څخه سرغړونه کوي - مهرباني وکړئ په UI کې د پرچم تڼۍ وکاروئ. تاسو کولی شئ له موږ سره په <emailFragment>commonvoice@mozilla.com</emailFragment> کې هم اړیکه ونیسئ.
+misreadings-explanation-1 = په پاڼه کې ټول ټکي په سمه توګه لوستل مهم دي. کله چې اوریدل، په ډیر دقت سره وګورئ چې هغه څه چې ثبت شوي دي په ریښتیا هغه څه دي چې لیکل شوي دي. رد کړئ که چیرې دوی اضافه شوي، قرارداد شوي یا له لاسه ورکړي وي.
+misreadings-explanation-2 = ډیر عام غلطۍ عبارت دي له:
+misreadings-explanation-3 = د ثبت کولو په پیل کې د 'A' یا 'The' ورک شوی.
+misreadings-explanation-4 = د یوې کلمې په پای کې د "s" له لاسه ورکول.
+misreadings-explanation-5 = د انقباض لوستل چې په حقیقت کې شتون نلري، لکه "موږ یو" پر ځای "موږ یو"، یا برعکس.
+misreadings-explanation-6 = په چټکۍ سره د ریکارډ قطع کولو سره د وروستي کلمې پای له لاسه ورکول.
+misreadings-explanation-7 = د یوې کلمې لوستلو لپاره څو هڅې کول.
 misreadings-example-1 = موږ د قهوې اخیستو لپاره بهر ځو.
+misreadings-example-2 = موږ د قهوې اخیستو لپاره بهر ځو.
 misreadings-example-3 = موږ د قهوې اخیستو لپاره بهر ځو.
 misreadings-example-4 = مچۍ په تېزۍ سره روانه شوه.
 misreadings-tip-1 = [باید "موږ یو" وي]
 misreadings-tip-2 = [په اصلي متن کې 'a' نه دی]
 misreadings-tip-3 = [مطابقت نه  لرونکې منځپانګه]
+background-noise-explanation = تاسو اړتیا لرئ د ثبت کولو هره کلمه واورئ. موږ غواړو د ماشین زده کړې الګوریتمونه د دې وړتیا ولري چې د مختلف شالید شور اداره کړي ، او حتی نسبتا لوړ غږونه یا خاموش شالید میوزیک ومنل شي پدې شرط چې دوی تاسو د متن بشپړ اوریدلو مخه ونه نیسي. کریکونه یا 'ماتیدل' چې تاسو د متن اوریدلو مخه نیسي پدې معنی چې تاسو باید کلیپ رد کړئ.
 background-noise-example-1 = د ټریاسیک لوی ډیناسور.
+background-noise-example-2 = [پرنجی] د [ټوخی] تریاسیک لوی ډیناسور.
+background-noise-example-3 = لوی ډینو [ټوخی] تریاسیک.
+background-noise-tip-1 = [د شاليد شور لخوا خنډ شوی]
 background-noise-tip-2 = [د متن یوه برخه اوریدل کیدی نشي]
+background-voices-explanation = لږ شالید شور سم دی، مګر که تاسو واورئ چې یو بل کس د جلا کلمو خبرې کوي، کلیپ باید رد شي. معمولا دا پیښیږي چیرې چې تلویزیون پریښودل شوی وي ، یا چیرې چې نږدې خبرې اترې روانې وي.
+background-voices-example-1 = د ټریاسیک لوی ډیناسور. [په یو غږ لوستل]
+background-voices-tip-1 = ته راځې؟ [د بل لخوا ویل کیږي]
+volume-explanation = د لوستونکو ترمنځ به په حجم کې طبیعي توپیرونه وي. رد کړئ یوازې هغه وخت چې حجم دومره لوړ وي چې ریکارډ نګ ماتیږي، یا (په عام ډول) که دا دومره ټیټ وي چې تاسو نشئ اوریدلی چې د لیکل شوي متن ته اشاره کولو پرته څه ویل کیږي.
+reader-effects-explanation = ډیری ریکارډونه د هغه خلکو څخه دي چې په خپل طبیعي غږ کې خبرې کوي. تاسو کولی شئ کله ناکله غیر معیاري ریکارډونه ومنئ چې په "ډراماتیک" غږ کې، ګونګوسې، یا په ښکاره ډول وړاندې کیږي. مهرباني وکړئ د سندرو ریکارډونه رد کړئ او هغه څوک چې د کمپیوټر ترکیب شوي غږ کاروي.
+just-unsure-explanation = که تاسو د هغه څه سره مخ شئ چې دا لارښوونې نه پوښي، مهرباني وکړئ د خپل غوره قضاوت سره سم رایه ورکړئ. که تاسو واقعیا پریکړه نشئ کولی ، د سکیپ تڼۍ وکاروئ او راتلونکي ریکارډ ته لاړشئ.
+still-have-questions = اوس هم پوښتنې لرئ؟
+contact-common-voice = د ګډ غږ ټیم سره اړیکه ونیسئ
+public-domain = عامه ډومین
+citing-sentences = د جملې نقل کول
+adding-sentences = د جملو اضافه کول
+reviewing-sentences = د جملو بیاکتنه
+sentence-domain = د جملې ډومین
+public-domain-explanation-1 = دا ډیره مهمه ده چې د متن ټولې جملې <publicDomain> عامه ډومین</publicDomain> (<cc0>cc0</cc0>) وي ځکه چې د عام غږ ډیټاسیټ د cc0 جواز لاندې خپور شوی. یوازې کله هم یوه جمله اپلوډ کړئ که تاسو ډاډه یاست، او تل اړونده حواله شامل کړئ.
+public-domain-explanation-2 = د ګټورې وینا پیژندنې انجن رامینځته کولو لپاره غوره جملې خبرې ، عصري خبرې دي. ځینې نظریات چې تاسو سره د جملو په جوړولو کې مرسته کوي؛
+public-domain-explanation-3 = د خپل ځان او یا د خپلو ملګرو یا د ژبې ټولنې سره عصري، د خبرو اترو جملې جوړې کړئ - د مثال په توګه د "لیکوالۍ" له لارې
+public-domain-explanation-4 = له لیکوالانو، ډرامه لیکونکو یا سکرین رائټرانو سره اړیکه ونیسئ او پوښتنه وکړئ چې ایا دوی غواړي د خپلو کارونو یوه کوچنۍ برخه عامه ډومین ته وقف کړي
+public-domain-explanation-5 = د متن لپاره وګورئ چیرې چې د کاپي حق نور نه پلي کیږي - د مثال په توګه ډیری کتابونه چې د 1920 څخه دمخه خپاره شوي
+public-domain-explanation-6 = حکومتونو، غیر انتفاعي یا رسنیو سازمانونو ته ورسیږئ ترڅو وګورئ چې ایا د دوی کوم ویب منځپانګې، راپورونه یا نور منځپانګې عامه ډومین ته وقف کیدی شي.
+citing-sentences-explanation-1 = دا مهمه ده چې حوالې شاملې کړئ نو موږ کولی شو وګورو چې جملې په عامه ډومین کې دي او د کاپي حق محدودیت نه پلي کیږي.
+citing-sentences-subheader-websites = ویب پاڼې
 citing-sentences-subheader-websites-explanation = تاسو کولی شئ ویب پاڼه شامله کړئ، د مثال په توګه "عام غږ - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = اکادمیک حواله
+citing-sentences-subheader-academic-reference-explanation = تاسو کولی شئ د اکاډمیک حواله کولو سټایل وکاروئ ، د مثال په توګه د هارورډ سټایل "موزیلا (2021) عام غږ. په https://commonvoice.mozilla.org/ کې شتون لري (لاسرسی: 15 سپتمبر 2021)"
+citing-sentences-subheader-offline-sources = آفلاین سرچینې
+citing-sentences-subheader-offline-sources-explanation = د عامه ډومین متن لپاره چې آنلاین شتون نلري، تاسو کولی شئ د اکاډمیک حواله کولو سټایل وکاروئ لکه د هارورډ سټایل "جیس (2021) زما عامه جواز شعرونه"
+citation =
+    .label = اقتباس
+self-citation = د ځان اقتباس
+self-citation-explanation = دا څنګه تاسو خپل ځان حواله کوئ که تاسو پخپله مینځپانګه لیکلي وي.
+adding-sentences-subheader-length = اوږدوالی
+adding-sentences-subheader-length-explanation = جمله باید له 15 څخه لږ کلمې ولري.
+adding-sentences-subheader-spelling-punctuation = املا او ټکي
+adding-sentences-subheader-spelling-punctuation-explanation = جمله باید په سمه توګه ولیکل شي.
+adding-sentences-subheader-speakable = د ویلو وړ
+adding-sentences-subheader-speakable-explanation = غوره جملې طبیعي او خبرې اترې دي - دوی باید د یو چا لپاره لوستل اسانه وي. پداسې حال کې چې په جملو کې د فونیټیک تنوع او مختلف ټکي مهم دي، موږ هڅه کوو چې د جملې ثبت کول د امکان تر حده زموږ د رضاکار ټولنې لپاره ښکیل او ساتیري کړي.
+adding-sentences-subheader-numbers = شمېرې
+adding-sentences-subheader-numbers-explanation = شمېرې. د سرچینې په متن کې باید هیڅ شمیرې نه وي ځکه چې دوی کولی شي ستونزې رامینځته کړي کله چې په لوړ غږ لوستل کیږي. هغه طریقه چې یو شمیر لوستل کیږي په شرایطو پورې اړه لري او ممکن په ډیټاسیټ کې ګډوډي معرفي کړي. د مثال په توګه، "2409" شمیره په سمه توګه د "څلورویشت صفر نهه" او "دوه زره څلور سوه نهه" په توګه لوستل کیدی شي.
+adding-sentences-subheader-abbreviations = لنډیزونه او مخففات
+adding-sentences-subheader-abbreviations-explanation = لنډیزونه او مخففات لکه "USA" یا "ICE" باید د سرچینې متن کې مخنیوی وشي ځکه چې دوی ممکن په داسې طریقه لوستل شي چې د دوی املا سره سمون نه لري. برسیره پردې، کیدای شي د یو واحد لنډیز لپاره ډیری دقیق لوستل وي.
+adding-sentences-subheader-punctuation = ټکي
+adding-sentences-subheader-punctuation-explanation = ټکي ځانګړي سمبولونه او ټکي باید یوازې هغه وخت شامل شي چې بالکل اړین وي. د مثال په توګه، apostrophe په انګلیسي کلمو کې شامل دي لکه "don't" او "we're" او باید د سرچینې متن کې شامل شي، مګر دا امکان نلري چې تاسو به کله هم ځانګړي سمبول ته اړتیا ولرئ لکه "@" یا "#."
+adding-sentences-subheader-special-characters = ځانګړي کرکټرونه او بهرني لیکونه
+adding-sentences-subheader-special-characters-explanation-1 = بهرني لیکونه. حروف باید په هغه ژبه کې اعتبار ولري چې ویل کیږي. د مثال په توګه، "ж" په روسي الفبا کې یو لیک دی مګر هیڅکله په انګلیسي کې نه کارول کیږي او له همدې امله باید هیڅکله د انګلیسي سرچینې متن کې څرګند نه شي.
+adding-sentences-subheader-special-characters-explanation-2 = ژبې کولی شي د اضافي اړتیاو سره د دوی د اعتبار کولو قواعد ولري کله چې دوی ځایی شي. که چیرې د یوې ژبې لپاره د تایید کولو کوم ځانګړی فایل شتون ونلري، د انګلیسي قواعد به د مرسته کونکو لپاره وښيي.
 adding-sentences-subheader-offensive-content = توهين کوونکې منځپانګه
+adding-sentences-subheader-offensive-content-explanation = که چیرې جمله سپکاوی یا خپه کوونکې وي - د مثال په توګه د څرګند مینځپانګې له امله ، یا زموږ د <community Guidelines>د ټولنې د ګډون لارښوونو</communityGuidelines> څخه سرغړونه - تاسو باید سزا رد کړئ. تاسو کولی شئ موږ ته په <emailFragment>commonvoice@mozilla.com</emailFragment> کې هم اړیکه ونیسئ ترڅو مسله زیاته کړي.
+reviewing-sentences-explanation-1 = که جمله پورته معیارونه پوره کړي، د "هو" تڼۍ کلیک وکړئ.
+reviewing-sentences-explanation-2 = که جمله پورته معیارونه پوره نه کړي، د "نه" تڼۍ کلیک وکړئ.
+reviewing-sentences-explanation-3 = که تاسو د جملې په اړه ډاډه نه یاست، تاسو ممکن دا پریږدئ او بلې ته لاړ شئ.
+reviewing-sentences-explanation-4 = که تاسو د بیاکتنې لپاره جملې ختمې کړئ، مهرباني وکړئ موږ سره د نورو جملو په راټولولو کې مرسته وکړئ!
+domain-explanation = ډومین د جملې موضوع ته اشاره کوي. اوس مهال، تاسو کولی شئ تر منځ انتخاب کړئ:
+
+## WRITE PAGE
+
+write-instruction = د عامه ډومین جمله <icon></icon> اضافه کړئ
+write-page-subtitle = دلته مرسته شوي جملې به په عامه توګه موجود cc-0 جواز لرونکي ډیټا سیټ کې اضافه شي.
+sentence =
+    .label = جمله
+sentence-input-value = خپل عامه ډومین جمله دلته دننه کړئ
+citation-input-value = ستاسو د جملې سرچینه
+citation =
+    .label = اقتباس
+sc-write-submit-confirm = زه تایید کوم چې دا جمله <wikipediaLink> عامه ډومین</wikipediaLink> ده او زه یې د پورته کولو اجازه لرم.
+sc-review-write-title = زه کوم جملې اضافه کولی شم؟
+new-sentence-rule-1 = <noCopyright>د کاپي حق نشته</noCopyright> محدودیتونه (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = په هره جمله کې له 15 څخه لږ کلمې
+new-sentence-rule-3 = صحیح ګرامر وکاروئ
+new-sentence-rule-4 = د سمې املا او جملې څخه کار واخلئ
+new-sentence-rule-5 = شمیرې او ځانګړي حروف مه کاروئ
+new-sentence-rule-6 = ده نورو بهرني ژبو توري مه کاروئ
+new-sentence-rule-7 = مناسب حواله شامل کړئ
+new-sentence-rule-8 = په مثالي توګه طبیعي او خبرو اترو (دا باید د جملې لوستل اسانه وي)
+how-to-cite = زه څنګه نقل کړم؟
+how-to-cite-explanation-bold = د یو آر ایل لینک یا د کار بشپړ نوم سره حواله کړئ.
+how-to-cite-explanation = که دا ستاسو خپل ټکي وي، یوازې ووایاست <italicizedText>"Self Citation"</italicizedText>. موږ اړتیا لرو پوه شو چې تاسو دا مینځپانګه چیرې موندلې ترڅو موږ وګورو چې دا په عامه ډومین کې دی او د کاپي حق محدودیت نه پلي کیږي. د حوالې په اړه د نورو معلوماتو لپاره زموږ <guidelinesLink>د لارښود پاڼه</guidelinesLink> وګورئ.
+guidelines = لارښوونې
+contact-us = موږ سره اړیکه ونیسئ
+add-sentence-success = 1 جمله راټوله شوې
+add-sentence-error = د جملې په زیاتولو کې تېروتنه
+required-field = مهرباني وکړئ دا ساحه ډکه کړئ.
+single-sentence-submission = د واحد جملې سپارل
+bulk-sentence-submission = د ډیرو جملو سپارل
+single-sentence = یوه جمله
+bulk-sentences = ډيري جملې
+sentence-domain-select =
+    .label = د جملې ډومین
+sentence-domain-select-placeholder = تر دریو ډومینونو پورې غوره کړئ
+# Sentence Domain dropdown option
+agriculture = کرنه
+# Sentence Domain dropdown option
+automotive = اتوماتیک
+# Sentence Domain dropdown option
+finance = مالیه
+# Sentence Domain dropdown option
+food_service_retail = خواړه، خدمت او پرچون
+# Sentence Domain dropdown option
+general = جنرال
+# Sentence Domain dropdown option
+healthcare = روغتیایی پاملرنه
+# Sentence Domain dropdown option
+history_law_government = تاریخ، قانون او حکومت
+# Sentence Domain dropdown option
+language_fundamentals = د ژبې اساسات (د بیلګې په توګه عددونه، لیکونه، پیسې)
+# Sentence Domain dropdown option
+media_entertainment = رسنۍ او تفریح
+# Sentence Domain dropdown option
+nature_environment = طبیعت او چاپیریال
+# Sentence Domain dropdown option
+news_current_affairs = خبرونه او اوسنۍ چارې
+# Sentence Domain dropdown option
+technology_robotics = ټیکنالوژي او روبوټکس
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = <icon></icon> وګورئ ایا دا په ژبني لحاظ سمه جمله ده؟
+sc-review-rules-title = ایا جمله لارښوونې پوره کوي؟
+sc-review-empty-state = اوس مهال په دې ژبه کې د بیاکتنې لپاره هیڅ جملې شتون نلري.
+report-sc-different-language = بېل ژبه
+report-sc-different-language-detail = دا په هغه ژبه لیکل شوی چې زه یې بیاکتنه کوم توپیر لري.
+sentences-fetch-error = د جملو په راوړلو کې تېروتنه رامنځته شوه
+review-error = د دې جملې په بیاکتنه کې یوه تېروتنه رامنځته شوه
+review-error-rate-limit-exceeded = تاسو ډیر چټک روان یاست. مهرباني وکړئ د جملې بیاکتنې لپاره یو څه وخت ونیسئ ترڅو ډاډ ترلاسه کړئ چې دا سمه ده.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = موږ یو څه لوی بدلونونه کوو
+sc-redirect-page-subtitle-1 = د جملې راټولونکی د اصلي عام غږ پلیټ فارم ته حرکت کوي. تاسو اوس کولی شئ یو جمله <writeURL>لیکئ</writeURL> یا <reviewURL>بیاکتنه</reviewURL> په عام غږ کې د یوې جملې سپارل.
+sc-redirect-page-subtitle-2 = په <matrixLink>Matrix</matrixLink>، <discourseLink>Discourse</discourseLink> یا <emailLink>email</emailLink> باندې پوښتنې وکړئ.
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = د عامه ډومین جملې <icon></icon> پورته کړئ
+sc-bulk-upload-instruction = خپل فایل دلته کش کړئ یا <uploadButton>د پورته کولو لپاره کلیک وکړئ</uploadButton>
+sc-bulk-upload-instruction-drop = د اپلوډ کولو لپاره دلته فایل پریږدئ
+bulk-upload-additional-information = که تاسو د دې فایل په اړه نور معلومات غواړئ، نو مهرباني وکړئ اړیکه ونیسئ <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = که تاسو غواړئ د دې فایل په اړه نور معلومات چمتو کړئ چې په کېنډۍ کې نه دي شامل شوي، مهرباني وکړئ اړیکه ونیسئ <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = بیا هڅه وکړئ خپل فایل دلته راښکته کړئ
+try-upload-again-md = بیا د پورته کولو هڅه وکړئ
+select-file = فایل غوره کړئ
+select-file-mobile = د پورته کولو لپاره فایل غوره کړئ
+accepted-files = د منلو وړ دوتنې ډولونه: tsv یوازې
+maximum-file-size = د فایل اعظمي اندازه: 25 MB
+what-needs-to-be-in-file = زما په فایل کې څه ته اړتیا ده؟
+what-needs-to-be-in-file-explanation = مهرباني وکړئ زموږ <templateFileLink>کینډۍ فایل</templateFileLink> وګورئ. ستاسو جملې باید د کاپي حق څخه پاک وي (CC0 یا د وړاندیز کونکي لخوا اجازه ورکړل شوي اصلي کار) او روښانه ، ګرامري سمه او لوستل اسانه وي. سپارل شوي جملې باید د لوستلو لپاره شاوخوا 10-15 ثانیې وخت ونیسي او د شمیرو ، مناسبو اسمونو او ځانګړي حروفونو په شمول باید مخنیوی وشي.
+upload-progress-text = اپلوډ روان دی...
+sc-bulk-submit-confirm = زه تصدیق کوم چې دا جملې <wikipediaLink> عامه ډومین</wikipediaLink> دي او زه د دوی د پورته کولو اجازه لرم.
+bulk-upload-success-toast = ډیری جملې پورته شوې
+bulk-upload-failed-toast = اپلوډ ناکام شو، مهرباني وکړئ بیا هڅه وکړئ.
+bulk-submission-success-header = ستاسو د لوی سپارلو د مرستې لپاره مننه!
+bulk-submission-success-subheader = تاسو د عام غږ سره زموږ د ورځني جملې اهدافو ته رسیدو کې مرسته کوئ!
+upload-more-btn-text = نورې جملې پورته کړئ؟
+file-invalid-type = ناباوره دوتنه
+file-too-large = فایل ډیر لوی دی
+file-too-small = فایل ډیر کوچنی دی
+too-many-files = ډیری فایلونه
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>موږ</mark><br/><mark>ستاسو مرستې ته اړتیا لرو!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = دا د ډیټاسیټونو کوربه کولو او د 100+ ژبو ټولنو لپاره پلیټ فارم ته وده ورکولو لپاره په کال کې نږدې یو ملیون ډالر لګښت لري چې په هغه څه تکیه کوي چې موږ یې کوو. <strong>که تاسو خلاص، ټول شموله ډیټا ته ارزښت ورکوئ - نن ورځ مرسته وکړئ!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>ستاسو د څیړنې لپاره د CV کارول</mark><br/><mark>؟</mark>
+languages-donate-banner-cta-explanation = عام غږ د بسپنه او بسپنې له لارې تمویل کیږي! موږ د اکادمیکانو، مدني ټولنې او صنعت څیړونکو سره همکاري خوښوو. عام غږ د کارولو لپاره وړیا دی، مګر د وړیا وړاندیزونو له لارې د پلیټ فارم او کوربه کولو لګښتونو کې مرسته کول واقعیا ګټور دي.

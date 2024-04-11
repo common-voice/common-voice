@@ -785,6 +785,8 @@ subscribe = Đăng kí
 get-started-speech = Bắt đầu với nhận dạng giọng nói
 other-datasets = Bộ dữ liệu thoại khác
 feedback-q = Có phản hồi?
+# This indicates that there is no data to display
+no-information = Không có thông tin
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ là một <docsLink>bộ công cụ mã nguồn mở</docsLink> dành cho các nhà nghiên cứu đang phát triển các mô hình AI đàm thoại hiện đại.
 resource-deepspeech-info = Công cụ nhận dạng giọng nói nguồn mở Deep Speech của Mozilla có thể được sử dụng để xây dựng các ứng dụng nhận dạng giọng nói. Đọc <githubLink>tổng quan Github</githubLink> của chúng tôi hoặc tham gia <discourseLink>Discourse của DeepSpeech</discourseLink> để tìm hiểu cách bắt đầu.
 resource-coqui-info = <coquiLink>Coqui</coquiLink>dành riêng cho công nghệ lời nói cởi mở. Các dự án của họ bao gồm các công cụ STT và TTS dựa trên deep learning.

@@ -789,6 +789,8 @@ subscribe = Подписаться
 get-started-speech = Как использовать Common Voice в своих программах
 other-datasets = Другие наборы голосовых данных
 feedback-q = Оставить отзыв
+# This indicates that there is no data to display
+no-information = Нет информации
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ - это <docsLink>набор инструментов с открытым исходным кодом</docsLink> для исследователей, разрабатывающих современные модели диалогового ИИ.
 resource-deepspeech-info = Открытый движок распознавания речи Deep Speech от Mozilla может быть использован при создании своих приложений. Прочитайте наш <githubLink>обзор на GitHub</githubLink> или присоединитесь к <discourseLink>разделу DeepSpeech на форуме Discourse</discourseLink>, чтобы узнать, как начать работу.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> посвящен технологии открытой речи. Их проекты включают движки STT и TTS на основе глубокого обучения.
@@ -1797,6 +1799,7 @@ single-sentence = Одно предложение
 bulk-sentences = Много предложений
 sentence-domain-select =
     .label = Домен предложений
+sentence-domain-select-placeholder = Выберите до трёх доменов
 # Sentence Domain dropdown option
 agriculture = Сельское хозяйство
 # Sentence Domain dropdown option

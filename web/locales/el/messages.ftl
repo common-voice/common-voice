@@ -791,6 +791,8 @@ subscribe = Εγγραφή
 get-started-speech = Ξεκινήστε με την αναγνώριση ομιλίας
 other-datasets = Άλλα σύνολα δεδομένων φωνής
 feedback-q = Έχετε σχόλια;
+# This indicates that there is no data to display
+no-information = Καμία πληροφορία
 resource-nemo-info = Το <githubLink>NVIDIA NeMo</githubLink>™ είναι ένα <docsLink>κιτ εργαλείων ανοικτού κώδικα</docsLink> για ερευνητές που αναπτύσσουν υπερσύγχρονα μοντέλα AI συζήτησης.
 resource-deepspeech-info = Το Deep Speech, η ανοικτού κώδικα μηχανή αναγνώρισης φωνής της Mozilla, μπορεί να χρησιμοποιηθεί για την ανάπτυξη εφαρμογών αναγνώρισης ομιλίας. Διαβάστε την <githubLink>επισκόπησή μας στο Github</githubLink> ή γίνετε μέλος στο <discourseLink>Discourse του DeepSpeech</discourseLink> για να μάθετε πώς να ξεκινήσετε.
 resource-coqui-info = Το <coquiLink>Coqui</coquiLink> είναι αφοσιωμένο στην ανοικτή τεχνολογία ομιλίας. Τα έργα τους περιλαμβάνουν βαθιά εκμάθηση σε μηχανές STT και TTS.
@@ -1766,6 +1768,7 @@ single-sentence = Μεμονωμένη πρόταση
 bulk-sentences = Πολλαπλές προτάσεις
 sentence-domain-select =
     .label = Τομέας πρότασης
+sentence-domain-select-placeholder = Επιλέξτε έως και τρεις τομείς
 # Sentence Domain dropdown option
 agriculture = Γεωργία
 # Sentence Domain dropdown option

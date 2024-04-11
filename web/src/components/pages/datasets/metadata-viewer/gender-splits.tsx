@@ -14,14 +14,14 @@ export const GenderSplits = ({ genderSplits }: Props) => {
   return (
     <div className="gender-splits">
       {(Object.keys(genderSplits) as Array<keyof typeof genderSplits>).map(
-        el =>
-          el.length > 0 &&
-          genderSplits[el] > 0 && (
-            <p key={el} className="gender">
-              <span>{formatNumberToPercentage(genderSplits[el])}</span>
-              {l10n.getString(el)}
-            </p>
-          )
+        el => (
+          <p key={el} className="gender">
+            <span>{formatNumberToPercentage(genderSplits[el])}</span>
+            {el.length > 0
+              ? l10n.getString(el)
+              : l10n.getString('no-information')}
+          </p>
+        )
       )}
     </div>
   )

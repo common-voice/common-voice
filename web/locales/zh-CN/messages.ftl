@@ -782,6 +782,8 @@ subscribe = 订阅
 get-started-speech = 语音识别入门
 other-datasets = 其他语音数据集
 feedback-q = 有反馈要提供？
+# This indicates that there is no data to display
+no-information = 没有信息
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ 是一套可让研究者开发最先进的对话式 AI 模型的<docsLink>开源工具包</docsLink>。
 resource-deepspeech-info = Mozilla 的开源语音识别引擎 Deep Speech，可用于构建语音识别应用程序。您可以阅读我们的 <githubLink>Github 概述</githubLink>或加入<discourseLink> DeepSpeech Discourse</discourseLink> 了解如何入门。
 resource-coqui-info = <coquiLink>Coqui</coquiLink> 致力于开放语音技术。他们的项目包括使用深度学习技术的 STT 与 TTS 引擎。
@@ -1565,7 +1567,7 @@ partnerships-governments-description = 我们非常愿意为公共部门的技�
 partnerships-academia-header = 高等院校、学者与研究人员
 partnerships-academia-description = 我们追求开放创新。如有意合作开展研究、收集数据或访谈，请<emailFragment>联系我们。</emailFragment>
 partnerships-small-business-header = 中小企业（包含科技或人工智能初创企业）
-partnerships-small-business-description = 我们一直希望了解数据使用者的具体需要和使用场景，请在数据收集平台上分享您对数据健康的见地，我们很乐意<emailFragment>听取您的意见。</emailFragment>
+partnerships-small-business-description = 我们一直希望了解数据使用者的具体需要和使用场景。从合作完善数据采集平台，到分享对数据健康的见地，我们都十分乐意<emailFragment>听取您的意见</emailFragment>。
 partnerships-corporates-header = 大型企业与平台型企业
 partnerships-corporates-description = 如果您想了解数据库、投资本平台或寻求合作机会，<emailFragment>请联系我们。</emailFragment>
 partnerships-our-partners = 我们的合作伙伴
@@ -1718,6 +1720,7 @@ single-sentence = 单句
 bulk-sentences = 批量语句
 sentence-domain-select =
     .label = 语句领域
+sentence-domain-select-placeholder = 最多选择三个领域
 # Sentence Domain dropdown option
 agriculture = 农业
 # Sentence Domain dropdown option

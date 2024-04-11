@@ -635,6 +635,9 @@ about-playbook-how-access-dataset = Penaos e c’hellan haeziñ hag implijout ar
 ## How are decisions made
 
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = Geriaoueg
@@ -1218,6 +1221,7 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = N’haller ket ouzhpennañ ar yezh
 sc-add-lang-sec-button = Ouzhpennañ ur yezh
 
 ## ADD SENTENCES CONFIRMATION
@@ -1266,6 +1270,9 @@ sc-profile-title = Profil: { $username }
 sc-personal-err-remove = Ne c’haller ket lemel ar yezh
 sc-personal-your-languages = Ho yezhoù:
 sc-personal-remove-button = dilemel
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } bet ouzhpennet ganeoc’h
 sc-personal-not-added = N’ho peus ouzhpennet yezh ebet c’hoazh.
 
 ## REVIEW CRITERIA
@@ -1371,3 +1378,6 @@ file-invalid-type = Restr direizh
 file-too-large = Re vras eo ar restr
 file-too-small = Re vihan eo ar restr
 too-many-files = Re a restroù a zo
+
+## Donate banner
+

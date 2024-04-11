@@ -789,6 +789,8 @@ subscribe = Odebírat
 get-started-speech = Začínáme s rozpoznáváním řeči
 other-datasets = Ostatní hlasové datasety
 feedback-q = Máte zpětnou vazbu?
+# This indicates that there is no data to display
+no-information = Žádné informace
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ je <docsLink>open-source sada nástrojů</docsLink> pro výzkumníky nejpokročilejších konverzačních modelů umělé inteligence.
 resource-deepspeech-info = Open source systém Mozilly Deep Speech pro rozpoznávání hlasu můžete použít pro tvorbu aplikací rozpoznávajících řeč. Pro začátek si přečtěte naše <githubLink>shrnutí na GitHubu</githubLink> nebo se připojte na <discourseLink>DeepSpeech Discourse</discourseLink>.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> se zabývá otevřenými technologiemi týkající se práce s řečí. Jejich projekty zahrnují systémy pro rozpoznávání i syntézu řeči, a jsou založené na hlubokém učení.
@@ -1803,6 +1805,7 @@ single-sentence = Jedna věta
 bulk-sentences = Více vět
 sentence-domain-select =
     .label = Zařazení věty
+sentence-domain-select-placeholder = Vyberte až tři domény
 # Sentence Domain dropdown option
 agriculture = Zemědělství
 # Sentence Domain dropdown option
@@ -1874,3 +1877,5 @@ too-many-files = Příliš mnoho souborů
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Potřebujeme</mark><br/><mark>vaši pomoc!</mark>
