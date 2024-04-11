@@ -496,6 +496,7 @@ about-voice-contrib-title = שטימע ביישטייערונג
 about-voice-contrib-subtitle = מענטשן קומען און ביישטייערן זייערע שטימעס.
 about-voice-validation-title = שטימע באשטעטיגונג
 about-voice-validation-subtitle = אנדערע מענטשן באשטעטיגן די שטימע קליפס.
+about-dataset-release-title = ארויסשטעלן דעם דאטא סעט
 about-dataset-release-subtitle = מיר געבן ארויס דעם דאטא סעט איעדער 3 מאנאטן.
 about-subscribe-text = ווילט איר בלייבן אין פארבינדונג מיט קאמאן וואויס?
 about-speak = רעד
@@ -589,6 +590,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>ליינט מ�
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = וויאזוי ווערט קאמאן וואויס פינאנצירט?
 
 ## Glossary
 
