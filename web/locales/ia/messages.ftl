@@ -1629,6 +1629,9 @@ continue-speaking-button = No gratias, continuar a parlar
 create-profile-text = Vole tu salvar tu informationes? <createProfile>Crea un profilo</createProfile>
 thanks-for-voice-toast = Gratias pro le informationes re tu voce
 thanks-for-voice-toast-error = Un error occurreva durante le invio del informationes re tu voce
+first-cta-gender-select-default-option = Elige un option
+first-cta-gender-select-help-text =
+    .label = Como describerea tu tu sexo o genere?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Gratias pro contribuer con tu voce!
 second-cta-subtitle-text = Con un profilo, tu pote mantener tracia de tu activitate e connecter te con collaboratores de un communitate de datos vocal.
