@@ -1,3 +1,5 @@
+import { Option } from 'fp-ts/Option'
+
 import { SentenceDomain } from "common"
 
 export type AddSentenceCommand = {
@@ -7,4 +9,5 @@ export type AddSentenceCommand = {
   localeName: string
   source: string,
   domains: SentenceDomain[]
+  variant: Option<string> 
 }

@@ -1,18 +1,26 @@
 import { Request, Response } from 'express'
 import * as TE from 'fp-ts/TaskEither'
 import * as T from 'fp-ts/Task'
+import * as O from 'fp-ts/Option'
+import * as I from 'fp-ts/Identity'
 import { pipe } from 'fp-ts/function'
 import { AddSentenceCommandHandler } from '../../../application/sentences/use-case/command-handler/add-sentence-command-handler'
 import { AddSentenceCommand } from '../../../application/sentences/use-case/command-handler/command/add-sentence-command'
 import {
-  SentencesRepositoryErrorKind,
+  SentenceRepositoryErrorKind,
   SentenceValidationErrorKind,
 } from '../../../application/types/error'
 import { createPresentableError } from '../../../application/helper/error-helper'
 import { StatusCodes } from 'http-status-codes'
+import { validateSentence } from '../../../core/sentences'
+import {
+  findDomainIdByNameInDb,
+  findVariantIdByTokenInDb,
+  saveSentenceInDb,
+} from '../../../application/sentences/repository/sentences-repository'
 
 export default async (req: Request, res: Response) => {
-  const { sentence, localeId, localeName, source, domains } = req.body
+  const { sentence, localeId, localeName, source, domains, variant } = req.body
 
   const command: AddSentenceCommand = {
     clientId: req.client_id,
@@ -20,16 +28,26 @@ export default async (req: Request, res: Response) => {
     localeId: localeId,
     localeName: localeName,
     source: source,
-    domains: domains
+    domains: domains,
+    variant: O.fromNullable(variant),
   }
 
+  const cmdHandler = pipe(
+    AddSentenceCommandHandler,
+    I.ap(validateSentence),
+    I.ap(findDomainIdByNameInDb),
+    I.ap(findVariantIdByTokenInDb),
+    I.ap(saveSentenceInDb)
+  )
+
   return pipe(
-    AddSentenceCommandHandler(command),
+    command,
+    cmdHandler,
     TE.mapLeft(createPresentableError),
     TE.match(
       err => {
         switch (err.kind) {
-          case SentencesRepositoryErrorKind: {
+          case SentenceRepositoryErrorKind: {
             return T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err))
           }
           case SentenceValidationErrorKind:

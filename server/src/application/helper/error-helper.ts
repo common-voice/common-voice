@@ -29,8 +29,8 @@ export const createSentenceValidationError = (
   }
 }
 
-export const createPendingSentencesRepositoryError = createError(
-  'SentencesRepository'
+export const createSentenceRepositoryError = createError(
+  'SentenceRepository'
 )
 export const createDatabaseError = createError('DatabaseError')
 
