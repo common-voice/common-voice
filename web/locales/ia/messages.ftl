@@ -681,6 +681,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Lege plus re c
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Como es financiate Common Voice?
 
 ## Glossary
 
