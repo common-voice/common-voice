@@ -685,6 +685,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Lege plus re c
 about-playbook-how-funded = Como es financiate Common Voice?
 about-playbook-how-funded-content-1 = Common Voice es un projecto del Mozilla Foundation, un organisation US 501c3.
 about-playbook-how-funded-content-2 = Il costa tante moneta continuemente hospitar e publicar le collectiones de datos, meliorar le platteforma e exequer <africaMradiLink>programmas de communitate</africaMradiLink>.
+about-playbook-how-funded-content-3 = Si a vos o a vostre organisation placerea contribuer al projecto, vos pote facer un <donateLink>donation</donateLink> o contactar le equipa de nostre societates a <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -815,6 +816,7 @@ dataset-metadata-sex = Genere
 dataset-metadata-age = Etate
 donate-modal-message = Tu collection de datos es discargate!
 dataset-donate-modal-heading = Sape tu…
+donate-modal-explanation-1 = Il costa quasi un million de dollars per anno le allogiamento del collectiones de datos e meliorar le platteforma pro le plus que 100 communitates linguistic que conta sur illo que nos face?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>So tu apprecia le datos gratuite e inclusive - dona hodie!</bold>
 
@@ -1735,6 +1737,7 @@ reviewing-sentences-explanation-1 = Si le phrase satisface le precedente criteri
 reviewing-sentences-explanation-2 = Si le phrase no satisface le precedente criterios, clicca le button "No".
 reviewing-sentences-explanation-3 = Si tu non es secur re le phrase, tu pote alsi saltar lo e mover al successive.
 reviewing-sentences-explanation-4 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger altere phrases!
+domain-explanation = Le dominio se refere al materia del phrase. Actualmente, vos pote eliger inter:
 
 ## WRITE PAGE
 
