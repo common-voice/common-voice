@@ -97,7 +97,6 @@ describe('Single Submission Write page', () => {
         domains: ['general'],
         sentence: 'This is a mock sentence',
         source: 'self',
-        localeId: 1,
         localeName: 'mock-locale-1',
       })
     })
