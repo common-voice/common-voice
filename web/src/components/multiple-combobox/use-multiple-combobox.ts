@@ -11,27 +11,16 @@ export const useMultipleComboBox = ({
 }: UseMultipleComboBoxParams) => {
   const [inputValue, setInputValue] = useState('')
 
-  const getFilteredItems = ({
-    elements,
-    selectedItems,
-    inputValue,
-  }: {
-    elements: readonly string[]
-    // TODO: update this to selectedElements
-    selectedItems: string[]
-    inputValue: string
-  }) => {
-    const lowerCasedInputValue = inputValue.toLowerCase()
-
-    return elements.filter(
-      element =>
-        !selectedItems.includes(element) &&
-        element.toLowerCase().startsWith(lowerCasedInputValue)
+  const getFilteredItems = ({ inputValue }: { inputValue: string }) => {
+    return items.filter(
+      item =>
+        !selectedItems.includes(item) &&
+        item.toLowerCase().startsWith(inputValue.toLowerCase())
     )
   }
 
   const multipleComboBoxItems = useMemo(
-    () => getFilteredItems({ elements: items, selectedItems, inputValue }),
+    () => getFilteredItems({ inputValue }),
     [selectedItems, inputValue]
   )
 

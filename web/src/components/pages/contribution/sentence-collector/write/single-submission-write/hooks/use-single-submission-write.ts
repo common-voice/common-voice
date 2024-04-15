@@ -9,7 +9,7 @@ import {
 } from '../single-submission-write.reducer'
 import { SentenceSubmission, SentenceSubmissionError } from 'common'
 
-import { useAction, useLanguages } from '../../../../../../../hooks/store-hooks'
+import { useAction } from '../../../../../../../hooks/store-hooks'
 import { useLocale } from '../../../../../../locale-helpers'
 
 import { Sentences } from '../../../../../../../stores/sentences'
@@ -49,11 +49,6 @@ export const useSingleSubmissionWrite = () => {
   }
 
   const [currentLocale] = useLocale()
-  const languages = useLanguages()
-
-  const localeId = languages.localeNameAndIDMapping.find(
-    locale => locale.name === currentLocale
-  ).id
 
   const handlePublicDomainChange = () => {
     singleSubmissionWriteDispatch({
@@ -97,8 +92,6 @@ export const useSingleSubmissionWrite = () => {
     const newSentence: SentenceSubmission = {
       sentence: state.sentence,
       source: state.citation,
-      // TODO: remove this
-      localeId,
       localeName: currentLocale,
       domains: state.sentenceDomains,
       ...(state.sentenceVariant.length > 0 &&
