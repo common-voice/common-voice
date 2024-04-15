@@ -3,32 +3,32 @@ import { Localized, useLocalization } from '@fluent/react'
 import classNames from 'classnames'
 
 import { EditIcon } from '../../../../../ui/icons'
-import { LabeledInput, LabeledSelect } from '../../../../../ui/ui'
+import { LabeledInput } from '../../../../../ui/ui'
 import { MultipleCombobox } from '../../../../../multiple-combobox'
 import { Rules } from './rules'
 import { Instruction } from '../../instruction'
 import ExpandableInformation from '../../../../../expandable-information/expandable-information'
-import { SentenceSubmissionError, Variant } from 'common'
+import { Select } from '../../../../../select'
+import { SentenceSubmissionError } from 'common'
 import { LabeledTextArea } from '../../../../../ui/ui'
 import { LocaleLink } from '../../../../../locale-helpers'
 import URLS from '../../../../../../urls'
-import { useMultipleComboBox } from '../../../../../multiple-combobox/use-multiple-combox'
+import { useMultipleComboBox } from '../../../../../multiple-combobox/use-multiple-combobox'
 
 type Props = {
   handleSentenceInputChange: (
     event: React.ChangeEvent<HTMLTextAreaElement>
   ) => void
   handleCitationChange: (event: React.ChangeEvent<HTMLInputElement>) => void
-  handleSentenceVariantChange: (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => void
+  handleSentenceVariantChange: (item: string) => void
   selectedSentenceDomains: string[]
   setSelectedSentenceDomains: (domains: string[]) => void
   sentence: string
   citation: string
   sentenceDomains: readonly string[]
   error: SentenceSubmissionError
-  variants: Variant[]
+  variantTokens: string[]
+  selectedVariant?: string
 }
 
 export const SentenceInputAndRules: React.FC<Props> = ({
@@ -41,10 +41,12 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   sentence,
   citation,
   error,
-  variants,
+  variantTokens,
+  selectedVariant,
 }) => {
   const isSentenceError = error && error !== SentenceSubmissionError.NO_CITATION
   const isCitationError = error === SentenceSubmissionError.NO_CITATION
+  const hasVariants = variantTokens.length > 0
 
   const { l10n } = useLocalization()
 
@@ -67,7 +69,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               placeholder={l10n.getString('sentence-input-value')}
               className={classNames('sentence-input', {
                 'sentence-error': isSentenceError,
-                'variants-dropdown-hidden': !variants,
+                'variants-dropdown-hidden': !hasVariants,
               })}
               onChange={handleSentenceInputChange}
               value={sentence}
@@ -82,21 +84,16 @@ export const SentenceInputAndRules: React.FC<Props> = ({
             setInputValue={setInputValue}
             setSelectedItems={setSelectedSentenceDomains}
           />
-          {variants && (
-            <Localized id="sentence-variant-select" attrs={{ label: true }}>
-              <LabeledSelect
-                className="sentence-variant-select"
-                onChange={handleSentenceVariantChange}>
-                <option value="">
-                  {l10n.getString('sentence-variant-select-default-value')}
-                </option>
-                {variants.map(el => (
-                  <Localized id={el.token} key={el.id}>
-                    <option value={el.token}>{el}</option>
-                  </Localized>
-                ))}
-              </LabeledSelect>
-            </Localized>
+          {hasVariants && (
+            <Select
+              items={variantTokens}
+              setSelectedItem={handleSentenceVariantChange}
+              selectedItem={selectedVariant}
+              label={l10n.getString('sentence-variant-select-label')}
+              placeHolderText={l10n.getString(
+                'sentence-variant-select-placeholder'
+              )}
+            />
           )}
           <Localized id="citation" attrs={{ label: true }}>
             <LabeledInput

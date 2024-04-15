@@ -1,11 +1,13 @@
 import * as React from 'react'
-import { fireEvent, screen, waitFor } from '@testing-library/react'
+import { act, fireEvent, screen, waitFor } from '@testing-library/react'
 
 import { renderWithProviders } from '../../../../../../../test/render-with-providers'
 
 import SingleSubmissionWrite from './single-submission-write'
 
 const useActionMock = jest.fn()
+
+const mockVariants = jest.fn(() => Promise.resolve({}))
 
 jest.mock('../../../../../../hooks/store-hooks', () => ({
   useLanguages: () => {
@@ -18,6 +20,11 @@ jest.mock('../../../../../../hooks/store-hooks', () => ({
     }
   },
   useAction: () => useActionMock,
+  useAPI: () => {
+    return {
+      getVariants: mockVariants,
+    }
+  },
 }))
 
 jest.mock('../../../../../locale-helpers', () => ({
@@ -33,35 +40,41 @@ afterEach(() => {
 })
 
 describe('Single Submission Write page', () => {
-  it('renders Single Submission Write page', () => {
-    renderWithProviders(<SingleSubmissionWrite />)
+  it('renders Single Submission Write page', async () => {
+    act(() => {
+      renderWithProviders(<SingleSubmissionWrite />)
+    })
 
-    expect(screen.getByTestId('single-submission-form')).toBeTruthy()
-    // assert that submit button is disabled
-    expect(screen.getByTestId('submit-button').hasAttribute('disabled'))
+    await waitFor(() => {
+      expect(screen.getByTestId('single-submission-form')).toBeTruthy()
+      // assert that submit button is disabled
+      expect(screen.getByTestId('submit-button').hasAttribute('disabled'))
+    })
   })
 
-  it('requires a citation before submitting', () => {
+  it('requires a citation before submitting', async () => {
     renderWithProviders(<SingleSubmissionWrite />)
 
     const sentenceTextArea = screen.getByTestId('sentence-textarea')
     const checkBox = screen.getByTestId('public-domain-checkbox')
     const submitButton = screen.getByTestId('submit-button')
 
-    fireEvent.change(sentenceTextArea, {
-      target: { value: 'This is a mock sentence' },
+    await waitFor(() => {
+      fireEvent.change(sentenceTextArea, {
+        target: { value: 'This is a mock sentence' },
+      })
+
+      fireEvent.click(checkBox)
+
+      // assert that submit button is not disabled
+      expect(
+        screen.getByTestId('submit-button').hasAttribute('disabled')
+      ).toBeFalsy()
+
+      fireEvent.click(submitButton)
+
+      expect(screen.getByTestId('citation-error-message')).toBeTruthy()
     })
-
-    fireEvent.click(checkBox)
-
-    // assert that submit button is not disabled
-    expect(
-      screen.getByTestId('submit-button').hasAttribute('disabled')
-    ).toBeFalsy()
-
-    fireEvent.click(submitButton)
-
-    expect(screen.getByTestId('citation-error-message')).toBeTruthy()
   })
 
   it('submits when all fields are filled', async () => {

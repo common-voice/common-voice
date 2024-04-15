@@ -17,6 +17,7 @@ export const useMultipleComboBox = ({
     inputValue,
   }: {
     elements: readonly string[]
+    // TODO: update this to selectedElements
     selectedItems: string[]
     inputValue: string
   }) => {

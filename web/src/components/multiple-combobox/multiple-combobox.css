@@ -1,9 +1,8 @@
 @import url('../media.css');
 
-.multiple-sentence-domain-select {
+.multiple-combobox {
     ul {
         background: #fff;
-        margin: 0px 0 30px;
         position: absolute;
         z-index: var(--override-z-index);
 
@@ -49,10 +48,10 @@
     }
 }
 
-.selected-domains-list {
+.selected-items-list {
     margin-block-start: 30px;
 
-    .selected-domain {
+    .selected-item {
         display: inline-flex;
         align-items: center;
         padding-inline-start: 1.5rem;
@@ -62,7 +61,7 @@
         border-radius: 15rem;
     }
 
-    .selected-domain--button {
+    .selected-item--button {
         border: none;
         padding: 0.8rem 1.5rem;
         padding-inline-start: 1rem;

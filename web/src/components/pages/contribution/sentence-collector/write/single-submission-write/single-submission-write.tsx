@@ -28,6 +28,13 @@ const SingleSubmissionWrite: React.FC = () => {
 
   const { variants } = useGetVariants()
 
+  const variantTokens = variants ? variants.map(variant => variant.token) : []
+
+  // add all variants option to the list of variants in the dropdown
+  const allVariants = ['sentence-variant-select-all-variants'].concat(
+    variantTokens
+  )
+
   return (
     <form
       className="guidelines-form"
@@ -46,7 +53,8 @@ const SingleSubmissionWrite: React.FC = () => {
           }
           error={singleSentenceSubmissionState.error}
           handleSentenceVariantChange={handleSentenceVariantChange}
-          variants={variants}
+          variantTokens={allVariants}
+          selectedVariant={singleSentenceSubmissionState.sentenceVariant}
         />
       </div>
 

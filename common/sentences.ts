@@ -4,8 +4,7 @@ export type SentenceSubmission = {
   localeId: number
   localeName: string
   domains: string[]
-  // TODO: might need to update this
-  variant: string
+  variant?: string
 }
 
 export enum SentenceSubmissionError {

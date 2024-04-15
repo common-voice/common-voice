@@ -19,10 +19,12 @@ const initialState: SingleSubmissionWriteState = {
   sentence: '',
   citation: '',
   sentenceDomains: [],
-  sentenceVariant: undefined,
+  sentenceVariant: '',
   error: undefined,
   confirmPublicDomain: false,
 }
+
+const allVariantToken = 'sentence-variant-select-all-variants'
 
 export const useSingleSubmissionWrite = () => {
   const [state, singleSubmissionWriteDispatch] = useReducer(
@@ -82,12 +84,10 @@ export const useSingleSubmissionWrite = () => {
     })
   }
 
-  const handleSentenceVariantChange = (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => {
+  const handleSentenceVariantChange = (item: string) => {
     singleSubmissionWriteDispatch({
       type: SingleSubmissionWriteActionType.SET_SENTENCE_VARIANT,
-      payload: { sentenceVariant: event.target.value },
+      payload: { sentenceVariant: item },
     })
   }
 
@@ -97,10 +97,14 @@ export const useSingleSubmissionWrite = () => {
     const newSentence: SentenceSubmission = {
       sentence: state.sentence,
       source: state.citation,
+      // TODO: remove this
       localeId,
       localeName: currentLocale,
       domains: state.sentenceDomains,
-      variant: state.sentenceVariant,
+      ...(state.sentenceVariant.length > 0 &&
+        state.sentenceVariant !== allVariantToken && {
+          variant: state.sentenceVariant,
+        }),
     }
 
     try {
@@ -128,6 +132,7 @@ export const useSingleSubmissionWrite = () => {
         type: SingleSubmissionWriteActionType.ADD_SENTENCE_ERROR,
         payload: { error: errorMessage.errorType },
       })
+
       addNotification({
         message: l10n.getString('add-sentence-error'),
         type: 'error',

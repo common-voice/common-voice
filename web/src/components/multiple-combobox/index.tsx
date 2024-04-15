@@ -107,7 +107,7 @@ export const MultipleCombobox: React.FC<Props> = ({
   }
 
   return (
-    <div className="multiple-sentence-domain-select">
+    <div className="multiple-combobox">
       <div>
         <Localized id="sentence-domain-select" attrs={{ label: true }}>
           <Input
@@ -120,7 +120,7 @@ export const MultipleCombobox: React.FC<Props> = ({
               })
             )}
             placeholder={l10n.getString('sentence-domain-select-placeholder')}
-            dataTestId="sentence-domain-select"
+            dataTestId="sentence-domain-select" // TODO: update this data-testid for e2e tests
           />
         </Localized>
       </div>
