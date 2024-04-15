@@ -78,5 +78,5 @@ export const AddSentenceCommandHandler =
           }
         }
       ),
-      TE.chain(sentenceSubmission => saveSentence(sentenceSubmission))
+      TE.chain(saveSentence)
     )
