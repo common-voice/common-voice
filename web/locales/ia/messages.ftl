@@ -450,6 +450,7 @@ help-accent-explanation = Tu accento es le maniera que tu pronuncia le vocabulos
 help-variants = Besonia tu de auxilio con le variantes?
 help-variants-explanation = Le variantes es un forma specific de un lingua, per exemplo compartite per illes vivente in un area geographic o communitate. Aliquando illos es appellate dialectos.
 help-sex-or-gender-changes = Besonia tu de adjuta con le cambios de sexo o genere?
+help-sex-or-gender-changes-explanation = Nos offere plus optiones pro dar al gente plus selection in que illes dice nos circa lor identitate de sexo o genere. Per favor auto-describe te como lo que se senti plus natural pro te. <learnMoreLink>Pro saper plus circa nostre approche a sexo e genere.</learnMoreLink>
 
 ## Profile - Email
 
@@ -681,6 +682,8 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Lege plus re c
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Como es financiate Common Voice?
+about-playbook-how-funded-content-1 = Common Voice es un projecto del Mozilla Foundation, un organisation US 501c3.
 
 ## Glossary
 
@@ -1629,6 +1632,9 @@ continue-speaking-button = No gratias, continuar a parlar
 create-profile-text = Vole tu salvar tu informationes? <createProfile>Crea un profilo</createProfile>
 thanks-for-voice-toast = Gratias pro le informationes re tu voce
 thanks-for-voice-toast-error = Un error occurreva durante le invio del informationes re tu voce
+first-cta-gender-select-default-option = Elige un option
+first-cta-gender-select-help-text =
+    .label = Como describerea tu tu sexo o genere?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Gratias pro contribuer con tu voce!
 second-cta-subtitle-text = Con un profilo, tu pote mantener tracia de tu activitate e connecter te con collaboratores de un communitate de datos vocal.
@@ -1763,6 +1769,7 @@ single-sentence = Phrase singule
 bulk-sentences = Gruppo de phrases
 sentence-domain-select =
     .label = Dominio del phrase
+sentence-domain-select-placeholder = Selige usque tres dominios
 # Sentence Domain dropdown option
 agriculture = Agricultura
 # Sentence Domain dropdown option
@@ -1770,11 +1777,15 @@ automotive = Automobile
 # Sentence Domain dropdown option
 finance = Financia
 # Sentence Domain dropdown option
+food_service_retail = Alimentos, servicio e detalio
+# Sentence Domain dropdown option
 general = General
 # Sentence Domain dropdown option
 healthcare = Cura del sanitate
 # Sentence Domain dropdown option
 history_law_government = Historia, Lege e Governamento
+# Sentence Domain dropdown option
+language_fundamentals = Fundamentos de lingua (p. ex. Digitos, Litteras, Moneta)
 # Sentence Domain dropdown option
 media_entertainment = Medios e intertenimento
 # Sentence Domain dropdown option
@@ -1830,3 +1841,5 @@ too-many-files = Troppo de files
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Nos besonia</mark><br/><mark>tu adjuta!</mark>
