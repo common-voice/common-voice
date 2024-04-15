@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { act, fireEvent, screen, waitFor } from '@testing-library/react'
+import { fireEvent, screen, waitFor } from '@testing-library/react'
 
 import { renderWithProviders } from '../../../../../../../test/render-with-providers'
 
@@ -8,6 +8,8 @@ import SingleSubmissionWrite from './single-submission-write'
 const useActionMock = jest.fn()
 
 const mockVariants = jest.fn(() => Promise.resolve({}))
+
+const allVariants = ['mock-variant-1', 'mock-variant-2']
 
 jest.mock('../../../../../../hooks/store-hooks', () => ({
   useLanguages: () => {
@@ -41,9 +43,7 @@ afterEach(() => {
 
 describe('Single Submission Write page', () => {
   it('renders Single Submission Write page', async () => {
-    act(() => {
-      renderWithProviders(<SingleSubmissionWrite />)
-    })
+    renderWithProviders(<SingleSubmissionWrite allVariants={allVariants} />)
 
     await waitFor(() => {
       expect(screen.getByTestId('single-submission-form')).toBeTruthy()
@@ -53,7 +53,7 @@ describe('Single Submission Write page', () => {
   })
 
   it('requires a citation before submitting', async () => {
-    renderWithProviders(<SingleSubmissionWrite />)
+    renderWithProviders(<SingleSubmissionWrite allVariants={allVariants} />)
 
     const sentenceTextArea = screen.getByTestId('sentence-textarea')
     const checkBox = screen.getByTestId('public-domain-checkbox')
@@ -78,7 +78,7 @@ describe('Single Submission Write page', () => {
   })
 
   it('submits when all fields are filled', async () => {
-    renderWithProviders(<SingleSubmissionWrite />)
+    renderWithProviders(<SingleSubmissionWrite allVariants={allVariants} />)
 
     const sentenceTextArea = screen.getByTestId('sentence-textarea')
     const citationInput = screen.getByTestId('citation-input')

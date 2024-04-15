@@ -46,7 +46,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
 }) => {
   const isSentenceError = error && error !== SentenceSubmissionError.NO_CITATION
   const isCitationError = error === SentenceSubmissionError.NO_CITATION
-  const hasVariants = variantTokens.length > 0
+  const hasVariants = variantTokens && variantTokens.length > 0
 
   const { l10n } = useLocalization()
 

@@ -8,14 +8,17 @@ import { PrimaryButton } from '../../../../../primary-buttons/primary-buttons'
 import { SentenceInputAndRules } from '../sentence-input-and-rules/sentence-input-and-rules'
 import { sentenceDomains } from 'common'
 import { useSingleSubmissionWrite } from './hooks/use-single-submission-write'
-import { useGetVariants } from './hooks/use-get-variants'
 
 import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 import URLS from '../../../../../../urls'
 
 import './single-submission-write.css'
 
-const SingleSubmissionWrite: React.FC = () => {
+type Props = {
+  allVariants: string[]
+}
+
+const SingleSubmissionWrite: React.FC<Props> = ({ allVariants }) => {
   const {
     handleCitationChange,
     handlePublicDomainChange,
@@ -25,15 +28,6 @@ const SingleSubmissionWrite: React.FC = () => {
     handleSubmit,
     singleSentenceSubmissionState,
   } = useSingleSubmissionWrite()
-
-  const { variants } = useGetVariants()
-
-  const variantTokens = variants ? variants.map(variant => variant.token) : []
-
-  // add all variants option to the list of variants in the dropdown
-  const allVariants = ['sentence-variant-select-all-variants'].concat(
-    variantTokens
-  )
 
   return (
     <form

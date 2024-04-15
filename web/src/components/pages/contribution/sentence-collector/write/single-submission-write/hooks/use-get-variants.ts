@@ -22,14 +22,11 @@ export const useGetVariants = () => {
   }
 
   useEffect(() => {
-    if (!variantsLoading) {
-      return
-    }
-
     getVariants()
   }, [])
 
   return {
     variants: variantsAll[locale],
+    variantsLoading,
   }
 }
