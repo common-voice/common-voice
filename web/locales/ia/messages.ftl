@@ -1847,3 +1847,8 @@ too-many-files = Troppo de files
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Nos besonia</mark><br/><mark>tu adjuta!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Il costa quasi un million de dollars per anno le allogiamento del collectiones de datos e le melioration del platteforma pro le plus que 100 communitates linguistic que conta sur illo que nos face. <strong>Si vos apprecia le datos gratuite e inclusive: dona hodie!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Usa vos CV pro</mark><br/><mark>vostre recerca?</mark>
+languages-donate-banner-cta-explanation = Common Voice es financiate per donationes e subventiones! Nos ama collaborar con academicos, recercatores de societate civil e industria. Le uso de Common Voice es gratuite, ma contribuer al platteforma e al costos de allogiamento proponente subventiones es realmente utile.
