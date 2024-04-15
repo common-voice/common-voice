@@ -23,6 +23,7 @@ export const AddSentenceRequest: AllowedSchema = {
       maxItems: 3,
       items: {
         type: 'string',
+        enum: [...sentenceDomains],
       },
       uniqueItems: true,
     },
