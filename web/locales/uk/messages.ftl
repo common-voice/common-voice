@@ -697,6 +697,9 @@ about-playbook-how-project-governance-content-5 = Цінність і визна
 about-playbook-how-project-governance-content-6 = Взаємовідповідальність.
 about-playbook-how-project-governance-content-7 = <governanceLink>Докладніше про керування</governanceLink>
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = Глосарій
@@ -796,6 +799,8 @@ subscribe = Підписатись
 get-started-speech = Початок роботи з розпізнаванням мови
 other-datasets = Інші набори голосових даних
 feedback-q = Залишити відгук
+# This indicates that there is no data to display
+no-information = Немає інформації
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ — це <docsLink>набір інструментів з відкритим кодом</docsLink> для дослідників, які розробляють найсучасніші розмовні моделі ШІ.
 resource-deepspeech-info = Рушій розпізнавання голосу з відкритим кодом Mozilla Deep Speech можна застосовувати для створення застосунків для розпізнавання мовлення. Прочитайте наш <githubLink>огляд на Github</githubLink> або приєднайтеся до <discourseLink>DeepSpeech Discourse</discourseLink>, щоб дізнатися, як розпочати роботу.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> створено для технології відкритого мовлення. Їхні проєкти включають STT та TTS на основі глибокого навчання.
@@ -1938,3 +1943,10 @@ file-invalid-type = Неприпустимий файл
 file-too-large = Файл завеликий
 file-too-small = Файл замалий
 too-many-files = Забагато файлів
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Нам потрібна</mark><br/><mark>ваша допомога!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Використовуєте резюме для</mark><br/><mark>дослідження?</mark>
