@@ -751,6 +751,8 @@ subscribe = Abonować
 get-started-speech = Prěnje kroki z rěčenskim spóznaćom
 other-datasets = Druhe hłosowe datowe sadźby
 feedback-q = Maće komentary?
+# This indicates that there is no data to display
+no-information = Žane informacije
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ je <docsLink>sadźba nastrojow wotewrjeneho žórła</docsLink> za slědźerjow, kotřiž wysokomoderne dialogowe modele kumštneje inteligency wuwiwaja.
 resource-deepspeech-info = Mašina hłosoweho spóznaća wotewrjeneho žórła Mozilla, hodźi so wužiwać, zo by nałoženja hłosoweho spóznaća wuwiwała. Čitajće naš <githubLink>přehlad Github</githubLink> abo přidružće so forumej <discourseLink>DeepSpeech Discourse</discourseLink>, zo byšće zhoniła, kak móžeće započeć.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> je za wotewrjenu rěčensku technologiju mysleny. Jich projekty SST- a TTS-systemy na zakładźe hłubokeho wuknjenja wopřijimaja.
