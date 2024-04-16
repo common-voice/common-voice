@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 
 type UseMultipleComboBoxParams = {
   items: readonly string[]
@@ -11,17 +11,20 @@ export const useMultipleComboBox = ({
 }: UseMultipleComboBoxParams) => {
   const [inputValue, setInputValue] = useState('')
 
-  const getFilteredItems = ({ inputValue }: { inputValue: string }) => {
-    return items.filter(
-      item =>
-        !selectedItems.includes(item) &&
-        item.toLowerCase().startsWith(inputValue.toLowerCase())
-    )
-  }
+  const getFilteredItems = useCallback(
+    ({ inputValue }: { inputValue: string }) => {
+      return items.filter(
+        item =>
+          !selectedItems.includes(item) &&
+          item.toLowerCase().startsWith(inputValue.toLowerCase())
+      )
+    },
+    [items, selectedItems]
+  )
 
   const multipleComboBoxItems = useMemo(
     () => getFilteredItems({ inputValue }),
-    [selectedItems, inputValue]
+    [getFilteredItems, inputValue]
   )
 
   return {

@@ -1,6 +1,7 @@
 @import url('../media.css');
 
 .multiple-combobox {
+    position: relative;
     ul {
         background: #fff;
         position: absolute;
@@ -37,7 +38,36 @@
         }
     }
 
+    .multiple-combobox-label {
+        background: var(--white);
+        color: var(--near-black);
+        font-size: var(--font-size-xs);
+        margin-inline-start: 9px;
+        padding: 0 5px;
+        position: absolute;
+        top: -8px;
+        z-index: var(--middle-z-index);
+    }
+
     input[type='text'] {
+        border: 1.6px solid #e6e4e1;
+        border-radius: 2px;
+        padding: 13px;
+        font-size: var(--font-size);
+        font-family: var(--base-font-family);
+        color: var(--black);
+        background-color: var(--white);
+        width: 100%;
+
+        &:focus {
+            border-color: var(--black);
+        }
+
+        &:disabled {
+            color: var(--warm-grey);
+            cursor: not-allowed;
+        }
+
         @media (--xs-down) {
             font-size: var(--font-size-xs);
 

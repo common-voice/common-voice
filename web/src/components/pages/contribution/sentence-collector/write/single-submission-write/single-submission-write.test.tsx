@@ -75,7 +75,9 @@ describe('Single Submission Write page', () => {
     const citationInput = screen.getByTestId('citation-input')
     const checkBox = screen.getByTestId('public-domain-checkbox')
     const submitButton = screen.getByTestId('submit-button')
-    const sentenceDomainDropdown = screen.getByTestId('sentence-domain-select')
+    const sentenceDomainDropdown = screen.getByTestId(
+      'multiple-combobox-dropdown'
+    )
 
     fireEvent.change(sentenceTextArea, {
       target: { value: 'This is a mock sentence' },

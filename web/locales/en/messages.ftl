@@ -1767,8 +1767,7 @@ single-sentence-submission = Single Sentence Submission
 bulk-sentence-submission = Bulk Sentence Submission
 single-sentence = Single Sentence
 bulk-sentences = Bulk Sentences
-sentence-domain-select =
-    .label = Sentence Domain
+sentence-domain-combobox-label = Sentence Domain
 sentence-domain-select-placeholder = Select up to three domains (optional)
 # Sentence Domain dropdown option
 agriculture = Agriculture

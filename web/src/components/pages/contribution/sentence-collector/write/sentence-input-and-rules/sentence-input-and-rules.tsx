@@ -79,10 +79,11 @@ export const SentenceInputAndRules: React.FC<Props> = ({
           <MultipleCombobox
             items={multipleComboBoxItems}
             maxNumberOfSelectedElements={3}
-            selectedItems={selectedSentenceDomains}
             inputValue={inputValue}
             setInputValue={setInputValue}
+            selectedItems={selectedSentenceDomains}
             setSelectedItems={setSelectedSentenceDomains}
+            label={l10n.getString('sentence-domain-combobox-label')}
           />
           {hasVariants && (
             <Select

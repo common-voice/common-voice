@@ -1,13 +1,10 @@
 import * as React from 'react'
 import { useCombobox, useMultipleSelection } from 'downshift'
-import { Localized, useLocalization } from '@fluent/react'
+import { useLocalization } from '@fluent/react'
 
-import { LabeledInput } from '../ui/ui'
 import { SelectedItemsList } from './selected-items-list'
 
 import './multiple-combobox.css'
-
-const Input = LabeledInput
 
 type Props = {
   items: string[]
@@ -16,6 +13,7 @@ type Props = {
   setInputValue: React.Dispatch<React.SetStateAction<string>>
   setSelectedItems: (items: string[]) => void
   inputValue: string
+  label: string
 }
 
 export const MultipleCombobox: React.FC<Props> = ({
@@ -25,6 +23,7 @@ export const MultipleCombobox: React.FC<Props> = ({
   maxNumberOfSelectedElements,
   inputValue,
   setInputValue,
+  label,
 }) => {
   const { l10n } = useLocalization()
 
@@ -48,6 +47,7 @@ export const MultipleCombobox: React.FC<Props> = ({
     isOpen,
     getMenuProps,
     getInputProps,
+    getLabelProps,
     highlightedIndex,
     getItemProps,
     openMenu,
@@ -108,21 +108,23 @@ export const MultipleCombobox: React.FC<Props> = ({
 
   return (
     <div className="multiple-combobox">
+      <span {...getLabelProps()} className="multiple-combobox-label">
+        {label}
+      </span>
       <div>
-        <Localized id="sentence-domain-select" attrs={{ label: true }}>
-          <Input
-            {...getInputProps(
-              getDropdownProps({
-                preventKeyAction: isOpen,
-                onFocus: handleFocus,
-                onClick: handleClick,
-                disabled: selectedItems.length === maxNumberOfSelectedElements,
-              })
-            )}
-            placeholder={l10n.getString('sentence-domain-select-placeholder')}
-            dataTestId="sentence-domain-select" // TODO: update this data-testid for e2e tests
-          />
-        </Localized>
+        <input
+          {...getInputProps(
+            getDropdownProps({
+              preventKeyAction: isOpen,
+              onFocus: handleFocus,
+              onClick: handleClick,
+              disabled: selectedItems.length === maxNumberOfSelectedElements,
+              'data-testid': 'multiple-combobox-dropdown',
+            })
+          )}
+          type="text"
+          placeholder={l10n.getString('sentence-domain-select-placeholder')}
+        />
       </div>
 
       <ul {...getMenuProps()} className={isOpen ? 'downshift-open' : ''}>
@@ -135,8 +137,7 @@ export const MultipleCombobox: React.FC<Props> = ({
                   : {}
               }
               key={`${item}${index}`}
-              {...getItemProps({ item, index })}
-              data-testid={item}>
+              {...getItemProps({ item, index, 'data-testid': item })}>
               {l10n.getString(item)}
             </li>
           ))}

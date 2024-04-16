@@ -103,7 +103,7 @@ export const singleSubmissionWriteReducer = (
         citation: '',
         confirmPublicDomain: false,
         sentenceDomains: [],
-        sentenceVariant: undefined,
+        sentenceVariant: '',
         error: undefined,
       }
 
