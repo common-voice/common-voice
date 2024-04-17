@@ -35,7 +35,6 @@ const insertSentenceTransaction = async (
     O.map(variant => variant.id),
     O.getOrElse(() => null)
   )
-  console.log('variantid', sentence.variant)
 
   try {
     await conn.beginTransaction()
