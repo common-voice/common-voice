@@ -19,7 +19,7 @@
             border: 1px solid var(--light-grey);
             box-shadow: 0 2px 5px 0 var(--light-grey);
             overflow: auto;
-            max-height: 500px;
+            max-height: 350px;
         }
 
         li {
@@ -89,6 +89,18 @@
         margin-bottom: 1.5rem;
         background: var(--light-grey);
         border-radius: 15rem;
+
+        p {
+            display: inline-block;
+            max-width: 150px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            @media (--xs-down) {
+                max-width: 250px;
+            }
+        }
     }
 
     .selected-item--button {

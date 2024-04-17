@@ -7,6 +7,7 @@
     height: 55px;
     display: flex;
     align-items: center;
+    border: 1.6px solid #e6e4e1;
 
     ul {
         background: #fff;

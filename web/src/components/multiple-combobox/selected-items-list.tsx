@@ -18,8 +18,8 @@ export const SelectedItemsList: React.FC<Props> = ({
   return (
     <div className="selected-items-list">
       {selectedItems.map(item => (
-        <span key={`domain-${item}`} className="selected-item">
-          {l10n.getString(item)}
+        <div key={`domain-${item}`} className="selected-item">
+          <p title={l10n.getString(item)}>{l10n.getString(item)}</p>
           <button
             className="selected-item--button"
             onClick={() => removeItem(item)}
@@ -27,7 +27,7 @@ export const SelectedItemsList: React.FC<Props> = ({
             <VisuallyHidden>Remove {l10n.getString(item)}</VisuallyHidden>
             <CloseIcon black />
           </button>
-        </span>
+        </div>
       ))}
     </div>
   )
