@@ -16,11 +16,13 @@ const db = getMySQLInstance()
 const DUPLICATE_KEY_ERR = 1062
 const BATCH_SIZE = 1000
 
-export type SaveSentence =
-  (sentenceSubmission: SentenceSubmission) => TE.TaskEither<ApplicationError, void>
+export type SaveSentence = (
+  sentenceSubmission: SentenceSubmission
+) => TE.TaskEither<ApplicationError, void>
 
-export type FindDomainIdByName =
-  (domainName: string) => TE.TaskEither<ApplicationError, O.Option<number>>
+export type FindDomainIdByName = (
+  domainName: string
+) => TE.TaskEither<ApplicationError, O.Option<number>>
 
 const insertSentenceTransaction = async (
   db: Mysql,
@@ -29,9 +31,11 @@ const insertSentenceTransaction = async (
   const sentenceId = createSentenceId(sentence.sentence, sentence.locale_id)
   const conn = await mysql2.createConnection(db.getMysqlOptions())
   const variant_id = pipe(
-    sentence.variant_id,
+    sentence.variant,
+    O.map(variant => variant.id),
     O.getOrElse(() => null)
   )
+  console.log('variantid', sentence.variant)
 
   try {
     await conn.beginTransaction()
@@ -224,8 +228,8 @@ const findSentencesForReview =
             COUNT(sentence_votes.vote) as number_of_votes
           FROM sentences
           LEFT JOIN sentence_votes ON (sentence_votes.sentence_id=sentences.id)
-          WHERE 
-            sentences.is_validated = FALSE         
+          WHERE
+            sentences.is_validated = FALSE
             AND sentences.locale_id = ?
             AND NOT EXISTS (
               SELECT 1 FROM skipped_sentences ss WHERE sentences.id = ss.sentence_id AND ss.client_id = ?
@@ -253,8 +257,8 @@ const findDomainIdByName =
         async () => {
           const [[row]] = await db.query(
             `
-          SELECT id FROM domains WHERE domain = ?
-        `,
+              SELECT id FROM domains WHERE domain = ?
+            `,
             [domainName]
           )
           return row ? O.some(row.id) : O.none

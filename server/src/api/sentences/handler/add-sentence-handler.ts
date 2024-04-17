@@ -15,17 +15,17 @@ import { StatusCodes } from 'http-status-codes'
 import { validateSentence } from '../../../core/sentences'
 import {
   findDomainIdByNameInDb,
-  findVariantIdByTokenInDb,
   saveSentenceInDb,
 } from '../../../application/sentences/repository/sentences-repository'
+import { findVariantByTagInDb } from '../../../application/sentences/repository/variant-repository'
+import { getAllLocales } from '../../../application/sentences/repository/locale-repository'
 
 export default async (req: Request, res: Response) => {
-  const { sentence, localeId, localeName, source, domains, variant } = req.body
+  const { sentence, localeName, source, domains, variant } = req.body
 
   const command: AddSentenceCommand = {
     clientId: req.client_id,
     sentence: sentence,
-    localeId: localeId,
     localeName: localeName,
     source: source,
     domains: domains,
@@ -36,7 +36,8 @@ export default async (req: Request, res: Response) => {
     AddSentenceCommandHandler,
     I.ap(validateSentence),
     I.ap(findDomainIdByNameInDb),
-    I.ap(findVariantIdByTokenInDb),
+    I.ap(findVariantByTagInDb),
+    I.ap(getAllLocales),
     I.ap(saveSentenceInDb)
   )
 
