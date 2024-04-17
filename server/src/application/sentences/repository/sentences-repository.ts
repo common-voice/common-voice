@@ -22,9 +22,6 @@ export type SaveSentence =
 export type FindDomainIdByName =
   (domainName: string) => TE.TaskEither<ApplicationError, O.Option<number>>
 
-export type FindVariantIdByToken =
-  (variantToken: string) => TE.TaskEither<ApplicationError, O.Option<number>>
-
 const insertSentenceTransaction = async (
   db: Mysql,
   sentence: SentenceSubmission
@@ -269,31 +266,8 @@ const findDomainIdByName =
           )
       )
 
-const findVariantIdByToken =
-  (db: Mysql) =>
-    (variantToken: string): TE.TaskEither<ApplicationError, O.Option<number>> =>
-      TE.tryCatch(
-        async () => {
-          const [[row]] = await db.query(
-            `
-          SELECT id FROM variants WHERE variant_token = ?
-        `,
-            [variantToken]
-          )
-          return row ? O.some(row.id) : O.none
-        },
-        (err: Error) =>
-          createSentenceRepositoryError(
-            `Error retrieving variant id for token "${variantToken}"`,
-            err
-          )
-      )
-
 export const saveSentenceInDb: SaveSentence = saveSentence(db)
 export const insertBulkSentencesIntoDb = insertBulkSentences(db)
 export const insertSentenceVoteIntoDb = insertSentenceVote(db)
 export const findSentencesForReviewInDb = findSentencesForReview(db)
-
 export const findDomainIdByNameInDb: FindDomainIdByName = findDomainIdByName(db)
-export const findVariantIdByTokenInDb: FindVariantIdByToken =
-  findVariantIdByToken(db)
