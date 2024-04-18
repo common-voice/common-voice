@@ -12,6 +12,15 @@ const mockVariants = jest.fn(() => Promise.resolve({}))
 const allVariants = ['mock-variant-1', 'mock-variant-2']
 
 jest.mock('../../../../../../hooks/store-hooks', () => ({
+  useLanguages: () => {
+    return {
+      localeNameAndIDMapping: [
+        { id: 1, name: 'mock-locale-1' },
+        { id: 2, name: 'mock-locale-2' },
+        { id: 3, name: 'mock-locale-3' },
+      ],
+    }
+  },
   useAction: () => useActionMock,
   useAPI: () => {
     return {
@@ -99,6 +108,7 @@ describe('Single Submission Write page', () => {
         domains: ['general'],
         sentence: 'This is a mock sentence',
         source: 'self',
+        localeId: 1,
         localeName: 'mock-locale-1',
       })
     })

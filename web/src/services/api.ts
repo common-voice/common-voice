@@ -542,6 +542,7 @@ export default class API {
     sentence,
     source,
     localeName,
+    localeId,
     domains,
     variant,
   }: SentenceSubmission) {
@@ -549,6 +550,7 @@ export default class API {
       domains,
       sentence,
       source,
+      localeId,
       localeName,
       ...(variant && { variant }),
     }
