@@ -18,6 +18,8 @@ banner-error-slow-1 = Beklager, Common Voice arbejder langsomt. Tak for din inte
 banner-error-slow-2 = Vi modtager meget trafik og er i øjeblikket ved at undersøge sagerne.
 banner-error-slow-link = Statusside
 error-something-went-wrong = Noget gik galt
+error-clip-upload = Upload af denne optagelse mislykkes fortsat. Vil du blive ved med at prøve?
+error-clip-upload-server = Upload af denne optagelse mislykkes ved server. Genindlæs siden eller prøv igen senere.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -220,6 +222,7 @@ zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
 zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -396,6 +399,12 @@ native-language =
 profile-form-add-accent = Tilføj ny brugerdefineret accent "{ $inputValue }"
 profile-form-submit-save = Gem
 profile-form-submit-saved = Gemt
+male_masculine = Mand / maskulin
+female_feminine = Kvinde / feminin
+intersex = Intersex
+transgender = Transkønnet
+non-binary = Ikke-binær
+do_not_wish_to_say = Ønsker ikke at oplyse
 # Gender
 other = Andet
 why-profile-title = Hvorfor oprette en profil?
@@ -414,6 +423,7 @@ why-demographic = Hvorfor er dette vigtigt?
 why-demographic-explanation-2 = Anonymiserede brugerdata som alder, køn og accent hjælper med at forbedre de lyddata, der bruges til at træne nøjagtigheden af talegenkendelses-motorer. Dit brugernavn og din mailadresse vil aldrig blive forbundet med dine indsendte data, og du kan vælge, om du vil gøre dit brugernavn offentligt eller anonymt.
 accept-privacy = Det er helt fint, at I håndterer disse oplysninger som beskrevet i Mozillas <privacyLink>privatlivspolitik</privacyLink>
 accept-privacy-title = Privatlivspolitik
+accept-privacy-and-terms = Jeg accepterer Common Voices' <termsLink>vilkår</termsLink> og <privacyLink>privatlivserklæring</privacyLink>
 login-identity = Login-identitet
 login = Log ind
 login-signup = Log ind / Opret dig
@@ -665,6 +675,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Læs mere om, 
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Hvordan er Common Voice finansieret?
 
 ## Glossary
 
@@ -732,12 +743,14 @@ datasets-positioning =
     
     På denne side finder du en oversigt over andre open source-samlinger af stemme-datasæt, og - i takt med at Common Voice vokser - en oversigt over vores udgivelser og opdateringer.
 language = Sprog
+download-dataset-header = Hent datasættet
 # File size in gigabytes
 size = Størrelse
 validated-hr-total = Validerede timer i alt
 overall-hr-total = Samlede timer i alt
 cv-license = Licens
 audio-format = Lydformat
+dataset-splits = Fordeling (alder og køn)
 number-of-voices = Antal stemmer
 splits = Fordeling
 email-to-download = Indtast mailadresse for at hente
@@ -759,6 +772,8 @@ subscribe = Abonnér
 get-started-speech = Kom godt i gang med talegenkendelse
 other-datasets = Andre stemme-datasæt
 feedback-q = Har du feedback?
+# This indicates that there is no data to display
+no-information = Ingen information
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er et <docsLink>open source-værktøjssæt</docsLink> til forskere, der udvikler avancerede samtale-AI-modeller.
 resource-deepspeech-info = Datasættet fra Common Voice supplerer Deep Speech, en open source-tjeneste til stemmegenkendelse fra Mozilla, som du kan bruge til at bygge software, der gør brug af stemmegenkendelse. Få <githubLink>overblik over projektet på Github</githubLink> eller deltag i <discourseLink>diskussionen om Deepspeech på Discourse</discourseLink> for at komme godt i gang.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> er dedikeret til åben taleteknologi. Deres projekter omfatter deep learning-baserede STT- og TTS-motorer.
@@ -779,6 +794,7 @@ close = Luk
 download = Hent
 dataset-version = Version
 clipboard-not-supported = Udklipsholder er ikke understøttet
+no-information-available = Ingen tilgængelig information
 
 ## Download Modal
 
