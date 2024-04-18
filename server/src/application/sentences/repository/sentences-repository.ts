@@ -16,13 +16,14 @@ const db = getMySQLInstance()
 const DUPLICATE_KEY_ERR = 1062
 const BATCH_SIZE = 1000
 
-export type SaveSentence = (
-  sentenceSubmission: SentenceSubmission
-) => TE.TaskEither<ApplicationError, void>
+export type SaveSentence =
+  (sentenceSubmission: SentenceSubmission) => TE.TaskEither<ApplicationError, void>
 
-export type FindDomainIdByName = (
-  domainName: string
-) => TE.TaskEither<ApplicationError, O.Option<number>>
+export type FindDomainIdByName =
+  (domainName: string) => TE.TaskEither<ApplicationError, O.Option<number>>
+
+export type FindVariantIdByToken =
+  (variantToken: string) => TE.TaskEither<ApplicationError, O.Option<number>>
 
 const insertSentenceTransaction = async (
   db: Mysql,
@@ -31,8 +32,7 @@ const insertSentenceTransaction = async (
   const sentenceId = createSentenceId(sentence.sentence, sentence.locale_id)
   const conn = await mysql2.createConnection(db.getMysqlOptions())
   const variant_id = pipe(
-    sentence.variant,
-    O.map(variant => variant.id),
+    sentence.variant_id,
     O.getOrElse(() => null)
   )
 
@@ -260,8 +260,8 @@ const findDomainIdByName =
         async () => {
           const [[row]] = await db.query(
             `
-              SELECT id FROM domains WHERE domain = ?
-            `,
+          SELECT id FROM domains WHERE domain = ?
+        `,
             [domainName]
           )
           return row ? O.some(row.id) : O.none
@@ -273,8 +273,31 @@ const findDomainIdByName =
           )
       )
 
+const findVariantIdByToken =
+  (db: Mysql) =>
+    (variantToken: string): TE.TaskEither<ApplicationError, O.Option<number>> =>
+      TE.tryCatch(
+        async () => {
+          const [[row]] = await db.query(
+            `
+          SELECT id FROM variants WHERE variant_token = ?
+        `,
+            [variantToken]
+          )
+          return row ? O.some(row.id) : O.none
+        },
+        (err: Error) =>
+          createSentenceRepositoryError(
+            `Error retrieving variant id for token "${variantToken}"`,
+            err
+          )
+      )
+
 export const saveSentenceInDb: SaveSentence = saveSentence(db)
 export const insertBulkSentencesIntoDb = insertBulkSentences(db)
 export const insertSentenceVoteIntoDb = insertSentenceVote(db)
 export const findSentencesForReviewInDb = findSentencesForReview(db)
+
 export const findDomainIdByNameInDb: FindDomainIdByName = findDomainIdByName(db)
+export const findVariantIdByTokenInDb: FindVariantIdByToken =
+  findVariantIdByToken(db)
