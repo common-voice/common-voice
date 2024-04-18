@@ -1572,11 +1572,18 @@ localization-select =
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerskaber
 partnerships-governments-header = Regeringer
+partnerships-our-partners = Vores partnere
+why-donate = Hvorfor spørger du?
 add-information-button = Tilføj information
 sentence-collection = Indsamling af sætninger
 
 ## WRITE PAGE
 
+how-to-cite = Hvordan citerer jeg?
+contact-us = Kontakt os
+add-sentence-success = 1 sætning indsamlet
+add-sentence-error = Fejl ved tilføjelse af sætning
+required-field = Udfyld venligst dette felt.
 
 ## REVIEW PAGE
 
@@ -1584,6 +1591,10 @@ sentence-collection = Indsamling af sætninger
 ## BULK SUBMISSION 
 
 select-file = Vælg fil
+select-file-mobile = Vælg fil, der skal uploades
+accepted-files = Accepterede filtyper: Kun .tsv
+maximum-file-size = Maksimal filstørrelse: 25 MB
+what-needs-to-be-in-file = Hvad skal der være i min fil?
 file-invalid-type = Ugyldig fil
 file-too-large = Filen er for stor
 file-too-small = Filen er for lille
