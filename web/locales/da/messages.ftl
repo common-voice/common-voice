@@ -720,7 +720,7 @@ license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
 data-download-singleword-title = Hent målsegmentet med enkelte ord
 data-download-singleword-callout-v2 = Dette er et brugsmønster-drevet segment, der indeholder data til understøttelse af stemmeudtalt tal og detektering af ja / nej.
-review-terms = Ved brug af Common Voice accepterer du vores <termsLink>Vilkår</termsLink> og <privacyLink>Privatlivspolitik</privacyLink>
+review-terms = Ved brug af Common Voice accepterer du vores <termsLink>vilkår</termsLink> og <privacyLink>privatlivserklæring</privacyLink>
 terms-agree = Jeg accepterer
 terms-disagree = Jeg accepterer ikke
 review-aborted = Upload afbrudt. Vil du slette dine optagelser?
@@ -795,6 +795,13 @@ download = Hent
 dataset-version = Version
 clipboard-not-supported = Udklipsholder er ikke understøttet
 no-information-available = Ingen tilgængelig information
+dataset-metadata-sex = Køn
+# dataset metadata - age of contributor
+dataset-metadata-age = Alder
+donate-modal-message = Dit datasæt downloades!
+dataset-donate-modal-heading = Vidste du…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Hvis du værdsætter åbne, inkluderende data - så donér i dag!</bold>
 
 ## Download Modal
 
@@ -892,6 +899,7 @@ action-click = Klik på
 action-tap = Tryk på
 contribute = Bidrag
 listen = Lyt
+write = Skriv
 skip = Spring over
 shortcuts = Genveje
 clips-with-count-pluralized =
@@ -937,6 +945,9 @@ listen-empty-state = Der er ikke flere stemmeoptagelser at validere på dette sp
 listen-loading-error =
     Vi kunne ikke finde nogen lydklip, som du kan lytte til.
     Prøv igen senere.
+listen-abort-title = Er du færdig med at validere optagelser?
+listen-abort-cancel = Fortsæt med at validere
+listen-abort-confirm = Afslut valideringen
 speak-empty-state = Der er ikke flere sætninger at optage på dette sprog...
 speak-empty-state-cta = Bidrag med sætninger
 speak-loading-error =
@@ -1560,6 +1571,7 @@ localization-select =
     .label = Vælg sprog/oversættelse
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerskaber
+partnerships-governments-header = Regeringer
 add-information-button = Tilføj information
 sentence-collection = Indsamling af sætninger
 
