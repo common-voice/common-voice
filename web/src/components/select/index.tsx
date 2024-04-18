@@ -58,7 +58,10 @@ export const Select: React.FC<Props> = ({
         <ChevronDown />
       </button>
 
-      <ul {...getMenuProps()} className={isOpen ? 'downshift-open' : ''}>
+      <ul
+        {...getMenuProps()}
+        className={isOpen ? 'downshift-open' : ''}
+        data-testid="select-items-list">
         {isOpen &&
           items.map((item, index) => (
             <li
@@ -68,7 +71,7 @@ export const Select: React.FC<Props> = ({
                   : {}
               }
               key={`${item}`}
-              {...getItemProps({ item, index })}>
+              {...getItemProps({ item, index, 'data-testid': item })}>
               <span>{l10n.getString(item)}</span>
             </li>
           ))}
