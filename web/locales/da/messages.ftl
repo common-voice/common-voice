@@ -52,6 +52,7 @@ cak = Kaqchikel
 ckb = Sorani
 cnh = Hakha Chin
 co = Korsikansk
+crh = Krim-tatarisk
 cs = Tjekkisk
 cv = Tjuvasjisk
 cy = Walisisk
@@ -144,6 +145,7 @@ nl = Nederlandsk
 nn-NO = Nynorsk
 nr = Sydndebele
 nso = Nordsotho
+ny = Nyanja
 nyn = Nyankole
 oc = Occitansk
 om = Oromo
@@ -165,6 +167,8 @@ sah = Yakut
 sat = Santali (Ol Chiki)
 sc = Sardisk
 scn = Siciliansk
+sco = Skotsk
+sd = Sindhi
 sdh = Sydkurdisk
 shi = Shilha
 si = Singalesisk
@@ -206,6 +210,7 @@ ve = Venda
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+wo = Wolof
 xh = Xhosa
 yi = Jiddisch
 yo = Yoruba
@@ -391,8 +396,6 @@ native-language =
 profile-form-add-accent = Tilføj ny brugerdefineret accent "{ $inputValue }"
 profile-form-submit-save = Gem
 profile-form-submit-saved = Gemt
-male = Mand
-female = Kvinde
 # Gender
 other = Andet
 why-profile-title = Hvorfor oprette en profil?
@@ -659,6 +662,9 @@ about-playbook-how-project-governance-content-4 = Fællesskabets deltagelse og b
 about-playbook-how-project-governance-content-5 = Værdi og anerkendelse.
 about-playbook-how-project-governance-content-6 = Gensidig ansvarlighed.
 about-playbook-how-project-governance-content-7 = <governanceLink>Læs mere om, hvordan vi styres</governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -1538,7 +1544,11 @@ localization-select =
     .label = Vælg sprog/oversættelse
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerskaber
+add-information-button = Tilføj information
 sentence-collection = Indsamling af sætninger
+
+## WRITE PAGE
+
 
 ## REVIEW PAGE
 
@@ -1550,3 +1560,6 @@ file-invalid-type = Ugyldig fil
 file-too-large = Filen er for stor
 file-too-small = Filen er for lille
 too-many-files = For mange filer
+
+## Donate banner
+
