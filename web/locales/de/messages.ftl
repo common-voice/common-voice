@@ -789,6 +789,8 @@ subscribe = Abonnieren
 get-started-speech = Erste Schritte mit der Spracherkennung
 other-datasets = Andere Sprachdatensätze
 feedback-q = Möchten Sie uns etwas mitteilen?
+# This indicates that there is no data to display
+no-information = Keine Informationen
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ist ein <docsLink>Open-Source-Toolkit</docsLink> für Forscher, die hochmoderne dialogorientierte KI-Modelle entwickeln.
 resource-deepspeech-info = Mozillas Open-Source-Spracherkennungs-Engine Deep Speech, kann zur Entwicklung von Spracherkennungsanwendungen verwendet werden. Lesen Sie unsere <githubLink>Github-Übersicht</githubLink> oder treten Sie dem <discourseLink>DeepSpeech-Forum auf Discourse</discourseLink> bei, um zu erfahren, wie die ersten Schritte ausssehen
 resource-coqui-info = <coquiLink>Coqui</coquiLink> widmet sich der offenen Sprachtechnologie. Ihre Projekte umfassen Deep-Learning-basierte STT- und TTS-Engines.
@@ -1835,6 +1837,7 @@ single-sentence = Einzelner Satz
 bulk-sentences = Mehrere Sätze
 sentence-domain-select =
     .label = Thema des Satzes
+sentence-domain-select-placeholder = Wählen Sie bis zu drei Domains aus
 # Sentence Domain dropdown option
 agriculture = Landwirtschaft
 # Sentence Domain dropdown option

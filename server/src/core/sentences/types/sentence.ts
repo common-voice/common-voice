@@ -4,3 +4,5 @@ export type UnvalidatedSentence = {
   source: string
   localeId: number
 }
+
+export type ValidatedSentence = string

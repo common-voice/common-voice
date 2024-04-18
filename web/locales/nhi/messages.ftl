@@ -252,7 +252,7 @@ wall-of-text-more-desktop = Axan uilis titetlacolis motlahtol ica titechpalehuis
 wall-of-text-first = Tlahtol yeh milauac, tlahtol yeh maseual. Ica non tipactoqueh osecchihchiu se tipostlahtol ma quicuican totiposuan. para secchihuas senimilis tlahtol, aquihquen quichihchiuan quicueh miaqueh tlanauatil tlahtol.
 wall-of-text-second = Miaqueh tlanauatilmeh tlen mocueh por uehueyeh tiquimeh amo tlapohtoc para nochten masehualmeh. Secnimile nin quitzacuilia totlanimilil. Ica non osectitlan Common Voice, se tiquitl para ticquinpaleuisqueh mocchihchiuacan queh ixmatilis tlahtol mo i tlapohtoc uan mo cahsicah nochten
 show-wall-of-text = ximomachti cachi
-help-us-title = xitechpalehui matiquitacah tlahtol
+help-us-title = Xitechpalehui matiquitacah tlahtol
 help-us-explain = Xicpacho mo pehua, xicaqui uan techiluis: ¿Okihtohke cuali tlahtol tlen achto?
 no-clips-to-validate = Nismati amo catqui tlahtolahcoctoc para seccaquis ica nin maseualtlahtol. Xitechpaleui tictemitisqueh lista tlahtolahcoctosqueh sansique axan.
 vote-yes = quema
@@ -261,7 +261,7 @@ toggle-play-tooltip = Xicpacho { shortcut-play-toggle } para secxotlaltis  mo pe
 speak-subtitle = Xitetlaocoli motlahtol
 speak-paragraph = tlahtolahcucui tlahtulmeh para tic chihuas tu base de datos tlapuhtoc; sansiqueh quihtusque nuyuhqui nicancah ahuiltil
 speak-goal-text = tlahcuilol tlahtolahcuctoc
-listen-subtitle = xitechpalehui maticsilicah tlahtulmeh
+listen-subtitle = Xitechpaleui maticsilicah tlahtulmeh
 listen-paragraph = Sequinsilis tlahtolmeh tetlaocolil noyiuhqui simi moniqui para in tiquitl de Common Voice. Xicaqui uan xitechpaleui ma ticchiuacan tla nonotztlahtol tlapohtok uan tlen cachi cuahcual.
 voices-online = Nauatlahtoane tlen axan cateh en línea
 todays-progress = nimilis de axan
@@ -364,8 +364,6 @@ hidden = mutlatihtoc
 visible = mutztoc
 profile-form-submit-save = ahcocui
 profile-form-submit-saved = ahcuctoc
-male = tlacatl
-female = sihuatl
 # Gender
 other = Occe
 why-profile-title = ¿queye se perfil?
@@ -376,7 +374,7 @@ edit-profile = ticpatlas mu nexicah
 profile-create-success = yumuchiuh, ¡nexicah yumuchiuh!
 profile-close = Xitlatzacua
 profile-explanation = xiquita tlen yuticchiuh ica se perfil huan xicpalehui tutlahcuiloltlahtol muican cachicuali
-thanks-for-account = tlasohcamatictzin yutitechilhue mu cuenta, axan ticchihchihuasqueh mu perfil
+thanks-for-account = tlasohcamatictzin yotitechilue mocuenta, axan ticchihchiuasqueh moperfil
 why-demographic = queye nicanca simi importante
 why-demographic-explanation-2 = tlanahuatil ichtaca den usuarios, quemeh xihuitl, genero huan queni tlahtuhuah, techpalehuia matiquinyectlalihtacah tlanahuatil tlahtol tlenmucuitoqueh, icasecmunextilis cuali quenin teixmateh tlahtol. mu tuca de usuario huan correo electronico amayic mu nilusqueh ica mu tlanahuatil titlan, huan huilis tiquihtos tla ticniqui mu tocayo mumunexti o mui ichtaca
 accept-privacy-title = tlanahuatil ichtaca
@@ -389,7 +387,7 @@ skip-submission-note = tlahcuilol: quipia de ticpihpinas tlatitlahtos o ticcaqui
 off = amocualtia
 on = cualtia
 help-accent = ticniqui nimitspalehuis ican acento?
-help-accent-explanation = mu acento yen quemen tiquimihtuhua tlahtulmeh. huilis isqui uhcon porque campa utichanchiuh, huili titlahtuhua ocsiqui tlahtol o ica ocse tlanimilil, huilis titechmactis ocsiqui tlanahuatil tlen ticmachilis techcualtias nica
+help-accent-explanation = moacento yen quemen tiquimihtoa tlahtolmeh. Uilis isqui ohcon porque campa otichanchiuh, uili titlahtoa ocsiqui tlahtol o ica ocse tlanimilil, uilis titechmactis ocsiqui tlanahuatil tlen ticmachilis techcualtias nica
 help-variants = ticniqui nimitspalehuis ican variantes?
 
 ## Profile - Email
@@ -543,6 +541,9 @@ about-playbook-how-project-governance-content-4 = tlapalehuani masehualnichicol 
 about-playbook-how-project-governance-content-5 = quexquich huan teixpantilis
 about-playbook-how-project-governance-content-6 = pohual sansicah
 about-playbook-how-project-governance-content-7 = <governanceLink> ximomachti cachi quemeh quenin tech ixpantiah</governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -1271,3 +1272,15 @@ second-cta-subtitle-text = ican se ixnexica huilis tic chihuas se nimilis de mu 
 already-have-an-account = yitic pia se cuenta? <login> pehualti sesion</login>
 create-profile-button = xicchihua se ixnexicah
 sentence-collection = tlahcuilol pihpintoc
+
+## WRITE PAGE
+
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
+
+## Donate banner
+
