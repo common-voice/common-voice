@@ -206,6 +206,7 @@ const toUnvalidatedSentence = ([unvalidatedSentenceRows]: [
     sentenceId: row.id,
     source: row.source,
     localeId: row.locale_id,
+    variantTag: O.fromNullable(row.variant_token),
   }))
 
 const findSentencesForReview =
@@ -223,12 +224,15 @@ const findSentencesForReview =
             sentences.text,
             sentences.source,
             sentences.locale_id,
+            variants.variant_token,
             SUM(sentence_votes.vote) as number_of_approving_votes,
             COUNT(sentence_votes.vote) as number_of_votes
           FROM sentences
           LEFT JOIN sentence_votes ON (sentence_votes.sentence_id=sentences.id)
-          WHERE
-            sentences.is_validated = FALSE
+          LEFT JOIN sentence_metadata ON (sentence_metadata.sentence_id=sentences.id)
+          LEFT JOIN variants ON (variants.id=sentence_metadata.variant_id)
+          WHERE 
+            sentences.is_validated = FALSE         
             AND sentences.locale_id = ?
             AND NOT EXISTS (
               SELECT 1 FROM skipped_sentences ss WHERE sentences.id = ss.sentence_id AND ss.client_id = ?
