@@ -440,7 +440,7 @@ accept-privacy = زه ستاسو سره د دې مالوماتو په سمبال
 accept-privacy-title = د پټتیا تګلاره
 accept-privacy-and-terms = زه د عام غږ د<termsLink> شرائط</termsLink> او <privacyLink>د محرمیت خبرتیا</privacyLink> سره موافق یم
 login-identity = د ننوتنې پېژند
-login = لاګ ان
+login = ننوتل
 login-signup = ننوتنه/ نوملیکنه
 edit = سمون
 email-subscriptions = د برېښنالیک ګډونونه
@@ -1783,7 +1783,7 @@ finance = مالیه
 # Sentence Domain dropdown option
 food_service_retail = خواړه، خدمت او پرچون
 # Sentence Domain dropdown option
-general = جنرال
+general = عمومي معلومات
 # Sentence Domain dropdown option
 healthcare = روغتیایی پاملرنه
 # Sentence Domain dropdown option
