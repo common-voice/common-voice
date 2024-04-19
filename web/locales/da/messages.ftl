@@ -900,6 +900,7 @@ action-tap = Tryk på
 contribute = Bidrag
 listen = Lyt
 write = Skriv
+review = Verificer
 skip = Spring over
 shortcuts = Genveje
 clips-with-count-pluralized =
