@@ -4,7 +4,6 @@ import { pipe } from 'fp-ts/lib/function'
 import { ValidateSentence, ValidatedSentence } from '../../../../core/sentences'
 import {
   FindDomainIdByName,
-  FindVariantIdByToken,
   SaveSentence,
 } from '../../repository/sentences-repository'
 import { AddSentenceCommand } from './command/add-sentence-command'
@@ -12,6 +11,7 @@ import { either as E, taskEither as TE } from 'fp-ts'
 import { ApplicationError } from '../../../types/error'
 import { createSentenceValidationError } from '../../../helper/error-helper'
 import { SentenceSubmission } from '../../../types/sentence-submission'
+import { FindVariantByTag } from '../../repository/variant-repository'
 
 const toValidatedSentence =
   (validateSentence: ValidateSentence) =>
@@ -44,7 +44,7 @@ const toDomainIds =
 export const AddSentenceCommandHandler =
   (validateSentence: ValidateSentence) =>
   (findDomainIdByName: FindDomainIdByName) =>
-  (findVariantIdByToken: FindVariantIdByToken) =>
+  (findVariantByToken: FindVariantByTag) =>
   (saveSentence: SaveSentence) =>
   (command: AddSentenceCommand): TE.TaskEither<ApplicationError, void> =>
     pipe(
@@ -63,7 +63,11 @@ export const AddSentenceCommandHandler =
       TE.bind('variantId', () =>
         pipe(
           command.variant,
-          O.match(() => TE.of(O.none), findVariantIdByToken)
+          O.match(
+            () => TE.right(O.none),
+            variant => findVariantByToken(variant)
+          ),
+          TE.map(O.map(variant => variant.id))
         )
       ),
       TE.map(

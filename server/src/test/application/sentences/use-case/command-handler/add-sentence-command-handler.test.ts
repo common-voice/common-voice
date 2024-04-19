@@ -6,11 +6,11 @@ import { AddSentenceCommandHandler } from '../../../../../application/sentences/
 import { ERR_TOO_LONG, ValidateSentence } from '../../../../../core/sentences'
 import {
   FindDomainIdByName,
-  FindVariantIdByToken,
   SaveSentence,
 } from '../../../../../application/sentences/repository/sentences-repository'
 import { AddSentenceCommand } from '../../../../../application/sentences/use-case/command-handler/command/add-sentence-command'
 import { SentenceSubmission } from '../../../../../application/types/sentence-submission'
+import { FindVariantByTag } from '../../../../../application/sentences/repository/variant-repository'
 
 describe('Add sentence command handler', () => {
   it('should save the sentence in the repository', async () => {
@@ -20,8 +20,10 @@ describe('Add sentence command handler', () => {
     const findDomainIdByNameMock: FindDomainIdByName = jest.fn(() =>
       TE.right(O.some(1))
     )
-    const findVariantIdByTokenMock: FindVariantIdByToken = jest.fn(() =>
-      TE.right(O.some(1))
+    const findVariantByTokenMock: FindVariantByTag = jest.fn(() =>
+      TE.right(
+        O.some({ id: 1, name: 'Central', tag: 'ca-central', locale: 'ca' })
+      )
     )
     const saveSentenceMock: SaveSentence = jest.fn(() => TE.right(constVoid()))
 
@@ -48,7 +50,7 @@ describe('Add sentence command handler', () => {
       AddSentenceCommandHandler,
       I.ap(validateSentenceMock),
       I.ap(findDomainIdByNameMock),
-      I.ap(findVariantIdByTokenMock),
+      I.ap(findVariantByTokenMock),
       I.ap(saveSentenceMock)
     )
 
@@ -68,8 +70,10 @@ describe('Add sentence command handler', () => {
     const findDomainIdByNameMock: FindDomainIdByName = jest.fn(() =>
       TE.right(O.some(1))
     )
-    const findVariantIdByTokenMock: FindVariantIdByToken = jest.fn(() =>
-      TE.right(O.some(1))
+    const findVariantByTokenMock: FindVariantByTag = jest.fn(() =>
+      TE.right(
+        O.some({ id: 1, name: 'Central', tag: 'ca-central', locale: 'ca' })
+      )
     )
     const saveSentenceMock: SaveSentence = jest.fn(() => TE.right(constVoid()))
 
@@ -87,7 +91,7 @@ describe('Add sentence command handler', () => {
       AddSentenceCommandHandler,
       I.ap(validateSentenceMock),
       I.ap(findDomainIdByNameMock),
-      I.ap(findVariantIdByTokenMock),
+      I.ap(findVariantByTokenMock),
       I.ap(saveSentenceMock)
     )
 
