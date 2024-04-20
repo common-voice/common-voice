@@ -466,7 +466,87 @@ change-email-setings = Amolva Noçineşi tude "getzopxupe"şi doloxe e-posta-tkv
 
 ## FAQ
 
+faq-title = Ordo ordo na iǩitxaman ǩitxalape
+faq-what-cv-q = Common Voice mu oren?
+faq-what-cv-a = Nena oxotzonuşi teknolojik, makena oxmaruşi k̆aidepe dido k̆ap̆et̆i oktiraps ala atzi na ren sistemepe paxali do mencubaleri renan.Common Voiceik, nena oxotzonuşi teknolojepes k̆ataik daha k̆ai do k̆olai nunç̆işas ya do Mozillak na k̆idu ar sistemi ren. Common Voicei na ixarsuven nenapeşi ar çkinaşt̆abu ren do k̆ata nenaten
+faq-what-cv-a-2 = Nena oçinuşi teǩnoloji, makinepe-şkala oǩomç̌ǩeşu şeǩli-çkuni cicişen gokturams. Ana, hatzi na oren sistemepe paxali renan do doxmeli mulikiyet̆is renan. Mozilla Common Voice, nena oçinuşi teknolojipe iri şeni daha ǩai do daha ipelen xalişe moyonu na unon ar insiyatifi oren. Common Voice, ar nenas xomate na itsadebun aplikasyonepe manişa do ǩolai oslop̌u şeni iris furset̆i meçams do xarsuveri xomapeşi kianuri ar database oren. Dido na ixmaren nenape xvala var, mtsika ǩoçik na isinapams nenapeşen-ti xoma evulepe p̌ǩorobumt. Çeşit̆li xomaşi datamarç̌ape-ti gamaşkvinu, iris apelasen do ğanci meçasen.
+faq-why-important-q = Ham muşeni becit̆i oren?
+faq-why-important-a = Osinapu artiǩati ognapuşi eni vorsi gza oren. Xomaşi teknolojipek ham ǩolaoba okunepe do mobili t̆ilifonepe-çkunis momiyonaman. Ham dulyaşi matzupxepek xomate na içalişams dijitali asistanepe do tzori oras na içalişams tercumanepe getzopxas minonan. Ama hus na diç̌irs datate doxmeli mulkiyetis oren do dido paxali orenan. Common Voiceşi datamarç̌apete aşkva ağanoba ixenasen. ǩat̆ais muşi nenas xomaşi teknoloji oxmaru şeni na dvaç̌inan mutxa meçamu mepşunumt. Nena oçinu daha globaluri oxenu şeni dido na isinapinen nenape şuǩuri mtsika msinapu na uyonun ç̌ut̆a nenape şeni xomaşi evulepe p̌ǩorobumt. Tevuli tevuli datamarç̌a gamaşkvinu matzopxepes, girişimcipes do mtel xomaşi ǩatapes ham eksuği mutepek opşu şeni menç̌eli meçasen.
+faq-how-get-q = Common Voice datamarç̌aşa muç̌o malasen?
+faq-how-get-a = Common Voiceşi Datamarç̌a, <licenseLink>CC0</licenseLink> lisansişi tude geiğmalinen do <datasetLink>Datamarç̌a butka-çkunişen</datasetLink> idziren. Ayni butkas jur-sum majura geneli  geneliş odzirus gontzkeri datamarç̌a-ti gegağenan.
+faq-when-release2-q = Majura nenapeşi Common Voice datamarç̌a mundes gamiğaten?
+faq-why-mission-q = Common Voice, Mozilla misyonişi muşeni ar notzile ren?
+faq-why-mission-a =
+    "Mozilla, mzesa k̆atai şeni gontzk̆imeri t̆as do k̆ataik 
+    ixmaras ya do dik̆idu.Aya oxvenu şeni Common Voicei
+     steri projepeten mzesa magetzopxepe omencelu diç̆irs.
+    Xomaşi teknolojepe niche ap̆lik̆asyonepe mik̆ilan do 
+    irdanşk̆ule, aya teknolojepe mtelli maxmarepes ar
+     uxezmat̆u diç̆irs ya visimadept. Aya, xomaşi teknolojepe
+    ikipt̆aşi do tsadup̆t̆aşi daha dido nenapes memxacu do
+     çkva do çkva dialektepe do demografiğepe osimadu 
+    diç̆irs tkvala ren. Common Voicei k̆atta k̆oçis na axmarinen, 
+    ar goncameri otişe ren do mtel kianas na ren Mozillaşi k̆atapek çkini projepes ixmanan."
+faq-what-cv-and-deepspeech-q = Common Voice do Deep Speechşi oşkenas mu farki oren?
+faq-what-cv-and-deepspeech-a =
+    "Common Voice datamarçak, Mozillaşi goncameri
+    xoma oxotzonuşi mat̆ori Deep Speechis mxuci meçaps.
+    Deep Speecişi maartani versiyoni 2017 Tzilvas gamaxtu
+    do emuşen akole p̆ant̆a imralen. Common Voice datamarç̆aten, 
+    aya goncameri xoma oxotzonuşi teknolojişa k̆ataişi nuç̆işu beciti 
+    ren ya do visimadept. (........) "
+faq-is-goal-assistant-q = Common Voiceşi hedefi ar nenaşi asist̆ani otzopxu oren-i?
+faq-is-goal-assistant-a =
+    "Common Voice datamarç̆a mot yeçkindu? Kianas sotxani ort̆as,
+    k̆atais xoma oxotzonu, mağarğale oxotzonu var na xoma 
+    oxmarinu na diç̆irs ar ap̆likasyoni getzipxus nuşvelas ya do.
+    Ar xoma-memxace, datamarç̆a oxmaruten na gaxvenenanpeşi
+    xvala ari ren.
+    "
+faq-do-want-native-q = Ma svaluri na va ren ar msinapu vore do aksanite visinapam, colo-ti xoma-çkimi ginonan-i?
+faq-do-want-native-a =
+    "Ho, mtini tkvani xoma minonan! Common Voiceişi noğirepeşi
+    ari, xoma oxotzonuşi sistemepe k̆atai şeni k̆ai içalişas ya do, 
+    na iqven k̆onari çkva do çkva aksanepe ok̆orobu ren. Aya, 
+    nana-nenamutepeşi Lazuri na varen k̆oçepeşi xoma ok̆orobu dido 
+    beciti ren tkvala ren."
+faq-why-different-speakers-q = Muşeni k̆ata nena şeni ek̆o çkva do çkva mağarğale unon?
+faq-why-my-lang-q = Muşeni nena-çkimi henuzǩi var eǩint̆alinu?
+faq-why-my-lang-a =
+    "Common Voicei dido k̆oçoloni ar tzk̆artoli ren do mtelli 
+    nenape memxacepeşi gedvala ren. Nenatkvani gedvit 
+    dido minonan! <languageRequestLink>Dilinizi eklemek için sorun.</languageRequestLink>"
+faq-what-quality-q = Data setis na ixmaren ar xomaşi ǩlibi şeni na diç̌irs xomaşi ǩaliteşi seviye mu oren?
+faq-why-10k-hours-q = Xomaşi oxotzonu şeni ǩat̆a nena şeni tzorineri 10,000 zit̆a hedefi geidu doren?
+faq-why-10k-hours-a =
+    "Aya aşo xomaşen ç̆ara na ixvenen ar sistemi oxvenu şeni
+    na diç̆irs saat̆i ren."
+faq-how-calc-hours-q = Common Voicek saatepe muç̌o xesap̌ums?
+faq-how-calc-hours-a =
+    "Saat̆i oxesap̆u şeni k̆ata doloç̆areri xomaşi gindzenoba ptsadupt,
+    ok̆ule iya, mtelli nenapes na ixvenu mtelli doloç̆arapeşi k̆orotsxala k̆ala vomralapt."
 faq-where-src-from-2-q = Monduni ç'ara solen mulun?
+faq-where-src-from-2-a =
+    "Tzk̆artoli ç̆araçkini, mtini na mixarsuvupanpeşen do <italic>It’s a Wonderful Life</italic>
+    steri goncameri filimi senaryopeşen na guşitsxunu ok̆oğarğalapeten dik̆idu."
+faq-why-not-ask-read-q = Muşeni k̆oçepes çkva do çkva nenapeşi sup̆arape do vikipediaşi ç̆arape ik̆itxit ya varutzumet?
+faq-why-not-ask-read-a =
+    "Common Voice datambağu na maxvenenan k̆onari, k̆olai 
+    na ixmarinen ar mutxani gaxadu şeni, xvala Goncameri 
+    (CCO) lisansişi doloxe na ren tzk̆ariştoli ç̆arapes nek̆na
+     gomtzk̆at ya ptkvit. CCO standarti oxmaru, tzk̆ariştoli ç̆arape
+    odziramu do ok̆orobu dido menceli gaxadeps, ala, na
+     gamulun xomaşi datape,oxmaruşi ugyok̆ordinu var na 
+    Mozillaşi izini ugutzamalu, k̆atais axmarinen. E do, nenamarç̆a
+    magorepe, universitepe, ağani na ik̆iden şirketepe, hukyumetepe, acamepe do k̆atai şeni
+    , n maxvenena k̆onari pelaperi oxvenu minonan."
+faq-why-account-q = Muşeni ar xesabis doloviç̌arare?
+faq-is-account-public-q = Xesabişi çkinapape-çkimi iris gontzumeri oren-i?
+faq-how-privacy-q = Xoma-nişi na uxarsuvu şurepeşi anonimoba do dompuloba muç̌o sturesarumt?
+faq-what-determine-identity-q = Common Voiceşi datamarç̌as na oren msinapaceşi "noçine çinapa" mu itkven?
+faq-what-is-cv = Common Voice mu oren?
+faq-using-cv = Common Voiceşi Oxmaru
+faq-description = Common Voicei, mtini ǩoçepeşi oğarğalu makenapes oguran ya do na Mozillak na ǩidu ar dulya ren.
 
 ## ABOUT US
 
