@@ -316,9 +316,19 @@ email-subscription-title-new = Comman Voiceşi xaberi bultenepes, gonoşinupes d
 benefits = Pelapape
 rich-data = Momincğonit datapeşi daha ǩai oxenu şeni bazi anonimi demografiǩuri datape momçit. Mteli demografiǩuri datape ǩamus p̌i gontzǩaşe noçinepe gotziğit.
 improve-audio = Profilişi çkinapape, osinapu çinapa tzorinoba oslop̌us na ixmaren xomaşi datape oǩaimams.
+keep-track = Megzalu do mezuma-tkvani arişen dido nenaşen otzǩedirt
+compare-progress = Megzalu-tkvani dunyaşi genelis majura memşvelupe-şkala muç̌o na oxitzonen dzirit.
+view-goals = Personaluri do proje hedefepe-tkvani-şkala megzalu-tkvani dzirit.
+join-newsletter = Ginonan-na proje-çkunişi oağanu do ağani çkinapape şeni e-postaşi list̆es eǩomant̆alit.
 
 ## What's public
 
+whats-public = Umumi mu oren?
+email-not-public = E-posta-tkvani xalǩik var dziraseren.
+recordings-and-locale-public = Muǩu doloç̌ara do nam nenapes nuşvelit umimi iyasen (iris adzirasen).
+username-optin-public = Oxmaru coxo-tkvani umimi vana anonimi gaxenenan.
+demographic-deidentified-clarity-2 = Opsiyoneli na moncğonit demografiǩuri datape (tzana, cinsiyet̆i, nena do aksani) p̌ot̆e profili-tkvanis xalǩi şeni gontzǩeri var iyasen. Hantepe, data ǩumuli-şkala na oren xesabi-tkvani-ǩala var oǩimbinasen. Personaluri nenaşi ǩlibepe, daha tzori analizi şeni demografiǩuri datape-ǩala oǩimbinasen - Evuli, ar goǩitxaces ar slop̌ua modeli meçkineri ar demografiǩuri segmentis meğiru agoren.
+username-email-not-demographic = Xmaroceşi Coxo do e-posta-tkvani gamişku datape-şkala var oǩimç̌ǩeşasen.
 
 ## Speak & Listen Shortcuts
 
@@ -346,12 +356,25 @@ shortcut-record-toggle = d
 shortcut-record-toggle-label = Doloç̌ari/ Dodgiti
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Nena gori
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Hatzineri doloç̌ara ip̌t̆ali doyi
 shortcut-submit = Goikti
 shortcut-submit-label = K'ilibi mendancğoni
+request-language-text = Common Voices daha nena-tkvani var dziremt-i?
+request-language-button = Ar Nena Gori
 
 ## ProjectStatus
 
+status-title = Projeşi geneluri xali: naǩu na igzalit dzirit.
 status-contribute = Nena-tkvanis numxacit.
+status-hours =
+    { $hours ->
+        [one] Hamoraşani ar tane kontroli ixenu
+       *[other] Hamoraşani ar tane kontroli ixenu
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Uǩaçxeni hedefepe: { $goal }
 english = İngilizuri
 
 ## ProfileForm
@@ -369,37 +392,77 @@ profile-form-variant =
 profile-form-variant-default-value = Aina varianti goşatsxuneri va oren.
 profile-form-accent =
     .label = Aksani
+profile-form-custom-accent-help-text =
+    .label = Aksani tkvani muç̌o oçinapatet̆u?
+profile-form-custom-accent-placeholder-2 = Aksani tkvani oçinapus komoǩiç̌it
 profile-form-age =
     .label = Tzana
 profile-form-gender-2 =
     .label = Cinsiyet'i
+leaderboard-visibility =
+    .label = Leaderboard-işi tzirama
 hidden = T'k'obaşe
+visible = Native Language
+profile-form-add-accent = Ağani ar aksani "{ $inputValue }" keǩumtsxvi
 profile-form-submit-save = Şinaxi
 profile-form-submit-saved = Kodoliç'aru
+male_masculine = Mamuli
+female_feminine = Daduli
+intersex = Majura
 # Gender
 other = Majura
+why-profile-title = Muşeni ar profili?
+why-profile-text = Ti-tkvani daha vorsi domoçinapat-na, Common Voices na oncğonit datapeşi tzorinoba gorapa motorepeşi oxotzonu şeni daha vorsi iyaseren.
+dashboard = Tzirama Paneli
+build-profile = Profili Getzopxi
+avatar = Avatari
+goals = Hedefepe
 settings = Getzopxi
 edit-profile = Profili getzopxi
+profile-create-success = Dobeceri, profili diç̌ǩadu (kogeitzopxu)
 profile-close = Genk'oli
+profile-explanation = Ar profilite gamayonu-tkvanis nontxozit do xomaşi datape daha tzori oyapus memişvelit.
+thanks-for-account = Xesabi-tkvani na otzuranit şeni ntsaşa extit, hatzi (hus) profili-tkvani gep̌tzopxat.
+why-demographic = Ham muşeni becit̆i oren?
+why-demographic-explanation-2 = Tzana, cinsiyet̆i do aksani steri anonimi xeneri xmaraceşi datape, osinapu çinobua motorepeşi tzorinoba oslop̌u şeni na ixmaren xoma datapeşi oǩaimus nuşvelams. Xmarace coxo-tkvani do e-posta adresi-tkvani na moncğonit datape-ǩala p̌ot̆e var oǩimç̌ǩeşinasen. Xmarace coxo-tkvani ǩamus gontzǩeri vana ononimuri iyasen-i goşogatsxunanen.
+accept-privacy = Mozillaşi <privacyLink>t̆obaşoba Polotiǩas</privacyLink> ignapinu steri ham dataşi tkvani oxmaru momarçilen.
 accept-privacy-title = T'obaşobaşi Polotik'a
+accept-privacy-and-terms = Common Voiceşi <termsLink>Şart̆epe</termsLink> do <privacyLink>t̆obaşoba Gognapa</privacyLink> elemivelams.
 login-identity = Amaxtimui oçinoba
 login = Amaxti
 login-signup = Amaxti/ Doliç'ari
 edit = Sturesari
 email-subscriptions = E-mailişi abonobape
 download-profile = Datape-çkimi Kogeiği
+contribution-experience = Meşveluşi Getsadu
+skip-submission-feedback = Oncğonuşi ǩap̌ula Gnapas Moyuǩap̌i
+skip-submission-description = Ment̆ala oncoğonuşi oras, "mencğoni"s not̆ank̆aşk̆ule, K̆ap̆ula Gnapa moyuk̆ap̆inasinon. Ment̆ala, na mulun 5 doloç̆ara var na otzuranuşi setiten naqonasinon.
+skip-submission-note = Noti: Meşveluşi çeşit̆i gokturu şeni İsinapi do İşǩini (İuci/ İsimini)-şi doloxe goşuğaten.
+off = Genǩoleri
+on = Gontzǩumeri
 help-accent = Aksani şeni meşvelu gorum-i?
+help-accent-explanation = Aksanitkvani zit̆ape muç̆o na tkumet iya tkvala ren. Na skidurt sva, na ğarğalapt majura nenape do çkva do çkva  mutxanepeten gitzipxen.Hak, diç̆irs ya na isimadept mtelli mutxani gigadvenan.
 help-variants = Variantepe şeni meşvelu gorum-i?
+help-variants-explanation = Variantepe nenaşi meçkineri ar k̆ata ren. Meçkineri ar svas var na ar ok̆obğalas na skidunanpek na  uk̆uixmarnanpe steri...Yomi, antepes dialekti itkven.
 
 ## Profile - Email
 
 browse-file-title = Ar resimişi dosya kogedvit
+browse-file = Dolotiri do dolodvi var na mendatzk̆edi
 connect-gravatar = Gravatarite Nik'ori
 gravatar_not_found = Emaili şeni Gravatari var İdziru
 file_too_large = Goşatsxuneri dosya opşa didi ren
+avatar-uploaded = Avatari keiğu
+max-file-size = { $kb }kb max
+remove-avatar = Avatari moseli
 
 ## Profile - Email
 
+manage-subscriptions = Abonobape okti
+manage-email-subscriptions = E posta abonobape okti
+email-already-used = Ham e-post̆a adresi zat̆i farǩli ar xesap̌is ixmaren.
+add-language = Nena Ekumtsxvi
+change-email-setings = Amolva Noçineşi tude "getzopxupe"şi doloxe e-posta-tkvani gokturit.
 
 ## FAQ
 
