@@ -606,18 +606,29 @@ about-playbook-what-is-language = Common Voices nena mu oren?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Nena muşho eǩevunt̆alare?
+about-playbook-how-add-language-translating-heading = Siteşi tercume
+about-playbook-how-add-language-collecting-sentences-heading = Cumlepe oǩorobu
 
 ## How does localization work
 
+about-playbook-how-localize = Siteşi lokaloba muç̌ote içalişams?
+about-playbook-how-localize-content-4 = %75 oranişa inç̌elasi siye gamaşkvinoni iyasen.
+about-playbook-how-localize-content-5 = Meşvelu şeni video gamognaponi-çkunis otzǩedit.
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Cumlepe muç̌o eǩevuç̌arare?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Mağali ǩalitete ar xoma ǩlibi muç̌o dolovoç̌arare?
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Vaǩape
+about-playbook-how-grow-language-content-4 = Sosyaluri Medya
+about-playbook-how-grow-language-content-6 = Ortağepe do Mosape
 
 ## How to validate
 
@@ -628,28 +639,61 @@ about-playbook-how-validate = Nena doloç'areri geptzora vana mot geptzora muç'
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Projeşi ǩarari muç̌o eiç̌open?
+about-playbook-how-project-governance-content-2 = Maktaloba-çkuni tudeni temelepeşi jin geidgu doren.
+about-playbook-how-project-governance-content-3 = t̆obaşoba, oceroba, şefafoba
+about-playbook-how-project-governance-content-4 = ǩomunitişi eǩont̆aloba do ǩarari meçamu.
+about-playbook-how-project-governance-content-5 = Ğirapa do oçinapa
+about-playbook-how-project-governance-content-6 = Artiǩatis xesap̌i meçamu.
+about-playbook-how-project-governance-content-7 = <governanceLink>Muç̌o na moktaman ognapu şeni dido-muşi iǩitxit </governanceLink>
 
 ## How is Common Voice funded
 
 
 ## Glossary
 
+glossary = Nenapuna
+localization = Lokaloba
+sst = Osinapu ç̌aras meonktu (STT)
+de-identified = Oçinoba-muşi dimpulu/ var içinapu
 
 ## Error pages
 
+error-code = Xeta { $code }
 
 ## Data
 
+data-download-button = Common Voiceşi Datape kogeiğit
+data-download-yes = Ho
+data-download-deny = Var
+data-download-license = Lisans: <licenseLink>CC-0</licenseLink>
+data-get-started = <speechBlogLink>Osinapu Oçinobas Kogyoç̌ǩit</speechBlogLink>
+data-other-title = Majura xomaşi datamarç̌ape
+data-other-goto = { $isname }'şe idi
 data-other-download = Meçama Geiği
+data-bundle-button = Datamarç̌aşi Paket̆i kogeiğit
+data-bundle-description = Comman Voicesi data març̌ape xvala var jindoleni majura xoma datapeti.
 release-version = Versioni
 dataset-date = Tarixi
 license = Lisansi: <licenseLink>{ $license }</licenseLink>
+license-mixed = Oǩont̆aleri
+data-download-singleword-title = Ar Zit̆a Noğire Boligina Kogeiğit
 terms-agree = Ok'ovuvelut
 terms-disagree = Var Ok'ovuvelut
+review-aborted = Eğmalu ip̌t̆ali dixenu. Doloç̌arupe-tkvani gejilu ginonan-i?
+review-submit-title = Tsadi do Moncğoni
+review-submit-msg = Doloç̌aritşeni ntsaşa extit! <lineBreak></lineBreak> Hatzi klibepe tkvani tudendo otzedit do oncğonit.
+review-recording = Meotzǩedi
+review-rerecord = Meoç̌ari
+review-cancel = Oncğonu ip̌t̆ali doyi
+review-keep-recordings = Doloç̌arape şinaxit
+review-delete-recordings = Doloç̌arape-çkimi gejilit (cejirit)
 
 ## Datasets Page
 
+datasets-heading = Datamarç̌ape
 language = Nena
+download-dataset-header = datamarç̌a Kogeiğit
 cv-license = Lisansi
 audio-format = Xomaşi Format'i
 
