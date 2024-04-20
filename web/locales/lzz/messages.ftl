@@ -7,6 +7,7 @@ return-to-cv = Comman Voiceşa Goikti.
 email-input =
     .label = Emaili
 submit-form-action = Mendancğoni
+loading = Eyulun
 email-opt-in-info = Comman Voiceşi noğire goşinupe, ixenu dulyapeşi meoğanupe do anbaişi bultenepe steri e-postape eç̌opumu minon.
 email-opt-in-info-title = Comman Voiceşi maili listhes eǩomanthalit.
 email-opt-in-info-sub-with-challenge = Comman Voiceşi omondunu do noğire goşinupe, ixenu dulyapeşi meoğanupe do anbaişi bultenepe steri e-post̆ape eç̌opit.
@@ -314,6 +315,7 @@ email-subscription-title-new = Comman Voiceşi xaberi bultenepes, gonoşinupes d
 
 benefits = Pelapape
 rich-data = Momincğonit datapeşi daha ǩai oxenu şeni bazi anonimi demografiǩuri datape momçit. Mteli demografiǩuri datape ǩamus p̌i gontzǩaşe noçinepe gotziğit.
+improve-audio = Profilişi çkinapape, osinapu çinapa tzorinoba oslop̌us na ixmaren xomaşi datape oǩaimams.
 
 ## What's public
 
@@ -436,6 +438,9 @@ about-playbook-how-validate = Nena doloç'areri geptzora vana mot geptzora muç'
 
 
 ## How are decisions made
+
+
+## How is Common Voice funded
 
 
 ## Glossary
@@ -588,4 +593,7 @@ shortcuts = Gzamk'ule
 
 
 ## BULK SUBMISSION 
+
+
+## Donate banner
 
