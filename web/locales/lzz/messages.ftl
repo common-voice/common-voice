@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Ho, ma e-post̆a momicğonit. Comman Voice Proje mu oren oçkinnu minon.
+yes-receive-emails = Ho, e-post̆a momicğonit. Common Voice Proje mu oren oçkinnu minon.
 stayintouch = Mozillas xomaşi teknolojiş gomti ar ǩata geptzopxumt. Meyondğanupete, ağani data mondunepete oǩomçinu do data muç̌o ixmart çkva dido oçkinu minonan/ bgorumt.
 privacy-info = Çkinapape tkvani becit̆obate na psturesaratereşi nena dogidumt. Daha fazlamuşi <privacyLink>T'obaşobaşi Tkvalas<privacyLink>gaǩitxenan.
 return-to-cv = Comman Voiceşa Goikti.
