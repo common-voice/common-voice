@@ -1085,7 +1085,7 @@ sc-howto-findpd-subtitle = Hantepe (hani) internet̆is gorit
 
 ## MY SENTENCES
 
-sc-my-title = Cumlepe-çkimiCumlepe-çkimi
+sc-my-title = Cumlepe-çkimi
 sc-my-loading = Cumlepe tkvani eiğmalinen...
 sc-my-no-sentences = Aina cumle var idziru!
 # Variables:
