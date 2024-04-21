@@ -711,6 +711,7 @@ audio-format = Xomaşi Format'i
 
 ## Request Language Pages
 
+request-language-google-recaptcha-required = Meyonu ginonan-na reCAPTCHA diç̌irs
 
 ## Languages Overview
 
