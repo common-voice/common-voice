@@ -763,6 +763,7 @@ request-language-form-email =
     .label = E-mail adresi-skani
 request-language-form-info =
     .label = Nena şeni çkinapa
+request-language-form-info-explanation = Giçkinan ǩonari (gişǩuran şuǩuri) nena şeni çkinapa eǩudvit. Hani (hantepe) eǩogadvenan:
 request-language-form-info-explanation-list-1 = Nena-skanişi coxo/yoxo
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeLink> igiçkin-na
 request-language-form-info-explanation-list-3 = Nena-tkvani daha ǩai ognapus meşvelu şeni websitepeşi linki
@@ -814,6 +815,10 @@ record-error-too-quiet = Doloç̌ara dido misa ort̆u.
 record-cancel = Meyo-doloç̌aru ip̌t̆aki doyi
 record-instruction = { $actionType }><recordIcon></recordIcon> uǩaçxe cumle mağali xemate iǩitxit
 record-stop-instruction = { $actionType }><stopIcon></stopIcon> eiçorasis
+record-three-more-instruction = Sum tane dosǩidu
+record-again-instruction = Great!<recordIcon></recordIcon> Uǩaçxeni ǩilibi-tkvani doloç̌arit
+record-again-instruction2 = Nayoni, xolo doloç̌ar <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Eçouri!
 review-tooltip = Hakolen ulurt̆aşani ǩilibepes ar çkva otzǩedit do xolo doloç̌arit
 share-clip = ǩilibi-tkvani gurtit
 share-common-voice = Common Voive gurtit
@@ -825,21 +830,89 @@ record-abort-text = Hatzi kogamaxtit-na elaxtimu tkvani gondinateren.
 record-abort-submit = K'ilibi mendancğoniǩilibi mendancğoni
 record-abort-continue = Doloç̌aru doçodini
 record-abort-delete = ǩlibepeşen Gamaxti § Gejili (Cejiri)
+listen-instruction = { $actionType }><playIcon></playIcon> cumle tzori iǩitxesi?
+listen-again-instruction = Dido ǩai dulya gamiğit !<playIcon></playIcon> Xadziri iyasi xolo geitsadit.
+listen-3rd-time-instruction = 2 melu, nayoni! <playIcon></playIcon>
+listen-empty-state = ǩlibepe-çkuni diçonu doren, butka meoğanit vana uǩaçxeşe xolo geitsadit.
+speak-empty-state = Ham nenas doliç̌arasen cumle var madzires.
+speak-empty-state-cta = Cumlepe şeni eǩuşvelit
+record-button-label = Nena-skani doloç̌ari
+share-title-new = Daha dido xoma odzirus <bold>memişvelit</bold>
+keep-track-profile = Ar profilite ogzalu-tkvani nayonit
+login-to-get-started = Geç̌ǩapu (ceç̌apu) şeni amaxtit vana doliç̌arit
+target-segment-first-card = Maarani hedefişi segmentis numxacamt.
+target-segment-generic-card = Hedef segmentis numxacamt.
+target-segment-add-voice = Nena-tkvani keǩunt̆alit
+target-segment-learn-more = Daha fazla gaçkinas
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Xomaşi ǩoleǩsioni
+contribute-sentence-collection-nav-header = Cumleşi ǩoleǩsiyoniCumleşi ǩoleǩsiyoni
 
 ## Reporting
 
+report = Lapori
+report-title = Lapori Oncğoni
+report-ask = Ham cumle şeni muperi sixintipe ntzorumt?
+report-offensive-language = Peat̆i zit̆a
+report-offensive-language-detail = Cumle tkvani antzalaburi do agresifi oren.
+report-grammar-or-spelling = Nenaçkina/ ç̌ara xeta
+report-grammar-or-spelling-detail = Cumles grameri vana oç̌aruşi xeta oren.
+report-different-language = Farǩli nena
+report-different-language-detail = Ma na visinapamşe farǩli nenate iç̌aru doren.
+report-difficult-pronounce = Ozit̆u muşi çetini oren.
+report-difficult-pronounce-detail = Okitxu do otku muşi çetini zit̆ape ren doloxe muşis.
+report-offensive-speech = Agresifi osinapu
+report-offensive-speech-detail = Klibis antzxalaburi do agresifi zit̆ape orenan.
+report-other-comment =
+    .placeholder = Mesinapu
+success = Gecginoba
+continue = Golvayoni
+report-success = Lapori zade vorsi mendaxtu
 
 ## Goals
 
+streaks = Golağarape
 
 ## Dashboard
 
+your-languages = Nenape-tkvani
+toward-next-goal = Uǩaçxeni hedefi ǩale
+goal-reached = Hedefişe mendilu
+clips-you-recorded = Doloç̌arit Klibepe
+clips-you-validated = Otzuranit Klibepe
+todays-recorded-progress = Kaydedilen kliplerde bugünün Common Voice ilerlemesi
+todays-validated-progress = Kliplerde bugünkü Common Voice ilerlemesi doğrulandı
+stats = İstatistikler
+awards = Ödüller
+you = Si
+everyone = İri
+contribution-activity = Meşveluşi Aktivite
+top-contributors = Eni dido na numxacupe
+recorded-clips = Doliç̌aru ǩlibepe
+validated-clips = t̆uraneri ǩlibepe
+total-approved = Mteli Ditzuranu
+overall-accuracy = Geneli tzuranoba
+show-ranking = Gesvaru-çkimi motzirit
 
 ## Custom Goals
 
+get-started-goals = Hedefepes gyoç̌ǩit
+goal-type = Muperi hedefi getzopxu ginonan?
+both-speak-and-listen = Juri aroğorda
+both-speak-and-listen-long = Juri-ti (isinapi do işǩini)
+daily-goal = Ndğaluri Hedefi
+weekly-goal = Xafteri Hedefi
+easy-difficulty = ǩolai
+average-difficulty = Oşkena
+difficult-difficulty = Zori
+pro-difficulty = Profosyoneli
+lose-goal-progress-warning = Hedefi tkvani sturesarit do na giğunan elaxtima tkvani doloç̌arit.
+want-to-continue = Meyonu ginonan-i?
+finish-editing = İpti osturesru oçodinu ginonan-i?
+lose-changes-warning = Hatzi kogamaxtit-na, osturesarupe tkvani gogindunanen
+build-custom-goal = Doxmeli hedefi getzopxit
 
 ## Profile Delete
 
