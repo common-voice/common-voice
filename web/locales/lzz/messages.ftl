@@ -19,7 +19,7 @@ banner-error-slow-2 = Opşa trafiği ep̌ç̌opumt do hus problemepe goviǩitxam
 banner-error-slow-link = Butkaşi Xali
 error-something-went-wrong = Mixarsuvit, mutxanepe gemapaşes
 error-clip-upload = Ham ǩilibi var eiğmalinen, xolo geitsadinas-i?
-error-clip-upload-server = Ham ǩilibi var eiğmalinen, xolo geitsadinas-i?
+error-clip-upload-server = { "" }
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -967,6 +967,12 @@ download-recordings-title = Doloç̌arape
 download-recordings-info = Doloxe-muşi MP3-epeşi cumlepe renan, oxadziru-muşik amtsika ora gotzamiğanen
 download-recordings-size = Tipiǩuri megabayti
 download-size = Boyut̆i
+download-selected = Goşitsxunu
+download-start = Profilişi datape kogeiği
+download-request = Doloç̌aru gori
+download-requests = Atxenuri doloç̌arerepe geğmaluşi gorapa
+download-request-button = KogeiğiKogeiği
+download-request-archive-single = Doloxemuşi tudenepe na oren ar ZIP dosya
 
 ## Landing
 
