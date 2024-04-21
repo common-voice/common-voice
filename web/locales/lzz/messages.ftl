@@ -973,27 +973,68 @@ download-request = Doloç̌aru gori
 download-requests = Atxenuri doloç̌arerepe geğmaluşi gorapa
 download-request-button = KogeiğiKogeiği
 download-request-archive-single = Doloxemuşi tudenepe na oren ar ZIP dosya
+download-request-modal-title = Linkepe kogeiği
+download-request-modal-description = ZIP dosyape na geiğaten linkepe hak oren.
+download-request-link-text = Zip #{ $offset } / { $total }
+download-request-metadata-link = Cumleşi ç̌ara
 
 ## Landing
 
+welcome-staff = { $company } personelişe ǩaite moxtit!
+login-company = { $company } e-posta adresite Amaxtit / Doliç̌arit
+read-more-about = Çkunişeni butkaşe dido-muşi iǩitxit
 
 ## DemoLayout
 
+demo-welcome = Common Voice'şa ǩaite moxtit
 
 ## Demo Datasets
 
+card-button-next = Uǩaçxeni
+card-button-back = ǩap̌ula ǩele
+demo-language-select-label = Nenapes otzǩedi
+demo-eofy-header = 2019 Tzana Eçourişi Gamamşkumale
+demo-eofy-sub_header = Xomaşi Datamarç̌a, Geğmalu şeni xadziri oren
+demo-account = Xesap̌i
 
 ## Demo Account
 
+demo-account-enter-email =
+    .label = Doloç̌aruşi linki oncğonu şeni e-posta amaxtit
+demo-account-sign-up = Doloç̌aruşi linki oncğoni
 
 ## Demo Contribute
 
+demo-listen-subtitle = Eǩoǩatus xadziri ore-i?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-criteria-nav = ǩriterepe
+contribution-criteria-link = Meşveluşi kriterepe oxotzonit
+contribution-criteria-page-title = Meşveluşi kriterepe
+contribution-misreadings-title = Yanlişi oǩitxupe
+contribution-misreadings-description-extended-list-4 = Doloç̌aru manişa meǩvatute eçouri zit̆aşi çodina ...
+contribution-misreadings-description-extended-list-5 = Ar zit̆a oǩitxu şeni jur-sum fara getsadu.
+contribution-misreadings-example-1-title = Triyasişi divi dinazorepe.
+contribution-misreadings-example-6-explanation = [“çku” iyasen]
+contribution-misreadings-example-7-title = ǩave eç̌opumu şeni gale gamavulurt.
+contribution-misreadings-example-7-explanation = [Orijinali ç̌aras 'a' va ren]
+contribution-misreadings-example-8-title = mtuti p̌ut̆uci manişa kogolaxtu.
+contribution-misreadings-example-8-explanation = [Var eluvelun kontenti]
+contribution-varying-pronunciations-title = Goimturu otkupe
+contribution-varying-pronunciations-example-1-title = Tis kudi gyutut̆u.
+contribution-varying-pronunciations-example-2-title = Xe keǩozdu.
+contribution-background-noise-title = ǩap̌ulani nağarya
+contribution-background-noise-example-2-explanation = [ç̌araşi ar notzile var diguren]
+contribution-background-voices-title = ǩap̌ulani xomape
+contribution-volume-title = Hacimi
+contribution-reader-effects-title = Maǩitxeşi Efektepe
+contribution-just-unsure-title = Vorsi var giçkinan-i?
+see-more = <chevron></chevron> Daha fazlamuşi dzirit
+see-less = <chevron></chevron>Daha mtsikamuşi otziri
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1002,39 +1043,108 @@ download-request-archive-single = Doloxemuşi tudenepe na oren ar ZIP dosya
 
 ## HEADER/FOOTER
 
+sc-header-home = Oxori
+sc-header-add = Eǩont̆alu/ Eǩodvalu
+sc-header-review = Meotzǩedi
+sc-header-rejected = Gokteri Cumlepe
+sc-header-my = Cumlepe-çkimi
+sc-header-statistics = İstatistiǩa
+sc-header-profile = ProfiliProfili
+sc-footer-discourse = Tkvala
+sc-footer-report-bugs = Xet̆ape Milaporit
+sc-footer-translate = Ham butka golakti
+sc-footer-report-copyright = Telifişi xarǩi milaporit
+sc-footer-privacy = t̆obaşobat̆obaşoba
+sc-footer-terms = Şart̆epeŞart̆epe
+sc-footer-cookies = ǩaǩapeǩaǩape
+sc-login-signup-button = Amaxti/ Doliç̌ari
+sc-logout-button = Gamaxti
 
 ## HOME
 
+sc-home-title = Common Voiceşi Cumle Mǩorobus ǩaite Moxtit
+sc-home-collect-title = Cumlepe ǩorobi
+sc-home-review-title = Cumlepes ar daha otzǩedi
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-title = Muç̌o
+sc-howto-addlang-title = İçalişinasen nenape eǩumtsxvit
+sc-howto-addsen-title = Ağani cumlepe eǩumtsxvit.
+sc-howto-review-title = Cumlepes tsadi
+sc-howto-review-subtitle = Cumlepeşi tudeni kriterepes na eluvelun vorsi ognit.
+sc-howto-review-criteria-1 = Cumlepe tzori oç̌aru diç̌irs.
+sc-howto-review-criteria-2 = Cumle grameruri tzori ort̆asen.
+sc-howto-review-criteria-3 = Cumlepe osinaponi ort̆asen.
+sc-howto-findpd-title = ǩamuşi Mondunis na oren cumlepe odziru
+sc-howto-findpd-subtitle = Hantepe (hani) internet̆is gorit
 
 ## MY SENTENCES
 
+sc-my-title = Cumlepe-çkimiCumlepe-çkimi
+sc-my-loading = Cumlepe tkvani eiğmalinen...
+sc-my-no-sentences = Aina cumle var idziru!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Oncğonu: { $batchID }
+sc-my-delete = Goşitsxonu cumlepe gejili
+sc-my-deleting = Goşitsxonu cumlepe geijilen...
+sc-my-err-failed-delete = Cumlepe var geijilu... Ar daha kogeitsadit!
 
 ## REJECTED
 
+sc-rejected-title = Gokteri CumlepeGokteri Cumlepe
+sc-rejected-loading = Redi na ixenu cumlepe eiğmalinen...
+sc-rejected-err-fetching = Cumlepe tkvani moiğmalet̆uşa xeta gamaxtu. Ar daha kogeitsadit.
+sc-rejected-none-found = Redi na ixenu cumlepe var idziru!
 
 ## STATS
 
+sc-stats-title = İstatistiǩaİstatistiǩa
+sc-stats-updating = İndğaluren...
 
 ## ADD
 
+sc-submit-err-select-lang = Ar nena goşuğit.
+sc-submit-err-add-sentences = Cumlepe eǩudvit.
+sc-submit-err-add-source = Ar cireǩi eǩudvit.
+sc-submit-err-confirm-pd = Cumlepe ǩamuşi mali na oren oxotzonit
+sc-submit-prompt =
+    .message = Cumlepe var incğonu, xolo gamaxtaten-i?
+sc-submit-title = Cumle eǩudvi
+sc-submit-select-language =
+    .labelText = Nena goşuği
+sc-submit-ph-one-per-line =
+    .placeholder = ǩat̆a satiris ar cumle
+sc-submit-button =
+    .submitText = Oncğonu
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Nena var eǩimtsxu
+sc-add-lang-sec-label = Meşvelu na ginonan nena eǩumtsxvit
+sc-add-lang-sec-button = Nena EkumtsxviNena Ekumtsxvi
+sc-add-err-unexpected = Serverişe var nişonen cuğap̌i goiktinu
+sc-add-err-submission = Oncğonu xeta
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = Cumlepe var incğonu, xolo gamaxtaten-i?Cumlepe var incğonu, xolo gamaxtaten-i?
+sc-confirm-sentences-title = Ağani cumle getzurani
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = MteliMteli
+sc-lang-info-title-personal = Şurineburi
 
 ## LOGIN
 
+sc-login-err-failed = Amolva var it̆işu.
+sc-login-err-try-again = Ar daha citsadit.
 
 ## PROFILE
 
@@ -1050,12 +1160,44 @@ download-request-archive-single = Doloxemuşi tudenepe na oren ar ZIP dosya
 
 # [/SentenceCollector]
 
+citation =
+    .label = Eşaç̌opu
+reviewing-sentences-explanation-1 = Cumle jini ǩriteri-ǩala oǩuvelams na "Ho" butonis gyobazgit.
 
 ## WRITE PAGE
 
+sentence =
+    .label = Cumle
+sentence-input-value = ǩamuşi mali na ren cumle-tkvani hak ç̌arit
+citation-input-value = Cumle-tkvanişi cireǩi (ǩaynaği)
+citation =
+    .label = Eşaç̌opu
+new-sentence-rule-1 = <noCopyright>Telifişi xarǩi va ren</noCopyright>ozdapa (<cc0>cc-0</cc0>)
+new-sentence-rule-3 = Tzori nenaçkina ixmarit
+new-sentence-rule-4 = Tzori oç̌aru do ot̆imbu işaret̆epe ixmarit
+new-sentence-rule-5 = ǩoretsxa do doxmeli ǩarakteri va oren
+new-sentence-rule-6 = Galeni bonca va oren
+new-sentence-rule-7 = Eluvelun eşaç̌opu keǩunt̆ali
+new-sentence-rule-8 = İdeali-muşi natureli do msinapu (cumle oǩitxu ǩolai iyasen)
+how-to-cite = Muç̌o eşomaç̌opasen?
+how-to-cite-explanation-bold = Ar URL linkite vana dulyaşi coxote elişinit.
+guidelines = Oktalupe
+contact-us = Çkuni-ǩala ǩontaǩt̆i dodvit
+add-sentence-success = 1 cumle diǩorobu
+add-sentence-error = Cumle eǩidvet̆uşani xeta gamaxtu
+required-field = Ham svani opşit.
 
 ## REVIEW PAGE
 
+sc-review-rules-title = Cumle ǩuralepes eluvelun-i?
+sc-review-empty-state = Hatzi ham nenas itsadasen cumle va ren.
+report-sc-different-language = Farǩli nena
+report-sc-different-language-detail = Votzǩedi nenaşen çkva nenate iç̌aru.
+sentences-fetch-error = Cumlepe eiç̌opet̆uşa ar xeta gamaxtu.
+review-error = Ham cumle itsadet̆uşani ar xeta gamaxtu.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Didi a mutxape gokturamt.
+sc-redirect-page-subtitle-2 = nan
 
 ## BULK SUBMISSION 
 
