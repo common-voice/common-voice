@@ -1127,14 +1127,14 @@ sc-submit-button =
 
 sc-add-lang-could-not-add = Nena var eǩimtsxu
 sc-add-lang-sec-label = Meşvelu na ginonan nena eǩumtsxvit
-sc-add-lang-sec-button = Nena EkumtsxviNena Ekumtsxvi
+sc-add-lang-sec-button = Nena Ekumtsxvi
 sc-add-err-unexpected = Serverişe var nişonen cuğap̌i goiktinu
 sc-add-err-submission = Oncğonu xeta
 
 ## ADD SENTENCES CONFIRMATION
 
 sc-confirm-are-you-sure =
-    .message = Cumlepe var incğonu, xolo gamaxtaten-i?Cumlepe var incğonu, xolo gamaxtaten-i?
+    .message = Cumlepe var incğonu, xolo gamaxtaten-i?
 sc-confirm-sentences-title = Ağani cumle getzurani
 
 ## LANGUAGE INFO
@@ -1163,23 +1163,23 @@ sc-criteria-modal = ⓘ Getsaduşi Kriterepe
 sc-criteria-title = Getsaduşi Kriterepe
 sc-criteria-make-sure = Cumlepeşi tudeni kriterepes na eluvelun vorsi ognit.
 sc-criteria-item-1 = Cumlepe tzori oç̌aru diç̌irs.
-sc-criteria-item-2 = Cumle grameruri tzori ort̆asen.Cumle grameruri tzori ort̆asen.
-sc-criteria-item-3 = Cumlepe osinaponi ort̆asen.Cumlepe osinaponi ort̆asen.
+sc-criteria-item-2 = Cumle grameruri tzori ort̆asen
+sc-criteria-item-3 = Cumlepe osinaponi ort̆asen.
 
 ## REVIEW
 
 sc-review-title = Cumlepes tsadiCumlepes tsadi
 sc-review-loading = Cumlepe eiğmalinen...
 sc-review-form-button-reject = Reddi oxenu
-sc-review-form-button-skip = Moyoǩap̌iMoyoǩap̌i
+sc-review-form-button-skip = Moyoǩap̌i
 sc-review-form-button-approve = Otzuranu
 sc-review-form-button-submit =
     .submitText = Elaxtimu doçodinit.
-sc-review-link = MeotzǩediMeotzǩedi
+sc-review-link = Meotzǩedi
 
 ## SETTINGS
 
-sc-settings-title = GetzopxiGetzopxi
+sc-settings-title = Getzopxi
 sc-validation-no-numbers = Cumleşi doloxe reǩami var ort̆asen
 sc-validation-no-symbols = Cumleşi doloxe semboli var ort̆asen
 sc-validation-no-abbreviations = Cumlepes domǩulape var ort̆asen
@@ -1207,23 +1207,23 @@ create-profile-button = Profili getzopxi
 img-alt-success-checkmark = ot̆işu onayişi ğara
 # GUIDELINES PAGE
 guidelines-header = Meşveluşi ǩuralepe
-voice-collection = Xomaşi ǩoleǩsioniXomaşi ǩoleǩsioni
+voice-collection = Xomaşi ǩoleǩsioni
 sentence-collection = Cumleşi ǩoleǩsiyoni
-varying-pronunciations = Goimturu otkupeGoimturu otkupe
-misreadings = Yanlişi oǩitxupeYanlişi oǩitxupe
+varying-pronunciations = Goimturu otkupe
+misreadings = Yanlişi oǩitxupe
 background-noise = ǩap̌ulani nağarya
 background-voices = ǩap̌ulani xomape
-volume = HacimiHacimi
-reader-effects = Maǩitxeşi EfektepeMaǩitxeşi Efektepe
-just-unsure = Vorsi var giçkinan-i?Vorsi var giçkinan-i?
+volume = Hacimi
+reader-effects = Maǩitxeşi Efektepe
+just-unsure = Vorsi var giçkinan-i?
 example = Evuli
 varying-pronunciations-example = Rota var içkinen.
-varying-pronunciations-tip-1 = [ǩanadaşi İngilizurik "rota" zit̆a "rowt" ya do datkven.]
+varying-pronunciations-tip-1 = [ǩanadaşi İngilizurik "rota" zit̆a "rowt" ya do datkven.
 varying-pronunciations-tip-2 = Britişuri İngilizuris "cici" axenen
 misreadings-explanation-2 = Dido gontaxileri xeta hantepe renan:
 misreadings-explanation-4 = Zit̆a eçouris "s" eǩsuği oren.
-misreadings-explanation-6 = Doloç̌aru manişa meǩvatute eçouri zit̆aşi çodina ...Doloç̌aru manişa meǩvatute eçouri zit̆aşi çodina ...
-misreadings-explanation-7 = Ar zit̆a oǩitxu şeni jur-sum fara getsadu.Ar zit̆a oǩitxu şeni jur-sum fara getsadu.
+misreadings-explanation-6 = Doloç̌aru manişa meǩvatute eçouri zit̆aşi çodina ...
+misreadings-explanation-7 = Ar zit̆a oǩitxu şeni jur-sum fara getsadu.
 misreadings-example-2 = ǩave eç̌opumu şeni gale gamaptaten.
 misreadings-example-3 = ǩave eç̌opumu şeni gale gamavulurt
 misreadings-example-4 = mtuti p̌ut̆uci manişa kogolaxtu.
