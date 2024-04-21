@@ -2,7 +2,7 @@
 
 yes-receive-emails = Ho, e-post̆a momicğonit. Common Voice Proje mu oren oçkinnu minon.
 stayintouch = Mozillas xomaşi teknolojiş gomti ar ǩata geptzopxumt. Meyondğanupete, ağani data mondunepete oǩomçinu do data muç̌o ixmart çkva dido oçkinu minonan/ bgorumt.
-privacy-info = Çkinapape tkvani becit̆obate na psturesaratereşi nena dogidumt. Daha fazlamuşi <privacyLink>T'obaşobaşi Tkvalas<privacyLink>gaǩitxenan.
+privacy-info = Çkinapepe tkvani mç
 return-to-cv = Common Voiceşa Goikti
 email-input =
     .label = Emaili
