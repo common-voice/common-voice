@@ -692,7 +692,7 @@ license-mixed = Oǩont̆aleri
 data-download-singleword-title = Ar Zit̆a Noğire Boligina Kogeiğit
 review-terms = Ağani nena şeni iǩitxi
 terms-agree = Oǩovuvelut
-terms-disagree = Var Ok'ovuvelut
+terms-disagree = { "" }
 review-aborted = Eğmalu ip̌t̆ali dixenu. Doloç̌arupe-tkvani gejilu ginonan-i?
 review-submit-title = Tsadi do Moncğoni
 review-submit-msg = Doloç̌aritşeni ntsaşa extit! <lineBreak></lineBreak> Hatzi klibepe tkvani tudendo otzedit do oncğonit.
@@ -718,7 +718,7 @@ cv-license = Lisansi
 audio-format = Xomaşi Format̆i
 number-of-voices = Xomaşi ǩoretsxa
 splits = Boginape
-email-to-download = Native Language
+email-to-download = { "" }
 why-email = Amolva var it̆işu.
 confirm-size = Goan Konkanuri
 size-gigabyte = Didi Biritanya
@@ -1104,7 +1104,7 @@ sc-rejected-none-found = Redi na ixenu cumlepe var idziru!
 
 ## STATS
 
-sc-stats-title = İstatistiǩaİstatistiǩa
+sc-stats-title = İstatistiǩa
 sc-stats-updating = İndğaluren...
 
 ## ADD
@@ -1139,7 +1139,7 @@ sc-confirm-sentences-title = Ağani cumle getzurani
 
 ## LANGUAGE INFO
 
-sc-lang-info-title-total = MteliMteli
+sc-lang-info-title-total = Mteli
 sc-lang-info-title-personal = Şurineburi
 
 ## LOGIN
@@ -1211,7 +1211,7 @@ voice-collection = Xomaşi ǩoleǩsioniXomaşi ǩoleǩsioni
 sentence-collection = Cumleşi ǩoleǩsiyoni
 varying-pronunciations = Goimturu otkupeGoimturu otkupe
 misreadings = Yanlişi oǩitxupeYanlişi oǩitxupe
-background-noise = ǩap̌ulani nağaryaǩap̌ulani nağarya
+background-noise = ǩap̌ulani nağarya
 background-voices = ǩap̌ulani xomape
 volume = HacimiHacimi
 reader-effects = Maǩitxeşi EfektepeMaǩitxeşi Efektepe
