@@ -658,6 +658,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Muç̌o na mok
 glossary = Nenapuna
 localization = Lokaloba
 localization-explanation = Hantepe (hani) internet̆is gorit
+sentence-collection = Cumleşi ǩoleǩsiyoni
 sentence-collection-explanation = Eğmaleri ǩlibepe
 hours-recorded-explanation = Tzuraneri saatişi ǩoroba
 hours-validated-explanation = Nenape çkuni:
@@ -1148,20 +1149,110 @@ sc-login-err-try-again = Ar daha citsadit.
 
 ## PROFILE
 
+sc-personal-err-remove = Nena var moiselinu
+sc-personal-your-languages = Nenape çkuni:
+sc-personal-remove-button = moselu
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } tkva eǩudvit
+sc-personal-not-added = Daha aina nena var eǩudvit
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Getsaduşi Kriterepe
+sc-criteria-title = Getsaduşi Kriterepe
+sc-criteria-make-sure = Cumlepeşi tudeni kriterepes na eluvelun vorsi ognit.
+sc-criteria-item-1 = Cumlepe tzori oç̌aru diç̌irs.Cumlepe tzori oç̌aru diç̌irs.
+sc-criteria-item-2 = Cumle grameruri tzori ort̆asen.Cumle grameruri tzori ort̆asen.
+sc-criteria-item-3 = Cumlepe osinaponi ort̆asen.Cumlepe osinaponi ort̆asen.
 
 ## REVIEW
 
+sc-review-title = Cumlepes tsadiCumlepes tsadi
+sc-review-loading = Cumlepe eiğmalinen...
+sc-review-form-button-reject = Reddi oxenu
+sc-review-form-button-skip = Moyoǩap̌iMoyoǩap̌i
+sc-review-form-button-approve = Otzuranu
+sc-review-form-button-submit =
+    .submitText = Elaxtimu doçodinit.
+sc-review-link = MeotzǩediMeotzǩedi
 
 ## SETTINGS
 
+sc-settings-title = GetzopxiGetzopxi
+sc-validation-no-numbers = Cumleşi doloxe reǩami var ort̆asen
+sc-validation-no-symbols = Cumleşi doloxe semboli var ort̆asen
+sc-validation-no-abbreviations = Cumlepes domǩulape var ort̆asen
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Nena/ svamuşi goşuğit
+# PARTNERSHIPS PAGE
+partnerships-header = ortağepe
+partnerships-get-in-touch = Kontakti miğut̆an
+partnerships-become-a-partner = Common Voiceşi ortaği iyit
+partnerships-foundations-header = Temelepe
+partnerships-governments-header = Hukyumet̆epe
+partnerships-our-partners = Çkuni ortağepe
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Xoma ǩlibepe-tkvani mixarsuvit şeni ntsaşa extit!
+why-donate = Muşeni iǩitxam?
+add-information-button = Çkinapa eǩudvi
+continue-speaking-button = Var,  ntsaşa exti, osinapus nayoni
+thanks-for-voice-toast = Xoma çkinapape-tkvani şeni ntsaşa extit
+thanks-for-voice-toast-error = Xoma çkinapa-tkvani incğonet̆uşa xeta iyu
+create-profile-button = Profili getzopxi
+# IMAGE TAGS
+img-alt-success-checkmark = ot̆işu onayişi ğara
+# GUIDELINES PAGE
+guidelines-header = Meşveluşi ǩuralepe
+voice-collection = Xomaşi ǩoleǩsioniXomaşi ǩoleǩsioni
+sentence-collection = Cumleşi ǩoleǩsiyoni
+varying-pronunciations = Goimturu otkupeGoimturu otkupe
+misreadings = Yanlişi oǩitxupeYanlişi oǩitxupe
+background-noise = ǩap̌ulani nağaryaǩap̌ulani nağarya
+background-voices = ǩap̌ulani xomape
+volume = HacimiHacimi
+reader-effects = Maǩitxeşi EfektepeMaǩitxeşi Efektepe
+just-unsure = Vorsi var giçkinan-i?Vorsi var giçkinan-i?
+example = Evuli
+varying-pronunciations-example = Rota var içkinen.
+varying-pronunciations-tip-1 = [ǩanadaşi İngilizurik "rota" zit̆a "rowt" ya do datkven.]
+varying-pronunciations-tip-2 = Britişuri İngilizuris "cici" axenen
+misreadings-explanation-2 = Dido gontaxileri xeta hantepe renan:
+misreadings-explanation-4 = Zit̆a eçouris "s" eǩsuği oren.
+misreadings-explanation-6 = Doloç̌aru manişa meǩvatute eçouri zit̆aşi çodina ...Doloç̌aru manişa meǩvatute eçouri zit̆aşi çodina ...
+misreadings-explanation-7 = Ar zit̆a oǩitxu şeni jur-sum fara getsadu.Ar zit̆a oǩitxu şeni jur-sum fara getsadu.
+misreadings-example-2 = ǩave eç̌opumu şeni gale gamaptaten.
+misreadings-example-3 = ǩave eç̌opumu şeni gale gamavulurt
+misreadings-example-4 = mtuti p̌ut̆uci manişa kogolaxtu.mtuti p̌ut̆uci manişa kogolaxtu.
+misreadings-tip-1 = [“çku” iyasen]
+misreadings-tip-2 = [Orijinali ç̌aras 'a' va ren][Orijinali ç̌aras 'a' va ren]
+misreadings-tip-3 = [Var eluvelun kontenti]
+background-noise-explanation = Doloç̌arit ǩat̆a zit̆a vognaten. Makina doguruşi algoritmapeşi çeşit̆oni moǩo-pilani nağaryape axerxas minonan. Nispeten mağali xomape vana uneneli moǩo-pilani muziği-ti, ç̌araşi tamami-muşişi oxotzonus var nağa-şkule ǩebuli dixenen. ç̌ara dogurus na memağanen xareri ǩlibepe reddi oxenu diç̌irasen.
+background-noise-example-1 = Triyasişi divi dinazorepe.
+background-noise-tip-2 = [ç̌araşi ar notzile var diguren][ç̌araşi ar notzile var diguren]
+still-have-questions = Xolo ǩitxalape giğunan-i?
+contact-common-voice = Common Voiceşi ekibi şkala ikontaktit
+public-domain = ǩamuşi Monduni
+citing-sentences = Cumlepeşen ar muti eç̌opinu
+adding-sentences = Cumle Oǩatu
+reviewing-sentences = Cumlepe Otsadu
+citing-sentences-subheader-websites = Web sitepe
+citing-sentences-subheader-academic-reference = Akademiǩuri referansi
+citing-sentences-subheader-offline-sources = Ofline Cireǩepe
 citation =
     .label = Eşaç̌opu
+self-citation = Muşebura Eşaç̌opu
+adding-sentences-subheader-length = Gundzenoba
+adding-sentences-subheader-length-explanation = cumle 15-şen mtsika zit̆aşen geidgasen.
+adding-sentences-subheader-spelling-punctuation = Oç̌aru do Ot̆imbu
+adding-sentences-subheader-spelling-punctuation-explanation = Cumlepe tzori oç̌aru diç̌irs.Cumlepe tzori oç̌aru diç̌irs.
+adding-sentences-subheader-speakable = Osinaponi
+adding-sentences-subheader-numbers = ǩoretsxape
+adding-sentences-subheader-abbreviations = Zit̆apeşi omǩulanupe do Umçane Boncapeşi Omǩulanupe
+adding-sentences-subheader-punctuation = Ot̆imbu
 reviewing-sentences-explanation-1 = Cumle jini ǩriteri-ǩala oǩuvelams na "Ho" butonis gyobazgit.
 
 ## WRITE PAGE
