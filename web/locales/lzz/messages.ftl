@@ -697,33 +697,105 @@ review-delete-recordings = Doloç̌arape-çkimi gejilit (cejirit)
 datasets-heading = Datamarç̌ape
 language = Nena
 download-dataset-header = datamarç̌a Kogeiğit
+# File size in gigabytes
+size = Boyut̆i
+validated-hr-total = Tzuraneri saatişi ǩoroba
+overall-hr-total = Geneluri saatişi ǩoroba
 cv-license = Lisansi
 audio-format = Xomaşi Format'i
+number-of-voices = Xomaşi ǩoretsxa
+splits = Boginape
+size-gigabyte = Didi Biritanya
+size-megabyte = MB
+confirm-no-identify = Common Voiceşi datamarç̌as na ren msinapupeşi noçinepe odziru şeni var inç̌itaten<b>ǩebuli atna</b>
+download-language = { $language } doya geiğit
+validated-hours = İtzuranu Saatepe
+recorded-hours = Doliç̌aru Saatepe
+whats-inside = Common Voice datamarç̌aşi doloxe mupe orenan?
+subscribe = Abone iyi
+get-started-speech = Osinapu Oçinus Kogyoç̌ǩit
+other-datasets = Majura Xomaşi Datamarç̌ape
+feedback-q = Uǩaçxeni gnapa giğunan-i?
+community-playbook = Partiyaşi becit̆i kitabi
+data-other-ted-name = TED-LIUM ǩoroba
+clipboard-not-supported = Panok var numxacams
+# dataset metadata - age of contributor
+dataset-metadata-age = TzanaTzana
 
 ## Download Modal
 
+download-title = Geğmalu kogegiç̌it.
+download-back = Common Voive Dataset̆işe goiktit
 
 ## Contact Modal
 
+contact-title = Memçinuşi Formi
+contact-form-name =
+    .label = Coxo/ yoxo
+contact-form-message =
+    .label = Mesaji
+contact-required = *diç̌irs
 
 ## Request Language Modal
 
+request-language-title = Nenaşi Talebi
+request-language-form-language =
+    .label = NenaNena
+request-language-success-title = Nenaşi talebi t̆işineri dolinç̌aru, ntsaşa exti.
+request-language-success-content = Common Voice'işa ar nena dodvalu muç̌o iyen otku şeni na mulun ndğalepes giç̌araten.
+select-language = Nena goşuğit…
+other-language = Çkva nena
 
 ## Request Language Pages
 
+request-language-heading = Ağani nena şeni iǩitxi
+request-language-form-email =
+    .label = E-mail adresi-skani
+request-language-form-info =
+    .label = Nena şeni çkinapa
+request-language-form-info-explanation-list-1 = Nena-skanişi coxo/yoxo
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeLink> igiçkin-na
+request-language-form-info-explanation-list-3 = Nena-tkvani daha ǩai ognapus meşvelu şeni websitepeşi linki
 request-language-google-recaptcha-required = Meyonu ginonan-na reCAPTCHA diç̌irs
+request-language-google-recaptcha-error = reCAPTCHA's mutxape tersi idu. Xolo geitsadit.
+# Success page
+request-language-success-heading = Ntsaşa extit! Ağani ar nenaşi ǩitxapa moncğonit
 
 ## Languages Overview
 
+language-section-in-progress = Nayonen
+language-section-launched = Kogeiç̌ǩu
+languages-show-more = Daha fazla dziri
+languages-show-less = Daha mtsika dziri
+language-meter-in-progress = Ogzalaman
 language-total-progress = Mteli
+language-search-input =
+    .placeholder = Goiǩitxi
 language-speakers = Msinapu
+localized = Dilokalizu
+sentences = Cumlepe
+language-validation-hours = Saat̆epe
+language-validation-progress = Otzuranuşi elaxtima
 
 ## Contribution
 
+action-click = Met̆aǩulu
+action-tap = Ombolina
 listen = İuci - İşkini - İsimini
 write = Ç'ari
 skip = Moyok'ap'it
 shortcuts = Gzamk'ule
+review-tooltip = Hakolen ulurt̆aşani ǩilibepes ar çkva otzǩedit do xolo doloç̌arit
+share-clip = ǩilibi-tkvani gurtit
+share-common-voice = Common Voive gurtit
+review-instruction = Diç̌irs-na ǩlibepes otzǩedit do meoç̌arit
+record-submit-tooltip = { $actionType } xadziri iyasis oncğoni
+clips-uploaded = Eğmaleri ǩlibepe
+record-abort-title = Maarani doloç̌aru oçodinu ginon-i?
+record-abort-text = Hatzi kogamaxtit-na elaxtimu tkvani gondinateren.
+record-abort-submit = K'ilibi mendancğoniǩilibi mendancğoni
+record-abort-continue = Doloç̌aru doçodini
+record-abort-delete = ǩlibepeşen Gamaxti § Gejili (Cejiri)
 
 ## Contribution Nav Items
 
