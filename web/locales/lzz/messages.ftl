@@ -411,6 +411,7 @@ profile-form-submit-saved = Kodoliç'aru
 male_masculine = Mamuli
 female_feminine = Daduli
 intersex = Majura
+transgender = { "" }
 # Gender
 other = Majura
 why-profile-title = Muşeni ar profili?
