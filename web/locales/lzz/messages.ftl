@@ -797,6 +797,19 @@ write = Ç'ari
 review = MeotzǩediMeotzǩedi
 skip = Moyok'ap'it
 shortcuts = Gzamk'ule
+contribute-more =
+    { $count ->
+        [one] { $count } daha dido-muşi oxenus xadziri ore-i?
+       *[other] { $count } daha dido-muşi oxenus xadziri ore-i?
+    }
+record-cta = Doloç̌arus kogyoç̌ǩi
+record-platform-not-supported = Mixarsuvit, pilatformi çkunik hatzi var numxacams.
+record-platform-not-supported-desktop = Masajin cihazepes geğmalute megaşvelenan...
+record-platform-not-supported-ios-non-safari = iOS'sis doloç̌aru oaktifuşeni Safarite nayonit...
+record-error-too-short = Doloç̌ara dido mǩule ren.
+record-error-too-long = Doloç̌ara dido gundze ren.
+record-error-too-quiet = Doloç̌ara dido misa ort̆u.
+record-cancel = Meyo-doloç̌aru ip̌t̆aki doyi
 review-tooltip = Hakolen ulurt̆aşani ǩilibepes ar çkva otzǩedit do xolo doloç̌arit
 share-clip = ǩilibi-tkvani gurtit
 share-common-voice = Common Voive gurtit
