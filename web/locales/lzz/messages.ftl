@@ -222,7 +222,7 @@ vmw = Votiǩuri
 vot = Votiǩuri
 wep = Xosauri
 wo = Volofuri
-xh = Yoruburi
+xh = Xosauri
 yi = Çifut̆uri
 yo = Yoruburi
 yue = Kantonesuri
@@ -240,10 +240,10 @@ zza = Zazanuri
 
 speak = İsinapi
 speak-now = Hatzi - hus - huy isinapi
-datasets = Datamarç'a
+datasets = Datamarç̌a
 languages = Nenape
 about = Hemuşeni
-partner = Maneba
+partner = Partneri
 profile = Profili
 help = Memişvelit
 contact = ǩont̆aǩt̆i
@@ -253,7 +253,7 @@ cookies = ǩaǩape
 faq = FAQ
 content-license-text = Doloxdenepe <licenseLink>Creative Commons license</licenseLink> lisansişi tude koren.
 share-title = Nena-nişis memxacu şeni çkvape odzirus memişvelit.
-share-text = Mtini ǩoçepek muçho isinapaman doguru şeni memişvelit, nena-skani mixarsuvit { $link }
+share-text = Mtini ǩoçepek muç̌o isinapaman doguru şeni memişvelit, nena-skani mixarsuvit { $link }
 link-copied = Linki ǩopya dixenu.
 back-top = Tişa Kexti
 logout = Kogamaxtit
@@ -262,15 +262,15 @@ donate = Mixaresirit
 ## Home Page
 
 home-title = Comman Voice, mtini k'oçepeşi osinapu makinapes doguru şeni na geiç'k'u/ ciç'u Mozillaşi insiyatifi ren.
-default-tagline = Mozilla Comman Voice, mtini ǩoçepeşi osinapu makinapes doguru şeni na geidgu geç̌ǩapale ren.
+default-tagline = Mozilla Common Voice, mtini ǩoçepeşi osinapu makinapes doguru şeni na geidgu ar geç̌ǩapale ren.
 home-cta = Nena eşiğit, hamsvanis numxacit!
 wall-of-text-start = Xoma natureli ren, xoma ǩoçi ren. Heşeni makinape çkuni şeni oxmaroni xomaşi teǩnoloji getzopxu ǩai matzonenan. Ama, xomaşi sist̆emepe getzopxu şeni dido dido xomaşi data domaç̌iran.
 wall-of-text-more-mobile = Didi şirǩet̆epek na oxmaraman datapeşi dido muşi ǩoçişi oxmarus gontzǩeri va ren. Ham xalik inovasiyonis gza cuğobams. Heşeni, iris xomaşi teǩnoloji axmaran ya do Comman Voice na gyodzin ham projes moǩoviç̌it.
 wall-of-text-more-desktop = Açkva xoma-tkvani mixaresirit do cihazepe do webi şeni iris ağanuri apliǩasiyonepe oxenu şeni na axmarasen ar xomaşi datambağu getzopxus memişvelit. Makinepes mtini ǩoçepeşi osinapu oxotzonapu şeni ar cumle iǩitxit-golionit-tkvit. Majura ǩatapeşi dulyapes otzǩedit do ǩalite mundzinit. Haǩu dulya!
 wall-of-text-first = Xoma natureli ren, xoma ǩoçi ren. Heşeni makinape çkuni şeni oxmaroni xomaşi teǩnoloji getzopxu şeni gomagzenan. Ama, xomaşi sist̆emepe getzopxu şeni dido dido xomaşi data diç̌irs.
 wall-of-text-second = Didi şirǩet̆epek na oxmaraman datapeşi dido muşi ǩoçişi oxmarus gontzǩeri va ren. Ham xalik inovasiyonis gza cuğobams. Heşeni, iris xomaşi teǩnoloji axmaran ya do Comman Voice na gyodzin ham projes moǩoviç̌it.
-show-wall-of-text = Majurape iǩitxi/ golioni
-help-us-title = Ham cumlepe getzuranu şeni memişvelit.
+show-wall-of-text = Çkva İǩitxi
+help-us-title = Cumlepe getzuranu şeni memişvelit.
 help-us-explain = Osteri/ Obiri tuşis gyobazgit. İucit-işǩinit-isiminit do cumle tzori/ ese iǩitxui mitzvit.
 no-clips-to-validate = Ham nenas oşǩinoni aina ǩlibi var giğuran steri idziren. Hatzi (hus) bazi ǩlibepe doloç̌arit do jilemona opşus meişvelit.
 vote-yes = Ho
@@ -280,15 +280,15 @@ speak-subtitle = Nena-tkvani mixarsuvit
 speak-paragraph = Nenaşi ǩlibepe doloç̌aru goncameri data sistemi getzopxuşi enni vorsi gza oren. Ham artsope (bazepe) şeni oxoktinoni oren.
 speak-goal-text = Doloç̌areri ǩlibepe
 listen-subtitle = Xomape otzuranus memişvelit.
-listen-paragraph = Xarsuveri ǩlibepeşi otzorinu (tzori na oren oxotzonu) Comman Voiceşi misyoni şeni eşit̆i derece becit̆i oren. Ar işǩinit (iucit) do ǩalitoni goncameri nenaşi data getzopxu şeni meişvelit.
+listen-paragraph = Xarsuveri ǩlibepeşi otzorinu (tzori na oren oxotzonu) Common Voiceşi misyoni şeni eşit̆i derece becit̆i oren. Ar işǩinit (iucit) do ǩalitoni goncameri nenaşi data getzopxu şeni meişvelit.
 listen-goal-text = Doloç̌areri saatepe
-hours-recorded = Tzorineri saatepe
+hours-recorded = Doloç̌areri saatepe
 hours-validated = Tzorineri saatepe
 voices-online = Hus (hatzi) onlaini na oren xomape
 todays-progress = Andğaneri Ogzalapa
 help-reach-goal = { $goal } olva şeni meişvelit
 read-terms-q = Oxmaruşi şart̆epe iǩitxiti/ golioniti
-ready-to-record = Xoma-tkvani oxorsuvu şeni xadziri oret-i?
+ready-to-record = Xoma-tkvani oxarsuvu şeni xadziri oret-i?
 all-locales = İri/ Mteli
 today = Andğa
 x-weeks-short =
@@ -309,12 +309,12 @@ x-years-short =
 help-make-dataset = Çku mağala ǩalitete, iris goncameri ar dataset̆i getzopxu şeni memişvelit.
 sign-up-account = Ar xesap̌i kogetzopxit
 email-subscription-title = E-posta oağanu şeni kodoliç̌arit.
-email-subscription-title-new = Comman Voiceşi xaberi bultenepes, gonoşinupes do ogzaloni ondğalurepes doliç̌arit.
+email-subscription-title-new = Common Voiceşi ambai bultenepes, gonoşinupes do ogzaloni ondğalurepes doliç̌arit.
 
 ## Account Benefits
 
 benefits = Pelapape
-rich-data = Momincğonit datapeşi daha ǩai oxenu şeni bazi anonimi demografiǩuri datape momçit. Mteli demografiǩuri datape ǩamus p̌i gontzǩaşe noçinepe gotziğit.
+rich-data = Na momincğonit datapeşi daha ǩai oxenu şeni bazi anonimi demografiǩuri datape momçit. Mteli demografiǩuri datape ǩamus p̌i gontzǩaşe noçinepe gotziğit.
 improve-audio = Profilişi çkinapape, osinapu çinapa tzorinoba oslop̌us na ixmaren xomaşi datape oǩaimams.
 keep-track = Megzalu do mezuma-tkvani arişen dido nenaşen otzǩedirt
 compare-progress = Megzalu-tkvani dunyaşi genelis majura memşvelupe-şkala muç̌o na oxitzonen dzirit.
@@ -343,10 +343,10 @@ shortcut-play-toggle = d
 shortcut-play-toggle-label = İsteri/ Dodgiti
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = H
+shortcut-vote-yes = h
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = V
+shortcut-vote-no = v
 
 ## Speak Shortcuts
 
@@ -355,11 +355,11 @@ shortcut-vote-no = V
 shortcut-record-toggle = d
 shortcut-record-toggle-label = Doloç̌ari/ Dodgiti
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Nena gori
+shortcut-rerecord-toggle-label = ǩilibi meyoç̌ari
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Hatzineri doloç̌ara ip̌t̆ali doyi
 shortcut-submit = Goikti
-shortcut-submit-label = K'ilibi mendancğoni
+shortcut-submit-label = ǩilibi mendancğoni
 request-language-text = Common Voices daha nena-tkvani var dziremt-i?
 request-language-button = Ar Nena Gori
 
@@ -389,7 +389,7 @@ profile-form-language =
     .label = Nena
 profile-form-variant =
     .label = { $language }şi nam varianti isinapam?
-profile-form-variant-default-value = Aina varianti goşatsxuneri va oren.
+profile-form-variant-default-value = Variasioni var goşiğmalu
 profile-form-accent =
     .label = Aksani
 profile-form-custom-accent-help-text =
@@ -401,13 +401,13 @@ profile-form-gender-2 =
     .label = Cinsiyet'i
 leaderboard-visibility =
     .label = Leaderboard-işi tzirama
-hidden = T'k'obaşe
+hidden = t̆ǩobaşe
 visible = Native Language
 native-language =
     .label = Svaloni Nena
 profile-form-add-accent = Ağani ar aksani "{ $inputValue }" keǩumtsxvi
 profile-form-submit-save = Şinaxi
-profile-form-submit-saved = Kodoliç'aru
+profile-form-submit-saved = Kodoliç̌aru
 male_masculine = Mamuli
 female_feminine = Daduli
 intersex = Majura
@@ -423,19 +423,19 @@ goals = Hedefepe
 settings = Getzopxi
 edit-profile = Profili getzopxi
 profile-create-success = Dobeceri, profili diç̌ǩadu (kogeitzopxu)
-profile-close = Genk'oli
+profile-close = Genǩoli
 profile-explanation = Ar profilite gamayonu-tkvanis nontxozit do xomaşi datape daha tzori oyapus memişvelit.
 thanks-for-account = Xesabi-tkvani na otzuranit şeni ntsaşa extit, hatzi (hus) profili-tkvani gep̌tzopxat.
 why-demographic = Ham muşeni becit̆i oren?
 why-demographic-explanation-2 = Tzana, cinsiyet̆i do aksani steri anonimi xeneri xmaraceşi datape, osinapu çinobua motorepeşi tzorinoba oslop̌u şeni na ixmaren xoma datapeşi oǩaimus nuşvelams. Xmarace coxo-tkvani do e-posta adresi-tkvani na moncğonit datape-ǩala p̌ot̆e var oǩimç̌ǩeşinasen. Xmarace coxo-tkvani ǩamus gontzǩeri vana ononimuri iyasen-i goşogatsxunanen.
 accept-privacy = Mozillaşi <privacyLink>t̆obaşoba Polotiǩas</privacyLink> ignapinu steri ham dataşi tkvani oxmaru momarçilen.
-accept-privacy-title = T'obaşobaşi Polotik'a
+accept-privacy-title = t̆obaşobaşi Polotiǩa
 accept-privacy-and-terms = Common Voiceşi <termsLink>Şart̆epe</termsLink> do <privacyLink>t̆obaşoba Gognapa</privacyLink> elemivelams.
 login-identity = Amaxtimui oçinoba
 login = Amaxti
 login-signup = Amaxti/ Doliç'ari
 edit = Sturesari
-email-subscriptions = E-mailişi abonobape
+email-subscriptions = E-posta Doloç̌areri
 download-profile = Datape-çkimi Kogeiği
 contribution-experience = Meşveluşi Getsadu
 skip-submission-feedback = Oncğonuşi ǩap̌ula Gnapas Moyuǩap̌i
@@ -452,7 +452,7 @@ help-variants-explanation = Variantepe nenaşi meçkineri ar k̆ata ren. Meçkin
 
 browse-file-title = Ar resimişi dosya kogedvit
 browse-file = Dolotiri do dolodvi var na mendatzk̆edi
-connect-gravatar = Gravatarite Nik'ori
+connect-gravatar = Gravatarite Niǩori
 gravatar_not_found = Emaili şeni Gravatari var İdziru
 file_too_large = Goşatsxuneri dosya opşa didi ren
 avatar-uploaded = Avatari keiğu
@@ -480,7 +480,7 @@ faq-how-get-a = Common Voiceşi Datamarç̌a, <licenseLink>CC0</licenseLink> lis
 faq-when-release2-q = Majura nenapeşi Common Voice datamarç̌a mundes gamiğaten?
 faq-why-mission-q = Common Voice, Mozilla misyonişi muşeni ar notzile ren?
 faq-why-mission-a =
-    "Mozilla, mzesa k̆atai şeni gontzk̆imeri t̆as do k̆ataik 
+    Mozilla, mzesa k̆atai şeni gontzk̆imeri t̆as do k̆ataik 
     ixmaras ya do dik̆idu.Aya oxvenu şeni Common Voicei
      steri projepeten mzesa magetzopxepe omencelu diç̆irs.
     Xomaşi teknolojepe niche ap̆lik̆asyonepe mik̆ilan do 
@@ -492,7 +492,7 @@ faq-why-mission-a =
     ar goncameri otişe ren do mtel kianas na ren Mozillaşi k̆atapek çkini projepes ixmanan."
 faq-what-cv-and-deepspeech-q = Common Voice do Deep Speechşi oşkenas mu farki oren?
 faq-what-cv-and-deepspeech-a =
-    "Common Voice datamarçak, Mozillaşi goncameri
+    Common Voice datamarçak, Mozillaşi goncameri
     xoma oxotzonuşi mat̆ori Deep Speechis mxuci meçaps.
     Deep Speecişi maartani versiyoni 2017 Tzilvas gamaxtu
     do emuşen akole p̆ant̆a imralen. Common Voice datamarç̆aten, 
@@ -500,7 +500,7 @@ faq-what-cv-and-deepspeech-a =
     ren ya do visimadept. (........) "
 faq-is-goal-assistant-q = Common Voiceşi hedefi ar nenaşi asist̆ani otzopxu oren-i?
 faq-is-goal-assistant-a =
-    "Common Voice datamarç̆a mot yeçkindu? Kianas sotxani ort̆as,
+    Common Voice datamarç̆a mot yeçkindu? Kianas sotxani ort̆as,
     k̆atais xoma oxotzonu, mağarğale oxotzonu var na xoma 
     oxmarinu na diç̆irs ar ap̆likasyoni getzipxus nuşvelas ya do.
     Ar xoma-memxace, datamarç̆a oxmaruten na gaxvenenanpeşi
@@ -508,7 +508,7 @@ faq-is-goal-assistant-a =
     "
 faq-do-want-native-q = Ma svaluri na va ren ar msinapu vore do aksanite visinapam, colo-ti xoma-çkimi ginonan-i?
 faq-do-want-native-a =
-    "Ho, mtini tkvani xoma minonan! Common Voiceişi noğirepeşi
+    Ho, mtini tkvani xoma minonan! Common Voiceişi noğirepeşi
     ari, xoma oxotzonuşi sistemepe k̆atai şeni k̆ai içalişas ya do, 
     na iqven k̆onari çkva do çkva aksanepe ok̆orobu ren. Aya, 
     nana-nenamutepeşi Lazuri na varen k̆oçepeşi xoma ok̆orobu dido 
@@ -522,19 +522,19 @@ faq-why-my-lang-a =
 faq-what-quality-q = Data setis na ixmaren ar xomaşi ǩlibi şeni na diç̌irs xomaşi ǩaliteşi seviye mu oren?
 faq-why-10k-hours-q = Xomaşi oxotzonu şeni ǩat̆a nena şeni tzorineri 10,000 zit̆a hedefi geidu doren?
 faq-why-10k-hours-a =
-    "Aya aşo xomaşen ç̆ara na ixvenen ar sistemi oxvenu şeni
+    Aya aşo xomaşen ç̆ara na ixvenen ar sistemi oxvenu şeni
     na diç̆irs saat̆i ren."
 faq-how-calc-hours-q = Common Voicek saatepe muç̌o xesap̌ums?
 faq-how-calc-hours-a =
-    "Saat̆i oxesap̆u şeni k̆ata doloç̆areri xomaşi gindzenoba ptsadupt,
+    Saat̆i oxesap̆u şeni k̆ata doloç̆areri xomaşi gindzenoba ptsadupt,
     ok̆ule iya, mtelli nenapes na ixvenu mtelli doloç̆arapeşi k̆orotsxala k̆ala vomralapt."
-faq-where-src-from-2-q = Monduni ç'ara solen mulun?
+faq-where-src-from-2-q = Monduni ç̌ara solen mulun?
 faq-where-src-from-2-a =
     "Tzk̆artoli ç̆araçkini, mtini na mixarsuvupanpeşen do <italic>It’s a Wonderful Life</italic>
     steri goncameri filimi senaryopeşen na guşitsxunu ok̆oğarğalapeten dik̆idu."
 faq-why-not-ask-read-q = Muşeni k̆oçepes çkva do çkva nenapeşi sup̆arape do vikipediaşi ç̆arape ik̆itxit ya varutzumet?
 faq-why-not-ask-read-a =
-    "Common Voice datambağu na maxvenenan k̆onari, k̆olai 
+    Common Voice datambağu na maxvenenan k̆onari, k̆olai 
     na ixmarinen ar mutxani gaxadu şeni, xvala Goncameri 
     (CCO) lisansişi doloxe na ren tzk̆ariştoli ç̆arapes nek̆na
      gomtzk̆at ya ptkvit. CCO standarti oxmaru, tzk̆ariştoli ç̆arape
@@ -578,7 +578,7 @@ about-speak = İsinapi
 about-speak-text = Memşvelupek, xarsuveri cumlepete pşeri ar bankaşen iǩitxaman do ǩlibepe doloç̌aruman.
 about-listen-queue = Oşǩinuşi Sira
 about-listen-queue-text = Xomaşi ǩlibepe, hentepe oşǩinu şeni na xadzirums ar nocğone ǩudelis amilven.
-about-listen = İuci - İşkini - İsimini
+about-listen = İşǩini (İuci/ İsimini)
 about-listen-text = Maxmarepe, msinapuk cumle tzori iǩitxu-i ya do kontroli ikums do xarsuveri ǩlibepeşi tzorinoba tzorinums.
 about-is-it-valid = ǩlibi oxmaroni oren-i?
 about-is-it-valid-text = Maxmarek "Ho" ya do rei meçasi 'oxmaroni" ya do niğaren.
@@ -635,7 +635,7 @@ about-playbook-how-grow-language-content-6 = Ortağepe do Mosape
 
 ## How to validate
 
-about-playbook-how-validate = Nena doloç'areri geptzora vana mot geptzora muç'o oxovotzonare?
+about-playbook-how-validate = Nena doloç̌areri geptzora vana mot geptzora muç̌o oxovotzonare?
 
 ## How to access dataset
 
@@ -690,7 +690,7 @@ license = Lisansi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Oǩont̆aleri
 data-download-singleword-title = Ar Zit̆a Noğire Boligina Kogeiğit
 review-terms = Ağani nena şeni iǩitxi
-terms-agree = Ok'ovuvelut
+terms-agree = Oǩovuvelut
 terms-disagree = Var Ok'ovuvelut
 review-aborted = Eğmalu ip̌t̆ali dixenu. Doloç̌arupe-tkvani gejilu ginonan-i?
 review-submit-title = Tsadi do Moncğoni
@@ -703,7 +703,7 @@ review-delete-recordings = Doloç̌arape-çkimi gejilit (cejirit)
 
 ## Datasets Page
 
-datasets-heading = Datamarç̌ape
+datasets-heading = Datamarç̌a
 datasets-headline = Ar xesap̌i kogetzopxit
 language = Nena
 download-dataset-header = datamarç̌a Kogeiğit
@@ -714,7 +714,7 @@ size = Boyut̆i
 validated-hr-total = Tzuraneri saatişi ǩoroba
 overall-hr-total = Geneluri saatişi ǩoroba
 cv-license = Lisansi
-audio-format = Xomaşi Format'i
+audio-format = Xomaşi Format̆i
 number-of-voices = Xomaşi ǩoretsxa
 splits = Boginape
 email-to-download = Native Language
@@ -745,14 +745,14 @@ missing-language = Nena-tkvani datamarç̌as var dziremt-i? Nena ogoru şeni Nen
 go-languages-page = Nena but̆ǩaşe idi
 ready-to-validate = Cumlepe getzuranus meşvelu şeni xadziri oret-i?
 more = Çkva
-close = Genk'oliGenǩoli
+close = Genǩoli
 download = Kogeiği
-dataset-version = VersioniVersioni
+dataset-version = Versioni
 sha256-checksum-copied = SHA256 Checksum ǩop̌ya dixenu!
 sha256-checksum-copied-error = SHA256 Checksum ǩop̌ya var ixenu!
 clipboard-not-supported = Panok var numxacams
 # dataset metadata - age of contributor
-dataset-metadata-age = TzanaTzana
+dataset-metadata-age = Tzana
 
 ## Download Modal
 
@@ -772,7 +772,7 @@ contact-required = *diç̌irs
 
 request-language-title = Nenaşi Talebi
 request-language-form-language =
-    .label = NenaNena
+    .label = Nena
 request-language-success-title = Nenaşi talebi t̆işineri dolinç̌aru, ntsaşa exti.
 request-language-success-content = Common Voice'işa ar nena dodvalu muç̌o iyen otku şeni na mulun ndğalepes giç̌araten.
 select-language = Nena goşuğit…
@@ -814,12 +814,12 @@ language-validation-progress = Otzuranuşi elaxtima
 
 action-click = Met̆aǩulu
 action-tap = Ombolina
-contribute = MemaǩatitEǩoşvelu
-listen = İuci - İşkini - İsimini
-write = Ç'ari
-review = MeotzǩediMeotzǩedi
-skip = Moyok'ap'it
-shortcuts = Gzamk'ule
+contribute = Eǩoşvelu
+listen = İşǩini (İuci/ İsimini)
+write = ç̌ari
+review = Meotzǩedi
+skip = Moyoǩap̌i
+shortcuts = Gzamǩulepe
 contribute-more =
     { $count ->
         [one] { $count } daha dido-muşi oxenus xadziri ore-i?
