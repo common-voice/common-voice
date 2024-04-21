@@ -718,6 +718,16 @@ other-datasets = Majura Xomaşi Datamarç̌ape
 feedback-q = Uǩaçxeni gnapa giğunan-i?
 community-playbook = Partiyaşi becit̆i kitabi
 data-other-ted-name = TED-LIUM ǩoroba
+go-discourse = Zit̆aşe İdi
+missing-language = Nena-tkvani datamarç̌as var dziremt-i? Nena ogoru şeni Nenapeşi butkaşa idit.
+go-languages-page = Nena but̆ǩaşe idi
+ready-to-validate = Cumlepe getzuranus meşvelu şeni xadziri oret-i?
+more = Çkva
+close = Genk'oliGenǩoli
+download = Kogeiği
+dataset-version = VersioniVersioni
+sha256-checksum-copied = SHA256 Checksum ǩop̌ya dixenu!
+sha256-checksum-copied-error = SHA256 Checksum ǩop̌ya var ixenu!
 clipboard-not-supported = Panok var numxacams
 # dataset metadata - age of contributor
 dataset-metadata-age = TzanaTzana
@@ -781,8 +791,10 @@ language-validation-progress = Otzuranuşi elaxtima
 
 action-click = Met̆aǩulu
 action-tap = Ombolina
+contribute = MemaǩatitEǩoşvelu
 listen = İuci - İşkini - İsimini
 write = Ç'ari
+review = MeotzǩediMeotzǩedi
 skip = Moyok'ap'it
 shortcuts = Gzamk'ule
 review-tooltip = Hakolen ulurt̆aşani ǩilibepes ar çkva otzǩedit do xolo doloç̌arit
