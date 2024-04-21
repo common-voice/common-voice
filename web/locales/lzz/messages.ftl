@@ -657,11 +657,16 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Muç̌o na mok
 
 glossary = Nenapuna
 localization = Lokaloba
+localization-explanation = Hantepe (hani) internet̆is gorit
+sentence-collection-explanation = Eğmaleri ǩlibepe
+hours-recorded-explanation = Tzuraneri saatişi ǩoroba
+hours-validated-explanation = Nenape çkuni:
 sst = Osinapu ç̌aras meonktu (STT)
 de-identified = Oçinoba-muşi dimpulu/ var içinapu
 
 ## Error pages
 
+error-title-503 = Oç̌aru do Ot̆imbu
 error-code = Xeta { $code }
 
 ## Data
@@ -670,6 +675,9 @@ data-download-button = Common Voiceşi Datape kogeiğit
 data-download-yes = Ho
 data-download-deny = Var
 data-download-license = Lisans: <licenseLink>CC-0</licenseLink>
+data-download-modal = Mixaresirit
+data-subtitle = Oxori
+data-explanatory-text = Reddi oxenu
 data-get-started = <speechBlogLink>Osinapu Oçinobas Kogyoç̌ǩit</speechBlogLink>
 data-other-title = Majura xomaşi datamarç̌ape
 data-other-goto = { $isname }'şe idi
@@ -681,6 +689,7 @@ dataset-date = Tarixi
 license = Lisansi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Oǩont̆aleri
 data-download-singleword-title = Ar Zit̆a Noğire Boligina Kogeiğit
+review-terms = Ağani nena şeni iǩitxi
 terms-agree = Ok'ovuvelut
 terms-disagree = Var Ok'ovuvelut
 review-aborted = Eğmalu ip̌t̆ali dixenu. Doloç̌arupe-tkvani gejilu ginonan-i?
@@ -695,8 +704,11 @@ review-delete-recordings = Doloç̌arape-çkimi gejilit (cejirit)
 ## Datasets Page
 
 datasets-heading = Datamarç̌ape
+datasets-headline = Ar xesap̌i kogetzopxit
 language = Nena
 download-dataset-header = datamarç̌a Kogeiğit
+download-delta-explainer = Bretonuri
+download-dataset-tag = İstatistiği
 # File size in gigabytes
 size = Boyut̆i
 validated-hr-total = Tzuraneri saatişi ǩoroba
@@ -705,6 +717,9 @@ cv-license = Lisansi
 audio-format = Xomaşi Format'i
 number-of-voices = Xomaşi ǩoretsxa
 splits = Boginape
+email-to-download = Native Language
+why-email = Amolva var it̆işu.
+confirm-size = Goan Konkanuri
 size-gigabyte = Didi Biritanya
 size-megabyte = MB
 confirm-no-identify = Common Voiceşi datamarç̌as na ren msinapupeşi noçinepe odziru şeni var inç̌itaten<b>ǩebuli atna</b>
@@ -712,12 +727,19 @@ download-language = { $language } doya geiğit
 validated-hours = İtzuranu Saatepe
 recorded-hours = Doliç̌aru Saatepe
 whats-inside = Common Voice datamarç̌aşi doloxe mupe orenan?
+want-dataset-update = Ndğaluri Hedefi
 subscribe = Abone iyi
 get-started-speech = Osinapu Oçinus Kogyoç̌ǩit
 other-datasets = Majura Xomaşi Datamarç̌ape
 feedback-q = Uǩaçxeni gnapa giğunan-i?
+resource-nemo-info = { "" }
+resource-deepspeech-info = E posta abonobape okti
+resource-coqui-info = Galiçuri
 community-playbook = Partiyaşi becit̆i kitabi
 data-other-ted-name = TED-LIUM ǩoroba
+data-other-voxforge-description = Lapori Oncğoni
+data-other-tatoeba-description = Nenaşi talebi t̆işineri dolinç̌aru, ntsaşa exti.
+your-feedback = Abone iyi
 go-discourse = Zit̆aşe İdi
 missing-language = Nena-tkvani datamarç̌as var dziremt-i? Nena ogoru şeni Nenapeşi butkaşa idit.
 go-languages-page = Nena but̆ǩaşe idi
@@ -848,7 +870,7 @@ target-segment-learn-more = Daha fazla gaçkinas
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Xomaşi ǩoleǩsioni
-contribute-sentence-collection-nav-header = Cumleşi ǩoleǩsiyoniCumleşi ǩoleǩsiyoni
+contribute-sentence-collection-nav-header = Cumleşi ǩoleǩsiyoni
 
 ## Reporting
 
@@ -913,12 +935,38 @@ want-to-continue = Meyonu ginonan-i?
 finish-editing = İpti osturesru oçodinu ginonan-i?
 lose-changes-warning = Hatzi kogamaxtit-na, osturesarupe tkvani gogindunanen
 build-custom-goal = Doxmeli hedefi getzopxit
+set-a-goal = Ar noğire nisimadi
+cant-decide = ǩarari var megaçenan-i?
+how-many-per-day = Dido ǩai! Ar ndğas naǩo klibi?
+how-many-a-week = Dido ǩai! Ar xaftas naǩo klibi?
+confirm-goal = Hedefi dotzurani.
+goal-interval-weekly = Xafteri
+share-goal-type-speak = Visinapam
+share-goal-type-listen = Oşǩinu (Oucu/ Osiminu)
+share-goal-type-both = Osinapu do Oşǩinu
+weekly-goal-created = Ar xafteri hedefi tkvani kogeitzopxu
+daily-goal-created = Ar ndğeri hedefi tkvani kogeitzopxu
+track-progress = Elaxtimu tkvani hakolen do istatistiği butkaşen natxozit.
+return-to-edit-goal = Mundes na ginonan (gorumt) hedefi-tkvani osturesaru şeni hak goiktit.
+share-goal = Hedefi-çkimi gurti
 
 ## Profile Delete
 
+keep = Şinaxi
+remove = Moseli
+profile-form-delete = Profili Gejiri
 
 ## Profile Download
 
+download-q = Datape-tkvani geğmalu dogaç̌inan-i?
+download-info = Mu geğmalu gorum çku domimçinit.
+download-profile-title = Profili
+download-profile-info = Doloxe-muşi e-posta, xmarace coxo do demografiǩuri çkinapape orenan, yeine ixmaren
+download-profile-size = jur-sum bayt̆i
+download-recordings-title = Doloç̌arape
+download-recordings-info = Doloxe-muşi MP3-epeşi cumlepe renan, oxadziru-muşik amtsika ora gotzamiğanen
+download-recordings-size = Tipiǩuri megabayti
+download-size = Boyut̆i
 
 ## Landing
 
