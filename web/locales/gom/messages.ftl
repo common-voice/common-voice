@@ -25,6 +25,8 @@ speak-now = Ata uloi
 ## Home Page
 
 help-us-explain = Play kor, kan divun aik, ani sang: Temin asa toshech uloile?
+speak-subtitle = Tuje avaaz dan kor
+listen-subtitle = Sarkeponn topasunk amche moddot kor
 
 ## Account Benefits
 
