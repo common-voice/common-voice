@@ -6,7 +6,9 @@ return-to-cv = Porot voch Common Voice'acher
 email-input =
     .label = Email
 submit-form-action = Submit
+loading = Load zata...
 email-opt-in-info = Hoi, Mhaka asle emails dhad jitun Goal Reminders, Progress Updates anik Common Voice`acher novi novi khobryo-patra asta.
+email-opt-in-info-title = Common Voice mailing list join kor
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -138,12 +140,14 @@ action-tap = Damp
 listen = Aik
 write = Boroi
 skip = Sod
+record-error-too-short = Recording samke begin sopoile.
 record-error-too-long = Recording chod vhoddlem zale.
 record-error-too-quiet = Recording samki ogi asa.
 record-instruction = <recordIcon></recordIcon> { $actionType } ani magir sentence mottean vach
 record-stop-instruction = zale zaliar <stopIcon></stopIcon> { $actionType }
 record-again-instruction = Shabbas! Dusre clip <recordIcon></recordIcon> record kor
 record-again-instruction2 = Borem asa, ani ek record kor <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Last ek!
 review-instruction = Check kor & goroz asa zaliar portun record kor
 clips-uploaded = Clips Upload Zale
 record-abort-title = Recording purai kor poilem?
