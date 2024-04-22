@@ -133,6 +133,15 @@ language-validation-progress = Topasniche Pravas
 
 ## Contribution
 
+action-tap = Damp
+listen = Aik
+write = Boroi
+skip = Sod
+record-error-too-long = Recording chod vhoddlem zale.
+record-error-too-quiet = Recording samki ogi asa.
+record-instruction = <recordIcon></recordIcon> { $actionType } ani magir sentence mottean vach
+record-stop-instruction = zale zaliar <stopIcon></stopIcon> { $actionType }
+record-again-instruction = Shabbas! Dusre clip <recordIcon></recordIcon> record kor
 
 ## Contribution Nav Items
 
