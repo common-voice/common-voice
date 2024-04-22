@@ -19,9 +19,12 @@ submit-form-action = Submit
 
 ## Layout
 
+speak = Uloi
+speak-now = Ata uloi
 
 ## Home Page
 
+help-us-explain = Play kor, kan divun aik, ani sang: Temin asa toshech uloile?
 
 ## Account Benefits
 
