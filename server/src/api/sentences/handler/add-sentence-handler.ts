@@ -1,6 +1,5 @@
 import { Request, Response } from 'express'
 import * as TE from 'fp-ts/TaskEither'
-import * as T from 'fp-ts/Task'
 import * as O from 'fp-ts/Option'
 import * as I from 'fp-ts/Identity'
 import { pipe } from 'fp-ts/function'
@@ -18,14 +17,14 @@ import {
   saveSentenceInDb,
 } from '../../../application/sentences/repository/sentences-repository'
 import { findVariantByTagInDb } from '../../../application/sentences/repository/variant-repository'
+import { findLocaleByNameInDb } from '../../../application/sentences/repository/locale-repository'
 
 export default async (req: Request, res: Response) => {
-  const { sentence, localeId, localeName, source, domains, variant } = req.body
+  const { sentence, localeName, source, domains, variant } = req.body
 
   const command: AddSentenceCommand = {
     clientId: req.client_id,
     sentence: sentence,
-    localeId: localeId,
     localeName: localeName,
     source: source,
     domains: domains,
@@ -37,6 +36,7 @@ export default async (req: Request, res: Response) => {
     I.ap(validateSentence),
     I.ap(findDomainIdByNameInDb),
     I.ap(findVariantByTagInDb),
+    I.ap(findLocaleByNameInDb),
     I.ap(saveSentenceInDb)
   )
 
@@ -49,11 +49,11 @@ export default async (req: Request, res: Response) => {
         switch (err.kind) {
           case SentenceRepositoryErrorKind: {
             res.status(StatusCodes.INTERNAL_SERVER_ERROR)
-            break;
+            break
           }
           case SentenceValidationErrorKind: {
             res.status(StatusCodes.BAD_REQUEST)
-            break;
+            break
           }
         }
 

@@ -11,6 +11,7 @@ import {
 import { AddSentenceCommand } from '../../../../../application/sentences/use-case/command-handler/command/add-sentence-command'
 import { SentenceSubmission } from '../../../../../application/types/sentence-submission'
 import { FindVariantByTag } from '../../../../../application/sentences/repository/variant-repository'
+import { FindLocaleByName } from '../../../../../application/sentences/repository/locale-repository'
 
 describe('Add sentence command handler', () => {
   it('should save the sentence in the repository', async () => {
@@ -25,12 +26,24 @@ describe('Add sentence command handler', () => {
         O.some({ id: 1, name: 'Central', tag: 'ca-central', locale: 'ca' })
       )
     )
+    const findLocaleByNameMock: FindLocaleByName = jest.fn(() =>
+      TE.right(
+        O.some({
+          id: 27,
+          name: 'ca',
+          targetSentenceCount: 0,
+          isContributable: true,
+          isTranslated: true,
+          textDirection: 'LTR',
+        })
+      )
+    )
+
     const saveSentenceMock: SaveSentence = jest.fn(() => TE.right(constVoid()))
 
     const cmd: AddSentenceCommand = {
       clientId: 'abc',
       sentence: 'This is a sentence',
-      localeId: 1,
       localeName: 'en',
       source: 'Myself',
       domains: ['finance'],
@@ -40,7 +53,7 @@ describe('Add sentence command handler', () => {
     const expectedSentenceSubmission: SentenceSubmission = {
       sentence: 'This is a sentence',
       source: 'Myself',
-      locale_id: 1,
+      locale_id: 27,
       client_id: 'abc',
       domain_ids: [1],
       variant_id: O.none,
@@ -51,6 +64,7 @@ describe('Add sentence command handler', () => {
       I.ap(validateSentenceMock),
       I.ap(findDomainIdByNameMock),
       I.ap(findVariantByTokenMock),
+      I.ap(findLocaleByNameMock),
       I.ap(saveSentenceMock)
     )
 
@@ -75,12 +89,23 @@ describe('Add sentence command handler', () => {
         O.some({ id: 1, name: 'Central', tag: 'ca-central', locale: 'ca' })
       )
     )
+    const findLocaleByNameMock: FindLocaleByName = jest.fn(() =>
+      TE.right(
+        O.some({
+          id: 27,
+          name: 'ca',
+          targetSentenceCount: 0,
+          isContributable: true,
+          isTranslated: true,
+          textDirection: 'LTR',
+        })
+      )
+    )
     const saveSentenceMock: SaveSentence = jest.fn(() => TE.right(constVoid()))
 
     const cmd: AddSentenceCommand = {
       clientId: 'abc',
       sentence: 'This is a sentence',
-      localeId: 1,
       localeName: 'en',
       source: 'Myself',
       domains: ['finance'],
@@ -92,6 +117,7 @@ describe('Add sentence command handler', () => {
       I.ap(validateSentenceMock),
       I.ap(findDomainIdByNameMock),
       I.ap(findVariantByTokenMock),
+      I.ap(findLocaleByNameMock),
       I.ap(saveSentenceMock)
     )
 
@@ -112,12 +138,23 @@ describe('Add sentence command handler', () => {
         O.some({ id: 1, name: 'Central', tag: 'ca-central', locale: 'ca' })
       )
     )
+    const findLocaleByNameMock: FindLocaleByName = jest.fn(() =>
+      TE.right(
+        O.some({
+          id: 27,
+          name: 'ca',
+          targetSentenceCount: 0,
+          isContributable: true,
+          isTranslated: true,
+          textDirection: 'LTR',
+        })
+      )
+    )
     const saveSentenceMock: SaveSentence = jest.fn(() => TE.right(constVoid()))
 
     const cmd: AddSentenceCommand = {
       clientId: 'abc',
       sentence: 'This is a sentence',
-      localeId: 1,
       localeName: 'en',
       source: 'Myself',
       domains: ['finance'],
@@ -129,6 +166,7 @@ describe('Add sentence command handler', () => {
       I.ap(validateSentenceMock),
       I.ap(findDomainIdByNameMock),
       I.ap(findVariantByTokenMock),
+      I.ap(findLocaleByNameMock),
       I.ap(saveSentenceMock)
     )
 
@@ -143,6 +181,55 @@ describe('Add sentence command handler', () => {
 
     expect(E.isLeft(result)).toBeTruthy()
     expect(errMsg).toBe('Locale does not match variant')
+    expect(saveSentenceMock).toHaveBeenCalledTimes(0)
+  })
+
+  it('should return validation error when locale is not found', async () => {
+    const validateSentenceMock: ValidateSentence = jest.fn(
+      () => () => E.right('This is a sentence')
+    )
+    const findDomainIdByNameMock: FindDomainIdByName = jest.fn(() =>
+      TE.right(O.some(1))
+    )
+    const findVariantByTokenMock: FindVariantByTag = jest.fn(() =>
+      TE.right(
+        O.some({ id: 1, name: 'Central', tag: 'ca-central', locale: 'ca' })
+      )
+    )
+    const findLocaleByNameMock: FindLocaleByName = jest.fn(() =>
+      TE.right(O.none)
+    )
+    const saveSentenceMock: SaveSentence = jest.fn(() => TE.right(constVoid()))
+
+    const cmd: AddSentenceCommand = {
+      clientId: 'abc',
+      sentence: 'This is a sentence',
+      localeName: 'ca',
+      source: 'Myself',
+      domains: ['finance'],
+      variant: O.some('ca-central'),
+    }
+
+    const cmdHandler = pipe(
+      AddSentenceCommandHandler,
+      I.ap(validateSentenceMock),
+      I.ap(findDomainIdByNameMock),
+      I.ap(findVariantByTokenMock),
+      I.ap(findLocaleByNameMock),
+      I.ap(saveSentenceMock)
+    )
+
+    const result = await pipe(cmd, cmdHandler)()
+    const errMsg = pipe(
+      result,
+      E.match(
+        err => err.message,
+        () => 'should not happen'
+      )
+    )
+
+    expect(E.isLeft(result)).toBeTruthy()
+    expect(errMsg).toBe('Locale not found')
     expect(saveSentenceMock).toHaveBeenCalledTimes(0)
   })
 })

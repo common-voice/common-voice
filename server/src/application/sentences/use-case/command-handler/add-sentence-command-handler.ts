@@ -16,6 +16,7 @@ import {
 import { SentenceSubmission } from '../../../types/sentence-submission'
 import { FindVariantByTag } from '../../repository/variant-repository'
 import { Variant } from '../../../../core/types/variant'
+import { FindLocaleByName } from '../../repository/locale-repository'
 
 const toValidatedSentence =
   (validateSentence: ValidateSentence) =>
@@ -54,6 +55,7 @@ export const AddSentenceCommandHandler =
   (validateSentence: ValidateSentence) =>
   (findDomainIdByName: FindDomainIdByName) =>
   (findVariantByToken: FindVariantByTag) =>
+  (findLocaleByName: FindLocaleByName) =>
   (saveSentence: SaveSentence) =>
   (command: AddSentenceCommand): TE.TaskEither<ApplicationError, void> =>
     pipe(
@@ -93,8 +95,27 @@ export const AddSentenceCommandHandler =
           )
         )
       ),
+      TE.bind('localeId', () =>
+        pipe(
+          findLocaleByName(command.localeName),
+          TE.chain(locale =>
+            pipe(
+              locale,
+              O.match(
+                () => TE.left(createValidationError('Locale not found')),
+                locale => TE.right(locale.id)
+              )
+            )
+          )
+        )
+      ),
       TE.map(
-        ({ validatedSentence, domainIds, variant }): SentenceSubmission => {
+        ({
+          validatedSentence,
+          localeId,
+          domainIds,
+          variant,
+        }): SentenceSubmission => {
           const variantId = pipe(
             variant,
             O.map(variant => variant.id)
@@ -103,7 +124,7 @@ export const AddSentenceCommandHandler =
           return {
             sentence: validatedSentence,
             source: command.source,
-            locale_id: command.localeId,
+            locale_id: localeId,
             client_id: command.clientId,
             domain_ids: [...domainIds],
             variant_id: variantId,
