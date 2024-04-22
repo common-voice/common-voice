@@ -45,6 +45,7 @@ const compileLanguages = (clientLanguages: any, row: any) => {
       id: row.variant_id,
       name: row.variant_name,
       token: row.variant_token,
+      is_preferred_option: row.is_preferred_option === 1,
     };
 
     if (result[row.locale]) {
@@ -413,6 +414,7 @@ const UserClient = {
           v.variant_name,
           v.variant_token,
           v.id as variant_id,
+          uv.is_preferred_option,
           locales.name AS locale,
           ages.age,
           genders.gender,
@@ -472,6 +474,7 @@ const UserClient = {
           row,
           'accent',
           'variant',
+          'is_preferred_option',
           'age',
           'email',
           'gender',
