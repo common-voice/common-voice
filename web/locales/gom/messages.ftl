@@ -5,6 +5,7 @@ stayintouch = Voice technology'cher ami ek community karma Mozilla'an. Ami chad 
 return-to-cv = Porot voch Common Voice'acher
 email-input =
     .label = Email
+submit-form-action = Submit
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
