@@ -2,6 +2,7 @@
 
 yes-receive-emails = Hoi, maka emails send kôr. Maka khup khosi astili Common Voice Project'an bag govpak.
 stayintouch = Voice technology'cher ami ek community karma Mozilla'an. Ami chad khosi tumka update dovarpak, novo data duvpak and aikpak tumi koso ho data use karta toh.
+return-to-cv = Porot voch Common Voice'acher
 email-input =
     .label = Email
 
@@ -54,6 +55,40 @@ email-input =
 ## ABOUT US
 
 
+## How does it work section
+
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+
+
 ## Glossary
 
 
@@ -75,10 +110,16 @@ email-input =
 ## Request Language Modal
 
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 
 ## Contribution
+
+
+## Contribution Nav Items
 
 
 ## Reporting
@@ -131,6 +172,9 @@ email-input =
 ## HOME
 
 
+## GENERAL
+
+
 ## HOW-TO
 
 
@@ -171,4 +215,16 @@ email-input =
 
 
 # [/SentenceCollector]
+
+
+## WRITE PAGE
+
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
+
+## Donate banner
 
