@@ -440,7 +440,7 @@ accept-privacy = زه ستاسو سره د دې مالوماتو په سمبال
 accept-privacy-title = د پټتیا تګلاره
 accept-privacy-and-terms = زه د عام غږ د<termsLink> شرائط</termsLink> او <privacyLink>د محرمیت خبرتیا</privacyLink> سره موافق یم
 login-identity = د ننوتنې پېژند
-login = لاګ ان
+login = ننوتل
 login-signup = ننوتنه/ نوملیکنه
 edit = سمون
 email-subscriptions = د برېښنالیک ګډونونه
@@ -1698,7 +1698,7 @@ public-domain = عامه ډومین
 citing-sentences = د جملې نقل کول
 adding-sentences = د جملو اضافه کول
 reviewing-sentences = د جملو بیاکتنه
-sentence-domain = د جملې ډومین
+sentence-domain = د جملې ټولۍ
 public-domain-explanation-1 = دا ډیره مهمه ده چې د متن ټولې جملې <publicDomain> عامه ډومین</publicDomain> (<cc0>cc0</cc0>) وي ځکه چې د عام غږ ډیټاسیټ د cc0 جواز لاندې خپور شوی. یوازې کله هم یوه جمله اپلوډ کړئ که تاسو ډاډه یاست، او تل اړونده حواله شامل کړئ.
 public-domain-explanation-2 = د ګټورې وینا پیژندنې انجن رامینځته کولو لپاره غوره جملې خبرې ، عصري خبرې دي. ځینې نظریات چې تاسو سره د جملو په جوړولو کې مرسته کوي؛
 public-domain-explanation-3 = د خپل ځان او یا د خپلو ملګرو یا د ژبې ټولنې سره عصري، د خبرو اترو جملې جوړې کړئ - د مثال په توګه د "لیکوالۍ" له لارې
@@ -1783,7 +1783,7 @@ finance = مالیه
 # Sentence Domain dropdown option
 food_service_retail = خواړه، خدمت او پرچون
 # Sentence Domain dropdown option
-general = جنرال
+general = عمومي معلومات
 # Sentence Domain dropdown option
 healthcare = روغتیایی پاملرنه
 # Sentence Domain dropdown option

@@ -4,14 +4,19 @@ import { pipe } from 'fp-ts/lib/function'
 import { ValidateSentence, ValidatedSentence } from '../../../../core/sentences'
 import {
   FindDomainIdByName,
-  FindVariantIdByToken,
   SaveSentence,
 } from '../../repository/sentences-repository'
 import { AddSentenceCommand } from './command/add-sentence-command'
 import { either as E, taskEither as TE } from 'fp-ts'
 import { ApplicationError } from '../../../types/error'
-import { createSentenceValidationError } from '../../../helper/error-helper'
+import {
+  createSentenceValidationError,
+  createValidationError,
+} from '../../../helper/error-helper'
 import { SentenceSubmission } from '../../../types/sentence-submission'
+import { FindVariantByTag } from '../../repository/variant-repository'
+import { Variant } from '../../../../core/types/variant'
+import { FindLocaleByName } from '../../repository/locale-repository'
 
 const toValidatedSentence =
   (validateSentence: ValidateSentence) =>
@@ -41,10 +46,16 @@ const toDomainIds =
     )
   }
 
+const doesLocaleMatchVariant =
+  (locale: string) =>
+  (variant: Variant): boolean =>
+    variant.locale === locale
+
 export const AddSentenceCommandHandler =
   (validateSentence: ValidateSentence) =>
   (findDomainIdByName: FindDomainIdByName) =>
-  (findVariantIdByToken: FindVariantIdByToken) =>
+  (findVariantByToken: FindVariantByTag) =>
+  (findLocaleByName: FindLocaleByName) =>
   (saveSentence: SaveSentence) =>
   (command: AddSentenceCommand): TE.TaskEither<ApplicationError, void> =>
     pipe(
@@ -60,18 +71,60 @@ export const AddSentenceCommandHandler =
       TE.bind('domainIds', () =>
         toDomainIds(findDomainIdByName)(command.domains)
       ),
-      TE.bind('variantId', () =>
+      TE.bind('variant', () =>
         pipe(
           command.variant,
-          O.match(() => TE.of(O.none), findVariantIdByToken)
+          O.match(
+            () => TE.right(O.none),
+            variant => findVariantByToken(variant)
+          )
+        )
+      ),
+      TE.bind('doesLocaleMatchVariant', ({ variant }) =>
+        pipe(
+          variant,
+          O.map(doesLocaleMatchVariant(command.localeName)),
+          O.match(
+            () => TE.right(true),
+            isMatching =>
+              isMatching
+                ? TE.right(true)
+                : TE.left(
+                    createValidationError('Locale does not match variant')
+                  )
+          )
+        )
+      ),
+      TE.bind('localeId', () =>
+        pipe(
+          findLocaleByName(command.localeName),
+          TE.chain(locale =>
+            pipe(
+              locale,
+              O.match(
+                () => TE.left(createValidationError('Locale not found')),
+                locale => TE.right(locale.id)
+              )
+            )
+          )
         )
       ),
       TE.map(
-        ({ validatedSentence, domainIds, variantId }): SentenceSubmission => {
+        ({
+          validatedSentence,
+          localeId,
+          domainIds,
+          variant,
+        }): SentenceSubmission => {
+          const variantId = pipe(
+            variant,
+            O.map(variant => variant.id)
+          )
+
           return {
             sentence: validatedSentence,
             source: command.source,
-            locale_id: command.localeId,
+            locale_id: localeId,
             client_id: command.clientId,
             domain_ids: [...domainIds],
             variant_id: variantId,
