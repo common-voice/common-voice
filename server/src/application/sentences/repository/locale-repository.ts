@@ -22,7 +22,7 @@ export const findLocaleByNameInDb: FindLocaleByName = (localeName: string) =>
   pipe(
     [localeName],
     queryDb(
-      ` SELECT 
+      ` SELECT
           id,
           name,
           target_sentence_count as targetSentenceCount,
