@@ -29,7 +29,8 @@ const WriteContainer = () => {
 
   // add all variants option to the list of variants in the dropdown
   const allVariants =
-    variants && ['sentence-variant-select-all-variants'].concat(variantTokens)
+    variants &&
+    ['sentence-variant-select-multiple-variants'].concat(variantTokens)
 
   const handleToggle = (option: WriteSubmissionToggleOptions) => {
     trackSingleSubmission('toggle-button-click', locale)

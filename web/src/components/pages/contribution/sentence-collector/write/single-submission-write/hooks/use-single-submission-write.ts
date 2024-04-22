@@ -24,7 +24,7 @@ const initialState: SingleSubmissionWriteState = {
   confirmPublicDomain: false,
 }
 
-const allVariantToken = 'sentence-variant-select-all-variants'
+const allVariantToken = 'sentence-variant-select-multiple-variants'
 
 export const useSingleSubmissionWrite = () => {
   const [state, singleSubmissionWriteDispatch] = useReducer(
