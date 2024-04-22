@@ -6,6 +6,7 @@ return-to-cv = Porot voch Common Voice'acher
 email-input =
     .label = Email
 submit-form-action = Submit
+email-opt-in-info = Hoi, Mhaka asle emails dhad jitun Goal Reminders, Progress Updates anik Common Voice`acher novi novi khobryo-patra asta.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -151,6 +152,12 @@ record-abort-continue = Recording purai kor
 record-abort-delete = Sod ani clips delete kor
 listen-instruction = <playIcon></playIcon>{ $actionType }. Ulovpin asa toshech uloile?
 listen-again-instruction = Bore kam kele!<playIcon></playIcon> Toiar zavun porot aik
+listen-3rd-time-instruction = 2 zale, anik korun voch!
+listen-last-time-instruction = <playIcon></playIcon>Last ani ek!
+listen-empty-state = Clips sople astole - page refresh kor, na zaliar magir try kor.
+listen-abort-title = Clips'achi topasni korun zali?
+listen-abort-confirm = Puro zale
+record-button-label = Tuzo avaz di
 
 ## Contribution Nav Items
 
@@ -166,6 +173,7 @@ listen-again-instruction = Bore kam kele!<playIcon></playIcon> Toiar zavun porot
 
 ## Custom Goals
 
+both-speak-and-listen-long = Donui (Uloi ani Aikui)
 
 ## Profile Delete
 
