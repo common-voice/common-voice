@@ -9,9 +9,13 @@ import {
 import { AddSentenceCommand } from './command/add-sentence-command'
 import { either as E, taskEither as TE } from 'fp-ts'
 import { ApplicationError } from '../../../types/error'
-import { createSentenceValidationError } from '../../../helper/error-helper'
+import {
+  createSentenceValidationError,
+  createValidationError,
+} from '../../../helper/error-helper'
 import { SentenceSubmission } from '../../../types/sentence-submission'
 import { FindVariantByTag } from '../../repository/variant-repository'
+import { Variant } from '../../../../core/types/variant'
 
 const toValidatedSentence =
   (validateSentence: ValidateSentence) =>
@@ -41,6 +45,11 @@ const toDomainIds =
     )
   }
 
+const doesLocaleMatchVariant =
+  (locale: string) =>
+  (variant: Variant): boolean =>
+    variant.locale === locale
+
 export const AddSentenceCommandHandler =
   (validateSentence: ValidateSentence) =>
   (findDomainIdByName: FindDomainIdByName) =>
@@ -60,18 +69,37 @@ export const AddSentenceCommandHandler =
       TE.bind('domainIds', () =>
         toDomainIds(findDomainIdByName)(command.domains)
       ),
-      TE.bind('variantId', () =>
+      TE.bind('variant', () =>
         pipe(
           command.variant,
           O.match(
             () => TE.right(O.none),
             variant => findVariantByToken(variant)
-          ),
-          TE.map(O.map(variant => variant.id))
+          )
+        )
+      ),
+      TE.bind('doesLocaleMatchVariant', ({ variant }) =>
+        pipe(
+          variant,
+          O.map(doesLocaleMatchVariant(command.localeName)),
+          O.match(
+            () => TE.right(true),
+            isMatching =>
+              isMatching
+                ? TE.right(true)
+                : TE.left(
+                    createValidationError('Locale does not match variant')
+                  )
+          )
         )
       ),
       TE.map(
-        ({ validatedSentence, domainIds, variantId }): SentenceSubmission => {
+        ({ validatedSentence, domainIds, variant }): SentenceSubmission => {
+          const variantId = pipe(
+            variant,
+            O.map(variant => variant.id)
+          )
+
           return {
             sentence: validatedSentence,
             source: command.source,

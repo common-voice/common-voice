@@ -40,7 +40,7 @@ export default async (req: Request, res: Response) => {
     I.ap(saveSentenceInDb)
   )
 
-  return pipe(
+  const result = await pipe(
     command,
     cmdHandler,
     TE.mapLeft(createPresentableError),
@@ -48,18 +48,20 @@ export default async (req: Request, res: Response) => {
       err => {
         switch (err.kind) {
           case SentenceRepositoryErrorKind: {
-            return T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err))
+            res.status(StatusCodes.INTERNAL_SERVER_ERROR)
+            break;
           }
-          case SentenceValidationErrorKind:
-            return T.of(res.status(StatusCodes.BAD_REQUEST).json(err))
+          case SentenceValidationErrorKind: {
+            res.status(StatusCodes.BAD_REQUEST)
+            break;
+          }
         }
+
+        return err
       },
-      () =>
-        T.of(
-          res.json({
-            message: 'Sentence added successfully',
-          })
-        )
+      () => ({ message: 'Sentence added successfully' })
     )
   )()
+
+  return res.json(result)
 }
