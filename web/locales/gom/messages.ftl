@@ -27,6 +27,8 @@ speak-now = Ata uloi
 help-us-explain = Play kor, kan divun aik, ani sang: Temin asa toshech uloile?
 speak-subtitle = Tuje avaaz dan kor
 listen-subtitle = Sarkeponn topasunk amche moddot kor
+todays-progress = Aiche Pravas
+ready-to-record = Tuje avaaz divpak toiar asa?
 
 ## Account Benefits
 
@@ -42,6 +44,7 @@ listen-subtitle = Sarkeponn topasunk amche moddot kor
 
 ## Speak Shortcuts
 
+shortcut-submit-label = Clips submit kor
 
 ## ProjectStatus
 
@@ -63,6 +66,7 @@ listen-subtitle = Sarkeponn topasunk amche moddot kor
 
 ## How does it work section
 
+about-listen = Aik
 
 ## Community Playbook Content
 ## What is a language
