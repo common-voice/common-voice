@@ -67,6 +67,7 @@ shortcut-submit-label = Clips submit kor
 ## How does it work section
 
 about-listen = Aik
+about-listen-text = Users eka-mekache audio clips`ache sarkeponn topassun poitat ki je boroinn dille vakio asa, toshech vachla kai na.
 
 ## Community Playbook Content
 ## What is a language
@@ -125,6 +126,10 @@ about-listen = Aik
 
 ## Languages Overview
 
+language-section-in-progress = Pravas'an Asa
+language-meter-in-progress = Pravas
+language-speakers = Ulovpi
+language-validation-progress = Topasniche Pravas
 
 ## Contribution
 
