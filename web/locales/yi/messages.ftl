@@ -496,6 +496,7 @@ about-voice-contrib-title = שטימע ביישטייערונג
 about-voice-contrib-subtitle = מענטשן קומען און ביישטייערן זייערע שטימעס.
 about-voice-validation-title = שטימע באשטעטיגונג
 about-voice-validation-subtitle = אנדערע מענטשן באשטעטיגן די שטימע קליפס.
+about-dataset-release-title = ארויסשטעלן דעם דאטא סעט
 about-dataset-release-subtitle = מיר געבן ארויס דעם דאטא סעט איעדער 3 מאנאטן.
 about-subscribe-text = ווילט איר בלייבן אין פארבינדונג מיט קאמאן וואויס?
 about-speak = רעד
@@ -589,6 +590,8 @@ about-playbook-how-project-governance-content-7 = <governanceLink>ליינט מ�
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = וויאזוי ווערט קאמאן וואויס פינאנצירט?
+about-playbook-how-funded-content-1 = קאמאן וואויס איז א פראיעקט פון דער מאזילע פאנדאציע, א US 501c3. דער פראיעקט ווערט יעצט פינאנצירט בלויז דורך <philantropicGrantLink>פילאנטראפישע שענקונגען</philantropicGrantLink> און ביישטייערונגען פון מענטשן ארום דער וועלט.
 
 ## Glossary
 
@@ -630,6 +633,7 @@ review-delete-recordings = מעקט אויס מיין רעקארדירונגען
 
 language = שפרייך
 download-dataset-header = לאדנט אראפ די דאטא סעט
+download-dataset-tag = וועלט אויס דעם געוואונטשענעם שפרייך און וועלט אויס די ווערסיע וואס איר ווילט אראפלאדענען.
 # File size in gigabytes
 size = מאס
 validated-hr-total = סך הכול באשעטיגטע שטונדן
@@ -638,6 +642,7 @@ audio-format = אודיא פארמאט
 number-of-voices = צאל שטימעס
 splits = צוטיילונגען
 email-to-download = לייגט אריין אייער אימעיל צו אראפ לאדענען
+confirm-size = איר זענט גרייט צו אנפאנגען דאס אראפ לאדענען פון <b>{ $size }</b>
 size-gigabyte = ג"ב
 size-megabyte = מ"ב
 confirm-no-identify = <b>דו שטימסט צו</b> נישט צו פראבירן צו געוואר ווערן די אידענטיטעט פון די רעדנערס אין די קאמאן וואויס דאטא סעט

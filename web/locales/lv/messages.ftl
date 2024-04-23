@@ -800,6 +800,8 @@ subscribe = Pierakstīties
 get-started-speech = Darba sākšana ar runas atpazīšanu
 other-datasets = Citas balss datu kopas
 feedback-q = Vai jums ir atsauksmes?
+# This indicates that there is no data to display
+no-information = Informācija nav pieejama
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ir <docsLink>atvērtā koda rīkkopa</docsLink> pētniekiem, kas izstrādā jaunākos sarunvalodas mākslīgā intelekta modeļus.
 resource-deepspeech-info = Common Voice datu kopa papildina Mozilla atvērtā koda balss atpazīšanas dzinēju Deep Speech, ko var izmantot, lai izveidotu runas atpazīšanas programmas. Izlasiet mūsu <githubLink>Github pārskatu</githubLink> vai pievienojieties <discourseLink>DeepSpeech Discourse</discourseLink>, lai uzzinātu, kā sākt darbu.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> veltīta atvērtās runas tehnoloģijas attīstībai. Viņu projekti ietver dziļās mācīšanās metodēs balstītus STT un TTS dzinējus.
@@ -1982,6 +1984,7 @@ single-sentence = Viens teikums
 bulk-sentences = Vairāki teikumi
 sentence-domain-select =
     .label = Teikuma joma
+sentence-domain-select-placeholder = Izvēlieties līdz trim jomām
 # Sentence Domain dropdown option
 agriculture = Lauksaimniecība
 # Sentence Domain dropdown option

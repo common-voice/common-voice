@@ -18,6 +18,8 @@ banner-error-slow-1 = Beklager, Common Voice arbejder langsomt. Tak for din inte
 banner-error-slow-2 = Vi modtager meget trafik og er i øjeblikket ved at undersøge sagerne.
 banner-error-slow-link = Statusside
 error-something-went-wrong = Noget gik galt
+error-clip-upload = Upload af denne optagelse mislykkes fortsat. Vil du blive ved med at prøve?
+error-clip-upload-server = Upload af denne optagelse mislykkes ved server. Genindlæs siden eller prøv igen senere.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -52,6 +54,7 @@ cak = Kaqchikel
 ckb = Sorani
 cnh = Hakha Chin
 co = Korsikansk
+crh = Krim-tatarisk
 cs = Tjekkisk
 cv = Tjuvasjisk
 cy = Walisisk
@@ -144,6 +147,7 @@ nl = Nederlandsk
 nn-NO = Nynorsk
 nr = Sydndebele
 nso = Nordsotho
+ny = Nyanja
 nyn = Nyankole
 oc = Occitansk
 om = Oromo
@@ -165,6 +169,8 @@ sah = Yakut
 sat = Santali (Ol Chiki)
 sc = Sardisk
 scn = Siciliansk
+sco = Skotsk
+sd = Sindhi
 sdh = Sydkurdisk
 shi = Shilha
 si = Singalesisk
@@ -206,6 +212,7 @@ ve = Venda
 vec = Venetiansk
 vi = Vietnamesisk
 vot = Votisk
+wo = Wolof
 xh = Xhosa
 yi = Jiddisch
 yo = Yoruba
@@ -215,6 +222,7 @@ zh-CN = Kinesisk (Kina)
 zh-HK = Kinesisk (Hong Kong)
 zh-TW = Kinesisk (Taiwan)
 zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -391,8 +399,12 @@ native-language =
 profile-form-add-accent = Tilføj ny brugerdefineret accent "{ $inputValue }"
 profile-form-submit-save = Gem
 profile-form-submit-saved = Gemt
-male = Mand
-female = Kvinde
+male_masculine = Mand / maskulin
+female_feminine = Kvinde / feminin
+intersex = Intersex
+transgender = Transkønnet
+non-binary = Ikke-binær
+do_not_wish_to_say = Ønsker ikke at oplyse
 # Gender
 other = Andet
 why-profile-title = Hvorfor oprette en profil?
@@ -411,6 +423,7 @@ why-demographic = Hvorfor er dette vigtigt?
 why-demographic-explanation-2 = Anonymiserede brugerdata som alder, køn og accent hjælper med at forbedre de lyddata, der bruges til at træne nøjagtigheden af talegenkendelses-motorer. Dit brugernavn og din mailadresse vil aldrig blive forbundet med dine indsendte data, og du kan vælge, om du vil gøre dit brugernavn offentligt eller anonymt.
 accept-privacy = Det er helt fint, at I håndterer disse oplysninger som beskrevet i Mozillas <privacyLink>privatlivspolitik</privacyLink>
 accept-privacy-title = Privatlivspolitik
+accept-privacy-and-terms = Jeg accepterer Common Voices' <termsLink>vilkår</termsLink> og <privacyLink>privatlivserklæring</privacyLink>
 login-identity = Login-identitet
 login = Log ind
 login-signup = Log ind / Opret dig
@@ -660,6 +673,10 @@ about-playbook-how-project-governance-content-5 = Værdi og anerkendelse.
 about-playbook-how-project-governance-content-6 = Gensidig ansvarlighed.
 about-playbook-how-project-governance-content-7 = <governanceLink>Læs mere om, hvordan vi styres</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Hvordan er Common Voice finansieret?
+
 ## Glossary
 
 glossary = Ordliste
@@ -703,7 +720,7 @@ license = Licens: <licenseLink>{ $license }</licenseLink>
 license-mixed = Blandet
 data-download-singleword-title = Hent målsegmentet med enkelte ord
 data-download-singleword-callout-v2 = Dette er et brugsmønster-drevet segment, der indeholder data til understøttelse af stemmeudtalt tal og detektering af ja / nej.
-review-terms = Ved brug af Common Voice accepterer du vores <termsLink>Vilkår</termsLink> og <privacyLink>Privatlivspolitik</privacyLink>
+review-terms = Ved brug af Common Voice accepterer du vores <termsLink>vilkår</termsLink> og <privacyLink>privatlivserklæring</privacyLink>
 terms-agree = Jeg accepterer
 terms-disagree = Jeg accepterer ikke
 review-aborted = Upload afbrudt. Vil du slette dine optagelser?
@@ -726,12 +743,14 @@ datasets-positioning =
     
     På denne side finder du en oversigt over andre open source-samlinger af stemme-datasæt, og - i takt med at Common Voice vokser - en oversigt over vores udgivelser og opdateringer.
 language = Sprog
+download-dataset-header = Hent datasættet
 # File size in gigabytes
 size = Størrelse
 validated-hr-total = Validerede timer i alt
 overall-hr-total = Samlede timer i alt
 cv-license = Licens
 audio-format = Lydformat
+dataset-splits = Fordeling (alder og køn)
 number-of-voices = Antal stemmer
 splits = Fordeling
 email-to-download = Indtast mailadresse for at hente
@@ -753,6 +772,8 @@ subscribe = Abonnér
 get-started-speech = Kom godt i gang med talegenkendelse
 other-datasets = Andre stemme-datasæt
 feedback-q = Har du feedback?
+# This indicates that there is no data to display
+no-information = Ingen information
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er et <docsLink>open source-værktøjssæt</docsLink> til forskere, der udvikler avancerede samtale-AI-modeller.
 resource-deepspeech-info = Datasættet fra Common Voice supplerer Deep Speech, en open source-tjeneste til stemmegenkendelse fra Mozilla, som du kan bruge til at bygge software, der gør brug af stemmegenkendelse. Få <githubLink>overblik over projektet på Github</githubLink> eller deltag i <discourseLink>diskussionen om Deepspeech på Discourse</discourseLink> for at komme godt i gang.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> er dedikeret til åben taleteknologi. Deres projekter omfatter deep learning-baserede STT- og TTS-motorer.
@@ -773,6 +794,14 @@ close = Luk
 download = Hent
 dataset-version = Version
 clipboard-not-supported = Udklipsholder er ikke understøttet
+no-information-available = Ingen tilgængelig information
+dataset-metadata-sex = Køn
+# dataset metadata - age of contributor
+dataset-metadata-age = Alder
+donate-modal-message = Dit datasæt downloades!
+dataset-donate-modal-heading = Vidste du…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Hvis du værdsætter åbne, inkluderende data - så donér i dag!</bold>
 
 ## Download Modal
 
@@ -870,6 +899,7 @@ action-click = Klik på
 action-tap = Tryk på
 contribute = Bidrag
 listen = Lyt
+write = Skriv
 skip = Spring over
 shortcuts = Genveje
 clips-with-count-pluralized =
@@ -915,6 +945,9 @@ listen-empty-state = Der er ikke flere stemmeoptagelser at validere på dette sp
 listen-loading-error =
     Vi kunne ikke finde nogen lydklip, som du kan lytte til.
     Prøv igen senere.
+listen-abort-title = Er du færdig med at validere optagelser?
+listen-abort-cancel = Fortsæt med at validere
+listen-abort-confirm = Afslut valideringen
 speak-empty-state = Der er ikke flere sætninger at optage på dette sprog...
 speak-empty-state-cta = Bidrag med sætninger
 speak-loading-error =
@@ -1538,7 +1571,19 @@ localization-select =
     .label = Vælg sprog/oversættelse
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerskaber
+partnerships-governments-header = Regeringer
+partnerships-our-partners = Vores partnere
+why-donate = Hvorfor spørger du?
+add-information-button = Tilføj information
 sentence-collection = Indsamling af sætninger
+
+## WRITE PAGE
+
+how-to-cite = Hvordan citerer jeg?
+contact-us = Kontakt os
+add-sentence-success = 1 sætning indsamlet
+add-sentence-error = Fejl ved tilføjelse af sætning
+required-field = Udfyld venligst dette felt.
 
 ## REVIEW PAGE
 
@@ -1546,7 +1591,14 @@ sentence-collection = Indsamling af sætninger
 ## BULK SUBMISSION 
 
 select-file = Vælg fil
+select-file-mobile = Vælg fil, der skal uploades
+accepted-files = Accepterede filtyper: Kun .tsv
+maximum-file-size = Maksimal filstørrelse: 25 MB
+what-needs-to-be-in-file = Hvad skal der være i min fil?
 file-invalid-type = Ugyldig fil
 file-too-large = Filen er for stor
 file-too-small = Filen er for lille
 too-many-files = For mange filer
+
+## Donate banner
+
