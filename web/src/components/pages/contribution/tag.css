@@ -1,0 +1,23 @@
+.tag-container {
+    background: var(--desert-storm);
+    cursor: pointer;
+    width: 130px;
+    padding: 10px;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+    & p.tag-text {
+        font-size: var(--font-size-sm);
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    img.dropdown-arrow {
+        width: 9px;
+        height: 5px;
+        align-self: center;
+    }
+}
