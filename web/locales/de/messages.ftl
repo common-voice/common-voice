@@ -1808,7 +1808,7 @@ write-page-subtitle = Hier beigetragene Sätze werden zu einem öffentlich zugä
 sentence =
     .label = Satz
 sentence-input-value = Geben Sie hier Ihren gemeinfreien Satz ein
-citation-input-value = Quelle Ihres Satzes
+citation-input-placeholder = Nennen Sie die Quelle Ihres Satzes (erforderlich)
 citation =
     .label = Zitat
 sc-write-submit-confirm =
@@ -1835,8 +1835,6 @@ single-sentence-submission = Einreichung eines einzelnen Satzes
 bulk-sentence-submission = Einreichung mehrerer Sätze
 single-sentence = Einzelner Satz
 bulk-sentences = Mehrere Sätze
-sentence-domain-select =
-    .label = Thema des Satzes
 sentence-domain-select-placeholder = Wählen Sie bis zu drei Domains aus
 # Sentence Domain dropdown option
 agriculture = Landwirtschaft
@@ -1862,6 +1860,9 @@ nature_environment = Natur und Umwelt
 news_current_affairs = Nachrichten und aktuelle Themen
 # Sentence Domain dropdown option
 technology_robotics = Technologie und Robotik
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 
