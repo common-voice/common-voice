@@ -1772,7 +1772,7 @@ write-page-subtitle = Представленные здесь фразы буд�
 sentence =
     .label = Предложение
 sentence-input-value = Введите здесь вашу фразу из общественного достояния
-citation-input-value = Источник вашей фразы
+citation-input-placeholder = Назовите источник вашего предложения (обязательно)
 citation =
     .label = Цитата
 sc-write-submit-confirm = Я подтверждаю, что это предложение является <wikipediaLink>общественным достоянием</wikipediaLink>, и у меня есть разрешение на его загрузку.
@@ -1797,8 +1797,7 @@ single-sentence-submission = Отправка одного предложени�
 bulk-sentence-submission = Массовая отправка предложений
 single-sentence = Одно предложение
 bulk-sentences = Много предложений
-sentence-domain-select =
-    .label = Домен предложений
+sentence-domain-combobox-label = Домен предложений
 sentence-domain-select-placeholder = Выберите до трёх доменов
 # Sentence Domain dropdown option
 agriculture = Сельское хозяйство
@@ -1824,6 +1823,11 @@ nature_environment = Природа и окружение
 news_current_affairs = Новости и текущие события
 # Sentence Domain dropdown option
 technology_robotics = Технологии и робототехника
+sentence-variant-select-label = Вариант предложения
+sentence-variant-select-placeholder = Выберите вариант (необязательно)
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 
