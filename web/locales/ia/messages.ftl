@@ -1746,7 +1746,6 @@ write-page-subtitle = Le phrases fornite ci sera addite a un insimul de datos pu
 sentence =
     .label = Phrase
 sentence-input-value = Insere ci tu phrase de dominio public
-citation-input-value = Fonte de tu phrase
 citation =
     .label = Citation
 sc-write-submit-confirm = Io confirma que iste phrases es del <wikipediaLink>dominio public</wikipediaLink> e que io ha le permission de cargar los.
@@ -1771,8 +1770,7 @@ single-sentence-submission = Invio de phrases singule
 bulk-sentence-submission = Invio de gruppo de phrases
 single-sentence = Phrase singule
 bulk-sentences = Gruppo de phrases
-sentence-domain-select =
-    .label = Dominio del phrase
+sentence-domain-combobox-label = Dominio del phrase
 sentence-domain-select-placeholder = Selige usque tres dominios
 # Sentence Domain dropdown option
 agriculture = Agricultura
@@ -1798,6 +1796,15 @@ nature_environment = Natura e ambiente
 news_current_affairs = Novas e Affaires Currente
 # Sentence Domain dropdown option
 technology_robotics = Technologia e Robotica
+sentence-variant-select-label = Variante del phrase
+sentence-variant-select-placeholder = Elige un variante (optional)
+
+## LANGUAGE VARIANT CODES
+
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+pt-BR = Portugese (Brasil)
+pt-PT = Portugese (Portugal)
 
 ## REVIEW PAGE
 
