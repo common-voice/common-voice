@@ -22,12 +22,12 @@ const ValidatorLocales = [
   'default_locale',
 ] as const
 
-export const ERR_TOO_LONG = 'TOO_LONG'
-export const ERR_NO_NUMBERS = 'NO_NUMBERS'
-export const ERR_NO_SYMBOLS = 'NO_SYMBOLS'
-export const ERR_NO_ABBREVIATIONS = 'NO_ABBREVIATIONS'
-export const ERR_NO_FOREIGN_SCRIPT = 'NO_FOREIGN_SCRIPT'
-export const ERR_OTHER = 'OTHER'
+export const ERR_TOO_LONG = 'TOO_LONG' as const
+export const ERR_NO_NUMBERS = 'NO_NUMBERS' as const
+export const ERR_NO_SYMBOLS = 'NO_SYMBOLS' as const
+export const ERR_NO_ABBREVIATIONS = 'NO_ABBREVIATIONS' as const
+export const ERR_NO_FOREIGN_SCRIPT = 'NO_FOREIGN_SCRIPT' as const
+export const ERR_OTHER = 'OTHER' as const
 
 export const ERROR_TYPES = [
   ERR_TOO_LONG,

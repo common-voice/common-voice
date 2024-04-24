@@ -1,6 +1,6 @@
 import { ValidatorRuleErrorType } from '../../core/sentences'
 
-export const SentencesRepositoryErrorKind = 'SentencesRepository'
+export const SentenceRepositoryErrorKind = 'SentenceRepository'
 export const SentenceValidationErrorKind = 'SentenceValidation'
 export const ValidationErrorKind = 'Validation'
 export const DatabaseErrorKind = 'DatabaseError'
@@ -10,7 +10,7 @@ export const OtherErrorKind = 'Other'
 
 export const ApplicationErrorKinds = [
   ValidationErrorKind,
-  SentencesRepositoryErrorKind,
+  SentenceRepositoryErrorKind,
   SentenceValidationErrorKind,
   DatabaseErrorKind,
   BulkSubmissionErrorKind,
