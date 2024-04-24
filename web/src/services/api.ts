@@ -541,11 +541,17 @@ export default class API {
   createSentence({
     sentence,
     source,
-    localeId,
     localeName,
     domains,
+    variant,
   }: SentenceSubmission) {
-    const data = { domains, sentence, source, localeId, localeName }
+    const data = {
+      domains,
+      sentence,
+      source,
+      localeName,
+      ...(variant && { variant }),
+    }
 
     return this.fetch(`${API_PATH}/sentences`, {
       method: 'POST',

@@ -29,8 +29,8 @@
 
     & label.sentence-input {
         margin: 0 auto 40px;
-        height: 20vh;
-        min-height: 260px;
+        height: 14vh;
+        min-height: 150px;
 
         @media (--xl-up) {
             width: 700px;
@@ -62,6 +62,10 @@
                 }
             }
         }
+
+        &.variants-dropdown-hidden {
+            height: calc(14vh + 90px);
+        }
     }
 
     & label.citation-input {
@@ -76,9 +80,9 @@
         }
     }
 
-    & label.sentence-domain-select,
+    & label.sentence-variant-select,
     .multiple-sentence-domain-select {
-        margin-block-end: 36px;
+        margin-block-end: 38px;
     }
 
     & label.sentence-input.sentence-error,
