@@ -1729,7 +1729,6 @@ write-page-subtitle = Umi ñe’ẽjuaju jehupipyre ojuajúta mba’ekuaarã aty
 sentence =
     .label = Ñe’ẽjoaju
 sentence-input-value = Ehai ko’ápe ne ñe’ẽjuaju opavave oiporukuaáva
-citation-input-value = Ne ñe’ẽjoaju heñoihague
 citation =
     .label = Jehechauka
 sc-write-submit-confirm = Amoneĩ ko ñe’ẽjuaju ha’eha <wikipediaLink>opavave oiporukuaáva</wikipediaLink> ha areko ñemoneĩ ahupi hag̃ua.
@@ -1754,8 +1753,7 @@ single-sentence-submission = Emondo peteĩ ñe’ẽjoaju año
 bulk-sentence-submission = Emondo heta ñe’ẽjoaju
 single-sentence = Peteĩ ñe’ẽjoaju
 bulk-sentences = Heta ñe’ẽjoaju
-sentence-domain-select =
-    .label = Ñe’ẽjuaju rendatee
+sentence-domain-combobox-label = Ñe’ẽjuaju rendatee
 sentence-domain-select-placeholder = Eiporavo mbohapy tendatee peve
 # Sentence Domain dropdown option
 agriculture = Temitỹmby
@@ -1781,6 +1779,9 @@ nature_environment = Tekopy ha Tekoha
 news_current_affairs = Marandu ha Ag̃aguáva
 # Sentence Domain dropdown option
 technology_robotics = Tembiporupyahu ha Robótica
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 
