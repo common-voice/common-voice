@@ -1779,9 +1779,19 @@ nature_environment = Tekopy ha Tekoha
 news_current_affairs = Marandu ha Ag̃aguáva
 # Sentence Domain dropdown option
 technology_robotics = Tembiporupyahu ha Robótica
+sentence-variant-select-label = Ñe’ẽjuaju ambuepy
+sentence-variant-select-placeholder = Eiporavo ambuepy (ejaposérõ)
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = Algueres
+ca-central = Tuichavéva
+ca-balear = Balear
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencia rehegua
+ca-valencia-northern = Valencia septentrional
 
 ## REVIEW PAGE
 
