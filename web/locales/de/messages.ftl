@@ -1879,6 +1879,25 @@ ca-valencia-southern = Süd-Valencià
 ca-valencia-alacant = Alacantí
 cy-northwes = Nord-westliches Walisisch
 cy-northeas = Nord-östliches Walisisch
+cy-midwales = Mid-Walisisch
+cy-southwes = Süd-westliches Walisisch
+cy-southeas = Süd-östliches Walisisch
+cy-wladfa = Patagonisches Walisisch
+pt-BR = Portugiesisch (Brasilianisch)
+pt-PT = Portugiesisch (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Zentraler Dialekt
+sw-kibajuni = Kibajuni (KE) – Nördlicher Dialekt
+sw-kimrima = Kimrima (TZ) – Nördlicher Dialekt
+sw-kiunguja = Kiunguja (TZ) – Südlicher Dialekt
+sw-kipemba = Kipemba (TZ) – Südlicher Dialekt
+sw-kikae = Kimakunduchi/Kikae (TZ) – Südlicher Dialekt
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Zentralatlas-Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
