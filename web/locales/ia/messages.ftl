@@ -245,7 +245,7 @@ languages = linguas
 about = A proposito
 partner = Partner
 profile = Profilo
-help = Auxilio
+help = Adjuta
 contact = Contacto
 privacy = Confidentialitate
 terms = Terminos
@@ -1746,6 +1746,7 @@ write-page-subtitle = Le phrases fornite ci sera addite a un insimul de datos pu
 sentence =
     .label = Phrase
 sentence-input-value = Insere ci tu phrase de dominio public
+citation-input-placeholder = Refere le fonte de tu phrase (obligatori)
 citation =
     .label = Citation
 sc-write-submit-confirm = Io confirma que iste phrases es del <wikipediaLink>dominio public</wikipediaLink> e que io ha le permission de cargar los.
@@ -1798,9 +1799,11 @@ news_current_affairs = Novas e Affaires Currente
 technology_robotics = Technologia e Robotica
 sentence-variant-select-label = Variante del phrase
 sentence-variant-select-placeholder = Elige un variante (optional)
+sentence-variant-select-multiple-variants = Lingua general / plure variantes
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = Catalano Alguerese
 ca-nwestern = Nord-Occidental
 ca-northern = Septentrional
 pt-BR = Portugese (Brasil)
