@@ -1787,6 +1787,12 @@ sentence-variant-select-placeholder = Selecione uma variante (opcional)
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = Catalão alguerês
+ca-balear = Catalão balear
+ca-nwestern = Norte-Ocidental
+ca-northern = Setentrional
+pt-BR = Português (Brasil)
+pt-PT = Português (Portugal)
 
 ## REVIEW PAGE
 
