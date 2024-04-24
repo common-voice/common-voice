@@ -122,7 +122,13 @@ function ProfileInfoLanguages({
               </ExpandableInformation>
             )}
 
-            {variantsAll[locale] && <VariantContributionOptions />}
+            {variantsAll[locale] && (
+              <VariantContributionOptions
+                userLanguages={userLanguages}
+                setUserLanguages={setUserLanguages}
+                locale={locale}
+              />
+            )}
           </div>
         ))}
       </div>
