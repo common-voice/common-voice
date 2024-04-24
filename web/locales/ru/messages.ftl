@@ -1825,9 +1825,41 @@ news_current_affairs = Новости и текущие события
 technology_robotics = Технологии и робототехника
 sentence-variant-select-label = Вариант предложения
 sentence-variant-select-placeholder = Выберите вариант (необязательно)
+sentence-variant-select-multiple-variants = Общий язык / несколько вариантов
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = Альгерский
+ca-central = Центральный
+ca-balear = Балеарский
+ca-nwestern = Северо-Западный
+ca-northern = Септентриональный
+ca-valencia-tortosi = Тортосский
+ca-valencia-central = Валенсийский центральный
+ca-valencia-northern = Валенсийский септентриональный
+ca-valencia-southern = Южноваленсийский
+ca-valencia-alacant = Аликанте
+cy-northwes = Северо-западный валлийский
+cy-northeas = Северо-восточный валлийский
+cy-midwales = Средний валлийский
+cy-southwes = Юго-западный валлийский
+cy-southeas = Юго-восточный валлийский
+cy-wladfa = Патагонский валлийский
+pt-BR = Португальский (Бразилия)
+pt-PT = Португальский (Португалия)
+sw-sanifu = Кисуахили Санифу (EA)
+sw-barake = Кисуахили ча Бара я Кения
+sw-baratz = Суахили ча Бара я Танзания
+sw-kingwana = Кингвана (DRC)
+sw-kimvita = Кимвита (KE) - Центральный диалект
+sw-kibajuni = Кибаюни (KE) - Северный диалект
+sw-kimrima = Кимрима (TZ) - Северный диалект
+sw-kiunguja = Киунгуджа (TZ) - Южный диалект
+sw-kipemba = Кипемба (TZ) - Южный диалект
+sw-kikae = Кимакундути/Кикаэ (TZ) - Южный диалект
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Тахелхит)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Центральный Атлас Тамазайт)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Тарифит)
 
 ## REVIEW PAGE
 
