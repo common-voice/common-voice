@@ -1,4 +1,4 @@
-import { fakerEN as faker, fakerRU } from '@faker-js/faker'
+import { fakerEN as faker, fakerRU, fakerPT_PT } from '@faker-js/faker'
 
 import {
   submitSingleSubmissionForm,
@@ -55,6 +55,26 @@ describe('The Write Page - Single Submission', () => {
     cy.get('[data-testid=sentence-textarea]').should('have.value', '')
 
     cy.get('.notification-pill').contains('1 sentence collected')
+  })
+
+  it('adds sentence with variant', () => {
+    // Portuguese has variants
+    cy.visit('/pt/write')
+
+    const portugueseSentence = `${fakerPT_PT.lorem.sentence(10)}`
+
+    typeSingleSubmission({
+      sentence: portugueseSentence,
+      shouldTypeCitation: true,
+      shouldSelectVariant: true,
+    })
+
+    submitSingleSubmissionForm()
+
+    // assert text area is empty after adding a sentence
+    cy.get('[data-testid=sentence-textarea]').should('have.value', '')
+
+    cy.get('.notification-pill').contains('1 frase coletada')
   })
 
   it('requires citation to add a sentence', () => {

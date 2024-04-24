@@ -118,13 +118,13 @@
 
 .rules.write-rules {
     @media (--xl-up) {
-        height: calc(30vh + 82px);
+        height: calc(30vh + 50px);
         min-height: 440px;
         max-height: 500px;
     }
 
     @media (--lg-only) {
-        max-height: 445px;
+        max-height: 415px;
     }
 
     @media (--md-down) {

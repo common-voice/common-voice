@@ -16,18 +16,18 @@ export const SelectedItemsList: React.FC<Props> = ({
   const { l10n } = useLocalization()
 
   return (
-    <div className="selected-domains-list">
+    <div className="selected-items-list">
       {selectedItems.map(item => (
-        <span key={`domain-${item}`} className="selected-domain">
-          {l10n.getString(item)}
+        <div key={`domain-${item}`} className="selected-item">
+          <p title={l10n.getString(item)}>{l10n.getString(item)}</p>
           <button
-            className="selected-domain--button"
+            className="selected-item--button"
             onClick={() => removeItem(item)}
             type="button">
             <VisuallyHidden>Remove {l10n.getString(item)}</VisuallyHidden>
             <CloseIcon black />
           </button>
-        </span>
+        </div>
       ))}
     </div>
   )
