@@ -16,6 +16,7 @@ export const AddBulkSentencesCommandHandler =
         readTsvIntoMemory<{
           'Sentence (mandatory)': string
           'Source (mandatory)': string
+          'Domain (optional)': string
         }>(cmd.tsvFile)
       ),
       TE.bind('clientId', () => fetchUserClientIdByEmail(cmd.email)),
