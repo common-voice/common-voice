@@ -1,4 +1,4 @@
-import { createMd5Hash } from '../crypto/crypto'
+import { createMd5Hash } from '../../infrastructure/crypto/crypto'
 
 export const createBulkSubmissionFilepath = (
   locale: string,
