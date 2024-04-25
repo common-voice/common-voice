@@ -15,7 +15,7 @@ import {
 } from '../../../helper/error-helper'
 import { SentenceSubmission } from '../../../types/sentence-submission'
 import { FindVariantByTag } from '../../repository/variant-repository'
-import { Variant } from '../../../../core/types/variant'
+import { Variant } from '../../../../core/variants/variant'
 import { FindLocaleByName } from '../../repository/locale-repository'
 
 const toValidatedSentence =
