@@ -1804,6 +1804,7 @@ sentence-variant-select-multiple-variants = Lingua general / plure variantes
 ## LANGUAGE VARIANT CODES
 
 ca-algueres = Catalano Alguerese
+ca-central = Central
 ca-nwestern = Nord-Occidental
 ca-northern = Septentrional
 pt-BR = Portugese (Brasil)
