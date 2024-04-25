@@ -1,10 +1,10 @@
-import { SentenceDomain, SentenceDomainName } from 'common'
+import { SentenceDomain, SentenceDomainDescription } from 'common'
 
-export type DomainNameMap = Readonly<{
-  [key in SentenceDomain]: SentenceDomainName
+export type DomainDescriptionMap = Readonly<{
+  [key in SentenceDomain]: SentenceDomainDescription
 }>
 
-export const domainNameMap: DomainNameMap = {
+export const domainDescriptionMap: DomainDescriptionMap = {
   general: 'General',
   agriculture: 'Agriculture and Food',
   automotive: 'Automotive and Transport',
@@ -17,4 +17,10 @@ export const domainNameMap: DomainNameMap = {
   nature_environment: 'Nature and Environment',
   news_current_affairs: 'News and Current Affairs',
   technology_robotics: 'Technology and Robotics',
+}
+
+export type Domain = {
+  id: number
+  name: SentenceDomain
+  description: SentenceDomainDescription
 }

@@ -35,6 +35,8 @@ const importSentences = async (args: any, options: any) => {
   )
 
   await executeCmd()
+  console.log('Sentences imported')
+  process.exit(0)
 }
 
 program
