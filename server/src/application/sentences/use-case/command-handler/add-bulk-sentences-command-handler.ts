@@ -5,13 +5,14 @@ import { taskEither as TE } from 'fp-ts'
 import { AddBulkSentencesCommand } from './command/add-bulk-sentences-command'
 import { ReadTsvIntoMemory } from '../../../../infrastructure/parser/tsvParser'
 import { FetchUserClientIdByEmail } from '../../repository/user-repository'
-import { fetchSentenceDomains } from '../../repository/domain-repository'
+import { FetchSentenceDomains } from '../../repository/domain-repository'
 import { SentenceDomainDescription } from 'common'
 import { SentenceSubmission } from '../../../types/sentence-submission'
 
 export const AddBulkSentencesCommandHandler =
   (readTsvIntoMemory: ReadTsvIntoMemory) =>
   (fetchUserClientIdByEmail: FetchUserClientIdByEmail) =>
+  (fetchSentenceDomains: FetchSentenceDomains) =>
   (insertBulkSentences: InsertBulkSentences) =>
   (cmd: AddBulkSentencesCommand) => {
     return pipe(
