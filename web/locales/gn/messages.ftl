@@ -1793,6 +1793,10 @@ ca-valencia-tortosi = Tortosí
 ca-valencia-central = Valencia rehegua
 ca-valencia-northern = Valencia septentrional
 pt-BR = Portugués (Brasil)
+pt-PT = Portugués (Portugal)
+sw-kingwana = Kingwana (DRC)
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
