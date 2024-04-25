@@ -3,7 +3,7 @@ import { StatusCodes } from 'http-status-codes'
 import { GetSentencesForReviewQueryHandler } from '../../../application/sentences/use-case/query-handler/get-sentences-for-review-query-handler'
 import { GetSentencesForReviewQuery } from '../../../application/sentences/use-case/query-handler/query/get-sentences-for-review-query'
 import lazyCache from '../../../lib/lazy-cache'
-import { createHash } from '../../../core/crypto/crypto'
+import { createHash } from '../../../infrastructure/crypto/crypto'
 
 export default async (req: Request, res: Response) => {
   const query: GetSentencesForReviewQuery = {

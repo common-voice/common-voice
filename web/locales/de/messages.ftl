@@ -1808,7 +1808,7 @@ write-page-subtitle = Hier beigetragene Sätze werden zu einem öffentlich zugä
 sentence =
     .label = Satz
 sentence-input-value = Geben Sie hier Ihren gemeinfreien Satz ein
-citation-input-value = Quelle Ihres Satzes
+citation-input-placeholder = Nennen Sie die Quelle Ihres Satzes (erforderlich)
 citation =
     .label = Zitat
 sc-write-submit-confirm =
@@ -1835,8 +1835,7 @@ single-sentence-submission = Einreichung eines einzelnen Satzes
 bulk-sentence-submission = Einreichung mehrerer Sätze
 single-sentence = Einzelner Satz
 bulk-sentences = Mehrere Sätze
-sentence-domain-select =
-    .label = Thema des Satzes
+sentence-domain-combobox-label = Thema des Satzes
 sentence-domain-select-placeholder = Wählen Sie bis zu drei Domains aus
 # Sentence Domain dropdown option
 agriculture = Landwirtschaft
@@ -1862,6 +1861,43 @@ nature_environment = Natur und Umwelt
 news_current_affairs = Nachrichten und aktuelle Themen
 # Sentence Domain dropdown option
 technology_robotics = Technologie und Robotik
+sentence-variant-select-label = Satzvariante
+sentence-variant-select-placeholder = Wählen Sie eine Variante (optional)
+sentence-variant-select-multiple-variants = Allgemeine Sprache / mehrere Varianten
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Algueres
+ca-central = Zentral
+ca-balear = Balearisch
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Zentral-Valencià
+ca-valencia-northern = Septentrional-Valencià
+ca-valencia-southern = Süd-Valencià
+ca-valencia-alacant = Alacantí
+cy-northwes = Nord-westliches Walisisch
+cy-northeas = Nord-östliches Walisisch
+cy-midwales = Mid-Walisisch
+cy-southwes = Süd-westliches Walisisch
+cy-southeas = Süd-östliches Walisisch
+cy-wladfa = Patagonisches Walisisch
+pt-BR = Portugiesisch (Brasilianisch)
+pt-PT = Portugiesisch (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Zentraler Dialekt
+sw-kibajuni = Kibajuni (KE) – Nördlicher Dialekt
+sw-kimrima = Kimrima (TZ) – Nördlicher Dialekt
+sw-kiunguja = Kiunguja (TZ) – Südlicher Dialekt
+sw-kipemba = Kipemba (TZ) – Südlicher Dialekt
+sw-kikae = Kimakunduchi/Kikae (TZ) – Südlicher Dialekt
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Zentralatlas-Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
