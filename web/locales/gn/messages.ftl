@@ -1792,6 +1792,7 @@ ca-northern = Septentrional
 ca-valencia-tortosi = Tortosí
 ca-valencia-central = Valencia rehegua
 ca-valencia-northern = Valencia septentrional
+pt-BR = Portugués (Brasil)
 
 ## REVIEW PAGE
 
