@@ -5,10 +5,18 @@ import { AddBulkSentencesCommand } from '../../../../../application/sentences/us
 import { constVoid, pipe } from 'fp-ts/lib/function'
 import * as fs from 'fs'
 import * as path from 'path'
+import { Domain } from '../../../../../core/domains/domain'
+
+const generalDomain: Domain = {
+  id: 1,
+  name: 'general',
+  description: 'General',
+}
 
 describe('Add bulk sentences command handler', () => {
   it('should parse and process the tsv file correctly', async () => {
     const fetchUserClientIdByEmailMock = jest.fn(() => TE.right('abc1234'))
+    const fetchSentenceDomainsMock = jest.fn(() => TE.right([generalDomain]))
     const insertBulkSentencesMock = jest.fn(() => TE.right(constVoid()))
     const tsvFileReadable = fs.createReadStream(
       path.join(__dirname, 'sample-bulk-submission.tsv'),
@@ -26,6 +34,7 @@ describe('Add bulk sentences command handler', () => {
       AddBulkSentencesCommandHandler,
       Id.ap(readTsvIntoMemory),
       Id.ap(fetchUserClientIdByEmailMock),
+      Id.ap(fetchSentenceDomainsMock),
       Id.ap(insertBulkSentencesMock)
     )
 
@@ -44,6 +53,7 @@ describe('Add bulk sentences command handler', () => {
     const fetchUserClientIdByEmailMock = jest.fn(() =>
       TE.left(new Error('Cannot find user with this email'))
     )
+    const fetchSentenceDomainsMock = jest.fn(() => TE.right([generalDomain]))
     const insertBulkSentencesMock = jest.fn(() => TE.right(constVoid()))
     const tsvFileReadable = fs.createReadStream(
       path.join(__dirname, 'sample-bulk-submission.tsv'),
@@ -61,6 +71,7 @@ describe('Add bulk sentences command handler', () => {
       AddBulkSentencesCommandHandler,
       Id.ap(readTsvIntoMemory),
       Id.ap(fetchUserClientIdByEmailMock),
+      Id.ap(fetchSentenceDomainsMock),
       Id.ap(insertBulkSentencesMock)
     )
 
