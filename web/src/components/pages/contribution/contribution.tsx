@@ -447,7 +447,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                             </StyledLink>
                           </div>
                         ) : null}
-                        <Tag />
+                        <Tag tagText="Mexican" />
                       </div>
                     </div>
                   );

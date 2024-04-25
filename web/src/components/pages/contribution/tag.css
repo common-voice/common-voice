@@ -21,3 +21,20 @@
         align-self: center;
     }
 }
+
+.tippy-popper {
+    .tippy-tooltip {
+        border-radius: 0;
+    }
+
+    .tooltip-content {
+        padding: 5px;
+
+        button {
+            font-size: 14px;
+            font-family: var(--base-font-family);
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
