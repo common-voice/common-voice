@@ -1821,6 +1821,19 @@ cy-southeas = Gallese del sud-est
 cy-wladfa = Gallese patagoniano
 pt-BR = Portugese (Brasil)
 pt-PT = Portugese (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Dialecto central
+sw-kibajuni = Kibajuni (KE) - Dialecto del nord
+sw-kimrima = Kimrima (TZ) - Dialecto del nord
+sw-kiunguja = Kiunguja (TZ) - Dialecto del sud
+sw-kipemba = Kipemba (TZ) - Dialecto del sud
+sw-kikae = Kimakunduchi/Kikae (TZ) - Dialecto del sud
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (atlas tamazight central)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
