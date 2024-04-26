@@ -1804,6 +1804,25 @@ sentence-variant-select-multiple-variants = Allmänt språk / flera varianter
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = Alguerès
+ca-central = Central
+ca-balear = Balear
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Nordvästliga walesiska
+cy-northeas = Nordöstra Walesiska
+cy-midwales = Mitten av Wales
+cy-southwes = Sydvästliga walesiska
+cy-southeas = Sydöstra walesiska
+cy-wladfa = Patagonien, Walesiska
+pt-BR = Portugisiska (Brasilien)
+pt-PT = Portugisiska (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
 
 ## REVIEW PAGE
 
