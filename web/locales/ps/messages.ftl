@@ -456,6 +456,7 @@ help-accent-explanation = ستاسو خجنښه ستاسو د کلمو تلفظ�
 help-variants = د ډولونو سره یو څه مرستې ته اړتیا لرئ؟
 help-variants-explanation = ډولونه د یوې ژبې ځانګړې بڼه ده - د بیلګې په توګه د هغو کسانو لخوا چې په یوې جغرافیه یا ټولنه کې ژوند کوي سره شریکه وي. ځینې وختونه دا د لهجو په نوم یادیږي.
 help-sex-or-gender-changes = د جنسیت یا جندر بدلونونو کې مرستې ته اړتیا لرئ؟
+help-sex-or-gender-changes-explanation = موږ ډیر انتخابونه وړاندې کوو ترڅو خلکو ته د هغه څه په اړه نور انتخاب ورکړو چې دوی موږ ته د دوی د جنسیت یا جنډر هویت په اړه وايي. مهرباني وکړئ ځان په هغه طریقه بیان کړئ چې تاسو ته خورا طبیعي احساس کوي. <learnMoreLink>د جنس او جنسیت په اړه زموږ د چلند په اړه نور معلومات ترلاسه کړئ.</learnMoreLink>
 
 ## Profile - Email
 
@@ -694,6 +695,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>په دې اړ
 ## How is Common Voice funded
 
 about-playbook-how-funded = عام غږ څنګه کار کوي؟
+about-playbook-how-funded-content-1 = Common Voice د موزیلا بنسټ یوه پروژه ده، چې د امریکا 501c3 ده. دا پروژه اوس مهال په بشپړه توګه د <philantropicGrantLink>خلکو مرستو</philantropicGrantLink> لخوا تمویل کیږي، او د نړۍ د خلکو لخوا تمویل کیږي.
 about-playbook-how-funded-content-2 = دا په دوامداره توګه د ډیټاسیټونو کوربه کولو او خوشې کولو، پلیټ فارم ته وده ورکولو او د <africaMradiLink> د ټولنې پروګرامونو</africaMradiLink> چلولو لپاره ډیرې پیسې لګوي.
 about-playbook-how-funded-content-3 = که تاسو یا ستاسو سازمان غواړئ چې په دې پروژه کې بیرته مرسته وکړئ، تاسو کولی شئ یو <donateLink>ډونیشن</donateLink> وکړئ یا په <emailFragment>commonvoice@mozilla.com</emailFragment> کې زموږ د شراکت ټیم سره اړیکه ونیسئ.
 
@@ -1746,7 +1748,7 @@ write-page-subtitle = دلته مرسته شوي جملې به په عامه ت�
 sentence =
     .label = جمله
 sentence-input-value = خپل عامه ډومین جمله دلته دننه کړئ
-citation-input-value = ستاسو د جملې سرچینه
+citation-input-placeholder = د خپلې جملې سرچینې ته مراجعه وکړئ (اړین)
 citation =
     .label = اقتباس
 sc-write-submit-confirm = زه تایید کوم چې دا جمله <wikipediaLink> عامه ډومین</wikipediaLink> ده او زه یې د پورته کولو اجازه لرم.
@@ -1771,8 +1773,7 @@ single-sentence-submission = د واحد جملې سپارل
 bulk-sentence-submission = د ډیرو جملو سپارل
 single-sentence = یوه جمله
 bulk-sentences = ډيري جملې
-sentence-domain-select =
-    .label = د جملې ډومین
+sentence-domain-combobox-label = د جملې ټولۍ
 sentence-domain-select-placeholder = تر دریو ډومینونو پورې غوره کړئ
 # Sentence Domain dropdown option
 agriculture = کرنه
@@ -1798,6 +1799,14 @@ nature_environment = طبیعت او چاپیریال
 news_current_affairs = خبرونه او اوسنۍ چارې
 # Sentence Domain dropdown option
 technology_robotics = ټیکنالوژي او روبوټکس
+sentence-variant-select-label = د جملې تغیرات
+sentence-variant-select-placeholder = یو ډول انتخاب کړئ (اختیاري)
+sentence-variant-select-multiple-variants = عمومي ژبه / ډیر ډولونه
+
+## LANGUAGE VARIANT CODES
+
+ca-central = مرکزي
+ca-balear = بیلیر
 
 ## REVIEW PAGE
 
