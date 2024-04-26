@@ -1734,7 +1734,7 @@ write-page-subtitle = بۇ جايدا تۆھپە قوشۇلغان جۈملىلە
 sentence =
     .label = جۈملە
 sentence-input-value = ئاممىۋى دائىرىدىكى جۈملىنى بۇ جايغا كىرگۈزۈڭ
-citation-input-value = جۈملىڭىزنىڭ مەنبەسى
+citation-input-placeholder = جۈملىڭىزنىڭ پايدىلانما مەنبەسى (زۆرۈر)
 citation =
     .label = نەقىل
 sc-write-submit-confirm = مەن بۇ جۈملىنىڭ <wikipediaLink>ئاممىۋى دائىرە</wikipediaLink> دە ئىكەنلىكىنى جەزملەشتۈرىمەن ھەمدە ئۇنى يۈكلەش ئىجازىتىم بار.
@@ -1759,8 +1759,7 @@ single-sentence-submission = يەككە جۈملە يوللاش
 bulk-sentence-submission = تۈركۈملەپ جۈملە يوللاش
 single-sentence = يەككە جۈملە
 bulk-sentences = كۆپ جۈملە
-sentence-domain-select =
-    .label = جۈملە دائىرىسى
+sentence-domain-combobox-label = جۈملە دائىرىسى
 sentence-domain-select-placeholder = كۆپ بولغاندا ئۈچ دائىرە تاللىنىدۇ
 # Sentence Domain dropdown option
 agriculture = دېھقانچىلىق
@@ -1786,6 +1785,12 @@ nature_environment = تەبىئەت ۋە مۇھىت
 news_current_affairs = خەۋەر ۋە نۆۋەتتىكى ۋەقەلەر
 # Sentence Domain dropdown option
 technology_robotics = تېخنىكا ۋە ماشىنا ئادەم
+sentence-variant-select-label = جۈملە تۈرى
+sentence-variant-select-placeholder = تۈرى تاللىنىدۇ (تاللاشچان)
+sentence-variant-select-multiple-variants = ئادەتتىكى تىل / كۆپ خىل تۈرى
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 
