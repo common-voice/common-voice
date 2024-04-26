@@ -4,9 +4,9 @@ import lazyCache from '../../lib/lazy-cache'
 import { createMd5Hash } from '../crypto/crypto'
 
 const db: Mysql = getMySQLInstance()
-type QueryParams = Array<string | number | boolean> | Array<Array<string | number | boolean>>
-
-
+type QueryParams =
+  | Array<string | number | boolean>
+  | Array<Array<string | number | boolean>>
 
 const lazyQuery =
   (db: Mysql) =>

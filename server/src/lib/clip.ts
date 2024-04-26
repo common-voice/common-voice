@@ -14,7 +14,9 @@ import validate from './validation';
 import { clipsSchema } from './validation/clips';
 import { streamUploadToBucket } from '../infrastructure/storage/storage';
 import { pipe } from 'fp-ts/lib/function';
-import {taskEither as TE, task as T, identity as Id} from 'fp-ts';
+import { option as O, taskEither as TE, task as T, identity as Id } from 'fp-ts';
+import { Clip as ClientClip } from 'common';
+import { FindVariantsBySentenceIdsResult, findVariantsBySentenceIdsInDb } from '../application/sentences/repository/variant-repository';
 
 const { promisify } = require('util');
 const Transcoder = require('stream-transcoder');
@@ -152,23 +154,23 @@ export default class Clip {
     Basket.sync(client_id).catch(e => console.error(e));
     const ret = challengeTokens.includes(challenge)
       ? {
-          glob: glob,
-          showFirstContributionToast: await earnBonus('first_contribution', [
-            challenge,
-            client_id,
-          ]),
-          hasEarnedSessionToast: await hasEarnedBonus(
-            'invite_contribute_same_session',
-            client_id,
-            challenge
-          ),
-          showFirstStreakToast: await earnBonus('three_day_streak', [
-            client_id,
-            client_id,
-            challenge,
-          ]),
-          challengeEnded: await this.model.db.hasChallengeEnded(challenge),
-        }
+        glob: glob,
+        showFirstContributionToast: await earnBonus('first_contribution', [
+          challenge,
+          client_id,
+        ]),
+        hasEarnedSessionToast: await hasEarnedBonus(
+          'invite_contribute_same_session',
+          client_id,
+          challenge
+        ),
+        showFirstStreakToast: await earnBonus('three_day_streak', [
+          client_id,
+          client_id,
+          challenge,
+        ]),
+        challengeEnded: await this.model.db.hasChallengeEnded(challenge),
+      }
       : { glob };
     response.json(ret);
   };
@@ -242,10 +244,10 @@ export default class Clip {
         audioInput = converter.createBufferedInputStream();
         audioStream.pipe(audioInput);
       }
-      
+
       const pass = new PassThrough();
 
-      let chunks: any = []; 
+      let chunks: any = [];
 
       pass.on('error', (error: string) => {
         this.clipSaveError(
@@ -258,7 +260,7 @@ export default class Clip {
         );
         return;
       })
-      pass.on('data', function (chunk: any) {
+      pass.on('data', function(chunk: any) {
         chunks.push(chunk);
       });
       pass.on('finish', async () => {
@@ -286,30 +288,30 @@ export default class Clip {
         const challenge = headers.challenge as ChallengeToken;
         const ret = challengeTokens.includes(challenge)
           ? {
-              filePrefix: filePrefix,
-              showFirstContributionToast: await earnBonus(
-                'first_contribution',
-                [challenge, client_id]
-              ),
-              hasEarnedSessionToast: await hasEarnedBonus(
-                'invite_contribute_same_session',
-                client_id,
-                challenge
-              ),
-              // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
-              // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
-              showFirstStreakToast: await earnBonus('three_day_streak', [
-                client_id,
-                client_id,
-                challenge,
-              ]),
-              challengeEnded: await this.model.db.hasChallengeEnded(
-                challenge
-              ),
-            }
+            filePrefix: filePrefix,
+            showFirstContributionToast: await earnBonus(
+              'first_contribution',
+              [challenge, client_id]
+            ),
+            hasEarnedSessionToast: await hasEarnedBonus(
+              'invite_contribute_same_session',
+              client_id,
+              challenge
+            ),
+            // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
+            // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
+            showFirstStreakToast: await earnBonus('three_day_streak', [
+              client_id,
+              client_id,
+              challenge,
+            ]),
+            challengeEnded: await this.model.db.hasChallengeEnded(
+              challenge
+            ),
+          }
           : { filePrefix };
-          response.json(ret);
-        })
+        response.json(ret);
+      })
 
       const audioOutput = new Transcoder(audioInput)
         .audioCodec('mp3')
@@ -339,9 +341,31 @@ export default class Clip {
       client_id,
       params.locale,
       count
-    );
+    ).then(this.appendMetadata);
+
     response.json(clips);
   };
+
+  private appendMetadata = async (clips: ClientClip[]) => {
+    const sentenceIds = clips.map(c => c.sentence.id);
+
+    const sentenceVariants = await pipe(
+      sentenceIds,
+      findVariantsBySentenceIdsInDb,
+      TE.getOrElse(() => T.of({} as FindVariantsBySentenceIdsResult))
+    )()
+
+    for (const clip of clips) {
+      const sentenceId = clip.sentence.id
+      const variant = sentenceVariants[sentenceId] || O.none
+      clip.sentence.variant = pipe(
+        variant,
+        O.getOrElse(() => null)
+      )
+    }
+
+    return clips
+  }
 
   serveDailyCount = async (request: Request, response: Response) => {
     response.json(

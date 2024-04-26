@@ -11,10 +11,11 @@ export type FindVariantByTag = (
 
 export type FindVariantsBySentenceIds = (
   sentenceIds: string[]
-) => TE.TaskEither<
-  ApplicationError,
-  { [sentenceId: string]: O.Option<Variant> }[]
->
+) => TE.TaskEither<ApplicationError, FindVariantsBySentenceIdsResult>
+
+export type FindVariantsBySentenceIdsResult = {
+  [sentenceId: string]: O.Option<Variant>
+}
 
 export const findVariantByTagInDb: FindVariantByTag = (variantName: string) =>
   pipe(
@@ -57,9 +58,10 @@ export const findVariantsBySentenceIdsInDb: FindVariantsBySentenceIds = (
       ([results]: Array<Array<{ sentence_id: string } & Variant>>) => results
     ),
     TE.map(rows =>
-      rows.map(row => {
+      rows.reduce((curr, row) => {
         const { sentence_id, ...variant } = row
         return {
+          ...curr,
           [sentence_id]: O.fromPredicate(
             (v: Variant) =>
               v.id !== null &&
@@ -68,6 +70,6 @@ export const findVariantsBySentenceIdsInDb: FindVariantsBySentenceIds = (
               v.locale !== null
           )(variant),
         }
-      })
+      }, {})
     )
   )
