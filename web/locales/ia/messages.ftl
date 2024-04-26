@@ -1809,6 +1809,10 @@ ca-balear = Balear
 ca-nwestern = Nord-Occidental
 ca-northern = Septentrional
 ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
 pt-BR = Portugese (Brasil)
 pt-PT = Portugese (Portugal)
 
