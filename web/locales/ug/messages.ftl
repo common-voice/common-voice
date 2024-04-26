@@ -1791,6 +1791,14 @@ sentence-variant-select-multiple-variants = ئادەتتىكى تىل / كۆپ �
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = ئالگېرىس
+ca-central = مەركىزى
+ca-balear = بالېر
+pt-BR = پورتۇگالچە (بىرازىلىيە)
+pt-PT = پورتۇگالچە (پورتۇگالىيە)
+sw-kimvita = كىمۋىتا (كېنىيە) - مەركىزى شېۋە
+sw-kibajuni = كىباجۇنى (كېنىيە) - شىمال شېۋىسى
+sw-kimrima = كىمرىما (تانزانىيە) - شىمال شېۋىسى
 
 ## REVIEW PAGE
 
