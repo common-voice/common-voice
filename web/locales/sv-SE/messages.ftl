@@ -1747,7 +1747,7 @@ write-page-subtitle = Meningar som bidrags här kommer att läggas till i en all
 sentence =
     .label = Mening
 sentence-input-value = Ange din mening som är allmän egendom här
-citation-input-value = Källa till din mening
+citation-input-placeholder = Hänvisa till källan till din mening (krävs)
 citation =
     .label = Källhänvisning
 sc-write-submit-confirm = Jag bekräftar att den här meningen är <wikipediaLink>allmän egendom</wikipediaLink> och jag har tillstånd att ladda upp den.
@@ -1772,8 +1772,7 @@ single-sentence-submission = Inlämning av en enda mening
 bulk-sentence-submission = Massinlämning
 single-sentence = Enstaka mening
 bulk-sentences = Flera meningar
-sentence-domain-select =
-    .label = Meningsdomän
+sentence-domain-combobox-label = Meningsdomän
 sentence-domain-select-placeholder = Välj upp till tre domäner
 # Sentence Domain dropdown option
 agriculture = Lantbruk
@@ -1799,6 +1798,12 @@ nature_environment = Natur och miljö
 news_current_affairs = Nyheter och aktuella frågor
 # Sentence Domain dropdown option
 technology_robotics = Teknik och robotik
+sentence-variant-select-label = Meningsvariant
+sentence-variant-select-placeholder = Välj en variant (valfritt)
+sentence-variant-select-multiple-variants = Allmänt språk / flera varianter
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 
