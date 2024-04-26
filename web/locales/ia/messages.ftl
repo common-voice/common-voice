@@ -1813,6 +1813,12 @@ ca-valencia-central = Valencià central
 ca-valencia-northern = Valencià septentrional
 ca-valencia-southern = Valencià meridional
 ca-valencia-alacant = Alacantí
+cy-northwes = Gallese del nord-west
+cy-northeas = Gallese del nord-est
+cy-midwales = Gallese del medio
+cy-southwes = Gallese del sud-west
+cy-southeas = Gallese del sud-est
+cy-wladfa = Gallese patagoniano
 pt-BR = Portugese (Brasil)
 pt-PT = Portugese (Portugal)
 
