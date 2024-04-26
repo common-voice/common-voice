@@ -1805,8 +1805,10 @@ sentence-variant-select-multiple-variants = Lingua general / plure variantes
 
 ca-algueres = Catalano Alguerese
 ca-central = Central
+ca-balear = Balear
 ca-nwestern = Nord-Occidental
 ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
 pt-BR = Portugese (Brasil)
 pt-PT = Portugese (Portugal)
 
