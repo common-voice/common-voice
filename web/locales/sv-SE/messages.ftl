@@ -1823,6 +1823,18 @@ cy-wladfa = Patagonien, Walesiska
 pt-BR = Portugisiska (Brasilien)
 pt-PT = Portugisiska (Portugal)
 sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Central dialekt
+sw-kibajuni = Kibajuni (KE) - Nordlig dialekt
+sw-kimrima = Kimrima (TZ) - Nordlig dialekt
+sw-kiunguja = Kiunguja (TZ) - Sydlig dialekt
+sw-kipemba = Kipemba (TZ) - Sydlig dialekt
+sw-kikae = Kimakunduchi/Kikae (TZ) - Sydlig dialekt
+zgh-shi = ⵜⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
