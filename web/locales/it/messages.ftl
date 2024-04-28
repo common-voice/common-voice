@@ -1714,7 +1714,6 @@ write-page-subtitle = Le frasi inserite verranno aggiunte a un dataset con licen
 sentence =
     .label = Frase
 sentence-input-value = Inserisci qui la frase di pubblico dominio
-citation-input-value = Fonte della frase
 citation =
     .label = Citazione
 sc-write-submit-confirm = Confermo che questa frase è di <wikipediaLink>pubblico dominio</wikipediaLink> e ho l’autorizzazione a caricarla.
@@ -1739,8 +1738,7 @@ single-sentence-submission = Invio di una singola frase
 bulk-sentence-submission = Invio di frasi in blocco
 single-sentence = Singola frase
 bulk-sentences = Frasi in blocco
-sentence-domain-select =
-    .label = Dominio della frase
+sentence-domain-combobox-label = Dominio della frase
 sentence-domain-select-placeholder = Scegli fino a 3 domini
 # Sentence Domain dropdown option
 agriculture = Agricoltura
@@ -1766,6 +1764,38 @@ nature_environment = Natura e ambiente
 news_current_affairs = Notizie e attualità
 # Sentence Domain dropdown option
 technology_robotics = Tecnologia e robotica
+sentence-variant-select-label = Variante della frase
+sentence-variant-select-placeholder = Seleziona una variante (facoltativo)
+sentence-variant-select-multiple-variants = Linguaggio generico / più varianti
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Algherese
+ca-central = Central
+ca-balear = Balear
+ca-valencia-tortosi = Tortosí
+ca-valencia-alacant = Alacantí
+cy-northwes = Gallese nord-occidentale
+cy-northeas = Gallese nord-orientale
+cy-midwales = Galles centrale
+cy-southwes = Galles del sud-ovest
+cy-southeas = Galles del sud-est
+cy-wladfa = Gallese della Patagonia
+pt-BR = Portoghese (Brasile)
+pt-PT = Portoghese (Portogallo)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Dialetto centrale
+sw-kibajuni = Kibajuni (KE) - Dialetto settentrionale
+sw-kimrima = Kimrima (TZ) - Dialetto settentrionale
+sw-kiunguja = Kiunguja (TZ) - Dialetto del sud
+sw-kipemba = Kipemba (TZ) - Dialetto del sud
+sw-kikae = Kimakunduchi/Kikae (TZ) - Dialetto del sud
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Atlante centrale Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
