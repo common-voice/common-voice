@@ -1756,7 +1756,7 @@ write-page-subtitle = Tu pridané vety budú zaradené do verejne dostupného s�
 sentence =
     .label = Veta
 sentence-input-value = Tu zadajte svoju vetu dostupnú pod verejnou licenciou
-citation-input-value = Zdroj zadanej vety
+citation-input-placeholder = Uveďte zdroj svojej vety (povinné)
 citation =
     .label = Citácia
 sc-write-submit-confirm = Potvrdzujem, že táto veta je dostupná <wikipediaLink>pod verejne dostupnou licenciou</wikipediaLink> a mám povolenie na jej nahratie.
@@ -1781,8 +1781,7 @@ single-sentence-submission = Odoslanie jednej vety
 bulk-sentence-submission = Odoslanie viacerých viet
 single-sentence = Jedna veta
 bulk-sentences = Viaceré vety
-sentence-domain-select =
-    .label = Zatriedenie vety
+sentence-domain-combobox-label = Zatriedenie vety
 sentence-domain-select-placeholder = Môžete zvoliť až tri zatriedenia
 # Sentence Domain dropdown option
 agriculture = Poľnohospodárstvo
@@ -1808,6 +1807,29 @@ nature_environment = Príroda a životné prostredie
 news_current_affairs = Správy a aktuálne udalosti
 # Sentence Domain dropdown option
 technology_robotics = Technológia a robotika
+sentence-variant-select-label = Variant vety
+sentence-variant-select-placeholder = Vyberte variant (voliteľné)
+sentence-variant-select-multiple-variants = Všeobecný jazyk / viaceré varianty
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Alguerès
+ca-central = Centrálny
+pt-BR = portugalčina (Brazília)
+pt-PT = portugalčina (Portugalsko)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) – centrálny dialekt
+sw-kibajuni = Kibajuni (KE) – severný dialekt
+sw-kimrima = Kimrima (TZ) – severný dialekt
+sw-kiunguja = Kiunguja (TZ) – južný dialekt
+sw-kipemba = Kipemba (TZ) - južný dialekt
+sw-kikae = Kimakunduchi/Kikae (TZ) – južný dialekt
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
