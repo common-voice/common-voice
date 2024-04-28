@@ -1781,7 +1781,7 @@ write-page-subtitle = Các câu được đóng góp ở đây sẽ được th�
 sentence =
     .label = Câu
 sentence-input-value = Nhập câu thuộc phạm vi công cộng của bạn vào đây
-citation-input-value = Nguồn câu của bạn
+citation-input-placeholder = Dẫn nguồn câu của bạn (bắt buộc)
 citation =
     .label = Nguồn trích dẫn
 sc-write-submit-confirm = Tôi xác nhận rằng câu này thuộc <wikipediaLink>phạm vi công cộng</wikipediaLink> và tôi có quyền tải nó lên.
@@ -1806,6 +1806,7 @@ single-sentence-submission = Gửi câu riêng lẻ
 bulk-sentence-submission = Gửi hàng loạt câu
 single-sentence = Câu đơn
 bulk-sentences = Hàng loạt câu
+sentence-domain-select-placeholder = Chọn tối đa ba miền
 # Sentence Domain dropdown option
 agriculture = Nông nghiệp
 # Sentence Domain dropdown option
@@ -1830,6 +1831,43 @@ nature_environment = Thiên nhiên và môi trường
 news_current_affairs = Tin tức và thời sự
 # Sentence Domain dropdown option
 technology_robotics = Công nghệ và máy móc
+sentence-variant-select-label = Biến thể câu
+sentence-variant-select-placeholder = Chọn một biến thể (tùy chọn)
+sentence-variant-select-multiple-variants = Ngôn ngữ chung / nhiều biến thể
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Alguerès
+ca-central = Central
+ca-balear = Balear
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Tây Bắc xứ Wales
+cy-northeas = Đông Bắc xứ Wales
+cy-midwales = Miền Trung xứ Wales
+cy-southwes = Tây Nam xứ Wales
+cy-southeas = Đông Nam xứ Wales
+cy-wladfa = Patagonia xứ Wales
+pt-BR = Bồ Đào Nha (Brasil)
+pt-PT = Bồ Đào Nha (Bồ Đào Nha)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Tên (KE) - Phương ngữ miền Trung
+sw-kibajuni = Kibajuni (KE) - Phương ngữ miền Bắc
+sw-kimrima = Kimrima (TZ) - Phương ngữ miền Bắc
+sw-kiunguja = Kiunguja (TZ) - Phương ngữ miền Nam
+sw-kipemba = Kipemba (TZ) - Phương ngữ miền Nam
+sw-kikae = Kimakunduchi/Kikae (TZ) - Phương ngữ miền Nam
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
