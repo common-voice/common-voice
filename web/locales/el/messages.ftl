@@ -1741,6 +1741,7 @@ write-page-subtitle = Οι προτάσεις που υποβάλλονται ε
 sentence =
     .label = Πρόταση
 sentence-input-value = Εισαγάγετε την πρόταση δημόσιου τομέα σας εδώ
+citation-input-placeholder = Αναφορά της πηγής της πρότασής σας (απαιτείται)
 citation =
     .label = Παράθεση
 sc-write-submit-confirm = Επιβεβαιώνω ότι αυτή η πρόταση ανήκει στον <wikipediaLink>δημόσιο τομέα</wikipediaLink> και έχω την άδεια να τη μεταφορτώσω.
@@ -1797,6 +1798,8 @@ sentence-variant-select-multiple-variants = Γενική γλώσσα/πολλα
 
 ## LANGUAGE VARIANT CODES
 
+pt-BR = Πορτογαλικά (Βραζιλία)
+pt-PT = Πορτογαλικά (Πορτογαλία)
 
 ## REVIEW PAGE
 
