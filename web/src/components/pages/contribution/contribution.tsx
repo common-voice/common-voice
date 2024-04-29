@@ -447,7 +447,9 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                             </StyledLink>
                           </div>
                         ) : null}
-                        <Tag tagText="Mexican" />
+                        {sentence?.variant && (
+                          <Tag text={getString(sentence.variant.tag)} />
+                        )}
                       </div>
                     </div>
                   );

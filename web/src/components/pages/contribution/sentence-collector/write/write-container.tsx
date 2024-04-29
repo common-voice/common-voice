@@ -25,7 +25,7 @@ const WriteContainer = () => {
   const sentences = useSentences()
   const { variants } = useGetVariants()
 
-  const variantTokens = variants ? variants.map(variant => variant.token) : []
+  const variantTokens = variants ? variants.map(variant => variant.tag) : []
 
   // add all variants option to the list of variants in the dropdown
   const allVariants =

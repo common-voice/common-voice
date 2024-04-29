@@ -1,7 +1,6 @@
 .tag-container {
     background: var(--desert-storm);
     cursor: pointer;
-    width: 130px;
     padding: 10px;
     border-radius: 36px;
     display: flex;

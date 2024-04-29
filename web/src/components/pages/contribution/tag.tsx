@@ -10,10 +10,10 @@ import URLS from '../../../urls'
 import './tag.css'
 
 type Props = {
-  tagText: string
+  text: string
 }
 
-export const Tag = ({ tagText }: Props) => {
+export const Tag = ({ text }: Props) => {
   const history = useHistory()
   const { l10n } = useLocalization()
 
@@ -22,7 +22,7 @@ export const Tag = ({ tagText }: Props) => {
   }
 
   return (
-    <div className="tag-container">
+    <div className="tag-container" data-testid="contribution-tag">
       <Tooltip
         trigger="click"
         html={
@@ -39,7 +39,7 @@ export const Tag = ({ tagText }: Props) => {
         offset={5}
         distance={20}
         interactive>
-        <p className="tag-text">{tagText}</p>
+        <p className="tag-text">{text}</p>
         <DropdownArrowIcon className="dropdown-arrow" />
       </Tooltip>
     </div>
