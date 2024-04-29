@@ -1741,7 +1741,7 @@ write-page-subtitle = Οι προτάσεις που υποβάλλονται ε
 sentence =
     .label = Πρόταση
 sentence-input-value = Εισαγάγετε την πρόταση δημόσιου τομέα σας εδώ
-citation-input-value = Πηγή πρότασης
+citation-input-placeholder = Αναφορά της πηγής της πρότασής σας (απαιτείται)
 citation =
     .label = Παράθεση
 sc-write-submit-confirm = Επιβεβαιώνω ότι αυτή η πρόταση ανήκει στον <wikipediaLink>δημόσιο τομέα</wikipediaLink> και έχω την άδεια να τη μεταφορτώσω.
@@ -1766,8 +1766,7 @@ single-sentence-submission = Υποβολή μεμονωμένης πρότασ�
 bulk-sentence-submission = Υποβολή πολλαπλών προτάσεων
 single-sentence = Μεμονωμένη πρόταση
 bulk-sentences = Πολλαπλές προτάσεις
-sentence-domain-select =
-    .label = Τομέας πρότασης
+sentence-domain-combobox-label = Τομέας πρότασης
 sentence-domain-select-placeholder = Επιλέξτε έως και τρεις τομείς
 # Sentence Domain dropdown option
 agriculture = Γεωργία
@@ -1793,6 +1792,15 @@ nature_environment = Φύση και περιβάλλον
 news_current_affairs = Ειδήσεις και επικαιρότητα
 # Sentence Domain dropdown option
 technology_robotics = Τεχνολογία και ρομποτική
+sentence-variant-select-label = Παραλλαγή πρότασης
+sentence-variant-select-placeholder = Επιλογή παραλλαγής (προαιρετικό)
+sentence-variant-select-multiple-variants = Γενική γλώσσα/πολλαπλές παραλλαγές
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Αλγερές
+pt-BR = Πορτογαλικά (Βραζιλία)
+pt-PT = Πορτογαλικά (Πορτογαλία)
 
 ## REVIEW PAGE
 

@@ -1792,6 +1792,19 @@ ca-northern = Septentrional
 ca-valencia-tortosi = Tortosí
 ca-valencia-central = Valencia rehegua
 ca-valencia-northern = Valencia septentrional
+ca-valencia-southern = Valencia meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Galés noroeste-gua
+cy-northeas = Galés noroeste-gua
+cy-midwales = Gales mbytegua
+cy-southwes = Galés noroeste-gua
+cy-southeas = Gales suroeste-gua
+cy-wladfa = Gales Patagonia-gua
+pt-BR = Portugués (Brasil)
+pt-PT = Portugués (Portugal)
+sw-kingwana = Kingwana (DRC)
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

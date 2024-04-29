@@ -1804,10 +1804,36 @@ sentence-variant-select-multiple-variants = Lingua general / plure variantes
 ## LANGUAGE VARIANT CODES
 
 ca-algueres = Catalano Alguerese
+ca-central = Central
+ca-balear = Balear
 ca-nwestern = Nord-Occidental
 ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Gallese del nord-west
+cy-northeas = Gallese del nord-est
+cy-midwales = Gallese del medio
+cy-southwes = Gallese del sud-west
+cy-southeas = Gallese del sud-est
+cy-wladfa = Gallese patagoniano
 pt-BR = Portugese (Brasil)
 pt-PT = Portugese (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Dialecto central
+sw-kibajuni = Kibajuni (KE) - Dialecto del nord
+sw-kimrima = Kimrima (TZ) - Dialecto del nord
+sw-kiunguja = Kiunguja (TZ) - Dialecto del sud
+sw-kipemba = Kipemba (TZ) - Dialecto del sud
+sw-kikae = Kimakunduchi/Kikae (TZ) - Dialecto del sud
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (atlas tamazight central)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

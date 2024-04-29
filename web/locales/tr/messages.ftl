@@ -1693,7 +1693,6 @@ write-page-subtitle = Buradan gönderilen cümleler, halka açık ve cc-0 lisans
 sentence =
     .label = Cümle
 sentence-input-value = Kamu malı cümlenizi buraya yazın
-citation-input-value = Cümlenizin kaynağı
 citation =
     .label = Kaynak
 sc-write-submit-confirm = Bu cümlenin <wikipediaLink>kamu malı</wikipediaLink> olduğunu ve bunu yükleme iznim olduğunu onaylıyorum.
@@ -1717,8 +1716,8 @@ single-sentence-submission = Tek cümle gönderimi
 bulk-sentence-submission = Toplu cümle gönderimi
 single-sentence = Tek cümle
 bulk-sentences = Toplu cümle
-sentence-domain-select =
-    .label = Cümlenin konusu
+sentence-domain-combobox-label = Cümlenin konusu
+sentence-domain-select-placeholder = En fazla üç konu seçin (isteğe bağlı)
 # Sentence Domain dropdown option
 agriculture = Tarım
 # Sentence Domain dropdown option
@@ -1743,6 +1742,30 @@ nature_environment = Doğa ve Çevre
 news_current_affairs = Haberler ve Güncel Olaylar
 # Sentence Domain dropdown option
 technology_robotics = Teknoloji ve Robotik
+sentence-variant-select-label = Cümlenin lehçesi
+sentence-variant-select-placeholder = Bir lehçe seçin (isteğe bağlı)
+sentence-variant-select-multiple-variants = Genel dil / birden fazla lehçe
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Alguerès
+ca-central = Central
+ca-balear = Balear
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Kuzeybatı Galcesi
+cy-northeas = Kuzeydoğu Galcesi
+cy-midwales = Orta Galler
+cy-southwes = Güneybatı Galcesi
+cy-southeas = Güneydoğu Galcesi
+cy-wladfa = Patagonya Galcesi
+pt-BR = Portekizce (Brezilya)
+pt-PT = Portekizce (Portekiz)
 
 ## REVIEW PAGE
 

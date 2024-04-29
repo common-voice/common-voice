@@ -1840,7 +1840,7 @@ write-page-subtitle = Bydd brawddegau sy'n cael eu cyfrannu yma yn cael eu hychw
 sentence =
     .label = Brawddeg
 sentence-input-value = Rhowch eich brawddeg parth cyhoeddus yma
-citation-input-value = Ffynhonnell eich brawddeg
+citation-input-placeholder = Cyfeiriwch at ffynhonnell eich brawddeg (gofynnol)
 citation =
     .label = Cyfeirio
 sc-write-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
@@ -1865,8 +1865,7 @@ single-sentence-submission = Cyflwyno Un Frawddeg
 bulk-sentence-submission = Cyflwyno Brawddegau Lluosog
 single-sentence = Un Frawddeg
 bulk-sentences = Brawddegau Lluosog
-sentence-domain-select =
-    .label = Parth Brawddeg
+sentence-domain-combobox-label = Parth Brawddeg
 sentence-domain-select-placeholder = Dewiswch hyd at dri pharth
 # Sentence Domain dropdown option
 agriculture = Amaethyddiaeth
@@ -1892,6 +1891,43 @@ nature_environment = Natur a'r Amgylchedd
 news_current_affairs = Newyddion a Materion Cyfoes
 # Sentence Domain dropdown option
 technology_robotics = Technoleg a Roboteg
+sentence-variant-select-label = Amrywiad Brawddeg
+sentence-variant-select-placeholder = Dewiswch amrywiad (dewisol)
+sentence-variant-select-multiple-variants = Iaith gyffredinol / amrywiadau lluosog
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Alguerès
+ca-central = Canolog
+ca-balear = Balear
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Cymraeg y Gogledd-Orllewin
+cy-northeas = Cymraeg y Gogledd-Ddwyrain
+cy-midwales = Cymraeg Canolbarth Cymru
+cy-southwes = Cymraeg y De-Orllewin
+cy-southeas = Cymraeg y De-Ddwyrain
+cy-wladfa = Cymraeg Patagonia
+pt-BR = Portiwgaleg (Brasil)
+pt-PT = Portiwgaleg (Portiwgal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Tafodiaith ganolog
+sw-kibajuni = Kibajuni (KE) - Tafodiaith ogleddol
+sw-kimrima = Kimrima (TZ) - tafodiaith ogleddol
+sw-kiunguja = Kiunguja (TZ) - tafodiaith ddeheuol
+sw-kipemba = Kipemba (TZ) - tafodiaith ddeheuol
+sw-kikae = Kimakunduchi/Kikae (TZ) - tafodiaith ddeheuol
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Tamazight Canol yr Atlas)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Taifit)
 
 ## REVIEW PAGE
 

@@ -13,9 +13,10 @@ import {
   Datasets,
 } from 'common';
 import lazyCache from '../lazy-cache';
-import { taskOption as TO, taskEither as TE } from 'fp-ts';
+import { option as O, task as T, taskEither as TE } from 'fp-ts';
 import { pipe } from 'fp-ts/lib/function';
 import { DatasetStatistics } from '../../core/datasets/types/dataset';
+import { FindVariantsBySentenceIdsResult, findVariantsBySentenceIdsInDb } from '../../application/sentences/repository/variant-repository';
 const MINUTE = 1000 * 60;
 const DAY = MINUTE * 60 * 24;
 
@@ -318,7 +319,31 @@ export default class DB {
             count - taxonomySentences.length,
             exemptFromSSRL
           );
-    return taxonomySentences.concat(regularSentences);
+
+    const totalSentences = taxonomySentences.concat(regularSentences);
+
+    return this.appendMetadataToSentence(totalSentences);
+  }
+
+  private appendMetadataToSentence = async (sentences: Sentence[]) => {
+    const sentenceIds = sentences.map(c => c.id);
+
+    const sentenceVariants = await pipe(
+      sentenceIds,
+      findVariantsBySentenceIdsInDb,
+      TE.getOrElse(() => T.of({} as FindVariantsBySentenceIdsResult))
+    )()
+
+    for (const sentence of sentences) {
+      const sentenceId = sentence.id
+      const variant = sentenceVariants[sentenceId] || O.none
+      sentence.variant = pipe(
+        variant,
+        O.getOrElse(() => null)
+      )
+    }
+
+    return sentences
   }
 
   async findSentencesWithFewClips(
