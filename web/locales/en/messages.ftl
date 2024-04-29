@@ -1743,7 +1743,7 @@ write-page-subtitle = Sentences contributed here will be added to a publicly ava
 sentence = 
     .label = Sentence
 sentence-input-value = Enter your public domain sentence here
-citation-input-value = Source of your sentence
+citation-input-placeholder = Reference the source of your sentence (required)
 citation = 
     .label = Citation
 sc-write-submit-confirm = I confirm that this sentence is <wikipediaLink>public domain</wikipediaLink> and I have permission to upload it.
@@ -1768,9 +1768,8 @@ single-sentence-submission = Single Sentence Submission
 bulk-sentence-submission = Bulk Sentence Submission
 single-sentence = Single Sentence
 bulk-sentences = Bulk Sentences
-sentence-domain-select =
-    .label = Sentence Domain
-sentence-domain-select-placeholder = Select up to three domains
+sentence-domain-combobox-label = Sentence Domain
+sentence-domain-select-placeholder = Select up to three domains (optional)
 # Sentence Domain dropdown option
 agriculture = Agriculture
 # Sentence Domain dropdown option
@@ -1795,6 +1794,42 @@ nature_environment = Nature and Environment
 news_current_affairs = News and Current Affairs
 # Sentence Domain dropdown option
 technology_robotics = Technology and Robotics
+sentence-variant-select-label = Sentence Variant
+sentence-variant-select-placeholder = Select a variant (optional)
+sentence-variant-select-multiple-variants = General language / multiple variants
+
+## LANGUAGE VARIANT CODES
+ca-algueres = Alguerès
+ca-central = Central
+ca-balear = Balear
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = North-Western Welsh
+cy-northeas = North-Eastern Welsh
+cy-midwales = Mid Wales
+cy-southwes = South-Western Welsh
+cy-southeas = South-Eastern Welsh
+cy-wladfa = Patagonian Welsh
+pt-BR = Portuguese (Brasil)
+pt-PT = Portuguese (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Central dialect
+sw-kibajuni = Kibajuni (KE) - Northern dialect
+sw-kimrima = Kimrima (TZ) - Northern dialect
+sw-kiunguja = Kiunguja (TZ) - Southern dialect
+sw-kipemba = Kipemba (TZ) - Southern dialect
+sw-kikae = Kimakunduchi/Kikae (TZ) - Southern dialect
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 # <icon></icon> will be replace with an icon that represents review

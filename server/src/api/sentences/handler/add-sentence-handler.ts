@@ -1,6 +1,5 @@
 import { Request, Response } from 'express'
 import * as TE from 'fp-ts/TaskEither'
-import * as T from 'fp-ts/Task'
 import * as O from 'fp-ts/Option'
 import * as I from 'fp-ts/Identity'
 import { pipe } from 'fp-ts/function'
@@ -15,17 +14,17 @@ import { StatusCodes } from 'http-status-codes'
 import { validateSentence } from '../../../core/sentences'
 import {
   findDomainIdByNameInDb,
-  findVariantIdByTokenInDb,
   saveSentenceInDb,
 } from '../../../application/sentences/repository/sentences-repository'
+import { findVariantByTagInDb } from '../../../application/sentences/repository/variant-repository'
+import { findLocaleByNameInDb } from '../../../application/sentences/repository/locale-repository'
 
 export default async (req: Request, res: Response) => {
-  const { sentence, localeId, localeName, source, domains, variant } = req.body
+  const { sentence, localeName, source, domains, variant } = req.body
 
   const command: AddSentenceCommand = {
     clientId: req.client_id,
     sentence: sentence,
-    localeId: localeId,
     localeName: localeName,
     source: source,
     domains: domains,
@@ -36,11 +35,12 @@ export default async (req: Request, res: Response) => {
     AddSentenceCommandHandler,
     I.ap(validateSentence),
     I.ap(findDomainIdByNameInDb),
-    I.ap(findVariantIdByTokenInDb),
+    I.ap(findVariantByTagInDb),
+    I.ap(findLocaleByNameInDb),
     I.ap(saveSentenceInDb)
   )
 
-  return pipe(
+  const result = await pipe(
     command,
     cmdHandler,
     TE.mapLeft(createPresentableError),
@@ -48,18 +48,20 @@ export default async (req: Request, res: Response) => {
       err => {
         switch (err.kind) {
           case SentenceRepositoryErrorKind: {
-            return T.of(res.status(StatusCodes.INTERNAL_SERVER_ERROR).json(err))
+            res.status(StatusCodes.INTERNAL_SERVER_ERROR)
+            break
           }
-          case SentenceValidationErrorKind:
-            return T.of(res.status(StatusCodes.BAD_REQUEST).json(err))
+          case SentenceValidationErrorKind: {
+            res.status(StatusCodes.BAD_REQUEST)
+            break
+          }
         }
+
+        return err
       },
-      () =>
-        T.of(
-          res.json({
-            message: 'Sentence added successfully',
-          })
-        )
+      () => ({ message: 'Sentence added successfully' })
     )
   )()
+
+  return res.json(result)
 }

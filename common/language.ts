@@ -29,12 +29,16 @@ export type Variant = {
   token: string;
 };
 
+export type UserVariant = Variant & {
+  is_preferred_option: boolean;
+}
+
 /*
   an object storing all
   accent/locale/variant data for a user
 */
 export type UserLanguage = {
   locale: string;
-  variant?: Variant;
+  variant?: UserVariant;
   accents?: Accent[];
 };
