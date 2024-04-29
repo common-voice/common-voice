@@ -3,23 +3,10 @@ import { Localized } from '@fluent/react'
 import classNames from 'classnames'
 
 import { SidebarContentProps } from '../../types'
+import { sentenceDomains } from 'common'
+
 import { TextButton } from '../../../../ui/ui'
 import { ChevronDown } from '../../../../ui/icons'
-
-const sentenceDomains = [
-  'agriculture',
-  'automotive',
-  'finance',
-  'food_service_retail',
-  'general',
-  'healthcare',
-  'history_law_government',
-  'language_fundamentals',
-  'media_entertainment',
-  'nature_environment',
-  'news_current_affairs',
-  'technology_robotics',
-]
 
 export const SentenceDomain: React.FC<SidebarContentProps> = ({
   id,
