@@ -1798,6 +1798,7 @@ sentence-variant-select-multiple-variants = Γενική γλώσσα/πολλα
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = Αλγερές
 pt-BR = Πορτογαλικά (Βραζιλία)
 pt-PT = Πορτογαλικά (Πορτογαλία)
 
