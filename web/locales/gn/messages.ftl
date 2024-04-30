@@ -1812,6 +1812,8 @@ sw-kimvita = Kimvita (KE) - Ñe’ẽ guasu
 sw-kibajuni = Kibajuni (KE) - Ñe’ẽ yvate gotyogua
 sw-kimrima = Kimrima (TZ) - Ñe’ẽ yvate gotyogua
 sw-kiunguja = Kiunguja (TZ) - Ñe’ẽ yvy gotyogua
+sw-kipemba = Kipemba (TZ) - Ñe’ẽ yvy gotyogua
+sw-kikae = Kimakunduchi/Kikae (TZ) - Ñe’ẽ yvy gotyogua
 zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
 zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
