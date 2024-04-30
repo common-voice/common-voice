@@ -1786,6 +1786,7 @@ write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de dat
 sentence =
     .label = Frase
 sentence-input-value = Introduza aquí a súa frase de dominio público
+citation-input-placeholder = Mencione a fonte da súa frase (obrigatorio)
 citation =
     .label = Cita
 sc-write-submit-confirm = Confirmo que esta frase é de <wikipediaLink>dominio público</wikipediaLink> e teño permiso para cargala.
@@ -1842,6 +1843,16 @@ sentence-variant-select-multiple-variants = Linguaxe xeral / múltiples variedad
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = Alguerés
+ca-central = Central
+ca-balear = Balear
+ca-nwestern = Noroccidental
+ca-northern = Setentrional
+ca-valencia-tortosi = Tortosino
+ca-valencia-central = Valenciano central
+ca-valencia-northern = Valenciano setentrional
+ca-valencia-southern = Valenciano meridional
+ca-valencia-alacant = Alacantino
 pt-BR = Portugués (Brasil)
 pt-PT = Portugués (Portugal)
 
