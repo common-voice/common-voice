@@ -1805,7 +1805,13 @@ cy-wladfa = Gales Patagonia-gua
 pt-BR = Portugués (Brasil)
 pt-PT = Portugués (Portugal)
 sw-sanifu = Suajili ypyguáva (EA)
+sw-barake = Suajili Kenia ñe’ẽ
+sw-baratz = Suajili Tanzania ñe’ẽ
 sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Ñe’ẽ guasu
+sw-kibajuni = Kibajuni (KE) - Ñe’ẽ yvate gotyogua
+sw-kimrima = Kimrima (TZ) - Ñe’ẽ yvate gotyogua
+sw-kiunguja = Kiunguja (TZ) - Ñe’ẽ yvy gotyogua
 zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
 zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
