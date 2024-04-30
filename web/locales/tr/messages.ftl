@@ -1699,6 +1699,7 @@ adding-sentences-subheader-special-characters = Özel karakterler ve yabancı ha
 adding-sentences-subheader-special-characters-explanation-1 = Harfler konuşulan dilde geçerli olmalıdır. Örneğin, "ж" Rus alfabesinde bir harftir ancak Türkçede asla kullanılmaz ve bu nedenle hiçbir Türkçe kaynak metinde yer almamalıdır.
 adding-sentences-subheader-special-characters-explanation-2 = Her dilin kendi doğrulama kuralları olabilir ve yerelleştirme sırasında ek zorunluluklar olabilir. Bir dilin kendine has doğrulama kuralları yoksa İngilizce kurallar gösterilecektir.
 adding-sentences-subheader-offensive-content = Saldırgan üslup
+adding-sentences-subheader-offensive-content-explanation = Cümle saldırgan veya rahatsız ediciyse (örn. içeriği uygunsuzsa veya <communityGuidelines>topluluk katılım yönergelerimizi</communityGuidelines> ihlal ediyorsa) cümleyi reddetmelisiniz. Ayrıca sorunu iletmek için <emailFragment>commonvoice@mozilla.com</emailFragment> adresinden bize ulaşabilirsiniz.
 reviewing-sentences-explanation-1 = Cümle yukarıdaki ölçütleri karşılıyorsa "Evet" düğmesine tıklayın.
 reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamıyorsa "Hayır" düğmesine tıklayın.
 reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
