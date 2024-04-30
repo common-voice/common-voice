@@ -9,6 +9,8 @@ submit-form-action = Submit
 loading = Load zata...
 email-opt-in-info = Hoi, Mhaka asle emails dhad jitun Goal Reminders, Progress Updates anik Common Voice`acher novi novi khobryo-patra asta.
 email-opt-in-info-title = Common Voice mailing list join kor
+indicates-required = Textbox'an star (*) asa, te gorjechem.
+not-available-abbreviation = N/A
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -54,6 +56,7 @@ shortcut-submit-label = Clips submit kor
 
 ## ProfileForm
 
+download-profile = Mhozo Data Download Kor
 
 ## Profile - Email
 
@@ -263,6 +266,9 @@ both-speak-and-listen-long = Donui (Uloi ani Aikui)
 
 
 ## WRITE PAGE
+
+
+## LANGUAGE VARIANT CODES
 
 
 ## REVIEW PAGE
