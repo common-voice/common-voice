@@ -1853,8 +1853,23 @@ ca-valencia-central = Valenciano central
 ca-valencia-northern = Valenciano setentrional
 ca-valencia-southern = Valenciano meridional
 ca-valencia-alacant = Alacantino
+cy-northwes = Galés noroccidental
+cy-northeas = Galés nororiental
+cy-midwales = Galés central
+cy-southwes = Galés suroccidental
+cy-southeas = Galés suroriental
+cy-wladfa = Galés patagónico
 pt-BR = Portugués (Brasil)
 pt-PT = Portugués (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Dialecto central
+sw-kibajuni = Kibajuni (KE) - Dialecto do norte
+sw-kimrima = Kimrima (TZ) - Dialecto do norte
+sw-kiunguja = Kiunguja (TZ) - Dialecto do sur
+sw-kipemba = Kipemba (TZ) - Dialecto do sur
+sw-kikae = Kimakunduchi/Kikae (TZ) - Dialecto do sur
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Tamazight do Atlas Central)
 
 ## REVIEW PAGE
 
