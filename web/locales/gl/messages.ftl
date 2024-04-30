@@ -1862,6 +1862,8 @@ cy-wladfa = Galés patagónico
 pt-BR = Portugués (Brasil)
 pt-PT = Portugués (Portugal)
 sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Suahili da Kenia
+sw-baratz = Suahili da Tanzania
 sw-kingwana = Kingwana (DRC)
 sw-kimvita = Kimvita (KE) - Dialecto central
 sw-kibajuni = Kibajuni (KE) - Dialecto do norte
@@ -1869,7 +1871,9 @@ sw-kimrima = Kimrima (TZ) - Dialecto do norte
 sw-kiunguja = Kiunguja (TZ) - Dialecto do sur
 sw-kipemba = Kipemba (TZ) - Dialecto do sur
 sw-kikae = Kimakunduchi/Kikae (TZ) - Dialecto do sur
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
 zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Tamazight do Atlas Central)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit ou bérber rifeño)
 
 ## REVIEW PAGE
 
