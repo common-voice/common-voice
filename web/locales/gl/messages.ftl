@@ -1786,7 +1786,6 @@ write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de dat
 sentence =
     .label = Frase
 sentence-input-value = Introduza aquí a súa frase de dominio público
-citation-input-value = Orixe da súa frase
 citation =
     .label = Cita
 sc-write-submit-confirm = Confirmo que esta frase é de <wikipediaLink>dominio público</wikipediaLink> e teño permiso para cargala.
@@ -1811,8 +1810,7 @@ single-sentence-submission = Envío dunha única frase
 bulk-sentence-submission = Envío masivo de frases
 single-sentence = Frase única
 bulk-sentences = Grupo de frases
-sentence-domain-select =
-    .label = Dominio da oración
+sentence-domain-combobox-label = Dominio ao que pertence a frase
 sentence-domain-select-placeholder = Seleccione ata tres campos
 # Sentence Domain dropdown option
 agriculture = Agricultura
@@ -1838,6 +1836,14 @@ nature_environment = Natureza e medio ambiente
 news_current_affairs = Noticias e actualidade
 # Sentence Domain dropdown option
 technology_robotics = Tecnoloxía e robótica
+sentence-variant-select-label = Variedade á que pertence a frase
+sentence-variant-select-placeholder = Seleccione unha variedade (opcional)
+sentence-variant-select-multiple-variants = Linguaxe xeral / múltiples variedades
+
+## LANGUAGE VARIANT CODES
+
+pt-BR = Portugués (Brasil)
+pt-PT = Portugués (Portugal)
 
 ## REVIEW PAGE
 
