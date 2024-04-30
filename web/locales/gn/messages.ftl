@@ -1729,6 +1729,7 @@ write-page-subtitle = Umi ñe’ẽjuaju jehupipyre ojuajúta mba’ekuaarã aty
 sentence =
     .label = Ñe’ẽjoaju
 sentence-input-value = Ehai ko’ápe ne ñe’ẽjuaju opavave oiporukuaáva
+citation-input-placeholder = Ñe’ẽjuaju reñoiha rehegua (katuete)
 citation =
     .label = Jehechauka
 sc-write-submit-confirm = Amoneĩ ko ñe’ẽjuaju ha’eha <wikipediaLink>opavave oiporukuaáva</wikipediaLink> ha areko ñemoneĩ ahupi hag̃ua.
@@ -1781,6 +1782,7 @@ news_current_affairs = Marandu ha Ag̃aguáva
 technology_robotics = Tembiporupyahu ha Robótica
 sentence-variant-select-label = Ñe’ẽjuaju ambuepy
 sentence-variant-select-placeholder = Eiporavo ambuepy (ejaposérõ)
+sentence-variant-select-multiple-variants = Ñe’ẽ tuichaháicha / heta iñambueháicha
 
 ## LANGUAGE VARIANT CODES
 
@@ -1802,6 +1804,7 @@ cy-southeas = Gales suroeste-gua
 cy-wladfa = Gales Patagonia-gua
 pt-BR = Portugués (Brasil)
 pt-PT = Portugués (Portugal)
+sw-sanifu = Suajili ypyguáva (EA)
 sw-kingwana = Kingwana (DRC)
 zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
 zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
