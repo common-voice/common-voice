@@ -10,7 +10,18 @@ export type FetchUserClientVariants = (
   clientId: string
 ) => TE.TaskEither<ApplicationError, UserClientVariant[]>
 
-const toUserClientVariant = (row: any): UserClientVariant => {
+type FetchUserClientVariantsRow = {
+  localeId: number
+  localeName: string
+  variantId: number
+  variantName: string
+  variantTag: string
+  is_preferred_option: number
+}
+
+const toUserClientVariant = (
+  row: FetchUserClientVariantsRow
+): UserClientVariant => {
   return {
     localeId: row.localeId,
     variant: {
@@ -44,5 +55,7 @@ export const fetchUserClientVariants: FetchUserClientVariants = (
     TE.mapLeft((err: Error) =>
       createDatabaseError(`Error retrieving user client variants`, err)
     ),
-    TE.map(([results]: Array<any>) => results.map(toUserClientVariant))
+    TE.map(([results]: Array<FetchUserClientVariantsRow[]>) =>
+      results.map(toUserClientVariant)
+    )
   )
