@@ -516,7 +516,7 @@ faq-how-calc-hours-q = Common Voice saatleri nasıl hesaplıyor?
 faq-how-calc-hours-a = Saatleri, her kaydın ortalama uzunluğunu tahmin ederek ve sonra bu sayıyı tüm dillerdeki toplam kayıt sayısıyla çarparak hesaplıyoruz.
 faq-where-src-from-2-q = Kaynak metinler nereden geliyor?
 faq-where-src-from-2-a =
-    Kaynak metinlerimiz, özgün katılımcı bağışlarının yanı sıra <italic>It’s a Wonderful Life</italic> gibi kamuya açık film senaryolarındaki diyaloglardan oluşur.
+    Kaynak metinlerimiz, özgün katılımcı bağışlarının yanı sıra <italic>It’s a Wonderful Life</italic> gibi kamu malı film senaryolarındaki diyaloglardan oluşur.
     
     Kaynak cümlelerimizi bu <githubLink>GitHub klasöründe</githubLink> görüntüleyebilirsiniz.
 faq-why-not-ask-read-q = Neden insanlardan farklı dillerdeki kitapları veya Vikipedi makalelerini okumalarını istemiyorsunuz?
@@ -1665,7 +1665,7 @@ public-domain = Kamu malı
 citing-sentences = Alıntı cümleler
 adding-sentences = Cümle ekleme
 reviewing-sentences = Cümleleri inceleme
-sentence-domain = Cümlenin konusu
+sentence-domain = Cümlenin alanı
 public-domain-explanation-1 = Common Voice veri kümesi cc0 lisansı ile yayımlandığından, tüm cümlelerin <publicDomain>kamu malı</publicDomain> (<cc0>cc0</cc0>) olması çok önemlidir. Bir cümleyi yalnızca bundan eminseniz yükleyin ve her zaman cümlenin kaynağını belirtin.
 public-domain-explanation-2 = Kullanışlı bir konuşma tanıma motoru oluşturmak için en iyi cümleler günlük konuşma dilindeki cümlelerdir. Cümle oluşturmanıza yardımcı olacak fikirlerden bazıları:
 public-domain-explanation-3 = Kendi başınıza, arkadaşlarınızla ya da dil topluluğunuzla modern konuşma dilinde cümleler oluşturun. Örneğin birlikte yazma oturumları düzenleyebilirsiniz.
@@ -1704,7 +1704,7 @@ reviewing-sentences-explanation-1 = Cümle yukarıdaki ölçütleri karşılıyo
 reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamıyorsa "Hayır" düğmesine tıklayın.
 reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
 reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
-domain-explanation = Konu, cümlenin hangi alanla ilgili olduğunu ifade eder. Şu anda aşağıdakiler arasından seçim yapabilirsiniz:
+domain-explanation = Alan, cümlenin konusunu ifade eder. Şu anda aşağıdakiler arasından seçim yapabilirsiniz:
 
 ## WRITE PAGE
 
@@ -1738,8 +1738,8 @@ single-sentence-submission = Tek cümle gönderimi
 bulk-sentence-submission = Toplu cümle gönderimi
 single-sentence = Tek cümle
 bulk-sentences = Toplu cümle
-sentence-domain-combobox-label = Cümlenin konusu
-sentence-domain-select-placeholder = En fazla üç konu seçin (isteğe bağlı)
+sentence-domain-combobox-label = Cümlenin alanı
+sentence-domain-select-placeholder = En fazla üç alan seçin (isteğe bağlı)
 # Sentence Domain dropdown option
 agriculture = Tarım
 # Sentence Domain dropdown option
