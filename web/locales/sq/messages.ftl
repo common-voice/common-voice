@@ -760,6 +760,8 @@ subscribe = Pajtohuni
 get-started-speech = Fillojani me Kuptimin e të Folurës
 other-datasets = Grupe të Tjera të Dhënash Zzanore
 feedback-q = Keni Diçka Për të Thënë?
+# This indicates that there is no data to display
+no-information = S’ka informacion
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ është një <docsLink>grup mjetesh me burim të hapët</docsLink> për kërkues që merren me modele bisedash, në kuadër Inteligjence Artificiale, të fjalës së fundit.
 resource-deepspeech-info = Mekanizmi me burim të hapët i Mozilla-s për kuptimin e të folurës, Deep Speech, mund të përdoret për të ndërtuar aplikacione që bazohen ose përdorin kuptimin e të folurës. Për të mësuar se si t’ia fillohet, lexoni <githubLink>përmbledhjen tonë në Github</githubLink> ose ejani te <discourseLink>DeepSpeech Discourse</discourseLink>.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> i është përkushtuar teknologjisë me burim të hapët të së folurës. Projektet e tyre përfshijnë nxënie të thellë, bazuar në mekanizma STT dhe TTS.
@@ -1704,7 +1706,7 @@ write-page-subtitle = Togfjalëshat e dhënë këtu do të shtohen te një grup 
 sentence =
     .label = Frazë
 sentence-input-value = Jepni këtu frazën tuaj në përkatësi publike
-citation-input-value = Burim i frazës tuaj
+citation-input-placeholder = Jepni referencë të burimit të togfjalëshit tuaj (e domosdoshme)
 citation =
     .label = Përmendje
 sc-write-submit-confirm = Ripohoj se kjo frazë është nën <wikipediaLink>përkatësi publike</wikipediaLink> dhe se kam leje ta ngarkoj.
@@ -1729,8 +1731,8 @@ single-sentence-submission = Parashtrim i Një Fraze
 bulk-sentence-submission = Parashtrim Frazash Në Masë
 single-sentence = Frazë Njëshe
 bulk-sentences = Mori Frazash
-sentence-domain-select =
-    .label = Përkatësi Togfjalëshi
+sentence-domain-combobox-label = Përkatësi Togfjalëshi
+sentence-domain-select-placeholder = Përzgjidhni deri në tre përkatësi (në daçi)
 # Sentence Domain dropdown option
 agriculture = Bujqësi
 # Sentence Domain dropdown option
@@ -1755,6 +1757,12 @@ nature_environment = Natyrë dhe Mjedis
 news_current_affairs = Lajme dhe Çështje Aktuale
 # Sentence Domain dropdown option
 technology_robotics = Teknologji dhe Robotikë
+sentence-variant-select-label = Variant Togfjalëshi
+sentence-variant-select-placeholder = Përzgjidhni një variant (në daçi)
+sentence-variant-select-multiple-variants = Gjuhë e përgjithshme / variante të shumtë
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 
