@@ -1815,6 +1815,7 @@ sw-kiunguja = Kiunguja (TZ) - Ñe’ẽ yvy gotyogua
 sw-kipemba = Kipemba (TZ) - Ñe’ẽ yvy gotyogua
 sw-kikae = Kimakunduchi/Kikae (TZ) - Ñe’ẽ yvy gotyogua
 zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Atlas Central Tamazight)
 zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
