@@ -1824,7 +1824,7 @@ write-page-subtitle = Sinnen dy’t hjir bydroegen wurde sille tafoege wurde oan
 sentence =
     .label = Sin
 sentence-input-value = Fier hjir jo publike domeinsin yn
-citation-input-value = Boarne fan jo sin
+citation-input-placeholder = Ferwizing nei de boarne fan jo sin (fereaske)
 citation =
     .label = Sitaat
 sc-write-submit-confirm =
@@ -1851,8 +1851,7 @@ single-sentence-submission = Yntsjinjen fan ien sin
 bulk-sentence-submission = Bulkyntsjinning fan sinnen
 single-sentence = Losse sin
 bulk-sentences = Bulksinnen
-sentence-domain-select =
-    .label = Sinsdomein
+sentence-domain-combobox-label = Sinsdomein
 sentence-domain-select-placeholder = Selektearje maksimaal trije domeinen
 # Sentence Domain dropdown option
 agriculture = Lânbou
@@ -1878,6 +1877,43 @@ nature_environment = Natuer en miljeu
 news_current_affairs = Nijs en aktualiteiten
 # Sentence Domain dropdown option
 technology_robotics = Technology en robotika
+sentence-variant-select-label = Sinsfariant
+sentence-variant-select-placeholder = Selektearje in fariant (opsjoneel)
+sentence-variant-select-multiple-variants = Algemiene taalgebrûk / meardere farianten
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Alghereesk
+ca-central = Sintraal
+ca-balear = Baleaarsk
+ca-nwestern = Noard-Oksidentaalsk
+ca-northern = Septentrionaalsk
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Sintraal Falensiaansk
+ca-valencia-northern = Septentrionaal Falensiaansk
+ca-valencia-southern = Meridionaal Falensiaansk
+ca-valencia-alacant = Alicantsk
+cy-northwes = Noardwest-Welsk
+cy-northeas = Noardeast-Welsk
+cy-midwales = Mid-Welsk
+cy-southwes = Súdwest-Welsk
+cy-southeas = Súdeast-Welsk
+cy-wladfa = Patagonysk Welsk
+pt-BR = Portugeesk (Brazilië)
+pt-PT = Portugeesk (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) – Sintraal dialekt
+sw-kibajuni = Kibajuni (KE) – Noardlik dialekt
+sw-kimrima = Kimrima (TZ) – Noardlik dialekt
+sw-kiunguja = Kiunguja (TZ) – Súdlik dialekt
+sw-kipemba = Kipemba (TZ) – Súdlik dialekt
+sw-kikae = Kimakunduchi/Kikae (TZ) – Súdlik dialekt
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Sintrale Atlas Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

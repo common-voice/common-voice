@@ -89,7 +89,6 @@ hil = Hiligaynon
 hr = Kroatisk
 hsb = Øvresorbisk
 ht = Haitisk kreol
-hu = Ungarnsk
 hy-AM = Armensk
 hyw = Vestarmensk
 ia = Interlingua
@@ -1584,6 +1583,9 @@ contact-us = Kontakt os
 add-sentence-success = 1 sætning indsamlet
 add-sentence-error = Fejl ved tilføjelse af sætning
 required-field = Udfyld venligst dette felt.
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 

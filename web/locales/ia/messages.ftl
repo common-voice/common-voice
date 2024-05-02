@@ -245,7 +245,7 @@ languages = linguas
 about = A proposito
 partner = Partner
 profile = Profilo
-help = Auxilio
+help = Adjuta
 contact = Contacto
 privacy = Confidentialitate
 terms = Terminos
@@ -1746,7 +1746,7 @@ write-page-subtitle = Le phrases fornite ci sera addite a un insimul de datos pu
 sentence =
     .label = Phrase
 sentence-input-value = Insere ci tu phrase de dominio public
-citation-input-value = Fonte de tu phrase
+citation-input-placeholder = Refere le fonte de tu phrase (obligatori)
 citation =
     .label = Citation
 sc-write-submit-confirm = Io confirma que iste phrases es del <wikipediaLink>dominio public</wikipediaLink> e que io ha le permission de cargar los.
@@ -1771,8 +1771,7 @@ single-sentence-submission = Invio de phrases singule
 bulk-sentence-submission = Invio de gruppo de phrases
 single-sentence = Phrase singule
 bulk-sentences = Gruppo de phrases
-sentence-domain-select =
-    .label = Dominio del phrase
+sentence-domain-combobox-label = Dominio del phrase
 sentence-domain-select-placeholder = Selige usque tres dominios
 # Sentence Domain dropdown option
 agriculture = Agricultura
@@ -1798,6 +1797,43 @@ nature_environment = Natura e ambiente
 news_current_affairs = Novas e Affaires Currente
 # Sentence Domain dropdown option
 technology_robotics = Technologia e Robotica
+sentence-variant-select-label = Variante del phrase
+sentence-variant-select-placeholder = Elige un variante (optional)
+sentence-variant-select-multiple-variants = Lingua general / plure variantes
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Catalano Alguerese
+ca-central = Central
+ca-balear = Balear
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Gallese del nord-west
+cy-northeas = Gallese del nord-est
+cy-midwales = Gallese del medio
+cy-southwes = Gallese del sud-west
+cy-southeas = Gallese del sud-est
+cy-wladfa = Gallese patagoniano
+pt-BR = Portugese (Brasil)
+pt-PT = Portugese (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Dialecto central
+sw-kibajuni = Kibajuni (KE) - Dialecto del nord
+sw-kimrima = Kimrima (TZ) - Dialecto del nord
+sw-kiunguja = Kiunguja (TZ) - Dialecto del sud
+sw-kipemba = Kipemba (TZ) - Dialecto del sud
+sw-kikae = Kimakunduchi/Kikae (TZ) - Dialecto del sud
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (atlas tamazight central)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

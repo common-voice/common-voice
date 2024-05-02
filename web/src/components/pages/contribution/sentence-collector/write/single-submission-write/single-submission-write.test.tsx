@@ -7,17 +7,17 @@ import SingleSubmissionWrite from './single-submission-write'
 
 const useActionMock = jest.fn()
 
+const mockVariants = jest.fn(() => Promise.resolve({}))
+
+const allVariants = ['mock-variant-1', 'mock-variant-2']
+
 jest.mock('../../../../../../hooks/store-hooks', () => ({
-  useLanguages: () => {
+  useAction: () => useActionMock,
+  useAPI: () => {
     return {
-      localeNameAndIDMapping: [
-        { id: 1, name: 'mock-locale-1' },
-        { id: 2, name: 'mock-locale-2' },
-        { id: 3, name: 'mock-locale-3' },
-      ],
+      getVariants: mockVariants,
     }
   },
-  useAction: () => useActionMock,
 }))
 
 jest.mock('../../../../../locale-helpers', () => ({
@@ -33,45 +33,51 @@ afterEach(() => {
 })
 
 describe('Single Submission Write page', () => {
-  it('renders Single Submission Write page', () => {
-    renderWithProviders(<SingleSubmissionWrite />)
+  it('renders Single Submission Write page', async () => {
+    renderWithProviders(<SingleSubmissionWrite allVariants={allVariants} />)
 
-    expect(screen.getByTestId('single-submission-form')).toBeTruthy()
-    // assert that submit button is disabled
-    expect(screen.getByTestId('submit-button').hasAttribute('disabled'))
+    await waitFor(() => {
+      expect(screen.getByTestId('single-submission-form')).toBeTruthy()
+      // assert that submit button is disabled
+      expect(screen.getByTestId('submit-button').hasAttribute('disabled'))
+    })
   })
 
-  it('requires a citation before submitting', () => {
-    renderWithProviders(<SingleSubmissionWrite />)
+  it('requires a citation before submitting', async () => {
+    renderWithProviders(<SingleSubmissionWrite allVariants={allVariants} />)
 
     const sentenceTextArea = screen.getByTestId('sentence-textarea')
     const checkBox = screen.getByTestId('public-domain-checkbox')
     const submitButton = screen.getByTestId('submit-button')
 
-    fireEvent.change(sentenceTextArea, {
-      target: { value: 'This is a mock sentence' },
+    await waitFor(() => {
+      fireEvent.change(sentenceTextArea, {
+        target: { value: 'This is a mock sentence' },
+      })
+
+      fireEvent.click(checkBox)
+
+      // assert that submit button is not disabled
+      expect(
+        screen.getByTestId('submit-button').hasAttribute('disabled')
+      ).toBeFalsy()
+
+      fireEvent.click(submitButton)
+
+      expect(screen.getByTestId('citation-error-message')).toBeTruthy()
     })
-
-    fireEvent.click(checkBox)
-
-    // assert that submit button is not disabled
-    expect(
-      screen.getByTestId('submit-button').hasAttribute('disabled')
-    ).toBeFalsy()
-
-    fireEvent.click(submitButton)
-
-    expect(screen.getByTestId('citation-error-message')).toBeTruthy()
   })
 
   it('submits when all fields are filled', async () => {
-    renderWithProviders(<SingleSubmissionWrite />)
+    renderWithProviders(<SingleSubmissionWrite allVariants={allVariants} />)
 
     const sentenceTextArea = screen.getByTestId('sentence-textarea')
     const citationInput = screen.getByTestId('citation-input')
     const checkBox = screen.getByTestId('public-domain-checkbox')
     const submitButton = screen.getByTestId('submit-button')
-    const sentenceDomainDropdown = screen.getByTestId('sentence-domain-select')
+    const sentenceDomainDropdown = screen.getByTestId(
+      'multiple-combobox-dropdown'
+    )
 
     fireEvent.change(sentenceTextArea, {
       target: { value: 'This is a mock sentence' },
@@ -93,7 +99,6 @@ describe('Single Submission Write page', () => {
         domains: ['general'],
         sentence: 'This is a mock sentence',
         source: 'self',
-        localeId: 1,
         localeName: 'mock-locale-1',
       })
     })

@@ -1755,7 +1755,6 @@ write-page-subtitle = اتھ ونگار تھئے ہوئے جملے عوامی د
 sentence =
     .label = جملہ
 sentence-input-value = آپݨاں عوامی ڈومین جملہ اتھ درج کرو
-citation-input-value = تہاݙے جملے دا ماخذ
 citation =
     .label = حوالہ ݙیوݨ
 sc-write-submit-confirm = میں تصدیق کرینداں جو ایہ جملہ <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں ایندے اپ لوڈ کرݨ دی اجازت ہے۔
@@ -1782,8 +1781,7 @@ single-sentence-submission = کلھا جملہ جمع کرواوݨ
 bulk-sentence-submission = ڈھڳ جملے جمع کرواوݨ
 single-sentence = کلھا جملہ
 bulk-sentences = ڈھڳ جملے
-sentence-domain-select =
-    .label = جملے دی ڈومین
+sentence-domain-combobox-label = جملے دی ڈومین
 sentence-domain-select-placeholder = ترائے تائیں ڈومیناں چݨو
 # Sentence Domain dropdown option
 agriculture = زراعت
@@ -1809,6 +1807,10 @@ nature_environment = فطرت اَتے ماحولیات
 news_current_affairs = خبراں اَتے موجودہ حالات
 # Sentence Domain dropdown option
 technology_robotics = ٹیکنالوجی اَتے روبوٹکس
+sentence-variant-select-label = جملے دا لہجہ
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 

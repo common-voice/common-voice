@@ -1,47 +1,54 @@
 import * as React from 'react'
-import { Localized } from '@fluent/react'
+import { Localized, useLocalization } from '@fluent/react'
 import classNames from 'classnames'
 
 import { EditIcon } from '../../../../../ui/icons'
 import { LabeledInput } from '../../../../../ui/ui'
 import { MultipleCombobox } from '../../../../../multiple-combobox'
-import { SingleSubmissionWriteProps } from '../single-submission-write/single-submission-write'
 import { Rules } from './rules'
 import { Instruction } from '../../instruction'
 import ExpandableInformation from '../../../../../expandable-information/expandable-information'
+import { Select } from '../../../../../select'
 import { SentenceSubmissionError } from 'common'
 import { LabeledTextArea } from '../../../../../ui/ui'
 import { LocaleLink } from '../../../../../locale-helpers'
 import URLS from '../../../../../../urls'
-import { useMultipleComboBox } from '../../../../../multiple-combobox/use-multiple-combox'
+import { useMultipleComboBox } from '../../../../../multiple-combobox/use-multiple-combobox'
 
 type Props = {
-  getString: SingleSubmissionWriteProps['getString']
   handleSentenceInputChange: (
     event: React.ChangeEvent<HTMLTextAreaElement>
   ) => void
   handleCitationChange: (event: React.ChangeEvent<HTMLInputElement>) => void
+  handleSentenceVariantChange: (item: string) => void
   selectedSentenceDomains: string[]
   setSelectedSentenceDomains: (domains: string[]) => void
   sentence: string
   citation: string
   sentenceDomains: readonly string[]
   error: SentenceSubmissionError
+  variantTokens: string[]
+  selectedVariant?: string
 }
 
 export const SentenceInputAndRules: React.FC<Props> = ({
-  getString,
   handleCitationChange,
   handleSentenceInputChange,
+  handleSentenceVariantChange,
   sentenceDomains,
   selectedSentenceDomains,
   setSelectedSentenceDomains,
   sentence,
   citation,
   error,
+  variantTokens,
+  selectedVariant,
 }) => {
   const isSentenceError = error && error !== SentenceSubmissionError.NO_CITATION
   const isCitationError = error === SentenceSubmissionError.NO_CITATION
+  const hasVariants = variantTokens && variantTokens.length > 0
+
+  const { l10n } = useLocalization()
 
   const { multipleComboBoxItems, inputValue, setInputValue } =
     useMultipleComboBox({
@@ -59,9 +66,10 @@ export const SentenceInputAndRules: React.FC<Props> = ({
         <div className="inputs">
           <Localized id="sentence" attrs={{ label: true }}>
             <LabeledTextArea
-              placeholder={getString('sentence-input-value')}
+              placeholder={l10n.getString('sentence-input-value')}
               className={classNames('sentence-input', {
                 'sentence-error': isSentenceError,
+                'variants-dropdown-hidden': !hasVariants,
               })}
               onChange={handleSentenceInputChange}
               value={sentence}
@@ -71,14 +79,26 @@ export const SentenceInputAndRules: React.FC<Props> = ({
           <MultipleCombobox
             items={multipleComboBoxItems}
             maxNumberOfSelectedElements={3}
-            selectedItems={selectedSentenceDomains}
             inputValue={inputValue}
             setInputValue={setInputValue}
+            selectedItems={selectedSentenceDomains}
             setSelectedItems={setSelectedSentenceDomains}
+            label={l10n.getString('sentence-domain-combobox-label')}
           />
+          {hasVariants && (
+            <Select
+              items={variantTokens}
+              setSelectedItem={handleSentenceVariantChange}
+              selectedItem={selectedVariant}
+              label={l10n.getString('sentence-variant-select-label')}
+              placeHolderText={l10n.getString(
+                'sentence-variant-select-placeholder'
+              )}
+            />
+          )}
           <Localized id="citation" attrs={{ label: true }}>
             <LabeledInput
-              placeholder={getString('citation-input-value')}
+              placeholder={l10n.getString('citation-input-placeholder')}
               className={classNames('citation-input', {
                 'citation-error': isCitationError,
               })}
@@ -87,6 +107,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               dataTestId="citation-input"
               autoComplete="on"
               name="citation"
+              required
             />
           </Localized>
           {isCitationError && (
