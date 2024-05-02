@@ -1747,7 +1747,7 @@ write-page-subtitle = Meningar som bidrags här kommer att läggas till i en all
 sentence =
     .label = Mening
 sentence-input-value = Ange din mening som är allmän egendom här
-citation-input-value = Källa till din mening
+citation-input-placeholder = Hänvisa till källan till din mening (krävs)
 citation =
     .label = Källhänvisning
 sc-write-submit-confirm = Jag bekräftar att den här meningen är <wikipediaLink>allmän egendom</wikipediaLink> och jag har tillstånd att ladda upp den.
@@ -1772,8 +1772,7 @@ single-sentence-submission = Inlämning av en enda mening
 bulk-sentence-submission = Massinlämning
 single-sentence = Enstaka mening
 bulk-sentences = Flera meningar
-sentence-domain-select =
-    .label = Meningsdomän
+sentence-domain-combobox-label = Meningsdomän
 sentence-domain-select-placeholder = Välj upp till tre domäner
 # Sentence Domain dropdown option
 agriculture = Lantbruk
@@ -1799,6 +1798,43 @@ nature_environment = Natur och miljö
 news_current_affairs = Nyheter och aktuella frågor
 # Sentence Domain dropdown option
 technology_robotics = Teknik och robotik
+sentence-variant-select-label = Meningsvariant
+sentence-variant-select-placeholder = Välj en variant (valfritt)
+sentence-variant-select-multiple-variants = Allmänt språk / flera varianter
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Alguerès
+ca-central = Central
+ca-balear = Balear
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Nordvästliga walesiska
+cy-northeas = Nordöstra Walesiska
+cy-midwales = Mitten av Wales
+cy-southwes = Sydvästliga walesiska
+cy-southeas = Sydöstra walesiska
+cy-wladfa = Patagonien, Walesiska
+pt-BR = Portugisiska (Brasilien)
+pt-PT = Portugisiska (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Central dialekt
+sw-kibajuni = Kibajuni (KE) - Nordlig dialekt
+sw-kimrima = Kimrima (TZ) - Nordlig dialekt
+sw-kiunguja = Kiunguja (TZ) - Sydlig dialekt
+sw-kipemba = Kipemba (TZ) - Sydlig dialekt
+sw-kikae = Kimakunduchi/Kikae (TZ) - Sydlig dialekt
+zgh-shi = ⵜⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

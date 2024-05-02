@@ -3,17 +3,13 @@ import { sentenceDomains } from 'common'
 
 export const AddSentenceRequest: AllowedSchema = {
   type: 'object',
-  required: ['sentence', 'source', 'localeId', 'localeName', 'domains'],
+  required: ['sentence', 'source', 'localeName', 'domains'],
   properties: {
     sentence: {
       type: 'string',
     },
     source: {
       type: 'string',
-    },
-    localeId: {
-      type: 'integer',
-      minimum: 1,
     },
     localeName: {
       type: 'string',
@@ -26,6 +22,9 @@ export const AddSentenceRequest: AllowedSchema = {
         enum: [...sentenceDomains],
       },
       uniqueItems: true,
+    },
+    variant: {
+      type: 'string',
     },
   },
 }

@@ -1,9 +1,9 @@
 @import url('../media.css');
 
-.multiple-sentence-domain-select {
+.multiple-combobox {
+    position: relative;
     ul {
         background: #fff;
-        margin: 0px 0 30px;
         position: absolute;
         z-index: var(--override-z-index);
 
@@ -19,7 +19,7 @@
             border: 1px solid var(--light-grey);
             box-shadow: 0 2px 5px 0 var(--light-grey);
             overflow: auto;
-            max-height: 500px;
+            max-height: 350px;
         }
 
         li {
@@ -38,7 +38,36 @@
         }
     }
 
+    .multiple-combobox-label {
+        background: var(--white);
+        color: var(--near-black);
+        font-size: var(--font-size-xs);
+        margin-inline-start: 9px;
+        padding: 0 5px;
+        position: absolute;
+        top: -8px;
+        z-index: var(--middle-z-index);
+    }
+
     input[type='text'] {
+        border: 1.6px solid #e6e4e1;
+        border-radius: 2px;
+        padding: 13px;
+        font-size: var(--font-size);
+        font-family: var(--base-font-family);
+        color: var(--black);
+        background-color: var(--white);
+        width: 100%;
+
+        &:focus {
+            border-color: var(--black);
+        }
+
+        &:disabled {
+            color: var(--warm-grey);
+            cursor: not-allowed;
+        }
+
         @media (--xs-down) {
             font-size: var(--font-size-xs);
 
@@ -49,10 +78,10 @@
     }
 }
 
-.selected-domains-list {
+.selected-items-list {
     margin-block-start: 30px;
 
-    .selected-domain {
+    .selected-item {
         display: inline-flex;
         align-items: center;
         padding-inline-start: 1.5rem;
@@ -60,9 +89,21 @@
         margin-bottom: 1.5rem;
         background: var(--light-grey);
         border-radius: 15rem;
+
+        p {
+            display: inline-block;
+            max-width: 150px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            @media (--xs-down) {
+                max-width: 250px;
+            }
+        }
     }
 
-    .selected-domain--button {
+    .selected-item--button {
         border: none;
         padding: 0.8rem 1.5rem;
         padding-inline-start: 1rem;

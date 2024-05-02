@@ -245,7 +245,7 @@ languages = linguas
 about = A proposito
 partner = Partner
 profile = Profilo
-help = Auxilio
+help = Adjuta
 contact = Contacto
 privacy = Confidentialitate
 terms = Terminos
@@ -450,6 +450,7 @@ help-accent-explanation = Tu accento es le maniera que tu pronuncia le vocabulos
 help-variants = Besonia tu de auxilio con le variantes?
 help-variants-explanation = Le variantes es un forma specific de un lingua, per exemplo compartite per illes vivente in un area geographic o communitate. Aliquando illos es appellate dialectos.
 help-sex-or-gender-changes = Besonia tu de adjuta con le cambios de sexo o genere?
+help-sex-or-gender-changes-explanation = Nos offere plus optiones pro dar al gente plus selection in que illes dice nos circa lor identitate de sexo o genere. Per favor auto-describe te como lo que se senti plus natural pro te. <learnMoreLink>Pro saper plus circa nostre approche a sexo e genere.</learnMoreLink>
 
 ## Profile - Email
 
@@ -681,6 +682,10 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Lege plus re c
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Como es financiate Common Voice?
+about-playbook-how-funded-content-1 = Common Voice es un projecto del Mozilla Foundation, un organisation US 501c3.
+about-playbook-how-funded-content-2 = Il costa tante moneta continuemente hospitar e publicar le collectiones de datos, meliorar le platteforma e exequer <africaMradiLink>programmas de communitate</africaMradiLink>.
+about-playbook-how-funded-content-3 = Si a vos o a vostre organisation placerea contribuer al projecto, vos pote facer un <donateLink>donation</donateLink> o contactar le equipa de nostre societates a <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -811,6 +816,7 @@ dataset-metadata-sex = Genere
 dataset-metadata-age = Etate
 donate-modal-message = Tu collection de datos es discargate!
 dataset-donate-modal-heading = Sape tu…
+donate-modal-explanation-1 = Il costa quasi un million de dollars per anno le allogiamento del collectiones de datos e meliorar le platteforma pro le plus que 100 communitates linguistic que conta sur illo que nos face?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>So tu apprecia le datos gratuite e inclusive - dona hodie!</bold>
 
@@ -1629,6 +1635,9 @@ continue-speaking-button = No gratias, continuar a parlar
 create-profile-text = Vole tu salvar tu informationes? <createProfile>Crea un profilo</createProfile>
 thanks-for-voice-toast = Gratias pro le informationes re tu voce
 thanks-for-voice-toast-error = Un error occurreva durante le invio del informationes re tu voce
+first-cta-gender-select-default-option = Elige un option
+first-cta-gender-select-help-text =
+    .label = Como describerea tu tu sexo o genere?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Gratias pro contribuer con tu voce!
 second-cta-subtitle-text = Con un profilo, tu pote mantener tracia de tu activitate e connecter te con collaboratores de un communitate de datos vocal.
@@ -1728,6 +1737,7 @@ reviewing-sentences-explanation-1 = Si le phrase satisface le precedente criteri
 reviewing-sentences-explanation-2 = Si le phrase no satisface le precedente criterios, clicca le button "No".
 reviewing-sentences-explanation-3 = Si tu non es secur re le phrase, tu pote alsi saltar lo e mover al successive.
 reviewing-sentences-explanation-4 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger altere phrases!
+domain-explanation = Le dominio se refere al materia del phrase. Actualmente, vos pote eliger inter:
 
 ## WRITE PAGE
 
@@ -1736,7 +1746,7 @@ write-page-subtitle = Le phrases fornite ci sera addite a un insimul de datos pu
 sentence =
     .label = Phrase
 sentence-input-value = Insere ci tu phrase de dominio public
-citation-input-value = Fonte de tu phrase
+citation-input-placeholder = Refere le fonte de tu phrase (obligatori)
 citation =
     .label = Citation
 sc-write-submit-confirm = Io confirma que iste phrases es del <wikipediaLink>dominio public</wikipediaLink> e que io ha le permission de cargar los.
@@ -1761,8 +1771,8 @@ single-sentence-submission = Invio de phrases singule
 bulk-sentence-submission = Invio de gruppo de phrases
 single-sentence = Phrase singule
 bulk-sentences = Gruppo de phrases
-sentence-domain-select =
-    .label = Dominio del phrase
+sentence-domain-combobox-label = Dominio del phrase
+sentence-domain-select-placeholder = Selige usque tres dominios
 # Sentence Domain dropdown option
 agriculture = Agricultura
 # Sentence Domain dropdown option
@@ -1770,11 +1780,15 @@ automotive = Automobile
 # Sentence Domain dropdown option
 finance = Financia
 # Sentence Domain dropdown option
+food_service_retail = Alimentos, servicio e detalio
+# Sentence Domain dropdown option
 general = General
 # Sentence Domain dropdown option
 healthcare = Cura del sanitate
 # Sentence Domain dropdown option
 history_law_government = Historia, Lege e Governamento
+# Sentence Domain dropdown option
+language_fundamentals = Fundamentos de lingua (p. ex. Digitos, Litteras, Moneta)
 # Sentence Domain dropdown option
 media_entertainment = Medios e intertenimento
 # Sentence Domain dropdown option
@@ -1783,6 +1797,43 @@ nature_environment = Natura e ambiente
 news_current_affairs = Novas e Affaires Currente
 # Sentence Domain dropdown option
 technology_robotics = Technologia e Robotica
+sentence-variant-select-label = Variante del phrase
+sentence-variant-select-placeholder = Elige un variante (optional)
+sentence-variant-select-multiple-variants = Lingua general / plure variantes
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Catalano Alguerese
+ca-central = Central
+ca-balear = Balear
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Gallese del nord-west
+cy-northeas = Gallese del nord-est
+cy-midwales = Gallese del medio
+cy-southwes = Gallese del sud-west
+cy-southeas = Gallese del sud-est
+cy-wladfa = Gallese patagoniano
+pt-BR = Portugese (Brasil)
+pt-PT = Portugese (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Dialecto central
+sw-kibajuni = Kibajuni (KE) - Dialecto del nord
+sw-kimrima = Kimrima (TZ) - Dialecto del nord
+sw-kiunguja = Kiunguja (TZ) - Dialecto del sud
+sw-kipemba = Kipemba (TZ) - Dialecto del sud
+sw-kikae = Kimakunduchi/Kikae (TZ) - Dialecto del sud
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (atlas tamazight central)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
@@ -1830,3 +1881,10 @@ too-many-files = Troppo de files
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Nos besonia</mark><br/><mark>tu adjuta!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Il costa quasi un million de dollars per anno le allogiamento del collectiones de datos e le melioration del platteforma pro le plus que 100 communitates linguistic que conta sur illo que nos face. <strong>Si vos apprecia le datos gratuite e inclusive: dona hodie!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Usa vos CV pro</mark><br/><mark>vostre recerca?</mark>
+languages-donate-banner-cta-explanation = Common Voice es financiate per donationes e subventiones! Nos ama collaborar con academicos, recercatores de societate civil e industria. Le uso de Common Voice es gratuite, ma contribuer al platteforma e al costos de allogiamento proponente subventiones es realmente utile.

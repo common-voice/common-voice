@@ -253,7 +253,7 @@ cookies = Cookies
 faq = كۆپ سورالغان سوئاللار
 content-license-text = مەزمۇنلار <licenseLink> ئىجادىيەت ئورتاقلىق ئىجازەتنامىسى </licenseLink>دە ئىشلىتىلىدۇ
 share-title = ئاۋازىنى ئىئانە قىلىدىغانلارنى تېپىشىمىزغا ياردەملىشىڭ!
-share-text = ماشىنىلارغا ھەقىقىي كىشىلەرنىڭ قانداق سۆزلەيدىغانلىقىنى ئۆگىنىشىگە ياردەم قىلىڭ ، link $ ئۇلىنىش ئارقىلىق ئاۋازىڭىزنى ئىئانە قىلىڭ
+share-text = ھەقىقىي كىشىلەرنىڭ قانداق سۆزلەيدىغانلىقىنى ماشىنىلارغا ئۆگىتىشكە ياردەم قىلىڭ ، { $link } ئۇلىنىش ئارقىلىق ئاۋازىڭىزنى ئىئانە قىلىڭ
 link-copied = ئۇلانما كۆچۈرۈلدى
 back-top = ئۈستىگە قايت
 logout = تىزىمدىن چىقىش
@@ -794,6 +794,8 @@ subscribe = مۇشتەرى بولۇش
 get-started-speech = ئاۋاز تونۇتۇشنى باشلاڭ
 other-datasets = باشقا ئاۋاز مەلۇمات توپى
 feedback-q = تەكلىپ-پىكرىڭىز بارمۇ؟
+# This indicates that there is no data to display
+no-information = ھېچقانداق ئۇچۇر يوق
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ تەتقىقاتچىلار ئەڭ ئىلغار سۆزلىشىش شەكلىدىكى سۈنئىي ئەقىل (AI) بۆلىكىنى ئىجاد قىلىدىغان بىر يۈرۈش <docsLink>ئوچۇق كودلۇق ئىجادكارلار قورال بوغچىسى</docsLink>
 resource-deepspeech-info = Common Voice سانلىق مەلۇمات ئامبىرى Mozilla نىڭ ئوچۇق مەنبەلىك ئاۋاز پەرقلەندۈرۈش ماتورى Deep Speech نى قوللىنىپ، ئاۋاز پەرقلەندۈرۈش پروگراممىلىرىنى قۇرالايسىز. قەيەردىن باشلاشنى بىلىشتە بىزنىڭ <githubLink>قىسقىچە تونۇشتۇرۇش  Github </githubLink>  نى ئوقۇڭ ياكى <discourseLink>DeepSpeech مۇنازىرىسىگە</discourseLink> قاتنىشىڭ.
 resource-coqui-info = <coquiLink> Coqui </coquiLink> ئوچۇق نۇتۇق تېخنىكىسىغا بېغىشلانغان. ئۇلارنىڭ تۈرلىرى چوڭقۇر ئۆگىنىشنى ئاساس قىلغان STT ۋە TTS موتورلىرىنى ئۆز ئىچىگە ئالىدۇ.
@@ -1732,7 +1734,7 @@ write-page-subtitle = بۇ جايدا تۆھپە قوشۇلغان جۈملىلە
 sentence =
     .label = جۈملە
 sentence-input-value = ئاممىۋى دائىرىدىكى جۈملىنى بۇ جايغا كىرگۈزۈڭ
-citation-input-value = جۈملىڭىزنىڭ مەنبەسى
+citation-input-placeholder = جۈملىڭىزنىڭ پايدىلانما مەنبەسى (زۆرۈر)
 citation =
     .label = نەقىل
 sc-write-submit-confirm = مەن بۇ جۈملىنىڭ <wikipediaLink>ئاممىۋى دائىرە</wikipediaLink> دە ئىكەنلىكىنى جەزملەشتۈرىمەن ھەمدە ئۇنى يۈكلەش ئىجازىتىم بار.
@@ -1757,8 +1759,8 @@ single-sentence-submission = يەككە جۈملە يوللاش
 bulk-sentence-submission = تۈركۈملەپ جۈملە يوللاش
 single-sentence = يەككە جۈملە
 bulk-sentences = كۆپ جۈملە
-sentence-domain-select =
-    .label = جۈملە دائىرىسى
+sentence-domain-combobox-label = جۈملە دائىرىسى
+sentence-domain-select-placeholder = كۆپ بولغاندا ئۈچ دائىرە تاللىنىدۇ
 # Sentence Domain dropdown option
 agriculture = دېھقانچىلىق
 # Sentence Domain dropdown option
@@ -1783,6 +1785,20 @@ nature_environment = تەبىئەت ۋە مۇھىت
 news_current_affairs = خەۋەر ۋە نۆۋەتتىكى ۋەقەلەر
 # Sentence Domain dropdown option
 technology_robotics = تېخنىكا ۋە ماشىنا ئادەم
+sentence-variant-select-label = جۈملە تۈرى
+sentence-variant-select-placeholder = تۈرى تاللىنىدۇ (تاللاشچان)
+sentence-variant-select-multiple-variants = ئادەتتىكى تىل / كۆپ خىل تۈرى
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = ئالگېرىس
+ca-central = مەركىزى
+ca-balear = بالېر
+pt-BR = پورتۇگالچە (بىرازىلىيە)
+pt-PT = پورتۇگالچە (پورتۇگالىيە)
+sw-kimvita = كىمۋىتا (كېنىيە) - مەركىزى شېۋە
+sw-kibajuni = كىباجۇنى (كېنىيە) - شىمال شېۋىسى
+sw-kimrima = كىمرىما (تانزانىيە) - شىمال شېۋىسى
 
 ## REVIEW PAGE
 

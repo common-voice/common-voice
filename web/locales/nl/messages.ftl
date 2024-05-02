@@ -1815,7 +1815,7 @@ write-page-subtitle = Zinnen die hier zijn bijgedragen worden toegevoegd aan een
 sentence =
     .label = Zin
 sentence-input-value = Voer hier uw publieke domeinzin in
-citation-input-value = Bron van uw zin
+citation-input-placeholder = Verwijzing naar de bron van uw zin (vereist)
 citation =
     .label = Citaat
 sc-write-submit-confirm =
@@ -1842,8 +1842,7 @@ single-sentence-submission = Indienen van één zin
 bulk-sentence-submission = Bulkindiening van zinnen
 single-sentence = Losse zin
 bulk-sentences = Bulkzinnen
-sentence-domain-select =
-    .label = Zinsdomein
+sentence-domain-combobox-label = Zinsdomein
 sentence-domain-select-placeholder = Selecteer maximaal drie domeinen
 # Sentence Domain dropdown option
 agriculture = Landbouw
@@ -1869,6 +1868,43 @@ nature_environment = Natuur en milieu
 news_current_affairs = Nieuws en actualiteiten
 # Sentence Domain dropdown option
 technology_robotics = Technologie en robotica
+sentence-variant-select-label = Zinsvariant
+sentence-variant-select-placeholder = Selecteer een variant (optioneel)
+sentence-variant-select-multiple-variants = Algemeen taalgebruik / meerdere varianten
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Algherees
+ca-central = Centraal
+ca-balear = Baleaars
+ca-nwestern = Noord-Occidentaals
+ca-northern = Septentrionaals
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Centraal Valenciaans
+ca-valencia-northern = Septentrionaal Valenciaans
+ca-valencia-southern = Meridionaal Valenciaans
+ca-valencia-alacant = Alicants
+cy-northwes = Noordwest-Welsh
+cy-northeas = Noordoost-Welsh
+cy-midwales = Mid-Welsh
+cy-southwes = Zuidwest-Welsh
+cy-southeas = Zuidoost-Welsh
+cy-wladfa = Patagonisch Welsh
+pt-BR = Portugees (Brazilië)
+pt-PT = Portugees (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) – Centraal dialect
+sw-kibajuni = Kibajuni (KE) – Noordelijk dialect
+sw-kimrima = Kimrima (TZ) – Noordelijk dialect
+sw-kiunguja = Kiunguja (TZ) – Zuidelijk dialect
+sw-kipemba = Kipemba (TZ) – Zuidelijk dialect
+sw-kikae = Kimakunduchi/Kikae (TZ) – Zuidelijk dialect
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Centrale Atlas Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

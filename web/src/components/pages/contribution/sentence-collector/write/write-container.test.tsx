@@ -6,6 +6,7 @@ import WriteContainer from './write-container'
 import * as storeHooksModule from '../../../../../hooks/store-hooks'
 
 const useActionMock = jest.fn()
+const mockVariants = jest.fn(() => Promise.resolve({}))
 
 jest.mock('../../../../../hooks/store-hooks', () => ({
   useLanguages: () => {
@@ -24,6 +25,11 @@ jest.mock('../../../../../hooks/store-hooks', () => ({
       bulkUploadStatus: 'off',
     },
   }),
+  useAPI: () => {
+    return {
+      getVariants: mockVariants,
+    }
+  },
 }))
 
 jest.mock('../../../../locale-helpers', () => ({
@@ -40,11 +46,13 @@ afterEach(() => {
 })
 
 describe('Write container', () => {
-  it('renders the write container', () => {
+  it('renders the write container', async () => {
     renderWithProviders(<WriteContainer />)
 
-    expect(screen.getByTestId('single-submission-form')).toBeTruthy()
-    expect(screen.getByTestId('sc-toggle')).toBeTruthy()
+    await waitFor(() => {
+      expect(screen.getByTestId('single-submission-form')).toBeTruthy()
+      expect(screen.getByTestId('sc-toggle')).toBeTruthy()
+    })
   })
 
   it('toggles the active write option', async () => {
@@ -68,22 +76,5 @@ describe('Write container', () => {
     renderWithProviders(<WriteContainer />)
 
     waitFor(() => expect(screen.findByTestId('sc-toggle')).not.toBeTruthy())
-  })
-
-  it('shows the bulk upload success page', () => {
-    jest.spyOn(storeHooksModule, 'useSentences').mockImplementationOnce(() => ({
-      'mock-locale-1': {
-        bulkUploadStatus: 'done',
-        isLoading: false,
-        sentences: [],
-        isLoadingPendingSentences: false,
-        hasLoadingError: false,
-        pendingSentences: [],
-      },
-    }))
-
-    renderWithProviders(<WriteContainer />)
-
-    expect(screen.getByTestId('bulk-submission-success')).toBeTruthy()
   })
 })

@@ -26,6 +26,7 @@ import { flow, pipe } from 'fp-ts/function'
 import { Validators } from '..'
 import {
   isValidatorLocale,
+  ValidatedSentence,
   ValidatorLocale,
   ValidatorRule,
   ValidatorRuleError,
@@ -88,10 +89,16 @@ const normalizeForLocale = (locale: string) => (sentence: string) =>
 
 const validateSentenceForLocale = flow(getValidatorFor, runValidatorOnSentence)
 
-export const validateSentence = (locale: string) => (sentence: string) => {
-  return pipe(
-    sentence,
-    normalizeForLocale(locale),
-    validateSentenceForLocale(locale)
-  )
-}
+export type ValidateSentence = (
+  locale: string
+) => (sentence: string) => E.Either<ValidatorRuleError, ValidatedSentence>
+
+export const validateSentence: ValidateSentence =
+  (locale: string) =>
+  (sentence: string): E.Either<ValidatorRuleError, ValidatedSentence> => {
+    return pipe(
+      sentence,
+      normalizeForLocale(locale),
+      validateSentenceForLocale(locale)
+    )
+  }

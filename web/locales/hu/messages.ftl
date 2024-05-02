@@ -455,6 +455,7 @@ help-accent = Segítségre van szüksége az akcentussal kapcsolatban?
 help-accent-explanation = Az akcentusa az, ahogy a szavakat kiejti. Alakíthatja hogy hol élt, milyen más nyelveket beszél, és sok egyéb tényező. Itt megoszthat minden olyan információt, amelyet relevánsnak érez.
 help-variants = Segítségre van szüksége a változatokkal kapcsolatban?
 help-variants-explanation = A változatok egy nyelv sajátos formáját jelentik – például egy adott földrajzi területen vagy közösségben élők közös nyelvi formáját. Néha ezeket dialektusoknak nevezik.
+help-sex-or-gender-changes = Segítségre van szüksége a nem vagy nemi identitás változásával kapcsolatban?
 help-sex-or-gender-changes-explanation = Több lehetőséget kínálunk, hogy az emberek nemükről vagy nemi identitásukról többféle választási lehetőség közül választhassanak. Írja le magát az Ön számára legtermészetesebb módon. <learnMoreLink>Tudjon meg többet a biológiai és a társadalmi nemről alkotott megközelítésünkről.</learnMoreLink>
 
 ## Profile - Email
@@ -785,6 +786,8 @@ subscribe = Feliratkozás
 get-started-speech = Első lépések a beszédfelismeréssel
 other-datasets = Más hangadatkészletek
 feedback-q = Visszajelzése van?
+# This indicates that there is no data to display
+no-information = Nincs információ
 resource-nemo-info = Az <githubLink>NVIDIA NeMo</githubLink>™ egy <docsLink>nyílt forráskódú eszközkészlet</docsLink> a legmodernebb társalgási MI modelleket fejlesztő kutatók számára.
 resource-deepspeech-info = A Mozilla nyílt forráskódú hangfelismerő motorja, a Deep Speech, beszédfelismerő alkalmazások készítéséhez használható. Olvassa el a <githubLink>Github áttekintést</githubLink>, vagy az első lépésekhez csatlakozzon a <discourseLink>DeepSpeech Discourse-hoz</discourseLink>.
 resource-coqui-info = A <coquiLink>Coqui</coquiLink> elkötelezett a nyílt beszédtechnológia iránt. A projektjeik közé tartoznak a mély tanuláson alapuló STT (beszédfelismerés) és TTS (beszédszintézis) motorok.
@@ -1744,7 +1747,7 @@ write-page-subtitle = Az itt beküldött mondatok egy nyilvánosan elérhető, c
 sentence =
     .label = Mondat
 sentence-input-value = Írja ide a közkincsű mondatot
-citation-input-value = A mondat forrása
+citation-input-placeholder = Hivatkozás a mondat forrására (kötelező)
 citation =
     .label = Idézet
 sc-write-submit-confirm = Megerősítem, hogy ez a mondat <wikipediaLink>közkincs</wikipediaLink>, és engedéllyel töltöm fel.
@@ -1769,8 +1772,8 @@ single-sentence-submission = Egy mondatos beküldés
 bulk-sentence-submission = Mondatok tömeges beküldése
 single-sentence = Egyetlen mondat
 bulk-sentences = Több mondat
-sentence-domain-select =
-    .label = Mondatdomén
+sentence-domain-combobox-label = Mondatdomén
+sentence-domain-select-placeholder = Válasszon legfeljebb három domént
 # Sentence Domain dropdown option
 agriculture = Mezőgazdaság
 # Sentence Domain dropdown option
@@ -1795,6 +1798,14 @@ nature_environment = Természet és környezetvédelem
 news_current_affairs = Hírek és aktuális témák
 # Sentence Domain dropdown option
 technology_robotics = Technológia és robotika
+sentence-variant-select-label = Mondatváltozat
+sentence-variant-select-placeholder = Válasszon változatot (nem kötelező)
+sentence-variant-select-multiple-variants = Általános nyelv / több változat
+
+## LANGUAGE VARIANT CODES
+
+pt-BR = Portugál (brazíliai)
+pt-PT = portugál (portugáliai)
 
 ## REVIEW PAGE
 

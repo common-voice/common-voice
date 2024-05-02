@@ -458,6 +458,7 @@ help-accent = Eñepytyvõkasépa myanduhére
 help-accent-explanation = Ne myanduhe ha’e pe mba’eichaitépa embo’ayvu peteĩ ñe’ẽ. Ikatu omombe’u mba’e tendápepa eikoraka’e, mba’e ñe’ẽpa eiporu ha ambue hetave mba’e. Emoherakuãkuaa oimeraẽva marandu ehecharamovéva ko’ápe.
 help-variants = Eikotevẽpa pytyvõ ñe’ẽ iñambuévape
 help-variants-explanation = Umi ñe’ẽambue ha’énte avei ñe’ẽ, techapyrãramo, oiporúva tapichakuéra oikóva peteĩ tekohápe. Ko’ãvape oñembohéra ñe’ẽambue.
+help-sex-or-gender-changes = Eñepytyvõukasépa Sexo térã Género moambuépe
 
 ## Profile - Email
 
@@ -793,6 +794,8 @@ subscribe = Mboheraguapy
 get-started-speech = Eñepyrũ ko árape ayvu jeikuaa
 other-datasets = Ambue mba’ekuaarã ayvugua rupa
 feedback-q = ¿Eñe’ẽsépa?
+# This indicates that there is no data to display
+no-information = Marandu’ỹ
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ha’e <docsLink>tembiporu aty ijayvu jurujáva</docsLink> mba’erekaha omboguatáva IA ñomongetarã ipyahuetéva.
 resource-deepspeech-info = Mozilla ñe’ẽ jekuaaukarã mongu’eha ijayvu jurujáva, Deep Speech, eiporu emoheñói hag̃ua tembiporu’i ñe’ẽ jekuaaukarã. Emoñe’ẽ <githubLink>Github mbykypyre</githubLink> térã eike <discourseLink>DeepSpeech Discourse</discourseLink> eikuaa hag̃ua mba’éicha eñepyrũta.
 resource-coqui-info = <coquiLink>Mbojy</coquiLink> omba’apo tembiporupyahu ñe’ẽpu ijurujávare. Hembiaporãme oike STT mongu’eha ha TTS ojekóva tembikuaa pypukúre.
@@ -821,6 +824,8 @@ dataset-metadata-sex = Meña
 dataset-metadata-age = Ary
 donate-modal-message = ¡Ne mba’ekuaarã aty oguejyhína!
 dataset-donate-modal-heading = Eikuaápa…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Emomba’érõ mba’ekuaarã ijuruja ha ogueroikéva, ¡embojopói ko árape!</bold>
 
 ## Download Modal
 
@@ -1687,6 +1692,7 @@ public-domain-explanation-2 = Umi ñe’ẽjuaju iporãva oñemoheñói hag̃ua 
 public-domain-explanation-3 = Emoheñói umi ñe’ẽjuaju ipyahu ha ojeporúva, neaño térã neangirũ térã eñe’ẽmemeha ndive, techapyrãrõ, peteĩ ‘jehai guasu’ ndive
 public-domain-explanation-4 = Eñe’ẽ apohare, ñoha’ãnga’apoha térã haihára ndive ha eporandu chupekuéra nome’ẽséipa hembiapokue opavave oipukuaa hag̃uáicha.
 public-domain-explanation-5 = Moñe’ẽrã ndoguerekovéimava apohára derécho; techapyrãramo, opavave aranduka ojehaiva’ekue ary 1920 mboyve.
+citing-sentences-explanation-1 = Ehaíkena kuaaukaha rohechajeykuaa hag̃ua ñe’ẽjuajukuéra ha’épa opavave oiporukuaáva ha ani oñemoĩ mba’eapohare derécho.
 citing-sentences-subheader-websites = Ñanduti renda
 citing-sentences-subheader-websites-explanation = Emoingekuaa ñanduti renda, techapyrã, "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Mbokatupyha Herakuãvéva
@@ -1714,6 +1720,7 @@ reviewing-sentences-explanation-1 = Pe ñe’ẽjuaju oiko hekopetéramo, eikutu
 reviewing-sentences-explanation-2 = Pe ñe’ẽjuaju ndoikóiramo hekopete, eikutu pe votõ "Nahániri".
 reviewing-sentences-explanation-3 = Ndereikuaaporãiramo ñe’ẽjuaju rehe, avei ikatu emboyke ha ehasánte chugui.
 reviewing-sentences-explanation-4 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
+domain-explanation = Tendatee oñe’ẽ ñe’ẽjuaju rehe. Ko’ag̃aite, eiporavokuaa ko’ãva apytégui:
 
 ## WRITE PAGE
 
@@ -1722,7 +1729,7 @@ write-page-subtitle = Umi ñe’ẽjuaju jehupipyre ojuajúta mba’ekuaarã aty
 sentence =
     .label = Ñe’ẽjoaju
 sentence-input-value = Ehai ko’ápe ne ñe’ẽjuaju opavave oiporukuaáva
-citation-input-value = Ne ñe’ẽjoaju heñoihague
+citation-input-placeholder = Ñe’ẽjuaju reñoiha rehegua (katuete)
 citation =
     .label = Jehechauka
 sc-write-submit-confirm = Amoneĩ ko ñe’ẽjuaju ha’eha <wikipediaLink>opavave oiporukuaáva</wikipediaLink> ha areko ñemoneĩ ahupi hag̃ua.
@@ -1747,8 +1754,8 @@ single-sentence-submission = Emondo peteĩ ñe’ẽjoaju año
 bulk-sentence-submission = Emondo heta ñe’ẽjoaju
 single-sentence = Peteĩ ñe’ẽjoaju
 bulk-sentences = Heta ñe’ẽjoaju
-sentence-domain-select =
-    .label = Ñe’ẽjuaju rendatee
+sentence-domain-combobox-label = Ñe’ẽjuaju rendatee
+sentence-domain-select-placeholder = Eiporavo mbohapy tendatee peve
 # Sentence Domain dropdown option
 agriculture = Temitỹmby
 # Sentence Domain dropdown option
@@ -1764,6 +1771,8 @@ healthcare = Tesãirãre ñema’ẽ
 # Sentence Domain dropdown option
 history_law_government = Tembiasakue, Derécho ha Tekuái
 # Sentence Domain dropdown option
+language_fundamentals = Ñe’ẽ reheguaite (techapyrã, Tairenda, Tai, Pirapire)
+# Sentence Domain dropdown option
 media_entertainment = Momaranduha ha mbovy’aha
 # Sentence Domain dropdown option
 nature_environment = Tekopy ha Tekoha
@@ -1771,6 +1780,42 @@ nature_environment = Tekopy ha Tekoha
 news_current_affairs = Marandu ha Ag̃aguáva
 # Sentence Domain dropdown option
 technology_robotics = Tembiporupyahu ha Robótica
+sentence-variant-select-label = Ñe’ẽjuaju ambuepy
+sentence-variant-select-placeholder = Eiporavo ambuepy (ejaposérõ)
+sentence-variant-select-multiple-variants = Ñe’ẽ tuichaháicha / heta iñambueháicha
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Algueres
+ca-central = Tuichavéva
+ca-balear = Balear
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencia rehegua
+ca-valencia-northern = Valencia septentrional
+ca-valencia-southern = Valencia meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Galés noroeste-gua
+cy-northeas = Galés noroeste-gua
+cy-midwales = Gales mbytegua
+cy-southwes = Galés noroeste-gua
+cy-southeas = Gales suroeste-gua
+cy-wladfa = Gales Patagonia-gua
+pt-BR = Portugués (Brasil)
+pt-PT = Portugués (Portugal)
+sw-sanifu = Suajili ypyguáva (EA)
+sw-barake = Suajili Kenia ñe’ẽ
+sw-baratz = Suajili Tanzania ñe’ẽ
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Ñe’ẽ guasu
+sw-kibajuni = Kibajuni (KE) - Ñe’ẽ yvate gotyogua
+sw-kimrima = Kimrima (TZ) - Ñe’ẽ yvate gotyogua
+sw-kiunguja = Kiunguja (TZ) - Ñe’ẽ yvy gotyogua
+sw-kipemba = Kipemba (TZ) - Ñe’ẽ yvy gotyogua
+sw-kikae = Kimakunduchi/Kikae (TZ) - Ñe’ẽ yvy gotyogua
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
@@ -1817,3 +1862,7 @@ too-many-files = Heta marandurenda
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>¡Ñaikotevẽ</mark><br/><mark>ne ñepytyvõ!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>¿Eiporu CV </mark><br/><mark>nde jeporekarã?</mark>

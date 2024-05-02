@@ -1,11 +1,11 @@
-import { taskEither as TE, taskOption as TO } from 'fp-ts'
+import { option as O, taskEither as TE, taskOption as TO } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { MysqlError } from 'mysql2Types'
 import { UnvalidatedSentence } from '../../../core/sentences/types'
 import { SentencesForReviewRow } from '../../../infrastructure/db/types'
 import Mysql, { getMySQLInstance } from '../../../lib/model/db/mysql'
 import { createSentenceId } from '../../../lib/utility'
-import { createPendingSentencesRepositoryError } from '../../helper/error-helper'
+import { createSentenceRepositoryError } from '../../helper/error-helper'
 import { ApplicationError } from '../../types/error'
 import { SentenceSubmission } from '../../types/sentence-submission'
 
@@ -16,12 +16,24 @@ const db = getMySQLInstance()
 const DUPLICATE_KEY_ERR = 1062
 const BATCH_SIZE = 1000
 
+export type SaveSentence = (
+  sentenceSubmission: SentenceSubmission
+) => TE.TaskEither<ApplicationError, void>
+
+export type FindDomainIdByName = (
+  domainName: string
+) => TE.TaskEither<ApplicationError, O.Option<number>>
+
 const insertSentenceTransaction = async (
   db: Mysql,
   sentence: SentenceSubmission
 ) => {
   const sentenceId = createSentenceId(sentence.sentence, sentence.locale_id)
   const conn = await mysql2.createConnection(db.getMysqlOptions())
+  const variant_id = pipe(
+    sentence.variant_id,
+    O.getOrElse(() => null)
+  )
 
   try {
     await conn.beginTransaction()
@@ -35,10 +47,10 @@ const insertSentenceTransaction = async (
 
     await conn.query(
       `
-        INSERT INTO sentence_metadata(sentence_id, client_id)
-        VALUES (?, ?);
+        INSERT INTO sentence_metadata(sentence_id, client_id, variant_id)
+        VALUES (?, ?, ?);
       `,
-      [sentenceId, sentence.client_id]
+      [sentenceId, sentence.client_id, variant_id]
     )
 
     for (const domainId of sentence.domain_ids ?? []) {
@@ -66,6 +78,7 @@ const insertBulkSentencesTransaction = async (
 ) => {
   const sentence_values: any = []
   const sentence_metadata_values: any = []
+  const sentence_domain_values: any = []
 
   sentences.forEach(submission => {
     const sentenceId = createSentenceId(
@@ -81,6 +94,8 @@ const insertBulkSentencesTransaction = async (
       1,
     ])
     sentence_metadata_values.push([sentenceId, submission.client_id])
+    if (submission.domain_ids?.length > 0)
+      sentence_domain_values.push([sentenceId, submission.domain_ids[0]])
   })
 
   const conn = await mysql2.createConnection(db.getMysqlOptions())
@@ -90,6 +105,7 @@ const insertBulkSentencesTransaction = async (
 
   let sentences_batch = sentence_values.slice(start, end)
   let sentences_metadata_batch = sentence_metadata_values.slice(start, end)
+  let sentences_domain_batch = sentence_domain_values.slice(start, end)
 
   try {
     await conn.beginTransaction()
@@ -116,6 +132,23 @@ const insertBulkSentencesTransaction = async (
       sentences_batch = sentence_values.slice(start, end)
       sentences_metadata_batch = sentence_metadata_values.slice(start, end)
     }
+    // Need to run the domains separately since the number of sentences that
+    // contain domains is smaller or equal to the number of sentences
+    start = 0
+    end = BATCH_SIZE
+    while (sentences_domain_batch.length > 0) {
+      await conn.query(
+        `
+          INSERT IGNORE INTO sentence_domains(sentence_id, domain_id)
+          VALUES ?
+       `,
+        [sentences_domain_batch]
+      )
+
+      start += BATCH_SIZE
+      end += BATCH_SIZE
+      sentences_domain_batch = sentence_domain_values.slice(start, end)
+    }
 
     await conn.commit()
   } catch (err) {
@@ -126,28 +159,28 @@ const insertBulkSentencesTransaction = async (
   }
 }
 
-const insertSentence =
+const saveSentence =
   (db: Mysql) =>
-    (
-      sentenceSubmission: SentenceSubmission
-    ): TE.TaskEither<ApplicationError, unknown> => {
-      return TE.tryCatch(
-        () => insertSentenceTransaction(db, sentenceSubmission),
-        (err: MysqlError) => {
-          if (err.errno && err.errno === DUPLICATE_KEY_ERR) {
-            return createPendingSentencesRepositoryError(
-              `Duplicate entry '${sentenceSubmission.sentence}'`,
-              err
-            )
-          }
-
-          return createPendingSentencesRepositoryError(
-            `Error inserting pending sentence '${sentenceSubmission.sentence}'`,
+  (
+    sentenceSubmission: SentenceSubmission
+  ): TE.TaskEither<ApplicationError, void> => {
+    return TE.tryCatch(
+      () => insertSentenceTransaction(db, sentenceSubmission),
+      (err: MysqlError) => {
+        if (err.errno && err.errno === DUPLICATE_KEY_ERR) {
+          return createSentenceRepositoryError(
+            `Duplicate entry '${sentenceSubmission.sentence}'`,
             err
           )
         }
-      )
-    }
+
+        return createSentenceRepositoryError(
+          `Error inserting pending sentence '${sentenceSubmission.sentence}'`,
+          err
+        )
+      }
+    )
+  }
 
 export type InsertBulkSentences = (
   sentenceSubmissions: SentenceSubmission[]
@@ -155,35 +188,35 @@ export type InsertBulkSentences = (
 
 const insertBulkSentences =
   (db: Mysql) =>
-    (sentenceSubmissions: SentenceSubmission[]): TE.TaskEither<Error, void> => {
-      return TE.tryCatch(
-        () => insertBulkSentencesTransaction(db, sentenceSubmissions),
-        (err: Error) => err
-      )
-    }
+  (sentenceSubmissions: SentenceSubmission[]): TE.TaskEither<Error, void> => {
+    return TE.tryCatch(
+      () => insertBulkSentencesTransaction(db, sentenceSubmissions),
+      (err: Error) => err
+    )
+  }
 
 const insertSentenceVote =
   (db: Mysql) =>
-    (vote: {
-      sentenceId: number
-      vote: boolean
-      clientId: string
-    }): TE.TaskEither<ApplicationError, unknown> => {
-      return TE.tryCatch(
-        () =>
-          db.query(
-            `INSERT INTO sentence_votes (sentence_id, vote, client_id)
+  (vote: {
+    sentenceId: number
+    vote: boolean
+    clientId: string
+  }): TE.TaskEither<ApplicationError, unknown> => {
+    return TE.tryCatch(
+      () =>
+        db.query(
+          `INSERT INTO sentence_votes (sentence_id, vote, client_id)
           VALUES (?, ?, ?)
           ON DUPLICATE KEY UPDATE vote = VALUES(vote)`,
-            [vote.sentenceId, vote.vote, vote.clientId]
-          ),
-        (err: Error) =>
-          createPendingSentencesRepositoryError(
-            `Error inserting vote for pending_sentence ${vote.sentenceId} with client_id ${vote.clientId}`,
-            err
-          )
-      )
-    }
+          [vote.sentenceId, vote.vote, vote.clientId]
+        ),
+      (err: Error) =>
+        createSentenceRepositoryError(
+          `Error inserting vote for pending_sentence ${vote.sentenceId} with client_id ${vote.clientId}`,
+          err
+        )
+    )
+  }
 
 const toUnvalidatedSentence = ([unvalidatedSentenceRows]: [
   [SentencesForReviewRow]
@@ -193,29 +226,33 @@ const toUnvalidatedSentence = ([unvalidatedSentenceRows]: [
     sentenceId: row.id,
     source: row.source,
     localeId: row.locale_id,
+    variantTag: O.fromNullable(row.variant_token),
   }))
 
 const findSentencesForReview =
   (db: Mysql) =>
-    (queryParams: {
-      localeId: number
-      clientId: string
-    }): TO.TaskOption<UnvalidatedSentence[]> => {
-      return pipe(
-        TO.tryCatch(() =>
-          db.query(
-            `
+  (queryParams: {
+    localeId: number
+    clientId: string
+  }): TO.TaskOption<UnvalidatedSentence[]> => {
+    return pipe(
+      TO.tryCatch(() =>
+        db.query(
+          `
           SELECT
             sentences.id,
             sentences.text,
             sentences.source,
             sentences.locale_id,
+            variants.variant_token,
             SUM(sentence_votes.vote) as number_of_approving_votes,
             COUNT(sentence_votes.vote) as number_of_votes
           FROM sentences
           LEFT JOIN sentence_votes ON (sentence_votes.sentence_id=sentences.id)
+          LEFT JOIN sentence_metadata ON (sentence_metadata.sentence_id=sentences.id)
+          LEFT JOIN variants ON (variants.id=sentence_metadata.variant_id)
           WHERE 
-            sentences.is_validated = FALSE         
+            sentences.is_validated = FALSE
             AND sentences.locale_id = ?
             AND NOT EXISTS (
               SELECT 1 FROM skipped_sentences ss WHERE sentences.id = ss.sentence_id AND ss.client_id = ?
@@ -229,29 +266,35 @@ const findSentencesForReview =
             number_of_votes = 2 AND number_of_approving_votes = 1 # a tie at one each
           LIMIT 100
         `,
-            [queryParams.localeId, queryParams.clientId, queryParams.clientId]
-          )
-        ),
-        TO.map(toUnvalidatedSentence)
-      )
-    }
+          [queryParams.localeId, queryParams.clientId, queryParams.clientId]
+        )
+      ),
+      TO.map(toUnvalidatedSentence)
+    )
+  }
 
 const findDomainIdByName =
   (db: Mysql) =>
-    (domainName: string): TO.TaskOption<number> =>
-      TO.tryCatch(async () => {
-        const [[result]] = await db.query(
+  (domainName: string): TE.TaskEither<ApplicationError, O.Option<number>> =>
+    TE.tryCatch(
+      async () => {
+        const [[row]] = await db.query(
           `
           SELECT id FROM domains WHERE domain = ?
         `,
           [domainName]
         )
+        return row ? O.some(row.id) : O.none
+      },
+      (err: Error) =>
+        createSentenceRepositoryError(
+          `Error retrieving domain id for domain "${domainName}"`,
+          err
+        )
+    )
 
-        return result ? Promise.resolve(result.id) : Promise.reject()
-      })
-
-export const insertSentenceIntoDb = insertSentence(db)
+export const saveSentenceInDb: SaveSentence = saveSentence(db)
 export const insertBulkSentencesIntoDb = insertBulkSentences(db)
 export const insertSentenceVoteIntoDb = insertSentenceVote(db)
 export const findSentencesForReviewInDb = findSentencesForReview(db)
-export const findDomainIdByNameInDb = findDomainIdByName(db)
+export const findDomainIdByNameInDb: FindDomainIdByName = findDomainIdByName(db)

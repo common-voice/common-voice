@@ -1786,7 +1786,7 @@ write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de dat
 sentence =
     .label = Frase
 sentence-input-value = Introduza aquí a súa frase de dominio público
-citation-input-value = Orixe da súa frase
+citation-input-placeholder = Mencione a fonte da súa frase (obrigatorio)
 citation =
     .label = Cita
 sc-write-submit-confirm = Confirmo que esta frase é de <wikipediaLink>dominio público</wikipediaLink> e teño permiso para cargala.
@@ -1811,8 +1811,7 @@ single-sentence-submission = Envío dunha única frase
 bulk-sentence-submission = Envío masivo de frases
 single-sentence = Frase única
 bulk-sentences = Grupo de frases
-sentence-domain-select =
-    .label = Dominio da oración
+sentence-domain-combobox-label = Dominio ao que pertence a frase
 sentence-domain-select-placeholder = Seleccione ata tres campos
 # Sentence Domain dropdown option
 agriculture = Agricultura
@@ -1838,6 +1837,43 @@ nature_environment = Natureza e medio ambiente
 news_current_affairs = Noticias e actualidade
 # Sentence Domain dropdown option
 technology_robotics = Tecnoloxía e robótica
+sentence-variant-select-label = Variedade á que pertence a frase
+sentence-variant-select-placeholder = Seleccione unha variedade (opcional)
+sentence-variant-select-multiple-variants = Linguaxe xeral / múltiples variedades
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Alguerés
+ca-central = Central
+ca-balear = Balear
+ca-nwestern = Noroccidental
+ca-northern = Setentrional
+ca-valencia-tortosi = Tortosino
+ca-valencia-central = Valenciano central
+ca-valencia-northern = Valenciano setentrional
+ca-valencia-southern = Valenciano meridional
+ca-valencia-alacant = Alacantino
+cy-northwes = Galés noroccidental
+cy-northeas = Galés nororiental
+cy-midwales = Galés central
+cy-southwes = Galés suroccidental
+cy-southeas = Galés suroriental
+cy-wladfa = Galés patagónico
+pt-BR = Portugués (Brasil)
+pt-PT = Portugués (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Suahili da Kenia
+sw-baratz = Suahili da Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Dialecto central
+sw-kibajuni = Kibajuni (KE) - Dialecto do norte
+sw-kimrima = Kimrima (TZ) - Dialecto do norte
+sw-kiunguja = Kiunguja (TZ) - Dialecto do sur
+sw-kipemba = Kipemba (TZ) - Dialecto do sur
+sw-kikae = Kimakunduchi/Kikae (TZ) - Dialecto do sur
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Tamazight do Atlas Central)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit ou bérber rifeño)
 
 ## REVIEW PAGE
 

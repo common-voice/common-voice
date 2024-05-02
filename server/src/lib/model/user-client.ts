@@ -1,6 +1,6 @@
 import pick = require('lodash.pick');
 
-import { UserClient as UserClientType } from 'common';
+import { UserClient as UserClientType, UserVariant } from 'common';
 import Awards from './awards';
 import CustomGoal from './custom-goal';
 import { getLocaleId } from './db';
@@ -14,6 +14,7 @@ import {
   UserLanguage,
 } from 'common';
 import { getDifferenceInIds } from './db/utils/getDiff';
+import { getVariantsToBeUpdated } from './db/utils/getVariantsToBeUpdated';
 
 const db = getMySQLInstance();
 
@@ -45,6 +46,7 @@ const compileLanguages = (clientLanguages: any, row: any) => {
       id: row.variant_id,
       name: row.variant_name,
       token: row.variant_token,
+      is_preferred_option: row.is_preferred_option === 1,
     };
 
     if (result[row.locale]) {
@@ -229,36 +231,37 @@ async function updateLanguages(clientId: string, languages: UserLanguage[]) {
  */
 async function updateVariants(clientId: string, languages: UserLanguage[]) {
   // flatten request obj to get a list of all variant_ids
-  const requestedVariants: {
-    locale_token: string;
-    variant_id: number;
-  }[] = [];
+  const requestedVariants: UserVariant[] = [];
   languages.forEach(language => {
     if (!language?.variant?.id) return;
-    const temp = {
-      locale_token: language.locale,
-      variant_id: language?.variant?.id,
-    };
-    requestedVariants.push(temp);
+    requestedVariants.push(language.variant);
   });
 
   // query all existing variants for user
-  const [savedVariants]: [{ variant_id: number }[]] = await db.query(
+  const [savedVariants]: [UserVariant[]] = await db.query(
     `
-      SELECT variant_id
+      SELECT
+        v.id,
+        v.variant_name as name,
+        v.variant_token as token,
+        is_preferred_option
       FROM user_client_variants ucv
+      INNER JOIN variants v ON ucv.variant_id = v.id
       WHERE client_id = ?
       ORDER BY id
     `,
     [clientId]
   );
 
-  const savedVariantIds = savedVariants.map(row => row.variant_id);
+  const requestedVariantIds = requestedVariants.map(variant => variant.id);
+  const savedVariantIds = savedVariants.map(variant => variant.id);
 
   const { idsToBeAdded, idsToBeRemoved } = getDifferenceInIds(
-    requestedVariants.map((variant: any) => variant.variant_id),
+    requestedVariantIds,
     savedVariantIds
   );
+
+  const variantsToUpdate = getVariantsToBeUpdated(requestedVariants, savedVariants)
 
   //If the user has removed variants, remove entry from db
   if (idsToBeRemoved.length > 0) {
@@ -277,18 +280,37 @@ async function updateVariants(clientId: string, languages: UserLanguage[]) {
         `SELECT v.id as variant_id, l.name as locale_name, l.id as locale_id
         FROM variants v JOIN locales l on v.locale_id = l.id where v.id in (?)`,
         [idsToBeAdded]
-      )) || [];
+      )) || []
 
     if (validIds.length > 0) {
-      const formattedIds = validIds.map(variantRow => [
-        clientId,
-        variantRow.variant_id,
-        variantRow.locale_id,
-      ]); //format array so query can insert multiple
+      const formattedIds = validIds.map(variantRow => {
+        const preferred = requestedVariants.find(
+          variant => variant.id === variantRow.variant_id
+        )
+        return [
+          clientId,
+          variantRow.variant_id,
+          variantRow.locale_id,
+          preferred.is_preferred_option || 0,
+        ]
+      }) //format array so query can insert multiple
       await db.query(
-        'INSERT INTO user_client_variants (client_id, variant_id, locale_id) VALUES ?',
+        'INSERT INTO user_client_variants (client_id, variant_id, locale_id, is_preferred_option) VALUES ?',
         [formattedIds]
-      );
+      )
+    }
+  }
+
+  if (variantsToUpdate.length > 0) {
+    const variantData = variantsToUpdate.map(variant => {
+      return [variant.is_preferred_option, clientId, variant.id]
+    })
+
+    for (const variant of variantData) {
+      await db.query(
+        'UPDATE user_client_variants SET is_preferred_option = ? WHERE client_id = ? AND variant_id = ?',
+        variant
+      )
     }
   }
 }
@@ -413,6 +435,7 @@ const UserClient = {
           v.variant_name,
           v.variant_token,
           v.id as variant_id,
+          uv.is_preferred_option,
           locales.name AS locale,
           ages.age,
           genders.gender,
@@ -472,6 +495,7 @@ const UserClient = {
           row,
           'accent',
           'variant',
+          'is_preferred_option',
           'age',
           'email',
           'gender',

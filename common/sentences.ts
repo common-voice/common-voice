@@ -1,9 +1,9 @@
 export type SentenceSubmission = {
   sentence: string
   source: string
-  localeId: number
   localeName: string
   domains: string[]
+  variant?: string
 }
 
 export enum SentenceSubmissionError {

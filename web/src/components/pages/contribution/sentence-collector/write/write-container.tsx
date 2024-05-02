@@ -8,6 +8,7 @@ import BulkSubmissionSuccess from './bulk-submission-write/bulk-submission-succe
 
 import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
 import { useLocale } from '../../../../locale-helpers'
+import { useGetVariants } from './single-submission-write/hooks/use-get-variants'
 
 import { trackSingleSubmission } from '../../../../../services/tracker'
 
@@ -22,6 +23,14 @@ const WriteContainer = () => {
   const [locale] = useLocale()
   const account = useAccount()
   const sentences = useSentences()
+  const { variants } = useGetVariants()
+
+  const variantTokens = variants ? variants.map(variant => variant.token) : []
+
+  // add all variants option to the list of variants in the dropdown
+  const allVariants =
+    variants &&
+    ['sentence-variant-select-multiple-variants'].concat(variantTokens)
 
   const handleToggle = (option: WriteSubmissionToggleOptions) => {
     trackSingleSubmission('toggle-button-click', locale)
@@ -53,7 +62,7 @@ const WriteContainer = () => {
         type="write"
         extraClassName={account ? '' : 'centered'}>
         {activeWriteOption === 'single' ? (
-          <SingleSubmissionWrite />
+          <SingleSubmissionWrite allVariants={allVariants} />
         ) : (
           <BulkSubmissionWrite />
         )}

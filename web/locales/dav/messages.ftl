@@ -407,7 +407,7 @@ native-language =
     .label = Kiteto Chevalwa
 profile-form-add-accent = Churia madedo maw'ishi "{ $inputValue }"
 profile-form-submit-save = Kira
-profile-form-submit-saved = Ikirilo
+profile-form-submit-saved = Yakirwa
 male_masculine = Mndu wa Kiw'omi
 female_feminine = Mndu wa Kiw'aka
 intersex = mundu uko kuw'i
@@ -652,6 +652,11 @@ about-playbook-how-project-governance-content-4 = Kungira w'aisanga andenyi na k
 about-playbook-how-project-governance-content-5 = Nguma na kumanyika.
 about-playbook-how-project-governance-content-6 = W'uhachi kwa mipande rose.
 about-playbook-how-project-governance-content-7 = <governanceLink> Shoma zaidi aighu ya w'utawali ghodu <governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Pesa reagha Common Voice rafumagha hao?
+about-playbook-how-funded-content-1 = Common Voice ni nmradi ghwa Mozilla Foundation, w'eko na 501c3 aja Amerika. Mradi ughu ghwagaramilwa putu ni <philantropicGrantLink>mafunyo gha w'andu</philantropicGrantLink>, na manosi gha w'andu andu kose w'urumwengunyi.
 
 ## Glossary
 
@@ -1303,4 +1308,7 @@ bulk-sentence-submission = Kuchanga Msigo Ghwa Sentensi
 
 
 ## BULK SUBMISSION 
+
+
+## Donate banner
 

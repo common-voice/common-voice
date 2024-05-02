@@ -32,6 +32,23 @@ export const taxonomies: { [key in TaxonomyToken]: TaxonomyType } = {
   },
 }
 
+export const sentenceDomainDescription = [
+  'General',
+  'Agriculture and Food',
+  'Automotive and Transport',
+  'Finance',
+  'Service and Retail',
+  'Healthcare',
+  'History, Law and Governmant',
+  'Media and Entertainment',
+  'Nature and Environment',
+  'News and Current Affairs',
+  'Technology and Robotics',
+  'Language Fundamentals (e.g. Digits, Letters, Money)',
+] as const
+
+export type SentenceDomainDescription = typeof sentenceDomainDescription[number]
+
 export const sentenceDomains = [
   'general',
   'agriculture',
