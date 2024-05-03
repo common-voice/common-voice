@@ -4,7 +4,7 @@ import * as Id from 'fp-ts/Identity'
 import { StatusCodes } from 'http-status-codes'
 import { GetSentencesForReviewQueryHandler } from '../../../application/sentences/use-case/query-handler/get-sentences-for-review-query-handler'
 import { GetSentencesForReviewQuery } from '../../../application/sentences/use-case/query-handler/query/get-sentences-for-review-query'
-import { fetchUserClientVariants } from '../../../application/sentences/variants/repository/user-client-variants-repository'
+import { fetchUserClientVariants } from '../../../application/variants/repository/user-client-variants-repository'
 import { findSentencesForReviewInDb } from '../../../application/sentences/repository/sentences-repository'
 
 export default async (req: Request, res: Response) => {

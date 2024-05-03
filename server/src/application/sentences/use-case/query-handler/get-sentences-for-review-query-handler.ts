@@ -4,7 +4,7 @@ import * as TE from 'fp-ts/TaskEither'
 import { FindSentencesForReview } from '../../repository/sentences-repository'
 import { GetSentencesForReviewQuery } from './query/get-sentences-for-review-query'
 import { UnvalidatedSentenceDto } from '../../types/unvalidatedSentenceDto'
-import { FetchUserClientVariants } from '../../variants/repository/user-client-variants-repository'
+import { FetchUserClientVariants } from '../../../variants/repository/user-client-variants-repository'
 
 export const GetSentencesForReviewQueryHandler =
   (fetchUserClientVariants: FetchUserClientVariants) =>
