@@ -1811,6 +1811,9 @@ sentence-variant-select-label = جملے دا لہجہ
 
 ## LANGUAGE VARIANT CODES
 
+ca-central = مرکزی
+ca-balear = بلير
+ca-valencia-alacant = الاکانتی
 
 ## REVIEW PAGE
 
