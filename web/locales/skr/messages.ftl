@@ -1814,6 +1814,8 @@ sentence-variant-select-label = جملے دا لہجہ
 ca-central = مرکزی
 ca-balear = بلير
 ca-valencia-alacant = الاکانتی
+pt-BR = پرتگیزی (برازیل)
+pt-PT = پرتگیزی (پرتگال)
 
 ## REVIEW PAGE
 
