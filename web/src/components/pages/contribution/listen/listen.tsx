@@ -367,6 +367,8 @@ class ListenPage extends React.Component<Props, State> {
                 hasLoadingError={hasLoadingError}
                 isMissingClips={isMissingClips}
                 isDemoMode={this.demoMode}
+                // TODO: change this
+                isMissingClipsForVariant
               />
             }
             instruction={props =>

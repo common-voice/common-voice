@@ -1,15 +1,12 @@
 import * as React from 'react'
 import { Localized } from '@fluent/react'
 
-import { InfoIcon } from '../../../../../ui/icons'
-
 import './sentence-variant-warning.css'
 
 export const SentenceVariantWarning = () => (
   <div className="sentence-variant-warning-container">
     <div className="sentence-variant-warning-content">
       <div className="title-container">
-        <InfoIcon />
         <Localized id="variant-contribution-warning-title">
           <p className="title" />
         </Localized>

@@ -654,6 +654,19 @@
         }
 
         .button {
+            &.settings-btn {
+                background: var(--anchor-text-blue);
+                box-shadow: 0 5px 10px
+                    color-mod(var(--anchor-text-blue) alpha(50%));
+
+                &:hover {
+                    background: var(--anchor-text-blue);
+                    box-shadow: 0 5px 10px var(--anchor-text-blue);
+                }
+            }
+        }
+
+        .button {
             margin-top: 30px;
             border: none;
             background: var(--red);
