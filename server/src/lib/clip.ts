@@ -16,7 +16,7 @@ import { streamUploadToBucket } from '../infrastructure/storage/storage';
 import { pipe } from 'fp-ts/lib/function';
 import { option as O, taskEither as TE, task as T, identity as Id } from 'fp-ts';
 import { Clip as ClientClip } from 'common';
-import { FindVariantsBySentenceIdsResult, findVariantsBySentenceIdsInDb } from '../application/sentences/repository/variant-repository';
+import { FindVariantsBySentenceIdsResult, findVariantsBySentenceIdsInDb } from '../application/repository/variant-repository';
 
 const { promisify } = require('util');
 const Transcoder = require('stream-transcoder');

@@ -1,9 +1,9 @@
 import { option as O, taskEither as TE } from 'fp-ts'
-import { ApplicationError } from '../../types/error'
-import { queryDb } from '../../../infrastructure/db/mysql'
+import { ApplicationError } from '../types/error'
+import { queryDb } from '../../infrastructure/db/mysql'
 import { pipe } from 'fp-ts/lib/function'
-import { createDatabaseError } from '../../helper/error-helper'
-import { Locale, TextDirection } from '../../../core/types/locale'
+import { createDatabaseError } from '../helper/error-helper'
+import { Locale, TextDirection } from '../../core/types/locale'
 
 export type FindLocaleByName = (
   localeName: string
