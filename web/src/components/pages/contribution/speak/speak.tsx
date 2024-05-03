@@ -686,6 +686,8 @@ class SpeakPage extends React.Component<Props, State> {
                 hasLoadingError={hasLoadingError}
                 isUnsupportedPlatform={this.isUnsupportedPlatform}
                 isMissingClips={isMissingClips}
+                // TODO: change this
+                isMissingClipsForVariant
               />
             }
             instruction={props =>

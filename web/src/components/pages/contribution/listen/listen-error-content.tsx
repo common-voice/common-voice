@@ -26,7 +26,7 @@ const MissingClips = ({ isDemoMode }: { isDemoMode: boolean }) => (
 
 const MissingClipsForVariant = () => (
   <div className="empty-container">
-    <div className="error-card">
+    <div className="error-card no-clips-for-variant">
       <h1>
         <Localized id="listen-empty-state-variants" />
       </h1>
