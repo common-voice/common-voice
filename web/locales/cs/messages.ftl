@@ -453,6 +453,8 @@ help-accent = Potřebujete pomoc s přízvukem?
 help-accent-explanation = Váš přízvuk je způsob, jakým vyslovujete slova. Je utvářen tím, kde jste žili, jakými dalšími jazyky mluvíte a mnoha dalšími faktory. Zde můžete sdílet jakékoli informace, které považujete za relevantní.
 help-variants = Potřebujete pomoc s variantami?
 help-variants-explanation = Varianty jsou specifickou formou jazyka – například společnou pro obyvatele určité geografické oblasti nebo komunity. Někdy se jim říká nářečí.
+help-sex-or-gender-changes = Potřebujete pomoci se změnou pohlaví?
+help-sex-or-gender-changes-explanation = Nabízíme více možností, abychom dali lidem větší možnost volby, co nám sdělí o svém pohlaví nebo genderové identitě. Prosím, popište se způsobem, který je pro vás nejpřirozenější. <learnMoreLink>Zjistěte více o našem přístupu k pohlaví a genderu.</learnMoreLink>
 
 ## Profile - Email
 
@@ -690,6 +692,10 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Přečtěte si
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Jak je Common Voice financován?
+about-playbook-how-funded-content-1 = Common Voice je projekt nadace Mozilla Foundation, americké organizace 501c3. Projekt je v současné době financován výhradně z <philantropicGrantLink>filantropických grantů</philantropicGrantLink> a darů od lidí z celého světa.
+about-playbook-how-funded-content-2 = Neustálé hostování a zveřejňování datových sad, zlepšování platformy a provozování <africaMradiLink>komunitních programů</africaMradiLink> stojí spoustu peněz.
+about-playbook-how-funded-content-3 = Pokud byste vy nebo vaše organizace chtěli přispět zpět na projekt, můžete zaslat <donateLink>dar</donateLink> nebo kontaktovat náš tým pro partnerství na <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -1778,7 +1784,6 @@ write-page-subtitle = Věty, kterými zde přispějete, budou přidány do veře
 sentence =
     .label = Věta
 sentence-input-value = Zde zadejte svou public doman větu
-citation-input-value = Zdroj zadané věty
 citation =
     .label = Zdroj
 sc-write-submit-confirm = Potvrzuji, že tato věta je <wikipediaLink>public domain</wikipediaLink> a mám oprávnění ji nahrát.
@@ -1803,8 +1808,6 @@ single-sentence-submission = Odeslání jedné věty
 bulk-sentence-submission = Odeslání více vět
 single-sentence = Jedna věta
 bulk-sentences = Více vět
-sentence-domain-select =
-    .label = Zařazení věty
 sentence-domain-select-placeholder = Vyberte až tři domény
 # Sentence Domain dropdown option
 agriculture = Zemědělství
@@ -1830,6 +1833,9 @@ nature_environment = Příroda a životní prostředí
 news_current_affairs = Zprávy a události
 # Sentence Domain dropdown option
 technology_robotics = Technologie a robotika
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 
