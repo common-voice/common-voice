@@ -353,7 +353,10 @@ export default class Clip {
     const sentenceVariants = await pipe(
       sentenceIds,
       findVariantsBySentenceIdsInDb,
-      TE.getOrElse(() => T.of({} as FindVariantsBySentenceIdsResult))
+      TE.getOrElse(err => {
+        console.log(err)
+        return T.of({} as FindVariantsBySentenceIdsResult)
+      })
     )()
 
     for (const clip of clips) {
