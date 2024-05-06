@@ -479,7 +479,7 @@ export default class DB {
             count - taxonomySentences.length,
             exemptFromSSRL
           );
-    
+
     Sentry.captureMessage(`There are ${regularSentences.length} regular sentences for ${locale} locale`, Sentry.Severity.Info)     
     return taxonomySentences.concat(regularSentences);
   }

@@ -1,4 +1,5 @@
 export type GetUserClientVariantClipsQuery = {
   clientId: string
-  locale: string
+  localeId: number
+  count: number
 }

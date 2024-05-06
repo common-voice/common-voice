@@ -17,3 +17,10 @@ export const isVariantPreferredOption: IsVariantPreferredOption =
       usv,
       A.exists(ucv => ucv.localeId === localeId && ucv.isPreferredOption)
     )
+
+export const getPreferredVariantFromList =
+  (localeId: number) => (usv: UserClientVariant[]) =>
+    pipe(
+      usv,
+      A.findFirst(ucv => ucv.localeId === localeId && ucv.isPreferredOption)
+    )

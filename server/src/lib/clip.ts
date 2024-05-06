@@ -336,6 +336,7 @@ export default class Clip {
     response: Response
   ): Promise<void> => {
     const { client_id, params } = request;
+
     const count = Number(request.query.count) || 1;
     const clips = await this.bucket.getRandomClips(
       client_id,
