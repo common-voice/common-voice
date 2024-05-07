@@ -45,13 +45,13 @@ export default class Server {
     return ENVIRONMENT + RELEASE_VERSION;
   }
 
-  constructor(options?: { bundleCrossLocaleMessages: boolean }) {
-    options = { bundleCrossLocaleMessages: true, ...options };
+  constructor(options?: { bundleCrossLocaleMessages: boolean, setupQueues: boolean }) {
+    options = { bundleCrossLocaleMessages: true, setupQueues: true, ...options };
     this.model = new Model();
     this.api = new API(this.model);
 
     useRedis.then(ready => {
-      if (ready) {
+      if (ready && options.setupQueues) {
         this.taskQueues = createTaskQueues(this.api.takeout);
         this.api.takeout.setQueue(this.taskQueues.dataTakeout);
         setupUpdateValidatedSentencesQueue()
