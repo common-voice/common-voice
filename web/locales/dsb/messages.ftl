@@ -650,6 +650,9 @@ about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transp
 about-playbook-how-project-governance-content-5 = Gódnota a pśipóznaśe.
 about-playbook-how-project-governance-content-6 = Mjazsobna rozpšawniska winowatosć.
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = Glosar
@@ -1606,6 +1609,7 @@ public-domain = Zjawnje wužywajobny
 citing-sentences = Sady citěrowaś
 adding-sentences = Sady pśidaś
 reviewing-sentences = Sady pśeglědaś
+sentence-domain = Zarědowanje sady
 citing-sentences-subheader-websites = Websedła
 citing-sentences-subheader-websites-explanation = Wy mógał websedło pódaś, na pś. „Common Voice - https://commonvoice.mozilla.org/“
 citing-sentences-subheader-offline-sources = Žrědła offline
@@ -1633,7 +1637,6 @@ reviewing-sentences-explanation-4 = Jolic wam sady wujdu, pomagajśo nam dalšne
 sentence =
     .label = Sada
 sentence-input-value = Zapódajśo how swóju zjawnje wužywajobnu sadu
-citation-input-value = Žrědło wašeje sady
 citation =
     .label = Citat
 sc-write-submit-confirm = Wobkšuśijom, až toś ta sada jo <wikipediaLink>zjawnje pśistupne</wikipediaLink> a mam pšawo ju nagraś.
@@ -1652,6 +1655,7 @@ add-sentence-error = Zmólka pśi pśidawanju sady
 required-field = Pšosym wupołniśo toś to pólo.
 single-sentence = Jadna sada
 bulk-sentences = Wjele sadow
+sentence-domain-select-placeholder = Wubjeŕśo až do tśich domenow (na žycenje)
 # Sentence Domain dropdown option
 agriculture = Rolnikaŕstwo
 # Sentence Domain dropdown option
@@ -1676,6 +1680,9 @@ nature_environment = Pśiroda a wobswět
 news_current_affairs = Nowosći a aktualne nastupnosći
 # Sentence Domain dropdown option
 technology_robotics = Technologija a robotika
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 
@@ -1707,3 +1714,6 @@ file-invalid-type = Njepłaśiwa dataja
 file-too-large = Dataja jo pśewjelika
 file-too-small = Dataja jo pśemała
 too-many-files = Pśewjele datajow
+
+## Donate banner
+
