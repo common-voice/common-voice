@@ -449,7 +449,7 @@ help-accent-explanation = Waš akcent jo nałog, kak słowa wugranjaśo. Jogo ch
 help-variants = Trjebaśo pomoc za warianty?
 help-variants-explanation = Warianty su specifiska forma rěcy - powědaju se na pśikład wót luźi, kótarež su we wěstem regionje abo zgromaźeństwje žywe. Wótergi wóne se dialekty pomjenjuju.
 help-sex-or-gender-changes = Trjebaśo pomoc pśi změnjanju roda abo rodneje identity?
-help-sex-or-gender-changes-explanation = Póbitujomy wěcej móžnosćow, aby my ludam wětšu wólbu wó tom daś, což nam wó jich roźe abo rodnej identitu k wěsći daju. Pšosym wopisujśo se, kak jo nejpśirodnjejše za was. <learnMoreLink>Zgóńśo wěcej wó našej wašni pśistupa k rodoju a rodnej identiśe.</learnMoreLink>
+help-sex-or-gender-changes-explanation = Póbitujomy wěcej móžnosćow, aby my ludam wětšu wólbu wó tom daś, což nam wó jich roźe abo rodnej identiśe k wěsći daju. Pšosym wopisujśo se, kak jo nejpśirodnjejše za was. <learnMoreLink>Zgóńśo wěcej wó našej wašni pśistupa k rodoju a rodnej identiśe.</learnMoreLink>
 
 ## Profile - Email
 
