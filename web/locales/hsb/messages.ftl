@@ -1659,6 +1659,7 @@ new-sentence-rule-7 = Podaće žórła zapřijeć
 new-sentence-rule-8 = W idealnym padźe přirodna a ze wšědneje rěče (sada měła lochko čitajomna być)
 how-to-cite = Kak cituju?
 how-to-cite-explanation-bold = Citujće z URL-wotkazom abo połnym mjenom dźěła.
+how-to-cite-explanation = Jeli su swójske słowa, podajće prosće <italicizedText>„samocitat“</italicizedText>. Dyrbimy wědźeć, hdźež sće tutón wobsah namakał, zo bychmy móhli přepruwować, hač je zjawnje wužiwajomny a wobmjezowanja awtorskeho prawa njepłaća. Za dalše informacije wo citowanju hlejće naše <guidelinesLink>Směrnicy</guidelinesLink>.
 guidelines = Směrnicy
 contact-us = Kontakt
 add-sentence-success = 1 sada zběrana
@@ -1699,6 +1700,8 @@ technology_robotics = Technologija a robotika
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Přepruwujće <icon></icon>, hač to je linguistisce korektna sada.
 sc-review-rules-title = Wotpowěduje sada směrnicam?
 sc-review-empty-state = Tuchwilu sady za přepruwowanje w tutej rěči njejsu.
 report-sc-different-language = Druha rěč
