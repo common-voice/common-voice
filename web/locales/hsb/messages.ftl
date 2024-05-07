@@ -449,6 +449,7 @@ help-accent-explanation = Waš akcent je wašnje, kak słowa wurjekujeće. Jeho 
 help-variants = Trjebaće pomoc za warianty?
 help-variants-explanation = Warianty su specifiska forma rěče - rěča so na přikład wot ludźi, kotřiž su we wěstym regionje abo zhromadźenstwje žiwi. Druhdy wone so dialekty mjenuja.
 help-sex-or-gender-changes = Trjebaće pomoc při měnjenju splaha abo splažneje identity?
+help-sex-or-gender-changes-explanation = Poskićujemy wjace móžnosćow, zo bychmy ludźom wjetšu wólbu wo tym dać, štož nam wo jich splahu abo splažnej identiće zdźěleja. Prošu wopisujće so, kak je najpřirodnišo za was. <learnMoreLink>Zhońće wjace wo našim wašnju postupowanja k splahej a splažnej identiće.</learnMoreLink>
 
 ## Profile - Email
 
