@@ -1639,9 +1639,12 @@ reviewing-sentences-explanation-4 = Jeli wam sady wuńdu, pomhajće nam dalše s
 
 ## WRITE PAGE
 
+write-instruction = Přidajće <icon></icon> zjawnje wužiwajomnu sadu
+write-page-subtitle = Sady, kotrež so tu přinošuja, so zjawnje přistupnej datowej sadźbje z licencu cc-0 přidawaja.
 sentence =
     .label = Sada
-citation-input-value = Žórło wašeje sady
+sentence-input-value = Zapodajće tu swoju zjawnje wužywajomnu sadu
+citation-input-placeholder = Mjenujće žórło swojeje sady (trěbne)
 citation =
     .label = Citat
 sc-write-submit-confirm = Wobkrućam, zo tuta sada je <wikipediaLink>zjawnje přistupne</wikipediaLink> a mam prawo ju nahrać.
@@ -1659,8 +1662,11 @@ contact-us = Kontakt
 add-sentence-success = 1 sada zběrana
 add-sentence-error = Zmylk při přidawanju sady
 required-field = Prošu wupjelńće tute polo.
+single-sentence-submission = Jednotliwu sadu zapodać
+bulk-sentence-submission = Wjacore sady zapodać
 single-sentence = Jedna sada
 bulk-sentences = Wjele sadow
+sentence-domain-select-placeholder = Wubjerće hač do třoch domenow (na přeće)
 # Sentence Domain dropdown option
 agriculture = Ratarstwo
 # Sentence Domain dropdown option
@@ -1686,6 +1692,9 @@ news_current_affairs = Nowinki a aktualne naležnosće
 # Sentence Domain dropdown option
 technology_robotics = Technologija a robotika
 
+## LANGUAGE VARIANT CODES
+
+
 ## REVIEW PAGE
 
 sc-review-rules-title = Wotpowěduje sada směrnicam?
@@ -1699,6 +1708,8 @@ sc-redirect-page-subtitle-2 = Stajće nam prašenja na <matrixLink>Matrix</matri
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Nahrajće <icon></icon> zjawnje wužiwajomne sady
 sc-bulk-upload-instruction = Ćehńće swoju dataju sem abo <uploadButton>klikńće za nahrawanje</uploadButton>
 sc-bulk-upload-instruction-drop = Pušćće dataju tu, zo byšće ju nahrał
 try-upload-again-md = Nahraće znowa spytać
