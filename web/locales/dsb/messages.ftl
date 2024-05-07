@@ -258,7 +258,7 @@ home-cta = Powědajśo a cyńśo how sobu!
 wall-of-text-start = Głos jp pśirodny, głos je cłowjeski. Togodla smy fasciněrowane, wužytnu głosowu technologiju za naše mašiny napóraś. Ale, za napóranje głosowych systemow jo wjelgin wjelika tšocha głosowych datow trěbne.
 wall-of-text-more-mobile = Nejwěcej datow wužywane wót wjelikich pśedewześow njejo pśitupne za wětšynu luźi. Myslimy, až to inowaciju znjemóžnja. Togodla smy startowali projekt Common Voice, projekt, kótaryž kuždemu spóznawanje głosow pśistupni.
 wall-of-text-more-desktop = Něnto móžośo swój głos daś, aby nam pomagał, datowu banku głosow wótwórjonego žrědła natwariś, kótaruž kuždy móžo wužywaś, aby inowatiwne nałoženja za rědy a web napórak.<lineBreak></lineBreak>Cytajśo sadu, aby mašinam pomagał, wuknuś, kak napšawdne luźe powědaju. Kontrolěrujśo źěło drugich sobustatkujucych, aby kwalitu pólěpšył. Jo tak lažko!
-wall-of-text-first = Głos jo pśirodny, głos jo cłowjeski. Togodla górjejomy se za napóranje wužywajobneje głosoweje technologije za naše mašiny. Ale, aby głosowe systemy napórali, trjebaju wuwijarje wjelgin wjeliku tšochu głosowych datow.
+wall-of-text-first = Głos jo pśirodny, głos jo cłowjeski. Togodla górjejomy se za napóranje wužywabneje głosoweje technologije za naše mašiny. Ale, aby głosowe systemy napórali, trjebaju wuwijarje wjelgin wjeliku tšochu głosowych datow.
 wall-of-text-second = Nejwěcej datow, kótarež se wót wjelikich pśedewześow wužywa, wětšynje luźi k dispoziciji njestoj. Myslimy, až to inowaciji zajźujo. Togodla smy startowali Common Voice , projekt, kótaryž dej głosowe spóznaśe wótwórjone a pśistupne za kuždego cyniś.
 show-wall-of-text = Dalšne informacije
 help-us-title = Pomagajśo nam, sady wobkšuśiś!
@@ -1605,7 +1605,7 @@ background-voices-example-1 = Wjelicke dinosawriery triasa. [cyta se wót jadnog
 background-voices-tip-1 = Pśiźoš? [głos drugego]
 still-have-questions = Maśo hyšći pšašanja?
 contact-common-voice = Stajśo z teamom Common Voice do zwiska
-public-domain = Zjawnje wužywajobny
+public-domain = Zjawnje wužywabny
 citing-sentences = Sady citěrowaś
 adding-sentences = Sady pśidaś
 reviewing-sentences = Sady pśeglědaś
@@ -1634,9 +1634,11 @@ reviewing-sentences-explanation-4 = Jolic wam sady wujdu, pomagajśo nam dalšne
 
 ## WRITE PAGE
 
+write-instruction = Pśidajśo <icon></icon> zjawnje wužywabnu sadu
+write-page-subtitle = Sady, kótarež se how pśinosuju, se zjawnje pśistupnej datowej sajźbje z licencu cc-0 pśidawaju.
 sentence =
     .label = Sada
-sentence-input-value = Zapódajśo how swóju zjawnje wužywajobnu sadu
+sentence-input-value = Zapódajśo how swóju zjawnje wužywabnu sadu
 citation =
     .label = Citat
 sc-write-submit-confirm = Wobkšuśijom, až toś ta sada jo <wikipediaLink>zjawnje pśistupne</wikipediaLink> a mam pšawo ju nagraś.
@@ -1698,7 +1700,7 @@ sc-redirect-page-subtitle-2 = Stajśo nam pšašanja na <matrixLink>Matrix</matr
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = Nagrajśo <icon></icon> zjawnje wužywajobne sady
+sc-bulk-upload-header = Nagrajśo <icon></icon> zjawnje wužywabne sady
 sc-bulk-upload-instruction = Śěgniśo swóju dataju sem abo <uploadButton>klikniśo za nagrawanje</uploadButton>
 sc-bulk-upload-instruction-drop = Pušććo dataju how, aby ju nagrał
 try-upload-again-md = Nagraśe znowego wopytaś
