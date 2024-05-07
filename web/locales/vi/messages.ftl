@@ -1735,6 +1735,7 @@ public-domain = Phạm vi công cộng
 citing-sentences = Trích dẫn câu
 adding-sentences = Thêm câu
 reviewing-sentences = Xem lại câu
+sentence-domain = Phạm vi của câu
 public-domain-explanation-1 = Điều rất quan trọng là tất cả các câu văn bản đều là <publicDomain>phạm vi công cộng</publicDomain> (<cc0>cc0</cc0>) vì bộ dữ liệu Common Voice được phát hành theo giấy phép cc0. Chỉ tải lên một câu nếu bạn chắc chắn và luôn bao gồm trích dẫn có liên quan.
 public-domain-explanation-2 = Các câu tốt nhất để xây dựng một công cụ nhận dạng giọng nói hữu ích là cách nói thông tục, hiện đại. Một số ý tưởng để giúp bạn tạo câu là;
 public-domain-explanation-3 = Tạo các câu thông tục, hiện đại của chính bạn hoặc với bạn bè hoặc cộng đồng ngôn ngữ của bạn - ví dụ như thông qua 'write-a-thon'
@@ -1773,6 +1774,7 @@ reviewing-sentences-explanation-1 = Nếu câu đáp ứng các tiêu chí trên
 reviewing-sentences-explanation-2 = Nếu câu không đáp ứng các tiêu chí trên, hãy nhấp vào nút "Không".
 reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu đó, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
 reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
+domain-explanation = Phạm vi đề cập đến chủ đề của câu. Hiện tại, bạn có thể chọn giữa:
 
 ## WRITE PAGE
 
@@ -1806,6 +1808,7 @@ single-sentence-submission = Gửi câu riêng lẻ
 bulk-sentence-submission = Gửi hàng loạt câu
 single-sentence = Câu đơn
 bulk-sentences = Hàng loạt câu
+sentence-domain-combobox-label = Phạm vi của câu
 sentence-domain-select-placeholder = Chọn tối đa ba miền
 # Sentence Domain dropdown option
 agriculture = Nông nghiệp
