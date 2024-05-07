@@ -1693,6 +1693,8 @@ technology_robotics = Technologija a robotika
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Pśekontrolěrujśo <icon></icon>, lěc to jo linguistiski korektna sada.
 sc-review-rules-title = Wótpowědujo sada směrnicam?
 report-sc-different-language = Druga rěc
 report-sc-different-language-detail = Jo w drugej rěcy napisana ako pśeglědujom.
