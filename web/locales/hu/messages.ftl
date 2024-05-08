@@ -1806,7 +1806,22 @@ sentence-variant-select-multiple-variants = Általános nyelv / több változat
 
 ## LANGUAGE VARIANT CODES
 
-ca-algueres = Katalán (Alghero)
+ca-algueres = Katalán (algherói)
+ca-central = Középső
+ca-balear = Baleári
+ca-nwestern = Északnyugati
+ca-northern = Északi
+ca-valencia-tortosi = Tortosai
+ca-valencia-central = Közép-valenciai
+ca-valencia-northern = Észak-valenciai
+ca-valencia-southern = Dél-valenciai
+ca-valencia-alacant = Alicantei
+cy-northwes = Északnyugati walesi
+cy-northeas = Északkeleti walesi
+cy-midwales = Közép-walesi
+cy-southwes = Délnyugati walesi
+cy-southeas = Délkeleti walesi
+cy-wladfa = Patagóniai walesi
 pt-BR = Portugál (brazíliai)
 pt-PT = portugál (portugáliai)
 
