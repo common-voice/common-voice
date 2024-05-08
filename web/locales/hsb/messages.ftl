@@ -634,6 +634,7 @@ about-playbook-how-grow-language = Kak móžemy rěč na Common Voice skutkownje
 about-playbook-how-grow-language-content-2 = Podawki
 about-playbook-how-grow-language-content-4 = Socialne medije
 about-playbook-how-grow-language-content-6 = Partnerstwa a syće
+about-playbook-how-grow-language-content-8 = <strong>Budźće kreatiwny!</strong> Waše rěčne zhromadźenstwo budźe jónkróćne, a tu su jenož někotre móžnosće, zo byšće započał.
 
 ## How to validate
 
@@ -654,6 +655,7 @@ about-playbook-how-project-governance-content-6 = Mjezsobna rozprawniska winowat
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Kak so Common Voice financuje?
 
 ## Glossary
 
