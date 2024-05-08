@@ -1804,6 +1804,7 @@ sentence-variant-select-multiple-variants = Általános nyelv / több változat
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = Katalán (Alghero)
 pt-BR = Portugál (brazíliai)
 pt-PT = portugál (portugáliai)
 
