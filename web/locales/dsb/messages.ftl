@@ -653,6 +653,7 @@ about-playbook-how-project-governance-content-6 = Mjazsobna rozpšawniska winowa
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Kak se Common Voice financěrujo?
 
 ## Glossary
 
@@ -1706,6 +1707,12 @@ sentence-variant-select-multiple-variants = Powšykna rěc / někotare warianty
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = Algerešćina
+ca-central = Centralny
+ca-balear = Balearšćina
+ca-nwestern = Dłujkowjacorny
+ca-northern = Pódpołnocny
+ca-valencia-tortosi = Tortosí
 
 ## REVIEW PAGE
 
@@ -1742,3 +1749,5 @@ too-many-files = Pśewjele datajow
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Wužywaśo Common Voice za</mark><br/><mark>swójo slěźenje?
