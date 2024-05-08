@@ -1664,6 +1664,7 @@ new-sentence-rule-7 = Wótpowědne pódaśe žrědła zapśimjeś
 new-sentence-rule-8 = W idealnem paźe pśirodna a ze wšedneje rěcy (sada měła lažko cytajobna byś)
 how-to-cite = Kak citěrujom?
 how-to-cite-explanation-bold = Citěrujśo z URL-wótkazom abo połnym mjenim źěła.
+how-to-cite-explanation = Jolic su swójske słowa, pódajśo jadnorje <italicizedText>„samocitat“</italicizedText>. Musymy wěźeś, źož sćo namakał toś to wopśimjeśe, aby my mógli pśekontrolěrowaś, kěc jo zjawnje wužywabne a wobgranicowanja awtorskego pšawa njepłaśe. Za dalšne informacije wó citěrowanju glejśo naše <guidelinesLink>Směrnice</guidelinesLink>.
 guidelines = Směrnice
 contact-us = Kontakt
 add-sentence-success = 1 sada zezběrana
@@ -1673,6 +1674,7 @@ single-sentence-submission = Jadnotliwu sadu zapódaś
 bulk-sentence-submission = Někotare sady zapódaś
 single-sentence = Jadna sada
 bulk-sentences = Wjele sadow
+sentence-domain-combobox-label = Zarědowanje sady
 sentence-domain-select-placeholder = Wubjeŕśo až do tśich domenow (na žycenje)
 # Sentence Domain dropdown option
 agriculture = Rolnikaŕstwo
@@ -1698,6 +1700,9 @@ nature_environment = Pśiroda a wobswět
 news_current_affairs = Nowosći a aktualne nastupnosći
 # Sentence Domain dropdown option
 technology_robotics = Technologija a robotika
+sentence-variant-select-label = Sadowa warianta
+sentence-variant-select-placeholder = Wubjeŕśo wariantu (na žycenje)
+sentence-variant-select-multiple-variants = Powšykna rěc / někotare warianty
 
 ## LANGUAGE VARIANT CODES
 
