@@ -784,6 +784,8 @@ dataset-metadata-sex = Splah
 dataset-metadata-age = Staroba
 donate-modal-message = Waša datowa sadźba so sćahuje!
 dataset-donate-modal-heading = Sće wědźał, zo …
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Jeli sej wotewrjene, inkluziwne daty wažiće – darće dźensa!</bold>
 
 ## Download Modal
 
