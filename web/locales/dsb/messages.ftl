@@ -751,6 +751,8 @@ subscribe = Aboněrowaś
 get-started-speech = Prědne kšace z powědańskim spóznaśim
 other-datasets = Druge głosowe datowe sajźby
 feedback-q = Maśo komentary?
+# This indicates that there is no data to display
+no-information = Žedne informacije
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ jo <docsLink>sajźba rědow wótwórjonego žrědła</docsLink> za slěźarje, kótarež wusokomoderne dialogowe modele kumštneje inteligence wuwijaju.
 resource-deepspeech-info = Mašina głosowego spóznaśa wótwórjonego žrědła Mozilla dajo se wužywaś, aby nałoženja głosowego spóznaśa wuwijaś. Cytajśo naš <githubLink>pśeglěd Github</githubLink> abo pśizamkniśo se forumoju <discourseLink>DeepSpeech Discourse</discourseLink>, aby zgónił, kak móžośo zachopiś.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> jo za wótwórjonu powědańsku technologiju myslony. Jich projekty SST- a TTS-systemy na zakłaźe dłymokego wuknjenja wopśimuju.
