@@ -1572,6 +1572,7 @@ add-information-button = Informacije pśidaś
 continue-speaking-button = Ně, źěkujom se, z powědanim pókšacowaś
 create-profile-text = Cośo swóje informacije składowaś? <createProfile>Załožćo profil</createProfile>
 thanks-for-voice-toast = Wjeliki źěk za waše powědańske informacije
+thanks-for-voice-toast-error = Pśi zapódawanju wašych rěcnych informacijow jo zmólka nastała
 first-cta-gender-select-default-option = Wubjeŕśo nastajenje
 first-cta-gender-select-help-text =
     .label = Kak by wy swój rod  abo rodnu identitu wopisował?
@@ -1719,8 +1720,11 @@ ca-valencia-tortosi = Tortosí
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Pśekontrolěrujśo <icon></icon>, lěc to jo linguistiski korektna sada.
 sc-review-rules-title = Wótpowědujo sada směrnicam?
+sc-review-empty-state = Njedaju tuchylu sady za pśekontrolěrowanje w toś tej rěcy.
 report-sc-different-language = Druga rěc
 report-sc-different-language-detail = Jo w drugej rěcy napisana ako pśeglědujom.
+sentences-fetch-error = Pśi wótwołowanju sadow jo zmólka nastała
+review-error = Pśi pśekontrolěrowanju toś teje sady jo zmólka nastała
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Pśewjeźomy někotare změny
 sc-redirect-page-subtitle-2 = Stajśo nam pšašanja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mailu</emailLink>.
