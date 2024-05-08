@@ -1801,6 +1801,9 @@ sentence-variant-select-multiple-variants = Γενική γλώσσα/πολλα
 ca-algueres = Αλγερές
 pt-BR = Πορτογαλικά (Βραζιλία)
 pt-PT = Πορτογαλικά (Πορτογαλία)
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
