@@ -735,6 +735,7 @@ number-of-voices = Licba głosow
 splits = Rozdźělenja
 email-to-download = E-mailowu adresu za ześěgnjenje zapódaś
 why-email = <b>Cogodla e-mailowa adresa?</b> Musymy se snaź z wami w pśichoźe wó změnach na datowej sajźbje do zwiska stajiś, e-mailowa adresa nam kontaktowu móžnosć dawa.
+why-donate-datasets-page = Mozilla Common Voice jo nejwjelerakša wótwórjona rěcna datowa sajźba z crowdsourcing swěta – a financěrujomy se jano z darami. Płaśi něźi jaden milion dolarow na lěto, aby my datowe sajźby góspodowali a platformu za wěcej ako 100 rěcnych zgromaźeństwow pólěpšowali, kótarež se na to spušćaju, což gótujomy. Jolic se wótwórjone, inkluziwne daty wažyśo – <b>pósććo źinsa!</b>
 confirm-size = Sćo za start ześěgnjenja wjelikosći <b>{ $size }</b> spśigótowany
 size-gigabyte = GB
 size-megabyte = MB
@@ -783,6 +784,7 @@ dataset-metadata-sex = Rod
 dataset-metadata-age = Starstwo
 donate-modal-message = Waša datowa sajźba se ześěgujo!
 dataset-donate-modal-heading = Sćo wěźeł…
+donate-modal-explanation-1 = Płaśi něźi jaden milion dolarow na lěto, aby my datowe sajźby góspodowali a platformu za wěcej ako 100 rěcnych zgromaźeństwow pólěpšowali, kótarež se na to spušćaju, což gótujomy.
 
 ## Download Modal
 
@@ -1754,5 +1756,7 @@ too-many-files = Pśewjele datajow
 
 ## Donate banner
 
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Płaśi něźi jaden milion dolarow na lěto, aby my datowe sajźby góspodowali a platformu za wěcej ako 100 rěcnych zgromaźeństwow pólěpšowali, kótarež se na to spušćaju, což gótujomy. <strong>Jolic se wótwórjone, inkluziwne daty wažyśo – pósććo źinsa!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Wužywaśo Common Voice za</mark><br/><mark>swójo slěźenje?
