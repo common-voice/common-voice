@@ -737,6 +737,7 @@ number-of-voices = Ličba hłosow
 splits = Poddźělenja
 email-to-download = E-mejlowu adresu za sćehnjenje zapodać
 why-email = <b>Čehodla e-mejlowa adresa?</b> Dyrbimy so snano z wami w přichodźe wo změnach na datowej sadźbje do zwiska stajić, e-mejlowa adresa nam kontaktowu móžnosć dawa.
+why-donate-datasets-page = Mozilla Common Voice je najwšelakoriša wotewrjena rěčna datowa sadźba z crowdsourcing swěta – a financujemy so jenož z darami. Płaći na jedyn milion dolarow wob lěto, zo bychmy datowe sadźby hospodowali a platformu za wjace hač 100 rěčnych zhromadźenstwo polěpšowali, kotrež so na to spušćeja, štož činimy. Jeli sej wotewrjene, inkluziwne daty wažiće – <b>darće dźensa!</b>
 confirm-size = Sće za start sćehnjenja wulkosće <b>{ $size }</b> přihotowany
 size-gigabyte = GB
 size-megabyte = MB
