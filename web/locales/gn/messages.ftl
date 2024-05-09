@@ -1716,6 +1716,7 @@ adding-sentences-subheader-punctuation = Mbopapapy
 adding-sentences-subheader-punctuation-explanation = Umi ta’ãnga’i ha ñemokyta oñemoingeva’erã tekotevẽ añetetéramonte. Techapyrã, oikéramo pe puso inglés ñe’ẽme ikatúva “don’t” ha “we’re” ha toñemoĩ moñe’ẽrã ñepyrũguápe, hákatu hasy oikotevẽ hag̃ua ko’ã ta’ãnga’i rehe ha’ẽva “@” térã “#.”
 adding-sentences-subheader-special-characters = Jehairã Jeporavokuaa ha Tai Pytaguáva
 adding-sentences-subheader-special-characters-explanation-1 = Kuatiahai oikova’erã ñe’ẽ ojeporúvape. Techapyrã, “ж” ha’e tai Rusia ñe’ẽ achegetýpe, hákatu araka’eve ndojeporúiva inglés ñe’ẽme ha, upévare, nosẽiva’erã mba’evéichagua moñe’ẽrã inglés ñe’ẽme.
+adding-sentences-subheader-special-characters-explanation-2 = Ñe’ẽnguéra orekokuaa imbojojahatee ñemoneĩrã tekotevẽva oñemoñe’ẽasa jave. Ndaipóriramo marandurenda ñemoneĩrã ha’etéva peteĩ ñe’ẽme g̃uarã, mbojojaha inglés pegua ohecháta pytyvõharakuéra.
 adding-sentences-subheader-offensive-content = Ñe’ẽreity Ivaíva
 reviewing-sentences-explanation-1 = Pe ñe’ẽjuaju oiko hekopetéramo, eikutu pe votõ "Moneĩ".
 reviewing-sentences-explanation-2 = Pe ñe’ẽjuaju ndoikóiramo hekopete, eikutu pe votõ "Nahániri".
