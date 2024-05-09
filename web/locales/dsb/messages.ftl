@@ -1720,6 +1720,10 @@ ca-balear = Balearšćina
 ca-nwestern = Dłujkowjacorny
 ca-northern = Pódpołnocny
 ca-valencia-tortosi = Tortosí
+pt-BR = Portugišćina (Brazilska)
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Tamazight Centralnego Atlasa)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
