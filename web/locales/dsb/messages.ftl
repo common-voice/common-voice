@@ -722,6 +722,7 @@ datasets-positioning =
     Mějśo toś ten bok ako referencny dypk za druge głosowe datowe sajbźy wótwórjonego žrědła a, dokulaž Common Voice dalej rosćo, ako startowy dypk za naše nejnowše aktualizacije.
 language = Rěc
 download-dataset-header = Datowu sajźbu ześěgnuś
+download-delta-explainer = Smy pśewjadli někotare změny. Deltasegmenty jano nejnowše klipy wót slědnego wozjawjenja wopśimuju. <deltaLink>Cytajśo wěcej wó toś tom źěle</deltaLink>.
 download-dataset-tag = Wubjeŕśo póžedanu rěcnu datowu sajźbu a wersiju, kótaruž cośo ześěgnuś.
 # File size in gigabytes
 size = Wjelikosć
