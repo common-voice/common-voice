@@ -1709,9 +1709,32 @@ news_current_affairs = Nowinki a aktualne naležnosće
 # Sentence Domain dropdown option
 technology_robotics = Technologija a robotika
 sentence-variant-select-label = Sadowa warianta
+sentence-variant-select-placeholder = Wubjerće wariantu (na přeće)
+sentence-variant-select-multiple-variants = Powšitkowna rěč / wjacore warianty
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = Algerešćina
+ca-central = Centralny
+ca-balear = Balearšćina
+ca-nwestern = Sewjerozapadny
+ca-northern = Sewjerny
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Sewjerozapadna walizišćina
+cy-northeas = Sewjerowuchodna walizišćina
+cy-midwales = Srjedźna Waliziska
+cy-southwes = Juhozapadna walizišćina
+cy-southeas = Juhowuchodna walizišćina
+cy-wladfa = Patagoniska walizišćina
+pt-BR = Portugalšćina (Brazilska)
+pt-PT = Portugalšćina (Portugalska)
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Tamazight Centralneho Atlasa)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
