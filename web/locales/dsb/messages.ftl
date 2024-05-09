@@ -634,6 +634,7 @@ about-playbook-how-grow-language = Kak móžomy rěx na Common Voice statkownje 
 about-playbook-how-grow-language-content-2 = Tšojenja
 about-playbook-how-grow-language-content-4 = Socialne medije
 about-playbook-how-grow-language-content-6 = Partnaŕstwa a seśi
+about-playbook-how-grow-language-content-8 = <strong>Buźćo kreatiwny!</strong> Wašo rěcne zgromaźeństwo buźo jadnorazowe, a how su jano někotare móžnosći, aby wy zachopił.
 
 ## How to validate
 
@@ -785,6 +786,8 @@ dataset-metadata-age = Starstwo
 donate-modal-message = Waša datowa sajźba se ześěgujo!
 dataset-donate-modal-heading = Sćo wěźeł…
 donate-modal-explanation-1 = Płaśi něźi jaden milion dolarow na lěto, aby my datowe sajźby góspodowali a platformu za wěcej ako 100 rěcnych zgromaźeństwow pólěpšowali, kótarež se na to spušćaju, což gótujomy.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Jolic se wótwórjone, inkluziwne daty wažyśo – pósććo źinsa!</bold>
 
 ## Download Modal
 
