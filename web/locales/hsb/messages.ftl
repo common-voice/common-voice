@@ -1579,6 +1579,7 @@ add-information-button = Informacije přidać
 continue-speaking-button = Ně, dźakuju so, z rěčenjom pokročować
 create-profile-text = Chceće swoje informacije składować? <createProfile>Załožće profil</createProfile>
 thanks-for-voice-toast = Wulki dźak za waše rěčenske informacije
+thanks-for-voice-toast-error = Při zapodawanju wašich rěčnych informacijow je zmylk nastał
 first-cta-gender-select-default-option = Wubjerće nastajenje
 first-cta-gender-select-help-text =
     .label = Kak byšće swój splah  abo splažnu identitu wopisował?
@@ -1603,6 +1604,8 @@ just-unsure = Jenož njewěsty?
 example = Přikład
 varying-pronunciations-example = Ruta běše njejasna.
 misreadings-explanation-2 = Jara časte zmylki su:
+misreadings-explanation-3 = Faluje krótke słowo kaž ‚w‘ abo ‚do‘ na spočatku nahraća.
+misreadings-explanation-4 = Faluje ‚a‘ na kóncu słowa (na př. pisał město pisała).
 misreadings-explanation-5 = Kontrakcije při čitanju, na přikład „žno“ město „hižo“ abo nawopak.
 misreadings-explanation-6 = Falowacy kónc poslednjeho słowa, dokelž natočenje je so přespěšnišo wotrězało.
 misreadings-explanation-7 = Wjacore pospyty słowo čitać.
@@ -1614,6 +1617,7 @@ misreadings-tip-1 = [Dyrbjało „Dźemy“ rěkać]
 misreadings-tip-2 = [‘a’ w originalnym teksće njeje]
 misreadings-tip-3 = [Wobsah njewotpowěduje]
 background-noise-example-1 = Hoberske dinosawriery triasa.
+background-noise-tip-1 = [přez pozadkowy šum přetorhnjeny]
 background-noise-tip-2 = [Dźěl teksta słyšeć njeje]
 background-voices-example-1 = Hoberske dinosawriery triasa. [čita so wot jednoho hłosa]
 background-voices-tip-1 = Přińdźeš? [hłós druheho]
@@ -1623,6 +1627,7 @@ public-domain = Zjawnje wužiwajomny
 citing-sentences = Sady citować
 adding-sentences = Sady přidać
 reviewing-sentences = Sady přepruwować
+sentence-domain = Domena sady
 citing-sentences-subheader-websites = Websydła
 citing-sentences-subheader-websites-explanation = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“
 citing-sentences-subheader-offline-sources = Žórła offline
@@ -1677,6 +1682,7 @@ single-sentence-submission = Jednotliwu sadu zapodać
 bulk-sentence-submission = Wjacore sady zapodać
 single-sentence = Jedna sada
 bulk-sentences = Wjele sadow
+sentence-domain-combobox-label = Domena sady
 sentence-domain-select-placeholder = Wubjerće hač do třoch domenow (na přeće)
 # Sentence Domain dropdown option
 agriculture = Ratarstwo
@@ -1702,6 +1708,7 @@ nature_environment = Přiroda a wobswět
 news_current_affairs = Nowinki a aktualne naležnosće
 # Sentence Domain dropdown option
 technology_robotics = Technologija a robotika
+sentence-variant-select-label = Sadowa warianta
 
 ## LANGUAGE VARIANT CODES
 
