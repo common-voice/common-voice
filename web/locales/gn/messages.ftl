@@ -695,6 +695,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Emoñe’ẽve
 ## How is Common Voice funded
 
 about-playbook-how-funded = ¿Mba’éicha ivirureko Common Voice?
+about-playbook-how-funded-content-2 = Hetaiterei viru tekotevẽ ñeñongatu ha mba’ekuaarã aty ñemoherakuã, pyendavusu moporãve ha emongu’e <africaMradiLink>tembiaporape tekohagua</africaMradiLink>.
 
 ## Glossary
 
@@ -824,6 +825,7 @@ dataset-metadata-sex = Meña
 dataset-metadata-age = Ary
 donate-modal-message = ¡Ne mba’ekuaarã aty oguejyhína!
 dataset-donate-modal-heading = Eikuaápa…
+donate-modal-explanation-1 = ¿Ohupyty peteĩ sua dólar arýpe oñembyaty hag̃ua mba’ekuaarã aty ha pyendavusu moporãve umi 100 tekoaty ñe’ẽnguéra rehegua ojokupytýva ojejapóva rehe?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Emomba’érõ mba’ekuaarã ijuruja ha ogueroikéva, ¡embojopói ko árape!</bold>
 
