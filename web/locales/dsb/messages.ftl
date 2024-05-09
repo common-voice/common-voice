@@ -1751,6 +1751,7 @@ upload-progress-text = Nagraśe běžy…
 sc-bulk-submit-confirm = Wobkšuśijom, až toś te sady su <wikipediaLink>zjawnje pśistupne</wikipediaLink> a mam pšawo je nagraś.
 bulk-upload-success-toast = Wěcej sadow nagrate
 bulk-upload-failed-toast = Nagraśe njejo se raźiło, wopytajśo pšosym hyšći raz.
+bulk-submission-success-header = Wjeliki źěk, až někotare sady pśinosujośo!
 upload-more-btn-text = Dalšne sady nagraś?
 file-invalid-type = Njepłaśiwa dataja
 file-too-large = Dataja jo pśewjelika
@@ -1759,6 +1760,8 @@ too-many-files = Pśewjele datajow
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Trjebamy</mark><br/><mark>wašu pomoc!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Płaśi něźi jaden milion dolarow na lěto, aby my datowe sajźby góspodowali a platformu za wěcej ako 100 rěcnych zgromaźeństwow pólěpšowali, kótarež se na to spušćaju, což gótujomy. <strong>Jolic se wótwórjone, inkluziwne daty wažyśo – pósććo źinsa!</strong>
 # Text wrapped in <mark></mark> will have a white background.
