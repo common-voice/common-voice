@@ -1798,10 +1798,15 @@ ca-valencia-central = Valenciano central
 ca-valencia-northern = Valenciano setentrional
 ca-valencia-southern = Valenciano meridional
 ca-valencia-alacant = Alacantí
-cy-northwes = Galês norte ocidental
+cy-northwes = Galês noroeste
+cy-northeas = Galês nordeste
+cy-southwes = Galês sudoeste
+cy-southeas = Galês sudeste
 cy-wladfa = Galês da Patagônia
 pt-BR = Português (Brasil)
 pt-PT = Português (Portugal)
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
