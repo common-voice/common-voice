@@ -1737,6 +1737,8 @@ nature_environment = 自然与环境
 news_current_affairs = 新闻与时事
 # Sentence Domain dropdown option
 technology_robotics = 技术与机器人
+sentence-variant-select-label = 语句变体
+sentence-variant-select-placeholder = 选择一个变体（非必选）
 
 ## LANGUAGE VARIANT CODES
 
