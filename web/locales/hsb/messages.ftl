@@ -658,6 +658,7 @@ about-playbook-how-access-dataset = Kak mam přistup k datowej sadźbje a kak m�
 about-playbook-how-project-governance = Kak so projektowe rozsudy tworja?
 about-playbook-how-project-governance-content-2 = Naše wjedźenje na slědowacych stołpach bazuje:
 about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
+about-playbook-how-project-governance-content-4 = Sobuskutkowanje zhromadźenstwa a rozsudźowanje
 about-playbook-how-project-governance-content-5 = Hódnota a připóznaće.
 about-playbook-how-project-governance-content-6 = Mjezsobna rozprawniska winowatosć.
 
