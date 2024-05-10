@@ -1719,7 +1719,7 @@ write-page-subtitle = Les phrases fournies ici seront ajoutées à un jeu de don
 sentence =
     .label = Phrase
 sentence-input-value = Saisissez votre phrase du domaine public ici
-citation-input-value = Source de votre phrase
+citation-input-placeholder = Spécifiez la source de votre phrase (obligatoire)
 citation =
     .label = Citation
 sc-write-submit-confirm = Je confirme que cette phrase est du <wikipediaLink>domaine public</wikipediaLink> et que j’ai la permission de l’envoyer.
@@ -1744,17 +1744,16 @@ single-sentence-submission = Envoi de phrase unique
 bulk-sentence-submission = Envoi de plusieurs phrases
 single-sentence = Phrase unique
 bulk-sentences = Plusieurs phrases
-sentence-domain-select =
-    .label = Domaine de la phrase
+sentence-domain-combobox-label = Domaine de la phrase
 sentence-domain-select-placeholder = Sélectionnez jusqu’à trois domaines
 # Sentence Domain dropdown option
-agriculture = Agriculture
+agriculture_food = Agriculture et agroalimentaire
 # Sentence Domain dropdown option
-automotive = Automobile
+automotive_transport = Automobile et transport
 # Sentence Domain dropdown option
 finance = Finance
 # Sentence Domain dropdown option
-food_service_retail = Nourriture, service et vente au détail
+service_retail = Services et vente au détail
 # Sentence Domain dropdown option
 general = Général
 # Sentence Domain dropdown option
@@ -1771,6 +1770,12 @@ nature_environment = Nature et environnement
 news_current_affairs = Actualités
 # Sentence Domain dropdown option
 technology_robotics = Technologie et robotique
+sentence-variant-select-label = Variante de phrase
+sentence-variant-select-placeholder = Sélectionnez une variante (facultatif)
+sentence-variant-select-multiple-variants = Généralités sur la langue / plusieurs variantes
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 
