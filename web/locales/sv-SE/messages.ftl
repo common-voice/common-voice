@@ -1775,13 +1775,11 @@ bulk-sentences = Flera meningar
 sentence-domain-combobox-label = Meningsdomän
 sentence-domain-select-placeholder = Välj upp till tre domäner
 # Sentence Domain dropdown option
-agriculture = Lantbruk
+agriculture_food = Jordbruk och livsmedel
 # Sentence Domain dropdown option
-automotive = Fordon
+automotive_transport = Fordon och transporter
 # Sentence Domain dropdown option
 finance = Finans
-# Sentence Domain dropdown option
-food_service_retail = Mat, service och detaljhandel
 # Sentence Domain dropdown option
 general = Allmänt
 # Sentence Domain dropdown option
