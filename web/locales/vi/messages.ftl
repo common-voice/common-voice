@@ -1811,13 +1811,13 @@ bulk-sentences = Hàng loạt câu
 sentence-domain-combobox-label = Phạm vi của câu
 sentence-domain-select-placeholder = Chọn tối đa ba miền
 # Sentence Domain dropdown option
-agriculture = Nông nghiệp
+agriculture_food = Nông nghiệp và thực phẩm
 # Sentence Domain dropdown option
-automotive = Công nghiệp ô tô
+automotive_transport = Ô tô và vận tải
 # Sentence Domain dropdown option
 finance = Tài chính
 # Sentence Domain dropdown option
-food_service_retail = Thực phẩm, dịch vụ và bán lẻ
+service_retail = Dịch vụ và bán lẻ
 # Sentence Domain dropdown option
 general = Tổng quát
 # Sentence Domain dropdown option
