@@ -1770,13 +1770,13 @@ bulk-sentences = Bulk Sentences
 sentence-domain-combobox-label = Sentence Domain
 sentence-domain-select-placeholder = Select up to three domains (optional)
 # Sentence Domain dropdown option
-agriculture = Agriculture
+agriculture_food = Agriculture and Food
 # Sentence Domain dropdown option
-automotive = Automotive
+automotive_transport = Automotive and Transport
 # Sentence Domain dropdown option
 finance = Finance
 # Sentence Domain dropdown option
-food_service_retail = Food, Service and Retail
+service_retail = Service and Retail
 # Sentence Domain dropdown option
 general = General
 # Sentence Domain dropdown option
