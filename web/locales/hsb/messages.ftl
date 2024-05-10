@@ -1686,7 +1686,13 @@ bulk-sentences = Wjele sadow
 sentence-domain-combobox-label = Domena sady
 sentence-domain-select-placeholder = Wubjerće hač do třoch domenow (na přeće)
 # Sentence Domain dropdown option
+agriculture_food = Ratarstwo a cyroba
+# Sentence Domain dropdown option
+automotive_transport = Awtomobile a transport
+# Sentence Domain dropdown option
 finance = Financy
+# Sentence Domain dropdown option
+service_retail = Posłužba a předań
 # Sentence Domain dropdown option
 general = Powšitkowne
 # Sentence Domain dropdown option
