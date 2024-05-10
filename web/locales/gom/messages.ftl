@@ -2,6 +2,7 @@
 
 yes-receive-emails = Hoi, maka emails send kôr. Maka khup khosi astili Common Voice Project'an bag govpak.
 stayintouch = Voice technology'cher ami ek community karma Mozilla'an. Ami chad khosi tumka update dovarpak, novo data duvpak and aikpak tumi koso ho data use karta toh.
+privacy-info = Ami vochon dita ki tumchi information samballun dovortolem. Amchi <privacyLink>Privacy Notice</privacyLink> vachun ghe.
 return-to-cv = Porot voch Common Voice'acher
 email-input =
     .label = Email
