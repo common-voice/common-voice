@@ -819,7 +819,7 @@ dataset-metadata-sex = Xénero
 dataset-metadata-age = Idade
 donate-modal-message = O seu conxunto de datos estase descargando!
 dataset-donate-modal-heading = Sabía…
-donate-modal-explanation-1 = Custa case un millón de dólares ao ano aloxar os conxuntos de datos e mellorar a plataforma para as máis de 100 comunidades lingüísticas que confían no que facemos?
+donate-modal-explanation-1 = ... que custa case un millón de dólares ao ano aloxar os conxuntos de datos e mellorar a plataforma para as máis de 100 comunidades lingüísticas que confían no noso traballo?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = { "" }
 
@@ -1814,13 +1814,13 @@ bulk-sentences = Grupo de frases
 sentence-domain-combobox-label = Dominio ao que pertence a frase
 sentence-domain-select-placeholder = Seleccione ata tres campos
 # Sentence Domain dropdown option
-agriculture = Agricultura
+agriculture_food = Agricultura e alimentación
 # Sentence Domain dropdown option
-automotive = Automoción
+automotive_transport = Automoción e transporte
 # Sentence Domain dropdown option
 finance = Finanzas
 # Sentence Domain dropdown option
-food_service_retail = Alimentos, servizos e comercio polo miúdo
+service_retail = Servizos e comercio
 # Sentence Domain dropdown option
 general = Xeral
 # Sentence Domain dropdown option
