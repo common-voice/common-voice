@@ -1696,7 +1696,13 @@ bulk-sentences = Wjele sadow
 sentence-domain-combobox-label = Zarědowanje sady
 sentence-domain-select-placeholder = Wubjeŕśo až do tśich domenow (na žycenje)
 # Sentence Domain dropdown option
+agriculture_food = Rolnikaŕstwo a caroba
+# Sentence Domain dropdown option
+automotive_transport = Awtomobile a transport
+# Sentence Domain dropdown option
 finance = Finance
+# Sentence Domain dropdown option
+service_retail = Słužbywugbaśe a pśedań
 # Sentence Domain dropdown option
 general = Powšykne
 # Sentence Domain dropdown option
