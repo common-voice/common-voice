@@ -1,10 +1,10 @@
 import * as TE from 'fp-ts/TaskEither'
 import { pipe } from 'fp-ts/lib/function'
 
-import { UserClientVariant } from '../../../../core/variants/user-client-variant'
-import { ApplicationError } from '../../../types/error'
-import { queryDb } from '../../../../infrastructure/db/mysql'
-import { createDatabaseError } from '../../../helper/error-helper'
+import { UserClientVariant } from '../../core/variants/user-client-variant'
+import { ApplicationError } from '../types/error'
+import { queryDb } from '../../infrastructure/db/mysql'
+import { createDatabaseError } from '../helper/error-helper'
 
 export type FetchUserClientVariants = (
   clientId: string

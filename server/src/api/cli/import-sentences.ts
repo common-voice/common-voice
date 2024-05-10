@@ -8,9 +8,9 @@ import { AddBulkSentencesCommandHandler } from '../../application/sentences/use-
 import { pipe } from 'fp-ts/lib/function'
 import { taskEither as TE, task as T, identity as Id } from 'fp-ts'
 import { readTsvIntoMemory } from '../../infrastructure/parser/tsvParser'
-import { fetchUserClientIdByEmail } from '../../application/sentences/repository/user-repository'
-import { insertBulkSentencesIntoDb } from '../../application/sentences/repository/sentences-repository'
-import { fetchSentenceDomains } from '../../application/sentences/repository/domain-repository'
+import { fetchUserClientIdByEmail } from '../../application/repository/user-repository'
+import { insertBulkSentencesIntoDb } from '../../application/repository/sentences-repository'
+import { fetchSentenceDomains } from '../../application/repository/domain-repository'
 
 const importSentences = async (args: any, options: any) => {
   const config = getConfig()
