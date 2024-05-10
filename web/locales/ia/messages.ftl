@@ -1774,13 +1774,13 @@ bulk-sentences = Gruppo de phrases
 sentence-domain-combobox-label = Dominio del phrase
 sentence-domain-select-placeholder = Selige usque tres dominios
 # Sentence Domain dropdown option
-agriculture = Agricultura
+agriculture_food = Agricultura e alimentos
 # Sentence Domain dropdown option
-automotive = Automobile
+automotive_transport = Autos e transportos
 # Sentence Domain dropdown option
 finance = Financia
 # Sentence Domain dropdown option
-food_service_retail = Alimentos, servicio e detalio
+service_retail = Servicios e vendita al detalio
 # Sentence Domain dropdown option
 general = General
 # Sentence Domain dropdown option
