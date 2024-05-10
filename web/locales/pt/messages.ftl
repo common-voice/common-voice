@@ -1797,6 +1797,9 @@ ca-valencia-tortosi = Tortosí
 ca-valencia-central = Valenciano central
 ca-valencia-northern = Valenciano setentrional
 ca-valencia-southern = Valenciano meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Galês norte ocidental
+cy-wladfa = Galês da Patagônia
 pt-BR = Português (Brasil)
 pt-PT = Português (Portugal)
 
