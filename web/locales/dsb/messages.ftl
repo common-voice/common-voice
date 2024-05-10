@@ -74,12 +74,14 @@ ff = Fulašćina
 fi = Finšćina
 fo = Ferejšćina
 fr = Francojšćina
+fuf = Guinejiska pularšćina
 fy-NL = Frizišćina
 ga-IE = Iršćina
 gl = Galicišćina
 gn = Guaranšćina, Guarani
 gom = Goaska konkanišćina
 gu-IN = Guźaratšćina
+guc = Wayuunaiki
 ha = Hausa
 he = Hebrejšćina
 hi = Hindišćina
@@ -142,11 +144,14 @@ nan-tw = Taiwańšćina (Minnan)
 nb-NO = Norwegski Bokmål
 nd = IsiNdebele (pódpołnocny)
 ne-NP = Nepalšćina
+nhe = Pódzajtšny huastekaski Nahuatl
+nhi = Pódwjacorny Nahuatl Sierra Puebla
 nia = Niašćina
 nl = Nižozemšćina
 nn-NO = Norwegski Nynorsk
 nr = IsiNdebele (pódpołdnjowy)
 nso = Pódpołnocna sothošćina
+ny = Činjanźa
 nyn = Nkorešćina
 oc = Okcitańšćina
 om = Afaan Ormoo
@@ -159,6 +164,7 @@ ps = Paštošćina, Pašto
 pt = Portugišćina
 quc = Kičešćina
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Retoromanišćina (Sursilvan)
 rm-vallader = Retoromanšćina Vallader
 ro = Rumunšćina
@@ -210,6 +216,7 @@ uz = Uzbekišćina
 ve = Venda
 vec = Wenecianišćina
 vi = Vietnamšćina
+vmw = Emakhuwa
 vot = Wotšćina
 wep = Westfalšćina
 wo = Wolof
@@ -625,6 +632,7 @@ about-playbook-how-add-sentences-content-3 = Móžośo <scraperLink>ekstraktor s
 ## How to record quality
 
 about-playbook-how-record-quality = Kak mógu głosowy klip we wusokej kwaliśe nagraś?
+about-playbook-how-record-content-2 = Wobiniśo se pśewjele slězynowych šumow – wy měł derje słyšaś byś.
 about-playbook-how-record-content-3 = Cytajśo sadu kradosćiwje – njewuwostajśo, njezměnjajśo abo njepśidawajśo słowa.
 about-playbook-how-record-content-5 = <accuracyLink>Zgóńśo wěcej wó kriterijach dokradnosći.</accuracyLink>
 
@@ -923,6 +931,9 @@ listen-abort-cancel = Z pśeglědowanim pókšacowaś
 listen-abort-confirm = Pśeglědowanje dokóńcyś
 speak-empty-state = Sady su nam wujšli, kótarež se w toś tej rěcy nagrawaju...
 speak-empty-state-cta = Sady pśinosowaś
+speak-loading-error =
+    Njejsmy mógli sady za was za powědanje wótwołaś.
+    Pšosym wopytajśo pózdźej hyšći raz.
 record-button-label = Nagrajśo swój głos
 share-title-new = <bold>Pomagajśo nam</bold>, dalšne głose namakaś
 keep-track-profile = Slědujśo swójomu póstupoju z profilom
@@ -1685,13 +1696,7 @@ bulk-sentences = Wjele sadow
 sentence-domain-combobox-label = Zarědowanje sady
 sentence-domain-select-placeholder = Wubjeŕśo až do tśich domenow (na žycenje)
 # Sentence Domain dropdown option
-agriculture = Rolnikaŕstwo
-# Sentence Domain dropdown option
-automotive = Awta
-# Sentence Domain dropdown option
 finance = Finance
-# Sentence Domain dropdown option
-food_service_retail = Caroba, słužbywugbaśe a pśedań
 # Sentence Domain dropdown option
 general = Powšykne
 # Sentence Domain dropdown option
