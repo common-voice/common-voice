@@ -1781,6 +1781,8 @@ automotive_transport = Fordon och transporter
 # Sentence Domain dropdown option
 finance = Finans
 # Sentence Domain dropdown option
+service_retail = Mat, service och detaljhandel
+# Sentence Domain dropdown option
 general = Allmänt
 # Sentence Domain dropdown option
 healthcare = Sjukvård
