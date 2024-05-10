@@ -1630,6 +1630,7 @@ reviewing-sentences = Sady přepruwować
 sentence-domain = Domena sady
 citing-sentences-subheader-websites = Websydła
 citing-sentences-subheader-websites-explanation = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“
+citing-sentences-subheader-academic-reference = Akademiska referenca
 citing-sentences-subheader-offline-sources = Žórła offline
 citation =
     .label = Citat
@@ -1685,13 +1686,7 @@ bulk-sentences = Wjele sadow
 sentence-domain-combobox-label = Domena sady
 sentence-domain-select-placeholder = Wubjerće hač do třoch domenow (na přeće)
 # Sentence Domain dropdown option
-agriculture = Ratarstwo
-# Sentence Domain dropdown option
-automotive = Awta
-# Sentence Domain dropdown option
 finance = Financy
-# Sentence Domain dropdown option
-food_service_retail = Cyroba, posłužba a předań
 # Sentence Domain dropdown option
 general = Powšitkowne
 # Sentence Domain dropdown option
