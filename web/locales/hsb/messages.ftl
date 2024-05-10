@@ -1603,6 +1603,7 @@ create-profile-button = Profil załožić
 img-alt-success-checkmark = Symbol wuspěcha
 # GUIDELINES PAGE
 guidelines-header = Směrnicy za sobuskutkowarjow
+guidelines-header-subtitle = Zrozumće, kak móžeće datowej sadźbje Common Voice sady a awdioklipy přinošować a kak móžeće je přepruwować
 voice-collection = Zběrka hłosow
 sentence-collection = Zběrka sadow
 varying-pronunciations = Rozdźělne wurjekowanja
