@@ -1871,6 +1871,11 @@ sw-kimvita = Kimvita (KE) - centrální dialekt
 sw-kibajuni = Kibajuni (KE) - severní dialekt
 sw-kimrima = Kimrima (TZ) - severní dialekt
 sw-kiunguja = Kiunguja (TZ) - jižní dialekt
+sw-kipemba = Kipemba (TZ) - jižní dialekt
+sw-kikae = Kimakunduchi/Kikae (TZ) - jižní dialekt
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
@@ -1920,3 +1925,8 @@ too-many-files = Příliš mnoho souborů
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Potřebujeme</mark><br/><mark>vaši pomoc!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Hostování datových sad a zlepšování platformy pro více než 100 jazykových komunit, které se spoléhají na naši práci, stojí téměř milion dolarů ročně. <strong>Jestliže si ceníte otevřených a inkluzivních dat - přispějte ještě dnes!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Používáte Common Voice </mark><br/><mark>na svůj výzkum? </mark>
+languages-donate-banner-cta-explanation = Common Voice je financován z darů a grantů! Rádi spolupracujeme s akademiky, výzkumníky z občanské společnosti a průmyslu. Používání služby Common Voice je zdarma, ale přispívat na náklady na platformu a hosting prostřednictvím návrhů na granty je opravdu užitečné.
