@@ -1755,7 +1755,7 @@ zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Pśekontrolěrujśo <icon></icon>, lěc to jo linguistiski korektna sada.
 sc-review-rules-title = Wótpowědujo sada směrnicam?
-sc-review-empty-state = Njedaju tuchylu sady za pśekontrolěrowanje w toś tej rěcy.
+sc-review-empty-state = Njedajo tuchylu sady za pśekontrolěrowanje w toś tej rěcy.
 report-sc-different-language = Druga rěc
 report-sc-different-language-detail = Jo w drugej rěcy napisana ako pśeglědujom.
 sentences-fetch-error = Pśi wótwołowanju sadow jo zmólka nastała
