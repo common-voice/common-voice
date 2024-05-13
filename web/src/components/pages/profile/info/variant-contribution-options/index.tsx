@@ -25,8 +25,9 @@ export const VariantContributionOptions = ({
   const userLanguage = userLanguages.find(
     language => language.locale === locale
   )
+
   const [isPreferredOption, setIsPreferredOption] = React.useState(
-    userLanguage.variant.is_preferred_option
+    userLanguage?.variant?.is_preferred_option || false
   )
 
   const handleChange = (
@@ -76,7 +77,7 @@ export const VariantContributionOptions = ({
           <Radio
             contentClass="radio-content"
             labelClass="radio-label"
-            name="variant-contribution-option"
+            name={`${locale}-variant-contribution-option`}
             value="my-variant"
             checked={isPreferredOption === true}
             onChange={handleChange}>
@@ -87,7 +88,7 @@ export const VariantContributionOptions = ({
           <Radio
             contentClass="radio-content"
             labelClass="radio-label"
-            name="variant-contribution-option"
+            name={`${locale}-variant-contribution-option`}
             value="all-variants"
             checked={isPreferredOption === false}
             onChange={handleChange}>
