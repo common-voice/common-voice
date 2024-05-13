@@ -451,6 +451,10 @@ help-variants = Hulp nodig bij varianten?
 help-variants-explanation = Varianten zijn een specifieke vorm van een taal – bijvoorbeeld gesproken door mensen die in een gebied of gemeenschap wonen. Soms worden dit dialecten genoemd.
 help-sex-or-gender-changes = Hulp nodig bij de geslachts- of genderwijzigingen?
 help-sex-or-gender-changes-explanation = We bieden meer opties om mensen meer keuze te geven in wat ze ons vertellen over hun geslacht of genderidentiteit. Beschrijf uzelf op de manier die voor u het meest natuurlijk aanvoelt. <learnMoreLink>Meer info over onze benadering van geslacht en gender.</learnMoreLink>
+variant-contribution-options-header = Opties voor variantbijdrage
+variant-contribution-help = Sommige varianten en dialecten binnen een taal of taalfamilie verschillen erg van elkaar. Als u problemen hebt met een bepaalde variant, kunt u hier uw voorkeuren wijzigen.
+variant-contribution-option-1 = Alleen zinnen en fragmenten van mijn variant tonen
+variant-contribution-option-2 = Mij zinnen en fragmenten van alle varianten in mijn taal tonen
 
 ## Profile - Email
 
@@ -983,6 +987,7 @@ target-segment-generic-card = U draagt bij aan een doelsegment
 target-segment-first-banner = Help bij het maken van het eerste doelsegment in het { $locale } van Common Voice
 target-segment-add-voice = Uw stem toevoegen
 target-segment-learn-more = Meer info
+change-preferences = Voorkeuren wijzigen
 
 ## Contribution Nav Items
 
