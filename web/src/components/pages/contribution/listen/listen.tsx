@@ -297,13 +297,18 @@ class ListenPage extends React.Component<Props, State> {
   };
 
   render() {
-    const { isLoading, hasLoadingError } = this.props;
+    const { isLoading, hasLoadingError, user, locale } = this.props;
+    console.log({ user, locale });
     const { clips, hasPlayed, hasPlayedSome, isPlaying, isSubmitted } =
       this.state;
     const clipIndex = this.getClipIndex();
     const activeClip = clips[clipIndex];
     const noClips = clips.length === 0;
     const isMissingClips = !isLoading && (noClips || !activeClip);
+    const currentLocale = user?.account?.languages.find(
+      lang => lang.locale === locale
+    );
+    const isVariantPreferredOption = currentLocale?.variant.is_preferred_option;
 
     return (
       <>
@@ -369,8 +374,9 @@ class ListenPage extends React.Component<Props, State> {
                 hasLoadingError={hasLoadingError}
                 isMissingClips={isMissingClips}
                 isDemoMode={this.demoMode}
-                // TODO: change this
-                isMissingClipsForVariant
+                isMissingClipsForVariant={
+                  isMissingClips && isVariantPreferredOption
+                }
               />
             }
             instruction={props =>
