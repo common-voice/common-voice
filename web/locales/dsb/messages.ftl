@@ -74,12 +74,14 @@ ff = Fulašćina
 fi = Finšćina
 fo = Ferejšćina
 fr = Francojšćina
+fuf = Guinejiska pularšćina
 fy-NL = Frizišćina
 ga-IE = Iršćina
 gl = Galicišćina
 gn = Guaranšćina, Guarani
 gom = Goaska konkanišćina
 gu-IN = Guźaratšćina
+guc = Wayuunaiki
 ha = Hausa
 he = Hebrejšćina
 hi = Hindišćina
@@ -142,11 +144,14 @@ nan-tw = Taiwańšćina (Minnan)
 nb-NO = Norwegski Bokmål
 nd = IsiNdebele (pódpołnocny)
 ne-NP = Nepalšćina
+nhe = Pódzajtšny huastekaski Nahuatl
+nhi = Pódwjacorny Nahuatl Sierra Puebla
 nia = Niašćina
 nl = Nižozemšćina
 nn-NO = Norwegski Nynorsk
 nr = IsiNdebele (pódpołdnjowy)
 nso = Pódpołnocna sothošćina
+ny = Činjanźa
 nyn = Nkorešćina
 oc = Okcitańšćina
 om = Afaan Ormoo
@@ -159,6 +164,7 @@ ps = Paštošćina, Pašto
 pt = Portugišćina
 quc = Kičešćina
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Retoromanišćina (Sursilvan)
 rm-vallader = Retoromanšćina Vallader
 ro = Rumunšćina
@@ -210,6 +216,7 @@ uz = Uzbekišćina
 ve = Venda
 vec = Wenecianišćina
 vi = Vietnamšćina
+vmw = Emakhuwa
 vot = Wotšćina
 wep = Westfalšćina
 wo = Wolof
@@ -258,7 +265,7 @@ home-cta = Powědajśo a cyńśo how sobu!
 wall-of-text-start = Głos jp pśirodny, głos je cłowjeski. Togodla smy fasciněrowane, wužytnu głosowu technologiju za naše mašiny napóraś. Ale, za napóranje głosowych systemow jo wjelgin wjelika tšocha głosowych datow trěbne.
 wall-of-text-more-mobile = Nejwěcej datow wužywane wót wjelikich pśedewześow njejo pśitupne za wětšynu luźi. Myslimy, až to inowaciju znjemóžnja. Togodla smy startowali projekt Common Voice, projekt, kótaryž kuždemu spóznawanje głosow pśistupni.
 wall-of-text-more-desktop = Něnto móžośo swój głos daś, aby nam pomagał, datowu banku głosow wótwórjonego žrědła natwariś, kótaruž kuždy móžo wužywaś, aby inowatiwne nałoženja za rědy a web napórak.<lineBreak></lineBreak>Cytajśo sadu, aby mašinam pomagał, wuknuś, kak napšawdne luźe powědaju. Kontrolěrujśo źěło drugich sobustatkujucych, aby kwalitu pólěpšył. Jo tak lažko!
-wall-of-text-first = Głos jo pśirodny, głos jo cłowjeski. Togodla górjejomy se za napóranje wužywajobneje głosoweje technologije za naše mašiny. Ale, aby głosowe systemy napórali, trjebaju wuwijarje wjelgin wjeliku tšochu głosowych datow.
+wall-of-text-first = Głos jo pśirodny, głos jo cłowjeski. Togodla górjejomy se za napóranje wužywabneje głosoweje technologije za naše mašiny. Ale, aby głosowe systemy napórali, trjebaju wuwijarje wjelgin wjeliku tšochu głosowych datow.
 wall-of-text-second = Nejwěcej datow, kótarež se wót wjelikich pśedewześow wužywa, wětšynje luźi k dispoziciji njestoj. Myslimy, až to inowaciji zajźujo. Togodla smy startowali Common Voice , projekt, kótaryž dej głosowe spóznaśe wótwórjone a pśistupne za kuždego cyniś.
 show-wall-of-text = Dalšne informacije
 help-us-title = Pomagajśo nam, sady wobkšuśiś!
@@ -449,6 +456,7 @@ help-accent-explanation = Waš akcent jo nałog, kak słowa wugranjaśo. Jogo ch
 help-variants = Trjebaśo pomoc za warianty?
 help-variants-explanation = Warianty su specifiska forma rěcy - powědaju se na pśikład wót luźi, kótarež su we wěstem regionje abo zgromaźeństwje žywe. Wótergi wóne se dialekty pomjenjuju.
 help-sex-or-gender-changes = Trjebaśo pomoc pśi změnjanju roda abo rodneje identity?
+help-sex-or-gender-changes-explanation = Póbitujomy wěcej móžnosćow, aby my ludam wětšu wólbu wó tom daś, což nam wó jich roźe abo rodnej identiśe k wěsći daju. Pšosym wopisujśo se, kak jo nejpśirodnjejše za was. <learnMoreLink>Zgóńśo wěcej wó našej wašni pśistupa k rodoju a rodnej identiśe.</learnMoreLink>
 
 ## Profile - Email
 
@@ -624,6 +632,7 @@ about-playbook-how-add-sentences-content-3 = Móžośo <scraperLink>ekstraktor s
 ## How to record quality
 
 about-playbook-how-record-quality = Kak mógu głosowy klip we wusokej kwaliśe nagraś?
+about-playbook-how-record-content-2 = Wobiniśo se pśewjele slězynowych šumow – wy měł derje słyšaś byś.
 about-playbook-how-record-content-3 = Cytajśo sadu kradosćiwje – njewuwostajśo, njezměnjajśo abo njepśidawajśo słowa.
 about-playbook-how-record-content-5 = <accuracyLink>Zgóńśo wěcej wó kriterijach dokradnosći.</accuracyLink>
 
@@ -633,6 +642,7 @@ about-playbook-how-grow-language = Kak móžomy rěx na Common Voice statkownje 
 about-playbook-how-grow-language-content-2 = Tšojenja
 about-playbook-how-grow-language-content-4 = Socialne medije
 about-playbook-how-grow-language-content-6 = Partnaŕstwa a seśi
+about-playbook-how-grow-language-content-8 = <strong>Buźćo kreatiwny!</strong> Wašo rěcne zgromaźeństwo buźo jadnorazowe, a how su jano někotare móžnosći, aby wy zachopił.
 
 ## How to validate
 
@@ -646,9 +656,15 @@ about-playbook-how-access-dataset = Kak mam pśistup k datowej sajźbje a kak m�
 ## How are decisions made
 
 about-playbook-how-project-governance = Kak se wó projektach rozsuźuju?
+about-playbook-how-project-governance-content-2 = Našo wjeźenje na slědujucych słupach bazěrujo:
 about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
+about-playbook-how-project-governance-content-4 = Sobustatkowanje zgromaźeństwa a rozsuźowanje
 about-playbook-how-project-governance-content-5 = Gódnota a pśipóznaśe.
 about-playbook-how-project-governance-content-6 = Mjazsobna rozpšawniska winowatosć.
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Kak se Common Voice financěrujo?
 
 ## Glossary
 
@@ -717,6 +733,7 @@ datasets-positioning =
     Mějśo toś ten bok ako referencny dypk za druge głosowe datowe sajbźy wótwórjonego žrědła a, dokulaž Common Voice dalej rosćo, ako startowy dypk za naše nejnowše aktualizacije.
 language = Rěc
 download-dataset-header = Datowu sajźbu ześěgnuś
+download-delta-explainer = Smy pśewjadli někotare změny. Deltasegmenty jano nejnowše klipy wót slědnego wozjawjenja wopśimuju. <deltaLink>Cytajśo wěcej wó toś tom źěle</deltaLink>.
 download-dataset-tag = Wubjeŕśo póžedanu rěcnu datowu sajźbu a wersiju, kótaruž cośo ześěgnuś.
 # File size in gigabytes
 size = Wjelikosć
@@ -729,6 +746,7 @@ number-of-voices = Licba głosow
 splits = Rozdźělenja
 email-to-download = E-mailowu adresu za ześěgnjenje zapódaś
 why-email = <b>Cogodla e-mailowa adresa?</b> Musymy se snaź z wami w pśichoźe wó změnach na datowej sajźbje do zwiska stajiś, e-mailowa adresa nam kontaktowu móžnosć dawa.
+why-donate-datasets-page = Mozilla Common Voice jo nejwjelerakša wótwórjona rěcna datowa sajźba z crowdsourcing swěta – a financěrujomy se jano z darami. Płaśi něźi jaden milion dolarow na lěto, aby my datowe sajźby góspodowali a platformu za wěcej ako 100 rěcnych zgromaźeństwow pólěpšowali, kótarež se na to spušćaju, což gótujomy. Jolic se wótwórjone, inkluziwne daty wažyśo – <b>pósććo źinsa!</b>
 confirm-size = Sćo za start ześěgnjenja wjelikosći <b>{ $size }</b> spśigótowany
 size-gigabyte = GB
 size-megabyte = MB
@@ -747,6 +765,8 @@ subscribe = Aboněrowaś
 get-started-speech = Prědne kšace z powědańskim spóznaśim
 other-datasets = Druge głosowe datowe sajźby
 feedback-q = Maśo komentary?
+# This indicates that there is no data to display
+no-information = Žedne informacije
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ jo <docsLink>sajźba rědow wótwórjonego žrědła</docsLink> za slěźarje, kótarež wusokomoderne dialogowe modele kumštneje inteligence wuwijaju.
 resource-deepspeech-info = Mašina głosowego spóznaśa wótwórjonego žrědła Mozilla dajo se wužywaś, aby nałoženja głosowego spóznaśa wuwijaś. Cytajśo naš <githubLink>pśeglěd Github</githubLink> abo pśizamkniśo se forumoju <discourseLink>DeepSpeech Discourse</discourseLink>, aby zgónił, kak móžośo zachopiś.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> jo za wótwórjonu powědańsku technologiju myslony. Jich projekty SST- a TTS-systemy na zakłaźe dłymokego wuknjenja wopśimuju.
@@ -775,6 +795,9 @@ dataset-metadata-sex = Rod
 dataset-metadata-age = Starstwo
 donate-modal-message = Waša datowa sajźba se ześěgujo!
 dataset-donate-modal-heading = Sćo wěźeł…
+donate-modal-explanation-1 = Płaśi něźi jaden milion dolarow na lěto, aby my datowe sajźby góspodowali a platformu za wěcej ako 100 rěcnych zgromaźeństwow pólěpšowali, kótarež se na to spušćaju, což gótujomy.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Jolic se wótwórjone, inkluziwne daty wažyśo – pósććo źinsa!</bold>
 
 ## Download Modal
 
@@ -910,6 +933,9 @@ listen-abort-cancel = Z pśeglědowanim pókšacowaś
 listen-abort-confirm = Pśeglědowanje dokóńcyś
 speak-empty-state = Sady su nam wujšli, kótarež se w toś tej rěcy nagrawaju...
 speak-empty-state-cta = Sady pśinosowaś
+speak-loading-error =
+    Njejsmy mógli sady za was za powědanje wótwołaś.
+    Pšosym wopytajśo pózdźej hyšći raz.
 record-button-label = Nagrajśo swój głos
 share-title-new = <bold>Pomagajśo nam</bold>, dalšne głose namakaś
 keep-track-profile = Slědujśo swójomu póstupoju z profilom
@@ -1565,6 +1591,10 @@ add-information-button = Informacije pśidaś
 continue-speaking-button = Ně, źěkujom se, z powědanim pókšacowaś
 create-profile-text = Cośo swóje informacije składowaś? <createProfile>Załožćo profil</createProfile>
 thanks-for-voice-toast = Wjeliki źěk za waše powědańske informacije
+thanks-for-voice-toast-error = Pśi zapódawanju wašych rěcnych informacijow jo zmólka nastała
+first-cta-gender-select-default-option = Wubjeŕśo nastajenje
+first-cta-gender-select-help-text =
+    .label = Kak by wy swój rod  abo rodnu identitu wopisował?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Wjeliki źěk, až waš głos pśinosujośo!
 already-have-an-account = Maśo južo konto? <login>Pśizjawiś</login>
@@ -1573,6 +1603,7 @@ create-profile-button = Profil załožyś
 img-alt-success-checkmark = Symbol wuspěcha
 # GUIDELINES PAGE
 guidelines-header = Směrnice za sobustatkujuce
+guidelines-header-subtitle = Zrozmějśo, kak móžośo datowej sajźbje Common Voice sady a awdioklipy pśinosowaś a kak móžośo je pśeglědowaś
 voice-collection = Zběrka głosow
 sentence-collection = Zběrka sadow
 varying-pronunciations = Rozdźělne wugronjenja
@@ -1586,6 +1617,8 @@ just-unsure = Jano njewěsty?
 example = Pśikład
 varying-pronunciations-example = Ruta jo była njejasna.
 misreadings-explanation-2 = Wjelgin ceste zmólki su:
+misreadings-explanation-3 = Felujo krotke słowo ako ‚w‘ abo ‚do‘ na zachopjeńku nagraśa.
+misreadings-explanation-4 = Felujo ‚a‘ na kóńcu słowa (na pś. pisał město pisała).
 misreadings-explanation-5 = Kontrakcije pśi cytanju, na pśikład „pón“ město „pótom“ abo nawopak.
 misreadings-explanation-6 = Felujucy kóńc slědnego słowa, dokulaž nagraśe jo se pśemalsnjej wótrězało.
 misreadings-explanation-7 = Někotare wopyty słowo cytaś.
@@ -1597,17 +1630,20 @@ misreadings-tip-1 = [Dejało „Źomy“ groniś]
 misreadings-tip-2 = [‘a’ njejo w originalnem teksće]
 misreadings-tip-3 = [Wopśimjeśe njewótpowědujo]
 background-noise-example-1 = Wjelicke dinosawrierje triasa.
+background-noise-tip-1 = [pśez slězynowy šum pśetergnjony]
 background-noise-tip-2 = [Źěl teksta njejo słyšaś]
 background-voices-example-1 = Wjelicke dinosawriery triasa. [cyta se wót jadnogo głosa]
 background-voices-tip-1 = Pśiźoš? [głos drugego]
 still-have-questions = Maśo hyšći pšašanja?
 contact-common-voice = Stajśo z teamom Common Voice do zwiska
-public-domain = Zjawnje wužywajobny
+public-domain = Zjawnje wužywabny
 citing-sentences = Sady citěrowaś
 adding-sentences = Sady pśidaś
 reviewing-sentences = Sady pśeglědaś
+sentence-domain = Domena sady
 citing-sentences-subheader-websites = Websedła
 citing-sentences-subheader-websites-explanation = Wy mógał websedło pódaś, na pś. „Common Voice - https://commonvoice.mozilla.org/“
+citing-sentences-subheader-academic-reference = Akademiska referenca
 citing-sentences-subheader-offline-sources = Žrědła offline
 citation =
     .label = Citat
@@ -1630,10 +1666,12 @@ reviewing-sentences-explanation-4 = Jolic wam sady wujdu, pomagajśo nam dalšne
 
 ## WRITE PAGE
 
+write-instruction = Pśidajśo <icon></icon> zjawnje wužywabnu sadu
+write-page-subtitle = Sady, kótarež se how pśinosuju, se zjawnje pśistupnej datowej sajźbje z licencu cc-0 pśidawaju.
 sentence =
     .label = Sada
-sentence-input-value = Zapódajśo how swóju zjawnje wužywajobnu sadu
-citation-input-value = Žrědło wašeje sady
+sentence-input-value = Zapódajśo how swóju zjawnje wužywabnu sadu
+citation-input-placeholder = Pomjeńśo žrědło swójeje sady (trjebne)
 citation =
     .label = Citat
 sc-write-submit-confirm = Wobkšuśijom, až toś ta sada jo <wikipediaLink>zjawnje pśistupne</wikipediaLink> a mam pšawo ju nagraś.
@@ -1644,22 +1682,30 @@ new-sentence-rule-3 = Korektnu gramatiku wužywaś
 new-sentence-rule-4 = Korektny pšawopis a korektnu interpunkciju wužywaś
 new-sentence-rule-5 = Žedne licby a wósebne znamuška
 new-sentence-rule-6 = Žedne cuze pismiki
+new-sentence-rule-7 = Wótpowědne pódaśe žrědła zapśimjeś
+new-sentence-rule-8 = W idealnem paźe pśirodna a ze wšedneje rěcy (sada měła lažko cytajobna byś)
 how-to-cite = Kak citěrujom?
+how-to-cite-explanation-bold = Citěrujśo z URL-wótkazom abo połnym mjenim źěła.
+how-to-cite-explanation = Jolic su swójske słowa, pódajśo jadnorje <italicizedText>„samocitat“</italicizedText>. Musymy wěźeś, źož sćo namakał toś to wopśimjeśe, aby my mógli pśekontrolěrowaś, kěc jo zjawnje wužywabne a wobgranicowanja awtorskego pšawa njepłaśe. Za dalšne informacije wó citěrowanju glejśo naše <guidelinesLink>Směrnice</guidelinesLink>.
 guidelines = Směrnice
 contact-us = Kontakt
 add-sentence-success = 1 sada zezběrana
 add-sentence-error = Zmólka pśi pśidawanju sady
 required-field = Pšosym wupołniśo toś to pólo.
+single-sentence-submission = Jadnotliwu sadu zapódaś
+bulk-sentence-submission = Někotare sady zapódaś
 single-sentence = Jadna sada
 bulk-sentences = Wjele sadow
+sentence-domain-combobox-label = Zarědowanje sady
+sentence-domain-select-placeholder = Wubjeŕśo až do tśich domenow (na žycenje)
 # Sentence Domain dropdown option
-agriculture = Rolnikaŕstwo
+agriculture_food = Rolnikaŕstwo a caroba
 # Sentence Domain dropdown option
-automotive = Awta
+automotive_transport = Awtomobile a transport
 # Sentence Domain dropdown option
 finance = Finance
 # Sentence Domain dropdown option
-food_service_retail = Caroba, słužbywugbaśe a pśedań
+service_retail = Słužbywugbaśe a pśedań
 # Sentence Domain dropdown option
 general = Powšykne
 # Sentence Domain dropdown option
@@ -1676,12 +1722,44 @@ nature_environment = Pśiroda a wobswět
 news_current_affairs = Nowosći a aktualne nastupnosći
 # Sentence Domain dropdown option
 technology_robotics = Technologija a robotika
+sentence-variant-select-label = Sadowa warianta
+sentence-variant-select-placeholder = Wubjeŕśo wariantu (na žycenje)
+sentence-variant-select-multiple-variants = Powšykna rěc / někotare warianty
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Algerešćina
+ca-central = Centralny
+ca-balear = Balearšćina
+ca-nwestern = Dłujkowjacorny
+ca-northern = Pódpołnocny
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Dłujkowjacorna walizišćina
+cy-northeas = Dłujkozajtšna walizišćina
+cy-midwales = Srjejźna Waliziska
+cy-southwes = Krotkowjacorna walizišćina
+cy-southeas = Krotkozajtšna walizišćina
+cy-wladfa = Patagoniska walizišćina
+pt-BR = Portugišćina (Brazilska)
+pt-PT = Portugišćina (Portugalska)
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Tamazight Centralnego Atlasa)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Pśekontrolěrujśo <icon></icon>, lěc to jo linguistiski korektna sada.
 sc-review-rules-title = Wótpowědujo sada směrnicam?
+sc-review-empty-state = Njedajo tuchylu sady za pśekontrolěrowanje w toś tej rěcy.
 report-sc-different-language = Druga rěc
 report-sc-different-language-detail = Jo w drugej rěcy napisana ako pśeglědujom.
+sentences-fetch-error = Pśi wótwołowanju sadow jo zmólka nastała
+review-error = Pśi pśekontrolěrowanju toś teje sady jo zmólka nastała
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Pśewjeźomy někotare změny
 sc-redirect-page-subtitle-2 = Stajśo nam pšašanja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mailu</emailLink>.
@@ -1689,9 +1767,10 @@ sc-redirect-page-subtitle-2 = Stajśo nam pšašanja na <matrixLink>Matrix</matr
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = Nagrajśo <icon></icon> zjawnje wužywajobne sady
+sc-bulk-upload-header = Nagrajśo <icon></icon> zjawnje wužywabne sady
 sc-bulk-upload-instruction = Śěgniśo swóju dataju sem abo <uploadButton>klikniśo za nagrawanje</uploadButton>
 sc-bulk-upload-instruction-drop = Pušććo dataju how, aby ju nagrał
+try-upload-again = Wopytajśo znowego swóju dataju sem śěgnuś
 try-upload-again-md = Nagraśe znowego wopytaś
 select-file = Dataju wubraś
 select-file-mobile = Wubjeŕśo dataju za nagraśe
@@ -1702,8 +1781,19 @@ upload-progress-text = Nagraśe běžy…
 sc-bulk-submit-confirm = Wobkšuśijom, až toś te sady su <wikipediaLink>zjawnje pśistupne</wikipediaLink> a mam pšawo je nagraś.
 bulk-upload-success-toast = Wěcej sadow nagrate
 bulk-upload-failed-toast = Nagraśe njejo se raźiło, wopytajśo pšosym hyšći raz.
+bulk-submission-success-header = Wjeliki źěk, až někotare sady pśinosujośo!
+bulk-submission-success-subheader = Pomagaśo Common Voice naše wšedne sadowe cele dojśpiś!
 upload-more-btn-text = Dalšne sady nagraś?
 file-invalid-type = Njepłaśiwa dataja
 file-too-large = Dataja jo pśewjelika
 file-too-small = Dataja jo pśemała
 too-many-files = Pśewjele datajow
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Trjebamy</mark><br/><mark>wašu pomoc!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Płaśi něźi jaden milion dolarow na lěto, aby my datowe sajźby góspodowali a platformu za wěcej ako 100 rěcnych zgromaźeństwow pólěpšowali, kótarež se na to spušćaju, což gótujomy. <strong>Jolic se wótwórjone, inkluziwne daty wažyśo – pósććo źinsa!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Wužywaśo Common Voice za</mark><br/><mark>swójo slěźenje?

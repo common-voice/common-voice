@@ -671,6 +671,9 @@ about-playbook-how-project-governance-content-5 = 價值與重視。
 about-playbook-how-project-governance-content-6 = 相互問責。
 about-playbook-how-project-governance-content-7 = <governanceLink>更加了解我們如何治理本專案</governanceLink>
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = 詞彙
@@ -1658,7 +1661,6 @@ write-instruction = 加入 <icon></icon> 公眾領域的句子
 sentence =
     .label = 語句
 sentence-input-value = 在此輸入公眾領域語句
-citation-input-value = 語句的來源
 citation =
     .label = 引用
 sc-review-write-title = 我可以加入哪些句子？
@@ -1682,16 +1684,14 @@ single-sentence-submission = 送出單一句子
 bulk-sentence-submission = 送出大批句子
 single-sentence = 單一句子
 bulk-sentences = 大批句子
-sentence-domain-select =
-    .label = 語句領域
 # Sentence Domain dropdown option
-agriculture = 農業
+agriculture_food = 農業與食物
 # Sentence Domain dropdown option
-automotive = 汽車
+automotive_transport = 汽車與運輸
 # Sentence Domain dropdown option
 finance = 金融
 # Sentence Domain dropdown option
-food_service_retail = 食品、服務與零售
+service_retail = 服務與零售
 # Sentence Domain dropdown option
 general = 一般
 # Sentence Domain dropdown option
@@ -1708,6 +1708,17 @@ nature_environment = 自然與環境
 news_current_affairs = 新聞時事
 # Sentence Domain dropdown option
 technology_robotics = 科技與機器人
+
+## LANGUAGE VARIANT CODES
+
+cy-northwes = 西北威爾斯語
+cy-northeas = 東北威爾斯語
+cy-midwales = 中威爾斯語
+cy-southwes = 西南威爾斯語
+cy-southeas = 東南威爾斯語
+cy-wladfa = 巴塔哥尼亞威爾斯語
+pt-BR = 葡萄牙語（巴西）
+pt-PT = 葡萄牙語（葡萄牙）
 
 ## REVIEW PAGE
 
@@ -1744,3 +1755,6 @@ file-invalid-type = 檔案無效
 file-too-large = 檔案太大
 file-too-small = 檔案太小
 too-many-files = 檔案太多
+
+## Donate banner
+

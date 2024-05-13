@@ -16,7 +16,7 @@ import lazyCache from '../lazy-cache';
 import { option as O, task as T, taskEither as TE } from 'fp-ts';
 import { pipe } from 'fp-ts/lib/function';
 import { DatasetStatistics } from '../../core/datasets/types/dataset';
-import { FindVariantsBySentenceIdsResult, findVariantsBySentenceIdsInDb } from '../../application/sentences/repository/variant-repository';
+import { FindVariantsBySentenceIdsResult, findVariantsBySentenceIdsInDb } from '../../application/repository/variant-repository';
 const MINUTE = 1000 * 60;
 const DAY = MINUTE * 60 * 24;
 
@@ -479,7 +479,7 @@ export default class DB {
             count - taxonomySentences.length,
             exemptFromSSRL
           );
-    
+
     Sentry.captureMessage(`There are ${regularSentences.length} regular sentences for ${locale} locale`, Sentry.Severity.Info)     
     return taxonomySentences.concat(regularSentences);
   }

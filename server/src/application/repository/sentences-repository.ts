@@ -1,14 +1,14 @@
 import { option as O, taskEither as TE, taskOption as TO } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { MysqlError } from 'mysql2Types'
-import { UnvalidatedSentence } from '../../../core/sentences/types'
-import { SentencesForReviewRow } from '../../../infrastructure/db/types'
-import Mysql, { getMySQLInstance } from '../../../lib/model/db/mysql'
-import { createSentenceId } from '../../../lib/utility'
-import { createSentenceRepositoryError } from '../../helper/error-helper'
-import { ApplicationError } from '../../types/error'
-import { SentenceSubmission } from '../../types/sentence-submission'
-import { UserClientVariant } from '../../../core/variants/user-client-variant'
+import { UnvalidatedSentence } from '../../core/sentences/types'
+import { SentencesForReviewRow } from '../../infrastructure/db/types'
+import Mysql, { getMySQLInstance } from '../../lib/model/db/mysql'
+import { createSentenceId } from '../../lib/utility'
+import { createSentenceRepositoryError } from '../helper/error-helper'
+import { ApplicationError } from '../types/error'
+import { SentenceSubmission } from '../types/sentence-submission'
+import { UserClientVariant } from '../../core/variants/user-client-variant'
 
 const mysql2 = require('mysql2/promise')
 

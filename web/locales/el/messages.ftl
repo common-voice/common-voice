@@ -1769,13 +1769,13 @@ bulk-sentences = Πολλαπλές προτάσεις
 sentence-domain-combobox-label = Τομέας πρότασης
 sentence-domain-select-placeholder = Επιλέξτε έως και τρεις τομείς
 # Sentence Domain dropdown option
-agriculture = Γεωργία
+agriculture_food = Γεωργία και Τρόφιμα
 # Sentence Domain dropdown option
-automotive = Αυτοκίνηση
+automotive_transport = Αυτοκίνητο και Μεταφορές
 # Sentence Domain dropdown option
 finance = Οικονομικά
 # Sentence Domain dropdown option
-food_service_retail = Φαγητό, εξυπηρέτηση και λιανική
+service_retail = Εξυπηρέτηση και λιανική
 # Sentence Domain dropdown option
 general = Γενικός
 # Sentence Domain dropdown option
@@ -1801,6 +1801,16 @@ sentence-variant-select-multiple-variants = Γενική γλώσσα/πολλα
 ca-algueres = Αλγερές
 pt-BR = Πορτογαλικά (Βραζιλία)
 pt-PT = Πορτογαλικά (Πορτογαλία)
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Κεντρική διάλεκτος
+sw-kibajuni = Κιμπατζούνι (KE) - Βόρεια διάλεκτος
+sw-kimrima = Kimrima (TZ) - Βόρεια διάλεκτος
+sw-kiunguja = Kiunguja (TZ) - Νότια διάλεκτος
+sw-kipemba = Kipemba (TZ) - Νότια διάλεκτος
+sw-kikae = Kimakunduchi/Kikae (TZ) - Νότια διάλεκτος
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

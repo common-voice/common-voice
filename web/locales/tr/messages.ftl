@@ -1741,13 +1741,13 @@ bulk-sentences = Toplu cümle
 sentence-domain-combobox-label = Cümlenin alanı
 sentence-domain-select-placeholder = En fazla üç alan seçin (isteğe bağlı)
 # Sentence Domain dropdown option
-agriculture = Tarım
+agriculture_food = Tarım ve gıda
 # Sentence Domain dropdown option
-automotive = Otomotiv
+automotive_transport = Otomotiv ve ulaşım
 # Sentence Domain dropdown option
 finance = Finans
 # Sentence Domain dropdown option
-food_service_retail = Yemek, Hizmet ve Alışveriş
+service_retail = Hizmet ve perakende
 # Sentence Domain dropdown option
 general = Genel
 # Sentence Domain dropdown option

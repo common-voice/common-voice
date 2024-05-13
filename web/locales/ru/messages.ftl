@@ -1800,13 +1800,13 @@ bulk-sentences = Много предложений
 sentence-domain-combobox-label = Домен предложений
 sentence-domain-select-placeholder = Выберите до трёх доменов
 # Sentence Domain dropdown option
-agriculture = Сельское хозяйство
+agriculture_food = Сельское хозяйство и продовольствие
 # Sentence Domain dropdown option
-automotive = Автопром
+automotive_transport = Автомобилестроение и транспорт
 # Sentence Domain dropdown option
 finance = Финансы
 # Sentence Domain dropdown option
-food_service_retail = Еда, услуги и шоппинг
+service_retail = Сфера услуг и розничная торговля
 # Sentence Domain dropdown option
 general = Основные
 # Sentence Domain dropdown option
