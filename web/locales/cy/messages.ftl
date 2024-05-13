@@ -469,6 +469,10 @@ help-variants = Angen cymorth gydag amrywiadau?
 help-variants-explanation = Mae amrywiadau yn ffurf benodol ar iaith - er enghraifft sy'n cael eu rhannu gan y rhai sy'n byw mewn ardal ddaearyddol neu gymuned. Weithiau mae'r rhain yn cael eu galw'n dafodieithoedd.
 help-sex-or-gender-changes = Angen help gyda'r newidiadau Rhyw neu Rywedd?
 help-sex-or-gender-changes-explanation = Rydym yn cynnig mwy o ddewisiadau i bobl o ran yr hyn y maen nhw'n ei ddweud wrthym am eu hunaniaeth o ran eu rhyw neu rywedd. Disgrifiwch eich hun yn y ffordd sy'n teimlo'n fwyaf naturiol i chi. <learnMoreLink>Darllen rhagor am ein hagwedd tuag at ryw a rhywedd.</learnMoreLink>
+variant-contribution-options-header = Dewisiadau Cyfraniad Amrywiol
+variant-contribution-help = Mae rhai amrywiadau a thafodieithoedd o fewn iaith neu deulu iaith yn wahanol iawn i'w gilydd. Os ydych chi'n cael trafferth cyfrannu o amgylch amrywiad penodol, gallwch chi newid eich dewisiadau yma.
+variant-contribution-option-1 = Dim ond dangos brawddegau a chlipiau o fy amrywiad i i mi
+variant-contribution-option-2 = Dangos i mi frawddegau a chlipiau o bob amrywiad o fewn fy iaith
 
 ## Profile - Email
 
@@ -1005,6 +1009,7 @@ target-segment-generic-card = Rydych yn cyfrannu at segment targed
 target-segment-first-banner = Helpwch i greu segment targed cyntaf Common Voice yn { $locale }
 target-segment-add-voice = Ychwanegwch Eich Llais
 target-segment-learn-more = Dysgu Rhagor
+change-preferences = Newid dewisiadau
 
 ## Contribution Nav Items
 
@@ -1868,13 +1873,13 @@ bulk-sentences = Brawddegau Lluosog
 sentence-domain-combobox-label = Parth Brawddeg
 sentence-domain-select-placeholder = Dewiswch hyd at dri pharth
 # Sentence Domain dropdown option
-agriculture = Amaethyddiaeth
+agriculture_food = Amaeth a Bwyd
 # Sentence Domain dropdown option
-automotive = Modurol
+automotive_transport = Modurol a Thrafnidiaeth
 # Sentence Domain dropdown option
 finance = Cyllid
 # Sentence Domain dropdown option
-food_service_retail = Bwyd, Gwasanaethau a Manwerthu
+service_retail = Gwasanaeth a Manwerthu
 # Sentence Domain dropdown option
 general = Cyffredinol
 # Sentence Domain dropdown option
