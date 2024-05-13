@@ -991,6 +991,7 @@ target-segment-generic-card = Přispíváte do cílového segmentu
 target-segment-first-banner = Pomozte dosáhnout prvního cílového segmentu Common Voice v jazyce { $locale }
 target-segment-add-voice = Přidejte svůj hlas
 target-segment-learn-more = Zjistit více
+change-preferences = Změnit předvolby
 
 ## Contribution Nav Items
 
