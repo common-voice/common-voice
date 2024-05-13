@@ -326,6 +326,8 @@ export default class DB {
   }
 
   private appendMetadataToSentence = async (sentences: Sentence[]) => {
+    if (sentences.length === 0) return []
+
     const sentenceIds = sentences.map(c => c.id);
 
     const sentenceVariants = await pipe(
