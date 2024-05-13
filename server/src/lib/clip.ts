@@ -348,6 +348,7 @@ export default class Clip {
   };
 
   private appendMetadata = async (clips: ClientClip[]) => {
+    if (clips.length === 0) return []
     const sentenceIds = clips.map(c => c.sentence.id);
 
     const sentenceVariants = await pipe(
