@@ -457,6 +457,10 @@ help-variants = Trjebaće pomoc za warianty?
 help-variants-explanation = Warianty su specifiska forma rěče - rěča so na přikład wot ludźi, kotřiž su we wěstym regionje abo zhromadźenstwje žiwi. Druhdy wone so dialekty mjenuja.
 help-sex-or-gender-changes = Trjebaće pomoc při měnjenju splaha abo splažneje identity?
 help-sex-or-gender-changes-explanation = Poskićujemy wjace móžnosćow, zo bychmy ludźom wjetšu wólbu wo tym dać, štož nam wo jich splahu abo splažnej identiće zdźěleja. Prošu wopisujće so, kak je najpřirodnišo za was. <learnMoreLink>Zhońće wjace wo našim wašnju postupowanja k splahej a splažnej identiće.</learnMoreLink>
+variant-contribution-options-header = Nastajenja přinošowanja za wariantu
+variant-contribution-help = Někotre warianty a dialekty rěče abo rěčneje swójby so jara jedna wot druheje rozeznawaja. Jeli problemy maće, so z wěstej wariantu zaběrać, móžeće swoje nastajenja tu změnić.
+variant-contribution-option-1 = Jenož sady a klipy mojeje warianty pokazać
+variant-contribution-option-2 = Sady a klipy wšěch wariantow mojeje rěče pokazać
 
 ## Profile - Email
 
