@@ -1762,13 +1762,13 @@ bulk-sentences = كۆپ جۈملە
 sentence-domain-combobox-label = جۈملە دائىرىسى
 sentence-domain-select-placeholder = كۆپ بولغاندا ئۈچ دائىرە تاللىنىدۇ
 # Sentence Domain dropdown option
-agriculture = دېھقانچىلىق
+agriculture_food = دېھقانچىلىق ۋە يېمەكلىك
 # Sentence Domain dropdown option
-automotive = ماشىنا
+automotive_transport = ئاپتوموبىل ۋە قاتناش
 # Sentence Domain dropdown option
 finance = ئىقتىساد
 # Sentence Domain dropdown option
-food_service_retail = يېمەكلىك، مۇلازىمەت ۋە پارچە سېتىش
+service_retail = مۇلازىمەت ۋە پارچە سېتىش
 # Sentence Domain dropdown option
 general = ئادەتتىكى
 # Sentence Domain dropdown option
@@ -1794,6 +1794,9 @@ sentence-variant-select-multiple-variants = ئادەتتىكى تىل / كۆپ �
 ca-algueres = ئالگېرىس
 ca-central = مەركىزى
 ca-balear = بالېر
+ca-valencia-tortosi = تورتوسى
+ca-valencia-central = مەركىزى ۋالېنسىيا
+ca-valencia-northern = شىمالىي ۋالېنسىيا
 pt-BR = پورتۇگالچە (بىرازىلىيە)
 pt-PT = پورتۇگالچە (پورتۇگالىيە)
 sw-kimvita = كىمۋىتا (كېنىيە) - مەركىزى شېۋە
