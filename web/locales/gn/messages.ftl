@@ -460,6 +460,8 @@ help-variants = Eikotevẽpa pytyvõ ñe’ẽ iñambuévape
 help-variants-explanation = Umi ñe’ẽambue ha’énte avei ñe’ẽ, techapyrãramo, oiporúva tapichakuéra oikóva peteĩ tekohápe. Ko’ãvape oñembohéra ñe’ẽambue.
 help-sex-or-gender-changes = Eñepytyvõukasépa Sexo térã Género moambuépe
 variant-contribution-options-header = Ikatuhápe guive eipytyvõ
+variant-contribution-option-1 = Ehechauka ñe’ẽjuaju año ha clip ambuegua
+variant-contribution-option-2 = Ehechauka ñe’ẽjuaju ha clip opaite ambuepy che ñe’ẽ rehegua
 
 ## Profile - Email
 
