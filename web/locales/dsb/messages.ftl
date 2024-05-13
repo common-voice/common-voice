@@ -457,6 +457,10 @@ help-variants = Trjebaśo pomoc za warianty?
 help-variants-explanation = Warianty su specifiska forma rěcy - powědaju se na pśikład wót luźi, kótarež su we wěstem regionje abo zgromaźeństwje žywe. Wótergi wóne se dialekty pomjenjuju.
 help-sex-or-gender-changes = Trjebaśo pomoc pśi změnjanju roda abo rodneje identity?
 help-sex-or-gender-changes-explanation = Póbitujomy wěcej móžnosćow, aby my ludam wětšu wólbu wó tom daś, což nam wó jich roźe abo rodnej identiśe k wěsći daju. Pšosym wopisujśo se, kak jo nejpśirodnjejše za was. <learnMoreLink>Zgóńśo wěcej wó našej wašni pśistupa k rodoju a rodnej identiśe.</learnMoreLink>
+variant-contribution-options-header = Nastajenja pśinosowanja za wariantu
+variant-contribution-help = Někotare warianty a dialekty rěcy abo rěcneje swójźby se wjelgin jadna wót drugeje rozeznawaju. Jolic problemy maśo, se z wěsteju wariantu zaběraś, móžośo swóje nastajenja how změniś.
+variant-contribution-option-1 = Jano sady a klipy mójeje warianty pokazaś
+variant-contribution-option-2 = Sady a klipy wšych wariantow mójeje rěcy pokazaś
 
 ## Profile - Email
 
@@ -928,6 +932,9 @@ listen-again-instruction = Wjelicne źěło! <playIcon></playIcon> Słuchajśo z
 listen-3rd-time-instruction = 2 zwónoźonej, <playIcon></playIcon> dalej tak!
 listen-last-time-instruction = <playIcon></playIcon> Slědny!
 listen-empty-state = Klipy su nam wujšli, kótarež se w toś tej rěcy pśeglěduja...
+listen-loading-error =
+    Njejsmy mógli awdioklipy za was za słuchanje wótwołaś.
+    Pšosym wopytajśo pózdźej hyšći raz.
 listen-abort-title = Pśeglědowanje klipow dokóńcyś?
 listen-abort-cancel = Z pśeglědowanim pókšacowaś
 listen-abort-confirm = Pśeglědowanje dokóńcyś
@@ -945,6 +952,7 @@ target-segment-generic-card = Pśinosujośo k celowemu segmentoju
 target-segment-first-banner = Pomagajśo prědny celowy segment Common Voice w { $locale } napóraś
 target-segment-add-voice = Pśidajśo swój głos
 target-segment-learn-more = Dalšne informacije
+change-preferences = Nastajenja změniś
 
 ## Contribution Nav Items
 
