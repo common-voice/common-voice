@@ -453,6 +453,10 @@ help-variants = Besoin d’aide avec les variantes linguistiques ?
 help-variants-explanation = Les variantes linguistiques sont une forme spécifique d’une langue, par exemple partagée par les personnes qui vivent dans une zone géographique ou une communauté particulière. Elles sont parfois appelées dialectes.
 help-sex-or-gender-changes = Besoin d’aide pour les changements liés au sexe ou au genre ?
 help-sex-or-gender-changes-explanation = Nous proposons davantage d’options pour offrir aux personnes plus de liberté pour indiquer leur sexe ou leur identité de genre. Vous êtes libres vous décrire de la manière qui vous semble la plus naturelle. <learnMoreLink>En savoir plus sur notre approche en ce qui concerne le sexe et le genre.</learnMoreLink>
+variant-contribution-options-header = Options de contribution pour les variantes
+variant-contribution-help = Certaines variantes et dialectes au sein d’une langue ou d’une famille de langues diffèrent grandement les uns des autres. Si vous avez du mal à vous adapter à une variante spécifique, vous avez la possibilité de modifier vos préférences ici.
+variant-contribution-option-1 = Afficher uniquement les phrases et les échantillons de ma variante
+variant-contribution-option-2 = Afficher les phrases et les échantillons de toutes les variantes de ma langue
 
 ## Profile - Email
 
@@ -962,6 +966,7 @@ target-segment-generic-card = Vous contribuez à un segment cible
 target-segment-first-banner = Aidez à créer le premier segment cible de Common Voice en { $locale }
 target-segment-add-voice = Donner de votre voix
 target-segment-learn-more = En savoir plus
+change-preferences = Modifier les préférences
 
 ## Contribution Nav Items
 
@@ -1719,7 +1724,7 @@ write-page-subtitle = Les phrases fournies ici seront ajoutées à un jeu de don
 sentence =
     .label = Phrase
 sentence-input-value = Saisissez votre phrase du domaine public ici
-citation-input-value = Source de votre phrase
+citation-input-placeholder = Spécifiez la source de votre phrase (obligatoire)
 citation =
     .label = Citation
 sc-write-submit-confirm = Je confirme que cette phrase est du <wikipediaLink>domaine public</wikipediaLink> et que j’ai la permission de l’envoyer.
@@ -1744,17 +1749,16 @@ single-sentence-submission = Envoi de phrase unique
 bulk-sentence-submission = Envoi de plusieurs phrases
 single-sentence = Phrase unique
 bulk-sentences = Plusieurs phrases
-sentence-domain-select =
-    .label = Domaine de la phrase
+sentence-domain-combobox-label = Domaine de la phrase
 sentence-domain-select-placeholder = Sélectionnez jusqu’à trois domaines
 # Sentence Domain dropdown option
-agriculture = Agriculture
+agriculture_food = Agriculture et agroalimentaire
 # Sentence Domain dropdown option
-automotive = Automobile
+automotive_transport = Automobile et transport
 # Sentence Domain dropdown option
 finance = Finance
 # Sentence Domain dropdown option
-food_service_retail = Nourriture, service et vente au détail
+service_retail = Services et vente au détail
 # Sentence Domain dropdown option
 general = Général
 # Sentence Domain dropdown option
@@ -1771,6 +1775,12 @@ nature_environment = Nature et environnement
 news_current_affairs = Actualités
 # Sentence Domain dropdown option
 technology_robotics = Technologie et robotique
+sentence-variant-select-label = Variante de phrase
+sentence-variant-select-placeholder = Sélectionnez une variante (facultatif)
+sentence-variant-select-multiple-variants = Généralités sur la langue / plusieurs variantes
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 

@@ -1,9 +1,11 @@
 import { Request, Response } from 'express'
+import { pipe } from 'fp-ts/lib/function'
+import * as Id from 'fp-ts/Identity'
 import { StatusCodes } from 'http-status-codes'
 import { GetSentencesForReviewQueryHandler } from '../../../application/sentences/use-case/query-handler/get-sentences-for-review-query-handler'
 import { GetSentencesForReviewQuery } from '../../../application/sentences/use-case/query-handler/query/get-sentences-for-review-query'
-import lazyCache from '../../../lib/lazy-cache'
-import { createHash } from '../../../infrastructure/crypto/crypto'
+import { fetchUserClientVariants } from '../../../application/repository/user-client-variants-repository'
+import { findSentencesForReviewInDb } from '../../../application/repository/sentences-repository'
 
 export default async (req: Request, res: Response) => {
   const query: GetSentencesForReviewQuery = {
@@ -11,13 +13,13 @@ export default async (req: Request, res: Response) => {
     clientId: req.client_id || '',
   }
 
-  const clientIdHash = createHash('sha256')(query.clientId)
+  const getSentencesForReview = pipe(
+    GetSentencesForReviewQueryHandler,
+    Id.ap(fetchUserClientVariants),
+    Id.ap(findSentencesForReviewInDb)
+  )
 
-  const result = await lazyCache(
-    `get-sentences-for-review-${clientIdHash}`,
-    GetSentencesForReviewQueryHandler(query),
-    60 * 1000
-  )()
+  const result = await getSentencesForReview(query)()
 
   return res.status(StatusCodes.OK).json({ pendingSentences: result })
 }

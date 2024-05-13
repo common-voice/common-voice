@@ -26,6 +26,7 @@ import {
   ArrowLeft,
   QuestionIcon,
 } from '../../ui/icons';
+import { Tag } from './tag';
 import { Button, StyledLink, LabeledCheckbox, LinkButton } from '../../ui/ui';
 import { PrimaryButton } from '../../primary-buttons/primary-buttons';
 import ShareModal from '../../share-modal/share-modal';
@@ -420,7 +421,15 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                         opacity: i < activeSentenceIndex ? 0 : 1,
                       }}
                       data-testid={`card-${i + 1}`}>
-                      <div style={{ margin: 'auto', width: '100%' }}>
+                      <div
+                        style={{
+                          width: '100%',
+                          height: '100%',
+                          display: 'flex',
+                          flexDirection: 'column',
+                          alignItems: 'center',
+                          justifyContent: 'space-evenly',
+                        }}>
                         {sentence?.text}
                         {sentence?.taxonomy ? (
                           <div className="sentence-taxonomy">
@@ -438,6 +447,9 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                             </StyledLink>
                           </div>
                         ) : null}
+                        {sentence?.variant && (
+                          <Tag text={getString(sentence.variant.tag)} />
+                        )}
                       </div>
                     </div>
                   );

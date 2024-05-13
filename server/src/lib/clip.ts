@@ -16,7 +16,7 @@ import { streamUploadToBucket } from '../infrastructure/storage/storage';
 import { pipe } from 'fp-ts/lib/function';
 import { option as O, taskEither as TE, task as T, identity as Id } from 'fp-ts';
 import { Clip as ClientClip } from 'common';
-import { FindVariantsBySentenceIdsResult, findVariantsBySentenceIdsInDb } from '../application/sentences/repository/variant-repository';
+import { FindVariantsBySentenceIdsResult, findVariantsBySentenceIdsInDb } from '../application/repository/variant-repository';
 
 const { promisify } = require('util');
 const Transcoder = require('stream-transcoder');
@@ -336,6 +336,7 @@ export default class Clip {
     response: Response
   ): Promise<void> => {
     const { client_id, params } = request;
+
     const count = Number(request.query.count) || 1;
     const clips = await this.bucket.getRandomClips(
       client_id,
@@ -347,12 +348,16 @@ export default class Clip {
   };
 
   private appendMetadata = async (clips: ClientClip[]) => {
+    if (clips.length === 0) return []
     const sentenceIds = clips.map(c => c.sentence.id);
 
     const sentenceVariants = await pipe(
       sentenceIds,
       findVariantsBySentenceIdsInDb,
-      TE.getOrElse(() => T.of({} as FindVariantsBySentenceIdsResult))
+      TE.getOrElse(err => {
+        console.log(err)
+        return T.of({} as FindVariantsBySentenceIdsResult)
+      })
     )()
 
     for (const clip of clips) {

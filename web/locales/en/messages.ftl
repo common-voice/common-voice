@@ -34,7 +34,9 @@ arn = Mapudungun
 as = Assamese
 ast = Asturian
 az = Azerbaijani
+azz = Highland Puebla Nahuatl
 ba = Bashkir
+bal = Balochi
 bas = Basaa
 be = Belarusian
 bg = Bulgarian
@@ -56,6 +58,7 @@ cv = Chuvash
 cy = Welsh
 da = Danish
 dag = Dagbani
+dav = Kidaw'ida
 de = German
 dsb = Sorbian, Lower
 dv = Dhivehi
@@ -78,6 +81,7 @@ ga-IE = Irish
 gl = Galician
 gn = Guarani
 gom = Goan Konkani
+gos = Gronings
 gu-IN = Gujarati
 guc = Wayuunaiki
 ha = Hausa
@@ -106,6 +110,7 @@ kab = Kabyle
 kbd = Kabardian
 ki = Kikuyu
 kk = Kazakh
+kln = Kalenjin
 km = Khmer
 kmr = Kurmanji Kurdish
 kn = Kannada
@@ -121,6 +126,7 @@ ln = Lingala
 lo = Lao
 lt = Lithuanian
 ltg = Latgalian
+luo = Dholuo
 lv = Latvian
 lzz = Laz
 mai = Maithili
@@ -147,6 +153,7 @@ nhi = Western Sierra Puebla Nahuatl
 nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
+nqo = NKo
 nr = IsiNdebele (South)
 nso = Northern Sotho
 ny = Chinyanja
@@ -1017,6 +1024,7 @@ target-segment-generic-card = You’re contributing to a target segment
 target-segment-first-banner = Help create Common Voice’s first target segment in { $locale }
 target-segment-add-voice = Add Your Voice
 target-segment-learn-more = Learn More
+change-preferences = Change preferences
 
 ## Contribution Nav Items
 contribute-voice-collection-nav-header = Voice Collection
@@ -1778,13 +1786,13 @@ bulk-sentences = Bulk Sentences
 sentence-domain-combobox-label = Sentence Domain
 sentence-domain-select-placeholder = Select up to three domains (optional)
 # Sentence Domain dropdown option
-agriculture = Agriculture
+agriculture_food = Agriculture and Food
 # Sentence Domain dropdown option
-automotive = Automotive
+automotive_transport = Automotive and Transport
 # Sentence Domain dropdown option
 finance = Finance
 # Sentence Domain dropdown option
-food_service_retail = Food, Service and Retail
+service_retail = Service and Retail
 # Sentence Domain dropdown option
 general = General
 # Sentence Domain dropdown option

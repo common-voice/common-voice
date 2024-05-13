@@ -1845,13 +1845,13 @@ bulk-sentences = Bulkzinnen
 sentence-domain-combobox-label = Zinsdomein
 sentence-domain-select-placeholder = Selecteer maximaal drie domeinen
 # Sentence Domain dropdown option
-agriculture = Landbouw
+agriculture_food = Landbouw en voeding
 # Sentence Domain dropdown option
-automotive = Automotive
+automotive_transport = Automotive en transport
 # Sentence Domain dropdown option
 finance = Financieel
 # Sentence Domain dropdown option
-food_service_retail = Voedsel, service en detailhandel
+service_retail = Service en detailhandel
 # Sentence Domain dropdown option
 general = Algemeen
 # Sentence Domain dropdown option

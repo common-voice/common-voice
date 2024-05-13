@@ -449,6 +449,10 @@ help-variants = Hai bisogno di aiuto con le varianti?
 help-variants-explanation = Le varianti sono una forma specifica di una lingua, ad esempio condivisa da coloro che vivono in determinate aree geografiche o comunità. A volte queste varianti vengono chiamate dialetti.
 help-sex-or-gender-changes = Hai bisogno di aiuto per le modifiche relative a sesso o genere?
 help-sex-or-gender-changes-explanation = Abbiamo deciso di offrire più opzioni per garantire alle persone maggiore scelta nel definire il proprio sesso o la propria identità di genere. Descriviti nel modo che ritieni più naturale. <learnMoreLink>Ulteriori informazioni sul nostro approccio a sesso e genere.</learnMoreLink>
+variant-contribution-options-header = Opzioni per contribuzione e varianti
+variant-contribution-help = Alcune varianti e dialetti all’interno di una lingua o famiglia linguistica sono molto diversi tra loro. Se hai problemi a interagire con una particolare variante, puoi modificare le tue preferenze qui.
+variant-contribution-option-1 = Mostra solo frasi e registrazioni nella mia variante
+variant-contribution-option-2 = Mostra frasi e registrazioni in tutte le varianti per la mia lingua
 
 ## Profile - Email
 
@@ -963,6 +967,7 @@ target-segment-generic-card = Stai contribuendo a un segmento obiettivo
 target-segment-first-banner = Aiuta a creare il primo segmento obiettivo di Common Voice in { $locale }
 target-segment-add-voice = Aggiungi la tua voce
 target-segment-learn-more = Scopri di più
+change-preferences = Modifica le preferenze
 
 ## Contribution Nav Items
 
@@ -1742,13 +1747,13 @@ bulk-sentences = Frasi in blocco
 sentence-domain-combobox-label = Dominio della frase
 sentence-domain-select-placeholder = Scegli fino a 3 domini
 # Sentence Domain dropdown option
-agriculture = Agricoltura
+agriculture_food = Agricoltura e alimentazione
 # Sentence Domain dropdown option
-automotive = Automobili
+automotive_transport = Settore automobilistico e trasporti
 # Sentence Domain dropdown option
 finance = Finanza
 # Sentence Domain dropdown option
-food_service_retail = Cibo, servizi e vendita al dettaglio
+service_retail = Servizi e vendita al dettaglio
 # Sentence Domain dropdown option
 general = Generale
 # Sentence Domain dropdown option

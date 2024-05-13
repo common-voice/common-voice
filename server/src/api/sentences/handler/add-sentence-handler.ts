@@ -15,9 +15,9 @@ import { validateSentence } from '../../../core/sentences'
 import {
   findDomainIdByNameInDb,
   saveSentenceInDb,
-} from '../../../application/sentences/repository/sentences-repository'
-import { findVariantByTagInDb } from '../../../application/sentences/repository/variant-repository'
-import { findLocaleByNameInDb } from '../../../application/sentences/repository/locale-repository'
+} from '../../../application/repository/sentences-repository'
+import { findVariantByTagInDb } from '../../../application/repository/variant-repository'
+import { findLocaleByNameInDb } from '../../../application/repository/locale-repository'
 
 export default async (req: Request, res: Response) => {
   const { sentence, localeName, source, domains, variant } = req.body

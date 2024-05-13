@@ -1,6 +1,6 @@
 import { pipe } from 'fp-ts/lib/function'
 import { taskEither as TE } from 'fp-ts'
-import { queryDb } from '../../../infrastructure/db/mysql'
+import { queryDb } from '../../infrastructure/db/mysql'
 
 export const fetchUserClientEmailById = (id: string) =>
   pipe(
