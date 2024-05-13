@@ -932,6 +932,9 @@ listen-again-instruction = Wulkotne dźěło! <playIcon></playIcon> Słuchajće 
 listen-3rd-time-instruction = 2 sčinjenej, <playIcon></playIcon> dale tak!
 listen-last-time-instruction = <playIcon></playIcon> Poslednje!
 listen-empty-state = Klipy su nam wušli, kotrež so w tutej rěči přepruwuja...
+listen-loading-error =
+    Njemóžachmy awdioklipy za was za słuchanje wotwołać.
+    Prošu spytajće pozdźišo hišće raz.
 listen-abort-title = Přepruwowanje klipow dokónčić?
 listen-abort-cancel = Z přepruwowanjom pokročować
 listen-abort-confirm = Přepruwowanje dokónčić
@@ -949,6 +952,7 @@ target-segment-generic-card = Přinošujeće k cilowemu segmentej
 target-segment-first-banner = Pomhajće prěni cilowy segment Common Voice w { $locale } wutworić
 target-segment-add-voice = Přidajće swój hłós
 target-segment-learn-more = Dalše informacije
+change-preferences = Nastajenja změnić
 
 ## Contribution Nav Items
 
