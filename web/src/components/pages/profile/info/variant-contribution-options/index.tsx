@@ -79,8 +79,8 @@ export const VariantContributionOptions = ({
             contentClass="radio-content"
             labelClass="radio-label"
             name={`${locale}-variant-contribution-option`}
-            value="my-variant"
-            checked={isPreferredOption === true}
+            value="all-variants"
+            checked={isPreferredOption === false}
             onChange={handleChange}>
             <Localized id="variant-contribution-option-1">
               <span />
@@ -90,8 +90,8 @@ export const VariantContributionOptions = ({
             contentClass="radio-content"
             labelClass="radio-label"
             name={`${locale}-variant-contribution-option`}
-            value="all-variants"
-            checked={isPreferredOption === false}
+            value="my-variant"
+            checked={isPreferredOption === true}
             onChange={handleChange}>
             <Localized id="variant-contribution-option-2">
               <span />
@@ -99,7 +99,7 @@ export const VariantContributionOptions = ({
           </Radio>
         </div>
 
-        <SentenceVariantWarning />
+        {isPreferredOption && <SentenceVariantWarning />}
       </div>
     </div>
   )

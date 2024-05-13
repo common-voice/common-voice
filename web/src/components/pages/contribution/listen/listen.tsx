@@ -8,6 +8,7 @@ import { Clip as ClipType } from 'common';
 import { trackListening, getTrackClass } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
+import { User } from '../../../../stores/user';
 import {
   AbortContributionModalActions,
   AbortContributionModalStatus,
@@ -62,6 +63,7 @@ interface PropsFromState {
   isLoading: boolean;
   hasLoadingError: boolean;
   locale: Locale.State;
+  user: User.State;
   showFirstContributionToast: boolean;
   hasEarnedSessionToast: boolean;
   showFirstStreakToast: boolean;
@@ -499,6 +501,7 @@ const mapStateToProps = (state: StateTree) => {
     challengeEnded,
     api,
     locale: state.locale,
+    user: state.user,
   };
 };
 
