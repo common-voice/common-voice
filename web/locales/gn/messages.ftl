@@ -459,6 +459,7 @@ help-accent-explanation = Ne myanduhe ha’e pe mba’eichaitépa embo’ayvu pe
 help-variants = Eikotevẽpa pytyvõ ñe’ẽ iñambuévape
 help-variants-explanation = Umi ñe’ẽambue ha’énte avei ñe’ẽ, techapyrãramo, oiporúva tapichakuéra oikóva peteĩ tekohápe. Ko’ãvape oñembohéra ñe’ẽambue.
 help-sex-or-gender-changes = Eñepytyvõukasépa Sexo térã Género moambuépe
+variant-contribution-options-header = Ikatuhápe guive eipytyvõ
 
 ## Profile - Email
 
@@ -989,6 +990,7 @@ target-segment-generic-card = Eipytyvõ peteĩ atyvore ejaposévape
 target-segment-first-banner = Eipytyvõmive emoheñóivo Common Voice ñe’ẽpehẽ rupytyrã peteĩha { $locale }me
 target-segment-add-voice = Eme’ẽ Nde Ayvu
 target-segment-learn-more = Kuaave
+change-preferences = Emoambue erohoryvéva
 
 ## Contribution Nav Items
 
@@ -1761,13 +1763,13 @@ bulk-sentences = Heta ñe’ẽjoaju
 sentence-domain-combobox-label = Ñe’ẽjuaju rendatee
 sentence-domain-select-placeholder = Eiporavo mbohapy tendatee peve
 # Sentence Domain dropdown option
-agriculture = Temitỹmby
+agriculture_food = Ñemitỹkuaa ha Hi’upyrã
 # Sentence Domain dropdown option
-automotive = Mba’yrumỹi
+automotive_transport = Mba’yruguata ha Mba’eguaraha
 # Sentence Domain dropdown option
 finance = Viruporukuaa
 # Sentence Domain dropdown option
-food_service_retail = Jekarurã, mba’eporu ha ñevende sa’igua
+service_retail = Mba’eporu ha ñevende sa’igua
 # Sentence Domain dropdown option
 general = Tuichakue
 # Sentence Domain dropdown option
