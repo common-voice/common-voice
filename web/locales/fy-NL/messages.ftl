@@ -461,6 +461,10 @@ help-variants = Help nedich mei farianten?
 help-variants-explanation = Farianten binne in spesifike foarm fan in taal – bygelyks sprutsen troch minsken dy’t yn in gebiet of mienskip wenje. Somtiden wurde dit dialekten neamd.
 help-sex-or-gender-changes = Help nedich mei de geslachts- of genderwizigingen?
 help-sex-or-gender-changes-explanation = Wy biede mear opsjes te jaan minsken mear kar te jaan yn wat se ús fertelle oer harren geslacht of genderidenteit. Beskriuw josels op de manier dy't foar jo it meast natuerlik fielt. <learnMoreLink>Mear ynfo oer ús oanpak fan geslacht en gender.</learnMoreLink>
+variant-contribution-options-header = Opsjes foar fariantbydrage
+variant-contribution-help = Guon farianten en dialekten binnen in taal- of taalfamylje ferskille hiel bot fan inoar. As jo problemen hawwe om mei in bepaalde fariant, kinne jo jo foarkarren hjir wizigje.
+variant-contribution-option-1 = Allinnich sinnen en fragminten út myn fariant toane
+variant-contribution-option-2 = My sinnen en fragminten fan alle farianten yn myn taal toane
 
 ## Profile - Email
 
@@ -992,6 +996,7 @@ target-segment-generic-card = Jo drage by oan in doelsegmint
 target-segment-first-banner = Help by it meitsjen fan it earste doelsegmint yn it { $locale } fan Common Voice
 target-segment-add-voice = Jo stim tafoegje
 target-segment-learn-more = Mear ynfo
+change-preferences = Foarkarren wizigje
 
 ## Contribution Nav Items
 
@@ -1854,13 +1859,13 @@ bulk-sentences = Bulksinnen
 sentence-domain-combobox-label = Sinsdomein
 sentence-domain-select-placeholder = Selektearje maksimaal trije domeinen
 # Sentence Domain dropdown option
-agriculture = Lânbou
+agriculture_food = Lânbou en iten
 # Sentence Domain dropdown option
-automotive = Automotive
+automotive_transport = Automotive en transport
 # Sentence Domain dropdown option
 finance = Finansjeel
 # Sentence Domain dropdown option
-food_service_retail = Iten, tsjinsten en detailhannel
+service_retail = Service en detailhannel
 # Sentence Domain dropdown option
 general = Algemien
 # Sentence Domain dropdown option
