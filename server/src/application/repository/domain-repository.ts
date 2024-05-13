@@ -1,10 +1,10 @@
 import * as TE from 'fp-ts/TaskEither'
-import { ApplicationError } from '../../types/error'
-import { Domain, domainDescriptionMap } from '../../../core/domains/domain'
+import { ApplicationError } from '../types/error'
+import { Domain, domainDescriptionMap } from '../../core/domains/domain'
 import { pipe } from 'fp-ts/lib/function'
-import { lazyQueryDb } from '../../../infrastructure/db/mysql'
-import { DAY } from '../../../infrastructure/redis/redis'
-import { createDatabaseError } from '../../helper/error-helper'
+import { lazyQueryDb } from '../../infrastructure/db/mysql'
+import { DAY } from '../../infrastructure/redis/redis'
+import { createDatabaseError } from '../helper/error-helper'
 import { SentenceDomain } from 'common'
 
 export type FetchSentenceDomains = () => TE.TaskEither<

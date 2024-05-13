@@ -1784,13 +1784,13 @@ bulk-sentences = Viaceré vety
 sentence-domain-combobox-label = Zatriedenie vety
 sentence-domain-select-placeholder = Môžete zvoliť až tri zatriedenia
 # Sentence Domain dropdown option
-agriculture = Poľnohospodárstvo
+agriculture_food = Poľnohospodárstvo a potraviny
 # Sentence Domain dropdown option
-automotive = Automobilový priemysel
+automotive_transport = Automobilový priemysel a doprava
 # Sentence Domain dropdown option
 finance = Financie
 # Sentence Domain dropdown option
-food_service_retail = Stravovanie, služby a maloobchod
+service_retail = Služby a maloobchod
 # Sentence Domain dropdown option
 general = Všeobecné
 # Sentence Domain dropdown option

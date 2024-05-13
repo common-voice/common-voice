@@ -50,17 +50,17 @@ export const sentenceDomainDescription = [
 export type SentenceDomainDescription = typeof sentenceDomainDescription[number]
 
 export const sentenceDomains = [
-  'general',
-  'agriculture',
-  'automotive',
+  'agriculture_food',
+  'automotive_transport',
   'finance',
-  'food_service_retail',
+  'general',
   'healthcare',
   'history_law_government',
   'language_fundamentals',
   'media_entertainment',
   'nature_environment',
   'news_current_affairs',
+  'service_retail',
   'technology_robotics',
 ] as const
 

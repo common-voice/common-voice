@@ -1693,7 +1693,6 @@ write-page-subtitle = 此处贡献的语句将被添加到采用 cc-0 许可证�
 sentence =
     .label = 语句
 sentence-input-value = 请在此输入您的公有领域语句
-citation-input-value = 语句的来源
 citation =
     .label = 引用
 sc-write-submit-confirm = 我确认这句话以<wikipediaLink>公有领域</wikipediaLink>授权并且我有权上传。
@@ -1718,17 +1717,10 @@ single-sentence-submission = 提交单句
 bulk-sentence-submission = 批量提交语句
 single-sentence = 单句
 bulk-sentences = 批量语句
-sentence-domain-select =
-    .label = 语句领域
+sentence-domain-combobox-label = 语句领域
 sentence-domain-select-placeholder = 最多选择三个领域
 # Sentence Domain dropdown option
-agriculture = 农业
-# Sentence Domain dropdown option
-automotive = 汽车
-# Sentence Domain dropdown option
 finance = 金融
-# Sentence Domain dropdown option
-food_service_retail = 餐饮、服务与零售
 # Sentence Domain dropdown option
 general = 常规
 # Sentence Domain dropdown option
@@ -1745,6 +1737,11 @@ nature_environment = 自然与环境
 news_current_affairs = 新闻与时事
 # Sentence Domain dropdown option
 technology_robotics = 技术与机器人
+sentence-variant-select-label = 语句变体
+sentence-variant-select-placeholder = 选择一个变体（非必选）
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 

@@ -695,6 +695,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Emoñe’ẽve
 ## How is Common Voice funded
 
 about-playbook-how-funded = ¿Mba’éicha ivirureko Common Voice?
+about-playbook-how-funded-content-2 = Hetaiterei viru tekotevẽ ñeñongatu ha mba’ekuaarã aty ñemoherakuã, pyendavusu moporãve ha emongu’e <africaMradiLink>tembiaporape tekohagua</africaMradiLink>.
 
 ## Glossary
 
@@ -824,6 +825,7 @@ dataset-metadata-sex = Meña
 dataset-metadata-age = Ary
 donate-modal-message = ¡Ne mba’ekuaarã aty oguejyhína!
 dataset-donate-modal-heading = Eikuaápa…
+donate-modal-explanation-1 = ¿Ohupyty peteĩ sua dólar arýpe oñembyaty hag̃ua mba’ekuaarã aty ha pyendavusu moporãve umi 100 tekoaty ñe’ẽnguéra rehegua ojokupytýva ojejapóva rehe?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Emomba’érõ mba’ekuaarã ijuruja ha ogueroikéva, ¡embojopói ko árape!</bold>
 
@@ -1692,6 +1694,7 @@ public-domain-explanation-2 = Umi ñe’ẽjuaju iporãva oñemoheñói hag̃ua 
 public-domain-explanation-3 = Emoheñói umi ñe’ẽjuaju ipyahu ha ojeporúva, neaño térã neangirũ térã eñe’ẽmemeha ndive, techapyrãrõ, peteĩ ‘jehai guasu’ ndive
 public-domain-explanation-4 = Eñe’ẽ apohare, ñoha’ãnga’apoha térã haihára ndive ha eporandu chupekuéra nome’ẽséipa hembiapokue opavave oipukuaa hag̃uáicha.
 public-domain-explanation-5 = Moñe’ẽrã ndoguerekovéimava apohára derécho; techapyrãramo, opavave aranduka ojehaiva’ekue ary 1920 mboyve.
+public-domain-explanation-6 = Eñe’ẽ tetã rekuái, atyguasu viru’ỹgua térã atyguasu momaranduha ndive ojehecha hag̃ua tetepy ñandutigua, marandu’i térã ambue tetepy ikatu omba’apo tendatee opavave oiporukuaávape
 citing-sentences-explanation-1 = Ehaíkena kuaaukaha rohechajeykuaa hag̃ua ñe’ẽjuajukuéra ha’épa opavave oiporukuaáva ha ani oñemoĩ mba’eapohare derécho.
 citing-sentences-subheader-websites = Ñanduti renda
 citing-sentences-subheader-websites-explanation = Emoingekuaa ñanduti renda, techapyrã, "Common Voice - https://commonvoice.mozilla.org/"
@@ -1715,6 +1718,7 @@ adding-sentences-subheader-punctuation = Mbopapapy
 adding-sentences-subheader-punctuation-explanation = Umi ta’ãnga’i ha ñemokyta oñemoingeva’erã tekotevẽ añetetéramonte. Techapyrã, oikéramo pe puso inglés ñe’ẽme ikatúva “don’t” ha “we’re” ha toñemoĩ moñe’ẽrã ñepyrũguápe, hákatu hasy oikotevẽ hag̃ua ko’ã ta’ãnga’i rehe ha’ẽva “@” térã “#.”
 adding-sentences-subheader-special-characters = Jehairã Jeporavokuaa ha Tai Pytaguáva
 adding-sentences-subheader-special-characters-explanation-1 = Kuatiahai oikova’erã ñe’ẽ ojeporúvape. Techapyrã, “ж” ha’e tai Rusia ñe’ẽ achegetýpe, hákatu araka’eve ndojeporúiva inglés ñe’ẽme ha, upévare, nosẽiva’erã mba’evéichagua moñe’ẽrã inglés ñe’ẽme.
+adding-sentences-subheader-special-characters-explanation-2 = Ñe’ẽnguéra orekokuaa imbojojahatee ñemoneĩrã tekotevẽva oñemoñe’ẽasa jave. Ndaipóriramo marandurenda ñemoneĩrã ha’etéva peteĩ ñe’ẽme g̃uarã, mbojojaha inglés pegua ohecháta pytyvõharakuéra.
 adding-sentences-subheader-offensive-content = Ñe’ẽreity Ivaíva
 reviewing-sentences-explanation-1 = Pe ñe’ẽjuaju oiko hekopetéramo, eikutu pe votõ "Moneĩ".
 reviewing-sentences-explanation-2 = Pe ñe’ẽjuaju ndoikóiramo hekopete, eikutu pe votõ "Nahániri".
@@ -1729,6 +1733,7 @@ write-page-subtitle = Umi ñe’ẽjuaju jehupipyre ojuajúta mba’ekuaarã aty
 sentence =
     .label = Ñe’ẽjoaju
 sentence-input-value = Ehai ko’ápe ne ñe’ẽjuaju opavave oiporukuaáva
+citation-input-placeholder = Ñe’ẽjuaju reñoiha rehegua (katuete)
 citation =
     .label = Jehechauka
 sc-write-submit-confirm = Amoneĩ ko ñe’ẽjuaju ha’eha <wikipediaLink>opavave oiporukuaáva</wikipediaLink> ha areko ñemoneĩ ahupi hag̃ua.
@@ -1781,6 +1786,7 @@ news_current_affairs = Marandu ha Ag̃aguáva
 technology_robotics = Tembiporupyahu ha Robótica
 sentence-variant-select-label = Ñe’ẽjuaju ambuepy
 sentence-variant-select-placeholder = Eiporavo ambuepy (ejaposérõ)
+sentence-variant-select-multiple-variants = Ñe’ẽ tuichaháicha / heta iñambueháicha
 
 ## LANGUAGE VARIANT CODES
 
@@ -1802,8 +1808,18 @@ cy-southeas = Gales suroeste-gua
 cy-wladfa = Gales Patagonia-gua
 pt-BR = Portugués (Brasil)
 pt-PT = Portugués (Portugal)
+sw-sanifu = Suajili ypyguáva (EA)
+sw-barake = Suajili Kenia ñe’ẽ
+sw-baratz = Suajili Tanzania ñe’ẽ
 sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Ñe’ẽ guasu
+sw-kibajuni = Kibajuni (KE) - Ñe’ẽ yvate gotyogua
+sw-kimrima = Kimrima (TZ) - Ñe’ẽ yvate gotyogua
+sw-kiunguja = Kiunguja (TZ) - Ñe’ẽ yvy gotyogua
+sw-kipemba = Kipemba (TZ) - Ñe’ẽ yvy gotyogua
+sw-kikae = Kimakunduchi/Kikae (TZ) - Ñe’ẽ yvy gotyogua
 zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Atlas Central Tamazight)
 zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
