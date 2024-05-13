@@ -1218,7 +1218,7 @@ export default class DB {
   async getVariants(client_id: string, locale?: string) {
     const [variants] = await this.mysql.query(
       `
-      SELECT name as lang, variant_token AS token, v.id AS variant_id, variant_name FROM variants v
+      SELECT name as lang, variant_token AS tag, v.id AS variant_id, variant_name FROM variants v
       LEFT JOIN locales ON v.locale_id = locales.id
        ${locale ? 'WHERE locale_id = ?' : ''}
       `,
@@ -1234,7 +1234,7 @@ export default class DB {
 
       const variant = {
         id: curr.variant_id,
-        token: curr.token,
+        tag: curr.tag,
         name: curr.variant_name,
       };
 
