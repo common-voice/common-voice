@@ -466,6 +466,10 @@ help-variants = Potrebujete pomoc s variantmi?
 help-variants-explanation = Varianty sú špecifickou formou jazyka – napríklad zdieľané ľuďmi žijúcimi v určitej geografii alebo komunite. Niekedy sa im hovorí dialekty.
 help-sex-or-gender-changes = Potrebujete pomoc s definovaním pohlavia alebo rodu?
 help-sex-or-gender-changes-explanation = Ponúkame viac možností, ako dať ľuďom väčší výber v tom, čo nám hovoria o svojom pohlaví alebo rodovej identite. Opíšte sa tak, ako je to pre vás najprirodzenejšie. <learnMoreLink>Ďalšie informácie o našom prístupe k pohlaviu a rodu.</learnMoreLink>
+variant-contribution-options-header = Predvoľby variantov jazyka
+variant-contribution-help = Niektoré varianty a dialekty v rámci jazyka alebo jazykovej rodiny sa navzájom veľmi líšia. Ak máte problém zapojiť sa do konkrétneho variantu, tu môžete zmeniť svoje predvoľby.
+variant-contribution-option-1 = Zobrazovať vety a klipy iba z môjho variantu
+variant-contribution-option-2 = Zobrazovať vety a klipy zo všetkých variantov v rámci môjho jazyka
 
 ## Profile - Email
 
@@ -984,6 +988,7 @@ target-segment-generic-card = Prispievate do cieľového segmentu
 target-segment-first-banner = Pomôžte vytvoriť prvý cieľový segment Common Voice v jazyku { $locale }
 target-segment-add-voice = Pridajte svoj hlas
 target-segment-learn-more = Ďalšie informácie
+change-preferences = Zmeniť nastavenie
 
 ## Contribution Nav Items
 
