@@ -453,6 +453,7 @@ help-variants = Besoin d’aide avec les variantes linguistiques ?
 help-variants-explanation = Les variantes linguistiques sont une forme spécifique d’une langue, par exemple partagée par les personnes qui vivent dans une zone géographique ou une communauté particulière. Elles sont parfois appelées dialectes.
 help-sex-or-gender-changes = Besoin d’aide pour les changements liés au sexe ou au genre ?
 help-sex-or-gender-changes-explanation = Nous proposons davantage d’options pour offrir aux personnes plus de liberté pour indiquer leur sexe ou leur identité de genre. Vous êtes libres vous décrire de la manière qui vous semble la plus naturelle. <learnMoreLink>En savoir plus sur notre approche en ce qui concerne le sexe et le genre.</learnMoreLink>
+variant-contribution-options-header = Options de contribution pour les variantes
 variant-contribution-help = Certaines variantes et dialectes au sein d’une langue ou d’une famille de langues diffèrent grandement les uns des autres. Si vous avez du mal à vous adapter à une variante spécifique, vous avez la possibilité de modifier vos préférences ici.
 variant-contribution-option-1 = Afficher uniquement les phrases et les échantillons de ma variante
 variant-contribution-option-2 = Afficher les phrases et les échantillons de toutes les variantes de ma langue
