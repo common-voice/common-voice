@@ -1009,6 +1009,7 @@ target-segment-generic-card = You’re contributing to a target segment
 target-segment-first-banner = Help create Common Voice’s first target segment in { $locale }
 target-segment-add-voice = Add Your Voice
 target-segment-learn-more = Learn More
+change-preferences = Change preferences
 
 ## Contribution Nav Items
 contribute-voice-collection-nav-header = Voice Collection
