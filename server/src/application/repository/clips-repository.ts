@@ -5,7 +5,7 @@ import { ApplicationError } from '../types/error'
 import { DBClip } from '../../lib/model/db/tables/clip-table'
 import { pipe } from 'fp-ts/lib/function'
 import { lazyQueryDb, queryDb } from '../../infrastructure/db/mysql'
-import { HOUR } from '../../infrastructure/redis/redis'
+import { MINUTE } from '../../infrastructure/redis/redis'
 import { createDatabaseError } from '../helper/error-helper'
 
 const VARIANT_CLIPS_LIMIT = 10000
@@ -16,7 +16,7 @@ export type FetchVariantClips = (
 export const fetchVariantClipsFromDB: FetchVariantClips = (variant: Variant) =>
   pipe(
     [variant.id, variant.id, VARIANT_CLIPS_LIMIT],
-    lazyQueryDb(`fetch-variant-clips-${variant.name}`)(HOUR)(
+    lazyQueryDb(`fetch-variant-clips-${variant.name}`)(MINUTE)(
       `
         SELECT c.id, c.client_id, c.path, c.sentence, c.original_sentence_id
         FROM clips c
