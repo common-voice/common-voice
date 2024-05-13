@@ -298,7 +298,6 @@ class ListenPage extends React.Component<Props, State> {
 
   render() {
     const { isLoading, hasLoadingError, user, locale } = this.props;
-    console.log({ user, locale });
     const { clips, hasPlayed, hasPlayedSome, isPlaying, isSubmitted } =
       this.state;
     const clipIndex = this.getClipIndex();
