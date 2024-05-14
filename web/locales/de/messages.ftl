@@ -455,6 +455,8 @@ variant-contribution-options-header = Optionen für das Beitragen von Varianten
 variant-contribution-help = Einige Varianten und Dialekte innerhalb einer Sprache oder Sprachfamilie unterscheiden sich erheblich. Wenn Sie Probleme mit einer bestimmten Variante haben, können Sie Ihre Einstellungen hier ändern.
 variant-contribution-option-1 = Nur Sätze und Clips von meiner Variante anzeigen
 variant-contribution-option-2 = Sätze und Clips von allen Varianten in meiner Sprache anzeigen
+variant-contribution-warning-title = ⓘ Noch nicht alle Sätze und Clips haben Variante-Tags!
+variant-contribution-warning-subtitle = Wenn Sie Probleme beim Mitwirken haben, können Sie jederzeit wieder alle Inhalte für Ihre Sprache sehen.
 
 ## Profile - Email
 
@@ -966,6 +968,7 @@ listen-again-instruction = Gut so! <playIcon></playIcon> Machen Sie einfach weit
 listen-3rd-time-instruction = Zwei erledigt, <playIcon></playIcon> weiter so!
 listen-last-time-instruction = <playIcon></playIcon> Einmal noch!
 listen-empty-state = Es gibt aktuell keine Aufzeichnungen – laden Sie die Seite neu oder versuchen Sie es später erneut.
+listen-empty-state-variants = Ihre Sprachvariante hat möglicherweise keine Clips mehr! Wenn Sie sich wohl fühlen, können Sie Ihre Einstellungen ändern, um andere Sätze in Ihrer Sprache zu sehen.
 listen-loading-error =
     Wir konnten für Sie keine Audioclips zum Anhören abrufen.
     Bitte versuchen Sie es später erneut.
@@ -973,6 +976,7 @@ listen-abort-title = Überprüfung der Aufzeichnungen abschließen?
 listen-abort-cancel = Überprüfung fortsetzen
 listen-abort-confirm = Überprüfung abschließen
 speak-empty-state = Für diese Sprache gibt es keine Sätze mehr, die aufgenommen werden könnten…
+speak-empty-state-variants = Ihre Sprachvariante hat möglicherweise keine Sätze mehr! Wenn Sie sich wohl fühlen, können Sie Ihre Einstellungen ändern, um andere Sätze in Ihrer Sprache zu sehen.
 speak-empty-state-cta = Sätze beitragen
 speak-loading-error =
     Wir konnten für Sie keine Sätze zum Sprechen abrufen.
