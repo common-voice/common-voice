@@ -352,6 +352,8 @@ shortcut-record-toggle-label = Riggistra/Ferma
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Riggistra arrè
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Scarta sta riggistrazzioni
+shortcut-submit-label = Manna riggistrazzioni
 request-language-text = A to lingua nun cc'è ancora nne Common Voice?
 request-language-button = Addumanna na lingua
 
@@ -381,18 +383,26 @@ profile-form-language =
     .label = Lingua
 profile-form-variant =
     .label = Quali varianti di { $language } parri?
+profile-form-variant-default-value = Nun scigghisti nuḍḍa varianti
 profile-form-accent =
     .label = Accentu
+profile-form-custom-accent-help-text =
+    .label = Comu discrivissi u to accentu?
+profile-form-custom-accent-placeholder-2 = Accumincia a scrìviri pi discrìviri u to accentu
 profile-form-age =
     .label = Età
+profile-form-gender-2 =
+    .label = Gèniri
 leaderboard-visibility =
     .label = Visibbilità nnâ classìfica
 hidden = Ammucciatu
 visible = Visìbbili
 native-language =
     .label = Lingua matri
+profile-form-add-accent = Agghiunci un novu accentu pirsunalizzatu "{ $inputValue }"
 profile-form-submit-save = Sarba
 profile-form-submit-saved = Sarbatu
+male_masculine = Màsculu/Masculinu
 female_feminine = Fìmmina/Fimmininu
 intersex = Ntirsissuali
 transgender = Transissuali
@@ -428,6 +438,8 @@ skip-submission-note = Nota: hâ ammaccari sempri Parra o Ascuta pi canciari tip
 off = Disattiva
 on = Attiva
 help-accent = Abbisogni d'ajutu cu l'accentu?
+help-variants = Abbisogni d'ajutu chî varianti?
+help-sex-or-gender-changes = Abbisogni d'ajutu pî canci di sessu o gèniri?
 
 ## Profile - Email
 
@@ -492,6 +504,8 @@ how-does-it-work-text = Stamu arricugghiennu nu nzemi lìbbiru di vuci. Dùnani 
 
 ## How does it work section
 
+about-dataset-release-subtitle = Pubblicamu i dati ogni 3 misi.
+about-subscribe-text = Vo' arristari attualizzatu ncapu a Common Voice?
 about-speak = Parra
 about-listen = Ascuta
 about-is-it-valid = A riggistrazziuni è vàlita?
@@ -499,26 +513,38 @@ about-is-it-valid-text = Na riggistrazziuni vucali veni marcata comu “vàlita�
 about-yes-votes = ≥ 2 voti Se
 about-yes-votes-text = Pi tràsiri nnû nzemi di dati di Common Voice, na riggistrazziuni vucali àvi a èssiri appruvata di du' utenti diversi.
 about-no-votes = ≥ 2 voti No
+about-clip-graveyard = Cimiteru dî riggistrazzioni
 about-get-involved = Cullàbbura cu nuiautri
+about-stay-in-touch-button = Riggìstrati
 about-nav-why-common-voice = Picchì?
 about-nav-how-it-works = Comu?
 about-nav-get-involved = Cullàbbura cu nuiautri
+about-nav-how-it-works-2 = Comu funziona Common Voice?
+about-nav-playbook = Scopri comu participari
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Chi è na lingua nne Common Voice?
 
 ## How do I add a language
 
+about-playbook-how-add-language = Comu agghiunciu na lingua?
+about-playbook-how-add-language-translating-heading = Tradùciri u situ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Vidi a nostra guida ncapu a comu usari Pontoon</translateVideoLink>.
+about-playbook-how-add-language-collecting-sentences-heading = Ricota dî frasi
 
 ## How does localization work
 
+about-playbook-how-localize = Comu funziona a lucalizzazzioni dû situ?
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Comu agghiunciu frasi?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Comu riggistru n'audiu di qualità auta?
 
 ## How to grow language
 
@@ -531,6 +557,7 @@ about-nav-get-involved = Cullàbbura cu nuiautri
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Comu si pìgghianu i dicisiuna dû pruggettu?
 
 ## How is Common Voice funded
 
@@ -582,12 +609,14 @@ review-delete-recordings = Cancella i me riggistrazziuna
 ## Datasets Page
 
 language = Lingua
+download-dataset-header = Scàrrica i dati
 # File size in gigabytes
 size = Grannizza
 validated-hr-total = Tutali uri appruvati
 overall-hr-total = Tutali uri
 cv-license = Licenza
 audio-format = Furmatu audiu
+dataset-splits = Gruppi (età e sessu)
 number-of-voices = Nùmmaru dî vuci
 splits = Spartuti
 email-to-download = Metti nu nnirizzu e-mail pi scarricari
@@ -604,6 +633,8 @@ subscribe = Scrìviti
 get-started-speech = Accumincia cû ricanuscimentu vucali
 other-datasets = Autri dati vucali
 feedback-q = Ài suggirimenti?
+# This indicates that there is no data to display
+no-information = Nuḍḍa nfurmazzioni
 data-other-librispeech-description = LibriSpeech è un corpus cu circa 1000 uri di riggistrazziuna 'n ingrisi a 16kHz di audiulibbra dû pruggettu LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = U corpus TED-LIUM fu crijatu dî cunfirenzi dispunìbbili dû situ TED, e dî so trascrizziuna.
@@ -616,6 +647,12 @@ more = Autru
 close = Chiuji
 download = Scàrrica
 dataset-version = Virsiuni
+clipboard-not-supported = Pitazzu nun suppurtatu
+no-information-available = Nuḍḍa nfurmazzioni dispunìbbili
+dataset-metadata-sex = Gèniri
+# dataset metadata - age of contributor
+dataset-metadata-age = Età
+dataset-donate-modal-heading = U sapivi chi…
 
 ## Download Modal
 
@@ -646,6 +683,12 @@ other-language = Autra lingua
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = U to nnirizzu di posta elittrònica
+request-language-form-info =
+    .label = Nfurmazzioni ncapu â lingua
+request-language-form-info-explanation-list-1 = Nomi dâ to lingua
+request-language-form-info-explanation-list-2 = <isoCodeLink>Codici ISO</isoCodeLink>, sî canusci
 
 ## Languages Overview
 
@@ -660,6 +703,8 @@ language-search-input =
 language-speakers = Parratu di
 localized = Traduciuti
 sentences = Frasi
+language-validation-hours = Uri
+language-validation-progress = Prugressu dâ validazzioni
 
 ## Contribution
 
@@ -667,8 +712,15 @@ action-click = Ammacca
 action-tap = Tocca
 contribute = Cuntribbuisci
 listen = Ascuta
+write = Scrivi
+review = Virìfica
 skip = Sauta
 shortcuts = Accurzi
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> riggistrazzioni
+       *[other] <bold>{ $count }</bold> riggistrazzioni
+    }
 contribute-more =
     { $count ->
         [one] Sì prontu pi n'autra?
@@ -806,6 +858,8 @@ profile-form-delete = Cancella prufilu
 
 ## Profile Download
 
+download-profile-title = Prufilu
+download-size = Grannizza
 
 ## Landing
 
@@ -820,9 +874,11 @@ read-more-about = Vidi cchiù assai nnâ pàggina Nfurmazziuna
 
 ## Demo Datasets
 
+demo-account = Cuntu
 
 ## Demo Account
 
+demo-account-sign-up = Manna lijami di riggistrazzioni
 
 ## Demo Contribute
 
@@ -840,6 +896,15 @@ read-more-about = Vidi cchiù assai nnâ pàggina Nfurmazziuna
 
 ## HEADER/FOOTER
 
+sc-header-add = Agghiunci
+sc-header-my = I me frasi
+sc-header-statistics = Statìstichi
+sc-header-profile = Prufilu
+sc-footer-privacy = Privatizza
+sc-footer-terms = Cunnizziuna d'usu
+sc-footer-cookies = Viscotta
+sc-login-signup-button = Trasi / Riggìstrati
+sc-logout-button = Nesci
 
 ## HOME
 
@@ -849,6 +914,7 @@ read-more-about = Vidi cchiù assai nnâ pàggina Nfurmazziuna
 
 ## HOW-TO
 
+sc-howto-title = Comu
 
 ## MY SENTENCES
 
@@ -858,9 +924,12 @@ read-more-about = Vidi cchiù assai nnâ pàggina Nfurmazziuna
 
 ## STATS
 
+sc-stats-title = Statìstichi
 
 ## ADD
 
+sc-submit-button =
+    .submitText = Manna
 
 ## ADD LANGUAGE
 
