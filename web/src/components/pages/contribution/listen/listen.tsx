@@ -8,6 +8,7 @@ import { Clip as ClipType } from 'common';
 import { trackListening, getTrackClass } from '../../../../services/tracker';
 import { Clips } from '../../../../stores/clips';
 import { Locale } from '../../../../stores/locale';
+import { User } from '../../../../stores/user';
 import {
   AbortContributionModalActions,
   AbortContributionModalStatus,
@@ -62,6 +63,7 @@ interface PropsFromState {
   isLoading: boolean;
   hasLoadingError: boolean;
   locale: Locale.State;
+  user: User.State;
   showFirstContributionToast: boolean;
   hasEarnedSessionToast: boolean;
   showFirstStreakToast: boolean;
@@ -295,13 +297,17 @@ class ListenPage extends React.Component<Props, State> {
   };
 
   render() {
-    const { isLoading, hasLoadingError } = this.props;
+    const { isLoading, hasLoadingError, user, locale } = this.props;
     const { clips, hasPlayed, hasPlayedSome, isPlaying, isSubmitted } =
       this.state;
     const clipIndex = this.getClipIndex();
     const activeClip = clips[clipIndex];
     const noClips = clips.length === 0;
     const isMissingClips = !isLoading && (noClips || !activeClip);
+    const currentLocale = user?.account?.languages.find(
+      lang => lang.locale === locale
+    );
+    const isVariantPreferredOption = currentLocale?.variant.is_preferred_option;
 
     return (
       <>
@@ -367,6 +373,9 @@ class ListenPage extends React.Component<Props, State> {
                 hasLoadingError={hasLoadingError}
                 isMissingClips={isMissingClips}
                 isDemoMode={this.demoMode}
+                isMissingClipsForVariant={
+                  isMissingClips && isVariantPreferredOption
+                }
               />
             }
             instruction={props =>
@@ -497,6 +506,7 @@ const mapStateToProps = (state: StateTree) => {
     challengeEnded,
     api,
     locale: state.locale,
+    user: state.user,
   };
 };
 

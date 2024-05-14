@@ -1,0 +1,32 @@
+@import url('../../../../../media.css');
+
+.sentence-variant-warning-container {
+    width: 100%;
+    color: var(--white);
+    background-color: var(--anchor-text-blue);
+    padding: 40px;
+
+    & .sentence-variant-warning-content {
+        .title-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-block-end: 12px;
+
+            path {
+                fill: var(--white);
+            }
+
+            p.title {
+                font-size: var(--font-size-lg);
+                font-family: var(--strong-font-family);
+            }
+        }
+
+        p.subtitle {
+            @media (--xl-up) {
+                width: 650px;
+            }
+        }
+    }
+}
