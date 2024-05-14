@@ -1675,7 +1675,7 @@ adding-sentences-subheader-offensive-content = Njepřistojny wobsah
 reviewing-sentences-explanation-1 = Jeli sada kriterijam horjeka wotpowěduje, klikńće na tłóčatko „Haj“.
 reviewing-sentences-explanation-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Ně“.
 reviewing-sentences-explanation-4 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
-domain-explanation = Domena so na temu sady poćahuje. Tuchwilu móžeće wubrać mjez:
+domain-explanation = Tema so na temu sady poćahuje. Tuchwilu móžeće wubrać mjez:
 
 ## WRITE PAGE
 
@@ -1709,8 +1709,8 @@ single-sentence-submission = Jednotliwu sadu zapodać
 bulk-sentence-submission = Wjacore sady zapodać
 single-sentence = Jedna sada
 bulk-sentences = Wjele sadow
-sentence-domain-combobox-label = Domena sady
-sentence-domain-select-placeholder = Wubjerće hač do třoch domenow (na přeće)
+sentence-domain-combobox-label = Tema sady
+sentence-domain-select-placeholder = Wubjerće hač do třoch temow (na přeće)
 # Sentence Domain dropdown option
 agriculture_food = Ratarstwo a cyroba
 # Sentence Domain dropdown option
