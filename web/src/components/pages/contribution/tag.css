@@ -1,7 +1,8 @@
 .tag-container {
     background: var(--desert-storm);
     cursor: pointer;
-    padding: 10px;
+    padding-block: 12px;
+    padding-inline: 16px;
     border-radius: 36px;
     display: flex;
     flex-direction: row;

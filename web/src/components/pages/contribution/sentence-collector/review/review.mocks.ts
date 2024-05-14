@@ -7,6 +7,7 @@ export const mockPendingSentences: PendingSentence[] = [
     sentence: 'mock sentence 1',
     sentenceId: 'mock-sentence-id-1',
     source: 'mock source',
+    variantTag: 'mock-variant',
   },
   {
     isValid: null,
@@ -14,6 +15,7 @@ export const mockPendingSentences: PendingSentence[] = [
     sentence: 'mock sentence 2',
     sentenceId: 'mock-sentence-id-2',
     source: 'mock source',
+    variantTag: 'mock-variant',
   },
   {
     isValid: null,
@@ -21,5 +23,6 @@ export const mockPendingSentences: PendingSentence[] = [
     sentence: 'mock sentence 3',
     sentenceId: 'mock-sentence-id-3',
     source: 'mock source',
+    variantTag: 'mock-variant',
   },
 ]
