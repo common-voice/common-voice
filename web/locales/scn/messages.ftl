@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Se, mànnami posta elittrònica. Vulissi arristari nfurmatu supra u pruggettu Common Voice.
+yes-receive-emails = Se, mànnami posta elittrònica. Vulissi arristari nfurmatu supra ô pruggettu Common Voice.
 stayintouch = Mozilla sta ricugghiennu na cumunità di genti ntirissati ê tecnuluggìi vucali. Ni piacissi arristari 'n cuntattu cu tia pi nfurmàriti dî nuvità e dî novi funti di dati, ma macari pi sapiri comu usi i dati di Common Voice.
 privacy-info = Prumittemu di stari accura ê to dati. Leggi cchiù nfurmazziuna nnâ nostra <privacyLink>nfurmativa supra â privatizza</privacyLink>.
 return-to-cv = Torna a Common Voice
@@ -11,7 +11,6 @@ loading = Staju carricannu…
 email-opt-in-info = Vulissi ricìviri posta elittrònica comu prumimoria di l'ubbittivi, attualizzazziuna supra i me prugressi e nutizzi supra Common Voice.
 email-opt-in-info-title = Jùnciti â lista di nutizzi di Common Voice
 email-opt-in-info-sub-with-challenge = Ricivi posta elittrònica comu prumimoria di l'ubbittivi, attualizzazziuna supra i prugressi e nutizzi supra Common Voice.
-email-opt-in-privacy = Scigghiennu di ricìviri posta elittrònica, accetti chi Mozilla po usari sti nfurmazziuni comu schicatu nnâ <privacyLink>nfurmativa dâ privatizza<privacyLink>.
 indicates-required = * campu ubbligatoriu
 not-available-abbreviation = Nun dispunìbbili
 
@@ -33,14 +32,18 @@ as = Assamisi
 ast = Asturianu
 az = Azzeru
 ba = Baschiru
+bas = Basaa
 be = Bilurrussu
 bg = Bùlgaru
 bn = Bingalisi
+bo = Tibbitanu
 br = Brètuni
 bxr = Buriatu
 ca = Catalanu
 cak = Kaqchikel
+ckb = Curdu cintrali
 cnh = Hakha Chin
+co = Corsu
 cs = Cecu
 cv = Ciuvasciu
 cy = Gallisi
@@ -62,11 +65,13 @@ fr = Francisi
 fy-NL = Frìsuni
 ga-IE = Irlannisi
 gl = Galizzianu
+gn = Guaraní
 ha = Hausa
 he = Ebbraicu
 hi = Hindi
 hr = Cruatu
 hsb = Surabbu autu
+ht = Haitianu
 hu = Unghirisi
 hy-AM = Armenu
 hyw = Armenu uccidintali
@@ -83,13 +88,13 @@ kbd = Cabbardianu
 kk = Kazaku
 ko = Curianu
 kpv = Komi-Zyrian
-ku = Curdu
 kw = Còrnicu
 ky = Kirghisu
 lg = Lugannisi
 lij = Lìguri
 lt = Lituanu
 lv = Lèttuni
+mai = Maithili
 mdf = Mokša
 mg = Margasciu
 mhr = Mari urintali
@@ -97,9 +102,11 @@ mk = Macèduni
 ml = Malayalam
 mn = Mòngulu
 mrj = Mari uccidintali
+ms = Malisi
 mt = Martisi
 my = Burmisi
 myv = Erza
+nan-tw = Taiwanisi (Minnan)
 nb-NO = Nurviggisi Bokmål
 ne-NP = Nipalisi
 nl = Ulannisi
@@ -107,7 +114,9 @@ nn-NO = Nurviggisi Nynorsk
 oc = Uccitanu
 or = Udia
 pa-IN = Punjabi
+pap-AW = Papiamentu (Aruba)
 pl = Pulaccu
+ps = Pashtu
 pt = Purtughisi
 rm-sursilv = Rumanciu suttusirvanu
 rm-vallader = Rumanciu vallader
@@ -134,12 +143,14 @@ tr = Turcu
 tt = Tàtaru
 uby = Ubykh
 udm = Udmurtu
+ug = Uyghur
 uk = Ucrainu
 ur = Urdu
 uz = Uzbecu
 vec = Vènitu
 vi = Vietnamisi
 vot = Vòticu
+yue = Cantunisi
 zh-CN = Cinisi (Cina)
 zh-HK = Cinisi (Hong Kong)
 zh-TW = Cinisi (Taiwan)
@@ -263,6 +274,7 @@ shortcut-record-toggle = R
 shortcut-record-toggle-label = Riggistra/Ferma
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Riggistra arrè
+shortcut-discard-ongoing-recording = ESC
 request-language-text = A to lingua nun cc'è ancora nne Common Voice?
 request-language-button = Addumanna na lingua
 
@@ -292,8 +304,6 @@ profile-form-accent =
     .label = Accentu
 profile-form-age =
     .label = Età
-profile-form-gender =
-    .label = Gèniri
 leaderboard-visibility =
     .label = Visibbilità nnâ classìfica
 hidden = Ammucciatu
@@ -302,8 +312,6 @@ native-language =
     .label = Lingua matri
 profile-form-submit-save = Sarba
 profile-form-submit-saved = Sarbatu
-male = Màsculu
-female = Fìmmina
 # Gender
 other = Autru
 why-profile-title = Picchì riggistrari un prufilu?
@@ -319,7 +327,6 @@ profile-close = Chiuji
 profile-explanation = C'un prufilu, po' tèniri trazza dî to prugressi e n'ajuti ad ammigghiurari a pricisiuni dî dati vucali.
 thanks-for-account = Grazzi pâ cunfirma dû to cuntu, accuminciamu a criari u to prufilu.
 why-demographic = Picchì è mpurtanti?
-why-demographic-explanation = I dati anònimi comu età, gèniri e accentu ajuta ad ammigghiurari a qualità dî dati vucali usati dî mutura di ricanuscimentu vucali. U to nomu utenti e u to nnirizzu e-mail nun sarannu mai assuciati chî dati chi manni, e po' scègghiri si fari pubblicari u to nomu utenti o arristari anònimu.
 accept-privacy = Sugnu d'accordu cû trattamentu di sti nfurmazziuna comu schicatu nnall'<privacyLink>abbisu di privatizza</privacyLink> di Mozilla
 accept-privacy-title = Abbisu di privatizza
 login-identity = Idintità d'accessu
@@ -333,26 +340,17 @@ skip-submission-description = Mentri cuntribbuisci, u mmiu dî cummenti veni sau
 skip-submission-note = Nota: hâ ammaccari sempri Parra o Ascuta pi canciari tipu di cuntribbutu.
 off = Disattiva
 on = Attiva
-avatar-clip-title = Dùnaci na vuci â to fotu prufilu
-change-your-avatar-clip = Vo' canciari a riggistrazziuni vucali?
-recording-in-progress = Riggistrazziuni 'n cursu
-avatar-clip-recorded = A to fotu prufilu ora àvi n'audiu!
-record-voice-wave = RIGGISTRA A VUCI
-retry-voice-wave-recording = RIPROVA
-re-record = RIGGISTRA ARRÈ
-delete-voice = CANCELLA
-recording-voice-wave = Riggistrazziuni
-delete-voice-clip = o Cancella riggistrazziuni
-ready-to-upload = CÀRRICA
-avatar-clip-fact = Si sapi di tempu chi a mpustazziuni dâ pàggina po distrarri u litturi dû so cuntinutu.
-recreate-voice = Ricrea prisintazziuni vucali
-cancel-avatar-clip-recording = SFAI
-about-avatar-clip-recording = Crea na prisintazziuni vucali comu parti dâ to fotu prufilu. L'autri a putirannu ascutari purtànnucci supra u mouse.
+
+## Profile - Email
+
 browse-file-title = Càrrica na mmàggini
 browse-file = Trascina e lassa o <browseWrap>Scegghi</browseWrap>
 connect-gravatar = Cunnetti Gravatar
 gravatar_not_found = Nuḍḍu Gravatar attruvatu pû to nnirizzu e-mail
 file_too_large = U pricu ca scigghisti è troppu granni
+
+## Profile - Email
+
 manage-subscriptions = Gistisci l'iscrizziuna
 manage-email-subscriptions = Gistisci l'iscrizziuna e-mail
 email-already-used = E-mail già usata pi n'autru cuntu
@@ -402,9 +400,10 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Picchì Common Voice?
-about-subtitle = Common Voice è un pruggettu di Mozilla pi nzignàrici ê màchini comu pàrranu i genti nnâ vita vera. Sparti chistu, stamu macari custrujennu un muturi di ricanuscimentu vucali lìbbiru chiamatu Deep Speech.
-how-does-it-work-title = Comu funziona?
 how-does-it-work-text = Stamu arricugghiennu nu nzemi lìbbiru di vuci. Dùnani a to vuci, cuntrolla l'accuratizza dî riggistrazziuna vucali di l'autri, ammigghiura i dati pi tutti.
+
+## How does it work section
+
 about-speak = Parra
 about-listen = Ascuta
 about-is-it-valid = A riggistrazziuni è vàlita?
@@ -416,8 +415,37 @@ about-get-involved = Cullàbbura cu nuiautri
 about-nav-why-common-voice = Picchì?
 about-nav-how-it-works = Comu?
 about-nav-get-involved = Cullàbbura cu nuiautri
-mycroft-title = Mycroft Ai
-mycroft-subtitle = Ntiliggenza artificiali
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -432,10 +460,8 @@ sst = Ricanuscimentu vucali (Speech-to-text, STT)
 sst-explanation = I tecnuluggìi di ricanuscimentu vucali (STT) càncianu a vuci 'n testu.
 de-identified = Anunimizzazziuni
 
-## NotFound
+## Error pages
 
-notfound-title = Nun u truvai
-notfound-content = Nun potti attruvari chiḍḍu ca stai circannu.
 
 ## Data
 
@@ -450,6 +476,7 @@ data-other-goto = Vai nne { $name }
 data-other-download = Scàrrica i dati
 data-bundle-button = Scàrrica u pacchetti dî dati
 data-bundle-description = I dati di Common Voice cu tutti l'autri dati cca supra.
+release-version = Virsiuni
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Ammiscata
 review-terms = Usannu Common Voice, sì d'accordu chî nostri <termsLink>cunnizziuna d'usu</termsLink> e u nostru <privacyLink>abbisu di privatizza</privacyLink>
@@ -529,6 +556,9 @@ request-language-success-title = Mannasti na richiesta pi na lingua, grazzi.
 select-language = Scegghi na lingua…
 other-language = Autra lingua
 
+## Request Language Pages
+
+
 ## Languages Overview
 
 language-section-in-progress = 'N cursu
@@ -542,7 +572,6 @@ language-search-input =
 language-speakers = Parratu di
 localized = Traduciuti
 sentences = Frasi
-total-hours = Uri appruvati
 
 ## Contribution
 
@@ -552,7 +581,6 @@ contribute = Cuntribbuisci
 listen = Ascuta
 skip = Sauta
 shortcuts = Accurzi
-clips-with-count = <bold>{ $count }</bold> riggistrazziuna
 contribute-more =
     { $count ->
         [one] Sì prontu pi n'autra?
@@ -595,6 +623,9 @@ keep-track-profile = Vidi soccu facisti c'un prufilu
 login-to-get-started = Trasi o riggìstrati p'accuminciari
 target-segment-add-voice = Agghiungi a to vuci
 target-segment-learn-more = Cchiù nfurmazziuna
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -666,7 +697,6 @@ cant-decide = Nun sai chi fari?
 how-many-per-day = Granni! Quanti riggistrazziuna ô jornu?
 how-many-a-week = Granni! Quanti riggistrazziuna â simana?
 which-goal-type = Vo' parrari, ascutari o tutti du'?
-n-clips = { NUMBER($count) } riggistrazziuna
 help-share-goal = Ajùtani ad attruvari cchiù vuci, sparti u to ubbittivu
 confirm-goal = Cunferma ubbittivu
 goal-interval-weekly = Pâ simana
@@ -686,6 +716,9 @@ keep = Teni
 remove = Cancella
 profile-form-delete = Cancella prufilu
 
+## Profile Download
+
+
 ## Landing
 
 welcome-staff = Bimminutu, mèmmiru di { $company }.
@@ -693,3 +726,93 @@ help-contribute = Crea un prufilu Common Voice e cuntribbuisci câ to vuci pi cr
 login-company = Trasi / Riggìstrati cu nu nnirizzu e-mail di { $company }
 profile-not-required = Aviri un prufilu nun è ubbligatoriu pi cuntribbuiri, ma po èssiri ùtili: vidi picchì cchiù sutta.
 read-more-about = Vidi cchiù assai nnâ pàggina Nfurmazziuna
+
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+
+
+## Validation criteria
+
+
+# Don't rename the following section, its contents are auto-inserted based on the name. These strings are
+# automatically exported from Sentence Collector.
+# [SentenceCollector]
+
+
+## HEADER/FOOTER
+
+
+## HOME
+
+
+## GENERAL
+
+
+## HOW-TO
+
+
+## MY SENTENCES
+
+
+## REJECTED
+
+
+## STATS
+
+
+## ADD
+
+
+## ADD LANGUAGE
+
+
+## ADD SENTENCES CONFIRMATION
+
+
+## LANGUAGE INFO
+
+
+## LOGIN
+
+
+## PROFILE
+
+
+## REVIEW CRITERIA
+
+
+## REVIEW
+
+
+## SETTINGS
+
+
+# [/SentenceCollector]
+
+sentence-collection = Ricota di frasi
+
+## WRITE PAGE
+
+
+## LANGUAGE VARIANT CODES
+
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
+
+## Donate banner
+
