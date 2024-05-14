@@ -307,7 +307,7 @@ class ListenPage extends React.Component<Props, State> {
     const currentLocale = user?.account?.languages.find(
       lang => lang.locale === locale
     );
-    const isVariantPreferredOption = currentLocale?.variant.is_preferred_option;
+    const isVariantPreferredOption = currentLocale?.variant?.is_preferred_option;
 
     return (
       <>
