@@ -18,6 +18,8 @@ banner-error-slow-1 = Bóžko Common Voice pómału běžy. Źěkujomy se za wa�
 banner-error-slow-2 = Dostawamy wjele wobchada a pśepytujomy tuchylu problemy.
 banner-error-slow-link = Statusowy bok
 error-something-went-wrong = Hopla, něco njejo se raźiło
+error-clip-upload = Nagrawanje toś togo klipa se pśecej zasej njeraźi, dalej wopytowaś?
+error-clip-upload-server = Nagrawanje toś togo klipa se pśecej zasej na serwerje njeraźi. Zacytajśo bok znowego abo wopytajśo pózdźej hyšći raz.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
