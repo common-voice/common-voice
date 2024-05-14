@@ -465,6 +465,8 @@ variant-contribution-options-header = Opsjes foar fariantbydrage
 variant-contribution-help = Guon farianten en dialekten binnen in taal- of taalfamylje ferskille hiel bot fan inoar. As jo problemen hawwe om mei in bepaalde fariant, kinne jo jo foarkarren hjir wizigje.
 variant-contribution-option-1 = Allinnich sinnen en fragminten út myn fariant toane
 variant-contribution-option-2 = My sinnen en fragminten fan alle farianten yn myn taal toane
+variant-contribution-warning-title = ⓘ Noch net alle sinnen en fragminten hawwe fariantlabels!
+variant-contribution-warning-subtitle = As jo problemen hawwe mei by it bydragen, kinne jo op elk momint weromgean nei it sjen fan alle ynhâld foar jo taal.
 
 ## Profile - Email
 
@@ -976,6 +978,7 @@ listen-again-instruction = Goed wurk! <playIcon></playIcon> Harkje opnij wannear
 listen-3rd-time-instruction = 2 klear <playIcon></playIcon> , gean sa troch!
 listen-last-time-instruction = <playIcon></playIcon> De lêste!
 listen-empty-state = Wy hawwe yn dizze taal gjin te falidearjen fragminten mear…
+listen-empty-state-variants = Jo taalfariant is mooglik gjin fragminten mear! As jo tefreden binne, kinne jo jo ynstellingen wizigje om oare sinnen yn jo taal te sjen.
 listen-loading-error =
     Wy kinne gjin audiofragminten foar jo ophelje om nei te harkjen.
     Probearje it letter nochris.
@@ -983,6 +986,7 @@ listen-abort-title = Falidearjen fan fragminten foltôgje?
 listen-abort-cancel = Trochgean mei falidearjen
 listen-abort-confirm = Falidearjen foltôgje
 speak-empty-state = Wy hawwe yn dizze taal gjin op te nimmen sinnen mear…
+speak-empty-state-variants = Jo taalfariant befettet mooglik gjin sinnen mear! As jo tefreden binne, kinne jo jo ynstellingen wizigje om oare sinnen yn jo taal te sjen.
 speak-empty-state-cta = Sinnen bydrage
 speak-loading-error =
     Wy kinne gjin sinnen foar jo ophelje om út te sprekken.
