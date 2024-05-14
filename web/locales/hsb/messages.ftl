@@ -463,6 +463,8 @@ variant-contribution-options-header = Nastajenja přinošowanja za wariantu
 variant-contribution-help = Někotre warianty a dialekty rěče abo rěčneje swójby so jara jedna wot druheje rozeznawaja. Jeli problemy maće, so z wěstej wariantu zaběrać, móžeće swoje nastajenja tu změnić.
 variant-contribution-option-1 = Jenož sady a klipy mojeje warianty pokazać
 variant-contribution-option-2 = Sady a klipy wšěch wariantow mojeje rěče pokazać
+variant-contribution-warning-title = ⓘ Nic wšě sady a klipy wariantowe znački maja!
+variant-contribution-warning-subtitle = Jeli problemy maće přinošować, móžeće so wróćić, zo byšće wšón wobsah za swoju rěč naraz widźał.
 
 ## Profile - Email
 
@@ -1650,7 +1652,7 @@ public-domain = Zjawnje wužiwajomny
 citing-sentences = Sady citować
 adding-sentences = Sady přidać
 reviewing-sentences = Sady přepruwować
-sentence-domain = Domena sady
+sentence-domain = Tema sady
 citing-sentences-subheader-websites = Websydła
 citing-sentences-subheader-websites-explanation = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“
 citing-sentences-subheader-academic-reference = Akademiska referenca
@@ -1673,6 +1675,7 @@ adding-sentences-subheader-offensive-content = Njepřistojny wobsah
 reviewing-sentences-explanation-1 = Jeli sada kriterijam horjeka wotpowěduje, klikńće na tłóčatko „Haj“.
 reviewing-sentences-explanation-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Ně“.
 reviewing-sentences-explanation-4 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
+domain-explanation = Domena so na temu sady poćahuje. Tuchwilu móžeće wubrać mjez:
 
 ## WRITE PAGE
 
