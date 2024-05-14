@@ -1,9 +1,10 @@
 import { option as O, taskEither as TE } from 'fp-ts'
-import { ApplicationError } from '../../types/error'
-import { queryDb } from '../../../infrastructure/db/mysql'
+import { ApplicationError } from '../types/error'
+import { lazyQueryDb, queryDb } from '../../infrastructure/db/mysql'
 import { pipe } from 'fp-ts/lib/function'
-import { createDatabaseError } from '../../helper/error-helper'
-import { Locale, TextDirection } from '../../../core/types/locale'
+import { createDatabaseError } from '../helper/error-helper'
+import { Locale, TextDirection } from '../../core/types/locale'
+import { DAY } from '../../infrastructure/redis/redis'
 
 export type FindLocaleByName = (
   localeName: string
@@ -36,7 +37,7 @@ export const toLocale = (row: LocaleRow): O.Option<Locale> =>
 export const findLocaleByNameInDb: FindLocaleByName = (localeName: string) =>
   pipe(
     [localeName],
-    queryDb(
+    lazyQueryDb(`find-locale-by-name-${localeName}`)(DAY)(
       ` SELECT
           id,
           name,

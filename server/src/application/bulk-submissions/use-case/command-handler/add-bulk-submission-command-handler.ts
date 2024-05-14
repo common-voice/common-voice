@@ -9,10 +9,10 @@ import {
   BulkSubmission,
   BulkSubmissionImportStatusCreated,
   insertBulkSubmissionIntoDb,
-} from '../../repository/bulk-submission-repository'
+} from '../../../repository/bulk-submission-repository'
 import { JobQueue } from '../../../../infrastructure/queues/types/JobQueue'
 import { BulkSubmissionUploadJob } from '../../../../infrastructure/queues/types/BulkSubmissionJob'
-import { fetchUserClientEmailById } from '../../repository/user-client-repository'
+import { fetchUserClientEmailById } from '../../../repository/user-client-repository'
 
 export const addBulkSubmission =
   (getLocaleId: (a: string) => TE.TaskEither<Error, number>) =>

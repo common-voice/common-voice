@@ -1759,13 +1759,13 @@ bulk-sentences = Grupo de frases
 sentence-domain-combobox-label = Domínio da frase
 sentence-domain-select-placeholder = Selecione até três domínios
 # Sentence Domain dropdown option
-agriculture = Agricultura
+agriculture_food = Agricultura e alimentação
 # Sentence Domain dropdown option
-automotive = Automotivo
+automotive_transport = Automotivo e transporte
 # Sentence Domain dropdown option
 finance = Finanças
 # Sentence Domain dropdown option
-food_service_retail = Alimentos, serviços e vendas à varejo
+service_retail = Serviços e vendas à varejo
 # Sentence Domain dropdown option
 general = Geral
 # Sentence Domain dropdown option
@@ -1784,15 +1784,29 @@ news_current_affairs = Notícias e atualidades
 technology_robotics = Tecnologia e robótica
 sentence-variant-select-label = Variante de frase
 sentence-variant-select-placeholder = Selecione uma variante (opcional)
+sentence-variant-select-multiple-variants = Idioma genérico / diversas variantes
 
 ## LANGUAGE VARIANT CODES
 
 ca-algueres = Catalão alguerês
+ca-central = Central
 ca-balear = Catalão balear
 ca-nwestern = Norte-Ocidental
 ca-northern = Setentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valenciano central
+ca-valencia-northern = Valenciano setentrional
+ca-valencia-southern = Valenciano meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Galês noroeste
+cy-northeas = Galês nordeste
+cy-southwes = Galês sudoeste
+cy-southeas = Galês sudeste
+cy-wladfa = Galês da Patagônia
 pt-BR = Português (Brasil)
 pt-PT = Português (Portugal)
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

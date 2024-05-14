@@ -2,6 +2,7 @@
 
 yes-receive-emails = Hoi, maka emails send kôr. Maka khup khosi astili Common Voice Project'an bag govpak.
 stayintouch = Voice technology'cher ami ek community karma Mozilla'an. Ami chad khosi tumka update dovarpak, novo data duvpak and aikpak tumi koso ho data use karta toh.
+privacy-info = Ami vochon dita ki tumchi information samballun dovortolem. Amchi <privacyLink>Privacy Notice</privacyLink> vachun ghe.
 return-to-cv = Porot voch Common Voice'acher
 email-input =
     .label = Email
@@ -9,6 +10,7 @@ submit-form-action = Submit
 loading = Load zata...
 email-opt-in-info = Hoi, Mhaka asle emails dhad jitun Goal Reminders, Progress Updates anik Common Voice`acher novi novi khobryo-patra asta.
 email-opt-in-info-title = Common Voice mailing list join kor
+email-opt-in-info-sub-with-challenge = Asle emails dhad jitun Challenge ani Goal Reminders, Progress Updates anik Common Voice`acher novi novi khobor-patra astat.
 indicates-required = Textbox'an star (*) asa, te gorjechem.
 not-available-abbreviation = N/A
 

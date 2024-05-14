@@ -451,6 +451,10 @@ help-variants = Besonia tu de auxilio con le variantes?
 help-variants-explanation = Le variantes es un forma specific de un lingua, per exemplo compartite per illes vivente in un area geographic o communitate. Aliquando illos es appellate dialectos.
 help-sex-or-gender-changes = Besonia tu de adjuta con le cambios de sexo o genere?
 help-sex-or-gender-changes-explanation = Nos offere plus optiones pro dar al gente plus selection in que illes dice nos circa lor identitate de sexo o genere. Per favor auto-describe te como lo que se senti plus natural pro te. <learnMoreLink>Pro saper plus circa nostre approche a sexo e genere.</learnMoreLink>
+variant-contribution-options-header = Optiones de contribution pro le variantes
+variant-contribution-help = Alcun variantes e dialectos in un lingua o familia de linguas es multo differente le un le altere. Si tu ha difficultates a adaptar te a un variante particular, tu pote cambiar tu preferentias ci.
+variant-contribution-option-1 = Solo monstra me phrases e registrationes ab mi variante
+variant-contribution-option-2 = Monstra me phrases e registrationes de tote le variantes in mi lingua
 
 ## Profile - Email
 
@@ -980,6 +984,7 @@ target-segment-generic-card = Tu contribue a un segmento objectivo
 target-segment-first-banner = Adjuta crear le prime segmento objectivo de Common Voice in { $locale }
 target-segment-add-voice = Adde tu voce
 target-segment-learn-more = Saper plus
+change-preferences = Cambiar preferentias…
 
 ## Contribution Nav Items
 
@@ -1774,13 +1779,13 @@ bulk-sentences = Gruppo de phrases
 sentence-domain-combobox-label = Dominio del phrase
 sentence-domain-select-placeholder = Selige usque tres dominios
 # Sentence Domain dropdown option
-agriculture = Agricultura
+agriculture_food = Agricultura e alimentos
 # Sentence Domain dropdown option
-automotive = Automobile
+automotive_transport = Autos e transportos
 # Sentence Domain dropdown option
 finance = Financia
 # Sentence Domain dropdown option
-food_service_retail = Alimentos, servicio e detalio
+service_retail = Servicios e vendita al detalio
 # Sentence Domain dropdown option
 general = General
 # Sentence Domain dropdown option

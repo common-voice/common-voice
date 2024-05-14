@@ -581,7 +581,7 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   render() {
-    const { getString, user, isLoading, hasLoadingError } = this.props;
+    const { getString, user, isLoading, hasLoadingError, locale } = this.props;
     const {
       clips,
       isSubmitted,
@@ -596,6 +596,10 @@ class SpeakPage extends React.Component<Props, State> {
     const noClips = clips.length === 0;
     const noNewClips = noClips || !clips.some(clip => clip.recording === null);
     const isMissingClips = !isLoading && noClips;
+    const currentLocale = user?.account?.languages.find(
+      lang => lang.locale === locale
+    );
+    const isVariantPreferredOption = currentLocale?.variant?.is_preferred_option;
 
     return (
       <>
@@ -686,6 +690,9 @@ class SpeakPage extends React.Component<Props, State> {
                 hasLoadingError={hasLoadingError}
                 isUnsupportedPlatform={this.isUnsupportedPlatform}
                 isMissingClips={isMissingClips}
+                isMissingClipsForVariant={
+                  isMissingClips && isVariantPreferredOption
+                }
               />
             }
             instruction={props =>

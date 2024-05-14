@@ -451,6 +451,10 @@ help-variants = Benötigen Sie Hilfe zu den Varianten?
 help-variants-explanation = Varianten sind eine spezifische Form einer Sprache – die zum Beispiel von Menschen geteilt wird, die in einer Region oder Gemeinschaft leben. Manchmal werden diese auch Dialekte genannt.
 help-sex-or-gender-changes = Benötigen Sie Hilfe bei der Änderung von Geschlecht oder Geschlechtsidentität?
 help-sex-or-gender-changes-explanation = Wir bieten mehr Optionen an, um Menschen mehr Wahlfreiheit zu lassen, was sie uns über ihr Geschlecht oder ihre Geschlechtsidentität mitteilen. Bitte beschreiben Sie sich so selbst, wie es für Sie am natürlichsten ist. <learnMoreLink>Erfahren Sie mehr über unseren Zugang zu Geschlecht und Geschlechtsidentität.</learnMoreLink>
+variant-contribution-options-header = Optionen für das Beitragen von Varianten
+variant-contribution-help = Einige Varianten und Dialekte innerhalb einer Sprache oder Sprachfamilie unterscheiden sich erheblich. Wenn Sie Probleme mit einer bestimmten Variante haben, können Sie Ihre Einstellungen hier ändern.
+variant-contribution-option-1 = Nur Sätze und Clips von meiner Variante anzeigen
+variant-contribution-option-2 = Sätze und Clips von allen Varianten in meiner Sprache anzeigen
 
 ## Profile - Email
 
@@ -982,6 +986,7 @@ target-segment-generic-card = Sie tragen zu einem Zielsegment bei
 target-segment-first-banner = Helfen Sie dabei, das erste Zielsegment von Common Voice in { $locale } zu erstellen
 target-segment-add-voice = Fügen Sie Ihre Stimme hinzu
 target-segment-learn-more = Weitere Informationen
+change-preferences = Einstellungen ändern
 
 ## Contribution Nav Items
 
@@ -1838,13 +1843,13 @@ bulk-sentences = Mehrere Sätze
 sentence-domain-combobox-label = Thema des Satzes
 sentence-domain-select-placeholder = Wählen Sie bis zu drei Domains aus
 # Sentence Domain dropdown option
-agriculture = Landwirtschaft
+agriculture_food = Land- und forstwirtschaft
 # Sentence Domain dropdown option
-automotive = Autos
+automotive_transport = Autos und Transport
 # Sentence Domain dropdown option
 finance = Finanzen
 # Sentence Domain dropdown option
-food_service_retail = Essen, Service und Verkauf
+service_retail = Service und Verkauf
 # Sentence Domain dropdown option
 general = Allgemein
 # Sentence Domain dropdown option

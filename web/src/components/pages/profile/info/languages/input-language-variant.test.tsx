@@ -59,7 +59,8 @@ describe('InputLanguageVariant', () => {
       variant: {
         id: 1,
         name: 'North-Western Welsh',
-        token: 'cy-north',
+        locale: "cy",
+        tag: 'cy-north',
       },
     } as UserLanguage;
     expect(mockSetUserLanguage).toBeCalledWith([expectedLanguage]);
@@ -75,7 +76,8 @@ describe('InputLanguageVariant', () => {
         variant: {
           id: 1,
           name: 'Portuguese (Brasil)',
-          token: 'pt-BR',
+          tag: 'pt-BR',
+          locale: 'pt'
         },
       },
     ] as UserLanguage[];

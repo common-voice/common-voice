@@ -459,6 +459,9 @@ help-accent-explanation = Ne myanduhe ha’e pe mba’eichaitépa embo’ayvu pe
 help-variants = Eikotevẽpa pytyvõ ñe’ẽ iñambuévape
 help-variants-explanation = Umi ñe’ẽambue ha’énte avei ñe’ẽ, techapyrãramo, oiporúva tapichakuéra oikóva peteĩ tekohápe. Ko’ãvape oñembohéra ñe’ẽambue.
 help-sex-or-gender-changes = Eñepytyvõukasépa Sexo térã Género moambuépe
+variant-contribution-options-header = Ikatuhápe guive eipytyvõ
+variant-contribution-option-1 = Ehechauka ñe’ẽjuaju año ha clip ambuegua
+variant-contribution-option-2 = Ehechauka ñe’ẽjuaju ha clip opaite ambuepy che ñe’ẽ rehegua
 
 ## Profile - Email
 
@@ -695,6 +698,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Emoñe’ẽve
 ## How is Common Voice funded
 
 about-playbook-how-funded = ¿Mba’éicha ivirureko Common Voice?
+about-playbook-how-funded-content-2 = Hetaiterei viru tekotevẽ ñeñongatu ha mba’ekuaarã aty ñemoherakuã, pyendavusu moporãve ha emongu’e <africaMradiLink>tembiaporape tekohagua</africaMradiLink>.
 
 ## Glossary
 
@@ -824,6 +828,7 @@ dataset-metadata-sex = Meña
 dataset-metadata-age = Ary
 donate-modal-message = ¡Ne mba’ekuaarã aty oguejyhína!
 dataset-donate-modal-heading = Eikuaápa…
+donate-modal-explanation-1 = ¿Ohupyty peteĩ sua dólar arýpe oñembyaty hag̃ua mba’ekuaarã aty ha pyendavusu moporãve umi 100 tekoaty ñe’ẽnguéra rehegua ojokupytýva ojejapóva rehe?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Emomba’érõ mba’ekuaarã ijuruja ha ogueroikéva, ¡embojopói ko árape!</bold>
 
@@ -987,6 +992,7 @@ target-segment-generic-card = Eipytyvõ peteĩ atyvore ejaposévape
 target-segment-first-banner = Eipytyvõmive emoheñóivo Common Voice ñe’ẽpehẽ rupytyrã peteĩha { $locale }me
 target-segment-add-voice = Eme’ẽ Nde Ayvu
 target-segment-learn-more = Kuaave
+change-preferences = Emoambue erohoryvéva
 
 ## Contribution Nav Items
 
@@ -1692,6 +1698,7 @@ public-domain-explanation-2 = Umi ñe’ẽjuaju iporãva oñemoheñói hag̃ua 
 public-domain-explanation-3 = Emoheñói umi ñe’ẽjuaju ipyahu ha ojeporúva, neaño térã neangirũ térã eñe’ẽmemeha ndive, techapyrãrõ, peteĩ ‘jehai guasu’ ndive
 public-domain-explanation-4 = Eñe’ẽ apohare, ñoha’ãnga’apoha térã haihára ndive ha eporandu chupekuéra nome’ẽséipa hembiapokue opavave oipukuaa hag̃uáicha.
 public-domain-explanation-5 = Moñe’ẽrã ndoguerekovéimava apohára derécho; techapyrãramo, opavave aranduka ojehaiva’ekue ary 1920 mboyve.
+public-domain-explanation-6 = Eñe’ẽ tetã rekuái, atyguasu viru’ỹgua térã atyguasu momaranduha ndive ojehecha hag̃ua tetepy ñandutigua, marandu’i térã ambue tetepy ikatu omba’apo tendatee opavave oiporukuaávape
 citing-sentences-explanation-1 = Ehaíkena kuaaukaha rohechajeykuaa hag̃ua ñe’ẽjuajukuéra ha’épa opavave oiporukuaáva ha ani oñemoĩ mba’eapohare derécho.
 citing-sentences-subheader-websites = Ñanduti renda
 citing-sentences-subheader-websites-explanation = Emoingekuaa ñanduti renda, techapyrã, "Common Voice - https://commonvoice.mozilla.org/"
@@ -1715,6 +1722,7 @@ adding-sentences-subheader-punctuation = Mbopapapy
 adding-sentences-subheader-punctuation-explanation = Umi ta’ãnga’i ha ñemokyta oñemoingeva’erã tekotevẽ añetetéramonte. Techapyrã, oikéramo pe puso inglés ñe’ẽme ikatúva “don’t” ha “we’re” ha toñemoĩ moñe’ẽrã ñepyrũguápe, hákatu hasy oikotevẽ hag̃ua ko’ã ta’ãnga’i rehe ha’ẽva “@” térã “#.”
 adding-sentences-subheader-special-characters = Jehairã Jeporavokuaa ha Tai Pytaguáva
 adding-sentences-subheader-special-characters-explanation-1 = Kuatiahai oikova’erã ñe’ẽ ojeporúvape. Techapyrã, “ж” ha’e tai Rusia ñe’ẽ achegetýpe, hákatu araka’eve ndojeporúiva inglés ñe’ẽme ha, upévare, nosẽiva’erã mba’evéichagua moñe’ẽrã inglés ñe’ẽme.
+adding-sentences-subheader-special-characters-explanation-2 = Ñe’ẽnguéra orekokuaa imbojojahatee ñemoneĩrã tekotevẽva oñemoñe’ẽasa jave. Ndaipóriramo marandurenda ñemoneĩrã ha’etéva peteĩ ñe’ẽme g̃uarã, mbojojaha inglés pegua ohecháta pytyvõharakuéra.
 adding-sentences-subheader-offensive-content = Ñe’ẽreity Ivaíva
 reviewing-sentences-explanation-1 = Pe ñe’ẽjuaju oiko hekopetéramo, eikutu pe votõ "Moneĩ".
 reviewing-sentences-explanation-2 = Pe ñe’ẽjuaju ndoikóiramo hekopete, eikutu pe votõ "Nahániri".
@@ -1757,13 +1765,13 @@ bulk-sentences = Heta ñe’ẽjoaju
 sentence-domain-combobox-label = Ñe’ẽjuaju rendatee
 sentence-domain-select-placeholder = Eiporavo mbohapy tendatee peve
 # Sentence Domain dropdown option
-agriculture = Temitỹmby
+agriculture_food = Ñemitỹkuaa ha Hi’upyrã
 # Sentence Domain dropdown option
-automotive = Mba’yrumỹi
+automotive_transport = Mba’yruguata ha Mba’eguaraha
 # Sentence Domain dropdown option
 finance = Viruporukuaa
 # Sentence Domain dropdown option
-food_service_retail = Jekarurã, mba’eporu ha ñevende sa’igua
+service_retail = Mba’eporu ha ñevende sa’igua
 # Sentence Domain dropdown option
 general = Tuichakue
 # Sentence Domain dropdown option
@@ -1815,6 +1823,7 @@ sw-kiunguja = Kiunguja (TZ) - Ñe’ẽ yvy gotyogua
 sw-kipemba = Kipemba (TZ) - Ñe’ẽ yvy gotyogua
 sw-kikae = Kimakunduchi/Kikae (TZ) - Ñe’ẽ yvy gotyogua
 zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Atlas Central Tamazight)
 zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
