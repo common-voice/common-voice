@@ -463,6 +463,8 @@ variant-contribution-options-header = Nastajenja pśinosowanja za wariantu
 variant-contribution-help = Někotare warianty a dialekty rěcy abo rěcneje swójźby se wjelgin jadna wót drugeje rozeznawaju. Jolic problemy maśo, se z wěsteju wariantu zaběraś, móžośo swóje nastajenja how změniś.
 variant-contribution-option-1 = Jano sady a klipy mójeje warianty pokazaś
 variant-contribution-option-2 = Sady a klipy wšych wariantow mójeje rěcy pokazaś
+variant-contribution-warning-title = ⓘ Nic wšykne sady a klipy wariantowe wobznamjenja maju!
+variant-contribution-warning-subtitle = Jolic problemy maśo pśinosowaś, móžośo se wrośiś, aby wšykno wopśimjeśe za swóju rěc naraz wiźeł.
 
 ## Profile - Email
 
@@ -1650,7 +1652,7 @@ public-domain = Zjawnje wužywabny
 citing-sentences = Sady citěrowaś
 adding-sentences = Sady pśidaś
 reviewing-sentences = Sady pśeglědaś
-sentence-domain = Domena sady
+sentence-domain = Tema sady
 citing-sentences-subheader-websites = Websedła
 citing-sentences-subheader-websites-explanation = Wy mógał websedło pódaś, na pś. „Common Voice - https://commonvoice.mozilla.org/“
 citing-sentences-subheader-academic-reference = Akademiska referenca
@@ -1673,6 +1675,7 @@ adding-sentences-subheader-offensive-content = Njepśistojne wopśimjeśe
 reviewing-sentences-explanation-1 = Jolic sada kriterijam górjejce wótpowědujo, klikniśo na tłocašk „Jo“.
 reviewing-sentences-explanation-2 = Jolic sada kriterijam górjejce njewótpowědujo, klikniśo na tłocašk „Ně“.
 reviewing-sentences-explanation-4 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
+domain-explanation = Tema se na temu sady póśěgujo. Tuchylu móžośo wubraś mjazy:
 
 ## WRITE PAGE
 
@@ -1706,8 +1709,8 @@ single-sentence-submission = Jadnotliwu sadu zapódaś
 bulk-sentence-submission = Někotare sady zapódaś
 single-sentence = Jadna sada
 bulk-sentences = Wjele sadow
-sentence-domain-combobox-label = Zarědowanje sady
-sentence-domain-select-placeholder = Wubjeŕśo až do tśich domenow (na žycenje)
+sentence-domain-combobox-label = Tema sady
+sentence-domain-select-placeholder = Wubjeŕśo až do tśich temow (na žycenje)
 # Sentence Domain dropdown option
 agriculture_food = Rolnikaŕstwo a caroba
 # Sentence Domain dropdown option
