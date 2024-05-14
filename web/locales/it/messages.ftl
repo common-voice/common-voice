@@ -453,6 +453,8 @@ variant-contribution-options-header = Opzioni per contribuzione e varianti
 variant-contribution-help = Alcune varianti e dialetti all’interno di una lingua o famiglia linguistica sono molto diversi tra loro. Se hai problemi a interagire con una particolare variante, puoi modificare le tue preferenze qui.
 variant-contribution-option-1 = Mostra solo frasi e registrazioni nella mia variante
 variant-contribution-option-2 = Mostra frasi e registrazioni in tutte le varianti per la mia lingua
+variant-contribution-warning-title = ⓘ Non tutte le frasi e le registrazioni hanno ancora etichette per le varianti.
+variant-contribution-warning-subtitle = Se riscontri difficoltà nel collaborare, puoi tornare a visualizzare tutti i contenuti nella tua lingua in qualsiasi momento.
 
 ## Profile - Email
 
@@ -947,6 +949,7 @@ listen-again-instruction = Ottimo lavoro! <playIcon></playIcon> Riascolta la reg
 listen-3rd-time-instruction = 2 andate <playIcon></playIcon>, avanti un’altra!
 listen-last-time-instruction = <playIcon></playIcon> L’ultima!
 listen-empty-state = Abbiamo esaurito le registrazioni da convalidare in questa lingua…
+listen-empty-state-variants = Può darsi che non ci siano più registrazioni disponibili per la tua lingua. Se vuoi, puoi modificare le impostazioni per visualizzare altre frasi nella tua lingua.
 listen-loading-error =
     Non è stato possibile caricare alcuna registrazione audio da ascoltare.
     Riprova più tardi.
@@ -954,6 +957,7 @@ listen-abort-title = Hai finito di convalidare le registrazioni?
 listen-abort-cancel = Continua la convalida
 listen-abort-confirm = Termina la convalida
 speak-empty-state = Abbiamo esaurito le frasi da registrare in questa lingua…
+speak-empty-state-variants = Può darsi che non ci siano più frasi disponibili per la tua lingua. Se vuoi, puoi modificare le impostazioni per visualizzare altre frasi nella tua lingua.
 speak-empty-state-cta = Contribuisci con altre frasi
 speak-loading-error =
     Non è stato possibile caricare alcuna frase da registrare.
