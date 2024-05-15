@@ -989,6 +989,7 @@ target-segment-generic-card = Συνεισφέρετε σε τμήμα στόχ�
 target-segment-first-banner = Βοηθήστε στη δημιουργία του πρώτου τμήματος του στόχου του Common Voice στα { $locale }
 target-segment-add-voice = Προσθέστε τη φωνή σας
 target-segment-learn-more = Μάθετε περισσότερα
+change-preferences = Αλλαγή προτιμήσεων
 
 ## Contribution Nav Items
 
