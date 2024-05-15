@@ -426,6 +426,11 @@ help-variants = Ju duhet ca ndihmë me variantet?
 help-variants-explanation = Variantet një formë specifike për një gjuhë - për shembull të përbashkët për ata që banojnë në një vend, ose në një bashkësi. Ndonjëherë këta quhen dialekte.
 help-sex-or-gender-changes = Ju duhet ndihmë për ndryshime Seksi, ose Gjinie?
 help-sex-or-gender-changes-explanation = Po ofrojmë më tepër mundësi për t’u dhënë njerëzve më tepër zgjedhje në ato çka na tregojnë rreth identitetit të tyre seksor apo gjinor. Ju lutemi, vetë-përshkruhuni në mënyrën që ndjeni më natyrore për ju. <learnMoreLink>Mësoni më tepër rreth trajtimit tonë ndaj seksit dhe gjinisë.</learnMoreLink>
+variant-contribution-help = Disa variante dhe dialekte brenda një gjuhe ose familje gjuhësh janë shumë të ndryshme nga njëri-tjetri. Nëse keni probleme për t’u marrë me një variant të caktuar, mund të ndryshoni këtu parapëlqimet tuaja.
+variant-contribution-option-1 = Shfaqmëni togfjalësha dhe copëza nga krejt variantet brenda gjuhës time
+variant-contribution-option-2 = Shfaqmëni togfjalësha dhe copëza vetëm nga varianti im
+variant-contribution-warning-title = ⓘ Jo krejt togfjalëshat dhe copëzat kanë tashmë etiketa Variant!
+variant-contribution-warning-subtitle = Nëse keni probleme me dhënie kontributi, mund të ktheheni kurdo te parja e krejt lëndës për gjuhën tuaj.
 
 ## Profile - Email
 
@@ -937,6 +942,7 @@ listen-again-instruction = Punë e paqme!<playIcon></playIcon> Ridëgjojeni, kur
 listen-3rd-time-instruction = 2 më pak, vazhdoni kështu!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>E fundit!
 listen-empty-state = Na u mbaruan copëzat për vleftësim në këtë gjuhë…
+listen-empty-state-variants = Mund të jenë mbaruar copëzat për variantin tuaj të gjuhës! Nëse s’ju prish punë, mund të ndryshoni rregullimet tuaja, që të shihni togfjalësh të tjerë brenda gjuhës tuaj.
 listen-loading-error =
     S’morëm dot ndonjë copëz audio që ta dëgjoni.
     Ju lutemi, riprovoni më vonë.
@@ -944,6 +950,7 @@ listen-abort-title = Përfunduat vlerësim copëzash?
 listen-abort-cancel = Vazhdoni me vlerësimin
 listen-abort-confirm = Përfundoni vlerësimin
 speak-empty-state = Na u mbaruan frazat për incizim në këtë gjuhë…
+speak-empty-state-variants = Mund të jenë mbaruar togfjalëshat për variantin tuaj të gjuhës! Nëse s’ju prish punë, mund të ndryshoni rregullimet tuaja, që të shihni togfjalësh të tjerë brenda gjuhës tuaj.
 speak-empty-state-cta = Jepni ndihmesë me fraza
 speak-loading-error =
     S’morëm dot ndonjë copëz audio që ta shqiptoni.
@@ -956,6 +963,7 @@ target-segment-first-card = Po kontribuoni te segmenti ynë i parë
 target-segment-first-banner = Ndihmoni të krijohet segmenti i parë në { $locale } për Common Voice
 target-segment-add-voice = Shtoni Zërin Tuaj
 target-segment-learn-more = Mësoni Më Tepër
+change-preferences = Ndryshoni parapëlqimet
 
 ## Contribution Nav Items
 
@@ -1734,13 +1742,13 @@ bulk-sentences = Mori Frazash
 sentence-domain-combobox-label = Përkatësi Togfjalëshi
 sentence-domain-select-placeholder = Përzgjidhni deri në tre përkatësi (në daçi)
 # Sentence Domain dropdown option
-agriculture = Bujqësi
+agriculture_food = Bujqësi dhe Ushqim
 # Sentence Domain dropdown option
-automotive = Industri automjetesh
+automotive_transport = Industri Automobilistike dhe Transport
 # Sentence Domain dropdown option
 finance = Financë
 # Sentence Domain dropdown option
-food_service_retail = Ushqim, Shërbim dhe Shitje Me Pakicë
+service_retail = Shërbim dhe Shitje Me Pakicë
 # Sentence Domain dropdown option
 general = Të përgjithshme
 # Sentence Domain dropdown option
@@ -1763,6 +1771,8 @@ sentence-variant-select-multiple-variants = Gjuhë e përgjithshme / variante t�
 
 ## LANGUAGE VARIANT CODES
 
+pt-BR = Portugalisht (Brazil)
+pt-PT = Portugalisht (Portugali)
 
 ## REVIEW PAGE
 

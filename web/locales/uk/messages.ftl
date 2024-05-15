@@ -998,6 +998,7 @@ target-segment-generic-card = Ви робите внесок у цільовий
 target-segment-first-banner = Допоможіть Common Voice досягнути першочергової цілі для { $locale }
 target-segment-add-voice = Додайте ваш голос
 target-segment-learn-more = Докладніше
+change-preferences = Змінити налаштування
 
 ## Contribution Nav Items
 
@@ -1881,13 +1882,9 @@ bulk-sentences = Масові речення
 sentence-domain-combobox-label = Належність речення
 sentence-domain-select-placeholder = Виберіть до трьох доменів
 # Sentence Domain dropdown option
-agriculture = Сільське господарство
-# Sentence Domain dropdown option
-automotive = Автомобільна галузь
+agriculture_food = Сільське господарство та продовольство
 # Sentence Domain dropdown option
 finance = Фінанси
-# Sentence Domain dropdown option
-food_service_retail = Харчування, обслуговування та роздрібна торгівля
 # Sentence Domain dropdown option
 general = Загальне
 # Sentence Domain dropdown option
