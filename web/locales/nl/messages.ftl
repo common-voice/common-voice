@@ -977,7 +977,7 @@ listen-abort-title = Valideren van fragmenten voltooien?
 listen-abort-cancel = Doorgaan met valideren
 listen-abort-confirm = Valideren voltooien
 speak-empty-state = We hebben in deze taal geen op te nemen zinnen meer…
-speak-empty-state-variants = Uw taalvariant bevat mogelijk geen verdere zinnen! Als u tevreden bent, kunt u uw instellingen wijzigen om andere zinnen in uw taal te zien.
+no-sentences-for-variants = Uw taalvariant bevat mogelijk geen verdere zinnen! Als u tevreden bent, kunt u uw instellingen wijzigen om andere zinnen in uw taal te zien.
 speak-empty-state-cta = Zinnen bijdragen
 speak-loading-error =
     We kunnen geen zinnen voor u ophalen om uit te spreken.
