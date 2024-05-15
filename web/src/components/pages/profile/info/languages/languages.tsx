@@ -46,6 +46,7 @@ function ProfileInfoLanguages({
   const api = useAPI()
   const [accentsAll, setAccentsAll] = useState<AccentsAll>({})
   const [variantsAll, setVariantsAll] = useState<VariantsAll>({})
+  const [isPreferredOption, setIsPreferredOption] = useState<boolean>()
 
   const hasUserLanguages = userLanguages.length > 0
   const hasNewEmptyLanguage =
@@ -96,6 +97,7 @@ function ProfileInfoLanguages({
               variantsAll={variantsAll}
               userLanguages={userLanguages}
               setUserLanguages={setUserLanguages}
+              setIsPreferredOption={setIsPreferredOption}
             />
 
             {variantsAll[locale] && (
@@ -127,6 +129,8 @@ function ProfileInfoLanguages({
                 userLanguages={userLanguages}
                 setUserLanguages={setUserLanguages}
                 locale={locale}
+                isPreferredOption={isPreferredOption}
+                setIsPreferredOption={setIsPreferredOption}
               />
             )}
           </div>
