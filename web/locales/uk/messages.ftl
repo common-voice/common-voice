@@ -18,8 +18,8 @@ banner-error-slow-1 = На жаль, Common Voice працює повільно.
 banner-error-slow-2 = Наш сервіс перевантажено вебтрафіком. Ми досліджуємо проблему.
 banner-error-slow-link = Сторінка стану
 error-something-went-wrong = Перепрошуємо, щось пішло не так
-error-clip-upload = Ніяк не вдається вивантажити цей кліп, продовжити спроби?
-error-clip-upload-server = Ніяк не вдається вивантажити цей кліп на сервер. Перезавантажте сторінку або повторіть спробу пізніше.
+error-clip-upload = Ніяк не вдається вивантажити це озвучення, продовжити спроби?
+error-clip-upload-server = Ніяк не вдається вивантажити це озвучення на сервер. Перезавантажте сторінку або повторіть спробу пізніше.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -282,7 +282,7 @@ wall-of-text-second = Більшість даних, що використову
 show-wall-of-text = Докладніше
 help-us-title = Допоможіть нам перевірити речення!
 help-us-explain = Натисніть кнопку відтворення, прослухайте і повідомте нас чи правильно вимовлено речення внизу.
-no-clips-to-validate = Схоже, немає жодних записів для прослуховування цією мовою. Допоможіть нам створити нові, зробивши декілька записів.
+no-clips-to-validate = Схоже, немає озвучень для прослуховування цією мовою. Допоможіть нам створити нові, зробивши декілька записів.
 vote-yes = Так
 vote-no = Ні
 toggle-play-tooltip = Натисніть { shortcut-play-toggle } для перемикання режиму відтворення
