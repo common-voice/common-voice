@@ -79,6 +79,12 @@ const Review: React.FC<Props> = ({ getString }) => {
     (!isLoading && pendingSentencesSubmissions.length === 0) ||
     activeSentenceIndex < 0
 
+  const currentLanguage = account?.languages.find(
+    language => language.locale == currentLocale
+  )
+
+  const isVariantPreferredOption = currentLanguage?.variant.is_preferred_option
+
   const reportModalProps = {
     reasons: [
       'offensive-language',
@@ -117,10 +123,18 @@ const Review: React.FC<Props> = ({ getString }) => {
     return <Spinner />
   }
 
+  if (isVariantPreferredOption && noPendingSentences) {
+    return (
+      <SentenceCollectionWrapper dataTestId="review-page" type="review">
+        <ReviewEmptyState localizedMessageId="no-sentences-for-variants" />
+      </SentenceCollectionWrapper>
+    )
+  }
+
   if (noPendingSentences) {
     return (
       <SentenceCollectionWrapper dataTestId="review-page" type="review">
-        <ReviewEmptyState />
+        <ReviewEmptyState localizedMessageId="sc-review-empty-state" />
       </SentenceCollectionWrapper>
     )
   }

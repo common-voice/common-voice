@@ -1003,7 +1003,7 @@ listen-abort-title = Finish validating clips?
 listen-abort-cancel = Continue validating
 listen-abort-confirm = Finish validating
 speak-empty-state = We've run out of sentences to record in this language...
-speak-empty-state-variants = Your language variant might be out of sentences! If you’re comfortable, you can change your settings to see other sentences within your language.
+no-sentences-for-variants = Your language variant might be out of sentences! If you’re comfortable, you can change your settings to see other sentences within your language.
 speak-empty-state-cta = Contribute sentences
 speak-loading-error =
     We couldn’t get any sentences for you to speak.
