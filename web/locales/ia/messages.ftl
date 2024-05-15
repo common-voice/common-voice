@@ -455,6 +455,8 @@ variant-contribution-options-header = Optiones de contribution pro le variantes
 variant-contribution-help = Alcun variantes e dialectos in un lingua o familia de linguas es multo differente le un le altere. Si tu ha difficultates a adaptar te a un variante particular, tu pote cambiar tu preferentias ci.
 variant-contribution-option-1 = Solo monstra me phrases e registrationes ab mi variante
 variant-contribution-option-2 = Monstra me phrases e registrationes de tote le variantes in mi lingua
+variant-contribution-warning-title = ⓘ Non tote le phrases e registrationes ancora ha placas de variante!
+variant-contribution-warning-subtitle = Si tu ha difficultates a contribuer, tu sempre pote retornar pro vider tote le contento pro tu lingua.
 
 ## Profile - Email
 
@@ -968,11 +970,13 @@ listen-again-instruction = Optime labor!<playIcon></playIcon> Ascolta de novo qu
 listen-3rd-time-instruction = Duo facite, continua assi!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Le ultime!
 listen-empty-state = Nos non ha plus registrationes a validar pro iste lingua...
+listen-empty-state-variants = Tu variante de lingua poterea carer de registrationes! Si tu vole, tu pote cambiar tu parametros pro vider altere phrases intra tu lingua.
 listen-loading-error = Impossibile trovar alcun registration audio a facer te ascoltar. Retenta plus tarde.
 listen-abort-title = Terminar le validation del registrationes?
 listen-abort-cancel = Continuar le validation
 listen-abort-confirm = Terminar le validation
 speak-empty-state = Nos non ha plus phrases a registrar pro iste lingua...
+no-sentences-for-variants = Tu variante de lingua poterea carer de phrases! Si tu vole, tu pote cambiar tu parametros pro vider altere phrases intra tu lingua.
 speak-empty-state-cta = Contribue con altere phrases
 speak-loading-error = Impossibile trovar alcun phrases a facer te pronunciar. Retenta plus tarde.
 record-button-label = Registra tu voce
