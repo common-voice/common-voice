@@ -426,6 +426,10 @@ help-variants = Ju duhet ca ndihmë me variantet?
 help-variants-explanation = Variantet një formë specifike për një gjuhë - për shembull të përbashkët për ata që banojnë në një vend, ose në një bashkësi. Ndonjëherë këta quhen dialekte.
 help-sex-or-gender-changes = Ju duhet ndihmë për ndryshime Seksi, ose Gjinie?
 help-sex-or-gender-changes-explanation = Po ofrojmë më tepër mundësi për t’u dhënë njerëzve më tepër zgjedhje në ato çka na tregojnë rreth identitetit të tyre seksor apo gjinor. Ju lutemi, vetë-përshkruhuni në mënyrën që ndjeni më natyrore për ju. <learnMoreLink>Mësoni më tepër rreth trajtimit tonë ndaj seksit dhe gjinisë.</learnMoreLink>
+variant-contribution-help = Disa variante dhe dialekte brenda një gjuhe ose familje gjuhësh janë shumë të ndryshme nga njëri-tjetri. Nëse keni probleme për t’u marrë me një variant të caktuar, mund të ndryshoni këtu parapëlqimet tuaja.
+variant-contribution-option-1 = Shfaqmëni togfjalësha dhe copëza nga krejt variantet brenda gjuhës time
+variant-contribution-option-2 = Shfaqmëni togfjalësha dhe copëza vetëm nga varianti im
+variant-contribution-warning-title = ⓘ Jo krejt togfjalëshat dhe copëzat kanë tashmë etiketa Variant!
 
 ## Profile - Email
 
@@ -1734,13 +1738,7 @@ bulk-sentences = Mori Frazash
 sentence-domain-combobox-label = Përkatësi Togfjalëshi
 sentence-domain-select-placeholder = Përzgjidhni deri në tre përkatësi (në daçi)
 # Sentence Domain dropdown option
-agriculture = Bujqësi
-# Sentence Domain dropdown option
-automotive = Industri automjetesh
-# Sentence Domain dropdown option
 finance = Financë
-# Sentence Domain dropdown option
-food_service_retail = Ushqim, Shërbim dhe Shitje Me Pakicë
 # Sentence Domain dropdown option
 general = Të përgjithshme
 # Sentence Domain dropdown option
