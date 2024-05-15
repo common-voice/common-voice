@@ -976,7 +976,7 @@ listen-abort-title = Überprüfung der Aufzeichnungen abschließen?
 listen-abort-cancel = Überprüfung fortsetzen
 listen-abort-confirm = Überprüfung abschließen
 speak-empty-state = Für diese Sprache gibt es keine Sätze mehr, die aufgenommen werden könnten…
-speak-empty-state-variants = Ihre Sprachvariante hat möglicherweise keine Sätze mehr! Wenn Sie sich wohl fühlen, können Sie Ihre Einstellungen ändern, um andere Sätze in Ihrer Sprache zu sehen.
+no-sentences-for-variants = Ihre Sprachvariante hat möglicherweise keine Sätze mehr! Wenn Sie sich wohl fühlen, können Sie Ihre Einstellungen ändern, um andere Sätze in Ihrer Sprache zu sehen.
 speak-empty-state-cta = Sätze beitragen
 speak-loading-error =
     Wir konnten für Sie keine Sätze zum Sprechen abrufen.
