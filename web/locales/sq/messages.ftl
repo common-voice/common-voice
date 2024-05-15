@@ -430,6 +430,7 @@ variant-contribution-help = Disa variante dhe dialekte brenda një gjuhe ose fam
 variant-contribution-option-1 = Shfaqmëni togfjalësha dhe copëza nga krejt variantet brenda gjuhës time
 variant-contribution-option-2 = Shfaqmëni togfjalësha dhe copëza vetëm nga varianti im
 variant-contribution-warning-title = ⓘ Jo krejt togfjalëshat dhe copëzat kanë tashmë etiketa Variant!
+variant-contribution-warning-subtitle = Nëse keni probleme me dhënie kontributi, mund të ktheheni kurdo te parja e krejt lëndës për gjuhën tuaj.
 
 ## Profile - Email
 
@@ -941,6 +942,7 @@ listen-again-instruction = Punë e paqme!<playIcon></playIcon> Ridëgjojeni, kur
 listen-3rd-time-instruction = 2 më pak, vazhdoni kështu!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>E fundit!
 listen-empty-state = Na u mbaruan copëzat për vleftësim në këtë gjuhë…
+listen-empty-state-variants = Mund të jenë mbaruar copëzat për variantin tuaj të gjuhës! Nëse s’ju prish punë, mund të ndryshoni rregullimet tuaja, që të shihni togfjalësh të tjerë brenda gjuhës tuaj.
 listen-loading-error =
     S’morëm dot ndonjë copëz audio që ta dëgjoni.
     Ju lutemi, riprovoni më vonë.
@@ -948,6 +950,7 @@ listen-abort-title = Përfunduat vlerësim copëzash?
 listen-abort-cancel = Vazhdoni me vlerësimin
 listen-abort-confirm = Përfundoni vlerësimin
 speak-empty-state = Na u mbaruan frazat për incizim në këtë gjuhë…
+speak-empty-state-variants = Mund të jenë mbaruar togfjalëshat për variantin tuaj të gjuhës! Nëse s’ju prish punë, mund të ndryshoni rregullimet tuaja, që të shihni togfjalësh të tjerë brenda gjuhës tuaj.
 speak-empty-state-cta = Jepni ndihmesë me fraza
 speak-loading-error =
     S’morëm dot ndonjë copëz audio që ta shqiptoni.
@@ -960,6 +963,7 @@ target-segment-first-card = Po kontribuoni te segmenti ynë i parë
 target-segment-first-banner = Ndihmoni të krijohet segmenti i parë në { $locale } për Common Voice
 target-segment-add-voice = Shtoni Zërin Tuaj
 target-segment-learn-more = Mësoni Më Tepër
+change-preferences = Ndryshoni parapëlqimet
 
 ## Contribution Nav Items
 
