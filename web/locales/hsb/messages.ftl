@@ -936,6 +936,7 @@ listen-again-instruction = Wulkotne dźěło! <playIcon></playIcon> Słuchajće 
 listen-3rd-time-instruction = 2 sčinjenej, <playIcon></playIcon> dale tak!
 listen-last-time-instruction = <playIcon></playIcon> Poslednje!
 listen-empty-state = Klipy su nam wušli, kotrež so w tutej rěči přepruwuja...
+listen-empty-state-variants = Waša rěčna warianta snano klipy hižo nima! Jeli sće derje, móžeće swoje nastajenja změnić, zo byšće druhe sady w swojej rěči widźał.
 listen-loading-error =
     Njemóžachmy awdioklipy za was za słuchanje wotwołać.
     Prošu spytajće pozdźišo hišće raz.
@@ -943,6 +944,7 @@ listen-abort-title = Přepruwowanje klipow dokónčić?
 listen-abort-cancel = Z přepruwowanjom pokročować
 listen-abort-confirm = Přepruwowanje dokónčić
 speak-empty-state = Sady su nam wušli, kotrež so w tutej rěči natočeja...
+no-sentences-for-variants = Waša rěčna warianta snano sady hižo nima! Jeli sće derje, móžeće swoje nastajenja změnić, zo byšće druhe sady w swojej rěči widźał.
 speak-empty-state-cta = Sady přinošować
 speak-loading-error =
     Njemóžachmy sady za was za rěčenje wotwołać.
