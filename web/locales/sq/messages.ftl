@@ -1742,7 +1742,13 @@ bulk-sentences = Mori Frazash
 sentence-domain-combobox-label = Përkatësi Togfjalëshi
 sentence-domain-select-placeholder = Përzgjidhni deri në tre përkatësi (në daçi)
 # Sentence Domain dropdown option
+agriculture_food = Bujqësi dhe Ushqim
+# Sentence Domain dropdown option
+automotive_transport = Industri Automobilistike dhe Transport
+# Sentence Domain dropdown option
 finance = Financë
+# Sentence Domain dropdown option
+service_retail = Shërbim dhe Shitje Me Pakicë
 # Sentence Domain dropdown option
 general = Të përgjithshme
 # Sentence Domain dropdown option
@@ -1765,6 +1771,8 @@ sentence-variant-select-multiple-variants = Gjuhë e përgjithshme / variante t�
 
 ## LANGUAGE VARIANT CODES
 
+pt-BR = Portugalisht (Brazil)
+pt-PT = Portugalisht (Portugali)
 
 ## REVIEW PAGE
 
