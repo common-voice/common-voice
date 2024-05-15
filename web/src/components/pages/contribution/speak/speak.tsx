@@ -596,10 +596,10 @@ class SpeakPage extends React.Component<Props, State> {
     const noClips = clips.length === 0;
     const noNewClips = noClips || !clips.some(clip => clip.recording === null);
     const isMissingClips = !isLoading && noClips;
-    const currentLocale = user?.account?.languages.find(
-      lang => lang.locale === locale
+    const currentLanguage = user?.account?.languages.find(
+      language => language.locale === locale
     );
-    const isVariantPreferredOption = currentLocale?.variant?.is_preferred_option;
+    const isVariantPreferredOption = currentLanguage?.variant?.is_preferred_option;
 
     return (
       <>

@@ -72,7 +72,7 @@ const NoSentencesAvailableForVariant = () => (
   <div className="empty-container">
     <div className="error-card no-sentences-for-variants">
       <h1>
-        <Localized id="speak-empty-state-variants" />
+        <Localized id="no-sentences-for-variants" />
       </h1>
       <LinkButton rounded to={URLS.PROFILE_INFO} className="settings-btn">
         <Localized id="settings">
