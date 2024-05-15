@@ -78,7 +78,9 @@ const InputLanguageVariant = ({
     } as UserLanguage;
 
     setUserLanguages(newLanguages);
-    setIsPreferredOption(false);
+    if (setIsPreferredOption) {
+      setIsPreferredOption(false);
+    }
   };
 
   if (!variants) {
