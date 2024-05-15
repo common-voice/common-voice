@@ -957,7 +957,7 @@ listen-abort-title = Hai finito di convalidare le registrazioni?
 listen-abort-cancel = Continua la convalida
 listen-abort-confirm = Termina la convalida
 speak-empty-state = Abbiamo esaurito le frasi da registrare in questa lingua…
-speak-empty-state-variants = Può darsi che non ci siano più frasi disponibili per la tua lingua. Se vuoi, puoi modificare le impostazioni per visualizzare altre frasi nella tua lingua.
+no-sentences-for-variants = Può darsi che non ci siano più frasi disponibili per la tua lingua. Se vuoi, puoi modificare le impostazioni per visualizzare altre frasi nella tua lingua.
 speak-empty-state-cta = Contribuisci con altre frasi
 speak-loading-error =
     Non è stato possibile caricare alcuna frase da registrare.
