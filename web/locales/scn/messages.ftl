@@ -1,6 +1,6 @@
 ## General
 
-yes-receive-emails = Se, mànnami posta elittrònica. Vulissi arristari nfurmatu supra ô pruggettu Common Voice.
+yes-receive-emails = Se, mànnami a posta elittrònica. Vulissi arristari nfurmatu supra ô pruggettu Common Voice.
 stayintouch = Mozilla sta ricugghiennu na cumunità di genti ntirissati ê tecnuluggìi vucali. Ni piacissi arristari 'n cuntattu cu tia pi nfurmàriti dî nuvità e dî novi funti di dati, ma macari pi sapiri comu usi i dati di Common Voice.
 privacy-info = Prumittemu di stari accura ê to dati. Leggi cchiù nfurmazziuna nnâ nostra <privacyLink>nfurmativa supra â privatizza</privacyLink>.
 return-to-cv = Torna a Common Voice
