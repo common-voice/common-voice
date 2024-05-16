@@ -445,8 +445,17 @@ skip-submission-note = Nota: hâ ammaccari sempri Parra o Ascuta pi canciari tip
 off = Disattiva
 on = Attiva
 help-accent = Abbisogni d'ajutu cu l'accentu?
+help-accent-explanation = U to accentu è a manera comu prununzi i palori. Po' addipènniri di unni vivi, di l'autri lingui chi parri e di assai autri scaciuni. Cca po' spàrtiri tutti i nfurmazziuna chi penzi ponnu èssiri mpurtanti.
 help-variants = Abbisogni d'ajutu chî varianti?
+help-variants-explanation = I varianti sunnu furmi spicìfichi di na lingua - pi scempru furmi spartuti di genti chi càmpanu nta na stissa zona. Certi voti vennu chiamati dialetti.
 help-sex-or-gender-changes = Abbisogni d'ajutu pî canci di sessu o gèniri?
+help-sex-or-gender-changes-explanation = Damu assai aḍḍijuti pi dàrici ê genti manera di putìrini dari nfurmazzioni ncapu â so dintità di gèniri. Pi favuri, discrìviti comu ti veni cchiù naturali. <learnMoreLink>Leggi cchiù assai ncapu ô nostru approcciu ô gèniri</learnMoreLink>.
+variant-contribution-options-header = Aḍḍijuti di cuntribbuzzioni pî varianti
+variant-contribution-help = Certi varianti e dialetti di na lingua sunnu assai diversi ntra di iḍḍi. Si ài prubblemi cu na certa varianti, poi canciari cca i to prifirenzi.
+variant-contribution-option-1 = Mùstrami i frasi e i riggistrazzioni di tutti i varianti dâ me lingua
+variant-contribution-option-2 = Mùstrami i frasi e i riggistrazzioni sulu dâ me varianti
+variant-contribution-warning-title = ⓘ Nun sunnu tutti i frasi chi ànnu tichetti pî varianti!
+variant-contribution-warning-subtitle = Si ài prubblemi a cullabburari, po' turnari a vìdiri tutti i cuntinuti pâ to lingua quannu voi.
 
 ## Profile - Email
 
@@ -455,6 +464,9 @@ browse-file = Trascina e lassa o <browseWrap>Scegghi</browseWrap>
 connect-gravatar = Cunnetti Gravatar
 gravatar_not_found = Nuḍḍu Gravatar attruvatu pû to nnirizzu e-mail
 file_too_large = U pricu ca scigghisti è troppu granni
+avatar-uploaded = Àvatar carricatu
+max-file-size = Màssimu { $kb }kb
+remove-avatar = Leva àvatar
 
 ## Profile - Email
 
@@ -507,13 +519,27 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Picchì Common Voice?
+how-does-it-work-title-v2 = Comu funziona Common Voice?
 how-does-it-work-text = Stamu arricugghiennu nu nzemi lìbbiru di vuci. Dùnani a to vuci, cuntrolla l'accuratizza dî riggistrazziuna vucali di l'autri, ammigghiura i dati pi tutti.
 
 ## How does it work section
 
+about-language-req-subtitle = Unu addumanna d'agghiùnciri na lingua.
+about-localization-title = Lucalizzazzioni dû situ
+about-localization-subtitle = U testu dû situ veni traduciutu nna ḍḍa lingua
+about-sentence-collection-title = Ricota di frasi
+about-sentence-collection-subtitle = Si ricògghinu frasi di fari lèggiri a vuci auta ê genti.
+about-new-lang-title = Abbìu di na nova lingua
+about-new-lang-subtitle = Abbiamu u situ di Common Voice nna sta lingua.
+about-voice-contrib-title = Cuntribbuti vucali
+about-voice-contrib-subtitle = I genti vennu e cuntribbuìscinu câ so vuci.
+about-voice-validation-title = Validazzioni vucali
+about-voice-validation-subtitle = Autri genti vàlidanu sti riggistrazzioni audiu.
+about-dataset-release-title = Pubblicazzioni dî dati
 about-dataset-release-subtitle = Pubblicamu i dati ogni 3 misi.
 about-subscribe-text = Vo' arristari attualizzatu ncapu a Common Voice?
 about-speak = Parra
+about-speak-text = I cullabburatura riggìstranu audiu liggennu di na banca di frasi dunati.
 about-listen = Ascuta
 about-is-it-valid = A riggistrazziuni è vàlita?
 about-is-it-valid-text = Na riggistrazziuni vucali veni marcata comu “vàlita” quannu n'utenti l'appruva dànnuci un Se.
@@ -555,6 +581,7 @@ about-playbook-how-record-quality = Comu riggistru n'audiu di qualità auta?
 
 ## How to grow language
 
+about-playbook-how-grow-language = Comu facemu a fari crìsciri na lingua nne Common Voice?
 
 ## How to validate
 
