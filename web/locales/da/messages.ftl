@@ -1599,28 +1599,62 @@ just-unsure = Bare usikker?
 example = Eksempel
 varying-pronunciations-explanation-2 = Hvis du på den anden side får indtrykket af, at oplæseren aldrig er stødt på ordet før og gætter på, hvordan det skal udtales - så afvis optagelsen. Hvis du er usikker, så klik på knappen "Spring over".
 misreadings-explanation-2 = Meget almindelige fejl omfatter:
+misreadings-explanation-7 = Flere forsøg på at læse et ord.
+adding-sentences-subheader-offensive-content = Stødende indhold
+reviewing-sentences-explanation-2 = Hvis sætningen ikke opfylder ovenstående kriterier, skal du klikke på knappen "Nej".
+reviewing-sentences-explanation-3 = Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
+reviewing-sentences-explanation-4 = Hvis du løber tør for sætninger at gennemgå, må du meget gerne hjælpe os med at indsamle flere sætninger!
 
 ## WRITE PAGE
 
+sentence =
+    .label = Sætning
+sc-write-submit-confirm = Jeg bekræfter, at denne sætning er i <wikipediaLink>offentligt domæne</wikipediaLink>, og at jeg har tilladelse til at uploade den.
+sc-review-write-title = Hvilke sætninger kan jeg tilføje?
+new-sentence-rule-2 = Færre end 15 ord per sætning
+new-sentence-rule-3 = Brug korrekt grammatik
+new-sentence-rule-4 = Brug korrekt stavning og tegnsætning
+new-sentence-rule-5 = Ingen tal og specialtegn
+new-sentence-rule-6 = Ingen udenlandske bogstaver
 how-to-cite = Hvordan citerer jeg?
+guidelines = Retningslinjer
 contact-us = Kontakt os
 add-sentence-success = 1 sætning indsamlet
 add-sentence-error = Fejl ved tilføjelse af sætning
 required-field = Udfyld venligst dette felt.
+single-sentence = Enkelt sætning
+sentence-domain-select-placeholder = Vælg op til tre domæner (valgfrit)
 
 ## LANGUAGE VARIANT CODES
 
 
 ## REVIEW PAGE
 
+sc-review-rules-title = Opfylder sætningen retningslinjerne?
+sc-review-empty-state = Der er i øjeblikket ingen sætninger at godkende på dette sprog.
+report-sc-different-language = Andet sprog
+report-sc-different-language-detail = Det er skrevet på et andet sprog end det, jeg gennemgår.
+sentences-fetch-error = Der opstod en fejl under hentning af sætninger
+review-error = Der opstod en fejl under gennemgang af denne sætning
+review-error-rate-limit-exceeded = Det går for hurtigt. Brug et øjeblik på at gennemgå sætningen for at sikre, at den er korrekt.
+sc-redirect-page-subtitle-2 = Stil os spørgsmål på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller via <emailLink>e-mail</emailLink>.
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction = Træk din fil hertil eller <uploadButton>klik for at uploade</uploadButton>
+sc-bulk-upload-instruction-drop = Slip filen her for at uploade
+bulk-upload-additional-information = Hvis der er yderligere oplysninger, du vil give om denne fil, så kontakt <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Prøv igen ved at trække din fil hertil
+try-upload-again-md = Prøv at uploade igen
 select-file = Vælg fil
 select-file-mobile = Vælg fil, der skal uploades
 accepted-files = Accepterede filtyper: Kun .tsv
 maximum-file-size = Maksimal filstørrelse: 25 MB
 what-needs-to-be-in-file = Hvad skal der være i min fil?
+upload-progress-text = Upload i gang...
+sc-bulk-submit-confirm = Jeg bekræfter, at disse sætninger er i <wikipediaLink>offentligt domæne</wikipediaLink>, og at jeg har tilladelse til at uploade dem.
+bulk-upload-failed-toast = Upload mislykkedes. Prøv igen.
+upload-more-btn-text = Vil du uploade flere sætninger?
 file-invalid-type = Ugyldig fil
 file-too-large = Filen er for stor
 file-too-small = Filen er for lille
@@ -1628,3 +1662,5 @@ too-many-files = For mange filer
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Vi har brug for</mark><br/><mark>din hjælp!</mark>
