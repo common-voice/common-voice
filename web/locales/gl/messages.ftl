@@ -455,7 +455,7 @@ variant-contribution-options-header = Opcións de contribución nas variedades
 variant-contribution-help = Dentro dunha lingua ou familia de linguas pode haber variedades ou dialectos moi diferentes entre si. Se ten dificultades en adaptarse a unha variedade específica, pode cambiar as súas preferencias aquí.
 variant-contribution-option-1 = Amosar frases e clips de todas as variedades da miña lingua
 variant-contribution-option-2 = Amosar só frases e clips da miña variedade
-variant-contribution-warning-title = ⓘ Non todas as frases e clips teñen xa a etiqueta da Variedade correspondente.
+variant-contribution-warning-title = ⓘ Non todas as frases ou fragmentos teñen xa a etiqueta da Variedade correspondente.
 variant-contribution-warning-subtitle = Se ten dificultades en contribuír, pode cambiar a ver todo o contido do seu idioma en calquera momento.
 
 ## Profile - Email
@@ -708,7 +708,7 @@ hours-validated-explanation = A conta de horas de gravación de voz que temos va
 sst = Fala-texto (STT)
 sst-explanation = As tecnoloxías fala-texto (STT) converten datos de voz en texto.
 de-identified = Anonimización
-de-identified-explanation = O proceso mediante o cal a información do perfil dun colaborador se separa dos seus fragmentos doados de voz ao empaquetalos para a descarga como parte do conxunto de datos.
+de-identified-explanation = O proceso mediante o cal a información do perfil dun colaborador se oculta nos fragmentos de voz doados ao empaquetalos para a descarga como parte do conxunto de datos.
 
 ## Error pages
 
