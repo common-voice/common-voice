@@ -447,6 +447,7 @@ help-variants = Cần một số trợ giúp với biến thể?
 help-variants-explanation = Biến thể là một dạng cụ thể của một ngôn ngữ - ví dụ như được chia sẻ bởi những người sống trong một khu vực địa lý hoặc cộng đồng. Đôi khi chúng được gọi là tiếng địa phương.
 help-sex-or-gender-changes = Cần trợ giúp về việc thay đổi giới tính?
 help-sex-or-gender-changes-explanation = Chúng tôi đang cung cấp nhiều lựa chọn hơn để giúp mọi người có nhiều lựa chọn hơn trong những gì họ cho chúng tôi biết về giới tính của họ. Hãy tự miêu tả theo cách mà bạn cảm thấy tự nhiên nhất. <learnMoreLink>Tìm hiểu thêm về cách tiếp cận của chúng tôi về giới tính.</learnMoreLink>
+variant-contribution-options-header = Tuỳ chọn biến thể để đóng góp
 variant-contribution-option-1 = Hiển thị cho tôi các câu và clip từ tất cả các biến thể trong ngôn ngữ của tôi
 variant-contribution-option-2 = Chỉ hiển thị cho tôi các câu và clip từ biến thể của tôi
 variant-contribution-warning-title = ⓘ Không phải tất cả các câu và clip đều có tag Biến thể!
@@ -964,6 +965,7 @@ listen-again-instruction = Làm tốt lắm!<playIcon></playIcon> Nghe lại khi
 listen-3rd-time-instruction = 2 cái đã xong, cố gắng lên!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Cái cuối cùng!
 listen-empty-state = Chúng tôi đã hết đoạn thoại để xác thực bằng ngôn ngữ này...
+listen-empty-state-variants = Biến thể ngôn ngữ của bạn có thể đã hết clip! Nếu thấy thoải mái, bạn có thể thay đổi cài đặt để xem các câu khác bằng ngôn ngữ của mình.
 listen-loading-error =
     Chúng tôi không thể nhận được bất kỳ đoạn âm thanh nào để bạn nghe.
     Vui lòng thử lại sau.
@@ -971,6 +973,7 @@ listen-abort-title = Hoàn tất xác thực clip?
 listen-abort-cancel = Tiếp tục xác thực
 listen-abort-confirm = Hoàn tất xác thực
 speak-empty-state = Chúng tôi đã hết câu để ghi lại bằng ngôn ngữ này...
+no-sentences-for-variants = Biến thể ngôn ngữ của bạn có thể đã hết câu! Nếu thấy thoải mái, bạn có thể thay đổi cài đặt để xem các câu khác bằng ngôn ngữ của mình.
 speak-empty-state-cta = Đóng góp câu
 speak-loading-error =
     Chúng tôi không thể nhận được bất kỳ câu nào để bạn nói.
