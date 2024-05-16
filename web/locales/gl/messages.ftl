@@ -708,7 +708,7 @@ hours-validated-explanation = A conta de horas de gravación de voz que temos va
 sst = Fala-texto (STT)
 sst-explanation = As tecnoloxías fala-texto (STT) converten datos de voz en texto.
 de-identified = Anonimización
-de-identified-explanation = O proceso mediante o cal a información do perfil dun colaborador se escurece dos seus fragmentos doados de voz  ao empaquetalos para a descarga como parte do conxunto de datos.
+de-identified-explanation = O proceso mediante o cal a información do perfil dun colaborador se separa dos seus fragmentos doados de voz ao empaquetalos para a descarga como parte do conxunto de datos.
 
 ## Error pages
 
