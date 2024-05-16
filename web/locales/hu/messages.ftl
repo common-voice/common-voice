@@ -83,6 +83,7 @@ gl = Galícia
 gn = Guarani
 gom = Goan konkani
 gu-IN = Gudzsaráti
+guc = Wayúunaiki
 ha = Hausza
 he = Héber
 hi = Hindi
@@ -125,6 +126,7 @@ lo = Lao
 lt = Litván
 ltg = Latgal
 lv = Lett
+lzz = Láz
 mai = Maithili
 mdf = Moksa
 mg = Malgas
@@ -1777,13 +1779,7 @@ bulk-sentences = Több mondat
 sentence-domain-combobox-label = Mondatdomén
 sentence-domain-select-placeholder = Válasszon legfeljebb három domént
 # Sentence Domain dropdown option
-agriculture = Mezőgazdaság
-# Sentence Domain dropdown option
-automotive = Autóipar
-# Sentence Domain dropdown option
 finance = Pénzügy
-# Sentence Domain dropdown option
-food_service_retail = Élelmiszer, szolgáltatás és kiskereskedelem
 # Sentence Domain dropdown option
 general = Általános
 # Sentence Domain dropdown option
