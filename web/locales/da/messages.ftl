@@ -904,6 +904,7 @@ action-tap = Tryk på
 contribute = Bidrag
 listen = Lyt
 write = Skriv
+review = Godkend
 skip = Spring over
 shortcuts = Genveje
 clips-with-count-pluralized =
@@ -945,7 +946,7 @@ listen-instruction = { $actionType } <playIcon></playIcon> Blev sætningen læst
 listen-again-instruction = Godt arbejde! <playIcon></playIcon> Lyt igen når du er klar
 listen-3rd-time-instruction = 2 overstået <playIcon></playIcon>, fortsæt det gode arbejde!
 listen-last-time-instruction = <playIcon></playIcon>Den sidste!
-listen-empty-state = Der er ikke flere stemmeoptagelser at validere på dette sprog...
+listen-empty-state = Der er ikke flere stemmeoptagelser - genindlæs siden eller prøv igen senere.
 listen-loading-error =
     Vi kunne ikke finde nogen lydklip, som du kan lytte til.
     Prøv igen senere.
@@ -969,6 +970,8 @@ target-segment-learn-more = Læs mere
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Indsamling af stemmer
+contribute-sentence-collection-nav-header = Indsamling af sætninger
 
 ## Reporting
 
@@ -1575,11 +1578,27 @@ localization-select =
     .label = Vælg sprog/oversættelse
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerskaber
+partnerships-become-a-partner = Bliv en Common Voice-partner
 partnerships-governments-header = Regeringer
 partnerships-our-partners = Vores partnere
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Tak fordi du donerede dine stemmoptagelser!
 why-donate = Hvorfor spørger du?
 add-information-button = Tilføj information
+first-cta-gender-select-default-option = Vælg en mulighed
+already-have-an-account = Har du allerede en konto? <login>Log ind</login>
+create-profile-button = Opret en profil
+voice-collection = Indsamling af stemmer
 sentence-collection = Indsamling af sætninger
+varying-pronunciations = Forskellige udtaler
+misreadings = Fejllæsninger
+offensive-content = Stødende indhold
+background-noise = Baggrundsstøj
+volume = Lydstyrke
+just-unsure = Bare usikker?
+example = Eksempel
+varying-pronunciations-explanation-2 = Hvis du på den anden side får indtrykket af, at oplæseren aldrig er stødt på ordet før og gætter på, hvordan det skal udtales - så afvis optagelsen. Hvis du er usikker, så klik på knappen "Spring over".
+misreadings-explanation-2 = Meget almindelige fejl omfatter:
 
 ## WRITE PAGE
 
