@@ -451,6 +451,12 @@ help-variants = Necesita axuda coas variedades?
 help-variants-explanation = As variedades son formas específicas dunha lingua. Por exemplo, unha variedade é a que comparten as persoas que viven nunha determinada zona xeográfica ou comunidade. Ás veces estas chámanse dialectos.
 help-sex-or-gender-changes = Necesita axuda cos cambios de sexo ou xénero?
 help-sex-or-gender-changes-explanation = Estamos ofrecendo máis opcións para darlle máis opcións á xente no que nos di sobre o seu sexo ou identidade de xénero. Por favor, autodescríbase da forma que lle pareza máis natural. <learnMoreLink>Obteña máis información sobre o noso enfoque do sexo e o xénero.</learnMoreLink>
+variant-contribution-options-header = Opcións de contribución nas variedades
+variant-contribution-help = Dentro dunha lingua ou familia de linguas pode haber variedades ou dialectos moi diferentes entre si. Se ten dificultades en adaptarse a unha variedade específica, pode cambiar as súas preferencias aquí.
+variant-contribution-option-1 = Amosar frases e clips de todas as variedades da miña lingua
+variant-contribution-option-2 = Amosar só frases e clips da miña variedade
+variant-contribution-warning-title = ⓘ Non todas as frases e clips teñen xa a etiqueta da Variedade correspondente.
+variant-contribution-warning-subtitle = Se ten dificultades en contribuír, pode cambiar a ver todo o contido do seu idioma en calquera momento.
 
 ## Profile - Email
 
@@ -964,6 +970,7 @@ listen-again-instruction = Bo traballo!<playIcon></playIcon> Volva escoitar cand
 listen-3rd-time-instruction = 2 menos, sigamos!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Derradeira!
 listen-empty-state = Posiblemente esgotamos os fragmentos para aprobar: actualice a páxina ou ténteo de novo máis tarde.
+listen-empty-state-variants = É posible que a súa variedade de idioma non teña gravacións. Se quere, pode cambiar a súa configuración para ver outras frases no seu idioma.
 listen-loading-error =
     Non foi posible atopar ningún fragmento de audio para que o escoite.
     Por favor inténteo de novo máis tarde.
@@ -971,6 +978,7 @@ listen-abort-title = Quere rematar de validar os fragmentos?
 listen-abort-cancel = Seguir validando
 listen-abort-confirm = Finalizar a validación
 speak-empty-state = Esgotamos as frases para gravar neste idioma
+no-sentences-for-variants = É posible que a súa variedade de idioma non teña frases dispoñibles. Se quere, pode cambiar a súa configuración para ver outras frases no seu idioma.
 speak-empty-state-cta = Propor novas frases
 speak-loading-error =
     Non foi posible atopar ningunha frase para que lea.
@@ -984,6 +992,7 @@ target-segment-generic-card = Está a contribuír a un segmento obxectivo
 target-segment-first-banner = Axude a crear o primeiro segmento obxectivo de Common Voice en { $locale }
 target-segment-add-voice = Engada a súa voz
 target-segment-learn-more = Saber máis
+change-preferences = Cambiar as preferencias
 
 ## Contribution Nav Items
 
