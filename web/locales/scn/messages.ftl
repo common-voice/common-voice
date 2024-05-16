@@ -18,6 +18,8 @@ banner-error-slow-1 = Ni dispiaci, Common Voice sta jennu adaciu. Grazzi pû to 
 banner-error-slow-2 = Stamu avennu assai tràficu e stamu circannu di capiri a situazzioni.
 banner-error-slow-link = Pàggina di statu.
 error-something-went-wrong = Ni dispiaci, quarchi cosa jìu mali.
+error-clip-upload = U carricamentu di sta riggistrazzioni fallisci sempri. Pruvari arrè?
+error-clip-upload-server = U carricamentu di sta riggistrazzioni fallisci sempri nnô sirburi. Càrrica arrè a pàggina o riprova doppu.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -241,6 +243,7 @@ speak-now = Parra ora
 datasets = Archivi di dati
 languages = Lingui
 about = Nfurmazziuna
+partner = Assuciatu
 profile = Prufilu
 help = Ajutu
 contact = Cuntatti
@@ -259,6 +262,7 @@ donate = Fai na dunazzioni
 ## Home Page
 
 home-title = Common Voice è un pruggettu di Mozilla pi nzignàrici ê màchini comu pàrranu i genti nnâ vita vera.
+default-tagline = Mozilla Common Voice è na nizziativa pi ajutari a nzignari ê màchini comu pàrranu i genti riali.
 home-cta = Parra, cuntribbuisci!
 wall-of-text-start = A vuci è naturali, a vuci è umana. Pi chistu a pussibbilità di criari na tecnuluggìa vucali usàbbili di nostri màchini ni ncanta. Ma pi criari sistemi vucali, abbisugnamu di na granni quantità di dati di vuci diversi.
 wall-of-text-more-mobile = A majuranza dî dati usati dî granni cumpagnìi nun è dispunìbbili ô pùbblicu. Pinzamu chi chistu affuca a nnuvazziuni. Pi stu mutivu abbiamu Common Voice, un pruggettu di ricanuscimentu vucali lìbbiru pi tutti.
@@ -323,6 +327,7 @@ whats-public = Quali dati su' pùbblici?
 email-not-public = Nun pubblicaremu u to nnirizzu e-mail.
 recordings-and-locale-public = U nùmmaru di riggistrazziuna e i lingui unni cullàbburi sarannu pùbblici.
 username-optin-public = Po' scègghiri si pùbblicari u to nomu utenti o arristari anònimu.
+demographic-deidentified-clarity-2 = I dati dimugràfici carricati (pi scempru età, gèniri, lingua e accentu) nun sarannu mai fatti pùbblici ncapu ô to prufilu, e nun sarannu lijati ô to cuntu nnê dati. I riggistrazzioni audiu nnividuali sarannu assuciati ê dati dimugràfici pi aviri n'analisi cchiù pricisa, pi scempru, un ricircaturi putissi vuliri nzignari un mudeḍḍu p'un sigmentu di pupulazzioni spicìficu.
 username-email-not-demographic = U to nomu utenti e u to nnirizzu e-mail nun sarannu assuciati chî dati pubblicati.
 
 ## Speak & Listen Shortcuts
@@ -423,8 +428,10 @@ profile-close = Chiuji
 profile-explanation = C'un prufilu, po' tèniri trazza dî to prugressi e n'ajuti ad ammigghiurari a pricisiuni dî dati vucali.
 thanks-for-account = Grazzi pâ cunfirma dû to cuntu, accuminciamu a criari u to prufilu.
 why-demographic = Picchì è mpurtanti?
+why-demographic-explanation-2 = I dati utenti anunimizzati comu età, gèniri e accentu n'ajùtanu ad ammigghiurari i dati audiu usati pi nzignàrici ê mutura di ricanuscimentu dâ parrata. U to nomu utenti e u to nnirizzu di posta elittrònica nun sarannu mai assuciati ê dati chi manni, e po' aḍḍijiri si fari affacciari u to nomu utenti o arristari anònimu.
 accept-privacy = Sugnu d'accordu cû trattamentu di sti nfurmazziuna comu schicatu nnall'<privacyLink>abbisu di privatizza</privacyLink> di Mozilla
 accept-privacy-title = Abbisu di privatizza
+accept-privacy-and-terms = Accettu i <termsLink>cunnizziuna d'usu</termsLink> e a <privacyLink>nfurmativa ncapu â privatizza</privacyLink> di Common Voice.
 login-identity = Idintità d'accessu
 login = Trasi
 login-signup = Trasi / Riggìstrati
