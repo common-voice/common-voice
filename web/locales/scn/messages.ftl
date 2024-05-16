@@ -612,9 +612,17 @@ about-playbook-how-access-dataset = Comu pigghiu e usu i dati?
 about-playbook-how-project-governance = Comu si pìgghianu i dicisiuna dû pruggettu?
 about-playbook-how-project-governance-content-2 = A nostra girenza è funnata ncapu:
 about-playbook-how-project-governance-content-3 = Privatizza, sicurizza e trasparenza.
+about-playbook-how-project-governance-content-4 = Participazzioni dâ cumunità nnî dicisiuna.
+about-playbook-how-project-governance-content-5 = Valuri e ricanuscimentu.
+about-playbook-how-project-governance-content-6 = Rispunzabbilità ricìpruca.
+about-playbook-how-project-governance-content-7 = <governanceLink>Leggi cchiù assai ncapu â nostra girenza</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Comu si finanzia Common Voice?
+about-playbook-how-funded-content-1 = Common Voice è n'urganizzazzioni US 501c3 dâ Funnazzioni Mozilla. U pruggettu è finanziatu tuttu di <philantropicGrantLink>cuntribbuti filantròpici</philantropicGrantLink> e di dunazzioni di genti 'n tuttu u munnu.
+about-playbook-how-funded-content-2 = Costa assai mantèniri e pubblicari i dati, ammigghiurari a chiattafurma  e manijari <africaMradiLink>prugrammi cumunitari</africaMradiLink>.
+about-playbook-how-funded-content-3 = Si tu o a to urganizzazzioni vulìssivu cuntribbuiri ô pruggettu, po' fari na <donateLink>dunazzioni</donateLink> o po' cuntattari a nostra squatra assuciati ô nnirizzu <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -631,6 +639,10 @@ de-identified = Anunimizzazziuni
 
 ## Error pages
 
+error-title-404 = Nun pòttimu attruvari sta pàggina
+error-title-503 = U situ nun è dispunìbbili accamora
+error-content-503 = U situ turnarà prima pussìbbili. Pi l'ùrtimi nutizzi, jùnciti â <matrixLink>chat di cumunità nne Matrix</matrixLink> o vìsita <githubLink>Github</githubLink> o i nostri <discourseLink>stanzi Discourse</discourseLink> pi mannàrini nutizzi e nfurmàriti ncapu î prubblemi dû situ.
+error-code = Erruri { $code }
 
 ## Data
 
@@ -639,6 +651,7 @@ data-download-yes = Se
 data-download-deny = No
 data-download-license = Licenza: <licenseLink>CC-0</licenseLink>
 data-download-modal = Stai accuminciannu nu scarricamentu di <size>{ $size }GB</size>, vo' cuntinuari?
+data-subtitle = Stamu custrujennu nu nzemi di dati di vuci lìbbiru e dispunìbbili ô pùbblicu chi tutti ponnu usari pi nzignàrici all'appricazzioni chi ùsanu a vuci.
 data-get-started = <speechBlogLink>Accumincia cû ricanuscimentu vucali</speechBlogLink>
 data-other-title = Autri dati vucali…
 data-other-goto = Vai nne { $name }
@@ -646,8 +659,10 @@ data-other-download = Scàrrica i dati
 data-bundle-button = Scàrrica u pacchetti dî dati
 data-bundle-description = I dati di Common Voice cu tutti l'autri dati cca supra.
 release-version = Virsiuni
+dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>
 license-mixed = Ammiscata
+data-download-singleword-title = Scàrrica u sigmentu spicìficu chî palori sìnguli
 review-terms = Usannu Common Voice, sì d'accordu chî nostri <termsLink>cunnizziuna d'usu</termsLink> e u nostru <privacyLink>abbisu di privatizza</privacyLink>
 terms-agree = Sugnu d'accordu
 terms-disagree = Nun sugnu d'accordu
@@ -662,8 +677,10 @@ review-delete-recordings = Cancella i me riggistrazziuna
 
 ## Datasets Page
 
+datasets-heading = Archivi dî dati
 language = Lingua
 download-dataset-header = Scàrrica i dati
+download-dataset-tag = Scegghi l'archiviu dâ lingua e dâ virsiuni chi voi scarricari.
 # File size in gigabytes
 size = Grannizza
 validated-hr-total = Tutali uri appruvati
@@ -679,6 +696,7 @@ confirm-size = Sì prontu p'accuminciari nu scarricamentu di <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Accetti</b> di nun pruvari a stabbiliri l'idintità dî parranti prisenti nnî dati di Common Voice
+confirm-join-mailing-list = Ti voi jùnciri â lista di posta elittrònica di Common Voice
 download-language = Scàrrica { $language }
 validated-hours = Uri appruvati
 recorded-hours = Uri riggistrati
@@ -689,6 +707,7 @@ other-datasets = Autri dati vucali
 feedback-q = Ài suggirimenti?
 # This indicates that there is no data to display
 no-information = Nuḍḍa nfurmazzioni
+community-playbook = Libbru dâ Cumunità
 data-other-librispeech-description = LibriSpeech è un corpus cu circa 1000 uri di riggistrazziuna 'n ingrisi a 16kHz di audiulibbra dû pruggettu LibriVox.
 data-other-ted-name = Corpus TED-LIUM
 data-other-ted-description = U corpus TED-LIUM fu crijatu dî cunfirenzi dispunìbbili dû situ TED, e dî so trascrizziuna.
@@ -701,11 +720,14 @@ more = Autru
 close = Chiuji
 download = Scàrrica
 dataset-version = Virsiuni
+sha256-checksum-copied = Checksum SHA256 cupiatu!
+sha256-checksum-copied-error = Mpussìbbili cupiari u checksum SHA256
 clipboard-not-supported = Pitazzu nun suppurtatu
 no-information-available = Nuḍḍa nfurmazzioni dispunìbbili
 dataset-metadata-sex = Gèniri
 # dataset metadata - age of contributor
 dataset-metadata-age = Età
+donate-modal-message = Stai scarricanu l'archiviu dî dati
 dataset-donate-modal-heading = U sapivi chi…
 
 ## Download Modal
@@ -737,12 +759,14 @@ other-language = Autra lingua
 
 ## Request Language Pages
 
+request-language-heading = Addumanna pi na nova lingua
 request-language-form-email =
     .label = U to nnirizzu di posta elittrònica
 request-language-form-info =
     .label = Nfurmazzioni ncapu â lingua
 request-language-form-info-explanation-list-1 = Nomi dâ to lingua
 request-language-form-info-explanation-list-2 = <isoCodeLink>Codici ISO</isoCodeLink>, sî canusci
+request-language-google-recaptcha-required = Si voi cuntinuari, è nicissariu cumplitari u reCAPTCHA
 
 ## Languages Overview
 
