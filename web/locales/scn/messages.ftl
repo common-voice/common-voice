@@ -1001,23 +1001,60 @@ read-more-about = Vidi cchiù assai nnâ pàggina Nfurmazziuna
 
 ## DemoLayout
 
+demo-get-started = Accuminciamu
+demo-welcome = Ti damu u bimminutu nne Common Voice
+demo-welcome-subheader = Ti ntiressa sapìrini cchiù assai e cuntribbuiri ô pruggettu?
 
 ## Demo Datasets
 
+card-button-next = Avanti
+card-button-back = Nnarrè
+demo-language-select-label = Vidi i lingui
+demo-eofy-header = Virsiuni finali dû 2019
+demo-eofy-sub_header = Archiviu dî dati, lestu pû scarricamentu
 demo-account = Cuntu
 
 ## Demo Account
 
+demo-account-card-header = Nun è nicissariu aviri un cuntu pi cuntribbuiri, ma è assai ùtili.
+demo-account-enter-email =
+    .label = Scrivi u nnirizzu di posta elittrònica p'aviri a lijami di scrizzioni.
 demo-account-sign-up = Manna lijami di riggistrazzioni
 
 ## Demo Contribute
 
+demo-listen-subtitle = Cullabburamu?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
+contribution-criteria-nav = Criteri
+contribution-criteria-link = Capiri i criteri dâ cullabburazzioni
+contribution-criteria-page-title = Criteri di cullabburazzioni
+contribution-for-example = pi scempru
+contribution-misreadings-title = Sbagghi di littura
+contribution-misreadings-description-extended-list-1 = Mancanza di l'<strong>artìculi</strong> all'inizziu dâ riggistrazzioni.
+contribution-misreadings-description-extended-list-2 = Mancanza dâ <strong>vucali finali</strong> di na palora.
+contribution-misreadings-description-extended-list-3 = Cuntrazzioni dâ littura ca nun cci sunnu, a tipu "'scutari" mmeci di "ascutari", o puru ô cuntrariu.
+contribution-misreadings-description-extended-list-4 = Mancanza dâ fini di l'ùrtima palora picchì a riggistrazzioni fu firmata troppu viatu.
+contribution-misreadings-description-extended-list-5 = Pruvari cchiù assai di na vota a lèggiri na palora.
+contribution-misreadings-example-1-title = I dinusauri giaganti dû Triàssicu.
+contribution-misreadings-example-2-title = I dinusauru giaganti dû Triàssicu
+contribution-misreadings-example-2-explanation = [Avissi a èssiri"dinusauri"]
+contribution-misreadings-example-3-title = I dinusauri giaganti dû Triàssi-.
+contribution-misreadings-example-3-explanation = [Riggistrazzioni tagghiata prima dâ fini di l'ùrtima palora]
+contribution-misreadings-example-4-title = I dinusauri giaganti dû Triàssicu. Se.
+contribution-misreadings-example-4-explanation = [Fu riggistratu cchiù assai di chiḍḍu chi era u testu]
+contribution-misreadings-example-5-title = Jemu a la casa senza chi t'ascutamu
+contribution-misreadings-example-6-title = Jemu â casa senza chi t'ascutamu
+contribution-misreadings-example-6-explanation = [Avissi a èssiri "a la"]
+contribution-misreadings-example-7-title = Jemu a la casa senza chi ti 'scutamu
+contribution-misreadings-example-7-explanation = [Avissi a èssiri "ascutamu"]
+contribution-misreadings-example-8-title = U liafanti mancia un partugallu.
+contribution-misreadings-example-8-explanation = [U cuntinutu nun currispunni]
+contribution-varying-pronunciations-title = Prununzi variabbili
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
