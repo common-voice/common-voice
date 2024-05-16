@@ -12,6 +12,8 @@ type Props = {
   locale: string
   userLanguages: UserLanguage[]
   setUserLanguages: (userLanguages: UserLanguage[]) => void
+  isPreferredOption: boolean
+  setIsPreferredOption: React.Dispatch<React.SetStateAction<boolean>>
 }
 
 type HandleChangeEvent<T> = React.ChangeEvent<
@@ -22,14 +24,15 @@ export const VariantContributionOptions = ({
   locale,
   userLanguages,
   setUserLanguages,
+  isPreferredOption,
+  setIsPreferredOption,
 }: Props) => {
-  const userLanguage = userLanguages.find(
+  const currentLanguage = userLanguages.find(
     language => language.locale === locale
   )
 
-  const [isPreferredOption, setIsPreferredOption] = React.useState(
-    userLanguage?.variant?.is_preferred_option || false
-  )
+  const isVariantPreferredOption =
+    currentLanguage?.variant?.is_preferred_option || false
 
   const handleChange = (
     evt: HandleChangeEvent<'my-variant' | 'all-variants'>
@@ -80,7 +83,7 @@ export const VariantContributionOptions = ({
             labelClass="radio-label"
             name={`${locale}-variant-contribution-option`}
             value="all-variants"
-            checked={isPreferredOption === false}
+            checked={isVariantPreferredOption === false}
             onChange={handleChange}>
             <Localized id="variant-contribution-option-1">
               <span />
@@ -91,7 +94,7 @@ export const VariantContributionOptions = ({
             labelClass="radio-label"
             name={`${locale}-variant-contribution-option`}
             value="my-variant"
-            checked={isPreferredOption === true}
+            checked={isVariantPreferredOption === true}
             onChange={handleChange}>
             <Localized id="variant-contribution-option-2">
               <span />
@@ -99,7 +102,9 @@ export const VariantContributionOptions = ({
           </Radio>
         </div>
 
-        {isPreferredOption && <SentenceVariantWarning />}
+        {(isPreferredOption || isVariantPreferredOption) && (
+          <SentenceVariantWarning />
+        )}
       </div>
     </div>
   )

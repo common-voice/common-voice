@@ -46,6 +46,7 @@ function ProfileInfoLanguages({
   const api = useAPI()
   const [accentsAll, setAccentsAll] = useState<AccentsAll>({})
   const [variantsAll, setVariantsAll] = useState<VariantsAll>({})
+  const [isPreferredOption, setIsPreferredOption] = useState<boolean>()
 
   const hasUserLanguages = userLanguages.length > 0
   const hasNewEmptyLanguage =
@@ -82,7 +83,7 @@ function ProfileInfoLanguages({
       </Localized>
 
       <div className="form-fields">
-        {userLanguages.map(({ locale, accents }) => (
+        {userLanguages.map(({ locale, accents, variant }) => (
           <div className="language-wrap" key={locale}>
             <InputLanguageName
               locale={locale}
@@ -96,9 +97,10 @@ function ProfileInfoLanguages({
               variantsAll={variantsAll}
               userLanguages={userLanguages}
               setUserLanguages={setUserLanguages}
+              setIsPreferredOption={setIsPreferredOption}
             />
 
-            {variantsAll[locale] && (
+            {variantsAll[locale] && variant && (
               <ExpandableInformation summaryLocalizedId="help-variants">
                 <Localized id="help-variants-explanation">
                   <div />
@@ -122,11 +124,13 @@ function ProfileInfoLanguages({
               </ExpandableInformation>
             )}
 
-            {variantsAll[locale] && (
+            {variantsAll[locale] && variant && (
               <VariantContributionOptions
                 userLanguages={userLanguages}
                 setUserLanguages={setUserLanguages}
                 locale={locale}
+                isPreferredOption={isPreferredOption}
+                setIsPreferredOption={setIsPreferredOption}
               />
             )}
           </div>

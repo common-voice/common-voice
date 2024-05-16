@@ -7,7 +7,7 @@
     padding: 40px;
 
     & .sentence-variant-warning-content {
-        .title-container {
+        .sentence-variant-warning-title-container {
             display: flex;
             align-items: center;
             gap: 12px;
