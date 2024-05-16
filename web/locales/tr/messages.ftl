@@ -454,9 +454,11 @@ help-variants = Lehçelerle ilgili yardıma mı ihtiyacınız var?
 help-variants-explanation = Lehçeler bir dilin belirli biçimleridir. Örneğin, bir coğrafyada veya toplulukta yaşayanlar tarafından paylaşılır. Bazen bunlara "varyant" veya "değişke" de denir.
 help-sex-or-gender-changes = Cinsiyet değişiklikleri konusunda yardıma mı ihtiyacınız var?
 variant-contribution-options-header = Lehçe katkısı seçenekleri
+variant-contribution-help = Bir dil veya dil ailesi içindeki bazı lehçeler birbirinden çok farklı olabilir. Belirli bir lehçeyle etkileşim kurmakta zorlanıyorsanız tercihlerinizi buradan değiştirebilirsiniz.
 variant-contribution-option-1 = Dilimdeki tüm lehçelerin cümlelerini ve ses kayıtlarını göster
 variant-contribution-option-2 = Yalnızca benim lehçemdeki cümleleri ve ses kayıtlarını göster
 variant-contribution-warning-title = ⓘ Henüz bazı cümlelerde ve ses kayıtlarında lehçe etiketi yok!
+variant-contribution-warning-subtitle = Katkıda bulunurken sorun yaşıyorsanız dilinizdeki tüm içerikleri görme seçeneğine geri dönebilirsiniz.
 
 ## Profile - Email
 
