@@ -566,32 +566,52 @@ about-playbook-how-add-language = Comu agghiunciu na lingua?
 about-playbook-how-add-language-translating-heading = Tradùciri u situ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Vidi a nostra guida ncapu a comu usari Pontoon</translateVideoLink>.
 about-playbook-how-add-language-collecting-sentences-heading = Ricota dî frasi
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Vidi a nostra guida ncapu all'usu dû stratturi di frasi</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Leggi cchiù assai ncapu â ricota di frasi</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Comu funziona a lucalizzazzioni dû situ?
+about-playbook-how-localize-content-1 = A traduzzioni dû situ Common Voice mmatti nne <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Crea un cuntu</pontoonAccountLink> si nun nn'ài unu. Doppu, scegghi a to lingua <strong>("Squatra")</strong> e pigghia u pruggettu <pontoonCvLink>Common Voice</pontoonCvLink>. Cci sarannu prichi di tradùciri. Pìgghiani unu, cci sarà na frasi 'n ingrisi e un campu unni scrìviri a traduzzioni.
+about-playbook-how-localize-content-3 = A traduzzioni è dû ngrisi, ma poi vìdiri <strong>suggirimenti</strong> d'autri lingui. Ammacca ncapu all'icuna <strong>Prufilu</strong>, doppu <strong>Mpustazzioni</strong> e agghiunci i lingui chi parri. Ô gnuni vasciu a dritta cci sarà na lista di traduzzioni chiamati <strong>Locales</strong>. I traduzzioni cumpàrinu ncapu ô situ doppu un jornu.
+about-playbook-how-localize-content-4 = U situ si po ràpiri quannu è cumpletu ô 75%.
+about-playbook-how-localize-content-5 = Vidi u nostru vidiu schicativu p'ajutu.
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Comu agghiunciu frasi?
+about-playbook-how-add-sentences-content-1 = Poi agghiùnciri frasi nnâ pàggina <writePageLink>scrittura</writePageLink>, o puru i poi validari nnâ pàggina <reviewPageLink>validazzioni</reviewPageLink>.
+about-playbook-how-add-sentences-content-3 = Po' usari u <scraperLink>stratturi di frasi</scraperLink> pi pigghiari frasi curti dâ Wikipedia.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Comu riggistru n'audiu di qualità auta?
+about-playbook-how-record-content-1 = Parra câ to vuci nurmali! Semu cuntenti di sintìriti - vulemu u to accentu pi com'è, e vulemu u to vulumi nurmali, u to stili e a to ntunazzioni.
+about-playbook-how-record-content-2 = Allàscati dû scrusciu di funnu - àv'a èssiri fàcili sintìriti.
+about-playbook-how-record-content-3 = Stai accura quannu leggi - nun ti pèrdiri, nun agghiùnciri e nun canciari i palori.
+about-playbook-how-record-content-4 = Assicùrati chi a chiattafurma sta riggistrannu prima chi accuminci a parrari, e chi si ferma sulu quannu finisti.
+about-playbook-how-record-content-5 = <accuracyLink>Leggi cchiù assai ncapu ê criteri di pricisiuni</accuracyLink>.
 
 ## How to grow language
 
 about-playbook-how-grow-language = Comu facemu a fari crìsciri na lingua nne Common Voice?
+about-playbook-how-grow-language-content-2 = Mmàttiti
+about-playbook-how-grow-language-content-4 = Midia suciali
+about-playbook-how-grow-language-content-6 = Assuciazzioni e riti
 
 ## How to validate
 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Comu pigghiu e usu i dati?
 
 ## How are decisions made
 
 about-playbook-how-project-governance = Comu si pìgghianu i dicisiuna dû pruggettu?
+about-playbook-how-project-governance-content-2 = A nostra girenza è funnata ncapu:
+about-playbook-how-project-governance-content-3 = Privatizza, sicurizza e trasparenza.
 
 ## How is Common Voice funded
 
