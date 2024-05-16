@@ -447,6 +447,10 @@ help-variants = Cần một số trợ giúp với biến thể?
 help-variants-explanation = Biến thể là một dạng cụ thể của một ngôn ngữ - ví dụ như được chia sẻ bởi những người sống trong một khu vực địa lý hoặc cộng đồng. Đôi khi chúng được gọi là tiếng địa phương.
 help-sex-or-gender-changes = Cần trợ giúp về việc thay đổi giới tính?
 help-sex-or-gender-changes-explanation = Chúng tôi đang cung cấp nhiều lựa chọn hơn để giúp mọi người có nhiều lựa chọn hơn trong những gì họ cho chúng tôi biết về giới tính của họ. Hãy tự miêu tả theo cách mà bạn cảm thấy tự nhiên nhất. <learnMoreLink>Tìm hiểu thêm về cách tiếp cận của chúng tôi về giới tính.</learnMoreLink>
+variant-contribution-option-1 = Hiển thị cho tôi các câu và clip từ tất cả các biến thể trong ngôn ngữ của tôi
+variant-contribution-option-2 = Chỉ hiển thị cho tôi các câu và clip từ biến thể của tôi
+variant-contribution-warning-title = ⓘ Không phải tất cả các câu và clip đều có tag Biến thể!
+variant-contribution-warning-subtitle = Nếu gặp khó khăn khi đóng góp, bạn có thể quay lại xem tất cả nội dung bằng ngôn ngữ của mình bất kỳ lúc nào.
 
 ## Profile - Email
 
@@ -980,6 +984,7 @@ target-segment-generic-card = Bạn đang đóng góp cho một phân đoạn m�
 target-segment-first-banner = Giúp tạo phân đoạn mục tiêu đầu tiên của Common Voice trong { $locale }
 target-segment-add-voice = Thêm giọng nói của bạn
 target-segment-learn-more = Tìm hiểu thêm
+change-preferences = Thay đổi tùy chỉnh
 
 ## Contribution Nav Items
 
