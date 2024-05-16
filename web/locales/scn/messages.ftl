@@ -767,11 +767,19 @@ request-language-form-info =
 request-language-form-info-explanation-list-1 = Nomi dâ to lingua
 request-language-form-info-explanation-list-2 = <isoCodeLink>Codici ISO</isoCodeLink>, sî canusci
 request-language-google-recaptcha-required = Si voi cuntinuari, è nicissariu cumplitari u reCAPTCHA
+request-language-google-recaptcha-error = Cci fu n'erruri cû reCAPTCHA. Prova arrè.
+# Success page
+request-language-success-heading = Grazzi! Mannasti na richiesta pi na nova lingua
+request-language-success-list-1 =
+    Ntra picca avissi a ricìviri nnâ posta elittrònica
+    comu fari agghiùnciri a to lingua nne Common Voice
 
 ## Languages Overview
 
 language-section-in-progress = 'N cursu
 language-section-launched = Partuti
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Ùrtimu attualizzu: { $lastUpdatedTimeStamp }
 languages-show-more = Vidi cchiù assai
 languages-show-less = Vidi cchiù picca
 language-meter-in-progress = Prugressu
@@ -799,6 +807,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> riggistrazzioni
        *[other] <bold>{ $count }</bold> riggistrazzioni
     }
+goal-help-recording = Ajutasti Common Voice a cumplitari u <goalPercentage></goalPercentage> dû nostru ubbittivu { $goalValue } di riggistrazzioni p'ogni jornu!
+goal-help-validation = Ajutasti Common Voice a cumplitari u <goalPercentage></goalPercentage> dû nostru ubbittivu { $goalValue } di validazzioni p'ogni jornu!
 contribute-more =
     { $count ->
         [one] Sì prontu pi n'autra?
@@ -806,6 +816,8 @@ contribute-more =
     }
 record-cta = Accumincia a riggistrari
 record-platform-not-supported = Ni dispiaci, ma accamora a to chiattafurma nun è suppurtata.
+record-platform-not-supported-desktop = Nnî computer desktop poi cuntribbuiri scarricannu…
+record-platform-not-supported-ios-non-safari = Nne iOS pi favuri cuntinua cu Safari pi abbilitari a riggistrazzioni…
 record-must-allow-microphone = Hâ pirmèttiri l'usu dû micròfunu.
 record-no-mic-found = Nun attruvai nuḍḍu micròfunu.
 record-error-too-short = A riggistrazziuni è troppu curta.
@@ -833,6 +845,9 @@ listen-again-instruction = Bonu!<playIcon></playIcon> Ascùtani n'autra quannu s
 listen-3rd-time-instruction = Ni facisti dui, cuntinua accussì!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>L'ùrtima!
 listen-empty-state = Finemu i riggistrazziuna di validari nni sta lingua...
+listen-abort-title = Finisti di validari?
+listen-abort-cancel = Cuntinua a validari
+listen-abort-confirm = Finisci di validari
 speak-empty-state = Finemu i frasi di riggistrari nni sta lingua...
 speak-empty-state-cta = Cuntribbuisci cu autri frasi
 record-button-label = Riggistra a to vuci
@@ -841,9 +856,12 @@ keep-track-profile = Vidi soccu facisti c'un prufilu
 login-to-get-started = Trasi o riggìstrati p'accuminciari
 target-segment-add-voice = Agghiungi a to vuci
 target-segment-learn-more = Cchiù nfurmazziuna
+change-preferences = Cancia prifirenzi
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Ricota di vuci
+contribute-sentence-collection-nav-header = Ricota di frasi
 
 ## Reporting
 
@@ -889,6 +907,7 @@ validations =
 
 your-languages = I to lingui
 toward-next-goal = Ammeri u pròssimu ubbittivu
+goal-reached = Ubbittivu agghicatu
 clips-you-recorded = Riggistrazziuna fatti
 clips-you-validated = Riggistrazziuna chi validasti
 stats = Statìstichi
@@ -902,19 +921,33 @@ validated-clips = Riggistrazziuna validati
 total-approved = Tutali appruvati
 overall-accuracy = Pricisiuni glubbali
 set-visibility = Mposta a me visibbilità
+show-ranking = Ammustra a me pusizzioni
 
 ## Custom Goals
 
+get-started-goals = Ntruduzzioni all'ubbittivi
+create-custom-goal = Cria n'ubbittivu pirsunalizzatu
+goal-type = Chi tipu d'ubbittivu voi criari?
+both-speak-and-listen = Tutti dui
+both-speak-and-listen-long = Tutti dui (parrari e ascutari)
+daily-goal = Ubbittivu dû jornu
+weekly-goal = Ubbittivu dâ simana
 easy-difficulty = Fàcili
 average-difficulty = Nurmali
 difficult-difficulty = Diffìcili
 pro-difficulty = Mastru
 want-to-continue = Vo' cuntinuari?
+build-custom-goal = Cria n'ubbittivu pirsunalizzatu
 set-a-goal = Mposta n'ubbittivu
 cant-decide = Nun sai chi fari?
 how-many-per-day = Granni! Quanti riggistrazziuna ô jornu?
 how-many-a-week = Granni! Quanti riggistrazziuna â simana?
 which-goal-type = Vo' parrari, ascutari o tutti du'?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } riggistrazzioni
+       *[other] { $count } riggistrazzioni
+    }
 help-share-goal = Ajùtani ad attruvari cchiù vuci, sparti u to ubbittivu
 confirm-goal = Cunferma ubbittivu
 goal-interval-weekly = Pâ simana
@@ -936,8 +969,27 @@ profile-form-delete = Cancella prufilu
 
 ## Profile Download
 
+download-q = Voi scarricari i to dati?
+download-info = Dinni chi voi scarricari:
 download-profile-title = Prufilu
+download-profile-info = Nnirizzi di posta elittrònica, nomu utenti e nfurmazzioni dimugràfichi, dispunìbbili sùbbitu
+download-profile-size = Quarchi byte
+download-recordings-title = Riggistrazzioni
+download-recordings-info = Prichi MP3 e frasi assuciati, cci voli n'anticchia di tempu pi priparalli
+download-recordings-size = Di sòlitu quarchi megabyte
+download-recordings-unavailable = Nun po' addumannari i to riggistrazzioni mentri chi cc'è n'autra richiesta 'n cursu.
+download-recently-requested = Po' addumannari u scarricamentu dî to riggistrazzioni ogni { $days } jorna.
 download-size = Grannizza
+download-start = Scàrrica i dati dû prufilu
+download-request = Addumanna riggistrazzioni
+download-request-button = Scàrrica
+download-request-title = { $created }
+download-request-archive-single = Pricu ZIP sìngulu chi cunteni
+download-request-archive-multiple = Spartutu nne { $archiveCount } prichi ZIP chi cuntèninu
+download-request-refresh-button = Attualizza
+download-request-modal-title = Lijami di scarricamentu
+download-request-link-text = ZIP #{ $offset } di { $total }
+download-request-metadata-link = Testu dâ frasi
 
 ## Landing
 
