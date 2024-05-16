@@ -972,6 +972,7 @@ target-segment-generic-card = Bir hedef segmentine katkıda bulunuyorsunuz
 target-segment-first-banner = Common Voice’un ilk { $locale } hedef segmentini oluşturmaya yardımcı olun
 target-segment-add-voice = Sesinizi ekleyin
 target-segment-learn-more = Daha fazla bilgi alın
+change-preferences = Tercihleri değiştir
 
 ## Contribution Nav Items
 
