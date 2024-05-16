@@ -1664,3 +1664,7 @@ too-many-files = For mange filer
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Vi har brug for</mark><br/><mark>din hjælp!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Det koster næsten en million dollars om året at hoste datasættene og forbedre platformen for de over 100 sprogfællesskaber, der er afhængige af det, vi laver. <strong>Hvis du værdsætter åbne, inkluderende data - så donér i dag!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Bruger du CV til</mark><br/><mark>din forskning?</mark>
