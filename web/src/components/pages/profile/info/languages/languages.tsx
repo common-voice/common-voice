@@ -83,7 +83,7 @@ function ProfileInfoLanguages({
       </Localized>
 
       <div className="form-fields">
-        {userLanguages.map(({ locale, accents }) => (
+        {userLanguages.map(({ locale, accents, variant }) => (
           <div className="language-wrap" key={locale}>
             <InputLanguageName
               locale={locale}
@@ -100,7 +100,7 @@ function ProfileInfoLanguages({
               setIsPreferredOption={setIsPreferredOption}
             />
 
-            {variantsAll[locale] && (
+            {variantsAll[locale] && variant && (
               <ExpandableInformation summaryLocalizedId="help-variants">
                 <Localized id="help-variants-explanation">
                   <div />
@@ -124,7 +124,7 @@ function ProfileInfoLanguages({
               </ExpandableInformation>
             )}
 
-            {variantsAll[locale] && (
+            {variantsAll[locale] && variant && (
               <VariantContributionOptions
                 userLanguages={userLanguages}
                 setUserLanguages={setUserLanguages}
