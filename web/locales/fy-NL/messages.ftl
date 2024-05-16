@@ -986,7 +986,7 @@ listen-abort-title = Falidearjen fan fragminten foltôgje?
 listen-abort-cancel = Trochgean mei falidearjen
 listen-abort-confirm = Falidearjen foltôgje
 speak-empty-state = Wy hawwe yn dizze taal gjin op te nimmen sinnen mear…
-speak-empty-state-variants = Jo taalfariant befettet mooglik gjin sinnen mear! As jo tefreden binne, kinne jo jo ynstellingen wizigje om oare sinnen yn jo taal te sjen.
+no-sentences-for-variants = Jo taalfariant befettet mooglik gjin sinnen mear! As jo tefreden binne, kinne jo jo ynstellingen wizigje om oare sinnen yn jo taal te sjen.
 speak-empty-state-cta = Sinnen bydrage
 speak-loading-error =
     Wy kinne gjin sinnen foar jo ophelje om út te sprekken.
