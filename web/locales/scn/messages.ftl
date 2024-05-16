@@ -1055,6 +1055,7 @@ contribution-misreadings-example-7-explanation = [Avissi a èssiri "ascutamu"]
 contribution-misreadings-example-8-title = U liafanti mancia un partugallu.
 contribution-misreadings-example-8-explanation = [U cuntinutu nun currispunni]
 contribution-varying-pronunciations-title = Prununzi variabbili
+contribution-background-noise-title = Scrusciu di funnu
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
