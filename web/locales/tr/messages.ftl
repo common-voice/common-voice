@@ -391,8 +391,8 @@ profile-form-additional-language =
 profile-form-language =
     .label = Dil
 profile-form-variant =
-    .label = Hangi { $language } türevini konuşuyorsunuz?
-profile-form-variant-default-value = Türev seçilmedi
+    .label = Hangi { $language } lehçesini konuşuyorsunuz?
+profile-form-variant-default-value = Lehçe seçilmedi
 profile-form-accent =
     .label = Aksan
 profile-form-custom-accent-help-text =
@@ -450,9 +450,13 @@ off = Kapalı
 on = Açık
 help-accent = Aksan konusunda yardıma mı ihtiyacınız var?
 help-accent-explanation = Aksanınız kelimeleri telaffuz etme şeklinizdir. Yaşadığınız yer, konuştuğunuz diğer diller ve daha birçok faktör aksanınızı etkileyebilir. İlgili olduğunu düşündüğünüz bilgileri burada paylaşabilirsiniz.
-help-variants = Türevlerle ilgili yardıma mı ihtiyacınız var?
-help-variants-explanation = Varyantlar, bir dilin belirli biçimleridir. Örneğin, bir coğrafyada veya toplulukta yaşayanlar tarafından paylaşılır. Bazen bunlara lehçe denir.
+help-variants = Lehçelerle ilgili yardıma mı ihtiyacınız var?
+help-variants-explanation = Lehçeler bir dilin belirli biçimleridir. Örneğin, bir coğrafyada veya toplulukta yaşayanlar tarafından paylaşılır. Bazen bunlara "varyant" veya "değişke" de denir.
 help-sex-or-gender-changes = Cinsiyet değişiklikleri konusunda yardıma mı ihtiyacınız var?
+variant-contribution-options-header = Lehçe katkısı seçenekleri
+variant-contribution-option-1 = Dilimdeki tüm lehçelerin cümlelerini ve ses kayıtlarını göster
+variant-contribution-option-2 = Yalnızca benim lehçemdeki cümleleri ve ses kayıtlarını göster
+variant-contribution-warning-title = ⓘ Henüz bazı cümlelerde ve ses kayıtlarında lehçe etiketi yok!
 
 ## Profile - Email
 
@@ -600,7 +604,7 @@ about-nav-playbook = Nasıl katılacağınızı öğrenin
 about-playbook-what-is-language = Common Voice'ta dil nedir?
 about-playbook-what-is-language-content-1 = Dil üzerine düşünmenin birçok yolu var. Konuşma tanıma modelleri geliştirme amacı söz konusu olduğunda, Common Voice "karşılıklı anlaşılabilirlik" veya "Bu dili konuşanlar birbirlerini genelde anlayabilirler mi?" üzerine odaklanmayı öneriyor.
 about-playbook-what-is-language-content-2 = Konuşma modellerinin çok çeşitli konuşmacıları anlamada daha iyi olmasını istiyoruz. Bunun için ses veri kümelerinin birçok farklı insanı temsil etmesi gerekir.
-about-playbook-what-is-language-content-3 = Bazı diller arasında dilbilgisi, söz dağarcığı ve telaffuz açısından çok büyük farklılıklar vardır. Bu nedenle, 2022'de <ctaLink>"varyantları" uygulamaya sokuyoruz</ctaLink>. Bu özellik, topluluklara daha büyük veri kümeleri içinde kendi dillerini ayırt etmelerinin bir yolunu sunuyor.
+about-playbook-what-is-language-content-3 = Bazı diller arasında dilbilgisi, söz dağarcığı ve telaffuz açısından çok büyük farklılıklar vardır. Bu nedenle, 2022'de <ctaLink>"lehçeleri" uygulamaya sokuyoruz</ctaLink>. Bu özellik, topluluklara daha büyük veri kümeleri içinde kendi dillerini ayırt etmelerinin bir yolunu sunuyor.
 
 ## How do I add a language
 
