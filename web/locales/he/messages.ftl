@@ -801,7 +801,13 @@ sha256-checksum-copied = קוד התקינות SHA256 הועתק!
 sha256-checksum-copied-error = לא היה ניתן להעתיק את קוד התקינות SHA256
 clipboard-not-supported = אין תמיכה בהעתקה והדבקה
 no-information-available = אין מידע זמין
+# dataset metadata - age of contributor
+dataset-metadata-age = גיל
+donate-modal-message = מערך הנתונים כבר בהורדה!
 dataset-donate-modal-heading = הידעת…
+donate-modal-explanation-1 = על-מנת לארח את מערכי הנתונים ולשפר את המערכת עבור 100+ קהילות השפה הנסמכות על עבודתינו, נדרשים כמעט מליון דולר ארה"ב בשנה
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>אם מידע פתוח ואינקלוסיבי חשוב עבורכם - תרמו עוד היום!</bold>
 
 ## Download Modal
 
@@ -960,6 +966,7 @@ target-segment-generic-card = אתם תורמים לפלח יעד מסויים
 target-segment-first-banner = עזרו ביצירת פלח היעד הראשון של Common Voice ב-{ $locale }
 target-segment-add-voice = הוספת הקול שלך
 target-segment-learn-more = מידע נוסף
+change-preferences = שינוי העדפות
 
 ## Contribution Nav Items
 
