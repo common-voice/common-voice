@@ -406,9 +406,12 @@ native-language =
 profile-form-add-accent = הוספת מבטא חדש משלך "{ $inputValue }"
 profile-form-submit-save = שמירה
 profile-form-submit-saved = נשמר
+male_masculine = גבר/גברי
+female_feminine = אישה/נשית
 intersex = אינטרסקס
 transgender = טרנסג'נדר
 non-binary = א-בינארי
+do_not_wish_to_say = אעדיף שלא לומר
 # Gender
 other = אחר
 why-profile-title = בשביל מה פרופיל?
@@ -444,6 +447,7 @@ help-accent = צריכים עזרה בקשר למבטא?
 help-accent-explanation = המבטא שלכם הוא האופן שבו אתם מבטאים מילים. הוא עשוי להיות מושפע ממקום מגוריכם, השפות הנוספות אותן אתם דוברים וגורמים רבים אחרים. באפשרותכם לחלוק כאן כל מידע שבעיניכם הוא רלוונטי.
 help-variants = צריכים עזרה בקשר לניב?
 help-variants-explanation = ניבים הם צורה מסוימת של שפה - למשל כזו המשותפת לאזור או קהילה מסוימת. לפעמים קוראים לזה דיאלקט או להג.
+help-sex-or-gender-changes = זקוקים לסיוע בנוגע לשינויים הנוגעים למין ומגדר?
 
 ## Profile - Email
 
