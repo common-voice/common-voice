@@ -54,6 +54,7 @@ cak = קאקצ׳יקל
 ckb = כורדית מרכזית
 cnh = הק׳הא צ׳ין
 co = קורסיקאית
+crh = טטרית של קרים
 cs = צ׳כית
 cv = צ׳ובשית
 cy = ולשית
@@ -75,6 +76,7 @@ ff = פולה
 fi = פינית
 fo = פארואית
 fr = צרפתית
+fuf = פולאר
 fy-NL = פריזית
 ga-IE = אירית
 gl = גליסית
@@ -402,8 +404,6 @@ native-language =
 profile-form-add-accent = הוספת מבטא חדש משלך "{ $inputValue }"
 profile-form-submit-save = שמירה
 profile-form-submit-saved = נשמר
-male = זכר
-female = נקבה
 # Gender
 other = אחר
 why-profile-title = בשביל מה פרופיל?
@@ -663,6 +663,9 @@ about-playbook-how-project-governance-content-4 = מעורבות בקהילה ו
 about-playbook-how-project-governance-content-5 = ערך והכרה.
 about-playbook-how-project-governance-content-6 = אחריות הדדית.
 about-playbook-how-project-governance-content-7 = <governanceLink>קראו עוד על האופן שבו אנחנו מנוהלים</governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -1688,13 +1691,14 @@ reviewing-sentences-explanation-1 = אם המשפט עומד בתנאים שלע
 reviewing-sentences-explanation-2 = אם המשפט לא עומד בתנאים שלעיל, יש ללחוץ על הכפתור "לא".
 reviewing-sentences-explanation-3 = אם אינכם בטוחים לגבי המשפט, באפשרותכם לדלג עליו ולעבור למשפט הבא.
 reviewing-sentences-explanation-4 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
-# WRITE PAGE
+
+## WRITE PAGE
+
 write-instruction = הוסיפו <icon></icon> משפט המצוי בנחלת הכלל
 write-page-subtitle = משפטים שנתרמו כאן יתווספו למערך נתונים פומבי ברישיון CC0.
 sentence =
     .label = משפט
 sentence-input-value = הזינו כאן משפט המצוי בנחלת הכלל
-citation-input-value = מקור המשפטים שלכם
 citation =
     .label = ציטוט מקור
 sc-write-submit-confirm = אני מאשר\ת כי משפט זה מצוי ב<wikipediaLink>נחלת הכלל</wikipediaLink> ויש לי רשות להעלות אותו.
@@ -1719,6 +1723,9 @@ single-sentence-submission = שליחת משפט בודד
 bulk-sentence-submission = שליחת מאגד של משפטים
 single-sentence = משפט בודד
 bulk-sentences = מאגד משפטים
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 
@@ -1761,3 +1768,6 @@ file-invalid-type = הקובץ מסוג לא מתאים
 file-too-large = הקובץ גדול מידי
 file-too-small = הקובץ קטן מידי
 too-many-files = יותר מידי קבצים
+
+## Donate banner
+
