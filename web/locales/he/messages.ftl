@@ -447,7 +447,8 @@ help-accent = צריכים עזרה בקשר למבטא?
 help-accent-explanation = המבטא שלכם הוא האופן שבו אתם מבטאים מילים. הוא עשוי להיות מושפע ממקום מגוריכם, השפות הנוספות אותן אתם דוברים וגורמים רבים אחרים. באפשרותכם לחלוק כאן כל מידע שבעיניכם הוא רלוונטי.
 help-variants = צריכים עזרה בקשר לניב?
 help-variants-explanation = ניבים הם צורה מסוימת של שפה - למשל כזו המשותפת לאזור או קהילה מסוימת. לפעמים קוראים לזה דיאלקט או להג.
-help-sex-or-gender-changes = זקוקים לסיוע בנוגע לשינויים הנוגעים למין ומגדר?
+help-sex-or-gender-changes = תרצו סיוע בנוגע לשינויים הנוגעים למין ומגדר?
+help-sex-or-gender-changes-explanation = הרחבנו את האפשרויות כך שתוכלו להיות עם יותר בחירה לגבי מידת השיתוף של הזהות המגדרית. אנא תארו עצמכן.ם באופן שמרגיש עבורכם.ן טבעי.  <learnMoreLink>קראו עוד אודות הגישה שלנו לגבי מין ומגדר.</learnMoreLink>
 
 ## Profile - Email
 
@@ -675,6 +676,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>קראו עו�
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = כיצד Common Voice ממומן?
 
 ## Glossary
 
@@ -751,6 +753,7 @@ validated-hr-total = סה״כ שעות שאומתו
 overall-hr-total = סה״כ שעות
 cv-license = רישיון
 audio-format = פורמט אודיו
+dataset-splits = התפלגויות (גיל ומגדר)
 number-of-voices = מספר קולות
 splits = פיצולים
 email-to-download = נא להזין כתובת דוא״ל כדי להוריד
@@ -773,6 +776,8 @@ subscribe = הרשמה
 get-started-speech = התחילו לעבוד עם זיהוי דיבור
 other-datasets = מערכי נתוני קול נוספים
 feedback-q = יש לכם משוב?
+# This indicates that there is no data to display
+no-information = אין מידע
 resource-nemo-info = ™<githubLink>NVIDIA NeMo</githubLink> היא <docsLink>ערכת כלים בקוד פתוח</docsLink> עבור חוקרים המפתחים מודלים מתקדמים של AI לשיחות.
 resource-deepspeech-info = ניתן להשתמש במנוע הקוד הפתוח לזיהוי קול Deep Speech של Mozilla לבניית יישומי זיהוי דיבור. קראו את <githubLink>הסקירה הכללית שלנו ב- Github</githubLink> או הצטרפו ל<discourseLink>DeepSpeech Discourse</discourseLink> כדי ללמוד כיצד להתחיל.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> מוקדש לטכנולוגיות דיבור פתוחות. הפרויקטים שלהם כוללים מנועי STT ו-TTS מבוססי למידה עמוקה.
@@ -795,6 +800,8 @@ dataset-version = גרסה
 sha256-checksum-copied = קוד התקינות SHA256 הועתק!
 sha256-checksum-copied-error = לא היה ניתן להעתיק את קוד התקינות SHA256
 clipboard-not-supported = אין תמיכה בהעתקה והדבקה
+no-information-available = אין מידע זמין
+dataset-donate-modal-heading = הידעת…
 
 ## Download Modal
 
@@ -1758,6 +1765,8 @@ sc-redirect-page-subtitle-2 = שאלו אותנו שאלות ב-<matrixLink>Matr
 sc-bulk-upload-header = העלו <icon></icon> משפטים המצויים בנחלת הכלל
 sc-bulk-upload-instruction = גררו את הקובץ הנה או <uploadButton>לחצו להעלאה</uploadButton>
 sc-bulk-upload-instruction-drop = שחררו את הקובץ כאן להעלאה
+bulk-upload-additional-information = אם יש מידע נוסף שבצונך לשתף על הקובץ הזה, יש ליצור קשר עם <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = אם יש מידע נוסף שברצונך לשתף על הקובץ הזה שאינו כלול בתבנית, יש ליצור קשר עם <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = נסו מחדש לגרור את הקובץ הנה
 try-upload-again-md = נסו להעלות שוב
 select-file = בחירת קובץ
@@ -1780,3 +1789,5 @@ too-many-files = יותר מידי קבצים
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>אנו זקוקים</mark><br/><mark>לעזרתך!</mark>
