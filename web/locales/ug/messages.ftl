@@ -979,6 +979,7 @@ target-segment-generic-card = سىز بىر نىشان بۆلىكىگە تۆھپ
 target-segment-first-banner = Common Voice نىڭ { $locale } تىكى بىرىنچى نىشان بۆلىكىنى قۇرۇشقا ياردەملىشىڭ
 target-segment-add-voice = ئاۋازىڭىزنى قوشۇڭ
 target-segment-learn-more = تەپسىلاتى
+change-preferences = مايىللىقنى ئۆزگەرت
 
 ## Contribution Nav Items
 
@@ -1794,6 +1795,7 @@ sentence-variant-select-multiple-variants = ئادەتتىكى تىل / كۆپ �
 ca-algueres = ئالگېرىس
 ca-central = مەركىزى
 ca-balear = بالېر
+ca-nwestern = Nord-Occidental
 ca-valencia-tortosi = تورتوسى
 ca-valencia-central = مەركىزى ۋالېنسىيا
 ca-valencia-northern = شىمالىي ۋالېنسىيا
