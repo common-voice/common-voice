@@ -470,6 +470,8 @@ variant-contribution-options-header = Predvoľby variantov jazyka
 variant-contribution-help = Niektoré varianty a dialekty v rámci jazyka alebo jazykovej rodiny sa navzájom veľmi líšia. Ak máte problém zapojiť sa do konkrétneho variantu, tu môžete zmeniť svoje predvoľby.
 variant-contribution-option-1 = Zobrazovať vety a klipy iba z môjho variantu
 variant-contribution-option-2 = Zobrazovať vety a klipy zo všetkých variantov v rámci môjho jazyka
+variant-contribution-warning-title = ⓘ Zatiaľ nie všetky vety a klipy majú priradený variant!
+variant-contribution-warning-subtitle = Ak máte problémy s prispievaním, môžete sa kedykoľvek prepnúť späť na zobrazenie všetkého obsahu vo vašom jazyku.
 
 ## Profile - Email
 
@@ -970,6 +972,7 @@ listen-again-instruction = Skvelá práca! <playIcon></playIcon> Keď budete pri
 listen-3rd-time-instruction = 2 už sú za vami, pokračujte v dobrej práci!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
 listen-empty-state = Zdá sa, že sa nám minuli nahrávky – obnovte stránku alebo to skúste znova neskôr.
+listen-empty-state-variants = Váš jazykový variant možno neobsahuje klipy! Ak vám to vyhovuje, môžete zmeniť nastavenia, aby ste videli ďalšie vety vo vašom jazyku.
 listen-loading-error =
     Nepodarilo sa nám získať žiadne zvukové nahrávky, ktoré by ste si mohli vypočuť.
     Skúste neskôr prosím.
@@ -977,6 +980,7 @@ listen-abort-title = Skončiť overovanie klipov?
 listen-abort-cancel = Pokračovať v overovaní
 listen-abort-confirm = Skončiť s overovaním
 speak-empty-state = Minuli sa nám vety na nahrávanie v tomto jazyku...
+no-sentences-for-variants = Váš jazykový variant možno neobsahuje vety! Ak vám to vyhovuje, môžete zmeniť nastavenia, aby ste videli ďalšie vety vo vašom jazyku.
 speak-empty-state-cta = Pridajte ďalšie vety
 speak-loading-error = Nedostali sme žiadne vety, ktoré by ste mohli povedať. Skúste neskôr prosím.
 record-button-label = Nahrajte svoj hlas
