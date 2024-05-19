@@ -175,6 +175,8 @@ sah = סאחה
 sat = סנטאלי (אול צ׳יקי)
 sc = סרדינית
 scn = סיציליאנית
+sco = סקוטית
+sd = סינדית
 sdh = כורדית דרומית
 shi = תשלחית
 si = סינהלית
@@ -449,6 +451,8 @@ help-variants = צריכים עזרה בקשר לניב?
 help-variants-explanation = ניבים הם צורה מסוימת של שפה - למשל כזו המשותפת לאזור או קהילה מסוימת. לפעמים קוראים לזה דיאלקט או להג.
 help-sex-or-gender-changes = תרצו סיוע בנוגע לשינויים הנוגעים למין ומגדר?
 help-sex-or-gender-changes-explanation = הרחבנו את האפשרויות כך שתוכלו להיות עם יותר בחירה לגבי מידת השיתוף של הזהות המגדרית. אנא תארו עצמכן.ם באופן שמרגיש עבורכם.ן טבעי.  <learnMoreLink>קראו עוד אודות הגישה שלנו לגבי מין ומגדר.</learnMoreLink>
+variant-contribution-options-header = אפשרויות תרומה לפי ניב
+variant-contribution-help = ישנם ניבים או גרסאות של שפות הנבדלים אלה מאלה מאוד. אם נתקלתם בבעיה בניהול המערכת עם ניב מסויים, תוכלו לשנות את ההגדרות שלכם כאן.
 variant-contribution-option-1 = הראו לי משפטים ומקטעי קול מכל הניבים של השפה שלי
 variant-contribution-option-2 = הראו לי משפטים ומקטעי קול מהניב שלי בלבד
 variant-contribution-warning-title = ⓘ לא כל המשפטים ומקטעי הקול משוייכים לניב מסויים עדיין!
@@ -1795,6 +1799,7 @@ sentence-variant-select-multiple-variants = שפה כללית / מספר ניב�
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = אלגרס
 
 ## REVIEW PAGE
 
@@ -1848,3 +1853,4 @@ donate-banner-cta = <mark>אנו זקוקים</mark><br/><mark>לעזרתך!</ma
 donate-banner-cta-explanation = העלות מגיעה כמעט למליון דולר ארה"ב בשנה על מנת לאחסן את מערכי הנתונים ולשפר את המערכת עבור 100+ קהילות השפה הנסמכות על עבודתינו. <strong>אם מידע פתוח ואינקלוסיבי חשוב עבורכם - תרמו עוד היום!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>משתמשים ב-CV</mark><br/><mark>במחקר שלכם?</mark>
+languages-donate-banner-cta-explanation = מיזם Common Voice ממומן באמצעות תרומות ומענקים! אנחנו אוהבים שיתופי פעולה עם חוקרים אקדמאיים, מהתעשייה ושל חברה אזרחית. Common Voice הינו חינם לשימוש, אך תרומה לעלויות אחזקת המערכת ואחסון הנתונים דרך בקשות למענקים תעזור מאוד.
