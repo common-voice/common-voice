@@ -1800,6 +1800,16 @@ sentence-variant-select-multiple-variants = שפה כללית / מספר ניב�
 ## LANGUAGE VARIANT CODES
 
 ca-algueres = אלגרס
+ca-central = מרכזי
+ca-balear = בלארי
+ca-nwestern = צפון-מערבי
+ca-northern = צפוני
+ca-valencia-central = מרכז ולנסיה
+ca-valencia-northern = צפון ולנסיה
+sw-kingwana = קינגוואנה (הרפובליקה הדמוקרטית של קונגו)
+sw-kimvita = קימוויטה - ניב מרכזי
+sw-kimrima = קימרימה - ניב צפוני
+sw-kipemba = קיפמבה - ניב דרומי
 
 ## REVIEW PAGE
 
