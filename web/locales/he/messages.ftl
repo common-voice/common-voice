@@ -682,6 +682,8 @@ about-playbook-how-project-governance-content-7 = <governanceLink>קראו עו�
 
 about-playbook-how-funded = כיצד Common Voice ממומן?
 about-playbook-how-funded-content-1 = מיזם Common Voice שייך לקרן Mozilla, עמותה לפי סעיף ‎501(c)(3)‎ בארה"ב. המיזם ממומן כיום לחלוטין באמצעות <philantropicGrantLink>מענקים פילנתרופיים</philantropicGrantLink>, ותרומות מאנשים ברחבי העולם.
+about-playbook-how-funded-content-2 = עולה לנו הרבה כסף לאחסן ולהפיץ את מערכי הנתונים באופן רציף, לשפר את המערכת ולהפעיל <africaMradiLink>תוכניות קהילה</africaMradiLink>.
+about-playbook-how-funded-content-3 = אם אתם או הארגון אליו אתם קשורים תרצו לתרום חזרה למיזם, תוכלו לתרום <donateLink>תרומה כספית</donateLink> או ליצור קשר עם צוות השותפויות שלנו בכתובת <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -763,6 +765,7 @@ number-of-voices = מספר קולות
 splits = פיצולים
 email-to-download = נא להזין כתובת דוא״ל כדי להוריד
 why-email = <b>מדוע דוא"ל?</b> ייתכן שנצטרך ליצור איתך קשר בעתיד בנוגע לשינויים במערך הנתונים, דוא"ל מספק לנו נקודת קשר.
+why-donate-datasets-page = Common Voice של Mozilla הוא מערך נתוני הקול המגוון ביותר בעולם שנאסף במיקור המונים - ואנחנו פועלים לחלוטין באמצעות תרומות. העלות מגיעה כמעט למליון דולר ארה"ב בשנה על מנת לאחסן את מערכי הנתונים ולשפר את המערכת עבור 100+ קהילות השפה הנסמכות על עבודתינו. אם מידע פתוח ואינקלוסיבי חשוב עבורכם - <b>תרמו עוד היום!</b>
 confirm-size = עומדת להתחיל הורדה של <b>{ $size }</b>
 size-gigabyte = ג״ב
 size-megabyte = מ״ב
