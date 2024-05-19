@@ -1304,8 +1304,12 @@ sc-lang-info-in-review =
 single-sentence-submission = Kuchanga sentensi imweri
 bulk-sentence-submission = Kuchanga Msigo Ghwa Sentensi
 
+## LANGUAGE VARIANT CODES
+
+
 ## REVIEW PAGE
 
+sc-review-empty-state = Kwa idakoni sentensi reidiria ra ichi kiteto rasia.
 
 ## BULK SUBMISSION 
 
