@@ -955,6 +955,7 @@ listen-again-instruction = עבודה טובה! <playIcon></playIcon> נא לה�
 listen-3rd-time-instruction = עברנו 2 <playIcon></playIcon>, קצב טוב!
 listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!
 listen-empty-state = נגמרו לנו ההקלטות לאימות בשפה הזו…
+listen-empty-state-variants = נראה שאין יותר מקטעי קול בניב המסוים שבחרת עבור השפה שלך! באפשרותך לשנות את ההגדרות שלך כדי לשמוע מקטעים השייכים לניבים אחרים בשפה שלך.
 listen-loading-error =
     לא הצלחנו להשיג מקטעי שמע להאזנה.
     אנא נסו שוב מאוחר יותר.
@@ -962,6 +963,7 @@ listen-abort-title = להפסיק עם אימות המקטעים?
 listen-abort-cancel = להמשיך באימות
 listen-abort-confirm = להפסיק את האימות
 speak-empty-state = נגמרו לנו כל המשפטים להקלטה בשפה הזו...
+no-sentences-for-variants = נראה שאין יותר משפטים בניב המסויים שבחרת עבור השפה שלך! באפשרותך לשנות את ההגדרות כדי לראות משפטים השייכים לניבים אחרים בשפה שלך.
 speak-empty-state-cta = תרומת משפטים
 speak-loading-error =
     לא הצלחנו להביא אף משפט כדי שתדברו אותו.
@@ -1625,6 +1627,9 @@ continue-speaking-button = לא תודה, להמשיך לדבר
 create-profile-text = רוצים לשמור את המידע שלכם? <createProfile>צרו פרופיל</createProfile>
 thanks-for-voice-toast = תודה לכם על המידע הקולי שלכם
 thanks-for-voice-toast-error = אירעה שגיאה בעת שליחת נתוני הקול שלך
+first-cta-gender-select-default-option = בחרו אפשרות
+first-cta-gender-select-help-text =
+    .label = כיצד תתאר.י את המין או המגדר שלך?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = תודה שתרמתם את קולכם!
 second-cta-subtitle-text = כאשר יש לכם פרופיל, באפשרותכם לעקוב אחר הפעילות שלכם ולהתחבר עם קהילת תורמי הקול.
@@ -1685,6 +1690,7 @@ public-domain = נחלת הכלל
 citing-sentences = ציטוט משפטים
 adding-sentences = הוספת משפטים
 reviewing-sentences = סקירת משפטים
+sentence-domain = תחום העניין
 public-domain-explanation-1 = חשוב מאוד שכל המשפטים יהיו <publicDomain>בנחלת הכלל</publicDomain> (<cc0>CC0</cc0>) שכן מערך הנתונים Common Voice משוחרר תחת רישיון CC0. העלו משפט כלשהו רק אם אתם בטוחים, והכלילו תמיד ציטוט רלוונטי.
 public-domain-explanation-2 = המשפטים הטובים ביותר לבניית מנוע לזיהוי דיבור הם אלה הכתובים בדיבור רגיל ומודרני. כמה רעיונות שיעזרו לכם ליצור משפטים הם;
 public-domain-explanation-3 = צרו משפטים בדיבור רגיל ומודרני בעצמכם, עם חברים או עם קהילת השפה שלכם  - למשל תוך הפקת אירוע בסכנון "מסיבת כתיבת משפטים".
@@ -1723,6 +1729,7 @@ reviewing-sentences-explanation-1 = אם המשפט עומד בתנאים שלע
 reviewing-sentences-explanation-2 = אם המשפט לא עומד בתנאים שלעיל, יש ללחוץ על הכפתור "לא".
 reviewing-sentences-explanation-3 = אם אינכם בטוחים לגבי המשפט, באפשרותכם לדלג עליו ולעבור למשפט הבא.
 reviewing-sentences-explanation-4 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
+domain-explanation = תחום העניין נוגע לנושא המשפט. באפשרותך לבחור מבין:
 
 ## WRITE PAGE
 
@@ -1731,6 +1738,7 @@ write-page-subtitle = משפטים שנתרמו כאן יתווספו למערך
 sentence =
     .label = משפט
 sentence-input-value = הזינו כאן משפט המצוי בנחלת הכלל
+citation-input-placeholder = התייחסות למקור ממנו נלקח המשפט (חובה למלא)
 citation =
     .label = ציטוט מקור
 sc-write-submit-confirm = אני מאשר\ת כי משפט זה מצוי ב<wikipediaLink>נחלת הכלל</wikipediaLink> ויש לי רשות להעלות אותו.
@@ -1755,6 +1763,35 @@ single-sentence-submission = שליחת משפט בודד
 bulk-sentence-submission = שליחת מאגד של משפטים
 single-sentence = משפט בודד
 bulk-sentences = מאגד משפטים
+sentence-domain-combobox-label = תחום העניין
+sentence-domain-select-placeholder = בחרו עד שלושה תחומים (לא חובה למלא)
+# Sentence Domain dropdown option
+agriculture_food = חקלאות ומזון
+# Sentence Domain dropdown option
+automotive_transport = רכב ותחבורה
+# Sentence Domain dropdown option
+finance = כלכלה
+# Sentence Domain dropdown option
+service_retail = שירות וקמעונאות
+# Sentence Domain dropdown option
+general = כללי
+# Sentence Domain dropdown option
+healthcare = בריאות
+# Sentence Domain dropdown option
+history_law_government = היסטוריה, משפט וממשל
+# Sentence Domain dropdown option
+language_fundamentals = יסודות השפה (למשל ספרות, אותיות, כסף)
+# Sentence Domain dropdown option
+media_entertainment = תקשורת ובידור
+# Sentence Domain dropdown option
+nature_environment = סביבה וטבע
+# Sentence Domain dropdown option
+news_current_affairs = חדשות ואקטואליה
+# Sentence Domain dropdown option
+technology_robotics = טכנולוגיה ורובוטיקה
+sentence-variant-select-label = ניב השפה
+sentence-variant-select-placeholder = בחרו ניב (לא חובה למלא)
+sentence-variant-select-multiple-variants = שפה כללית / מספר ניבים
 
 ## LANGUAGE VARIANT CODES
 
@@ -1807,3 +1844,7 @@ too-many-files = יותר מידי קבצים
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>אנו זקוקים</mark><br/><mark>לעזרתך!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = העלות מגיעה כמעט למליון דולר ארה"ב בשנה על מנת לאחסן את מערכי הנתונים ולשפר את המערכת עבור 100+ קהילות השפה הנסמכות על עבודתינו. <strong>אם מידע פתוח ואינקלוסיבי חשוב עבורכם - תרמו עוד היום!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>משתמשים ב-CV</mark><br/><mark>במחקר שלכם?</mark>
