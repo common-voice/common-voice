@@ -449,6 +449,10 @@ help-variants = צריכים עזרה בקשר לניב?
 help-variants-explanation = ניבים הם צורה מסוימת של שפה - למשל כזו המשותפת לאזור או קהילה מסוימת. לפעמים קוראים לזה דיאלקט או להג.
 help-sex-or-gender-changes = תרצו סיוע בנוגע לשינויים הנוגעים למין ומגדר?
 help-sex-or-gender-changes-explanation = הרחבנו את האפשרויות כך שתוכלו להיות עם יותר בחירה לגבי מידת השיתוף של הזהות המגדרית. אנא תארו עצמכן.ם באופן שמרגיש עבורכם.ן טבעי.  <learnMoreLink>קראו עוד אודות הגישה שלנו לגבי מין ומגדר.</learnMoreLink>
+variant-contribution-option-1 = הראו לי משפטים ומקטעי קול מכל הניבים של השפה שלי
+variant-contribution-option-2 = הראו לי משפטים ומקטעי קול מהניב שלי בלבד
+variant-contribution-warning-title = ⓘ לא כל המשפטים ומקטעי הקול משוייכים לניב מסויים עדיין!
+variant-contribution-warning-subtitle = אם נתקלת בבעיות בתרומת הקול שלך, באפשרותך לחזור למצב המראה את כל התוכן המתאים לשפה שלך בכל עת.
 
 ## Profile - Email
 
@@ -677,6 +681,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>קראו עו�
 ## How is Common Voice funded
 
 about-playbook-how-funded = כיצד Common Voice ממומן?
+about-playbook-how-funded-content-1 = מיזם Common Voice שייך לקרן Mozilla, עמותה לפי סעיף ‎501(c)(3)‎ בארה"ב. המיזם ממומן כיום לחלוטין באמצעות <philantropicGrantLink>מענקים פילנתרופיים</philantropicGrantLink>, ותרומות מאנשים ברחבי העולם.
 
 ## Glossary
 
@@ -801,6 +806,7 @@ sha256-checksum-copied = קוד התקינות SHA256 הועתק!
 sha256-checksum-copied-error = לא היה ניתן להעתיק את קוד התקינות SHA256
 clipboard-not-supported = אין תמיכה בהעתקה והדבקה
 no-information-available = אין מידע זמין
+dataset-metadata-sex = מגדר
 # dataset metadata - age of contributor
 dataset-metadata-age = גיל
 donate-modal-message = מערך הנתונים כבר בהורדה!
