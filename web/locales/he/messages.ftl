@@ -210,7 +210,7 @@ ty = טהיטית
 tyv = טובאנית
 uby = אוביחית
 udm = אודמורטית
-ug = אויגור
+ug = אויגורית
 uk = אוקראינית
 ur = אורדו
 uz = אוזבקית
@@ -248,7 +248,7 @@ privacy = פרטיות
 terms = תנאים
 cookies = עוגיות
 faq = תשובות לשאלות נפוצות
-content-license-text = התוכן זמין תחת <licenseLink>רישיון Creative Commons</licenseLink>
+content-license-text = התוכן זמין בכפוף ל<licenseLink>רישיון Creative Commons</licenseLink>
 share-title = עזרו לנו למצוא אחרים שיתרמו את קולם!
 share-text = מזמינים אותך לסייע ללמד מכונות איך אנשים אמתיים מדברים, באפשרותך לתרום את קולך דרך { $link }
 link-copied = קישור הועתק
@@ -276,10 +276,10 @@ vote-yes = כן
 vote-no = לא
 toggle-play-tooltip = יש ללחוץ על { shortcut-play-toggle } כדי להיכנס או לצאת ממצב השמעה
 speak-subtitle = תרמו את קולכם
-speak-paragraph = הקלטת מקטעי קול היא חלק עיקרי בהרכבת מערך הנתונים הפתוח שלנו; חלק מהאנשים יאמרו שזהו גם החלק הכיפי ביותר.
+speak-paragraph = הקלטת מקטעי קול היא חלק חיוני בהרכבת מערך הנתונים הפתוח שלנו; יש שיאמרו שזהו גם החלק הכיפי ביותר.
 speak-goal-text = מקטעים שהוקלטו
 listen-subtitle = עזרו לנו באימות קולות
-listen-paragraph = אימות של מקטעים שנתרמו חשוב באותה המידה למטרה של Common Voice. השאילו אוזן ועזרו לנו ליצור נתונים קוליים איכותיים ופתוחים.
+listen-paragraph = אימות של מקטעי קול חשוב לא פחות מהקלטתם למטרה של Common Voice. הטו אוזן ועזרו לנו ליצור נתונים קוליים איכותיים ופתוחים.
 listen-goal-text = מקטעים שאומתו
 hours-recorded = שעות שהוקלטו
 hours-validated = שעות שאומתו
@@ -421,7 +421,7 @@ why-profile-text = בכך שאתם משתפים מעט מידע אודותיכם
 dashboard = לוח בקרה
 build-profile = בניית פרופיל
 avatar = יצגן
-goals = מטרות
+goals = יעדים
 settings = הגדרות
 edit-profile = עריכת פרופיל
 profile-create-success = הצלחנו, הפרופיל נוצר!
@@ -1031,7 +1031,7 @@ validations =
 ## Dashboard
 
 your-languages = השפות שלך
-toward-next-goal = לקראת המטרה הבאה
+toward-next-goal = לקראת היעד הבא
 goal-reached = היעד הושג
 clips-you-recorded = מקטעים שהקלטת
 clips-you-validated = מקטעים שאימתת
@@ -1072,8 +1072,8 @@ lose-changes-warning = יציאה כעת תגרום לביטול השינויי�
 build-custom-goal = הרכבת יעד מותאם אישית
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
-        [one] עזרו להגיע לשעה אחת של ב{ $language } עם יעד אישי
-       *[other] עזרו להגיע ל-{ $hours } שעות ב{ $language } עם יעד אישי
+        [one] עזרו להגיע לשעה אחת של ב{ $language } באמצעות יעד אישי
+       *[other] עזרו להגיע ל-{ $hours } שעות ב{ $language } באמצעות יעד אישי
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
@@ -1804,10 +1804,11 @@ ca-central = מרכזי
 ca-balear = בלארי
 ca-nwestern = צפון-מערבי
 ca-northern = צפוני
-ca-valencia-tortosi = טורטוסי
+ca-valencia-tortosi = ולנסית של טורטוסה
 ca-valencia-central = מרכז ולנסיה
 ca-valencia-northern = צפון ולנסיה
 ca-valencia-southern = דרום ולנסיה
+ca-valencia-alacant = ולנסית של אליקנטה
 cy-northwes = ולשית צפון-מערבית
 cy-northeas = ולשית צפון-מזרחית
 cy-midwales = ולשית מרכז
