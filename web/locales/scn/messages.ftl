@@ -1491,6 +1491,12 @@ sc-criteria-item-6 = Si finisti i frasi di validari, ajùtani a ricògghiri novi
 
 ## REVIEW
 
+sc-review-title = Vàlida i frasi
+sc-review-loading = Staju carricannu i frasi…
+sc-review-select-language = Pi favuri scegghi na lingua pi validari i frasi.
+sc-review-no-sentences = Nuḍḍa frasi di validari. <addLink>Agghiunci autri frasi ora!</addLink>
+sc-review-form-prompt =
+    .message = I frasi chi validasti nun foru mannati, sì sicuru?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Funti: { $sentenceSource }
@@ -1552,6 +1558,11 @@ add-information-button = Agghiunci nfurmazzioni
 continue-speaking-button = No grazzi, cuntinua a parrari
 create-profile-text = Vo' sarbari i to nfurmazzioni? <createProfile>Cria un prufilu</createProfile>
 thanks-for-voice-toast = Grazzi pî nfurmazzioni ncapu â to vuci
+first-cta-gender-select-default-option = Scegghi n'aḍḍijuta
+first-cta-gender-select-help-text =
+    .label = Comu discrivissi u to gèniri?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Grazzi chi ni dunasti a to vuci!
 # GUIDELINES PAGE
 guidelines-header = Dirittivi di cullabburazzioni
 voice-collection = Ricota dî vuci
@@ -1594,9 +1605,15 @@ adding-sentences-subheader-speakable = Prununziàbbili
 adding-sentences-subheader-numbers = Nùmmari
 adding-sentences-subheader-abbreviations = Accurzi e acrònimi
 adding-sentences-subheader-punctuation = Puntiggiatura
+adding-sentences-subheader-offensive-content = Cuntinutu uffinzivu
+reviewing-sentences-explanation-1 = Si a frasi sicuta i règuli di supra, ammacca u buttuni "Se".
+reviewing-sentences-explanation-2 = Si a frasi nun sicuta i règuli di supra, ammacca u buttuni "No".
 
 ## WRITE PAGE
 
+write-instruction = Agghiunci <icon></icon> na frasi nnô duminiu pùbblicu
+sentence =
+    .label = Frasi
 guidelines = Dirittivi
 # Sentence Domain dropdown option
 finance = Finanza
