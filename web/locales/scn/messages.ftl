@@ -556,8 +556,13 @@ about-is-it-valid-text = Na riggistrazziuni vucali veni marcata comu “vàlita�
 about-yes-votes = ≥ 2 voti Se
 about-yes-votes-text = Pi tràsiri nnû nzemi di dati di Common Voice, na riggistrazziuni vucali àvi a èssiri appruvata di du' utenti diversi.
 about-no-votes = ≥ 2 voti No
+about-no-votes-text = Quannu n'utenti rifiuta na riggistrazzioni, chista torna 'n coda. Si veni rifiutata n'autra vota, a riggistrazzioni veni misa ntô Cimiteru dî Riggistrazzioni.
 about-dataset-new = Nzemi di dati di Common Voice
 about-clip-graveyard = Cimiteru dî riggistrazzioni
+about-clip-graveyard-text =
+    U Cimiteru dî Riggistrazzioni sarba tutti i riggistrazzioni chi nun traseru nnô nzemi di dati di Common Voice. Accussì comu u nzemi di dati ufficiali, macari u Cimiteru è dispunìbbili pû scarricamentu.
+    
+    Vulìssimu diri grazzi a sti cristiani e st'urganizzazzioni pû so ajutu cû pruggettu:
 about-get-involved = Cullàbbura cu nuiautri
 about-stay-in-touch = Comu pozzu arristari attualizzatu?
 about-stay-in-touch-button = Riggìstrati
@@ -869,7 +874,7 @@ review-instruction = Ascuta i riggistrazziuna e, si serbi, falli arrè
 record-submit-tooltip = { $actionType } mmìa quannu sì prontu
 clips-uploaded = Riggistrazziuna carricati
 record-abort-title = Vo' allèstiri sta riggistrazziuni prima?
-record-abort-text = Si nesci ora, pirdirai chiḍḍu c'à' fattu
+record-abort-text = Si nesci ora, perdi chiḍḍu chi facisti
 record-abort-submit = Mmìa i riggistrazziuna
 record-abort-continue = Allesti a riggistrazziuni
 record-abort-delete = Nesci e cancella i riggistrazziuna
@@ -984,7 +989,7 @@ difficult-difficulty = Diffìcili
 pro-difficulty = Mastru
 want-to-continue = Vo' cuntinuari?
 finish-editing = Voi accabbari i canciamenti prima?
-lose-changes-warning = Si nesci ora, pirdirai chiḍḍu chi facisti
+lose-changes-warning = Si nesci ora, perdi chiḍḍu chi facisti
 build-custom-goal = Cria n'ubbittivu pirsunalizzatu
 set-a-goal = Mposta n'ubbittivu
 cant-decide = Nun sai chi fari?
@@ -1028,16 +1033,23 @@ download-recordings-size = Di sòlitu quarchi megabyte
 download-recordings-unavailable = Nun po' addumannari i to riggistrazzioni mentri chi cc'è n'autra richiesta 'n cursu.
 download-recently-requested = Po' addumannari u scarricamentu dî to riggistrazzioni ogni { $days } jorna.
 download-size = Grannizza
+download-selected = Scigghiutu
 download-start = Scàrrica i dati dû prufilu
 download-request = Addumanna riggistrazzioni
+download-requests = Dumanni di scarricamentu di riggistrazzioni passati
+download-requests-info = Quannu addumanni di scarricari i to riggistrazzioni, i mittemu nzèmmula nna unu o cchiù assai prichi ZIP. Cca cci sunnu i to dumanni passati:
 download-request-button = Scàrrica
 download-request-title = { $created }
+download-request-description = { $clipCount } riggistrazzioni, grannizza tutali dû pricu { $size }. Scadi u { $expires }.
 download-request-archive-single = Pricu ZIP sìngulu chi cunteni
 download-request-archive-multiple = Spartutu nne { $archiveCount } prichi ZIP chi cuntèninu
+download-request-assembling-description = Stamu mittennu nzèmmula i to prichi. Pi favuri cuntrolla arrè cchiù tardu.
 download-request-refresh-button = Attualizza
 download-request-modal-title = Lijami di scarricamentu
+download-request-modal-description = Cca cci sunnu i lijami pi scarricari i to prichi ZIP.
 download-request-link-text = ZIP #{ $offset } di { $total }
 download-request-metadata-link = Testu dâ frasi
+download-request-link-single = Poi macari cupiari e ncuḍḍari i nnirizzi diretti nnô to manijaturi dî scarricamenti prifirutu. Scàdinu nta 12 uri, ma po turnari arrè nna sta pàggina pi giniralli arrè quannu voi.
 
 ## Landing
 
@@ -1055,6 +1067,8 @@ demo-welcome-subheader = Ti ntiressa sapìrini cchiù assai e cuntribbuiri ô pr
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice è u nzemi di dati murti-lingua dispunìbbili ô pùbblicu cchiù granni ô munnu.
+demo-language-select-card-body = Grazzi ê cuntribbuti di cchiù assai di 259 mila cristiani nna cchiù assai di 50 lingui, sti dati vennu usati pi nzignàrici all'appricazzioni chi ùsanu i dati vucali  a 'rrispunnìri megghiu â vuci umana.
 card-button-next = Avanti
 card-button-back = Nnarrè
 demo-language-select-label = Vidi i lingui
@@ -1071,6 +1085,7 @@ demo-account-sign-up = Manna lijami di riggistrazzioni
 
 ## Demo Contribute
 
+demo-contribute-card-header = Prontu p'agghiùnciri a to vuci, o pristàrini i to aricchi?
 demo-listen-subtitle = Cullabburamu?
 
 ## Demo Dashboard
@@ -1105,6 +1120,7 @@ contribution-misreadings-example-8-explanation = [U cuntinutu nun currispunni]
 contribution-varying-pronunciations-title = Prununzi variabbili
 contribution-background-noise-title = Scrusciu di funnu
 contribution-background-voices-title = Vuci nnô funnu
+contribution-volume-title = Vulumi
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1133,10 +1149,13 @@ sc-logout-button = Nesci
 
 sc-home-title = Bimminutu nnô Ricugghituri dî Frasi di Common Voice
 sc-home-collect-title = Ricogghi frasi
+sc-home-collect-text = Ajùtani scrivennu o ricugghiennu frasi nnô duminiu pùbblicu.
 sc-home-review-title = Vàlida frasi
+sc-home-review-text = Ajùtani validannu i frasi sicutannu I lìnii guida.
 
 ## GENERAL
 
+sc-languages-fetch-error = Mmattìu n'erruri nnô carricamentu dî lingui dispunìbbili. Accamora nun è pussìbbili cuntribbuiri. Pi favuri, prova arrè cchiù tardu.
 
 ## HOW-TO
 
