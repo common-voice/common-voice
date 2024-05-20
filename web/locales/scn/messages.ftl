@@ -358,6 +358,7 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Riggistra arrè
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Scarta sta riggistrazzioni
+shortcut-submit = Mmìu
 shortcut-submit-label = Manna riggistrazzioni
 request-language-text = A to lingua nun cc'è ancora nne Common Voice?
 request-language-button = Addumanna na lingua
@@ -484,6 +485,10 @@ faq-what-cv-a =
     A tecnuluggìa di ricanuscimentu vucali sta rivuluzziunannu comu ntiraggemu chî màchine, ma i sistemi dispunìbbili ora sunnu custusi e prupitari. Common Voice è na nizziativa di Mozilla p'ammigghiurari e pi rènniri cchiù accissibbili a tutti a tecnuluggìa dû ricanuscimentu vucali. Common Voice è un database glubbali di vuci chi duna a pussibbilità a tutti di criari app chi ricanùscinu a vuci umana putinziarmenti 'n tutti i lingui.
     
     Nun stamu sulu ricugghiennu campiuna vucali nnê lingui cchiù parrati, ma macari nna chiḍḍi cu na pupulazziuni di parranti cchiù nica. Pubblicari nu nzemi di vuci diversi cci darà a pussibbilità ê diviluppatura, ê mprinnitura ed ê cumunità di pinzàricci iḍḍi stissi ad affruntari sta quistiuni. Sparti dû nzemi di dati di Common Voice, stamu diviluppannu macari un muturi lìbbiru di ricanuscimentu vucali chiamatu Deep Speech.
+faq-what-cv-a-2 =
+    A ticnuluggìa di ricanuscimentu vucali sta rivuluzziunannu comu ntiraggemu chî màchini, ma i sistemu dispunìbbili accamora sunnu prupitari, e assai custusi. Common Voice di Mozilla è na nizziativa pi ammigghiurari sti tecnuluggìi e falli cchiù accissìbbili pi tutti. Common Voice è nu nzemu di dati glubbali di vuci dunati pi cunzintiri a tutti di nzignari na lingua qual'è-è a tutti l'appricazzioni abbilitati ô ricanuscimentu vucali.
+    
+    Nun stamu sulu cugghiennu campiuna di vuci nnê lingui cchiù cumuni, ma macari nna chiḍḍi cu na pupulazzioni di parranti cchiù nica. Pubblicari nu nzemi di vuci diversi ci darà a pussibbilità ê diviluppatura, ê mprinnitura e a tutti i cumunità di jìnchiri iḍḍi stissi sta distanza.
 faq-why-important-q = Picchì è mpurtanti?
 faq-why-important-a =
     Parrari è spissu a manera cchiù naturali pi cumunicari, e i tecnuluggìi vucali stannu purtannu sta cummidità ê nostri cmoputer e dispusitivi mòbbili. Ci vulemu dari a pussibbilità ê diviluppatura di custrujiri appricazziuna ncridìbbili di ricanuscimentu vucali, a tipu traduttura 'n tempu riali o assistenti diggitali ca capìscinu soccu dici. Ora comu ora, a majuranza dî dati vucali nicissari pi custrujiri st'appricazziuna è custusa e prupitaria. Spiramu ca u puggettu Common Voice ci putissi dari ê diviluppatura chiḍḍu c'abbisògnanu pi fari nnuvazziuni e rènniri dispunìbbili a tecnuluggìa dû ricanuscimentu vucali pâ so lingua.
@@ -492,6 +497,7 @@ faq-why-important-a =
 faq-how-get-q = Comu pozzu scarricari i dati di Common Voice?
 faq-how-get-a = I dati di Common Voice sunnu dispunìbbili p'èssiri scarricati sutta a licenza <licenseLink>CC0</licenseLink> nnâ <datasetLink>nostra pàggina dî dati</datasetLink>. Po' puru scarricari autri dati dispunìbbili pubblicamenti dâ stissa pàggina.
 faq-when-release2-q = Quannu pubblicariti i dati di Common Voice nnall'autri lingui?
+faq-when-release2-a = A virsiuni murti-lingua dû nzemi di dati Common Voice accamora sta vinennu travagghiata e pulizziata dâ cumunità. Si ni vulissi ajutari a purtari Common Voice a quarchi nova lingua, cuntrolla u <sentenceCollectorLink>Ricugghituri di Frasi</sentenceCollectorLink> p'agghiùnciri novi frasi ê dati, e <pontoonLink>Pontoon</pontoonLink> pi tradùciri u situ. I novi lingui vennu agghiunciuti a Common Voice pâ riggistrazzioni quannu agghìcanu a 5000 frasi cugghiuti.
 faq-why-mission-q = Picchì Common Voice fa parti dâ missiuni di Mozilla?
 faq-what-cv-and-deepspeech-q = Qual'è a diffirenza ntra Common Voice e Deep Speech?
 faq-is-goal-assistant-q = L'ubbittivu di Common Voice è chiḍḍu di custrujiri n'assistenti vucali?
