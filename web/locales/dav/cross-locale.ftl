@@ -2,7 +2,7 @@
 
 contribute = Sora
 get-involved-button = Ngia
-get-involved-title = Changia { $lang }
+get-involved-title = Soria { $lang }
 get-involved-text = Chaw'ucha kwa kukaia na bea yechangia { $lang }. Daw'uyafunga ndighi kula kiteto chikaie tayari kuzolwa aha na kurimanyisha timu rose maza ringi mbishi kwa chia ya imeili. Kaw'ona kwakunde kuchanga, dalomba kuneke imeili yako aha naisi.
 get-involved-form-title = Andikisha eri kuvikiloghe ni maeresho gha { $lang }.
 get-involved-email =
