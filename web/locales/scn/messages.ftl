@@ -928,6 +928,7 @@ toward-next-goal = Ammeri u pròssimu ubbittivu
 goal-reached = Ubbittivu agghicatu
 clips-you-recorded = Riggistrazziuna fatti
 clips-you-validated = Riggistrazziuna chi validasti
+todays-recorded-progress = Prugressu di oji di Common Voice ncapu i riggistrazzioni mannati
 stats = Statìstichi
 awards = Premi
 you = Tu
@@ -955,6 +956,7 @@ average-difficulty = Nurmali
 difficult-difficulty = Diffìcili
 pro-difficulty = Mastru
 want-to-continue = Vo' cuntinuari?
+finish-editing = Voi accabbari i canciamenti prima?
 build-custom-goal = Cria n'ubbittivu pirsunalizzatu
 set-a-goal = Mposta n'ubbittivu
 cant-decide = Nun sai chi fari?
@@ -1074,6 +1076,7 @@ contribution-misreadings-example-8-title = U liafanti mancia un partugallu.
 contribution-misreadings-example-8-explanation = [U cuntinutu nun currispunni]
 contribution-varying-pronunciations-title = Prununzi variabbili
 contribution-background-noise-title = Scrusciu di funnu
+contribution-background-voices-title = Vuci nnô funnu
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1082,10 +1085,16 @@ contribution-background-noise-title = Scrusciu di funnu
 
 ## HEADER/FOOTER
 
+sc-header-home = Pàggina mastra
+sc-header-how-to = Comu si fa
 sc-header-add = Agghiunci
+sc-header-rejected = Frasi rifiutati
 sc-header-my = I me frasi
 sc-header-statistics = Statìstichi
 sc-header-profile = Prufilu
+sc-footer-report-bugs = Signalija un prubblema
+sc-footer-translate = Traduci sta pàggina
+sc-footer-report-copyright = Signalija un prubblema ncapu i diritti d'auturi
 sc-footer-privacy = Privatizza
 sc-footer-terms = Cunnizziuna d'usu
 sc-footer-cookies = Viscotta
@@ -1094,6 +1103,9 @@ sc-logout-button = Nesci
 
 ## HOME
 
+sc-home-title = Bimminutu nnô Ricugghituri dî Frasi di Common Voice
+sc-home-collect-title = Ricogghi frasi
+sc-home-review-title = Vàlida frasi
 
 ## GENERAL
 
@@ -1101,9 +1113,18 @@ sc-logout-button = Nesci
 ## HOW-TO
 
 sc-howto-title = Comu
+sc-howto-addlang-title = Agghiùnciri lingui unni cuntribbuiri
+sc-howto-addsen-title = Agghiùnciri novi frasi
+sc-howto-review-criteria-6 = Si finisti i frasi di validari, ajùtani a ricògghiri novi frasi!
+sc-howto-findpd-title = Attruvari frasi nnô duminiu pùbblicu
+sc-howto-findpd-subtitle = Circalli nne Internet
+sc-howto-findpd-tips-1 = I megghiu funti sunnu i podcast, i trascrizzioni, i sciniggiaturi dî cìnami e tuttu chiḍḍu chi putissi èssiri na chiacchiarijata d'ogni jornu.
+sc-howto-findpd-subtitle-2 = Cullabburari cu urganizzazzioni lucali o nnividui
 
 ## MY SENTENCES
 
+sc-my-title = I me frasi
+sc-my-loading = Staju carricannu i to frasi…
 
 ## REJECTED
 
