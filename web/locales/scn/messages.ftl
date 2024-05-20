@@ -1161,11 +1161,26 @@ sc-languages-fetch-error = Mmattìu n'erruri nnô carricamentu dî lingui dispun
 
 sc-howto-title = Comu
 sc-howto-addlang-title = Agghiùnciri lingui unni cuntribbuiri
+sc-howto-addlang-text = Na vota chi trasisti, poi aḍḍijiri i to lingui dâ sizzioni prufilu.
 sc-howto-addsen-title = Agghiùnciri novi frasi
+sc-howto-addsen-item-2 = Nùmmari. Nun cci avìssiru a èssiri nùmmari nnô testu funti picchì ponnu causari prubblemi quannu vennu liggiuti a vuci auta. Comu veni liggiutu un nùmmaru dipenni assai dû cuntestu, e po' fari cunfusioni nnô nzemi di dati. Pi scempru, u nùmmaru “2409” si putissi lèggiri bonu comu “vintiquattru zeru novi” e “dumilaquattrucentunovi”.
+sc-howto-cite-title = Comu citari
+sc-howto-cite-item-1 = Poi mèttiri macari u situ, a tipu "Common Voice - https://commonvoice.mozilla.org/"
+sc-howto-cite-item-2 = Poi usari nu stili accadèmicu di citazzioni, pi scempru u stili Harvard "Mozilla (2021) Common Voice. Dispunìbbili nne https://commonvoice.mozilla.org/ (visitatu u 15 di sittèmmiru dû 2021)"
+sc-howto-cite-item-3 = Pû testu nnô duminiu pùbblicu chi nun è dispunìbbili 'n linia, po' usari nu stili accadèmicu di citazzioni, a tipu u stili Harvard "Jess (2021) I me puisìi sutta licenza lìbbira"
+sc-howto-review-title = Vàlida i frasi
+sc-howto-review-subtitle = Cuntrolla chi i frasi sicùtanu sti règuli:
+sc-howto-review-criteria-1 = A frasi àv'a èssiri scritta bona.
+sc-howto-review-criteria-2 = A frasi àv'a èssiri curretta nnâ grammàtica.
+sc-howto-review-criteria-3 = A frasi àv'a èssiri liggìbbili.
+sc-howto-review-criteria-4 = Si a frasi sicuta sti règuli, ammacca u buttuni "Appruva".
+sc-howto-review-criteria-5 = Si a frasi nun sicuta sti règuli, ammacca u buttuni "Rifiuta". Si nun sì sicuru ncapu a sta frasi, poi macari sautalla e jiri a chiḍḍa appressu.
 sc-howto-review-criteria-6 = Si finisti i frasi di validari, ajùtani a ricògghiri novi frasi!
 sc-howto-findpd-title = Attruvari frasi nnô duminiu pùbblicu
 sc-howto-findpd-subtitle = Circalli nne Internet
+sc-howto-findpd-tips = Alluccà quarchi suggirimentu pi attruvari frasi:
 sc-howto-findpd-tips-1 = I megghiu funti sunnu i podcast, i trascrizzioni, i sciniggiaturi dî cìnami e tuttu chiḍḍu chi putissi èssiri na chiacchiarijata d'ogni jornu.
+sc-howto-findpd-tips-3 = Pi sfurtuna, accamora nun putemu aviri l'artìculi di Wikimedia. Adunca nun cupiari di ḍḍocu.
 sc-howto-findpd-subtitle-2 = Cullabburari cu urganizzazzioni lucali o nnividui
 
 ## MY SENTENCES
@@ -1196,6 +1211,10 @@ sc-rejected-none-found = Nun attruvai nuḍḍa frasi rifiutata!
 sc-stats-title = Statìstichi
 sc-stats-updating = Staju attualizzannu…
 sc-stats-error = Nun potti ricupirari i statìstichi. Pi favuri prova arrè cchiù tardu.
+# Variables:
+#   $sentenceCount (Number) - Total number of sentences uploaded through Sentence Collector
+#   $languageCount (Number) - Total number of languages these sentences represent
+sc-stats-summary = U Ricugghituri di Frasi di Common Voice cugghìu { $sentenceCount } frasi nna { $languageCount } lingui!
 
 ## ADD
 
@@ -1203,12 +1222,18 @@ sc-submit-err-select-lang = Pi favuri scegghi na lingua.
 sc-submit-err-add-sentences = Pi favuri agghiunci frasi.
 sc-submit-err-add-source = Pi favuri agghiunci na funti.
 sc-submit-err-confirm-pd = Pi favuri cunfirma chi sti frasi sunnu nnô duminiu pùbblicu.
+sc-submit-prompt =
+    .message = I frasi nun foru mannati, sì sicuru chi voi nèsciri?
 sc-submit-title = Agghiunci frasi
 sc-submit-select-language =
     .labelText = Scegghi lingua
 sc-submit-add-sentences = Agghiunci frasi nnô <wikipediaLink>duminiu pùbblicu</wikipediaLink>
 sc-submit-ph-one-per-line =
     .placeholder = Na frasi p'ogni linia
+sc-submit-from-where = Di unni vennu sti frasi nnô <wikipediaLink>duminiu pùbblicu</wikipediaLink>?
+sc-submit-ph-read-how-to =
+    .placeholder = Leggi a nostra guida si nun sì sicuru di comu citari i funti
+sc-submit-confirm = Cunfirmu chi sti frasi sunnu nnô <wikipediaLink>duminiu pùbblicu</wikipediaLink> e àju u pirmisu di carricalli.
 sc-submit-button =
     .submitText = Manna
 
