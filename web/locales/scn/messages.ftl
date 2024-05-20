@@ -549,17 +549,21 @@ about-dataset-release-subtitle = Pubblicamu i dati ogni 3 misi.
 about-subscribe-text = Vo' arristari attualizzatu ncapu a Common Voice?
 about-speak = Parra
 about-speak-text = I cullabburatura riggìstranu audiu liggennu di na banca di frasi dunati.
+about-listen-queue = Cuda d'ascutu
 about-listen = Ascuta
 about-is-it-valid = A riggistrazziuni è vàlita?
 about-is-it-valid-text = Na riggistrazziuni vucali veni marcata comu “vàlita” quannu n'utenti l'appruva dànnuci un Se.
 about-yes-votes = ≥ 2 voti Se
 about-yes-votes-text = Pi tràsiri nnû nzemi di dati di Common Voice, na riggistrazziuni vucali àvi a èssiri appruvata di du' utenti diversi.
 about-no-votes = ≥ 2 voti No
+about-dataset-new = Nzemi di dati di Common Voice
 about-clip-graveyard = Cimiteru dî riggistrazzioni
 about-get-involved = Cullàbbura cu nuiautri
+about-stay-in-touch = Comu pozzu arristari attualizzatu?
 about-stay-in-touch-button = Riggìstrati
 about-nav-why-common-voice = Picchì?
 about-nav-how-it-works = Comu?
+about-nav-partners = Assuciati
 about-nav-get-involved = Cullàbbura cu nuiautri
 about-nav-how-it-works-2 = Comu funziona Common Voice?
 about-nav-playbook = Scopri comu participari
@@ -611,6 +615,8 @@ about-playbook-how-grow-language-content-6 = Assuciazzioni e riti
 
 ## How to validate
 
+about-playbook-how-validate = Comu sacciu si pozzu appruvari na riggistrazzioni?
+about-playbook-how-validate-content-4 = Si na riggistrazzioni è scartata di 2 cristiani, veni pubblicata nnôn suttanzemi sparti di dati.
 
 ## How to access dataset
 
@@ -738,10 +744,13 @@ dataset-metadata-sex = Gèniri
 dataset-metadata-age = Età
 donate-modal-message = Stai scarricanu l'archiviu dî dati
 dataset-donate-modal-heading = U sapivi chi…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Si duni valuri ê dati lìbbiri - dona oji!</bold>
 
 ## Download Modal
 
 download-title = Accuminciasti u scarricamentu.
+download-helpus = Ajùtani a custrujiri na cumunità ncapu â ticnuluggìa vucali, arresta 'n cuntattu câ posta elittrònica.
 download-form-email =
     .label = Metti u to nnirizzu e-mail
     .value = Grazzi, ni mittiremu 'n cuntattu
