@@ -461,6 +461,7 @@ help-variants = nasin toki li seme lon ni?
 help-variants-explanation = mi toki e nasin toki lon ni la mi toki e ni: jan mute pi ma seme anu kulupu seme li kepeken nasin toki ni. nasin toki sina li kama tan ma seme, tan kulupu seme?
 variant-contribution-option-1 = o pana e sitelen e kalama tan nasin ale pi toki mi
 variant-contribution-option-2 = o pana e sitelen e kalama tan nasin toki mi taso
+variant-contribution-warning-title = ⓘ o sona: sitelen en kalama li ken jo ala e sona nasin lon tenpo ni!
 
 ## Profile - Email
 
@@ -1571,6 +1572,9 @@ first-cta-subtitle-text = sina wile ala wile pana e sona pi nasin toki sina?
 why-donate = sina wile e mani tan seme?
 add-information-button = o pana e sona
 continue-speaking-button = o awen kalama
+thanks-for-voice-toast = sina pona tan sona kalama sina!
+thanks-for-voice-toast-error = sina pana e kalama la pakala li kama
+first-cta-gender-select-default-option = o wile
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = sina pona tan ni: sina pana e kalama sina!
 second-cta-subtitle-text = sina pali e sijelo la sina ken sona e ni: sina pali seme? kin la sina ken toki tawa kulupu pi ilo ni.
@@ -1578,6 +1582,8 @@ already-have-an-account = sina jo ala jo e sijelo? jo la <login>o kama lon</logi
 create-profile-button = o pali e sijelo
 # IMAGE TAGS
 img-alt-success-checkmark = sitelen pona
+# GUIDELINES PAGE
+guidelines-header = nasin pona pana
 voice-collection = kulupu kalama
 sentence-collection = kama jo sitelen
 varying-pronunciations = nimi la kalama li ante
@@ -1600,21 +1606,36 @@ misreadings-example-2 = sina wile e ni anuse?
 misreadings-example-3 = sina wile ala wile e ni?
 misreadings-tip-3 = [sitelen en toki li ante]
 background-noise-explanation = sina o ken kute e nimi ale lon kalama. kalama suli en toki pi jan ante en kalama musi la ilo o awen ken sona e nimi. ijo li pakala e toki la sina ken ala kute e nimi ale la o weka e toki.
+contact-common-voice = o toki tawa kulupu pali pi ilo Common Voice
+public-domain = nasin open
+citing-sentences = o pana e sona tan
+adding-sentences = o pana e sitelen
+reviewing-sentences = o lukin e sitelen
 citing-sentences-subheader-websites = sitelen li tan lipu ilo
 citing-sentences-subheader-offline-sources = sitelen li tan ala ilo
+citation =
+    .label = sona tan
 adding-sentences-subheader-length = suli sitelen
 adding-sentences-subheader-length-explanation = sitelen la nimi o mute lili, o lili tawa luka luka luka.
 adding-sentences-subheader-spelling-punctuation = nasin nimi en sitelen pini
 adding-sentences-subheader-spelling-punctuation-explanation = nimi sitelen o pona lon nasin o pakala ala tawa lukin.
 adding-sentences-subheader-speakable = sina o ken toki e sitelen
 adding-sentences-subheader-punctuation = sitelen pini
+adding-sentences-subheader-special-characters = sitelen nasa en sitelen pi toki ante
+adding-sentences-subheader-special-characters-explanation-1 = sitelen nimi o tan toki sitelen. ni li ken ala: sitelen “ж” li lon toki Lusi li lon ala toki Inli la, ona o lon ala sitelen pi toki Inli.
 adding-sentences-subheader-offensive-content = toki ike
+reviewing-sentences-explanation-1 = sitelen li pona la o kepeken nena "pona".
+reviewing-sentences-explanation-2 = sitelen li ike la o kepeken nena "ala".
+reviewing-sentences-explanation-3 = sina sona ala e pona sitelen la sina ken pana ala e sona li ken lukin e toki sin.
 
 ## WRITE PAGE
 
+write-instruction = o pana <icon></icon> e sitelen open
 write-page-subtitle = sina pana e toki la ona li kama lon kulupu sona li tawa ale kepeken nasin CC0.
 sentence =
     .label = sitelen
+citation =
+    .label = sona tan
 sc-review-write-title = mi ken pana e sitelen seme?
 new-sentence-rule-2 = mute nimi o lili tawa 15
 new-sentence-rule-3 = o pona lon nasin toki
@@ -1625,6 +1646,7 @@ how-to-cite = seme la mi pana e sona ni: sitelen li tan seme?
 guidelines = lipu lawa
 contact-us = o toki tawa mi!
 add-sentence-success = mi jo e sitelen 1
+add-sentence-error = pakala la sina pana ala e sitelen.
 required-field = o pana tawa poki ni.
 single-sentence-submission = o pana e sitelen wan
 bulk-sentence-submission = o pana e sitelen mute
@@ -1653,6 +1675,7 @@ accepted-files = sina ken pana e lipu pi nasin .tsv taso
 maximum-file-size = lipu li ken suli ni: 25 MB
 what-needs-to-be-in-file = seme o lon lipu mi?
 upload-progress-text = mi pana...
+bulk-upload-success-toast = sina pana e sitelen mute.
 file-too-large = lipu li suli ike
 file-too-small = lipu li lili ike
 too-many-files = lipu li mute ike
