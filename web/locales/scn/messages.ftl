@@ -798,6 +798,13 @@ request-language-success-list-2 =
     U nostru manijaturi dâ cumunità ti cuntattarà pi uffrìriti
     supportu, e pi fàriti sapiri si cc'è già na cumunità chi sta
     travagghiannu â to lingua
+request-language-success-list-3 =
+    Si nun ni facemu sèntiri nta na para di jorna,
+    cuntàttani nne <emailLink>{ $email }</emailLink>
+    e ti cuntattamu nuiautri!
+request-language-error =
+    Capaci chi nun arricivemmu ḍḍa richiesta. Pi favuri cuntàttani
+    direttu nne <emailLink>{ $email }</emailLink> e ti cuntattamu!
 
 ## Languages Overview
 
@@ -855,6 +862,7 @@ record-three-more-instruction = Autri tri!
 record-again-instruction = Bonu!<recordIcon></recordIcon> Riggìstrani n'autra
 record-again-instruction2 = Vai accussì! Riggìstrani ancora n'autra <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> L'ùrtima!
+review-tooltip = Ascuta e, si serbi, riggistra arrè
 share-clip = Sparti a to riggistrazziuni
 share-common-voice = Sparti Common Voice
 review-instruction = Ascuta i riggistrazziuna e, si serbi, falli arrè
@@ -870,15 +878,26 @@ listen-again-instruction = Bonu!<playIcon></playIcon> Ascùtani n'autra quannu s
 listen-3rd-time-instruction = Ni facisti dui, cuntinua accussì!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>L'ùrtima!
 listen-empty-state = Finemu i riggistrazziuna di validari nni sta lingua...
+listen-empty-state-variants = Capaci chi finisti i riggistrazzioni dispunìbbili pâ to varianti di lingua! Si voi, po' canciari i to mpustazzioni pi vìdiri autri frasi nnâ to lingua.
+listen-loading-error =
+    Nun pòttimu attruvari nuḍḍa riggistrazzioni di fàriti 'scutari.
+    Pi favuri prova arrè cchiù tardu.
 listen-abort-title = Finisti di validari?
 listen-abort-cancel = Cuntinua a validari
 listen-abort-confirm = Finisci di validari
 speak-empty-state = Finemu i frasi di riggistrari nni sta lingua...
+no-sentences-for-variants = Capaci chi finisti i frasi dispunìbbili pâ to varianti di lingua! Si voi, po' canciari i to mpustazzioni pi vìdiri autri frasi nnâ to lingua.
 speak-empty-state-cta = Cuntribbuisci cu autri frasi
+speak-loading-error =
+    Nun pòttimu attruvari nuḍḍa frasi di fàriti lèggiri.
+    Pi favuri prova arrè cchiù tardu.
 record-button-label = Riggistra a to vuci
 share-title-new = <bold>Ajùtani</bold> a 'ttruvari autri vuci
 keep-track-profile = Vidi soccu facisti c'un prufilu
 login-to-get-started = Trasi o riggìstrati p'accuminciari
+target-segment-first-card = Stai cuntribbuennu ô nostru primu sigmentu ubbittivu
+target-segment-generic-card = Stai cuntribbuennu ôn sigmentu ubbittivu
+target-segment-first-banner = Ajuta a criari u primu sigmentu ubbittivu di Common Voice 'n { $locale }
 target-segment-add-voice = Agghiungi a to vuci
 target-segment-learn-more = Cchiù nfurmazziuna
 change-preferences = Cancia prifirenzi
@@ -936,6 +955,7 @@ goal-reached = Ubbittivu agghicatu
 clips-you-recorded = Riggistrazziuna fatti
 clips-you-validated = Riggistrazziuna chi validasti
 todays-recorded-progress = Prugressu di oji di Common Voice ncapu i riggistrazzioni mannati
+todays-validated-progress = Prugressu di oji di Common Voice ncapu i riggistrazzioni validati
 stats = Statìstichi
 awards = Premi
 you = Tu
@@ -964,6 +984,7 @@ difficult-difficulty = Diffìcili
 pro-difficulty = Mastru
 want-to-continue = Vo' cuntinuari?
 finish-editing = Voi accabbari i canciamenti prima?
+lose-changes-warning = Si nesci ora, pirdirai chiḍḍu chi facisti
 build-custom-goal = Cria n'ubbittivu pirsunalizzatu
 set-a-goal = Mposta n'ubbittivu
 cant-decide = Nun sai chi fari?
