@@ -1562,6 +1562,13 @@ adding-sentences-subheader-offensive-content = toki ike
 write-page-subtitle = sina pana e toki la ona li kama lon kulupu sona li tawa ale kepeken nasin CC0.
 sentence =
     .label = sitelen
+guidelines = lipu lawa
+contact-us = o toki tawa mi!
+add-sentence-success = mi jo e sitelen 1
+single-sentence-submission = o pana e sitelen wan
+bulk-sentence-submission = o pana e sitelen mute
+single-sentence = sitelen wan
+bulk-sentences = sitelen mute
 
 ## LANGUAGE VARIANT CODES
 
@@ -1570,6 +1577,8 @@ sentence =
 
 report-sc-different-language = toki ante
 review-error-rate-limit-exceeded = sina kepeken tenpo pi lili ike. o lukin e sitelen lon tenpo pona, o sona e pona ona.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = mi kama e ante suli
 
 ## BULK SUBMISSION 
 
