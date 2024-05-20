@@ -56,6 +56,7 @@ cak = toki Kakisike
 ckb = toki Solani
 cnh = toki Laton
 co = toki Kosu
+crh = toki Kilintata
 cs = toki Seki
 cv = toki Sepasula
 cy = toki Kinla
@@ -71,16 +72,20 @@ eo = toki Epelanto
 es = toki Epanja
 et = toki Esi
 eu = toki Esuka
+ewo = toki Ejonto
 fa = toki Pasi
 ff = toki Pula
 fi = toki Sumi
 fo = toki Pelisu
 fr = toki Kanse
+fuf = toki Pula
 fy-NL = toki Lise
 ga-IE = toki Ele
 gl = toki Kaleku
 gn = toki Apanjeke
 gom = toki Konki
+gu-IN = toki Kusalasi
+guc = toki Wajunaki
 ha = toki Awasa
 he = toki Iwisi
 hi = toki Insi
@@ -100,6 +105,7 @@ it = toki Italija
 izh = toki Inkelon
 ja = toki Nijon
 jbo = toki Losupan
+jv = toki Sowa
 ka = toki Katuli
 kaa = toki Kalakapa
 kab = toki Sakeli
@@ -120,7 +126,9 @@ lij = toki Likile
 ln = toki Linkala
 lo = toki Pasala
 lt = toki Lijetupiju
+ltg = Toki Lakalisu
 lv = toki Lapijesu
+lzz = toki Lasuli
 mai = toki Metili
 mdf = toki Mokusen
 mg = toki Malekasi
@@ -140,15 +148,19 @@ nan-tw = toki Minan
 nb-NO = toki Nosiki lipu
 nd = toki Isintepele Sasenjakato
 ne-NP = toki Nepali
+nhe = toki Nawa open pi ma Wateka
+nhi = toki Nawa pini pi ma Sijela Pepa
 nia = toki Linika
 nl = toki Netelan
 nn-NO = toki Nosiki sin
 nr = toki Isintepele Sesewula
 nso = toki Soto Noto
+ny = toki Sinansa
 nyn = toki Lunjankole
 oc = toki Usita
 om = toki Apan Omu
 or = toki Olija
+os = toki Ilon
 pa-IN = toki Pensapi
 pap-AW = toki Papijamentu
 pl = toki Posuka
@@ -156,6 +168,7 @@ ps = toki Pesuto
 pt = toki Potuke
 quc = toki Kise
 quy = toki Sanka
+qvi = toki Kisuwa
 rm-sursilv = toki Susilan
 rm-vallader = toki Palate
 ro = toki Lomani
@@ -165,6 +178,9 @@ sah = toki Saka
 sat = toki Santali (sitelen Osiki)
 sc = toki Satu
 scn = toki Sisijanu
+sco = toki Sukosi
+sd = toki Sinsi
+sdh = toki Kusi anpa
 shi = toki Sila
 si = toki Sinala
 sk = toki Sopa
@@ -204,6 +220,7 @@ uz = toki Ope
 ve = toki Sipenta
 vec = toki Peneto
 vi = toki Wije
+vmw = toki Makuwa
 vot = toki Patija
 wo = toki Olo
 xh = toki Sosa
@@ -401,6 +418,12 @@ native-language =
 profile-form-add-accent = o pana e nasin kalama toki sin "{ $inputValue }"
 profile-form-submit-save = o awen e ni
 profile-form-submit-saved = ni li awen
+male_masculine = mije
+female_feminine = meli
+intersex = tonsi sijelo
+transgender = mije tonsi anu meli tonsi
+non-binary = tonsi
+do_not_wish_to_say = mi wile ala pana e sona
 # Gender
 other = ante
 why-profile-title = mi wile e lipu tan seme?
@@ -651,6 +674,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>o lukin e sona
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = nasin seme la ilo Common Voice li kama jo e mani?
 
 ## Glossary
 
@@ -745,6 +769,8 @@ subscribe = o kama jo
 get-started-speech = o sona e ilo kute pi kalama toki
 other-datasets = kulupu sona ante pi kalama toki
 feedback-q = sina wile toki anu seme?
+# This indicates that there is no data to display
+no-information = sitelen ala
 resource-nemo-info = <githubLink>ilo NVIDIA NeMo</githubLink>™ li <docsLink>kulupu ilo suli</docsLink>. jan pi kulupu sona li kepeken ona la, ona li ken pali e ilo suli toki.
 resource-deepspeech-info = ilo kute pi kalama toki li ken tan ilo kute open Deep Speech pi kulupu Mozilla. o lukin e <githubLink>sona pi lipu Github</githubLink>. anu la o tawa <discourseLink>ilo Discourse pi ilo kute DeepSpeech</discourseLink>. sina sona kepeken lon ni.
 resource-coqui-info = <coquiLink>kulupu Coqiu</coquiLink> li pali e ijo tawa ilo open pi sona toki. pali ona li ilo kute, li ilo pi sitelen toki.
@@ -767,6 +793,14 @@ dataset-version = nanpa
 sha256-checksum-copied = sina kama jo e nanpa pi nasin SHA256!
 sha256-checksum-copied-error = pakala la sina kama ala jo e nanpa pi nasin SHA256
 clipboard-not-supported = sina ken ala kama jo e sitelen.
+no-information-available = sona li lon ala
+dataset-metadata-sex = mije anu meli anu tonsi
+# dataset metadata - age of contributor
+dataset-metadata-age = suli tenpo sina
+donate-modal-message = sina kama jo e sona!
+dataset-donate-modal-heading = sina sona ala sona...
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>sona open kulupu li pona tawa sina la o pana e mani!</bold>
 
 ## Download Modal
 
@@ -829,6 +863,8 @@ language-section-in-progress = pali toki li lon
 language-section-in-progress-new-description = kulupu li suli e toki ni. linja ni li pana e sona pi suli toki lon <localizationGlossaryLink>lipu toki</localizationGlossaryLink>, lon <sentenceCollectionGlossaryLink>kulupu pi linja toki</sentenceCollectionGlossaryLink>.
 language-section-launched = open!
 language-section-launched-description = toki ni la, ilo ni li <localizationGlossaryLink>ante toki ale</localizationGlossaryLink>, li jo e <sentenceCollectionGlossaryLink>sitelen mute</sentenceCollectionGlossaryLink>. ni la, jan li ken <speakLink>toki</speakLink> li ken <listenLink>kute</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = tenpo ante: { $lastUpdatedTimeStamp }
 languages-show-more = toki mute
 languages-show-less = o lili e toki
 language-meter-in-progress = pali suli
@@ -848,6 +884,7 @@ action-tap = pilin
 contribute = o pana
 listen = o kute
 write = o sitelen
+review = o lukin
 skip = mi sona ala, o pana e toki ante
 shortcuts = nena pali
 clips-with-count-pluralized =
@@ -895,8 +932,11 @@ listen-empty-state = kalama ante ala li lon toki ni...
 listen-loading-error =
     mi ken ala pana e kalama awen tawa sina. sina ken ala kute e ona.
     tenpo kama la o sin.
+listen-abort-title = sina pini ala pini?
+listen-abort-cancel = o awen
 listen-abort-confirm = o pini
 speak-empty-state = sitelen pi toki ni li lon ala. ni la sina ken ala kalama awen e ona.
+no-sentences-for-variants = nasin toki sina la sitelen sin li lon ala. sina wile la, sina ken ante e nasin sina tawa ni: sina lukin e sitelen ante pi toki sina.
 speak-empty-state-cta = o pana e sitelen
 speak-loading-error =
     mi ken ala pana e sitelen tawa sina. sina ken ala toki e ona.
@@ -1582,6 +1622,17 @@ sc-redirect-page-title = mi kama e ante suli
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction-drop = o pana e lipu lon ni
+try-upload-again = o pana sin e lipu tawa ni
+try-upload-again-md = o pana sin
+maximum-file-size = lipu li ken suli ni: 25 MB
+what-needs-to-be-in-file = seme o lon lipu mi?
+upload-progress-text = mi pana...
+file-too-large = lipu li suli ike
+file-too-small = lipu li lili ike
+too-many-files = lipu li mute ike
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>mi wile</mark><br/><mark>e mani sina!</mark>
