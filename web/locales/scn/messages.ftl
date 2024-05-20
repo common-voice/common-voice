@@ -1236,12 +1236,22 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = Cunfirmu chi sti frasi sunnu nnô <wikipediaLink>duminiu pùbblicu</wikipediaLink> e àju u pirmisu di carricalli.
 sc-submit-button =
     .submitText = Manna
+sc-submit-guidelines = Pi favuri cuntrolla i <howToLink>lìnii guida</howToLink>.
 
 ## ADD LANGUAGE
 
 sc-add-lang-could-not-add = Nun potti agghiùnciri a lingua
 sc-add-lang-sec-label = Agghiunci na lingua unni voi cuntribbuiri
 sc-add-lang-sec-button = Agghiunci na lingua
+sc-add-err-unexpected = U sirburi turnau na risposta chi nun m'aspittava
+# Variables:
+#   $duplicates (Number) - Number of sentences which got rejected because they are duplicates
+sc-add-result =
+    { $duplicates ->
+        [0] Frasi mannati. Nun fu rifiutata nuḍḍa frasi comu duppia.
+        [one] Frasi mannati. Fu rifiutata na sula frasi comu duppia.
+       *[other] Frasi mannati. Fori rifiutati { $duplicates } frasi comu duppi.
+    }
 # Variables:
 #   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
 sc-add-err-failed =
@@ -1251,12 +1261,44 @@ sc-add-err-failed =
        *[other] Falleru { $sentences } frasi
     }
 sc-add-err-submission = Erruri di mmìu
+sc-add-lang-process-notice = Si a to lingua nun cc'è nna sta lista, poi addumannari di falla agghiùnciri cu <languageProcessLink>stu prucessu</languageProcessLink>.
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-are-you-sure =
+    .message = I frasi nun foru mannati, sì sicuru chi voi nèsciri?
+sc-confirm-sentences-title = Cunferma i novi frasi
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Nun attruvai nuḍḍa frasi.
+        [one] Attruvai na frasi sula.
+       *[other] Attruvai { $countOfSentences } frasi.
+    }
+# Variables:
+#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
+sc-confirm-rejected-by-you = { $countOfInvalidated } rifiutati di tia
+sc-confirm-already-reviewed =
+    { $countOfReviewed ->
+        [0] Nun fu validata nuḍḍa frasi
+        [one] Na frasi fu già validata. Bonu accussì!
+       *[other] { $countOfReviewed } frasi foru validati. Bonu accussì!
+    }
+# Variables:
+#   $readyCount (Number) - Number of sentences ready to be uploaded
+sc-confirm-ready =
+    { $readyCount ->
+        [0] Nun cci sunnu frasi pronti di èssiri mmiati!
+        [one] Cc'è na frasi pronta di èssiri mmiata!
+       *[other] Cci sunnu { $readyCount } frasi pronti di èssiri mmiati!
+    }
+sc-confirm-button-text = Cunferma
+sc-confirm-uploading = Staju carricannu i frasi. Po sèrbiri quarchi minutu, dipenni di quanti frasi sunnu. Pi favuri nun chiùjiri u situ.
 
 ## LANGUAGE INFO
 
+sc-lang-info-title-total = Tutali
 
 ## LOGIN
 
@@ -1271,12 +1313,50 @@ sc-criteria-title = Règuli di validazzioni
 
 ## REVIEW
 
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Funti: { $sentenceSource }
+sc-review-form-button-reject = Rifiuta
+sc-review-form-button-skip = Sauta
+sc-review-form-button-approve = Appruva
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = S
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = A
+sc-review-form-keyboard-usage-custom = Poi usari macari l'accurzi dâ tastiera: { sc-review-form-button-approve-shortcut } pi Appruvari, { sc-review-form-button-reject-shortcut } pi Rifiutari, { sc-review-form-button-skip-shortcut } pi Sautari
+sc-review-form-button-submit =
+    .submitText = Accabba a Validazzioni
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Nun validasti nuḍḍa frasi.
+        [one] Validasti na frasi. Grazzi!
+       *[other] Validasti { $sentences } frasi. Grazzi!
+    }
+sc-review-form-review-failure = Nun potti sarbari a validazzioni. Pi favuri prova arrè cchiù tardu.
+sc-review-link = Vàlida
 
 ## SETTINGS
 
+sc-settings-title = Mpustazzioni
+sc-settings-ui-language = Lingua dâ Ntirfaccia
+sc-settings-reset-skipped = Risetta i frasi sautati
+sc-settings-skipped-decription = Sautasti quarchi frasi mentri chi validavi. Risittari sti frasi ti l'ammustra arrè tutti. Chistu nun dipenni dâ lingua.
+sc-settings-show-all-button = Ammustra arrè tutti i frasi sautati
+sc-settings-failed = Nun potti canciari i mpustazzioni. Pi favuri prova arrè.
+# VALIDATION
+sc-validation-number-of-words = A frasi àvi a èssiri di 1 a 14 palori.
+sc-validation-no-numbers = Nnâ frasi nun cci ànn'a èssiri nùmmari.
+sc-validation-no-symbols = Nnâ frasi nun cci ànn'a èssiri sìmmuli
+sc-validation-no-abbreviations = Nnâ frasi nun cci ànn'a èssiri accurzi (acrònimi, …)
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Scegghi lingua/lucalizzazzioni
 sentence-collection = Ricota di frasi
 
 ## WRITE PAGE
