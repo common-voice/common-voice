@@ -987,6 +987,7 @@ easy-difficulty = Fàcili
 average-difficulty = Nurmali
 difficult-difficulty = Diffìcili
 pro-difficulty = Mastru
+lose-goal-progress-warning = Canciannu u to ubbittivu, perdi i to prugressi esistenti.
 want-to-continue = Vo' cuntinuari?
 finish-editing = Voi accabbari i canciamenti prima?
 lose-changes-warning = Si nesci ora, perdi chiḍḍu chi facisti
@@ -1403,15 +1404,85 @@ citing-sentences-subheader-academic-reference-explanation = Poi usari nu stili a
 citing-sentences-subheader-offline-sources = Funti fora lìnia
 citing-sentences-subheader-offline-sources-explanation = Pû testu nnô duminiu pùbblicu chi nun è dispunìbbili 'n linia, po' usari nu stili accadèmicu di citazzioni, a tipu u stili Harvard "Jess (2021) I me puisìi sutta licenza lìbbira"
 self-citation = Autucitazzioni
+self-citation-explanation = T'avissi a citari accussì si scrivisti tu u cuntinutu.
+adding-sentences-subheader-length = Lunghizza
+adding-sentences-subheader-length-explanation = A frasi avissi a 'viri cchiù picca di 15 palori.
+adding-sentences-subheader-spelling-punctuation = Ortugrafìa e puntiggiatura
+adding-sentences-subheader-spelling-punctuation-explanation = A frasi àv'a èssiri scritta bona.
+adding-sentences-subheader-speakable = Prununziàbbili
+adding-sentences-subheader-numbers = Nùmmari
+adding-sentences-subheader-abbreviations = Accurzi e acrònimi
+adding-sentences-subheader-punctuation = Puntiggiatura
 
 ## WRITE PAGE
 
+# Sentence Domain dropdown option
+finance = Finanza
+# Sentence Domain dropdown option
+service_retail = Sirbizza e cummerciu
+# Sentence Domain dropdown option
+general = Ginirali
+# Sentence Domain dropdown option
+healthcare = Saluti
+# Sentence Domain dropdown option
+history_law_government = Storia, Liggi e Guvernu
+# Sentence Domain dropdown option
+language_fundamentals = Funnamenti dâ Lingua (Nùmmari, Littri, Sordi)
+# Sentence Domain dropdown option
+media_entertainment = Midia e Ntrattinimentu
+# Sentence Domain dropdown option
+nature_environment = Natura e Ammienti
+# Sentence Domain dropdown option
+news_current_affairs = Nutizzi e Affari Currenti
+# Sentence Domain dropdown option
+technology_robotics = Tecnuluggìa e Rubbòtica
+sentence-variant-select-label = Varianti dâ frasi
+sentence-variant-select-placeholder = Scegghi na varianti (nun è ubbligatoriu)
+sentence-variant-select-multiple-variants = Lingua ginèrica / assai varianti
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = Alghirisi
+ca-central = Cintrali
+ca-balear = Baliari
+ca-nwestern = Di Tramuntana-Punenti
+ca-northern = Di Tramuntana
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valinzianu cintrali
+ca-valencia-northern = Valinzianu di tramuntana
+ca-valencia-southern = Valinzianu di sciroccu
+ca-valencia-alacant = Alicantisi
+cy-northwes = Gallisi di tramuntana-punenti
+cy-northeas = Gallisi di tramuntana-livanti
+cy-midwales = Gallisi cintrali
+cy-southwes = Gallisi di sciroccu-punenti
+cy-southeas = Gallisi di sciroccu-livanti
+cy-wladfa = Gallisi dâ Patagonia
+pt-BR = Purtughisi (Brasili)
+pt-PT = Purtughisi (Purtugallu)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Dialettu cintrali
+sw-kibajuni = Kibajuni (KE) - Dialettu di tramuntana
+sw-kimrima = Kimrima (TZ) - Dialettu di tramuntana
+sw-kiunguja = Kiunguja (TZ) - Dialettu di sciroccu
+sw-kipemba = Kipemba (TZ) - Dialettu di sciroccu
+sw-kikae = Kimakunduchi/Kikae (TZ) - Dialettu di sciroccu
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Tamazight di l'Atlanti Cintrali)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Cuntrolla <icon></icon> è na frasi curretta dû puntu di vista linguìsticu?
+sc-review-rules-title = Sta frasi rispetta i lìnii guida?
+sc-review-empty-state = Accamora nun cci sunnu frasi di validari nna sta lingua.
+report-sc-different-language = Lingua diversa
+report-sc-different-language-detail = È scritta nta na lingua diversa di chiḍḍa chi staju validannu.
+sentences-fetch-error = Mmattìu n'erruri ricupirannu i frasi
 
 ## BULK SUBMISSION 
 
