@@ -1357,7 +1357,52 @@ sc-validation-no-abbreviations = Nnâ frasi nun cci ànn'a èssiri accurzi (acr�
 
 localization-select =
     .label = Scegghi lingua/lucalizzazzioni
+# PARTNERSHIPS PAGE
+partnerships-header = Cullabburazzioni
+partnerships-get-in-touch = Cuntàttani
+partnerships-become-a-partner = Addiventa un sociu di Common Voice
+partnerships-community-header = Cumunità, Criativi, Sucità Civili
+partnerships-foundations-header = Funnazzioni
+partnerships-governments-header = Guverni
+partnerships-academia-header = Univirsità, Accadèmici e Ricircaturi
+partnerships-our-partners = I nostri soci
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Grazzi chi ni dunasti a to vuci!
+first-cta-subtitle-text = Parrànnuni di tia, ajuti i diviluppatura a custrujiri na ticnuluggìa cchiù adattàbbili
+why-donate = Picchì t'addumannamu?
+add-information-button = Agghiunci nfurmazzioni
+continue-speaking-button = No grazzi, cuntinua a parrari
+create-profile-text = Vo' sarbari i to nfurmazzioni? <createProfile>Cria un prufilu</createProfile>
+thanks-for-voice-toast = Grazzi pî nfurmazzioni ncapu â to vuci
 sentence-collection = Ricota di frasi
+misreadings-tip-3 = [U cuntinutu nun currispunni]
+background-noise-example-1 = I dinusauri giaganti dû Triàssicu.
+background-noise-example-2 = [Stranutu] I dinusauri giaganti dû [tussi] Triàssicu.
+background-noise-example-3 = I dinusauri gia [tussi] dû Triàssicu.
+background-noise-example-4 = [Scrusciu] giaganti dû [scrusciu] -àssicu.
+background-noise-tip-1 = [firmatu dû scrusciu di funnu]
+background-noise-tip-2 = [Nun si senti na parti dû testu]
+background-voices-explanation = N'anticchia di scrusciu di funnu va bonu, ma si poi sèntiri a n'autru cristianu parrari 'n manera distinta, a riggistrazzioni s'àv'a rifiutari. Chistu mmatti speci quannu unu si scorda a tilivisioni aḍḍumata, o quannu vicinu mmatti na cummirsazzioni.
+background-voices-example-1 = I dinusauri giaganti dû Triàssicu. [liggiutu di na vuci sula]
+background-voices-tip-1 = Stai vinennu? [chiamatu di n'autru]
+still-have-questions = Ài ancora dumanni?
+contact-common-voice = Cuntatta a squatra di Common Voice
+public-domain = Duminiu pùbblicu
+citing-sentences = Citari i frasi
+adding-sentences = Agghiùnciri i frasi
+reviewing-sentences = Validari i frasi
+sentence-domain = Duminiu dâ frasi
+public-domain-explanation-1 = È assai mpurtanti chi tutti i frasi sunnu nnô <publicDomain>duminiu pùbblicu</publicDomain> (<cc0>cc0</cc0>) picchì u nzemi di dati di Common Voice veni pubblicatu sutta na licenza cc0. Càrrica na frasi sulu si sì sicuru, e metti sempri a funti pirtinenti.
+public-domain-explanation-2 = I megghiu frasi pi custrujiri un muturi di ricanuscimentu dâ parrata ùtili sunnu parrati muderni e nfurmali. Ti suggiremu quarchi pinzata pi crijari sti frasi:
+public-domain-explanation-3 = Cria frasi muderni e nfurmali sulu o chî to amici o a to cumunità, pi scempru cu na "maratona di scrittura"
+public-domain-explanation-5 = Cerca u testu unni nun cc'è cchiù u dirittu d'auturi - pi scempru a majurìa dî libbra pubbricati prima dû 1920
+citing-sentences-subheader-websites = Siti
+citing-sentences-subheader-websites-explanation = Poi mèttiri macari u situ, a tipu "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Citazzioni accadèmichi
+citing-sentences-subheader-academic-reference-explanation = Poi usari nu stili accadèmicu di citazzioni, pi scempru u stili Harvard "Mozilla (2021) Common Voice. Dispunìbbili nne https://commonvoice.mozilla.org/ (visitatu u 15 di sittèmmiru dû 2021)"
+citing-sentences-subheader-offline-sources = Funti fora lìnia
+citing-sentences-subheader-offline-sources-explanation = Pû testu nnô duminiu pùbblicu chi nun è dispunìbbili 'n linia, po' usari nu stili accadèmicu di citazzioni, a tipu u stili Harvard "Jess (2021) I me puisìi sutta licenza lìbbira"
+self-citation = Autucitazzioni
 
 ## WRITE PAGE
 
