@@ -1267,7 +1267,7 @@ sc-home-title = Bimminutu nnô Ricugghituri dî Frasi di Common Voice
 sc-home-collect-title = Ricogghi frasi
 sc-home-collect-text = Ajùtani scrivennu o ricugghiennu frasi nnô duminiu pùbblicu.
 sc-home-review-title = Vàlida frasi
-sc-home-review-text = Ajùtani validannu i frasi sicutannu I lìnii guida.
+sc-home-review-text = Ajùtani validannu i frasi sicutannu i dirittivi.
 
 ## GENERAL
 
@@ -1294,7 +1294,7 @@ sc-howto-review-criteria-5 = Si a frasi nun sicuta sti règuli, ammacca u buttun
 sc-howto-review-criteria-6 = Si finisti i frasi di validari, ajùtani a ricògghiri novi frasi!
 sc-howto-findpd-title = Attruvari frasi nnô duminiu pùbblicu
 sc-howto-findpd-subtitle = Circalli nne Internet
-sc-howto-findpd-tips = Alluccà quarchi suggirimentu pi attruvari frasi:
+sc-howto-findpd-tips = Vidi cca quarchi suggirimentu pi attruvari frasi:
 sc-howto-findpd-tips-1 = I megghiu funti sunnu i podcast, i trascrizzioni, i sciniggiaturi dî cìnami e tuttu chiḍḍu chi putissi èssiri na chiacchiarijata d'ogni jornu.
 sc-howto-findpd-tips-3 = Pi sfurtuna, accamora nun putemu aviri l'artìculi di Wikimedia. Adunca nun cupiari di ḍḍocu.
 sc-howto-findpd-subtitle-2 = Cullabburari cu urganizzazzioni lucali o nnividui
@@ -1352,7 +1352,7 @@ sc-submit-ph-read-how-to =
 sc-submit-confirm = Cunfirmu chi sti frasi sunnu nnô <wikipediaLink>duminiu pùbblicu</wikipediaLink> e àju u pirmisu di carricalli.
 sc-submit-button =
     .submitText = Manna
-sc-submit-guidelines = Pi favuri cuntrolla i <howToLink>lìnii guida</howToLink>.
+sc-submit-guidelines = Pi favuri cuntrolla i <howToLink>dirittivi</howToLink>.
 
 ## ADD LANGUAGE
 
@@ -1461,14 +1461,33 @@ sc-lang-info-rejected =
 
 ## LOGIN
 
+sc-login-err-try-again = Pi favuri prova arrè.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Prufilu: { $username }
+sc-personal-err-lang-not-found = Nun pozzu livari a lingua: nun l'attruvai
+sc-personal-err-remove = Mpussìbbili livari a lingua
+sc-personal-your-languages = I to lingui:
+sc-personal-remove-button = leva
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } agghiunciuti di tia
+sc-personal-not-added = Nun agghiuncisti ancora nuḍḍa lingua.
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ Règuli di Validazzioni
 sc-criteria-title = Règuli di validazzioni
+sc-criteria-make-sure = Cuntrolla chi a frasi sicuta sti règuli:
+sc-criteria-item-1 = A frasi àv'a èssiri scritta bona.
+sc-criteria-item-2 = A frasi àv'a èssiri curretta nnâ grammàtica.
+sc-criteria-item-3 = A frasi àv'a èssiri liggìbbili.
+sc-criteria-item-4 = Si a frasi sicuta sti règuli, ammacca u buttuni &quot;Appruva&quot; a dritta.
+sc-criteria-item-5-2 = Si a frasi nun sicuta sti règuli, ammacca u buttuni &quot;Rifiuta&quot; a manca. Si nun sì sicuru ncapu a sta frasi, poi macari sautalla e jiri a chiḍḍa appressu.
+sc-criteria-item-6 = Si finisti i frasi di validari, ajùtani a ricògghiri novi frasi!
 
 ## REVIEW
 
@@ -1533,7 +1552,11 @@ add-information-button = Agghiunci nfurmazzioni
 continue-speaking-button = No grazzi, cuntinua a parrari
 create-profile-text = Vo' sarbari i to nfurmazzioni? <createProfile>Cria un prufilu</createProfile>
 thanks-for-voice-toast = Grazzi pî nfurmazzioni ncapu â to vuci
+# GUIDELINES PAGE
+guidelines-header = Dirittivi di cullabburazzioni
+voice-collection = Ricota dî vuci
 sentence-collection = Ricota di frasi
+varying-pronunciations = Prununzi variabbili
 misreadings-tip-3 = [U cuntinutu nun currispunni]
 background-noise-example-1 = I dinusauri giaganti dû Triàssicu.
 background-noise-example-2 = [Stranutu] I dinusauri giaganti dû [tussi] Triàssicu.
@@ -1574,6 +1597,7 @@ adding-sentences-subheader-punctuation = Puntiggiatura
 
 ## WRITE PAGE
 
+guidelines = Dirittivi
 # Sentence Domain dropdown option
 finance = Finanza
 # Sentence Domain dropdown option
@@ -1636,7 +1660,7 @@ zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Cuntrolla <icon></icon> è na frasi curretta dû puntu di vista linguìsticu?
-sc-review-rules-title = Sta frasi rispetta i lìnii guida?
+sc-review-rules-title = Sta frasi sicuta i dirittivi?
 sc-review-empty-state = Accamora nun cci sunnu frasi di validari nna sta lingua.
 report-sc-different-language = Lingua diversa
 report-sc-different-language-detail = È scritta nta na lingua diversa di chiḍḍa chi staju validannu.
