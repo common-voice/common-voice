@@ -1126,7 +1126,7 @@ sc-howto-findpd-subtitle-2 = Cullabburari cu urganizzazzioni lucali o nnividui
 sc-my-title = I me frasi
 sc-my-loading = Staju carricannu i to frasi…
 sc-my-err-fetching = Mmattìu n'erruri mentri chi carricava i frasi. Pi favuri, prova arrè.
-sc-my-no-sentences = Nuḍḍa frasi truvata!
+sc-my-no-sentences = Nun attruvai nuḍḍa frasi!
 # Variables:
 #   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
 sc-my-submission = Mmìu: { $batchId }
@@ -1139,18 +1139,46 @@ sc-my-err-failed-delete = Nun potti cancillari i frasi chi scigghisti… Pi favu
 
 ## REJECTED
 
+sc-rejected-title = Frasi rifiutati
+sc-rejected-loading = Staju carricannu i frasi rifiutati…
+sc-rejected-err-fetching = Mmattìu n'erruri mentri chi carricava i frasi rifiutati. Pi favuri, prova arrè.
+sc-rejected-none-found = Nun attruvai nuḍḍa frasi rifiutata!
 
 ## STATS
 
 sc-stats-title = Statìstichi
+sc-stats-updating = Staju attualizzannu…
+sc-stats-error = Nun potti ricupirari i statìstichi. Pi favuri prova arrè cchiù tardu.
 
 ## ADD
 
+sc-submit-err-select-lang = Pi favuri scegghi na lingua.
+sc-submit-err-add-sentences = Pi favuri agghiunci frasi.
+sc-submit-err-add-source = Pi favuri agghiunci na funti.
+sc-submit-err-confirm-pd = Pi favuri cunfirma chi sti frasi sunnu nnô duminiu pùbblicu.
+sc-submit-title = Agghiunci frasi
+sc-submit-select-language =
+    .labelText = Scegghi lingua
+sc-submit-add-sentences = Agghiunci frasi nnô <wikipediaLink>duminiu pùbblicu</wikipediaLink>
+sc-submit-ph-one-per-line =
+    .placeholder = Na frasi p'ogni linia
 sc-submit-button =
     .submitText = Manna
 
 ## ADD LANGUAGE
 
+sc-add-lang-could-not-add = Nun potti agghiùnciri a lingua
+sc-add-lang-sec-label = Agghiunci na lingua unni voi cuntribbuiri
+sc-add-lang-sec-button = Agghiunci na lingua
+# Variables:
+#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
+sc-add-err-failed =
+    { $sentences ->
+        [0] Nun fallìu nuḍḍa frasi
+        [one] Fallìu 1 frasi
+       *[other] Falleru { $sentences } frasi
+    }
+sc-add-err-submission = Erruri di mmìu
 
 ## ADD SENTENCES CONFIRMATION
 
@@ -1166,6 +1194,8 @@ sc-submit-button =
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Règuli di Validazzioni
+sc-criteria-title = Règuli di validazzioni
 
 ## REVIEW
 
