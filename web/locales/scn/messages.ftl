@@ -992,8 +992,111 @@ want-to-continue = Vo' cuntinuari?
 finish-editing = Voi accabbari i canciamenti prima?
 lose-changes-warning = Si nesci ora, perdi chiḍḍu chi facisti
 build-custom-goal = Cria n'ubbittivu pirsunalizzatu
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] Ajuta a 'gghicari a un'ura 'n { $language } cu n'ubbittivu pirsunali
+       *[other] Ajuta a 'gghicari a { $hours } uri 'n { $language } cu n'ubbittivu pirsunali
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] Ajuta Common Voice a 'gghicari a un'ura nta na lingua cu n'ubbittivu pirsunali
+       *[other] Ajuta Common Voice a 'gghicari a { $hours } uri nta na lingua cu n'ubbittivu pirsunali
+    }
 set-a-goal = Mposta n'ubbittivu
 cant-decide = Nun sai chi fari?
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one]
+                                    Si po agghicari a
+                                    un'ura nna sulu un misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
+                               *[other]
+                                    Si po agghicari a
+                                    un'ura nna sulu un misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one]
+                                    Si po agghicari a
+                                    un'ura nna sulu un misi si { $people } cristiani fannu { $clipsPerDay } riggistrazzioni ogni jornu.
+                               *[other]
+                                    Si po agghicari a
+                                    un'ura nna sulu un misi si { $people } cristiani fannu { $clipsPerDay } riggistrazzioni ogni jornu.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one]
+                                    Si po agghicari a
+                                    un'ura nna sulu { $periodMonths } misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
+                               *[other]
+                                    Si po agghicari a
+                                    un'ura nna sulu { $periodMonths } misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one]
+                                    Si po agghicari a
+                                    un'ura nna sulu { $periodMonths } misi si { $people } cristiani fannu { $clipsPerDay } riggistrazzioni ogni jornu.
+                               *[other]
+                                    Si po agghicari a
+                                    un'ura nna sulu { $periodMonths } misi si { $people } cristiani fannu { $clipsPerDay } riggistrazzioni ogni jornu.
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one]
+                                    Si po agghicari a
+                                    { $totalHours } uri nna sulu un misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
+                               *[other]
+                                    Si po agghicari a
+                                    { $totalHours } uri nna sulu un misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one]
+                                    Si po agghicari a
+                                    { $totalHours } uri nna sulu un misi si { $people } cristiani fannu { $clipsPerDay } riggistrazzioni ogni jornu.
+                               *[other]
+                                    Si po agghicari a
+                                    { $totalHours } uri nna sulu un misi si { $people } cristiani fannu { $clipsPerDay } riggistrazzioni ogni jornu.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one]
+                                    Si po agghicari a
+                                    { $totalHours } uri nna sulu { $periodMonths } misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
+                               *[other]
+                                    Si po agghicari a
+                                    { $totalHours } uri nna sulu { $periodMonths } misi si { $people } cristianu fa { $clipsPerDay } riggistrazzioni ogni jornu.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one]
+                                    Si po agghicari a
+                                    { $totalHours } uri nna sulu { $periodMonths } misi si { $people } cristiani fannu { $clipsPerDay } riggistrazzioni ogni jornu.
+                               *[other]
+                                    Si po agghicari a
+                                    { $totalHours } uri nna sulu { $periodMonths } misi si { $people } cristiani fannu { $clipsPerDay } riggistrazzioni ogni jornu.
+                            }
+                    }
+            }
+    }
 how-many-per-day = Granni! Quanti riggistrazziuna ô jornu?
 how-many-a-week = Granni! Quanti riggistrazziuna â simana?
 which-goal-type = Vo' parrari, ascutari o tutti du'?
@@ -1005,6 +1108,10 @@ n-clips-pluralized =
 help-share-goal = Ajùtani ad attruvari cchiù vuci, sparti u to ubbittivu
 confirm-goal = Cunferma ubbittivu
 goal-interval-weekly = Pâ simana
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Sparti u to ubbittivu di { $count } riggistrazzioni di { $type } p'ogni jornu
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Sparti u to ubbittivu di { $count } riggistrazzioni di { $type } p'ogni simana
 share-goal-type-speak = Parrari
 share-goal-type-listen = Ascutari
 share-goal-type-both = Parrari ed ascutari
@@ -1120,8 +1227,14 @@ contribution-misreadings-example-8-title = U liafanti mancia un partugallu.
 contribution-misreadings-example-8-explanation = [U cuntinutu nun currispunni]
 contribution-varying-pronunciations-title = Prununzi variabbili
 contribution-background-noise-title = Scrusciu di funnu
+contribution-background-noise-example-3-fixed-title = <strong>[Scrusciu]</strong> giaganti dû <strong>[scrusciu]</strong> -àssicu.
 contribution-background-voices-title = Vuci nnô funnu
 contribution-volume-title = Vulumi
+contribution-reader-effects-title = Mmàttiti di littura
+contribution-reader-effects-description = A majurìa di riggistrazzioni sunnu di genti chi pàrranu câ so vuci naturali. Poi accittari a riggistrazzioni uccasiunali chi veni vuciata, murmurijata o riggistrata apposta nta na vuci "drammàtica". Pi favuri rifiuta riggistrazzioni cantati e chiḍḍi chi ùsanu na vuci ginirata dû computer.
+contribution-just-unsure-title = Ài dubbi?
+see-more = <chevron></chevron> Vidi cchiù assai
+see-less = <chevron></chevron> Vidi cchiù picca
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -1133,10 +1246,12 @@ contribution-volume-title = Vulumi
 sc-header-home = Pàggina mastra
 sc-header-how-to = Comu si fa
 sc-header-add = Agghiunci
+sc-header-review = Vàlida
 sc-header-rejected = Frasi rifiutati
 sc-header-my = I me frasi
 sc-header-statistics = Statìstichi
 sc-header-profile = Prufilu
+sc-footer-discourse = Discourse
 sc-footer-report-bugs = Signalija un prubblema
 sc-footer-translate = Traduci sta pàggina
 sc-footer-report-copyright = Signalija un prubblema ncapu i diritti d'auturi
@@ -1300,6 +1415,49 @@ sc-confirm-uploading = Staju carricannu i frasi. Po sèrbiri quarchi minutu, dip
 ## LANGUAGE INFO
 
 sc-lang-info-title-total = Tutali
+sc-lang-info-title-personal = Pirsunali
+# Variables:
+#   $totalSentences (Number) - Number of sentences uploaded in total for this language
+sc-lang-info-total =
+    { $totalSentences ->
+        [0] Nun cci sunnu frasi.
+        [one] 1 frasi 'n tutali.
+       *[other] { $totalSentences } frasi 'n tutali.
+    }
+# Variables:
+#   $totalInReview (Number) - Number of sentences currently in the review state for this language
+sc-lang-info-in-review =
+    { $totalInReview ->
+        [0] Nuḍḍa frasi 'n validazzioni.
+        [one] 1 frasi 'n validazzioni.
+       *[other] { $totalInReview } frasi 'n validazzioni.
+    }
+# Variables:
+#   $unreviewedSentencesByYou (Number) - Number of sentences the user can still review
+sc-lang-info-left-for-you =
+    { $unreviewedSentencesByYou ->
+        [0] Nun t'arristau nuḍḍa frasi di validari.
+        [one] T'arristau na frasi di validari.
+       *[other] T'arristaru { $unreviewedSentencesByYou } frasi di validari.
+    }
+sc-lang-info-review-now = <reviewLink>Vàlida ora!</reviewLink>
+sc-lang-info-add-more = <addLink>Agghiunci cchiù assai frasi!</addLink>
+# Variables:
+#   $validatedSentences (Number) - Number of sentences which have been approved for this language
+sc-lang-info-validated =
+    { $validatedSentences ->
+        [0] Nun cci sunnu frasi validati.
+        [one] 1 frasi validata.
+       *[other] { $validatedSentences } frasi validati.
+    }
+# Variables:
+#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
+sc-lang-info-rejected =
+    { $rejectedSentences ->
+        [0] Nun cci sunnu frasi rifiutati.
+        [one] 1 frasi rifiutata.
+       *[other] { $rejectedSentences } frasi rifiutati.
+    }
 
 ## LOGIN
 
