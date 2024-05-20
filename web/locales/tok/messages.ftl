@@ -401,8 +401,6 @@ native-language =
 profile-form-add-accent = o pana e nasin kalama toki sin "{ $inputValue }"
 profile-form-submit-save = o awen e ni
 profile-form-submit-saved = ni li awen
-male = mije
-female = meli
 # Gender
 other = ante
 why-profile-title = mi wile e lipu tan seme?
@@ -651,6 +649,9 @@ about-playbook-how-project-governance-content-5 = pona pi ante ni en sona pi ant
 about-playbook-how-project-governance-content-6 = sona pali pi jan ale.
 about-playbook-how-project-governance-content-7 = <governanceLink>o lukin e sona pi nasin lawa mi</governanceLink>
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = lipu nimi
@@ -894,6 +895,7 @@ listen-empty-state = kalama ante ala li lon toki ni...
 listen-loading-error =
     mi ken ala pana e kalama awen tawa sina. sina ken ala kute e ona.
     tenpo kama la o sin.
+listen-abort-confirm = o pini
 speak-empty-state = sitelen pi toki ni li lon ala. ni la sina ken ala kalama awen e ona.
 speak-empty-state-cta = o pana e sitelen
 speak-loading-error =
@@ -908,10 +910,12 @@ target-segment-generic-card = sina pana tawa pali suli
 target-segment-first-banner = o pona e pali suli nanpa wan pi ilo Common Voice lon { $locale }
 target-segment-add-voice = o pana e toki uta sina
 target-segment-learn-more = o kama sona
+change-preferences = o ante e wile sina
 
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = kulupu kalama
+contribute-sentence-collection-nav-header = kulupu toki
 
 ## Reporting
 
@@ -1512,6 +1516,11 @@ partnerships-header-text =
     sina wile ala wile poka? wile la o kama toki tawa mi!
 partnerships-get-in-touch = o kama toki
 partnerships-become-a-partner = o kama poka pi kulupu Common Voice
+partnerships-community-header = kulupu jan
+partnerships-foundations-header = kulupu esun
+partnerships-governments-header = kulupu lawa
+partnerships-academia-header = kulupu sona en jan sona
+partnerships-corporates-header = kulupu esun suli
 partnerships-our-partners = kulupu poka
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = sina pona tan ni: sina pana e kalama sina!
@@ -1526,6 +1535,7 @@ already-have-an-account = sina jo ala jo e sijelo? jo la <login>o kama lon</logi
 create-profile-button = o pali e sijelo
 # IMAGE TAGS
 img-alt-success-checkmark = sitelen pona
+voice-collection = kulupu kalama
 sentence-collection = kama jo sitelen
 varying-pronunciations = nimi la kalama li ante
 misreadings = pakala toki
@@ -1535,6 +1545,8 @@ background-voices = toki pi jan ante
 volume = wawa kalama
 reader-effects = nasin toki jan
 just-unsure = sina sona ala anu seme?
+example = ni li ken:
+misreadings-explanation-2 = tenpo mute la pakala ni li lon:
 background-noise-explanation = sina o ken kute e nimi ale lon kalama. kalama suli en toki pi jan ante en kalama musi la ilo o awen ken sona e nimi. ijo li pakala e toki la sina ken ala kute e nimi ale la o weka e toki.
 citing-sentences-subheader-websites = sitelen li tan lipu ilo
 citing-sentences-subheader-offline-sources = sitelen li tan ala ilo
@@ -1544,9 +1556,23 @@ adding-sentences-subheader-spelling-punctuation-explanation = nimi sitelen o pon
 adding-sentences-subheader-speakable = sina o ken toki e sitelen
 adding-sentences-subheader-punctuation = sitelen pini
 adding-sentences-subheader-offensive-content = toki ike
+
+## WRITE PAGE
+
 write-page-subtitle = sina pana e toki la ona li kama lon kulupu sona li tawa ale kepeken nasin CC0.
 sentence =
     .label = sitelen
-citation-input-value = sitelen li tan seme?
+
+## LANGUAGE VARIANT CODES
+
+
+## REVIEW PAGE
+
 report-sc-different-language = toki ante
 review-error-rate-limit-exceeded = sina kepeken tenpo pi lili ike. o lukin e sitelen lon tenpo pona, o sona e pona ona.
+
+## BULK SUBMISSION 
+
+
+## Donate banner
+
