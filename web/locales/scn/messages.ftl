@@ -1125,6 +1125,17 @@ sc-howto-findpd-subtitle-2 = Cullabburari cu urganizzazzioni lucali o nnividui
 
 sc-my-title = I me frasi
 sc-my-loading = Staju carricannu i to frasi…
+sc-my-err-fetching = Mmattìu n'erruri mentri chi carricava i frasi. Pi favuri, prova arrè.
+sc-my-no-sentences = Nuḍḍa frasi truvata!
+# Variables:
+#   $batchId (String) - A unique ID identifying the submission of sentences - sentences uploaded together all have the same batch ID
+sc-my-submission = Mmìu: { $batchId }
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Funti:  { $source }
+sc-my-delete = Cancella i frasi scigghiuti
+sc-my-deleting = Staju cancillannu i frasi scigghiuti…
+sc-my-err-failed-delete = Nun potti cancillari i frasi chi scigghisti… Pi favuri prova arrè!
 
 ## REJECTED
 
