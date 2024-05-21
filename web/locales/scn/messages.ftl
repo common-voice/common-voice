@@ -507,8 +507,15 @@ faq-is-goal-assistant-a = L'ubbittivi dû nzemi di dati Common Voice è di pirm�
 faq-do-want-native-q = Parru a lingua ma 'un sugnu matrilingua, vuliti macari a me vuci?
 faq-do-want-native-a = Se, circamu vuci comu chiḍḍa to! Unu di l'ubbittivi di Common Voice è chiḍḍu d'arricògghiri cchiù accenti pussìbbili, pi fari funziunari megghiu i sirbizza di ricanuscimentu vucali. Chistu veni a diri chi macari i cuntribbuti dî parranti ca nun su' matrilingua sunnu mpurtanti.
 faq-why-different-speakers-q = Picchì abbisugnati di tutti sti parranti p'ogni lingua?
+faq-why-different-speakers-a =
+    A majurìa dî nzemi di dati vucali sunnu riprisintati cchiù assai di genti cu certi carattarìstichi dimugràfichi, veni a diri di cchiù assai <articleLink>màsculi e dâ classi minzana</articleLink>. Cc'è scarsa riprisintazzioni di l'accenti e dî dialetti di genti chi già sunnu marginalizzati. Assai prugrammi ànnu macari difficurtà a capiri i vuci dî fìmmini.
+    Chista è a scaciuni di vuliri assai varità nnî nostri dati!
 faq-why-my-lang-q = Picchì a me lingua nun cc'è ancora?
+faq-why-my-lang-a =
+    Common Voice è na chiattafurma di ricota dati cumunitaria, e tutti i lingui foru agghiunciuti di vuluntari.
+    Ni piacissi assai chi macari tu agghiuncissi a to lingua! <languageRequestLink>Addumanna cca pi fallu.</languageRequestLink>
 faq-what-quality-q = Chi liveḍḍu di qualità audiu abbisugnati pi fari appruvari na riggistrazziuni vucali?
+faq-what-quality-a = Vulemu chi i dati di Common Voice fùssiru di qualità sìmili a chiḍḍa chi un muturi di vuci a testu po' attruvari nna rialtà, pi stu mutivu circamu assai varità. Sparti di travagghiari ncapu â cumunità, nu nzemi di dati chi assai qualità audiu po nzignari megghiu ôn muturi di vuci a testu a manijari situazzioni dû munnu riali, dî discursa nnô funnu nzinu ô scrusciu dî màchini. Nzinu a quannu a to riggistrazzioni si capisci, sarà bastanti bona pâ nostra ricota.
 faq-why-10k-hours-q = Picchì l'ubbittivu di riggistrazziuni p'ogni lingua è di 10.000 uri validati?
 faq-why-10k-hours-a = Chistu è, sicunnu un càrculu apprussimativu, u nùmmaru di uri nicissariu pi furmari un sistema di ricanuscimentu vucali.
 faq-how-calc-hours-q = Comu càrcula l'uri Common Voice?
