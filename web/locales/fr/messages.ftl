@@ -1781,6 +1781,8 @@ sentence-variant-select-multiple-variants = Généralités sur la langue / plusi
 
 ## LANGUAGE VARIANT CODES
 
+pt-BR = Portugais (Brésil)
+pt-PT = Portugais (Portugal)
 
 ## REVIEW PAGE
 
