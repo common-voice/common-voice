@@ -1712,6 +1712,15 @@ sc-bulk-submit-confirm = Cunfirmu chi sti frasi sunnu nnô <wikipediaLink>dumini
 bulk-upload-success-toast = Frasi carricati 'n gruppu
 bulk-upload-failed-toast = U carricamentu fallìu, pi favuri prova arrè.
 bulk-submission-success-header = Grazzi chi ni mannasti i to frasi 'n gruppu!
+upload-more-btn-text = Voi carricari cchiù assai frasi?
+file-invalid-type = Pricu nun vàlidu
+file-too-large = U pricu è troppu assai granni
+file-too-small = U pricu è troppu assai nicu
+too-many-files = Troppu assai prichi
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Abbisugnamu</mark><br/><mark>dû to ajutu!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Stai usannu CV pî</mark><br/><mark>to ricerchi?</mark>
