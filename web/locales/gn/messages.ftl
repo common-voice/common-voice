@@ -462,6 +462,7 @@ help-sex-or-gender-changes = Eñepytyvõukasépa Sexo térã Género moambuépe
 variant-contribution-options-header = Ikatuhápe guive eipytyvõ
 variant-contribution-option-1 = Ehechauka ñe’ẽjuaju año ha clip ambuegua
 variant-contribution-option-2 = Ehechauka ñe’ẽjuaju ha clip opaite ambuepy che ñe’ẽ rehegua
+variant-contribution-warning-title = ⓘ ¡Ndaopaitéi ñe’ẽjuaju ha clip oreko teramoĩ ambuegua!
 
 ## Profile - Email
 
