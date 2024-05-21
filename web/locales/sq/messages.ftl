@@ -426,6 +426,7 @@ help-variants = Ju duhet ca ndihmë me variantet?
 help-variants-explanation = Variantet një formë specifike për një gjuhë - për shembull të përbashkët për ata që banojnë në një vend, ose në një bashkësi. Ndonjëherë këta quhen dialekte.
 help-sex-or-gender-changes = Ju duhet ndihmë për ndryshime Seksi, ose Gjinie?
 help-sex-or-gender-changes-explanation = Po ofrojmë më tepër mundësi për t’u dhënë njerëzve më tepër zgjedhje në ato çka na tregojnë rreth identitetit të tyre seksor apo gjinor. Ju lutemi, vetë-përshkruhuni në mënyrën që ndjeni më natyrore për ju. <learnMoreLink>Mësoni më tepër rreth trajtimit tonë ndaj seksit dhe gjinisë.</learnMoreLink>
+variant-contribution-options-header = Mundësi Dhënieje Variantesh
 variant-contribution-help = Disa variante dhe dialekte brenda një gjuhe ose familje gjuhësh janë shumë të ndryshme nga njëri-tjetri. Nëse keni probleme për t’u marrë me një variant të caktuar, mund të ndryshoni këtu parapëlqimet tuaja.
 variant-contribution-option-1 = Shfaqmëni togfjalësha dhe copëza nga krejt variantet brenda gjuhës time
 variant-contribution-option-2 = Shfaqmëni togfjalësha dhe copëza vetëm nga varianti im
@@ -950,7 +951,7 @@ listen-abort-title = Përfunduat vlerësim copëzash?
 listen-abort-cancel = Vazhdoni me vlerësimin
 listen-abort-confirm = Përfundoni vlerësimin
 speak-empty-state = Na u mbaruan frazat për incizim në këtë gjuhë…
-speak-empty-state-variants = Mund të jenë mbaruar togfjalëshat për variantin tuaj të gjuhës! Nëse s’ju prish punë, mund të ndryshoni rregullimet tuaja, që të shihni togfjalësh të tjerë brenda gjuhës tuaj.
+no-sentences-for-variants = Mund të jenë mbaruar togfjalëshat për variantin tuaj të gjuhës! Nëse s’ju prish punë, mund të ndryshoni rregullimet tuaja, që të shihni togfjalësh të tjerë brenda gjuhës tuaj.
 speak-empty-state-cta = Jepni ndihmesë me fraza
 speak-loading-error =
     S’morëm dot ndonjë copëz audio që ta shqiptoni.
