@@ -526,6 +526,7 @@ faq-where-src-from-2-a =
     
     Po' vìdiri i nostri frasi d'urìggini nna sta <githubLink>carpetta nne GitHub</githubLink>.
 faq-why-not-ask-read-q = Picchì nun addumannati ê genti di lèggiri libbra o l'artìculi di Wikipedia nnê diversi lingui?
+faq-why-not-ask-read-a = Picchì u nzemi di dati Common Voice sia u cchiù ùtili pussìbbili dicidemmu di pirmèttiri sulu testu dispunìbbili sutta na licenza Creative Commons (CC0). Usannu a licenza CC0 veni a diri chi è cchiù diffìcili truvari e ricògghiri testi, ma pirmetti a tutti di usari i dati vucali senza ristrizzioni o auturizzazzioni di Mozilla. Pi ùrtimu, vulemu crijari nu nzemi di dati murti-lingua u cchiù ùtili pussìbbili pi tutti, ricircaturi, univirsità, startup, guverni, urganizzazzioni suciali e appassiunati.
 faq-why-account-q = PIcchì avissi a riggistrari un cuntu?
 faq-is-account-public-q = I nfurmazziuna supra u me cuntu sunnu pùbblichi?
 faq-how-privacy-q = Comu garantiti l'anonimatu e a privatizza di chiḍḍi ca dònanu a so vuci?
