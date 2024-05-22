@@ -473,6 +473,8 @@ variant-contribution-options-header = Dewisiadau Cyfraniad Amrywiol
 variant-contribution-help = Mae rhai amrywiadau a thafodieithoedd o fewn iaith neu deulu iaith yn wahanol iawn i'w gilydd. Os ydych chi'n cael trafferth cyfrannu o amgylch amrywiad penodol, gallwch chi newid eich dewisiadau yma.
 variant-contribution-option-1 = Dim ond dangos brawddegau a chlipiau o fy amrywiad i i mi
 variant-contribution-option-2 = Dangos i mi frawddegau a chlipiau o bob amrywiad o fewn fy iaith
+variant-contribution-warning-title = ⓘ Nid oes gan bob brawddeg a chlip dagiau Amrywiad eto!
+variant-contribution-warning-subtitle = Os ydych chi'n cael trafferth cyfrannu, gallwch newid yn ôl i weld yr holl gynnwys eich iaith ar unrhyw adeg.
 
 ## Profile - Email
 
@@ -989,6 +991,7 @@ listen-again-instruction = Da iawn! <playIcon> </playIcon> Gwrandewch eto pan fy
 listen-3rd-time-instruction = 2 i lawr <playIcon> </playIcon> , daliwch ati!
 listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!
 listen-empty-state = Does dim rhagor o glipiau i'w dilysu yn yr iaith hon...
+listen-empty-state-variants = Efallai nad oes rhagor o glipiau ar gyfer eich amrywiad iaith! Os ydych chi'n fodlon, gallwch chi newid eich gosodiadau i weld brawddegau eraill yn eich iaith.
 listen-loading-error =
     Does dim rhagor o glipiau sain i chi wrando arnyn nhw.
     Ceisiwch eto, rhywbryd eto.
@@ -996,6 +999,7 @@ listen-abort-title = Wedi gorffen dilysu clipiau?
 listen-abort-cancel = Parhau i ddilysu
 listen-abort-confirm = Gorffen dilysu
 speak-empty-state = Does dim rhagor o frawddegau i'w recordio yn yr iaith hon...
+no-sentences-for-variants = Efallai nad oes rhagor o glipiau ar gyfer eich amrywiad iaith! Os ydych chi'n fodlon, gallwch chi newid eich gosodiadau i weld brawddegau eraill yn eich iaith.
 speak-empty-state-cta = Cyfrannu brawddegau
 speak-loading-error =
     Does dim rhagor o frawddegau i chi eu llefaru.
