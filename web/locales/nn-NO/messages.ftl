@@ -1370,6 +1370,7 @@ public-domain = Offentleg eigedom (ikkje verna av opphavsrett)
 
 ## WRITE PAGE
 
+contact-us = Kontakt oss
 
 ## LANGUAGE VARIANT CODES
 
