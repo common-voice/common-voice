@@ -548,6 +548,9 @@ about-playbook-how-add-language-content-1 =
     會有兩個階段嘅工作要做：翻譯網站內容，同埋收集句子。
 about-playbook-how-add-language-translating-heading = 繙譯本站
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>睇下 Pontoon 嘅使用教學。</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    我哋用 Mozilla 一套叫<pontoonLink>Pontoon</pontoonLink>嘅工具去翻譯。Pontoon 有好多種語言，如果未有你嗰種，可以<pontoonRequestLink>申請加入你嘅語言</pontoonRequestLink>。
+    想喺 Common Voice 搵到呢種語言嘅話，仲要<githubRepoLink>喺 GitHub 申請新語言</githubRepoLink>。<localizationFragment>睇下點樣翻譯網站內容</localizationFragment>。
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 
 ## How does localization work
@@ -562,8 +565,11 @@ about-playbook-how-add-sentences-content-1 = <strong>語句收集工具</strong>
 
 ## How to record quality
 
+about-playbook-how-record-quality = 點樣錄到高音質嘅錄音？
+about-playbook-how-record-content-2 = 避免有太多背景雜音——應該好清晰聽到你講嘢。
 about-playbook-how-record-content-3 = 讀句子要小心，唔好漏字、改字或者加字。
 about-playbook-how-record-content-4 = 開始講嘢之前檢查有冇錄緊音，以及記得講完先好撳停止錄音。
+about-playbook-how-record-content-5 = <accuracyLink>睇下點判斷錄音準確度。</accuracyLink>
 
 ## How to grow language
 
@@ -574,6 +580,7 @@ about-playbook-how-grow-language-content-6 = 合作關係同合作網絡
 
 ## How to validate
 
+about-playbook-how-validate = 點樣決定通唔通過一段錄音呢？
 
 ## How to access dataset
 
@@ -585,6 +592,7 @@ about-playbook-how-project-governance = 項目決定係點做嘅？
 about-playbook-how-project-governance-content-2 = 我哋嘅管治係建基於：
 about-playbook-how-project-governance-content-3 = 私隱、安全同透明度。
 about-playbook-how-project-governance-content-4 = 社群參與同決策。
+about-playbook-how-project-governance-content-5 = 價值觀同認同感。
 about-playbook-how-project-governance-content-6 = 互相問責。
 about-playbook-how-project-governance-content-7 = <governanceLink>了解更多我哋係點管治嘅</governanceLink>
 
@@ -827,6 +835,7 @@ listen-empty-state = 呢個語言嘅錄音都已經驗證晒喇……
 listen-loading-error = 我哋冇晒錄音畀你聽嘞，遲啲再試啦。
 speak-empty-state = 呢個語言可以錄嘅句子已經錄晒啦⋯⋯
 speak-empty-state-cta = 貢獻句子
+speak-loading-error = 我哋冇晒句子畀你讀嘞，遲啲再試啦。
 record-button-label = 錄低你把聲
 share-title-new = <bold>幫我哋</bold>揾多啲聲音
 keep-track-profile = 建立個人檔案，紀錄閣下嘅進度
@@ -1157,6 +1166,7 @@ sc-howto-addsen-item-1 = 所有語句必須符合<wikipediaLink>公共領域 (CC
 sc-howto-addsen-item-2 = 數字嘅問題：源文本中唔應該出現數字，因為數字可能會導致朗讀方面出問題。 數字嘅讀法會因上下文而有所不同，可能會導致數據集出現混淆。例如，數字「2409」可以被讀作「二四零九」或者「二千四百零九」。
 sc-howto-cite-title = 點樣引用
 sc-howto-review-title = 審核句子
+sc-howto-review-subtitle = 確保句子符合以下準則：
 sc-howto-review-criteria-1 = 句子寫法要正確。
 sc-howto-review-criteria-2 = 句子要符合語法。
 sc-howto-review-criteria-3 = 句子要係讀得出嘅。
