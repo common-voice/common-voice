@@ -652,6 +652,7 @@ datasets-positioning =
 language = 語言
 download-dataset-header = 下載數據集
 download-delta-explainer = 我哋有少少調整，新增部分（Delta Segments）剩係包含上次發佈之後新加嘅錄音。<deltaLink>了解更多呢部分嘅調整</deltaLink>。
+download-dataset-tag = 揀你想下載嘅語言數據集同相應版本。
 # File size in gigabytes
 size = 數據庫大細
 validated-hr-total = 已驗證錄音（小時）
@@ -662,10 +663,12 @@ number-of-voices = 錄音人數
 splits = 語音特徵概況
 email-to-download = 寫低電郵嚟下載
 why-email = <b>點解需要電郵地址?</b>我哋可能會喺未來聯絡閣下，提供與數據集相關嘅新資訊。電郵可作為我哋聯絡閣下嘅方式。
+why-donate-datasets-page = Mozilla Common Voice 係世界上語種最豐富嘅開放語音數據集——而且我哋係完全靠捐助嚟維持嘅。我哋每年用嚟託管呢 100+ 門語言嘅數據集同維護開發個平台要使差唔多一百萬美金。如果你都重視數據開放同包容嘅話——<b>捐款畀我哋啦！</b>
 confirm-size = 你準備要下載<b>{ $size }</b>嘢
 size-gigabyte = 千兆字節
 size-megabyte = 兆字節
 confirm-no-identify = <b>你同意</b>唔去試圖識別 Common Voice 數據集内講話人嘅個人身份
+confirm-join-mailing-list = 你想加入 Common Voice 郵件清單
 download-language = 下載{ $language }
 validated-hours = 已驗證時數
 recorded-hours = 錄音時數
@@ -698,7 +701,7 @@ more = 更多
 close = 關閉
 download = 下載
 dataset-version = 數據庫版本
-donate-modal-explanation-1 = 我哋每年要使差唔多一百萬美金嚟儲存同託管呢 100+ 門語言嘅數據集、開發平台同維護啲語言社區。
+donate-modal-explanation-1 = 我哋每年要使差唔多一百萬美金嚟儲存同託管呢 100+ 門語言嘅數據集、開發平台同維護啲語言社區？
 
 ## Download Modal
 
@@ -750,6 +753,8 @@ language-section-in-progress = 準備緊
 language-section-in-progress-new-description = 呢啲語言而家仲處於社群開發進程中，進度條展示咗每種語言<localizationGlossaryLink>網站本地化</localizationGlossaryLink>同<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>嘅進度。
 language-section-launched = 已啟動
 language-section-launched-description = 以下「已上線」嘅語言，代表網站已經成功被<localizationGlossaryLink>本地化</localizationGlossaryLink>，而且都已經<sentenceCollectionGlossaryLink>收集咗足夠多嘅句子</sentenceCollectionGlossaryLink>令大家可以用<speakLink>講話</speakLink>同<listenLink>聆聽</listenLink>嘅方式嚟貢獻。
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = 最近更新： { $lastUpdatedTimeStamp }
 languages-show-more = 睇多啲
 languages-show-less = 睇少啲
 language-meter-in-progress = 進展
@@ -1235,3 +1240,7 @@ adding-sentences-subheader-punctuation = 標點
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>我哋需要</mark><br/><mark>你嘅幫手！</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = 我哋每年用嚟託管呢 100+ 門語言嘅數據集同維護開發個平台要使差唔多一百萬美金。<strong>如果你都重視數據開放同包容嘅話——噉就捐款畀我哋啦！</strong>
