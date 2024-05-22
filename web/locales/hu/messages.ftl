@@ -983,6 +983,7 @@ target-segment-generic-card = Közreműködik egy célszegmensben
 target-segment-first-banner = Segítsen a Common Voice első { $locale } célszegmensének létrehozásában
 target-segment-add-voice = Adja a hangját
 target-segment-learn-more = További tudnivalók
+change-preferences = Beállítások módosítása
 
 ## Contribution Nav Items
 
@@ -1779,7 +1780,13 @@ bulk-sentences = Több mondat
 sentence-domain-combobox-label = Mondatdomén
 sentence-domain-select-placeholder = Válasszon legfeljebb három domént
 # Sentence Domain dropdown option
+agriculture_food = Mezőgazdaság és élelmezés
+# Sentence Domain dropdown option
+automotive_transport = Autóipar és szállítás
+# Sentence Domain dropdown option
 finance = Pénzügy
+# Sentence Domain dropdown option
+service_retail = Szolgáltatás és kiskereskedelem
 # Sentence Domain dropdown option
 general = Általános
 # Sentence Domain dropdown option
@@ -1820,6 +1827,11 @@ cy-southeas = Délkeleti walesi
 cy-wladfa = Patagóniai walesi
 pt-BR = Portugál (brazíliai)
 pt-PT = portugál (portugáliai)
+sw-kimvita = Kimvita (Kenya) – Középső dialektus
+sw-kimrima = Kimrima (Tanzánia) – Északi dialektus
+sw-kiunguja = Kimrima (Tanzánia) – Déli dialektus
+sw-kipemba = Kipemba (Tanzánia) – Északi dialektus
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Közép-atlaszi tamazight)
 
 ## REVIEW PAGE
 
