@@ -54,6 +54,7 @@ cak = קאקטשיקל
 ckb = צענטראל קורדיש
 cnh = האקהא טשין
 co = קארסיש
+crh = קרימטשיק טאטעריש
 cs = טשעכיש
 cv = טשאוואשיש
 cy = וועלש
@@ -169,6 +170,7 @@ sah = סאכא
 sat = סאנטאלי (אל כיקי)
 sc = סארדיניש
 scn = סיזיליאניש
+sco = שאטס
 sdh = דרום קורדיש
 shi = טאשלהיט
 si = סינגהאלעסיש
@@ -397,6 +399,9 @@ native-language =
 profile-form-add-accent = לייג צו אן אייגענעם אקצענט "{ $inputValue }"
 profile-form-submit-save = היט אפ
 profile-form-submit-saved = אפגעהיטן
+male_masculine = מאן\מענעריש
+female_feminine = פרוי\פרויעריש
+do_not_wish_to_say = איך וויל נישט זאגן
 # Gender
 other = אנדערע
 why-profile-title = פארוואס א פראפייל?
@@ -1155,6 +1160,9 @@ how-to-cite = וויאזוי ציטיר איך
 guidelines = פארשריפטן
 contact-us = קאנטאקט אונז
 add-sentence-success = 1 זאץ געזאמלט
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 
