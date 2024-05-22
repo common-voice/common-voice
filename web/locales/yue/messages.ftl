@@ -359,8 +359,6 @@ native-language =
 profile-form-add-accent = 添加新嘅自定義口音 "{ $inputValue }"
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
-male = 男
-female = 女
 # Gender
 other = 其他
 why-profile-title = 點解要建立個人檔案？
@@ -583,6 +581,9 @@ about-playbook-how-project-governance-content-4 = 社群參與同決策。
 about-playbook-how-project-governance-content-6 = 互相問責。
 about-playbook-how-project-governance-content-7 = <governanceLink>了解更多我哋係點管治嘅</governanceLink>
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = 術語表
@@ -697,6 +698,7 @@ more = 更多
 close = 關閉
 download = 下載
 dataset-version = 數據庫版本
+donate-modal-explanation-1 = 我哋每年要使差唔多一百萬美金嚟儲存同託管呢 100+ 門語言嘅數據集、開發平台同維護啲語言社區。
 
 ## Download Modal
 
@@ -1219,8 +1221,17 @@ partnerships-our-partners = 我哋嘅合作伙伴
 sentence-collection = 收集句子
 adding-sentences-subheader-punctuation = 標點
 
+## WRITE PAGE
+
+
+## LANGUAGE VARIANT CODES
+
+
 ## REVIEW PAGE
 
 
 ## BULK SUBMISSION 
+
+
+## Donate banner
 
