@@ -536,10 +536,16 @@ about-nav-playbook = 瞭解點樣參與
 
 about-playbook-what-is-language = Common Voice 度嘅一門語言係指乜？
 about-playbook-what-is-language-content-1 = 我哋可以用唔同角度去諗咩係語言。對於語音識別模型，Common Voice 建議將重點放喺「互通度」上面，即係話「講呢種語言嘅人互相對話嘅話，係咪大部分會理解到對方講緊啲咩？」
+about-playbook-what-is-language-content-2 = 我哋希望語音模型可以更精準噉理解到唔同背景嘅講話人，所以語音數據集要反映到好多唔同人嘅聲音。
+about-playbook-what-is-language-content-3 = 某啲語言內部有好多語法、詞彙同發音嘅差異，所以我哋由2022年起<ctaLink>引入「變體」嘅概念</ctaLink>，等各個社群喺個大數據集入面都搵得返佢哋自己嘅語言。
 
 ## How do I add a language
 
 about-playbook-how-add-language = 我點樣新加一隻語言？
+about-playbook-how-add-language-content-1 =
+    首先確認你嘅語言<languageLink>係咪已經收錄</languageLink>。
+    如果未有，<languageRequestLink>申請加入你嘅語言</languageRequestLink>。
+    會有兩個階段嘅工作要做：翻譯網站內容，同埋收集句子。
 about-playbook-how-add-language-translating-heading = 繙譯本站
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>睇下 Pontoon 嘅使用教學。</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
@@ -564,6 +570,7 @@ about-playbook-how-record-content-4 = 開始講嘢之前檢查有冇錄緊音，
 about-playbook-how-grow-language = 點樣有效發展 Common Voice 上面嘅語言？
 about-playbook-how-grow-language-content-2 = 活動
 about-playbook-how-grow-language-content-4 = 社交媒體
+about-playbook-how-grow-language-content-6 = 合作關係同合作網絡
 
 ## How to validate
 
@@ -1222,6 +1229,11 @@ sc-validation-no-abbreviations = 句子唔應該含有縮寫
 
 # [/SentenceCollector]
 
+# PARTNERSHIPS PAGE
+partnerships-header = 合作
+partnerships-header-text = 我哋付出咗好多努力先整出 Common Voice！我哋唔係單打獨鬥嘅。想同我地合作？我哋期待你嘅消息。
+partnerships-get-in-touch = 聯繫我哋
+partnerships-become-a-partner = 成為 Common Voice 合作夥伴
 partnerships-our-partners = 我哋嘅合作伙伴
 sentence-collection = 收集句子
 adding-sentences-subheader-punctuation = 標點
@@ -1244,3 +1256,6 @@ adding-sentences-subheader-punctuation = 標點
 donate-banner-cta = <mark>我哋需要</mark><br/><mark>你嘅幫手！</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = 我哋每年用嚟託管呢 100+ 門語言嘅數據集同維護開發個平台要使差唔多一百萬美金。<strong>如果你都重視數據開放同包容嘅話——噉就捐款畀我哋啦！</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>用緊 Common Voice 嚟做</mark><br/><mark>你嘅研究？</mark>
+languages-donate-banner-cta-explanation = Common Voice 係靠捐助同募款維持嘅！我哋非常樂意同學術界、工業界同民間研究團體合作。 Common Voice 係免費開放使用嘅，但係我哋同時都希望大家可以向平台貢獻同埋提供資助。
