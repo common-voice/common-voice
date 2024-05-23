@@ -1195,6 +1195,7 @@ sc-submit-ph-one-per-line =
     .placeholder = 每行一句
 sc-submit-button =
     .submitText = 遞交
+sc-submit-guidelines = 請睇 <howToLink>規範</howToLink>
 
 ## ADD LANGUAGE
 
@@ -1245,17 +1246,22 @@ partnerships-header-text = 我哋付出咗好多努力先整出 Common Voice！�
 partnerships-get-in-touch = 聯繫我哋
 partnerships-become-a-partner = 成為 Common Voice 合作夥伴
 partnerships-our-partners = 我哋嘅合作伙伴
+# GUIDELINES PAGE
+guidelines-header = 貢獻準則
 sentence-collection = 收集句子
+just-unsure-explanation = 如果你遇到咗呢份規範冇講到嘅情況，請自行判斷。如果真係決定唔到，可以撳跳過掣去聽下一段錄音。
 adding-sentences-subheader-punctuation = 標點
 
 ## WRITE PAGE
 
+guidelines = 規範
 
 ## LANGUAGE VARIANT CODES
 
 
 ## REVIEW PAGE
 
+sc-review-rules-title = 句話符唔符合規範？
 
 ## BULK SUBMISSION 
 
