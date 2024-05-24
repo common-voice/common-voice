@@ -106,7 +106,7 @@ const BulkSubmissionWrite = () => {
                   elems={{
                     templateFileLink: (
                       <a
-                        href="https://github.com/common-voice/common-voice/blob/main/docs/Sample%20Bulk%20Submission%20-%20Sheet1.tsv"
+                        href="https://github.com/common-voice/common-voice/blob/main/docs/sample-bulk-submission.tsv"
                         target="_blank"
                         rel="noreferrer"
                       />
