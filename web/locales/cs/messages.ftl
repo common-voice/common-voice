@@ -455,6 +455,12 @@ help-variants = Potřebujete pomoc s variantami?
 help-variants-explanation = Varianty jsou specifickou formou jazyka – například společnou pro obyvatele určité geografické oblasti nebo komunity. Někdy se jim říká nářečí.
 help-sex-or-gender-changes = Potřebujete pomoci se změnou pohlaví?
 help-sex-or-gender-changes-explanation = Nabízíme více možností, abychom dali lidem větší možnost volby, co nám sdělí o svém pohlaví nebo genderové identitě. Prosím, popište se způsobem, který je pro vás nejpřirozenější. <learnMoreLink>Zjistěte více o našem přístupu k pohlaví a genderu.</learnMoreLink>
+variant-contribution-options-header = Předvolby variant jazyka
+variant-contribution-help = Některé varianty a dialekty v rámci jazyka nebo jazykové rodiny se od sebe velmi liší. Pokud máte problémy se zapojením určité varianty, můžete zde změnit své preference.
+variant-contribution-option-1 = Zobrazit mi věty a ukázky ze všech variant v mém jazyce.
+variant-contribution-option-2 = Ukazujte mi pouze věty a ukázky z mé varianty
+variant-contribution-warning-title = ⓘ Zatím ne všechny věty a klipy mají přiřazen štítek Variant!
+variant-contribution-warning-subtitle = Pokud máte potíže s přispíváním, můžete kdykoli přepnout zpět na zobrazení veškerého obsahu pro svůj jazyk.
 
 ## Profile - Email
 
@@ -971,6 +977,7 @@ listen-again-instruction = Skvělá práce!<playIcon></playIcon> Až budete při
 listen-3rd-time-instruction = 2 máte za sebou, jen tak dál! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Poslední!
 listen-empty-state = Nahrávky ve vašem jazyce, které byste ještě mohli ověřovat, nám už bohužel došly...
+listen-empty-state-variants = Váš jazykový variant možná neobsahuje klipy! Pokud vám to vyhovuje, můžete změnit nastavení a zobrazit další věty ve svém jazyce.
 listen-loading-error =
     Další zvukové záznamy k poslechu již nemáme.
     Prosím, zkuste to znovu později.
@@ -978,6 +985,7 @@ listen-abort-title = Dokončit ověřování klipů?
 listen-abort-cancel = Pokračovat v ověřování
 listen-abort-confirm = Dokončit ověřování
 speak-empty-state = Věty, které byste mohli ve vašem jazyce nahrát, nám už bohužel došly...
+no-sentences-for-variants = Váš jazykový variant možná neobsahuje věty! Pokud vám to vyhovuje, můžete změnit nastavení a zobrazit další věty v rámci svého jazyka.
 speak-empty-state-cta = Přidejte další věty
 speak-loading-error =
     Další věty k přečtení již nemáme.
