@@ -448,6 +448,7 @@ help-variants-explanation = Biến thể là một dạng cụ thể của một
 help-sex-or-gender-changes = Cần trợ giúp về việc thay đổi giới tính?
 help-sex-or-gender-changes-explanation = Chúng tôi đang cung cấp nhiều lựa chọn hơn để giúp mọi người có nhiều lựa chọn hơn trong những gì họ cho chúng tôi biết về giới tính của họ. Hãy tự miêu tả theo cách mà bạn cảm thấy tự nhiên nhất. <learnMoreLink>Tìm hiểu thêm về cách tiếp cận của chúng tôi về giới tính.</learnMoreLink>
 variant-contribution-options-header = Tuỳ chọn biến thể để đóng góp
+variant-contribution-help = Một số biến thể và phương ngữ trong một ngôn ngữ hoặc họ ngôn ngữ rất khác nhau. Nếu gặp khó khăn khi tham gia vào một biến thể cụ thể, bạn có thể thay đổi tùy chỉnh của mình tại đây.
 variant-contribution-option-1 = Hiển thị cho tôi các câu và clip từ tất cả các biến thể trong ngôn ngữ của tôi
 variant-contribution-option-2 = Chỉ hiển thị cho tôi các câu và clip từ biến thể của tôi
 variant-contribution-warning-title = ⓘ Không phải tất cả các câu và clip đều có tag Biến thể!
