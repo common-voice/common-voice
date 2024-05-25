@@ -1806,8 +1806,19 @@ sentence-variant-select-multiple-variants = Γενική γλώσσα/πολλα
 ## LANGUAGE VARIANT CODES
 
 ca-algueres = Αλγερές
+ca-valencia-central = Κεντρική διάλεκτος Βαλένθιας
+ca-valencia-northern = Βόρεια διάλεκτος Βαλένθιας
+ca-valencia-southern = Νότια διάλεκτος Βαλένθιας
+ca-valencia-alacant = Αλακαντί
+cy-northwes = Ουαλικά (Βορειοδυτικά)
+cy-northeas = Ουαλικά (Βορειοανατολικά)
+cy-midwales = Ουαλικά (Κέντρο)
+cy-southwes = Ουαλικά (Νοτιοδυτικά)
+cy-southeas = Ουαλικά (Νοτιοανατολικά)
+cy-wladfa = Ουαλικά (Παταγονία)
 pt-BR = Πορτογαλικά (Βραζιλία)
 pt-PT = Πορτογαλικά (Πορτογαλία)
+sw-sanifu = Σουαχίλι Τυποποιημένα (ΑΑ)
 sw-barake = Σουαχίλι (Κένυα)
 sw-baratz = Σουαχίλι (Τανζανία)
 sw-kingwana = Kingwana (DRC)
