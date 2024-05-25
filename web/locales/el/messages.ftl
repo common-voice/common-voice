@@ -975,6 +975,7 @@ listen-again-instruction = Εξαιρετική δουλειά! <playIcon></play
 listen-3rd-time-instruction = Έφυγαν 2, συνεχίστε! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Τελευταίο!
 listen-empty-state = Μάλλον τελείωσαν τα αποσπάσματα - ανανεώστε τη σελίδα ή δοκιμάστε ξανά αργότερα.
+listen-empty-state-variants = Ενδέχεται να μη διατίθενται αποσπάσματα στην παραλλαγή της γλώσσας σας! Αν αισθάνεστε άνετα, μπορείτε να αλλάξετε τις ρυθμίσεις σας για να βλέπετε άλλες προτάσεις στη γλώσσα σας.
 listen-loading-error =
     Δεν μπορέσαμε να βρούμε κανένα απόσπασμα για να ακούσετε.
     Παρακαλούμε δοκιμάστε ξανά.
@@ -982,6 +983,7 @@ listen-abort-title = Τελειώσατε με την επικύρωση απο�
 listen-abort-cancel = Συνέχεια επικύρωσης
 listen-abort-confirm = Τέλος επικύρωσης
 speak-empty-state = Δεν υπάρχουν προτάσεις προς ηχογράφηση σε αυτήν τη γλώσσα...
+no-sentences-for-variants = Ενδέχεται να μη διατίθενται προτάσεις στην παραλλαγή της γλώσσας σας! Αν αισθάνεστε άνετα, μπορείτε να αλλάξετε τις ρυθμίσεις σας για να βλέπετε άλλες προτάσεις στη γλώσσα σας.
 speak-empty-state-cta = Συνεισφορά προτάσεων
 speak-loading-error =
     Δεν μπορέσαμε να βρούμε καμία πρόταση για να εκφωνήσετε.
@@ -1806,6 +1808,11 @@ sentence-variant-select-multiple-variants = Γενική γλώσσα/πολλα
 ## LANGUAGE VARIANT CODES
 
 ca-algueres = Αλγερές
+ca-central = Κεντρική διάλεκτος
+ca-balear = Διάλεκτος Βαλεαρίδων Νήσων
+ca-nwestern = Βορειοδυτική διάλεκτος
+ca-northern = Βόρεια διάλεκτος
+ca-valencia-tortosi = Τορτοσί
 ca-valencia-central = Κεντρική διάλεκτος Βαλένθιας
 ca-valencia-northern = Βόρεια διάλεκτος Βαλένθιας
 ca-valencia-southern = Νότια διάλεκτος Βαλένθιας
