@@ -1815,6 +1815,11 @@ ca-central = مرکزی
 ca-balear = بلير
 ca-valencia-tortosi = ٹورٹوسی
 ca-valencia-alacant = الاکانتی
+cy-northwes = شمال مغربی ویلش
+cy-northeas = شمال مشرقی ویلش
+cy-midwales = مڈ ویلز
+cy-southwes = جنوب مغربی ویلش
+cy-southeas = جنوب مشرقی ویلش
 pt-BR = پرتگیزی (برازیل)
 pt-PT = پرتگیزی (پرتگال)
 
