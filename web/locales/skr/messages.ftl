@@ -1785,7 +1785,11 @@ bulk-sentences = ڈھڳ جملے
 sentence-domain-combobox-label = جملے دی ڈومین
 sentence-domain-select-placeholder = ترائے تائیں ڈومیناں چݨو
 # Sentence Domain dropdown option
+agriculture_food = زراعت تے خوراک
+# Sentence Domain dropdown option
 finance = فنانس
+# Sentence Domain dropdown option
+service_retail = خدمت تے پرچون
 # Sentence Domain dropdown option
 general = عمومی
 # Sentence Domain dropdown option
@@ -1806,8 +1810,10 @@ sentence-variant-select-label = جملے دا لہجہ
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = الگیریز
 ca-central = مرکزی
 ca-balear = بلير
+ca-valencia-tortosi = ٹورٹوسی
 ca-valencia-alacant = الاکانتی
 pt-BR = پرتگیزی (برازیل)
 pt-PT = پرتگیزی (پرتگال)
