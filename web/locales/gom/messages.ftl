@@ -260,6 +260,17 @@ non-binary = Non-binary
 do_not_wish_to_say = Sangpak naka
 # Gender
 other = Ani kite
+why-profile-title = Profile kityak?
+dashboard = Dashboard
+build-profile = Profile Kor
+avatar = Photo va Avatar
+goals = Goal / Target
+settings = Settings
+edit-profile = Profile Sudar
+profile-create-success = Profile zalo!
+profile-close = Bond kor
+profile-explanation = Aplea provas-acher hishob dovorat ek profile kor ani moddot kor amchea voice data-ak anikui accurate dovorpak.
+why-demographic = Hem kityak gorjechem?
 download-profile = Mhozo Data Download Kor
 
 ## Profile - Email
@@ -471,6 +482,7 @@ both-speak-and-listen-long = Donui (Uloi ani Aikui)
 
 ## WRITE PAGE
 
+sentence-variant-select-label = Vakia'che Zaat
 
 ## LANGUAGE VARIANT CODES
 
@@ -480,6 +492,11 @@ both-speak-and-listen-long = Donui (Uloi ani Aikui)
 
 ## BULK SUBMISSION 
 
+select-file-mobile = File upload korpak vicchun kad
+upload-progress-text = Upload zata...
+file-invalid-type = Invalid file
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Amka zai</mark><br/><mark>tuji moddot!</mark>
