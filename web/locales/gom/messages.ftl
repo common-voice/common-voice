@@ -110,6 +110,42 @@ nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
 nd = IsiNdebele (North)
 ne-NP = Nepali
+nhe = Eastern Huasteca Nahuatl
+nhi = Western Sierra Puebla Nahuatl
+nia = Nias
+nl = Dutch
+nn-NO = Norwegian Nynorsk
+nr = IsiNdebele (South)
+tok = Toki Pona
+tr = Turkish
+ts = Xitsonga
+tt = Tatar
+tw = Twi
+ty = Tahitian
+tyv = Tuvan
+uby = Ubykh
+udm = Udmurt
+ug = Uyghur
+uk = Ukrainian
+ur = Urdu
+uz = Uzbek
+ve = Tshivenda
+vec = Venetian
+vi = Vietnamese
+vmw = Emakhuwa
+vot = Votic
+wep = Westphalian
+wo = Wolof
+xh = Xhosa
+yi = Yiddish
+yo = Yoruba
+yue = Cantonese
+zgh = Tamazight
+zh-CN = Chinese (China)
+zh-HK = Chinese (Hong Kong)
+zh-TW = Chinese (Taiwan)
+zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -118,9 +154,29 @@ ne-NP = Nepali
 
 speak = Uloi
 speak-now = Ata uloi
+datasets = Datasets
+languages = Bhaxeo
+about = Sombondi
+partner = Bhagidar Zav
+profile = Profile
+help = Moddott Kor
+contact = Sompork
+privacy = Ekant
+terms = Nhem
+cookies = Cookies
+faq = Porot Porot Vichar'lele Prosn
+content-license-text = Content dille asa eke <licenseLink>Creative Commons license'a</licenseLink> vorvim
+share-title = Amche moddat korat anikui lokkank hadun tanche avaaz dhan korunk!
+share-text = Moddot kor machine'ak shikovpak ki koshe bashen os'li monnis uloita, aple avaaz dhan korat { $link }
+link-copied = Link Copy Zale
+back-top = Porot Voir Voch
+logout = Log Out
+donate = Donate Korat
 
 ## Home Page
 
+home-title = Common Voice zavun asa Mozilla'che initiative machine'ak shikovpak ki khorem monnis kaso uloita to.
+default-tagline = Mozilla Common Voice zavun asa ek initiative je machine'ak shikoita ki khorem monnis khoxem uloita te.
 help-us-explain = Play kor, kan divun aik, ani sang: Temin asa toshech uloile?
 speak-subtitle = Tuje avaaz dan kor
 listen-subtitle = Sarkeponn topasunk amche moddot kor
@@ -141,13 +197,69 @@ ready-to-record = Tuje avaaz divpak toiar asa?
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Uloi/Rav
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Clip porot-record kor
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Chalu asa recording bhair odoi
+shortcut-submit = Fatti voch
 shortcut-submit-label = Clips submit kor
+request-language-text = Aplo bhas Common Voice-acher azun dixtti podna?
+request-language-button = Bhas request kor
 
 ## ProjectStatus
 
+status-title = Sommest project-acho porostiti: poloi ami kitle mukkar aileat!
+status-contribute = Aple Awaaz Dan Kor
+status-hours =
+    { $hours ->
+        [one] 1 sarkeponan topaslolem vor zale!
+       *[other] { $hours } sarkeponan topaslolem vor'a zali!
+    }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Dusrem target: { $goal }
+english = Inglish
 
 ## ProfileForm
 
+profile-form-username =
+    .label = User Name
+profile-form-native-language =
+    .label = Mai-Bhas
+profile-form-additional-language =
+    .label = Ani-ek Bhas
+profile-form-language =
+    .label = Bhaxa
+profile-form-variant =
+    .label = Kosle prakar'ache { $language } tumi uloitat?
+profile-form-variant-default-value = Koslech prakar vichun kadunk na
+profile-form-accent =
+    .label = Ulovpachi boli (Accent)
+profile-form-custom-accent-help-text =
+    .label = Tumche ulovpachi boli koxe toren asa?
+profile-form-custom-accent-placeholder-2 = Borovpak survat tori kor
+profile-form-age =
+    .label = Pirai
+profile-form-gender-2 =
+    .label = Ling (Gender)
+leaderboard-visibility =
+    .label = Ranking Dishti Podunk
+hidden = Lipoi
+visible = Disti podpak
+native-language =
+    .label = Mai-Bhas
+profile-form-add-accent = Ghallun dor novi ulovpachi boli "{ $inputValue }"
+profile-form-submit-save = Dovor
+profile-form-submit-saved = Dovorlem
+male_masculine = Purush/Daddlea-bashen
+female_feminine = Stree/Baila-bashen
+intersex = Donui Ling
+transgender = Transgender
+non-binary = Non-binary
+do_not_wish_to_say = Sangpak naka
+# Gender
+other = Ani kite
 download-profile = Mhozo Data Download Kor
 
 ## Profile - Email
