@@ -238,7 +238,7 @@ share-text = Agiuda a imparare a is màchinas comente chistiona sa gente reale: 
 link-copied = Ligàmene copiadu
 back-top = Torra in artu
 logout = Serra sa sessione
-donate = Donos
+donate = Faghe unu donu
 
 ## Home Page
 
