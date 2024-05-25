@@ -1001,6 +1001,7 @@ target-segment-generic-card = تساں ہدف ٹوٹے وچ حصہ پیندے پ
 target-segment-first-banner = { $locale } وچ کامن وائس دا پہلا ہدف حصہ بݨاوݨ وچ مدد کرو
 target-segment-add-voice = آپݨی آواز رلاؤ
 target-segment-learn-more = ٻیا سِکھو
+change-preferences = ترجیحاں وٹاؤ
 
 ## Contribution Nav Items
 
@@ -1784,13 +1785,7 @@ bulk-sentences = ڈھڳ جملے
 sentence-domain-combobox-label = جملے دی ڈومین
 sentence-domain-select-placeholder = ترائے تائیں ڈومیناں چݨو
 # Sentence Domain dropdown option
-agriculture = زراعت
-# Sentence Domain dropdown option
-automotive = آٹو موٹیو
-# Sentence Domain dropdown option
 finance = فنانس
-# Sentence Domain dropdown option
-food_service_retail = خوراک، خدمت تے پرچون
 # Sentence Domain dropdown option
 general = عمومی
 # Sentence Domain dropdown option
