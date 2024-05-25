@@ -14,6 +14,8 @@ email-opt-in-info-sub-with-challenge = Ais a retzire messàgios che a apuntos de
 email-opt-in-privacy-v2 = Seberende de retzire lìteras a s'indiritzu de posta eletrònica atzetas chi Mozilla impitet custas informatziones comente ispiegadu in sa <privacyLink>Polìtica de riservadesa</privacyLink> sua.
 indicates-required = * Indicat unu campu rechèdidu
 not-available-abbreviation = No est a disponimentu
+banner-error-slow-1 = Common Voice est andende a bellu. Gràtzias de s'interessu tuo.
+banner-error-slow-2 = Tenimus tràficu meda e semus analizende is problemas.
 banner-error-slow-link = Istadu de sa pàgina
 error-something-went-wrong = Ddoe est istadu unu problema.
 
@@ -38,19 +40,24 @@ ba = Baschiru
 bas = Basaa
 be = Bielorussu
 bg = Bùlgaru
+bm = Bambara
 bn = Bengalesu
+bo = Tibetanu
 br = Brètone
 bs = Bosnìacu
 bxr = Buriat
+byv = Medumba
 ca = Catalanu
 cak = Kaqchikel
 ckb = Curdu tzentrale
 cnh = Hakha Chin
 co = Corsicanu
+crh = Tàtaru crimeanu
 cs = Tzecu
 cv = Ciuvàsciu
 cy = Gallesu
 da = Danesu
+dag = Dagbani
 de = Tedescu
 dsb = Sòrabu bassu
 dv = Dhivehi
@@ -61,6 +68,7 @@ eo = Esperanto
 es = Castillanu
 et = Èstone
 eu = Bascu
+ewo = Ewondo
 fa = Persianu
 ff = Fulah
 fi = Finlandesu
@@ -70,9 +78,12 @@ fy-NL = Frisone
 ga-IE = Irlandesu
 gl = Galitzianu
 gn = Guaranì
+gu-IN = Gujarati
+guc = Wayuunaiki
 ha = Hausa
 he = Ebràicu
 hi = Hindi
+hil = Ilongu
 hr = Croatu
 hsb = Sòrabu artu
 ht = Haitianu
@@ -87,6 +98,7 @@ is = Islandesu
 it = Italianu
 izh = Ìngricu
 ja = Giaponesu
+jv = Giavanesu
 ka = Georgianu
 kaa = Karakalpak
 kab = Cabilencu
@@ -95,6 +107,7 @@ ki = Gikuyu
 kk = Kazacu
 km = Khmer
 kmr = Curdu de su Norte
+kn = Kannada
 knn = Konkani (Devanagari)
 ko = Coreanu
 kpv = Komi
@@ -103,7 +116,10 @@ ky = Chirghisu
 lb = Lussemburghesu
 lg = Luganda
 lij = Lìgure
+ln = Lingala
+lo = Laotianu
 lt = Lituanu
+ltg = Latgalianu
 lv = Lètone
 mai = Maithili
 mdf = Moksha
@@ -131,6 +147,7 @@ nyn = Nyankole
 oc = Otzitanu
 om = Afaan Ormoo
 or = Odia
+os = Ossètiu
 pa-IN = Punjabi
 pap-AW = Papiamentu (Aruba)
 pl = Polacu
@@ -147,6 +164,9 @@ sah = Yakut
 sat = Santali (Ol Chiki)
 sc = Sardu
 scn = Sitzilianu
+sco = Scots
+sd = Sindhi
+sdh = Curdu meridionale
 shi = Tashelhit
 si = Sinhala
 sk = Islovacu
@@ -155,6 +175,7 @@ sl = Islovenu
 so = Sòmalu
 sq = Albanesu
 sr = Serbu
+ss = Swati
 st = Sesotho
 sv-SE = Isvedesu
 sw = Swahili
@@ -183,12 +204,15 @@ ve = Tshivenda
 vec = Vènetu
 vi = Vietnamita
 vot = Vòticu
+wo = Wolof
+xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Cantonesu
 zh-CN = Tzinesu (Tzina)
 zh-HK = Tzinesu (Hong Kong)
 zh-TW = Tzinesu (Taiwan)
+zu = Zulù
 
 # [/]
 
@@ -200,6 +224,7 @@ speak-now = Chistiona immoe
 datasets = Pachetes de datos
 languages = Limbas
 about = Informatziones
+partner = Sòtzios
 profile = Profilu
 help = Agiudu
 contact = Cuntatu
@@ -213,6 +238,7 @@ share-text = Agiuda a imparare a is màchinas comente chistiona sa gente reale: 
 link-copied = Ligàmene copiadu
 back-top = Torra in artu
 logout = Serra sa sessione
+donate = Donos
 
 ## Home Page
 
@@ -371,8 +397,11 @@ native-language =
 profile-form-add-accent = Agiunghe s'atzentu personalizadu nou "{ $inputValue }"
 profile-form-submit-save = Sarva
 profile-form-submit-saved = Sarvadu
-male = Mascru
-female = Fèmina
+male_masculine = Òmine/Maschile
+female_feminine = Fèmina/feminile
+intersex = Intersessuale
+transgender = Transgènere
+non-binary = Non binàriu
 # Gender
 other = Àteru
 why-profile-title = Pro ite depo fàghere unu profile?
@@ -549,6 +578,7 @@ about-playbook-how-add-language = Comente fatzo a agiùnghere una limba?
 about-playbook-how-add-language-translating-heading = Tradutzione de su situ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Càstia sa ghia nostra in pitzus de s'impreu de Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Regorta de fràsias
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Àteras informatziones in pitzus de sa collida de fràsias</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -560,13 +590,14 @@ about-playbook-how-localize-content-5 = Càstia su vìdeu cun ispiegatziones pro
 ## How to add sentences
 
 about-playbook-how-add-sentences = Comente fatzo a agiùnghere fràsias?
-about-playbook-how-add-sentences-content-4 = Is fràsias validadas sunt esportadas su mèrcuris e publicadas a pustis de sa versione sutzessiva.
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-4 = Retes sotziales
 
 ## How to validate
 
@@ -580,6 +611,10 @@ about-playbook-how-validate-content-4 = Si una registratzione est refudada dae 2
 
 
 ## How are decisions made
+
+about-playbook-how-project-governance-content-3 = Riservadesa, seguresa e trasparèntzia.
+
+## How is Common Voice funded
 
 
 ## Glossary
@@ -676,6 +711,8 @@ subscribe = Registra·ti
 get-started-speech = Introdutzione a su reconnoschimentu vocale
 other-datasets = Àteros pachetes de datos de boghe...
 feedback-q = Tenes cummentos de fàghere?
+# This indicates that there is no data to display
+no-information = Nissuna informatzione
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ est unu <docsLink>grupu de ainas a còdighe lìberu</docsLink> pro is chircadores chi isvilupant modellos a s'avanguàrdia de intellighèntzias artifitziales cunversatzionales.
 resource-deepspeech-info = Su motore de reconnoschimentu de sa boghe a còdighe abertu de Mozilla, Deep Speech, si podet impreare pro istantargiare aplicatziones de reconnoschimentu vocale. Leghe·ti sa <githubLink>panoràmica in Github</githubLink> o auni·ti a su Discourse de DeepSpeech</discourseLink> pro imparare comente cumintzare.
 resource-coqui-info = <coquiLink>Coqui</coquiLink>est dedicadu a sa tecnologia aberta in contu de boghes. Su progetu issoro includet motores STT e TTS basados a pitzu de s'imparu profundu.
@@ -695,6 +732,14 @@ more = Àteru
 close = Serra
 download = Iscàrriga
 dataset-version = Versione
+sha256-checksum-copied = Checksum SHA256 copiadu.
+sha256-checksum-copied-error = Impossìbile copiare su checksum SHA256
+clipboard-not-supported = Punta de billete non cumpatìbile
+no-information-available = Nissuna informatzione a disponimentu
+dataset-metadata-sex = Sessu
+# dataset metadata - age of contributor
+dataset-metadata-age = Edade
+donate-modal-message = Iscarrighende su pachete de datos.
 
 ## Download Modal
 
@@ -809,6 +854,8 @@ listen-again-instruction = Bonu traballu!<playIcon></playIcon> Torra a ascurtare
 listen-3rd-time-instruction = 2 giai fatas, sighi aici!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ùrtima!
 listen-empty-state = Amus acabbadu is registratziones de validare in custa limba...
+listen-abort-cancel = Sighi cun sa validatzione
+listen-abort-confirm = Agabba sa validatzione
 speak-empty-state = Amus acabbadu is frases de registrare in custa limba...
 speak-empty-state-cta = Contribui cun frases
 record-button-label = Registra sa boghe tua
@@ -820,6 +867,7 @@ target-segment-generic-card = Ses cuntribuende a unu segmentu obietivu
 target-segment-first-banner = Agiuda a creare su primu segmentu obietivu de Common Voice in { $locale }
 target-segment-add-voice = Agiunghe sa boghe tua
 target-segment-learn-more = Àteras informatziones
+change-preferences = Modìfica is preferèntzias
 
 ## Contribution Nav Items
 
@@ -1342,13 +1390,14 @@ adding-sentences-subheader-speakable = Pronuntziàbile
 adding-sentences-subheader-numbers = Nùmeros
 adding-sentences-subheader-punctuation = Puntegiadura
 adding-sentences-subheader-special-characters = Caràteres ispetziales e lìteras istràngias
+
+## WRITE PAGE
+
 sentence =
     .label = Fràsia
 sentence-input-value = Inserta·nce inoghe sa fràsia in domìniu pùblicu
-citation-input-value = Orìgine de sa fràsia
 citation =
     .label = Tzitatzione
-what-can-i-add = Cale tipu de fràsias potzo agiùnghere?
 new-sentence-rule-1 = <noCopyright>Chena deretos de autore</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Prus pagu de 15 faeddos
 new-sentence-rule-3 = Sa grammàtica est curreta
@@ -1364,4 +1413,16 @@ contact-us = Cuntata·nos
 add-sentence-success = 1 fràsia regorta
 add-sentence-error = Faddina in s'agiunta de sa fràsia
 required-field = Cumpila custu campu.
+
+## LANGUAGE VARIANT CODES
+
+
+## REVIEW PAGE
+
 report-sc-different-language = Lìngua diferente
+
+## BULK SUBMISSION 
+
+
+## Donate banner
+
