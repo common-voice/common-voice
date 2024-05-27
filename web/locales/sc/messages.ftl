@@ -233,7 +233,7 @@ terms = Cunditziones
 cookies = Testimòngios
 faq = PF
 content-license-text = Cuntenutu a disponimentu a suta de sa <licenseLink>lissèntzia Creative Commons</licenseLink>
-share-title = Agiuda·si a agatare àtera gente chi podet donare sa boghe sua!
+share-title = Agiuda·nos a agatare gente chi potzat donare sa boghe sua!
 share-text = Agiuda a imparare a is màchinas comente chistiona sa gente reale: dona sa boghe tua a { $link }
 link-copied = Ligàmene copiadu
 back-top = Torra in artu
@@ -259,23 +259,23 @@ wall-of-text-second =
     Cunsideramus chi custu frenat s'innovatzione. Est pro custa resone chi amus lantzadu Common Voice,
      pro chi sa tecnologia de reconnoschimentu de boghe siat aberta e atzessìbile dae totus.
 show-wall-of-text = Leghe àteru
-help-us-title = Agiuda·si a validare frases!
-help-us-explain = Incarca Reprodue, ascurta e nara·si si s'àudio currispondet a sa frase in bàsciu:
-no-clips-to-validate = Paret chi no ci siant registratziones de ascurtare in custa limba. Agiuda·si a crèschere custu elencu registrende carchi cosa.
+help-us-title = Agiuda·nos a validare frases!
+help-us-explain = Incarca Reprodue, ascurta e nara·nos si s’àudio currispondet a sa frase in bàsciu:
+no-clips-to-validate = Paret chi no ci siant registratziones de ascurtare in custa limba. Agiuda·nos a crèschere custu elencu registrende calicuna cosa.
 vote-yes = Emmo
 vote-no = Nono
 toggle-play-tooltip = Incarca { shortcut-play-toggle } pro aviare e frimare sa reprodutzione
 speak-subtitle = Dona sa boghe tua
 speak-paragraph = Registrare boghes est una parte integrale de su protzessu de costrutzione de su nostru pachete de datos abertu; e est fintzas sa parte ispassiosa.
 speak-goal-text = Registratziones
-listen-subtitle = Agiuda·si a validare boghes
+listen-subtitle = Agiuda·nos a validare boghes
 listen-paragraph = .
 listen-goal-text = Registratziones validadas
 hours-recorded = Oras registradas
 hours-validated = Oras validadas
 voices-online = Boghes in lìnia immoe
 todays-progress = Progressu de oe
-help-reach-goal = Agiuda·si a arribare a { $goal }
+help-reach-goal = Agiuda·nos a lòmpere a { $goal }
 read-terms-q = As lèghidu is Cunditziones nostras?
 ready-to-record = Ses prontu pro donare sa boghe tua?
 all-locales = Totu
@@ -295,7 +295,7 @@ x-years-short =
         [one] { $count }a
        *[other] { $count }a
     }
-help-make-dataset = Agiuda·si a creare unu pachete de datos abertu e pùblicu de arta calidade
+help-make-dataset = Agiuda·nos a creare unu pachete de datos abertu e pùblicu de arta calidade
 sign-up-account = Crea unu contu
 email-subscription-title = registra·ti pro retzire atualizatziones tràmite posta eletrònica
 email-subscription-title-new = Iscrie·ti pro retzire su bolletinu de Common Voice, apuntos de obietivos e atualizatziones de progressu
@@ -414,7 +414,7 @@ settings = Cunfiguratziones
 edit-profile = Modìfica su profilu
 profile-create-success = As creadu su profilu.
 profile-close = Serra
-profile-explanation = Sighi su progressu tuo cun unu profilu e agiuda·si a megiorare sa pretzisione e is datos de boghe.
+profile-explanation = Sighi su progressu tuo cun unu profilu e agiuda·nos a megiorare sa pretzisione e is datos de boghe.
 thanks-for-account = Gràtzias de sa cunfirmatzione de su contu. Immoe amus a creare su profilu tuo.
 why-demographic = Pro ite est importante?
 why-demographic-explanation-2 = Is datos anonimizados comente s'edade, su gènere e s'atzentu agiudant a megiorare is datos de s'àudio impitados pro s'annestru de s'acuradesa de su motore de reconnoschimentu vocale. Su nòmine usuàriu tuo e s'indiritzu de posta tuo no ant a èssere mai assotziados cun is datos imbiados, e podes seberare de fàghere in manera chi su nòmine usuàriu tuo siat pùblicu o anònimu.
@@ -859,7 +859,7 @@ listen-abort-confirm = Agabba sa validatzione
 speak-empty-state = Amus acabbadu is frases de registrare in custa limba...
 speak-empty-state-cta = Contribui cun frases
 record-button-label = Registra sa boghe tua
-share-title-new = <bold>Agiuda·si</bold> a agatare prus boghes
+share-title-new = <bold>Agiuda·nos</bold> a agatare prus boghes
 keep-track-profile = Sighi su progressu tuo cun unu profilu
 login-to-get-started = Intra o registra·ti pro cumintzare
 target-segment-first-card = Ses cuntribuende a su primu segmentu obietivu nostru
@@ -1029,7 +1029,7 @@ profile-form-delete = Cantzella su profilu
 ## Profile Download
 
 download-q = Tenes bisòngiu de iscarrigare is datos tuos?
-download-info = Nara·si ite dias bòlere iscarrigare:
+download-info = Nara·nos ite dias bòlere iscarrigare:
 download-profile-title = Profilu
 download-profile-info = Incluit s'indiritzu de posta eletrònica, su nòmine usuàriu e is informatziones demogràficas, a disponimentu immediatamente
 download-profile-size = Unos cantos bytes
