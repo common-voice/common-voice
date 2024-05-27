@@ -166,6 +166,7 @@ ps = ພາສາປາສໂທ
 pt = ພາສາໂປຣຕຸເກສ
 quc = K'iche'
 quy = Quechua Chanka
+qvi = Kichwa
 rm-sursilv = Romansh Sursilva
 rm-vallader = Romansh Vallader
 ro = ພາສາໂລມາເນຍ
