@@ -1784,6 +1784,8 @@ automotive_transport = موټروان او ترانسپورت
 # Sentence Domain dropdown option
 finance = مالیه
 # Sentence Domain dropdown option
+service_retail = خدمت او پرچون
+# Sentence Domain dropdown option
 general = عمومي معلومات
 # Sentence Domain dropdown option
 healthcare = روغتیایی پاملرنه
@@ -1807,6 +1809,13 @@ sentence-variant-select-multiple-variants = عمومي ژبه / ډیر ډولو�
 
 ca-central = مرکزي
 ca-balear = بیلیر
+cy-northwes = شمال لویدیځ ویلش
+cy-northeas = شمال ختیځ ویلش
+cy-southwes = شمال لویدیځ ویلش
+cy-southeas = شمال ختیځ ویلش
+pt-BR = پرتګالي (برازیل)
+pt-PT = پرتګالي (پرتګال)
+sw-sanifu = کیسوهیلی سنیفو (EA)
 
 ## REVIEW PAGE
 
