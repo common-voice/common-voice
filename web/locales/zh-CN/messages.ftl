@@ -447,6 +447,12 @@ help-variants = 需要关于变体的帮助说明吗？
 help-variants-explanation = 变体是一种语言的特定形式 - 例如在某片区域内人们的说话方式被称为一种变体。有时称其为方言。
 help-sex-or-gender-changes = 需要更改“生理性别”或“性别认同”设置方面的帮助？
 help-sex-or-gender-changes-explanation = 我们提供更加多样的选项，让人们在向我们告知其生理性别或性别认同时，能够获得更全面的选择。请用您觉得最自然的方式来做自我描述。<learnMoreLink>详细了解我们处理生理性别和性别认同的方式</learnMoreLink>。
+variant-contribution-options-header = 语言变体贡献选项
+variant-contribution-help = 一个语言或语言家族中的一些变体和方言彼此之间有很大差异。如果您在参与某个特定变体时遇到问题，那么你可以在此更改您的首选项设置。
+variant-contribution-option-1 = 显示我的语言中所有变体的句子和片段
+variant-contribution-option-2 = 只显示我的语言变体中的句子和片段
+variant-contribution-warning-title = ⓘ 并不是所有的句子和片段都已经有了变体标签！
+variant-contribution-warning-subtitle = 如果您在贡献时遇到问题，您可以随时切回查看该语言的所有内容。
 
 ## Profile - Email
 
@@ -946,11 +952,13 @@ listen-again-instruction = 做得好！<playIcon></playIcon> 准备好就可以�
 listen-3rd-time-instruction = 完成两条了 <playIcon></playIcon>，继续加油！
 listen-last-time-instruction = <playIcon></playIcon> 最后一个了！
 listen-empty-state = 我们已经没有这种语言的片段可以验证了…
+listen-empty-state-variants = 您的语言变体的素材可能已经处理完了！如果方便，您可以更改设置以查看您的语言中的其他语句。
 listen-loading-error = 暂无录音片段供您聆听确认，请稍后再试。
 listen-abort-title = 要完成片段验证吗？
 listen-abort-cancel = 继续验证
 listen-abort-confirm = 完成验证
 speak-empty-state = 我们已经没有这种语言的文本可以录音了…
+no-sentences-for-variants = 您的语言变体的语句已经处理完了！如果方便，您可以更改设置以查看您的语言中的其他语句。
 speak-empty-state-cta = 贡献语句
 speak-loading-error = 暂无语句供您录音，请稍后再试。
 record-button-label = 录下您的声音
@@ -962,6 +970,7 @@ target-segment-generic-card = 您正朝着目标段落数贡献录音
 target-segment-first-banner = 帮助在 Common Voice 创建 { $locale } 的第一段目标细分语音
 target-segment-add-voice = 添加您的声音
 target-segment-learn-more = 详细了解
+change-preferences = 更改首选项
 
 ## Contribution Nav Items
 
@@ -1693,6 +1702,7 @@ write-page-subtitle = 此处贡献的语句将被添加到采用 cc-0 许可证�
 sentence =
     .label = 语句
 sentence-input-value = 请在此输入您的公有领域语句
+citation-input-placeholder = 引用语句出处（必填）
 citation =
     .label = 引用
 sc-write-submit-confirm = 我确认这句话以<wikipediaLink>公有领域</wikipediaLink>授权并且我有权上传。
@@ -1720,7 +1730,13 @@ bulk-sentences = 批量语句
 sentence-domain-combobox-label = 语句领域
 sentence-domain-select-placeholder = 最多选择三个领域
 # Sentence Domain dropdown option
+agriculture_food = 农副产品
+# Sentence Domain dropdown option
+automotive_transport = 汽车与交通
+# Sentence Domain dropdown option
 finance = 金融
+# Sentence Domain dropdown option
+service_retail = 服务和零售
 # Sentence Domain dropdown option
 general = 常规
 # Sentence Domain dropdown option
@@ -1739,9 +1755,14 @@ news_current_affairs = 新闻与时事
 technology_robotics = 技术与机器人
 sentence-variant-select-label = 语句变体
 sentence-variant-select-placeholder = 选择一个变体（非必选）
+sentence-variant-select-multiple-variants = 通用语言/多个变体
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = 阿尔格雷斯语
+ca-valencia-tortosi = 托尔托西语
+ca-valencia-alacant = 阿拉坎蒂语
+cy-northwes = 西南威尔士语
 
 ## REVIEW PAGE
 
