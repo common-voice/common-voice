@@ -655,6 +655,7 @@ about-playbook-how-grow-language-content-8 = <strong>Budźće kreatiwny!</strong
 ## How to validate
 
 about-playbook-how-validate = Zwotkel wěm, hač mam hłosowy klip schwalić?
+about-playbook-how-validate-content-1 = Jeli móžešće je <strong>słyšeć</strong> a <strong>rozumić</strong>, je najlěpje je <strong>schwalić</strong>.
 about-playbook-how-validate-content-4 = Jeli klip so wot 2 wosobow wotpokazuje, wozjewi so w druhej dźělnej sadźbje datoweje sadźby.
 
 ## How to access dataset
