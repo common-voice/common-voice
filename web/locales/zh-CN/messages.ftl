@@ -1778,6 +1778,7 @@ sw-baratz = 斯瓦希里语 cha Bara aya 坦桑尼亚
 sw-kingwana = 金瓦纳语（DRC）
 sw-kimrima = 基里马语（TZ） - 北部方言
 sw-kipemba = 基边巴语（TZ）- 南部方言
+sw-kikae = Kimakunduche/Kisae（TZ）- 南部方言
 
 ## REVIEW PAGE
 
