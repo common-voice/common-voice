@@ -464,6 +464,7 @@ help-variants = لہجیاں وچ کجھ مدد دی لوڑ ہے؟
 help-variants-explanation = متغیرات زبان دی ہک مخصوص شکل ہن ــ مثال دے طور تے ہک برادری یا جغرافیہ وچ راہوݨ آلیاں ولوں سانجھا۔ کہیں کہیں ویلے انہاں کوں لہجے آہدن۔
 help-sex-or-gender-changes = بھلا جنس یا صنفی تبدیلیاں وِچ مَدَت دی لوڑ ہِے؟
 help-sex-or-gender-changes-explanation = اَساں لوکاں کوں آپݨی جنس یا صنفی سُن٘ڄاݨ دے بارے وِچ جہڑا کُجھ ݙَسین٘دے ہِسے اُون٘دے وِچ اُنّھاں کوں چوݨ ݙیوݨ کِیتے ٻئے چوݨ پیش کرین٘دے پئے ہِسے۔ تھورائیت کرین٘ے ہوئے آپݨے آپ کوں اِیں انداز وِچ ݙَساؤ جہڑا تُہاکوں سچّی وِچ محسوس تِھین٘دا ہِٖ۔ <learnMoreLink>جنس اَتے صنف دے بارے وِچ اَساݙے نقطۂ نظر دے بارے وِچ ٻِیا ڄاݨُو۔</learnMoreLink>
+variant-contribution-options-header = لہجہ ونگاراں اختیارات
 
 ## Profile - Email
 
@@ -1807,6 +1808,7 @@ news_current_affairs = خبراں اَتے موجودہ حالات
 # Sentence Domain dropdown option
 technology_robotics = ٹیکنالوجی اَتے روبوٹکس
 sentence-variant-select-label = جملے دا لہجہ
+sentence-variant-select-placeholder = لہجہ چݨو (اختیاری)
 
 ## LANGUAGE VARIANT CODES
 
