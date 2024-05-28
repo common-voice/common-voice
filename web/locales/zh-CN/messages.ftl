@@ -1766,9 +1766,18 @@ ca-valencia-central = 中瓦伦西亚语
 ca-valencia-alacant = 阿拉坎蒂语
 cy-northwes = 西南威尔士语
 cy-northeas = 东北威尔士语
+cy-midwales = 中威尔士语
 cy-southwes = 西南威尔士语
+cy-southeas = 东南威尔士语
+cy-wladfa = 巴塔哥尼亚威尔士语
 pt-BR = 葡萄牙语（巴西）
 pt-PT = 葡萄牙语 (葡萄牙)
+sw-sanifu = 斯瓦希里语萨尼夫语（EA）
+sw-barake = cha Bara aya Kenia斯瓦希里语
+sw-baratz = 斯瓦希里语 cha Bara aya 坦桑尼亚
+sw-kingwana = 金瓦纳语（DRC）
+sw-kimrima = 基里马语（TZ） - 北部方言
+sw-kipemba = 基边巴语（TZ）- 南部方言
 
 ## REVIEW PAGE
 
