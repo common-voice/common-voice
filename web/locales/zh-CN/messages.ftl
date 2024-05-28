@@ -1768,6 +1768,7 @@ cy-northwes = 西南威尔士语
 cy-northeas = 东北威尔士语
 cy-southwes = 西南威尔士语
 pt-BR = 葡萄牙语（巴西）
+pt-PT = 葡萄牙语 (葡萄牙)
 
 ## REVIEW PAGE
 
