@@ -243,7 +243,7 @@ donate = Faghe unu donu
 ## Home Page
 
 home-title = Common Voice est s'initziativa de Mozilla pro agiudare a imparare a is màchinas comente chistionat sa gente reale.
-default-tagline = Common Voice est un'initziativa pro agiudare a insegnare a is màchinas comente chistionant is persones normales.
+default-tagline = Common Voice est un'initziativa pro agiudare a imparare a is màchinas comente chistionant is persones normales.
 home-cta = Chistiona, contribui inoghe!
 wall-of-text-start = Sa boghe est naturale, sa boghe est umana. Est pro custu chi bolemus creare tecnologias de boghe de calidade pro is màchinas. Però isvilupare custos sistemas rechedet unu volùmene mannu de datos de boghe.
 wall-of-text-more-mobile = Sa majoria de is datos impreados dae is aziendas mannas no sunt a disponimentu pro totus. Cunsideramus chi custu frenat s'innovatzione. Est pro custa resone chi amus lantzadu su progetu Common Voice, pro chi sa tecnologia de reconnoschimentu de boghe siat aberta pro totus.
@@ -1006,7 +1006,7 @@ share-goal-type-speak = chistionadas
 share-goal-type-listen = ascurtadas
 share-goal-type-both = chistionadas e ascurtadas
 # LINK will be replaced with the current URL
-goal-share-text = Apo creadu immoe un'obietivu personale pro is donatziones de boghe a #CommonVoice -- auni·ti e me e agiuda·mi a insegnare a is màchinas comente chistionant is persones beras { $link }
+goal-share-text = Apo creadu immoe un'obietivu personale pro is donatziones de boghe a #CommonVoice. Auni·ti e me e agiuda·mi a imparare a is màchinas comente chistionant is persones beras { $link }
 weekly-goal-created = S'obietivu chidajolu tuo est istadu creadu
 daily-goal-created = S'obietivu diàriu tuo est istadu creadu
 track-progress = Sighi su protzessu inoghe e in sa pàgina de is istatìsticas tuas.
