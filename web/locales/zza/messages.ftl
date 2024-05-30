@@ -444,6 +444,7 @@ help-accent-explanation = Fekê to hewayê to yê telefuzê çekuyan o. Cayê to
 help-variants = Derheqê varyantan de hetkarîye wazenî/a?
 help-variants-explanation = Varyant formêkê ziwanî yo spesîfîk o. Sey nimûne, kesê ke eynî cografya yan kî komel de ciwîyenê. Ge-gane nînan ra "lehçe" vanê.
 help-sex-or-gender-changes = Vurnayîşê cins yan zî seksualîte de ardim lazim o?
+variant-contribution-options-header = Opsîyonê Îlawekerdişê Fekan
 
 ## Profile - Email
 
