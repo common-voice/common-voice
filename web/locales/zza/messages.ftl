@@ -51,6 +51,7 @@ cak = Kaqçîkelkî
 ckb = Kurdkî (Sorankî)
 cnh = Haxaçînkî
 co = Korskî
+crh = Tatarkîya Kirimî
 cs = Çekkî
 cv = Çuvaşkî
 cy = Walskî (Galkî)
@@ -71,11 +72,14 @@ ff = Fulahkî
 fi = Fînkî
 fo = Farokî
 fr = Franskî
+fuf = Pularkîya Gîne
 fy-NL = Frîskî
 ga-IE = Îrlandkî
 gl = Galîkî
 gn = Guarankî
 gom = Goan Konkanî
+gu-IN = Guceratkî
+guc = Wayunaykî
 ha = Hawsakî
 he = Îbrankî
 hi = Hîndkî
@@ -95,6 +99,7 @@ it = Îtalkî
 izh = Îngrîkî
 ja = Japonkî
 jbo = Lojbankî
+jv = Cavakî
 ka = Gurckî
 kaa = Karakalpakkî
 kab = Kabîlkî
@@ -115,7 +120,9 @@ lij = Lîguryankî
 ln = Lîngalkî
 lo = Laokî
 lt = Lîtvankî
+ltg = Latgalkî
 lv = Letonkî
+lzz = Lazkî
 mai = Maîthîlî
 mdf = Mokşakî
 mg = Madagaskî
@@ -384,8 +391,6 @@ native-language =
 profile-form-add-accent = Feko taybetî îlawe bike "{ $inputValue }"
 profile-form-submit-save = Qeyd ke
 profile-form-submit-saved = Qeyd bî
-male = Camêrd
-female = Cinîke
 # Gender
 other = Ê bînî
 why-profile-title = Çira profîlêk virazî?
@@ -595,7 +600,6 @@ about-playbook-how-add-sentences = Ez senî cumleyan îlawe kena?
 about-playbook-how-add-sentences-content-1 = <strong>Arêdayoxê Cumleyan</strong> wesayît o ke pê cumleyê ke pêroyî rê akerde yê, arê dîyenê û tesdîq benê. Verê, ganî ti <scAccountLink>hesabêk virazê</scAccountLink>. Dima, ziwanê xo îlaweyê <strong>profîlê xo</strong> bike. Ti eşkenî/a cumleyan <strong>îlawe bikerê</strong> yan kî <strong>çim biçarnê</strong> cumleyanê îlawekerdeyan.
 about-playbook-how-add-sentences-content-2 = Seba ke cumleyî îlaweyê Common Voice bibê, ganî hetê di kesan ra kontrol bibê û qebul bibê. Ti <languageGuidelinesLink>tîya</languageGuidelinesLink> rayberê ziwanê xo virazenî/a. Ganî cumleyî binê lîsansê <licenseLink>milkê pêroyî</licenseLink> de bibê û 15 çekuyan ra kêmî bibê. Ti eşkenî/a wayîrê metnêk ra bipersî ke <waiverLink>pê feragatnameyê ma metnê xo sey CC0 tesnîf bikero</waiverLink> û adresa commonvoice@mozilla.com rê birusno.
 about-playbook-how-add-sentences-content-3 = Ti eşkenî/a <scraperLink>Vetoxê Cumleyan</scraperLink> bixebitnê ke Wîkîpedîa ra cumleyanê hurdîyan bigîrê.
-about-playbook-how-add-sentences-content-4 = Cumleyê tesdîqkerdeyî roja çarşemeyî de neqlê teberî benê û weşano ameyox ra dime seba wendişî benê amade.
 
 ## How to record quality
 
@@ -636,6 +640,9 @@ about-playbook-how-project-governance-content-4 = Komelî reyde beşdarbîyayî�
 about-playbook-how-project-governance-content-5 = Qîymet û naskerdiş.
 about-playbook-how-project-governance-content-6 = Berpirsîyarîya hempare.
 about-playbook-how-project-governance-content-7 = <governanceLink>Biwane, ma senî îdare benîme</governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -862,6 +869,9 @@ target-segment-generic-card = Ti beşdarîya beşêkê hedefî kenî/a
 target-segment-first-banner = Dest bide ke Common Voice de beşê hedefê { $locale } yo verên virazîme
 target-segment-add-voice = Vengê xo îlawe bike
 target-segment-learn-more = Hîna Zaf Melumat
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1441,3 +1451,19 @@ already-have-an-account = Xora hesabê to est o? <login>Dekewe</login>
 create-profile-button = Profîlêk viraze
 # IMAGE TAGS
 img-alt-success-checkmark = nîşanê serkewtişî
+sentence-collection = Arêdayîşê Cumleyan
+
+## WRITE PAGE
+
+
+## LANGUAGE VARIANT CODES
+
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
+
+## Donate banner
+
