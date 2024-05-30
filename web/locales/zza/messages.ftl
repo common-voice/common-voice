@@ -837,8 +837,8 @@ action-click = Bitikne
 action-tap = Bêçike pane
 contribute = Beşdar be
 listen = Goşdar bike
-write = Bınuse
-review = Çım Bıçarne
+write = Binuse
+review = Çim Biçarne
 skip = Ravêre
 shortcuts = Kilmrayîrî
 clips-with-count-pluralized =
@@ -901,6 +901,8 @@ target-segment-learn-more = Hîna Zaf Melumat
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Arêdayîşê Vengan
+contribute-sentence-collection-nav-header = Arêdayîşê Cumleyan
 
 ## Reporting
 
@@ -1400,9 +1402,11 @@ sc-criteria-item-1 = Ganî cumle raşt binusîyo.
 sc-criteria-item-2 = Ganî cumle hetê gramerî ra raşt bo.
 sc-criteria-item-3 = Ganî merdim bieşko cumle biwano.
 sc-criteria-item-4 = Eke cumle rîayetê nê krîteran kena, destê raştî de gojaga &quot;Tesdîq ke&quot ser o bitikne.
+sc-criteria-item-6 = Eke cumleyî nêmendê ke bêrê çimçarnayene, keremê xo ra dest bide ma ke hîna zaf cumleyan arê bidîme!
 
 ## REVIEW
 
+sc-review-lang-not-selected = To qet ziwan wenêçînito. Keremê xo ra şo <profileLink>Profîlê xo</profileLink> û ziwanêk weçîne.
 sc-review-title = Çim biçarne cumleyan
 sc-review-loading = Cumleyî bar benê...
 sc-review-select-language = Seba çimçarnayîşê cumleyan, keremê xo ra ziwanêk weçîne.
@@ -1483,10 +1487,12 @@ img-alt-success-checkmark = nîşanê serkewtişî
 sentence-collection = Arêdayîşê Cumleyan
 background-voices-tip-1 = Ti yenî? [yewna kes ke veng dano]
 volume-explanation = Normal o ke sewîyeya vengî yê her qiseykerdoxî cîya ya. Eke veng hende berz o ke qeyd birîyeno yan zî (no hîna zaf qewimîyeno) eke veng hende nizm o ke ti nêeşkenî/a bê wendişê metnî bihesnê ke wendox se vano, tena o wext qeydî betal bike.
+reviewing-sentences = Çimçarnayîşê Cumleyan
 
 ## WRITE PAGE
 
 sc-review-write-title = Ez eşkena kamcîn cumleyan îlawe bikerî?
+add-sentence-success = 1 cumle arê dîyaye
 sentence-variant-select-placeholder = Fek weçîne (mecburî nîyo)
 sentence-variant-select-multiple-variants = Ziwano bingeyên / tayê fekê ci
 
@@ -1495,6 +1501,13 @@ sentence-variant-select-multiple-variants = Ziwano bingeyên / tayê fekê ci
 
 ## REVIEW PAGE
 
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = De kontrol bike <icon></icon> tirêm na cumle hetê ziwannasîye ra raşt a yan ney?
+sc-review-rules-title = Na cumle goreyê rayberî nusîyaya?
+sc-review-empty-state = Na game nê ziwanî de cumleyî çin ê.
+report-sc-different-language-detail = No yewna ziwan de nusîyayo.
+review-error = Çimçarnayîşê na cumle de xetayêk vejîyaye meydan
+review-error-rate-limit-exceeded = Ti zêde lez şonî/a. Keremê xo ra çimçarnayîşê cumle de wextê xo bigîre wa cumle şaş nêbo.
 
 ## BULK SUBMISSION 
 
