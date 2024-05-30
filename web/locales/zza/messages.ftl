@@ -1485,6 +1485,8 @@ volume-explanation = Normal o ke sewîyeya vengî yê her qiseykerdoxî cîya ya
 
 ## WRITE PAGE
 
+sentence-variant-select-placeholder = Fek weçîne (mecburî nîyo)
+sentence-variant-select-multiple-variants = Ziwano bingeyên / tayê fekê ci
 
 ## LANGUAGE VARIANT CODES
 
