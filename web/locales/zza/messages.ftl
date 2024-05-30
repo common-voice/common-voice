@@ -42,6 +42,7 @@ be = Belarûskî
 bg = Bulgarkî
 bm = Bambarakî
 bn = Bengalkî
+bo = Tîbetkî
 br = Bretonkî
 bs = Bosnakî
 bxr = Buryatkî
@@ -67,6 +68,7 @@ eo = Esperanto
 es = Spankî
 et = Estonkî
 eu = Baskkî
+ewo = Ewondo
 fa = Fariskî
 ff = Fulahkî
 fi = Fînkî
@@ -759,6 +761,7 @@ download = Bîyare war
 dataset-version = Versîyon
 clipboard-not-supported = Pano dest nêbeno
 no-information-available = Melumat çin o
+dataset-metadata-sex = Cinsîyet
 # dataset metadata - age of contributor
 dataset-metadata-age = Serrî
 dataset-donate-modal-heading = To zana...?
@@ -1477,6 +1480,8 @@ create-profile-button = Profîlêk viraze
 # IMAGE TAGS
 img-alt-success-checkmark = nîşanê serkewtişî
 sentence-collection = Arêdayîşê Cumleyan
+background-voices-tip-1 = Ti yenî? [yewna kes ke veng dano]
+volume-explanation = Normal o ke sewîyeya vengî yê her qiseykerdoxî cîya ya. Eke veng hende berz o ke qeyd birîyeno yan zî (no hîna zaf qewimîyeno) eke veng hende nizm o ke ti nêeşkenî/a bê wendişê metnî bihesnê ke wendox se vano, tena o wext qeydî betal bike.
 
 ## WRITE PAGE
 
@@ -1489,6 +1494,13 @@ sentence-collection = Arêdayîşê Cumleyan
 
 ## BULK SUBMISSION 
 
+file-too-large = Dosya zêde girs a
+file-too-small = Dosya zêde qijkek a
+too-many-files = Zêde dosyeyî
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Ma rê</mark><br/><mark>ardimê to lazim o!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Ti CV seba</mark><br/><mark>cigêrayîşê xo gurenenî/a?</mark>
