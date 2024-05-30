@@ -404,6 +404,8 @@ male_masculine = Camêrd/Nêrî
 female_feminine = Cinî/Makî
 intersex = Hemcinsî
 transgender = Transcinsî
+non-binary = Bêdîyîye
+do_not_wish_to_say = Nêwazena vajî
 # Gender
 other = Ê bînî
 why-profile-title = Çira profîlêk virazî?
@@ -424,6 +426,7 @@ accept-privacy = Ez qebul kena ke şima nê melumatî seke <privacyLink> Polît�
 accept-privacy-title = Polîtîkaya Nimiteyîye
 accept-privacy-and-terms = Ez <termsLink>Şert û Merc</termsLink> û <privacyLink>Polîtîkaya NImiteyî</privacyLink> ya Common Voice qebul kena
 login-identity = Nasnameyê dekewtişî
+login = Dekewe
 login-signup = Dekewe/Hesab Viraze
 edit = Sereraşt ke
 email-subscriptions = Aboneyîyê e-maîlî
@@ -438,6 +441,7 @@ help-accent = Derheqê fekan de hetkarîye wazenî/a?
 help-accent-explanation = Fekê to hewayê to yê telefuzê çekuyan o. Cayê to yê roniştişî, ziwanê bînî yê ke ti qisey kenî/a û xeylê faktorê bînî fekê to ser o tesîr kenê. Eke ti muhîm vînenî/a, ti eşkenî/a tîya hîna zaf melumat pêşkêş bikerê.
 help-variants = Derheqê varyantan de hetkarîye wazenî/a?
 help-variants-explanation = Varyant formêkê ziwanî yo spesîfîk o. Sey nimûne, kesê ke eynî cografya yan kî komel de ciwîyenê. Ge-gane nînan ra "lehçe" vanê.
+help-sex-or-gender-changes = Vurnayîşê cins yan zî seksualîte de ardim lazim o?
 
 ## Profile - Email
 
@@ -754,6 +758,10 @@ close = Pade
 download = Bîyare war
 dataset-version = Versîyon
 clipboard-not-supported = Pano dest nêbeno
+no-information-available = Melumat çin o
+# dataset metadata - age of contributor
+dataset-metadata-age = Serrî
+dataset-donate-modal-heading = To zana...?
 
 ## Download Modal
 
@@ -805,6 +813,8 @@ language-section-in-progress = Hawo Virazîyenê
 language-section-in-progress-new-description = Nê ziwanî no dem hetê komelî ra yenê averberdene. Seba weşanayîşî, <localizationGlossaryLink>çarnayîşê keyepelî</localizationGlossaryLink> û <sentenceCollectionGlossaryLink>arêdayîşê cumleyan</sentenceCollectionGlossaryLink> lazim ê.
 language-section-launched = Weşanîyayî
 language-section-launched-description = Nê ziwananê weşanîyayeyan de keyepel bi hawayêko serkewte <localizationGlossaryLink>çarnîya</localizationGlossaryLink> û bes cumleyî <sentenceCollectionGlossaryLink>arê dîyayî</sentenceCollectionGlossaryLink> ke beşdarî dewam ra bieşkê <speakLink>qisey bikerê</speakLink> û <listenLink>goşdarî bikerê</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Rojanekerdişo tewr peyên: { $lastUpdatedTimeStamp }
 languages-show-more = Hîna Zaf Bivîne
 languages-show-less = Kêmî Bivîne
 language-meter-in-progress = Averşîyayîş
@@ -823,6 +833,8 @@ action-click = Bitikne
 action-tap = Bêçike pane
 contribute = Beşdar be
 listen = Goşdar bike
+write = Bınuse
+review = Çım Bıçarne
 skip = Ravêre
 shortcuts = Kilmrayîrî
 clips-with-count-pluralized =
