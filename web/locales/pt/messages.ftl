@@ -980,6 +980,7 @@ target-segment-generic-card = Você está contribuindo para um segmento-alvo
 target-segment-first-banner = Ajude a criar o primeiro segmento alvo do Common Voice em { $locale }
 target-segment-add-voice = Adicione sua voz
 target-segment-learn-more = Saiba mais
+change-preferences = Alterar preferências
 
 ## Contribution Nav Items
 
