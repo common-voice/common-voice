@@ -1781,8 +1781,20 @@ sentence-variant-select-multiple-variants = Généralités sur la langue / plusi
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = Alguérois
+ca-central = Central
+ca-balear = Baléares
+ca-nwestern = Nord-Occidental
+cy-northwes = Gallois du nord-ouest
+cy-northeas = Gallois du nord-est
+cy-southwes = Gallois du sud-ouest
+cy-southeas = Gallois du sud-est
+cy-wladfa = Gallois de Patagonie
 pt-BR = Portugais (Brésil)
 pt-PT = Portugais (Portugal)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (RDC)
 
 ## REVIEW PAGE
 
