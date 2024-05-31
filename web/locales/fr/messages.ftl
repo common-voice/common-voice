@@ -457,6 +457,8 @@ variant-contribution-options-header = Options de contribution pour les variantes
 variant-contribution-help = Certaines variantes et dialectes au sein d’une langue ou d’une famille de langues diffèrent grandement les uns des autres. Si vous avez du mal à vous adapter à une variante spécifique, vous avez la possibilité de modifier vos préférences ici.
 variant-contribution-option-1 = Afficher uniquement les phrases et les échantillons de ma variante
 variant-contribution-option-2 = Afficher les phrases et les échantillons de toutes les variantes de ma langue
+variant-contribution-warning-title = ⓘ Les phrases et les échantillons n’ont pas encore tous une étiquette de variante !
+variant-contribution-warning-subtitle = Si vous rencontrez des difficultés à contribuer, vous pouvez revenir à l’affichage de l’ensemble du contenu dans votre langue à tout moment.
 
 ## Profile - Email
 
@@ -946,6 +948,7 @@ listen-again-instruction = Excellent travail ! <playIcon></playIcon> Écoutez �
 listen-3rd-time-instruction = Plus que deux <playIcon></playIcon>, continuez !
 listen-last-time-instruction = <playIcon></playIcon> C’est le dernier !
 listen-empty-state = Nous n’avons plus d’échantillons à valider dans cette langue…
+listen-empty-state-variants = Votre variante linguistique est peut-être à court d’échantillons ! Si vous êtes à l’aise, vous pouvez modifier vos paramètres pour afficher d’autres phrases dans votre langue.
 listen-loading-error =
     Nous n’avons pas pu obtenir d’échantillons audio à écouter.
     Veuillez réessayer plus tard.
@@ -953,6 +956,7 @@ listen-abort-title = Terminer la validation des échantillons ?
 listen-abort-cancel = Continuer la validation
 listen-abort-confirm = Terminer la validation
 speak-empty-state = Nous n’avons plus de phrases à enregistrer dans cette langue…
+no-sentences-for-variants = Votre variante linguistique est peut-être à court de phrases ! Si vous êtes à l’aise, vous pouvez modifier vos paramètres pour afficher d’autres phrases dans votre langue.
 speak-empty-state-cta = Proposer des phrases
 speak-loading-error =
     Nous n’avons pas pu obtenir de phrases à prononcer.
@@ -1785,6 +1789,12 @@ ca-algueres = Alguérois
 ca-central = Central
 ca-balear = Baléares
 ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Valencien de transition
+ca-valencia-central = Apitxat
+ca-valencia-northern = Valencien septentrional
+ca-valencia-southern = Valencien méridional
+ca-valencia-alacant = Valencien alicantin
 cy-northwes = Gallois du nord-ouest
 cy-northeas = Gallois du nord-est
 cy-midwales = Gallois du centre
