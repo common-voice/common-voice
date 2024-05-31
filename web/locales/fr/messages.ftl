@@ -1787,14 +1787,25 @@ ca-balear = Baléares
 ca-nwestern = Nord-Occidental
 cy-northwes = Gallois du nord-ouest
 cy-northeas = Gallois du nord-est
+cy-midwales = Gallois du centre
 cy-southwes = Gallois du sud-ouest
 cy-southeas = Gallois du sud-est
 cy-wladfa = Gallois de Patagonie
 pt-BR = Portugais (Brésil)
 pt-PT = Portugais (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
 sw-barake = Kiswahili cha Bara ya Kenya
 sw-baratz = Kiswahili cha Bara ya Tanzania
 sw-kingwana = Kingwana (RDC)
+sw-kimvita = Kimvità (KE) - Dialecte du centre
+sw-kibajuni = Kibajuni (KE) - Dialecte du nord
+sw-kimrima = Kimrima (IZ) - Dialecte du nord
+sw-kiunguja = Kiunguja (TZ) - Dialecte du sud
+sw-kipemba = Kipemba (TZ) - Dialecte du sud
+sw-kikae = Kimakunduchi/Kikae (TZ) - Dialecte du sud
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Tamazight du centre de l’Atlas)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
