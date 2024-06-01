@@ -1839,6 +1839,13 @@ ca-algueres = আল্গেৰেছ
 ca-central = কেন্দ্ৰীয়
 ca-balear = বালিয়াৰ
 ca-nwestern = উত্তৰ-পশ্চিমীয়া
+ca-northern = উদীচ্য
+ca-valencia-tortosi = পৰিৱৰ্তনশীল ভেলেঞ্চিয়ান
+ca-valencia-central = কেন্দ্ৰীয় ভেলেঞ্চিয়ান
+ca-valencia-northern = উদীচ্য ভেলেঞ্চিয়ান
+ca-valencia-southern = দক্ষিণ ভেলেঞ্চিয়ান
+ca-valencia-alacant = আলাকে‌ণ্ট
+cy-northwes = উত্তৰ-পশ্চিমীয়া ৱেল্‌শ্ব
 
 ## REVIEW PAGE
 
