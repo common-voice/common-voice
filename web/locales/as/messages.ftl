@@ -1846,6 +1846,20 @@ ca-valencia-northern = উদীচ্য ভেলেঞ্চিয়ান
 ca-valencia-southern = দক্ষিণ ভেলেঞ্চিয়ান
 ca-valencia-alacant = আলাকে‌ণ্ট
 cy-northwes = উত্তৰ-পশ্চিমীয়া ৱেল্‌শ্ব
+cy-northeas = উত্তৰ-প্ৰাচ্য ৱেল্‌শ্ব
+cy-midwales = মধ্য ৱেল্‌শ্ব
+cy-southwes = দক্ষিণ-পশ্চিমীয়া ৱেল্‌শ্ব
+cy-southeas = দক্ষিণ-প্ৰাচ্য ৱেল্‌শ্ব
+cy-wladfa = পেটাগ’নিয়ান ৱেল্‌শ্ব
+pt-BR = পৰ্তুগীজ (ব্ৰাজিল)
+pt-PT = পর্তুগীজ (পর্তুগাল)
+sw-sanifu = মান্য ছোৱাহিলি (EA)
+sw-barake = কেনিয়ান ছোৱাহিলি
+sw-baratz = তাঞ্জানিয়ান ছোৱাহিলি
+sw-kingwana = কিংগোৱানা (ডি আৰ চি)
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (তাচেলহিত)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (কেন্দ্ৰীয় এটলাছ তামাজিত)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (তাৰিফিত)
 
 ## REVIEW PAGE
 
