@@ -1808,7 +1808,11 @@ sentence-domain-select-placeholder = তিনিটা পৰ্যন্ত �
 # Sentence Domain dropdown option
 agriculture_food = কৃষি আৰু খাদ্য
 # Sentence Domain dropdown option
+automotive_transport = গাড়ী-মটৰ আৰু পৰিবহণ
+# Sentence Domain dropdown option
 finance = বিত্ত
+# Sentence Domain dropdown option
+service_retail = সেৱা আৰু খুচুৰা ব্যৱসায়
 # Sentence Domain dropdown option
 general = সাধাৰণ
 # Sentence Domain dropdown option
@@ -1825,9 +1829,16 @@ nature_environment = প্ৰকৃতি আৰু পৰিৱেশ
 news_current_affairs = বাতৰি আৰু সাম্প্ৰতিক পৰিস্থিতি
 # Sentence Domain dropdown option
 technology_robotics = প্ৰযুক্তি আৰু যন্ত্ৰমানৱ-বিজ্ঞান
+sentence-variant-select-label = বাক্যৰ ধৰণ
+sentence-variant-select-placeholder = এটা ধৰণ বাছনি কৰক (বৈকল্পিক)
+sentence-variant-select-multiple-variants = সাধাৰণ ভাষা / একাধিক ধৰণ
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = আল্গেৰেছ
+ca-central = কেন্দ্ৰীয়
+ca-balear = বালিয়াৰ
+ca-nwestern = উত্তৰ-পশ্চিমীয়া
 
 ## REVIEW PAGE
 
