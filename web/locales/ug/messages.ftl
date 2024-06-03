@@ -1804,6 +1804,7 @@ ca-algueres = ئالگېرىس
 ca-central = مەركىزى
 ca-balear = بالېر
 ca-nwestern = Nord-Occidental
+ca-northern = شىمال
 ca-valencia-tortosi = تورتوسى
 ca-valencia-central = مەركىزى ۋالېنسىيا
 ca-valencia-northern = شىمالىي ۋالېنسىيا
