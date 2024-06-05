@@ -673,6 +673,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>更加了解�
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Common Voice 的運作資金來自哪裡？
 
 ## Glossary
 
@@ -802,6 +803,8 @@ dataset-metadata-sex = 性別
 dataset-metadata-age = 年齡
 donate-modal-message = 正在下載您的資料集！
 dataset-donate-modal-heading = 您知道嗎…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>如果您也看重開放、富包容性的資料 - 快來捐款！</bold>
 
 ## Download Modal
 
@@ -924,6 +927,7 @@ listen-again-instruction = 幹得好！<playIcon></playIcon>準備好就可以�
 listen-3rd-time-instruction = 完成兩筆了<playIcon></playIcon>，繼續保持！
 listen-last-time-instruction = <playIcon></playIcon>最後一筆了！
 listen-empty-state = 我們已經沒有這種語言的片段可以驗證了…
+listen-empty-state-variants = 您的語言變體可能沒有片段可用！若您願意的話，可以調整設定，看看您的語言的其他句子。
 listen-loading-error = 我們無法取得錄音片段讓您聆聽確認，請稍候再試。
 listen-abort-title = 是否完成驗證片段？
 listen-abort-cancel = 繼續驗證
@@ -1743,6 +1747,11 @@ pt-PT = 葡萄牙語（葡萄牙）
 sw-sanifu = Kiswahili Sanifu (EA)
 sw-barake = Kiswahili cha Bara ya Kenya
 sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = 金瓦納（剛果民主共和國）
+sw-kimvita = Kimvita（肯亞）- 中部方言
+sw-kibajuni = Kibajuni（肯亞）- 北方方言
+sw-kimrima = Kimrima（坦尚尼亞）- 北方方言
+sw-kiunguja = Kiunguja（坦尚尼亞）- 南方方言
 
 ## REVIEW PAGE
 
