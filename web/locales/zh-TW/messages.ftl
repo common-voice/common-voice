@@ -1724,6 +1724,14 @@ sentence-variant-select-multiple-variants = 一般語言 / 多種變體
 
 ca-algueres = 阿格雷斯
 ca-central = 中部
+ca-balear = 巴雷阿里
+ca-nwestern = 西北部
+ca-northern = 北部
+ca-valencia-tortosi = 托爾托西
+ca-valencia-central = 瓦倫西亞中部
+ca-valencia-northern = 瓦倫西亞北部
+ca-valencia-southern = 瓦倫西亞南部
+ca-valencia-alacant = 阿拉坎提
 cy-northwes = 西北威爾斯語
 cy-northeas = 東北威爾斯語
 cy-midwales = 中威爾斯語
@@ -1732,6 +1740,9 @@ cy-southeas = 東南威爾斯語
 cy-wladfa = 巴塔哥尼亞威爾斯語
 pt-BR = 葡萄牙語（巴西）
 pt-PT = 葡萄牙語（葡萄牙）
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
 
 ## REVIEW PAGE
 
@@ -1771,3 +1782,5 @@ too-many-files = 檔案太多
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>在您的研究中</mark><br/><mark>使用 CV 嗎？</mark>
