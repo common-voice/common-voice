@@ -772,6 +772,8 @@ subscribe = 訂閱
 get-started-speech = 語音辨識新手入門
 other-datasets = 其他語音資料集
 feedback-q = 有意見要回饋嗎？
+# This indicates that there is no data to display
+no-information = 無資訊
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ 是一套讓研究者開發最先進的 AI 對話模型的<docsLink>開放原始碼工具組</docsLink>。
 resource-deepspeech-info = Mozilla 的開放原始碼語音識別引擎 Deep Speech，可用來打造語音識別應用程式。您可閱讀我們的 <githubLink>Github 概觀</githubLink>或加入 <discourseLink>DeepSpeech Discourse</discourseLink> 了解如何入門。
 resource-coqui-info = <coquiLink>Coqui</coquiLink> 致力於開放語音技術。他們的專案包含使用深度學習技術的 STT 與 TTS 引擎。
@@ -938,6 +940,7 @@ target-segment-generic-card = 您正在朝目標段落數貢獻錄音
 target-segment-first-banner = 幫助 Common Voice 設定 { $locale } 的第一組目標段落數
 target-segment-add-voice = 加入您的聲音
 target-segment-learn-more = 了解更多
+change-preferences = 更改偏好設定
 
 ## Contribution Nav Items
 
@@ -1558,6 +1561,9 @@ continue-speaking-button = 不用了，我要繼續錄音
 create-profile-text = 想要儲存您的資訊嗎？<createProfile>請註冊帳號</createProfile>
 thanks-for-voice-toast = 感謝您提供您的語音資訊
 thanks-for-voice-toast-error = 送出您的語音資訊時發生錯誤
+first-cta-gender-select-default-option = 選擇其中一個選項
+first-cta-gender-select-help-text =
+    .label = 您會如何描述您的生理性別或認同？
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = 感謝您捐出錄音片段！
 second-cta-subtitle-text = 註冊帳號後，您可以追蹤您的貢獻紀錄，並連繫社群中的其他語音資料貢獻者。
@@ -1684,6 +1690,8 @@ single-sentence-submission = 送出單一句子
 bulk-sentence-submission = 送出大批句子
 single-sentence = 單一句子
 bulk-sentences = 大批句子
+sentence-domain-combobox-label = 語句領域
+sentence-domain-select-placeholder = 選擇最多三個領域（選填）
 # Sentence Domain dropdown option
 agriculture_food = 農業與食物
 # Sentence Domain dropdown option
@@ -1708,9 +1716,14 @@ nature_environment = 自然與環境
 news_current_affairs = 新聞時事
 # Sentence Domain dropdown option
 technology_robotics = 科技與機器人
+sentence-variant-select-label = 語句變體
+sentence-variant-select-placeholder = 選擇變體（選填）
+sentence-variant-select-multiple-variants = 一般語言 / 多種變體
 
 ## LANGUAGE VARIANT CODES
 
+ca-algueres = 阿格雷斯
+ca-central = 中部
 cy-northwes = 西北威爾斯語
 cy-northeas = 東北威爾斯語
 cy-midwales = 中威爾斯語
