@@ -1809,6 +1809,7 @@ news_current_affairs = خبراں اَتے موجودہ حالات
 technology_robotics = ٹیکنالوجی اَتے روبوٹکس
 sentence-variant-select-label = جملے دا لہجہ
 sentence-variant-select-placeholder = لہجہ چݨو (اختیاری)
+sentence-variant-select-multiple-variants = عام زبان/ ڈھڳ لہجے
 
 ## LANGUAGE VARIANT CODES
 
