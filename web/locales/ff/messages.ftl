@@ -40,7 +40,9 @@ ba = Bashkirs
 bas = Basaa
 be = Belarusian
 bg = Bulgarian
+bm = Bammbara
 bn = Bengali
+bo = Tibetere
 br = Breton
 bs = Bisniire
 bxr = Buryat
@@ -386,8 +388,6 @@ native-language =
 profile-form-add-accent = Ɓeydu ngaddin keertuɗo "{ $inputValue }"
 profile-form-submit-save = Danndu
 profile-form-submit-saved = Danndaama
-male = Gorko
-female = Debbo
 # Gender
 other = Goɗɗo
 why-profile-title = Ko saabii heftinirde?
@@ -568,6 +568,9 @@ about-playbook-how-validate-content-2 = <strong>Hoto riiwtu hito ɗo kaaloowo oo
 
 
 ## How are decisions made
+
+
+## How is Common Voice funded
 
 
 ## Glossary
@@ -788,6 +791,9 @@ target-segment-generic-card = Aɗana wallita e taƴannde toɓɓaande adannde
 target-segment-first-banner = Wallu taƴannde toɓɓaande addannde Common Voice e { $locale }
 target-segment-add-voice = Ɓeydu Sawto Maa
 target-segment-learn-more = Ɓeydu humpito
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -1044,4 +1050,20 @@ demo-dashboard-card-body = Kala lefel sawto dokkangel, e kala lefel ojoo jaalɗi
 
 
 # [/SentenceCollector]
+
+sentence-collection = Doɓindagol Konngi
+
+## WRITE PAGE
+
+
+## LANGUAGE VARIANT CODES
+
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
+
+## Donate banner
 
