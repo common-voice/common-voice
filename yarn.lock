@@ -3045,10 +3045,10 @@
   dependencies:
     "@types/express" "*"
 
-"@types/crypto-js@4.1.2":
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/@types/crypto-js/-/crypto-js-4.1.2.tgz#fb56b34f397d9ae2335611e416f15e7d65e276e6"
-  integrity sha512-t33RNmTu5ufG/sorROIafiCVJMx3jz95bXUMoPAZcUD14fxMXnuTzqzXZoxpR0tNx2xpw11Dlmem9vGCsrSOfA==
+"@types/crypto-js@4.2.2":
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/@types/crypto-js/-/crypto-js-4.2.2.tgz#771c4a768d94eb5922cc202a3009558204df0cea"
+  integrity sha512-sDOLlVbHhXpAUAL0YHDUUwDZf3iN4Bwi4W6a0W0b+QcAezUbRtH4FVb+9J4h+XFPW7l/gQ9F8qC7P+Ec4k8QVQ==
 
 "@types/eslint-scope@^3.7.3":
   version "3.7.3"
