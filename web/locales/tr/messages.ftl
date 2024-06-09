@@ -606,7 +606,7 @@ about-nav-playbook = Nasıl katılacağınızı öğrenin
 about-playbook-what-is-language = Common Voice'ta dil nedir?
 about-playbook-what-is-language-content-1 = Dil üzerine düşünmenin birçok yolu var. Konuşma tanıma modelleri geliştirme amacı söz konusu olduğunda, Common Voice "karşılıklı anlaşılabilirlik" veya "Bu dili konuşanlar birbirlerini genelde anlayabilirler mi?" üzerine odaklanmayı öneriyor.
 about-playbook-what-is-language-content-2 = Konuşma modellerinin çok çeşitli konuşmacıları anlamada daha iyi olmasını istiyoruz. Bunun için ses veri kümelerinin birçok farklı insanı temsil etmesi gerekir.
-about-playbook-what-is-language-content-3 = Bazı diller arasında dilbilgisi, söz dağarcığı ve telaffuz açısından çok büyük farklılıklar vardır. Bu nedenle, 2022'de <ctaLink>"lehçeleri" uygulamaya sokuyoruz</ctaLink>. Bu özellik, topluluklara daha büyük veri kümeleri içinde kendi dillerini ayırt etmelerinin bir yolunu sunuyor.
+about-playbook-what-is-language-content-3 = Bazı diller arasında dilbilgisi, söz dağarcığı ve telaffuz açısından çok büyük farklılıklar vardır. Bu nedenle, 2022’de <ctaLink>"lehçeleri" uygulamaya soktuk</ctaLink>. Bu özellik, topluluklara daha büyük veri kümeleri içinde kendi dillerini ayırt etmelerinin bir yolunu sunuyor.
 
 ## How do I add a language
 
