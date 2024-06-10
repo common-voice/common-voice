@@ -1356,6 +1356,7 @@ partnerships-governments-description = Vi er glade for å stø offentleg sektor 
 partnerships-our-partners = Partnarane våre
 why-donate = Kvifor spør du?
 add-information-button = Legg til informasjon
+first-cta-gender-select-default-option = Vel eit alternativ
 already-have-an-account = Har du allereie ein konto? <login>Logg inn</login>
 create-profile-button = Opprett ein profil
 sentence-collection = Setningsinnsamling
@@ -1371,6 +1372,7 @@ public-domain = Offentleg eigedom (ikkje verna av opphavsrett)
 ## WRITE PAGE
 
 contact-us = Kontakt oss
+sentence-variant-select-placeholder = Vel ein variant (valfritt)
 
 ## LANGUAGE VARIANT CODES
 
