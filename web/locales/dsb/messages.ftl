@@ -655,6 +655,7 @@ about-playbook-how-grow-language-content-8 = <strong>Buźćo kreatiwny!</strong>
 ## How to validate
 
 about-playbook-how-validate = Wótkul wěm, lěc mam głosowy klip pśizwóliś?
+about-playbook-how-validate-content-1 = Jolic sćo mógał je <strong>słyšaś</strong> a <strong>rozměś</strong>, jo nejlěpje je <strong>pśizwóliś</strong>.
 about-playbook-how-validate-content-4 = Jolic klip se wót 2 wósobowu wótpokazujo, wózjawijo se w drugej źělnej sajźbje datoweje sajźby.
 
 ## How to access dataset
