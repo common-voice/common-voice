@@ -1357,6 +1357,8 @@ partnerships-our-partners = Partnarane våre
 why-donate = Kvifor spør du?
 add-information-button = Legg til informasjon
 first-cta-gender-select-default-option = Vel eit alternativ
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Takk for at du bidrog med stemma di!
 already-have-an-account = Har du allereie ein konto? <login>Logg inn</login>
 create-profile-button = Opprett ein profil
 sentence-collection = Setningsinnsamling
@@ -1372,6 +1374,12 @@ public-domain = Offentleg eigedom (ikkje verna av opphavsrett)
 ## WRITE PAGE
 
 contact-us = Kontakt oss
+# Sentence Domain dropdown option
+finance = Finans
+# Sentence Domain dropdown option
+general = Generelt
+# Sentence Domain dropdown option
+healthcare = Helsevesen
 sentence-variant-select-placeholder = Vel ein variant (valfritt)
 
 ## LANGUAGE VARIANT CODES
