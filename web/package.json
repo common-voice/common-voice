@@ -60,7 +60,7 @@
     "@types/webpack": "5.28.0",
     "@types/webpack-merge": "5.0.0",
     "@vue/preload-webpack-plugin": "2.0.0",
-    "babel-loader": "8.2.5",
+    "babel-loader": "8.3.0",
     "chalk": "4.1.2",
     "clean-webpack-plugin": "4.0.0",
     "common": "*",
