@@ -1760,9 +1760,14 @@ sentence-variant-select-multiple-variants = 通用语言/多个变体
 ## LANGUAGE VARIANT CODES
 
 ca-algueres = 阿尔格雷斯语
+ca-central = 中部
 ca-balear = 巴利尔语
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
 ca-valencia-tortosi = 托尔托西语
 ca-valencia-central = 中瓦伦西亚语
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
 ca-valencia-alacant = 阿拉坎蒂语
 cy-northwes = 西南威尔士语
 cy-northeas = 东北威尔士语
