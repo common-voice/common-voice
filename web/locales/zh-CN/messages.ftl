@@ -1787,6 +1787,8 @@ sw-kimrima = 基里马语（TZ） - 北部方言
 sw-kiunguja = 昆古甲语（TZ）- 南部方言
 sw-kipemba = 基边巴语（TZ）- 南部方言
 sw-kikae = Kimakunduche/Kisae（TZ）- 南部方言
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ（希尔哈语）
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ（塔马齐格特语）
 
 ## REVIEW PAGE
 
