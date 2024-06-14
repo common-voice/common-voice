@@ -149,9 +149,6 @@
     }
 
     & .metrics {
-        display: flex;
-        flex-direction: row;
-
         & > * {
             margin-inline-end: 30px;
 
