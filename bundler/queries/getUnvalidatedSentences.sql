@@ -10,6 +10,7 @@ LEFT JOIN (
   FROM sentences s
     INNER JOIN sentence_domains sd ON sd.sentence_id = s.id
     INNER JOIN domains d ON sd.domain_id = d.id
+  GROUP BY s.id
 ) metadata ON metadata.sentence_id = s.id
 WHERE s.is_validated = 0
 AND l.name = ?

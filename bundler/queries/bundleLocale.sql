@@ -62,6 +62,7 @@ FROM clips
     FROM sentences s
       INNER JOIN sentence_domains sd ON sd.sentence_id = s.id
       INNER JOIN domains d ON sd.domain_id = d.id
+    GROUP BY s.id
   ) sentence_domains ON clips.original_sentence_id = sentence_domains.sentence_id
 WHERE clips.created_at BETWEEN ? AND ?
 AND locales.name = ?
