@@ -24,6 +24,21 @@ const MissingClips = ({ isDemoMode }: { isDemoMode: boolean }) => (
   </div>
 );
 
+const MissingClipsForVariant = () => (
+  <div className="empty-container">
+    <div className="error-card no-clips-for-variant">
+      <h1>
+        <Localized id="listen-empty-state-variants" />
+      </h1>
+      <LinkButton rounded to={URLS.PROFILE_INFO} className="settings-btn">
+        <Localized id="settings">
+          <span />
+        </Localized>
+      </LinkButton>
+    </div>
+  </div>
+);
+
 const LoadingError = () => (
   <div className="empty-container">
     <div className="error-card">
@@ -42,12 +57,14 @@ interface Props {
   hasLoadingError: boolean;
   isMissingClips: boolean;
   isDemoMode: boolean;
+  isMissingClipsForVariant: boolean;
 }
 
 const ListenErrorContent = ({
   isLoading,
   hasLoadingError,
   isMissingClips,
+  isMissingClipsForVariant,
   isDemoMode,
 }: Props) => {
   if (isLoading) {
@@ -56,6 +73,10 @@ const ListenErrorContent = ({
 
   if (hasLoadingError) {
     return <LoadingError />;
+  }
+
+  if (isMissingClipsForVariant) {
+    return <MissingClipsForVariant />;
   }
 
   if (isMissingClips) {

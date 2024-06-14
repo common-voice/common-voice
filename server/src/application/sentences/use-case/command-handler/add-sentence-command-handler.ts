@@ -5,7 +5,7 @@ import { ValidateSentence, ValidatedSentence } from '../../../../core/sentences'
 import {
   FindDomainIdByName,
   SaveSentence,
-} from '../../repository/sentences-repository'
+} from '../../../repository/sentences-repository'
 import { AddSentenceCommand } from './command/add-sentence-command'
 import { either as E, taskEither as TE } from 'fp-ts'
 import { ApplicationError } from '../../../types/error'
@@ -14,9 +14,9 @@ import {
   createValidationError,
 } from '../../../helper/error-helper'
 import { SentenceSubmission } from '../../../types/sentence-submission'
-import { FindVariantByTag } from '../../repository/variant-repository'
+import { FindVariantByTag } from '../../../repository/variant-repository'
 import { Variant } from '../../../../core/variants/variant'
-import { FindLocaleByName } from '../../repository/locale-repository'
+import { FindLocaleByName } from '../../../repository/locale-repository'
 
 const toValidatedSentence =
   (validateSentence: ValidateSentence) =>

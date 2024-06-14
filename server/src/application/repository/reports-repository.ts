@@ -1,13 +1,13 @@
 import { taskEither as TE } from 'fp-ts'
 import { pipe, flow } from 'fp-ts/lib/function'
-import Mysql, { getMySQLInstance } from '../../../lib/model/db/mysql'
-import { createDatabaseError } from '../../helper/error-helper'
-import { ApplicationError } from '../../types/error'
+import Mysql, { getMySQLInstance } from '../../lib/model/db/mysql'
+import { createDatabaseError } from '../helper/error-helper'
+import { ApplicationError } from '../types/error'
 import {
   REPORTED_CLIP,
   ReportKind,
   REPORTED_SENTENCE,
-} from '../use-case/command-handler/command/create-report-command'
+} from '../reports/use-case/command-handler/command/create-report-command'
 
 const db = getMySQLInstance()
 

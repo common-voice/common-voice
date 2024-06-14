@@ -457,6 +457,8 @@ help-variants = د ډولونو سره یو څه مرستې ته اړتیا لر
 help-variants-explanation = ډولونه د یوې ژبې ځانګړې بڼه ده - د بیلګې په توګه د هغو کسانو لخوا چې په یوې جغرافیه یا ټولنه کې ژوند کوي سره شریکه وي. ځینې وختونه دا د لهجو په نوم یادیږي.
 help-sex-or-gender-changes = د جنسیت یا جندر بدلونونو کې مرستې ته اړتیا لرئ؟
 help-sex-or-gender-changes-explanation = موږ ډیر انتخابونه وړاندې کوو ترڅو خلکو ته د هغه څه په اړه نور انتخاب ورکړو چې دوی موږ ته د دوی د جنسیت یا جنډر هویت په اړه وايي. مهرباني وکړئ ځان په هغه طریقه بیان کړئ چې تاسو ته خورا طبیعي احساس کوي. <learnMoreLink>د جنس او جنسیت په اړه زموږ د چلند په اړه نور معلومات ترلاسه کړئ.</learnMoreLink>
+variant-contribution-option-2 = یوازې ماته زما د ډول څخه جملې او کلیپونه وښایاست
+variant-contribution-warning-title = ⓘ ټولې جملې او کلیپونه تر اوسه متغیر ټاګونه نلري!
 
 ## Profile - Email
 
@@ -1755,7 +1757,7 @@ sc-write-submit-confirm = زه تایید کوم چې دا جمله <wikipediaLi
 sc-review-write-title = زه کوم جملې اضافه کولی شم؟
 new-sentence-rule-1 = <noCopyright>د کاپي حق نشته</noCopyright> محدودیتونه (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = په هره جمله کې له 15 څخه لږ کلمې
-new-sentence-rule-3 = صحیح ګرامر وکاروئ
+new-sentence-rule-3 = سمه ګرامر وکاروئ
 new-sentence-rule-4 = د سمې املا او جملې څخه کار واخلئ
 new-sentence-rule-5 = شمیرې او ځانګړي حروف مه کاروئ
 new-sentence-rule-6 = ده نورو بهرني ژبو توري مه کاروئ
@@ -1776,13 +1778,13 @@ bulk-sentences = ډيري جملې
 sentence-domain-combobox-label = د جملې ټولۍ
 sentence-domain-select-placeholder = تر دریو ډومینونو پورې غوره کړئ
 # Sentence Domain dropdown option
-agriculture = کرنه
+agriculture_food = کرنه او خواړه
 # Sentence Domain dropdown option
-automotive = اتوماتیک
+automotive_transport = موټروان او ترانسپورت
 # Sentence Domain dropdown option
 finance = مالیه
 # Sentence Domain dropdown option
-food_service_retail = خواړه، خدمت او پرچون
+service_retail = خدمت او پرچون
 # Sentence Domain dropdown option
 general = عمومي معلومات
 # Sentence Domain dropdown option
@@ -1807,6 +1809,13 @@ sentence-variant-select-multiple-variants = عمومي ژبه / ډیر ډولو�
 
 ca-central = مرکزي
 ca-balear = بیلیر
+cy-northwes = شمال لویدیځ ویلش
+cy-northeas = شمال ختیځ ویلش
+cy-southwes = شمال لویدیځ ویلش
+cy-southeas = شمال ختیځ ویلش
+pt-BR = پرتګالي (برازیل)
+pt-PT = پرتګالي (پرتګال)
+sw-sanifu = کیسوهیلی سنیفو (EA)
 
 ## REVIEW PAGE
 

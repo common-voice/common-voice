@@ -671,6 +671,10 @@ about-playbook-how-project-governance-content-5 = 價值與重視。
 about-playbook-how-project-governance-content-6 = 相互問責。
 about-playbook-how-project-governance-content-7 = <governanceLink>更加了解我們如何治理本專案</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = Common Voice 的運作資金來自哪裡？
+
 ## Glossary
 
 glossary = 詞彙
@@ -769,6 +773,8 @@ subscribe = 訂閱
 get-started-speech = 語音辨識新手入門
 other-datasets = 其他語音資料集
 feedback-q = 有意見要回饋嗎？
+# This indicates that there is no data to display
+no-information = 無資訊
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ 是一套讓研究者開發最先進的 AI 對話模型的<docsLink>開放原始碼工具組</docsLink>。
 resource-deepspeech-info = Mozilla 的開放原始碼語音識別引擎 Deep Speech，可用來打造語音識別應用程式。您可閱讀我們的 <githubLink>Github 概觀</githubLink>或加入 <discourseLink>DeepSpeech Discourse</discourseLink> 了解如何入門。
 resource-coqui-info = <coquiLink>Coqui</coquiLink> 致力於開放語音技術。他們的專案包含使用深度學習技術的 STT 與 TTS 引擎。
@@ -797,6 +803,8 @@ dataset-metadata-sex = 性別
 dataset-metadata-age = 年齡
 donate-modal-message = 正在下載您的資料集！
 dataset-donate-modal-heading = 您知道嗎…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>如果您也看重開放、富包容性的資料 - 快來捐款！</bold>
 
 ## Download Modal
 
@@ -919,6 +927,7 @@ listen-again-instruction = 幹得好！<playIcon></playIcon>準備好就可以�
 listen-3rd-time-instruction = 完成兩筆了<playIcon></playIcon>，繼續保持！
 listen-last-time-instruction = <playIcon></playIcon>最後一筆了！
 listen-empty-state = 我們已經沒有這種語言的片段可以驗證了…
+listen-empty-state-variants = 您的語言變體可能沒有片段可用！若您願意的話，可以調整設定，看看您的語言的其他句子。
 listen-loading-error = 我們無法取得錄音片段讓您聆聽確認，請稍候再試。
 listen-abort-title = 是否完成驗證片段？
 listen-abort-cancel = 繼續驗證
@@ -935,6 +944,7 @@ target-segment-generic-card = 您正在朝目標段落數貢獻錄音
 target-segment-first-banner = 幫助 Common Voice 設定 { $locale } 的第一組目標段落數
 target-segment-add-voice = 加入您的聲音
 target-segment-learn-more = 了解更多
+change-preferences = 更改偏好設定
 
 ## Contribution Nav Items
 
@@ -1555,6 +1565,9 @@ continue-speaking-button = 不用了，我要繼續錄音
 create-profile-text = 想要儲存您的資訊嗎？<createProfile>請註冊帳號</createProfile>
 thanks-for-voice-toast = 感謝您提供您的語音資訊
 thanks-for-voice-toast-error = 送出您的語音資訊時發生錯誤
+first-cta-gender-select-default-option = 選擇其中一個選項
+first-cta-gender-select-help-text =
+    .label = 您會如何描述您的生理性別或認同？
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = 感謝您捐出錄音片段！
 second-cta-subtitle-text = 註冊帳號後，您可以追蹤您的貢獻紀錄，並連繫社群中的其他語音資料貢獻者。
@@ -1658,7 +1671,6 @@ write-instruction = 加入 <icon></icon> 公眾領域的句子
 sentence =
     .label = 語句
 sentence-input-value = 在此輸入公眾領域語句
-citation-input-value = 語句的來源
 citation =
     .label = 引用
 sc-review-write-title = 我可以加入哪些句子？
@@ -1682,16 +1694,16 @@ single-sentence-submission = 送出單一句子
 bulk-sentence-submission = 送出大批句子
 single-sentence = 單一句子
 bulk-sentences = 大批句子
-sentence-domain-select =
-    .label = 語句領域
+sentence-domain-combobox-label = 語句領域
+sentence-domain-select-placeholder = 選擇最多三個領域（選填）
 # Sentence Domain dropdown option
-agriculture = 農業
+agriculture_food = 農業與食物
 # Sentence Domain dropdown option
-automotive = 汽車
+automotive_transport = 汽車與運輸
 # Sentence Domain dropdown option
 finance = 金融
 # Sentence Domain dropdown option
-food_service_retail = 食品、服務與零售
+service_retail = 服務與零售
 # Sentence Domain dropdown option
 general = 一般
 # Sentence Domain dropdown option
@@ -1708,6 +1720,38 @@ nature_environment = 自然與環境
 news_current_affairs = 新聞時事
 # Sentence Domain dropdown option
 technology_robotics = 科技與機器人
+sentence-variant-select-label = 語句變體
+sentence-variant-select-placeholder = 選擇變體（選填）
+sentence-variant-select-multiple-variants = 一般語言 / 多種變體
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = 阿格雷斯
+ca-central = 中部
+ca-balear = 巴雷阿里
+ca-nwestern = 西北部
+ca-northern = 北部
+ca-valencia-tortosi = 托爾托西
+ca-valencia-central = 瓦倫西亞中部
+ca-valencia-northern = 瓦倫西亞北部
+ca-valencia-southern = 瓦倫西亞南部
+ca-valencia-alacant = 阿拉坎提
+cy-northwes = 西北威爾斯語
+cy-northeas = 東北威爾斯語
+cy-midwales = 中威爾斯語
+cy-southwes = 西南威爾斯語
+cy-southeas = 東南威爾斯語
+cy-wladfa = 巴塔哥尼亞威爾斯語
+pt-BR = 葡萄牙語（巴西）
+pt-PT = 葡萄牙語（葡萄牙）
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = 金瓦納（剛果民主共和國）
+sw-kimvita = Kimvita（肯亞）- 中部方言
+sw-kibajuni = Kibajuni（肯亞）- 北方方言
+sw-kimrima = Kimrima（坦尚尼亞）- 北方方言
+sw-kiunguja = Kiunguja（坦尚尼亞）- 南方方言
 
 ## REVIEW PAGE
 
@@ -1744,3 +1788,8 @@ file-invalid-type = 檔案無效
 file-too-large = 檔案太大
 file-too-small = 檔案太小
 too-many-files = 檔案太多
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>在您的研究中</mark><br/><mark>使用 CV 嗎？</mark>

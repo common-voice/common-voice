@@ -9,7 +9,7 @@ email-input =
 submit-form-action = Odoslať
 loading = Načítava sa…
 email-opt-in-info = Chcem dostávať e‑maily, ako sú upozornenia na ciele, môj pokrok a novinky o službe Common Voice.
-email-opt-in-info-title = Pripojte so do e‑mailovej skupiny Common Voice
+email-opt-in-info-title = Pripojte sa do e‑mailovej skupiny Common Voice
 email-opt-in-info-sub-with-challenge = Dostávajte e‑maily, ako sú upozornenia na ciele či výzvy, informácie o pokroku a novinky o službe Common Voice.
 email-opt-in-privacy-v2 = Prihlásením sa na odber e‑mailov vyjadrujete, že súhlasíte s tým, že Mozilla narába s týmito informáciami tak, ako je vysvetlené v <privacyLink>Zásadách ochrany osobných údajov</privacyLink> spoločnosti Mozilla.
 indicates-required = * označuje povinné pole
@@ -466,6 +466,12 @@ help-variants = Potrebujete pomoc s variantmi?
 help-variants-explanation = Varianty sú špecifickou formou jazyka – napríklad zdieľané ľuďmi žijúcimi v určitej geografii alebo komunite. Niekedy sa im hovorí dialekty.
 help-sex-or-gender-changes = Potrebujete pomoc s definovaním pohlavia alebo rodu?
 help-sex-or-gender-changes-explanation = Ponúkame viac možností, ako dať ľuďom väčší výber v tom, čo nám hovoria o svojom pohlaví alebo rodovej identite. Opíšte sa tak, ako je to pre vás najprirodzenejšie. <learnMoreLink>Ďalšie informácie o našom prístupe k pohlaviu a rodu.</learnMoreLink>
+variant-contribution-options-header = Predvoľby variantov jazyka
+variant-contribution-help = Niektoré varianty a dialekty v rámci jazyka alebo jazykovej rodiny sa navzájom veľmi líšia. Ak máte problém zapojiť sa do konkrétneho variantu, tu môžete zmeniť svoje predvoľby.
+variant-contribution-option-1 = Zobrazovať vety a klipy iba z môjho variantu
+variant-contribution-option-2 = Zobrazovať vety a klipy zo všetkých variantov v rámci môjho jazyka
+variant-contribution-warning-title = ⓘ Zatiaľ nie všetky vety a klipy majú priradený variant!
+variant-contribution-warning-subtitle = Ak máte problémy s prispievaním, môžete sa kedykoľvek prepnúť späť na zobrazenie všetkého obsahu vo vašom jazyku.
 
 ## Profile - Email
 
@@ -966,6 +972,7 @@ listen-again-instruction = Skvelá práca! <playIcon></playIcon> Keď budete pri
 listen-3rd-time-instruction = 2 už sú za vami, pokračujte v dobrej práci!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Posledná nahrávka!
 listen-empty-state = Zdá sa, že sa nám minuli nahrávky – obnovte stránku alebo to skúste znova neskôr.
+listen-empty-state-variants = Váš jazykový variant možno neobsahuje klipy! Ak vám to vyhovuje, môžete zmeniť nastavenia, aby ste videli ďalšie vety vo vašom jazyku.
 listen-loading-error =
     Nepodarilo sa nám získať žiadne zvukové nahrávky, ktoré by ste si mohli vypočuť.
     Skúste neskôr prosím.
@@ -973,6 +980,7 @@ listen-abort-title = Skončiť overovanie klipov?
 listen-abort-cancel = Pokračovať v overovaní
 listen-abort-confirm = Skončiť s overovaním
 speak-empty-state = Minuli sa nám vety na nahrávanie v tomto jazyku...
+no-sentences-for-variants = Váš jazykový variant možno neobsahuje vety! Ak vám to vyhovuje, môžete zmeniť nastavenia, aby ste videli ďalšie vety vo vašom jazyku.
 speak-empty-state-cta = Pridajte ďalšie vety
 speak-loading-error = Nedostali sme žiadne vety, ktoré by ste mohli povedať. Skúste neskôr prosím.
 record-button-label = Nahrajte svoj hlas
@@ -984,6 +992,7 @@ target-segment-generic-card = Prispievate do cieľového segmentu
 target-segment-first-banner = Pomôžte vytvoriť prvý cieľový segment Common Voice v jazyku { $locale }
 target-segment-add-voice = Pridajte svoj hlas
 target-segment-learn-more = Ďalšie informácie
+change-preferences = Zmeniť nastavenie
 
 ## Contribution Nav Items
 
@@ -1784,13 +1793,13 @@ bulk-sentences = Viaceré vety
 sentence-domain-combobox-label = Zatriedenie vety
 sentence-domain-select-placeholder = Môžete zvoliť až tri zatriedenia
 # Sentence Domain dropdown option
-agriculture = Poľnohospodárstvo
+agriculture_food = Poľnohospodárstvo a potraviny
 # Sentence Domain dropdown option
-automotive = Automobilový priemysel
+automotive_transport = Automobilový priemysel a doprava
 # Sentence Domain dropdown option
 finance = Financie
 # Sentence Domain dropdown option
-food_service_retail = Stravovanie, služby a maloobchod
+service_retail = Služby a maloobchod
 # Sentence Domain dropdown option
 general = Všeobecné
 # Sentence Domain dropdown option

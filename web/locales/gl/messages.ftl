@@ -451,6 +451,12 @@ help-variants = Necesita axuda coas variedades?
 help-variants-explanation = As variedades son formas específicas dunha lingua. Por exemplo, unha variedade é a que comparten as persoas que viven nunha determinada zona xeográfica ou comunidade. Ás veces estas chámanse dialectos.
 help-sex-or-gender-changes = Necesita axuda cos cambios de sexo ou xénero?
 help-sex-or-gender-changes-explanation = Estamos ofrecendo máis opcións para darlle máis opcións á xente no que nos di sobre o seu sexo ou identidade de xénero. Por favor, autodescríbase da forma que lle pareza máis natural. <learnMoreLink>Obteña máis información sobre o noso enfoque do sexo e o xénero.</learnMoreLink>
+variant-contribution-options-header = Opcións de contribución nas variedades
+variant-contribution-help = Dentro dunha lingua ou familia de linguas pode haber variedades ou dialectos moi diferentes entre si. Se ten dificultades en adaptarse a unha variedade específica, pode cambiar as súas preferencias aquí.
+variant-contribution-option-1 = Amosar frases e clips de todas as variedades da miña lingua
+variant-contribution-option-2 = Amosar só frases e clips da miña variedade
+variant-contribution-warning-title = ⓘ Non todas as frases ou fragmentos teñen xa a etiqueta da Variedade correspondente.
+variant-contribution-warning-subtitle = Se ten dificultades en contribuír, pode cambiar a ver todo o contido do seu idioma en calquera momento.
 
 ## Profile - Email
 
@@ -702,7 +708,7 @@ hours-validated-explanation = A conta de horas de gravación de voz que temos va
 sst = Fala-texto (STT)
 sst-explanation = As tecnoloxías fala-texto (STT) converten datos de voz en texto.
 de-identified = Anonimización
-de-identified-explanation = O proceso mediante o cal a información do perfil dun colaborador se escurece dos seus fragmentos doados de voz  ao empaquetalos para a descarga como parte do conxunto de datos.
+de-identified-explanation = O proceso mediante o cal a información do perfil dun colaborador se oculta nos fragmentos de voz doados ao empaquetalos para a descarga como parte do conxunto de datos.
 
 ## Error pages
 
@@ -819,7 +825,7 @@ dataset-metadata-sex = Xénero
 dataset-metadata-age = Idade
 donate-modal-message = O seu conxunto de datos estase descargando!
 dataset-donate-modal-heading = Sabía…
-donate-modal-explanation-1 = Custa case un millón de dólares ao ano aloxar os conxuntos de datos e mellorar a plataforma para as máis de 100 comunidades lingüísticas que confían no que facemos?
+donate-modal-explanation-1 = ... que custa case un millón de dólares ao ano aloxar os conxuntos de datos e mellorar a plataforma para as máis de 100 comunidades lingüísticas que confían no noso traballo?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = { "" }
 
@@ -964,6 +970,7 @@ listen-again-instruction = Bo traballo!<playIcon></playIcon> Volva escoitar cand
 listen-3rd-time-instruction = 2 menos, sigamos!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Derradeira!
 listen-empty-state = Posiblemente esgotamos os fragmentos para aprobar: actualice a páxina ou ténteo de novo máis tarde.
+listen-empty-state-variants = É posible que a súa variedade de idioma non teña gravacións. Se quere, pode cambiar a súa configuración para ver outras frases no seu idioma.
 listen-loading-error =
     Non foi posible atopar ningún fragmento de audio para que o escoite.
     Por favor inténteo de novo máis tarde.
@@ -971,6 +978,7 @@ listen-abort-title = Quere rematar de validar os fragmentos?
 listen-abort-cancel = Seguir validando
 listen-abort-confirm = Finalizar a validación
 speak-empty-state = Esgotamos as frases para gravar neste idioma
+no-sentences-for-variants = É posible que a súa variedade de idioma non teña frases dispoñibles. Se quere, pode cambiar a súa configuración para ver outras frases no seu idioma.
 speak-empty-state-cta = Propor novas frases
 speak-loading-error =
     Non foi posible atopar ningunha frase para que lea.
@@ -984,6 +992,7 @@ target-segment-generic-card = Está a contribuír a un segmento obxectivo
 target-segment-first-banner = Axude a crear o primeiro segmento obxectivo de Common Voice en { $locale }
 target-segment-add-voice = Engada a súa voz
 target-segment-learn-more = Saber máis
+change-preferences = Cambiar as preferencias
 
 ## Contribution Nav Items
 
@@ -1786,7 +1795,7 @@ write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de dat
 sentence =
     .label = Frase
 sentence-input-value = Introduza aquí a súa frase de dominio público
-citation-input-value = Orixe da súa frase
+citation-input-placeholder = Mencione a fonte da súa frase (obrigatorio)
 citation =
     .label = Cita
 sc-write-submit-confirm = Confirmo que esta frase é de <wikipediaLink>dominio público</wikipediaLink> e teño permiso para cargala.
@@ -1811,17 +1820,16 @@ single-sentence-submission = Envío dunha única frase
 bulk-sentence-submission = Envío masivo de frases
 single-sentence = Frase única
 bulk-sentences = Grupo de frases
-sentence-domain-select =
-    .label = Dominio da oración
+sentence-domain-combobox-label = Dominio ao que pertence a frase
 sentence-domain-select-placeholder = Seleccione ata tres campos
 # Sentence Domain dropdown option
-agriculture = Agricultura
+agriculture_food = Agricultura e alimentación
 # Sentence Domain dropdown option
-automotive = Automoción
+automotive_transport = Automoción e transporte
 # Sentence Domain dropdown option
 finance = Finanzas
 # Sentence Domain dropdown option
-food_service_retail = Alimentos, servizos e comercio polo miúdo
+service_retail = Servizos e comercio
 # Sentence Domain dropdown option
 general = Xeral
 # Sentence Domain dropdown option
@@ -1838,6 +1846,43 @@ nature_environment = Natureza e medio ambiente
 news_current_affairs = Noticias e actualidade
 # Sentence Domain dropdown option
 technology_robotics = Tecnoloxía e robótica
+sentence-variant-select-label = Variedade á que pertence a frase
+sentence-variant-select-placeholder = Seleccione unha variedade (opcional)
+sentence-variant-select-multiple-variants = Linguaxe xeral / múltiples variedades
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Alguerés
+ca-central = Central
+ca-balear = Balear
+ca-nwestern = Noroccidental
+ca-northern = Setentrional
+ca-valencia-tortosi = Tortosino
+ca-valencia-central = Valenciano central
+ca-valencia-northern = Valenciano setentrional
+ca-valencia-southern = Valenciano meridional
+ca-valencia-alacant = Alacantino
+cy-northwes = Galés noroccidental
+cy-northeas = Galés nororiental
+cy-midwales = Galés central
+cy-southwes = Galés suroccidental
+cy-southeas = Galés suroriental
+cy-wladfa = Galés patagónico
+pt-BR = Portugués (Brasil)
+pt-PT = Portugués (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Suahili da Kenia
+sw-baratz = Suahili da Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Dialecto central
+sw-kibajuni = Kibajuni (KE) - Dialecto do norte
+sw-kimrima = Kimrima (TZ) - Dialecto do norte
+sw-kiunguja = Kiunguja (TZ) - Dialecto do sur
+sw-kipemba = Kipemba (TZ) - Dialecto do sur
+sw-kikae = Kimakunduchi/Kikae (TZ) - Dialecto do sur
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Tamazight do Atlas Central)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit ou bérber rifeño)
 
 ## REVIEW PAGE
 

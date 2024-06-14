@@ -169,6 +169,8 @@ sah = Tasaxit
 sat = Santali (Ol Chiki)
 sc = Tasardinit
 scn = Tasisiliyant
+sco = Ikusit
+sd = Tasinḍit
 sdh = Takurdit n unẓul
 shi = Tacelḥit
 si = Tasinhalit
@@ -394,6 +396,8 @@ native-language =
 profile-form-add-accent = Rnu aɣdebbu udmawan amaynut « { $inputValue } »
 profile-form-submit-save = Sekles
 profile-form-submit-saved = Yettwasekles
+non-binary = Mačči d imsin
+do_not_wish_to_say = Ur yebɣi ara ad d-yerr
 # Gender
 other = Ayen-nniḍen
 why-profile-title = Acuɣer amaɣnu?
@@ -640,6 +644,9 @@ about-playbook-how-project-governance-content-5 = Azalen d usnemmer
 about-playbook-how-project-governance-content-6 = Tamasit icerken.
 about-playbook-how-project-governance-content-7 = <governanceLink>Issin ugar ɣef tenbaḍt-nneɣ</governanceLink>
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = Amawal
@@ -734,6 +741,8 @@ subscribe = Jerred
 get-started-speech = Bdu s uɛqal n taɣect
 other-datasets = Tigrummiwin-nniḍen n tuɣac
 feedback-q = Ɣur-k tikti?
+# This indicates that there is no data to display
+no-information = Ulac talɣut
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™  d <docsLink>allal ilelli </docsLink> i yimnadiyen yesneflayen tineɣrufin n umeslay AI tufrinin.
 resource-deepspeech-info = Amsedday n uɣbalu yeldin n uɛqal n taɣect n Mozilla, Deep Speech, izmer ad yettwasemres i tmerna n yisnasen n uɛqal n taɣect. Wali <githubLink>agzul deg GitHub</githubLink> neɣ ddu ɣer  <discourseLink>Discourse n DeepSpeech</discourseLink> akken ad tebduḍ akken iwata.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> yettwaxdem i tetiknulujit n taɣect yeldin. Gar yifarisen-nsen llan yimseddayen STT d TTS yebnan ɣef ulmad awurman.
@@ -754,6 +763,7 @@ close = Mdel
 download = Sader
 dataset-version = Lqem
 clipboard-not-supported = Tacfawt ur tettusefrak ara
+no-information-available = Ulac talɣut i yellan
 
 ## Download Modal
 
@@ -811,6 +821,8 @@ language-section-in-progress = Ad d-iteddu
 language-section-in-progress-new-description = Tutlayin-agi akka tura sneflayent-tent trebbaɛ.  Afeggag n n usfari yemmal-d anida tewweḍ yal yiwet seg tutlayin deg <localizationGlossaryLink> usmel n usideg </localizationGlossaryLink> akked <sentenceCollectionGlossaryLink> ulqaḍ n tefyar </sentenceCollectionGlossaryLink>
 language-section-launched = Yekker
 language-section-launched-description = I tutlayt-a asmel <localizationGlossaryLink> ittwasideg akken iwata </localizationGlossaryLink>, isεa <sentenceCollectionGlossaryLink> ddeqs n tefyar </sentenceCollectionGlossaryLink> akken ad ittwasireg <speakLink> asekles </speakLink> akked <listenLink> usentem </listenLink> n ittekiyen n iwiziwen
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Aleqqem aneggaru: { $lastUpdatedTimeStamp }
 languages-show-more = Wali ugar
 languages-show-less = Wali drus
 language-meter-in-progress = Asfari
@@ -1513,7 +1525,6 @@ reviewing-sentences-explanation-4 = Ma yella ur tesɛiḍ ara tifyar ara tesneqd
 
 sentence =
     .label = Tafyirt
-citation-input-value = Aɣbalu n tefyirt-ik·im
 citation =
     .label = Abder
 sc-review-write-title = Anti tifyar i zemreɣ ad rnuɣ?
@@ -1526,6 +1537,9 @@ single-sentence-submission = Tuzna n tefyirt tasuft
 single-sentence = Tafyirt tasuft
 bulk-sentences = Aṭas n tefyar
 
+## LANGUAGE VARIANT CODES
+
+
 ## REVIEW PAGE
 
 report-sc-different-language = Tutlayt niḍen
@@ -1535,3 +1549,6 @@ report-sc-different-language = Tutlayt niḍen
 try-upload-again-md = Ɛreḍ asali tikkelt niḍen
 select-file = Fren afaylu
 upload-progress-text = Asali ietddu...
+
+## Donate banner
+

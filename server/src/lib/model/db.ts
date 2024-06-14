@@ -16,7 +16,7 @@ import lazyCache from '../lazy-cache';
 import { option as O, task as T, taskEither as TE } from 'fp-ts';
 import { pipe } from 'fp-ts/lib/function';
 import { DatasetStatistics } from '../../core/datasets/types/dataset';
-import { FindVariantsBySentenceIdsResult, findVariantsBySentenceIdsInDb } from '../../application/sentences/repository/variant-repository';
+import { FindVariantsBySentenceIdsResult, findVariantsBySentenceIdsInDb } from '../../application/repository/variant-repository';
 const MINUTE = 1000 * 60;
 const DAY = MINUTE * 60 * 24;
 
@@ -326,6 +326,8 @@ export default class DB {
   }
 
   private appendMetadataToSentence = async (sentences: Sentence[]) => {
+    if (sentences.length === 0) return []
+
     const sentenceIds = sentences.map(c => c.id);
 
     const sentenceVariants = await pipe(
@@ -479,7 +481,7 @@ export default class DB {
             count - taxonomySentences.length,
             exemptFromSSRL
           );
-    
+
     Sentry.captureMessage(`There are ${regularSentences.length} regular sentences for ${locale} locale`, Sentry.Severity.Info)     
     return taxonomySentences.concat(regularSentences);
   }
@@ -1216,7 +1218,7 @@ export default class DB {
   async getVariants(client_id: string, locale?: string) {
     const [variants] = await this.mysql.query(
       `
-      SELECT name as lang, variant_token AS token, v.id AS variant_id, variant_name FROM variants v
+      SELECT name as lang, variant_token AS tag, v.id AS variant_id, variant_name FROM variants v
       LEFT JOIN locales ON v.locale_id = locales.id
        ${locale ? 'WHERE locale_id = ?' : ''}
       `,
@@ -1232,7 +1234,7 @@ export default class DB {
 
       const variant = {
         id: curr.variant_id,
-        token: curr.token,
+        tag: curr.tag,
         name: curr.variant_name,
       };
 

@@ -6,10 +6,10 @@ export type DomainDescriptionMap = Readonly<{
 
 export const domainDescriptionMap: DomainDescriptionMap = {
   general: 'General',
-  agriculture: 'Agriculture and Food',
-  automotive: 'Automotive and Transport',
+  agriculture_food: 'Agriculture and Food',
+  automotive_transport: 'Automotive and Transport',
   finance: 'Finance',
-  food_service_retail: 'Service and Retail',
+  service_retail: 'Service and Retail',
   healthcare: 'Healthcare',
   history_law_government: 'History, Law and Governmant',
   language_fundamentals: 'Language Fundamentals (e.g. Digits, Letters, Money)',

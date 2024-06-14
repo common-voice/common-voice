@@ -7,11 +7,11 @@ import { ERR_TOO_LONG, ValidateSentence } from '../../../../../core/sentences'
 import {
   FindDomainIdByName,
   SaveSentence,
-} from '../../../../../application/sentences/repository/sentences-repository'
+} from '../../../../../application/repository/sentences-repository'
 import { AddSentenceCommand } from '../../../../../application/sentences/use-case/command-handler/command/add-sentence-command'
 import { SentenceSubmission } from '../../../../../application/types/sentence-submission'
-import { FindVariantByTag } from '../../../../../application/sentences/repository/variant-repository'
-import { FindLocaleByName } from '../../../../../application/sentences/repository/locale-repository'
+import { FindVariantByTag } from '../../../../../application/repository/variant-repository'
+import { FindLocaleByName } from '../../../../../application/repository/locale-repository'
 
 describe('Add sentence command handler', () => {
   it('should save the sentence in the repository', async () => {

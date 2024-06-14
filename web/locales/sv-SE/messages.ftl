@@ -454,6 +454,12 @@ help-variants = Behöver du hjälp med dialekter?
 help-variants-explanation = Varianter är en specifik form av ett språk - till exempel delas av de som bor i ett visst geografiskt område eller ett visst samhälle. Ibland kallas dessa för dialekter.
 help-sex-or-gender-changes = Behöver du hjälp med köns- eller könsförändringar?
 help-sex-or-gender-changes-explanation = Vi erbjuder fler alternativ för att ge människor större valfrihet i vad de berättar om sitt kön eller könsidentitet. Beskriv själv på det sätt som känns mest naturligt för dig. <learnMoreLink>Lär dig mer om vårt förhållningssätt till sex och kön.</learnMoreLink>
+variant-contribution-options-header = Alternativ för variantbidrag
+variant-contribution-help = Vissa varianter och dialekter inom ett språk eller språkfamilj är mycket olika varandra. Om du har problem med att engagera dig kring en viss variant kan du ändra dina inställningar här.
+variant-contribution-option-1 = Visa mig meningar och klipp från alla varianter på mitt språk
+variant-contribution-option-2 = Visa endast meningar och klipp från min variant
+variant-contribution-warning-title = ⓘ Inte alla meningar och klipp har varianttaggar ännu!
+variant-contribution-warning-subtitle = Om du har problem med att bidra kan du när som helst byta tillbaka till att se allt innehåll för ditt språk.
 
 ## Profile - Email
 
@@ -972,6 +978,7 @@ listen-again-instruction = Bra jobbat!<playIcon></playIcon> Lyssna igen när du 
 listen-3rd-time-instruction = Två färdiga, <playIcon></playIcon> bra jobbat!
 listen-last-time-instruction = <playIcon></playIcon> Sista!
 listen-empty-state = Vi har slut på klipp för att validera på det här språket...
+listen-empty-state-variants = Din språkvariant kan vara slut på klipp! Om du känner dig bekväm kan du ändra dina inställningar för att se andra meningar i ditt språk.
 listen-loading-error =
     Vi kunde inte hitta några ljudklipp till dig att lyssna på.
     Vänligen försök igen senare.
@@ -979,6 +986,7 @@ listen-abort-title = Slutför valideringen av klipp?
 listen-abort-cancel = Fortsätt validera
 listen-abort-confirm = Slutför valideringen
 speak-empty-state = Vi har slut på meningar att spela in på det här språket...
+no-sentences-for-variants = Din språkvariant kan ha slut på meningar! Om du känner dig bekväm kan du ändra dina inställningar för att se andra meningar i ditt språk.
 speak-empty-state-cta = Bidra med meningar
 speak-loading-error =
     Vi kunde inte hitta några meningar till dig att tala.
@@ -992,6 +1000,7 @@ target-segment-generic-card = Du bidrar till ett målsegment
 target-segment-first-banner = Hjälp till med att skapa Common Voice första målsegment i { $locale }
 target-segment-add-voice = Lägg till din röst
 target-segment-learn-more = Läs mer
+change-preferences = Ändra inställningar
 
 ## Contribution Nav Items
 
@@ -1775,13 +1784,13 @@ bulk-sentences = Flera meningar
 sentence-domain-combobox-label = Meningsdomän
 sentence-domain-select-placeholder = Välj upp till tre domäner
 # Sentence Domain dropdown option
-agriculture = Lantbruk
+agriculture_food = Jordbruk och livsmedel
 # Sentence Domain dropdown option
-automotive = Fordon
+automotive_transport = Fordon och transporter
 # Sentence Domain dropdown option
 finance = Finans
 # Sentence Domain dropdown option
-food_service_retail = Mat, service och detaljhandel
+service_retail = Mat, service och detaljhandel
 # Sentence Domain dropdown option
 general = Allmänt
 # Sentence Domain dropdown option

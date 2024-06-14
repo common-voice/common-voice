@@ -391,8 +391,8 @@ profile-form-additional-language =
 profile-form-language =
     .label = Dil
 profile-form-variant =
-    .label = Hangi { $language } türevini konuşuyorsunuz?
-profile-form-variant-default-value = Türev seçilmedi
+    .label = Hangi { $language } lehçesini konuşuyorsunuz?
+profile-form-variant-default-value = Lehçe seçilmedi
 profile-form-accent =
     .label = Aksan
 profile-form-custom-accent-help-text =
@@ -450,9 +450,15 @@ off = Kapalı
 on = Açık
 help-accent = Aksan konusunda yardıma mı ihtiyacınız var?
 help-accent-explanation = Aksanınız kelimeleri telaffuz etme şeklinizdir. Yaşadığınız yer, konuştuğunuz diğer diller ve daha birçok faktör aksanınızı etkileyebilir. İlgili olduğunu düşündüğünüz bilgileri burada paylaşabilirsiniz.
-help-variants = Türevlerle ilgili yardıma mı ihtiyacınız var?
-help-variants-explanation = Varyantlar, bir dilin belirli biçimleridir. Örneğin, bir coğrafyada veya toplulukta yaşayanlar tarafından paylaşılır. Bazen bunlara lehçe denir.
+help-variants = Lehçelerle ilgili yardıma mı ihtiyacınız var?
+help-variants-explanation = Lehçeler bir dilin belirli biçimleridir. Örneğin, bir coğrafyada veya toplulukta yaşayanlar tarafından paylaşılır. Bazen bunlara "varyant" veya "değişke" de denir.
 help-sex-or-gender-changes = Cinsiyet değişiklikleri konusunda yardıma mı ihtiyacınız var?
+variant-contribution-options-header = Lehçe katkısı seçenekleri
+variant-contribution-help = Bir dil veya dil ailesi içindeki bazı lehçeler birbirinden çok farklı olabilir. Belirli bir lehçeyle etkileşim kurmakta zorlanıyorsanız tercihlerinizi buradan değiştirebilirsiniz.
+variant-contribution-option-1 = Dilimdeki tüm lehçelerin cümlelerini ve ses kayıtlarını göster
+variant-contribution-option-2 = Yalnızca benim lehçemdeki cümleleri ve ses kayıtlarını göster
+variant-contribution-warning-title = ⓘ Henüz bazı cümlelerde ve ses kayıtlarında lehçe etiketi yok!
+variant-contribution-warning-subtitle = Katkıda bulunurken sorun yaşıyorsanız dilinizdeki tüm içerikleri görme seçeneğine geri dönebilirsiniz.
 
 ## Profile - Email
 
@@ -516,7 +522,7 @@ faq-how-calc-hours-q = Common Voice saatleri nasıl hesaplıyor?
 faq-how-calc-hours-a = Saatleri, her kaydın ortalama uzunluğunu tahmin ederek ve sonra bu sayıyı tüm dillerdeki toplam kayıt sayısıyla çarparak hesaplıyoruz.
 faq-where-src-from-2-q = Kaynak metinler nereden geliyor?
 faq-where-src-from-2-a =
-    Kaynak metinlerimiz, özgün katılımcı bağışlarının yanı sıra <italic>It’s a Wonderful Life</italic> gibi kamuya açık film senaryolarındaki diyaloglardan oluşur.
+    Kaynak metinlerimiz, özgün katılımcı bağışlarının yanı sıra <italic>It’s a Wonderful Life</italic> gibi kamu malı film senaryolarındaki diyaloglardan oluşur.
     
     Kaynak cümlelerimizi bu <githubLink>GitHub klasöründe</githubLink> görüntüleyebilirsiniz.
 faq-why-not-ask-read-q = Neden insanlardan farklı dillerdeki kitapları veya Vikipedi makalelerini okumalarını istemiyorsunuz?
@@ -600,7 +606,7 @@ about-nav-playbook = Nasıl katılacağınızı öğrenin
 about-playbook-what-is-language = Common Voice'ta dil nedir?
 about-playbook-what-is-language-content-1 = Dil üzerine düşünmenin birçok yolu var. Konuşma tanıma modelleri geliştirme amacı söz konusu olduğunda, Common Voice "karşılıklı anlaşılabilirlik" veya "Bu dili konuşanlar birbirlerini genelde anlayabilirler mi?" üzerine odaklanmayı öneriyor.
 about-playbook-what-is-language-content-2 = Konuşma modellerinin çok çeşitli konuşmacıları anlamada daha iyi olmasını istiyoruz. Bunun için ses veri kümelerinin birçok farklı insanı temsil etmesi gerekir.
-about-playbook-what-is-language-content-3 = Bazı diller arasında dilbilgisi, söz dağarcığı ve telaffuz açısından çok büyük farklılıklar vardır. Bu nedenle, 2022'de <ctaLink>"varyantları" uygulamaya sokuyoruz</ctaLink>. Bu özellik, topluluklara daha büyük veri kümeleri içinde kendi dillerini ayırt etmelerinin bir yolunu sunuyor.
+about-playbook-what-is-language-content-3 = Bazı diller arasında dilbilgisi, söz dağarcığı ve telaffuz açısından çok büyük farklılıklar vardır. Bu nedenle, 2022’de <ctaLink>"lehçeleri" uygulamaya soktuk</ctaLink>. Bu özellik, topluluklara daha büyük veri kümeleri içinde kendi dillerini ayırt etmelerinin bir yolunu sunuyor.
 
 ## How do I add a language
 
@@ -972,6 +978,7 @@ target-segment-generic-card = Bir hedef segmentine katkıda bulunuyorsunuz
 target-segment-first-banner = Common Voice’un ilk { $locale } hedef segmentini oluşturmaya yardımcı olun
 target-segment-add-voice = Sesinizi ekleyin
 target-segment-learn-more = Daha fazla bilgi alın
+change-preferences = Tercihleri değiştir
 
 ## Contribution Nav Items
 
@@ -1599,6 +1606,7 @@ partnerships-our-partners = İş Ortaklarımız
 first-cta-header-text = Ses kayıtlarınızı bağışladığınız için teşekkürler!
 first-cta-subtitle-text = Nasıl konuştuğunuz hakkında biraz bilgi paylaşmak ister misiniz?
 why-donate = Neden soruyorsunuz?
+why-donate-explanation-1 = Bu bilgileri vermeniz isteğe bağlıdır. Kendinizi rahat hissetmiyorsanız bilgilerinizi paylaşmayabilirsiniz. Veri kümesini yayımladığımızda tüm kişisel bilgilerinizi anonimleştiriyor, ad ve e-posta adresi gibi bilgilerinizin yaş ve cinsiyet gibi demografik bilgilerle bağlantılı olmamasını sağlıyoruz.
 add-information-button = Bilgi ekle
 continue-speaking-button = Hayır, konuşmaya devam et
 create-profile-text = Bilgilerinizi kaydetmek ister misiniz? <createProfile>Profil oluşturun</createProfile>
@@ -1609,12 +1617,14 @@ first-cta-gender-select-help-text =
     .label = Cinsiyetinizi nasıl tanımlarsınız?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Sesinizle katkıda bulunduğunuz için teşekkürler!
+second-cta-subtitle-text = Profil oluşturursanız ilerlemenizi takip edebilir ve ses verilerine katkıda bulunan diğer gönüllülerimizle bağlantı kurabilirsiniz.
 already-have-an-account = Zaten hesabınız var mı? <login>Giriş yapın</login>
 create-profile-button = Profil oluştur
 # IMAGE TAGS
 img-alt-success-checkmark = başarı onay işareti
 # GUIDELINES PAGE
 guidelines-header = Katkıda bulunma yönergeleri
+guidelines-header-subtitle = Common Voice veri kümesine cümle ve ses kayıtları ile nasıl katkıda bulunabileceğinizi öğrenin
 voice-collection = Ses toplama
 sentence-collection = Cümle derleme
 varying-pronunciations = Farklı telaffuzlar
@@ -1626,7 +1636,10 @@ volume = Ses seviyesi
 reader-effects = Okuyucu efektleri
 just-unsure = Emin değil misiniz?
 example = Örnek
+varying-pronunciations-explanation-1 = Farklı aksanları da memnuniyetle karşılıyoruz! Okuyucunun bir kelimeyi yanlış telaffuz ettiği, vurguyu yanlış yere koyduğu ya da noktalama işaretlerini görmezden geldiği gerekçesiyle bir kaydı reddetmeden önce dikkatli olun. Dünyanın ve ülkenin farklı yerlerinde kullanılan farklı aksanlar ve telaffuzlar olabilir, bunlardan bazılarını yerelde duymamış olabilirsiniz. Lütfen sizden farklı konuşanlar için geniş bir takdir payı bırakın.
 varying-pronunciations-explanation-2 = Öte yandan, okuyucunun kelimeyle daha önce hiç karşılaşmadığını ve kelimeyi yanlış telaffuz ettiğini düşünüyorsanız lütfen kaydı reddedin. Emin değilseniz atlama düğmesini kullanın.
+offensive-content-explanation = Cümleler, topluluk moderasyonu sürecinden geçer ama bu süreç mükemmel değildir. Sizi rencide eden veya üzen bir cümle görür ya da duyarsanız (örn. <participationGuidelines>topluluk katılım yönergelerimizi</participationGuidelines> ihlal ettiği için) lütfen kullanıcı arayüzündeki “bildir” düğmesini kullanın. Bize <emailFragment>commonvoice@mozilla.com</emailFragment> adresinden de ulaşabilirsiniz.
+misreadings-explanation-1 = Sayfadaki tüm kelimeleri doğru okumak önemlidir. Dinlerken, kaydedilenin yazılanla aynı olup olmadığını dikkatlice kontrol edin. Fazladan eklenmiş, eksik okunmuş veya atlanmış kelimeler varsa kaydı reddedin.
 misreadings-explanation-2 = Yaygın hatalar arasında şunları sayabiliriz:
 misreadings-explanation-3 = Kaydın başında ya da sonunda bir sözcüğü atlamak ya da metinde olmayan bir ek sözcük kaydetmek.
 misreadings-explanation-4 = Kayıt sırasında bazı sözcükleri iki denemede okuma ya da yazılandan farklı bir sözcük kaydetme.
@@ -1640,12 +1653,14 @@ misreadings-example-4 = Tamam canım, bitiyor birazdan.
 misreadings-tip-1 = [“oda” olmalıydı]
 misreadings-tip-2 = [Metinde "gardaş" olarak yerel dilde geçiyor]
 misreadings-tip-3 = [Farklı içerik]
+background-noise-explanation = Kaydın her kelimesini duyabilmeniz gerekir. Makine öğrenimi algoritmalarının çeşitli arka plan sesleriyle başa çıkabilmesini istiyoruz. Metnin tamamını duymanızı engellememek koşuluyla, görece yüksek sesler veya düşük seviyede arka plan müzikleri bile kabul edilebilir. Ancak metni duymanızı engelleyen çatırtılar veya kesintiler varsa kaydı reddetmelisiniz.
 background-noise-example-1 = Bu hastalıklar vücudunu sarsmıştı.
 background-noise-example-2 = [Hapşırma] Bu hastalıklar vücudunu [öksürme] sarsmıştı.
 background-noise-example-3 = Bu hastalık vücudunu [öksürme] sarsmıştı.
 background-noise-example-4 = [ÇATIRTI] hastalıklar vücudunu [ÇATIRTI] -mıştı.
 background-noise-tip-1 = [arka plan gürültüsüyle kesintiye uğradı]
 background-noise-tip-2 = [Metnin bir kısmı duyulamıyor]
+background-voices-explanation = Biraz arka plan gürültüsü varsa sorun değildir, ancak arkada başka birinin anlaşılır kelimeler konuştuğunu duyuyorsanız bu kaydı reddetmelisiniz. Bu durum genellikle televizyon açık bırakıldığında ya da yakınlarda sohbet ediliyorsa ortaya çıkar.
 background-voices-example-1 = Bu hastalıklar vücudunu sarsmıştı. [biri tarafından okunuyor]
 background-voices-tip-1 = Geliyor musun? [başka biri sesleniyor]
 volume-explanation = Okuyucular arasında ses seviyesi ile ilgili doğal farklılıklar olacaktır. Yalnızca ses kaydı bozulacak kadar yüksekse veya (daha yaygın olarak) yazılı metne bağlı kalmadan duyulamayacak kadar düşük sesle söyleniyorsa reddedin.
@@ -1657,7 +1672,14 @@ public-domain = Kamu malı
 citing-sentences = Alıntı cümleler
 adding-sentences = Cümle ekleme
 reviewing-sentences = Cümleleri inceleme
-sentence-domain = Cümlenin konusu
+sentence-domain = Cümlenin alanı
+public-domain-explanation-1 = Common Voice veri kümesi cc0 lisansı ile yayımlandığından, tüm cümlelerin <publicDomain>kamu malı</publicDomain> (<cc0>cc0</cc0>) olması çok önemlidir. Bir cümleyi yalnızca bundan eminseniz yükleyin ve her zaman cümlenin kaynağını belirtin.
+public-domain-explanation-2 = Kullanışlı bir konuşma tanıma motoru oluşturmak için en iyi cümleler günlük konuşma dilindeki cümlelerdir. Cümle oluşturmanıza yardımcı olacak fikirlerden bazıları:
+public-domain-explanation-3 = Kendi başınıza, arkadaşlarınızla ya da dil topluluğunuzla modern konuşma dilinde cümleler oluşturun. Örneğin birlikte yazma oturumları düzenleyebilirsiniz.
+public-domain-explanation-4 = Yazarlar, oyun yazarları veya senaristlerle iletişime geçerek çalışmalarının küçük bir bölümünü kamu malı olarak paylaşıp paylaşamayacaklarını sorun.
+public-domain-explanation-5 = Telif hakkının artık geçerli olmadığı metinleri arayın. Yazarı 70 yıl önce vefat etmiş çoğu eser bu kapsamdadır.
+public-domain-explanation-6 = Devlet kurumlarına, kâr amacı gütmeyen kuruluşlara ya da medya kuruluşlarına ulaşarak bu kuruluşların web içeriklerinin, raporlarının ve diğer içeriklerinin kamu malı olup olmadığını öğrenin.
+citing-sentences-explanation-1 = Cümlelerin kamu malı olup olmadığını ve herhangi bir telif hakkı kısıtlaması olmadığını kontrol edebilmemiz için kaynak göstermeniz önemlidir.
 citing-sentences-subheader-websites = Web siteleri
 citing-sentences-subheader-websites-explanation = Web sitesi adresini verebilirsiniz. Örn. "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Akademik atıf
@@ -1673,18 +1695,23 @@ adding-sentences-subheader-length-explanation = Cümle 15 kelimeden kısa olmal�
 adding-sentences-subheader-spelling-punctuation = Yazım ve noktalama
 adding-sentences-subheader-spelling-punctuation-explanation = Cümle, yazım kurallarına uygun olarak yazılmış olmalıdır.
 adding-sentences-subheader-speakable = Sesli okunabilir
+adding-sentences-subheader-speakable-explanation = En iyi cümleler doğal ve konuşma dilinde olanlardır. Başkaları tarafından kolayca okunmalıdırlar. Cümlelerdeki fonetik çeşitlilik ve farklı kelimeler önemli olmakla birlikte, gönüllü topluluğumuz için cümle kaydetmeyi de mümkün olduğunca çekici ve eğlenceli hale getirmeye çalışıyoruz.
 adding-sentences-subheader-numbers = Sayılar
 adding-sentences-subheader-numbers-explanation = Kaynak metinde rakamlar mümkün mertebe olmamalıdır çünkü sesli okunduğunda sorun yaratabilirler. Bir sayının okunma şekli bağlama bağlıdır ve veri kümesinde karışıklığa neden olabilir. Örneğin, “2409” sayısı hem “yirmi dört sıfır dokuz” hem de “iki bin dört yüz dokuz” olarak doğru bir şekilde okunabilir.
 adding-sentences-subheader-abbreviations = Kısaltmalar ve kısa adlar
+adding-sentences-subheader-abbreviations-explanation = Kaynak metinde “TBMM”, “ABD” gibi kısaltmalar kullanılmamalıdır çünkü bunlar yazımlarına uymayan bir şekilde okunabilirler. Ayrıca bazı kısaltmaların birden fazla doğru okunuşu olabilir.
 adding-sentences-subheader-punctuation = Noktalama işaretleri
 adding-sentences-subheader-punctuation-explanation = Özel semboller ve noktalama işaretleri yalnızca kesinlikle gerekli olduğunda dahil edilmelidir. Örneğin, "Ahmet'in" ve "N'aber?" gibi sözcüklerdeki kesme işareti kaynak metne dahil edilmelidir, ancak büyük olasılıkla "@" veya "#" gibi özel sembollere ihtiyacınız olmayacaktır.
 adding-sentences-subheader-special-characters = Özel karakterler ve yabancı harfler
 adding-sentences-subheader-special-characters-explanation-1 = Harfler konuşulan dilde geçerli olmalıdır. Örneğin, "ж" Rus alfabesinde bir harftir ancak Türkçede asla kullanılmaz ve bu nedenle hiçbir Türkçe kaynak metinde yer almamalıdır.
+adding-sentences-subheader-special-characters-explanation-2 = Her dilin kendi doğrulama kuralları olabilir ve yerelleştirme sırasında ek zorunluluklar olabilir. Bir dilin kendine has doğrulama kuralları yoksa İngilizce kurallar gösterilecektir.
 adding-sentences-subheader-offensive-content = Saldırgan üslup
+adding-sentences-subheader-offensive-content-explanation = Cümle saldırgan veya rahatsız ediciyse (örn. içeriği uygunsuzsa veya <communityGuidelines>topluluk katılım yönergelerimizi</communityGuidelines> ihlal ediyorsa) cümleyi reddetmelisiniz. Ayrıca sorunu iletmek için <emailFragment>commonvoice@mozilla.com</emailFragment> adresinden bize ulaşabilirsiniz.
 reviewing-sentences-explanation-1 = Cümle yukarıdaki ölçütleri karşılıyorsa "Evet" düğmesine tıklayın.
 reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamıyorsa "Hayır" düğmesine tıklayın.
 reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
 reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
+domain-explanation = Alan, cümlenin konusunu ifade eder. Şu anda aşağıdakiler arasından seçim yapabilirsiniz:
 
 ## WRITE PAGE
 
@@ -1693,6 +1720,7 @@ write-page-subtitle = Buradan gönderilen cümleler, halka açık ve cc-0 lisans
 sentence =
     .label = Cümle
 sentence-input-value = Kamu malı cümlenizi buraya yazın
+citation-input-placeholder = Cümlenizin kaynağını belirtin (zorunlu)
 citation =
     .label = Kaynak
 sc-write-submit-confirm = Bu cümlenin <wikipediaLink>kamu malı</wikipediaLink> olduğunu ve bunu yükleme iznim olduğunu onaylıyorum.
@@ -1707,6 +1735,7 @@ new-sentence-rule-7 = Kaynağı doğru şekilde gösterilmiş
 new-sentence-rule-8 = Mümkün olduğunda doğal ve konuşma dilinde (Cümleyi okuması kolay olmalı)
 how-to-cite = Nasıl kaynak gösteririm?
 how-to-cite-explanation-bold = Bir URL bağlantısı veya çalışmanın tam adıyla kaynak gösterin.
+how-to-cite-explanation = Cümleyi kendiniz ürettiyseniz <italicizedText>“Kendim yazdım”</italicizedText> demeniz yeterli. Kamu malı olup olmadığını ve telif hakkı kısıtlaması olmadığını kontrol edebilmemiz için bu içeriği nerede bulduğunuzu bilmemiz gerekiyor. Kaynak gösterme hakkında daha fazla bilgi için <guidelinesLink>Yönergeler sayfamıza</guidelinesLink> bakabilirsiniz.
 guidelines = Yönergeler
 contact-us = Bize ulaşın
 add-sentence-success = 1 cümle toplandı
@@ -1716,16 +1745,16 @@ single-sentence-submission = Tek cümle gönderimi
 bulk-sentence-submission = Toplu cümle gönderimi
 single-sentence = Tek cümle
 bulk-sentences = Toplu cümle
-sentence-domain-combobox-label = Cümlenin konusu
-sentence-domain-select-placeholder = En fazla üç konu seçin (isteğe bağlı)
+sentence-domain-combobox-label = Cümlenin alanı
+sentence-domain-select-placeholder = En fazla üç alan seçin (isteğe bağlı)
 # Sentence Domain dropdown option
-agriculture = Tarım
+agriculture_food = Tarım ve gıda
 # Sentence Domain dropdown option
-automotive = Otomotiv
+automotive_transport = Otomotiv ve ulaşım
 # Sentence Domain dropdown option
 finance = Finans
 # Sentence Domain dropdown option
-food_service_retail = Yemek, Hizmet ve Alışveriş
+service_retail = Hizmet ve perakende
 # Sentence Domain dropdown option
 general = Genel
 # Sentence Domain dropdown option
@@ -1790,6 +1819,7 @@ sc-bulk-upload-header = Kamu malı cümleleri yükleyin <icon></icon>
 sc-bulk-upload-instruction = Dosyanızı yüklemek için buraya sürükleyin veya <uploadButton>buraya tıklayın</uploadButton>
 sc-bulk-upload-instruction-drop = Yüklemek için dosyayı buraya bırakın
 bulk-upload-additional-information = Bu dosyayla ilgili vermek istediğiniz ek bilgiler varsa <emailFragment>commonvoice@mozilla.com</emailFragment> ile iletişime geçebilirsiniz.
+template-file-additional-information = Bu dosyayla ilgili vermek istediğiniz ama şablonda bulunmayan ek bilgiler varsa lütfen <emailFragment>commonvoice@mozilla.com</emailFragment> ile iletişime geçin.
 try-upload-again = Dosyanızı buraya sürükleyerek yeniden deneyin
 try-upload-again-md = Yeniden yüklemeyi deneyin
 select-file = Dosya seçin

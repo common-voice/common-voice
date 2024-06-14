@@ -4,14 +4,50 @@ import { getVariantsToBeUpdated } from './getVariantsToBeUpdated'
 describe('Test getVariantsToBeUpdated', () => {
   it('should return correct list of variants to be updated', () => {
     const requestedVariants: UserVariant[] = [
-      { id: 1, name: 'a', token: 'a', is_preferred_option: false },
-      { id: 2, name: 'b', token: 'b', is_preferred_option: true },
-      { id: 3, name: 'c', token: 'c', is_preferred_option: false },
+      {
+        id: 1,
+        name: 'a',
+        tag: 'a',
+        is_preferred_option: false,
+        locale: 'locale-a',
+      },
+      {
+        id: 2,
+        name: 'b',
+        tag: 'b',
+        is_preferred_option: true,
+        locale: 'locale-b',
+      },
+      {
+        id: 3,
+        name: 'c',
+        tag: 'c',
+        is_preferred_option: false,
+        locale: 'locale-c',
+      },
     ]
     const savedVariants: UserVariant[] = [
-      { id: 1, name: 'a', token: 'a', is_preferred_option: true },
-      { id: 2, name: 'b', token: 'b', is_preferred_option: false },
-      { id: 3, name: 'c', token: 'c', is_preferred_option: false },
+      {
+        id: 1,
+        name: 'a',
+        tag: 'a',
+        is_preferred_option: true,
+        locale: 'locale-a',
+      },
+      {
+        id: 2,
+        name: 'b',
+        tag: 'b',
+        is_preferred_option: false,
+        locale: 'locale-b',
+      },
+      {
+        id: 3,
+        name: 'c',
+        tag: 'c',
+        is_preferred_option: false,
+        locale: 'locale-c',
+      },
     ]
 
     const variantsToBeUpdated = getVariantsToBeUpdated(
@@ -20,21 +56,69 @@ describe('Test getVariantsToBeUpdated', () => {
     )
 
     expect(variantsToBeUpdated).toEqual([
-      { id: 1, name: 'a', token: 'a', is_preferred_option: false },
-      { id: 2, name: 'b', token: 'b', is_preferred_option: true },
+      {
+        id: 1,
+        name: 'a',
+        tag: 'a',
+        is_preferred_option: false,
+        locale: 'locale-a',
+      },
+      {
+        id: 2,
+        name: 'b',
+        tag: 'b',
+        is_preferred_option: true,
+        locale: 'locale-b',
+      },
     ])
   })
 
   it('should return empty list of variants to be updated', () => {
     const requestedVariants: UserVariant[] = [
-      { id: 1, name: 'a', token: 'a', is_preferred_option: true },
-      { id: 2, name: 'b', token: 'b', is_preferred_option: true },
-      { id: 3, name: 'c', token: 'c', is_preferred_option: false },
+      {
+        id: 1,
+        name: 'a',
+        tag: 'a',
+        is_preferred_option: true,
+        locale: 'locale-a',
+      },
+      {
+        id: 2,
+        name: 'b',
+        tag: 'b',
+        is_preferred_option: true,
+        locale: 'locale-b',
+      },
+      {
+        id: 3,
+        name: 'c',
+        tag: 'c',
+        is_preferred_option: false,
+        locale: 'locale-c',
+      },
     ]
     const savedVariants: UserVariant[] = [
-      { id: 1, name: 'a', token: 'a', is_preferred_option: true },
-      { id: 2, name: 'b', token: 'b', is_preferred_option: true },
-      { id: 3, name: 'c', token: 'c', is_preferred_option: false },
+      {
+        id: 1,
+        name: 'a',
+        tag: 'a',
+        is_preferred_option: true,
+        locale: 'locale-a',
+      },
+      {
+        id: 2,
+        name: 'b',
+        tag: 'b',
+        is_preferred_option: true,
+        locale: 'locale-b',
+      },
+      {
+        id: 3,
+        name: 'c',
+        tag: 'c',
+        is_preferred_option: false,
+        locale: 'locale-c',
+      },
     ]
 
     const variantsToBeUpdated = getVariantsToBeUpdated(

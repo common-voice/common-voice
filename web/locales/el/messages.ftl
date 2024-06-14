@@ -453,6 +453,12 @@ help-variants = Χρειάζεστε βοήθεια με τις παραλλαγ
 help-variants-explanation = Οι παραλλαγές αποτελούν συγκεκριμένη μορφή μιας γλώσσας - για παράδειγμα, είναι κοινές σε όσους ζουν σε κάποια γεωγραφική περιοχή ή κοινότητα. Μερικές φορές αυτές ονομάζονται διάλεκτοι.
 help-sex-or-gender-changes = Χρειάζεστε βοήθεια με τις αλλαγές που σχετίζονται με τα φύλα;
 help-sex-or-gender-changes-explanation = Προσφέρουμε στους χρήστες περισσότερες επιλογές σχετικά με το βιολογικό και το κοινωνικό φύλο τους. Παρακαλούμε περιγράψτε τον εαυτό σας με τον τρόπο που σας φαίνεται πιο φυσικός. <learnMoreLink>Μάθετε περισσότερα σχετικά με την προσέγγισή μας για τα βιολογικά και τα κοινωνικά φύλα.</learnMoreLink>
+variant-contribution-options-header = Επιλογές συνεισφοράς παραλλαγών
+variant-contribution-help = Ορισμένες παραλλαγές και διάλεκτοι σε μια γλώσσα ή γλωσσική οικογένεια διαφέρουν πολύ μεταξύ τους. Αν αντιμετωπίζετε πρόβλημα με την αλληλεπίδραση με μια συγκεκριμένη παραλλαγή, μπορείτε να αλλάξετε τις προτιμήσεις σας εδώ.
+variant-contribution-option-1 = Εμφάνιση προτάσεων και αποσπασμάτων από όλες τις παραλλαγές της γλώσσας μου
+variant-contribution-option-2 = Εμφάνιση προτάσεων και αποσπασμάτων μόνο από την παραλλαγή μου
+variant-contribution-warning-title = ⓘ Δεν έχουν όλες οι προτάσεις και τα αποσπάσματα ετικέτες παραλλαγής!
+variant-contribution-warning-subtitle = Αν αντιμετωπίζετε πρόβλημα με τη συνεισφορά, μπορείτε να επιστρέψετε στην προβολή όλου του περιεχομένου της γλώσσας σας ανά πάσα στιγμή.
 
 ## Profile - Email
 
@@ -969,6 +975,7 @@ listen-again-instruction = Εξαιρετική δουλειά! <playIcon></play
 listen-3rd-time-instruction = Έφυγαν 2, συνεχίστε! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Τελευταίο!
 listen-empty-state = Μάλλον τελείωσαν τα αποσπάσματα - ανανεώστε τη σελίδα ή δοκιμάστε ξανά αργότερα.
+listen-empty-state-variants = Ενδέχεται να μη διατίθενται αποσπάσματα στην παραλλαγή της γλώσσας σας! Αν αισθάνεστε άνετα, μπορείτε να αλλάξετε τις ρυθμίσεις σας για να βλέπετε άλλες προτάσεις στη γλώσσα σας.
 listen-loading-error =
     Δεν μπορέσαμε να βρούμε κανένα απόσπασμα για να ακούσετε.
     Παρακαλούμε δοκιμάστε ξανά.
@@ -976,6 +983,7 @@ listen-abort-title = Τελειώσατε με την επικύρωση απο�
 listen-abort-cancel = Συνέχεια επικύρωσης
 listen-abort-confirm = Τέλος επικύρωσης
 speak-empty-state = Δεν υπάρχουν προτάσεις προς ηχογράφηση σε αυτήν τη γλώσσα...
+no-sentences-for-variants = Ενδέχεται να μη διατίθενται προτάσεις στην παραλλαγή της γλώσσας σας! Αν αισθάνεστε άνετα, μπορείτε να αλλάξετε τις ρυθμίσεις σας για να βλέπετε άλλες προτάσεις στη γλώσσα σας.
 speak-empty-state-cta = Συνεισφορά προτάσεων
 speak-loading-error =
     Δεν μπορέσαμε να βρούμε καμία πρόταση για να εκφωνήσετε.
@@ -989,6 +997,7 @@ target-segment-generic-card = Συνεισφέρετε σε τμήμα στόχ�
 target-segment-first-banner = Βοηθήστε στη δημιουργία του πρώτου τμήματος του στόχου του Common Voice στα { $locale }
 target-segment-add-voice = Προσθέστε τη φωνή σας
 target-segment-learn-more = Μάθετε περισσότερα
+change-preferences = Αλλαγή προτιμήσεων
 
 ## Contribution Nav Items
 
@@ -1769,13 +1778,13 @@ bulk-sentences = Πολλαπλές προτάσεις
 sentence-domain-combobox-label = Τομέας πρότασης
 sentence-domain-select-placeholder = Επιλέξτε έως και τρεις τομείς
 # Sentence Domain dropdown option
-agriculture = Γεωργία
+agriculture_food = Γεωργία και Τρόφιμα
 # Sentence Domain dropdown option
-automotive = Αυτοκίνηση
+automotive_transport = Αυτοκίνητο και Μεταφορές
 # Sentence Domain dropdown option
 finance = Οικονομικά
 # Sentence Domain dropdown option
-food_service_retail = Φαγητό, εξυπηρέτηση και λιανική
+service_retail = Εξυπηρέτηση και λιανική
 # Sentence Domain dropdown option
 general = Γενικός
 # Sentence Domain dropdown option
@@ -1799,8 +1808,36 @@ sentence-variant-select-multiple-variants = Γενική γλώσσα/πολλα
 ## LANGUAGE VARIANT CODES
 
 ca-algueres = Αλγερές
+ca-central = Κεντρική διάλεκτος
+ca-balear = Διάλεκτος Βαλεαρίδων Νήσων
+ca-nwestern = Βορειοδυτική διάλεκτος
+ca-northern = Βόρεια διάλεκτος
+ca-valencia-tortosi = Τορτοσί
+ca-valencia-central = Κεντρική διάλεκτος Βαλένθιας
+ca-valencia-northern = Βόρεια διάλεκτος Βαλένθιας
+ca-valencia-southern = Νότια διάλεκτος Βαλένθιας
+ca-valencia-alacant = Αλακαντί
+cy-northwes = Ουαλικά (Βορειοδυτικά)
+cy-northeas = Ουαλικά (Βορειοανατολικά)
+cy-midwales = Ουαλικά (Κέντρο)
+cy-southwes = Ουαλικά (Νοτιοδυτικά)
+cy-southeas = Ουαλικά (Νοτιοανατολικά)
+cy-wladfa = Ουαλικά (Παταγονία)
 pt-BR = Πορτογαλικά (Βραζιλία)
 pt-PT = Πορτογαλικά (Πορτογαλία)
+sw-sanifu = Σουαχίλι Τυποποιημένα (ΑΑ)
+sw-barake = Σουαχίλι (Κένυα)
+sw-baratz = Σουαχίλι (Τανζανία)
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Κεντρική διάλεκτος
+sw-kibajuni = Κιμπατζούνι (KE) - Βόρεια διάλεκτος
+sw-kimrima = Kimrima (TZ) - Βόρεια διάλεκτος
+sw-kiunguja = Kiunguja (TZ) - Νότια διάλεκτος
+sw-kipemba = Kipemba (TZ) - Νότια διάλεκτος
+sw-kikae = Kimakunduchi/Kikae (TZ) - Νότια διάλεκτος
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

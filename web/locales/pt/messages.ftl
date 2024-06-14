@@ -451,6 +451,9 @@ help-variants = Precisa de ajuda com variantes?
 help-variants-explanation = Variante é uma forma específica de um idioma. Por exemplo, compartilhada por quem vive em uma área geográfica ou comunidade. Às vezes, é chamada de dialeto.
 help-sex-or-gender-changes = Precisa de ajuda com as mudanças de sexo ou gênero?
 help-sex-or-gender-changes-explanation = Oferecemos mais opções para dar às pessoas mais escolhas sobre o que nos contam sobre seu sexo ou identidade de gênero. Descreva a si mesmo da maneira que sentir mais natural para você. <learnMoreLink>Saiba mais sobre nossa abordagem em relação a sexo e gênero.</learnMoreLink>
+variant-contribution-help = Algumas variantes e dialetos de um idioma ou família de idiomas são muito diferentes entre si. Se estiver tendo problemas para interagir com uma variante específica, você pode alterar suas preferências aqui.
+variant-contribution-option-1 = Mostrar frases e clipes de todas as variantes do meu idioma
+variant-contribution-option-2 = Só mostrar frases e clipes da minha variante
 
 ## Profile - Email
 
@@ -980,6 +983,7 @@ target-segment-generic-card = Você está contribuindo para um segmento-alvo
 target-segment-first-banner = Ajude a criar o primeiro segmento alvo do Common Voice em { $locale }
 target-segment-add-voice = Adicione sua voz
 target-segment-learn-more = Saiba mais
+change-preferences = Alterar preferências
 
 ## Contribution Nav Items
 
@@ -1759,13 +1763,13 @@ bulk-sentences = Grupo de frases
 sentence-domain-combobox-label = Domínio da frase
 sentence-domain-select-placeholder = Selecione até três domínios
 # Sentence Domain dropdown option
-agriculture = Agricultura
+agriculture_food = Agricultura e alimentação
 # Sentence Domain dropdown option
-automotive = Automotivo
+automotive_transport = Automotivo e transporte
 # Sentence Domain dropdown option
 finance = Finanças
 # Sentence Domain dropdown option
-food_service_retail = Alimentos, serviços e vendas à varejo
+service_retail = Serviços e vendas à varejo
 # Sentence Domain dropdown option
 general = Geral
 # Sentence Domain dropdown option
@@ -1784,15 +1788,29 @@ news_current_affairs = Notícias e atualidades
 technology_robotics = Tecnologia e robótica
 sentence-variant-select-label = Variante de frase
 sentence-variant-select-placeholder = Selecione uma variante (opcional)
+sentence-variant-select-multiple-variants = Idioma genérico / diversas variantes
 
 ## LANGUAGE VARIANT CODES
 
 ca-algueres = Catalão alguerês
+ca-central = Central
 ca-balear = Catalão balear
 ca-nwestern = Norte-Ocidental
 ca-northern = Setentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valenciano central
+ca-valencia-northern = Valenciano setentrional
+ca-valencia-southern = Valenciano meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Galês noroeste
+cy-northeas = Galês nordeste
+cy-southwes = Galês sudoeste
+cy-southeas = Galês sudeste
+cy-wladfa = Galês da Patagônia
 pt-BR = Português (Brasil)
 pt-PT = Português (Portugal)
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

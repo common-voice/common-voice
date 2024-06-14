@@ -1,6 +1,6 @@
 import { taskEither as TE } from 'fp-ts'
-import Mysql, { getMySQLInstance } from '../../../lib/model/db/mysql'
-import { clientId } from '../../../core/types/clientId'
+import Mysql, { getMySQLInstance } from '../../lib/model/db/mysql'
+import { clientId } from '../../core/types/clientId'
 
 const db = getMySQLInstance()
 
