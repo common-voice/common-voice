@@ -602,12 +602,12 @@ release-version = Версия
 dataset-date = Сәне
 license = Licenziya: <licenseLink>{ $license }</licenseLink>
 license-mixed = Аралас
-terms-agree = Razıman
-terms-disagree = Narazıman
-review-submit-title = Tekseriw hám jiberiw
+terms-agree = Разыман
+terms-disagree = Наразыман
+review-submit-title = Тексериў ҳәм жибериў
 review-submit-msg = Jazıp qaldırǵanıńız ushın raxmet!<lineBreak></lineBreak> Endi dawıslı jazbalarıńızdı tómende tekseriń hám jiberiń.
-review-recording = Tekseriw
-review-rerecord = Qayta jazıw
+review-recording = Тексериў
+review-rerecord = Қайта жазыў
 review-cancel = Jiberiwdi biykarlaw
 review-keep-recordings = Dawıslı jazıwlarımdı saqlaw
 review-delete-recordings = Dawıslı jazıwlarımdı óshiriw
@@ -615,19 +615,19 @@ review-delete-recordings = Dawıslı jazıwlarımdı óshiriw
 ## Datasets Page
 
 datasets-heading = Maǵlıwmatlar toplamı
-language = Til
-download-dataset-header = Maǵlıwmatlar toplamın júklep alıw
+language = Тил
+download-dataset-header = Мағлыўматлар топламын жүклеп алыў
 # File size in gigabytes
 size = Kólem
 validated-hr-total = Jámi tekserilgen saat
 overall-hr-total = Jámi saat
-cv-license = Licenziya
+cv-license = Лицензия
 audio-format = Audioformat
-number-of-voices = Dawıslar sanı
+number-of-voices = Даўыслар саны
 splits = Ajıratıw
 email-to-download = Júklep alıw ushın elektron pochtańızdı kirgiziń
-size-gigabyte = GB
-size-megabyte = MB
+size-gigabyte = ГБ
+size-megabyte = МБ
 download-language = Júklew { $language }
 validated-hours = Tekserilgen saat
 recorded-hours = Jazılǵan saat
@@ -636,7 +636,7 @@ dataset-description-hours =
     Maǵlıwmatlar toplamındaǵı hárbir dawıslı jazba siyrek MP3 fayl hám oǵan baylanıslı tekstli fayldan turadı. Maǵlıwmatlar toplamında jazılǵan <b>{ $total }</b> kóp saatlar jas, jınıs hám akcent sıyaqlı demografiyalıq meta maǵlıwmatlardı óz ishine aladı. Olar sóylewdi anıqlaw mexanizmleriniń anlıqlıǵın úyretiwge járdem beredi.
     
     Házirgi waqıtta maǵlıwmatlar toplamı <b>{ $languages }</b> tilden, <b>{ $valid }</b> tekserilgen saattan turadı, biraq biz hámiyshe kóbirek jańa dawıslardı hám tillerdi qosamız. Qatnasıw ushın yamasa tildi soraw ushın biziń <languagesLink>tiller betimizdi</languagesLink> kóriń.
-subscribe = Jazılıw
+subscribe = Жазылыў
 other-datasets = Basqa dawıslı maǵlıwmatlar toplamları
 community-playbook = Birlespe ushın sabaqlıq
 data-other-ted-name = TED-LIUM toplamı
@@ -644,9 +644,9 @@ go-discourse = Discourseǵa ótiw
 go-languages-page = Tiller betine ótiw
 ready-to-validate = Gáplerdi tekseriwge járdem beriwge tayarsız ba?
 more = Kóbirek
-close = Jabıw
+close = Жабыў
 download = Júklep alıw
-dataset-version = Versiya
+dataset-version = Версия
 sha256-checksum-copied = SHA256 qadaǵalaw summası kóshirip alındı!
 sha256-checksum-copied-error = SHA256 qadaǵalaw summasın kóshirip alıw ámelge aspadı
 
@@ -1283,8 +1283,6 @@ sentences-fetch-error = Gáplerdi alıw waqtında qátelik júz berdi
 review-error = Bul gápti tekseriwde qátelik júz berdi
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Biz birqansha úlken ózgeris qılıp atırmız
-sc-redirect-page-subtitle-1 = Gápler jıynawshısı Common Voice tiykarǵı playformasına ótpekte. Endi siz Common Voiceta bir gápti kóriwińiz yamasa jazıwıńız múmkin.
-sc-redirect-page-subtitle-2 = Sorawlarıńızdı <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> yamasa <emailLink>elektron pochta</emailLink> arqalı beriń.
 
 ## BULK SUBMISSION 
 
