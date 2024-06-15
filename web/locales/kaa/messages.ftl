@@ -461,18 +461,18 @@ about-language-req-subtitle = Биреў тилди қосыўды сорайд�
 about-localization-title = Веб-сайтты локализациялаў
 about-localization-subtitle = Веб-сайттың тексти сол тилге аўдарылады.
 about-sentence-collection-title = Гәплер топламы
-about-sentence-collection-subtitle = Adamlar dawıslap oqıwı ushın gápler jıynaladı.
-about-new-lang-title = Jańa tildiń iske túsiwi
-about-new-lang-subtitle = Biz usı tilde Common Voice saytın iske túsiremiz.
-about-voice-contrib-title = Dawıs penen úles qosıw
-about-voice-contrib-subtitle = Adamlar kelip óz dawısın jazıp qaldırıp úles qosadı.
-about-voice-validation-title = Dawıstı tekseriw
-about-voice-validation-subtitle = Basqa adamlar bul dawıslı kliplerdi tekseredi.
-about-dataset-release-title = Maǵlıwmatlar toplamınıń shıǵıwı
-about-dataset-release-subtitle = Biz hár 3 aydan maǵlıwmatlar toplamın járiyalaymız.
-about-subscribe-text = Common Voice penen baylanısta bolıwdı qáleysiz be?
-about-speak = Sóyleń
-about-listen = Tıńlań
+about-sentence-collection-subtitle = Адамлар даўыслап оқыўы ушын гәплер жыйналады.
+about-new-lang-title = Жаңа тилдиң иске түсиўи
+about-new-lang-subtitle = Биз усы тилде Common Voice сайтын иске түсиремиз.
+about-voice-contrib-title = Даўыс пенен үлес қосыў
+about-voice-contrib-subtitle = Адамлар келип өз даўысын жазып қалдырып үлес қосады.
+about-voice-validation-title = Даўысты тексериў
+about-voice-validation-subtitle = Басқа адамлар сол даўыслы клиплерди тексереди.
+about-dataset-release-title = Мағлыўматлар топламының шығыўы
+about-dataset-release-subtitle = Биз ҳәр 3 айдан мағлыўматлар топламын жәриялаймыз.
+about-subscribe-text = Common Voice пенен байланыста болыўды қәлейсиз бе?
+about-speak = Сөйлең
+about-listen = Тыңлаң
 about-is-it-valid = Dawıslı úzindi jaramlı ma?
 about-is-it-valid-text = Paydalanıwshı "Awa" dawısın bergende, dawıslı úzindi "jaramlı" dep belgilenedi.
 about-yes-votes = ≥ 2 "Awa" dawıslar
@@ -481,19 +481,19 @@ about-no-votes = ≥ 2 "Joq" dawıslar
 about-dataset-new = CommonVoice maǵlıwmatlar toplamı
 about-dataset-new-text = CommonVoice maǵlıwmatlar toplamı baǵdarlamashılarǵa dawıstı anıqlaw quralın járatıwǵa járdem beriw ushın júz mıńnan aslam audio úlgilerin óz ishine aladı.
 about-clip-graveyard = Dawıslı úzindiler qábiristanı
-about-get-involved = Qatnasıw
+about-get-involved = Қатнасыў
 about-get-involved-text-2 =
     Common Voicetıń ele de jaqsılanıwına járdem bergińiz kele me?
     Ájayıp! Biz benen elektron pochta yamasa <discourseLink>Discourse</discourseLink> arqalı baylanısıń, sayt penen baylanıslı mashqalalar tuwralı <githubLink>GitHub</githubLink> arqalı xabar beriń
     yamasa <matrixLink>Matrix</matrixLink> birlespe chatına qosılıń.
 about-stay-in-touch = Men qalay baylanısta bolıwım múmkin?
-about-stay-in-touch-button = Dizimnen ótiw
-about-nav-why-common-voice = Nege?
-about-nav-how-it-works = Qalay?
+about-stay-in-touch-button = Дизимнен өтиў
+about-nav-why-common-voice = Неге?
+about-nav-how-it-works = Қалайынша?
 about-nav-partners = Sherikler
-about-nav-get-involved = Qatnasıw
-about-nav-how-it-works-2 = Common Voice qalay isleydi?
-about-nav-playbook = Qalay qatnasıwdı úyreniń
+about-nav-get-involved = Қатнасыў
+about-nav-how-it-works-2 = Common Voice қалай ислейди?
+about-nav-playbook = Қалай қатнасыўды үйрениң
 
 ## Community Playbook Content
 ## What is a language
@@ -507,7 +507,7 @@ about-playbook-how-add-language-content-1 =
     Basta tilińiz <languageLink>qosılǵanın tekseriń</languageLink>. 
     Eger joq bolsa, tilińizdi qosıwdı <languageRequestLink>sorawıńız múmkin</languageRequestLink>. 
     Soń sayttı awdarıwıńız hám gáplerdi jiynawıńız kerek.
-about-playbook-how-add-language-translating-heading = Sayttı awdarmalaw
+about-playbook-how-add-language-translating-heading = Сайтты аўдарыў
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoondı qalay paydalanıw boyınsha  qollanbamızdı tamashalań</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     Awdarmalar ushın <pontoonLink>Pontoon</pontoonLink> atlı Mozillanıń quralınan qollanamız. Pontoonda kóp tiller bar, eger siziń tilińiz joq bolsa, onı <pontoonRequestLink>qosıwın sorawıńız múmkin</pontoonRequestLink>. 
@@ -598,10 +598,10 @@ data-get-started = <speechBlogLink>Dawıstı anıqlaw menen jumıs baslaw</speec
 data-other-title = Basqa dawıslı maģlıwmatlar toplamı...
 data-other-download = Maǵlıwmatlardı júklep alıw
 data-bundle-button = Maǵlıwmatlar toplamı paketin júklep alıw
-release-version = Versiya
-dataset-date = Sáne
+release-version = Версия
+dataset-date = Сәне
 license = Licenziya: <licenseLink>{ $license }</licenseLink>
-license-mixed = Aralas
+license-mixed = Аралас
 terms-agree = Razıman
 terms-disagree = Narazıman
 review-submit-title = Tekseriw hám jiberiw
