@@ -1,7 +1,7 @@
 ## Languages
 
 contribute = Úles qosıw
-get-involved-button = Qatnasıw
+get-involved-button = Қатнасыў
 get-involved-title = { $lang } tiline úles qosıw
 get-involved-text = { $lang } tiline úles qosıwǵa qızıǵıwshılıǵıńız ushın raxmet. Bizler hárbir tildi iske túsiriw ushın ǵayrat salıp atırmız hám toparlarǵa jańalıqlardı elektron pochta arqalı jetkeremiz. Eger de siz óz úlesińizdi qosıwdı qáleseńiz, tómende elektron pochtańızdı kórsetiń.
 get-involved-form-title = Jazılıń hám { $lang } tili qalay jańalanıp atırǵanınan xabardar bolıń:
