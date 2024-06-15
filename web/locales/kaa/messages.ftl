@@ -5,17 +5,17 @@ stayintouch = Biz Mozillada dawıs texnologiyası sheńberinde birlespe dúzip a
 privacy-info = Siziń maǵlıwmatlarıńızǵa puqtalıq penen qarawǵa wáde beremiz. Bul haqqında qosımsha <privacyLink>Qupıyalıq siyasatı</privacyLink> maǵlıwmatların oqıp shıǵıń.
 return-to-cv = Common Voiceǵa qaytıw
 email-input =
-    .label = Elektron pochta
-submit-form-action = Jiberiw
-loading = Júklenbekte…
+    .label = Электрон почта
+submit-form-action = Жибериў
+loading = Жүкленбекте...
 email-opt-in-info = Maqsetlerim haqqında esletpe, ozimniń jetiskenliklerim hám Common Voice haqqındaǵı xatlardı alıwdı qáleymen.
 email-opt-in-info-title = CommonVoice tarqatpalarına jazılıw
 email-opt-in-info-sub-with-challenge = Diydiler, maqsetler haqqında esletpe, jetiskenlikler haqqında xabarlamalar hám CommonVoice haqqında jańalıqlar sıyaqlı xatlardı alıw.
 email-opt-in-privacy-v2 = Siz elektron xatlardı alıwǵa razılıq berip, bul maǵlıwmatlarıńız Mozilla tárepinen onıń <privacyLink>Qupıyalıq siyasatı</privacyLink> qaǵıydalarında kórsetilgen tártipte paydalanıwına ruqsat bergen esaplanasız.
 indicates-required = * Toltırıw májburıy bolǵan maydanlar
-not-available-abbreviation = Joq
+not-available-abbreviation = Жоқ
 banner-error-slow-1 = Keshirersiz, CommonVoice áste islep atır. Qızıǵıwshılıǵıńız ushın raxmet.
-banner-error-slow-link = Jaǵday beti
+banner-error-slow-link = Жағдай бети
 error-something-went-wrong = Keshirersiz, qátelik júz berdi
 error-clip-upload = Bul klipti júklew sátsiz juwmaqlandı. Qayta urınıp kóresiz be?
 error-clip-upload-server = Bul klipti serverge júklew sátsiz juwmaqlandı. Betti qayta júkleń yamasa keyinirek qayta urınıp kóriń.
@@ -26,13 +26,13 @@ error-clip-upload-server = Bul klipti serverge júklew sátsiz juwmaqlandı. Bet
 
 ## Languages
 
-ab = Abxaz
-ace = Achene
+ab = Абхаз
+ace = Ачене
 ady = Adıgey
-af = Afrikaans
+af = Африкаанс
 am = Amhar
 an = Aragon
-ar = Arab
+ar = Араб
 arn = Mapuche
 as = Assam
 ast = Asturiya
@@ -253,14 +253,14 @@ wall-of-text-start = Dawıs — tábiyiy hám insan. Sonlıqtan biz mashinaları
 wall-of-text-more-mobile = Iri kompaniyalar tárepinen qollanılatuǵın maǵlıwmatlardıń basım bólegi kópshilik adamlar ushın qol jetimli emes. Bul innovaciyalıq rawajlanıwdı páseytedi, dep oylaymız. Sonlıqtan da biz CommonVoice joybarın iske túsirdik, bul joybardıń maqseti — dawıstı anıqlaw xızmetin hámme ushın ashıq qılıw.
 wall-of-text-first = Dawıs — tábiyiy hám insan. Sonlıqtan biz mashinalarımız ushın jaramlı bolǵan dawıslı texnologiya jaratıwǵa umtılıp atırmız. Biraq dawıslı sistemalardı jaratıw ushın baǵdarlamashılarǵa úlken kólemdegi dawıslı maǵlıwmatlar kerek.
 wall-of-text-second = Iri kompaniyalar tárepinen qollanılatuǵın maǵlıwmatlardıń basım bólegi kópshilik adamlar ushın qol jetimli emes. Bul innovaciyalıq rawajlanıwdı páseytedi, dep oylaymız. Sonlıqtan da biz CommonVoice joybarın iske túsirdik, bul joybardıń maqseti — dawıstı anıqlaw xızmetin hámme ushın ashıq qılıw.
-show-wall-of-text = Kóbirek oqıw
-help-us-title = Gáplerdi tekseriwge járdem beriń!
+show-wall-of-text = Толығырақ
+help-us-title = Гәплерди тексериўге жәрдем бериң!
 help-us-explain = Qoyıw túymesin basıń, tıńlań hám bizge aytıń: tómendegi gápke durıs ses berilgen be?
 no-clips-to-validate = Bul tilde esitiw ushın heshqanday jazıw tabılmadı. Dawısıńızdı jazıń, jańasın jaratıwda járdem beriń.
-vote-yes = Awa
-vote-no = Yaq
+vote-yes = Аўа
+vote-no = Яқ
 toggle-play-tooltip = Qoyıw rejimin ózgertiw ushın { shortcut-play-toggle } túymesine basıń
-speak-subtitle = Dawısıńızdı jazıp qaldırıń
+speak-subtitle = Даўысыңызды жазып қалдырың
 speak-paragraph = Ses berilgen gáplerdi jazıp alıw — bul biziń ashıq maǵlıwmatlar toplamınıń ajıralmas bólegi; Geybirewler bunı qızıq bólegi dep te aytıwı múmkin.
 speak-goal-text = Jazıp alınǵan klipler
 listen-subtitle = Dawıslardı tekseriwde bizge járdem beriń
@@ -273,22 +273,22 @@ todays-progress = Búgingi nátiyje
 help-reach-goal = { $goal } ge jetiwge bizge járdem beriń
 read-terms-q = Siz qollanıw shártleri menen tanıstıńız ba?
 ready-to-record = Dawısıńız benen úles qosıwǵa tayınsız ba?
-all-locales = Hámmesi
-today = Búgin
+all-locales = Ҳәммеси
+today = Бүгин
 x-weeks-short =
     { $count ->
-        [one] Hápte
-       *[other] { $count }hápte
+        [one] Ҳәпте
+       *[other] { $count }ҳәпте
     }
 x-months-short =
     { $count ->
-        [one] ay
-       *[other] { $count }ay
+        [one] ай
+       *[other] { $count }ай
     }
 x-years-short =
     { $count ->
-        [one] jıl
-       *[other] { $count }jıl
+        [one] жыл
+       *[other] { $count }жыл
     }
 help-make-dataset = Bizge joqarı sapalı ashıq maǵlıwmatlar toplamın jaratıwǵa járdem beriń
 sign-up-account = Akkaunttı dizimnen ótkeriw
@@ -297,7 +297,7 @@ email-subscription-title-new = Jańalıqlar taratpalarına jazılıń, maqsetler
 
 ## Account Benefits
 
-benefits = Abzallıqları
+benefits = Абзаллықлары
 keep-track = Birneshe tillerdegi rawajlanıwıńızdı jáne kórsetkishlerińizdi baqlap barıń.
 compare-progress = Siziń rawajlanıwıńız dúnya júzi boyınsha basqa qatnasıwshılar menen qalay salıstırılatuǵının kóriń.
 view-goals = Jeke hám joba maqsetlerine jetisiwdegi rawajlanıwıńızdı kóriń.
@@ -322,7 +322,7 @@ shortcut-skip = s
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Baslaw/Toqtatıw
+shortcut-play-toggle-label = Баслаў/Тоқтатыў
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = y
@@ -340,7 +340,7 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Kliptı qayta jazıw
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Ámeldegi jazıwdı biykarlaw
-shortcut-submit = Qaytıw
+shortcut-submit = Қайтыў
 shortcut-submit-label = Kliplerdi jiberiw
 request-language-text = Common Voice joybarında ana tilińizdi kórmey atırsız ba?
 request-language-button = Til qosıwǵa soraw jiberiw
@@ -372,7 +372,7 @@ profile-form-variant =
     .label = { $language } tilinıń qaysı dialektinde sóyleysiz?
 profile-form-variant-default-value = Variant tańlanbaǵan
 profile-form-accent =
-    .label = Akcent
+    .label = Акцент
 profile-form-custom-accent-help-text =
     .label = Akcentińizdi qalay táriyipleysiz?
 profile-form-custom-accent-placeholder-2 = Akcentińizdi táriyiplew ushın jazıwdı baslań
@@ -389,8 +389,6 @@ native-language =
 profile-form-add-accent = Jańa basqa akcent qosıw "{ $inputValue }"
 profile-form-submit-save = Saqlaw
 profile-form-submit-saved = Saqlandı
-male = Erkek
-female = Hayal
 # Gender
 other = Basqa
 why-profile-title = Profil nege kerek?
@@ -532,7 +530,6 @@ about-playbook-how-localize-content-5 = Járdem ushın túsindiriwshi videomızd
 about-playbook-how-add-sentences = Gáplerdi qalay qossam boladı?
 about-playbook-how-add-sentences-content-1 = <strong>Gápler jıynawshısı</strong> — xalıq dóretpelerindegi gáplerdi jıynaw hám tekseriw ushın qural. Qatnasıw ushın <scAccountLink>akkaunt jaratıń</scAccountLink>, soń <strong>profilde</strong> tilińizdi qosıń.  Siz gáplerdi <strong>qosıwıńız</strong> yamasa aldın qosılǵan gáplerdi <strong>tekseriwińiz</strong> múmkin.
 about-playbook-how-add-sentences-content-2 = Gápler Common Voiceqa qosılıwı ushın olar eki qatnasıwshı tárepinen tekseriliwi hám qabıllanıwı kerek. <languageGuidelinesLink>Usı jerde</languageGuidelinesLink> tilińiz ushın qollanbalar toplamın jaratıwıńız múmkin. Gápler 15 sózden kem hám <licenseLink>xalıq dóretpelerinen</licenseLink> bolıwı kerek. Biziń <waiverLink>avtorlıq huqıqların biykarlaw boyınsha mexanizmimizden</waiverLink> qollanıp, avtordan tekstin CC0 licenziyası tiykarına beriwin sorawıńız múmkin hám biziń pochtamızǵa jiberiń commonvoice@mozilla.com
-about-playbook-how-add-sentences-content-4 = Tekserilgen gápler sárshembi kúni qosıladı hám keyingi jańalanıwda payda boladı.
 
 ## How to record quality
 
@@ -573,6 +570,9 @@ about-playbook-how-project-governance-content-4 = Birlespeniń qatnası hám qar
 about-playbook-how-project-governance-content-5 = Bahalılıq hám tanılıw.
 about-playbook-how-project-governance-content-6 = Óz ara juwapkershilik.
 about-playbook-how-project-governance-content-7 = <governanceLink>Bizde basqarıw qalay shólkemlestirilgeni tuwralı kóbirek oqıń</governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -1246,16 +1246,15 @@ reviewing-sentences-explanation-1 = Eger gáp joqarıdaǵı talaplarǵa juwap be
 reviewing-sentences-explanation-2 = Eger gáp joqarıdaǵı talaplarǵa juwap bermese, "Yaq" túymesin basıń.
 reviewing-sentences-explanation-3 = Eger siziń gápke isenimińiz kámil bolmasa, ótkerip jiberip, keyingisine ótiwińiz múmkin.
 reviewing-sentences-explanation-4 = Eger tekseriw ushın gápler qalmasa, ótinish, bizge kóbirek gáp jıynawǵa járdemlesiń!
-# WRITE PAGE
-write-instruction-second-part = xalıq dóretpelerinen gáp
+
+## WRITE PAGE
+
 write-page-subtitle = Bul jerde usınılǵan gápler ashıq maǵlıwmatlar toplamına cc-0 licenziyası tiykarında qosıladı.
 sentence =
     .label = Gáp
 sentence-input-value = Usı jerge xalıq dóretpelerinen bolǵan gápińizdi kirgiziń
-citation-input-value = Gápińizdiń deregi
 citation =
     .label = Citata
-what-can-i-add = Qanday gáp túrlerin qosa alaman?
 new-sentence-rule-1 = <noCopyright>Avtorlıq huqıqına heshqanday sheklew joq</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = 15 sózden az
 new-sentence-rule-3 = Durıs grammatikanı qollanıń
@@ -1270,9 +1269,12 @@ contact-us = Biz benen baylanısıw
 add-sentence-success = 1 gáp jıynaldı
 add-sentence-error = Gápti qosıwda qátelik
 required-field = Ótinish, bul maydandı toltırıń.
-# REVIEW PAGE
-sc-review-instruction-first-part = Tekseriw
-sc-review-instruction-second-part = Bul lingvistikalıq jaqtan durıs gáp pe?
+
+## LANGUAGE VARIANT CODES
+
+
+## REVIEW PAGE
+
 sc-review-rules-title = Gáp qollanbalardıń talaplarına juwap bere me?
 sc-review-empty-state = Házir tekseriw ushın bul tilde gápler joq.
 report-sc-different-language = Basqa til
@@ -1283,3 +1285,9 @@ review-error = Bul gápti tekseriwde qátelik júz berdi
 sc-redirect-page-title = Biz birqansha úlken ózgeris qılıp atırmız
 sc-redirect-page-subtitle-1 = Gápler jıynawshısı Common Voice tiykarǵı playformasına ótpekte. Endi siz Common Voiceta bir gápti kóriwińiz yamasa jazıwıńız múmkin.
 sc-redirect-page-subtitle-2 = Sorawlarıńızdı <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> yamasa <emailLink>elektron pochta</emailLink> arqalı beriń.
+
+## BULK SUBMISSION 
+
+
+## Donate banner
+
