@@ -13,11 +13,6 @@
 
 ## Layout
 
-partner = Sherik
-profile = Профиль
-help = Жәрдем
-contact = Байланыс
-privacy = Qupıyalıq
 terms = Shártler
 cookies = Kukilar
 faq = KBS
