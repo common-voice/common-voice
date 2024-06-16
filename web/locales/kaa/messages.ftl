@@ -1,24 +1,5 @@
 ## General
 
-yes-receive-emails = Awa, maǵan xatlardı jiberiń. Men CommonVoice jobası haqqında xabardar bolıwdı qáleymen.
-stayintouch = Biz Mozillada dawıs texnologiyası sheńberinde birlespe dúzip atırmız. Biz barlıq jańalıqlar, jańa maǵlıwmatlar toplamlarnıń derekleri hám  kóbirek bunday maǵlıwmatlardı qalay qollanıwıńız haqqında xabardar bolıwdı qáler edik.
-privacy-info = Siziń maǵlıwmatlarıńızǵa puqtalıq penen qarawǵa wáde beremiz. Bul haqqında qosımsha <privacyLink>Qupıyalıq siyasatı</privacyLink> maǵlıwmatların oqıp shıǵıń.
-return-to-cv = Common Voiceǵa qaytıw
-email-input =
-    .label = Электрон почта
-submit-form-action = Жибериў
-loading = Жүкленбекте...
-email-opt-in-info = Maqsetlerim haqqında esletpe, ozimniń jetiskenliklerim hám Common Voice haqqındaǵı xatlardı alıwdı qáleymen.
-email-opt-in-info-title = CommonVoice tarqatpalarına jazılıw
-email-opt-in-info-sub-with-challenge = Diydiler, maqsetler haqqında esletpe, jetiskenlikler haqqında xabarlamalar hám CommonVoice haqqında jańalıqlar sıyaqlı xatlardı alıw.
-email-opt-in-privacy-v2 = Siz elektron xatlardı alıwǵa razılıq berip, bul maǵlıwmatlarıńız Mozilla tárepinen onıń <privacyLink>Qupıyalıq siyasatı</privacyLink> qaǵıydalarında kórsetilgen tártipte paydalanıwına ruqsat bergen esaplanasız.
-indicates-required = * Toltırıw májburıy bolǵan maydanlar
-not-available-abbreviation = Жоқ
-banner-error-slow-1 = Keshirersiz, CommonVoice áste islep atır. Qızıǵıwshılıǵıńız ushın raxmet.
-banner-error-slow-link = Жағдай бети
-error-something-went-wrong = Keshirersiz, qátelik júz berdi
-error-clip-upload = Bul klipti júklew sátsiz juwmaqlandı. Qayta urınıp kóresiz be?
-error-clip-upload-server = Bul klipti serverge júklew sátsiz juwmaqlandı. Betti qayta júkleń yamasa keyinirek qayta urınıp kóriń.
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -26,44 +7,6 @@ error-clip-upload-server = Bul klipti serverge júklew sátsiz juwmaqlandı. Bet
 
 ## Languages
 
-ab = Абхаз
-ace = Ачене
-ady = Adıgey
-af = Африкаанс
-am = Amhar
-an = Aragon
-ar = Араб
-arn = Mapuche
-as = Assam
-ast = Asturiya
-az = Azerbayjan
-ba = Bashqurt
-bas = Basaa
-be = Belorus
-bg = Bolgar
-bm = Bambara
-bn = Bengal
-bo = Tibet
-br = Breton
-bs = Bosniya
-bxr = Buryat
-byv = Medumba
-ca = Katalan
-cak = Kaqchikel
-ckb = Oraylıq Kurd
-cnh = Xaka Chin
-co = Korsikan
-cs = Chex
-cv = Chuwash
-cy = Uels
-da = Dat
-dag = Dagbani
-de = Nemis
-dsb = Tómengi sorb
-dv = Maldiv
-dyu = Dyula
-el = Grek
-en = Anglichan
 eo = Esperanto
 es = Ispan
 et = Eston
