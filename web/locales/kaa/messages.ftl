@@ -205,14 +205,6 @@
 
 ## REVIEW
 
-# Variables:
-#   $sentences (Number) - Number of sentences the user has reviewed in this session
-sc-review-form-reviewed-message =
-    { $sentences ->
-        [0] Tekserilgen gápler joq
-        [one] 1 gáp tekserildi. Raxmet sizge!
-       *[other] { $sentences } gáp tekserildi. Raxmet sizge!
-    }
 
 ## SETTINGS
 
