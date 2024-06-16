@@ -1,5 +1,11 @@
 ## General
 
+return-to-cv = Common Voice ға қайтыў
+email-input =
+    .label = Эл.почта
+submit-form-action = Жибериў
+loading = Жүкленбекте...
+not-available-abbreviation = Жоқ
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -7,12 +13,16 @@
 
 ## Languages
 
+tk = Түркмен
+tt = Татар
+udm = Удмурт
 
 # [/]
 
 
 ## Layout
 
+about = Биз туўралы
 
 ## Home Page
 
@@ -37,6 +47,8 @@
 
 ## ProfileForm
 
+profile-form-submit-save = Сақлаў
+profile-form-submit-saved = Сақланды
 
 ## Profile - Email
 
@@ -49,9 +61,11 @@
 
 ## ABOUT US
 
+about-title = Неге ушын Common Voice?
 
 ## How does it work section
 
+about-localization-title = Веб-сайтты локализациялаў
 
 ## Community Playbook Content
 ## What is a language
@@ -125,6 +139,7 @@
 
 ## Dashboard
 
+your-languages = Сизиң тиллериңиз
 
 ## Custom Goals
 
@@ -163,6 +178,7 @@
 
 ## HEADER/FOOTER
 
+sc-header-statistics = Статистика
 
 ## HOME
 
@@ -181,6 +197,7 @@
 
 ## STATS
 
+sc-stats-title = Статистика
 
 ## ADD
 
@@ -199,6 +216,7 @@
 
 ## PROFILE
 
+sc-personal-your-languages = Сизиң тиллериңиз:
 
 ## REVIEW CRITERIA
 
