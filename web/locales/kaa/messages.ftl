@@ -16,16 +16,50 @@ not-available-abbreviation = Жоқ
 tk = Түркмен
 tt = Татар
 udm = Удмурт
+uk = Украин
+ur = Урду
+uz = Өзбек
 
 # [/]
 
 
 ## Layout
 
+languages = Тиллер
 about = Биз туўралы
+profile = Профил
+help = Жәрдем
+contact = Байланыс
+privacy = Қупиялық
+terms = Шәртлер
+cookies = Куки
+faq = КБС
+link-copied = Силтеме көширип алынды
+back-top = Жоқарыға
+logout = Шығыў
 
 ## Home Page
 
+hours-recorded = Жазылған саат
+hours-validated = Тексерилген саат
+todays-progress = Бүгинги прогресс
+all-locales = Ҳәммеси
+today = Бүгин
+x-weeks-short =
+    { $count ->
+        [one] Ҳәпте
+       *[other] { $count }ҳп
+    }
+x-months-short =
+    { $count ->
+        [one] { $count }ай
+       *[other] ай
+    }
+x-years-short =
+    { $count ->
+        [one] { $count }ж
+       *[other] { $count }ж
+    }
 
 ## Account Benefits
 
@@ -47,17 +81,40 @@ about = Биз туўралы
 
 ## ProfileForm
 
+profile-form-age =
+    .label = Жас
 profile-form-submit-save = Сақлаў
 profile-form-submit-saved = Сақланды
+# Gender
+other = Басқа
+avatar = Аватар
+goals = Мақсетлер
+settings = Сазлаўлар
+edit-profile = Профилди өзгертиў
+profile-create-success = Профил табыслы жаратылды!
+profile-close = Жабыў
+accept-privacy-title = Қупиялық сиясаты
+login = Кириў
+login-signup = Кириў / Дизимнен өтиў
+edit = Өзгертиў
+off = Өширилген
+on = Қосылған
+help-accent = Акцент пенен жәрдем керек пе?
 
 ## Profile - Email
 
+remove-avatar = Аватарды өшириў
 
 ## Profile - Email
 
+add-language = Тил қосыў
 
 ## FAQ
 
+faq-title = Көп берилетуғын сораўлар
+faq-what-cv-q = Common Voice — бул не?
+faq-why-important-q = Неге бул әҳмийетли?
+faq-what-is-cv = Common Voice — бул не?
 
 ## ABOUT US
 
@@ -66,6 +123,7 @@ about-title = Неге ушын Common Voice?
 ## How does it work section
 
 about-localization-title = Веб-сайтты локализациялаў
+about-stay-in-touch-button = Дизимнен өтиў
 
 ## Community Playbook Content
 ## What is a language
@@ -106,6 +164,15 @@ about-localization-title = Веб-сайтты локализациялаў
 
 ## Data
 
+data-download-yes = Аўа
+data-download-deny = Яқ
+data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
+release-version = Версия
+dataset-date = Сәне
+license-mixed = Аралас
+terms-agree = Разыман
+terms-disagree = Разы емеспен
+review-submit-title = Тексериў ҳәм жибериў
 
 ## Datasets Page
 
