@@ -86,7 +86,6 @@
 
 ## Glossary
 
-sentence-collection = Gápler toplamı
 
 ## Error pages
 
@@ -156,19 +155,6 @@ sentence-collection = Gápler toplamı
 
 ## Validation criteria
 
-contribution-criteria-page-title = Qollap-quwatlaw talapları
-contribution-for-example = Mısalı
-contribution-misreadings-title = Nadurıs oqıw
-contribution-misreadings-description-extended-list-2 = Sózdiń aqırında <strong>"lar/ler"</strong> túsip qalǵan.
-contribution-misreadings-description-extended-list-5 = Sózdi oqıw ushın birneshe urınıw
-contribution-misreadings-example-2-explanation = [‘dinozavrlar’ bolıwı kerek]
-contribution-background-noise-title = Sırtqı shawqım
-contribution-background-voices-title = Sırtqı dawıslar
-contribution-volume-title = Dawıs bálentligi
-contribution-reader-effects-title = Oqıw effektleri
-contribution-just-unsure-title = Isenimińiz kámil emes pe?
-see-more = <chevron></chevron>Kóbirek kóriw
-see-less = <chevron></chevron>Azıraq kóriw
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -177,192 +163,45 @@ see-less = <chevron></chevron>Azıraq kóriw
 
 ## HEADER/FOOTER
 
-sc-header-home = Bas bet
-sc-header-how-to = Qollanba
-sc-header-add = Qosıw
-sc-header-review = Tekseriw
-sc-header-rejected = Biykarlanǵan gápler
-sc-header-my = Meniń gáplerim
-sc-header-statistics = Statistika
-sc-header-profile = Profil
-sc-footer-discourse = Discourse
-sc-footer-report-bugs = Qáteler haqqında xabar beriw
-sc-footer-report-copyright = Avtorlıq huqıqın buzıw haqqında xabar beriw
-sc-footer-privacy = Qupıyalıq
-sc-footer-terms = Shártler
-sc-footer-cookies = Kukilar
-sc-login-signup-button = Kiriw / Dizimnen ótiw
-sc-logout-button = Shıǵıw
 
 ## HOME
 
-sc-home-title = Common Voice gápler jıynawshısına xosh keldińiz
-sc-home-collect-title = Gáplerdi qosıw
-sc-home-review-title = Gáplerdi tekseriw
-sc-home-review-text = Talaplarımızǵa juwap beretuǵın gáplerdi tańlap alıwda bizge járdem beriń.
 
 ## GENERAL
 
-sc-languages-fetch-error = Bar tillerdi alıw ámelge aspadı. Házirgi waqıtta qatnasıwdıń imkáni joq. Ótinish, keyinirek urınıp kóriń.
 
 ## HOW-TO
 
-sc-howto-addlang-text = Kirgennen soń profil bóliminen tillerdi tańlawıńız múmkin.
-sc-howto-addsen-title = Jańa gáplerdi qosıw
-sc-howto-addsen-item-6 = Tiller óziniń qosımsha talapları menen <validationRulesLink>tekseriw qaǵıydalarına</validationRulesLink> iye bolıwı múmkin. Eger tildiń arnawlı tekseriw faylı bolmasa, biz anglichan tilinıń ulıwmalıq qaǵıydaların qollanamız.
-sc-howto-cite-title = Qalay citata keltiremen?
-sc-howto-cite-item-1 = Siz veb-sayttı kirgiziwińiz múmkin, mıs: "Common Voice" — https://commonvoice.mozilla.org/
-sc-howto-review-title = Gáplerdi tekseriw
-sc-howto-review-subtitle = Gáp tómendegi talaplarǵa juwap beretuǵınlıǵına isenim kámil etiń:
-sc-howto-review-criteria-1 = Gáp durıs jazılıwı kerek.
-sc-howto-review-criteria-2 = Gáp grammatikalıq jaqtan durıs bolıwı kerek.
-sc-howto-review-criteria-4 = Eger gáp talaplarǵa juwap berse, "Qabıllaw" túymesin basıń.
-sc-howto-review-criteria-5 = Eger de gáp joqarıda kórsetilgen talaplarǵa juwap bermese, "Biykarlaw" túymesin basıń. Eger siziń gápke isenimińiz kámil bolmasa, ótkerip jiberip, keyingisine ótiwińiz múmkin.
-sc-howto-review-criteria-6 = Eger tekseriw ushın gápler qalmasa, ótinish, bizge kóbirek gáp jıynawǵa járdemlesiń!
-sc-howto-findpd-tips = Gáplerdi tabıw boyınsha birneshe másláhátler:
-sc-howto-findpd-tips-3 = Tilekke qarsı, biz Wikimedia maqalaların qollana almaymız. Sonlıqtan da, ol jaqtan tekstlerdi kóshirip alıp qoymań.
 
 ## MY SENTENCES
 
-sc-my-title = Meniń gáplerim
-sc-my-loading = Gáplerińiz júklenbekte...
-sc-my-err-fetching = Gáplerińizdi alıw waqtındaǵı qátelik. Ótinish, qayta urınıp kóriń.
-sc-my-no-sentences = Gápler tabılmadı!
-# Variables:
-#   $source (String) - Associated source the user filled out when uploading the sentence
-sc-my-source = Derek: { $source }
-sc-my-delete = Tańlanǵan gáplerdi óshiriw
-sc-my-deleting = Tańlanǵan gápler óshirilmekte…
-sc-my-err-failed-delete = Tańlanǵan gáplerdi óshiriw ámelge aspadı… Ótinish, qayta urınıp kóriń!
 
 ## REJECTED
 
-sc-rejected-title = Biykarlanǵan gápler
-sc-rejected-loading = Biykarlanǵan gápler júklenbekte…
-sc-rejected-err-fetching = Biykarlanǵan gáplerdi alıw waqtındaǵı qátelik. Ótinish, qayta urınıp kóriń.
-sc-rejected-none-found = Biykarlanǵan gápler tabılmadı!
 
 ## STATS
 
-sc-stats-title = Statistika
-sc-stats-updating = Jańalanbaqta…
-sc-stats-error = Biz statistikanı ala almadıq. Ótinish, keyinirek urınıp kóriń.
 
 ## ADD
 
-sc-submit-err-select-lang = Ótinish, tildi tańlań.
-sc-submit-err-add-sentences = Ótinish, gáplerdi qosıń.
-sc-submit-err-add-source = Ótinish, derekti qosıń.
-sc-submit-err-confirm-pd = Ótinish, bul gápler xalıq dóretpelerinen ekenin tastıyıqlań.
-sc-submit-prompt =
-    .message = Gápler jiberilmedi, shıǵıwǵa isenimińiz kámil me?
-sc-submit-title = Gápler qosıw
-sc-submit-select-language =
-    .labelText = Tildi tańlań
-sc-submit-add-sentences = <wikipediaLink>Xalıq dóretpelerine</wikipediaLink> tiyisli gáplerdi qosıń
-sc-submit-ph-one-per-line =
-    .placeholder = Bir qatarģa bir gàp
-sc-submit-confirm = Bul gápler <wikipediaLink>xalıq dóretpelerinen</wikipediaLink> ekenin tastıyıqlayman hám olardı júklew huqıqım bar.
-sc-submit-button =
-    .submitText = Jiberiw
-sc-submit-guidelines = Ótinish, <howToLink>qollanbalar</howToLink> menen tanısıp shıǵıń.
 
 ## ADD LANGUAGE
 
-sc-add-lang-could-not-add = Tildi qosıw ámelge aspadı
-sc-add-lang-sec-label = Úles qosıwdı qáleytuǵın tilińizdi qosıń
-sc-add-lang-sec-button = Til qosıw
-sc-add-err-unexpected = Serverden kútilmegen juwap alındı
-# Variables:
-#   $sentences (Number) - Number of sentences which failed to be saved to the database - could be several different reasons
-sc-add-err-failed =
-    { $sentences ->
-        [0] Qátelik bar gáp joq
-        [one] 1 gápte qátelik
-       *[other] { $sentences } gápte qátelik
-    }
-sc-add-err-submission = Jiberiw qáteligi
-sc-add-lang-process-notice = Eger sizıń tilińiz bul jerde joq bolsa, onı bul <languageProcessLink>qural</languageProcessLink> járdeminde sorawıńız múmkin.
 
 ## ADD SENTENCES CONFIRMATION
 
-sc-confirm-are-you-sure =
-    .message = Gápler jiberilmedi, shıǵıwǵa isenimińiz kámil me?
-sc-confirm-sentences-title = Jańa gáplerdi tastıyıqlaw
-# Variables:
-#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
-sc-confirm-sentences-found =
-    { $countOfSentences ->
-        [0] Heshqanday gáp tabılmadı.
-        [one] 1 gáp tawıldı.
-       *[other] { $countOfSentences } gáp tawıldı.
-    }
-# Variables:
-#   $countOfInvalidated (Number) - Number of sentences the user rejected in the review form before submission
-sc-confirm-rejected-by-you = Siz biykarladıńız — { $countOfInvalidated }
-sc-confirm-already-reviewed =
-    { $countOfReviewed ->
-        [0] Tekserilgen gápler joq.
-        [one] 1 gáp tekserildi. Ájayıp is!
-       *[other] { $countOfReviewed } gáp tekserildi. Ájayıp is!
-    }
-# Variables:
-#   $readyCount (Number) - Number of sentences ready to be uploaded
-sc-confirm-ready =
-    { $readyCount ->
-        [0] Jiberiwge tayar gáp joq!
-        [one] 1 gáp jiberiwge tayar!
-       *[other] { $readyCount } gáp jiberiwge tayar!
-    }
-# Variables:
-#   $countOfUnreviewed (Number) - Number of sentences unreviewed before the upload
-sc-confirm-unreviewed = { $countOfUnreviewed } gáp tekserilmedi. Eger qáleseńiz, gáplerińizdi júklewden aldın tekseriwińiz múmkin.
-sc-confirm-button-text = Tastıyıqlaw
-sc-confirm-uploading = Gápler júklenbekte. Qosılǵan gápler sanına qarap bir neshe minut dawam etiwi múmkin. Ótinish, bul veb-sayttı jawmań.
 
 ## LANGUAGE INFO
 
-sc-lang-info-title-total = Jámi
-sc-lang-info-review-now = <reviewLink>Házir kórip shıģıń!<reviewLink>
-sc-lang-info-add-more = <addLink>Kóbirek jańa gáplerdi qosıń!<addLink>
-# Variables:
-#   $rejectedSentences (Number) - Number of sentences which have been rejected for this language
-sc-lang-info-rejected =
-    { $rejectedSentences ->
-        [0] Biykarlanǵan gápler joq.
-        [one] 1 biykarlanǵan gáp.
-       *[other] { $rejectedSentences } biykarlanǵan gáp.
-    }
 
 ## LOGIN
 
-sc-login-err-failed = Kiriw ámelge aspadı
-sc-login-err-try-again = Ótinish, qayta urınıp kóriń.
 
 ## PROFILE
 
-# Variables:
-#   $username (String) - eMail address of the logged in user
-sc-profile-title = Profil: { $username }
-sc-personal-err-lang-not-found = Tildi óshiriw ámelge aspadı: til tabılmadı
-sc-personal-err-remove = Tildi óshiriw ámelge aspadı
-sc-personal-your-languages = Siziń tillerińiz:
-sc-personal-remove-button = óshiriw
-# Variables:
-#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
-sc-personal-added-by-you = Siz qostıńız { $sentences }
-sc-personal-not-added = Siz ele heshqanday til qospadıńız.
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = ⓘ Tekseriw talapları
-sc-criteria-title = Tekseriw talapları
-sc-criteria-make-sure = Gáp tómendegi talaplarǵa juwap beretuǵınlıǵına isenim kámil etiń:
-sc-criteria-item-1 = Gáp durıs jazılıwı kerek.
-sc-criteria-item-2 = Gáp grammatikalıq jaqtan durıs bolıwı kerek.
-sc-criteria-item-4 = Eger gáp talaplarǵa juwap berse, oń táreptegi &quot;Qabıllaw&quot; túymesin basıń.
-sc-criteria-item-5-2 = Eger de gáp joqarıda kórsetilgen talaplarǵa juwap bermese, &quot;Biykarlaw&quot; túymesin basıń. Eger siziń gápke isenimińiz kámil bolmasa, ótkerip jiberip, keyingisine ótiwińiz múmkin.
-sc-criteria-item-6 = Eger tekseriw ushın gápler tawsılsa, ótinish, bizge kóbirek gáp jıynawǵa járdem beriń!
 
 ## REVIEW
 
@@ -433,15 +272,6 @@ already-have-an-account = Álleqashan profilińiz bar ma? <login>Kiriw</login>
 create-profile-button = Profil jaratıw
 # GUIDELINES PAGE
 guidelines-header = Qatnasıw boyınsha qollanbalar
-voice-collection = Dawıslar toplamı
-sentence-collection = Gápler toplamı
-misreadings = Nadurıs oqıw
-offensive-content = Kemsitiwshi mazmun
-background-noise = Sırtqı shawqım
-background-voices = Sırtqı dawıslar
-volume = Dawıs
-reader-effects = Oqıw effektleri
-just-unsure = Isenimińiz kámil emes pe?
 example = Mısal
 varying-pronunciations-example = Jónelis anıq bolmadı.
 misreadings-explanation-1 = Bettegi barlıq sózlerdi durıs oqıw áhmiyetli. Tıńlap atırǵanıńızda jaqsılap itibar beriń, dawıslı jazba anıq jazılǵanınday bolıwı kerek. Eger bir nárse qosılǵan, qısqartılǵan yamasa ótkerip jiberilgen bolsa, biykarlań.
