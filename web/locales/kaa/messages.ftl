@@ -127,7 +127,7 @@ do_not_wish_to_say = Айтыўды қәлемеймен
 # Gender
 other = Басқа
 why-profile-title = Профил неге керек?
-why-profile-text = Өзиңиз туўралы қосымша мағлыўмат бериў арқалы, Common Voice ға жиберип атырған аудио мағлыўматларды даўысты таныў движоклары ушын пайдалырақ етесиз, олар бул мағлыўматларды өзлериниң анықлығын жақсартыў ушын қолланады.
+why-profile-text = Өзиңиз туўралы қосымша мағлыўмат бериў арқалы, Common Voice ға жиберип атырған аудио мағлыўматларды даўысты таныў движоклары ушын пайдалырақ етесиз, олар бул мағлыўматларды өзлериниң анықлығын жақсылаў ушын қолланады.
 dashboard = Басқарыў панели
 build-profile = Профил жаратыў
 avatar = Аватар
@@ -136,14 +136,18 @@ settings = Сазлаўлар
 edit-profile = Профилди өзгертиў
 profile-create-success = Профил табыслы жаратылды!
 profile-close = Жабыў
+profile-explanation = Профил менен өз прогрессиңизди бақлап барың ҳәм бизиң даўыслы мағлыўматларымыздың анықлығын жақсылаўға жәрдем бериң.
+thanks-for-account = Аккаунтыңызды тастыйықлағаныңыз ушын рахмет, келиң енди профилиңизди толтырамыз.
 why-demographic = Неге бул әҳмийетли?
 accept-privacy-title = Қупиялық сиясаты
 login = Кириў
 login-signup = Кириў / Дизимнен өтиў
 edit = Өзгертиў
+download-profile = Мағлыўматларымды жүклеп алыў
 off = Өширилген
 on = Қосылған
 help-accent = Акцент пенен жәрдем керек пе?
+help-variants = Вариантлар менен жәрдем керек пе?
 
 ## Profile - Email
 
@@ -161,8 +165,12 @@ add-language = Тил қосыў
 faq-title = Көп берилетуғын сораўлар
 faq-what-cv-q = Common Voice — бул не?
 faq-why-important-q = Неге бул әҳмийетли?
+faq-what-cv-and-deepspeech-q = Common Voice ҳәм Deep Speech тиң парқы не?
+faq-is-goal-assistant-q = Common Voice тиң мақсети даўыслы жәрдемшини жаратыў ма?
 faq-why-my-lang-q = Неге мениң тилим усы ўақытқа шекем қосылмаған?
 faq-what-is-cv = Common Voice — бул не?
+faq-search-for-answers =
+    .label = Жуўапларды излеў
 
 ## ABOUT US
 
