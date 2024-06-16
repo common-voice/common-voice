@@ -241,6 +241,13 @@ select-language = Тилди таңлаң...
 
 ## Request Language Pages
 
+request-language-form-email =
+    .label = Эл.почтаңыз
+request-language-form-info =
+    .label = Тил ҳаққында мағлыўмат
+request-language-form-info-explanation-list-1 = Тилиңиздиң атамалары
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO кодлары</isoCodeLink> егер мәлим болса
+request-language-form-info-explanation-list-3 = Тилди түсиниўимизге жәрдем бериўши веб-сайтларға силтемелер
 
 ## Languages Overview
 
@@ -318,6 +325,7 @@ card-button-back = Артқа
 
 ## Validation criteria
 
+contribution-for-example = мысалы
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -326,7 +334,19 @@ card-button-back = Артқа
 
 ## HEADER/FOOTER
 
+sc-header-home = Бас бет
+sc-header-add = Қосыў
+sc-header-review = Тексериў
+sc-header-rejected = Бийкарланған гәплер
+sc-header-my = Мениң гәплерим
 sc-header-statistics = Статистика
+sc-header-profile = Профил
+sc-footer-discourse = Discourse
+sc-footer-privacy = Қупиялық
+sc-footer-terms = Шәртлер
+sc-footer-cookies = Куки
+sc-login-signup-button = Кириў / Дизимнен өтиў
+sc-logout-button = Шығыў
 
 ## HOME
 
@@ -339,22 +359,40 @@ sc-header-statistics = Статистика
 
 ## MY SENTENCES
 
+sc-my-title = Мениң гәплерим
+sc-my-loading = Гәплериңиз жүкленбекте...
+sc-my-no-sentences = Гәплер табылмады!
+# Variables:
+#   $source (String) - Associated source the user filled out when uploading the sentence
+sc-my-source = Дерек:  { $source }
+sc-my-delete = Таңланған гәплерди өшириў
+sc-my-deleting = Таңланған гәплер өширилмекте...
 
 ## REJECTED
 
+sc-rejected-title = Бийкарланған гәплер
 
 ## STATS
 
 sc-stats-title = Статистика
+sc-stats-updating = Жаңаланбақта...
 
 ## ADD
 
+sc-submit-err-select-lang = Өтиниш, тилди таңлаң.
+sc-submit-err-add-sentences = Өтиниш, гәплерди қосың.
+sc-submit-err-add-source = Өтиниш, деректи қосың
+sc-submit-select-language =
+    .labelText = Тилди таңлаң
+sc-submit-button =
+    .submitText = Жибериў
 
 ## ADD LANGUAGE
 
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-button-text = Тастыйықлаў
 
 ## LANGUAGE INFO
 
@@ -371,6 +409,8 @@ sc-personal-your-languages = Сизиң тиллериңиз:
 
 ## REVIEW
 
+sc-review-form-button-reject = Бийкарлаў
+sc-review-form-button-skip = Өткерип жибериў
 
 ## SETTINGS
 
