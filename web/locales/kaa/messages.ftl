@@ -80,70 +80,22 @@
 
 ## How are decisions made
 
-about-playbook-how-project-governance-content-2 = Biziń basqarıwımız tómendegi principlarǵa tiykarlanǵan:
-about-playbook-how-project-governance-content-3 = Qupıyalıq, qáwipsizlik hám tınıqlıq.
-about-playbook-how-project-governance-content-4 = Birlespeniń qatnası hám qarar qabıl etiwi.
-about-playbook-how-project-governance-content-5 = Bahalılıq hám tanılıw.
-about-playbook-how-project-governance-content-6 = Óz ara juwapkershilik.
-about-playbook-how-project-governance-content-7 = <governanceLink>Bizde basqarıw qalay shólkemlestirilgeni tuwralı kóbirek oqıń</governanceLink>
 
 ## How is Common Voice funded
 
 
 ## Glossary
 
-glossary = Glossariy
-localization = Lokalizaciya
 sentence-collection = Gápler toplamı
-sst = Awızshadan tekstke (Speech-to-text, STT)
-sst-explanation = Awızshadan tekstke (Speech-to-text, STT) texnologiyası dawıslı maǵlıwmatlardı tekstke aylandıradı.
 
 ## Error pages
 
-error-title-404 = Siz ushın bul betti taba almadıq
-error-content-404 = Biziń <homepageLink>bas betimiz</homepageLink> sizge járdem beriwi múmkin. Ótinish, soraw beriw ushın <matrixLink>Matrix</matrixLink> birlespesi chatına qosılıń, sayttaǵı mashqalalardı <githubLink>GitHub</githubLink> arqalı baqlap barıń yamasa biziń <discourseLink>Discourse</discourseLink> forumlarına kiriń.
-error-code = Qátelik kodı: { $code }
 
 ## Data
 
-data-download-button = Common Voice maǵlıwmatların júklep alıw
-data-download-yes = Awa
-data-download-deny = Yaq
-data-download-license = Licenziya: <licenseLink>CC-0</licenseLink>
-data-get-started = <speechBlogLink>Dawıstı anıqlaw menen jumıs baslaw</speechBlogLink>
-data-other-title = Basqa dawıslı maģlıwmatlar toplamı...
-data-other-download = Maǵlıwmatlardı júklep alıw
-data-bundle-button = Maǵlıwmatlar toplamı paketin júklep alıw
-release-version = Версия
-dataset-date = Сәне
-license = Licenziya: <licenseLink>{ $license }</licenseLink>
-license-mixed = Аралас
-terms-agree = Разыман
-terms-disagree = Наразыман
-review-submit-title = Тексериў ҳәм жибериў
-review-submit-msg = Jazıp qaldırǵanıńız ushın raxmet!<lineBreak></lineBreak> Endi dawıslı jazbalarıńızdı tómende tekseriń hám jiberiń.
-review-recording = Тексериў
-review-rerecord = Қайта жазыў
-review-cancel = Jiberiwdi biykarlaw
-review-keep-recordings = Dawıslı jazıwlarımdı saqlaw
-review-delete-recordings = Dawıslı jazıwlarımdı óshiriw
 
 ## Datasets Page
 
-datasets-heading = Maǵlıwmatlar toplamı
-language = Тил
-download-dataset-header = Мағлыўматлар топламын жүклеп алыў
-# File size in gigabytes
-size = Kólem
-validated-hr-total = Jámi tekserilgen saat
-overall-hr-total = Jámi saat
-cv-license = Лицензия
-audio-format = Audioformat
-number-of-voices = Даўыслар саны
-splits = Ajıratıw
-email-to-download = Júklep alıw ushın elektron pochtańızdı kirgiziń
-size-gigabyte = ГБ
-size-megabyte = МБ
 
 ## Download Modal
 
@@ -159,53 +111,9 @@ size-megabyte = МБ
 
 ## Languages Overview
 
-language-total-progress = Jámi
-language-search-input =
-    .placeholder = Izlew
-localized = Awdarıldı
-sentences = Gápler
-language-validation-hours = Saat
 
 ## Contribution
 
-action-click = Basıw
-action-tap = Basıń
-contribute = Úles qosıw
-listen = Tıńlaw
-write = Jazıw
-review = Tekseriw
-skip = Ótkerip jiberiw
-shortcuts = Operativ buyrıqlar
-contribute-more =
-    { $count ->
-        [one] Jáne { $count } islewge tayarsız ba?
-       *[other] Jáne { $count } islewge tayarsız ba?
-    }
-record-platform-not-supported = Átteń, házirgi waqıtta siziń platformańız qollap-quwatlanbaydı.
-record-must-allow-microphone = Mikrofonǵa ruqsat beriwińiz kerek.
-record-no-mic-found = Mikrofon tabılmadı.
-record-error-too-short = Dawıslı jazba júdá qısqa.
-record-error-too-long = Dawıslı jazba júdá uzın.
-record-error-too-quiet = Dawıslı jazba júdá áste.
-record-cancel = Qayta dawıs jazıwdı biykarlaw
-record-instruction = { $actionType }<recordIcon></recordIcon> keyin gápti dawıslap oqıń
-record-three-more-instruction = Úshewi qaldı!
-record-last-instruction = <recordIcon></recordIcon> Sońǵısı!
-review-tooltip = Kliplerdi usı jerde tekseriń hám qayta jazıń
-share-clip = Dawıslı jazbańız benen bólisiń
-share-common-voice = Common Voiceti bólisiw
-clips-uploaded = Dawıslı jazbalar júklendi
-record-abort-title = Dáslep dawıs jazıw tamamlansın ba?
-record-abort-submit = Kliplerdi jiberiw
-record-abort-continue = Dawıs jazıwdı tamamlaw
-record-abort-delete = Shıǵıw hám kliplerdi óshiriw
-listen-again-instruction = Ájayip is! <playIcon></playIcon> Tayar bolǵanıńızda qayta tıńlań
-listen-3rd-time-instruction = 2 tayar, dawam etiń!<playIcon></playIcon>
-listen-last-time-instruction = <playIcon></playIcon>Sońǵısı!
-listen-loading-error =
-    Tıńlawıńız ushın heshqanday audio úzindi taba almadıq.
-    Ótinish, keyinirek qayta urınıp kóriń.
-speak-empty-state = Dawıs jazıw ushın bul tilde gápler tawsıldı...
 speak-empty-state-cta = Gáplerdi usınıw
 record-button-label = Dawısıńızdı jazıń
 share-title-new = Bizge kóbirek dawıs jıynawǵa <bold>járdem beriń</bold>
