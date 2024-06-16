@@ -7,72 +7,12 @@
 
 ## Languages
 
-sat = Santali (Ol Chiki)
-sc = Sardiniya
-scn = Sitsilia
-sdh = Qubla Kurd
-shi = Shilha
-si = Sinhala
-sk = Slovak
-skr = Saraiki
-sl = Sloven
-snk = Soninke
-so = Somali
-sq = Alban
-sr = Serb
-ss = Siswati
-st = Qubla Sotho
-sv-SE = Shved
-sw = Suahili
-syr = Suriy
-ta = Tamil
-te = Telugu
-tg = Tájik
-th = Tay
-ti = Tigrinya
-tig = Tigre
-tk = Túrkmen
-tl = Tagal
-tn = Tsvana
-tok = Toki Pona
-tr = Túrk
-ts = Tsonga
-tt = Tatar
-tw = Tvi
-ty = Tayiti
-tyv = Tuva
-uby = Ubux
-udm = Udmurt
-ug = Uyǵur
-uk = Ukrain
-ur = Urdu
-uz = Ózbek
-ve = Venda
-vec = Venetsiya
-vi = Vetnam
-vot = Vot
-wo = Volof
-xh = Kosa
-yi = Idish
-yo = Yoruba
-yue = Kanton
-zgh = Tamazight
-zh-CN = Qıtay (Qıtay)
-zh-HK = Qıtay (Gonkong)
-zh-TW = Qıtay (Tayvan)
-zu = Zulu
-zza = Zazaki
 
 # [/]
 
 
 ## Layout
 
-speak = Сөйлеў
-speak-now = Ҳәзир сөйлеў
-datasets = Мағлыўматлар топламы
-languages = Тиллер
-about = Biz tuwralı
 partner = Sherik
 profile = Профиль
 help = Жәрдем
@@ -81,10 +21,6 @@ privacy = Qupıyalıq
 terms = Shártler
 cookies = Kukilar
 faq = KBS
-content-license-text = Kontent <licenseLink>Creative Commons licenziyası</licenseLink> astında
-share-title = Basqa da óz dawısın jazıp qaldırıwdı qálewshilerdi tawıp bizge járdem beriń!
-share-text = Mashinalarǵa haqıyqıy insan qalay sóyleytuǵının úyretiwge járdem beriń, dawısıńızdı { $link } siltemesine ótip, jazıp qaldırıń
-link-copied = Silteme kóshirip alındı
 back-top = Joqarıǵa qaytıw
 logout = Shıǵıw
 
