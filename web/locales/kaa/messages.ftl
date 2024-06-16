@@ -34,45 +34,9 @@
 
 ## ProjectStatus
 
-status-contribute = Dawısıńızdı jazıp qaldırıń
-status-hours =
-    { $hours ->
-        [one] Házirshe bir saat tekserildi!
-       *[other] Házirshe { $hours } saat tekserildi!
-    }
-# Variables:
-# $goal - number of hours representing the next goal
-status-goal = Keyingi maqset: { $goal }
-english = Anglichan
 
 ## ProfileForm
 
-profile-form-username =
-    .label = Paydalanıwshı atı
-profile-form-native-language =
-    .label = Ana tili
-profile-form-additional-language =
-    .label = Qosımsha til
-profile-form-language =
-    .label = Til
-profile-form-variant =
-    .label = { $language } tilinıń qaysı dialektinde sóyleysiz?
-profile-form-variant-default-value = Variant tańlanbaǵan
-profile-form-accent =
-    .label = Акцент
-profile-form-custom-accent-help-text =
-    .label = Akcentińizdi qalay táriyipleysiz?
-profile-form-custom-accent-placeholder-2 = Akcentińizdi táriyiplew ushın jazıwdı baslań
-profile-form-age =
-    .label = Жас
-profile-form-gender-2 =
-    .label = Jınıs
-leaderboard-visibility =
-    .label = Meniń jetekshiler qatarında kórinisim
-hidden = Жасырын
-visible = Ashıq
-native-language =
-    .label = Ana tili
 profile-form-add-accent = Jańa basqa akcent qosıw "{ $inputValue }"
 profile-form-submit-save = Сақлаў
 profile-form-submit-saved = Сақланды
@@ -116,49 +80,15 @@ remove-avatar = Avatardı óshiriw
 ## Profile - Email
 
 manage-subscriptions = Jazılıwlardı basqarıw
-manage-email-subscriptions = Elektron pochta arqalı jazılıwlardı basqarıw
-email-already-used = Elektron pochta álleqashan basqa akkauntta qollanılmaqta
-add-language = Til qosıw
-change-email-setings = Elektron pochtańızdı sazlawlar arqalı «Kiriw ushın identifikator» bóliminde ózgertiń
 
 ## FAQ
 
-faq-title = Kóp beriletuǵın sorawlar
-faq-what-cv-q = Common Voice ne?
-faq-why-important-q = Bul ne ushın zárúr?
-faq-how-get-q = Men Common Voicetıń maǵlıwmatların toplamın qalay alıwım múmkin?
-faq-when-release2-q = Common Voicetıń Basqa tiller ushın maǵlıwmatlar toplamın qashan shıǵarasız?
-faq-why-mission-q = CommonVoice nege Mozillanıń wazıypası bolıp esaplanadı?
-faq-what-cv-and-deepspeech-q = Common Voice hám Deep Speech arasında qanday parıq bar?
-faq-is-goal-assistant-q = Common Voicetıń maqseti dawıslı járdemshini jaratıw ma?
-faq-how-calc-hours-q = Common Voice saatlardı qalay esaplaydı?
-faq-what-is-cv = Common Voice — bul ne?
-faq-using-cv = Common Voicetan qollanıw
-faq-search-for-answers =
-    .label = Juwaplardı izlew
 
 ## ABOUT US
 
-about-title = Неге Common Voice?
-how-does-it-work-title-v2 = Common Voice қалай ислейди?
 
 ## How does it work section
 
-about-language-req-subtitle = Биреў тилди қосыўды сорайды.
-about-localization-title = Веб-сайтты локализациялаў
-about-localization-subtitle = Веб-сайттың тексти сол тилге аўдарылады.
-about-sentence-collection-title = Гәплер топламы
-about-sentence-collection-subtitle = Адамлар даўыслап оқыўы ушын гәплер жыйналады.
-about-new-lang-title = Жаңа тилдиң иске түсиўи
-about-new-lang-subtitle = Биз усы тилде Common Voice сайтын иске түсиремиз.
-about-voice-contrib-title = Даўыс пенен үлес қосыў
-about-voice-contrib-subtitle = Адамлар келип өз даўысын жазып қалдырып үлес қосады.
-about-voice-validation-title = Даўысты тексериў
-about-voice-validation-subtitle = Басқа адамлар сол даўыслы клиплерди тексереди.
-about-dataset-release-title = Мағлыўматлар топламының шығыўы
-about-dataset-release-subtitle = Биз ҳәр 3 айдан мағлыўматлар топламын жәриялаймыз.
-about-subscribe-text = Common Voice пенен байланыста болыўды қәлейсиз бе?
-about-speak = Сөйлең
 about-listen = Тыңлаң
 about-is-it-valid = Dawıslı úzindi jaramlı ma?
 about-is-it-valid-text = Paydalanıwshı "Awa" dawısın bergende, dawıslı úzindi "jaramlı" dep belgilenedi.
@@ -907,69 +837,15 @@ public-domain = Xalıq dóretpeleri
 citing-sentences = Gáplerge citata keltiriw
 adding-sentences = Gáplerdi qosıw
 reviewing-sentences = Gáplerdi tekseriw
-public-domain-explanation-1 = Common Voice maǵlıwmatlar toplamı cc0 licenziyası tiykarında shıǵarılǵanı sebepli barlıq tekstli gápler <publicDomain>xalıq dóretpesi</publicDomain> (<cc0>cc0</cc0>) bolıwı júdá áhmiyetli. Gápti tek ǵana isenimińiz kámil bolsa júkleń hám hámiyshe sáykes citatanı keltiriń.
-public-domain-explanation-2 = Paydalı dawıstı anıqlaw mexanizmin jaratıw ushın eń jaqsı gápler — awızeki zamanagóy tilde. Gáplerdi oylap tabıwǵa járdem beretuǵın birneshe ideyalar:
-public-domain-explanation-3 = Awızeki zamanagóy gáplerdi ózińiz, doslarıńız yamasa til birlespesi menen jaratıń, mısalı, "write-a-thon" járdeminde
-public-domain-explanation-4 = Avtorlar, dramaturg yamasa scenaristler menen baylanısıń hám óziniń shıǵarmalarınıń kishkene bir bólegin xalıq dóretpesine bere alıwın sorań
-public-domain-explanation-5 = Avtorlıq huqıqı endi ámel etpeytuǵın tekstlerdi izleń, mısalı, 1920-jılǵa shekem baspadan shıǵarılǵan kópshilik kitaplar
-public-domain-explanation-6 = Húkimetlerge, kommerciyalıq emes shólkemlerge yamasa media shólkemlerine xabarlasıń hám olardıń qanday da bir veb-kontenti, esabatları yamasa basqa kontenti xalıq dóretpesi bolıwı múmkinligin biliń
-citing-sentences-subheader-websites = Veb-saytlar
-citing-sentences-subheader-websites-explanation = Siz veb-sayttı kirgiziwińiz múmkin, mıs: "Common Voice" — https://commonvoice.mozilla.org/
-citing-sentences-subheader-offline-sources = Oflayn derekler
-citation =
-    .label = Citata
-self-citation = Ózine silteme
-adding-sentences-subheader-length = Uzınlıǵı
-adding-sentences-subheader-length-explanation = Gáp 15 sózden kem bolıwı kerek.
-adding-sentences-subheader-spelling-punctuation = Imla hám irkilis belgileri
-adding-sentences-subheader-spelling-punctuation-explanation = Gáp durıs jazılıwı kerek.
-adding-sentences-subheader-numbers = Sanlar
-adding-sentences-subheader-numbers-explanation = Negizgi tekstte múltiksiz túrde cifrlar bolmawı kerek, sebebi olar dawıslap oqıǵanda qıyınshılıqlarǵa sebep boladı. Sanlardı oqıw usılı kontekstke baylanıslı hám maǵlıwmatlar toplamında túsiniksizlikke alıp keliwi múmkin. Mısalı, “2409” sanın “jigirma tórt nol toǵız” hám "eki mıń tórt júz toǵız" dep anıq oqıwǵa boladı.
-adding-sentences-subheader-punctuation = Irkilis belgileri
-adding-sentences-subheader-special-characters = Arnawlı belgiler hám shet tili háripleri
-adding-sentences-subheader-special-characters-explanation-2 = Tiller lokalizaciya waqtında óziniń qosımsha talapları menen tekseriw qaǵıydalarına iye bolıwı múmkin. Eger tildiń arnawlı tekseriw faylı bolmasa, qatnasıwshılar ushın anglichan tilindegi qaǵıydalar kórsetiledi.
-adding-sentences-subheader-offensive-content = Kemsitiwshi mazmun
-reviewing-sentences-explanation-1 = Eger gáp joqarıdaǵı talaplarǵa juwap berse, "Awa" túymesin basıń.
-reviewing-sentences-explanation-2 = Eger gáp joqarıdaǵı talaplarǵa juwap bermese, "Yaq" túymesin basıń.
-reviewing-sentences-explanation-3 = Eger siziń gápke isenimińiz kámil bolmasa, ótkerip jiberip, keyingisine ótiwińiz múmkin.
-reviewing-sentences-explanation-4 = Eger tekseriw ushın gápler qalmasa, ótinish, bizge kóbirek gáp jıynawǵa járdemlesiń!
 
 ## WRITE PAGE
 
-write-page-subtitle = Bul jerde usınılǵan gápler ashıq maǵlıwmatlar toplamına cc-0 licenziyası tiykarında qosıladı.
-sentence =
-    .label = Gáp
-sentence-input-value = Usı jerge xalıq dóretpelerinen bolǵan gápińizdi kirgiziń
-citation =
-    .label = Citata
-new-sentence-rule-1 = <noCopyright>Avtorlıq huqıqına heshqanday sheklew joq</noCopyright> (<cc0>cc-0</cc0>)
-new-sentence-rule-2 = 15 sózden az
-new-sentence-rule-3 = Durıs grammatikanı qollanıń
-new-sentence-rule-5 = Sanlar hám arnawlı belgilersiz
-new-sentence-rule-6 = Shet tili háriplerisiz
-new-sentence-rule-7 = Sáykes citatanı óz ishine alǵan
-new-sentence-rule-8 = Múltiksiz tábiyiy hám awızeki (gápti oqıw ańsat bolıwı kerek)
-how-to-cite = Qalay citata keltiremen?
-how-to-cite-explanation-bold = URL silteme yamasa jumıstıń tolıq ataması menen citata keltiriw.
-guidelines = Qollanbalar
-contact-us = Biz benen baylanısıw
-add-sentence-success = 1 gáp jıynaldı
-add-sentence-error = Gápti qosıwda qátelik
-required-field = Ótinish, bul maydandı toltırıń.
 
 ## LANGUAGE VARIANT CODES
 
 
 ## REVIEW PAGE
 
-sc-review-rules-title = Gáp qollanbalardıń talaplarına juwap bere me?
-sc-review-empty-state = Házir tekseriw ushın bul tilde gápler joq.
-report-sc-different-language = Basqa til
-report-sc-different-language-detail = Bul men tekserip atırǵan tilden basqa tilde jazılǵan.
-sentences-fetch-error = Gáplerdi alıw waqtında qátelik júz berdi
-review-error = Bul gápti tekseriwde qátelik júz berdi
-# SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = Biz birqansha úlken ózgeris qılıp atırmız
 
 ## BULK SUBMISSION 
 
