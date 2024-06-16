@@ -173,27 +173,64 @@ license-mixed = Аралас
 terms-agree = Разыман
 terms-disagree = Разы емеспен
 review-submit-title = Тексериў ҳәм жибериў
+review-recording = Тексериў
+review-rerecord = Қайта жазыў
+review-cancel = Жибериўди бийкарлаў
 
 ## Datasets Page
 
+datasets-heading = Мағлыўматлар топламы
+language = Тил
+cv-license = Лицензия
+audio-format = Аудиоформат
+subscribe = Жазылыў
+# This indicates that there is no data to display
+no-information = Мағлыўмат жоқ
+go-languages-page = Тиллер бетине өтиў
+more = Көбирек
+close = Жабыў
+download = Жүклеп алыў
+dataset-version = Версия
+dataset-metadata-sex = Жыныс
+# dataset metadata - age of contributor
+dataset-metadata-age = Жас
+dataset-donate-modal-heading = Билесиз бе...
 
 ## Download Modal
 
+download-no = Яқ, рахмет
 
 ## Contact Modal
 
+contact-title = Байланыс формасы
+contact-form-name =
+    .label = Атыңыз
+contact-form-message =
+    .label = Хабар
 
 ## Request Language Modal
 
+request-language-form-language =
+    .label = Тил
+request-language-success-title = Тилди қосыў ҳаққындағы сораўыңыз жиберилди, рахмет.
+select-language = Тилди таңлаң...
 
 ## Request Language Pages
 
 
 ## Languages Overview
 
+language-search-input =
+    .placeholder = Излеў
+language-speakers = Сөйлеушилер
+localized = Аўдарылды
+sentences = Гәп
+language-validation-hours = Саат
 
 ## Contribution
 
+review = Тексериў
+skip = Өткерип жибериў
 
 ## Contribution Nav Items
 
