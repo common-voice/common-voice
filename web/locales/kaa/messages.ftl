@@ -114,190 +114,48 @@ sentence-collection = Gápler toplamı
 
 ## Contribution
 
-speak-empty-state-cta = Gáplerdi usınıw
-record-button-label = Dawısıńızdı jazıń
-share-title-new = Bizge kóbirek dawıs jıynawǵa <bold>járdem beriń</bold>
-login-to-get-started = Baslaw ushın dizimnen ótiń yamasa kiriń
-target-segment-add-voice = Dawısıńızdı qosıń
-target-segment-learn-more = Kóbirek úyreniw
 
 ## Contribution Nav Items
 
-contribute-voice-collection-nav-header = Dawıslar toplamı
-contribute-sentence-collection-nav-header = Gápler toplamı
 
 ## Reporting
 
-report = Shaǵınıw
-report-title = Shaǵımdı jiberiw
-report-ask = Bul gáp penen sizde qanday mashqalalar boldı?
-report-offensive-language = Kemsitiwshi sóz
-report-grammar-or-spelling-detail = Gápte grammatikalıq yamasa imla qáte bar.
-report-different-language = Basqa til
-report-difficult-pronounce = Aytıw ushın qıyın
-report-difficult-pronounce-detail = Bul oqıw hám aytıw qıyın bolǵan sózler hám sóz dizbeklerinen quralǵan.
-report-offensive-speech = Kemsitiwshi sóz
-report-other-comment =
-    .placeholder = Pikir
-success = Tayar
-continue = Dawam etiw
-report-success = Shaǵım tabıslı jiberildi
 
 ## Goals
 
-streaks = Turaqlı
-days =
-    { $count ->
-        [one] Kún
-       *[other] Kún
-    }
-recordings =
-    { $count ->
-        [one] Dawıslı jazba
-       *[other] Dawıslı jazba
-    }
-validations =
-    { $count ->
-        [one] tekserildi
-       *[other] tekserildi
-    }
 
 ## Dashboard
 
-your-languages = Siziń tillerińiz
-toward-next-goal = Keyingi maqset
-clips-you-recorded = Siz jazǵan dawıslı úzindiler
-clips-you-validated = Siz teksergen dawıslı úzindiler
-todays-recorded-progress = Common Voiceta búgin jazılǵan dawıslı úzindiler
-todays-validated-progress = Common Voiceta búgin tekserilgen dawıslı úzindiler
-stats = Statistika
-awards = Sıylıqlar
-you = Siz
-everyone = Barlıq paydalanıwshılar
-recorded-clips = Jazılǵan dawıslı úzindiler
-validated-clips = Tekserilgen dawıslı úzindiler
-total-approved = Jámi tekserildi
 
 ## Custom Goals
 
-get-started-goals = Maqsetler menen baslań
-create-custom-goal = Jeke maqset jaratıw
-goal-type = Qanday maqset qoyıwdı qáleysiz?
-both-speak-and-listen = Ekewi de
-both-speak-and-listen-long = Ekewi de (sóylew hám tıńlaw)
-daily-goal = Kúndelikli maqset
-weekly-goal = Háptelik maqset
-easy-difficulty = Ańsat
-average-difficulty = Ortasha
-difficult-difficulty = Qıyın
-pro-difficulty = Pro
-want-to-continue = Dawam etiwdi qáleysiz be?
-finish-editing = Dáslep ózgertiwdi tamamlawdı qáleysiz be?
-build-custom-goal = Jeke maqset jaratıw
-help-reach-hours-pluralized =
-    { NUMBER($hours) ->
-        [one] Jeke maqset penen { $language } tilinde { $hours } saatqa jetiwge járdem beriń
-       *[other] Jeke maqset penen { $language } tilinde { $hours } saatqa jetiwge járdem beriń
-    }
-help-reach-hours-general-pluralized =
-    { NUMBER($hours) ->
-        [one] Jeke maqsetińiz benen Common Voiceqa { $hours } saatqa jetiwine járdem beriń
-       *[other] Jeke maqsetińiz benen Common Voiceqa { $hours } saatqa jetiwine járdem beriń
-    }
-set-a-goal = Maqset qoyıw
-cant-decide = Qarar qabıllay almay atırsız ba?
-how-many-per-day = Ájayıp! Kúnine neshe dawıslı úzindi?
-how-many-a-week = Ájayıp! Háptesine neshe dawıslı úzindi?
-which-goal-type = Sóylewdi, tıńlawdı qáleysiz be yamasa ekewin de me?
-n-clips-pluralized =
-    { NUMBER($count) ->
-        [one] { $count } dawıslı úzindi
-       *[other] { $count } dawıslı úzindi
-    }
-help-share-goal = Bizge kóbirek dawıs tabıwǵa járdem beriń, maqsetińizdi bólisiń
-confirm-goal = Maqsetti tastıyıqlaw
-goal-interval-weekly = Háptelik
-share-goal-type-speak = Dawıs jazıw
-share-goal-type-listen = Tekseriw
-share-goal-type-both = Dawıs jazıw hám tekseriw
-weekly-goal-created = Siziń háptelik maqsetińiz jaratıldı
-daily-goal-created = Siziń kúndelik maqsetińiz jaratıldı
-return-to-edit-goal = Maqsetińizdi qálegen waqıtta ózgertiw ushın usı jerge qaytıń.
-share-goal = Maqsetimdi bólisiw
 
 ## Profile Delete
 
-delete-q = Siziń dawıslı jazbalarıńızda óshiriliwin qáleysiz be yamasa Common Voice maǵlıwmatlar toplamında qalıwın ba?
-keep = Saqlaw
-remove = Alıp taslaw
-keep-info = Siziń anonim dawıslı jazbalarıńız Common Voice maǵlıwmatlar toplamında qaladı. Profilińizdi óshirgennen soń, dawıslı jazbalarıńızdıń maǵlıwmatlar toplamınan óshiriliwine soraw jibere almaysız.
-remove-info = Dawıslı jazbalarıńızdıń maǵlıwmatlar toplamınan óshiriw boyınsha sorawıńızdı kórip shıǵamız.  Eger siziń sorawıńız qabıllansa, biz bul maǵlıwmatlar toplamın júklep alǵanlar menen baylanısamız hám siziń dawıslı jazbalarıńızdı óshiriwin soraymız.
-profile-form-delete = Profildi óshiriw
 
 ## Profile Download
 
-download-q = Maǵlıwmatlarıńızdı júklep alıwdı qáleysiz be?
-download-info = Neni júklep alıwdı qáleytuǵınlıǵıńızdı bizge aytıń:
-download-profile-title = Profil
-download-profile-info = Elektron pochta, paydalanıwshı atı hám demografiyalıq maǵlıwmatlardı óz ishine aladı. Házir júklep alıwıńız múmkin.
-download-profile-size = Birneshe bayt
-download-recordings-title = Dawıslı jazbalar
-download-recordings-info = MP3 hám olarǵa tiyisli gáplerdi tayarlaw birqansha waqıttı alıwı múmkin
-download-recordings-size = Ádette megabayt
-download-recently-requested = Dawıslı jazbalarıńızdıń jańa arxivin hár { $days } kúnnen sorawıńız múmkin.
-download-size = Kólem
-download-selected = Tańlandı
-download-start = Profil maǵlıwmatların júklep alıw
-download-request = Dawıslı jazbalardı soraw
-download-requests = Dawıslı jazbalardı júklep alıw boyınsha jiberilgen aldıńǵı sorawlar
-download-requests-info = Dawıslı jazbalarıńızdı soraǵanıńızda, biz olardı bir yamasa birneshe ZIP fayllarǵa jıynaymız. Siziń aldınǵı sorawlarıńız:
-download-request-button = Júklep alıw
-download-request-title = { $created }
-download-request-assembling-description = Siziń fayllarıńız jıynalmaqta. Ótinish, keyinirek tekseriń.
-download-request-refresh-button = Jańalaw
-download-request-modal-title = Júklep alıw ushın siltemeler
-download-request-modal-description = ZIP fayllarıńızdı júklep alıw ushın siltemeler.
-download-request-metadata-link = Gáp teksti
 
 ## Landing
 
-login-company = { $company } elektron pochta járdeminde kiriw / dizimnen ótiw
-profile-not-required = Qatnasıw ushın profil bolıwı shárt emes, biraq bul paydalı. Nege ekenin tómende kóriń.
-read-more-about = Biz tuwralı betinde tolıǵıraq oqıń
 
 ## DemoLayout
 
-demo-get-started = Qáne, basladıq
-demo-welcome = Common Voiceqa xosh keldińiz
-demo-welcome-subheader = Joybardı qollap-quwatlawǵa hám kóbirek biliwge qızıǵasız ba?
 
 ## Demo Datasets
 
-card-button-next = Keyingi
-card-button-back = Artqa
-demo-language-select-label = Tillerdi kóriw
-demo-eofy-sub_header = Júklep alıw ushın tayar dawıslı maǵlıwmatlar toplamı
-demo-account = Akkaunt
 
 ## Demo Account
 
-demo-account-card-header = Úles qosıw ushın akkaunt májbúriy emes, biraq bul paydalı.
-demo-account-enter-email =
-    .label = Dizimnen ótiw siltemesin jiberiw ushın elektron pochta mánzilin kirgiziń
-demo-account-sign-up = Dizimnen ótiw siltemesin jiberiw
 
 ## Demo Contribute
 
-demo-contribute-card-header = Óz dawısıńızdı qosıwǵa yamasa tıńlawǵa tayarsız ba?
-demo-listen-subtitle = Óz úlesińizdi qosıwǵa tayarsız ba?
 
 ## Demo Dashboard
 
 
 ## Validation criteria
 
-contribution-criteria-nav = Talaplar
-contribution-criteria-link = Qaǵıydalar menen tanısıw
 contribution-criteria-page-title = Qollap-quwatlaw talapları
 contribution-for-example = Mısalı
 contribution-misreadings-title = Nadurıs oqıw
