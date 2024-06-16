@@ -78,21 +78,40 @@ x-years-short =
 
 ## ProjectStatus
 
+english = Англичан
 
 ## ProfileForm
 
+profile-form-username =
+    .label = Пайдаланыўшы аты
+profile-form-native-language =
+    .label = Ана тилиңиз
+profile-form-additional-language =
+    .label = Қосымша тил
+profile-form-language =
+    .label = Тил
+profile-form-accent =
+    .label = Акцент
 profile-form-age =
     .label = Жас
+profile-form-gender-2 =
+    .label = Жыныс
+native-language =
+    .label = Ана тилиңиз
 profile-form-submit-save = Сақлаў
 profile-form-submit-saved = Сақланды
+intersex = Интерсекс
+transgender = Трансгендер
 # Gender
 other = Басқа
+dashboard = Басқарыў панели
 avatar = Аватар
 goals = Мақсетлер
 settings = Сазлаўлар
 edit-profile = Профилди өзгертиў
 profile-create-success = Профил табыслы жаратылды!
 profile-close = Жабыў
+why-demographic = Неге бул әҳмийетли?
 accept-privacy-title = Қупиялық сиясаты
 login = Кириў
 login-signup = Кириў / Дизимнен өтиў
@@ -103,6 +122,9 @@ help-accent = Акцент пенен жәрдем керек пе?
 
 ## Profile - Email
 
+browse-file-title = Суўрет файлын жүклеў
+avatar-uploaded = Аватар жүкленди
+max-file-size = { $kb } КБ максимум
 remove-avatar = Аватарды өшириў
 
 ## Profile - Email
@@ -114,6 +136,7 @@ add-language = Тил қосыў
 faq-title = Көп берилетуғын сораўлар
 faq-what-cv-q = Common Voice — бул не?
 faq-why-important-q = Неге бул әҳмийетли?
+faq-why-my-lang-q = Неге мениң тилим усы ўақытқа шекем қосылмаған?
 faq-what-is-cv = Common Voice — бул не?
 
 ## ABOUT US
@@ -143,6 +166,7 @@ about-stay-in-touch-button = Дизимнен өтиў
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Ўақиялар
 
 ## How to validate
 
@@ -231,12 +255,16 @@ language-validation-hours = Саат
 
 review = Тексериў
 skip = Өткерип жибериў
+target-segment-learn-more = Толығырақ
 
 ## Contribution Nav Items
 
 
 ## Reporting
 
+report = Шағыныў
+report-other-comment =
+    .placeholder = Пикир
 
 ## Goals
 
@@ -244,24 +272,40 @@ skip = Өткерип жибериў
 ## Dashboard
 
 your-languages = Сизиң тиллериңиз
+stats = Статистика
+you = Сиз
 
 ## Custom Goals
 
+easy-difficulty = Аңсат
+average-difficulty = Орташа
+difficult-difficulty = Қыйын
+pro-difficulty = Про
+set-a-goal = Мақсет қойыў
+confirm-goal = Мақсетти тастыйықлаў
 
 ## Profile Delete
 
 
 ## Profile Download
 
+download-profile-title = Профил
+download-selected = Таңланды
+download-request-button = Жүклеп алыў
+download-request-title = { $created }
+download-request-refresh-button = Жаңалаў
+download-request-metadata-link = Гәп тексти
 
 ## Landing
 
 
 ## DemoLayout
 
+demo-welcome = Common Voice ға хош келдиңиз
 
 ## Demo Datasets
 
+card-button-back = Артқа
 
 ## Demo Account
 
