@@ -52,6 +52,8 @@ logout = Шығыў
 
 ## Home Page
 
+vote-yes = Аўа
+vote-no = Яқ
 hours-recorded = Жазылған саат
 hours-validated = Тексерилген саат
 todays-progress = Бүгинги прогресс
@@ -90,6 +92,9 @@ x-years-short =
 
 ## ProjectStatus
 
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = Кейинги мақсет: { $goal }
 english = Англичан
 
 ## ProfileForm
@@ -102,8 +107,12 @@ profile-form-additional-language =
     .label = Қосымша тил
 profile-form-language =
     .label = Тил
+profile-form-variant-default-value = Вариант таңланбаған
 profile-form-accent =
     .label = Акцент
+profile-form-custom-accent-help-text =
+    .label = Өз акцентиңизди қалай тәрийплеген болар едиңиз?
+profile-form-custom-accent-placeholder-2 = Акцентиңизди тәрийплеў ушын жазып баслаң
 profile-form-age =
     .label = Жас
 profile-form-gender-2 =
@@ -114,9 +123,13 @@ profile-form-submit-save = Сақлаў
 profile-form-submit-saved = Сақланды
 intersex = Интерсекс
 transgender = Трансгендер
+do_not_wish_to_say = Айтыўды қәлемеймен
 # Gender
 other = Басқа
+why-profile-title = Профил неге керек?
+why-profile-text = Өзиңиз туўралы қосымша мағлыўмат бериў арқалы, Common Voice ға жиберип атырған аудио мағлыўматларды даўысты таныў движоклары ушын пайдалырақ етесиз, олар бул мағлыўматларды өзлериниң анықлығын жақсартыў ушын қолланады.
 dashboard = Басқарыў панели
+build-profile = Профил жаратыў
 avatar = Аватар
 goals = Мақсетлер
 settings = Сазлаўлар
