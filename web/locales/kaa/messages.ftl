@@ -37,49 +37,12 @@
 
 ## ProfileForm
 
-profile-form-add-accent = Jańa basqa akcent qosıw "{ $inputValue }"
-profile-form-submit-save = Сақлаў
-profile-form-submit-saved = Сақланды
-# Gender
-other = Басқа
-why-profile-title = Профиль не ушын керек?
-dashboard = Басқарыў панели
-build-profile = Profil jaratıw
-avatar = Аватар
-goals = Мақсетлер
-settings = Сазлаўлар
-edit-profile = Профилге өзгерис киргизиў
-profile-create-success = Профиль сәтли жаратылды!
-profile-close = Жабыў
-profile-explanation = Profil menen rawajlanıwıńızdı baqlap barıń hám biziń dawıslı maǵlıwmatlarımızdıń ele de anıqlaw bolıwına járdem beriń.
-thanks-for-account = Akkauntıńızdı tastıyıqlaǵanıńız ushın raxmet, endi keliń profilińizdi toltırayıq.
-why-demographic = Nege bul áhmiyetli?
-accept-privacy-title = Қупиялық сиясаты
-accept-privacy-and-terms = Common Voicetıń <termsLink>Shártleri</termsLink> hám <privacyLink>Qupiyalıq siyasatı</privacyLink>na razıman
-login-identity = Kiriw ushın identifikator
-login = Кириў
-login-signup = Kiriw/Dizimnen ótiw
-edit = Өзгертиў
-email-subscriptions = Elektron pochta arqalı jazılıwlar
-download-profile = Maǵlıwmatlarımdı júklep alıw
-off = Óshirilgen
-on = Qosıwlı
-help-accent = Akcent penen baylanıslı járdem kerek pe?
-help-variants = Variantlar menen baylanıslı járdem kerek pe?
 
 ## Profile - Email
 
-browse-file-title = Súwret faylın júklew
-connect-gravatar = Gravatardı qosıw
-gravatar_not_found = Bul elektron pochta gravatarda dizimnen ótpegen
-file_too_large = Tańlanǵan fayl júdá úlken kólemge iye
-avatar-uploaded = Avatar júklendı
-max-file-size = Maksimal { $kb }kb
-remove-avatar = Avatardı óshiriw
 
 ## Profile - Email
 
-manage-subscriptions = Jazılıwlardı basqarıw
 
 ## FAQ
 
@@ -89,8 +52,6 @@ manage-subscriptions = Jazılıwlardı basqarıw
 
 ## How does it work section
 
-about-listen = Тыңлаң
-about-is-it-valid = Dawıslı úzindi jaramlı ma?
 about-is-it-valid-text = Paydalanıwshı "Awa" dawısın bergende, dawıslı úzindi "jaramlı" dep belgilenedi.
 about-yes-votes = ≥ 2 "Awa" dawıslar
 about-yes-votes-text = Common Voicetıń maǵlıwmatlar toplamına kiriwi ushın, dawıslı úzindi eki paydalanıwshı tárepinen tekseriliwi kerek.
