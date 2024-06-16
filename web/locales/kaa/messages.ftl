@@ -13,112 +13,24 @@
 
 ## Layout
 
-terms = Shártler
-cookies = Kukilar
-faq = KBS
-back-top = Joqarıǵa qaytıw
-logout = Shıǵıw
 
 ## Home Page
 
-home-title = Common Voice — Mozilla baslaması bolıp, mashinalarǵa haqıyqıy insan qalay sóyleytuǵının úyretedi.
-default-tagline = Mozilla Common Voice — mashinalarǵa haqıyqıy insan qalay sóyleytuǵının úyretiwshi baslama.
-home-cta = Dawısıńızdı jazıp qaldırıń hám úles qosıń!
-wall-of-text-start = Dawıs — tábiyiy hám insan. Sonlıqtan biz mashinalarımız ushın jaramlı bolǵan dawıslı texnologiya jaratıwǵa umtılıp atırmız. Biraq dawıslı sistemalardı jaratıw ushın baǵdarlamashılarǵa úlken kólemdegi dawıslı maǵlıwmatlar kerek.
-wall-of-text-more-mobile = Iri kompaniyalar tárepinen qollanılatuǵın maǵlıwmatlardıń basım bólegi kópshilik adamlar ushın qol jetimli emes. Bul innovaciyalıq rawajlanıwdı páseytedi, dep oylaymız. Sonlıqtan da biz CommonVoice joybarın iske túsirdik, bul joybardıń maqseti — dawıstı anıqlaw xızmetin hámme ushın ashıq qılıw.
-wall-of-text-first = Dawıs — tábiyiy hám insan. Sonlıqtan biz mashinalarımız ushın jaramlı bolǵan dawıslı texnologiya jaratıwǵa umtılıp atırmız. Biraq dawıslı sistemalardı jaratıw ushın baǵdarlamashılarǵa úlken kólemdegi dawıslı maǵlıwmatlar kerek.
-wall-of-text-second = Iri kompaniyalar tárepinen qollanılatuǵın maǵlıwmatlardıń basım bólegi kópshilik adamlar ushın qol jetimli emes. Bul innovaciyalıq rawajlanıwdı páseytedi, dep oylaymız. Sonlıqtan da biz CommonVoice joybarın iske túsirdik, bul joybardıń maqseti — dawıstı anıqlaw xızmetin hámme ushın ashıq qılıw.
-show-wall-of-text = Толығырақ
-help-us-title = Гәплерди тексериўге жәрдем бериң!
-help-us-explain = Qoyıw túymesin basıń, tıńlań hám bizge aytıń: tómendegi gápke durıs ses berilgen be?
-no-clips-to-validate = Bul tilde esitiw ushın heshqanday jazıw tabılmadı. Dawısıńızdı jazıń, jańasın jaratıwda járdem beriń.
-vote-yes = Аўа
-vote-no = Яқ
-toggle-play-tooltip = Qoyıw rejimin ózgertiw ushın { shortcut-play-toggle } túymesine basıń
-speak-subtitle = Даўысыңызды жазып қалдырың
-speak-paragraph = Ses berilgen gáplerdi jazıp alıw — bul biziń ashıq maǵlıwmatlar toplamınıń ajıralmas bólegi; Geybirewler bunı qızıq bólegi dep te aytıwı múmkin.
-speak-goal-text = Jazıp alınǵan klipler
-listen-subtitle = Dawıslardı tekseriwde bizge járdem beriń
-listen-paragraph = Jazıp qaldırılǵan dawıslardı tekseriw Common Voice wazıypası ushın zárúr. Jazılǵan dawıslardı tıńlań hám bizge sapalı ashıq dawıs maǵlıwmatların jaratıwǵa járdem beriń.
-listen-goal-text = Тексерилген клиплер
-hours-recorded = Жазылған саатлар
-hours-validated = Тексерилген саатлар
-voices-online = Házir onlayn dawıslar
-todays-progress = Бүгинги нәтийже
-help-reach-goal = { $goal } ge jetiwge bizge járdem beriń
-read-terms-q = Siz qollanıw shártleri menen tanıstıńız ba?
-ready-to-record = Dawısıńız benen úles qosıwǵa tayınsız ba?
-all-locales = Ҳәммеси
-today = Бүгин
-x-weeks-short =
-    { $count ->
-        [one] Ҳәпте
-       *[other] { $count }ҳәпте
-    }
-x-months-short =
-    { $count ->
-        [one] ай
-       *[other] { $count }ай
-    }
-x-years-short =
-    { $count ->
-        [one] жыл
-       *[other] { $count }жыл
-    }
-help-make-dataset = Bizge joqarı sapalı ashıq maǵlıwmatlar toplamın jaratıwǵa járdem beriń
-sign-up-account = Akkaunttı dizimnen ótkeriw
-email-subscription-title = Jańalanıwlar taratpalarına jazılıń
-email-subscription-title-new = Jańalıqlar taratpalarına jazılıń, maqsetler haqqında esletpeler hám rawajlanıw jańalanıwları
 
 ## Account Benefits
 
-benefits = Абзаллықлары
-keep-track = Birneshe tillerdegi rawajlanıwıńızdı jáne kórsetkishlerińizdi baqlap barıń.
-compare-progress = Siziń rawajlanıwıńız dúnya júzi boyınsha basqa qatnasıwshılar menen qalay salıstırılatuǵının kóriń.
-view-goals = Jeke hám joba maqsetlerine jetisiwdegi rawajlanıwıńızdı kóriń.
-join-newsletter = Jańalanıwlardı hám joba haqqında jańa maǵlıwmattı alıw ushın taratıw dizimimizge jazılıń.
 
 ## What's public
 
-whats-public = Qaysı maǵlıwmatlar hámme ushın ashıq?
-email-not-public = Elektron pochtańızdı sizden basqa heshkim kórmeydi.
-recordings-and-locale-public = Siziń jazıp qaldırılǵan dawıslarıńızdıń sanı hám olardıń tilleri hámmege kórinedi.
-username-optin-public = Óz paydalanıwshı atıńızdı ashıq yamasa anonim qılıwdı tańlawıńız múmkin.
-demographic-deidentified-clarity-2 = Májbúriy emes bolǵan demografiyalıq maǵlıwmatlar (jas, jınıs hám akcent sıyaqlı) siziń profilińizde hesh qashan kórinbeydi hám maǵlıwmatlar toplamında siziń akkauntıńız benen baylanıstırılmaydı. Ayırım audio jazbalardı anıǵıraq analizlew maqsetinde demografiyalıq maǵlıwmatlar menen baylanıslı boladı - mısalı, eger izertlewshi úyretip atırǵan modelin belgili demografiyalıq segmentke baǵdarlaǵısı kelse.
-username-email-not-demographic = Siziń paydalanıwshı atıńız hám elektron pochtańız járiyalanǵan maǵlıwmatlar menen úylespeydi.
 
 ## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated { skip } string.
-shortcut-skip = s
 
 ## Listen Shortcuts
 
-# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
-# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-play-toggle = p
-shortcut-play-toggle-label = Баслаў/Тоқтатыў
-# Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = y
-# Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = n
 
 ## Speak Shortcuts
 
-# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
-# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = r
-shortcut-record-toggle-label = Jazıp alıw/Toqtatıw
-shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Kliptı qayta jazıw
-shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = Ámeldegi jazıwdı biykarlaw
-shortcut-submit = Қайтыў
-shortcut-submit-label = Kliplerdi jiberiw
-request-language-text = Common Voice joybarında ana tilińizdi kórmey atırsız ba?
-request-language-button = Til qosıwǵa soraw jiberiw
 
 ## ProjectStatus
 
