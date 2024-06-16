@@ -1,11 +1,13 @@
 ## General
 
+yes-receive-emails = Аўа, маған хат жибериң. Мен Common Voice жойбары ҳаққында хабардар болыўды қәлеймен.
 return-to-cv = Common Voice ға қайтыў
 email-input =
     .label = Эл.почта
 submit-form-action = Жибериў
 loading = Жүкленбекте...
 not-available-abbreviation = Жоқ
+banner-error-slow-link = Жағдай бети
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -13,9 +15,19 @@ not-available-abbreviation = Жоқ
 
 ## Languages
 
+ab = Абхаз
+ar = Араб
+et = Эстон
+ja = Япон
+kaa = Қарақалпақ
+kk = Қазақ
+ko = Кореец
+tg = Тәжик
 tk = Түркмен
+tr = Түрк
 tt = Татар
 udm = Удмурт
+ug = Уйғыр
 uk = Украин
 ur = Урду
 uz = Өзбек
