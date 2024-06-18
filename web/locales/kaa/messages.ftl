@@ -7,6 +7,7 @@ email-input =
 submit-form-action = Жибериў
 loading = Жүкленбекте...
 not-available-abbreviation = Жоқ
+banner-error-slow-1 = Қеширерсиз, Common Voice әстен ислемекте. Қызығыўшылығыңыз ушын рахмет.
 banner-error-slow-link = Жағдай бети
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -17,11 +18,27 @@ banner-error-slow-link = Жағдай бети
 
 ab = Абхаз
 ar = Араб
+cs = Чех
+cv = Чуваш
+de = Немис
+el = Грек
+en = Англичан
+eo = Эсперанто
+es = Испан
 et = Эстон
+fa = Парс
+fr = Француз
+hi = Хинди
+hr = Хорват
+hy-AM = Армян
+it = Итальян
 ja = Япон
+ka = Грузин
 kaa = Қарақалпақ
 kk = Қазақ
 ko = Кореец
+mn = Монғол
+nl = Голланд
 tg = Тәжик
 tk = Түркмен
 tr = Түрк
@@ -31,12 +48,15 @@ ug = Уйғыр
 uk = Украин
 ur = Урду
 uz = Өзбек
+zu = Зулу
+zza = Заза
 
 # [/]
 
 
 ## Layout
 
+datasets = Мағлыўматлар топламы
 languages = Тиллер
 about = Биз туўралы
 profile = Профил
@@ -52,6 +72,7 @@ logout = Шығыў
 
 ## Home Page
 
+show-wall-of-text = Толығырақ
 vote-yes = Аўа
 vote-no = Яқ
 hours-recorded = Жазылған саат
@@ -89,6 +110,7 @@ x-years-short =
 
 ## Speak Shortcuts
 
+shortcut-discard-ongoing-recording = ESC
 
 ## ProjectStatus
 
@@ -180,6 +202,7 @@ about-title = Неге ушын Common Voice?
 
 about-localization-title = Веб-сайтты локализациялаў
 about-stay-in-touch-button = Дизимнен өтиў
+about-nav-how-it-works-2 = Common Voice қалай ислейди?
 
 ## Community Playbook Content
 ## What is a language
@@ -187,6 +210,8 @@ about-stay-in-touch-button = Дизимнен өтиў
 
 ## How do I add a language
 
+about-playbook-how-add-language = Мен тилди қалай қосыўым мүмкин?
+about-playbook-how-add-language-collecting-sentences-heading = Гәплерди жыйнаў
 
 ## How does localization work
 
@@ -240,6 +265,8 @@ datasets-heading = Мағлыўматлар топламы
 language = Тил
 cv-license = Лицензия
 audio-format = Аудиоформат
+size-gigabyte = ГБ
+size-megabyte = МБ
 subscribe = Жазылыў
 # This indicates that there is no data to display
 no-information = Мағлыўмат жоқ
@@ -271,6 +298,7 @@ request-language-form-language =
     .label = Тил
 request-language-success-title = Тилди қосыў ҳаққындағы сораўыңыз жиберилди, рахмет.
 select-language = Тилди таңлаң...
+other-language = Басқа тил
 
 ## Request Language Pages
 
