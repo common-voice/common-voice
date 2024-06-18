@@ -321,8 +321,11 @@ language-validation-hours = Саат
 
 ## Contribution
 
+listen = Тыңлаў
 review = Тексериў
 skip = Өткерип жибериў
+record-no-mic-found = Микрофон табылмады.
+record-abort-delete = Шығыў ҳәм клиплерди өшириў
 target-segment-learn-more = Толығырақ
 
 ## Contribution Nav Items
@@ -331,24 +334,39 @@ target-segment-learn-more = Толығырақ
 ## Reporting
 
 report = Шағыныў
+report-grammar-or-spelling = Грамматиқалық / орфографиялық қәте
+report-grammar-or-spelling-detail = Гәпте грамматиқалық ямаса орфографиялық қәте бар.
+report-different-language = Басқа тил
 report-other-comment =
     .placeholder = Пикир
+report-success = Шағым табыслы жиберилди
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Күн
+       *[other] Күн
+    }
 
 ## Dashboard
 
 your-languages = Сизиң тиллериңиз
 stats = Статистика
+awards = Сыйлықлар
 you = Сиз
 
 ## Custom Goals
 
+both-speak-and-listen = Екеўиде
+daily-goal = Күнлик мақсет
+weekly-goal = Ҳәптелик мақсет
 easy-difficulty = Аңсат
 average-difficulty = Орташа
 difficult-difficulty = Қыйын
 pro-difficulty = Про
+want-to-continue = Даўам етиўди қәлейсиз бе?
+build-custom-goal = Жеке мақсет жаратыў
 set-a-goal = Мақсет қойыў
 confirm-goal = Мақсетти тастыйықлаў
 
