@@ -392,9 +392,11 @@ demo-welcome = Common Voice ға хош келдиңиз
 ## Demo Datasets
 
 card-button-back = Артқа
+demo-account = Аккаунт
 
 ## Demo Account
 
+demo-account-sign-up = Дизимнен өтиў силтемесин жибериў
 
 ## Demo Contribute
 
@@ -405,6 +407,7 @@ card-button-back = Артқа
 ## Validation criteria
 
 contribution-for-example = мысалы
+see-more = <chevron></chevron>Толығырақ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -421,6 +424,7 @@ sc-header-my = Мениң гәплерим
 sc-header-statistics = Статистика
 sc-header-profile = Профил
 sc-footer-discourse = Discourse
+sc-footer-report-bugs = Қәтеликлер ҳаққында хабар бериў
 sc-footer-privacy = Қупиялық
 sc-footer-terms = Шәртлер
 sc-footer-cookies = Куки
@@ -429,12 +433,18 @@ sc-logout-button = Шығыў
 
 ## HOME
 
+sc-home-review-title = Гәплерди тексериў
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-review-title = Гәплерди тексериў
+sc-howto-review-subtitle = Гәп төмендеги критерияларға жуўап бериўине исеним кәмил етиң:
+sc-howto-review-criteria-1 = Гәп дурыс жазылған болыўы керек.
+sc-howto-review-criteria-2 = Гәп грамматиқалық тәрептен дурыс болыўы керек.
+sc-howto-review-criteria-4 = Егер гәп критерияларға жуўап берсе "Мақуллаў" түймесин басың.
 
 ## MY SENTENCES
 
@@ -490,7 +500,7 @@ sc-personal-your-languages = Сизиң тиллериңиз:
 
 sc-review-form-button-reject = Бийкарлаў
 sc-review-form-button-skip = Өткерип жибериў
-sc-review-form-button-approve = Қабыллаў
+sc-review-form-button-approve = Мақуллаў
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
