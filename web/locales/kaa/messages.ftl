@@ -221,6 +221,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Гәплерди 
 
 ## How to record quality
 
+about-playbook-how-record-content-3 = Гәплерди оқығанда итибарлы болың. Сөзлерди қалдырмаң, өзгертпең ҳәм артықша сөз қоспаң.
 
 ## How to grow language
 
@@ -240,9 +241,11 @@ about-playbook-how-grow-language-content-2 = Ўақиялар
 
 ## Glossary
 
+glossary = Сөзлик
 
 ## Error pages
 
+error-code = Қәтелик { $code }
 
 ## Data
 
@@ -270,7 +273,10 @@ size-megabyte = МБ
 subscribe = Жазылыў
 # This indicates that there is no data to display
 no-information = Мағлыўмат жоқ
+data-other-ted-name = TED-LIUM корпусы
+go-discourse = Discourse ға өтиў
 go-languages-page = Тиллер бетине өтиў
+ready-to-validate = Гәплерди тексериўге жәрдем бериўге таярсыз ба?
 more = Көбирек
 close = Жабыў
 download = Жүклеп алыў
@@ -278,6 +284,7 @@ dataset-version = Версия
 dataset-metadata-sex = Жыныс
 # dataset metadata - age of contributor
 dataset-metadata-age = Жас
+donate-modal-message = Мағлыўматлар базаңыз жүкленбекте!
 dataset-donate-modal-heading = Билесиз бе...
 
 ## Download Modal
@@ -339,6 +346,7 @@ report-grammar-or-spelling-detail = Гәпте грамматиқалық яма
 report-different-language = Басқа тил
 report-other-comment =
     .placeholder = Пикир
+continue = Даўам етиў
 report-success = Шағым табыслы жиберилди
 
 ## Goals
@@ -372,11 +380,14 @@ confirm-goal = Мақсетти тастыйықлаў
 
 ## Profile Delete
 
+remove = Өшириў
+profile-form-delete = Профилди өшириў
 
 ## Profile Download
 
 download-profile-title = Профил
 download-selected = Таңланды
+download-start = Профил мағлыўматларын жүклеп алыў
 download-request-button = Жүклеп алыў
 download-request-title = { $created }
 download-request-refresh-button = Жаңалаў
