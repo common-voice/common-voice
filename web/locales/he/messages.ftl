@@ -54,6 +54,7 @@ cak = קאקצ׳יקל
 ckb = כורדית מרכזית
 cnh = הק׳הא צ׳ין
 co = קורסיקאית
+crh = טטרית של קרים
 cs = צ׳כית
 cv = צ׳ובשית
 cy = ולשית
@@ -75,12 +76,14 @@ ff = פולה
 fi = פינית
 fo = פארואית
 fr = צרפתית
+fuf = פולאר
 fy-NL = פריזית
 ga-IE = אירית
 gl = גליסית
 gn = גוארני
 gom = קונקאני של גואה
 gu-IN = גוג'ראטית
+guc = ואיונאיקי
 ha = האוסה
 he = עברית
 hi = הינדי
@@ -123,6 +126,7 @@ lo = לאווית
 lt = ליטאית
 ltg = לטגלית
 lv = לטבית
+lzz = לאזית
 mai = מאיטילי
 mdf = מוקשה
 mg = מלגשית
@@ -162,6 +166,7 @@ ps = פשטו
 pt = פורטוגלית
 quc = קיצ'ה
 quy = צ'אנקה-קצ'ואה
+qvi = קיצ'ואה
 rm-sursilv = רומאנש סורסילבן
 rm-vallader = רומאנס וואלאדר
 ro = רומנית
@@ -171,6 +176,8 @@ sah = סאחה
 sat = סנטאלי (אול צ׳יקי)
 sc = סרדינית
 scn = סיציליאנית
+sco = סקוטית
+sd = סינדית
 sdh = כורדית דרומית
 shi = תשלחית
 si = סינהלית
@@ -204,14 +211,16 @@ ty = טהיטית
 tyv = טובאנית
 uby = אוביחית
 udm = אודמורטית
-ug = אויגור
+ug = אויגורית
 uk = אוקראינית
 ur = אורדו
 uz = אוזבקית
 ve = ונדה
 vec = ונטית
 vi = וייטנאמית
+vmw = מקאוה
 vot = וודית
+wep = וסטפאלית
 wo = וולופית
 xh = קוסה
 yi = יידיש
@@ -242,7 +251,7 @@ privacy = פרטיות
 terms = תנאים
 cookies = עוגיות
 faq = תשובות לשאלות נפוצות
-content-license-text = התוכן זמין תחת <licenseLink>רישיון Creative Commons</licenseLink>
+content-license-text = התוכן זמין בכפוף ל<licenseLink>רישיון Creative Commons</licenseLink>
 share-title = עזרו לנו למצוא אחרים שיתרמו את קולם!
 share-text = מזמינים אותך לסייע ללמד מכונות איך אנשים אמתיים מדברים, באפשרותך לתרום את קולך דרך { $link }
 link-copied = קישור הועתק
@@ -270,10 +279,10 @@ vote-yes = כן
 vote-no = לא
 toggle-play-tooltip = יש ללחוץ על { shortcut-play-toggle } כדי להיכנס או לצאת ממצב השמעה
 speak-subtitle = תרמו את קולכם
-speak-paragraph = הקלטת מקטעי קול היא חלק עיקרי בהרכבת מערך הנתונים הפתוח שלנו; חלק מהאנשים יאמרו שזהו גם החלק הכיפי ביותר.
+speak-paragraph = הקלטת מקטעי קול היא חלק חיוני בהרכבת מערך הנתונים הפתוח שלנו; יש שיאמרו שזהו גם החלק הכיפי ביותר.
 speak-goal-text = מקטעים שהוקלטו
 listen-subtitle = עזרו לנו באימות קולות
-listen-paragraph = אימות של מקטעים שנתרמו חשוב באותה המידה למטרה של Common Voice. השאילו אוזן ועזרו לנו ליצור נתונים קוליים איכותיים ופתוחים.
+listen-paragraph = אימות של מקטעי קול חשוב לא פחות מהקלטתם למטרה של Common Voice. הטו אוזן ועזרו לנו ליצור נתונים קוליים איכותיים ופתוחים.
 listen-goal-text = מקטעים שאומתו
 hours-recorded = שעות שהוקלטו
 hours-validated = שעות שאומתו
@@ -402,8 +411,12 @@ native-language =
 profile-form-add-accent = הוספת מבטא חדש משלך "{ $inputValue }"
 profile-form-submit-save = שמירה
 profile-form-submit-saved = נשמר
-male = זכר
-female = נקבה
+male_masculine = גבר/גברי
+female_feminine = אישה/נשית
+intersex = אינטרסקס
+transgender = טרנסג'נדר
+non-binary = א-בינארי
+do_not_wish_to_say = אעדיף שלא לומר
 # Gender
 other = אחר
 why-profile-title = בשביל מה פרופיל?
@@ -411,7 +424,7 @@ why-profile-text = בכך שאתם משתפים מעט מידע אודותיכם
 dashboard = לוח בקרה
 build-profile = בניית פרופיל
 avatar = יצגן
-goals = מטרות
+goals = יעדים
 settings = הגדרות
 edit-profile = עריכת פרופיל
 profile-create-success = הצלחנו, הפרופיל נוצר!
@@ -439,6 +452,14 @@ help-accent = צריכים עזרה בקשר למבטא?
 help-accent-explanation = המבטא שלכם הוא האופן שבו אתם מבטאים מילים. הוא עשוי להיות מושפע ממקום מגוריכם, השפות הנוספות אותן אתם דוברים וגורמים רבים אחרים. באפשרותכם לחלוק כאן כל מידע שבעיניכם הוא רלוונטי.
 help-variants = צריכים עזרה בקשר לניב?
 help-variants-explanation = ניבים הם צורה מסוימת של שפה - למשל כזו המשותפת לאזור או קהילה מסוימת. לפעמים קוראים לזה דיאלקט או להג.
+help-sex-or-gender-changes = תרצו סיוע בנוגע לשינויים הנוגעים למין ומגדר?
+help-sex-or-gender-changes-explanation = הרחבנו את האפשרויות כך שתוכלו להיות עם יותר בחירה לגבי מידת השיתוף של הזהות המגדרית. אנא תארו עצמכן.ם באופן שמרגיש עבורכם.ן טבעי.  <learnMoreLink>קראו עוד אודות הגישה שלנו לגבי מין ומגדר.</learnMoreLink>
+variant-contribution-options-header = אפשרויות תרומה לפי ניב
+variant-contribution-help = ישנם ניבים או גרסאות של שפות הנבדלים אלה מאלה מאוד. אם נתקלתם בבעיה בניהול המערכת עם ניב מסויים, תוכלו לשנות את ההגדרות שלכם כאן.
+variant-contribution-option-1 = הראו לי משפטים ומקטעי קול מכל הניבים של השפה שלי
+variant-contribution-option-2 = הראו לי משפטים ומקטעי קול מהניב שלי בלבד
+variant-contribution-warning-title = ⓘ לא כל המשפטים ומקטעי הקול משוייכים לניב מסויים עדיין!
+variant-contribution-warning-subtitle = אם נתקלת בבעיות בתרומת הקול שלך, באפשרותך לחזור למצב המראה את כל התוכן המתאים לשפה שלך בכל עת.
 
 ## Profile - Email
 
@@ -664,6 +685,13 @@ about-playbook-how-project-governance-content-5 = ערך והכרה.
 about-playbook-how-project-governance-content-6 = אחריות הדדית.
 about-playbook-how-project-governance-content-7 = <governanceLink>קראו עוד על האופן שבו אנחנו מנוהלים</governanceLink>
 
+## How is Common Voice funded
+
+about-playbook-how-funded = כיצד Common Voice ממומן?
+about-playbook-how-funded-content-1 = מיזם Common Voice שייך לקרן Mozilla, עמותה לפי סעיף ‎501(c)(3)‎ בארה"ב. המיזם ממומן כיום לחלוטין באמצעות <philantropicGrantLink>מענקים פילנתרופיים</philantropicGrantLink>, ותרומות מאנשים ברחבי העולם.
+about-playbook-how-funded-content-2 = עולה לנו הרבה כסף לאחסן ולהפיץ את מערכי הנתונים באופן רציף, לשפר את המערכת ולהפעיל <africaMradiLink>תוכניות קהילה</africaMradiLink>.
+about-playbook-how-funded-content-3 = אם אתם או הארגון אליו אתם קשורים תרצו לתרום חזרה למיזם, תוכלו לתרום <donateLink>תרומה כספית</donateLink> או ליצור קשר עם צוות השותפויות שלנו בכתובת <emailFragment>commonvoice@mozilla.com</emailFragment>.
+
 ## Glossary
 
 glossary = מונחים
@@ -739,10 +767,12 @@ validated-hr-total = סה״כ שעות שאומתו
 overall-hr-total = סה״כ שעות
 cv-license = רישיון
 audio-format = פורמט אודיו
+dataset-splits = התפלגויות (גיל ומגדר)
 number-of-voices = מספר קולות
 splits = פיצולים
 email-to-download = נא להזין כתובת דוא״ל כדי להוריד
 why-email = <b>מדוע דוא"ל?</b> ייתכן שנצטרך ליצור איתך קשר בעתיד בנוגע לשינויים במערך הנתונים, דוא"ל מספק לנו נקודת קשר.
+why-donate-datasets-page = Common Voice של Mozilla הוא מערך נתוני הקול המגוון ביותר בעולם שנאסף במיקור המונים - ואנחנו פועלים לחלוטין באמצעות תרומות. העלות מגיעה כמעט למליון דולר ארה"ב בשנה על מנת לאחסן את מערכי הנתונים ולשפר את המערכת עבור 100+ קהילות השפה הנסמכות על עבודתינו. אם מידע פתוח ואינקלוסיבי חשוב עבורכם - <b>תרמו עוד היום!</b>
 confirm-size = עומדת להתחיל הורדה של <b>{ $size }</b>
 size-gigabyte = ג״ב
 size-megabyte = מ״ב
@@ -761,6 +791,8 @@ subscribe = הרשמה
 get-started-speech = התחילו לעבוד עם זיהוי דיבור
 other-datasets = מערכי נתוני קול נוספים
 feedback-q = יש לכם משוב?
+# This indicates that there is no data to display
+no-information = אין מידע
 resource-nemo-info = ™<githubLink>NVIDIA NeMo</githubLink> היא <docsLink>ערכת כלים בקוד פתוח</docsLink> עבור חוקרים המפתחים מודלים מתקדמים של AI לשיחות.
 resource-deepspeech-info = ניתן להשתמש במנוע הקוד הפתוח לזיהוי קול Deep Speech של Mozilla לבניית יישומי זיהוי דיבור. קראו את <githubLink>הסקירה הכללית שלנו ב- Github</githubLink> או הצטרפו ל<discourseLink>DeepSpeech Discourse</discourseLink> כדי ללמוד כיצד להתחיל.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> מוקדש לטכנולוגיות דיבור פתוחות. הפרויקטים שלהם כוללים מנועי STT ו-TTS מבוססי למידה עמוקה.
@@ -783,6 +815,15 @@ dataset-version = גרסה
 sha256-checksum-copied = קוד התקינות SHA256 הועתק!
 sha256-checksum-copied-error = לא היה ניתן להעתיק את קוד התקינות SHA256
 clipboard-not-supported = אין תמיכה בהעתקה והדבקה
+no-information-available = אין מידע זמין
+dataset-metadata-sex = מגדר
+# dataset metadata - age of contributor
+dataset-metadata-age = גיל
+donate-modal-message = מערך הנתונים כבר בהורדה!
+dataset-donate-modal-heading = הידעת…
+donate-modal-explanation-1 = על-מנת לארח את מערכי הנתונים ולשפר את המערכת עבור 100+ קהילות השפה הנסמכות על עבודתינו, נדרשים כמעט מליון דולר ארה"ב בשנה
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>אם מידע פתוח ואינקלוסיבי חשוב עבורכם - תרמו עוד היום!</bold>
 
 ## Download Modal
 
@@ -921,6 +962,7 @@ listen-again-instruction = עבודה טובה! <playIcon></playIcon> נא לה�
 listen-3rd-time-instruction = עברנו 2 <playIcon></playIcon>, קצב טוב!
 listen-last-time-instruction = <playIcon></playIcon> אחרון חביב!
 listen-empty-state = נגמרו לנו ההקלטות לאימות בשפה הזו…
+listen-empty-state-variants = נראה שאין יותר מקטעי קול בניב המסוים שבחרת עבור השפה שלך! באפשרותך לשנות את ההגדרות שלך כדי לשמוע מקטעים השייכים לניבים אחרים בשפה שלך.
 listen-loading-error =
     לא הצלחנו להשיג מקטעי שמע להאזנה.
     אנא נסו שוב מאוחר יותר.
@@ -928,6 +970,7 @@ listen-abort-title = להפסיק עם אימות המקטעים?
 listen-abort-cancel = להמשיך באימות
 listen-abort-confirm = להפסיק את האימות
 speak-empty-state = נגמרו לנו כל המשפטים להקלטה בשפה הזו...
+no-sentences-for-variants = נראה שאין יותר משפטים בניב המסויים שבחרת עבור השפה שלך! באפשרותך לשנות את ההגדרות כדי לראות משפטים השייכים לניבים אחרים בשפה שלך.
 speak-empty-state-cta = תרומת משפטים
 speak-loading-error =
     לא הצלחנו להביא אף משפט כדי שתדברו אותו.
@@ -941,6 +984,7 @@ target-segment-generic-card = אתם תורמים לפלח יעד מסויים
 target-segment-first-banner = עזרו ביצירת פלח היעד הראשון של Common Voice ב-{ $locale }
 target-segment-add-voice = הוספת הקול שלך
 target-segment-learn-more = מידע נוסף
+change-preferences = שינוי העדפות
 
 ## Contribution Nav Items
 
@@ -990,7 +1034,7 @@ validations =
 ## Dashboard
 
 your-languages = השפות שלך
-toward-next-goal = לקראת המטרה הבאה
+toward-next-goal = לקראת היעד הבא
 goal-reached = היעד הושג
 clips-you-recorded = מקטעים שהקלטת
 clips-you-validated = מקטעים שאימתת
@@ -1031,8 +1075,8 @@ lose-changes-warning = יציאה כעת תגרום לביטול השינויי�
 build-custom-goal = הרכבת יעד מותאם אישית
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
-        [one] עזרו להגיע לשעה אחת של ב{ $language } עם יעד אישי
-       *[other] עזרו להגיע ל-{ $hours } שעות ב{ $language } עם יעד אישי
+        [one] עזרו להגיע לשעה אחת של ב{ $language } באמצעות יעד אישי
+       *[other] עזרו להגיע ל-{ $hours } שעות ב{ $language } באמצעות יעד אישי
     }
 help-reach-hours-general-pluralized =
     { NUMBER($hours) ->
@@ -1590,6 +1634,9 @@ continue-speaking-button = לא תודה, להמשיך לדבר
 create-profile-text = רוצים לשמור את המידע שלכם? <createProfile>צרו פרופיל</createProfile>
 thanks-for-voice-toast = תודה לכם על המידע הקולי שלכם
 thanks-for-voice-toast-error = אירעה שגיאה בעת שליחת נתוני הקול שלך
+first-cta-gender-select-default-option = בחרו אפשרות
+first-cta-gender-select-help-text =
+    .label = כיצד תתאר.י את המין או המגדר שלך?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = תודה שתרמתם את קולכם!
 second-cta-subtitle-text = כאשר יש לכם פרופיל, באפשרותכם לעקוב אחר הפעילות שלכם ולהתחבר עם קהילת תורמי הקול.
@@ -1650,6 +1697,7 @@ public-domain = נחלת הכלל
 citing-sentences = ציטוט משפטים
 adding-sentences = הוספת משפטים
 reviewing-sentences = סקירת משפטים
+sentence-domain = תחום העניין
 public-domain-explanation-1 = חשוב מאוד שכל המשפטים יהיו <publicDomain>בנחלת הכלל</publicDomain> (<cc0>CC0</cc0>) שכן מערך הנתונים Common Voice משוחרר תחת רישיון CC0. העלו משפט כלשהו רק אם אתם בטוחים, והכלילו תמיד ציטוט רלוונטי.
 public-domain-explanation-2 = המשפטים הטובים ביותר לבניית מנוע לזיהוי דיבור הם אלה הכתובים בדיבור רגיל ומודרני. כמה רעיונות שיעזרו לכם ליצור משפטים הם;
 public-domain-explanation-3 = צרו משפטים בדיבור רגיל ומודרני בעצמכם, עם חברים או עם קהילת השפה שלכם  - למשל תוך הפקת אירוע בסכנון "מסיבת כתיבת משפטים".
@@ -1688,13 +1736,16 @@ reviewing-sentences-explanation-1 = אם המשפט עומד בתנאים שלע
 reviewing-sentences-explanation-2 = אם המשפט לא עומד בתנאים שלעיל, יש ללחוץ על הכפתור "לא".
 reviewing-sentences-explanation-3 = אם אינכם בטוחים לגבי המשפט, באפשרותכם לדלג עליו ולעבור למשפט הבא.
 reviewing-sentences-explanation-4 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
-# WRITE PAGE
+domain-explanation = תחום העניין נוגע לנושא המשפט. באפשרותך לבחור מבין:
+
+## WRITE PAGE
+
 write-instruction = הוסיפו <icon></icon> משפט המצוי בנחלת הכלל
 write-page-subtitle = משפטים שנתרמו כאן יתווספו למערך נתונים פומבי ברישיון CC0.
 sentence =
     .label = משפט
 sentence-input-value = הזינו כאן משפט המצוי בנחלת הכלל
-citation-input-value = מקור המשפטים שלכם
+citation-input-placeholder = התייחסות למקור ממנו נלקח המשפט (חובה למלא)
 citation =
     .label = ציטוט מקור
 sc-write-submit-confirm = אני מאשר\ת כי משפט זה מצוי ב<wikipediaLink>נחלת הכלל</wikipediaLink> ויש לי רשות להעלות אותו.
@@ -1719,6 +1770,69 @@ single-sentence-submission = שליחת משפט בודד
 bulk-sentence-submission = שליחת מאגד של משפטים
 single-sentence = משפט בודד
 bulk-sentences = מאגד משפטים
+sentence-domain-combobox-label = תחום העניין
+sentence-domain-select-placeholder = בחרו עד שלושה תחומים (לא חובה למלא)
+# Sentence Domain dropdown option
+agriculture_food = חקלאות ומזון
+# Sentence Domain dropdown option
+automotive_transport = רכב ותחבורה
+# Sentence Domain dropdown option
+finance = כלכלה
+# Sentence Domain dropdown option
+service_retail = שירות וקמעונאות
+# Sentence Domain dropdown option
+general = כללי
+# Sentence Domain dropdown option
+healthcare = בריאות
+# Sentence Domain dropdown option
+history_law_government = היסטוריה, משפט וממשל
+# Sentence Domain dropdown option
+language_fundamentals = יסודות השפה (למשל ספרות, אותיות, כסף)
+# Sentence Domain dropdown option
+media_entertainment = תקשורת ובידור
+# Sentence Domain dropdown option
+nature_environment = סביבה וטבע
+# Sentence Domain dropdown option
+news_current_affairs = חדשות ואקטואליה
+# Sentence Domain dropdown option
+technology_robotics = טכנולוגיה ורובוטיקה
+sentence-variant-select-label = ניב השפה
+sentence-variant-select-placeholder = בחרו ניב (לא חובה למלא)
+sentence-variant-select-multiple-variants = שפה כללית / מספר ניבים
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = אלגרס
+ca-central = מרכזי
+ca-balear = בלארי
+ca-nwestern = צפון-מערבי
+ca-northern = צפוני
+ca-valencia-tortosi = ולנסית של טורטוסה
+ca-valencia-central = מרכז ולנסיה
+ca-valencia-northern = צפון ולנסיה
+ca-valencia-southern = דרום ולנסיה
+ca-valencia-alacant = ולנסית של אליקנטה
+cy-northwes = ולשית צפון-מערבית
+cy-northeas = ולשית צפון-מזרחית
+cy-midwales = ולשית מרכז
+cy-southwes = ולשית דרום-מערבית
+cy-southeas = ולשית דרום-מזרחית
+cy-wladfa = ולשית פטגונית
+pt-BR = פורטוגלית (ברזיל)
+pt-PT = פורטוגלית (פורטוגל)
+sw-sanifu = סווהילי-סניפו (מזרח אפריקה)
+sw-barake = סהווילי של קניה
+sw-baratz = סהווילי של טנזניה
+sw-kingwana = קינגוואנה (הרפובליקה הדמוקרטית של קונגו)
+sw-kimvita = קימוויטה - ניב מרכזי
+sw-kibajuni = באג'וני (קניה) - ניב צפוני
+sw-kimrima = קימרימה - ניב צפוני
+sw-kiunguja = אונגוג'ה (טנזניה) - ניב דרומי
+sw-kipemba = קיפמבה - ניב דרומי
+sw-kikae = מקונדוצ'י / קאה (טנזניה) - ניב דרומי
+zgh-shi = תשלחית
+zgh-tzm = תאמאזיגת מרכז-אטלס
+zgh-rif = תריפית
 
 ## REVIEW PAGE
 
@@ -1742,6 +1856,8 @@ sc-redirect-page-subtitle-2 = שאלו אותנו שאלות ב-<matrixLink>Matr
 sc-bulk-upload-header = העלו <icon></icon> משפטים המצויים בנחלת הכלל
 sc-bulk-upload-instruction = גררו את הקובץ הנה או <uploadButton>לחצו להעלאה</uploadButton>
 sc-bulk-upload-instruction-drop = שחררו את הקובץ כאן להעלאה
+bulk-upload-additional-information = אם יש מידע נוסף שבצונך לשתף על הקובץ הזה, יש ליצור קשר עם <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = אם יש מידע נוסף שברצונך לשתף על הקובץ הזה שאינו כלול בתבנית, יש ליצור קשר עם <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = נסו מחדש לגרור את הקובץ הנה
 try-upload-again-md = נסו להעלות שוב
 select-file = בחירת קובץ
@@ -1761,3 +1877,13 @@ file-invalid-type = הקובץ מסוג לא מתאים
 file-too-large = הקובץ גדול מידי
 file-too-small = הקובץ קטן מידי
 too-many-files = יותר מידי קבצים
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>אנו זקוקים</mark><br/><mark>לעזרתך!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = העלות מגיעה כמעט למליון דולר ארה"ב בשנה על מנת לאחסן את מערכי הנתונים ולשפר את המערכת עבור 100+ קהילות השפה הנסמכות על עבודתינו. <strong>אם מידע פתוח ואינקלוסיבי חשוב עבורכם - תרמו עוד היום!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>משתמשים ב-CV</mark><br/><mark>במחקר שלכם?</mark>
+languages-donate-banner-cta-explanation = מיזם Common Voice ממומן באמצעות תרומות ומענקים! אנחנו אוהבים שיתופי פעולה עם חוקרים אקדמאיים, מהתעשייה ושל חברה אזרחית. Common Voice הינו חינם לשימוש, אך תרומה לעלויות אחזקת המערכת ואחסון הנתונים דרך בקשות למענקים תעזור מאוד.

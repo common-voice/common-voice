@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Localized } from '@fluent/react';
-import URLS from '../../../../urls'
+import URLS from '../../../../urls';
 
 import {
   ArrowRight,
@@ -58,11 +58,24 @@ const NoSentencesAvailable = () => (
       <h1>
         <Localized id="speak-empty-state" />
       </h1>
-      <LinkButton
-        rounded
-        to={URLS.WRITE}>
+      <LinkButton rounded to={URLS.WRITE}>
         <ArrowRight className="speak-sc-icon" />{' '}
         <Localized id="speak-empty-state-cta">
+          <span />
+        </Localized>
+      </LinkButton>
+    </div>
+  </div>
+);
+
+const NoSentencesAvailableForVariant = () => (
+  <div className="empty-container">
+    <div className="error-card no-sentences-for-variants">
+      <h1>
+        <Localized id="no-sentences-for-variants" />
+      </h1>
+      <LinkButton rounded to={URLS.PROFILE_INFO} className="settings-btn">
+        <Localized id="settings">
           <span />
         </Localized>
       </LinkButton>
@@ -88,6 +101,7 @@ interface Props {
   hasLoadingError: boolean;
   isUnsupportedPlatform: boolean;
   isMissingClips: boolean;
+  isMissingClipsForVariant: boolean;
 }
 
 const SpeakErrorContent = ({
@@ -95,6 +109,7 @@ const SpeakErrorContent = ({
   hasLoadingError,
   isUnsupportedPlatform,
   isMissingClips,
+  isMissingClipsForVariant,
 }: Props) => {
   if (isLoading) {
     return null;
@@ -106,6 +121,10 @@ const SpeakErrorContent = ({
 
   if (isUnsupportedPlatform) {
     return <UnsupportedInfo />;
+  }
+
+  if (isMissingClipsForVariant) {
+    return <NoSentencesAvailableForVariant />;
   }
 
   if (isMissingClips) {

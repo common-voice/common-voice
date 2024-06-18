@@ -469,6 +469,12 @@ help-variants = Angen cymorth gydag amrywiadau?
 help-variants-explanation = Mae amrywiadau yn ffurf benodol ar iaith - er enghraifft sy'n cael eu rhannu gan y rhai sy'n byw mewn ardal ddaearyddol neu gymuned. Weithiau mae'r rhain yn cael eu galw'n dafodieithoedd.
 help-sex-or-gender-changes = Angen help gyda'r newidiadau Rhyw neu Rywedd?
 help-sex-or-gender-changes-explanation = Rydym yn cynnig mwy o ddewisiadau i bobl o ran yr hyn y maen nhw'n ei ddweud wrthym am eu hunaniaeth o ran eu rhyw neu rywedd. Disgrifiwch eich hun yn y ffordd sy'n teimlo'n fwyaf naturiol i chi. <learnMoreLink>Darllen rhagor am ein hagwedd tuag at ryw a rhywedd.</learnMoreLink>
+variant-contribution-options-header = Dewisiadau Cyfraniad Amrywiol
+variant-contribution-help = Mae rhai amrywiadau a thafodieithoedd o fewn iaith neu deulu iaith yn wahanol iawn i'w gilydd. Os ydych chi'n cael trafferth cyfrannu o amgylch amrywiad penodol, gallwch chi newid eich dewisiadau yma.
+variant-contribution-option-1 = Dim ond dangos brawddegau a chlipiau o fy amrywiad i i mi
+variant-contribution-option-2 = Dangos i mi frawddegau a chlipiau o bob amrywiad o fewn fy iaith
+variant-contribution-warning-title = ⓘ Nid oes gan bob brawddeg a chlip dagiau Amrywiad eto!
+variant-contribution-warning-subtitle = Os ydych chi'n cael trafferth cyfrannu, gallwch newid yn ôl i weld yr holl gynnwys eich iaith ar unrhyw adeg.
 
 ## Profile - Email
 
@@ -985,6 +991,7 @@ listen-again-instruction = Da iawn! <playIcon> </playIcon> Gwrandewch eto pan fy
 listen-3rd-time-instruction = 2 i lawr <playIcon> </playIcon> , daliwch ati!
 listen-last-time-instruction = <playIcon> </playIcon> Yr un olaf!
 listen-empty-state = Does dim rhagor o glipiau i'w dilysu yn yr iaith hon...
+listen-empty-state-variants = Efallai nad oes rhagor o glipiau ar gyfer eich amrywiad iaith! Os ydych chi'n fodlon, gallwch chi newid eich gosodiadau i weld brawddegau eraill yn eich iaith.
 listen-loading-error =
     Does dim rhagor o glipiau sain i chi wrando arnyn nhw.
     Ceisiwch eto, rhywbryd eto.
@@ -992,6 +999,7 @@ listen-abort-title = Wedi gorffen dilysu clipiau?
 listen-abort-cancel = Parhau i ddilysu
 listen-abort-confirm = Gorffen dilysu
 speak-empty-state = Does dim rhagor o frawddegau i'w recordio yn yr iaith hon...
+no-sentences-for-variants = Efallai nad oes rhagor o glipiau ar gyfer eich amrywiad iaith! Os ydych chi'n fodlon, gallwch chi newid eich gosodiadau i weld brawddegau eraill yn eich iaith.
 speak-empty-state-cta = Cyfrannu brawddegau
 speak-loading-error =
     Does dim rhagor o frawddegau i chi eu llefaru.
@@ -1005,6 +1013,7 @@ target-segment-generic-card = Rydych yn cyfrannu at segment targed
 target-segment-first-banner = Helpwch i greu segment targed cyntaf Common Voice yn { $locale }
 target-segment-add-voice = Ychwanegwch Eich Llais
 target-segment-learn-more = Dysgu Rhagor
+change-preferences = Newid dewisiadau
 
 ## Contribution Nav Items
 
@@ -1840,7 +1849,7 @@ write-page-subtitle = Bydd brawddegau sy'n cael eu cyfrannu yma yn cael eu hychw
 sentence =
     .label = Brawddeg
 sentence-input-value = Rhowch eich brawddeg parth cyhoeddus yma
-citation-input-value = Ffynhonnell eich brawddeg
+citation-input-placeholder = Cyfeiriwch at ffynhonnell eich brawddeg (gofynnol)
 citation =
     .label = Cyfeirio
 sc-write-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
@@ -1865,17 +1874,16 @@ single-sentence-submission = Cyflwyno Un Frawddeg
 bulk-sentence-submission = Cyflwyno Brawddegau Lluosog
 single-sentence = Un Frawddeg
 bulk-sentences = Brawddegau Lluosog
-sentence-domain-select =
-    .label = Parth Brawddeg
+sentence-domain-combobox-label = Parth Brawddeg
 sentence-domain-select-placeholder = Dewiswch hyd at dri pharth
 # Sentence Domain dropdown option
-agriculture = Amaethyddiaeth
+agriculture_food = Amaeth a Bwyd
 # Sentence Domain dropdown option
-automotive = Modurol
+automotive_transport = Modurol a Thrafnidiaeth
 # Sentence Domain dropdown option
 finance = Cyllid
 # Sentence Domain dropdown option
-food_service_retail = Bwyd, Gwasanaethau a Manwerthu
+service_retail = Gwasanaeth a Manwerthu
 # Sentence Domain dropdown option
 general = Cyffredinol
 # Sentence Domain dropdown option
@@ -1892,6 +1900,43 @@ nature_environment = Natur a'r Amgylchedd
 news_current_affairs = Newyddion a Materion Cyfoes
 # Sentence Domain dropdown option
 technology_robotics = Technoleg a Roboteg
+sentence-variant-select-label = Amrywiad Brawddeg
+sentence-variant-select-placeholder = Dewiswch amrywiad (dewisol)
+sentence-variant-select-multiple-variants = Iaith gyffredinol / amrywiadau lluosog
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Alguerès
+ca-central = Canolog
+ca-balear = Balear
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Cymraeg y Gogledd-Orllewin
+cy-northeas = Cymraeg y Gogledd-Ddwyrain
+cy-midwales = Cymraeg Canolbarth Cymru
+cy-southwes = Cymraeg y De-Orllewin
+cy-southeas = Cymraeg y De-Ddwyrain
+cy-wladfa = Cymraeg Patagonia
+pt-BR = Portiwgaleg (Brasil)
+pt-PT = Portiwgaleg (Portiwgal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Tafodiaith ganolog
+sw-kibajuni = Kibajuni (KE) - Tafodiaith ogleddol
+sw-kimrima = Kimrima (TZ) - tafodiaith ogleddol
+sw-kiunguja = Kiunguja (TZ) - tafodiaith ddeheuol
+sw-kipemba = Kipemba (TZ) - tafodiaith ddeheuol
+sw-kikae = Kimakunduchi/Kikae (TZ) - tafodiaith ddeheuol
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Tamazight Canol yr Atlas)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Taifit)
 
 ## REVIEW PAGE
 

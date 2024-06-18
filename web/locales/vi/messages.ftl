@@ -447,6 +447,12 @@ help-variants = Cần một số trợ giúp với biến thể?
 help-variants-explanation = Biến thể là một dạng cụ thể của một ngôn ngữ - ví dụ như được chia sẻ bởi những người sống trong một khu vực địa lý hoặc cộng đồng. Đôi khi chúng được gọi là tiếng địa phương.
 help-sex-or-gender-changes = Cần trợ giúp về việc thay đổi giới tính?
 help-sex-or-gender-changes-explanation = Chúng tôi đang cung cấp nhiều lựa chọn hơn để giúp mọi người có nhiều lựa chọn hơn trong những gì họ cho chúng tôi biết về giới tính của họ. Hãy tự miêu tả theo cách mà bạn cảm thấy tự nhiên nhất. <learnMoreLink>Tìm hiểu thêm về cách tiếp cận của chúng tôi về giới tính.</learnMoreLink>
+variant-contribution-options-header = Tuỳ chọn biến thể để đóng góp
+variant-contribution-help = Một số biến thể và phương ngữ trong một ngôn ngữ hoặc họ ngôn ngữ rất khác nhau. Nếu gặp khó khăn khi tham gia vào một biến thể cụ thể, bạn có thể thay đổi tùy chỉnh của mình tại đây.
+variant-contribution-option-1 = Hiển thị cho tôi các câu và clip từ tất cả các biến thể trong ngôn ngữ của tôi
+variant-contribution-option-2 = Chỉ hiển thị cho tôi các câu và clip từ biến thể của tôi
+variant-contribution-warning-title = ⓘ Không phải tất cả các câu và clip đều có tag Biến thể!
+variant-contribution-warning-subtitle = Nếu gặp khó khăn khi đóng góp, bạn có thể quay lại xem tất cả nội dung bằng ngôn ngữ của mình bất kỳ lúc nào.
 
 ## Profile - Email
 
@@ -960,6 +966,7 @@ listen-again-instruction = Làm tốt lắm!<playIcon></playIcon> Nghe lại khi
 listen-3rd-time-instruction = 2 cái đã xong, cố gắng lên!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Cái cuối cùng!
 listen-empty-state = Chúng tôi đã hết đoạn thoại để xác thực bằng ngôn ngữ này...
+listen-empty-state-variants = Biến thể ngôn ngữ của bạn có thể đã hết clip! Nếu thấy thoải mái, bạn có thể thay đổi cài đặt để xem các câu khác bằng ngôn ngữ của mình.
 listen-loading-error =
     Chúng tôi không thể nhận được bất kỳ đoạn âm thanh nào để bạn nghe.
     Vui lòng thử lại sau.
@@ -967,6 +974,7 @@ listen-abort-title = Hoàn tất xác thực clip?
 listen-abort-cancel = Tiếp tục xác thực
 listen-abort-confirm = Hoàn tất xác thực
 speak-empty-state = Chúng tôi đã hết câu để ghi lại bằng ngôn ngữ này...
+no-sentences-for-variants = Biến thể ngôn ngữ của bạn có thể đã hết câu! Nếu thấy thoải mái, bạn có thể thay đổi cài đặt để xem các câu khác bằng ngôn ngữ của mình.
 speak-empty-state-cta = Đóng góp câu
 speak-loading-error =
     Chúng tôi không thể nhận được bất kỳ câu nào để bạn nói.
@@ -980,6 +988,7 @@ target-segment-generic-card = Bạn đang đóng góp cho một phân đoạn m�
 target-segment-first-banner = Giúp tạo phân đoạn mục tiêu đầu tiên của Common Voice trong { $locale }
 target-segment-add-voice = Thêm giọng nói của bạn
 target-segment-learn-more = Tìm hiểu thêm
+change-preferences = Thay đổi tùy chỉnh
 
 ## Contribution Nav Items
 
@@ -1735,6 +1744,7 @@ public-domain = Phạm vi công cộng
 citing-sentences = Trích dẫn câu
 adding-sentences = Thêm câu
 reviewing-sentences = Xem lại câu
+sentence-domain = Phạm vi của câu
 public-domain-explanation-1 = Điều rất quan trọng là tất cả các câu văn bản đều là <publicDomain>phạm vi công cộng</publicDomain> (<cc0>cc0</cc0>) vì bộ dữ liệu Common Voice được phát hành theo giấy phép cc0. Chỉ tải lên một câu nếu bạn chắc chắn và luôn bao gồm trích dẫn có liên quan.
 public-domain-explanation-2 = Các câu tốt nhất để xây dựng một công cụ nhận dạng giọng nói hữu ích là cách nói thông tục, hiện đại. Một số ý tưởng để giúp bạn tạo câu là;
 public-domain-explanation-3 = Tạo các câu thông tục, hiện đại của chính bạn hoặc với bạn bè hoặc cộng đồng ngôn ngữ của bạn - ví dụ như thông qua 'write-a-thon'
@@ -1773,6 +1783,7 @@ reviewing-sentences-explanation-1 = Nếu câu đáp ứng các tiêu chí trên
 reviewing-sentences-explanation-2 = Nếu câu không đáp ứng các tiêu chí trên, hãy nhấp vào nút "Không".
 reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu đó, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
 reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
+domain-explanation = Phạm vi đề cập đến chủ đề của câu. Hiện tại, bạn có thể chọn giữa:
 
 ## WRITE PAGE
 
@@ -1781,7 +1792,7 @@ write-page-subtitle = Các câu được đóng góp ở đây sẽ được th�
 sentence =
     .label = Câu
 sentence-input-value = Nhập câu thuộc phạm vi công cộng của bạn vào đây
-citation-input-value = Nguồn câu của bạn
+citation-input-placeholder = Dẫn nguồn câu của bạn (bắt buộc)
 citation =
     .label = Nguồn trích dẫn
 sc-write-submit-confirm = Tôi xác nhận rằng câu này thuộc <wikipediaLink>phạm vi công cộng</wikipediaLink> và tôi có quyền tải nó lên.
@@ -1806,14 +1817,16 @@ single-sentence-submission = Gửi câu riêng lẻ
 bulk-sentence-submission = Gửi hàng loạt câu
 single-sentence = Câu đơn
 bulk-sentences = Hàng loạt câu
+sentence-domain-combobox-label = Phạm vi của câu
+sentence-domain-select-placeholder = Chọn tối đa ba miền
 # Sentence Domain dropdown option
-agriculture = Nông nghiệp
+agriculture_food = Nông nghiệp và thực phẩm
 # Sentence Domain dropdown option
-automotive = Công nghiệp ô tô
+automotive_transport = Ô tô và vận tải
 # Sentence Domain dropdown option
 finance = Tài chính
 # Sentence Domain dropdown option
-food_service_retail = Thực phẩm, dịch vụ và bán lẻ
+service_retail = Dịch vụ và bán lẻ
 # Sentence Domain dropdown option
 general = Tổng quát
 # Sentence Domain dropdown option
@@ -1830,6 +1843,43 @@ nature_environment = Thiên nhiên và môi trường
 news_current_affairs = Tin tức và thời sự
 # Sentence Domain dropdown option
 technology_robotics = Công nghệ và máy móc
+sentence-variant-select-label = Biến thể câu
+sentence-variant-select-placeholder = Chọn một biến thể (tùy chọn)
+sentence-variant-select-multiple-variants = Ngôn ngữ chung / nhiều biến thể
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Alguerès
+ca-central = Central
+ca-balear = Balear
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Tây Bắc xứ Wales
+cy-northeas = Đông Bắc xứ Wales
+cy-midwales = Miền Trung xứ Wales
+cy-southwes = Tây Nam xứ Wales
+cy-southeas = Đông Nam xứ Wales
+cy-wladfa = Patagonia xứ Wales
+pt-BR = Bồ Đào Nha (Brasil)
+pt-PT = Bồ Đào Nha (Bồ Đào Nha)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Tên (KE) - Phương ngữ miền Trung
+sw-kibajuni = Kibajuni (KE) - Phương ngữ miền Bắc
+sw-kimrima = Kimrima (TZ) - Phương ngữ miền Bắc
+sw-kiunguja = Kiunguja (TZ) - Phương ngữ miền Nam
+sw-kipemba = Kipemba (TZ) - Phương ngữ miền Nam
+sw-kikae = Kimakunduchi/Kikae (TZ) - Phương ngữ miền Nam
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

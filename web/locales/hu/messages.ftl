@@ -61,7 +61,7 @@ cy = Walesi
 da = Dán
 dag = Dagbani
 de = Német
-dsb = Szorb, alsó
+dsb = Alsószorb
 dv = Divehi
 dyu = Dioula
 el = Görög
@@ -76,22 +76,24 @@ ff = Fula
 fi = Finn
 fo = Feröeri
 fr = Francia
+fuf = Guineai ful
 fy-NL = Fríz
 ga-IE = Ír
 gl = Galícia
 gn = Guarani
 gom = Goan konkani
 gu-IN = Gudzsaráti
+guc = Wayúunaiki
 ha = Hausza
 he = Héber
 hi = Hindi
 hil = Hiligaynon
 hr = Horvát
-hsb = Szorb, felső
+hsb = Felsőszorb
 ht = Haiti
 hu = Magyar
 hy-AM = Örmény
-hyw = Nyugati-örmény
+hyw = Nyugati örmény
 ia = Interlingva
 id = Indonéz
 ie = Interlingue
@@ -124,6 +126,7 @@ lo = Lao
 lt = Litván
 ltg = Latgal
 lv = Lett
+lzz = Láz
 mai = Maithili
 mdf = Moksa
 mg = Malgas
@@ -157,12 +160,13 @@ om = Oromo
 or = Orija
 os = Oszét
 pa-IN = Pandzsábi
-pap-AW = Papiamento (Aruba)
+pap-AW = Papiamento (arubai)
 pl = Lengyel
 ps = Pastu
 pt = Portugál
 quc = K'iche'
 quy = Kecsua chanka
+qvi = Kecsua
 rm-sursilv = Romans sursilvan
 rm-vallader = Romans vallader
 ro = Román
@@ -185,7 +189,7 @@ so = Szomáli
 sq = Albán
 sr = Szerb
 ss = Szvázi
-st = Szeszotó
+st = Déli szeszotó
 sv-SE = Svéd
 sw = Szuahéli
 syr = Szír
@@ -979,6 +983,7 @@ target-segment-generic-card = Közreműködik egy célszegmensben
 target-segment-first-banner = Segítsen a Common Voice első { $locale } célszegmensének létrehozásában
 target-segment-add-voice = Adja a hangját
 target-segment-learn-more = További tudnivalók
+change-preferences = Beállítások módosítása
 
 ## Contribution Nav Items
 
@@ -1747,7 +1752,7 @@ write-page-subtitle = Az itt beküldött mondatok egy nyilvánosan elérhető, c
 sentence =
     .label = Mondat
 sentence-input-value = Írja ide a közkincsű mondatot
-citation-input-value = A mondat forrása
+citation-input-placeholder = Hivatkozás a mondat forrására (kötelező)
 citation =
     .label = Idézet
 sc-write-submit-confirm = Megerősítem, hogy ez a mondat <wikipediaLink>közkincs</wikipediaLink>, és engedéllyel töltöm fel.
@@ -1772,17 +1777,16 @@ single-sentence-submission = Egy mondatos beküldés
 bulk-sentence-submission = Mondatok tömeges beküldése
 single-sentence = Egyetlen mondat
 bulk-sentences = Több mondat
-sentence-domain-select =
-    .label = Mondatdomén
+sentence-domain-combobox-label = Mondatdomén
 sentence-domain-select-placeholder = Válasszon legfeljebb három domént
 # Sentence Domain dropdown option
-agriculture = Mezőgazdaság
+agriculture_food = Mezőgazdaság és élelmezés
 # Sentence Domain dropdown option
-automotive = Autóipar
+automotive_transport = Autóipar és szállítás
 # Sentence Domain dropdown option
 finance = Pénzügy
 # Sentence Domain dropdown option
-food_service_retail = Élelmiszer, szolgáltatás és kiskereskedelem
+service_retail = Szolgáltatás és kiskereskedelem
 # Sentence Domain dropdown option
 general = Általános
 # Sentence Domain dropdown option
@@ -1799,6 +1803,35 @@ nature_environment = Természet és környezetvédelem
 news_current_affairs = Hírek és aktuális témák
 # Sentence Domain dropdown option
 technology_robotics = Technológia és robotika
+sentence-variant-select-label = Mondatváltozat
+sentence-variant-select-placeholder = Válasszon változatot (nem kötelező)
+sentence-variant-select-multiple-variants = Általános nyelv / több változat
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Katalán (algherói)
+ca-central = Középső
+ca-balear = Baleári
+ca-nwestern = Északnyugati
+ca-northern = Északi
+ca-valencia-tortosi = Tortosai
+ca-valencia-central = Közép-valenciai
+ca-valencia-northern = Észak-valenciai
+ca-valencia-southern = Dél-valenciai
+ca-valencia-alacant = Alicantei
+cy-northwes = Északnyugati walesi
+cy-northeas = Északkeleti walesi
+cy-midwales = Közép-walesi
+cy-southwes = Délnyugati walesi
+cy-southeas = Délkeleti walesi
+cy-wladfa = Patagóniai walesi
+pt-BR = Portugál (brazíliai)
+pt-PT = portugál (portugáliai)
+sw-kimvita = Kimvita (Kenya) – Középső dialektus
+sw-kimrima = Kimrima (Tanzánia) – Északi dialektus
+sw-kiunguja = Kimrima (Tanzánia) – Déli dialektus
+sw-kipemba = Kipemba (Tanzánia) – Északi dialektus
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Közép-atlaszi tamazight)
 
 ## REVIEW PAGE
 

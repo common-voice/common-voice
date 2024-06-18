@@ -453,6 +453,12 @@ help-variants = ۋارىيانتلارغا ئازراق ياردەم كېرەك�
 help-variants-explanation = ۋارىيانتلار بىر تىلنىڭ، مەسىلەن مەلۇم جۇغراپىيەلىك ماكان ياكى مەلۇم رايوندىكى خەلقلەرنىڭ ئۆزىگە خاس ئالاھىدىلىكى بولۇپ ھېسابلىنىدۇ. بەزىدە بۇلار دىيالېكت دەپمۇ ئاتىلىدۇ.
 help-sex-or-gender-changes = جىنىس ياكى جىنس ئۆزگەرتىشتە ياردەمگە ئېھتىياجلىقمۇ؟
 help-sex-or-gender-changes-explanation = بىز كىشىلەرنىڭ جىنسى ياكى جىنسى كىملىكى ھەققىدە بىزگە نېمىلەرنى دېيىشى ھەققىدە تېخىمۇ كۆپ تاللاش پۇرسىتى بىلەن تەمىنلەۋاتىمىز. ئۆزىڭىزگە ئەڭ تەبىئىي تۇيۇلىدىغان شەكىلدە ئۆزىڭىزنى تەسۋىرلەڭ. <learnMoreLink> جىنس ۋە جىنسقا بولغان قارىشىمىز ھەققىدىكى تەپسىلاتلار. </learnMoreLink>
+variant-contribution-options-header = ھەرخىل تۆھپە تاللانمىلىرى
+variant-contribution-help = تىل ياكى تىل ئائىلىسىدىكى بەزى شېۋە ۋە دىيالېكتلار بىر-بىرىدىن تۈپتىن پەرقلىق بولىدۇ. ئەگەر سىز مەلۇم بىر شېۋىنى چۈشەنمەي قالسىڭىز، مايىللىقىڭىزنى بۇ يەردە ئۆزگەرتەلەيسىز.
+variant-contribution-option-1 = تىلىمدىكى بارلىق شېۋىدىكى جۈملە ۋە ئۈن ئۈزۈندىلىرىنى كۆرسەت
+variant-contribution-option-2 = شېۋەمدىكى جۈملە ۋە ئۈن ئۈزۈندىلىرىنىلا كۆرسەت
+variant-contribution-warning-title = ⓘھەممە جۈملە ۋە ئۈن ئۈزۈندىسىنىڭ شېۋە بەلگىسى بولۇشى ناتايىن!
+variant-contribution-warning-subtitle = تۆھپە قوشۇشتا مەسىلىگە يولۇقسىڭىز، تىلىڭىزدىكى بارلىق مەزمۇنلارنى خالىغان ۋاقىتتا كۆرەلەيسىز.
 
 ## Profile - Email
 
@@ -961,6 +967,7 @@ listen-again-instruction = يارايسىز! <playIcon></playIcon> تەييار 
 listen-3rd-time-instruction = ئىككىسى تۈگىدى ، داۋاملاشتۇرۇڭ! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon></playIcon> ئەڭ ئاخىرقىسى!
 listen-empty-state = بۇ تىلدىكى دەلىللەيدىغان ئاۋازلار تۈگىدى...
+listen-empty-state-variants = تىل شېۋىڭىزنىڭ ئۈن ئۈزۈندىلىرى بىر تەرەپ قىلىنىپ بولغان بولۇشى مۇمكىن، ئەگەر قۇلاي بولسا، تەڭشىكىڭىزنى ئۆزگەرتىپ تىلىڭىزدىكى باشقا جۈملىلەرنى كۆرۈڭ.
 listen-loading-error =
     بىزدە سىزگە ئاڭلاتقۇدەك ھېچقانداق ئاۋاز پارچىسى يوق.
     سەل تۇرۇپ قايتا سىناڭ.
@@ -968,6 +975,7 @@ listen-abort-title = ئۈن ئۈزۈمدە دەلىللەشنى تاماملام
 listen-abort-cancel = دەلىللەشنى داۋاملاشتۇر
 listen-abort-confirm = دەلىللەش تامام
 speak-empty-state = بۇ تىلدىكى ئۈنگە ئالدىغان جۈملىلەر تۈگىدى...
+no-sentences-for-variants = تىل شېۋىڭىزنىڭ جۈملىلىرى بىر تەرەپ قىلىنىپ بولغان بولۇشى مۇمكىن، ئەگەر قۇلاي بولسا، تەڭشىكىڭىزنى ئۆزگەرتىپ تىلىڭىزدىكى باشقا جۈملىلەرنى كۆرۈڭ.
 speak-empty-state-cta = جۈملىلەرنى قوشۇڭ
 speak-loading-error = ۋاقتىنچە ئۈنگە ئالىدىغان جۈملە يوق. سەل تۇرۇپ قايتا سىناڭ.
 record-button-label = ئاۋازىڭىزنى ئۈنگە ئېلىڭ
@@ -979,6 +987,7 @@ target-segment-generic-card = سىز بىر نىشان بۆلىكىگە تۆھپ
 target-segment-first-banner = Common Voice نىڭ { $locale } تىكى بىرىنچى نىشان بۆلىكىنى قۇرۇشقا ياردەملىشىڭ
 target-segment-add-voice = ئاۋازىڭىزنى قوشۇڭ
 target-segment-learn-more = تەپسىلاتى
+change-preferences = مايىللىقنى ئۆزگەرت
 
 ## Contribution Nav Items
 
@@ -1734,7 +1743,7 @@ write-page-subtitle = بۇ جايدا تۆھپە قوشۇلغان جۈملىلە
 sentence =
     .label = جۈملە
 sentence-input-value = ئاممىۋى دائىرىدىكى جۈملىنى بۇ جايغا كىرگۈزۈڭ
-citation-input-value = جۈملىڭىزنىڭ مەنبەسى
+citation-input-placeholder = جۈملىڭىزنىڭ پايدىلانما مەنبەسى (زۆرۈر)
 citation =
     .label = نەقىل
 sc-write-submit-confirm = مەن بۇ جۈملىنىڭ <wikipediaLink>ئاممىۋى دائىرە</wikipediaLink> دە ئىكەنلىكىنى جەزملەشتۈرىمەن ھەمدە ئۇنى يۈكلەش ئىجازىتىم بار.
@@ -1759,17 +1768,16 @@ single-sentence-submission = يەككە جۈملە يوللاش
 bulk-sentence-submission = تۈركۈملەپ جۈملە يوللاش
 single-sentence = يەككە جۈملە
 bulk-sentences = كۆپ جۈملە
-sentence-domain-select =
-    .label = جۈملە دائىرىسى
+sentence-domain-combobox-label = جۈملە دائىرىسى
 sentence-domain-select-placeholder = كۆپ بولغاندا ئۈچ دائىرە تاللىنىدۇ
 # Sentence Domain dropdown option
-agriculture = دېھقانچىلىق
+agriculture_food = دېھقانچىلىق ۋە يېمەكلىك
 # Sentence Domain dropdown option
-automotive = ماشىنا
+automotive_transport = ئاپتوموبىل ۋە قاتناش
 # Sentence Domain dropdown option
 finance = ئىقتىساد
 # Sentence Domain dropdown option
-food_service_retail = يېمەكلىك، مۇلازىمەت ۋە پارچە سېتىش
+service_retail = مۇلازىمەت ۋە پارچە سېتىش
 # Sentence Domain dropdown option
 general = ئادەتتىكى
 # Sentence Domain dropdown option
@@ -1786,6 +1794,43 @@ nature_environment = تەبىئەت ۋە مۇھىت
 news_current_affairs = خەۋەر ۋە نۆۋەتتىكى ۋەقەلەر
 # Sentence Domain dropdown option
 technology_robotics = تېخنىكا ۋە ماشىنا ئادەم
+sentence-variant-select-label = جۈملە تۈرى
+sentence-variant-select-placeholder = تۈرى تاللىنىدۇ (تاللاشچان)
+sentence-variant-select-multiple-variants = ئادەتتىكى تىل / كۆپ خىل تۈرى
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = ئالگېرىس
+ca-central = مەركىزى
+ca-balear = بالېر
+ca-nwestern = Nord-Occidental
+ca-northern = شىمال
+ca-valencia-tortosi = تورتوسى
+ca-valencia-central = مەركىزى ۋالېنسىيا
+ca-valencia-northern = شىمالىي ۋالېنسىيا
+ca-valencia-southern = جەنۇبىي ۋالېنسىيا
+ca-valencia-alacant = ئالاكانتى
+cy-northwes = غەربىي شىمال ۋېلىش
+cy-northeas = شەرقىي شىمال ۋېلىش
+cy-midwales = ئوتتۇرا ۋەيلىس
+cy-southwes = غەربىي جەنۇب ۋېلىش
+cy-southeas = شەرقىي جەنۇب ۋېلىش
+cy-wladfa = پاتاگونىيان ۋېلىش
+pt-BR = پورتۇگالچە (بىرازىلىيە)
+pt-PT = پورتۇگالچە (پورتۇگالىيە)
+sw-sanifu = كىسۋاخىلى سانىفۇ (EA)
+sw-barake = كىسۋاخىلى كېنىيە
+sw-baratz = كىسۋاخىلى تانزانىيە
+sw-kingwana = كىڭۋانا (كونگو دېموكراتىك جۇمھۇرىيىتى)
+sw-kimvita = كىمۋىتا (كېنىيە) - مەركىزى شېۋە
+sw-kibajuni = كىباجۇنى (كېنىيە) - شىمال شېۋىسى
+sw-kimrima = كىمرىما (تانزانىيە) - شىمال شېۋىسى
+sw-kiunguja = كىئۇگۇيا (تانزانىيە) - جەنۇب شېۋىسى
+sw-kipemba = كىپېمبا (تانزانىيە) - جەنۇب شېۋىسى
+sw-kikae = كىماكۇندۇچى/كىكائى (تانزانىيە) - جەنۇب شېۋىسى
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (تاچىلخىت)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (مەركىزى ئاتلاس تامازىت)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (تارىفىت)
 
 ## REVIEW PAGE
 

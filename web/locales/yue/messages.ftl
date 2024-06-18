@@ -359,8 +359,6 @@ native-language =
 profile-form-add-accent = 添加新嘅自定義口音 "{ $inputValue }"
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
-male = 男
-female = 女
 # Gender
 other = 其他
 why-profile-title = 點解要建立個人檔案？
@@ -538,12 +536,21 @@ about-nav-playbook = 瞭解點樣參與
 
 about-playbook-what-is-language = Common Voice 度嘅一門語言係指乜？
 about-playbook-what-is-language-content-1 = 我哋可以用唔同角度去諗咩係語言。對於語音識別模型，Common Voice 建議將重點放喺「互通度」上面，即係話「講呢種語言嘅人互相對話嘅話，係咪大部分會理解到對方講緊啲咩？」
+about-playbook-what-is-language-content-2 = 我哋希望語音模型可以更精準噉理解到唔同背景嘅講話人，所以語音數據集要反映到好多唔同人嘅聲音。
+about-playbook-what-is-language-content-3 = 某啲語言內部有好多語法、詞彙同發音嘅差異，所以我哋由2022年起<ctaLink>引入「變體」嘅概念</ctaLink>，等各個社群喺個大數據集入面都搵得返佢哋自己嘅語言。
 
 ## How do I add a language
 
 about-playbook-how-add-language = 我點樣新加一隻語言？
+about-playbook-how-add-language-content-1 =
+    首先確認你嘅語言<languageLink>係咪已經收錄</languageLink>。
+    如果未有，<languageRequestLink>申請加入你嘅語言</languageRequestLink>。
+    會有兩個階段嘅工作要做：翻譯網站內容，同埋收集句子。
 about-playbook-how-add-language-translating-heading = 繙譯本站
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>睇下 Pontoon 嘅使用教學。</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    我哋用 Mozilla 一套叫<pontoonLink>Pontoon</pontoonLink>嘅工具去翻譯。Pontoon 有好多種語言，如果未有你嗰種，可以<pontoonRequestLink>申請加入你嘅語言</pontoonRequestLink>。
+    想喺 Common Voice 搵到呢種語言嘅話，仲要<githubRepoLink>喺 GitHub 申請新語言</githubRepoLink>。<localizationFragment>睇下點樣翻譯網站內容</localizationFragment>。
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 
 ## How does localization work
@@ -558,17 +565,22 @@ about-playbook-how-add-sentences-content-1 = <strong>語句收集工具</strong>
 
 ## How to record quality
 
+about-playbook-how-record-quality = 點樣錄到高音質嘅錄音？
+about-playbook-how-record-content-2 = 避免有太多背景雜音——應該好清晰聽到你講嘢。
 about-playbook-how-record-content-3 = 讀句子要小心，唔好漏字、改字或者加字。
 about-playbook-how-record-content-4 = 開始講嘢之前檢查有冇錄緊音，以及記得講完先好撳停止錄音。
+about-playbook-how-record-content-5 = <accuracyLink>睇下點判斷錄音準確度。</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = 點樣有效發展 Common Voice 上面嘅語言？
 about-playbook-how-grow-language-content-2 = 活動
 about-playbook-how-grow-language-content-4 = 社交媒體
+about-playbook-how-grow-language-content-6 = 合作關係同合作網絡
 
 ## How to validate
 
+about-playbook-how-validate = 點樣決定通唔通過一段錄音呢？
 
 ## How to access dataset
 
@@ -580,8 +592,12 @@ about-playbook-how-project-governance = 項目決定係點做嘅？
 about-playbook-how-project-governance-content-2 = 我哋嘅管治係建基於：
 about-playbook-how-project-governance-content-3 = 私隱、安全同透明度。
 about-playbook-how-project-governance-content-4 = 社群參與同決策。
+about-playbook-how-project-governance-content-5 = 價值觀同認同感。
 about-playbook-how-project-governance-content-6 = 互相問責。
 about-playbook-how-project-governance-content-7 = <governanceLink>了解更多我哋係點管治嘅</governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -651,6 +667,7 @@ datasets-positioning =
 language = 語言
 download-dataset-header = 下載數據集
 download-delta-explainer = 我哋有少少調整，新增部分（Delta Segments）剩係包含上次發佈之後新加嘅錄音。<deltaLink>了解更多呢部分嘅調整</deltaLink>。
+download-dataset-tag = 揀你想下載嘅語言數據集同相應版本。
 # File size in gigabytes
 size = 數據庫大細
 validated-hr-total = 已驗證錄音（小時）
@@ -661,10 +678,12 @@ number-of-voices = 錄音人數
 splits = 語音特徵概況
 email-to-download = 寫低電郵嚟下載
 why-email = <b>點解需要電郵地址?</b>我哋可能會喺未來聯絡閣下，提供與數據集相關嘅新資訊。電郵可作為我哋聯絡閣下嘅方式。
+why-donate-datasets-page = Mozilla Common Voice 係世界上語種最豐富嘅開放語音數據集——而且我哋係完全靠捐助嚟維持嘅。我哋每年用嚟託管呢 100+ 門語言嘅數據集同維護開發個平台要使差唔多一百萬美金。如果你都重視數據開放同包容嘅話——<b>捐款畀我哋啦！</b>
 confirm-size = 你準備要下載<b>{ $size }</b>嘢
 size-gigabyte = 千兆字節
 size-megabyte = 兆字節
 confirm-no-identify = <b>你同意</b>唔去試圖識別 Common Voice 數據集内講話人嘅個人身份
+confirm-join-mailing-list = 你想加入 Common Voice 郵件清單
 download-language = 下載{ $language }
 validated-hours = 已驗證時數
 recorded-hours = 錄音時數
@@ -697,6 +716,7 @@ more = 更多
 close = 關閉
 download = 下載
 dataset-version = 數據庫版本
+donate-modal-explanation-1 = 我哋每年要使差唔多一百萬美金嚟儲存同託管呢 100+ 門語言嘅數據集、開發平台同維護啲語言社區？
 
 ## Download Modal
 
@@ -748,6 +768,8 @@ language-section-in-progress = 準備緊
 language-section-in-progress-new-description = 呢啲語言而家仲處於社群開發進程中，進度條展示咗每種語言<localizationGlossaryLink>網站本地化</localizationGlossaryLink>同<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>嘅進度。
 language-section-launched = 已啟動
 language-section-launched-description = 以下「已上線」嘅語言，代表網站已經成功被<localizationGlossaryLink>本地化</localizationGlossaryLink>，而且都已經<sentenceCollectionGlossaryLink>收集咗足夠多嘅句子</sentenceCollectionGlossaryLink>令大家可以用<speakLink>講話</speakLink>同<listenLink>聆聽</listenLink>嘅方式嚟貢獻。
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = 最近更新： { $lastUpdatedTimeStamp }
 languages-show-more = 睇多啲
 languages-show-less = 睇少啲
 language-meter-in-progress = 進展
@@ -813,6 +835,7 @@ listen-empty-state = 呢個語言嘅錄音都已經驗證晒喇……
 listen-loading-error = 我哋冇晒錄音畀你聽嘞，遲啲再試啦。
 speak-empty-state = 呢個語言可以錄嘅句子已經錄晒啦⋯⋯
 speak-empty-state-cta = 貢獻句子
+speak-loading-error = 我哋冇晒句子畀你讀嘞，遲啲再試啦。
 record-button-label = 錄低你把聲
 share-title-new = <bold>幫我哋</bold>揾多啲聲音
 keep-track-profile = 建立個人檔案，紀錄閣下嘅進度
@@ -1143,6 +1166,7 @@ sc-howto-addsen-item-1 = 所有語句必須符合<wikipediaLink>公共領域 (CC
 sc-howto-addsen-item-2 = 數字嘅問題：源文本中唔應該出現數字，因為數字可能會導致朗讀方面出問題。 數字嘅讀法會因上下文而有所不同，可能會導致數據集出現混淆。例如，數字「2409」可以被讀作「二四零九」或者「二千四百零九」。
 sc-howto-cite-title = 點樣引用
 sc-howto-review-title = 審核句子
+sc-howto-review-subtitle = 確保句子符合以下準則：
 sc-howto-review-criteria-1 = 句子寫法要正確。
 sc-howto-review-criteria-2 = 句子要符合語法。
 sc-howto-review-criteria-3 = 句子要係讀得出嘅。
@@ -1171,6 +1195,7 @@ sc-submit-ph-one-per-line =
     .placeholder = 每行一句
 sc-submit-button =
     .submitText = 遞交
+sc-submit-guidelines = 請睇 <howToLink>規範</howToLink>
 
 ## ADD LANGUAGE
 
@@ -1215,12 +1240,38 @@ sc-validation-no-abbreviations = 句子唔應該含有縮寫
 
 # [/SentenceCollector]
 
+# PARTNERSHIPS PAGE
+partnerships-header = 合作
+partnerships-header-text = 我哋付出咗好多努力先整出 Common Voice！我哋唔係單打獨鬥嘅。想同我地合作？我哋期待你嘅消息。
+partnerships-get-in-touch = 聯繫我哋
+partnerships-become-a-partner = 成為 Common Voice 合作夥伴
 partnerships-our-partners = 我哋嘅合作伙伴
+# GUIDELINES PAGE
+guidelines-header = 貢獻準則
 sentence-collection = 收集句子
+just-unsure-explanation = 如果你遇到咗呢份規範冇講到嘅情況，請自行判斷。如果真係決定唔到，可以撳跳過掣去聽下一段錄音。
 adding-sentences-subheader-punctuation = 標點
+
+## WRITE PAGE
+
+guidelines = 規範
+
+## LANGUAGE VARIANT CODES
+
 
 ## REVIEW PAGE
 
+sc-review-rules-title = 句話符唔符合規範？
 
 ## BULK SUBMISSION 
 
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>我哋需要</mark><br/><mark>你嘅幫手！</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = 我哋每年用嚟託管呢 100+ 門語言嘅數據集同維護開發個平台要使差唔多一百萬美金。<strong>如果你都重視數據開放同包容嘅話——噉就捐款畀我哋啦！</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>用緊 Common Voice 嚟做</mark><br/><mark>你嘅研究？</mark>
+languages-donate-banner-cta-explanation = Common Voice 係靠捐助同募款維持嘅！我哋非常樂意同學術界、工業界同民間研究團體合作。 Common Voice 係免費開放使用嘅，但係我哋同時都希望大家可以向平台貢獻同埋提供資助。

@@ -451,6 +451,12 @@ help-variants = Hulp nodig bij varianten?
 help-variants-explanation = Varianten zijn een specifieke vorm van een taal – bijvoorbeeld gesproken door mensen die in een gebied of gemeenschap wonen. Soms worden dit dialecten genoemd.
 help-sex-or-gender-changes = Hulp nodig bij de geslachts- of genderwijzigingen?
 help-sex-or-gender-changes-explanation = We bieden meer opties om mensen meer keuze te geven in wat ze ons vertellen over hun geslacht of genderidentiteit. Beschrijf uzelf op de manier die voor u het meest natuurlijk aanvoelt. <learnMoreLink>Meer info over onze benadering van geslacht en gender.</learnMoreLink>
+variant-contribution-options-header = Opties voor variantbijdrage
+variant-contribution-help = Sommige varianten en dialecten binnen een taal of taalfamilie verschillen erg van elkaar. Als u problemen hebt met een bepaalde variant, kunt u hier uw voorkeuren wijzigen.
+variant-contribution-option-1 = Alleen zinnen en fragmenten van mijn variant tonen
+variant-contribution-option-2 = Mij zinnen en fragmenten van alle varianten in mijn taal tonen
+variant-contribution-warning-title = ⓘ Nog niet alle zinnen en fragmenten hebben variantlabels!
+variant-contribution-warning-subtitle = Als u problemen ondervindt bij het bijdragen, kunt u op elk gewenst moment alle inhoud voor uw taal weer terugzetten.
 
 ## Profile - Email
 
@@ -963,6 +969,7 @@ listen-again-instruction = Goed werk! <playIcon></playIcon> Luister opnieuw wann
 listen-3rd-time-instruction = 2 gedaan, ga zo door! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> De laatste!
 listen-empty-state = We hebben in deze taal geen te valideren fragmenten meer…
+listen-empty-state-variants = Uw taalvariant bevat mogelijk geen verdere fragmenten! Als u tevreden bent, kunt u uw instellingen wijzigen om andere zinnen in uw taal te zien.
 listen-loading-error =
     We kunnen geen audiofragmenten voor u ophalen om naar te luisteren.
     Probeer het later nog eens.
@@ -970,6 +977,7 @@ listen-abort-title = Valideren van fragmenten voltooien?
 listen-abort-cancel = Doorgaan met valideren
 listen-abort-confirm = Valideren voltooien
 speak-empty-state = We hebben in deze taal geen op te nemen zinnen meer…
+no-sentences-for-variants = Uw taalvariant bevat mogelijk geen verdere zinnen! Als u tevreden bent, kunt u uw instellingen wijzigen om andere zinnen in uw taal te zien.
 speak-empty-state-cta = Zinnen bijdragen
 speak-loading-error =
     We kunnen geen zinnen voor u ophalen om uit te spreken.
@@ -983,6 +991,7 @@ target-segment-generic-card = U draagt bij aan een doelsegment
 target-segment-first-banner = Help bij het maken van het eerste doelsegment in het { $locale } van Common Voice
 target-segment-add-voice = Uw stem toevoegen
 target-segment-learn-more = Meer info
+change-preferences = Voorkeuren wijzigen
 
 ## Contribution Nav Items
 
@@ -1845,13 +1854,13 @@ bulk-sentences = Bulkzinnen
 sentence-domain-combobox-label = Zinsdomein
 sentence-domain-select-placeholder = Selecteer maximaal drie domeinen
 # Sentence Domain dropdown option
-agriculture = Landbouw
+agriculture_food = Landbouw en voeding
 # Sentence Domain dropdown option
-automotive = Automotive
+automotive_transport = Automotive en transport
 # Sentence Domain dropdown option
 finance = Financieel
 # Sentence Domain dropdown option
-food_service_retail = Voedsel, service en detailhandel
+service_retail = Service en detailhandel
 # Sentence Domain dropdown option
 general = Algemeen
 # Sentence Domain dropdown option

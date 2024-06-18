@@ -1352,9 +1352,13 @@ localization-select =
 partnerships-header = Partnarskap
 partnerships-get-in-touch = Kontakt oss
 partnerships-become-a-partner = Vert ein Common Voice-partner
+partnerships-governments-description = Vi er glade for å stø offentleg sektor sitt engasjement innan teknologi, innovasjon og språkrettar. Viss du planlegg å køyre eit større prosjekt eller ein kampanje, kan du <emailFragment>ta kontakt.</emailFragment>
 partnerships-our-partners = Partnarane våre
 why-donate = Kvifor spør du?
 add-information-button = Legg til informasjon
+first-cta-gender-select-default-option = Vel eit alternativ
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Takk for at du bidrog med stemma di!
 already-have-an-account = Har du allereie ein konto? <login>Logg inn</login>
 create-profile-button = Opprett ein profil
 sentence-collection = Setningsinnsamling
@@ -1368,6 +1372,17 @@ example = Døme
 public-domain = Offentleg eigedom (ikkje verna av opphavsrett)
 
 ## WRITE PAGE
+
+contact-us = Kontakt oss
+# Sentence Domain dropdown option
+finance = Finans
+# Sentence Domain dropdown option
+general = Generelt
+# Sentence Domain dropdown option
+healthcare = Helsevesen
+sentence-variant-select-placeholder = Vel ein variant (valfritt)
+
+## LANGUAGE VARIANT CODES
 
 
 ## REVIEW PAGE

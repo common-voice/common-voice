@@ -464,6 +464,7 @@ help-variants = لہجیاں وچ کجھ مدد دی لوڑ ہے؟
 help-variants-explanation = متغیرات زبان دی ہک مخصوص شکل ہن ــ مثال دے طور تے ہک برادری یا جغرافیہ وچ راہوݨ آلیاں ولوں سانجھا۔ کہیں کہیں ویلے انہاں کوں لہجے آہدن۔
 help-sex-or-gender-changes = بھلا جنس یا صنفی تبدیلیاں وِچ مَدَت دی لوڑ ہِے؟
 help-sex-or-gender-changes-explanation = اَساں لوکاں کوں آپݨی جنس یا صنفی سُن٘ڄاݨ دے بارے وِچ جہڑا کُجھ ݙَسین٘دے ہِسے اُون٘دے وِچ اُنّھاں کوں چوݨ ݙیوݨ کِیتے ٻئے چوݨ پیش کرین٘دے پئے ہِسے۔ تھورائیت کرین٘ے ہوئے آپݨے آپ کوں اِیں انداز وِچ ݙَساؤ جہڑا تُہاکوں سچّی وِچ محسوس تِھین٘دا ہِٖ۔ <learnMoreLink>جنس اَتے صنف دے بارے وِچ اَساݙے نقطۂ نظر دے بارے وِچ ٻِیا ڄاݨُو۔</learnMoreLink>
+variant-contribution-options-header = لہجہ ونگاراں اختیارات
 
 ## Profile - Email
 
@@ -1001,6 +1002,7 @@ target-segment-generic-card = تساں ہدف ٹوٹے وچ حصہ پیندے پ
 target-segment-first-banner = { $locale } وچ کامن وائس دا پہلا ہدف حصہ بݨاوݨ وچ مدد کرو
 target-segment-add-voice = آپݨی آواز رلاؤ
 target-segment-learn-more = ٻیا سِکھو
+change-preferences = ترجیحاں وٹاؤ
 
 ## Contribution Nav Items
 
@@ -1755,7 +1757,6 @@ write-page-subtitle = اتھ ونگار تھئے ہوئے جملے عوامی د
 sentence =
     .label = جملہ
 sentence-input-value = آپݨاں عوامی ڈومین جملہ اتھ درج کرو
-citation-input-value = تہاݙے جملے دا ماخذ
 citation =
     .label = حوالہ ݙیوݨ
 sc-write-submit-confirm = میں تصدیق کرینداں جو ایہ جملہ <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں ایندے اپ لوڈ کرݨ دی اجازت ہے۔
@@ -1782,17 +1783,14 @@ single-sentence-submission = کلھا جملہ جمع کرواوݨ
 bulk-sentence-submission = ڈھڳ جملے جمع کرواوݨ
 single-sentence = کلھا جملہ
 bulk-sentences = ڈھڳ جملے
-sentence-domain-select =
-    .label = جملے دی ڈومین
+sentence-domain-combobox-label = جملے دی ڈومین
 sentence-domain-select-placeholder = ترائے تائیں ڈومیناں چݨو
 # Sentence Domain dropdown option
-agriculture = زراعت
-# Sentence Domain dropdown option
-automotive = آٹو موٹیو
+agriculture_food = زراعت تے خوراک
 # Sentence Domain dropdown option
 finance = فنانس
 # Sentence Domain dropdown option
-food_service_retail = خوراک، خدمت تے پرچون
+service_retail = خدمت تے پرچون
 # Sentence Domain dropdown option
 general = عمومی
 # Sentence Domain dropdown option
@@ -1809,6 +1807,24 @@ nature_environment = فطرت اَتے ماحولیات
 news_current_affairs = خبراں اَتے موجودہ حالات
 # Sentence Domain dropdown option
 technology_robotics = ٹیکنالوجی اَتے روبوٹکس
+sentence-variant-select-label = جملے دا لہجہ
+sentence-variant-select-placeholder = لہجہ چݨو (اختیاری)
+sentence-variant-select-multiple-variants = عام زبان/ ڈھڳ لہجے
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = الگیریز
+ca-central = مرکزی
+ca-balear = بلير
+ca-valencia-tortosi = ٹورٹوسی
+ca-valencia-alacant = الاکانتی
+cy-northwes = شمال مغربی ویلش
+cy-northeas = شمال مشرقی ویلش
+cy-midwales = مڈ ویلز
+cy-southwes = جنوب مغربی ویلش
+cy-southeas = جنوب مشرقی ویلش
+pt-BR = پرتگیزی (برازیل)
+pt-PT = پرتگیزی (پرتگال)
 
 ## REVIEW PAGE
 

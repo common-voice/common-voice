@@ -1,4 +1,4 @@
-SELECT 
+SELECT
   clips.id,
   clips.client_id,
   path,
@@ -58,10 +58,11 @@ FROM clips
   ) demographics ON clips.id = demographics.clip_id
   -- A subquery for sentence domains is faster than a full join
   LEFT JOIN (
-    SELECT s.id as sentence_id, sd.domain
+    SELECT s.id as sentence_id, GROUP_CONCAT(d.domain) as domain
     FROM sentences s
-      INNER JOIN sentence_metadata sm ON sm.sentence_id = s.id 
-      INNER JOIN sentence_domains sd ON sm.domain_id = sd.id
+      INNER JOIN sentence_domains sd ON sd.sentence_id = s.id
+      INNER JOIN domains d ON sd.domain_id = d.id
+    GROUP BY s.id
   ) sentence_domains ON clips.original_sentence_id = sentence_domains.sentence_id
 WHERE clips.created_at BETWEEN ? AND ?
 AND locales.name = ?

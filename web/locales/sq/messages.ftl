@@ -426,6 +426,12 @@ help-variants = Ju duhet ca ndihmë me variantet?
 help-variants-explanation = Variantet një formë specifike për një gjuhë - për shembull të përbashkët për ata që banojnë në një vend, ose në një bashkësi. Ndonjëherë këta quhen dialekte.
 help-sex-or-gender-changes = Ju duhet ndihmë për ndryshime Seksi, ose Gjinie?
 help-sex-or-gender-changes-explanation = Po ofrojmë më tepër mundësi për t’u dhënë njerëzve më tepër zgjedhje në ato çka na tregojnë rreth identitetit të tyre seksor apo gjinor. Ju lutemi, vetë-përshkruhuni në mënyrën që ndjeni më natyrore për ju. <learnMoreLink>Mësoni më tepër rreth trajtimit tonë ndaj seksit dhe gjinisë.</learnMoreLink>
+variant-contribution-options-header = Mundësi Dhënieje Variantesh
+variant-contribution-help = Disa variante dhe dialekte brenda një gjuhe ose familje gjuhësh janë shumë të ndryshme nga njëri-tjetri. Nëse keni probleme për t’u marrë me një variant të caktuar, mund të ndryshoni këtu parapëlqimet tuaja.
+variant-contribution-option-1 = Shfaqmëni togfjalësha dhe copëza nga krejt variantet brenda gjuhës time
+variant-contribution-option-2 = Shfaqmëni togfjalësha dhe copëza vetëm nga varianti im
+variant-contribution-warning-title = ⓘ Jo krejt togfjalëshat dhe copëzat kanë tashmë etiketa Variant!
+variant-contribution-warning-subtitle = Nëse keni probleme me dhënie kontributi, mund të ktheheni kurdo te parja e krejt lëndës për gjuhën tuaj.
 
 ## Profile - Email
 
@@ -760,6 +766,8 @@ subscribe = Pajtohuni
 get-started-speech = Fillojani me Kuptimin e të Folurës
 other-datasets = Grupe të Tjera të Dhënash Zzanore
 feedback-q = Keni Diçka Për të Thënë?
+# This indicates that there is no data to display
+no-information = S’ka informacion
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ është një <docsLink>grup mjetesh me burim të hapët</docsLink> për kërkues që merren me modele bisedash, në kuadër Inteligjence Artificiale, të fjalës së fundit.
 resource-deepspeech-info = Mekanizmi me burim të hapët i Mozilla-s për kuptimin e të folurës, Deep Speech, mund të përdoret për të ndërtuar aplikacione që bazohen ose përdorin kuptimin e të folurës. Për të mësuar se si t’ia fillohet, lexoni <githubLink>përmbledhjen tonë në Github</githubLink> ose ejani te <discourseLink>DeepSpeech Discourse</discourseLink>.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> i është përkushtuar teknologjisë me burim të hapët të së folurës. Projektet e tyre përfshijnë nxënie të thellë, bazuar në mekanizma STT dhe TTS.
@@ -935,6 +943,7 @@ listen-again-instruction = Punë e paqme!<playIcon></playIcon> Ridëgjojeni, kur
 listen-3rd-time-instruction = 2 më pak, vazhdoni kështu!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>E fundit!
 listen-empty-state = Na u mbaruan copëzat për vleftësim në këtë gjuhë…
+listen-empty-state-variants = Mund të jenë mbaruar copëzat për variantin tuaj të gjuhës! Nëse s’ju prish punë, mund të ndryshoni rregullimet tuaja, që të shihni togfjalësh të tjerë brenda gjuhës tuaj.
 listen-loading-error =
     S’morëm dot ndonjë copëz audio që ta dëgjoni.
     Ju lutemi, riprovoni më vonë.
@@ -942,6 +951,7 @@ listen-abort-title = Përfunduat vlerësim copëzash?
 listen-abort-cancel = Vazhdoni me vlerësimin
 listen-abort-confirm = Përfundoni vlerësimin
 speak-empty-state = Na u mbaruan frazat për incizim në këtë gjuhë…
+no-sentences-for-variants = Mund të jenë mbaruar togfjalëshat për variantin tuaj të gjuhës! Nëse s’ju prish punë, mund të ndryshoni rregullimet tuaja, që të shihni togfjalësh të tjerë brenda gjuhës tuaj.
 speak-empty-state-cta = Jepni ndihmesë me fraza
 speak-loading-error =
     S’morëm dot ndonjë copëz audio që ta shqiptoni.
@@ -954,6 +964,7 @@ target-segment-first-card = Po kontribuoni te segmenti ynë i parë
 target-segment-first-banner = Ndihmoni të krijohet segmenti i parë në { $locale } për Common Voice
 target-segment-add-voice = Shtoni Zërin Tuaj
 target-segment-learn-more = Mësoni Më Tepër
+change-preferences = Ndryshoni parapëlqimet
 
 ## Contribution Nav Items
 
@@ -1704,7 +1715,7 @@ write-page-subtitle = Togfjalëshat e dhënë këtu do të shtohen te një grup 
 sentence =
     .label = Frazë
 sentence-input-value = Jepni këtu frazën tuaj në përkatësi publike
-citation-input-value = Burim i frazës tuaj
+citation-input-placeholder = Jepni referencë të burimit të togfjalëshit tuaj (e domosdoshme)
 citation =
     .label = Përmendje
 sc-write-submit-confirm = Ripohoj se kjo frazë është nën <wikipediaLink>përkatësi publike</wikipediaLink> dhe se kam leje ta ngarkoj.
@@ -1729,16 +1740,16 @@ single-sentence-submission = Parashtrim i Një Fraze
 bulk-sentence-submission = Parashtrim Frazash Në Masë
 single-sentence = Frazë Njëshe
 bulk-sentences = Mori Frazash
-sentence-domain-select =
-    .label = Përkatësi Togfjalëshi
+sentence-domain-combobox-label = Përkatësi Togfjalëshi
+sentence-domain-select-placeholder = Përzgjidhni deri në tre përkatësi (në daçi)
 # Sentence Domain dropdown option
-agriculture = Bujqësi
+agriculture_food = Bujqësi dhe Ushqim
 # Sentence Domain dropdown option
-automotive = Industri automjetesh
+automotive_transport = Industri Automobilistike dhe Transport
 # Sentence Domain dropdown option
 finance = Financë
 # Sentence Domain dropdown option
-food_service_retail = Ushqim, Shërbim dhe Shitje Me Pakicë
+service_retail = Shërbim dhe Shitje Me Pakicë
 # Sentence Domain dropdown option
 general = Të përgjithshme
 # Sentence Domain dropdown option
@@ -1755,6 +1766,14 @@ nature_environment = Natyrë dhe Mjedis
 news_current_affairs = Lajme dhe Çështje Aktuale
 # Sentence Domain dropdown option
 technology_robotics = Teknologji dhe Robotikë
+sentence-variant-select-label = Variant Togfjalëshi
+sentence-variant-select-placeholder = Përzgjidhni një variant (në daçi)
+sentence-variant-select-multiple-variants = Gjuhë e përgjithshme / variante të shumtë
+
+## LANGUAGE VARIANT CODES
+
+pt-BR = Portugalisht (Brazil)
+pt-PT = Portugalisht (Portugali)
 
 ## REVIEW PAGE
 

@@ -60,12 +60,12 @@ export const MOCK_ACCENTS = [
 
 export const MOCK_VARIANTS_ALL = {
   cy: [
-    { id: 1, token: 'cy-north', name: 'North-Western Welsh' },
-    { id: 2, token: 'cy-south', name: 'North-Eastern Welsh' },
-    { id: 3, token: 'cy-patagon', name: 'Patagonian Welsh' },
+    { id: 1, tag: 'cy-north', name: 'North-Western Welsh', locale: 'cy' },
+    { id: 2, tag: 'cy-south', name: 'North-Eastern Welsh', locale: 'cy' },
+    { id: 3, tag: 'cy-patagon', name: 'Patagonian Welsh', locale: 'cy' },
   ],
   pt: [
-    { id: 1, token: 'pt-BR', name: 'Portugese (Brasil)' },
-    { id: 2, token: 'pt-PT', name: 'Portugese (Portugal)' },
+    { id: 1, tag: 'pt-BR', name: 'Portugese (Brasil)', locale: 'pt' },
+    { id: 2, tag: 'pt-PT', name: 'Portugese (Portugal)', locale: 'pt' },
   ],
 } as VariantsAll;

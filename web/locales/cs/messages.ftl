@@ -453,6 +453,14 @@ help-accent = Potřebujete pomoc s přízvukem?
 help-accent-explanation = Váš přízvuk je způsob, jakým vyslovujete slova. Je utvářen tím, kde jste žili, jakými dalšími jazyky mluvíte a mnoha dalšími faktory. Zde můžete sdílet jakékoli informace, které považujete za relevantní.
 help-variants = Potřebujete pomoc s variantami?
 help-variants-explanation = Varianty jsou specifickou formou jazyka – například společnou pro obyvatele určité geografické oblasti nebo komunity. Někdy se jim říká nářečí.
+help-sex-or-gender-changes = Potřebujete pomoci se změnou pohlaví?
+help-sex-or-gender-changes-explanation = Nabízíme více možností, abychom dali lidem větší možnost volby, co nám sdělí o svém pohlaví nebo genderové identitě. Prosím, popište se způsobem, který je pro vás nejpřirozenější. <learnMoreLink>Zjistěte více o našem přístupu k pohlaví a genderu.</learnMoreLink>
+variant-contribution-options-header = Předvolby variant jazyka
+variant-contribution-help = Některé varianty a dialekty v rámci jazyka nebo jazykové rodiny se od sebe velmi liší. Pokud máte problémy se zapojením určité varianty, můžete zde změnit své preference.
+variant-contribution-option-1 = Zobrazit mi věty a ukázky ze všech variant v mém jazyce.
+variant-contribution-option-2 = Ukazujte mi pouze věty a ukázky z mé varianty
+variant-contribution-warning-title = ⓘ Zatím ne všechny věty a klipy mají přiřazen štítek Variant!
+variant-contribution-warning-subtitle = Pokud máte potíže s přispíváním, můžete kdykoli přepnout zpět na zobrazení veškerého obsahu pro svůj jazyk.
 
 ## Profile - Email
 
@@ -690,6 +698,10 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Přečtěte si
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Jak je Common Voice financován?
+about-playbook-how-funded-content-1 = Common Voice je projekt nadace Mozilla Foundation, americké organizace 501c3. Projekt je v současné době financován výhradně z <philantropicGrantLink>filantropických grantů</philantropicGrantLink> a darů od lidí z celého světa.
+about-playbook-how-funded-content-2 = Neustálé hostování a zveřejňování datových sad, zlepšování platformy a provozování <africaMradiLink>komunitních programů</africaMradiLink> stojí spoustu peněz.
+about-playbook-how-funded-content-3 = Pokud byste vy nebo vaše organizace chtěli přispět zpět na projekt, můžete zaslat <donateLink>dar</donateLink> nebo kontaktovat náš tým pro partnerství na <emailFragment>commonvoice@mozilla.com</emailFragment>.
 
 ## Glossary
 
@@ -771,6 +783,7 @@ number-of-voices = Počet hlasů
 splits = Rozdělení
 email-to-download = Pro stažení zadejte svou e-mailovou adresu
 why-email = <b>Proč e-mail?</b> Je možné, že vás budeme potřebovat v budoucnu kontaktovat ohledně změn v datech.
+why-donate-datasets-page = Mozilla Common Voice je nejrozmanitější otevřený soubor dat o řeči na světě, který je financován výhradně z darů. Hostování datových sad a zlepšování platformy pro více než 100 jazykových komunit, které se spoléhají na to, co děláme, stojí téměř milion dolarů ročně. Pokud si ceníte otevřených a inkluzivních dat - <b>darujte ještě dnes!</b>
 confirm-size = Jste připraveni stáhnout <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -819,6 +832,9 @@ dataset-metadata-sex = Pohlaví
 dataset-metadata-age = Věk
 donate-modal-message = Probíhá stahování datasetu!
 dataset-donate-modal-heading = Věděli jste že…
+donate-modal-explanation-1 = Hostování datových sad a zlepšování platformy pro více než 100 jazykových komunit, které se spoléhají na naši práci, stojí téměř milion dolarů ročně?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Jestliže si ceníte otevřených a inkluzivních dat - přispějte ještě dnes!</bold>
 
 ## Download Modal
 
@@ -961,6 +977,7 @@ listen-again-instruction = Skvělá práce!<playIcon></playIcon> Až budete při
 listen-3rd-time-instruction = 2 máte za sebou, jen tak dál! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Poslední!
 listen-empty-state = Nahrávky ve vašem jazyce, které byste ještě mohli ověřovat, nám už bohužel došly...
+listen-empty-state-variants = Váš jazykový variant možná neobsahuje klipy! Pokud vám to vyhovuje, můžete změnit nastavení a zobrazit další věty ve svém jazyce.
 listen-loading-error =
     Další zvukové záznamy k poslechu již nemáme.
     Prosím, zkuste to znovu později.
@@ -968,6 +985,7 @@ listen-abort-title = Dokončit ověřování klipů?
 listen-abort-cancel = Pokračovat v ověřování
 listen-abort-confirm = Dokončit ověřování
 speak-empty-state = Věty, které byste mohli ve vašem jazyce nahrát, nám už bohužel došly...
+no-sentences-for-variants = Váš jazykový variant možná neobsahuje věty! Pokud vám to vyhovuje, můžete změnit nastavení a zobrazit další věty v rámci svého jazyka.
 speak-empty-state-cta = Přidejte další věty
 speak-loading-error =
     Další věty k přečtení již nemáme.
@@ -981,6 +999,7 @@ target-segment-generic-card = Přispíváte do cílového segmentu
 target-segment-first-banner = Pomozte dosáhnout prvního cílového segmentu Common Voice v jazyce { $locale }
 target-segment-add-voice = Přidejte svůj hlas
 target-segment-learn-more = Zjistit více
+change-preferences = Změnit předvolby
 
 ## Contribution Nav Items
 
@@ -1778,7 +1797,7 @@ write-page-subtitle = Věty, kterými zde přispějete, budou přidány do veře
 sentence =
     .label = Věta
 sentence-input-value = Zde zadejte svou public doman větu
-citation-input-value = Zdroj zadané věty
+citation-input-placeholder = Uveďte zdroj své věty (povinné)
 citation =
     .label = Zdroj
 sc-write-submit-confirm = Potvrzuji, že tato věta je <wikipediaLink>public domain</wikipediaLink> a mám oprávnění ji nahrát.
@@ -1803,17 +1822,16 @@ single-sentence-submission = Odeslání jedné věty
 bulk-sentence-submission = Odeslání více vět
 single-sentence = Jedna věta
 bulk-sentences = Více vět
-sentence-domain-select =
-    .label = Zařazení věty
+sentence-domain-combobox-label = Zařazení věty
 sentence-domain-select-placeholder = Vyberte až tři domény
 # Sentence Domain dropdown option
-agriculture = Zemědělství
+agriculture_food = Zemědělství a potravinářství
 # Sentence Domain dropdown option
-automotive = Automobilový průmysl
+automotive_transport = Automobilový průmysl a doprava
 # Sentence Domain dropdown option
 finance = Finance
 # Sentence Domain dropdown option
-food_service_retail = Jídlo, služby a maloobchod
+service_retail = Služby a maloobchod
 # Sentence Domain dropdown option
 general = Všeobecné
 # Sentence Domain dropdown option
@@ -1830,6 +1848,43 @@ nature_environment = Příroda a životní prostředí
 news_current_affairs = Zprávy a události
 # Sentence Domain dropdown option
 technology_robotics = Technologie a robotika
+sentence-variant-select-label = Varianta věty
+sentence-variant-select-placeholder = Vyberte variantu (volitelné)
+sentence-variant-select-multiple-variants = Všeobecný jazyk / více variant
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Alguerès
+ca-central = Centrální
+ca-balear = Baleáry
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Severozápadní velština
+cy-northeas = Severovýchodní velština
+cy-midwales = Střední Wales
+cy-southwes = Jihozápadní velština
+cy-southeas = Jihovýchodní velština
+cy-wladfa = Patagonská velština
+pt-BR = Portugalština (Brazílie)
+pt-PT = Portugalština (Portugalsko)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - centrální dialekt
+sw-kibajuni = Kibajuni (KE) - severní dialekt
+sw-kimrima = Kimrima (TZ) - severní dialekt
+sw-kiunguja = Kiunguja (TZ) - jižní dialekt
+sw-kipemba = Kipemba (TZ) - jižní dialekt
+sw-kikae = Kimakunduchi/Kikae (TZ) - jižní dialekt
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Central Atlas Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 
@@ -1879,3 +1934,8 @@ too-many-files = Příliš mnoho souborů
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Potřebujeme</mark><br/><mark>vaši pomoc!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Hostování datových sad a zlepšování platformy pro více než 100 jazykových komunit, které se spoléhají na naši práci, stojí téměř milion dolarů ročně. <strong>Jestliže si ceníte otevřených a inkluzivních dat - přispějte ještě dnes!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Používáte Common Voice </mark><br/><mark>na svůj výzkum? </mark>
+languages-donate-banner-cta-explanation = Common Voice je financován z darů a grantů! Rádi spolupracujeme s akademiky, výzkumníky z občanské společnosti a průmyslu. Používání služby Common Voice je zdarma, ale přispívat na náklady na platformu a hosting prostřednictvím návrhů na granty je opravdu užitečné.

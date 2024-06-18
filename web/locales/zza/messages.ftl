@@ -42,6 +42,7 @@ be = Belarûskî
 bg = Bulgarkî
 bm = Bambarakî
 bn = Bengalkî
+bo = Tîbetkî
 br = Bretonkî
 bs = Bosnakî
 bxr = Buryatkî
@@ -51,6 +52,7 @@ cak = Kaqçîkelkî
 ckb = Kurdkî (Sorankî)
 cnh = Haxaçînkî
 co = Korskî
+crh = Tatarkîya Kirimî
 cs = Çekkî
 cv = Çuvaşkî
 cy = Walskî (Galkî)
@@ -66,16 +68,20 @@ eo = Esperanto
 es = Spankî
 et = Estonkî
 eu = Baskkî
+ewo = Ewondo
 fa = Fariskî
 ff = Fulahkî
 fi = Fînkî
 fo = Farokî
 fr = Franskî
+fuf = Pularkîya Gîne
 fy-NL = Frîskî
 ga-IE = Îrlandkî
 gl = Galîkî
 gn = Guarankî
 gom = Goan Konkanî
+gu-IN = Guceratkî
+guc = Wayunaykî
 ha = Hawsakî
 he = Îbrankî
 hi = Hîndkî
@@ -95,6 +101,7 @@ it = Îtalkî
 izh = Îngrîkî
 ja = Japonkî
 jbo = Lojbankî
+jv = Cavakî
 ka = Gurckî
 kaa = Karakalpakkî
 kab = Kabîlkî
@@ -115,7 +122,9 @@ lij = Lîguryankî
 ln = Lîngalkî
 lo = Laokî
 lt = Lîtvankî
+ltg = Latgalkî
 lv = Letonkî
+lzz = Lazkî
 mai = Maîthîlî
 mdf = Mokşakî
 mg = Madagaskî
@@ -136,15 +145,18 @@ nb-NO = Norweçkî (Bokmål)
 nd = IsiNdebele (Vakur)
 ne-NP = Nepalkî
 nhe = Hausteca Nahuatlê Rojhelatî
+nhi = Nahuatlkîya Sîerra Pueblaya Rojawanî
 nia = Nîaskî
 nl = Holandkî
 nn-NO = Norweçkî (Nynorsk)
 nr = IsiNdebele (Başûr)
 nso = Sothokîya Vakurî
+ny = Nyancakî
 nyn = Nkorekî
 oc = Oksîtankî
 om = Afaan Oromokî
 or = Odîakî
+os = Osetkî
 pa-IN = Pancabkî
 pap-AW = Papîamento (Aruba)
 pl = Polonkî
@@ -152,6 +164,7 @@ ps = Paştûkî
 pt = Portugalkî
 quc = Kîçêkî
 quy = Keçwakî Çanka
+qvi = Kîşwakî
 rm-sursilv = Romanşkîya Sursîlvanî
 rm-vallader = Romanşkîya Valladerî
 ro = Romankî
@@ -161,6 +174,8 @@ sah = Yakutkî
 sat = Santalkî (Ol Chiki)
 sc = Sardînkî
 scn = Sîcîlkî
+sco = Skotkî
+sd = Sîndkî
 sdh = Kurdkîya Başûrî
 shi = Teşilhîltkî
 si = Sînhalkî
@@ -201,7 +216,9 @@ uz = Ozbekkî
 ve = Vendakî
 vec = Venedîkkî
 vi = Vîetnamkî
+vmw = Makuwakî
 vot = Votîkî
+wep = Falkîya Rojawanî
 wo = Wolofkî
 xh = Koza (Xhosa)
 yi = Yîdkî
@@ -238,6 +255,7 @@ share-text = Hetê ma bike ke ma makîna rê bimusnîme merdimê raştikênî se
 link-copied = Lînk kopya bî
 back-top = Agêre cor
 logout = Vejîye
+donate = Bibexişne
 
 ## Home Page
 
@@ -384,8 +402,12 @@ native-language =
 profile-form-add-accent = Feko taybetî îlawe bike "{ $inputValue }"
 profile-form-submit-save = Qeyd ke
 profile-form-submit-saved = Qeyd bî
-male = Camêrd
-female = Cinîke
+male_masculine = Camêrd/Nêrî
+female_feminine = Cinî/Makî
+intersex = Hemcinsî
+transgender = Transcinsî
+non-binary = Bêdîyîye
+do_not_wish_to_say = Nêwazena vajî
 # Gender
 other = Ê bînî
 why-profile-title = Çira profîlêk virazî?
@@ -406,6 +428,7 @@ accept-privacy = Ez qebul kena ke şima nê melumatî seke <privacyLink> Polît�
 accept-privacy-title = Polîtîkaya Nimiteyîye
 accept-privacy-and-terms = Ez <termsLink>Şert û Merc</termsLink> û <privacyLink>Polîtîkaya NImiteyî</privacyLink> ya Common Voice qebul kena
 login-identity = Nasnameyê dekewtişî
+login = Dekewe
 login-signup = Dekewe/Hesab Viraze
 edit = Sereraşt ke
 email-subscriptions = Aboneyîyê e-maîlî
@@ -420,6 +443,10 @@ help-accent = Derheqê fekan de hetkarîye wazenî/a?
 help-accent-explanation = Fekê to hewayê to yê telefuzê çekuyan o. Cayê to yê roniştişî, ziwanê bînî yê ke ti qisey kenî/a û xeylê faktorê bînî fekê to ser o tesîr kenê. Eke ti muhîm vînenî/a, ti eşkenî/a tîya hîna zaf melumat pêşkêş bikerê.
 help-variants = Derheqê varyantan de hetkarîye wazenî/a?
 help-variants-explanation = Varyant formêkê ziwanî yo spesîfîk o. Sey nimûne, kesê ke eynî cografya yan kî komel de ciwîyenê. Ge-gane nînan ra "lehçe" vanê.
+help-sex-or-gender-changes = Vurnayîşê cins yan zî seksualîte de ardim lazim o?
+variant-contribution-options-header = Opsîyonê Îlawekerdişê Fekan
+variant-contribution-option-1 = Mi rê pêro fekanê ziwanê mi ra qeydanê vengî û cumleyan nîşan bide
+variant-contribution-option-2 = Mi rê tena fekê mi ra qeydanê vengî û cumleyan nîşan bide
 
 ## Profile - Email
 
@@ -595,7 +622,6 @@ about-playbook-how-add-sentences = Ez senî cumleyan îlawe kena?
 about-playbook-how-add-sentences-content-1 = <strong>Arêdayoxê Cumleyan</strong> wesayît o ke pê cumleyê ke pêroyî rê akerde yê, arê dîyenê û tesdîq benê. Verê, ganî ti <scAccountLink>hesabêk virazê</scAccountLink>. Dima, ziwanê xo îlaweyê <strong>profîlê xo</strong> bike. Ti eşkenî/a cumleyan <strong>îlawe bikerê</strong> yan kî <strong>çim biçarnê</strong> cumleyanê îlawekerdeyan.
 about-playbook-how-add-sentences-content-2 = Seba ke cumleyî îlaweyê Common Voice bibê, ganî hetê di kesan ra kontrol bibê û qebul bibê. Ti <languageGuidelinesLink>tîya</languageGuidelinesLink> rayberê ziwanê xo virazenî/a. Ganî cumleyî binê lîsansê <licenseLink>milkê pêroyî</licenseLink> de bibê û 15 çekuyan ra kêmî bibê. Ti eşkenî/a wayîrê metnêk ra bipersî ke <waiverLink>pê feragatnameyê ma metnê xo sey CC0 tesnîf bikero</waiverLink> û adresa commonvoice@mozilla.com rê birusno.
 about-playbook-how-add-sentences-content-3 = Ti eşkenî/a <scraperLink>Vetoxê Cumleyan</scraperLink> bixebitnê ke Wîkîpedîa ra cumleyanê hurdîyan bigîrê.
-about-playbook-how-add-sentences-content-4 = Cumleyê tesdîqkerdeyî roja çarşemeyî de neqlê teberî benê û weşano ameyox ra dime seba wendişî benê amade.
 
 ## How to record quality
 
@@ -636,6 +662,10 @@ about-playbook-how-project-governance-content-4 = Komelî reyde beşdarbîyayî�
 about-playbook-how-project-governance-content-5 = Qîymet û naskerdiş.
 about-playbook-how-project-governance-content-6 = Berpirsîyarîya hempare.
 about-playbook-how-project-governance-content-7 = <governanceLink>Biwane, ma senî îdare benîme</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Common Voice senî fînanse beno?
 
 ## Glossary
 
@@ -734,6 +764,11 @@ close = Pade
 download = Bîyare war
 dataset-version = Versîyon
 clipboard-not-supported = Pano dest nêbeno
+no-information-available = Melumat çin o
+dataset-metadata-sex = Cinsîyet
+# dataset metadata - age of contributor
+dataset-metadata-age = Serrî
+dataset-donate-modal-heading = To zana...?
 
 ## Download Modal
 
@@ -785,6 +820,8 @@ language-section-in-progress = Hawo Virazîyenê
 language-section-in-progress-new-description = Nê ziwanî no dem hetê komelî ra yenê averberdene. Seba weşanayîşî, <localizationGlossaryLink>çarnayîşê keyepelî</localizationGlossaryLink> û <sentenceCollectionGlossaryLink>arêdayîşê cumleyan</sentenceCollectionGlossaryLink> lazim ê.
 language-section-launched = Weşanîyayî
 language-section-launched-description = Nê ziwananê weşanîyayeyan de keyepel bi hawayêko serkewte <localizationGlossaryLink>çarnîya</localizationGlossaryLink> û bes cumleyî <sentenceCollectionGlossaryLink>arê dîyayî</sentenceCollectionGlossaryLink> ke beşdarî dewam ra bieşkê <speakLink>qisey bikerê</speakLink> û <listenLink>goşdarî bikerê</listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Rojanekerdişo tewr peyên: { $lastUpdatedTimeStamp }
 languages-show-more = Hîna Zaf Bivîne
 languages-show-less = Kêmî Bivîne
 language-meter-in-progress = Averşîyayîş
@@ -803,6 +840,8 @@ action-click = Bitikne
 action-tap = Bêçike pane
 contribute = Beşdar be
 listen = Goşdar bike
+write = Binuse
+review = Çim Biçarne
 skip = Ravêre
 shortcuts = Kilmrayîrî
 clips-with-count-pluralized =
@@ -862,6 +901,11 @@ target-segment-generic-card = Ti beşdarîya beşêkê hedefî kenî/a
 target-segment-first-banner = Dest bide ke Common Voice de beşê hedefê { $locale } yo verên virazîme
 target-segment-add-voice = Vengê xo îlawe bike
 target-segment-learn-more = Hîna Zaf Melumat
+
+## Contribution Nav Items
+
+contribute-voice-collection-nav-header = Arêdayîşê Vengan
+contribute-sentence-collection-nav-header = Arêdayîşê Cumleyan
 
 ## Reporting
 
@@ -1361,9 +1405,11 @@ sc-criteria-item-1 = Ganî cumle raşt binusîyo.
 sc-criteria-item-2 = Ganî cumle hetê gramerî ra raşt bo.
 sc-criteria-item-3 = Ganî merdim bieşko cumle biwano.
 sc-criteria-item-4 = Eke cumle rîayetê nê krîteran kena, destê raştî de gojaga &quot;Tesdîq ke&quot ser o bitikne.
+sc-criteria-item-6 = Eke cumleyî nêmendê ke bêrê çimçarnayene, keremê xo ra dest bide ma ke hîna zaf cumleyan arê bidîme!
 
 ## REVIEW
 
+sc-review-lang-not-selected = To qet ziwan wenêçînito. Keremê xo ra şo <profileLink>Profîlê xo</profileLink> û ziwanêk weçîne.
 sc-review-title = Çim biçarne cumleyan
 sc-review-loading = Cumleyî bar benê...
 sc-review-select-language = Seba çimçarnayîşê cumleyan, keremê xo ra ziwanêk weçîne.
@@ -1441,3 +1487,40 @@ already-have-an-account = Xora hesabê to est o? <login>Dekewe</login>
 create-profile-button = Profîlêk viraze
 # IMAGE TAGS
 img-alt-success-checkmark = nîşanê serkewtişî
+sentence-collection = Arêdayîşê Cumleyan
+background-voices-tip-1 = Ti yenî? [yewna kes ke veng dano]
+volume-explanation = Normal o ke sewîyeya vengî yê her qiseykerdoxî cîya ya. Eke veng hende berz o ke qeyd birîyeno yan zî (no hîna zaf qewimîyeno) eke veng hende nizm o ke ti nêeşkenî/a bê wendişê metnî bihesnê ke wendox se vano, tena o wext qeydî betal bike.
+reviewing-sentences = Çimçarnayîşê Cumleyan
+
+## WRITE PAGE
+
+sc-review-write-title = Ez eşkena kamcîn cumleyan îlawe bikerî?
+add-sentence-success = 1 cumle arê dîyaye
+sentence-variant-select-placeholder = Fek weçîne (mecburî nîyo)
+sentence-variant-select-multiple-variants = Ziwano bingeyên / tayê fekê ci
+
+## LANGUAGE VARIANT CODES
+
+
+## REVIEW PAGE
+
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = De kontrol bike <icon></icon> tirêm na cumle hetê ziwannasîye ra raşt a yan ney?
+sc-review-rules-title = Na cumle goreyê rayberî nusîyaya?
+sc-review-empty-state = Na game nê ziwanî de cumleyî çin ê.
+report-sc-different-language-detail = No yewna ziwan de nusîyayo.
+review-error = Çimçarnayîşê na cumle de xetayêk vejîyaye meydan
+review-error-rate-limit-exceeded = Ti zêde lez şonî/a. Keremê xo ra çimçarnayîşê cumle de wextê xo bigîre wa cumle şaş nêbo.
+
+## BULK SUBMISSION 
+
+file-too-large = Dosya zêde girs a
+file-too-small = Dosya zêde qijkek a
+too-many-files = Zêde dosyeyî
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Ma rê</mark><br/><mark>ardimê to lazim o!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Ti CV seba</mark><br/><mark>cigêrayîşê xo gurenenî/a?</mark>

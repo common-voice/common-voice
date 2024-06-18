@@ -451,6 +451,12 @@ help-variants = Besonia tu de auxilio con le variantes?
 help-variants-explanation = Le variantes es un forma specific de un lingua, per exemplo compartite per illes vivente in un area geographic o communitate. Aliquando illos es appellate dialectos.
 help-sex-or-gender-changes = Besonia tu de adjuta con le cambios de sexo o genere?
 help-sex-or-gender-changes-explanation = Nos offere plus optiones pro dar al gente plus selection in que illes dice nos circa lor identitate de sexo o genere. Per favor auto-describe te como lo que se senti plus natural pro te. <learnMoreLink>Pro saper plus circa nostre approche a sexo e genere.</learnMoreLink>
+variant-contribution-options-header = Optiones de contribution pro le variantes
+variant-contribution-help = Alcun variantes e dialectos in un lingua o familia de linguas es multo differente le un le altere. Si tu ha difficultates a adaptar te a un variante particular, tu pote cambiar tu preferentias ci.
+variant-contribution-option-1 = Solo monstra me phrases e registrationes ab mi variante
+variant-contribution-option-2 = Monstra me phrases e registrationes de tote le variantes in mi lingua
+variant-contribution-warning-title = ⓘ Non tote le phrases e registrationes ancora ha placas de variante!
+variant-contribution-warning-subtitle = Si tu ha difficultates a contribuer, tu sempre pote retornar pro vider tote le contento pro tu lingua.
 
 ## Profile - Email
 
@@ -964,11 +970,13 @@ listen-again-instruction = Optime labor!<playIcon></playIcon> Ascolta de novo qu
 listen-3rd-time-instruction = Duo facite, continua assi!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Le ultime!
 listen-empty-state = Nos non ha plus registrationes a validar pro iste lingua...
+listen-empty-state-variants = Tu variante de lingua poterea carer de registrationes! Si tu vole, tu pote cambiar tu parametros pro vider altere phrases intra tu lingua.
 listen-loading-error = Impossibile trovar alcun registration audio a facer te ascoltar. Retenta plus tarde.
 listen-abort-title = Terminar le validation del registrationes?
 listen-abort-cancel = Continuar le validation
 listen-abort-confirm = Terminar le validation
 speak-empty-state = Nos non ha plus phrases a registrar pro iste lingua...
+no-sentences-for-variants = Tu variante de lingua poterea carer de phrases! Si tu vole, tu pote cambiar tu parametros pro vider altere phrases intra tu lingua.
 speak-empty-state-cta = Contribue con altere phrases
 speak-loading-error = Impossibile trovar alcun phrases a facer te pronunciar. Retenta plus tarde.
 record-button-label = Registra tu voce
@@ -980,6 +988,7 @@ target-segment-generic-card = Tu contribue a un segmento objectivo
 target-segment-first-banner = Adjuta crear le prime segmento objectivo de Common Voice in { $locale }
 target-segment-add-voice = Adde tu voce
 target-segment-learn-more = Saper plus
+change-preferences = Cambiar preferentias…
 
 ## Contribution Nav Items
 
@@ -1774,13 +1783,13 @@ bulk-sentences = Gruppo de phrases
 sentence-domain-combobox-label = Dominio del phrase
 sentence-domain-select-placeholder = Selige usque tres dominios
 # Sentence Domain dropdown option
-agriculture = Agricultura
+agriculture_food = Agricultura e alimentos
 # Sentence Domain dropdown option
-automotive = Automobile
+automotive_transport = Autos e transportos
 # Sentence Domain dropdown option
 finance = Financia
 # Sentence Domain dropdown option
-food_service_retail = Alimentos, servicio e detalio
+service_retail = Servicios e vendita al detalio
 # Sentence Domain dropdown option
 general = General
 # Sentence Domain dropdown option
@@ -1804,10 +1813,36 @@ sentence-variant-select-multiple-variants = Lingua general / plure variantes
 ## LANGUAGE VARIANT CODES
 
 ca-algueres = Catalano Alguerese
+ca-central = Central
+ca-balear = Balear
 ca-nwestern = Nord-Occidental
 ca-northern = Septentrional
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià central
+ca-valencia-northern = Valencià septentrional
+ca-valencia-southern = Valencià meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Gallese del nord-west
+cy-northeas = Gallese del nord-est
+cy-midwales = Gallese del medio
+cy-southwes = Gallese del sud-west
+cy-southeas = Gallese del sud-est
+cy-wladfa = Gallese patagoniano
 pt-BR = Portugese (Brasil)
 pt-PT = Portugese (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Dialecto central
+sw-kibajuni = Kibajuni (KE) - Dialecto del nord
+sw-kimrima = Kimrima (TZ) - Dialecto del nord
+sw-kiunguja = Kiunguja (TZ) - Dialecto del sud
+sw-kipemba = Kipemba (TZ) - Dialecto del sud
+sw-kikae = Kimakunduchi/Kikae (TZ) - Dialecto del sud
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (atlas tamazight central)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

@@ -19,6 +19,7 @@ banner-error-slow-2 = ᱟᱞᱮ ᱱᱤᱛᱚᱜ ᱟᱹᱰᱤᱜᱟᱱ ᱴᱨᱟ�
 banner-error-slow-link = ᱮᱛᱦᱚᱵ ᱥᱟᱦᱴᱟ
 error-something-went-wrong = ᱤᱠᱟᱹ  , ᱪᱮᱫ ᱦᱚᱪᱚ ᱢᱤᱫᱴᱟᱝ ᱵᱷᱩᱞ ᱵᱩᱭ ᱮᱱᱟ
 error-clip-upload = ᱠᱞᱤᱯ ᱞᱟᱫᱮ ᱫᱚ ᱰᱤᱜᱟᱹᱣᱜ ᱠᱟᱱᱟ, ᱫᱩᱦᱲᱟᱹ ᱪᱮᱥᱴᱟᱭᱟᱢ ᱥᱮ ?
+error-clip-upload-server = ᱥᱚᱨᱵᱷᱚᱨ ᱨᱮ ᱠᱞᱤᱯ ᱞᱟᱫᱮ ᱨᱮ ᱵᱷᱩᱞ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ ᱾ ᱥᱟᱦᱴᱟ ᱫᱩᱦᱲᱟᱹ ᱟᱹᱨᱩᱭ ᱢᱮ ᱥᱮ ᱛᱟᱭᱚᱢ ᱛᱮ ᱪᱮᱥᱴᱟᱭ ᱢᱮ ᱾
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -398,8 +399,6 @@ native-language =
 profile-form-add-accent = ᱱᱟᱶᱟ ᱠᱚᱥᱴᱚᱢ ᱮᱥᱮᱸᱴ ᱥᱮᱞᱮᱫ ᱢᱮ "{ $inputValue }"
 profile-form-submit-save = ᱥᱟᱺᱪᱟᱣ ᱢᱮ
 profile-form-submit-saved = ᱥᱟᱺᱪᱟᱣᱮᱱᱟ
-male = ᱠᱚᱲᱟ
-female = ᱠᱩᱲᱤ
 # Gender
 other = ᱮᱴᱟᱜᱽ-ᱟᱜ
 why-profile-title = ᱢᱤᱫᱴᱟᱝ ᱢᱮᱫᱦᱟᱸ ᱫᱚ ᱪᱮᱫᱟᱜ ᱵᱮᱱᱟᱣᱟ?
@@ -578,6 +577,9 @@ about-playbook-how-access-dataset = ᱤᱧ ᱫᱚ ᱪᱮᱞᱠᱟᱛᱮ ᱰᱟ�
 
 about-playbook-how-project-governance-content-5 = ᱢᱩᱞ ᱟᱨ ᱪᱤᱱᱦᱟᱹᱯ ᱾
 about-playbook-how-project-governance-content-7 = <governanceLink>ᱟᱞᱮ ᱪᱮᱫ ᱞᱮᱠᱷᱟ ᱞᱮ ᱥᱟᱥᱚᱱᱚᱜ ᱠᱟᱱᱟ ᱚᱱᱟ ᱵᱟᱵᱚᱛ ᱰᱷᱮᱨ ᱯᱟᱲᱦᱟᱣ ᱢᱮ</governanceLink>
+
+## How is Common Voice funded
+
 
 ## Glossary
 
@@ -1432,3 +1434,18 @@ localization-select =
     .label = ᱯᱟᱹᱨᱥᱤ/ᱛᱚᱨᱡᱚᱢᱟ ᱵᱟᱪᱷᱟᱣ ᱢᱮ
 partnerships-our-partners = ᱟᱞᱮ ᱵᱷᱟᱜᱤᱭᱟᱹᱨᱤᱠᱚ
 sentence-collection = ᱟᱹᱭᱟᱹᱛ ᱛᱩᱢᱟᱹᱞ
+
+## WRITE PAGE
+
+
+## LANGUAGE VARIANT CODES
+
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
+
+## Donate banner
+

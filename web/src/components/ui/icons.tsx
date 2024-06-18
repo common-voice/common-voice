@@ -1268,6 +1268,8 @@ export const CautionIcon = Icon(
 
 export const QuestionMarkIcon = Icon(require('./icons/question-mark.svg'))
 
+export const DropdownArrowIcon = Icon(require('./icons/dropdown-arrow.svg'))
+
 const FONT_ICONS = {
   chrome: '',
   facebook: '',

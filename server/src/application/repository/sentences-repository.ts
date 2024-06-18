@@ -1,13 +1,21 @@
 import { option as O, taskEither as TE, taskOption as TO } from 'fp-ts'
+import * as A from 'fp-ts/Array'
 import { pipe } from 'fp-ts/lib/function'
 import { MysqlError } from 'mysql2Types'
-import { UnvalidatedSentence } from '../../../core/sentences/types'
-import { SentencesForReviewRow } from '../../../infrastructure/db/types'
-import Mysql, { getMySQLInstance } from '../../../lib/model/db/mysql'
-import { createSentenceId } from '../../../lib/utility'
-import { createSentenceRepositoryError } from '../../helper/error-helper'
-import { ApplicationError } from '../../types/error'
-import { SentenceSubmission } from '../../types/sentence-submission'
+import { UnvalidatedSentence } from '../../core/sentences/types'
+import { SentencesForReviewRow } from '../../infrastructure/db/types'
+import Mysql, { getMySQLInstance } from '../../lib/model/db/mysql'
+import { createSentenceId } from '../../lib/utility'
+import {
+  createDatabaseError,
+  createSentenceRepositoryError,
+} from '../helper/error-helper'
+import { ApplicationError } from '../types/error'
+import { SentenceSubmission } from '../types/sentence-submission'
+import { UserClientVariant } from '../../core/variants/user-client-variant'
+import { queryDb } from '../../infrastructure/db/mysql'
+import { Variant } from '../../core/variants/variant'
+import { Sentence } from 'common'
 
 const mysql2 = require('mysql2/promise')
 
@@ -15,6 +23,7 @@ const db = getMySQLInstance()
 
 const DUPLICATE_KEY_ERR = 1062
 const BATCH_SIZE = 1000
+const VARIANT_SENTENCE_LIMIT = 1000
 
 export type SaveSentence = (
   sentenceSubmission: SentenceSubmission
@@ -23,6 +32,16 @@ export type SaveSentence = (
 export type FindDomainIdByName = (
   domainName: string
 ) => TE.TaskEither<ApplicationError, O.Option<number>>
+
+export type FindSentencesForReviewParams = {
+  localeId: number
+  clientId: string
+  userClientVariant: O.Option<UserClientVariant>
+}
+
+export type FindSentencesForReview = (
+  params: FindSentencesForReviewParams
+) => TO.TaskOption<UnvalidatedSentence[]>
 
 const insertSentenceTransaction = async (
   db: Mysql,
@@ -231,10 +250,19 @@ const toUnvalidatedSentence = ([unvalidatedSentenceRows]: [
 
 const findSentencesForReview =
   (db: Mysql) =>
-  (queryParams: {
+  (params: {
     localeId: number
     clientId: string
+    userClientVariant: O.Option<UserClientVariant>
   }): TO.TaskOption<UnvalidatedSentence[]> => {
+    const userVariant: UserClientVariant | null = pipe(
+      params.userClientVariant,
+      O.match(
+        () => null,
+        variant => variant
+      )
+    )
+
     return pipe(
       TO.tryCatch(() =>
         db.query(
@@ -251,9 +279,14 @@ const findSentencesForReview =
           LEFT JOIN sentence_votes ON (sentence_votes.sentence_id=sentences.id)
           LEFT JOIN sentence_metadata ON (sentence_metadata.sentence_id=sentences.id)
           LEFT JOIN variants ON (variants.id=sentence_metadata.variant_id)
-          WHERE 
+          WHERE
             sentences.is_validated = FALSE
             AND sentences.locale_id = ?
+            ${
+              userVariant?.isPreferredOption
+                ? `AND variants.id = ${userVariant.variant.id}`
+                : ''
+            }
             AND NOT EXISTS (
               SELECT 1 FROM skipped_sentences ss WHERE sentences.id = ss.sentence_id AND ss.client_id = ?
             )
@@ -266,7 +299,7 @@ const findSentencesForReview =
             number_of_votes = 2 AND number_of_approving_votes = 1 # a tie at one each
           LIMIT 100
         `,
-          [queryParams.localeId, queryParams.clientId, queryParams.clientId]
+          [params.localeId, params.clientId, params.clientId]
         )
       ),
       TO.map(toUnvalidatedSentence)
@@ -293,8 +326,88 @@ const findDomainIdByName =
         )
     )
 
+export type FetchSentenceIdsThatUserInteractedWith = (
+  clientId: string
+) => TE.TaskEither<ApplicationError, string[]>
+export const fetchSentenceIdsThatUserInteractedWith: FetchSentenceIdsThatUserInteractedWith =
+  (clientId: string): TE.TaskEither<ApplicationError, string[]> =>
+    pipe(
+      [clientId, clientId, clientId, clientId],
+      queryDb(`
+      SELECT s.id FROM sentences s
+      JOIN sentence_metadata sm ON sm.sentence_id = s.id
+      WHERE sm.client_id = ?
+      UNION
+      SELECT sentence_id FROM skipped_sentences
+      WHERE client_id = ?
+      UNION
+      SELECT sentence_id FROM reported_sentences
+      WHERE client_id = ?
+      UNION
+      SELECT original_sentence_id
+      FROM clips
+      WHERE clips.client_id = ?
+    `),
+      TE.mapLeft((err: Error) =>
+        createDatabaseError(
+          `Error retrieving sentences ids for sentences that the user interacted with`,
+          err
+        )
+      ),
+      TE.map(([results]: Array<{ id: string }[]>) =>
+        pipe(
+          results,
+          A.map(s => s.id)
+        )
+      )
+    )
+
+export type FindVariantSentences = (
+  variant: Variant
+) => TE.TaskEither<ApplicationError, Sentence[]>
+export const findVariantSentences: FindVariantSentences = (
+  variant: Variant
+): TE.TaskEither<ApplicationError, Sentence[]> =>
+  pipe(
+    [
+      variant.locale,
+      variant.id,
+      VARIANT_SENTENCE_LIMIT,
+      VARIANT_SENTENCE_LIMIT,
+    ],
+    queryDb(`
+        SELECT *
+        FROM (
+          SELECT s.id, text
+          FROM sentences s
+          JOIN sentence_metadata sm ON s.id = sm.sentence_id
+          WHERE
+            is_used
+            AND locale_id = (SELECT id FROM locales WHERE name = ?)
+            AND clips_count <= 15
+            AND sm.variant_id = ?
+          ORDER BY clips_count ASC
+          LIMIT ?
+        ) t
+        ORDER BY RAND()
+        LIMIT ?
+    `),
+    TE.mapLeft((err: Error) =>
+      createDatabaseError(
+        `Error retrieving variant sentences for variant "${variant.name}"`,
+        err
+      )
+    ),
+    TE.map(([results]: Array<Sentence[]>) =>
+      pipe(
+        results,
+        A.map(s => ({ ...s, variant: variant }))
+      )
+    )
+  )
 export const saveSentenceInDb: SaveSentence = saveSentence(db)
 export const insertBulkSentencesIntoDb = insertBulkSentences(db)
 export const insertSentenceVoteIntoDb = insertSentenceVote(db)
-export const findSentencesForReviewInDb = findSentencesForReview(db)
+export const findSentencesForReviewInDb: FindSentencesForReview =
+  findSentencesForReview(db)
 export const findDomainIdByNameInDb: FindDomainIdByName = findDomainIdByName(db)

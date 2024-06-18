@@ -449,6 +449,12 @@ help-variants = Hai bisogno di aiuto con le varianti?
 help-variants-explanation = Le varianti sono una forma specifica di una lingua, ad esempio condivisa da coloro che vivono in determinate aree geografiche o comunità. A volte queste varianti vengono chiamate dialetti.
 help-sex-or-gender-changes = Hai bisogno di aiuto per le modifiche relative a sesso o genere?
 help-sex-or-gender-changes-explanation = Abbiamo deciso di offrire più opzioni per garantire alle persone maggiore scelta nel definire il proprio sesso o la propria identità di genere. Descriviti nel modo che ritieni più naturale. <learnMoreLink>Ulteriori informazioni sul nostro approccio a sesso e genere.</learnMoreLink>
+variant-contribution-options-header = Opzioni per contribuzione e varianti
+variant-contribution-help = Alcune varianti e dialetti all’interno di una lingua o famiglia linguistica sono molto diversi tra loro. Se hai problemi a interagire con una particolare variante, puoi modificare le tue preferenze qui.
+variant-contribution-option-1 = Mostra solo frasi e registrazioni nella mia variante
+variant-contribution-option-2 = Mostra frasi e registrazioni in tutte le varianti per la mia lingua
+variant-contribution-warning-title = ⓘ Non tutte le frasi e le registrazioni hanno ancora etichette per le varianti.
+variant-contribution-warning-subtitle = Se riscontri difficoltà nel collaborare, puoi tornare a visualizzare tutti i contenuti nella tua lingua in qualsiasi momento.
 
 ## Profile - Email
 
@@ -943,6 +949,7 @@ listen-again-instruction = Ottimo lavoro! <playIcon></playIcon> Riascolta la reg
 listen-3rd-time-instruction = 2 andate <playIcon></playIcon>, avanti un’altra!
 listen-last-time-instruction = <playIcon></playIcon> L’ultima!
 listen-empty-state = Abbiamo esaurito le registrazioni da convalidare in questa lingua…
+listen-empty-state-variants = Può darsi che non ci siano più registrazioni disponibili per la tua lingua. Se vuoi, puoi modificare le impostazioni per visualizzare altre frasi nella tua lingua.
 listen-loading-error =
     Non è stato possibile caricare alcuna registrazione audio da ascoltare.
     Riprova più tardi.
@@ -950,6 +957,7 @@ listen-abort-title = Hai finito di convalidare le registrazioni?
 listen-abort-cancel = Continua la convalida
 listen-abort-confirm = Termina la convalida
 speak-empty-state = Abbiamo esaurito le frasi da registrare in questa lingua…
+no-sentences-for-variants = Può darsi che non ci siano più frasi disponibili per la tua lingua. Se vuoi, puoi modificare le impostazioni per visualizzare altre frasi nella tua lingua.
 speak-empty-state-cta = Contribuisci con altre frasi
 speak-loading-error =
     Non è stato possibile caricare alcuna frase da registrare.
@@ -963,6 +971,7 @@ target-segment-generic-card = Stai contribuendo a un segmento obiettivo
 target-segment-first-banner = Aiuta a creare il primo segmento obiettivo di Common Voice in { $locale }
 target-segment-add-voice = Aggiungi la tua voce
 target-segment-learn-more = Scopri di più
+change-preferences = Modifica le preferenze
 
 ## Contribution Nav Items
 
@@ -1714,7 +1723,7 @@ write-page-subtitle = Le frasi inserite verranno aggiunte a un dataset con licen
 sentence =
     .label = Frase
 sentence-input-value = Inserisci qui la frase di pubblico dominio
-citation-input-value = Fonte della frase
+citation-input-placeholder = Specifica la fonte della frase (obbligatorio)
 citation =
     .label = Citazione
 sc-write-submit-confirm = Confermo che questa frase è di <wikipediaLink>pubblico dominio</wikipediaLink> e ho l’autorizzazione a caricarla.
@@ -1739,17 +1748,16 @@ single-sentence-submission = Invio di una singola frase
 bulk-sentence-submission = Invio di frasi in blocco
 single-sentence = Singola frase
 bulk-sentences = Frasi in blocco
-sentence-domain-select =
-    .label = Dominio della frase
+sentence-domain-combobox-label = Dominio della frase
 sentence-domain-select-placeholder = Scegli fino a 3 domini
 # Sentence Domain dropdown option
-agriculture = Agricoltura
+agriculture_food = Agricoltura e alimentazione
 # Sentence Domain dropdown option
-automotive = Automobili
+automotive_transport = Settore automobilistico e trasporti
 # Sentence Domain dropdown option
 finance = Finanza
 # Sentence Domain dropdown option
-food_service_retail = Cibo, servizi e vendita al dettaglio
+service_retail = Servizi e vendita al dettaglio
 # Sentence Domain dropdown option
 general = Generale
 # Sentence Domain dropdown option
@@ -1766,6 +1774,43 @@ nature_environment = Natura e ambiente
 news_current_affairs = Notizie e attualità
 # Sentence Domain dropdown option
 technology_robotics = Tecnologia e robotica
+sentence-variant-select-label = Variante della frase
+sentence-variant-select-placeholder = Seleziona una variante (facoltativo)
+sentence-variant-select-multiple-variants = Linguaggio generico / più varianti
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Algherese
+ca-central = Central
+ca-balear = Balear
+ca-nwestern = Nord-Occidentale
+ca-northern = Settentrionale
+ca-valencia-tortosi = Tortosí
+ca-valencia-central = Valencià centrale
+ca-valencia-northern = Valencià settentrionale
+ca-valencia-southern = Valencià meridionale
+ca-valencia-alacant = Alacantí
+cy-northwes = Gallese nord-occidentale
+cy-northeas = Gallese nord-orientale
+cy-midwales = Galles centrale
+cy-southwes = Galles del sud-ovest
+cy-southeas = Galles del sud-est
+cy-wladfa = Gallese della Patagonia
+pt-BR = Portoghese (Brasile)
+pt-PT = Portoghese (Portogallo)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Dialetto centrale
+sw-kibajuni = Kibajuni (KE) - Dialetto settentrionale
+sw-kimrima = Kimrima (TZ) - Dialetto settentrionale
+sw-kiunguja = Kiunguja (TZ) - Dialetto del sud
+sw-kipemba = Kipemba (TZ) - Dialetto del sud
+sw-kikae = Kimakunduchi/Kikae (TZ) - Dialetto del sud
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Atlante centrale Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

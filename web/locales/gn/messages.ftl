@@ -15,7 +15,7 @@ email-opt-in-privacy-v2 = Emongurusúrõ oñemog̃uahẽ hag̃ua ndéve marandu 
 indicates-required = Emyanyhẽva’erã katuete (*) tenda’i hairenda.
 not-available-abbreviation = N/A
 banner-error-slow-1 = Rombyasy, Common Voice omba’apóma mbeguekatu. Aguyje emomba’ére.
-banner-error-slow-2 = Og̃uahẽ oréve heta jeku’egua ha ko’ág̃aite rohapykuehoroína umi apañuãi.
+banner-error-slow-2 = Og̃uahẽ oréve heta jeku’egua ha ko’ág̃aite rohapykuehoroína umi apañuái.
 banner-error-slow-link = Kuatiarogue Rekotee
 error-something-went-wrong = Che ñyrõmína, oĩhína osẽvaíva
 error-clip-upload = Eikutúvo ndoikoporãi, ¿ejapojeýnte ag̃amieve?
@@ -459,6 +459,11 @@ help-accent-explanation = Ne myanduhe ha’e pe mba’eichaitépa embo’ayvu pe
 help-variants = Eikotevẽpa pytyvõ ñe’ẽ iñambuévape
 help-variants-explanation = Umi ñe’ẽambue ha’énte avei ñe’ẽ, techapyrãramo, oiporúva tapichakuéra oikóva peteĩ tekohápe. Ko’ãvape oñembohéra ñe’ẽambue.
 help-sex-or-gender-changes = Eñepytyvõukasépa Sexo térã Género moambuépe
+variant-contribution-options-header = Ikatuhápe guive eipytyvõ
+variant-contribution-help = Ñe’ẽ iñambue ha hekoeta peteĩ ñe’ẽ ryepýpe térã ñe’ẽatýpe mavavete ndojojoguái. Orekóramo apañuái peteĩva umi iñambuepyréva ndive, omoambuekuaa oguerohoryvéva ko’ápe.
+variant-contribution-option-1 = Ehechauka ñe’ẽjuaju año ha clip ambuegua
+variant-contribution-option-2 = Ehechauka ñe’ẽjuaju ha clip opaite ambuepy che ñe’ẽ rehegua
+variant-contribution-warning-title = ⓘ ¡Ndaopaitéi ñe’ẽjuaju ha clip oreko teramoĩ ambuegua!
 
 ## Profile - Email
 
@@ -592,7 +597,7 @@ about-get-involved = Poropytyvõ
 about-get-involved-text-2 =
     Eipytyvõsépa ikatu hag̃ua Common Voice iporãve?
     Iporãne upéva! Eñe’ẽ orendive ñanduti veve rupive térã <discourseLink>Ñomongetaguasu</discourseLink>
-    renda rupive, orekuaaukami avei oĩrõ apañuãi ñanduti rendápe:<githubLink>GitHub</githubLink> térã eike <matrixLink>Atyrusu</matrixLink>ñemongeta rendápe.
+    renda rupive, orekuaaukami avei oĩrõ apañuái ñanduti rendápe:<githubLink>GitHub</githubLink> térã eike <matrixLink>Atyrusu</matrixLink>ñemongeta rendápe.
 about-stay-in-touch = ¿Mba’éicha aiméta ñe’ẽme?
 about-stay-in-touch-button = Eñemboheraguapy
 about-stay-in-touch-text-1 = <emailFragment>Eñemboheraguapy</emailFragment> ore ñanduti veve rysýipe eikuaa hag̃ua mba’éicha ejekuaaukáta, tembiaporã ha tembiapoite Common Voice moha’ãngajeýpe.
@@ -695,6 +700,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Emoñe’ẽve
 ## How is Common Voice funded
 
 about-playbook-how-funded = ¿Mba’éicha ivirureko Common Voice?
+about-playbook-how-funded-content-2 = Hetaiterei viru tekotevẽ ñeñongatu ha mba’ekuaarã aty ñemoherakuã, pyendavusu moporãve ha emongu’e <africaMradiLink>tembiaporape tekohagua</africaMradiLink>.
 
 ## Glossary
 
@@ -713,9 +719,9 @@ de-identified-explanation = Mba’éichapa oñembo’apohárakuaa’ỹ oñeñon
 ## Error pages
 
 error-title-404 = Ndorojuhúi upe togue rehekáva.
-error-content-404 = Oiméne rejuhukuaa ore <homepageLink>ñandutirenda ñepyrũha</homepageLink>-pe reikotevẽva. Eporandu hag̃ua, eikemína <matrixLink>Pytyvõhára Aty Ñemongetarenda’i</matrixLink>-pe, ehechami ehóvo apañuãi oikóva <githubLink>GitHub</githubLink>-pe térã eikemi <discourseLink>ore Ñemongetaguasu rendakuéra</discourseLink>-pe.
-error-title-503 = Ore apañuãi ko’ag̃aite, ho’ávaicha mohendahavusu
-error-content-503 = Ñandutirogue oĩjeýta vokoieténte. Eikuaasevéramo, eikemi <matrixLink>Atyrusu ñemongeta renda</matrixLink>-pe térã <githubLink>GitHub</githubLink> ỹramo katu <discourseLink>Ñomongetaguasu renda</discourseLink>pe eñeñandukami hag̃ua rejuhúramo apañuãi.
+error-content-404 = Oiméne rejuhukuaa ore <homepageLink>ñandutirenda ñepyrũha</homepageLink>-pe reikotevẽva. Eporandu hag̃ua, eikemína <matrixLink>Pytyvõhára Aty Ñemongetarenda’i</matrixLink>-pe, ehechami ehóvo apañuái oikóva <githubLink>GitHub</githubLink>-pe térã eikemi <discourseLink>ore Ñemongetaguasu rendakuéra</discourseLink>-pe.
+error-title-503 = Ore apañuái ko’ag̃aite, ho’ávaicha mohendahavusu
+error-content-503 = Ñandutirogue oĩjeýta vokoieténte. Eikuaasevéramo, eikemi <matrixLink>Atyrusu ñemongeta renda</matrixLink>-pe térã <githubLink>GitHub</githubLink> ỹramo katu <discourseLink>Ñomongetaguasu renda</discourseLink>pe eñeñandukami hag̃ua rejuhúramo apañuái.
 error-code = Javy { $code }
 
 ## Data
@@ -824,6 +830,7 @@ dataset-metadata-sex = Meña
 dataset-metadata-age = Ary
 donate-modal-message = ¡Ne mba’ekuaarã aty oguejyhína!
 dataset-donate-modal-heading = Eikuaápa…
+donate-modal-explanation-1 = ¿Ohupyty peteĩ sua dólar arýpe oñembyaty hag̃ua mba’ekuaarã aty ha pyendavusu moporãve umi 100 tekoaty ñe’ẽnguéra rehegua ojokupytýva ojejapóva rehe?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Emomba’érõ mba’ekuaarã ijuruja ha ogueroikéva, ¡embojopói ko árape!</bold>
 
@@ -971,11 +978,13 @@ listen-again-instruction = ¡Iporãitereíma ne rembiapo! <playIcon></playIcon> 
 listen-3rd-time-instruction = 2 oĩma ko’ág̃a, ¡Péva ha’e, ejapomi ambueve! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Ipahapeguáma!
 listen-empty-state = Ndaiporivéima ko’ág̃a ñe’ẽryapu ñongatupyre ko ñe’ẽme oñemoneĩ hag̃ua...
+listen-empty-state-variants = ¡Ikatu pe ñe’ẽ ambuegua opyta clip-ỹre. Eñeñandu porãramo, emombuekuaa ñemboheko ehecha hag̃ua ambue ñe’ẽjuajukuéra ne ñe’ẽtépe.
 listen-loading-error = Ndoroguerukuaái clip ñe’ẽpu rehegua ehendukuaa hag̃ua. Ikatúpiko eha’ãjey ag̃amieve.
 listen-abort-title = Emboajepámake umi clip
 listen-abort-cancel = Emboajeve ehóvo
 listen-abort-confirm = Emboajepámake
 speak-empty-state = Ndaiporivéima ko’ág̃a ñe’ẽjoaju ko ñe’ẽme oñembohyapu hag̃ua...
+no-sentences-for-variants = ¡Ikatu pe ñe’ẽ ambuegua opyta ñe’ẽjuaju’ỹre. Eñeñandu porãramo, emombuekuaa ñemboheko ehecha hag̃ua ambue ñe’ẽjuajukuéra ne ñe’ẽtépe.
 speak-empty-state-cta = Embojoapyve ñe’ẽjoaju
 speak-loading-error = Ndoroguerukuaái ñe’ẽjuaju eñe’ẽkuaa hag̃ua. Ikatúpiko eha’ãjey ag̃amieve.
 record-button-label = Eñongatu nde ahy’o
@@ -987,6 +996,7 @@ target-segment-generic-card = Eipytyvõ peteĩ atyvore ejaposévape
 target-segment-first-banner = Eipytyvõmive emoheñóivo Common Voice ñe’ẽpehẽ rupytyrã peteĩha { $locale }me
 target-segment-add-voice = Eme’ẽ Nde Ayvu
 target-segment-learn-more = Kuaave
+change-preferences = Emoambue erohoryvéva
 
 ## Contribution Nav Items
 
@@ -1321,13 +1331,13 @@ sc-howto-addlang-title = Embojuaju ñe’ẽ emba’apo hag̃ua
 sc-howto-addlang-text = Emoñepyrũ rire ne tembiapo, eiporavokuaa ñe’ẽnguéra mba’ete rendápe.
 sc-howto-addsen-title = Embojuaju ñe’ẽjuaju pyahu
 sc-howto-addsen-item-1 = Opaite ñe’ẽjuaju emondóva oĩva’erã <wikipediaLink>ñemoneĩ mba’e ojeporukuaáva (CC-0)</wikipediaLink> poguýpe. Roykeko hag̃ua jejapopyre ñemoinge oĩ’ỹva licencia pública poguýpe, romoheñói <cc0WaiverLink>pytyvõrã jokupyty ñemboheraguapyrã </cc0WaiverLink> jejapopyre pe mba’ejára oipytyvõsérõ hembiapokuépe Common Voice akãrapu’ãrã.
-sc-howto-addsen-item-2 = Papapy. Aníke emoĩ tai moñe’ẽrã reñoihápe omoapañuãikuaa rehe oñemoñe’ẽnguévo ñe’ẽ ayvúpe. Mba’éichapa oñemoñe’ẽ papapy oĩ ijeregua rehe ha omoapañuãikuaa mba’ekuaarã atýpe. Techapyrã, pe papapy “2409” oñemoñe’ẽkuaa iporãháicha “mokõipa irundy papa’ỹ porundy” ha “mokõi su irundysa porundy”.
+sc-howto-addsen-item-2 = Papapy. Aníke emoĩ tai moñe’ẽrã reñoihápe omoapañuaikuaa rehe oñemoñe’ẽnguévo ñe’ẽ ayvúpe. Mba’éichapa oñemoñe’ẽ papapy oĩ ijeregua rehe ha omoapañuaikuaa mba’ekuaarã atýpe. Techapyrã, pe papapy “2409” oñemoñe’ẽkuaa iporãháicha “mokõipa irundy papa’ỹ porundy” ha “mokõi su irundysa porundy”.
 sc-howto-addsen-item-4 = Ñemokyta. Umi ta’ãnga’i ha ñemokyta oñemoingeva’erã tekotevẽ añetetéramonte. Techapyrã, oikéramoe puso inglés ñe’ẽme ikatúva “don’t” ha “we’re” ha toñemoĩ moñe’ẽrã ñepyrũguápe, hákatu hasy oikotevẽ hag̃ua ko’ã ta’ãnga’i rehe ha’ẽva “@” térã “#.”
 sc-howto-addsen-item-5 = Tai pytagua. Umi kuatiahai oikova’erã ñe’ẽ ojeporúvape. Techapyrã, “ж” ha’e tai Rusia ñe’ẽ achegetýpe, hákatu araka’eve ndojeporúiva inglés ñe’ẽme ha, upévare, nosẽiva’erã mba’evéichagua moñe’ẽrã inglés-pe.
 sc-howto-addsen-item-6 = Ñe’ẽnguéra orekokuaa <validationRulesLink>ñemoneĩ mbojojaha imba’eteéva</validationRulesLink> mba’e tekotevẽmbýndi. Ndorekóirõ ñemoneĩha marandurenda ha’etéva peteĩ ñe’ẽme g̃uarã, roiporu upévare inglés mbojojahánte.
 sc-howto-addsen-post-1 = Rohayhuve umi ñe’ẽjoaju hasy’ỹ/ñe’ẽrãvéva. Jepéramo ñe’ẽpueta ha ñe’ẽ opaichagua ñe’ẽjuajúpe iporãiterei, roñeha’ã rojapo ñe’ẽjuaju ñeñongatu osẽ hag̃uáicha tetia’épe. Upéva rehe, iporãitereiva’erã ikatúramo eguereko ne ñe’ẽjuajukuéra hasy’ỹ/ojehecharamo hag̃uáicha.
 sc-howto-cite-title = Mba’éicha emombe’úta
-sc-howto-cite-pre-1 = Iporã emombe’u moõpa ejuhu pe ñemoneĩ guasu emboyke hag̃ua ñemonda ha emoneĩ pe jehapykueho <copyrightIssuesLink>apohára derécho apañuãi</copyrightIssuesLink>. Ko’ápe ejuhúta heta hendáicha emombe’u hag̃ua tembiapokue.
+sc-howto-cite-pre-1 = Iporã emombe’u moõpa ejuhu pe ñemoneĩ guasu emboyke hag̃ua ñemonda ha emoneĩ pe jehapykueho <copyrightIssuesLink>apohára derécho apañuái</copyrightIssuesLink>. Ko’ápe ejuhúta heta hendáicha emombe’u hag̃ua tembiapokue.
 sc-howto-cite-item-1 = Emoingekuaa ñanduti renda, techapyrã, "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-cite-item-2 = Eiporukuaa ñembokatupyryrã rehegua, techapyrã, oiporuháicha Harvard "Mozilla (2021) Common Voice. Eiporukuaa https://commonvoice.mozilla.org/-pe (Ñeporandu: 15 jasyporundy 2021)"
 sc-howto-cite-item-3 = Pe moñe’ẽrã opavave mba’éva eiporukuaa’ỹva ñandutípe, oiporukuaa mbo’ehaogua ñembokatupyry, techapyrã, pe Harvard rembiapóicha "Jess (2021) Che ñe’ẽpoty opavave mba’éva"
@@ -1692,6 +1702,7 @@ public-domain-explanation-2 = Umi ñe’ẽjuaju iporãva oñemoheñói hag̃ua 
 public-domain-explanation-3 = Emoheñói umi ñe’ẽjuaju ipyahu ha ojeporúva, neaño térã neangirũ térã eñe’ẽmemeha ndive, techapyrãrõ, peteĩ ‘jehai guasu’ ndive
 public-domain-explanation-4 = Eñe’ẽ apohare, ñoha’ãnga’apoha térã haihára ndive ha eporandu chupekuéra nome’ẽséipa hembiapokue opavave oipukuaa hag̃uáicha.
 public-domain-explanation-5 = Moñe’ẽrã ndoguerekovéimava apohára derécho; techapyrãramo, opavave aranduka ojehaiva’ekue ary 1920 mboyve.
+public-domain-explanation-6 = Eñe’ẽ tetã rekuái, atyguasu viru’ỹgua térã atyguasu momaranduha ndive ojehecha hag̃ua tetepy ñandutigua, marandu’i térã ambue tetepy ikatu omba’apo tendatee opavave oiporukuaávape
 citing-sentences-explanation-1 = Ehaíkena kuaaukaha rohechajeykuaa hag̃ua ñe’ẽjuajukuéra ha’épa opavave oiporukuaáva ha ani oñemoĩ mba’eapohare derécho.
 citing-sentences-subheader-websites = Ñanduti renda
 citing-sentences-subheader-websites-explanation = Emoingekuaa ñanduti renda, techapyrã, "Common Voice - https://commonvoice.mozilla.org/"
@@ -1709,12 +1720,13 @@ adding-sentences-subheader-spelling-punctuation = Haiporã ha Ñemokyta
 adding-sentences-subheader-spelling-punctuation-explanation = Pe ñe’ẽjuaju ojehaiva’erã hekopete.
 adding-sentences-subheader-speakable = Ñe’ẽkuaa
 adding-sentences-subheader-numbers = Papapy
-adding-sentences-subheader-numbers-explanation = Papapy. Aníke emoĩ tai moñe’ẽrã reñoihápe omoapañuãikuaa rehe oñemoñe’ẽnguévo ñe’ẽ ayvúpe. Mba’éichapa oñemoñe’ẽ papapy oĩ ijeregua rehe ha omoapañuãikuaa mba’ekuaarã atýpe. Techapyrã, pe papapy “2409” oñemoñe’ẽkuaa iporãháicha “mokõipa irundy papa’ỹ porundy” ha “mokõi su irundysa porundy”.
+adding-sentences-subheader-numbers-explanation = Papapy. Aníke emoĩ tai moñe’ẽrã reñoihápe omoapañuaikuaa rehe oñemoñe’ẽnguévo ñe’ẽ ayvúpe. Mba’éichapa oñemoñe’ẽ papapy oĩ ijeregua rehe ha omoapañuaikuaa mba’ekuaarã atýpe. Techapyrã, pe papapy “2409” oñemoñe’ẽkuaa iporãháicha “mokõipa irundy papa’ỹ porundy” ha “mokõi su irundysa porundy”.
 adding-sentences-subheader-abbreviations = Mombyky ha Acrónimo
 adding-sentences-subheader-punctuation = Mbopapapy
 adding-sentences-subheader-punctuation-explanation = Umi ta’ãnga’i ha ñemokyta oñemoingeva’erã tekotevẽ añetetéramonte. Techapyrã, oikéramo pe puso inglés ñe’ẽme ikatúva “don’t” ha “we’re” ha toñemoĩ moñe’ẽrã ñepyrũguápe, hákatu hasy oikotevẽ hag̃ua ko’ã ta’ãnga’i rehe ha’ẽva “@” térã “#.”
 adding-sentences-subheader-special-characters = Jehairã Jeporavokuaa ha Tai Pytaguáva
 adding-sentences-subheader-special-characters-explanation-1 = Kuatiahai oikova’erã ñe’ẽ ojeporúvape. Techapyrã, “ж” ha’e tai Rusia ñe’ẽ achegetýpe, hákatu araka’eve ndojeporúiva inglés ñe’ẽme ha, upévare, nosẽiva’erã mba’evéichagua moñe’ẽrã inglés ñe’ẽme.
+adding-sentences-subheader-special-characters-explanation-2 = Ñe’ẽnguéra orekokuaa imbojojahatee ñemoneĩrã tekotevẽva oñemoñe’ẽasa jave. Ndaipóriramo marandurenda ñemoneĩrã ha’etéva peteĩ ñe’ẽme g̃uarã, mbojojaha inglés pegua ohecháta pytyvõharakuéra.
 adding-sentences-subheader-offensive-content = Ñe’ẽreity Ivaíva
 reviewing-sentences-explanation-1 = Pe ñe’ẽjuaju oiko hekopetéramo, eikutu pe votõ "Moneĩ".
 reviewing-sentences-explanation-2 = Pe ñe’ẽjuaju ndoikóiramo hekopete, eikutu pe votõ "Nahániri".
@@ -1729,6 +1741,7 @@ write-page-subtitle = Umi ñe’ẽjuaju jehupipyre ojuajúta mba’ekuaarã aty
 sentence =
     .label = Ñe’ẽjoaju
 sentence-input-value = Ehai ko’ápe ne ñe’ẽjuaju opavave oiporukuaáva
+citation-input-placeholder = Ñe’ẽjuaju reñoiha rehegua (katuete)
 citation =
     .label = Jehechauka
 sc-write-submit-confirm = Amoneĩ ko ñe’ẽjuaju ha’eha <wikipediaLink>opavave oiporukuaáva</wikipediaLink> ha areko ñemoneĩ ahupi hag̃ua.
@@ -1756,13 +1769,13 @@ bulk-sentences = Heta ñe’ẽjoaju
 sentence-domain-combobox-label = Ñe’ẽjuaju rendatee
 sentence-domain-select-placeholder = Eiporavo mbohapy tendatee peve
 # Sentence Domain dropdown option
-agriculture = Temitỹmby
+agriculture_food = Ñemitỹkuaa ha Hi’upyrã
 # Sentence Domain dropdown option
-automotive = Mba’yrumỹi
+automotive_transport = Mba’yruguata ha Mba’eguaraha
 # Sentence Domain dropdown option
 finance = Viruporukuaa
 # Sentence Domain dropdown option
-food_service_retail = Jekarurã, mba’eporu ha ñevende sa’igua
+service_retail = Mba’eporu ha ñevende sa’igua
 # Sentence Domain dropdown option
 general = Tuichakue
 # Sentence Domain dropdown option
@@ -1781,6 +1794,7 @@ news_current_affairs = Marandu ha Ag̃aguáva
 technology_robotics = Tembiporupyahu ha Robótica
 sentence-variant-select-label = Ñe’ẽjuaju ambuepy
 sentence-variant-select-placeholder = Eiporavo ambuepy (ejaposérõ)
+sentence-variant-select-multiple-variants = Ñe’ẽ tuichaháicha / heta iñambueháicha
 
 ## LANGUAGE VARIANT CODES
 
@@ -1792,6 +1806,29 @@ ca-northern = Septentrional
 ca-valencia-tortosi = Tortosí
 ca-valencia-central = Valencia rehegua
 ca-valencia-northern = Valencia septentrional
+ca-valencia-southern = Valencia meridional
+ca-valencia-alacant = Alacantí
+cy-northwes = Galés noroeste-gua
+cy-northeas = Galés noroeste-gua
+cy-midwales = Gales mbytegua
+cy-southwes = Galés noroeste-gua
+cy-southeas = Gales suroeste-gua
+cy-wladfa = Gales Patagonia-gua
+pt-BR = Portugués (Brasil)
+pt-PT = Portugués (Portugal)
+sw-sanifu = Suajili ypyguáva (EA)
+sw-barake = Suajili Kenia ñe’ẽ
+sw-baratz = Suajili Tanzania ñe’ẽ
+sw-kingwana = Kingwana (DRC)
+sw-kimvita = Kimvita (KE) - Ñe’ẽ guasu
+sw-kibajuni = Kibajuni (KE) - Ñe’ẽ yvate gotyogua
+sw-kimrima = Kimrima (TZ) - Ñe’ẽ yvate gotyogua
+sw-kiunguja = Kiunguja (TZ) - Ñe’ẽ yvy gotyogua
+sw-kipemba = Kipemba (TZ) - Ñe’ẽ yvy gotyogua
+sw-kikae = Kimakunduchi/Kikae (TZ) - Ñe’ẽ yvy gotyogua
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Atlas Central Tamazight)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

@@ -495,7 +495,6 @@ const UserClient = {
           row,
           'accent',
           'variant',
-          'is_preferred_option',
           'age',
           'email',
           'gender',

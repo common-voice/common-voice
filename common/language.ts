@@ -25,8 +25,9 @@ export type Language = {
 // single variant object
 export type Variant = {
   id: number;
+  locale: string;
   name: string;
-  token: string;
+  tag: string;
 };
 
 export type UserVariant = Variant & {

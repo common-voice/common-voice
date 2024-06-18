@@ -1,38 +1,40 @@
-import * as React from 'react';
-import { useState } from 'react';
-import { Localized } from '@fluent/react';
+import * as React from 'react'
+import { useState } from 'react'
+import { Localized } from '@fluent/react'
 
-import { useAPI } from '../../../../../hooks/store-hooks';
-import { Button } from '../../../../ui/ui';
-import { Accent, Variant, UserLanguage } from 'common';
-import { useEffect } from 'react';
+import { useAPI } from '../../../../../hooks/store-hooks'
+import { Button } from '../../../../ui/ui'
+import { Accent, Variant, UserLanguage } from 'common'
+import { useEffect } from 'react'
 
-import InputLanguageName from './input-language-name';
-import InputLanguageVariant from './input-language-variant';
-import InputLanguageAccents from './input-language-accents/input-language-accents';
+import InputLanguageName from './input-language-name'
+import InputLanguageVariant from './input-language-variant'
+import InputLanguageAccents from './input-language-accents/input-language-accents'
+import ExpandableInformation from '../../../../expandable-information/expandable-information'
+import { VariantContributionOptions } from '../variant-contribution-options'
 
-import './languages.css';
-import ExpandableInformation from '../../../../expandable-information/expandable-information';
-import URLS from '../../../../../urls';
-import { LocaleLink } from '../../../../locale-helpers';
+import URLS from '../../../../../urls'
+import { LocaleLink } from '../../../../locale-helpers'
+
+import './languages.css'
 
 export type AccentsAll = {
   [locale: string]: {
-    default: Accent;
-    userGenerated: { [id: string]: Accent };
-    preset: { [id: string]: Accent };
-  };
-};
+    default: Accent
+    userGenerated: { [id: string]: Accent }
+    preset: { [id: string]: Accent }
+  }
+}
 
 export type VariantsAll = {
-  [locale: string]: Array<Variant>;
-};
+  [locale: string]: Array<Variant>
+}
 
 interface Props {
-  userLanguages: UserLanguage[];
-  areLanguagesLoading: boolean;
-  setUserLanguages: (userLanguages: UserLanguage[]) => void;
-  setAreLanguagesLoading: (value: boolean) => void;
+  userLanguages: UserLanguage[]
+  areLanguagesLoading: boolean
+  setUserLanguages: (userLanguages: UserLanguage[]) => void
+  setAreLanguagesLoading: (value: boolean) => void
 }
 
 function ProfileInfoLanguages({
@@ -41,40 +43,37 @@ function ProfileInfoLanguages({
   setUserLanguages,
   setAreLanguagesLoading,
 }: Props) {
-  const api = useAPI();
-  const [accentsAll, setAccentsAll] = useState<AccentsAll>({});
-  const [variantsAll, setVariantsAll] = useState<VariantsAll>({});
+  const api = useAPI()
+  const [accentsAll, setAccentsAll] = useState<AccentsAll>({})
+  const [variantsAll, setVariantsAll] = useState<VariantsAll>({})
+  const [isPreferredOption, setIsPreferredOption] = useState<boolean>()
 
-  const hasUserLanguages = userLanguages.length > 0;
-  const hasUserLanguagesWithVariants = userLanguages.some(language => {
-    const variants = variantsAll[language.locale];
-    return variants && variants.length > 0;
-  });
+  const hasUserLanguages = userLanguages.length > 0
   const hasNewEmptyLanguage =
-    hasUserLanguages && !userLanguages[userLanguages.length - 1].locale;
+    hasUserLanguages && !userLanguages[userLanguages.length - 1].locale
 
   const handleAddNewLanguageButtonClick = () => {
     if (hasNewEmptyLanguage) {
-      return;
+      return
     }
-    setUserLanguages(userLanguages.concat({ locale: '', accents: [] }));
-  };
+    setUserLanguages(userLanguages.concat({ locale: '', accents: [] }))
+  }
 
   useEffect(() => {
     if (!areLanguagesLoading) {
-      return;
+      return
     }
 
     Promise.all([
       api.getAccents().then(setAccentsAll),
       api.getVariants().then(setVariantsAll),
     ]).then(() => {
-      setAreLanguagesLoading(false);
-    });
-  }, []);
+      setAreLanguagesLoading(false)
+    })
+  }, [])
 
   if (areLanguagesLoading) {
-    return null;
+    return null
   }
 
   return (
@@ -84,7 +83,7 @@ function ProfileInfoLanguages({
       </Localized>
 
       <div className="form-fields">
-        {userLanguages.map(({ locale, accents }) => (
+        {userLanguages.map(({ locale, accents, variant }) => (
           <div className="language-wrap" key={locale}>
             <InputLanguageName
               locale={locale}
@@ -98,7 +97,16 @@ function ProfileInfoLanguages({
               variantsAll={variantsAll}
               userLanguages={userLanguages}
               setUserLanguages={setUserLanguages}
+              setIsPreferredOption={setIsPreferredOption}
             />
+
+            {variantsAll[locale] && variant && (
+              <ExpandableInformation summaryLocalizedId="help-variants">
+                <Localized id="help-variants-explanation">
+                  <div />
+                </Localized>
+              </ExpandableInformation>
+            )}
 
             <InputLanguageAccents
               locale={locale}
@@ -107,25 +115,29 @@ function ProfileInfoLanguages({
               userLanguages={userLanguages}
               setUserLanguages={setUserLanguages}
             />
+
+            {hasUserLanguages && (
+              <ExpandableInformation summaryLocalizedId="help-accent">
+                <Localized id="help-accent-explanation">
+                  <div />
+                </Localized>
+              </ExpandableInformation>
+            )}
+
+            {variantsAll[locale] && variant && (
+              <VariantContributionOptions
+                userLanguages={userLanguages}
+                setUserLanguages={setUserLanguages}
+                locale={locale}
+                isPreferredOption={isPreferredOption}
+                setIsPreferredOption={setIsPreferredOption}
+              />
+            )}
           </div>
         ))}
       </div>
 
       <div>
-        {hasUserLanguagesWithVariants && (
-          <ExpandableInformation summaryLocalizedId="help-variants">
-            <Localized id="help-variants-explanation">
-              <div />
-            </Localized>
-          </ExpandableInformation>
-        )}
-        {hasUserLanguages && (
-          <ExpandableInformation summaryLocalizedId="help-accent">
-            <Localized id="help-accent-explanation">
-              <div />
-            </Localized>
-          </ExpandableInformation>
-        )}
         <Button
           className="add-language"
           outline
@@ -153,7 +165,7 @@ function ProfileInfoLanguages({
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default ProfileInfoLanguages;
+export default ProfileInfoLanguages

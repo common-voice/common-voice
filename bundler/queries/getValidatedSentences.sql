@@ -8,9 +8,11 @@ SELECT
 FROM sentences s
 LEFT JOIN locales l ON l.id = s.locale_id
 LEFT JOIN (
-  SELECT sm.sentence_id, domain
-  FROM sentence_metadata sm
-  LEFT JOIN sentence_domains sd ON sd.id = sm.domain_id
+  SELECT s.id as sentence_id, GROUP_CONCAT(d.domain) as domain
+  FROM sentences s
+    INNER JOIN sentence_domains sd ON sd.sentence_id = s.id
+    INNER JOIN domains d ON sd.domain_id = d.id
+  GROUP BY s.id
 ) metadata ON metadata.sentence_id = s.id
 WHERE s.is_validated = 1
 AND l.name = ?

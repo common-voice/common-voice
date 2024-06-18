@@ -453,6 +453,12 @@ help-variants = Besoin d’aide avec les variantes linguistiques ?
 help-variants-explanation = Les variantes linguistiques sont une forme spécifique d’une langue, par exemple partagée par les personnes qui vivent dans une zone géographique ou une communauté particulière. Elles sont parfois appelées dialectes.
 help-sex-or-gender-changes = Besoin d’aide pour les changements liés au sexe ou au genre ?
 help-sex-or-gender-changes-explanation = Nous proposons davantage d’options pour offrir aux personnes plus de liberté pour indiquer leur sexe ou leur identité de genre. Vous êtes libres vous décrire de la manière qui vous semble la plus naturelle. <learnMoreLink>En savoir plus sur notre approche en ce qui concerne le sexe et le genre.</learnMoreLink>
+variant-contribution-options-header = Options de contribution pour les variantes
+variant-contribution-help = Certaines variantes et dialectes au sein d’une langue ou d’une famille de langues diffèrent grandement les uns des autres. Si vous avez du mal à vous adapter à une variante spécifique, vous avez la possibilité de modifier vos préférences ici.
+variant-contribution-option-1 = Afficher uniquement les phrases et les échantillons de ma variante
+variant-contribution-option-2 = Afficher les phrases et les échantillons de toutes les variantes de ma langue
+variant-contribution-warning-title = ⓘ Les phrases et les échantillons n’ont pas encore tous une étiquette de variante !
+variant-contribution-warning-subtitle = Si vous rencontrez des difficultés à contribuer, vous pouvez revenir à l’affichage de l’ensemble du contenu dans votre langue à tout moment.
 
 ## Profile - Email
 
@@ -942,6 +948,7 @@ listen-again-instruction = Excellent travail ! <playIcon></playIcon> Écoutez �
 listen-3rd-time-instruction = Plus que deux <playIcon></playIcon>, continuez !
 listen-last-time-instruction = <playIcon></playIcon> C’est le dernier !
 listen-empty-state = Nous n’avons plus d’échantillons à valider dans cette langue…
+listen-empty-state-variants = Votre variante linguistique est peut-être à court d’échantillons ! Si vous êtes à l’aise, vous pouvez modifier vos paramètres pour afficher d’autres phrases dans votre langue.
 listen-loading-error =
     Nous n’avons pas pu obtenir d’échantillons audio à écouter.
     Veuillez réessayer plus tard.
@@ -949,6 +956,7 @@ listen-abort-title = Terminer la validation des échantillons ?
 listen-abort-cancel = Continuer la validation
 listen-abort-confirm = Terminer la validation
 speak-empty-state = Nous n’avons plus de phrases à enregistrer dans cette langue…
+no-sentences-for-variants = Votre variante linguistique est peut-être à court de phrases ! Si vous êtes à l’aise, vous pouvez modifier vos paramètres pour afficher d’autres phrases dans votre langue.
 speak-empty-state-cta = Proposer des phrases
 speak-loading-error =
     Nous n’avons pas pu obtenir de phrases à prononcer.
@@ -962,6 +970,7 @@ target-segment-generic-card = Vous contribuez à un segment cible
 target-segment-first-banner = Aidez à créer le premier segment cible de Common Voice en { $locale }
 target-segment-add-voice = Donner de votre voix
 target-segment-learn-more = En savoir plus
+change-preferences = Modifier les préférences
 
 ## Contribution Nav Items
 
@@ -1719,7 +1728,7 @@ write-page-subtitle = Les phrases fournies ici seront ajoutées à un jeu de don
 sentence =
     .label = Phrase
 sentence-input-value = Saisissez votre phrase du domaine public ici
-citation-input-value = Source de votre phrase
+citation-input-placeholder = Spécifiez la source de votre phrase (obligatoire)
 citation =
     .label = Citation
 sc-write-submit-confirm = Je confirme que cette phrase est du <wikipediaLink>domaine public</wikipediaLink> et que j’ai la permission de l’envoyer.
@@ -1744,17 +1753,16 @@ single-sentence-submission = Envoi de phrase unique
 bulk-sentence-submission = Envoi de plusieurs phrases
 single-sentence = Phrase unique
 bulk-sentences = Plusieurs phrases
-sentence-domain-select =
-    .label = Domaine de la phrase
+sentence-domain-combobox-label = Domaine de la phrase
 sentence-domain-select-placeholder = Sélectionnez jusqu’à trois domaines
 # Sentence Domain dropdown option
-agriculture = Agriculture
+agriculture_food = Agriculture et agroalimentaire
 # Sentence Domain dropdown option
-automotive = Automobile
+automotive_transport = Automobile et transport
 # Sentence Domain dropdown option
 finance = Finance
 # Sentence Domain dropdown option
-food_service_retail = Nourriture, service et vente au détail
+service_retail = Services et vente au détail
 # Sentence Domain dropdown option
 general = Général
 # Sentence Domain dropdown option
@@ -1771,6 +1779,43 @@ nature_environment = Nature et environnement
 news_current_affairs = Actualités
 # Sentence Domain dropdown option
 technology_robotics = Technologie et robotique
+sentence-variant-select-label = Variante de phrase
+sentence-variant-select-placeholder = Sélectionnez une variante (facultatif)
+sentence-variant-select-multiple-variants = Généralités sur la langue / plusieurs variantes
+
+## LANGUAGE VARIANT CODES
+
+ca-algueres = Alguérois
+ca-central = Central
+ca-balear = Baléares
+ca-nwestern = Nord-Occidental
+ca-northern = Septentrional
+ca-valencia-tortosi = Valencien de transition
+ca-valencia-central = Apitxat
+ca-valencia-northern = Valencien septentrional
+ca-valencia-southern = Valencien méridional
+ca-valencia-alacant = Valencien alicantin
+cy-northwes = Gallois du nord-ouest
+cy-northeas = Gallois du nord-est
+cy-midwales = Gallois du centre
+cy-southwes = Gallois du sud-ouest
+cy-southeas = Gallois du sud-est
+cy-wladfa = Gallois de Patagonie
+pt-BR = Portugais (Brésil)
+pt-PT = Portugais (Portugal)
+sw-sanifu = Kiswahili Sanifu (EA)
+sw-barake = Kiswahili cha Bara ya Kenya
+sw-baratz = Kiswahili cha Bara ya Tanzania
+sw-kingwana = Kingwana (RDC)
+sw-kimvita = Kimvità (KE) - Dialecte du centre
+sw-kibajuni = Kibajuni (KE) - Dialecte du nord
+sw-kimrima = Kimrima (IZ) - Dialecte du nord
+sw-kiunguja = Kiunguja (TZ) - Dialecte du sud
+sw-kipemba = Kipemba (TZ) - Dialecte du sud
+sw-kikae = Kimakunduchi/Kikae (TZ) - Dialecte du sud
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ (Tachelhit)
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ (Tamazight du centre de l’Atlas)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)
 
 ## REVIEW PAGE
 

@@ -20,7 +20,20 @@ jest.mock('../../../../../hooks/store-hooks', () => ({
   },
   useAction: () => useActionMock,
   useAccount: () => {
-    return {}
+    return {
+      languages: [
+        {
+          locale: 'mock-locale-1',
+          variant: {
+            id: 1,
+            name: 'mock-variant-name',
+            token: 'mock-variant-token',
+            is_preferred_option: false,
+          },
+        },
+        { locale: 'mock-locale-2' },
+      ],
+    }
   },
   useSentences: () => ({
     'mock-locale-1': {},

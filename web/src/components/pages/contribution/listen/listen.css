@@ -143,6 +143,18 @@
             }
         }
     }
+
+    .no-clips-for-variant {
+        .button {
+            background: var(--blue);
+            box-shadow: 0 5px 10px color-mod(var(--blue) alpha(50%));
+
+            &:hover {
+                background: var(--blue);
+                box-shadow: 0 5px 10px var(--blue);
+            }
+        }
+    }
 }
 
 .listen-abort {

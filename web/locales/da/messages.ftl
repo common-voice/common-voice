@@ -2,7 +2,7 @@
 
 yes-receive-emails = Ja tak, send mig gerne e-mails. Jeg ønsker at holde mig informeret om projektet Common Voice.
 stayintouch = Hos Mozilla bygger vi et fællesskab omkring stemmeteknologi. Vi vil gerne holde kontakten med opdateringer, nye datakilder og høre mere om, hvordan du bruger disse informationer.
-privacy-info = Vi lover at behandle dine oplysninger på betryggende vis. Læs mere i vores <privacyLink>Privatlivspolitik</privacyLink>.
+privacy-info = Vi lover at behandle dine oplysninger på betryggende vis. Læs mere i vores <privacyLink>privatlivserklæring</privacyLink>.
 return-to-cv = Vend tilbage til Common Voice
 email-input =
     .label = E-mail
@@ -89,6 +89,7 @@ hil = Hiligaynon
 hr = Kroatisk
 hsb = Øvresorbisk
 ht = Haitisk kreol
+hu = Ungarsk
 hy-AM = Armensk
 hyw = Vestarmensk
 ia = Interlingua
@@ -121,7 +122,9 @@ lij = Ligurisk
 ln = Lingala
 lo = Laotisk
 lt = Litauisk
+ltg = Letgallisk
 lv = Lettisk
+lzz = Laz
 mai = Maithili
 mdf = Moksha
 mg = Malagassisk
@@ -141,6 +144,8 @@ nan-tw = Taiwanesisk (Minnan)
 nb-NO = Bokmål
 nd = Nordndebele
 ne-NP = Nepalesisk
+nhe = Øst-Huasteca-Nahuatl
+nhi = Vest Sierra Puebla Nahuatl
 nia = Nias
 nl = Nederlandsk
 nn-NO = Nynorsk
@@ -792,6 +797,8 @@ more = Mere
 close = Luk
 download = Hent
 dataset-version = Version
+sha256-checksum-copied = SHA256-kontrolsum kopieret!
+sha256-checksum-copied-error = Kunne ikke kopiere SHA256-kontrolsummen
 clipboard-not-supported = Udklipsholder er ikke understøttet
 no-information-available = Ingen tilgængelig information
 dataset-metadata-sex = Køn
@@ -899,6 +906,7 @@ action-tap = Tryk på
 contribute = Bidrag
 listen = Lyt
 write = Skriv
+review = Godkend
 skip = Spring over
 shortcuts = Genveje
 clips-with-count-pluralized =
@@ -940,7 +948,7 @@ listen-instruction = { $actionType } <playIcon></playIcon> Blev sætningen læst
 listen-again-instruction = Godt arbejde! <playIcon></playIcon> Lyt igen når du er klar
 listen-3rd-time-instruction = 2 overstået <playIcon></playIcon>, fortsæt det gode arbejde!
 listen-last-time-instruction = <playIcon></playIcon>Den sidste!
-listen-empty-state = Der er ikke flere stemmeoptagelser at validere på dette sprog...
+listen-empty-state = Der er ikke flere stemmeoptagelser - genindlæs siden eller prøv igen senere.
 listen-loading-error =
     Vi kunne ikke finde nogen lydklip, som du kan lytte til.
     Prøv igen senere.
@@ -964,6 +972,8 @@ target-segment-learn-more = Læs mere
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Indsamling af stemmer
+contribute-sentence-collection-nav-header = Indsamling af sætninger
 
 ## Reporting
 
@@ -1205,7 +1215,7 @@ contribution-misreadings-description = Når du lytter, så tjek meget omhyggelig
 contribution-misreadings-description-extended-list-1 = Manglende <strong>'En'/'Et'</strong> eller <strong>'Den'/Det'</strong> i begyndelsen af optagelsen.
 contribution-misreadings-description-extended-list-2 = Manglende <strong>'s'</strong> i slutningen af et ord.
 contribution-misreadings-description-extended-list-3 = Oplæsning af sammentrækninger, der faktisk ikke er der, såsom engelske "we're" i stedet for "we are", eller omvendt.
-contribution-misreadings-description-extended-list-4 = Manglende slutningen af det sidste ord ved at afbryde optagelsen for hurtigt.
+contribution-misreadings-description-extended-list-4 = Manglende slutningen af det sidste ord, fordi optagelsen blev afbrudt for hurtigt.
 contribution-misreadings-description-extended-list-5 = Flere forsøg på at læse et ord.
 contribution-misreadings-example-1-title = De gigantiske dinosaurer i trias.
 contribution-misreadings-example-2-title = Den gigantiske dinosaur i trias.
@@ -1229,7 +1239,7 @@ contribution-background-noise-example-1-fixed-title = <strong>[Nys]</strong> De 
 contribution-background-noise-example-2-fixed-title = Den gigantiske dino <strong>[hoste]</strong> trias.
 contribution-background-noise-example-2-explanation = [En del af teksten kan ikke høres]
 contribution-background-noise-example-3-fixed-title = <strong>[Knitre]</strong> kæmpe dinosaurer af <strong>[knitre]</strong> -riassic.
-contribution-background-voices-title = Baggrundsstemmer
+contribution-background-voices-title = Stemmer i baggrunden
 contribution-background-voices-description = Stille baggrundslyd er OK, men vi ønsker ikke yderligere stemmer, der kan få en maskinalgoritme til at identificere ord, der ikke er i den skrevne tekst. Hvis du kan høre forskellige ord bortset fra dem i teksten, bør klippet afvises. Typisk sker dette, hvor tv'et har været tændt, eller hvor der er en samtale i gang i nærheden.
 contribution-background-voices-description-extended = Hvis der er udfald eller knitren i optagelsen, så afvis optagelsen - medmindre hele teksten stadig kan høres.
 contribution-background-voices-example-1-title = De gigantiske dinosaurer i trias. <strong>[læst af én stemme]</strong>
@@ -1570,33 +1580,88 @@ localization-select =
     .label = Vælg sprog/oversættelse
 # PARTNERSHIPS PAGE
 partnerships-header = Partnerskaber
+partnerships-become-a-partner = Bliv en Common Voice-partner
 partnerships-governments-header = Regeringer
+partnerships-academia-header = Universiteter, akademikere og forskere
 partnerships-our-partners = Vores partnere
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Tak fordi du donerede dine stemmoptagelser!
 why-donate = Hvorfor spørger du?
 add-information-button = Tilføj information
+first-cta-gender-select-default-option = Vælg en mulighed
+already-have-an-account = Har du allerede en konto? <login>Log ind</login>
+create-profile-button = Opret en profil
+guidelines-header-subtitle = Forstå, hvordan du bidrager ved at validere sætninger og lydklip til datasættet fra Common Voice
+voice-collection = Indsamling af stemmer
 sentence-collection = Indsamling af sætninger
+varying-pronunciations = Forskellige udtaler
+misreadings = Fejllæsninger
+offensive-content = Stødende indhold
+background-noise = Baggrundsstøj
+background-voices = Stemmer i baggrunden
+volume = Lydstyrke
+just-unsure = Bare usikker?
+example = Eksempel
+varying-pronunciations-explanation-1 = Vi hilser forskellige accenter velkommen! Vær meget forsigtig, når du overvejer at afvise et klip, fordi du synes at oplæseren har udtalt et ord forkert, lægger trykket forkert eller har overset tegnsætning. Der er mange måder at bruge sproget på - og det er ikke sikkert, at du har hørt dem alle. Husk at tænke på, at der findes mennesker, der taler anderledes end du gør.
+varying-pronunciations-explanation-2 = Hvis du på den anden side får indtrykket af, at oplæseren aldrig er stødt på ordet før og gætter på, hvordan det skal udtales - så afvis optagelsen. Hvis du er usikker, så klik på knappen "Spring over".
+misreadings-explanation-2 = Meget almindelige fejl omfatter:
+misreadings-explanation-6 = Manglende slutningen af det sidste ord, fordi optagelsen blev afbrudt for hurtigt.
+misreadings-explanation-7 = Flere forsøg på at læse et ord.
+adding-sentences-subheader-offensive-content = Stødende indhold
+reviewing-sentences-explanation-2 = Hvis sætningen ikke opfylder ovenstående kriterier, skal du klikke på knappen "Nej".
+reviewing-sentences-explanation-3 = Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
+reviewing-sentences-explanation-4 = Hvis du løber tør for sætninger at gennemgå, må du meget gerne hjælpe os med at indsamle flere sætninger!
 
 ## WRITE PAGE
 
+sentence =
+    .label = Sætning
+sc-write-submit-confirm = Jeg bekræfter, at denne sætning er i <wikipediaLink>offentligt domæne</wikipediaLink>, og at jeg har tilladelse til at uploade den.
+sc-review-write-title = Hvilke sætninger kan jeg tilføje?
+new-sentence-rule-2 = Færre end 15 ord per sætning
+new-sentence-rule-3 = Brug korrekt grammatik
+new-sentence-rule-4 = Brug korrekt stavning og tegnsætning
+new-sentence-rule-5 = Ingen tal og specialtegn
+new-sentence-rule-6 = Ingen udenlandske bogstaver
 how-to-cite = Hvordan citerer jeg?
+guidelines = Retningslinjer
 contact-us = Kontakt os
 add-sentence-success = 1 sætning indsamlet
 add-sentence-error = Fejl ved tilføjelse af sætning
 required-field = Udfyld venligst dette felt.
+single-sentence = Enkelt sætning
+sentence-domain-select-placeholder = Vælg op til tre domæner (valgfrit)
 
 ## LANGUAGE VARIANT CODES
 
 
 ## REVIEW PAGE
 
+sc-review-rules-title = Opfylder sætningen retningslinjerne?
+sc-review-empty-state = Der er i øjeblikket ingen sætninger at godkende på dette sprog.
+report-sc-different-language = Andet sprog
+report-sc-different-language-detail = Det er skrevet på et andet sprog end det, jeg gennemgår.
+sentences-fetch-error = Der opstod en fejl under hentning af sætninger
+review-error = Der opstod en fejl under gennemgang af denne sætning
+review-error-rate-limit-exceeded = Det går for hurtigt. Brug et øjeblik på at gennemgå sætningen for at sikre, at den er korrekt.
+sc-redirect-page-subtitle-2 = Stil os spørgsmål på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller via <emailLink>e-mail</emailLink>.
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction = Træk din fil hertil eller <uploadButton>klik for at uploade</uploadButton>
+sc-bulk-upload-instruction-drop = Slip filen her for at uploade
+bulk-upload-additional-information = Hvis der er yderligere oplysninger, du vil give om denne fil, så kontakt <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Prøv igen ved at trække din fil hertil
+try-upload-again-md = Prøv at uploade igen
 select-file = Vælg fil
 select-file-mobile = Vælg fil, der skal uploades
 accepted-files = Accepterede filtyper: Kun .tsv
 maximum-file-size = Maksimal filstørrelse: 25 MB
 what-needs-to-be-in-file = Hvad skal der være i min fil?
+upload-progress-text = Upload i gang...
+sc-bulk-submit-confirm = Jeg bekræfter, at disse sætninger er i <wikipediaLink>offentligt domæne</wikipediaLink>, og at jeg har tilladelse til at uploade dem.
+bulk-upload-failed-toast = Upload mislykkedes. Prøv igen.
+upload-more-btn-text = Vil du uploade flere sætninger?
 file-invalid-type = Ugyldig fil
 file-too-large = Filen er for stor
 file-too-small = Filen er for lille
@@ -1604,3 +1669,9 @@ too-many-files = For mange filer
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Vi har brug for</mark><br/><mark>din hjælp!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Det koster næsten en million dollars om året at hoste datasættene og forbedre platformen for de over 100 sprogfællesskaber, der er afhængige af det, vi laver. <strong>Hvis du værdsætter åbne, inkluderende data - så donér i dag!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Bruger du CV til</mark><br/><mark>din forskning?</mark>

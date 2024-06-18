@@ -278,3 +278,25 @@ export const Options = withLocalization(
     </>
   )
 );
+
+export const Radio = ({
+  children,
+  onChecked,
+  labelClass,
+  contentClass,
+  ...props
+}: {
+  children: React.ReactNode;
+  onChecked?: () => any;
+  labelClass?: string;
+  contentClass?: string;
+} & React.HTMLProps<HTMLInputElement>) => (
+  <label className={labelClass}>
+    <input
+      type="radio"
+      onChange={event => event.target.checked && onChecked && onChecked()}
+      {...props}
+    />
+    <div className={contentClass}>{children}</div>
+  </label>
+);
