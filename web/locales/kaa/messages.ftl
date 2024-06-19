@@ -239,7 +239,9 @@ about-nav-how-it-works-2 = Common Voice қалай ислейди?
 
 about-playbook-how-add-language = Мен тилди қалай қосыўым мүмкин?
 about-playbook-how-add-language-translating-heading = Сайтты аўдарыў
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon ды қалай қолланыў кереклиги ҳаққындағы видео нусқаўымызды көриң.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Гәплерди жыйнаў
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Гәплерди жыйнаў ҳаққында көбирек билиў</sentenceCollectorFragment>.
 
 ## How does localization work
 
