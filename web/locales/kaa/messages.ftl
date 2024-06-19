@@ -7,6 +7,7 @@ email-input =
 submit-form-action = Жибериў
 loading = Жүкленбекте...
 not-available-abbreviation = Жоқ
+banner-error-slow-1 = Қеширерсиз, Common Voice әстен ислемекте. Қызығыўшылығыңыз ушын рахмет.
 banner-error-slow-link = Жағдай бети
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
@@ -16,14 +17,82 @@ banner-error-slow-link = Жағдай бети
 ## Languages
 
 ab = Абхаз
+ady = Адыгей
+af = Африкаанс
 ar = Араб
+az = Әзербайжан
+ba = Башкир
+be = Белорус
+bg = Болгар
+bm = Бамбара
+bn = Бенгал
+bo = Тибет
+br = Бретон
+bs = Босния
+bxr = Бурят
+ca = Каталан
+ckb = Орайлық курд
+cs = Чех
+cv = Чуваш
+da = Дат
+de = Немис
+dv = Мальдив
+el = Грек
+en = Англичан
+eo = Эсперанто
+es = Испан
 et = Эстон
+fa = Парс
+ff = Фула
+fi = Фин
+fr = Француз
+ga-IE = Ирланд
+ha = Хауса
+hi = Хинди
+hr = Хорват
+hy-AM = Армян
+is = Исланд
+it = Итальян
+izh = Ижор
 ja = Япон
+jbo = Ложбан
+jv = Яван
+ka = Грузин
 kaa = Қарақалпақ
 kk = Қазақ
 ko = Кореец
+lg = Луганда
+lij = Лигур
+ln = Лингала
+lo = Лаос
+lt = Литва
+mdf = Мокшан
+mn = Монғол
+ne-NP = Непал
+nl = Голланд
+pl = Поляк
+ps = Пушту
+pt = Португал
+quc = Киче
+ro = Румын
+ru = Рус
+sah = Якут
+sc = Сардин
+sco = Шотланд
+sk = Словак
+sl = Словен
+snk = Сонинке
+so = Сомали
+sq = Албан
+sr = Серб
+ss = Свати
+ta = Тамил
+te = Телугу
 tg = Тәжик
+th = Тай
+tig = Тигре
 tk = Түркмен
+tl = Тагал
 tr = Түрк
 tt = Татар
 udm = Удмурт
@@ -31,12 +100,19 @@ ug = Уйғыр
 uk = Украин
 ur = Урду
 uz = Өзбек
+vi = Вьетнам
+zh-CN = Қытай (Қытай)
+zh-HK = Қытай (Гонконг)
+zh-TW = Қытай (Тайван)
+zu = Зулу
+zza = Заза
 
 # [/]
 
 
 ## Layout
 
+datasets = Мағлыўматлар топламы
 languages = Тиллер
 about = Биз туўралы
 profile = Профил
@@ -52,6 +128,7 @@ logout = Шығыў
 
 ## Home Page
 
+show-wall-of-text = Толығырақ
 vote-yes = Аўа
 vote-no = Яқ
 hours-recorded = Жазылған саат
@@ -74,9 +151,12 @@ x-years-short =
         [one] { $count }ж
        *[other] { $count }ж
     }
+sign-up-account = Дизимнен өтиў
 
 ## Account Benefits
 
+benefits = Абзаллықлар
+keep-track = Бирнеше тиллердеги прогресс ҳәм көрсеткишлериңизди бақлап барың.
 
 ## What's public
 
@@ -89,6 +169,8 @@ x-years-short =
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle = [1-5]
+shortcut-discard-ongoing-recording = ESC
 
 ## ProjectStatus
 
@@ -180,6 +262,7 @@ about-title = Неге ушын Common Voice?
 
 about-localization-title = Веб-сайтты локализациялаў
 about-stay-in-touch-button = Дизимнен өтиў
+about-nav-how-it-works-2 = Common Voice қалай ислейди?
 
 ## Community Playbook Content
 ## What is a language
@@ -187,6 +270,11 @@ about-stay-in-touch-button = Дизимнен өтиў
 
 ## How do I add a language
 
+about-playbook-how-add-language = Мен тилди қалай қосыўым мүмкин?
+about-playbook-how-add-language-translating-heading = Сайтты аўдарыў
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon ды қалай қолланыў кереклиги ҳаққындағы видео нусқаўымызды көриң.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Гәплерди жыйнаў
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Гәплерди жыйнаў ҳаққында көбирек билиў</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -196,6 +284,7 @@ about-stay-in-touch-button = Дизимнен өтиў
 
 ## How to record quality
 
+about-playbook-how-record-content-3 = Гәплерди оқығанда итибарлы болың. Сөзлерди қалдырмаң, өзгертпең ҳәм артықша сөз қоспаң.
 
 ## How to grow language
 
@@ -215,9 +304,11 @@ about-playbook-how-grow-language-content-2 = Ўақиялар
 
 ## Glossary
 
+glossary = Сөзлик
 
 ## Error pages
 
+error-code = Қәтелик { $code }
 
 ## Data
 
@@ -240,10 +331,15 @@ datasets-heading = Мағлыўматлар топламы
 language = Тил
 cv-license = Лицензия
 audio-format = Аудиоформат
+size-gigabyte = ГБ
+size-megabyte = МБ
 subscribe = Жазылыў
 # This indicates that there is no data to display
 no-information = Мағлыўмат жоқ
+data-other-ted-name = TED-LIUM корпусы
+go-discourse = Discourse ға өтиў
 go-languages-page = Тиллер бетине өтиў
+ready-to-validate = Гәплерди тексериўге жәрдем бериўге таярсыз ба?
 more = Көбирек
 close = Жабыў
 download = Жүклеп алыў
@@ -251,6 +347,7 @@ dataset-version = Версия
 dataset-metadata-sex = Жыныс
 # dataset metadata - age of contributor
 dataset-metadata-age = Жас
+donate-modal-message = Мағлыўматлар базаңыз жүкленбекте!
 dataset-donate-modal-heading = Билесиз бе...
 
 ## Download Modal
@@ -271,6 +368,7 @@ request-language-form-language =
     .label = Тил
 request-language-success-title = Тилди қосыў ҳаққындағы сораўыңыз жиберилди, рахмет.
 select-language = Тилди таңлаң...
+other-language = Басқа тил
 
 ## Request Language Pages
 
@@ -293,8 +391,11 @@ language-validation-hours = Саат
 
 ## Contribution
 
+listen = Тыңлаў
 review = Тексериў
 skip = Өткерип жибериў
+record-no-mic-found = Микрофон табылмады.
+record-abort-delete = Шығыў ҳәм клиплерди өшириў
 target-segment-learn-more = Толығырақ
 
 ## Contribution Nav Items
@@ -303,34 +404,53 @@ target-segment-learn-more = Толығырақ
 ## Reporting
 
 report = Шағыныў
+report-grammar-or-spelling = Грамматиқалық / орфографиялық қәте
+report-grammar-or-spelling-detail = Гәпте грамматиқалық ямаса орфографиялық қәте бар.
+report-different-language = Басқа тил
 report-other-comment =
     .placeholder = Пикир
+continue = Даўам етиў
+report-success = Шағым табыслы жиберилди
 
 ## Goals
 
+days =
+    { $count ->
+        [one] Күн
+       *[other] Күн
+    }
 
 ## Dashboard
 
 your-languages = Сизиң тиллериңиз
 stats = Статистика
+awards = Сыйлықлар
 you = Сиз
 
 ## Custom Goals
 
+both-speak-and-listen = Екеўиде
+daily-goal = Күнлик мақсет
+weekly-goal = Ҳәптелик мақсет
 easy-difficulty = Аңсат
 average-difficulty = Орташа
 difficult-difficulty = Қыйын
 pro-difficulty = Про
+want-to-continue = Даўам етиўди қәлейсиз бе?
+build-custom-goal = Жеке мақсет жаратыў
 set-a-goal = Мақсет қойыў
 confirm-goal = Мақсетти тастыйықлаў
 
 ## Profile Delete
 
+remove = Өшириў
+profile-form-delete = Профилди өшириў
 
 ## Profile Download
 
 download-profile-title = Профил
 download-selected = Таңланды
+download-start = Профил мағлыўматларын жүклеп алыў
 download-request-button = Жүклеп алыў
 download-request-title = { $created }
 download-request-refresh-button = Жаңалаў
@@ -346,9 +466,11 @@ demo-welcome = Common Voice ға хош келдиңиз
 ## Demo Datasets
 
 card-button-back = Артқа
+demo-account = Аккаунт
 
 ## Demo Account
 
+demo-account-sign-up = Дизимнен өтиў силтемесин жибериў
 
 ## Demo Contribute
 
@@ -359,6 +481,7 @@ card-button-back = Артқа
 ## Validation criteria
 
 contribution-for-example = мысалы
+see-more = <chevron></chevron>Толығырақ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
 # automatically exported from Sentence Collector.
@@ -375,6 +498,7 @@ sc-header-my = Мениң гәплерим
 sc-header-statistics = Статистика
 sc-header-profile = Профил
 sc-footer-discourse = Discourse
+sc-footer-report-bugs = Қәтеликлер ҳаққында хабар бериў
 sc-footer-privacy = Қупиялық
 sc-footer-terms = Шәртлер
 sc-footer-cookies = Куки
@@ -383,12 +507,18 @@ sc-logout-button = Шығыў
 
 ## HOME
 
+sc-home-review-title = Гәплерди тексериў
 
 ## GENERAL
 
 
 ## HOW-TO
 
+sc-howto-review-title = Гәплерди тексериў
+sc-howto-review-subtitle = Гәп төмендеги критерияларға жуўап бериўине исеним кәмил етиң:
+sc-howto-review-criteria-1 = Гәп дурыс жазылған болыўы керек.
+sc-howto-review-criteria-2 = Гәп грамматиқалық тәрептен дурыс болыўы керек.
+sc-howto-review-criteria-4 = Егер гәп критерияларға жуўап берсе "Мақуллаў" түймесин басың.
 
 ## MY SENTENCES
 
@@ -444,7 +574,7 @@ sc-personal-your-languages = Сизиң тиллериңиз:
 
 sc-review-form-button-reject = Бийкарлаў
 sc-review-form-button-skip = Өткерип жибериў
-sc-review-form-button-approve = Қабыллаў
+sc-review-form-button-approve = Мақуллаў
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
