@@ -64,10 +64,10 @@ type Gender = {
 
 type SentenceDomain = {
   '': number
-  agriculture: number
-  automotive: number
+  agriculture_food: number
+  automotive_transport: number
   finance: number
-  food_service_retail: number
+  service_retail: number
   general: number
   healthcare: number
   history_law_government: number
@@ -141,10 +141,10 @@ const createEmptyLocale = (): Locale => {
       },
       sentence_domain: {
         '': 0,
-        agriculture: 0,
-        automotive: 0,
+        agriculture_food: 0,
+        automotive_transport: 0,
         finance: 0,
-        food_service_retail: 0,
+        service_retail: 0,
         general: 0,
         healthcare: 0,
         history_law_government: 0,
@@ -232,6 +232,9 @@ const mergeStats = (
   return stats
 }
 
+const extractSentenceDomains = (str: string): Array<keyof SentenceDomain> =>
+  str.split(',') as Array<keyof SentenceDomain>
+
 const extractStatsFromClipsFile = (locale: string, releaseDirPath: string) =>
   TE.tryCatch(
     () =>
@@ -250,13 +253,15 @@ const extractStatsFromClipsFile = (locale: string, releaseDirPath: string) =>
         fileStream
           .pipe(parser)
           .on('data', (data: CLIPS_TSV_ROW) => {
+            const sentenceDomains = extractSentenceDomains(data.sentence_domain)
             clientSet.add(data.client_id)
             initialLocale.clips++
             initialLocale.splits.age[data.age as keyof Age]++
             initialLocale.splits.gender[data.gender as keyof Gender]++
-            initialLocale.splits.sentence_domain[
-              data.sentence_domain as keyof SentenceDomain
-            ]++
+
+            sentenceDomains.forEach(
+              domain => initialLocale.splits.sentence_domain[domain]++,
+            )
           })
           .on('finish', () => {
             stats.locales[locale] = initialLocale

@@ -1816,6 +1816,7 @@ sentence-variant-select-multiple-variants = عام زبان/ ڈھڳ لہجے
 ca-algueres = الگیریز
 ca-central = مرکزی
 ca-balear = بلير
+ca-northern = شمالی
 ca-valencia-tortosi = ٹورٹوسی
 ca-valencia-alacant = الاکانتی
 cy-northwes = شمال مغربی ویلش
@@ -1825,6 +1826,8 @@ cy-southwes = جنوب مغربی ویلش
 cy-southeas = جنوب مشرقی ویلش
 pt-BR = پرتگیزی (برازیل)
 pt-PT = پرتگیزی (پرتگال)
+sw-sanifu = سواحلی سانیفو (EA)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (ٹریفٹ)
 
 ## REVIEW PAGE
 
