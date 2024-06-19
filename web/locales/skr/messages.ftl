@@ -1825,6 +1825,8 @@ cy-southwes = جنوب مغربی ویلش
 cy-southeas = جنوب مشرقی ویلش
 pt-BR = پرتگیزی (برازیل)
 pt-PT = پرتگیزی (پرتگال)
+sw-sanifu = سواحلی سانیفو (EA)
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ (ٹریفٹ)
 
 ## REVIEW PAGE
 
