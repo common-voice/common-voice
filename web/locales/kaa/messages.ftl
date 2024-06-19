@@ -129,10 +129,12 @@ logout = Шығыў
 ## Home Page
 
 show-wall-of-text = Толығырақ
+help-us-explain = Жазып алыўды қосың, тыңлаң ҳәм бизге айтып бериң: төмендеги гәп дурыс оқылған ба?
 vote-yes = Аўа
 vote-no = Яқ
 hours-recorded = Жазылған саат
 hours-validated = Тексерилген саат
+voices-online = Ҳәзир онлайн даўыслар
 todays-progress = Бүгинги прогресс
 all-locales = Ҳәммеси
 today = Бүгин
@@ -361,6 +363,7 @@ contact-form-name =
     .label = Атыңыз
 contact-form-message =
     .label = Хабар
+contact-required = *мәжбүрий
 
 ## Request Language Modal
 
@@ -396,6 +399,7 @@ review = Тексериў
 skip = Өткерип жибериў
 record-no-mic-found = Микрофон табылмады.
 record-abort-delete = Шығыў ҳәм клиплерди өшириў
+listen-instruction = { $actionType }<playIcon></playIcon> гәп дурыс оқылған ба?
 target-segment-learn-more = Толығырақ
 
 ## Contribution Nav Items
@@ -587,9 +591,11 @@ sc-review-form-button-skip-shortcut = S
 
 # [/SentenceCollector]
 
+contact-common-voice = Common Voice командасы менен байланысың
 
 ## WRITE PAGE
 
+contact-us = Биз бенен байланысыў
 
 ## LANGUAGE VARIANT CODES
 
@@ -599,6 +605,9 @@ sc-review-form-button-skip-shortcut = S
 
 ## BULK SUBMISSION 
 
+bulk-upload-additional-information = Егер бул файл ҳаққында қосымша мағлыўмат бериўди қәлесеңиз, өтиниш, биз бенен байланысың <emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Бизге, сизиң</mark><br/><mark>жәрдемиңиз керек!</mark>
