@@ -1816,6 +1816,7 @@ sentence-variant-select-multiple-variants = عام زبان/ ڈھڳ لہجے
 ca-algueres = الگیریز
 ca-central = مرکزی
 ca-balear = بلير
+ca-northern = جدا گانہ
 ca-valencia-tortosi = ٹورٹوسی
 ca-valencia-alacant = الاکانتی
 cy-northwes = شمال مغربی ویلش
