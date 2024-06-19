@@ -47,6 +47,7 @@ kk = Қазақ
 ko = Кореец
 mn = Монғол
 nl = Голланд
+ro = Румын
 ru = Рус
 sah = Якут
 sco = Шотланд
@@ -71,6 +72,8 @@ ur = Урду
 uz = Өзбек
 vi = Вьетнам
 zh-CN = Қытай (Қытай)
+zh-HK = Қытай (Гонконг)
+zh-TW = Қытай (Тайван)
 zu = Зулу
 zza = Заза
 
@@ -133,6 +136,7 @@ x-years-short =
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording = ESC
 
 ## ProjectStatus
@@ -234,6 +238,7 @@ about-nav-how-it-works-2 = Common Voice қалай ислейди?
 ## How do I add a language
 
 about-playbook-how-add-language = Мен тилди қалай қосыўым мүмкин?
+about-playbook-how-add-language-translating-heading = Сайтты аўдарыў
 about-playbook-how-add-language-collecting-sentences-heading = Гәплерди жыйнаў
 
 ## How does localization work
