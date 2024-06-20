@@ -464,6 +464,7 @@ variant-contribution-help = Ñe’ẽ iñambue ha hekoeta peteĩ ñe’ẽ ryep�
 variant-contribution-option-1 = Ehechauka ñe’ẽjuaju año ha clip ambuegua
 variant-contribution-option-2 = Ehechauka ñe’ẽjuaju ha clip opaite ambuepy che ñe’ẽ rehegua
 variant-contribution-warning-title = ⓘ ¡Ndaopaitéi ñe’ẽjuaju ha clip oreko teramoĩ ambuegua!
+variant-contribution-warning-subtitle = Ne apañuáipa eipytyvõkuaa hag̃ua, ehechajeykuaa hetepy tuichaháicha ne ñe’ẽme ejapose vovénte.
 
 ## Profile - Email
 
@@ -701,6 +702,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Emoñe’ẽve
 
 about-playbook-how-funded = ¿Mba’éicha ivirureko Common Voice?
 about-playbook-how-funded-content-2 = Hetaiterei viru tekotevẽ ñeñongatu ha mba’ekuaarã aty ñemoherakuã, pyendavusu moporãve ha emongu’e <africaMradiLink>tembiaporape tekohagua</africaMradiLink>.
+about-playbook-how-funded-content-3 = Nde térã ne rendaguasu oipytyvõséramo apopyrã ndive, ejapokuaa <donateLink>jopói</donateLink> térã eñe’ẽ ore aty <emailFragment>commonvoice@mozilla.com</emailFragment> rupive.
 
 ## Glossary
 
