@@ -205,6 +205,8 @@ profile-form-additional-language =
     .label = Қосымша тил
 profile-form-language =
     .label = Тил
+profile-form-variant =
+    .label = { $language } тилиниң қайсы диалектинде сөйлейсиз?
 profile-form-variant-default-value = Вариант таңланбаған
 profile-form-accent =
     .label = Акцент
@@ -263,20 +265,33 @@ add-language = Тил қосыў
 faq-title = Көп берилетуғын сораўлар
 faq-what-cv-q = Common Voice — бул не?
 faq-why-important-q = Неге бул әҳмийетли?
+faq-how-get-q = Common Voice мағлыўматларын қалай алыўым мүмкин?
 faq-what-cv-and-deepspeech-q = Common Voice ҳәм Deep Speech тиң парқы не?
 faq-is-goal-assistant-q = Common Voice тиң мақсети даўыслы жәрдемшини жаратыў ма?
 faq-why-my-lang-q = Неге мениң тилим усы ўақытқа шекем қосылмаған?
+faq-how-calc-hours-q = Common Voice саатларды қалай есаплайды?
+faq-why-not-ask-read-q = Неге сиз адамлардан китап ямаса Википедиядағы мақалаларды оқыўын сорамайсыз?
+faq-why-account-q = Мен неге дизимнен өтиўим керек?
+faq-is-account-public-q = Мениң аккаунт мағлыўматларым ҳәммеге көринеди ме?
 faq-what-is-cv = Common Voice — бул не?
+faq-using-cv = Common Voice ты қолланыў
 faq-search-for-answers =
     .label = Жуўапларды излеў
 
 ## ABOUT US
 
 about-title = Неге ушын Common Voice?
+how-does-it-work-title-v2 = Common Voice қалай ислейди?
 
 ## How does it work section
 
 about-localization-title = Веб-сайтты локализациялаў
+about-sentence-collection-title = Гәплерди жыйнаў
+about-sentence-collection-subtitle = Даўыслап оқыў ушын гәплер жыйналады
+about-dataset-release-title = Мағлыўматлар топламының шығыўы
+about-dataset-release-subtitle = Биз мағлыўматлар топламын ҳәр 3 айдан жәриялаймыз.
+about-subscribe-text = Common Voice пенен байланыста болыўды қәлейсиз бе?
+about-listen = Тыңлаң
 about-stay-in-touch-button = Дизимнен өтиў
 about-nav-how-it-works-2 = Common Voice қалай ислейди?
 
