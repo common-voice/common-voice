@@ -448,6 +448,9 @@ request-language-form-info-explanation-list-3 = Тилди түсиниўими�
 
 ## Languages Overview
 
+language-section-launched = Иске түсирилди
+languages-show-more = Көбирек тиллер
+languages-show-less = Азырақ тиллер
 language-search-input =
     .placeholder = Излеў
 language-speakers = Сөйлеушилер
@@ -460,17 +463,30 @@ language-validation-hours = Саат
 listen = Тыңлаў
 review = Тексериў
 skip = Өткерип жибериў
+record-must-allow-microphone = Сиз микрофонға руқсат бериўиңиз керек.
 record-no-mic-found = Микрофон табылмады.
+record-three-more-instruction = Үшеўи қалды!
+record-last-instruction = <recordIcon></recordIcon> Соңғысы!
+share-common-voice = Common Voice пенен бөлисиң
 record-abort-delete = Шығыў ҳәм клиплерди өшириў
 listen-instruction = { $actionType }<playIcon></playIcon> гәп дурыс оқылған ба?
+listen-abort-cancel = Тексериўди даўам етиў
+listen-abort-confirm = Тексериўди жуўмақлаў
+speak-empty-state-cta = Гәплерди усыныў
+keep-track-profile = Өз прогрессиңизди профил жәрдеминде бақлап барың
+login-to-get-started = Баслаў ушын кириң ямаса дизимнен өтиң
+target-segment-add-voice = Даўысыңызды қосың
 target-segment-learn-more = Толығырақ
+change-preferences = Сазлаўларды өзгертиў
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Даўыслар топламы
 
 ## Reporting
 
 report = Шағыныў
+report-title = Шағым жибириў
 report-grammar-or-spelling = Грамматиқалық / орфографиялық қәте
 report-grammar-or-spelling-detail = Гәпте грамматиқалық ямаса орфографиялық қәте бар.
 report-different-language = Басқа тил
@@ -493,9 +509,12 @@ your-languages = Сизиң тиллериңиз
 stats = Статистика
 awards = Сыйлықлар
 you = Сиз
+show-ranking = Мениң рейтингимди көрсетиў
 
 ## Custom Goals
 
+get-started-goals = Мақсет жаратыў
+create-custom-goal = Жеке мақсет жаратыў
 both-speak-and-listen = Екеўиде
 daily-goal = Күнлик мақсет
 weekly-goal = Ҳәптелик мақсет
@@ -503,10 +522,20 @@ easy-difficulty = Аңсат
 average-difficulty = Орташа
 difficult-difficulty = Қыйын
 pro-difficulty = Про
+lose-goal-progress-warning = Мақсетиңизди өзгертиў арқалы сиз әмелдеги прогрессиңизди жойтасыз.
 want-to-continue = Даўам етиўди қәлейсиз бе?
 build-custom-goal = Жеке мақсет жаратыў
 set-a-goal = Мақсет қойыў
+cant-decide = Бир шешимге келе алмай атырсыз ба?
+how-many-per-day = Жүдә жақсы! Күнине неше клип?
+how-many-a-week = Жүдә жақсы! Ҳәптесине неше клип?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } клип
+       *[other] { $count } клип
+    }
 confirm-goal = Мақсетти тастыйықлаў
+goal-interval-weekly = Ҳәптесине
 
 ## Profile Delete
 
