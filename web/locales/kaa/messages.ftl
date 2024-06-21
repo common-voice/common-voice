@@ -661,6 +661,7 @@ sc-stats-updating = Жаңаланбақта...
 sc-submit-err-select-lang = Өтиниш, тилди таңлаң.
 sc-submit-err-add-sentences = Өтиниш, гәплерди қосың.
 sc-submit-err-add-source = Өтиниш, деректи қосың
+sc-submit-title = Гәплерди қосыў
 sc-submit-select-language =
     .labelText = Тилди таңлаң
 sc-submit-button =
@@ -668,9 +669,21 @@ sc-submit-button =
 
 ## ADD LANGUAGE
 
+sc-add-lang-sec-button = Тил қосыў
+sc-add-err-unexpected = Серверден күтилмеген жуўап алынды
+sc-add-err-submission = Жибериў қәтелиги
 
 ## ADD SENTENCES CONFIRMATION
 
+sc-confirm-sentences-title = Жаңа гәплерди тастыйықлаў
+# Variables:
+#   $countOfSentences (Number) - Number of sentences the user has filled in the submission form
+sc-confirm-sentences-found =
+    { $countOfSentences ->
+        [0] Гәплер табылмады
+        [one] 1 гәп табылды
+       *[other] { $countOfSentences } гәп табылды.
+    }
 sc-confirm-button-text = Тастыйықлаў
 
 ## LANGUAGE INFO
@@ -678,16 +691,28 @@ sc-confirm-button-text = Тастыйықлаў
 
 ## LOGIN
 
+sc-login-err-try-again = Өтиниш, қайта урынып көриң.
 
 ## PROFILE
 
+# Variables:
+#   $username (String) - eMail address of the logged in user
+sc-profile-title = Профил: { $username }
 sc-personal-your-languages = Сизиң тиллериңиз:
+sc-personal-remove-button = өшириў
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-2 = Гәп грамматиқалық тәрептен дурыс болыўы керек.
 
 ## REVIEW
 
+sc-review-title = Гәплерди тексериў
+sc-review-loading = Гәплер жүкленбекте...
+sc-review-no-sentences = Ҳәзир тексериў ушын гәплер жоқ. Бирақ, сиз <addLink>жаңасын қосыўыңыз мүмкин!</addLink>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Дерек: { $sentenceSource }
 sc-review-form-button-reject = Бийкарлаў
 sc-review-form-button-skip = Өткерип жибериў
 sc-review-form-button-approve = Мақуллаў
@@ -697,12 +722,20 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-button-submit =
+    .submitText = Тексериўди жуўмақлаў
+sc-review-link = Тексериў
 
 ## SETTINGS
 
+sc-settings-title = Сазлаўлар
+sc-settings-ui-language = Интерфейс тили
+sc-settings-show-all-button = Өткерип жиберилген гәплерди қайта көрсетиў
 
 # [/SentenceCollector]
 
+localization-select =
+    .label = Тил/Локализацияны таңлаң
 contact-common-voice = Common Voice командасы менен байланысың
 
 ## WRITE PAGE
