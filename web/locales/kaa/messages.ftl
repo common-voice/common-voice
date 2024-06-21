@@ -736,6 +736,16 @@ sc-settings-show-all-button = Өткерип жиберилген гәплерд
 
 localization-select =
     .label = Тил/Локализацияны таңлаң
+partnerships-get-in-touch = Байланыста болың
+partnerships-foundations-header = Фондлар
+why-donate = Не ушын сорап атырсыз?
+misreadings = Надурыс оқыў
+background-noise = Сыртқы шаўқым
+background-voices = Сыртқы даўыслар
+volume = Даўыс бәлентлиги
+reader-effects = Оқыў эффектлери
+just-unsure = Исенимиңиз қәмил емес пе?
+example = Мысал
 contact-common-voice = Common Voice командасы менен байланысың
 
 ## WRITE PAGE
