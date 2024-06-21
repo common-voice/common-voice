@@ -536,6 +536,12 @@ n-clips-pluralized =
     }
 confirm-goal = Мақсетти тастыйықлаў
 goal-interval-weekly = Ҳәптесине
+share-goal-type-listen = Тексериў
+weekly-goal-created = Сизиң ҳәптелик мақсетиңиз жаратылды
+daily-goal-created = Сизиң күнлик мақсетиңиз жаратылды
+track-progress = Прогрессиңизди усы жерде ямаса статистика бетинде бақлап барың.
+return-to-edit-goal = Мақсетиңизди өзгертиў ушын, қәлеген ўақтыңызда усы жерге қайтың.
+share-goal = Мақсетлерим менен бөлисиў
 
 ## Profile Delete
 
@@ -550,22 +556,29 @@ download-start = Профил мағлыўматларын жүклеп алыў
 download-request-button = Жүклеп алыў
 download-request-title = { $created }
 download-request-refresh-button = Жаңалаў
+download-request-link-text = Zip №{ $offset } / { $total }
 download-request-metadata-link = Гәп тексти
 
 ## Landing
 
+login-company = { $company } почтасы жәрдеминде кириң / дизимнен өтиң
+profile-not-required = Қатнасыў ушын профил талап етилмейди, бирақ бул пайдалы, неге екенин төменде көриң.
 
 ## DemoLayout
 
 demo-welcome = Common Voice ға хош келдиңиз
+demo-welcome-subheader = Қөбирек билиўди ҳәм жобаға өз үлесиңизди қосыўды қәлейсиз бе?
 
 ## Demo Datasets
 
+card-button-next = Кейинги
 card-button-back = Артқа
+demo-language-select-label = Тиллерди көриў
 demo-account = Аккаунт
 
 ## Demo Account
 
+demo-account-card-header = Қатнасыў ушын профил талап етилмейди, бирақ бул пайдалы
 demo-account-sign-up = Дизимнен өтиў силтемесин жибериў
 
 ## Demo Contribute
@@ -576,7 +589,13 @@ demo-account-sign-up = Дизимнен өтиў силтемесин жибер
 
 ## Validation criteria
 
+contribution-criteria-nav = Критериялар
+contribution-criteria-page-title = Қатнасыў критериялары
 contribution-for-example = мысалы
+contribution-misreadings-title = Надурыс оқыў
+contribution-background-voices-title = Сыртқы даўыслар
+contribution-volume-title = Даўыс бәлентлиги
+contribution-reader-effects-title = Оқыў эффектлери
 see-more = <chevron></chevron>Толығырақ
 
 # Don't rename the following section, its contents are auto-inserted based on the name. These strings are
@@ -610,6 +629,7 @@ sc-home-review-title = Гәплерди тексериў
 
 ## HOW-TO
 
+sc-howto-addsen-title = Жаңа гәплерди қосыў
 sc-howto-review-title = Гәплерди тексериў
 sc-howto-review-subtitle = Гәп төмендеги критерияларға жуўап бериўине исеним кәмил етиң:
 sc-howto-review-criteria-1 = Гәп дурыс жазылған болыўы керек.
