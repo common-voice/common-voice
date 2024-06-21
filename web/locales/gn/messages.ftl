@@ -1724,6 +1724,7 @@ adding-sentences-subheader-speakable = Ñe’ẽkuaa
 adding-sentences-subheader-numbers = Papapy
 adding-sentences-subheader-numbers-explanation = Papapy. Aníke emoĩ tai moñe’ẽrã reñoihápe omoapañuaikuaa rehe oñemoñe’ẽnguévo ñe’ẽ ayvúpe. Mba’éichapa oñemoñe’ẽ papapy oĩ ijeregua rehe ha omoapañuaikuaa mba’ekuaarã atýpe. Techapyrã, pe papapy “2409” oñemoñe’ẽkuaa iporãháicha “mokõipa irundy papa’ỹ porundy” ha “mokõi su irundysa porundy”.
 adding-sentences-subheader-abbreviations = Mombyky ha Acrónimo
+adding-sentences-subheader-abbreviations-explanation = Ani eiporu mombykypyre ha acrónimo ikatúva “USA” térã “ICE” moñe’ẽrã teñoihapegua ikatu rehe oñemoñe’ẽ ndojokupytýiva ijehaikatu rehe. Avei, ikatu oñemoñe’ẽ ambueháicha upe mombykypyre.
 adding-sentences-subheader-punctuation = Mbopapapy
 adding-sentences-subheader-punctuation-explanation = Umi ta’ãnga’i ha ñemokyta oñemoingeva’erã tekotevẽ añetetéramonte. Techapyrã, oikéramo pe puso inglés ñe’ẽme ikatúva “don’t” ha “we’re” ha toñemoĩ moñe’ẽrã ñepyrũguápe, hákatu hasy oikotevẽ hag̃ua ko’ã ta’ãnga’i rehe ha’ẽva “@” térã “#.”
 adding-sentences-subheader-special-characters = Jehairã Jeporavokuaa ha Tai Pytaguáva
