@@ -52,7 +52,7 @@ import {
 } from '../application/repository/sentences-repository'
 import { fetchUserClientVariants } from '../application/repository/user-client-variants-repository'
 import { getLocaleId } from './model/db'
-import { localeRouter } from '../api/locales/routes'
+import { languagesRouter } from '../api/languages/routes'
 
 export default class API {
   model: Model
@@ -136,6 +136,7 @@ export default class API {
     router.post('/requested_languages', this.createLanguageRequest)
 
     router.get('/languages', this.getAllLanguages)
+    router.use('/languages/:locale', languagesRouter)
     router.get('/stats/languages/', this.getLanguageStats)
 
     router.get(
@@ -150,7 +151,6 @@ export default class API {
     router.post('/newsletter/:email', this.subscribeToNewsletter)
 
     router.post('/:locale/downloaders', this.insertDownloader)
-    router.get('/:locale/messages', localeRouter)
 
     router.use('/reports', reportsRouter)
 
