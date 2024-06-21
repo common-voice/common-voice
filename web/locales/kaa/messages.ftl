@@ -353,18 +353,25 @@ about-playbook-how-project-governance-content-3 = Қупиялық, қәўипс
 ## Glossary
 
 glossary = Сөзлик
+localization = Локализация
 
 ## Error pages
 
+error-title-404 = Биз бул бетти таба алмадық
+error-title-503 = Бизде күтилмеген үзилис
 error-code = Қәтелик { $code }
 
 ## Data
 
+data-download-button = Common Voice мағлыўматларын жүклеп алыў
 data-download-yes = Аўа
 data-download-deny = Яқ
 data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
+data-other-title = Басқа даўыслы мағлыўматлар топламы...
+data-other-download = Мағлыўматларды жүклеп алыў
 release-version = Версия
 dataset-date = Сәне
+license = Лицензия: <licenseLink>{ $license }</licenseLink>
 license-mixed = Аралас
 terms-agree = Разыман
 terms-disagree = Разы емеспен
@@ -377,11 +384,18 @@ review-cancel = Жибериўди бийкарлаў
 
 datasets-heading = Мағлыўматлар топламы
 language = Тил
+download-dataset-header = Мағлыўматлар топламын жүклеп алыў
+# File size in gigabytes
+size = Көлем
 cv-license = Лицензия
 audio-format = Аудиоформат
+number-of-voices = Даўыслар саны
 size-gigabyte = ГБ
 size-megabyte = МБ
+whats-inside = Common Voice мағлыўматлар топламының ишинде не бар?
 subscribe = Жазылыў
+other-datasets = Басқа даўыслы мағлыўматлар топламы
+feedback-q = Пирик қалдырыў
 # This indicates that there is no data to display
 no-information = Мағлыўмат жоқ
 data-other-ted-name = TED-LIUM корпусы
@@ -392,6 +406,7 @@ more = Көбирек
 close = Жабыў
 download = Жүклеп алыў
 dataset-version = Версия
+no-information-available = Мағлыўмат жоқ
 dataset-metadata-sex = Жыныс
 # dataset metadata - age of contributor
 dataset-metadata-age = Жас
@@ -400,6 +415,7 @@ dataset-donate-modal-heading = Билесиз бе...
 
 ## Download Modal
 
+download-back = Common Voice мағлыўматлар топламына қайтыў
 download-no = Яқ, рахмет
 
 ## Contact Modal
@@ -421,6 +437,7 @@ other-language = Басқа тил
 
 ## Request Language Pages
 
+request-language-heading = Жаңа тилди қосыўды сораў
 request-language-form-email =
     .label = Эл.почтаңыз
 request-language-form-info =
