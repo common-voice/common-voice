@@ -9,6 +9,7 @@ loading = Жүкленбекте...
 not-available-abbreviation = Жоқ
 banner-error-slow-1 = Қеширерсиз, Common Voice әстен ислемекте. Қызығыўшылығыңыз ушын рахмет.
 banner-error-slow-link = Жағдай бети
+error-something-went-wrong = Кеширерсиз, бирнәрсе қәте кетти
 
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
@@ -126,6 +127,7 @@ zza = Заза
 datasets = Мағлыўматлар топламы
 languages = Тиллер
 about = Биз туўралы
+partner = Серик
 profile = Профил
 help = Жәрдем
 contact = Байланыс
@@ -133,6 +135,7 @@ privacy = Қупиялық
 terms = Шәртлер
 cookies = Куки
 faq = КБС
+content-license-text = Контент <licenseLink>Creative Commons</licenseLink> лицензиясы астында
 link-copied = Силтеме көширип алынды
 back-top = Жоқарыға
 logout = Шығыў
@@ -143,6 +146,8 @@ show-wall-of-text = Толығырақ
 help-us-explain = Жазып алыўды қосың, тыңлаң ҳәм бизге айтып бериң: төмендеги гәп дурыс оқылған ба?
 vote-yes = Аўа
 vote-no = Яқ
+speak-goal-text = Клип жазылды
+listen-goal-text = Клип тексерилди
 hours-recorded = Жазылған саат
 hours-validated = Тексерилген саат
 voices-online = Ҳәзир онлайн даўыслар
@@ -173,12 +178,14 @@ keep-track = Бирнеше тиллердеги прогресс ҳәм көр�
 
 ## What's public
 
+whats-public = Қайсы мағлыўматларды ҳәмме көре алады?
 
 ## Speak & Listen Shortcuts
 
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Қойыў/Тоқтатыў
 
 ## Speak Shortcuts
 
