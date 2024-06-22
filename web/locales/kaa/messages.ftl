@@ -196,7 +196,7 @@ request-language-button = Тилди сораў
 
 ## ProjectStatus
 
-status-contribute = Даўысыңызды жазып қалдырың!
+status-contribute = Даўысыңызды жазып қалдырың
 # Variables:
 # $goal - number of hours representing the next goal
 status-goal = Кейинги мақсет: { $goal }
@@ -273,6 +273,7 @@ faq-title = Көп берилетуғын сораўлар
 faq-what-cv-q = Common Voice — бул не?
 faq-why-important-q = Неге бул әҳмийетли?
 faq-how-get-q = Common Voice мағлыўматларын қалай алыўым мүмкин?
+faq-why-mission-q = Common Voice не ушын Mozilla миссиясының бир бөлеги болып есапланады?
 faq-what-cv-and-deepspeech-q = Common Voice ҳәм Deep Speech тиң парқы не?
 faq-is-goal-assistant-q = Common Voice тиң мақсети даўыслы жәрдемшини жаратыў ма?
 faq-why-my-lang-q = Неге мениң тилим усы ўақытқа шекем қосылмаған?
@@ -397,8 +398,11 @@ size = Көлем
 cv-license = Лицензия
 audio-format = Аудиоформат
 number-of-voices = Даўыслар саны
+email-to-download = Жүклеп алыў ушын электрон почтаңызды киргизиң
 size-gigabyte = ГБ
 size-megabyte = МБ
+validated-hours = Саат тексерилди
+recorded-hours = Саат жазылды
 whats-inside = Common Voice мағлыўматлар топламының ишинде не бар?
 subscribe = Жазылыў
 other-datasets = Басқа даўыслы мағлыўматлар топламы
@@ -452,6 +456,7 @@ request-language-form-info =
 request-language-form-info-explanation-list-1 = Тилиңиздиң атамалары
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO кодлары</isoCodeLink> егер мәлим болса
 request-language-form-info-explanation-list-3 = Тилди түсиниўимизге жәрдем бериўши веб-сайтларға силтемелер
+request-language-google-recaptcha-required = Егер даўам етиўди қәлесеңиз, reCAPTCHA талап етиледи
 
 ## Languages Overview
 
@@ -467,6 +472,7 @@ language-validation-hours = Саат
 
 ## Contribution
 
+contribute = Қатнасыў
 listen = Тыңлаў
 review = Тексериў
 skip = Өткерип жибериў
