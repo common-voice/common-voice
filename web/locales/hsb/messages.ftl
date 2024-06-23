@@ -617,6 +617,10 @@ about-playbook-how-add-language = Kak móžu rěč přidać?
 about-playbook-how-add-language-content-1 = Přepruwujće najprjedy, hač waša rěč <languageLink>hižo eksistuje</languageLink>. Jeli nic, dyrbiće <strong>sydło překožować a sady zběrać</strong>.
 about-playbook-how-add-language-translating-heading = Sydło přełožować
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Čitajće naš přewodnik, kak móžeće Pontoon wužiwać.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Wužiwamy nastroj Mozilla z mjenom <pontoonLink>Pontoon</pontoonLink> za přełožki. Pontoon ma wjele rěčow, ale jeli waša rěč hišće tam faluje, <pontoonRequestLink>móžeće wo to prosyć, zo so přidawa</pontoonRequestLink>.
+    Zo by rěč potom w projekće Common Voice k dispoziciji była,
+    <githubRepoLink>požadajće nowu rěč na GitHub</githubRepoLink>. <localizationFragment>Hlejće wjace wo přełožowanju websydła</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Sady hromadźić
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Čitajće naš přewodnik wo wužiwanju hromadźak sadow</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
