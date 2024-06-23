@@ -617,6 +617,10 @@ about-playbook-how-add-language = Kak mógu rěc pśidaś?
 about-playbook-how-add-language-content-1 = Pśeglědajśo nejpjerwjej, lěc waša rěc <languageLink>južo eksistěrujo</languageLink>. Jolic nic, musyśo <strong>sedło pśełožowaś a sady gromaźiś</strong>.
 about-playbook-how-add-language-translating-heading = Sedło pśełožowaś
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Cytajśo naš wjednik, kak móžośo Pontoon wužywaś.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Wužywamy rěd Mozilla z mjenim <pontoonLink>Pontoon</pontoonLink> za pśełožki. Pontoon ma wjele rěcow, ale jolic waša rěc hyšći tam felujo, <pontoonRequestLink>móžośo wó to pšosyś, až se pśidawa</pontoonRequestLink>.
+    Aby była rěc pón w projekśe Common Voice k dispoziciji,
+    <githubRepoLink>pominajśo nowu rěc na GitHub</githubRepoLink>. <localizationFragment>Glejśo wěcej wó pśełožowanju websedła</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Sady gromaźiś
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Cytajśo naš wjednik wó wužywanju gromaźak sadow</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
@@ -644,6 +648,7 @@ about-playbook-how-add-sentences-content-3 = Móžośo <scraperLink>ekstraktor s
 ## How to record quality
 
 about-playbook-how-record-quality = Kak mógu głosowy klip we wusokej kwaliśe nagraś?
+about-playbook-how-record-content-1 = Powědajśo ze swójim normalnym głosom! Wašnja, na kótaruž powědaśo, jo how witana – comy waš akcent tak, ako jo, a comy wašu zwuconu głosnosć, waš stil a wašu intonaciju.
 about-playbook-how-record-content-2 = Wobiniśo se pśewjele slězynowych šumow – wy měł derje słyšaś byś.
 about-playbook-how-record-content-3 = Cytajśo sadu kradosćiwje – njewuwostajśo, njezměnjajśo abo njepśidawajśo słowa.
 about-playbook-how-record-content-5 = <accuracyLink>Zgóńśo wěcej wó kriterijach dokradnosći.</accuracyLink>
