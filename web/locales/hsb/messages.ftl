@@ -661,6 +661,7 @@ about-playbook-how-grow-language-content-1 = Wutworjenje móžnosćow za wšelak
 about-playbook-how-grow-language-content-2 = Podawki
 about-playbook-how-grow-language-content-3 = Móžeće zarjadowanja organizować, zo byšće ludźom pomhał přinošować. Je lóšo hač mysliće. Móžeće to online z nastrojom widejokonferency abo wosobinsce, jeli to je wěste. <eventTemplate>Wobhladajće sej naše předłohi a resursy za běžne zarjadowanja</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Socialne medije
+about-playbook-how-grow-language-content-5 = Móžeće socialne medije wužiwać, zo byšće powěsć rozšěrjał. Dźělće přinoški, kotrež rozjasnjeja, čehodla je wažnje, a skontaktujće druhich ludźi, zo byšće so wo problemach kaž rěčne prawa, rěčna WI abo stroniskosć w technice rozmołwjał. Wobhladajće sen dalše rady wo <campaignLink>přewjedźenju socialneje kampanje inkluziwnje wobsah, kotryž móžeće znowa wužiwać.</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerstwa a syće
 about-playbook-how-grow-language-content-8 = <strong>Budźće kreatiwny!</strong> Waše rěčne zhromadźenstwo budźe jónkróćne, a tu su jenož někotre móžnosće, zo byšće započał.
 
