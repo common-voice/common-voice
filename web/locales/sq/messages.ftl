@@ -252,10 +252,10 @@ vote-yes = Po
 vote-no = Jo
 toggle-play-tooltip = Shtypni { shortcut-play-toggle } që të hyhet ose dilet nga mënyra luajtje
 speak-subtitle = Dhuroni zërin tuaj
-speak-paragraph = Incizimi i copëzave zanore është pjesë integrale e krijimit të grupit tonë të hapur të të dhënave; ndokush mund të thosh se është edhe pjesa zbavitëse.
+speak-paragraph = Incizimi i copëzave zanore është pjesë integrale e krijimit të grupit tonë të hapur të të dhënave; ndokush mund të thoshte se është edhe  pjesa zbavitëse.
 speak-goal-text = Copëza të incizuara
 listen-subtitle = Ndihmonani të vleftësojmë zëra
-listen-paragraph = Vleftësimi i copëzave të dhuruara është po aq e rëndësishme për misionin e Common Voice-it. Bëni një dëgjim dhe ndihmonani të krijojmë të dhëna zanore cilësore me burim të hapur.
+listen-paragraph = Vleftësimi i copëzave të dhuruara është po aq i rëndësishëm për misionin e Common Voice-it. Bëni një dëgjim dhe ndihmonani të krijojmë të dhëna zanore cilësore me burim të hapur.
 listen-goal-text = Copëza të vleftësuara
 hours-recorded = Orë Incizim
 hours-validated = Orë të Vleftësuara
@@ -293,7 +293,7 @@ rich-data = Bëjini të dhënat tuaja sa më të pasura që të mundet, duke dh�
 improve-audio = Të dhënat e profilit përmirësojnë të dhënat audio të përdorura në stërvitjen e përpikërisë së njohjes së të folurës.
 keep-track = Ndiqni përparimin tuaj dhe statistika nëpër gjuhë të ndryshme.
 compare-progress = Shihni se si duket përparimi juaj kundrejt kontribuesish të tjerë nga anembanë bota.
-view-goals = Shihni përparimin tuaj lidhur me objektiva personale dhe të projektit.
+view-goals = Shihni përparimin tuaj sipas objektivash personale dhe të projektit.
 join-newsletter = Në daçi, bëhuni pjesë e listës tonë të email-eve, për përditësime dhe informacione të reja rreth projektit.
 
 ## What's public
