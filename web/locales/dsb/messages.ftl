@@ -671,11 +671,14 @@ about-playbook-how-grow-language-content-8 = <strong>Buźćo kreatiwny!</strong>
 about-playbook-how-validate = Wótkul wěm, lěc mam głosowy klip pśizwóliś?
 about-playbook-how-validate-content-1 = Jolic sćo mógał je <strong>słyšaś</strong> a <strong>rozměś</strong>, jo nejlěpje je <strong>pśizwóliś</strong>.
 about-playbook-how-validate-content-2 = <strong>Njewótpokazujśo klipy, źož powědaŕ „ma akcent“, kótaryž jo hynakšy ako swój akcent</strong> – to jo wažne za spóznaśe głosow, aby za wšykne lěpjej funkcioněrowało.
+about-playbook-how-validate-content-3 = Jolic se mysliśo, až wugronjenje <strong>rozměśe znjemóžnja</strong>, abo dajo <strong>wjele zogola w slězynje</strong> abo <strong>druge wósoby teke powědaju</strong>, měł wy klip wótpokazaś. <accuracyLink>Glejśo dalšne informacije w našych kriterijach dokradnosći</accuracyLink>.
 about-playbook-how-validate-content-4 = Jolic klip se wót 2 wósobowu wótpokazujo, wózjawijo se w drugej źělnej sajźbje datoweje sajźby.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kak mam pśistup k datowej sajźbje a kak mógu ju wužywaś?
+about-playbook-how-access-dataset-content-1 = Móžośo k <datasetsPage>bokoju datowych sajźbow</datasetsPage> pśejś, pominanu wersiju a pominane rěcy wubraś a ześěgnuś! Dataje maju <metadataLink>pśirědowane metadaty</metadataLink>, na pśikład demografiske informacije a pśespytowańske daty. Musyśo e-mailowu adresu pódaś, aby datowu sajźbu ześěgnuł.
+about-playbook-how-access-dataset-content-2 = Jolic za rědami za napóranje ASR-modelow pytaśo, móžośo se z drugimi ludami w zgromaźeństwje <discourseLink>na Discourse</discourseLink> do zwiska stajiś.
 
 ## How are decisions made
 
