@@ -238,7 +238,7 @@ home-title = Projekti Common Voice është një nismë e Mozilla-s për të ndih
 default-tagline = Mozilla Common Voice është një nismë për të ndihmuar t’u mësohet makinave se si flasin njerëzit.
 home-cta = Flisni, kontribuoni këtu!
 wall-of-text-start = Zëri është diçka natyrore, zëri është njerëzor. Ndaj na tërheq krijimi i teknologjive të zërit të përdorshme për makinat tona. Por për të krijuar sisteme zëri lypsen sasi tejet të mëdha zanore.
-wall-of-text-more-mobile = Shumica e të dhënave nga kompanitë e mëdha nuk jepen për shumicën e njerëzve. Jemi të mendimit se ko pengon risitë. Ndaj nisëm projektin Common Voice, një projekt për të ndihmuar në bërjen e njohjes së zërit të hapur për këdo.
+wall-of-text-more-mobile = Shumica e të dhënave nga kompanitë e mëdha nuk jepen për shumicën e njerëzve. Jemi të mendimit se kjo pengon risitë. Ndaj nisëm projektin Common Voice, një projekt për të ndihmuar në bërjen e njohjes së zërit të hapur për këdo.
 wall-of-text-more-desktop =
     Tani mund të dhuroni zërin tuaj për të na ndihmuar të krijojmë një bazë të dhënash me burim të hapur që mund ta përdorë kushdo për të sjellë aplikacione risore për pajisje dhe web.<lineBreak></lineBreak>
     Lexoni një frazë për të ndihmuar makinat të mësojnë se si flasin në të vërtetë njerëzit. Kontrolloni punën e kontribuesve të tjerë për të përmirësuar cilësinë. Ja, kaq e thjeshtë është!
