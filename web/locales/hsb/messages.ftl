@@ -670,6 +670,7 @@ about-playbook-how-grow-language-content-8 = <strong>Budźće kreatiwny!</strong
 
 about-playbook-how-validate = Zwotkel wěm, hač mam hłosowy klip schwalić?
 about-playbook-how-validate-content-1 = Jeli móžešće je <strong>słyšeć</strong> a <strong>rozumić</strong>, je najlěpje je <strong>schwalić</strong>.
+about-playbook-how-validate-content-2 = <strong>Njewotpokazujće klipy, hdźež rěčnik „ma akcent“, kotryž je hinaši hač swój akcent</strong> – to je wažne za spóznaće hłosow, zo by za wšěch lěpje fungowało.
 about-playbook-how-validate-content-4 = Jeli klip so wot 2 wosobow wotpokazuje, wozjewi so w druhej dźělnej sadźbje datoweje sadźby.
 
 ## How to access dataset
