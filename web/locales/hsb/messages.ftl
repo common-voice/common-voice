@@ -648,8 +648,10 @@ about-playbook-how-add-sentences-content-3 = Móžeće <scraperLink>ekstraktor s
 ## How to record quality
 
 about-playbook-how-record-quality = Kak móžu hłosowy klip we wysokej kwaliće natočić?
+about-playbook-how-record-content-1 = Rěčće ze swojim normalnym hłosom! Wašnje, na kotrež rěčiće, je tu witane – chcemy waš akcent tak, kaž je, a chcemy wašu zwučenu sylnosć zwuka, waš stil a wašu intonaciju.
 about-playbook-how-record-content-2 = Wobeńdźće přewjele pozadkowych šumow – wy měł derje słyšeć być.
 about-playbook-how-record-content-3 = Čitajće sadu prócniwje – njewuwostajejće, njeměnjejće abo njepřidawajće słowa.
+about-playbook-how-record-content-4 = Zawěsćće, zo platforma natoča, prjedy hač započnjeće rěčeć, a zo hakle zastanje, hdyž sće hotowy.
 about-playbook-how-record-content-5 = <accuracyLink>Zhońće wjace wo kriterijach dokładnosće.</accuracyLink>
 
 ## How to grow language
