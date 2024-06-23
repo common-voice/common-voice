@@ -677,6 +677,8 @@ about-playbook-how-validate-content-4 = Jeli klip so wot 2 wosobow wotpokazuje, 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kak mam přistup k datowej sadźbje a kak móžu ju wužiwać?
+about-playbook-how-access-dataset-content-1 = Móžeće k <datasetsPage>stronje datowych sadźbow</datasetsPage> přeńć, požadanu wersiju a požadane rěče wubrać a sćahnyć! Dataje maja <metadataLink>přirjadowane metadaty</metadataLink>, na přikład demografiske informacije a přepruwowanske daty. Dyrbiće e-mejlowu adresu podać, zo byšće datowu sadźbu sćahnył.
+about-playbook-how-access-dataset-content-2 = Jeli za nastrojemi za wutworjenje ASR-modelow pytaće, móžeće so z druhimi ludźimi w zhromadźenstwje <discourseLink>na Discourse</discourseLink> do zwiska stajić.
 
 ## How are decisions made
 
