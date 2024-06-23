@@ -663,6 +663,7 @@ about-playbook-how-grow-language-content-3 = Móžeće zarjadowanja organizować
 about-playbook-how-grow-language-content-4 = Socialne medije
 about-playbook-how-grow-language-content-5 = Móžeće socialne medije wužiwać, zo byšće powěsć rozšěrjał. Dźělće přinoški, kotrež rozjasnjeja, čehodla je wažnje, a skontaktujće druhich ludźi, zo byšće so wo problemach kaž rěčne prawa, rěčna WI abo stroniskosć w technice rozmołwjał. Wobhladajće sen dalše rady wo <campaignLink>přewjedźenju socialneje kampanje inkluziwnje wobsah, kotryž móžeće znowa wužiwać.</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerstwa a syće
+about-playbook-how-grow-language-content-7 = Namakajće druhich ludźi, kotrymž to je wažne. To móža uniwersity, rěčne šule, zajimowe skupiny abo zhromadźenstwa datoweje wědomosće. Skontaktujće so a rozjasńće, kak móža pomhać a čehodla. <outreachTemplates>Hlejće našu předłohu za skontaktowanje přez e-mejl</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Budźće kreatiwny!</strong> Waše rěčne zhromadźenstwo budźe jónkróćne, a tu su jenož někotre móžnosće, zo byšće započał.
 
 ## How to validate
