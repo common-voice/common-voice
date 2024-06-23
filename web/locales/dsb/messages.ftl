@@ -661,13 +661,16 @@ about-playbook-how-grow-language-content-1 = Napóranje móžnosćow za wjelerak
 about-playbook-how-grow-language-content-2 = Tšojenja
 about-playbook-how-grow-language-content-3 = Móžośo zarědowanja organizěrowaś, aby ludam pomagał pśinosowaś. Jo lažčej ako mysliśo. Móžośo to online z rědom wideokonference abo wósebnje, jolic to jo wěste. <eventTemplate>Woglědajśo se k našym pśedłogam a resursam za běžne zarědowanja</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Socialne medije
+about-playbook-how-grow-language-content-5 = Móžośo socialne medije wužywaś, aby powěsć rozšyrjował. Źělśo pśinoski, kótarež rozjasnjuju, cogodla jo wažnje, a skontaktěrujśo druge luźe, aby se wó problemach akož rěcne pšawa, rěcna WI abo pśedsudkownosć w technice rozgranjał. Woglědajśo se dalšne rady wó <campaignLink>pśewjeźenju socialneje kampanje inkluziwnje wopśimjeśe, kótarež móžośo znowego wužywaś.</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnaŕstwa a seśi
+about-playbook-how-grow-language-content-7 = Namakajśo druge luźe, kótarymž to jo wažne. To mógu uniwersity, rěcne šule, kupki zajmow abo zgromaźeństwa datoweje wědomnosći. Skontaktěrujśo se a rozjasniśo, kak mógu pomagaś a cogodla. <outreachTemplates>Glejśo našu psedło´gu za skontaktěrowanje pśez e-mail</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Buźćo kreatiwny!</strong> Wašo rěcne zgromaźeństwo buźo jadnorazowe, a how su jano někotare móžnosći, aby wy zachopił.
 
 ## How to validate
 
 about-playbook-how-validate = Wótkul wěm, lěc mam głosowy klip pśizwóliś?
 about-playbook-how-validate-content-1 = Jolic sćo mógał je <strong>słyšaś</strong> a <strong>rozměś</strong>, jo nejlěpje je <strong>pśizwóliś</strong>.
+about-playbook-how-validate-content-2 = <strong>Njewótpokazujśo klipy, źož powědaŕ „ma akcent“, kótaryž jo hynakšy ako swój akcent</strong> – to jo wažne za spóznaśe głosow, aby za wšykne lěpjej funkcioněrowało.
 about-playbook-how-validate-content-4 = Jolic klip se wót 2 wósobowu wótpokazujo, wózjawijo se w drugej źělnej sajźbje datoweje sajźby.
 
 ## How to access dataset
