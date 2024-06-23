@@ -651,12 +651,15 @@ about-playbook-how-record-quality = Kak mógu głosowy klip we wusokej kwaliśe 
 about-playbook-how-record-content-1 = Powědajśo ze swójim normalnym głosom! Wašnja, na kótaruž powědaśo, jo how witana – comy waš akcent tak, ako jo, a comy wašu zwuconu głosnosć, waš stil a wašu intonaciju.
 about-playbook-how-record-content-2 = Wobiniśo se pśewjele slězynowych šumow – wy měł derje słyšaś byś.
 about-playbook-how-record-content-3 = Cytajśo sadu kradosćiwje – njewuwostajśo, njezměnjajśo abo njepśidawajśo słowa.
+about-playbook-how-record-content-4 = Zawěsććo, až platforma nagrawa, nježli až zachopijośo powědaś, a až akle pśestanjo, gaž sćo gótowy.
 about-playbook-how-record-content-5 = <accuracyLink>Zgóńśo wěcej wó kriterijach dokradnosći.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = Kak móžomy rěx na Common Voice statkownje rosć daś?
+about-playbook-how-grow-language-content-1 = Napóranje móžnosćow za wjelerakosć luźi, z kótarymiž mógu ku Common Voice pśinosowaś, zawěsćujo, až datowa sajźba tak wjele ludam ako móžno słužy. Smy napórali resurse a pśedłogi, kótarež móžośo wužywaś!
 about-playbook-how-grow-language-content-2 = Tšojenja
+about-playbook-how-grow-language-content-3 = Móžośo zarědowanja organizěrowaś, aby ludam pomagał pśinosowaś. Jo lažčej ako mysliśo. Móžośo to online z rědom wideokonference abo wósebnje, jolic to jo wěste. <eventTemplate>Woglědajśo se k našym pśedłogam a resursam za běžne zarědowanja</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Socialne medije
 about-playbook-how-grow-language-content-6 = Partnaŕstwa a seśi
 about-playbook-how-grow-language-content-8 = <strong>Buźćo kreatiwny!</strong> Wašo rěcne zgromaźeństwo buźo jadnorazowe, a how su jano někotare móžnosći, aby wy zachopił.
