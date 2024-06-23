@@ -683,15 +683,19 @@ about-playbook-how-access-dataset-content-2 = Jolic za rědami za napóranje ASR
 ## How are decisions made
 
 about-playbook-how-project-governance = Kak se wó projektach rozsuźuju?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice se wót wjelerakego zgromaźeństwa aktiwistow, linguistow, datowych wědomnostnikow, akademikarjow a softwarowych wuwijarjow z cełego swěta zmóžnja. Wó projekt se załožba Mozilla Foundation stara.
 about-playbook-how-project-governance-content-2 = Našo wjeźenje na slědujucych słupach bazěrujo:
 about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
 about-playbook-how-project-governance-content-4 = Sobustatkowanje zgromaźeństwa a rozsuźowanje
 about-playbook-how-project-governance-content-5 = Gódnota a pśipóznaśe.
 about-playbook-how-project-governance-content-6 = Mjazsobna rozpšawniska winowatosć.
+about-playbook-how-project-governance-content-7 = <governanceLink>Cytajśo wěcej wó tom, kak nas nawjeduju</governanceLink>
 
 ## How is Common Voice funded
 
 about-playbook-how-funded = Kak se Common Voice financěrujo?
+about-playbook-how-funded-content-1 = Common Voice jo projekt załožby Mozilla Foundation, US 501c3. Projekt se tuchylu dopołnje pśez <philantropicGrantLink>filantropiske pśpłaśonki</philantropicGrantLink> a dary wót luźi z cełego swěta financěrujo.
+about-playbook-how-funded-content-2 = Płaśi wjele pjenjez, gaž datowe sajźby njepśestawnje góspodujomy a wózjawjamy, platformu pólěpšamy a <africaMradiLink>programy zgromaźeństwa</africaMradiLink> pśewjeźomy.
 
 ## Glossary
 
