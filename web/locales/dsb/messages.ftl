@@ -550,6 +550,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Cogodla Common Voice?
+about-header-description-v2 =
+    <p>Common Voice jo zjawnje k dispoziciji stojeca datowa sajźba głosow, kótaraž se pśez głose dobrowólnych sobustatkujucych na cełem swěśe napórajo. Luźe, kótarež kśě głosowe nałoženja wuwijaś, mógu datowu sajźbu wužywaś, aby modele mašinelnego wuknjenja treněrowali.</p>
+    <p>Tuchylu nejwěcej rěcnych datowych sajźbow pśedewześam słuša, což inowaciju zadušujo. Rěcne datowe sajźby su teke pódreprezentěrowane: powědarje, kótarež engelšćinu njerozměju, luźe z njeběłeju barwu kóže, brašeńce, žeńske a luźe LGBTQIA+. To groni, až pśez głose wóźona technologija za wjele rěcow scełego njefunkcioněrujo, a tam, źož funkcioněrujo, njefunkcioněrujo snaź za wšykne jadnak derje. Mobilizěrujomy togodla wšuźi luźi, jich głose źěliś, aby my to změnili.
 how-does-it-work-title-v2 = Kak Common Voice funkcioněrujo?
 how-does-it-work-text = Wuměstnjamy datowu sajźbu głosow wótwórjonego žrědła do dobrowólnikow. Pósććo swój głos, pśeglědujśo dokradnosć klipy drugich wósobow, pólěpšćo datowu sajźbu za kuždego.
 
@@ -604,6 +607,7 @@ about-nav-playbook = Zgóńśo, kak móžośo se wobźěliś
 ## What is a language
 
 about-playbook-what-is-language = Co jo rěc na Common Voice?
+about-playbook-what-is-language-content-1 = Dajo wjele móžnosćow se rěc pśedstajiś. Za zaměry modelow rěcnego spóznaśa naraźujo Common Voice, se na „mjazsobnu rozymliwosć“ fokusěrowaś abo na to: „Mógu se powědarje toś teje rěcy zwětšego rozměś, jolic to wopytuju?“
 about-playbook-what-is-language-content-2 = Comy, až rěcne modele lěpjej mógu, wjele rozdźělnych powědarjow rozměś. Aby to jo móžne, musy datowa sajźba wjele rozdźělnych luźi reprezentěrowaś.
 about-playbook-what-is-language-content-3 = Někotare rěcy maju enormne rozdźělne w gramatice, wokabularje a wugronje. Togodla buźomy w lěśe 2022 <ctaLink>„warianty“ zawjedowaś</ctaLink. To zgromaźeństwam móžnosć dawa, swóje rěcy we wětšej datowej sajźbje rozeznawaś.
 
