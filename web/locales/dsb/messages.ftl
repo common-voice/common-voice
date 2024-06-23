@@ -696,6 +696,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Cytajśo wěce
 about-playbook-how-funded = Kak se Common Voice financěrujo?
 about-playbook-how-funded-content-1 = Common Voice jo projekt załožby Mozilla Foundation, US 501c3. Projekt se tuchylu dopołnje pśez <philantropicGrantLink>filantropiske pśpłaśonki</philantropicGrantLink> a dary wót luźi z cełego swěta financěrujo.
 about-playbook-how-funded-content-2 = Płaśi wjele pjenjez, gaž datowe sajźby njepśestawnje góspodujomy a wózjawjamy, platformu pólěpšamy a <africaMradiLink>programy zgromaźeństwa</africaMradiLink> pśewjeźomy.
+about-playbook-how-funded-content-3 = Jolic wy cośo abo waša organizacija co k projektoju pśinosowaś, móžośo <donateLink>pósćiś</donateLink> abo se z našym teamom partnaŕstwa na <emailFragment>commonvoice@mozilla.com</emailFragment> do zwiska stajiś.
 
 ## Glossary
 
@@ -1835,3 +1836,4 @@ donate-banner-cta = <mark>Trjebamy</mark><br/><mark>wašu pomoc!</mark>
 donate-banner-cta-explanation = Płaśi něźi jaden milion dolarow na lěto, aby my datowe sajźby góspodowali a platformu za wěcej ako 100 rěcnych zgromaźeństwow pólěpšowali, kótarež se na to spušćaju, což gótujomy. <strong>Jolic se wótwórjone, inkluziwne daty wažyśo – pósććo źinsa!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Wužywaśo Common Voice za</mark><br/><mark>swójo slěźenje?
+languages-donate-banner-cta-explanation = Common Voice se z darami a pśipłaśonkami financěrujo! Źěłamy rady gromaźe z akademikarjami, ciwilneju towarišnosću a slěźarjami industrije. Common Voice jo dermotny, ale jo napšawdu pomocnje, se z pśipłaśonkowymi naraźenjami na kostach platformy a za hosting wobźěliś.
