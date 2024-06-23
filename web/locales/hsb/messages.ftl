@@ -550,6 +550,9 @@ faq-search-for-answers =
 ## ABOUT US
 
 about-title = Čehodla Common Voice?
+about-header-description-v2 =
+    <p>Common Voice je zjawnje k dispoziciji stejaca datowa sadźba hłosow, kotraž so přez hłosy dobrowólnych sobuskutkowarjow na cyłym swěće wutworja. Ludźo, kotřiž chcedźa hłosowe nałoženja wuwiwać, móža datowu sadźbu wužiwać, zo bychu modele mašinelneho wuknjenja trenowali.</p>
+    <p>Tuchwilu najwjace rěčnych datowych sadźbow předewzaćam słuša, štož inowaciju podusy. Rěčne datowe sadźby su tež podreprezentowane: rěčnicy, kotřiž jendźelšćinu njerozumja, ludźo z njeběłej barbu kože, zbrašeni, žony a ludźo LGBTQIA+. To rěka, zo přez hłosy wodźena technologija za wjele rěčow docyła njefunguje, a tam, hdźež funguje, njefunguje snano za wšěch jenak derje. Mobilizujemy tohodla wšudźe ludźi, jich hłosy dźělić, zo bychmy to změnili.
 how-does-it-work-title-v2 = Kak Common Voice funguje?
 how-does-it-work-text = Přeměsćamy datowu sadźbu hłosow wotewrjeneho žórła do dobrowólnikow. Darće swój hłós, přepruwujće dokładnosć klipy druhich wosobow, polěpšće datowu sadźbu za kóždeho.
 
