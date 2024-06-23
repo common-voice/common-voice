@@ -633,7 +633,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Kak lokalizowanje sydłow funguje?
 about-playbook-how-localize-content-1 = Přełožowanje sydła Common Voice so na <strong>Pontoon</strong> wotměwa.
-about-playbook-how-localize-content-2 = <pontoonAccountLink>Załožće konto</pontoonAccountLink>, jeli žane nimaće. Wubjerće swoju rěč<strong>(„Team“)</strong> a potom projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Tam dataje namakaće, kotrež dyrbja so přełožować. Klikńće na jednu z nich, potom so słowa w jendźelšćinje a kašćik za přełožowanje pokazuja.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Załožće konto</pontoonAccountLink>, jeli žane nimaće. Wubjerće swoju rěč <strong>(„Team“)</strong> a potom projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Tam dataje namakaće, kotrež dyrbja so přełožować. Klikńće na jednu z nich, potom so słowa w jendźelšćinje a kašćik za přełožowanje pokazuja.
 about-playbook-how-localize-content-3 = Přełožowanje  so z jendźelšćiny přewjedźe, ale móžeće <strong>namjety</strong> w druhich rěčach widźeć. Klikńće na <strong>profilowy</strong> symbol, potom na wotkaz <strong>Nastajenja</strong> a přidajće rěče, kotrež rěčiće. Deleka w prawym róžku budźe lisćina přełožkow z mjenom <strong>Locales</strong>. Přełožki so na sydle po jednym dnju pokazaja.
 about-playbook-how-localize-content-4 = Sydło je hotowe za wozjewjenje, hdyž je po 75 % dokónčene.
 about-playbook-how-localize-content-5 = Wobhladajće sej rozjasnjenske widejo
@@ -683,11 +683,13 @@ about-playbook-how-access-dataset-content-2 = Jeli za nastrojemi za wutworjenje 
 ## How are decisions made
 
 about-playbook-how-project-governance = Kak so projektowe rozsudy tworja?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice so wot wšelakoreho zhromadźenstwa aktiwistow, linguistow, datowych wědomostnikow, akademikarjow a softwarowych wuwiwarjow z cyłeho swěta zmóžnja. Projekt so wot załožby Mozilla Foundation wothladuje.
 about-playbook-how-project-governance-content-2 = Naše wjedźenje na slědowacych stołpach bazuje:
 about-playbook-how-project-governance-content-3 = Priwatnosć, wěstota a transparenca.
 about-playbook-how-project-governance-content-4 = Sobuskutkowanje zhromadźenstwa a rozsudźowanje
 about-playbook-how-project-governance-content-5 = Hódnota a připóznaće.
 about-playbook-how-project-governance-content-6 = Mjezsobna rozprawniska winowatosć.
+about-playbook-how-project-governance-content-7 = <governanceLink>Čitajće wjace wo tym, kak nas nawjeduja</governanceLink>
 
 ## How is Common Voice funded
 
