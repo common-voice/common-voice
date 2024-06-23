@@ -604,6 +604,7 @@ about-nav-playbook = Zhońće, kak móžeće so wobdźělić
 ## What is a language
 
 about-playbook-what-is-language = Što je rěč na Common Voice?
+about-playbook-what-is-language-content-1 = Je wjele móžnosćow sej rěč předstajić. Za zaměry modelow rěčneho spóznaća namjetuje Common Voice, so na „wzajomnu zrozumliwosć“ fokusěrować abo na to: „Móža so rěčnicy tuteje rěče zwjetša rozumić, jeli to pospytuja?“
 about-playbook-what-is-language-content-2 = Chcemy, zo rěčne modele lěpje móža, wjele rozdźělnych rěčnikow rozumić. Zo by to je móžne, dyrbi datowa sadźba wjele rozdźělnych ludźi reprezentować.
 about-playbook-what-is-language-content-3 = Někotre rěče maja enormne rozdźělne w gramatice, wokabularje a wurjekowanju. Tohodla budźemy w lěće 2022 <ctaLink>„warianty“ zawjedować</ctaLink>. To zhromadźenstwam móžnosć dawa, swoje rěče we wjetšej datowej sadźbje rozeznawać.
 
