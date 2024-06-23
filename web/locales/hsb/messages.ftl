@@ -657,6 +657,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Zhońće wjace wo kriterijac
 ## How to grow language
 
 about-playbook-how-grow-language = Kak móžemy rěč na Common Voice skutkownje rosć dać?
+about-playbook-how-grow-language-content-1 = Wutworjenje móžnosćow za wšelakorosć ludźi, z kotrymiž móža ke Common Voice přinošować, zawěsćuje, zo datowa sadźba tak wjele ludźom kaž móžno słuži. Smy resursy a předłohi wutworili, kotrež móžeće wužiwać!
 about-playbook-how-grow-language-content-2 = Podawki
 about-playbook-how-grow-language-content-4 = Socialne medije
 about-playbook-how-grow-language-content-6 = Partnerstwa a syće
