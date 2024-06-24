@@ -1,0 +1,1 @@
+    .label = Taqoya'l

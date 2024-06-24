@@ -1,0 +1,54 @@
+## ProfileForm
+
+profile-form-username =
+    .label = Ним
+profile-form-native-language =
+    .label = Чужан кыв
+profile-form-additional-language =
+    .label = Содтӧд кыв
+profile-form-language =
+    .label = Кыв
+profile-form-accent =
+    .label = Сёрнитанног
+profile-form-age =
+    .label = Арлыд
+profile-form-gender-2 =
+    .label = Рӧд
+leaderboard-visibility =
+    .label = Лидеръяс лыдын петкӧдлӧм
+hidden = Дзебӧм
+visible = Тыдалана
+native-language =
+    .label = Чужан кыв
+profile-form-submit-save = Кольны
+profile-form-submit-saved = Кольӧма
+# Gender
+other = Мукӧд
+why-profile-title = Мыйла колӧ профиль?
+why-profile-text = Ас йывсьыныд содтӧд юӧр индӧм отсалӧ Common Voice системалы бурмӧдны стӧчлунсӧ ыстӧм  горгижӧдъясӧн.
+dashboard = Инданпӧв
+build-profile = Тэчны профиль
+avatar = Серпас
+goals = Могъяс
+settings = Ладмӧдӧм
+edit-profile = Профиль вежӧм
+profile-create-success = Профиль вӧчӧма!
+profile-close = Сиптыны
+profile-explanation = Сӧвмӧм позьӧ видзӧдны профиль отсӧгӧн. Отсалӧй бурмӧдны стӧчлунсӧ миян даннӧйяслысь.
+thanks-for-account = Аттьӧ аккаунт эскӧдӧмысь. Ӧні колӧ тэчны профильнытӧ.
+why-demographic = Мыйла тайӧ колӧ?
+why-demographic-explanation-2 = Йӧзӧдтӧм мыччӧдъяс, сэтшӧмъяс, кыдз арлыд, рӧд да акцент, отсалӧны бурмӧдны аудиомыччӧдъяссӧ, мый отсӧгӧн лоӧ велӧдӧма сёрни гӧгӧрвоан текнология. Тіян ним да email некор оз лоны йитӧмаӧсь тіянӧн ыстӧм мыччӧдъясӧн. Ті верманнад бӧрйыны, йӧзӧдны-ӧ  нимнытӧ либӧ кольны йӧзӧдтӧмӧн.
+accept-privacy = Ме сӧглас мыччӧдъяс видлалӧмӧн, кыдзи висьталӧ Mozilla-лӧн <privacyLink> Приватлун политика</privacyLink>.
+accept-privacy-title = Приватлун политика
+login-identity = Пыран индӧг (идентификатор)
+login-signup = Пырны / Вӧчны профиль
+edit = Вежны
+email-subscriptions = Электрон поштаӧ гижӧдчӧм
+download-profile = Босьт мыччӧдъясӧс
+contribution-experience = Донъялӧй асьыныд вӧчӧмсӧ
+skip-submission-feedback = Ӧтдортны донъялӧм
+skip-submission-description = Донъялӧм лоӧ кольӧма-ӧтдортӧма «Ыстыны» личкӧм бӧрын. Водзӧ лоӧ вуджӧма мӧд 5 гижӧм либӧ видлалӧм дорӧ.
+skip-submission-note = Пасйӧд: Тіянлы ковмас бӧрйыны Сёрнитӧм либӧ Кывзӧм костын, медым вежны отсалан ногсӧ
+off = Кусӧдны
+on = Ӧзтыны
+

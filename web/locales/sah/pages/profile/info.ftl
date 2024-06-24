@@ -1,0 +1,69 @@
+## ProfileForm
+
+profile-form-username =
+    .label = Кыттааччы аата
+profile-form-native-language =
+    .label = Төрөөбүт тыл
+profile-form-additional-language =
+    .label = Эбии тыл
+profile-form-language =
+    .label = Тыл
+profile-form-variant =
+    .label = Бу тыл - { $language } ханнык барыйаанынан саҥараҕыный?
+profile-form-variant-default-value = Барыйаан талыллыбатах
+profile-form-accent =
+    .label = Акцент
+profile-form-custom-accent-help-text =
+    .label = Бэйэҥ аксыаҥҥын хайдах ойуулуоҥ этэй?
+profile-form-custom-accent-placeholder-2 = Аксыаҥҥын ойуулуур суругу суруйан саҕалаа
+profile-form-age =
+    .label = Сааһа
+profile-form-gender-2 =
+    .label = Пол
+leaderboard-visibility =
+    .label = Лидердар таблицаларыгар көстөрө
+hidden = Көстүбэт
+visible = Көстөр
+native-language =
+    .label = Төрөөбүт тыл
+profile-form-add-accent = Саҥа аксыаны эп «{ $inputValue }»
+profile-form-submit-save = Бигэргэт
+profile-form-submit-saved = Бигэргэтилиннэ
+# Gender
+other = Атын
+why-profile-title = Тоҕо профиль нааданый?
+why-profile-text =
+    Бэйэҥ тускунан кылгастык кэпсээн Common Voice-ка ыытар аудио дааннайдаргын ордук туһалаах оҥороҕун.
+    Саҥаны билэр-араарар механизмнар ону үлэлэрин тупсарарга туһаныахтара.
+dashboard = Хаптал
+build-profile = Профиль оҥоруу
+avatar = Аватар
+goals = Сыал
+settings = Туруоруулар
+edit-profile = Профиль уларытыы
+profile-create-success = Бэрт, профиль оҥоһулунна!
+profile-close = Сап
+profile-explanation = Наблюдайте за прогрессом, пользуясь профилем, и помогайте улучшать точность наших голосовых данных.
+thanks-for-account = Аатыҥ бигэргэннэ, аны билигин профильгын толор.
+why-demographic = Бу туох суолталааҕый?
+why-demographic-explanation-2 = Анонимнай дааннайдар (холобур, сааһыҥ, пол, аксыаныҥ) массыына киһи саҥатын үчүгэйдик өйдүүрүгэр көмө буолуохтарын сөп. Эһиги ааккыт уонна электроннай почтаҕыт хаһан да эһиги ыыппыт дааннайдаргытын кытта ситимнэниэ суохтара уонна эһиги талыаххытын сөп, ааккытын көстөр эбэтэр көстүбэт гына.
+accept-privacy = Mozilla <privacyLink>Бүк охсунуу бэлитикэтин</privacyLink> кытта сөбүлэһэбин
+accept-privacy-title = Кистээһин сиэрэ
+accept-privacy-and-terms = Common Voice <termsLink>усулуобуйатын</termsLink> уонна <privacyLink>Кистээһинин сиэрин</privacyLink> кытта сөбүлэһэбин.
+login-identity = Киирэр идентификатор
+login = Киир
+login-signup = Киирии / Бэлиэтэнии
+edit = Уларытыы
+email-subscriptions = Email-га суруттарыы
+download-profile = Мин дааннайдарбын хачайдаа
+contribution-experience = Киллэрбит кылаатыҥ
+skip-submission-feedback = Сыанабылы көтүт
+skip-submission-description = Оценка работы с Common Voice будет пропущена после нажатия кнопки «Отправить». И вы сможете продолжить вносить вклад, следующими записями или прослушиваниями.
+skip-submission-note = Примечание: Вам по-прежнему нужно выбирать между записью и прослушиванием, чтобы изменить тип внесения вклада.
+off = Араар
+on = Холбоо
+help-accent = Аксыаҥҥа көмө ирдэнэр дуо?
+help-accent-explanation = Эн аксыаныҥ (саҥарар уратыҥ) – Эн тыллары хайдах саҥарарыҥ. Ол ханна олорбуккуттан, ханнык тылллары билэргиттэн уонна да атын элбэх фактордартан тутулуктаах. Манна итиннэ сыһыаннааҕы барытын суруйуоххун сөп.
+help-variants = Барыйааны таларга көмө ирдэнэр дуо?
+help-variants-explanation = Вариант (түөлбэ тыла) — ханнык эмит сиргэ олорор дьон эбэтэр ханнык эмит бөлөх саҥарар тылын көрүҥэ.  Сороҕор диалект дииллэр.
+

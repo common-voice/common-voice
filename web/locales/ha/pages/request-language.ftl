@@ -1,0 +1,1 @@
+    .label = Adreshin yanar gizo

@@ -1,0 +1,1 @@
+    .label = Teldupostur

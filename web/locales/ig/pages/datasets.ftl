@@ -1,0 +1,51 @@
+## Datasets Page
+
+datasets-headline = Ànyị́ nà-èwú ụ́yọ̀kọ̀ ńgwá ńchọ́chá n'ọ̀tụ́tụ́ ásụ̀sụ́ ǹkè ḿmádụ̀ níílé nwèrè íké íjì wúlíté ńgwá nwéré íké mà ọ̀ bụ̀ ghọ́tá ókwú.
+datasets-positioning = Ànyị́ kwènyèrè nà na ọ̀tụ́tụ́ ụ́yọ̀kọ̀ ngwá ńchọ́chá é wùbèrè màkà ónyé ọ́bụ́là gà-ènyé  áká kwàdóó ńchépụ́tá ọ́húrú nà ézí ásọ́mụ́mpì n'àzụ́máhị́á ńdị́ ná-éwú ígwè é jì émé ḿmụ̀tá ńké gbádóró ụ́kwụ́ nà ǹkànụ́zụ́ ókwú. Ụ́yọ̀kọ̀ ngwá ńchọ́chá Common Voice n'ọ̀tụ́tụ́ bụ̀ ọ̀kà íbè n'ímé ụ́yọ̀kọ̀ ngwá ńchọ́chá mànà ọ̀bụ́ghị́ náánị́ yá dị̀. Légá ányá n'íhú ọ́wá à dị́kà ébé ńrụ̀tụ́áká màkà ọ́wà ụ́yọ̀kọ̀ ngwá ńchọ́chá ńdị́ ọ́zọ́ nàkwà ébé ńnwétá ózí ọ́hụ́rụ́ dị́kà Common Voice nà-àgá n'íhú.
+language = Ásụ̀sụ́
+# File size in gigabytes
+size = Ǹhá
+validated-hr-total = Ḿkpókọ́tá Hr. á kwàdòrò
+overall-hr-total = Ńchị́kọ́tá ọ́nú ọ́gụ́ Hr. n'òzùzù ókè
+cv-license = Íkìkèré
+audio-format = Ọ̀dị́dị́ ǹkèókwú
+number-of-voices = Ọ́nụ́ọgụ ǹkè ólú ókwú
+splits = Ńkèwá
+email-to-download = Tìnyé íméèlụ̀ (email) ka óbúdàtà
+why-email = <b>Gị́nị́ mèrè é Jì chọ́ọ́ íméèlụ̀ (email)?</b>Ànyị́nwèrè íké ị́kpọ̄tụ́rụ́ gị́ n'ọ̀dị̀níhú gbàsárá mgbanwe é nwèrè n'ụ́yọ̀kọ̀ ńgwá ńchọ́chá. Íméèlụ̀ bụ̀ ọ́wà ḿkpárị́tá ányị́.
+confirm-size = Ị̀ dị́lá ńjìkéré íbīdō ḿbúdàtá <b>{ $size }</b>
+size-gigabyte = GB
+size-megabyte = MB
+download-language = Búdàtá { $language }
+validated-hours = Élékéré òlé nà òlé à kwàdòrò
+recorded-hours = Élékéré ólé é dékọ̀rọ̀
+whats-inside = Gị́nị́ dị̀ n'ímé ụ́yọ̀kọ̀ ńchọ́chá (dataset) Common Voice?
+want-dataset-update = Ị́ chọ̀rọ̀ kà Ị́ nà-ènwétá ózí kà ó sì àgá gbàsárá ụ́yọ̀kọ̀ ńgwá ńchọ́chá ọ́hụ́rụ́ Common Voice? Débànyé màkà ínwétá ákwụ́kwọ́ ózí ányị́.
+subscribe = Débànyé áhà
+get-started-speech = Bìdó nà ńghọ́tá ókwú (speech recognition)
+other-datasets = Ụ́yọ̀kọ̀ ńgwá ńchọ́chá (voice dataset) ókwú ńdị́ ọ̀zọ̀
+feedback-q = Ì nwèrè ńzágháchí?
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ bụ<docsLink>ọ́wà ńgwá ọ́rụ́ </docsLink>dị̀ màkà ńdị́ ńchọ́chá ná-éwúlíté ùsòrò ḿkpárị́tá ọ́hụ́rụ́ bụ́ ị̀gbà (conversatonal AI models).
+resource-deepspeech-info = É nwere ike iji igwe nghọ̀tá ụ̀dà-ólú nke Mozilla bụ́ Deep Voice rụ́ọ́ ńgwá ǹghọ̀tá-ókwú (Speech recognition). Gụọ<githubLink>nchịkọta Github</githubLink>ma ọ bụ sonye na<discourseLink>DeepSpeech Ḿkpárị́tá</discourseLink>kà Ị́ màtà kà Ị́ gà-èsí màlíté.
+resource-coqui-info = <coquiLink>Coqui</coquiLink>kà é dèbèrè màkà ǹká ǹghọ́tá ókwú (speech technology). Ámụ̀mà há gụ̀nyèrè deep learning síté n'ígwé STT nà TTS.
+community-playbook = Akwụkwọ egwuregwu obodo
+resource-playbook-info = <playbookLink>Chọ̀tá ḿgbàzí gá-ényé áká </playbookLink>nà ǹjèm Common Voice níílé, bídó nà localisaton gárúó n'òlìlò ńgwá nńychọ́chá, nàkwà ètù é sí ènwétá ányị́.
+data-other-librispeech-description = LibriSpeechbụ̀ ḿkpókọ́tá ńgwá ńchọ́chá íhé rúrú áwà1000 ǹkè ókwú Bèkéè 16Khz á gụ́pụ̀tàrà ǹkè é sìkwàra n'ákwụ́kwọ́ ólú ókwú wètá síté n'ámụ̀mà LibriVox.
+data-other-ted-name = Ḿkpókọ́tá ńgwá nńyọ́chá TED-LIUM
+data-other-ted-description = Ḿkpókọ́tá ńgwá nńyọ́chá TED-LIUM kà é mépụ̀tàrà síté nà ńdéghárị́ ólú ókwú ǹké dị́ n'ọ́wá ńchọ́chá TED
+data-other-voxforge-description = É hìbèrè VoxForge màkà ị́nákọ́tá ókwú é dèghàrị̀rị̀ édéghárị́ kà é jìrí yá nà ọ́wà ígwé ǹghọ́tá ókwú (speech recognition engines) mépéré émépé n'éfù.
+your-feedback = Ò nwè íhé Ị́ mà gbàsárá kà ányị́ gà-èsí méé kà ụ́yọ̀kọ̀ ńgwá ńchọ́chá Common Voice dị́káwányé mmá káríá kà ọ́ dì ùgbú à? Mèé kà ányị́ mátá ǹké à nà-ébè ḿkpárị́tá.
+go-discourse = Gàá na Discourse
+missing-language = Ị̀ hụ́ghị́ ébé é dènyéré ásụ̀sụ́ gị́ n'ụ́yọ̀kọ̀ ńgwá ńchọ́chá? Màkà ị́rị́ọ́tá ásụ̀sụ́, gàá n'íhú ọ́wá ányị́ bụ́ màkà ásụ̀sụ́.
+go-languages-page = Gàá na Languages Page
+more = Ọ̀zọ́
+close = Mèchíé
+download = Búdàtá
+dataset-version = Ụ̀dị́
+
+data-download-singleword-title = Búdàtá Ńkébì Èbùmnúchè Ótù Ókwū
+data-download-singleword-callout-v2 = Ńké à bụ̀ ákụ̀kụ́ ǹlò ǹké gụ́nyéré ńgwá ńchọ́chá gá-ágbányé ígwé ǹghọ̀tá ọ́nụ́ọ́gụ́gụ́ nà ǹkè ná-áchọ́pụ̀tá éé/ḿbà.
+release-version = Ụ̀dị́
+dataset-date = Ụ́bọ̀chị̀
+license = Ikikere: <licenseLink>{ $license }</licenseLink>
+license-mixed = Ńkwákọ́tá

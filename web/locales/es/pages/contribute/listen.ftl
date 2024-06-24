@@ -1,0 +1,9 @@
+listen = Escuchar
+listen-instruction = { $actionType } <playIcon></playIcon> ¿han dicho la frase de forma precisa?
+listen-again-instruction = ¡Buen trabajo! <playIcon></playIcon> Escucha de nuevo cuando estés preparado
+listen-3rd-time-instruction = Dos menos <playIcon></playIcon>, ¡sigue así!
+listen-last-time-instruction = <playIcon></playIcon> ¡La última!
+listen-empty-state = Nos hemos quedado sin clips para validar en este idioma ...
+listen-abort-title = ¿Terminar de validar clips?
+listen-abort-cancel = Continuar validando
+listen-abort-confirm = Terminar de validar

@@ -1,0 +1,11 @@
+listen = Ascoltar
+listen-instruction = { $actionType }<playIcon></playIcon> – es iste pronunciation correcte?
+listen-again-instruction = Optime labor!<playIcon></playIcon> Ascolta de novo quando tu es preste
+listen-3rd-time-instruction = Duo facite, continua assi!<playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Le ultime!
+listen-empty-state = Nos non ha plus registrationes a validar pro iste lingua...
+listen-empty-state-variants = Tu variante de lingua poterea carer de registrationes! Si tu vole, tu pote cambiar tu parametros pro vider altere phrases intra tu lingua.
+listen-loading-error = Impossibile trovar alcun registration audio a facer te ascoltar. Retenta plus tarde.
+listen-abort-title = Terminar le validation del registrationes?
+listen-abort-cancel = Continuar le validation
+listen-abort-confirm = Terminar le validation

@@ -1,0 +1,1 @@
+    .label = Ninza kwija kutayaya.

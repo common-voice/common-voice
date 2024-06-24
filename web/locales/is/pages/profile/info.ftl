@@ -1,0 +1,74 @@
+## ProfileForm
+
+profile-form-username =
+    .label = Notandanafn
+profile-form-native-language =
+    .label = Móðurmál
+profile-form-additional-language =
+    .label = Önnur mál
+profile-form-language =
+    .label = Tungumál
+profile-form-variant =
+    .label = Hvaða afbrigði af { $language } talar þú?
+profile-form-variant-default-value = Ekkert afbrigði valið
+profile-form-accent =
+    .label = Hreimur
+profile-form-custom-accent-help-text =
+    .label = Hvernig myndir þú lýsa hreimnum þínum?
+profile-form-custom-accent-placeholder-2 = Skrifaðu til að lýsa hreimnum þínum
+profile-form-age =
+    .label = Aldur
+profile-form-gender-2 =
+    .label = Kyn
+leaderboard-visibility =
+    .label = Sýnileiki stigatöflu
+hidden = Falið
+visible = Sýnilegt
+native-language =
+    .label = Móðurmál
+profile-form-add-accent = Bæta við nýjum sérsniðnum hreimi „{ $inputValue }“
+profile-form-submit-save = Vista
+profile-form-submit-saved = Vistað
+male_masculine = Karl/karlkyns
+female_feminine = Kona/kvenkyns
+intersex = Intersex
+transgender = Trans
+do_not_wish_to_say = Vil ekki segja
+# Gender
+other = Annað
+why-profile-title = Hvers vegna notkunarsnið?
+why-profile-text =
+    Með því að veita ákveðnar upplýsingar um sjálfan þig, þá eykur þú á notagildi aðsendra gagna fyrir raddgreiningarvélarnar 
+    sem nýta sér þessi gögn til að bæta nákvæmni sína.
+dashboard = Stjórnborð
+build-profile = Búa til notkunarsnið
+avatar = Auðkennismynd
+goals = Markmið
+settings = Stillingar
+edit-profile = Breyta notkunarsniði
+profile-create-success = Gerð notkunarsniðs tókst!
+profile-close = Loka
+profile-explanation = Fylgstu með árangrinum á notkunarsniðinu þínu og hjálpaðu okkur að auka á nákvæmni raddgagnanna.
+thanks-for-account = Takk fyrir að staðfesta aðganginn þinn, nú skulum við byggja upp notkunarsniðið þitt.
+why-demographic = Hvers vegna skiptir þetta máli?
+why-demographic-explanation-2 = Nafnlaus notendagögn eins og um aldur, kyn og hreim hjálpa til við að bæta hljóðgögnin sem notuð eru til að þjálfa talgreiningarvélar. Notendanöfn og tölvupóstföng verða aldrei tengd þeim gögnum sem lögð verða fram. Það er valkvætt hvort notandanafn birtist opinberlega eða sé ósýnilegt.
+accept-privacy = Mér finnst allt í lagi að þið meðhöndlið þessar upplýsingar eins og útskýrt er í <privacyLink>persónuverndarstefnu</privacyLink> Mozilla
+accept-privacy-title = Persónuverndarstefna
+accept-privacy-and-terms = Ég samþykki <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> Common Voice
+login-identity = Innskráningarauðkenni
+login = Skrá inn
+login-signup = Skrá inn / Nýskrá
+edit = Breyta
+email-subscriptions = Tölvupóstáskriftir
+download-profile = Sækja gögnin mín
+contribution-experience = Reynsla af framlagi
+skip-submission-feedback = Sleppa umsögn varðandi framlag
+skip-submission-description = Við innsendingu framlags verður umsögn sleppt eftir að smellt hefur verið á 'Senda'. Framlag heldur beint áfram með næsta setti af 5 upptökum eða staðfestingum.
+skip-submission-note = Athugaðu: Þú verður samt að velja á milli tals eða hlustunar til að breyta tegund framlags.
+off = Af
+on = Ǻ
+help-accent = Þarftu hjálp með hreim?
+help-accent-explanation = Hreimurinn þinn er það hvernig þú berð fram orð. Hann getur mótast af því hvar þú hefur búið, hvaða önnur tungumál þú talar, ásamt mörgum öðrum þáttum. Þú getur deilt hér öllum þeim upplýsingum sem þér finnst eiga við.
+help-variants = Þarftu aðstoð við afbrigði?
+help-variants-explanation = Afbrigði eru ákveðin form tungumáls - til dæmis sameiginleg þeim sem búa á ákveðnu svæði eða tilheyra sérstökum samfélagshópi. Stundum er þetta kallað mállýskur.
+

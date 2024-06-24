@@ -1,0 +1,1 @@
+    .label = njaň i mél
