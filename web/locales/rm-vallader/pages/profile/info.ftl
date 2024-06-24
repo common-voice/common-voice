@@ -1,0 +1,49 @@
+## ProfileForm
+
+profile-form-username =
+    .label = Nom d'ütilisader
+profile-form-native-language =
+    .label = Lingua materna
+profile-form-additional-language =
+    .label = Lingua supplementara
+profile-form-accent =
+    .label = Accent
+profile-form-age =
+    .label = Età
+leaderboard-visibility =
+    .label = Visibilità sülla glista dals meglders
+hidden = Zoppà
+visible = Visibel
+native-language =
+    .label = Lingua materna
+profile-form-submit-save = Arcunar
+profile-form-submit-saved = Arcunà
+# Gender
+other = Oter
+why-profile-title = Perche ün profil?
+why-profile-text = Cun indichar alch infuormaziuns sur da tai, rendast las datas da tun cha tü inoltreschast a Common Voice plü ütilas a las maschinas dad identificaziun da vusch. Quistas maschinas douvran quistas datas per amegldrar lur precisiun.
+dashboard = Survista
+build-profile = Creescha teis profil
+avatar = Avatar
+goals = Böts
+settings = Parameters
+edit-profile = Modifichescha il profil
+profile-create-success = Fat, teis profil es creà!
+profile-close = Serra
+profile-explanation = Resta al curraint da teis progress cun ün profil e güda cha nossas datas dvaintan plü precisas.
+thanks-for-account = Grazcha per confirmar teis conto. Uossa creaina teis profil.
+why-demographic = Perche esa important?
+accept-privacy = Eu accept cha vus trattais quistas infuormaziuns sco cha vus declerais aint illa <privacyLink>decleraziun a reguard la protecziun da datas</privacyLink> da Mozilla.
+accept-privacy-title = Decleraziun da la protecziun da datas
+login-identity = Identità d'access
+login-signup = Annunzcha't / Registrescha't
+edit = Modifichescha
+email-subscriptions = Abunmaints dad e-mail
+download-profile = S-chargia mias datas
+contribution-experience = Experienza da collavuraziun
+skip-submission-feedback = Sursaglia la pagina da resun
+skip-submission-description = Dürant cha tü contribuischast poust sursiglir il formular da resun davo cha hast cliccà 'trametter'. Lura seguan directamaing las prossmas tschinch registraziuns o verificaziuns.
+skip-submission-note = Remarcha: Tü stoust tscherner tanter Discuorra e Taidla per müdar il tip da contribuziun.
+off = Deactivà
+on = Activà
+

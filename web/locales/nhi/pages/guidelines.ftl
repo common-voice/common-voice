@@ -1,0 +1,2 @@
+sentence-collection = tlahcuilol pihpintoc
+

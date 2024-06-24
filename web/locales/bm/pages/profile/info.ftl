@@ -1,0 +1,69 @@
+## ProfileForm
+
+profile-form-username =
+    .label = Baarakɛla tɔgɔ
+profile-form-native-language =
+    .label = Fasokan
+profile-form-additional-language =
+    .label = Kan wɛrɛw
+profile-form-language =
+    .label = Kanw
+profile-form-variant =
+    .label = I bɛ {{ $language }} suguya jumɛn fɔ?
+profile-form-variant-default-value = A suguya si ma sugandi
+profile-form-accent =
+    .label = Fɔcogo
+profile-form-custom-accent-help-text =
+    .label = I bɛna i ka kuma fɔcogo ɲɛfɔ cogo di?
+profile-form-custom-accent-placeholder-2 = A daminɛ ka sɛbɛnni kɛ walasa k’i ka kumakan ɲɛfɔ
+profile-form-age =
+    .label = Si
+profile-form-gender-2 =
+    .label = Cɛya walima musoya
+leaderboard-visibility =
+    .label = Kunnafoni ɲɛmɔgɔyaso yecogo
+hidden = Dogolen
+visible = A bɛ ye
+native-language =
+    .label = Fasokan
+profile-form-add-accent = A' ye ladamukan kura fara "{ $inputValue }" kan.
+profile-form-submit-save = Ka mara
+profile-form-submit-saved = Maralen don
+# Gender
+other = Dɔ wɛrɛ
+why-profile-title = Mun na profil dɔ?
+why-profile-text =
+    Ni i ye kunnafoni dɔw di i yɛrɛ kan, i bɛ kunnafoni lamɛntaw minnu ci Common Voice ma, olu nafa bɛna bonya kosɛbɛ Kuma ma
+    Dɔnniya-minɛn minnu bɛ baara Kɛ ni o kunnafoniw ye walasa k’u ka tiɲɛni ɲɛ.
+dashboard = Bulonba
+build-profile = Profil dilan
+avatar = Avatari
+goals = Kuntilennaw
+settings = Labɛnniw.
+edit-profile = Porofili ladilan
+profile-create-success = Ɲɛtaa, profil dilanna!
+profile-close = Ka datugu
+profile-explanation = Aw ye aw ka ɲɛtaa jateminɛ ni kunnafonisɛbɛn ye ani ka an ka kumakan kunnafoniw dɛmɛ u ka kɛ tiɲɛ ye.
+thanks-for-account = Aw ni ce aw ka jatebɔ la, sisan an k'aw ka profil jɔ.
+why-demographic = Mun na o nafa ka bon?
+why-demographic-explanation-2 = Baarakɛlaw ka kunnafoniw minnu tɔgɔ ma fɔ i n’a fɔ u si hakɛ, cɛya ni musoya ani u fɔcogo, olu bɛ dɛmɛ ka kunnafoni lamɛntaw ɲɛ, minnu bɛ kɛ ka kuma dɔnni masinw ka tiɲɛni dege. I ka baarakɛla tɔgɔ ni i ka imeyili tɛna jɛ abada i ka kunnafoniw cilenw na, wa i bɛ se k’a sugandi n’i bɛna i ka baarakɛla tɔgɔ kɛ foroba la walima n’i tɔgɔ tɛ fɔ.
+accept-privacy = N b’a fɛ i ka nin kunnafoni in ɲɛnabɔ i n’a fɔ i b’a ɲɛfɔ cogo min na Mozilla ka <privacyLink>Gundolakow sariya</privacyLink> kɔnɔ
+accept-privacy-title = Kunnafoni dogolenw maracogo
+accept-privacy-and-terms = N bɛ sɔn Common Voice ka <termsLink>Sariyasenw</termsLink> ani <privacyLink>Gundola kunnafoni</privacyLink> ma
+login-identity = Donni Identité
+login = Aw ye don a kɔnɔ
+login-signup = Don / I tɔgɔ sɛbɛn
+edit = Labɛnni kɛ
+email-subscriptions = Minnu bɛ sɔrɔ Imɛri la
+download-profile = Ka kan lasago
+contribution-experience = Bolomafaraw ka ko kɛlenw
+skip-submission-feedback = Tɛmɛ Submission Feedback kan
+skip-submission-description = Bolomafaraw ci waati la, jaabiw bɛna tɛmɛ ‘Submit’ digilen kɔfɛ. Bolomafara bɛna t’a fɛ k’a ɲɛsin a ma ni fɔlisen 5 walima tiɲɛniw kulu nata ye.
+skip-submission-note = Kɔlɔsili: I bɛna a ɲini hali bi ka kuma fɔ walima ka Lamɛ walasa ka bolomafara suguya falen.
+off = K'a bɔ a la
+on = Kan
+help-accent = Aw mago bɛ dɛmɛ dɔ la ni accent ye wa?
+help-accent-explanation = I ka fɔcogo ye i bɛ daɲɛw fɔcogo minna. O bɛ sɔrɔ  I sigiyɔrɔ  fɛ , i bɛ kan wɛrɛ minnu fɔ ani fɛn caman wɛrɛw. Aw bɛ se ka kunnafoni bɛɛ lase yan aw hakili la min bɛ se ka mago ɲɛ.
+help-variants = Aw mago bɛ dɛmɛ dɔ la ni variants ye wa?
+help-variants-explanation = Variants ye kan sugu kɛrɛnkɛrɛnnen dɔ ye - misali la, mɔgɔ minnu sigilen bɛ dugukoloko walima sigida dɔ la, olu bɛ tila ɲɔgɔn na. Tuma dɔw la, olu bɛ Weele ko kanhakɛw.
+

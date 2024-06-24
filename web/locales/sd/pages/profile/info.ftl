@@ -1,0 +1,69 @@
+## ProfileForm
+
+profile-form-username =
+    .label = استعمال ڪندڙ جو نالو
+profile-form-native-language =
+    .label = مادري ٻولي
+profile-form-additional-language =
+    .label = اضافي ٻولي
+profile-form-language =
+    .label = ٻولي
+profile-form-variant =
+    .label = توهان ڪهڙي قسم جي { $language } ڳالهائيندا آهيو؟
+profile-form-variant-default-value = ڪو به قسم نه چونڊيو ويو
+profile-form-accent =
+    .label = تلفظ
+profile-form-custom-accent-help-text =
+    .label = توهان پنهنجي تلفظ کي ڪيئن بيان ڪندا؟
+profile-form-custom-accent-placeholder-2 = پنھنجي تلفظ کي بيان ڪرڻ لاءِ ٽائپنگ شروع ڪريو
+profile-form-age =
+    .label = عمر
+profile-form-gender-2 =
+    .label = جنس
+leaderboard-visibility =
+    .label = ليڊر بورڊ جي نمائش
+hidden = لڪيل
+visible = ظاهر
+native-language =
+    .label = مادري ٻولي
+profile-form-add-accent = نئون حسب ضرورت تلفظ شامل ڪريو "{ $inputValue }"
+profile-form-submit-save = محفوظ ڪريو
+profile-form-submit-saved = محفوظ ٿيل
+# Gender
+other = ٻيا
+why-profile-title = پروفائل ڇو؟
+why-profile-text =
+    پنهنجي باري ۾ ڪجهه معلومات مهيا ڪرڻ سان، توهان جيڪو آڊيو ڊيٽا ڪامن وائس تي جمع ڪرايو، اهو تقرير لاءِ وڌيڪ مفيد ثابت ٿيندو
+    سڃاڻپ انجڻ جيڪي هن ڊيٽا کي استعمال ڪن ٿا انهن جي درستگي کي بهتر ڪرڻ لاء.
+dashboard = ڊيش بورڊ
+build-profile = پروفائل ٺاھيو
+avatar = اوتار
+goals = مقصد
+settings = جوڙ جڪ
+edit-profile = پروفائيل ۾ ترميم ڪريو
+profile-create-success = ڪاميابي، پروفائل ٺاهيو ويو!
+profile-close = بند ڪريو
+profile-explanation = هڪ پروفائيل سان پنهنجي ترقيءَ جي خبر رکو ۽ اسان جي آواز جي ڊيٽا کي وڌيڪ درست ڪرڻ ۾ مدد ڪريو.
+thanks-for-account = توھان جي اڪائونٽ جي تصديق ڪرڻ لاءِ مھرباني، ھاڻي اچو توھان جو پروفائل ٺاھيون.
+why-demographic = هي معاملو ڇو ٿيو؟
+why-demographic-explanation-2 = گمنام استعمال ڪندڙ ڊيٽا جهڙوڪ عمر، جنس، ۽ تلفظ اسپيچ ريڪگنيشن انجڻ جي درستگي کي تربيت ڏيڻ لاءِ استعمال ٿيندڙ آڊيو ڊيٽا کي بهتر بنائڻ ۾ مدد ڪري ٿو. توهان جو صارف نالو ۽ اي ميل ڪڏهن به توهان جي جمع ڪيل ڊيٽا سان لاڳاپيل نه هوندو، ۽ توهان اهو چونڊي سگهو ٿا ته توهان جو صارف نالو عوامي يا گمنام بڻائڻو آهي.
+accept-privacy = آئون مطمئن آهيان توهان هن معلومات کي سنڀالڻ سان جيئن توهان Mozilla جي <privacyLink>پرائيويسي پاليسي</privacyLink> ۾ وضاحت ڪري رهيا آهيو
+accept-privacy-title = رازداري پاليسي
+accept-privacy-and-terms = مان متفق آهيان Common Voice جي <termsLink>شرائط</termsLink> ۽ <privacyLink>رازداري نوٽيس</privacyLink>
+login-identity = لاگ ان سڃاڻپ
+login = لاگ ان
+login-signup = لاگ ان/سائن اپ
+edit = ترميم ڪريو
+email-subscriptions = اي ميل سبسڪرپشن
+download-profile = منهنجي ڊيٽا کي ڊائون لوڊ ڪريو
+contribution-experience = حصو ڏيڻ جو تجربو
+skip-submission-feedback = جمع ڪرائڻ جي راءِ کي ڇڏي ڏيو
+skip-submission-description = تعاون جي جمع ڪرائڻ دوران 'جمع ڪريو' تي ڪلڪ ڪرڻ کان پوءِ جوابي راء کي ڇڏي ڏنو ويندو. حصو سڌو سنئون 5 رڪارڊنگ يا تصديق جي ايندڙ سيٽ سان جاري رهندو.
+skip-submission-note = نوٽ: توهان کي اڃا تائين چونڊڻ جي ضرورت پوندي Speak يا Listen جي وچ مان مدد جي قسم کي تبديل ڪرڻ لاءِ.
+off = بند
+on = تي
+help-accent = تلفظ سان ڪجھ مدد جي ضرورت آھي؟
+help-accent-explanation = توهان جو تلفظ اهو طريقو آهي جيڪو توهان لفظن جي اچار ڪندا آهيو. ان کي ترتيب ڏئي سگهجي ٿو ته توهان ڪٿي رهندا آهيو، توهان ڪهڙيون ٻوليون ڳالهايو ٿا ۽ ٻيا ڪيترائي عنصر. توهان ڪنهن به معلومات کي حصيداري ڪري سگهو ٿا جيڪو توهان محسوس ڪيو هتي لاڳاپيل آهي.
+help-variants = مختلف قسمن جي مدد جي ضرورت آھي؟
+help-variants-explanation = متغيرات هڪ ٻوليءَ جو هڪ مخصوص روپ آهن - مثال طور جيڪي جغرافيائي يا ڪميونٽي ۾ رهندڙن طرفان ونڊيا وڃن ٿا. ڪڏھن ڪڏھن اھي ڳالھيون به سڏجن ٿيون.
+

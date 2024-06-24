@@ -1,0 +1,49 @@
+## ProfileForm
+
+profile-form-username =
+    .label = Nume de utilizator
+profile-form-native-language =
+    .label = Limba maternă
+profile-form-additional-language =
+    .label = Limbă suplimentară
+profile-form-accent =
+    .label = Accent
+profile-form-age =
+    .label = Vârstă
+leaderboard-visibility =
+    .label = Vizibilitate clasament
+hidden = Ascuns
+visible = Vizibil
+native-language =
+    .label = Limbă nativă
+profile-form-submit-save = Salvează
+profile-form-submit-saved = Salvate
+# Gender
+other = Altul
+why-profile-title = De ce un profil?
+why-profile-text = Furnizând câteva informații despre tine, datele audio pe care le trimiți la Common Voice vor fi mai utile pentru motoarele de recunoaștere a vorbirii care folosesc aceste date ca să le îmbunătățim acuratețea.
+dashboard = Tablou de bord
+build-profile = Construiește profilul
+avatar = Avatar
+goals = Obiective
+settings = Setări
+edit-profile = Editare profil
+profile-create-success = Succes, profil creat!
+profile-close = Închidere
+profile-explanation = Urmărește-ți progresul cu ajutorul unui profil și ajută-ne să sporim acuratețea datelor noastre vocale.
+thanks-for-account = Îți mulțumim pentru confirmarea contului. Acum, să îți construim profilul.
+why-demographic = De ce contează?
+accept-privacy = Sunt de acord să gestionați aceste informații conform explicațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla
+accept-privacy-title = Politică de confidențialitate
+login-identity = Identitate de autentificare
+login-signup = Autentifică-te / Înscrie-te
+edit = Editează
+email-subscriptions = Abonamente e-mail
+download-profile = Descarcă-mi datele
+contribution-experience = Experiența colaborării
+skip-submission-feedback = Sari peste feedbackul la trimitere
+skip-submission-description = În timpul colaborării, se va sări peste feedbackul de după apăsarea pe Trimite. Colaborarea va continua direct cu următorul set de 5 înregistrări sau validări.
+skip-submission-note = Obs: Tot va trebui să selectezi Vorbește sau Ascultă pentru a modifica tipul de colaborare.
+off = Dezactivat
+on = Activat
+

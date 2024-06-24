@@ -1,0 +1,54 @@
+## ProfileForm
+
+profile-form-username =
+    .label = ስም ናይ ሙስታዕምል
+profile-form-native-language =
+    .label = ሉቀት ኡም
+profile-form-additional-language =
+    .label = ሉቀት ዝያደት
+profile-form-language =
+    .label = ሉቀት
+profile-form-accent =
+    .label = ለክነት
+profile-form-custom-accent-help-text =
+    .label = ለክነትካ ናይ ኣያ ታ?
+profile-form-custom-accent-placeholder-2 = ወስፍ ናይ ለክነትኩም ክታበት ኣንብቶ
+profile-form-age =
+    .label = ዑምር
+profile-form-gender-2 =
+    .label = ጅንስ
+leaderboard-visibility =
+    .label = ርእየት ሰሌዳ መርሓይ
+hidden = ሕቡዕ
+visible = ርኡይ
+native-language =
+    .label = ሉቀት ኡም
+profile-form-add-accent = ሓዳስ መኽሱሰት ለክነት ወስኮ "{ $inputValue }"
+profile-form-submit-save = ዓቅብ
+profile-form-submit-saved = ተዓቀባ
+# Gender
+other = ብዕድ
+why-profile-title = መለፍ ናይ ኖስ ገልሚ ኣትሓዛ
+dashboard = ሰሌደት (Dashboard)
+build-profile = መለፍ ናይ ኖስ ውድው
+avatar = ሱረት
+goals = ኣህዳፍ
+edit-profile = ናይ ኖስ መለፍ ቀይር
+profile-create-success = ነጃሕ፣ ናይ ኖስ መልፍ ከለቃ
+profile-close = ደብአ
+thanks-for-account = ሕሳብኩም ናይ ላኣከድኩም ንሓምደኩም ፣ ኣዝ የላ መለፍ ናይ ኖስ ንብነ
+why-demographic = አግል ሚቱ አሊ ሙህም?
+accept-privacy = ከማ ዲብ <privacyLink>Privacy Policy</privacyLink>ሽርሕት ላህሌት ገበይ አንደ ወደኩም ናየ በያናት እግል ትጽቦጣ ሙዋፍቅ ኣና
+accept-privacy-title = ናይ ኽሱስይት ሰያስት
+login-identity = ናይ Login ሃዊይት
+login-signup = እተ/ሕሳብ ፍታሕ
+edit = ቀይር
+email-subscriptions = እሽትራካት ኢሜል
+download-profile = በያናትቸ ክረው
+contribution-experience = ናይ ሙሳህምት ኽብረት
+skip-submission-note = ኖዕ ሙሳሃመትኩም ግል ትቀይሮ ፍንገ 'ሃገዮት' ው 'ስምዓት' ሐርየት ላትሓዜኩም ቱ
+off = ደቡእ
+on = ፍቱሕ
+help-accent = ናይ ለክነት ሙሳዓደት ታሓዞ?
+help-accent-explanation = ለክነትኩም ማዕነት ከሊማት ኣፎ ትነጥቆ ባህለት ቱ፣ ዎ እሊ ሆዬ ምን ቀደም ኣዘ ላዔሽኩም ዲቡ ምድር ኣው ሉቃት ብዕድ ልትትሃገዋ ዎ ምን ብዙሕ ብዕድ ዓዋምል ገብእ። ላትሓዙ ማዕሉማት ኣካፍሉና።
+

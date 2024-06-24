@@ -1,0 +1,49 @@
+## ProfileForm
+
+profile-form-username =
+    .label = Имя пользователя
+profile-form-native-language =
+    .label = Родной язык
+profile-form-additional-language =
+    .label = Дополнительный язык
+profile-form-accent =
+    .label = Акцент
+profile-form-age =
+    .label = Ičä
+leaderboard-visibility =
+    .label = Показывать меня в топе
+hidden = Скрытый
+visible = Видимый
+native-language =
+    .label = Родной язык
+profile-form-submit-save = Сохранить
+profile-form-submit-saved = Сохранено
+# Gender
+other = Tõin
+why-profile-title = Зачем нужен профиль?
+why-profile-text = Предоставив некоторые данные о себе, вы сделаете аудио данные, отправляемые в Common Voice, более полезными для движков распознавания речи, которые будут использовать эти данные для улучшения своей точности.
+dashboard = Панель
+build-profile = Создание профиля
+avatar = Аватар
+goals = Цели
+settings = Настройки
+edit-profile = Редактировать профиль
+profile-create-success = Отлично, профиль создан!
+profile-close = Kuro
+profile-explanation = Наблюдайте за прогрессом, пользуясь профилем, и помогайте улучшать точность наших голосовых данных.
+thanks-for-account = Спасибо за подтверждение вашего аккаунта, теперь давайте заполним ваш профиль.
+why-demographic = Почему это важно?
+accept-privacy = Я согласен с тем, как вы обрабатываете эту информацию, согласно <privacyLink>Политики приватности</privacyLink> Mozilla
+accept-privacy-title = Политика приватности
+login-identity = Идентификатор для входа
+login-signup = Čirja süäme / Čirjoittassa
+edit = Редактировать
+email-subscriptions = Подписки по электронной почте
+download-profile = Выгрузить мои данные
+contribution-experience = Оцените вашу работу с Common Voice
+skip-submission-feedback = Пропустить оценку работы
+skip-submission-description = Оценка работы с Common Voice будет пропущена после нажатия кнопки «Отправить». И вы сможете продолжить вносить вклад, следующими записями или прослушиваниями.
+skip-submission-note = Примечание: Вам по-прежнему нужно выбирать между записью и прослушиванием, чтобы изменить тип внесения вклада.
+off = Выкл.
+on = Вкл.
+
