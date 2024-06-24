@@ -677,6 +677,9 @@ about-playbook-how-project-governance-content-5 = Кыйммәт һәм тану
 about-playbook-how-project-governance-content-6 = Үзара җаваплылык.
 about-playbook-how-project-governance-content-7 = <governanceLink>Безне ничек идарә итүебез турында күбрәк белү</governanceLink>
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = Глоссарий
@@ -1261,8 +1264,11 @@ sc-home-review-title = Җөмләләрне тикшерү
 sc-howto-title = Кулланма
 sc-howto-addsen-title = Яңа җөмләләр өстәү
 sc-howto-review-title = Җөмләләрне тикшерү
+sc-howto-review-subtitle = Җөмләнең түбәндәге критерийларга туры килүен тикшерегез:
 sc-howto-review-criteria-1 = Җөмлә орфографик кагыйдәләр нигезендә язылырга тиеш.
+sc-howto-review-criteria-2 = Җөмлә грамматик кагыйдәләр нигезендә язылырга тиеш.
 sc-howto-review-criteria-3 = Җөмлә әйтемле булырга тиеш.
+sc-howto-review-criteria-4 = Әгәр җөмлә критерийларга туры килсә, "Кабул итү" төймәсенә басыгыз.
 sc-howto-findpd-title = Иҗтимагый милектәге җөмләләрне табу
 sc-howto-findpd-subtitle = Аларны интернетта эзләү
 
@@ -1410,8 +1416,10 @@ sc-validation-no-abbreviations = Җөмләдә кыскартылмалар б�
 
 partnerships-get-in-touch = Элемтәгә керү
 partnerships-become-a-partner = Common Voice-ның партнёры булыгыз
+partnerships-foundations-header = Хәйрия фондлары
 partnerships-academia-header = Университетлар, академик оешмалар һәм фәнни хезмәткәрләр
 partnerships-our-partners = Партнёрларыбыз
+why-donate = Ни өчен сорыйсыз?
 add-information-button = Мәгълүмат өстәү
 continue-speaking-button = Юк, рәхмәт, сөйләүне дәвам итү
 thanks-for-voice-toast = Тавыш мәгълүматыгыз өчен рәхмәт
@@ -1419,9 +1427,17 @@ thanks-for-voice-toast-error = Тавыш мәгълүматыгызны җиб�
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Тавышыгызны иганә иткәнегез өчен рәхмәт!
 create-profile-button = Профиль булдыру
+voice-collection = Тавыш туплау
 sentence-collection = Җөмләләр тупланмасы
+varying-pronunciations = Төрле әйтелешләр
+misreadings = Дөрес укымаулар
+offensive-content = Рәнҗеткеч эчтәлек
+background-noise = Арткы планда шау-шу
+background-voices = Арткы планда тавышлар
 volume = Тавыш көче
 reader-effects = Укучы эффектлары
+just-unsure = Тәгаен белмисезме?
+example = Мисал
 varying-pronunciations-explanation-1 = Без төрле акцентларны хуплыйбыз! Укучының сүзне дөрес әйтмәве, басымны урынсыз калдыруы яки сорау билгесенә игътибар итмәве нигезендә язуны кире кагар алдыннан сак булыгыз. Дөньяның һәм илнең төрле почмакларында кулланылган төрле акцентлар һәм әйтелешләр булырга мөмкин. Зинһар, сездән башкача сөйләшә алганнарны кире какмагыз.
 public-domain = Иҗтимагый милектә
 citing-sentences-subheader-websites = Веб-сайтлар
@@ -1440,11 +1456,15 @@ adding-sentences-subheader-special-characters = Махсус символлар 
 sentence =
     .label = Җөмлә
 sentence-input-value = Иҗтимагый милектәге җөмләгезне монда языгыз
-citation-input-value = Җөмләгезнең чыганагы
 citation =
     .label = Цитата
 sc-write-submit-confirm = Бу җөмләнең <wikipediaLink>иҗтимагый милектә</wikipediaLink> булуын раслыйм һәм аны йөкләргә рөхсәтем бар.
 sc-review-write-title = Мин нинди җөмләләр өсти алам?
+guidelines = Күрсәтмәләр
+contact-us = Элемтә
+add-sentence-success = 1 җөмлә тупланды
+add-sentence-error = Җөмлә өстәгәндә хата килеп чыкты
+required-field = Зинһар, бу кырны тутырыгыз.
 single-sentence-submission = Бер җөмлә җибәрү
 bulk-sentence-submission = Күп җөмлә җибәрү
 single-sentence = Бер җөмлә
@@ -1452,21 +1472,33 @@ bulk-sentences = Күп җөмлә
 # Sentence Domain dropdown option
 finance = Финанслар
 # Sentence Domain dropdown option
-food_service_retail = Ашамлык, хезмәт һәм сәүдә
-# Sentence Domain dropdown option
 general = Гомуми
 # Sentence Domain dropdown option
 healthcare = Сәламәтлек саклау
 # Sentence Domain dropdown option
 history_law_government = Тарих, хокук һәм дәүләт идарәсе
 
+## LANGUAGE VARIANT CODES
+
+
 ## REVIEW PAGE
 
+report-sc-different-language = Башка тел
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Без мөһим үзгәрешләр ясыйбыз
 
 ## BULK SUBMISSION 
 
+select-file-mobile = Йөкләү өчен Файлны сайлау
+maximum-file-size = Максималь файл үлчәме: 25 МБ
+what-needs-to-be-in-file = Минем файлда нәрсә булырга тиеш?
 upload-progress-text = Йөкләү дәвам итә...
+bulk-upload-success-toast = Күп җөмләләр йөкләнде
+bulk-upload-failed-toast = Йөкләү уңышсыз булды, зинһар, янәдән тырышып карагыз.
 file-invalid-type = Яраксыз файл
 file-too-large = Файл артык зур
 file-too-small = Файл артык кечкенә
 too-many-files = Артык күп файл
+
+## Donate banner
+
