@@ -627,11 +627,16 @@ profile-form-delete = Профилди өшириў
 download-q = Мағлыўматларыңызды жүклеп алыўды қәлейсиз бе?
 download-info = Нени жүклеп алыўды қәлейтуғыныңызды бизге айтып бериң:
 download-profile-title = Профил
+download-profile-info = Электрон почта, пайдаланыўшы аты ҳәм демографиялық мағлыўматларды өз ишине алады. Ҳәзирақ жүклеп алыў мүмкин.
+download-profile-size = Бирнеше байт
+download-size = Көлем
 download-selected = Таңланды
 download-start = Профил мағлыўматларын жүклеп алыў
 download-request-button = Жүклеп алыў
 download-request-title = { $created }
+download-request-assembling-description = Сизиң файлыңыз жыйналмақта. Өтиниш, кейинирек қириң.
 download-request-refresh-button = Жаңалаў
+download-request-modal-description = ZIP файлларыңызды жүклеп алыў ушын силтемелер.
 download-request-link-text = Zip №{ $offset } / { $total }
 download-request-metadata-link = Гәп тексти
 
@@ -659,6 +664,7 @@ demo-account-sign-up = Дизимнен өтиў силтемесин жибер
 
 ## Demo Contribute
 
+demo-listen-subtitle = Үлесиңизди қосыўға таярсыз ба?
 
 ## Demo Dashboard
 
@@ -666,6 +672,7 @@ demo-account-sign-up = Дизимнен өтиў силтемесин жибер
 ## Validation criteria
 
 contribution-criteria-nav = Критериялар
+contribution-criteria-link = Кағыйдалар менен танысыў
 contribution-criteria-page-title = Қатнасыў критериялары
 contribution-for-example = мысалы
 contribution-misreadings-title = Надурыс оқыў
@@ -706,11 +713,14 @@ sc-home-review-title = Гәплерди тексериў
 ## HOW-TO
 
 sc-howto-addsen-title = Жаңа гәплерди қосыў
+sc-howto-cite-title = Қалай цитата келтиремен
+sc-howto-cite-item-1 = Сиз веб-сайтты көрсетиўиңиз мүмкин, мысалы: "Common Voice - https://commonvoice.mozilla.org/"
 sc-howto-review-title = Гәплерди тексериў
 sc-howto-review-subtitle = Гәп төмендеги критерияларға жуўап бериўине исеним кәмил етиң:
 sc-howto-review-criteria-1 = Гәп дурыс жазылған болыўы керек.
 sc-howto-review-criteria-2 = Гәп грамматиқалық тәрептен дурыс болыўы керек.
 sc-howto-review-criteria-4 = Егер гәп критерияларға жуўап берсе "Мақуллаў" түймесин басың.
+sc-howto-findpd-tips = Гәплерди табыў ушын мине бирнеше кеңеслер:
 
 ## MY SENTENCES
 
@@ -726,11 +736,14 @@ sc-my-deleting = Таңланған гәплер өширилмекте...
 ## REJECTED
 
 sc-rejected-title = Бийкарланған гәплер
+sc-rejected-err-fetching = Бийкарланған гәплерди алыўдағы қәтелик. Өтиниш, кейинирек урынып көриң.
+sc-rejected-none-found = Бийкарланған гәплер табылмады!
 
 ## STATS
 
 sc-stats-title = Статистика
 sc-stats-updating = Жаңаланбақта...
+sc-stats-error = Статистиканы ала алмадық. Өтиниш, кейинирек урынып көриң.
 
 ## ADD
 
