@@ -83,7 +83,7 @@ const Review: React.FC<Props> = ({ getString }) => {
     language => language.locale == currentLocale
   )
 
-  const isVariantPreferredOption = currentLanguage?.variant.is_preferred_option
+  const isVariantPreferredOption = currentLanguage?.variant?.is_preferred_option
 
   const reportModalProps = {
     reasons: [
