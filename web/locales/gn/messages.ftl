@@ -464,6 +464,7 @@ variant-contribution-help = Ñe’ẽ iñambue ha hekoeta peteĩ ñe’ẽ ryep�
 variant-contribution-option-1 = Ehechauka ñe’ẽjuaju año ha clip ambuegua
 variant-contribution-option-2 = Ehechauka ñe’ẽjuaju ha clip opaite ambuepy che ñe’ẽ rehegua
 variant-contribution-warning-title = ⓘ ¡Ndaopaitéi ñe’ẽjuaju ha clip oreko teramoĩ ambuegua!
+variant-contribution-warning-subtitle = Ne apañuáipa eipytyvõkuaa hag̃ua, ehechajeykuaa hetepy tuichaháicha ne ñe’ẽme ejapose vovénte.
 
 ## Profile - Email
 
@@ -701,6 +702,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Emoñe’ẽve
 
 about-playbook-how-funded = ¿Mba’éicha ivirureko Common Voice?
 about-playbook-how-funded-content-2 = Hetaiterei viru tekotevẽ ñeñongatu ha mba’ekuaarã aty ñemoherakuã, pyendavusu moporãve ha emongu’e <africaMradiLink>tembiaporape tekohagua</africaMradiLink>.
+about-playbook-how-funded-content-3 = Nde térã ne rendaguasu oipytyvõséramo apopyrã ndive, ejapokuaa <donateLink>jopói</donateLink> térã eñe’ẽ ore aty <emailFragment>commonvoice@mozilla.com</emailFragment> rupive.
 
 ## Glossary
 
@@ -1722,6 +1724,7 @@ adding-sentences-subheader-speakable = Ñe’ẽkuaa
 adding-sentences-subheader-numbers = Papapy
 adding-sentences-subheader-numbers-explanation = Papapy. Aníke emoĩ tai moñe’ẽrã reñoihápe omoapañuaikuaa rehe oñemoñe’ẽnguévo ñe’ẽ ayvúpe. Mba’éichapa oñemoñe’ẽ papapy oĩ ijeregua rehe ha omoapañuaikuaa mba’ekuaarã atýpe. Techapyrã, pe papapy “2409” oñemoñe’ẽkuaa iporãháicha “mokõipa irundy papa’ỹ porundy” ha “mokõi su irundysa porundy”.
 adding-sentences-subheader-abbreviations = Mombyky ha Acrónimo
+adding-sentences-subheader-abbreviations-explanation = Ani eiporu mombykypyre ha acrónimo ikatúva “USA” térã “ICE” moñe’ẽrã teñoihapegua ikatu rehe oñemoñe’ẽ ndojokupytýiva ijehaikatu rehe. Avei, ikatu oñemoñe’ẽ ambueháicha upe mombykypyre.
 adding-sentences-subheader-punctuation = Mbopapapy
 adding-sentences-subheader-punctuation-explanation = Umi ta’ãnga’i ha ñemokyta oñemoingeva’erã tekotevẽ añetetéramonte. Techapyrã, oikéramo pe puso inglés ñe’ẽme ikatúva “don’t” ha “we’re” ha toñemoĩ moñe’ẽrã ñepyrũguápe, hákatu hasy oikotevẽ hag̃ua ko’ã ta’ãnga’i rehe ha’ẽva “@” térã “#.”
 adding-sentences-subheader-special-characters = Jehairã Jeporavokuaa ha Tai Pytaguáva
@@ -1877,5 +1880,7 @@ too-many-files = Heta marandurenda
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>¡Ñaikotevẽ</mark><br/><mark>ne ñepytyvõ!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Ohupytymo'ã peteĩ súa dólar ary pukukue mba’ekuaarã aty ñeñongatu ha pyendasusu moakãrapu’ã hetave 100 tekoha ñe’ẽgua oku’éva rojapóva rupi. <strong>Emomba’érõ mba’ekuaarã ijuruja ha oporogueroikéva, ¡embojopói ko’ág̃a!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>¿Eiporu CV </mark><br/><mark>nde jeporekarã?</mark>

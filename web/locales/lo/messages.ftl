@@ -176,6 +176,8 @@ sah = ພາສາຊາກາ
 sat = Santali (Ol Chiki)
 sc = ພາ​ສາ​ຊາ​ດິ​ນຽນ
 scn = ພາ​ສາ​ຊິ​ຊິ​ລຽນ
+sco = ສະກັອດ
+sd = ພາສາ Sindhi
 sdh = ຊາວເຄີດໃຕ້
 shi = ພາສາຊິລຮາ
 si = ພາສາຊິນຮາລາ
@@ -216,6 +218,7 @@ uz = ພາສາອຸສເບກິສຖານ
 ve = Tshevenda
 vec = ພາ​ສາ​ເວ​ເນ​ຕຽນ
 vi = ພາສາຫວຽດນາມ
+vmw = Emakhuwa
 vot = Votic
 wo = ພາສາໂວລັອບ
 xh = ພາສາໂຊຊາ
@@ -455,6 +458,7 @@ help-accent-explanation = ສຳນຽງຂອງເຈົ້າແມ່ນວ
 help-variants = ຕ້ອງການຄວາມຊ່ວຍເຫຼືອກັບຕົວແປບໍ?
 help-variants-explanation = ຕົວແປເປັນຮູບແບບສະເພາະຂອງພາສາ - ຕົວຢ່າງທີ່ແບ່ງປັນໂດຍຜູ້ທີ່ອາໄສຢູ່ໃນພູມສາດ ຫຼືຊຸມຊົນ. ບາງຄັ້ງສິ່ງເຫຼົ່ານີ້ເອີ້ນວ່າພາສາ.
 help-sex-or-gender-changes = ຕ້ອງການຄວາມຊ່ວຍເຫຼືອກ່ຽວກັບການປ່ຽນແປງທາງເພດ ຫຼື ເພດບໍ?
+variant-contribution-options-header = ຕົວເລືອກການປະກອບສ່ວນແບບຫຼາກຫຼາຍ
 
 ## Profile - Email
 

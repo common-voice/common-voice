@@ -465,6 +465,7 @@ help-variants-explanation = متغیرات زبان دی ہک مخصوص شکل 
 help-sex-or-gender-changes = بھلا جنس یا صنفی تبدیلیاں وِچ مَدَت دی لوڑ ہِے؟
 help-sex-or-gender-changes-explanation = اَساں لوکاں کوں آپݨی جنس یا صنفی سُن٘ڄاݨ دے بارے وِچ جہڑا کُجھ ݙَسین٘دے ہِسے اُون٘دے وِچ اُنّھاں کوں چوݨ ݙیوݨ کِیتے ٻئے چوݨ پیش کرین٘دے پئے ہِسے۔ تھورائیت کرین٘ے ہوئے آپݨے آپ کوں اِیں انداز وِچ ݙَساؤ جہڑا تُہاکوں سچّی وِچ محسوس تِھین٘دا ہِٖ۔ <learnMoreLink>جنس اَتے صنف دے بارے وِچ اَساݙے نقطۂ نظر دے بارے وِچ ٻِیا ڄاݨُو۔</learnMoreLink>
 variant-contribution-options-header = لہجہ ونگاراں اختیارات
+variant-contribution-option-1 = میݙی زبان دے سارے لہجیاں دے کلپ تے جملے میکوں ݙکھاؤ
 
 ## Profile - Email
 
@@ -1818,6 +1819,9 @@ ca-central = مرکزی
 ca-balear = بلير
 ca-northern = شمالی
 ca-valencia-tortosi = ٹورٹوسی
+ca-valencia-central = مرکزی ویلنسیا
+ca-valencia-northern = شمالی ویلنسیا
+ca-valencia-southern = جنوبی ویلنسیا
 ca-valencia-alacant = الاکانتی
 cy-northwes = شمال مغربی ویلش
 cy-northeas = شمال مشرقی ویلش
