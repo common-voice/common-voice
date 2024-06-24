@@ -557,11 +557,14 @@ contribute-voice-collection-nav-header = Даўыслар топламы
 
 report = Шағыныў
 report-title = Шағым жибириў
+report-offensive-language = Ақыретлеўши cөзлер
+report-offensive-language-detail = Бул гәпте кемситиўши ямаса ақыретлеўши сөзлер бар.
 report-grammar-or-spelling = Грамматиқалық / орфографиялық қәте
 report-grammar-or-spelling-detail = Гәпте грамматиқалық ямаса орфографиялық қәте бар.
 report-different-language = Басқа тил
 report-other-comment =
     .placeholder = Пикир
+success = Таяр
 continue = Даўам етиў
 report-success = Шағым табыслы жиберилди
 
@@ -576,6 +579,7 @@ days =
 ## Dashboard
 
 your-languages = Сизиң тиллериңиз
+goal-reached = Мақсетке ерисилди
 stats = Статистика
 awards = Сыйлықлар
 you = Сиз
@@ -620,6 +624,8 @@ profile-form-delete = Профилди өшириў
 
 ## Profile Download
 
+download-q = Мағлыўматларыңызды жүклеп алыўды қәлейсиз бе?
+download-info = Нени жүклеп алыўды қәлейтуғыныңызды бизге айтып бериң:
 download-profile-title = Профил
 download-selected = Таңланды
 download-start = Профил мағлыўматларын жүклеп алыў
