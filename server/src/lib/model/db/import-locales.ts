@@ -194,7 +194,7 @@ interface PontoonData {
 const db = getMySQLInstance();
 
 const saveToMessages = (languages: any) => {
-  const messagesPath = path.join(localeMessagesPath, 'en', 'messages.ftl');
+  const messagesPath = path.join(localeMessagesPath, 'en', 'pages', 'common.ftl');
   const messages = fs.readFileSync(messagesPath, 'utf-8');
 
   const newMessages = messages.replace(
@@ -215,7 +215,7 @@ const buildLocaleNativeNameMapping: any = () => {
     [code: string]: string;
   } = {};
   for (const locale of locales) {
-    const messagesPath = path.join(localeMessagesPath, locale, 'messages.ftl');
+    const messagesPath = path.join(localeMessagesPath, locale, 'page', 'common.ftl');
 
     if (!fs.existsSync(messagesPath)) {
       continue;
