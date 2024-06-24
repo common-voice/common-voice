@@ -295,7 +295,9 @@ help-sex-or-gender-changes = Жынысты өзгертиў ямаса генд
 ## Profile - Email
 
 browse-file-title = Суўрет файлын жүклеў
+browse-file = Тартып қойың ямаса <browseWrap>файлды таңлаң</browseWrap>
 connect-gravatar = Gravatar жәрдеминге қосыў
+gravatar_not_found = Бул эл.почта gravatar да дизимнен өтпеген
 file_too_large = Таңланған файлдың көлеми жүдә үлкен
 avatar-uploaded = Аватар жүкленди
 max-file-size = { $kb } КБ максимум
@@ -303,6 +305,9 @@ remove-avatar = Аватарды өшириў
 
 ## Profile - Email
 
+manage-subscriptions = Жазылыўларды басқарыў
+manage-email-subscriptions = Эл.почта арқалы жазылыўларды басқарыў
+email-already-used = Электрон почта әллеқашан басқа аккаунтта қолланбақта
 add-language = Тил қосыў
 
 ## FAQ
@@ -311,6 +316,7 @@ faq-title = Көп берилетуғын сораўлар
 faq-what-cv-q = Common Voice — бул не?
 faq-why-important-q = Неге бул әҳмийетли?
 faq-how-get-q = Common Voice мағлыўматларын қалай алыўым мүмкин?
+faq-when-release2-q = Common Voice тың басқа тиллердеги мағлыўматлар топламын қашан шығарасыз?
 faq-why-mission-q = Common Voice не ушын Mozilla миссиясының бир бөлеги болып есапланады?
 faq-what-cv-and-deepspeech-q = Common Voice ҳәм Deep Speech тиң парқы не?
 faq-is-goal-assistant-q = Common Voice тиң мақсети даўыслы жәрдемшини жаратыў ма?
@@ -478,6 +484,7 @@ contact-required = *мәжбүрий
 
 ## Request Language Modal
 
+request-language-title = Тил сораўы
 request-language-form-language =
     .label = Тил
 request-language-success-title = Тилди қосыў ҳаққындағы сораўыңыз жиберилди, рахмет.
@@ -499,6 +506,8 @@ request-language-google-recaptcha-required = Егер даўам етиўди қ
 ## Languages Overview
 
 language-section-launched = Иске түсирилди
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Соңғы жаңаланыў: { $lastUpdatedTimeStamp }
 languages-show-more = Көбирек тиллер
 languages-show-less = Азырақ тиллер
 language-search-input =
@@ -514,16 +523,26 @@ contribute = Қатнасыў
 listen = Тыңлаў
 review = Тексериў
 skip = Өткерип жибериў
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> клип
+       *[other] <bold>{ $count }</bold> клип
+    }
 record-must-allow-microphone = Сиз микрофонға руқсат бериўиңиз керек.
 record-no-mic-found = Микрофон табылмады.
 record-three-more-instruction = Үшеўи қалды!
 record-last-instruction = <recordIcon></recordIcon> Соңғысы!
 share-common-voice = Common Voice пенен бөлисиң
+record-abort-submit = Клиплерди жибериў
+record-abort-continue = Жазып алыўды жуўмақлаў
 record-abort-delete = Шығыў ҳәм клиплерди өшириў
 listen-instruction = { $actionType }<playIcon></playIcon> гәп дурыс оқылған ба?
+listen-last-time-instruction = <playIcon></playIcon> Соңғысы!
+listen-abort-title = Клиплерди тексериўди жуўмақлаўды қәлейсиз бе?
 listen-abort-cancel = Тексериўди даўам етиў
 listen-abort-confirm = Тексериўди жуўмақлаў
 speak-empty-state-cta = Гәплерди усыныў
+share-title-new = Көбирек даўыс жыйнаўға бизге <bold>жәрдем бериң</bold>
 keep-track-profile = Өз прогрессиңизди профил жәрдеминде бақлап барың
 login-to-get-started = Баслаў ушын кириң ямаса дизимнен өтиң
 target-segment-add-voice = Даўысыңызды қосың
