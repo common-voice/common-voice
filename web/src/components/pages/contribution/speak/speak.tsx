@@ -40,6 +40,7 @@ import { SentenceRecording } from './sentence-recording';
 import SpeakErrorContent from './speak-error-content';
 import { USER_LANGUAGES } from './firstSubmissionCTA/firstPostSubmissionCTA';
 import { castTrueString } from '../../../../utility';
+import { trackGtag } from '../../../../services/tracker-ga';
 
 import './speak.css';
 
@@ -296,6 +297,8 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private handleRecordClick = async () => {
+    trackGtag('listen_click', { record_index: this.getRecordingIndex() });
+
     if (this.state.recordingStatus === 'waiting') return;
     const isRecording = this.isRecording;
 
@@ -599,7 +602,8 @@ class SpeakPage extends React.Component<Props, State> {
     const currentLanguage = user?.account?.languages.find(
       language => language.locale === locale
     );
-    const isVariantPreferredOption = currentLanguage?.variant?.is_preferred_option;
+    const isVariantPreferredOption =
+      currentLanguage?.variant?.is_preferred_option;
 
     return (
       <>
