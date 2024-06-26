@@ -297,7 +297,7 @@ class SpeakPage extends React.Component<Props, State> {
   };
 
   private handleRecordClick = async () => {
-    trackGtag('listen_click', { record_index: this.getRecordingIndex() });
+    trackGtag('record_click', { record_index: this.getRecordingIndex() });
 
     if (this.state.recordingStatus === 'waiting') return;
     const isRecording = this.isRecording;
