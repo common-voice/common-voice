@@ -10,7 +10,7 @@
     "@sentry/tracing": "6.19.7",
     "@yr/monotone-cubic-spline": "1.0.3",
     "audio-recorder-polyfill": "0.4.1",
-    "classnames": "2.3.2",
+    "classnames": "2.5.1",
     "date-fns": "^2.30.0",
     "downshift": "9.0.6",
     "filesize": "^10.0.7",
