@@ -11,13 +11,15 @@ export const CORPORA_CREATOR_SPLIT_FILES = [
   'train.tsv',
 ] as const
 
-export const CORPORA_CREATOR_FILES = [
+export const CORPORA_CREATOR_CLIP_SPLIT_FILES = [
   'validated.tsv',
   'invalidated.tsv',
-  'dev.tsv',
-  'test.tsv',
-  'train.tsv',
   'other.tsv',
+] as const
+
+export const CORPORA_CREATOR_FILES = [
+  ...CORPORA_CREATOR_SPLIT_FILES,
+  ...CORPORA_CREATOR_CLIP_SPLIT_FILES,
 ] as const
 
 export const isCorporaCreatorFile = (
@@ -56,7 +58,10 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
     cc.on('error', reason => reject(reason))
   })
 
-export const corporaCreatorPipeline = (locale: string, releaseDirPath: string) => {
+export const corporaCreatorPipeline = (
+  locale: string,
+  releaseDirPath: string,
+) => {
   return pipe(
     TE.Do,
     TE.tap(() =>
@@ -81,5 +86,7 @@ export const runCorporaCreator = (): RTE.ReaderTaskEither<
 > =>
   pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale, releaseDirPath}) => corporaCreatorPipeline(locale, releaseDirPath)),
+    RTE.chainTaskEitherK(({ locale, releaseDirPath }) =>
+      corporaCreatorPipeline(locale, releaseDirPath),
+    ),
   )

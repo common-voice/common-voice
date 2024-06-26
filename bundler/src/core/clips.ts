@@ -54,7 +54,7 @@ export const TSV_COLUMNS = [
 export type CLIPS_TSV_ROW = {
   [K in (typeof TSV_COLUMNS)[number]]: string
 }
-const logError = (err: unknown) => {
+export const logError = (err: unknown) => {
   console.log(err)
   return Error(String(err))
 }
@@ -331,7 +331,7 @@ const extractClipsFromPreviousRelease = (
   }
 
   return pipe(
-    extractTar(filepath),
+    extractTar(filepath, getTmpDir()),
     TE.chain(() => TE.fromIO(rmFilepath(filepath))),
   )
 }

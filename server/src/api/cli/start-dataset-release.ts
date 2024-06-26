@@ -3,7 +3,7 @@ import { pipe } from 'fp-ts/lib/function'
 import { addJobToQueue, getQueue } from '../../infrastructure/queues/queues'
 
 type InitDatasetReleaseJob = {
-  type: 'full' | 'delta'
+  type: 'full' | 'delta' | 'statistics'
   from: string
   until: string
   releaseName: string
@@ -18,7 +18,7 @@ const startDatasetRelease = async (args: any, options: any) => {
       from: args.from,
       until: args.until,
       releaseName: args.releaseName,
-      previousReleaseName: args.previousReleaseName
+      previousReleaseName: args.previousReleaseName,
     })('init')({})
   )
 
@@ -31,7 +31,10 @@ program
   .name('start the dataset release process')
   .requiredOption(
     '-t, --type <type>',
-    "Determines the type of the dataset release\n<type>: 'full | delta'"
+    `
+     Determines the type of the dataset release or whether to generate statistics
+     <type>: 'full | delta | statistics'
+    `
   )
   .requiredOption(
     '-f, --from <datetime>',

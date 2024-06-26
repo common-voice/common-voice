@@ -25,7 +25,7 @@ export const REPORTED_SENTENCES_COLUMNS = [
 export type ReportedSentencesRow = Record<typeof REPORTED_SENTENCES_COLUMNS[number], string>
 
 export type Settings = {
-  type: 'full' | 'delta'
+  type: 'full' | 'delta' | 'statistics'
   from: string
   until: string
   releaseName: string
