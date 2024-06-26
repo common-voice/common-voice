@@ -47,6 +47,7 @@
     "@testing-library/react-hooks": "7.0.2",
     "@testing-library/user-event": "13.5.0",
     "@types/classnames": "2.3.1",
+    "@types/gtag.js": "0.0.20",
     "@types/jest": "27.5.2",
     "@types/jest-axe": "3.5.9",
     "@types/lodash.memoize": "4.1.9",
