@@ -1,5 +1,6 @@
 ## Request Language Modal
 
+request-language-title = Тил сораўы
 request-language-form-language =
     .label = Тил
 request-language-success-title = Тилди қосыў ҳаққындағы сораўыңыз жиберилди, рахмет.

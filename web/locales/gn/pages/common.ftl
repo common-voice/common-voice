@@ -253,6 +253,8 @@ not-available-abbreviation = N/A
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>¡Ñaikotevẽ</mark><br/><mark>ne ñepytyvõ!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Ohupytymo'ã peteĩ súa dólar ary pukukue mba’ekuaarã aty ñeñongatu ha pyendasusu moakãrapu’ã hetave 100 tekoha ñe’ẽgua oku’éva rojapóva rupi. <strong>Emomba’érõ mba’ekuaarã ijuruja ha oporogueroikéva, ¡embojopói ko’ág̃a!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>¿Eiporu CV </mark><br/><mark>nde jeporekarã?</mark>
 # [/SentenceCollector]

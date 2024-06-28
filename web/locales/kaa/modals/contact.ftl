@@ -5,4 +5,5 @@ contact-form-name =
     .label = Атыңыз
 contact-form-message =
     .label = Хабар
+contact-required = *мәжбүрий
 

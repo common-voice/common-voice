@@ -1,5 +1,10 @@
 ## Languages Overview
 
+language-section-launched = Иске түсирилди
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Соңғы жаңаланыў: { $lastUpdatedTimeStamp }
+languages-show-more = Көбирек тиллер
+languages-show-less = Азырақ тиллер
 language-search-input =
     .placeholder = Излеў
 language-speakers = Сөйлеушилер

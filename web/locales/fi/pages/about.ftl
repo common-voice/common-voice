@@ -56,6 +56,7 @@ about-playbook-what-is-language = Mikä on kieli Common Voicessa?
 
 about-playbook-how-add-language = Kuinka lisään kielen?
 about-playbook-how-add-language-translating-heading = Sivuston kääntäminen
+about-playbook-how-add-language-collecting-sentences-heading = Virkkeiden keruu
 
 ## How does localization work
 
@@ -84,4 +85,11 @@ about-playbook-how-grow-language-content-6 = Kumppanuudet ja verkostot
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kuinka saan pääsyn ja kuinka käytän aineistoa?
+
+## How are decisions made
+
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Miten Common Voice rahoitetaan?
 

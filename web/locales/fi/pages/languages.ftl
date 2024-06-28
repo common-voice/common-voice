@@ -4,6 +4,8 @@ language-section-in-progress = Työn alla
 language-section-in-progress-new-description = Nämä kielet ovat tällä hetkellä yhteisöjen kehitettävinä. Etenemispalkki näyttää, kuinka pitkällä kukin kieli on  <localizationGlossaryLink>verkkosivun lokalisaatiossa</localizationGlossaryLink> ja <sentenceCollectionGlossaryLink>lauseiden keräämisessä</sentenceCollectionGlossaryLink>.
 language-section-launched = Julkistettu
 language-section-launched-description = Verkkosivusto on onnistuneesti <localizationGlossaryLink>lokalisoitu</localizationGlossaryLink> näille kielille, ja <sentenceCollectionGlossaryLink>kerättyjä lauseita</sentenceCollectionGlossaryLink> on tarpeeksi <speakLink>nauhoituksen</speakLink> ja <listenLink>kuuntelun</listenLink> mahdollistamiseksi.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Viimeksi päivitetty: { $lastUpdatedTimeStamp }
 languages-show-more = Lisää
 languages-show-less = Vähemmän
 language-meter-in-progress = Edistys
