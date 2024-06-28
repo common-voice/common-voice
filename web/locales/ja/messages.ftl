@@ -66,6 +66,7 @@ eo = エスペラント
 es = スペイン語
 et = エストニア語
 eu = バスク語
+ewo = エウォンド語
 fa = ペルシア語
 ff = フラ語
 fi = フィンランド語
@@ -76,6 +77,8 @@ ga-IE = アイルランド語
 gl = ガリシア語
 gn = グアラニー語
 gom = ゴア・コンカニ語
+gu-IN = グジャラート語
+guc = ワユ語
 ha = ハウサ語
 he = ヘブライ語
 hi = ヒンディー語
@@ -118,6 +121,7 @@ lo = ラオス語
 lt = リトアニア語
 ltg = ラトガリア語
 lv = ラトビア語
+lzz = ラズ語
 mai = マイティリー語
 mdf = モクシャ語
 mg = マダガスカル語
@@ -390,7 +394,12 @@ native-language =
 profile-form-add-accent = 新しいカスタムアクセント "{ $inputValue }" を追加
 profile-form-submit-save = 保存
 profile-form-submit-saved = 保存済み
+male_masculine = 男性
+female_feminine = 女性
+intersex = インターセックス
 transgender = トランスジェンダー
+non-binary = ノンバイナリー
+do_not_wish_to_say = 回答拒否
 # Gender
 other = その他
 why-profile-title = なぜプロファイルが必要ですか？
@@ -426,6 +435,7 @@ help-accent = アクセントについて助けが必要ですか？
 help-accent-explanation = アクセントは単語の発音の仕方です。それは、あなたが住んでいた場所、他にどの言語を話すか、その他多くの要因によって形作られます。関連すると思われる情報はここで共有できます。
 help-variants = 方言について助けが必要ですか？
 help-variants-explanation = 方言は、言語の特定の形式です。たとえば、ある地域やコミュニティに住んでいる人々によって共有されます。これらは変種と呼ばれることもあります。
+help-sex-or-gender-changes = 性別の変更に関してサポートが必要ですか？
 
 ## Profile - Email
 
@@ -515,6 +525,7 @@ how-does-it-work-text = 私たちは声のオープンソースデータセッ�
 
 ## How does it work section
 
+about-localization-title = ウェブサイトのローカライズ
 about-voice-validation-title = 音声検証
 about-voice-validation-subtitle = 第三者が音声クリップを検証します。
 about-dataset-release-title = データセットリリース
@@ -551,9 +562,11 @@ about-nav-playbook = 参加するには
 ## How do I add a language
 
 about-playbook-how-add-language = 言語を追加するには？
+about-playbook-how-add-language-translating-heading = サイトの翻訳
 
 ## How does localization work
 
+about-playbook-how-localize-content-5 = 動画の説明をご覧ください
 
 ## How to add sentences
 
@@ -686,6 +699,12 @@ more = 詳細
 close = 閉じる
 download = ダウンロード
 dataset-version = バージョン
+sha256-checksum-copied = SHA256 チェックサムをコピーしました
+dataset-metadata-sex = 性別
+# dataset metadata - age of contributor
+dataset-metadata-age = 年齢
+donate-modal-message = データセットをダウンロードしています。
+dataset-donate-modal-heading = ご存知ですか？
 
 ## Download Modal
 
