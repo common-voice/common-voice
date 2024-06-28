@@ -22,6 +22,7 @@ native-language =
     .label = Äidinkieli
 profile-form-submit-save = Tallenna
 profile-form-submit-saved = Tallennettu
+do_not_wish_to_say = En halua sanoa
 # Gender
 other = Muu
 why-profile-title = Minkä takia profiili?
@@ -39,6 +40,7 @@ thanks-for-account = Kiitoksia tilin vahvistamisesta, nyt luodaan profiilisi.
 why-demographic = Mitä merkitystä tällä on?
 accept-privacy = Hyväksyn teidän käsittelevän tätä tietoa kuten Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> on selitetty.
 accept-privacy-title = Yksityisyyskäytäntö
+accept-privacy-and-terms = Hyväksyn Common Voicen <termsLink>ehdot</termsLink> ja <privacyLink>tietosuojakäytännön</privacyLink>
 login-identity = Käyttäjätunnus
 login = Kirjaudu sisään
 login-signup = Kirjaudu / Rekisteröidy

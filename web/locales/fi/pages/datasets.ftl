@@ -54,6 +54,10 @@ dataset-version = Versio
 sha256-checksum-copied = SHA256-tarkistussumma kopioitu!
 sha256-checksum-copied-error = SHA256-tarkistussumman kopioiminen epäonnistui
 clipboard-not-supported = Leikepöytää ei tueta
+dataset-metadata-sex = Sukupuoli
+# dataset metadata - age of contributor
+dataset-metadata-age = Ikä
+dataset-donate-modal-heading = Tiesitkö…
 
 data-download-singleword-title = Lataa yhden sanan kohdesegmentti
 data-download-singleword-callout-v2 = Tämä on käyttötapaukseen perustuva segmentti, joka sisältää tietoa puhuttujen lukujen tunnistamisen ja kyllä/ei -havaitsemisen tehostamiseksi.

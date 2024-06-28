@@ -165,6 +165,7 @@ share-text = Auta opettamaan koneita kuinka oikeat ihmiset puhuvat, lahjoita ä�
 link-copied = Linkki kopioitu
 back-top = Takaisin ylös
 logout = Kirjaudu ulos
+donate = Lahjoita
 
 stayintouch = Mozilla rakentaa yhteisöä puheteknologiaa varten. Haluamme pysyä yhteyksissä koskien päivityksiä ja uusia aineistolähteitä, sekä kuulla lisää siitä miten käytät näitä aineistoja.
 privacy-info = Lupaamme käsitellä tietojasi huolella. Lue lisää <privacyLink>tietosuojaselosteestamme</privacyLink>.
@@ -179,6 +180,10 @@ email-opt-in-info-sub-with-challenge = Haluan vastaanottaa sähköposteja, kuten
 email-opt-in-privacy-v2 = Tilaamalla uutiskirjeen hyväksyt Mozillan käsittelevän tätä tietoa Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> kuvatulla tavalla.
 indicates-required = * Pakollinen kenttä
 not-available-abbreviation = N/A
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Tarvitsemme</mark><br/><mark>apuasi!</mark>
 # [/SentenceCollector]
 
 localization-select =

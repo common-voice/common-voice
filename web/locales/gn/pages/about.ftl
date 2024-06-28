@@ -150,4 +150,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Emoñe’ẽve
 
 about-playbook-how-funded = ¿Mba’éicha ivirureko Common Voice?
 about-playbook-how-funded-content-2 = Hetaiterei viru tekotevẽ ñeñongatu ha mba’ekuaarã aty ñemoherakuã, pyendavusu moporãve ha emongu’e <africaMradiLink>tembiaporape tekohagua</africaMradiLink>.
+about-playbook-how-funded-content-3 = Nde térã ne rendaguasu oipytyvõséramo apopyrã ndive, ejapokuaa <donateLink>jopói</donateLink> térã eñe’ẽ ore aty <emailFragment>commonvoice@mozilla.com</emailFragment> rupive.
 

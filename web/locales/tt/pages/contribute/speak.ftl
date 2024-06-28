@@ -37,6 +37,7 @@ review-delete-recordings = Аудиоязмаларымны бетерү
 review-terms = Common Voice'ны куллануыгыз аша Сез безнең <termsLink>Шартлар</termsLink> һәм <privacyLink>Хосуйсыйлык сәясәте</privacyLink> белән килешәсез.
 terms-agree = Риза
 terms-disagree = Риза түгел
+why-donate = Ни өчен сорыйсыз?
 add-information-button = Мәгълүмат өстәү
 continue-speaking-button = Юк, рәхмәт, сөйләүне дәвам итү
 thanks-for-voice-toast = Тавыш мәгълүматыгыз өчен рәхмәт

@@ -26,3 +26,12 @@ sc-review-link = Тикшерү
 sc-criteria-modal = ⓘ Тикшерү критерийлары
 sc-criteria-title = Тикшерү критерийлары
 
+## LANGUAGE VARIANT CODES
+
+
+## REVIEW PAGE
+
+report-sc-different-language = Башка тел
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Без мөһим үзгәрешләр ясыйбыз
+

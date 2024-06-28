@@ -78,4 +78,5 @@ variant-contribution-help = Ñe’ẽ iñambue ha hekoeta peteĩ ñe’ẽ ryep�
 variant-contribution-option-1 = Ehechauka ñe’ẽjuaju año ha clip ambuegua
 variant-contribution-option-2 = Ehechauka ñe’ẽjuaju ha clip opaite ambuepy che ñe’ẽ rehegua
 variant-contribution-warning-title = ⓘ ¡Ndaopaitéi ñe’ẽjuaju ha clip oreko teramoĩ ambuegua!
+variant-contribution-warning-subtitle = Ne apañuáipa eipytyvõkuaa hag̃ua, ehechajeykuaa hetepy tuichaháicha ne ñe’ẽme ejapose vovénte.
 

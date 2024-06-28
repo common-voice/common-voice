@@ -257,6 +257,7 @@ donate-banner-cta = <mark>Trjebamy</mark><br/><mark>wašu pomoc!</mark>
 donate-banner-cta-explanation = Płaći na jedyn milion dolarow wob lěto, zo bychmy datowe sadźby hospodowali a platformu za wjace hač 100 rěčnych zhromadźenstwow polěpšowali, kotrež so na to spušćeja, štož činimy. <strong>Jeli sej wotewrjene, inkluziwne daty wažiće – darće dźensa!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Wužiwaće Common Voice za</mark><br/><mark>swoje slědźenje?</mark>
+languages-donate-banner-cta-explanation = Common Voice so z darami a přiražki financuje! Dźěłamy rady hromadźe z akademikarjemi, ciwilnej towaršnosću a slědźerjemi industrije. Common Voice je darmotny, ale je woprawdźe pomocliwje, so z přiražkowymi namjetami na kóštach platformy a za hosting wobdźělić.
 # [/SentenceCollector]
 
 localization-select =
