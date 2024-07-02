@@ -1084,6 +1084,10 @@ visibility-overlay-note = Note: When set to 'Visible', this setting can be chang
 show-ranking = Show my ranking
 
 ## Custom Goals
+title-goals = Custom Goals
+custom-goal-cancel = Cancel
+custom-goal-yes = Yes
+custom-goal-exit = Exit
 get-started-goals = Get started with goals
 create-custom-goal = Create a Custom Goal
 goal-type = What kind of goal do you want to build?
