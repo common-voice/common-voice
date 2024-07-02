@@ -11,17 +11,19 @@ const datasetReleaseQueue = new Queue('datasetRelease', {
   },
 })
 
-const addJob = (queue: Queue) => (job: ProcessLocaleJob) =>
+const addJob = (queue: Queue) => (jobName: string) => (job: ProcessLocaleJob) =>
   TE.tryCatch(
     async () => {
-      await queue.add('processLocale', job)
+      await queue.add(jobName, job)
     },
     err => Error(String(err)),
   )
 
-const addJobToDatasetReleaseQueue = addJob(datasetReleaseQueue)
+const addProcessLocaleJob = addJob(datasetReleaseQueue)('processLocale')
+const addGenerateStatisticsJob =
+  addJob(datasetReleaseQueue)('generateStatistics')
 
-export const addProcessLocaleJobs = (settings: Settings) =>
+export const addJobsToReleaseQueue = (settings: Settings) =>
   pipe(
     TE.Do,
     TE.bind('allLocales', () =>
@@ -30,15 +32,26 @@ export const addProcessLocaleJobs = (settings: Settings) =>
     TE.tap(({ allLocales }) =>
       TE.right(
         console.log(
-          'The following locales will be processed: ',
+          `${allLocales.length} locales will be processed: `,
           allLocales.map(locale => locale.name).join(', '),
         ),
       ),
     ),
     TE.map(({ allLocales }) =>
-      allLocales.map(locale =>
-        addJobToDatasetReleaseQueue({ locale: locale.name, ...settings }),
-      ),
+      allLocales.map(locale => {
+        switch (settings.type) {
+          case 'delta':
+          case 'full':
+            return addProcessLocaleJob({ locale: locale.name, ...settings })
+          case 'statistics':
+            return addGenerateStatisticsJob({
+              locale: locale.name,
+              ...settings,
+            })
+          default:
+            throw Error('Unhandled job type')
+        }
+      }),
     ),
     TE.chain(jobs => TE.sequenceArray(jobs)),
   )

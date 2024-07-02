@@ -20,10 +20,10 @@ export type LineCounts = Record<string, number>
  */
 export const prepareDir =
   (dirPath: string): IO.IO<void> =>
-  () => {
-    console.log(`Creating ${dirPath}`)
-    fs.mkdirSync(dirPath, { recursive: true })
-  }
+    () => {
+      console.log(`Creating ${dirPath}`)
+      fs.mkdirSync(dirPath, { recursive: true })
+    }
 
 /**
  * Counts the number of lines in the given filepaths.
@@ -64,6 +64,31 @@ const countLinesPromise = (filepaths: string[]) =>
     cc.on('error', reason => reject(reason))
   })
 
+export type ConcatFilesOptions = {
+  skipFirstLine: boolean
+}
+
+const concatFilesPromise = (
+  inFilepath: string,
+  outFilepath: string,
+  options: { skipFirstLine: boolean } = { skipFirstLine: false },
+) =>
+  new Promise<void>((resolve, reject) => {
+    const startFrom = ['-n', options.skipFirstLine ? '+2' : '+1']
+    const args = [...startFrom, inFilepath, '>>', outFilepath]
+    const cc = spawn('tail', args, {
+      shell: true,
+    })
+
+    cc.stdout.on('data', data => console.log(`${data}`))
+    cc.stderr.on('data', data => console.log(`${data}`))
+
+    cc.on('close', () => {
+      resolve()
+    })
+    cc.on('error', reason => reject(reason))
+  })
+
 export const calculateChecksum = (
   filepath: string,
 ): TE.TaskEither<Error, string> => {
@@ -83,10 +108,10 @@ export const calculateChecksum = (
 
 export const getFileSize =
   (filepath: string): IO.IO<number> =>
-  () => {
-    const filestats = fs.statSync(filepath)
-    return filestats.size
-  }
+    () => {
+      const filestats = fs.statSync(filepath)
+      return filestats.size
+    }
 
 export const countLines = (filepaths: string[]) =>
   TE.tryCatch(
@@ -94,7 +119,17 @@ export const countLines = (filepaths: string[]) =>
     reason => Error(String(reason)),
   )
 
+export const concatFiles = (
+  inFilepath: string,
+  outFilepath: string,
+  options?: ConcatFilesOptions,
+) =>
+  TE.tryCatch(
+    () => concatFilesPromise(inFilepath, outFilepath, options),
+    reason => Error(String(reason)),
+  )
+
 export const rmFilepath =
   (filepath: string): IO.IO<void> =>
-  () =>
-    fs.rmSync(filepath)
+    () =>
+      fs.rmSync(filepath)

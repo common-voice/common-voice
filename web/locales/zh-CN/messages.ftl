@@ -1373,7 +1373,7 @@ sc-submit-ph-one-per-line =
     .placeholder = 每行一句
 sc-submit-from-where = 这些<wikipediaLink>公有领域（Public Domain）</wikipediaLink>的句子来自何处？
 sc-submit-ph-read-how-to =
-    .placeholder = 如果您不确定该如何贡献，请阅读我们的操作指南
+    .placeholder = 如果您不确定该如何标注来源，请阅读我们的操作指南
 sc-submit-confirm = 我确认这些句子都是以<wikipediaLink>公有领域条款</wikipediaLink>授权公开，并且我有权上传。
 sc-submit-button =
     .submitText = 提交
@@ -1730,13 +1730,13 @@ bulk-sentences = 批量语句
 sentence-domain-combobox-label = 语句领域
 sentence-domain-select-placeholder = 最多选择三个领域
 # Sentence Domain dropdown option
-agriculture_food = 农副产品
+agriculture_food = 农业与食品
 # Sentence Domain dropdown option
 automotive_transport = 汽车与交通
 # Sentence Domain dropdown option
 finance = 金融
 # Sentence Domain dropdown option
-service_retail = 服务和零售
+service_retail = 服务与零售
 # Sentence Domain dropdown option
 general = 常规
 # Sentence Domain dropdown option

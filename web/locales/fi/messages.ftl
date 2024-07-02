@@ -186,6 +186,7 @@ share-text = Auta opettamaan koneita kuinka oikeat ihmiset puhuvat, lahjoita ä�
 link-copied = Linkki kopioitu
 back-top = Takaisin ylös
 logout = Kirjaudu ulos
+donate = Lahjoita
 
 ## Home Page
 
@@ -284,6 +285,7 @@ shortcut-record-toggle = n
 shortcut-record-toggle-label = Nauhoita / pysäytä
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Uudelleennauhoita äänite
+shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Hylkää käynnissä oleva tallenne
 shortcut-submit-label = Lähetä äänileikkeet
 request-language-text = Eikö kieltäsi löydy Common Voicesta vielä?
@@ -327,8 +329,7 @@ native-language =
     .label = Äidinkieli
 profile-form-submit-save = Tallenna
 profile-form-submit-saved = Tallennettu
-male = Mies
-female = Nainen
+do_not_wish_to_say = En halua sanoa
 # Gender
 other = Muu
 why-profile-title = Minkä takia profiili?
@@ -346,6 +347,7 @@ thanks-for-account = Kiitoksia tilin vahvistamisesta, nyt luodaan profiilisi.
 why-demographic = Mitä merkitystä tällä on?
 accept-privacy = Hyväksyn teidän käsittelevän tätä tietoa kuten Mozillan <privacyLink>tietosuojakäytännössä</privacyLink> on selitetty.
 accept-privacy-title = Yksityisyyskäytäntö
+accept-privacy-and-terms = Hyväksyn Common Voicen <termsLink>ehdot</termsLink> ja <privacyLink>tietosuojakäytännön</privacyLink>
 login-identity = Käyttäjätunnus
 login = Kirjaudu sisään
 login-signup = Kirjaudu / Rekisteröidy
@@ -491,6 +493,7 @@ about-playbook-what-is-language = Mikä on kieli Common Voicessa?
 
 about-playbook-how-add-language = Kuinka lisään kielen?
 about-playbook-how-add-language-translating-heading = Sivuston kääntäminen
+about-playbook-how-add-language-collecting-sentences-heading = Virkkeiden keruu
 
 ## How does localization work
 
@@ -522,6 +525,10 @@ about-playbook-how-access-dataset = Kuinka saan pääsyn ja kuinka käytän aine
 
 ## How are decisions made
 
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Miten Common Voice rahoitetaan?
 
 ## Glossary
 
@@ -632,6 +639,10 @@ dataset-version = Versio
 sha256-checksum-copied = SHA256-tarkistussumma kopioitu!
 sha256-checksum-copied-error = SHA256-tarkistussumman kopioiminen epäonnistui
 clipboard-not-supported = Leikepöytää ei tueta
+dataset-metadata-sex = Sukupuoli
+# dataset metadata - age of contributor
+dataset-metadata-age = Ikä
+dataset-donate-modal-heading = Tiesitkö…
 
 ## Download Modal
 
@@ -680,6 +691,8 @@ language-section-in-progress = Työn alla
 language-section-in-progress-new-description = Nämä kielet ovat tällä hetkellä yhteisöjen kehitettävinä. Etenemispalkki näyttää, kuinka pitkällä kukin kieli on  <localizationGlossaryLink>verkkosivun lokalisaatiossa</localizationGlossaryLink> ja <sentenceCollectionGlossaryLink>lauseiden keräämisessä</sentenceCollectionGlossaryLink>.
 language-section-launched = Julkistettu
 language-section-launched-description = Verkkosivusto on onnistuneesti <localizationGlossaryLink>lokalisoitu</localizationGlossaryLink> näille kielille, ja <sentenceCollectionGlossaryLink>kerättyjä lauseita</sentenceCollectionGlossaryLink> on tarpeeksi <speakLink>nauhoituksen</speakLink> ja <listenLink>kuuntelun</listenLink> mahdollistamiseksi.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Viimeksi päivitetty: { $lastUpdatedTimeStamp }
 languages-show-more = Lisää
 languages-show-less = Vähemmän
 language-meter-in-progress = Edistys
@@ -698,6 +711,7 @@ action-click = Klikkaa
 action-tap = Napauta
 contribute = Osallistu
 listen = Kuuntele
+write = Kirjoita
 skip = Ohita
 shortcuts = Pikanäppäimet
 clips-with-count-pluralized =
@@ -758,6 +772,7 @@ target-segment-learn-more = Lue lisää
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Äänikokoelma
+contribute-sentence-collection-nav-header = Virkekokoelma
 
 ## Reporting
 
@@ -1019,6 +1034,7 @@ sc-logout-button = Kirjaudu ulos
 
 ## HOME
 
+sc-home-collect-title = Virkkeiden keruu
 sc-home-review-title = Tarkista lauseet
 
 ## GENERAL
@@ -1107,6 +1123,9 @@ sc-personal-err-lang-not-found = Kieltä ei voitu poistaa: kieltä ei löydy
 sc-personal-err-remove = Kieltä ei voitu poistaa
 sc-personal-your-languages = Kielesi:
 sc-personal-remove-button = poista
+# Variables:
+#   $sentences (Number) - Number of sentences that were added by the currently logged in user for this language
+sc-personal-added-by-you = { $sentences } lisätty toimestasi
 sc-personal-not-added = Et ole vielä lisännyt yhtään kieltä.
 
 ## REVIEW CRITERIA
@@ -1155,3 +1174,30 @@ background-noise = Taustamelu
 background-voices = Taustaäänet
 example = Esimerkki
 citing-sentences-subheader-websites = Verkkosivustot
+
+## WRITE PAGE
+
+
+## LANGUAGE VARIANT CODES
+
+
+## REVIEW PAGE
+
+
+## BULK SUBMISSION 
+
+select-file = Valitse tiedosto
+select-file-mobile = Valitse lähetettävä tiedosto
+accepted-files = Hyväksytyt tiedostotyypit: vain .tsv
+maximum-file-size = Tiedoston enimmäiskoko: 25 Mt
+what-needs-to-be-in-file = Mitä tiedostossa pitää olla?
+upload-progress-text = Lähetys käynnissä...
+file-invalid-type = Virheellinen tiedosto
+file-too-large = Tiedosto on liian suuri
+file-too-small = Tiedosto on liian pieni
+too-many-files = Liian monta tiedostoa
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Tarvitsemme</mark><br/><mark>apuasi!</mark>
