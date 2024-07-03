@@ -130,6 +130,11 @@ export default class Server {
         }
       });
 
+      app.get('/robots.txt', function (req, res) {
+        res.type('text/plain')
+        res.send('User-agent: *\nDisallow: /spontaneous-speech/')
+      })
+
       app.use(authRouter);
 
       app.use('/api/v1', this.api.getRouter());
