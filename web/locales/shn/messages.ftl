@@ -85,6 +85,27 @@ hours-validated = ၸူဝ်ႈမွင်းဢၼ်လႆႈၵူတ်�
 voices-online = သဵင်ဢၼ်မီးယူႇၼိူဝ်လႅင်းယၢမ်းလဵဝ်
 todays-progress = လွင်ႈၶိုပ်ႈၼႃႈၼႂ်းဝၼ်းမိူဝ်ႈၼႆႉ
 help-reach-goal = ၸွႆႈႁဝ်းႁႂ်ႈထိုင် { $goal }
+read-terms-q = ၸွင်ႇသူလႆႈလူဢၢၼ်ႇၶေႃႈမၵ်းမၼ်ႈႁဝ်းယဝ်ႉ?
+ready-to-record = ႁၢင်ႈႁႅၼ်းၽွမ်ႉတႃႇတေလူႇတၢၼ်းသဵင်ယဝ်ႉႁႃႉ?
+all-locales = တင်းမူတ်း
+today = ဝၼ်းမိူဝ်ႈၼႆႉ
+x-weeks-short =
+    { $count ->
+        [one] ဝူင်ႈ
+       *[other] ဝူင်ႈ
+    }
+x-months-short =
+    { $count ->
+        [one] လိူၼ်
+       *[other] လိူၼ်
+    }
+x-years-short =
+    { $count ->
+        [one] ပီ
+       *[other] ပီ
+    }
+help-make-dataset = ၸွႆႈႁဝ်းၶႃႈၵေႃႇသၢင်ႈၸုမ်ႇၶေႃႈမုၼ်း ဢၼ်မီးၼမ်ႉလီ လႄႈပိုတ်ႇၵႂၢင်ႈတေႃႇၵူၼ်းတင်းၼမ်
+sign-up-account = လူင်းသဵၼ်ႈၸိုဝ်ႈတႃႇႁဵတ်းဢၶွင်ႉ
 
 ## Account Benefits
 
