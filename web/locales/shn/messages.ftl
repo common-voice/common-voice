@@ -170,9 +170,26 @@ status-hours =
         [one] ၵူတ်ႇထတ်းယဝ်ႉတူဝ်ႈ { $hours } ၸူဝ်ႈမွင်း တေႃႇယၢမ်းလဵဝ်!
        *[other] ၵူတ်ႇထတ်းယဝ်ႉတူဝ်ႈ { $hours } ၸူဝ်ႈမွင်း တေႃႇယၢမ်းလဵဝ်!
     }
+# Variables:
+# $goal - number of hours representing the next goal
+status-goal = ယိူင်းမၢႆသိုပ်ႇၵႂႃႇ: { $goal }
+english = ဢိင်းၵလဵတ်ႈ
 
 ## ProfileForm
 
+profile-form-username =
+    .label = ၸိုဝ်ႈၽူႈၸႂ်ႉတိုဝ်း
+profile-form-native-language =
+    .label = ၽႃႇသႃႇၵႂၢမ်းငဝ်ႈ
+profile-form-additional-language =
+    .label = ၽႃႇသႃႇတၢင်ႇၸိူဝ်း
+profile-form-language =
+    .label = ၽႃႇသႃႇ
+profile-form-variant =
+    .label = သူလၢတ်ႈၽႃႇသႃႇ { $language } ၸၼ်ႉထၢၼ်ႈလႂ်?
+profile-form-variant-default-value = ဢမ်ႇလႆႈလိူၵ်ႈၸၼ်ႉထၢၼ်ႈ
+profile-form-accent =
+    .label = ၼမ်ႉသဵင်
 
 ## Profile - Email
 
