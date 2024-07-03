@@ -70,6 +70,11 @@ wall-of-text-second = ၶေႃႈမုၼ်းသဵင်းတင်းၼ�
 show-wall-of-text = သိုပ်ႇလူ
 help-us-title = ၸွႆႈထႅမ်ႁဝ်းၶႃႈၵူတ်ႇထတ်းတူၼ်းထႅဝ်!
 help-us-explain = ၼဵၵ်းၼဵၼ်လဵၼ်ႈသေ ထွမ်ႇ လႄႈလၢတ်ႈၼႄႁဝ်းၶႃႈ: ၸွင်ႇၶဝ်လႆႈလၢတ်ႈတူၼ်းထႅဝ်တၢင်းတႂ်ႈၼႆႉ?
+no-clips-to-validate = တူၺ်းမိူၼ်ဝႃႈတေဢမ်ႇမီးၶလိပ်ႉပၼ်ထွမ်ႇၼႂ်းၽႃႇသႃႇၼႆႉ၊ ၸွႆႈႁဝ်းၶႃႈၽိူမ်ႉထႅမ်လူၺ်ႈၵၢၼ်ဢတ်းသဵင်ၶႃႈလႄႈ။
+vote-yes = ၸႂ်ႈ
+vote-no = ဢမ်ႇ
+toggle-play-tooltip = ၼဵၵ်း { shortcut-play-toggle } တႃႇလဵၼ်ႈ
+speak-subtitle = လူႇပၼ်သဵင်ၸဝ်ႈၵဝ်ႇ
 
 ## Account Benefits
 
