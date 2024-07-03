@@ -118,26 +118,58 @@ improve-audio = ၶေႃႈမုၼ်းပရူဝ်ႇၾၢႆႇ ၸွ
 keep-track = သိုပ်ႇလမ်းၸွမ်းလွင်ႈၶိုပ်ႈၼႃႈလႄႈမႅတ်ႉထရိၵ်ႉၸဝ်ႈၵဝ်ႇၼႂ်းလၢႆၽႃႇသႃႇ
 compare-progress = တူၺ်းဝႃႈလွင်ႈၶိုပ်ႈၼႃႈၸဝ်ႈၵဝ်ႇလႄႈ ၼိူင်းၸွမ်းၽူႈၸွႆႈထႅမ်တၢင်ႇၵေႃႈတင်းၵမ်ႇၽႃႇ ပဵၼ်ၸိူင်ႉႁိုဝ်
 view-goals = တူၺ်းလွင်ႈၶိုပ်ႈၼႃႈၸဝ်ႈၵဝ်ႇ ဢၼ်မီးလွင်ႈၶတ်းၵၼ်တင်းယိူင်းမၢႆသုၼ်ႇတူဝ်လႄႈ ယိူင်းမၢႆၶူင်းၵၢၼ်။
-join-newsletter = လိူၵ်ႈတီႈတေၶဝ်ႈႁူမ်ႈၼႂ်းသဵၼ်ႈမၢႆဢီးမေးလ်ႁဝ်းၶႃႈ တႃႇႁပ်ႉလွင်ႈမႂ်ႇမႂ်ႇ လႄႈၶေႃႈမုၼ်းမႂ်ႇၵဵဝ်ႇလူၺ်ႈလွင်ႈၶူင်းၵၢၼ်
+join-newsletter = လိူၵ်ႈတီႈတေၶဝ်ႈႁူမ်ႈၼႂ်းသဵၼ်ႈမၢႆဢီးမေးလ်ႁဝ်းၶႃႈ တႃႇႁပ်ႉလွင်ႈမႂ်ႇမႂ်ႇ လႄႈၶေႃႈမုၼ်းမႂ်ႇၵဵဝ်ႇလူၺ်ႈလွင်ႈၶူင်းၵၢၼ်။
 
 ## What's public
 
 whats-public = ၶေႃႈမုၼ်းသင်ၽွင်ႈဢၼ်တေပိုၼ်ၽႄ?
-email-not-public = ႁဝ်းၶႃႈတေဢမ်ႇပိုၼ်ၽႄဢီးမေးလ်သူၸဝ်ႈ
-recordings-and-locale-public = မၢႆၼပ်ႉတင်းၼမ်သဵင်ဢၼ်လႆႈဢတ်းဝႆႉ လႄႈၽႃႇသႃႇဢၼ်သူၸွႆႈထႅမ်ပၼ်ဝႆႉၼၼ်ႉတေထုၵ်ႇပိုၼ်ၽႄ
-username-optin-public = သူၸၢင်ႈလိူၵ်ႈလႆႈဝႃႈ ၸိုဝ်ႈၽူႈၸႂ်ႉတိုဝ်းသူၼၼ်ႉတေပိုၼ်ၽႄ ႁိုဝ်ဢမ်ႇဢွၵ်ႇၸိုဝ်ႈၵေႃႈလႆႈ
+email-not-public = ႁဝ်းၶႃႈတေဢမ်ႇပိုၼ်ၽႄဢီးမေးလ်သူၸဝ်ႈ။
+recordings-and-locale-public = မၢႆၼပ်ႉတင်းၼမ်သဵင်ဢၼ်လႆႈဢတ်းဝႆႉ လႄႈၽႃႇသႃႇဢၼ်သူၸွႆႈထႅမ်ပၼ်ဝႆႉၼၼ်ႉတေထုၵ်ႇပိုၼ်ၽႄ။
+username-optin-public = သူၸၢင်ႈလိူၵ်ႈလႆႈဝႃႈ ၸိုဝ်ႈၽူႈၸႂ်ႉတိုဝ်းသူၼၼ်ႉတေပိုၼ်ၽႄ ႁိုဝ်ဢမ်ႇဢွၵ်ႇၸိုဝ်ႈၵေႃႈလႆႈ။
+username-email-not-demographic = ၸိုဝ်ႈၽူႈၸႂ်ႉတိုဝ်းလႄႈဢီးမေးလ်သူ တေဢမ်ႇၵွင်ႉၵၢႆႇၵၼ်တင်းၶေႃႈမုၼ်းဢၼ်ပိုၼ်ၽႄ။
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = လဵၼ်ႈ/ၵိုတ်း
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = ဢတ်း/ၵိုတ်း
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ဢတ်းၶလိပ်ႉမႂ်ႇ
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = ပႅတ်ႈဢၼ်တိုၵ်ႉဢတ်းဝႆႉယူႇ
+shortcut-submit = Return
+shortcut-submit-label = သူင်ႇၶလိပ်ႉ
+request-language-text = ဢမ်ႇပႆႇႁၼ်ၽႃႇသႃႇၸဝ်ႈၵဝ်ႇၼိူဝ် Common Voice ၸွင်ႇၸႂ်ႈ?
+request-language-button = ယွၼ်းၽႃႇသႃႇ
 
 ## ProjectStatus
 
+status-title = ငဝ်းလၢႆးၶူင်းၵၢၼ်တင်းမူတ်း: တူၺ်းဝႃႈ ႁဝ်းမႃးထိုင်ၵႆၵႃႈႁိုဝ်ယဝ်ႉ!
+status-contribute = ၸွႆႈထႅမ်ပၼ်သဵင်သူ
+status-hours =
+    { $hours ->
+        [one] ၵူတ်ႇထတ်းယဝ်ႉတူဝ်ႈ { $hours } ၸူဝ်ႈမွင်း တေႃႇယၢမ်းလဵဝ်!
+       *[other] ၵူတ်ႇထတ်းယဝ်ႉတူဝ်ႈ { $hours } ၸူဝ်ႈမွင်း တေႃႇယၢမ်းလဵဝ်!
+    }
 
 ## ProfileForm
 
