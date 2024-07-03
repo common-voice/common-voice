@@ -82,6 +82,9 @@ listen-paragraph = ၵၢၼ်ၵူတ်ႇထတ်းၶလိပ်ႉဢ�
 listen-goal-text = ၶလိပ်ႉဢၼ်ၵူတ်ႇထတ်းယဝ်ႉ
 hours-recorded = ၸူဝ်ႈမွင်းဢၼ်လႆႈဢတ်းဝႆႉယဝ်ႉ
 hours-validated = ၸူဝ်ႈမွင်းဢၼ်လႆႈၵူတ်ႇထတ်းယဝ်ႉ
+voices-online = သဵင်ဢၼ်မီးယူႇၼိူဝ်လႅင်းယၢမ်းလဵဝ်
+todays-progress = လွင်ႈၶိုပ်ႈၼႃႈၼႂ်းဝၼ်းမိူဝ်ႈၼႆႉ
+help-reach-goal = ၸွႆႈႁဝ်းႁႂ်ႈထိုင် { $goal }
 
 ## Account Benefits
 
