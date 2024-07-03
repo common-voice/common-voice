@@ -190,6 +190,14 @@ profile-form-variant =
 profile-form-variant-default-value = ဢမ်ႇလႆႈလိူၵ်ႈၸၼ်ႉထၢၼ်ႈ
 profile-form-accent =
     .label = ၼမ်ႉသဵင်
+profile-form-custom-accent-help-text =
+    .label = တေသပ်းၸႅင်ႈၼႄဝႃႈသဵင်ဢွၵ်ႇသဵင် သူပဵၼ်ၸိူင်ႉႁိုဝ်?
+profile-form-custom-accent-placeholder-2 = တႄႇပေႃႉလိၵ်ႈ တႃႇတႅမ်ႈလွင်ႈသပ်းၸႅင်ႈသဵင်ဢွၵ်ႇသဵင်သူ
+profile-form-age =
+    .label = ဢႃယု
+hidden = သိူင်ႇ
+native-language =
+    .label = ၽႃႇသႃႇၵႂၢမ်းငဝ်ႈ
 
 ## Profile - Email
 
