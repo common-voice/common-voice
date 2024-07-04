@@ -1666,6 +1666,7 @@ reviewing-sentences-explanation-1 = 若句子符合上述標準，請點擊「�
 reviewing-sentences-explanation-2 = 若句子不符合上述標準，請點擊「拒絕」按鈕。
 reviewing-sentences-explanation-3 = 如果您不確定句子是否符合上述標準，也可以略過，跳到下一句。
 reviewing-sentences-explanation-4 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
+domain-explanation = 「領域」指的是語句的主旨。目前可以選擇下列領域：
 
 ## WRITE PAGE
 
@@ -1674,6 +1675,7 @@ write-page-subtitle = 提供到這裡的句子，會列入以 CC-0 授權、可�
 sentence =
     .label = 語句
 sentence-input-value = 在此輸入公眾領域語句
+citation-input-placeholder = 您的句子的出處（必填）
 citation =
     .label = 引用
 sc-write-submit-confirm = 我確認這個句子已經以<wikipediaLink>公眾領域條款</wikipediaLink>授權公開，而且我有權上傳。
@@ -1756,7 +1758,11 @@ sw-kimvita = Kimvita（肯亞）- 中部方言
 sw-kibajuni = Kibajuni（肯亞）- 北方方言
 sw-kimrima = Kimrima（坦尚尼亞）- 北方方言
 sw-kiunguja = Kiunguja（坦尚尼亞）- 南方方言
+sw-kipemba = 基彭巴語（坦尚尼亞）- 南方方言
+sw-kikae = 金馬坤都期語／齊卡耶語（坦尚尼亞）- 南方方言
 zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ（塔什赫特語）
+zgh-tzm = ⵜⴰⵎⴰⵣⵉⵖⵜ ⵏ ⵡⴰⵟⵍⴰⵚ ⴰⵏⴰⵎⵎⴰⵙ（中阿特拉斯塔馬塞特語）
+zgh-rif = ⵜⴰⵔⵉⴼⵉⵜ（里夫語）
 
 ## REVIEW PAGE
 
