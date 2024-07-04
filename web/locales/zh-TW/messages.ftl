@@ -1756,6 +1756,7 @@ sw-kimvita = Kimvita（肯亞）- 中部方言
 sw-kibajuni = Kibajuni（肯亞）- 北方方言
 sw-kimrima = Kimrima（坦尚尼亞）- 北方方言
 sw-kiunguja = Kiunguja（坦尚尼亞）- 南方方言
+zgh-shi = ⵜⴰⵛⵍⵃⵉⵜ（塔什赫特語）
 
 ## REVIEW PAGE
 
