@@ -448,6 +448,7 @@ help-accent-explanation = 腔調就是您發音的方式，可能會受您生活
 help-variants = 需要關於變體的相關說明嗎？
 help-variants-explanation = 變體是一種語言的特定格式，像是由居住在共同地區或社群的人才有的特定說話腔調。有時這也稱為「方言」。
 help-sex-or-gender-changes = 需要更改性別嗎？
+variant-contribution-options-header = 變體貢獻選項
 
 ## Profile - Email
 
@@ -1347,7 +1348,7 @@ sc-submit-ph-one-per-line =
     .placeholder = 一行一句
 sc-submit-from-where = 這些<wikipediaLink>公眾領域（Public Domain）</wikipediaLink>的句子來自何處？
 sc-submit-ph-read-how-to =
-    .placeholder = 不確定如何貢獻的話，可先閱讀我們的如何貢獻文件
+    .placeholder = 不確定如何標注來源的話，可先閱讀我們的如何標注來源文件
 sc-submit-confirm = 我確認這些句子都已經以<wikipediaLink>公眾領域條款</wikipediaLink>授權公開，而且我有權上傳。
 sc-submit-button =
     .submitText = 送出
@@ -1655,6 +1656,7 @@ adding-sentences-subheader-speakable-explanation = 最理想的句子應該自�
 adding-sentences-subheader-numbers = 數字
 adding-sentences-subheader-numbers-explanation = 原文段落中不應包含數字，因為會在唸出來的時候造成問題。數字的念法需依前後文而定，可能會在資料集中造成混淆。舉例來說，數字「2409」有時會念成「兩千四百零九」，也有可能念成「二四零九」。
 adding-sentences-subheader-abbreviations = 縮寫
+adding-sentences-subheader-abbreviations-explanation = 原文段落中，應避免使用縮寫和首字母縮略詞，例如「USA」或「ICE」，因為它們的拼法與念法可能不一樣。此外，單一縮寫也可能有多種正確念法。
 adding-sentences-subheader-punctuation = 標點符號
 adding-sentences-subheader-punctuation-explanation = 應該只在有絕對必要的時候才加入特殊符號及標點。舉例來說，英文字「don’t」、「we’re」當中的撇號（apostrophe）應該包含在原文段落中，但不太可能會需要「@」或「#」等特殊符號。
 adding-sentences-subheader-special-characters = 特殊符號與外文
@@ -1668,11 +1670,13 @@ reviewing-sentences-explanation-4 = 若您已經沒有句子可以審核了，�
 ## WRITE PAGE
 
 write-instruction = 加入 <icon></icon> 公眾領域的句子
+write-page-subtitle = 提供到這裡的句子，會列入以 CC-0 授權、可公開取得的資料集內。
 sentence =
     .label = 語句
 sentence-input-value = 在此輸入公眾領域語句
 citation =
     .label = 引用
+sc-write-submit-confirm = 我確認這個句子已經以<wikipediaLink>公眾領域條款</wikipediaLink>授權公開，而且我有權上傳。
 sc-review-write-title = 我可以加入哪些句子？
 new-sentence-rule-1 = <noCopyright>無版權限制</noCopyright> (<cc0>cc-0 公眾授權</cc0>)
 new-sentence-rule-2 = 少於 15 字
@@ -1771,7 +1775,9 @@ sc-redirect-page-title = 我們有些重大變更
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = 上傳 <icon></icon> 公眾領域的句子
+sc-bulk-upload-instruction = 將檔案拖曳到這裡，或<uploadButton>點這裡上傳</uploadButton>
 sc-bulk-upload-instruction-drop = 將檔案放到此處進行上傳
+bulk-upload-additional-information = 如果您想要提供有關這份檔案的其他資訊，請聯絡 <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = 再次將檔案拖到此處即可重試
 try-upload-again-md = 嘗試再上傳一次
 select-file = 選擇檔案
@@ -1780,9 +1786,11 @@ accepted-files = 接受的檔案類型：只接受 .tsv
 maximum-file-size = 最大檔案大小：25 MB
 what-needs-to-be-in-file = 檔案裡需要有哪些內容？
 upload-progress-text = 正在上傳…
+sc-bulk-submit-confirm = 我確認這些句子都已經以<wikipediaLink>公眾領域條款</wikipediaLink>授權公開，而且我有權上傳。
 bulk-upload-success-toast = 已上傳大批句子
 bulk-upload-failed-toast = 上傳失敗，請重試。
 bulk-submission-success-header = 感謝您捐出大批句子！
+bulk-submission-success-subheader = 你正在幫助 Common Voice 達成每日語句目標！
 upload-more-btn-text = 要上傳更多句子嗎？
 file-invalid-type = 檔案無效
 file-too-large = 檔案太大
@@ -1791,5 +1799,7 @@ too-many-files = 檔案太多
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>我們需要</mark><br/><mark>你的幫忙！</mark>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>在您的研究中</mark><br/><mark>使用 CV 嗎？</mark>
