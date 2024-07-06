@@ -1,13 +1,13 @@
 All the sentences read by our contributors are sourced from copyright free sources or permissioned sources, either through [automated sourcing](https://github.com/common-voice/cv-sentence-extractor) by agreement from sources like Wikipedia or contributed by our language communities.
 
-If you want to add a single sentence, or a series of single sentences, you can do so via the [Sentence Collection](https://commonvoice.mozilla.org/write) page on the [Common Voice website](https://commonvoice.mozilla.org). To contribute a larger number of sentences at once, you can use the Bulk Sentence upload option.
+If you want to add a single sentence, or a series of less than 1000 sentences, you can do so via the [Sentence Collection](https://commonvoice.mozilla.org/write) page on the [Common Voice website](https://commonvoice.mozilla.org). To contribute a larger number of sentences (1000+) at once, you can use the Bulk Sentence upload option. _Remember, only files with more than 1000 sentences will be manually processed due to our small team size._
 
 Remember that for both single sentence and bulk sentence submissions, sentences must:
 - Be in the public domain, with a CC0 license
 - Be short, readable and take about 10-15 seconds to read
 - Avoid including numbers or special characters
 ## Formatting Your Bulk Sentences
-To upload bulk sentences, you'll need to have created a TSV file with your sentences.
+To upload bulk sentences, you'll need to have created a TSV file with your sentences. 
 
 Please format your bulk sentences into a [.TSV](https://en.wikipedia.org/wiki/Tab-separated_values) file with five columns, containing the following columns from left to right:
 - Your sentence
@@ -34,6 +34,7 @@ Please do not combine sentences from multiple languages in a single bulk sentenc
 |   The 3 elephants were playing in the mud                                         |   John Doe (self)                                                                             |   My own submission, copyright waived                |                                                                       |                      |                                         |
 |                                                                                   |                                                                                               |                                                      |                                                                       |                      |                                         |
 ## Uploading Your Bulk Sentences
+Please note that currently only **bulk upload files with 1000+ sentences will be processed** due to manual process done by the small team of the Common Voice.
 After logging on, select the Bulk Sentence Submission option from the left hand side of the [Sentence Collection](https://commonvoice.mozilla.org/write) page.
 
 ![BULK_SENTENCES_ON_PLATFORM](https://github.com/common-voice/common-voice/assets/4729371/d2542dc2-8692-4fba-be3f-ac065cab4839)
