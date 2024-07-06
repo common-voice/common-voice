@@ -208,6 +208,11 @@ profile-form-add-accent = သႂ်ႇသဵင်လွင်ႈၶွင်တ
 profile-form-submit-save = ၵဵပ်းသိမ်း
 profile-form-submit-saved = ၵဵပ်းသိမ်းယဝ်ႉ
 male_masculine = ၸၢႆး/ၽူႈၸၢႆး
+female_feminine = ယိင်း/ၽူႈယိင်း
+do_not_wish_to_say = ဢမ်ႇၶႂ်ႈမွၵ်ႇလၢတ်ႈ
+# Gender
+other = တၢင်ႇမဵဝ်း
+why-profile-title = ႁဵတ်းသင်လႄႈတေလႆႈမီးပရူဝ်ႇၾၢႆႇ?
 
 ## Profile - Email
 
