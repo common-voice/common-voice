@@ -54,6 +54,7 @@ cak = 마야어
 ckb = 중앙 쿠르드어
 cnh = 하카어
 co = 코르시카어
+crh = 크림 타타르어
 cs = 체코어
 cv = 추바시어
 cy = 웨일스어
@@ -75,6 +76,7 @@ ff = 풀라어
 fi = 핀란드어
 fo = 페로어
 fr = 프랑스어
+fuf = 풀라 기니어
 fy-NL = 프리지아어
 ga-IE = 아일랜드어
 gl = 갈리시아어
@@ -100,6 +102,7 @@ it = 이탈리아어
 izh = 이조르어
 ja = 일본어
 jbo = 로지반어
+jv = 자바어
 ka = 그루지아어
 kaa = 카라칼파크어
 kab = 커바일어
@@ -170,6 +173,8 @@ sah = 사하어
 sat = 산탈어 (올치키)
 sc = 사르데냐어
 scn = 시칠리아어
+sco = 스코트어
+sd = 신디어
 sdh = 남부 쿠르드어
 shi = 실하어
 si = 싱할라어
@@ -210,6 +215,7 @@ uz = 우즈베키스탄어
 ve = 벤다어
 vec = 베네치아어
 vi = 베트남어
+vmw = 마쿠와어
 vot = 바트어
 wo = 월로프어
 xh = 코사어
@@ -396,8 +402,9 @@ native-language =
 profile-form-add-accent = 새 사용자 지정 억양 "{ $inputValue }" 추가
 profile-form-submit-save = 저장
 profile-form-submit-saved = 저장됨
-male = 남자
-female = 여자
+male_masculine = 남성
+female_feminine = 여성
+intersex = 간성
 # Gender
 other = 그외
 why-profile-title = 왜 사용자 정보가 필요한가요?
@@ -416,6 +423,7 @@ why-demographic = 왜 이 문제가 중요합니까?
 why-demographic-explanation-2 = 연령, 성별, 억양과 같은 익명 사용자 데이터는 음성 인식 엔진의 정확성을 교육하는 데 사용되는 오디오 데이터를 개선하는 데 도움이 됩니다. 사용자 이름과 이메일은 제출된 데이터와 연결되지 않으며 사용자 이름을 공개할지 익명으로 할지 선택할 수 있습니다.
 accept-privacy = Mozilla의 <privacyLink>개인 정보 보호정책</privacyLink>에서 설명한대로 이 정보를 처리해 주십시오.
 accept-privacy-title = 개인 정보 보호 정책
+accept-privacy-and-terms = Common Voice의 <termsLink>약관</termsLink> 및 <privacyLink>개인정보 보호정책</privacyLink>에 동의합니다.
 login-identity = 로그인 정보
 login = 로그인
 login-signup = 로그인 / 가입하기
@@ -663,6 +671,9 @@ about-playbook-how-project-governance-content-5 = 가치와 인정.
 about-playbook-how-project-governance-content-6 = 상호 책임.
 about-playbook-how-project-governance-content-7 = <governanceLink>관리 방식에 대해 자세히 살펴 보세요.</governanceLink>
 
+## How is Common Voice funded
+
+
 ## Glossary
 
 glossary = 용어
@@ -782,6 +793,9 @@ dataset-version = 버전
 sha256-checksum-copied = SHA256 체크섬이 복사되었습니다!
 sha256-checksum-copied-error = SHA256 체크섬을 복사하지 못했습니다.
 clipboard-not-supported = 클립보드가 지원되지 않음
+dataset-metadata-sex = 성별
+# dataset metadata - age of contributor
+dataset-metadata-age = 나이
 
 ## Download Modal
 
@@ -1602,11 +1616,13 @@ adding-sentences-subheader-abbreviations = 축약어와 두문자어
 adding-sentences-subheader-punctuation = 구두점
 adding-sentences-subheader-special-characters = 특수 문자 및 외국 문자
 adding-sentences-subheader-offensive-content = 공격적인 콘텐츠
+
+## WRITE PAGE
+
 write-page-subtitle = 여기에 제공된 문장은 공개적으로 사용 가능한 cc-0 라이선스 데이터 세트에 추가됩니다.
 sentence =
     .label = 문장
 sentence-input-value = 여기에 공공 부분 문장을 입력하세요.
-citation-input-value = 문장의 출처
 citation =
     .label = 인용
 new-sentence-rule-2 = 문장당 15단어 미만
@@ -1623,6 +1639,11 @@ add-sentence-success = 1문장 수집됨
 add-sentence-error = 문장을 추가하는 중에 오류가 발생했습니다.
 required-field = 이 항목을 입력해 주세요.
 
+## LANGUAGE VARIANT CODES
+
+pt-BR = 포르투갈어 (브라질)
+pt-PT = 포르투갈어 (포르투갈)
+
 ## REVIEW PAGE
 
 report-sc-different-language = 다른 언어
@@ -1631,4 +1652,8 @@ sc-redirect-page-title = 몇 가지 큰 변화를 만들고 있습니다
 sc-redirect-page-subtitle-1 = Sentence Collector는 핵심 Common Voice 플랫폼으로 이동하고 있습니다. 이제 Common Voice에서 문장을 <writeURL>작성</writeURL>하거나 단일 문장 제출을 <reviewURL>검토</reviewURL>할 수 있습니다.
 
 ## BULK SUBMISSION 
+
+select-file = 파일 선택
+
+## Donate banner
 
