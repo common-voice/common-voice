@@ -447,6 +447,7 @@ off = Av
 on = På
 help-accent = Treng du hjelp med dialekt?
 help-variants = Treng du hjelp med variantar?
+help-sex-or-gender-changes = Treng du hjelp med endringane i kjønn?
 
 ## Profile - Email
 
@@ -617,9 +618,11 @@ about-playbook-how-validate = Korleis veit eg om jeg skal godkjenne eit stemmekl
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Korleis får eg tilgang til og brukar datasettet?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Korleis vert prosjektavgjerder tekne ?
 about-playbook-how-project-governance-content-7 = <governanceLink>Les meir om korleis vi blir styrt.</governanceLink>
 
 ## How is Common Voice funded
@@ -698,6 +701,7 @@ validated-hr-total = Totalt validerte timar
 overall-hr-total = Totalt tal på timar
 cv-license = Lisens
 audio-format = Lydformat
+dataset-splits = Oppdelt (alder og kjønn)
 number-of-voices = Tal på stemmer
 splits = Oppdeling
 email-to-download = Skriv inn ei e-postadresse for å laste ned
@@ -1135,15 +1139,17 @@ contribution-misreadings-example-4-title = Dei store dinosaurane i Trias. Ja.
 contribution-misreadings-example-4-explanation = [Det er spelt inn meir enn den nødvendige teksten]
 contribution-misreadings-example-5-title = Vi skal ut og skaffe kaffi.
 contribution-misreadings-example-6-title = Vi går ut for å skaffe meir kaffi.
-contribution-misreadings-example-6-explanation = [Skulle vore «er ikkje»]
+contribution-misreadings-example-6-explanation = [Skulle vore «Vi er»]
 contribution-misreadings-example-7-title = Vi skal ut og hente ein kaffi.
 contribution-misreadings-example-7-explanation = [Ordet «igjen» var ikkje i teksta]
 contribution-misreadings-example-8-title = Humla flaug forbi.
 contribution-misreadings-example-8-explanation = [Heilt feil innhald]
 contribution-varying-pronunciations-title = Ulike uttalar
 contribution-background-noise-title = Bakgrunnsstøy
+contribution-background-noise-example-2-explanation = [Del av teksten kan ikkje høyrast]
 contribution-background-voices-title = Bakgrunnsstemmer
 contribution-volume-title = Lydstyrke
+contribution-reader-effects-title = Lesareffektar
 contribution-just-unsure-title = Berre usikker?
 see-more = <chevron></chevron>Vis meir
 see-less = <chevron></chevron>Vis mindre
@@ -1352,6 +1358,7 @@ localization-select =
 partnerships-header = Partnarskap
 partnerships-get-in-touch = Kontakt oss
 partnerships-become-a-partner = Vert ein Common Voice-partner
+partnerships-governments-header = Regjeringar
 partnerships-governments-description = Vi er glade for å stø offentleg sektor sitt engasjement innan teknologi, innovasjon og språkrettar. Viss du planlegg å køyre eit større prosjekt eller ein kampanje, kan du <emailFragment>ta kontakt.</emailFragment>
 partnerships-our-partners = Partnarane våre
 why-donate = Kvifor spør du?
@@ -1369,6 +1376,10 @@ volume = Lydstyrke
 reader-effects = Lesareffektar
 just-unsure = Berre usikker?
 example = Døme
+varying-pronunciations-example = Ruta var uklar.
+varying-pronunciations-tip-2 = [Britisk engelsk kan lage «root»]
+misreadings-example-4 = Humla flaug forbi.
+misreadings-tip-1 = [Skulle vore «Vi er»]
 public-domain = Offentleg eigedom (ikkje verna av opphavsrett)
 
 ## WRITE PAGE
