@@ -1873,6 +1873,7 @@ try-upload-again-md = Retenta cargar
 select-file = Eliger file
 select-file-mobile = Selige le file a cargar
 accepted-files = Typos de file acceptate: .tsv solo
+minimum-sentences = Minime phrases in file: 1000
 maximum-file-size = Maxime dimension del file: 25 MB
 what-needs-to-be-in-file = Que debe esser mi file?
 what-needs-to-be-in-file-explanation = Tu phrases debe esser libere de derectos de autor (CC0 o labor original autorisate per le mittente) e esser clar, grammaticalmente correcte e facile a leger. Le phrases debe prender grosso modo 10-15 secundas a leger e debe evitar de includer numeros, nomines proprie e characteres special.
