@@ -133,6 +133,9 @@ const UploadZoneContent: React.FC<Props> = ({
         <Localized id="accepted-files">
           <p />
         </Localized>
+        <Localized id="minimum-sentences">
+          <p />
+        </Localized>
         <Localized id="maximum-file-size">
           <p />
         </Localized>
