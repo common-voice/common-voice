@@ -1814,6 +1814,7 @@ try-upload-again-md = Nahraće znowa spytać
 select-file = Dataju wubrać
 select-file-mobile = Wubjerće dataju za nahraće
 accepted-files = Akceptowane datajowe typy: jenož .tsv
+minimum-sentences = Minimalna ličba sadow w dataji: 1.000
 maximum-file-size = Maksimalna datajowa wulkosć: 25 MB
 what-needs-to-be-in-file = Što dyrbi w mojej dataji być?
 upload-progress-text = Nahraće běži…
