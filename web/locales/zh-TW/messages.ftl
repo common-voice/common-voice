@@ -1790,6 +1790,7 @@ try-upload-again-md = 嘗試再上傳一次
 select-file = 選擇檔案
 select-file-mobile = 選擇要上傳的檔案
 accepted-files = 接受的檔案類型：只接受 .tsv
+minimum-sentences = 檔案中最少的句子數量：1000 具
 maximum-file-size = 最大檔案大小：25 MB
 what-needs-to-be-in-file = 檔案裡需要有哪些內容？
 upload-progress-text = 正在上傳…
