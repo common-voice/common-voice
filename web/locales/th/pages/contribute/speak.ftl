@@ -33,7 +33,6 @@ review-rerecord = บันทึกใหม่
 review-cancel = ยกเลิกการส่ง
 review-keep-recordings = เก็บการบันทึกไว้ต่อไป
 review-delete-recordings = ลบการบันทึกของฉัน
-
 review-terms = โดยการใช้ Common Voice คุณยอมรับ<termsLink>เงื่อนไข</termsLink>และ<privacyLink>ประกาศความเป็นส่วนตัว</privacyLink>ของเรา
 terms-agree = ฉันยอมรับ
 terms-disagree = ฉันไม่ยอมรับ

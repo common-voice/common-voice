@@ -7,4 +7,3 @@ download-form-email =
     .value = sina pona. mi toki tawa sina.
 download-back = o tawa kulupu sona Common Voice
 download-no = mi wile ala e ni
-

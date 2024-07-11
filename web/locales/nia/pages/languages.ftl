@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = Be kontribusi
 get-involved-button = Fao wohalöŵö

@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Ойууну киллэр
 browse-file = Перетащите или <browseWrap>выберите файл</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Талбыт файлгыт аһара улахан разме�
 avatar-uploaded = Аватар киирдэ
 max-file-size = муҥутаан { $kb }КБ
 remove-avatar = Аватар соттор
-

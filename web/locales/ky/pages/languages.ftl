@@ -11,8 +11,6 @@ language-search-input =
 language-speakers = Сүйлөгөндөр
 localized = Которулду
 sentences = Сүйлөмдөр
-## Languages
-
 contribute = Салым кошуу
 get-involved-button = Катышуу
 get-involved-title = { $lang } тилине салым кошуу

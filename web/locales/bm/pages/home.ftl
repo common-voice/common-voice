@@ -72,3 +72,5 @@ username-optin-public = I bɛ se k’a sugandi k’i ka baarakɛla tɔgɔ kɛ fo
 demographic-deidentified-clarity-2 = Jamanadenw ka kunnafoniw minnu bɛ ci i yɛrɛ sago la (misali la, u si hakɛ, cɛya ni musoya, kan, ani u fɔcogo), olu tɛna kɛ foroba ye abada i ka kunnafonisɛbɛn kan, wa u tɛna siri i ka jatebɔsɛbɛn na kunnafonidilan kɔnɔ. Odio-klip kelen-kelen bɛɛ bɛna jɛ jamanadenw ka kunnafoniw na walasa ka sɛgɛsɛgɛli kɛ ka ɲɛ - misali la, ɲininikɛla dɔ bɛ se k’a fɛ ka kalan misali dɔ ɲɛsin jamanaden hakɛ yɔrɔ kɛrɛnkɛrɛnnen dɔ ma.
 username-email-not-demographic = I ka baarakɛla tɔgɔ ni i ka imeyili tɛna jɛ ni kunnafoniw bɔlenw ye.
 
+## Landing
+

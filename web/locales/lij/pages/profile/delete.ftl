@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Ti peu dîne perché ti veu scancellâ e teu registraçioin?
 profile-form-delete = Scancella profî
-

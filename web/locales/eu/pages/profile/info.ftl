@@ -64,4 +64,3 @@ help-accent = Azentuarekin laguntza behar duzu?
 help-accent-explanation = Zure azentua hitzak ahoskatzen dituzun modua da. Beste faktore askoren artean, eragina dute non bizi izan zaren eta zein beste hizkuntza mintzatzen dituzun. Hemen, adierazgarria dela uste duzun edozein informazioa partekatu dezakezu.
 help-variants = Aldaerekin laguntza behar duzu?
 help-variants-explanation = Aldaerak hizkuntza baten forma espezifikoak dira - adibidez leku edo komunitate batean bizi direnek hitz egiten dutena. Batzuetan dialektoak deitzen zaie.
-

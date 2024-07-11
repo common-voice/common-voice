@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Yier
 action-tap = Go/mul
-## Languages
-
 contribute = Chiu pachi
 review = Non kendo
 skip = kal
@@ -91,9 +87,6 @@ shortcut-vote-yes = y
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = Chenro
@@ -117,4 +110,3 @@ contribution-volume-title = koko
 contribution-just-unsure-title = Ok an kod adieri
 see-more = <chevron></chevron>Ne Mangeny
 see-less = <chevron></chevron>Ne matin
-

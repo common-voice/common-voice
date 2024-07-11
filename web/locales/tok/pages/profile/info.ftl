@@ -73,4 +73,3 @@ help-variants-explanation = mi toki e nasin toki lon ni la mi toki e ni: jan mut
 variant-contribution-option-1 = o pana e sitelen e kalama tan nasin ale pi toki mi
 variant-contribution-option-2 = o pana e sitelen e kalama tan nasin toki mi taso
 variant-contribution-warning-title = ⓘ o sona: sitelen en kalama li ken jo ala e sona nasin lon tenpo ni!
-

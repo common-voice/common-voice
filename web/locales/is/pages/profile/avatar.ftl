@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Hlaða inn myndskrá
 browse-file = Dragðu og slepptu eða <browseWrap>flettu upp</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Valin skrá er of stór
 avatar-uploaded = Auðkennismynd send inn
 max-file-size = { $kb }kb hámark
 remove-avatar = Fjarlægja auðkennismynd
-

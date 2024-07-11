@@ -207,7 +207,6 @@ link-copied = Enlace copiado
 back-top = Volver al inicio
 logout = Cerrar sesión
 donate = Donar
-
 stayintouch = En Mozilla estamos construyendo una comunidad en torno a la tecnología de voz. Nos gustaría mantenerte al tanto de las actualizaciones, nuevas fuentes de datos y saber más sobre cómo tu usas esos datos.
 privacy-info = Prometemos manejar tu información con cuidado. Lee más en nuestra <privacyLink>política de privacidad</privacyLink> .
 return-to-cv = Regresar a Common Voice
@@ -221,3 +220,6 @@ email-opt-in-info-sub-with-challenge = Recibe correos con recordatorios de objet
 email-opt-in-privacy-v2 = Al aceptar recibir correos entendemos que das permiso a Mozilla para utilizar la información tal y como se explica en la <privacyLink>Política de Privacidad</privacyLink> de Mozilla.
 indicates-required = * Indica un campo obligatorio
 not-available-abbreviation = N/A
+
+## Donate banner
+

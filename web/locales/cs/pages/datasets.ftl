@@ -75,11 +75,8 @@ dataset-donate-modal-heading = Věděli jste že…
 donate-modal-explanation-1 = Hostování datových sad a zlepšování platformy pro více než 100 jazykových komunit, které se spoléhají na naši práci, stojí téměř milion dolarů ročně?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Jestliže si ceníte otevřených a inkluzivních dat - přispějte ještě dnes!</bold>
-
 data-download-singleword-title = Stáhněte si jednoslovnou datovou sadu
 data-download-singleword-callout-v2 = Tato sada je určena pro speciální případ rozeznávání vyslovovaných číslic a slov ano / ne.
-## Data
-
 data-download-button = Stáhnout data Common Voice
 data-download-yes = Ano
 data-download-deny = Ne

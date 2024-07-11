@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = 클릭
 action-tap = 탭
-## Languages
-
-contribute = 기여
+contribute = 기여하기
 review = 검토
 skip = 건너뛰기
 shortcuts = 바로 가기
@@ -148,4 +144,3 @@ contribution-just-unsure-title = 그냥 잘 모르겠다면?
 contribution-just-unsure-description = 이 지침에서 다루지 않는 것을 발견하면 최선의 판단에 따라 결정하십시오. 정말 결정하기 어려우면 건너뛰기 버튼을 누르고 다음 녹음으로 넘어가십시오.
 see-more = <chevron></chevron>더 보기
 see-less = <chevron></chevron>덜 보기
-

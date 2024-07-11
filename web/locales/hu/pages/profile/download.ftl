@@ -28,4 +28,3 @@ download-request-modal-description = Itt találhatók a ZIP-fájlok letöltésé
 download-request-link-text = Zip #{ $offset } / { $total }
 download-request-metadata-link = Mondat szövege
 download-request-link-single = Lemásolhatja és beillesztheti a közvetlen URL-eket a kedvenc letöltéskezelőjébe. 12 óra múlva lejárnak, de bármikor visszatérhet erre az oldalra, és újakat állíthat elő.
-

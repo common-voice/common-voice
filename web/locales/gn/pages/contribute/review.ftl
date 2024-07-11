@@ -45,9 +45,6 @@ sc-criteria-item-3 = Pe ñe’ẽjuaju oje’ekuaava’erã.
 sc-criteria-item-4 = Pe ñe’ẽjuaju oreko tekotevéva, eikutu pe votõ &quot;Moneĩ&quot; votõ akatuaguáva.
 sc-criteria-item-5-2 = Pe ñe’ẽjuaju ndoguerekopáiramo umi mba’e ojerurévakuri, eikutúntema &quot;Hejarei&quot; votõ asuguávape. Nderehechaporãiramo pe ñe’ẽjuaju, ikatu avei ehejareínte ha ehasántema ambuépe.
 sc-criteria-item-6 = Repytáramo ñe’ẽjuaju’ỹre ehechajey hag̃ua, ¡orepytyvõ rombyatyvévo ñe’ẽjuaju!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Emongurusu <icon></icon> Kóvapa ñe’ẽjuaju ojehaíva hekopete
 sc-review-rules-title = Ko ñe’ẽjuajúpa ojapopa tekotevẽháicha
@@ -61,4 +58,3 @@ review-error-rate-limit-exceeded = Eho pya’eterei. Eiporu arapa’ũ ehechajey
 sc-redirect-page-title = Ore rojaporoína ñemoambue guasu
 sc-redirect-page-subtitle-1 = Sentence Collector ováma Common Voice pyendavusúpe. Ko’ág̃a ikatu<writeURL>ohai</writeURL> ñe’ẽjuaju térã <reviewURL>ohechajey</reviewURL> ñe’ẽjuaju ñemondo Common Voice-pe.
 sc-redirect-page-subtitle-2 = Ñaporandu <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> térã <emailLink>ñanduti veve</emailLink>.
-

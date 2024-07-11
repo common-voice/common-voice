@@ -6,4 +6,3 @@ contact-form-name =
 contact-form-message =
     .label = Билдирүү
 contact-required = *милдеттүү
-

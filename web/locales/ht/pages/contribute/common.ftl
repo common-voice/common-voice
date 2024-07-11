@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Klike
 action-tap = Tape
-## Languages
-
 contribute = Kontribye
 review = Revize
 skip = Sote
@@ -149,4 +145,3 @@ contribution-just-unsure-title = Jis pa sèten?
 contribution-just-unsure-description = Si ou rankontre yon bagay ke gid sa yo pa kouvri, tanpri vote selon pi bon jijman ou. Si ou reyèlman pa ka deside, sèvi ak bouton an sote epi ale nan pwochen anrejistreman an.
 see-more = <chevron></chevron>Gade plis
 see-less = <chevron></chevron>Wè mwens
-

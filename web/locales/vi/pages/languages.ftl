@@ -17,9 +17,6 @@ localized = Bản địa hóa
 sentences = Các câu
 language-validation-hours = Giờ
 language-validation-progress = Tiến độ xác thực
-
-## Languages
-
 contribute = Đóng góp
 get-involved-button = Tham gia
 get-involved-title = Đóng góp cho { $lang }

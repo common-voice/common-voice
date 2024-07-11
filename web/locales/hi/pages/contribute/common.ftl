@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = क्लिक
 action-tap = दबाएँ
-## Languages
-
-contribute = योगदान करें
+contribute = योगदान दें
 skip = छोड़ें
 shortcuts = शॉर्टकट
 goal-help-recording = आपने सामान्य वॉइस तक पहुँचने में मदद की है <goalPercentage></goalPercentage> हमारे दैनिक { $goalValue } रिकॉर्डिंग लक्ष्य!
@@ -19,6 +15,9 @@ share-title-new = <bold> हमारी मदद करें </ bold> अध�
 keep-track-profile = प्रोफ़ाइल के साथ अपनी प्रगति पर नज़र रखें
 login-to-get-started = आरंभ करने के लिए लॉग इन करें या साइन अप करें
 target-segment-learn-more = अधिक जानें
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -69,4 +68,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

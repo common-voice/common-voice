@@ -69,4 +69,3 @@ username-email-not-demographic = Sinu kasutajanime ja e-posti aadressi ei seosta
 ## Landing
 
 profile-not-required = Konto omamine ei ole vajalik, ent võimaldab rohkem
-

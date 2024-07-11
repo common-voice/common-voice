@@ -10,4 +10,3 @@ why-delete-recordings =
     
     ነቲ እተቐድሐ ቕዳሓትካ ስለምንታይ ክትድምስሶ ኸም እትደሊ ኽትነግረና ትኽእልዶ?
 profile-form-delete = ድሕረባይታ ሰርዝ
-

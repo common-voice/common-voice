@@ -33,4 +33,3 @@ demo-listen-subtitle = A punt per a col·laborar?
 
 demo-dashboard-card-header = Els taulers personals us informen sobre el progrés individual i de la comunitat.
 demo-dashboard-card-body = Per cada tall de veu donat i per cada tall d'àudio validat, els taulers del vostre compte s'actualitzen per a reflectir el vostre progrés més recent en cada llengua en què col·laboreu. Sí, podeu participar en més d'una! <br/><br/> Utilitzeu taulers per a fer un seguiment de les vostres estadístiques, veure el vostre rendiment en relació amb altres membres de la comunitat i definir objectius de col·laboració diaris o setmanals.
-

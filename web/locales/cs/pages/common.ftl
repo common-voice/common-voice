@@ -235,7 +235,6 @@ link-copied = Odkaz byl zkopírován
 back-top = Zpět nahoru
 logout = Odhlásit
 donate = Darovat
-
 stayintouch = V Mozille budujeme komunitu okolo hlasových technologií. Rádi bychom zůstali v kontaktu s novinkami, novými zdroji dat a rádi bychom se dozvěděli, jak tato data používáte.
 privacy-info = Slibujeme, že budeme vaše informace zpracovávat s péčí. Přečtěte si více v našich <privacyLink>zásadách ochrany osobních údajů</privacyLink>.
 return-to-cv = Návrat do Common Voice
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = Zasílání e-mailů jako jsou připomín
 email-opt-in-privacy-v2 = Rozhodnutím se přijímat e-maily potvrzujete svůj souhlas se zpracováním Vašich údajů dle <privacyLink>Zásad ochrany osobních údajů</privacyLink> společnosti Mozilla.
 indicates-required = * označuje povinná pole
 not-available-abbreviation = není k dispozici
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = Hostování datových sad a zlepšování platfo
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Používáte Common Voice </mark><br/><mark>na svůj výzkum? </mark>
 languages-donate-banner-cta-explanation = Common Voice je financován z darů a grantů! Rádi spolupracujeme s akademiky, výzkumníky z občanské společnosti a průmyslu. Používání služby Common Voice je zdarma, ale přispívat na náklady na platformu a hosting prostřednictvím návrhů na granty je opravdu užitečné.
-# [/SentenceCollector]
-
 localization-select =
     .label = Zvolte jazyk/lokalizaci

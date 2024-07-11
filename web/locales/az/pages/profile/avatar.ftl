@@ -1,3 +1,5 @@
+## Profile - Avatar
+
 browse-file-title = Şəkil faylı yüklə
 browse-file = Daşı və burax və ya <browseWrap>Gəz</browseWrap>
 connect-gravatar = Gravatar ilə qoşul

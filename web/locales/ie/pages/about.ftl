@@ -38,3 +38,14 @@ about-playbook-how-add-sentences = Qualmen yo posse adjunter frases?
 about-playbook-how-grow-language-content-2 = Evenimentes
 about-playbook-how-grow-language-content-4 = Social medies
 
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

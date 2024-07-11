@@ -45,4 +45,3 @@ sc-criteria-item-3 = Mola o tshwanetse go buega.
 sc-criteria-item-4 = Fa mola o dumalana le dintlha tsa go tshwanelega, tobetsa konopo ya &quot;E Siame&quot; e e ka fa mojeng.
 sc-criteria-item-5-2 = Fa polelo e sa fitlhelele ditshwanelego tse di fa godimo, tobetsa konopo ya &quot;Gana&quot; kafa molemeng. Fa o sa tlhomamisege ka polelo, o ka e tlola mme wa ya kwa go e e latelang.
 sc-criteria-item-6 = Fa o felelwa ke mela e e sekasekiwang, tsweetswee re thuse go kgobokanya mela e e oketsegileng!
-

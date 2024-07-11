@@ -150,3 +150,5 @@ about-playbook-how-project-governance-content-5 = Vierteiba i atzineiba.
 about-playbook-how-project-governance-content-6 = Sovstarpeiguo atbiļdeiba.
 about-playbook-how-project-governance-content-7 = <governanceLink>Izzynojat vaira par tū, kai mes teikam puorvaļdeiti</governanceLink>
 
+## How is Common Voice funded
+

@@ -7,4 +7,3 @@ download-form-email =
     .value = Ďakujeme, ozveme sa vám.
 download-back = Naspäť na Kolekcie údajov Common Voice
 download-no = Nie, ďakujem
-

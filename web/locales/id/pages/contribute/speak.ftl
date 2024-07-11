@@ -33,7 +33,6 @@ review-rerecord = Merekam Ulang
 review-cancel = Batalkan Pengajuan
 review-keep-recordings = Simpan rekaman
 review-delete-recordings = Hapus rekaman saya
-
 review-terms = Dengan menggunakan Common Voice, berarti Anda menyetujui <termsLink>Persyaratan</termsLink> dan <privacyLink>Pemberitahuan Privasi</privacyLink> kami
 terms-agree = Saya setuju
 terms-disagree = Saya tidak setuju

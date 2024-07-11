@@ -85,4 +85,3 @@ help-contribute = Ị́ nwèrè íké ínyé áká wúó ọ́wà ụ́yọ̀kọ
 login-company = Jìrí íméèlụ̀ (email){ $company } bànyé/Débànyé áhà
 profile-not-required = Énwéghị́ èjìrìmárá (profaịlụ) ápụ́tàghị̀ nà Ị́ gághị̀ àtụ́nyé òkè, mànà ọ́ nà-ènyé áká. Lèé íhé kpátárá ǹké à n'òkpúrù.
 read-more-about = Gụ̀kwúó n'íhú íbé íhé gbàsárá ányị́
-

@@ -1,6 +1,3 @@
-## REVIEW CRITERIA
-
-
 ## REVIEW
 
 # Variables:
@@ -12,4 +9,6 @@ sc-review-form-reviewed-message =
        *[other] { $sentences } frazoj reviziitaj. Dankon!
     }
 sc-review-link = Revizii
+
+## REVIEW CRITERIA
 

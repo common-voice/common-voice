@@ -17,9 +17,6 @@ localized = Yettwasideg
 sentences = Tifyar
 language-validation-hours = Isragen
 language-validation-progress = Asesfer n usentem
-
-## Languages
-
 contribute = Ttekki
 get-involved-button = Ttekki
 get-involved-title = Ttekki deg { $lang }

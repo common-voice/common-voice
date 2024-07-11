@@ -6,4 +6,3 @@ contact-form-name =
 contact-form-message =
     .label = Mulaedza
 contact-required = *Zwi ya todea
-

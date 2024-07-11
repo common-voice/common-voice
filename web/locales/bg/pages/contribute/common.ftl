@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Изберете
 action-tap = Докоснете
-## Languages
-
-contribute = Как да помогнете
+contribute = Помогнете
 review = Преглед
 skip = Пропускане
 shortcuts = Бързи клавиши
@@ -132,4 +128,3 @@ contribution-just-unsure-title = Просто не сте сигурни?
 contribution-just-unsure-description = Ако попаднете на нещо, което тези указания не покриват, моля, гласувайте според най-добрата си преценка. Ако наистина не можете да решите, използвайте бутона за пропускане и преминете към следващия запис.
 see-more = <chevron></chevron>Вижте още
 see-less = <chevron></chevron>Вижте по-малко
-

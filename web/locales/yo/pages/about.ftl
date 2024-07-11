@@ -95,6 +95,7 @@ about-playbook-how-add-sentences = Báwo ni mo ṣe lè ṣàfikún gbólo�
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ni irinṣẹ́ fún gbígbà àti ìfọwọ́sí àwọn gbólóhùn ní ìgbọnu gbogbogbò. O máa <scAccountLink> nílò láti forúkọsílẹ̀</scAccountLink>. Lẹ́yìn náà, ṣàfikún ède tìrẹ sí <strong>púrófáílì rẹ</strong>. O lè <strong>ṣàfikún</strong> gbólóhùn tàbí <strong>ṣàgbéyẹ́wò</strong> àwọn àfikún gbólóhùn tó ti kọjá.
 about-playbook-how-add-sentences-content-2 = Àgbéyẹ̀wo gbólóhùn gbọ́dọ̀ wáyé ó sì gbọdọ̀ di gbígbà wọlé lọ́dọ ènìyàn méjì láti di àfikún sí Common voice. O máa pèsè ìlànà à ń tẹ̀lé fún èdè rẹ <languageGuidelinesLink> níbí</languageGuidelinesLink>. Àwọn gbólóhùn gbọ́dọ̀ wà ní <licenseLink>ojú òpo gbogbogbò</licenseLink> ó sì gbọdọ̀ kéré ju ọ̀rọ̀ 15 lọ. O lè bèrè lọ́wọ́ ẹni tó ni àtẹ̀jíṣẹ́ láti ṣe é <waiverLink>CC0 lílo ìlànà àgbéfò</waiverLink>, kí o sì fii ránṣẹ́ sí wa lórí commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = O lè lo </scraperLink>agbagbólóhùnsílẹ̀<scraperLink> láti yá gbólóhùn kékéèké láti Wikipedia.
+
 ## How to record quality
 
 about-playbook-how-record-quality = Báwo ni mo ṣe lè ṣe àkálẹ̀ fọ́nrán ohùn to jójúlówó?
@@ -140,4 +141,6 @@ about-playbook-how-project-governance-content-4 = Ìkópa nínú àwùjọ
 about-playbook-how-project-governance-content-5 = Ìníyelórí àti ìdánimọ̀.
 about-playbook-how-project-governance-content-6 = Ìlágbọ̀yé ojúṣe.
 about-playbook-how-project-governance-content-7 = <governanceLink>Kà si nípa bí a ṣe ń darí</governanceLink>
+
+## How is Common Voice funded
 

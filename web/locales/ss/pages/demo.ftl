@@ -35,4 +35,3 @@ demo-listen-subtitle = Ulungele kulekelela?
 
 demo-dashboard-card-header = Likhasi lakho likwenta uhlale wati ngenchubo yakho kanye neyemmango.
 demo-dashboard-card-body = Kuso sonkhe siceshana selivi lesinikelwe, nato tonkhe ticeshana temsindvo leticinisekisiwe, likhasi lakho liyabuyeketwa kute kuvele inchubekela phambili yakho ngelulwimi ngalunye lonikela kulo. Yebo, unganikela ngalokungetulu kwakunye!<br/><br/> Sebentisa likhasi lakho kute ulandzelele tibalo takho, ubone kutsi wenta kanjani ngekuhambisana nalabanye emphakatsini, futsi ubeke imigomo yekunikela yemalanga onkhe noma emaviki.
-

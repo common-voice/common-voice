@@ -33,7 +33,6 @@ review-rerecord = Тетхэж
 review-cancel = Йомыгъэхь
 review-keep-recordings = Си тхыгъэ хъумэ
 review-delete-recordings = Си тхыгъэ игъэкI
-
 review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
 terms-agree = Сы аразыщ
 terms-disagree = Сы мы аразы

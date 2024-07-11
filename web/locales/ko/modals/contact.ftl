@@ -6,4 +6,3 @@ contact-form-name =
 contact-form-message =
     .label = 메시지
 contact-required = *필수
-

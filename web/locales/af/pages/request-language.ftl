@@ -35,4 +35,3 @@ request-language-success-list-3 =
 request-language-error =
     Ons het dalk nie daardie versoek ontvang nie. E-pos ons asseblief direk
     op <emailLink>{ $email }</emailLink> en ons sal na jou terugkom!
-

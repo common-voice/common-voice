@@ -15,10 +15,7 @@ localized = Eyasekuhlaleli
 sentences = Izivakalisi
 language-validation-hours = Iiyure
 language-validation-progress = Inkqubela phambili yoQinisekiso
-
-## Languages
-
-contribute = Yenza igalelo
+contribute = Yiba nogalelo
 get-involved-button = Yiba yinxalenye
 get-involved-title = Yiba negalelo ku { $lang }
 get-involved-text =

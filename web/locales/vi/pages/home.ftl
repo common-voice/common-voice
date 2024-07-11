@@ -73,4 +73,3 @@ help-contribute = Bạn có thể giúp xây dựng bộ dữ liệu nguồn m�
 login-company = Đăng nhập / Đăng ký bằng email { $company }
 profile-not-required = Có một hồ sơ là không cần thiết để đóng góp mặc dù nó rất hữu ích
 read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
-

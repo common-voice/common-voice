@@ -214,7 +214,6 @@ share-text = Gweresowgh ow tyski dhe jynnow kowsel kepar ha pobel gwir, argevrow
 link-copied = Kevren kopies
 back-top = Dehweles dhe benn an folen
 logout = Digelmi
-
 stayintouch = Yth eson ow trehevel kemeneth a-dro dhe deknegieth lev. Hwans yw dhyn kestava gans nowedhansow, pennfentynnyow data nowydh ha rag klowes moy a-dro dhe'n fordh mayth esowgh owth usya an data ma.
 privacy-info = Ni a dhedhow ni dhe handla agas kedhlow gans rach. Redyowgh moy y'gan <privacyLink>argemmyn privetter</privacyLink>.
 return-to-cv = Dehweles dhe Common Voice
@@ -228,7 +227,8 @@ email-opt-in-info-sub-with-challenge = Receva ebostow kepar ha kovheansow amkan 
 email-opt-in-privacy-v2 = Dre dhewis receva ebostow yth esowgh ow leverel agas bos unver gans Mozilla ow handla an kedhlow ma dell yw displegys yn <privacyLink>Polici Privetter<privacyLink> Mozilla.
 indicates-required = * a dhelin skrifva a res
 not-available-abbreviation = Ankavadow
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Dewis yeth/leelheans

@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Качване на изображение
 browse-file = Пуснете файл или <browseWrap>разгледайте</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Избраният файл е прекалено голям
 avatar-uploaded = Аватарът е качен
 max-file-size = Максимално { $kb } Кб
 remove-avatar = Премахване на аватар
-

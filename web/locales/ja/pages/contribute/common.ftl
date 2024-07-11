@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = クリック
 action-tap = タップ
-## Languages
-
-contribute = 貢献
+contribute = 貢献する
 skip = スキップ
 shortcuts = ショートカット
 clips-with-count-pluralized =
@@ -84,4 +80,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

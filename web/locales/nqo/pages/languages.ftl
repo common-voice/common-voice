@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = ߞߊ߬ ߡߊ߬ߜߍ߲ ߞߍ߫
 get-involved-button = ߕߘߵߊ߬ ߘߐ߫

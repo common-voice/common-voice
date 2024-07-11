@@ -163,4 +163,3 @@ validations =
         [one] ⵓⵣⵣⵔⴰⵢ
        *[other] ⵉⵣⵣⵔⴰⵢⵏ
     }
-

@@ -33,7 +33,6 @@ review-rerecord = ٻيهر رڪارڊ ڪريو
 review-cancel = جمع ڪرائڻ منسوخ ڪريو
 review-keep-recordings = رڪارڊنگ کي رکو
 review-delete-recordings = منهنجي رڪارڊنگ کي ختم ڪريو
-
 review-terms = عام آواز استعمال ڪندي، توهان اسان جي <termsLink>شرطن</termsLink> ۽ <privacyLink>رازداري نوٽيس</privacyLink> سان متفق آهيو
 terms-agree = آئون متفق آهيان
 terms-disagree = آئون متفق نه آهيان

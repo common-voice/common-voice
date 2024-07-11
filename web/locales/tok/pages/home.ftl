@@ -86,4 +86,3 @@ help-contribute = sina jo e sijelo ilo pi ilo Common Voice, sina ken pona e ni: 
 login-company = o kama kepeken poki lipu sina tan kulupu { $company }.
 profile-not-required = sina jo e lipu jan la ni li pona mute. taso, sina jo ala la ni li pona.
 read-more-about = o lukin lon lipu sona mi
-

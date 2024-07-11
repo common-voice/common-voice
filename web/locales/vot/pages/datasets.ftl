@@ -49,12 +49,6 @@ more = Rohkap
 close = Lummõ
 download = Загрузить
 dataset-version = Версия
-
-## Error pages
-
-
-## Data
-
 data-download-button = Загрузить данные Common Voice
 data-download-yes = Daa
 data-download-deny = Eb

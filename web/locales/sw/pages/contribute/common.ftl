@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Bonyeza
 action-tap = Gonga
-## Languages
-
 contribute = Changia
 skip = ruka
 shortcuts = Njia za mkato
@@ -118,4 +114,3 @@ contribution-reader-effects-title = Athari za Msomaji
 contribution-just-unsure-title = Huna uhakika tu?
 see-more = <chevron></chevron>Angalia zaidi
 see-less = <chevron></chevron>Tazama kidogo
-

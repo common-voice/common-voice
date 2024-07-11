@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Na aw tun ciami hlonh na duhnak ruang na kan chim kho hnga maw?
 profile-form-delete = Profile hlonhnak
-

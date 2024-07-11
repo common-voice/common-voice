@@ -112,4 +112,3 @@ validations =
         [one] Kgonthišišo
        *[other] Dikgonthišišo
     }
-

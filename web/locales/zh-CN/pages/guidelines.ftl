@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = 若句子不符合要求，请点击“否�
 reviewing-sentences-explanation-3 = 若您没有把握判断，可以跳过当前语句，继续审核下一条语句。
 reviewing-sentences-explanation-4 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
 domain-explanation = 领域是指句子的专业主题。目前您可以选择：
-

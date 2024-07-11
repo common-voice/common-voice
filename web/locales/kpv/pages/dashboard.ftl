@@ -16,7 +16,7 @@ validated-clips = Видлалӧма
 total-approved = Вынсьӧдӧма
 overall-accuracy = Стӧчлун
 
-## Reporting
+## Custom Goals
 
 
 ## Goals
@@ -37,4 +37,3 @@ validations =
         [one] видлалӧм
        *[other] видлалӧм
     }
-

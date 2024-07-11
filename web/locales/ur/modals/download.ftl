@@ -7,4 +7,3 @@ download-form-email =
     .value = شکریہ ہم آُپ سے رانطہ کریں گے۔
 download-back = Common Voice ڈیٹاسیٹس پر واپس جائیں
 download-no = نہیں شکریہ
-

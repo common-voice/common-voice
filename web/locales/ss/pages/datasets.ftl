@@ -59,11 +59,8 @@ more = Lokunengi
 close = Vala
 download = Download
 dataset-version = Inhlobo
-
 data-download-singleword-title = Download the Single Word Target Segment
 data-download-singleword-callout-v2 = Lesigamu sisebenta ngabofeleba sicuketse imininingwane letolekela kuvakala kuviwa kwetinombolo letikhulunyiwe kanye nekuva yebo / cha.
-## Data
-
 data-download-button = Download Common Voice Data
 data-download-yes = Yebo
 data-download-deny = Cha

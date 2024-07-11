@@ -84,4 +84,3 @@ help-contribute = Podes agiudare a istantargiare unu pachete de datos diversific
 login-company = Intra / Registra·ti cun s'indiritzu de posta eletrònica de { $company }
 profile-not-required = Su de tènnere unu profilu no est netzessàriu pro contribuire ma est ùtile. Càstia pro ite inoghe in suta.
 read-more-about = Leghe àteras informatziones in sa pàgina nostra "In contu de"
-

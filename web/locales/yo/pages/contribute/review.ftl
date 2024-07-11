@@ -45,4 +45,3 @@ sc-criteria-item-3 = Gbólóhùn náà gbọdọ̀ ṣe é sọ.
 sc-criteria-item-4 = Tí gbólóhùn náà bá bá àwọn òte yí mu, tẹ &quot; bọ́tìnì ìfọwọ́sí lápá ọ̀tún
 sc-criteria-item-5-2 = Tí gbólóhùn náà ò bá bá àwọn òte òkè yí mu, tẹ bọ́tìnì ìkọ̀sílẹ̀ ní apá òsì. Tí gbólóhùn náà kò bá dá ọ lójú, o lè fò ó, ko bọ́ sí èyí tó tẹ̀le.
 sc-criteria-item-6 = Tí àwọn gbólóhùn tí ò ń ṣe àtúnyẹ̀wò wọn bá ti tan, jọ̀wọ́ bá wa gba àwọn gbólóhùn díẹ̀ si!
-

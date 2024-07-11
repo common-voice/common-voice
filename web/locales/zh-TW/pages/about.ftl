@@ -141,4 +141,3 @@ about-playbook-how-project-governance-content-7 = <governanceLink>更加了解�
 ## How is Common Voice funded
 
 about-playbook-how-funded = Common Voice 的運作資金來自哪裡？
-

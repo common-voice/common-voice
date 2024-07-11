@@ -12,8 +12,6 @@ language-search-input =
 language-speakers = Խոսողներ
 localized = Տեղայնացված
 sentences = Նախադասություն
-## Languages
-
 contribute = Մասնակցել
 get-involved-button = Միացե՛ք
 get-involved-title = Աջակցել { $lang }ին

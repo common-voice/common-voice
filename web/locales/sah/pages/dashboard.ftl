@@ -58,4 +58,3 @@ validations =
         [one] тургутуу
        *[other] тургутуу
     }
-

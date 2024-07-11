@@ -30,7 +30,6 @@ review-rerecord = Yenidən qeyd et
 review-cancel = Göndərməni ləğv et
 review-keep-recordings = Qeydləri saxla
 review-delete-recordings = Qeydlərimi sil
-
 review-terms = Common Voice işlətməklə <termsLink>Şərt</termsLink> və <privacyLink>Məxfilik Qeydləri</privacyLink>mizlə razılaşmış olursuz
 terms-agree = Razıyam
 terms-disagree = Razı deyiləm

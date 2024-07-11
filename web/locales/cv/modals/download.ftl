@@ -1,6 +1,3 @@
-## New Datasets Page
-
-
 ## Download Modal
 
 download-title = «Common Voice» пӗлем пуххисем
@@ -10,4 +7,3 @@ download-form-email =
     .value = Тавах, сана çырӑмӑр.
 download-back = Каялла Common Voice даннӑйсен пуххисем патне
 download-no = Ҫук
-

@@ -2,6 +2,9 @@
 
 about-title = Pertgei Common Voice?
 how-does-it-work-text = Culla participaziun collectiva creein nus in'unitad da datas vocalas open source. Contribuescha cun tia vusch, verifichescha las registraziuns dad autras persunas e meglierescha l'unitad da datas per tuts.
+
+## How does it work section
+
 about-speak = Discuora
 about-speak-text = Ils contribuiders registreschan lur vusch cun preleger construcziuns contribuidas en ina banca da datas.
 about-listen-queue = Colonna da spetga per tedlar
@@ -23,3 +26,34 @@ about-nav-why-common-voice = Daco?
 about-nav-how-it-works = Co?
 about-nav-partners = Partenaris
 about-nav-get-involved = separticipescha
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

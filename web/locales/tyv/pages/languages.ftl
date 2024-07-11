@@ -1,17 +1,8 @@
-## Request Language Modal
-
-
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-launched-description = Бо дылдарга веб-сайт чедиишкинниг <localizationGlossaryLink>локализациялаттынган</localizationGlossaryLink>, ынчангаш <speakLink>үннер чыылдазын</speakLink> база <listenLink>оларның хыналдазын</listenLink>эгелээр кылдыр, ында <sentenceCollectionGlossaryLink>элээн хөй домактар</sentenceCollectionGlossaryLink> чыгдынган.
 language-validation-hours = Шак
-
-## Languages
-
-contribute = деткиир, дузалаар
+contribute = Үлүг киирер
 get-involved-button = киржир
 get-involved-title = { $lang } деткиир
 get-involved-text = { $lang } деткииринге сонуургалыңар дээш четтирдивис. Шупту дылдарны салып үндүреринге белеткээр болгаш шыгжаар дээш карак кызыл ажылдап тур бис |командалар электроннуг посталарын чаартыпканнар. Деткиир күзелиңер бар болза, электроннуг почтаңар адаанга киириңер.

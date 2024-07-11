@@ -70,4 +70,3 @@ help-accent = Har du brug for hjælp til accent?
 help-accent-explanation = Din accent er den måde, du udtaler ord på. Det kan formes af hvor du har boet, hvilke andre sprog du taler og mange andre faktorer. Du kan dele enhver information, du føler er relevant, her.
 help-variants = Har du brug for hjælp til varianter?
 help-variants-explanation = Varianter er en specifik form for et sprog - som for eksempel deles af dem, der bor i et geografisk område eller et samfund. Nogle gange kaldes disse også dialekter.
-

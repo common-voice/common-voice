@@ -80,3 +80,8 @@ about-playbook-how-validate-content-4 = komachaan biik aengu klipit,kenemu eng s
 
 about-playbook-how-access-dataset = muuch anyoru kole ne dataset?
 
+## How are decisions made
+
+
+## How is Common Voice funded
+

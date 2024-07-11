@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Klicka
 action-tap = Tryck
-## Languages
-
 contribute = Bidra
 review = Granska
 skip = Hoppa över
@@ -151,4 +147,3 @@ contribution-just-unsure-title = Osäker?
 contribution-just-unsure-description = Om du stöter på något som dessa riktlinjer inte täcker, vänligen rösta enligt ditt bästa omdöme. Om du verkligen inte kan bestämma dig, använd knappen hoppa över och gå vidare till nästa inspelning.
 see-more = <chevron></chevron>Se mer
 see-less = <chevron></chevron>Se mindre
-

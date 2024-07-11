@@ -28,4 +28,3 @@ download-request-modal-description = Nazi izixhumanisi zokuloda amafayela akho e
 download-request-link-text = I-Zip #{ $offset } ye-{ $total }
 download-request-metadata-link = Umbhalo womusho
 download-request-link-single = Ungakopisha futhi unamathisele amaURL aqondile kumaneja oyithandayo. Azophelelwa isikhathi emuva kwamahora awu-12, kodwa ungabuyela kule likhasi ukukhanda amasha noma nini.
-

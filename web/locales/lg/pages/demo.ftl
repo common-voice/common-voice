@@ -15,3 +15,8 @@ demo-account = Account
 
 demo-account-card-header = Tekyetaagisa kuba na account okwennyigiramu wadde nga kya mugaso.
 
+## Demo Contribute
+
+
+## Demo Dashboard
+

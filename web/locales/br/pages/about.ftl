@@ -88,3 +88,8 @@ about-playbook-how-validate = Penaos gouzout hag-eñ e rank bezañ gwiriekaet ur
 
 about-playbook-how-access-dataset = Penaos e c’hellan haeziñ hag implijout ar spletad roadennoù?
 
+## How are decisions made
+
+
+## How is Common Voice funded
+

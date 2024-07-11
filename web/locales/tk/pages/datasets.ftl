@@ -54,11 +54,8 @@ more = Köpräk
 close = Ýap
 download = Göçürip al
 dataset-version = Wersiýa
-
 data-download-singleword-title = Bir sözli nyşana segmenti göçürip al
 data-download-singleword-callout-v2 = Bu ulanyş ýagdaýy tarapyndan kesgitlenilýän geplenilen san belgilerini we hawa / ýok anyklamaga ýardam berýän segmentdir.
-## Data
-
 data-download-button = Common Voice maglumatyny göçürip al
 data-download-yes = Hawa
 data-download-deny = Ýok

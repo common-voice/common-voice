@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = Tayyor bo‘lmagan tillar
@@ -16,9 +13,6 @@ language-search-input =
 language-speakers = So‘zlovchilar
 localized = Tarjima qilingan
 sentences = Jumlalar
-
-## Languages
-
 contribute = Hissa qoʻshish
 get-involved-button = Jamoaga qoʻshilish
 get-involved-title = { $lang } tiliga hissa qoʻshish

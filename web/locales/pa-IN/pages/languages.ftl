@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = ਜਾਰੀ ਹੈ
@@ -14,10 +11,7 @@ language-search-input =
 language-speakers = ਬੋਲਣ ਵਾਲੇ
 localized = ਉਲੱਥਾ ਕੀਤਾ
 sentences = ਵਾਕ
-
-## Languages
-
-contribute = ਯੋਗਦਾਨ ਦਿਓ
+contribute = ਯੋਗਦਾਨ
 get-involved-button = ਸ਼ਾਮਲ ਹੋਵੋ
 get-involved-title = { $lang } ਵਿੱਚ ਯੋਗਦਾਨ ਦਿਓ
 get-involved-text = { $lang } ਵਿੱਚ ਯੋਗਦਾਨ ਦੇਣ ਵਿੱਚ ਤੁਹਾਡੀ ਦਿਲਚਸਪੀ ਲਈ ਧੰਨਵਾਦ। ਅਸੀਂ ਹਰੇਕ ਭਾਸ਼ਾ ਨੂੰ ਲਾਂਚ ਕਰਨ ਲਈ ਅਤੇ ਟੀਮਾਂ ਨੂੰ ਈਮੇਲ ਰਾਹੀਂ ਜਾਣੂ ਰੱਖਣ ਲਈ ਸਖਤ ਮਿਹਨਤ ਕਰਦੇ ਹਾਂ। ਜੇ ਤੁਸੀਂ ਯੋਗਦਾਨ ਦੇਣਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਹੇਠਾਂ ਆਪਣਾ ਈਮੇਲ ਪਤਾ ਪ੍ਰਦਾਨ ਕਰੋ।

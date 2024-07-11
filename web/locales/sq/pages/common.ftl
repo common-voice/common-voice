@@ -208,7 +208,6 @@ link-copied = Lidhja u Kopjua
 back-top = Mbrapsht te Kreu
 logout = Dilni
 donate = Dhuroni
-
 stayintouch = Ne në Mozilla po ndërtojmë një bashkësi rreth teknologjish që lidhen me zërin. Do të donin të ruanim lidhjet me ju, përmes përditësimesh, burimesh të reja zëri dhe të mësojmë se si po i përdorni këto të dhëna.
 privacy-info = Premtojmë t’i trajtojmë me kujdes të dhënat tuaja. Lexoni më tepër te <privacyLink>Shënimi ynë mbi Privatësinë</privacyLink>.
 return-to-cv = Kthehuni te Common Voice
@@ -222,6 +221,7 @@ email-opt-in-info-sub-with-challenge = Merrni email-e të tillë si kujtues obje
 email-opt-in-privacy-v2 = Duke zgjedhur të merrni email-e, deklaroni se pajtoheni me përdorimin nga Mozilla të këtyre të dhënave, ashtu siç shpjegohet te <privacyLink>Rregulla Privatësie<privacyLink> të Mozilla-s.
 indicates-required = * tregon një fushë të domosdoshme
 not-available-abbreviation = N/A
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -231,7 +231,5 @@ donate-banner-cta-explanation = Kushton gati një milion dollarë në vit të st
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>E përdorni CV-në për</mark><br/><mark>punën tuaj kërkimore?</mark>
 languages-donate-banner-cta-explanation = Common Voice financohet nga dhurime dhe grante! E duam fort bashkëpunimin me akademikët, shoqërinë civile dhe kërkues të industrisë. Common Voice është falas për t’u përdorur, por dhënia e ndihmesës te platforma dhe kostot e strehimit përmes propozimesh për grante janë vërtet të dobishme.
-# [/SentenceCollector]
-
 localization-select =
     .label = Zgjidhni gjuhë/përkthim

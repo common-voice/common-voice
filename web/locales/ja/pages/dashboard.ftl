@@ -83,4 +83,3 @@ validations =
     { $count ->
        *[other] 件検証
     }
-

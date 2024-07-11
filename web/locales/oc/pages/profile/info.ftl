@@ -62,4 +62,3 @@ help-accent = Vos cau ajuda sus es accents?
 help-accent-explanation = Er accent ei era forma en qué prononciatz es paraules. Se pòt crear a crear des lòcs a on auetz viscut, quine autes lengües parlatz e fòrça d’auti factors. Podetz compartir ací era informacion que sigue que consideretz remercabla.
 help-variants = Vos cau ajuda damb es variantes?
 help-variants-explanation = Es variantes son formes especifiques d'ua lengua. Per exemple, compartides per persones que viuen en ua zòna geografica o comunitat. A viatges se’n ditz dialèctes.
-

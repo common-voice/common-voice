@@ -43,9 +43,6 @@ sc-criteria-item-3 = A frasi àv'a èssiri liggìbbili.
 sc-criteria-item-4 = Si a frasi sicuta sti règuli, ammacca u buttuni &quot;Appruva&quot; a dritta.
 sc-criteria-item-5-2 = Si a frasi nun sicuta sti règuli, ammacca u buttuni &quot;Rifiuta&quot; a manca. Si nun sì sicuru ncapu a sta frasi, poi macari sautalla e jiri a chiḍḍa appressu.
 sc-criteria-item-6 = Si finisti i frasi di validari, ajùtani a ricògghiri novi frasi!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Cuntrolla <icon></icon> è na frasi curretta dû puntu di vista linguìsticu?
 sc-review-rules-title = Sta frasi sicuta i dirittivi?
@@ -53,4 +50,3 @@ sc-review-empty-state = Accamora nun cci sunnu frasi di validari nna sta lingua.
 report-sc-different-language = Lingua diversa
 report-sc-different-language-detail = È scritta nta na lingua diversa di chiḍḍa chi staju validannu.
 sentences-fetch-error = Mmattìu n'erruri ricupirannu i frasi
-

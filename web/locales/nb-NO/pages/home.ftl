@@ -80,4 +80,3 @@ help-contribute = Du kan bidra til å bygge et mangfoldig, åpen kilde datasett 
 login-company = Logg inn / Registrer deg med { $company } e-post
 profile-not-required = Å ha en profil er ikke påkrevet for å bidra, men det hjelper. Se hvorfor under.
 read-more-about = Les mer på vår "Om" side
-

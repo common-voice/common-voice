@@ -28,4 +28,3 @@ download-request-modal-description = ZIP 파일 다운로드 링크입니다.
 download-request-link-text = Zip { $total } 중 #{ $offset }
 download-request-metadata-link = 문장 텍스트
 download-request-link-single = URL을 직접 사용하는 다운로드 관리자에 복사하여 붙여넣을 수도 있습니다. 링크는 12시간 후에 만료되지만 언제든지 이 페이지로 돌아와 새로 생성할 수 있습니다.
-

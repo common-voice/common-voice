@@ -20,4 +20,3 @@ download-request-button = ଡାଉନଲୋଡ଼
 download-request-title = { $created }
 download-request-refresh-button = ସତେଜ କରନ୍ତୁ
 download-request-metadata-link = ବାକ୍ୟ ଲେଖା
-

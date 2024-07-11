@@ -35,4 +35,3 @@ request-language-success-list-3 =
 request-language-error =
     Podemos não ter recebido esta solicitação. Envie um email diretamente
     para <emailLink>{ $email }</emailLink> e entraremos em contato com você!
-

@@ -1,5 +1,3 @@
-# [/SentenceCollector]
-
 # PARTNERSHIPS PAGE
 partnerships-header = Kevelerezhioù
 partnerships-get-in-touch = Mont e darempred

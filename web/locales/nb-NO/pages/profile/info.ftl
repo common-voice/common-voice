@@ -72,4 +72,3 @@ help-variants = Trenger du hjelp med varianter?
 help-variants-explanation = Varianter er en spesifikk form for et språk - for eksempel delt av de som bor i en geografi eller et samfunn. Noen ganger kalles disse dialekter.
 help-sex-or-gender-changes = Trenger du hjelp med endringene i kjønn?
 help-sex-or-gender-changes-explanation = Vi tilbyr flere alternativer for å gi folk flere valgmuligheter i hva de forteller oss om deres kjønn eller kjønnsidentitet. Vennligst beskriv selv på den måten som føles mest naturlig for deg. <learnMoreLink>Finn ut mer om vår tilnærming til sex og kjønn.</learnMoreLink>
-

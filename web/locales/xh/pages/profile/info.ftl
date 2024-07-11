@@ -64,4 +64,3 @@ help-accent = Udinga uncedo nge-accent?
 help-accent-explanation = I-accent yakho yindlela owabiza ngayo amagama. Inokubunjwa yindawo obuhlala kuyo, ezinye iilwimi ozithethayo kunye nezinye izinto ezininzi. Ungabelana ngalo naluphi na ulwazi ocinga ukuba lufanelekile apha.
 help-variants = Ingaba ufuna uncedo ngeendlela ezahlukeneyo?
 help-variants-explanation = Ukwahluka-hlukana kulwimi luhlobo oluthile lolwimi- umzekelo ekwabelwana ngawo ngabo bahlala kummandla okanye kwindawo enye. Ngamanye amaxesha ezi zibizwa ngokuba zii-dialects
-

@@ -1,27 +1,9 @@
-## Datasets Page
-
-
-## Download Modal
-
-
-## Contact Modal
-
-
-## Request Language Modal
-
-
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-search-input =
     .placeholder = sisku
 sentences = jufra
 language-validation-hours = cacra
-
-## Languages
-
 contribute = sidju
 get-involved-button = .au sidju
 get-involved-title = sidju tu'a la { $lang }

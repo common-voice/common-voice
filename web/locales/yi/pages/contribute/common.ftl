@@ -1,8 +1,4 @@
-## Contribution
-
 action-click = דריקט
-## Languages
-
 contribute = ביישטייערט
 review = קוקט איבער
 skip = היפ איבער
@@ -90,9 +86,6 @@ shortcut-vote-yes = י
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = נ
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-for-example = צום ביישפיל
@@ -107,4 +100,3 @@ contribution-just-unsure-title = זענט איר אומזיכער?
 contribution-just-unsure-description = אויב איר טרעפט זיך אן אין עפעס וואס דער פארשריפטן דעקט נישט, ביטע שטימט לויט אייער בעסטע שאצונג. אויב איר קענט נאך אלץ נישט אפמאכן, נוצט די היפ איבער קנעפל און גייט ווייטער צו דעם קומענדיגער רעקארדירונג.
 see-more = <chevron></chevron>זעט מער
 see-less = <chevron></chevron>זעט ווייניגער
-

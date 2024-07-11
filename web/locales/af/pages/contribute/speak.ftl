@@ -33,7 +33,6 @@ review-rerecord = Neem Weer Op
 review-cancel = Kanselleer Indiening
 review-keep-recordings = Hou die opnames
 review-delete-recordings = Vee my opnames uit
-
 review-terms = Deur Common Voice te gebruik, stem jy in tot ons <termsLink>Terme</termsLink> en <privacyLink>Privaatheidsbeleid</privacyLink>
 terms-agree = Ek stem in
 terms-disagree = Ek stem nie in nie

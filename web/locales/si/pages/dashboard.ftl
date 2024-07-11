@@ -1,6 +1,3 @@
-## Goals
-
-
 ## Dashboard
 
 toward-next-goal = ඊළඟ ඉලක්කය කරා
@@ -40,4 +37,6 @@ goal-interval-weekly = සතිපතා
 share-goal-type-listen = සවන්දෙමින්
 share-goal-type-both = කථා කිරීම සහ සවන් දීම
 weekly-goal-created = ඔබගේ සතිපතා ඉලක්කය නිර්මාණය කර ඇත
+
+## Goals
 

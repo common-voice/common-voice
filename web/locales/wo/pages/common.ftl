@@ -226,7 +226,6 @@ link-copied = Toppandoo (copier) nañ lien bi
 back-top = Dellu ci kaw
 logout = Génn
 donate = Joxe
-
 stayintouch = Nun, ci Mozilla, nu ngi taxawal ab kippango (communauté) jëme ci xarala yuy jëfandikoo ay waat. Danoo bëggóon a jot ci lépp lu bees lu man a xew, fii jumtukaay yi (données) di jugé ak di teewlu ni ngéenii jëfandikoo yilé jumtukaay.
 privacy-info = Fas na nu yéené téyé bu baax bataaxal (informations) yi ngéen nu dénk. Man ngaa gën a jàng ci sunu <privacyLink> Yoonu Denc</privacyLink> (Avis de confidentialité) fii.
 return-to-cv = Dellu ci Common Voice
@@ -240,3 +239,6 @@ email-opt-in-info-sub-with-challenge = Jot ay emails yu melni ay joŋante ak i f
 email-opt-in-privacy-v2 = Soo nangoo jot ay emails, dafay firi ni nangu nga tamit Mozilla jëfandikoo say bataaxal (informations) niko Mozilla tërëlée ci séen <privacyLink>Politique de confidentialité</privacyLink> bi.
 indicates-required = Fépp fuñu def ab asterisk (*) war nga fa def dara.
 not-available-abbreviation = N/A
+
+## Donate banner
+

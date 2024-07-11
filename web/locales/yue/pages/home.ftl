@@ -75,4 +75,3 @@ help-contribute = 你可以透過創立一個 Common Voice 帳户並貢獻錄音
 login-company = 登入 / 注冊  { $company } 電郵
 profile-not-required = 唔成立個人檔案都可以貢獻，但如果有嘅話會更有幫助，下面話你知點解。
 read-more-about = 去關於我哋嘅頁面瞭解更多
-

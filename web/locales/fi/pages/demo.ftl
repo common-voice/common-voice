@@ -29,4 +29,3 @@ demo-listen-subtitle = Valmiina osallistumaan?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Henkilökohtaiset kojelaudat pitävät sinut ajan tasalla yksilön ja yhteisön edistymisestä.
-

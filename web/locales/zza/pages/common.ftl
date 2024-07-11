@@ -235,7 +235,6 @@ link-copied = Lînk kopya bî
 back-top = Agêre cor
 logout = Vejîye
 donate = Bibexişne
-
 stayintouch = Mozîlla de ma komelêkê teknolojîya vengî awan kenîme. Ma wazenîme seba rojanekerdişan û çimeyanê dayeyan ê neweyan ra to de bikewîme têkilîye û bizanîme ke ti nê dayeyan senî xebitnenî/a.
 privacy-info = Ma soz danîme ke melumatê to bi baldarî bigurenîme. Seba zêde melumat, <privacyLink>Vilaweka Nimiteyîye</privacyLink> biwane.
 return-to-cv = Agêre Common Voice
@@ -249,13 +248,12 @@ email-opt-in-info-sub-with-challenge = Derheqê Common Voice de e-maîlan bigîr
 email-opt-in-privacy-v2 = Bi qebulkerdişê resayîşê e-maîlan ti destûr danî/a ke Mozîlla nê melumatî goreyê <privacyLink>Polîtîkaya Nimiteyîye</privacyLink> bixebitno.
 indicates-required = Warê bi estareyî (*) mecburî yê.
 not-available-abbreviation = çin o
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Ma rê</mark><br/><mark>ardimê to lazim o!</mark>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Ti CV seba</mark><br/><mark>cigêrayîşê xo gurenenî/a?</mark>
-# [/SentenceCollector]
-
 localization-select =
     .label = Ziwan/Çarnayîş weçîne

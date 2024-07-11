@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Augšupielādējiet attēlu
 browse-file = Velciet un nometiet vai <browseWrap> Pārlūkojiet </browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Atlasītais fails ir pārāk liels
 avatar-uploaded = Bilde ielādēta
 max-file-size = maksimums { $kb }kb
 remove-avatar = Noņemt bildi
-

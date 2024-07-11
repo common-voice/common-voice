@@ -43,4 +43,3 @@ adding-sentences-subheader-offensive-content = toki ike
 reviewing-sentences-explanation-1 = sitelen li pona la o kepeken nena "pona".
 reviewing-sentences-explanation-2 = sitelen li ike la o kepeken nena "ala".
 reviewing-sentences-explanation-3 = sina sona ala e pona sitelen la sina ken pana ala e sona li ken lukin e toki sin.
-

@@ -7,4 +7,3 @@ download-form-email =
     .value = Grazie, ti contatteremo presto.
 download-back = Torna ai dataset di Common Voice
 download-no = No, grazie
-

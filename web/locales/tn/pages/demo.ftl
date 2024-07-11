@@ -33,4 +33,3 @@ demo-listen-subtitle = A o ipaakanyeditse go aba?
 
 demo-dashboard-card-header = Didesheboto tsa botho di go thusa gore o nne mo dinakong ka kgatelopele ya batho ka bongwe le ya batho botlhe.
 demo-dashboard-card-body = Mo kgatisong nngwe le nngwe ya lentswe e e abilweng, le kgatiso nngwe le nngwe e e tlhomamisiwang, desheboto ya akhaonto ya gago e a tlhabololwa go bontsha kgatelopele ya gago ya bosheng mo puong nngwe le nngwe e o abang mo go yone. Ee, o ka kgona go abela puo e feta e le nngwe!<br/><br/> Dirisa didesheboto go bona dipalopalo tsa gago, go bona gore o dira jang fa go bapisiwa le batho ba bangwe, mme o ipeele mekgele ya letsatsi le letsatsi kgotsa ya beke le beke ya go aba.
-

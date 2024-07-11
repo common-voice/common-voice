@@ -32,13 +32,9 @@ sc-criteria-item-4 =
     eskuineko &quot;Onartu&quot; botoia.
 sc-criteria-item-5-2 = Esaldiak goiko irizpideak betetzen ez baditu, sakatu ezkerreko &quot;Baztertu&quot; botoia. Esaldi honekin zalantzak badituzu, saltatu dezakegu eta hurrengora pasa.
 sc-criteria-item-6 = Berrikusteko esaldirik gabe geratzen bazara, lagun gaitzazu esaldi gehiago biltzen!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Egiaztatu <icon></icon> esaldi hau linguistikoki zuzena da?
 sc-review-rules-title = Esaldiak gidalerroak betetzen ditu?
 sc-review-empty-state = Orain ez dago esaldirik berrikusteko hizkuntza honetan.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Zenbait aldaketa handi egiten ari gara
-

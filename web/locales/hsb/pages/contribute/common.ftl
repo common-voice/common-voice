@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Kliknyć
 action-tap = Podótknyć so
-## Languages
-
-contribute = Přinošować
+contribute = Sobu dźěłać
 review = Přepruwować
 skip = Přeskočić
 shortcuts = Skrótšenki
@@ -144,4 +140,3 @@ contribution-reader-effects-title = Efekty čitarja
 contribution-just-unsure-title = Jenož njewěsty?
 see-more = <chevron></chevron>Wjace pokazać
 see-less = <chevron></chevron>Mjenje pokazać
-

@@ -33,4 +33,3 @@ demo-listen-subtitle = Pare pou kontribiye?
 
 demo-dashboard-card-header = Tablo grafik pèsonèl kenbe ou ajou ak pwogrè endividyèl ak kominote a.
 demo-dashboard-card-body = Pou chak clip vwa yo bay, ak chak clip odyo valide, tablodbò kont ou yo mete ajou pou reflete dènye pwogrè ou nan chak lang ou kontribye. Wi, ou ka kontribye nan plis pase yon sèl!<br/><br/> Sèvi ak tablodbò pou swiv estatistik ou yo, wè ki jan w ap fè ansanm ak lòt moun nan kominote a, epi fikse objektif kontribisyon chak jou oswa chak semèn.
-

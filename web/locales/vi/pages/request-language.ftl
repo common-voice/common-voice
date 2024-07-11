@@ -37,4 +37,3 @@ request-language-success-list-3 =
 request-language-error =
     Chúng tôi có thể đã không nhận được yêu cầu đó. Vui lòng gửi email trực tiếp cho chúng tôi
     trên <emailLink>{ $email }</emailLink> và chúng tôi sẽ liên hệ lại với bạn!
-

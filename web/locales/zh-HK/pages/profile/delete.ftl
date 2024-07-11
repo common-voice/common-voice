@@ -10,4 +10,3 @@ why-delete-recordings =
     
     可唔可以話畀我哋知你點解想刪除錄音片段？
 profile-form-delete = 刪除個人檔案
-

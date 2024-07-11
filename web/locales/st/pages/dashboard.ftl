@@ -112,4 +112,3 @@ validations =
         [one] Netefatso
        *[other] Dinetefatso
     }
-

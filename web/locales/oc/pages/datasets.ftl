@@ -56,11 +56,8 @@ more = Mès
 close = Barra
 download = Baisha
 dataset-version = Version
-
 data-download-singleword-title = Baishatz eth segment especific damb paraules individuaus
 data-download-singleword-callout-v2 = Açò ei segmentacion de casi d'usatge que conten donades entà potenciar era reconeishença des digits e era deteccion des paraules «òc» e «non».
-## Data
-
 data-download-button = Baisha es donades deth Common Voice
 data-download-yes = Òc
 data-download-deny = Non

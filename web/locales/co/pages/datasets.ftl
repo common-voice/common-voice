@@ -46,11 +46,8 @@ more = Più
 close = Sarrà
 download = Scaricà
 dataset-version = Versione
-
 data-download-singleword-title = Scaricà u segmentu specificu incù parolle uniche
 data-download-singleword-callout-v2 = Questu hè un segmentu fattu pà un casu d'utilizazione cuntenendu dati pà a ricunniscenza vucale di i ciffri è di e parolle Iè / Innò.
-## Data
-
 data-download-button = Scaricà i dati di Common Voice
 data-download-yes = Iè
 data-download-deny = Innò

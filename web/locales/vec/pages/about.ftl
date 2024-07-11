@@ -2,6 +2,9 @@
 
 about-title = Parché Common Voice?
 how-does-it-work-text = Semo drio realixare on dataset vocaƚe open source atraverso el crowdsourcing. Dona ƚa to vose, convaƚida ƚe registrasioni invià da altre persone, rendi el dataset mijore par tuti cuanti.
+
+## How does it work section
+
 about-speak = Parla
 about-speak-text = I coƚaboratori i lexe e i registra on breve testo catà fora da na banca dati de fraxi donà.
 about-listen-queue = Coa de le robe da scoltare
@@ -23,3 +26,34 @@ about-nav-why-common-voice = Parché?
 about-nav-how-it-works = En che modo?
 about-nav-partners = Partner
 about-nav-get-involved = Coƚabora
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

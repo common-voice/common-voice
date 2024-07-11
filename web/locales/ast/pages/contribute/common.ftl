@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Calca
 action-tap = Toca
-## Languages
-
 contribute = Collaborar
 skip = Saltar
 shortcuts = Atayos
@@ -30,6 +26,9 @@ target-segment-generic-card = Tas collaborando nun segmentu de voz oxetivu
 target-segment-first-banner = Ayuda a crear el primer segmentu de voz de Common Voice en { $locale }
 target-segment-add-voice = Amiestu de la to voz
 target-segment-learn-more = Saber más
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -84,4 +83,3 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-volume-title = Volume
-

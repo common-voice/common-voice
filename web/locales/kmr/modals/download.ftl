@@ -7,4 +7,3 @@ download-form-email =
     .value = Spas, Em ê di têkiliyê de bin.
 download-back = Vegere Komdaneyên Common Voiceê
 download-no = Na, Spas
-

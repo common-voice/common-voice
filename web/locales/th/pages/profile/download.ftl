@@ -24,4 +24,3 @@ download-request-modal-title = ดาวน์โหลดลิงก์
 download-request-modal-description = นี่คือลิงก์สำหรับดาวน์โหลดไฟล์ ZIP ของคุณ
 download-request-link-text = ไฟล์ Zip ที่ { $offset } จาก { $total }
 download-request-metadata-link = ข้อความประโยค
-

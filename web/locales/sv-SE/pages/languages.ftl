@@ -17,9 +17,6 @@ localized = Översatt
 sentences = Meningar
 language-validation-hours = Timmar
 language-validation-progress = Valideringsförlopp
-
-## Languages
-
 contribute = Bidra
 get-involved-button = Engagera dig
 get-involved-title = Bidra till { $lang }

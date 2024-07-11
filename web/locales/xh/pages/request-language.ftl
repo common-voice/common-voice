@@ -30,4 +30,3 @@ request-language-success-list-3 =
     xhumana nathi ku <emailLink>{ $email }</emailLink> 
     kwaye siza kubuyela kuwe!
 request-language-error = Kusenokwenzeka ukuba asisifumananga eso sicelo.Nceda usithumelele i-imeyile ngqo ku <emailLink>{ $email }</emailLink> kwaye siya kubuyela kuwe!
-

@@ -1,3 +1,1 @@
-## Contribution
-
 listen = ܫܡܥܝܼ

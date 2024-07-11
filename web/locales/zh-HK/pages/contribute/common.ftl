@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = 點擊
 action-tap = 點選
-## Languages
-
-contribute = 貢獻
+contribute = 參與貢獻
 skip = 略過
 shortcuts = 捷徑
 clips-with-count-pluralized =
@@ -100,4 +96,3 @@ contribution-volume-title = 音量
 contribution-just-unsure-title = 唔肯定？
 see-more = <chevron></chevron>睇多啲
 see-less = <chevron></chevron>睇少啲
-

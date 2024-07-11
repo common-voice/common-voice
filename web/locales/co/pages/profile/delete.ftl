@@ -8,4 +8,3 @@ why-delete-recordings =
     
     Pudeti spiegaci parchì vuleti sguassà i vostri arrighjistramenti ?
 profile-form-delete = Sguassà u prufilu
-

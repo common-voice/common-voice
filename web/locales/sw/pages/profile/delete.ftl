@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Je! Unaweza kutujulisha kwa nini ungependa rekodi zako zifutwe?
 profile-form-delete = Futa wasifu
-

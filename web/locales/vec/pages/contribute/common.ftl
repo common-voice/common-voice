@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Fa clic so
 action-tap = Toca
-## Languages
-
 contribute = Contribuisi
 skip = Salta
 shortcuts = Scorciatoie
@@ -14,6 +10,9 @@ record-button-label = Registra ƚa to vose
 share-title-new = <bold>Jutane</bold> a catare altre vosi
 keep-track-profile = Tien tracia de i progresi co on profiƚo
 login-to-get-started = Asedi o registrate par scomisiare
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -64,4 +63,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

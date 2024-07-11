@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Yala i bɛ se k’a fɔ an ye mun na i b’a fɛ i ka fɔlisenw ka bɔ yen wa?
 profile-form-delete = Profil (Profil) bɔ yen
-

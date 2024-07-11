@@ -92,6 +92,7 @@ about-playbook-how-add-sentences = Ngiyengeza kanjani imisho?
 about-playbook-how-add-sentences-content-1 = <strong>Umqoqi Womusho</strong> ithuluzi lokuqoqa nokuqinisekisa imisho yomthombo womphakathi. Uzo </scAccountLink>dinga ukwenza i-akhawunti<scAccountLink>. Bese ufaka ulimi lakho ku <strong>Profayili</strong>. Unga <strong>Faka</strong> imisho noma <strong>Uhlole</strong> imisho ebifakiwe phambilini.
 about-playbook-how-add-sentences-content-2 = Imisho kufanele ibuyekezwe nokuthi yamukelwe abantu ababili ukuze izofakwa kuCommon Voice. Yakha imihlahlandlela yolimi lakho <languageGuidelinesLink>la</languageGuidelinesLink>. Imisho kufanele ibe e <licenseLink>mthonjeni womphakathi</licenseLink> namagama angenhla kuka-15. Ungabuza umnikazi wombhalo ukuwenza <waiverLink>CC0 usebenzisa inqubo yethu yokuyeka</waiverLink>, sithumele ku commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Ungasebenzisa <i-scraperLink>Isikhiphi semisho</scraperLink> ukuze usebenzise imisho emifushane kusuka ku-Wikipedia.
+
 ## How to record quality
 
 about-playbook-how-record-quality = Ngiqopha kanjani isiqeshana sezwi sezinga eliphezulu?
@@ -137,4 +138,6 @@ about-playbook-how-project-governance-content-4 = Ukubamba iqhaza komphakathi ka
 about-playbook-how-project-governance-content-5 = Inani nokuqashelwa.
 about-playbook-how-project-governance-content-6 = Ukuziphendulela ngokuhlanganyela.
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda kabanzi mayelana nendlela esibuswa ngayo</governanceLink>
+
+## How is Common Voice funded
 

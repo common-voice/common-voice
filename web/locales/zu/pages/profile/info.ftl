@@ -62,4 +62,3 @@ help-accent = Udinga usizo oluthile ngokuphimisa?
 help-accent-explanation = Indlela yakho yokukhuluma, indlela yokuphimisa amagama. Ingathelelwa indawo lapho ohlale khona, yiziphi ezinye izilimi ozikhulumayo, niminye imithelela eminingi. Ungabelana eminye imininingwane obona ukuthi ifanelekile lana.
 help-variants = Udinga usizo oluthile ngokuhlukile?
 help-variants-explanation = Ulimi lungahluka ngezindlela thizeni - isibonelo, abantu abahlala esigodini esisodwa noma emphakathini owodwa. Lokhu kubizwa ngokuthi ulwimi lwesigodi.
-

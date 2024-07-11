@@ -28,4 +28,3 @@ download-request-modal-description = Ite ir saitis, lai zamynluodātu jiusu ZIP 
 download-request-link-text = Zip #{ $offset } no { $total }
 download-request-metadata-link = Teikuma teksts
 download-request-link-single = Varit ari kopēt i īleimēt ituos adresis sovā meiluokajā zamynluožu puorvaļdnīkā. Tū dereiguma termiņš beigsīs piec 12 stuņžu, bet sevkurā laikā varit atsagrīzt itamā lopā, lai generātu jaunys saitis.
-

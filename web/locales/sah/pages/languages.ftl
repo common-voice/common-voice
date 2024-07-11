@@ -17,10 +17,7 @@ localized = Локализовано
 sentences = Этиилэр
 language-validation-hours = Чаас
 language-validation-progress = Тургутуу прогреһа
-
-## Languages
-
-contribute = Көмөлөс
+contribute = Кытын
 get-involved-button = Кыттыс
 get-involved-title = { $lang } тылга көмөлөс
 get-involved-text = { $lang } тылыгар көмөлөһүөххүн баҕарарыҥ иһин махтанабыт. Биһиги тыл барыта ыытыыга бэлэм буоларыгар кыһанабыт уонна хамаандаларга электроннай почтанан сонуннары биллэрэбит. Көмөлөһүөххүн баҕарар буоллаххына, бука диэн, электроннай почтаҕын бу анныгар суруй.

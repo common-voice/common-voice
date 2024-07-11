@@ -10,4 +10,3 @@ why-delete-recordings =
     
     ¿Puede decirnos por qué desea que se eliminen sus grabaciones?
 profile-form-delete = Borrar Perfil
-

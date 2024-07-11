@@ -76,4 +76,3 @@ help-contribute = Pode axudar a construír un conxunto de datos diverso e de có
 login-company = Iniciar sesión / Rexistrarse co correo electrónico de { $company }
 profile-not-required = Non é absolutamente necesario ter unha conta para colaborar, malia que axuda. Vexa por que a seguir.
 read-more-about = Máis información na pestana "Sobre nós"
-

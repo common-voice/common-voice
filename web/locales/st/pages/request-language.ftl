@@ -27,4 +27,3 @@ request-language-success-list-3 =
     ikopanya le <emailLink>{ $email }</emailLink>
     mme re tla kgutlela ho wena!
 request-language-error = E ka nna yaba ha rea ​​fumana kopo eo. Ka kopo re romelle imeile ka ho toba ho <emailLink>{ $email }</emailLink> mme re tla kgutlela ho wena!
-

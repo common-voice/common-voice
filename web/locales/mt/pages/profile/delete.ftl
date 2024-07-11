@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Tista' tgħidilna għaliex tixtieq li jitħassru r-recordings tiegħek?
 profile-form-delete = Ħassar il-Profil
-

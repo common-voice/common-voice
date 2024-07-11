@@ -235,7 +235,6 @@ link-copied = S'ha copiat l'enllaç
 back-top = Torna a dalt
 logout = Finalitza la sessió
 donate = Feu un donatiu
-
 stayintouch = A Mozilla estem construint una comunitat al voltant de les tecnologies de la veu. Voldríem estar al dia de les novetats, de noves fonts de dades i saber com useu aquestes dades.
 privacy-info = Ens comprometem a gestionar la vostra informació amb cura. Per a més informació, vegeu l'<privacyLink>avís de privadesa</privacyLink>.
 return-to-cv = Torna al Common Voice
@@ -249,7 +248,8 @@ email-opt-in-info-sub-with-challenge = Rebreu correus com ara recordatoris d'obj
 email-opt-in-privacy-v2 = En optar per rebre correus electrònics, accepteu que Mozilla gestioni aquesta informació en els termes descrits en la seva <privacyLink>política de privadesa</privacyLink>.
 indicates-required = * Indica un camp necessari
 not-available-abbreviation = N/D
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Trieu una llengua/localització

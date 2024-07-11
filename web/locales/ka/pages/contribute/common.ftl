@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = დააწექით
 action-tap = დააჭირეთ
-## Languages
-
 contribute = წვლილის შეტანა
 review = შემოწმება
 skip = გამოტოვება
@@ -145,4 +141,3 @@ contribution-just-unsure-title = მაინც ეჭვი გეპარე
 contribution-just-unsure-description = თუ ისეთ საკითხს წააწყდით, რომელიც ამ მითითებებში არაა განხილული, გთხოვთ შეაფასოთ საკუთარი შეხედულებისამებრ, კეთილსინდისიერად. როცა ნამდვილად გაგიჭირდებათ გადაწყვეტილების მიღება, მხოლოდ გამოტოვეთ და სხვა ჩანაწერზე გადადით.
 see-more = <chevron></chevron>ვრცლად
 see-less = <chevron></chevron>შემოკლებულად
-

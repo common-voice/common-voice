@@ -2,6 +2,9 @@
 
 about-title = Għaliex il-Common Voice?
 how-does-it-work-text = Qed nużaw il-crowdsourcing biex nibnu ġabra ta' vuċijiet miftuħa. Agħti l-vuċi tiegħek, iċċekkja l-validità tar-recordings ta' ħaddieħor, tejjeb il-ġabra għall-benefiċċju ta' kulħadd.
+
+## How does it work section
+
 about-speak = Tkellem
 about-speak-text = Il-kontributuri jirrekordjaw il-klips billi jaqraw minn ġabra ta' sentenzi.
 about-listen-queue = Kju tas-Smigħ
@@ -28,3 +31,34 @@ about-nav-why-common-voice = Għalfejn?
 about-nav-how-it-works = Kif?
 about-nav-partners = Msieħba
 about-nav-get-involved = Involvi Ruħek
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

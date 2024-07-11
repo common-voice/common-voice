@@ -10,4 +10,3 @@ why-delete-recordings =
     
     sina ken ala ken pana e sona ni: sina wile weka e kalama awen sina tan seme?
 profile-form-delete = o weka e lipu jan
-

@@ -223,7 +223,6 @@ link-copied = Спасылка скапіявана
 back-top = Вярнуцца ўгару
 logout = Выйсці
 donate = Ахвяраваць
-
 stayintouch = У Mozilla мы будуем супольнасць вакол галасавых тэхналогій. Мы хацелі б трымаць вас у курсе абнаўленняў, новых крыніц дадзеных, а таксама даведацца болей аб тым, як вы выкарыстоўваеце гэтыя дадзеныя.
 privacy-info = Мы абяцаем абыходзіцца з вашай інфармацыяй далікатна. Болей чытайце ў нашай <privacyLink>Палітыцы прыватнасці</privacyLink>.
 return-to-cv = Вярнуцца да Common Voice
@@ -237,7 +236,8 @@ email-opt-in-info-sub-with-challenge = Атрымлівайце лісты, та
 email-opt-in-privacy-v2 = Пагадзіўшыся атрымліваць лісты, вы заяўляеце, што згодны з апрацоўкай гэтай інфармацыі Mozilla так, як акрэслена ў <privacyLink>Палітыцы прыватнасці<privacyLink> Mozilla.
 indicates-required = * Палі, абавязковыя да запаўнення
 not-available-abbreviation = Н/Д
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Выберыце мову/лакалізацыю

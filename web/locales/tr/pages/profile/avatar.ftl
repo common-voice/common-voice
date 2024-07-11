@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Resim dosyası yükle
 browse-file = Sürükleyip bırak veya <browseWrap>göz at</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Seçilen dosya çok büyük
 avatar-uploaded = Avatar yüklendi
 max-file-size = en fazla { $kb } kb
 remove-avatar = Avatarı kaldır
-

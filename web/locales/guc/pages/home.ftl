@@ -19,3 +19,11 @@ speak-subtitle = Pi'itaa pünüiki
 all-locales = Apüshuaꞌa
 today = Soꞌukaꞌi
 
+## Account Benefits
+
+
+## What's public
+
+
+## Landing
+

@@ -25,4 +25,3 @@ download-request-modal-description = Ací auetz es ligams entà baishar es archi
 download-request-link-text = ZIP num. { $offset } de { $total }
 download-request-metadata-link = Tèxte dera frasa
 download-request-link-single = Tanben podetz copiar e empegar es URL dirèctaments en vòste gestor de baishades preferit. Es ligams caducaràn en 12 ores, mès podetz tornar ad aguesta pagina entà generar-ne de naui en moment que sigue.
-

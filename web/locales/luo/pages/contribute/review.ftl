@@ -29,9 +29,5 @@ sc-criteria-make-sure = Ngiyanena ni wechego oluwo chenro mochiew
 sc-criteria-item-1 = Wechego nyaka ndik maber
 sc-criteria-item-2 = Wechego nya ndik maber
 sc-criteria-item-3 = Wechego nyaka somre
-
-## REVIEW PAGE
-
 report-sc-different-language = Dhok mopogore
 report-sc-different-language-detail = Ondike kod dhok mopogore kod manono.
-

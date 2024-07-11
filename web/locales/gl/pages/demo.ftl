@@ -33,4 +33,3 @@ demo-listen-subtitle = Preparado para colaborar?
 
 demo-dashboard-card-header = Os paneis persoais mantéñeno ao día do progreso da súa actividade e o da comunidade.
 demo-dashboard-card-body = Por cada fragmento de voz doado e cada fragmento de son validado, os paneis da súa conta actualízanse para reflectir o seu último progreso en cada idioma no que colabore. Si, pode colaborar en máis de un. <br/> <br/> Utilice os paneis para rastrexar as súas estatísticas, ver a súa actividade xunto con a doutras persoas da comunidade e establecer obxectivos de colaboración diaria ou semanal.
-

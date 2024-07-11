@@ -7,4 +7,3 @@ download-form-email =
     .value = Bedankt, we houden contact.
 download-back = Terug naar Common Voice-gegevenssets
 download-no = Nee, bedankt
-

@@ -38,4 +38,3 @@ request-language-success-list-3 =
 request-language-error =
     N’a sɔrɔ an ma o delili sɔrɔ. Aw ye bataki ci an ma k’a ɲɛsin an ma
     kan <emailLink>{ $email }</emailLink> ani an bɛna segin aw ma!
-

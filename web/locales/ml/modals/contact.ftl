@@ -6,4 +6,3 @@ contact-form-name =
 contact-form-message =
     .label = സന്ദേശം
 contact-required = * ആവശ്യമാണ്
-

@@ -135,7 +135,6 @@ share-text = Avita õpõttaa kompjuteralõ kui õika inimin pajatõta, jagõ õm
 link-copied = Ссылка скопирована
 back-top = Ülespäi
 logout = Выйти
-
 stayintouch = Мы в Mozilla создаём сообщество по языковым технологиям. Мы хотим, чтобы вы были в курсе всех новостей, новых источников данных, а также хотели бы знать больше о том, как вы используете такого рода данные.
 privacy-info = Мы обещаем, что будем обрабатывать вашу информацию с осторожностью. Подробнее в нашей <privacyLink>политике приватности</privacyLink>.
 return-to-cv = Takaz Common Voice tüvve
@@ -147,4 +146,6 @@ email-opt-in-info = Я хочу получать такие письма, как
 email-opt-in-info-title = Сделайте голосовую запись частью аватара вашего профиля. Другие смогут прослушать её.
 indicates-required = * поля, обязательные для заполнения
 not-available-abbreviation = Недоступно
+
+## Donate banner
 

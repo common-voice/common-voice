@@ -33,7 +33,6 @@ review-rerecord = Uudelleennauhoita
 review-cancel = Peru lähetys
 review-keep-recordings = Säilytä nauhoitteet
 review-delete-recordings = Poista nauhoitukset
-
 review-terms = Käyttämällä Common Voicea hyväksyt <termsLink>käyttöehdot</termsLink> ja <privacyLink>tietosuojaselosteen</privacyLink>
 terms-agree = Hyväksyn
 terms-disagree = En hyväksy

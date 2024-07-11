@@ -56,11 +56,8 @@ more = Más
 close = Cerrar
 download = Descargar
 dataset-version = Version
-
 data-download-singleword-title = Descargue el segmento objetivo de una sola palabra
 data-download-singleword-callout-v2 = Este es un segmento basado en casos de uso que contiene datos para potenciar el reconocimiento de dígitos hablados y la detección de sí/no.
-## Data
-
 data-download-button = Descargar datos de Common Voice
 data-download-yes = Si
 data-download-deny = No

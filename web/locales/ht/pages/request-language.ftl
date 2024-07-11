@@ -38,4 +38,3 @@ request-language-success-list-3 =
 request-language-error =
     Petèt nou pa te resevwa demann sa a. Tanpri imèl nou dirèkteman
     sou <emailLink>{ $email }</emailLink> epi n ap retounen jwenn ou!
-

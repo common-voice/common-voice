@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Bas
 action-tap = Deg
-## Languages
-
 contribute = Goşant goş
 skip = Geç
 shortcuts = Gysga ýollar
@@ -29,6 +25,9 @@ target-segment-generic-card = Siz nyşana segmente goşant goşýarsyňyz
 target-segment-first-banner = { $locale } lokalda Common Voice-iň ilkinji nyşana segmentini döretmäge kömek ediň
 target-segment-add-voice = Sesiňizi goşuň
 target-segment-learn-more = Goşmaça maglumat
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -139,4 +138,3 @@ contribution-just-unsure-title = Doly ynamly dälmi?
 contribution-just-unsure-description = Eger şu düzgünlerde beýan edilmedik bir ýagdaýa gabat gelseňiz, özüňizçe iň dogry hasaplaýşyňyza görä ses beriň. Çyndanam netijä gelip bilmeseňiz, geç düwmesine basyň we indiki ýazga dowam ediň.
 see-more = <chevron></chevron>Köpräk gör
 see-less = <chevron></chevron>Azrak gör
-

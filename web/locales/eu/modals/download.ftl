@@ -7,4 +7,3 @@ download-form-email =
     .value = Eskerrik asko, elkarren berri izango dugu.
 download-back = Itzuli Common Voice datu-sortetara
 download-no = Ez, eskerrik asko
-

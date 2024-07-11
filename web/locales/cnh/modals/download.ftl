@@ -7,4 +7,3 @@ download-form-email =
     .value = Kan i lawm, kan in hngalhter lai.
 download-back = Common Voice Pumhmi Data ah Kir
 download-no = Tuah hlah
-

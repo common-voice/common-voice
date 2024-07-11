@@ -32,7 +32,6 @@ review-rerecord = Ataifead
 review-cancel = Cealaigh
 review-keep-recordings = Coinnigh na taifeadtaí
 review-delete-recordings = Scrios mo chuid taifeadtaí
-
 review-terms = Má úsáideann tú Common Voice, glacann tú leis na <termsLink>Téarmaí</termsLink> agus leis an <privacyLink>bhFógra Príobháideachais</privacyLink>
 terms-agree = Aontaím
 terms-disagree = Ní aontaím

@@ -234,7 +234,6 @@ link-copied = ໄດ້ສຳເນົາລີ້ງໄວ້ແລ້ວ
 back-top = ກັບຂື້ນໄປເທິງ
 logout = ອອກຈາກລະບົບ
 donate = ບໍລິຈາກ
-
 stayintouch = ພວກເຮົາທຸກຄົນທີ່ Mozilla ກໍາລັງສ້າງຊຸມຊົນກ່ຽວກັບເຕັກໂນໂລຢີດ້ານສຽງ. ພວກເຮົາຕ້ອງການຕິດຕາມຂໍ້ມູນໃຫມ່ໆ, ແຫຼ່ງຂໍ້ມູນໃຫມ່ຕ່າງໆ ແລະ ເພື່ອເຮັດໃຫ້ຮູ້ຫຼາຍຂື້ນວ່າທ່ານໃຊ້ຂໍ້ມູນນີ້ແບບໃດ.
 privacy-info = ພວກເຮົາສັນຍາວ່າຈະຈັດການຂໍ້ມູນຂອງທ່ານດ້ວຍຄວາມລະມັດລະວັງ. ອ່ານເພີ່ມເຕີມໃນ <privacyLink> ແຈ້ງການກ່ຽວກັບຄວາມເປັນສ່ວນຕົວ </privacyLink> ຂອງພວກເຮົາ.
 return-to-cv = ກັບໄປທີ່ Common Voice
@@ -248,7 +247,8 @@ email-opt-in-info-sub-with-challenge = ຮັບອີເມວເຊັ່ນ: 
 email-opt-in-privacy-v2 = ໂດຍການເລືອກຮັບອີເມວແມ່ນທ່ານລະບຸວ່າທ່ານບໍ່ເປັນຫຍັງທີ່ Mozilla ຈັດການຂໍ້ມູນນີ້ຕາມທີ່ອະທິບາຍໄວ້ໃນ <privacyLink>ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ</privacyLink> ຂອງ Mozilla.
 indicates-required = ຊ່ອງຂໍ້ມູນທີ່ມີເຄື່ອງໝາຍດາວ (*) ແມ່ນຕ້ອງການ.
 not-available-abbreviation = N/A
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = ເລືອກພາສາ/ທ້ອງຖິ່ນ

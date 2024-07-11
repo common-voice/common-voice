@@ -10,4 +10,3 @@ why-delete-recordings =
     
     ⵉⵙ ⵜⵣⵎⵔⵎ ⴰⴷ ⴰⵏⵖ ⵜⴰⵊⵊⵎ ⴰⴷ ⵏⵙⵙⵏ ⵎⴰⵅⴼ ⵜⵔⴰⵎ ⴰⴷ ⵜⵜⵡⴰⴽⴽⵙⵏ ⵉⵙⵓⵙⴰⵔ ⵏⵏⵓⵏ?
 profile-form-delete = ⴽⴽⵙ ⵉⴼⵔⵙ
-

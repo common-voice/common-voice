@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = Nkaayenzire ngu abo abarikubarabanisamu babarugyemu.
 get-involved-button = Eihanga ryeitu ryiine obusingye

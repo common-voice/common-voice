@@ -33,4 +33,3 @@ demo-listen-subtitle = Na o ikemiseditse ho kenya letsoho?
 
 demo-dashboard-card-header = Di-dashboard tsa hao di o boloka o le morao-rao mabapi le tswelopele ya motho ka mong le ya setjhaba.
 demo-dashboard-card-body = Bakeng sa sekotwana se seng le se seng sa lentswe se fanweng, le sekotwana se seng le se seng sa audio se netefaditsweng, di-dashboard tsa ak'haonte ya hao di ya ntjhafatswa ho bontsha tswelopele ya hao ya morao-rao ho puo e nngwe le e nngwe yeo o tlatsetsang ho yona. E, o ka tlatsetsa ho tse fetang bonngwe!<br/><br/>  Sebedisa di-dashboard ho latela dipalo-palo tsa hao, sheba na o sebetsa jwang papisong le ba bang setjhabeng, mme ipehele dipheo tsa tlatsetso tsa letsatsi kapa tsa beke.
-

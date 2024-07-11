@@ -56,11 +56,8 @@ download = Преземи
 dataset-version = Верзија
 sha256-checksum-copied = SHA256 контролната сума е копирана!
 clipboard-not-supported = Таблата со исечоци не е поддржана
-
 data-download-singleword-title = Преземете го целниот сегмент со еден збор
 data-download-singleword-callout-v2 = Ова е сегмент заснован на употреба на податоци за препознавање на изговорени цифри и откривање според да / не.
-## Data
-
 data-download-button = Преземи податоци на Common Voice
 data-download-yes = Да
 data-download-deny = Не

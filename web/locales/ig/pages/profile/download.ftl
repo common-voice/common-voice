@@ -27,4 +27,3 @@ download-request-modal-title = Ọ́wà ḿbúdàtá (Download Links)
 download-request-modal-description = Ǹké à bụ̀ ọ́wà á gà-èsí búdàtá faịlụ ZIP gị́.
 download-request-link-text = Zip #{ $offset } ǹkè { $total }
 download-request-metadata-link = Èdèrèdé áhị́rị́ókwú
-

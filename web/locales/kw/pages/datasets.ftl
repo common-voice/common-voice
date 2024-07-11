@@ -28,9 +28,6 @@ more = Moy
 close = Degea
 download = Iskarga
 dataset-version = Gwersyon
-
-## Data
-
 data-download-button = Iskarga data Common Voice
 data-download-yes = Da
 data-download-deny = Na

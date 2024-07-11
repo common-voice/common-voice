@@ -55,3 +55,5 @@ about-playbook-how-grow-language-content-6 = Шарикӣ ва шабакаҳо
 
 about-playbook-how-project-governance-content-3 = Махфият, амният ва шаффофият.
 
+## How is Common Voice funded
+

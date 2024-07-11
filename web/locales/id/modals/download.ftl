@@ -7,4 +7,3 @@ download-form-email =
     .value = Terima kasih, kami akan menghubungi Anda.
 download-back = Kembali ke Himpunan Data Common Voice
 download-no = Tidak, Terima Kasih
-

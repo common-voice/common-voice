@@ -31,7 +31,6 @@ review-rerecord = Tiyak-chik
 review-cancel = Tiq'at Rutaqik
 review-keep-recordings = Kechap ri taq yakoj
 review-delete-recordings = Keyuj ri taq nuyakoj
-
 review-terms = Toq nokisäx ri Common Voice, nanimaj ri <termsLink>Qojqanem</termsLink> chuqa' <privacyLink>Ichinan Qatzijol</privacyLink>
 terms-agree = Ütz k'a
 terms-disagree = Man ütz ta nintz'ët

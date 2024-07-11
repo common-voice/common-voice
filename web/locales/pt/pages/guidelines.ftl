@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = Se a frase não atender aos critérios acima
 reviewing-sentences-explanation-3 = Se não tiver certeza sobre a frase, você também pode ignorar e passar para a próxima.
 reviewing-sentences-explanation-4 = Se não tiver mais frases para revisar, ajude-nos a coletar mais frases!
 domain-explanation = Domínio refere-se ao assunto da frase. Atualmente, você pode escolher entre:
-

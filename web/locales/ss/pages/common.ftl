@@ -209,7 +209,6 @@ share-text = Sita kufundzisa imishini kutsi bantfu mbamba bakhuluma njani, nikel
 link-copied = I-link Ikotjiwe
 back-top = Buyela Etulu
 logout = Phuma
-
 stayintouch =
     Tsine ka Mozilla sakha umphakatsi etikwe bucwephesha bemavi
     Singajabula kuhlala sichumene kulokusha, imtfombo lemisha ye data futsi kwati kutsi uyisebentisa njani le data.
@@ -225,7 +224,8 @@ email-opt-in-info-sub-with-challenge = Tfola liposi lembane lekufaka ekhatsi kuk
 email-opt-in-privacy-v2 = Ngekuvuma kutsi wemukela imiyaleto kusho kutsi ute inkinga yekutsi Mozilla ekuphatseni lolwati njengoba kuchaziwe ku Mozilla's<privacyLink>Privacy Policy</privacyLink>
 indicates-required = Tindzawo letimakwe ngenkhanyeti (*) tidzingekile.
 not-available-abbreviation = N/A
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Khetsa Lulwimi/localization

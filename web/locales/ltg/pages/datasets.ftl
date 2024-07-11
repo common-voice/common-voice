@@ -62,11 +62,8 @@ dataset-version = Verseja
 sha256-checksum-copied = SHA256 kontrolsumma nūkopēta!
 sha256-checksum-copied-error = Naizadeve nūkopēt SHA256 kontrolsummu
 clipboard-not-supported = Storpliktuve nateik atbaļsteita
-
 data-download-singleword-title = Zamynluodēt vīna vuorda mierka segmentu
 data-download-singleword-callout-v2 = Itys ir iz lītuošonys gadejumu pabaļsteits segments, kurā ir dati, kas nūdrūsynoj īrunuotū skaitļu atpazeišonu i nui/nā nūsaceišonu.
-## Data
-
 data-download-button = Zamynuodejit Common Voice datus
 data-download-yes = Nui
 data-download-deny = Nā

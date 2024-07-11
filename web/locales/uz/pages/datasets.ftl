@@ -49,11 +49,8 @@ more = Koʻproq
 close = Yopish
 download = Yuklash
 dataset-version = Talqin
-
 data-download-singleword-title = Yagona soʻz maqsadli segmentini yuklab oling
 data-download-singleword-callout-v2 = Bu ishlatilishiga koʻra tartiblangan qism — aytilgan raqam va ha/yoʻqni aniqlash sifatini kuchaytiruvchi maʼlumotlarni oʻzi ichiga olgan.
-## Data
-
 data-download-button = Common Voice ma’lumotlarini yuklab olish
 data-download-yes = Ha
 data-download-deny = Yo‘q

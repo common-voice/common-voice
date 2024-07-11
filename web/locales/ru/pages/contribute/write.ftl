@@ -1,6 +1,6 @@
-write = Записать
 ## WRITE PAGE
 
+write = Записать
 write-instruction = Добавьте <icon></icon> общедоступное предложение
 write-page-subtitle = Представленные здесь фразы будут добавлены в общедоступный набор данных под лицензией cc-0.
 sentence =
@@ -89,4 +89,3 @@ file-invalid-type = Неподходящий файл
 file-too-large = Файл слишком большой
 file-too-small = Файл слишком маленький
 too-many-files = Слишком много файлов
-

@@ -45,9 +45,6 @@ sc-criteria-item-3 = Togfjalëshi duhet të jetë i shqiptueshëm.
 sc-criteria-item-4 = Nëse togfjalëshi plotëson kushtet, klikoni butonin “Miratojeni” në të djathtë.
 sc-criteria-item-5-2 = Nëse togfjalëshi nuk pajtohet me kriteret më sipër, klikoni mbi butonin “Hidhe poshtë” në të djathtë. Nëse jeni i pasigurt për togfjalëshin, mundeni edhe ta anashkaloni dhe të vazhdoni me pasuesin.
 sc-criteria-item-6 = Nëse mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër togfjalësha!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Kontrolloni <icon></icon> a është togfjalësh i saktë nga ana gjuhësore?
 sc-review-rules-title = A është në pajtim me udhëzimet fraza?
@@ -61,4 +58,3 @@ review-error-rate-limit-exceeded = Po ecni shumë shpejt. Ju lutemi, ndaluni nj�
 sc-redirect-page-title = Po bëjmë disa ndryshime të mëdha
 sc-redirect-page-subtitle-1 = Grumbulluesi i Togfjalëshave po kalon te platforma bazë e Common Voice-it. Tani mund të <writeURL>shkruani</writeURL> në togfjalësh, ose të <reviewURL>shqyrtoni</reviewURL> parashtrime togfjalëshash njësh te Common Voice.
 sc-redirect-page-subtitle-2 = Na bëni një pyetje në <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ose me <emailLink>email</emailLink>.
-

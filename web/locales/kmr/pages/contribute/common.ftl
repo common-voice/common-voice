@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Bitikîne
 action-tap = Bitepîne
-## Languages
-
-contribute = Piştgiriyê bidin
+contribute = Beşdarî bike
 review = Binirxîne
 skip = Derbas bike
 shortcuts = Kurterê
@@ -103,4 +99,3 @@ contribution-reader-effects-title = Efektên Xwînerê
 contribution-just-unsure-title = Tu jê ne bawerî?
 see-more = <chevron></chevron>Zêdetir bibîne
 see-less = <chevron></chevron>Hindiktir bibîne
-

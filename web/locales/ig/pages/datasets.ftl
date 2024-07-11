@@ -42,11 +42,8 @@ more = Ọ̀zọ́
 close = Mèchíé
 download = Búdàtá
 dataset-version = Ụ̀dị́
-
 data-download-singleword-title = Búdàtá Ńkébì Èbùmnúchè Ótù Ókwū
 data-download-singleword-callout-v2 = Ńké à bụ̀ ákụ̀kụ́ ǹlò ǹké gụ́nyéré ńgwá ńchọ́chá gá-ágbányé ígwé ǹghọ̀tá ọ́nụ́ọ́gụ́gụ́ nà ǹkè ná-áchọ́pụ̀tá éé/ḿbà.
-## Data
-
 data-download-button = Búdàtá ụ́yọ̀kọ̀ ńgwá ólú ókwú Common Voice.
 data-download-yes = Ee
 data-download-deny = Ḿbà

@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Klikk
 action-tap = Trykk
-## Languages
-
 contribute = Bidra
 review = Gjennomgå
 skip = Hopp over
@@ -149,4 +145,3 @@ contribution-just-unsure-title = Bare usikker?
 contribution-just-unsure-description = Hvis du kommer over noe som ikke er dekket av disse retningslinjene, forsøk og velg etter beste skjønn. Hvis du ikke føler det er mulig å bedømme klippet, bruk hopp over-knappen og gå videre til neste klipp.
 see-more = <chevron></chevron>Se mer
 see-less = <chevron></chevron>Se mindre
-

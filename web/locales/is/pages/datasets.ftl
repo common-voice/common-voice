@@ -71,11 +71,8 @@ dataset-donate-modal-heading = Vissir þú…
 donate-modal-explanation-1 = Það kostar tæpa milljón dollara á ári að hýsa gagnasöfnin og bæta kerfið fyrir meira en 100 tungumálasamfélögin sem treysta á það sem við gerum?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Ef þú metur opin, inngild gögn – gefðu í dag!</bold>
-
 data-download-singleword-title = Sækja 'Eins orðs markhluta' (Single Word Target Segment)
 data-download-singleword-callout-v2 = Þetta er notkunartilvikadrifinn hluti sem inniheldur gögn til að knýja greiningu talaðra tölustafa og já/nei greiningu.
-## Data
-
 data-download-button = Sækja gögn úr Samrómi
 data-download-yes = Já
 data-download-deny = Nei

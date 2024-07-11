@@ -103,6 +103,7 @@ about-playbook-how-add-sentences = Ndizongeza njani zivakalisi?
 about-playbook-how-add-sentences-content-1 = <strong>Umqokeleli wezivakalisi</strong> sisixhobo sokuqokelela kunye nokuqinisekisa izivakalisi ezifikeleleka kuwonke-wonke. Uya <scAccountLink>kudinga ukwenza i-akhawunti</scAccountLink>. Emva koko, yongeza ulwimi lwakho kwi-<strong>Profayile</strong>. Unako<strong>ukongeza</strong> izivakalisi okanye <strong>Jonga kwakhona</strong> izivakalisi ezongeziweyo ngaphambili.
 about-playbook-how-add-sentences-content-2 = Izivakalisi kufuneka zijongwe kwakhona kwaye zamkelwe ngabantu ababini phambi kokuba zifakwe kwi Common Voice. Wakha izikhokelo zolwimi lwakho<languageGuidelinesLink>apha</languageGuidelinesLink>. izivakalisi kufuneka zibonakale <licenseLink>kuwonke-wonke </licenseLink> kwaye zibengaphantsi kwamagama ali-15. Ungacela umnikazi wombhalo ayenze<waiverLink>CC0 esebenzisa inkqubo yethu ye-waiver </waiverLink>, uyithumele kuthi apha ku- commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Ungasebenzisa I <scraperLink>Sentence extractor</scraperLink>  ukunyusa izivakalisi ezimfutshane ezivela kwi-Wikipedia.
+
 ## How to record quality
 
 about-playbook-how-record-quality = Ndiyirekhoda njani ikliphu yelizwi ekumgangatho ophezulu?
@@ -148,4 +149,6 @@ about-playbook-how-project-governance-content-4 = Ukuthatha inxaxheba koluntu ku
 about-playbook-how-project-governance-content-5 = Ixabiso kunye nokuqatshelwa.
 about-playbook-how-project-governance-content-6 = Uxanduva lokuphendula.
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda ngakumbi malunga nendlela esilawulwa ngayo</governanceLink>
+
+## How is Common Voice funded
 

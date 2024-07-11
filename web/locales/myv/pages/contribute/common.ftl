@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Лепштямс
 action-tap = Токамс
-## Languages
-
-contribute = Лездамс
+contribute = Максомс лезкс
 review = Ванномс-витнемс
 skip = Ютамс вакска
 shortcuts = Керязь кить
@@ -134,4 +130,3 @@ contribution-just-unsure-title = Ансяк Кавтолдат?
 contribution-just-unsure-description = Понгиндеряй истямо тев, конадо неть тевень ветямотнесэ арась кортамо, инескеть, каяк вайгелеть эсеть паро превсэ. Бути алкукс а арсеви тенть, кодамо вайгель каямс, лепштика «вакска ютамонь» повненть ды кундак сыця вайгелень сёрмадовксос.
 see-more = <chevron></chevron>Неемс седе ламо
 see-less = <chevron></chevron>Неемс седе аламо
-

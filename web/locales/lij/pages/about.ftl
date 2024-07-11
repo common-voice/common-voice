@@ -102,6 +102,7 @@ about-playbook-how-add-sentences = Comme fasso à azzonze de frase?
 about-playbook-how-add-sentences-content-1 = O <strong>Sentence Collector</strong> o l’é un instrumento pe arrecheugge e verificâ e frase de pubrico dominio. T’aviæ da <scAccountLink>creâ un conto</scAccountLink>. Dapeu, azzonzi a teu lengua in sciô teu <strong>Profî</strong>. Ti peu <strong>Azzonze</strong> de frase ò <strong>Verificâ</strong> quelle za azzonte.
 about-playbook-how-add-sentences-content-2 = E frase an da ëse verificæ e açettæ da doe persoñe pe ëse azzonte à Common Voice. Ti peu fâ de linie guidda pe-a teu lengua <languageGuidelinesLink>chì</languageGuidelinesLink>. E frase an da ëse into <licenseLink>pubrico dominio</licenseLink> e ciù curte de 15 poule. Ti peu domandâ a-o proprietäio de un testo de rendilo <waiverLink>CC0 co-a nòstra proçedua de deroga</waiverLink>, e mandânelo à commonvoice@mozilla.com.
 about-playbook-how-add-sentences-content-3 = Ti peu addeuviâ o <scraperLink>Sentence extractor</scraperLink> pe ottegnî de breve frase da Wikipedia.
+
 ## How to record quality
 
 about-playbook-how-record-quality = Comme fasso pe registrâ in boña qualitæ?
@@ -147,4 +148,6 @@ about-playbook-how-project-governance-content-4 = A parteçipaçion da communit�
 about-playbook-how-project-governance-content-5 = Valô e reconoscimento.
 about-playbook-how-project-governance-content-6 = Responsabilitæ reçiproca.
 about-playbook-how-project-governance-content-7 = <governanceLink>Saccine de ciù in scî critëi de gestion do progetto.</governanceLink>
+
+## How is Common Voice funded
 

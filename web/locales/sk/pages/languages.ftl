@@ -17,9 +17,6 @@ localized = Preklad stránky
 sentences = Počet viet
 language-validation-hours = Hodiny
 language-validation-progress = Stav overovania
-
-## Languages
-
 contribute = Zapojte sa
 get-involved-button = Zapojte sa
 get-involved-title = Pomôžte s jazykom { $lang }

@@ -45,4 +45,3 @@ sc-criteria-item-3 = Lefoko le swanetše gore le kgone go bolelwa.
 sc-criteria-item-4 = Ge mafoko a wela go kriteria, tobetša &quot;Amogela&quot konotswana e leng thoko la go ja.
 sc-criteria-item-5-2 = Ge e ba lefoko ga le fihlelele kritheriya ya ka godimo, tobetsa; Gana; setobetšwa sa ka go letshadi. Ge e ba o sa kgonthišege ka lefoko, o ka boela wa e taboga gomme o fetele go e latelago.
 sc-criteria-item-6 = Ge e ba o felelwa ke mafoko ao o swanetše go a ahlola, re kgopela o re thuše go kgoboketše mafoko a mangwe!
-

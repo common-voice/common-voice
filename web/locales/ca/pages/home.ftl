@@ -76,4 +76,3 @@ help-contribute = Ajudeu a construir un conjunt de dades lliure i divers creant 
 login-company = Inici de sessió / Registre amb l'adreça electrònica de { $company }
 profile-not-required = No és necessari crear un perfil per col·laborar, però és útil
 read-more-about = Vegeu més informació a la pàgina «Qui som»
-

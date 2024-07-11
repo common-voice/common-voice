@@ -45,9 +45,6 @@ sc-criteria-item-3 = המשפט חייב להיות אפשרי להגיה.
 sc-criteria-item-4 = אם המשפט עומד בתנאים, יש ללחוץ על הכפתור &quot;אישור&quot; שבצד.
 sc-criteria-item-5-2 = אם המשפט לא עומד בתנאים לעיל, לחצו על כפתור &quot;דחייה&quot;. אם אתם לא בטוחים לגבי המשפט, אתם גם יכולים לדלג עליו ולהמשיך הלאה.
 sc-criteria-item-6 = אם אין לכם יותר משפטים לסריקה, נשמח שתעזרו לנו לאסוף עוד!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = בדקו <icon></icon> האם אלה משפטים תקינים מבחינת השפה?
 sc-review-rules-title = האם המשפט מתאים להנחיות?
@@ -61,4 +58,3 @@ review-error-rate-limit-exceeded = אתם זזים מהר מידי! קחו כמ�
 sc-redirect-page-title = אנו מבצעים כאן שינויים גדולים
 sc-redirect-page-subtitle-1 = אספן המשפטים עובר תחת הליבה של Common Voice. תוכלו כעת <writeURL>לכתוב</writeURL> או <reviewURL>לסקור</reviewURL> הגשות של משפטים בודדים ב-Common Voice.
 sc-redirect-page-subtitle-2 = שאלו אותנו שאלות ב-<matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> או <emailLink>בדוא"ל</emailLink>.
-

@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = לחצו
 action-tap = לחצו
-## Languages
-
 contribute = תרומה
 review = סקירה
 skip = דילוג
@@ -147,4 +143,3 @@ contribution-just-unsure-title = לא בטוחים?
 contribution-just-unsure-description = אם נתקלתם במשהו שההנחיות הללו לא כוללות, אנא החליטו לפי מיטב שיקול דעתכם. אם באמת אינכם מצליחים להכריע, השתמש בלחצן הדילוג והמשיכו הלאה.
 see-more = <chevron></chevron>להציג עוד
 see-less = <chevron></chevron>להציג פחות
-

@@ -13,9 +13,6 @@ localized = స్థానీకీకృతం
 sentences = వాక్యాలు
 language-validation-hours = గంటలు
 language-validation-progress = సరిచూత పురోగతి
-
-## Languages
-
 contribute = తోడ్పడండి
 get-involved-button = పాలుపంచుకోండి
 get-involved-title = { $lang }కి తోడ్పడండి

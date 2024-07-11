@@ -33,4 +33,3 @@ demo-listen-subtitle = Siap berkontribusi?
 
 demo-dashboard-card-header = Dasbor pribadi membuat Anda tetap terinformasikan dengan perkembangan individu dan komunitas.
 demo-dashboard-card-body = Untuk setiap klip suara yang disumbangkan, dan setiap klip audio divalidasi, dasbor akun Anda diperbarui untuk mencerminkan kemajuan terbaru dalam setiap bahasa yang Anda kontribusi. Ya, Anda dapat berkontribusi pada lebih dari satu bahasa!<br/><br/> Gunakan dasbor untuk melacak status Anda, lihat bagaimana Anda melakukannya bersama orang lain di komunitas, dan menetapkan sasaran kontribusi harian atau mingguan.
-

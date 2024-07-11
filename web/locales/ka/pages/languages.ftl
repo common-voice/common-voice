@@ -17,9 +17,6 @@ localized = თარგმნილი
 sentences = წინადადება
 language-validation-hours = საათი
 language-validation-progress = წინსვლა შემოწმებაში
-
-## Languages
-
 contribute = წვლილის შეტანა
 get-involved-button = შემოგვიერთდით
 get-involved-title = წვლილის შეტანა { $lang } ენისთვის

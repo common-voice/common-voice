@@ -235,7 +235,6 @@ link-copied = Kitumalilo Chaw'adwa
 back-top = W'uya aja kuzoyenyi Chongonyi
 logout = Fuma Putu
 donate = Kumba Igome
-
 stayintouch = Isi aha Mozilla daw'uyaagha w'umweri ghwa wandu w'iko na bea ya teknoloji ya madedo. Dakunde dikaie dikimanyisha w'angu malagho ghangi maw'ishi, angu andu kungi kuw'ishi kuw'onikie kopatira data, na dakunde mudighorieghe seji mwaw'uyatumia ihi data.
 privacy-info = Dakuhakikishira dilindiagha malagho ghako nicha. Shoma zaidi andenyi ya <privacyLink>Malagho Gha Kiviso</privacyLink>.
 return-to-cv = W'uya kwa Common Voice
@@ -249,3 +248,6 @@ email-opt-in-info-sub-with-challenge = Pata imeili sa reksukuma na kukumbusira l
 email-opt-in-privacy-v2 = Kwa kusaghua kupata imeili, kwaaghora kwarumiria Mozilla iw'ike malagho ghako seji ieleshero andenyi ya <privacyLink>Maandiko gha Malagho gha Kiviso</privacyLink> gha Mozilla.
 indicates-required = Andu ukokose kuw'ikirilo nyeri nyeri (*), icho chilombwagha aho chekundika.
 not-available-abbreviation = Mbai
+
+## Donate banner
+

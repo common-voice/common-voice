@@ -7,7 +7,4 @@ request-language-success-title = Кялень сувафтомать коряс 
 request-language-success-content = Минь пяк вишкста мутядязь, азомок сянь колга, кода сувафтомс тонь кяльцень  Common Voice-ти
 select-language = Кочкамс кяль...
 other-language = Лия кяль
-
-## General
-
 yes-receive-emails = Пара, кучеда мондейне сёрма. Монь ули мялезе содафтомс «Common Voice» проектть кулянзон мархта.

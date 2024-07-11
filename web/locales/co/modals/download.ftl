@@ -7,4 +7,3 @@ download-form-email =
     .value = Vi ringraziemu, vi cuntattaremu.
 download-back = Vultà à e banche di dati di Common Voice
 download-no = Innò, vi ringraziu
-

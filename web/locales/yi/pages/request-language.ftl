@@ -22,4 +22,3 @@ request-language-success-list-3 =
     אויב איר הערט נישט פון אונז ביז אפאר טעג,
     פארבינד אייך צו <emailLink>{ $email }</emailLink>
     און מיר וועלן צוריקומען צו אייך!
-

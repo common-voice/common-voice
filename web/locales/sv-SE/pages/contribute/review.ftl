@@ -45,9 +45,6 @@ sc-criteria-item-3 = Meningen måste vara talbar.
 sc-criteria-item-4 = Om meningen uppfyller kriterierna klickar du på knappen &quot;Godkänn&quot; knappen till höger.
 sc-criteria-item-5-2 = Om meningen inte uppfyller ovanstående kriterier klickar du på knappen &quot;Avvisa&quot; knappen till vänster. Om du är osäker på meningen kan du också hoppa över den och gå vidare till nästa.
 sc-criteria-item-6 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Kontrollera <icon></icon> är detta en språkligt korrekt mening?
 sc-review-rules-title = Uppfyller meningen riktlinjerna?
@@ -61,4 +58,3 @@ review-error-rate-limit-exceeded = Du är för snabb. Ta en stund att granska me
 sc-redirect-page-title = Vi gör några viktiga förändringar
 sc-redirect-page-subtitle-1 = Meningssamlaren flyttar till kärnplattformen Common Voice. Du kan nu <writeURL>skriva</writeURL> en mening eller <reviewURL>granska</reviewURL> enstaka meningsinlämningar på Common Voice.
 sc-redirect-page-subtitle-2 = Ställ frågor till oss på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller <emailLink>e-post</emailLink>.
-

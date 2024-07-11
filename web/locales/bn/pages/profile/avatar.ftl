@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = একটি ছবি ফাইল আপলোড করুন
 browse-file = টানুন এবং ড্রপ করুন অথবা <browseWrap>ব্রাউজ করুন</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = নির্বাচিত ফাইল আকারে খু
 avatar-uploaded = অবতার আপলোড হয়েছে
 max-file-size = সর্বোচ্চ { $kb }কেবি
 remove-avatar = অবতার সরান
-

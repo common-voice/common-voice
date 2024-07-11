@@ -74,11 +74,8 @@ dataset-donate-modal-heading = Eikuaápa…
 donate-modal-explanation-1 = ¿Ohupyty peteĩ sua dólar arýpe oñembyaty hag̃ua mba’ekuaarã aty ha pyendavusu moporãve umi 100 tekoaty ñe’ẽnguéra rehegua ojokupytýva ojejapóva rehe?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Emomba’érõ mba’ekuaarã ijuruja ha ogueroikéva, ¡embojopói ko árape!</bold>
-
 data-download-singleword-title = Emboguejy Ñe’ẽryapu Pehẽ’i
 data-download-singleword-callout-v2 = Kóva peteĩ pehẽ oguerekóva mba’ekuaarã oipytyvõva oñeikũmbykuaa porãve hag̃ua jehaipy.
-## Data
-
 data-download-button = Emboguejy Common Voice Kuaapy
 data-download-yes = Héẽ
 data-download-deny = Nahániri

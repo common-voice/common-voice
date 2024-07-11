@@ -38,4 +38,3 @@ sc-criteria-item-3 = Sözlem aýdylyp bilinýän bolmaly.
 sc-criteria-item-4 = Eger sözlem kriterilere laýyk gelýän bolsa, sagdaky &quot;Tassykla&quot; düwmesine basyň.
 sc-criteria-item-5-2 = Eger sözlem ýokardaky kriterilere gabat gelmeýän bolsa, çepdäki "Ret et" düwmesine basyň. Eger sözlem barada ynamly netijä gelip bilmeseňiz, ony geçiň we indiki sözlem bilen dowam ediň.
 sc-criteria-item-6 = Eger gözden geçirilmeli sözlemleri gutarsaňyz, bize köpräk sözlem ýygnamaga kömek ediň!
-

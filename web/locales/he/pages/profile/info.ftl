@@ -78,4 +78,3 @@ variant-contribution-option-1 = הראו לי משפטים ומקטעי קול �
 variant-contribution-option-2 = הראו לי משפטים ומקטעי קול מהניב שלי בלבד
 variant-contribution-warning-title = ⓘ לא כל המשפטים ומקטעי הקול משוייכים לניב מסויים עדיין!
 variant-contribution-warning-subtitle = אם נתקלת בבעיות בתרומת הקול שלך, באפשרותך לחזור למצב המראה את כל התוכן המתאים לשפה שלך בכל עת.
-

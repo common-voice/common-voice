@@ -1,3 +1,5 @@
+## WRITE PAGE
+
 write = Суруйуу
 # WRITE PAGE
 write-instruction = Киһи-аймах бас билиитэ этиини <icon></icon> киллэриҥ

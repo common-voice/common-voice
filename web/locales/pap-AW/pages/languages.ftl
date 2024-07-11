@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = Contribui
 get-involved-button = Participa

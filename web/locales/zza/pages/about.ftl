@@ -135,4 +135,3 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Biwane, ma sen
 ## How is Common Voice funded
 
 about-playbook-how-funded = Common Voice senî fînanse beno?
-

@@ -105,4 +105,3 @@ validations =
         [one] Тексеру
        *[other] Тексеру
     }
-

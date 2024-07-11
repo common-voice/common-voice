@@ -13,4 +13,3 @@ days =
     { $count ->
        *[zero] djedi
     }
-

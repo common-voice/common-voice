@@ -2,6 +2,9 @@
 
 about-title = Näme üçin Common Voice?
 how-does-it-work-text = Sesleriň açyk çeşmeli maglumat toplumyny köpçülik bolup ýygnaýarys. Sesiňizi bagyş ediň, beýleki adamlaryň klipleriniň dogrulygyny barlaň, maglumatlar toplumyny hemmeler üçin has gowulandyryň.
+
+## How does it work section
+
 about-speak = Geple
 about-speak-text = Goşantçylar bagyş edilen sözlemler bankyndan okamak arkaly ses kliplerini ýazga edýärler.
 about-listen-queue = Diňleme nobaty
@@ -27,3 +30,34 @@ about-nav-why-common-voice = Näme üçin?
 about-nav-how-it-works = Nähili işleýär?
 about-nav-partners = Hyzmatdaşlar
 about-nav-get-involved = Işe goşulyň
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

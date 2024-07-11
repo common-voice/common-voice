@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = V nastajanju
@@ -16,9 +13,6 @@ language-search-input =
 language-speakers = Govorcev
 localized = Lokalizirano
 sentences = Stavki
-
-## Languages
-
 contribute = Prispevaj
 get-involved-button = Pridružite se
 get-involved-title = Pomagajte izboljšati jezik { $lang }

@@ -7,4 +7,3 @@ download-form-email =
     .value = धन्यवाद, हामी सम्पर्कमा रहनेछौं ।
 download-back = Commom Voice डाटासेटहरुमा फर्किनुहोस्
 download-no = पर्दैन, धन्यबाद
-

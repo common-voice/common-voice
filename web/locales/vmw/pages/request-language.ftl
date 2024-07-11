@@ -13,4 +13,3 @@ request-language-google-recaptcha-required = reCAPTCHA tiyophaveleya wakhala wii
 request-language-success-list-1 = Nyuwo munimwaakhela email niinaano eleeliherya mittharelelo sooheliwa nttaava nanyu muhina mwa Common Voice
 request-language-success-list-2 = Axitokwene ahu a muttetthe anrowa olavula ni nyuwo wii mwakhalihere, wala wahimeere wakhala wii wookhala muttetthe mmosa onvara muteko wa nttava naya
 request-language-success-list-3 = Mwiiraka oomwaavyaka ikaruma sa muthinto soosuwelatho awutomaatiku sa nsu, mookhala oolupanyeya ni mutthu mukina mmuttettheni, <discourseLink>moovanelani</discourseLink>
-

@@ -71,4 +71,3 @@ help-contribute = huilis titech palehuis matic chihchihuacan se hueyi base de tl
 login-company = pehualtin sesion/ ximu ihcuilo ican correo de { $company }
 profile-not-required = amo mu niqui ticpixtos se nexica para ti tiquitis, mas yeh huilis tech cualtias
 read-more-about = xicahsi cachi ican tu página ican Common Voice
-

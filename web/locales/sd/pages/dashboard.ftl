@@ -102,4 +102,3 @@ validations =
         [one] تصديق
        *[other] تصديقون
     }
-

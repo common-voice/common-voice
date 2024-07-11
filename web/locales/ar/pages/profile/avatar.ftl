@@ -1,3 +1,5 @@
+## Profile - Avatar
+
 browse-file-title = ارفع ملف صورة
 browse-file = اسحب وأفلِت أو <browseWrap>تصفّح</browseWrap>
 connect-gravatar = اشبك عبر ”غرافاتار“

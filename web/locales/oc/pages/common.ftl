@@ -194,7 +194,6 @@ share-text = Ajudatz as maquines a apréner a parlar coma persones de vertat en 
 link-copied = Ligam copiat
 back-top = Naut dera pagina
 logout = Desconnexion
-
 stayintouch = En Mozilla bastim ua comunitat ath torn des tecnologies dera votz. Voleríem èster ath dia des nauetats, de naues hònts de donades e saber com les emplegatz.
 privacy-info = Mos comprometem a gestionar era vòsta informacion damb suenh. Entà mès informacion, vedetz era <privacyLink>Politica de privadança</privacyLink>.
 return-to-cv = Torna tà Common Voice
@@ -208,7 +207,8 @@ email-opt-in-info-sub-with-challenge = Recebetz corrèus coma rebrembes d'object
 email-opt-in-privacy-v2 = En tot optar per recéber corrèus electronics, acceptatz que Mozilla gestione aguesta informacion enes tèrmes descriti ena sua <privacyLink>politica de privadança</privacyLink> de Mozilla.
 indicates-required = * Indique un camp de besonh
 not-available-abbreviation = Non disponible
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Causitz ua lengua/localizacion

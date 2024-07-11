@@ -83,9 +83,6 @@ username-optin-public = Aɗa waawi suɓaade waɗde innde kuutoro maa e peñcu wa
 demographic-deidentified-clarity-2 = Keɓe ɗe leƴrendiije mbaɗɗaaki naatneede (yeru: njogoram, ɗemngal, ngaddiin) mbaɗetaake e peñcu hay sahaa e heftinirde maa, kadi jokketaake e konte maa e leemre keɓe ndee. Lefon ojoo teelɗe maa njokkondire e keɓe leƴrendiije ngam moƴƴinde siko - yeru, biɗtoowo ena waawi toɓɓunde annorde eelto hucca e taƴannde leƴrendiire heeriinde.
 username-email-not-demographic = Innde kuutoro maa e iimeel maa ndenndinoytaake e keɓe bayyinaaɗe ɗee.
 
-## Profile Download
-
-
 ## Landing
 
 welcome-staff = On njaɓɓaama gollanooɓe { $company }!
@@ -93,4 +90,3 @@ help-contribute = Aɗa waawi mahde leemre keɓe limtoɗinnde, udditiinde so sosd
 login-company = Seŋo/ winndito e { $company } iimeel
 profile-not-required = Jogogol heftinirde wonaa ko waɗɗii ngam wallitde hay so haɗum nafa, yiy ko saabii ɗum les ɗoo.
 read-more-about = Jokku taro to hello amen Ɓaɗte
-

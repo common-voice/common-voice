@@ -9,4 +9,3 @@ request-language-form-info-explanation-list-1 = Имиња на вашиот ј�
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO кодови</isoCodeLink> ако се познати
 request-language-form-info-explanation-list-3 = Врски до веб-локации кои можат да ни помогнат да го разбереме јазикот
 request-language-google-recaptcha-required = Потребна е reCAPTCHA ако сакате да продолжите
-

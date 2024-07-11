@@ -119,6 +119,7 @@ about-playbook-how-add-sentences-content-2 = Imitjho kufuze yamukelwe babantu ab
 about-playbook-how-add-sentences-content-3 =
     Ungasebenzisa <scraperLink>Ihlelo lokurhunyeza
     imitjho</scraperLink> ukuvimbela imitjho emifitjhani evela ku-Wikipedia
+
 ## How to record quality
 
 about-playbook-how-record-quality = Ngingasirekhoda njani isiqetjhana esisezingeni eliphezulu?
@@ -172,4 +173,6 @@ about-playbook-how-project-governance-content-4 = Ukuzibandakanya komphakathi no
 about-playbook-how-project-governance-content-5 = Ukuqakatheka nokutjhejwa.
 about-playbook-how-project-governance-content-6 = Isibopho sokulandisa.
 about-playbook-how-project-governance-content-7 = <governanceLink>Funda okwengeziweko ngendlela esibuswa ngayo</governanceLink>
+
+## How is Common Voice funded
 

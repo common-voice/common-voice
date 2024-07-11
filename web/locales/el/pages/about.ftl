@@ -151,4 +151,3 @@ about-playbook-how-funded = Πώς χρηματοδοτείται το Common Vo
 about-playbook-how-funded-content-1 = Το Common Voice είναι ένα έργο του Ιδρύματος Mozilla, ένα US 501c3. Το έργο χρηματοδοτείται εξ ολοκλήρου από <philantropicGrantLink>φιλανθρωπικές επιχορηγήσεις</philantropicGrantLink> και από δωρεές ανθρώπων από όλο τον κόσμο.
 about-playbook-how-funded-content-2 = Κοστίζει αρκετά χρήματα η συνεχής φιλοξενία και υποστήριξη όλων των δεδομένων, η βελτίωση της πλατφόρμας και η εκτέλεση των <africaMradiLink>προγραμμάτων της κοινότητας</africaMradiLink>.
 about-playbook-how-funded-content-3 = Αν εσείς ή ο οργανισμός σας επιθυμείτε να συνεισφέρετε στο έργο, μπορείτε να κάνετε <donateLink>δωρεά</donateLink> ή να επικοινωνήσετε με την ομάδα συνεργασιών μας στο <emailFragment>commonvoice@mozilla.com</emailFragment>.
-

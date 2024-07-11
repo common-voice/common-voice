@@ -124,4 +124,3 @@ validations =
         [few] потврде
        *[other] потврда
     }
-

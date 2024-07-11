@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Kan du fortælle os, hvorfor du vil have dine optagelser slettet?
 profile-form-delete = Slet profil
-

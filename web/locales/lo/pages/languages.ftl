@@ -17,9 +17,6 @@ localized = ແປເປັນທ້ອງຖິ່ນ
 sentences = ປະໂຫຍກ
 language-validation-hours = ຊົ່ວໂມງ
 language-validation-progress = ຄວາມຄືບໜ້າການກວດສອບ
-
-## Languages
-
 contribute = ສະໜັບສະໜູນ
 get-involved-button = ເຂົ້າມາມີສ່ວນຮ່ວມ
 get-involved-title = ສະໜັບສະໜູນ { $lang }

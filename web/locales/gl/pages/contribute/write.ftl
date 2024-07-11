@@ -1,6 +1,6 @@
-write = Escriba
 ## WRITE PAGE
 
+write = Escriba
 write-instruction = Engada <icon></icon> unha frase de dominio público
 write-page-subtitle = As frases aportadas aquí engadiranse a un conxunto de datos con licenza cc-0 dispoñible publicamente.
 sentence =
@@ -88,4 +88,3 @@ file-invalid-type = O ficheiro non é válido.
 file-too-large = O ficheiro é demasiado grande
 file-too-small = O ficheiro é demasiado pequeno
 too-many-files = Demasiados ficheiros
-

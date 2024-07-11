@@ -101,3 +101,5 @@ about-playbook-how-project-governance-content-5 = Thamani na kutambuliwa.
 about-playbook-how-project-governance-content-6 = Uwajibikaji wa pande zote.
 about-playbook-how-project-governance-content-7 = <governanceLink>Soma zaidi kuhusu jinsi tunavyotawaliwa</governanceLink>
 
+## How is Common Voice funded
+

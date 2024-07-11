@@ -116,4 +116,3 @@ validations =
         [one] دەلىللەش
        *[other] دەلىللەش
     }
-

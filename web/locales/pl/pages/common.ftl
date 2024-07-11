@@ -235,7 +235,6 @@ link-copied = Skopiowano odnośnik
 back-top = Powrót na górę
 logout = Wyloguj się
 donate = Przekaż datek
-
 stayintouch = Tworzymy społeczność korzystającą z otwartej technologii głosu. Chcemy dzielić się z wami aktualnościami, nowymi zasobami danych i historiami korzystania z naszych wspólnych osiągnięć.
 privacy-info = Obiecujemy szanować Twoje dane. Zapoznaj się z naszymi <privacyLink>zasadami ochrony prywatności</privacyLink>.
 return-to-cv = Wróć do Common Voice
@@ -249,3 +248,6 @@ email-opt-in-info-sub-with-challenge = Otrzymuj wiadomości e-mail, takie jak pr
 email-opt-in-privacy-v2 = Wybierając otrzymywanie wiadomości wyrażasz zgodę na wykorzystywanie tych danych przez Mozillę w sposób opisany w <privacyLink>zasadach ochrony prywatności</privacyLink>.
 indicates-required = * wskazuje pole obowiązkowe
 not-available-abbreviation = Niedostępne
+
+## Donate banner
+

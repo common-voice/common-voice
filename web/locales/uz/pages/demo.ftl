@@ -33,4 +33,3 @@ demo-listen-subtitle = Hissa qoʻshishga tayyormisiz?
 
 demo-dashboard-card-header = Shaxsiy boshqaruv panellari sizni individual va jamoaning oʻsishi toʻgʻrisida xabardor qilib turadi.
 demo-dashboard-card-body = Xayriya qilingan va tasdiqlangan har bir audio tasma uchun akkauntingizdagi panellari boʻlimi yangilanadi, siz qo'shgan har bir tildagi so'nggi yutuqlaringizni koʻrsatadi. Ha, siz bir nechta tilga oʻz hissangizni qoʻshishingiz ham mumkin! <br/> <br/> Boshqaruv panelidan statistikangizni kuzatib borish, jamiyatdagilar bilan bir qatorda natijangizni koʻrish, kunlik yoki haftalik maqsadlarni belgilash uchun foydalaning.
-

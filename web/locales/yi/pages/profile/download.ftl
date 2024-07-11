@@ -7,4 +7,3 @@ download-selected = אויסגעוועלטע
 download-request = פארלאנגט רעקארדירונגען
 download-request-button = לאדנט אראפ
 download-request-refresh-button = פרישט איבער
-

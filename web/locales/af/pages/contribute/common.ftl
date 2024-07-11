@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Klik
 action-tap = Tik
-## Languages
-
 contribute = Dra By
 skip = Slaan Oor
 shortcuts = Kortpaaie
@@ -144,4 +140,3 @@ contribution-just-unsure-title = Net onseker?
 contribution-just-unsure-description = As jy iets teëkom wat hierdie riglyne nie dek nie, evalueer die opname asseblief volgens jou beste oordeel. As jy regtig nie kan besluit nie, sien dié opname oor en gaan aan na die volgende opname.
 see-more = <chevron></chevron>Sien meer
 see-less = <chevron></chevron>Sien minder
-

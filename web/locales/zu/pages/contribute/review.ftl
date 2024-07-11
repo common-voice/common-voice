@@ -45,4 +45,3 @@ sc-criteria-item-3 = Umusho kumele ukhulumeke.
 sc-criteria-item-4 = Uma umusho uhlangabezana nemibandela, chofoza okuthi &quot;Vumela&quot; inkinobho kwesokudla.
 sc-criteria-item-5-2 = Uma imisho ingahambelani nemibandela eshiwo ngaphezulu, cindezela u &quot;Nqaba&quot; inkinobho engakwesokunxele. Uma ungaqinisekanga ngomusho, ungaweqa wenze olandelayelo.
 sc-criteria-item-6 = Uma uphelelwa imisho okufanele uyibuyekeze, sicela usisize siqoqe imisho eminingi!
-

@@ -15,9 +15,6 @@ localized = Кусарыме
 sentences = Ойлончо-влак
 language-validation-hours = Шагат
 language-validation-progress = Тергымаш ошкыл
-
-## Languages
-
 contribute = Надырлаш
 get-involved-button = Ушнаш
 get-involved-title = { $lang } йылмылан надырлаш

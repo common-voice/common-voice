@@ -1,6 +1,6 @@
-write = Shkruani
 ## WRITE PAGE
 
+write = Shkruani
 write-instruction = Shtoni një togfjalësh <icon></icon> në përkatësi publike
 write-page-subtitle = Togfjalëshat e dhënë këtu do të shtohen te një grup të dhënash të përdorshme publikisht sipas licencës cc-0.
 sentence =
@@ -89,4 +89,3 @@ file-invalid-type = Kartelë e pavlefshme
 file-too-large = Kartela është shumë e madhe
 file-too-small = Kartela është shumë e vogël
 too-many-files = Shumë kartela
-

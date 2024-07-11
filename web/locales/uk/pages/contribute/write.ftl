@@ -1,6 +1,6 @@
-write = Записати
 ## WRITE PAGE
 
+write = Записати
 write-instruction = Додайте <icon></icon> речення суспільного надбання
 write-page-subtitle = Надані тут речення буде додано до загальнодоступного набору даних з ліцензією cc-0.
 sentence =
@@ -92,4 +92,3 @@ file-invalid-type = Неприпустимий файл
 file-too-large = Файл завеликий
 file-too-small = Файл замалий
 too-many-files = Забагато файлів
-

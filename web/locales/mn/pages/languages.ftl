@@ -13,8 +13,6 @@ language-search-input =
 language-speakers = Яригч
 localized = Нутагшуулсан
 sentences = Өгүүлбэр
-## Languages
-
 contribute = Хувь нэмэр оруулах
 get-involved-button = Оролцох
 get-involved-title = { $lang } хэлэнд хувь нэмэр оруулах

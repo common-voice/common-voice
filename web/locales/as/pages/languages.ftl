@@ -17,9 +17,6 @@ localized = স্থানীয়কৃত
 sentences = বাক্য
 language-validation-hours = ঘণ্টা
 language-validation-progress = বৈধকৰণৰ প্ৰগতি
-
-## Languages
-
 contribute = অৱদান দিয়ক
 get-involved-button = জড়িত হওক
 get-involved-title = { $lang }ত অৱদান দিয়ক

@@ -33,4 +33,3 @@ demo-listen-subtitle = Sei pronto a dare il tuo contributo?
 
 demo-dashboard-card-header = La tua dashboard personale ti tiene aggiornato suoi tuoi progressi e su quelli della comunità.
 demo-dashboard-card-body = La dashboard del tuo account viene aggiornata per ogni registrazione vocale e per ogni registrazione audio validata, riportando i tuoi ultimi progressi in ogni lingua alla quale hai contribuito. Sì, puoi contribuire a più di una lingua!<br/><br/> Usa la dashboard per tenere traccia delle tue statistiche, vedere come stai andando rispetto ad altri della community e impostare obiettivi giornalieri o settimanali.
-

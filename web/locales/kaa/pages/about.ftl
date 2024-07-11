@@ -67,3 +67,5 @@ about-playbook-how-grow-language-content-2 = Ўақиялар
 
 about-playbook-how-project-governance-content-3 = Қупиялық, қәўипсизлик ҳәм ашықлық.
 
+## How is Common Voice funded
+

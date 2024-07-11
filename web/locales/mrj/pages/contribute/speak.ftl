@@ -31,6 +31,5 @@ review-rerecord = Угӹц сирӹмӓш
 review-cancel = Колтымым цӓрӓш
 review-keep-recordings = Сирӹмӹм перегӹ
 review-delete-recordings = Мӹньӹн сирӹмӹм карангдаш
-
 terms-agree = Келшем
 terms-disagree = Ам келшӹ

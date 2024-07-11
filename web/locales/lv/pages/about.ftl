@@ -156,4 +156,3 @@ about-playbook-how-funded = Kas finansē Common Voice?
 about-playbook-how-funded-content-1 = Common Voice ir Mozilla Fonda projekts, ASV 501c3. Pašlaik projektu pilnībā finansē no <philantropicGrantLink>filantropiskām dotācijām</philantropicGrantLink> un cilvēku ziedojumiem visā pasaulē.
 about-playbook-how-funded-content-2 = Datu kopu uzturēšana, platformas attīstīšana un <africaMradiLink>kopienas programmu</africaMradiLink> atbalsts maksā daudz naudas.
 about-playbook-how-funded-content-3 = Ja jūs vai jūsu organizācija vēlaties piedalīties projektā, varat veikt <donateLink>ziedojumu</donateLink> vai sazināties ar mūsu partnerības komandu, rakstot uz e-pasta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>.
-

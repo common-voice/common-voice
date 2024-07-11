@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Ĉu vi povas diri al kial vi ŝatus forigi viajn voĉregistrojn?
 profile-form-delete = Forigi profilon
-

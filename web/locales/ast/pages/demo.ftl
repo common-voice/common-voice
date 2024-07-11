@@ -33,4 +33,3 @@ demo-listen-subtitle = ¿Tas preparáu pa collaborar?
 
 demo-dashboard-card-header = Los paneles personales tiénente informáu tocante al progresu individual y de la comunidá.
 demo-dashboard-card-body = Pa cada clip de voz donáu y validáu, los paneles de la to cuenta van anovase pa reflexar el progresu más recién en cada lingua na que collabores. ¡Sí, pues collaborar en más d'una!<br/><br/>Usa los paneles pa siguir les tos estadístiques, ver cómo rindes en rellación a los demás miembros de la comunidá y afitar oxetivos de collaboración diarios o selmanales.
-

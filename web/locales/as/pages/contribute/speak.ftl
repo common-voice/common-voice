@@ -33,7 +33,6 @@ review-rerecord = পুনঃৰেকৰ্ড কৰক
 review-cancel = দাখিল কৰা বাতিল কৰক
 review-keep-recordings = ৰেকৰ্ডিংবোৰ ৰখি থওক
 review-delete-recordings = মোৰ ৰেকৰ্ডিংবোৰ মচি পেলাওক
-
 review-terms = কমন ভইচ ব্যৱহাৰ কৰি, আপুনি আমাৰ <termsLink>নীতি</termsLink> আৰু <privacyLink>গোপনীয়তাৰ জাননী</privacyLink>ক সন্মতি জনাইছে
 terms-agree = মই সন্মত
 terms-disagree = মই সন্মত নহয়

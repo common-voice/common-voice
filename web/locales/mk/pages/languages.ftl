@@ -15,9 +15,6 @@ localized = Локализиран
 sentences = Реченици
 language-validation-hours = Часови
 language-validation-progress = Напредок на валидација
-
-## Languages
-
 contribute = Придонеси
 get-involved-button = Вклучете се
 get-involved-title = Придонесете на { $lang }

@@ -7,4 +7,3 @@ download-form-email =
     .value = Rahmat, tezda siz bilan bog‘lanamiz.
 download-back = Common Voice ma’lumot bazasiga qaytish
 download-no = Kerak emas
-

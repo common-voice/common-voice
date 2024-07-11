@@ -14,9 +14,6 @@ language-speakers = Locutors
 localized = Traduccion
 sentences = Frases
 language-validation-hours = Ores
-
-## Languages
-
 contribute = Collaboratz‑i
 get-involved-button = Collaboratz‑i
 get-involved-title = Collabòra en { $lang }

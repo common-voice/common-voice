@@ -1,6 +1,11 @@
-## Languages
-
 contribute = Contribuer
+
+## Contribution Nav Items
+
+
+## Reporting
+
+
 ## Speak & Listen Shortcuts
 
 # Must be one letter that appears in the translated { skip } string.
@@ -27,4 +32,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

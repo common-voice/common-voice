@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Վերբեռնել պատկեր
 browse-file = Քաշեք-քցեք կամ <browseWrap>Ընտրեք</browseWrap>
@@ -7,4 +7,3 @@ gravatar_not_found = Ձեր էլ. փոստի հասցեով Gravatar չի գտն
 file_too_large = Ընտրված ֆայլը չափազանց մեծ է
 avatar-uploaded = Ավաթար վերբեռնված
 max-file-size = $kb kb առավելագույնը
-

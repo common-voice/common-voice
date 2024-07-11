@@ -66,4 +66,6 @@ recordings-and-locale-public = Umubare w'ibyo washyizeho n'indimi watanzeho umus
 username-optin-public = Ushobora guhitamo kwerekana izina ndanga ukoresha cyangwa nturyerekane.
 username-email-not-demographic = Izina ndanga ryawe na imeri ntibizajya hamwe n'imbonwa zizatangazwa.
 
+## Landing
+
 profile-not-required = Kugira ibigwi bikomeye si byo ngombwa nubwo byafasha.

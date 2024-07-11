@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Danna
 action-tap = Shafa
-## Languages
-
-contribute = Taimaka
+contribute = Gudunmawa
 skip = Wuce
 shortcuts = Gajerun hanyoyi
 clips-with-count-pluralized =
@@ -29,6 +25,9 @@ target-segment-generic-card = Kana ba da gudummawa ga ɓangaren hadafinmu na far
 target-segment-first-banner = Taimaka wajan ƙirƙirar ɓangaren farko na Common Voice a cikin { $locale }
 target-segment-add-voice = Ƙara Muryar ka
 target-segment-learn-more = Ci gaba da koyo
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -81,4 +80,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

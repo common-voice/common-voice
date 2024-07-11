@@ -1,15 +1,3 @@
-## Speak & Listen Shortcuts
-
-
-## Listen Shortcuts
-
-
-## Speak Shortcuts
-
-
-## ProjectStatus
-
-
 ## ProfileForm
 
 profile-form-custom-accent-help-text =
@@ -22,4 +10,3 @@ edit = Эдер
 email-subscriptions = Электроннуг почта таварыштыр чагыдылгалар
 download-profile = Мээң медээлеримни үндүртүр
 contribution-experience = Common Voice-биле ажылыңарны үнелеңер
-

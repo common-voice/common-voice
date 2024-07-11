@@ -28,4 +28,3 @@ download-request-modal-description = Här är länkarna för att ladda ner dina 
 download-request-link-text = Zip #{ $offset } av { $total }
 download-request-metadata-link = Meningstext
 download-request-link-single = Du kan också kopiera och klistra in de direkta webbadresserna i din favorithämtningshanterare. De upphör om 12 timmar, men du kan när som helst återvända till den här sidan för att skapa nya.
-

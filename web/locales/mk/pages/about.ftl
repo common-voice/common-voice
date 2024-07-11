@@ -102,3 +102,5 @@ about-playbook-how-project-governance-content-4 = Учество на заедн
 about-playbook-how-project-governance-content-5 = Вредност и признание.
 about-playbook-how-project-governance-content-6 = Взаемна одговорност.
 
+## How is Common Voice funded
+

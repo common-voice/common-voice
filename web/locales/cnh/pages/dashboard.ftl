@@ -81,4 +81,3 @@ validations =
         [one] Chek cangmi
        *[other] Chek cangmi
     }
-

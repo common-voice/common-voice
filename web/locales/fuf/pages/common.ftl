@@ -224,7 +224,6 @@ link-copied = Jokkol nattaama
 back-top = Rutto Dow
 logout = Seŋto
 donate = eteeegooto
-
 stayintouch = Min ga Mozilla gaa, amin cosa renndo toppitiingo karallagal daaɗe. Amin njiɗi njokkondiren ngam keɓaa kesɗitine, cewɗe keɓe kese kadi min keɓa e no kuutorto-ɗaa ɗee keɓe.
 privacy-info = Amin ngaadani maa huutoraade humpito maa e nuunɗal. Ɓeydu humpito to <privacyLink>Ciifol Suturo</privacyLink>.
 return-to-cv = Rutto to Common Voice
@@ -238,3 +237,6 @@ email-opt-in-info-sub-with-challenge = Heɓ iimeeluuji hono ciiftinooji ko fad-m
 email-opt-in-privacy-v2 = Suɓaade heɓde iimeeliiji firti ko aɗa yahdi e kuutoragol Mozilla ngoo humpito hono no facciraa e <privacyLink>Dawirgol Duturo</privacyLink> Mozilla.
 indicates-required = * Joofii ko gallol baɗɗingol
 not-available-abbreviation = N/A
+
+## Donate banner
+

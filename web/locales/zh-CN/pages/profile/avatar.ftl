@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = 上传图片
 browse-file = 拖放至此，或者<browseWrap>浏览</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = 所选文件太大
 avatar-uploaded = 头像已上传
 max-file-size = 最大 { $kb }kb
 remove-avatar = 移除头像
-

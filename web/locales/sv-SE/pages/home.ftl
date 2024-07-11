@@ -79,4 +79,3 @@ help-contribute = Du kan hjälpa till att bygga en mångsidig, öppen datamängd
 login-company = Logga in / registrera dig med { $company } e-post
 profile-not-required = Det behövs ingen profil för att bidra, men det underlättar
 read-more-about = Läs mer på vår om sida
-

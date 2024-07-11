@@ -1,6 +1,6 @@
-write = Ndiki
 ## WRITE PAGE
 
+write = Ndiki
 write-instruction = Medi <icon></icon> wach mayudore e aluora ma galamoro
 sentence =
     .label = Wach

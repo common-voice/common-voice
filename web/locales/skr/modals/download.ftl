@@ -7,4 +7,3 @@ download-form-email =
     .value = تہاݙا تھورا، اساں رابطہ کریسوں۔
 download-back = کامن وائس ڈیٹاسیٹ تے واپس ون٘ڄو
 download-no = کو، شکریہ
-

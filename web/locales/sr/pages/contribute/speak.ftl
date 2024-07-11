@@ -33,7 +33,6 @@ review-rerecord = Поновно снимање
 review-cancel = Откажи слање
 review-keep-recordings = Задржите снимке
 review-delete-recordings = Избришите моје снимке
-
 review-terms = Коришћењем Common Voice-а, слажете се са нашим  <termsLink>условима</termsLink> и  <privacyLink>политиком приватности</privacyLink>
 terms-agree = Слажем се
 terms-disagree = Не слажем се

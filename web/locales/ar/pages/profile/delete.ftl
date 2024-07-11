@@ -10,4 +10,3 @@ why-delete-recordings =
     
     هل لك أن تخبرنا ما السبب وراء طلبك حذف تسجيلاتك؟
 profile-form-delete = احذف الملف الشخصي
-

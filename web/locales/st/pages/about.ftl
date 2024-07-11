@@ -104,6 +104,7 @@ about-playbook-how-add-sentences = Ke kenya dipolelo jwang?
 about-playbook-how-add-sentences-content-1 = <strong>Mmokelli wa Dipolelo</strong> ke sesebediswa sa ho bokella le ho netefatsa dipolelo tse phatlalatswang setjhabeng. O tla <scAccountLink> hloka ho etsa ak'haonte </scAccountLink>. Ebe, o kenya puo ya hao ho <strong>Profile</strong>. O ka <strong>Kenya</strong>dipolelo kapa wa<strong>Hlahloba</strong> dipolelo tse kentsweng kgale.
 about-playbook-how-add-sentences-content-2 = Dipolelo di tlameha ho hlahlojwa le ho amohelwa ke batho ba babedi hore di kenyelletswe ho Common Voice. O etsa ditataiso tsa puo ya hao<languageGuidelinesLink> mona</languageGuidelinesLink>. Dipolelo di tlameha<licenseLink> ho ba tse ka bonwang ke setjhaba</licenseLink> mme di be ka tlase ho mantswe a 15. O ka kopa mong'a sengolwa hore a e etse<waiverLink> CC0 ka ho sebedisa mokgwa wa rona wa ho nyahlatsa</waiverLink>, mme a re romelle yona ho commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = O ka sebedisa <scraperLink>Sesebediswa se hulang dipolelo</scraperLink> ho sebedisa dipolelo tse kgutshwanyane ho tloha Wikipedia.
+
 ## How to record quality
 
 about-playbook-how-record-quality = Nka rekota clip ya lentswe ya boleng bo hodimo jwang?
@@ -149,4 +150,6 @@ about-playbook-how-project-governance-content-4 = Ho kenya letsoho ha setjhaba l
 about-playbook-how-project-governance-content-5 = Boleng le temoho.
 about-playbook-how-project-governance-content-6 = Boikarabello ka kopanelo.
 about-playbook-how-project-governance-content-7 = <governanceLink>Bala haholwanyane ka moo re buswang ka teng</governanceLink>
+
+## How is Common Voice funded
 

@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Bitikne
 action-tap = Bêçike pane
-## Languages
-
-contribute = Dest bide
+contribute = Beşdar be
 review = Çim Biçarne
 skip = Ravêre
 shortcuts = Kilmrayîrî
@@ -90,9 +86,6 @@ shortcut-vote-yes = h
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = Krîterî
@@ -147,4 +140,3 @@ contribution-just-unsure-title = Emîn nîyî/nîya?
 contribution-just-unsure-description = Eke ti raştê çîyêk yenî/a ke rayberan de tarîf nêbîyo, keremê xo ra goreyê mantiqê selîmî ra ray bide. Eke ti nêeşkenî/a qerar bidê, "ravêre" ser o bitikne û şo qeydo ameyox.
 see-more = <chevron></chevron>Hîna zaf binawne
 see-less = <chevron></chevron>Kêmî binawne
-

@@ -112,4 +112,3 @@ validations =
         [one] Lineebe jada
        *[other] Maneebe matan
     }
-

@@ -10,4 +10,3 @@ why-delete-recordings =
     
     能让我们知道您为什么想要删除录音片段吗？
 profile-form-delete = 删除用户资料
-

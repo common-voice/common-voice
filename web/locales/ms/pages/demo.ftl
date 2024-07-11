@@ -29,4 +29,3 @@ demo-listen-subtitle = Bersedia untuk menyumbang?
 ## Demo Dashboard
 
 demo-dashboard-card-body = Untuk setiap klip suara yang didermakan dan setiap klip audio yang disahkan, papan pemuka akaun Anda dikemas kini untuk menggambarkan kemajuan terkini anda dalam setiap bahasa yang anda sumbangkan. Ya, anda boleh menyumbang kepada lebih daripada satu!<br/><br/> Gunakan papan pemuka untuk menjejaki statistik anda, lihat prestasi anda bersama orang lain dalam komuniti dan tetapkan matlamat sumbangan harian atau mingguan.
-

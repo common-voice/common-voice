@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = एक छायाचित्र अपलोड करा
 browse-file = ड्रॅग आणि ड्रॉप किंवा <ब्राऊज रॅप> ब्राउझ </ b> ब्राउझ </ b>
@@ -7,4 +7,3 @@ gravatar_not_found = आपल्या ईमेलसाठी gravatar सा
 file_too_large = निवडलेली फाईल खूप मोठी आहे
 avatar-uploaded = अवतार अपलोड केला आहे.
 max-file-size = { $kb } kb कमाल
-

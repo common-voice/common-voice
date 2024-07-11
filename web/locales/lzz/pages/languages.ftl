@@ -13,10 +13,7 @@ localized = Dilokalizu
 sentences = Cumlepe
 language-validation-hours = Saat̆epe
 language-validation-progress = Otzuranuşi elaxtima
-
-## Languages
-
-contribute = Memaǩatit
+contribute = Eǩoşvelu
 get-involved-button = Keǩomant̆alit
 get-involved-title = { $lang }-s naǩatit
 get-involved-text = "{ $lang }'s naǩatit şeni ntsaşa extit. K'at̆a nena xadziri oyapu şeni dido viçalişamt do ekibepe-çkuni e-postate meyopsturesarumt. Meǩatu ginonanna (gorumtna) tude e-posta adresi-tkvani doç̌arit.

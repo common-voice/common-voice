@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Èske ou ka fè nou konnen poukisa ou ta renmen efase anrejistreman ou yo?
 profile-form-delete = Efase Profile
-

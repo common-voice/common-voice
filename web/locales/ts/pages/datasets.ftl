@@ -55,11 +55,8 @@ more = Swo tala
 close = Pfala
 download = Kopa
 dataset-version = Nkandziyiso
-
 data-download-singleword-title = Downloda Xiyenge xa ​​Rito rin’we leri kongomisiweke
 data-download-singleword-callout-v2 = Lexi i xiphemu lexi fambiwaka hi xiyimo xa matirhiselo lexi nga na rungula ku nyika matimba ya ku lemuka ka tinomboro leti vulavuriwaka na ku kumiwa ka ina / e-e.
-## Data
-
 data-download-button = Downloda Rungula ra Common Voice
 data-download-yes = Ina
 data-download-deny = E-e

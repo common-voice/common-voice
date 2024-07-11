@@ -95,4 +95,3 @@ reviewing-sentences-explanation-2 = Als de zin niet aan de bovenstaande criteria
 reviewing-sentences-explanation-3 = Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
 reviewing-sentences-explanation-4 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
 domain-explanation = Domein verwijst naar het onderwerp van de zin. Momenteel kunt u kiezen tussen:
-

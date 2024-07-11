@@ -83,4 +83,3 @@ help-contribute = Nde reipytyvõkuaa rojapo hag̃ua ko tembiapo porã, ha’éva
 login-company = Eike / Eñemboheraguapy ñanduti veve { $company } reheve
 profile-not-required = Anínte ejapo nde rogueteerã reporopytyvõ hag̃ua katu iporãvéta rejapórõ, ko guýpe romoesakãmive mba’érepa.
 read-more-about = Emoñe’ẽve ore kuatiarogue rehegua
-

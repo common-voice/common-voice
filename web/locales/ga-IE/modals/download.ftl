@@ -7,4 +7,3 @@ download-form-email =
     .value = Go raibh maith agat, beimid i dteagmháil go luath.
 download-back = Fill ar Thacair Shonraí Common Voice
 download-no = Níl, GRMA
-

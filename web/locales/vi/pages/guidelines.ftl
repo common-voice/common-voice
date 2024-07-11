@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = Nếu câu không đáp ứng các tiêu ch�
 reviewing-sentences-explanation-3 = Nếu bạn không chắc chắn về câu đó, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
 reviewing-sentences-explanation-4 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
 domain-explanation = Phạm vi đề cập đến chủ đề của câu. Hiện tại, bạn có thể chọn giữa:
-

@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Кликни
 action-tap = Тапни
-## Languages
-
-contribute = Допринесите
+contribute = Допринеси
 skip = Прескочи
 shortcuts = Пречице
 clips-with-count-pluralized =
@@ -103,4 +99,3 @@ contribution-misreadings-description-extended-list-4 = Одсуство крај
 contribution-misreadings-description-extended-list-5 = Поновљени покушаји читања речи.
 see-more = <chevron></chevron>Прикажи више
 see-less = <chevron></chevron>Прикажи мање
-

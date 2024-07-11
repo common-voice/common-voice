@@ -1,1 +1,5 @@
-    .label = ਈਮੇਲ
+## WRITE PAGE
+
+
+## BULK SUBMISSION 
+

@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Cliquez sur
 action-tap = Appuyez sur
-## Languages
-
 contribute = Contribuer
 review = Vérifier
 skip = Passer
@@ -147,4 +143,3 @@ contribution-just-unsure-title = Vous hésitez ?
 contribution-just-unsure-description = Si vous rencontrez une situation que ces consignes ne couvrent pas, veuillez voter en faisant appel à votre bon sens. Si vous n’arrivez vraiment pas à vous décider, utilisez le bouton « Passer » et passez à l’enregistrement suivant.
 see-more = <chevron></chevron>Afficher plus d’exemples
 see-less = <chevron></chevron>Afficher moins d’exemples
-

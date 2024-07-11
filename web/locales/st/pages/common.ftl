@@ -201,7 +201,6 @@ share-text = Thusa ho ruta metjhini hore na batho ba nnete ba bua jwang, fana ka
 link-copied = Hokahanyo e kopiditswe
 back-top = Kgutlela Hodimo
 logout = Tswa
-
 stayintouch = Rona ba Mozilla re haha setjhaba mabapi le thekenoloji e sebetsang ka lentswe. Re ka lakatsa ho dula re tseba ka dintlafatso, mehlodi e metjha ya data le ho utlwa haholwanyane ka hore na o sebedisa data ena jwang.
 privacy-info = Re tshepisa ho sebetsana le ditaba tsa hao ka hloko. Bala haholwanyane ho <privacyLink>Tsebiso ya Lekunutu</privacyLink>.
 return-to-cv = Kgutlela ho Common Voice
@@ -215,7 +214,8 @@ email-opt-in-info-sub-with-challenge = Fumana di-imeiletse kang phephetso le dik
 email-opt-in-privacy-v2 = Ha o kgetha ho amohela di-email o bolela hore ha o na bothata ha Mozilla e sebetsana le dintlha tsena jwalo kaha ho hlalositswe ho Mozilla <privacyLink>Leano la Lekunutu</privacyLink>.
 indicates-required = Dibaka tse tshwauweng ka naledi (*) di a hlokahala.
 not-available-abbreviation = N/A
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = kgetha puo/localization

@@ -1,6 +1,6 @@
-write = Skriv
 ## WRITE PAGE
 
+write = Skriv
 write-instruction = Legg til <icon></icon> en offentlig domenesetning
 write-page-subtitle = Setninger som er bidratt her vil bli lagt til et offentlig tilgjengelig cc-0-lisensiert datasett.
 sentence =
@@ -77,4 +77,3 @@ file-invalid-type = Ugyldig fil
 file-too-large = Filen er for stor
 file-too-small = Filen er for liten
 too-many-files = For mange filer
-

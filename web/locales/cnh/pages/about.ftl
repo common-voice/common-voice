@@ -2,6 +2,9 @@
 
 about-title = Common Voice cu zei ruangah dah kan hman?
 how-does-it-work-text = Minung tampi sin in aw-cawi pawl hi khawmh an si. Aw rak tun, midang aw-tun mi rak chek. Cuticun mi zapi caah a sunglawimi thilṭha kan ser lai.
+
+## How does it work section
+
 about-speak = Chim
 about-speak-text = Biatlang hlutmi hi bawmtu nih an rel i an aw an tun.
 about-listen-queue = Ngaihnak Hmun
@@ -23,3 +26,34 @@ about-nav-why-common-voice = Zei Ruangah?
 about-nav-how-it-works = Zeitin?
 about-nav-partners = Ṭuanṭi
 about-nav-get-involved = I tel ve
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

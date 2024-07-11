@@ -47,9 +47,6 @@ sc-criteria-item-3 = Věta musí být vyslovitelná.
 sc-criteria-item-4 = Pokud věta splňuje kritéria, klepněte vpravo na tlačítko &quot;Schválit&quot;.
 sc-criteria-item-5-2 = Pokud věta nesplňuje výše uvedená kritéria, klepněte vlevo na tlačítko „Zamítnout“;. Pokud si větou nejste jisti, můžete ji také přeskočit a přejít na další.
 sc-criteria-item-6 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Zkontrolujte <icon></icon>, že je tato věta jazykově správně.
 sc-review-rules-title = Odpovídá věta doporučením?
@@ -63,4 +60,3 @@ review-error-rate-limit-exceeded = Jedete příliš rychle. Věnujte prosím chv
 sc-redirect-page-title = Probíhají rozsáhlé úpravy
 sc-redirect-page-subtitle-1 = Aplikace Sentence Collector přechází na základní platformu Common Voice. Nyní můžete přímo na Common Voice jednotlivé věty <writeURL>psát</writeURL> nebo <reviewURL>ověřit</reviewURL>.
 sc-redirect-page-subtitle-2 = Ptejte se na <matrixLink>Matrixu</matrixLink>, <discourseLink>Discourse</discourseLink> nebo <emailLink>e-mailem</emailLink>.
-

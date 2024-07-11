@@ -45,9 +45,6 @@ sc-criteria-item-3 = جۈملىنى سۆزلىگىلى بولىدىغان بول
 sc-criteria-item-4 = ئەگەر جۈملە بۇ ئۆلچەمگە توشسا، ئوڭ تەرەپتىكى «تەستىقلا» توپچىسى بېسىلىدۇ.
 sc-criteria-item-5-2 = ئەگەر بۇ جۈملە يۇقىرىقى ئۆلچەمگە توشمىسا، سول تەرەپتىكى «رەت قىل» توپچىسىنى چېكىڭ. ئەگەر بۇ جۈملىنى جەزملىيەلمىسىڭىز، ئۇنى ئاتلاپ كېيىنكى جۈملىگە يۆتكەلسىڭىزمۇ بولىدۇ.
 sc-criteria-item-6 = ئەگەر تەكشۈرىدىغان جۈملە تۈگەپ كەتسە، تېخىمۇ كۆپ جۈملە توپلىشىمىزغا ياردەم قىلىڭ.
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = گىرامماتىكىسى توغرا چۈملە ئىكەنلىكىنى <icon></icon> تەكشۈرىدۇ
 sc-review-rules-title = بۇ جۈملە كۆرسەتمىگە ئۇيغۇنمۇ؟
@@ -61,4 +58,3 @@ review-error-rate-limit-exceeded = بەك ئالدىراقسانلىق قىلم�
 sc-redirect-page-title = بىز بەزى چوڭ ئۆزگەرتىشلەرنى ئېلىپ بېرىۋاتىمىز
 sc-redirect-page-subtitle-1 = جۈملە يىغقۇچ Common Voice سۇپىسىغا يۆتكىلىۋاتىدۇ. سىز ھازىر بىر جۈملە <writeURL>يېزىپ</writeURL> ياكى بىر جۈملە <reviewURL>تەكشۈرۈپ</reviewURL> ئۇنى Common Voice قا يوللىيالايسىز.
 sc-redirect-page-subtitle-2 = <matrixLink>Matrix</matrixLink>، <discourseLink>Discourse</discourseLink> ياكى <emailLink>ئېلخەت</emailLink> ئارقىلىق بىزدىن سوئال سوراڭ.
-

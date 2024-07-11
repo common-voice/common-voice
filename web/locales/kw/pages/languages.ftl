@@ -13,9 +13,6 @@ localized = Leelhes
 sentences = Lavarow
 language-validation-hours = Ourys
 language-validation-progress = Avonsyans Dilysa
-
-## Languages
-
 contribute = Kevri
 get-involved-button = Kemeres rann
 get-involved-title = Kevri dhe'n versyon { $lang }

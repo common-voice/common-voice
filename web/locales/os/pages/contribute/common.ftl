@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Æрхæц
 action-tap = Фæцагай
-## Languages
-
-contribute = Бацархай
+contribute = Дæ бавæрд бахæсс
 review = Басгæрст
 skip = Ныууадз
 shortcuts = Къæбæлты æмиуæд
@@ -109,4 +105,3 @@ contribution-varying-pronunciations-title = Алыхуызон дзурыны а
 contribution-background-noise-title = Фоны хъӕлӕба
 contribution-background-noise-example-2-explanation = [Тексты хай нæ хъуысы]
 contribution-background-voices-title = Æндæр хъæлæстæ уыцы-иу фысты
-

@@ -1,6 +1,6 @@
-write = ຂຽນ
 ## WRITE PAGE
 
+write = ຂຽນ
 write-instruction = ເພີ່ມ <icon></icon> ປະໂຫຍກໂດເມນສາທາລະນະ
 write-page-subtitle = ປະໂຫຍກທີ່ປະກອບສ່ວນຢູ່ທີ່ນີ້ຈະຖືກເພີ່ມໃສ່ຊຸດຂໍ້ມູນທີ່ມີໃບອະນຸຍາດ cc-0 ທີ່ມີໃຫ້ສາທາລະນະ.
 sentence =
@@ -56,4 +56,3 @@ file-invalid-type = ໄຟລ໌ບໍ່ຖືກຕ້ອງ
 file-too-large = ໄຟລ໌ໃຫຍ່ເກີນໄປ
 file-too-small = ໄຟລ໌ນ້ອຍເກີນໄປ
 too-many-files = ໄຟລ໌ຫຼາຍເກີນໄປ
-

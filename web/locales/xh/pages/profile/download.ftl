@@ -28,4 +28,3 @@ download-request-modal-description = Nazi iilinki zokukhuphela iifayile zakho ze
 download-request-link-text = iZip #{ $offset } ye { $total }
 download-request-metadata-link = Isicatshulwa sesivakalisi
 download-request-link-single = Unokukopa kwaye uncamathisele ii-URL ezithe ngqo kwindawo yokukhuphela oyithandayo. Ziya kuphelelwa kwiiyure ezili-12, kodwa ungabuyela kweli phepha ukwenza ezintsha nangaliphi na ixesha.
-

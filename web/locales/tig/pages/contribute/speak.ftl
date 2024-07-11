@@ -32,7 +32,6 @@ review-rerecord = ካልእ ዶል ስጅል
 review-cancel = ልእከት ኣብጥር
 review-keep-recordings = ዲብ ትስጂል ኣስተምር
 review-delete-recordings = ትስጂልየ ዎርክዮ
-
 review-terms = ክርን ሕበር እንደ ታኣስታዕሙሎ እብ <termsLink>ሽሩጥ</termsLink> ው <privacyLink>ሓበረ ናይ ክሱስየት</privacyLink>
 terms-agree = አዋፍቅ
 terms-disagree = ይአዋፍቅኒ

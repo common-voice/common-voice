@@ -17,9 +17,6 @@ localized = Vertaald
 sentences = Zinnen
 language-validation-hours = Uren
 language-validation-progress = Validatievoortgang
-
-## Languages
-
 contribute = Bijdragen
 get-involved-button = Meewerken
 get-involved-title = Bijdragen aan het { $lang }

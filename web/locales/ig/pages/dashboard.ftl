@@ -109,4 +109,3 @@ validations =
         [one] Ńkwàdó
        *[other] Ńkwàdó
     }
-

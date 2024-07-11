@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Clica
 action-tap = Toca
-## Languages
-
 contribute = Contribui
 review = Revisiona
 skip = Brinca
@@ -147,4 +143,3 @@ contribution-just-unsure-title = Tenes dudas?
 contribution-just-unsure-description = Si agatas calicuna cosa chi custas lìnias ghia non previdint vota sighende su giudìtziu tuo. Si a beru non renesses a detzìdere, duncas imprea su butone pro brincare e bae a sa registratzione imbeniente.
 see-more = <chevron></chevron>Càstia de prus
 see-less = <chevron></chevron>Càstia prus pagu
-

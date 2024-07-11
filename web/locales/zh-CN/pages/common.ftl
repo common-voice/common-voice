@@ -235,7 +235,6 @@ link-copied = 链接已复制
 back-top = 回到顶端
 logout = 退出登录
 donate = 捐助
-
 stayintouch = 在 Mozilla，我们正围绕语音技术建立一个社区。我们想与新技术、新数据的来源保持联系，也想知道您会如何使用这些数据。
 privacy-info = 我们承诺谨慎处理您的信息。您可以阅读我们的<privacyLink>隐私声明</privacyLink>以详细了解。
 return-to-cv = 返回到 Common Voice 的主页
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = 接收诸如挑战、目标提醒、进�
 email-opt-in-privacy-v2 = 若同意接收邮件，即代表您同意依照 Mozilla 的<privacyLink>隐私政策</privacyLink>所描述的方式处理这些信息。
 indicates-required = * 表示必填字段
 not-available-abbreviation = 不可用
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = 每年托管数据集和为 100 多个依赖我�
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>在用 Common Voice</mark><br/><mark>来做研究？</mark>
 languages-donate-banner-cta-explanation = Common Voice 的资金来自捐款和基金！我们热爱与学术界、民间社会和行业研究人员的合作。 Common Voice 可以免费使用，但通过基金支付平台改善和托管费用也会非常有帮助。
-# [/SentenceCollector]
-
 localization-select =
     .label = 选择语言 / 本地化

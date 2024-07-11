@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Klik på
 action-tap = Tryk på
-## Languages
-
 contribute = Bidrag
 review = Godkend
 skip = Spring over
@@ -139,4 +135,3 @@ contribution-just-unsure-title = Bare usikker?
 contribution-just-unsure-description = Hvis du støder på noget, som disse retningslinjer ikke dækker, bedes du stemme efter din bedste vurdering. Hvis du virkelig ikke kan beslutte dig, så brug knappen 'Spring over' og gå videre til næste optagelse.
 see-more = <chevron></chevron>Se mere
 see-less = <chevron></chevron>Se mindre
-

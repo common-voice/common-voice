@@ -27,4 +27,3 @@ download-request-modal-title = downloaden klipishek
 download-request-modal-description = aranchuu linkishek chegidownloadene filishekab zip
 download-request-link-text = Zip #{ $offset } chebo { $total }
 download-request-metadata-link = ngalekab sentensi
-

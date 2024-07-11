@@ -17,9 +17,6 @@ localized = Μετάφραση
 sentences = Προτάσεις
 language-validation-hours = Ώρες
 language-validation-progress = Πρόοδος επικύρωσης
-
-## Languages
-
 contribute = Συνεισφορά
 get-involved-button = Συμμετοχή
 get-involved-title = Συνεισφορά στα { $lang }

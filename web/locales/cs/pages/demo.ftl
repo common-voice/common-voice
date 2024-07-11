@@ -33,4 +33,3 @@ demo-listen-subtitle = Jste připraveni se zapojit?
 
 demo-dashboard-card-header = Na své osobní nástěnce uvidíte přehled svého osobního postupu i postupu celé komunity.
 demo-dashboard-card-body = Vaše nástěnka se aktualizuje s každou nově nahranou nebo ověřenou nahrávkou v každém jazyce, do kterého přispíváte. Můžete pomáhat i s několika jazyky zároveň.<br/><br/>Na nástěnce sledujte své statistiky, jak se vám daří v porovnání s ostatními, a můžete si nastavit osobní denní nebo týdenní cíle.
-

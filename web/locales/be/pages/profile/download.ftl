@@ -28,4 +28,3 @@ download-request-modal-description = Вось спасылкі для спамп
 download-request-link-text = Zip №{ $offset } з { $total }
 download-request-metadata-link = Тэкст сказаў
 download-request-link-single = Вы таксама можаце скапіраваць прамыя URL-адрасы і ўставіць у ваш улюбёны менеджар спамповак. Спасылкі перастануць дзейнічаць праз 12 гадзін, але вы можаце ў любы час вярнуцца на гэтую старонку, каб згенераваць новыя.
-

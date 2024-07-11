@@ -78,4 +78,3 @@ variant-contribution-option-1 = Alleen zinnen en fragmenten van mijn variant ton
 variant-contribution-option-2 = Mij zinnen en fragmenten van alle varianten in mijn taal tonen
 variant-contribution-warning-title = ⓘ Nog niet alle zinnen en fragmenten hebben variantlabels!
 variant-contribution-warning-subtitle = Als u problemen ondervindt bij het bijdragen, kunt u op elk gewenst moment alle inhoud voor uw taal weer terugzetten.
-

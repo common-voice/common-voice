@@ -33,7 +33,6 @@ review-rerecord = o awen e kalama sin
 review-cancel = o weka e ijo pana
 review-keep-recordings = o awen e kalama
 review-delete-recordings = o weka e kalama ale mi
-
 review-terms = sina kepeken ilo Common Voice la, sina o toki e ni: <termsLink>lawa kepeken</termsLink> en <privacyLink>nasin pi len sona</privacyLink> li pona tawa sina.
 terms-agree = ni li pona
 terms-disagree = ni li pona ala

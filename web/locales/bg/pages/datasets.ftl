@@ -62,11 +62,8 @@ dataset-version = Версия
 sha256-checksum-copied = Контролната сума на SHA256 е копирана!
 sha256-checksum-copied-error = Неуспешно копиране на контролна сума SHA256
 clipboard-not-supported = Системният буфер не се поддържа
-
 data-download-singleword-title = Изтеглете целевия сегмент от една дума
 data-download-singleword-callout-v2 = Това е сегмент, насочен към случаи на употреба, съдържащ данни, позволяващи разпознаване на изговорени цифри и долавяне на фразите „да“ и „не“.
-## Data
-
 data-download-button = Изтегляне на данните от Common Voice
 data-download-yes = Да
 data-download-deny = Не

@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = Tohi
 get-involved-button = Zaŋ a nua pahi

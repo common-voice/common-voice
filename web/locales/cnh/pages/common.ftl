@@ -146,7 +146,6 @@ share-text = Minung an holh ning computer chim ve, na Aw van khum { $link }
 link-copied = Link aa kawpi cang
 back-top = A cung ah kir
 logout = Chuahnak
-
 stayintouch = Holh phunkip in computer a ngahnak ding hi kan nih Mozilla kampani nih kan i tinh mi cu a si. Zei tiin dah hihi na hman timi le thilthar pawl kan ngeih tikah in chimh ve kan duh.
 privacy-info = Nangmah kong midang kan theih ter hna lai lo. <privacyLink>Privacy Notice</privacyLink> ah hin rel chap.
 return-to-cv = Common Voice ah kir
@@ -158,4 +157,6 @@ email-opt-in-info = Common Voice nih tinhmi theihternak, le tuah ciami thawngtha
 email-opt-in-info-title = Common Voice cakuatnak min cazin ah i tel ve
 indicates-required = * aherh mi a um
 not-available-abbreviation = N/A
+
+## Donate banner
 

@@ -235,7 +235,6 @@ link-copied = Lenke kopiert
 back-top = Tilbake til toppen av sida
 logout = Logg ut
 donate = Doner
-
 stayintouch = Vi på Mozilla byggjer ein fellesskap rundt stemmeteknologi, og vi vil gjerne halde kontakten med oppdateringar, nye datakjelder og høyre meir om korleis du brukar denne informasjonen.
 privacy-info = Vi lovar å handtere informasjonen din på ein trygg måte. Les meir i <privacyLink>personvernpraksisen</ privacyLink> vår.
 return-to-cv = Gå tilbake til Common Voice
@@ -249,7 +248,8 @@ email-opt-in-info-sub-with-challenge = Få e-post om utfordrings- og målpåminn
 email-opt-in-privacy-v2 = Ved å registrere deg for å motta e-post godtar du at Mozilla handterar denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 indicates-required = * Viser påkravd felt
 not-available-abbreviation = Ikkje tilgjengeleg
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Vel språk/lokalisering

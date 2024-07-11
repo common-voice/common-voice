@@ -84,4 +84,3 @@ help-contribute = Ni nga thusa kha u ita dataset khulwane ya nnyi na nnyi nga u 
 login-company = Log In / Sign Up na { $company } email
 profile-not-required = A zwi ṱoḓei uri ni vhe na profaiḽi uri ni shele mulenzhe, fhedzi zwi a thusa, ṱhogomelani uri ndi ngani a fho fhasi.
 read-more-about = Vhalani zwinzhi kha siaṱari la Ngaha
-

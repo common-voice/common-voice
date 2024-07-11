@@ -1,4 +1,5 @@
-## Profile - Email
+## Profile - Avatar
+
 browse-file-title = Upload an image file
 browse-file = Drag and drop or <browseWrap>Browse</browseWrap>
 connect-gravatar = Connect with Gravatar
@@ -7,4 +8,3 @@ file_too_large = The selected file is too large
 avatar-uploaded = Avatar uploaded
 max-file-size = { $kb }kb max
 remove-avatar = Remove Avatar
-

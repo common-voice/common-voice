@@ -33,4 +33,3 @@ demo-listen-subtitle = Chcesz wziąć udział?
 
 demo-dashboard-card-header = Osobisty panel informuje Cię na bieżąco o postępach indywidualnych i całej społeczności.
 demo-dashboard-card-body = Twój panel konta jest aktualizowany po każdym nagraniu i każdym zweryfikowaniu nagrania, aby odzwierciedlać Twoje najnowsze postępy w każdym języku, w jakim bierzesz udział. Tak, możesz nagrywać w więcej niż jednym!<br/><br/> Korzystaj z panelu, aby śledzić swoje statystyki, sprawdzić, jak radzisz sobie razem z innymi członkami społeczności oraz ustalać dzienne lub tygodniowe cele.
-

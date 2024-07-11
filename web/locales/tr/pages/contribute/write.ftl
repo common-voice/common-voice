@@ -1,6 +1,6 @@
-write = Yaz
 ## WRITE PAGE
 
+write = Yaz
 write-instruction = Kamu malı bir cümle ekleyin <icon></icon>
 write-page-subtitle = Buradan gönderilen cümleler, halka açık ve cc-0 lisanslı bir veri kümesine eklenecektir.
 sentence =
@@ -88,4 +88,3 @@ file-invalid-type = Geçersiz dosya
 file-too-large = Dosya çok büyük
 file-too-small = Dosya çok küçük
 too-many-files = Çok fazla dosya
-

@@ -75,11 +75,8 @@ dataset-donate-modal-heading = Visste du…
 donate-modal-explanation-1 = Det koster nesten en million dollar i året å være vert for datasettene og forbedre plattformen for de over 100 språksamfunnene som er avhengige av det vi gjør?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Hvis du verdsetter åpne, inkluderende data – doner i dag!</bold>
-
 data-download-singleword-title = Last ned målsegmentet for ett ord
 data-download-singleword-callout-v2 = Dette er et brukstilfelle-drevet segment som inneholder data for å styrke gjenkjennelse av talte siffer og ja/nei-gjenkjennelse.
-## Data
-
 data-download-button = Last ned data fra Common Voice
 data-download-yes = Ja
 data-download-deny = Nei

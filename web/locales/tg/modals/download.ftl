@@ -5,4 +5,3 @@ download-form-email =
     .value = Ташаккур, мо бо шумо дар тамос мешавем.
 download-back = Бозгашт ба маҷмуаи маълумоти «Common Voice»
 download-no = Не, ташаккур
-

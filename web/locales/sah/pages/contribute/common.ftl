@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Баттаа
 action-tap = Таарый
-## Languages
-
-contribute = Көмөлөс
+contribute = Кытын
 review = Тургутуу
 skip = Көтүт
 shortcuts = Сочетаниялар
@@ -83,15 +79,6 @@ shortcut-vote-yes = д
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = н
 
-## Demo Account
-
-
-## Demo Contribute
-
-
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = Критерийдэр
@@ -99,4 +86,3 @@ contribution-for-example = холобуругар
 contribution-volume-title = Тыас улахана
 see-more = <chevron></chevron>Элбэхтэ
 see-less = <chevron></chevron>Аҕыйахта
-

@@ -28,4 +28,3 @@ download-request-modal-description = Hi leswi swihlanganisi swo kopa tifayela ta
 download-request-link-text = Zip #{ $offset } ya { $total }
 download-request-metadata-link = Tsalwa ra xivulwa
 download-request-link-single = U nga ha tlhela u kopa ni ku namarheta ti-URL leti kongomeke eka mufambisi wa wena wo kopa lowu u wu tsakelaka. Ti ta hela endzhaku ka tiawara ta 12, kambe u nga vuya eka tluka leri ku humesa letintshwa nkarhi wihi na wihi.
-

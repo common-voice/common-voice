@@ -78,4 +78,3 @@ variant-contribution-option-1 = Jano sady a klipy mójeje warianty pokazaś
 variant-contribution-option-2 = Sady a klipy wšych wariantow mójeje rěcy pokazaś
 variant-contribution-warning-title = ⓘ Nic wšykne sady a klipy wariantowe wobznamjenja maju!
 variant-contribution-warning-subtitle = Jolic problemy maśo pśinosowaś, móžośo se wrośiś, aby wšykno wopśimjeśe za swóju rěc naraz wiźeł.
-

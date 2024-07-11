@@ -7,7 +7,4 @@ request-language-success-title = Sicelo selulwimi simikiswe ngemphumelelo, siyab
 request-language-success-content = Sitochumana mayelana nemininingwane yekutsi ungalungeta njani lulwimi lwakho kuCommon Voice madvutane.
 select-language = Khetsa Lulwimi...
 other-language = Lolunye Lulwimi
-
-## General
-
 yes-receive-emails = Yebo, ngitfumele liposi lembane. Ngingatsandza kuhlala ngati kabanti ngenchubo yalomsebenti we Common Voice

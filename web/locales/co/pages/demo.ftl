@@ -33,4 +33,3 @@ demo-listen-subtitle = Seti pronti à cuntribuisce ?
 
 demo-dashboard-card-header = I tavuloni di cumanda parsunale vi tenenu à capu di i vostri prugressi individuali è di quelli di a cumunità.
 demo-dashboard-card-body = Per ogni campione datu è ogni campione vucale cunvalidatu, u vostru tavulonu di cumande hè messu à ghjornu per riflettà i vostri prugressi attuali in ogni lingua à a quella vo aveti cuntribuitu. Iè, si pò cuntribuisce in più chè una !<br/><br/> U vostru tavulone di cumande s’impiega per seguità e vostre statistiche, per vede ciò ch’aveti fattu secondu à l’altri, è definisce i vostri scopi ghjurnalieru o settimanale di cuntribuzione.
-

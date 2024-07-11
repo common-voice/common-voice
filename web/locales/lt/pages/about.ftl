@@ -2,6 +2,9 @@
 
 about-title = Kodėl „Common Voice“?
 how-does-it-work-text = Mes pasitelkiame bendruomenę, kurdami visiškai atvirą balso duomenų rinkinį. Pasidalink savo balsu, padėk užtikrinti kitų talkininkų įrašų kokybę, taip prisidėk prie šio duomenų rinkinio kokybės.
+
+## How does it work section
+
 about-speak = Balso įrašymas
 about-speak-text = Talkininkai kuria balso įrašus, skaitydami pateiktas frazes.
 about-listen-queue = Perklausymo eilė
@@ -28,3 +31,34 @@ about-nav-why-common-voice = Kodėl?
 about-nav-how-it-works = Kaip?
 about-nav-partners = Partneriai
 about-nav-get-involved = Įsitrauk
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

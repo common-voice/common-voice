@@ -29,4 +29,3 @@ demo-listen-subtitle = Laguntzeko prest?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Panel pertsonalek banakako eta komunitateko aurrerapenen berri ematen dizute.
-

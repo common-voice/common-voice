@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Képfájl feltöltése
 browse-file = Fogjon és vigyen elemet, vagy <browseWrap>Tallózzon</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = A kiválasztott fájl túl nagy
 avatar-uploaded = Profilkép feltöltve
 max-file-size = legfeljebb { $kb }kb
 remove-avatar = Profilkép eltávolítása
-

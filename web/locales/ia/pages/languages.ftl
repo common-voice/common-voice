@@ -17,9 +17,6 @@ localized = Localisate
 sentences = Phrases
 language-validation-hours = Horas
 language-validation-progress = Progresso del validation
-
-## Languages
-
 contribute = Contribuer
 get-involved-button = Collabora con nos
 get-involved-title = Contribuer a { $lang }

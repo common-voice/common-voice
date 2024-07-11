@@ -11,9 +11,7 @@ language-search-input =
 language-speakers = Kõnelejaid
 localized = Lokaliseeritud
 sentences = Lauseid
-## Languages
-
-contribute = Löö kaasa
+contribute = Panusta
 get-involved-button = Löö kaasa!
 get-involved-title = Aita kaasa { $lang } keele kõnetuvastuse arengule
 get-involved-text = Meil on hea meel, et oled huvitatud kaasa lööma eesti keele kõnetuvastuse arengus. Me töötame selle nimel, et kõik keeled oleks valmis alustama ja hoiame tiime kursis e-posti teel. Huvi korral jäta meile oma e-posti aadress allpool.

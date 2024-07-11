@@ -114,4 +114,3 @@ validations =
         [one] ዝተነጻጸረ
        *[other] ዝተነጻጸረ
     }
-

@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Ñwot
 action-tap = Hihe
-## Languages
-
 contribute = Sañge
 skip = Him
 shortcuts = Basemkwep
@@ -30,6 +26,9 @@ target-segment-generic-card = U nhôla i sañge ngim ndak suñ yada
 target-segment-first-banner = Hola i sañge ndak suñ i Common Voice i bisu, i { $locale }
 target-segment-add-voice = Nôbe kiñ yoñ
 target-segment-learn-more = Kônde añ bitilna
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -80,4 +79,6 @@ shortcut-vote-yes = t
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = h
+
+## Validation criteria
 

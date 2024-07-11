@@ -1,6 +1,6 @@
-write = o sitelen
 ## WRITE PAGE
 
+write = o sitelen
 write-instruction = o pana <icon></icon> e sitelen open
 write-page-subtitle = sina pana e toki la ona li kama lon kulupu sona li tawa ale kepeken nasin CC0.
 sentence =
@@ -39,4 +39,3 @@ bulk-upload-success-toast = sina pana e sitelen mute.
 file-too-large = lipu li suli ike
 file-too-small = lipu li lili ike
 too-many-files = lipu li mute ike
-

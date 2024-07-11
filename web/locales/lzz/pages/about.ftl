@@ -95,3 +95,5 @@ about-playbook-how-project-governance-content-5 = Ğirapa do oçinapa
 about-playbook-how-project-governance-content-6 = Artiǩatis xesap̌i meçamu.
 about-playbook-how-project-governance-content-7 = <governanceLink>Muç̌o na moktaman ognapu şeni dido-muşi iǩitxit </governanceLink>
 
+## How is Common Voice funded
+

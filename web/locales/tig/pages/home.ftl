@@ -65,4 +65,3 @@ welcome-staff = መርሓባ ሙወዘፊን { $company }!
 login-company = እተ / ኣብ ናይ { $company } ኢሜል ሕሳብ ፍታሕ
 profile-not-required = አግል ትሳህሞ ናይ ኖስ መለፍ ላሀሌኩም ኢለትሓዘኒ ብስ ነፍዓኩም, ገልሚቱ ግል ታኣምሮ ታሓት ራኣው
 read-more-about = ዲብላ ናይና ሰፍሓት About አንደ ግስኹም ዘያደት ቀርኦ
-

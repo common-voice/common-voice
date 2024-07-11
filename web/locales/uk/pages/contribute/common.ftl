@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Клацніть
 action-tap = Торкнутися
-## Languages
-
 contribute = Долучитися
 review = Перевірити
 skip = Пропустити
@@ -148,4 +144,3 @@ contribution-just-unsure-title = Просто не впевнені?
 contribution-just-unsure-description = Якщо ви стикаєтесь із випадком, не описаним у цих настановах, просимо голосувати якнайоб'єктивніше. Якщо ви дійсно не можете визначитися, натисніть кнопку пропуску та переходьте до наступного запису.
 see-more = <chevron></chevron>Докладніше
 see-less = <chevron></chevron>Згорнути
-

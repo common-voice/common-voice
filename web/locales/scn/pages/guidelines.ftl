@@ -43,4 +43,3 @@ adding-sentences-subheader-punctuation = Puntiggiatura
 adding-sentences-subheader-offensive-content = Cuntinutu uffinzivu
 reviewing-sentences-explanation-1 = Si a frasi sicuta i règuli di supra, ammacca u buttuni "Se".
 reviewing-sentences-explanation-2 = Si a frasi nun sicuta i règuli di supra, ammacca u buttuni "No".
-

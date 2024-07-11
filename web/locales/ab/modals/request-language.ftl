@@ -7,7 +7,4 @@ request-language-success-title = Абызшәа ҿыц ацҵаразы аҳәа
 request-language-success-content = Ҳара излауала ирласны иуаҳҳәоит Common Voice аҟны уара убызшәагьы шацҵатәу.
 select-language = Иалх Абызшәа...
 other-language = Даҽа абызшәа
-
-## General
-
 yes-receive-emails = Ааи, асалам шәҟәы сзаашьҭы. Сара апроект Common Voice ажәабжь ҿыцқәа здыруазар сҭахуп.

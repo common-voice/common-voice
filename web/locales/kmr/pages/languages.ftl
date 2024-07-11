@@ -18,10 +18,7 @@ localized = Wergerandî
 sentences = Hevok
 language-validation-hours = Saet
 language-validation-progress = Pêşveçûna Piştrastkirinê
-
-## Languages
-
-contribute = Piştgiriyê bidin
+contribute = Beşdarî bike
 get-involved-button = Tev lê bibin
 get-involved-title = Piştgiriya { $lang } bikin
 get-involved-text = Spas ji bo baldariya te ku te xwest piştgiriya { $lang } bikî. Ji bo em karibin piştgiriyê bidin hemû zimanan û tîmên xwe bi rêya emailê agahdar bikin, em pir dixebitin. Heke tu dixwazî beşdar bibî, ji kerema xwe re emaila xwe li jêrê binivîse.

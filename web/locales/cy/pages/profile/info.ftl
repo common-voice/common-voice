@@ -78,4 +78,3 @@ variant-contribution-option-1 = Dim ond dangos brawddegau a chlipiau o fy amrywi
 variant-contribution-option-2 = Dangos i mi frawddegau a chlipiau o bob amrywiad o fewn fy iaith
 variant-contribution-warning-title = ⓘ Nid oes gan bob brawddeg a chlip dagiau Amrywiad eto!
 variant-contribution-warning-subtitle = Os ydych chi'n cael trafferth cyfrannu, gallwch newid yn ôl i weld yr holl gynnwys eich iaith ar unrhyw adeg.
-

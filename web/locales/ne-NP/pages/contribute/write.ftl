@@ -1,1 +1,5 @@
-    .label = इमेल
+## WRITE PAGE
+
+
+## BULK SUBMISSION 
+

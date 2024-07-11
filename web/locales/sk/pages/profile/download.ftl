@@ -28,4 +28,3 @@ download-request-modal-description = Tu sú odkazy na stiahnutie súborov ZIP.
 download-request-link-text = Súbor ZIP č. { $offset } z { $total }
 download-request-metadata-link = Text vety
 download-request-link-single = Môžete tiež skopírovať a prilepiť odkazy do svojho obľúbeného správcu sťahovania. Platnosť odkazov vyprší o 12 hodín, ale kedykoľvek sa môžete vrátiť na túto stránku a vygenerovať nové.
-

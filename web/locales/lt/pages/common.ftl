@@ -149,7 +149,6 @@ share-text = Padėk apmokyti kompiuterius kaip kalba tikri žmonės – pasidali
 link-copied = Saitas nukopijuotas
 back-top = Grįžti į pradžią
 logout = Atsijungti
-
 stayintouch = Mes „Mozilloje“ buriame balso technologijų bendruomenę. Norėtume su Tavimi dalintis naujienomis ir duomenų šaltiniais bei sužinoti, kaip Tau seksis naudotis mūsų duomenimis.
 privacy-info = Pažadame tvarkyti Tavo informaciją atsargiai. Daugiau informacijos rasi mūsų <privacyLink>Privatumo pranešime</privacyLink>.
 return-to-cv = Grįžti į „Common Voice“
@@ -163,4 +162,6 @@ email-opt-in-info-sub-with-challenge = Gauti iššūkių ir tikslų priminimus, 
 email-opt-in-privacy-v2 = Pasirinkęs (-usi) gauti el. laiškus, Tu sutinki, kad  „Mozilla“ tvarkytų šią informaciją kaip paaiškinta „Mozilla“ <privacyLink>privatumo politikoje</privacyLink>.
 indicates-required = * Nurodo privalomą lauką
 not-available-abbreviation = Nepasiekiama
+
+## Donate banner
 

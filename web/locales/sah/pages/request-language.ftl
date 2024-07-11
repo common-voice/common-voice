@@ -16,4 +16,3 @@ request-language-success-heading = Махтал! Эһиги саҥа тыл ки
 request-language-success-list-1 =
     Common Voice-ка тылы киллэрэр хардыылар тустарынан 
     кыра быһаарыылаах сурук эһиэхэ электроннай почтанан тиийиэҕэ
-

@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Cliceáil
 action-tap = Cnag ar
-## Languages
-
 contribute = Rannpháirtíocht
 review = Athbhreithnigh
 skip = Ar Aghaidh
@@ -87,9 +83,6 @@ shortcut-vote-yes = t
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = Critéir
@@ -97,4 +90,3 @@ contribution-for-example = mar shampla
 contribution-misreadings-title = Míléamh
 contribution-background-noise-title = Torann sa chúlra
 contribution-volume-title = Airde
-

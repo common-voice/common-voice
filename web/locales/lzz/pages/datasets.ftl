@@ -50,10 +50,7 @@ sha256-checksum-copied-error = SHA256 Checksum ǩop̌ya var ixenu!
 clipboard-not-supported = Panok var numxacams
 # dataset metadata - age of contributor
 dataset-metadata-age = Tzana
-
 data-download-singleword-title = Ar Zit̆a Noğire Boligina Kogeiğit
-## Data
-
 data-download-button = Common Voiceşi Datape kogeiğit
 data-download-yes = Ho
 data-download-deny = Var

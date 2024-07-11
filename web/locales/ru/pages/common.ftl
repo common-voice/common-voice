@@ -235,7 +235,6 @@ link-copied = Ссылка скопирована
 back-top = Наверх
 logout = Выйти
 donate = Пожертвовать
-
 stayintouch = Мы в Mozilla создаём сообщество по языковым технологиям. Мы хотим, чтобы вы были в курсе всех новостей, новых источников данных, а также хотели бы знать больше о том, как вы используете такого рода данные.
 privacy-info = Мы обещаем, что будем обрабатывать вашу информацию с осторожностью. Подробнее в нашем <privacyLink>Уведомлении о конфиденциальности</privacyLink>.
 return-to-cv = Вернуться к Common Voice
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = Получать такие письма,
 email-opt-in-privacy-v2 = Согласившись получать письма, вы заявляете, что согласны с тем, как Mozilla обрабатывает эту информацию, согласно <privacyLink>Политике приватности</privacyLink> Mozilla.
 indicates-required = * поля, обязательные для заполнения
 not-available-abbreviation = Недоступно
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = Размещение наборов данных
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Используете CV для</mark><br/><mark>вашего исследования?</mark>
 languages-donate-banner-cta-explanation = Common Voice финансируется за счёт пожертвований и грантов! Нам нравится сотрудничать с учёными, гражданским обществом и отраслевыми исследователями. Common Voice бесплатен для использования, но участие в пожертвованиях на платформу и хостинг может быть действительно полезным.
-# [/SentenceCollector]
-
 localization-select =
     .label = Выберите язык/локализацию

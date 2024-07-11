@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Mag-upload ng larawan
 browse-file = Drag and drop or <browseWrap>Browse</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Ang piniling file ay masyadong malaki
 avatar-uploaded = Na-upload na ang Avatar
 max-file-size = { $kb }kb max
 remove-avatar = Alisin ang Avatar
-

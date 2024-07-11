@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = ဓာတ်ပုံ ဖိုင် တင်ပါ
 browse-file = ဖိဆွဲကာဤနေရာတွင် ထားပါ သို့မဟုတ် <browseWrap>ဖိုင်ရွေးပါ</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = ရွေးချယ် ထားသော ဖိုင်သ�
 avatar-uploaded = ဓာတ်ပုံတင်ပြီး
 max-file-size = { $kb }kb အများဆုံး
 remove-avatar = Avatar ကို ဖယ်ရှားပါ။
-

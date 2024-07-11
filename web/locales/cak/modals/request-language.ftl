@@ -7,7 +7,4 @@ request-language-success-title = Ütz xtaq ri ruk'utuxik ch'ab'äl, niqak'awomaj
 request-language-success-content = Xtiqatzijoj chawe ch'aqa' chik etamab'äl pa ruwi' rub'eyal natz'aqatisaj ri ach'ab'äl pa Common Voice.
 select-language = Ticha' jun Ch'ab'äl...
 other-language = Ch'aqa' chik Ch'ab'äl
-
-## General
-
 yes-receive-emails = Ja', titaq taqoya'l chwe. Ninwajo' ninnab'ej ronojel pa ruwi' ri Common Voice Nimasamaj.

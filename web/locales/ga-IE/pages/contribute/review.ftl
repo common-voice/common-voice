@@ -1,6 +1,3 @@
-## REVIEW CRITERIA
-
-
 ## REVIEW
 
 sc-review-title = Athbhreithnigh Abairtí
@@ -19,5 +16,7 @@ sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = Críochnaigh an tAthbhreithniú
 sc-review-link = Athbhreithnigh
+
+## REVIEW CRITERIA
 
 sc-redirect-page-subtitle-2 = Cuir ceisteanna orainn ar <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> nó <emailLink>ríomhphost</emailLink>.

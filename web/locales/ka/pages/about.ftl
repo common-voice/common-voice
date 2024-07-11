@@ -144,3 +144,5 @@ about-playbook-how-project-governance-content-5 = დაფასება დ�
 about-playbook-how-project-governance-content-6 = ურთიერთპასუხისმგებლობა.
 about-playbook-how-project-governance-content-7 = <governanceLink>იხილეთ ვრცლად, რას როგორ ვმართავთ</governanceLink>
 
+## How is Common Voice funded
+

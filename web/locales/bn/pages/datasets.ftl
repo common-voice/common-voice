@@ -36,9 +36,6 @@ more = আরও
 close = বন্ধ করুন
 download = ডাউনলোড
 dataset-version = সংস্করণ
-
-## Data
-
 data-download-button = Common Voice ডাটা ডাউনলোড করুন
 data-download-yes = হ্যাঁ
 data-download-deny = না

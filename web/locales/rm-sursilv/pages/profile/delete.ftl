@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Sas ti explicar a nus daco che ti vul stizzar tias registraziuns?
 profile-form-delete = stizzar il profil
-

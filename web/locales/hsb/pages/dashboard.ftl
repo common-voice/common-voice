@@ -132,4 +132,3 @@ validations =
         [few] přepruwowanja
        *[other] přepruwowanjow
     }
-

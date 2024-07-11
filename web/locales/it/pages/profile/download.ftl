@@ -28,4 +28,3 @@ download-request-modal-description = Ecco i link per scaricare i tuoi file ZIP.
 download-request-link-text = ZIP #{ $offset } di { $total }
 download-request-metadata-link = Testo della frase
 download-request-link-single = Puoi anche copiare e incollare gli URL diretti nel tuo download manager preferito: scadranno tra 12 ore, ma puoi tornare in questa pagina e generarne di nuovi in qualsiasi momento.
-

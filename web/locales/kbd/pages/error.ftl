@@ -5,4 +5,3 @@ error-content-404 = Maybe our <homepageLink>homepage</homepageLink> will help? T
 error-title-503 = We’re experiencing unexpected downtime
 error-content-503 = The site will be back up as soon as possible. For the latest information, please join the <matrixLink>Matrix community chat</matrixLink> or visit <githubLink>GitHub</githubLink> or <discourseLink>our Discourse forums</discourseLink> to submit and monitor site experience issues.
 error-code = Error { $code }
-

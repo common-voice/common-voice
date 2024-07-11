@@ -57,4 +57,3 @@ off = Oʻchiq
 on = Yoniq
 help-accent = Talaffuzga aloqador yordam kerakmi?
 help-accent-explanation = Talaffuzingiz – bu soʻzlarni talaffuz qilish usulingiz. Bu yashagan muhitingiz, boshqa tillarda gaplashishingiz va boshqa koʻplab omillarga bogʻliq. Bu yerdagi istagan maʼlumotingizni ulashishingiz mumkin.
-

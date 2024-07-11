@@ -33,7 +33,6 @@ review-rerecord = Registri denove
 review-cancel = Nuligi sendon
 review-keep-recordings = Gardi la registrojn
 review-delete-recordings = Forigi miajn registrojn
-
 review-terms = Per la uzo de Common Voice vi akceptas niajn <termsLink>kondiĉojn</termsLink> kaj <privacyLink>privatecan rimarkon</privacyLink>
 terms-agree = Mi akceptas
 terms-disagree = Mi ne akceptas

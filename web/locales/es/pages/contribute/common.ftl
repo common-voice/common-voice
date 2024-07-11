@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Clic
 action-tap = Seleccionar
-## Languages
-
 contribute = Colaborar
 review = Revisar
 skip = Saltar
@@ -99,4 +95,3 @@ contribution-volume-title = Volumen
 contribution-reader-effects-title = Efectos del lector
 see-more = </chevron></chevron>Ver más
 see-less = <chevron></chevron>Ver menos
-

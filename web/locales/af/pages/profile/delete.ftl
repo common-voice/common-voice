@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Kan jy ons laat weet hoekom jy jou opnames wil uitvee?
 profile-form-delete = Skrap Profiel
-

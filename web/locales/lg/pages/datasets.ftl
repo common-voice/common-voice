@@ -47,10 +47,7 @@ more = Ebisingawo
 close = Ggalawo
 download = Download
 dataset-version = Enkola
-
 data-download-singleword-title = Wanula Single Word Target Segment
-## Data
-
 data-download-button = Download Common Voice Data
 data-download-yes = Ye
 data-download-deny = Nedda

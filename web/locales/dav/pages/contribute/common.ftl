@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Tocha
 action-tap = Adada
-## Languages
-
-contribute = Sora
+contribute = Changa
 review = Idiria
 skip = Rama
 shortcuts = Chia vui
@@ -147,4 +143,3 @@ contribution-just-unsure-title = Ndokumanyire?
 contribution-just-unsure-description = Kukaw'ona kilambo chingi chiseghorelo aha, tumia kuelelwa na ija hikima yako kumoni. Kaw'ona kwalemwa ni kubonya w'uamuzi, tumia kifunguo cherama nao kuende kwa rekodi inughiagha.
 see-more = <chevron></chevron>W'ona ghamu ghechuria
 see-less = <chevron></chevron>W'ona kutini
-

@@ -80,4 +80,3 @@ variant-contribution-option-1 = تىلىمدىكى بارلىق شېۋىدىكى
 variant-contribution-option-2 = شېۋەمدىكى جۈملە ۋە ئۈن ئۈزۈندىلىرىنىلا كۆرسەت
 variant-contribution-warning-title = ⓘھەممە جۈملە ۋە ئۈن ئۈزۈندىسىنىڭ شېۋە بەلگىسى بولۇشى ناتايىن!
 variant-contribution-warning-subtitle = تۆھپە قوشۇشتا مەسىلىگە يولۇقسىڭىز، تىلىڭىزدىكى بارلىق مەزمۇنلارنى خالىغان ۋاقىتتا كۆرەلەيسىز.
-

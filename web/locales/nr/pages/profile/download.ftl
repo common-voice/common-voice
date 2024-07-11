@@ -38,4 +38,3 @@ download-request-modal-description = Naka ama-link ongadawunilowuda kiwo amafaye
 download-request-link-text = Zip #{ $offset } ye { $total }
 download-request-metadata-link = Amagama wemitjho
 download-request-link-single = Ungakopulula bewunamathisele iURLs ezintweni ozithandako ozidawnlodileko. Zizokuphelelwa sikhathi ngemva kwama-awara ali-12, kodwana ungangela ekhasineli wenze amanye amakhasi amatjha nanyana kunini.
-

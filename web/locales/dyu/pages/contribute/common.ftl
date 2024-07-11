@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = A digi
 action-tap = Worobinɛ
-## Languages
-
 contribute = Ka Bólomafara di
 skip = Ka lasogo
 shortcuts = Siginiden surunw
@@ -31,6 +27,9 @@ target-segment-generic-card = I b’i ka dɛmɛ don yɔrɔ laɲininen dɔ la
 target-segment-first-banner = Dɛmɛ ka Common Voice ka laɲini yɔrɔ fɔlɔ dabɔ { $locale } kɔnɔ.
 target-segment-add-voice = Aw ye aw ka kumakan fara a kan
 target-segment-learn-more = Aw ye kunnafoni wɛrɛw sɔrɔ
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -141,4 +140,3 @@ contribution-just-unsure-title = Dɔrɔn I dalen tɛ a la wa?
 contribution-just-unsure-description = N’i ye fɛn dɔ sɔrɔ, nin laadilikanw t’a ɲɛfɔ, i ka wote ka kɛɲɛ n’i ka hakilina ɲuman ye. N’i tɛ se k’a latigɛ tiɲɛ na, baara kɛ ni butɔni ye min tɔgɔ ye ko skip, ka taa fɔlisen nata la.
 see-more = <chevron></chevron>Aw ye dɔ fara a kan
 see-less = <chevron></chevron>Aw ye dɔɔni lajɛ
-

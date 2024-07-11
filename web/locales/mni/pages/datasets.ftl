@@ -62,11 +62,8 @@ dataset-version = ꯃꯈꯜ
 sha256-checksum-copied = SHA256 ꯆꯦꯛꯁꯝ ꯀꯣꯄꯤ ꯇꯧꯈ꯭ꯔꯦ!
 sha256-checksum-copied-error = SHA256 ꯆꯦꯛꯁꯝ ꯀꯣꯄꯤ ꯇꯧꯕꯥ ꯉꯝꯗꯦ ꯫
 clipboard-not-supported = ꯀ꯭ꯂꯤꯞꯕꯣꯔꯗ ꯑꯁꯤ ꯉꯥꯛꯂꯧ ꯇꯧꯗꯦ
-
 data-download-singleword-title = ꯋꯥꯍꯩ ꯱ꯒꯤ ꯇꯥꯔꯒꯦꯠ ꯁꯦꯒꯃꯦꯟꯇ ꯑꯗꯨ ꯆꯤꯡꯊꯕꯤꯌꯨ ꯫
 data-download-singleword-callout-v2 = ꯃꯁꯤ ꯁ꯭ꯄꯣꯀꯦꯟ ꯗꯤꯖꯤꯠ ꯁꯛꯈꯪꯕ ꯑꯃꯁꯨꯡ ꯍꯣꯏ / ꯅꯠꯇꯦ ꯃꯁꯛ ꯈꯪꯗꯣꯛꯄ ꯃꯇꯤꯛ ꯄꯤꯅꯕꯥ ꯗꯦꯇꯥ ꯌꯥꯎꯕꯥ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯀꯦꯁ ꯗ꯭ꯔꯥꯏꯚꯟ ꯃꯆꯦꯠ ꯑꯃꯅꯤ ꯫
-## Data
-
 data-download-button = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥ ꯆꯤꯡꯊꯧ ꯫
 data-download-yes = ꯍꯣꯏ
 data-download-deny = ꯅꯠꯇꯦ

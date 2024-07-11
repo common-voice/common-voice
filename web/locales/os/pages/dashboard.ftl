@@ -102,4 +102,3 @@ validations =
         [one] басгӕрст
        *[other] басгӕрсты
     }
-

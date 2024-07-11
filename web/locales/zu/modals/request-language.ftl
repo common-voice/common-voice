@@ -7,7 +7,4 @@ request-language-success-title = Isicelo solimi sithunyelwe ngempumelelo, siyabo
 request-language-success-content = Sizothintana ngolwazi olwengeziwe mayelana nendlela yokwengeza ulimi lwakho ku-Common Voice maduze nje.
 select-language = Khetha Ulimi...
 other-language = Olunye Ulimi
-
-## General
-
 yes-receive-emails = Yebo, ngithumele ama-imeyili. Ngingathanda ukuhlala nginolwazi nge-Common Voice Project.

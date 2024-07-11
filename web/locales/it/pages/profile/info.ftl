@@ -78,4 +78,3 @@ variant-contribution-option-1 = Mostra solo frasi e registrazioni nella mia vari
 variant-contribution-option-2 = Mostra frasi e registrazioni in tutte le varianti per la mia lingua
 variant-contribution-warning-title = ⓘ Non tutte le frasi e le registrazioni hanno ancora etichette per le varianti.
 variant-contribution-warning-subtitle = Se riscontri difficoltà nel collaborare, puoi tornare a visualizzare tutti i contenuti nella tua lingua in qualsiasi momento.
-

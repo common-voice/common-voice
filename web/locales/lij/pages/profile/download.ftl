@@ -28,4 +28,3 @@ download-request-modal-description = I ligammi pe descarregâ i teu file ZIP en 
 download-request-link-text = Zip n°{ $offset } in sce { $total }
 download-request-metadata-link = Testo da frase
 download-request-link-single = Ti peu ascì copiâ e incollâ i URL diretti into download manager ch’o t’ê ciù cao. Descazzian de chì à 12 oe, ma ti peu vegnî inderê in sce sta pagina e generâne di atri quande ti veu.
-

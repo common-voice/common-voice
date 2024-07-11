@@ -73,7 +73,6 @@ content-license-text = lo selfi'i cu gubni ta'i tu'a la'o gy <licenseLink>Creati
 share-title = sidju lonu sisku tu'a lo dunda be tu'a lo voksa
 share-text = sidju lonu ctuca lo minji tu'a lo tadji be lonu bacru fa lo zirli .i ko dunda tu'a lo do voksa ta'i tu'a zoi .urli. { $link } .urli
 back-top = xruti fi lo gapru
-
 stayintouch = mi'a ne la'oi Mozilla cu gidva lo voksa selfi'i girzu .i .au ca'o casnu tu'a lonu ningau .e lo cnino te datni .e lo te pilno be le datni bei do
 privacy-info = mi'a ca'e nupre lonu kurji lo datni be do .i ko .e'u tcidu la'e <privacyLink>lo kamsivni notci</privacyLink>
 return-to-cv = xruti fi tu'a la'o gy Common Voice gy
@@ -83,3 +82,6 @@ submit-form-action = friti
 loading = samymo'i…
 email-opt-in-info = .au te samymri tu'a lonu tergu'a rejgau .e lo nuzba be loni mulno do'e mi kei .e lo xatra be fo tu'a la'o gy Common Voice gy
 email-opt-in-info-title = jongau fi lo te samymri liste pe la'o gy Common Voice gy
+
+## Donate banner
+

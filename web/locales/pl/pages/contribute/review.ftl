@@ -1,6 +1,3 @@
-## REVIEW CRITERIA
-
-
 ## REVIEW
 
 sc-review-loading = Wczytywanie zdań…
@@ -16,4 +13,6 @@ sc-review-form-button-approve-shortcut = T
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = P
+
+## REVIEW CRITERIA
 

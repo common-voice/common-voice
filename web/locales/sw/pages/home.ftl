@@ -76,4 +76,3 @@ help-contribute = Unaweza kusaidia kujenga daftari anuwai la chanzo wazi kwa kuu
 login-company = Ingia / Jisajili na barua pepe ya { $company }
 profile-not-required = Kuwa na wasifu hauhitajiki kuchangia ingawa inasaidia, tazama kwa nini hapa chini.
 read-more-about = Soma zaidi kwenye ukurasa wa kutuhusu
-

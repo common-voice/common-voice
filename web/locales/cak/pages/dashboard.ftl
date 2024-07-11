@@ -85,4 +85,3 @@ validations =
         [one] Nijikib'äx
        *[other] Yejikib'äx
     }
-

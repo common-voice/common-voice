@@ -1,6 +1,3 @@
-## Custom Goals
-
-
 ## Profile Delete
 
 delete-q = Kas soovid lasta ka oma salvestised kustutada või pigem säilitada need Common Voice'i andmekogumis?
@@ -13,4 +10,3 @@ why-delete-recordings =
     
     Kas saaksid meile teada anda, miks soovid enda salvestisi kustutada?
 profile-form-delete = Kustuta profiil
-

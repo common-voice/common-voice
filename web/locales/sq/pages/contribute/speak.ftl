@@ -33,7 +33,6 @@ review-rerecord = Ri-incizojeni
 review-cancel = Anuloje Parashtrimin
 review-keep-recordings = Mbaji incizimet
 review-delete-recordings = Fshiji incizimet e mia
-
 review-terms = Duke përdorur Common Voice, pajtoheni me <termsLink>Kushtet</termsLink> tona dhe <privacyLink>Shënimin tonë mbi Privatësinë</privacyLink>
 terms-agree = Pajtohem
 terms-disagree = Nuk pajtohem

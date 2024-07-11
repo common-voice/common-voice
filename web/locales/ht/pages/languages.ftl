@@ -17,9 +17,6 @@ localized = Lokalize
 sentences = Fraz yo
 language-validation-hours = Èdtan
 language-validation-progress = Pwogrè Validasyon
-
-## Languages
-
 contribute = Kontribye
 get-involved-button = Patisipe
 get-involved-title = Kontribye nan { $lang }

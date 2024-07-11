@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Ammacca
 action-tap = Tocca
-## Languages
-
 contribute = Cuntribbuisci
 review = Virìfica
 skip = Sauta
@@ -96,9 +92,6 @@ shortcut-vote-yes = S
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = N
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = Criteri
@@ -135,4 +128,3 @@ contribution-reader-effects-description = A majurìa di riggistrazzioni sunnu di
 contribution-just-unsure-title = Ài dubbi?
 see-more = <chevron></chevron> Vidi cchiù assai
 see-less = <chevron></chevron> Vidi cchiù picca
-

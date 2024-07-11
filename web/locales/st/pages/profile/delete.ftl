@@ -10,4 +10,3 @@ why-delete-recordings =
     
     A na o ka re tsebisa hore na ke hobaneng ha o batla hore direkoto tsa hao di hlakolwe?
 profile-form-delete = Hlakola Profaele
-

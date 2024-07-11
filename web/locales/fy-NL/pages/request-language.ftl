@@ -38,4 +38,3 @@ request-language-success-list-3 =
 request-language-error =
     Mooglik hawwe wy dat fersyk net ûntfongen. Stjoer ús in e-mailberjocht
     op <emailLink>{ $email }</emailLink> en wy nimme kontakt mei jo op!
-

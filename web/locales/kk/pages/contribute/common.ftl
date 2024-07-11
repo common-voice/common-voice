@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Басыңыз
 action-tap = Түртіңіз
-## Languages
-
 contribute = Үлес қосу
 skip = Өткізіңіз
 shortcuts = Таңбашалар
@@ -28,6 +24,9 @@ target-segment-generic-card = Сіз мақсатты сегментімізге
 target-segment-first-banner = Common Voice -тың { $localale } үшін бірінші мақсатты сегментті құруға көмектесіңіз
 target-segment-add-voice = Өз даусыңызды қосыңыз
 target-segment-learn-more = Көбірек білу
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -78,4 +77,6 @@ shortcut-vote-yes = и
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = ж
+
+## Validation criteria
 

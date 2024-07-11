@@ -33,7 +33,6 @@ review-rerecord = Rekhoda nakambe
 review-cancel = Khansela Ku Rhumela
 review-keep-recordings = Hlayisa swilo leswi rhekhodiweke
 review-delete-recordings = Susa swilo leswi ndzi swi rhekhodiweke
-
 review-terms = Hi ku tirhisa Common Voice, u pfumelelana na hina <termsLink> Minkarhi</termsLink> na  <privacyLink>Xitiviso xa Vuhlayiseki</privacyLink>
 terms-agree = Ndza pfumela
 terms-disagree = A ndzi pfumeli

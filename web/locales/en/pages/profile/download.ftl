@@ -1,4 +1,5 @@
 ## Profile Download
+
 download-q = Need to download your data?
 download-info = Tell us what you'd like to download:
 download-profile-title = Profile
@@ -27,4 +28,3 @@ download-request-modal-description = Here are the links to download your ZIP fil
 download-request-link-text = Zip #{ $offset } of { $total }
 download-request-metadata-link = Sentence text
 download-request-link-single = You can also copy and paste the direct URLs into your favorite download manager. They will expire in 12 hours, but you can come back to this page to generate new ones any time.
-

@@ -11,3 +11,11 @@ speak-goal-text = Klip teureukam
 listen-subtitle = Bantu kamoe peusahèh su
 today = Uroë Nyoë
 
+## Account Benefits
+
+
+## What's public
+
+
+## Landing
+

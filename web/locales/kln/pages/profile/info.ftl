@@ -64,4 +64,3 @@ off = ziman
 on = inam
 help-accent = tos imeche toretet eng olengololdoi?
 help-variants = tos imache toretet eng varianishek?
-

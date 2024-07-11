@@ -15,9 +15,6 @@ localized = Gelokaliseerd
 sentences = Sinne
 language-validation-hours = Ure
 language-validation-progress = Bekragtiging Vordering
-
-## Languages
-
 contribute = Dra By
 get-involved-button = Raak Betrokke
 get-involved-title = Dra by tot { $lang }

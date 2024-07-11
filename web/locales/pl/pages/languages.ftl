@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = W trakcie
@@ -16,10 +13,7 @@ language-search-input =
 language-speakers = Osoby mówiące
 localized = Przetłumaczone
 sentences = Zdania
-
-## Languages
-
-contribute = Weź udział
+contribute = Nagraj
 get-involved-button = Dołącz do nas
 get-involved-title = Nagrywaj w języku: { $lang }
 get-involved-text = Dziękujemy za zainteresowanie nagrywaniem w tym języku ({ $lang }). Ciężko pracujemy, aby każdy język był gotowy na premierę, a zespoły informowane o postępach przez e-mail. Jeśli chcesz pomóc, to prosimy podać swój adres poniżej.

@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Ha gallout a rafec’h lavar deomp perak e fell deoc’h dilemel hoc’h enrolladennoù?
 profile-form-delete = Dilemel ar profil
-

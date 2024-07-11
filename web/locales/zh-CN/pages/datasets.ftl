@@ -75,11 +75,8 @@ dataset-donate-modal-heading = 你知道吗…
 donate-modal-explanation-1 = 目前有 100 多个语言社区依靠我们的工作来活动及发展。为托管数据集，以及改善服务这些语言社区的平台，我们每年需要支出约 100 万美元。
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>如果您也珍视开放且包容的数据，请向我们捐款！</bold>
-
 data-download-singleword-title = 下载单词目标句段
 data-download-singleword-callout-v2 = 用例驱动的句段，包含用于增强数字语音识别与“是/否”检测的数据。
-## Data
-
 data-download-button = 下载 Common Voice 数据
 data-download-yes = 是
 data-download-deny = 否

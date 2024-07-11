@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = Contribuer
 get-involved-button = Colaborar

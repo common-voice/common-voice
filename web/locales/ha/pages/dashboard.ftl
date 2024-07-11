@@ -112,4 +112,3 @@ validations =
         [one] Tabbatarwa
        *[other] Tabbatarwa
     }
-

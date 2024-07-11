@@ -142,4 +142,3 @@ validations =
         [many] a gadarnadennoù
        *[other] Kadarnadenn
     }
-

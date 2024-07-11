@@ -33,7 +33,6 @@ review-rerecord = Яңадан яздыру
 review-cancel = Йөкләүдән баш тарту
 review-keep-recordings = Аудиоязмаларны саклау
 review-delete-recordings = Аудиоязмаларымны бетерү
-
 review-terms = Common Voice'ны куллануыгыз аша Сез безнең <termsLink>Шартлар</termsLink> һәм <privacyLink>Хосуйсыйлык сәясәте</privacyLink> белән килешәсез.
 terms-agree = Риза
 terms-disagree = Риза түгел

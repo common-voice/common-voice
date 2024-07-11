@@ -220,7 +220,6 @@ share-text = Alîkariyê bikin ku makîne hîn bibin ka mirov çawa diaxivin, de
 link-copied = Lînk hat kopîkirin
 back-top = Vegere serî
 logout = Derkeve
-
 stayintouch = Em li ser Mozillayê civakake têkildarî teknolojiyên dengî ava dikin. Em dixwazin nûvekirinên nû û çavkaniyên nû bigihînin te û her wiha em dixwazin bizanin ka tu daneyan çawa bi kar tînî.
 privacy-info = Em soz didin ku em ê agahiyên te bi baldarî li cem xwe bihêlin. Ji bo agahiyên zêdetir, <privacyLink>Agahdariya Nihêniyê</privacyLink> bixwîne.
 return-to-cv = Vegere Common Voiceê
@@ -234,7 +233,8 @@ email-opt-in-info-sub-with-challenge = Emaîlên wekî bibîrxistinên hedefê, 
 email-opt-in-privacy-v2 = Bi vebijarka wergirtina e-maîlan tu diyar dikî ku tu razî yî Mozilla van agahiyan wekî ku di <privacyLink> Polîtîkaya Nepeniyê </privacyLink> ya Mozillayê de hatî vegotin bi kar bîne.
 indicates-required = * Qada pêwîst nîşan dide
 not-available-abbreviation = Tune
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Zimên hilbijêre

@@ -82,6 +82,7 @@ about-playbook-how-add-sentences = Com i ahigi frases?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</<scAccountLink>strong> Ei un estrument entà recuélher e validar frases de domeni public. Auratz de <scAccountLink>crear un compde</scAccountLink>. Ara seguida, ahigetz era vòsta lengua ath <strong>perfil</strong>. I podetz <strong>ahíger</strong> frases o <strong>revisar</strong> es frases ahijudes anterioraments.
 about-playbook-how-add-sentences-content-2 = Es frases an d’èster revisades e acceptades per dues persones entà èster includides en Common Voice. Creatz directritzes entara vòsta lengua <languageGuidelinesLink>ací</languageGuidelinesLink>. Es frases an d’èster de <licenseLink>domeni public</licenseLink> e an d’auer mens de 15 paraules. Podetz demanar ath proprietari d'un tèxte que lo hèsque <waiverLink>CC0 mejançant eth nòste procès d'exempcion</waiverLink> e mos l'envie tà commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Podetz emplegar eth <scraperLink>Extractor de frases</scraperLink> entà profitar frases cuertes dera Wikipèdia.<scraperLink>
+
 ## How to record quality
 
 about-playbook-how-record-quality = Com enregistri un talh de votz de nauta qualitat?
@@ -127,4 +128,6 @@ about-playbook-how-project-governance-content-4 = Participacion comunitària e p
 about-playbook-how-project-governance-content-5 = Valor e reconeishença.
 about-playbook-how-project-governance-content-6 = Responsabilitat mutuau.
 about-playbook-how-project-governance-content-7 = <governanceLink>Liegetz mès sus com mos governam</governanceLink>
+
+## How is Common Voice funded
 

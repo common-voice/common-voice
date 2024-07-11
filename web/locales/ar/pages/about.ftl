@@ -2,6 +2,9 @@
 
 about-title = لماذا «الصوت للعموم»؟
 how-does-it-work-text = نستعينُ بالغير لصنع مجموعة بيانات صوتية مفتوحة المصدر. تبرّع بصوتك وتحقّق من دقّة مقاطع الغير وستجعل مجموعة البيانات هذه أفضل بكل المقاييس ولكل الناس.
+
+## How does it work section
+
 about-speak = تحدّث
 about-speak-text = يسجّل المشاركون مقاطع صوتية بقراءتها من مخزن جمل متبرّع بها.
 about-listen-queue = طابور الاستماع
@@ -28,3 +31,34 @@ about-nav-why-common-voice = لماذا؟
 about-nav-how-it-works = كيف؟
 about-nav-partners = الشركاء
 about-nav-get-involved = ساهِم معنا
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

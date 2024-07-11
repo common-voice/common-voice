@@ -15,9 +15,6 @@ localized = Localized
 sentences = Imisho
 language-validation-hours = Emahora
 language-validation-progress = Inchubo yekucinisekisa
-
-## Languages
-
 contribute = Nikela
 get-involved-button = Hlanganyela
 get-involved-title = Nikela ku { $lang }

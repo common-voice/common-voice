@@ -74,4 +74,3 @@ validations =
         [one] যাচাই
        *[other] যাচাই
     }
-

@@ -183,7 +183,6 @@ share-text = Nyé áká kụ̀zíéré ígwè-nwéré-àkọ́núchè ètù ńd
 link-copied = Ị nwẹ́tágó ọ́wà-ńjìkọ́
 back-top = Lághàchí ázụ́ bídó n'élú
 logout = Pụ̀ọ́
-
 stayintouch = Ànyị́ níílé nà Mozilla nà-èwú òbòdò màkà ńkwàlíté ǹkà n'ụ́zụ́ gbásạ́rá ụ̀dà-ólú.  Ànyị́ chọ̀rọ̀ kà ànyị́ ná-àkpárị́tá kwà m̀gbè íjí ná-ènwétá ózí kà íhé sì àgà mà ụ́zọ̀ ọ́hụ́rụ́ níílé ńgwá ńchọ́chá sì ápụ̀tà nàkwàzị̀ ètù Í sì jìrí ńgwá  ńchọ́chá ńdí à àrụ́ ọ́rụ́.
 privacy-info = Ànyị́ nà-èkwé gị́ ńkwà íjí ányá írú àlà jìkwáá ózí gị́. Gụ̀kwúó ihe gbàsárá ǹké à n'ébé ányị́ dèrè yá <privacyLink> </privacyLink>
 return-to-cv = Lághàchí ázụ́ n'òtù Common Voice
@@ -197,4 +196,6 @@ email-opt-in-info-sub-with-challenge = Ná-ènwétà ózí íméèlụ̀ (email)
 email-opt-in-privacy-v2 = Ọ bụrụ na i kweta ka e zitere gi ozi íméèlụ̀ (email), ọ putara na i kwetago kà Mọ̀zị́là jìkwáá ózí ńdị́ à dị́kà é sị̀ dépụ̀tá yá n'ọ́wá ńchékwá ózí Mọ̀zị́là <privacyLink> Ámụ̀mà ńchékwá</privacyLink
 indicates-required = Ákàrà kpákpáǹdò (*) nà-ègósí ébé á chọ̀rọ̀ ka e dee ihe.
 not-available-abbreviation = N/A
+
+## Donate banner
 

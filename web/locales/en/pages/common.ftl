@@ -1,6 +1,9 @@
 # Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
 # [Languages]
+
+
 ## Languages
+
 ab = Abkhaz
 ace = Acehnese
 ady = Adyghe
@@ -206,9 +209,12 @@ zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
 zu = Zulu
 zza = Zaza
+
 # [/]
 
+
 ## Layout
+
 speak = Speak
 speak-now = Speak now
 datasets = Datasets
@@ -229,7 +235,6 @@ link-copied = Link Copied
 back-top = Back to Top
 logout = Log Out
 donate = Donate
-
 stayintouch = We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.
 privacy-info = We promise to handle your information with care. Read more in our <privacyLink>Privacy Notice</privacyLink>.
 return-to-cv = Return to Common Voice
@@ -243,7 +248,9 @@ email-opt-in-info-sub-with-challenge = Receive emails such as challenge and goal
 email-opt-in-privacy-v2 = By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s <privacyLink>Privacy Policy</privacyLink>.
 indicates-required = Fields marked with an asterisk (*) are required.
 not-available-abbreviation = N/A
+
 ## Donate banner
+
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>We need</mark><br/><mark>your help!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
@@ -251,8 +258,5 @@ donate-banner-cta-explanation = It costs almost a million dollars a year to host
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Using CV for</mark><br/><mark>your research?</mark>
 languages-donate-banner-cta-explanation = Common Voice is funded by donations and grants! We love collaborating with academics, civil society and industry researchers. Common Voice is free to use, but contributing to platform and hosting costs through grant proposals is really helpful.
-# [/SentenceCollector]
-
 localization-select =
-  .label = Choose language/localization
-
+    .label = Choose language/localization

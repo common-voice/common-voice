@@ -7,4 +7,3 @@ download-form-email =
     .value = Aguyjevete, ñañomongetátajepi.
 download-back = Ejevy Common Voice Kuaapyryrukuérape
 download-no = Nahániri, aguyje
-

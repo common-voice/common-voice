@@ -1,1 +1,5 @@
-    .label = Ninza kwija kutayaya.
+## WRITE PAGE
+
+
+## BULK SUBMISSION 
+

@@ -15,9 +15,6 @@ localized = Okwasendaweni
 sentences = Imisho
 language-validation-hours = Amahora
 language-validation-progress = Inqubekelaphambili Yokuqinisekisa
-
-## Languages
-
 contribute = Faka isandla
 get-involved-button = Zibandakanye
 get-involved-title = Nikela kwi { $lang }

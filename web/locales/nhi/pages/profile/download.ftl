@@ -21,4 +21,3 @@ download-request-assembling-description = mu archibos mu niliuhtuqueh. nimitz tl
 download-request-refresh-button = yancuictlali
 download-request-modal-description = nicancateh enlaces para tiquin timultis mu archivos ZIP
 download-request-metadata-link = Tlahcuilol tlahtol
-

@@ -175,7 +175,6 @@ share-text = Отсалӧй велӧдны машинаяссӧ гӧгӧрвон
 link-copied = Ыстӧд копируйтӧма
 back-top = Бӧр
 logout = Петны
-
 stayintouch = Mozilla кыпӧдӧ ӧтув котыр voice technology гӧгӧр. Ми кӧсъям, медым ті тӧдінныд выльторъяс, выль юӧр ӧшмӧсъяс да тӧдны, кыдз ті вӧдитчанныд татшӧм юӧръяснас.
 privacy-info = Ми сетам кыв, мый кутам видлавны тіянлысь юӧр видзчысьӧмӧн да тӧждысьӧмӧн. <privacyLink>Приватлун политика</privacyLink>.
 return-to-cv = Бӧр Common Voice дорӧ
@@ -189,4 +188,6 @@ email-opt-in-info-sub-with-challenge = Мк кӧсъя, медым меным ы
 email-opt-in-privacy-v2 = Электрон письмӧяс пӧлучитӧм бӧрйигӧн Ті сетаннныд сӧгласлун Mozilla-лы тайӧ юӧрнас вӧдитчӧм вылӧ, кыдзи тайӧс пасйӧма <privacyLink> Mozilla-лӧн йӧзӧдтӧмлун политикаын </privacyLink>.
 indicates-required = * петкӧдлӧ эрдъяс, кодъясӧс колӧ тыртны
 not-available-abbreviation = Оз позь йитчыны
+
+## Donate banner
 

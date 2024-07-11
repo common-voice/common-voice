@@ -76,4 +76,3 @@ help-contribute = Puetz aduyar a crear una amplia base de datos de codigo ubiert
 login-company = Inicia sesión / Rechistra-te con o correu de { $company }
 profile-not-required = No ye necesario tener un perfil pa colaborar, encara que puede resultar util.
 read-more-about = Descubre mas en a nuestra pachina Sobre Common Voice
-

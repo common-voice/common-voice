@@ -60,11 +60,8 @@ download = Sader
 dataset-version = Lqem
 clipboard-not-supported = Tacfawt ur tettusefrak ara
 no-information-available = Ulac talɣut i yellan
-
 data-download-singleword-title = Sader aḥric iswi Single Word
 data-download-singleword-callout-v2 = Wagi d aḥric seg tegrumma n yisefka i useǧhed n uɛqal n yizwilen akked tifin n ih / uhu.
-## Data
-
 data-download-button = Sali-d isefka Common Voice
 data-download-yes = Ih
 data-download-deny = Uhu

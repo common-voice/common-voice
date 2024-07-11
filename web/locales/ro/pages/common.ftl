@@ -149,7 +149,6 @@ share-text = Ajută mașinile să învețe cum vorbesc oamenii reali, donează-�
 link-copied = Link copiat
 back-top = Înapoi în partea de sus
 logout = Deconectare
-
 stayintouch = La Mozilla construim o comunitate în jurul tehnologiei vocale. Am vrea să te ținem la curent cu noutăți, surse noi de date și să aflăm mai multe despre cum folosești aceste date.
 privacy-info = Promitem că vom gestiona cu atenție datele tale personale. Pentru mai multe informații, citește <privacyLink>Notificarea noastră privind confidențialitatea</privacyLink>.
 return-to-cv = Întoarce-te la Common Voice
@@ -163,4 +162,6 @@ email-opt-in-info-sub-with-challenge = Primești mesaje pe e-mail, precum mement
 email-opt-in-privacy-v2 = Dacă optezi să primești mesaje pe e-mail înseamnă că accepți ca Mozilla să gestioneze aceste informații, conform explicațiilor din <privacyLink>Politica de confidențialitate</privacyLink> Mozilla.
 indicates-required = * Indică un câmp obligatoriu
 not-available-abbreviation = Nu e cazul
+
+## Donate banner
 

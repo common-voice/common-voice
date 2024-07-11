@@ -76,4 +76,3 @@ validations =
         [one] సరిచూత
        *[other] సరిచూతలు
     }
-

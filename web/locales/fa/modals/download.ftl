@@ -7,4 +7,3 @@ download-form-email =
     .value = ممنون، با شما در تماس خواهیم بود
 download-back = بازگشت به مجموعه داده‌های آواهای مشترک
 download-no = نه ممنون
-

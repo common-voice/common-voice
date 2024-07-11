@@ -226,7 +226,6 @@ link-copied = ბმულის ასლი აღებულია
 back-top = დასაწყისში დაბრუნება
 logout = გასვლა
 donate = შეგვეწიეთ
-
 stayintouch = ჩვენ, Mozilla-ში ვცდილობთ შევკრიბოთ დიდი ერთობა ხმოვანი ტექნოლოგიების გარშემო. გვსურს დავრჩეთ კავშირზე განახლებებით, მონაცემთა ახალი წყაროებით და მოვისმინოთ, თუ როგორ გადგებათ ეს მონაცემები.
 privacy-info = ჩვენ გპირდებით, რომ თქვენს პირად ინფორმაციას სიფრთხილით მოვეკიდებით. ვრცლად იხილეთ ჩვენი <privacyLink>პირადი მონაცემების დაცვის განაცხადი</privacyLink>.
 return-to-cv = Common Voice-ზე დაბრუნება
@@ -240,7 +239,8 @@ email-opt-in-info-sub-with-challenge = მიიღეთ ელფოსტა�
 email-opt-in-privacy-v2 = ელფოსტით წერილების მიღებაზე თანხმობით, თქვენ აცხადებთ, რომ არ ხართ წინააღმდეგი, Mozilla-მ ეს მონაცემები დაამუშაოს <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად.
 indicates-required = * აღნიშნავს აუცილებელ ველს
 not-available-abbreviation = მიუწვდომელია
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = აირჩიეთ ენა/არე

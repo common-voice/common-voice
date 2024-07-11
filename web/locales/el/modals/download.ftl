@@ -7,4 +7,3 @@ download-form-email =
     .value = Ευχαριστούμε, θα σας ενημερώνουμε.
 download-back = Επιστροφή στα σύνολα δεδομένων Common Voice
 download-no = Όχι, ευχαριστώ
-

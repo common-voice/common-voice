@@ -119,4 +119,3 @@ about-playbook-how-funded = Comu si finanzia Common Voice?
 about-playbook-how-funded-content-1 = Common Voice è n'urganizzazzioni US 501c3 dâ Funnazzioni Mozilla. U pruggettu è finanziatu tuttu di <philantropicGrantLink>cuntribbuti filantròpici</philantropicGrantLink> e di dunazzioni di genti 'n tuttu u munnu.
 about-playbook-how-funded-content-2 = Costa assai mantèniri e pubblicari i dati, ammigghiurari a chiattafurma  e manijari <africaMradiLink>prugrammi cumunitari</africaMradiLink>.
 about-playbook-how-funded-content-3 = Si tu o a to urganizzazzioni vulìssivu cuntribbuiri ô pruggettu, po' fari na <donateLink>dunazzioni</donateLink> o po' cuntattari a nostra squatra assuciati ô nnirizzu <emailFragment>commonvoice@mozilla.com</emailFragment>.
-

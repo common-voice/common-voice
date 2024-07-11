@@ -61,9 +61,6 @@ more = Išsamiau
 close = Užverti
 download = Atsisiųsti
 dataset-version = Versija
-
-## Data
-
 data-download-button = Pasisiųsti „Common Voice“ duomenis
 data-download-yes = Taip
 data-download-deny = Ne

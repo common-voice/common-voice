@@ -11,10 +11,7 @@ language-speakers = Сөйлеушилер
 localized = Аўдарылды
 sentences = Гәп
 language-validation-hours = Саат
-
-## Languages
-
-contribute = Үлес қосыў
+contribute = Қатнасыў
 get-involved-button = Қатнасыў
 get-involved-title = { $lang } тилине үлес қосың
 get-involved-email =

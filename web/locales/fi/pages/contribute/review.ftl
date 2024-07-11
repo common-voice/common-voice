@@ -16,4 +16,3 @@ sc-review-form-button-approve = Hyväksy
 sc-criteria-make-sure = Varmista, että lause täyttää seuraavat kriteerit:
 sc-criteria-item-2 = Lauseen tulee olla kieliopillisesti oikein.
 sc-criteria-item-3 = Lauseen on oltava lausuttavissa ääneen.
-

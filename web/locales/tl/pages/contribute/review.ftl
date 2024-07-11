@@ -1,6 +1,3 @@
-## REVIEW CRITERIA
-
-
 ## REVIEW
 
 sc-review-title = Suriin ang mga Pangungusap
@@ -19,4 +16,6 @@ sc-review-form-button-skip-shortcut = S
 sc-review-form-button-submit =
     .submitText = Tapusin ang Pagsusuri
 sc-review-link = Suriin
+
+## REVIEW CRITERIA
 

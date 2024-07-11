@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Meg tudja mondani, hogy miért akarja töröltetni a rögzítéseit?
 profile-form-delete = Profil törlése
-

@@ -10,4 +10,3 @@ download-start = Pakua data ya wasifu
 download-request = Omba rekodi
 download-request-button = Pakua
 download-request-refresh-button = onyesha upya
-

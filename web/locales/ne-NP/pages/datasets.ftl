@@ -58,11 +58,8 @@ more = थप
 close = बन्द
 download = डाउनलोड
 dataset-version = संस्करण
-
 data-download-singleword-title = Single Word Target Segment डाउनलोड गर्नुहोस्
 data-download-singleword-callout-v2 = यो एक अंकरूपी पहिचान र हुन्छ / हुदैन  पत्ता लगाउन शशक्त बनाउने यूज केस ड्रिवन डाटा संकलित क्षेत्र हो ।
-## Data
-
 data-download-button = Common Voice डाटा डाउनलोड गर्नुहोस्
 data-download-yes = हो
 data-download-deny = होेइन

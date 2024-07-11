@@ -28,4 +28,3 @@ download-request-modal-description = 下列係你嘅 ZIP 檔下載鏈結。
 download-request-link-text = { $total } 個 zip 檔中嘅第 { $offset } 個
 download-request-metadata-link = 句子文本
 download-request-link-single = 閣下亦可以喺自己想用嘅下載工具中貼上 direct URLs 以下載檔案。呢啲 URLs 嘅有效期為12個鐘。閣下可隨時再次訪問本頁面以獲取新嘅 URLs。
-

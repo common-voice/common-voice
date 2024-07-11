@@ -33,4 +33,3 @@ request-language-success-list-3 =
 request-language-error =
     Varbyut mes naasam sajāmuši itū pīprasejumu. Lyudzu, rokstit mums taišni
     iz e-postu <emailLink>{ $email }</emailLink>, i mes ar jums sasazynuosim!
-

@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Hec clic a
 action-tap = Tocatz
-## Languages
-
 contribute = Collaboratz‑i
 skip = Omet
 shortcuts = Dreceres
@@ -142,4 +138,3 @@ contribution-just-unsure-title = Auetz dobtes?
 contribution-just-unsure-description = Se vos trobatz damb quauquarren qu'aguestes directritzes non corbissen, votatz segons eth vòste critèri. Se reaument non ac podetz decidir, emplegatz eth boton Omet e passatz tar enregistrament següent.
 see-more = <chevron></chevron>Mès
 see-less = <chevron></chevron>Mens
-

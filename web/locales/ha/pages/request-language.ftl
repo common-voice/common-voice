@@ -1,1 +1,2 @@
-    .label = Adreshin yanar gizo
+## Request Language Pages
+

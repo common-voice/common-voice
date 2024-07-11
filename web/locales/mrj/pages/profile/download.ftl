@@ -25,4 +25,3 @@ download-request-modal-title = Качаен нӓлӓшлӓн ссылкывлӓ
 download-request-modal-description = ZIP-файлвлӓм качаен нӓлӓш манын, теве ссылкывлӓ.
 download-request-link-text = Zip #{ $offset } / { $total }
 download-request-metadata-link = Предложенин текстшӹ
-

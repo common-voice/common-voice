@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Клик
 action-tap = Допир
-## Languages
-
 contribute = Придонеси
 review = Прегледај
 skip = Прескокни
@@ -122,4 +118,3 @@ contribution-just-unsure-title = Само несигурни?
 contribution-just-unsure-description = Ако наидете на нешто што овие упатства не го опфаќаат, ве молиме гласајте според вашата најдобра проценка. Ако навистина не можете да одлучите, користете го копчето за прескокнување и продолжете со следната снимка.
 see-more = <chevron> </chevron> Види повеќе
 see-less = <chevron> </chevron> Види помалку
-

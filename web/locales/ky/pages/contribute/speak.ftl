@@ -30,7 +30,6 @@ review-rerecord = Кайра жаздыруу
 review-cancel = Кошуудан баш тартуу
 review-keep-recordings = Жаздырууну улантуу
 review-delete-recordings = Жаздырууларды жок кылуу
-
 review-terms = Сиз Common Voice'ту колдонуу менен биздин <termsLink>эрежелерибиз</termsLink> жана <privacyLink>купуялуулук эскертмебиз</privacyLink> менен макулдуңузду билдиресиз
 terms-agree = Макулмун
 terms-disagree = Макул эмесмин

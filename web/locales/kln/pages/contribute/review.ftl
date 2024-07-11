@@ -40,9 +40,6 @@ sc-criteria-item-1 = magaat kogigispellen ngalek komnyei
 sc-criteria-item-2 = grammer negigiboishen komagaat ko miten komnyei
 sc-criteria-item-3 = magaat kengalal sentensi ichotok
 sc-criteria-item-6 = ngomaitinye sentensi alak cheigeere,gaigai,toretech iyuum ngalalutik alak !
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Geer <icon></icon>nda miten komnyei olegigingalalda sentesinoto?
 sc-review-rules-title = tos ngalalutik kogigisiir olemagaat?
@@ -56,4 +53,3 @@ review-error-rate-limit-exceeded = iwendineng' chokchinet missing ip kasarta ige
 sc-redirect-page-title = mi kechope walet neo
 sc-redirect-page-subtitle-1 = yumsetab ngalalutik kowendi sautit nenaat neo,eng nguno much<writeURL>isiir</writeURL> ngolyo <reviewURL>igeer kogeny</reviewURL> ngolyo agenge chegigiyum eng sauti nenayat.
 sc-redirect-page-subtitle-2 = ndaitinye tebut iteb eng <matrixLink>Matrix</matrixLink><discourseLink>Discourse</discourseLink> or <emailLink>emailit</emailLink>.
-

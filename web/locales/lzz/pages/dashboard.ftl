@@ -54,4 +54,3 @@ share-goal = Hedefi-çkimi gurti
 ## Goals
 
 streaks = Golağarape
-

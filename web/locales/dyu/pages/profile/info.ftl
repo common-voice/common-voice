@@ -64,4 +64,3 @@ help-accent = Aw mago bɛ dɛmɛ dɔ la ni accent ye wa?
 help-accent-explanation = I ka fɔcogo ye i bɛ daɲɛw fɔcogo ye. A bɛ se ka labɛn i sigiyɔrɔ fɛ, i bɛ kan wɛrɛ minnu fɔ ani fɛn caman wɛrɛw. Aw bɛ se ka kunnafoni fɛn o fɛn fɔ aw hakili la ko a bɛnnen don yan.
 help-variants = Aw mago bɛ dɛmɛ dɔ la ni variants ye wa?
 help-variants-explanation = Variants ye kan sugu kɛrɛnkɛrɛnnen dɔ ye - misali la, mɔgɔ minnu sigilen bɛ dugukoloko walima sigida dɔ la, olu bɛ tila ɲɔgɔn na. Tuma dɔw la, olu bɛ Weele ko kanhakɛw.
-

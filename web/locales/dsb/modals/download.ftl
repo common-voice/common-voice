@@ -7,4 +7,3 @@ download-form-email =
     .value = Wjeliki źěk, wóstawamy w zwisku.
 download-back = Slědk k datowym sajźbam Common Voice
 download-no = Ně, źěkujom se
-

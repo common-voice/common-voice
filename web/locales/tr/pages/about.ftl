@@ -145,4 +145,3 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Nasıl yöneti
 ## How is Common Voice funded
 
 about-playbook-how-funded = Common Voice nasıl finanse ediliyor?
-

@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Bolehkah Anda memberitahu kami mengapa Anda ingin rakaman Anda dipadamkan?
 profile-form-delete = Hapus Profil
-

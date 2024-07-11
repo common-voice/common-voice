@@ -7,4 +7,3 @@ download-form-email =
     .value = Сувафтк эсь эл. адресцень
 download-back = Мрдамс «Common Voice» даннаень кочкафксти
 download-no = Аф, сюкпря
-

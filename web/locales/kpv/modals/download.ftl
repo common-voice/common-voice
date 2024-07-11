@@ -5,4 +5,3 @@ download-form-email =
     .label = Индӧй ассьыныд email
     .value = Аттьӧ, ми йитчам.
 download-no = Оз ков
-

@@ -7,4 +7,3 @@ download-form-email =
     .value = Trugarez vras deoc'h, chom a raimp e darempred ganeoc'h.
 download-back = Distreiñ da hollad roadennoù Common Voice
 download-no = Nann avat
-

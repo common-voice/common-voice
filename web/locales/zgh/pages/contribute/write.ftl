@@ -1,3 +1,5 @@
+## WRITE PAGE
+
 write = ⴰⵔⴰ
 # WRITE PAGE
 write-instruction = ⵔⵏⵓ <icon></icon> ⴽⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ ⵏ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⵏ

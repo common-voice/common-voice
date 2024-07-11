@@ -235,7 +235,6 @@ link-copied = Ο σύνδεσμος αντιγράφηκε
 back-top = Επιστροφή στην κορυφή
 logout = Αποσύνδεση
 donate = Δωρεά
-
 stayintouch = Στη Mozilla, χτίζουμε μια κοινότητα γύρω από τη φωνητική τεχνολογία. Θα θέλαμε να επικοινωνούμε μαζί σας για ενημερώσεις, νέες πηγές δεδομένων και για να μαθαίνουμε πώς χρησιμοποιείτε αυτά τα δεδομένα.
 privacy-info = Υποσχόμαστε να χειριστούμε τα στοιχεία σας με προσοχή. Διαβάστε περισσότερα στη <privacyLink>Σημείωση απορρήτου</privacyLink>.
 return-to-cv = Επιστροφή στο Common Voice
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = Λάβετε email, όπως υπενθυ
 email-opt-in-privacy-v2 = Επιλέγοντας να λαμβάνετε email, δηλώνετε ότι συμφωνείτε με τον χειρισμό αυτών των δεδομένων από τη Mozilla, όπως εξηγεί η <privacyLink>Πολιτική απορρήτου</privacyLink>.
 indicates-required = * Υποχρεωτικό πεδίο
 not-available-abbreviation = Μ/Δ
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = Η φιλοξενία του συνόλων τω
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Χρησιμοποιείτε το βιογραφικό σας</mark><br/><mark>για την έρευνά σας;</mark>
 languages-donate-banner-cta-explanation = Το Common Voice χρηματοδοτείται από δωρεές και επιχορηγήσεις! Μας αρέσει να συνεργαζόμαστε με ακαδημαϊκούς, την κοινωνία των πολιτών και ερευνητές του κλάδου. Η χρήση του Common Voice είναι δωρεάν, αλλά η συνεισφορά στο κόστος της πλατφόρμας και της φιλοξενίας μέσω επιχορηγήσεων είναι πολύ χρήσιμη.
-# [/SentenceCollector]
-
 localization-select =
     .label = Επιλογή γλώσσας/μετάφρασης

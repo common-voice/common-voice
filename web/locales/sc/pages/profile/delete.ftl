@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Si podes fàghere ischire pro ite boles chi is registratziones tuas bèngiant cantzelladas?
 profile-form-delete = Cantzella su profilu
-

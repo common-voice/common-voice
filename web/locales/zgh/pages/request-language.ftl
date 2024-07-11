@@ -38,4 +38,3 @@ request-language-success-list-3 =
 request-language-error =
     ⵃⴰⵇⵇⴰⵏ ⵓⵔ ⴰⵏⵖ ⴷ ⵜⵍⴽⵉⵎ ⵜⵓⵜⵜⵔⴰ ⴰⵏⵏ. ⵎⴽ ⵜⵓⴼⴰⵎ ⴰⵣⵏⴰⵜ ⴰⵏⵖ ⵉⵎⴰⵢⵍ ⵙ ⵓⵙⵔⵉⴷ
     ⴳ <emailLink>{ $email }</emailLink>, ⵔⴰⴷ ⴰⵡⵏ ⵏⵔⴰⵔ!
-

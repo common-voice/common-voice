@@ -11,12 +11,6 @@ data-other-ted-name = TED-LIUM корпус
 more = Унджык
 close = Сиптыны
 dataset-version = Версия
-
-## Error pages
-
-
-## Data
-
 data-download-button = Босьтны Common Voice мыччӧд
 data-download-yes = Но
 data-download-deny = Оз ков

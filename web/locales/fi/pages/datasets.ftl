@@ -58,11 +58,8 @@ dataset-metadata-sex = Sukupuoli
 # dataset metadata - age of contributor
 dataset-metadata-age = Ikä
 dataset-donate-modal-heading = Tiesitkö…
-
 data-download-singleword-title = Lataa yhden sanan kohdesegmentti
 data-download-singleword-callout-v2 = Tämä on käyttötapaukseen perustuva segmentti, joka sisältää tietoa puhuttujen lukujen tunnistamisen ja kyllä/ei -havaitsemisen tehostamiseksi.
-## Data
-
 data-download-button = Lataa Common Voice -aineisto
 data-download-yes = Kyllä
 data-download-deny = Ei

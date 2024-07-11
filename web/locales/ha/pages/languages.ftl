@@ -13,9 +13,7 @@ language-search-input =
 language-speakers = Masu Magana
 localized = Sarrafawa
 sentences = Jumloli
-## Languages
-
-contribute = Taimaka
+contribute = Gudunmawa
 get-involved-button = Shiga a dama da kai
 get-involved-title = Taimaka wa { $lang }
 get-involved-text = Mun gode da nuna sha'awarka wajen taimaka wa yaren { $lang }. Muna aiki tukuru don samun kowane harshe a shirye tsaf kuma za mu ci gaba da tuntubar ma'abotanmu ta hanyar sakon yanar gizo. Idan kana son taimakawa, ka taimaka ka ba da adreshinka na yanar gizo a kasa.

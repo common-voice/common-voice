@@ -32,7 +32,6 @@ review-rerecord = ocsipatlahtolahcocui
 review-cancel = amo xicnaltitlani
 review-keep-recordings = xiquinpixto tlahtolahcuc
 review-delete-recordings = niquinpolos notlahtolahcuc
-
 review-terms = quemen tiquicui Common Voice, ticsilia to<termsLink> terminos quenimocuis </termsLink> huan <privacyLink> tiachca ichtaca
 terms-agree = quema nicsilia
 terms-disagree = amo nicsilia

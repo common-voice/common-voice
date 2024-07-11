@@ -116,4 +116,3 @@ validations =
         [one] Ellenőrzés
        *[other] Ellenőrzés
     }
-

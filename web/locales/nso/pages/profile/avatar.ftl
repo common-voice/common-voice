@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Tsenya faele ya senepe netwekeng.
 browse-file = Go rwala lego bea goba <browseWrap>Praosa</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Faele e kgethilweng e kgolo kudu
 avatar-uploaded = Tsenya Motšeakarolo
 max-file-size = { $kb }kb max
 remove-avatar = Tloša Motšeakarolo
-

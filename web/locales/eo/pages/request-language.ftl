@@ -1,1 +1,2 @@
-    .label = Retpoŝta adreso
+## Request Language Pages
+

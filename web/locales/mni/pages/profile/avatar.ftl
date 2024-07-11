@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = ꯃꯤꯔꯦꯜ ꯐꯥꯏꯜ ꯊꯥꯒꯠꯂꯨ
 browse-file = ꯆꯤꯡꯕ ꯑꯃꯑꯁꯨꯡ ꯊꯥꯗꯕ<browseWrap> ꯕ꯭ꯔꯣꯎꯖ ꯇꯧꯕ</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = ꯐꯥꯏꯜ ꯑꯁꯤ ꯌꯥꯝ ꯆꯥꯎꯔꯦ
 avatar-uploaded = ꯁꯛꯇꯝ ꯊꯥꯒꯠꯂꯦ
 max-file-size = { $kb }kb ꯃꯦꯛꯁ
 remove-avatar = ꯑꯕꯇꯥꯔ ꯂꯧꯊꯣꯛꯄꯥ
-

@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = နိုပ်
 action-tap = တို့ထိ
-## Languages
-
-contribute = ပူးပေါင်း ပါဝင် ဆောင်ရွက်ခြင်း
+contribute = ပါဝင်ကူညီခြင်း
 skip = ကျော်ရန်
 shortcuts = အလွယ်နည်းများ
 clips-with-count-pluralized =
@@ -57,4 +53,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

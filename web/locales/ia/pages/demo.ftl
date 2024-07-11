@@ -33,4 +33,3 @@ demo-listen-subtitle = Preste a contribuer?
 
 demo-dashboard-card-header = Le pannellos personal te tene al currente con le progresso individual e communitari.
 demo-dashboard-card-body = Pro cata retalio de voce donate e cata retalio de audio validate, le tabulieros de tu conto se actualisa pro reflecter le ultime progresso in cata lingua in que tu contribue. Si, tu pote contribuer a plure linguas!<br/><br/>Usa le tabulieros pro traciar tu statisticas, comparar tu progresso con illo de alteres in le communitate, e definir objectivos de contribution quotidian o septimanal.
-

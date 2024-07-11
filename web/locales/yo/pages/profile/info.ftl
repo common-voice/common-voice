@@ -62,4 +62,3 @@ help-accent = O nílò ìrànwọ́ pẹ̀̀lú ohùn ìpèdè?
 help-accent-explanation = Ohùn ìpèdè ni bí o ṣe ń pe ọ̀rọ̀. O lè rí bó ti rí latara ibi tí o ti gbé, àwọn èdè mìíràn tí ò ń sọ àti àwọn ohun mìíràn. O lè sọ àwọn ohun to rò bé ó ṣe pàtàkì níbí.
 help-variants = O nílò ìrànwọ́ pẹ̀lú ẹ̀dà èdè?
 help-variants-explanation = Ẹ̀dà èdè jẹ́ irúfẹ́ èdè kan - fún àpẹẹrẹ, èyí tí àwọn ènìyàn agbègbè kán jọ ń sọ. Nígbà míràn, a máa ń per wọ́n ní ẹ̀ka èdè
-

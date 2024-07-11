@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Klyckyowgh
 action-tap = Tappyowgh
-## Languages
-
 contribute = Kevri
 skip = Hepkor
 shortcuts = Skochfordhow
@@ -35,6 +31,9 @@ target-segment-first-card = Yth esos ow kevri dh'agan kynsa tregh kosten
 target-segment-generic-card = Yth esos ow kevri dhe tregh kosten
 target-segment-add-voice = Keworra Dha Lev
 target-segment-learn-more = Dyski Moy
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -83,9 +82,6 @@ shortcut-vote-yes = y
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-for-example = rag ensampel
@@ -93,4 +89,3 @@ contribution-misreadings-title = Kammlennansow
 contribution-volume-title = Nivel Son
 see-more = <chevron></chevron>Gweles moy
 see-less = <chevron></chevron>Gweles le
-

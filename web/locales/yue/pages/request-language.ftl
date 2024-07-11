@@ -12,4 +12,3 @@ request-language-google-recaptcha-required = 想繼續嘅話要完成 reCAPTCHA 
 request-language-google-recaptcha-error = reCAPTCHA 出咗錯，請試多次。
 # Success page
 request-language-success-heading = 唔該晒！新語言申請已經提交。
-

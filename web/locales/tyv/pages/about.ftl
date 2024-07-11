@@ -52,3 +52,5 @@ about-playbook-how-project-governance = Төлевилелдиң шиитпир�
 about-playbook-how-project-governance-content-4 = Бөлүктүң киржилгези болгаш шиитпирлер хүлээри.
 about-playbook-how-project-governance-content-7 = <governanceLink>Башкарылгавыстың канчаар тургустунганын ам-даа билип алыңар</governanceLink>
 
+## How is Common Voice funded
+

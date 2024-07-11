@@ -62,4 +62,3 @@ help-accent = Je, unahitaji usaidizi kuhusu lafudhi?
 help-accent-explanation = Lafudhi yako ni jinsi unavyotamka maneno. Inaweza kubadilishwa na mahali umeishi, lugha zingine unazungumza na mambo mengine mengi. Unaweza shirikia maelezo yoyote unayohisi yanafaa hapa.
 help-variants = Je, unahitaji usaidizi kuhusu lahaja?
 help-variants-explanation = Lahaja ni aina mahususi ya lugha - kwa mfano inayoshirikiwa na wale wanaoishi katika jiografia au jumuiya. Wakati mwingine hizi huitwa lahaja.
-

@@ -1,6 +1,6 @@
-write = ç̌ari
 ## WRITE PAGE
 
+write = ç̌ari
 sentence =
     .label = Cumle
 sentence-input-value = ǩamuşi mali na ren cumle-tkvani hak ç̌arit
@@ -20,4 +20,6 @@ contact-us = Çkuni-ǩala ǩontaǩt̆i dodvit
 add-sentence-success = 1 cumle diǩorobu
 add-sentence-error = Cumle eǩidvet̆uşani xeta gamaxtu
 required-field = Ham svani opşit.
+
+## BULK SUBMISSION 
 

@@ -116,4 +116,3 @@ validations =
         [one] توثیق
        *[other] توثیقات
     }
-

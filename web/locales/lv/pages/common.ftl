@@ -235,7 +235,6 @@ link-copied = Saite kopēta
 back-top = Atpakaļ uz augšu
 logout = Beigt darbu
 donate = Ziedo
-
 stayintouch = Mēs Mozilla veidojam kopienu balss tehnoloģiju jomā. Mēs vēlētos uzturēt kontaktus ar jums, lai informētu jūs par jaunumiem un iegūtu informāciju, kā jūs lietojat šeit pieejamās datu kopas.
 privacy-info = Mēs apsolām rīkoties ar jūsu informāciju uzmanīgi. Lasiet vairāk mūsu <privacyLink>privātuma paziņojumā</privacyLink>.
 return-to-cv = Atgriezties pie Common Voice
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = Saņemiet e-pastus par sacensībām vai p
 email-opt-in-privacy-v2 = Izvēloties saņemt e-pasta ziņojumus, jūs piekrītat, ka Mozilla apstrādās tos tā, kā tas ir norādīts Mozilla <privacyLink>privātuma politikā<privacyLink>.
 indicates-required = * Obligātie lauki
 not-available-abbreviation = N/A
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = Datu kopu uzturēšana un platformas uzlabošana
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Vai izmantojat CV</mark><br/><mark>savos pētījumos?</mark>
 languages-donate-banner-cta-explanation = Common Voice tiek finansēta no ziedojumiem un dotācijām! Mums patīk sadarboties ar akadēmiķiem, pilsonisko sabiedrību un nozares pētniekiem. Common Voice var izmantot bez maksas, taču platformas un serveru izmaksu segšana, izmantojot pētījumu programmu dotācijas, ir patiešām noderīga.
-# [/SentenceCollector]
-
 localization-select =
     .label = Izvēlieties valodu/lokalizāciju

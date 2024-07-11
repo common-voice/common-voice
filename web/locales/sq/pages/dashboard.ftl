@@ -111,4 +111,3 @@ validations =
         [one] Vleftësim
        *[other] Vleftësime
     }
-

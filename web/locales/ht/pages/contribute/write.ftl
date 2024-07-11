@@ -1,6 +1,6 @@
-write = Ekri
-## REVIEW PAGE
+## WRITE PAGE
 
+write = Ekri
 
 ## BULK SUBMISSION 
 

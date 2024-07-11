@@ -7,4 +7,3 @@ download-form-email =
     .value = Thank you, we'll be in touch.
 download-back = Return to Common Voice Datasets
 download-no = Хьэу, упсэу
-

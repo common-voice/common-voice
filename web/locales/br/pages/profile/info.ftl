@@ -72,4 +72,3 @@ help-variants = Ezhomm sikour gant an adstummoù?
 help-variants-explanation = An adstummoù eo stummoù resis ur yezh. Reoù boutin en ur gumuniezh pe ul lec’h resis, da skouer. Anvet eo rannyezh a-wechoù.
 help-sex-or-gender-changes = Ezhomm ho peus sikour gant ar cheñchamant rev pe jener?
 help-sex-or-gender-changes-explanation = Kinnig a reont muioc'h a zibaboù d'an dud war o fivelezh rev ha jener. Lakait ar pezh a fell deoc’h. <learnMoreLink>Lennit diwar-benn hon doare da verañ ar rev hag ar jener.</learnMoreLink>
-

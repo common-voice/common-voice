@@ -7,4 +7,3 @@ download-form-email =
     .value = Grazcha, nus restain in contact.
 download-back = Inavo a la collecziun da datas Common Voice.
 download-no = Na, grazcha.
-

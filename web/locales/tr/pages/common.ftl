@@ -235,7 +235,6 @@ link-copied = Bağlantı kopyalandı
 back-top = Başa dön
 logout = Çıkış
 donate = Bağış yap
-
 stayintouch = Mozilla’da ses teknolojileriyle ilgilenen bir topluluk oluşturuyoruz. Yeni duyuruları ve yeni veri kaynaklarını size de ulaştırmak, ayrıca bu verileri nasıl kullandığınızı öğrenmek isteriz.
 privacy-info = Bilgilerinizi özenle koruyacağımıza söz veriyoruz. <privacyLink>Gizlilik Bildirimimizde</privacyLink> daha fazla bilgi bulabilirsiniz.
 return-to-cv = Common Voice’a geri dön
@@ -249,13 +248,12 @@ email-opt-in-info-sub-with-challenge = Hedef hatırlatmaları, ilerleme durumu v
 email-opt-in-privacy-v2 = E-posta almayı tercih ettiğinizde bu bilgileri Mozilla’nın <privacyLink>Gizlilik Politikası</privacyLink>’nda açıklandığı şekilde kullanmasını kabul etmiş oluyorsunuz.
 indicates-required = * Gerekli alanları gösterir
 not-available-abbreviation = Yok
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Yardımınıza</mark><br/><mark>ihtiyacımız var!</mark>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Common Voice’u araştırmalarınızda</mark><br/><mark>kullanıyor musunuz?</mark>
-# [/SentenceCollector]
-
 localization-select =
     .label = Dil seçin

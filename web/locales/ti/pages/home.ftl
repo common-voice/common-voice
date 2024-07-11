@@ -88,4 +88,3 @@ help-contribute = ኮመን ቮይስ ድሕረ ባይታ ኣክውንት ብም
 login-company = ተመዝገብ / እተው ብ{ $company } ኢ- መይል
 profile-not-required = ድሕረ ባይታ (profile) ሓጋዚ እኳ እንተ ዀነ ንኣበርክቶ ኺገብር ግን ግደታ ኣይኮነንን፣ ስለምንታይ ኣብ ታሕቲ ኸም ዘሎ ርአ ።
 read-more-about = ንዝያዳ ኣብ ብዛዕባና ገጽ ኣንብብ
-

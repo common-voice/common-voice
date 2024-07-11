@@ -86,3 +86,14 @@ about-playbook-how-add-sentences = 我可以點樣新增句子？
 about-playbook-how-grow-language-content-2 = 活動
 about-playbook-how-grow-language-content-4 = 社交媒體
 
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

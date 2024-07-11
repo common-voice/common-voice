@@ -55,11 +55,8 @@ more = Mo go Oketsegileng
 close = Tswala
 download = Itseele
 dataset-version = Thanolelo
-
 data-download-singleword-title = Itseele Dikarolwana Tsa Lefoko le le Lengwe la Puo
 data-download-singleword-callout-v2 = Eno ke karolwana e e berekang e e nang le tshedimosetso ya go matlafatsa mokgwa wa go dirisa puo le o o kgonang go lemoga ee / nnyaa.
-## Data
-
 data-download-button = Itseele Tshedimosetso ya Common Voice
 data-download-yes = Ee
 data-download-deny = Nyaa

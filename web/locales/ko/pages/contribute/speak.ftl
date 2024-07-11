@@ -33,7 +33,6 @@ review-rerecord = 다시 녹음
 review-cancel = 제출 취소
 review-keep-recordings = 녹음 유지
 review-delete-recordings = 내 녹음 삭제
-
 review-terms = Common Voice를 사용하면 <termsLink>이용약관</termsLink>과 <privacyLink>개인정보 보호 정책</privacyLink>에 동의한 것으로 간주합니다.
 terms-agree = 동의합니다
 terms-disagree = 동의하지 않습니다

@@ -130,7 +130,6 @@ share-text = Aidake meil õpetada masinatele inimeste moodi rääkimist, anneta 
 link-copied = Link kopeeriti
 back-top = Tagasi üles
 logout = Logi välja
-
 stayintouch = Meie Mozillas ehitame kogukonda kõnetehnoloogia ümber. Meile meeldiks olla ühenduses, et jagada uuendusi ja infot uute andmeallikate kohta ning saada teada, kuidas sa neid andmeid kasutad.
 privacy-info = Me lubame, et töötleme sinu andmeid hoolikalt. Loe rohkem meie <privacyLink>privaatsusreeglite</privacyLink> kohta.
 return-to-cv = Tagasi Common Voice'i
@@ -141,4 +140,6 @@ loading = Laadimine…
 email-opt-in-info = Soovin saada e-kirju eesmärkide meeldetuletuste ja edenemise uuendustega ning uudiskirju Common Voice'i kohta.
 indicates-required = * tähistab kohustuslikku välja
 not-available-abbreviation = N/A
+
+## Donate banner
 

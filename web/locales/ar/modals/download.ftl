@@ -7,4 +7,3 @@ download-form-email =
     .value = شكرا، سوف نبقى على تواصل.
 download-back = عُد إلى قواعد بيانات «الصوت للعموم»
 download-no = لا شكرًا
-

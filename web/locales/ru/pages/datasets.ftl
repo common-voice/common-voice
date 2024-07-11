@@ -75,11 +75,8 @@ dataset-donate-modal-heading = Знаете ли вы, что…
 donate-modal-explanation-1 = Размещение наборов данных и улучшение платформы для более чем 100 языковых сообществ обходится почти в миллион долларов в год?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Если вы цените открытые, инклюзивные данные - пожертвуйте сегодня!</bold>
-
 data-download-singleword-title = Загрузите целевой сегмент «Одно слово»
 data-download-singleword-callout-v2 = Этот сегмент нацелен на определённые случаи использования, содержит данные для улучшения распознавания цифр и «да»/«нет».
-## Data
-
 data-download-button = Загрузить данные Common Voice
 data-download-yes = Да
 data-download-deny = Нет

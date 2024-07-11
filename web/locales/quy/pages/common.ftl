@@ -209,7 +209,6 @@ share-text = Yanapakuy makinakunata yachachiyta imayna chiqap runakuna rimanku, 
 link-copied = Enlace Copiado
 back-top = Pataman kutiy
 logout = Lluqsiy
-
 stayintouch = Mozilla kaqpi huk ayllu llaqtata ruwachkayku kunka tecnologia muyuriqpi. Musuqyachiykunawan, musuq willay pukyukunawan tinkisqa kayta munayku chaymanta aswan uyariyta imayna kay willayta llamk'achkanki chaymanta.
 privacy-info = Willakuyniykikunata allinta qhawarinaykupaq prometeyku. Astawan ñawiriy <privacyLink>Sapalla willakuyniykupi</privacyLink>.
 return-to-cv = Common Voice nisqaman kutiy
@@ -223,7 +222,8 @@ email-opt-in-info-sub-with-challenge = Chaskiy correo electrónicos hina sasacha
 email-opt-in-privacy-v2 = Correo electrónicokuna chaskiyta akllaspa willanki allin kasqaykita Mozilla kay willayta llamk'achisqanwan imaynachus Mozilla <sapallay T'inki>Sapalla Willakuy</privacidad T'inki> kaqpi sut'inchasqa.
 indicates-required = Quyllurwan (*) señalasqa chakrakunatam ruwana.
 not-available-abbreviation = Mana tarikunchu
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Elegir idioma/localización

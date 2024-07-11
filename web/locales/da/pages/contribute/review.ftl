@@ -45,12 +45,6 @@ sc-criteria-item-3 = Sætningen skal kunne siges.
 sc-criteria-item-4 = Hvis sætningen opfylder kriterierne, skal du klikke på knappen &quot;Godkend&quot; til højre.
 sc-criteria-item-5-2 = Hvis sætningen ikke opfylder ovenstående kriterier, skal du klikke på knappen &quot;Afvis&quot; til venstre. Hvis du er usikker på sætningen, kan du også springe den over og gå videre til den næste.
 sc-criteria-item-6 = Hvis du løber tør for sætninger at gennemgå, må du meget gerne hjælpe os med at indsamle flere sætninger!
-
-## LANGUAGE VARIANT CODES
-
-
-## REVIEW PAGE
-
 sc-review-rules-title = Opfylder sætningen retningslinjerne?
 sc-review-empty-state = Der er i øjeblikket ingen sætninger at godkende på dette sprog.
 report-sc-different-language = Andet sprog
@@ -59,4 +53,3 @@ sentences-fetch-error = Der opstod en fejl under hentning af sætninger
 review-error = Der opstod en fejl under gennemgang af denne sætning
 review-error-rate-limit-exceeded = Det går for hurtigt. Brug et øjeblik på at gennemgå sætningen for at sikre, at den er korrekt.
 sc-redirect-page-subtitle-2 = Stil os spørgsmål på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller via <emailLink>e-mail</emailLink>.
-

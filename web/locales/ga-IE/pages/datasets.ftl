@@ -33,9 +33,6 @@ close = Dún
 download = Íoslódáil
 dataset-version = Leagan
 clipboard-not-supported = Ní thacaítear leis an ngearrthaisce
-
-## Data
-
 data-download-button = Íoslódáil Sonraí Common Voice
 data-download-yes = Tá
 data-download-deny = Níl

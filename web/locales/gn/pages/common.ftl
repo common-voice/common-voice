@@ -235,7 +235,6 @@ link-copied = Joajuha Monguatiapyre
 back-top = Ehojey Yvate gotyo
 logout = Emboty
 donate = Ñeme’ẽ
-
 stayintouch = Ore Mozilla-ygua romongakuaa tapicha aty omba’apóva tembiporu ñe’ẽ jeporúre. Akóinte roikuaase oĩvo mba’e térã kuaapyrã pyahu ha rohendu hag̃ua mba’éicha eiporu ko kuaapyrã.
 privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha umi kuaapyrã nde reheguávare. Emoñe’ẽve <privacyLink>ko’ápe</privacyLink>.
 return-to-cv = Ejevy Common Voice-pe
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = Emoñe’ẽ ne ñanduti vevépe marandu 
 email-opt-in-privacy-v2 = Emongurusúrõ oñemog̃uahẽ hag̃ua ndéve marandu he’ise emoneĩha mba’éichapa Mozilla oiporu tapichakuéra kuaapyrã oñemyesakãva <privacyLink>ko’ápe</privacyLink>.
 indicates-required = Emyanyhẽva’erã katuete (*) tenda’i hairenda.
 not-available-abbreviation = N/A
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -257,7 +257,5 @@ donate-banner-cta = <mark>¡Ñaikotevẽ</mark><br/><mark>ne ñepytyvõ!</mark>
 donate-banner-cta-explanation = Ohupytymo'ã peteĩ súa dólar ary pukukue mba’ekuaarã aty ñeñongatu ha pyendasusu moakãrapu’ã hetave 100 tekoha ñe’ẽgua oku’éva rojapóva rupi. <strong>Emomba’érõ mba’ekuaarã ijuruja ha oporogueroikéva, ¡embojopói ko’ág̃a!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>¿Eiporu CV </mark><br/><mark>nde jeporekarã?</mark>
-# [/SentenceCollector]
-
 localization-select =
     .label = Eiporavo ñe’ẽ/moñe’ẽasa

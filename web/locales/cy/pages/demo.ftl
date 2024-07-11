@@ -33,4 +33,3 @@ demo-listen-subtitle = Yn barod i gyfrannu?
 
 demo-dashboard-card-header = Mae byrddau gwaith personol yn darparu'r wybodaeth ddiweddaraf am gynnydd unigolion a chymunedau.
 demo-dashboard-card-body = Ar gyfer pob clip llais sy'n cael ei gyfrannu, a phob clip sain sy'n cael ei ddilysu, mae bwrdd gwaith eich cyfrif yn cael eu diweddaru i adlewyrchu'ch cynnydd diweddaraf ym mhob iaith rydych chi'n cyfrannu ati. Ie, gallwch chi gyfrannu at fwy nag un! <br/> <br/> Defnyddiwch fwrdd gwaith i weld eich ystadegau, sut rydych chi'n gwneud o gymharu ac eraill yn y gymuned, a gosod nodau targedau dyddiol neu wythnosol.
-

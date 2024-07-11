@@ -2,6 +2,9 @@
 
 about-title = De ce Common Voice?
 how-does-it-work-text = Creăm un set de date cu sursă deschisă prin participare colectivă. Donează-ți vocea, validează acuratețea înregistrărilor altora, fă setul de date mai bun pentru toți.
+
+## How does it work section
+
 about-speak = Vorbește
 about-speak-text = Colaboratorii își înregistrează secvențele vocale citind dintr-o bancă de propoziții donate.
 about-listen-queue = Coadă de ascultare
@@ -28,3 +31,34 @@ about-nav-why-common-voice = De ce?
 about-nav-how-it-works = Cum?
 about-nav-partners = Parteneri
 about-nav-get-involved = Implică-te
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

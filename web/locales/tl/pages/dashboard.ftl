@@ -66,4 +66,3 @@ validations =
         [one] Pagpapatunay
        *[other] Pagpapatunay
     }
-

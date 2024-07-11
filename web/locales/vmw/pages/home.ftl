@@ -68,4 +68,3 @@ help-contribute = Nyuwo pooti okhaliherya oteka nikhuru na itaatu nookhalana eko
 login-company = Mukele/ mwiilepihe ni emayili ya { $company }
 profile-not-required = Khivankhanyereryaniwa okhala mukhalelo wiira  okhaliherye, nnaamwi vakhaale vamuraarelo
 read-more-about = Osuwele vanceene mwaha wa Common Voice
-

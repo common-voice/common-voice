@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = cliccar
 action-tap = tippar
-## Languages
-
-contribute = Contribuir
+contribute = contribuir
 skip = sursiglir
 shortcuts = Cumbinaziun da tastas
 goal-help-recording = Ti has gidau Common Voice a contonscher <goalPercentage></goalPercentage> da nossa finamira dil di da { $goalValue }!
@@ -18,6 +14,9 @@ record-button-label = registrescha tia vusch
 share-title-new = <bold>Gida nus</bold> ad anflar novas vuschs
 keep-track-profile = Teni en egl vies progress cun in profil
 login-to-get-started = S'annunziei ni seregistrei per entscheiver
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -68,4 +67,6 @@ shortcut-vote-yes = g
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

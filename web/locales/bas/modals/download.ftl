@@ -7,4 +7,3 @@ download-form-email =
     .value = Di nyéga we, di gaba di ñkoode we
 download-back = Témb i Mayaa ma Common Voice
 download-no = To, ñwahga
-

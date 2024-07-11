@@ -1,6 +1,6 @@
-write = Язу
 ## WRITE PAGE
 
+write = Язу
 sentence =
     .label = Җөмлә
 sentence-input-value = Иҗтимагый милектәге җөмләгезне монда языгыз
@@ -39,4 +39,3 @@ file-invalid-type = Яраксыз файл
 file-too-large = Файл артык зур
 file-too-small = Файл артык кечкенә
 too-many-files = Артык күп файл
-

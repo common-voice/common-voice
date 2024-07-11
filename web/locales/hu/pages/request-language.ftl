@@ -37,4 +37,3 @@ request-language-success-list-3 =
 request-language-error =
     Lehet, hogy nem kaptuk meg ezt a kérést. Írjon nekünk közvetlenül
     a <emailLink>{ $email }</emailLink> címre, és felvesszük Önnel a kapcsolatot.
-

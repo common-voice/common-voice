@@ -7,4 +7,3 @@ download-form-email =
     .value = 多謝，我地保持聯絡。
 download-back = 返回 Common Voice 數據庫
 download-no = 唔使嘞
-

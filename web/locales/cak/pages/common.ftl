@@ -198,7 +198,6 @@ share-text = Kato'on richin nak'üt chi kiwäch ri ch'ich'b'äl rub'eyal yech'o 
 link-copied = Xwachib'ëx Ximonel
 back-top = Titzolin pa Rutikirib'al
 logout = Titz'apïx Molojri'ïl
-
 stayintouch = Pa Mozilla niqanük' jun tinamït pa ruwi' ri runa'ob'al ch'ab'äl. Niqajo' niqaya' rutzijol chawe' chi kij ri taq ruk'exoj, k'ak'a' taq kixe'el tzij chuqa' niqetamaj achike rokisaxik nab'än chi ke ri taq tzij.
 privacy-info = Niqaya' qatzij chawe chi niqachajij ri awetamab'al. Tasik'ij ch'aqa' chik pa ri <privacyLink>Ichinan Qana'ojil</privacyLink>.
 return-to-cv = Titzolin pa Common Voice
@@ -212,4 +211,6 @@ email-opt-in-info-sub-with-challenge = Ke'ak'ulu' taq taqoya'l achi'el kinatab'a
 email-opt-in-privacy-v2 = Toq naya' q'ij ye'ak'ül taq taqoya'l, niq'ax pan qawi' chi naya' q'ij chi re ri Mozilla nrokisaj ri awetamab'al achi'el nichol pa ri <privacyLink>Ichinan Runa'ojil </privacyLink> Mozilla.
 indicates-required = * Retal chi k'atzinel ri k'ojlib'äl
 not-available-abbreviation = M/O
+
+## Donate banner
 

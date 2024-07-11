@@ -7,4 +7,3 @@ download-form-email =
     .value = Siyabonga, sizokuthinta.
 download-back = Buyela kwidathasethi ye-Common Voice
 download-no = Cha ngiyabonga
-

@@ -2,6 +2,9 @@
 
 about-title = Common Voice क्यों?
 how-does-it-work-text = हम आवाज़ों के एक ओपन-सोर्स डाटासेट की भीड़  कर रहे हैं। अपनी आवाज दान करें, अन्य लोगों की क्लिप की सटीकता को मान्य करें, सभी के लिए डेटासेट बेहतर बनाएं।
+
+## How does it work section
+
 about-speak = बोले
 about-speak-text = योगदानकर्ताओं ने दान किए गए वाक्यों के एक बैंक से  पढ़कर वॉयस क्लिप रिकॉर्ड की।
 about-listen-queue = सुनो-पंक्ति
@@ -28,3 +31,34 @@ about-nav-why-common-voice = क्यों ?
 about-nav-how-it-works = कैसे ?
 about-nav-partners = सहभागी
 about-nav-get-involved = शामिल हों
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

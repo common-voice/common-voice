@@ -1,6 +1,3 @@
-## REVIEW CRITERIA
-
-
 ## REVIEW
 
 sc-review-title = Dasweles Lavarow
@@ -19,4 +16,6 @@ sc-review-form-button-skip-shortcut = H
 sc-review-form-button-submit =
     .submitText = Gorfenna Daswel
 sc-review-link = Dasweles
+
+## REVIEW CRITERIA
 

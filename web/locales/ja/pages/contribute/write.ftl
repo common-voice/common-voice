@@ -1,1 +1,5 @@
-    .label = メールアドレス
+## WRITE PAGE
+
+
+## BULK SUBMISSION 
+

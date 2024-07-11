@@ -7,4 +7,3 @@ download-form-email =
     .value = יישר כח, מיר וועלן זיין אין פארבינדונג
 download-back = גייט צוריק צו די קאמאן וואויס דאטא סעטס
 download-no = ניין, א דאנק
-

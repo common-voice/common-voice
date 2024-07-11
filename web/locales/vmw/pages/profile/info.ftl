@@ -58,4 +58,3 @@ off = Ottipiha
 on = Okumanela
 help-accent = Mumphavela okhaliheriwa ni malavulelo anyu?
 help-variants = Mumphavela okhaliheriwa ni malavulelo anyu?
-

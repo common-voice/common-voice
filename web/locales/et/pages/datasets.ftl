@@ -41,12 +41,6 @@ go-discourse = Vaata foorumit
 missing-language = Kas sa ei näe enda keelt andmete kogumis? Keele taotlemiseks pöörduge meie keelte lehele.
 go-languages-page = Ava keelte leht
 ready-to-validate = Valmis lausete kontrollimiseks?
-
-## Error pages
-
-
-## Data
-
 data-download-button = Laadi alla Common Voice'i andmed
 data-download-yes = Jah
 data-download-deny = Ei

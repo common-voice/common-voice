@@ -10,4 +10,3 @@ why-delete-recordings =
     
     能讓我們知道您為什麼想要刪除錄音片段嗎？
 profile-form-delete = 刪除帳號
-

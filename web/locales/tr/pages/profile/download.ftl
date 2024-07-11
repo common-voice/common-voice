@@ -28,4 +28,3 @@ download-request-modal-description = İşte ZIP dosyalarınızı indirebileceği
 download-request-link-text = Zip { $offset } / { $total }
 download-request-metadata-link = Cümle metni
 download-request-link-single = Ayrıca doğrudan URL'leri kopyalayıp favori indirme yöneticinize yapıştırabilirsiniz. Bu bağlantılar 12 saat sonra geçersiz olacak, ancak istediğiniz zaman yenilerini oluşturmak için bu sayfaya geri dönebilirsiniz.
-

@@ -75,11 +75,8 @@ dataset-donate-modal-heading = ایا پوهیدئ…
 donate-modal-explanation-1 = دا د ډیټاسیټونو کوربه کولو او د 100+ ژبو ټولنو لپاره پلیټ فارم ته وده ورکولو لپاره په کال کې نږدې یو ملیون ډالر لګښت لري چې موږ په څه تکیه کوو؟
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <بولډ>که تاسو خلاص، ټول شموله ډاټا ته ارزښت ورکوئ - همدا نن مرسته وکړئ!</bold>
-
 data-download-singleword-title = د واحد ويی موخې برخه ډاونلوډ کړئ
 data-download-singleword-callout-v2 = دا د استعمال ګرځولو  په موخه یوه برخه ده چې د شمیر او هو/نه پیژندلو پیاوړولو لپاره ډېټا لري.
-## Data
-
 data-download-button = د عام غږ ډېټا ډاونلوډ کړئ
 data-download-yes = هو
 data-download-deny = نه

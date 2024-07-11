@@ -33,4 +33,3 @@ demo-listen-subtitle = Ĉu vi pretas kontribui?
 
 demo-dashboard-card-header = Persona panelo montras al vi la aktualan progreson propran kaj komunuman.
 demo-dashboard-card-body = Ĉiu nova voĉregistro kaj revizio ĝisdatigas viajn panelon por montri la aktualan progreson en ĉiu lingvo, kun kiu vi kontribuas. Jes, vi povas kontribui kun pli ol unu lingvo! <br/><br/>Uzu panelojn por sekvi viajn progreson kaj vidi kiel vi kaj aliaj en la komunumo kunlaboras. Vi ankaŭ povas tie difini viajn tagajn aŭ semajnajn celojn kontribuajn.
-

@@ -74,4 +74,3 @@ username-email-not-demographic = Xmaroceşi Coxo do e-posta-tkvani gamişku data
 welcome-staff = { $company } personelişe ǩaite moxtit!
 login-company = { $company } e-posta adresite Amaxtit / Doliç̌arit
 read-more-about = Çkunişeni butkaşe dido-muşi iǩitxit
-

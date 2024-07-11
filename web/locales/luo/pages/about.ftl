@@ -116,3 +116,5 @@ about-playbook-how-project-governance-content-5 = Nengo kendo ngeyo.
 about-playbook-how-project-governance-content-6 = Ngado bura mar ji duto.
 about-playbook-how-project-governance-content-7 = <governanceLink>som thoth wechewa kaka lochwa obet</governanceLink>
 
+## How is Common Voice funded
+

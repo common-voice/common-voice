@@ -78,4 +78,3 @@ help-contribute = Vous pouvez aider à créer un jeu de données open source et 
 login-company = Connexion / Inscription avec l’adresse e-mail de { $company }
 profile-not-required = Créer un profil n’est pas nécessaire pour contribuer, mais c’est utile
 read-more-about = Pour en savoir plus lisez notre page À propos
-

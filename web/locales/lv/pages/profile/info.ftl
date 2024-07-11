@@ -72,4 +72,3 @@ help-variants = Vai nepieciešama palīdzība ar variantiem?
 help-variants-explanation = Varianti ir noteikta valodas forma, piemēram, tie, kas dzīvo kādā ģeogrāfijā vai kopienā. Dažreiz tos sauc par dialektiem.
 help-sex-or-gender-changes = Nepieciešama palīdzība saistībā ar dzimuma norādīšanu?
 help-sex-or-gender-changes-explanation = Mēs piedāvājam vairāk iespēju, lai sniegtu cilvēkiem plašākas izvēles iespējas sava dzimuma vai dzimuma identitātes norādīšanā. Lūdzu, aprakstiet sevi tā, kā tas jums šķiet visdabiskāk. <learnMoreLink>Uzziniet vairāk par mūsu pieeju dzimumam norādīšanā.</learnMoreLink>
-

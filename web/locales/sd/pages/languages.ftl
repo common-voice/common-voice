@@ -17,10 +17,7 @@ localized = مقامي
 sentences = جملا
 language-validation-hours = ڪلاڪ
 language-validation-progress = تصديق جي پيش رفت
-
-## Languages
-
-contribute = حصو ڏيو
+contribute = تعاون ڪريو
 get-involved-button = شامل ٿيو
 get-involved-title = ۾ حصو ڏيو { $lang }
 get-involved-text =

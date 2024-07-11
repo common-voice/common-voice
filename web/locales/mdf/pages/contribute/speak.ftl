@@ -33,7 +33,6 @@ review-rerecord = Одукс сёрмадомс
 review-cancel = Мрдафтомс прважафть
 review-keep-recordings = Ванфтомс эсь сёрматфнень
 review-delete-recordings = Нардамс эсь сёрматфнень
-
 review-terms = «Common Voice»-нь тевс нолдамста праят фкя мяльс мархтонк <termsLink>Условиятнень </termsLink> и <privacyLink>Эсь тевонь каготтнень кяшемаснон</privacyLink> коряс.
 terms-agree = Праян фкя мяльс
 terms-disagree = Аф праян фкя мяльс

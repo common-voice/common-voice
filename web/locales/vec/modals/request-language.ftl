@@ -7,7 +7,4 @@ request-language-success-title = Dimanda par na nuova ƚengua inviaà. Grasie pa
 request-language-success-content = Presto te riseverè istrusioni su cofà xontare ƚa to ƚengua a Common Voice.
 select-language = Selesiona na ƚengua…
 other-language = Altra ƚengua
-
-## General
-
 yes-receive-emails = Sì, mandame ƚe email. Me piaserìa restare informà so el progeto Common Voice

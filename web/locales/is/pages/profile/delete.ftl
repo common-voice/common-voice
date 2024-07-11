@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Getur þú látið okkur vita hvers vegna þú vilt að upptökunum þínum verði eytt?
 profile-form-delete = Eyða notkunarsniði
-

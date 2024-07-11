@@ -28,4 +28,3 @@ download-request-modal-description = הנה הקישורים להורדת קוב
 download-request-link-text = Zip מס׳ { $offset } מתוך { $total }
 download-request-metadata-link = טקסט משפט
 download-request-link-single = תוכלו גם להעתיק ולהדביק את כתובות האינטרנט ישירות לתוך מנהל ההורדות המועדף עליכם. תוקפם יפוג בעוד 12 שעות, אך תוכלו לחזור לדף זה כדי ליצור אחרים במקומם בכל עת.
-

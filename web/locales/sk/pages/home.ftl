@@ -90,4 +90,3 @@ help-contribute = Vytvorením profilu Common Voice a prispením svojim hlasom m�
 login-company = Prihláste sa / zaregistrujte sa pomocou e‑mailu { $company }
 profile-not-required = Profil nie je nutnosťou, no môže byť užitočný
 read-more-about = Prečítajte si viac na stránke O nás
-

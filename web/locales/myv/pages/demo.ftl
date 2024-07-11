@@ -30,4 +30,3 @@ demo-listen-subtitle = Аноктадо лезксэнь максомо?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Эсеть аравтома лазот невтить течемень касомат, эсетсенть ды вейсэнь куротсенть.
-

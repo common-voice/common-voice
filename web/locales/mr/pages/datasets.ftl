@@ -49,11 +49,8 @@ more = अधिक
 close = बंद करा
 download = डाउनलोड करा
 dataset-version = आवृत्ती
-
 data-download-singleword-title = एक शब्द असणारे लक्ष्य विभाग डाउनलोड करा
 data-download-singleword-callout-v2 = हा एक युस केस नुसार कार्य  करणारा विभाग असून यात बोललेले अंक आणि होय/नाही ओळखण्यासाठी लागणार डेटा समाविष्ट आहे.
-## Data
-
 data-download-button = कॉमन व्हॉईस डेटा डाउनलोड करा
 data-download-yes = हो
 data-download-deny = नाही

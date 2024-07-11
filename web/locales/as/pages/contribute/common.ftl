@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = ক্লিক কৰক
 action-tap = স্পৰ্শ কৰক
-## Languages
-
 contribute = অৱদান দিয়ক
 review = পৰ্যালোচনা কৰক
 skip = বাদ দিয়ক
@@ -152,4 +148,3 @@ contribution-just-unsure-title = অনিশ্চিতই নেকি?
 contribution-just-unsure-description = যদি আপুনি এনে কিবা এটা লক্ষ্য কৰে যাক এই নিৰ্দেশনাবোৰে সাঙুৰি লোৱা নাই, তেন্তে অনুগ্ৰহ কৰি আপোনাৰ সৰ্বশ্ৰেষ্ঠ বিচাৰ অনুসৰি ভোট দিব। আপুনি প্ৰকৃততে সিদ্ধান্ত ল’ব নোৱাৰিলে "বাদ দিয়ক" বুটামটো ব্যৱহাৰ কৰি পৰৱৰ্তী ৰেকৰ্ডিঙলৈ যাব।
 see-more = <chevron></chevron>অধিক চাওক
 see-less = <chevron></chevron>কম চাওক
-

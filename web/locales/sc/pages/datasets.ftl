@@ -66,11 +66,8 @@ dataset-metadata-sex = Sessu
 # dataset metadata - age of contributor
 dataset-metadata-age = Edade
 donate-modal-message = Iscarrighende su pachete de datos.
-
 data-download-singleword-title = Iscàrriga su segmentu ispetzìficu cun is faeddos individuales
 data-download-singleword-callout-v2 = Custu est unu segmentu basadu subra de unu casu de impitu ispetzìficu chi cuntenet datos pro alimentare su reconnoschimentu vocale de is tzifras e su rilevamentu de eja/nono.
-## Data
-
 data-download-button = Iscàrriga datos de Common Voice
 data-download-yes = Emmo
 data-download-deny = Nono

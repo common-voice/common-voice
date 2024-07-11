@@ -112,4 +112,3 @@ validations =
         [one] Barlag
        *[other] Barlag
     }
-

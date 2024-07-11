@@ -49,9 +49,6 @@ sc-criteria-item-3 = Rhaid i'r frawddeg fod yn hawdd ei hynganu.
 sc-criteria-item-4 = Os yw'r frawddeg yn cwrdd â'r meini prawf, cliciwch y botwm "Cymeradwyo" ar y dde.
 sc-criteria-item-5-2 = Os nad yw'r frawddeg yn cwrdd â'r meini prawf uchod, cliciwch y botwm "Gwrthod" ar y dde. Os nad ydych chi'n siŵr am y frawddeg hon, gallwch hefyd ei hepgor a symud ymlaen i'r un nesaf.
 sc-criteria-item-6 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu rhagor o frawddegau!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Gwirio <icon></icon> os yw hon yn frawddeg ieithyddol gywir
 sc-review-rules-title = A yw'r frawddeg yn cyd-fynd â'r canllawiau?
@@ -65,4 +62,3 @@ review-error-rate-limit-exceeded = Rydych chi'n mynd yn rhy gyflym. Cymerwch eil
 sc-redirect-page-title = Rydym yn gwneud rhai newidiadau mawr
 sc-redirect-page-subtitle-1 = Mae'r Casglwr Brawddegau yn symud i lwyfan craidd Common Voice. Nawr gallwch <writeURL>ysgrifennu</writeURL> brawddeg neu <reviewURL>adolygu</reviewURL> brawddeg unigol wedi eu cyflwyno ar Common Voice.
 sc-redirect-page-subtitle-2 = Gofynnwch gwestiynau i ni ar <matrixLink>Matrics</matrixLink>, <discourseLink>Discourse</discourseLink> neu <emailLink>email</emailLink>.
-

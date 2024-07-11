@@ -96,3 +96,5 @@ about-playbook-how-validate = Мезень коряс содави вайгел�
 
 about-playbook-how-project-governance = Кода проектэнь коряс ве мельс самот теевить?
 
+## How is Common Voice funded
+

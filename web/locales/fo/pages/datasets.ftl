@@ -1,6 +1,6 @@
-data-other-ted-name = TED-LIUM tekstasavn
-## Data
+## Datasets Page
 
+data-other-ted-name = TED-LIUM tekstasavn
 data-download-yes = Ja
 data-download-deny = Nei
 data-download-license = Loyvi: <licenseLink>CC-0</licenseLink>

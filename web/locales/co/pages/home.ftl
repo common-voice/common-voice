@@ -76,4 +76,3 @@ help-contribute = Pudeti aiutà à custruisce una banca vucala, diversificata è
 login-company = Identificassi / Arrighjistrassi cù l’indirizzu elettronicu di { $company }
 profile-not-required = Ùn c'hè bisognu di contu pà cuntribuisce ancu s'ellu hè ghjuvevule, vede perchè quì sottu.
 read-more-about = Lighjiti di più annantu à a nostra paghjina Apprupositu
-

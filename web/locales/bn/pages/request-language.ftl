@@ -6,4 +6,3 @@ request-language-form-email =
 request-language-form-info =
     .label = ভাষাটির সম্পর্কে তথ্য
 request-language-form-info-explanation-list-1 = আপনার ভাষার নামসমূহ
-

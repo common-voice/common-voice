@@ -17,9 +17,6 @@ localized = לאקאליזירט
 sentences = זאצן
 language-validation-hours = שטונדן
 language-validation-progress = באשטעטיגונג פארשריט
-
-## Languages
-
 contribute = ביישטייערט
 get-involved-button = ווער פארמישט
 get-involved-title = ביישטייערט צו { $lang }

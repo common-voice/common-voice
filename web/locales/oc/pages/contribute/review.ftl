@@ -43,4 +43,3 @@ sc-criteria-item-2 = Era frasa ei gramaticaument corrècta.
 sc-criteria-item-3 = Era frasa ei pronunciabla.
 sc-criteria-item-4 = S'era frasa complís es critèris, hetz clic en boton «Apròva».
 sc-criteria-item-5-2 = S'era frasa non complís es critèris anteriors, hetz clic en boton «Refusa». Se non n'ètz segur/a, tanben la podetz sautar e passar ara següenta.
-

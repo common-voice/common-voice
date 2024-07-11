@@ -68,9 +68,6 @@ username-optin-public = Zaka iya zaɓar bayyana username a fili ko a asurce.
 demographic-deidentified-clarity-2 = A zaɓinka bada alƙaluma na bayanai (misali. shekara, jinsi, yare, da kabila) baza'a taɓa bayyana shi wa jama'a ba a profayil ɗinka, kuma baza'a taɓa haɗa shi da wurin karin bayani akanka ba. Ko wani murya ta kowa-da-kowa za'a danganta shi da labaran alƙaluma domin dalilan samun tsareren bincike - misali, mai bincike yayu ya nufi wata hanyar horaswa domin alƙaluma ta musamman.
 username-email-not-demographic = Ba za a haɗa sunanka ba ko email ɗinka ba tare da bayanan da aka buga.
 
-## Profile Download
-
-
 ## Landing
 
 welcome-staff = Barka da zuwa { $company } ma'aikaci!
@@ -78,4 +75,3 @@ help-contribute = Kuna iya taimakawa ƙirƙirar ɗakunan bayanai daban-daban, ma
 login-company = Shiga ciki/Yi rajista da { $company } imel
 profile-not-required = Bada gudummawarka ba sai kana da profile ba, duk da dai yana da amfani in kana dashi.
 read-more-about = Kara karantawa game da Mu a shafinmu
-

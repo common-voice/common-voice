@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Товших
 action-tap = Ёврох
-## Languages
-
 contribute = Хувь нэмэр оруулах
 skip = Алгасах
 shortcuts = Товчилбор
@@ -29,6 +25,9 @@ target-segment-first-card = Та манай эхний зорилтын хэсэ
 target-segment-first-banner = Common Voice-н эхний хэсэг болох { $locale } үүсгэхэд туслах.
 target-segment-add-voice = Хоолойгоо нэмэх
 target-segment-learn-more = Нэмэлт мэдээлэл
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -79,4 +78,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

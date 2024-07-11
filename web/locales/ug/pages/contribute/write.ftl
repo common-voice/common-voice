@@ -1,6 +1,6 @@
-write = يازاي
 ## WRITE PAGE
 
+write = يازاي
 write-instruction = ئاممىۋى دائىرىدىكى جۈملە <icon> </icon> قوشۇڭ
 write-page-subtitle = بۇ جايدا تۆھپە قوشۇلغان جۈملىلەر cc-0 ئىجازىتىدىكى ئاشكارا سانلىق مەلۇمات توپلىمىغا قوشۇلىدۇ.
 sentence =
@@ -88,4 +88,3 @@ file-invalid-type = ئىناۋەتسىز ھۆججەت
 file-too-large = ھۆججەت بەك چوڭ
 file-too-small = ھۆججەت بەك كىچىك
 too-many-files = ھۆججەت بەك كۆپ
-

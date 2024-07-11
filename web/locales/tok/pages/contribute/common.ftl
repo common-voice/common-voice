@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = pilin
 action-tap = pilin
-## Languages
-
 contribute = o pana
 review = o lukin
 skip = mi sona ala, o pana e toki ante
@@ -149,4 +145,3 @@ contribution-just-unsure-title = sina sona ala anu seme?
 contribution-just-unsure-description = lipu ni li jo ala e ijo la, o kepeken pilin pona sina. sina sona ala la, o kepeken nena 'mi sona ala'.
 see-more = <chevron></chevron> o pana lukin e toki mute
 see-less = <chevron></chevron> o weka lukin e toki mute
-

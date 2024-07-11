@@ -17,10 +17,7 @@ localized = Oerset
 sentences = Sinnen
 language-validation-hours = Oeren
 language-validation-progress = Falidaasjefoarútgong
-
-## Languages
-
-contribute = Bydrage
+contribute = Meiwurkje
 get-involved-button = Meiwurkje
 get-involved-title = Bydrage oan it { $lang }
 get-involved-text =

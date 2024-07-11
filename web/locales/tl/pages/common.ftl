@@ -201,7 +201,6 @@ share-text = Tulungang turuan ang mga machine kung papaano nagsasalita ang mga t
 link-copied = Kinopya ang Link
 back-top = Bumalik sa Itaas
 logout = Log Out
-
 stayintouch = Kami sa Mozilla ay bumubuo ng komunidad ng teknolohiya sa boses. Gusto naming manatiling may-ugnayan sa mga kaganapan, bagong mapagkukunan ng data, at makarinig pa tungkol sa kung papaano mo ginagamit ang data na ito.
 privacy-info = Nangangako kaming hawakan ang iyong impormasyon nang may pag-iingat. Magbasa nang higit pa sa aming <privacyLink> Abiso sa Privacy </privacyLink>.
 return-to-cv = Bumalik sa Common Voice
@@ -215,7 +214,8 @@ email-opt-in-info-sub-with-challenge = Tumanggap ng mga email tulad ng mga paala
 email-opt-in-privacy-v2 = Sa pamamagitan ng pagpiling pagtanggap ng mga email ikaw ay pumapayag na ibigay ang impormasyong ito sa Mozilla tulad ng nakalahad sa Mozilla's <privacyLink>Patakaran sa Pagkapribado</privacyLink/>.
 indicates-required = *Kailangang punuan
 not-available-abbreviation = N/A
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Pumili ng wika/lokalisasyon

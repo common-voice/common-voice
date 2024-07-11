@@ -72,4 +72,3 @@ username-email-not-demographic = Su nombre de usuario y correo electrónico no s
 
 help-contribute = Puede ayudar a crear un conjunto de datos diverso y de código abierto creando un perfil de Common Voice y contribuyendo con su voz.
 read-more-about = Lea más en nuestra página Acerca de
-

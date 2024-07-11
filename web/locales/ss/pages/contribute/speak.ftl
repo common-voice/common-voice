@@ -33,7 +33,6 @@ review-rerecord = Tfwebula kabusha
 review-cancel = Yekela kumiskisa
 review-keep-recordings = Gcina emafayela latfwebuliwe
 review-delete-recordings = Yesula ticephu tami latitfwebuliwe
-
 review-terms = Ngekusebentisa Common Voice, uyavumelana <termsLink>nemigomo yetfu</termsLink> ne<privacyLink>mibandzela</privacyLink>
 terms-agree = Ngiyavuma
 terms-disagree = Angivumi

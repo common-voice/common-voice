@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = Ena e Laawol
@@ -16,10 +13,7 @@ language-search-input =
 language-speakers = Haalooɓe
 localized = Nokkuɗinaama
 sentences = Koŋnguɗi
-
-## Languages
-
-contribute = Addu balla maa
+contribute = Addu ballal Maa
 get-involved-button = Ar yantu e amen
 get-involved-title = Addu ballal maa e { $lang }
 get-involved-text = A jaaraama e katojinal maa e addude balle e { $lang }. Amina ngolla tiiɗɗe ngam heɓlude ɗemngal kala ngam waawa fuɗɗaade kadi jokkude humpitde guumuuji huutoraade iimeel. So aɗa yiɗi wallitde, tiiɗno hokku iimeel maa les ɗoo.

@@ -28,4 +28,3 @@ download-request-modal-description = ZIP-файл-влакым тулен нал
 download-request-link-text = Zip №{ $offset } / { $total }
 download-request-metadata-link = Ойлончо текст
 download-request-link-single = Тый тыгак вияш URL-адрес-влакым копироватлен да шке йӧратыме вераҥдымаш менеджерышкет шынден кертат. Нунын ыштыме жапышт 12 шагат гыч пыта, но тый тиде велыжыш, кеч-могай жапыште уым ышташ манын, пӧртылын кертат.
-

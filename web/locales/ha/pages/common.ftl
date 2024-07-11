@@ -166,7 +166,6 @@ share-text = Taimaka don koyar da injuna yadda mutane suke magana, taimaka da mu
 link-copied = An kopi link
 back-top = Koma zuwa sama
 logout = Fita Daga ciki
-
 stayintouch = Mu a Mozilla muna gina al'umma da suke da fasahar murya. Muna so mu ci gaba da tuntuɓa tare da sabunta sababbin bayanai kuma mu ji daga gareku kan yadda kuke amfani da  wannan bayanan.
 privacy-info = Mun yi alkawari za mu kula da bayananku cikin kulawa. Karanta cikakken bayanai kan yadda muke <privacyLink>Kula da Sirrinku</privacyLink>.
 return-to-cv = Koma zuwa ga Muryar Gama-Gari
@@ -180,4 +179,6 @@ email-opt-in-info-sub-with-challenge = Karɓi imel kamar kalubale da masu tuni, 
 email-opt-in-privacy-v2 = Akan zaɓin ƙarban sakonnin imel ka shaida cewa ka amince da Mozilla su rike wannan labari kamar yadda aka bayyana a tsarin <privacyLink>sirrin tsaruka</privacyLink>.
 indicates-required = * Yana nuna cewa wajibi ne ka ciƙe gurbin
 not-available-abbreviation = Babu Wata Bayani
+
+## Donate banner
 

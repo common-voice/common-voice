@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Tobetsa
 action-tap = Konya
-## Languages
-
-contribute = Se-Aba
+contribute = Aba
 skip = Tlola
 shortcuts = Ditlhabanyetso
 clips-with-count-pluralized =
@@ -31,6 +27,9 @@ target-segment-generic-card = O abelana go karolwana ya puo
 target-segment-first-banner = Thusa go dira karolwana ya ntlha ya Common Voice ka { $locale }
 target-segment-add-voice = Tsenya Lentswe la Gago
 target-segment-learn-more = Ithute mo go Oketsegileng
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -141,4 +140,3 @@ contribution-just-unsure-title = Ga o A Tlhomamisega?
 contribution-just-unsure-description = Fa o kopana le sengwe se dikaelo tseno di sa bueng ka sone, tsweetswee tlhopha go ya ka tsela e e molemolemo e o e akanyang. Fa tota o sa kgone go dira tshwetso, dirisa konopo ya go tlola mme o ye kwa kgatisong e e latelang.
 see-more = <chevron></chevron>Bona tse di oketsegileng
 see-less = <chevron></chevron>Bona tse di fokoditsweng
-

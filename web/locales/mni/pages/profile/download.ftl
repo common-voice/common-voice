@@ -28,4 +28,3 @@ download-request-modal-description = ꯃꯈꯥꯗꯥ ꯅꯍꯥꯛꯀꯤ ꯖꯤ�
 download-request-link-text = { $total }ꯒꯤ ꯖꯤꯞ #{ $offset } ꯫
 download-request-metadata-link = ꯋꯥꯍꯩꯄꯦꯡ ꯑꯏꯕ
 download-request-link-single = ꯅꯍꯥꯛꯅꯥ ꯍꯛꯊꯦꯡꯅꯅꯥ URLꯁꯤꯡ ꯑꯗꯨ ꯅꯍꯥꯛꯀꯤ ꯅꯨꯡꯁꯤꯖꯔꯕꯥ ꯆꯤꯡꯊꯕ ꯃꯦꯅꯦꯖꯔꯗꯥ ꯀꯣꯄꯤ ꯑꯃꯁꯨꯡ ꯄꯦꯁ꯭ꯠ ꯇꯧꯕꯁꯨ ꯌꯥꯏ ꯫ ꯃꯈꯣꯏꯁꯤꯡ ꯑꯁꯤ ꯄꯨꯡ ꯱꯲ꯒꯤ ꯃꯇꯨꯡꯗꯥ ꯂꯣꯏꯁꯤꯅꯒꯅꯤ, ꯑꯗꯨꯕꯨ ꯃꯇꯝ ꯑꯃꯠꯇꯗꯥ ꯑꯅꯧꯕꯥ ꯖꯦꯅꯦꯔꯦꯠ ꯇꯧꯅꯕꯥ ꯂꯃꯥꯏ ꯑꯁꯤꯗꯥ ꯑꯃꯨꯛ ꯍꯟꯅꯥ ꯂꯥꯛꯄꯥ ꯌꯥꯒꯅꯤ ꯫
-

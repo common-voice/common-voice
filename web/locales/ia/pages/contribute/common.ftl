@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Clicca sur
 action-tap = Tocca
-## Languages
-
 contribute = Contribuer
 review = Revider
 skip = Saltar
@@ -149,4 +145,3 @@ contribution-just-unsure-title = Ha tu dubitas?
 contribution-just-unsure-description = Si tu ha incontrate qualcosa que iste lineas guida non coperi, per favor vota in accordo a tu melior judicio. Si tu realmente non pote decider, usa le button saltar e va al sequente registration.
 see-more = <chevron></chevron>Vider plus
 see-less = <chevron></chevron>Vider minus
-

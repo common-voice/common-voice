@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Klikkaa
 action-tap = Napauta
-## Languages
-
 contribute = Osallistu
 skip = Ohita
 shortcuts = Pikanäppäimet
@@ -104,4 +100,3 @@ contribution-reader-effects-title = Lukutehosteet
 contribution-just-unsure-title = Vielä epävarma?
 see-more = <chevron></chevron>Näytä lisää
 see-less = <chevron></chevron>Näytä vähemmän
-

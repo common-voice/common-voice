@@ -26,4 +26,3 @@ download-request-modal-title = Везе за преузимање
 download-request-modal-description = Ево веза за преузимање ваших ZIP датотека.
 download-request-link-text = Zip #{ $offset } од { $total }
 download-request-metadata-link = Текст реченице
-

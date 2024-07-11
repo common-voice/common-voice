@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Ans voust far savair perche cha tü vessast jent da stüder tias registraziuns?
 profile-form-delete = Stüder il profil
-

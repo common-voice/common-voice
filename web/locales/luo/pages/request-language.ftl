@@ -13,4 +13,3 @@ request-language-form-info-explanation-list-2 = <isoCodeLink>Nembni mag ISO</iso
 # Success page
 request-language-success-heading = Erokamano! Iseoro kwayo mar dhok manyien
 request-language-success-list-1 = Onego bedni iyudo barup mbui maleroni kidienje monego ilu mondo imed dhou e Common Voice
-

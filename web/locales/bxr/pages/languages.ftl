@@ -5,8 +5,6 @@ language-total-progress = Ниитэ
 language-search-input =
     .placeholder = Бэдэрхэ
 sentences = Үгүүлбэри
-## Languages
-
 contribute = Баяжуулха
 get-involved-button = Оролсохо
 get-involved-title = { $lang } хэлэ баяжуулха

@@ -1,3 +1,5 @@
+## Profile - Avatar
+
 browse-file-title = Carga n’imagine
 browse-file = Strascina e mola opure <browseWrap>sfoja</ browseWrap>
 connect-gravatar = Coneti Gravatar

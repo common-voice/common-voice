@@ -7,4 +7,3 @@ download-form-email =
     .value = Paļdis, mes sasazynuosim.
 download-back = Atsagrīzt pi Common Voice datu kūpys
 download-no = Nā, paļdis
-

@@ -7,4 +7,3 @@ download-form-email =
     .value = ሹክረን ገል ናተስል ብኩም ቱ
 download-back = ዲብ መጅሙዓት በያናት ክርን ሕበር  ዓቅብል
 download-no = ላ ሹክረን
-

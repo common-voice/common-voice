@@ -151,3 +151,5 @@ about-playbook-how-project-governance-content-5 = Valè ak rekonesans.
 about-playbook-how-project-governance-content-6 = Responsablite mityèl.
 about-playbook-how-project-governance-content-7 = <governanceLink>Li plis sou fason nou gouvène</governanceLink>
 
+## How is Common Voice funded
+

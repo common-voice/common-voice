@@ -1,3 +1,8 @@
+## REVIEW
+
+
+## REVIEW CRITERIA
+
 sc-review-rules-title = Хъуыдыйад бæрæгуаты принциптæм гæсгæ у?
 sc-review-empty-state = Ацы æвзагыл нæй ныр аргъ кæнæн хъуыдыйад.
 report-sc-different-language = Æндæр æвзаг

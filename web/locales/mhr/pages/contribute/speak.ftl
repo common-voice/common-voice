@@ -33,7 +33,6 @@ review-rerecord = Угычын возымаш
 review-cancel = Колтымым чараш
 review-keep-recordings = Возымым арале
 review-delete-recordings = Мыйын возымым кораҥдаш
-
 review-terms = Common Voice-ым кучылтын, тый мемнан <termsLink>Келшык</termsLink> да <privacyLink>Шолыплык нерген шижтарымаш</privacyLink> дене келшет.
 terms-agree = Мый келшем
 terms-disagree = Мый ом келше

@@ -43,4 +43,3 @@ download-request-modal-description = Zde jsou odkazy pro stažení vašich soubo
 download-request-link-text = ZIP { $offset } z { $total }
 download-request-metadata-link = Text věty
 download-request-link-single = Můžete také zkopírovat a vložit adresy těchto odkazů do svého oblíbeného správce stahování. Jejich platnost vyprší za 12 hodin, ale kdykoli se můžete vrátit na tuto stránku a vygenerovat nové.
-

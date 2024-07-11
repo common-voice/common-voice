@@ -66,3 +66,5 @@ about-playbook-how-access-dataset = আমি কিভাবে ডেটাস
 
 about-playbook-how-project-governance = প্রকল্পের সিদ্ধান্তসমূহ কীভাবে নেওয়া হয়?
 
+## How is Common Voice funded
+

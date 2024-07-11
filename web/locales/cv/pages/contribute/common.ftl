@@ -1,10 +1,6 @@
-## New Contribution
-
 action-click = Пус
 action-tap = Пус
-## Languages
-
-contribute = Хутшӑн
+contribute = Атя, хутшӑн
 skip = Сиктер
 shortcuts = «хӑвӑрт» пускӑчсем
 goal-help-recording = Common Voice-а кулленхи { $goalValue } ҫырса хума тӗллевӗн <goalPercentage></goalPercentage> ҫитертӗн!
@@ -16,6 +12,12 @@ contribute-more =
     }
 record-button-label = Санӑн сасуна ҫырӑв
 share-title-new = Ытти сас тупма <bold>пире пулӑш</bold>
+
+## Contribution Nav Items
+
+
+## Reporting
+
 
 ## Speak & Listen Shortcuts
 
@@ -43,4 +45,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

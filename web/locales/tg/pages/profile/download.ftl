@@ -9,4 +9,3 @@ download-request-button = Боргирӣ кардан
 download-request-refresh-button = Навсозӣ кардан
 download-request-modal-title = Пайвандҳоро боргирӣ кунед
 download-request-metadata-link = Матни ҷумлаҳо
-

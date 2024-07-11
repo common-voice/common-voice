@@ -51,4 +51,3 @@ skip-submission-description = During contribution submission feedback will be sk
 skip-submission-note = Note: You will still need to select between Speak or Listen to change contribution type.
 off = УфIынкI
 on = ЩIэгъанэ
-

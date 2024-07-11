@@ -16,6 +16,9 @@ validated-clips = Amajwi yemejwe
 total-approved = Igiteranyo kemejwe
 overall-accuracy = Ibiboneye byose hamwe/ Iboneza rya byose hamwe
 
+## Custom Goals
+
+
 ## Goals
 
 streaks = Inkora/ ibirari
@@ -34,4 +37,3 @@ validations =
         [one] Iyemeza/ ikemejwe
        *[other] Iyemeza/ ibyemejwe
     }
-

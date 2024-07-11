@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Osobola okututegeeza lwaki oyagala likondigi zo zisangulwe?
 profile-form-delete = Sangula ebikwatako
-

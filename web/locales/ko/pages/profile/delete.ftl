@@ -10,4 +10,3 @@ why-delete-recordings =
     
     녹음된 내용을 삭제하려는 이유를 알려주시겠습니까?
 profile-form-delete = 프로필 지우기
-

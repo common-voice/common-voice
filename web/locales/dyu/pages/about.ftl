@@ -100,6 +100,7 @@ about-playbook-how-add-sentences = N bɛ kumasenw fara ɲɔgɔn kan cogo di?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ye baarakɛminɛn ye min bɛ foroba kumasenw dalajɛ ani k' u sinsin. I bɛna <scAccountLink>ka jatebɔsɛbɛn dɔ da</scAccountLink>. O kɔ fɛ, i ka kan fara i ka <strong>Profile</strong> kan. I bɛ se ka <strong>Fara</strong> kumasenw walima <strong>Sɛgɛsɛgɛli</strong> kumasen minnu farala ɲɔgɔn kan ka kɔrɔ.
 about-playbook-how-add-sentences-content-2 = Kumasenw ka kan ka lajɛ ani ka sɔn u ma mɔgɔ fila fɛ walasa u ka don Common Voice kɔnɔ. I bɛ laadilikanw da i ka kan kan <languageGuidelinesLink>yan</languageGuidelinesLink>. Kumasenw ka kan ka kɛ <licenseLink>foroba yɔrɔ la</licenseLink> ani ka surunya daɲɛ 15 la. Aw bɛ se k’a ɲini sɛbɛn dɔ tigi fɛ a k’a kɛ <waiverLink>CC0 ye ni an ka yafa kɛcogo</waiverLink> ye, ka ci an ma commonvoice@mozilla.com kan
 about-playbook-how-add-sentences-content-3 = Aw bɛ se ka baara kɛ ni <scraperLink>Sentence extractor</scraperLink> ye walasa ka kumasen surunw nafa ka bɔ Wikipeja la.
+
 ## How to record quality
 
 about-playbook-how-record-quality = Ne bɛ se ka kumakan-klip min ka ɲi kosɛbɛ, o ta cogo di?
@@ -145,4 +146,6 @@ about-playbook-how-project-governance-content-4 = Sigidamɔgɔw sendonni ani u k
 about-playbook-how-project-governance-content-5 = Nafa ni dɔnniya sɔrɔli.
 about-playbook-how-project-governance-content-6 = Jateminɛ kɛ ɲɔgɔn fɛ.
 about-playbook-how-project-governance-content-7 = <governanceLink>Aw ye kunnafoni wɛrɛw kalan an bɛ mara cogo min na</governanceLink>
+
+## How is Common Voice funded
 

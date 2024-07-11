@@ -1,5 +1,3 @@
-## Contribution
-
 action-click = Muttapunye
 action-tap = Toke
 contribute = Muruuhe mwaakanyerelo anyu
@@ -132,4 +130,3 @@ contribution-volume-title = Evolume
 contribution-reader-effects-title = Soowoneya sa musomi
 contribution-just-unsure-title = Khamurina exariya?
 see-less = <chevron></chevron>Moone vakhaani
-

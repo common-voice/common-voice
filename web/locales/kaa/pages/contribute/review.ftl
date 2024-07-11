@@ -22,4 +22,3 @@ sc-review-link = Тексериў
 ## REVIEW CRITERIA
 
 sc-criteria-item-2 = Гәп грамматиқалық тәрептен дурыс болыўы керек.
-

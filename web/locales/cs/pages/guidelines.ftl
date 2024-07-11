@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = Pokud věta nesplňuje výše uvedená krit�
 reviewing-sentences-explanation-3 = Pokud si větou nejste jisti, je možné ji přeskočit a přejít na další.
 reviewing-sentences-explanation-4 = Pokud vám dojdou věty k ověření, pomozte nám shromáždit další věty!
 domain-explanation = Zařazení se vztahuje k předmětu věty. V současné době si můžete vybrat mezi:
-

@@ -88,4 +88,3 @@ help-contribute = የጋራ ልሳን መገለጫ በመፍጠር እና ድም
 login-company = በ{ $company } ኢሜይል ይግቡ / ይመዝገቡ
 profile-not-required = ምንም እንኳን ጠቃሚ ቢሆንም መገለጫ መኖሩ ለማበርከት አያስፈልግም፣ ምክንያቱን ከታች ይመልከቱ።
 read-more-about = ስለ ገፃችን የበለጠ ያንብቡ
-

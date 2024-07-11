@@ -7,4 +7,3 @@ download-form-email =
     .value = Mungode, za mu ci gaba da tuntunbarka
 download-back = Komo zuwa ga tsarin bayani na Common Voice
 download-no = A'a Nagode
-

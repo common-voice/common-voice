@@ -65,11 +65,8 @@ clipboard-not-supported = ບໍ່ຮອງຮັບຄລິບບອດ
 dataset-metadata-sex = ເພດ
 # dataset metadata - age of contributor
 dataset-metadata-age = ອາຍຸ
-
 data-download-singleword-title = ດາວໂຫຼດພາກສ່ວນເປົ້າໝາຍຄຳດຽວ
 data-download-singleword-callout-v2 = ນີ້ແມ່ນພາກສ່ວນທີ່ໃຊ້ໃນກໍລະນີຂັບເຄື່ອນທີ່ປະກອບດ້ວຍຂໍ້ມູນເພື່ອພະລັງງານການຮັບຮູ້ຕົວເລກທີ່ເວົ້າ ແລະການກວດຫາແມ່ນ/ບໍ່.
-## Data
-
 data-download-button = ດາວໂຫລດຂໍ້ມູນ Common Voice
 data-download-yes = ແມ່ນ
 data-download-deny = ບໍ່

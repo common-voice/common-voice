@@ -7,4 +7,3 @@ download-form-email =
     .value = A jaaraama, maa en njokkondir
 download-back = Rutto to Leeme Keɓe Common Voice
 download-no = Alaa, mi yaafiima
-

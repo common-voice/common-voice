@@ -83,4 +83,3 @@ validations =
         [one] Гәаҭарак
        *[other] Гәаҭарак
     }
-

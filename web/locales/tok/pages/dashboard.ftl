@@ -99,4 +99,3 @@ validations =
     { $count ->
        *[other] kalama awen pona
     }
-

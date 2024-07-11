@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = 現在進行中
@@ -16,10 +13,7 @@ language-search-input =
 language-speakers = 話者数
 localized = ローカライズ済み
 sentences = 文章
-
-## Languages
-
-contribute = 貢献
+contribute = 貢献する
 get-involved-button = 参加する
 get-involved-title = { $lang }に貢献する
 get-involved-text = { $lang } への貢献に興味を持っていただき、ありがとうございます。私達はあらゆる言語の立ち上げの準備をしており、各チームにメールで最新の情報を配信しています。貢献いただける場合はメールアドレスを登録してください。

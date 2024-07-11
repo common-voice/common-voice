@@ -33,7 +33,6 @@ review-rerecord = ᱫᱩᱦᱲᱟᱹ ᱨᱮᱠᱚᱰ
 review-cancel = ᱡᱚᱢᱟ ᱠᱚ ᱨᱚᱫ ᱢᱮ
 review-keep-recordings = ᱨᱮᱠᱚᱰᱤᱝ ᱠᱚ ᱫᱚᱦᱚᱭ ᱢᱮ
 review-delete-recordings = ᱤᱧᱟᱜ ᱨᱮᱠᱚᱰᱤᱝ ᱠᱚ ᱢᱮᱴᱟᱣ ᱢᱮ
-
 review-terms = Common Voice ᱵᱮᱵᱷᱟᱨ ᱠᱟᱛᱮ, ᱟᱢ ᱫᱚ ᱟᱞᱮᱭᱟᱜ <termsLink> ᱥᱚᱨᱛᱚ </termsLink> ᱟᱨ <privacyLink> ᱯᱨᱟᱭᱣᱮᱥᱭ ᱱᱚᱴᱤᱥ </privacyLink> ᱛᱮ ᱟᱢ ᱦᱮᱸᱥᱤᱭᱟᱹᱨ ᱮᱢᱚᱜ ᱠᱟᱱᱟᱢ᱾
 terms-agree = ᱤᱧᱤᱧ ᱥᱤᱠᱟᱹᱨ ᱜᱮᱭᱟ
 terms-disagree = ᱤᱧ ᱵᱟᱧ ᱥᱤᱠᱟᱹᱨ ᱜᱮᱭᱟ

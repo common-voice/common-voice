@@ -1,6 +1,6 @@
-write = siir
 ## WRITE PAGE
 
+write = siir
 write-page-subtitle = yumsetab sentensishek ketesyini eng oletaguu cc- 0 dataset negigelicensen
 sentence =
     .label = ngalek

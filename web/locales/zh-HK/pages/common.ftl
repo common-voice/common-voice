@@ -204,7 +204,6 @@ share-text = 請到 { $link } 獻聲，幫我哋教機器瞭解真人係點講�
 link-copied = 超連結已被複製
 back-top = 回到頁頂
 logout = 登出
-
 stayintouch = 喺 Mozilla 呢度，我哋建立緊一個同語音技術相關嘅社群。我哋想同你保持聯繫，提供最新嘅消息同資料來源，亦都想瞭解你會點樣使用呢啲資料。
 privacy-info = 我哋保證會小心處理你嘅資訊。如果要瞭解更多，請閲讀我哋嘅<privacyLink>私隱權公告</privacyLink>。
 return-to-cv = 翻去 Common Voice
@@ -218,7 +217,8 @@ email-opt-in-info-sub-with-challenge = 我希望收到包括目標提醒、進�
 email-opt-in-privacy-v2 = 假如同意接收郵件，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述嘅方式處理呢啲些資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 唔適用
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = 選擇語言/地區

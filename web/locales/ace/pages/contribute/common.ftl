@@ -1,19 +1,20 @@
-## Languages
-
 contribute = Bantu
-## Account Benefits
+
+## Contribution Nav Items
 
 
-## What's public
+## Reporting
 
 
 ## Speak & Listen Shortcuts
 
 
-## Listen Shortcuts
-
-
 ## Speak Shortcuts
 
 request-language-button = Lakèe Bahsa
+
+## Listen Shortcuts
+
+
+## Validation criteria
 

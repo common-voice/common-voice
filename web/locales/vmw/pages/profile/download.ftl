@@ -24,4 +24,3 @@ download-request-modal-title = Maluutte sa itawulooti
 download-request-modal-description = Nva siiri maluutte wiira mukuruuxe ipaaxita sothukumanyiwa ZIP.
 download-request-link-text = Zip #{ $offset } ya { $total }
 download-request-metadata-link = Eteestu ya Malove
-

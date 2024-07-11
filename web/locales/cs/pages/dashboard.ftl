@@ -121,4 +121,3 @@ recordings =
        *[other] Nahrávek
     }
 validations = zkontrolováno
-

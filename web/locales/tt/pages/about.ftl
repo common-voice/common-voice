@@ -146,3 +146,5 @@ about-playbook-how-project-governance-content-5 = Кыйммәт һәм тану
 about-playbook-how-project-governance-content-6 = Үзара җаваплылык.
 about-playbook-how-project-governance-content-7 = <governanceLink>Безне ничек идарә итүебез турында күбрәк белү</governanceLink>
 
+## How is Common Voice funded
+

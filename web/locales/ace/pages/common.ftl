@@ -187,7 +187,6 @@ share-text = Bantu peurunoe meusén pakriban ureueng geumarit, neujôk su droene
 link-copied = Peunawôt Geusalén
 back-top = Gisa u Ateueh
 logout = Teubiet
-
 stayintouch = Kamoe bak Mozilla meupeugöt saboh tumpôk bhaih tèknologi su. Kamoe meuh'eut sabé geubri haba barô, nè data barô dan meudeungo leubèh le pakriban neungui data nyoe.
 privacy-info = Kamoe meujanji meupeulaku haba nibak droeneuh ngön göt. Neubeuet leubèh le lom lam <privacyLink>Bri Thèe Rasia</privacyLink>.
 return-to-cv = Gisa u Common Voice
@@ -197,4 +196,6 @@ submit-form-action = Peuét
 loading = Pumeuhah...
 email-opt-in-info = Lon galak beujitamöng surat-e lagee peuingat tujuan, seuneubaro progress lon ngon seunurat keu bhaih Su Common.
 indicates-required = * Suwah geupasoe
+
+## Donate banner
 

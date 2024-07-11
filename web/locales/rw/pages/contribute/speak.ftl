@@ -30,7 +30,6 @@ review-rerecord = Ongera ufate amajwi
 review-cancel = Hagarika, reka kohereza.
 review-keep-recordings = Komeza ufate amajwi
 review-delete-recordings = Gusiba amajwi nafashe
-
 review-terms = Mu gukoresha porogaramu y'Ijwi Rusange, wemeye amabwiriza yacu n'ibirebana n'amakuru bwite adashyirwa ahagaragara.
 terms-agree = Ndabyemeye
 terms-disagree = Ntabwo mbyemeye

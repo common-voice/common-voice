@@ -235,7 +235,6 @@ link-copied = የአገናኝ አድራሻ ቅዳ
 back-top = ወደ ላይ ተመለስ
 logout = ውጣ
 donate = ይለግሱ
-
 stayintouch = እኛ ሞዚላ ላይ በልሳን ቴክኖሎጂ ዙሪያ የሚሠሩ ማህበረሰቦችን እያደራጀን ነው። አዳዲስ የመረጃ ምንጮች ሲኖሩ እንዲሁም እንዴት መጠቀም እንዳለብዎት እናሳውቆታለን።
 privacy-info = መረጃዎትን በጥንቃቄ ለመያዝ ቃል እንገባለን። የበለጠ ከእኛ <privacyLink>ስለግላዊነት ማስታወቂያ</privacyLink> ላይ ያንብቡ።
 return-to-cv = ወደ የጋራ ልሳኖች ተመለስ
@@ -249,7 +248,8 @@ email-opt-in-info-sub-with-challenge = እንደ የአላማ ማስታወሻ፣
 email-opt-in-privacy-v2 = ኢሜይል ለመቀበል ፈቃደኛ ሲሆኑ፤ ሞዚላ እነዚህን መረጃዎች የሚይዝበትን በሞዚላ <privacyLink>የግላዊነት ፖሊሲ</privacyLink> ላይ የተገለፀውን መቀበልዎትን ያሳያል።
 indicates-required = * የግድ መሞላት ያለበት ቦታ መሆኑን ያመለክታል
 not-available-abbreviation = ሊገኝ የማይችል
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = ቋንቋ/አካባቢን ምረጥ

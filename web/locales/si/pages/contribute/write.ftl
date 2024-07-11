@@ -1,1 +1,5 @@
-    .label = විද්‍යුත් තැපෑල
+## WRITE PAGE
+
+
+## BULK SUBMISSION 
+

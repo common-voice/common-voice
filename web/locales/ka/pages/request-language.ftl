@@ -38,4 +38,3 @@ request-language-success-list-3 =
 request-language-error =
     შესაძლოა, არ მიგვიღია მოთხოვნა. გთხოვთ, მოგვწეროთ პირდაპირ
     მისამართზე <emailLink>{ $email }</emailLink> და მოგაქცევთ ყურადღებას!
-

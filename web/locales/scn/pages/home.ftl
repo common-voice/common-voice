@@ -76,4 +76,3 @@ help-contribute = Crea un prufilu Common Voice e cuntribbuisci câ to vuci pi cr
 login-company = Trasi / Riggìstrati cu nu nnirizzu e-mail di { $company }
 profile-not-required = Aviri un prufilu nun è ubbligatoriu pi cuntribbuiri, ma po èssiri ùtili: vidi picchì cchiù sutta.
 read-more-about = Vidi cchiù assai nnâ pàggina Nfurmazziuna
-

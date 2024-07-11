@@ -10,4 +10,3 @@ why-delete-recordings =
     
     A mund të na bëni me dije pse do të donit të fshihen incizimet tuaja?
 profile-form-delete = Fshini Profil
-

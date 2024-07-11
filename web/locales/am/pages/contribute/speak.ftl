@@ -33,7 +33,6 @@ review-rerecord = እንደገና ይቅረጹ
 review-cancel = ማስገባትን ሰርዝ
 review-keep-recordings = ቀረጻዎቹን ያስቀምጡ
 review-delete-recordings = ቀረጻዎቼን ሰርዝ
-
 review-terms = የጋራ ልሳንን በመጠቀም በኛ <termsLink>ደንቦች</termsLink> እና <privacyLink>የግላዊነት ማስታወቂያ</privacyLink> ተስማምተዋል
 terms-agree = እስማማለሁ
 terms-disagree = አልስማማም

@@ -7,4 +7,3 @@ download-form-email =
     .value = رەھمەت، سىز بىلەن ئالاقىلىشىمىز.
 download-back = Common Voice سانلىق مەلۇمات ئامبىرىغا قايت
 download-no = ياق رەھمەت
-

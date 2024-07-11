@@ -235,7 +235,6 @@ link-copied = Wotkaz kopěrowany
 back-top = Wróćo horje
 logout = Wotzjewić
 donate = Darić
-
 stayintouch = My pola Mozilla twarimy zhromadźenstwo wokoło hłosoweje technologije. Bychmy rady z aktualizacijemi, žórłami nowych datow w zwisku wostać a wjace wo tym słyšeli, kak tute daty wužiwaće.
 privacy-info = Lubimy wam, z wašimi informacijemi starosćiwje wobchadźeć. Čitajće wjace w našej <privacyLink>zdźělence priwatnosće</privacyLink>.
 return-to-cv = Wróćo k Common Voice
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = Dóstańće mejlki, kaž na přikład wu�
 email-opt-in-privacy-v2 = Jeli chceće e-mejlki dóstać, dyrbiće do wobchadźenja Mozilla z tymi informacijemi zwolić, kotrež so w <privacyLink>prawidłach priwatnosće</privacyLink> Mozilla rozjasnjeja.
 indicates-required = * Woznamjenja trěbne polo
 not-available-abbreviation = Ničo k dispoziciji
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = Płaći na jedyn milion dolarow wob lěto, zo by
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Wužiwaće Common Voice za</mark><br/><mark>swoje slědźenje?</mark>
 languages-donate-banner-cta-explanation = Common Voice so z darami a přiražki financuje! Dźěłamy rady hromadźe z akademikarjemi, ciwilnej towaršnosću a slědźerjemi industrije. Common Voice je darmotny, ale je woprawdźe pomocliwje, so z přiražkowymi namjetami na kóštach platformy a za hosting wobdźělić.
-# [/SentenceCollector]
-
 localization-select =
     .label = Rěč/Lokalizaciju wubrać

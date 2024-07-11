@@ -33,7 +33,6 @@ review-rerecord = पुन्हा रेकॉर्ड करा
 review-cancel = सबमिशन रद्द करा
 review-keep-recordings = रेकॉर्डिंग ठेवा
 review-delete-recordings = माझे रेकॉर्डिंग काढून टाका.
-
 review-terms = कॉमन व्हॉईस वापरुन, आपण आमच्या <termsLink> अटी </termsLink> आणि </privacyLink>  गोपनीयता सूचनांना </privacyLink>  सहमती देता
 terms-agree = मी सहमत आहे
 terms-disagree = मी सहमत नाही

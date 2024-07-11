@@ -15,10 +15,7 @@ localized = Лакалізавана
 sentences = Сказы
 language-validation-hours = Гадзіны
 language-validation-progress = Прагрэс праверкі
-
-## Languages
-
-contribute = Зрабіць унёсак
+contribute = Прыняць удзел
 get-involved-button = Уцягвайцеся
 get-involved-title = Зрабіць унёсак у { $lang }
 get-involved-text = Дзякуй за вашу цікавасць да ўдзелу ў { $lang }. Мы робім усё магчымае, каб падрыхтаваць кожную мову да запуску і трымаць каманды ў курсе праз емэйл. Калі вы хочаце пасудзейнічаць, калі ласка, пазначце ніжэй свой емэйл.

@@ -1,6 +1,6 @@
-write = Scrivi
 ## WRITE PAGE
 
+write = Scrivi
 write-instruction = <icon></icon> Aggiungi una frase di pubblico dominio
 write-page-subtitle = Le frasi inserite verranno aggiunte a un dataset con licenza cc-0 disponibile pubblicamente.
 sentence =
@@ -89,4 +89,3 @@ file-invalid-type = File non valido
 file-too-large = Il file è troppo grande
 file-too-small = Il file è troppo piccolo
 too-many-files = Troppi file
-

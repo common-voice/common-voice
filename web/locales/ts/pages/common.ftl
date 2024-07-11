@@ -209,7 +209,6 @@ share-text = Pfuna ku dyondzisa michini ndlela leyi vanhu va xiviri va vulavulak
 link-copied = Link Yi Kopiwile
 back-top = Ku Vuyela Ehenhla
 logout = Humela Ehandle
-
 stayintouch = Hina a Mozilla hi le ku akeni ka muganga wa vaaki ku rhendzela thekinoloji ya rito. Hi tsakela ku tshama hi ri eku hlanganiseni na swintshuxo, swihlovo leswintshwa swa datha na ku twa swo tala hi ndlela leyi u tirhisaka datha leyi ha yona.
 privacy-info = Hi tshembisa ku khoma rungula ra wena hi vukheta. Hlaya swo tala eka <privacyLink>Xitiviso xa Vuhlayiseki</privacyLink> ya hina.
 return-to-cv = Vuyela eka Common Voice
@@ -223,7 +222,8 @@ email-opt-in-info-sub-with-challenge = Amukela ti-imeyili to fana na switsundzux
 email-opt-in-privacy-v2 = Hi ku hlawula ku nghena ku amukela ti-imeyili u vula leswaku u kahle hi Mozilla ku khoma vuxokoxoko lebyi tanihi laha swi hlamuseriweke hakona eka <privacyLink>Pholisi ya Vuhlayiseki ya Mozilla</privacyLink>.
 indicates-required = Swivandla leswi funghiweke hi xinyeletana (*) swa laveka.
 not-available-abbreviation = N/A
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Hlawula ririmi/ku veka ndhawu

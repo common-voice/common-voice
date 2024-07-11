@@ -1,3 +1,5 @@
+## Profile - Avatar
+
 browse-file-title = Carga si ina datoteca cun in maletg
 browse-file = drag and drop ni <browseWrap>encurir en</browseWrap>
 connect-gravatar = colligiar cun Gravatar

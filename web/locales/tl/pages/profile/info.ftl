@@ -58,4 +58,3 @@ on = On
 help-accent = Kailangan mo ng tulong sa mga variant?
 help-accent-explanation = Ang iyong diin ay kung paano mong binibigkas ang mga salita. Maari itong mabubuo depende kung saan ka na nakatira, aling wika ang sinasalita mo, at maraming iba pang dahilan. Pwede mong ibahagi ang anumang kaalaman na sa tingin mo ay makabuluhan dito.
 help-variants = Kailangan mo ng tulong sa mga variant?
-

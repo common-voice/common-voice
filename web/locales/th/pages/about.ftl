@@ -138,3 +138,5 @@ about-playbook-how-project-governance-content-5 = คุณค่าและก
 about-playbook-how-project-governance-content-6 = ความรับผิดชอบร่วมกัน
 about-playbook-how-project-governance-content-7 = <governanceLink>อ่านเพิ่มเติมเกี่ยวกับการกำกับดูแลของเรา</governanceLink>
 
+## How is Common Voice funded
+

@@ -15,9 +15,6 @@ localized = स्थानीयकृत
 sentences = वाक्यहरू
 language-validation-hours = घण्टाहरू
 language-validation-progress = प्रमाणीकरण प्रगति
-
-## Languages
-
 contribute = योगदान गर्नुहोस्
 get-involved-button = संलग्न हुनुहोस्
 get-involved-title = { $lang }मा योगदान गर्नुहोस्

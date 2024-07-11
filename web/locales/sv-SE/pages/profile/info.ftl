@@ -78,4 +78,3 @@ variant-contribution-option-1 = Visa mig meningar och klipp från alla varianter
 variant-contribution-option-2 = Visa endast meningar och klipp från min variant
 variant-contribution-warning-title = ⓘ Inte alla meningar och klipp har varianttaggar ännu!
 variant-contribution-warning-subtitle = Om du har problem med att bidra kan du när som helst byta tillbaka till att se allt innehåll för ditt språk.
-

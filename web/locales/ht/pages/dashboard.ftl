@@ -103,4 +103,3 @@ validations =
         [one] Validasyon
        *[other] Validasyon yo
     }
-

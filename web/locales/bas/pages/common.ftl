@@ -158,7 +158,6 @@ share-text = Hôla bikey le bila nigil kiki bôt ba binam ba mpot i ntiik u lipo
 link-copied = Njañ i ñodlana
 back-top = Témp i ño u lipep
 logout = Pam
-
 stayintouch = Ikede jut li bôlô le Mozilla, di ñkot bôt inyu lihôlôs minsélél mi mapôdôl. Di yé le di gwés kônde ba libaba ni we, ka i ye le u lak yis bés ibale manjel ma yondo ma libulus njañgi makiñ ma nnene, ni inyu iyi lelaa u ñgwélél  mayaa ma makiñ ma nsaňgna.
 privacy-info = Di mbôn we le, di gatédés libim u nla saňge. U yé le u kônde kôs ndoñol ikolbaha ni <privacyLink>ñkok u matédés</privacyLink> wés.
 return-to-cv = Témb i Common Voice
@@ -172,4 +171,6 @@ email-opt-in-info-sub-with-challenge = Kôhna bimél kiki bo pémsan ni mbigda m
 email-opt-in-privacy-v2 = Intel u ngéda u nneebe kôs bimél, wee u nneebe le Mozilla a bôñôl unu nwin kiki ka ngéda biniigana bi <privacyLink>nkok u matédés</privacyLink> u Mozilla.
 indicates-required = Nit mapoga ma mbéda.
 not-available-abbreviation = Yemel
+
+## Donate banner
 

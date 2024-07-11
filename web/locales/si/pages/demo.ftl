@@ -1,1 +1,14 @@
-    .label = විද්‍යුත් තැපෑල
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

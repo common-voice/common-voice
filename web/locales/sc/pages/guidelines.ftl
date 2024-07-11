@@ -29,4 +29,3 @@ adding-sentences-subheader-speakable = Pronuntziàbile
 adding-sentences-subheader-numbers = Nùmeros
 adding-sentences-subheader-punctuation = Puntegiadura
 adding-sentences-subheader-special-characters = Caràteres ispetziales e lìteras istràngias
-

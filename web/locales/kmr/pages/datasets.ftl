@@ -42,10 +42,7 @@ more = Zêdetir
 close = Bigire
 download = Daxîne
 dataset-version = Guherto
-
 data-download-singleword-title = Segmenta hedefa yek-peyvî daxîne
-## Data
-
 data-download-button = Daneyên Common Voiceê Daxîne
 data-download-yes = Erê
 data-download-deny = Na

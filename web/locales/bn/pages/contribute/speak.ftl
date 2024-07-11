@@ -31,7 +31,6 @@ review-rerecord = পুনরায়-রেকর্ড
 review-cancel = জমাদান বাতিল
 review-keep-recordings = রেকর্ডিং রাখো
 review-delete-recordings = আমার রেকর্ডিং মুছে ফেলো
-
 review-terms = Common Voice ব্যবহারের মাধ্যমে, আপনি আমাদের <termsLink>শর্তাবলী</termsLink> ও <privacyLink>গোপনীয়তা নোটিশে</privacyLink> সম্মতি জানাচ্ছেন।
 terms-agree = আমি সম্মত
 terms-disagree = আমি সম্মত নই

@@ -107,7 +107,6 @@ share-text = Maşınlara real insanların necə danışdıqlarını öyrətməy�
 link-copied = Keçid Köçürüldü
 back-top = Üstə Qayıt
 logout = Çıx
-
 stayintouch = Mozillada səs texnologiyaları ətrafında icma inşa edirik. Yeniliklər, yeni məlumat mənbəələri haqqında əlaqədə qalmaq və bu məlumatları necə işlətdiyiniz haqqında öyrənmək istərdik.
 privacy-info = Məlumatlarınızı diqqətlə idarə edəcəyimizə söz veririk. Daha ətraflı <privacyLink>Məxfilik Bildirişi</privacyLink>mizdə oxuyun.
 return-to-cv = Common Voice-ə qayıt
@@ -116,4 +115,6 @@ email-input =
 submit-form-action = Göndər
 loading = Yüklənir…
 indicates-required = * Tələb edilən bölmələri göstərir
+
+## Donate banner
 

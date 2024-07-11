@@ -32,7 +32,6 @@ review-rerecord = Dasrekordya
 review-cancel = Hedhi danvon
 review-keep-recordings = Gwitha an rekordyansow
 review-delete-recordings = Dilea ow rekordyansow
-
 review-terms = Der usya Common Voice, hwi a wra akordya gans agan <termsLink>termys</termsLink> ha'gan <privacyLink>argemmyn privetter</privacyLink>
 terms-agree = Akordyav
 terms-disagree = Ny akordyav

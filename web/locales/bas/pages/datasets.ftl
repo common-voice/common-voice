@@ -41,11 +41,8 @@ more = Bipe
 close = Yip
 download = Ket
 dataset-version = Bitéé bi lipémhak
-
 data-download-singleword-title = Ket Suñ-Likoñ Pom-Buk
 data-download-singleword-callout-v2 = Ini i yé ndémbél i suñ i gwéé minje mi nhuñge bañ i nsolol ñañga u pok-iba-iaa ni nn / to.
-## Data
-
 data-download-button = Ket minje mi Common Voice
 data-download-yes = Nn
 data-download-deny = To

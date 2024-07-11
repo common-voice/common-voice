@@ -28,4 +28,3 @@ request-language-success-list-2 =
     thomaho u shuma nga luambo lwaṋu
 request-language-success-list-3 = Arali ra sa vhuya murahu kha inwi nga murahu ha maḓuvha a si gathi, ri kwameni kha <emailLink>{ $email }</emailLink> ri ḓo vhuya murahu kha inwi!
 request-language-error = Ri nga vha ri songo wana khumbelo heyo. Ri humbela uri ni ri kwame thwi kha <emailLink>{ $email }</emailLink> ri ḓo vhuya kha inwi.
-

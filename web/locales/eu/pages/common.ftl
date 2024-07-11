@@ -226,7 +226,6 @@ link-copied = Lotura kopiatuta
 back-top = Itzuli gora
 logout = Itxi saioa
 donate = Egin dohaintza
-
 stayintouch = Mozillan hizkuntza-teknologiaren inguruan komunitate bat osatzen ari gara. Zurekin harremanetan egon nahiko genuke eguneraketen berri emateko, datu-iturri berriak jasotzen eta datu hauek nola erabiltzen ari zaren jakiteko.
 privacy-info = Zure informazioa kontuz tratatuko dugula agintzen dizugu. Irakurri gehiago gure <privacyLink>pribatutasun oharpenean</privacyLink>.
 return-to-cv = Itzuli Common Voicera
@@ -240,7 +239,8 @@ email-opt-in-info-sub-with-challenge = Jaso posta elektroniko bidez Common Voice
 email-opt-in-privacy-v2 = Mezu elektronikoak jaso nahi dituzula adierazteak Mozillak zure informazioa kudeatzea onartzen duzula esan nahi du, Mozillaren <privacyLink>pribatutasun politikan<privacyLink> adierazten den erara.
 indicates-required = * ikurrak ezinbesteko eremua dela esan nahi du
 not-available-abbreviation = N/A
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Aukeratu hizkuntza/lokalizazioa

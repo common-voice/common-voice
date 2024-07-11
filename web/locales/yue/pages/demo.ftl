@@ -33,4 +33,3 @@ demo-listen-subtitle = 準備好貢獻未？
 
 demo-dashboard-card-header = 個人儀表板會準時更新你同埋大衆嘅進度。
 demo-dashboard-card-body = 每次你提供、核實語音，你嘅進度都會喺該語言嘅面板度展示出嚟。係啊，你可以貢獻多過一隻語言。用面板去睇實你嘅戰績，睇下自己同埋其他人做成點樣，再定返個每日或者每週嘅目標吖。
-

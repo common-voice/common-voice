@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Klykstynoj
 action-tap = Pīsaskar
-## Languages
-
 contribute = Dūt īguļdejumu
 review = Puorbaudi
 skip = Izlaist
@@ -151,4 +147,3 @@ contribution-just-unsure-title = Vīnkuorši naasat puorlīcynuots?
 contribution-just-unsure-description = Ka truopās koč kas, kas itamuos vodlinejuos nav īlykts, lyudzu, bolsojit tai, kai jums ruodīs pareizi. Atguodojit - kvalitate i precizitate ir svareiguoka par īrokstu skaitu. Ka eistyn navarit izlemt, lītojit izlaisšonys pūgu i puorejit iz nuokušū īrokstu.
 see-more = <chevron></chevron>Ruodeit vaira
 see-less = <chevron></chevron>Ruodeit mozuok
-

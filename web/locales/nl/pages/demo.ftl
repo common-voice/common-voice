@@ -33,4 +33,3 @@ demo-listen-subtitle = Klaar om bij te dragen?
 
 demo-dashboard-card-header = Persoonlijke dashboards houden u op de hoogte van uw individuele voortgang en van die van de gemeenschap.
 demo-dashboard-card-body = Voor elk gedoneerd spraakfragment en elk gevalideerd audiofragment worden uw accountdashboards bijgewerkt om uw laatste vorderingen weer te geven in elke taal waaraan u bijdraagt. Ja, u kunt aan meer dan één bijdragen!<br/><br/> Gebruik dashboards om uw statistieken bij te houden, te bekijken hoe u het doet naast anderen in de gemeenschap en dagelijkse of wekelijkse bijdragedoelen vast te stellen.
-

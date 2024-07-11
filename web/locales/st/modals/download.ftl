@@ -7,4 +7,3 @@ download-form-email =
     .value = Rea leboha, re tla buisana.
 download-back = Kgutlela ho dipokello tsa data tsa Common Voice
 download-no = Tjhe Kea Leboha
-

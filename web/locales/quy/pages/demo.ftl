@@ -33,4 +33,3 @@ demo-listen-subtitle = ¿Listo para contribuir?
 
 demo-dashboard-card-header = Los paneles personales lo mantienen actualizado con el progreso individual y comunitario.
 demo-dashboard-card-body = Por cada clip de voz donado y cada clip de audio validado, los paneles de su cuenta se actualizan para reflejar su último progreso en cada idioma en el que contribuye. ¡Sí, puede contribuir a más de uno!<br/><br/> Utilice el panel para realizar un seguimiento de sus estadísticas, ver cómo le está yendo junto con otros en la comunidad y establecer metas de contribución diarias o semanales.
-

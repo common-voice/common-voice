@@ -90,4 +90,3 @@ help-contribute = O ka thusa ho aha pokello ya data e fapaneng, ya mohlodio bule
 login-company = Kena / Ingodise ka { $company } imeile
 profile-not-required = Ho ba le profaele ha ho hlokahale ho kenya letsoho leha ho le molemo, bona hore na hobaneng mona ka tlase.
 read-more-about = Bala haholwanyane ho leqephe la About la rona
-

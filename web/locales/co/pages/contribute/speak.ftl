@@ -33,7 +33,6 @@ review-rerecord = Arrighjistrà torna
 review-cancel = Annuddà l'inviu
 review-keep-recordings = Mantene l'arrighjistramenti
 review-delete-recordings = Sguassà i mo arrighjistramenti
-
 review-terms = Usendu Common Voice, site d'accunsentu incù i nostri <termsLink>cundizioni d'utilizazioni</termsLink> è <privacyLink>a nostra pulitica di cunfidenzialità</privacyLink>
 terms-agree = Sò d'accunsentu
 terms-disagree = Ùn sò micca d'accunsentu

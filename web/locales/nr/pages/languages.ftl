@@ -15,9 +15,6 @@ localized = Yenza kujayeleke
 sentences = Imitjho
 language-validation-hours = Ama-awara
 language-validation-progress = Ituthuko eqinisekisiweko
-
-## Languages
-
 contribute = Nikela
 get-involved-button = Hlanganyela
 get-involved-title = Nikela ku { $lang }

@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = Юрттоно
 get-involved-button = Пыриське

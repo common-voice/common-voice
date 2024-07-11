@@ -7,4 +7,3 @@ download-form-email =
     .value = የቐንየልና፡ ኣብ ቀረባ ግዜ ክንረኽበካ ኢና።
 download-back = ናብ ኮመን ቮይስ ተመለስ
 download-no = ይትረፈኒ ከየመስገንኩኹም ግን ክሓልፍ ኣይደልን።
-

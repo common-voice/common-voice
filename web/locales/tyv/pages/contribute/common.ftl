@@ -1,6 +1,4 @@
-## Languages
-
-contribute = деткиир, дузалаар
+contribute = Үлүг киирер
 speak-empty-state-cta = Домактар саналдаар
 target-segment-first-banner = Common Voice-ка { $locale } черге баштайгы сорулга сегментизин тургузуп алырынга дузалажыңар
 
@@ -15,6 +13,15 @@ report-different-language-detail = Нарын-дыр
 report-difficult-pronounce = Адаары берге-дир
 continue = Улаштырар
 
+## Speak & Listen Shortcuts
+
+
+## Speak Shortcuts
+
+
+## Listen Shortcuts
+
+
 ## Validation criteria
 
 contribution-criteria-nav = Негелделер
@@ -25,4 +32,3 @@ contribution-varying-pronunciations-example-2-title = Ооң холу көдүр
 contribution-background-noise-description-extended = Бижик үстүп азы аңаа дызыраан дааштар тыптып кээр болза, сөзүглел бүдүнге дыңналбас болза, оон ойталаңар.
 contribution-background-noise-example-3-fixed-title = [Дызырааш] Триас эразының улуг динозаврлары [дызырааш]
 contribution-background-voices-description-extended = Бижик үстүп азы аңаа дызыраан дааштар тыптып кээр болза, сөзүглел бүдүнге дыңналбас болза, оон ойталаңар.
-

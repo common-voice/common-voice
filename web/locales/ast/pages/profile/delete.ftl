@@ -10,4 +10,3 @@ why-delete-recordings =
     
     ¿Pues dicinos por qué quies desaniciar les tos grabaciones?
 profile-form-delete = Desaniciu del perfil
-

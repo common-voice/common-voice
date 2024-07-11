@@ -28,4 +28,3 @@ download-request-modal-description = 下列是 ZIP 文件的下载链接。
 download-request-link-text = 第 { $offset } 个 ZIP 文件，共 { $total } 个
 download-request-metadata-link = 语句文本
 download-request-link-single = 您还可以将直链 URL 复制并粘贴到您最常用的下载管理器。有效期为 12 个小时，但您可以随时返回此页面生成新的。
-

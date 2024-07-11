@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = Ja teikums neatbilst iepriekš minētajiem k
 reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat to izlaist un pāriet uz nākamo.
 reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
 domain-explanation = Joma attiecas uz teikuma saturu. Jūs varat izvēlēties vienu no:
-

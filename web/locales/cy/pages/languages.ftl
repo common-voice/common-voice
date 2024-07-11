@@ -17,9 +17,6 @@ localized = Wedi ei leoleiddio
 sentences = Brawddegau
 language-validation-hours = Awr
 language-validation-progress = Y Broses Ddilysu
-
-## Languages
-
 contribute = Cyfrannu
 get-involved-button = Ymunwch
 get-involved-title = Cyfrannu: { $lang }

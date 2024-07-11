@@ -28,4 +28,3 @@ download-request-modal-description = Nawa ema link eku download amafayela laku Z
 download-request-link-text = Zip #{ $offset } of { $total }
 download-request-metadata-link = Imisho lemagama
 download-request-link-single = Ungaphindze ukope phindze ubeke ngco i URL endzweni lapho ubeka tintfo takho lotitsandzako. Kutophupha emvakwa 12 hours, konja ungaphindza ubye utocopha lokusha noma ngabe kunini.
-

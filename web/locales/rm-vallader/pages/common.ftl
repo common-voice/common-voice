@@ -146,7 +146,6 @@ share-text = Güda'ns a muossar a maschinas co cha drettas persunas discuorran, 
 link-copied = Copchà il link
 back-top = amunt
 logout = Sorta
-
 stayintouch = Nus da Mozilla radunain üna comunità interressada per tecnologias vocalas. Nus lessan restar in contact e partir novitats, nouvas funtanas da datas, ma eir dudir co cha vus dovrais quistas datas.
 privacy-info = Nus t'impromettain da trattar tias infuormaziuns cun chüra. Daplü poust leger in nossa <privacyLink>decleraziun davart la protecziun da datas</privacyLink>.
 return-to-cv = Tuorna a Common Voice
@@ -159,4 +158,6 @@ email-opt-in-info-title = Annunzcha't per la glista dad e-mails da Common Voice.
 email-opt-in-info-sub-with-challenge = Tü survainst e-mails, chi't tiran adimmaint teis böts, cun actualisaziuns da teis progress e las novitats da Common Voice.
 indicates-required = * indicha ün chomp obligatoric
 not-available-abbreviation = Na disponibel
+
+## Donate banner
 

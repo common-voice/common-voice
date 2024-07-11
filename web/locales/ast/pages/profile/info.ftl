@@ -51,4 +51,3 @@ skip-submission-description = Nel unviu de les collaboraciones van saltase los c
 skip-submission-note = Nota: Entá vas tener d'esbillar ente Falar o Sentir pa camudar el tipu de collaboración.
 off = NON
 on = SÍ
-

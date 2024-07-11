@@ -29,9 +29,6 @@ more = ਹੋਰ
 close = ਬੰਦ ਕਰੋ
 download = ਡਾਊਨਲੋਡ ਕਰੋ
 dataset-version = ਵਰਜ਼ਨ
-
-## Data
-
 data-download-button = ਆਮ ਆਵਾਜ਼ ਡਾਟਾ ਡਾਊਨਲੋਡ ਕਰੋ
 data-download-yes = ਹਾਂ
 data-download-deny = ਨਹੀਂ

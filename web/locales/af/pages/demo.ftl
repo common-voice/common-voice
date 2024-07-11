@@ -33,4 +33,3 @@ demo-listen-subtitle = Gereed om by te dra?
 
 demo-dashboard-card-header = Persoonlike kontroleskerms hou jou op hoogte van individuele en gemeenskapsvordering.
 demo-dashboard-card-body = Vir elke stemsnit wat geskenk word, en elke klanksnit wat bevestig is, word jou rekeningkontroleskerms opgedateer om jou jongste vordering te weerspieël in elke taal waartoe jy bydra. Ja, jy kan tot meer as een bydra!<br/><br/> Gebruik kontroleskerms om jou statistiek na te gaan, te sien hoe jy in vergelyking tot ander in die gemeenskap vaar, en om daaglikse of weeklikse bydraedoelwitte te stel.
-

@@ -46,4 +46,3 @@ skip-submission-description = Dürant cha tü contribuischast poust sursiglir il
 skip-submission-note = Remarcha: Tü stoust tscherner tanter Discuorra e Taidla per müdar il tip da contribuziun.
 off = Deactivà
 on = Activà
-

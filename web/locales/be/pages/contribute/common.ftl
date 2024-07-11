@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Націснуць
 action-tap = Дакрануцца
-## Languages
-
-contribute = Зрабіць унёсак
+contribute = Прыняць удзел
 review = Правяраць
 skip = Прапусціць
 shortcuts = Цэтлікі
@@ -131,4 +127,3 @@ contribution-just-unsure-title = Проста не ўпэўненыя?
 contribution-just-unsure-description = Калі вам трапілася нешта не апісанае ў гэтых інструкцыях, калі ласка галасуйце адпаведна вашаму меркаванню. Калі вы сапраўды не можаце вырашыць, націсніце на кнопку пропуску і пераходзьце да наступнага запісу.
 see-more = <chevron></chevron>Больш
 see-less = <chevron></chevron>Менш
-

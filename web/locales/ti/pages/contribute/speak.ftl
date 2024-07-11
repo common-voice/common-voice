@@ -33,7 +33,6 @@ review-rerecord = ከም ብሓድሽ ቅረጽ
 review-cancel = ምርካብ ኣቛርጽ
 review-keep-recordings = እቲ ዝተቐርጸ ዓቅብ
 review-delete-recordings = ኣነ ዝቐረጽክዎ ኩሉ ደምስስዎ
-
 review-terms = ኮመን ቮይስ ብምጥቃም ነቲ <termsLink>ቃላትና</termsLink> ከምኡውን <privacyLink>ናይ ምስጢር ምልክታ ትሰማምዓሉ ኢኻ</privacyLink>
 terms-agree = ይሰማማዕ እየ።
 terms-disagree = ኣይሰማማዕን እየ።

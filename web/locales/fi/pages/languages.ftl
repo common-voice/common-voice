@@ -17,9 +17,6 @@ localized = Lokalisoitu
 sentences = Lauseet
 language-validation-hours = Tunnit
 language-validation-progress = Vahvistamisen edistyminen
-
-## Languages
-
 contribute = Osallistu
 get-involved-button = Tule mukaan
 get-involved-title = Osallistu kielellä { $lang }

@@ -116,4 +116,3 @@ validations =
         [one] Eqinisekisiweko
        *[other] Eziqinisekisiweko
     }
-

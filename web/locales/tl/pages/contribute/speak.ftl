@@ -26,7 +26,6 @@ review-rerecord = i-Record Muli
 review-cancel = Kanselahin ang Pagpasa
 review-keep-recordings = Panatilihin ang mga recording
 review-delete-recordings = Burahin ang mga recording ko
-
 review-terms = Sa paggagamit ng Common Voice, sumasang-ayon ka sa aming <termsLink>Terms<termsLink> at <privacyLink>Abiso sa Privacy</privacyLink>
 terms-agree = Sumasang-ayon ako
 terms-disagree = Hindi ako sumasang-ayon

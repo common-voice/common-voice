@@ -2,4 +2,3 @@
 
 contact-form-name =
     .label = Nan
-

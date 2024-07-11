@@ -28,4 +28,3 @@ download-request-modal-description = Ḽinki khedzi dza u downḽoda faela dza�
 download-request-link-text = Zip #{ $offset } ya { $total }
 download-request-metadata-link = Mafhungo a re kha mutaladzi
 download-request-link-single = Ni nga kopa u ṋambatedza nga ho livhaho kha URLs u ya kha hune na ṱoḓa uri zwe na downḽouda zwi dzule hone. Zwi ḓo fhelelwa nga tshifhinga nga murahu ha awara dza 12, fhedzi ni nga dovha na vhuyelela kha ḽeneḽi siaṱari uri ni dovhe ni ite dziṅwe nga tshifhinga tshine na funa.
-

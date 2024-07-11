@@ -30,4 +30,3 @@ demo-listen-subtitle = Prest da gemer-perzh?
 ## Demo Dashboard
 
 demo-dashboard-card-body = Evit pep klip mouezh pourvezet ganeoc'h ha pep klip aodio gwirikaet, ho taolenn gont a vez hizivaet evit diskouez hoc'h araokadennoù evit pep yezh a sikourit. Ya, gellout a rit sikour gant meur a yezh!<br/><br/>Implijit an taolennoù da heuliañ ho stadegoù, evit gellout keñveriañ gant izili all ar gumuniezh, ha termeniñ palioù devezhiek pe sizhuniek.
-

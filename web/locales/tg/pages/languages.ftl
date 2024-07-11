@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 languages-show-more = Дидани бештар
@@ -12,10 +9,7 @@ language-search-input =
 language-speakers = Баландгӯякҳо
 sentences = Ҷумлаҳо
 language-validation-hours = Соат
-
-## Languages
-
-contribute = Саҳм гузоштан
+contribute = Иштирок доштан
 get-involved-button = Ҳамроҳ шудан
 get-involved-title = Ба забони { $lang } саҳм гузоред
 get-involved-text =

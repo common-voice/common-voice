@@ -27,4 +27,3 @@ download-request-modal-title = Таргамс сюлмавкст
 download-request-modal-description = Тесэ вана ZIP файлэть таргамс сюлмавкст.
 download-request-link-text = Zip #{ $offset }  { $total }-нть эйстэ
 download-request-metadata-link = Валрисьмень текст
-

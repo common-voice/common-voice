@@ -1,6 +1,6 @@
-write = Skriuwe
 ## WRITE PAGE
 
+write = Skriuwe
 write-instruction = In <icon></icon> sin út it publike domein tafoegje
 write-page-subtitle = Sinnen dy’t hjir bydroegen wurde sille tafoege wurde oan in publyklik beskikbere cc-0 lisinsearre dataset.
 sentence =
@@ -93,4 +93,3 @@ file-invalid-type = Unjildich bestân
 file-too-large = Bestân is te grut
 file-too-small = Bestân is te lyts
 too-many-files = Tefolle bestannen
-

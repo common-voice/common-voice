@@ -7,4 +7,3 @@ download-form-email =
     .value = { "" }
 download-back = Segin ka taa Common Voice Datasets kan
 download-no = Ayi Baraka da
-

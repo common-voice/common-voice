@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Click
 action-tap = Tap
-## Languages
-
-contribute = Makibahagi
+contribute = Tumulong
 skip = Laktawan
 shortcuts = Mga Shortcut
 clips-with-count-pluralized =
@@ -19,6 +15,9 @@ keep-track-profile = Subaybayan ang iyong pag-unlad gamit ang isang profile
 login-to-get-started = Mag-log in o mag-sign up para makapagsimula
 target-segment-add-voice = Idagdag ang Iyong Boses
 target-segment-learn-more = Matuto Nang Higit Pa
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -68,9 +67,6 @@ shortcut-vote-yes = y
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = Pamantayan
@@ -86,4 +82,3 @@ contribution-misreadings-example-6-title = Lalabas kami para kumuha ng kape.
 contribution-misreadings-example-6-explanation = [Dapat ay "Kami na"]
 contribution-misreadings-example-7-title = Kami ay lalabas para kumuha ng kape.
 contribution-varying-pronunciations-example-1-title = Sa kanyang ulo ay nagsuot siya ng beret.
-

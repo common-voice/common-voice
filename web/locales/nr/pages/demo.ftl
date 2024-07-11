@@ -39,4 +39,3 @@ demo-dashboard-card-header =
     Ikhasi lakho likwenza uhlale ufumana zamva nje 
     ezimalungana netuthuko yomphakathi.
 demo-dashboard-card-body = Kwelinye nelinye iphimbo onikela ngalo, i-akhawundakho izokutjengisa ituthuko oyenzileko elimini ngalinye onikela kilo. Iye, unganikela emalimini amanengi! <br/><br/> Sebenzisa idetjhibodi ukubona umsebenzakho, bona lokho okwenzako usebenzisana nomphakathakho, uzibekela imigomo ofuna ukuyifikelela qobe veke.
-

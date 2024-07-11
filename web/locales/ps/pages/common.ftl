@@ -231,7 +231,6 @@ link-copied = تړونی کاپي شوی
 back-top = بېرته سر ته
 logout = وتل
 donate = مرسته وکړئ
-
 stayintouch = موږ دلته په موزيلا کې د غږ ټېکنالوژۍ پر شاوخوا ټولنه جوړه وو. موږ غواړو د مالوماتو، نوې ډېټا سرچینو او واورو چې تاسو دغه ډېټا څرنګه کاروئ لپاره په اړیکه کې پاتې شو.
 privacy-info = موږ ژمنه کوو چې ستاسو مالومات به په پاملرنې سره سمبالوو. زموږ د <privacyLink> پټتیا خبرتیا </privacyLink> په اړه نور ولولئ.
 return-to-cv = عام غږ ته راستون شئ
@@ -245,6 +244,7 @@ email-opt-in-info-sub-with-challenge = برېښنالیکونه ترلاسه ک�
 email-opt-in-privacy-v2 = د برېښنالیکونو ترلاسه کولو په غوره کولو سره تاسو څرګندوئ چې تاسو د موزیلا سره د دا مالوماتو په سمبالولو کې جوړ یاست لکه څنګه چې د موزیلا <privacyLink> د پټتیا تګلاره </privacyLink> کې تشریح شوي.
 indicates-required = * اړینې ساحې په ګوته کوي
 not-available-abbreviation = د پلي کیدلو نه دی
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -254,7 +254,5 @@ donate-banner-cta-explanation = دا د ډیټاسیټونو کوربه کولو
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>ستاسو د څیړنې لپاره د CV کارول</mark><br/><mark>؟</mark>
 languages-donate-banner-cta-explanation = عام غږ د بسپنه او بسپنې له لارې تمویل کیږي! موږ د اکادمیکانو، مدني ټولنې او صنعت څیړونکو سره همکاري خوښوو. عام غږ د کارولو لپاره وړیا دی، مګر د وړیا وړاندیزونو له لارې د پلیټ فارم او کوربه کولو لګښتونو کې مرسته کول واقعیا ګټور دي.
-# [/SentenceCollector]
-
 localization-select =
     .label = ژبه/سیمه ایز کول غوره کړئ

@@ -218,7 +218,6 @@ share-text = Xitechpalehui timachtize tepozme kenikatza ce tlakatl o cihuatl kam
 link-copied = Enlace copiado
 back-top = Volver arriba
 logout = Cerrar sesión
-
 stayintouch = Ipan Mozilla titekitinj ipan se comunidad tlen tlatoli tecnologia.Tinekiskian tikamatize yankhuik tlatoli, yankhuik tekitl huan ti matiz kenikatza ti tekitin huan mo datos.
 privacy-info = Tlatitejmaka tipiaze cuidado ipan mo informacion.Shi tlachia ipan <privacyLink>Privacy Notice</privacyLink>.
 return-to-cv = Ti mokuapase Common Voice
@@ -232,7 +231,8 @@ email-opt-in-info-sub-with-challenge = Ninekiskia xinechtitlanilij emails ipan t
 email-opt-in-privacy-v2 = Al optar por recibir correos electrónicos, declara que está de acuerdo con que Mozilla maneje esta información como se explica en la <privacyLink>Política de privacidad</privacyLink> de Mozilla.
 indicates-required = Moneki campos tlen kipiaan (*).
 not-available-abbreviation = N/A
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Elegir idioma/localización

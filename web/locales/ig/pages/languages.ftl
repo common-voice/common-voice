@@ -13,9 +13,7 @@ language-search-input =
 language-speakers = Ndị na-ekwu okwu
 localized = Ńchị́kọ́tọ́ ḿpághárá
 sentences = Ahịrịokwu
-## Languages
-
-contribute = Tụ̀nyé òkè gị́
+contribute = Tụ̀nyé òkè
 get-involved-button = Sònyé
 get-involved-title = Tùnyé òkè nà { $lang }
 get-involved-text = Dààlụ́ màkà ḿḿásị́ gị́ ń'ínyéré áká nà { $lang }. Ànyị̀ nà-àgbàsí m̀bọọ́ íké ímē kà ásụ̀sụ́ ọ́bụ́là dị́ ńkwádébé maka ḿwépụ̀tà mà na-ézìgákwárá òtù ńdị́ ńkwàdó ózí síté n'ùsòrò ḿgbásà ōzī ímèèlụ̀ (email). Ọ́bụ́rụ́ nà Ị̀ chọ̀rọ̀ ị́tụ́nyé òkè gị́, bíkó dépụ̀tà ákàrà ímèèlụ̀ gị́ n'ókpúrù ébé à.

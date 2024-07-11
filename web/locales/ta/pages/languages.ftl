@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = செயல்பாட்டிலுள்ளது
@@ -18,10 +15,7 @@ language-search-input =
 language-speakers = பேசுபவர்கள்
 localized = மொழிபெயர்க்கப்பட்டது
 sentences = சொற்றொடர்கள்
-
-## Languages
-
-contribute = பங்களியுங்கள்
+contribute = பங்களி
 get-involved-button = பங்கு பெறுங்கள்
 get-involved-title = { $lang } மொழிக்கு பங்களியுங்கள்
 get-involved-text = { $lang } மொழிக்கு பங்களிப்பதில் உங்கள் ஆர்வத்திற்கு நன்றி. அறிமுகத்திற்கு முன்பே ஒவ்வொரு மொழியில் தயாராக இருக்க நாங்கள் கடினமாக உழைக்கிறோம் மேலும் அது தொடர்பான தகவல்களை மின்னஞ்சல் வழியாக குழுக்களுக்கும் தெரிவிக்கிறோம். நீங்கள் பங்களிக்க விரும்பினால், கீழே மின்னஞ்சலை வழங்குங்கள்.

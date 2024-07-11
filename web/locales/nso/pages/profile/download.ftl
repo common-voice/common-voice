@@ -28,4 +28,3 @@ download-request-modal-description = Di-linke tša go tanelouta di faele tša ZI
 download-request-link-text = Zip #{ $offset } tša { $total }
 download-request-metadata-link = Mafoko a lengwalo
 download-request-link-single = O ka kopisa le go beya di-URL tše tobegilego go sesepetša digogwa wa gago o ratago. Di tla felelwa ke nako ka morago ga diiri tše 12, eupša o ka boela latlakaleng le go hlagiša tše di mpsha ka nako le ge e le efe.
-

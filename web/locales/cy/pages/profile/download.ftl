@@ -28,4 +28,3 @@ download-request-modal-description = Dyma'r dolenni i llwytho'ch ffeiliau ZIP i 
 download-request-link-text = Zip #{ $offset } o { $total }
 download-request-metadata-link = Testun brawddeg
 download-request-link-single = Gallwch hefyd gopïo a gludo'r URLau uniongyrchol i'ch hoff reolwr llwytho i lawr. Byddant yn dod i ben ymhen 12 awr, ond gallwch ddod yn ôl i'r dudalen hon i gynhyrchu rhai newydd ar unrhyw adeg.
-

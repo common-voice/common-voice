@@ -1,1 +1,2 @@
-    .label = Эл. пошта
+## Request Language Pages
+

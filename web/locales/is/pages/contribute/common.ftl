@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Smella
 action-tap = Ýta
-## Languages
-
 contribute = Leggðu lið
 review = Yfirfara
 skip = Fara í næstu
@@ -149,4 +145,3 @@ contribution-just-unsure-title = Ertu ekki viss?
 contribution-just-unsure-description = Ef þú rekst á eitthvað sem þessar leiðbeiningar ná ekki til, skaltu velja samkvæmt bestu dómgreind þinni. Ef þú getur ekki ákveðið þig skaltu nota Sleppa-hnappinn og fara í næstu upptöku.
 see-more = <chevron></chevron>Sjá meira
 see-less = <chevron></chevron>Sjá minna
-

@@ -31,4 +31,3 @@ request-language-success-list-3 =
     yenza ilandelela ku <emailLink>{ $email }</emailLink> 
     sizokubuyela kuwe!"
 request-language-error = Kungenzeka asikasifumani isibaweso. Sibawa usithumele i-imeyili bunqopha ku <emailLink>{ $email }</emailLink> sizokubuyela kuwe!
-

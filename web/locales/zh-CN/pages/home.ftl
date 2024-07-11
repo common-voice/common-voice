@@ -73,4 +73,3 @@ help-contribute = 您可以通过创建 Common Voice 用户资料并贡献您的
 login-company = 使用 { $company } 邮箱登录 / 注册
 profile-not-required = 不需注册个人资料即可贡献，但如果注册的话会更有帮助
 read-more-about = 阅读我们的“关于”页面了解更多
-

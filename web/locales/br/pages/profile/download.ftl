@@ -14,4 +14,3 @@ download-request-refresh-button = Freskaat
 download-request-modal-title = Liammoù pellgargañ
 download-request-link-text = Zip n°{ $offset } diwar { $total }
 download-request-metadata-link = Testenn ar frazenn
-

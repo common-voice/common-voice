@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Klik op
 action-tap = Tik op
-## Languages
-
-contribute = Bydrage
+contribute = Meiwurkje
 review = Beoardiele
 skip = Oerslaan
 shortcuts = Fluchkeppelingen
@@ -147,4 +143,3 @@ contribution-just-unsure-title = Gewoan ûnwis?
 contribution-just-unsure-description = As jo wat tsjinkomme dat net yn dizze rjochtlinen behannele wurdt, stim dan nei jo bêste oardiel. As jo echt net beslisse kinne, brûk dan de knop Oerslaan en gean troch nei de folgjende opname.
 see-more = <chevron></chevron>Mear toane
 see-less = <chevron></chevron>Minder toane
-

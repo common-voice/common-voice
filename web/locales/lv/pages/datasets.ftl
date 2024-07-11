@@ -75,11 +75,8 @@ dataset-donate-modal-heading = Vai zinājāt…
 donate-modal-explanation-1 = Datu kopu uzturēšana un platformas uzlabošana vairāk nekā 100 valodu kopienām, kuras paļaujas uz to, ko mēs darām, maksā gandrīz miljonu dolāru gadā?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Ja jums ir svarīgi atvērti, iekļaujoši dati, ziedojiet jau šodien!</bold>
-
 data-download-singleword-title = Lejupielādējiet viena vārda mērķa segmentu
 data-download-singleword-callout-v2 = Šis ir uz lietošanas gadījumu balstīts segments, kurā ir dati, kas nodrošina ierunātu ciparu atpazīšanu un jā/nē noteikšanu.
-## Data
-
 data-download-button = Lejupielādējiet Common Voice datus
 data-download-yes = Jā
 data-download-deny = Nē

@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = In ôfbyldingsbestân oplade
 browse-file = Sleep en pleats of <browseWrap>Blêdzje</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = It selektearre bestân is te grut
 avatar-uploaded = Avatar opladen
 max-file-size = maks. { $kb }kb
 remove-avatar = Avatar fuortsmite
-

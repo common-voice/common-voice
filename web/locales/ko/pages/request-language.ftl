@@ -32,4 +32,3 @@ request-language-success-list-3 =
 request-language-error =
     저희가 해당 요청을 받지 못했을 수 있습니다. <emailLink>{ $email }</emailLink>로
     직접 메일을 보내 주시면 연락드리겠습니다!
-

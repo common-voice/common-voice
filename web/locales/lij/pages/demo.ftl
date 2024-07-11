@@ -33,4 +33,3 @@ demo-listen-subtitle = T’æ pronto pe contribuî?
 
 demo-dashboard-card-header = A teu dashboard personâ a te dâ e notiçie in scî teu progresci e in sce quelli da communitæ.
 demo-dashboard-card-body = Pe tutte e registraçioin azzonte, e tutte quelle verificæ, a dashboard do teu profî a se mette à giorno pe mostrâ i teu urtimi progresci in sce tutte e lengue inte quæ di parteçipi. Scì, ti peu aggiuttâ con ciù de unna lengua!<br/><br/> Addeuvia a dashboard pe tegnî traccia de teu statistiche, vedde comme ti væ respetto a-i atri membri da communitæ, e pe impostâ i obiettivi do giorno ò da settemaña.
-

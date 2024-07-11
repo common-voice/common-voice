@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = Si la frase no compleix els criteris anterio
 reviewing-sentences-explanation-3 = Si no esteu segur de la frase, també podeu saltar-la i passar a la següent.
 reviewing-sentences-explanation-4 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
 domain-explanation = El domini fa referència a la temàtica de la frase. Actualment, podeu triar entre:
-

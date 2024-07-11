@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Pakia faili la picha
 browse-file = Buruta na ushushe au <browseWrap> Vinjari </BrowseWrap>
@@ -7,4 +7,3 @@ gravatar_not_found = Hakuna taswira inayotambuliwa ulimwenguni iliyopatikana kwa
 file_too_large = Faili lililochaguliwa ni kubwa sana
 avatar-uploaded = Taswira ya mtumiaji imapakiwa
 max-file-size = { $kb }kb upeo
-

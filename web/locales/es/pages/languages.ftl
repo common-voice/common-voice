@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = En proceso
@@ -16,9 +13,6 @@ language-search-input =
 language-speakers = Hablantes
 localized = Traducido
 sentences = Frases
-
-## Languages
-
 contribute = Colaborar
 get-involved-button = Participa
 get-involved-title = Contribuir en { $lang }

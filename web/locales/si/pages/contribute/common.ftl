@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = ක්ලික් කරන්න
 action-tap = ටැප් කරන්න
-## Languages
-
-contribute = දායකවන්න.
+contribute = දායකවන්න
 skip = මඟහරින්න
 shortcuts = කෙටිමං
 speak-empty-state-cta = වාක්‍ය දායක කරන්න
@@ -13,6 +9,9 @@ login-to-get-started = ආරම්භ කිරීම සඳහා පුරන
 target-segment-first-card = ඔබ අපගේ පළමු ඉලක්ක කොටසට දායක වේ
 target-segment-add-voice = ඔබේ කටහඩ එක් කරන්න
 target-segment-learn-more = තවත් දැනගන්න
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -54,4 +53,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

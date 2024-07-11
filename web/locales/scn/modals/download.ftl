@@ -7,4 +7,3 @@ download-form-email =
     .value = Grazzi, ni mittiremu 'n cuntattu
 download-back = Torna ê dati Common Voice
 download-no = No, grazzi
-

@@ -33,7 +33,6 @@ review-rerecord = Ghi lại
 review-cancel = Hủy gửi
 review-keep-recordings = Giữ bản ghi âm
 review-delete-recordings = Xóa bản ghi âm của tôi
-
 review-terms = Bằng việc sử dụng Common Voice, bạn đồng ý với <termsLink>Điều khoản</termsLink> và <privacyLink>Thông báo bảo mật</privacyLink> của chúng tôi
 terms-agree = Tôi đồng ý
 terms-disagree = Tôi không đồng ý

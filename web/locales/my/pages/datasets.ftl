@@ -33,10 +33,7 @@ more = ပို၍
 close = ပိတ်
 download = ဒေါင်းလုပ်
 dataset-version = ဗားရှင်း
-
 data-download-singleword-title = တစ်ခုတည်းသော စကားလုံး ပစ်မှတ် အပိုင်း ကို Download လုပ်ပါ။
-## Data
-
 data-download-button = Common Voice ၏ အချက်အလက် ဒေါင်းလုပ် လုပ်ရန်
 data-download-yes = ဟုတ်
 data-download-deny = မဟုတ်

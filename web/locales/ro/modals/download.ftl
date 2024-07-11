@@ -7,4 +7,3 @@ download-form-email =
     .value = Îți mulțumim, vom ține legătura.
 download-back = Întoarce-te la seturile de date Common Voice
 download-no = Nu, mulțumesc
-

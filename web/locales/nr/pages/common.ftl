@@ -203,7 +203,6 @@ share-text =
 link-copied = Ikopa ilink
 back-top = Buyela phezulu
 logout = Phuma
-
 stayintouch = Thina eMozilla sakha umphakathi wetheknoloji yamaphimbo. Singathabela ukuhlala sinokwaziswa kwamva, ukwaziswa kweensetjenziswa nokuzwa bona ukusebenzisa njani ukwaziswokhu.
 privacy-info = Sithembisa ukugcina imininingwana yakho iyifihlo. Funda okwengeziweko ngesaZiso sethu sezinto eziyiFihlo <privacyLink>Nemigomo</privacyLink>.
 return-to-cv = Buyela kuCommon Voice
@@ -219,7 +218,8 @@ email-opt-in-info-sub-with-challenge =
 email-opt-in-privacy-v2 = Ngokuthi ukhethe ukufaka ama-emails kutjho ukuthi uyavuma bona iMozilla izokusebenza ngokwaziswokho ngendlela esele ihlathululwe kuMozilla’s Privacy Policy<privacyLink>Privacy Policy</privacyLink>.
 indicates-required = Iindawana ezitshwaywe nge (*) ziyatlhogeka.
 not-available-abbreviation = N/A
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Khetha ilimi/Ilimi lendabuko

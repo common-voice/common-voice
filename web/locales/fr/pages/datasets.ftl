@@ -75,11 +75,8 @@ dataset-donate-modal-heading = Le saviez-vous ?
 donate-modal-explanation-1 = Nous dépensons près d’un million de dollars chaque année pour héberger les jeux de données et améliorer la plateforme pour les plus de 100 communautés linguistiques qui font confiance à notre travail.
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Si les données ouvertes et inclusives sont importantes à vos yeux, faites un don !</bold>
-
 data-download-singleword-title = Téléchargez le segment cible de mot unique
 data-download-singleword-callout-v2 = Il s’agit d’un segment basé sur des cas d’utilisation contenant des données pour la reconnaissance vocale des chiffres et la détection oui/non.
-## Data
-
 data-download-button = Télécharger les données Common Voice
 data-download-yes = Oui
 data-download-deny = Non

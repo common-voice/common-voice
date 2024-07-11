@@ -7,4 +7,3 @@ keep-info = Kiñ yoñ i ñodlana ñgijôy i gakida i mayaa ma makiñ ma Com
 remove-info = Di gasie njômbi yoñ inyu ikolbaha ni isas miñodlana ñwoñ mi makiñ ikédé liyaa. Ibale njômbi yoñ i nneebana, di gabas ibet ba ba ñkedek liyaa li ni bat bo le ba sas kiñ yoñ nyoo i boni.
 why-delete-recordings = Makiñ ma Common Voice ma mbôñlana i ka i ndoñol-yi, likek minkus mintidigi, ni ibet ba gwéé nduña i hôlôs makeñge ma lisolol to linigle makiñ, inyu ihôlôs ni ibulus minje mi makiñ mi yé sadaga,  kiki bo ndémbél i makiñ.
 profile-form-delete = Sas Liyimbne
-

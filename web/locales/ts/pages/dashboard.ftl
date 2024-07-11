@@ -114,4 +114,3 @@ validations =
         [one] Ku tiyisisiwa
        *[other] Switiyisiso
     }
-

@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Bạn có thể cho chúng tôi biết lý do tại sao bạn muốn xóa bản ghi của mình không?
 profile-form-delete = Xóa hồ sơ
-

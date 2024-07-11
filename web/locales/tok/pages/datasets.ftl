@@ -68,11 +68,8 @@ donate-modal-message = sina kama jo e sona!
 dataset-donate-modal-heading = sina sona ala sona...
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>sona open kulupu li pona tawa sina la o pana e mani!</bold>
-
 data-download-singleword-title = o kama jo e kalama pi nimi wan taso
 data-download-singleword-callout-v2 = nasin ni en kulupu sona ni li sona e nimi nanpa tan kalama toki sina. wile sona la, ona li sona e nimi ijo, e nimi ijo ala.
-## Data
-
 data-download-button = o kama jo e sona pi ilo Common Voice
 data-download-yes = wile
 data-download-deny = ala

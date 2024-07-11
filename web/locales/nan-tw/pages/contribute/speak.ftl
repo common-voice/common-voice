@@ -33,7 +33,6 @@ review-rerecord = 重新錄音
 review-cancel = 取消送出
 review-keep-recordings = 保留錄音
 review-delete-recordings = 刪除我的錄音
-
 review-terms = 使用 Common Voice，就代表您同意我們的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我不同意

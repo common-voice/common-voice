@@ -49,4 +49,3 @@ skip-submission-description = Lokacin mika gudumawar ra'ayi za'a tsallake shi ba
 skip-submission-note = Bayanin kula: Zaka so ka yi zaɓi tsakanin Magana ko Saurara domin chanza irin gudumawa.
 off = Kashe
 on = Kunna
-

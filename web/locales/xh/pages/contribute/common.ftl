@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Cofa
 action-tap = Cofa
-## Languages
-
-contribute = Yenza igalelo
+contribute = Yiba nogalelo
 skip = Tsiba
 shortcuts = Iindlela ezimfutshane
 clips-with-count-pluralized =
@@ -33,6 +29,9 @@ target-segment-generic-card = Unogalelo kwicandelo ekujoliswe kulo
 target-segment-first-banner = Nceda wenze icandelo lokuqala ekujoliswe kulo leCommon Voice kwi { $locale }
 target-segment-add-voice = Yangeza ilwizi lakho
 target-segment-learn-more = Funda ngakumbi
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -143,4 +142,3 @@ contribution-just-unsure-title = Awuqinisekanga Nje?
 contribution-just-unsure-description = Ukuba ufumana into engaqukwanga kwezi zikhokelo, nceda uvote ngokwesigqibo sakho. Ukuba ngenene awukwazi ukwenza isigqibo, sebenzisa iqhosha lokutsiba kwaye uye kushicilelo olulandelayo.
 see-more = <chevron></chevron>Bona okuninzi
 see-less = <chevron></chevron> Bona okuncinci
-

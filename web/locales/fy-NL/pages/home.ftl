@@ -86,4 +86,3 @@ help-contribute = Jo kinne in ferskate, iepen boarne gegevensset helpe bouwe tro
 login-company = Oanmelde / ynskriuwe mei { $company }-e-mailadres
 profile-not-required = In profyl is net nedich om by te dragen, mar it kin wol nuttich wêze
 read-more-about = Mear ynfo op ús side Oer
-

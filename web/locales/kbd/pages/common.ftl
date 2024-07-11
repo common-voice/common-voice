@@ -185,7 +185,6 @@ share-text =
 link-copied = Линк копи
 back-top = и щхьэм
 logout = ИкI
-
 stayintouch = Дэ, Mozilla-м, макъ и Iэмэ-псымэ зыужь гуп щыдоухуэ. Дыхует, нэхъыбэ къэтщIэну, и хъыбархэм дыкIэлъыплъыну, мы щIэу къежьэ макъ Iэмэ-псымэ щхьэпэ зэрыфхуэхъу.
 privacy-info = Фыкъыдогъэгугъуэ фи т1асхъэм дыхуэсакъу дгъэпсэуалъэну. Нэхъ кууэ ди <privacyLink>т1асхъэхъумэ политикэм </privacyLink>итщ
 return-to-cv = Common Voice-м гъазэж
@@ -199,4 +198,6 @@ email-opt-in-info-sub-with-challenge = Имейл къегъэх, гугъухь
 email-opt-in-privacy-v2 = Тхыгъэхэр къыф1эрыхьэну арэзыныгъэ тевдзамэ, Mozilla фи т1асхъэм ягъэпсэуалъэну ди <privacyLink>т1асхъэхъумэ политикэ </privacyLink> Mozilla хуэфащэу.
 indicates-required = * Хуе губгъуэр гъэунэху
 not-available-abbreviation = Хэмыт
+
+## Donate banner
 

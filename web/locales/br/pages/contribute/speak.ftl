@@ -33,7 +33,6 @@ review-rerecord = Enrollañ en-dro
 review-cancel = Nullañ ar gasadenn
 review-keep-recordings = Mirout an enrolladennoù
 review-delete-recordings = Dilemel ma enrolladennoù
-
 review-terms = En ur implijout Common Voice e savit a-du gant hon <termsLink>zermenoù</termsLink> hag hon <privacyLink>evezhiadennoù a-fet buhez prevez</privacyLink>
 terms-agree = Sevel a ran a-du
 terms-disagree = Ne savan ket a-du

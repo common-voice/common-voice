@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Ngarkoni kartelë figure
 browse-file = Merreni dhe vëreni ose <browseWrap>Shfletoni</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Kartela e përzgjedhur është shumë e madhe
 avatar-uploaded = Avatari u ngarkua
 max-file-size = Maksimumi { $kb }kb
 remove-avatar = Hiqe Avatarin
-

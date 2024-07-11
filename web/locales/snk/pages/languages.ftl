@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = Demandi
 get-involved-button = An xan kahi o yi

@@ -33,7 +33,6 @@ review-rerecord = Endurtaka upptöku
 review-cancel = Hætta við að senda inn
 review-keep-recordings = Geyma upptökur
 review-delete-recordings = Eyða upptökum
-
 review-terms = Með notkun Samróms samþykkir þú <termsLink>skilmála</termsLink> og <privacyLink>persónuverndarstefnu</privacyLink> verkefnisins
 terms-agree = Ég samþykki
 terms-disagree = Ég samþykki ekki

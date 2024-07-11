@@ -1,3 +1,5 @@
+## WRITE PAGE
+
 write = لکو
 # WRITE PAGE
 write-instruction = شامل ڪريو <icon></icon> عوامي ڊومين جو جملو

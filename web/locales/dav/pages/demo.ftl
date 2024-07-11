@@ -33,4 +33,3 @@ demo-listen-subtitle = Kwalighisa kuzoya kuchanga?
 
 demo-dashboard-card-header = Dashibodi yako niyo ikubonyeriagha maendeleo ghako okumoni na gha w'azima w'a ughu w'ungara.
 demo-dashboard-card-body = Kwa kula klipu cha lwaka kwachanga, na kula klipu kwasikiria kukahakikisha, akaunti yako ibonyeriagha agho maendelio kwa dashibodi kwa kula kiteto kwachichangia. Hee, kwadima kuchanga kwa viteto zaidi ya chimweri!<br/><br/> Tumia dashibodi kuw'ika mtalo ghwako, zighana seji kwaw'iaendelia anduamweri na w'ambenyu w'ungarenyi, na kudunge chaghu chako chemeria ituku kwa ituku angu cha juma ndazi.
-

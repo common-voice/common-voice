@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = योगदान करू
 get-involved-button = सामिल होउ

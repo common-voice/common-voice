@@ -44,9 +44,6 @@ more = Iktar
 close = Agħlaq
 download = Niżżel
 dataset-version = Verżjoni
-
-## Data
-
 data-download-button = Niżżel id-data tal-Common Voice
 data-download-yes = Iva
 data-download-deny = Le

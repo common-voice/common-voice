@@ -111,4 +111,3 @@ validations =
         [one] Ваннома
        *[other] Ванномат
     }
-

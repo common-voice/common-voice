@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Sciacca
 action-tap = Sciacca
-## Languages
-
 contribute = Contribuisci
 review = Verifica
 skip = Passa
@@ -145,4 +141,3 @@ contribution-just-unsure-title = No t’ê seguo?
 contribution-just-unsure-description = Se ti treuvi quarcösa de no trattou inte ste instruçioin, addeuvia o sæximo. Se no t’arriësci à deçidde, ti peu addeuviâ o pommello Passa pe anâ a-a registraçion apreuvo.
 see-more = <chevron></chevron> Ammia de ciù
 see-less = <chevron></chevron>Ammia ciù pöco
-

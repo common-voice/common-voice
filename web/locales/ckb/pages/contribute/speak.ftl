@@ -33,7 +33,6 @@ review-rerecord = دووبارە تۆمارکردنەوە
 review-cancel = ناردن هەڵبوەشێنەوە
 review-keep-recordings = دەنگەکان ڕاگرە
 review-delete-recordings = دەنگەکانی من بسڕەوە
-
 review-terms = بە بەکارهێنانی دەنگی گشتی، تۆ ڕەزامەندی بە <termsLink>یاساکان</termsLink> و <privacyLink>نهێنی پارێزی</privacyLink> ئێمە.
 terms-agree = ڕازیم
 terms-disagree = ڕازی نیم

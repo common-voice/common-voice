@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Prema
 action-tap = Toque
-## Languages
-
-contribute = Colaborar
+contribute = Colabore
 review = Revise
 skip = Salte
 shortcuts = Atallos
@@ -151,4 +147,3 @@ contribution-just-unsure-title = Ten dúbidas?
 contribution-just-unsure-description = Se atopa algo que non se trata nesta pequena guía, vote segundo o seu criterio. Se realmente non pode decidirse, use o botón de saltar e pase á seguinte gravación.
 see-more = <chevron></chevron>Ver máis
 see-less = <chevron></chevron>Ver menos
-

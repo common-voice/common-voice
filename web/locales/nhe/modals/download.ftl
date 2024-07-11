@@ -7,4 +7,3 @@ download-form-email =
     .value = Taskamati, tikamatise
 download-back = Volver a Conjuntos de datos de Common Voice
 download-no = Ashkana Tlaskamati
-

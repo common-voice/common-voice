@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = ຄິກ
 action-tap = ແຕະ
-## Languages
-
 contribute = ສະໜັບສະໜູນ
 review = ທົບທວນ
 skip = ຂ້າມ
@@ -147,4 +143,3 @@ contribution-just-unsure-title = ພຽງແຕ່ບໍ່ແນ່ໃຈ?
 contribution-just-unsure-description = ຖ້າທ່ານພົບບາງສິ່ງບາງຢ່າງທີ່ຄໍາແນະນໍາເຫຼົ່ານີ້ບໍ່ໄດ້ກວມເອົາ, ກະລຸນາລົງຄະແນນສຽງຕາມການຕັດສິນທີ່ດີທີ່ສຸດຂອງທ່ານ. ຖ້າເຈົ້າບໍ່ສາມາດຕັດສິນໃຈໄດ້ແທ້ໆ, ໃຫ້ໃຊ້ປຸ່ມຂ້າມ ແລະໄປບັນທຶກຕໍ່ໄປ.
 see-more = <chevron></chevron>ເບິ່ງເພີ່ມເຕີມ
 see-less = <chevron></chevron>ເບິ່ງໜ້ອຍລົງ
-

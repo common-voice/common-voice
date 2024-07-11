@@ -48,12 +48,6 @@ more = Daplü
 close = Serra
 download = S-chargiar
 dataset-version = Versiun
-
-## Error pages
-
-
-## Data
-
 data-download-button = S-chargiar la collecziun da datas da Common Voice
 data-download-yes = Schi
 data-download-deny = Na

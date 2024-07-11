@@ -7,4 +7,3 @@ download-form-email =
     .value = ຂອບໃຈ, ພວກເຮົາຈະຕິດຕໍ່ກັບ.
 download-back = ກັບໄປທີ່ຊຸດຂໍ້ມູນ Common Voice
 download-no = ບໍ່, ຂອບໃຈ
-

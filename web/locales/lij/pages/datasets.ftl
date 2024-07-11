@@ -62,11 +62,8 @@ dataset-version = Verscion
 sha256-checksum-copied = Checksum SHA256 stæto copiou!
 sha256-checksum-copied-error = No emmo posciuo copiâ o checksum SHA256
 clipboard-not-supported = Apponti no supportæ
-
 data-download-singleword-title = Descarrega o segmento particolâ co-e poule scingole
 data-download-singleword-callout-v2 = Sto segmento o l’é basou in sce un caxo d’utilizzaçion particolâ e o l’à di dæti pe amegioâ o reconoscimento vocale de giffre e o reconoscimento de scì/na.
-## Data
-
 data-download-button = Descarrega i dæti de Common Voice
 data-download-yes = Scì
 data-download-deny = Na

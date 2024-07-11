@@ -51,4 +51,3 @@ skip-submission-description = El envío de comentarios se desactivará al hacer 
 skip-submission-note = Nota: Deberás seleccionar entre Hablar o Escuchar para cambiar el tipo de colaboración.
 off = Desactivado
 on = Activado
-

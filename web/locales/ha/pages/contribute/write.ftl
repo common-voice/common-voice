@@ -1,1 +1,5 @@
-    .label = Adreshin yanar gizo
+## WRITE PAGE
+
+
+## BULK SUBMISSION 
+

@@ -50,4 +50,3 @@ skip-submission-note = Catatan: Anda tetap harus memilih antara Bicara atau Deng
 off = Nonaktif
 on = Aktif
 help-accent-explanation = Aksen Anda adalah cara Anda mengucapkan kata-kata. Hal ini dapat dibentuk oleh tempat tinggal Anda, bahasa lain yang Anda gunakan dan banyak faktor lainnya. Anda dapat berbagi informasi apa pun yang Anda rasa relevan di sini.
-

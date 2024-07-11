@@ -1,6 +1,6 @@
-write = 쓰기
 ## WRITE PAGE
 
+write = 쓰기
 write-page-subtitle = 여기에 제공된 문장은 공개적으로 사용 가능한 cc-0 라이선스 데이터 세트에 추가됩니다.
 sentence =
     .label = 문장
@@ -24,4 +24,3 @@ required-field = 이 항목을 입력해 주세요.
 ## BULK SUBMISSION 
 
 select-file = 파일 선택
-

@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = އޮބާ
 action-tap = އޮބާލާ
-## Languages
-
 contribute = ހުށަހަޅާ
 skip = ދޫކޮށްލާ
 shortcuts = ކުރުމަގު
@@ -16,6 +12,12 @@ contribute-more =
     }
 record-button-label = އަޑު ރިކޯރޑުކުރޭ
 share-title-new = އިތުރު މީހުންގެ އަޑު ހޯދުމަށް <bold>އެހީވެދީ</bold>
+
+## Contribution Nav Items
+
+
+## Reporting
+
 
 ## Speak & Listen Shortcuts
 
@@ -45,4 +47,6 @@ shortcut-vote-yes = އ
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = ނ
+
+## Validation criteria
 

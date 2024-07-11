@@ -11,9 +11,7 @@ language-search-input =
 language-speakers = Сёрнитысьяс
 localized = Локализируйтӧма
 sentences = Сёрникузяяс
-## Languages
-
-contribute = Отсавны
+contribute = Пырӧдчыны
 get-involved-button = Пырӧдчыны
 get-involved-title = Отсавны { $lang }кӧд
 get-involved-text = Аттьӧ Тіян отсавны кӧсйӧмысь { $lang }кӧд. Ми ёна уджалам, медым дасьтыны быд кыв лэдзӧм кежлӧ да кутам йитӧдъяс электрон пошта пыр. Збыль кӧ кӧсъянныд отсавны, индӧй ассьыныд поштанытӧ.

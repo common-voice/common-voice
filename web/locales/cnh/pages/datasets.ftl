@@ -46,9 +46,6 @@ more = Tamdeuh
 close = Khar
 download = Download
 dataset-version = A phun
-
-## Data
-
 data-download-button = Common Voice Data Dawnlok
 data-download-yes = Dawnlok Ko
 data-download-deny = Dawnlok Hlah

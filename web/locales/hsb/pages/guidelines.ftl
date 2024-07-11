@@ -61,4 +61,3 @@ reviewing-sentences-explanation-1 = Jeli sada kriterijam horjeka wotpowěduje, k
 reviewing-sentences-explanation-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Ně“.
 reviewing-sentences-explanation-4 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
 domain-explanation = Tema so na temu sady poćahuje. Tuchwilu móžeće wubrać mjez:
-

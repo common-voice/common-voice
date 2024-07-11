@@ -1,1 +1,2 @@
-    .label = Ninza kwija kutayaya.
+## Request Language Pages
+

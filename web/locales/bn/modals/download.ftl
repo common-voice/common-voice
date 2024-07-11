@@ -7,4 +7,3 @@ download-form-email =
     .value = ধন্যবাদ, আমরা আপনার সাথে যোগাযোগ করবো।
 download-back = Common Voice ডাটাসেটে ফেরত যান
 download-no = দরকার নেই
-

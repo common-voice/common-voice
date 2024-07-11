@@ -98,4 +98,3 @@ validations =
     { $count ->
        *[other] Tesdîqî
     }
-

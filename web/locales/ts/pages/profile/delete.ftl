@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Xana u nga hi tivisaxivangelo xo lava leswaku swi rhekhodo swa wena swi susiwa?
 profile-form-delete = Susa Profayile
-

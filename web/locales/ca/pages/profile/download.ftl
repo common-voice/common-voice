@@ -28,4 +28,3 @@ download-request-modal-description = Aquí teniu els enllaços per a baixar els 
 download-request-link-text = ZIP núm. { $offset } de { $total }
 download-request-metadata-link = Text de la frase
 download-request-link-single = També podeu copiar i enganxar els URL directament al vostre gestor de baixades preferit. Els enllaços caducaran en 12 hores, però podeu tornar a aquesta pàgina per a generar-ne de nous en qualsevol moment.
-

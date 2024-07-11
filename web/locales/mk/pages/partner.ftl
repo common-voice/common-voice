@@ -1,5 +1,3 @@
-# [/SentenceCollector]
-
 # PARTNERSHIPS PAGE
 partnerships-header = Партнерства
 partnerships-get-in-touch = Стапете во контакт

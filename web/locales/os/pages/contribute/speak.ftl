@@ -33,7 +33,6 @@ review-rerecord = Ногæй ныффысс
 review-cancel = Аив ӕрвыст
 review-keep-recordings = Мӕ ныффыстытӕ бафснай
 review-delete-recordings = Сыхал мӕ ныффыстытӕ
-
 review-terms = Common Voice-ӕй пайда кӕнгӕйӕ, ды разы кӕныс нӕ <termsLink> Пайда кӕныны бадзырдимӕ</termsLink> ӕмӕ </privacyLink> Хъусынгӕнинаг конфиденциалондзинады тыххӕй</privacyLink>
 terms-agree = Æз разы кæнын
 terms-disagree = Æз нæ разы кæнын

@@ -17,9 +17,6 @@ localized = 已被本地化
 sentences = 句子
 language-validation-hours = 個鐘
 language-validation-progress = 驗證進度
-
-## Languages
-
 contribute = 貢獻
 get-involved-button = 參與
 get-involved-title = 貢獻到{ $lang }

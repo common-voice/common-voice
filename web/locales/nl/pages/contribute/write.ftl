@@ -1,6 +1,6 @@
-write = Schrijven
 ## WRITE PAGE
 
+write = Schrijven
 write-instruction = Een <icon></icon> zin uit het publieke domein toevoegen
 write-page-subtitle = Zinnen die hier zijn bijgedragen worden toegevoegd aan een openbaar beschikbare cc-0 gelicenseerde dataset.
 sentence =
@@ -93,4 +93,3 @@ file-invalid-type = Ongeldig bestand
 file-too-large = Bestand is te groot
 file-too-small = Bestand is te klein
 too-many-files = Te veel bestanden
-

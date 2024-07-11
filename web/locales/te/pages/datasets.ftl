@@ -46,9 +46,6 @@ dataset-version = వెర్షను
 sha256-checksum-copied = SHA256 చెక్‌సమ్ కాపీ చేయబడింది!
 sha256-checksum-copied-error = SHA256 చెక్‌సమ్‌ని కాపీ చేయడంలో విఫలమైంది
 clipboard-not-supported = క్లిప్‌బోర్డ్‌కు మద్దతు లేదు
-
-## Data
-
 data-download-button = కామన్ వాయిస్ డేటాను దింపుకోండి
 data-download-yes = అవును
 data-download-deny = కాదు

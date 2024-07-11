@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Ar resimişi dosya kogedvit
 browse-file = Dolotiri do dolodvi var na mendatzk̆edi
@@ -8,4 +8,3 @@ file_too_large = Goşatsxuneri dosya opşa didi ren
 avatar-uploaded = Avatari keiğu
 max-file-size = { $kb }kb max
 remove-avatar = Avatari moseli
-

@@ -1,1 +1,2 @@
-    .label = Emaili
+## Request Language Pages
+

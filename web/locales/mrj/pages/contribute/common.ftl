@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Темдäл
 action-tap = Темдӓл
-## Languages
-
 contribute = Вкладым ӹштӓш
 skip = Коден кеӓш
 shortcuts = Ярлыквлӓ
@@ -31,6 +27,9 @@ target-segment-generic-card = Целевой лаштыкыш ӹшке вкла�
 target-segment-first-banner = Common Voice-ын икӹмшӹ целевой лаштыкым тӹштӹ ӹштӓш палшы: { $locale }
 target-segment-add-voice = Ӹшке юкетӹм уштары
 target-segment-learn-more = Шукырак тыменяш
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -85,9 +84,6 @@ shortcut-vote-yes = т
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = у
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = Критери
@@ -126,4 +122,3 @@ contribution-reader-effects-title = Лыдмаш эффектвлӓ
 contribution-just-unsure-title = Лачок кок семӹнь шанет?
 see-more = <chevron></chevron>Шукырак ужаш
 see-less = <chevron></chevron>Чӹдӹрäк ужаш
-

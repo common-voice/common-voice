@@ -235,7 +235,6 @@ link-copied = Dolen wedi'i chopïo
 back-top = Nôl i'r Brig
 logout = Allgofnodi
 donate = Cyfrannu
-
 stayintouch = Rydym ni ym Mozilla'n adeiladu cymuned o amgylch technoleg llais. Hoffwn gadw mewn cysylltiad gyda diweddariadau, ffynonellau data newydd ac i glywed rhagor am sut rydych yn defnyddio'r data yma.
 privacy-info = Rydym yn addo trin eich manylion yn ofalus. Darllenwch ragor am ein <privacyLink>Hysbysiad Preifatrwydd</privacyLink>.
 return-to-cv = Dychwelyd i Common Voice
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = Derbyn e-byst sy'n cynnwys atgoffwr her a
 email-opt-in-privacy-v2 = Drwy ddewis derbyn e-byst rydych yn datgan eich bod yn fodlon gyda Mozilla'n trin y manylion hyn fel sy'n cael ei esbonio ym <privacyLink>Mholisi Preifatrwydd<privacyLink> Mozilla.
 indicates-required = Mae * yn dynodi maes angenrheidiol
 not-available-abbreviation = Dim Ar Gael
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = Mae’n costio bron i filiwn o ddoleri’r flwyd
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Yn defnyddio CV ar gyfer</mark><br/><mark>eich ymchwil?</mark>
 languages-donate-banner-cta-explanation = Mae Common Voice yn cael ei ariannu gan roddion a grantiau! Rydym wrth ein bodd yn cydweithio ag academyddion, y gymdeithas sifil ac ymchwilwyr diwydiant. Mae Common Voice yn rhad ac am ddim i'w ddefnyddio, ond mae cyfrannu at gostau llwyfan a lletya trwy gynigion grant yn beth defnyddiol iawn.
-# [/SentenceCollector]
-
 localization-select =
     .label = Dewiswch iaith

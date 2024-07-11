@@ -64,4 +64,3 @@ welcome-staff = karibuu { $company } bikk cheyoe boishet!
 login-company = logen in anan isirgei eng  { $company }emailit
 profile-not-required = mamagat itinye profilingung asiyumse angot ndo much koba toretet,keer amune eng yuu ngweny
 read-more-about = soman chechang agoba achek eng pagit nenyo
-

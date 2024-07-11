@@ -7,7 +7,4 @@ request-language-success-title = ᱯᱟᱹᱨᱥᱤ ᱱᱮᱦᱚᱨ ᱨᱟᱹᱥ
 request-language-success-content = Common Voice ᱨᱮ ᱯᱟᱹᱨᱥᱤ ᱪᱮᱞᱠᱟ ᱠᱚ ᱥᱮᱞᱮᱫᱼᱟ ᱚᱱᱟ ᱵᱟᱵᱚᱛ ᱟᱞᱮ ᱟᱨᱦᱚᱸ ᱵᱤᱵᱨᱚᱬ ᱞᱚᱜᱚᱱ ᱜᱮ ᱞᱮ ᱞᱟᱹᱭ ᱟ ᱾
 select-language = ᱢᱤᱫᱴᱟᱝ ᱯᱟᱹᱨᱥᱤ ᱵᱟᱪᱷᱟᱣ ᱢᱮ...
 other-language = ᱮᱴᱟᱜᱟ ᱯᱟᱹᱨᱥᱤ
-
-## General
-
 yes-receive-emails = ᱦᱚᱭ, ᱤᱢᱮᱞ ᱠᱩᱞᱟᱹᱧ ᱢᱮ ᱾ Common Voice ᱯᱟᱱᱛᱷᱟ ᱵᱟᱵᱚᱛ ᱵᱟᱰᱟᱭ ᱮᱢ ᱥᱟᱹᱱᱟᱹᱧ ᱟ ᱦᱟᱸᱜ ᱾

@@ -1,6 +1,6 @@
-write = Pisać
 ## WRITE PAGE
 
+write = Pisać
 write-instruction = Přidajće <icon></icon> zjawnje wužiwajomnu sadu
 write-page-subtitle = Sady, kotrež so tu přinošuja, so zjawnje přistupnej datowej sadźbje z licencu cc-0 přidawaja.
 sentence =
@@ -86,4 +86,3 @@ file-invalid-type = Njepłaćiwa dataja
 file-too-large = Dataja je přewulka
 file-too-small = Dataja je přemała
 too-many-files = Přewjele datajow
-

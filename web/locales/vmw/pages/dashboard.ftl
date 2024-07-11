@@ -93,4 +93,3 @@ validations =
         [one] Iwaakhulela emosa
        *[other] Iwaakhulela
     }
-

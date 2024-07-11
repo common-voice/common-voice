@@ -98,3 +98,5 @@ about-playbook-how-validate-content-4 = Si una registratzione est refudada dae 2
 
 about-playbook-how-project-governance-content-3 = Riservadesa, seguresa e trasparèntzia.
 
+## How is Common Voice funded
+

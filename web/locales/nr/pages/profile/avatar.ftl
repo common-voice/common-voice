@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Faka isithombe
 browse-file =
@@ -10,4 +10,3 @@ file_too_large = Ifayela elikhethiweko likhulu
 avatar-uploaded = I-Aveyitha ifakiwe
 max-file-size = { $kb }kb siling.
 remove-avatar = Susa
-

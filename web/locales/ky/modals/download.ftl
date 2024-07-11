@@ -7,4 +7,3 @@ download-form-email =
     .value = Рахмат, биз байланышта болобуз.
 download-back = Common Voice берилиштерине кайтуу
 download-no = Жок, Рахмат
-

@@ -7,4 +7,3 @@ download-form-email =
     .value = ᱥᱟᱦᱨᱟᱣ ᱜᱮ, ᱟᱞᱮ ᱡᱩᱲᱟᱹᱣ ᱛᱟᱦᱮᱱ ᱟᱞᱮ ᱾
 download-back = Common Voice ᱰᱟᱴᱟ ᱥᱮᱫ ᱨᱩᱣᱟᱹᱲ ᱢᱮ
 download-no = ᱡᱟᱦᱱᱟᱜ ᱥᱟᱨᱦᱟᱣ ᱵᱟᱝᱟ
-

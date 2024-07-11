@@ -153,18 +153,16 @@ content-license-text = Контент <licenseLink>Creative Commons</licenseLink
 link-copied = Силтеме көширип алынды
 back-top = Жоқарыға
 logout = Шығыў
-
 return-to-cv = Common Voice ға қайтыў
 email-input =
     .label = Эл.почта
 submit-form-action = Жибериў
 loading = Жүкленбекте...
 not-available-abbreviation = Жоқ
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Бизге, сизиң</mark><br/><mark>жәрдемиңиз керек!</mark>
-# [/SentenceCollector]
-
 localization-select =
     .label = Тил/Локализацияны таңлаң

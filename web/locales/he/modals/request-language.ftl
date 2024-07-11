@@ -7,7 +7,4 @@ request-language-success-title = בקשת השפה הוגשה בהצלחה, תו
 request-language-success-content = נהיה בקשר כשיהיו פרטים נוספים כיצד להוסיף את השפה שלך ל־Common Voice בקרוב.
 select-language = בחירת שפה…
 other-language = שפה אחרת
-
-## General
-
 yes-receive-emails = כן, שלחו לי דואל. אני רוצה עדכונים אודות מיזם Common Voice.

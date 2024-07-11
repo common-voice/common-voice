@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Додајте слику
 browse-file = Превуци и пусти или <browseWrap>Прегледај</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Одабрана датотека је превелика
 avatar-uploaded = Аватар је отпремљен
 max-file-size = Максимално { $kb } KB
 remove-avatar = Уклони аватар
-

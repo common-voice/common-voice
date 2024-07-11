@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = ስእሊ ኣደይብ
 browse-file = ስሒብካ ድርብዮ ወይ <browseWrap> ፈትሽ</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = እዚ መሪጽካዮ ዘሎኻ ፋይል ኣዝዩ ዓቢ እ
 avatar-uploaded = ምስሊ ኣደይብ
 max-file-size = እንተዓበየ { $kb } ኪሎ ጥራይ
 remove-avatar = ኣቫታር እለ
-

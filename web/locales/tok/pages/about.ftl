@@ -135,4 +135,3 @@ about-playbook-how-project-governance-content-7 = <governanceLink>o lukin e sona
 ## How is Common Voice funded
 
 about-playbook-how-funded = nasin seme la ilo Common Voice li kama jo e mani?
-

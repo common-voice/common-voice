@@ -14,4 +14,3 @@ request-language-google-recaptcha-required = Ji bo berdewamkirinê reCAPTCHA hew
 request-language-google-recaptcha-error = Kêşeyek têkildarî reCAPTCHA'ê derket. Ji kerema xwe re dîsa biceribîne.
 # Success page
 request-language-success-heading = Spas! Te ji bo zimanekî nû daxwaznameyek şand
-

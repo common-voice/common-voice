@@ -219,7 +219,6 @@ share-text = 請到 { $link } 來提供你的聲音，來幫贊阮教機器，�
 link-copied = 共連結複製好勢囉
 back-top = 轉去面頂
 logout = 登出
-
 stayintouch = 阮 Mozilla 的共伴，當咧起造一个佮話音技術有關的社群。阮想欲隨時綴著新的技術、新的資料源頭，嘛想欲知影你會按怎來使用遮的資料。
 privacy-info = 阮保證會細膩處理你的資料。另外，嘛會當看阮的<privacyLink>隱私權公告</privacyLink>。
 return-to-cv = 返去 Common Voice
@@ -233,7 +232,8 @@ email-opt-in-info-sub-with-challenge = 來定電子批，比論講挑戰、目�
 email-opt-in-privacy-v2 = 若欲收電子批，就表示你同意 Mozilla 照<privacyLink>隱私權保護政策</privacyLink>所說明的方式來處理遮的資訊。
 indicates-required = * 表示彼个欄位必須愛寫
 not-available-abbreviation = 無適用
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = 選擇語言 / 語系

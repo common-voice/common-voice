@@ -235,7 +235,6 @@ link-copied = Đã sao chép liên kết
 back-top = Trở về đầu trang
 logout = Đăng xuất
 donate = Quyên góp
-
 stayintouch = Mozilla chúng tôi đang xây dựng một cộng đồng xoay quanh công nghệ giọng nói. Chúng tôi muốn giữ liên hệ với các cập nhật, các nguồn dữ liệu mới và biết thêm về cách bạn sử dụng dữ liệu này.
 privacy-info = Chúng tôi cam kết sẽ xử lý thông tin của bạn một cách cẩn thận. Tìm hiểu thêm ở <privacyLink>Thông Báo Bảo Mật</privacyLink> của chúng tôi.
 return-to-cv = Trở về Common Voice
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = Nhận email như lời nhắc cho thử 
 email-opt-in-privacy-v2 = Bằng cách chọn nhận email, bạn tuyên bố rằng bạn đồng ý với việc Mozilla xử lý thông tin này như được giải thích trong <privacyLink>chính sách bảo mật</privacyLink> của Mozilla.
 indicates-required = * Trường được yêu cầu
 not-available-abbreviation = N/A
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = Chi phí gần một triệu đô la mỗi năm 
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Sử dụng CV</mark><br/><mark>cho nghiên cứu của bạn?</mark>
 languages-donate-banner-cta-explanation = Common Voice được tài trợ bởi quyên góp và tài trợ! Chúng tôi thích hợp tác với các học giả, xã hội dân sự và các nhà nghiên cứu trong ngành. Common Voice được sử dụng miễn phí nhưng việc quyên góp vào chi phí nền tảng và lưu trữ thông qua các đề xuất tài trợ thực sự hữu ích.
-# [/SentenceCollector]
-
 localization-select =
     .label = Chọn ngôn ngữ/bản địa hóa

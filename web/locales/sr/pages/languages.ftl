@@ -14,10 +14,7 @@ language-speakers = Говорници
 localized = Локализоване
 sentences = Реченице
 language-validation-hours = Сати
-
-## Languages
-
-contribute = Допринесите
+contribute = Допринеси
 get-involved-button = Укључите се
 get-involved-title = Допринесите језику { $lang }
 get-involved-text = Хвала вам што желите да допринесете језику { $lang }. Трудимо се да припремимо сваки језик пре изласка и шаљемо новости тимовима преко е-поште. Уколико желите да допринесете, унесите вашу е-адресу испод.

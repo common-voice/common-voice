@@ -226,7 +226,6 @@ link-copied = ⵉⵏⵖⵍ ⵓⵙⵖⵏ
 back-top = ⴰⵖⵓⵍ ⵙ ⵓⴼⵍⵍⴰ
 logout = ⴼⴼⵖ
 donate = ⵜⵉⴽⴽⵉ
-
 stayintouch = ⵏⴽⴽⵏⵉ ⴳ ⵎⵓⵣⵉⵍⴰ, ⵍⴰ ⵏⵥⴽⴽⵓ ⵢⴰⵜ ⵜⴳⵔⴰⵡⵜ ⵅⴼ ⵜⴻⵜⵉⴽⵏⵓⵍⵓⵊⵉⵜ ⵜⴰⴳⵕⴹⴰⵏⵜ. ⵏⵔⴰ ⴰⴷ ⵏⴻⵏⵏⵖⵎⵙ ⵅⴼ ⵉⵙⴷⵖⵉⵜⵏ, ⵉⵙⵓⴳⴰⵎ ⵏ ⵉⵙⴼⴽⴰ ⵉⵎⴰⵢⵏⵓⵜⵏ ⴷ ⴰⴷ ⵏⵙⵙⵏ ⵓⴳⴳⴰⵔ ⵅⴼ ⵎⴰⵏⵎⴽ ⵙ ⵜⵙⵙⵎⵔⴰⵙⵎ ⵉⵙⴼⴽⴰ ⴰ.
 privacy-info = ⵏⴹⵡⵍ ⴰⵡⵏ ⴰⴷ ⵜⵜ ⵏⴰⵡⴷ ⵉ ⵉⵏⵖⵎⵉⵙⵏ ⵏⵏⵓⵏ. ⵖⵔⴰⵜ ⵓⴳⴳⴰⵔ ⴳ <privacyLink>ⵜⵎⵏⵏⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ</privacyLink> ⵏⵏⵖ.
 return-to-cv = ⴰⵖⵓⵍ ⵖⵔ ⴽⴰⵎⵏⴼⵓⵢⵙ
@@ -240,7 +239,8 @@ email-opt-in-info-sub-with-challenge = ⴰⴷ ⵜⵜⴰⵎⵥⵖ ⵉⵎⴰⵢⵍ
 email-opt-in-privacy-v2 = ⵙ ⵓⴷⵇⵇⵔ ⵏ ⵡⴰⵎⴰⵥ ⵏ ⵉⵎⴰⵢⵍⵏ, ⵍⴰ ⵜⵙⵙⵉⴽⵉⵣⵎ ⵎⴰⵙ ⵜⵎⵙⴰⵙⴰⵎ ⴰⴽⴷ ⵓⵙⵡⵓⴷⴷⵓ ⵏ ⵎⵓⵣⵉⵍⴰ ⵉ ⵉⵏⵖⵎⵉⵙⵏ ⴰⴷ ⵙ ⵎⴽⴷⴰ ⵉⵜⵜⵓⵙⵙⴼⵔⴰⵏ ⴳ <privacyLink>ⵜⵙⵔⵜⵉⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ</privacyLink> ⵏ ⵎⵓⵣⵉⵍⴰ.
 indicates-required = ⵉⴳⵔⴰⵏ ⵜⵜⵓⵕⵛⵎⵏⵉⵏ ⵙ ⵜⵉⵜⵔⵉⵜ (*) ⵇⵇⴰⵏⵏ ⴷ.
 not-available-abbreviation = ⵔ/ⵙ
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = ⴷⵖⵔ ⵜⵓⵜⵍⴰⵢⵜ/ⵜⴰⵙⵙⴷⵖⵔⵜ

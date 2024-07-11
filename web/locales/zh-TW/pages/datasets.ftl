@@ -73,11 +73,8 @@ donate-modal-message = 正在下載您的資料集！
 dataset-donate-modal-heading = 您知道嗎…
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>如果您也看重開放、富包容性的資料 - 快來捐款！</bold>
-
 data-download-singleword-title = 下載單字目標字串
 data-download-singleword-callout-v2 = 這是一個包含用來進行口述數字識別與是/否偵測的使用案例。
-## Data
-
 data-download-button = 下載 Common Voice 資料
 data-download-yes = 好
 data-download-deny = 不要

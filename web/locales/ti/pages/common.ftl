@@ -226,7 +226,6 @@ link-copied = እተቐድሐ ሊንክ
 back-top = ናብ ላዕሊ ተመለስ
 logout = መውጺኢ
 donate = ኣወፈየ
-
 stayintouch = ኣብ ሞዚላ ኣብ ከባቢ ተክኖሎጂ ድምጺ ማሕበረሰብ ንሃንጽ ኣሎና ። ምስ ምትዕርራያት ንሓድሽ ምንጭታት ሓበሬታ ከምኡውን ነዚ ሓበሬታ እዚ ብኸመይ ከም እትጥቀመሉ ዝያዳ ኽንሰምዕ ንደሊ ኢና።
 privacy-info = ሓበሬታኻ ብጥንቃቐ ኸም እንሕዞ ንመባጻዕ ። ኣብታ <privacyLink>ናይ ምስጢር ምልክታ</privacyLink> ዘሕለፋ ዝያዳ ኣንብብ።
 return-to-cv = ናብ ኮመን ቮይስ ተመለስ
@@ -240,7 +239,8 @@ email-opt-in-info-sub-with-challenge = ከም ብድሆታትን ሸቶታትን
 email-opt-in-privacy-v2 = ኢ-መይል ክትቅበል ብምምራጽካ ሞዚላ ነዚ ሓበሬታ እዚ ክትሕዞ ኣብ ናይ ሞዚላ <privacyLink>ናይ ምስጢር ፖሊሲ</privacyLink> ከምዝገለጸቶ ትሰማማዕ ኢኻ።
 indicates-required = ኣድላዪ ቦታ ይሕብር
 not-available-abbreviation = የለን
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = ቛንቛ ምረጽ

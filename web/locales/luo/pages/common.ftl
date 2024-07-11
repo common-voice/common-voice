@@ -235,7 +235,6 @@ link-copied = Weche moyudore osekopi
 back-top = Dog malo
 logout = Wuogi
 donate = Chiu
-
 stayintouch = Wan kaka Mozila wagero achiel mar oganda mar puoth kuom dwol. Wagombo bedo e tudruok kuom weche manyien, kod deche manyien kendo winjo mamoko kuom kaka itiyo gi dechego
 privacy-info = Wasingo ni wabiro rito weche moa kuomi kod ritruok.  Som mathoth koa <privacyLink>Weche ma ng'ato owuon onrgo ng'e</privacyLink>.
 return-to-cv = Dogi e Common Voice
@@ -249,7 +248,8 @@ email-opt-in-info-sub-with-challenge = Yudo barupe mag mbui kuom gik modhiero ko
 email-opt-in-privacy-v2 = Kuom yie mar yudo barup mbui, ilero ni in kod yie ni Mozila biro rito weche tudruok kaka oyangi e Mozila's<privacyLink>Mosing Maling'ling'</privacyLink>.
 indicates-required = Kuonde mokete alama mar (*) dwarore.
 not-available-abbreviation = Ok dwarre
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Yier dhok

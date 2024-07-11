@@ -47,4 +47,3 @@ on = cualtia
 help-accent = ticniqui nimitspalehuis ican acento?
 help-accent-explanation = moacento yen quemen tiquimihtoa tlahtolmeh. Uilis isqui ohcon porque campa otichanchiuh, uili titlahtoa ocsiqui tlahtol o ica ocse tlanimilil, uilis titechmactis ocsiqui tlanahuatil tlen ticmachilis techcualtias nica
 help-variants = ticniqui nimitspalehuis ican variantes?
-

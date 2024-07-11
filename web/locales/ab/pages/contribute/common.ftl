@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Ақәқшара
 action-tap = Акьысра
-## Languages
-
-contribute = Аҽалархәра
+contribute = Аҽалархәара
 skip = Абжьажьра
 shortcuts = Арыд ласқәа
 goal-help-recording = Ҳара есымшатәи ҳанҵамҭақәа аҩаӡара { $goalValue }! Common Voice ахықәкы аҟынӡа ашьҭыхраҿы, уара <goalPercentage></goalPercentage> ацхыраара ҳауҭеит.
@@ -18,6 +14,9 @@ record-button-label = Убжьы ҭаҩтәуп
 share-title-new = <bold>Уҳацхраа</bold> абыжьқәа рацәаны рыԥшаараҿы.
 keep-track-profile = Уҷыдахәра уцырхрааны упрогресс уашьклаԥшла.
 login-to-get-started = Уҭала мамзаргьы уҽҭагала алагаразы
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -69,22 +68,6 @@ shortcut-vote-yes = е
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = м
 
-## DemoLayout
-
-
-## Demo Datasets
-
-
-## Demo Account
-
-
-## Demo Contribute
-
-
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-link = Аԥҟара аилкаара
-

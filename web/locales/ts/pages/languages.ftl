@@ -15,9 +15,6 @@ localized = Ku vekiwa ka ndhawu
 sentences = Swivulwa
 language-validation-hours = Tiawara
 language-validation-progress = Nhluvuko wa ku Tiyisisa
-
-## Languages
-
 contribute = Hoxa Xandla
 get-involved-button = Hlanganyela
 get-involved-title = Hoxa xandla eka { $lang }

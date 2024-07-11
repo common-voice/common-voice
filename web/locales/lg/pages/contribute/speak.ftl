@@ -33,7 +33,6 @@ review-rerecord = Likodinga buto
 review-cancel = Sazaamu Okusindika
 review-keep-recordings = Tereka amaloboozi
 review-delete-recordings = Sangula amaloboozi gange
-
 review-terms = Bw'okozesa Common Voice, okiriza <termsLink>Enkolagana</termsLink> ne <privacyLink>Eby'ekyama</privacyLink>
 terms-agree = Nzikiriza
 terms-disagree = Si kkiriza

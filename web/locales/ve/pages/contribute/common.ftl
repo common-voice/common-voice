@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Puṱedza
 action-tap = Tap
-## Languages
-
 contribute = Shelani Mulenzhe
 skip = Fhira
 shortcuts = Shortcut
@@ -33,6 +29,9 @@ target-segment-generic-card = Ni khou shela mulenzhe kha tshipiḓa tsha tshipik
 target-segment-first-banner = Ri thuseni u ita tshipikwa tsha tshipiḓa tsha u thoma tsha Common Voice kha { $locale }
 target-segment-add-voice = Pangani ipfi ḽaṋu
 target-segment-learn-more = Gudani zwo Engedzeaho
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -143,4 +142,3 @@ contribution-just-unsure-title = A ni na vhuṱanzi naa?
 contribution-just-unsure-description = Arali na ṱangana na zwithu zwine zwi si vhe hone kha hovhu vhulivhisi, ri humbela uri ni khethe u shumisa khaṱhulo yaṋu. Arali ni sa koni u dzhia phetho, puṱedzani button ya u pfukha nahone ni fhirele kha zwo rekhodiwaho zwi tevhelaho.
 see-more = <chevron></chevron>Vhonani zwinzhi
 see-less = <chevron></chevron>Vhonani zwiṱuku
-

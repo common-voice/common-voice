@@ -21,4 +21,3 @@ adding-sentences-subheader-spelling-punctuation-explanation = Җөмләдә о�
 adding-sentences-subheader-speakable = Кычкырып укып була
 adding-sentences-subheader-numbers = Саннар
 adding-sentences-subheader-special-characters = Махсус символлар һәм чит тел хәрефләре
-

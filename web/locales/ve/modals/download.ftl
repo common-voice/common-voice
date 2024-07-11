@@ -7,4 +7,3 @@ download-form-email =
     .value = Ro livhuwa, ri ḓo ni kwama.
 download-back = Humelani kha dzi Dataset dza Common Voice
 download-no = Hai Ndo Livhuwa
-

@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Egin klik
 action-tap = Sakatu
-## Languages
-
 contribute = Lagundu
 review = Berrikusi
 skip = Saltatu
@@ -149,4 +145,3 @@ contribution-just-unsure-title = Oraindik zalantzatan?
 contribution-just-unsure-description = Irizpide hauek betetzen ez dituen zerbaitekin topo egiten baduzu, bozkatu zure sen onaren arabera. Benetan ezin baduzu erabaki, erabili Saltatu botoia eta jarraitu hurrengo grabazioarekin.
 see-more = <chevron></chevron>Ikusi gehiago
 see-less = <chevron></chevron>Ikusi gutxiago
-

@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Klik
 action-tap = Dodirnite
-## Languages
-
-contribute = Doprinesi
+contribute = Doprinesite
 skip = Preskoči
 shortcuts = Prečaci
 clips-with-count-pluralized =
@@ -32,6 +28,9 @@ target-segment-generic-card = Pridonosiš ciljanom segmentu
 target-segment-first-banner = Pomogni stvoriti prvi segment cilja Common Voicea za { $locale }
 target-segment-add-voice = Dodaj svoj glas
 target-segment-learn-more = Saznaj više
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -84,4 +83,6 @@ shortcut-vote-yes = d
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

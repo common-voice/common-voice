@@ -2,6 +2,9 @@
 
 about-title = Why Common Voice?
 how-does-it-work-text = We’re crowdsourcing an open-source dataset of voices. Donate your voice, validate the accuracy of other people’s clips, make the dataset better for everyone.
+
+## How does it work section
+
 about-speak = КъаIуэ
 about-speak-text = Contributors record voice clips by reading from a bank of donated sentences.
 about-listen-queue = Listen-Queue
@@ -28,3 +31,34 @@ about-nav-why-common-voice = Сытым щхьа?
 about-nav-how-it-works = Дау?
 about-nav-partners = Лэжьэгъу
 about-nav-get-involved = Хэхьэ
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

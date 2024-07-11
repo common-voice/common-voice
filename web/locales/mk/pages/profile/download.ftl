@@ -22,4 +22,3 @@ download-request-description = { $clipCount } гласовни клипови, �
 download-request-refresh-button = Освежи
 download-request-modal-title = Врски за преземање
 download-request-metadata-link = Текст на реченицата
-

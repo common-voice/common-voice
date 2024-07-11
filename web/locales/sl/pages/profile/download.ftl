@@ -21,4 +21,3 @@ download-request-refresh-button = Osveži
 download-request-modal-title = Povezave za prenos
 download-request-modal-description = Tu so povezave za prenos datotek ZIP.
 download-request-link-text = ZIP št. { $offset } od { $total }
-

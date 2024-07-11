@@ -13,4 +13,3 @@ request-language-google-recaptcha-error = reCAPTCHAలో ఏదో తప్ప
 # Success page
 request-language-success-heading = ధన్యవాదాలు! మీరు కొత్త భాషా విచారణను పంపారు
 request-language-success-list-1 = కామన్ వాయిస్‌కి మీ భాషను జోడించే దశలను వివరిస్తూ మీకు త్వరలో ఇమెయిల్ వస్తుంది
-

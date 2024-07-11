@@ -6,4 +6,3 @@ download-form-email =
     .value = Salamat, kami ay makikipag-ugnayan.
 download-back = Bumalik sa mga Dataset ng Common Voice
 download-no = Salamat na lang
-

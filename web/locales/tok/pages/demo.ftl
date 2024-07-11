@@ -33,4 +33,3 @@ demo-listen-subtitle = sina wile ala wile pana?
 
 demo-dashboard-card-header = lipu sina li pana e sona pi pali sina, li pana e sona pi pali kulupu.
 demo-dashboard-card-body = kalama awen pana en kalama awen pona la, lipu sina li sin, li pana e pali sina lon toki ale. sina ken pali lon toki mute! o kepeken lipu sina tawa ni: sina sona e pali sina. jan ante la sina sona e pali mute sina. sina ken pali e wile pali pi tenpo suno ale, e wile pali pi tenpo esun ale.
-

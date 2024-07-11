@@ -1,3 +1,5 @@
+## WRITE PAGE
+
 write = Scrivi
 write-page-subtitle = E frase donæ chì saian azzonte à un dataset pubrico con liçensa cc-0.
 sentence =
@@ -21,3 +23,6 @@ contact-us = Contattine
 add-sentence-success = 1 frase arrecuggeita
 add-sentence-error = Errô into carregamento da frase
 required-field = Impi sto campo.
+
+## BULK SUBMISSION 
+

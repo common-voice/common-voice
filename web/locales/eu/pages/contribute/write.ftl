@@ -1,3 +1,5 @@
+## WRITE PAGE
+
 write = Idatzi
 write-page-subtitle = Hemen gehitutako esaldiak publikoki eskuragarriak izango dira cc-0 lizentzia duen datu-sorta batean.
 sentence =

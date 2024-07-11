@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Kliknite
 action-tap = Ťuknite
-## Languages
-
 contribute = Zapojte sa
 review = Kontrolujte
 skip = Preskočiť
@@ -151,4 +147,3 @@ contribution-just-unsure-title = Len si nie ste istí?
 contribution-just-unsure-description = Ak narazíte na niečo, na čo sa tieto pokyny nevzťahujú, hlasujte podľa svojho najlepšieho úsudku. Ak sa naozaj nemôžete rozhodnúť, použite tlačidlo preskočenia a pokračujte k ďalšiemu záznamu.
 see-more = <chevron></chevron> Zobraziť viac
 see-less = <chevron> </chevron> Zobraziť menej
-

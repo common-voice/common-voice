@@ -79,4 +79,3 @@ help-contribute = Możesz pomóc zbudować różnorodny zbiór danych open sourc
 login-company = Zaloguj/zarejestruj się za pomocą adresu e-mail firmy { $company }
 profile-not-required = Profil nie jest wymagany do wzięcia udziału, ale się przydaje
 read-more-about = Przeczytaj więcej na stronie informacji o nas
-

@@ -235,7 +235,6 @@ link-copied = Tengill afritaður
 back-top = Til baka
 logout = Skrá út
 donate = Styrkja
-
 stayintouch = Við hjá Mozilla erum að setja á laggirnar raddtæknisamfélag. Við viljum vera í sambandi varðandi uppfærslur, nýjar gagnaveitur og til að fá að heyra meira um hvernig þessi gögn eru nýtt.
 privacy-info = Við lofum að fara varlega með upplýsingarnar þínar. Lestu meira um þetta í <privacyLink>persónuverndartilkynningu</privacyLink> okkar.
 return-to-cv = Til baka í Samróm
@@ -249,7 +248,8 @@ email-opt-in-info-sub-with-challenge = Fáðu tölvupóst á borð við áskoran
 email-opt-in-privacy-v2 = Með því að kjósa að fá tölvupóst frá okkur er samþykkt að Mozilla meðhöndli upplýsingar eins og útskýrt er í <privacyLink>persónuverndarstefnu Mozilla</privacyLink>.
 indicates-required = * táknar nauðsynlegan reit
 not-available-abbreviation = Á ekki við
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Veldu tungumál/staðfærslu

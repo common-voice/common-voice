@@ -74,11 +74,8 @@ dataset-donate-modal-heading = Lo sapevi che…
 donate-modal-explanation-1 = Ospitare i dataset e migliorare la piattaforma per le oltre 100 comunità linguistiche che fanno affidamento su ciò che facciamo costa quasi un milione di dollari all’anno?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Se apprezzi la possibilità di accedere a dati aperti e inclusivi, fai una donazione oggi stesso</bold>
-
 data-download-singleword-title = Scarica il segmento specifico con parole singole
 data-download-singleword-callout-v2 = Questo è un segmento basato su uno specifico caso di utilizzo e contiene dati per migliorare il riconoscimento vocale delle cifre e il rilevamento di sì/no.
-## Data
-
 data-download-button = Scarica i dati di Common Voice
 data-download-yes = Sì
 data-download-deny = No

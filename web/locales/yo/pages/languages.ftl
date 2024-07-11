@@ -15,10 +15,7 @@ localized = Ìsọditìbílẹ̀
 sentences = Àwọn gbólóhùn
 language-validation-hours = Wákàtí
 language-validation-progress = Ìtẹ̀síwájú àrídájú
-
-## Languages
-
-contribute = Dá sí
+contribute = Fi kún
 get-involved-button = Darapọ̀ mọ́ wa
 get-involved-title = Dá sí
 get-involved-text = O ṣeun fún ìfẹ́ láti ṣe ìfikun sí { $lang }. À ń ṣiṣẹ́ takuntakun láti mú gbogbo èdè wà ní sẹpẹ́ fun ìfilọ́lẹ̀ ati láti ri pé awọn  ẹgbẹ́ atúmọ̀-èdè náà ń gba àtẹ̀jíṣẹ́ ímeèlì láti mọ ohun tó ń lọ. Bí o bá fẹ́ bá wa fi kún-un, jọ̀wọ́ pèse ímeèlì rẹ ní ìsàlẹ̀.

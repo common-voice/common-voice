@@ -16,5 +16,4 @@ localized = Ataphuleliwe
 sentences = Soolempwa
 language-validation-hours = Iwoora
 language-validation-progress = Murowelo wa mutthunelo
-
 contribute = Muruuhe mwaakanyerelo anyu

@@ -129,3 +129,5 @@ about-playbook-how-project-governance-content-5 = Azalen d usnemmer
 about-playbook-how-project-governance-content-6 = Tamasit icerken.
 about-playbook-how-project-governance-content-7 = <governanceLink>Issin ugar ɣef tenbaḍt-nneɣ</governanceLink>
 
+## How is Common Voice funded
+

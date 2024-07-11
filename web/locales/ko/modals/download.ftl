@@ -7,4 +7,3 @@ download-form-email =
     .value = 감사합니다, 연락 드리겠습니다.
 download-back = Common Voice 데이터 세트로 돌아가기
 download-no = 사양하겠습니다
-

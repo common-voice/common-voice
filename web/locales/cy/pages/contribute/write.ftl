@@ -1,6 +1,6 @@
-write = Ysgrifennu
 ## WRITE PAGE
 
+write = Ysgrifennu
 write-instruction = Ychwanegu <icon></icon> brawddeg parth cyhoeddus
 write-page-subtitle = Bydd brawddegau sy'n cael eu cyfrannu yma yn cael eu hychwanegu at set ddata drwyddedig cc-0 sydd ar gael yn gyhoeddus.
 sentence =
@@ -88,4 +88,3 @@ file-invalid-type = Ffeil annilys.
 file-too-large = Mae'r ffeil yn rhy fawr
 file-too-small = Mae'r ffeil yn rhy fach
 too-many-files = Gormod o ffeiliau
-

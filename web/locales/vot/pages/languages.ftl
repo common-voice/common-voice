@@ -13,9 +13,7 @@ language-search-input =
 language-speakers = Pajatõjõd
 localized = Локализовано
 sentences = Предложения
-## Languages
-
-contribute = Tee kaaz
+contribute = Принять участие
 get-involved-button = Tuõ appi
 get-involved-title = Внесите вклад в { $lang } язык
 get-involved-text = Спасибо за ваш интерес во внесение вклада в { $lang } язык. Мы усердно работаем над тем, чтобы подготовить каждый язык к запуску, и держим связь с участниками по электронной почте. Если вы хотите внести вклад, то укажите внизу свой адрес электронной почты.

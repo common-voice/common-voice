@@ -45,9 +45,6 @@ sc-criteria-item-3 = La phrase doit être prononçable.
 sc-criteria-item-4 = Si la phrase répond aux critères, cliquez sur le bouton « Approuver » à droite.
 sc-criteria-item-5-2 = Si la phrase ne répond pas aux critères ci-dessus, cliquez sur le bouton « Rejeter » à gauche. Si vous avez un doute, vous pouvez également la sauter et passer à la suivante.
 sc-criteria-item-6 = Si vous n’avez plus de phrases à vérifier, aidez-nous à collecter davantage de phrases !
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Vérifiez <icon></icon> que la phrase est correcte sur le plan linguistique
 sc-review-rules-title = La phrase est-elle conforme aux consignes ?
@@ -61,4 +58,3 @@ review-error-rate-limit-exceeded = Vous allez trop vite. Veuillez prendre quelqu
 sc-redirect-page-title = Nous effectuons d’importants changements
 sc-redirect-page-subtitle-1 = Le collecteur de phrases est déplacé vers la plateforme Common Voice. Vous pouvez désormais <writeURL>écrire</writeURL> une phrase ou <reviewURL>vérifier</reviewURL> des phrases depuis Common Voice.
 sc-redirect-page-subtitle-2 = Posez-nous vos questions sur <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou <emailLink>par e-mail</emailLink>.
-

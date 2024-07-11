@@ -75,11 +75,8 @@ dataset-donate-modal-heading = הידעת…
 donate-modal-explanation-1 = על-מנת לארח את מערכי הנתונים ולשפר את המערכת עבור 100+ קהילות השפה הנסמכות על עבודתינו, נדרשים כמעט מליון דולר ארה"ב בשנה
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>אם מידע פתוח ואינקלוסיבי חשוב עבורכם - תרמו עוד היום!</bold>
-
 data-download-singleword-title = הורידו את פלח היעד - מילים בודדות
 data-download-singleword-callout-v2 = זהו פלח מכוון לתרחיש שימוש, המכיל נתונים לטובת זיהוי ספרות בדיבור וזיהוי כן / לא.
-## Data
-
 data-download-button = הורדת נתוני Common Voice
 data-download-yes = כן
 data-download-deny = לא

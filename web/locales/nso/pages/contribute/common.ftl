@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Klika
 action-tap = Kgwatha
-## Languages
-
-contribute = Thuša
+contribute = Neela
 skip = Tshela
 shortcuts = Kgaoletšo
 clips-with-count-pluralized =
@@ -31,6 +27,9 @@ target-segment-generic-card = O tlaleletša go karolo ya nepo
 target-segment-first-banner = Re thuše re bope nepo ya karolo ya mathomo ya Common Voice { $locale }
 target-segment-add-voice = Tsenya Lentšu la Gago
 target-segment-learn-more = Ithute ka mo go oketšegilego
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -141,4 +140,3 @@ contribution-just-unsure-title = Ga se o kgonthišege?
 contribution-just-unsure-description = Ge e ba o kopana le selo seo dikeletšo tšeo di se ke tša akaretšwa, ka kgopelo kgetha go ya ka kahlolo ya gago e botse. Ge e ba ruri o ka se kgone go tšea sephetho, diriša setobetšwa sa go taboga gomme o fetele go kgatišo e latelago.
 see-more = <chevron></chevron>Bona tša go feta
 see-less = <chevron></chevron>Bona tše nyenyane
-

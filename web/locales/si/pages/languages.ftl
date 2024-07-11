@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = සිදු කරමින් පවතී
@@ -14,10 +11,7 @@ language-search-input =
 language-speakers = ස්පීකර
 localized = දේශීයකරණය
 sentences = වාක්‍ය
-
-## Languages
-
-contribute = දායකවන්න.
+contribute = දායකවන්න
 get-involved-button = අප හා එක්වන්න
 get-involved-title = { $lang } වෙත දායක වෙන්න.
 get-involved-text = { $lang } භාෂාව වෙත දායක වීමට ඔබ දැක්වූ උනන්දුවට ස්තූතියි. සෑම භාෂාවක්ම එළි දැක්වීමට  සහ කණ්ඩායම් විද්‍යුත් තැපෑල හරහා යාවත්කාලීන කිරීමට අපි දැඩි ලෙස වෙහෙස ගන්නෙමු . මෙයට දායක වීමට ඔබ කැමති නම්, කරුණාකර ඔබගේ විද්‍යුත් තැපෑල පහලින් සපයන්න.

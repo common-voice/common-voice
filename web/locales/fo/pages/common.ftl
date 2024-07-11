@@ -87,11 +87,12 @@ share-text = Hjálp okkum at læra maskinur, hvussu verulig fólk tosa. Hjálp v
 link-copied = Leinkið kopiera
 back-top = Far ovast
 logout = Útrita
-
 return-to-cv = Aftur til Common Voice
 email-input =
     .label = Teldupostur
 submit-form-action = Send inn
 loading = Hugsar...
 indicates-required = * merkir teigurin er kravdur
+
+## Donate banner
 

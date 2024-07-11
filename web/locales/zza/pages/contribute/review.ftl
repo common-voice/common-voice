@@ -43,12 +43,6 @@ sc-criteria-item-2 = Ganî cumle hetê gramerî ra raşt bo.
 sc-criteria-item-3 = Ganî merdim bieşko cumle biwano.
 sc-criteria-item-4 = Eke cumle rîayetê nê krîteran kena, destê raştî de gojaga &quot;Tesdîq ke&quot ser o bitikne.
 sc-criteria-item-6 = Eke cumleyî nêmendê ke bêrê çimçarnayene, keremê xo ra dest bide ma ke hîna zaf cumleyan arê bidîme!
-
-## LANGUAGE VARIANT CODES
-
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = De kontrol bike <icon></icon> tirêm na cumle hetê ziwannasîye ra raşt a yan ney?
 sc-review-rules-title = Na cumle goreyê rayberî nusîyaya?
@@ -56,4 +50,3 @@ sc-review-empty-state = Na game nê ziwanî de cumleyî çin ê.
 report-sc-different-language-detail = No yewna ziwan de nusîyayo.
 review-error = Çimçarnayîşê na cumle de xetayêk vejîyaye meydan
 review-error-rate-limit-exceeded = Ti zêde lez şonî/a. Keremê xo ra çimçarnayîşê cumle de wextê xo bigîre wa cumle şaş nêbo.
-

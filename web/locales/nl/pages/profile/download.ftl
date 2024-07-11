@@ -28,4 +28,3 @@ download-request-modal-description = Hier zijn de koppelingen om uw ZIP-bestande
 download-request-link-text = ZIP-bestand { $offset } van { $total }
 download-request-metadata-link = Zintekst
 download-request-link-single = U kunt ook de rechtstreekse URL’s kopiëren en in uw favoriete downloadbeheerder plakken. Ze verlopen over 12 uur, maar u kunt op elk moment terugkeren naar deze pagina om nieuwe aan te maken.
-

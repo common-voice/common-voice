@@ -27,3 +27,33 @@ about-nav-how-it-works = எப்படி?
 about-nav-partners = கூட்டாளர்கள்
 about-nav-get-involved = பங்குபெறுங்கள்
 
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

@@ -7,4 +7,3 @@ download-form-email =
     .value = Сюкпря, сёрмадтано тенть.
 download-back = Велявтомс «Common Voice» датапурнавкстнэс
 download-no = А эряви
-

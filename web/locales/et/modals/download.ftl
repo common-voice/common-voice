@@ -7,4 +7,3 @@ download-form-email =
     .value = Aitäh, me võtame sinuga ühendust.
 download-back = Tagasi Common Voice'i andmekogumite juurde
 download-no = Ei soovi
-

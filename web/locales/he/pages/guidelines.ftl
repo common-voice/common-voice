@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = אם המשפט לא עומד בתנאים �
 reviewing-sentences-explanation-3 = אם אינכם בטוחים לגבי המשפט, באפשרותכם לדלג עליו ולעבור למשפט הבא.
 reviewing-sentences-explanation-4 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
 domain-explanation = תחום העניין נוגע לנושא המשפט. באפשרותך לבחור מבין:
-

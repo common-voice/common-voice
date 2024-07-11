@@ -71,4 +71,3 @@ help-accent-explanation = アクセントは単語の発音の仕方です。そ
 help-variants = 方言について助けが必要ですか？
 help-variants-explanation = 方言は、言語の特定の形式です。たとえば、ある地域やコミュニティに住んでいる人々によって共有されます。これらは変種と呼ばれることもあります。
 help-sex-or-gender-changes = 性別の変更に関してサポートが必要ですか？
-

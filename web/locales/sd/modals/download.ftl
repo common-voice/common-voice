@@ -7,4 +7,3 @@ download-form-email =
     .value = توھان جي مھرباني، اسان رابطي ۾ رھنداسين.
 download-back = عام وائس ڊيٽا سيٽس ڏانھن واپس وڃو
 download-no = نه مهرباني
-

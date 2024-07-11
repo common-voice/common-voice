@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = ⴽⵍⵉⴽⵉ
 action-tap = ⴰⴷⵔ
-## Languages
-
 contribute = ⴰⵔⴳ
 review = ⵙⵙⵉⵔⵎ
 skip = ⵙⵙⵉⵏⴼ
@@ -149,4 +145,3 @@ contribution-just-unsure-title = ⵖⴰⵙ ⵓⵔ ⵜⵃⵇⵇⴰⴷ?
 contribution-just-unsure-description = ⵎⴽ ⵜⵎⵍⴰⵍⴰⵎ ⴷ ⴽⵔⴰ ⵏ ⵜⵖⴰⵡⵙⴰ ⵏⵏⴰ ⵓⵔ ⴷⵉⵍⵏⵜ ⵜⴰⵔⴰⵜⵉⵏ ⴰⴷ, ⵙⵙⵜⵢⴰⵜ ⵙ ⵎⴽⴷⴰ ⵉⵍⵍⴰⵏ ⴳ ⵢⵉⴱⴹⵉ ⴰⵎⵓⴼⴰⵢ ⵏⵏⵓⵏ. ⵎⴽ ⵓⵔ ⵜⵣⵎⵉⵔⵎ ⴰⴷ ⵜⵖⵜⵙⵎ, ⵙⵙⵎⵔⵙⴰⵜ ⴰⴱⵔⴰ ⵙⵙⵉⵏⴼ, ⵜⴷⴷⵓⵎ ⵖⵔ ⵓⵙⵓⵙⵔ ⵓⴹⴼⵉⵕ.
 see-more = <chevron></chevron>ⵥⵕ ⵓⴳⴳⴰⵔ
 see-less = <chevron></chevron>ⵥⵕ ⴷⵔⵓⵙ
-

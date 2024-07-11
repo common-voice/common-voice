@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = کلیک
 action-tap = ضربه بزنید
-## Languages
-
 contribute = مشارکت
 skip = رد کردن
 shortcuts = میانبرها
@@ -30,6 +26,9 @@ target-segment-generic-card = شما در حال مشارکت در بخش هدف
 target-segment-first-banner = به ایجاد اولین بخش هدف پروژه آواهای مشترک در { $locale } کمک کنید
 target-segment-add-voice = صدای خود را اضافه کنید
 target-segment-learn-more = اطلاعات بیشتر
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -124,4 +123,3 @@ contribution-reader-effects-description = بیشتر ضبط‌ها مربوط ب
 contribution-just-unsure-description = ‌اگر به چیزی برخورد کردید که این دستورالعمل ها پوشش نمی‌دهد، لطفاً طبق بهترین قضاوت خود رأی دهید. اگر واقعاً نمی‌توانید تصمیم بگیرید، از دکمه پرش استفاده کنید و به ضبط بعدی بروید.
 see-more = <chevron> </chevron> بیشتر ببینید
 see-less = <chevron> </chevron> کمتر ببینید
-

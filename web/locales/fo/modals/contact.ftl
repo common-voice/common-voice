@@ -5,4 +5,3 @@ contact-form-name =
 contact-form-message =
     .label = Boð
 contact-required = *kravt
-

@@ -49,11 +49,8 @@ more = Күберәк
 close = Ябырға
 download = Йөкләү
 dataset-version = Версия
-
 data-download-singleword-title = «Бер һүҙ» маҡсатлы сегментты тейәгеҙ
 data-download-singleword-callout-v2 = Был сегмент аныҡ осраҡтарға төбәлгән, йәғни һандар һәм эйе/юҡ яуаптарына
-## Data
-
 data-download-button = Common Voice-тан мәғлүмәттәрҙе сығарып алыу
 data-download-yes = Эйе
 data-download-deny = Юҡ

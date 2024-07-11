@@ -68,9 +68,6 @@ recordings-and-locale-public = Ri rajlab'al yakoj chuqa' ri ch'ab'äl akuchi' xk
 username-optin-public = Yatikïr nacha' jun b'i'aj talun rutzijol o man netamäx ta ruwäch.
 username-email-not-demographic = Man xkexim ta ri rub'i' awokisaxel chuqa' ataqoya'l rik'in ri taq tzij xtitalüx kitzijol.
 
-## Profile Download
-
-
 ## Landing
 
 welcome-staff = ¿Katan pe { $company } samajel?
@@ -78,4 +75,3 @@ help-contribute = Yatikïr yato'on chi runuk'ik jalajöj rucholxe' tzij, ri jaq�
 login-company = Tatikirisaj Molojri'ïl / Tatz'ib'aj Ab'i' rik'in ri { $company } taqoya'l
 profile-not-required = Man k'atzinel ta jun ruwäch ab'i' richin yato'on, po rik'in jub'a' nik'atzin.
 read-more-about = Tisik'ïx ch'aqa' chik pa Chi rij pa ri ruxaq
-

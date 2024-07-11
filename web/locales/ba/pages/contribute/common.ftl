@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Баҫ
 action-tap = Баҫығыҙ
-## Languages
-
-contribute = Булышлыҡ итеү
+contribute = Ҡатнашыу
 skip = Үткәреп ебәреү
 shortcuts = Уңайлы кнопкалар
 clips-with-count-pluralized =
@@ -87,4 +83,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

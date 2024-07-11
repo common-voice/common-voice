@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = လုပ်ဆောင်နေ ဆဲ
@@ -15,10 +12,7 @@ language-speakers = ပြောသူများ
 localized = ဒေသသုံးပြုရန်
 sentences = ဝါကျများ
 language-validation-hours = နာရီများ
-
-## Languages
-
-contribute = ပူးပေါင်း ပါဝင် ဆောင်ရွက်ခြင်း
+contribute = ပါဝင်ကူညီခြင်း
 get-involved-button = ပါဝင်ဆောက်ရွက်မည်
 get-involved-title = { $lang } အားကူညီပြီ
 get-involved-text = { $lang } တွင် ပါဝင်ပံ့ပိုးပေးသည့်အတွက် ကျေးဇူးတင်ပါသည်။ ကျွန်ုပ်တို့သည် ဘာသာစကားတိုင်းကို စတင်အသုံးပြုရာတွင် အသင့်ဖြစ်နေစေရန်နှင့် အီးမေးလ်ကို အသုံးပြုပြီး အဖွဲ့တိုင်းကို နောက်ဆုံးရသတင်း သိရှိနိုင်စေရန် အမြဲကြိုးစားနေပါသည်။ ပါဝင်ကူညီလိုပါက အောက်ဖော်ပြပါတွင် အီးမေးထည့်သွင်းပါ။

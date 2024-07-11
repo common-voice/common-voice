@@ -78,4 +78,3 @@ variant-contribution-option-1 = Amosar frases e clips de todas as variedades da 
 variant-contribution-option-2 = Amosar só frases e clips da miña variedade
 variant-contribution-warning-title = ⓘ Non todas as frases ou fragmentos teñen xa a etiqueta da Variedade correspondente.
 variant-contribution-warning-subtitle = Se ten dificultades en contribuír, pode cambiar a ver todo o contido do seu idioma en calquera momento.
-

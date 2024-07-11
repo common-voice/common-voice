@@ -33,7 +33,6 @@ review-rerecord = ບັນທຶກຄືນໃໝ່
 review-cancel = ຍົກເລີກການຍື່ນສະເຫນີ
 review-keep-recordings = ຮັກສາການບັນທຶກ
 review-delete-recordings = ລຶບບັນທຶກຂອງຂ້ອຍ
-
 review-terms = ໂດຍ​ການ​ນໍາ​ໃຊ້ Common Voice, ທ່ານ​ເຫັນ​ດີ​ກັບ <termsLink>ເງື່ອນ​ໄຂ​ການ</termsLink> ແລະ <privacyLink>ປະກາດ​ຄວາມ​ເປັນ​ສ່ວນ​ຕົວ</privacyLink> ຂອງ​ພວກ​ເຮົາ
 terms-agree = ຂ້ອຍ​ຍອມ​ຮັບ
 terms-disagree = ຂ້ອຍ​​ບໍ່​ເຫັນ​ດີ

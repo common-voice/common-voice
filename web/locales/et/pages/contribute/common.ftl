@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Klõpsa
 action-tap = Puuduta
-## Languages
-
-contribute = Löö kaasa
+contribute = Panusta
 skip = Jäta vahele
 shortcuts = Otseteed
 goal-help-recording = Oled aidanud Common Voice'il saavutada <goalPercentage></ goalPercentage> meie igapäevasest salvestamise eesmärgist ({ $goalValue })!
@@ -16,6 +12,12 @@ contribute-more =
     }
 record-button-label = Salvesta oma hääl
 share-title-new = <bold>Aita meil</bold> leida rohkem hääli
+
+## Contribution Nav Items
+
+
+## Reporting
+
 
 ## Speak & Listen Shortcuts
 
@@ -45,4 +47,6 @@ shortcut-vote-yes = J
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = E
+
+## Validation criteria
 

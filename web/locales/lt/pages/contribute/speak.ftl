@@ -31,7 +31,6 @@ review-rerecord = Įrašyti iš naujo
 review-cancel = Atšaukti indėlį
 review-keep-recordings = Palikti įrašus
 review-delete-recordings = Pašalinti mano įrašus
-
 review-terms = Naudodamasis „Common Voice“, sutinki su <termsLink>Sąlygomis</termsLink> ir <privacyLink>Privatumo pranešimu</privatacyLink>
 terms-agree = Sutinku
 terms-disagree = Nesutinku

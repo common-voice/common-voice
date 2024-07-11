@@ -50,11 +50,8 @@ more = Zaidi
 close = Funga
 download = Pakua
 dataset-version = Toleo
-
 data-download-singleword-title = Pakua Sehemu ya Lengo la Neno Moja
 data-download-singleword-callout-v2 = Hii ni sehemu ya kesi inayotumiwa na data iliyo na uwezo wa kutambua tarakimu ya sauti na ugunduzi wa ndio / hapana
-## Data
-
 data-download-button = Pakua data ya Common Voice
 data-download-yes = Ndio
 data-download-deny = Hapana

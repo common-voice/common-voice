@@ -33,7 +33,6 @@ review-rerecord = Atkārtoti ierakstiet
 review-cancel = Atcelt iesniegšanu
 review-keep-recordings = Saglabāt ierakstus
 review-delete-recordings = Dzēst manus ierakstus
-
 review-terms = Izmantojot Common Voice, jūs piekrītat mūsu <termsLink>noteikumiem</termsLink> un <privacyLink>konfidencialitātes atrunai</privacyLink>
 terms-agree = Es piekrītu
 terms-disagree = Es nepiekrītu

@@ -48,4 +48,3 @@ skip-submission-description = Xtichup ri rutaqik tzij toq xtipitz' pa ruwi' ri '
 skip-submission-note = Ch'utitzijol: K'o chi nacha' Ch'owem o Ak'axanem richin najäl ri ruwäch ato'ik.
 off = Tichup
 on = Titzij
-

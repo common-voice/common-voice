@@ -66,4 +66,3 @@ help-accent = Tesriḍ tallelt ɣef uɣdebbu?
 help-accent-explanation = Aɣdebbu-ik d tarrayt i tsemraseḍ deg usenṭeq n wawalen, izmer yeṭṭafar imeḍqan anida tettidireḍ, neɣ tutlayin-nniḍen i tettmeslayeḍ d ddeqs n sebbat-nniḍen. Tzemreḍ ad tebḍuḍ yid-neɣ meṛṛa talɣut i twalaḍ telha.
 help-variants = Tesriḍ tallelt ɣef tentaliyin?
 help-variants-explanation = Tintaliyin n tutlayt d anaw n tutlayt anida i d-ḍerru kra n umgired seg tutlayt taneṣlit - amedya d tutlayt i cerken yimdanen yettidiren deg yiwen n umḍiq. Tikwal ttusemmant timeslayin.
-

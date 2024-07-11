@@ -151,3 +151,5 @@ about-playbook-how-project-governance-content-5 = ዋጋ እና እውቅና።
 about-playbook-how-project-governance-content-6 = የጋራ ተጠያቂነት።
 about-playbook-how-project-governance-content-7 = <governanceLink>እንዴት እንደምንመራ የበለጠ ያንብቡ</ governanceLink>
 
+## How is Common Voice funded
+

@@ -7,4 +7,3 @@ download-form-email =
     .value = Tankewol, wy nimme kontakt op.
 download-back = Werom nei Common Voice gegevenssets
 download-no = Nee tanke
-

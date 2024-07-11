@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Pellgasit ur restr skeudenn
 browse-file = Riklañ-leuskel pe <browseWrap>verdeit</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Re vras eo ar restr diuzet
 avatar-uploaded = Avatar ezkarget
 max-file-size = { $kb }kb max
 remove-avatar = Dilemel an Avatar
-

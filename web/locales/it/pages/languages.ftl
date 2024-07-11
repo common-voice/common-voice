@@ -17,9 +17,6 @@ localized = Localizzate
 sentences = Frasi
 language-validation-hours = Ore
 language-validation-progress = Avanzamento della convalida
-
-## Languages
-
 contribute = Contribuisci
 get-involved-button = Collabora con noi
 get-involved-title = Contribuisci in { $lang }

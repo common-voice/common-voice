@@ -33,7 +33,6 @@ review-rerecord = ახლიდან ჩაწერა
 review-cancel = გადაგზავნის გაუქმება
 review-keep-recordings = ჩანაწერების დატოვება
 review-delete-recordings = ჩემი ჩანაწერების წაშლა
-
 review-terms = Common Voice-ის გამოყენებით, ეთანხმებით ჩვენს <termsLink>პირობებსა</termsLink> და <privacyLink>პირადი მონაცემების დაცვის განაცხადს</privacyLink>
 terms-agree = ვეთანხმები
 terms-disagree = არ ვეთანხმები

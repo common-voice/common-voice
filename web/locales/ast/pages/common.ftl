@@ -166,7 +166,6 @@ share-text = Depréndi-yos a les máquines cómo falen los humanos. Empresta la 
 link-copied = Copióse l'enllaz
 back-top = Volver a arriba
 logout = Zarrar sesión
-
 privacy-info = Prometémoste que vamos remanar la to información con curiáu. Llei más nel nuesu <privacyLink>avisu de privacidá</privacyLink>
 return-to-cv = Volver a Common Voice
 email-input =
@@ -179,4 +178,6 @@ email-opt-in-info-sub-with-challenge = Vas recibir correos con recordatorios, an
 email-opt-in-privacy-v2 = Al Optar a recibir correos, aceptes que Mozilla remane esta información como desplica na so <privacyLink>Política de Privacidá</privacyLink>.
 indicates-required = * indica que ye un campu riquíu
 not-available-abbreviation = N/D
+
+## Donate banner
 

@@ -1,3 +1,5 @@
+## Profile - Avatar
+
 browse-file-title = Nyos ñgim liñgeliñge yoñ
 browse-file = Yambal u yumbe tole <browseWrap>Hôndôk</browseWrap>
 connect-gravatar = Bogbe ni Gravatar

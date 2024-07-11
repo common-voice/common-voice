@@ -28,4 +28,3 @@ download-request-modal-description = Inoghe ci sunt is ligòngios pro iscarrigar
 download-request-link-text = Zip nùm. { $offset } de { $total }
 download-request-metadata-link = Testu de sa frase
 download-request-link-single = Podes fintzas copiare e incollare is URL diretos in su gestore de iscarrigamentos preferidu tuo. Ant a iscadire a pustis de 12 oras, ma as a pòdere torrare a custa pàgina pro nde generare de noos in cale si siat momentu.
-

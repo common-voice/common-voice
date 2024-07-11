@@ -82,4 +82,3 @@ help-contribute = You can help build a diverse, open-source dataset by creating 
 login-company = Ихьэн/e-mail-ымкIэ зыхэтхэ
 profile-not-required = Having a profile is not required to contribute though it is helpful, see why below.
 read-more-about = Ди напэ-к1уэц1ым ттеухуау нэхъыбэ къафщ1э "Дэ"
-

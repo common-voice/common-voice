@@ -159,4 +159,3 @@ validations =
         [one] ማረጋገጫ
        *[other] ማረጋገጫዎች
     }
-

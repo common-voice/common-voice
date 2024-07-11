@@ -7,4 +7,3 @@ download-form-email =
     .value = Cám ơn, chúng tôi sẽ giữ liên lạc.
 download-back = Trở về bộ dữ liệu Common Voice
 download-no = Không, cảm ơn
-

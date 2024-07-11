@@ -28,4 +28,3 @@ download-request-modal-description = ni li nimi nasin pi poki lipu ZIP sina.
 download-request-link-text = poki lipu ZIP #{ $offset } tan { $total }
 download-request-metadata-link = nimi sitelen
 download-request-link-single = sina ken pana e nimi nasin tawa ilo kama jo sina. nimi nasin li moli lon tenpo suli 12 pini. lon lipu ni la sina ken pali e nimi nasin sin lon tenpo ale.
-

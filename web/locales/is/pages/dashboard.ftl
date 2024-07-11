@@ -116,4 +116,3 @@ validations =
         [one] Staðfesting
        *[other] Staðfestingar
     }
-

@@ -168,7 +168,6 @@ share-text = Pomogni učiti strojeve govoriti ljudskim jezikom, doniraj svoj gla
 link-copied = Poveznica je kopirana
 back-top = Povratak na vrh
 logout = Odjava
-
 stayintouch = Mi u Mozilli gradimo zajednicu za govorne tehnologije. Želimo te obavještavati o novostima, novim izvorima podataka i voljeli bi saznati kako koristite podatke.
 privacy-info = Obećajemo, da ćemo pažljivo postupati s tvojim podacima. Saznaj više u našim <privacyLink>napomenama o privatnosti</privacyLink>.
 return-to-cv = Povratak na Common Voice
@@ -182,3 +181,6 @@ email-opt-in-info-sub-with-challenge = Primaj e-mailove poput podsjetnika o izaz
 email-opt-in-privacy-v2 = Prihvaćanjem primanja e-mail poruka, pristaješ na obradu tvojih podataka, kako je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>.
 indicates-required = * obilježava obvezno polje
 not-available-abbreviation = --
+
+## Donate banner
+

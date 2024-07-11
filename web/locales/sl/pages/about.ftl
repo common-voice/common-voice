@@ -68,3 +68,5 @@ about-playbook-how-grow-language-content-6 = Partnerstva in mreže
 
 about-playbook-how-project-governance-content-3 = Zasebnost, varnost in preglednost.
 
+## How is Common Voice funded
+

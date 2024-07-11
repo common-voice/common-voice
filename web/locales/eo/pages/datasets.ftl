@@ -52,11 +52,8 @@ more = Pli
 close = Fermi
 download = Elŝuti
 dataset-version = Versio
-
 data-download-singleword-title = Elŝuti la celan segmenton de unikaj vortoj
 data-download-singleword-callout-v2 = Tiu ĉi estas segmento por aparta uzo; ĝu enhavas datumojn por povi rekoni parolitajn ciferojn kaj respondojn jes/ne.
-## Data
-
 data-download-button = Elŝuti datumojn de Common Voice
 data-download-yes = Jes
 data-download-deny = Ne

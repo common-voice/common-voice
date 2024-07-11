@@ -93,6 +93,7 @@ about-playbook-how-add-sentences-content-2 =
     "Mafoko a swanela go hlahlobja le go amagelwa ke batho ba babedi gore di tsenywe mo go Common Voice. O hlangwa tlhahlo mabapi le tša polelo ya geno
     <languageGuidelinesLink> mo</languageGuidelinesLink>. Mafoko a swanetše go ba<licenseLink> lefelong la batho bohle</licenseLink>  gomme le be kopana go fetwa/ka tlase ga mantšu a 15. O ka kgopela mong wa mongwalo go e dira <waiverLink>CC0 o šomiša mokgwa wa rena wa go tlogela</waiverLink>, gomme o re romele go commonvoice@mozilla.com"
 about-playbook-how-add-sentences-content-3 = O ka šomiša <scraperLink>leswao la kgaoganyo ya Lefoko</scraperLink> go šomiša mafoko a fokotšegilego a go tšwa go Wikipedia.
+
 ## How to record quality
 
 about-playbook-how-record-quality = Ke gatiša bjang pego ya khwalithi e phagamego kudu?
@@ -138,4 +139,6 @@ about-playbook-how-project-governance-content-4 = Go tšea karolo ga setšhaba l
 about-playbook-how-project-governance-content-5 = Boleng le temogo.
 about-playbook-how-project-governance-content-6 = Kwešišano ya boikarabelo.
 about-playbook-how-project-governance-content-7 = <governanceLink>Bala ka mo go oketšegilego mabapi le kamoo re bušwago ka gona</governanceLink>
+
+## How is Common Voice funded
 

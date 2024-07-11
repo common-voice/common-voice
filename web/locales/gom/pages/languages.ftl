@@ -1,67 +1,9 @@
-## Community Playbook Content
-## What is a language
-
-
-## How do I add a language
-
-
-## How does localization work
-
-
-## How to add sentences
-
-
-## How to record quality
-
-
-## How to grow language
-
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## How is Common Voice funded
-
-
-## Glossary
-
-
-## Error pages
-
-
-## Data
-
-
-## Datasets Page
-
-
-## Download Modal
-
-
-## Contact Modal
-
-
-## Request Language Modal
-
-
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = Pravas'an Asa
 language-meter-in-progress = Pravas
 language-speakers = Ulovpi
 language-validation-progress = Topasniche Pravas
-
-## Languages
-
 contribute = Vantto ge
 get-involved-button = Shamil Zav
 get-involved-title = { $lang }` itun vantto ge

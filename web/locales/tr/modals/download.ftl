@@ -7,4 +7,3 @@ download-form-email =
     .value = Teşekkür ederiz.
 download-back = Common Voice veri kümelerine geri dön
 download-no = Hayır
-

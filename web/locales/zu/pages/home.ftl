@@ -84,4 +84,3 @@ help-contribute = Ungasiza ukwakha isethi yedatha ehlukahlukene, yomthombo ovule
 login-company = Ngena / Bhalisa nge-imeyili ye-{ $company }
 profile-not-required = Ukuba nephrofayela akudingekile ukuthi unikele nakuba kusiza, bona ukuthi kungani ngezansi.
 read-more-about = Funda okwengeziwe ekhasini lethu le Mayelana
-

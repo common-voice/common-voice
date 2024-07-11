@@ -28,4 +28,3 @@ download-request-modal-description = Tseno ke dilinki tsa go itseela difaele tsa
 download-request-link-text = # ya Zip{ $offset } ya { $total }
 download-request-metadata-link = Mokwalo wa polelo
 download-request-link-single = Gape o ka kgona go kopisa le go manega di-URL tse di tlhamaletseng mo lefelong la gago la mmamoratwa la go itseela dilo. Di tla felelwa ke nako mo diureng tse 12, mme o ka boela mo tsebeng eno go dira tse disha nako nngwe le nngwe.
-

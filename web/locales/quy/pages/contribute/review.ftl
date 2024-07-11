@@ -45,4 +45,3 @@ sc-criteria-item-3 = La oración debe ser pronunciable.
 sc-criteria-item-4 = Si la oración cumple con los criterios, haga clic en el botón &quot;Aprobar&quot; de la derecha.
 sc-criteria-item-5-2 = Si la oración no cumple con los criterios anteriores, haga clic en &quot;Rechazar&quot; el botón de la izquierda. Si no está seguro acerca de la oración, también puede omitirla y pasar a la siguiente.
 sc-criteria-item-6 = Si se queda sin oraciones para revisar, ¡por favor ayúdenos a recopilar más oraciones!
-

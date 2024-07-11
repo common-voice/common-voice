@@ -28,4 +28,3 @@ request-language-success-list-3 =
 request-language-error =
     Mhlawumbe asikasitfoli leso sicelo. Sicela utfumele liposi lembane 
     ku <emailLink>{ $email }</emailLink>sitobuya kuwe!
-

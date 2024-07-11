@@ -62,11 +62,8 @@ dataset-version = Vèsyon
 sha256-checksum-copied = Sòm chèk SHA256 kopye!
 sha256-checksum-copied-error = Echwe pou kopi SHA256 Checksum
 clipboard-not-supported = Clipboard pa sipòte
-
 data-download-singleword-title = Telechaje segman sib sèl mo a
 data-download-singleword-callout-v2 = Sa a se yon segman kondwi ka itilize ki gen done pou pouvwa rekonesans chif pale ak deteksyon wi / non.
-## Data
-
 data-download-button = Telechaje done vwa komen
 data-download-yes = Wi
 data-download-deny = Non

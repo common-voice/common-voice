@@ -14,9 +14,6 @@ language-speakers = Penceramah
 localized = Dilokalisasi
 sentences = Ayat
 language-validation-hours = Jam
-
-## Languages
-
 contribute = Menyumbang
 get-involved-button = Libatkan diri
 get-involved-title = Menyumbang dalam { $lang }

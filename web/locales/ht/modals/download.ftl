@@ -7,4 +7,3 @@ download-form-email =
     .value = Mèsi, n'ap kenbe kontak.
 download-back = Retounen nan ansanm done Common Voice yo
 download-no = Non Mèsi
-

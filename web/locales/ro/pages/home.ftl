@@ -77,4 +77,3 @@ help-contribute = Poți ajuta la clădirea unui set de date divers, cu cursă de
 login-company = Autentifică-te / Înscrie-te cu adresa de e-mail { $company }
 profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util
 read-more-about = Află mai multe pe pagina Despre
-

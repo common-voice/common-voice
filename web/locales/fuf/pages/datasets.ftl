@@ -49,11 +49,8 @@ more = Goɗɗe
 close = Uddu
 download = Aawto
 dataset-version = Yamre
-
 data-download-singleword-title = Aawto Taƴannde Toɓɓaande Helmere Teelnde
 data-download-singleword-callout-v2 = Ɗum-ɗoo ko taƴannde toɗɗiinde fannu kuutoragol jogiinde keɓe ngam doolnude keftingol limooje gowlaaɗe kam e ejtagol eey / alaa.
-## Data
-
 data-download-button = Aawto keɓe Common Voice
 data-download-yes = Eey
 data-download-deny = Alaa

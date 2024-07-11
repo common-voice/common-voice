@@ -13,8 +13,6 @@ language-search-input =
 language-speakers = Biachimtu
 localized = Holh leh mi
 sentences = Catlang
-## Languages
-
 contribute = Aw Tunnak
 get-involved-button = Rak I Tel Ve
 get-involved-title = { $lang } ah pekchanh

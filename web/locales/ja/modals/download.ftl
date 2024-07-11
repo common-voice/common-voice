@@ -7,4 +7,3 @@ download-form-email =
     .value = ありがとうございます。今後、メールをお送りします。
 download-back = Common Voice のデータセットへ戻る
 download-no = やめる
-

@@ -33,4 +33,3 @@ demo-listen-subtitle = Prèst/a entà collaborar?
 
 demo-dashboard-card-header = Es taulèrs personaus vos informen sus eth progrès individuau e dera comunitat.
 demo-dashboard-card-body = Per cada talh de votz dada e per cada talh d’àudio validat, es taulèrs deth vòste compde s'actualizen entà rebàter eth vòste progrès mès recent en cada lengua a on collaboratz. Òc, podetz participar en mès d'ua! <br/><br/> Emplegatz taulèrs entà susvelhar es vòstes estadistiques, veir eth vòste rendiment en relacion damb d’auti membres dera comunitat e definir objectius de collaboracion diària o setmanau.
-

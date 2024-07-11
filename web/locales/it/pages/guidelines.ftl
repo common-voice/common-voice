@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = Se la frase non soddisfa tutti i criteri des
 reviewing-sentences-explanation-3 = Se non sei sicuro, puoi anche saltare la frase e passare a quella successiva.
 reviewing-sentences-explanation-4 = Se non ci sono più frasi da convalidare, aiutaci a raccoglierne altre!
 domain-explanation = Il dominio si riferisce all’argomento della frase. Al momento, puoi scegliere tra:
-

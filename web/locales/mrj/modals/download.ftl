@@ -7,4 +7,3 @@ download-form-email =
     .value = Тау, кӹлӹм кычена лиэш.
 download-back = Common Voice датасетӹш пӧртӹлӓш
 download-no = Тау, ак кел
-

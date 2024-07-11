@@ -1,3 +1,5 @@
+## WRITE PAGE
+
 write = Escribir
 # WRITE PAGE
 write-instruction = Agregue <icon></icon> una oración de dominio público

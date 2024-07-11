@@ -1,21 +1,3 @@
-## ADD LANGUAGE
-
-
-## ADD SENTENCES CONFIRMATION
-
-
-## LANGUAGE INFO
-
-
-## LOGIN
-
-
-## PROFILE
-
-
-## REVIEW CRITERIA
-
-
 ## REVIEW
 
 sc-review-title = 審核句子
@@ -33,10 +15,6 @@ sc-review-form-button-submit =
     .submitText = 完成審核
 sc-review-link = 審核
 
-## LANGUAGE VARIANT CODES
-
-
-## REVIEW PAGE
+## REVIEW CRITERIA
 
 sc-review-rules-title = 句話符唔符合規範？
-

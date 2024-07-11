@@ -80,4 +80,3 @@ help-contribute = Þú getur hjálpað til við uppbyggingu fjölbreytts, opins 
 login-company = Innskrá / nýskrá með netfangi hjá { $company }
 profile-not-required = Notkunarsniðs er ekki krafist til að taka þátt þótt það sé gagnlegt, sjáðu hvers vegna hér fyrir neðan.
 read-more-about = Lestu meira á síðunni okkar um verkefnið
-

@@ -21,4 +21,3 @@ request-language-success-list-1 = Plan lèu auríetz de recéber un corrèu elec
 request-language-success-list-2 = Eth nòste gestor de comunitats se meterà en contacte damb vos entà aufrir-vos supòrt addicionau e entà hèr-vos a saber se ja i a ua comunitat que trabalhe ena vòsta lengua
 request-language-success-list-3 = Se non sabetz arren de nosati en un parelh de dies, contactatz via <emailLink>{ $email }</emailLink> e mos meteram en contacte damb vos!
 request-language-error = Dilhèu non auem recebut aguesta sollicitud. Enviatz-mos un corrèu electronic dirèctaments a <emailLink>{ $email }</emailLink> e vos arresponeram!
-

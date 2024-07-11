@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = انقر
 action-tap = انقر
-## Languages
-
 contribute = ساهِم
 skip = تخطَّ
 shortcuts = الاختصارات
@@ -37,6 +33,9 @@ target-segment-first-card = أنت تساهم بأول مقطع مستهدف
 target-segment-first-banner = ساهِم بإنشاء أول مقطع على «الصوت للعموم» خصيصًا باللغة { $locale }
 target-segment-add-voice = أضِف صوتك
 target-segment-learn-more = اطّلع على المزيد
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -87,4 +86,6 @@ shortcut-vote-yes = ن
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = ل
+
+## Validation criteria
 

@@ -17,9 +17,6 @@ localized = مقامی تھئے ہوئے
 sentences = جملے
 language-validation-hours = گھنٹے
 language-validation-progress = تصدیق دی پیش رفت
-
-## Languages
-
 contribute = حصہ پاؤ
 get-involved-button = نال رلت کرو
 get-involved-title = { $lang } وچ حصہ پاؤ

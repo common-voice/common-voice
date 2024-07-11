@@ -65,11 +65,8 @@ dataset-donate-modal-heading = Kwaichi...
 donate-modal-explanation-1 = Garama ya mafungu gha data kuw'ikwa na kuchurilwa kuboiswa mtandaonyi ni kavui dola milioni imweri kwa mwaka kwa mapwanyiko gha w'andu w'idedagha zaidi ya viteto100 sena w'ategemea kazi daw'iabonya.
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = Kaw'ona mwaw'onie mana ya kuboa kwa platifomu iko mwari, na data ya w'ungara - changa linu!
-
 data-download-singleword-title = Pakua Kibengula cha Ilagho Jimweri
 data-download-singleword-callout-v2 = Ughu nigho mpande ghuko na data edimisha kumanya mtalo ghwa madedo na hee angu hata.
-## Data
-
 data-download-button = Pakua data ya Common Voice
 data-download-yes = Hee
 data-download-deny = Hata

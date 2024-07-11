@@ -7,4 +7,3 @@ download-form-email =
     .value = Tanemmirt. Ad neqqim nettemceyyaɛ gar-aneɣ.
 download-back = Uɣal ar yilugan n yisefka n Common Voice
 download-no = Uhu Tanemmirt
-

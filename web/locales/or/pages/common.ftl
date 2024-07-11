@@ -219,7 +219,6 @@ share-text = ସତସତିକା ଲୋକେ ଯେଉଁଭଳି କଥା 
 link-copied = ଲିଙ୍କ କପିକରାଗଲା
 back-top = ଉପରକୁ ଯାଆନ୍ତୁ
 logout = ଲଗ ଆଉଟ
-
 stayintouch = ଆମେ Mozilla  ରେ ସ୍ୱର ଟେକନୋଲୋଜି ବାବଦରେ ଏକ ସମାଜ ତିଆରି କରୁଛୁ । ଆମେ ଅପଡେଟ, ନୂଆ ଡାଟା ସ୍ରୋତ ଓ ଆପଣ ଏହି ଡାଟା କିପରି ବ୍ୟବହାର କରୁଛନ୍ତି ସେ ବାବଦରେ ଅଧିକ ଜାଣିବା ପାଇଁ ଆଗକୁ ସମ୍ପର୍କ ରଖିବାକୁ ଚାହୁଁଛୁ ।
 privacy-info = ଆମେ ଆପଣଙ୍କ ତଥ୍ୟ ଯତ୍ନସହକାରେ ବ୍ୟବହାର କରିବୁ ବୋଲି ପ୍ରତିଶ୍ରୁତି ଦେଉଛୁ । ଆମ <privacyLink>ଗୋପନୀୟତା ନୀତି</privacyLink> ବାବଦରେ ଅଧିକ ପଢ଼ନ୍ତୁ ।
 return-to-cv = Common Voiceକୁ ଫେରିଯାନ୍ତୁ
@@ -233,3 +232,6 @@ email-opt-in-info-sub-with-challenge = Common Voice ବିଷୟରେ ପ୍ର
 email-opt-in-privacy-v2 = ଆପଣ ଯଦି ଆମଠାରୁ ଇମେଲ ପାଇବାକୁ ରାଜି ଅଛନ୍ତି ତେବେ Mozilla ତାହାର <privacyLink> ଗୋପନ ନିୟମାବଳୀ </privacyLink> ହିସାବରେ ଆପଣଙ୍କର ଏହି ଇମେଲ ଆଇଡି ଯେଭଳି ଭାବରେ ଉପଯୋଗ କରିବ ସେଥିରେ ଆପଣ ସହମତ ।
 indicates-required = * ଦରକାରୀ କ୍ଷେତ୍ର ନିର୍ଦ୍ଦେଶ କରେ
 not-available-abbreviation = ଅନାବଶ୍ୟକ
+
+## Donate banner
+

@@ -75,4 +75,3 @@ help-sex-or-gender-changes-explanation = Oferecemos mais opções para dar às p
 variant-contribution-help = Algumas variantes e dialetos de um idioma ou família de idiomas são muito diferentes entre si. Se estiver tendo problemas para interagir com uma variante específica, você pode alterar suas preferências aqui.
 variant-contribution-option-1 = Mostrar frases e clipes de todas as variantes do meu idioma
 variant-contribution-option-2 = Só mostrar frases e clipes da minha variante
-

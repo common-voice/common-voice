@@ -75,11 +75,8 @@ dataset-donate-modal-heading = بىلەمسىز…
 donate-modal-explanation-1 = ساندان توپلىمىنىڭ مۇلازىمېتىرى ۋە قىلغان ئىشىمىزغا تايىنىدىغان 100+ تىل جامائىتى ئىشلىتىۋاتقان سۇپىنى ياخشىلاشقا يىلىغا بىر مىليون دوللار ئەتراپىدا پۇل كېتىدۇ؟
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>ئەگەر ئوچۇق، سىغدۇرۇشچان سانلىق مەلۇماتىڭىز بولسا-بۈگۈن ئىئانە قىلىڭ!</bold>
-
 data-download-singleword-title = يەككە سۆز نىشان بۆلىكىنى چۈشۈرۈڭ
 data-download-singleword-callout-v2 = بۇ ئىشلىتىش مىسالى رەقەملىك ئاۋازدىكى ھەئە / ياق نى تونۇش ئىمكانىيىتىگە ئىگە قىلىدىغان سانلىق مەلۇماتنى ئۆز ئىچىگە ئالىدۇ.
-## Data
-
 data-download-button = Common Voice سانلىق مەلۇماتلىرىنى چۈشۈرۈڭ
 data-download-yes = ھەئە
 data-download-deny = ياق

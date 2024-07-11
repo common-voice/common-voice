@@ -10,4 +10,3 @@ why-delete-recordings =
     
     あなたの録音を削除したい理由を教えてください。
 profile-form-delete = プロファイルを削除
-

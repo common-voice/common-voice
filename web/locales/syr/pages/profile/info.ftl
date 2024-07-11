@@ -40,4 +40,3 @@ login-identity = ܗܝܝܘܬܐ ܕܥܠܠܐ
 login-signup = ܥܘܠ / ܒܢܝ ܚܫܒܘܢܐ
 edit = ܫܚܠܦ
 email-subscriptions = ܫܪ̈ܟܬܐ ܕܐܝܡܝܠ
-

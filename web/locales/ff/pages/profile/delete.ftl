@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Aɗa waawi anndinde min ko waɗ-maa yiɗde momtude nanngite maa?
 profile-form-delete = Momtu Heftinirde
-

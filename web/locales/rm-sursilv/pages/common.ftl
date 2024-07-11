@@ -143,7 +143,6 @@ share-text = Gida a mussar a maschinas co persunas realas discuoran, contribuesc
 link-copied = Copiau la colligiaziun
 back-top = Ensi
 logout = sortir
-
 stayintouch = Nus da Mozilla creein ina communitad per la tecnologia vocala. Nus lein restar en contact cun tei per parter novitads, novas fontaunas da datas e per intervegnir co ti drovas quellas datas.
 privacy-info = Nus empermettein da tractar tias informaziuns cun quitau. Legia dapli en nossas <privacyLink>directivas davart la protecziun da datas</privacyLink>.
 return-to-cv = returnar a Common Voice
@@ -156,4 +155,6 @@ email-opt-in-info-title = S'annunzia per la gliesta dad e-mails da Common Voice
 email-opt-in-info-sub-with-challenge = Jeu less retscheiver e-mails, per exempel regurdientschas da finamiras, mes rapports da progress e newsletters da Common Voice.
 indicates-required = * indichescha in caum obligatori
 not-available-abbreviation = buca disponibel
+
+## Donate banner
 

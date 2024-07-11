@@ -28,4 +28,3 @@ download-request-modal-description = Èyí ni ìtọ́ka sí gbígbà àwọn f�
 download-request-link-text = Zip#{ $offset } ti { $total }
 download-request-metadata-link = Ọ̀rọ̀ gbólóhùn
 download-request-link-single = Ìgbéjáde ìparí ọdún
-

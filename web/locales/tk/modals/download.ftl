@@ -7,4 +7,3 @@ download-form-email =
     .value = Sag boluň, habarlaşarys.
 download-back = Common Voice maglumat toplumlaryna dolan
 download-no = Ýok, sag bol.
-

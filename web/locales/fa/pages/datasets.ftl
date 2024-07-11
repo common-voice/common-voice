@@ -50,10 +50,7 @@ more = بیشتر
 close = بستن
 download = بارگیری
 dataset-version = نسخه
-
 data-download-singleword-title = دریافت بخش هدف تک کلمه‌ای.
-## Data
-
 data-download-button = دریافت داده‌های آواهای مشترک
 data-download-yes = بله
 data-download-deny = خیر

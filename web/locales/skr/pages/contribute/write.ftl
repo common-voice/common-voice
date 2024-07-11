@@ -1,6 +1,6 @@
-write = لکھو
 ## WRITE PAGE
 
+write = لکھو
 write-instruction = <icon></icon> ہک عوامی ڈومین جملہ شامل کرو
 write-page-subtitle = اتھ ونگار تھئے ہوئے جملے عوامی دستیاب cc-0 لائسنس تھئے ڈیٹا سیٹ وچ شامل تھی ویسن۔
 sentence =
@@ -87,4 +87,3 @@ file-invalid-type = غلط فائل
 file-too-large = فائل ٻہوں وݙی ہے
 file-too-small = فائل ٻہوں چھوٹی ہے
 too-many-files = ٻہوں ساریاں فائلاں
-

@@ -235,7 +235,6 @@ link-copied = ئۇلانما كۆچۈرۈلدى
 back-top = ئۈستىگە قايت
 logout = تىزىمدىن چىقىش
 donate = ئىئانە
-
 stayintouch = بىز Mozilla دا ئاۋاز تېخنىكىسىنى چۆرىدىگەن ھالدا ئورتاق گەۋدە بەرپا قىلىۋاتىمىز. بىز يېڭىلانمىلار ، يېڭى سانلىق مەلۇمات مەنبەلىرى شۇنداقلا بۇ سانلىق مەلۇماتلارنى قانداق ئىشلىتىۋاتقانلىقىڭىزدىن خەۋەردار بولۇپ تۇرۇشنى خالايمىز.
 privacy-info = ئۇچۇرلىرىڭىزنى ئېھتىياتچانلىق بىلەن بىر تەرەپ قىلىشقا ۋەدە بېرىمىز. تېخىمۇ كۆپ مەزمۇنلارنى <privacyLink> شەخسىيەت ئۇقتۇرۇشى</privacyLink> دىن ئوقۇڭ.
 return-to-cv = Common Voice گە قايت
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = بەسلىشىش، نىشان ئەسكە�
 email-opt-in-privacy-v2 = ئېلخەت تاپشۇرۇۋېلىشنى تاللاش ئارقىلىق Mozilla نىڭ <privacyLink> شەخسىيەت تۈزۈمى </privacyLink> دە چۈشەندۈرۈلگەندەك، Mozilla نىڭ بۇ ئۇچۇرلارنى بىر تەرەپ قىلىشىغا قوشۇلىسىز.
 indicates-required = * تولدۇرۇش زۆرۈر بۆلەكلەرنى كۆرسىتىدۇ
 not-available-abbreviation = N/A
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = قىلىۋاتقان ئىشىمىزغا تايى
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Common Voice نى ئىشلىتىپ</mark><br/><mark>تەتقىقات قىلامسىز؟</mark>
 languages-donate-banner-cta-explanation = Common Voice خەير-ساخاۋەت ۋە ئىئانىگە تايىنىدۇ! بىز ئاكادېمىيە، پۇقرالار جەمئىيىتى ۋە كەسپىي تەتقىقاتچىلار بىلەن ھەمكارلىشىشنى ياقتۇرىمىز. Common Voice نى ھەقسىز ئىشلەتكىلى بولىدۇ ئەمما سۇپا ۋە مۇلازىمېتىر چىقىمىغا ھەسسە قوشۇشىڭىزغا ھەقىقەتەن ئېھتىياجلىق.
-# [/SentenceCollector]
-
 localization-select =
     .label = تىل/يەرلىكلەشتۈرۈش تاللىنىدۇ

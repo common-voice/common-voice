@@ -112,4 +112,3 @@ validations =
         [one] Khwaṱhisedzwaho
        *[other] Zwo khwaṱhisedzwaho
     }
-

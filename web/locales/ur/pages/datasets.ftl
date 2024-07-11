@@ -50,10 +50,7 @@ more = مزید
 close = بند کریں
 download = ڈاؤن لوڈ کریں
 dataset-version = ورژن
-
 data-download-singleword-title = یک لفظ ہدف طبقہ ڈاؤن لوڈ کریں
-## Data
-
 data-download-button = Common Voice کے کوائف ڈائونلوڈ کریں
 data-download-yes = ہاں
 data-download-deny = نہیں

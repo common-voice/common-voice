@@ -78,4 +78,3 @@ validations =
         [one] ਪ੍ਰਮਾਣਿਕਤਾ
        *[other] ਪ੍ਰਮਾਣਿਕਤਾ
     }
-

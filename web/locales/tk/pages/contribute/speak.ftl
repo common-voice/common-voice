@@ -33,7 +33,6 @@ review-rerecord = Täzeden ýaz
 review-cancel = Tabşyrmany ýatyr
 review-keep-recordings = Ýazgylary sakla
 review-delete-recordings = Ýazgylarymy poz
-
 review-terms = Common Voice-i ulanmak bilen, <termsLink>Düzgünlerimiz</termsLink> we <privacyLink>Gizlinlik syýasatymyz</privacyLink> bilen ylalaşýarsyňyz.
 terms-agree = Ylalaşýaryn
 terms-disagree = Ylalaşmaýaryn

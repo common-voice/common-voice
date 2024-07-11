@@ -62,4 +62,3 @@ help-accent = O hloka thušo ka mokgwa wa go bolela?
 help-accent-explanation = Mmolelo wa gago ke tsela yeo o bitšago matšu ka gona. Seo se ka bopša ke moo o dutšego gona, dipolelo tše dingwe tšeo o di bolelago le dibopego tše dingwe. O ka abelana tsebišo le ge e le efe yeo o naganago gore e bohlokwa mo.
 help-variants = O hloka thušo ka mebolelo?
 help-variants-explanation = Mehuta e fapa-fapanego ke mohuta o itseng wa polelo – ka mohlala hlakanetšwego ke bao ba phelago tikologong goba setšhabeng. Ka dinako tše dingwe di bitšwa mebolelo.
-

@@ -13,4 +13,3 @@ request-language-google-recaptcha-required = Meyonu ginonan-na reCAPTCHA diç̌i
 request-language-google-recaptcha-error = reCAPTCHA's mutxape tersi idu. Xolo geitsadit.
 # Success page
 request-language-success-heading = Ntsaşa extit! Ağani ar nenaşi ǩitxapa moncğonit
-

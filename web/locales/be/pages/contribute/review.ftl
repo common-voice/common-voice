@@ -20,8 +20,4 @@ sc-review-link = Праверыць
 sc-criteria-item-1 = Сказ павінен быць напісаны без памылак.
 sc-criteria-item-2 = Сказ павінен быць граматычна правільным.
 sc-criteria-item-3 = Сказ павінен быць такім, каб яго можна было прамовіць.
-
-## REVIEW PAGE
-
 report-sc-different-language = Іншая мова
-

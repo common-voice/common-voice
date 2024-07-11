@@ -35,7 +35,6 @@ review-rerecord = Segin ka sɛbɛnni kɛ
 review-cancel = ka dankari  Majigi
 review-keep-recordings = Aw ye o fɔlisenw mara
 review-delete-recordings = N ka fɔlisenw bɔ yen
-
 review-terms = Ni i bɛ baara kɛ ni Common Voice ye, i bɛ sɔn an ka <termsLink>Sariyaw</termsLink> ani <privacyLink>Gundola kunnafoni</privacyLink> ma
 terms-agree = N sɔnna o ma
 terms-disagree = N ma sɔn o ma

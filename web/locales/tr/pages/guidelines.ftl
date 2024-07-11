@@ -88,4 +88,3 @@ reviewing-sentences-explanation-2 = Cümle yukarıdaki ölçütleri karşılamı
 reviewing-sentences-explanation-3 = Cümleden emin değilseniz atlayabilir ve bir sonrakine geçebilirsiniz.
 reviewing-sentences-explanation-4 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
 domain-explanation = Alan, cümlenin konusunu ifade eder. Şu anda aşağıdakiler arasından seçim yapabilirsiniz:
-

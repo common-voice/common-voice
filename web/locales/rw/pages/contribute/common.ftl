@@ -1,10 +1,6 @@
-## New Contribution
-
 action-click = Kanda
 action-tap = Andika
-## Languages
-
-contribute = Fasha, tanga umusanzu
+contribute = Tanga umusanzu/ fasha
 skip = Simbuka
 shortcuts = Iza bugufi
 goal-help-recording = Wafashije porogaramu y'Ijwi Rusange kugeza ku mugambi wacu w'amajwi agomba gufatwa buri munsi.
@@ -16,6 +12,12 @@ contribute-more =
     }
 record-button-label = Fata ijwi ryawe
 share-title-new = Dufashe kubona andi majwi
+
+## Contribution Nav Items
+
+
+## Reporting
+
 
 ## Speak & Listen Shortcuts
 
@@ -43,4 +45,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

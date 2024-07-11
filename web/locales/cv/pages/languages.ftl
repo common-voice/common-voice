@@ -11,9 +11,7 @@ language-search-input =
 language-speakers = Калаҫакансем
 localized = Куҫарнӑ
 sentences = Пуплерӗшсем /предложенисем/
-## Languages
-
-contribute = Хутшӑн
+contribute = Атя, хутшӑн
 get-involved-button = Хутшӑн
 get-involved-title = Хывӑм хуш { $lang } чӗлхине
 get-involved-text = Тав сире { $lang } чӗлхипе интересленнипе. Эпир тӑрӑсша ӗҫлетпӗр кашни чӗлхене ярас енпе те хутшӑнакансемпе электронлӑ пуштӑпа ҫыхӑнатпӑр. Эсир хывӑм хушасшӑн пулсассӑн аялта электронлӑ пуштӑна хӑварӑр.

@@ -56,11 +56,8 @@ dataset-metadata-sex = 性別
 dataset-metadata-age = 年齢
 donate-modal-message = データセットをダウンロードしています。
 dataset-donate-modal-heading = ご存知ですか？
-
 data-download-singleword-title = 一語対象セグメントのダウンロード
 data-download-singleword-callout-v2 = これは、数字の音声認識と「はい・いいえ」の識別を開発するためのデータを含む、ユースケースに特化したセグメントです。
-## Data
-
 data-download-button = Common Voice データのダウンロード
 data-download-yes = はい
 data-download-deny = いいえ

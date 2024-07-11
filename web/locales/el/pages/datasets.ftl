@@ -75,11 +75,8 @@ dataset-donate-modal-heading = Γνωρίζατε ότι…
 donate-modal-explanation-1 = Η «φιλοξενία» των συνόλων δεδομένων, καθώς και η βελτίωση της πλατφόρμας για τις 100+ γλωσσικές κοινότητες που βασίζονται στο έργο μας, κοστίζουν σχεδόν ένα εκατομμύριο δολάρια ετησίως;
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Εάν εκτιμάτε τα ανοικτά, συμπεριληπτικά δεδομένα, κάντε μια δωρεά σήμερα!</bold>
-
 data-download-singleword-title = Λήψη τμήματος μεμονωμένης λέξης
 data-download-singleword-callout-v2 = Αυτό το τμήμα ορίζεται ανάλογα με τη χρήση και περιέχει δεδομένα για την υποστήριξη αναγνώρισης ψηφίων και την ανίχνευση «ναι»/«όχι».
-## Data
-
 data-download-button = Λήψη των δεδομένων Common Voice
 data-download-yes = Ναι
 data-download-deny = Όχι

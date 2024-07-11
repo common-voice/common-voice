@@ -15,9 +15,6 @@ localized = ସ୍ଥାନୀୟକରଣ ହୋଇଛି
 sentences = ବାକ୍ୟଗୁଡ଼ିକ
 language-validation-hours = ଘଣ୍ଟାଗୁଡ଼ିକ
 language-validation-progress = ପରଖ ପ୍ରଗତି
-
-## Languages
-
 contribute = ଯୋଗଦିଅନ୍ତୁ
 get-involved-button = ଭାଗ ନିଅନ୍ତୁ
 get-involved-title = { $lang }ରେ ଯୋଗଦିଅନ୍ତୁ

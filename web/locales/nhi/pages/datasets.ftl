@@ -32,9 +32,6 @@ ready-to-validate = yicuali tica para tiquin silis tlahtolme
 more = Cachi
 close = tlatzacua
 download = timolti
-
-## Data
-
 data-download-button = timulti tlanaoatil de Common Voice
 data-download-yes = quema
 data-download-deny = Amo

@@ -60,11 +60,8 @@ download = ኣውርድ
 dataset-version = ሕታም
 sha256-checksum-copied = SHA256 ድምር ተቐዲሑ!
 clipboard-not-supported = ክሊፕቦር ኣይድገፍን
-
 data-download-singleword-title = ነቲ ሓደ ቓል ዕላማ ዘለዎ ክፋል ኣራግፍ
 data-download-singleword-callout-v2 = እዚ ኸኣ ነቲ ብሓይሊ ዚዝረብ ናይ ኤለክትሮኒካዊ ምልላይ ንቅኑዕን / ገጋን ሓበሬታ ዝሓዘ ኣብ ጥቕሚ ዚውዕል ጕዳይ እዩ ።
-## Data
-
 data-download-button = ኣብ "ኮመን ቮይስ" ዘሎ ሓበሬታ ኣውርድ
 data-download-yes = እወ
 data-download-deny = ኣይፋል

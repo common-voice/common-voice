@@ -55,10 +55,7 @@ donate-modal-message = Stai scarricanu l'archiviu dî dati
 dataset-donate-modal-heading = U sapivi chi…
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Si duni valuri ê dati lìbbiri - dona oji!</bold>
-
 data-download-singleword-title = Scàrrica u sigmentu spicìficu chî palori sìnguli
-## Data
-
 data-download-button = Scàrrica i dati di Common Voice
 data-download-yes = Se
 data-download-deny = No

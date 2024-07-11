@@ -1,3 +1,5 @@
+## Profile - Avatar
+
 browse-file-title = сүрөт файл жүктөп берүү
 browse-file = Сүйрөп коюңуз же <browseWrap>файл тандаңыз</browseWrap>
 connect-gravatar = Gravatar менен байлаштыруу

@@ -13,9 +13,7 @@ language-search-input =
 language-speakers = वक्ता
 localized = स्थानीयकृत
 sentences = वाक्य
-## Languages
-
-contribute = योगदान करें
+contribute = योगदान दें
 get-involved-button = शामिल हों
 get-involved-title = { $lang } में योगदान दें
 get-involved-text =

@@ -16,7 +16,7 @@ validated-clips = ފާސްކުރެވިފައިވާ އަޑުކޮޅުތައް
 total-approved = ޖުމްލަ ފާސްކުރި
 overall-accuracy = ޖުމުލަގޮތެއްގައި ދިމާވުން
 
-## Reporting
+## Custom Goals
 
 
 ## Goals
@@ -37,4 +37,3 @@ validations =
         [one] ފާސްކުރުން
        *[other] ފާސްކުރުންތައް
     }
-

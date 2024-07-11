@@ -13,9 +13,7 @@ language-search-input =
 language-speakers = Kelliema
 localized = Lokaliżat
 sentences = Sentenzi
-## Languages
-
-contribute = Agħti sehmek
+contribute = Ikkontribwixxi
 get-involved-button = Involvi ruħek
 get-involved-title = Agħti sehmek għall-{ $lang }
 get-involved-text = Grazzi talli ħadt interess biex tagħti sehmek għall-{ $lang }. Aħna nagħmlu minn kollox biex kull lingwa tkun lesta biex tiġi varata, u nzommmu lit-timijiet aġġornati permezz tal-email. Jekk tixtieq tikkontribwixxi, jekk jogħġbok daħħal l-indirizz tal-email tiegħek hawn taħt.

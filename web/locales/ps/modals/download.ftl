@@ -7,4 +7,3 @@ download-form-email =
     .value = ستاسو څخه مننه، موږ به اړیکه کې یو.
 download-back = د عام غږ ډېټاسیټونو ته بیرته وګرځئ
 download-no = نه مننه
-

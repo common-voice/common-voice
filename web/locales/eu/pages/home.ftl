@@ -76,4 +76,3 @@ help-contribute = Kode irekiko datu-multzo desberdin bat osatzen lagun dezakezu,
 login-company = Hasi saioa / Eman izena { $company }-ko helbide elektronikoarekin
 profile-not-required = Profil bat sortzea ez da beharrezkoa laguntzeko baina lagungarria da
 read-more-about = Irakurri gehiago guri buruzko web-orrian
-

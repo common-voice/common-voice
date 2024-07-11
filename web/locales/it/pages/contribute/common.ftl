@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Fai clic su
 action-tap = Tocca
-## Languages
-
 contribute = Contribuisci
 review = Convalida
 skip = Salta
@@ -147,4 +143,3 @@ contribution-just-unsure-title = Hai ancora dei dubbi?
 contribution-just-unsure-description = Se ti imbatti in una situazione che non è prevista in queste linee guida, convalida seguendo il tuo giudizio. Se davvero non riesci a decidere, utilizza il pulsante Salta e passa alla registrazione seguente.
 see-more = <chevron></chevron>Mostra di più
 see-less = <chevron></chevron>Mostra di meno
-

@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = Yanapana
 get-involved-button = Yanapana

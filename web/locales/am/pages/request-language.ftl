@@ -37,4 +37,3 @@ request-language-success-list-3 =
 request-language-error =
     ያን ጥያቄ አላገኘን ይሆናል። እባክዎን በቀጥታ ኢሜይል ያድርጉልን
     በ<emailLink>{ $email }</emailLink> ላይ እና እኛ ወደ እርስዎ እንመለሳለን!
-

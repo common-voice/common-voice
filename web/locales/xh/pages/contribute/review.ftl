@@ -45,4 +45,3 @@ sc-criteria-item-3 = Isivakalisi masithetheke.
 sc-criteria-item-4 = Ukuba isivakalisi siyahlangabezana nemilinganiselo, cofa iqhosha elithi &quot;Vumela&quot; iqhosha ekunene.
 sc-criteria-item-5-2 = Ukuba isivakalisi asihlangabezani nezi nqobo zingentla, cofa iqhosha elithi &quot;reject&quot; iqhosha elisekhohlo. Ukuba awuqinisekanga ngesivakalisi, usenokusitsiba uye kwelandelayo.
 sc-criteria-item-6 = Ukuba uphelelwa zizivakalisi zokuphonononga, nceda usincede siqokelele izivakalisi ezininzi!
-

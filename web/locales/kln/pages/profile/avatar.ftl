@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = uploaden pikchayat
 browse-file = ibote ak ibagakte anan <browseWrap>cheng</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = filit negekwei ko oo mising
 avatar-uploaded = kageuploaden avatar
 max-file-size = { $kb } kb max
 remove-avatar = inemu Avatar
-

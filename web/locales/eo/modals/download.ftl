@@ -7,4 +7,3 @@ download-form-email =
     .value = Dankon, ni restos en kontakto.
 download-back = Reiri al la datumaroj de Common Voice
 download-no = Ne, dankon
-

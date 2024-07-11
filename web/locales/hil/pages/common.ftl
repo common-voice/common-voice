@@ -17,9 +17,14 @@ ast = Asturian
 az = Azerbaijani
 ba = Bashkir
 
-## General
+# [/]
+
+
+## Layout
 
 email-input =
     .label = Email
 not-available-abbreviation = N/A
+
+## Donate banner
 

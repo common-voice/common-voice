@@ -1,6 +1,6 @@
-write = Skrivañ
 ## WRITE PAGE
 
+write = Skrivañ
 sentence =
     .label = Frazenn
 new-sentence-rule-2 = Nebeutoc’h eget 15 ger
@@ -23,4 +23,3 @@ file-invalid-type = Restr direizh
 file-too-large = Re vras eo ar restr
 file-too-small = Re vihan eo ar restr
 too-many-files = Re a restroù a zo
-

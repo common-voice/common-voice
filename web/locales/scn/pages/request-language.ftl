@@ -27,4 +27,3 @@ request-language-success-list-3 =
 request-language-error =
     Capaci chi nun arricivemmu ḍḍa richiesta. Pi favuri cuntàttani
     direttu nne <emailLink>{ $email }</emailLink> e ti cuntattamu!
-

@@ -47,10 +47,7 @@ donate-modal-message = miten kodownloadeni dataset nengung!
 dataset-donate-modal-heading = tos ingen?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>ndayatasgei nambet,negigitesyi data -igoite raa!</bold>
-
 data-download-singleword-title = downloaden ngolyot agenge negibore eng segmentit
-## Data
-
 data-download-button = downloaden data nebo sautitab nenayat
 data-download-yes = ayani
 data-download-deny = achaa

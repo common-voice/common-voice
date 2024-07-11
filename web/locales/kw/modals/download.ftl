@@ -7,4 +7,3 @@ download-form-email =
     .value = Meur ras, ni a vynn kestava genowgh.
 download-back = Dehweles dhe settys data Common Voice
 download-no = Ny vynnav, meur ras
-

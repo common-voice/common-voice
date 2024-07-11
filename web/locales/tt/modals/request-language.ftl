@@ -7,7 +7,4 @@ request-language-success-title = Телнең өстәлүен сорау тап
 request-language-success-content = Common Voice'ка Сезнең телне өстәү өчен нишләргә кирәк икәнен аңлатучы өстәмә мәгълүматны якын арада җибәрербез.
 select-language = Телне сайлау...
 other-language = Башка тел
-
-## General
-
 yes-receive-emails = Әйе, миңа электрон хатлар җибәрегез. Минем Common Voice проекты турындагы яңалыкларны белеп торасым килә.

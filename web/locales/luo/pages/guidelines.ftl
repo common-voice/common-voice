@@ -19,4 +19,3 @@ adding-sentences-subheader-abbreviations = Ranyisi mag ndiko weche
 adding-sentences-subheader-punctuation = Ranyisi mag wach
 adding-sentences-subheader-special-characters = Ndiko mopondo kendo mawendo
 adding-sentences-subheader-offensive-content = Weche maok kare
-

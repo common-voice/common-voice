@@ -78,4 +78,3 @@ variant-contribution-option-1 = Zobrazovať vety a klipy iba z môjho variantu
 variant-contribution-option-2 = Zobrazovať vety a klipy zo všetkých variantov v rámci môjho jazyka
 variant-contribution-warning-title = ⓘ Zatiaľ nie všetky vety a klipy majú priradený variant!
 variant-contribution-warning-subtitle = Ak máte problémy s prispievaním, môžete sa kedykoľvek prepnúť späť na zobrazenie všetkého obsahu vo vašom jazyku.
-

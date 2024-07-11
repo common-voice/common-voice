@@ -10,4 +10,3 @@ download-request-button = Descargar
 download-request-title = { $created }
 download-request-refresh-button = Actualizar
 download-request-modal-title = Enlaces de descarga
-

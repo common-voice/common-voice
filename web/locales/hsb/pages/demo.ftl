@@ -33,4 +33,3 @@ demo-listen-subtitle = Chceće sobu činić?
 
 demo-dashboard-card-header = Wosobinske přehlady was wo indiwiduelnym postupje a wo postupje zhromadźenstwa na běžnym dźerža.
 demo-dashboard-card-body = Za kóždy darjeny hłosowy klip a kóždy přepruwowany awdioklip so waše kontowe přehlady aktualizuja, zo by so waš najnowši postup w kóždej rěči, ke kotrejž přinošujeće, wotbłyšćował. Haj, móžeće k wjace hač jednej rěči přinošować!<br/><br/> Wužiwajće přehlady, zo byšće swoje statistiki slědował, zo byšće widźał, kak porno druhim ludźom w zhromadźenstwje wotrězujeće a zo byšće so wšědne abo tydźenske přinošowanske cile stajił.
-

@@ -33,7 +33,6 @@ review-rerecord = Nahrať znova
 review-cancel = Zrušiť odoslanie
 review-keep-recordings = Ponechať nahrávky
 review-delete-recordings = Odstrániť moje nahrávky
-
 review-terms = Používaním Common Voice súhlasíte s našimi <termsLink>Podmienkami používania služby</termsLink> a <privacyLink>Vyhlásením o ochrane osobných údajov</privacyLink>
 terms-agree = Súhlasím
 terms-disagree = Nesúhlasím

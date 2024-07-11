@@ -61,4 +61,3 @@ reviewing-sentences-explanation-1 = Jolic sada kriterijam górjejce wótpowěduj
 reviewing-sentences-explanation-2 = Jolic sada kriterijam górjejce njewótpowědujo, klikniśo na tłocašk „Ně“.
 reviewing-sentences-explanation-4 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
 domain-explanation = Tema se na temu sady póśěgujo. Tuchylu móžośo wubraś mjazy:
-

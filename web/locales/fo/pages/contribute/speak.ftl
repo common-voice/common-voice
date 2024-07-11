@@ -7,6 +7,5 @@ record-error-too-quiet = Upptøkan var ov spakulig.
 review-submit-title = Kanna og send inn
 review-recording = Kanna
 review-delete-recordings = Strika mínar upptøkur
-
 terms-agree = Eg góðtaki
 terms-disagree = Eg góðtaki ikki

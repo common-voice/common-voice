@@ -78,4 +78,3 @@ validations =
         [one] тергӹмӓш
        *[other] тергӹмӓш
     }
-

@@ -39,4 +39,3 @@ request-language-success-list-3 =
 request-language-error =
     Efallai na fyddwn wedi derbyn y cais hwnnw. Anfonwch e-bost atom yn uniongyrchol
     ar <emailLink>{ $email }</emailLink> a byddwn yn cysylltu â chi!
-

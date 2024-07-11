@@ -44,11 +44,4 @@ sc-criteria-item-3 = Tafyirt ilaq ad tili tettwanṭaq.
 sc-criteria-item-4 = Ma yella tafyirt deg-s akk isefranen, sit ɣef tqeffalt &quot;Sentem&quot; yellan ɣef yeffus.
 sc-criteria-item-5-2 = Ma tafyirt ur teddi ara d yisefranen n ufella, sit ɣef tqeffalt &quot;Agi&quot; i yellan deg tama tazelmaḍt. Mayella ur tettḥeqqeḍ ara ɣef tefyirt, tzemreḍ daɣen ad as-tɛeddiḍ akken ad tedduḍ ɣer tin i d-itteddun.
 sc-criteria-item-6 = Ma yella ur tesɛiḍ ara tifyar ara tesneqdeḍ, efk-aɣ-d afus ad d-nelqeḍ ugar n tefyar!
-
-## LANGUAGE VARIANT CODES
-
-
-## REVIEW PAGE
-
 report-sc-different-language = Tutlayt niḍen
-

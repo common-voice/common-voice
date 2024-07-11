@@ -7,4 +7,3 @@ download-form-email =
     .value = Siyabonga, sitochumana.
 download-back = Buyela kuma Dataset aka Common Voice
 download-no = Cha Ngiyabonga
-

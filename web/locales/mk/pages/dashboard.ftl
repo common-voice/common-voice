@@ -112,4 +112,3 @@ validations =
         [one] Потврда
        *[other] Потврди
     }
-

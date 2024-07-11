@@ -25,4 +25,3 @@ download-request-modal-title = Latauslinkit
 download-request-modal-description = Tässä on linkit ZIP-tiedostojen lataamiseksi.
 download-request-link-text = Zip-tiedosto { $offset }/{ $total }
 download-request-metadata-link = Lauseen teksti
-

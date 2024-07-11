@@ -223,7 +223,6 @@ link-copied = Aseɣwen yettwanɣel
 back-top = Uɣal d asawen
 logout = Ffeɣ
 donate = Mudd tawsa
-
 stayintouch = Nekkni deg Mozilla, nbennu tarbaɛt i ittezzin ɣef tetiknulujit n taɣect. Nebɣa ad neqqim akked umaynut d yileqman, iɣbula n yisefka imaynuten daɣen ad nsell ugar ɣef wamek ara ttwasqedcen isefka-agi.
 privacy-info = Ad neḍmen aḥraz n talɣut-nwen. Ɣaṛ ugar n yisallen deg <privacyLink>tsertit-nneɣ tabaḍnit</privacyLink>.
 return-to-cv = Uɣal ɣer Common Voice
@@ -237,7 +236,8 @@ email-opt-in-info-sub-with-challenge = Ṭṭef imaylen am iznan n timzizliyin a
 email-opt-in-privacy-v2 = Ma tferneḍ armas n yimaylen, ad tqebleḍ ad tesseqdec Mozilla talɣut-a akken i d-tettwasegza deg <privacyLink>Tasertit n tbaḍnit n Mozilla</privacyLink>.
 indicates-required = * Yemmal-d urti ilaqen
 not-available-abbreviation = N/A
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Fren tutlayt/tasuqqilt

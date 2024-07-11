@@ -7,4 +7,3 @@ download-form-email =
     .value = Merci, nous prendrons contact avec vous.
 download-back = Retourner aux jeux de données Common Voice
 download-no = Non merci
-

@@ -62,4 +62,3 @@ help-contribute = Tu gali padėti kurti įvairialypį, atvirą duomenų rinkinį
 login-company = Prisijunk arba užsiregistruok su savo „{ $company }“ el. paštu
 profile-not-required = Talkininko profilis nėra privalomas, tačiau naudingas
 read-more-about = Išsamesnė informacija – tinklalapyje „Apie mus“
-

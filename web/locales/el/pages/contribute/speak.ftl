@@ -33,7 +33,6 @@ review-rerecord = Επανάληψη εγγραφής
 review-cancel = Ακύρωση υποβολής
 review-keep-recordings = Διατήρηση ηχογραφήσεων
 review-delete-recordings = Διαγραφή ηχογραφήσεων
-
 review-terms = Με τη χρήση του Common Voice, συμφωνείτε με τους <termsLink>Όρους</termsLink> και τη <privacyLink>Σημείωση απορρήτου</privacyLink>
 terms-agree = Συμφωνώ
 terms-disagree = Δεν συμφωνώ

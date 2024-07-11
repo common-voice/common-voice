@@ -17,9 +17,6 @@ localized = Oversatt
 sentences = Setninger
 language-validation-hours = Timer
 language-validation-progress = Valideringsprosess
-
-## Languages
-
 contribute = Bidra
 get-involved-button = Bli involvert
 get-involved-title = Bidra til { $lang }

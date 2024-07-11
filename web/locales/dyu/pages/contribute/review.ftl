@@ -44,4 +44,3 @@ sc-criteria-item-3 = Kumasen ka kan ka kɛ kumasen ye.
 sc-criteria-item-4 = Ni kumasen bɛ sariyaw dafa, i ka &quot;Sɔn&quot; butɔni min bɛ kinin fɛ.
 sc-criteria-item-5-2 = Ni kumasen ma bɛn sanfɛla sariyaw ma, i ka &quot;Bana&quot; butɔni min bɛ kinin fɛ. N’i dalen tɛ kumasen in na, i bɛ se fana ka tɛmɛ a kan ka taa kumasen nata la.
 sc-criteria-item-6 = Ni kumasenw banna i bolo ka segin u kan, i k’an dɛmɛ ka kumasen wɛrɛw lajɛ!
-

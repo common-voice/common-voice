@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Ungasitshela ukuba kungani ufuna okwakho okuqoshiwe kususwe?
 profile-form-delete = Susa iphrofayela
-

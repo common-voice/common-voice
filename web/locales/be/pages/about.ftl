@@ -117,3 +117,5 @@ about-playbook-how-project-governance-content-5 = Каштоўнасць і пр
 about-playbook-how-project-governance-content-6 = Узаемная адказнасць.
 about-playbook-how-project-governance-content-7 = <governanceLink>Даведайцеся больш пра тое, як у нас арганізавана кіраванне</governanceLink>
 
+## How is Common Voice funded
+

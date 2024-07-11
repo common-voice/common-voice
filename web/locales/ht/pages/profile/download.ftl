@@ -28,4 +28,3 @@ download-request-modal-description = Men lyen pou telechaje dosye ZIP ou yo.
 download-request-link-text = Kòd postal #{ $offset } nan { $total }
 download-request-metadata-link = Tèks fraz
 download-request-link-single = Ou kapab tou kopye epi kole URL dirèk yo nan manadjè download pi renmen ou. Yo pral ekspire nan 12 èdtan, men ou ka tounen nan paj sa a pou jenere nouvo nenpòt ki lè.
-

@@ -5,4 +5,3 @@ error-content-404 = Oba nga <homepageLink>homepage</homepageLink> yaffe enayamba
 error-title-503 = Tulinamu obuzibu bwetuteetegekedde.
 error-content-503 = Ekibanja kino kijja kuddako mangu ddala nga bwekisoboka. Okufuna obubaka obwakatuuka, weegatte ku <matrixLink>Matrix community chat</matrixLink> oba kyala ku <githubLink>GitHub</githubLink> oba <discourseLink>our Discourse forums</discourseLink> okuwaayo n'okulondoola ebuzibu bw'ofuna ku mutimbagano.
 error-code = Error { $code }
-

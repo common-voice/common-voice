@@ -49,11 +49,8 @@ more = Көбірек
 close = Жабу
 download = Жүктеп алу
 dataset-version = Нұсқа
-
 data-download-singleword-title = Бір сөзден тұратын мақсатты сегментті жүктеңіз
 data-download-singleword-callout-v2 = Бұл сөйлеу цифрларын тану және иә / жоқ анықтауды күшейтуге арналған деректерді қамтитын қолдануға арналған сегмент.
-## Data
-
 data-download-button = Common Voice деректерін жүктеп алу
 data-download-yes = Иә
 data-download-deny = Жоқ

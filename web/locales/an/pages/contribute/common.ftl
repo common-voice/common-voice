@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Clic
 action-tap = Triar
-## Languages
-
 contribute = Colaborar
 skip = Blincar
 shortcuts = Accesos directos
@@ -26,6 +22,9 @@ target-segment-generic-card = Yes contribuyindo a un segmento obchectivo
 target-segment-first-banner = Aduya a crear lo primer obchectivo segmentau de Common Voice en { $locale }
 target-segment-add-voice = Anyade la tuya voz
 target-segment-learn-more = Mas información
+
+## Contribution Nav Items
+
 
 ## Reporting
 

@@ -234,9 +234,6 @@ link-copied = Link okopiyari
 back-top = Otthikela osuluu
 logout = Okhuma
 donate = Ohiyera
-
-## General
-
 return-to-cv = Muhokolowele o Common Voice
 email-input =
     .label = Emeeyili
@@ -246,7 +243,8 @@ email-opt-in-info = Kiphavela wakhelela emeeyiili, iye ntooko  soorepela sa miph
 email-opt-in-info-title = Mwirele mpantta mulixitani wa onyakulihana wa Common Voice
 email-opt-in-info-sub-with-challenge = Mwaakhele e-meyili, ntoko soohiliyala sa ophavela ni soowiira, oreherya, opwaha ni ipoletim sa mitthaka mwaha wa Common Voice.
 not-available-abbreviation = Ohikwanela
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Muthanle nttava/elapo

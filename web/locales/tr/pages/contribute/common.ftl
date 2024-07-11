@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = tıklayın
 action-tap = dokunun
-## Languages
-
-contribute = Katkıda bulunun
+contribute = Katkıda bulun
 review = İncele
 skip = Atla
 shortcuts = Kısayollar
@@ -150,4 +146,3 @@ contribution-just-unsure-title = Emin değil misiniz?
 contribution-just-unsure-description = Bu yönergelerin kapsamadığı bir şeyle karşılaşırsanız, lütfen sağduyunuza göre oy verin. Gerçekten karar veremiyorsanız, atlama düğmesini kullanın ve bir sonraki kayda geçin.
 see-more = <chevron></chevron>Devamını gör
 see-less = <chevron></chevron>Daha azını gör
-

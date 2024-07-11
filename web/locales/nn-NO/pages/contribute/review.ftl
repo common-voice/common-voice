@@ -19,12 +19,5 @@ sc-criteria-title = Vurderingskriterium
 sc-criteria-item-1 = Setninga må vere rett stava.
 sc-criteria-item-2 = Setninga må vere grammatisk rett.
 sc-criteria-item-3 = Setninga må kunne seiast.
-
-## LANGUAGE VARIANT CODES
-
-
-## REVIEW PAGE
-
 report-sc-different-language = Anna språk
 sc-redirect-page-subtitle-2 = Still spørsmål på <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> eller <emailLink>e-post</emailLink>.
-

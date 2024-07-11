@@ -12,9 +12,6 @@ language-speakers = Cainteoirí
 localized = Aistrithe
 sentences = Abairtí
 language-validation-hours = Uaire
-
-## Languages
-
 contribute = Rannpháirtíocht
 get-involved-button = Glac Páirt
 get-involved-title = Cabhraigh linn { $lang } a fheabhsú

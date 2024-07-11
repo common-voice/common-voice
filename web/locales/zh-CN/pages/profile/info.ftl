@@ -78,4 +78,3 @@ variant-contribution-option-1 = 显示我的语言中所有变体的句子和片
 variant-contribution-option-2 = 只显示我的语言变体中的句子和片段
 variant-contribution-warning-title = ⓘ 并不是所有的句子和片段都已经有了变体标签！
 variant-contribution-warning-subtitle = 如果您在贡献时遇到问题，您可以随时切回查看该语言的所有内容。
-

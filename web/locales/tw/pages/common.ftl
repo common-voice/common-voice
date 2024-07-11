@@ -201,7 +201,6 @@ share-text = Boa kyerɛ mfidie sɛnea nnipa kasa. Ma won nne { $link } ho
 link-copied = Link Copied
 back-top = San kɔ soro ho
 logout = Log Out
-
 stayintouch = Ye wo Mozilla yeresi mpɔtam voice technology ho. Ye pɛ sɛ ye kasa wo amanneɛ ho, data sources foforo, na tie sɛn na wo hwɛ data yi.
 privacy-info = Yehyɛ wo bɔ sɛ yebehwɛ wo ho so yie. Akenkan yɛn <privacyLink>Privacy Notice<privacyLink>
 return-to-cv = san kɔ Common Voice
@@ -215,3 +214,6 @@ email-opt-in-info-sub-with-challenge = Me pɛ sɛ me gye emails challenge ne goa
 email-opt-in-privacy-v2 = Sɛ wo pɛ sɛ wo gye emails a, wo ka sɛ w'ani agye sɛ Mozilla agye information yi, Mozilla's <privacyLink> Privacy Policy <privacyLink> kwan so
 indicates-required = Ewo sɛ wo twerɛ wo adaka no mu a wo asterisk (*)
 not-available-abbreviation = N/A
+
+## Donate banner
+

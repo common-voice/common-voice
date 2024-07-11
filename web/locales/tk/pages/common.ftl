@@ -183,7 +183,6 @@ share-text = Maşynlara hakyky adamlaryň nähili gepleýändigini öwretmäge k
 link-copied = Baglanyşyk göçürildi
 back-top = Ýokary dolan
 logout = Hasapdan çyk
-
 stayintouch = Biz Mozilla-da ses tehnologiýalary boýunça jemgyýeti döredýäris. Biz täzelenmeleri, täze maglumat çeşmelerini paýlaşyp habarlaşyp durmak hem-de maglumaty nähili ulanýandygyňyz barada sizden habar almak isleýäris.
 privacy-info = Biz siziň maglumatyňyzy aýratyn üns bilen işlejekdigimize söz berýäris. Bu barada <privacyLink>Ýaşyrynlyk bildirişinde</privacyLink> okaň.
 return-to-cv = Common Voice-a dolan
@@ -197,4 +196,6 @@ email-opt-in-info-sub-with-challenge = Ýumuşlar we öňde goýlan maksat ýatl
 email-opt-in-privacy-v2 = E-poçtalary almaga meýletin goşulmak bilen siz Mozillanyň bu maglumaty Mozillanyň  <privacyLink>Gizlinlik syýasatynda</privacyLink> düşündirilişi ýaly ulanjakdygyna razylyk berýärsiňiz.
 indicates-required = * Hökmany meýdany görkezýär
 not-available-abbreviation = D/D
+
+## Donate banner
 

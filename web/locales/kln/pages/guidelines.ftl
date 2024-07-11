@@ -47,4 +47,3 @@ adding-sentences-subheader-numbers = nambok
 adding-sentences-subheader-abbreviations = abbreviationishek ak acronymishek
 adding-sentences-subheader-punctuation = punctuation eng ngalek
 adding-sentences-subheader-offensive-content = tinyei ngalek chemobo konyit
-

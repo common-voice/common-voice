@@ -76,4 +76,3 @@ help-contribute = Common Voice profilini döredip we sesiňizi goşant goşup, k
 login-company = Gir / { $company } e-poçtasy bilen ýazyl
 profile-not-required = Goşant goşmak üçin profiliň bolmagy hökmany däl, ýöne ol peýdaly, sebäbini aşakda görüň.
 read-more-about = Hakynda sahypamyzda goşmaça okaň
-

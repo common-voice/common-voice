@@ -79,4 +79,3 @@ help-contribute = Jius varit paleidzēt taiseit daudzveideigu valejuo pyrmkoda d
 login-company = Pīsasokit / pīsarokstit ar { $company } e-postu
 profile-not-required = Lai dūtu īguļdejumu, profilu taiseit navajag, bet tys var byut dereigi, ka jius tū sataiseisit.
 read-more-about = Skaitit vaira myusu lopā Par mums
-

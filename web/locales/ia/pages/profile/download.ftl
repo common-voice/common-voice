@@ -28,4 +28,3 @@ download-request-modal-description = Ecce le ligamine de discargamento de tu fil
 download-request-link-text = Zip #{ $offset } de { $total }
 download-request-metadata-link = Texto del phrase
 download-request-link-single = Tu pote etiam copiar e collar le URLs directe in tu gestor de discargamento favorite. Illos expirara in 12 horas, ma tu pote sempre retornar a iste pagina pro generar noves.
-

@@ -13,10 +13,7 @@ language-search-input =
 language-speakers = 使用者數
 localized = 已翻譯
 sentences = 句子
-
-## Languages
-
-contribute = 貢獻
+contribute = 參與貢獻
 get-involved-button = 來加入阮
 get-involved-title = 貢獻到 { $lang }
 get-involved-text = 你有興趣欲來幫贊 { $lang } ，阮誠感謝。阮為著支援各種無仝的言語咧拍拚，透過電子批來使團隊收接上新的訊息。若你嘛願意提供幫贊，請佇下跤共你的電子批地址留予阮。

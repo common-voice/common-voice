@@ -121,3 +121,5 @@ about-playbook-how-project-governance-content-5 = 價值觀同認同感。
 about-playbook-how-project-governance-content-6 = 互相問責。
 about-playbook-how-project-governance-content-7 = <governanceLink>了解更多我哋係點管治嘅</governanceLink>
 
+## How is Common Voice funded
+

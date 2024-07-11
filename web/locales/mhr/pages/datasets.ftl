@@ -56,11 +56,8 @@ more = Эше
 close = Петыраш
 download = Тулен налаш
 dataset-version = Версий
-
 data-download-singleword-title = Ик мут дене шумлык ужашым вераҥде
 data-download-singleword-callout-v2 = Тиде кучылтмо тӱрлылык дене виктаралтше ойлымо цифрым да «туге/уке» манмым пален налашлан данный дене ужаш.
-## Data
-
 data-download-button = Common Voice данныйым тулен налаш
 data-download-yes = Туге
 data-download-deny = Уке

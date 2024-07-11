@@ -33,7 +33,6 @@ review-rerecord = വീണ്ടും റെക്കോർഡ് ചെയ്
 review-cancel = സമർപ്പിക്കൽ റദ്ദാക്കുക
 review-keep-recordings = റെക്കോർഡിങ്ങുകൾ സൂക്ഷിക്കുക
 review-delete-recordings = എന്റെ റെക്കോർഡിംഗുകൾ ഇല്ലാതാക്കുക
-
 review-terms = കോമണ്‍ വോയിസ് ഉപയോഗിക്കുന്നതുവഴി, നിങ്ങൾ ഞങ്ങളുടെ <termsLink>നിബന്ധനകൾ</termsLink>, <PrivacyLink> സ്വകാര്യതാ അറിയിപ്പ് </ privacyLink> എന്നിവ അംഗീകരിക്കുന്നു
 terms-agree = ഞാൻ അംഗീകരിക്കുന്നു
 terms-disagree = ഞാൻ അംഗീകരിക്കുന്നില്ല

@@ -13,8 +13,6 @@ language-search-input =
 language-speakers = المتحدّثون
 localized = ترجمة الموقع
 sentences = الجمل
-## Languages
-
 contribute = ساهِم
 get-involved-button = اشترك معنا
 get-involved-title = ساهم في { $lang }

@@ -126,4 +126,3 @@ validations =
         [few] Potvrde
        *[other] Potvrda
     }
-

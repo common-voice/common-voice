@@ -76,4 +76,3 @@ help-contribute = Tzemreḍ ad aɣ-d-fkkeḍ tallelt ad nebnu tagruma n teɣbalu
 login-company = Kcem / Jerred s imayl { $company }
 profile-not-required = Amaɣnu mačči d ayen ilaqen akken ad tekkiḍ maca d ayen ara yeɛiwnen
 read-more-about = Ɣeṛ ugar deg usebter "Ɣef"
-

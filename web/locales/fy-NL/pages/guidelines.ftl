@@ -95,4 +95,3 @@ reviewing-sentences-explanation-2 = As de sin net oan de boppesteande kritearia 
 reviewing-sentences-explanation-3 = As jo net wis binne oer de sin, kinne jo it ek oerslaan en trochgean nei de folgjende.
 reviewing-sentences-explanation-4 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
 domain-explanation = Domein ferwiist nei it ûnderwerp fan de sin. Op dit stuit kinne jo kieze tusken:
-

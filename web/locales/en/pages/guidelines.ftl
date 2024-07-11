@@ -65,7 +65,7 @@ citing-sentences-subheader-academic-reference = Academic Reference
 citing-sentences-subheader-academic-reference-explanation = You could use academic referencing style, e.g Harvard style "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 citing-sentences-subheader-offline-sources = Offline Sources
 citing-sentences-subheader-offline-sources-explanation = For public domain text that is not available online, you could use academic referencing style e.g Harvard style "Jess (2021) My Public license poems"
-citation = 
+citation =
     .label = Citation
 self-citation = Self Citation
 self-citation-explanation = This is how you cite yourself if you wrote the content yourself.
@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = If the sentence does not meet the above crit
 reviewing-sentences-explanation-3 = If you are unsure about the sentence, you may also skip it and move on to the next one.
 reviewing-sentences-explanation-4 = If you run out of sentences to review, please help us collect more sentences!
 domain-explanation = Domain refers to the subject matter of the sentence. Currently, you can choose between:
-

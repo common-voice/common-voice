@@ -114,4 +114,3 @@ validations =
         [one] Asentem
        *[other] Isentam
     }
-

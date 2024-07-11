@@ -68,4 +68,3 @@ help-accent = Aksani şeni meşvelu gorum-i?
 help-accent-explanation = Aksanitkvani zit̆ape muç̆o na tkumet iya tkvala ren. Na skidurt sva, na ğarğalapt majura nenape do çkva do çkva  mutxanepeten gitzipxen.Hak, diç̆irs ya na isimadept mtelli mutxani gigadvenan.
 help-variants = Variantepe şeni meşvelu gorum-i?
 help-variants-explanation = Variantepe nenaşi meçkineri ar k̆ata ren. Meçkineri ar svas var na ar ok̆obğalas na skidunanpek na  uk̆uixmarnanpe steri...Yomi, antepes dialekti itkven.
-

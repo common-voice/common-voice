@@ -1,6 +1,6 @@
-write = Scrivi
 ## WRITE PAGE
 
+write = Scrivi
 write-instruction = Agghiunci <icon></icon> na frasi nnô duminiu pùbblicu
 sentence =
     .label = Frasi
@@ -52,4 +52,3 @@ file-invalid-type = Pricu nun vàlidu
 file-too-large = U pricu è troppu assai granni
 file-too-small = U pricu è troppu assai nicu
 too-many-files = Troppu assai prichi
-

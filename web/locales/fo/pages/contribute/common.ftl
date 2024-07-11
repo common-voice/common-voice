@@ -1,10 +1,14 @@
-## Languages
-
-contribute = Hjálp til
+contribute = Stuðla
 skip = Leyp um
 shortcuts = Snarvegir
 record-button-label = Tak upp tína rødd
 share-title-new = <bold>Hjálp okkum</bold> at finna meira røddir
+
+## Contribution Nav Items
+
+
+## Reporting
+
 
 ## Speak & Listen Shortcuts
 
@@ -32,4 +36,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

@@ -28,4 +28,3 @@ download-request-modal-description = Hér eru tenglar til að sækja ZIP-safnskr
 download-request-link-text = Zip-safnskrá #{ $offset } af { $total }
 download-request-metadata-link = Texti setningar
 download-request-link-single = Þú getur líka afritað og límt beinu vefslóðirnar inn í eftirlætis niðurhalsstjórann þinn. Þær munu renna út eftir 12 klukkustundir, en þú getur farið aftur á þessa síðu til að búa til nýja tengla hvenær sem er.
-

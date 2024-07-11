@@ -1,1 +1,2 @@
-    .label = Corréu
+## Request Language Pages
+

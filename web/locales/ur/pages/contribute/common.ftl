@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = کلک
 action-tap = تھپتپانا
-## Languages
-
-contribute = حصہ دارای
+contribute = حصہ دارانہ
 skip = اچٹیں
 shortcuts = تیز راہ
 clips-with-count-pluralized =
@@ -109,4 +105,3 @@ contribution-volume-title = حجم
 contribution-just-unsure-title = صرف غیر یقینی؟
 see-more = <chevron></chevron>مزید دیکھیں
 see-less = <chevron></chevron>کم دیکھیں
-

@@ -33,7 +33,6 @@ review-rerecord = Ales asekles
 review-cancel = Sefsex tuzna
 review-keep-recordings = Eǧǧ ikalasen
 review-delete-recordings = Kkes ikalasen-iw
-
 review-terms = S useqdec n Common Voice, ad tqebleḍ tiwtilin-nneγ <termsLink> akked <privacyLink>tasertit-nneγ n tbaḍnit </privacyLink>
 terms-agree = Qebleɣ
 terms-disagree = Ur qbileɣ ara

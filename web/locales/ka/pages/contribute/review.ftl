@@ -53,9 +53,6 @@ sc-criteria-item-5-2 =
     თუ ვერ აკმაყოფილებს ზემოაღნიშნულ პირობებს, დაწკაპეთ „უარყოფა“ მარცხენა მხარეს.
     თუ გიჭირთ გადაწყვეტა, შეგიძლიათ გამოტოვოთ და სხვაზე გადახვიდეთ.
 sc-criteria-item-6 = თუ ამოიწურება შესამოწმებელი წინადადებები, გთხოვთ დაგვეხმაროთ ახლის მოძიებასა და შეგროვებაში!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = შეამოწმეთ, <icon></icon> ენობრივად გამართულია თუ არა წინადადებები.
 sc-review-rules-title = აკმაყოფილებს მითითებულ მოთხოვნებს?
@@ -69,4 +66,3 @@ review-error-rate-limit-exceeded = ზედმეტად ჩქარობ�
 sc-redirect-page-title = მნიშვნელოვანი ცვლილებებია
 sc-redirect-page-subtitle-1 = წინადადებების შემგროვებელი გადადის Common Voice-ის ძირითად საიტზე. ახლა შეგიძლიათ <writeURL>შეადგინოთ</writeURL> წინადადება ან <reviewURL>შეამოწმოთ</reviewURL> ცალკეულად დამატებული წინადადებები პირდაპირ Common Voice-ზე.
 sc-redirect-page-subtitle-2 = კითხვების დასასმელად გამოიყენეთ <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ან <emailLink>ელფოსტა</emailLink>.
-

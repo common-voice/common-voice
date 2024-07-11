@@ -33,7 +33,6 @@ review-rerecord = recorden kogeny
 review-cancel = mati sanyan
 review-keep-recordings = testai irecordeni
 review-delete-recordings = istee recordings chechuuk
-
 review-terms = ngiboishen sautit nenayat,ko iyoni <termsLink>Terms</termsLink> ako<privacyLink>Privacy Notice</privacyLink>
 terms-agree = ayani
 terms-disagree = mayani

@@ -17,9 +17,6 @@ localized = አካባቢያዊ የተደረገ
 sentences = ዓረፍተ ነገሮች
 language-validation-hours = ሰዓታት
 language-validation-progress = የማረጋገጫ ሂደት
-
-## Languages
-
 contribute = ያበርክቱ
 get-involved-button = ይሳተፉ
 get-involved-title = ለ { $lang } ያበርክቱ

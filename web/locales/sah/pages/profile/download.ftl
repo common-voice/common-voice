@@ -10,4 +10,3 @@ download-request-button = Хачайдааһын
 download-request-title = { $created }
 download-request-refresh-button = Саҥарт
 download-request-link-text = Zip №{ $offset } / { $total }
-

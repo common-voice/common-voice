@@ -114,4 +114,3 @@ validations =
         [one] Ìfọwọ́sí
        *[other] Àwọn ìfọwọ́sí
     }
-

@@ -10,7 +10,6 @@ review-submit-title = Тексериў ҳәм жибериў
 review-recording = Тексериў
 review-rerecord = Қайта жазыў
 review-cancel = Жибериўди бийкарлаў
-
 terms-agree = Разыман
 terms-disagree = Разы емеспен
 why-donate = Не ушын сорап атырсыз?

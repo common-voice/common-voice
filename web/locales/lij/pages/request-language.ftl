@@ -33,4 +33,3 @@ request-language-success-list-3 =
 request-language-error =
     Peu dâse che no emmo reçevuo quella domanda. Manda unn’email direttamente
     à l’adresso <emailLink>{ $email }</emailLink> e te contattiemo.
-

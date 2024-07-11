@@ -45,9 +45,6 @@ sc-criteria-item-3 = ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵜⵖⴰⵢ ⵜⵡⵉⵏⵙⵜ 
 sc-criteria-item-4 = ⵎⴽ ⴷ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴷ ⵉⵙⴱⴷⴰⴷⵏ, ⴽⵍⵉⴽⵉ ⵅⴼ ⵓⴱⵔⴰ &quot;ⵙⵙⴳⵍⵢ&quot; ⴳ ⵓⴼⴰⵙⵉ.
 sc-criteria-item-5-2 = ⵎⴽ ⴷ ⵓⵔ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴷ ⵉⵙⴱⴷⴰⴷⵏ ⵏⵏⵉⴳ ⴷⴰ, ⴽⵍⵉⴽⵉ ⵅⴼ ⵓⴱⵔⴰ &quot;ⴰⴳⵢ&quot; ⴳ ⵓⵥⵍⵎⴰⴹ. ⵎⴽ ⵓⵔ ⵜⵃⵇⵇⴰⴷ ⴳ ⵜⵡⵉⵏⵙⵜ, ⵜⵖⵉⵢⴷ ⴰⵡⴷ ⴰⴷ ⵜⵜ ⵜⵙⵙⵉⵏⴼⴷ, ⵜⵎⵎⵓⵜⵜⵉⴷ ⵖⵔ ⵜⵓⴹⴼⵉⵕⵜ.
 sc-criteria-item-6 = ⵎⴽ ⴰⵡⵏ ⵙⵎⴰⵔⵏⵜ ⵜⵡⵉⵏⴰⵙ ⵎ'ⴰⴷ ⵜⵙⵙⵉⵔⵉⵎⵎ, ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵡⵙⴰⵜ ⴰⵏⵖ ⴰⴷ ⵏⴳⵔⵓ ⵓⴳⴳⴰⵔ ⵏ ⵜⵡⵉⵏⴰⵙ!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = ⵛⴰⴱⴱⴰ <icon></icon> ⵉⵙ ⵜⵓⵖⴷ ⵜⵡⵉⵏⵙⵜ ⴰ ⵙ ⵓⵎⵙⵏⵉⵍⵙ?
 sc-review-rules-title = ⵉⵙ ⴷ ⵜⵎⵙⴰⵙⴰ ⵜⵡⵉⵏⵙⵜ ⴰⴽⴷ ⵜⴰⵔⴰⵜⵉⵏ?
@@ -61,4 +58,3 @@ review-error-rate-limit-exceeded = ⵍⴰ ⵜⴻⵜⵜⴷⴷⵓⴷ ⵙ ⴽⵉⴳ
 sc-redirect-page-title = ⵍⴰ ⵏⵙⴽⴰⵔ ⴽⵔⴰ ⵏ ⵉⵙⵏⴼⵍⵏ ⵉⵎⵇⵇⵔⴰⵏⵏ
 sc-redirect-page-subtitle-1 = ⵔⴰⴷ ⵉⵎⵎⵓⵜⵜⵢ ⵙⴰⵏⵜⵏⵙ ⴽⵓⵍⵉⴽⵜⵓⵔ ⵖⵔ ⵜⵙⵉⵍⴰ ⵜⴰⴷⵙⵍⴰⵏⵜ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ. ⵜⵣⵎⵔⴷ ⴷⵖⵉ <writeURL>ⴰⴷ ⵜⴰⵔⴰⴷ</writeURL> ⴽⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ ⵏⵉⵖ <reviewURL>ⴰⴷ ⵜⵙⵙⵉⵔⵎⴷ</reviewURL> ⴰⵣⴰⵏⵏ ⵏ ⵜⵡⵉⵏⵙⵜ ⵜⴰⴼⵔⴷⵉⵜ ⴳ ⴽⴰⵎⵏⴼⵓⵢⵙ.
 sc-redirect-page-subtitle-2 = ⵙⵇⵙⴰ ⴰⵏⵖ ⵉⵙⵇⵙⵉⵜⵏ ⴳ <matrixLink>ⵎⵉⵜⵔⵉⴽⵙ</matrixLink>, <discourseLink>ⴷⵉⵙⴽⵓⵔⵙ</discourseLink> ⵏⵉⵖ <emailLink>ⵉⵎⴰⵢⵍ</emailLink>.
-

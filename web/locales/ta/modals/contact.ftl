@@ -6,4 +6,3 @@ contact-form-name =
 contact-form-message =
     .label = செய்தி
 contact-required = *தேவையானவை
-

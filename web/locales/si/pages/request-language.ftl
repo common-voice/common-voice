@@ -1,1 +1,2 @@
-    .label = විද්‍යුත් තැපෑල
+## Request Language Pages
+

@@ -189,7 +189,6 @@ share-text = Saidia kufundisha mashine jinsi watu wanavyozungumza, toa mchango w
 link-copied = Kiunga kimenakiliwa
 back-top = Rejea Mwanzoni
 logout = Toka
-
 stayintouch = Sisi katika Mozilla tunajenga jamii inayohusika na teknolojia ya sauti. Tungependa kuzidi kupokea visasisho, vyanzo vipya vya data na kujuzwa zaidi kuhusu jinsi unavyotumia data hii
 privacy-info = Tunaahidi kushughulikia maelezo yako kwa uangalifu. Soma maelezo zaidi kwenye <privacyLink> sera yetu ya faragha </privacyLink>.
 return-to-cv = Rudi kwa Common Voice
@@ -205,3 +204,6 @@ email-opt-in-info-sub-with-challenge = Pokea barua pepe kama vile ukumbusho wa c
 email-opt-in-privacy-v2 = Kwa kuchagua kupokea ujumbe kwa njia ya barua pepe unakubaliana na  Mozilla kutunza ujumbe huu kama ilivyoelekezwa katika <privacyLink>Sera ya faragha ya Mozilla</privacyLink>
 indicates-required = * Inaashiria sehemu inayohitajika
 not-available-abbreviation = haihitajiki
+
+## Donate banner
+

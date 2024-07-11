@@ -33,7 +33,6 @@ review-rerecord = Opnieuw opnemen
 review-cancel = Inzending annuleren
 review-keep-recordings = Opnamen behouden
 review-delete-recordings = Mijn opnamen verwijderen
-
 review-terms = Door gebruik te maken van Common Voice, gaat u akkoord met onze <termsLink>Voorwaarden</termsLink> en <privacyLink>Privacyverklaring</privacyLink>
 terms-agree = Ik ga akkoord
 terms-disagree = Ik ga niet akkoord

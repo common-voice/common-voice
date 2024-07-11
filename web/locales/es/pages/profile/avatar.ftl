@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Subir un archivo de imagen
 browse-file = Arrastra y suelta o <browseWrap>navega</browseWrap>
@@ -7,4 +7,3 @@ gravatar_not_found = No se ha encontrado ningún gravatar para tu correo electr�
 file_too_large = El archivo seleccionado es demasiado grande
 avatar-uploaded = Avatar subido
 max-file-size = { $kb }kb máx
-

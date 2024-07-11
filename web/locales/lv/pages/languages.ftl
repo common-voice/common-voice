@@ -17,10 +17,7 @@ localized = Lokalizēts
 sentences = Teikumi
 language-validation-hours = Stundas
 language-validation-progress = Pārbaudes progress
-
-## Languages
-
-contribute = Piedalies
+contribute = Veic ieguldījumu
 get-involved-button = Iesaisties
 get-involved-title = Sniedz ieguldījumu { $lang } valodā
 get-involved-text =

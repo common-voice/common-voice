@@ -92,4 +92,3 @@ validations =
         [one] kiit neibaru kole mi komnyei
        *[other] tuguk cheibaru kole miten komnyei
     }
-

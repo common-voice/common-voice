@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Kayıtlarınızın neden silinmesini istediğinizi bize bildirir misiniz?
 profile-form-delete = Profilimi sil
-

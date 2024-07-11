@@ -149,7 +149,6 @@ link-copied = Link Copy Zale
 back-top = Porot Voir Voch
 logout = Log Out
 donate = Donate Korat
-
 stayintouch = Voice technology'cher ami ek community karma Mozilla'an. Ami chad khosi tumka update dovarpak, novo data duvpak and aikpak tumi koso ho data use karta toh.
 privacy-info = Ami vochon dita ki tumchi information samballun dovortolem. Amchi <privacyLink>Privacy Notice</privacyLink> vachun ghe.
 return-to-cv = Porot voch Common Voice'acher
@@ -163,6 +162,7 @@ email-opt-in-info-sub-with-challenge = Asle emails dhad jitun Challenge ani Goal
 email-opt-in-privacy-v2 = Apnak Email melpak zori tor tumi vichun kadta zaliar tumi boroin dita ki je bashen Mozilla apli <privacyLink>"Privacy Policy"</privacyLink> itun sangta, toshe bashen tumchi hi information samballun dovortele, tumka te bashen koslech dikkat na.
 indicates-required = Textbox'an star (*) asa, te gorjechem.
 not-available-abbreviation = N/A
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 

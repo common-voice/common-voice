@@ -7,4 +7,3 @@ download-form-email =
     .value = Takk skal du ha, vi kontakter deg.
 download-back = Gå tilbake til Common Voice datasett
 download-no = Nei takk
-

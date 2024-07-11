@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = Nik'ïy
@@ -16,9 +13,6 @@ language-search-input =
 language-speakers = Ch'ab'anela'
 localized = Xilitäj
 sentences = Taq b'ab'
-
-## Languages
-
 contribute = Kato'on
 get-involved-button = Kato'on
 get-involved-title = Kato'on pa { $lang }

@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Nahrať obrázok
 browse-file = Presuňte ho sem alebo si ho <browseWrap>vyhľadajte</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Vybraný súbor je príliš veľký
 avatar-uploaded = Avatar bol nahraný
 max-file-size = max. { $kb } kB
 remove-avatar = Odstrániť avatar
-

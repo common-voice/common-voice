@@ -102,4 +102,3 @@ validations =
     { $count ->
        *[one] 驗證
     }
-

@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Αρχείο εικόνας
 browse-file = Εναπόθεση εικόνας ή <browseWrap>περιήγηση</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Το επιλεγμένο αρχείο είναι πολύ με
 avatar-uploaded = Μεταφορτώθηκε το avatar
 max-file-size = έως { $kb }KB
 remove-avatar = Αφαίρεση avatar
-

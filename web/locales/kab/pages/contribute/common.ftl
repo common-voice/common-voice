@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Senned
 action-tap = Sit ɣef
-## Languages
-
 contribute = Ttekki
 review = Acegger
 skip = Suref
@@ -137,4 +133,3 @@ contribution-volume-title = Ableɣ
 contribution-just-unsure-title = Tkukraḍ?
 see-more = <chevron></chevron>Wali ugar
 see-less = <chevron></chevron>Wali drus
-

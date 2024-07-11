@@ -1,6 +1,6 @@
-write = ولیکئ
 ## WRITE PAGE
 
+write = ولیکئ
 write-instruction = د عامه ډومین جمله <icon></icon> اضافه کړئ
 write-page-subtitle = دلته مرسته شوي جملې به په عامه توګه موجود cc-0 جواز لرونکي ډیټا سیټ کې اضافه شي.
 sentence =
@@ -88,4 +88,3 @@ file-invalid-type = ناباوره دوتنه
 file-too-large = فایل ډیر لوی دی
 file-too-small = فایل ډیر کوچنی دی
 too-many-files = ډیری فایلونه
-

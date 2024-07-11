@@ -17,9 +17,6 @@ localized = Þýtt
 sentences = Setningar
 language-validation-hours = Klukkustundir
 language-validation-progress = Framvinda staðfestingar
-
-## Languages
-
 contribute = Leggðu lið
 get-involved-button = Taka þátt
 get-involved-title = Leggðu þitt af mörkum til { $lang }

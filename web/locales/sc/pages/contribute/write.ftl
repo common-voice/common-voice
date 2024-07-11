@@ -1,6 +1,6 @@
-write = Iscrie
 ## WRITE PAGE
 
+write = Iscrie
 sentence =
     .label = Fràsia
 sentence-input-value = Inserta·nce inoghe sa fràsia in domìniu pùblicu
@@ -21,4 +21,6 @@ contact-us = Cuntata·nos
 add-sentence-success = 1 fràsia regorta
 add-sentence-error = Faddina in s'agiunta de sa fràsia
 required-field = Cumpila custu campu.
+
+## BULK SUBMISSION 
 

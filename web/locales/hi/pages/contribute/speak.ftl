@@ -31,7 +31,6 @@ review-rerecord = पुनः रिकॉर्ड करें
 review-cancel = सबमिशन रद्द करें
 review-keep-recordings = रिकॉर्डिंग रखें
 review-delete-recordings = मेरी रिकॉर्डिंग्स को डिलीट करें
-
 review-terms = कॉमन वॉइस का उपयोग करके, आप हमारे <termsLink> टर्म्स </ termsLink> और <privacyLink> गोपनीयता सूचना </ privacyLink> से सहमत होते हैं
 terms-agree = मैं सहमत हूँ
 terms-disagree = मैं असहमत हूँ

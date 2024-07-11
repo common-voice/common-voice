@@ -7,4 +7,3 @@ download-form-email =
     .value = Re a leboga, re tla ikgolaganya le wena.
 download-back = Boela Kwa Direkotong Tsa Tshedimosetso Tsa Common Voice
 download-no = Nyaa ke Siame
-

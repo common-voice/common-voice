@@ -49,11 +49,8 @@ more = Ավելին
 close = Փակել
 download = Ներբեռնել
 dataset-version = Տարբերակ
-
 data-download-singleword-title = Բեռնեք մեկ բառի նպատակային հատվածը
 data-download-singleword-callout-v2 = Այս ենթատեքստային հատվածը ունի տվյալներ, որ գործարկում են բանավոր թվանշանի ճանաչում և այո / ոչ հայտնաբերում։
-## Data
-
 data-download-button = Ներբեռնել Common Voice-ի տվյալները
 data-download-yes = Այո
 data-download-deny = Ոչ

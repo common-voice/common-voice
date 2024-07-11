@@ -33,7 +33,6 @@ review-rerecord = ପୁନଃ-ରେକର୍ଡ଼
 review-cancel = ପଠାଇବା ନାକଚ
 review-keep-recordings = ରେକର୍ଡ଼ିଂଟି ରଖନ୍ତୁ
 review-delete-recordings = ମୋ ରେକ୍ଡ଼ିଂସବୁ ହଟାନ୍ତୁ
-
 review-terms = Common Voice ବ୍ୟବହାର କରିବାଦ୍ୱାରା, ଆପଣ ଆମର <termsLink>ସର୍ତ୍ତାବଳୀ</termsLink> ଏବଂ <privacyLink>ଗୋପନୀୟତାର ନୋଟିସ</privacyLink> ସହିତ ସହମତ ଅଛନ୍ତି ବୋଲି ଧରାଯିବ ।
 terms-agree = ମୁଁ ସହମତ
 terms-disagree = ମୁଁ ସହମତି ଦେଉନାହିଁ

@@ -7,4 +7,3 @@ download-form-email =
     .value = Ẹ ṣeun, à ó máa ké sí yín
 download-back = Pada lọ sí àkójọpọ̀ àwọn dátà Common Voice
 download-no = Rára o ṣeun
-

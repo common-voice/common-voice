@@ -1,1 +1,2 @@
-    .label = Эл. пуштӑ
+## Request Language Pages
+

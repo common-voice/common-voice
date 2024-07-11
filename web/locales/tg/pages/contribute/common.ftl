@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Зер кардан
 action-tap = Зарба задан
-## Languages
-
-contribute = Саҳм гузоштан
+contribute = Иштирок доштан
 skip = Нодида гузарондан
 shortcuts = Миёнбурҳо
 record-button-label = Овози худро сабт намоед
@@ -27,6 +23,9 @@ success = Тайёр!
 continue = Давом додан
 report-success = Гузориш бо муваффақият пешниҳод карда шуд
 
+## Speak & Listen Shortcuts
+
+
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = Сабт/Ист
@@ -37,17 +36,10 @@ shortcut-discard-ongoing-recording-label = Сабти ҷориро рад кун
 shortcut-submit = Бозгашт
 request-language-button = Дархости забон
 
-## Speak & Listen Shortcuts
-
-
 ## Listen Shortcuts
 
 shortcut-play-toggle-label = Пахш/Таваққуф
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-for-example = масалан
-

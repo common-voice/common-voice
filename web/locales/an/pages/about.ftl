@@ -2,6 +2,9 @@
 
 about-title = Per qué fer servir Common Voice?
 how-does-it-work-text = Lo nuestro obchectivo ye crear una base de datos de voces de codigo ubierto. Dona la tuya voz, valida la precisión d'as gravacions d'atros usuarios y aduya a millorar la base de datos.
+
+## How does it work section
+
 about-speak = Charrar
 about-speak-text = Los colaboradors gravan la suya voz mientres leyen frases donadas per los usuarios.
 about-listen-queue = Coda d'escuita
@@ -28,3 +31,34 @@ about-nav-why-common-voice = Per qué?
 about-nav-how-it-works = Cómo?
 about-nav-partners = Patrocinadors
 about-nav-get-involved = Colaborar
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

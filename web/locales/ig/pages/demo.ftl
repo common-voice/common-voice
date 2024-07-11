@@ -31,4 +31,3 @@ demo-listen-subtitle = Ị̀ dị́lá ńjìkéré ị́tụ́nyé òkè?
 
 demo-dashboard-card-header = Ụ́gbọ́ ńdékọ́ ǹkè ónyé (Personal Dashboard) nà-émé kà Ị́ mátá ọ̀gàníhú ǹkè ónyé nàkwà ǹké ọ̀há òbòdò.
 demo-dashboard-card-body = Á nà-èbúgó íríghírí ḿkpọ́nyé ọ̀bụ́là à tụ̀nyèrè nàkwà ńdị́ á kwàdòrò n'ụ́gbọ́ ńdékọ́ ọ́wà ǹkè áká gị́ (account dashboard) íjí gósí àgàmníhú ọ́hụ́rụ́ nkè ásụ̀sụ́ Ị́ nà-àtụ́nyéré. Éé, Ị́ nwèrè íké ị́tụ̀nyéré kárị́á ótù. Jìrí ụ́gbọ́ńdékọ́ màtá ńchị́kọtá gị́, hụ́kwá kà gị́ nà ńdị́ ọ́zọ́ sì ágá n'íhú, mà hàzíkwáá ńtụnyé òkè gị́ kwà ụ́bọ̀chị̀ mà ọ̀ bụ̀ kwà ízú.
-

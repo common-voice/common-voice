@@ -28,4 +28,3 @@ download-request-modal-description = 下列是您的 ZIP 檔的下載鏈結。
 download-request-link-text = 第 { $offset } 個 ZIP 檔，共 { $total } 個
 download-request-metadata-link = 語句文字
 download-request-link-single = 您也可以將網址直接複製貼到想用的下載管理員。這些鏈結將於 12 小時候失效，但可隨時回到此頁面重新產生新鏈結。
-

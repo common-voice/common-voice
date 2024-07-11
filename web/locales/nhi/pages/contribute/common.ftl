@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = xicpacho
 action-tap = xicnexti
-## Languages
-
 contribute = Xitiquiti touan
 review = xiquita
 skip = ahcotzicuini
@@ -52,6 +48,9 @@ success = coali
 continue = nemilis
 report-success = tlanahuatil omunlatitlane coali
 
+## Speak & Listen Shortcuts
+
+
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = tlahtolahcucui/ tzacuili
@@ -62,9 +61,6 @@ shortcut-submit-label = xiquinaltitlani grabaciones
 request-language-text = ¿Ayamo ti cahsi mu tlahtol ich Common Voice?
 request-language-button = xictlahtlani se tlahtol
 
-## Speak & Listen Shortcuts
-
-
 ## Listen Shortcuts
 
 shortcut-play-toggle-label = nihnimilti/tzacuili
@@ -74,9 +70,6 @@ shortcut-vote-yes = q
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = m
-
-## Demo Dashboard
-
 
 ## Validation criteria
 
@@ -114,4 +107,3 @@ contribution-just-unsure-title = ¿amo yulchicauh?
 contribution-just-unsure-description = tla ticahsi tlen amo quitzacua ninquen pautas, xicnexti ica cuali nemilil. tla milahuac amo ti huilis tic nextis, xucuncui boton de ancutsicuini huan xic ninimiti ican ocse tlahtolahcuc
 see-more = </chevron></chevron> xiquita cachi
 see-less = <chevron></chevron> xiquita amocachi
-

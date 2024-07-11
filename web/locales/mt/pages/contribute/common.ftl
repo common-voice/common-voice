@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Ikklikkja
 action-tap = Agħfas
-## Languages
-
-contribute = Agħti sehmek
+contribute = Ikkontribwixxi
 skip = Aqbeż
 shortcuts = Shortcuts
 goal-help-recording = Għadek kemm għint lil Common Voice jilħaq <goalPercentage></goalPercentage>  tal-{ $goalValue } ta' recordings li nippruvaw nilħqu kuljum!
@@ -21,6 +17,9 @@ record-button-label = Irrekordja l-vuċi tiegħek
 share-title-new = <bold>Għinna</bold> nsibu aktar vuċijiet
 keep-track-profile = Żomm kont tal-progress tiegħek billi toħloq profil
 login-to-get-started = Illoggja jew oħloq kont biex tibda
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -71,4 +70,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

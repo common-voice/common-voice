@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Llwytho ffeil delwedd
 browse-file = Llusgo a gollwg neu <browseWrap>Bori</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Mae'r ffeil yma'n rhy fawr
 avatar-uploaded = Llwythwyd yr afatar
 max-file-size = uchafswm o { $kb }kb
 remove-avatar = Dileu Avatar
-

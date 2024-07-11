@@ -92,4 +92,3 @@ about-playbook-how-access-dataset = Kuinka saan pääsyn ja kuinka käytän aine
 ## How is Common Voice funded
 
 about-playbook-how-funded = Miten Common Voice rahoitetaan?
-

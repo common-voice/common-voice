@@ -15,3 +15,5 @@ demo-account = Ҳисоб
 
 demo-listen-subtitle = Ба саҳмгузорӣ омода ҳастед?
 
+## Demo Dashboard
+

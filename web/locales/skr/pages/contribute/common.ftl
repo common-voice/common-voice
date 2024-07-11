@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = کلک
 action-tap = انگل لاؤ
-## Languages
-
 contribute = حصہ پاؤ
 review = نظرثانی
 skip = چھوڑو
@@ -150,4 +146,3 @@ contribution-just-unsure-title = صرف غیر یقینی؟
 contribution-just-unsure-description = جے تہاکوں کوئی اینجھی چیز ملدی ہے جیندا احاطہ انہاں رہنما خطوط وِچ نہیں کریندے، تاں براہ مہربانی اپݨے بہترین فیصلے دے مطابق ووٹ ݙیوو۔ جے تساں واقعی فیصلہ نہیں کر سڳدے او، تاں سکیپ بٹن دا استعمال کرو تے اڳلی ریکارڈنگ تے ونڄو۔
 see-more = <chevron></chevron> ٻیا ݙیکھو
 see-less = <chevron></chevron>گھٹ ݙیکھو
-

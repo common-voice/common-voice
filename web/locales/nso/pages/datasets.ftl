@@ -55,11 +55,8 @@ more = Fetago
 close = Kgaufsi
 download = Tanelouto
 dataset-version = Version
-
 data-download-singleword-title = Tanelouta Nepo ya Lentšu le Tee
 data-download-singleword-callout-v2 = Se ke karolo e hlohloletšwago ke seripa sa go ba le datha go matlafatša temogo ya dinomoro tše bolelwago le go bonwa ga ee/aowa.
-## Data
-
 data-download-button = Tanelouta Datha ya Common Voice
 data-download-yes = Ee
 data-download-deny = Aowa

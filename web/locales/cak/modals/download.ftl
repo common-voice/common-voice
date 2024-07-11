@@ -7,4 +7,3 @@ download-form-email =
     .value = Niqak'awomaj chawe, xtiqach'ab'ej qi'.
 download-back = Katzolin pa ri taq Kiyakb'al Rutzij Common Voice
 download-no = Mani' Matyox
-

@@ -218,7 +218,6 @@ link-copied = Ligàmene copiadu
 back-top = Torra in artu
 logout = Serra sa sessione
 donate = Donos
-
 stayintouch = In Mozilla semus costruende una comunidade a inghìriu de is tecnologias de sa boghe. Si diat a pràghere de abarrare in cuntatu pro ti pòdere imbiare atualizatziones e fontes de datos noas, e ischire de prus subra de comente ses impreende custos datos.
 privacy-info = Ti promitimus chi amus a impreare s'informatzione tua cun garbu. Leghe àteru in s'<privacyLink>Avisu de riservadesa</privacyLink> nostru.
 return-to-cv = Torra a Common Voice
@@ -232,3 +231,6 @@ email-opt-in-info-sub-with-challenge = Ais a retzire messàgios che a apuntos de
 email-opt-in-privacy-v2 = Seberende de retzire lìteras a s'indiritzu de posta eletrònica atzetas chi Mozilla impitet custas informatziones comente ispiegadu in sa <privacyLink>Polìtica de riservadesa</privacyLink> sua.
 indicates-required = * Indicat unu campu rechèdidu
 not-available-abbreviation = No est a disponimentu
+
+## Donate banner
+

@@ -33,7 +33,6 @@ review-rerecord = Ji nû ve tomar bike
 review-cancel = Şandinê betal bike
 review-keep-recordings = Dengan hilîne
 review-delete-recordings = Dengên min jê bibe
-
 review-terms = Bi bikaranîna Common Voiceê, tu <privacyLink>Agahdariya Nihêniyê</privacyLink> û <termsLink>Merc</termsLink>ên me qebûl dikî.
 terms-agree = Qebûl dikim
 terms-disagree = Qebûl nakim

@@ -1,13 +1,15 @@
-## New Contribution
-
 action-click = Тобшохо
 action-tap = Тобшохо
-## Languages
-
 contribute = Баяжуулха
 skip = Алгасаха
 record-button-label = Дуугарһанаа бэшэхэ
 share-title-new = Шэнэ дуу хоолой олоходомнай <bold>туһална гүт</bold>
+
+## Contribution Nav Items
+
+
+## Reporting
+
 
 ## Speak & Listen Shortcuts
 
@@ -37,4 +39,6 @@ shortcut-vote-yes = и
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = ү
+
+## Validation criteria
 

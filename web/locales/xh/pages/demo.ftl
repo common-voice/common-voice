@@ -33,4 +33,3 @@ demo-listen-subtitle = Ukulungele ukufaka isandla?
 
 demo-dashboard-card-header = Iidashboard zobuqu zikugcina unolwazi ngenkqubela phambili kunye nenkqubela phambili yoluntu.
 demo-dashboard-card-body = Kwikliphu nganye yelizwi ekunikelwe ngayo, kunye nekliphu yesandi  eqinisekisiweyo, iideshibhodi ze-akhawunti yakho ziyahlaziywa ukubonisa inkqubela yakho yamva nje kulwimi ngalunye onogalelo kulo. Ewe, unganogalelo ngaphezu kwesinye!<br/><br/> Sebenzisa iideshbhodi ukulandelela izibalo zakho, ubone indlela oqhuba ngayo kunye nabanye ekuhlaleni, kwaye uzibekele amanqaku ogalelo emihla ngemihla okanye zeveki.
-

@@ -7,4 +7,3 @@ download-form-email =
     .value = Weş be, ma to xeberdar kenîme.
 download-back = Agêre Komdayeyanê Common Voice
 download-no = Ney, sipas
-

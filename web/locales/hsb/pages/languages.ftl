@@ -17,10 +17,7 @@ localized = Přełoženy
 sentences = Sady
 language-validation-hours = Hodźiny
 language-validation-progress = Přepruwowanski postup
-
-## Languages
-
-contribute = Přinošować
+contribute = Sobu dźěłać
 get-involved-button = Sobu činić
 get-involved-title = K rěči { $lang } přinošować
 get-involved-text = Dźakujemy so za waš zajim, na rěči { $lang } sobu dźěłać. Dźěłamy ćežko, zo bychmy kóždu rěč na start přihotowali a teamy přez e-mejl na běžnym dźerželi. Jeli cheće sobu činić, zdźělće nam deleka swoju e-mejlowu adresu.

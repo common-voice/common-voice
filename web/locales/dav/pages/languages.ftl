@@ -17,10 +17,7 @@ localized = W'ukitina
 sentences = Sentensi
 language-validation-hours = Masaa
 language-validation-progress = Maendeleo gha Kuhakikisha
-
-## Languages
-
-contribute = Sora
+contribute = Changa
 get-involved-button = Ngia
 get-involved-title = Soria { $lang }
 get-involved-text = Chaw'ucha kwa kukaia na bea yechangia { $lang }. Daw'uyafunga ndighi kula kiteto chikaie tayari kuzolwa aha na kurimanyisha timu rose maza ringi mbishi kwa chia ya imeili. Kaw'ona kwakunde kuchanga, dalomba kuneke imeili yako aha naisi.

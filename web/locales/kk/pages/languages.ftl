@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = Орындалуда
@@ -16,9 +13,6 @@ language-search-input =
 language-speakers = Сөйлейтіндер
 localized = Аударылған
 sentences = Сөйлемдер
-
-## Languages
-
 contribute = Үлес қосу
 get-involved-button = Қатысу
 get-involved-title = { $lang } - не үлес қосу

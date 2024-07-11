@@ -1,6 +1,6 @@
-write = ይጻፉ
 ## WRITE PAGE
 
+write = ይጻፉ
 write-instruction = የወል ጎራ ዓረፍተ ነገር <icon></icon> ያክሉ
 write-page-subtitle = እዚህ የተበረከቱ ዓረፍተ-ነገሮች በይፋ ወደሚገኝ cc-0 ፈቃድ ያለው የውሂብ ስብስብ ይታከላሉ።
 sentence =
@@ -77,4 +77,3 @@ file-invalid-type = ልክ ያልሆነ ፋይል
 file-too-large = ፋይሉ በጣም ትልቅ ነው።
 file-too-small = ፋይሉ በጣም ትንሽ ነው።
 too-many-files = በጣም ብዙ ፋይሎች
-

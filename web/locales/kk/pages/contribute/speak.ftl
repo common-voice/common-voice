@@ -33,7 +33,6 @@ review-rerecord = Қайта жазу
 review-cancel = Ұсынуды болдырмау
 review-keep-recordings = Жазбаларды қалдыру
 review-delete-recordings = Менің жазбаларымды өшіру
-
 review-terms = Common Voice қолдану арқылы сіз <termsLink>Шарттар</termsLink> мен <privacyLink>Құпиялылық</privacyLink> туралы ескертумен келісесіз.
 terms-agree = Мен келісемін
 terms-disagree = Мен келісім бермеймін

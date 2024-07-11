@@ -52,11 +52,8 @@ more = കൂടുതല്‍
 close = അടയ്ക്കുക
 download = ഡൌണ്‍ലോഡ് ചെയ്യുക
 dataset-version = പതിപ്പു്
-
 data-download-singleword-title = ഏകപദ ലക്ഷ്യഖണ്ഡം ഡൗൺലോഡ് ചെയ്യുക.
 data-download-singleword-callout-v2 = പറയുന്ന അക്കങ്ങൾ തിരിച്ചറിയുക, അതെ/അല്ല ഇവയിലേതെന്ന് തിരിച്ചറിക എന്നീ ആവശ്യങ്ങൾക്കുള്ള വിവരങ്ങളടങ്ങുന്ന ഒരു പ്രയോഗശകലമാണിത്.
-## Data
-
 data-download-button = കോമൺ വോയ്സ് ഡാറ്റ ഡൗൺലോഡുചെയ്യുക
 data-download-yes = ഉവ്വ്
 data-download-deny = ഇല്ല

@@ -29,4 +29,3 @@ demo-listen-subtitle = آماده مشارکت هستید؟
 ## Demo Dashboard
 
 demo-dashboard-card-header = داشبوردهای شخصی، شما را با پیشرفت فردی و جمعی به‌روز نگه می‌دارد.
-

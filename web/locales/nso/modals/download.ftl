@@ -7,4 +7,3 @@ download-form-email =
     .value = Rea leboga, re tla boledišana le wena
 download-back = Boela go dathasete ya Common Voice
 download-no = Aowa kea Leboga
-

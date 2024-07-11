@@ -47,9 +47,6 @@ sc-criteria-item-3 = Sada musy wugranjajobna byś.
 sc-criteria-item-4 = Jolic sada kriterijam wótpowědujo, klikniśo na tłocašk „Pśizwóliś“.
 sc-criteria-item-5-2 = Jolic sada kriterijam górjejce njewótpowědujo, klikniśo na tłocašk „Wótpokazaś“. Joli se wó saźe wěsty njejsćo, móžośo teke ju pśeskócyś a k pśiducej pśejś.
 sc-criteria-item-6 = Jolic wam sady wujdu, pomagajśo nam dalšne sady zběraś.
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Pśekontrolěrujśo <icon></icon>, lěc to jo linguistiski korektna sada.
 sc-review-rules-title = Wótpowědujo sada směrnicam?
@@ -61,4 +58,3 @@ review-error = Pśi pśekontrolěrowanju toś teje sady jo zmólka nastała
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Pśewjeźomy někotare změny
 sc-redirect-page-subtitle-2 = Stajśo nam pšašanja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mailu</emailLink>.
-

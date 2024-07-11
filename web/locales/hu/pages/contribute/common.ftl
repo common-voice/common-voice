@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Kattintson
 action-tap = Koppintson
-## Languages
-
 contribute = Közreműködés
 review = Ellenőrzés
 skip = Kihagyás
@@ -146,4 +142,3 @@ contribution-just-unsure-title = Csak bizonytalan?
 contribution-just-unsure-description = Ha olyan dologgal találkozik, amelyre ezek az irányelvek nem vonatkoznak, akkor szavazzon a legjobb megítélése szerint. Ha valóban nem tud dönteni, akkor használja a kihagyás gombot, és folytassa a következő felvétellel.
 see-more = <chevron> </chevron> További információk
 see-less = <chevron> </chevron> Kevesebb információ
-

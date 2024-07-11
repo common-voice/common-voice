@@ -10,4 +10,3 @@ why-delete-recordings =
     
     ¿La nawajo' nab'ij chi qe achike ruma nawajo' ye'ayüj el ri taq ayakoj?
 profile-form-delete = Tiyuj Ruwäch B'i'aj
-

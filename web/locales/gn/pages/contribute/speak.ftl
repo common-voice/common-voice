@@ -33,7 +33,6 @@ review-rerecord = Eñe’ẽñongatujey
 review-cancel = Ani Remondo
 review-keep-recordings = Eñongatu ñe’ẽryapu ñongatupyre
 review-delete-recordings = Embogue ñe’ẽ añongatuva’ekue
-
 review-terms = Reiporúramo Common Voice, remoneĩ ore <termsLink>Jeporu Mbojojaha</termsLink> ha avei ore <privacyLink>Kuaapyñemi rehegua Mbojojaha</privacyLink>
 terms-agree = Amoneĩ avei
 terms-disagree = Namoneĩri

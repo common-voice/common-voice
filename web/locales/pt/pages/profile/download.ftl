@@ -28,4 +28,3 @@ download-request-modal-description = Aqui estão os links para baixar seus arqui
 download-request-link-text = Zip #{ $offset } de { $total }
 download-request-metadata-link = Texto da frase
 download-request-link-single = Você também pode copiar e colar as URLs diretas em seu gerenciador preferido de download. Elas expiram em 12 horas, mas você pode voltar a esta página para gerar novas quando quiser.
-

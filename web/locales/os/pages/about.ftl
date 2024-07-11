@@ -140,3 +140,5 @@ about-playbook-how-project-governance-content-5 = Аргъад ӕмӕ басас
 about-playbook-how-project-governance-content-6 = Ӕмзӕрдиуаг бӕрн.
 about-playbook-how-project-governance-content-7 = <governanceLink>Фылдӕр базон, куыд арӕзт нӕм у фӕтк</governanceLink>
 
+## How is Common Voice funded
+

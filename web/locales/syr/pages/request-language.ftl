@@ -1,1 +1,2 @@
-    .label = ܐܝܡܝܠ
+## Request Language Pages
+

@@ -146,4 +146,3 @@ validations =
         [many] عملية تحقّق
        *[other] عملية تحقّق
     }
-

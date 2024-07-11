@@ -116,4 +116,3 @@ validations =
         [one] പരിശോധന
        *[other] പരിശോധനകള്‍
     }
-

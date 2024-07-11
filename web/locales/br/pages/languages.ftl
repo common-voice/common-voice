@@ -17,9 +17,6 @@ localized = Lec’helaet
 sentences = Frazennoù
 language-validation-hours = Eurvezhioù
 language-validation-progress = Araokadenn wiriañ
-
-## Languages
-
 contribute = Kemer-perzh
 get-involved-button = Kemer perzh
 get-involved-title = Kemer perzh e { $lang }

@@ -6,4 +6,3 @@ contact-form-name =
 contact-form-message =
     .label = Ózí
 contact-required = *nkè á chọ̀rọ̀̀
-

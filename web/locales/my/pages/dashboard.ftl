@@ -35,4 +35,3 @@ validations =
     { $count ->
        *[other] အတည်ပြု
     }
-

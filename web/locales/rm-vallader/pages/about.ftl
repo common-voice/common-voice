@@ -2,6 +2,9 @@
 
 about-title = Perche Common Voice?
 how-does-it-work-text = Culla partecipaziun collectiva s-chaffin nu üna collecziun da datas da vusch open source. Contribuischa cun tia vusch, verifichescha las registraziuns dad otras persunas, renda la collecziun da datas megldra per tuots.
+
+## How does it work section
+
 about-speak = Discuorra
 about-speak-text = Partecipants registreschan lur vusch cun preleger frasas dunadas our dad üna collecziun da datas.
 about-listen-queue = Fila da las contribuziuns chi sun da tadlar
@@ -28,3 +31,34 @@ about-nav-why-common-voice = Perche?
 about-nav-how-it-works = Co?
 about-nav-partners = Partenaris
 about-nav-get-involved = Partecipar
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

@@ -15,9 +15,6 @@ localized = Localized
 sentences = Mitaladzi
 language-validation-hours = Dzi awara
 language-validation-progress = Mvela phanḓa yo Khwaṱhisedzwaho
-
-## Languages
-
 contribute = Shelani Mulenzhe
 get-involved-button = Shelani Mulenzhe
 get-involved-title = Shelani Mulenzhe

@@ -33,7 +33,6 @@ review-rerecord = Ail-recordio
 review-cancel = Diddymu'r Cyflwyno
 review-keep-recordings = Cadw'r recordiadau
 review-delete-recordings = Dileu fy recordiadau
-
 review-terms = Drwy ddefnyddio Common Vice rydych yn cytuno i'n <termsLink>Amodau</termsLink> a'n <privacyLink>Hysbysiadau Preifatrwydd</privacyLink>
 terms-agree = Rwy'n cytuno
 terms-disagree = Nid wyf yn cytuno

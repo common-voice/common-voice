@@ -76,3 +76,5 @@ about-playbook-how-project-governance-content-4 = ਕਮਿਊਨਟੀ ਵਲ�
 about-playbook-how-project-governance-content-5 = ਮੁੱਲ ਅਤੇ ਪਛਾਣ।
 about-playbook-how-project-governance-content-6 = ਆਪਸੀ ਜਵਾਬਦੇਹੀ।
 
+## How is Common Voice funded
+

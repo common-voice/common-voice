@@ -33,7 +33,6 @@ review-rerecord = Nanngito kadi
 review-cancel = Haaytu neldugol
 review-keep-recordings = Mooftu nanngitte ɗee
 review-delete-recordings = Momtu nanngitte am
-
 review-terms = Huutoraade Common Voice firti ko aɗa jaɓi ɗooftaade <termsLink>sarɗiiji</termsLink> e <privacyLink>Konngol Suturo</privacyLink> amen
 terms-agree = Mi jaɓii
 terms-disagree = Mi jaɓaani

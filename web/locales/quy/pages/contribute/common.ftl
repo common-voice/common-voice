@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Hacer clic
 action-tap = Tocar
-## Languages
-
-contribute = quy
+contribute = Contribuir
 skip = Paway
 shortcuts = Atajos
 clips-with-count-pluralized =
@@ -33,6 +29,9 @@ target-segment-generic-card = Estás contribuyendo a un segmento objetivo
 target-segment-first-banner = Ayude a crear el primer segmento objetivo de Common Voice en { $locale }
 target-segment-add-voice = Agrega tu Voz
 target-segment-learn-more = Aprender más
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -143,4 +142,3 @@ contribution-just-unsure-title = ¿Manachu segurochu kankilla?
 contribution-just-unsure-description = Si encuentra algo que estas pautas no cubren, vote de acuerdo con su mejor criterio. Si realmente no puede decidir, use el botón de salto y continúe con la siguiente grabación.
 see-more = <chevron></chevron>Ver más
 see-less = <chevron></chevron>Ver menos
-

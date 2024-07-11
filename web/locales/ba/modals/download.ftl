@@ -7,4 +7,3 @@ download-form-email =
     .value = рәхмәт Һеҙгә, беҙ бәйләнештә булырбыҙ.
 download-back = Common Voice йыйынтыҡтарына кире ҡайтыу
 download-no = Юҡ, рәхмәт
-

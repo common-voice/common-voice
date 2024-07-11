@@ -6,4 +6,3 @@ download-form-email =
     .value = ਤੁਹਾਡਾ ਧੰਨਵਾਦ ਹੈ, ਅਸੀਂ ਸੰਪਰਕ ਕਰਾਂਗੇ।
 download-back = ਕਾਮਨ ਵੌਇਸ ਡਾਟਾ-ਸਮੂਹ ‘ਤੇ ਵਾਪਸ ਜਾਓ
 download-no = ਨਹੀਂ ਜੀ, ਧੰਨਵਾਦ
-

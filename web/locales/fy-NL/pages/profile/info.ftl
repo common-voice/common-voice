@@ -78,4 +78,3 @@ variant-contribution-option-1 = Allinnich sinnen en fragminten út myn fariant t
 variant-contribution-option-2 = My sinnen en fragminten fan alle farianten yn myn taal toane
 variant-contribution-warning-title = ⓘ Noch net alle sinnen en fragminten hawwe fariantlabels!
 variant-contribution-warning-subtitle = As jo problemen hawwe mei by it bydragen, kinne jo op elk momint weromgean nei it sjen fan alle ynhâld foar jo taal.
-

@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Esango al zeniguke zergatik nahi duzun zure grabazioak ezabatzea?
 profile-form-delete = Ezabatu profila
-

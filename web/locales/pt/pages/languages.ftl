@@ -17,10 +17,7 @@ localized = Traduzido
 sentences = Frases
 language-validation-hours = Horas
 language-validation-progress = Progresso da validação
-
-## Languages
-
-contribute = Contribuir
+contribute = Contribua
 get-involved-button = Participe
 get-involved-title = Contribuir para { $lang }
 get-involved-text = Obrigado por seu interesse em contribuir para { $lang }. Trabalhamos duro para ter cada idioma pronto para lançamento e manter as equipes atualizadas por email. Se quiser contribuir, forneça abaixo seu endereço de email.

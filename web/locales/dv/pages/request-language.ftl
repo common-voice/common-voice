@@ -1,1 +1,2 @@
-    .label = އީމެއިލް
+## Request Language Pages
+

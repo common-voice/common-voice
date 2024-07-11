@@ -104,6 +104,7 @@ about-playbook-how-add-sentences = Ndi pangisa hani mitaladzi?
 about-playbook-how-add-sentences-content-1 = <strong>Tsha u Kuvhanganya Mitaladzi</strong> ndi tshishumiwa tsha u kuvhanganya na u khwaṱhisedza mitaladzi i bvaho kha tshitshavha. Ni ḓo tea uri <scAccountLink>ni ite akhanthu</scAccountLink>. Ni kone u dzhenisa luambo lwaṋu <strong>Phurofaiḽi </strong>. Ni nga kona u <strong>Panga</strong> mitaladzi kana u <strong>Ṱolisia</strong> mitaladzi yo dzheniswaho tshifhingani tsho fhiraho.
 about-playbook-how-add-sentences-content-2 = Mitaladzi i tea u ṱolisiswa nahone vhathu vha vhili ndi vhone vhane vha tea u amba uri yo tea u dzhena kha Common Voice. Ni tou ḓiitela vhulivhisi kha luambo lwaṋu <languageGuidelinesLink>hafha</languageGuidelinesLink>. Mitaladzi i tea uvha kha <licenseLink>fhethu ha tshitshavha tshoṱhe</licenseLink> nahone i tea u vha i vhupfufhi ha maipfi a sa fhiri 15. Ni nga humbela muṋe wa mafhungo uri a ite <waiverLink>CC0 ni tshi shumisa waiver process</waiverLink>, nahone ni ri rumele mulaedza kha commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Ni nga shumisa tshau <scraperLink>extraktha mitaladzi</scraperLink> u mannḓafhadza mitaladzi mipfufhi u bva kha Wikipedia.
+
 ## How to record quality
 
 about-playbook-how-record-quality = Ndi nga rekhodisa hani ipfi ḽa vhuimo ha nṱha?
@@ -149,4 +150,6 @@ about-playbook-how-project-governance-content-4 = U longa tshanḓa kha tshigwad
 about-playbook-how-project-governance-content-5 = U dzhiiwa i ya ndeme na u ḓivhiwa.
 about-playbook-how-project-governance-content-6 = Mutual accountability.
 about-playbook-how-project-governance-content-7 = <governanceLink>Vhalani nga vhuḓalo nga ha uri ri langiwa hani</governanceLink>
+
+## How is Common Voice funded
 

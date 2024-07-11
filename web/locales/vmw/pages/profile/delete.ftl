@@ -4,4 +4,3 @@ delete-q = Munitthu ovekela wiira ikaravasawu sanyu sa nsu sittipihiwe, wala mun
 keep = Mukhalihe
 remove = Okumiha
 profile-form-delete = Mukumihe eperefili
-

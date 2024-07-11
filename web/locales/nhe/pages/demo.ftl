@@ -26,4 +26,3 @@ demo-listen-subtitle = ¿Listo para contribuir?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Los paneles personales lo mantienen actualizado con el progreso individual y comunitario.
-

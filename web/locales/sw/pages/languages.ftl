@@ -13,9 +13,6 @@ language-search-input =
 language-speakers = Wasemaji
 localized = Ujanibishaji
 sentences = Masentensi
-
-## Languages
-
 contribute = Changia
 get-involved-button = Jihusishe
 get-involved-title = Changia kwa

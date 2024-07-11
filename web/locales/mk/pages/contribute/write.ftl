@@ -1,3 +1,5 @@
+## WRITE PAGE
+
 write = Пишувај
 sentence =
     .label = Реченица
@@ -6,9 +8,6 @@ sc-review-write-title = Какви реченици можам да додада
 new-sentence-rule-1 = <noCopyright>Нема ограничувања за авторски права</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Помалку од 15 зборови по реченица
 new-sentence-rule-3 = Употребувајте точна граматика
-
-## REVIEW PAGE
-
 
 ## BULK SUBMISSION 
 

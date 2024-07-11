@@ -84,6 +84,7 @@ about-playbook-how-localize-content-5 = ସାହାଯ୍ୟ କରିବାକ
 ## How to add sentences
 
 about-playbook-how-add-sentences = ମୁଁ ବାକ୍ୟଗୁଡ଼ିକୁ କିଭଳି ଯୋଡ଼ି ପାରିବି?
+
 ## How to record quality
 
 about-playbook-how-record-quality = ମୁଁ ଏକ ଉଚ୍ଚ ଗୁଣବତ୍ତା ଭଏସ୍ କ୍ଲିପ୍ କିପରି ରେକର୍ଡ କରିବି?
@@ -117,4 +118,6 @@ about-playbook-how-project-governance-content-3 = ଗୋପନୀୟତା, ସ�
 about-playbook-how-project-governance-content-4 = ଗୋଷ୍ଠୀର ଅଂଶଗ୍ରହଣ ଏବଂ ନିଷ୍ପତ୍ତି ନେବା ।
 about-playbook-how-project-governance-content-5 = ମୂଲ୍ୟ ଏବଂ ମାନ୍ୟତା।
 about-playbook-how-project-governance-content-6 = ପାରସ୍ପରିକ ଉତ୍ତରଦାୟିତ୍ୱ।
+
+## How is Common Voice funded
 

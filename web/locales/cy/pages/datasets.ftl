@@ -75,11 +75,8 @@ dataset-donate-modal-heading = Oeddech chi'n gwybod…
 donate-modal-explanation-1 = Mae’n costio bron i filiwn o ddoleri’r flwyddyn i gynnal y setiau data a gwella’r llwyfan ar gyfer y 100+ o gymunedau iaith sy’n dibynnu ar yr hyn rydym yn ei wneud?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Os ydych yn gwerthfawrogi data agored, cynhwysol - cyfrannwch heddiw!</bold>
-
 data-download-singleword-title = Llwytho'r Segment Targed Un Gair i Lawr
 data-download-singleword-callout-v2 = Mae hon yn segment defnydd sy'n cael ei yrru gan achos sy'n cynnwys data i bweru cydnabyddiaeth digid llafar a chanfod iawn / na.
-## Data
-
 data-download-button = Llwytho Data Common Voice i Lawr
 data-download-yes = Iawn
 data-download-deny = Na

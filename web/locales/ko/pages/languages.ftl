@@ -15,10 +15,7 @@ localized = 지역화된
 sentences = 문장
 language-validation-hours = 시간
 language-validation-progress = 검증 진행
-
-## Languages
-
-contribute = 기여
+contribute = 기여하기
 get-involved-button = 참여하기
 get-involved-title = { $lang }에 기여하기
 get-involved-text = { $lang } 기여에 관심 가져 주셔서 감사합니다. 모든 언어가 제공되도록 열심히 노력하고 있으며 영어를 이메일로 업데이트 하고 있습니다. 기여를 하고자 하시며 아래에 이메일을 기입해 주세요.

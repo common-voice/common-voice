@@ -91,3 +91,5 @@ about-playbook-how-access-dataset = Дааннай хомуурун хайдах
 about-playbook-how-project-governance-content-5 = Сыаналааһын уонна билинии.
 about-playbook-how-project-governance-content-6 = Хардары-таары эппиэтинэс.
 
+## How is Common Voice funded
+

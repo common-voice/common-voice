@@ -114,4 +114,3 @@ validations =
         [one] დამოწმება
        *[other] დამოწმება
     }
-

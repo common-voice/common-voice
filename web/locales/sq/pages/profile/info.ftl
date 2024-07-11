@@ -78,4 +78,3 @@ variant-contribution-option-1 = Shfaqmëni togfjalësha dhe copëza nga krejt va
 variant-contribution-option-2 = Shfaqmëni togfjalësha dhe copëza vetëm nga varianti im
 variant-contribution-warning-title = ⓘ Jo krejt togfjalëshat dhe copëzat kanë tashmë etiketa Variant!
 variant-contribution-warning-subtitle = Nëse keni probleme me dhënie kontributi, mund të ktheheni kurdo te parja e krejt lëndës për gjuhën tuaj.
-

@@ -7,7 +7,4 @@ request-language-success-title = Запрос о добавлении языка
 request-language-success-content = Мы максимально быстро свяжемся с вами, рассказав о том, как добавить ваш язык в Common Voice.
 select-language = Valitsõ čeeli...
 other-language = Tõisõd čeeled
-
-## General
-
 yes-receive-emails = Daa, saattõka millõ epošti. Я хочу быть в курсе новостей проекта Common Voice.

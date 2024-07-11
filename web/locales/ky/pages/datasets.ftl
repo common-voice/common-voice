@@ -26,9 +26,6 @@ ready-to-validate = Сүйлөмдөрдү текшерүүгө жардам б�
 more = Дагы
 close = Жабуу
 download = Жүктөп алуу
-
-## Data
-
 data-download-button = Common Voice берилиштерин жүктөп алуу
 data-download-yes = Ооба
 data-download-deny = Жок

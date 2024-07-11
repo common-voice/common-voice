@@ -6,4 +6,3 @@ contact-form-name =
 contact-form-message =
     .label = 訊息
 contact-required = *必填欄位
-

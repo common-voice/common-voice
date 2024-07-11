@@ -8,4 +8,3 @@ request-language-form-info =
 request-language-form-info-explanation-list-1 = Henwyn dha yeth
 # Success page
 request-language-success-heading = Meur ras! Ty re dhanvonas govyn yeth nowydh
-

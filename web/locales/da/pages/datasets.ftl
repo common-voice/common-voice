@@ -70,11 +70,8 @@ donate-modal-message = Dit datasæt downloades!
 dataset-donate-modal-heading = Vidste du…
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Hvis du værdsætter åbne, inkluderende data - så donér i dag!</bold>
-
 data-download-singleword-title = Hent målsegmentet med enkelte ord
 data-download-singleword-callout-v2 = Dette er et brugsmønster-drevet segment, der indeholder data til understøttelse af stemmeudtalt tal og detektering af ja / nej.
-## Data
-
 data-download-button = Hent data fra Common Voice
 data-download-yes = Ja
 data-download-deny = Nej

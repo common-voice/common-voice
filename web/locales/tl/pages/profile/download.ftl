@@ -13,4 +13,3 @@ download-request-title = { $created }
 download-request-refresh-button = i-Refresh
 download-request-modal-title = Mga Download Link
 download-request-link-text = Zip #{ $offset } of { $total }
-

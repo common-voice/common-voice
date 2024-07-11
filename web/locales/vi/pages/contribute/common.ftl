@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Nhấp
 action-tap = Chạm
-## Languages
-
 contribute = Đóng góp
 review = Xem xét
 skip = Bỏ qua
@@ -149,4 +145,3 @@ contribution-just-unsure-title = Không chắc chắn?
 contribution-just-unsure-description = Nếu bạn gặp điều gì đó mà các nguyên tắc này không đề cập đến, vui lòng bỏ phiếu theo đánh giá tốt nhất của bạn. Nếu bạn thực sự không thể quyết định, hãy sử dụng nút bỏ qua và chuyển sang bản ghi tiếp theo.
 see-more = <chevron></chevron>Xem thêm
 see-less = <chevron></chevron>Xem ít hơn
-

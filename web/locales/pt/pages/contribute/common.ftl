@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Clique em
 action-tap = Toque
-## Languages
-
-contribute = Contribuir
+contribute = Contribua
 review = Revisão
 skip = Pular
 shortcuts = Atalhos
@@ -146,4 +142,3 @@ contribution-just-unsure-title = Não tem certeza?
 contribution-just-unsure-description = Caso se depare com algo que essas diretrizes não abrangem, vote de acordo com seu bom senso. Se realmente não conseguir decidir, use o botão de pular e siga para a próxima gravação.
 see-more = <chevron></chevron>Ver mais
 see-less = <chevron></chevron>Ver menos
-

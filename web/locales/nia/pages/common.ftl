@@ -166,7 +166,6 @@ share-text = Tolo fomaha mesin hewisa to'ölönia fahuhuo niha, be kontribusi li
 link-copied = No mukopi khai-khainia
 back-top = Angawuli yaŵa
 logout = Ae baero
-
 stayintouch = Ohitö dödöma ba Mozilla wamazökhi sambua komunitas teknologi li (voice technology). Omasiga wanema duria si bohou awö umbu data si bohou ba omasiga ma'ila hewisa ö'oguna'ö data andre.
 privacy-info = Mafabu'u wa sindruhu marorogö informasi moroi khöu. Baso nönö-nönönia ba <privacyLink>Privacy Notice</privacyLink>.
 return-to-cv = Angawuli ba Common Voice
@@ -180,4 +179,6 @@ email-opt-in-info-sub-with-challenge = Tema email samasugi tödö zinangea mu'oh
 email-opt-in-privacy-v2 = Na öfaduhugö wanema email, öfaduhugö göi wa fao dödöu ba wondrorogöma informasi andre simane si no tefa'anö ba <privacyLink>Privacy Policy</privacyLink> khö Mozilla.
 indicates-required = * Eluahania lö tola lö'ö mufo'ösi
 not-available-abbreviation = Lö'ö
+
+## Donate banner
 

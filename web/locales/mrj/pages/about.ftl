@@ -66,6 +66,7 @@ about-playbook-how-localize-content-5 = Палшаш манын, мӓмнӓн ы
 
 about-playbook-how-add-sentences = Кыце мӹлӓм предложенивлӓм уштараш?
 about-playbook-how-add-sentences-content-3 = Википеди гӹц мытык предложенивлӓм кычылташ манын, <scraperLink>Sentence extractor-ым</scraperLink> кычылтын кердӓт.
+
 ## How to record quality
 
 about-playbook-how-record-quality = Кыце яжо юкан клипӹм сирӓш?
@@ -97,4 +98,6 @@ about-playbook-how-project-governance-content-2 = Мӓмнӓн виктӓрӹм�
 about-playbook-how-project-governance-content-3 = Конфиденциальность, лӱдӹшлӓ агыл ылмаш дӓ вашт каймаш.
 about-playbook-how-project-governance-content-5 = Ӓклӹмӓш дӓ шотеш пиштӹмӓш
 about-playbook-how-project-governance-content-6 = Вӓшӓ-вӓш вуйын шалгымаш.
+
+## How is Common Voice funded
 

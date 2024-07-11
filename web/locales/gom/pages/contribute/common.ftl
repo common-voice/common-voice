@@ -1,22 +1,15 @@
-## Contribution
-
 action-tap = Damp
-## Languages
-
 contribute = Vantto ge
 skip = Sod
 record-button-label = Tuzo avaz di
 
-## Account Benefits
+## Contribution Nav Items
 
 
-## What's public
+## Reporting
 
 
 ## Speak & Listen Shortcuts
-
-
-## Listen Shortcuts
 
 
 ## Speak Shortcuts
@@ -30,4 +23,9 @@ shortcut-submit = Fatti voch
 shortcut-submit-label = Clips submit kor
 request-language-text = Aplo bhas Common Voice-acher azun dixtti podna?
 request-language-button = Bhas request kor
+
+## Listen Shortcuts
+
+
+## Validation criteria
 

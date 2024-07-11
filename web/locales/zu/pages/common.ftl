@@ -201,7 +201,6 @@ share-text = Siza ukufundisa imishini ukuthi abantu bangempela bakhuluma kanjani
 link-copied = Isixhumanisi Sikopishiwe
 back-top = Buyela Phezulu
 logout = Phuma
-
 stayintouch = Thina kwa-Mozilla sakha umphakathi mayelana nobuchwepheshe bezwi. Sithanda ukuhlala sithintana nezibuyekezo, imithombo emisha yedatha futhi sizwe kabanzi mayelana nokuthi uyisebenzisa kanjani le datha.
 privacy-info = Sithembisa ukuphatha imininingwane yakho ngokucophelela. Funda kabanzi kwi<privacyLink>Isaziso Sobumfihlo</privacyLink>.
 return-to-cv = Buyela kwiCommon Voice
@@ -215,7 +214,8 @@ email-opt-in-info-sub-with-challenge = Thola ama-imeyili afana nezikhumbuzi zens
 email-opt-in-privacy-v2 = Ngokuvuma ukuthola ama-imeyili, uchaza ukuthi uyayivumela iMozilla ukuba iphathe lolulwazi njengokuchaziwe kuMozilla <privacyLink>Inqubomgomo yobumfihlo</privacyLink>
 indicates-required = Izinkambu ezimakwe ngenkanyezi (*) ziyadingeka.
 not-available-abbreviation = N/A
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Khetha ulimi/ukwasendaweni

@@ -104,6 +104,7 @@ about-playbook-how-add-sentences-content-1 =
     dzinga kwakha <scAccountLink>lifayela lakho</scAccountLink>. Bese, wengeta lulwimi lwakho <strong>eFayeleni </strong>lakho. Ungaye <strong>ngeta</strong> imisho noma <strong>uhlolisise </strong> imisho leke yafakwa ngaphambilini.
 about-playbook-how-add-sentences-content-2 = Imisho kufanele ibuyeketwe futsi yemukelwe bantfu lababili kute ifakwe ku Common Voice. Yakha imihlahlandlela yelulwimi lwakho <languageGuidelinesLink>lapha</languageGuidelinesLink>. Imisho kufanele ibe <licenseLink>emehlweni emphakatsi</licenseLink> fuths ibe mifishane kunemagama langu-15. Ungacela umnikati wembhalo kutsi akwentele <waiverLink>CC0 usebentisa inchubo yetfu yekuyekelela</waiverLink>, futsi usitfumelele ku-commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Ungasebentisa <scraperLink>umhlungi wemisho</scraperLink> kusekela imisho lemifisha lephuma ku Wikipedia
+
 ## How to record quality
 
 about-playbook-how-record-quality = Ngikhona njani kutfwebula ticephu letisezingeni lelisecophelweni lelisetulu?
@@ -155,4 +156,6 @@ about-playbook-how-project-governance-content-4 = Kutimbandzakanya kwemmango nek
 about-playbook-how-project-governance-content-5 = Linani nekunconywa
 about-playbook-how-project-governance-content-6 = Kwetsembeka lokufananako.
 about-playbook-how-project-governance-content-7 = <governanceLink>Fundza kabanti ngekutsi sengamelwe kanjani</governanceLink>
+
+## How is Common Voice funded
 

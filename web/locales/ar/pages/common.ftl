@@ -149,7 +149,6 @@ share-text = ساعِدنا بتعليم الآلة الكيفية التي ين
 link-copied = نُسخ الرابط
 back-top = عُد إلى الأعلى
 logout = اخرج
-
 stayintouch = نحن هنا في موزيلا نبني مجتمعًا يهتم بتقنية الأصوات. نودّ أن نعلم بآخر التحديثات ومصادر البيانات الجديدة ومعرفة طريقة استخدامكم لهذه البيانات.
 privacy-info = نعدكم بأن نتعامل مع معلوماتكم بحذر شديد. اطلع على المزيد في <privacyLink>تنويه الخصوصية</privacyLink>.
 return-to-cv = عُد إلى «الصوت للعموم»
@@ -163,4 +162,6 @@ email-opt-in-info-sub-with-challenge = أريد استلام البريد مثل
 email-opt-in-privacy-v2 = اشتراكك في خدمة تلقّي البريد تعني بأنك لا تُمانع بأن تتعامل Mozilla مع هذه البيانات كما هو موضّح في <privacyLink>سياسة الخصوصية</privacyLink>.
 indicates-required = * يعني أن الحقل مطلوب
 not-available-abbreviation = غير متاح
+
+## Donate banner
 

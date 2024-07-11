@@ -142,3 +142,5 @@ about-playbook-how-project-governance-content-5 = Valor i reconeixement.
 about-playbook-how-project-governance-content-6 = Responsabilitat mútua.
 about-playbook-how-project-governance-content-7 = <governanceLink>Llegiu més sobre com ens governem</governanceLink>
 
+## How is Common Voice funded
+

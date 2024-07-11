@@ -28,4 +28,3 @@ download-request-modal-description = Dihokelo tsa ho download-a difaele tsa ZIP 
 download-request-link-text = Zip #{ $offset } ya { $kakaretso }
 download-request-metadata-link = Mongolo wa polelo
 download-request-link-single = O ka boela wa kopitsa le ho manamisa URL ka ho thatohatsi ya hao ya mookamedi wa download. Di tla fela ka mora dihora tse 12, empa o ka kgutlela ho leqhephe lena ho hlahisa tse ntjha neng kapa neng.
-

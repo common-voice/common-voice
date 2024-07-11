@@ -235,7 +235,6 @@ link-copied = Lenke kopiert
 back-top = Tilbake til toppen
 logout = Logg av
 donate = Donere
-
 stayintouch = Vi i Mozilla bygger et samfunn rundt taleteknologi. Vi vil gjerne holde deg oppdatert på endringer, nye datakilder og høre mer om hvordan du bruker disse dataene.
 privacy-info = Vi lover å håndtere informasjonen din på en trygg måte. Les mer i vår <privacyLink>personvernerklæring</privacyLink>.
 return-to-cv = Gå tilbake til Common Voice
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = Motta e-post om utfordrings- og målpåmi
 email-opt-in-privacy-v2 = Ved å registrere deg for å motta e-post godtar du at Mozilla håndterer denne informasjonen som forklart i Mozillas <privacyLink>personvernerklæring</privacyLink>.
 indicates-required = * Indikerer obligatorisk felt
 not-available-abbreviation = ikke tilgjengelig
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = Det koster nesten en million dollar i året å v
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Bruker du CV for</mark><br/><mark>forskningen din?</mark>
 languages-donate-banner-cta-explanation = Common Voice er finansiert av donasjoner og tilskudd! Vi liker å samarbeide med akademikere, sivilsamfunn og industriforskere. Common Voice er gratis å bruke, men å bidra til plattform- og vertskostnader gjennom tilskuddsforslag er veldig nyttig.
-# [/SentenceCollector]
-
 localization-select =
     .label = Velg språk/lokalisering

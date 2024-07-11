@@ -126,4 +126,3 @@ validations =
         [few] patikros
        *[other] patikrų
     }
-

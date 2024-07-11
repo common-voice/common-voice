@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Ikatúpa eremi oréve mba’érepa remboguesepa reipytyvõva’ekue?
 profile-form-delete = Mba’ete Mboguete
-

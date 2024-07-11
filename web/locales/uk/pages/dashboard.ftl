@@ -126,4 +126,3 @@ validations =
         [few] перевірки
        *[other] перевірок
     }
-

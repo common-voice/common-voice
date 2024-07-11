@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = 撳
 action-tap = 敲
-## Languages
-
 contribute = 貢獻
 skip = 跳過
 shortcuts = 捷徑
@@ -142,4 +138,3 @@ contribution-just-unsure-title = 單係唔確定？
 contribution-just-unsure-description = 如果你遇到呢份指引冇列出嘅情況，請用你嘅判斷去投票。如果真係決定唔到，可以用跳過掣去聽下一段錄音。
 see-more = <chevron></chevron>睇多啲
 see-less = <chevron></chevron>睇少啲
-

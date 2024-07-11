@@ -1,6 +1,6 @@
-write = লিখক
 ## WRITE PAGE
 
+write = লিখক
 write-instruction = এটা ৰাজহুৱা ড’মেইনৰ বাক্য <icon></icon> যোগ কৰক
 write-page-subtitle = ইয়াত অৱদান আগবঢ়োৱা বাক্যবোৰ এক ৰাজহুৱাভাৱে উপলব্ধ cc-0 অনুজ্ঞাপত্ৰ-প্ৰাপ্ত ডেটাছেটত যোগ কৰা হ’ব।
 sentence =
@@ -88,4 +88,3 @@ file-invalid-type = অবৈধ ফাইল
 file-too-large = ফাইলটো বৰ ডাঙৰ
 file-too-small = ফাইলটো বৰ সৰু
 too-many-files = বৰ বেছি ফাইল
-

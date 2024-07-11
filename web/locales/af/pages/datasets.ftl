@@ -62,11 +62,8 @@ dataset-version = Weergawe
 sha256-checksum-copied = SHA256 Kontrolesom gekopieer!
 sha256-checksum-copied-error = Kon nie SHA256 Kontrolesom kopieer nie
 clipboard-not-supported = Knipbord word nie ondersteun nie
-
 data-download-singleword-title = Laai die Enkelwoord-teikensegment af
 data-download-singleword-callout-v2 = Dit is 'n gebruiksgedrewe segment wat data bevat om gesproke syferherkenning en ja/nee-opsporing aan te dryf.
-## Data
-
 data-download-button = Laai Common Voice-data Af
 data-download-yes = Ja
 data-download-deny = Nee

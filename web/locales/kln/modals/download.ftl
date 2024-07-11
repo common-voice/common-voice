@@ -7,4 +7,3 @@ download-form-email =
     .value = kongoi,asigengalal
 download-back = wektengei eng sauti chenoyotin
 download-no = achaa,kongoi
-

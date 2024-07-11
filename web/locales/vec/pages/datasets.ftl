@@ -48,9 +48,6 @@ more = Altro
 close = Sara su
 download = Descarga
 dataset-version = Version
-
-## Data
-
 data-download-button = Descarga i dati de Common Voice
 data-download-yes = Sì
 data-download-deny = No

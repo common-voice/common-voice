@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = சொடுக்கு
 action-tap = தட்டுக
-## Languages
-
-contribute = பங்களியுங்கள்
+contribute = பங்களி
 skip = தவிர்க்க
 shortcuts = குறுக்குவழிகள்
 goal-help-recording = நீங்கள் எங்கள் பொதுக்குரலின் தினசரி பதிவு இலக்கு { $goalValue } ல் <goalPercentage> </goalPercentage> அடைய உதவியுள்ளீர்கள்!
@@ -71,4 +67,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

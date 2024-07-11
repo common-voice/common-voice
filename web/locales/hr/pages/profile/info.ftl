@@ -49,4 +49,3 @@ skip-submission-description = Tijekom doprinošenja, povratne informacije preska
 skip-submission-note = Napomena: Morati ćete odabrati između opcije Govoriti ili Slušati za promjenu vrste vašeg doprinosa.
 off = Isklj.
 on = Uklj.
-

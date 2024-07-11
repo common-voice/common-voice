@@ -66,4 +66,3 @@ help-accent-explanation =
     letinye tilwimi lotikhulumako kantsi futsi naletinye tintfo. Ungasipha lolunye lwati lova ngatsi lomcukwa lana.
 help-variants = Udzinga lusito ngetinhlobo?
 help-variants-explanation = Kuhlukahluka kuyincenye tsite yetilwimi - kufana naleyo leyinikelwe ngulabo baleyo ndzawo noma lowo mphakatsi. Ngalesinye sikhatsi kubitwa ngekutsi ngema dialects
-

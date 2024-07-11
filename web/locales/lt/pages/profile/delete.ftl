@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Ar gali parašyti kodėl pageidauji, kad Tavo įrašai būtų pašalinti?
 profile-form-delete = Pašalinti profilį
-

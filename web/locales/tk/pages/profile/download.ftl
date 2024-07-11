@@ -28,4 +28,3 @@ download-request-modal-description = ZIP faýllaryňyzy göçürip almak üçin 
 download-request-link-text = Zip #{ $offset } jemi { $total }
 download-request-metadata-link = Sözlemiň teksti
 download-request-link-single = Şeýle hem gönüden-göni URL-leri halaýan göçürip alyjy programmaňyza göçürip ýelmäp bilersiňiz. 12 sagadyň dowamynda olaryň möhleti gutarar, ýöne islän wagtyňyz täze salgylary döretmek üçin bu sahypa dolanyp bilersiňiz.
-

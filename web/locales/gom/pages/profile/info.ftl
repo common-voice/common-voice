@@ -49,4 +49,3 @@ profile-close = Bond kor
 profile-explanation = Aplea provas-acher hishob dovorat ek profile kor ani moddot kor amchea voice data-ak anikui accurate dovorpak.
 why-demographic = Hem kityak gorjechem?
 download-profile = Mhozo Data Download Kor
-

@@ -19,3 +19,5 @@ demo-account = Account
 
 demo-listen-subtitle = Handa nang mag-ambag?
 
+## Demo Dashboard
+

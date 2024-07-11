@@ -11,9 +11,6 @@ language-search-input =
 language-speakers = বক্তা
 localized = স্থানীয়কৃত
 sentences = বাক্যসমূহ
-
-## Languages
-
 contribute = অবদান রাখুন
 get-involved-button = যোগদান করুন
 get-involved-title = { $lang } এ অবদান রাখুন

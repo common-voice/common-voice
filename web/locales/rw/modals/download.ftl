@@ -7,4 +7,3 @@ download-form-email =
     .value = Urakoze, tuzakomeza twungurane ibitekerezo (duhane amakuru)
 download-back = Subira ku ikusanyirizo rya porogaramu y'Ijwi Rusange
 download-no = Oya, urakoze.
-

@@ -1,1 +1,2 @@
-    .label = Электроннуг шуудаң
+## Request Language Pages
+

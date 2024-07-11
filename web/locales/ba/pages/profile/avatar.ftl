@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Һүрәттең файлын тейәргә
 browse-file = Күсерегеҙ йәки <browseWrap> файл файлағыҙ</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Һайланған файл үтә ҙур
 avatar-uploaded = Һүрәтегеҙ тейәлде.
 max-file-size = макс { $kb }kb
 remove-avatar = Аватарҙы юйыу
-

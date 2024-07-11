@@ -56,4 +56,3 @@ off = Gbànyụ́ọ́
 on = Gbànyé
 help-accent = Ì chọ̀rọ̀ ènyèmáká bànyéré ǹdébé-ólú?
 help-accent-explanation = Ǹdébé-ólú gí bu ùsòrò gí ònwé gí sì àkpópùtá ókwū. Ọ́ nnà-èsíté n'ébé m̀mádū bìgòrò, ásụ̀sụ́ ńdí ọ̀zọ́ ḿmádù nà-àsụ́ màkwà íhé ńdí ọ̀zọ́. Í nwèrè íké ídētū íhé ńdí ọzọ í chèrè nà ọ́ gà-ábà úrù ébé à.
-

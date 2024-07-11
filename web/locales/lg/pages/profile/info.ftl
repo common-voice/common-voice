@@ -48,4 +48,3 @@ skip-submission-description = Bw'oba osindika by'oyambyeko, obubabaka bujja kubu
 skip-submission-note = Manya: Ojja kwetaga okulonda wakati W'okwogera oba Okuwuliriza okukyusa ekika ky'okuyamba.
 off = Teriiko
 on = Kweri
-

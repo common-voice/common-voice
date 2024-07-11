@@ -32,4 +32,3 @@ sc-review-link = Ванномс
 
 sc-criteria-modal = Ванномань вешематне
 sc-criteria-title = Ванномань вешематне
-

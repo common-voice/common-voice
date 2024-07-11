@@ -1,3 +1,5 @@
+## Profile - Avatar
+
 browse-file-title = Įkelk paveiksliuką
 browse-file = Užtempk norimą failą čia arba <browseWrap>parink iš kompiuterio</browseWrap>
 connect-gravatar = Naudoti „Gravatar“ tarnybą

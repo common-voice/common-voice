@@ -75,11 +75,8 @@ dataset-donate-modal-heading = Tudta-e…
 donate-modal-explanation-1 = Évi majdnem egymillió dollárba kerül az adatkészletek tárolása és a platform fejlesztése a ránk támaszkodó több mint 100+ nyelvi közösség számára?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Ha értékeli a nyílt, inkluzív adatokat – adományozzon még ma!</bold>
-
 data-download-singleword-title = Töltse le az egyszavas célszegmenst
 data-download-singleword-callout-v2 = Ez egy konkrét felhasználási esetet célzó szegmens, amely a szóbeli igen / nem felismerést lehetővé tévő adatokat tartalmaz.
-## Data
-
 data-download-button = Common Voice adatok letöltése
 data-download-yes = Igen
 data-download-deny = Nem

@@ -24,8 +24,4 @@ sc-criteria-make-sure = Bezit sur e klot ar frazenn gant ar c'hriterioù da-heul
 sc-criteria-item-1 = Ar frazenn a rank bezañ distaget en un doare reizh.
 sc-criteria-item-2 = Ar frazenn a rank bezañ reizh a-fet yezhadur.
 sc-criteria-item-3 = Ar frazenn a rank bezañ aes da zistagañ.
-
-## REVIEW PAGE
-
 report-sc-different-language = Yezh disheñvel
-

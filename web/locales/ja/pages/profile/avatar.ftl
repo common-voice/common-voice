@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = 画像ファイルをアップロード
 browse-file = ドラッグ＆ドロップまたは <browseWrap>ファイルを選択</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = 選択したファイルのサイズが大きすぎます
 avatar-uploaded = アバターをアップロードしました
 max-file-size = 最大 { $kb } kb
 remove-avatar = アバターを削除
-

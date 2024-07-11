@@ -7,4 +7,3 @@ download-form-email =
     .value = Kiitos, olemme yhteydessä.
 download-back = Palaa Common Voice -aineistoihin
 download-no = Ei kiitos
-

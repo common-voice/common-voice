@@ -46,9 +46,6 @@ sc-criteria-item-3 = Veta musí byť vysloviteľná.
 sc-criteria-item-4 = Ak veta spĺňa kritériá, kliknite na tlačidlo &quot;Schváliť&quot; tlačidlo na pravej strane.
 sc-criteria-item-5-2 = Ak veta nespĺňa vyššie uvedené kritériá, kliknite na tlačidlo &quot;Odmietnuť&quot; tlačidlo vľavo. Ak si vetou nie ste istí, môžete ju tiež preskočiť a prejsť na ďalšiu.
 sc-criteria-item-6 = Ak vám dochádzajú vety na kontrolu, pomôžte nám zhromaždiť viac viet!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Skontrolujte <icon></icon> či je toto jazykovo správna veta.
 sc-review-rules-title = Spĺňa veta pravidlá?
@@ -62,4 +59,3 @@ review-error-rate-limit-exceeded = Idete príliš rýchlo. Venujte chvíľu kont
 sc-redirect-page-title = Robíme veľké zmeny
 sc-redirect-page-subtitle-1 = Nástroj na zber viet sa presúva na základnú platformu Common Voice. Teraz môžete v Common Voice <writeURL>napísať</writeURL> vetu alebo <reviewURL>kontrolovať</reviewURL> vety iných prispievateľov.
 sc-redirect-page-subtitle-2 = Pýtajte sa nás na <matrixLink>Matrixe</matrixLink>, <discourseLink>Discourse</discourseLink> alebo <emailLink>e‑mailom</emailLink>.
-

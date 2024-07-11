@@ -73,4 +73,3 @@ username-email-not-demographic = Nyingi mitiyogo donjie chenroni kod barupi mar 
 
 welcome-staff = Ruako jotij { $company }
 read-more-about = Som weche mamoko e migapwa
-

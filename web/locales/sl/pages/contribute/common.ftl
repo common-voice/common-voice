@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Kliknite
 action-tap = Tapnite
-## Languages
-
 contribute = Prispevaj
 skip = Preskoči
 shortcuts = Bližnjice
@@ -91,12 +87,6 @@ shortcut-vote-yes = d
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
-## Demo Contribute
-
-
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = Merila
@@ -105,4 +95,3 @@ contribution-volume-title = Glasnost
 contribution-just-unsure-title = Samo niste prepričani?
 see-more = <chevron></chevron>Prikaži več
 see-less = <chevron></chevron>Prikaži manj
-

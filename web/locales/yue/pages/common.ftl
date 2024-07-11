@@ -190,7 +190,6 @@ share-text = 去 { $link } 貢獻你嘅聲線，等機器學識真人點樣講�
 link-copied = 連結已複製
 back-top = 返上最頂
 logout = 登出
-
 stayintouch = Mozilla 正喺度構建緊一個圍繞聲音技術嘅社群。我哋好樂意持續更新各種數據及其來源，並了解閣下會點樣使用呢啲數據。
 privacy-info = 我哋保證會謹慎噉處理閣下嘅數據。敬請閲讀<privacyLink>私隱公告</privacyLink>。
 return-to-cv = 返回 Common Voice
@@ -204,8 +203,6 @@ email-opt-in-info-sub-with-challenge = 接收挑戰及目標提醒、進度更�
 email-opt-in-privacy-v2 = 選擇接收電郵意味住閣下同意 Mozilla 根據<privacyLink>私隱政策</privacyLink>嚟處理呢啲個人數據。
 indicates-required = ＊表示必填
 not-available-abbreviation = 唔適用
-## BULK SUBMISSION 
-
 
 ## Donate banner
 

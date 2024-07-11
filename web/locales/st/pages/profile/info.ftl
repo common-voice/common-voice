@@ -64,4 +64,3 @@ help-accent = O hloka thuso ka mokgwa wa ho bua?
 help-accent-explanation = Puo ya hao ke tsela eo o bitsang mantswe ka eona. E ka boptjwa ke moo o kileng wa phela teng, dipuo tse ding tseo o di buang le dintlha tse ding tse ngata. O ka arolelana ka dintlha di feng kapa di feng tseo o utlwang eka di ka ba bohlokwa mona.
 help-variants = O hloka thuso ka mefuta e fapaneng?
 help-variants-explanation = Variants ke mofuta o itseng wa puo - mohlala, e arolelalanwa ke ba phelang tikolohong kapa setjhabeng. Ka dinako tse ding tsena di bitswa maleme.
-

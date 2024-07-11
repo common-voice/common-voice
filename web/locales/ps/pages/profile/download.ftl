@@ -28,4 +28,3 @@ download-request-modal-description = دلته ستاسو د زپ فایلونو 
 download-request-link-text = زپ #{ $offset } د { $total } څخه
 download-request-metadata-link = د جملې متن
 download-request-link-single = تاسو کولی شئ مستقیم URLs په خپل غوره ډاونلوډ مدیر کې کاپي او پیسټ کړئ. دوی به په 12 ساعتونو کې پای ته ورسیږي، مګر تاسو کولی شئ دې پاڼې ته بیرته راشئ ترڅو هر وخت نوي جوړ کړئ.
-

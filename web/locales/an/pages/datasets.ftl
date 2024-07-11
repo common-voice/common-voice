@@ -54,11 +54,8 @@ more = Mas
 close = Zarrar
 download = Descargar
 dataset-version = Versión
-
 data-download-singleword-title = Descarga l'obchectivo segmentado d'una sola parola
 data-download-singleword-callout-v2 = Esto ye una segmentación de casos d'uso que contienen datos pa potenciar la reconocencia de dichitos y d'o «sí/no»
-## Data
-
 data-download-button = Descargar datos de Common Voice
 data-download-yes = Ell
 data-download-deny = No data-download-license

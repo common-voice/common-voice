@@ -153,4 +153,3 @@ about-playbook-how-funded = عام غږ څنګه کار کوي؟
 about-playbook-how-funded-content-1 = Common Voice د موزیلا بنسټ یوه پروژه ده، چې د امریکا 501c3 ده. دا پروژه اوس مهال په بشپړه توګه د <philantropicGrantLink>خلکو مرستو</philantropicGrantLink> لخوا تمویل کیږي، او د نړۍ د خلکو لخوا تمویل کیږي.
 about-playbook-how-funded-content-2 = دا په دوامداره توګه د ډیټاسیټونو کوربه کولو او خوشې کولو، پلیټ فارم ته وده ورکولو او د <africaMradiLink> د ټولنې پروګرامونو</africaMradiLink> چلولو لپاره ډیرې پیسې لګوي.
 about-playbook-how-funded-content-3 = که تاسو یا ستاسو سازمان غواړئ چې په دې پروژه کې بیرته مرسته وکړئ، تاسو کولی شئ یو <donateLink>ډونیشن</donateLink> وکړئ یا په <emailFragment>commonvoice@mozilla.com</emailFragment> کې زموږ د شراکت ټیم سره اړیکه ونیسئ.
-

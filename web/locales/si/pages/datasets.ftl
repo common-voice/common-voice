@@ -12,13 +12,7 @@ size-megabyte = MB
 subscribe = දායකත්වය
 get-started-speech = කථන හඳුනාගැනීම සමඟ ආරම්භ කරන්න
 other-datasets = වෙනත් හඩ දත්ත කට්ටල
-
 data-download-singleword-title = තනි වචන ඉලක්ක කොටස බාගන්න
-## Error pages
-
-
-## Data
-
 data-download-button = Common Voice දත්ත බාගත කරන්නන
 data-download-yes = ඔව්
 data-download-deny = නැත

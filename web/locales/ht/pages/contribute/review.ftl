@@ -33,4 +33,3 @@ sc-criteria-item-3 = Fraz la dwe palab.
 sc-criteria-item-4 = Si fraz la satisfè kritè yo, klike sou &quot;Apwouve&quot; bouton sou bò dwat la.
 sc-criteria-item-5-2 = Si fraz la pa satisfè kritè ki anwo yo, klike sou &quot;Rejte&quot; bouton sou bò gòch la. Si ou pa sèten sou fraz la, ou ka sote'l tou epi ale nan pwochen an.
 sc-criteria-item-6 = Si'w fini ak fraz pou revize, tanpri ede nou kolekte plis fraz!
-

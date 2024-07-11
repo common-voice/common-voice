@@ -66,11 +66,8 @@ dataset-metadata-sex = Kjønn
 # dataset metadata - age of contributor
 dataset-metadata-age = Alder
 dataset-donate-modal-heading = Visste du at…
-
 data-download-singleword-title = Last ned målsegmentet for eitt ord
 data-download-singleword-callout-v2 = Dette er eit brukstilfelle-drive segment som inneheld data for å styrkje attkjenning av talte siffer og ja/nei-attkjenning.
-## Data
-
 data-download-button = Last ned Common Voice Data
 data-download-yes = Ja
 data-download-deny = Nei

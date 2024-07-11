@@ -13,8 +13,6 @@ language-search-input =
 language-speakers = സംസാരിയ്ക്കുന്നവര്‍
 localized = പ്രാദേശികമാക്കിയ
 sentences = വാക്യങ്ങൾ
-## Languages
-
 contribute = സംഭാവന ചെയ്യുക
 get-involved-button = പങ്കാളിയാകൂ
 get-involved-title = { $lang } ഭാഷയിലേക്ക് സംഭാവന ചെയ്യുക

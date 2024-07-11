@@ -7,4 +7,3 @@ download-form-email =
     .value = Tak, vi vender tilbage
 download-back = Tilbage til datasæt for Common Voice
 download-no = Nej tak
-

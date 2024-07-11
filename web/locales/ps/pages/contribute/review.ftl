@@ -45,9 +45,6 @@ sc-criteria-item-3 = جمله باید د ویلو وړ وي.
 sc-criteria-item-4 = که جمله معیارونه پوره کړي، د "منظور" تڼۍ کلیک وکړئ.
 sc-criteria-item-5-2 = که جمله پورتني معیارونه پوره نه کړي، په &quot;رد&quot; کلیک وکړئ. تڼۍ په چپ اړخ کې. که تاسو د جملې په اړه ډاډه نه یاست، تاسو کولی شئ هغه پریږدئ او بلې ته لاړ شئ.
 sc-criteria-item-6 = که تاسو د بیاکتنې لپاره جملې ختمې کړئ، مهرباني وکړئ موږ سره د نورو جملو په راټولولو کې مرسته وکړئ!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = <icon></icon> وګورئ ایا دا په ژبني لحاظ سمه جمله ده؟
 sc-review-rules-title = ایا جمله لارښوونې پوره کوي؟
@@ -61,4 +58,3 @@ review-error-rate-limit-exceeded = تاسو ډیر چټک روان یاست. م�
 sc-redirect-page-title = موږ یو څه لوی بدلونونه کوو
 sc-redirect-page-subtitle-1 = د جملې راټولونکی د اصلي عام غږ پلیټ فارم ته حرکت کوي. تاسو اوس کولی شئ یو جمله <writeURL>لیکئ</writeURL> یا <reviewURL>بیاکتنه</reviewURL> په عام غږ کې د یوې جملې سپارل.
 sc-redirect-page-subtitle-2 = په <matrixLink>Matrix</matrixLink>، <discourseLink>Discourse</discourseLink> یا <emailLink>email</emailLink> باندې پوښتنې وکړئ.
-

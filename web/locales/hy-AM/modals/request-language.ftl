@@ -7,7 +7,4 @@ request-language-success-title = Լեզու հավելելու հարցումը 
 request-language-success-content = Մենք կապվելու ենք տեղեկատվությանով, թե ինչպես ձեր լեզուն ավելացնել Common Voice-ին մեջ:
 select-language = Ընտրել լեզու...
 other-language = Այլ լեզու
-
-## General
-
 yes-receive-emails = Այո, ցանկանում եմ նամակներ ստանալ։ Կուզենայի նաև տեղեկացված լինել Common Voice նախագծի մասին։

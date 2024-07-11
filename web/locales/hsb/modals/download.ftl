@@ -7,4 +7,3 @@ download-form-email =
     .value = Wulki dźak, wostawamy w zwisku.
 download-back = Wróćo k datowym sadźbam Common Voice
 download-no = Ně, dźakuju so
-

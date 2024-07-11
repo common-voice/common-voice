@@ -76,4 +76,3 @@ help-contribute = Ajudatz a bastir un conjunt de donades liures e diuèrses en t
 login-company = Inici de session / Registre damb era adreça electronica de { $company }
 profile-not-required = Non ei de besonh crear un perfil entà collaborar, mès ei util.
 read-more-about = Vedetz mès informacion ena pagina «Qui èm»
-

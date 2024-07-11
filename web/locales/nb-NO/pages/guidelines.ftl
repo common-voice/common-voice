@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = Hvis setningen ikke oppfyller kriteriene ove
 reviewing-sentences-explanation-3 = Hvis du er usikker på setningen, kan du også hoppe over den og gå videre til neste.
 reviewing-sentences-explanation-4 = Hvis du går tom for setninger å vurdere, vennligst hjelp oss med å samle inn flere setninger!
 domain-explanation = Domene refererer til emnet for setningen. For øyeblikket kan du velge mellom:
-

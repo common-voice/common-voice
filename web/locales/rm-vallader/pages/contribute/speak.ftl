@@ -33,7 +33,6 @@ review-rerecord = Registrescha amo üna jada
 review-cancel = Interrumpa la transmissiun
 review-keep-recordings = Tegna la registraziun
 review-delete-recordings = Stüda mias registraziuns
-
 review-terms = Cun dovrar Common Voice acceptast nossas <termsLink>cundiziuns d'ütilisaziun</termsLink> e nossa<privacyLink>decleraziun da la protecziun da datas</privacyLink>
 terms-agree = Eu accept
 terms-disagree = Eu refüs

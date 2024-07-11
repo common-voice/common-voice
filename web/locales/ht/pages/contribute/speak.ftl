@@ -33,7 +33,6 @@ review-rerecord = Re-anrejistre
 review-cancel = Anile soumisyon
 review-keep-recordings = Kenbe anrejistreman yo
 review-delete-recordings = Efase anrejistreman mwen yo
-
 review-terms = Mwen dakò ak <termsLink>Kondisyon</termsLink> ak <privacyLink>Avi sou enfòmasyon prive</privacyLink> Common Voice.
 terms-agree = Mwen dakò
 terms-disagree = mwen pa dakò

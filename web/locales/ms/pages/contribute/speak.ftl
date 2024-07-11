@@ -24,10 +24,8 @@ review-rerecord = Rakam semula
 review-cancel = Batal Serahan
 review-keep-recordings = Simpan rakaman
 review-delete-recordings = Padamkan rakaman saya
-
 review-terms = Dengan menggunakan Common Voice, anda bersetuju menerima <termsLink>Terma</termsLink> dan <privacyLink>Notis Privasi</privacyLink>kami
 terms-agree = Saya setuju
 terms-disagree = saya tidak bersetuju
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Terima kasih kerana menderma klip suara anda!
-

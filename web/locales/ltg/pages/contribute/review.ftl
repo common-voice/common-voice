@@ -46,7 +46,6 @@ sc-criteria-item-3 = Teikumam juobyut izrunojamam.
 sc-criteria-item-4 = Ka teikums atbylst vysim kriterejim, klykstynojit iz pūgys &quot;Apstyprynuot&quot;.
 sc-criteria-item-5-2 = Ka teikums naatbylst pyrma nūsauktajim kriterejim, klykstynojit iz pūgys "Nūraideit". Ka naasat puorlīcynuots par teikumu, varit tū ari izlaist i puorīt iz nuokušū.
 sc-criteria-item-6 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
-
 sc-review-rules-title = Voi teikums atbylst vodlinejom?
 sc-review-empty-state = Itūšaļt itamā volūdā nav teikumu, kū puorbaudeit.
 report-sc-different-language = Napareiza volūda

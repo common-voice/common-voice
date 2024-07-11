@@ -25,4 +25,3 @@ download-request-refresh-button = نوسازی
 download-request-modal-title = پیوندهای بارگیری
 download-request-modal-description = در اینجا پیوندهایی برای دریافت پرونده‌های ZIP شما وجود دارد.
 download-request-link-text = ‫Zip شماره { $offset } از { $total }
-

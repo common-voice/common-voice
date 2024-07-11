@@ -84,9 +84,6 @@ username-optin-public = Možeš odabrati, želiš li objaviti korisničko ime il
 demographic-deidentified-clarity-2 = Opcionalno podneseni demografski podatci (npr. dob, rod, jezik i naglasak) nikada neće biti javni na tvojem profilu i neće biti povezani s tvojim računom u skupu podataka. Pojedini audio-isječci bit će povezani s demografskim podatcima radi točnije analize - npr. istraživač možda želi ciljani neki model uvježbavanja na određeni demografski segment.
 username-email-not-demographic = Tvoje korisničko ime i e-mail adresa neće biti povezani s objavljenim podacima.
 
-## Profile Download
-
-
 ## Landing
 
 welcome-staff = Dobrodošli { $company } suradnici!
@@ -94,4 +91,3 @@ help-contribute = Možeš pomoći stvarati skup podataka otvorenog koda, stvaran
 login-company = Prijavi se / registriraj se s { $company } e-mail adresom
 profile-not-required = Nije nužno imati profil, mada je korisno. Pogledaj niže dolje zašto.
 read-more-about = Pročitaj više na našoj stranici Informacije
-

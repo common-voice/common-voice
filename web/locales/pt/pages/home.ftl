@@ -76,4 +76,3 @@ help-contribute = Você pode ajudar a construir um conjunto de dados de código 
 login-company = Entrar / Cadastrar-se com email de { $company }
 profile-not-required = Não é obrigatório ter um perfil para contribuir, apesar de ser útil
 read-more-about = Saiba mais sobre o Common Voice
-

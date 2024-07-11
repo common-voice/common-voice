@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Wobrazowu dataju nahrać
 browse-file = Čehńće a pušćće abo <browseWrap>přehladujće</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Wubrana dataja je přewulka
 avatar-uploaded = Awatar je so nahrał
 max-file-size = { $kb } kb maks.
 remove-avatar = Awatar wotstronić
-

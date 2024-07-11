@@ -28,4 +28,3 @@ download-request-modal-description = Aquí tiens los vinclos pa baixar los archi
 download-request-link-text = ZIP num. { $offset } de { $total }
 download-request-metadata-link = Texto d'a frase
 download-request-link-single = Tamién puetz copiar y apegar los URLs directament en o vuestro chestor de baixadas preferiu. Los vinclos caducarán en 12 horas, pero puetz tornar a esta pachina pa chenerar-ne nuevos en qualsequier momento.
-

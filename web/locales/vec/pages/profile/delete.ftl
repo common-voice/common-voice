@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Poderisito spiegarne parchè te voi scanseƚare ƚe to registrasion?
 profile-form-delete = Scanseƚa profiƚo
-

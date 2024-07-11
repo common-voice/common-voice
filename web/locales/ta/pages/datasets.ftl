@@ -49,12 +49,6 @@ more = மேலும்
 close = மூடுக
 download = பதிவிறக்க
 dataset-version = பதிப்பு
-
-## Error pages
-
-
-## Data
-
 data-download-button = பொதுக் குரல் தரவைப் பதிவிறக்குங்கள்
 data-download-yes = ஆம்
 data-download-deny = இல்லை

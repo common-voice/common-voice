@@ -7,4 +7,3 @@ download-form-email =
     .value = ကျေးဇူးတင်ပါတယ်၊ ငါတို့ အဆက်အသွယ် မပျက် ရှိနေပါ့မယ်။
 download-back = Common Voice ဒေတာအစု သို့ပြန်သွားပါ
 download-no = နေပါစေ၊ ကျေးဇူးတင်ပါတယ်
-

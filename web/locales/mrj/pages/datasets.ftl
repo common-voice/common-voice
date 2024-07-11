@@ -35,10 +35,7 @@ more = Шукырак
 close = Питӹрäш
 download = Качаен нӓлӓш
 dataset-version = Верси
-
 data-download-singleword-title = Ик шамакан целевой лаштыкым качаен нӓл
-## Data
-
 data-download-button = Common Voice данныйым качаен нӓлӓш
 data-download-yes = Ане
 data-download-deny = Уке

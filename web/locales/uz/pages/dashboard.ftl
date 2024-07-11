@@ -116,4 +116,3 @@ validations =
         [one] Tekshirish
        *[other] Tekshirish
     }
-

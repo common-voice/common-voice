@@ -1,12 +1,3 @@
-## LOGIN
-
-
-## PROFILE
-
-
-## REVIEW CRITERIA
-
-
 ## REVIEW
 
 # Variables:
@@ -15,4 +6,6 @@ sc-review-form-source = Манбаъ: { $sentenceSource }
 sc-review-form-button-reject = Рад кардан
 sc-review-form-button-skip = Нодида гузарондан
 sc-review-form-button-approve = Тасдиқ кардан
+
+## REVIEW CRITERIA
 

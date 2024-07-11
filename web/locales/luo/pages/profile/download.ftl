@@ -13,4 +13,3 @@ download-request-archive-single = Dero achiel motingo weche
 download-request-archive-multiple = pogi e deche { $archiveCount } motingo weche
 download-request-refresh-button = Yaw Manyien
 download-request-metadata-link = Ndiko mar wach
-

@@ -7,7 +7,4 @@ request-language-success-title = Тылы киллэрэр ыйытыгыҥ ыы
 request-language-success-content = Биһиги төһө кыалларынан түргэнник биллиэхпит уонна эһиги тылгытын хайдах Common Voice киллэрэр туһунан кэпсиэхпит.
 select-language = Тылы тал...
 other-language = Атын тыллар
-
-## General
-
 yes-receive-emails = Сөп. Мин Common Voice бырайыак туһунан сонуну истиэхпин баҕарабын.

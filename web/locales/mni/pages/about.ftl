@@ -105,6 +105,7 @@ about-playbook-how-add-sentences = ꯑꯩꯅ ꯀꯔꯝꯅ ꯋꯥꯍꯩꯄꯔꯦ�
 about-playbook-how-add-sentences-content-1 = strong>ꯋꯥꯍꯩꯄꯔꯦꯡ ꯈꯣꯝꯖꯤꯟꯅꯕ</strong> ꯑꯁꯤ ꯄꯕ꯭ꯂꯤꯛ ꯗꯣꯃꯦꯏꯟ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯈꯣꯝꯖꯤꯟꯅꯕꯥ ꯑꯃꯁꯨꯡ ꯆꯠꯅꯍꯟꯅꯕꯒꯤ ꯈꯨꯠꯂꯥꯏ ꯑꯃꯅꯤ ꯫ ꯅꯍꯥꯛꯅꯥ <scAccountLink>ꯑꯦꯀꯥꯎꯟꯠ ꯑꯃꯥ ꯁꯦꯝꯕꯥ ꯃꯊꯧ ꯇꯥꯏ</scAccountLink>. ꯃꯗꯨꯒꯤ ꯃꯇꯨꯡꯗꯥ, ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜ ꯑꯗꯨ ꯅꯍꯥꯛꯀꯤ <strong>ꯄ꯭ꯔꯣꯐꯥꯏꯜ</strong>ꯗꯥ ꯍꯥꯞꯆꯤꯜꯂꯨ ꯫ ꯅꯍꯥꯛꯅꯥ <strong>ꯍꯥꯞꯆꯤꯟꯂꯨ</strong> ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯅꯠꯇ꯭ꯔꯒꯥ <strong>ꯔꯤꯚꯤꯌꯨ ꯇꯧꯕ</strong> ꯃꯃꯥꯡꯗꯥ ꯍꯥꯞꯆꯤꯟꯈꯔꯕ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯫
 about-playbook-how-add-sentences-content-2 = ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯑꯁꯤ ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜꯗ ꯌꯥꯎꯍꯟꯅꯕꯥ ꯃꯤꯑꯣꯏ ꯑꯅꯤꯅꯥ ꯌꯦꯡꯁꯤꯟꯕꯥ ꯑꯃꯁꯨꯡ ꯌꯥꯕꯥ ꯇꯥꯏ ꯫ ꯅꯍꯥꯛꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯂꯣꯜꯒꯤ <languageGuidelinesLink>ꯃꯐꯝꯁꯤꯗꯥ</languageGuidelinesLink>ꯒꯤꯗꯃꯛ ꯒꯥꯏꯗꯂꯥꯏꯅꯁꯤꯡ ꯁꯦꯝꯃꯤ꯫ ꯁꯦꯟꯁꯅꯁꯤꯡ ꯑꯁꯤ <licenseLink>ꯄꯕ꯭ꯂꯤꯛ ꯗꯣꯃꯦꯟ</licenseLink>ꯗꯥ ꯑꯃꯁꯨꯡ ꯋꯥꯍꯩ ꯱꯵ꯗꯒꯤ ꯍꯦꯟꯅꯥ ꯀꯨꯞꯄꯥ ꯑꯣꯏꯒꯗꯕꯅꯤ ꯫ ꯅꯍꯥꯛꯅꯥ ꯑꯏꯕ ꯋꯥ ꯑꯃꯒꯤ ꯃꯄꯨꯗꯥ ꯑꯩꯈꯣꯏꯒꯤ ꯋꯥꯏꯚꯔ ꯄ꯭ꯔꯣꯁꯦꯁ</waiverLink> ꯁꯤꯖꯤꯟꯅꯗꯨꯅꯥ ꯃꯁꯤꯕꯨ <waiverLink>CC0 ꯑꯣꯏꯍꯟꯅꯕꯥ ꯍꯥꯏꯕꯥ ꯌꯥꯏ, ꯑꯃꯁꯨꯡ ꯑꯩꯈꯣꯏꯗꯥ commonvoice@mozilla.com ꯗꯥ ꯊꯥꯕꯥ ꯌꯥꯏ ꯫
 about-playbook-how-add-sentences-content-3 = ꯋꯤꯀꯤꯄꯤꯗꯤꯌꯥꯗꯒꯤ ꯊꯣꯏꯗꯣꯛꯄꯥ ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ ꯂꯤꯚꯔ ꯇꯧꯅꯕꯥ ꯅꯍꯥꯛꯅꯥ <scraperLink>ꯋꯥꯍꯩꯄꯔꯦꯡ ꯆꯤꯡꯊꯣꯛꯜꯛꯅꯕ</scraperLink> ꯁꯤꯖꯤꯟꯅꯕꯥ ꯌꯥꯒꯅꯤ ꯫
+
 ## How to record quality
 
 about-playbook-how-record-quality = ꯑꯋꯥꯡꯕꯥ ꯊꯥꯛꯀꯤ ꯈꯣꯟꯖꯦꯜ ꯀ꯭ꯂꯤꯞ ꯑꯃꯥ ꯃꯇꯧ ꯀꯔꯝꯅꯥ ꯔꯦꯀꯣꯔꯗ ꯇꯧꯒꯅꯤ?
@@ -150,4 +151,6 @@ about-playbook-how-project-governance-content-4 = ꯀꯝꯌꯨꯅꯤꯇꯤꯅꯥ
 about-playbook-how-project-governance-content-5 = ꯃꯃꯜ ꯂꯩꯕ ꯑꯃꯁꯨꯡ ꯁꯛꯈꯪꯕ ꯫
 about-playbook-how-project-governance-content-6 = ꯃꯈꯣꯏ ꯃꯁꯦꯜ ꯱ꯁꯨꯡ ꯋꯥꯔꯣꯜ ꯂꯩꯈꯥꯏ ꯇꯥꯅꯕ ꯫
 about-playbook-how-project-governance-content-7 = <governanceLink>ꯑꯩꯈꯣꯏꯅꯥ ꯀꯔꯝꯅꯥ ꯂꯩꯉꯥꯛꯄꯒꯦ ꯍꯥꯏꯕꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯍꯦꯟꯅꯥ ꯄꯥꯕꯤꯌꯨ</governanceLink>
+
+## How is Common Voice funded
 

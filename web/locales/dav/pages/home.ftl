@@ -76,4 +76,3 @@ help-contribute = Kwadima kutesia kuagha mafungu gha data ghiko mwari sena risef
 login-company = Ngia/Fungua Akaunti na imeili ya { $company }
 profile-not-required = Kukaia na profaili si suti kungi eri kuchanga ela koko na w'utesia, zighana kwaki aha naisi.
 read-more-about = Churia kushoma peji ya Aighu yedu
-

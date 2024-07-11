@@ -16,9 +16,7 @@ language-search-input =
 language-speakers = Plidader/plidadra
 localized = translatau
 sentences = Construcziuns
-## Languages
-
-contribute = Contribuir
+contribute = contribuir
 get-involved-button = Separticipar
 get-involved-title = Contribuir a { $lang }
 get-involved-text = Engraziel per tiu interess da contribuir a { $lang }. Nus dein tutta breigia da preparar mintga lungatg per saver lantschar el e da tener sil current ils teams per e-mail. Sche ti vul contribuir, sche indichescha tia adressa dad e-mail cheusut.

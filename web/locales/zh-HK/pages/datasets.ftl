@@ -51,11 +51,8 @@ more = 更多
 close = 關閉
 download = 下載
 dataset-version = 版本
-
 data-download-singleword-title = 下載單字目標群體分項
 data-download-singleword-callout-v2 = 呢個係一個用例驅動嘅群體分項，包含咗用於增強語音識別偵測我哋講出數字和是/否嘅數據。
-## Data
-
 data-download-button = 下載 Common Voice 數據
 data-download-yes = 好
 data-download-deny = 唔好

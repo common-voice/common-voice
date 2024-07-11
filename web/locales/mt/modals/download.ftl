@@ -7,4 +7,3 @@ download-form-email =
     .value = Grazzi, tisma' minn għandna
 download-back = Erġa' lura għall-ġabra ta' dati Common Voice
 download-no = Le grazzi
-

@@ -17,9 +17,6 @@ localized = E përkthyer
 sentences = Fraza
 language-validation-hours = Orë
 language-validation-progress = Ecuri Vleftësimi
-
-## Languages
-
 contribute = Jepni Ndihmesë
 get-involved-button = Përfshihuni
 get-involved-title = Kontribuoni në { $lang }

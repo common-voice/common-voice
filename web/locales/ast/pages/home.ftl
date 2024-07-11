@@ -83,9 +83,6 @@ username-optin-public = Pues escoyer si'l nome d'usuariu va ser públicu o anón
 demographic-deidentified-clarity-2 = Los datos demográficos unviaos opcionalmente (por exemplu, edá, xéneru, llingua y acentu) enxamás nun van espublizase nel to perfil y nun van enllaciase a la to cuenta nel conxuntu de datos. Los clips d'audiu individuales van asociase colos datos demográficos col motivu d'análisis más precisos. Por exemplu, un investigador quier orientar un modelu d'entrenamientu a un segmentu demográficu específicu.
 username-email-not-demographic = El to nome d'usuariu y corréu nun van asociase colos datos espublizaos.
 
-## Profile Download
-
-
 ## Landing
 
 welcome-staff = ¡Afayáivos, personal de { $company }!
@@ -93,4 +90,3 @@ help-contribute = Pues ayudar a crear un conxuntu de datos diversu y abiertu cre
 login-company = Aniciar sesión / Rexistrase col corréu de { $company }
 profile-not-required = Nun se rique tener un perfil pa collaborar, magar qu'ayuda.
 read-more-about = Llei más tocante a nós na nuesa páxina Tocante a
-

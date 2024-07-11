@@ -230,7 +230,6 @@ link-copied = Link kopieret
 back-top = Tilbage til toppen
 logout = Log ud
 donate = Doner
-
 stayintouch = Hos Mozilla bygger vi et fællesskab omkring stemmeteknologi. Vi vil gerne holde kontakten med opdateringer, nye datakilder og høre mere om, hvordan du bruger disse informationer.
 privacy-info = Vi lover at behandle dine oplysninger på betryggende vis. Læs mere i vores <privacyLink>privatlivserklæring</privacyLink>.
 return-to-cv = Vend tilbage til Common Voice
@@ -244,6 +243,7 @@ email-opt-in-info-sub-with-challenge = Modtag e-mails med påmindelser om udford
 email-opt-in-privacy-v2 = Ved at tilmelde dig e-mails accepterer du, at Mozilla håndterer disse oplysninger som forklaret i Mozillas <privacyLink>privatlivspolitik</privacyLink>.
 indicates-required = * Betyder at feltet skal udfyldes
 not-available-abbreviation = Ikke tilgængelig
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -252,7 +252,5 @@ donate-banner-cta = <mark>Vi har brug for</mark><br/><mark>din hjælp!</mark>
 donate-banner-cta-explanation = Det koster næsten en million dollars om året at hoste datasættene og forbedre platformen for de over 100 sprogfællesskaber, der er afhængige af det, vi laver. <strong>Hvis du værdsætter åbne, inkluderende data - så donér i dag!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Bruger du CV til</mark><br/><mark>din forskning?</mark>
-# [/SentenceCollector]
-
 localization-select =
     .label = Vælg sprog/oversættelse

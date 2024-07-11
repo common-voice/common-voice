@@ -198,7 +198,6 @@ link-copied = Pautan Disalin
 back-top = Kembali ke atas
 logout = Log Keluar
 donate = Derma
-
 stayintouch = Kami di Mozilla sedang membina komuniti di sekitar teknologi suara. Kami ingin terus berhubung dengan kemas kini, sumber data baru dan untuk mengetahui lebih lanjut mengenai bagaimana anda menggunakan data ini.
 privacy-info = Kami berjanji untuk mengendalikan maklumat anda dengan cermat. Ketahui selanjutnya dalam <privacyLink>Dasar Privasi</privacyLink> kami.
 return-to-cv = Kembali ke Common Voice
@@ -212,3 +211,6 @@ email-opt-in-info-sub-with-challenge = Terima e-mel seperti peringatan cabaran d
 email-opt-in-privacy-v2 = Dengan memilih untuk menerima e-mel, anda menyatakan bahawa anda bersetuju dengan Mozilla mengendalikan maklumat tersebut seperti yang dijelaskan dalam <privacyLink>Dasar Privasi</privacyLink> Mozilla.
 indicates-required = Medan bertanda asterisk (*) diperlukan.
 not-available-abbreviation = N/A
+
+## Donate banner
+

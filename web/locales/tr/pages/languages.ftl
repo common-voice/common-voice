@@ -17,10 +17,7 @@ localized = Yerelleştirilmiş
 sentences = Cümleler
 language-validation-hours = Saat
 language-validation-progress = Doğrulama İlerlemesi
-
-## Languages
-
-contribute = Katkıda bulunun
+contribute = Katkıda bulun
 get-involved-button = Katkıda bulunun
 get-involved-title = { $lang } için katkıda bulunun
 get-involved-text = Common Voice’a { $lang } katkıda bulunma isteğiniz için teşekkür ederiz. Tüm dilleri desteklemek ve ekiplerimizi e-posta yoluyla bilgilendirmek için çalışmalarımızı sürdürüyoruz. Katkıda bulunmak isterseniz e-posta adresinizi bizimle paylaşabilirsiniz.

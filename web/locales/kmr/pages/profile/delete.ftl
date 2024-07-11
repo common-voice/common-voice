@@ -9,4 +9,3 @@ why-delete-recordings =
     
     Tu dikarî ji me re bibêjî ku çima tu dixwazî tomarên te bêne jêbirin?
 profile-form-delete = Profîlê jê bibe
-

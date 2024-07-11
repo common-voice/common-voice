@@ -6,4 +6,3 @@ contact-form-name =
 contact-form-message =
     .label = संदेश
 contact-required = * आवश्यक
-

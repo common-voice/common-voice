@@ -28,4 +28,3 @@ download-request-modal-description = بۇ يەردە ZIP ھۆججىتىڭىزن�
 download-request-link-text = { $total } دانە Zip ھۆججىتىنىڭ { $offset }چىسى
 download-request-metadata-link = جۈملە تېكىستى
 download-request-link-single = بىۋاسىتە URLs نى ئۆزىڭىز ياقتۇرىدىغان چۈشۈرۈش باشقۇرغۇچقىمۇ كۆچۈرۈپ چاپلىيالايسىز. ئۇلارنىڭ ۋاقتى 12 سائەتتە توشىدۇ ئەمما سىز بۇ بەتكە قايتىپ يېڭىسىنى خالىغان ۋاقىتتا ھاسىل قىلالايسىز.
-

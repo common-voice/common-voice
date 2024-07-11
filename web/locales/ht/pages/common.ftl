@@ -226,7 +226,6 @@ link-copied = Lyen kopye
 back-top = Retounen Anwo Nèt
 logout = Dekonekte
 donate = Fè don
-
 stayintouch = Nou menm nan Mozilla ap bati yon kominote sou teknoloji vwa. Nou ta renmen rete an kontak ak dènye nouvèl yo, nouvo sous done ak jwenn plis enfòmasyon sou ki jan w ap itilize done sa yo.
 privacy-info = Nou pwomèt pou nou jere enfòmasyon ou yo avèk swen. Li plis nan <privacyLink>Avi sou Konfidansyalite</privacyLink> nou an.
 return-to-cv = Retounen nan Common Voice
@@ -240,7 +239,8 @@ email-opt-in-info-sub-with-challenge = Resevwa Imèl tankou rapèl defi ak objek
 email-opt-in-privacy-v2 = Lè'w chwazi pou resevwa imèl, ou deklare ou dakò pou Mozilla jere enfòmasyon sa yo jan yo eksplike sa nan <privacyLink>Politik sou enfòmasyon prive</privacyLink> Mozilla.
 indicates-required = Liy fòm ki make ak yon asterisk (*) obligatwa
 not-available-abbreviation = Pa aplikab
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Chwazi lang/lokalizasyon

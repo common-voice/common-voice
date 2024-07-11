@@ -1,8 +1,4 @@
-## Contribution
-
 action-click = Hacer clic
-## Languages
-
 contribute = Xitechpalehui
 skip = Saltar
 shortcuts = Atajos
@@ -110,4 +106,3 @@ contribution-reader-effects-title = Efectos del lector
 contribution-reader-effects-description = La mayoría de las grabaciones son de personas hablando con su voz natural. Puede aceptar la grabación no estándar ocasional que se grita, susurra o, obviamente, se entrega con una voz "dramática". Rechace las grabaciones cantadas y las que utilicen una voz sintetizada por computadora.
 contribution-just-unsure-title = ¿Simplemente inseguro?
 contribution-just-unsure-description = Si encuentra algo que estas pautas no cubren, vote de acuerdo con su mejor criterio. Si realmente no puede decidir, use el botón de salto y continúe con la siguiente grabación.
-

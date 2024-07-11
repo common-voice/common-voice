@@ -70,4 +70,3 @@ help-accent-explanation = Kit dhok en ayanga kaka iwuoyo. Onyalo lokore kaluowor
 help-variants = Idwaro kony kod mopogore opogore?
 help-variants-explanation = Kabind duonde gin kit dhok, kuom ranyisi kaka dho joma odak kanyachiel kata e gweng'. Sechemoko iluongo gi ni dhoudi.
 help-sex-or-gender-changes = Idwaro kony loko weche mag kit ngato kaka dichuo kata dhako?
-

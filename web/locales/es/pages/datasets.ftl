@@ -56,10 +56,7 @@ dataset-version = Versión
 sha256-checksum-copied = ¡Suma de comprobación SHA256 copiada!
 sha256-checksum-copied-error = No se pudo copiar la suma de comprobación SHA256
 clipboard-not-supported = Portapapeles no compatible
-
 data-download-singleword-title = Descarga el objetivo segmentado de una sola palabra
-## Data
-
 data-download-button = Descargar datos de Common Voice
 data-download-yes = Sí
 data-download-deny = No

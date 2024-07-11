@@ -28,4 +28,3 @@ download-request-modal-description = Ja lidhjet për të shkarkuar kartelat tuaj
 download-request-link-text = Zip #{ $offset } nga { $total } gjithsej
 download-request-metadata-link = Tekst fjalie
 download-request-link-single = Mund edhe të kopjoni dhe ngjitni URL-të e drejtpërdrejta në përgjegjësin tuaj të parapëlqyer për shkarkime. Do të skadojnë pas 12 orësh, por mund të riktheheni në çfarëdo kohe te kjo faqe për të prodhuar të reja.
-

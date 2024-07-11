@@ -94,4 +94,3 @@ help-contribute = ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⴰⵡⵙⵎ ⴳ ⵓⵥⴽⴽⵓ ⵏ
 login-company = ⴽⵛⵎ/ⵣⵎⵎⴻⵎ ⵙ ⵉⵎⴰⵢⵍ ⵏ { $company }
 profile-not-required = ⵓⵔ ⴷ ⵉⵇⵇⴰⵏ ⴰⴷ ⵖⵓⵔⵓⵏ ⵢⵉⵍⵉ ⵉⴼⵔⵙ ⵃⵎⴰ ⴰⴷ ⵜⴰⵔⴳⵎ, ⵎⴰⵛⴰ ⵍⴰ ⵉⵜⵜⴰⵡⵙ, ⵥⵕⴰⵜ ⵎⴰⵅⴼ ⴷⴷⴰⵡ ⴷⴰ.
 read-more-about = ⵖⵔ ⵓⴳⴳⴰⵔ ⴳ ⵜⴰⵙⵏⴰ ⵏ ⵅⴼ ⵏⵏⵖ
-

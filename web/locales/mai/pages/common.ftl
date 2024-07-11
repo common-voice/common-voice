@@ -185,7 +185,6 @@ faq = बेर बेर पूछए जाइबला प्रश्न
 content-license-text = क्रिएटिव कामंस लायसेंस <licenseLink>केर भीतर कंटेंट मोजुद अछि</licenseLink>
 link-copied = लिंक कॉपी बनैलक
 logout = लाग आउट
-
 stayintouch = हम Mozilla मे एकटा भ्वाइस टेकनोलोजी कम्युनिटी बनाएब रहल छी. हमरा अपडेट खातिर अहाँ सँ संपर्क मे बनल रहनाय नीक लागत, नवीन डाटा श्रोत ख़ातिर आओर जे अहाँ कओन तरह सँ डाटा उपयोग क रहल छी.
 privacy-info = हम अहाँ सँ कराक करैत छी जे अहाँक जानकारी एतय सुरक्षित रहत. बेसी जानकारी कलेल हमर <privacyLink>प्राइवेसी नोटिस पढ़ू.</privacyLink>.
 return-to-cv = Common Voice पर घुरू
@@ -199,3 +198,6 @@ email-opt-in-info-sub-with-challenge = Common Voice Project क संबंध 
 email-opt-in-privacy-v2 = ईमेल प्राप्त करय के विकल्प चुनि क’ अहाँ अनुमति देत छी जे अहाँ Mozilla के एहि जानकारी के संभारबाक ख़ातिर तैयार छी जहिना जे Mozilla केर <privacyLink>गोपनीयता नीति</privacyLink> मे बताएल गेल अछि.
 indicates-required = जतए (*) चिह्नित अछि तकरा पूरा कएनाय ज़रूरी अछि.
 not-available-abbreviation = लागू नहि
+
+## Donate banner
+

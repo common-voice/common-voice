@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Щёлкнуть
 action-tap = Коснуться
-## Languages
-
-contribute = Tee kaaz
+contribute = Принять участие
 skip = Пропустить
 shortcuts = Сочетания клавиш
 goal-help-recording = Вы помогли Common Voice достичь <goalPercentage></goalPercentage> из нашей ежедневной цели по записи в { $goalValue }!
@@ -18,6 +14,9 @@ record-button-label = Запишите свой голос
 share-title-new = <bold>Помогите нам</bold> найти больше голосов
 keep-track-profile = Отслеживайте свой прогресс с помощью профиля
 login-to-get-started = Войдите или зарегистрируйтесь, чтобы начать
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -68,4 +67,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

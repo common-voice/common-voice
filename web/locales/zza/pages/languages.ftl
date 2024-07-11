@@ -17,10 +17,7 @@ localized = Çarnîyaye
 sentences = Cumleyî
 language-validation-hours = Saetî
 language-validation-progress = Averşîyayîşê Tesdîqan
-
-## Languages
-
-contribute = Dest bide
+contribute = Beşdar be
 get-involved-button = Beşdar bibe
 get-involved-title = Dest bide { $lang }
 get-involved-text = Seba ke to waşt dest bidê projeyê { $lang }, ti weş û war be. Ma kenîme ke her ziwan seba weşanayîşî hazir bikerîme û ekîpan pê e-maîl xeberdar bikerîme. Ti ke wazenî/a dest bidê ci, keremê xo ra e-maîlê xo cêr ra binuse.

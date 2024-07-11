@@ -76,4 +76,3 @@ help-contribute = Umumiy ovozli profil yaratish va ovozingizga hissa qo'shish or
 login-company = { $company } elektron pochtasi bilan tizimga kirish / tizimga kirish
 profile-not-required = Profilga ega bo'lish foydali bo'lsa ham, uni qo'shish shart emas, nima uchun quyida ko'rib chiqing.
 read-more-about = Batafsil ma'lumotni bizning sahifamizda o'qing
-

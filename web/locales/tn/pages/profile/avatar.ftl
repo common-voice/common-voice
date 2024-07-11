@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Tsenya faele ya setshwantsho
 browse-file = E goge o bo o e latlhela kgotsa o <browseWrap>Senke</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Faele e e tlhophilweng e kgolo thata
 avatar-uploaded = Setshwantsho se tsentswe
 max-file-size = { $kb }kb bogolo
 remove-avatar = Ntsha Setshwantsho
-

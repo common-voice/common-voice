@@ -7,4 +7,3 @@ download-form-email =
     .value = Faleminderit, do të lidhemi me ju.
 download-back = Rikthehu te Grupe të Dhënash Zanore të Zakonshme
 download-no = Jo, Faleminderit
-

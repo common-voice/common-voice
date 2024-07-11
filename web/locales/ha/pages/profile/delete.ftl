@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Za ka iya gaya mana me yasa ka ke son goge muryoyinka da aka ɗauka?
 profile-form-delete = Cire Bayananka
-

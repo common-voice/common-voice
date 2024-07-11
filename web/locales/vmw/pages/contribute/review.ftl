@@ -33,9 +33,6 @@ sc-criteria-item-3 = Ohaana oweryaneya oromola nuulumo.
 sc-criteria-item-4 = Ankhi nlamulo otthunela mithinto soovarela, mutthitte vaputawuni &quot; Opheela&quot; moono moolopwana.
 sc-criteria-item-5-2 = Ankhi nlamulo otthunela mithinto soovarela, mutthitte vaputawuni &quot; Opheela&quot; moono moolopwana.
 sc-criteria-item-6 = Ankhi mwaahikhalane tho maalumo noowoonexexa, munikhalihere othukumana maalumo manceene!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Muttapunye <icon></icon> is this a linguistically correct sentence?
 sc-review-rules-title = Nikhuuru na moolumo a mittaala?
@@ -47,4 +44,3 @@ review-error = Yookhala etthu evonyen´ye okathi  loonaxaxiwaaya nlove nla nookw
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Niniira nipakaka mipittikuxo suulupale
 sc-redirect-page-subtitle-2 = Munikohe nkhalelo wa <matrixLink>Matiriixi</matrixLink>, <discourseLink>Tixikoorisi</discourseLink> wala <emailLink>email</emailLink>.
-

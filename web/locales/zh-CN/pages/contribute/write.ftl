@@ -1,6 +1,6 @@
-write = 撰写
 ## WRITE PAGE
 
+write = 撰写
 write-instruction = 添加 <icon></icon> 公有领域的语句
 write-page-subtitle = 此处贡献的语句将被添加到采用 cc-0 许可证的公开数据集中。
 sentence =
@@ -89,4 +89,3 @@ file-invalid-type = 文件无效
 file-too-large = 文件太大
 file-too-small = 文件太小
 too-many-files = 文件过多
-

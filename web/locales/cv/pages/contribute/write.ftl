@@ -1,1 +1,5 @@
-    .label = Эл. пуштӑ
+## WRITE PAGE
+
+
+## BULK SUBMISSION 
+

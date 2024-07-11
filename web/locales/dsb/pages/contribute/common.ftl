@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Kliknuś
 action-tap = Pótusnuś
-## Languages
-
-contribute = Pśinosowaś
+contribute = Sobu źěłaś
 review = Pśeglědaś
 skip = Pśeskócyś
 shortcuts = Skrotconki
@@ -144,4 +140,3 @@ contribution-reader-effects-title = Efekty cytarja
 contribution-just-unsure-title = Jano njewěsty?
 see-more = <chevron></chevron>Wěcej pokazaś
 see-less = <chevron></chevron>Mjenjej pokazaś
-

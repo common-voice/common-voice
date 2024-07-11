@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = Nëse togfjalëshi s’i plotëson kriteret 
 reviewing-sentences-explanation-3 = Nëse jeni të pasigurt për frazën, mundeni edhe ta anashkaloni frazën dhe të vazhdoni me pasuesen.
 reviewing-sentences-explanation-4 = Nëse ju mbarohen togfjalëshat për shqyrtim, ju lutemi, ndihmonani të grumbullojmë më tepër fjali!
 domain-explanation = Përkatësia i referohet lëndës së subjektit të togfjalëshit. Aktualisht mund të zgjidhni mes:
-

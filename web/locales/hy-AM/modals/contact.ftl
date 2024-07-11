@@ -6,4 +6,3 @@ contact-form-name =
 contact-form-message =
     .label = Հաղորդագրություն
 contact-required = *պարտադիր է
-

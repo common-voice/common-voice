@@ -13,8 +13,6 @@ language-search-input =
 language-speakers = Vorbitori
 localized = Localizat
 sentences = Propoziții
-## Languages
-
 contribute = Contribuie
 get-involved-button = Implică-te
 get-involved-title = Contribuie la { $lang }

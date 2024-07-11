@@ -2,6 +2,9 @@
 
 about-title = എന്തുകൊണ്ട് കോമണ്‍ വോയ്സ്?
 how-does-it-work-text = നമ്മള്‍ തുറന്ന സ്രോതസ്സിലുള്ള ശബ്ദസഞ്ചയം കൂട്ടായി ഉണ്ടാക്കുന്നു. നിങ്ങളുടെ ശബ്ദം നല്‍കിയും മറ്റുള്ളവരുടെ സംസാരത്തിന്റെ കൃതൃത ഉറപ്പാക്കിയും ശബ്ദസഞ്ചയം എല്ലാവര്‍ക്കും വേണ്ടി മെച്ചപ്പെടുത്തൂ.
+
+## How does it work section
+
 about-speak = സംസാരിക്കുക
 about-speak-text = സംഭാവനയായി ലഭിച്ച വാചകങ്ങൾ വായിച്ച് ശബ്ദം റെക്കോഡ് ചെയ്യുന്നതിൽ പങ്കു ചേരാം
 about-listen-queue = കേൾക്കാനുള്ള-ക്യൂ
@@ -26,3 +29,34 @@ about-nav-why-common-voice = എന്തുകൊണ്ട്?
 about-nav-how-it-works = എങ്ങനെ ?
 about-nav-partners = പങ്കാളികള്‍
 about-nav-get-involved = പങ്കെടുക്കുക
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

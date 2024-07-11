@@ -28,4 +28,3 @@ download-request-modal-description = Ето връзките за изтегля
 download-request-link-text = Zip #{ $offset } от { $total }
 download-request-metadata-link = Текст на изречението
 download-request-link-single = Можете също така да копирате и поставите директните URL адреси в любимия си мениджър за изтегляне. Те ще изтекат след 12 часа, но можете да се върнете на тази страница, за да генерирате нови по всяко време.
-

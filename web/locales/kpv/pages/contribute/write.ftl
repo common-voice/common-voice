@@ -1,1 +1,5 @@
-    .label = Электрон пӧшта
+## WRITE PAGE
+
+
+## BULK SUBMISSION 
+

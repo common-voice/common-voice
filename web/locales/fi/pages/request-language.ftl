@@ -9,4 +9,3 @@ request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-koodit</isoCode
 request-language-form-info-explanation-list-3 = Linkkejä verkkosivustoille, jotka voivat auttaa meitä ymmärtämään kieltä
 request-language-google-recaptcha-required = reCAPTCHA vaaditaan jos haluat jatkaa
 request-language-google-recaptcha-error = Jotain meni pieleen reCAPTCHA:n kanssa. Yritä uudelleen.
-

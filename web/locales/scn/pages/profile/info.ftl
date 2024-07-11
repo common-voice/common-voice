@@ -78,4 +78,3 @@ variant-contribution-option-1 = Mùstrami i frasi e i riggistrazzioni di tutti i
 variant-contribution-option-2 = Mùstrami i frasi e i riggistrazzioni sulu dâ me varianti
 variant-contribution-warning-title = ⓘ Nun sunnu tutti i frasi chi ànnu tichetti pî varianti!
 variant-contribution-warning-subtitle = Si ài prubblemi a cullabburari, po' turnari a vìdiri tutti i cuntinuti pâ to lingua quannu voi.
-

@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = Ak veta nespĺňa vyššie uvedené kritéri
 reviewing-sentences-explanation-3 = Ak si nie ste istí vetou, môžete ju tiež preskočiť a prejsť na ďalšiu.
 reviewing-sentences-explanation-4 = Ak vám dochádzajú vety na kontrolu, môžete nám pomôcť zhromaždiť ďalšie vety.
 domain-explanation = Zatriedenie odkazuje na predmet vety. V súčasnosti si môžete vybrať z nasledovných položiek:
-

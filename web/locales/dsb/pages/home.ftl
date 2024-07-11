@@ -82,4 +82,3 @@ help-contribute = Załožćo profil Common Voice a pśinosujśo swój głos, aby
 login-company = Z e-mailoweju adresu { $company } pśizjawiść / registrěrowaś
 profile-not-required = Za sobuźěło profil trěbny njejo, lěcrownož jo wužytny
 read-more-about = Cytajśo wěcej wó boku Wó Common Voice
-

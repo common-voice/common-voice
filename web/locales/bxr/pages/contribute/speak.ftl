@@ -26,7 +26,6 @@ review-rerecord = Дахин бэшэхэ
 review-cancel = Эльгээлтэ сусалха
 review-keep-recordings = Бэшэлгэнүүдээ байлгаха
 review-delete-recordings = Бэшэлгэнүүдээ усадхая
-
 review-terms = Ниитын дуу хоолой ашаглаһанаараа <termsLink>Нүхэсэл</termsLink> болон <privacyLink>Хубиин эрхэ тухай тэмдэглэл</privacyLink> зүбшөөрһэн болонот.
 terms-agree = Зүбшөөрнэб
 terms-disagree = Зүбшөөрнэгүйб

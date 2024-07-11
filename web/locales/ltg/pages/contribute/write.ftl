@@ -1,3 +1,5 @@
+## WRITE PAGE
+
 write = Roksti
 write-page-subtitle = Ite dalyktī teikumi tiks davīnuoti publiski daīmamai cc-0 liceņcātai datu kūpai.
 sentence =
@@ -24,6 +26,9 @@ add-sentence-error = Klaida davīnojūt teikumu
 required-field = Lyudzu, aizpiļdit itū lauku.
 single-sentence = Vīns teikums
 bulk-sentences = Vairuoki teikumi
+
+## BULK SUBMISSION 
+
 select-file = Izalosi failu
 select-file-mobile = Izavielej failu, kuru augšynluodēt
 accepted-files = Atļautū failu tipi: tikai .tsv

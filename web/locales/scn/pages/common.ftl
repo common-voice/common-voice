@@ -235,7 +235,6 @@ link-copied = Ligami cupiatu
 back-top = Torna supra
 logout = Nesci
 donate = Fai na dunazzioni
-
 stayintouch = Mozilla sta ricugghiennu na cumunità di genti ntirissati ê tecnuluggìi vucali. Ni piacissi arristari 'n cuntattu cu tia pi nfurmàriti dî nuvità e dî novi funti di dati, ma macari pi sapiri comu usi i dati di Common Voice.
 privacy-info = Prumittemu di stari accura ê to dati. Leggi cchiù nfurmazziuna nnâ nostra <privacyLink>nfurmativa supra â privatizza</privacyLink>.
 return-to-cv = Torna a Common Voice
@@ -249,13 +248,12 @@ email-opt-in-info-sub-with-challenge = Ricivi posta elittrònica comu prumimoria
 email-opt-in-privacy-v2 = Scigghiennu di ricìviri posta elittrònica sì d'accordu chi Mozilla manija sti nfurmazzioni comu schicatu nnâ <privacyLink>nfurmativa ncapu â privatizza</privacyLink>.
 indicates-required = * campu ubbligatoriu
 not-available-abbreviation = Nun dispunìbbili
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Abbisugnamu</mark><br/><mark>dû to ajutu!</mark>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Stai usannu CV pî</mark><br/><mark>to ricerchi?</mark>
-# [/SentenceCollector]
-
 localization-select =
     .label = Scegghi lingua/lucalizzazzioni

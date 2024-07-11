@@ -33,7 +33,6 @@ review-rerecord = أعِد التسجيل
 review-cancel = ألغِ الإرسال
 review-keep-recordings = أبقِ التسجيلات
 review-delete-recordings = احذف تسجيلاتي
-
 review-terms = باستخدامك «الصوت للعموم» أنت توافق على <termsLink>الشروط</termsLink> و<privacyLink>تنويه الخصوصية</privacyLink>
 terms-agree = أوافق
 terms-disagree = لا أوافق

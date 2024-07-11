@@ -32,10 +32,7 @@ more = Higit pa
 close = Isara
 download = i-Download
 dataset-version = Bersyon
-
 data-download-singleword-title = I-download ang Single Word Target Segment
-## Data
-
 data-download-button = i-Download ang Common Voice Data
 data-download-yes = Oo
 data-download-deny = Hindi

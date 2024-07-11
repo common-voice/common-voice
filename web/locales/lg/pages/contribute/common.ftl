@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Nyiga
 action-tap = Koona
-## Languages
-
 contribute = Yambako
 skip = Buuka
 shortcuts = Shortcut
@@ -29,6 +25,9 @@ target-segment-first-card = Oli mu kuwaayo ku target segment yaffe esooka.
 target-segment-first-banner = Yambako okutondawo target segment ya Common Voice esooka mu { $locale }
 target-segment-add-voice = Gattako Eddoboozi lyo
 target-segment-learn-more = Manya Ebisingawo
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -79,4 +78,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

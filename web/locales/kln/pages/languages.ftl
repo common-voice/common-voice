@@ -16,10 +16,7 @@ localized = kipkaa
 sentences = ngalalutik
 language-validation-hours = saishek
 language-validation-progress = testainatetab validation
-
-## Languages
-
-contribute = yumse
+contribute = iyum
 get-involved-button = yumet
 get-involved-title = yum
 get-involved-text = gongoi eng yumet tab kalewen

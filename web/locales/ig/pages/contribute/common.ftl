@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Pị̀á
 action-tap = Kpàtụ́
-## Languages
-
-contribute = Tụ̀nyé òkè gị́
+contribute = Tụ̀nyé òkè
 skip = Máfèé
 shortcuts = Ụ́zọ̀ ḿpíó (Shortcuts)
 clips-with-count-pluralized =
@@ -25,6 +21,9 @@ target-segment-generic-card = Ị́ nà-àtụ́nyé óké n'ótù ńgàlàbá �
 target-segment-first-banner = Nyé áká képụ̀tá ńgàlàbá èbùmnúché Common Voice ǹké ḿbụ́ nà{ $locale }
 target-segment-add-voice = Tìnyé ólū gị́
 target-segment-learn-more = Mụ̀tákwúó
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -130,4 +129,3 @@ contribution-just-unsure-title = Náánị́ éjìghì n'áká?
 contribution-just-unsure-description = Ọ́búrú nà Ị́ hụ́ íhé ọ̀bụ́là íhé ḿgbàzírí ńdị́ à ná-éjíkọ̀tàghị̀, bíkó tùlíé áká étú ó sì kwésí. Ọ́bụ́rụ́ nà Ị̀ nwéchághí íké íkpébì, pị̀á kà Ị́ gáfèé mà jéé nà ḿkpọ́nyé ná-èsòchí.
 see-more = <chevron></chevron>Hụkwuo
 see-less = <chevron></chevron>Lee obere
-

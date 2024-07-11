@@ -1,12 +1,6 @@
-write = Kirjoita
 ## WRITE PAGE
 
-
-## LANGUAGE VARIANT CODES
-
-
-## REVIEW PAGE
-
+write = Kirjoita
 
 ## BULK SUBMISSION 
 
@@ -20,4 +14,3 @@ file-invalid-type = Virheellinen tiedosto
 file-too-large = Tiedosto on liian suuri
 file-too-small = Tiedosto on liian pieni
 too-many-files = Liian monta tiedostoa
-

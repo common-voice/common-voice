@@ -7,4 +7,3 @@ download-form-email =
     .value = Asante, tutawasiliana
 download-back = Rudi kwa daftari ya Common Voice
 download-no = Hapana, Asante
-

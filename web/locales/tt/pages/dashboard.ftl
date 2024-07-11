@@ -112,4 +112,3 @@ validations =
         [one] Тикшерү
        *[other] Тикшерү
     }
-

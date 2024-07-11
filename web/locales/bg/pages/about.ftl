@@ -140,3 +140,5 @@ about-playbook-how-project-governance-content-5 = Ценност и призна
 about-playbook-how-project-governance-content-6 = Взаимна отговорност.
 about-playbook-how-project-governance-content-7 = <governanceLink>Прочетете повече за това как се управляваме</governanceLink>
 
+## How is Common Voice funded
+

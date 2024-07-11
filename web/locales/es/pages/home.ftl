@@ -76,4 +76,3 @@ help-contribute = Puedes ayudar a crear una amplia base de datos de código abie
 login-company = Inicia sesión / Regístrate con el correo de { $company }
 profile-not-required = No es necesario tener un perfil para colaborar, aunque puede resultar útil.
 read-more-about = Descubre más en nuestra página Sobre Common Voice
-

@@ -7,4 +7,3 @@ download-form-email =
     .value = እናመሰግናለን ፣ እንገናኛለን
 download-back = ወደ የጋራ ልሳን ውሂብ ስብስቦች ተመለስ
 download-no = አይ አመሰግናለሁ
-

@@ -30,4 +30,3 @@ request-language-success-list-3 =
     fikelela eka <emailLink>{ $email }</emailLink>
     naswona hi ta tlhelela eka wena!"
 request-language-error = Swi nga ha endleka hi nga xi kumanga xikombelo xexo. Hi kombela mi hi rhumela emaiyli hi ku kongoma eka <emailLink>{ $email }</emailLink> naswona hi ta tlhelela eka n’wina!
-

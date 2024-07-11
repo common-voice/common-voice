@@ -177,7 +177,6 @@ share-text = Aduya-nos a amostrar a las maquinas cómo charra la chent real, don
 link-copied = Vinclo copiau
 back-top = Tornar ta l'inicio
 logout = Zarrar la sesión
-
 stayintouch = En Mozilla somos construyindo una comunidat alredol d'a tecnolochía de voz. Nos faría goyo de mantener-te a l'atisva d'as actualizacions, nuevas fuents de datos y de saber mas sobre cómo yes usando ixes datos.
 privacy-info = Prometemos maniar la tuya información con cuenta. Leye mas en a nuestra <privacyLink>politica de privacidat</privacyLink> .
 return-to-cv = Tornar ta Common Voice
@@ -191,4 +190,6 @@ email-opt-in-info-sub-with-challenge = Recibe correus con retos y recordatorios 
 email-opt-in-privacy-v2 = Si acceptas recibir correus, entendemos que das permiso a Mozilla para fer servir la información como s'explica en a <privacyLink>Politica de privacidat</privacyLink> de Mozilla.
 indicates-required = * Indica un campo obligatorio
 not-available-abbreviation = N/A
+
+## Donate banner
 

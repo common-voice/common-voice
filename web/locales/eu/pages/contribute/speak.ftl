@@ -33,7 +33,6 @@ review-rerecord = Grabatu berriro
 review-cancel = Ezeztatu bidalketa
 review-keep-recordings = Mantendu grabazioak
 review-delete-recordings = Ezabatu nire grabazioak
-
 review-terms = Common Voice erabiltzean, bere <termsLink>erabilera baldintzak</termsLink> eta <privacyLink>pribatutasun-oharra</privacyLink> onartzen dituzu
 terms-agree = Onartzen dut
 terms-disagree = Ez dut onartzen

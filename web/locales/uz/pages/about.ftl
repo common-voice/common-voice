@@ -63,3 +63,26 @@ about-playbook-what-is-language-content-3 = Baʼzi tillar grammatika, lugʻat va
 about-playbook-how-add-language = Tilni qanday qoʻshishim mumkin?
 about-playbook-how-add-language-content-1 = Avval tilingiz <languageLink>allaqachon</languageLink> mavjudligini tekshiring. Yoʻq boʻlsa, <strong>saytni tarjima qilishingiz va jumlalarni toʻplashingiz</strong> kerak.
 
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

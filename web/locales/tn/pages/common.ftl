@@ -201,7 +201,6 @@ share-text = Thusa go ruta metšhine  gore batho ba mmatota ba bua jang, abelana
 link-copied = Linki e Kopolotswe
 back-top = Boela Kwa Godimo
 logout = Tswa
-
 stayintouch = Rona mo Mozilla re dira morafe o o tla dirisang thekenoloji ya mantswe. Re rata go nna re itse ka ditlhabololo, metswedi ya tshedimosetso e ntšha le go utlwa mo go oketsegileng gore o dirisa tshedimosetso eno jang.
 privacy-info = Re go solofetsa go tshwara tshedimosetso ya gago ka kelotlhoko. Bala mo go oketsegileng mo <privacyLink>Kitsiso ya Bosephiri</privacyLink>.
 return-to-cv = Boela go Common Voice
@@ -215,7 +214,8 @@ email-opt-in-info-sub-with-challenge = Amogela diimeile tse di jaaka dikgwetlho 
 email-opt-in-privacy-v2 = Ka go tlhopha go amogela diimeile o bontsha gore o siame ka gore Mozilla e tshware tshedimosetso eno jaaka go tlhalosiwa mo <privacyLink>Pholising ya Polokodiphiri</privacyLink>ya Mozilla.
 indicates-required = Dikarolo tse di tshwailweng ka naletsana (*) di a tlhokega.
 not-available-abbreviation = Ga e yo
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Tlhopa puo/go dira go nne ga lefelo

@@ -75,11 +75,8 @@ dataset-donate-modal-heading = Biliyor muydunuz…
 donate-modal-explanation-1 = Veri kümelerini barındırmak ve yaptığımız işe güvenen 100’den fazla dil topluluğu için platformu geliştirmek yılda neredeyse bir milyon dolara mal oluyor.
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Açık ve kapsayıcı verilere değer veriyorsanız bağış yapın!</bold>
-
 data-download-singleword-title = Tek kelimelik hedef segmentini indir
 data-download-singleword-callout-v2 = Bu, kullanım senaryosu odaklı, konuşulan rakam tanıma ve evet/hayır algılamayı destekleme amaçlı veri içeren bir segmenttir.
-## Data
-
 data-download-button = Common Voice verilerini indir
 data-download-yes = Evet
 data-download-deny = Hayır

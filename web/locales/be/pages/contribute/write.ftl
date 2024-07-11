@@ -1,6 +1,6 @@
-write = Пісаць
 ## WRITE PAGE
 
+write = Пісаць
 write-page-subtitle = Сказы, дададзеныя тут, будуць уключаны ў агульнадаступны набор дадзеных пад ліцэнзіяй cc-0.
 sentence =
     .label = Сказ
@@ -26,4 +26,6 @@ required-field = Калі ласка, запоўніце гэтае поле
 single-sentence-submission = Адправіць адзін сказ
 bulk-sentence-submission = Дабавіць шмат сказаў
 single-sentence = Адзін сказ
+
+## BULK SUBMISSION 
 

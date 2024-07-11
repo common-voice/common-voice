@@ -17,9 +17,6 @@ localized = Перекладено
 sentences = Речення
 language-validation-hours = Години
 language-validation-progress = Досягнення перевірки
-
-## Languages
-
 contribute = Долучитися
 get-involved-button = Долучитися
 get-involved-title = Допоможіть з мовою { $lang }

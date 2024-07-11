@@ -33,7 +33,6 @@ review-rerecord = Сёрмадомс одов
 review-cancel = Нардамс мезе совавтыть
 review-keep-recordings = Ванстомс лентас сёрмадовкстнэнь
 review-delete-recordings = Нардамс мезе лентас сёрмадынь
-
 review-terms = «Common Voice»-энь тевс нолдазь, невтят ве мельс прат минек <termsLink>Условиятнень</termsLink> ды <privacyLink>Эсь тевень конёвонть</privacyLink> марто.
 terms-agree = Каршо а молян
 terms-disagree = Каршо молян

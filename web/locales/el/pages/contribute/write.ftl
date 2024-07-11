@@ -1,6 +1,6 @@
-write = Σύνταξη
 ## WRITE PAGE
 
+write = Σύνταξη
 write-instruction = <icon></icon> Προσθήκη πρότασης δημόσιου τομέα
 write-page-subtitle = Οι προτάσεις που υποβάλλονται εδώ θα προστεθούν σε ένα δημόσια διαθέσιμο σύνολο δεδομένων με άδεια cc-0.
 sentence =
@@ -89,4 +89,3 @@ file-invalid-type = Μη έγκυρο αρχείο
 file-too-large = Το αρχείο είναι πολύ μεγάλο
 file-too-small = Το αρχείο είναι πολύ μικρό
 too-many-files = Πάρα πολλά αρχεία
-

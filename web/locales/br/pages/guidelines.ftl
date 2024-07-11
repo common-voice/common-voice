@@ -25,4 +25,3 @@ adding-sentences-subheader-length = Hirded
 adding-sentences-subheader-speakable = Aes da zistagañ
 adding-sentences-subheader-numbers = Niverennoù
 adding-sentences-subheader-punctuation = Poentadur
-

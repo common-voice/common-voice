@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Settings
 
 manage-subscriptions = Lawula ukutlolisa
 manage-email-subscriptions = Tlhogomela ukuzitlolisela ama-email
@@ -7,4 +7,3 @@ add-language = Faka ilimi
 change-email-setings =
     Tjhugulula i-emailakho kumaSethingi ngaphasi kwengcenye 
     yokuThungela
-

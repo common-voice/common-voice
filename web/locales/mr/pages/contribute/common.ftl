@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = क्लिक करावे
 action-tap = टॅप करावे
-## Languages
-
 contribute = योगदान द्या
 skip = वगळा
 shortcuts = शॉर्टकट्स
@@ -145,4 +141,3 @@ contribution-just-unsure-title = फक्त खात्री नाही ?
 contribution-just-unsure-description = जर आपणांस या मार्गदर्शक तत्त्त्वात नसलेल्या अशा काही गोष्टी आढळल्या तर कृपया आपल्या सर्वोत्तम निर्णयानुसार मत द्या. जर तुम्हाला खरंच निर्णय घेता येत नसेल तर स्किप बटणाचा वापर करून पुढील रेकॉर्डिंग वर जा.
 see-more = <chevron></chevron> अधिक पहा
 see-less = <chevron></chevron> कमी पहा
-

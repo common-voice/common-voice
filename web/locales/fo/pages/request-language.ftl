@@ -1,1 +1,2 @@
-    .label = Teldupostur
+## Request Language Pages
+

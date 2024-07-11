@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Tlilika
 action-tap = Tirhisa
-## Languages
-
 contribute = Hoxa Xandla
 skip = Tlula
 shortcuts = Swipfuxeto
@@ -33,6 +29,9 @@ target-segment-generic-card = U hoxa xandla eka xiyenge lexi kongomisiweke
 target-segment-first-banner = Pfuna ku tumbuluxa xiphemu xo sungula lexi kongomisiweke xa Common Voice eka { $locale } .
 target-segment-add-voice = Engetela Rito Ra Wena
 target-segment-learn-more = Dyondza Swo Tala
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -143,4 +142,3 @@ contribution-just-unsure-title = Xana U Nga Tiyiseki Ntsena?
 contribution-just-unsure-description = Loko u hlangana na nchumu lowu swiletelo leswi swi nga wu katsi, hi kombela u vhota hi ku ya hi ku avanyisa ka wena lokunene. Loko hakunene u nga swi koti ku endla xiboho, kandziyisa la ku nge skip ivi u ya emahlweni eka rhekhodo leyi landzelaka.
 see-more = <chevron></chevron>Vona swin'wana
 see-less = <chevron></chevron>Vona switsongo
-

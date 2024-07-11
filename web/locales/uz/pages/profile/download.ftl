@@ -25,4 +25,3 @@ download-request-modal-title = Yuklab olish uchun havolalar
 download-request-modal-description = ZIP fayllarni yuklab olish uchun havolalar.
 download-request-metadata-link = Gap matni
 download-request-link-single = Shuningdek, siz toʻgʻridan-to'g'ri URL manzillarini sevimli yuklab olish menejeriga nusxalashingiz va joylashtirishingiz mumkin. Ularning amal qilish muddati 12 soatdan keyin tugaydi, lekin istalgan vaqtda yangilarini yaratish uchun ushbu sahifaga qaytishingiz mumkin.
-

@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Sali afaylu n tugna
 browse-file = Zuɣer sakin sers neɣ <browseWrap>innig</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Afaylu ittwafernen meqqer aṭas
 avatar-uploaded = Avaṭar ittwazen
 max-file-size = { $kb }kaṭ afellay
 remove-avatar = Kkes Avaṭar
-

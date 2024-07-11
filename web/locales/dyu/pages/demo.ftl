@@ -33,4 +33,3 @@ demo-listen-subtitle = I labɛnnen don ka bolomafara di wa?
 
 demo-dashboard-card-header = Mɔgɔ yɛrɛ ka dashboardw b’i to i ka kunnafoni sɔrɔ mɔgɔ kelen-kelen bɛɛ ni sigidamɔgɔw ka ɲɛtaa kan.
 demo-dashboard-card-body = Kumakan-klip kelen-kelen bɛɛ min dira, ani odio-klip kelen-kelen bɛɛ min sɛgɛsɛgɛra, i ka jatebɔsɛbɛnw bɛ ladamu walasa k’i ka ɲɛtaa labanw jira kan kelen-kelen bɛɛ la i bɛ dɛmɛ don min na. Ɔwɔ, i bɛ se ka dɛmɛ don ka tɛmɛ kelen kan!<br/><br/> Baara kɛ ni dakunw ye walasa k’i ka jatebɔw lajɛ, k’a lajɛ i bɛ cogo min na sigida mɔgɔ wɛrɛw kɛrɛfɛ, ani ka don o don walima dɔgɔkun bolomafara kuntilenna sigi.
-

@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Klik op
 action-tap = Tik op
-## Languages
-
 contribute = Bijdragen
 review = Beoordelen
 skip = Overslaan
@@ -147,4 +143,3 @@ contribution-just-unsure-title = Gewoon onzeker?
 contribution-just-unsure-description = Als u iets tegenkomt dat niet in deze richtlijnen wordt behandeld, stem dan naar uw beste oordeel. Als u echt niet kunt beslissen, gebruik dan de knop Overslaan en ga door naar de volgende opname.
 see-more = <chevron></chevron>Meer tonen
 see-less = <chevron></chevron>Minder tonen
-

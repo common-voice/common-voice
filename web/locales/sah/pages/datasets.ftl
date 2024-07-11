@@ -58,9 +58,6 @@ dataset-version = Версия
 sha256-checksum-copied = SHA256 хонтуруоллуур сууммата ылылынна!
 sha256-checksum-copied-error = SHA256 хонтуруоллуур сууммата сатаан ылыллыбата
 clipboard-not-supported = Буфер обмена үлэлээбэт
-
-## Data
-
 data-download-button = Common Voice дааннайдарын хачайдаа
 data-download-yes = Сөп
 data-download-deny = Суох

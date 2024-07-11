@@ -1,5 +1,3 @@
-# [/SentenceCollector]
-
 # PARTNERSHIPS PAGE
 partnerships-header = Партнёртæ
 partnerships-governments-header = Хицауæдтæ

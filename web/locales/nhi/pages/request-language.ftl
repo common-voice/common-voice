@@ -19,4 +19,3 @@ request-language-success-list-1 = quipia nicsilis se correo electronico campa ne
 request-language-success-list-2 = totiquitcau nichicomasehual monohnotzas mouantzin para mitzonmacas soporte adicional, huan para tocomatis tlayicatqui se nichicomasehual tiquitoc ica mu masehual tlantol
 request-language-success-list-3 = tlaamo uticsile tlanahuatil icninqueh tonalmeh, ximonohnotza ioan <emailLink>{ $email }</emailLink> huan timu nuhnutzasqueh muhuantzi
 request-language-error = canah amo useksileh nuntlahtol. timits tlatlauhtia xitechnaltitlani se correo electronico ichin <emailLink>{ $email }</emailLink> huan timonohnotzasque muhuan
-

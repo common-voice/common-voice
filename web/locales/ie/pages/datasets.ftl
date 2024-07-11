@@ -1,4 +1,4 @@
-## Data
+## Datasets Page
 
 data-download-yes = Yes
 data-download-deny = No
@@ -8,4 +8,3 @@ data-other-download = Descargar li data
 release-version = Version
 dataset-date = Date
 license = Licentie: <licenseLink>{ $license }</licenseLink>
-

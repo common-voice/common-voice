@@ -116,4 +116,3 @@ validations =
         [one] تصدیق
        *[other] تصدیقاں
     }
-

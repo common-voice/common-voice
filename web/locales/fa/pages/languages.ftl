@@ -13,8 +13,6 @@ language-search-input =
 language-speakers = گویندگان
 localized = محلی شده
 sentences = جمله‌ها
-## Languages
-
 contribute = مشارکت
 get-involved-button = مشارکت کنید
 get-involved-title = مشارکت در { $lang }

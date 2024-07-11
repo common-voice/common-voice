@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = काम सुरु आहे
@@ -16,9 +13,6 @@ language-search-input =
 language-speakers = वक्ते
 localized = स्थानिक
 sentences = वाक्ये
-
-## Languages
-
 contribute = योगदान द्या
 get-involved-button = सहभागी व्हा
 get-involved-title = { $lang } साठी योगदान द्या

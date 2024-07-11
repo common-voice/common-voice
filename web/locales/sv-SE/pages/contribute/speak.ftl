@@ -33,7 +33,6 @@ review-rerecord = Spela in igen
 review-cancel = Avbryt inskickning
 review-keep-recordings = Behåll inspelningarna
 review-delete-recordings = Ta bort mina inspelningar
-
 review-terms = Genom att använda Common Voice godkänner du våra <termsLink>villkor</termsLink> och <privacyLink> sekretesspolicy</privacyLink>
 terms-agree = Jag håller med
 terms-disagree = Jag håller inte med

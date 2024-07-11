@@ -7,4 +7,3 @@ profile-form-gender-2 =
 profile-form-submit-save = Keubah
 profile-form-submit-saved = Teukeubah
 profile-close = Tôp
-

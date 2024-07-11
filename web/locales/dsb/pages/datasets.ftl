@@ -75,11 +75,8 @@ dataset-donate-modal-heading = Sćo wěźeł…
 donate-modal-explanation-1 = Płaśi něźi jaden milion dolarow na lěto, aby my datowe sajźby góspodowali a platformu za wěcej ako 100 rěcnych zgromaźeństwow pólěpšowali, kótarež se na to spušćaju, což gótujomy.
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Jolic se wótwórjone, inkluziwne daty wažyśo – pósććo źinsa!</bold>
-
 data-download-singleword-title = Ześěgniśo celowy segment jadnotliwego słowa
 data-download-singleword-callout-v2 = To jo segment, kótaryž se pśez nałožowańske pady pógónujo a daty wopśimujo, aby spóznaśe powědanych cyfrow a spóznaśe jo/ně zmóžnił.
-## Data
-
 data-download-button = Daty Common Voice ześěgnuś
 data-download-yes = Jo
 data-download-deny = Ně

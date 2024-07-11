@@ -66,4 +66,3 @@ help-accent = Ji bo aksanê ji te re alîkarî divê?
 help-accent-explanation = Devoka te awayê te yê bilêvkirina peyvan e. Ciyê tu lê dijî, zimanên din ku tu pê diaxivî û gelek faktorên din bandorê lê dikin, Tu dikarî wan zanyariyan li virê parve bikî ku li gorî fikra te têkildar in.
 help-variants = Ji bo varyantan pêdiviya te bi hinek alîkariyê heye?
 help-variants-explanation = Varyant formeke spesifîk ê zimanekî ne - wekî nimûne şiklê xeberdanê yê kesên ku li eynî cografya an civakê dijîn. Carinan ev wekî zarava/diyalekt tên binavankirin.
-

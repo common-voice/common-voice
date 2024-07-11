@@ -1,1 +1,2 @@
-    .label = ਈਮੇਲ
+## Request Language Pages
+

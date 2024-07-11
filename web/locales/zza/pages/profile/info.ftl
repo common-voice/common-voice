@@ -74,4 +74,3 @@ help-sex-or-gender-changes = Vurnayîşê cins yan zî seksualîte de ardim lazi
 variant-contribution-options-header = Opsîyonê Îlawekerdişê Fekan
 variant-contribution-option-1 = Mi rê pêro fekanê ziwanê mi ra qeydanê vengî û cumleyan nîşan bide
 variant-contribution-option-2 = Mi rê tena fekê mi ra qeydanê vengî û cumleyan nîşan bide
-

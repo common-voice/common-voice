@@ -47,9 +47,6 @@ sc-criteria-item-3 = Sada dyrbi wurjekujomna być.
 sc-criteria-item-4 = Jeli sada kriterijam wotpowěduje, klikńće na tłóčatko „Schwalić“.
 sc-criteria-item-5-2 = Jeli sada kriterijam horjeka njewotpowěduje, klikńće na tłóčatko „Wotpokazać“. Jeli sej wo sadźe wěsty njejsće, móžeće tež ju přeskočić a k přichodnej přeńć.
 sc-criteria-item-6 = Jeli wam sady wuńdu, pomhajće nam dalše sady zběrać.
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Přepruwujće <icon></icon>, hač to je linguistisce korektna sada.
 sc-review-rules-title = Wotpowěduje sada směrnicam?
@@ -61,4 +58,3 @@ review-error = Při přepruwowanju tuteje sady je zmylk nastał
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Přewjedźemy někotre změny
 sc-redirect-page-subtitle-2 = Stajće nam prašenja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mejlu</emailLink>.
-

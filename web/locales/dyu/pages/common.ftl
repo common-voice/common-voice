@@ -214,7 +214,6 @@ share-text = Dɛmɛ ka masinw kalan mɔgɔ lakikaw bɛ kuma cogo min na, i ka ka
 link-copied = Lien Kopi kɛra
 back-top = Segin ka na Sanfɛ
 logout = Aw ka bɔ kɛnɛ kan
-
 stayintouch = Anw minnu bɛ Mozilla la, an bɛ sigida dɔ jɔ kanko fɛɛrɛbɔ lamini na. An b’a fɛ ka to ka kumaɲɔgɔnya kɛ ni kunnafoni kuraw ye, kunnafoni sɔrɔyɔrɔ kuraw ani ka kunnafoni wɛrɛw sɔrɔ i bɛ baara kɛ ni nin kunnafoniw ye cogo min na.
 privacy-info = An bɛ layidu ta ko an bɛna i ka kunnafoniw ɲɛnabɔ ni hakilisigi ye. Aw ye kunnafoni wɛrɛw kalan an ka <privacyLink>Gundola kunnafoni</privacyLink> kɔnɔ.
 return-to-cv = Segin ka taga Common Voice kan
@@ -228,7 +227,8 @@ email-opt-in-info-sub-with-challenge = Aw ye batakiw sɔrɔ i n’a fɔ gɛlɛya
 email-opt-in-privacy-v2 = Ni i y’a sugandi ka batakiw sɔrɔ i b’a jira ko i bɛ ɲɛ ni Mozilla ye nin kunnafoni in ɲɛnabɔ i n’a fɔ a ɲɛfɔlen bɛ cogo min na Mozilla ka <privacyLink>Gundolakow sariya</privacyLink> kɔnɔ.
 indicates-required = Foro minnu taamasiyɛn ye dolow (*) ye, olu wajibiyalen don.
 not-available-abbreviation = A tɛ sɔrɔ
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Kan/sigida sugandi

@@ -62,4 +62,3 @@ help-accent = ¿Necesitas ayuda con el acento?
 help-accent-explanation = Tu acento es la forma en que pronuncias las palabras. Puede ser determinado por el lugar donde has vivido, qué otros idiomas hablas y muchos otros factores. Puede compartir cualquier información que consideres relevante aquí.
 help-variants = ¿Necesitas ayuda con las variantes?
 help-variants-explanation = Las variantes son una forma específica de un idioma, por ejemplo, compartida por aquellos que viven en una geografía o comunidad. A veces estos se llaman dialectos.
-

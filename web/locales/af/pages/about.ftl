@@ -95,6 +95,7 @@ about-playbook-how-add-sentences = Hoe voeg ek sinne by?
 about-playbook-how-add-sentences-content-1 = 'n <strong>Sinversamelaar</strong> is 'n hulpmiddel vir die versameling en bevestiging van sinne in die publieke domein. Jy sal <scAccountLink>'n rekening moet skep</scAccountLink>. Voeg dan jou taal by jou <strong>Profiel</strong>. Jy kan nuwe sinne <strong>Byvoeg</strong> of bestaande sinne <strong>Bekyk</strong>.
 about-playbook-how-add-sentences-content-2 = Sinne moet deur twee mense hersien en aanvaar word om by Common Voice ingesluit te word. Jy skep riglyne vir jou taal <languageGuidelinesLink>hier</languageGuidelinesLink>. Sinne moet in die <licenseLink>publieke domein</licenseLink> wees en korter as 15 woorde. Jy kan die eienaar van 'n teks vra om dit <waiverLink>CC0 te maak deur gebruik te maak van ons kwytskeldingproses</waiverLink>, en dan die toestemming aan ons deurstuur op commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Jy kan die <scraperLink>Sentence extractor</scraperLink> gebruik om kort sinne uit Wikipedia te onttrek.
+
 ## How to record quality
 
 about-playbook-how-record-quality = Hoe neem ek 'n hoë kwaliteit stemsnit op?
@@ -140,4 +141,6 @@ about-playbook-how-project-governance-content-4 = Gemeenskapsdeelname en -beslui
 about-playbook-how-project-governance-content-5 = Waarde en erkenning.
 about-playbook-how-project-governance-content-6 = Wedersydse aanspreeklikheid.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lees meer oor hoe ons bestuur word</governanceLink>
+
+## How is Common Voice funded
 

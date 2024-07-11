@@ -31,9 +31,5 @@ sc-review-link = Тургут
 
 sc-criteria-modal = ⓘ Тургутуу критерийа
 sc-criteria-title = Тургутуу критерийа
-
-## REVIEW PAGE
-
 report-sc-different-language = Атын тыл
 sc-redirect-page-subtitle-1 = Этиини хамыйыы Common Voice сүрүн платформатыгар көстө. Эһиги билигин Common Voice-ка этиини <writeURL>суруйуоххутун</writeURL> эбэтэр <reviewURL>тургутуоххутун</reviewURL> сөп.
-

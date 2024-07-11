@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = ልትጃሃዛ ላህለያ
@@ -16,10 +13,7 @@ language-search-input =
 language-speakers = ተሄግያይያም
 localized = ትርጅምት
 sentences = ጁመል
-
-## Languages
-
-contribute = ሳህሞ
+contribute = ሳህም
 get-involved-button = ሳህሞ ምስልና
 get-involved-title = አግል { $lang } ሳህሞ
 get-involved-text = ዲብ ሉቀት { $lang } ገል ትሳህሞ አህትማምኩም እንሸክር ። ኩላ ሉቀት እገል ንጀህዛ ው ንኣትያ ው ኩሎም ፍረቅ እብ ኢሜል እገል ናሰእሎም ብዙሕ እንሻቄ ህልና። እገል ትሳህሞ ምን ታሓዙ ኢሜልኩም ታሓት ኣቱ

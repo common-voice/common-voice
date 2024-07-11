@@ -75,4 +75,3 @@ help-contribute = Common Voice 프로필을 만들고 본인의 목소리로 참
 login-company = { $company } 이메일로 로그인/가입
 profile-not-required = 프로필이 있으면 도움이 되지만, 기여하기 위한 필수 사항은 아닙니다.
 read-more-about = 소개 페이지에 더 자세히 읽어 보세요.
-

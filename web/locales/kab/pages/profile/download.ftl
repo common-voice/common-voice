@@ -28,4 +28,3 @@ download-request-modal-description = A-ten-an yiseɣwan i usader n yifuyla-ik ZI
 download-request-link-text = Zip #{ $offset } ɣef { $total }
 download-request-metadata-link = Aḍris n tefyirt
 download-request-link-single = Tzemreḍ daɣen ad tesneɣleḍ neɣ ad tessenṭeḍeḍ iseɣwan usriden deg umsefrak-ik n yisadaren i tḥemmleḍ. Ad mmten deg 12 n yisragen, maca tzemreḍ ad tuɣaleḍ ɣer ɣer usebter-a akken ad ternuḍ iseɣwan imaynuten melmi i tebɣiḍ.
-

@@ -235,7 +235,6 @@ link-copied = Linki ǩopya dixenu.
 back-top = Tişa Kexti
 logout = Kogamaxtit
 donate = Mixaresirit
-
 stayintouch = Mozillas xomaşi teknolojiş gomti ar ǩata geptzopxumt. Meyondğanupete, ağani data mondunepete oǩomçinu do data muç̌o ixmart çkva dido oçkinu minonan/ bgorumt.
 privacy-info = Çkinapepe tkvani mç
 return-to-cv = Common Voiceşa Goikti
@@ -249,7 +248,8 @@ email-opt-in-info-sub-with-challenge = Common Voiceşi omondunu do noğire goşi
 email-opt-in-privacy-v2 = E-post̆ape ǩebuli doyat-na Mozillaşi ham çkinapape na tku steri oxmaru-muşis izini na meçameri iyet <privacyLink>Privacy Policy</privacyLink>.
 indicates-required = Ar murutsxite (*) meğareri svalepe opşalu diç̌irs.
 not-available-abbreviation = H/V
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Nena/ svamuşi goşuğit

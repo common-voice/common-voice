@@ -49,10 +49,7 @@ more = Več
 close = Zapri
 download = Prenesi
 dataset-version = Različica
-
 data-download-singleword-title = Prenesite enobesedni ciljni segment
-## Data
-
 data-download-button = Prenesite podatke Common Voice
 data-download-yes = Da
 data-download-deny = Ne

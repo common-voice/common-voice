@@ -39,11 +39,8 @@ dataset-version = Versión
 sha256-checksum-copied = SHA256 Suma de verificación copiado!
 sha256-checksum-copied-error = Error al copiar SHA256 Checksum
 clipboard-not-supported = Portapapeles no compatible
-
 data-download-singleword-title = Descargue el segmento objetivo de una sola palabra
 data-download-singleword-callout-v2 = Este es un segmento basado en casos de uso que contiene datos para potenciar el reconocimiento de dígitos hablados y la detección de sí/no.
-## Data
-
 data-download-button = Descargar datos de Common Voice
 data-download-yes = Quena
 data-download-deny = axcana

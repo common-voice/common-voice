@@ -155,7 +155,6 @@ share-text = Yamba okusomesa masiini engeri abantu gye boogera, tuwe eddoboozi l
 link-copied = Linki Ekopeddwa
 back-top = Ddayo waggulu
 logout = Fuluma
-
 stayintouch = Wano ku Mozilla tuzimba enkologana ekwata ku tekinologiya w'eddoboozi. Twagala tusigale nga tuwuliziganya n'ebifaayo eyo, data omupya n'okumanya nga bw'okozesa data ono.
 privacy-info = Tukusuubiza okukwata ebikukwatako n'obwegenderenza. Ssoma ebisingawo ku <privacyLink>Sanduke Y'ebyekyama</privacyLink>.
 return-to-cv = Ddayo ku Common Voice
@@ -169,4 +168,6 @@ email-opt-in-info-sub-with-challenge = Ffuna email ng'ezikwata ku bisoomooza n'e
 email-opt-in-privacy-v2 = Bw'okkiriza okufuna email kitegeeza nti tolina buzibu na Mozilla kubeera na information eno nga bwe bannyonnyola. <privacyLink>Engeri gye Tukuumamu Ebikukwatako</privacyLink>.
 indicates-required = Kano * kalaga kyetaagisa
 not-available-abbreviation = N/A
+
+## Donate banner
 

@@ -1,1 +1,2 @@
-    .label = メールアドレス
+## Request Language Pages
+

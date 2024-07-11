@@ -28,4 +28,3 @@ download-request-modal-description = Ακολουθούν σύνδεσμοι γ�
 download-request-link-text = Zip #{ $offset } από { $total }
 download-request-metadata-link = Κείμενο πρότασης
 download-request-link-single = Μπορείτε επίσης να αντιγράψετε και να επικολλήσετε τα άμεσα URL στην αγαπημένη σας εφαρμογή διαχείρισης λήψεων. Θα λήξουν σε 12 ώρες, αλλά μπορείτε να επιστρέψετε σε αυτήν τη σελίδα για να δημιουργήσετε νέα ανά πάσα στιγμή.
-

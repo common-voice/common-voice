@@ -6,7 +6,4 @@ request-language-form-language =
 request-language-success-title = Корӧм ыстӧма, аттьӧ.
 select-language = Бӧрйы кыв…
 other-language = Мӧд кыв
-
-## General
-
 yes-receive-emails = Ыстӧй гижӧдъяс меным email вылӧ. Ме кӧсъя тӧдны Common Voice проект йылысь.

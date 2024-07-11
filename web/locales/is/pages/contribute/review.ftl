@@ -45,10 +45,6 @@ sc-criteria-item-3 = Setningin verður að vera lesanleg.
 sc-criteria-item-4 = Ef setningin uppfyllir skilyrðin, skaltu smella á &quot;Samþykkja&quot;-hnappinn hér til hægri.
 sc-criteria-item-5-2 = Ef setningin uppfyllir ekki ofangreind skilyrði skaltu smella á &quot;Hafna&quot; hnappinn hér til vinstri. Ef þú ert ekki viss um setninguna geturðu líka sleppt henni og farið yfir í þá næstu.
 sc-criteria-item-6 = Ef þú lýkur við að skoða allar tiltækar setningar, þá geturðu hjálpað okkur að safna fleiri setningum!
-
-## REVIEW PAGE
-
 report-sc-different-language = Annað tungumál
 report-sc-different-language-detail = Það er ritað á öðru tungumáli en ég er að yfirfara.
 sentences-fetch-error = Villa kom upp við að sækja setningar
-

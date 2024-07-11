@@ -45,9 +45,6 @@ dataset-donate-modal-heading = Bende ingeyo...
 donate-modal-explanation-1 = Bende ingeyoni en machiegni dola million e yiga mondo okan deche e chenroni kendo mondo chenroni oting dhoudi mokalo mia achiel matiyogi kode?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Kigeno weche moyangore kendo mariwoji - to chiuri kawuono!</bold>
-
-## Data
-
 data-download-button = Gol Deche manie Common Voice
 data-download-yes = Eee!
 data-download-deny = Ooyo

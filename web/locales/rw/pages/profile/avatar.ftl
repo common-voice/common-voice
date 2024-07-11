@@ -1,3 +1,5 @@
+## Profile - Avatar
+
 browse-file-title = Injiza idosiye y'ishusho
 browse-file = Kurura unarekure cyangwa utambagire
 connect-gravatar = Ikonegite unyuze kuri Garavatari (Gravatar).

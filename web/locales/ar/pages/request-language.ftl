@@ -1,1 +1,2 @@
-    .label = البريد الإلكتروني
+## Request Language Pages
+

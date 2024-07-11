@@ -48,12 +48,12 @@ terms = Termines
 cookies = Cookies
 link-copied = Ligament sta copiat
 logout = Cluder li session
-
-## General
-
 return-to-cv = Retornar a Common Voice
 email-input =
     .label = E-post
 submit-form-action = Inviar
 loading = Cargante…
 indicates-required = Campes marcat con asterisco (*) es besonat.
+
+## Donate banner
+

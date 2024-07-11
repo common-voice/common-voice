@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = Os nad yw'r frawddeg yn cwrdd â'r meini pra
 reviewing-sentences-explanation-3 = Os ydych chi'n ansicr am y frawddeg, gallwch chi ei hepgor a symud ymlaen i'r un nesaf.
 reviewing-sentences-explanation-4 = Os ydych chi'n rhedeg allan o frawddegau i'w hadolygu, helpwch ni i gasglu mwy o frawddegau!
 domain-explanation = Mae parth yn cyfeirio at bwnc testun y frawddeg. Ar hyn o bryd, gallwch ddewis rhwng:
-

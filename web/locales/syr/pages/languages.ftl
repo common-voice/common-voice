@@ -1,17 +1,8 @@
-## Request Language Modal
-
-
-## Request Language Pages
-
-
 ## Languages Overview
 
 languages-show-more = ܚܙܝܼ ܝܲܬܝܼܪ
 languages-show-less = ܚܙܝܼ ܒܵܨܘܿܪܵܐ
 localized = ܡܫܪܝܬܐ
-
-## Languages
-
 contribute = ܫܘܬܦ
 get-involved-button = ܫܘܬܦ
 get-involved-title = ܫܘܬܦ ܥܡ { $lang }

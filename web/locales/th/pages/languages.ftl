@@ -15,9 +15,6 @@ localized = ภาษาท้องถิ่น
 sentences = ประโยค
 language-validation-hours = ชั่วโมง
 language-validation-progress = ความคืบหน้าการตรวจสอบ
-
-## Languages
-
 contribute = สนับสนุน
 get-involved-button = มีส่วนร่วม
 get-involved-title = มีส่วนร่วมกับภาษา { $lang }

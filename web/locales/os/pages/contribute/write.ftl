@@ -1,3 +1,5 @@
+## WRITE PAGE
+
 write = Фысс
 write-page-subtitle = Цы фразæтæ нын раттай, уыдон бафтаудзыстæм иумæйаг рардты æмбырдмæ cc-0 лицензийы ууылты.
 sentence =
@@ -21,3 +23,6 @@ contact-us = Ныффыс нӕм
 add-sentence-success = 1 хъуыдыйад сæмбырд и
 add-sentence-error = Хъуыдыйад бафтауыны рæдыд
 required-field = Дæ хорзæхæй, бафысс ацы рæнхъ.
+
+## BULK SUBMISSION 
+

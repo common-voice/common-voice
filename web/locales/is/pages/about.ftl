@@ -142,3 +142,5 @@ about-playbook-how-project-governance-content-5 = Mati að verðleikum og viður
 about-playbook-how-project-governance-content-6 = Gagnkvæm ábyrgð.
 about-playbook-how-project-governance-content-7 = <governanceLink>Lestu meira um hvernig okkur er stjórnað</governanceLink>
 
+## How is Common Voice funded
+

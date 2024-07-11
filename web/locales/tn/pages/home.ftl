@@ -91,4 +91,3 @@ help-contribute = O ka thusa rekoto eno ya tshedimosetso e kgolo e bile e le ya 
 login-company = Tsena / Ikwadise ka imeile ya { $company }
 profile-not-required = Ga o tlhoke go nna le porofaele gore o thuse, mme gone go a thusa. Bona gore ka ntlha yang fa tlase.
 read-more-about = Bala mo go oketsegileng mo tsebeng ya Ka Ga
-

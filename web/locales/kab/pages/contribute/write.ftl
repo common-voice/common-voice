@@ -1,6 +1,6 @@
-write = Aru
 ## WRITE PAGE
 
+write = Aru
 sentence =
     .label = Tafyirt
 citation =
@@ -23,4 +23,3 @@ general = Amatu
 try-upload-again-md = Ɛreḍ asali tikkelt niḍen
 select-file = Fren afaylu
 upload-progress-text = Asali ietddu...
-

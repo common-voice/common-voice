@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = چېكىڭ
 action-tap = نوقۇڭ
-## Languages
-
 contribute = تۆھپە قوشاي
 review = تەكشۈرەي
 skip = ئاتلا
@@ -149,4 +145,3 @@ contribution-just-unsure-title = ئانچە ئېنىق ئەمەسمۇ؟
 contribution-just-unsure-description = ئەگەر بۇ كۆرسەتمىلەر ئۆز ئىچىگە ئالمايدىغان بىر ئىشقا يولۇقسىڭىز، ئەڭ ياخشى ھۆكۈمىڭىزگە ئاساسەن بېلەت تاشلاڭ. ئەگەر راستىنلا قارار قىلالمىسىڭىز، ئاتلا كۇنۇپكىسىنى ئىشلىتىپ كېيىنكى خاتىرىگە ئۆتۈڭ.
 see-more = <chevron> </chevron> تېخىمۇ كۆپ
 see-less = <chevron></chevron>ئاز كۆرسەت
-

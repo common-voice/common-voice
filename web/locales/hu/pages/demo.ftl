@@ -33,4 +33,3 @@ demo-listen-subtitle = Készen áll a közreműködésre?
 
 demo-dashboard-card-header = A személyes irányítópultok naprakészen tartják az egyéni és közösségi előrehaladást.
 demo-dashboard-card-body = Minden felajánlott vagy ellenőrzött hangklip esetén frissülnek a fiókhoz tartozó vezérlőpultok, hogy jelezzék a legfrissebb előrehaladását a közreműködött nyelvekben. Igen, egynél többen is közreműködhet!<br/><br/> A vezérlőpultjainkkal követheti a saját statisztikáit, megnézheti hogyan áll a közösség más tagjaihoz képest, és napi vagy heti közreműködési célokat állíthat be.
-

@@ -33,7 +33,6 @@ review-rerecord = Rekhoda kwakhona
 review-cancel = Rhoxisa ukuNgeniswa
 review-keep-recordings = Gcina iirekhodingi
 review-delete-recordings = Cima irekhodingi zam
-
 review-terms = Ngokusebenzisa iCommon Voice uvuma  <termsLink>imiqathango</termsLink> kunye <privacyLink>neSazisi saBucala</privacyLink>
 terms-agree = Ndiyavuma
 terms-disagree = Andivumelani

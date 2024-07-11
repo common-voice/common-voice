@@ -2,6 +2,9 @@
 
 about-title = Lwaki Common Voice?
 how-does-it-work-text = Tuli mu kukunganya dataset y'amaloboozi ey'obwereere. Ggaba eddoboozi lyo, sunsula obutuufu bwa amaloboozi g'abalala, fuula dataset nnungi eri buli muntu.
+
+## How does it work section
+
 about-speak = Yogera
 about-speak-text = Abenyigiramu balikoodinga  voice clips nga basoma okuva terekero lya sentensi ezaweebwayo.
 about-listen-queue = Listen-Queue
@@ -24,3 +27,34 @@ about-nav-why-common-voice = Lwaki?
 about-nav-how-it-works = Batya?
 about-nav-partners = Ba patana
 about-nav-get-involved = Twegatteko
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

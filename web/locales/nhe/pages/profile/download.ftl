@@ -22,4 +22,3 @@ download-request-refresh-button = Actualizar
 download-request-modal-title = Descargar enlaces
 download-request-modal-description = Aquí están los enlaces para descargar sus archivos ZIP.
 download-request-metadata-link = Texto de la oración
-

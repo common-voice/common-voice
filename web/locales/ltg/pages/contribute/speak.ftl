@@ -33,7 +33,6 @@ review-rerecord = Īrokstit atkuortuotai
 review-cancel = Atceļt īsnēgšonu
 review-keep-recordings = Saglobuot īrokstus
 review-delete-recordings = Dzēst munus īrokstus
-
 review-terms = Lītojūt Common Voice, jius asat mīrā ar myusu <termsLink>nūsacejumim</termsLink> i <privacyLink>privatuma politiku</privacyLink>
 terms-agree = Es pīkreitu
 terms-disagree = Es napīkreitu

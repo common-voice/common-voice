@@ -7,7 +7,4 @@ request-language-success-title = A solicitação de idioma foi enviada com suces
 request-language-success-content = Nós entraremos em contato com mais informações sobre como adicionar o seu idioma ao Common Voice muito em breve.
 select-language = Selecionar um idioma...
 other-language = Outro idioma
-
-## General
-
 yes-receive-emails = Sim, envie emails. Quero manter-me informado sobre o Projeto Common Voice.

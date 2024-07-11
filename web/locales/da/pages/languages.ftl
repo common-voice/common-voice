@@ -17,9 +17,6 @@ localized = Oversat
 sentences = Sætninger
 language-validation-hours = Timer
 language-validation-progress = Valideringsfremgang
-
-## Languages
-
 contribute = Bidrag
 get-involved-button = Bliv involveret
 get-involved-title = Bidrag til { $lang }

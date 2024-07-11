@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = 点击
 action-tap = 点按
-## Languages
-
-contribute = 贡献
+contribute = 参与贡献
 review = 审核
 skip = 跳过
 shortcuts = 快捷键
@@ -145,4 +141,3 @@ contribution-just-unsure-title = 仍有不解之处？
 contribution-just-unsure-description = 如果遇到了这些准则没有涵盖的内容，请根据您的最佳判断来投票。如果真的无法决定，请使用跳过按钮，继续下一个录音。
 see-more = <chevron></chevron>查看更多
 see-less = <chevron></chevron>折叠
-

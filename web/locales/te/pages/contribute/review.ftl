@@ -24,9 +24,6 @@ sc-criteria-item-1 = వాక్యాన్ని సరిగ్గా స్
 sc-criteria-item-2 = వాక్యం వ్యాకరణపరంగా సరిగ్గా ఉండాలి.
 sc-criteria-item-3 = వాక్యం తప్పనిసరిగా మాట్లాడదగినదిగా ఉండాలి.
 sc-criteria-item-6 = మీరు సమీక్షించాల్సిన వాక్యాలు అయిపోతే, దయచేసి మరిన్ని వాక్యాలను సేకరించడంలో మాకు సహాయపడండి!
-
-## REVIEW PAGE
-
 sc-review-rules-title = వాక్యం మార్గదర్శకాలకు అనుగుణంగా ఉందా?
 sc-review-empty-state = ఈ భాషలో సమీక్షించడానికి ప్రస్తుతం వాక్యాలు ఏవీ లేవు.
 report-sc-different-language = భిన్నమైన భాష
@@ -36,4 +33,3 @@ review-error = ఈ వాక్యాన్ని సమీక్షిస్త
 review-error-rate-limit-exceeded = మీరు చాలా వేగంగా వెళ్తున్నారు. వాక్యం సరైనదని నిర్ధారించుకోవడానికి దయచేసి కొంత సమయం కేటాయించండి.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = మేము కొన్ని పెద్ద మార్పులు చేస్తున్నాము
-

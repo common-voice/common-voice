@@ -28,4 +28,3 @@ download-request-modal-description = Вот ссылки для загрузки
 download-request-link-text = Zip №{ $offset } из { $total }
 download-request-metadata-link = Текст предложений
 download-request-link-single = Вы также можете скопировать и вставить прямые URL-адреса в свой любимый менеджер загрузок. Срок их действия истекает через 12 часов, но вы можете вернуться на эту страницу в любое время для создания новых.
-

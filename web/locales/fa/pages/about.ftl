@@ -2,6 +2,9 @@
 
 about-title = چرا آواهای مشترک؟
 how-does-it-work-text = ما مجموعه داده‌های متن‌باز را از صداها جمع آوری می‌کنیم. صدای خود را اهدا کنید، دقت برش های صوتی دیگران را اعتبارسنجی کنید، مجموعه داده‌های بهتری برای همه بسازید.
+
+## How does it work section
+
 about-speak = صحبت کن
 about-speak-text = مشارکت‌کننده‌ها برش‌های صوتی را با خواندن جملات از یک بانک جملات اهدایی ضبط می‌کنند.
 about-listen-queue = صف-شنیدن
@@ -28,3 +31,34 @@ about-nav-why-common-voice = چرا ؟
 about-nav-how-it-works = چگونه ؟
 about-nav-partners = همکاران
 about-nav-get-involved = مشارکت کنید
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

@@ -45,4 +45,3 @@ sc-criteria-item-3 = Xivulwa xi fanele ku va lexi vulavuriwaka.
 sc-criteria-item-4 = Loko xivulwa xi fikelela swipimelo, tinya "Approve" buti leyi nga exineneni.
 sc-criteria-item-5-2 = Loko xivulwa xi nga fikeleli swipimelo leswi nga laha henhla, kandziyisa &quot;Ala&quot; xikandziyiso lexi nga etlhelo ra ximatsi. Loko u nga tiyiseki hi xivulwa lexi, u nga ha tlhela u xi tlula ivi u ya eka lexi landzelaka.
 sc-criteria-item-6 = Loko u heleriwa hi swivulwa swo swi kambisisa, hi kombela u hi pfuna ku hlengeleta swivulwa swo tala!
-

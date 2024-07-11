@@ -28,4 +28,3 @@ download-request-modal-description = Miachirio epakua faili ra ZIPU eko aha.
 download-request-link-text = Zipu #{ $offset } ra { $total }
 download-request-metadata-link = Maandiko gha sentensi
 download-request-link-single = Kwadima kukopia kukakadishire shwaa andu kwako kwasaghua kukuboiagha kow'adia data. Kughorelwagha andenyi ya masaa ikumi na aw'i, ela kwadima kuw'uya kwa ihi peji kufunya zima ngelo iuyoyose.
-

@@ -7,4 +7,3 @@ download-form-email =
     .value = Grasie, te contateremo a el pì presto.
 download-back = Torna a i dataset de Common Voice
 download-no = No, grasie
-

@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Met̆aǩulu
 action-tap = Ombolina
-## Languages
-
-contribute = Memaǩatit
+contribute = Eǩoşvelu
 review = Meotzǩedi
 skip = Moyoǩap̌i
 shortcuts = Gzamǩulepe
@@ -83,9 +79,6 @@ shortcut-vote-yes = h
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = v
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = ǩriterepe
@@ -111,4 +104,3 @@ contribution-reader-effects-title = Maǩitxeşi Efektepe
 contribution-just-unsure-title = Vorsi var giçkinan-i?
 see-more = <chevron></chevron> Daha fazlamuşi dzirit
 see-less = <chevron></chevron>Daha mtsikamuşi otziri
-

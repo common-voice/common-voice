@@ -16,4 +16,3 @@ why-delete-recordings =
     nelabatsandva bucwephesha bemavi latfwebuliwe, kusita kucecesha nekukhulisa lwati loselukhona esiveni nje tinhlobo temavi.
     Sicela usatise kutsi leni ufuna kususa lokutfwebulile.
 profile-form-delete = Yesula likhasi
-

@@ -69,3 +69,5 @@ about-playbook-how-project-governance = Conas a dhéantar cinntí faoin dtionsca
 about-playbook-how-project-governance-content-3 = Príobháideacht, slándáil agus trédhearcacht.
 about-playbook-how-project-governance-content-5 = Luach agus aitheantas.
 
+## How is Common Voice funded
+

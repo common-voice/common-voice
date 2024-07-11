@@ -189,7 +189,6 @@ share-text = Helpu instrui al maŝinoj kiel veraj homoj parolas, donacu vian vo�
 link-copied = Ligilo kopiita
 back-top = Reen al la supro
 logout = Fini seancon
-
 stayintouch = Ĉe Mozilla ni konstruas komunumon pri voĉaj teknologioj. Ni ŝatus resti en kontakto kun vi pri ĝisdatigoj, novaj fontoj kaj ankaŭ por scii pli pri  via uzo de tiuj ĉi datumoj.
 privacy-info = Ni promesas zorge pritrakti viajn informojn. Pli da informo troveblas en nia <privacyLink>politiko pri privateco</privacyLink>.
 return-to-cv = Reiri al Common Voice
@@ -203,7 +202,8 @@ email-opt-in-info-sub-with-challenge = Ricevi retpoŝtmesaĝojn, kiel ekzemple m
 email-opt-in-privacy-v2 = Se vi abonas dissendoliston, vi konsentas kun la pritrakto de tiu ĉi informo, laŭ la priskribo de la <privacyLink>privateca politiko</privacyLink> de Mozilla.
 indicates-required = * signas devigan kampon
 not-available-abbreviation = Nedisponebla
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Elekti lingvon/tradukon

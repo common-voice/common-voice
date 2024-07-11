@@ -7,4 +7,3 @@ download-form-email =
     .value = Иҭабуп, аимадараҿ ҳаҟоуп.
 download-back = Common Voice Адыррақәа реизга иазыхынҳәтәуп
 download-no = Мап, иҭабуп
-

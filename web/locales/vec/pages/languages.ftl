@@ -13,8 +13,6 @@ language-search-input =
 language-speakers = Parlà da
 localized = Localixà
 sentences = Fraxi
-## Languages
-
 contribute = Contribuisi
 get-involved-button = Colabora co noialtri
 get-involved-title = Contribuisi en { $lang }

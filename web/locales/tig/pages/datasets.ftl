@@ -43,10 +43,7 @@ more = ዝያዳ
 close = ድብኦ
 download = ኣውርድ
 dataset-version = እስዳር
-
 data-download-singleword-title = እግል ዎሮ ከሊመት ሓደፍ ለቡ ክፋል ክረ
-## Data
-
 data-download-button = በያናት ናይ ክርን ሕበር  ክረ
 data-download-yes = ኣየዋ
 data-download-deny = ኢፋል

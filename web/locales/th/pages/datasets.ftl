@@ -56,11 +56,8 @@ download = ดาวน์โหลด
 dataset-version = รุ่น
 sha256-checksum-copied-error = ไม่สามารถคัดลอก SHA256 Checksum
 clipboard-not-supported = ไม่รองรับคลิปบอร์ด
-
 data-download-singleword-title = ดาวน์โหลด Single Word Target Segment
 data-download-singleword-callout-v2 = ส่วนนี้เป็นข้อมูลที่ออกแบบตามกรณีการใช้งาน เป็นข้อมูลสำหรับการรู้จำตัวเลขและคำว่า ใช่ / ไม่ใช่
-## Data
-
 data-download-button = ดาวน์โหลดข้อมูล Common Voice
 data-download-yes = ใช่
 data-download-deny = ไม่

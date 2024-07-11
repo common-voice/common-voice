@@ -32,7 +32,6 @@ review-recording = Nyòchàá
 review-rerecord = Kpọ̀nyéghárị́á (re-record)
 review-keep-recordings = Dèbé íhé ḿkpọ́nyé
 review-delete-recordings = Hị́chàpụ́ íhé ńd́ekọ̀ ḿ
-
 review-terms = Síté nà-íjì Common Voice mèé íhē, Ị́ nà-èkwéré na <termsLink> Usoro</termsLink> na <privacyLink> Ọkwa Nzoro</privacyLink>
 terms-agree = Ékwèrè ḿ
 terms-disagree = Èkwéghị́ ḿ

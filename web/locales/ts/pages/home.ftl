@@ -87,4 +87,3 @@ help-contribute = U nga pfuneta ku aka rungula ro hambana, ra xihlovo lexi pfule
 login-company = Nghena / Tsarisa hi { $company } imeyili
 profile-not-required = Kuva na phurofayili a swi laveriwi ku hoxa xandla kambe swa pfuna, vona kuri hikokwalaho ka yini laha hansi.
 read-more-about = Hlaya swo tala eka tluka ra hina ra Malunghana
-

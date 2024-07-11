@@ -38,4 +38,3 @@ request-language-success-list-3 =
 request-language-error =
     আমি হয়তো সেই অনুৰোধটো পোৱা নাই। অনুগ্ৰহ কৰি আমাক <email Link>{ $email }</email Link>-ত
     পোনপটীয়াকৈ ইমেইল কৰক আৰু আমি আপোনালৈ সঁহাৰি জনাম!
-

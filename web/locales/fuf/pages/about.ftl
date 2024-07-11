@@ -56,3 +56,11 @@ about-playbook-how-record-content-1 = Haaldu no keew-ɗaa haaldude nih. No kaald
 
 about-playbook-how-validate-content-2 = <strong>Hoto riiwtu hito ɗo kaaloowo oo ‘ena jogii ngaddin’ mo jiidaani e mo mah</strong> - Ɗuum eba teeŋti sanne ngam Heftingol Hito ena waawa yuɓɓande mo woni kala.
 
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

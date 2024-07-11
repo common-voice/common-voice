@@ -28,4 +28,3 @@ download-request-modal-description = Мӕнӕ дӕ ZIP-файлтæ равгӕн
 download-request-link-text = Zip № { $offset }, æдæппæт сты { $total }
 download-request-metadata-link = Хъуыдыйады текст
 download-request-link-single = Бар дын ис къопи кӕнын ӕмӕ бавӕрын комкоммӕ URL-адристӕ дӕ уарзондӕр ӕвгӕнӕны менеджермӕ. Сӕ архайды ӕмгъуыд ивгъуыд кӕны 12 сахаты фӕстӕ, фӕлӕ дӕ бон у ацы фарсмӕ раздахын алы рӕстӕджы дӕр ног æрвитæн сфӕлдисынæн.
-

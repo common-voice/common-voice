@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Klikañ
 action-tap = Pouezit
-## Languages
-
 contribute = Kemer-perzh
 review = Gwiriañ
 skip = Mont hebioù
@@ -114,4 +110,3 @@ contribution-reader-effects-title = Efedoù al lenner
 contribution-just-unsure-title = Etre daou soñj?
 see-more = <chevron></chevron>Gwelet muioc’h
 see-less = <chevron></chevron>Gwelet nebeutoc’h
-

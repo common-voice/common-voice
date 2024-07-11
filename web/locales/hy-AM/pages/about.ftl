@@ -2,6 +2,9 @@
 
 about-title = Ինչո՞ւ Common Voice։
 how-does-it-work-text = Մենք հավաքում ենք ձայնագրությունների բաց աղբյուր տվյալակազմ։ Նվիրաբերեք ձեր ձայնը, վավերացրեք մյուսների ձայնագրությունները, բարելավեք տվյալակազմը բոլորի համար։
+
+## How does it work section
+
 about-speak = Ձայնագրել
 about-speak-text = Մասնակիցները ձայնագրություններ են անում՝ ընթերցելով նախադասություններ առաջարկվող ցանկից։
 about-listen-queue = Սպասում ենք ստուգման
@@ -27,3 +30,34 @@ about-nav-why-common-voice = Ինչո՞ւ
 about-nav-how-it-works = Ինչպե՞ս
 about-nav-partners = Գործընկերներ
 about-nav-get-involved = Միացե՛ք
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

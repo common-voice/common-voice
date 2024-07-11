@@ -33,4 +33,3 @@ demo-listen-subtitle = Aɗa hebii wallitde?
 
 demo-dashboard-card-header = Tiimtorde heeriinde ena hollu maa ko ɓuri hesɗude e taabagol neɗɗo walla renndo fof.
 demo-dashboard-card-body = Kala lefel sawto dokkangel, e kala lefel ojoo jaalɗinangel, tiimtorde konte maa hesɗitinte ngam hollude taaɓagol maa cakkitiingol e ɗemɗe kala ngal mballittaa. Eey, aɗa waawi wallitde e ko ɓuri ɗemngal gootal!<br/><br/> Huutoro tiimtorde ngam rewindaade limte maa, njiyaa no golle maa mbaadi e woɗɓe e renndo ngoo, kisa taƴaa paandaale ballitte ñalngu walla yontere.
-

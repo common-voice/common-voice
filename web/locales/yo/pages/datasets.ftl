@@ -50,11 +50,8 @@ more = Sí i
 close = Padé
 download = Ṣe ìgbàsílẹ̀
 dataset-version = Ẹ̀dà
-
 data-download-singleword-title = Ṣe ìgbàsílẹ̀ àfojúsùn sẹ́gímẹ́ǹtì ọlọ́rọ̀ kan
 data-download-singleword-callout-v2 = Èyí jẹ́ ìwòṣe sẹ́gímẹ́ǹtì tó ni dátà láti ṣe ìdámọ̀ òǹkà àti èsi bẹ́ẹ̀ni / bẹ́ẹ̀ kọ́
-## Data
-
 data-download-button = Ṣe àgbàsílẹ̀ dátà Common Voice sórí ẹ̀rọ ọ̀ rẹ
 data-download-yes = Bẹ́ẹ̀ni
 data-download-deny = Bẹ́ẹ̀ kọ́

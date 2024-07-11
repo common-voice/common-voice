@@ -15,9 +15,6 @@ localized = Sigida la
 sentences = Kumasenw
 language-validation-hours = Lɛriw
 language-validation-progress = Validation (dafali) ɲɛtaa
-
-## Languages
-
 contribute = Ka bolomafara di
 get-involved-button = k'aw sen don a la
 get-involved-title = bolomafara di  { $Bamanankan } dɛmɛlila

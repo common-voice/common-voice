@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = ক্লিক করুন
 action-tap = টোকা দিন
-## Languages
-
 contribute = অবদান রাখুন
 skip = এড়িয়ে যান
 shortcuts = শর্টকাট
@@ -72,9 +68,6 @@ shortcut-vote-yes = y
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = মানদণ্ড
@@ -83,4 +76,3 @@ contribution-criteria-page-title = অবদানের মানদণ্ড
 contribution-for-example = উদাহরণসরূপ
 see-more = <chevron></chevron>আরও দেখুন
 see-less = <chevron></chevron>কম দেখুন
-

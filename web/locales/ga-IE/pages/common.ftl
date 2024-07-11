@@ -137,7 +137,6 @@ share-text = Cabhraigh linn múineadh do ríomhairí conas a labhraíonn daoine;
 link-copied = Cóipeáladh an Nasc
 back-top = Fill ar bharr an leathanaigh
 logout = Scoir
-
 stayintouch = Táimid ag iarraidh comhphobal a thógáil timpeall teicneolaíochta cainte. Ba mhaith linn fanacht i dteagmháil leat chun nuacht agus foinsí nua sonraí a sheoladh chugat, agus le cloisteáil cén chaoi a n-úsáidfidh tú na sonraí seo.
 privacy-info = Geallaimid duit go mbeimid cúramach le do chuid sonraí pearsanta. Tuilleadh eolais inár <privacyLink>bhFógra Príobháideachais</privacyLink>.
 return-to-cv = Fill ar Common Voice
@@ -151,3 +150,6 @@ email-opt-in-info-sub-with-challenge = Faigh teachtaireachtaí ríomhphoist amha
 email-opt-in-privacy-v2 = Trí rogha a dhéanamh chun teachtaireachtaí ríomhphoist a fháil, tugann tú le fios nach miste leat go mbeidh Mozilla in ann an fhaisnéis sin a láimhseáil mar a mhínítear i <privacyLink>mBeartas Príobháideachais</privacyLink> Mozilla.
 indicates-required = Léiríonn * réimse atá riachtanach
 not-available-abbreviation = Neamhbhainteach
+
+## Donate banner
+

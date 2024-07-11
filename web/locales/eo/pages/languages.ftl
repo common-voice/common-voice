@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = Progresanta
@@ -16,8 +13,6 @@ language-search-input =
 language-speakers = Parolantoj
 localized = Tradukita
 sentences = Frazoj
-## Languages
-
 contribute = Kontribui
 get-involved-button = Partopreni
 get-involved-title = Kontribui al { $lang }

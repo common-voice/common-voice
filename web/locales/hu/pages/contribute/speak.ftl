@@ -33,7 +33,6 @@ review-rerecord = Újrarögzítés
 review-cancel = Beküldés megszakítása
 review-keep-recordings = Felvételek megtartása
 review-delete-recordings = Felvételeim törlése
-
 review-terms = A Common Voice használatával elfogadja a <termsLink>Jogi feltételeket</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatot</privacyLink>
 terms-agree = Elfogadom
 terms-disagree = Nem fogadom el

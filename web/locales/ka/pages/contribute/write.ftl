@@ -1,3 +1,5 @@
+## WRITE PAGE
+
 write = შედგენა
 # WRITE PAGE
 write-instruction = დაამატეთ <icon></icon> წინადადებები საყოველთაო საკუთრებიდან

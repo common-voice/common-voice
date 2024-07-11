@@ -7,7 +7,4 @@ request-language-success-title = Volūdys pīprasejums veiksmeigi īsnāgts, pa�
 request-language-success-content = Mes nūsyuteisim vaira informacejis par tū, kai cīši dreiži dalikt jiusu volūdu Common Voice.
 select-language = Izalosit volūdu...
 other-language = Cyta volūda
-
-## General
-
 yes-receive-emails = Nui, syutit maņ e-postus. Es grybu sajimt informaceju par Common Voice projektu.

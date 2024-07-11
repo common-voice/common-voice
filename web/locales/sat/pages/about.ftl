@@ -80,3 +80,5 @@ about-playbook-how-access-dataset = ᱤᱧ ᱫᱚ ᱪᱮᱞᱠᱟᱛᱮ ᱰᱟ�
 about-playbook-how-project-governance-content-5 = ᱢᱩᱞ ᱟᱨ ᱪᱤᱱᱦᱟᱹᱯ ᱾
 about-playbook-how-project-governance-content-7 = <governanceLink>ᱟᱞᱮ ᱪᱮᱫ ᱞᱮᱠᱷᱟ ᱞᱮ ᱥᱟᱥᱚᱱᱚᱜ ᱠᱟᱱᱟ ᱚᱱᱟ ᱵᱟᱵᱚᱛ ᱰᱷᱮᱨ ᱯᱟᱲᱦᱟᱣ ᱢᱮ</governanceLink>
 
+## How is Common Voice funded
+

@@ -29,4 +29,3 @@ request-language-success-list-3 = Se non ricevi una risposta entro un paio di gi
 request-language-error =
     Può darsi che non abbiamo ricevuto la tua richiesta. Invia un’email direttamente all’indirizzo
     <emailLink>{ $email }</emailLink> e ti risponderemo.
-

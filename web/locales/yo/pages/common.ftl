@@ -209,7 +209,6 @@ share-text = Ṣèrànwọ́ rún ìkẹ́rọ bí àwọn ènìyán ṣ
 link-copied = Ìdàkọ líǹkì
 back-top = Padà sókè
 logout = Jáde
-
 stayintouch = Àwa ní Mozilla ń ṣẹ àpèjọ ìjọ ènìyàn lórí ìmọ̀-ẹ̀rọ nípa ohùn. A ma fẹ́ láti mọ àwọn ohun ọ̀tun, àwọn orísun dátà àti láti mọ̀ sí i nípa bí ẹ ṣe ń lo àwọn dátà yí.
 privacy-info = A ṣe ìlérí láti ṣe ì†ọ́jú àwọn àlàyé rẹ dáradára. Ka díẹ̀ si nínú un <privacyLink> Àkíyèsí Aláṣìírí wa</privacyLink>.
 return-to-cv = Padà sí Common Voice
@@ -223,7 +222,8 @@ email-opt-in-info-sub-with-challenge = Gba àwọn ímeèlì bí i ìránilét�
 email-opt-in-privacy-v2 = Nípa gbígbà láti lè gba ímeèlì, o sọ pe o faramọ́ kí Mozilla ṣe ìkáwọ́ àwọn ìròyìn bí a ti se é lálàyé sí <privacyLink> Ìgbékalẹ̀ Àṣírí ti Mozilla</privacyLink>.
 indicates-required = Àwọn aye tí a fi ài iràwọ̀ (*) yí sí  pọn dandan
 not-available-abbreviation = kò sí
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Yan èdè/ìsọditèdè

@@ -7,4 +7,3 @@ download-form-email =
     .value = ସାଧୁବାଦ । ଆମେ ଯୋଗାଯୋଗ କରିବୁ ।
 download-back = Common Voice ତଥ୍ୟ ଭଣ୍ଡାରକୁ ଫେରିଯାଆନ୍ତୁ
 download-no = ନାଁ ଥାଉ
-

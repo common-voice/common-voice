@@ -1,63 +1,3 @@
-## Profile - Email
-
-
-## Profile - Email
-
-
-## FAQ
-
-
-## ABOUT US
-
-
-## Glossary
-
-
-## Error pages
-
-
-## Data
-
-
-## Datasets Page
-
-
-## Download Modal
-
-
-## Contact Modal
-
-
-## Request Language Modal
-
-
-## Languages Overview
-
-
-## Contribution
-
-
-## Reporting
-
-
-## Goals
-
-
-## Dashboard
-
-
-## Custom Goals
-
-
-## Profile Delete
-
-
-## Profile Download
-
-
-## Landing
-
-
 ## DemoLayout
 
 
@@ -89,4 +29,3 @@ demo-listen-subtitle = Cla pa contribui?
 
 demo-dashboard-card-header = E dashboard personal ta mantene bo na altura di bo progreso individual y tambe esun di e comunidad.
 demo-dashboard-card-body = Pa cada nota di bos cu bo dona, y cada nota di bos cu keda acepta, e dashboard di bo profil lo refleha bo progreso den cada idioma cu bo ta contribui na dje.
-

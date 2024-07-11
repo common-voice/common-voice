@@ -13,9 +13,6 @@ language-speakers = Locutori
 localized = Lucalizatu
 sentences = Infrasate
 language-validation-hours = Ore
-
-## Languages
-
 contribute = Cuntribuisce
 get-involved-button = Impegnassi
 get-involved-title = Cuntribuisce à { $lang }

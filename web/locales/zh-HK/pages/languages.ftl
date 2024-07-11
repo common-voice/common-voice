@@ -14,10 +14,7 @@ language-speakers = 錄音人數
 localized = 本地化進度
 sentences = 句子
 language-validation-hours = 個鍾
-
-## Languages
-
-contribute = 貢獻
+contribute = 參與貢獻
 get-involved-button = 加入我們
 get-involved-title = 貢獻到 { $lang }
 get-involved-text = 多謝您對向 { $lang } 貢獻的興趣。我們正在努力支援各種不同語言，並與所有團隊保持聯繫。如果您也想參與貢獻，請在下方提供電郵地址給我們。

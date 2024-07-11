@@ -5,4 +5,3 @@ error-content-404 = Ehtimol, bizning <homepageLink>bosh sahifamiz</homepageLink>
 error-title-503 = Kutilmagan uzilish yuz berdi.
 error-content-503 = Sayt imkon qadar tezda zaxira nusxasini yaratadi. Soʻnggi maʼlumotlar uchun <matrixLink>Matrix jamiyati suhbatxonasiga</matrixLink> qoʻshiling yoki <githubLink>GitHub</githubLink>ga yoki sayt tajribasi bilan bogʻliq muammolarni yuborish va nazorat qilish uchun <discourseLink>bizning nutq forumlarimizga </discourseLink> tashrif buyuring.
 error-code = Xato { $code }
-

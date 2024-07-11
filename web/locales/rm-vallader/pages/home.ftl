@@ -67,9 +67,6 @@ recordings-and-locale-public = La quantità da tias registraziuns e l'infuormazi
 username-optin-public = Tü decidast, scha teis nom d'ütilisader vain publichà o resta anonim.
 username-email-not-demographic = Teis nom d'ütilisader e ti'adressa dad e-mail nu vegnan colliats cun las datas publichadas.
 
-## Profile Download
-
-
 ## Landing
 
 welcome-staff = Bainvgnü collavuratur/a da { $company } !
@@ -77,4 +74,3 @@ help-contribute = Tü poust güdar a construir üna collecziun da datas multifar
 login-company = Annunzcha't / Registrescha't cun l'adressa dad e-mail da { $company }
 profile-not-required = I nu fa dabsögn dad avair ün profil per contribuir, eir schi füss ütil. Suotvart vezzast perche.
 read-more-about = Legia daplü sün nossa pagina d'infuormaziun da Common Voice.
-

@@ -30,7 +30,6 @@ review-rerecord = Ҫӗнӗрен ҫырса ил
 review-cancel = Ҫырса илнине тиеме пӑрахӑҫла
 review-keep-recordings = Манӑн ҫырусене упра
 review-delete-recordings = Манӑн ҫырусене картла
-
 review-terms = Common Voice усӑ курсассӑн эсир пирӗн <termsLink>усӑ курас условийӗсемпе</termsLink> тата <privacyLink>привотность политикипе</privacyLink> килӗшетӗр
 terms-agree = Эпӗ килӗшетӗп
 terms-disagree = Эпӗ килӗшместӗп

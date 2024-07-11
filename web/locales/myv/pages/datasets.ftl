@@ -47,11 +47,8 @@ more = Седе тов
 close = Пекстамс
 download = Таргамс
 dataset-version = Версия
-
 data-download-singleword-title = Таргинк норовамо сегментэнть «Вейке вал»
 data-download-singleword-callout-v2 = Те сегментэсь норовазь башка явозь тев лангс, эйсэнзэ улить даннойть, конат паролгавтыть цифрань ды валтнэнь «истя»/« аволь» чарькодеманть.
-## Data
-
 data-download-button = Таргамс «Common Voice» дата
 data-download-yes = Истя
 data-download-deny = Арась

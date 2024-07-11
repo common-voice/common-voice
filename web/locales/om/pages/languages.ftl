@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = Gumaacha
 get-involved-button = Irraatti hirmadha

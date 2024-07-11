@@ -7,4 +7,3 @@ download-form-email =
     .value = Mercés, seram eth contacte.
 download-back = Torna tàs conjunts de donades deth Common Voice
 download-no = Non, gràcies
-

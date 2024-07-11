@@ -1,11 +1,12 @@
 ## Datasets Page
+
 datasets-heading = Datasets
 datasets-headline = We’re building an open source, multi-language dataset of voices that anyone can use to train speech-enabled applications.
 datasets-positioning =
     We believe that large, publicly available voice datasets will foster innovation and healthy commercial competition in machine-learning based speech technology.
-
+    
     Common Voice’s multi-language dataset is already the largest publicly available voice dataset of its kind, but it’s not the only one.
-
+    
     Look to this page as a reference hub for other open source voice datasets and, as Common Voice continues to grow, a home for our release updates.
 language = Language
 download-dataset-header = Download the Dataset
@@ -33,9 +34,9 @@ validated-hours = Validated Hours
 recorded-hours = Recorded Hours
 whats-inside = What’s inside the Common Voice dataset?
 dataset-description-hours =
-        Each entry in the dataset consists of a unique MP3 and corresponding text file. Many of the <b>{ $total }</b> recorded hours in the dataset also include demographic metadata like age, sex, and accent that can help train the accuracy of speech recognition engines.
-
-        The dataset currently consists of <b>{ $valid }</b> validated hours in <b>{ $languages }</b> languages, but we’re always adding more voices and languages. Take a look at our <languagesLink>Languages page</languagesLink> to request a language or start contributing.
+    Each entry in the dataset consists of a unique MP3 and corresponding text file. Many of the <b>{ $total }</b> recorded hours in the dataset also include demographic metadata like age, sex, and accent that can help train the accuracy of speech recognition engines.
+    
+    The dataset currently consists of <b>{ $valid }</b> validated hours in <b>{ $languages }</b> languages, but we’re always adding more voices and languages. Take a look at our <languagesLink>Languages page</languagesLink> to request a language or start contributing.
 want-dataset-update = Want updates when we release a new version of the Common Voice dataset? Subscribe to our newsletter.
 subscribe = Subscribe
 get-started-speech = Get Started with Speech Recognition
@@ -43,13 +44,11 @@ other-datasets = Other Voice Datasets
 feedback-q = Have Feedback?
 # This indicates that there is no data to display
 no-information = No information
-
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ is an <docsLink>open-source toolkit</docsLink> for researchers developing state-of-the-art conversational AI models.
 resource-deepspeech-info = Mozilla’s open source voice recognition engine Deep Speech can be used to build speech recognition applications. Read our <githubLink>Github overview</githubLink> or join the <discourseLink>DeepSpeech Discourse</discourseLink> to learn how to get started.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> is dedicated to open speech technology. Their projects include deep learning based STT and TTS engines.
 community-playbook = Community Playbook
 resource-playbook-info = <playbookLink>Find helpful guidance</playbookLink> on the entire Common Voice journey, from localisation to dataset usage, as well as how to connect with our community.
-
 data-other-librispeech-description = LibriSpeech is a corpus of approximately 1000 hours of 16Khz read English speech derived from read audiobooks from the LibriVox project.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = The TED-LIUM corpus was made from audio talks and their transcriptions available on the TED website.
@@ -76,11 +75,8 @@ dataset-donate-modal-heading = Did you know…
 donate-modal-explanation-1 = It costs almost a million dollars a year to host the datasets and improve the platform for the 100+ language communities who rely on what we do?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>If you value open, inclusive data - donate today!</bold>
-
 data-download-singleword-title = Download the Single Word Target Segment
 data-download-singleword-callout-v2 = This is a use case driven segment containing data to power spoken digit recognition and yes / no detection.
-
-## Data
 data-download-button = Download Common Voice Data
 data-download-yes = Yes
 data-download-deny = No

@@ -1,6 +1,6 @@
-write = Pište
 ## WRITE PAGE
 
+write = Pište
 write-instruction = Přidat <icon></icon> větu jako volné dílo
 write-page-subtitle = Věty, kterými zde přispějete, budou přidány do veřejně dostupného datasetu pod licencí cc-0.
 sentence =
@@ -89,4 +89,3 @@ file-invalid-type = Neplatný soubor
 file-too-large = Soubor je příliš velký
 file-too-small = Soubor je příliš malý
 too-many-files = Příliš mnoho souborů
-

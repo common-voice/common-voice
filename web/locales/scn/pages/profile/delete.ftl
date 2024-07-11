@@ -4,4 +4,3 @@ delete-q = Vo' cancillari macari i to riggistrazziuna, o i vo' tèniri nnî dati
 keep = Teni
 remove = Cancella
 profile-form-delete = Cancella prufilu
-

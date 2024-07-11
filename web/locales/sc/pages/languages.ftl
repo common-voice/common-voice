@@ -14,9 +14,6 @@ language-speakers = Faeddadores
 localized = Localizadu
 sentences = Frases
 language-validation-hours = Oras
-
-## Languages
-
 contribute = Contribui
 get-involved-button = Ìmplica·ti
 get-involved-title = Contribui a { $lang }

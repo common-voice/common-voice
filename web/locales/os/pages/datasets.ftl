@@ -56,11 +56,8 @@ dataset-version = Фæлтæр
 sha256-checksum-copied = SHA256 чексуммæ къопигонд у!
 sha256-checksum-copied-error = Фæкъуыхцы SHA256 чексуммæйы къопи сисынæй
 clipboard-not-supported = Ивды буфер нæ кусы
-
 data-download-singleword-title = Равгӕн нысанон сегмент «Иу дзырд»
 data-download-singleword-callout-v2 = Ацы сегменты нысан у бӕлвырд цаутӕ пайда кӕнынӕн, дары рардтӕ, цӕмӕй фӕхуыздӕр кӕна нымӕцты раиртасӕн ӕмӕ «о» кӕнӕ «нӕ» базонӕн.
-## Data
-
 data-download-button = Common Voice-ы рардтӕ бавгӕн
 data-download-yes = О
 data-download-deny = Нæ

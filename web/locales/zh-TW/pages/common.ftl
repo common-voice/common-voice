@@ -235,7 +235,6 @@ link-copied = 已複製鏈結
 back-top = 回到頁面頂端
 logout = 登出
 donate = 捐款
-
 stayintouch = Mozilla 的我們，正在打造一個與語音技術相關的社群。我們想要與新技術、新的資料來源保持聯繫，也想知道您會如何使用這些資料。
 privacy-info = 我們保證會小心處理您的資訊。可於我們的<privacyLink>隱私權公告</privacyLink>了解更多資訊。
 return-to-cv = 回到 Common Voice
@@ -249,13 +248,12 @@ email-opt-in-info-sub-with-challenge = 訂閱諸如挑戰、目標提醒、進�
 email-opt-in-privacy-v2 = 若同意接收郵件，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>我們需要</mark><br/><mark>你的幫忙！</mark>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>在您的研究中</mark><br/><mark>使用 CV 嗎？</mark>
-# [/SentenceCollector]
-
 localization-select =
     .label = 選擇語言 / 語系

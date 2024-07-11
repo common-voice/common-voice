@@ -45,4 +45,3 @@ sc-criteria-item-3 = Die sin moet uitspreekbaar wees.
 sc-criteria-item-4 = As die sin aan die kriteria voldoen, klik die "Aanvaar"-knoppie.
 sc-criteria-item-5-2 = As die sin nie aan die bogenoemde kriteria voldoen nie, klik die "Verwerp"-knoppie. As jy onseker is oor die sin, kan jy dit ook oorslaan en aanbeweeg na die volgende een.
 sc-criteria-item-6 = As daar nie meer sinne is om te hersien nie, help ons asseblief om meer sinne in te samel!
-

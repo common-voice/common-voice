@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Penya
 action-tap = Tlanya
-## Languages
-
 contribute = Kenya letsoho
 skip = Tlola
 shortcuts = Dikgaoletso
@@ -33,6 +29,9 @@ target-segment-generic-card = O kenya letsoho karolong e lebeletsweng
 target-segment-first-banner = Thusa ho etsa karolo ya pele ya Common Voice ka { $locale }
 target-segment-add-voice = Kenya Lentswe la hao
 target-segment-learn-more = Ithute haholwanyane
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -143,4 +142,3 @@ contribution-just-unsure-title = Feela ha o na bonnete?
 contribution-just-unsure-description = Haeba o ka thulana le ntho e nngwe yeo ditataiso di sa e ameng, ka kopo kgetha ho latela kahlolo ya hao e ntle. Haeba o sa kgone ho nka qeto, sebedisa konopo ya feta mme o ee ho rekoto e latelang.
 see-more = <chevron></chevron>Bona tse ding
 see-less = <chevron></chevron>Bona hanyane
-

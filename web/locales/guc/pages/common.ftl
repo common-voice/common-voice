@@ -226,7 +226,6 @@ link-copied = Ashatünüsü shiyaawase
 back-top = Ouyantaa eere su'ttuin
 logout = Asürülaa a'yatawaa
 donate = Asülajaa
-
 stayintouch = Wayakana sulu'u Mozilla wouneküin na kamalainka amüin tü atüjalaaka o'ttusuka sünainjee tü pütchi aashajaanaka. Watüjee aa'u kasain alatüin, jalejeekualü antüin süchikimaajatüka kasa otta aapajaa saa'ujee kasain paa'inrüin süka tia achikimaajatüka.
 privacy-info = Jalieerü waa'in tü püchikimaajatüka. Paashaje'eraa soo'omüin yaapünaa yaa <privacyLink>poliitika saa'ujee aa'inmajiraa wakuwa'ipa</privacyLink>.
 return-to-cv = Ouyantaa sünainmüin Common Voice
@@ -240,3 +239,6 @@ email-opt-in-info-sub-with-challenge = Tacheküin aluwataanüin imeeirü tamüin
 email-opt-in-privacy-v2 = Müleka püchekülee süntüin imeeirü pümüin aa müshii jia sümüin Mozilla süpüla aapaanüin tü püchikimaajatüka süchiirua tü amünakalü sulu'u <privacyLink>Poliitika saa'ujee aa'inmajiraa wakuwa'ipa</privacyLink> sümüinka Mozilla.
 indicates-required = * Acheküsü püneekajüin eere püjüttüinjatü
 not-available-abbreviation = N/A
+
+## Donate banner
+

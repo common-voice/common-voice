@@ -33,4 +33,3 @@ demo-listen-subtitle = Ready to contribute?
 
 demo-dashboard-card-header = Personal dashboards keep you up-to-date with individual and community progress.
 demo-dashboard-card-body = For every voice clip donated, and every audio clip validated, your account dashboards are updated to reflect your latest progress in each language you contribute to. Yes, you can contribute to more than one!<br/><br/> Use dashboards to track your stats, see how you're doing alongside others in the community, and set daily or weekly contribution goals.
-

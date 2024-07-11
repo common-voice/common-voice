@@ -49,10 +49,7 @@ more = Mai multe
 close = Închide
 download = Descarcă
 dataset-version = Versiune
-
 data-download-singleword-title = Descarcă segmentul-țintă de cuvinte unice
-## Data
-
 data-download-button = Descarcă datele Common Voice
 data-download-yes = Da
 data-download-deny = Nu

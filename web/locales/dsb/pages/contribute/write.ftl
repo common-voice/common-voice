@@ -1,6 +1,6 @@
-write = Pisaś
 ## WRITE PAGE
 
+write = Pisaś
 write-instruction = Pśidajśo <icon></icon> zjawnje wužywabnu sadu
 write-page-subtitle = Sady, kótarež se how pśinosuju, se zjawnje pśistupnej datowej sajźbje z licencu cc-0 pśidawaju.
 sentence =
@@ -86,4 +86,3 @@ file-invalid-type = Njepłaśiwa dataja
 file-too-large = Dataja jo pśewjelika
 file-too-small = Dataja jo pśemała
 too-many-files = Pśewjele datajow
-

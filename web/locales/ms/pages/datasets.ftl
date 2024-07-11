@@ -56,11 +56,8 @@ more = Selanjutnya
 close = Tutup
 download = Muat turun
 dataset-version = Versi
-
 data-download-singleword-title = Muat turun Segmen Sasaran Kata Tunggal
 data-download-singleword-callout-v2 = Ini adalah segmen dipacu kes yang mengandungi data untuk pengiktirafan digit yang dipertuturkan dan pengesahan ya / tidak.
-## Data
-
 data-download-button = Muat turun Data Common Voice
 data-download-yes = Ya
 data-download-deny = Tidak

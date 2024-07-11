@@ -1,12 +1,13 @@
-write = Write
 ## WRITE PAGE
+
+write = Write
 write-instruction = Add <icon></icon> a public domain sentence
 write-page-subtitle = Sentences contributed here will be added to a publicly available cc-0 licensed dataset.
-sentence = 
+sentence =
     .label = Sentence
 sentence-input-value = Enter your public domain sentence here
 citation-input-placeholder = Reference the source of your sentence (required)
-citation = 
+citation =
     .label = Citation
 sc-write-submit-confirm = I confirm that this sentence is <wikipediaLink>public domain</wikipediaLink> and I have permission to upload it.
 sc-review-write-title = What sentences can I add?
@@ -61,6 +62,7 @@ sentence-variant-select-placeholder = Select a variant (optional)
 sentence-variant-select-multiple-variants = General language / multiple variants
 
 ## BULK SUBMISSION 
+
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Upload <icon></icon> public domain sentences
 sc-bulk-upload-instruction = Drag your file here or <uploadButton>click to upload</uploadButton>
@@ -87,4 +89,3 @@ file-invalid-type = Invalid file
 file-too-large = File is too large
 file-too-small = File is too small
 too-many-files = Too many files
-

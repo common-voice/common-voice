@@ -17,10 +17,7 @@ localized = Ñe’ẽasapyre
 sentences = Ñe’ẽjoajukuéra
 language-validation-hours = Aravo
 language-validation-progress = Ñemboaje Jejapo
-
-## Languages
-
-contribute = Eipytyvõ
+contribute = Ñepytyvõ
 get-involved-button = Eike eipytyvõ
 get-involved-title = Eipytyvõ { $lang } ñe’ẽme
 get-involved-text =

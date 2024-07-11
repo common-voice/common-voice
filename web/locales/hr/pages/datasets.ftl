@@ -49,11 +49,8 @@ more = Više
 close = Zatvori
 download = Preuzmi
 dataset-version = Verzija
-
 data-download-singleword-title = Preuzmi segment za ciljanje pojedinačnih riječi
 data-download-singleword-callout-v2 = Ovo je segment usmjeren na slučajeve upotrebe koji sadrži podatke za prepoznavanje izgovorenih znamenki i otkrivanje da / ne.
-## Data
-
 data-download-button = Preuzmi Common Voice podatke
 data-download-yes = Da
 data-download-deny = Ne

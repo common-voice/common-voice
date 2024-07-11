@@ -17,9 +17,6 @@ localized = Honosítva
 sentences = Mondatok
 language-validation-hours = óra
 language-validation-progress = Ellenőrzési folyamat
-
-## Languages
-
 contribute = Közreműködés
 get-involved-button = Kapcsolódjon be
 get-involved-title = Közreműködés a(z) { $lang } nyelvben

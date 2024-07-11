@@ -15,10 +15,7 @@ localized = Превод
 sentences = Изречения
 language-validation-hours = Часa
 language-validation-progress = Напредък на валидирането
-
-## Languages
-
-contribute = Как да помогнете
+contribute = Помогнете
 get-involved-button = Включете се
 get-involved-title = Допринасяне към превода на { $lang } език
 get-involved-text = Благодарим ви за проявения интерес към превода на { $lang }. Работим усилено, за да подготвим всеки един език за старта и държим екипите в течение по електронна поща. Ако искате да се включите, молим ви да оставите вашия електронен адрес по-долу.

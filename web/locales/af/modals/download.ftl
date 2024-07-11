@@ -7,4 +7,3 @@ download-form-email =
     .value = Dankie, ons sal jou kontak.
 download-back = Keer Terug na Common Voice-datastelle
 download-no = Nee, Dankie
-

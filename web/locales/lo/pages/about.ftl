@@ -151,3 +151,5 @@ about-playbook-how-project-governance-content-5 = ມູນຄ່າແລະກ
 about-playbook-how-project-governance-content-6 = ຄວາມຮັບຜິດຊອບເຊິ່ງກັນແລະກັນ.
 about-playbook-how-project-governance-content-7 = <governanceLink>ອ່ານເພີ່ມເຕີມກ່ຽວກັບວິທີທີ່ພວກເຮົາຖືກປົກຄອງ</governanceLink>
 
+## How is Common Voice funded
+

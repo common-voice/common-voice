@@ -33,4 +33,3 @@ demo-listen-subtitle = Pripravený prispieť?
 
 demo-dashboard-card-header = Osobné informačné panely vás informujú o pokroku jednotlivcov a komunity.
 demo-dashboard-card-body = Pre každú vytvorenú hlasovú nahrávku a každú overenú zvukovú nahrávku sa panely vášho účtu aktualizujú, aby odrážali váš najnovší pokrok v každom jazyku, do ktorého prispievate. Áno, môžete prispieť aj do viacerých.<br/><br/> Pomocou informačných panelov sledujte svoje štatistiky, zistite, ako sa vám darí spolu s ostatnými v komunite, a stanovte si denné alebo týždenné ciele prispievania.
-

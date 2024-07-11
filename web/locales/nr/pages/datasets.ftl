@@ -55,11 +55,8 @@ more = Okungezelelweko
 close = Vala
 download = Dawunilowuda
 dataset-version = Umbono
-
 data-download-singleword-title = Dawuniloda iGama Linye Olifunako
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
-## Data
-
 data-download-button = Dawunilowuda ihlelo le-Common Voice
 data-download-yes = Iye
 data-download-deny = Awa

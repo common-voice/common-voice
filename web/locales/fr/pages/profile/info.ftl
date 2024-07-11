@@ -78,4 +78,3 @@ variant-contribution-option-1 = Afficher uniquement les phrases et les échantil
 variant-contribution-option-2 = Afficher les phrases et les échantillons de toutes les variantes de ma langue
 variant-contribution-warning-title = ⓘ Les phrases et les échantillons n’ont pas encore tous une étiquette de variante !
 variant-contribution-warning-subtitle = Si vous rencontrez des difficultés à contribuer, vous pouvez revenir à l’affichage de l’ensemble du contenu dans votre langue à tout moment.
-

@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = U tijeku
@@ -16,10 +13,7 @@ language-search-input =
 language-speakers = Govornika
 localized = Lokalizirano
 sentences = Rečenice
-
-## Languages
-
-contribute = Doprinesi
+contribute = Doprinesite
 get-involved-button = Uključi se
 get-involved-title = Doprinesi jeziku { $lang }
 get-involved-text = Zahvaljujemo na tvom interesu, doprinositi lokalizaciji za { $lang }. Ulažemo puno truda da svi jezici postanu spremni za produkciju i da timove informiramo putem e-maila. Ako želiš sudjelovati, dolje upiši svoju e-adresu.

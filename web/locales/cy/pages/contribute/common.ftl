@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Cliciwch
 action-tap = Tapiwch
-## Languages
-
 contribute = Cyfrannu
 review = Adolygu
 skip = Hepgor
@@ -151,4 +147,3 @@ contribution-just-unsure-title = Dal Ddim yn Siŵr?
 contribution-just-unsure-description = Os dewch chi ar draws rhywbeth nad yw'r canllawiau hyn yn ei gynnwys, defnyddiwch eich synnwyr cyffredin. Os nad ydych yn gallu penderfynu go iawn, defnyddiwch y botwm hepgor a mynd ymlaen i'r recordiad nesaf.
 see-more = <chevron></chevron>Gweld rhagor
 see-less = <chevron></chevron>Gweld llai
-

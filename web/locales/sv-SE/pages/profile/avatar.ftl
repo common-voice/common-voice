@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Ladda upp en bildfil
 browse-file = Dra och släpp eller <browseWrap>Bläddra</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Den valda filen är för stor
 avatar-uploaded = Avatar uppladdad
 max-file-size = max { $kb } kb
 remove-avatar = Ta bort avatar
-

@@ -168,7 +168,6 @@ share-text = Bantu ajari mesin bagaimana manusia berbicara, sumbangkan suara And
 link-copied = Tautan Disalin
 back-top = Kembali ke Atas
 logout = Keluar
-
 stayintouch = Kami dari Mozilla sedang membangun sebuah komunitas pada teknologi suara. Kami ingin selalu terhubung dengan pembaruan, sumber-sumber data baru dan mendengarkan lebih banyak lagi tentang bagaimana Anda menggunakan data ini.
 privacy-info = Kami menjanjikan penanganan informasi Anda dengan hati-hati. Pelajari lebih lanjut di <privacyLink>Pemberitahuan Privasi</privacyLink> kami.
 return-to-cv = Kembali ke Common Voice
@@ -182,4 +181,6 @@ email-opt-in-info-sub-with-challenge = Terima email seperti pengingat tantangan 
 email-opt-in-privacy-v2 = Dengan bersedia menerima surel, Anda menyatakan bahwa Anda OK dengan Mozilla untuk menangani informasi tersebut sesuai yang dijelaskan pada <privacyLink>Kebijakan Privasi<privacyLink> Mozilla.
 indicates-required = * Wajib diisi
 not-available-abbreviation = N/A
+
+## Donate banner
 

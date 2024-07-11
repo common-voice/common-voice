@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Haluatko kertoa, miksi haluat poistaa tekemäsi nauhoitukset?
 profile-form-delete = Poista profiili
-

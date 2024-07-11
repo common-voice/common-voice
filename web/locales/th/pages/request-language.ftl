@@ -10,4 +10,3 @@ request-language-form-info-explanation-list-2 = <isoCodeLink>รหัส ISO</i
 request-language-form-info-explanation-list-3 = ลิงค์ไปยังเว็บไซต์ที่ช่วยให้เราเข้าใจภาษา
 request-language-google-recaptcha-required = จำเป็นต้องใช้ reCAPTCHA หากคุณต้องการดำเนินการต่อ
 request-language-google-recaptcha-error = มีบางอย่างผิดปกติกับ reCAPTCHA โปรดลองอีกครั้ง
-

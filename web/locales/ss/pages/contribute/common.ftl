@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Chafata
 action-tap = Tsintsa
-## Languages
-
 contribute = Nikela
 skip = Yeca
 shortcuts = Tindlela tekujubelisa
@@ -33,6 +29,9 @@ target-segment-generic-card = Unikela ku target ye segment
 target-segment-first-banner = Sita ekwakheni i-target segment ya common voice yekucala ku { $locale }
 target-segment-add-voice = Ngeta Livi Lakho
 target-segment-learn-more = Fundza Kabanti
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -145,4 +144,3 @@ contribution-just-unsure-description =
     Uma ungakhoni kukhetsa, sicela uchubekele embili uchubeke kulocophiwe lokulandzelako.
 see-more = <chevron></chevron>Bona lokunengi
 see-less = <chevron></chevron>Bona lokuncane
-

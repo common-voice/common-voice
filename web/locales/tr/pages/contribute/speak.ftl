@@ -33,7 +33,6 @@ review-rerecord = Yeniden kaydet
 review-cancel = Gönderimi iptal et
 review-keep-recordings = Kayıtları tut
 review-delete-recordings = Kayıtlarımı sil
-
 review-terms = Common Voice’u kullandığınızda <termsLink>Koşullarımızı</termsLink> ve <privacyLink>Gizlilik İlkelerimizi</privacyLink> kabul etmiş olursunuz.
 terms-agree = Kabul ediyorum
 terms-disagree = Kabul etmiyorum

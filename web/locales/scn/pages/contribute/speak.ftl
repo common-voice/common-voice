@@ -33,7 +33,6 @@ review-rerecord = Riggistra arrè
 review-cancel = Sfai mmìu
 review-keep-recordings = Sarba i riggistrazziuna
 review-delete-recordings = Cancella i me riggistrazziuna
-
 review-terms = Usannu Common Voice, sì d'accordu chî nostri <termsLink>cunnizziuna d'usu</termsLink> e u nostru <privacyLink>abbisu di privatizza</privacyLink>
 terms-agree = Sugnu d'accordu
 terms-disagree = Nun sugnu d'accordu

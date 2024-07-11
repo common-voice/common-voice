@@ -69,4 +69,3 @@ username-email-not-demographic = Ang iyong username at email ay hindi maiuugnay 
 welcome-staff = Mabuhay ang mga kawani ng { $company }!
 login-company = Log In / Sign Up with { $company } email
 read-more-about = Magbasa pa sa aming About page
-

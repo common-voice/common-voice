@@ -226,7 +226,6 @@ link-copied = Saite nūkopāta
 back-top = Atpakaļ iz augšu
 logout = Beigt dorbu
 donate = Pazīdoj
-
 stayintouch = Mes Mozilla taisom kūpīnu bolss tehnologeju jūmā. Mes grybātu saglobuot kontaktus ar jums, lai informātu jius par jaunumim i dabuotu informaceju par tū, kai jius lītojat ite daīmamuos datu kūpys.
 privacy-info = Mes sūlejam reikuotīs ar jiusu informaceju uzmaneigi. Skaitit vaira myusu <privacyLink>privatuma politikā</privacyLink>.
 return-to-cv = Atsagrīzt pi Common Voice
@@ -240,7 +239,8 @@ email-opt-in-info-sub-with-challenge = Sajemit e-postus par saceņseibom voi pas
 email-opt-in-privacy-v2 = Izalosūt sajimt e-posta ziņuojumus, jius asat mīrā, ka Mozilla apstruoduos tūs tai, kai tys ir nūruodeits Mozilla <privacyLink>privatuma politikā<privacyLink>.
 indicates-required = * Obligatī lauki
 not-available-abbreviation = N/P
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Izavielejit volūdu/lokalizaceju

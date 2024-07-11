@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = کلیک
 action-tap = لێدان
-## Languages
-
 contribute = بەشداری
 review = پێدابچۆوە
 skip = تێپەڕاندن
@@ -124,4 +120,3 @@ contribution-reader-effects-description = زۆربەی تۆمارەکان ئەو
 contribution-just-unsure-title = دڵنیا نیت؟
 see-more = <chevron></chevron>زیاتر ببینە
 see-less = <chevron></chevron>کەمتر ببینە
-

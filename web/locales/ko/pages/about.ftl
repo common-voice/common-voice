@@ -144,3 +144,5 @@ about-playbook-how-project-governance-content-5 = 가치와 인정.
 about-playbook-how-project-governance-content-6 = 상호 책임.
 about-playbook-how-project-governance-content-7 = <governanceLink>관리 방식에 대해 자세히 살펴 보세요.</governanceLink>
 
+## How is Common Voice funded
+

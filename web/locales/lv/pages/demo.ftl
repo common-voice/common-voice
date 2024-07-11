@@ -33,4 +33,3 @@ demo-listen-subtitle = Šis taču ir labs brīdis palīdzēt, vai ne?
 
 demo-dashboard-card-header = Informācijas paneļi sniedz jums jaunāko informāciju par jūsu un kopienas progresu.
 demo-dashboard-card-body = Pēc katra ierakstītā teikuma un pēc katra pārbaudītā ieraksta jūsu konta informācijas paneļi tiek atjaunināti, lai atspoguļotu jūsu jaunākos sasniegumus katrā valodā, kurā veicat ieguldījumu. Jā, jūs varat dot ieguldījumu vairāk nekā vienā valodā!<br/><br/> Izmantojiet informācijas paneļus, lai sekotu līdzi savai statistikai, redzētu, kā jums veicas kopā ar citiem kopienas locekļiem, un iestatītu ikdienas vai iknedēļas ieguldījumu mērķus.
-

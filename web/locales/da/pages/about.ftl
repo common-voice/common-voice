@@ -149,4 +149,3 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Læs mere om, 
 ## How is Common Voice funded
 
 about-playbook-how-funded = Hvordan er Common Voice finansieret?
-

@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Eikutu
 action-tap = Jeporavo
-## Languages
-
-contribute = Eipytyvõ
+contribute = Ñepytyvõ
 review = Hechajey
 skip = Jepo
 shortcuts = Mbopya’eha
@@ -149,4 +145,3 @@ contribution-just-unsure-title = ¿Nahekorasãi?
 contribution-just-unsure-description = Ejuhúramo ko’ã pauta ndojaho’íriva, evota reñamindu’uhaichaite. Ndaikatúiramo añetehápe eiporavo, eiporu pe votõ jepoha ha eku’ejey ambue ñeñongatu ndive.
 see-more = <chevron></chevron>Ehechave
 see-less = <chevron></chevron>Ehecha’ive
-

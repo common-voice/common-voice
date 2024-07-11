@@ -66,4 +66,3 @@ help-variants = Aɗa sokli ballal seeɗa e caltuɗe?
 help-variants-explanation =
     Caltuka ko haala keeriika  - wano kaaleteeka e diiwaan keeriiɗo maa renndo.
     Sahaaji ena wiyee ngaddiin.
-

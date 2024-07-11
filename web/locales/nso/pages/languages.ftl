@@ -15,10 +15,7 @@ localized = Lekanyeditšwego
 sentences = Mafoko
 language-validation-hours = Diiri
 language-validation-progress = Kgonthišišo ya Tšwelopele
-
-## Languages
-
-contribute = Thuša
+contribute = Neela
 get-involved-button = Akaretša
 get-involved-title = Neela go { $lang }
 get-involved-text =

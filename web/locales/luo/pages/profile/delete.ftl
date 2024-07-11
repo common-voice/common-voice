@@ -4,4 +4,3 @@ delete-q = Bende idwaroni duondi misemaki mondo oruchi, koso diher mondo okan gi
 keep = Kan
 remove = gol
 profile-form-delete = Gol Ranginy maga
-

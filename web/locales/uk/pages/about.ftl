@@ -151,4 +151,3 @@ about-playbook-how-funded = Як фінансується Common Voice?
 about-playbook-how-funded-content-1 = Common Voice — це проєкт Mozilla Foundation, US 501c3. Зараз він повністю фінансується за рахунок <philantropicGrantLink>благодійних грантів</philantropicGrantLink> і допомоги людей з усього світу.
 about-playbook-how-funded-content-2 = Постійне розміщення та випуск наборів даних, удосконалення платформи та виконання <africaMradiLink>програм спільноти</africaMradiLink> коштують чималих грошей.
 about-playbook-how-funded-content-3 = Якщо ви або ваша організація бажаєте підтримати проєкт, ви можете зробити <donateLink>внесок</donateLink> або зв'язатися з нашою командою партнерства за адресою <emailFragment>commonvoice@mozilla.com</emailFragment>.
-

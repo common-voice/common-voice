@@ -10,4 +10,3 @@ download-request-refresh-button = Refreŝigi
 download-request-modal-title = Elŝutaj ligiloj
 download-request-link-text = Zip #{ $offset } de { $total }
 download-request-metadata-link = Teksto de frazo
-

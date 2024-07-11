@@ -33,4 +33,3 @@ demo-listen-subtitle = Redo att bidra?
 
 demo-dashboard-card-header = Personliga översikten håller dig uppdaterad om individuella och gemensamma framsteg.
 demo-dashboard-card-body = För varje donerat röstklipp och validerat ljudklipp uppdateras översikten för att återspegla dina senaste framsteg på varje språk du bidrar till. Ja, du kan bidra till mer än ett!<br/><br/> Använd översikten för att spåra din statistik, se hur du arbetar tillsammans med andra i gemenskapen och ställ in dagliga eller veckovisa bidragsmål.
-

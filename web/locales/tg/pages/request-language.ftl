@@ -1,1 +1,2 @@
-    .label = Почтаи электронӣ
+## Request Language Pages
+

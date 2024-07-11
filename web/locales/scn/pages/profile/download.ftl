@@ -28,4 +28,3 @@ download-request-modal-description = Cca cci sunnu i lijami pi scarricari i to p
 download-request-link-text = ZIP #{ $offset } di { $total }
 download-request-metadata-link = Testu dâ frasi
 download-request-link-single = Poi macari cupiari e ncuḍḍari i nnirizzi diretti nnô to manijaturi dî scarricamenti prifirutu. Scàdinu nta 12 uri, ma po turnari arrè nna sta pàggina pi giniralli arrè quannu voi.
-

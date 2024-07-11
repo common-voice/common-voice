@@ -38,4 +38,3 @@ request-language-success-list-3 =
 request-language-error =
     Ikatu nog̃uahẽikuri pe nemba’ejerure. Emboukuaa ñanduti veve oréve
     <emailLink>{ $email }</emailLink>-pe ha uperire roñe’ẽta nendive.
-

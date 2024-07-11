@@ -18,4 +18,3 @@ request-language-success-heading = የቐንየልና! ብዛዕባ ሓድሽ �
 request-language-success-list-1 =
     ኣብ ሓጺር ግዜ መብርሂ ዝህብ ኢመይል ክመጸኩም ይግባእ።
     ቋንቋኻ ናብ Common Voice ንኽውሰኽ ዝሕግዙ ስጉምትታት
-

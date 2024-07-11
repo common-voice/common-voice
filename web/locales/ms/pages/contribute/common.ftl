@@ -1,8 +1,4 @@
-## Contribution
-
 action-click = Klik
-## Languages
-
 contribute = Menyumbang
 skip = Langkau
 shortcuts = Pintasan
@@ -104,4 +100,3 @@ contribution-reader-effects-title = Kesan Pembaca
 contribution-just-unsure-title = Tidak pasti?
 see-more = <chevron> </chevron> Lihat lagi
 see-less = <chevron></chevron>Lihat kurang
-

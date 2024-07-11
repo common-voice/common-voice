@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = ᱚᱛᱟᱭ ᱢᱮ
 action-tap = ᱴᱤᱯᱟᱹᱣ
-## Languages
-
-contribute = ᱮᱱᱮᱢ
+contribute = ᱮᱱᱮᱢ ᱢᱮ
 skip = ᱟᱲᱟᱜ
 shortcuts = ᱥᱚᱴᱠᱚᱴ
 clips-with-count-pluralized =
@@ -145,4 +141,3 @@ contribution-just-unsure-title = ᱠᱷᱟᱹᱞᱤ ᱚᱱᱤᱥᱪᱤᱛ ᱜᱮ
 contribution-just-unsure-description = ᱡᱩᱫᱤ ᱟᱢ ᱱᱚᱠᱟ ᱵᱩᱡᱷᱟᱹᱣᱮᱫᱟᱢ ᱡᱮ ᱡᱟᱦᱟᱸ ᱛᱤᱱᱟᱹᱜ ᱫᱤᱥᱟᱹᱱᱤᱨᱥᱮᱫ ᱛᱮ ᱵᱟᱹᱱᱩᱜᱼᱟ ᱢᱮᱱᱠᱷᱟᱱ, ᱫᱟᱭᱟᱠᱟᱛᱮ ᱵᱮᱥ ᱵᱩᱫᱷᱤ ᱛᱮ ᱣᱚᱴ‌ᱮᱢᱚᱜ ᱢᱮ᱾ ᱡᱩᱫᱤ ᱟᱢ ᱵᱟᱝ ᱵᱩᱡᱷᱟᱹᱣ ᱫᱟᱲᱮᱭᱟᱜ ᱠᱷᱟᱱ ᱫᱚᱢ, ᱥᱠᱤᱞ ᱵᱩᱛᱟᱹᱢ ᱵᱮᱵᱷᱟᱨ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ ᱟᱨ ᱦᱟᱹᱡᱩᱜ ᱠᱟᱱ ᱨᱮᱠᱚᱰᱤᱝ ᱨᱮ ᱪᱟᱞᱟᱣ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ᱾
 see-more = <chevron></chevron>ᱰᱷᱮᱨ ᱧᱮᱞ
 see-less = <chevron></chevron>ᱠᱚᱢ ᱧᱮᱞ ᱢᱮ
-

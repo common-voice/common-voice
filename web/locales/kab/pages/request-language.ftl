@@ -18,4 +18,3 @@ request-language-success-heading = Tanemmirt! Tuzneḍ-d assuter amaynut n tutla
 request-language-success-list-1 =
     Ilaq ad tremseḍ imayl ideg ara d-ttwasegzunt
     takkayin ɣef wamek ara ternuḍ tutlayt-ik·im ɣer Common Voice
-

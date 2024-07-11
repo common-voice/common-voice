@@ -1,1 +1,14 @@
-    .label = Э-мэйл
+## DemoLayout
+
+
+## Demo Datasets
+
+
+## Demo Account
+
+
+## Demo Contribute
+
+
+## Demo Dashboard
+

@@ -15,9 +15,6 @@ localized = Traduciuti
 sentences = Frasi
 language-validation-hours = Uri
 language-validation-progress = Prugressu dâ validazzioni
-
-## Languages
-
 contribute = Cuntribbuisci
 get-involved-button = Cullàbbura cu nuiautri
 get-involved-title = Cuntribbuisci cû { $lang }

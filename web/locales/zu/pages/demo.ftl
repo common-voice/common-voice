@@ -33,4 +33,3 @@ demo-listen-subtitle = Usulungele ukufaka isandla?
 
 demo-dashboard-card-header = Amadeshibhodi omuntu siqu akugcina unolwazi lwakamuva ngenqubekelaphambili yomuntu ngamunye kanye nomphakathi.
 demo-dashboard-card-body = Zonke iziqephu eziqoshiwe zamazwi ezinikelwe nazo zonke eziqinisekisiweyo, i-akhawonti yakho iyabuykezwa ukuzindla kwinqubekelaphambili kulelo nalelo limi onikele kulo. Yebo, unganikela kwizilimi eziningi!<br/><br/> Sebenzisa amadeshbhodi ukulandelela inqubekelaphambili yakho, ubheke ohambisana nabo emphakathini, zibekele imigomo yamalanga noma yezinsuku zonke.
-

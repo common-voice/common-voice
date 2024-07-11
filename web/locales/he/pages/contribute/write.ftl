@@ -1,6 +1,6 @@
-write = כתיבה
 ## WRITE PAGE
 
+write = כתיבה
 write-instruction = הוסיפו <icon></icon> משפט המצוי בנחלת הכלל
 write-page-subtitle = משפטים שנתרמו כאן יתווספו למערך נתונים פומבי ברישיון CC0.
 sentence =
@@ -88,4 +88,3 @@ file-invalid-type = הקובץ מסוג לא מתאים
 file-too-large = הקובץ גדול מידי
 file-too-small = הקובץ קטן מידי
 too-many-files = יותר מידי קבצים
-

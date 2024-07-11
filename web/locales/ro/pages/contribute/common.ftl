@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Dă clic pe
 action-tap = Atinge
-## Languages
-
 contribute = Contribuie
 skip = Sari peste
 shortcuts = Comenzi rapide
@@ -31,6 +27,9 @@ target-segment-first-card = Contribui la primul nostru segment-țintă
 target-segment-first-banner = Ajută-ne să creăm primul segment-țintă Common Voice în { $locale }
 target-segment-add-voice = Adaugă-ți vocea
 target-segment-learn-more = Află mai multe
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -81,4 +80,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

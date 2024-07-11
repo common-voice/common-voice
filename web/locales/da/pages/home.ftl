@@ -76,4 +76,3 @@ help-contribute = Du kan hjælpe med at bygge et mangfoldigt open source-datasæ
 login-company = Log ind / Tilmeld dig med en mailadresse fra { $company }
 profile-not-required = Det er ikke påkrævet at have en profil for at bidrage, men vil gøre det nemmere
 read-more-about = Læs mere på vores Om-side
-

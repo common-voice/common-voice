@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = ꯅꯝꯕ
 action-tap = ꯊꯦꯡꯕ
-## Languages
-
 contribute = ꯁꯔꯨꯛꯌꯥꯕ
 skip = ꯆꯣꯡꯉꯨ
 shortcuts = ꯑꯇꯦꯟꯕꯁꯤꯡ
@@ -139,4 +135,3 @@ contribution-just-unsure-title = ꯁꯣꯌꯗꯅꯥ ꯂꯩꯕ꯭ꯔꯥ?
 contribution-just-unsure-description = ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯆꯠꯅꯀꯥꯡꯂꯣꯟꯁꯤꯡ ꯑꯁꯤꯅꯥ ꯀꯣꯟꯁꯤꯟꯗꯕꯥ ꯋꯥꯐꯝ ꯑꯃꯥ ꯂꯥꯛꯄꯥ ꯇꯥꯔꯕꯗꯤ, ꯆꯥꯟꯕꯤꯗꯨꯅꯥ ꯅꯍꯥꯛꯀꯤ ꯈ꯭ꯋꯥꯏꯗꯒꯤ ꯐꯕꯥ ꯋꯥꯔꯦꯞꯀꯤ ꯃꯇꯨꯡ ꯏꯟꯅꯥ ꯚꯣꯠ ꯊꯥꯗꯕꯤꯌꯨ ꯫ ꯀꯔꯤꯒꯨꯝꯕꯥ ꯅꯍꯥꯛꯅꯥ ꯇꯁꯦꯡꯅꯥ ꯋꯥꯔꯦꯞ ꯂꯧꯕꯥ ꯉꯝꯗ꯭ꯔꯕꯗꯤ, ꯁ꯭ꯀꯤꯞ ꯕꯇꯟ ꯑꯗꯨ ꯁꯤꯖꯤꯟꯅꯧ ꯑꯃꯁꯨꯡ ꯃꯊꯪꯒꯤ ꯔꯦꯀꯣꯔꯗꯇꯥ ꯆꯠꯂꯨ ꯫
 see-more = <chevron></chevron>ꯍꯦꯟꯅ ꯌꯦꯡꯉꯣ
 see-less = <chevron></chevron>ꯈꯖꯤꯛꯇꯪ ꯌꯦꯡꯉꯨ
-

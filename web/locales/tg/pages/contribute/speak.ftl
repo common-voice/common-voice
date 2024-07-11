@@ -11,6 +11,5 @@ review-rerecord = Аз нав сабт кардан
 review-cancel = Бекор кардани пешниҳод
 review-keep-recordings = Нигоҳ доштани сабтҳо
 review-delete-recordings = Нест кардани сабтҳои ман
-
 terms-agree = Ман розӣ
 terms-disagree = Ман розӣ нестам

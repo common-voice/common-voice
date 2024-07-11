@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Dosyeya wêneyê bar bike
 browse-file = Biherikîne û bihêle an jî <browseWrap>Bibîne</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Dosyeya hatiye bijartin pir mezin e
 avatar-uploaded = Avatar hat lêbarkirin
 max-file-size = herî zêde { $kb }kb
 remove-avatar = Avatarê Rake
-

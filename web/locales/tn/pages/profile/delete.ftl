@@ -10,4 +10,3 @@ why-delete-recordings =
     
     A o ka re bolelela gore ke eng o batla gore dikgatiso tsa gago di phimolwe?
 profile-form-delete = Phimola Porofaele
-

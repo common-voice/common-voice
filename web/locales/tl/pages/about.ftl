@@ -58,6 +58,7 @@ about-playbook-how-localize-content-5 = Panoorin ang video explainer para tumulo
 
 about-playbook-how-add-sentences = Paano magdagdag ng pangungusap?
 about-playbook-how-add-sentences-content-3 = Maaari mong gamitin ang <scraperLink>Sentence extractor</scraperLink> para magamit ang mga maiikling pangungusap mula sa Wikipedia.
+
 ## How to record quality
 
 about-playbook-how-record-quality = Paano ako magre-record ng mataas na kalidad na voice clip?
@@ -89,4 +90,6 @@ about-playbook-how-project-governance-content-3 = Pribasiya, seguridad at transp
 about-playbook-how-project-governance-content-4 = Pakikilahok ng komunidad at paggawa ng desisyon.
 about-playbook-how-project-governance-content-5 = Halaga at pagkilala.
 about-playbook-how-project-governance-content-6 = Pananagutan sa kapwa.
+
+## How is Common Voice funded
 

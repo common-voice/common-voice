@@ -7,4 +7,3 @@ download-form-email =
     .value = tlasohcamatictzin, ti monhnotstosqueh
 download-back = ximocuipa ichin tlanaoatil de Common Voice
 download-no = Amo, tlasohcamatictzi
-

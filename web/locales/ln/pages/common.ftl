@@ -28,7 +28,6 @@ share-text = Salisá biso toteya bamasini ndenge bato ya solosolo balobaka, pesa
 link-copied = Lien oyo esalemi kopi
 back-top = Zonga na likolo
 logout = Bima na libanda
-
 stayintouch = Biso na Mozilla tozali ko tonga bomoko nzinga nzinga ya mambi ma teknoloji. Toko linga ko zuaka bansango, bibakisi ya sika, mpe ko yoka mingi na oyo etali lolenge ozali ko salela mayebi oyo.
 privacy-info = To laki na ko salela angele na mayebi oyo etali yo. Tanga mingi likolo ya <privacyLink>Malako ya Sekele</privacyLink> na biso.
 return-to-cv = Zonga na Common Voice
@@ -41,3 +40,6 @@ email-opt-in-info-title = Kota na buku ya baimele ya Common Voice
 email-opt-in-info-sub-with-challenge = Zwá ba imele lokola makundoli ya mokakatano mpe mikano, bozongisi ya sika ya bokoli, mpe ba bulletins ya sango na ntina ya Common Voice.
 email-opt-in-privacy-v2 = Na ko ndima kozuaka baimele otatoli ete omoni mabé te mpona Mozilla ko salela mayebi oyo ndenge elimbolami na  <privacyLink>politiki ya sekele</privacyLink> ya Mozilla.
 not-available-abbreviation = Ezali te
+
+## Donate banner
+

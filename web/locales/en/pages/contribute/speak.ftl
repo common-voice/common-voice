@@ -33,7 +33,6 @@ review-rerecord = Re-record
 review-cancel = Cancel Submission
 review-keep-recordings = Keep the recordings
 review-delete-recordings = Delete my recordings
-
 review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
 terms-agree = I agree
 terms-disagree = I do not agree
@@ -50,14 +49,11 @@ thanks-for-voice-toast = Thank you for your voice information
 thanks-for-voice-toast-error = An error occurred submitting your voice information
 first-cta-gender-select-default-option = Select an option
 first-cta-gender-select-help-text =
-  .label = How would you describe your sex or gender?
-
+    .label = How would you describe your sex or gender?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Thank you for contributing your voice!
 second-cta-subtitle-text = With a profile, you can keep track of your activity and connect with a community of voice data contributors.
 already-have-an-account = Already have an account? <login>Log-In</login>
 create-profile-button = Create a profile
-
 # IMAGE TAGS
 img-alt-success-checkmark = success checkmark
-

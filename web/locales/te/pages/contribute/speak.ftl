@@ -32,7 +32,6 @@ review-rerecord = తిరిగి రికార్డ్ చేయి
 review-cancel = సమర్పణను రద్దు చేయండి
 review-keep-recordings = రికార్డింగులను ఉంచు
 review-delete-recordings = నా రికార్డింగులను తొలగించు
-
 review-terms = కామన్ వాయస్ వాడటం ద్వారా, మీరు మా <termsLink>నియమాలను</termsLink>, <privacyLink>గోప్యతా ప్రకటన</privacyLink>ను అంగీకరిస్తున్నారు
 terms-agree = నేను అంగీకరిస్తున్నాను
 terms-disagree = నేను అంగీకరించడం లేదు

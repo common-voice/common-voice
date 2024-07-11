@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Завантажити файл зображення
 browse-file = Перетягніть або <browseWrap>Огляд</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Обраний файл надто великий
 avatar-uploaded = Аватар вивантажено
 max-file-size = До { $kb }кб
 remove-avatar = Вилучити аватар
-

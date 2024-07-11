@@ -47,4 +47,3 @@ sc-criteria-item-5-2 =
     Uma lomusho ungalibambi lelizinga langenhla, sicela uchafate ;Reject; libhathini lelingesekudla. Uma
     ungkaciniseki, ungakweca futsi uchubekele kulokulandzelako.
 sc-criteria-item-6 = Uma uphelelwa imisho longayibuketa, sicela usisite sikweleke leminye!
-

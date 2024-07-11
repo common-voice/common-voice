@@ -11,8 +11,6 @@ language-search-input =
 language-speakers = ބަހުގެ އަހުލުވެރިން
 localized = ތަރުޖަމާކުރެވިފަ
 sentences = ޖުމްލަތައް
-## Languages
-
 contribute = ހުށަހަޅާ
 get-involved-button = ބައިވެރިވޭ
 get-involved-title = ދިވެހި ބަހައަށް  ހުށަހަޅާ

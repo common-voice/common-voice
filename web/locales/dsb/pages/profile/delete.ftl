@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Móžeće nam zdźělić, čehodla chceće swoje natočenja zhašeć?
 profile-form-delete = Profil wulašowaś
-

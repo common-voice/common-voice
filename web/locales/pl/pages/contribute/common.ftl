@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Kliknij
 action-tap = Stuknij
-## Languages
-
-contribute = Weź udział
+contribute = Nagraj
 skip = Pomiń
 shortcuts = Skróty
 clips-with-count-pluralized =
@@ -89,4 +85,3 @@ shortcut-vote-no = n
 
 see-more = <chevron></chevron>Więcej
 see-less = <chevron></chevron>Mniej
-

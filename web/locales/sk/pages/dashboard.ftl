@@ -122,4 +122,3 @@ validations =
         [few] overenia
        *[other] overení
     }
-

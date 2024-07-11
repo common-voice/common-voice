@@ -49,12 +49,6 @@ more = Иҵегь
 close = Иарктәуп
 download = Иҭагалатәуп
 dataset-version = Аверсиа
-
-## Error pages
-
-
-## Data
-
 data-download-button = Common Voice адырра ҭагалатәуп
 data-download-yes = Ааи
 data-download-deny = Мап

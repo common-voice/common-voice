@@ -33,7 +33,6 @@ review-rerecord = Regravar
 review-cancel = Cancelar ninvio
 review-keep-recordings = Mantener las gravacions
 review-delete-recordings = Eliminar las mías gravacions
-
 review-terms = En usar Common Voice, acceptas los nuestros <termsLink>Termins d'uso</termsLink> y la <privacyLink>Politica de privacidat</privacyLink>
 terms-agree = Soi d'alcuerdo
 terms-disagree = Soi en desacuerdo

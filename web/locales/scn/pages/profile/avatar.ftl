@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Càrrica na mmàggini
 browse-file = Trascina e lassa o <browseWrap>Scegghi</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = U pricu ca scigghisti è troppu granni
 avatar-uploaded = Àvatar carricatu
 max-file-size = Màssimu { $kb }kb
 remove-avatar = Leva àvatar
-

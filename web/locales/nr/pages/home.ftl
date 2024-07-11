@@ -102,4 +102,3 @@ help-contribute = Ungasiza ngemininingwana ehlukahlukeneko ekuthuthukiseni i-Com
 login-company = Thungela / Tlolisa nge-imeyili ye { $company }
 profile-not-required = Kuhle ukuba nephrofayili bona unikele nanyana kunjalo, qala ngenzasi ukuthi kubayini.
 read-more-about = Funda okwengeziweko ekhasini leMininingwana yekhasi
-

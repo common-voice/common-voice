@@ -1,3 +1,5 @@
+## Profile - Avatar
+
 browse-file-title = Зураг серверт илгээх
 browse-file = Чирч хуулах эсвэл <browseWrap>Харуулах</browseWrap>
 connect-gravatar = Gravatar-тай холбох

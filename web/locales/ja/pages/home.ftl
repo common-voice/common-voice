@@ -66,9 +66,6 @@ username-optin-public = ユーザー名を公開するか匿名にするか選�
 demographic-deidentified-clarity-2 = 任意で送信された統計データ (年齢、性別、言語、アクセントなど) がプロフィールで公開されることはなく、データセット内のアカウントにもリンクされません。個々の音声クリップは、より正確な分析を行う目的で統計データに関連付けられます。たとえば、研究者がトレーニングモデルを特定の統計セグメントに向けて利用する場合があります。
 username-email-not-demographic = あなたのユーザー名とメールアドレスは、発行されたデータに関連付けられることはありません。
 
-## Profile Download
-
-
 ## Landing
 
 welcome-staff = { $company } のスタッフを歓迎します！
@@ -76,4 +73,3 @@ help-contribute = Common Voice プロファイルを作成し、音声を提供�
 login-company = ログイン / { $company } メールでアカウント登録
 profile-not-required = アカウント登録は貢献に必須ではありませんが、役に立つでしょう
 read-more-about = 詳しくは Common Voice の概要ページをご覧ください
-

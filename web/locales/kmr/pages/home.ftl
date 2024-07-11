@@ -94,4 +94,3 @@ help-contribute = Ji bo avakirina komdaneyeke çavkanî vekirî, tu dikarî bi r
 login-company = Bi emaîla { $company } re têkeve / tomar bibe
 profile-not-required = Ji bo beşdarbûnê hewce nake tu profîlekê çêbikî lê çêkirina hesêb ew ê baştir be.
 read-more-about = Li ser rûpela me ya "Derbar"ê zêdetir bixwîne
-

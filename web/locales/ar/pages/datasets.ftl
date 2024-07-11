@@ -49,9 +49,6 @@ more = أكثر
 close = أغلِق
 download = نزّل
 dataset-version = الإصدارة
-
-## Data
-
 data-download-button = نزّل بيانات «الصوت للعموم»
 data-download-yes = نعم
 data-download-deny = لا

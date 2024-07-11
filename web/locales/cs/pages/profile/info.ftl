@@ -78,4 +78,3 @@ variant-contribution-option-1 = Zobrazit mi věty a ukázky ze všech variant v 
 variant-contribution-option-2 = Ukazujte mi pouze věty a ukázky z mé varianty
 variant-contribution-warning-title = ⓘ Zatím ne všechny věty a klipy mají přiřazen štítek Variant!
 variant-contribution-warning-subtitle = Pokud máte potíže s přispíváním, můžete kdykoli přepnout zpět na zobrazení veškerého obsahu pro svůj jazyk.
-

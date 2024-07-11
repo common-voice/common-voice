@@ -22,4 +22,3 @@ request-language-success-list-3 =
     komeges agoba achek eng betushek chebwane,ingololwech kobun<emailLink>{ $email }</emailLink>
     ak kiwalun!
 request-language-error = muuch komaginyoru tebut noto.Gaigai,sirwech email eng <emailLink>{ $email }</emailLink> ak kiwaluun!
-

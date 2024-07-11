@@ -1,1 +1,2 @@
-    .label = Taqoya'l
+## Request Language Pages
+

@@ -58,11 +58,8 @@ more = More
 close = Ka datugu
 download = Ka telesarize
 dataset-version = Wɛrisiyɔn
-
 data-download-singleword-title = Daɲɛ kelen laɲini yɔrɔ telesarse
 data-download-singleword-callout-v2 = Nin ye baarakɛcogo-ko-ɲɛnabɔli-yɔrɔ ye min kɔnɔ kunnafoniw bɛ sɔrɔ ka fanga di nimɔrɔ fɔlenw dɔnni ma ani ɔwɔ / ayi dɔnni.
-## Data
-
 data-download-button = Téléchargeur (Téléchargeur) ye Kumakan kunnafoniw minnu bɛ sɔrɔ mɔgɔw fɛ
 data-download-yes = Awɔ
 data-download-deny = Ayi

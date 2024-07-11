@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = ጠቅ ያድርጉ
 action-tap = ይንኩ
-## Languages
-
 contribute = ያበርክቱ
 review = ይገምግሙ
 skip = ዝለል
@@ -149,4 +145,3 @@ contribution-just-unsure-title = እርግጠኛ አይደሉም?
 contribution-just-unsure-description = እነዚህ መመሪያዎች የማይሸፍኑት ነገር ካጋጠመዎት፣ እባክዎ በእርስዎ ምርጥ ውሳኔ መሰረት ይምረጡ። በትክክል መወሰን ካልቻሉ የመዝለል አዝራሩን ይጠቀሙ እና ወደ ቀጣዩ ቅጂ ይሂዱ።
 see-more = <chevron></chevron>ተጨማሪ ይመልከቱ
 see-less = <chevron></chevron>ትንሽ ይመልከቱ
-

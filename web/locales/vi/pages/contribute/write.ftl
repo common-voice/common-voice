@@ -1,6 +1,6 @@
-write = Viết
 ## WRITE PAGE
 
+write = Viết
 write-instruction = Thêm <icon></icon> một câu thuộc phạm vi công cộng
 write-page-subtitle = Các câu được đóng góp ở đây sẽ được thêm vào bộ dữ liệu được cấp phép cc-0 có sẵn công khai.
 sentence =
@@ -89,4 +89,3 @@ file-invalid-type = Tập tin không hợp lệ
 file-too-large = Tập tin quá lớn
 file-too-small = Tập tin quá nhỏ
 too-many-files = Quá nhiều tập tin
-

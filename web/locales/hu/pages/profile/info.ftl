@@ -73,4 +73,3 @@ help-variants-explanation = A változatok egy nyelv sajátos formáját jelentik
 help-sex-or-gender-changes = Segítségre van szüksége a nem vagy nemi identitás változásával kapcsolatban?
 help-sex-or-gender-changes-explanation = Több lehetőséget kínálunk, hogy az emberek nemükről vagy nemi identitásukról többféle választási lehetőség közül választhassanak. Írja le magát az Ön számára legtermészetesebb módon. <learnMoreLink>Tudjon meg többet a biológiai és a társadalmi nemről alkotott megközelítésünkről.</learnMoreLink>
 variant-contribution-help = Egy nyelv vagy nyelvcsalád változatai nagyon eltérőek lehetnek. Ha nehézségei vannak egyes változatokkal, akkor itt módosíthatja a beállításait.
-

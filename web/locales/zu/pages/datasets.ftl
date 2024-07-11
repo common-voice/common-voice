@@ -55,11 +55,8 @@ more = Okwengeziwe
 close = Vala
 download = Downloda
 dataset-version = Inguqulo
-
 data-download-singleword-title = Loda Ingxenye Yethagethi Yegama Elilodwa
 data-download-singleword-callout-v2 = Lena ingxenye yokusetshenziswa eqhutshwayo equkethe idatha ukuze inike amandla ukubonwa kwedijithi ekhulunyiwe kanye nokutholwa yebo / cha.
-## Data
-
 data-download-button = Loda Idatha yeCommon Voice
 data-download-yes = Yebo
 data-download-deny = Cha

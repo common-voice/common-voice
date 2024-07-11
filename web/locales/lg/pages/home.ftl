@@ -67,9 +67,6 @@ recordings-and-locale-public = Omuwendo gw'ebyo by'olikodinze n'ennimi zz'owadey
 username-optin-public = Osobola okulonda okulaga abalala erinnya ly'okozesa oba okulikweka.
 username-email-not-demographic = Erinnya lyokozesa ne email tebijakukolaganyizibwa ne bwiino efulumidwa.
 
-## Profile Download
-
-
 ## Landing
 
 welcome-staff = Tukwaniriza{ $company } mukozi waffe!
@@ -77,4 +74,3 @@ help-contribute = Osobola okuyamba okuzimba dataset erina amaloboozi ag'enjawulo
 login-company = Log in/ sign up ne { $company } email
 profile-not-required = Tekyetagisibwa kuba na profayilo okuyamba wadde kya mugaso, laba lwaki wansi awo.
 read-more-about = Soma ebisingawo ku page yaffe ey'Ebitukwatako.
-

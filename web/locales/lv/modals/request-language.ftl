@@ -7,7 +7,4 @@ request-language-success-title = Valodas pieprasījums ir veiksmīgi iesniegts, 
 request-language-success-content = Mēs nosūtīsim vairāk informācijas par to, kā ātri pievienot valodu Common Voice.
 select-language = Uzstādiet valodu...
 other-language = Cita valoda
-
-## General
-
 yes-receive-emails = Jā, sūtiet man e-pastus. Es vēlos saņemt informāciju par Common Voice projektu.

@@ -29,4 +29,3 @@ demo-listen-subtitle = Olikana wii nikhalihe?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Mukhalelo wa atthu sinnokhaliherani osuwela itthu ni opwaha wa khula mutthu ni wa muttetthe.
-

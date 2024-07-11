@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = ڪلڪ ڪريو
 action-tap = ٽيپ ڪريو
-## Languages
-
-contribute = حصو ڏيو
+contribute = تعاون ڪريو
 review = نظر ثاني
 skip = ڇڏي ڏيو
 shortcuts = شارٽ ڪٽ
@@ -149,4 +145,3 @@ contribution-just-unsure-title = صرف بي يقيني؟
 contribution-just-unsure-description = جيڪڏهن توهان ڪنهن شيءِ ۾ اچو ته اهي هدايتون نه ڍڪينديون آهن، مهرباني ڪري پنهنجي بهترين فيصلي جي مطابق ووٽ ڏيو. جيڪڏهن توهان واقعي فيصلو نٿا ڪري سگهو، بٽڻ کي استعمال ڪريو ڇڏي ڏيو ۽ ايندڙ رڪارڊنگ تي وڃو.
 see-more = <chevron></chevron>وڌيڪ ڏسو
 see-less = <chevron></chevron>گهٽ ڏسو
-

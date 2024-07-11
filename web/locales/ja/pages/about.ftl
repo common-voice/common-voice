@@ -67,3 +67,8 @@ about-playbook-how-grow-language-content-4 = ソーシャルメディア
 
 about-playbook-how-access-dataset = データセットにアクセスして使用するには？
 
+## How are decisions made
+
+
+## How is Common Voice funded
+

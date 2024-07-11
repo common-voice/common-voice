@@ -11,3 +11,8 @@ demo-account = ਖਾਤਾ
 
 demo-account-card-header = ਹਾਲਾਂਕਿ ਯੋਗਦਾਨ ਪਾਉਣ ਲਈ ਖਾਤਾ ਨਹੀਂ ਚਾਹੀਦਾ ਹੈ, ਪਰ ਇਹ ਮਦਦਗਾਰ ਹੋ ਸਕਦਾ ਹੈ।
 
+## Demo Contribute
+
+
+## Demo Dashboard
+

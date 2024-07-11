@@ -7,4 +7,3 @@ download-form-email =
     .value = Бузныг, мах контакты баззайдзыстæм.
 download-back = Раздæх Common Voice-ы рардты хæрхтæм
 download-no = Нæ, бузныг
-

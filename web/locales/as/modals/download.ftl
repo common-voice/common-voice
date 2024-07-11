@@ -7,4 +7,3 @@ download-form-email =
     .value = ধন্যবাদ, আমি যোগাযোগ কৰিম।
 download-back = কমন ভইচ ডেটাছেটলৈ ঘূৰি যাওক
 download-no = নালাগে ধন্যবাদ
-

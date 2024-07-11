@@ -76,3 +76,5 @@ about-playbook-how-grow-language-content-6 = Kesparow ha rosweythyow
 
 about-playbook-how-project-governance-content-3 = Privetter, diogeledh hag ylynder.
 
+## How is Common Voice funded
+

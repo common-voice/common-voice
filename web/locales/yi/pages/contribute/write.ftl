@@ -1,6 +1,6 @@
-write = שרייבט
 ## WRITE PAGE
 
+write = שרייבט
 sentence =
     .label = זאץ
 citation =
@@ -12,4 +12,6 @@ how-to-cite = וויאזוי ציטיר איך
 guidelines = פארשריפטן
 contact-us = קאנטאקט אונז
 add-sentence-success = 1 זאץ געזאמלט
+
+## BULK SUBMISSION 
 

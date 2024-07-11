@@ -201,7 +201,6 @@ share-text = Thusani u gudisa mitshini uri vhathu vhavhukuma vha ambisa hani, ni
 link-copied = Ḽinki yo Kopiwa
 back-top = Humelani nṱha
 logout = Ḽogani Out
-
 stayintouch = Riṋe vha ha Mozilla ri khou livhisa ṱhogomelo yashu kha u ita zwishumiswa zwa thekhinolodzhi zwi shumisaho ipfi. Ri ṱoḓa uri ri dzule ri na tshifhingani, ri na data source ntswa na u pfa zwo engedzeaho nga ha nḓila ine na khou shumisa yeneyi data.
 privacy-info = Ri fulufhedzisa u ṱhogomela zwidodombedza zwaṋu nga nḓila yavhuḓi. Vhalani nga vhuḓalo kha <privacyLink>u Tsireledza zwa Tshiphiri </privacyLink> zwashu.
 return-to-cv = Humelani kha Common Voice
@@ -215,7 +214,8 @@ email-opt-in-info-sub-with-challenge = Wanani milaedza nga email yo nonga khumbu
 email-opt-in-privacy-v2 = Nga u ṱanganedza uri ni ṱoḓa u wana dzi email ni tenda uri zwo luga uri Mozilla i fare zwidodombedzwa zwenezwi u ya nga nḓila ye zwa ṱalutshedzwa ngayo kha Mozilla’s <privacyLink>Poḽisi ya Tshiphiri</privacyLink>.
 indicates-required = Mitaladzi i re na hetshi tshiga(*) i ya ṱoḓea.
 not-available-abbreviation = N/A
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Nangani luambo

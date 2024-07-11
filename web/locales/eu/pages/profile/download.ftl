@@ -27,4 +27,3 @@ download-request-modal-title = Deskarga estekak
 download-request-modal-description = Hemen dituzu zure ZIP fitxategiak deskargatzeko estekak.
 download-request-link-text = { $offset }. ZIP fitxategia { $total }(e)tik
 download-request-metadata-link = Esaldiaren testua
-

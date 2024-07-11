@@ -33,4 +33,3 @@ demo-listen-subtitle = Naa no lugela u nikela?
 
 demo-dashboard-card-header = Dashboard yaṋu i ni sumbedza mvela phanḓa yaṋu na ya vhadzulapo.
 demo-dashboard-card-body = Kha kupiḓa kuṅwe na kuṅwe kwa ipfi kwo nikeliwaho, na odio iṅwe na iṅwe yo ambiwaho ya rweliwa ṱari, akhantu yaṋu i ḓo sumbedza mvelaphanḓa dza nyambo dzoṱhe dze na shela khadzo mulenzhe. Ee, zwi a konadzea u shela mulenzhe kha dzi fhiraho mbili!<br/><br/> Shumisani dashboard u itela u vhona zwe na ita, ni vhone nḓila ine na khou shuma ngayo ni tshi vhambedzwa na vhaṅwe vhuponi haṋu, ni ḓivhetshele tshipikwa tsha ḓuvha kana tsha vhege tsha u shela mulenzhe.
-

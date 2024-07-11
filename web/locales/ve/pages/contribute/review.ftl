@@ -45,4 +45,3 @@ sc-criteria-item-3 = Mitaladzi i tea u ambea.
 sc-criteria-item-4 = Aali mutaladzi wo swikelela ṱhoḓea, puṱedzani &quot;Approve&quot; bathane i re kha tshanḓa tsha uḽa.
 sc-criteria-item-5-2 = Arali mutaladzi u sa swikeleli ṱhoḓea dzi re afho nṱha, puṱedzani &quot;Reject&quot; gunubu i re kha tsha monde. Arali ni si na vhungoho ha uri mutaladzi a si wone, ni nga u pfukha na pfukela kha u no khou tevhela.
 sc-criteria-item-6 = Arali na fhelelwa nga mitaladzi ya u ṱolisisa, ri humbela uri ni ri thuse nga u kuvhanganya miṅwe mitaladzi minzhi!
-

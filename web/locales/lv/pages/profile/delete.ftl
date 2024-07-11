@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Vai jūs varat mums paziņot, kāpēc vēlaties, lai jūsu ieraksti tiktu dzēsti?
 profile-form-delete = Dzēst profilu
-

@@ -13,10 +13,7 @@ language-search-input =
 language-speakers = ᱨᱚᱲᱠᱩᱜ
 localized = ᱛᱚᱨᱡᱚᱢᱟ ᱦᱩᱭ
 sentences = ᱟᱭᱟᱛᱠᱚ
-
-## Languages
-
-contribute = ᱮᱱᱮᱢ
+contribute = ᱮᱱᱮᱢ ᱢᱮ
 get-involved-button = ᱥᱮᱞᱮᱫᱚᱜ ᱢᱮ
 get-involved-title = { $lang } ᱨᱮ ᱮᱱᱮᱢ ᱮᱢᱚᱜ ᱢᱮ
 get-involved-text =

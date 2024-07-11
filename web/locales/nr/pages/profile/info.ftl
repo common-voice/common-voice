@@ -74,4 +74,3 @@ help-accent = Utlhoga isizo ngokuphimisela?
 help-accent-explanation = Kunendlela obiza ngayo amagama. iya ngokuthi uhlala kuphi, ngiwaphi amanye amalimi okghona ukuwakhuluma nokunye okunengi. Ungafaka nanyana ngikuphi ukwaziswa ucabanga bona kuyatlhogeka la.
 help-variants = Utlhoga isizo ngemihlobohlobo?
 help-variants-explanation = Ukuhluka kwamalimi kuyingcenye yelimi - ngokwesibonelo kufakwa ngilabo abahlala eendaweni ezingafaniko emphakathini. Ngezinye iinkhathi lokho kubizwa ngokuthi ma-dialects.
-

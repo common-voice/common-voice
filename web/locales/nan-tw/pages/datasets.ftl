@@ -56,11 +56,8 @@ more = 更多
 close = 關閉
 download = 下載
 dataset-version = 版本
-
 data-download-singleword-title = 下載單字目標字串
 data-download-singleword-callout-v2 = 這是一個包含用來進行口述數字識別與是/否偵測的使用案例。
-## Data
-
 data-download-button = 下載 Common Voice 資料
 data-download-yes = 好
 data-download-deny = 不要

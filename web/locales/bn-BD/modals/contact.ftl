@@ -6,4 +6,3 @@ contact-form-name =
 contact-form-message =
     .label = বার্তা
 contact-required = *আবশ্যক
-

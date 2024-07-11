@@ -1,1 +1,2 @@
-    .label = Imeri
+## Request Language Pages
+

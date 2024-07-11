@@ -104,6 +104,7 @@ about-playbook-how-add-sentences = Ke tsenya mela jang?
 about-playbook-how-add-sentences-content-1 = <strong>Kgobokanyo ya Dipolelo</strong> ke sedirisiwa sa go kgobokanya le go netefatsa dipolelo tsa karolo ya batho botlhe. O tla <scAccountLink>tlhoka go dira akhaonto</scAccountLink>. Go tswa foo, tsenya puo ya gago mo <strong>Porofaeleng</strong> ya gago. O ka <strong>Tsenya</strong> dipolelo kgotsa wa <strong>Sekaseka</strong> dipolelo tse di tsentsweng mo nakong e e fetileng.
 about-playbook-how-add-sentences-content-2 = Dipolelo di tshwanetse go sekasekwa le go dumelelwa ke batho ba babedi gore di akarediwe mo Common Voice. O dira dikaelo tsa puo ya gago <languageGuidelinesLink>fano</languageGuidelinesLink>. Dipolelo di tshwanetse go nna mo <licenseLink>lefelong la botlhe</licenseLink> mme di nne kwa tlase ga mafoko a le 15. O ka kopa mong wa mokwalo gore a o dire <waiverLink>CC0 o dirisa thulaganyo ya rona ya go fetisa</waiverLink>, o bo o re romelela mo commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = O ka dirisa <scraperLink>sekgaoganya Mela</scraperLink> go lekanya mela e mekhutshwane mo Wikipedia.
+
 ## How to record quality
 
 about-playbook-how-record-quality = Ke rekota jang kgatiso ya lentswe ya maemo a a kwa godimo?
@@ -149,4 +150,6 @@ about-playbook-how-project-governance-content-4 = Go tsaya karolo le go dira dit
 about-playbook-how-project-governance-content-5 = Boleng le go lemogiwa.
 about-playbook-how-project-governance-content-6 = Maikarabelo a maphata ka bobedi.
 about-playbook-how-project-governance-content-7 = <governanceLink>Bala mo go oketsegileng ka ga go re re laolwa jang</governanceLink>
+
+## How is Common Voice funded
 

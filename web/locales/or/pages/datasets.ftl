@@ -55,10 +55,7 @@ close = ବନ୍ଦକରନ୍ତୁ
 download = ଡାଉନଲୋଡ଼
 dataset-version = ଭର୍ସନ
 clipboard-not-supported = କ୍ଲିପ୍ ବୋର୍ଡ ସମର୍ଥିତ ନୁହେଁ
-
 data-download-singleword-title = ଏକକ ଶବ୍ଦ ଲକ୍ଷ୍ୟ ବିଭାଗ ଡାଉନଲୋଡ୍ କରନ୍ତୁ
-## Data
-
 data-download-button = Common Voice ତଥ୍ୟ ଡାଉନଲୋଡ କରନ୍ତୁ
 data-download-yes = ହଁ
 data-download-deny = ନାଁ

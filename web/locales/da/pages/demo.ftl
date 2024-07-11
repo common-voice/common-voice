@@ -33,4 +33,3 @@ demo-listen-subtitle = Klar til at bidrage?
 
 demo-dashboard-card-header = Personlige dashboards holder dig opdateret med din individuelle og fællesskabets fremskridt.
 demo-dashboard-card-body = For hvert doneret stemmeklip og hvert lydklip, der valideres, opdateres dine dashboards for at afspejle dine seneste fremskridt på hvert sprog, du bidrager til. Ja, du kan bidrage til mere end et! <br/> <br/> Brug dashboards til at spore din statistik, se hvordan du klarer dig sammen med andre i fællesskabet, og indstil daglige eller ugentlige bidragsmål.
-

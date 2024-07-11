@@ -22,4 +22,3 @@ download-request-modal-title = Girêdankên jêbarkirinê
 download-request-modal-description = Girêdanka jêbarkirina pelên te yên ZIP li virê ye.
 download-request-link-text = Zip { $offset } / { $total }
 download-request-metadata-link = Metna hevokê
-

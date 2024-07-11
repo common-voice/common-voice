@@ -119,4 +119,3 @@ validations =
         [one] אימות
        *[other] אימותים
     }
-

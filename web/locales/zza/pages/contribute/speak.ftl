@@ -33,7 +33,6 @@ review-rerecord = Reyna qeyd bike
 review-cancel = Rusnayîşî betal bike
 review-keep-recordings = Qeydanê vengî wedare
 review-delete-recordings = Qeydanê mi biestire
-
 review-terms = Bi xebitnayîşê Common Voice, ti <termsLink>Şert û Merc</termsLink> û <privacyLink>Polîtîkaya ma ya NImiteyîye</privacyLink> qebul kenî/a.
 terms-agree = Ez qebul kena
 terms-disagree = Ez qebul nêkena

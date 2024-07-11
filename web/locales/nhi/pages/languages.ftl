@@ -14,9 +14,6 @@ localized = tlacuipcahtlahtol
 sentences = tlahtoltlahcuilol
 language-validation-hours = Horas
 language-validation-progress = nemilis silihqueh
-
-## Languages
-
 contribute = Xitiquiti touan
 get-involved-button = Xitechpaleui
 get-involved-title = Xitiquiti itich { $lang }

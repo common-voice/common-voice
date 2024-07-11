@@ -7,4 +7,3 @@ download-form-email =
     .value = धन्यवाद, आम्ही तुम्हाला संपर्क करु.
 download-back = कॉमन व्हॉईस डेटासेटवर परत जा
 download-no = नाही धन्यवाद
-

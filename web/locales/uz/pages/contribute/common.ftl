@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Bosish
 action-tap = Bosish
-## Languages
-
 contribute = Hissa qoʻshish
 skip = Tashlab ketish
 shortcuts = Tugmalar birliklari
@@ -30,6 +26,9 @@ target-segment-generic-card = Siz maqsadli qismga oʻz hissangizni qoʻshyapsiz
 target-segment-first-banner = { $locale }da Common Voice’ning birinchi maqsadli segmentini yaratishga yordam bering
 target-segment-add-voice = Ovozingizni qoʻshing
 target-segment-learn-more = Batafsil maʼlumot
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -94,4 +93,3 @@ contribution-misreadings-title = Notoʻgʻri oʻqilgan
 contribution-misreadings-description = Tinglayotganda yozilgan matnning aynan yozib olingan ovoz bilan bir xilligini diqqat bilan tekshiring. Hatto kichik xatolar boʻlsa ham rad eting. <br />Juda keng tarqalgan xatolarga quyidagilar kiradi:
 contribution-misreadings-description-extended-list-1 = <strong>'A'</strong> harfi yoki audio yozuvning boshida <strong>'The'</strong> artikli qolib ketishi.
 contribution-misreadings-description-extended-list-2 = Soʻzning oxirida <strong>'s'</strong> qoʻshimchasi qolib ketishi.
-

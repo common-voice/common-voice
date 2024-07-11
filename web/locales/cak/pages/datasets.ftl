@@ -49,9 +49,6 @@ more = Ch'aqa' chik
 close = Titz'apïx
 download = Tiqasäx
 dataset-version = Ruwäch
-
-## Data
-
 data-download-button = Tiqasäx Ta Rutzij Common Voice
 data-download-yes = Ja'
 data-download-deny = Manäq

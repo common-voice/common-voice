@@ -22,7 +22,6 @@ review-rerecord = volver a grabar
 review-cancel = Cancelar envío
 review-keep-recordings = Guarda las grabaciones
 review-delete-recordings = Eliminar mis grabaciones
-
 terms-agree = Estoy de acuerdo
 terms-disagree = No estoy de acuerdo
 # FIRST POST SUBMISSION CTA

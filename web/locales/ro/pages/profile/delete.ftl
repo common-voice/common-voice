@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Poți să ne spui de ce vrei să îți ștergem înregistrările?
 profile-form-delete = Șterge profilul
-

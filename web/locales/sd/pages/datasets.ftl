@@ -62,11 +62,8 @@ dataset-version = نسخو
 sha256-checksum-copied = SHA256 Checksum ڪاپي ڪيو ويو!
 sha256-checksum-copied-error = SHA256 Checksum ڪاپي ڪرڻ ۾ ناڪام ٿيو
 clipboard-not-supported = ڪلپ بورڊ کي سپورٽ نه آهي
-
 data-download-singleword-title = ڊائون لوڊ ڪريو اڪيلو لفظ ھدف وارو حصو
 data-download-singleword-callout-v2 = هي هڪ استعمال ڪيس هلائيندڙ حصو آهي جنهن ۾ ڊيٽا شامل آهي طاقت ڳالهائيندڙ انگن اکرن جي سڃاڻپ ۽ ها / نه ڳولڻ.
-## Data
-
 data-download-button = ڊائون لوڊ ڪريو عام وائس ڊيٽا
 data-download-yes = جي ها
 data-download-deny = نه

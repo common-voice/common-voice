@@ -89,4 +89,3 @@ reviewing-sentences-explanation-2 = 若句子不符合上述標準，請點擊�
 reviewing-sentences-explanation-3 = 如果您不確定句子是否符合上述標準，也可以略過，跳到下一句。
 reviewing-sentences-explanation-4 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
 domain-explanation = 「領域」指的是語句的主旨。目前可以選擇下列領域：
-

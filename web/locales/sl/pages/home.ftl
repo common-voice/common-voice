@@ -86,4 +86,3 @@ help-contribute = Pomagate lahko ustvariti raznolik, odprtokodni nabor podatkov,
 login-company = Prijava / Registracija z e-poštnim naslovom { $company }
 profile-not-required = Profil za sodelovanje ni obvezen, je pa priporočljiv
 read-more-about = Preberite več na naši strani O nas
-

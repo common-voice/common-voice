@@ -53,9 +53,6 @@ sc-criteria-item-5-2 =
     As de sin net oan de boppesteande kritearia foldocht, klik dan op de knop ‘Ofwize’ oan de linkerkant.
     As jo net wis binne fan de sin, kinne jo dizze ek oerslaan en trochgean nei de folgjende.
 sc-criteria-item-6 = As jo gjin sinnen mear hawwe om te beoardielen, help ús dan om mear sinnen te sammeljen!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Kontrolearje <icon></icon> of dit in taalkundich korrekte sin is?
 sc-review-rules-title = Foldocht de sin oan de rjochtlinen?
@@ -69,4 +66,3 @@ review-error-rate-limit-exceeded = Jo geane te hurd. Nim efkes de tiid om de sin
 sc-redirect-page-title = Wy fiere inkelde grutte feroaringen troch
 sc-redirect-page-subtitle-1 = De Sentence Collector ferhuzet nei de kearn fan it Common Voice-platfoarm. Jo kinne no in sin <writeURL>skriuwe</writeURL> of ynstjoeringen fan losse sinnen <reviewURL>beoardiele</reviewURL> op Common Voice.
 sc-redirect-page-subtitle-2 = Stel ús fragen op <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> of fia in <emailLink>e-mailberjocht</emailLink>.
-

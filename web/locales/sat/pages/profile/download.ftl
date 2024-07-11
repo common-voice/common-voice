@@ -28,4 +28,3 @@ download-request-modal-description = ᱟᱢᱟᱜ ZIP ᱨᱮᱥ ᱠᱚ ᱰᱟᱣ
 download-request-link-text = Zip #{ $offset } ᱨᱮᱭᱟᱜ { $total }
 download-request-metadata-link = ᱟᱹᱭᱟᱹᱛ ᱚᱞ
 download-request-link-single = ᱟᱢᱟᱜ ᱠᱩᱥᱤ ᱰᱟᱣᱱᱞᱚᱰ ᱢᱮᱱᱮᱡᱚᱨ ᱛᱮᱦᱚᱸ ᱟᱢ ᱱᱟᱠᱚᱞ ᱟᱨ ᱞᱟᱴᱷᱟ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ ᱰᱟᱭᱨᱮᱠᱴ URL ᱛᱮ᱾ ᱩᱱᱠᱩ ᱫᱚ ᱑᱒ ᱴᱟᱲᱟᱝ ᱨᱮ ᱪᱟᱵᱟᱜᱼᱟ ᱠᱚ, ᱦᱮᱞᱮ ᱟᱢ ᱫᱚ ᱱᱚᱶᱟ ᱥᱟᱦᱴᱟ ᱨᱮ ᱛᱟᱭᱚᱢ ᱛᱮ ᱦᱚᱸ ᱦᱮᱡ ᱨᱩᱣᱟᱹᱲ ᱫᱟᱲᱮᱭᱟᱜᱼᱟᱢ᱾
-

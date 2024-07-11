@@ -7,4 +7,3 @@ download-form-email =
     .value = Köszönjük, majd keressük.
 download-back = Visszatérés a Common Voice adatkészlethez
 download-no = Köszönöm, nem
-

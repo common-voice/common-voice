@@ -19,4 +19,3 @@ request-language-success-list-1 =
     Laster jaso beharko zenuke email bat zure
     hizkuntza Common Voicera gehitzeko urratsak
     azaltzen dituena
-

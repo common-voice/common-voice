@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Carrega unn’imagine
 browse-file = Rebella e mòlla ò donca <browseWrap>sfeuggia</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = O documento çernuo o l'é tròppo gròsso
 avatar-uploaded = Avatar carregou
 max-file-size = max { $kb } kb
 remove-avatar = Scassa l’avatar
-

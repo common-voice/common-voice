@@ -30,9 +30,6 @@ more = מער
 close = פארמאך
 download = לאדנט אראפ
 dataset-version = ווערסיע
-
-## Data
-
 data-download-button = לאדנט אראפ קאמאן וואויס דאטא
 data-download-yes = יא
 data-download-deny = ניין

@@ -18,4 +18,3 @@ request-language-form-info-explanation =
 request-language-form-info-explanation-list-1 = Nama bahasa Anda
 request-language-form-info-explanation-list-2 = <isoCodeLink>Kod ISO</isoCodeLink> jika diketahui
 request-language-form-info-explanation-list-3 = Pautan ke laman web yang boleh membantu kami memahami bahasa tersebut
-

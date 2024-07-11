@@ -31,4 +31,3 @@ demo-listen-subtitle = ¿Listo para contribuir?
 
 demo-dashboard-card-header = Los paneles personales te mantienen al día de los progresos individuales y comunitarios.
 demo-dashboard-card-body = Para cada grabación de voz donada y cada grabación de audio validada, los paneles de control de tu cuenta se actualizan para reflejar el progreso más reciente en cada idioma en el que colaboras. Sí, ¡puedes contribuir a más de uno!<br/><br/> Usa paneles para rastrear tus estadísticas, ver cómo estás haciendo junto a otros en la comunidad, y establecer objetivos de colaboración diarios o semanales.
-

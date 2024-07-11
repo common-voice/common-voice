@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = คลิก
 action-tap = แตะ
-## Languages
-
 contribute = สนับสนุน
 review = ตรวจทาน
 skip = ข้าม
@@ -115,4 +111,3 @@ contribution-just-unsure-title = แค่ไม่แน่ใจ?
 contribution-just-unsure-description = หากคุณพบสิ่งที่หลักเกณฑ์เหล่านี้ไม่ครอบคลุม โปรดโหวตตามวิจารณญาณที่ดีที่สุดของคุณ หากคุณตัดสินใจไม่ได้จริง ๆ ให้ใช้ปุ่ม ข้าม และตรวจสอบเสียงถัดไป
 see-more = <chevron></chevron>ดูเพิ่ม
 see-less = <chevron></chevron>ดูน้อยลง
-

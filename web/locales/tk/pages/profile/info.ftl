@@ -57,4 +57,3 @@ off = Öçürilen
 on = Işledilen
 help-accent = Şiwe boýunça kömek gerekmi?
 help-accent-explanation = Siziň şiwäňiz sözleri aýdyş usulyňyzdyr. Ol ýaşan ýeriňize, başga gepleýän dilleriňize we başga birnäçe faktorlara bagly bolup biler. Degişlidir öýdýän maglumatlaryňyzy bu ýerde paýlaşyp bilersiňiz.
-

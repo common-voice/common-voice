@@ -77,4 +77,3 @@ variant-contribution-option-1 = Dilimdeki tüm lehçelerin cümlelerini ve ses k
 variant-contribution-option-2 = Yalnızca benim lehçemdeki cümleleri ve ses kayıtlarını göster
 variant-contribution-warning-title = ⓘ Henüz bazı cümlelerde ve ses kayıtlarında lehçe etiketi yok!
 variant-contribution-warning-subtitle = Katkıda bulunurken sorun yaşıyorsanız dilinizdeki tüm içerikleri görme seçeneğine geri dönebilirsiniz.
-

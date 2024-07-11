@@ -45,4 +45,3 @@ sc-criteria-item-3 = Polelo e tlameha ho bueha.
 sc-criteria-item-4 = Haeba polelo e fihlella ditekanyets, tobetsa konopo ya &quot;Amohela&quot; konopo ka ho le letona.
 sc-criteria-item-5-2 = Haeba polelo e sa fihlelle ditekanyetso tse ka hodimo, penya &quot;Hana&quot; konopo e ka ho le letshehadi. Haeba o sena bonnete ka polelo, o ka boela wa e tlola mme o fetele ho e latelang.
 sc-criteria-item-6 = Haeba o fellwa ke dipolelo tseo o lokelang ho di hlahloba, ka kopo re thuse ho bokella dipolelo tse ding!
-

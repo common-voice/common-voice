@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Layisha ifayela lesithombe
 browse-file = Hudula bese udedela noma <browseWrap>Phequlula</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Ifayela elikhethiwe likhulu kakhulu
 avatar-uploaded = I-avatar ilodiwe
 max-file-size = { $kb }kb max
 remove-avatar = Susa i-Avatar
-

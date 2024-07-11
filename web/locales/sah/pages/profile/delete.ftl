@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Можем ли мы узнать, почему вы хотите удалить свои записи?
 profile-form-delete = Профиль соттор
-

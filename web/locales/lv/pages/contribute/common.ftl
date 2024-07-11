@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Klikšķini
 action-tap = Pieskaries
-## Languages
-
-contribute = Piedalies
+contribute = Veic ieguldījumu
 review = Pārbaudi
 skip = Izlaist
 shortcuts = Īsceļi
@@ -151,4 +147,3 @@ contribution-just-unsure-title = Vienkārši neesat pārliecināti?
 contribution-just-unsure-description = Ja saskaraties ar kaut ko, kas šajās vadlīnijās nav ietverts, lūdzu, balsojiet kā jums šķiet pareizi. Atcerieties, kvalitāte un precizitāte ir svarīgāka par ierakstu skaitu. Ja tiešām nevarat izlemt, izmantojiet izlaišanas pogu un pārejiet uz nākamo ierakstu.
 see-more = <chevron></chevron>Rādīt vairāk
 see-less = <chevron></chevron>Rādīt mazāk
-

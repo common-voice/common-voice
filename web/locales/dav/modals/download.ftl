@@ -7,4 +7,3 @@ download-form-email =
     .value = Chaw'ucha, diendeliagha kudedanya.
 download-back = W'uya kwa mafungu gha data gha Common Voice.
 download-no = A-a Chaw'ucha
-

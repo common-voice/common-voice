@@ -61,11 +61,8 @@ close = 關閉
 download = 下載
 dataset-version = 數據庫版本
 donate-modal-explanation-1 = 我哋每年要使差唔多一百萬美金嚟儲存同託管呢 100+ 門語言嘅數據集、開發平台同維護啲語言社區？
-
 data-download-singleword-title = 下載單字目標分段
 data-download-singleword-callout-v2 = 呢個係按照實際使用需要拆出嚟嘅部份，入面嘅資料可以用喺數字識別同埋是/否檢測。
-## Data
-
 data-download-button = 下載 Common Voice 語音數據
 data-download-yes = 係
 data-download-deny = 唔係

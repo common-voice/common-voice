@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Tebɣiḍ ad aɣ-teǧǧeḍ ad nẓeṛ acuɣer tebɣiḍ ad nekkes ikalasen-ik?
 profile-form-delete = Kkes amaɣnu
-

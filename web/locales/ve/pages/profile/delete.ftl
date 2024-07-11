@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Naa ni nga ri ḓivhadza uri ndi ngani ni tshi khou ṱoḓa u diḽita zwe na rekhoda?
 profile-form-delete = Diḽita Profaiḽi
-

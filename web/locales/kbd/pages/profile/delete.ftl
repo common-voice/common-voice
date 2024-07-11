@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Can you let us know why you would like your recordings deleted?
 profile-form-delete = Профилыр игъэкI
-

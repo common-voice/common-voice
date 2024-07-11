@@ -13,9 +13,7 @@ language-search-input =
 language-speakers = БзэIуэ
 localized = ЗэдзэкIа
 sentences = Псалъэ уха
-## Languages
-
-contribute = Хэлъхьэ
+contribute = Хэгъахъуэ
 get-involved-button = Ублэ
 get-involved-title = { $lang } -м хэгъахъуэ
 get-involved-text = Тхьэм уигъэпсэу, { $lang }-м хэбхъэхъуэну уигу зэрилъ. Дэри долэжь, бзэ къэс хьэзыр тщIыну, елэжь гупми имейлкIэ хъыбар ядогъащIэж. Iуэхум хэбгъэхъуэну уигу илъым, уи имейлыр мы напэм и кIэм къытхуитхэ.

@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = کلیک
 action-tap = ټپ کړئ
-## Languages
-
 contribute = مرسته وکړئ
 review = بیاکتنه
 skip = پرېږدئ
@@ -149,4 +145,3 @@ contribution-just-unsure-title = بس ډاډه نه یاست؟
 contribution-just-unsure-description = که تاسو د هغه څه سره مخ شئ چې دا لارښوونې نه پوښي، مهرباني وکړئ د خپل غوره قضاوت سره سم رایه ورکړئ. که تاسو واقعیا پریکړه نشئ کولی ، د سکیپ تڼۍ وکاروئ او راتلونکي ریکارډ ته لاړشئ.
 see-more = <chevron></chevron>نور وګوری
 see-less = <chevron></chevron>لږ وګورئ
-

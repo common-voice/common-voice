@@ -49,11 +49,8 @@ more = Lainnya
 close = Tutup
 download = Unduh
 dataset-version = Versi
-
 data-download-singleword-title = Unduh Segmen Target Kata Tunggal
 data-download-singleword-callout-v2 = Ini adalah segmen berbasis kasus penggunaan yang berisi data untuk mengaktifkan pengenalan digit yang diucapkan dan pendeteksian ya / tidak.
-## Data
-
 data-download-button = Unduh Data Common Voice
 data-download-yes = Ya
 data-download-deny = Tidak

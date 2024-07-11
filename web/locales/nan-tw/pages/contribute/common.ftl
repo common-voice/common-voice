@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = 揤
 action-tap = 點選
-## Languages
-
-contribute = 貢獻
+contribute = 參與貢獻
 skip = 略過
 shortcuts = 捷徑
 clips-with-count-pluralized =
@@ -140,4 +136,3 @@ contribution-just-unsure-title = 無法決定嗎？
 contribution-just-unsure-description = 如果你遇到本指南中沒有涵蓋的狀況，還請自行盡力判斷。如果真的很難決定，直接按下「略過」到下一句去吧。
 see-more = <chevron></chevron>看更多
 see-less = <chevron></chevron>看更少
-

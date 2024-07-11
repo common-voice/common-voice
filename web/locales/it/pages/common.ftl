@@ -235,7 +235,6 @@ link-copied = Link copiato
 back-top = Torna in alto
 logout = Disconnetti
 donate = Fai una donazione
-
 stayintouch = Mozilla sta radunando una comunità di persone interessate alle tecnologie vocali. Ci piacerebbe rimanere in contatto con te con aggiornamenti e nuove fonti di dati, ma anche per conoscere come usi i dati di Common Voice.
 privacy-info = Le tue informazioni personali sono al sicuro con noi. Per i dettagli leggi l’<privacyLink>informativa sulla privacy</privacyLink>.
 return-to-cv = Torna a Common Voice
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = Ricevi email come promemoria di sfide e o
 email-opt-in-privacy-v2 = Scegliendo di ricevere le email, accetti che Mozilla utilizzi queste informazioni secondo quanto riportato nell’<privacyLink>informativa sulla privacy</privacyLink>.
 indicates-required = * indica un campo obbligatorio
 not-available-abbreviation = N.D.
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = Ospitare i dataset e migliorare la piattaforma p
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Utilizzi Common Voice per</mark><br/><mark>le tue ricerche?</mark>
 languages-donate-banner-cta-explanation = Common Voice è finanziato da donazioni e sovvenzioni. Amiamo collaborare con accademici, società civile e ricercatori del settore. Common Voice è gratuito, ma sostenere parte dei costi della piattaforma e dell’hosting attraverso proposte di sovvenzione è davvero utile.
-# [/SentenceCollector]
-
 localization-select =
     .label = Scegli lingua/localizzazione

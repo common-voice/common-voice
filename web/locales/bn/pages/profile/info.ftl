@@ -53,4 +53,3 @@ skip-submission-description = অবদান জমা প্রতিক্র
 skip-submission-note = নোট: আপনাকে এখনও অবদান টাইপ পরিবর্তন বা শুনুন মধ্যে নির্বাচন করতে হবে।
 off = বন্ধ
 on = চালু
-

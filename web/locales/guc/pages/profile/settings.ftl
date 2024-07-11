@@ -1,7 +1,3 @@
-## Profile - Email
-
-
-## Profile - Email
+## Profile - Settings
 
 add-language = Akoo’omüinjaa anüiki
-

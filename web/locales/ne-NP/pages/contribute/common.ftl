@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = क्लिक गर्नुहोस्
 action-tap = थिच्नुहोस्
-## Languages
-
 contribute = योगदान गर्नुहोस्
 skip = छोड्नुहोस्
 shortcuts = छोटकरिहरु
@@ -29,6 +25,9 @@ target-segment-generic-card = तपाईं टारगेट सेगमे
 target-segment-first-banner = { $locale }मा Common Voice को पहिलो टारगेट सेगमेंट सिर्जना गर्न मद्दत गर्नुहोस्।
 target-segment-add-voice = तपाईंको आवाज जोड्नुहोस्
 target-segment-learn-more = थप जान्नुहोस्
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -139,4 +138,3 @@ contribution-just-unsure-title = पक्का हुनुहुन्न?
 contribution-just-unsure-description = यदि तपाइँ यी दिशानिर्देशहरु कभर केहि कुरामा आउनुभयो भने, कृपया तपाइँको उत्तम निर्णय अनुसार भोट गर्नुहोस्। यदि तपाइँ साँच्चै निर्णय गर्न सक्नुहुन्न, छोड्नुहोस् बटन को उपयोग गर्नुहोस् र अर्को रेकर्डिङ्ग मा जानुहोस्।
 see-more = <chevron> </chevron> थप हेर्नुहोस्
 see-less = <chevron> </chevron> कम हेर्नुहोस्
-

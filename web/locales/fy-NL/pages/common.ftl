@@ -235,7 +235,6 @@ link-copied = Keppeling kopiearre
 back-top = Nei boppe
 logout = Ofmelde
 donate = Donearje
-
 stayintouch = By Mozilla meitsje wy in mienskip rûnom spraaktechnology. Wy wolle graach yn kontakt bliuwe mei fernijingen, nije gegevensboarnen en om mear te hearren oer hoe’t jo de gegevens brûke.
 privacy-info = Wy sizze jo ta dat wy jo ynformaasje mei omtinken behannelje. Mear ynfo dêr oer yn ús <privacyLink>Privacybelied</privacyLink>.
 return-to-cv = Werom nei Common Voice
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = Untfang e-mailberjochten lykas oantinkens
 email-opt-in-privacy-v2 = Troch jo yn te skriuwen foar it ûntfangen fan e-mailberjochten, ferklearje jo dat jo akkoard gean mei it ferwurkjen fan dizze ynformaasje troch Mozilla yn oerienstimming mei Mozilla’s <privacyLink>Privacybelied</privacyLink>.
 indicates-required = * jout fereaske fjild oan
 not-available-abbreviation = NB
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = It kostet hast in miljoen dollar yn it jier om d
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Brûke jo CV foar</mark><br/><mark>jo ûndersyk?</mark>
 languages-donate-banner-cta-explanation = Common Voice wurdt finansiere troch donaasjes en subsydzjes! Wy hâlde fan gearwurkjen mei akademisy, boargerlike maatskippij en yndustryûndersikers. Common Voice is fergees te brûken, mar bydrage oan platfoarm- en hostingkosten fia subsydzjefoarstellen helpt echt.
-# [/SentenceCollector]
-
 localization-select =
     .label = Kies jo taal/lokalisaasje

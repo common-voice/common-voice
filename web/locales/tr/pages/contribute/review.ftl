@@ -45,9 +45,6 @@ sc-criteria-item-3 = Cümle sesli olarak okunabilir olmalıdır.
 sc-criteria-item-4 = Cümle kriterleri karşılıyorsa sağdaki &quot;Onayla&quot; düğmesine tıklayın.
 sc-criteria-item-5-2 = Cümle yukarıdaki kriterleri karşılamıyorsa soldaki &quot;Reddet&quot; düğmesine tıklayın. Emin olmadığınız cümleleri atlayarak bir sonrakine geçebilirsiniz.
 sc-criteria-item-6 = İncelenecek cümleler biterse lütfen daha fazla cümle toplamamıza yardım edin!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Dilbigisi açısından doğru olup olmadığını <icon></icon> kontrol edin
 sc-review-rules-title = Cümle yönergelere uygun mu?
@@ -61,4 +58,3 @@ review-error-rate-limit-exceeded = Çok hızlı ilerliyorsunuz. Lütfen cümleni
 sc-redirect-page-title = Bazı büyük değişiklikler yapıyoruz
 sc-redirect-page-subtitle-1 = Cümle Toplayıcı, ana Common Voice platformuna taşınıyor. Artık Common Voice'ta cümle <writeURL>yazabilir</writeURL> veya gönderilen cümleleri <reviewURL>denetleyebilirsiniz</reviewURL>.
 sc-redirect-page-subtitle-2 = Bize <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> veya <emailLink>e-posta</emailLink> üzerinden soru sorabilirsiniz.
-

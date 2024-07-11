@@ -79,4 +79,3 @@ help-contribute = Common Voice profili oluşturarak ve sesinizle katkıda buluna
 login-company = { $company } e-postasıyla giriş / kayıt
 profile-not-required = Katkıda bulunmak için profil oluşturmak zorunda değilsiniz ama oluşturmanın bazı faydaları var
 read-more-about = Hakkında sayfamızdan daha fazla bilgi edinin
-

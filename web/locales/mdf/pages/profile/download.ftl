@@ -17,4 +17,3 @@ download-request-title = { $created }
 download-request-refresh-button = Одкстоптомс
 download-request-modal-title = Материалонь таргаманди ссылка
 download-request-metadata-link = Валрисьмонь текст
-

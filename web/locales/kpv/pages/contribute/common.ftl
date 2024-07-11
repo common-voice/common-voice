@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Личкыны
 action-tap = Вӧрзӧдны
-## Languages
-
-contribute = Отсавны
+contribute = Пырӧдчыны
 skip = Вуджӧм
 shortcuts = Дженьдӧдӧм
 clips-with-count-pluralized =
@@ -20,6 +16,12 @@ contribute-more =
 record-button-label = Гиж тэнад гор
 share-title-new = <bold>Отсав миянӧс</bold> аддзыны унджык горъяс
 target-segment-learn-more = Велӧд унджык
+
+## Contribution Nav Items
+
+
+## Reporting
+
 
 ## Speak & Listen Shortcuts
 
@@ -51,23 +53,7 @@ shortcut-vote-yes = y
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
-## DemoLayout
-
-
-## Demo Datasets
-
-
-## Demo Account
-
-
-## Demo Contribute
-
-
-## Demo Dashboard
-
-
 ## Validation criteria
 
 see-more = <chevron></chevron>Аддзы унджык
 see-less = <chevron></chevron>Аддзы этшаджык
-

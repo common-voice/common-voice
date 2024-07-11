@@ -33,4 +33,3 @@ adding-sentences-subheader-spelling-punctuation-explanation = Setningin verður 
 adding-sentences-subheader-numbers = Tölur
 adding-sentences-subheader-punctuation = Greinarmerki
 adding-sentences-subheader-offensive-content = Óviðeigandi efni
-

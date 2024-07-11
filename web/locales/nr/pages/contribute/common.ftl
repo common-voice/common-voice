@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = vala
 action-tap = IsiTap
-## Languages
-
 contribute = Nikela
 skip = Dlula
 shortcuts = Ukufitjhanisa
@@ -42,6 +38,9 @@ target-segment-first-banner =
     phambili ku { $locale }
 target-segment-add-voice = Faka iphimbo lakho
 target-segment-learn-more = Funda okwengeziweko
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -174,4 +173,3 @@ contribution-just-unsure-title = Awuqiniseki?
 contribution-just-unsure-description = Nawufumana okuthileko okungakafakwa eenqophiswenezi, sibawa uhlole okurekhodiweko ngokwahlulela kwakho. Nangabe awukghoni ukuqunta, sebenzisa ikinobho yokweqa skip utjhinge emtjhweni olandelako.
 see-more = <chevron></chevron>Veza okwengeziweko
 see-less = <chevron></chevron>Veza okuncani
-

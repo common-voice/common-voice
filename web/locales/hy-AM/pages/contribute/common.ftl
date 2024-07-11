@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Սեղմել
 action-tap = Հպել
-## Languages
-
 contribute = Մասնակցել
 skip = Բաց թողնել
 shortcuts = Դյուրանցումներ
@@ -30,6 +26,9 @@ target-segment-generic-card = Դուք նվիրաբերում եք թիրախա�
 target-segment-first-banner = Օգնեք ստեղծել Common Voice-ի առաջին թիրախային հատվածը { $locale } - ում
 target-segment-add-voice = Ավելացրեք ձեր ձայնը
 target-segment-learn-more = Իմանալ ավելին
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -79,4 +78,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

@@ -235,7 +235,6 @@ link-copied = kagocopen linkit
 back-top = wegungee barak
 logout = imande
 donate = ketoret
-
 stayintouch = ache eng mozilla keteche bororiet eng walut .Kimache inai tuguk cho. kimache kegas eng boisie tab
 privacy-info = amuon ole  kiripe tugukuk , soman chechang eng walut nenyone
 return-to-cv = wegun gei common  voice.
@@ -249,7 +248,8 @@ email-opt-in-info-sub-with-challenge = inyoru email agoba tuguk chegebun,kabwate
 email-opt-in-privacy-v2 = yoto iyoni inyoru emailishek koibaru kole metinye ngolyo eng Mozilla baishen ngalechuto olegigimwaita eng<privacyLink>Privacy Policy</privacyLink>.
 indicates-required = olegigimarken ago(*)kemache
 not-available-abbreviation = mamitei
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = kweey kuti/gaa

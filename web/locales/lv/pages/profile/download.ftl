@@ -28,4 +28,3 @@ download-request-modal-description = Šeit ir saites, lai lejupielādētu jūsu 
 download-request-link-text = Zip #{ $offset } no { $total }
 download-request-metadata-link = Teikuma teksts
 download-request-link-single = Varat arī kopēt un ielīmēt šīs adreses savā iecienītākajā lejupielāžu pārvaldniekā. To derīguma termiņš beigsies pēc 12 stundām, taču jebkurā laikā varat atgriezties šajā lapā, lai ģenerētu jaunas saites.
-

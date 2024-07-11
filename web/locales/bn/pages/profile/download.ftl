@@ -15,4 +15,3 @@ download-request-title = { $created }
 download-request-modal-title = ডাউনলোড লিংক
 download-request-modal-description = আপনার জিপ ফাইল ডাউনলোডের লিংকসমূহঃ
 download-request-metadata-link = বাক্যের পাঠ্য
-

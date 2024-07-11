@@ -33,7 +33,6 @@ review-rerecord = Registra torna
 review-cancel = Scancella o carregamento
 review-keep-recordings = Conserva e registraçioin
 review-delete-recordings = Scancella e mæ registraçioin
-
 review-terms = Con deuviâ Common Voice, açetti e nòstre <termsLink>condiçioin</termsLink> e l’<termsLink>informativa in sciâ privacy</termsLink>
 terms-agree = Açetto
 terms-disagree = No açetto

@@ -7,7 +7,4 @@ request-language-success-title = Language request successfully submitted, thank 
 request-language-success-content = We will be in touch with more information about how to add your language to Common Voice very soon.
 select-language = Бзэ къыхэх
 other-language = Нэгъуэщ1 бзэ
-
-## General
-
 yes-receive-emails = НтIэ, имейл къегъэхь. Сыхуэйщ хъыбар сывгъэщIэну, бзэм и Iуэхур Common Voice-м зэрекIуэкI.

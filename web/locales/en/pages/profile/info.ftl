@@ -1,4 +1,5 @@
 ## ProfileForm
+
 profile-form-username =
     .label = User Name
 profile-form-native-language =
@@ -13,7 +14,7 @@ profile-form-variant-default-value = No variant selected
 profile-form-accent =
     .label = Accent
 profile-form-custom-accent-help-text =
-  .label = How would you describe your accent?
+    .label = How would you describe your accent?
 profile-form-custom-accent-placeholder-2 = Start typing to describe your accent
 profile-form-age =
     .label = Age
@@ -26,11 +27,8 @@ visible = Visible
 native-language =
     .label = Native Language
 profile-form-add-accent = Add new custom accent "{ $inputValue }"
-
-
 profile-form-submit-save = Save
 profile-form-submit-saved = Saved
-
 male_masculine = Male/Masculine
 female_feminine = Female/Feminine
 intersex = Intersex
@@ -41,9 +39,8 @@ do_not_wish_to_say = Don't wish to say
 other = Other
 why-profile-title = Why a profile?
 why-profile-text =
-  By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
-  Recognition engines that use this data to improve their accuracy.
-
+    By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
+    Recognition engines that use this data to improve their accuracy.
 dashboard = Dashboard
 build-profile = Build Profile
 avatar = Avatar
@@ -83,4 +80,3 @@ variant-contribution-option-1 = Show me sentences and clips from all variants wi
 variant-contribution-option-2 = Only show me sentences and clips from my variant
 variant-contribution-warning-title = ⓘ Not all sentences and clips have Variant tags yet!
 variant-contribution-warning-subtitle = If you’re having trouble contributing, you can switch back to seeing all content for your language at any time.
-

@@ -22,4 +22,3 @@ download-request-refresh-button = نوێکردنەوە
 download-request-modal-title = بەستەری داگرتن
 download-request-modal-description = ئەمە بەستەرەکانی داگرتنی فایلە پەستێنراوەکانتە.
 download-request-metadata-link = دەقی ڕستە
-

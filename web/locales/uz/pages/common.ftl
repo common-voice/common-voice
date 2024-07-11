@@ -186,7 +186,6 @@ share-text = { $link } havolasi orqali ovozingiz bilan yordam qilib, mashinalarg
 link-copied = Havoladan nusxa olindi
 back-top = Yuqoriga qaytish
 logout = Chiqish
-
 stayintouch = Mozilla ovoz texnologiyasi boʻyicha butun dunyo tillari jamoalarini tuzmoqda. Yangiliklar, yangi maʼlumot manbalari va bu maʼlumotlardan qanday foydalanish boʻyicha koʻrsatmalarni sizga yuborib turamiz.
 privacy-info = Biz maʼlumotlaringizni ehtiyot qilamiz. <privacyLink>Maxfiylik siyosati</privacyLink> haqidagi maʼlumotlarni oʻqib chiqing.
 return-to-cv = Common Voice loyihasiga qaytish
@@ -200,4 +199,6 @@ email-opt-in-info-sub-with-challenge = Men maqsad va yutuqlar haqida bildirishno
 email-opt-in-privacy-v2 = E-pochta xabarlarini olishni tanlab, Mozillaning <privacyLink>Maxfiylik siyosatida</privacyLink> tushuntirilganidek, ushbu maʼlumot bilan ishlashga tayyor ekanligingizni bildirasiz.
 indicates-required = * Toʻldirish majburiy boʻlgan maydon
 not-available-abbreviation = M/E
+
+## Donate banner
 

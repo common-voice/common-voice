@@ -85,4 +85,3 @@ help-contribute = Gallout a rit sikour da grouiñ ur spletad roadennoù liesseur
 login-company = Kevreit / Emezelit gant ho chomlec’h { $company }
 profile-not-required = Kaout ur profil n'eo ket un dra ret evit kemer perzh met talvoudus eo memestra
 read-more-about = Lenn muioc’h war ar bajenn A-zivout
-

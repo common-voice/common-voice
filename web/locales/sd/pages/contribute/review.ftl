@@ -45,9 +45,6 @@ sc-criteria-item-3 = جملو ڳالهائڻ جوڳو هئڻ گهرجي.
 sc-criteria-item-4 = جيڪڏهن جملو معيار تي پورو لهي ٿو، "منظور ڪريو" تي ڪلڪ ڪريو. ساڄي پاسي وارو بٽڻ.
 sc-criteria-item-5-2 = جيڪڏهن جملو مٿي ڏنل معيار کي پورو نٿو ڪري، ڪلڪ ڪريو &quot;رد ڪريو&quot; کاٻي پاسي بٽڻ. جيڪڏهن توهان کي جملي جي باري ۾ تصديق نه آهي، ته توهان ان کي ڇڏي به سگهو ٿا ۽ اڳتي وڌو.
 sc-criteria-item-6 = جيڪڏھن توھان جي نظرثاني ڪرڻ لاءِ جملا ختم ٿي ويا آھن، مھرباني ڪري وڌيڪ جملا گڏ ڪرڻ ۾ اسان جي مدد ڪريو!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = چيڪ ڪريو <icon></icon> ڇا هي لساني لحاظ کان درست جملو آهي؟
 sc-review-rules-title = ڇا جملو هدايتن کي پورو ڪري ٿو؟
@@ -61,4 +58,3 @@ review-error-rate-limit-exceeded = توهان تمام تيز وڃي رهيا آ
 sc-redirect-page-title = اسان ڪجهه وڏيون تبديليون ڪري رهيا آهيون
 sc-redirect-page-subtitle-1 = جملا ڪليڪٽر بنيادي عام آواز پليٽ فارم ڏانهن منتقل ٿي رهيو آهي. توھان ھاڻي ڪري سگھو ٿا <writeURL>لکيو</writeURL> ھڪڙو جملو يا <reviewURL>review</reviewURL> ھڪڙو جملو جمع ڪرايا وڃن عام آواز تي.
 sc-redirect-page-subtitle-2 = اسان کان سوال پڇو <matrixLink>Matrix</matrixLink>، <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
-

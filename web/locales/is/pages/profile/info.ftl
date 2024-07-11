@@ -71,4 +71,3 @@ help-accent = Þarftu hjálp með hreim?
 help-accent-explanation = Hreimurinn þinn er það hvernig þú berð fram orð. Hann getur mótast af því hvar þú hefur búið, hvaða önnur tungumál þú talar, ásamt mörgum öðrum þáttum. Þú getur deilt hér öllum þeim upplýsingum sem þér finnst eiga við.
 help-variants = Þarftu aðstoð við afbrigði?
 help-variants-explanation = Afbrigði eru ákveðin form tungumáls - til dæmis sameiginleg þeim sem búa á ákveðnu svæði eða tilheyra sérstökum samfélagshópi. Stundum er þetta kallað mállýskur.
-

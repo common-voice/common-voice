@@ -77,11 +77,8 @@ dataset-donate-modal-heading = بَھلا تُہاکوں پَتہ ہِے…
 donate-modal-explanation-1 = ڈیٹا سیٹس دی میزبانی کرݨ اَتے 100+ ٻولیاں دیاں بِیادریاں جِہڑیاں اَساݙے اُتے بھرواسہ کرین٘دیاں ہِن اُنّھاں کِیتے پلیٹ فارم کوں چَنڳا بݨاوݨ کِیتے تقریباً ہِک ملین ڈالر سالانہ خرچ تِھین٘دے ہِن؟
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>ڄیکر تُساں اوپن، جامع ڈیٹا دی قدر کرین٘دے ہِیوے - اَڄّو عطیہ کرو!</bold>
-
 data-download-singleword-title = ہک لفظی ہدف حصہ ڈاؤن لوڈ کرو
 data-download-singleword-callout-v2 = ایہ ہک ورتݨ کیس نال چلݨ آلا سیگمنٹ ہے جیندے وچ ٻولے ون٘ڄݨ آلے ہندسیاں دی سُن٘ڄاݨ تے  جیا/کو دا پتہ لاوݨ کیتے ڈیٹا ہوندا ہے۔
-## Data
-
 data-download-button = کامن وائس ڈیٹا ڈاؤن لوڈ کرو
 data-download-yes = جیا
 data-download-deny = کو

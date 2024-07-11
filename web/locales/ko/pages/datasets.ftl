@@ -65,11 +65,8 @@ clipboard-not-supported = 클립보드가 지원되지 않음
 dataset-metadata-sex = 성별
 # dataset metadata - age of contributor
 dataset-metadata-age = 나이
-
 data-download-singleword-title = 단일 단어 대상 세그먼트 다운로드
 data-download-singleword-callout-v2 = 이것은 음성 숫자 인식과 예 / 아니오 감지를 지원하는 데이터를 포함하는 사용 사례 중심 세그먼트입니다.
-## Data
-
 data-download-button = Common Voice 데이터 다운로드
 data-download-yes = 네
 data-download-deny = 아니오

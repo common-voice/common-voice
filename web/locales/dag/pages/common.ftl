@@ -10,5 +10,12 @@ bn = Bengali
 cs = Czech
 tw = Kambonsili
 
+# [/]
+
+
+## Layout
+
 stayintouch = Tinima ban be Mozlila mɛrila laɣingu din jɛndi kukɔli tabibi. Ti nibɔri ni ti mali tibili zaŋ chaŋ lahabaya din kɔɣiri ka bihira polo , data pala yibu sheena ka ni lahi bɔri ni wumdi lahabaya din jɛndi yi ni mali data ŋɔ tumdi tuma shɛm.
+
+## Donate banner
 

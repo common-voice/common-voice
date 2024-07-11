@@ -60,11 +60,8 @@ dataset-version = Bertsioa
 sha256-checksum-copied = SHA256 egiaztapeneko batura kopiatu da!
 sha256-checksum-copied-error = Ezin izan da SHA256 egiaztapeneko batura kopiatu
 clipboard-not-supported = Arbelak ez du euskarririk
-
 data-download-singleword-title = Deskargatu hitz bakarreko esparru zehatzeko atala
 data-download-singleword-callout-v2 = Erabilera kasu honek digituen eta bai / ez hitzen ahoskera ezagutzea du helburu.
-## Data
-
 data-download-button = Deskargatu Common Voiceko datuak
 data-download-yes = Bai
 data-download-deny = Ez

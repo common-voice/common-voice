@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = Om meningen inte uppfyller ovanstående krit
 reviewing-sentences-explanation-3 = Om du är osäker på meningen kan du också hoppa över den och gå vidare till nästa.
 reviewing-sentences-explanation-4 = Om du får slut på meningar att granska, vänligen hjälp oss att samla in fler meningar!
 domain-explanation = Domän avser innehållet för meningen. För närvarande kan du välja mellan:
-

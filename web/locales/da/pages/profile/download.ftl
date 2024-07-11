@@ -28,4 +28,3 @@ download-request-modal-description = Her er links til at downloade dine ZIP-file
 download-request-link-text = Zip nr. { $offset } af { $total }
 download-request-metadata-link = Sætningstekst
 download-request-link-single = Du kan også kopiere og indsætte de direkte URL'er i din foretrukne downloadmanager. De udløber om 12 timer, men du kan til enhver tid vende tilbage til denne side for at generere nye.
-

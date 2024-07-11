@@ -116,4 +116,3 @@ validations =
         [one] تایید
        *[other] تاییدونه
     }
-

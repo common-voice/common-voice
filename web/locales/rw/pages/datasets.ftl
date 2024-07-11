@@ -1,4 +1,4 @@
-## New Datasets Page
+## Datasets Page
 
 datasets-headline = Turakora ivomo rusange ry'ikusanyirizo mpuzandimi ry'amajwi uwo ari we wese ashobora gukoresha kwitoza porogaramu ntahurajwi
 datasets-positioning = Dutekereza ko amakusanyirizo magari y'amajwi agerwaho na buri wese azateza imbere guhanga ibishya n'ihiganwa mu bucuruzi by'ikoranabuhanga ry'amajwi/ imvugo rifatiye ku kwiga kw'imashini. Ikusanyirizo mpuzandimi ry'imbonwa z'amajwi rikaba rimaze kuba ari ryo rigari rizwi mu yandi yose akora ibisa n'ibyaryo, ariko si ryo ryonyine ribaho.
@@ -37,9 +37,6 @@ go-discourse = Jya ku rubuga duhuriraho rw'Ijambo
 missing-language = Ntabwo ubona ururimi rwawe rugaragara mu ikusanyirizo ry'imbonwa? Kugira ngo usabe ururimi ko rujyaho jya ku ipaji yacu y'indimi.
 go-languages-page = Jya kuri paji y'indimi
 ready-to-validate = Witeguye kwemeza interuro?
-
-## Data
-
 data-download-button = Manura imbonwa zo muri porogaramu y'Ijwi Rusange (Common Voice)
 data-download-yes = Yego
 data-download-deny = Oya

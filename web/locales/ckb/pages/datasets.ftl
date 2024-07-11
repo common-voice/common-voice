@@ -46,11 +46,8 @@ dataset-metadata-sex = ڕەگەز
 # dataset metadata - age of contributor
 dataset-metadata-age = تەمەن
 dataset-donate-modal-heading = دەتزانی...
-
 data-download-singleword-title = داگترنی بەشی ئامانجی تەک وشەیی
 data-download-singleword-callout-v2 = ئەمە پشت دەبەستێت بە حاڵەتی بەکارهێنان کە داتا لە خۆ دەگرێت بۆ خستنەگەڕی ژمارە گوتراوەکان و دەستنیشانکردنی بەڵێ / نەخێر
-## Data
-
 data-download-button = داگرتنی داتای دەنگی گشتی
 data-download-yes = بەڵێ
 data-download-deny = نەخێر

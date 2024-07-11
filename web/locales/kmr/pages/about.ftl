@@ -129,3 +129,5 @@ about-playbook-how-project-governance-content-5 = Nirx û nasîn
 about-playbook-how-project-governance-content-6 = Berpirsyariya hevpar.
 about-playbook-how-project-governance-content-7 = <governanceLink>Zêdetir bixwîne bê ka em çawa tên birêvebirin</governanceLink>
 
+## How is Common Voice funded
+

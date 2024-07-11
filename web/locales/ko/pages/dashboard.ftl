@@ -107,4 +107,3 @@ validations =
     { $count ->
        *[other] 검증
     }
-

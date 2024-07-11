@@ -82,4 +82,3 @@ help-contribute = Załožće profil Common Voice a přinošujće swój hłós, z
 login-company = Z e-mejlowej adresu { $company } přizjewić / registrować
 profile-not-required = Za sobudźěło profil trěbny njeje, hačrunjez je wužitny
 read-more-about = Čitajće wjace wo stronje Wo Common Voice
-

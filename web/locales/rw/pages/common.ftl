@@ -118,7 +118,6 @@ share-text = Fasha kwigisha imashini uko abantu nyakuri bavuga, tanga ijwi ryawe
 link-copied = Inzira yakoporowe
 back-top = Subira hejuru
 logout = Funga imeri
-
 stayintouch = Kuri Mozilla turimo gushinga umuryango w'abantu bahuriye ku ikoranabuhanga ry'amajwi. Twifuza ko mukomeza kutugezaho amakuru, imvano nshya z'imbonwa no kumenya biruseho uko mukoresha izo mbonwa.
 privacy-info = Tubijeje kwifashisha amakuru muduha tubyitayeho. Soma ibindi birenzeho byoherejwe ku murongo wawe bwite.
 return-to-cv = Subira ku Ijwi Rusange (Common Voice).
@@ -127,4 +126,6 @@ email-input =
 submit-form-action = Ohereza
 loading = Birakinjira...
 indicates-required = *Yemeje ingeri ikenewe
+
+## Donate banner
 

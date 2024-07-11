@@ -62,4 +62,3 @@ help-accent = Yw res dhis gweres gans poslev?
 help-accent-explanation = Dha boslev yw an fordh may hwre'ta leverel geryow. Y hyll bos furvys gans an tyller mayth es ta trigys ynno, yethow erel a wre'ta kewsel ha lies tra aral. Ty a yll kevrenna py kedhlow pynag a dybydh bos gwiw omma.
 help-variants = Yw res dhis gweres gans varyansow?
 help-variants-explanation = Varyansow yw furvow komparek a yeth - rag ensampel kevrennys gans an re ow triga yn ranndir po yn kemeneth. Treweythyow yth yns i gelwys rannyethow.
-

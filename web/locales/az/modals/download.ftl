@@ -7,4 +7,3 @@ download-form-email =
     .value = Təşəkkürlər, əlaqədə saxlayacıq.
 download-back = Common Voice məlumat bazasına qayıt
 download-no = Xeyr
-

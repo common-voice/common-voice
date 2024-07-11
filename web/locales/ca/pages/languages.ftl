@@ -17,9 +17,6 @@ localized = Traducció
 sentences = Frases
 language-validation-hours = Hores
 language-validation-progress = Progrés de validació
-
-## Languages
-
 contribute = Col·laboreu‑hi
 get-involved-button = Col·laboreu‑hi
 get-involved-title = Col·labora en { $lang }

@@ -11,9 +11,7 @@ language-search-input =
 language-speakers = Abavuze/ abavuga
 localized = Cyagaragaye/hagaragaye
 sentences = Interuro
-## Languages
-
-contribute = Fasha, tanga umusanzu
+contribute = Tanga umusanzu/ fasha
 get-involved-button = Gira uruhare
 get-involved-title = Fasha mu, tanga umusanzu mu
 get-involved-text = Urakoze kuba wishimiye gufasha mu ( ). Dukora ibishoboka byose kugira ngo ibya buri rurimi bitangire no guhora duha amatsinda yose amakuru akenewe twifashishije imeri. niba ushaka gutanga umusanzu wawe, ohereza imeri yawe hasi aha.

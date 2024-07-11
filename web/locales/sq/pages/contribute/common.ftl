@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Klikoni
 action-tap = Prekeni
-## Languages
-
 contribute = Jepni Ndihmesë
 review = Shqyrtoni
 skip = Anashkaloje
@@ -150,4 +146,3 @@ contribution-just-unsure-title = Thjesht i Pasigurt?
 contribution-just-unsure-description = Nëse ndeshni diçka që nuk e mbulojnë këto udhëzime, ju lutemi, votojeni në përputhje me gjykimin tuaj. Nëse vërtet s’vendosni dot, përdorni butonin e anashkalimit dhe ecni më tej me incizimin pasues.
 see-more = <chevron></chevron>Shihni më tepër
 see-less = <chevron></chevron>Shihni më pak
-

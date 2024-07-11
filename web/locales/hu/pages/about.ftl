@@ -148,4 +148,3 @@ about-playbook-how-funded = Hogyan történik a Common Voice finanszírozása?
 about-playbook-how-funded-content-1 = A Common Voice a Mozilla Alapítvány projektje, egy amerikai nonprofit (501c3) szervezeté. A projektet jelenleg teljes egészében <philantropicGrantLink>jótékonysági támogatások</philantropicGrantLink>, és a világ minden tájáról érkező emberek adományai finanszírozzák.
 about-playbook-how-funded-content-2 = Sok pénzbe kerül az adatkészletek folyamatos tárolása és kiadása, a platform fejlesztése és a <africaMradiLink>közösségi programok</africaMradiLink> működtetése.
 about-playbook-how-funded-content-3 = Ha Ön vagy a szervezete szeretne hozzájárulni a projekthez, akkor <donateLink>adományozhat</donateLink> vagy felveheti a kapcsolatot a partnerségi csapattal a <emailFragment>commonvoice@mozilla.com</emailFragment> címen.
-

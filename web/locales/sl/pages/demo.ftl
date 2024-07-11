@@ -17,3 +17,8 @@ demo-account = Račun
 demo-account-card-header = Račun za sodelovanje ni obvezen, je pa priporočljiv.
 demo-account-sign-up = Pošlji povezavo za registracijo
 
+## Demo Contribute
+
+
+## Demo Dashboard
+

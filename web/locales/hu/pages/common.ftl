@@ -235,7 +235,6 @@ link-copied = Hivatkozás másolva
 back-top = Vissza a tetejére
 logout = Kijelentkezés
 donate = Adományozás
-
 stayintouch = Mi a Mozillánál közösséget építünk a hangtechnológia köré. Szeretnénk kapcsolatban maradni Önnel, hogy tájékoztathassuk a frissítésekről és az új adatforrásokról, illetve azért, hogy megismerhessük, hogyan használja Ön ezeket az adatokat.
 privacy-info = Ígérjük, hogy adatait körültekintően kezeljük. További információk az <privacyLink>Adatvédelmi nyilatkozatunkban</privacyLink>.
 return-to-cv = Visszatérés a Common Voice oldalra
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = Iratkozzon fel e-mailekre, köztük a kih
 email-opt-in-privacy-v2 = Azzal, hogy az e-mailek fogadását kéri, beleegyezik abba, hogy a Mozilla az <privacyLink>adatvédelmi irányelvekben</privacyLink> leírt módon kezelje ezeket az adatokat.
 indicates-required = * Kötelező mezőt jelez
 not-available-abbreviation = Nincs
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = Évente majdnem egymillió dollárba kerül az a
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Kutatáshoz használja</mark><br/><mark>a CV-t?</mark>
 languages-donate-banner-cta-explanation = A Common Voice-ot adományokból és támogatásokból finanszírozzuk! Szeretünk együttműködni akadémikusokkal, civil társadalmi és ipari kutatókkal. A Common Voice használata ingyenes, de pályázatok útján történő hozzájárulás a platform és a tárhely költségeihez nagyon hasznos.
-# [/SentenceCollector]
-
 localization-select =
     .label = Válasszon nyelvet/honosítást

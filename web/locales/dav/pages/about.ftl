@@ -138,4 +138,3 @@ about-playbook-how-project-governance-content-7 = <governanceLink> Shoma zaidi a
 
 about-playbook-how-funded = Pesa reagha Common Voice rafumagha hao?
 about-playbook-how-funded-content-1 = Common Voice ni nmradi ghwa Mozilla Foundation, w'eko na 501c3 aja Amerika. Mradi ughu ghwagaramilwa putu ni <philantropicGrantLink>mafunyo gha w'andu</philantropicGrantLink>, na manosi gha w'andu andu kose w'urumwengunyi.
-

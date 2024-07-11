@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Ṣé o lè jẹ́ ká mọ̀ ìdí tí ó fẹ́ kí a pa àkálẹ̀ ohùn rẹ rẹ́?
 profile-form-delete = Pa púrófáìlì rẹ́
-

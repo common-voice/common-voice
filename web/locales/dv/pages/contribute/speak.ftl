@@ -30,7 +30,6 @@ review-rerecord = އަލުން ރެކޯޑުކުރޭ
 review-cancel = ފޮނުވިއެތި ކެންސަލްކުރުން
 review-keep-recordings = ރެކޯޑިންތައް ބަހައްޓާ
 review-delete-recordings = އަހަރެންގެ ރެކޯޑިންތައް ފޮހެލާ
-
 review-terms = ކޮމަންވޮއިސް ބޭނުން ކުރާނަމަ، އަހަރެމެންގެ <termsLink>ޝަރުތުތަކާއި</termsLink> and <privacyLink>ޝަޚުސީ އިޢުލާންތަކަށް </privacyLink> ތި އެއްބަސްވީއެވެ.
 terms-agree = އެއްބަސްވަން
 terms-disagree = އެއްބަހެއް ނުވަން

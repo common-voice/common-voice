@@ -87,4 +87,3 @@ help-contribute = Ungasita kwakha i-database lehlukile ngekwakha likhasi lelicha
 login-company = Ngena / Bhalisa nge email ye { $company }
 profile-not-required = Kuba nelikhasi lelichaza kabanti ngawe akudzingeki, kepha kulusito, buka kutsi kungani langentasi
 read-more-about = Fundza kabanti ekhasini lelichaza Kabanti ngatsi
-

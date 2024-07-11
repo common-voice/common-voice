@@ -33,4 +33,3 @@ demo-listen-subtitle = Jeste li spremni dati svoj doprinos?
 
 demo-dashboard-card-header = Osobne nadzorne ploče održavaju vas u toku s napretkom pojedinca i zajednice.
 demo-dashboard-card-body = Za svaki donirani glasovni isječak i svaki potvrđeni audioisječak nadzorne ploče vašeg računa ažuriraju se tako da odražavaju vaš najnoviji napredak na svakom jeziku kojem doprinosite. Da, možete doprinijeti na više od jednom jeziku! <br/> <br/> Upotrijebite nadzorne ploče da biste pratili svoju statistiku, vidjeli kako radite s drugima u zajednici i postavili dnevne ili tjedne ciljeve doprinosa.
-

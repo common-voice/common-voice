@@ -6,4 +6,3 @@ contact-form-name =
 contact-form-message =
     .label = 内容
 contact-required = *入力必須
-

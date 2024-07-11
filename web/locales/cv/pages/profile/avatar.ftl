@@ -1,3 +1,5 @@
+## Profile - Avatar
+
 browse-file-title = Сӑнӳкерчӗк тиесе хӑпарт
 browse-file = Файл сӗтӗрсе яр е <browseWrap>суйла</browseWrap>
 connect-gravatar = Gravatar ҫыхӑнтар

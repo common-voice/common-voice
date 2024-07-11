@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Щёлкнуть
 action-tap = Нажмите
-## Languages
-
-contribute = Внести вклад
+contribute = Принять участие
 review = Проверить
 skip = Пропустить
 shortcuts = Сочетания клавиш
@@ -153,4 +149,3 @@ contribution-just-unsure-title = Не уверены?
 contribution-just-unsure-description = Если вы столкнетесь с чем-то, что не охвачено этими рекомендациями, проголосуйте, исходя из вашего здравого смысла. Если вы действительно не можете решить, используйте кнопку пропуска и переходите к следующей записи.
 see-more = <chevron></chevron>Более подробно
 see-less = <chevron></chevron>Менее подробно
-

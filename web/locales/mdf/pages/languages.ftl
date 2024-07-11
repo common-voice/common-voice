@@ -13,8 +13,6 @@ language-search-input =
 language-speakers = Кортайхне
 localized = Ётафтф эсь кяльс
 sentences = Валрисьмот
-## Languages
-
 contribute = Максомс лезкс
 get-involved-button = Кундамс марстонь тевс
 get-involved-title = Лездомс  { $lang }нь тевса

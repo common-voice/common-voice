@@ -2,6 +2,9 @@
 
 about-title = Изаҭахузеи Common Voice?
 how-does-it-work-text = Ҳара иаԥаҳҵоит икраудсорсинтәу, иаарту абыжьқәа реизга.
+
+## How does it work section
+
 about-speak = Уцәажәа
 about-speak-text = Алахәылаҩцәа, абанк аҟны иҟоу аԥшьқәа ирыԥхьаны иҭарҩуеит.
 about-listen-queue = Азыӡырҩра-Араанра
@@ -23,3 +26,34 @@ about-nav-why-common-voice = Избан?
 about-nav-how-it-works = Ишԥа?
 about-nav-partners = Алахәылаҩцәа
 about-nav-get-involved = Уҽалаурхәырц
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

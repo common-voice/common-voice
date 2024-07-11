@@ -33,7 +33,6 @@ review-rerecord = ولدا ریکارڈ کرو
 review-cancel = جمع منسوخ کرو
 review-keep-recordings = رکارڈنگ رکھو
 review-delete-recordings = میݙی رکارڈنگ مٹاؤ
-
 review-terms = کامن وائس ورتݨ نال تساں ساݙیاں <termsLink>شرطاں</termsLink> تے <privacyLink> رازداری نوٹس</privacyLink> نال متفق ہوسو
 terms-agree = میں متفق ہاں
 terms-disagree = میں راضی کائنی

@@ -26,3 +26,5 @@ demo-contribute-card-header = Ti hazir î/a ke vengê xo îlawe bikerê yan zî 
 demo-contribute-card-body-v2 = Ti nika Common Voice hîna zaf nas kenî/a. Çira nêceribnenî/a? Resimê mîkrofonî ser o bitikne û cumleyan bi veng biwane. <br/><br/> Eke ti hîna zaf wazenî/a qeydanê vengî yê kesanê bînan kontrol bikerê, resimê cinitişî ser o bitikne. Wina, ti dest danî/a ke qeydê vengî rîayetê cumleyanê nuştekîyan bikerê.
 demo-listen-subtitle = Ti hazir î/a ke beşdar bibê?
 
+## Demo Dashboard
+

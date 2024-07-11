@@ -90,4 +90,3 @@ help-contribute = Gallwch helpu i adeiladu set ddata cod agored amrywiol trwy gr
 login-company = Mewngofnodi/Ymuno gydag e-bost { $company }
 profile-not-required = Nid oes angen cael proffil i gyfrannu ond gall fod yn ddefnyddiol
 read-more-about = Darllenwch ragor ar ein tudalen Ynghylch
-

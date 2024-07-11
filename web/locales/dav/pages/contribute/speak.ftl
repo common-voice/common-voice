@@ -33,7 +33,6 @@ review-rerecord = Rekodi sena
 review-cancel = Tana na kupakia
 review-keep-recordings = W'ika rija klipu kwarekodi
 review-delete-recordings = Futa klipu rapo
-
 review-terms = Kwa kutumia Common Voice, kwarumiriana na <termsLink> Tamzi <termsLink> na <privacyLink> Maeleshero gha Maza ra Kiviso </privacyLink>
 terms-agree = Narumiria
 terms-disagree = Sirumirie

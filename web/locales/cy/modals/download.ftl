@@ -7,4 +7,3 @@ download-form-email =
     .value = Diolch, byddwn mewn cysylltiad.
 download-back = Dychwelyd i Setiau Data Common Voice
 download-no = Dim Diolch
-

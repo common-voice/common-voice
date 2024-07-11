@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Last opp ei bildefil
 browse-file = Dra og slepp, eller <browseWrap>bla</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Den valde fila er for stor
 avatar-uploaded = Avatar lasta opp
 max-file-size = maks { $kb } kb
 remove-avatar = Fjern Avatar
-

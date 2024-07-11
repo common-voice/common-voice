@@ -104,7 +104,6 @@ share-title = ܥܕܪ ܩܬܢ ܒܒܨܬܐ (search) ܐܚܪܢܐ ܠܫܘܬܦܘܬܐ ܩܠ
 link-copied = ܢܣܟ ܐܣܘܪܐ
 back-top = ܕܥܪ ܠܥܠܠ
 logout = ܦܠܘܛ
-
 stayintouch = ܐܚܢܢ ܒܡܘܙܝܠܐ ܒܢܝܐ ܝܘܚ ܫܘܬܦܘܬܐ ܠܚܘܕܪ̈ܘܢܐ ܕܝܘܠܦܢܐ ܐܘܡܢܘܬܐ ܕܩܠܐ (voice technology). ܐܚܢܢ ܒܥܝܚ ܡܕܥܚ ܩܐ ܕܝܘܟܘܢ ܠܚܘܕܬ̈ܐ، ܡܒܘ̈ܥܐ ܫܘܘܕܥܐ (data sources) ܚܕ̈ܬܐ ܘ ܫܡܥܚ ܒܘܬ ܦܠܚܢܐ ܕܝܘܟܘܢ ܒܫܘܘܕܥܐ.
 privacy-info = ܐܚܢܢ ܫܘܕܘܝܐ (promise) ܝܘܚ ܩܬ ܢܛܪܟ ܠܗ ܡܘܕܥܢܘܬܐ ܕܝܘܟܘܢ. ܩܪܝܡܘܢ <privacyLink> ܦܘܪܢܣܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/>.
 return-to-cv = ܕܥܪ ܠܩܠܐ ܓܘܢܝܐ
@@ -118,22 +117,8 @@ email-opt-in-info-sub-with-challenge = ܩܒܠܘܢ ܐܝܡܝܠ (email) ܐܝܟ ܡܘ
 email-opt-in-privacy-v2 = ܒܫܪܟܬܐ ܕܐܝܡܝܠ، ܐܚܬܘܢ ܠܝܬ ܠܘܟܘܢ ܕܘܪܫܐ ܒܡܕܒܪܢܘܬܐ ܕܡܘܙܝܠܐ (mozilla) ܒܕܐܗܐ ܡܘܕܥܢܘܬܐ (information) ܐܝܟ ܝܠܗ ܡܘܕܥܝܬܐ ܓܘ <privacyLink> ܫܘܝܫܐ ܕܕܝܠܢܝܘܬܐ <privacyLink/> ܕܡܘܙܝܠܐ.
 indicates-required = * ܒܪܫܡܐ ܝܠܗ ܚܩܠܢ̈ܐ ܐܢܢܩܝ̈ܐ.
 not-available-abbreviation = ܠܐ ܡܬܬܥܒܕܢܐ
-## LOGIN
 
-
-## PROFILE
-
-
-## REVIEW CRITERIA
-
-
-## REVIEW
-
-
-## SETTINGS
-
-
-# [/SentenceCollector]
+## Donate banner
 
 localization-select =
     .label = ܓܒܝ ܠܫܢܐ / ܕܘܟܬܢܐܝܬ

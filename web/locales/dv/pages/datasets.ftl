@@ -38,12 +38,6 @@ ready-to-validate = ޖުމްލަ ފާސްކުރަން ތައްޔާރު؟
 more = އިތުރަށް
 close = ބަންދުކުރޭ
 download = ޑައުންލޯޑު
-
-## Error pages
-
-
-## Data
-
 data-download-button = ކޮމަންވޮއިސް ޑޭޓާ ޑައުންލޯޑުކުރޭ
 data-download-yes = އާން
 data-download-deny = ކަމަކުނުދޭ

@@ -33,4 +33,3 @@ demo-listen-subtitle = O ikemeditše go neela?
 
 demo-dashboard-card-header = Boitšhupo bja dashboard bo tla go tsebiša seo se diregago ka tšwelopele ya motho le ya naga.
 demo-dashboard-card-body = Bakeng sa setsopolwana se sengwe le sengwe sa lentšu le neetšwego, gomme setsopolwana se sengwe le se sengwe sa odio se kgonthišwe, di-dashpoto tša akhaonto ya gago di a kaonefatšwa go bontšha tšwelo pele ya gago ya moragorago go ye nngwe le ye nngwe ya lpolelong yeo o neelago go yona. Ee, o ka neela go tše fetago e tee!<br/><br/> Šomiša di-dashpoto go latela dipalo-palo tša gago, go bona gore na o šoma bjang le batho ba bangwe setšhabeng, gomme o beele dipakane tša letšatši le letšatši goba tša beke le beke.
-

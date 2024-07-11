@@ -98,6 +98,7 @@ about-playbook-how-add-sentences = ¿Cómo agrego oraciones?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> es una herramienta para recolectar y validar oraciones de dominio público. Necesitará <scAccountLink>crear una cuenta</scAccountLink>. Luego, agrega tu idioma a tu <strong>perfil</strong>. Puede <strong>Agregar</strong> oraciones o <strong>Revisar</strong> oraciones agregadas anteriormente.
 about-playbook-how-add-sentences-content-2 = Las oraciones deben ser revisadas y aceptadas por dos personas para ser incluidas en Common Voice. Puede crear pautas para su idioma <languageGuidelinesLink>aquí</languageGuidelinesLink>. Las oraciones deben estar en el <licenseLink>dominio público</licenseLink> y tener menos de 15 palabras. Puede pedirle al propietario de un texto que lo convierta en <waiverLink>CC0 mediante nuestro proceso de exención</waiverLink> y enviárnoslo a commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Puede usar el <scraperLink>Sentence extractor</scraperLink> para aprovechar oraciones cortas de Wikipedia.
+
 ## How to record quality
 
 about-playbook-how-record-quality = ¿Cómo grabo un clip de voz de alta calidad?
@@ -143,4 +144,6 @@ about-playbook-how-project-governance-content-4 = Participación comunitaria y t
 about-playbook-how-project-governance-content-5 = Valor y reconocimiento.
 about-playbook-how-project-governance-content-6 = Responsabilidad mutua
 about-playbook-how-project-governance-content-7 = <governanceLink>Lea más sobre cómo es nuestra gobernanza</governanceLink>
+
+## How is Common Voice funded
 

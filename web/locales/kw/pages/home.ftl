@@ -93,4 +93,3 @@ username-email-not-demographic = Ny vydh dha hanow-usyer po ebost kelmys gans an
 
 welcome-staff = Dynnargh mayni { $company }!
 login-company = Omgelmi / Omrolya gans ebost { $company }
-

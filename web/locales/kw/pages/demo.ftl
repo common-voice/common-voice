@@ -18,3 +18,5 @@ demo-account-sign-up = Danvon kevren omrolya
 
 demo-listen-subtitle = Parys dhe gevri?
 
+## Demo Dashboard
+

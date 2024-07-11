@@ -17,4 +17,3 @@ download-request-title = { $created }
 download-request-refresh-button = రీఫ్రెష్
 download-request-modal-title = దింపుకోలు లంకెలు
 download-request-link-text = { $total }లో #{ $offset } జిప్
-

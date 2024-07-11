@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Теуэ
 action-tap = Iусэ
-## Languages
-
-contribute = Хэлъхьэ
+contribute = Хэгъахъуэ
 skip = Блэк1
 shortcuts = Теуэ зэгуэт
 clips-with-count-pluralized =
@@ -30,6 +26,9 @@ target-segment-generic-card = You’re contributing to a target segment
 target-segment-first-banner = Help create Common Voice’s first target segment in { $locale }
 target-segment-add-voice = Add Your Voice
 target-segment-learn-more = Learn More
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -140,4 +139,3 @@ contribution-just-unsure-title = Just Unsure?
 contribution-just-unsure-description = If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.
 see-more = <chevron></chevron>See more
 see-less = <chevron></chevron>See less
-

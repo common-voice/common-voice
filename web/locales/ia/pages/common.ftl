@@ -235,7 +235,6 @@ link-copied = Ligamine copiate
 back-top = Retornar al initio
 logout = Clauder session
 donate = Donar
-
 stayintouch = Nos a Mozilla construe un communitate de interessatos in technologias de voce. Nos volerea remaner in contacto pro inviar te actualitates, informar te de nove fontes de datos e saper plus sur como tu usa iste datos.
 privacy-info = Nos promitte de gerer tu informationes con cura. Lege plus in nostre <privacyLink>aviso de confidentialitate</privacyLink>.
 return-to-cv = Retornar a Common Voice
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = Recipe e-mails como rememorationes de def
 email-opt-in-privacy-v2 = Si tu opta pro reciper e-mails, tu accepta que Mozilla usa iste informationes como explicate in su <privacyLink>politica de confidentialitate</privacyLink>.
 indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = Il costa quasi un million de dollars per anno le
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Usa vos CV pro</mark><br/><mark>vostre recerca?</mark>
 languages-donate-banner-cta-explanation = Common Voice es financiate per donationes e subventiones! Nos ama collaborar con academicos, recercatores de societate civil e industria. Le uso de Common Voice es gratuite, ma contribuer al platteforma e al costos de allogiamento proponente subventiones es realmente utile.
-# [/SentenceCollector]
-
 localization-select =
     .label = Eliger lingua/localisation

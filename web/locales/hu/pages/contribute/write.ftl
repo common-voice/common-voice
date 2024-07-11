@@ -1,6 +1,6 @@
-write = Írás
 ## WRITE PAGE
 
+write = Írás
 write-instruction = Közkincsű mondat hozzáadása <icon></icon>
 write-page-subtitle = Az itt beküldött mondatok egy nyilvánosan elérhető, cc-0 licenc alatt közzétett adatkészlethez adódnak.
 sentence =
@@ -88,4 +88,3 @@ file-invalid-type = Érvénytelen fájl
 file-too-large = A fájl túl nagy
 file-too-small = A fájl túl kicsi
 too-many-files = Túl sok fájl
-

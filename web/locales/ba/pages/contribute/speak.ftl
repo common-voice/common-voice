@@ -33,7 +33,6 @@ review-rerecord = Кире яҙыу
 review-cancel = Ебәреүҙе туҡтатыу
 review-keep-recordings = Яҙманы һаҡлағыҙ
 review-delete-recordings = Яҙмаларымды юйырға
-
 review-terms = Common Voiceты ҡулланыр өсөн, Һеҙ <termsLink>Ҡулланыу шарттары</termsLink> һәм <privacyLink>Хосусилек сәйәсәте</privacyLink> менән килешергә тейешһегеҙ
 terms-agree = Килешәм
 terms-disagree = Килешмәйем

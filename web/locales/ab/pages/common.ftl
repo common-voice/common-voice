@@ -149,7 +149,6 @@ share-text = Урыцхраа амашьынақәа хықәакыла ауаа
 link-copied = Азхьарԥш ахҩыла ҟаҵоуп
 back-top = Аҩада
 logout = Аҭыҵра
-
 stayintouch = Ҳара Mozilla аҟны иаԥаҳҵоит абызшәтә технологиақәа ирызку аилазаара. Ҳара иаҳҭахуп уара иудыруазарц аҿыцрақәа зегьы, хыҵхырҭа ҿыцқәас иҟоу, иара убас  иаҳҭахуп иаадыруазарц урҭ зегьы уара ухы ишаурхәо.
 privacy-info = Ҳара ажәа уаҳҭоит, уинфрмациа еиҷаҳарала ҳшазныҟо. Нарҭбааны <privacyLink>аполитика амырӡара</privacyLink>.
 return-to-cv = Common Voice иазыхынҳәтәуп
@@ -162,4 +161,6 @@ email-opt-in-info-title = Common Voice ашьҭымҭақәа уҽрыларар
 email-opt-in-info-sub-with-challenge = Common Voice иуадаҩу ахықәкқәеи аҩаӡарақәеи ирыдҳәалоу ажәабжьқәеи ртәы зҳәо ашәҟәқәа риура.
 indicates-required = *Хымԥада ихарҭәаатәуп аҭыԥ
 not-available-abbreviation = Анеишьа Амам
+
+## Donate banner
 

@@ -75,11 +75,8 @@ dataset-donate-modal-heading = Sabía…
 donate-modal-explanation-1 = ... que custa case un millón de dólares ao ano aloxar os conxuntos de datos e mellorar a plataforma para as máis de 100 comunidades lingüísticas que confían no noso traballo?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = { "" }
-
 data-download-singleword-title = Descargue o segmento específico de palabras únicas
 data-download-singleword-callout-v2 = Esta é a segmentación de casos de uso que contén datos para mellorar o recoñecemento de díxitos e a detección das palabras 'si' e 'non'.
-## Data
-
 data-download-button = Descargar os datos de Common Voice
 data-download-yes = Si
 data-download-deny = Non

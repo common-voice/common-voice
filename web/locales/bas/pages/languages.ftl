@@ -13,8 +13,6 @@ language-search-input =
 language-speakers = Bapot
 localized = Miñwahak mi mintjep
 sentences = Mintôn mi bibuk
-## Languages
-
 contribute = Sañge
 get-involved-button = Yoñ ñgaba
 get-involved-title = Sañge inyu hop { $lang }

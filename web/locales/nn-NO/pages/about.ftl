@@ -98,3 +98,5 @@ about-playbook-how-access-dataset = Korleis får eg tilgang til og brukar datase
 about-playbook-how-project-governance = Korleis vert prosjektavgjerder tekne ?
 about-playbook-how-project-governance-content-7 = <governanceLink>Les meir om korleis vi blir styrt.</governanceLink>
 
+## How is Common Voice funded
+

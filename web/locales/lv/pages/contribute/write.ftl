@@ -1,6 +1,6 @@
-write = Raksti
 ## WRITE PAGE
 
+write = Raksti
 write-instruction = Pievienojiet <icon></icon> publiskā īpašuma teikumu
 write-page-subtitle = Šeit ievietotie teikumi tiks pievienoti publiski pieejamai cc-0 licencētai datu kopai.
 sentence =
@@ -77,4 +77,3 @@ file-invalid-type = Nederīga datne
 file-too-large = Datne ir pārāk liela
 file-too-small = Datne ir pārāk maza
 too-many-files = Pārāk daudz datņu
-

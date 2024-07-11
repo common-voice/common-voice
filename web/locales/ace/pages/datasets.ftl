@@ -2,45 +2,7 @@
 
 data-other-ted-name = Korpus TED-LIUM
 close = Tôp
-
-## Community Playbook Content
-## What is a language
-
-
-## How do I add a language
-
-
-## How does localization work
-
-
-## How to add sentences
-
-
-## How to record quality
-
-
-## How to grow language
-
-
-## How to validate
-
-
-## How to access dataset
-
-
-## How are decisions made
-
-
-## Glossary
-
-
-## Error pages
-
-
-## Data
-
 data-download-yes = Nyo
 data-download-deny = H‘an
 data-download-license = Lisènsi: <licenseLink>CC-0</licenseLink>
 license = Lisènsi: <licenseLink>{ $license }</licenseLink>
-

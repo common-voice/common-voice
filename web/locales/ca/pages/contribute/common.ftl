@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Feu clic a
 action-tap = Toqueu
-## Languages
-
 contribute = Col·laboreu‑hi
 review = Revisa
 skip = Omet
@@ -149,4 +145,3 @@ contribution-just-unsure-title = Teniu dubtes?
 contribution-just-unsure-description = Si us trobeu amb alguna cosa que aquestes directrius no cobreixen, voteu segons el vostre criteri. Si realment no ho podeu decidir, feu servir el botó Omet i passeu a l'enregistrament següent.
 see-more = <chevron></chevron>Més
 see-less = <chevron></chevron>Menys
-

@@ -108,4 +108,3 @@ validations =
         [one] ዓመልየት ታሕቂቅ
        *[other] ዓመልያት ታሕቂቅ
     }
-

@@ -7,4 +7,3 @@ download-form-email =
     .value = Gràtzias, abarramus in cuntatu.
 download-back = Torra a is pachetes de datos de Common Voice
 download-no = No, gràtzias
-

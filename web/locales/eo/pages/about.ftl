@@ -82,3 +82,5 @@ about-playbook-how-add-language = Kiel aldoni lingvon?
 about-playbook-how-project-governance-content-6 = Reciproka respondeco.
 about-playbook-how-project-governance-content-7 = <governanceLink>Pli da informo pri nia administro</governanceLink>
 
+## How is Common Voice funded
+

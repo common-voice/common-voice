@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = ਦਬਾਓ
 action-tap = ਛੂਹੋ
-## Languages
-
-contribute = ਯੋਗਦਾਨ ਦਿਓ
+contribute = ਯੋਗਦਾਨ
 skip = ਛੱਡੋ
 shortcuts = ਸ਼ਾਰਟਕੱਟ
 speak-empty-state = ਇਸ ਭਾਸ਼ਾ ਵਿਚ ਰਿਕਾਰਡ ਕਰਨ ਲਈ ਅਸੀਂ ਵਾਕਾਂ ਦੀ ਸਮਾਪਤੀ ਖਤਮ ਕਰ ਦਿੱਤੀ ਹੈ...
@@ -72,12 +68,6 @@ shortcut-vote-yes = y
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
-## Demo Contribute
-
-
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = ਸ਼ਰਤਾਂ
@@ -85,4 +75,3 @@ contribution-criteria-link = ਯੋਗਦਾਨ ਸ਼ਰਤ ਨੂੰ ਸਮਝੋ
 contribution-criteria-page-title = ਯੋਗਦਾਨ ਦੀ ਸ਼ਰਤ
 contribution-for-example = ਮਿਸਾਲ ਵਜੋਂ
 contribution-misreadings-title = ਗਲਤ-ਪੜ੍ਹਿਆ
-

@@ -88,4 +88,3 @@ validations =
         [one] ଟି ପରଖ
        *[other] ପରଖ
     }
-

@@ -55,11 +55,8 @@ more = More
 close = Close
 download = Download
 dataset-version = Version
-
 data-download-singleword-title = Download the Single Word Target Segment
 data-download-singleword-callout-v2 = This is a use case driven segment containing data to power spoken digit recognition and yes / no detection.
-## Data
-
 data-download-button = Download Common Voice Data
 data-download-yes = Aane
 data-download-deny = Daabi

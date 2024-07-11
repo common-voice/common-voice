@@ -29,4 +29,3 @@ request-language-success-list-3 =
 request-language-error =
     Можда нисмо примили тај захтев. Пошаљите нам е-поруку директно
     на <emailLink>{ $email }</emailLink> и ми ћемо вам се јавити!
-

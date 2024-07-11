@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = העלאת קובץ תמונה
 browse-file = ניתן לגרור ולהשליך לכאן או <browseWrap>לעיין</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = הקובץ שנבחר גדול מדי
 avatar-uploaded = הועלתה תמונת יצגן
 max-file-size = { $kb } ק״ב לכל היותר
 remove-avatar = הסרת יצגן
-

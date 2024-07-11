@@ -7,4 +7,3 @@ download-form-email =
     .value = Ndza khensa, hi ta va hi tihlanganisa.
 download-back = Vuya eka Tidathaseti ta Common Voice
 download-no = Hayi Ndza Nkhensa
-

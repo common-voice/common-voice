@@ -7,4 +7,3 @@ download-form-email =
     .value = سوپاس، پەیوەندیت پێ دەکەین
 download-back = بگەڕێوە بۆ زانیاریسێتەکانی دەنگی گشتی
 download-no = نەخێر سوپاس
-

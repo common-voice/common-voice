@@ -54,15 +54,8 @@ sc-criteria-item-3 = toki ni o ken tawa kalama uta.
 sc-criteria-item-4 = sitelen li pona la, o pilin e nena &quot;o pona&quot; lon poka.
 sc-criteria-item-5-2 = sitelen li pona ala la, o pilin e nena &quot;o weka&quot; lon poka. sina sona ala la, o tawa sitelen sin.
 sc-criteria-item-6 = sitelen sin li lon ala la, o kama jo, o pana e ona sin!
-
-## LANGUAGE VARIANT CODES
-
-
-## REVIEW PAGE
-
 report-sc-different-language = toki ante
 review-error = sina lukin e sitelen la pakala li kama
 review-error-rate-limit-exceeded = sina kepeken tenpo pi lili ike. o lukin e sitelen lon tenpo pona, o sona e pona ona.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = mi kama e ante suli
-

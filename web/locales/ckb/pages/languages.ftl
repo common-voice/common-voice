@@ -14,9 +14,6 @@ language-speakers = بێژەران
 localized = خۆماڵی کراو
 sentences = ڕستەکان
 language-validation-hours = سەعات
-
-## Languages
-
 contribute = بەشداری
 get-involved-button = بەشدار بە
 get-involved-title = بەشداری بکە بۆ زمانی { $lang }

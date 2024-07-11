@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = ایک تصویرکی فائل اپ لوڈ کریں
 browse-file = ڈریگ اور ڈراپ کریں یا </browseWrap> براؤز کریں<browseWrap>
@@ -8,4 +8,3 @@ file_too_large = منتخب کی گئی فائل بہت بڑی ہے۔
 avatar-uploaded = اوتار اپ لوڈ ہوگیا
 max-file-size = { $kb }kb زیادہ سے زیادہ
 remove-avatar = اوتار کو ہٹا دیں۔
-

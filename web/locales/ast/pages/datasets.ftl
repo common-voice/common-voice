@@ -49,11 +49,8 @@ more = Más
 close = Zarrar
 download = Baxar
 dataset-version = Versión
-
 data-download-singleword-title = Baxa'l segmentu específicu coles pallabres individuales
 data-download-singleword-callout-v2 = Esto ye una segmentación de casos que contién datos pa potenciar la reconocencia de díxitos y del «sí/non»
-## Data
-
 data-download-button = Baxar datos de Common Voice
 data-download-yes = Sí
 data-download-deny = Non

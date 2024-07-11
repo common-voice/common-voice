@@ -49,10 +49,7 @@ dataset-metadata-sex = Cinsîyet
 # dataset metadata - age of contributor
 dataset-metadata-age = Serrî
 dataset-donate-modal-heading = To zana...?
-
 data-download-singleword-title = Beşê Hedefî yê Yewçekuyan bîyare war
-## Data
-
 data-download-button = Dayeyanê Common Voice Bîyare War
 data-download-yes = Heya
 data-download-deny = Ney

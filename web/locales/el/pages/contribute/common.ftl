@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Κάντε κλικ
 action-tap = Πατήστε
-## Languages
-
 contribute = Συνεισφορά
 review = Έλεγχος
 skip = Παράλειψη
@@ -151,4 +147,3 @@ contribution-just-unsure-title = Δεν γνωρίζετε;
 contribution-just-unsure-description = Αν συναντήσετε κάτι που δεν καλύπτουν αυτοί οι κανόνες, παρακαλούμε ψηφίστε σύμφωνα με τη δική σας κρίση. Αν δεν μπορείτε πραγματικά να αποφασίσετε, χρησιμοποιήστε το κουμπί «Παράλειψη» και μεταβείτε στην επόμενη ηχογράφηση.
 see-more = <chevron></chevron>Προβολή περισσότερων
 see-less = <chevron></chevron>Προβολή λιγότερων
-

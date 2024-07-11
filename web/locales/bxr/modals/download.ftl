@@ -7,4 +7,3 @@ download-form-email =
     .value = Һайн даа, холбоотой байя.
 download-back = Ниитын дуу хоолойн үгэгдэл руу бусаха
 download-no = Үгы дөө
-

@@ -116,4 +116,3 @@ validations =
         [one] Validigo
        *[other] Validigoj
     }
-

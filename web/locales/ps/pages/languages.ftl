@@ -17,9 +17,6 @@ localized = سېمیزي ژبې ته ژباړل شوی
 sentences = جملې
 language-validation-hours = ساعتونه
 language-validation-progress = د تایید پرمختګ
-
-## Languages
-
 contribute = مرسته وکړئ
 get-involved-button = ونډه واخلئ
 get-involved-title = د { $lang } سره مرسته وکړئ

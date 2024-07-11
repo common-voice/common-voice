@@ -55,11 +55,8 @@ more = Tse ding
 close = Kwala
 download = Download
 dataset-version = Mofuta
-
 data-download-singleword-title = Daonlouda karolo e lebisitsweng ya lentswe le le leng
 data-download-singleword-callout-v2 = Ena ke karolo e tsamaiswang ke use case e nang le data ho matlafatsa temoho ya palo e buuweng le temoho ya ee / tjhe.
-## Data
-
 data-download-button = Download-a Data ya Common Voice
 data-download-yes = Ee
 data-download-deny = Tjhe

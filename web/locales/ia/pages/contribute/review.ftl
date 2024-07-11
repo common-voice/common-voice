@@ -45,9 +45,6 @@ sc-criteria-item-3 = Le phrase debe esser pronunciabile.
 sc-criteria-item-4 = Si le phrase satisface le criterios, clicca le button &quot;Approbar&quot; a dextera.
 sc-criteria-item-5-2 = Si le phrase non satisface le criterios de supra, clicca le button &quot;Rejectar&quot; a sinistra. Si tu non es secur del phrase, tu pote alsi saltar lo e mover sur illo sequente.
 sc-criteria-item-6 = Si tu non es secur del phrase, tu pote alsi saltar lo e mover a illo sequente.
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Verifica <icon></icon>es iste un phrase linguisticamente correcte?
 sc-review-rules-title = An le phrase satisface le lineas guida?
@@ -61,4 +58,3 @@ review-error-rate-limit-exceeded = Tu vade troppo rapide. Attende un momento pro
 sc-redirect-page-title = Nos va facer alcun grande cambios
 sc-redirect-page-subtitle-1 = Le Collector de phrases se move al nucleo del platteforma Common Voice. Ora tu pote <writeURL>scriber</writeURL> un phrase o <reviewURL>revider</reviewURL> singule invios de phrases sur Common Voice.
 sc-redirect-page-subtitle-2 = Demanda nos questiones sur <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> o <emailLink>email</emailLink>.
-

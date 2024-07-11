@@ -29,7 +29,6 @@ review-rerecord = Mutthikeke okaravari
 review-cancel = Ohiha woovonyeya
 review-keep-recordings = Muhihe sookaravariwa
 review-delete-recordings = Muttipihe sotakiherya saka
-
 review-terms = Murumeelaka nikhuru na  Common Voice, nyuwo mwinnipheyelela mukupalaka <termsLink>Meettelo ahu</termsLink> ni <privacyLink> Ipuliitika sa Pirivisitaati sahu</privacyLink>
 terms-agree = kiiri okupalyeene
 terms-disagree = Nnakhala nkiikupali

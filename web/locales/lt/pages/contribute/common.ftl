@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Spustelėk
 action-tap = Bakstelėk
-## Languages
-
-contribute = Top talkininkai
+contribute = Prisidėti
 skip = Praleisti
 shortcuts = Spartieji klavišai
 clips-with-count-pluralized =
@@ -31,6 +27,9 @@ target-segment-first-card = Jūs prisidedate prie mūsų pirmojo tikslinio segme
 target-segment-first-banner = Padėkite sukurti pirmąjį „Common Voice“ { $locale } tikslinį segmentą
 target-segment-add-voice = Pridėk savo balsą
 target-segment-learn-more = Išsamiau
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -81,4 +80,6 @@ shortcut-vote-yes = t
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

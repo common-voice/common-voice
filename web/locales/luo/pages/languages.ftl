@@ -13,9 +13,6 @@ localized = Oseketgi e alworagi
 sentences = Weche
 language-validation-hours = Seche
 language-validation-progress = Kaka nono dhi nyime
-
-## Languages
-
 contribute = Chiu pachi
 get-involved-button = Donjri
 get-involved-title = chiw pachi e { $lang }

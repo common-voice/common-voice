@@ -13,4 +13,3 @@ download-request-refresh-button = Attualizà
 download-request-modal-title = Ligami di scaricamentu
 download-request-link-text = Zip #{ $offset } di { $total }
 download-request-metadata-link = Testu di l'infrasata
-

@@ -8,6 +8,9 @@ you = Эсӗ
 everyone = Пур ҫын
 recorded-clips = Ҫырса илнӗ сыпӑксем
 
+## Custom Goals
+
+
 ## Goals
 
 streaks = Пӗр вӗҫрен ӗҫлесси
@@ -26,4 +29,3 @@ validations =
         [one] Тӗрӗслев
        *[other] Тӗрӗслев
     }
-

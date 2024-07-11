@@ -132,4 +132,3 @@ validations =
         [few] Pśeglědanja
        *[other] Pśeglědanjow
     }
-

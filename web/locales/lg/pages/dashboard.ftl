@@ -114,4 +114,3 @@ validations =
         [one] Okukakasa
        *[other] Ebikakasiddwa
     }
-

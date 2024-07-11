@@ -21,7 +21,6 @@ review-rerecord = ပြန်သွင်းပါ
 review-cancel = တင်သွင်းမှုကို ပယ်ဖျက်
 review-keep-recordings = အသံဖမ်းယူမှုများ ထားပါ
 review-delete-recordings = ကျွန်ုပ် ၏ အသံဖမ်းယူမှုများ ဖျက်ရန်
-
 review-terms = Common Voice ကိုအသုံးပြုခြင်းအားဖြင့်ကျွန်ုပ်တို့၏ <termsLink> Terms </termsLink> နှင့် <privacyLink> Privacy Notice </privacyLink> ကိုသဘောတူတယ်။
 terms-agree = ကျွန်တော် သဘောတူသည်
 terms-disagree = ကျွန်တော် သဘောမတူပါ

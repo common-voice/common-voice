@@ -45,9 +45,6 @@ sc-criteria-item-3 = A frase debe ser fácil de pronunciar.
 sc-criteria-item-4 = Se a frase cumpre os criterios, prema no botón &quot;Aprobar&quot; á dereita.
 sc-criteria-item-5-2 = Se a frase non cumpre os criterios anteriores, prema no botón &quot;Rexeitar&quot; á esquerda. Se non está seguro, tamén pode omitir a frase e pasar á seguinte.
 sc-criteria-item-6 = Se xa non quedan frases para revisar, axúdenos a recoller máis.
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Revise a frase: <icon></icon> é esta unha frase lingüísticamente correcta?
 sc-review-rules-title = A frase cumpre as directrices?
@@ -61,4 +58,3 @@ review-error-rate-limit-exceeded = Vai moi á présa. Tómese un momento para re
 sc-redirect-page-title = Estamos a facer grandes cambios
 sc-redirect-page-subtitle-1 = O colector de frases está migrando para a plataforma principal do Common Voice. Agora vostede pode <writeURL>escribir</writeURL> unha frase ou <reviewURL>revisar</reviewURL> envíos de frases soltas no Common Voice.
 sc-redirect-page-subtitle-2 = Fáganos preguntas en <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ou por <emailLink>correo electrónico</emailLink>.
-

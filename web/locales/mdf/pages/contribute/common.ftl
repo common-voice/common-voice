@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Люпштамс
 action-tap = Токамс
-## Languages
-
 contribute = Максомс лезкс
 skip = Ётамс вакска
 shortcuts = Клавишань сочетания
@@ -30,6 +26,9 @@ target-segment-generic-card = Кандат лезкс минь сегменто�
 target-segment-first-banner = Лезтт тиемс Common Voice-са васенце целевой сегментть { $locale }
 target-segment-add-voice = Поладомс эсь вайгяльцень
 target-segment-learn-more = Сяда крхкаста
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -129,4 +128,3 @@ contribution-volume-description = Морафтыхнень вайгяльсно�
 contribution-just-unsure-title = Аф кемат? /Кафтолдат?
 see-more = Няемс сяда лама
 see-less = <chevron></chevron>Няемс сяда аф лама
-

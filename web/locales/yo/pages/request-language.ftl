@@ -24,4 +24,3 @@ request-language-success-list-3 =
     kàn sí wa ni <emailLink>{ $email }</emailLink>
     àwa náà yóó sì kàn sí ọ padà!
 request-language-error = A lè má tíì rí ìbéèrè náà gbà. Jọ̀wọ́ fi íméèlì ránṣẹ́ sí wa tààrà ní <emailLink>{ $email }</emailLink> a ó sì kàn sí ọ!
-

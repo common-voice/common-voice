@@ -19,4 +19,3 @@ request-language-success-list-1 = 您應該很快就會收到要如何將語言�
 request-language-success-list-2 = 我們的社群經理將主動聯絡您，提供各種協助，並且讓您知道是否已有其他社群在貢獻您提出的語言。
 request-language-success-list-3 = 若接下來幾天，您沒有收到來自我們的消息，也歡迎您主動寄信到 <emailLink>{ $email }</emailLink> 聯絡我們，我們會盡快回覆！
 request-language-error = 我們可能還沒有收到該請求，請直接寄信到 <emailLink>{ $email }</emailLink> 聯絡我們，我們會盡快回覆！
-

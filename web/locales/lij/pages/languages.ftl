@@ -15,9 +15,6 @@ localized = Localizzæ
 sentences = Frase
 language-validation-hours = Oe
 language-validation-progress = Progresso da verifica
-
-## Languages
-
 contribute = Contribuisci
 get-involved-button = Parteçipa
 get-involved-title = Contribuisci in { $lang }

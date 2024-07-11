@@ -13,9 +13,6 @@ localized = Localizado
 sentences = Oraciones
 language-validation-hours = Horas
 language-validation-progress = Progreso de la validación
-
-## Languages
-
 contribute = Xitechpalehui
 get-involved-button = Kenikatza hueli titechpalehui
 get-involved-title = Xitechpalehuiz ipan { $lang }

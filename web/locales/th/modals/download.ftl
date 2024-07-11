@@ -7,4 +7,3 @@ download-form-email =
     .value = ขอบคุณ เราจะส่งข่าวสารให้คุณ
 download-back = กลับไปยังชุดข้อมูล Common Voice
 download-no = ไม่ ขอบคุณ
-

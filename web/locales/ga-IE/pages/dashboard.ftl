@@ -69,4 +69,3 @@ validations =
         [many] nDeimhniú
        *[other] Deimhniú
     }
-

@@ -1,1 +1,5 @@
-    .label = ইমেইল
+## WRITE PAGE
+
+
+## BULK SUBMISSION 
+

@@ -33,4 +33,3 @@ demo-listen-subtitle = Mba’éichapa eipytyvõta
 
 demo-dashboard-card-header = Ne mba’etérõ rerekoha moõpa rehechakuaa mboýma rejapo, ha mboýpa ojehupytýma.
 demo-dashboard-card-body = Mayma ñe’ẽjoaju ñembohyapupyre ha oñemoneĩmava rehechakuaa nde mba’etépe. Reipytyvõkuaa peteĩ térã hetave ñe’ẽtépe. <br/><br/> Eiporu nde mba’ete rehecha hag̃ua mboýpa rejapóma, mboýpa ojapóma ambue tapicha oporopytyvõva avei ha mboýpa ojehupytýma.
-

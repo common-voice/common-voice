@@ -76,4 +76,3 @@ help-contribute = Voit auttaa luomaan monipuolisen ja avoimen aineiston luomalla
 login-company = Kirjaudu sisään / Luo tunnukset yrityksen { $company } sähköpostilla
 profile-not-required = Profiili ei ole välttämätön osallistumiseen, mutta siitä on hyötyä
 read-more-about = Lue lisää Lisätietoja-sivulta
-

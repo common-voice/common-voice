@@ -1,8 +1,3 @@
-## SETTINGS
-
-
-# [/SentenceCollector]
-
 # PARTNERSHIPS PAGE
 partnerships-header = Rakan kongsi
 partnerships-header-text = Ia mengambil banyak masa untuk mewujudkan Common Voice! Kami tidak melakukannya seorang diri. Ingin bekerjasama dengan kami? Kami ingin mendengar daripada anda.

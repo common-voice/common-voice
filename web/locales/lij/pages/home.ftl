@@ -78,4 +78,3 @@ help-contribute = Crea un profî Common Voice e doña a teu voxe pe aggiuttâne 
 login-company = Intra / Scrivite con l’addresso de pòsta de { $company }
 profile-not-required = Avei un profî o no l’é neçessäio, ma o l’é megio.
 read-more-about = Lezi de ciù in sciâ nòstra pagina Informaçioin
-

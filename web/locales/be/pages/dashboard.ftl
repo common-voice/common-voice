@@ -122,4 +122,3 @@ validations =
         [few] Праверкі
        *[many] Праверак
     }
-

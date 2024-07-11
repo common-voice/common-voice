@@ -38,4 +38,3 @@ request-language-success-list-3 =
 request-language-error =
     Очыни, ме тиде йодмашым налын онал. Порылий, тый мемнан
     <emailLink>{ $email }</emailLink> э-почтыш возен колто да ме тый денет кылдалтына!
-

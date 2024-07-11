@@ -224,7 +224,6 @@ share-text = Agiutta à mostrâ a-e machine comme parla e persoñe: doña a teu 
 link-copied = Ligamme copiou
 back-top = Vanni in çimma
 logout = Sciòrti
-
 stayintouch = Mozilla a l’é apreuvo à mette sciù unna communitæ de persoñe interessæ a-e tecnologie vocale. Ne saieiva cao restâ in contatto con ti con notiçie, neuve vivagne de dæti, e pe saveine de ciù in sce comme t'addeuvi i dæti de Common Voice.
 privacy-info = Promettemmo de gestî e teu informaçioin personæ con attençion. Lezi de ciù inta nòstra <privacyLink>informativa in sciâ privacy</privacyLink>.
 return-to-cv = Vanni inderê à Common Voice
@@ -238,7 +237,8 @@ email-opt-in-info-sub-with-challenge = Reçeivi di messaggi de pòsta elettròni
 email-opt-in-privacy-v2 = Con deçidde de reçeive a pòsta elettrònica, ti açetti che Mozilla a l’addeuvie ste informaçioin in conformitæ à l’<privacyLink>informativa in sciâ privacy</privacyLink>.
 indicates-required = * ìndica 'n cànpo òbligatöio
 not-available-abbreviation = n.d.
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Çerni a lengua/localizzaçion

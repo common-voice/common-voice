@@ -16,3 +16,5 @@ vote-no = No
 
 demographic-deidentified-clarity-2 = Opcionalmente, informacion demografico (e.o. edad, genero, idioma, accento) lo nunca ta publico riba bo profiel, y e no lo ta conecta cu bo cuenta den e set di datonan. Notanan di bos individual lo ta asocia cu informacion demografico pa e brinda un analisis mas preciso- por ehempel, un investigado lo kier dirigi e modelo di entrenamento pa un segmento demografico specifico.
 
+## Landing
+

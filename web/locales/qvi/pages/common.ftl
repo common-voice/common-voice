@@ -189,6 +189,11 @@ ve = Tshivenda
 vec = Veneciano
 vi = Vietnamita
 
+# [/]
+
+
+## Layout
+
 stayintouch = Morzillapika shuk ayllullaktata shinanakunchik shimikunata ñawpaman apankapa. Mushuk ruraykunata kikinman willachinkapa munanchik, mushuk riksichikunatapash shinallata yachankapa munanchik ima shina kay yachaykunawan llankakunkita.
 privacy-info = Ñukanchik kikimpa riksichita allitami allchipashun. Ashtawan yachankapa munashpaka, kaypi llapi<privacyLink> Pipakakta willachi</privacyLink>.
 return-to-cv = Common Voiceman tikray
@@ -202,3 +207,6 @@ email-opt-in-info-sub-with-challenge = Ruray paktachik chaskillita kachamuway, �
 email-opt-in-privacy-v2 = Ñukanchik chaskillikunata chaskishpaka Mozilla kikinpa yachaykunata allilla apanchunmi nikunki imahinami nikun kay <privacyLink> shinallata Privacy Policy nishkapi</privacyLink>.
 indicates-required = Kay iñuwan (*) pushtukunaka maymanta mutsurishkami.
 not-available-abbreviation = Na mutsurishka
+
+## Donate banner
+

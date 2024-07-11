@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Preme
 action-tap = Appughjà
-## Languages
-
 contribute = Cuntribuisce
 skip = Scappà
 shortcuts = Scurtatoghji
@@ -139,4 +135,3 @@ contribution-just-unsure-title = Ùn site micca sicuru ?
 contribution-just-unsure-description = Sè vo incuntrate calcosa ch'ùn hè micca pigliatu in contu in isse istruzzione, vutate cum'ella vi pare u megliu. Sè un vi pudeti decidà, pichjate annant'à u buttone scappà è andate à u prossimu campionu.
 see-more = <chevron></chevron>Vedene di più
 see-less = <chevron></chevron>Vedene di menu
-

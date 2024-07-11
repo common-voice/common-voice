@@ -48,9 +48,6 @@ more = dapli
 close = serrar
 download = telecargar
 dataset-version = Versiun
-
-## Data
-
 data-download-button = Telecargar l'unitad da datas da Common Voice
 data-download-yes = gie
 data-download-deny = na

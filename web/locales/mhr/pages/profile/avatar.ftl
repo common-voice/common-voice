@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Сӱрет файлым вераҥдаш
 browse-file = Вончыктаре але <browseWrap>Ончен нал</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Ойырымо файл утыжден кугу
 avatar-uploaded = Вераҥдыме аватар
 max-file-size = Эн кугужо { $kb }кб
 remove-avatar = Аватарым кораҥдаш
-

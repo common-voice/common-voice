@@ -72,4 +72,3 @@ welcome-staff = Şima xeyrî ameyî ekîpa { $company }!
 login-company = Bi e-maîlê { $company } dekewe/qeyd bibe
 profile-not-required = Seba beşdarbîyayîşî hewce nîyo ke ti profîlêk virazê, labelê tayê feydeyê ci est ê, cêr ra biewnî.
 read-more-about = Rîpelê ma yê "Derheq de" ser o hîna zaf biwane
-

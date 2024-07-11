@@ -1,6 +1,4 @@
-## Languages
-
-contribute = Үлес қосыў
+contribute = Қатнасыў
 review = Тексериў
 skip = Өткерип жибериў
 clips-with-count-pluralized =
@@ -35,6 +33,9 @@ success = Таяр
 continue = Даўам етиў
 report-success = Шағым табыслы жиберилди
 
+## Speak & Listen Shortcuts
+
+
 ## Speak Shortcuts
 
 shortcut-rerecord-toggle = [1-5]
@@ -42,15 +43,9 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-submit-label = Клиплерди жибериў
 request-language-button = Тилди сораў
 
-## Speak & Listen Shortcuts
-
-
 ## Listen Shortcuts
 
 shortcut-play-toggle-label = Қойыў/Тоқтатыў
-
-## Demo Dashboard
-
 
 ## Validation criteria
 
@@ -63,4 +58,3 @@ contribution-background-voices-title = Сыртқы даўыслар
 contribution-volume-title = Даўыс бәлентлиги
 contribution-reader-effects-title = Оқыў эффектлери
 see-more = <chevron></chevron>Толығырақ
-

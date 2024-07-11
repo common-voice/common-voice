@@ -7,7 +7,4 @@ request-language-success-title = Йылме йодмаш эсен колталт
 request-language-success-content = Ме Common Voice-ыш тыйын йылметым пуртымо шотышто ешартыш информацийым налашлан тый денет пеш писын кылдалтына.
 select-language = Йылмым ойыро...
 other-language = Вес йылме
-
-## General
-
 yes-receive-emails = Туге, электрон серышлам мылам колтедылза. Мый Common Voice проект нерген пален шогынем.

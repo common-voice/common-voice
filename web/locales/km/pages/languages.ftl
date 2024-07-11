@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = ចូលរួមចំណែក
 get-involved-button = ចូលរួម

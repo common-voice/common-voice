@@ -50,9 +50,6 @@ sc-criteria-item-3 = Câu phải nói được.
 sc-criteria-item-4 = Nếu câu đáp ứng tiêu chí, hãy nhấp vào nút &quot;Phê duyệt&quot; ở bên phải.
 sc-criteria-item-5-2 = Nếu câu không đáp ứng các tiêu chí trên, hãy nhấp vào nút &quot;Từ chối&quot; bên trái. Nếu bạn không chắc chắn về câu, bạn cũng có thể bỏ qua nó và chuyển sang câu tiếp theo.
 sc-criteria-item-6 = Nếu hết câu cần xem lại, hãy giúp chúng tôi sưu tầm thêm các câu khác nhé!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Kiểm tra <icon></icon> đây có phải là một câu đúng về mặt ngôn ngữ không?
 sc-review-rules-title = Liệu câu đáp ứng các nguyên tắc?
@@ -66,4 +63,3 @@ review-error-rate-limit-exceeded = Bạn đang đi quá nhanh. Hãy dành một 
 sc-redirect-page-title = Chúng tôi đang thực hiện một số thay đổi lớn
 sc-redirect-page-subtitle-1 = Trình thu thập câu đang chuyển sang nền tảng cốt lõi của Common Voice. Giờ đây, bạn có thể <writeURL>viết</writeURL> một câu hoặc <reviewURL>xem xét</reviewURL> các bài gửi một câu trên Common Voice.
 sc-redirect-page-subtitle-2 = Đặt câu hỏi cho chúng tôi trên <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> hoặc <emailLink>email</emailLink>.
-

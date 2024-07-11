@@ -83,4 +83,3 @@ validations =
         [one] सत्यापन
        *[other] सत्यापन
     }
-

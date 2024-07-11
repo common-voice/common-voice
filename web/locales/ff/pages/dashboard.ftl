@@ -114,4 +114,3 @@ validations =
         [one] Jaalɗinol
        *[other] Jaalɗine
     }
-

@@ -23,4 +23,3 @@ download-request-archive-single = Single ZIP file containing
 download-request-archive-multiple = Split into { $archiveCount } ZIP files containing
 download-request-assembling-description = Your files are being assembled. Please check again later.
 download-request-refresh-button = Refresh
-

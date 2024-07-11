@@ -7,4 +7,3 @@ download-form-email =
     .value = Enkosi, siza kuqhagamshelana nawe.
 download-back = Buyela kwiidatha seti zeCommon Voice
 download-no = Hayi Enkosi
-

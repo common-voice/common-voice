@@ -67,9 +67,6 @@ username-optin-public = Anda dapat memilih untuk menjadikan nama pengguna Anda p
 demographic-deidentified-clarity-2 = Data demografis yang dikirimkan secara opsional (mis. usia, jenis kelamin, bahasa, dan aksen) tidak akan pernah dipublikasikan di profil Anda, dan tidak akan ditautkan ke akun Anda di dataset. Klip suara individu akan dikaitkan dengan data demografis untuk tujuan analisis yang lebih akurat - misalnya, seorang peneliti mungkin ingin menargetkan model pelatihan ke segmen demografis tertentu.
 username-email-not-demographic = Nama pengguna dan surel Anda tidak akan dikaitkan dengan data yang dipublikasikan.
 
-## Profile Download
-
-
 ## Landing
 
 welcome-staff = Selamat datang staf { $company }!
@@ -77,4 +74,3 @@ help-contribute = Anda dapat bantu membantu set data sumber-terbuka nan beragama
 login-company = Masuk/Daftar dengan surel { $company }
 profile-not-required = Untuk berkontribusi, memiliki profil tidak diwajibkan meskipun sangat membantu
 read-more-about = Baca lebih lanjut pada laman Tentang Kami
-

@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Hmet
 action-tap = Hmet
-## Languages
-
 contribute = Aw Tunnak
 skip = Lanh tak
 shortcuts = tawitan
@@ -17,6 +13,9 @@ record-button-label = Na aw tuun
 share-title-new = <bold> Kan bawm </bold> Aw tampiin kawl
 keep-track-profile = Profile in na tuah ciami vialte zoh ṭhan hna.
 login-to-get-started = Thoknak dingah LUT silole Na min pe
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -67,4 +66,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

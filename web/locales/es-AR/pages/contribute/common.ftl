@@ -1,4 +1,16 @@
-## Shortcuts
+## Contribution Nav Items
+
+
+## Reporting
+
+
+## Speak & Listen Shortcuts
+
+
+## Speak Shortcuts
+
+
+## Listen Shortcuts
 
 # Must be one letter that appears in the translated play-string inside of { toggle-play-tooltip }.
 # Must be different from { shortcut-vote-yes } and { shortcut-vote-no }
@@ -9,4 +21,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

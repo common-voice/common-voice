@@ -12,4 +12,3 @@ request-language-success-heading = Salamat po! Nagpadala ka ng bagong tanong tun
 request-language-success-list-1 =
     Ikaw ay dapat makatanggap ng isang email sa ilang sandali na nagpapaliwanag
     tungkol sa mga hakbang upang maidagdag ang iyong wika sa Common Voice
-

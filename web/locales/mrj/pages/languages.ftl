@@ -12,9 +12,6 @@ language-speakers = Попышывлä
 localized = Сӓрӹмӹ
 sentences = Предложенивлӓ
 language-validation-hours = Цӓш
-
-## Languages
-
 contribute = Вкладым ӹштӓш
 get-involved-button = Ушнаш
 get-involved-title = { $lang } йӹлмӹш вкладым ӹштӓш

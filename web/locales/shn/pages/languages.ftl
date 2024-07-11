@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = ၸွႆႈထႅမ်
 get-involved-button = ၶဝ်ႈႁူမ်ႈပႃး

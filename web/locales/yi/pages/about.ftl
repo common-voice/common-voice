@@ -112,4 +112,3 @@ about-playbook-how-project-governance-content-7 = <governanceLink>ליינט מ�
 
 about-playbook-how-funded = וויאזוי ווערט קאמאן וואויס פינאנצירט?
 about-playbook-how-funded-content-1 = קאמאן וואויס איז א פראיעקט פון דער מאזילע פאנדאציע, א US 501c3. דער פראיעקט ווערט יעצט פינאנצירט בלויז דורך <philantropicGrantLink>פילאנטראפישע שענקונגען</philantropicGrantLink> און ביישטייערונגען פון מענטשן ארום דער וועלט.
-

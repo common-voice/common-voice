@@ -1,6 +1,6 @@
-write = Scriber
 ## WRITE PAGE
 
+write = Scriber
 write-instruction = Adde <icon></icon> un phrase de dominio public
 write-page-subtitle = Le phrases fornite ci sera addite a un insimul de datos publicamente disponibile con licentia cc-0.
 sentence =
@@ -89,4 +89,3 @@ file-invalid-type = File non valide
 file-too-large = File troppo grande
 file-too-small = File troppo micre
 too-many-files = Troppo de files
-

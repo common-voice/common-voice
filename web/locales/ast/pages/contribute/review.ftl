@@ -1,28 +1,4 @@
-## MY SENTENCES
-
-
-## REJECTED
-
-
-## STATS
-
-
-## ADD
-
-
-## ADD LANGUAGE
-
-
-## ADD SENTENCES CONFIRMATION
-
-
-## LANGUAGE INFO
-
-
-## LOGIN
-
-
-## PROFILE
+## REVIEW
 
 
 ## REVIEW CRITERIA
@@ -33,4 +9,3 @@ sc-criteria-item-2 = La fras ha ser gramaticalmente correuta.
 sc-criteria-item-3 = La fras ha poder dicise bien.
 sc-criteria-item-5-2 = Si la fras nun cumple colos criterios d'arriba, calca'l botón «Refugar». Si nun sabes qué facer, tamién pues saltala y dir a la siguiente.
 sc-criteria-item-6 = Si escoses les frases a revisar, ¡ayudanos a atropar más!
-

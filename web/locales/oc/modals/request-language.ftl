@@ -7,7 +7,4 @@ request-language-success-title = Era sollicitud de lengua s'a enviat corrèctame
 request-language-success-content = Lèu mos meteram eth contacte damb mès informacion sus com ahíger era vòsta lengua ath Common Voice.
 select-language = Seleccionatz ua lengua...
 other-language = Ua auta lengua
-
-## General
-
 yes-receive-emails = Òc, enviatz-me corrèus. Voi èster informat/da deth projècte Common Voice.

@@ -33,4 +33,3 @@ demo-listen-subtitle = Prontu a contribuire?
 
 demo-dashboard-card-header = Is pannellos personales ti mantenent annoadu a pitzu de is progressos individuale e de sa comunidade.
 demo-dashboard-card-body = Pro cada registratzione donada e cada registratzione validada is pannellos de su contu tuo benint annoados pro rapresentare su progressu reghente tuo in totu is limbas in ue contribuis. Eja, podes contribuire a prus de una limba!<br/><br/> Imprea is pannellos pro arrastare is istatìsticas tuas, castiare comente ses andende cunfronta a is àteros in sa comunidade e pònnere obietivos de contributzione diàrios o chidajolos.
-

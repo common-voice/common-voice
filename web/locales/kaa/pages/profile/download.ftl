@@ -15,4 +15,3 @@ download-request-refresh-button = Жаңалаў
 download-request-modal-description = ZIP файлларыңызды жүклеп алыў ушын силтемелер.
 download-request-link-text = Zip №{ $offset } / { $total }
 download-request-metadata-link = Гәп тексти
-

@@ -33,7 +33,6 @@ review-rerecord = بیا ثبت کول
 review-cancel = سپارنه لغوه کړئ
 review-keep-recordings = ثبتونه وساتئ
 review-delete-recordings = زما ثبتونه ړنګ کړئ
-
 review-terms = د ګډ غږ په کارولو سره، تاسو زموږ د <termsLink> شرایطو </termsLink>او <privacyLink> د محرمیت خبرتیا <privacyLink> سره موافق یاست
 terms-agree = زه همغږی یم
 terms-disagree = زه همغږی نه یم

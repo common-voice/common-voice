@@ -15,10 +15,7 @@ localized = Localizado
 sentences = Rimaykuna
 language-validation-hours = Horas
 language-validation-progress = Progreso de la validación
-
-## Languages
-
-contribute = quy
+contribute = Contribuir
 get-involved-button = chaypi chaqrukuy
 get-involved-title = { $lang } nisqaman yanapay.
 get-involved-text =

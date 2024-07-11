@@ -1,3 +1,5 @@
+## Profile - Avatar
+
 browse-file-title = Tella' stampa minn fajl.
 browse-file = Kaxkar jew <browseWrap>ibbrawsja</browseWrap>.
 connect-gravatar = Ikkonnettja ma' Gravatar

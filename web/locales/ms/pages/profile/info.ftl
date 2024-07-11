@@ -66,4 +66,3 @@ help-accent = Perlukan bantuan dengan aksen?
 help-accent-explanation = Aksen atau loghat ialah cara anda menyebut perkataan. Ia boleh dibentuk oleh tempat tinggal anda, bahasa lain yang anda tuturkan dan banyak faktor lain. Anda boleh berkongsi sebarang maklumat yang anda rasa relevan di sini.
 help-variants = Perlukan bantuan dengan varian?
 help-variants-explanation = Varian adalah bentuk bahasa tertentu - contohnya dikongsi olej mereka yang tinggal dalam geografi atau komuniti. Kadang-kadang ini dipanggil dialek
-

@@ -15,9 +15,6 @@ localized = Lokalizatuta
 sentences = Esaldiak
 language-validation-hours = Orduak
 language-validation-progress = Balioztatzeen aurrerapena
-
-## Languages
-
 contribute = Lagundu
 get-involved-button = Parte hartu
 get-involved-title = { $lang }-n lagundu

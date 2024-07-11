@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = ಕೊಡುಗೆ ನೀಡಿ
 get-involved-button = ನೀವೂ ಪಾಲ್ಗೊಳ್ಳಿ

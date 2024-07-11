@@ -32,7 +32,6 @@ review-rerecord = Аиҭаҭаҩра
 review-cancel = Ашьҭра мап ацәктәуп
 review-keep-recordings = Сынҵамҭақәа еиқәырхатәуп
 review-delete-recordings = Сынҵамҭақәа ықәгатәуп
-
 review-terms = Common Voice ухы ианаурхәа, уи иаанагоит ҳара <termsLink>ахархәашьа</termsLink> егьы <privacyLink>Ир­ма­ӡоу Ардырра</privacyLink> урықәшаҳаҭуп ҳәа.
 terms-agree = Сақәшаҳаҭуп
 terms-disagree = Сақәшаҳаҭӡам

@@ -49,11 +49,8 @@ more = Ƙari
 close = Rufe
 download = Sauke
 dataset-version = Nau'i
-
 data-download-singleword-title = Zazzage Yankin Haɗafin Kalma Guda
 data-download-singleword-callout-v2 = Wannan ɓangare ne wanda ake korafin amfani da shi wanda yake ɗauke da bayanai zuwa karfin magana da lambar magana da kuma eh/a'a ganowa.
-## Data
-
 data-download-button = Sauke bayanan Common Voice
 data-download-yes = Ee
 data-download-deny = A'a

@@ -19,4 +19,3 @@ request-language-success-list-1 = Kadu katini kupatagha imeili ielezagha misele 
 request-language-success-list-2 = M'baa wa W'ungara ghodu ukudumiagha momu ghofunya w'utesia, na kukughoria ngera ghoko w'umweri ghungi ghumerie kuw'oka kudumikia  kiteto chako
 request-language-success-list-3 = Iji kusesikire kufuma kodu kwa matuku aw'i, didumie w'ujumbe aha <emailLink>{ $email }</emailLink> nao dikuw'unjiragha majibu!
 request-language-error = Ngera ndedipatire ilombi jako. Dalomba kudidumie imeili isiw'eni aha <emailLink>{ $email }</emailLink> na dikuw'unjiragha majibu!
-

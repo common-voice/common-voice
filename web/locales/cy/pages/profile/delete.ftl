@@ -10,4 +10,3 @@ why-delete-recordings =
     
     A wnewch chi roi gwybod i ni pam yr hoffech i'ch cofnodion gael eu dileu?
 profile-form-delete = Dileu Proffil
-

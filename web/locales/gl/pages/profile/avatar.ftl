@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Cargar un ficheiro de imaxe
 browse-file = Arrastrar e soltar ou <browseWrap>Navegar</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = O ficheiro seleccionado é longo de máis
 avatar-uploaded = Avatar subido
 max-file-size = { $kb }kb max
 remove-avatar = Eliminar avatar
-

@@ -78,4 +78,3 @@ help-contribute = Mund të ndihmoni në ndërtimin e një grupi të dhënash të
 login-company = Bëni Hyrjen / Regjistrohuni me email { $company }
 profile-not-required = Pasja e një profili s’është e domosdoshme për të kontribuar, por është e dobishme ama.
 read-more-about = Lexoni më tepër te faqja jonë Mbi
-

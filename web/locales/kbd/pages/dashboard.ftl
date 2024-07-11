@@ -116,4 +116,3 @@ validations =
         [one] Хэплъэж
        *[other] Хэплъэжу
     }
-

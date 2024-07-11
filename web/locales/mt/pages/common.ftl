@@ -146,7 +146,6 @@ share-text = Għinna ngħallmu 'l magni jitkellmu bħan-nies, agħtina l-vuċi t
 link-copied = Il-ħolqa ġiet ikkuppjata
 back-top = Lura għall-bidu
 logout = Oħroġ
-
 stayintouch = Aħna tal-Mozilla qed nibnu komunità b'interess fit-teknoloġija marbuta mal-vuċi. Nixtieq nikkuntattjawk b'xi aġġornamenti, sorsi ġodda ta' data u biex tgħidilna kif qed tuża din id-data.
 privacy-info = Inwiegħduk li l-informazzjoni dwarek se nużawha b'mod responsabbli. Aqra iktar dwar dan fl-<privacyLink>iStqarrija dwar il-Privatezza</privacyLink>.
 return-to-cv = Lura għal Common Voice.
@@ -159,4 +158,6 @@ email-opt-in-info-title = Issieħeb mal-mailing list ta' Common Voice.
 email-opt-in-info-sub-with-challenge = Ibda rċievi l-emails biex ifakkruk dwar sfidi u għanijiet, aġġornamenti dwar il-progress, u aħbarijiet dwar Common Voice.
 indicates-required = * Tindika informazzjoni meħtieġa
 not-available-abbreviation = Mhux applikabbli
+
+## Donate banner
 

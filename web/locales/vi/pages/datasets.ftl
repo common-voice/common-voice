@@ -75,11 +75,8 @@ dataset-donate-modal-heading = Bạn có biết…
 donate-modal-explanation-1 = Chi phí gần một triệu đô la mỗi năm để lưu trữ các bộ dữ liệu và cải thiện nền tảng cho hơn 100 cộng đồng ngôn ngữ dựa vào những gì chúng tôi làm?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Nếu bạn coi trọng dữ liệu mở, toàn diện - hãy quyên góp ngay hôm nay!</bold>
-
 data-download-singleword-title = Tải xuống phân đoạn mục tiêu từ đơn
 data-download-singleword-callout-v2 = Đây là một phân đoạn theo trường hợp sử dụng chứa dữ liệu để hỗ trợ nhận dạng chữ số bằng giọng nói và phát hiện có / không.
-## Data
-
 data-download-button = Tải dữ liệu Common Voice
 data-download-yes = Có
 data-download-deny = Không

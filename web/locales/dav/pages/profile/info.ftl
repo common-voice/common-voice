@@ -72,4 +72,3 @@ help-variants = Kwakunde wutesia na mbari ya madedo?
 help-variants-explanation = Mbari ya madedo ni fwana imu ya kiteto - sa w'uja idedwagha in w'andu w'a kifumbu chimu, angu w'andu w'ikanye w'ungara. Ngelo rimu ivi viteto vifwane kusighana vaw'angwagha lahaja.
 help-sex-or-gender-changes = Kwakunde w'utesia ghomanya ni mnduki angu maghaluso gha fwana?
 help-sex-or-gender-changes-explanation = Daw'iafunya w'ulalo ghosaghua eri w'andu w'ikaie na w'uhuru ghodighoria seji w'ikutambuagha (w'umi, w'aka, angu kiw'uzima). Dalomba kudieze seji kusikiragha kukaia kidamu chako. <learnMoreLink>Kufundishe zaidi seji diw'onagha iri maza ra jinsia.</learnMoreLink>
-

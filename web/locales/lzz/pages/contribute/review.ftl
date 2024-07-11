@@ -17,9 +17,6 @@ sc-criteria-make-sure = Cumlepeşi tudeni kriterepes na eluvelun vorsi ognit.
 sc-criteria-item-1 = Cumlepe tzori oç̌aru diç̌irs.
 sc-criteria-item-2 = Cumle grameruri tzori ort̆asen
 sc-criteria-item-3 = Cumlepe osinaponi ort̆asen.
-
-## REVIEW PAGE
-
 sc-review-rules-title = Cumle ǩuralepes eluvelun-i?
 sc-review-empty-state = Hatzi ham nenas itsadasen cumle va ren.
 report-sc-different-language = Farǩli nena
@@ -29,4 +26,3 @@ review-error = Ham cumle itsadet̆uşani ar xeta gamaxtu.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Didi a mutxape gokturamt.
 sc-redirect-page-subtitle-2 = nan
-

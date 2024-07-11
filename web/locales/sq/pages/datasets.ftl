@@ -71,10 +71,7 @@ dataset-donate-modal-heading = E dini se…
 donate-modal-explanation-1 = Kushton gati një milion dollarë në vit të strehosh grupet e të dhënave dhe të përmirësosh platformën në mbi 100 bashkësi gjuhësh që bazohen në atë që bëjmë ne?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Nëse çmoni të dhëna të hapur, përfshirëse - <b>dhuroni që sot!</bold>
-
 data-download-singleword-callout-v2 = Ky është një segment i bazuar në raste përdorimi që përmbajnë të dhëna për dallimin zanor të shifrave dhe pikasjen e po-së/jo-së.
-## Data
-
 data-download-button = Shkarkoni të Dhëna Common Voice
 data-download-yes = Po
 data-download-deny = Jo

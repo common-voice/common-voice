@@ -33,7 +33,6 @@ review-rerecord = הקלטה מחדש
 review-cancel = ביטול שליחה
 review-keep-recordings = שמירת ההקלטות שלי
 review-delete-recordings = מחיקת ההקלטות שלי
-
 review-terms = עצם השימוש ב־Common Voice מהווה הסכמה מצדך ל<termsLink>תנאים</termsLink> ול<privacyLink>הצהרת הפרטיות</privacyLink> שלנו
 terms-agree = מוסכם עלי
 terms-disagree = לא מוסכם עלי

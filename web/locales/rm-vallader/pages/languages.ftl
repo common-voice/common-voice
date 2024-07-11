@@ -16,8 +16,6 @@ language-search-input =
 language-speakers = Pledadras e -ders
 localized = Tradüt
 sentences = Frasas
-## Languages
-
 contribute = Contribuischa
 get-involved-button = Collavurescha
 get-involved-title = Contribuischa al { $lang }

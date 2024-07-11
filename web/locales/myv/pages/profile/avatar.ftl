@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Тонгомс фотокув файла
 browse-file = Ускт-правтт эли <browseWrap>вешнек</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Кочказь файлась пек покш
 avatar-uploaded = Аватарось тонговсь
 max-file-size = весемеде ламо { $kb }кб
 remove-avatar = Аватаронть ёртомс
-

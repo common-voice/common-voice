@@ -13,8 +13,6 @@ language-search-input =
 language-speakers = Gepleýjiler
 localized = Lokallaşdyrylan
 sentences = Sözlemler
-## Languages
-
 contribute = Goşant goş
 get-involved-button = Işe goşulyň
 get-involved-title = { $lang } diline goşant goşmak

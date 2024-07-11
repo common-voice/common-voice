@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = ອັບໂຫລດໄຟລຮູບພາບ
 browse-file = ລາກແລ້ວວາງ ຫຼື <browseWrap>ເລືອກ</browseWrap>
@@ -8,4 +8,3 @@ file_too_large = ໄຟລທີ່ເລືອກມີຂະຫນາດໃຫ
 avatar-uploaded = ອັບໂຫລດອາວະຕາລແລ້ວ
 max-file-size = ສູງສຸດ { $kb }kb
 remove-avatar = ລຶບອາວະຕາລແລ້ວອອກ
-

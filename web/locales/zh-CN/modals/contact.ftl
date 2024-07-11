@@ -6,4 +6,3 @@ contact-form-name =
 contact-form-message =
     .label = 信息
 contact-required = * 必填
-

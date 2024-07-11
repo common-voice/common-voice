@@ -76,4 +76,3 @@ help-contribute = Du kan hjelpe til med å byggje eit mangfaldig, ope datasett v
 login-company = Logg inn/Registrer deg med { $company } e-post
 profile-not-required = Du treng ikkje ein konto for å bidra, men det hjelper. Sjå kvifor nedanfor.
 read-more-about = Les meir på Om oss-sida vår
-

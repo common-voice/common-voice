@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = నొక్కండి
 action-tap = తాకండి
-## Languages
-
 contribute = తోడ్పడండి
 review = సమీక్ష
 skip = దాటవేయి
@@ -91,9 +87,6 @@ shortcut-vote-yes = y
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = ప్రమాణాలు
@@ -127,4 +120,3 @@ contribution-volume-title = ధ్వని
 contribution-just-unsure-title = ఖచ్చితంగా తెలియదా?
 see-more = <chevron></chevron>మరింత చూడండి
 see-less = <chevron></chevron>తక్కువ చూడండి
-

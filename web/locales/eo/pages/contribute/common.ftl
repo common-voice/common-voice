@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Alklaku
 action-tap = Tuŝetu
-## Languages
-
 contribute = Kontribui
 skip = Ignori
 shortcuts = Alirklavoj
@@ -30,6 +26,9 @@ target-segment-generic-card = Vi kontribuas kun cela segmento
 target-segment-first-banner = Helpu krei la unuan celan segmenton de Common Voice en { $locale }
 target-segment-add-voice = Aldoni vian voĉon
 target-segment-learn-more = Pli da informo
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -98,4 +97,3 @@ contribution-varying-pronunciations-title = Malsamaj  prononcoj
 contribution-background-noise-description = Ni volas, ke la algoritmoj de maŝina lernado kapablu pritrakti diversajn fonajn bruojn, do eĉ sufiĉe laŭta bruo povas esti akceptita, nur se ĝi tute ne malebligas aŭdi la tutan tekston. Mallaŭta fona muziko estas en ordo, tamen muziko, pro kiu vi ne povas bone aŭdi ĉiun vorton, ne taŭgas.
 contribution-background-voices-title = Fonaj voĉoj
 contribution-volume-title = Laŭteco
-

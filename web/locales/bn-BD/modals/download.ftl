@@ -6,4 +6,3 @@ download-form-email =
     .label = আপনার ইমেইল দিন
     .value = ধন্যবাদ, আমার শীঘ্রই উত্তর দিব।
 download-no = প্রয়োজন নেই
-

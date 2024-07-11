@@ -24,7 +24,6 @@ review-recording = איבערגיין
 review-rerecord = איבער-רעקארדיר
 review-keep-recordings = האלט די רעקארדירונגען
 review-delete-recordings = מעקט אויס מיין רעקארדירונגען
-
 terms-agree = איך בין איינשטימיג
 terms-disagree = איך בין נישט איינשטימיג
 # FIRST POST SUBMISSION CTA

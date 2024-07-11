@@ -151,3 +151,5 @@ about-playbook-how-project-governance-content-5 = قدر ۽ سڃاڻپ.
 about-playbook-how-project-governance-content-6 = گڏيل احتساب.
 about-playbook-how-project-governance-content-7 = <governanceLink>وڌيڪ پڙهو ته اسان کي ڪيئن سنڀاليو وڃي ٿو </governanceLink>
 
+## How is Common Voice funded
+

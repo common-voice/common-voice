@@ -7,4 +7,3 @@ download-form-email =
     .value = Kooxukhuru. kinotthikelani
 download-back = Muhokolowele  ekhurupu enlepa ya Common Voice
 download-no = Nnaari, kooxukhuru
-

@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Kan du låta oss veta varför du vill att dina inspelningar raderas?
 profile-form-delete = Ta bort profil
-

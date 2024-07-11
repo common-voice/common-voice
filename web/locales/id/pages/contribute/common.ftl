@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Klik
 action-tap = Ketuk
-## Languages
-
 contribute = Berkontribusi
 skip = Lewati
 shortcuts = Pintasan
@@ -80,4 +76,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = t
+
+## Validation criteria
 

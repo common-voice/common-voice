@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = କ୍ଲିକ
 action-tap = ଟ୍ୟାପ
-## Languages
-
 contribute = ଯୋଗଦିଅନ୍ତୁ
 review = ସମୀକ୍ଷଣ
 skip = ଛାଡ଼ନ୍ତୁ
@@ -90,9 +86,6 @@ shortcut-vote-yes = y
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = ମାନଦଣ୍ଡ
@@ -100,4 +93,3 @@ contribution-for-example = ଉଦାହରଣ ସ୍ଵରୁପ
 contribution-reader-effects-title = ପାଠକ ପ୍ରଭାବଗୁଡ଼ିକ
 see-more = <chevron></chevron>ଅଧିକ ଦେଖନ୍ତୁ
 see-less = <chevron></chevron>କମ୍ ଦେଖନ୍ତୁ
-

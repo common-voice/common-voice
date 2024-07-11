@@ -1,1 +1,2 @@
-    .label = ኢሜል
+## Request Language Pages
+

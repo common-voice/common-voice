@@ -1,6 +1,6 @@
-write = เขียน
 ## WRITE PAGE
 
+write = เขียน
 write-page-subtitle = ประโยคที่ให้ไว้ที่นี่จะถูกเพิ่มในชุดข้อมูลที่มีสัญญาอนุญาต cc-0 ที่เปิดเผยต่อสาธารณะ
 sentence =
     .label = ประโยค
@@ -23,4 +23,6 @@ contact-us = ติดต่อเรา
 add-sentence-success = รวบรวม 1 ประโยคแล้ว
 add-sentence-error = เกิดข้อผิดพลาดในการเพิ่มประโยค
 required-field = โปรดกรอกช่องนี้
+
+## BULK SUBMISSION 
 

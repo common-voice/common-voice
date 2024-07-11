@@ -112,4 +112,3 @@ validations =
         [one] Ukuqinisekiswa
        *[other] Iziqinisekisi
     }
-

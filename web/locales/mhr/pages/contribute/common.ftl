@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Темдал
 action-tap = Темдал
-## Languages
-
 contribute = Надырлаш
 skip = Коден каяш
 shortcuts = Ярлык-влак
@@ -146,4 +142,3 @@ contribution-just-unsure-title = Чынак кокыте шонет?
 contribution-just-unsure-description = Нине темлымашлан шаралтдыме иктаж-мо дене тӱкналтат гын, порылий, шке чын шонымаш почешет йӱклӧ. Тый чынак рашемалтын от керт гын, коден кайыме полдышым кучылт да вес возымаш дек кусно.
 see-more = <chevron></chevron>Шукырак ужаш
 see-less = <chevron></chevron>Шагалрак ужаш
-

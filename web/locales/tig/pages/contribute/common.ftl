@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = ጭቀጥ
 action-tap = ክሳእ
-## Languages
-
-contribute = ሳህሞ
+contribute = ሳህም
 skip = ሕለፍዎ
 shortcuts = ገበይ ሓቻር
 clips-with-count-pluralized =
@@ -86,9 +82,6 @@ shortcut-vote-yes = ኣ
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = ኢ
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = መቃየሲ
@@ -137,4 +130,3 @@ contribution-reader-effects-title = ናይ ቃሪእ ታእሲር
 contribution-just-unsure-title = ኢታኣከድኩም?
 see-more = <chevron></chevron>ብዙሕ ረአ
 see-less = <chevron></chevron>ሑድ ረአ
-

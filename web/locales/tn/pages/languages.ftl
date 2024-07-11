@@ -15,10 +15,7 @@ localized = E ranoletswe
 sentences = Dipolelo
 language-validation-hours = Diura
 language-validation-progress = Kgatelopele ya go Tlhomamisa
-
-## Languages
-
-contribute = Se-Aba
+contribute = Aba
 get-involved-button = Nna le Seabe
 get-involved-title = Abela { $lang }
 get-involved-text =

@@ -7,7 +7,4 @@ request-language-success-title = tlahtlani tlahtol yomo naltitlan coali, tlasohc
 request-language-success-content = timu nuhnutstusqueh icacachi tlanahuatil quemeh quenin tictlalis motlahtol ichin Common Voice sanima
 select-language = xicpihpina se tlahtol...
 other-language = ocse tlahtol
-
-## General
-
 yes-receive-emails = Quemah, xinechualtitlani correos. Onicniquisquiaya nicmatis ica tlanimilil Common Voice.

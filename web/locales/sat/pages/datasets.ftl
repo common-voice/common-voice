@@ -48,11 +48,8 @@ more = ᱰᱷᱮᱨ
 close = ᱵᱚᱸᱫᱚᱭ ᱢᱮ
 download = ᱰᱟᱣᱱᱞᱳᱰ
 dataset-version = ᱵᱷᱟᱹᱨᱥᱚᱱ
-
 data-download-singleword-title = ᱮᱠᱟᱞ ᱟᱹᱲᱟᱹ ᱩᱫᱩᱜ ᱠᱷᱟᱹᱰᱨᱟᱹ ᱰᱟᱣᱱᱞᱚᱰ ᱢᱮ
 data-download-singleword-callout-v2 = ᱱᱚᱶᱟ ᱫᱚ ᱠᱮᱥ ᱪᱟᱹᱞᱩ ᱠᱷᱟᱹᱱᱰᱤᱭᱟᱹ ᱠᱟᱱᱟ ᱡᱟᱦᱟᱸ ᱨᱮ ᱯᱟᱣᱟᱹᱨ ᱛᱮ ᱚᱞ ᱪᱤᱱᱦᱟᱹᱯ ᱜᱟᱱᱚᱜᱼᱟ ᱟᱨ ᱦᱮᱸ / ᱵᱟᱝ ᱛᱮᱜᱮ ᱪᱤᱱᱦᱟᱹᱯᱟᱭ᱾
-## Data
-
 data-download-button = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱰᱟᱣᱱᱞᱳᱰ ᱯᱮ
 data-download-yes = ᱦᱮᱸ
 data-download-deny = ᱵᱟᱝ

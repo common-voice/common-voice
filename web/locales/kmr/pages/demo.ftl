@@ -31,4 +31,3 @@ demo-listen-subtitle = Tu ji bo beşdariyê amade yî?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Destgehên şexsî derbarê pêşveçûna te û pêşveçûna civakê de te agahdar dike.
-

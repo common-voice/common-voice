@@ -1,6 +1,3 @@
-## Download Modal
-
-
 ## Contact Modal
 
 contact-form-name =
@@ -8,4 +5,3 @@ contact-form-name =
 contact-form-message =
     .label = ܛܐܒ݂ܐ
 contact-required = ܘܠܝܝܐ*
-

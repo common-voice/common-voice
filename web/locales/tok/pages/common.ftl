@@ -234,7 +234,6 @@ link-copied = sina kama jo e nimi nasin
 back-top = o tawa sewi
 logout = o weka tan sijelo ilo
 donate = o pana e mani
-
 stayintouch = lon kulupu Mozilla la, mi mute li pali e ilo pi toki kalama. mi mute li wile e ni: sina pana e ijo sin, e sona sin, e kepeken sina pi ilo ni tawa mi mute.
 privacy-info = awen pona pi sona sina li suli tawa mi. o kama sona e nasin lon lipu pi <privacyLink>nasin sona mi</privacyLink>
 return-to-cv = o tawa ilo Common Voice
@@ -248,11 +247,10 @@ email-opt-in-info-sub-with-challenge = lipu li sama ni: pali sina li pona. sina 
 email-opt-in-privacy-v2 = sina toki e wile lipu la, sina toki e ni: kulupu Mozilla li ken pali e ijo kepeken sona ni, lon <privacyLink>nasin sona</privacyLink> pi kulupu Mozilla.
 indicates-required = * la, o pana
 not-available-abbreviation = ala
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>mi wile</mark><br/><mark>e mani sina!</mark>
-# [/SentenceCollector]
-
 localization-select =
     .label = o kepeken toki

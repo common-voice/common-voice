@@ -17,10 +17,7 @@ localized = Тәрҗемә ителгән
 sentences = Җөмләләр
 language-validation-hours = Сәгать
 language-validation-progress = Тикшерү барышы
-
-## Languages
-
-contribute = Өлеш кертү
+contribute = Үз өлешеңне кертү
 get-involved-button = Катнашу
 get-involved-title = { $lang } теленә өлеш кертү
 get-involved-text = { $lang } теленә өлеш кертү ниятегез өчен рәхмәт. Бу проектка Сезнең туган телегезне дә теркәү өчен без күп эшлибез һәм тәрҗемәче төркемнәргә яңалыкларны электрон почта аша хәбәр итеп торабыз. Сезнең дә катнашасыгыз килсә, түбәндә электрон почтагызны кертегез.

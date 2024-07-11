@@ -15,9 +15,6 @@ localized = ꯂꯣꯀꯦꯂꯥꯏꯖ
 sentences = ꯋꯥꯍꯩꯄꯔꯦꯡꯁꯤꯡ
 language-validation-hours = ꯄꯨꯡꯁꯤꯡ
 language-validation-progress = ꯑꯆꯨꯝ ꯑꯔꯥꯟ ꯌꯦꯡꯕꯒꯤ ꯈꯨꯃꯥꯡꯆꯥꯎꯁꯤꯟꯕ
-
-## Languages
-
 contribute = ꯁꯔꯨꯛꯌꯥꯕ
 get-involved-button = ꯌꯥꯎꯁꯤꯟꯕ
 get-involved-title = { $lang }ꯁꯤꯗ ꯁꯔꯨꯛꯌꯥꯕ

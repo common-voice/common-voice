@@ -49,4 +49,3 @@ skip-submission-description = Lo ninvio de comentarios se desactivará en fer cl
 skip-submission-note = Nota: Habrás de triar entre Charrar u Escuitar pa cambiar lo tipo de colaboración.
 off = Desactivau
 on = Activau
-

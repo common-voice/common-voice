@@ -17,9 +17,6 @@ localized = يەرلىكلەشتۈرۈلگەن
 sentences = جۈملە
 language-validation-hours = سائەت
 language-validation-progress = دەلىللەشنىڭ ئىلگىرىلىشى
-
-## Languages
-
 contribute = تۆھپە قوشاي
 get-involved-button = قاتنىشاي
 get-involved-title = { $lang } غا تۆھپە قوشاي

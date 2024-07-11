@@ -62,11 +62,8 @@ dataset-version = ვერსია
 sha256-checksum-copied = SHA256-სადარჯამის ასლი აღებულია!
 sha256-checksum-copied-error = SHA256-სადარჯამის ასლის აღება ვერ მოხერხდა
 clipboard-not-supported = ასლის აღება არაა მხარდაჭერილი
-
 data-download-singleword-title = ჩამოტვირთეთ ცალკეული სიტყვების მიზნობრივი კრებული
 data-download-singleword-callout-v2 = მოხმარების კვლევის საფუძველზე შედგენილი კრებული ციფრებისა და დიახ/არა ხმოვანი ბრძანებების ამოცნობის დასახვეწად.
-## Data
-
 data-download-button = Common Voice მონაცემების ჩამოტვირთვა
 data-download-yes = დიახ
 data-download-deny = არა

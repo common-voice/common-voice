@@ -172,7 +172,6 @@ share-text = Aiuteti à insegnà à e macchine comu parlani veramente la ghjenti
 link-copied = Ligame cupiatu
 back-top = Vultà in cima
 logout = Scunnettassi
-
 stayintouch = Ind’è Mozilla, custruimu una cumunità intornu à e tecnulugie vucale. Vulariamu stà in cuntattu cù voi cù messe à ghjornu, nove fonti di dati, è pà sapè ne di più à nantu à a vostra utilisazione di sti dati.
 privacy-info = Vi prumittimu di trattà e vostre infurmazioni cun primura. Da sapè ne di più, lighjite puru u nostru <privacyLink> Avvisu di cunfidenzialità</privacyLink>.
 return-to-cv = Vultà à Common Voice
@@ -186,3 +185,6 @@ email-opt-in-info-sub-with-challenge = Riceve email cum’è sfide è ramintenze
 email-opt-in-privacy-v2 = Scegliendu di riceve l'email, accittate chì Mozilla si ghjova di st'infurmazioni cum'è spiegatu in a <privacyLink>Pulitica di Cunfidenzialità</privacyLink>.
 indicates-required = * Indicheghja un campu richiestu
 not-available-abbreviation = Micca dispunibule
+
+## Donate banner
+

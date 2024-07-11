@@ -6,4 +6,3 @@ download-form-email =
     .label = Dènyé ákàrà ímèèlụ̀ (email) gị́.
     .value = Dàálụ́, ányị́ gà ná-àkpọ́tụ́rụ́ gị́.
 download-no = Ḿbà, Dàálụ́.
-

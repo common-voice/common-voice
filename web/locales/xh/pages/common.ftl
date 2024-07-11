@@ -201,7 +201,6 @@ share-text = Nceda ufundise oomatshini indlela abantu bokwenyani, abathetha nayo
 link-copied = Ikhonkco likopishiwe
 back-top = Buyela Phezulu
 logout = Phuma
-
 stayintouch = Thina kwaMozilla sakha uluntu malunga neteknoloji yelizwi. Singathanda ukuhlala sinxibelelana ne-updates,i-data sources ezintsha kwaye sive ngakumbi malunga nendlela oyisebenzisa ngayo le datha.
 privacy-info = Sithembisa ukuphatha ulwazi lwakho ngenkathalo. Funda ngakumbi kwi <privacyLink>Sazisi sabucala</privacyLink> yethu.
 return-to-cv = Buyela kuCommon Voice
@@ -215,7 +214,8 @@ email-opt-in-info-sub-with-challenge = Fumana ii-imeyile ezinjengomngeni kunye n
 email-opt-in-privacy-v2 = Ngokuvuma ukufumana iimeyile uyavuma ukuba kulungile noMozzilla aphathe olu lwazi njengoko kucacisiwe kwi Mozzilla <privacyLink>Umgaqo-nkqubo wabucala</privacyLink>.
 indicates-required = Imimandla ephawulwe ngeenkwenkwezi (*) iyafuneka.
 not-available-abbreviation = N/A
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Khetha ulwimi/ ilocalization

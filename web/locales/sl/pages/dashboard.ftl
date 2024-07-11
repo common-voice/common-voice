@@ -112,4 +112,3 @@ validations =
         [few] preverjanja
        *[other] preverjanj
     }
-

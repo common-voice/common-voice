@@ -115,4 +115,3 @@ validations =
         [one] Kuciniseka
        *[other] Lokucinisekiwe
     }
-

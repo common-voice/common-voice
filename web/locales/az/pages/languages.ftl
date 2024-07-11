@@ -11,8 +11,6 @@ language-search-input =
 language-speakers = Danışan
 localized = Lokallaşdırılıb
 sentences = Cümlələr
-## Languages
-
 contribute = Dəstək ol
 get-involved-button = Qoşul
 get-involved-title = { $lang } üçün dəstək ol

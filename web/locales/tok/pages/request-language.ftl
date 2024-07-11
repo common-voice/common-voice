@@ -23,4 +23,3 @@ request-language-success-list-1 = tenpo kama lili la, sina kama jo e lipu sona p
 request-language-success-list-2 = tenpo kama la, jan lawa pi ilo Common Voice li toki tawa sina, li pona e pali sina, li toki e lon pi toki sina.
 request-language-success-list-3 = mi toki ala tawa sina lon tenpo suli la, o toki tawa <emailLink>nimi lipu</emailLink>. mi toki tawa sina!
 request-language-error = ken la mi jo ala e wile ni. o toki tawa <emailLink>nimi lipu { $email }</emailLink> la mi toki tawa sina!
-

@@ -2,6 +2,9 @@
 
 about-title = Me yasa muke Common Voice?
 how-does-it-work-text = Muna tura tarin bayanai na muryoyi-buɗe-tushe. Ba da gudummawa ga muryarka, tabbatar da daidaitattun shirye-shiryen bidiyo na wasu mutane, sanya dataset ɗin ta zama mafi kyau ga kowa da kowa.
+
+## How does it work section
+
 about-speak = Yi magana
 about-speak-text = Masu ba da gudummawa suna yin rikodin shirye-shiryen murya ta hanyar karatu daga bankin jumla da aka bayar.
 about-listen-queue = Layin sauraro
@@ -28,3 +31,34 @@ about-nav-why-common-voice = Me yasa?
 about-nav-how-it-works = Ta yaya?
 about-nav-partners = Abokan hulɗa
 about-nav-get-involved = Sami Shiga
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

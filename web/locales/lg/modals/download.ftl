@@ -7,4 +7,3 @@ download-form-email =
     .value = Webale, ojja ku tuwuliza.
 download-back = Ddayo ku Dataset ya Common Voice.
 download-no = Nedda Webale
-

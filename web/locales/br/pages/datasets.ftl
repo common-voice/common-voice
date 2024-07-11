@@ -57,10 +57,7 @@ clipboard-not-supported = N’eo ket skoret ar golver
 dataset-metadata-sex = Reizh
 # dataset metadata - age of contributor
 dataset-metadata-age = Oad
-
 data-download-singleword-title = Pellgargañ skejenn vukenn ar ger
-## Data
-
 data-download-button = Pellgargañ roadennoù Common Voice
 data-download-yes = Ya
 data-download-deny = Ket

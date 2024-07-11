@@ -48,11 +48,8 @@ clipboard-not-supported = Nipuru ninrowaaya oveleeliwa khanirenre
 dataset-metadata-sex = Athiyana ni Alopwana
 # dataset metadata - age of contributor
 dataset-metadata-age = Iyaakha
-
 data-download-singleword-title = Opaxaari mpantta woorowa wa moolumo omeekha
 data-download-singleword-callout-v2 = Ola muttharelo oowoopereriwa a murumeelo wa mwaha orina itaatu wi oxuttihe musuweliho wa mitthittelo sa milavulelo  ni muttiyeliyo wa mutthunelo/mukhottelo.
-## Data
-
 data-download-button = Mukuruuxe mihuupi sa Common Voice
 data-download-yes = Ayo
 data-download-deny = Nnaari

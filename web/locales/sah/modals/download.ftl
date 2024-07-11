@@ -7,4 +7,3 @@ download-form-email =
     .value = Махтал, ситим баар буолла.
 download-back = Төнүн Common Voice дааннайын наборыгар
 download-no = Суох, махтал
-

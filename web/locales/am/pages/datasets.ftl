@@ -73,11 +73,8 @@ donate-modal-message = የውሂብ ስብስብዎ እየወረደ ነው!
 dataset-donate-modal-heading = ያውቁ ኖሯል…
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>ለክፍት፣ አካታች ዳታ ዋጋ ከሰጡ - ዛሬውኑ ይለግሱ!</bold>
-
 data-download-singleword-title = የነጠላ ቃል ዒላማ ክፍልን ያውርዱ
 data-download-singleword-callout-v2 = ይህ የተነገረ አሃዛዊ ማወቂያን እና አዎ/ የለም ፈልጎ ለማግኘት መረጃን የያዘ በአጠቃቀም ጉዳይ የሚነዳ ክፍል ነው።
-## Data
-
 data-download-button = የጋራ የድምፅ መረጃን ያውርዱ
 data-download-yes = አዎ
 data-download-deny = አይደለም

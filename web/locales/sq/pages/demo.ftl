@@ -33,4 +33,3 @@ demo-listen-subtitle = Gati për të dhënë ndihmesë?
 
 demo-dashboard-card-header = Pultet personale ju mbajnë të përditësuar me ecurinë individuale dhe të bashkësisë.
 demo-dashboard-card-body = Për çdo copëz zanore të incizuar, dhe çdo copëz zanore të vlerësuar, pultet e llogarive tuaja përditësohen për të pasqyruar ecurinë tuaj më të re në çdo gjuhë ku jepni ndihmesë. Po, mund të jepni ndihmesë në më shumë se një!<br/><br/> Përdorini pultet për të ndjekur statistikat tuaja, shihni se si po ecni, kundrejt të tjerëve në bashkësi, dhe caktoni objektiva ditore ose javore dhënieje ndihmese.
-

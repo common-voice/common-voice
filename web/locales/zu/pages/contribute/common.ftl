@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Chofoza
 action-tap = Thepha
-## Languages
-
 contribute = Faka isandla
 skip = Yeqa
 shortcuts = Izinqamuleli
@@ -33,6 +29,9 @@ target-segment-generic-card = Udlala iqhaza engxenyeni eqondiwe
 target-segment-first-banner = Siza wakhe engxenye yokuqala eqondiwe yeCommon Voice kokuthi { $locale }
 target-segment-add-voice = Engeza Izwi Lakho
 target-segment-learn-more = Funda kabanzi
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -143,4 +142,3 @@ contribution-just-unsure-title = Awuqinisekile nje kuphela?
 contribution-just-unsure-description = Uma uthola into kulemihlahlandlela engabalwanga, sicela uvote ngendlela yakho yokwahlulela. Uma ungakwazi ukwenza isinqumo, sebenzisa inkinobho yokweqela kokuqoshiwe okulandelayo.
 see-more = <chevron></chevron>Buka Okuningi
 see-less = <chevron></chevron>Bona okuncane
-

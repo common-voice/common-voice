@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Klikk
 action-tap = Trykk
-## Languages
-
 contribute = Bidra
 review = Vurder
 skip = Hopp over
@@ -128,4 +124,3 @@ contribution-reader-effects-title = Lesareffektar
 contribution-just-unsure-title = Berre usikker?
 see-more = <chevron></chevron>Vis meir
 see-less = <chevron></chevron>Vis mindre
-

@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Klikněte
 action-tap = Klepněte
-## Languages
-
-contribute = Přispějte
+contribute = Přispět
 review = Ověřujte
 skip = Přeskočit
 shortcuts = Zkratky
@@ -153,4 +149,3 @@ contribution-just-unsure-title = Jen si nejste jisti?
 contribution-just-unsure-description = Pokud narazíte v nahrávce na problém, který tu nezmiňujeme, hlasujte o nahrávce podle svého nejlepšího úsudku. Pokud se nemůžete rozhodnout, nahrávku přeskočte.
 see-more = <chevron></chevron> Zobrazit více
 see-less = <chevron></chevron> Zobrazit méně
-

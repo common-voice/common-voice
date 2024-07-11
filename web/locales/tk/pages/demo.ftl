@@ -33,4 +33,3 @@ demo-listen-subtitle = Goşant goşmaga taýynmy?
 
 demo-dashboard-card-header = Şahsy dolandyryş panelleri şahsy we jemgyýetçilik öňegidişligi boýunça habarly bolmagyňyzy üpjün edýär.
 demo-dashboard-card-body = Bagyş edilen her ses klibi we barlanan her bir ses klibi üçin goşant goşan her diliňizdäki soňky ösüşiňizi görkezmek üçin hasabyňyzyň dolandyryş panelleri täzelenýär. Hawa, birden köp dile goşant goşup bilersiňiz! <br/><br/> Statistikalaryňyzy yzarlamak, jemgyýetdäki beýlekiler bilen deňeşdirilende nähili işleýändigiňizi we gündelik ýa-da hepdelik goşant goşmak maksatlaryny bellemek üçin dolandyryş panellerini ulanyň.
-

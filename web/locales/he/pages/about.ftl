@@ -149,4 +149,3 @@ about-playbook-how-funded = כיצד Common Voice ממומן?
 about-playbook-how-funded-content-1 = מיזם Common Voice שייך לקרן Mozilla, עמותה לפי סעיף ‎501(c)(3)‎ בארה"ב. המיזם ממומן כיום לחלוטין באמצעות <philantropicGrantLink>מענקים פילנתרופיים</philantropicGrantLink>, ותרומות מאנשים ברחבי העולם.
 about-playbook-how-funded-content-2 = עולה לנו הרבה כסף לאחסן ולהפיץ את מערכי הנתונים באופן רציף, לשפר את המערכת ולהפעיל <africaMradiLink>תוכניות קהילה</africaMradiLink>.
 about-playbook-how-funded-content-3 = אם אתם או הארגון אליו אתם קשורים תרצו לתרום חזרה למיזם, תוכלו לתרום <donateLink>תרומה כספית</donateLink> או ליצור קשר עם צוות השותפויות שלנו בכתובת <emailFragment>commonvoice@mozilla.com</emailFragment>.
-

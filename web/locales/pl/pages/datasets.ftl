@@ -54,11 +54,8 @@ more = Więcej
 close = Zamknij
 download = Pobierz
 dataset-version = Wersja
-
 data-download-singleword-title = Pobierz segment docelowy dla pojedynczego słowa
 data-download-singleword-callout-v2 = To segment przeznaczony do konkretnego użytku, zawierający dane wspomagające rozpoznawanie wymawianych cyfr i wykrywanie tak/nie.
-## Data
-
 data-download-button = Pobierz dane Common Voice
 data-download-yes = Tak
 data-download-deny = Nie

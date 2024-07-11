@@ -8,10 +8,7 @@ language-search-input =
     .placeholder = Leita
 localized = Umsett
 sentences = Setningar
-
-## Languages
-
-contribute = Hjálp til
+contribute = Stuðla
 get-involved-title = Hjálp til við { $lang }
 get-involved-email =
     .label = Teldupostur

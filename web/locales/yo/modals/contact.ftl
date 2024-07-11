@@ -6,4 +6,3 @@ contact-form-name =
 contact-form-message =
     .label = Ìfiránṣẹ́
 contact-required = *ó nílò
-

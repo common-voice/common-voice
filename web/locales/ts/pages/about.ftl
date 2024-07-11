@@ -104,6 +104,7 @@ about-playbook-how-add-sentences = Xana ndzi nga swi engetela njhani swivulwa?
 about-playbook-how-add-sentences-content-1 = <strong>Muhlengeleti wa Swivulwa</strong> i xitirhisiwa xo hlengeleta na ku tiyisisa swivulwa swa ndhawu ya mani na mani. U ta <scAccountLink>lava ku endla akhawunti</scAccountLink>. Kutani, engetela ririmi ra wena eka <strong>Profayili</strong> ya wena. U nga <strong>Engetela</strong> swivulwa kumbe u <strong>Pfuxeta</strong> swivulwa leswi engeteriweke khale.
 about-playbook-how-add-sentences-content-2 = Swivulwa swi fanele ku kamberiwa no amukeriwa hi vanhu vambirhi leswaku swi ta katsiwa eka Common Voice. U tumbuluxa swiletelo swa ririmi ra wena <languageGuidelinesLink>laha</languageGuidelinesLink>. Swivulwa swi fanele ku va eka <licenseLink>ndawu ya manhi na manhi</licenseLink> naswona swi koma ku tlula 15 wa marito. U nga kombela n’wini wa tsalwa ku ri endla <waiverLink>CC0 hi ku tirhisa endlelo ra hina ro tshika</waiverLink>, naswona u hi rhumela eka commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = U nga tirhisa leswi <scraperLink>Xihlamusela-marito xa xivulwa</scraperLink> ku tirhisa swivulwa swo koma ku suka eka Wikipedia.
+
 ## How to record quality
 
 about-playbook-how-record-quality = Xana ndzi nga yi rhekhoda njhani xiphemu xa rito xa xiyimo xa le henhla?
@@ -149,4 +150,6 @@ about-playbook-how-project-governance-content-4 = Ku nghenelela ka vaaki na ku e
 about-playbook-how-project-governance-content-5 = Nkoka ni ku xiximiwa.
 about-playbook-how-project-governance-content-6 = Ku tihlamulelana ka vumbirhi.
 about-playbook-how-project-governance-content-7 = <governanceLink>Hlaya swo tala hi ndlela leyi hi lawuriwaka ha yona</governanceLink>
+
+## How is Common Voice funded
 

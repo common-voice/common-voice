@@ -33,4 +33,3 @@ demo-listen-subtitle = Itys tok ir lobs breids paleidzēt, pareiz?
 
 demo-dashboard-card-header = Informacejis paneli snādz jums jaunuokū informaceju par jiusu i kūpīnys progresu.
 demo-dashboard-card-body = Piec kotra īraksteituo teikuma i piec kotra puorbaudeituo īroksta jiusu konta informacejis paneli teik atjaunynuoti, lai atspeidynuotu jiusu jaunuokūs sasnīgumus kotrā volūdā, kurā dūdit īguļdejumu. Nui, jius varit dūt īguļdejumu vaira nikai vīnā volūdā!<br/><br/> Lītojit informacejis paneļus, lai sekuotu leidza sovai statistikai, radzātu, kai jums izadūdās kūpā ar cytim kūpīnys lūceklim, i īstateitu kasdīnys voi kasnedelis īguļdejumu mierkus.
-

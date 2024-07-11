@@ -33,9 +33,6 @@ dataset-metadata-sex = Жыныс
 dataset-metadata-age = Жас
 donate-modal-message = Мағлыўматлар базаңыз жүкленбекте!
 dataset-donate-modal-heading = Билесиз бе...
-
-## Data
-
 data-download-button = Common Voice мағлыўматларын жүклеп алыў
 data-download-yes = Аўа
 data-download-deny = Яқ

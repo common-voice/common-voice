@@ -33,7 +33,6 @@ review-rerecord = ضبط دوباره
 review-cancel = لغو ارسال
 review-keep-recordings = ضبط را نگه دارید
 review-delete-recordings = ضبط‌های من را حذف کن
-
 review-terms = با استفاده از آواهای مشترک، شما با <termsLink>شرایط</termsLink> و <privacyLink>خط مشی رازداری</privacyLink> ما موافقت می‌کنید
 terms-agree = موافقم
 terms-disagree = موافق نیستم

@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = Jàpp ci
 get-involved-button = Bokk

@@ -12,7 +12,7 @@ top-contributors = Көп салым кошкондор
 recorded-clips = Жаздырылгандар
 validated-clips = Текшерилгендер
 
-## Reporting
+## Custom Goals
 
 
 ## Goals
@@ -33,4 +33,3 @@ validations =
         [one] текшерүү
        *[other] текшерүү
     }
-

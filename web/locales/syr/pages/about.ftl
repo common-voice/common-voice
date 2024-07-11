@@ -32,3 +32,14 @@ about-nav-partners = ܫܘܬܦܝ̈ܐ
 
 about-playbook-how-grow-language-content-6 = ܢܘܠ̈ܐ ܘܡܫܘܬܦܢܘܬ̈ܐ
 
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

@@ -78,4 +78,3 @@ variant-contribution-option-1 = Solo monstra me phrases e registrationes ab mi v
 variant-contribution-option-2 = Monstra me phrases e registrationes de tote le variantes in mi lingua
 variant-contribution-warning-title = ⓘ Non tote le phrases e registrationes ancora ha placas de variante!
 variant-contribution-warning-subtitle = Si tu ha difficultates a contribuer, tu sempre pote retornar pro vider tote le contento pro tu lingua.
-

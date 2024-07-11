@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = پیش رفت جاری ہے
@@ -16,10 +13,7 @@ language-search-input =
 language-speakers = خطیب
 localized = لوکلائز شدہ
 sentences = جملے
-
-## Languages
-
-contribute = حصہ دارای
+contribute = حصہ دارانہ
 get-involved-button = شامل ہوں
 get-involved-title = { $lang } میں حصہ ڈالیں
 get-involved-text = { $lang } کو فروغ دینے میں آپ کی دلچسپی لینے کا شکریہ۔ ہم تمام زبانوں کی تہاری اور لاانچ کے لیئے سخت محنت کر رہے ہیں اور ٹیم کو بزریع ای میل تازہکاریاں دیں گے۔ اگر آُپ حصۃ ڈالنا چاہتے ہیں، براہ مہربانی زیل میں اپنی اپنی ایمیل فراہم کریں۔

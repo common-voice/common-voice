@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = kweey
 action-tap = tiny
-## Languages
-
-contribute = yumse
+contribute = iyum
 review = geer kogeny
 skip = sogorte
 shortcuts = oret nenwach
@@ -92,9 +88,6 @@ shortcut-vote-yes = y
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
 
-## Demo Dashboard
-
-
 ## Validation criteria
 
 contribution-criteria-nav = oret negiboishen
@@ -117,4 +110,3 @@ contribution-volume-title = volum
 contribution-just-unsure-title = tos mangen?
 see-more = <chevron></chevron>Geer alak
 see-less = <chevron></chevron>geer chengering
-

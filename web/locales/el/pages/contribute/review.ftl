@@ -45,9 +45,6 @@ sc-criteria-item-3 = Η πρόταση πρέπει να μπορεί να λε�
 sc-criteria-item-4 = Αν η πρόταση πληροί τα κριτήρια, κάντε κλικ στο κουμπί «Έγκριση» στα δεξιά.
 sc-criteria-item-5-2 = Αν η πρόταση δεν πληροί τα παραπάνω κριτήρια, κάντε κλικ στο κουμπί «Απόρριψη» στα αριστερά. Εάν δεν είστε σίγουροι για την πρόταση, μπορείτε επίσης να την παραλείψετε και να προχωρήσετε στην επόμενη.
 sc-criteria-item-6 = Εάν ξεμείνετε από προτάσεις για έλεγχο, παρακαλούμε βοηθήστε μας να συγκεντρώσουμε περισσότερες προτάσεις!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = <icon></icon> Έλεγχος γλωσσικής ορθότητας της πρότασης
 sc-review-rules-title = Τηρεί η πρόταση τους κανόνες;
@@ -61,4 +58,3 @@ review-error-rate-limit-exceeded = Προχωράτε πολύ γρήγορα. �
 sc-redirect-page-title = Κάνουμε κάποιες μεγάλες αλλαγές
 sc-redirect-page-subtitle-1 = Το Sentence Collector μεταφέρεται στην κύρια πλατφόρμα του Common Voice. Μπορείτε πλέον να <writeURL>συντάξετε</writeURL> μια πρόταση ή να <reviewURL>αξιολογήσετε</reviewURL> υποβολές προτάσεων στο Common Voice.
 sc-redirect-page-subtitle-2 = Κάντε μας ερωτήσεις στο <matrixLink>Matrix</matrixLink>, το <discourseLink>Discourse</discourseLink> ή μέσω <emailLink>email</emailLink>.
-

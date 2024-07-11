@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Можете ли нам рећи зашто желите да се ваши снимци избришу?
 profile-form-delete = Обриши профил
-

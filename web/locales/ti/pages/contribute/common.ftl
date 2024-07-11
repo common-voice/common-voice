@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = ጠውቕ
 action-tap = ጠውቕ
-## Languages
-
-contribute = ኣበርክቶ
+contribute = ኣበርክት
 review = ተንተነ
 skip = ስገር
 shortcuts = ኣቃራጭ
@@ -133,4 +129,3 @@ contribution-reader-effects-title = ጽልዋ ኣንባቢ
 contribution-just-unsure-title = ርግጸኛ ኣይኮንካን?
 see-more = <chevron></chevron>ዝያዳ ተመልከት
 see-less = <chevron></chevron>ዝዋሓደ ተመልከት
-

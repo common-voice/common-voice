@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Kinne jo ús witte litte wêrom jo jo opnamen fuortsmite litte wolle?
 profile-form-delete = Profyl fuortsmite
-

@@ -17,9 +17,6 @@ localized = ante toki
 sentences = sitelen
 language-validation-hours = tenpo suli
 language-validation-progress = sona pini
-
-## Languages
-
 contribute = o pana
 get-involved-button = o kama, o pali
 get-involved-title = o pana tawa { $lang }

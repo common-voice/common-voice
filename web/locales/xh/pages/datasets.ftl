@@ -53,11 +53,8 @@ more = Ngaphezulu
 close = Vala
 download = Khuphela
 dataset-version = Inguqulelo
-
 data-download-singleword-title = Khuphela iCandelo legama elinye ekujoliswe kulo
 data-download-singleword-callout-v2 = Le yimeko yokusetyenziswa eqhutywa licandelo eliqulathe idatha kumandla athethiweyo ukuqondwa kwedijithi kwaye ewe / hayi akukho ubhaqo.
-## Data
-
 data-download-button = Khuphela iDatha yeCommon Voice
 data-download-yes = Ewe
 data-download-deny = Hayi

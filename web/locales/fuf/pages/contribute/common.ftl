@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Dobo
 action-tap = Tappu
-## Languages
-
-contribute = Addu balla maa
+contribute = Addu ballal Maa
 skip = Diw
 shortcuts = Codorɗe
 clips-with-count-pluralized =
@@ -87,4 +83,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

@@ -33,4 +33,3 @@ demo-listen-subtitle = Xana u lunghekele ku hoxa xandla?
 
 demo-dashboard-card-header = Tidashboard ta munhu hi xiyexe ti ku hlayisa u ri karhi u tiva nhluvuko wa munhu hi xiyexe na wa vaaki.
 demo-dashboard-card-body = Eka xiphemu xin’wana na xin’wana xa rito lexi nyikeriweke, na xiphemu xin’wana na xin’wana xa mpfumawulo lexi tiyisisiweke, tideshibhodi ta akhawunti ya wena ti pfuxetiwa ku kombisa nhluvuko wa wena wa sweswinyana eka ririmi rin’wana na rin’wana leri u hoxaka xandla eka rona. Ina, u nga hoxa xandla eka ku tlula yin’we!<br/><br/> Tirhisa tideshibhodi ku landzelela switatimende swa wena, vona ndlela leyi u endlaka hi yona etlhelo ka van’wana emugangeni, na ku veka tipakani ta ku hoxa xandla ka siku na siku kumbe vhiki na vhiki.
-

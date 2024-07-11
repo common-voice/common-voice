@@ -7,4 +7,3 @@ download-form-email =
     .value = Děkujeme, budeme ve spojení
 download-back = Zpět na datasety Common Voice
 download-no = Ne, děkuji
-

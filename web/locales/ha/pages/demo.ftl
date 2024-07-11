@@ -33,4 +33,3 @@ demo-listen-subtitle = Shirya don ba da gudummawa?
 
 demo-dashboard-card-header = Keɓaɓɓun maɓallan allo suna ba ku damar kasancewa tare da ci gaban mutum da al'umma.
 demo-dashboard-card-body = Ga ko wane shashin bidiyon da aka bayar, da dukkan muryar da aka inganta, Assusun dashboard ɗinka an sabunta domin yin tafiya daidai da cingaba a kowani yaren da ka bada gudumawa. Eh, zaka iya bada gudumawa fiye da ɗaya!<br/><br/> yi anfani da dashboard domin farawa, gani yaya kake yi in aka kwatanta da sauran am'uma, da shirya burinka na yau da kullum ko gudumawarka na mako-mako.
-

@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Näme üçin ýazgylaryňyzyň pozulmagyny isleýändigiňizi bize aýdyp bilersiňizmi?
 profile-form-delete = Profili poz
-

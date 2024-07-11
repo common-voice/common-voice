@@ -1,1 +1,2 @@
-    .label = အီးမေးလ်
+## Request Language Pages
+

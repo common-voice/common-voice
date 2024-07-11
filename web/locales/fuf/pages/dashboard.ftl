@@ -101,4 +101,3 @@ validations =
         [one] Jaalɗine
        *[other] { "" }
     }
-

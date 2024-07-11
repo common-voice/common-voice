@@ -7,4 +7,3 @@ download-form-email =
     .value = Շատ լավ։ Կապի մեջ կլինենք։
 download-back = Վերադառնալ Common Voice
 download-no = Ոչ, շնորհակալություն
-

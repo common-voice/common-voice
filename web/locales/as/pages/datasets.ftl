@@ -75,11 +75,8 @@ dataset-donate-modal-heading = আপুনি জানিছিলনে…
 donate-modal-explanation-1 = ডেটাছেটবোৰ হ’ষ্ট কৰিবলৈ আৰু আমি কৰা কামৰ ওপৰত নিৰ্ভৰ কৰা 100ৰো অধিক ভাষিক সমাজৰ বাবে মঞ্চ উন্নত কৰিবলৈ বছৰি প্ৰায় এক নিযুত ডলাৰ খৰচ হয়?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>যদি আপুনি মুক্ত, অন্তৰ্ভুক্তিমূলক ডেটাক মূল্য দিয়ে - আজিয়েই দান কৰক!</bold>
-
 data-download-singleword-title = এটা শব্দৰ টাৰ্গেট ছেগমেণ্ট ডাউনল’ড কৰক
 data-download-singleword-callout-v2 = ই এক ব্যৱহাৰক্ষেত্ৰ চালিত ছেগমেণ্ট য’ত কথিত অংক আৰু হয় / নহয় চিনাক্তকৰণৰ বাবে ব্যৱহাৰ কৰিব পৰা ডেটা আছে।
-## Data
-
 data-download-button = কমন ভইচ ডেটা ডাউনল’ড কৰক
 data-download-yes = হয়
 data-download-deny = নহয়

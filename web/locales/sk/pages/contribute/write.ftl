@@ -1,6 +1,6 @@
-write = Píšte
 ## WRITE PAGE
 
+write = Píšte
 write-instruction = Pridajte <icon></icon> vetu dostupnú pod verejnou licenciou
 write-page-subtitle = Tu pridané vety budú zaradené do verejne dostupného súboru údajov s licenciou cc-0.
 sentence =
@@ -89,4 +89,3 @@ file-invalid-type = Neplatný súbor
 file-too-large = Súbor je príliš veľký
 file-too-small = Súbor je príliš malý
 too-many-files = Príliš veľa súborov
-

@@ -47,7 +47,6 @@ review-rerecord = Rekhoda kabutjha
 review-cancel = Susa okuthumeleko
 review-keep-recordings = Bulunga okurekhodiweko
 review-delete-recordings = Sula engikurekhodileko
-
 review-terms = Ngokusebenzisa i-Common Voice, uvumelana ne <termsLink>Mibandela</termsLink> kunye ne <privacyLink>Nemigomo</privacyLink>
 terms-agree = Ngiyavuma
 terms-disagree = Angivumi

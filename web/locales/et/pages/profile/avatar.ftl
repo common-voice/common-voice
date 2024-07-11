@@ -1,3 +1,5 @@
+## Profile - Avatar
+
 browse-file-title = Laadi üles pilt
 browse-file = Lohista siia või <browseWrap>sirvi faile</browseWrap>
 connect-gravatar = Ühenda Gravatariga

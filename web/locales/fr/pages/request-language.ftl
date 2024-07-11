@@ -19,4 +19,3 @@ request-language-success-list-1 = Vous devriez recevoir sous peu un e-mail vous 
 request-language-success-list-2 = Notre community manager vous contactera pour vous proposer de l’aide supplémentaire, et vous informera si une communauté travaille déjà sur votre langue.
 request-language-success-list-3 = Si vous n’avez pas de nouvelles de notre part d’ici quelques jours, contactez <emailLink>{ $email }</emailLink> et nous vous répondrons.
 request-language-error = Nous n’avons peut-être pas reçu cette demande. Veuillez nous envoyer un e-mail directement à l’adresse <emailLink>{ $email }</emailLink> et nous vous répondrons.
-

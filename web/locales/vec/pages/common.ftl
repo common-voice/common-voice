@@ -146,7 +146,6 @@ share-text = Jutane a insegnare a ƚe machine cofà ƚe persone le parla ne la v
 link-copied = Link copià
 back-top = Torna de sora
 logout = Va fora
-
 stayintouch = Mozilla el xe drio radunare na comunità de persone interesà a ƚe tecnologie vocaƚi. Ne piaserìa restare en contato co ti co axornamenti e nove fonti de dati, ma anca par conosere cofà te uxi i dati de Common Voice.
 privacy-info = Ƚe to informasioni personaƚi le xe a el seguro co noialtri. Par i detaji lèxii ƚ’<privacyLink>informativa su ƚa privacy</privacyLink>.
 return-to-cv = Torna a Common Voice
@@ -159,4 +158,6 @@ email-opt-in-info-title = Nòtate a ƚa mailing list de Common Voice
 email-opt-in-info-sub-with-challenge = Risevi email cofà promemoria de sfide e obietivi, axornamenti su i progresi e newsletter de Common Voice.
 indicates-required = * vol dire on canpo che ghe voƚe par forsa
 not-available-abbreviation = N.D.
+
+## Donate banner
 

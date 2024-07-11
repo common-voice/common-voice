@@ -1,6 +1,6 @@
-write = 寫句子
 ## WRITE PAGE
 
+write = 寫句子
 write-instruction = 加入 <icon></icon> 公眾領域的句子
 write-page-subtitle = 提供到這裡的句子，會列入以 CC-0 授權、可公開取得的資料集內。
 sentence =
@@ -87,4 +87,3 @@ file-invalid-type = 檔案無效
 file-too-large = 檔案太大
 file-too-small = 檔案太小
 too-many-files = 檔案太多
-

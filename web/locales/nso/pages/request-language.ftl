@@ -21,4 +21,3 @@ request-language-success-list-3 =
     Ge e ba o sa kwe go tšwa go rena ka morago ga matšatši a mmalwa a tlago, e kgokagane le rena go <emailLink>{ $email }</emailLink> 
     gomme re tla boela go wena!
 request-language-error = Re ka be re sa hwetša kgopelo yeo. Ka kgopelo re romele e-meile go lebanya le rena go <emailLink>{ $email }</emailLink> re tla boela go wena!
-

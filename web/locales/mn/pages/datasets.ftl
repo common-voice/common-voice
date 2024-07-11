@@ -49,10 +49,7 @@ more = Дэлгэрэнгүй
 close = хаах
 download = Татаж авах
 dataset-version = Хувилбар
-
 data-download-singleword-title = Дан Үгт Чиглэсэн Хэсгийг татаж авах
-## Data
-
 data-download-button = Common Voice өгөгдөл татах
 data-download-yes = Тийм
 data-download-deny = Үгүй

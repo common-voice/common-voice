@@ -16,4 +16,3 @@ download-request-title = { $created }
 download-request-refresh-button = تازہ کریں
 download-request-modal-title = ربط ڈاؤن لوڈ کریں۔
 download-request-metadata-link = جملے کا متن
-

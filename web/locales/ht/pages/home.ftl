@@ -90,4 +90,3 @@ help-contribute = Ou ka ede konstwi yon seri done divès, sous louvri lè'w krey
 login-company = Konekte / Enskri ak imel { $company }
 profile-not-required = Ou pa oblije gen yon kont pou kontribye, poutan li tap itil.
 read-more-about = Li plis sou paj About nou an
-

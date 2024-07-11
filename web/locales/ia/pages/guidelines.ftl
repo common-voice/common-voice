@@ -91,4 +91,3 @@ reviewing-sentences-explanation-2 = Si le phrase no satisface le precedente crit
 reviewing-sentences-explanation-3 = Si tu non es secur re le phrase, tu pote alsi saltar lo e mover al successive.
 reviewing-sentences-explanation-4 = Si tu exhauri le phrases a revider, per favor adjuta nos a colliger altere phrases!
 domain-explanation = Le dominio se refere al materia del phrase. Actualmente, vos pote eliger inter:
-

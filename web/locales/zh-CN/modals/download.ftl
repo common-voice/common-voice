@@ -7,4 +7,3 @@ download-form-email =
     .value = 谢谢，我们会与您联系。
 download-back = 返回 Common Voice 数据集
 download-no = 不了，谢谢
-

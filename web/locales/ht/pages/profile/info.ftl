@@ -66,4 +66,3 @@ help-accent = Bezwen èd ak aksan?
 help-accent-explanation = Dyalèk ou se fason ou pwononse mo yo. Li ka fòme pa kote ou te viv, ki lòt lang ou pale ak anpil lòt faktè. Ou ka pataje nenpòt enfòmasyon ou santi ki enpòtan isit la.
 help-variants = Bezwen èd ak dyalèk?
 help-variants-explanation = Varyan(dyalèk) se yon fòm espesifik nan yon lang - pa egzanp pataje pa moun k ap viv nan yon jewografi oswa kominote. Pafwa yo rele sa yo dyalèk.
-

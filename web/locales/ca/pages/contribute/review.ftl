@@ -45,9 +45,6 @@ sc-criteria-item-3 = La frase és pronunciable.
 sc-criteria-item-4 = Si la frase compleix els criteris, feu clic en el botó «Aprova».
 sc-criteria-item-5-2 = Si la frase no compleix els criteris anteriors, feu clic en el botó «Rebutja». Si no n'esteu segur, també podeu saltar-la i passar a la següent.
 sc-criteria-item-6 = Si us quedeu sense frases per revisar, ajudeu-nos a recollir-ne més!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Comproveu <icon></icon> Aquesta frase és lingüísticament correcta?
 sc-review-rules-title = La frase compleix les directrius?
@@ -61,4 +58,3 @@ review-error-rate-limit-exceeded = Aneu massa ràpid. Dediqueu un moment a revis
 sc-redirect-page-title = Estem fent alguns canvis importants
 sc-redirect-page-subtitle-1 = El Sentence Collector es trasllada a la plataforma bàsica de Common Voice. Ara podeu <writeURL>escriure</writeURL> una frase o <reviewURL>revisar</reviewURL> enviaments d'una sola frase a Common Voice.
 sc-redirect-page-subtitle-2 = Feu-nos preguntes a <matrixLink>Matrix</matrixLink>, <discourseLink>Discurs</discourseLink> o per <emailLink>correu electrònic</emailLink>.
-

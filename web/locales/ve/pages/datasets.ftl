@@ -55,11 +55,8 @@ more = Zwo Engedzeaho
 close = Valani
 download = Downḽodani
 dataset-version = Vershini
-
 data-download-singleword-title = Downḽodani Thagete ya Tshipiḓa tsha Ipfi Ḽithihi
 data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga kushumisele tshi re na data ine ya mannḓafhadza digit recognition na ine ya ḓivha ee / hai.
-## Data
-
 data-download-button = Downḽodani Data ya Common Voice
 data-download-yes = Ee
 data-download-deny = Hai

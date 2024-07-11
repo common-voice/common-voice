@@ -33,4 +33,3 @@ demo-listen-subtitle = Sẵn sàng đóng góp?
 
 demo-dashboard-card-header = Trang tổng quan cá nhân giúp bạn cập nhật những tiến bộ của cá nhân và cộng đồng.
 demo-dashboard-card-body = Đối với mọi đoạn thoại được tặng và mọi đoạn âm thanh đã được xác thực, trang tổng quan tài khoản của bạn sẽ được cập nhật để phản ánh sự tiến bộ mới nhất của bạn ở mỗi ngôn ngữ mà bạn đóng góp. Có, bạn có thể đóng góp cho nhiều hơn một!<br/><br/>Sử dụng trang tổng quan để theo dõi số liệu thống kê của bạn, xem bạn đang hoạt động như thế nào cùng với những người khác trong cộng đồng và đặt mục tiêu đóng góp hàng ngày hoặc hàng tuần.
-

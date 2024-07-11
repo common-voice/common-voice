@@ -10,4 +10,3 @@ request-language-google-recaptcha-required = reCAPTCHA inahitajika ikiwa unataka
 request-language-google-recaptcha-error = Kuna hitilafu na reCAPTCHA. Tafadhali jaribu tena.
 # Success page
 request-language-success-heading = Asante! Umetuma uchunguzi wa lugha mpya
-

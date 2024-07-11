@@ -33,3 +33,11 @@ speak-subtitle = Joxeel sa baat
 speak-paragraph = Enregistrer ay baat dafa bokk ci defarug sunu jumtukaay yu ubbeeku yi (base de données ouvertes); ñenn ñi dañuy wax sax tamit ni mooy pàcc bi gën a neex.
 speak-goal-text = Enregistrer nañ baat yi
 
+## Account Benefits
+
+
+## What's public
+
+
+## Landing
+

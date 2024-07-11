@@ -1,6 +1,6 @@
-write = Skriv
 ## WRITE PAGE
 
+write = Skriv
 sentence =
     .label = Sætning
 sc-write-submit-confirm = Jeg bekræfter, at denne sætning er i <wikipediaLink>offentligt domæne</wikipediaLink>, og at jeg har tilladelse til at uploade den.
@@ -39,4 +39,3 @@ file-invalid-type = Ugyldig fil
 file-too-large = Filen er for stor
 file-too-small = Filen er for lille
 too-many-files = For mange filer
-

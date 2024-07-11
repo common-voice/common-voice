@@ -1,4 +1,4 @@
-## New Datasets Page
+## Datasets Page
 
 language = Хэлэн
 # File size in gigabytes
@@ -14,9 +14,6 @@ get-started-speech = Хэлэхы таниха оньһон ухаанай ор�
 more = Дэлгэрэнгы
 close = Хааха
 download = Татажа абаха
-
-## Data
-
 data-download-button = Ниитын дуу хоолойн үгэгдэл татажа абаха
 data-download-yes = Тии
 data-download-deny = Үгы

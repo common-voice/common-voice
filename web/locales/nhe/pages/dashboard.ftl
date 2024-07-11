@@ -59,4 +59,3 @@ share-goal = compartir mi objetivo
 ## Goals
 
 streaks = Manchas
-

@@ -220,7 +220,6 @@ share-title = ¡Xitechpaleui ma tiehcocan cachi maseual aquihquen quiniquisqueh 
 share-text = Xitechpaleui tiquinnextilisquen tiposmeh quenin tlahtoan maseualmeh, xitetlaocoli motlahtol ich in { $link }
 back-top = Ximocuipa campa pehua
 logout = Xictzacua sesión
-
 stayintouch = Itich Mozilla secchiutoc se nichicolmasehual ipan tipostl notzani. Otechpactisquia timitzmatiltisque ica nin tepanoltilistl yancuic nemilis ica tlahcuilol uan secmatis cachi queni tehuatl tiquintiquitiltia necateh datos.
 privacy-info = Titlahtolmaca ticuicasque motlanonotzal ica cuidado. Cachi xitlaleero itich <privacyLink> toichtacatlahtol </privacyLink> .
 return-to-cv = Ximocuipa campa Common Voice
@@ -233,7 +232,8 @@ email-opt-in-info-title = Ximonilo ica tlahcuilol correo de Common Voice.
 email-opt-in-info-sub-with-challenge = Xicsili correos ica ilnamiquilistl ipan tlanimilil, tepanultilistl icanon iscaltilistl huan totlahtol nohnotza ica Common Voice.
 email-opt-in-privacy-v2 = Ticsilisque correos secmati ticcahua Mozilla ica sequicuis tlanonotzal quemeh moihtoua ich in </privacyLink>  iichtacatlahtol </privacyLink> Mozilla.
 indicates-required = * Quinextia se tlacauil techihualtia
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = xicnexti masehualtlahtol/ caninmahsitok

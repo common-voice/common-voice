@@ -19,4 +19,3 @@ download-request-modal-title = Linkepe kogeiği
 download-request-modal-description = ZIP dosyape na geiğaten linkepe hak oren.
 download-request-link-text = Zip #{ $offset } / { $total }
 download-request-metadata-link = Cumleşi ç̌ara
-

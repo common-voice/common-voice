@@ -1,6 +1,6 @@
-write = Escriu
 ## WRITE PAGE
 
+write = Escriu
 write-instruction = Afegeix <icon></icon> una frase de domini públic
 write-page-subtitle = Les frases aportades aquí s'afegiran a un conjunt de dades disponible públicament amb llicència cc-0.
 sentence =

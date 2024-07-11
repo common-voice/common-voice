@@ -13,8 +13,6 @@ language-search-input =
 language-speakers = Parladors
 localized = Traduciu
 sentences = Frases
-## Languages
-
 contribute = Colaborar
 get-involved-button = Participa
 get-involved-title = Contribuyir en { $lang }

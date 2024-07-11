@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = Akaaliijaa
 get-involved-button = Ee pia sünain

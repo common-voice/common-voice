@@ -62,4 +62,3 @@ help-accent = Avete bisognu d'aiutu cù l'accentu ?
 help-accent-explanation = U vostru accentu hè a vostra manera di prununcià e parolle. Pò esse cundiziunatu da u vostru locu di vita, da l’altre lingue chì vo parlate è da mori altri fattori. Quì pudete sparte qualsiasi infurmazione chì vò cridite pertinente.
 help-variants = Avete bisognu d'aiutu cù e variante ?
 help-variants-explanation = Variente sò forme specifiche d’una lingua, per esempiu scumpartita da quiddi chì campani in un stessu locu o cummunità. À le volte sò chjamati dialetti.
-

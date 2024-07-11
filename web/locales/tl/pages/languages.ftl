@@ -13,10 +13,7 @@ localized = Localized
 sentences = Mga Pangungusap
 language-validation-hours = Mga Oras
 language-validation-progress = Progreso ng Pagpapatunay
-
-## Languages
-
-contribute = Makibahagi
+contribute = Tumulong
 get-involved-button = Makilahok
 get-involved-title = Makibahagi sa { $lang }
 get-involved-text =

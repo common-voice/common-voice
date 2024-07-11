@@ -1,6 +1,6 @@
-write = Skriv
 ## WRITE PAGE
 
+write = Skriv
 contact-us = Kontakt oss
 # Sentence Domain dropdown option
 finance = Finans
@@ -9,4 +9,6 @@ general = Generelt
 # Sentence Domain dropdown option
 healthcare = Helsevesen
 sentence-variant-select-placeholder = Vel ein variant (valfritt)
+
+## BULK SUBMISSION 
 

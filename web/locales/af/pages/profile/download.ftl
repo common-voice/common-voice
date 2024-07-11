@@ -28,4 +28,3 @@ download-request-modal-description = Hier is die skakels om jou zip-lêers af te
 download-request-link-text = Zip #{ $offset } van { $total }
 download-request-metadata-link = Sinteks
 download-request-link-single = Jy kan ook die direkte URL's in jou gunsteling aflaaibestuurder kopieer en plak. Hulle sal oor 12 uur verval, maar jy kan enige tyd terugkom na hierdie bladsy om nuwes te genereer.
-

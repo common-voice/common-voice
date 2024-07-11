@@ -65,11 +65,8 @@ no-information-available = Няма даступных звестак
 dataset-metadata-sex = Пол
 # dataset metadata - age of contributor
 dataset-metadata-age = Узрост
-
 data-download-singleword-title = Спампуйце спецыялізаваны сегмент «Адно слова»
 data-download-singleword-callout-v2 = База дадзеных для распазнавання маўленчых элементаў i вызначэння так / не.
-## Data
-
 data-download-button = Спампаваць дадзеныя Common Voice
 data-download-yes = Так
 data-download-deny = Не

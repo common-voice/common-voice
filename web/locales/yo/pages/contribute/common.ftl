@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Tẹ̀
 action-tap = Gbá
-## Languages
-
-contribute = Dá sí
+contribute = Fi kún
 skip = Fò
 shortcuts = Ìṣẹ́nàgbà
 clips-with-count-pluralized =
@@ -33,6 +29,9 @@ target-segment-generic-card = Ò ń ṣẹ àfikún sí abala àfojúsùn kan.
 target-segment-first-banner = Bá wa ṣẹ̀dá abala àfojúsùn àkọ́kọ́ ti Common Voice nínú un { $locale }
 target-segment-add-voice = Ṣe àfikún ohùn rẹ
 target-segment-learn-more = Kọ́ sí i
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -143,4 +142,3 @@ contribution-just-unsure-title = Ṣé kò kàn dá ẹ lójú?
 contribution-just-unsure-description = Tí o bá ṣalábàápàdé nǹkankan tí àwọn ìtọ́sọ́nà yìí ò mẹ́nubà, jọ̀wọ́ ṣẹ̀tọ́ gẹ́gẹ́ bi ìdájọ́ rẹ̀ tó dáa jù lọ. Ti o kò bá ní ìpinnu kankan, lo bọ́tìnì ìgbéfò, ko sì lọ sí ìkàsílẹ̀ tó kàn
 see-more = <chevron></chevron>Rí sí i
 see-less = <chevron></chevron>Dín rírí kù
-

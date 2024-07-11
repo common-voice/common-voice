@@ -2,6 +2,9 @@
 
 about-title = Inyu ki Common Voice ?
 how-does-it-work-text = Di nnaña nlume njañgi ikôhle tjañ-njoi mayaa ma makiñ. Kôle bés kiñ yoñ, u ke bisu ni neebe makiñ bôt bape ba nsañge, yoñ ngaba i boñ le mayaa ma makiñ ma nyila mintolok.
+
+## How does it work section
+
 about-speak = Pot
 about-speak-text = Inyu isañge kiñ yoñ, u ñan mintôñ mi bibuk mi nlôl i lingut li minkôlge mi mitôn mi bibuk
 about-listen-queue = Nlôñ u maemble
@@ -26,3 +29,34 @@ about-nav-why-common-voice = Inyu ki ?
 about-nav-how-it-works = Lela ?
 about-nav-partners = Bijô bi Yum
 about-nav-get-involved = Yoñ ñgaba
+
+## Community Playbook Content
+## What is a language
+
+
+## How do I add a language
+
+
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

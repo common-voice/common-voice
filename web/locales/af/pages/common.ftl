@@ -220,7 +220,6 @@ share-text = Help om masjiene te leer hoe werklike mense praat, skenk jou stem h
 link-copied = Skakel Gekopieer
 back-top = Terug Boontoe
 logout = Meld Af
-
 stayintouch = Ons by Mozilla bou 'n gemeenskap rondom spraaktegnologie. Ons wil graag kontak hou, met veranderinge en verbeteringe, nuwe databronne, en om meer te hoor oor hoe jy die data gebruik.
 privacy-info = Ons belowe om jou inligting met sorg te hanteer. Lees meer in ons <privacylink> Privaatheidsbeleid </privacylink>.
 return-to-cv = Keer terug na Common Voice
@@ -234,7 +233,8 @@ email-opt-in-info-sub-with-challenge = Ontvang e-posse soos herinneringe aan uit
 email-opt-in-privacy-v2 = Deur in te stem om e-posse te ontvang, verklaar jy dat jy die wyse waarop Mozilla inligting hanteer, soos uiteengesit word in Mozilla se <privacyLink>Privaatheidsbeleid</privacyLink>, goedkeur.
 indicates-required = * Dui verpligte veld aan
 not-available-abbreviation = N.V.T.
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = Kies taal/lokalisering

@@ -126,4 +126,3 @@ validations =
         [few] sprawdzone nagrania
        *[many] sprawdzonych nagrań
     }
-

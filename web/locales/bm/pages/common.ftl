@@ -221,7 +221,6 @@ share-text = Dɛmɛ ka masinw kalan mɔgɔ lakikaw bɛ kuma cogo min na, i ka ka
 link-copied = Lien Kopi kɛra
 back-top = Segin ka na Sanfɛ
 logout = Aw ka bɔ kɛnɛ kan
-
 stayintouch = Anw bɛ ka jama kafo kan fɛɛrɛw  dɛmɛli kama ,Mozila la yan.An b'a fɛ kubariya kuraw kalama ani ka dɔn I b'ala ka kumakan labaara togoya min na.
 privacy-info = An bɛ layidu ta I ye k'An b'I kumakan latanga.Nin kalan walasa  k'I ka famuya jiidi An ka Gindo Sariyaw la.
 return-to-cv = Segin ka ta Common Voice Kan
@@ -235,3 +234,6 @@ email-opt-in-info-sub-with-challenge = N bɛ fɛ ka imɛyi sɔrɔ walasa ka N Ha
 email-opt-in-privacy-v2 = Ni i y’a sugandi ka batakiw sɔrɔ i b’a jira k'I sɔna ko Mozilla ka nin kunnafoni in lasago i n’a fɔ a ɲɛfɔlen bɛ cogo min na Mozilla ka <privacyLink> Gundo sariya </privacyLink> kɔnɔ.
 indicates-required = Yɔrɔ minnu taamasiyɛn ye dolow (*) ye, olu wajibiyalen don.
 not-available-abbreviation = Surunyalen tɛ sɔrɔ
+
+## Donate banner
+

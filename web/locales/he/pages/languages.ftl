@@ -17,9 +17,6 @@ localized = תורגמו
 sentences = משפטים
 language-validation-hours = שעות
 language-validation-progress = אומתו
-
-## Languages
-
 contribute = תרומה
 get-involved-button = הצטרפות
 get-involved-title = תרומה ל{ $lang }

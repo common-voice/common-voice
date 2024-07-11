@@ -45,3 +45,26 @@ about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollec
 about-playbook-how-add-language-collecting-sentences-content-2 = Puede <sentenceCollectorLinkAdd>agregar una pequeña cantidad de oraciones</sentenceCollectorLinkAdd>, o puede realizar <bulkImportDocsLink>importaciones masivas usando Github</bulkImportDocsLink>. Recuerda que las oraciones deben ser <licenseLink>CC0 (o dominio público)</licenseLink>, o puedes escribir las tuyas propias.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ver más sobre la colección de oraciones</sentenceCollectorFragment>.
 
+## How does localization work
+
+
+## How to add sentences
+
+
+## How to record quality
+
+
+## How to grow language
+
+
+## How to validate
+
+
+## How to access dataset
+
+
+## How are decisions made
+
+
+## How is Common Voice funded
+

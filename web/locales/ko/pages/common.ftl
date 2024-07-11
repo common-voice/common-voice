@@ -231,7 +231,6 @@ link-copied = 링크 복사됨
 back-top = 처음으로 돌아가기
 logout = 로그아웃
 donate = 기부
-
 stayintouch = 우리 Mozilla는 음성 기술에 관한 커뮤니티를 구축하고 있습니다. 우리는 업데이트와 새로운 데이터 소스에 대한 소식을 지속적으로 접하고 이 데이터를 사람들이 어떻게 사용하는지 듣고 싶습니다.
 privacy-info = 우리는 사용자의 정보를 소중하게 다룰 것을 약속합니다. 자세한 사항은 <privacyLink>개인정보 보호 안내</privacyLink>를 확인해주세요.
 return-to-cv = Common Voice로 돌아가기
@@ -245,7 +244,8 @@ email-opt-in-info-sub-with-challenge = 도전이나 개인 목표 알림, 진행
 email-opt-in-privacy-v2 = 이메일을 받기로 수락함으로서 Mozilla의 <privacyLink>개인정보 정책</privacyLink>에 따라 Mozilla가 이 정보를 처리하는 것에 동의하게 됩니다.
 indicates-required = * 표시는 필수 항목
 not-available-abbreviation = 해당 없음
-# [/SentenceCollector]
+
+## Donate banner
 
 localization-select =
     .label = 언어/현지화 선택

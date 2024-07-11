@@ -92,4 +92,3 @@ validations =
         [one] Piştrastkirin
        *[other] Piştrastkirin
     }
-

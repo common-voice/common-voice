@@ -229,7 +229,6 @@ link-copied = リンクがコピーされました
 back-top = 先頭へ戻る
 logout = ログアウト
 donate = 寄付
-
 stayintouch = Mozillaは音声技術のコミュニティを立ち上げています。更新情報や新しいデータ、データの利用方法などについて気軽にお問い合わせください。
 privacy-info = 私たちは個人情報の取扱に細心の注意を払っています。詳細については「<privacyLink>プライバシーについて</privacyLink>」をご覧ください。
 return-to-cv = Common Voiceに戻る
@@ -243,3 +242,6 @@ email-opt-in-info-sub-with-challenge = Common Voice に関する目標リマイ�
 email-opt-in-privacy-v2 = メールの受信を選択した場合、Mozilla の <privacyLink>プライバシーポリシー</privacyLink> に記載のとおり、この情報を Mozilla が取り扱うことに同意したものとみなされます。
 indicates-required = * の付いた項目は入力必須です
 not-available-abbreviation = 該当なし
+
+## Donate banner
+

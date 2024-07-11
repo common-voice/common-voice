@@ -13,4 +13,3 @@ request-language-google-recaptcha-required = Seba dewamkerdişî, reCAPTCHA lazi
 request-language-google-recaptcha-error = reCAPTCHA de problemêk qewimîya. Keremê xo ra reyna biceribne.
 # Success page
 request-language-success-heading = Weş be! To waştişnameyê ziwanêkê neweyî rusna
-

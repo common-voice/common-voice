@@ -93,3 +93,5 @@ about-playbook-how-project-governance-content-4 = సంఘం భాగస్�
 about-playbook-how-project-governance-content-5 = విలువ మరియు గుర్తింపు.
 about-playbook-how-project-governance-content-6 = పరస్పర జవాబుదారీతనం.
 
+## How is Common Voice funded
+

@@ -30,7 +30,6 @@ review-rerecord = மறு-பதிவு
 review-cancel = சமர்ப்பிப்பு ரத்துசெய்
 review-keep-recordings = பதிவுகளை வைத்திரு
 review-delete-recordings = என் பதிவுகளை நீக்கு
-
 review-terms = பொதுக் குரலைப் பயன்படுத்துவதின் மூலம், நீங்கள் எங்களின் <termsLink>விதிமுறைகள்</termsLink> மற்றும் <privacyLink>தனியுரிமை அறிக்கையை</privacyLink> ஏற்றுக் கொள்கிறீர்கள்
 terms-agree = நான் ஏற்கிறேன்
 terms-disagree = நான் ஏற்கவில்லை

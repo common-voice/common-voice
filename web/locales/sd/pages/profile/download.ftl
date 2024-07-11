@@ -28,4 +28,3 @@ download-request-modal-description = هتي آهن لنڪ توهان جي زپ �
 download-request-link-text = زپ #{ $offset } مان { $total }
 download-request-metadata-link = جملي جو متن
 download-request-link-single = توھان پڻ نقل ڪري سگھو ٿا سڌو URLs کي پنھنجي پسنديده ڊائون لوڊ مئنيجر ۾. اهي 12 ڪلاڪن ۾ ختم ٿي ويندا، پر توهان ڪنهن به وقت نوان ٺاهڻ لاءِ هن صفحي تي واپس اچي سگهو ٿا.
-

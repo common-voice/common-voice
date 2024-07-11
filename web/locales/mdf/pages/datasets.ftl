@@ -39,11 +39,8 @@ more = Сяда тов
 close = Пякстамс
 download = Таргамс
 dataset-version = Версия
-
 data-download-singleword-title = Таргак  целевой сегментонь "Фкя вал"
 data-download-singleword-callout-v2 = Тя сегментсь шарфтф башка тевонь нолдамань лангс, кона цебярьгофтсы цифрать  и «виде»/«аф» шарьхкодематнень
-## Data
-
 data-download-button = Таргамс «Common Voice»-ста даннайхнень
 data-download-yes = Виде
 data-download-deny = Аф

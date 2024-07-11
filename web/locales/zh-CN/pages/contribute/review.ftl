@@ -44,9 +44,6 @@ sc-criteria-item-3 = 句子必须说得出来。
 sc-criteria-item-4 = 若句子符合上述标准，请点击右方的“通过”按钮。
 sc-criteria-item-5-2 = 若句子未达到上述条件，请点击“驳回”按钮。若您不确定句子是否可用，也可以略过，跳到下一句。
 sc-criteria-item-6 = 若您已经没有句子可以审核了，请帮助我们收集更多句子！
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = 检查 <icon><icon> 语句语法是否正确
 sc-review-rules-title = 该语句是否符合准则？
@@ -60,4 +57,3 @@ review-error-rate-limit-exceeded = 别太匆忙。请多花些时间来审核语
 sc-redirect-page-title = 重磅更新
 sc-redirect-page-subtitle-1 = 语句收集工具已迁移到 Common Voice 主平台，您现在可以直接在 Common Voice 上<writeURL>撰写</writeURL>和<reviewURL>审核</reviewURL>语句。
 sc-redirect-page-subtitle-2 = 在 <matrixLink>Matrix</matrixLink>、<discourseLink>Discourse</discourseLink> 上，或<emailLink>发邮件</emailLink>向我们提问。
-

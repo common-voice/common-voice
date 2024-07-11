@@ -6,4 +6,3 @@ contact-form-name =
 contact-form-message =
     .label = အကြောင်းအရာ
 contact-required = *လိုအပ်သည်
-

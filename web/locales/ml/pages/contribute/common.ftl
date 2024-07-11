@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = ക്ലിക്ക് ചെയ്യുക
 action-tap = അമർത്തൂ
-## Languages
-
 contribute = സംഭാവന ചെയ്യുക
 skip = ഒഴിവാക്കുക
 shortcuts = കുറുക്കുവഴികൾ
@@ -30,6 +26,9 @@ target-segment-generic-card = നിങ്ങൾ ഒരു ലക്ഷ്യഖ
 target-segment-first-banner = { $locale } എന്നതിൽ കോമൺ വോയ്‌സിന്റെ ആദ്യ ടാർഗെറ്റ് സെഗ്‌മെന്റ് സൃഷ്ടിക്കാൻ സഹായിക്കുക
 target-segment-add-voice = നിങ്ങളുടെ ശബ്ദം ചേർക്കുക
 target-segment-learn-more = കൂടുതലറിയുക
+
+## Contribution Nav Items
+
 
 ## Reporting
 

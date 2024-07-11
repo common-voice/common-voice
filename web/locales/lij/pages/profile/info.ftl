@@ -64,4 +64,3 @@ help-accent = T’æ beseugno d’aggiutto con l’açento?
 help-accent-explanation = O teu açento a l’é a mainea che ti prononçie e poule. O peu ëse condiçionou da-o pòsto donde t’æ visciuo, da-e atre lengue che ti parli e da ben ben de atri fattoî. Ti peu scompartî tutte e informaçioin che ti conscideri pertinente.
 help-variants = T’æ beseugno d’aggiutto co-e variante?
 help-variants-explanation = E variantæ en unna forma speçifica de unna lengua, pe exempio scompartie tra quelli che stan inte de zöne geografiche ò communitæ particolæ. De vòtte ste variante en ciammæ dialetti.
-

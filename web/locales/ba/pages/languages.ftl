@@ -1,6 +1,3 @@
-## Request Language Pages
-
-
 ## Languages Overview
 
 language-section-in-progress = Әҙерләү бара
@@ -16,10 +13,7 @@ language-search-input =
 language-speakers = Вәкилдәр
 localized = Үҙләштерелгән
 sentences = Һөйләмдәр
-
-## Languages
-
-contribute = Булышлыҡ итеү
+contribute = Ҡатнашыу
 get-involved-button = Ҡатнашығыҙ
 get-involved-title = { $lang } теленә өлөш индереү
 get-involved-text = { $lang }ка өлөш индереүгә ҡыҙыҡһыныуығыҙ өсөн рәхмәт. Проектҡа һәр бер тел теркәлһен өсөн, беҙ ныҡлы эшләйбеҙ һәм тәржемәсе төркөмдәргә яңылыҡтарҙы электрон почта аша хәбәр итеп торабыҙ. Әгәр ҙә ҡатнашырға теләһәгеҙ, зинһар,  түбәндә электрон адресығыҙҙы күрһәтегеҙ.

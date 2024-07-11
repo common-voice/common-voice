@@ -1,6 +1,6 @@
-write = Skriv
 ## WRITE PAGE
 
+write = Skriv
 write-instruction = Lägg till <icon></icon> en mening som är allmän egendom
 write-page-subtitle = Meningar som bidrags här kommer att läggas till i en allmänt tillgänglig cc-0-licensierad datamängd.
 sentence =
@@ -88,4 +88,3 @@ file-invalid-type = Felaktig fil
 file-too-large = Filen är för stor
 file-too-small = Filen är för liten
 too-many-files = För många filer
-

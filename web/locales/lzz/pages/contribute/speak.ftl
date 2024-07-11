@@ -33,7 +33,6 @@ review-rerecord = Meoç̌ari
 review-cancel = Oncğonu ip̌t̆ali doyi
 review-keep-recordings = Doloç̌arape şinaxit
 review-delete-recordings = Doloç̌arape-çkimi gejilit (cejirit)
-
 review-terms = { "" }
 terms-agree = Oǩovuvelut
 terms-disagree = { "" }

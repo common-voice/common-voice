@@ -231,7 +231,6 @@ link-copied = Liamm eilet
 back-top = Distreiñ d’al lein
 logout = Digevreañ
 donate = Reiñ un donezon
-
 stayintouch = Ni, e Mozilla, ’zo o sevel ur gumuniezh tro-dro da deknologiezh ar vouezh. Karout a rafemp bezañ kelaouet ingal eus an hizivadurioù, ar mammennoù roadennoù nevez ha gouzout hiroc’h diwar-benn ar mod ma implijit ar roadennoù-mañ.
 privacy-info = Gouestlañ a reomp embreger ho titouroù gant evezh. Lennit pelloc’h diwar-benn se en hon <privacyLink>Evezhiadennoù a-fet buhez prevez </privacyLink>.
 return-to-cv = Distreiñ da gCommon Voice
@@ -245,3 +244,6 @@ email-opt-in-info-sub-with-challenge = Resevit posteloù diwar-benn daeoù, koun
 email-opt-in-privacy-v2 = En ur asantiñ da zegemer posteloù e tiskouezit bezañ a-du evit ma verfe Mozilla an titouroù-mañ evel displeget e <privacyLink>Politikerezh a-fed buhez prevez</privacyLink> Mozilla.
 indicates-required = * Maeziennoù azgoulennet
 not-available-abbreviation = Dihegerz
+
+## Donate banner
+

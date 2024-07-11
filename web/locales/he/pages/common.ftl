@@ -235,7 +235,6 @@ link-copied = קישור הועתק
 back-top = חזרה למעלה
 logout = התנתקות
 donate = תרומה כספית
-
 stayintouch = אנו ב־Mozilla בונים קהילה סביב טכנולוגיות קול. נשמח להישאר איתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
 privacy-info = אנו מבטיחים לטפל במידע שלכם במלוא הזהירות. ניתן לקרוא עוד ב<privacyLink>מדיניות הפרטיות</privacyLink> שלנו.
 return-to-cv = חזרה אל Common Voice
@@ -249,6 +248,7 @@ email-opt-in-info-sub-with-challenge = קבלת הודעות בדוא"ל כגו�
 email-opt-in-privacy-v2 = בחירה בקבלת הודעות דוא״ל מביעה את הסכמתכם ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla.
 indicates-required = * מסמן שדה נחוץ
 not-available-abbreviation = לא רלוונטי
+
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
@@ -258,7 +258,5 @@ donate-banner-cta-explanation = העלות מגיעה כמעט למליון דו
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>משתמשים ב-CV</mark><br/><mark>במחקר שלכם?</mark>
 languages-donate-banner-cta-explanation = מיזם Common Voice ממומן באמצעות תרומות ומענקים! אנחנו אוהבים שיתופי פעולה עם חוקרים אקדמאיים, מהתעשייה ושל חברה אזרחית. Common Voice הינו חינם לשימוש, אך תרומה לעלויות אחזקת המערכת ואחסון הנתונים דרך בקשות למענקים תעזור מאוד.
-# [/SentenceCollector]
-
 localization-select =
     .label = בחירה בשפה/תרגום

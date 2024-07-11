@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Чиртегез
 action-tap = Төймәгә басып алыгыз,
-## Languages
-
-contribute = Өлеш кертү
+contribute = Үз өлешеңне кертү
 review = Тикшерү
 skip = Калдырып тору
 shortcuts = Төймә комбинацияләре
@@ -118,4 +114,3 @@ contribution-volume-title = Тавыш көче
 contribution-reader-effects-title = Укучы эффектлары
 see-more = <chevron></chevron>Күбрәк
 see-less = <chevron></chevron>Әзрәк
-

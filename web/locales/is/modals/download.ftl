@@ -7,4 +7,3 @@ download-form-email =
     .value = Þakka þér fyrir, við verðum í bandi.
 download-back = Til baka í gagnasöfn Samróms
 download-no = Nei takk
-

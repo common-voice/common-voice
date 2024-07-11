@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Kunt u ons laten weten waarom u uw opnamen wilt laten verwijderen?
 profile-form-delete = Profiel verwijderen
-

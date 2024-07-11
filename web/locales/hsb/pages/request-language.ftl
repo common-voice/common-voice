@@ -19,4 +19,3 @@ request-language-google-recaptcha-required = reCAPTCHA je trěbny, jeli chceće 
 request-language-google-recaptcha-error = Něšto je so z reCAPTCHA nimokuliło. Prošu spytajće hišće raz.
 # Success page
 request-language-success-heading = Wulki dźak! Sće próstwu wo nowu rěč pósłał
-

@@ -9,4 +9,3 @@ why-delete-recordings =
     I-Common Voice recordings isetjenziswa mikhakha yezefundo, amabhizinisi amancani, nabantu abathanda ama-voice recognition bona babandule begodu bakhuluse iinsetjenziswa zemitjhini ekhulumako.
     Ungakghona na ukusitjela bona kubayini ufuna okurekhodileko kusulwe?
 profile-form-delete = Susa Iphrofayili
-

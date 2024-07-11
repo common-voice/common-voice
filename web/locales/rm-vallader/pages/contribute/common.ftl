@@ -1,9 +1,5 @@
-## Contribution
-
 action-click = Clicca
 action-tap = Tippa
-## Languages
-
 contribute = Contribuischa
 skip = Sursaglia
 shortcuts = Scurznidas
@@ -24,6 +20,9 @@ target-segment-first-card = Tü contribuischast a nos prüm böt in mera
 target-segment-first-banner = Güda a crear a Common Voice seis prüm böt in mera { $locale }
 target-segment-add-voice = Agiundscha tia vusch
 target-segment-learn-more = Daplü infuormaziuns
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -74,4 +73,6 @@ shortcut-vote-yes = h
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

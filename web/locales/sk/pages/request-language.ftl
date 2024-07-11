@@ -21,4 +21,3 @@ request-language-success-list-1 =
 request-language-success-list-2 = Náš komunitný manažér vás osloví, aby vám ponúkol ďalšiu podporu a dal vám vedieť, či už existuje komunita, ktorá pracuje na vašom jazyku
 request-language-success-list-3 = Ak sa vám do niekoľkých dní neozveme, kontaktujte nás na adrese <emailLink>{ $email }</emailLink> a my sa vám ozveme!
 request-language-error = Je možné, že sme túto žiadosť nedostali. Napíšte nám priamo na adresu <emailLink>{ $email }</emailLink> a my sa vám ozveme!
-

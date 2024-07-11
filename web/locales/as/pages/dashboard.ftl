@@ -119,4 +119,3 @@ validations =
         [one] বৈধকৰণ
        *[other] বৈধকৰণ
     }
-

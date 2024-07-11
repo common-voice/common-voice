@@ -33,7 +33,6 @@ review-rerecord = Grabar de nueves
 review-cancel = Encaboxar la xuba
 review-keep-recordings = Caltener grabaciones
 review-delete-recordings = Desaniciar les mios grabaciones
-
 review-terms = Usando Common Voice aceutes los nuesos <termsLink>términos</termsLink> y el nuesu <privacyLink>avisu de privacidá</privacyLink>
 terms-agree = Aceuto
 terms-disagree = Refugo

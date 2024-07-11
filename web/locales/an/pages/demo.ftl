@@ -33,4 +33,3 @@ demo-listen-subtitle = Listo pa contribuyir?
 
 demo-dashboard-card-header = Los panels personals te mantienen a lo día d'os progresos individuals y comunitarios.
 demo-dashboard-card-body = Pa cada gravación de voz donada y cada gravación d'audio validada, los panels de control d'a tuya cuenta s'actualizan pa reflectar lo progreso mas recient en cada idioma en o qual colaboras. Sí, puetz contribuyir a mas d'un!<br/><br/> Usa panels pa rastriar las tuyas estatisticas, veyer cómo yes fendo chunto a atros en a comunidat, y establir obchectivos de colaboración diarios u semanals.
-

@@ -10,4 +10,3 @@ why-delete-recordings =
     
     ቅጂዎችዎ እንዲሰረዙ ለምን እንደሚፈልጉ ሊነግሩን ይችላሉ?
 profile-form-delete = መገለጫን ሰርዝ
-

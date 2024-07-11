@@ -32,7 +32,6 @@ review-rerecord = Mak duol kendo
 review-cancel = keth/ruchi oteno
 review-keep-recordings = Kan duondego
 review-delete-recordings = Ruch gik mane amakogo
-
 review-terms = Kitiyo gi Common Voice, tiende ni iyie gi <termsLink>chike duto</termsLink> kod <privacyLink>chike matayo weche ma ng'ato owuon</privacyLink>
 terms-agree = Ayie
 terms-disagree = Ok ayiego

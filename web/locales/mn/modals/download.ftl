@@ -7,4 +7,3 @@ download-form-email =
     .value = Баярлалаа. Бид холбогдоно оо.
 download-back = Common Voice өгөгдлийн цогц руу очих
 download-no = Үгүй, баярлалаа.
-

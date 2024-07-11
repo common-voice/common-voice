@@ -1,1 +1,5 @@
-    .label = Сахим шуудан
+## WRITE PAGE
+
+
+## BULK SUBMISSION 
+

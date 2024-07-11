@@ -57,11 +57,8 @@ close = Затвори
 download = Преузми
 dataset-version = Издање
 clipboard-not-supported = Привремена меморија није подржана
-
 data-download-singleword-title = Преузмите циљни сегмент за једну реч
 data-download-singleword-callout-v2 = Ово је сегмент заснован на употреби који садржи податке који омогућавају препознавање изговорених цифара и да/не откривање.
-## Data
-
 data-download-button = Преузмите Common Voice податке
 data-download-yes = Да
 data-download-deny = Не

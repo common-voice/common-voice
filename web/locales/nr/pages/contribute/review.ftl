@@ -53,4 +53,3 @@ sc-criteria-item-5-2 = Nangabe umutjho awuyifikeleli imibandela elandelako, gand
 sc-criteria-item-6 =
     Nange ingasekho imitjho ongayibuyekeza sibawa
     usisize sifumane imitjho eyengeziweko!
-

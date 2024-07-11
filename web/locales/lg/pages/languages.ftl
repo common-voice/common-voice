@@ -13,8 +13,6 @@ language-search-input =
 language-speakers = Abogezi
 localized = Kyavvunulwa
 sentences = Emboozi
-## Languages
-
 contribute = Yambako
 get-involved-button = Weyungeko
 get-involved-title = Ggata ku { $lang }

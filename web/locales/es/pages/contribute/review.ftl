@@ -1,4 +1,7 @@
-## REVIEW PAGE
+## REVIEW
+
+
+## REVIEW CRITERIA
 
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Marque <icon></icon> ¿Es esta una oración lingüísticamente correcta?
@@ -13,4 +16,3 @@ review-error-rate-limit-exceeded = Vas demasiado rápido. Tómese un momento par
 sc-redirect-page-title = Estamos haciendo grandes cambios
 sc-redirect-page-subtitle-1 = Sentence Collector se está trasladando a la plataforma principal de Common Voice. Ahora puede <writeURL>escribir</writeURL> una oración o <reviewURL>revisar</reviewURL> envíos de oraciones individuales en Common Voice.
 sc-redirect-page-subtitle-2 = Háganos preguntas en <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> o <emailLink>email</emailLink>.
-

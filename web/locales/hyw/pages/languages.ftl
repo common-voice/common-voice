@@ -1,4 +1,4 @@
-## Languages
+## Languages Overview
 
 contribute = Մասնակցիլ
 get-involved-button = Մասնակցեցէ՛ք

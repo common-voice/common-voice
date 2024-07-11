@@ -28,4 +28,3 @@ download-request-modal-description = ZIP файлларыгызны иңдерү
 download-request-link-text = Zip #{ $offset } / { $total }
 download-request-metadata-link = Җөмлә тексты
 download-request-link-single = Шулай ук Сез туры URL-ларны копияләп, яраткан иңдерү менеджерына өсти аласыз. 12 сәгатьтән аларның вакыты чыгачак, ләкин теләсә кайсы вакыт бу биткә әйләнеп кайтып, яңаларын алып була.
-

@@ -27,4 +27,3 @@ download-request-modal-title = Lînkê Warardişî
 download-request-modal-description = Nê lînkê warardişê dosyayanê to yê ZIPî yê.
 download-request-link-text = Zîp: { $total } ra { $offset }
 download-request-metadata-link = Metnê cumle
-

@@ -16,6 +16,9 @@ validated-clips = Təsdiqlənmiş kliplər
 total-approved = Ümumi Yoxlanılıb
 overall-accuracy = Ümumi Dəqiqlik
 
+## Custom Goals
+
+
 ## Goals
 
 streaks = Ardıcıl günlər
@@ -34,4 +37,3 @@ validations =
         [one] Təsdiqləmə
        *[other] Təsdiqləmə
     }
-

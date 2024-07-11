@@ -53,9 +53,6 @@ sc-criteria-item-5-2 =
     Als de zin niet aan de bovenstaande criteria voldoet, klik dan op de knop ‘Afwijzen’ aan de linkerkant.
     Als u niet zeker bent van de zin, kunt u deze ook overslaan en doorgaan naar de volgende.
 sc-criteria-item-6 = Als u geen zinnen meer hebt om te beoordelen, help ons dan om meer zinnen te verzamelen!
-
-## REVIEW PAGE
-
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Controleren <icon></icon> of dit een taalkundig correcte zin is?
 sc-review-rules-title = Voldoet de zin aan de richtlijnen?
@@ -69,4 +66,3 @@ review-error-rate-limit-exceeded = U gaat te snel. Neem even de tijd om de zin t
 sc-redirect-page-title = We voeren enkele grote veranderingen door
 sc-redirect-page-subtitle-1 = De Sentence Collector verhuist naar de kern van het Common Voice-platform. U kunt nu een zin <writeURL>schrijven</writeURL> of inzendingen van losse zinnen <reviewURL>beoordelen</reviewURL> op Common Voice.
 sc-redirect-page-subtitle-2 = Stel ons vragen op <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> of <emailLink>e-mail</emailLink>.
-

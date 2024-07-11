@@ -16,4 +16,3 @@ other = Waneꞌeya
 avatar = Awataarü
 profile-close = Asürülaa
 edit = Anaataa
-

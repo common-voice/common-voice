@@ -7,7 +7,4 @@ request-language-success-title = Asuter-inek/inem i tmerniwt n tutlayt yettwacey
 request-language-success-content = A nennadi aṭas amek ara nernu tulayt-nwen ar Common Voice deg teswiɛt iqeṛben.
 select-language = Fren tutlayt...
 other-language = Tutlayin nniḍen
-
-## General
-
 yes-receive-emails = Ih, ceyyeɛ-iyi-d imaylen. Bɣiɣ ad iyi-d-ttawḍen yisallen ɣef usenfaṛ n Commen Voice.

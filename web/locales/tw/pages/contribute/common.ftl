@@ -1,10 +1,6 @@
-## Contribution
-
 action-click = Click
 action-tap = Tap
-## Languages
-
-contribute = to boa
+contribute = To boa
 skip = Skip
 shortcuts = Shortcuts
 clips-with-count-pluralized =
@@ -33,6 +29,9 @@ target-segment-generic-card = You’re contributing to a target segment
 target-segment-first-banner = Help create Common Voice’s first target segment in { $locale }
 target-segment-add-voice = Add Your Voice
 target-segment-learn-more = Learn More
+
+## Contribution Nav Items
+
 
 ## Reporting
 
@@ -87,4 +86,6 @@ shortcut-vote-yes = y
 # Must be one letter that appears in the { vote-no } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
 shortcut-vote-no = n
+
+## Validation criteria
 

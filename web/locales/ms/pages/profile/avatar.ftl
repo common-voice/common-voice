@@ -1,4 +1,4 @@
-## Profile - Email
+## Profile - Avatar
 
 browse-file-title = Muat naik fail imej
 browse-file = Seret dan lepas atau <browseWrap> Layari </browseWrap>
@@ -8,4 +8,3 @@ file_too_large = Fail yang dipilih terlalu besar
 avatar-uploaded = Avatar dimuat naik
 max-file-size = { $kb }kb maksima
 remove-avatar = Buang Avatar
-

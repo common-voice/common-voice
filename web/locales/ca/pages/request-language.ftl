@@ -38,4 +38,3 @@ request-language-success-list-3 =
 request-language-error =
     Potser no hem rebut aquesta sol·licitud. Envieu-nos un correu electrònic
     directament a <emailLink>{ $email }</emailLink> i us respondrem!
-

@@ -32,7 +32,6 @@ review-rerecord = Erġa' rrekordja
 review-cancel = Ikkanċella l-kontribuzzjoni tiegħek
 review-keep-recordings = Żomm ir-recordings
 review-delete-recordings = Ħassar ir-recordings tiegħi
-
 review-terms = Meta tuża Common Voice, qed taqbel mat-<termsLink>Termini</termsLink> u <privacyLink>Politika tal-Privatezza</privacyLink>
 terms-agree = Naqbel
 terms-disagree = Ma naqbilx

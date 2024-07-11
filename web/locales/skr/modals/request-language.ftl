@@ -7,7 +7,4 @@ request-language-success-title = زبان دی ارداس کامیابی نال 
 request-language-success-content = تہاݙی زبان کوں اساں ٻہوں جلدی کامن وائس وچ کین٘ویں شامل کروں، ایں اساں ٻئی ڄاݨکاری کیتے تہاݙے نال رابطے وچ راہسوں۔
 select-language = زبان چݨو۔۔۔
 other-language = ٻئی زبان
-
-## General
-
 yes-receive-emails = جیا، میکوں ای میلاں بھیڄو۔ میں کامن وائس منصوبے بارے باخبر رہݨ چاہساں۔

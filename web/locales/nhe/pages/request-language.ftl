@@ -13,4 +13,3 @@ request-language-form-info-explanation-list-2 = <isoCodeLink>ISO Codes</isoCodeL
 request-language-form-info-explanation-list-3 = Paginas web then hueli techpalehuis ti cuamachilise mo idioma.
 # Success page
 request-language-success-heading = ¡Gracias! Ha enviado una nueva consulta de idioma
-

@@ -30,4 +30,3 @@ download-request-modal-description = Nin ye ladɛrɛsiw ye minnu bɛ se ka i ka 
 download-request-link-text = Zip #{ $offset } ka { $total } .
 download-request-metadata-link = Kumasen sɛbɛnni
 download-request-link-single = I bɛ se fana ka URL tilennenw kopi kɛ k’u nɔrɔ i ka telesarse ɲɛnabɔbaga kanulen kɔnɔ. U bɛna ban sanga 12 kɔnɔ, nka i bɛ se ka segin nin ɲɛ in kan walasa ka kuraw lawuli waati o waati.
-

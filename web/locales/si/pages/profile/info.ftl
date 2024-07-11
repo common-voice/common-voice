@@ -38,4 +38,3 @@ contribution-experience = දායක පළපුරුද්ද
 skip-submission-feedback = ඉදිරිපත් කිරීමේ ප්‍රතිපෝෂණය මඟ හරින්න
 off = අක්‍රිය
 on = සක්‍රීය
-

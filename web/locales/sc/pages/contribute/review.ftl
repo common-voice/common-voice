@@ -33,11 +33,4 @@ sc-criteria-item-3 = Sa fràsia depet pòdere èssere pronuntziada.
 sc-criteria-item-4 = Si sa fràsia sighit custos critèrios, incarca su butone &quot;Aprova&quot; in artu a dereta.
 sc-criteria-item-5-2 = Si sa fràsia non sighit is critèrios anteriores, incarca su butone &quot;Refuda&quot; a manca. Si no ddu isces, dda podes brincare pro colare a cussa imbeniente.
 sc-criteria-item-6 = Si non nc'at prus fràsias de revisionare, agiuda·nos a nde regòllere àteras!
-
-## LANGUAGE VARIANT CODES
-
-
-## REVIEW PAGE
-
 report-sc-different-language = Lìngua diferente
-

@@ -15,9 +15,6 @@ localized = Lokalizāts
 sentences = Teikumi
 language-validation-hours = Stuņdis
 language-validation-progress = Puorbaudis progress
-
-## Languages
-
 contribute = Dūt īguļdejumu
 get-involved-button = Paleidzēt
 get-involved-title = Dūt īguļdejumu { $lang } volūdā

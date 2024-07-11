@@ -27,4 +27,3 @@ download-request-modal-title = ናይ ኣክረዮት Links
 download-request-modal-description = እለንተን ላ links መለፍ ZIP ላትከሮ ምና
 download-request-link-text = Zip #{ $offset } of { $total }
 download-request-metadata-link = ናይ ጁምለት ክታበት
-

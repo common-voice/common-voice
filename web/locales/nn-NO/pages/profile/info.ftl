@@ -69,4 +69,3 @@ on = På
 help-accent = Treng du hjelp med dialekt?
 help-variants = Treng du hjelp med variantar?
 help-sex-or-gender-changes = Treng du hjelp med endringane i kjønn?
-

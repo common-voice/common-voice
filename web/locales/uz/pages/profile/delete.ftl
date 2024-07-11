@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Yozuvlaringizni nega o'chirib tashlashni xohlashingizni bizga xabar qila olasizmi?
 profile-form-delete = Profilni o‘chirish
-

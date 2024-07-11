@@ -33,7 +33,6 @@ review-rerecord = Նորից ձայնագրել
 review-cancel = Չեղարկել հաստացումը
 review-keep-recordings = Պահել ձայնագրությունները
 review-delete-recordings = Ջնջել իմ ձայնագրությունները
-
 review-terms = Օգտագործելով Common Voice-ը դուք համաձայնվում եք մեր <termsLink>Պայմաններին</termsLink> և  <privacyLink>Գաղտնիության քաղաքականությանը</privacyLink>
 terms-agree = Համաձայն եմ
 terms-disagree = Համաձայն չեմ

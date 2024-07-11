@@ -19,3 +19,5 @@ demo-account-sign-up = Дизимнен өтиў силтемесин жибер
 
 demo-listen-subtitle = Үлесиңизди қосыўға таярсыз ба?
 
+## Demo Dashboard
+

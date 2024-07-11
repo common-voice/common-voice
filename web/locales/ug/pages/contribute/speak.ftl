@@ -33,7 +33,6 @@ review-rerecord = قايتا ئۈنگە ئېلىڭ
 review-cancel = يوللاشنى ئەمەلدىن قالدۇر
 review-keep-recordings = ئۈن خاتىرىسىنى ساقلاڭ
 review-delete-recordings = ئۈن خاتىرەمنى ئۆچۈر
-
 review-terms = Common Voice نى ئىشلىتىش ئارقىلىق سىز بىزنىڭ <termsLink>شەرتنامە</termsLink> شۇنداقلا <privacyLink>مەخپىيەتلىك ئەسكەرتىشمىز</privacyLink> گە قوشۇلغان بولىسىز
 terms-agree = قوشۇلىمەن
 terms-disagree = قوشۇلمايمەن

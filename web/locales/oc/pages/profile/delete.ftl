@@ -10,4 +10,3 @@ why-delete-recordings =
     
     Mos poderíetz hèr a saber per qué voletz suprimir es vòsti enregistraments?
 profile-form-delete = Suprimís eth perfil
-

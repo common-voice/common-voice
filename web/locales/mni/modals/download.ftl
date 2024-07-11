@@ -7,4 +7,3 @@ download-form-email =
     .value = ꯊꯥꯒꯠꯆꯔꯤ, ꯑꯩꯈꯣꯏꯅꯥ ꯄꯥꯎ ꯐꯥꯎꯅꯒꯅꯤ ꯫
 download-back = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥꯁꯦꯠꯁꯤꯡꯗꯥ ꯍꯜꯂꯛꯎ ꯫
 download-no = ꯄꯥꯝꯗꯔꯦ
-

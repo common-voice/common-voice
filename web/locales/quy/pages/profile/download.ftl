@@ -28,4 +28,3 @@ download-request-modal-description = Kaypi ZIP archivokunayki uraykachinaykipaq 
 download-request-link-text = Zip #{ $offset } de { $total }
 download-request-metadata-link = Texto de la oración
 download-request-link-single = Chantapas chiqa URLkuna munasqa uraykachiy kamachiqniykiman copiayta chaymanta k'askachiyta atikunki. 12 pachamanta tukukunqa, ichaqa kay p'anqaman kutimuyta atinki musuqkunata paqarichinaykipaq mayk'aqllapas.
-
