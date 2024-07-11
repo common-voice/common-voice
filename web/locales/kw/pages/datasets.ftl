@@ -1,0 +1,47 @@
+## Datasets Page
+
+datasets-heading = Kedhelsettys
+language = Yeth
+# File size in gigabytes
+size = Braster
+validated-hr-total = Somm a Ourys Dilysys
+overall-hr-total = Somm Ourys
+cv-license = Leshyans
+audio-format = Furvas Sonadow
+number-of-voices = Niver a Levow
+email-to-download = Entra Ebost dhe Iskarga
+size-gigabyte = RU
+size-megabyte = MB
+download-language = Iskarga{ $language }
+validated-hours = Ourys Dilysys
+recorded-hours = Ourys Rekordys
+subscribe = Ragbrena
+other-datasets = Kedhelsettys Lev Erel
+feedback-q = Eus Dasliv?
+data-other-librispeech-description = LibriSpeech yw korpus a neb 1000 our a gows yn Sowsnek lennys orth 16Khz ow tos dhyworth lyvrow son dhyworth an ragdres LibriVox.
+data-other-ted-name = Korpus TED-LIUM
+data-other-ted-description = An korpus TED-LIUM a veu gwrys dhyworth arethow son ha'ga treusskrifansow kavadow war wiasva TED.
+data-other-voxforge-description = VoxForge a veu drehevys rag kuntel kows treusskrifys rag y usya gans jynnow aswon kows pennfenten ygor ha heb kost.
+data-other-tatoeba-description = Tatoeba yw database bras a lavarow, treylyansow ha son kowsys may hyllir y usya ow tyski yethow. Yma a-berth y'n iskargans ma Sowsnek kowsys rekordys gans aga hemeneth.
+ready-to-validate = Parys dhe weres dilysa lavarow?
+more = Moy
+close = Degea
+download = Iskarga
+dataset-version = Gwersyon
+data-download-button = Iskarga data Common Voice
+data-download-yes = Da
+data-download-deny = Na
+data-download-license = Leshyans: <licenseLink>CC-0</licenseLink>
+data-download-modal = Parys owgh dhe dhalleth iskargans a <size>{ $size }GB</size>, a vynnowgh pesya?
+data-subtitle = Yth eson ow trehevel sett data ygor ha kavadow yn foblek a levow a yll pubonen usya rag dyski dhe dowlennow gans lev.
+data-explanatory-text = Ni a grys settys data bras ha kavadow yn foblek dhe vaga awenekter ha kesstrif kenwerthel yaghus yn teknegieth gows selyes war dhyski jynn. Hemm yw assay ollvysel ha ni a elow orth pubonen dhe gevri. Agan amkan yw gweres teknegieth gows dhe vos moy dalghus, ow tastewynnya an diversita a levow eus a-dro dhe'n bys.
+data-get-started = <speechBlogLink>Omvyskowgh gans aswon kows</speechBlogLink>
+data-other-title = Settys data erel...
+data-other-goto = Mos dhe { $name }
+data-other-download = Iskarga an data
+data-bundle-button = Iskarga pusorn an sett data
+data-bundle-description = Data Common Voice keffrys ha pub sett data aral a-ugh.
+release-version = Gwersyon
+dataset-date = Dedhyas
+license = Leshyans: <licenseLink>{ $license }</licenseLink>
+license-mixed = Kemyskys

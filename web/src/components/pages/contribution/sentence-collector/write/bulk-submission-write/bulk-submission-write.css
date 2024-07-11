@@ -94,6 +94,7 @@
                 & .file-restrictions {
                     font-size: var(--font-size-sm);
                     font-style: italic;
+                    text-align: center;
                 }
 
                 button {
