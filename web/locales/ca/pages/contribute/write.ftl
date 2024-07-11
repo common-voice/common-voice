@@ -55,6 +55,7 @@ nature_environment = Natura i medi ambient
 news_current_affairs = Notícies i actualitat
 # Sentence Domain dropdown option
 technology_robotics = Tecnologia i robòtica
+sentence-variant-select-placeholder = Trieu una variant (opcional)
 
 ## BULK SUBMISSION 
 
@@ -69,6 +70,7 @@ try-upload-again-md = Proveu de pujar-lo de nou
 select-file = Seleccioneu el fitxer
 select-file-mobile = Seleccioneu el fitxer que es pujarà
 accepted-files = Tipus de fitxers acceptats: només .tsv
+minimum-sentences = Mínim de frases del fitxer: 1000
 maximum-file-size = Mida màxima del fitxer: 25 MB
 what-needs-to-be-in-file = Què hi ha d'haver en el fitxer?
 what-needs-to-be-in-file-explanation = Comproveu el nostre <templateFileLink>fitxer de plantilla</templateFileLink>. Les vostres frases han de ser lliures de drets d'autor (CC0 o treball original autoritzat pel remitent) i ser clares, gramaticalment correctes i fàcils de llegir. Les frases enviades haurien de trigar uns 10-15 segons a llegir-se i s'han d'evitar incloure xifres, noms propis i caràcters especials.
