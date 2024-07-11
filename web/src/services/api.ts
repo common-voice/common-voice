@@ -171,7 +171,7 @@ export default class API {
   }
 
   fetchLocaleMessages(locale: string): Promise<string> {
-    return this.fetch(`/locales/${locale}/messages.ftl`, { isJSON: false })
+    return this.fetch(`${API_PATH}/languages/${locale}/translations`, { isJSON: false })
   }
 
   async fetchCrossLocaleMessages(): Promise<string[][]> {

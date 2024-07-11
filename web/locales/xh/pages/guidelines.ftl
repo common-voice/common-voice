@@ -1,0 +1,1 @@
+sentence-collection = Ingqokelela yezivakalisi

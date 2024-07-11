@@ -1937,6 +1937,7 @@ try-upload-again-md = Hochladen erneut versuchen
 select-file = Datei auswählen
 select-file-mobile = Datei zum Hochladen auswählen
 accepted-files = Akzeptierte Dateitypen: nur .tsv
+minimum-sentences = Mindestanzahl Sätze pro Datei: 1&thinsp;000
 maximum-file-size = Maximale Dateigröße: 25 MB
 what-needs-to-be-in-file = Was muss in meiner Datei enthalten sein?
 what-needs-to-be-in-file-explanation = Bitte überprüfen Sie unsere <templatFileLink>Vorlagen-Datei</templatFileLink>. Ihre Sätze sollten urheberrechtsfrei (CC0 oder Originalarbeit des Einreichenden) sein, klar, grammatikalisch korrekt und leicht zu lesen. Eingereichte Sätze sollten in etwa 10-15 Sekunden zu lesen sein und sollten keine Zahlen, Eigennamen und Sonderzeichen enthalten.
