@@ -262,29 +262,21 @@ function readFilesInDirectory(
 
 const getMinimalTranslationResources = (locale: string) => {
   let contributePages
-  let profilePages
   let contributePagesResources
-  let profilePagesResources
 
   try {
     contributePages = readFilesInDirectory(
       path.join(localeMessagesPath, locale, 'pages', 'contribute')
     )
-    profilePages = readFilesInDirectory(
-      path.join(localeMessagesPath, locale, 'pages', 'profile')
-    )
     contributePagesResources = contributePages.map(page =>
       parse(page.content, {})
     )
-    profilePagesResources = profilePages.map(page => parse(page.content, {}))
   } catch {
     contributePagesResources = [parse('', {})]
-    profilePagesResources = [parse('', {})]
   }
 
   return {
     contributePages: contributePagesResources,
-    profilePages: profilePagesResources,
   }
 }
 
@@ -292,21 +284,7 @@ const minimalTranslation = (locale: string) => {
   const refMinimalResources = getMinimalTranslationResources('en')
   const targetMinimalResources = getMinimalTranslationResources(locale)
 
-  const refProfilePageCount = refMinimalResources.profilePages.reduce(
-    (acc, curr) => {
-      return acc + curr.body.length
-    },
-    0
-  )
-
   const refContributePageCount = refMinimalResources.contributePages.reduce(
-    (acc, curr) => {
-      return acc + curr.body.length
-    },
-    0
-  )
-
-  const targetProfilePageCount = targetMinimalResources.profilePages.reduce(
     (acc, curr) => {
       return acc + curr.body.length
     },
@@ -318,10 +296,7 @@ const minimalTranslation = (locale: string) => {
       return acc + curr.body.length
     }, 0)
 
-  const refCount = refContributePageCount + refProfilePageCount
-  const targetCount = targetContributePageCount + targetProfilePageCount
-
-  return refCount === targetCount
+  return refContributePageCount === targetContributePageCount
 }
 
 const fetchPontoonLanguages = async (): Promise<any[]> => {
@@ -397,19 +372,19 @@ export async function importLocales() {
     const newLanguageData = locales.reduce((obj, language) => {
       // if a lang has clips, or has the required translations,
       // consider it translated
-      const isTranslated = languagesWithClips[language.code]
+      const isTranslatedNew = languagesWithClips[language.code]
         ? 1
         : language.hasRequiredTranslations
-          ? 1
-          : language.translated >= TRANSLATED_MIN_PROGRESS //no previous clips, check if criteria met
-            ? 1
-            : 0
-
-      const isTranslatedOld = languagesWithClips[language.code]
         ? 1
         : language.translated >= TRANSLATED_MIN_PROGRESS //no previous clips, check if criteria met
-          ? 1
-          : 0
+        ? 1
+        : 0
+
+      const isTranslated = languagesWithClips[language.code]
+        ? 1
+        : language.translated >= TRANSLATED_MIN_PROGRESS //no previous clips, check if criteria met
+        ? 1
+        : 0
 
       const hasEnoughSentences =
         allLanguages[language.code]?.hasEnoughSentences || false
@@ -418,20 +393,20 @@ export async function importLocales() {
       const is_contributable = languagesWithClips[language.code]
         ? 1
         : isTranslated && hasEnoughSentences // no prev clips, check translated and enough sentences
-          ? 1
-          : 0
-
-      const is_contributable_old = languagesWithClips[language.code]
         ? 1
-        : isTranslatedOld && hasEnoughSentences // no prev clips, check translated and enough sentences
-          ? 1
-          : 0
+        : 0
 
-      if (is_contributable_old === 0 && is_contributable === 1) {
-        console.log(`Locale ${language.code} would be considered launched with the new requiremenst`)
+      const is_contributable_new = languagesWithClips[language.code]
+        ? 1
+        : isTranslatedNew && hasEnoughSentences // no prev clips, check translated and enough sentences
+        ? 1
+        : 0
 
+      if (is_contributable === 0 && is_contributable_new === 1) {
+        console.log(
+          `Locale ${language.code} would be considered launched with the new requiremenst`
+        )
       }
-
 
       obj[language.code] = {
         ...language,
