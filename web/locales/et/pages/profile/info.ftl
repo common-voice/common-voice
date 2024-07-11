@@ -1,0 +1,47 @@
+## ProfileForm
+
+profile-form-username =
+    .label = Kasutajanimi
+profile-form-native-language =
+    .label = Emakeel
+profile-form-additional-language =
+    .label = Lisakeel
+profile-form-accent =
+    .label = Aktsent
+profile-form-age =
+    .label = Vanus
+leaderboard-visibility =
+    .label = Nähtavus pingereas
+hidden = Peidetud
+visible = Nähtav
+native-language =
+    .label = Emakeel
+profile-form-submit-save = Salvesta
+profile-form-submit-saved = Salvestatud
+# Gender
+other = muu
+why-profile-title = Milleks profiil?
+why-profile-text = Teades andmeid sinu kohta, saab sinu poolt Common Voice projekti lisatud helifaile paremini kasutada kõnetuvastusprogrammide arendamiseks.
+dashboard = Töölaud
+build-profile = Loo profiil
+avatar = Avatar
+goals = Eesmärgid
+settings = Sätted
+edit-profile = Muuda profiili
+profile-create-success = Suurepärane, profiil on loodud!
+profile-close = Sulge
+profile-explanation = Jälgi profiili abil oma edenemist ja ühtlasi aita ka meil saada täpsemaid hääleandmeid.
+thanks-for-account = Täname, et kinnitasid oma kasutajakonto, loome nüüd sulle profiili.
+why-demographic = Miks see oluline on?
+accept-privacy = Olen nõus selle info käsitsemiseks Mozilla <privacyLink>privaatsusreeglitest</privacyLink> lähtuvalt
+login-identity = Kasutajatunnus
+login-signup = Logi sisse / registreeru
+edit = Muuda
+email-subscriptions = E-kirjade tellimused
+download-profile = Laadi oma andmed alla
+contribution-experience = Panustamise kogemus
+skip-submission-feedback = Jäta töö tagasiside vahele
+skip-submission-description = Panuse ära saatmisel jäetakse tagasiside andmine pärast "Saada" nupu vajutamist vahele. Panustamine jätkub otse järgmise 5 salvestise või kontrollimisega.
+skip-submission-note = Märkus: panustamise tüübi muutmiseks tuleb valida "räägi" või "kuula".
+off = Väljas
+on = Sees

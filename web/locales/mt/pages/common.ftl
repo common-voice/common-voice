@@ -1,0 +1,163 @@
+# Don't rename the following section, its contents are auto-inserted based on the name (see scripts/pontoon-languages-to-ftl.js)
+# [Languages]
+
+
+## Languages
+
+ab = Abkhaz
+ace = Acehniż
+ady = Adyghe
+af = Afrikaans
+am = Amħariku
+an = Aragoniż
+ar = Għarbi
+arn = Mapudungun
+as = Assamiż
+ast = Asturjan
+az = Ażerbajġani
+ba = Bashkirs
+be = Belarussu
+bg = Bulgaru
+bn = Bengali
+br = Breton
+bxr = Buryat
+ca = Katalan
+cak = Kaqchikel
+cnh = Hakha Chin
+cs = Ċek
+cv = Chuvash
+cy = Welsh
+da = Daniż
+de = Ġermaniż
+dsb = Sorbjan, t'Isfel
+dv = Dhivehi
+el = Grieg
+en = Ingliż
+eo = Esperanto
+es = Spanjol
+et = Estonjan
+eu = Bask
+fa = Persjan
+ff = Fulah
+fi = Finlandiż
+fo = Faroiż
+fr = Franċiż
+fy-NL = Frisjan
+ga-IE = Irlandiż
+gl = Galizzjan
+ha = Hausa
+he = Ebrajk
+hr = Kroat
+hsb = Sorbjan, ta' Fuq
+hu = Ungeriż
+ia = Interlingwa
+id = Indoneżjan
+is = Iżlandiż
+it = Taljan
+izh = Iżorjan
+ja = Ġappuniż
+ka = Ġorġjan
+kaa = Karakalpak
+kab = Kabyle
+kbd = Kabardjan
+kk = Kazakh
+ko = Korean
+kpv = Komi-Zyrian
+kw = Cornish
+ky = Kyrgyz
+lg = Luganda
+lij = Ligurjan
+lt = Litwan
+lv = Latvjan
+mdf = Moksha
+mg = Malagażi
+mhr = Meadow Mari
+mk = Maċedonu
+ml = Malayalam
+mn = Mongoljan
+mrj = Hill Mari
+mt = Malti
+my = Burmiż
+myv = Erzya
+nb-NO = Bokmål Norveġiż
+ne-NP = Nepali
+nl = Olandiż
+nn-NO = Nynorsk Norveġiż
+oc = Occitan
+or = Odia
+pa-IN = Punġabi
+pl = Pollakk
+pt = Portugiż
+rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
+ro = Rumen
+ru = Russu
+rw = Kinyarwanda
+sah = Sakha
+sc = Lingwa Sarda
+scn = Sqalli
+si = Sinhala
+sk = Slovakk
+sl = Sloven
+sq = Albaniż
+sr = Lingwa Serba
+sv-SE = Svediż
+sw = Swahili
+syr = Sirjakk
+ta = Tamil
+te = Telugu
+tg = Tajik
+th = Tajlandiż
+tl = Tagalog
+tr = Tork
+tt = Tatar
+uby = Ubykh
+udm = Udmurt
+uk = Ukren
+ur = Urdu
+uz = Uzbek
+vec = Venezjan
+vi = Vjetnamiż
+vot = Votic
+zh-CN = Ċiniż (Ċina)
+zh-HK = Ċiniż (Hong Kong)
+zh-TW = Ċiniż (Tajwan)
+
+# [/]
+
+
+## Layout
+
+speak = Tkellem
+speak-now = Tkellem issa
+datasets = Ġabriet ta' data
+languages = Lingwi
+about = Dwar
+profile = Profil
+help = Għajnuna
+contact = Kuntatt
+privacy = Privatezza
+terms = Termini
+cookies = Cookies
+faq = FAQ
+content-license-text = Kontenut disponibbli taħt <licenseLink>Liċenzja Creative Commons </licenseLink>
+share-title = Għinna biex insibu lil ħaddieħor lest jagħtina l-vuċi tiegħu!
+share-text = Għinna ngħallmu 'l magni jitkellmu bħan-nies, agħtina l-vuċi tiegħek fuq { $link }
+link-copied = Il-ħolqa ġiet ikkuppjata
+back-top = Lura għall-bidu
+logout = Oħroġ
+stayintouch = Aħna tal-Mozilla qed nibnu komunità b'interess fit-teknoloġija marbuta mal-vuċi. Nixtieq nikkuntattjawk b'xi aġġornamenti, sorsi ġodda ta' data u biex tgħidilna kif qed tuża din id-data.
+privacy-info = Inwiegħduk li l-informazzjoni dwarek se nużawha b'mod responsabbli. Aqra iktar dwar dan fl-<privacyLink>iStqarrija dwar il-Privatezza</privacyLink>.
+return-to-cv = Lura għal Common Voice.
+email-input =
+    .label = Email
+submit-form-action = Ibgħat
+loading = Dalwaqt...
+email-opt-in-info = Nixtieq nirċievi emails, per eżempju biex ifakkruni fl-għanijiet tiegħi, nirċievi aġġornamenti dwar progress u ittri-aħbar dwar Common Voice.
+email-opt-in-info-title = Issieħeb mal-mailing list ta' Common Voice.
+email-opt-in-info-sub-with-challenge = Ibda rċievi l-emails biex ifakkruk dwar sfidi u għanijiet, aġġornamenti dwar il-progress, u aħbarijiet dwar Common Voice.
+indicates-required = * Tindika informazzjoni meħtieġa
+not-available-abbreviation = Mhux applikabbli
+
+## Donate banner
+
