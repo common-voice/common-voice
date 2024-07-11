@@ -78,6 +78,7 @@ adding-sentences-subheader-speakable-explanation = 最理想的句子應該自�
 adding-sentences-subheader-numbers = 數字
 adding-sentences-subheader-numbers-explanation = 原文段落中不應包含數字，因為會在唸出來的時候造成問題。數字的念法需依前後文而定，可能會在資料集中造成混淆。舉例來說，數字「2409」有時會念成「兩千四百零九」，也有可能念成「二四零九」。
 adding-sentences-subheader-abbreviations = 縮寫
+adding-sentences-subheader-abbreviations-explanation = 原文段落中，應避免使用縮寫和首字母縮略詞，例如「USA」或「ICE」，因為它們的拼法與念法可能不一樣。此外，單一縮寫也可能有多種正確念法。
 adding-sentences-subheader-punctuation = 標點符號
 adding-sentences-subheader-punctuation-explanation = 應該只在有絕對必要的時候才加入特殊符號及標點。舉例來說，英文字「don’t」、「we’re」當中的撇號（apostrophe）應該包含在原文段落中，但不太可能會需要「@」或「#」等特殊符號。
 adding-sentences-subheader-special-characters = 特殊符號與外文
@@ -87,4 +88,5 @@ reviewing-sentences-explanation-1 = 若句子符合上述標準，請點擊「�
 reviewing-sentences-explanation-2 = 若句子不符合上述標準，請點擊「拒絕」按鈕。
 reviewing-sentences-explanation-3 = 如果您不確定句子是否符合上述標準，也可以略過，跳到下一句。
 reviewing-sentences-explanation-4 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
+domain-explanation = 「領域」指的是語句的主旨。目前可以選擇下列領域：
 

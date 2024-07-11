@@ -29,6 +29,9 @@ native-language =
 profile-form-add-accent = 새 사용자 지정 억양 "{ $inputValue }" 추가
 profile-form-submit-save = 저장
 profile-form-submit-saved = 저장됨
+male_masculine = 남성
+female_feminine = 여성
+intersex = 간성
 # Gender
 other = 그외
 why-profile-title = 왜 사용자 정보가 필요한가요?
@@ -47,6 +50,7 @@ why-demographic = 왜 이 문제가 중요합니까?
 why-demographic-explanation-2 = 연령, 성별, 억양과 같은 익명 사용자 데이터는 음성 인식 엔진의 정확성을 교육하는 데 사용되는 오디오 데이터를 개선하는 데 도움이 됩니다. 사용자 이름과 이메일은 제출된 데이터와 연결되지 않으며 사용자 이름을 공개할지 익명으로 할지 선택할 수 있습니다.
 accept-privacy = Mozilla의 <privacyLink>개인 정보 보호정책</privacyLink>에서 설명한대로 이 정보를 처리해 주십시오.
 accept-privacy-title = 개인 정보 보호 정책
+accept-privacy-and-terms = Common Voice의 <termsLink>약관</termsLink> 및 <privacyLink>개인정보 보호정책</privacyLink>에 동의합니다.
 login-identity = 로그인 정보
 login = 로그인
 login-signup = 로그인 / 가입하기

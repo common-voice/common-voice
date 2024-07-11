@@ -91,8 +91,10 @@ about-playbook-how-validate = Korleis veit eg om jeg skal godkjenne eit stemmekl
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Korleis får eg tilgang til og brukar datasettet?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Korleis vert prosjektavgjerder tekne ?
 about-playbook-how-project-governance-content-7 = <governanceLink>Les meir om korleis vi blir styrt.</governanceLink>
 

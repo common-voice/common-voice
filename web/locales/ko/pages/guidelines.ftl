@@ -47,3 +47,4 @@ adding-sentences-subheader-abbreviations = 축약어와 두문자어
 adding-sentences-subheader-punctuation = 구두점
 adding-sentences-subheader-special-characters = 특수 문자 및 외국 문자
 adding-sentences-subheader-offensive-content = 공격적인 콘텐츠
+

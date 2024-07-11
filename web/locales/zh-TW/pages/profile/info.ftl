@@ -71,4 +71,5 @@ help-accent-explanation = 腔調就是您發音的方式，可能會受您生活
 help-variants = 需要關於變體的相關說明嗎？
 help-variants-explanation = 變體是一種語言的特定格式，像是由居住在共同地區或社群的人才有的特定說話腔調。有時這也稱為「方言」。
 help-sex-or-gender-changes = 需要更改性別嗎？
+variant-contribution-options-header = 變體貢獻選項
 

@@ -1,4 +1,6 @@
 write = 쓰기
+## WRITE PAGE
+
 write-page-subtitle = 여기에 제공된 문장은 공개적으로 사용 가능한 cc-0 라이선스 데이터 세트에 추가됩니다.
 sentence =
     .label = 문장
@@ -18,4 +20,8 @@ contact-us = 연락하기
 add-sentence-success = 1문장 수집됨
 add-sentence-error = 문장을 추가하는 중에 오류가 발생했습니다.
 required-field = 이 항목을 입력해 주세요.
+
+## BULK SUBMISSION 
+
+select-file = 파일 선택
 

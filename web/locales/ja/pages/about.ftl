@@ -5,6 +5,10 @@ how-does-it-work-text = 私たちは声のオープンソースデータセッ�
 
 ## How does it work section
 
+about-localization-title = ウェブサイトのローカライズ
+about-voice-validation-title = 音声検証
+about-voice-validation-subtitle = 第三者が音声クリップを検証します。
+about-dataset-release-title = データセットリリース
 about-speak = 話す
 about-speak-text = 貢献者が寄付された文章を読み上げて音声クリップを録音します。
 about-listen-queue = リッスンキュー
@@ -28,6 +32,8 @@ about-nav-why-common-voice = なぜ？
 about-nav-how-it-works = どうやって？
 about-nav-partners = パートナー
 about-nav-get-involved = 参加しよう
+about-nav-how-it-works-2 = Common Voiceはどのような仕組みですか？
+about-nav-playbook = 参加するには
 
 ## Community Playbook Content
 ## What is a language
@@ -35,12 +41,16 @@ about-nav-get-involved = 参加しよう
 
 ## How do I add a language
 
+about-playbook-how-add-language = 言語を追加するには？
+about-playbook-how-add-language-translating-heading = サイトの翻訳
 
 ## How does localization work
 
+about-playbook-how-localize-content-5 = 動画の説明をご覧ください
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = 文章を追加するには？
 
 ## How to record quality
 
@@ -48,4 +58,12 @@ about-nav-get-involved = 参加しよう
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = イベント
+about-playbook-how-grow-language-content-4 = ソーシャルメディア
+
+## How to validate
+
+
+## How to access dataset
+
+about-playbook-how-access-dataset = データセットにアクセスして使用するには？
 

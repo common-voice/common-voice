@@ -74,6 +74,7 @@ try-upload-again-md = Hãy thử tải lên lại
 select-file = Chọn tập tin
 select-file-mobile = Chọn tập tin để tải lên
 accepted-files = Các loại tập tin được chấp nhận: chỉ .tsv
+minimum-sentences = Số câu tối thiểu trong hồ sơ: 1000
 maximum-file-size = Kích thước tối đa của tập tin: 25 MB
 what-needs-to-be-in-file = Những gì cần có trong hồ sơ của tôi?
 what-needs-to-be-in-file-explanation = Hãy xem qua <templateFileLink>tập tin mẫu</templateFileLink> của chúng tôi. Câu của bạn phải không có bản quyền (CC0 hoặc tác phẩm gốc được người gửi cho phép) và rõ ràng, đúng ngữ pháp và dễ đọc. Các câu đã gửi sẽ mất khoảng 10-15 giây để đọc và nên tránh bao gồm số, danh từ riêng và ký tự đặc biệt.

@@ -74,6 +74,7 @@ try-upload-again-md = Zkuste nahrát znovu
 select-file = Vybrat soubor
 select-file-mobile = Vyberte soubor pro nahrání
 accepted-files = Přijímané typy souborů: pouze .tsv
+minimum-sentences = Minimální počet vět v souboru: 1000
 maximum-file-size = Maximální velikost souboru: 25 MB
 what-needs-to-be-in-file = Co musí být v mém souboru?
 what-needs-to-be-in-file-explanation = Podívejte se prosím na náš <templateFileLink>vzorový soubor</templateFileLink>. Vaše věty by neměly podléhat autorským právům (CC0 nebo autorizované původní dílo zadavatele) a měly by být jasné, gramaticky správné a snadno čitelné. Přečtení předložených vět by mělo trvat zhruba 10-15 sekund a neměly by obsahovat čísla, vlastní jména a speciální znaky.

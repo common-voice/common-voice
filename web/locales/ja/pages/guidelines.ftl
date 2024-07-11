@@ -66,3 +66,4 @@
 # [/SentenceCollector]
 
 sentence-collection = 文章コレクション
+

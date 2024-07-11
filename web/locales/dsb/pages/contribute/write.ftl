@@ -72,6 +72,7 @@ try-upload-again-md = Nagraśe znowego wopytaś
 select-file = Dataju wubraś
 select-file-mobile = Wubjeŕśo dataju za nagraśe
 accepted-files = Akceptěrowane datajowe typy: jano .tsv
+minimum-sentences = Minimalna licba sadow w dataji: 1.000
 maximum-file-size = Maksimalna datajowa wjelikosć: 25 MB
 what-needs-to-be-in-file = Co musy w mójej dataji byś?
 upload-progress-text = Nagraśe běžy…

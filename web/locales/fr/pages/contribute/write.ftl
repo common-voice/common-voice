@@ -74,6 +74,7 @@ try-upload-again-md = Essayer à nouveau d’envoyer
 select-file = Sélectionner un fichier
 select-file-mobile = Sélectionnez un fichier à envoyer
 accepted-files = Types de fichiers acceptés : .tsv uniquement
+minimum-sentences = Nombre minimum de phrases dans le fichier : 1 000
 maximum-file-size = Taille maximale du fichier : 25 Mo
 what-needs-to-be-in-file = Que doit contenir mon fichier ?
 what-needs-to-be-in-file-explanation = Veuillez consulter notre <templateFileLink>modèle</templateFileLink>. Vos phrases doivent être libres de droit (CC0 ou travail original autorisé par l’auteur·trice) et être claires, grammaticalement correctes et faciles à lire. Les phrases envoyées doivent prendre environ 10-15 secondes à lire et doivent éviter d’inclure des chiffres, des noms propres et des caractères spéciaux.

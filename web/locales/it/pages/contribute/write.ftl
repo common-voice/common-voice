@@ -74,6 +74,7 @@ try-upload-again-md = Prova a caricare di nuovo
 select-file = Seleziona file
 select-file-mobile = Seleziona il file da caricare
 accepted-files = Tipi di file accettati: solo .tsv
+minimum-sentences = Numero minimo di frasi nel file: 1000
 maximum-file-size = Dimensione massima del file: 25 MB
 what-needs-to-be-in-file = Che cosa deve esserci nel mio file?
 what-needs-to-be-in-file-explanation = Controlla il nostro <templateFileLink>file modello</templateFileLink>. Le frasi non devono essere soggette a copyright (CC0 o un’opera originale per cui il mittente ha ricevuto adeguata autorizzazione) ed essere chiare, grammaticalmente corrette e di facile lettura. La lettura delle frasi inviate dovrebbe richiedere circa 10-15 secondi e non dovrebbero includere numeri, nomi propri e caratteri speciali.

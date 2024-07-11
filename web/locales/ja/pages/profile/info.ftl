@@ -29,6 +29,12 @@ native-language =
 profile-form-add-accent = 新しいカスタムアクセント "{ $inputValue }" を追加
 profile-form-submit-save = 保存
 profile-form-submit-saved = 保存済み
+male_masculine = 男性
+female_feminine = 女性
+intersex = インターセックス
+transgender = トランスジェンダー
+non-binary = ノンバイナリー
+do_not_wish_to_say = 回答拒否
 # Gender
 other = その他
 why-profile-title = なぜプロファイルが必要ですか？
@@ -64,4 +70,5 @@ help-accent = アクセントについて助けが必要ですか？
 help-accent-explanation = アクセントは単語の発音の仕方です。それは、あなたが住んでいた場所、他にどの言語を話すか、その他多くの要因によって形作られます。関連すると思われる情報はここで共有できます。
 help-variants = 方言について助けが必要ですか？
 help-variants-explanation = 方言は、言語の特定の形式です。たとえば、ある地域やコミュニティに住んでいる人々によって共有されます。これらは変種と呼ばれることもあります。
+help-sex-or-gender-changes = 性別の変更に関してサポートが必要ですか？
 

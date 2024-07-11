@@ -74,6 +74,7 @@ try-upload-again-md = Skúste nahrať znova
 select-file = zvoľte súbor
 select-file-mobile = Vyberte súbor na odovzdanie
 accepted-files = Akceptované typy súborov: iba .tsv
+minimum-sentences = Minimálny počet viet v súbore: 1000
 maximum-file-size = Maximálna veľkosť súboru: 25 MB
 what-needs-to-be-in-file = Čo musí byť v mojom súbore?
 what-needs-to-be-in-file-explanation = Pozrite si náš <templateFileLink>vzorový súbor</templateFileLink>. Vaše vety by mali byť chránené autorskými právami (CC0 alebo autorizované pôvodné dielo zadávateľa) a mali by byť jasné, gramaticky správne a ľahko čitateľné. Čítanie odoslaných viet by malo trvať približne 10-15 sekúnd a nemali by obsahovať čísla, vlastné podstatné mená a špeciálne znaky.

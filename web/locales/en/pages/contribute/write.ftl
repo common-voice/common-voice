@@ -72,6 +72,7 @@ try-upload-again-md = Try uploading again
 select-file = Select File
 select-file-mobile = Select File to Upload
 accepted-files = Accepted file types: .tsv only
+minimum-sentences = Minimum sentences in file: 1000
 maximum-file-size = Maximum file size: 25 MB
 what-needs-to-be-in-file = What needs to be in my file?
 what-needs-to-be-in-file-explanation = Please check our <templateFileLink>template file</templateFileLink>. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.

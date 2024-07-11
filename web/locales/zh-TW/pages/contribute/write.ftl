@@ -2,11 +2,14 @@ write = 寫句子
 ## WRITE PAGE
 
 write-instruction = 加入 <icon></icon> 公眾領域的句子
+write-page-subtitle = 提供到這裡的句子，會列入以 CC-0 授權、可公開取得的資料集內。
 sentence =
     .label = 語句
 sentence-input-value = 在此輸入公眾領域語句
+citation-input-placeholder = 您的句子的出處（必填）
 citation =
     .label = 引用
+sc-write-submit-confirm = 我確認這個句子已經以<wikipediaLink>公眾領域條款</wikipediaLink>授權公開，而且我有權上傳。
 sc-review-write-title = 我可以加入哪些句子？
 new-sentence-rule-1 = <noCopyright>無版權限制</noCopyright> (<cc0>cc-0 公眾授權</cc0>)
 new-sentence-rule-2 = 少於 15 字
@@ -62,18 +65,23 @@ sentence-variant-select-multiple-variants = 一般語言 / 多種變體
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = 上傳 <icon></icon> 公眾領域的句子
+sc-bulk-upload-instruction = 將檔案拖曳到這裡，或<uploadButton>點這裡上傳</uploadButton>
 sc-bulk-upload-instruction-drop = 將檔案放到此處進行上傳
+bulk-upload-additional-information = 如果您想要提供有關這份檔案的其他資訊，請聯絡 <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = 再次將檔案拖到此處即可重試
 try-upload-again-md = 嘗試再上傳一次
 select-file = 選擇檔案
 select-file-mobile = 選擇要上傳的檔案
 accepted-files = 接受的檔案類型：只接受 .tsv
+minimum-sentences = 檔案中最少的句子數量：1000 具
 maximum-file-size = 最大檔案大小：25 MB
 what-needs-to-be-in-file = 檔案裡需要有哪些內容？
 upload-progress-text = 正在上傳…
+sc-bulk-submit-confirm = 我確認這些句子都已經以<wikipediaLink>公眾領域條款</wikipediaLink>授權公開，而且我有權上傳。
 bulk-upload-success-toast = 已上傳大批句子
 bulk-upload-failed-toast = 上傳失敗，請重試。
 bulk-submission-success-header = 感謝您捐出大批句子！
+bulk-submission-success-subheader = 你正在幫助 Common Voice 達成每日語句目標！
 upload-more-btn-text = 要上傳更多句子嗎？
 file-invalid-type = 檔案無效
 file-too-large = 檔案太大

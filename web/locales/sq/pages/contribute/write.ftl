@@ -74,6 +74,7 @@ try-upload-again-md = Riprovoni ta ngarkoni
 select-file = Përzgjidhni Kartelë
 select-file-mobile = Përzgjidhni Kartelë për Ngarkim
 accepted-files = Lloje të pranuar kartelash: vetëm .tsv
+minimum-sentences = Minimum togfjalëshash në kartelë: 1000
 maximum-file-size = Madhësi maksimum kartelash: 25 MB
 what-needs-to-be-in-file = Ç’është e nevojshme të ketë kartela ime?
 what-needs-to-be-in-file-explanation = Ju lutemi, shihni <templateFileLink>kartelën tonë gjedhe</templateFileLink>. Togfjalëshat tuaj duhet të jenë pa të drejta kopjimi (CC0 ose vepër origjinale e lejuar nga parashtruesi) dhe të jenë të qartë, gramatikisht të saktë dhe të lehtë për t’u lexuar. Togfjalëshat e parashtruar duhet të duan afërsisht 10-15 sekonda për t’u lexuar dhe duhet të shmangin përfshirje numrash, emrash të përveçëm dhe shenja speciale.

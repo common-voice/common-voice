@@ -76,6 +76,7 @@ try-upload-again-md = Probeer opnieuw te uploaden
 select-file = Bestand selecteren
 select-file-mobile = Selecteer te uploaden bestand
 accepted-files = Geaccepteerde bestandstypen: alleen .tsv
+minimum-sentences = Minimum aantal zinnen in bestand: 1000
 maximum-file-size = Maximale bestandsgrootte: 25 MB
 what-needs-to-be-in-file = Wat moet er in mijn bestand zitten?
 what-needs-to-be-in-file-explanation = Bekijk ons <templateFileLink>sjabloonbestand</templateFileLink>. Uw zinnen moeten vrij van auteursrechten zijn (CC0 of origineel werk met toestemming van de indiener) en duidelijk, grammaticaal correct en gemakkelijk te lezen zijn. Ingediende zinnen zouden een leeslengte van ongeveer 10 tot 15 seconden moeten hebben en mogen geen cijfers, eigennamen en speciale tekens bevatten.

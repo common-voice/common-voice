@@ -34,13 +34,13 @@ bulk-sentences = 批量语句
 sentence-domain-combobox-label = 语句领域
 sentence-domain-select-placeholder = 最多选择三个领域
 # Sentence Domain dropdown option
-agriculture_food = 农副产品
+agriculture_food = 农业与食品
 # Sentence Domain dropdown option
 automotive_transport = 汽车与交通
 # Sentence Domain dropdown option
 finance = 金融
 # Sentence Domain dropdown option
-service_retail = 服务和零售
+service_retail = 服务与零售
 # Sentence Domain dropdown option
 general = 常规
 # Sentence Domain dropdown option
@@ -74,6 +74,7 @@ try-upload-again-md = 请尝试重新上传
 select-file = 选择文件
 select-file-mobile = 选择要上传的文件
 accepted-files = 文件类型：仅接受 .tsv
+minimum-sentences = 文件内语句数下限：1000 条
 maximum-file-size = 文件最大：25 MB
 what-needs-to-be-in-file = 文件要包含什么？
 what-needs-to-be-in-file-explanation = 请查看我们的<templateFileLink>模板文件</templateFileLink>。你的语句应该清晰易读、语法正确且不受版权保护（CC0或经原创作者许可）。提交的语句长度在 10-15 秒并且避免包含数字、专有名词和特殊字符。

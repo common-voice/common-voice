@@ -50,6 +50,12 @@ more = 詳細
 close = 閉じる
 download = ダウンロード
 dataset-version = バージョン
+sha256-checksum-copied = SHA256 チェックサムをコピーしました
+dataset-metadata-sex = 性別
+# dataset metadata - age of contributor
+dataset-metadata-age = 年齢
+donate-modal-message = データセットをダウンロードしています。
+dataset-donate-modal-heading = ご存知ですか？
 
 data-download-singleword-title = 一語対象セグメントのダウンロード
 data-download-singleword-callout-v2 = これは、数字の音声認識と「はい・いいえ」の識別を開発するためのデータを含む、ユースケースに特化したセグメントです。

@@ -217,7 +217,7 @@ share-text = Agiuda a imparare a is màchinas comente chistiona sa gente reale: 
 link-copied = Ligàmene copiadu
 back-top = Torra in artu
 logout = Serra sa sessione
-donate = Faghe unu donu
+donate = Donos
 
 stayintouch = In Mozilla semus costruende una comunidade a inghìriu de is tecnologias de sa boghe. Si diat a pràghere de abarrare in cuntatu pro ti pòdere imbiare atualizatziones e fontes de datos noas, e ischire de prus subra de comente ses impreende custos datos.
 privacy-info = Ti promitimus chi amus a impreare s'informatzione tua cun garbu. Leghe àteru in s'<privacyLink>Avisu de riservadesa</privacyLink> nostru.

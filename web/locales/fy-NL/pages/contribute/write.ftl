@@ -76,6 +76,7 @@ try-upload-again-md = Probearje opnij op te laden
 select-file = Bestân selektearje
 select-file-mobile = Selektearje op te laden bestân
 accepted-files = Akseptearre bestânstypen: allinnich .tsv
+minimum-sentences = Minimum tal sinnen yn bestân: 1000
 maximum-file-size = Maksimum bestânsgrutte: 25 MB
 what-needs-to-be-in-file = Wat moat der yn myn bestân sitte?
 what-needs-to-be-in-file-explanation = Besjoch ús <templateFileLink>sjabloanbestân</templateFileLink>. Jo sinnen moatte frij fan auteursrjochten wêze (CC0 of orizjineel wurk mei tastimming fan de yntsjinner) en dúdlik, grammatikaal korrekt en maklik te lêzen wêze. Yntsjinne sinnen soene in lêslingte fan ûngefear 10 oant 15 sekonden hawwe moatte en meie gjin sifers, eigennammen en spesjale tekens befetsje.

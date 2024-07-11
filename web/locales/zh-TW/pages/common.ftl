@@ -251,6 +251,8 @@ indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>我們需要</mark><br/><mark>你的幫忙！</mark>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>在您的研究中</mark><br/><mark>使用 CV 嗎？</mark>
 # [/SentenceCollector]
