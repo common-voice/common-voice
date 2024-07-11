@@ -30,8 +30,15 @@ single-sentence-submission = Enviament d'una única frase
 bulk-sentence-submission = Enviament massiu de frases
 single-sentence = Frase única
 bulk-sentences = Frases massives
+sentence-domain-combobox-label = Domini de les frases
+# Sentence Domain dropdown option
+agriculture_food = Agricultura i alimentació
+# Sentence Domain dropdown option
+automotive_transport = Transport i automoció
 # Sentence Domain dropdown option
 finance = Finances
+# Sentence Domain dropdown option
+service_retail = Serveis i venda al detall
 # Sentence Domain dropdown option
 general = General
 # Sentence Domain dropdown option
