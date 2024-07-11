@@ -52,6 +52,21 @@ dataset-version = Talqin
 
 data-download-singleword-title = Yagona soʻz maqsadli segmentini yuklab oling
 data-download-singleword-callout-v2 = Bu ishlatilishiga koʻra tartiblangan qism — aytilgan raqam va ha/yoʻqni aniqlash sifatini kuchaytiruvchi maʼlumotlarni oʻzi ichiga olgan.
+## Data
+
+data-download-button = Common Voice ma’lumotlarini yuklab olish
+data-download-yes = Ha
+data-download-deny = Yo‘q
+data-download-license = Litsenziya: <licenseLink>CC-0</licenseLink>
+data-download-modal = Siz <size>{ $size }GB</size> ma’lumotni yuklab olish arafasidasiz.  Davom etasizmi?
+data-subtitle = Biz ochiq va hammaga ruxsat berilgan ovoz ma’lumotlari jamlanmalarini tuzdik.  Xohlagan kishi ovozli o‘qish ruxsat berilgan dasturlarga o‘rgatish uchun undan foydalanishi mumkin.
+data-explanatory-text = Ishonchimiz komilki, ommaviy va ommabop ovozli ma'lumotlar to'plamlari innovatsion va tijoratli raqobatni rag'batlantirishga yordam beradi. Bu global harakatlar va biz barchani ishtirok etishga taklif qilamiz. Bizning maqsadimiz nutq texnologiyasini dunyoning turli burchaklaridan kelgan ovozlarning xilma-xilligini aks ettirgan holda qamrab olishga yordam berishdir.
+data-get-started = <speechBlogLink>Nutqni tanish bilan ishlashni boshlash</speechBlogLink>
+data-other-title = Boshqa ovoz maʼlumotlari toʻplamlari
+data-other-goto = { $name }ga o‘tish
+data-other-download = Ma’lumotlarni yuklab olish
+data-bundle-button = Ma’lumotlar bazasi paketini yuklab olish
+data-bundle-description = Common Voice ma’lumotlari va yuqoridagi boshqa ovoz ma’lumotlar bazasi.
 release-version = Versiyasi
 dataset-date = Sana
 license = Litsenziya: <licenseLink>{ $license }</licenseLink>

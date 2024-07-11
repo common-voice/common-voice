@@ -58,6 +58,21 @@ dataset-version = Nkandziyiso
 
 data-download-singleword-title = Downloda Xiyenge xa ​​Rito rin’we leri kongomisiweke
 data-download-singleword-callout-v2 = Lexi i xiphemu lexi fambiwaka hi xiyimo xa matirhiselo lexi nga na rungula ku nyika matimba ya ku lemuka ka tinomboro leti vulavuriwaka na ku kumiwa ka ina / e-e.
+## Data
+
+data-download-button = Downloda Rungula ra Common Voice
+data-download-yes = Ina
+data-download-deny = E-e
+data-download-license = Layisense: <licenseLink>CC-0</licenseLink>
+data-download-modal = U le kusuhi no sungula ku dawuniloda ka <size>{ $size }GB</size>, yana emahlweni?
+data-subtitle = Hi le ku akeni ka rungula leri pfulekeke no kumeka erivaleni ya marito leyi un’wana na un’wana a nga yi tirhisaka ku letela switirhisiwa leswi pfunaka ku vulavula
+data-explanatory-text = Hi tshemba leswaku tidathaseti ta rito letikulu na leti kumekaka erivaleni ti kurisa vutumbuluxi na mphikizano wa mabindzu lowu hanyeke kahle eka thekinoloji ya mbulavulo leyi simekiweke eka dyondzo ya michini. Leri i matshalatshala ya misava hinkwayo naswona hi rhamba un’wana ni un’wana ku hlanganyela. Xikongomelo xa hina i ku pfuna theknoloji ya mbulavulo ku va yi katsa hinkwavo, ku kombisa ku hambana ka marito ku suka emisaveni hinkwayo.
+data-get-started = <speechBlogLink>Sungula hi ku lemuka mbulavulo</speechBlogLink>
+data-other-title = Tidatasete tin’wana ta rito...
+data-other-goto = Yana eka { $name }
+data-other-download = Dhata yo downloada
+data-bundle-button = Downloada Xiyenge xa ​​Dataset
+data-bundle-description = Rungula ya Common Voice  ku engetela eka tidathaseti tin’wana hinkwato ta rito leti nga laha henhla.
 release-version = Nkandziyiso
 dataset-date = Siku
 license = Layisense: <licenseLink>{ $license }</licenseLink>

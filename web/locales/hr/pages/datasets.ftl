@@ -52,6 +52,21 @@ dataset-version = Verzija
 
 data-download-singleword-title = Preuzmi segment za ciljanje pojedinačnih riječi
 data-download-singleword-callout-v2 = Ovo je segment usmjeren na slučajeve upotrebe koji sadrži podatke za prepoznavanje izgovorenih znamenki i otkrivanje da / ne.
+## Data
+
+data-download-button = Preuzmi Common Voice podatke
+data-download-yes = Da
+data-download-deny = Ne
+data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
+data-download-modal = Pokrenut ćete preuzimanje od <size>{ $size }GB</size>, nastaviti?
+data-subtitle = Gradimo otvoren i javno dostupan skup glasovnih podataka, koji svi mogu koristiti za podučavanje govornih programa.
+data-explanatory-text = Vjerujemo da veliki i javno dostupni skupovi podataka glasa potiču inovacije i zdravu komercijalnu konkurenciju govorne tehnologije, utemeljene na strojnom učenju. Ovo je globalni napor i pozivamo na sudjelovanje. Naš je cilj, govornoj tehnologiji pomoći biti inkluzivnija, kako bi odražavala raznolikost glasova cijelog svijeta.
+data-get-started = <speechBlogLink>Započni s prepoznavanjem govora</speechBlogLink>
+data-other-title = Ostali skupovi glasovnih podataka …
+data-other-goto = Prijeđi na { $name }
+data-other-download = Preuzimanje podataka
+data-bundle-button = Preuzmi paket skupova podataka
+data-bundle-description = Common Voice podaci, plus svi gore navedeni skupovi glasovnih podataka.
 release-version = Verzija
 dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>

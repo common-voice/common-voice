@@ -33,6 +33,20 @@ more = Cachi
 close = tlatzacua
 download = timolti
 
+## Data
+
+data-download-button = timulti tlanaoatil de Common Voice
+data-download-yes = quema
+data-download-deny = Amo
+data-download-license = tlacahuil:<licenseLink>CC-0</licenseLink>
+data-download-modal = santipitzin huan ticpehualtis se timulistl de <size>{ $size }GB</size> ¿nihnimitis?
+data-subtitle = secchiuhtoc se tlanahuatil tlahtol tlapuhtoc huan huilisquicuisqueh  nuchten mu huilican muccuicah para yehyecosqueh aplicaciones ican ixmatilis tlahtol
+data-get-started = <speechBlogLink>xicpeoalti ican ixmatilis tlahtol</speechBlogLink>
+data-other-title = ocsiqueh tlanaoatilmeh tlahtol…
+data-other-goto = niyas campa { $name }
+data-other-download = xiquintimolti tlanahuatil
+data-bundle-button = timulti paquete de tlanahuatil tlahtol
+data-bundle-description = tlanaoatil Common Voice sansicah ihuan nochi tlen yiachton tlanahuatil tlahtol
 dataset-date = tonal
 license = tlacahuil:<licenseLink>{ $license }</licenseLink>
 license-mixed = nilioqui

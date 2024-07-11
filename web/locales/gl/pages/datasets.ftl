@@ -78,6 +78,21 @@ donate-modal-explanation-2 = { "" }
 
 data-download-singleword-title = Descargue o segmento específico de palabras únicas
 data-download-singleword-callout-v2 = Esta é a segmentación de casos de uso que contén datos para mellorar o recoñecemento de díxitos e a detección das palabras 'si' e 'non'.
+## Data
+
+data-download-button = Descargar os datos de Common Voice
+data-download-yes = Si
+data-download-deny = Non
+data-download-license = Licenza <licenseLink>CC-0</licenseLink>
+data-download-modal = Vai comezar a descargar <size>{ $size }GB</size>, seguir?
+data-subtitle = Estamos a construír un conxunto de voces aberto e dispoñible publicamente que calquera persoa poida utilizar para adestrar aplicacións que empregan a voz.
+data-explanatory-text = Cremos que os grandes conxuntos de datos de voz que están dispoñibles publicamente fomentan a innovación e a competencia comercial saudable no ámbito das tecnoloxías da fala baseadas na aprendizaxe automática. Isto require dun esforzo global, por iso convidamos a todas as persoas a participar. O noso obxectivo é axudar a que as tecnoloxía de fala sexan máis inclusivas e reflictan a diversidade de voces de todo o mundo.
+data-get-started = <speechBlogLink>Primeiros pasos no recoñecemento da fala</speechBlogLink>
+data-other-title = Outros conxuntos de datos de voz...
+data-other-goto = Ir a { $name }
+data-other-download = Descargar os datos
+data-bundle-button = Descargar o paquete do conxunto de datos
+data-bundle-description = O conxunto de datos de Common Voice xunta todos os demais conxuntos de datos anteriores.
 release-version = Versión
 dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>

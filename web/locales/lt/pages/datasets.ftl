@@ -62,5 +62,20 @@ close = Užverti
 download = Atsisiųsti
 dataset-version = Versija
 
+## Data
+
+data-download-button = Pasisiųsti „Common Voice“ duomenis
+data-download-yes = Taip
+data-download-deny = Ne
+data-download-license = Licencija: <licenseLink>CC-0</licenseLink>
+data-download-modal = Bus pradėtas <size>{ $size } GB</size> atsisiuntimas. Ar tęsti?
+data-subtitle = Kuriame atvirą, viešai prieinamą kalbos duomenų rinkinį, kurį kiekvienas gali pasitelkti kurdami kalbines technologijas naudojančias priemones.
+data-explanatory-text = Tikime, jog dideli, viešai prieinami balso duomenų rinkiniai skatina inovacijas bei sveiką konkurenciją balso technologijų sferoje. Tai yra pasaulinis projektas – kviečiame prisijungti visus. Mūsų tikslas padėti kalbos technologijoms būti labiau įtraukiančiomis bei atspindėti pasaulio balsų įvairovę.
+data-get-started = <speechBlogLink>Pradėk naudoti kalbos atpažinimą</speechBlogLink>
+data-other-title = Kiti balso duomenų rinkiniai…
+data-other-goto = Eiti į { $name }
+data-other-download = Parsisiųsti duomenis
+data-bundle-button = Parsisiųsti duomenų rinkinius
+data-bundle-description = „Common Voice“ ir visi aukščiau nurodyti duomenų rinkiniai.
 license = Licencija: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mišri

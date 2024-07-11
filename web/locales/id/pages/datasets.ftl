@@ -52,6 +52,21 @@ dataset-version = Versi
 
 data-download-singleword-title = Unduh Segmen Target Kata Tunggal
 data-download-singleword-callout-v2 = Ini adalah segmen berbasis kasus penggunaan yang berisi data untuk mengaktifkan pengenalan digit yang diucapkan dan pendeteksian ya / tidak.
+## Data
+
+data-download-button = Unduh Data Common Voice
+data-download-yes = Ya
+data-download-deny = Tidak
+data-download-license = Lisensi: <licenseLink>CC-0</licenseLink>
+data-download-modal = Anda akan memulai mengunduh sekitar <size>{ $size } GB </size>, lanjutkan?
+data-subtitle = Kami membangun himpunan data suara yang terbuka dan tersedia untuk umum yang dapat digunakan siapa saja untuk melatih aplikasi yang terfungsikan dengan ucapan.
+data-explanatory-text = Kami percaya bahwa himpunan data suara yang besar dan tersedia untuk umum mendorong inovasi dan kompetisi komersial yang sehat dalam pembelajaran mesin berbasis teknologi bicara. Hal ini merupakan upaya yang mendunia dan kami mengundang semua orang untuk berpartisipasi. Tujuan kami adalah untuk membantu teknologi bicara menjadi lebih inklusif, mencerminkan keragaman suara dari seluruh dunia.
+data-get-started = <speechBlogLink>Mulailah dengan Pengenalan Suara</speechBlogLink>
+data-other-title = Himpunan data suara lainnya...
+data-other-goto = Kunjungi { $name }
+data-other-download = Unduh Data
+data-bundle-button = Unduh Bundel Himpunan Data
+data-bundle-description = Data Common Voice dan seluruh himpunan data suara lain di atas.
 release-version = Versi
 dataset-date = Tanggal
 license = Lisensi: <licenseLink>{ $license }</licenseLink>

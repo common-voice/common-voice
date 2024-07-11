@@ -64,6 +64,21 @@ donate-modal-explanation-1 = 我哋每年要使差唔多一百萬美金嚟儲存
 
 data-download-singleword-title = 下載單字目標分段
 data-download-singleword-callout-v2 = 呢個係按照實際使用需要拆出嚟嘅部份，入面嘅資料可以用喺數字識別同埋是/否檢測。
+## Data
+
+data-download-button = 下載 Common Voice 語音數據
+data-download-yes = 係
+data-download-deny = 唔係
+data-download-license = 授權條款: <licenseLink>CC-0</licenseLink>
+data-download-modal = 閣下將會下載 <size>{ $size } GB</size> 嘅檔案，要下載嗎？
+data-subtitle = 我哋整緊套公開而人人用得嘅語音數據集，人人都可以用佢來訓練認得到聲嘅應用程式。
+data-explanatory-text = 我哋相信，大型而公開可用嘅語音數據集能夠促進語音機器學習科技嘅創新，以及健康嘅商業競爭。呢個係一個全球運動，我哋邀請任何人士參與。我哋嘅目標係令語音技術能夠更有包容性，反映出世界各地語音嘅多樣性。
+data-get-started = <speechBlogLink>語音辨識新手上路</speechBlogLink>
+data-other-title = 其他語音數據集…
+data-other-goto = 往 { $name }
+data-other-download = 下載數據
+data-bundle-button = 下載打包數據集
+data-bundle-description = Common Voice 數據，以及上面列出嘅所有其他語音數據集。
 release-version = 版本
 dataset-date = 數據庫日期
 license = 授權條款：<licenseLink>{ $license }</licenseLink>

@@ -51,5 +51,20 @@ download = Татаж авах
 dataset-version = Хувилбар
 
 data-download-singleword-title = Дан Үгт Чиглэсэн Хэсгийг татаж авах
+## Data
+
+data-download-button = Common Voice өгөгдөл татах
+data-download-yes = Тийм
+data-download-deny = Үгүй
+data-download-license = Лиценз: <licenseLink>CC-0</licenseLink>
+data-download-modal = Та <size>{ $size }GB</size> файл татах гэж байна, үргэлжлүүлэх үү?
+data-subtitle = Дуунд тулгуурласан программ сургах нээлттэй, олон нийтийн дуу бичлэгийн өгөгдлийн цогц байгуулахыг бид зорьж байна.
+data-explanatory-text = Томоохон, олон нийтэд нээлттэй дуут мэдээллийн сангууд нь машин техник дээр суурилсан ярианы технологид шинэлэг, эрүүл, арилжааны өрсөлдөөнийг бий болгодог гэдэгт бид итгэдэг. Энэ бол дэлхий нийтийн хүчин чармайлт бөгөөд бид бүх хүмүүсийг оролцохыг урьж байна. Бидний зорилго бол ярианы технологийг дэлхийн өнцөг булан бүрт байгаа дуу хоолойн олон талт байдлыг тусгах илүү өргөн хүрээг хамарсан байх явдал юм.
+data-get-started = <speechBlogLink>Дуу таних эхний алхам</speechBlogLink>
+data-other-title = Өөр хэлний өгөгдлийн цогц...
+data-other-goto = { $name } рүү очих
+data-other-download = Өгөгдөл татах
+data-bundle-button = Өгөгдлийн цогцыг татах
+data-bundle-description = Common Voice болон дээрх бусад бүх өгөгдлийн цогцууд.
 license = Лиценз: <licenseLink>{ $license }</licenseLink>
 license-mixed = Холимог лиценз

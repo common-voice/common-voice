@@ -45,6 +45,20 @@ download = ኣውርድ
 dataset-version = እስዳር
 
 data-download-singleword-title = እግል ዎሮ ከሊመት ሓደፍ ለቡ ክፋል ክረ
+## Data
+
+data-download-button = በያናት ናይ ክርን ሕበር  ክረ
+data-download-yes = ኣየዋ
+data-download-deny = ኢፋል
+data-download-license = ሩኽሰት: <licenseLink>CC-0</licenseLink>
+data-download-modal = ናይ <size>{ $size }GB</size> ኣውረዶት ታኣነብቱ ህሌኹም, ከምሎ?
+data-subtitle = ፍቱሕ ው ኩሉ ኣዳም ለስታዕምሎ ላቀድር ናይ ክርን መጅሙዓት በያናት ንብነ ህሌና ላሓዛ ላስታዕምላ እግል እብ ክርን ላሸቀ ተጥቢቃት (applications) እግል ልደርብ
+data-get-started = <speechBlogLink>ሂጋ ኣሌለዩት ኣንብቶ</speechBlogLink>
+data-other-title = ብዕድ ናይ ክርን መጅሙዓት ብያናት
+data-other-goto = { $name } ጊስ
+data-other-download = በያናት ክረ
+data-bundle-button = እክብት ምጅሙዓት ባያናት ካሩ
+data-bundle-description = በያናት ናይ ክርን ሕበር  ው ምስሉ ላዓል ላሃላ ኩሉ ናይ ክርን በያናት
 release-version = እስዳር
 dataset-date = ታሪኽ
 license = ሩኽሰት: <licenseLink>{ $license }</licenseLink>

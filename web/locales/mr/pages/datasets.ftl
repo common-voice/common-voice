@@ -52,6 +52,21 @@ dataset-version = आवृत्ती
 
 data-download-singleword-title = एक शब्द असणारे लक्ष्य विभाग डाउनलोड करा
 data-download-singleword-callout-v2 = हा एक युस केस नुसार कार्य  करणारा विभाग असून यात बोललेले अंक आणि होय/नाही ओळखण्यासाठी लागणार डेटा समाविष्ट आहे.
+## Data
+
+data-download-button = कॉमन व्हॉईस डेटा डाउनलोड करा
+data-download-yes = हो
+data-download-deny = नाही
+data-download-license = परवाना: <licenseLink> CC-0 </licenseLink>
+data-download-modal = आपण <size> { $size } जीबी </size> आकाराचे डाउनलोड करणार आहात, मान्य ?
+data-subtitle = आम्ही व्हॉईसचा एक खुला आणि सार्वजनिकपणे उपलब्ध डेटासेट तयार करीत आहोत जो कुणीही आवाजावर आधारित apps ना प्रशिक्षण देण्यासाठी वापरू शकेल.
+data-explanatory-text = आमचा विश्वास आहे की मोठ्या आणि सार्वजनिकरित्या उपलब्ध व्हॉईस डेटासेट मशीन लर्निंग आधारित भाषण तंत्रज्ञानामध्ये नवीन उपक्रम आणि निरोगी व्यावसायिक स्पर्धा वाढवते. हा एक जागतिक प्रयत्न आहे आणि आम्ही सर्वांना सहभागी होण्यासाठी आमंत्रित करतो. आमचे उद्दीष्ट जगातील आवाजातील विविधता प्रतिबिंबित करणारे भाषण तंत्रज्ञानास अधिक समावेश करण्यात मदत करणे हा आहे.
+data-get-started = <speechBlogLink> स्पीच रेकग्निशन प्रक्रियेस सुरुवात करा. <speechBlogLink>
+data-other-title = अन्य व्हॉईस डेटासेट ...
+data-other-goto = { $hostname } वर जा
+data-other-download = डेटा डाउनलोड करा
+data-bundle-button = डेटासेट बंडल डाउनलोड करा
+data-bundle-description = कॉमन व्हॉईस डेटा तसेच वरील सर्व व्हॉईस डेटासेट.
 release-version = आवृत्ती
 dataset-date = दिनांक
 license = परवाना: <licenseLink>{ $license }</licenseLink>

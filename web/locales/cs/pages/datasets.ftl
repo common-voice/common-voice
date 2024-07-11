@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>Jestliže si ceníte otevřených a inkluzivn
 
 data-download-singleword-title = Stáhněte si jednoslovnou datovou sadu
 data-download-singleword-callout-v2 = Tato sada je určena pro speciální případ rozeznávání vyslovovaných číslic a slov ano / ne.
+## Data
+
+data-download-button = Stáhnout data Common Voice
+data-download-yes = Ano
+data-download-deny = Ne
+data-download-license = Licence: <licenseLink>CC-0</licenseLink>
+data-download-modal = Chystáte se zahájit stahování <size>{ $size } GB</size>, chcete pokračovat?
+data-subtitle = Vytváříme otevřený a veřejně dostupný dataset hlasu, který může kdokoli použít k trénování jeho hlasových aplikací.
+data-explanatory-text = Věříme, že rozsáhlé a veřejně dostupné hlasové datasety podporují inovace a zdravou obchodní soutěž v technologii řeči založené na strojovém učení. Jde o celosvětové úsilí a zveme všechny, aby se zapojili. Naším cílem je pomoci technologiím využívajícím řeč, aby byly otevřenější a odrážely rozmanitost hlasů z celého světa.
+data-get-started = <speechBlogLink>Začínáme s rozpoznáváním hlasu</speechBlogLink>
+data-other-title = Další hlasové datasety…
+data-other-goto = Přejít na { $name }
+data-other-download = Stáhnout data
+data-bundle-button = Stáhnout balík datasetů
+data-bundle-description = Data Common Voice a data všech ostatních datasetů výše.
 release-version = Verze
 dataset-date = Datum
 license = Licence: <licenseLink>{ $license }</licenseLink>

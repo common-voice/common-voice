@@ -29,6 +29,21 @@ close = Degea
 download = Iskarga
 dataset-version = Gwersyon
 
+## Data
+
+data-download-button = Iskarga data Common Voice
+data-download-yes = Da
+data-download-deny = Na
+data-download-license = Leshyans: <licenseLink>CC-0</licenseLink>
+data-download-modal = Parys owgh dhe dhalleth iskargans a <size>{ $size }GB</size>, a vynnowgh pesya?
+data-subtitle = Yth eson ow trehevel sett data ygor ha kavadow yn foblek a levow a yll pubonen usya rag dyski dhe dowlennow gans lev.
+data-explanatory-text = Ni a grys settys data bras ha kavadow yn foblek dhe vaga awenekter ha kesstrif kenwerthel yaghus yn teknegieth gows selyes war dhyski jynn. Hemm yw assay ollvysel ha ni a elow orth pubonen dhe gevri. Agan amkan yw gweres teknegieth gows dhe vos moy dalghus, ow tastewynnya an diversita a levow eus a-dro dhe'n bys.
+data-get-started = <speechBlogLink>Omvyskowgh gans aswon kows</speechBlogLink>
+data-other-title = Settys data erel...
+data-other-goto = Mos dhe { $name }
+data-other-download = Iskarga an data
+data-bundle-button = Iskarga pusorn an sett data
+data-bundle-description = Data Common Voice keffrys ha pub sett data aral a-ugh.
 release-version = Gwersyon
 dataset-date = Dedhyas
 license = Leshyans: <licenseLink>{ $license }</licenseLink>

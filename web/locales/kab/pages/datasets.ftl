@@ -63,6 +63,21 @@ no-information-available = Ulac talɣut i yellan
 
 data-download-singleword-title = Sader aḥric iswi Single Word
 data-download-singleword-callout-v2 = Wagi d aḥric seg tegrumma n yisefka i useǧhed n uɛqal n yizwilen akked tifin n ih / uhu.
+## Data
+
+data-download-button = Sali-d isefka Common Voice
+data-download-yes = Ih
+data-download-deny = Uhu
+data-download-license = Aselkin: <licenseLink>CC-0</licenseLink>
+data-download-modal = Aql-ik/ikem tebɣiḍ ad tebduḍ asader n <size>{ $size }GB</size>,tqebleḍ?
+data-subtitle = Nesnulfuy-d tigrummiwin n yisefka n taɣect yeldin, yettwakcamen s wudem azayez, tid i zemren ad sqedcen yimdanen deg isnasen i yesseqdacen taɣect.
+data-explanatory-text = Numen d akken tigrumminwin timeqqranin n yisefka yettwabḍan s wudem azayez, ad muddent tagnit n usnulfu, daɣen ad ttekkint deg usbeddi n umsizwer zeddigen i titiknulujiyin n taɣect s useqdec n uselmed awurman. D axeddim agraɣlan, ihi ad k-id-nenced akken ad tettekkiḍ. Iswi-nneɣ akken titiknulujiyin tiɣectanin ad ilint ldint, daɣen, ad izmirent ad d-muddent udem n tanḍa n tuɣac n umaḍal meṛṛa.
+data-get-started = <speechBlogLink>Ger afus deg uɛqal n taɣect</speechBlogLink>
+data-other-title = Tigrummiwin-nniḍen n yisefka...
+data-other-goto = Ddu ɣer { $name }
+data-other-download = Sader isefka
+data-bundle-button = Sader-d aqettun n tagrumma n yisefka
+data-bundle-description = Isefka Common Voice akked tigrummiwin meṛṛa n yisefka-nniḍen ddaw-a.
 release-version = Lqem
 dataset-date = Azemz
 license = Turagt: <licenseLink>{ $license }</licenseLink>

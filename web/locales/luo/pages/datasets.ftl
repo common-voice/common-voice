@@ -46,6 +46,20 @@ donate-modal-explanation-1 = Bende ingeyoni en machiegni dola million e yiga mon
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Kigeno weche moyangore kendo mariwoji - to chiuri kawuono!</bold>
 
+## Data
+
+data-download-button = Gol Deche manie Common Voice
+data-download-yes = Eee!
+data-download-deny = Ooyo
+data-download-license = Chik: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ichiegni chako golo weche maromo <size>GB { $size }</size>, wadhi mbele?
+data-subtitle = Wagero deche duol momaki moyangore ne oganda kendo ji duto nyalo tiyogo tiego teknoloji matiyo gi dhok mopogore opogore.
+data-get-started = <speechBlogLink>Chak tiegori kod weche teknoloji ma tiyogi duol</speechBlogLink>
+data-other-title = Deche mamoko mag duol...
+data-other-goto = Dhi ka { $name }
+data-other-download = Golo Deche
+data-bundle-button = Golo Deche
+data-bundle-description = Deche Common Voice  koriu kod deche mamoko malo kanyo.
 release-version = Loko mopogore
 dataset-date = Tarik
 license = Otas mar rusa:<licenseLink>{ $license }</licenseLink>

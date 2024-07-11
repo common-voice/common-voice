@@ -62,6 +62,21 @@ dataset-version = Inhlobo
 
 data-download-singleword-title = Download the Single Word Target Segment
 data-download-singleword-callout-v2 = Lesigamu sisebenta ngabofeleba sicuketse imininingwane letolekela kuvakala kuviwa kwetinombolo letikhulunyiwe kanye nekuva yebo / cha.
+## Data
+
+data-download-button = Download Common Voice Data
+data-download-yes = Yebo
+data-download-deny = Cha
+data-download-license = License: <licenseLink>CC-0</licenseLink>
+data-download-modal = khani utocala ku download <size>{ $size }GB</size>, chubeka?
+data-subtitle = Sakha iDataset levulekele sive lenemaphimbo langasetjentiswa nguwonkhe muntfu kucecesha tinsita tebucwephesha letisebentisa inkhulumo.
+data-explanatory-text = Siyetsemba kutsi lelanani lelisetulu kanye nemtfombo welwati  wesive utowakha bucwephesha nekuchudzelana kwetemabhizinisi lokunemphilo ebucwephesheni bekukhuluma lobusekelwe mishina. Lona ngumetamo wemhlaba wonkhe futsi simema wonkhe umuntfu kutsi adlale indzima. Inhloso yetfu kusita bucwephesha benkhulumo bufake wonkhe, bukhombise kwehlukana kwetilimi temhlaba.
+data-get-started = <speechBlogLink>Cala manje nge Speech recognition</speechBlogLink>
+data-other-title = Lamanye ema-Datasets emavi...
+data-other-goto = Hamba ku { $name }
+data-other-download = Download Data
+data-bundle-button = Download Dataset Bundle
+data-bundle-description = i-data ya Common Voice nayo yonkhe i-dataset langenhla.
 release-version = Inhlobo
 dataset-date = Lusuku
 license = License: <licenseLink>{ $license }</licenseLink>

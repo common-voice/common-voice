@@ -61,6 +61,21 @@ dataset-version = संस्करण
 
 data-download-singleword-title = Single Word Target Segment डाउनलोड गर्नुहोस्
 data-download-singleword-callout-v2 = यो एक अंकरूपी पहिचान र हुन्छ / हुदैन  पत्ता लगाउन शशक्त बनाउने यूज केस ड्रिवन डाटा संकलित क्षेत्र हो ।
+## Data
+
+data-download-button = Common Voice डाटा डाउनलोड गर्नुहोस्
+data-download-yes = हो
+data-download-deny = होेइन
+data-download-license = लाइसेन्स: <licenseLink>CC-0</licenseLink>
+data-download-modal = तपाईं <size>{ $size }GB</size> को फाइल डाउनलोड गर्न सुरु गर्दै हुनुहुन्छ, अगाडि बढ्न चाहनुहुन्छ ?
+data-subtitle = हामी आवाजहरूको एउटा खुला र सार्वजनिक रूपमा उपलब्ध डाटासेट निर्माण गर्दैछौं जुन सबैले भाषण सक्षम अनुप्रयोगहरूलाई तालिम दिन प्रयोग गर्न सक्दछ ।
+data-explanatory-text = हामी विश्वास गर्दछौँ कि ठूला र सार्वजनिक रूपमा उपलब्ध आवाज डाटासेटहरूले मेसिन-सिकाई (machine-learning) मा आधारित बोलि प्रविधिमा नव विचार र स्वस्थ व्यावसायिक प्रतिस्पर्धा लाई प्रोत्साहन गर्छ । यो विश्वव्यापी प्रयास हो र हामी सबैजनालाई भाग लिन निम्तो दिन्छौँ । हाम्रो उद्देश्य बोलि प्रविधिलाई अझ धेरै समावेशी बनाउन, विश्वभरका आवाजहरूको विविधतालाई प्रतिबिम्बित गर्न मद्दत गर्नु ह
+data-get-started = <speechBlogLink>बोलि पहिचान सँग सुरु गर्नुहोस् </speechBlogLink>
+data-other-title = अन्य आवाज डाटासेटहरू...
+data-other-goto = { $name } मा जानुहोस्
+data-other-download = डाटा डाउनलोड गर्नुहोस
+data-bundle-button = डाटासेट बन्डल डाउनलोड गर्नुहोस्
+data-bundle-description = Common Voice डाटा र माथिका अन्य सबै अावाज डाटासेटहरु ।
 release-version = संस्करण
 dataset-date = मिति
 license = लाइसेन्स: <licenseLink>{ $license }</licenseLink>

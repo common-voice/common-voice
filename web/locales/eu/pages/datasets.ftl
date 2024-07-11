@@ -63,6 +63,21 @@ clipboard-not-supported = Arbelak ez du euskarririk
 
 data-download-singleword-title = Deskargatu hitz bakarreko esparru zehatzeko atala
 data-download-singleword-callout-v2 = Erabilera kasu honek digituen eta bai / ez hitzen ahoskera ezagutzea du helburu.
+## Data
+
+data-download-button = Deskargatu Common Voiceko datuak
+data-download-yes = Bai
+data-download-deny = Ez
+data-download-license = Lizentzia: <licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size }GB</size>-etako deskarga bat hastear zaude, jarraitu?
+data-subtitle = Ahotsen datu-sorta ireki eta publiko bat sortzen ari gara, edonork erabil dezakeena hizketa baliatzen duten aplikazioak trebatzeko.
+data-explanatory-text = Gure ustez, datu-sorta handi eta publikoek, berrikuntza eta lehia komertzial osasuntsua sustatzen dute ikasketa automatikoan oinarritutako hizketaren teknologietan. Hau ekimen globala da eta guztiak gonbidatzen ditugu parte hartzera. Gure helburua hizketaren teknologia inklusiboagoa izaten laguntzea da, munduan zehar dauden ahots desberdinak islatuz.
+data-get-started = <speechBlogLink>Ikasi hizketaren ezagutzari buruz</speechBlogLink>
+data-other-title = Beste ahotsen datu-sortak...
+data-other-goto = Joan { $name }-(e)ra
+data-other-download = Deskargatu datuak
+data-bundle-button = Deskargatu datu-sorta multzoa
+data-bundle-description = Common Voice datuak gehi ondoko ahotsen datu-sorta guztiak.
 release-version = Bertsioa
 dataset-date = Data
 license = Lizentzia: <licenseLink>{ $license }</licenseLink>

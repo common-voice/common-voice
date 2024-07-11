@@ -52,6 +52,21 @@ dataset-version = Տարբերակ
 
 data-download-singleword-title = Բեռնեք մեկ բառի նպատակային հատվածը
 data-download-singleword-callout-v2 = Այս ենթատեքստային հատվածը ունի տվյալներ, որ գործարկում են բանավոր թվանշանի ճանաչում և այո / ոչ հայտնաբերում։
+## Data
+
+data-download-button = Ներբեռնել Common Voice-ի տվյալները
+data-download-yes = Այո
+data-download-deny = Ոչ
+data-download-license = Թույլատրագիրը՝ <licenseLink>CC-0</licenseLink>
+data-download-modal = Դուք պատրաստվում եք ներբեռնել <size>{ $size }ԳԲ</size>, շարունակե՞լ։
+data-subtitle = Մենք ստեղծում ենք ձայնագրությունների բաց և հանրային շտեմարան, որը յուրաքանչյուր ոք կարող է օգտագործել ձայնն աջակցող հավելվածներ ուսուցանելու համար:
+data-explanatory-text = Մենք հավատում ենք, որ ձայնային տվյալների մեծ ու հանրային հասանելի հավաքածուն կխթանի նորարարությունն ու առողջ մրցակցությունը մեքենական ուսուցման վրա հիմնված ձայնի ճանաչման տեխնոլոգիաներում։ Սա գլոբալ նախաձեռնություն է, և մենք բոլորին հրավիրում ենք իրենց մասնացությունը բերել այս նախագծին։ Մենք նպատակ ունենք խոսքի ճանաչման տեխնոլոգիաներն ավելի ընդգրկուն դարձնել՝ արտացոլելով ձայների բազմազանությունը ամբողջ աշխարհում։
+data-get-started = <speechBlogLink>Սկսել ձայնի ճանաչումը</speechBlogLink>
+data-other-title = Ձայնային այլ տվյալակազմեր...
+data-other-goto = Անցնել { $name }
+data-other-download = Ներբեռնել տվյալները
+data-bundle-button = Ներբեռնել տվյալակազմի հավաքածուն
+data-bundle-description = Common Voice-ի տվյալները և վերոնշյալ բոլոր ձայնային տվյալակազմերի հավաքածուները։
 release-version = Տարբերակ`
 dataset-date = Ամսաթիվ
 license = Արտոնագիր՝ <licenseLink>{ $license }</licenseLink>

@@ -57,6 +57,21 @@ dataset-version = Wersja
 
 data-download-singleword-title = Pobierz segment docelowy dla pojedynczego słowa
 data-download-singleword-callout-v2 = To segment przeznaczony do konkretnego użytku, zawierający dane wspomagające rozpoznawanie wymawianych cyfr i wykrywanie tak/nie.
+## Data
+
+data-download-button = Pobierz dane Common Voice
+data-download-yes = Tak
+data-download-deny = Nie
+data-download-license = Licencja: <licenseLink>CC-0</licenseLink>
+data-download-modal = Za chwilę zaczniesz pobierać plik o rozmiarze <size>{ $size } GB</size>, czy chcesz kontynuować?
+data-subtitle = Tworzymy otwarty i publicznie dostępny zbiór danych mowy, który wszyscy mogą używać do trenowania aplikacji obsługujących mowę.
+data-explanatory-text = Wierzymy, że wielkie i publicznie dostępne zbiory danych z mową będą sprzyjać innowacji i zdrowej konkurencji rynkowej w zakresie technologii rozpoznawania mowy opartej na uczeniu maszynowym. To globalny wysiłek i zapraszamy wszystkich do brania udziału. Naszym celem jest, aby technologia rozpoznawania mowy była bardziej inkluzywna, odzwierciedlając różnorodność głosów na całym świecie.
+data-get-started = <speechBlogLink>Pierwsze kroki z rozpoznawaniem mowy</speechBlogLink>
+data-other-title = Inne zbiory danych…
+data-other-goto = Przejdź do { $name }
+data-other-download = Pobierz dane
+data-bundle-button = Pobierz zbiór danych
+data-bundle-description = Dane Common Voice ze wszystkimi innymi zbiorami danych powyżej.
 release-version = Wersja
 dataset-date = Data
 license = Licencja: <licenseLink>{ $license }</licenseLink>

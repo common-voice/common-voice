@@ -59,6 +59,21 @@ sha256-checksum-copied = SHA256 хонтуруоллуур сууммата ыл
 sha256-checksum-copied-error = SHA256 хонтуруоллуур сууммата сатаан ылыллыбата
 clipboard-not-supported = Буфер обмена үлэлээбэт
 
+## Data
+
+data-download-button = Common Voice дааннайдарын хачайдаа
+data-download-yes = Сөп
+data-download-deny = Суох
+data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
+data-download-modal = Эн <size>{ $size }ГБ</size> хачайдаары гынаҕын, салгыыбыт дуо?
+data-subtitle = Мы создаём открытый и общедоступный набор голосовых данных, чтобы любой человек мог использовать его для обучения программ с распознаванием речи.
+data-explanatory-text = Мы верим, что большой общедоступный набор голосовых данных стимулирует инновации и нормальную коммерческую конкуренцию в машинно-обучаемой технологии распознавания голоса. Это глобальная инициатива, и мы приглашаем всех принять участие. Наша цель - помочь голосовым технологиям быть более всесторонними и распознавать разнообразные голоса со всего мира.
+data-get-started = <speechBlogLink>Начать работу с распознаванием речи</speechBlogLink>
+data-other-title = Атын куолас дааннайын набордара...
+data-other-goto = Манна { $name } көс
+data-other-download = Дааннайдары хачайдаа
+data-bundle-button = Дааннай наборын хачайдаа
+data-bundle-description = Данные Common Voice плюс данные всех голосовых наборов данных ниже.
 release-version = Версия
 dataset-date = Дата
 license = Лицензия: <licenseLink>{ $license }</licenseLink>

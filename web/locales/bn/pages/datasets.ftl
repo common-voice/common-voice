@@ -37,6 +37,21 @@ close = বন্ধ করুন
 download = ডাউনলোড
 dataset-version = সংস্করণ
 
+## Data
+
+data-download-button = Common Voice ডাটা ডাউনলোড করুন
+data-download-yes = হ্যাঁ
+data-download-deny = না
+data-download-license = লাইসেন্স: <licenseLink>CC-0</licenseLink>
+data-download-modal = আপনি <size>{ $size } গিগাবাইট</size> ডাউনলোড করতে যাচ্ছেন, এগিয়ে যেতে চান?
+data-subtitle = আমরা কণ্ঠস্বরের একটি মুক্ত ও সার্বজনীন ডাটাসেট তৈরী করছি, যেকেউ এটি ব্যবহার করে কথাবার্তা-সক্রিয় অ্যাপলিকেশন প্রশিক্ষণ করাতে পারবে।
+data-explanatory-text = আমরা বিশ্বাস করি কণ্ঠস্বর প্রযুক্তি ভিত্তিক মেশিন-লার্নিং এর জন্যে একটি বৃহদাকার এবং সর্বজনীন ডাটাসেট নিত্যনতুন উদ্ভাবন এবং সুস্থ বাণিজ্যিক প্রতিযোগিতা উত্সাহিত করবে। এটি একটি বৈশ্বিক প্রচেষ্টা, আমরা সবাইকে অংশগ্রহণ করতে আমন্ত্রণ জানাচ্ছি। আমাদের লক্ষ্য হচ্ছে কণ্ঠস্বর প্রযুক্তি যেনো অংশগ্রহণমূলক হয়, এবং সেখানে বিশ্ব বিভিন্ন প্রান্তের, বিভিন্ন ভাষার বৈচিত্র্যময় কণ্ঠস্বর প্রতিফলিত হয়।
+data-get-started = <speechBlogLink>কথাবার্তা সনাক্তকরণের সাথে পথ চলা আরম্ভ করুন</speechBlogLink>
+data-other-title = অন্যান্য ভয়েস ডেটাসেট...
+data-other-goto = { $name } এ যান
+data-other-download = ডাটা ডাউনলোড করুন
+data-bundle-button = ডেটাসেট বান্ডেল ডাউনলোড করুন
+data-bundle-description = Common Voice ডাটা এবং ওপরের অন্য সমস্ত ডাটা সেট সহ।
 release-version = সংস্করণ
 dataset-date = তারিখ
 license = লাইসেন্স: <licenseLink>{ $license }</licenseLink>

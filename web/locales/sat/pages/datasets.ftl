@@ -51,6 +51,21 @@ dataset-version = ᱵᱷᱟᱹᱨᱥᱚᱱ
 
 data-download-singleword-title = ᱮᱠᱟᱞ ᱟᱹᱲᱟᱹ ᱩᱫᱩᱜ ᱠᱷᱟᱹᱰᱨᱟᱹ ᱰᱟᱣᱱᱞᱚᱰ ᱢᱮ
 data-download-singleword-callout-v2 = ᱱᱚᱶᱟ ᱫᱚ ᱠᱮᱥ ᱪᱟᱹᱞᱩ ᱠᱷᱟᱹᱱᱰᱤᱭᱟᱹ ᱠᱟᱱᱟ ᱡᱟᱦᱟᱸ ᱨᱮ ᱯᱟᱣᱟᱹᱨ ᱛᱮ ᱚᱞ ᱪᱤᱱᱦᱟᱹᱯ ᱜᱟᱱᱚᱜᱼᱟ ᱟᱨ ᱦᱮᱸ / ᱵᱟᱝ ᱛᱮᱜᱮ ᱪᱤᱱᱦᱟᱹᱯᱟᱭ᱾
+## Data
+
+data-download-button = ᱥᱚᱢᱟᱱ ᱟᱲᱟᱝ ᱰᱟᱴᱟ ᱰᱟᱣᱱᱞᱳᱰ ᱯᱮ
+data-download-yes = ᱦᱮᱸ
+data-download-deny = ᱵᱟᱝ
+data-download-license = ᱞᱟᱭᱥᱮᱱᱥ: <licenseLink>CC-0</licenseLink>
+data-download-modal = ᱟᱢ ᱫᱚ <size>{ $size }GB</size> ᱢᱟᱯ ᱨᱮᱭᱟᱜ ᱰᱟᱣᱱᱞᱚᱰ ᱮᱢ ᱮᱦᱚᱵ ᱞᱟᱹᱜᱤᱫ, ᱞᱟᱦᱟ?
+data-subtitle = ᱟᱞᱮ ᱫᱚ ᱠᱷᱩᱞᱟᱹ ᱟᱨ ᱥᱟᱱᱟᱢ ᱠᱟ ᱞᱟᱹᱜᱤᱫ ᱛᱟᱦᱮᱸᱱ ᱠᱟᱱ ᱥᱟᱰᱮ ᱰᱟᱴᱟᱥᱮᱴ ᱞᱮ ᱛᱮᱭᱟᱨ ᱮᱫ ᱟ ᱡᱟᱦᱟᱸ ᱫᱚ ᱡᱷᱚᱛᱚᱦᱚᱲ ᱥᱟᱰᱮ ᱮᱢ ᱠᱟᱱ ᱮᱯᱞᱤᱠᱮᱥᱚᱱ ᱠᱚ ᱵᱮᱵᱷᱟᱨ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ᱾
+data-explanatory-text = ᱟᱞᱮ ᱦᱤᱥᱟᱹᱵ ᱛᱮ ᱢᱟᱨᱟᱝ ᱟᱨ ᱥᱟᱱᱟᱢ ᱠᱚ ᱴᱷᱮᱱ ᱢᱮᱱᱟᱜ ᱰᱟᱴᱟᱥᱮᱴ ᱫᱚ ᱢᱮᱥᱤᱱᱼᱪᱮᱪᱮᱫᱤᱭᱟᱹ ᱦᱤᱥᱟᱹᱵ ᱛᱮ ᱜᱚᱰᱷᱚᱱ ᱥᱟᱰᱮ ᱴᱮᱠᱱᱚᱞᱚᱡᱤ ᱫᱚ ᱤᱱᱚᱣᱮᱥᱚᱱ ᱟᱨ ᱵᱮᱥ ᱵᱮᱯᱟᱨᱤᱭᱟᱹ ᱠᱚ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱟᱭ᱾ ᱱᱚᱶᱟ ᱫᱚ ᱡᱮᱜᱮᱛ ᱩᱫᱩᱜ ᱨᱮᱭᱟᱜ ᱢᱤᱫᱴᱟᱝ ᱡᱩᱢᱤᱫ ᱜᱚᱲᱚ ᱠᱟᱱᱟ ᱡᱟᱦᱟᱸ ᱨᱮ ᱟᱞᱮ ᱡᱷᱚᱛᱚ ᱦᱚᱲ ᱠᱚ ᱥᱮᱞᱮᱫ ᱱᱮᱦᱚᱨ ᱮᱫ ᱠᱚᱣᱟ ᱞᱮ᱾ ᱥᱟᱰᱮ ᱴᱮᱠᱱᱚᱞᱚᱡᱤ ᱠᱚ ᱡᱟᱹᱥᱛᱤ ᱥᱮᱢᱞᱮᱫ, ᱡᱮᱜᱮᱛ ᱥᱟᱨᱟ ᱨᱮ ᱥᱟᱰᱮ ᱨᱮᱭᱟᱜ ᱡᱷᱟᱞᱠᱟᱣ ᱠᱚ ᱨᱮ ᱥᱟᱰᱮ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢ ᱞᱟᱹᱜᱤᱫ ᱠᱟᱱᱟ᱾
+data-get-started = <speechBlogLink> ᱥᱟᱰᱮ ᱪᱤᱱᱦᱟᱹᱯ ᱛᱮ ᱫᱮᱞᱟᱵᱚᱱ ᱮᱦᱚᱵ ᱞᱮᱜᱮ </speechBlogLink>
+data-other-title = ᱮᱴᱟᱜᱟ ᱟᱲᱟᱝ ᱰᱟᱴᱟᱥᱮᱴ ᱠᱚ...
+data-other-goto = { $name } ᱨᱮ ᱪᱟᱞᱟᱜ ᱢᱮ
+data-other-download = ᱰᱟᱴᱟ ᱰᱟᱣᱱᱞᱳᱰ
+data-bundle-button = ᱰᱟᱴᱟᱥᱮᱴ ᱜᱷᱮᱸᱴ ᱰᱟᱣᱱᱞᱳᱰ
+data-bundle-description = Common Voice ᱰᱟᱴᱟ ᱟᱨ ᱪᱮᱛᱟᱱ ᱮᱴᱟᱜ ᱡᱷᱚᱛᱚ ᱥᱟᱰᱮ ᱰᱟᱴᱟᱥᱮᱴ᱾
 release-version = ᱵᱷᱟᱹᱨᱥᱚᱱ
 dataset-date = ᱢᱟᱹᱦᱤᱛ
 license = ᱞᱟᱭᱥᱮᱱᱥ: <licenseLink>{ $license }</licenseLink>

@@ -37,6 +37,18 @@ download = Качаен нӓлӓш
 dataset-version = Верси
 
 data-download-singleword-title = Ик шамакан целевой лаштыкым качаен нӓл
+## Data
+
+data-download-button = Common Voice данныйым качаен нӓлӓш
+data-download-yes = Ане
+data-download-deny = Уке
+data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
+data-subtitle = Мӓ пачмы дӓ цилӓлӓн кычылташ лишӹ юк данныйым, кыдым каждый эдем юк доно ӹштӹшӹ приложеним тымдаш кычылт кердеш, ӹштенӓ.
+data-other-title = Вес юк данныйвлӓ...
+data-other-goto = { $name } докӹ ванжы
+data-other-download = Данныйым качаен нӓлӓш
+data-bundle-button = Датасет пакетым качаен нӓлӓш
+data-bundle-description = Common Voice данный дӓ тенгеок кӱшнӹшӹ цилӓ молы юк данный.
 release-version = Верси
 dataset-date = Кечӹ
 license = Лицензи: <licenseLink>{ $license }</licenseLink>

@@ -57,6 +57,20 @@ dataset-donate-modal-heading = U sapivi chi…
 donate-modal-explanation-2 = <bold>Si duni valuri ê dati lìbbiri - dona oji!</bold>
 
 data-download-singleword-title = Scàrrica u sigmentu spicìficu chî palori sìnguli
+## Data
+
+data-download-button = Scàrrica i dati di Common Voice
+data-download-yes = Se
+data-download-deny = No
+data-download-license = Licenza: <licenseLink>CC-0</licenseLink>
+data-download-modal = Stai accuminciannu nu scarricamentu di <size>{ $size }GB</size>, vo' cuntinuari?
+data-subtitle = Stamu custrujennu nu nzemi di dati di vuci lìbbiru e dispunìbbili ô pùbblicu chi tutti ponnu usari pi nzignàrici all'appricazzioni chi ùsanu a vuci.
+data-get-started = <speechBlogLink>Accumincia cû ricanuscimentu vucali</speechBlogLink>
+data-other-title = Autri dati vucali…
+data-other-goto = Vai nne { $name }
+data-other-download = Scàrrica i dati
+data-bundle-button = Scàrrica u pacchetti dî dati
+data-bundle-description = I dati di Common Voice cu tutti l'autri dati cca supra.
 release-version = Virsiuni
 dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>

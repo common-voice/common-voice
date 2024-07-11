@@ -51,6 +51,21 @@ download = Prenesi
 dataset-version = Različica
 
 data-download-singleword-title = Prenesite enobesedni ciljni segment
+## Data
+
+data-download-button = Prenesite podatke Common Voice
+data-download-yes = Da
+data-download-deny = Ne
+data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
+data-download-modal = Začel se bo prenos datoteke, velike <size>{ $size } GB</size>, nadaljujemo?
+data-subtitle = Gradimo odprt in javno dostopen nabor govorjenih podatkov, ki ga bo lahko vsakdo uporabil za učenje govorno podprtih aplikacij.
+data-explanatory-text = Verjamemo, da veliki in javno dostopni nabori podatkov spodbujajo inovacije in zdravo tekmovalnost pri implementaciji strojnega učenja v govorno podprtih aplikacijah. Za to si prizadevamo po celem svetu in vabimo k sodelovanju vse zainteresirane. Naš namen je, da naredimo govorno tehnologijo bolj vključujočo, da bo odražala raznolikost govorjene besede po celem svetu.
+data-get-started = <speechBlogLink>Začnite s prepoznavo govora</speechBlogLink>
+data-other-title = Drugi govorni nabori podatkov ...
+data-other-goto = Pojdi na { $name }
+data-other-download = Prenesi podatke
+data-bundle-button = Prenesi nabor podatkov
+data-bundle-description = Podatki Common Voice in vsi zgornji govorni nabori podatkov.
 release-version = Različica
 dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>

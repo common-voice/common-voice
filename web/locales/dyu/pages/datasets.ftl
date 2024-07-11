@@ -61,6 +61,21 @@ dataset-version = Wɛrisiyɔn
 
 data-download-singleword-title = Daɲɛ kelen laɲini yɔrɔ telesarse
 data-download-singleword-callout-v2 = Nin ye baarakɛcogo-ko-ɲɛnabɔli-yɔrɔ ye min kɔnɔ kunnafoniw bɛ sɔrɔ ka fanga di nimɔrɔ fɔlenw dɔnni ma ani ɔwɔ / ayi dɔnni.
+## Data
+
+data-download-button = Téléchargeur (Téléchargeur) ye Kumakan kunnafoniw minnu bɛ sɔrɔ mɔgɔw fɛ
+data-download-yes = Awɔ
+data-download-deny = Ayi
+data-download-license = Lase: <licenseLink>CC-0</licenseLink>
+data-download-modal = I bɛna <size>{ $size }GB</size> telesarse daminɛ, i ka taa ɲɛ?
+data-subtitle = An bɛ ka kumakanw kunnafonidilan dafalen dɔ jɔ min bɛ se ka sɔrɔ foroba la, bɛɛ bɛ se ka baara kɛ ni min ye walasa ka kumakan-minɛnw dege.
+data-explanatory-text = An dalen b’a la ko kan kunnafonidilanba minnu bɛ sɔrɔ foroba la, olu bɛ kokuradonni ni jagokɛcogo ɲuman sabati kumakan fɛɛrɛbɔ siratigɛ la min sinsinnen bɛ masin kalanni kan. Nin ye diɲɛ bɛɛ ka cɛsiri ye wa an bɛ bɛɛ wele u ka na a sen don a la. An ka laɲini ye ka kumakan fɛɛrɛbɔ dɛmɛ u ka kɛ fɛn bɛɛ lajɛlen ye, ka kan suguya caman jira minnu bɛ bɔ diɲɛ fan bɛɛ la.
+data-get-started = <speechBlogLink>A daminɛ ni kuma dɔnni ye</speechBlogLink>
+data-other-title = Kumakan kunnafonidilan wɛrɛw...
+data-other-goto = Taga  { $name } la
+data-other-download = Data telesarse
+data-bundle-button = Dataset Bundle telesarse
+data-bundle-description = Common Voice data fara kan dataset tɔw bɛɛ kan sanfɛ.
 release-version = Wɛrisiyɔn
 dataset-date = Don
 license = Lase: <licenseLink>{ $license }</licenseLink>

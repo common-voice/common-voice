@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>Als u open, inclusieve gegevens waardeert –
 
 data-download-singleword-title = Het enkel-woord-doelsegment downloaden
 data-download-singleword-callout-v2 = Dit is een gebruiksgebaseerd segment dat gegevens bevat om herkenning van gesproken cijfers en detectie van ja/nee mogelijk te maken.
+## Data
+
+data-download-button = Common Voice-gegevens downloaden
+data-download-yes = Ja
+data-download-deny = Nee
+data-download-license = Licentie: <licenseLink>CC-0</licenseLink>
+data-download-modal = U staat op het punt een download ter grootte van <size>{ $size } GB</size> te starten, doorgaan?
+data-subtitle = We bouwen een open en openbaar toegankelijke gegevensset van stemmen, die iedereen kan gebruiken om spraakgestuurde toepassingen te trainen.
+data-explanatory-text = We denken dat grote en openbare spraakgegevenssets voor innovatie en gezonde commerciële competitie zorgen in spraaktechnologie op basis van machineleren. Dit is een wereldwijde inspanning, en we nodigen iedereen uit om deel te nemen. Ons doel is om te helpen ervoor te zorgen dat spraaktechnologie breder wordt, waarmee de diversiteit aan stemmen over de wereld wordt weergegeven.
+data-get-started = <speechBlogLink>Beginnen met spraakherkenning</speechBlogLink>
+data-other-title = Andere spraakgegevenssets…
+data-other-goto = Naar { $name }
+data-other-download = Gegevens downloaden
+data-bundle-button = Gegevenssetbundel downloaden
+data-bundle-description = Common Voice-gegevens plus alle overige bovenstaande gegevenssets.
 release-version = Versie
 dataset-date = Datum
 license = Licentie: <licenseLink>{ $license }</licenseLink>

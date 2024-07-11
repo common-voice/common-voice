@@ -59,6 +59,21 @@ clipboard-not-supported = Ивды буфер нæ кусы
 
 data-download-singleword-title = Равгӕн нысанон сегмент «Иу дзырд»
 data-download-singleword-callout-v2 = Ацы сегменты нысан у бӕлвырд цаутӕ пайда кӕнынӕн, дары рардтӕ, цӕмӕй фӕхуыздӕр кӕна нымӕцты раиртасӕн ӕмӕ «о» кӕнӕ «нӕ» базонӕн.
+## Data
+
+data-download-button = Common Voice-ы рардтӕ бавгӕн
+data-download-yes = О
+data-download-deny = Нæ
+data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size } ГБ</size> равгæныны æввонг дæ, уый дæ фæнды?
+data-subtitle = Мах фӕлдисӕм гом ӕмӕ иумӕйаг хъӕлӕсон рардты хæрх, цӕмӕй алы адӕймагӕн дӕр пайда уа сахуыр кӕнын хъӕлӕс раиртасыны программӕтæ.
+data-explanatory-text = Мах уырны, ӕмӕ егъау иумӕйаг хъӕлӕсон рардты ӕмбырд цырын кӕны инновацитӕ ӕмӕ нормалон коммерцион конкуренци машинӕ-ахуыргонд технологитӕ хъӕлӕс раиртасынӕн. Уый у глобалон хъӕппӕрис, ӕмӕ мах алкӕйдӕр хонӕм хайад райсын. Нӕ нысан у — баххуыс кӕнын хъӕлӕсон технологитӕн алырдыгон уӕвын ӕмӕ  раиртасын дунейы алыхуызон хъӕлӕстӕ.
+data-get-started = <speechBlogLink>Ныхас раиртасыны куыст райдай</speechBlogLink>
+data-other-title = Ӕндӕр хъӕлӕсон рардты ӕмбырдтӕ…
+data-other-goto = Ардæм рацу: { $name }
+data-other-download = Рардтӕ равгӕн
+data-bundle-button = Рардты ӕмбырды тыхтон равгӕн
+data-bundle-description = Common Voice-ы рардтӕ бафтауын ӕппӕт рардтӕ хъӕлӕсы рардты ӕмбырдтӕ дӕлдӕр.
 release-version = Фæлтæр
 dataset-date = Датæ
 license = Лицензи: { $license }

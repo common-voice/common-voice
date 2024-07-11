@@ -58,6 +58,21 @@ dataset-version = Thanolelo
 
 data-download-singleword-title = Itseele Dikarolwana Tsa Lefoko le le Lengwe la Puo
 data-download-singleword-callout-v2 = Eno ke karolwana e e berekang e e nang le tshedimosetso ya go matlafatsa mokgwa wa go dirisa puo le o o kgonang go lemoga ee / nnyaa.
+## Data
+
+data-download-button = Itseele Tshedimosetso ya Common Voice
+data-download-yes = Ee
+data-download-deny = Nyaa
+data-download-license = Laesense: <licenseLink>CC-0</licenseLink>
+data-download-modal = O tloga o simolola download ya <size>{ $size }GB</size>, a o a tswelela?
+data-subtitle = Re aga rekoto ya tshedimosetso ya mantswe e mongwe le mongwe a ka e dirisang go thapisa dithulaganyo tse di kgonang go dirisa mantswe.
+data-explanatory-text = Re dumela gore tshedimosetso e kgolo le e e phasaladitsweng ya mantswe e rotloetsa go tlhama le kgaisano ya kgwebo mo thekenolojing e e ikaegileng ka go ithuta ga metšhine. Ano ke matsapa a lefatshe lotlhe mme re laletsa mongwe le mongwe go tsaya karolo. Boikaelelo jwa rona ke go thusa thekenoloji ya go bua gore e akaretse dilo tse dintsi, e bontshe pharologano ya mantswe go ralala lefatshe.
+data-get-started = <speechBlogLink>Simolola ka Temogopuo</speechBlogLink>
+data-other-title = Direkoto tse dingwe tsa tshedimosetso ya mantswe...
+data-other-goto = Ya go { $name }
+data-other-download = Itseele Tshedimosetso
+data-bundle-button = Itseele Di-bundle Tsa Rekoto ya Tshedimosetso
+data-bundle-description = Tshedimosetso ya Common Voice le direkoto tsotlhe tsa tshedimosetso ya mantswe fa godimo.
 release-version = Thanolelo
 dataset-date = Letlha
 license = Laesense: <licenseLink>{ $license }</licenseLink>

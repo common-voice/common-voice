@@ -59,6 +59,21 @@ dataset-version = 版本
 
 data-download-singleword-title = 下載單字目標字串
 data-download-singleword-callout-v2 = 這是一個包含用來進行口述數字識別與是/否偵測的使用案例。
+## Data
+
+data-download-button = 下載 Common Voice 資料
+data-download-yes = 好
+data-download-deny = 不要
+data-download-license = 授權條款: <licenseLink>CC-0</licenseLink>
+data-download-modal = 將會下載 <size>{ $size } GB</size> 的檔案，要繼續嗎？
+data-subtitle = 我們正在打造一套開放而可公開使用的語音資料集，讓每個人都可用來訓練應用程式中的語音功能。
+data-explanatory-text = 我們相信，大型而公開可用的語音資料集可以促進以機器學習為基礎技術的語音科技創新，與健康的商業競爭。這是一項全球性的努力，我們也邀請所有人參與。我們的目標是讓語音技術能夠更具包容性，反映出世界各地語音的多樣性。
+data-get-started = <speechBlogLink>語音辨識新手上路</speechBlogLink>
+data-other-title = 其他語音資料集…
+data-other-goto = 前往 { $name }
+data-other-download = 下載資料
+data-bundle-button = 下載資料集總組合
+data-bundle-description = Common Voice 資料，以及上面列出的所有其他語音資料集。
 release-version = 版本
 dataset-date = 日期
 license = 授權條款: <licenseLink>{ $license }</licenseLink>

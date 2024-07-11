@@ -58,6 +58,21 @@ dataset-version = Version
 
 data-download-singleword-title = Tanelouta Nepo ya Lentšu le Tee
 data-download-singleword-callout-v2 = Se ke karolo e hlohloletšwago ke seripa sa go ba le datha go matlafatša temogo ya dinomoro tše bolelwago le go bonwa ga ee/aowa.
+## Data
+
+data-download-button = Tanelouta Datha ya Common Voice
+data-download-yes = Ee
+data-download-deny = Aowa
+data-download-license = Laesense: <licenseLink>CC-0</licenseLink>
+data-download-modal = O thoma tanelouto ya<size>{ $size }GB</size>, Re tšwele pele?
+data-subtitle = Re aga tatelano ya dathasete ya lentšu e bulegilego le go phatlalatšwa gore batho ka moka ba ka e berikšago go tlwaetša ditirišo tša go dumela polelo.
+data-explanatory-text = Re dumela gore dathasete tša lentšu tše dikgolo di tla hwetšagala phatlalatša di kgothaletša go tšweletša mekgwa e mefsa le tlhodišano ya kgwebo e matla go theknolotši ya go mantšu e thekgilwego ke motšhene. Se ke boiteko ba lefase ka moka gomme re mema motho yo mongwe le yo mongwe go tšea karoko. Boikemišetšo bja rena ke go thuša theknolotši le poledišano gore e tsentšhwe batho ka moka, e bonagatše mehuta e fapa-fapanego ya mantšu a tšwago lefaseng ka bophara.
+data-get-started = <speechBlogLink>Thoma ka Tlhathollo ya Mantšu </speechBlogLink>
+data-other-title = Di-dathasete tše dingwe tša mantšu...
+data-other-goto = Eya go { $name }
+data-other-download = Tanelouto ya Datha
+data-bundle-button = Tanelouta dathasete di dikgobokane
+data-bundle-description = Datha ya Common Voice le di-dathasete tše dingwe tša lentšu ka godimo.
 release-version = Bešene
 dataset-date = Letšatši
 license = Laesense: <licenseLink>{ $license }</licenseLink>

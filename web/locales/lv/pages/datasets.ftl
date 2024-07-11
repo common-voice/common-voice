@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>Ja jums ir svarīgi atvērti, iekļaujoši da
 
 data-download-singleword-title = Lejupielādējiet viena vārda mērķa segmentu
 data-download-singleword-callout-v2 = Šis ir uz lietošanas gadījumu balstīts segments, kurā ir dati, kas nodrošina ierunātu ciparu atpazīšanu un jā/nē noteikšanu.
+## Data
+
+data-download-button = Lejupielādējiet Common Voice datus
+data-download-yes = Jā
+data-download-deny = Nē
+data-download-license = Licence: <licenseLink> CC-0 </licenseLink>
+data-download-modal = Jūs gatavojaties lejupielādēt <size>{ $size }GB</size>, turpināt?
+data-subtitle = Mēs veidojam atklātu un publiski pieejamu balsu datu kopu, ko ikviens var izmantot, lai apmācītu runas iespējotas lietojumprogrammas.
+data-explanatory-text = Mēs uzskatām, ka lielas un publiski pieejamas balss datu kopas veicina inovāciju un veselīgu komerciālu konkurenci mašīnmācības balstītā runas tehnoloģijā. Tas ir globāls darbs, un mēs aicinām ikvienu piedalīties. Mūsu mērķis ir palīdzēt runas tehnoloģijai būt iekļaujošākai, atspoguļojot dažādu pasaules balsu daudzveidību.
+data-get-started = <speechBlogLink>Darba sākšana ar runas atpazīšanu</speechBlogLink>
+data-other-title = Citas balss datu kopas…
+data-other-goto = Dodieties uz { $name }
+data-other-download = Lejupielādēt datus
+data-bundle-button = Lejupielādēt datu kopas komplektu
+data-bundle-description = Kopējie balss dati, kā arī visas citas balss datu kopas.
 release-version = Versija
 dataset-date = Datums
 license = Licence: <licenseLink> { $license } </licenseLink>

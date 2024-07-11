@@ -53,6 +53,21 @@ dataset-version = Toleo
 
 data-download-singleword-title = Pakua Sehemu ya Lengo la Neno Moja
 data-download-singleword-callout-v2 = Hii ni sehemu ya kesi inayotumiwa na data iliyo na uwezo wa kutambua tarakimu ya sauti na ugunduzi wa ndio / hapana
+## Data
+
+data-download-button = Pakua data ya Common Voice
+data-download-yes = Ndio
+data-download-deny = Hapana
+data-download-license = Leseni: <licenseLink> CC-0 </licenseLink>
+data-download-modal = Unakaribia kuanzisha upakuaji wa <size>{ $size }GB</size> , endelea?
+data-subtitle = Tunaunda daftari la data ya sauti inayopatikana wazi na kwa umma ambayo kila mtu anaweza kutumia kufudhisha programu ambazo zina uwezo wa kutambua sauti.
+data-explanatory-text = Tunaamini kuwa daftari kubwa la sauti na linalopatikana kwa umma linakuza uvumbuzi na ushindani mzuri wa kibiashara katika teknolojia ya sauti inayotegemea mafunzo ya mashine. Hii ni juhudi ya ulimwengu na tunakaribisha kila mtu kushiriki. Lengo letu ni kusaidia teknolojia ya sauti iwe kuunganisha zaidi, ikionyesha utofauti wa sauti kutoka kote ulimwenguni.
+data-get-started = <speechBlogLink> Anza na Utambuzi wa sauti </speechBlogLink>
+data-other-title = Daftari zingine za sauti
+data-other-goto = Nenda kwa { $name }
+data-other-download = Pakua data
+data-bundle-button = Pakua kifurushi cha daftari
+data-bundle-description = Data ya Common Voice pamoja na hifadhisauti zingine hapo juu.
 release-version = Toleo
 dataset-date = Tarehe
 license = Leseni: <licenseLink> { $leseni } </licenseLink>

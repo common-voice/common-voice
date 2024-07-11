@@ -77,6 +77,21 @@ donate-modal-explanation-2 = <bold>Se apprezzi la possibilità di accedere a dat
 
 data-download-singleword-title = Scarica il segmento specifico con parole singole
 data-download-singleword-callout-v2 = Questo è un segmento basato su uno specifico caso di utilizzo e contiene dati per migliorare il riconoscimento vocale delle cifre e il rilevamento di sì/no.
+## Data
+
+data-download-button = Scarica i dati di Common Voice
+data-download-yes = Sì
+data-download-deny = No
+data-download-license = Licenza: <licenseLink>CC-0</licenseLink>
+data-download-modal = Verranno scaricati <size>{ $size }GB</size> di dati. Procedere con il download?
+data-subtitle = Stiamo costruendo un dataset di voci pubblico e aperto che chiunque possa utilizzare per addestrare applicativi con supporto vocale.
+data-explanatory-text = Secondo noi un grande dataset disponibile pubblicamente promuoverà l’innovazione e una sana competizione commerciale nel campo dell’apprendimento automatico basato su tecnologie vocali. La nostra è un’iniziativa globale, tutti sono invitati a partecipare. Il nostro scopo è rendere le tecnologie vocali più inclusive e adatte a rispecchiare la diversità di voci nel mondo.
+data-get-started = <speechBlogLink>Istruzioni per il riconoscimento vocale</speechBlogLink>
+data-other-title = Altri dataset vocali…
+data-other-goto = Vai a { $name }
+data-other-download = Scarica i dati
+data-bundle-button = Scarica bundle di dataset
+data-bundle-description = Dati di Common Voice più tutti i dataset precedenti.
 release-version = Versione
 dataset-date = Data
 license = Licenza: <licenseLink>{ $license }</licenseLink>

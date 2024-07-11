@@ -58,6 +58,21 @@ dataset-version = Version
 
 data-download-singleword-title = Download the Single Word Target Segment
 data-download-singleword-callout-v2 = This is a use case driven segment containing data to power spoken digit recognition and yes / no detection.
+## Data
+
+data-download-button = Download Common Voice Data
+data-download-yes = Aane
+data-download-deny = Daabi
+data-download-license = License: <licenseLink>CC-0</licenseLink>
+data-download-modal = You are about to initiate a download of <size>{ $size }GB</size>, proceed?
+data-subtitle = We are building an open and publicly available dataset of voices that everyone can use to train speech-enabled applications.
+data-explanatory-text = We believe that large and publicly available voice datasets foster innovation and healthy commercial competition in machine-learning based speech technology. This is a global effort and we invite everyone to participate. Our aim is to help speech technology be more inclusive, reflecting the diversity of voices from around the world.
+data-get-started = <speechBlogLink>Get Started with Speech Recognition</speechBlogLink>
+data-other-title = Other voice datasets…
+data-other-goto = Go to { $name }
+data-other-download = Download Data
+data-bundle-button = Download Dataset Bundle
+data-bundle-description = Common Voice data plus all other voice datasets above.
 release-version = Version
 dataset-date = Date
 license = License: <licenseLink>{ $license }</licenseLink>

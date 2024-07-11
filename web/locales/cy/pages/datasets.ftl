@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>Os ydych yn gwerthfawrogi data agored, cynhwy
 
 data-download-singleword-title = Llwytho'r Segment Targed Un Gair i Lawr
 data-download-singleword-callout-v2 = Mae hon yn segment defnydd sy'n cael ei yrru gan achos sy'n cynnwys data i bweru cydnabyddiaeth digid llafar a chanfod iawn / na.
+## Data
+
+data-download-button = Llwytho Data Common Voice i Lawr
+data-download-yes = Iawn
+data-download-deny = Na
+data-download-license = Trwydded: <licenseLink>CC-0</licenseLink>
+data-download-modal = Rydych ar fin cychwyn llwytho i lawr ffeil o faint <size>{ $size }GB</size>, parhau?
+data-subtitle = Rydym yn adeiladu set ddata o leisiau agored, sydd ar gael yn gyhoeddus, y bydd pawb yn gallu ei ddefnyddio i hyfforddi rhaglenni sy'n gallu trin lleferydd.
+data-explanatory-text = Rydym yn credu fod setiau data mawr a chyhoeddus yn annog arloesedd a chystadleuaeth fasnachol iach o fewn dysgu peiriannau yn seiliedig ar dechnoleg lleferydd. Mae hon yn ymdrech fyd-eang ac rydym yn gwahodd pawb i gymryd rhan. Ein nod yw helpu technoleg llais i fod yn fwy cynhwysol, ac adlewyrchu'r amrywiaeth o leisiau o amgylch y byd.
+data-get-started = <speechBlogLink>Cychwyn arni gydag Adnabod Lleferydd</speechBlogLink>
+data-other-title = Setiau data llais eraill...
+data-other-goto = Mynd i { $name }
+data-other-download = Llwytho Data i Lawr
+data-bundle-button = Llwytho Pecyn Set Ddata i Lawr
+data-bundle-description = Common Voice ynghyd â'r holl setiau data llais uchod.
 release-version = Fersiwn
 dataset-date = Dyddiad
 license = Trwydded: <licenseLink>{ $license }</licenseLink>

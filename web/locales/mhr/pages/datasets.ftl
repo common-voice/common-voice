@@ -59,6 +59,21 @@ dataset-version = Версий
 
 data-download-singleword-title = Ик мут дене шумлык ужашым вераҥде
 data-download-singleword-callout-v2 = Тиде кучылтмо тӱрлылык дене виктаралтше ойлымо цифрым да «туге/уке» манмым пален налашлан данный дене ужаш.
+## Data
+
+data-download-button = Common Voice данныйым тулен налаш
+data-download-yes = Туге
+data-download-deny = Уке
+data-download-license = Лицензий: <licenseLink>CC-0</licenseLink>
+data-download-modal = Тый <size>{ $size }ГБ</size> вераҥдымашым ышташ ямдылалтат, шуяш?
+data-subtitle = Ме почмо да чылалан кучылташ лийше йӱк данныйым, кудым кажне еҥ йӱк дене ыштыше приложенийым туныкташ кучылтын кертеш, ыштена.
+data-explanatory-text = Кумда да чылалан кучылташ лийше йӱкан данный пого-влак улыклан да машиным туныктымашлан негызлалтше йӱк технологий кумдыкышто коммерций могырым таза таҥасымашлан йӧным ышта манын, ме шотлена. Тиде тӱнямбал тыршымаш да ме чылаштым ушнаш ӱжына. Мемнан шумлык — йӱк технологийлан утларак инклюзиван, чыла тӱня гыч йӱк тӱрлылыкым ончыктышан, лияш полшаш.
+data-get-started = <speechBlogLink>Ойлымым палымаш гыч тӱҥал</speechBlogLink>
+data-other-title = Вес йӱк данный-влак…
+data-other-goto = { $name } деке куснаш
+data-other-download = Данныйым тулен налаш
+data-bundle-button = Датасет пакетым тулен налаш
+data-bundle-description = Common Voice данный да тыгак кӱшнӧ чыла моло йӱк данный.
 release-version = Версий
 dataset-date = Кече
 license = Лицензий: <licenseLink>{ $license }</licenseLink>

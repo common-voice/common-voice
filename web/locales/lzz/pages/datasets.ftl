@@ -52,6 +52,21 @@ clipboard-not-supported = Panok var numxacams
 dataset-metadata-age = Tzana
 
 data-download-singleword-title = Ar Zit̆a Noğire Boligina Kogeiğit
+## Data
+
+data-download-button = Common Voiceşi Datape kogeiğit
+data-download-yes = Ho
+data-download-deny = Var
+data-download-license = Lisans: <licenseLink>CC-0</licenseLink>
+data-download-modal = { "" }
+data-subtitle = Oxori
+data-explanatory-text = { "" }
+data-get-started = <speechBlogLink>Osinapu Oçinobas Kogyoç̌ǩit</speechBlogLink>
+data-other-title = Majura xomaşi datamarç̌ape
+data-other-goto = { $isname }'şe idi
+data-other-download = Meçama Geiği
+data-bundle-button = Datamarç̌aşi Paket̆i kogeiğit
+data-bundle-description = Comman Voicesi data març̌ape xvala var jindoleni majura xoma datapeti.
 release-version = Versioni
 dataset-date = Tarixi
 license = Lisansi: <licenseLink>{ $license }</licenseLink>

@@ -65,6 +65,21 @@ clipboard-not-supported = Apponti no supportæ
 
 data-download-singleword-title = Descarrega o segmento particolâ co-e poule scingole
 data-download-singleword-callout-v2 = Sto segmento o l’é basou in sce un caxo d’utilizzaçion particolâ e o l’à di dæti pe amegioâ o reconoscimento vocale de giffre e o reconoscimento de scì/na.
+## Data
+
+data-download-button = Descarrega i dæti de Common Voice
+data-download-yes = Scì
+data-download-deny = Na
+data-download-license = Liçensa: <licenseLink>CC-0</licenseLink>
+data-download-modal = Saià descarregou <size>{ $size }GB</size> de dæti. Anâ avanti à descarregâ?
+data-subtitle = Semmo apreuvo à creâ un dataset de voxe pubrico e averto, che chisesegge o peu deuviâ pe inandiâ de appricaçioin de tecnologia vocale.
+data-explanatory-text = Pensemmo che un dataset grande e disponibile a-o pubrico o sponcià l’innovaçion e unna concorrensa saña into campo de tecnologie vocale basæ in sciô machine learning. Sta chì a l’é unn’iniçiativa globale e invitemmo tutti à piggiâ parte. O nòstro fin o l’é de aggiuttâ à rende e tecnologie vocale ciù incluxive, de mòddo che pòssan reflette a diverscitæ de voxe do mondo.
+data-get-started = <speechBlogLink>Instruçioin pe-o reconoscimento vocale</speechBlogLink>
+data-other-title = Atri dataset vocali…
+data-other-goto = Vanni à { $name }
+data-other-download = Descarrega i dæti
+data-bundle-button = Descarrega un pachetto de dataset
+data-bundle-description = Dæti de Common Voice e tutti i atri dataset de d’ato ascì.
 release-version = Verscion
 dataset-date = Dæta
 license = Liçensa: <licenseLink>{ $license }</licenseLink>

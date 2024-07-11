@@ -65,6 +65,21 @@ clipboard-not-supported = Storpliktuve nateik atbaļsteita
 
 data-download-singleword-title = Zamynluodēt vīna vuorda mierka segmentu
 data-download-singleword-callout-v2 = Itys ir iz lītuošonys gadejumu pabaļsteits segments, kurā ir dati, kas nūdrūsynoj īrunuotū skaitļu atpazeišonu i nui/nā nūsaceišonu.
+## Data
+
+data-download-button = Zamynuodejit Common Voice datus
+data-download-yes = Nui
+data-download-deny = Nā
+data-download-license = Liceņze: <licenseLink> CC-0 </licenseLink>
+data-download-modal = Jius gatavejitēs zamynluodēt <size>{ $size }GB</size>, turpynuot?
+data-subtitle = Mes veidojam atkluotu i publiski daīmamu bolsa datu kūpu, kū sevkurs var lītuot, lai apvuiceitu runys lītuojumprogramys.
+data-explanatory-text = Mēs dūmojam, ka lelys i publiski daīmamys datu kūpys veicynoj inovaceju i veseleigu komercialu konkureņci mašynvuiceišonys baļsteitā runys tehnologejā. Tys ir globals dorbs, i mes aicynojam sevkuru pīsadaleit. Myusu mierkis ir paleidzēt runys tehnologejai byut īkļaujūšuokai, paruodūt vysaidu pasauļa bolsu daudzveideibu.
+data-get-started = <speechBlogLink>Dorba suokšona ar runys atpazeišonu</speechBlogLink>
+data-other-title = Citys bolsa datu kūpys…
+data-other-goto = Ej iz { $name }
+data-other-download = Zamynluodēt datus
+data-bundle-button = Zamynluodēt datu kūpys komplektu
+data-bundle-description = Kūpeigī bolsa dati, kai ari vysys cytys bolsa datu kūpys.
 release-version = Verseja
 dataset-date = Datums
 license = Liceņze: <licenseLink> { $license } </licenseLink>

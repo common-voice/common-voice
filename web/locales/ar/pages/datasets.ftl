@@ -50,5 +50,20 @@ close = أغلِق
 download = نزّل
 dataset-version = الإصدارة
 
+## Data
+
+data-download-button = نزّل بيانات «الصوت للعموم»
+data-download-yes = نعم
+data-download-deny = لا
+data-download-license = الرخصة: <licenseLink>CC-0</licenseLink>
+data-download-modal = أنت على وشك بدء تنزيل بحجم <size>{ $size } ج.بايت</size>، أتريد المتابعة؟
+data-subtitle = نعمل على بناء مجموعات بيانات مفتوحة ومتاحة للعموم يمكن استخدامها في تدريب التطبيقات التي تعمل بالتعرف الصوتي.
+data-explanatory-text = نؤمن بأن مجموعات البيانات الصوتية الكبيرة والمتاحة للعموم تُشجّع على الابتكار والمنافسة التجارية الصحيحة في تقنيات تعليم الآلات التعرفَ الصوتي. إن هذا المجهود عالمي وندعو الجميع للمشاركة. هدفنا هو مساعدة تقنيات التعرف الصوتي لتكون شاملة أكثر وتعكس اختلاف الأصوات وتنوعها حول العالم.
+data-get-started = <speechBlogLink>ابدأ مع تقنية التعرف الصوتي</speechBlogLink>
+data-other-title = مجموعات البيانات الأخرى…
+data-other-goto = انتقل إلى { $name }
+data-other-download = نزّل البيانات
+data-bundle-button = نزّل حزمة مجموعات البيانات
+data-bundle-description = بيانات «الصوت للعموم» مع كل مجموعات البيانات أعلاه.
 license = الرخصة: <licenseLink>{ $license }</licenseLink>
 license-mixed = مختلطة

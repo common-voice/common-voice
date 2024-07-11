@@ -65,6 +65,21 @@ clipboard-not-supported = ڪلپ بورڊ کي سپورٽ نه آهي
 
 data-download-singleword-title = ڊائون لوڊ ڪريو اڪيلو لفظ ھدف وارو حصو
 data-download-singleword-callout-v2 = هي هڪ استعمال ڪيس هلائيندڙ حصو آهي جنهن ۾ ڊيٽا شامل آهي طاقت ڳالهائيندڙ انگن اکرن جي سڃاڻپ ۽ ها / نه ڳولڻ.
+## Data
+
+data-download-button = ڊائون لوڊ ڪريو عام وائس ڊيٽا
+data-download-yes = جي ها
+data-download-deny = نه
+data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
+data-download-modal = توهان <size>{ $size }GB</size> ڊائون لوڊ ڪرڻ وارا آهيو، اڳتي وڌو؟
+data-subtitle = اسان آوازن جو هڪ کليل ۽ عوامي طور تي دستياب ڊيٽا سيٽ ٺاهي رهيا آهيون جنهن کي هرڪو استعمال ڪري سگهي ٿو تقرير-فعال ٿيل ايپليڪيشنن کي تربيت ڏيڻ لاءِ.
+data-explanatory-text = اسان يقين رکون ٿا ته وڏي ۽ عوامي طور تي دستياب آواز ڊيٽا سيٽ مشين جي سکيا تي ٻڌل تقرير ٽيڪنالاجي ۾ جدت ۽ صحتمند تجارتي مقابلي کي فروغ ڏين ٿا. هي هڪ عالمي ڪوشش آهي ۽ اسان سڀني کي شرڪت جي دعوت ڏيون ٿا. اسان جو مقصد تقرير ٽيڪنالاجي کي وڌيڪ شامل ڪرڻ ۾ مدد ڏيڻ آهي، دنيا جي آوازن جي تنوع کي ظاهر ڪندي.
+data-get-started = <speechBlogLink>تقرير جي سڃاڻپ سان شروعات ڪريو</speechBlogLink>
+data-other-title = ٻيا آواز ڊيٽا سيٽس…
+data-other-goto = ڏانھن وڃو { $name }
+data-other-download = ڊيٽا ڊائونلوڊ ڪريو
+data-bundle-button = ڊائون لوڊ ڪريو ڊيٽا سيٽ بنڊل
+data-bundle-description = عام وائيس ڊيٽا ۽ مٿيان ٻيا سڀ وائس ڊيٽا سيٽ.
 release-version = نسخو
 dataset-date = تاريخ
 license = لائسنس: <licenseLink>{ $license }</licenseLink>

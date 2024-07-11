@@ -15,3 +15,11 @@ more = Дэлгэрэнгы
 close = Хааха
 download = Татажа абаха
 
+## Data
+
+data-download-button = Ниитын дуу хоолойн үгэгдэл татажа абаха
+data-download-yes = Тии
+data-download-deny = Үгы
+data-download-license = Лицензи: <licenseLink>CC-0</licenseLink>
+data-other-goto = { $name } руу
+data-other-download = Татажа абаха

@@ -52,6 +52,21 @@ dataset-version = Versión
 
 data-download-singleword-title = Baxa'l segmentu específicu coles pallabres individuales
 data-download-singleword-callout-v2 = Esto ye una segmentación de casos que contién datos pa potenciar la reconocencia de díxitos y del «sí/non»
+## Data
+
+data-download-button = Baxar datos de Common Voice
+data-download-yes = Sí
+data-download-deny = Non
+data-download-license = Llicencia: <licenseLink>CC-0</licenseLink>
+data-download-modal = Tas a piques d'aniciar la descarga de <size>{ $size }GB</size>, ¿siguir?
+data-subtitle = Tamos construyendo un conxuntu de datos públicu que tol mundu pue usar pa entrenar a les aplicaciones qu'usen la voz.
+data-explanatory-text = Creyemos qu'unos conxuntos de datos de voz grandes y públicos dan puxu a la innovación y competencia comercial sana nel campu de la teunoloxía de la voz basada nel deprendizaxe automáticu. Esto ye un esfuerciu global y convidamos a que tol mundu participe. L'oxetivu de nueso ye ayudar a que la teunoloxía de voz seya más inclusiva reflexando la diversidá de voces nel mundu.
+data-get-started = <speechBlogLink>Comenzar cola reconocencia de voz</speechBlogLink>
+data-other-title = Otros conxuntos de datos de voz...
+data-other-goto = Dir a { $name }
+data-other-download = Baxar datos
+data-bundle-button = Baxar el paquete del conxuntu de datos
+data-bundle-description = Los datos de Common Voice amás de tolos conxuntos de datos d'enriba.
 release-version = Versión
 dataset-date = Data
 license = Llicencia: <licenseLink>{ $license }</licenseLink>

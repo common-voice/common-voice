@@ -50,5 +50,20 @@ close = Titz'apïx
 download = Tiqasäx
 dataset-version = Ruwäch
 
+## Data
+
+data-download-button = Tiqasäx Ta Rutzij Common Voice
+data-download-yes = Ja'
+data-download-deny = Manäq
+data-download-license = Ya'öl q'ij: <licenseLink>CC-0</licenseLink>
+data-download-modal = Naqasaj yan qa <size>{ $size }GB</size> rupam, ¿la nawajo'?
+data-subtitle = Niqanük' jun ruyakb'al kicholxe'el ch'ab'äl, ri jaqäl chuqa' wachel chi kiwäch winaqi', ri konojel yetikïr nikokisaj richin yekitijoj ri etamanel ch'ab'äl taq chokoy.
+data-explanatory-text = Niqana'ojij chi ri kiyakb'al kitzij ch'ab'äl ri e nïm chuqa' wachel chi kiwäch winaqi' nutikirisaj ri tz'ukuj chuqa' ri ütz junamaxil k'ayij loq'oj chi kij ri kina'ob'al ch'ab'äl richin kitijoxik ri ch'ich'b'äl. Re re' jun samaj chijun ri ruwach'ulew ruma ri', yixqapeyoj richin kixto'on. Ri qarayib'al ja chi tiqato' ri runa'ob'al ch'ab'äl richin ronojel ke'ok chupam, akuchi' keruk'utu' ri jalajöj taq ch'ab'äl k'o chijun ri ruwach'ulew.
+data-get-started = <speechBlogLink>Titikirisäx rik'in ri Retamanel Ch'ab'äl</speechBlogLink>
+data-other-title = Juley chik ruyakb'al kitzij ch'ab'äl...
+data-other-goto = Tib'an b'enam pa { $name }
+data-other-download = Keqasäx taq Tzij
+data-bundle-button = Tiqasäx Pisaj Kiyakb'al Tzij
+data-bundle-description = Kitzij Common Voice rik'in ronojel ri taq kiyakb'al kitzij ch'ab'äl xe'ik'o.
 license = Ya'öl Q'ij: <licenseLink>{ $license }</licenseLink>
 license-mixed = Tunuj

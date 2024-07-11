@@ -52,6 +52,21 @@ dataset-version = Yamre
 
 data-download-singleword-title = Aawto Taƴannde Toɓɓaande Helmere Teelnde
 data-download-singleword-callout-v2 = Ɗum-ɗoo ko taƴannde toɗɗiinde fannu kuutoragol jogiinde keɓe ngam doolnude keftingol limooje gowlaaɗe kam e ejtagol eey / alaa.
+## Data
+
+data-download-button = Aawto keɓe Common Voice
+data-download-yes = Eey
+data-download-deny = Alaa
+data-download-license = Jamirol <licenseLink>CC-0</licenseLink>
+data-download-modal = Ngonɗaa ko e fuɗɗaade aawtogol <size>{ $size }GB</size>, aɗa jokka?
+data-subtitle = Min ngoni ko e mahde leemre keɓe sawto udditiinde e heɓotoonde e peñcu nde mo woni kala ena waawi huutoraade ngam eeltude jaaɓnirɗe ɓeydaade haala.
+data-explanatory-text = Amin ngoongɗini leeme keɓe sawto mawɗe keɓotooɗe e peñcu maa ƴellit kesamhesamaagu e pompondiral njulaaŋkaagal kisngal e jaŋde-masiŋaaji kam e karalle haala. Ɗum ko darnde huuɓnde etee amin mbismii mo woni kala yoo jeye heen. Faandaare amen ko wallude mbete karalle haala ena nodda mokala, yahda e keewal daaɗe e nder winndere ndee.
+data-get-started = <speechBlogLink>Fuɗɗoro ɗoo Keftingol Haala</speechBlogLink>
+data-other-title = Leeme keɓe sawto goɗɗe…
+data-other-goto = Yah to { $name }
+data-other-download = Aawto keɓe
+data-bundle-button = Aawto Tiggere Leemre Keɓe Sawo
+data-bundle-description = Keɓe Common Voice e leeme keɓe goɗɗe gonɗe dow ɗee fof.
 release-version = Yamre
 dataset-date = Ñalngu
 license = Jamirol <licenseLink>{ $license }</licenseLink>

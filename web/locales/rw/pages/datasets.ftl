@@ -38,5 +38,20 @@ missing-language = Ntabwo ubona ururimi rwawe rugaragara mu ikusanyirizo ry'imbo
 go-languages-page = Jya kuri paji y'indimi
 ready-to-validate = Witeguye kwemeza interuro?
 
+## Data
+
+data-download-button = Manura imbonwa zo muri porogaramu y'Ijwi Rusange (Common Voice)
+data-download-yes = Yego
+data-download-deny = Oya
+data-download-license = Uburenganzira
+data-download-modal = Ugiye gutangira kumanura jigabayite, ukomeze?
+data-subtitle = Turakora ikusanyirizo rusange kuri bose ry'amajwi buri muntu ashobora gukoresha mu kwitoza gukoresha porogaramu ntahuramajwi.
+data-explanatory-text = Dutekereza ko amakusanyirizo magari y'amajwi agerwaho na buri wese azateza imbere guhanga ibishya n'ihiganwa mu bucuruzi by'ikoranabuhanga ry'amajwi/ imvugo rifatiye ku kwiga kw'imashini. Iki ni igikorwa cyo ku isi yose, tukaba dusaba buri wese kukigiramo uruhare. Intego yacu ni ugufasha ikoranabuhanga rirebana n'imvugo/ amajwi kutagira uwo riheza, rikarangwa n'urunyurane rw'amajwi aturutse mu mpande enye z'isi.
+data-get-started = Tangira itahurajwi/ itahuramvugo
+data-other-title = Ayandi makusanyirizo y'imbonwa z'amajwi.
+data-other-goto = Jya kuri...
+data-other-download = Manura imbonwa
+data-bundle-button = Manura umuzingo w'ikusanyirizo ry'imbonwa
+data-bundle-description = Porogaramu y'Ijwi Rusange hiyongereyeho ayandi makusanyirizo y'imbonwa z'amajwi ziri hejuru aha.
 license = Uburenganzira
 license-mixed = Bivanze/ ivanze

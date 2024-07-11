@@ -45,5 +45,20 @@ close = Agħlaq
 download = Niżżel
 dataset-version = Verżjoni
 
+## Data
+
+data-download-button = Niżżel id-data tal-Common Voice
+data-download-yes = Iva
+data-download-deny = Le
+data-download-license = Liċenzja: <licenseLink>CC-0</licenseLink>
+data-download-modal = Se tibda' tniżżel <size>{ $size }GB</size>, trid tkompli?
+data-subtitle = Qed nibnu ġabra ta' data tal-vuċijiet open source u disponibbli għall-pubbliku, li tista' tintuża minn kulħadd biex jitħarrġu applikazzjonijiet li jużaw il-vuċi.
+data-explanatory-text = Aħna nemmnu li ġabriet kbar ta' data li huma disponibbli pubblikament jistgħu isaħħu l-innovazzjoni u l-kompetizzjoni kostruttiva fis-settur kummerċjali fil-qasam tat-teknoloġija tat-taħdit b'għarfien awtomatiku. Dan huwa sforz globali li nistiednu lil kulħadd jissieħeb miegħu. L-għan tagħna huwa li ngħinu biex it-teknoloġija tat-taħdit issir aktar inklussiva, b'mod li tirrifletti d-diversità ta' vuċijiet madwar id-dinja.
+data-get-started = <speechBlogLink>Ibda Aħdem fuq l-Għarfien Awtomatiku tat-Taħdit</speechBlogLink>
+data-other-title = Ġabriet oħra ta' data tat-taħdit ...
+data-other-goto = Mur { $name }
+data-other-download = Niżżel id-Data
+data-bundle-button = Niżżel il-Pakkett tad-Data
+data-bundle-description = Id-Data ta' Common Voice flimkien mad-data tat-taħdit kollha l-oħra t'hawn fuq.
 license = Liċenzja: <licenseLink> { $license } </licenseLink>
 license-mixed = Imħallat

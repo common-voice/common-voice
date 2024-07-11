@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>Se você valoriza dados abertos e inclusivos,
 
 data-download-singleword-title = Baixar o segmento de destino de palavras únicas
 data-download-singleword-callout-v2 = Este é um segmento orientado a caso de uso que contém dados para capacitar reconhecimento de dígitos falados e detecção de sim/não.
+## Data
+
+data-download-button = Baixar os dados do Common Voice
+data-download-yes = Sim
+data-download-deny = Não
+data-download-license = Licença: <licenseLink>CC-0</licenseLink>
+data-download-modal = Você está preste a iniciar um download de <size>{ $size }GB</size>, deseja continuar?
+data-subtitle = Estamos construindo um conjunto de dados de voz aberto e disponível publicamente para que qualquer um possa usar no treinamento de aplicações habilitadas por voz.
+data-explanatory-text = Acreditamos que conjuntos de dados de voz grandes e acessíveis ao público promovem a inovação e a saudável concorrência comercial em tecnologias de voz baseadas em aprendizagem de máquinas. Este é um esforço global e convidamos todos a participar. O nosso objetivo é ajudar as tecnologias de voz a ser mais inclusivas, refletindo a diversidade de vozes no mundo todo.
+data-get-started = <speechBlogLink>Comece com o reconhecimento de voz</speechBlogLink>
+data-other-title = Outros conjuntos de dados de voz…
+data-other-goto = Ir para { $name }
+data-other-download = Baixar dados
+data-bundle-button = Baixar pacote do conjunto de dados
+data-bundle-description = Os dados do Common Voice mais todos os outros conjuntos de dados acima.
 release-version = Versão
 dataset-date = Data
 license = Licença: <licenseLink>{ $license }</licenseLink>

@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>Açık ve kapsayıcı verilere değer veriyor
 
 data-download-singleword-title = Tek kelimelik hedef segmentini indir
 data-download-singleword-callout-v2 = Bu, kullanım senaryosu odaklı, konuşulan rakam tanıma ve evet/hayır algılamayı destekleme amaçlı veri içeren bir segmenttir.
+## Data
+
+data-download-button = Common Voice verilerini indir
+data-download-yes = Evet
+data-download-deny = Hayır
+data-download-license = Lisans: <licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size } GB</size> indirmeye başlamak üzeresiniz. Devam edilsin mi?
+data-subtitle = Herkesin konuşma özellikli uygulamaları eğitmek için kullanabileceği, açık ve herkesin erişebileceği bir veri kümesi oluşturuyoruz.
+data-explanatory-text = Biz, büyük ve kamuya açık ses verisi kümelerinin, makine öğrenimine dayalı konuşma teknolojilerinde yenileşimi ve sağlıklı ticari rekabeti teşvik edeceğine inanıyoruz. Common Voice küresel bir çaba ve herkesi ona katılmaya davet ediyoruz. Amacımız, dünyanın her yanından gelen seslerin çeşitliliğini yansıtarak konuşma teknolojilerini daha kapsayıcı bir hale getirmek.
+data-get-started = <speechBlogLink>Konuşma tanımayı keşfedin</speechBlogLink>
+data-other-title = Diğer ses verisi kümeleri…
+data-other-goto = { $name } sitesine git
+data-other-download = Verileri indir
+data-bundle-button = Veri kümesi paketini indir
+data-bundle-description = Common Voice verileri ve yukarıdaki diğer tüm ses veri kümeleri.
 release-version = Sürüm
 dataset-date = Tarih
 license = Lisans: <licenseLink>{ $license }</licenseLink>

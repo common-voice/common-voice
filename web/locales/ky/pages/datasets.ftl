@@ -27,5 +27,20 @@ more = Дагы
 close = Жабуу
 download = Жүктөп алуу
 
+## Data
+
+data-download-button = Common Voice берилиштерин жүктөп алуу
+data-download-yes = Ооба
+data-download-deny = Жок
+data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
+data-download-modal = Сиз <size>{ $size } GB</size> жүктөп баштагыңыз келеби, уланталыбы?
+data-subtitle = Биз каалаган киши үн менен башкарылган колдонмолорду машыктыра алган, ачык жана жалпыга жеткиликтүү үн корун куруп жатабыз.
+data-explanatory-text = Жалпыга ачык жеткиликтүү үн берилиштер кору инновацияларга жана машинени үйрөтүүнүн негизинде сөз таануу технологиялар арасындагы калыс коммерциялык атаандаштыкты өнүктүрүүгө түрткү болот деп ишенебиз. Бул глобалдык демилге жана каалаган катышуучулар үчүн эшик ачык. Максатыбыз - сөз таануу технологиясы дүйнө үндөрүнүн ар түрдүүлүгүн камтып жана чагылдырып беришине шарт түзүү.
+data-get-started = <speechBlogLink>Сөз таанууну баштоо</speechBlogLink>
+data-other-title = Башка үн базалары...
+data-other-goto = { $name } өтүү
+data-other-download = Берилиш жүктөп алуу
+data-bundle-button = Берилиштер топтомосун жүктөп алгыла
+data-bundle-description = Common Voice жана жогорудагы айтылган бардык үн корлору.
 license = Лицензиясы: <licenseLink>{ $license }</licenseLink>
 license-mixed = Аралашкан

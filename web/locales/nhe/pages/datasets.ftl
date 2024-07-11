@@ -42,6 +42,16 @@ clipboard-not-supported = Portapapeles no compatible
 
 data-download-singleword-title = Descargue el segmento objetivo de una sola palabra
 data-download-singleword-callout-v2 = Este es un segmento basado en casos de uso que contiene datos para potenciar el reconocimiento de dígitos hablados y la detección de sí/no.
+## Data
+
+data-download-button = Descargar datos de Common Voice
+data-download-yes = Quena
+data-download-deny = axcana
+data-subtitle = Estamos construyendo un conjunto de datos de voces abierto y disponible públicamente que todos pueden usar para entrenar aplicaciones habilitadas para voz.
+data-explanatory-text = Creemos que los grandes conjuntos de datos de voz disponibles públicamente fomentan la innovación y una sana competencia comercial en la tecnología del habla basada en el aprendizaje automático. Este es un esfuerzo global e invitamos a todos a participar. Nuestro objetivo es ayudar a que la tecnología del habla sea más inclusiva y refleje la diversidad de voces de todo el mundo.
+data-other-download = Descargar datos
+data-bundle-button = Descargar paquete de conjuntos de datos
+data-bundle-description = Datos de voz comunes más todos los demás conjuntos de datos de voz anteriores.
 release-version = Versión
 dataset-date = Fecha
 license-mixed = Mezclado

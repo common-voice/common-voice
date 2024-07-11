@@ -52,6 +52,21 @@ download = بارگیری
 dataset-version = نسخه
 
 data-download-singleword-title = دریافت بخش هدف تک کلمه‌ای.
+## Data
+
+data-download-button = دریافت داده‌های آواهای مشترک
+data-download-yes = بله
+data-download-deny = خیر
+data-download-license = مجوز: <licenseLink>CC-0</licenseLink>
+data-download-modal = شما درحال دریافت فایلی به حجم <size>{ $size } گیگابایت</size> هستید، ادامه دهیم؟
+data-subtitle = ما در حال ایجاد مجموعه‌ای از داده‌های باز و قابل دسترس به صورت عمومی از صداها هستیم که هر کس می‌تواند برای آموزش برنامه‌های کاربردی با قابلیت گفتاری از آن‌ها استفاده کند.
+data-explanatory-text = ما بر این باوریم که مجموعه داده‌های صوتی و عمومی که در دسترس هستند، نوآوری و رقابت تجاری سالم را در فن‌آوری گفتاری مبتنی بر تکنولوژی آموزشی تقویت می‌کنند. این تلاش جهانی است و ما همه را به مشارکت دعوت می‌کنیم. هدف ما این است که به فن‌آوری گفتار کمک کنیم تا گسترده‌تر شود و منعکس کننده تنوع صداها از سراسر جهان باشد.
+data-get-started = <speechBlogLink>شروع به کار با تشخیص گفتار</speechBlogLink>
+data-other-title = دیگر مجموعه داده‌های صوتی…
+data-other-goto = برو به { $name }
+data-other-download = دریافت داده‌ها
+data-bundle-button = دریافت بسته مجموعه‌ی داده‌ها
+data-bundle-description = اطلاعات آواهای مشترک به همراه تمام مجموعه داده‌های صوتی بالا.
 release-version = نسخه
 dataset-date = تاریخ
 license = مجوز: <licenseLink>{ $license }</licenseLink>

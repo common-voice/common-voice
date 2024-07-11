@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>Jolic se wótwórjone, inkluziwne daty wažy�
 
 data-download-singleword-title = Ześěgniśo celowy segment jadnotliwego słowa
 data-download-singleword-callout-v2 = To jo segment, kótaryž se pśez nałožowańske pady pógónujo a daty wopśimujo, aby spóznaśe powědanych cyfrow a spóznaśe jo/ně zmóžnił.
+## Data
+
+data-download-button = Daty Common Voice ześěgnuś
+data-download-yes = Jo
+data-download-deny = Ně
+data-download-license = Licenca: <licenseLink>CC-0</licenseLink>
+data-download-modal = Cośo <size>{ $size }GB</size> ześěgnuś, cośo pókšacowaś?
+data-subtitle = Napórajomy wótwórjonu a zjawnje pśistupnu datowu sajźbu głosow, kótaruž kuždy móžo wužywaś, aby nałoženja z powědańskeju pódpěru treněrował.
+data-explanatory-text = Měnimy, až wjelike a zjawnje k dispoziciji stojece datowe sajźby głosow inowaciju a strowe komercielne wuběźowanje w głosowej technologiji spěchuju, kótaraž na mašinelnym wuknjenju bazěruju. To jo globalne napinanje a pśepšosujomy kuždego se na tom wobźěliś. Naš cel jo pomagaś, až głosowa technologija jo wěcej wótwórjona, aby wjelerakosć głosow z cełego swěta wótbłyšćowała.
+data-get-started = <speechBlogLink>Prědne kšace z powědańskim spóznaśim</speechBlogLink>
+data-other-title = Druge głosowe datowe sajźby…
+data-other-goto = K { $name }
+data-other-download = Daty ześěgnuś
+data-bundle-button = Paket datowych sajźbow ześěgnuś
+data-bundle-description = Daty Common Voice plus wšykne druge głosowe datowe sajźby górjejce.
 release-version = Wersija
 dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>

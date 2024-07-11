@@ -57,6 +57,21 @@ dataset-version = Wersiýa
 
 data-download-singleword-title = Bir sözli nyşana segmenti göçürip al
 data-download-singleword-callout-v2 = Bu ulanyş ýagdaýy tarapyndan kesgitlenilýän geplenilen san belgilerini we hawa / ýok anyklamaga ýardam berýän segmentdir.
+## Data
+
+data-download-button = Common Voice maglumatyny göçürip al
+data-download-yes = Hawa
+data-download-deny = Ýok
+data-download-license = Lisenziýa: <licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size }GB</size> ölçegli maglumaty göçürip aljak bolýarsyňyz, dowam etmelimi?
+data-subtitle = Hemmeleriň sözleýiş bilen işleýän programmalary türgenleşdirmek üçin ulanyp biljek açyk we köpçülige elýeterli ses maglumat toplumyny gurýarys.
+data-explanatory-text = Uly we köpçülige açyk ses maglumat toplumlarynyň maşynlaýyn öwreniş esasly söz tehnologiýasynda innowasiýa we sagdyn täjirçilik bäsleşigini ösdürýändigine ynanýarys. Bu global tagalladyr we hemmeleri gatnaşmaga çagyrýarys. Biziň maksadymyz, sözleýiş tehnologiýasynyň has inklýuziw bolmagy we dünýäniň dürli künjeklerinden gelýän sesleriň dürlüligini görkezmegidir.
+data-get-started = <speechBlogLink>Sözleýiş tanaýyşa giriş</speechBlogLink>
+data-other-title = Başga ses maglumat toplumlary…
+data-other-goto = { $name }-a(e) git
+data-other-download = Maglumaty göçürip al
+data-bundle-button = Maglumat toplumy ýygnamasyny göçürip al
+data-bundle-description = Common Voice maglumat we ýokardaky ähli beýleki ses maglumat toplumlary.
 release-version = Wersiýa
 dataset-date = Sene
 license = Ygtyýarnama: <licenseLink>{ $license }</licenseLink>

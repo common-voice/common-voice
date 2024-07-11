@@ -68,6 +68,21 @@ dataset-metadata-age = Узрост
 
 data-download-singleword-title = Спампуйце спецыялізаваны сегмент «Адно слова»
 data-download-singleword-callout-v2 = База дадзеных для распазнавання маўленчых элементаў i вызначэння так / не.
+## Data
+
+data-download-button = Спампаваць дадзеныя Common Voice
+data-download-yes = Так
+data-download-deny = Не
+data-download-license = Ліцэнзія: <licenseLink>CC-0</licenseLink>
+data-download-modal = Вы збіраецеся спампаваць <size>{ $size } Гб</size>. Працягнуць?
+data-subtitle = Мы будуем адкрытую, агульнадаступную галасавую базу, якую кожны зможа выкарыстаць для распрацоўкі праграм з функцыяй распазнавання маўлення.
+data-explanatory-text = Мы верым, што вялікія агульнадаступныя базы галасавых дадзеных спрыяюць інавацыям і здаровай канкурэнцыі ў сферы тэхналогій маўлення. Гэта глабальная ініцыятыва, і мы запрашаем усіх удзельнічаць у ёй. Наша мэта – дапамагчы тэхналогіям маўлення стаць больш усеабдымнымі, каб у іх адлюстроўвалася разнастайнасць галасоў з усяго свету.
+data-get-started = <speechBlogLink>Пачаць працу з распазнаваннем маўлення</speechBlogLink>
+data-other-title = Іншыя наборы галасавых дадзеных…
+data-other-goto = Перайсці да { $name }
+data-other-download = Спампаваць дадзеныя
+data-bundle-button = Спампаваць пакет набораў дадзеных
+data-bundle-description = Дадзеныя Common Voice разам з усімі астатнімі наборамі галасавых дадзеных, пералічанымі вышэй.
 release-version = Версія
 dataset-date = Дата
 license = Ліцэнзія: <licenseLink>{ $license }</licenseLink>

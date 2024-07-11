@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>Si les données ouvertes et inclusives sont i
 
 data-download-singleword-title = Téléchargez le segment cible de mot unique
 data-download-singleword-callout-v2 = Il s’agit d’un segment basé sur des cas d’utilisation contenant des données pour la reconnaissance vocale des chiffres et la détection oui/non.
+## Data
+
+data-download-button = Télécharger les données Common Voice
+data-download-yes = Oui
+data-download-deny = Non
+data-download-license = Licence : <licenseLink>CC-0</licenseLink>
+data-download-modal = Vous vous apprêtez à télécharger <size>{ $size } Go</size>, voulez-vous continuer ?
+data-subtitle = Nous créons un jeu de données de voix ouvert et publiquement accessible, que tout le monde peut utiliser pour réaliser des applications utilisant la voix.
+data-explanatory-text = Nous pensons que d’importants jeux de données publiquement accessibles favorisent l’innovation et participent à la mise en place d’une concurrence saine pour les technologies vocales utilisant l’apprentissage machine. C’est un effort mondial et nous invitons tout le monde à y prendre part. Notre objectif est que les technologies vocales soient plus inclusives et qu’elles puissent refléter la diversité des voix du monde entier.
+data-get-started = <speechBlogLink>S’initier à la reconnaissance vocale</speechBlogLink>
+data-other-title = Autres jeux de données…
+data-other-goto = Voir { $name }
+data-other-download = Télécharger les données
+data-bundle-button = Télécharger un lot de jeux de données
+data-bundle-description = Données Common Voice ainsi que tous les autres jeux de données ci-dessus.
 release-version = Version
 dataset-date = Date
 license = Licence : <licenseLink>{ $license }</licenseLink>

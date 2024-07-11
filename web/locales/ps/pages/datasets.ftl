@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <بولډ>که تاسو خلاص، ټول شمول�
 
 data-download-singleword-title = د واحد ويی موخې برخه ډاونلوډ کړئ
 data-download-singleword-callout-v2 = دا د استعمال ګرځولو  په موخه یوه برخه ده چې د شمیر او هو/نه پیژندلو پیاوړولو لپاره ډېټا لري.
+## Data
+
+data-download-button = د عام غږ ډېټا ډاونلوډ کړئ
+data-download-yes = هو
+data-download-deny = نه
+data-download-license = لایسنس: <licenseLink> CC-0 </licenseLink>
+data-download-modal = تاسو د <size>{ $size } جي بي </size> ډاونلوډ په درشل کې یاست، غواړئ مخته لاړ شئ؟
+data-subtitle = موږ د غږونو آزاد او په عامه ډول شتون لرونکی ډېټاسیټ رامینځته کوو چې هرڅوک کولی شي د وینا-وړ کاریالونو روزلو لپاره ترې کار واخلي.
+data-explanatory-text = موږ باور لرو چې لوی او په عامه توګه موجود غږیز ډېټاسیټونه د ماشین زده کړې پرمټ ویناو ټیکنالوژۍ کې نوښت او سالم تجارتي سیالۍ پیاوړه کوي. دا نړیواله هڅه ده او موږ ټولو ته د ګډون لپاره بلنه ورکوو. زموږ موخه د وینا ټیکنالوژۍ سره مرسته کول دي چې لا ټول شموله وي، ترڅو د نړۍ شاوخوا غږونو راز راز والی منعکس کړي.
+data-get-started = <speechBlogLink> وینا پېژندنې باندې پیل وکړئ </ speechBlogLink>
+data-other-title = نور غږیز ډېټاسیټونه ...
+data-other-goto = { $name } ته ورشئ
+data-other-download = ډېټا ډاونلوډ کړئ
+data-bundle-button = د ډېټاسیټ بنډل ډاونلوډ کړئ
+data-bundle-description = د عام غږ ډېټا او ورسره پورتني نور ټول غږیز ډېټاسیټونه.
 release-version = نسخه
 dataset-date = نیټه
 license = لایسنس: <licenseLink>{ $license }</licenseLink>

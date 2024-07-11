@@ -51,6 +51,20 @@ dataset-metadata-age = Iyaakha
 
 data-download-singleword-title = Opaxaari mpantta woorowa wa moolumo omeekha
 data-download-singleword-callout-v2 = Ola muttharelo oowoopereriwa a murumeelo wa mwaha orina itaatu wi oxuttihe musuweliho wa mitthittelo sa milavulelo  ni muttiyeliyo wa mutthunelo/mukhottelo.
+## Data
+
+data-download-button = Mukuruuxe mihuupi sa Common Voice
+data-download-yes = Ayo
+data-download-deny = Nnaari
+data-download-license = Elisensa: <licenseLink>CC-0</licenseLink>
+data-download-modal = Nyuo munihala opacerya ompaka tonlooti wa  <size>{ $size }GB</size>, ontthuna otthikela?
+data-subtitle = Niri nitekelelaka nikhuro nimosa sa itaatu sa nsu soohuleya ni soopwanyiwa sooolaleeriwa wa atthu ootheene arumeeleke yeereryaka sooheleliwa ni ikharuma sa nsu.
+data-get-started = <speechBlogLink>Mpacerye osuwela nsu</speechBlogLink>
+data-other-title = Mixovo mikina sa mitthaka sa masu...
+data-other-goto = Oroowa wiira { $name }
+data-other-download = Opaxaari nikhuuru na mihuupi
+data-bundle-button = Mukuruuxe epakooti ya nikhuuru na mihuupi
+data-bundle-description = Itaatu sa nikhuru na Common Voice ni makhuru makinaaku a itaatu aniphwanyaneya osulu.
 release-version = Everesawu
 dataset-date = Nihiku
 license = Elisensa: <licenseLink>{ $license }</licenseLink>

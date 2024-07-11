@@ -63,6 +63,21 @@ clipboard-not-supported = ክሊፕቦር ኣይድገፍን
 
 data-download-singleword-title = ነቲ ሓደ ቓል ዕላማ ዘለዎ ክፋል ኣራግፍ
 data-download-singleword-callout-v2 = እዚ ኸኣ ነቲ ብሓይሊ ዚዝረብ ናይ ኤለክትሮኒካዊ ምልላይ ንቅኑዕን / ገጋን ሓበሬታ ዝሓዘ ኣብ ጥቕሚ ዚውዕል ጕዳይ እዩ ።
+## Data
+
+data-download-button = ኣብ "ኮመን ቮይስ" ዘሎ ሓበሬታ ኣውርድ
+data-download-yes = እወ
+data-download-deny = ኣይፋል
+data-download-license = ፍቓድ: <licenseLink>CC-0</licenseLink>
+data-download-modal = ክንድዚ <size>{ $size }GB</size> ክተዉርድ ኢኻ፡ ክትቅጽል'ዶ?
+data-subtitle = ኵሉ ሰብ ንዘረባ ዚጥቀመሉ መወከሲታት ንምስልጣን ኪጥቀመሉ ዚኽእል ክፉት ሓበሬታ ድምጺ ንሃንጽ ኣሎና።
+data-explanatory-text = ሰፊሕን ኣብ ቅድሚ ህዝቢ ተቐባልነት ዘለዎን ሓበሬታ ድምጺ ምህዞን ጥዑይ ንግዳዊ ውድድርን ከም ዜምጽእ ንኣምን ኢና። እዚ ዓለምለኻዊ ጻዕሪ ስለ ዝዀነ ኵሉ ሰብ ኣብኡ ኺሳተፍ ንዕድሞ ኢና ። ዕላማና ተክኖሎጅያዊ ዘረባ ነቲ ኻብ እተፈላለየ ዅርናዓት ዓለም ዚመጽእ እተፈላለየ ድምጺ ዜንጸባርቕ ብዝያዳ ኣብ ኵሉ ኸም ዚጠቓለል ምግባር እዩ ።
+data-get-started = <speechBlogLink>ድምጺ ንምልላይ ጀምር</speechBlogLink>
+data-other-title = ካልኦት ሓበሬታታት ድምጺ ...
+data-other-goto = ናብ { $name } ኪድ
+data-other-download = ሓበሬታ ኣውርድ
+data-bundle-button = እኩብ ሓበሬታ ኣውርድ
+data-bundle-description = ኮመን ቮይስ ሓበሬታ ከሙኡ ድማ ካልኦት ሓበሬታ ድምጽታታ ኣብ ላዕሊ።
 release-version = ሕታም
 dataset-date = ዕለት
 license = ፍቓድ: <licenseLink>{ $license }</licenseLink>

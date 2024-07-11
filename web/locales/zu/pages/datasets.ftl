@@ -58,6 +58,21 @@ dataset-version = Inguqulo
 
 data-download-singleword-title = Loda Ingxenye Yethagethi Yegama Elilodwa
 data-download-singleword-callout-v2 = Lena ingxenye yokusetshenziswa eqhutshwayo equkethe idatha ukuze inike amandla ukubonwa kwedijithi ekhulunyiwe kanye nokutholwa yebo / cha.
+## Data
+
+data-download-button = Loda Idatha yeCommon Voice
+data-download-yes = Yebo
+data-download-deny = Cha
+data-download-license = Ilayisensi: <licenseLink>CC-0<licenseLink>
+data-download-modal = Usuzoqalisa ukuloda kwe-<size>GB</size>, qhubeka?
+data-subtitle = Sakha isethi yedatha evulekile netholakala esidlangalaleni yamazwi wonke umuntu angayisebenzisela ukuqeqesha izinhlelo zokusebenza ezikwazi ukukhuluma.
+data-explanatory-text = Sikholelwa ukuthi umthombo omkhulu wamazwi aqoshiwe ukhuthaza ukusungula ukuncintshisana kwezentengiso okunempilo ekufundeni okusemishinini ngobuchwepheshe benkulumo. Lona umzamo womhlaba wonke, simema wonke umuntu ukuba athathe iqhaza. Inhloso yethu ukusiza kubuchwepheshe benkulumo ukuba buhlanganise, buzindle ukuhlukahlukana kwamazwi emhlabeni wonke jikelele.
+data-get-started = <speechBlogLink>Qalisa Ngokuqaphela Inkulumo</speechBlogLink>
+data-other-title = Amanye amadathasethi ezwi
+data-other-goto = Iya ku { $name }
+data-other-download = Downloda Idatha
+data-bundle-button = Loda  i-Dataset Bundle
+data-bundle-description = Idatha yeCommon Voice kanye nawo wonke amanye amadathasethi ezwi ngenhla.
 release-version = Inguqulo
 dataset-date = Usuku
 license = Ilayisensi: <licenseLink>{ $license }</licenseLink>

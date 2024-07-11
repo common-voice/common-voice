@@ -59,6 +59,21 @@ dataset-version = Version
 
 data-download-singleword-title = Baishatz eth segment especific damb paraules individuaus
 data-download-singleword-callout-v2 = Açò ei segmentacion de casi d'usatge que conten donades entà potenciar era reconeishença des digits e era deteccion des paraules «òc» e «non».
+## Data
+
+data-download-button = Baisha es donades deth Common Voice
+data-download-yes = Òc
+data-download-deny = Non
+data-download-license = Licéncia : <licenseLink>CC-0</licenseLink>
+data-download-modal = Ètz prèst entà iniciar ua baishada de <size>{ $size } GB</size>, voletz seguir?
+data-subtitle = Cream un conjunt de donades de votzes dubèrtes e disponibles publicaments que toti pòden utilizar entà entrenar aplicacions qu’empleguen era votz.
+data-explanatory-text = Credem qu'uns conjunts de donades grani e disponibles publicaments promoiràn era innovacion e era competéncia comerciau sana ena tecnologia dera votz basada en aprendissatge automatic. Aguest ei un esfòrç globau e convidam a toti a participar-i. Eth nòste objectiu ei hèr qu’era tecnologia dera votz sigue mès inclusiva e rebate era diuersitat de votzes de tot eth mon.
+data-get-started = <speechBlogLink>Prumèrs passi ena reconeishença dera votz</speechBlogLink>
+data-other-title = D’auti conjunts de donades de votz…
+data-other-goto = Vè’n tà { $name }
+data-other-download = Baisha es donades
+data-bundle-button = Baisha eth paquet deth conjunt de donades
+data-bundle-description = Donades deth Common Voice mès toti es conjunts de donades de votz anteriors.
 release-version = Version
 dataset-date = Data
 license = Licéncia : <licenseLink>{ $license }</licenseLink>

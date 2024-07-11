@@ -51,5 +51,20 @@ download = Descarcă
 dataset-version = Versiune
 
 data-download-singleword-title = Descarcă segmentul-țintă de cuvinte unice
+## Data
+
+data-download-button = Descarcă datele Common Voice
+data-download-yes = Da
+data-download-deny = Nu
+data-download-license = Licență: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ești pe punctul de a iniția o descărcare de <size>{ $size }GB</size>. Continui?
+data-subtitle = Construim un set de date de voci, deschis și disponibil în domeniul public, pe care îl poate folosi oricine ca să antreneze aplicații acționate vocal.
+data-explanatory-text = Considerăm că seturile mari de date vocale puse la dispoziția publicului generează inovație și o competiție comercială sănătoasă în domeniul tehnologiei vocale pe bază de învățare automată. Este un efort global și lansăm tuturor o invitație să participe. Scopul nostru este să ne aducem contribuția în a face tehnologia vocală mai inclusivă, reflectând diversitatea vocilor din lumea întreagă.
+data-get-started = <speechBlogLink>Experimentează recunoașterea vocală</speechBlogLink>
+data-other-title = Alte seturi de date vocale…
+data-other-goto = Mergi la { $name }
+data-other-download = Descarcă datele
+data-bundle-button = Descarcă pachetul cu setul de date
+data-bundle-description = Datele Common Voice plus toate celelalte seturi de date de mai sus.
 license = Licență: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixtă

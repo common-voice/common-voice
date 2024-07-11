@@ -49,6 +49,17 @@ dataset-donate-modal-heading = tos ingen?
 donate-modal-explanation-2 = <bold>ndayatasgei nambet,negigitesyi data -igoite raa!</bold>
 
 data-download-singleword-title = downloaden ngolyot agenge negibore eng segmentit
+## Data
+
+data-download-button = downloaden data nebo sautitab nenayat
+data-download-yes = ayani
+data-download-deny = achaa
+data-download-license = licensit:<licenseLink>CC-0</licenseLink>
+data-download-modal = imite imache idownloaden<size>{ $size }GB</size>,tos imache itestai?
+data-other-title = ngalalutikab sauti age
+data-other-goto = wiiy { $kainet }
+data-other-download = downloaden ngalek
+data-bundle-button = downloaden ngalek chegigiruruch
 dataset-date = tarikit
 license = licensit:licenseLink>{ $license }</licenseLink>
 license-mixed = kigiburuch

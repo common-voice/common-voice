@@ -59,6 +59,21 @@ clipboard-not-supported = ไม่รองรับคลิปบอร์ด
 
 data-download-singleword-title = ดาวน์โหลด Single Word Target Segment
 data-download-singleword-callout-v2 = ส่วนนี้เป็นข้อมูลที่ออกแบบตามกรณีการใช้งาน เป็นข้อมูลสำหรับการรู้จำตัวเลขและคำว่า ใช่ / ไม่ใช่
+## Data
+
+data-download-button = ดาวน์โหลดข้อมูล Common Voice
+data-download-yes = ใช่
+data-download-deny = ไม่
+data-download-license = สัญญาอนุญาต: <licenseLink>CC-0</licenseLink>
+data-download-modal = คุณกำลังจะดาวน์โหลดไฟล์ขนาด <size>{ $size }GB</size> คุณต้องการดำเนินการต่อหรือไม่?
+data-subtitle = เรากำลังสร้างชุดข้อมูลเสียงที่เปิดให้ใช้งานต่อสาธารณะซึ่งทุกคนสามารถใช้เพื่อฝึกฝนแอปพลิเคชันที่รองรับเสียงพูดได้
+data-explanatory-text = เราเชื่อว่าชุดข้อมูลเสียงที่มีขนาดใหญ่และเปิดเผยต่อสาธารณชนจะช่วยส่งเสริมนวัตกรรม และการแข่งขันทางการค้าที่ดีในเทคโนโลยีการเรียนรู้ด้วยเครื่องสำหรับการรู้จำเสียง นี่คือความพยายามสร้างระดับโลก และเราขอเชิญชวนให้ทุกคนเข้าร่วม เป้าหมายของเราคือการช่วยให้เทคโนโลยีการรู้จำเสียงมีความครอบคลุมมากขึ้น และสะท้อนความหลากหลายของเสียงจากทั่วโลก
+data-get-started = <speechBlogLink>เริ่มต้นใช้งานกับการรู้จำเสียง</speechBlogLink>
+data-other-title = ชุดข้อมูลเสียงอื่น ๆ...
+data-other-goto = ไปยัง { $name }
+data-other-download = ดาวน์โหลดข้อมูล
+data-bundle-button = ดาวน์โหลดแพ็คเกจชุดข้อมูล
+data-bundle-description = ข้อมูล Common Voice รวมทั้งชุดข้อมูลเสียงอื่น ๆ ด้านบน
 release-version = รุ่น
 dataset-date = วันที่
 license = สัญญาอนุญาต: <licenseLink>{ $license }</licenseLink>

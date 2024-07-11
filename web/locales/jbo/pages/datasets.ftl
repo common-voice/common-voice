@@ -1,8 +1,3 @@
-## Datasets Page
-
-data-other-ted-name = Korpus TED-LIUM
-close = Tôp
-
 ## Community Playbook Content
 ## What is a language
 
@@ -39,8 +34,6 @@ close = Tôp
 
 ## Data
 
-data-download-yes = Nyo
-data-download-deny = H‘an
-data-download-license = Lisènsi: <licenseLink>CC-0</licenseLink>
-license = Lisènsi: <licenseLink>{ $license }</licenseLink>
+data-download-yes = go'i
+data-download-deny = na go'i
 

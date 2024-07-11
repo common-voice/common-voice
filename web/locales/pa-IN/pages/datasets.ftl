@@ -30,6 +30,17 @@ close = ਬੰਦ ਕਰੋ
 download = ਡਾਊਨਲੋਡ ਕਰੋ
 dataset-version = ਵਰਜ਼ਨ
 
+## Data
+
+data-download-button = ਆਮ ਆਵਾਜ਼ ਡਾਟਾ ਡਾਊਨਲੋਡ ਕਰੋ
+data-download-yes = ਹਾਂ
+data-download-deny = ਨਹੀਂ
+data-download-license = ਲਸੰਸ: <licenseLink>CC-0</licenseLink>
+data-get-started = <speechBlogLink>ਸਪੀਚ ਪਛਾਣ ਨਾਲ ਸ਼ੁਰੂਆਤ ਕਰੋ</speechBlogLink>
+data-other-title = …ਹੋਰ ਆਵਾਜ਼ ਡਾਟਾ-ਸਮੂਹ
+data-other-goto = { $name } ‘ਤੇ ਜਾਓ
+data-other-download = ਡਾਟਾ ਡਾਊਨਲੋਡ ਕਰੋ
+data-bundle-button = ਡਾਟਾ-ਸਮੂਹ ਬੰਡਲ ਡਾਊਨਲੋਡ ਕਰੋ
 release-version = ਵਰਜ਼ਨ
 dataset-date = ਤਾਰੀਖ
 license = ਲਸੰਸ: <licenseLink>{ $license }</licenseLink>

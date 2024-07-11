@@ -65,6 +65,21 @@ clipboard-not-supported = Системният буфер не се поддър
 
 data-download-singleword-title = Изтеглете целевия сегмент от една дума
 data-download-singleword-callout-v2 = Това е сегмент, насочен към случаи на употреба, съдържащ данни, позволяващи разпознаване на изговорени цифри и долавяне на фразите „да“ и „не“.
+## Data
+
+data-download-button = Изтегляне на данните от Common Voice
+data-download-yes = Да
+data-download-deny = Не
+data-download-license = Лиценз: <licenseLink>CC-0</licenseLink>
+data-download-modal = На път сте да започнете изтеглянето на <size>{ $size } ГБ</size>, искате ли да продължите?
+data-subtitle = Изграждаме отворен и публично достъпен набор от гласови данни, които всеки може да използва, за да тренира приложения с реч.
+data-explanatory-text = Вярваме, че големите и публично достъпни гласови набори от данни насърчават иновациите и здравословната търговска конкуренция в машинно-базираната речева технология. Това е глобално усилие и ние приканваме всички да участват. Нашата цел е да помогнем на речевата технология да бъде по-обхватна, като отразява разнообразието от гласове от цял ​​свят.
+data-get-started = <speechBlogLink>Въведение в разпознаването на реч</ speechBlogLink>
+data-other-title = Други набори от гласови данни…
+data-other-goto = Към { $name }
+data-other-download = Изтегляне на данни
+data-bundle-button = Изтегляне на пакета с данни
+data-bundle-description = Данните от Common Voice заедно с всички останали набори от данни по-горе.
 release-version = Версия
 dataset-date = Дата
 license = Лиценз: <licenseLink>{ $license }</licenseLink>

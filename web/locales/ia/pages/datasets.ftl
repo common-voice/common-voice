@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>So tu apprecia le datos gratuite e inclusive 
 
 data-download-singleword-title = Discarga le segmento specific con parolas singule.
 data-download-singleword-callout-v2 = Isto es un segmento basate sur casos de empleo, que contine datos pro potentiar le recognition vocal del cifras, del si e del no.
+## Data
+
+data-download-button = Discargar datos de Common Voice
+data-download-yes = Si
+data-download-deny = No
+data-download-license = Licentia: <licenseLink>CC-0</licenseLink>
+data-download-modal = Tu es sur le puncto de initiar un discargamento de <size>{ $size }GB</size>, continuar?
+data-subtitle = Nos construe un collection de datos de voces aperte e publicamente disponibile que omnes pote usar pro maestrar applicationes ad activation vocal.
+data-explanatory-text = Nos crede que le grande e publicamente disponibile collectiones de datos vocal favori le innovation e le salubre competition commercial in le apprendimento automatic basate sur le technologia del voce. Isto es un effortio global e nos invita omnes a participar. Nostre scopo es adjutar le technologia del voce a ser plus inclusive, reflectente le diversitate del voces del mundo.
+data-get-started = <speechBlogLink>Comenciar con le Recognition de voce</speechBlogLink>
+data-other-title = Altere collectiones de datos de voce…
+data-other-goto = Ir a { $name }
+data-other-download = Discargar datos
+data-bundle-button = Discargar le pacco del collection de datos
+data-bundle-description = Le datos de Common Voice plus tote le altere collectiones de datos vocal precedente.
 release-version = Version
 dataset-date = Data
 license = Licentia: <licenseLink>{ $license }</licenseLink>

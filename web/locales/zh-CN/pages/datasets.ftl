@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>如果您也珍视开放且包容的数据，
 
 data-download-singleword-title = 下载单词目标句段
 data-download-singleword-callout-v2 = 用例驱动的句段，包含用于增强数字语音识别与“是/否”检测的数据。
+## Data
+
+data-download-button = 下载 Common Voice 数据
+data-download-yes = 是
+data-download-deny = 否
+data-download-license = 许可协议：<licenseLink>CC-0</licenseLink>
+data-download-modal = 将下载 <size>{ $size }GB</size> 的文件，要继续吗？
+data-subtitle = 我们正在构建一组开放且可公开使用的语音数据集，每个人都可以使用它来训练语音应用程序。
+data-explanatory-text = 我们相信，大型和公开的语音数据集将促进基于机器学习的语音技术的创新和健康的商业竞争。这是一项全球性的努力，我们邀请所有人参加。我们的目标是帮助语音技术更具包容性，反映世界各地声音的多样性。
+data-get-started = <speechBlogLink>开始进行语音识别</speechBlogLink>
+data-other-title = 其他语音数据集…
+data-other-goto = 前往 { $name }
+data-other-download = 下载数据
+data-bundle-button = 批量下载数据集
+data-bundle-description = Common Voice 数据加上所有其他的语音数据集。
 release-version = 版本
 dataset-date = 日期
 license = 许可协议：<licenseLink>{ $license }</licenseLink>

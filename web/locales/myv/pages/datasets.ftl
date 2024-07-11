@@ -50,6 +50,20 @@ dataset-version = Версия
 
 data-download-singleword-title = Таргинк норовамо сегментэнть «Вейке вал»
 data-download-singleword-callout-v2 = Те сегментэсь норовазь башка явозь тев лангс, эйсэнзэ улить даннойть, конат паролгавтыть цифрань ды валтнэнь «истя»/« аволь» чарькодеманть.
+## Data
+
+data-download-button = Таргамс «Common Voice» дата
+data-download-yes = Истя
+data-download-deny = Арась
+data-download-license = Лицензиясь: <licenseLink>CC-0</licenseLink>
+data-download-modal = Таргиксат <size>{ $size }GB</size>, таргамс?
+data-subtitle = Пурнатано вайгельде аштиця, весенень панжадо датапурнавкс, конась маштови нолдамс кортамо марто аппликациянь тонавтомас.
+data-get-started = <speechBlogLink>Ушодт вайгелень содамо тевсэ сокарямо</speechBlogLink>
+data-other-title = Вайгелень лия данной пурнавкст...
+data-other-goto = Молемс «{ $name }» таркас
+data-other-download = Таргамс Даннойтнень
+data-bundle-button = Таргамс данной пурнавкс керьмаз
+data-bundle-description = Common Voice даннойть вейсэ весе лия данной пурнавкс марто, конатне вере максозь.
 release-version = Версия
 dataset-date = Ие-ков-чи
 license = Лицензиясь: <licenseLink>{ $license }</licenseLink>

@@ -56,6 +56,21 @@ dataset-version = Inguqulelo
 
 data-download-singleword-title = Khuphela iCandelo legama elinye ekujoliswe kulo
 data-download-singleword-callout-v2 = Le yimeko yokusetyenziswa eqhutywa licandelo eliqulathe idatha kumandla athethiweyo ukuqondwa kwedijithi kwaye ewe / hayi akukho ubhaqo.
+## Data
+
+data-download-button = Khuphela iDatha yeCommon Voice
+data-download-yes = Ewe
+data-download-deny = Hayi
+data-download-license = Ilayisensi: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ngoku uza kuqalisa ukhuphelo lwe <size>{ $size }GB</size>, uyaqhubeka?
+data-subtitle = Sakha uluhlu lwedatha lwamazwi oluvulelekileyo nolufumaneka esidlangalaleni wonke umntu anokuthi alusebenzise ukuqeqesha usetyenziso olusebenzisa intetho.
+data-explanatory-text = Sikholelwa ukuba ii-voice dataset ezinkulu nezifumanekayo kuwonke-wonke zikhuthaza ukusungula izinto ezintsha kunye nokhuphiswano olusempilweni lwentengiso kumatshini wokufunda ngokusekwe kubuchwepheshe bentetho. Lo ngumzamo obandakanya ihlabathi jikelele kwaye simema wonke umntu ukuba athathe inxaxheba. Injongo yethu kukunceda ubuchwephetshe balemihla bentetho ibandakanye kakhulu, kwaye ibonise iyantlukwano yamazwi abantu kwihlabathi jikelele.
+data-get-started = <speechBlogLink>Qalisa nokuqonda ulwimi</speechBlogLink>
+data-other-title = Ezinye iidatasethi zelizwi...
+data-other-goto = Yiya ku { $name }
+data-other-download = Khuphela iDatha
+data-bundle-button = Khuphela i-Dataset Bundle
+data-bundle-description = Idatha yeCommon Voice kunye nazo zonke ezinye iidatha zelizwi ngaphezulu.
 release-version = Inguqulelo
 dataset-date = umhla
 license = Ilayisensi:  <licenseLink>{ $license }</licenseLink>

@@ -55,6 +55,21 @@ dataset-version = Versio
 
 data-download-singleword-title = Elŝuti la celan segmenton de unikaj vortoj
 data-download-singleword-callout-v2 = Tiu ĉi estas segmento por aparta uzo; ĝu enhavas datumojn por povi rekoni parolitajn ciferojn kaj respondojn jes/ne.
+## Data
+
+data-download-button = Elŝuti datumojn de Common Voice
+data-download-yes = Jes
+data-download-deny = Ne
+data-download-license = Permesilo: <licenseLink>CC-0</licenseLink>
+data-download-modal = Vi pretas komenci elŝuton de <size>{ $size }GO</size>, ĉu vi volas daŭrigi?
+data-subtitle = Ni konstruas malfermitan kaj publike disponeblan datumaron de vocoj, kiujn iu ajn povas uzi por trejni voĉakceptajn programojn.
+data-explanatory-text = Ni kredas ke grandaj kaj publike disponeblaj voĉaj datumaroj favoras novaĵkreemon kaj sanan komercan konkuron en voĉaj teknikologioj bazitaj sur maŝininstruado. Tiu ĉi estas tutmonda strebo, kaj ni invitas ĉiujn partopreni. Nia celo estas helpi voĉajn teknikologiojn iĝi pli inkluzivemaj, spegulante la diversecon de voĉoj el la tuta mondo.
+data-get-started = <speechBlogLink>Unuaj paŝoj en parolrekono</speechBlogLink>
+data-other-title = Aliaj voĉaj datumaroj…
+data-other-goto = Iri al { $name }
+data-other-download = Elŝuti datumojn
+data-bundle-button = Elŝuti kolekto da datumaroj
+data-bundle-description = Datumoj de Common Voice kaj ĉiuj aliaj supraj voĉaj datumaroj.
 release-version = Versio
 dataset-date = Date
 license = Permesilo: <licenseLink>{ $license }</licenseLink>

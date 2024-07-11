@@ -59,6 +59,21 @@ dataset-donate-modal-heading = ご存知ですか？
 
 data-download-singleword-title = 一語対象セグメントのダウンロード
 data-download-singleword-callout-v2 = これは、数字の音声認識と「はい・いいえ」の識別を開発するためのデータを含む、ユースケースに特化したセグメントです。
+## Data
+
+data-download-button = Common Voice データのダウンロード
+data-download-yes = はい
+data-download-deny = いいえ
+data-download-license = ライセンス：<licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size }GB</size> のダウンロードを開始しますか？
+data-subtitle = 誰もが、音声に対応したアプリケーションの開発に利用できる、公開された音声データセットを構築しています。
+data-explanatory-text = 公開された大量の音声データによって、音声を使った機械学習の分野でイノベーションや、健全な商業競争を促進できると信じています。この世界的な取り組みに、皆さんに参加してもらいたいと思っています。私達の目標は、世界中のより多くの言語や、方言を音声技術と共に利用できるようすることです。
+data-get-started = <speechBlogLink>音声認識をはじめる</speechBlogLink>
+data-other-title = その他の音声データセット...
+data-other-goto = { $name } へ行く
+data-other-download = データのダウンロード
+data-bundle-button = データセットをまとめてダウンロード
+data-bundle-description = Common Voice のデータと、上記のその他のデータセットをすべて含みます。
 release-version = バージョン
 dataset-date = 日付
 license = ライセンス：<licenseLink>{ $license }</licenseLink>

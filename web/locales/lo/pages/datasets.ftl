@@ -68,6 +68,21 @@ dataset-metadata-age = ອາຍຸ
 
 data-download-singleword-title = ດາວໂຫຼດພາກສ່ວນເປົ້າໝາຍຄຳດຽວ
 data-download-singleword-callout-v2 = ນີ້ແມ່ນພາກສ່ວນທີ່ໃຊ້ໃນກໍລະນີຂັບເຄື່ອນທີ່ປະກອບດ້ວຍຂໍ້ມູນເພື່ອພະລັງງານການຮັບຮູ້ຕົວເລກທີ່ເວົ້າ ແລະການກວດຫາແມ່ນ/ບໍ່.
+## Data
+
+data-download-button = ດາວໂຫລດຂໍ້ມູນ Common Voice
+data-download-yes = ແມ່ນ
+data-download-deny = ບໍ່
+data-download-license = ໃບອະນຸຍາດ: <licenseLink>CC-0</licenseLink>
+data-download-modal = ທ່ານກຳລັງຈະເລີ່ມການດາວໂຫຼດ <size>{ $size }GB</size>, ດຳເນີນການຕໍ່ໄປບໍ?
+data-subtitle = ພວກເຮົາກຳລັງສ້າງຊຸດຂໍ້ມູນສຽງທີ່ເປີດເຜີຍ ແລະເປີດເຜີຍຕໍ່ສາທາລະນະຊົນທີ່ທຸກຄົນສາມາດໃຊ້ເພື່ອຝຶກແອບການປາກເວົ້າ.
+data-explanatory-text = ພວກເຮົາເຊື່ອວ່າຊຸດຂໍ້ມູນສຽງທີ່ມີຂະໜາດໃຫຍ່ ແລະ ມີໃຫ້ສາທາລະນະໄດ້ສົ່ງເສີມນະວັດຕະກໍາ ແລະ ການແຂ່ງຂັນທາງການຄ້າທີ່ມີສຸຂະພາບດີໃນເທັກໂນໂລຢີການເວົ້າທີ່ອີງໃສ່ການຮຽນຮູ້ເຄື່ອງຈັກ. ນີ້ແມ່ນຄວາມພະຍາຍາມທົ່ວໂລກ ແລະພວກເຮົາເຊີນທຸກຄົນເຂົ້າຮ່ວມ. ເປົ້າໝາຍຂອງພວກເຮົາແມ່ນເພື່ອຊ່ວຍໃຫ້ເທັກໂນໂລຍີການປາກເວົ້າມີຄວາມລວມກັນຫຼາຍຂຶ້ນ, ສະທ້ອນເຖິງຄວາມຫຼາກຫຼາຍຂອງສຽງຈາກທົ່ວໂລກ.
+data-get-started = <speechBlogLink>ເລີ່ມຕົ້ນດ້ວຍການຮັບຮູ້ສຽງເວົ້າ</speechBlogLink>
+data-other-title = ຊຸດຂໍ້ມູນສຽງອື່ນໆ...
+data-other-goto = ໄປທີ່ { $name }
+data-other-download = ດາວໂຫລດຂໍ້ມູນ
+data-bundle-button = ດາວໂຫລດຊຸດຊຸດຂໍ້ມູນ
+data-bundle-description = ຂໍ້ມູນສຽງທົ່ວໄປບວກກັບຊຸດຂໍ້ມູນສຽງອື່ນໆທັງໝົດຂ້າງເທິງ.
 release-version = ລູ້ນ​
 dataset-date = ວັນທີ
 license = ໃບອະນຸຍາດ: <licenseLink>{ $license }</licenseLink>

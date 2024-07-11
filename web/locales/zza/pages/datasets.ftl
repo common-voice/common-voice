@@ -51,6 +51,19 @@ dataset-metadata-age = Serrî
 dataset-donate-modal-heading = To zana...?
 
 data-download-singleword-title = Beşê Hedefî yê Yewçekuyan bîyare war
+## Data
+
+data-download-button = Dayeyanê Common Voice Bîyare War
+data-download-yes = Heya
+data-download-deny = Ney
+data-download-license = Lîsans: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ti hawo <size>{ $size }GBan</size> anî/a war. Dewam?
+data-get-started = <speechBlogLink>Dest bi Naskerdişê Qiseykerdişî bike</speechBlogLink>
+data-other-title = Komdayeyê vengî yê bînî…
+data-other-goto = Şo { $name }
+data-other-download = Dayeyan Bîyare War
+data-bundle-button = Pakêta Komdayeyan Bîyare War
+data-bundle-description = Dayeyê Common Voice zêdek pêro komdayeyê vengî yê corênî.
 release-version = Versîyon
 dataset-date = Tarîx
 license = Lîsans: <licenseLink>{ $license }</licenseLink>

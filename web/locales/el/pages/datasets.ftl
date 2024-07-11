@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>Εάν εκτιμάτε τα ανοικτά, 
 
 data-download-singleword-title = Λήψη τμήματος μεμονωμένης λέξης
 data-download-singleword-callout-v2 = Αυτό το τμήμα ορίζεται ανάλογα με τη χρήση και περιέχει δεδομένα για την υποστήριξη αναγνώρισης ψηφίων και την ανίχνευση «ναι»/«όχι».
+## Data
+
+data-download-button = Λήψη των δεδομένων Common Voice
+data-download-yes = Ναι
+data-download-deny = Όχι
+data-download-license = Άδεια: <licenseLink>CC-0</licenseLink>
+data-download-modal = Πρόκειται να αρχίσει η λήψη <size>{ $size }GB</size>, θέλετε να συνεχίσετε;
+data-subtitle = Δημιουργούμε ένα ανοιχτό και δημόσια διαθέσιμο σύνολο φωνητικών δεδομένων για όλους όσους εκπαιδεύουν εφαρμογές με χρήση φωνητικής τεχνολογίας.
+data-explanatory-text = Πιστεύουμε ότι οι μεγάλες και δημόσιες βάσεις φωνητικών δεδομένων προάγουν την καινοτομία και τον υγιή εμπορικό ανταγωνισμό στην φωνητική τεχνολογία που βασίζεται σε μηχανική μάθηση. Πρόκειται για μια παγκόσμια προσπάθεια και προσκαλούμε τον καθένα να συμμετάσχει. Στόχος μας είναι να αρθούν οι περιορισμοί της φωνητικής τεχνολογίας, αντανακλώντας την ποικιλία των φωνών από όλο τον κόσμο.
+data-get-started = <speechBlogLink>Ξεκινήστε με την αναγνώριση ομιλίας</speechBlogLink>
+data-other-title = Άλλα σύνολα δεδομένων φωνής…
+data-other-goto = Μετάβαση στο { $name }
+data-other-download = Λήψη δεδομένων
+data-bundle-button = Λήψη ολόκληρου του συνόλου δεδομένων
+data-bundle-description = Τα δεδομένα του Common Voice, καθώς και όλα τα άλλα σύνολα φωνητικών δεδομένων που περιγράφονται πιο πάνω.
 release-version = Έκδοση
 dataset-date = Ημερομηνία
 license = Άδεια: <licenseLink>{ $license }</licenseLink>

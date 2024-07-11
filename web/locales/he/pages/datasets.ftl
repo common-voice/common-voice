@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>אם מידע פתוח ואינקלוסיבי
 
 data-download-singleword-title = הורידו את פלח היעד - מילים בודדות
 data-download-singleword-callout-v2 = זהו פלח מכוון לתרחיש שימוש, המכיל נתונים לטובת זיהוי ספרות בדיבור וזיהוי כן / לא.
+## Data
+
+data-download-button = הורדת נתוני Common Voice
+data-download-yes = כן
+data-download-deny = לא
+data-download-license = רישיון: <licenseLink>CC-0</licenseLink>
+data-download-modal = הורדה של <size>{ $size }GB</size> עומדת להתחיל, להמשיך?
+data-subtitle = אנו בונים מערך נתונים פתוח ופומבי של קולות, שכולם יכולים להשתמש בו כדי לאמן יישומים המופעלים בדיבור.
+data-explanatory-text = אנו מאמינים שמערכי נתונים קוליים גדולים הזמינים באופן פומבי מטפחים חדשנות ותחרות מסחרית בריאה בתחום טכנולוגיית זיהוי הקול על בסיס לימוד מכונה. מדובר במאמץ גלובלי ואנו מזמינים את כולם להצטרף. מטרתנו היא לעזור בהפיכתן של טכנולוגיות זיהוי למכילות יותר, ושישקפו מגוון רחב של קולות מכל רחבי העולם.
+data-get-started = <speechBlogLink>איך מתחילים עם זיהוי דיבור</speechBlogLink>
+data-other-title = מערכי נתוני קול נוספים…
+data-other-goto = מעבר אל { $name }
+data-other-download = הורדת נתונים
+data-bundle-button = הורדת מאגד מערכי נתונים
+data-bundle-description = הנתונים של Common Voice יחד עם כל מערכי הנתונים האחרות שלעיל.
 release-version = גרסה
 dataset-date = תאריך
 license = רישיון: <licenseLink>{ $license }</licenseLink>

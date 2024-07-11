@@ -34,6 +34,14 @@ dataset-metadata-age = Жас
 donate-modal-message = Мағлыўматлар базаңыз жүкленбекте!
 dataset-donate-modal-heading = Билесиз бе...
 
+## Data
+
+data-download-button = Common Voice мағлыўматларын жүклеп алыў
+data-download-yes = Аўа
+data-download-deny = Яқ
+data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
+data-other-title = Басқа даўыслы мағлыўматлар топламы...
+data-other-download = Мағлыўматларды жүклеп алыў
 release-version = Версия
 dataset-date = Сәне
 license = Лицензия: <licenseLink>{ $license }</licenseLink>

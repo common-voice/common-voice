@@ -74,6 +74,21 @@ donate-modal-explanation-2 = <bold>Ef þú metur opin, inngild gögn – gefðu 
 
 data-download-singleword-title = Sækja 'Eins orðs markhluta' (Single Word Target Segment)
 data-download-singleword-callout-v2 = Þetta er notkunartilvikadrifinn hluti sem inniheldur gögn til að knýja greiningu talaðra tölustafa og já/nei greiningu.
+## Data
+
+data-download-button = Sækja gögn úr Samrómi
+data-download-yes = Já
+data-download-deny = Nei
+data-download-license = Notkunarleyfi: <licenseLink>CC-0</licenseLink>
+data-download-modal = Þú ert í þann mund að fara að sækja <size>{ $size }GB</size>, viltu halda áfram?
+data-subtitle = Við erum að þróa opið gagnasafn fyrir almenning úr raddgögnum sem allir geta notað til að þjálfa raddstýrð forrit.
+data-explanatory-text = Við trúum að stór raddgagnasöfn sem eru aðgengileg almenningi hvetji til nýsköpunar og heilbrigðrar samkeppni í raddbúnaði sem byggir á vélagreind. Þetta er alþjóðlegt átak og öllum er boðið að taka þátt. Okkar markmið er að stuðla að alhliða raddtækni, sem endurspeglar fjölbreytileika raddsýnanna sem eru fengin alls staðar úr heiminum.
+data-get-started = <speechBlogLink>Byrjaðu að raddgreina</speechBlogLink>
+data-other-title = Önnur raddgagnasöfn...
+data-other-goto = Fara í { $name }
+data-other-download = Sækja gögn
+data-bundle-button = Sækja gagnasafnapakka
+data-bundle-description = Gögn Samróms ásamt öllum öðrum raddgagnasöfnum hér að ofan.
 release-version = Útgáfa
 dataset-date = Dagsetning
 license = Notkunarleyfi: <licenseLink>{ $license }</licenseLink>

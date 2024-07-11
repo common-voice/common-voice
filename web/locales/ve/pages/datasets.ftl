@@ -58,6 +58,21 @@ dataset-version = Vershini
 
 data-download-singleword-title = Downḽodani Thagete ya Tshipiḓa tsha Ipfi Ḽithihi
 data-download-singleword-callout-v2 = Hetshi ndi tshipiḓa tshi langiwaho nga kushumisele tshi re na data ine ya mannḓafhadza digit recognition na ine ya ḓivha ee / hai.
+## Data
+
+data-download-button = Downḽodani Data ya Common Voice
+data-download-yes = Ee
+data-download-deny = Hai
+data-download-license = Ḽaisentsi: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ni khou thoma u downḽoda <size>{ $size }GB</size>, naa ni ṱoḓa u isa phanḓa?
+data-subtitle = Ri khou ita dataset i ne ya ḓo shumiswa nga nnyi na nnyi nga muṅwe na muṅwe ya maipfi ane vhathu vhoṱhe vha nga kona u a shumisa u gudisa dzi application dzine dza kona u u amba.
+data-explanatory-text = Ri tenda uri tshitshavha tshihulu tshi re hone tshi ḓo vhuyelwa nga dataset ya maipfi zwa ita uri hu thomiwe zwithu zwiswa nahone ha vha na miṱaṱisano yavhuḓi kha zwa vhurengisi zwi tshimbidzanaho na thekhinolodzi ya u amba ya machine-learning. Zwenezwi ndi mutingati wa shango ḽoṱhe nga vhuphara nahone ri khou ramba muṅwe na muṅwe uri a shele mulenzhe. Tshipikwa tshashu ndi uri zwishumiswa zwa u amba zwa thekhinolodzhi zwi katele vhunzhi ha vhathu, hu pfale maipfi o fhambananaho u mona na shango ḽoṱhe.
+data-get-started = <speechBlogLink>Thomani na Speech Recognition</speechBlogLink>
+data-other-title = Dataset dza maṅwe maipfi....
+data-other-goto = Iyani kha { $name }
+data-other-download = Downḽodani Data
+data-bundle-button = Downḽodani Dataset nnzhi-nnzhi
+data-bundle-description = Common Voice data na dziṅwe dzi dataset dza maipfi dzi re afho nṱha.
 release-version = Vershini
 dataset-date = Datumu
 license = Ḽaisentsi: <licenseLink>{ $license }</licenseLink>: <licenseLink>{ $license }</licenseLink>

@@ -52,6 +52,21 @@ dataset-version = Версия
 
 data-download-singleword-title = «Бер һүҙ» маҡсатлы сегментты тейәгеҙ
 data-download-singleword-callout-v2 = Был сегмент аныҡ осраҡтарға төбәлгән, йәғни һандар һәм эйе/юҡ яуаптарына
+## Data
+
+data-download-button = Common Voice-тан мәғлүмәттәрҙе сығарып алыу
+data-download-yes = Эйе
+data-download-deny = Юҡ
+data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
+data-download-modal = Һеҙ <size>{ $size }GB</size> тейәргә тораһығыҙ, дауам итәбеҙме?
+data-subtitle = Асыҡ һәм һәр кем ҡуллана алырлыҡ  тауыштар йыйынтығы булдырабыҙ, уны һәр кем  телмәр менән эш иткән программаларҙы "уҡытыуҙа"   ҡуллана ала.
+data-explanatory-text = Ҙур, иркен ҡулланылған тауыштар йыйынтығы машиналарҙы өйрәтеүгә нигеҙләнгән телмәр технологиялары өлкәһендәге инновацияға һәм дөрөҫ сауҙа конкуренцияһына булышлыҡ итә, тип иҫәпләйбеҙ.  Был иҫ киткес әһәмиәткә эйә эш, бөтә кешеләрҙе лә ҡатнашырға саҡырабыҙ.  Маҡсатыбыҙ - ер шарындағы телдәр төрлөлөгөн сағылдырып, телмәр технологияларын ҡулланыу хоҡуғын берҙәй тигеҙ булырға ярҙам итергә.
+data-get-started = <speechBlogLink>Телмәр таныуҙы башларға</speechBlogLink>
+data-other-title = Башҡа тауыш йыйылмалары...
+data-other-goto = { $name }-ға күсергә
+data-other-download = Мәғлүмәттәрҙе алырға
+data-bundle-button = Йыйынтыҡты йөкләргә
+data-bundle-description = Common Voice йыйынтыҡтары плюс бөтә яҙҙырылған йыйынтыҡтар аҫта.
 release-version = Версия
 dataset-date = Дата
 license = Лицензия: <licenseLink>{ $license }</licenseLink>

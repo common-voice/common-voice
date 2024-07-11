@@ -69,6 +69,21 @@ dataset-donate-modal-heading = Visste du at…
 
 data-download-singleword-title = Last ned målsegmentet for eitt ord
 data-download-singleword-callout-v2 = Dette er eit brukstilfelle-drive segment som inneheld data for å styrkje attkjenning av talte siffer og ja/nei-attkjenning.
+## Data
+
+data-download-button = Last ned Common Voice Data
+data-download-yes = Ja
+data-download-deny = Nei
+data-download-license = Lisens: <licenseLink>CC-0</licenseLink>
+data-download-modal = Du er i ferd med å starte ei nedlasting av <size>{ $size }GB</size>. Vil du fortsetje?
+data-subtitle = Vi byggjer opp eit ope og offentleg tilgjengeleg datasett av stemmer som alle kan bruke for å trene stemmeaktiverande program.
+data-explanatory-text = Vi trur at store og ålment tilgjengelege stemmedatasett fremjar innovasjon og helsesam kommersiell konkurranse mellom språkteknologi basert på maskininlæring. Dette er ein global innsats og vi inviterer alle til å delta. Målet vårt er å gjere språkteknologien meir inkluderande slik at han reflekterer mangfaldet av stemmer frå heila verda.
+data-get-started = <speechBlogLink>Kom i gang med talegjenkjenning</speechBlogLink>
+data-other-title = Andre stemmedatasett…
+data-other-goto = Gå til { $name }
+data-other-download = Last ned data
+data-bundle-button = Last ned datasettpakken
+data-bundle-description = Data frå Common Voice pluss alle andre stemmedatasett ovanfor.
 release-version = Versjon
 dataset-date = Dato
 license = Lisens: <licenseLink>{ $license }</licenseLink>

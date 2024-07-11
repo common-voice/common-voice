@@ -50,5 +50,23 @@ close = Иарктәуп
 download = Иҭагалатәуп
 dataset-version = Аверсиа
 
+## Error pages
+
+
+## Data
+
+data-download-button = Common Voice адырра ҭагалатәуп
+data-download-yes = Ааи
+data-download-deny = Мап
+data-download-license = Алицензиа: <licenseLink>CC-0</licenseLink>
+data-download-modal = Уара <size>{ $size }ГБ</size> ҭаугалар уҭахума, иацҵатәума?
+data-subtitle = Ажәаҳәа еилыркаага апрограммақәа рзы ҳара иаԥаҳҵоит иаарту, зегьы рхы иадырхәаша абжьытә дыррақәа реизга.
+data-explanatory-text = Ҳара агәра ҳгоит, инарҭбааны ахархәара зылшо абжьы дыргагақәа реизгақәа, абжьы дырга машьына-рҵагатә технологиақәа рыбжьара иманшәалоу алагаламҭақәеи акоммерциатә еицлабреи рырҿиара иацхраауеит ҳәа. Ари иглобальтәу ԥшьгамҭоуп. Ҳара уааҳаԥхьоит зегьы ухы алашәырхәырц. Ҳара ҳхықәкы адунеи зегьы аҟны иҟоу абжьы хкқәа еилзыргаша абжьыдыргатә технологиақәа ганрацәала рырҿиара ацхраароуп.
+data-get-started = <speechBlogLink>ажәаҳәа аилкааразы аусура алагара</speechBlogLink>
+data-other-title = Даҽа бжьытә дыррақәак-реизга...
+data-other-goto = { $name } ииастәуп
+data-other-download = Адыррақәа ҭагалатәуп
+data-bundle-button = Адырра аизга ҭагалатәуп
+data-bundle-description = Common Voice иамоу адыррақәа ирыцу абыжьқәа реизгақәа зегьы ҵаҟа иарбоуп.
 license = Алицензиа <licenseLink>{ $license }</licenseLink>
 license-mixed = Еилаԥсоуп

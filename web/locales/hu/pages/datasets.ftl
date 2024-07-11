@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>Ha értékeli a nyílt, inkluzív adatokat �
 
 data-download-singleword-title = Töltse le az egyszavas célszegmenst
 data-download-singleword-callout-v2 = Ez egy konkrét felhasználási esetet célzó szegmens, amely a szóbeli igen / nem felismerést lehetővé tévő adatokat tartalmaz.
+## Data
+
+data-download-button = Common Voice adatok letöltése
+data-download-yes = Igen
+data-download-deny = Nem
+data-download-license = Licenc: <licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size } GB</size> adat letöltését kezdeményezi, folytatja?
+data-subtitle = Egy nyílt és nyilvánosan hozzáférhető hangadatkészletet építünk, amit bárki szabadon használhat arra, hogy betanítsa beszéd-kompatibilis alkalmazását.
+data-explanatory-text = Hiszünk abban, hogy egy nagy és nyilvánosan elérhető hangadatkészlet elősegíti az innovációt és az egészséges szabad versenyt a gépi-tanuláson alapuló technológiák területén. Ez egy globális erőfeszítés, mindenkit bátorítunk a részvételre. Célunk, hogy segítsük a beszédtechnológia minél teljeskörűbb legyen, ami tükrözi a hangok változatosságát a világ minden tájáról.
+data-get-started = <speechBlogLink>Vágjon bele a Beszédfelismerésbe</speechBlogLink>
+data-other-title = További hangadatkészletek…
+data-other-goto = Ugrás ide: { $name }
+data-other-download = Adatok letöltése
+data-bundle-button = Adatkészletcsomag letöltése
+data-bundle-description = Common Voice adatok plusz az összes fenti adatkészlet.
 release-version = Verzió
 dataset-date = Dátum
 license = Licenc: <licenseLink>{ $license }</licenseLink>

@@ -35,6 +35,20 @@ download = ဒေါင်းလုပ်
 dataset-version = ဗားရှင်း
 
 data-download-singleword-title = တစ်ခုတည်းသော စကားလုံး ပစ်မှတ် အပိုင်း ကို Download လုပ်ပါ။
+## Data
+
+data-download-button = Common Voice ၏ အချက်အလက် ဒေါင်းလုပ် လုပ်ရန်
+data-download-yes = ဟုတ်
+data-download-deny = မဟုတ်
+data-download-license = လိုင်စင်: <licenseLink>CC-0</licenseLink>
+data-download-modal = သင်သည် <size> { $size } GB </size> ကို download ဆွဲယူတော့မည်လား။
+data-subtitle = ကျွန်ုပ်တို့သည် စကားပြောစွမ်းရည်ရှိသော application များကို လေ့ကျင့်ရန် လူတိုင်းသုံးနိုင်သည့် ပွင့်လင်းပြီး လူသိရှင်ကြား ရရှိနိုင်သော အသံဒေတာအစုများ ကိုတည်ဆောက်နေသည်။
+data-get-started = <speechBlogLink> မိန့်ခွန်းအသိအမှတ်ပြုခြင်းနှင့်စတင်ပါ။ </speechBlogLink>
+data-other-title = အခြားသော အသံအချက်အလက်အစု…
+data-other-goto = { $name } သို့သွား
+data-other-download = ဒေါင်းလုပ် အချက်အလက်
+data-bundle-button = Dataset အစုအဝေးကို download လုပ်ပါ။
+data-bundle-description = Common Voiceဒေတာ အပြင် အခြားအသံဒေတာအစုများ အားလုံး။
 release-version = ဗားရှင်း
 dataset-date = အချက်အလက်
 license = လိုင်စင်:<licenseLink>{ $license }</licenseLink>

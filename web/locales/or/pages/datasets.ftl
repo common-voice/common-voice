@@ -57,6 +57,21 @@ dataset-version = ଭର୍ସନ
 clipboard-not-supported = କ୍ଲିପ୍ ବୋର୍ଡ ସମର୍ଥିତ ନୁହେଁ
 
 data-download-singleword-title = ଏକକ ଶବ୍ଦ ଲକ୍ଷ୍ୟ ବିଭାଗ ଡାଉନଲୋଡ୍ କରନ୍ତୁ
+## Data
+
+data-download-button = Common Voice ତଥ୍ୟ ଡାଉନଲୋଡ କରନ୍ତୁ
+data-download-yes = ହଁ
+data-download-deny = ନାଁ
+data-download-license = ଲାଇସେନ୍ସ: <licenseLink>CC-0</licenseLink>
+data-download-modal = ଆପଣ <size>{ $size } GB </size> ଆକାରର ଏକ ଡାଉନଲୋଡ଼ କରିବାକୁ ଯାଉଛନ୍ତି, ଆଗେଇବେ?
+data-subtitle = ଆମେ ଗୋଟିଏ ଖୋଲା ଏବଂ ସାର୍ବଜନିକ ତଥ୍ୟଭଣ୍ଡାର ତିଆରି କରୁଛୁ ଯାହା ଯେକୌଣସି ବ୍ୟକ୍ତିଙ୍କରଦ୍ୱାରା କୌଣସି ଭାଷଣ ସକ୍ଷମ ଅପ୍ପଲିକେସନକୁ ପ୍ରଶିକ୍ଷଣ ଦେବାରେ ବ୍ୟବହୃତ ହୋଇପାରିବ ।
+data-explanatory-text = ମେସିନ ଲର୍ଣ୍ଣିଂ ଆଧାରିତ ସ୍ପିଚ ଟେକ୍ନୋଲୋଜି ବଡ଼ ଏବଂ ସାର୍ବଜନିକ ତଥ୍ୟାବଳୀ ଉଦ୍ଭାବନ ଏବଂ ସ୍ଵସ୍ଥ ବ୍ୟାବସାୟିକ ପ୍ରତିଯୋଗିତାକୁ ଉତ୍ସାହିତ କରିଥାଏ ବୋଲି ଆମର ବିଶ୍ୱାସ । ଏହା ଏକ ବିଶ୍ୱସ୍ତରୀୟ ଉଦ୍ୟମ ଏବଂ ଆମେ ସମସ୍ତଙ୍କୁ ଏଥିରେ ଭାଗ ନେବାକୁ ଆହ୍ୱାନ କରୁଛୁ । ଆମର ଉଦ୍ଦେଶ୍ୟ ସାରାବିଶ୍ୱର ବିବିଧ ଭାଷାକୁ ସୂଚାଇ ଏକ ସ୍ପିଚ ଟେକ୍ନୋଲୋଜିକୁ ଅଧିକ ସାହାଯ୍ୟ କରିବା ।
+data-get-started = <speechBlogLink>ସ୍ପିଚ ରେକଗନୀସନ ଆରମ୍ଭ କରନ୍ତୁ</speechBlogLink>
+data-other-title = ଅନ୍ୟାନ୍ୟ ଭଏସ ତଥ୍ୟଭଣ୍ଡାର
+data-other-goto = { $name }କୁ ଯାଆନ୍ତୁ
+data-other-download = ଡାଟା ଡାଉନଲୋଡ଼ କରନ୍ତୁ
+data-bundle-button = ଡାଟାସେଟସମୂହ ଡାଉନଲୋଡ଼ କରନ୍ତୁ
+data-bundle-description = ଉପରେ Common Voice ତଥ୍ୟ ସହିତ ଅନ୍ୟ ସବୁ ତଥ୍ୟଭଣ୍ଡାର ଅଛି ।
 release-version = ସଂସ୍କରଣ
 dataset-date = ତାରିଖ
 license = ଲାଇସେନ୍ସ: <licenseLink>{ $license }</licenseLink>

@@ -49,5 +49,20 @@ download = Download
 dataset-version = Enkola
 
 data-download-singleword-title = Wanula Single Word Target Segment
+## Data
+
+data-download-button = Download Common Voice Data
+data-download-yes = Ye
+data-download-deny = Nedda
+data-download-license = Layisensi: <licenseLink>CC-0</licenseLink>
+data-download-modal = Oli kumpi kutandika download eya <size>{ $size }GB</size>, weeyongereyo?
+data-subtitle = Tuzimba dataset ey'obwereere era nga yalukale nga y'amaloboozi buli muntu gy'asobola okukozesa okuyigiriza tekinologiya w'okwogera.
+data-explanatory-text = Tukkiriza nti dataset enene ate nga za lukale az'amaloboozi zireeta okuyiiya n'okuvuganya okulungi okw'ebyensimbi mu tekinologiya w'okwogera. Kuno kulafuubana kwa nsi yonna era tuyita buli omu okwenyigiramu. Ekigendererwa kyaffe kuyamba tekinologiya w'okwogera okukikirira n'okulaga  enjawulo eriwo mu maloboozi mu nsi yonna.
+data-get-started = <speechBlogLink>Tandika N'okutegera Amaloboozi</speechBlogLink>
+data-other-title = Dataset z'amaloboozi endala...
+data-other-goto = Genda mu { $name }
+data-other-download = Wanula Data
+data-bundle-button = Wanula Ekisaaganda kya Dataset
+data-bundle-description = Data wa Common Voice gattako dataset y'amaloboozi amalala waggulu.
 license = Layisinsi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Ntabule

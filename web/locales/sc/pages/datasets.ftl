@@ -69,6 +69,21 @@ donate-modal-message = Iscarrighende su pachete de datos.
 
 data-download-singleword-title = Iscàrriga su segmentu ispetzìficu cun is faeddos individuales
 data-download-singleword-callout-v2 = Custu est unu segmentu basadu subra de unu casu de impitu ispetzìficu chi cuntenet datos pro alimentare su reconnoschimentu vocale de is tzifras e su rilevamentu de eja/nono.
+## Data
+
+data-download-button = Iscàrriga datos de Common Voice
+data-download-yes = Emmo
+data-download-deny = Nono
+data-download-license = Lissèntzia: <licenseLink>CC-0</licenseLink>
+data-download-modal = As a iscarrigare <size>{ $size }GB</size>, boles sighire?
+data-subtitle = Semus costruende unu pachete de boghes abertu e de atzessu pùblicu in manera chi cale si siat persone potzat allenare aplicatziones cun suportu de boghe.
+data-explanatory-text = Creimus chi pachetes de datos mannos e a disponimentu de totus promovant s'innovatzione e una cumpetitzione cummertziale sana in sa tecnologia vocale basada in s'imparu de is màchinas. Custu est un'isfortzu globale e invitamus totus a ci pigare parte. Sa punna nostra est sa de agiudare is tecnologias vocales a èssere prus inclusivas, rifletende sa diversidade de is boghes de totu su mundu.
+data-get-started = <speechBlogLink>Cumintza a traballare cun su reconnoschimentu de boghe</speechBlogLink>
+data-other-title = Àteros pachetes de boghes...
+data-other-goto = Bae a { $name }
+data-other-download = Iscàrriga datos
+data-bundle-button = Iscàrriga pachete de datos
+data-bundle-description = Datos de Common Voice impares cun totu is pachetes de boghes de a suba.
 release-version = Versione
 dataset-date = Data
 license = Lissèntzia: <licenseLink>{ $license }</licenseLink>

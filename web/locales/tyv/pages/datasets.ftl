@@ -16,3 +16,11 @@ download = Кииртир
 sha256-checksum-copied-error = SHA256 хыналда түңнү хоолгалаары болдунмаан.
 
 data-download-singleword-title = "Чаңгыс сөс" деп сорулга сегментизин кииртир
+## Error pages
+
+
+## Data
+
+data-download-button = Common Voice медээлерин кииртир
+data-other-goto = Бээр { $name } шилчий бээр
+data-bundle-button = Кииртир { $language }

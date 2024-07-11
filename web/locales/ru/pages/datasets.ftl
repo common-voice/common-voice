@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>Если вы цените открытые, 
 
 data-download-singleword-title = Загрузите целевой сегмент «Одно слово»
 data-download-singleword-callout-v2 = Этот сегмент нацелен на определённые случаи использования, содержит данные для улучшения распознавания цифр и «да»/«нет».
+## Data
+
+data-download-button = Загрузить данные Common Voice
+data-download-yes = Да
+data-download-deny = Нет
+data-download-license = Лицензия: <licenseLink>CC-0</licenseLink>
+data-download-modal = Вы собираетесь совершить загрузку <size>{ $size } ГБ</size>, продолжить?
+data-subtitle = Мы создаём открытый и общедоступный набор голосовых данных, чтобы любой человек мог использовать его для обучения программ с распознаванием речи.
+data-explanatory-text = Мы верим, что большой общедоступный набор голосовых данных стимулирует инновации и нормальную коммерческую конкуренцию в машинно-обучаемой технологии распознавания голоса. Это глобальная инициатива, и мы приглашаем всех принять участие. Наша цель - помочь голосовым технологиям быть более всесторонними и распознавать разнообразные голоса со всего мира.
+data-get-started = <speechBlogLink>Начать работу с распознаванием речи</speechBlogLink>
+data-other-title = Другие голосовые наборы данных...
+data-other-goto = Перейти на { $name }
+data-other-download = Загрузить данные
+data-bundle-button = Загрузить пакет наборов данных
+data-bundle-description = Данные Common Voice плюс данные всех голосовых наборов данных ниже.
 release-version = Версия
 dataset-date = Дата
 license = Лицензия: <licenseLink>{ $license }</licenseLink>

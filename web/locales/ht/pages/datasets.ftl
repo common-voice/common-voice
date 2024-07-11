@@ -65,6 +65,21 @@ clipboard-not-supported = Clipboard pa sipòte
 
 data-download-singleword-title = Telechaje segman sib sèl mo a
 data-download-singleword-callout-v2 = Sa a se yon segman kondwi ka itilize ki gen done pou pouvwa rekonesans chif pale ak deteksyon wi / non.
+## Data
+
+data-download-button = Telechaje done vwa komen
+data-download-yes = Wi
+data-download-deny = Non
+data-download-license = Lisans: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ou pare pou kòmanse yon telechajman de <b>{ $size }</b>
+data-subtitle = Nou ap konstwi yon seri done vwa ouvè epi ki disponib piblikman ke tout moun ka itilize pou antrene aplikasyon pou lapawòl.
+data-explanatory-text = Nou kwè ke gwo done vwa ki disponib piblikman ankouraje inovasyon ak konpetisyon komèsyal an sante nan teknoloji lapawòl ki baze sou aprantisaj machin. Sa a se yon efò mondyal epi nou envite tout moun patisipe. Objektif nou se ede teknoloji lapawòl gen plis enklizif, reflete divèsite vwa atravè mond lan.
+data-get-started = <speechBlogLink>Kòmanse ak Rekonesans Lapawòl</speechBlogLink>
+data-other-title = Lòt done vwa...
+data-other-goto = Ale nan { $name }
+data-other-download = Telechaje Done
+data-bundle-button = Telechaje gwoup done yo an gwo
+data-bundle-description = Done vwa komen plis tout lòt done vwa ki anwo yo.
 release-version = vèsyon
 dataset-date = Dat
 license = Lisans: <licenseLink>{ $license }</licenseLink>

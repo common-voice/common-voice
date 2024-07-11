@@ -47,5 +47,20 @@ close = Khar
 download = Download
 dataset-version = A phun
 
+## Data
+
+data-download-button = Common Voice Data Dawnlok
+data-download-yes = Dawnlok Ko
+data-download-deny = Dawnlok Hlah
+data-download-license = Laisen:<licenseLink>CC-0</licenseLink>
+data-download-modal = A tu dawnlok na timh mi hi <size>{ $size }GB</size> a si, na dawnlok lai maw?
+data-subtitle = Holh thiamnak he pehtlaih in mipi caah a sunglawi mi Aw phunkip laak in mipi caah data lianpi kan ser.
+data-explanatory-text = Mipi caah sunglawi ngai le ṭha ngai in Aw lei pumhmi data nih hin a ngandam mi chawleh thalnak le computer chimh cawnpiaknak duhnak hi a chuah pi tiah kan zumh. Hihi miphun kip le ramkip fonh in rak i tal ve uh ti hi kan in sawm hna. Kan vawlei pi ah Aw sunglawi in holh phunkip a um mi hi i tal dih hna sih ti hi kan saduh thah a si.
+data-get-started = <speechBlogLink> Speech Recognition thoknak</speechBlogLink>
+data-other-title = Awdang Pumhmi Data
+data-other-goto = { $name } hin kal
+data-other-download = Data Dawnlok
+data-bundle-button = Pumhmi Data Vialte Dawnlok
+data-bundle-description = Common Voice data le a dang aw data vialte a cunglei ah.
 license = Laisen:<licenseLink>{ $license }</licenseLink>
 license-mixed = Fonh

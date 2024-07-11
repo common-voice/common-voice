@@ -31,6 +31,15 @@ close = פארמאך
 download = לאדנט אראפ
 dataset-version = ווערסיע
 
+## Data
+
+data-download-button = לאדנט אראפ קאמאן וואויס דאטא
+data-download-yes = יא
+data-download-deny = ניין
+data-get-started = <speechBlogLink>הויבט אן מיט רעדן דערקענונג</speechBlogLink>
+data-other-title = אנדערע שטימע דאטא סעטס…
+data-other-goto = גיי צו { $name }
+data-other-download = לאדנט אראפ דאטא
 release-version = ווערסיע
 dataset-date = דאטום
 license-mixed = געמישט

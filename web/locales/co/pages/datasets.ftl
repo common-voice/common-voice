@@ -49,6 +49,21 @@ dataset-version = Versione
 
 data-download-singleword-title = Scaricà u segmentu specificu incù parolle uniche
 data-download-singleword-callout-v2 = Questu hè un segmentu fattu pà un casu d'utilizazione cuntenendu dati pà a ricunniscenza vucale di i ciffri è di e parolle Iè / Innò.
+## Data
+
+data-download-button = Scaricà i dati di Common Voice
+data-download-yes = Iè
+data-download-deny = Innò
+data-download-license = Licenza : <licenseLink>CC-0</licenseLink>
+data-download-modal = Seti à u puntu di principià un scaricamentu di <size>{ $size } Go</size>, vulete cuntinuà ?
+data-subtitle = Custruimu una banca di voci aperta è dispunibile di manera publica chì ognunu puderà aduprà pà l'addestru di l'appiecazioni chì ponu parlà.
+data-explanatory-text = Noi cridimu chi banche di dati vucale tamante è pubbliche prumovani l’innuvazione è una cumpetiziona sana in e tecnulugie vucale appughjati annantu à l’amparera di e machine. Ghjè un sforzu glubale è invitemu tuttu ognunu à participà. U nostru scopu hè d’aiutà è tecnulugie vucale à esse più inclusive, à rispechjà a varietà di e voce di u mondu.
+data-get-started = <speechBlogLink>Iniziassi à a ricunniscenza vucale</speechBlogLink>
+data-other-title = Altre banche di voci…
+data-other-goto = Andà à { $name }
+data-other-download = Scaricà i dati
+data-bundle-button = Scaricà u lottu di a banca di dati
+data-bundle-description = Dati di Common Voice in più di tutte l'altre banche di dati vucale insù.
 release-version = Versione
 dataset-date = Data
 license = Licenza : <licenseLink> { $license } </licenseLink>

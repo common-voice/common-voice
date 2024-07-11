@@ -73,6 +73,21 @@ donate-modal-explanation-1 = Kushton gati një milion dollarë në vit të streh
 donate-modal-explanation-2 = <bold>Nëse çmoni të dhëna të hapur, përfshirëse - <b>dhuroni që sot!</bold>
 
 data-download-singleword-callout-v2 = Ky është një segment i bazuar në raste përdorimi që përmbajnë të dhëna për dallimin zanor të shifrave dhe pikasjen e po-së/jo-së.
+## Data
+
+data-download-button = Shkarkoni të Dhëna Common Voice
+data-download-yes = Po
+data-download-deny = Jo
+data-download-license = Licencë: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ju ndan një hap nga fillimi i shkarkimit të <size>{ $size }GB</size>, të vazhdohet?
+data-subtitle = Po krijojmë një grup të dhënash zanore me burim të hapur dhe publike të cilat mund t’i përdorë gjithkush për stërvitje aplikacionesh që funksionojnë përmes të folurës.
+data-explanatory-text = Besojmë se grupe të mëdha dhe publike të dhënash zanore mbrujnë risi dhe konkurrencë të shëndetshme komerciale në fushën e teknologjisë së të folurit bazuar në mësimin e makinave. Kjo është një përpjekje mbarëbotërore dhe ftojmë këdo të marrë pjesë. Synimi ynë është të ndihmojmë teknologjinë të jetë më përfshirëse, duke pasqyruar larminë e zërave nga anembanë bota.
+data-get-started = <speechBlogLink>Hapat e Parë Në të Kuptuarit e të Folurit</speechBlogLink>
+data-other-title = Grupe të tjerë të dhënash zanore…
+data-other-goto = Kalo te { $name }
+data-other-download = Shkarkoni Të dhëna
+data-bundle-button = Shkarkoni Paketë Bazash të Dhënash
+data-bundle-description = Të dhëna Common Voice plus krejt grupet e tjera të të dhënave zanore më sipër.
 release-version = Version
 dataset-date = Datë
 license = Licencë: <licenseLink>{ $license }</licenseLink>

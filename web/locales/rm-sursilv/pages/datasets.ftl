@@ -49,5 +49,20 @@ close = serrar
 download = telecargar
 dataset-version = Versiun
 
+## Data
+
+data-download-button = Telecargar l'unitad da datas da Common Voice
+data-download-yes = gie
+data-download-deny = na
+data-download-license = Licenzia: <licenseLink>CC-0</licenseLink>
+data-download-modal = Il download giavischau cuntegn <size>{ $size }GB</size>. Vul ti cuntinuar?
+data-subtitle = Nus creein in'unitad da datas vocalas aviarta ed accessibla publicamein che mintgin sa duvrar per trenar applicaziuns che sustegnan il lungatg discurriu.
+data-explanatory-text = Nus essan perschuadi che unitads da datas grondas e publicas promovan l'innovaziun ed ina sauna concurrenza commerciala sil camp da tecnologias da lungatg che sebasan sin maschinas d'emprender. Quei ei in'ambiziun globala e nus envidein tuts da separticipar. Nossa finamira ei che las tecnologias da lungatg daventien pli aviartas e ch'ellas resplendien la diversitad da vuschs digl entir mund.
+data-get-started = <speechBlogLink>Ils emprems pass per identificar la vusch</speechBlogLink>
+data-other-title = Autras unitads da datas vocalas ...
+data-other-goto = va a
+data-other-download = telecargar datas
+data-bundle-button = telecargar unitad da datas
+data-bundle-description = Datas da Common Voice e tut las autras datas da lungatg numnadas sura.
 license = Licenzia: <licenseLink>{ $license }</licenseLink>
 license-mixed = mischedau

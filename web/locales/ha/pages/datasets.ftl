@@ -52,6 +52,21 @@ dataset-version = Nau'i
 
 data-download-singleword-title = Zazzage Yankin Haɗafin Kalma Guda
 data-download-singleword-callout-v2 = Wannan ɓangare ne wanda ake korafin amfani da shi wanda yake ɗauke da bayanai zuwa karfin magana da lambar magana da kuma eh/a'a ganowa.
+## Data
+
+data-download-button = Sauke bayanan Common Voice
+data-download-yes = Ee
+data-download-deny = A'a
+data-download-license = Lasisi: <lasisiLink> CC-0 </ lasisi>
+data-download-modal = Kana gab da fara saukar da <size>{ $size }GB</size>, ci gaba?
+data-subtitle = Muna gina tarin bayanan muryoyin da kowa zai iya amfani dashi don horar da aikace-aikacen da suka dace da magana.
+data-explanatory-text = Mun yi imanin cewa babban bayanan bayanan murya da ke bayyane yana inganta bidi'a da gasa mai kyau na kasuwanci cikin fasahar magana ta hanyar ilmantarwa ta na'ura. Wannan ƙoƙari ne na duniya kuma muna gayyatar kowa da kowa ya shiga. Manufarmu ita ce taimaka wa fasahar magana ta zama mai haɗawa, don nuna bambancin muryoyi daga ko'ina cikin duniya.
+data-get-started = <speechBlogLink> Farawa tare da Gano Magana </speechBlogLink>
+data-other-title = Sauran bayanai (datasets) na muryoyi
+data-other-goto = Je zuwa { $name }
+data-other-download = Sauke Bayanai
+data-bundle-button = Sauke dunƙulen bayanai (dataset)
+data-bundle-description = Bayanan Common Voice tare da duk wasu bayanan bayanan murya a sama.
 release-version = Nau'i
 dataset-date = Kwanan Wata
 license = Lasisi: <licenseLink>{ $license }

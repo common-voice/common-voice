@@ -58,6 +58,21 @@ dataset-version = Mofuta
 
 data-download-singleword-title = Daonlouda karolo e lebisitsweng ya lentswe le le leng
 data-download-singleword-callout-v2 = Ena ke karolo e tsamaiswang ke use case e nang le data ho matlafatsa temoho ya palo e buuweng le temoho ya ee / tjhe.
+## Data
+
+data-download-button = Download-a Data ya Common Voice
+data-download-yes = Ee
+data-download-deny = Tjhe
+data-download-license = Laesense: <licenseLink>CC-0</licenseLink>
+data-download-modal = O mothating wa ho qala ho download-a <size>{ $size }GB</size>,e tswelepele?
+data-subtitle = Re aha pokello ya data e bulehileng le e fumanehang phatlalatsa ya mantswe eo motho e mong le e mong a ka e sebedisang ho kwetlisa diaplikeishene tse dumelang lentswe.
+data-explanatory-text = Re dumela hore dipokello tsa data tse kgolo le tse fumanehang phatlalatsa di kgothaletsa dintho tse ntjha le tlhodisano e ntle ya dikgwebo ho thekenoloji ya puo e thehilweng holima ho ithuta motjhini. Hona ke matsapa a lefatshe ka bophara mme re mema bohle ho nka karolo. Sepheo sa rona ke ho thusa thekenoloji ya puo e kenyelletse bongata, e bonahatse phapano ya mantswe a tswang lefatsheng.
+data-get-started = <speechBlogLink>Qalella  ka Temoho ya Puo</speechBlogLink>
+data-other-title = Dipokello tsa data tse ding
+data-other-goto = Eya ho { $name }
+data-other-download = Download-a Data
+data-bundle-button = Download-a Sephuthelwana sa Polokelo ya Data
+data-bundle-description = Data ya Common Voice le dipokello tsa data ding kaofela tse ka hodimo.
 release-version = Mofuta
 dataset-date = Letsatsi
 license = Laesense: <licenseLink>{ $license }</licenseLink>

@@ -34,6 +34,21 @@ download = Íoslódáil
 dataset-version = Leagan
 clipboard-not-supported = Ní thacaítear leis an ngearrthaisce
 
+## Data
+
+data-download-button = Íoslódáil Sonraí Common Voice
+data-download-yes = Tá
+data-download-deny = Níl
+data-download-license = Ceadúnas: <licenseLink>CC-0</licenseLink>
+data-download-modal = Tá tú ar tí <size>{ $size }GB</size> a íoslódáil, an bhfuil tú cinnte?
+data-subtitle = Táimid ag tógáil tacar sonraí gutha a bheidh oscailte agus ar fáil do chách chun feidhmchláir a úsáideann caint a thraenáil.
+data-explanatory-text = Creidimid go gcothóidh tacar sonraí ollmhór oscailte nuálaíocht agus iomaíocht shláintiúil i dteicneolaíocht aitheanta cainte bunaithe ar an ríomhfhoghlaim. Is feachtas domhanda é seo, agus fearaimid fáilte roimh chách. Sprioc amháin atá againn ná teicneolaíocht cainte níos uilechuimsithí a chothú, teicneolaíocht a oibríonn leis an éagsúlacht guthanna ó thimpeall an domhain.
+data-get-started = <speechBlogLink>Tosú le hAithint Cainte</speechBlogLink>
+data-other-title = Tacair shonraí eile...
+data-other-goto = Téigh go { $name }
+data-other-download = Íoslódáil sonraí
+data-bundle-button = Íoslódáil na Tacair Shonraí go léir
+data-bundle-description = Sonraí Common Voice chomh maith leis na tacair shonraí thuasluaite
 release-version = Leagan
 dataset-date = Dáta
 license = Ceadúnas: <licenseLink>{ $license }</licenseLink>

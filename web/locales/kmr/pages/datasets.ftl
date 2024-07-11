@@ -44,6 +44,20 @@ download = Daxîne
 dataset-version = Guherto
 
 data-download-singleword-title = Segmenta hedefa yek-peyvî daxîne
+## Data
+
+data-download-button = Daneyên Common Voiceê Daxîne
+data-download-yes = Erê
+data-download-deny = Na
+data-download-license = Lîsans: <licenseLink>CC-0</licenseLink>
+data-download-modal = Tu dikî dest bi daxistina <size>{ $size } GB</size> bikî, bila dewam bike?
+data-subtitle = Em komdaneyeke dengan a gelemper û vekirî ava dikin ji bo ku her kes karibe pê sepanên xwe yên xwedî-axaftin rahênan bike.
+data-get-started = <speechBlogLink>Bi nasîna axaftinê re dest pê bike</speechBlogLink>
+data-other-title = Komdaneyên din ên dengî…
+data-other-goto = Here malpera { $name }'ê
+data-other-download = Daneyan Daxîne
+data-bundle-button = Pakêta komdaneyê daxîne
+data-bundle-description = Daneyên Common Voiceê û hemû komdaneyên dengî yên li jorê.
 release-version = Guherto
 dataset-date = Tarîx
 license = Lîsans: <licenseLink>{ $license }</licenseLink>

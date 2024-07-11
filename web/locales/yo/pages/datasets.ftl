@@ -53,6 +53,21 @@ dataset-version = Ẹ̀dà
 
 data-download-singleword-title = Ṣe ìgbàsílẹ̀ àfojúsùn sẹ́gímẹ́ǹtì ọlọ́rọ̀ kan
 data-download-singleword-callout-v2 = Èyí jẹ́ ìwòṣe sẹ́gímẹ́ǹtì tó ni dátà láti ṣe ìdámọ̀ òǹkà àti èsi bẹ́ẹ̀ni / bẹ́ẹ̀ kọ́
+## Data
+
+data-download-button = Ṣe àgbàsílẹ̀ dátà Common Voice sórí ẹ̀rọ ọ̀ rẹ
+data-download-yes = Bẹ́ẹ̀ni
+data-download-deny = Bẹ́ẹ̀ kọ́
+data-download-license = Ìfàyègba: <licenseLink>CC-0</licenseLink>
+data-download-modal = O fẹ́ sẽ àgbàsílẹ̀ iye <size>{ $size }GB</size>, tẹ̀síwájú?
+data-subtitle = À ń ṣe àkópọ̀ fọ́nrán ohùn ti ẹnikẹ́ni le lò láti fi kọ́ àwọn ẹ̀rọ aṣàmúlò ohùn.
+data-explanatory-text = A gbàgbọ́ pé àkójọpọ̀ dátà olóhùn tó pọ̀ tó sì wà ní gbangba yóò ṣàtìlẹ́yìn fún iṣẹ́ ọ̀tun àti káràkátà tó yen kooro nínú ìmẹ̀ẹ̀rọ adóhùnmọ̀ tó dá lórí i ìkẹ́rọnímọ̀. Èyí jẹ́ akitiyan káàkiri àgbáyé a sì ń kàn si ẹ láti kópa. Àfojúsùn wa ni láti ṣe ìrànwọ́ kí ìmẹ̀ẹ̀rọ adóhùnmọ̀ lè di nínáàǹfànísí, kí ó sì jẹ́ dígí fún irúfẹ́ oríṣiríṣi ohùn káàkiri àgbáyé.
+data-get-started = <speechBlogLink>Bẹ̀rẹ̀ pẹ̀lú Ìdámọ̀ Ohùn</speechBlogLink>
+data-other-title = Àwọn àkójọpọ̀ dátà olóhùn mìíràn…
+data-other-goto = Lọ sí
+data-other-download = Ṣe ìgbàsílẹ̀ dátà
+data-bundle-button = Ṣe ìgbàsílẹ̀ odindi dátà
+data-bundle-description = Dátà Common Voice àti àkójọpọ̀ gbogbo dátà olóhùn tó wà lókè.
 release-version = Ẹ̀dà
 dataset-date = Déètì
 license = Ìfàyègbà: <licenseLink>{ $license }</licenseLink>

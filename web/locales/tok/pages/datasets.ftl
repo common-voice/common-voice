@@ -71,6 +71,21 @@ donate-modal-explanation-2 = <bold>sona open kulupu li pona tawa sina la o pana 
 
 data-download-singleword-title = o kama jo e kalama pi nimi wan taso
 data-download-singleword-callout-v2 = nasin ni en kulupu sona ni li sona e nimi nanpa tan kalama toki sina. wile sona la, ona li sona e nimi ijo, e nimi ijo ala.
+## Data
+
+data-download-button = o kama jo e sona pi ilo Common Voice
+data-download-yes = wile
+data-download-deny = ala
+data-download-license = lipu ken: <licenseLink>CC-0</licenseLink>
+data-download-modal = sina wile ala wile kama jo e poki pi <size>suli GB { $size }</size>?
+data-subtitle = mi pali e kulupu sona pi toki uta. jan ale li ken kepeken ona tawa ni: ona li ken pali e ilo toki, e ilo kute.
+data-explanatory-text = mi la kulupu sona suli en sona open li pona tawa pali ilo, tawa ilo kute, tawa ilo ale. pali ni li tawa ma ale la, jan ale li ken kama pali. mi wile e ni: ilo kute en ilo toki li tawa jan ale, li pona tawa jan ale, li pana e sona pi jan ale.
+data-get-started = <speechBlogLink>o open kepeken ilo kute!</speechBlogLink>
+data-other-title = kulupu sona ante pi toki uta
+data-other-goto = tawa lipu { $name }
+data-other-download = o kama jo e kalama
+data-bundle-button = o kama jo e poki kalama
+data-bundle-description = ni li kalama tan pali Common Voice, tan kulupu kalama ale ni.
 release-version = nanpa
 dataset-date = tenpo
 license = lipu ken: <licenseLink>{ $license }</licenseLink>

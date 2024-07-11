@@ -52,6 +52,21 @@ download = ڈاؤن لوڈ کریں
 dataset-version = ورژن
 
 data-download-singleword-title = یک لفظ ہدف طبقہ ڈاؤن لوڈ کریں
+## Data
+
+data-download-button = Common Voice کے کوائف ڈائونلوڈ کریں
+data-download-yes = ہاں
+data-download-deny = نہیں
+data-download-license = لائسنس: <licenseLink>CC-0</licenseLink>
+data-download-modal = آپ <size>{ $size }GB</size> کا ڈاؤن لوڈ شروع کرنے ہی والے ہیں ، آگے بڑھیں؟
+data-subtitle = ہم آوازوں کا آزاد اور عوامی طور پر دستیاب ڈیٹا سیٹ بنا رہے ہیں جسے ہر شخص گفتگو فعال ایپلی کیشنز کی تربیت کے لئے استعمال کرسکتا ہے۔
+data-explanatory-text = ہم سمجھتے ہیں کہ مشین لرننگ پر مبنی تقریری ٹکنالوجی میں بڑے اور عوامی طور پر دستیاب صوتی ڈیٹاسیٹس نے جدت اور صحت مند تجارتی مقابلہ کو فروغ دیا ہے۔ یہ عالمی کوشش ہے اور ہم سب کو شرکت کی دعوت دیتے ہیں۔ ہمارا مقصد تقریری   ٹیکنالوجی کو زیادہ شامل کرنے میں مدد کرنا ہے ، جو پوری دنیا کی آوازوں کے تنوع کو ظاہر کرتا ہے۔
+data-get-started = <speechBlogLink>کلام شناسی کے ساتھ شروع کریں</speechBlogLink>
+data-other-title = دیگر وائس ڈیٹا سیٹس
+data-other-goto = { $name } پر جائیں
+data-other-download = ڈائونلوڈ شدہ کوائف
+data-bundle-button = ڈیٹا سیٹ بنڈل ڈاون لوڈ کریں
+data-bundle-description = کامن وائس ڈیٹا اور اوپر موجود دیگر وائس ڈیٹا سیٹس
 release-version = ورژن
 dataset-date = تاریخ
 license = لائیسنس: <licenseLink>{ $license }</licenseLink>

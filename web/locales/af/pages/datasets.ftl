@@ -65,6 +65,21 @@ clipboard-not-supported = Knipbord word nie ondersteun nie
 
 data-download-singleword-title = Laai die Enkelwoord-teikensegment af
 data-download-singleword-callout-v2 = Dit is 'n gebruiksgedrewe segment wat data bevat om gesproke syferherkenning en ja/nee-opsporing aan te dryf.
+## Data
+
+data-download-button = Laai Common Voice-data Af
+data-download-yes = Ja
+data-download-deny = Nee
+data-download-license = Lisensie: <licenseLink>CC-0</licenseLink>
+data-download-modal = Jy is op die punt om <size> { $size } GB</size> te begin aflaai, wil jy voortgaan?
+data-subtitle = Ons bou 'n oop publieke datastel van stemme wat almal kan gebruik om spraakaangedrewe toepassings op te lei.
+data-explanatory-text = Ons glo dat groot en publieke stemdatastelle innovasie en gesonde kommersiële kompetisie in masjienleergebaseerde spraaktegnologie bevorder. Dit is 'n globale poging en ons nooi almal om deel te neem. Ons doel is om spraaktegnologie meer inklusief te maak, sodat dit die verskeidenheid stemme van regoor die wêreld weerspieël.
+data-get-started = <speechBlogLink>Begin met Spraakherkenning</speechBlogLink>
+data-other-title = Ander stemdatastelle...
+data-other-goto = Gaan na { $name }
+data-other-download = Laai Data Af
+data-bundle-button = Laai Datastelbundel Af
+data-bundle-description = Common Voice data plus al die ander stemdatastelle hierbo.
 release-version = Weergawe
 dataset-date = Datum
 license = Lisensie: <licenseLink>{ $license }</licenseLink>

@@ -42,5 +42,23 @@ missing-language = Kas sa ei näe enda keelt andmete kogumis? Keele taotlemiseks
 go-languages-page = Ava keelte leht
 ready-to-validate = Valmis lausete kontrollimiseks?
 
+## Error pages
+
+
+## Data
+
+data-download-button = Laadi alla Common Voice'i andmed
+data-download-yes = Jah
+data-download-deny = Ei
+data-download-license = Litsents: <licenseLink>CC-0</licenseLink>
+data-download-modal = Hakkad alla laadima <size>{ $size }GB</size> suurust faili, kas oled kindel, et soovid jätkata?
+data-subtitle = Me loome avatud lähtekoodiga ja avalikult kasutatavat hääleandmete kogu, mida igaüks saaks kasutada kõnepõhiste rakenduste treenimiseks.
+data-explanatory-text = Usume, et suured ja vabalt kättesaadavad hääleandmebaasid edendavad innovatsiooni ja tervet ärilist konkurentsi masinõppepõhise kõnetehnoloogia vallas. Tegemist on ülemaailmse ettevõtmisega ja me kutsume kõiki osalema. Meie eesmärgiks on aidata kõnetehnoloogial paremini toime tulla inimkõne suure mitmekesisusega.
+data-get-started = <speechBlogLink>Tutvu kõnetuvastusega</speechBlogLink>
+data-other-title = Teised hääleandmekogud…
+data-other-goto = Mine andmekogusse { $name }
+data-other-download = Laadi andmed alla
+data-bundle-button = Laadi alla andmestike komplekt
+data-bundle-description = Common Voice'i andmed ja kõik ülalloetletud andmestikud.
 license = Litsents: <licenseLink>{ $license }</licenseLink>
 license-mixed = Segu erinevatest litsentsidest

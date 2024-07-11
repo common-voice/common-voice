@@ -65,6 +65,21 @@ clipboard-not-supported = ꯀ꯭ꯂꯤꯞꯕꯣꯔꯗ ꯑꯁꯤ ꯉꯥꯛꯂꯧ 
 
 data-download-singleword-title = ꯋꯥꯍꯩ ꯱ꯒꯤ ꯇꯥꯔꯒꯦꯠ ꯁꯦꯒꯃꯦꯟꯇ ꯑꯗꯨ ꯆꯤꯡꯊꯕꯤꯌꯨ ꯫
 data-download-singleword-callout-v2 = ꯃꯁꯤ ꯁ꯭ꯄꯣꯀꯦꯟ ꯗꯤꯖꯤꯠ ꯁꯛꯈꯪꯕ ꯑꯃꯁꯨꯡ ꯍꯣꯏ / ꯅꯠꯇꯦ ꯃꯁꯛ ꯈꯪꯗꯣꯛꯄ ꯃꯇꯤꯛ ꯄꯤꯅꯕꯥ ꯗꯦꯇꯥ ꯌꯥꯎꯕꯥ ꯁꯤꯖꯤꯟꯅꯔꯤꯕ ꯀꯦꯁ ꯗ꯭ꯔꯥꯏꯚꯟ ꯃꯆꯦꯠ ꯑꯃꯅꯤ ꯫
+## Data
+
+data-download-button = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥ ꯆꯤꯡꯊꯧ ꯫
+data-download-yes = ꯍꯣꯏ
+data-download-deny = ꯅꯠꯇꯦ
+data-download-license = ꯑꯌꯥꯕ:<licenseLink>ꯁꯤꯁꯤ-꯰</licenseLink>
+data-download-modal = ꯅꯍꯥꯛꯅꯥ <size>{ $size }ꯖꯤꯕꯤ</size>ꯒꯤ ꯆꯤꯡꯊꯕ ꯑꯃꯥ ꯍꯧꯗꯣꯛꯀꯗꯧꯔꯤꯕꯅꯤ, ꯃꯈꯥ ꯆꯠꯊꯔꯤꯕꯔꯥ?
+data-subtitle = ꯑꯩꯈꯣꯏꯅꯥ ꯃꯤꯄꯨꯝ ꯈꯨꯗꯤꯡꯃꯛꯅꯥ ꯋꯥ ꯉꯥꯡꯕꯥ ꯉꯝꯕꯥ ꯑꯦꯞꯂꯤꯀꯦꯁꯟꯁꯤꯡ ꯇꯝꯕꯤꯅꯕ ꯁꯤꯖꯤꯟꯅꯕꯥ ꯌꯥꯕꯥ ꯈꯣꯟꯖꯦꯜꯁꯤꯡꯒꯤ ꯑꯃꯨꯛꯇꯪ ꯑꯃꯁꯨꯡ ꯃꯤꯌꯥꯝꯅꯥ ꯁꯤꯖꯤꯟꯅꯕꯥ ꯌꯥꯕꯥ ꯗꯦꯇꯥꯁꯦꯠ ꯑꯃꯥ ꯁꯦꯃꯒꯠꯂꯤ ꯫
+data-explanatory-text = ꯑꯩꯈꯣꯏꯅꯥ ꯊꯥꯖꯩ ꯃꯗꯨꯗꯤ ꯑꯆꯧꯕꯥ ꯑꯃꯁꯨꯡ ꯃꯤꯌꯥꯝꯅꯥ ꯁꯤꯖꯤꯟꯅꯕꯥ ꯌꯥꯕꯥ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥꯁꯦꯠꯁꯤꯡꯅꯥ ꯃꯦꯆꯤꯟ-ꯂꯔꯅꯤꯡꯗꯥ ꯌꯨꯝꯐꯝ ꯑꯣꯏꯕꯥ ꯁ꯭ꯄꯤꯆ ꯇꯦꯛꯅꯣꯂꯣꯖꯤꯗꯥ ꯏꯅꯣꯕꯦꯁꯟ ꯑꯃꯁꯨꯡ ꯍꯛꯆꯥꯡ ꯐꯕꯥ ꯀꯝꯃꯔꯁꯤꯑꯦꯜ ꯀꯝꯄꯤꯇꯤꯁꯟ ꯌꯣꯛꯈꯠꯂꯤ ꯫ ꯃꯁꯤ ꯃꯥꯂꯦꯝꯒꯤ ꯑꯣꯏꯕꯥ ꯍꯣꯠꯅꯕꯥ ꯑꯃꯅꯤ ꯑꯃꯁꯨꯡ ꯑꯩꯈꯣꯏꯅꯥ ꯃꯤꯄꯨꯝ ꯈꯨꯗꯤꯡꯃꯛꯄꯨ ꯁꯔꯨꯛ ꯌꯥꯅꯕꯥ ꯀꯧꯔꯤ ꯫ ꯑꯩꯈꯣꯏꯒꯤ ꯄꯥꯟꯗꯝꯗꯤ ꯁ꯭ꯄꯤꯆ ꯇꯦꯛꯅꯣꯂꯣꯖꯤ ꯑꯁꯤ ꯍꯦꯟꯅꯥ ꯌꯥꯎꯁꯤꯟꯕ ꯑꯣꯏꯍꯟꯕꯗꯥ ꯃꯇꯦꯡ ꯄꯥꯡꯕꯅꯤ, ꯃꯁꯤꯅꯥ ꯃꯥꯂꯦꯝ ꯁꯤꯟꯕꯥ ꯊꯨꯡꯅꯥ ꯂꯥꯛꯄꯥ ꯈꯣꯟꯖꯦꯜꯁꯤꯡꯒꯤ ꯇꯣꯞ ꯇꯣꯞꯄꯥ ꯃꯑꯣꯡ ꯃꯇꯧ ꯑꯗꯨ ꯎꯠꯂꯤ ꯫
+data-get-started = <speechBlogLink>ꯋꯥ ꯉꯥꯡꯕꯥ ꯁꯛꯈꯪꯕꯒꯥ ꯂꯣꯏꯅꯅꯥ ꯍꯧꯗꯣꯛꯎ</speechBlogLink>
+data-other-title = ꯑꯇꯣꯞꯄꯥ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥꯁꯦꯠꯁꯤꯡ...
+data-other-goto = { $name }ꯗ ꯆꯠꯂꯨ
+data-other-download = ꯗꯥꯇꯥ ꯆꯤꯡꯊꯧ
+data-bundle-button = ꯗꯦꯇꯥꯁꯦꯠ ꯃꯄꯩ ꯆꯎꯤꯡꯊꯕꯤꯌꯨ ꯫
+data-bundle-description = ꯀꯃꯟ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥ ꯄ꯭ꯂꯥꯁ ꯃꯊꯛꯇꯥ ꯄꯟꯈ꯭ꯔꯤꯕꯥ ꯑꯇꯩ ꯈꯣꯟꯖꯦꯜ ꯗꯦꯇꯥꯁꯦꯠ ꯄꯨꯝꯅꯃꯛ ꯫
 release-version = ꯃꯈꯜ
 dataset-date = ꯆꯩꯆꯠ
 license = ꯑꯌꯥꯕ: <licenseLink>{ $license }</licenseLink>

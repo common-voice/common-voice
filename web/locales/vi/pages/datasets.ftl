@@ -78,6 +78,21 @@ donate-modal-explanation-2 = <bold>Nếu bạn coi trọng dữ liệu mở, to�
 
 data-download-singleword-title = Tải xuống phân đoạn mục tiêu từ đơn
 data-download-singleword-callout-v2 = Đây là một phân đoạn theo trường hợp sử dụng chứa dữ liệu để hỗ trợ nhận dạng chữ số bằng giọng nói và phát hiện có / không.
+## Data
+
+data-download-button = Tải dữ liệu Common Voice
+data-download-yes = Có
+data-download-deny = Không
+data-download-license = Giấy phép: <licenseLink>CC-0</licenseLink>
+data-download-modal = Bạn sắp tải xuống mục này có dung lượng <size>{ $size }GB</size>, tiếp tục?
+data-subtitle = Chúng tôi đang xây dựng một bộ dữ liệu giọng nói mở và công khai mà mọi người có thể sử dụng để đào tạo các ứng dụng hỗ trợ giọng nói.
+data-explanatory-text = Chúng tôi tin rằng bộ dữ liệu giọng nói khổng lồ và công khai có sẵn sẽ thúc đẩy đổi mới và cạnh tranh thương mại lành mạnh về lĩnh vực công nghệ giọng nói dựa trên máy học. Đây là một nỗ lực toàn cầu và chúng tôi mời mọi người tham gia. Mục tiêu của chúng tôi là giúp công nghệ giọng nói trở nên hòa nhập hơn, phản ánh sự đa dạng của tiếng nói từ khắp nơi trên thế giới.
+data-get-started = <speechBlogLink>Bắt đầu với nhận dạng giọng nói</speechBlogLink>
+data-other-title = Bộ dữ liệu giọng nói khác…
+data-other-goto = Đi đến { $name }
+data-other-download = Tải dữ liệu
+data-bundle-button = Tải Gói dữ liệu xuống
+data-bundle-description = Dữ liệu Common Voice cộng với tất cả các bộ dữ liệu giọng nói khác ở trên.
 release-version = Phiên bản
 dataset-date = Ngày
 license = Giấy phép: <licenseLink>{ $license }</licenseLink>

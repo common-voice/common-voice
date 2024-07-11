@@ -77,6 +77,21 @@ donate-modal-explanation-2 = <bold>Emomba’érõ mba’ekuaarã ijuruja ha ogue
 
 data-download-singleword-title = Emboguejy Ñe’ẽryapu Pehẽ’i
 data-download-singleword-callout-v2 = Kóva peteĩ pehẽ oguerekóva mba’ekuaarã oipytyvõva oñeikũmbykuaa porãve hag̃ua jehaipy.
+## Data
+
+data-download-button = Emboguejy Common Voice Kuaapy
+data-download-yes = Héẽ
+data-download-deny = Nahániri
+data-download-license = Moneĩmby: <licenseLink>CC-0</licenseLink>
+data-download-modal = Remboguejytahína <size>{ $size }GB</size> Kuaapy, oĩ porãpa?
+data-subtitle = Ore rojaporo’ína ñe’ẽryapu aty ñongatupyre opavavépe g̃uarã ha ombokatupyrýva mohendahápe oikũmbývo yvypóra ñe’ẽ.
+data-explanatory-text = Ore roimo’ã oĩramo ñe’ẽryapu opavavépe g̃uarã oĩvéta avei tembiapo pyahu opavavépe g̃uarã oikũmbýva ha ohaíva oje’éva chupe. Upévare roñepia’ãmbaite ko tembiapópe, roipotágui tembiporu pyahu og̃uahẽkuaa opavave pópe ha opaite ñe’ẽme.
+data-get-started = <speechBlogLink>Eikuaañepyrũ Ñe’ẽ Ñeikũmby rehegua</speechBlogLink>
+data-other-title = Ambue mba’ekuaarã marandurenda ijayvúva…
+data-other-goto = Eho { $name }-pe
+data-other-download = Emboguejy Mba’ekuaarã
+data-bundle-button = Emboguejy Kuaapy’aty Apakuapy
+data-bundle-description = Common Voice kuaapy ha avei opaite ambue ñe’ẽryapu kuaapy’aty yvatepegua.
 release-version = Peteĩchagua
 dataset-date = Mba’ekuaarã
 license = Ñemoneĩkuatia:<licenseLink>{ $license }</licenseLink>

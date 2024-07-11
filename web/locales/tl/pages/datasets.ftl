@@ -34,6 +34,19 @@ download = i-Download
 dataset-version = Bersyon
 
 data-download-singleword-title = I-download ang Single Word Target Segment
+## Data
+
+data-download-button = i-Download ang Common Voice Data
+data-download-yes = Oo
+data-download-deny = Hindi
+data-download-license = License: <licenseLink>CC-0</licenseLink>
+data-download-modal = Magsisimula kang mag-download ng <size> { $size } GB </size>, magpatuloy?
+data-get-started = <speechBlogLink>Magsimula sa Speech Recognition</speechBlogLink>
+data-other-title = Iba pang mga dataset ng boses...
+data-other-goto = Pumunta sa { $name }
+data-other-download = Download Data
+data-bundle-button = Download Dataset Bundle
+data-bundle-description = Common Voice data at lahat ng ibang voice datasets sa taas.
 release-version = Bersyon
 dataset-date = Petsa
 license = Lisensya: <licenseLink>{ $license }</licenseLink>

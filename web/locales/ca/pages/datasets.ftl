@@ -76,6 +76,21 @@ donate-modal-explanation-2 = <bold>Si valoreu les dades obertes i inclusives, fe
 
 data-download-singleword-title = Baixeu el segment específic amb paraules individuals
 data-download-singleword-callout-v2 = Això és segmentació de casos d'ús que conté dades per a potenciar el reconeixement dels dígits i la detecció de les paraules «sí» i «no».
+## Data
+
+data-download-button = Baixa les dades del Common Voice
+data-download-yes = Sí
+data-download-deny = No
+data-download-license = Llicència: <licenseLink>CC-0</licenseLink>
+data-download-modal = Esteu a punt d'iniciar una baixada de <size>{ $size } GB</size>, voleu continuar?
+data-subtitle = Estem creant un conjunt de dades de veus obert i disponible públicament que tothom pot utilitzar per entrenar aplicacions que utilitzin la veu.
+data-explanatory-text = Creiem que uns conjunts de dades grans i disponibles públicament promouran la innovació i la competència comercial sana en la tecnologia de la veu basada en l'aprenentatge automàtic. Aquest és un esforç global i convidem tothom a participar-hi. El nostre objectiu és fer que la tecnologia de la veu sigui més inclusiva i reflecteixi la diversitat de veus d'arreu del món.
+data-get-started = <speechBlogLink>Primers passos en el reconeixement de la veu</speechBlogLink>
+data-other-title = Altres conjunts de dades de veu…
+data-other-goto = Vés a { $name }
+data-other-download = Baixa les dades
+data-bundle-button = Baixa el paquet del conjunt de dades
+data-bundle-description = Dades del Common Voice més tots els conjunts de dades de veu anteriors.
 release-version = Versió
 dataset-date = Data
 license = Llicència: <licenseLink>{ $license }</licenseLink>

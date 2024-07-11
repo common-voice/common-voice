@@ -68,6 +68,21 @@ donate-modal-explanation-2 = Kaw'ona mwaw'onie mana ya kuboa kwa platifomu iko m
 
 data-download-singleword-title = Pakua Kibengula cha Ilagho Jimweri
 data-download-singleword-callout-v2 = Ughu nigho mpande ghuko na data edimisha kumanya mtalo ghwa madedo na hee angu hata.
+## Data
+
+data-download-button = Pakua data ya Common Voice
+data-download-yes = Hee
+data-download-deny = Hata
+data-download-license = Leseni: <licenseLink>CC-0</licenseLink>
+data-download-modal = Huw'u kwamba kupakua msigo ghwa data ghughane <size>{ $size }</size>, diendelie?
+data-subtitle = Daw'uyaagha dataseti ya chwaka iko mwari kwa w'andu w'ose na idimagha kutumilwa ni w'andu w'ose kufundisha apu ritambukilwagha ni madedo.
+data-explanatory-text = Isi daw'ona angu mafungu gha data mabaa sena ghidimagha kutumilwa ni w'andu w'ose ghatesia kudunga maza mbishi na kushindana kuboie kwa teknoloji ra agha matuku. W'urumwengu ghose daw'uyatesiana ihi kazi na dakaribisha kula mundu uw'adane na isi. Lengo yedu ni kubonya teknoloji ya madedo ikaie ya w'andu w'ose, seji koni diko w'andu w'a fwana zima zima w'urumwengunyi.
+data-get-started = <speechBlogLink>Oke Zoya iri Maza ra Mashini Kutambukilwa ni Madedo</speechBlogLink>
+data-other-title = Dataseti ra chwaka zima
+data-other-goto = Ghenda kwa { $name }
+data-other-download = Pakua data
+data-bundle-button = Pakua msigo ghwa dataseti
+data-bundle-description = Data ya Common Voice andwamweri na dataseti rose ra chwaka riko aha naighu.
 release-version = Ifunyo
 dataset-date = Nili
 license = Leseni: <licenseLink>{ $license }</licenseLink>

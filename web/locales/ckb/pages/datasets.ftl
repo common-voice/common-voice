@@ -49,6 +49,21 @@ dataset-donate-modal-heading = دەتزانی...
 
 data-download-singleword-title = داگترنی بەشی ئامانجی تەک وشەیی
 data-download-singleword-callout-v2 = ئەمە پشت دەبەستێت بە حاڵەتی بەکارهێنان کە داتا لە خۆ دەگرێت بۆ خستنەگەڕی ژمارە گوتراوەکان و دەستنیشانکردنی بەڵێ / نەخێر
+## Data
+
+data-download-button = داگرتنی داتای دەنگی گشتی
+data-download-yes = بەڵێ
+data-download-deny = نەخێر
+data-download-license = مۆڵەت: <licenseLink>CC-0</licenseLink>
+data-download-modal = خەریکی داگرتنی <size>{ $size } گیگابایت</size> دەست پێ دەکەی. دڵنیای؟
+data-subtitle = ئێمە خەریکین زانیاریسێتێکی کراوە و گشتی لە دەنگی مرۆڤ ئامادە دەکەین کە هەمووکەس دەتوانن بەکاری بێنن بۆ ئامادەکردنی نەرمەکالای وتارناسی.
+data-explanatory-text = ئێمە پێمان وایە زانیاریسێتی گەورە و گشتی گەشە دەدات بە داهێنان و سازکردنی کالای نوێ و پێشبڕکێیەک تەندرووستیانە بۆ بەرهەم هێنان لە تەکنەلۆژی فێرکاری ئامێر(مەشین). ئەمە هەوڵێکی جیهانییە و و ئێمە داوا دەکەین هەموان تێیدا بەشدار بن. ئامانجی ئێمە ئەوەیە کە تەکنۆلۆژیای وتار کەسانێکی زیاتر لە خۆ بگرێت و جۆراوجۆری دەنگەکانی دنیا پیشان بدات.
+data-get-started = <speechBlogLink> وتارناسی دەست پێ بکە</speechBlogLink>
+data-other-title = زانیاریسێتە دەنگییەکانی تر...
+data-other-goto = بڕۆ بۆ { $name }
+data-other-download = داگرتنی داتا
+data-bundle-button = داگرتنی بوخچەی داتاسێت
+data-bundle-description = دەنگی گشتی و هەموو داتاسێتەکانی سەرەوە.
 release-version = وەشان
 dataset-date = ڕێکەوت
 license = مۆڵەت: <licenseLink>{ $license }</licenseLink>

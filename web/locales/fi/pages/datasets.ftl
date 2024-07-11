@@ -61,6 +61,21 @@ dataset-donate-modal-heading = Tiesitkö…
 
 data-download-singleword-title = Lataa yhden sanan kohdesegmentti
 data-download-singleword-callout-v2 = Tämä on käyttötapaukseen perustuva segmentti, joka sisältää tietoa puhuttujen lukujen tunnistamisen ja kyllä/ei -havaitsemisen tehostamiseksi.
+## Data
+
+data-download-button = Lataa Common Voice -aineisto
+data-download-yes = Kyllä
+data-download-deny = Ei
+data-download-license = Lisenssi: <licenseLink>CC-0</licenseLink>
+data-download-modal = Olet aikeissa ladata <size>{ $size } Gt</size>, jatketaanko?
+data-subtitle = Keräämme avointa ja vapaasti käytettävää puheaineistoa, jota kuka tahansa voi hyödyntää puhesovellusten tuottamiseen
+data-explanatory-text = Uskomme, että laajat ja vapaasti käytettävissä olevat puheaineistot ruokkivat innovaatiota ja tervettä kilpailua koneoppimispohjaisen puheteknologian markkinoille. Tämä projekti on maailmanlaajuinen ja kaikki ovat tervetulleita osallistumaan. Tarkoituksenamme on tehdä puheteknologiasta osallistuttavampaa ja maailman äänten monipuolisuutta paremmin vastaavaa.
+data-get-started = <speechBlogLink>Lähde liikkeelle puheentunnistuksessa</speechBlogLink>
+data-other-title = Muut ääniaineistot...
+data-other-goto = Siirry sivustolle { $name }
+data-other-download = Lataa aineisto
+data-bundle-button = Lataa koottu aineistokokoelma
+data-bundle-description = Common Voice -aineisto sekä kaikki ylläolevat aineistot
 release-version = Versio
 dataset-date = Päivämäärä
 license = Lisenssi: <licenseLink>{ $license }</licenseLink>

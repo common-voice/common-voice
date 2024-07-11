@@ -12,6 +12,19 @@ more = Унджык
 close = Сиптыны
 dataset-version = Версия
 
+## Error pages
+
+
+## Data
+
+data-download-button = Босьтны Common Voice мыччӧд
+data-download-yes = Но
+data-download-deny = Оз ков
+data-download-license = Лисенция: <licenseLink>CC-0</licenseLink>
+data-get-started = Пондыны уджавны Сёрни Гӧгӧрвоан системаӧн.
+data-other-title = Мукӧд аудио юӧръяс.
+data-other-goto = Мун { $name } вылӧ
+data-other-download = Босьт даннӧйяссӧ
 release-version = Версия
 license = Сёрнитчӧм: <licenseLink>{ $license }</licenseLink>
 license-mixed = Гудралӧм

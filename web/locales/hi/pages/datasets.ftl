@@ -50,5 +50,20 @@ close = बंद करें
 download = डाउनलोड करें
 dataset-version = संस्करण
 
+## Data
+
+data-download-button = डाउनलोड आम आवाज डेटा
+data-download-yes = हाँ
+data-download-deny = नहीं
+data-download-license = लाइसेंस: <licenseLink> CC-0 </licenseLink>
+data-download-modal = आप <size>{ $size }GB</size> का डाउनलोड शुरू करने वाले हैं, आगे बढ़ें?
+data-subtitle = हम आवाज़ों का एक खुला और सार्वजनिक रूप से उपलब्ध डेटासेट बना रहे हैं, जिसका उपयोग सभी लोग भाषण-सक्षम अनुप्रयोगों को प्रशिक्षित करने के लिए कर सकते हैं।
+data-explanatory-text = हम मानते हैं कि मशीन लर्निंग आधारित भाषण प्रौद्योगिकी में बड़े और सार्वजनिक रूप से उपलब्ध वॉइस डेटासेट नवाचार और स्वस्थ वाणिज्यिक प्रतियोगिता को बढ़ावा देते हैं। यह एक वैश्विक प्रयास है और हम सभी को इसमें भाग लेने के लिए आमंत्रित करते हैं। हमारा उद्देश्य दुनिया भर से आवाज़ों की विविधता को दर्शाते हुए भाषण प्रौद्योगिकी को अधिक समावेशी बनाने में मदद करना है।
+data-get-started = <speechBlogLink> भाषण मान्यता के साथ आरंभ करें </ speechBlogLink>
+data-other-title = अन्य वॉइस डेटासेट ...
+data-other-goto = { $name } पर जाएं
+data-other-download = डेटा डाउनलोड करें
+data-bundle-button = डाटसेट बंडल डाउनलोड करें
+data-bundle-description = सामान्य वॉयस डेटा प्लस ऊपर अन्य सभी वॉइस डेटासेट।
 license = लाइसेंस: <licenseLink>{ $license }</licenseLink>
 license-mixed = मिश्रित

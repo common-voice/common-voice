@@ -45,6 +45,20 @@ dataset-version = Ụ̀dị́
 
 data-download-singleword-title = Búdàtá Ńkébì Èbùmnúchè Ótù Ókwū
 data-download-singleword-callout-v2 = Ńké à bụ̀ ákụ̀kụ́ ǹlò ǹké gụ́nyéré ńgwá ńchọ́chá gá-ágbányé ígwé ǹghọ̀tá ọ́nụ́ọ́gụ́gụ́ nà ǹkè ná-áchọ́pụ̀tá éé/ḿbà.
+## Data
+
+data-download-button = Búdàtá ụ́yọ̀kọ̀ ńgwá ólú ókwú Common Voice.
+data-download-yes = Ee
+data-download-deny = Ḿbà
+data-download-license = Ikikere: <licenseLink>CC-0</licenseLink>
+data-download-modal = Ị́ nà-áchọ́ íbídó ḿbúdàtá nke<size>{ $size }GB</size>, Ị̀ chọ̀rọ̀ ị́gá n'íhú?
+data-subtitle = Ànyị́ nà-éwúlíté ụ́yọ̀kọ̀ ńgwá ńchọ́chá ụ̀dà-ólú gá-ádị́rí ónyé ọ́bụ́là, ǹkè ḿmádụ̀ níílé gà-èjí wúlíté ńgwá ólú ókwú.
+data-explanatory-text = Ànyị́ kwèsìrì íké nà ọ́tùtù ụ́yọ̀kọ̀ ńgwá ńchọ́chá ólú ókwú é mèrè màkà ḿmádụ̀ níílé gà-ákwàlite mmepụta ihe ọhụrụ na ézígbó asọmpi n'azụmahịa mmụta igwe ǹké dábéré nà ǹkànụ́zụ́ ókwú. Nke a bụ ḿbọ zuru ụwa ọnụ ǹkè anyị na-akpọ onye ọ bụla ka ọ sonye. Ebumnobi anyị bụ inyere nkà na ụzụ okwu aka ísònyè nà kà ó sì ágá, mà na-egosipụta ụdị olu dị iche iche sitere n'ákụ̀kụ̀ ụwa níílé.
+data-other-title = Ụ́yọ̀kọ̀ ńgwá ńchọ́chá ụ̀dà-ólú ǹkè ólú ǹdị́ ọ́zọ́...
+data-other-goto = Gaa na { $name }
+data-other-download = Búdàtá ụ́yọ̀kọ̀ ńgwá ńchọ́chá
+data-bundle-button = Búdàtá ńgwùgwù ụ́yọ̀kọ̀ ńgwá ńchọ́chá (Dataset Bundle)
+data-bundle-description = Ńgwá ńchọ́chá ụ̀dà-ólú ǹkè Common Voice nà ụ́yọ̀kọ̀ ńgwá ńchọ́chá ńdị́ ọ́zọ́ dị́ n'élú.
 release-version = Ụ̀dị́
 dataset-date = Ụ́bọ̀chị̀
 license = Ikikere: <licenseLink>{ $license }</licenseLink>

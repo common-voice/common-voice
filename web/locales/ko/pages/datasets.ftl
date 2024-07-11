@@ -68,6 +68,21 @@ dataset-metadata-age = 나이
 
 data-download-singleword-title = 단일 단어 대상 세그먼트 다운로드
 data-download-singleword-callout-v2 = 이것은 음성 숫자 인식과 예 / 아니오 감지를 지원하는 데이터를 포함하는 사용 사례 중심 세그먼트입니다.
+## Data
+
+data-download-button = Common Voice 데이터 다운로드
+data-download-yes = 네
+data-download-deny = 아니오
+data-download-license = 라이센스: <licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size }GB</size>를 다운로드하려 합니다. 계속하시겠습니까?
+data-subtitle = 모두가 음성 인식 애플리케이션을 훈련하는 데 사용할 수 있는 공개적인 음성 데이터 세트를 구축하고 있습니다.
+data-explanatory-text = 크고 공개적으로 이용할 수 있는 음성 데이터 세트가 기계 학습 기반 음성 기술의 혁신과 건전한 상업적 경쟁을 촉진한다고 믿습니다. 이것은 전 세계적인 노력이며 모두가 참여하도록 초대합니다. 전 세계의 다양한 목소리를 반영하여 음성 기술이 좀 더 포괄적이 되도록 돕는 목표를 가지고 있습니다.
+data-get-started = <speechBlogLink>음성인식 시작하기</speechBlogLink>
+data-other-title = 다른 음성 데이터 세트…
+data-other-goto = { $name }로 이동
+data-other-download = 데이터 다운로드
+data-bundle-button = 데이터 세트 번들 다운로드
+data-bundle-description = Common Voice 데이터에는 위의 모든 다른 음성 데이터 세트가 포함됩니다.
 release-version = 버전
 dataset-date = 날짜
 license = 라이센스: <licenseLink>{ $license }</licenseLink>

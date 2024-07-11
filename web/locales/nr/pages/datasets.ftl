@@ -58,6 +58,25 @@ dataset-version = Umbono
 
 data-download-singleword-title = Dawuniloda iGama Linye Olifunako
 data-download-singleword-callout-v2 = Leli lihlelo elisiza ngamaphimbo arekhodiweko elikghona ukuvuma namkha ukwala
+## Data
+
+data-download-button = Dawunilowuda ihlelo le-Common Voice
+data-download-yes = Iye
+data-download-deny = Awa
+data-download-license = Ilayisense: <licenseLink>CC-0</licenseLink>
+data-download-modal = Sele ukulungele ukudawuniloda i <size>{ $size }GB</size>, uyaraga?
+data-subtitle = Sakha ibulungelo lamaphimbo arekhodiweko angasetjenziswa ngiwo woke umuntu bona angawasebenzisa ukubandula iinsetjenziswa bona zikhulume ikulumo eyamukeleko.
+data-explanatory-text = Sithemba bona ukufumaneka khulu kwamabulungelo wamaphimbo kuzokwenza ituthuko nephaliswano kwezentengiselwano ngemitjhini yokufunda emalungana netheknoloji yokukhuluma. Ijimeli ngelephasi loke yeke simema woke umuntu bona ahlanganyele. Ihloswethu kukwenza itheknoloji yokukhuluma bona ifumaneke ngokungeziweko, begodu ifake amaphimbo ahlukahlukeneko wephasi mazombe.
+data-get-started =
+    <speechBlogLink>Thoma ngehlelo lokuHlola
+    iPhimbo</speechBlogLink>
+data-other-title = Elinye ihlelo lamaphimbo…
+data-other-goto = Ngena ku { $name }
+data-other-download = Dawuniloda imininingwana
+data-bundle-button = Dawunilowuda ihlelo
+data-bundle-description =
+    Nanti ihlelo le-Common Voice namanye 
+    amaphimbo ngehla.
 release-version = Umbono
 dataset-date = Ilanga
 license = Ilayisensi: <licenseLink>{ $license }</licenseLink>
