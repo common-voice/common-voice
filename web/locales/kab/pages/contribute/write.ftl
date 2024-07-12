@@ -34,3 +34,7 @@ general = Amatu
 try-upload-again-md = Ɛreḍ asali tikkelt niḍen
 select-file = Fren afaylu
 upload-progress-text = Asali ietddu...
+file-invalid-type = Yir afaylu
+file-too-large = Afaylu ɣezzif aṭas
+file-too-small = Afaylu wezzil aṭas
+too-many-files = Aṭas n yifuyla
