@@ -28,9 +28,12 @@ sentence-domain-select-placeholder = Fren alamma kraḍ n tiɣula
 agriculture_food = Tafellaḥt d wučči
 # Sentence Domain dropdown option
 general = Amatu
+# Sentence Domain dropdown option
+nature_environment = Agama d twennaḍt
 
 ## BULK SUBMISSION 
 
+sc-bulk-upload-instruction-drop = Sers afaylu dagi i usali
 try-upload-again-md = Ɛreḍ asali tikkelt niḍen
 select-file = Fren afaylu
 upload-progress-text = Asali ietddu...
