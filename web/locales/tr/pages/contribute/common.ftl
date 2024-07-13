@@ -17,6 +17,7 @@ contribute-more =
        *[other] { $count } tane daha yapmaya hazır mısın?
     }
 speak-empty-state = Bu dilde kaydedilecek cümle kalmadı...
+no-sentences-for-variants = Lehçenizde cümle kalmamış olabilir! İsterseniz dilinizdeki diğer cümleleri de görmek için ayarlarınızı değiştirebilirsiniz.
 speak-empty-state-cta = Cümlelere katkıda bulunun
 speak-loading-error =
     Kaydedebileceğiniz cümle bulamadık.

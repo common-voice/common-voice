@@ -74,6 +74,7 @@ try-upload-again-md = Yeniden yüklemeyi deneyin
 select-file = Dosya seçin
 select-file-mobile = Yüklenecek dosyayı seçin
 accepted-files = Kabul edilen dosya türleri: yalnızca .tsv
+minimum-sentences = Dosyadaki minimum cümle sayısı: 1000
 maximum-file-size = Maksimum dosya boyutu: 25 MB
 what-needs-to-be-in-file = Dosyamda neler olması gerekiyor?
 what-needs-to-be-in-file-explanation = Lütfen <templateFileLink>şablon dosyamızı</templateFileLink> kontrol edin. Cümleleriniz telif hakkı içermemeli (CC0 lisanslı veya gönderenin izinli özgün çalışması olmalı); açık, dilbilgisi açısından doğru ve okunması kolay olmalıdır. Gönderilecek cümlelerin okunması yaklaşık 10 ila 15 saniye sürmeli ve sayı, özel isim ve özel karakter içermemelidir.
