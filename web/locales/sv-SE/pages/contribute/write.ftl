@@ -74,6 +74,7 @@ try-upload-again-md = Försök att ladda upp igen
 select-file = Välj fil
 select-file-mobile = Välj fil att ladda upp
 accepted-files = Godkända filtyper: endast .tsv
+minimum-sentences = Minsta antal meningar i filen: 1000
 maximum-file-size = Maximal filstorlek: 25 MB
 what-needs-to-be-in-file = Vad måste finnas i min fil?
 what-needs-to-be-in-file-explanation = Kontrollera vår <templateFileLink>mallfil</templateFileLink>. Dina meningar bör vara upphovsrättsfria (CC0 eller tillåtet originalverk av insändaren) och vara tydliga, grammatiskt korrekta och lätta att läsa. Inskickade meningar bör ta ungefär 10-15 sekunder att läsa och bör undvika att inkludera siffror, egennamn och specialtecken.
