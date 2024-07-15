@@ -372,15 +372,9 @@ export async function importLocales() {
     const newLanguageData = locales.reduce((obj, language) => {
       // if a lang has clips, or has the required translations,
       // consider it translated
-      const isTranslatedNew = languagesWithClips[language.code]
+      const isTranslated = languagesWithClips[language.code]
         ? 1
         : language.hasRequiredTranslations
-        ? 1
-        : language.translated >= TRANSLATED_MIN_PROGRESS //no previous clips, check if criteria met
-        ? 1
-        : 0
-
-      const isTranslated = languagesWithClips[language.code]
         ? 1
         : language.translated >= TRANSLATED_MIN_PROGRESS //no previous clips, check if criteria met
         ? 1
@@ -395,18 +389,6 @@ export async function importLocales() {
         : isTranslated && hasEnoughSentences // no prev clips, check translated and enough sentences
         ? 1
         : 0
-
-      const is_contributable_new = languagesWithClips[language.code]
-        ? 1
-        : isTranslatedNew && hasEnoughSentences // no prev clips, check translated and enough sentences
-        ? 1
-        : 0
-
-      if (is_contributable === 0 && is_contributable_new === 1) {
-        console.log(
-          `Locale ${language.code} would be considered launched with the new requiremenst`
-        )
-      }
 
       obj[language.code] = {
         ...language,
@@ -429,8 +411,8 @@ export async function importLocales() {
             `
             UPDATE locales
             SET native_name = ?,
-            is_contributable = ?, 
-            is_translated = ?, 
+            is_contributable = ?,
+            is_translated = ?,
             text_direction = ?
             WHERE id = ?
             `,
