@@ -32,21 +32,21 @@ all-locales = Все
 today = Сегодня
 x-weeks-short =
     { $count ->
-        [one] { $count }неделя
-        [few] { $count }недели
-       *[other] { $count }недель
+        [one] { $count } неделя
+        [few] { $count } недели
+       *[many] { $count } недель
     }
 x-months-short =
     { $count ->
-        [one] { $count }месяц
-        [few] { $count }месяца
-       *[other] { $count }месяцев
+        [one] { $count } месяц
+        [few] { $count } месяца
+       *[many] { $count } месяцев
     }
 x-years-short =
     { $count ->
-        [one] { $count }год
-        [few] { $count }года
-       *[other] { $count }лет
+        [one] { $count } год
+        [few] { $count } года
+       *[many] { $count } лет
     }
 help-make-dataset = Помогите нам создать высококачественный открытый набор данных
 sign-up-account = Зарегистрировать аккаунт
