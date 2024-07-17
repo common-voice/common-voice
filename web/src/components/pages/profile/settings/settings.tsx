@@ -6,7 +6,7 @@ import {
 import * as React from 'react';
 import { useEffect } from 'react';
 import { connect } from 'react-redux';
-import { UserClient } from 'common';
+import { COMMON_VOICE_EMAIL, UserClient } from 'common';
 import { Notifications } from '../../../../stores/notifications';
 import StateTree from '../../../../stores/tree';
 import { User } from '../../../../stores/user';
@@ -14,15 +14,11 @@ import URLS from '../../../../urls';
 import { getManageSubscriptionURL } from '../../../../utility';
 import { LocaleLink } from '../../../locale-helpers';
 import { InfoIcon, PenIcon, SettingsIcon } from '../../../ui/icons';
-import {
-  LabeledCheckbox,
-  LabeledInput,
-  LinkButton,
-  Toggle,
-} from '../../../ui/ui';
+import { LabeledCheckbox, LabeledInput, LinkButton } from '../../../ui/ui';
+
+import { useIsSubscribed } from '../../../../hooks/store-hooks';
 
 import './settings.css';
-import { useIsSubscribed } from '../../../../hooks/store-hooks';
 
 const Section = ({
   title,
@@ -61,7 +57,7 @@ interface Props
     PropsFromDispatch {}
 
 function Settings(props: Props) {
-  const { account, addNotification, getString, saveAccount } = props;
+  const { account, addNotification, getString } = props;
   const isSubscribed = useIsSubscribed();
 
   useEffect(() => {
@@ -90,7 +86,6 @@ function Settings(props: Props) {
         <Localized id="email-input" attrs={{ label: true }}>
           <LabeledInput value={account.email} disabled />
         </Localized>
-
         <LinkButton
           outline
           className="edit-button"
@@ -100,6 +95,19 @@ function Settings(props: Props) {
             <span />
           </Localized>
         </LinkButton>
+        <Localized
+          id="email-change-information"
+          elems={{
+            emailFragment: (
+              <a
+                href={`mailto:${COMMON_VOICE_EMAIL}`}
+                target="_blank"
+                rel="noreferrer"
+              />
+            ),
+          }}>
+          <p className="email-change-info" />
+        </Localized>
       </Section>
 
       {account.basket_token && (
