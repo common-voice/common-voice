@@ -2,10 +2,14 @@
 
 language-section-in-progress = Pravas'an Asa
 language-meter-in-progress = Pravas
+language-search-input =
+    .placeholder = Sod
 language-speakers = Ulovpi
+sentences = Vakio
+language-validation-hours = Vor-a
 language-validation-progress = Topasniche Pravas
 contribute = Yogdhan
-get-involved-button = Shamil Zav
+get-involved-button = Vantto Ge (Samil zav)
 get-involved-title = { $lang }` itun vantto ge
 get-involved-text = Tuven { $lang }'ak voir kadpak aple monn dakoile mhunn tuka amcho nomoskar. Sogle bhaso toir zavpak ami kupp koxtt kadun kam kartat ani "up-to-date" ravpak ami tenka email dhadtat. Zori tor tuka vantto gevpak zai, zaliar tumche email sokol divche.
 get-involved-form-title = Register kor, { $lang } nimanni mahiti melpak:
