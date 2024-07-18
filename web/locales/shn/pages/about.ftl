@@ -1,5 +1,6 @@
 ## ABOUT US
 
+about-title = ယွၼ်ႉသင်လႄႈလူဝ်ႇမီး Common Voice?
 
 ## How does it work section
 
