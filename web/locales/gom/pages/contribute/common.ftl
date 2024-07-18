@@ -1,6 +1,14 @@
+action-click = Click
 action-tap = Damp
 contribute = Yogdan di
+review = Niyall
 skip = Sod
+shortcuts = Shortcut
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Clip
+       *[other] <bold>{ $count }</bold> Clip
+    }
 contribute-more =
     { $count ->
         [one] Ani { $count } korpak toiar asa?
@@ -35,3 +43,5 @@ request-language-button = Bhas request kor
 
 ## Validation criteria
 
+see-more = <chevron></chevron>Anik dakoi
+see-less = <chevron></chevron>Tode dakoi
