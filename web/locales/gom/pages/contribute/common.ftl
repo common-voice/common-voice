@@ -9,6 +9,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> Clip
        *[other] <bold>{ $count }</bold> Clip
     }
+goal-help-recording = Tuven moddot kele Common Voice-acho dor-disache { $goalValue } -atlean <goalPercentage></goalPercentage> recording target pavpak!
+goal-help-validation = Tuven moddot kele Common Voice-acho dor-disache { $goalValue } -atlean <goalPercentage></goalPercentage> sarkeponn topasniche target pavpak!
 contribute-more =
     { $count ->
         [one] Ani { $count } korpak toiar asa?
