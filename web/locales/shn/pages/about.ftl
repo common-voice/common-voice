@@ -20,6 +20,14 @@ about-voice-contrib-title = ၸွႆႈထႅမ်ပၼ်သဵင်
 about-voice-contrib-subtitle = ၵူၼ်းၶဝ်ႈမႃးလႄႈၸွႆႈထႅမ်ပၼ်သဵင်ၶဝ်။
 about-voice-validation-title = ၵူတ်ႇထတ်းသဵင်
 about-voice-validation-subtitle = ၵူၼ်းတၢင်ႇၵေႃႉၵူတ်ႇထတ်းပၼ်ၶလိပ်ႉသဵင်ၸိူဝ်းၼၼ်ႉ။
+about-dataset-release-title = ပွႆႇပၼ်ၸုမ်ႇၶေႃႈမုၼ်း
+about-dataset-release-subtitle = ႁဝ်းၶႃႈပွႆႇပၼ်ၸုမ်ႇၶေႃႈမုၼ်းၼႂ်းၵူႈ 3 လိူၼ်။
+about-subscribe-text = ၶႂ်ႈၵပ်းသိုပ်ႇၸွမ်း Common Voice ယူႇႁႃႉ?
+about-speak = လၢတ်ႈ
+about-speak-text = ၽူႈၸွႆႈထႅမ်ဢတ်းၶလိပ်ႈသဵင် လူၺ်ႈၵၢၼ်ဢၢၼ်ႇဢဝ်တီႈၸုမ်ႇတူၼ်းထႅဝ်လိၵ်ႈ ဢၼ်လႆႈလူႇၶၢမ်ႇမႃး။
+about-listen-queue = ၶိဝ်းၵၢၼ်ထွမ်ႇ
+about-listen-queue-text = ၶလိပ်ႉသဵင် တေထုၵ်ႇသႂ်ႇၶဝ်ႈၼႂ်းၶိဝ်းဢၼ်ႁဵတ်းႁႂ်ႈၽွမ်ႈတႃႇတေထွမ်ႇလႆႈ။
+about-listen = ထွမ်ႇ
 
 ## Community Playbook Content
 ## What is a language
