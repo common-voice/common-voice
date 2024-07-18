@@ -1,6 +1,12 @@
 action-tap = Damp
-contribute = Vantto ge
+contribute = Yogdan di
 skip = Sod
+contribute-more =
+    { $count ->
+        [one] Ani { $count } korpak toiar asa?
+       *[other] Anik { $count } korpak toiar asa?
+    }
+speak-empty-state-cta = Vakio yogdan korat
 record-button-label = Tuzo avaz di
 
 ## Contribution Nav Items
