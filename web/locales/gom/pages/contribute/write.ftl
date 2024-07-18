@@ -7,6 +7,6 @@ sentence-variant-select-label = Vakia'che Zaat
 
 select-file-mobile = File upload korpak vicchun kad
 accepted-files = Accepted file types: .tsv only
-minimum-sentences = File-in kamint-kami 1000 vakio asunk zai
+minimum-sentences = Vakio asunk zai: 1000 ani voir
 upload-progress-text = Upload zata...
 file-invalid-type = Invalid file
