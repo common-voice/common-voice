@@ -15,3 +15,4 @@ record-abort-title = Recording purai kor poilem?
 record-abort-text = Ata sodun geliar tujhe clips pusun voitele
 record-abort-continue = Recording purai kor
 record-abort-delete = Sod ani clips delete kor
+continue-speaking-button = Naka, ulovap chalu dovor
