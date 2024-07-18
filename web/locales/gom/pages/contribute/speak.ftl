@@ -1,5 +1,6 @@
 record-platform-not-supported = Maaf korat, tuje 'device' wa 'browser' soddeak ami 'support' korina.
 record-platform-not-supported-desktop = Computer-acher tuven yogdhan divunk zata hem download korun...
+record-platform-not-supported-ios-non-safari = iOS va iPhone vorvim recording shakia (enable) korpak, "Safari" browser use kor…
 record-error-too-short = Recording samke begin sopoile.
 record-error-too-long = Recording chod vhoddlem zale.
 record-error-too-quiet = Recording samki ogi asa.
