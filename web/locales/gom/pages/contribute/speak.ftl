@@ -1,3 +1,4 @@
+record-cta = Recording suru kor
 record-platform-not-supported = Maaf korat, tuje 'device' wa 'browser' soddeak ami 'support' korina.
 record-platform-not-supported-desktop = Computer-acher tuven yogdhan divunk zata hem download korun...
 record-platform-not-supported-ios-non-safari = iOS va iPhone vorvim recording shakia (enable) zavpak, "Safari" browser use kor…

@@ -5,4 +5,5 @@ listen-3rd-time-instruction = 2 zale, anik korun voch!
 listen-last-time-instruction = <playIcon></playIcon>Last ani ek!
 listen-empty-state = Clips sople astole - page refresh kor, na zaliar magir try kor.
 listen-abort-title = Clip'achi topasni korun zali?
+listen-abort-cancel = Topasni chalu dovor
 listen-abort-confirm = Puro zale
