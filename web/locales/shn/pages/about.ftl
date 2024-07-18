@@ -11,6 +11,15 @@ how-does-it-work-text = ႁဝ်းၶႃႈတိုၵ်ႉၸူႉႁွ�
 
 about-language-req-subtitle = မီးၵူၼ်းတုၵ်းယွၼ်းထႅမ်ထႅင်ႈၽႃႇသႃႇ။
 about-localization-title = ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉ
+about-localization-subtitle = လိၵ်ႈၼႂ်းဝႅပ်ႉသၢႆႉလႆႈပိၼ်ႇပဵၼ်ၽႃႇသႃႇၼၼ်ႉယဝ်ႉ။
+about-sentence-collection-title = ၵၢၼ်ၵဵပ်းႁွမ်တူၼ်းထႅဝ်လိၵ်ႈ
+about-sentence-collection-subtitle = တူၼ်းထႅဝ်လိၵ်ႈ လႆႈၵဵပ်းႁွမ်တႃႇႁႂ်ႈၵူၼ်းဢၢၼ်ႇဢွၵ်ႇသဵင်။
+about-new-lang-title = ပိုတ်ႇၽုၺ်ႇၽႃႇသႃႇမႂ်ႇ
+about-new-lang-subtitle = ႁဝ်းၶေႃႈပိုတ်ႇၽုၺ်ႇဝႅပ်ႉသၢႆႉ Common Voice ၼႂ်းၽႃႇသႃႇၼႆႉ။
+about-voice-contrib-title = ၸွႆႈထႅမ်ပၼ်သဵင်
+about-voice-contrib-subtitle = ၵူၼ်းၶဝ်ႈမႃးလႄႈၸွႆႈထႅမ်ပၼ်သဵင်ၶဝ်။
+about-voice-validation-title = ၵူတ်ႇထတ်းသဵင်
+about-voice-validation-subtitle = ၵူၼ်းတၢင်ႇၵေႃႉၵူတ်ႇထတ်းပၼ်ၶလိပ်ႉသဵင်ၸိူဝ်းၼၼ်ႉ။
 
 ## Community Playbook Content
 ## What is a language
