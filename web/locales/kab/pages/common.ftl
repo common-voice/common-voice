@@ -155,6 +155,7 @@ si = Tasinhalit
 sk = Tasluvakt
 skr = Saraiki
 sl = Tasluvinit
+snk = Ṣuninki
 so = Taṣumalit
 sq = Talbanit
 sr = Taṣirbit
@@ -184,8 +185,10 @@ ug = Tawigurt
 uk = Takrinit
 ur = Urdu
 uz = Tuzbikt
+ve = Venda
 vec = Taviṭnamit
 vi = Tavyiṭnamit
+vmw = Makwa
 vot = Tavutikt
 wo = Tawuluft
 xh = Taksuzit
@@ -240,5 +243,9 @@ not-available-abbreviation = N/A
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Nesra</mark><br/><mark>tallalt-ik!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Aseqdec n CV i</mark><br/><mark>yinadiyen-ik?</mark>
 localization-select =
     .label = Fren tutlayt/tasuqqilt
