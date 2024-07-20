@@ -137,6 +137,7 @@ ps = Tapactut
 pt = Tapuṛṭugit
 quc = K'iche'
 quy = Quechua Chanka
+qvi = Kicwa
 rm-sursilv = Rumanc Sursilvan
 rm-vallader = Taṛumancit n wadda
 ro = Taṛumanit
