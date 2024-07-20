@@ -38,4 +38,12 @@ terms-agree = Qebleɣ
 terms-disagree = Ur qbileɣ ara
 why-donate = Ayɣer i testeqsaḍ?
 add-information-button = Rnu talɣut
+continue-speaking-button = Uhu, tanemmirt. Kemmel ameslay
+first-cta-gender-select-default-option = Fren taxtiṛt
+first-cta-gender-select-help-text =
+    .label = Amek ara d-tgelmeḍ tuzzuft-ik neɣ tawsit-ik?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Tanemmirt ɣef umuddu n taɣect-ik!
 create-profile-button = Rnu amaɣnu
+# IMAGE TAGS
+img-alt-success-checkmark = aṛcam n rrbaḥ

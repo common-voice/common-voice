@@ -20,6 +20,7 @@ add-sentence-success = 1 tefyirt i d-yettwalqaḍen
 add-sentence-error = Tuccḍa deg tmerna n tefyirt
 required-field = Ma ulac aɣilif ččaṛ urti-yagi.
 single-sentence-submission = Tuzna n tefyirt tasuft
+bulk-sentence-submission = Tuzna n waṭas n tefyirin
 single-sentence = Tafyirt tasuft
 bulk-sentences = Aṭas n tefyar
 sentence-domain-combobox-label = Talɣut n tefyirt
