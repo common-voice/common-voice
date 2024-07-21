@@ -19,25 +19,31 @@ contribute-more =
        *[other] Jeste li spremni obaviti još { $count }?
     }
 speak-empty-state = Ponestalo nam je rečenica za snimanje na ovom jeziku...
-speak-empty-state-cta = Predložite rečenice
-record-button-label = Snimite svoj glas
+speak-empty-state-cta = Doprinesi rečenice
+speak-loading-error =
+    Nismo dobili nijednu rečenicu za govor.
+    Pokušaj kasnije ponovo.
+record-button-label = Snimi svoj glas
 share-title-new = <bold>Pomogni nam</bold> pronaći još glasova
 keep-track-profile = Prati svoj napredak pomoću profila
 login-to-get-started = Za početak se prijavi ili registriraj
 target-segment-first-card = Doprinosiš našem prvom segmentu cilja
-target-segment-generic-card = Pridonosiš ciljanom segmentu
+target-segment-generic-card = Doprinosiš segmentu cilja
 target-segment-first-banner = Pomogni stvoriti prvi segment cilja Common Voicea za { $locale }
 target-segment-add-voice = Dodaj svoj glas
 target-segment-learn-more = Saznaj više
+change-preferences = Promijeni postavke
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Zbirka glasova
+contribute-sentence-collection-nav-header = Zbirka rečenica
 
 ## Reporting
 
 report = Prijavi
 report-title = Pošalji izvještaj
-report-ask = Koji problem imate s ovom rečenicom?
+report-ask = Koje probleme imaš s ovom rečenicom?
 report-offensive-language = Uvredljivi jezik
 report-offensive-language-detail = Rečenica sadrži uvredljive ili prostačke riječi.
 report-grammar-or-spelling = Gramatička / pravopisna greška
@@ -64,13 +70,15 @@ shortcut-skip = s
 # Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-record-toggle = s
-shortcut-record-toggle-label = Snimaj/Stop
+shortcut-record-toggle-label = Snimaj/Prekini
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Ponovo snimi isječak
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Odbaci snimanje u tijeku
 shortcut-submit = Potvrdi
 shortcut-submit-label = Pošalji isječke
 request-language-text = Tvoj jezik nedostaje u Common Voiceu?
-request-language-button = Zatražite jezik
+request-language-button = Zatraži jezik
 
 ## Listen Shortcuts
 
