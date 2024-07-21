@@ -44,14 +44,19 @@ about-get-involved-text-2 =
     ili se pridruži razgovorima zajednice putem <matrixLink>Matrixa</matrixLink>.
 about-stay-in-touch = Kako mogu ostati u kontaktu?
 about-stay-in-touch-button = Registriraj se
+about-stay-in-touch-text-1 = <emailFragment>Registriraj se</emailFragment> na našu mailing listu gdje možeš saznati kako sudjelovati u kampanjama, događajima i dizajniranju funkcija na Common Voice.
+about-stay-in-touch-text-2 = Možeš upoznati druge osobe u jezičnim Mozilla zajednicama pridruživanjem na <discourseLink>Discourse</discourseLink> za tematske razgovore ili na <matrixLink>Matrix</matrixLink> za brze savjete.
 about-nav-why-common-voice = Zašto?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partneri
 about-nav-get-involved = Uključi se
+about-nav-how-it-works-2 = Kako funkcionira Common Voice?
+about-nav-playbook = Saznaj kako sudjelovati
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Što je jezik na Common Voiceu?
 
 ## How do I add a language
 
