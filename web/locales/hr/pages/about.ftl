@@ -71,6 +71,7 @@ about-playbook-how-add-language-content-1 =
 about-playbook-how-add-language-translating-heading = Prevođenje stranice
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pogledaj naš vodič o tome kako koristiti Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Sakupljanje rečenica
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Pogledaj naš vodič za korištenje alata „Sakupljač rečenica”</sentenceCollectorVideo>.
 
 ## How does localization work
 
