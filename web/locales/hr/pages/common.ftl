@@ -197,11 +197,17 @@ vec = Venecijanski
 vi = Vijetnamski
 vmw = Emakhuwa
 vot = Votjački
+wo = Wolof
+xh = Xhosa
+yi = Jidiš
 yo = Yoruba
 yue = Kantonski
+zgh = Tamazight
 zh-CN = Kineski (Kina)
 zh-HK = Kineski (Hong Kong)
 zh-TW = Kineski (Tajvan)
+zu = Zulu
+zza = Zaza
 
 # [/]
 
@@ -213,6 +219,7 @@ speak-now = Počni govoriti
 datasets = Skupovi podataka
 languages = Jezici
 about = Informacije
+partner = Partner
 profile = Profil
 help = Pomoć
 contact = Kontakt
@@ -226,6 +233,7 @@ share-text = Pomogni učiti strojeve govoriti ljudskim jezikom, doniraj svoj gla
 link-copied = Poveznica je kopirana
 back-top = Povratak na vrh
 logout = Odjava
+donate = Doniraj
 stayintouch = Mi u Mozilli gradimo zajednicu za govorne tehnologije. Želimo te obavještavati o novostima, novim izvorima podataka i voljeli bi saznati kako koristite podatke.
 privacy-info = Obećajemo, da ćemo pažljivo postupati s tvojim podacima. Saznaj više u našim <privacyLink>napomenama o privatnosti</privacyLink>.
 return-to-cv = Povratak na Common Voice
@@ -242,3 +250,9 @@ not-available-abbreviation = --
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Trebamo</mark><br/><mark>tvoju pomoć!</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Koristiš životopis za</mark><br/><mark>zvoje istraživanje?</mark>
+localization-select =
+    .label = Odaberi jezik/lokalizaciju

@@ -1,6 +1,7 @@
-action-click = Klik
-action-tap = Dodirnite
-contribute = Doprinesite
+action-click = Klikni
+action-tap = Dodirni
+contribute = Doprinesi
+review = Pregledaj
 skip = Preskoči
 shortcuts = Prečaci
 clips-with-count-pluralized =
