@@ -58,6 +58,22 @@ news_current_affairs = Vijesti i aktualne teme
 # Sentence Domain dropdown option
 technology_robotics = Tehnologija i robotika
 sentence-variant-select-label = Varijanta rečenice
+sentence-variant-select-placeholder = Odaberi varijantu (opcionalno)
+sentence-variant-select-multiple-variants = Opći jezik / više varijanti
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Prenesi <icon></icon> rečenice u javnom vlasništvu
+sc-bulk-upload-instruction = Povuci svoju datoteku ovdje ili <uploadButton>pritisni za prijenos</uploadButton>
+sc-bulk-upload-instruction-drop = Ispusti datoteku ovdje za prijenos
+bulk-upload-additional-information = Ako postoje dodatne informacije koje želiš spomenuti za ovu datoteku, kontaktiraj <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Ako postoje dodatne informacije koje želiš spomenuti za ovu datoteku koje nisu uključene u predlošku, kontaktiraj <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Pokušaj ponovo povlačenjem datoteke ovamo
+try-upload-again-md = Pokušaj ponovo prenijeti
+select-file = Odaberi datoteku
+select-file-mobile = Odaberi datoteku za prijenos
+accepted-files = Prihvaćene vrste datoteka: samo .tsv
+minimum-sentences = Najmanji broj rečenica u datoteci: 1000
+maximum-file-size = Maksimalna veličina datoteke: 25 MB
+what-needs-to-be-in-file = Što mora sadržati moja rečenica?
