@@ -85,3 +85,6 @@ bulk-submission-success-header = Hvala na podnesku rečenica!
 bulk-submission-success-subheader = Pomažeš Common Voiceu da postigne naše dnevne ciljeve broja rečenica!
 upload-more-btn-text = Prenijeti još rečenica?
 file-invalid-type = Neispravna datoteka
+file-too-large = Datoteka je pre velika
+file-too-small = Datoteka je pre mala
+too-many-files = Previše datoteka
