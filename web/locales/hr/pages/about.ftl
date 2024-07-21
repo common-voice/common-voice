@@ -72,9 +72,13 @@ about-playbook-how-add-language-translating-heading = Prevođenje stranice
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pogledaj naš vodič o tome kako koristiti Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Sakupljanje rečenica
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Pogledaj naš vodič za korištenje alata „Sakupljač rečenica”</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Pogledaj više o sakupljanju rečenica</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Kako funkcionira lokalizacija stranica?
+about-playbook-how-localize-content-1 = Stranica Common Voice se prevodi na platformi <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Otvori račun</pontoonAccountLink> ako ga nemaš. Odaberi svoj jezik <strong>(„tim”)</strong> i zatim odaberi projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Bit će datoteka za prijevod. Pritiskom na jednu datoteku prikazuju se riječi na engleskom i polje za prijevod.
 
 ## How to add sentences
 
