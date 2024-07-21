@@ -89,18 +89,31 @@ about-playbook-how-add-sentences-content-1 = Rečenice možeš dodati na <writeP
 ## How to record quality
 
 about-playbook-how-record-content-3 = Pažljivo pročitaj rečenicu – nemoj propustiti, promijeniti ili dodati riječi.
+about-playbook-how-record-content-4 = Osiguraj da platforma snima prije nego što počneš govoriti i da prekine snimanje tek kada završiš.
+about-playbook-how-record-content-5 = <accuracyLink>Pogledaj više o kriterijima točnosti.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Kako možemo učinkovito razvijati jezik na Common Voiceu?
+about-playbook-how-grow-language-content-2 = Događaji
+about-playbook-how-grow-language-content-4 = Društvene mreže
+about-playbook-how-grow-language-content-6 = Partnerstva i mreže
 
 ## How to validate
 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Kako mogu pristupiti i koristiti skup podataka?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Kako se donose odluke za projekt?
+about-playbook-how-project-governance-content-3 = Privatnost, sigurnost i transparentnost.
+about-playbook-how-project-governance-content-4 = Sudjelovanje zajednice i donošenje odluka.
+about-playbook-how-project-governance-content-5 = Vrijednost i priznanje.
+about-playbook-how-project-governance-content-6 = Uzajamna odgovornost.
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Kako se financira Common Voice?
