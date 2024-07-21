@@ -116,13 +116,13 @@ days =
     }
 recordings =
     { $count ->
-        [one] Snimka
-        [few] Snimke
-       *[other] Snimaka
+        [one] snimka
+        [few] snimke
+       *[other] snimaka
     }
 validations =
     { $count ->
-        [one] Potvrda
-        [few] Potvrde
-       *[other] Potvrda
+        [one] potvrda
+        [few] potvrde
+       *[other] potvrda
     }

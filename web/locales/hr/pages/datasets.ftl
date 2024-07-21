@@ -1,5 +1,6 @@
 ## Datasets Page
 
+datasets-heading = Skupovi podataka
 datasets-headline = Gradimo otvoren i višejezičan skup glasova, koji svi mogu koristiti za podučavanje govornih programa.
 datasets-positioning =
     Vjerujemo da veliki i javno dostupni skupovi podataka glasa potiču inovacije i zdravu komercijalnu konkurenciju govorne tehnologije, utemeljene na strojnom učenju.
@@ -8,12 +9,16 @@ datasets-positioning =
     
     Pogledaj ovu stranicu kao referencu za druge skupove podataka otvorenog koda i, kako Common Voice raste, bit će izvor za naša buduća izdanja.
 language = Jezik
+download-dataset-header = Preuzmi skup podataka
+download-delta-explainer = Učinili smo neke promjene. Delta segmenti sadrže samo najnovije isječke od zadnjeg izdanja. <deltaLink>Pročitaj više o ovom radu</deltaLink>.
+download-dataset-tag = Odaberi željeni jezični skup podataka i odaberi verziju koju želiš preuzeti.
 # File size in gigabytes
 size = Veličina
 validated-hr-total = Potvrđeni sati ukupno
 overall-hr-total = Broj sati ukupno
 cv-license = Licenca
-audio-format = Format zvuka
+audio-format = Audio format
+dataset-splits = Podjele (dob i spol)
 number-of-voices = Broj glasova
 splits = Podjele
 email-to-download = Za preuzimanje, upiši e-adresu
