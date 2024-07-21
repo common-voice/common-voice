@@ -12,6 +12,7 @@ record-again-instruction = Shabbas! Dusre clip <recordIcon></recordIcon> record 
 record-again-instruction2 = Borem asa, ani ek record kor <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Last ek!
 review-instruction = Check kor & goroz asa zaliar portun record kor
+record-submit-tooltip = Ready asa tenna submit { $actionType } kor
 clips-uploaded = Clips Upload Zale
 record-abort-title = Recording purai kor poilem?
 record-abort-text = Ata sodun geliar tujhe clips pusun voitele

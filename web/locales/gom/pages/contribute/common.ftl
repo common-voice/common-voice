@@ -1,5 +1,5 @@
 action-click = Click
-action-tap = Damp
+action-tap = Press
 contribute = Yogdan di
 review = Niyall
 skip = Sod
