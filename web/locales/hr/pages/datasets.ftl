@@ -67,6 +67,11 @@ no-information-available = Nema dostupnih informacija
 dataset-metadata-sex = Spol
 # dataset metadata - age of contributor
 dataset-metadata-age = Starost
+donate-modal-message = Tvoj se skup podataka preuzima!
+dataset-donate-modal-heading = Znaš li da …
+donate-modal-explanation-1 = Spremanje skupova podataka i poboljšanje platforme za više od 100 jezičnih zajednica koje se oslanjaju na ono što mi radimo košta gotovo milijun dolara godišnje.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ako cijeniš otvorene, uključive podatke – doniraj danas!</bold>
 data-download-singleword-title = Preuzmi segment za ciljanje pojedinačnih riječi
 data-download-singleword-callout-v2 = Ovo je segment usmjeren na slučajeve upotrebe koji sadrži podatke za prepoznavanje izgovorenih znamenki i otkrivanje da / ne.
 data-download-button = Preuzmi Common Voice podatke
