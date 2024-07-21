@@ -7,6 +7,7 @@ record-error-too-long = Recording chod vhoddlem zale.
 record-error-too-quiet = Recording samki ogi asa.
 record-instruction = <recordIcon></recordIcon> { $actionType } ani magir sentence mottean vach
 record-stop-instruction = zale zaliar <stopIcon></stopIcon> { $actionType }
+record-three-more-instruction = Anik teen asa!
 record-again-instruction = Shabbas! Dusre clip <recordIcon></recordIcon> record kor
 record-again-instruction2 = Borem asa, ani ek record kor <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Last ek!
