@@ -5,3 +5,5 @@ listen-3rd-time-instruction = Još 2, ustrajte!<playIcon> </playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Posljednja!
 listen-empty-state = Ponestalo nam je isječaka za potvrdu na ovom jeziku...
 listen-abort-title = Završiti provjeru isječaka?
+listen-abort-cancel = Nastavi provjeravati
+listen-abort-confirm = Završi provjeru
