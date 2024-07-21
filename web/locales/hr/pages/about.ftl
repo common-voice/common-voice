@@ -57,9 +57,13 @@ about-nav-playbook = Saznaj kako sudjelovati
 ## What is a language
 
 about-playbook-what-is-language = Što je jezik na Common Voiceu?
+about-playbook-what-is-language-content-1 = Postoje razna razmišljanja o jeziku. Za potrebe modela prepoznavanja govora, Common Voice predlaže fokusiranje na „međusobnu razumljivost” ili „mogu li govornici ovog jezika uglavnom razumjeti jedni druge ako pokušaju?”
+about-playbook-what-is-language-content-2 = Želimo da govorni modeli bolje razumiju različite govornike. Za to je potrebno da skup podataka govora mora predstavljati mnoge različite osobe.
+about-playbook-what-is-language-content-3 = Neki jezici imaju velik broj varijanti u gramatici, vokabularu i izgovoru. Iz tog razloga <ctaLink>uvodimo „Varijante”</ctaLink> 2022. To omogućuje zajednicama da razlikuju svoje jezike unutar većeg skupa podataka.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Kako mogu dodati jezik?
 
 ## How does localization work
 
