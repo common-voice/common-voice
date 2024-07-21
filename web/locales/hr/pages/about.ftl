@@ -40,8 +40,10 @@ about-get-involved = Uključi se
 about-get-involved-text-2 =
     Želiš pomoći poboljšati Common Voice?
     Sjajno! Stupi u kontakt putem e-pošte ili putem <discourseLink>foruma za diskusije</discourseLink>,
-    pošalji povratne informacije putem <githubLink>GitHub</githubLink> sustava,
+    pošalji povratne informacije putem <githubLink>GitHub</githubLink> sustava
     ili se pridruži razgovorima zajednice putem <matrixLink>Matrixa</matrixLink>.
+about-stay-in-touch = Kako mogu ostati u kontaktu?
+about-stay-in-touch-button = Registriraj se
 about-nav-why-common-voice = Zašto?
 about-nav-how-it-works = Kako?
 about-nav-partners = Partneri
