@@ -42,3 +42,5 @@ create-profile-text = Želiš spremiti svoje podatke? <createProfile>Stvori prof
 first-cta-gender-select-default-option = Odaberi jednu opciju
 already-have-an-account = Već imaš račun? <login>Prijavi se</login>
 create-profile-button = Stvori profil
+# IMAGE TAGS
+img-alt-success-checkmark = kvačica uspjeha
