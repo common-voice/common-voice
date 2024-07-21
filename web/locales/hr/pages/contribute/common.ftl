@@ -85,7 +85,7 @@ request-language-button = Zatraži jezik
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Play/Stop
+shortcut-play-toggle-label = Reproduciraj/Prekini
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = d
@@ -95,3 +95,16 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Kriteriji
+contribution-criteria-link = Razumij kriterije za doprinošenje
+contribution-criteria-page-title = Kriteriji za doprinošenje
+contribution-for-example = na primjer
+contribution-misreadings-title = Pogrešna čitanja
+contribution-misreadings-example-8-explanation = [Nepoklapajući sadržaj]
+contribution-varying-pronunciations-title = Različiti izgovori
+contribution-background-noise-title = Buka u pozadini
+contribution-background-noise-example-2-explanation = [Dio teksta se ne čuje]
+contribution-background-voices-title = Glasovi u pozadini
+contribution-volume-title = Glasnoća
+see-more = <chevron></chevron>Prikaži više
+see-less = <chevron></chevron>Prikaži manje
