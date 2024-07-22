@@ -70,6 +70,10 @@ about-playbook-how-add-language-content-1 =
     Postoje dvije faze. Prevođenje stranice i sakupljanje rečenica
 about-playbook-how-add-language-translating-heading = Prevođenje stranice
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pogledaj naš vodič o tome kako koristiti Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Za prijevode koristimo Mozillin alat koji se zove <pontoonLink>Pontoon</pontoonLink>. Pontoon sadrži mnogo jezika, ali ako tvoj nedostaje, možeš <pontoonRequestLink>zatražiti dodavanje tvog jezika</pontoonRequestLink>.
+    Zatim, da bi jezik bio dostupan u projektu Common Voice,
+    <githubRepoLink>zatraži novi jezik na GitHubu</githubRepoLink>. <localizationFragment>Saznaj više o prevođenju web stranice</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Sakupljanje rečenica
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Pogledaj naš vodič za korištenje alata „Sakupljač rečenica”</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
@@ -91,9 +95,11 @@ about-playbook-how-localize-content-5 = Za pomoć pogledaj naš video s objašnj
 
 about-playbook-how-add-sentences = Kako mogu dodati rečenice?
 about-playbook-how-add-sentences-content-1 = Rečenice možeš dodati na <writePageLink>stranici za pisanje</writePageLink> ili pregledaj rečenice na <reviewPageLink>stranici za pregled</reviewPageLink>.
+about-playbook-how-add-sentences-content-3 = Možeš koristiti alat <scraperLink>Izdvajač rečenica</scraperLink> za korištenje kratkih rečenica s Wikipedije.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Kako mogu snimiti govorni isječak visoke kvalitete?
 about-playbook-how-record-content-3 = Pažljivo pročitaj rečenicu – nemoj propustiti, promijeniti ili dodati riječi.
 about-playbook-how-record-content-4 = Osiguraj da platforma snima prije nego što počneš govoriti i da prekine snimanje tek kada završiš.
 about-playbook-how-record-content-5 = <accuracyLink>Pogledaj više o kriterijima točnosti.</accuracyLink>
