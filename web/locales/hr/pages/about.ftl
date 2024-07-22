@@ -95,11 +95,14 @@ about-playbook-how-localize-content-5 = Za pomoć pogledaj naš video s objašnj
 
 about-playbook-how-add-sentences = Kako mogu dodati rečenice?
 about-playbook-how-add-sentences-content-1 = Rečenice možeš dodati na <writePageLink>stranici za pisanje</writePageLink> ili pregledaj rečenice na <reviewPageLink>stranici za pregled</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Rečenice moraju pregledati i prihvatiti dvije osobe da bi se uključile u Common Voice. Izradi smjernice za tvoj jezik <languageGuidelinesLink>ovdje</languageGuidelinesLink>. Rečenice moraju biti u <licenseLink>javnom vlasništvu</licenseLink> i kraće od 15 riječi. Možeš zamoliti vlasnika teksta da licenzira rečenicu pod <waiverLink>CC0 licencom koristeći naš postupak odricanja</waiverLink> i da nam to pošalje na commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Možeš koristiti alat <scraperLink>Izdvajač rečenica</scraperLink> za korištenje kratkih rečenica s Wikipedije.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Kako mogu snimiti govorni isječak visoke kvalitete?
+about-playbook-how-record-content-1 = Govori normalnim glasom! Tvoj način govora je ovdje dobrodošao – želimo tvoj naglasak kakav jest i želimo tvoju uobičajenu glasnoću, stil i intonaciju.
+about-playbook-how-record-content-2 = Izbjegni buku u pozadini kako bi te se što bolje čulo.
 about-playbook-how-record-content-3 = Pažljivo pročitaj rečenicu – nemoj propustiti, promijeniti ili dodati riječi.
 about-playbook-how-record-content-4 = Osiguraj da platforma snima prije nego što počneš govoriti i da prekine snimanje tek kada završiš.
 about-playbook-how-record-content-5 = <accuracyLink>Pogledaj više o kriterijima točnosti.</accuracyLink>
@@ -107,6 +110,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Pogledaj više o kriterijima
 ## How to grow language
 
 about-playbook-how-grow-language = Kako možemo učinkovito razvijati jezik na Common Voiceu?
+about-playbook-how-grow-language-content-1 = Stvaranje mogućnosti za raznolikost ljudi koji mogu doprinijeti Common Voiceu osigurava da skup podataka služi što većem broju ljudi. Izradili smo resurse i predloške koje možeš koristiti!
 about-playbook-how-grow-language-content-2 = Događaji
 about-playbook-how-grow-language-content-4 = Društvene mreže
 about-playbook-how-grow-language-content-6 = Partnerstva i mreže
