@@ -121,6 +121,8 @@ about-playbook-how-grow-language-content-6 = Partnerstva i mreže
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kako mogu pristupiti i koristiti skup podataka?
+about-playbook-how-access-dataset-content-1 = Idi na <datasetsPage>stranicu skupova podataka</datasetsPage>, odaberi verziju i jezik(e) koje želiš i preuzmi ga! Datoteke sadrže <metadataLink>pridružene metapodatke</metadataLink>, kao što su demografski podaci i podaci o potvrdi valjanosti. Za preuzimanje skupa podataka moraš upisati jednu e-mail adresu.
+about-playbook-how-access-dataset-content-2 = Ako tražiš alate za izradu ASR modela, možeš se povezati s drugim ljudima u zajednici na platformi <discourseLink>Discourse</discourseLink>.
 
 ## How are decisions made
 
