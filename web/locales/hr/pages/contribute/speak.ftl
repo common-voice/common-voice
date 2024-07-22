@@ -36,10 +36,17 @@ review-delete-recordings = Izbriši moje snimke
 review-terms = Korištenjem Common Voicea, prihvaćaš naše <termsLink>uvjete</termsLink> i <privacyLink>napomene o privatnosti</privacyLink>
 terms-agree = slažem se
 terms-disagree = ne slažem se
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Hvala ti za tvoje govorne isječke!
+first-cta-subtitle-text = Ako nam kažeš nešto o sebi, pomoći ćeš programerima da izgrade inkluzivniju tehnologiju
 add-information-button = Dodaj informacije
 continue-speaking-button = Ne hvala, nastavi govoriti
 create-profile-text = Želiš spremiti svoje podatke? <createProfile>Stvori profil</createProfile>
+thanks-for-voice-toast = Hvala ti na tvojim govornim informacijama
+thanks-for-voice-toast-error = Došlo je do greške prilikom slanja tvojih govornih informacija
 first-cta-gender-select-default-option = Odaberi jednu opciju
+first-cta-gender-select-help-text =
+    .label = Kako bi opisao/la svoj spol ili rod?
 already-have-an-account = Već imaš račun? <login>Prijavi se</login>
 create-profile-button = Stvori profil
 # IMAGE TAGS
