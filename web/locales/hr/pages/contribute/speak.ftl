@@ -47,6 +47,9 @@ thanks-for-voice-toast-error = Došlo je do greške prilikom slanja tvojih govor
 first-cta-gender-select-default-option = Odaberi jednu opciju
 first-cta-gender-select-help-text =
     .label = Kako bi opisao/la svoj spol ili rod?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Hvala ti za doprinos tvog glasa!
+second-cta-subtitle-text = Pomoću profila možeš pratiti svoju aktivnost i povezati se sa zajednicom doprinositelja govornih podataka.
 already-have-an-account = Već imaš račun? <login>Prijavi se</login>
 create-profile-button = Stvori profil
 # IMAGE TAGS

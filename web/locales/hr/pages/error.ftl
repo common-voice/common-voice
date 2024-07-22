@@ -1,5 +1,6 @@
 ## Error pages
 
+banner-error-slow-1 = Nažalost, Common Voice radi sporo. Hvala ti na interesu.
 banner-error-slow-2 = Trenutačno primamo veliku količinu podataka i istražujemo probleme.
 banner-error-slow-link = Stranica stanja
 error-something-went-wrong = Oprosti, dogodila se greška
