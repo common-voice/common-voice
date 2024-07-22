@@ -66,7 +66,7 @@ about-playbook-what-is-language-content-3 = Neki jezici imaju velik broj varijan
 about-playbook-how-add-language = Kako mogu dodati jezik?
 about-playbook-how-add-language-content-1 =
     Najprije provjeri je li tvoj jezik <languageLink>već postoji</languageLink>.
-    Ako ne, možeš <languageRequestLink>zatražiti dodavanje tvog jezika</languageRequestLink>.
+    Ako nije, možeš <languageRequestLink>zatražiti dodavanje tvog jezika</languageRequestLink>.
     Postoje dvije faze. Prevođenje stranice i sakupljanje rečenica
 about-playbook-how-add-language-translating-heading = Prevođenje stranice
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pogledaj naš vodič o tome kako koristiti Pontoon.</translateVideoLink>

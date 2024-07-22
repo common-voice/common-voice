@@ -103,6 +103,7 @@ contribution-criteria-page-description = Saznaj na što moraš paziti kada sluš
 contribution-for-example = na primjer
 contribution-misreadings-title = Pogrešna čitanja
 contribution-misreadings-description = Kada slušaš, provjeri je li se snimka i tekst poklapaju; odbij čak i pri manjim greškama. <br />Česte greške uključuju:
+contribution-misreadings-description-extended-list-1 = Na početku snimke nedostaje <strong>neodređeni član</strong> ili <strong>određeni član</strong> imenice.
 contribution-misreadings-description-extended-list-2 = Nedostaje nastavak <strong>za genitiv</strong> na kraju riječi.
 contribution-misreadings-description-extended-list-4 = Nedostaje kraj zadnje riječi zbog prebrzog prekidanja snimanja.
 contribution-misreadings-description-extended-list-5 = Nekoliko pokušaja čitanja riječi.

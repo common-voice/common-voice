@@ -13,6 +13,7 @@ reader-effects = Efekti čitača
 just-unsure = Nisi siguran/na?
 example = Primjer
 misreadings-explanation-2 = Vrlo uobičajene pogreške uključuju:
+misreadings-explanation-3 = Na početku snimke nedostaje neodređeni ili određeni član imenice.
 misreadings-explanation-4 = Nedostaje nastavak za genitiv na kraju riječi.
 misreadings-explanation-6 = Nedostaje kraj zadnje riječi zbog prebrzog prekidanja snimanja.
 misreadings-explanation-7 = Nekoliko pokušaja čitanja riječi.
