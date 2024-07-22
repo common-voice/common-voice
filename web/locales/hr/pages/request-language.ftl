@@ -33,3 +33,6 @@ request-language-success-list-3 =
     Ako ti se ne javimo u roku od nekoliko dana,
     kontaktiraj nas na <emailLink>{ $email }</emailLink>
     i mi ćemo ti se javiti!
+request-language-error =
+    Možda nismo primili taj zahtjev. Pošalji nam e-mail izravno
+    na <emailLink>{ $email }</emailLink> i mi ćemo ti se javiti!
