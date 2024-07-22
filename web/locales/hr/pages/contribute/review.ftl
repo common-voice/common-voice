@@ -1,9 +1,11 @@
 ## REVIEW
 
+sc-review-lang-not-selected = Nisi odabrao/la nijedan jezik. Idi na svoj <profileLink>Profil</profileLink> za biranje jezika.
 sc-review-title = Pregledaj rečenice
 sc-review-loading = Učitavanje rečenica …
 sc-review-select-language = Odaberi jezik za pregled rečenica.
 sc-review-no-sentences = Nema rečenica za pregled. <addLink>Dodaj još rečenica sada!</addLink>
+sc-review-form-usage = Prijeđi prstom udesno za potvrđivanje rečenice. Prijeđite prstom ulijevo za odbijanje. Prijeđi prstom prema gore za preskakanje. <strong>Nemoj zaboraviti poslati tvoju recenziju!</strong
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Izvor: { $sentenceSource }
