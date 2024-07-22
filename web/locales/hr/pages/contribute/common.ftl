@@ -14,11 +14,12 @@ goal-help-recording = Uz tvoju pomoć je Common Voice postigao <goalPercentage><
 goal-help-validation = Uz tvoju pomoć je Common Voice postigao <goalPercentage></goalPercentage> našeg dnevnog cilja za provjeravanje od { $goalValue }!
 contribute-more =
     { $count ->
-        [one] Jeste li spremni obaviti još { $count }?
-        [few] Jeste li spremni obaviti još { $count }?
-       *[other] Jeste li spremni obaviti još { $count }?
+        [one] Želiš li obaviti još { $count }?
+        [few] Želiš li obaviti još { $count }?
+       *[other] Želiš li obaviti još { $count }?
     }
 speak-empty-state = Ponestalo nam je rečenica za snimanje na ovom jeziku...
+no-sentences-for-variants = Čini se da tvoja jezična varijanta nema više rečenica! Ako ti odgovara, možeš promijeniti postavke za prikaz drugih rečenica na tvom jeziku.
 speak-empty-state-cta = Doprinesi rečenice
 speak-loading-error =
     Nismo dobili nijednu rečenicu za govor.
