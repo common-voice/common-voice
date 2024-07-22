@@ -20,3 +20,16 @@ request-language-form-info-explanation-list-2 = <isoCodeLink>ISO kodovi</isoCode
 request-language-form-info-explanation-list-3 = Poveznice na web stranice koje nam mogu pomoći razumjeti jezik
 request-language-google-recaptcha-required = Riješi reCAPTCHA ako želiš nastaviti
 request-language-google-recaptcha-error = Nešto nije u redu s reCAPTCHA. Pokušaj ponovo.
+# Success page
+request-language-success-heading = Hvala! Poslao/la si zahtjev za novi jezik
+request-language-success-list-1 =
+    Uskoro ćeš primiti e-mail s uputama
+    za dodavanje tvog jezika u Common Voice
+request-language-success-list-2 =
+    Naš upravitelj zajednice će ti se javiti i ponuditi
+    pomoć te će te obavijestiti o tome, je li
+    zajednica koja radi na tvom jeziku već postoji
+request-language-success-list-3 =
+    Ako ti se ne javimo u roku od nekoliko dana,
+    kontaktiraj nas na <emailLink>{ $email }</emailLink>
+    i mi ćemo ti se javiti!
