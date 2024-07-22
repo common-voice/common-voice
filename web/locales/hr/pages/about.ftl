@@ -138,3 +138,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Pročitaj viš
 ## How is Common Voice funded
 
 about-playbook-how-funded = Kako se financira Common Voice?
+about-playbook-how-funded-content-1 = Common Voice je projekt zaklade Mozilla Foundation (američka neprofitna 501c3 organizacija). Projekt se trenutačno u potpunosti financira <philantropicGrantLink>potporama filantropa</philantropicGrantLink> i donacijama ljudi iz cijelog svijeta.
+about-playbook-how-funded-content-2 = Spremanje i objavljivanje skupova podataka, poboljšavanje platforme i vođenje <africaMradiLink>programa zajednice</africaMradiLink> košta puno novca.
