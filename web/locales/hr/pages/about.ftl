@@ -127,6 +127,8 @@ about-playbook-how-access-dataset-content-2 = Ako tražiš alate za izradu ASR m
 ## How are decisions made
 
 about-playbook-how-project-governance = Kako se donose odluke za projekt?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice omogućuje zajednica aktivista, lingvista, podatkovnih znanstvenika, akademičara i softverskih inženjera iz cijelog svijeta. Projektom upravlja zaklada Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Osnove našeg upravljanja su:
 about-playbook-how-project-governance-content-3 = Privatnost, sigurnost i transparentnost.
 about-playbook-how-project-governance-content-4 = Sudjelovanje zajednice i donošenje odluka.
 about-playbook-how-project-governance-content-5 = Vrijednost i priznanje.
