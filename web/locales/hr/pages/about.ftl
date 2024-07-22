@@ -83,6 +83,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Kako funkcionira lokalizacija stranica?
 about-playbook-how-localize-content-1 = Stranica Common Voice se prevodi na platformi <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Otvori račun</pontoonAccountLink> ako ga nemaš. Odaberi svoj jezik <strong>(„tim”)</strong> i zatim odaberi projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Bit će datoteka za prijevod. Pritiskom na jednu datoteku prikazuju se riječi na engleskom i polje za prijevod.
+about-playbook-how-localize-content-3 = Prevodi se s engleskog jezika, ali možeš vidjeti <strong>prijedloge</strong> na drugim jezicima. Klikni ikonu <strong>Profil</strong>, zatim poveznicu <strong>Postavke</strong> i dodaj sve jezike koje govoriš. U donjem desnom kutu ćeš vidjeti popis prijevoda koji se zove <strong>Locales</strong>. Prijevodi se prikazuju na stranici nakon jednog dana.
 about-playbook-how-localize-content-4 = Stranica je spremna za objavljivanje kada je 75 % prevedena.
 about-playbook-how-localize-content-5 = Za pomoć pogledaj naš video s objašnjenjima
 
