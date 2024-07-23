@@ -71,6 +71,7 @@ help-accent-explanation = Aksanınız kelimeleri telaffuz etme şeklinizdir. Ya�
 help-variants = Lehçelerle ilgili yardıma mı ihtiyacınız var?
 help-variants-explanation = Lehçeler bir dilin belirli biçimleridir. Örneğin, bir coğrafyada veya toplulukta yaşayanlar tarafından paylaşılır. Bazen bunlara "varyant" veya "değişke" de denir.
 help-sex-or-gender-changes = Cinsiyet değişiklikleri konusunda yardıma mı ihtiyacınız var?
+help-sex-or-gender-changes-explanation = İnsanlara cinsiyetleri veya cinsiyet kimlikleri hakkında bize söyleyecekleri şeylerde daha fazla seçenek sunuyoruz. Lütfen kendinizi size en doğal gelen şekilde tanımlayın. <learnMoreLink>Cinsiyet ve toplumsal cinsiyete yaklaşımımız hakkında daha fazla bilgi alın.</learnMoreLink>
 variant-contribution-options-header = Lehçe katkısı seçenekleri
 variant-contribution-help = Bir dil veya dil ailesi içindeki bazı lehçeler birbirinden çok farklı olabilir. Belirli bir lehçeyle etkileşim kurmakta zorlanıyorsanız tercihlerinizi buradan değiştirebilirsiniz.
 variant-contribution-option-1 = Dilimdeki tüm lehçelerin cümlelerini ve ses kayıtlarını göster

@@ -110,17 +110,17 @@ days =
     { $count ->
         [one] день
         [few] дня
-       *[other] дней
+       *[many] дней
     }
 recordings =
     { $count ->
         [one] запись
         [few] записи
-       *[other] записей
+       *[many] записей
     }
 validations =
     { $count ->
         [one] проверка
         [few] проверки
-       *[other] проверок
+       *[many] проверок
     }

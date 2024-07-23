@@ -1,6 +1,22 @@
-action-tap = Damp
-contribute = Vantto ge
+action-click = Click
+action-tap = Press
+contribute = Yogdan di
+review = Niyall
 skip = Sod
+shortcuts = Shortcut
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Clip
+       *[other] <bold>{ $count }</bold> Clip
+    }
+goal-help-recording = Tuven moddot kele Common Voice-acho dor-disache { $goalValue } -atlean <goalPercentage></goalPercentage> recording target pavpak!
+goal-help-validation = Tuven moddot kele Common Voice-acho dor-disache { $goalValue } -atlean <goalPercentage></goalPercentage> sarkeponn topasniche target pavpak!
+contribute-more =
+    { $count ->
+        [one] Ani { $count } korpak toiar asa?
+       *[other] Anik { $count } korpak toiar asa?
+    }
+speak-empty-state-cta = Vakio yogdan korat
 record-button-label = Tuzo avaz di
 
 ## Contribution Nav Items
@@ -29,3 +45,5 @@ request-language-button = Bhas request kor
 
 ## Validation criteria
 
+see-more = <chevron></chevron>Anik dakoi
+see-less = <chevron></chevron>Tode dakoi

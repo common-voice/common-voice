@@ -60,6 +60,10 @@ download = Sader
 dataset-version = Lqem
 clipboard-not-supported = Tacfawt ur tettusefrak ara
 no-information-available = Ulac talɣut i yellan
+dataset-metadata-sex = Tuzuft
+# dataset metadata - age of contributor
+dataset-metadata-age = Awtay
+dataset-donate-modal-heading = Teẓriḍ…
 data-download-singleword-title = Sader aḥric iswi Single Word
 data-download-singleword-callout-v2 = Wagi d aḥric seg tegrumma n yisefka i useǧhed n uɛqal n yizwilen akked tifin n ih / uhu.
 data-download-button = Sali-d isefka Common Voice

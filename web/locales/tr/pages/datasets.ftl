@@ -23,6 +23,7 @@ number-of-voices = Ses sayısı
 splits = Ayrımlar
 email-to-download = İndirmek için e-postanızı yazın
 why-email = <b>Neden e-posta istiyorsunuz?</b> Veri kümesindeki değişiklikler hakkında gelecekte sizinle iletişim kurmamız gerekebilir. E-postanız bize bir iletişim bilgisi sağlar.
+why-donate-datasets-page = Mozilla Common Voice, dünyanın en kapsayıcı kitle kaynaklı açık konuşma veri kümesi. Gücümüzü tamamen bağışlarınızdan alıyoruz. Veri kümelerini barındırmanın ve platformu 100'den fazla dil için geliştirmenin yıllık maliyeti bir milyon dolara yakın. Açık ve kapsayıcı verilere değer veriyorsanız <b>bugün bağış yapın!</b>
 confirm-size = <b>{ $size }</b> boyutundaki indirme işlemini başlatmaya hazırım
 size-gigabyte = GB
 size-megabyte = MB

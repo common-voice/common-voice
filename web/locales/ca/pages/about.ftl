@@ -144,3 +144,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Llegiu més so
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Com es finança el Common Voice?

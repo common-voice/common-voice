@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = Kontakt obrazac
+contact-title = Obrazac za kontakte
 contact-form-name =
     .label = Ime
 contact-form-message =
