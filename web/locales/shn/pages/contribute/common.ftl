@@ -1,4 +1,22 @@
+action-click = ၶလိၵ်ႉ
+action-tap = ထႅပ်ႉ
 contribute = ၸွႆႈထႅမ်
+review = ႁုပ်ႈတူၺ်းၶိုၼ်း
+skip = ၶၢမ်ႈ
+shortcuts = တၢင်းလတ်း
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> ၶလိပ်ႉ
+       *[other] <bold>{ $count }</bold> ၶလိပ်ႉ
+    }
+goal-help-recording = သူလႆႈၸွႆႈႁႂ်ႈ Common Voice ႁွတ်ႈၽႅဝ် <goalPercentage></goalPercentage> ၶွင်ယိူင်းမၢႆၵၢၼ်ဢတ်းသဵင် { $goalValue } ၵူႈဝၼ်းၶွင်ႁဝ်း!
+goal-help-validation = သူလႆႈၸွႆႈႁႂ်ႈ Common Voice ႁွတ်ႈၽႅဝ် <goalPercentage></goalPercentage> ၶွင်ယိူင်းမၢႆၵၢၼ်ၵူတ်ႇထတ်း { $goalValue } ၵူႈဝၼ်းၶွင်ႁဝ်း!
+contribute-more =
+    { $count ->
+        [one] ၽွမ်ႉတႃႇတေႁဵတ်းထႅင်ႈ { $count } ယဝ်ႉႁႃႉ?
+       *[other] ၽွမ်ႉတႃႇတေႁဵတ်းထႅင်ႈ { $count } ယဝ်ႉႁႃႉ?
+    }
+speak-empty-state = ႁဝ်းၶႃႈဢမ်ႇမီးတူၼ်းထႅဝ်လိၵ်ႈတႃႇတေဢတ်းသဵင်ၼႂ်းၽႃႇသႃႇၼႆႉယဝ်ႉ...
 
 ## Contribution Nav Items
 

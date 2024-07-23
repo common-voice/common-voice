@@ -41,6 +41,7 @@ first-cta-header-text = Ses kayıtlarınızı bağışladığınız için teşek
 first-cta-subtitle-text = Nasıl konuştuğunuz hakkında biraz bilgi paylaşmak ister misiniz?
 why-donate = Neden soruyorsunuz?
 why-donate-explanation-1 = Bu bilgileri vermeniz isteğe bağlıdır. Kendinizi rahat hissetmiyorsanız bilgilerinizi paylaşmayabilirsiniz. Veri kümesini yayımladığımızda tüm kişisel bilgilerinizi anonimleştiriyor, ad ve e-posta adresi gibi bilgilerinizin yaş ve cinsiyet gibi demografik bilgilerle bağlantılı olmamasını sağlıyoruz.
+why-donate-explanation-2 = Teknolojinin herkes için iyi çalışması için, geliştiricilerin teknolojiyi oluşturmalarına yardımcı olan verilerin farklı insanları yansıtması gerekir. Örneğin, belirli bir aksana sahip hiçbir konuşmacıyı dahil etmezsek teknoloji o aksana sahip kişiler için iyi çalışmayacaktır. <learnMore>Meta verilerin önemi hakkında bilgi alın.</learnMore>
 add-information-button = Bilgi ekle
 continue-speaking-button = Hayır, konuşmaya devam et
 create-profile-text = Bilgilerinizi kaydetmek ister misiniz? <createProfile>Profil oluşturun</createProfile>
