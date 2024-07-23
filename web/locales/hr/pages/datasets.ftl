@@ -1,5 +1,6 @@
 ## Datasets Page
 
+datasets-heading = Skupovi podataka
 datasets-headline = Gradimo otvoren i višejezičan skup glasova, koji svi mogu koristiti za podučavanje govornih programa.
 datasets-positioning =
     Vjerujemo da veliki i javno dostupni skupovi podataka glasa potiču inovacije i zdravu komercijalnu konkurenciju govorne tehnologije, utemeljene na strojnom učenju.
@@ -8,12 +9,16 @@ datasets-positioning =
     
     Pogledaj ovu stranicu kao referencu za druge skupove podataka otvorenog koda i, kako Common Voice raste, bit će izvor za naša buduća izdanja.
 language = Jezik
+download-dataset-header = Preuzmi skup podataka
+download-delta-explainer = Učinili smo neke promjene. Delta segmenti sadrže samo najnovije isječke od zadnjeg izdanja. <deltaLink>Pročitaj više o ovom radu</deltaLink>.
+download-dataset-tag = Odaberi željeni jezični skup podataka i odaberi verziju koju želiš preuzeti.
 # File size in gigabytes
 size = Veličina
 validated-hr-total = Potvrđeni sati ukupno
 overall-hr-total = Broj sati ukupno
 cv-license = Licenca
-audio-format = Format zvuka
+audio-format = Audio format
+dataset-splits = Podjele (dob i spol)
 number-of-voices = Broj glasova
 splits = Podjele
 email-to-download = Za preuzimanje, upiši e-adresu
@@ -22,6 +27,7 @@ confirm-size = Sve je spremno za pokretanje preuzimanja veličine <b>{ $size }</
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>Slažeš se</b>, da nećeš pokušati utvrditi identitet govornika u skupu podataka Common Voice
+confirm-join-mailing-list = Želi se pridružiti Common Voice mailing listi
 download-language = Preuzmi { $language }
 validated-hours = Potvrđeni sati
 recorded-hours = Snimljeni sati
@@ -35,6 +41,11 @@ subscribe = Pretplati se
 get-started-speech = Započni s prepoznavanjem govora
 other-datasets = Drugi skupovi glasovnih podataka
 feedback-q = Želiš nam poslati povratne informacije?
+# This indicates that there is no data to display
+no-information = Nema informacija
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ je <docsLink>alat otvorenog koda</docsLink> za istraživače koji razvijaju najsuvremenije UI modele za konverzacije.
+resource-deepspeech-info = Mozillin mehanizam otvorenom koda za prepoznavanje glasa Deep Speech može se koristiti za izradu aplikacija za prepoznavanje govora. Pročitaj naš <githubLink>Github pregled</githubLink> ili se pridruži <discourseLink>DeepSpeech diskursu</discourseLink> upoznavanje korištenja mehanizma.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> je posvećen tehnologiji otvorenog govora. Njihovi projekti uključuju STT i TTS urešaje temeljene na dubokom učenju.
 data-other-librispeech-description = LibriSpeech je korpus od oko 1.000 sati engleskog govora pri 16 Khz, izveden iz audio knjiga LibriVox projekta.
 data-other-ted-name = TED-LIUM korpus
 data-other-ted-description = TED-LIUM korpus je izrađen iz audio razgovora i njihovih transkripcija, dostupnih na TED web-stranici.
@@ -49,6 +60,18 @@ more = Više
 close = Zatvori
 download = Preuzmi
 dataset-version = Verzija
+sha256-checksum-copied = SHA256 kontrolni zbroj kopiran!
+sha256-checksum-copied-error = Kopiranje SHA256 kontrolnog zbroja nije uspjelo
+clipboard-not-supported = Međuspremnik se ne podržava
+no-information-available = Nema dostupnih informacija
+dataset-metadata-sex = Spol
+# dataset metadata - age of contributor
+dataset-metadata-age = Starost
+donate-modal-message = Tvoj se skup podataka preuzima!
+dataset-donate-modal-heading = Znaš li da …
+donate-modal-explanation-1 = Spremanje skupova podataka i poboljšanje platforme za više od 100 jezičnih zajednica koje se oslanjaju na ono što mi radimo košta gotovo milijun dolara godišnje.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ako cijeniš otvorene, uključive podatke – doniraj danas!</bold>
 data-download-singleword-title = Preuzmi segment za ciljanje pojedinačnih riječi
 data-download-singleword-callout-v2 = Ovo je segment usmjeren na slučajeve upotrebe koji sadrži podatke za prepoznavanje izgovorenih znamenki i otkrivanje da / ne.
 data-download-button = Preuzmi Common Voice podatke

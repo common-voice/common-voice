@@ -72,3 +72,7 @@ help-variants = Us cal ajuda amb les variants?
 help-variants-explanation = Les variants són formes específiques d'una llengua. Per exemple, compartides per persones que viuen en una zona geogràfica o comunitat. De vegades s'anomenen dialectes.
 help-sex-or-gender-changes = Us cal ajuda amb els canvis de gènere o sexe?
 help-sex-or-gender-changes-explanation = Oferim més a opcions a les persones perquè puguin més opcions on triar sobre el que ens diuen sobre el seu sexe o identitat de gènere. Si us plau, descriviu-vos de la manera que us sembli més natural. <learnMoreLink>Obteniu més informació sobre el nostre enfocament del sexe i el gènere.</learnMoreLink>
+variant-contribution-help = Algunes variants i dialectes dins d'una llengua o família lingüística són molt diferents entre si. Si teniu problemes per relacionar-vos amb una variant concreta, podeu canviar les vostres preferències aquí.
+variant-contribution-option-1 = Mostra'm frases i talls de totes les variants de la meva llengua
+variant-contribution-option-2 = Mostra'm només frases i talls de la meva variant
+variant-contribution-warning-title = ⓘ No totes les frases i talls tenen etiquetes de variant!

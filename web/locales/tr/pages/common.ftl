@@ -253,7 +253,10 @@ not-available-abbreviation = Yok
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Yardımınıza</mark><br/><mark>ihtiyacımız var!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Yaptığımız işe güvenen 100’den fazla dil topluluğu için veri kümelerini barındırmak ve platformu geliştirmek yılda neredeyse bir milyon dolara mal oluyor. <strong>Açık ve kapsayıcı verilere değer veriyorsanız bugün bağış yapın!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Common Voice’u araştırmalarınızda</mark><br/><mark>kullanıyor musunuz?</mark>
+languages-donate-banner-cta-explanation = Common Voice bağış ve yardımlarla finanse ediliyor. Akademisyenler, sivil toplum ve sektör araştırmacılarıyla işbirliği yapmayı seviyoruz. Common Voice’u kullanmak ücretsiz ama bağış ve yardımlarla platform ve barındırma maliyetlerine katkıda bulunmanız çok faydalı olabilir.
 localization-select =
     .label = Dil seçin

@@ -30,6 +30,7 @@ target-segment-generic-card = Esteu col·laborant en un segment objectiu
 target-segment-first-banner = Ajudeu a assolir el primer segment objectiu del Common Voice en { $locale }
 target-segment-add-voice = Afegiu la vostra veu
 target-segment-learn-more = Més informació
+change-preferences = Canvia les preferències
 
 ## Contribution Nav Items
 

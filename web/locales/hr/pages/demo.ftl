@@ -27,7 +27,7 @@ demo-account-sign-up = Pošalji poveznicu za prijavu
 
 demo-contribute-card-header = Jeste li spremni dodati svoj glas ili posuditi uho?
 demo-contribute-card-body-v2 = Sad kada znate malo više o projektu Common Voice, zašto ga ne isprobati? Kliknite na ikonu mikrofona kako bi počeli čitati rečenice na glas. <br/><br/>Ako vam je draže provjeravanje glasovnih doprinosa drugih ljudi, klikni na ikonu za reprodukciju. Pomoći ćete potvrditi da se snimke slažu sa rečenicama na ekranu.
-demo-listen-subtitle = Jeste li spremni dati svoj doprinos?
+demo-listen-subtitle = Jeste li spremni doprinositi?
 
 ## Demo Dashboard
 

@@ -131,3 +131,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Issin ugar ɣe
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Amek i d-yettawi Common Voice tadrimt?

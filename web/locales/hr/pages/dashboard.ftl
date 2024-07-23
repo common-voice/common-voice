@@ -1,18 +1,18 @@
 ## Dashboard
 
-your-languages = Vaši jezici
+your-languages = Tvoji jezici
 toward-next-goal = Prema sljedećem cilju
 goal-reached = Cilj postignut
-clips-you-recorded = Isječci koje ste snimili
-clips-you-validated = Tvoji potvrđeni isječci
+clips-you-recorded = Isječci koje si snimio/la
+clips-you-validated = Isječci koje si potvrdio/la
 todays-recorded-progress = Današnji napredak Common Voicea o snimljenim isječcima
 todays-validated-progress = Današnji napredak Common Voicea o potvrđenim isječcima
 stats = Statistike
 awards = Nagrade
-you = Vi
-everyone = Svi
-contribution-activity = Aktivnost doprinosa
-top-contributors = Top doprinositelji
+you = Ti
+everyone = Svatko
+contribution-activity = Aktivnost doprinošenja
+top-contributors = Najaktivniji doprinositelji
 recorded-clips = Snimljeni isječci
 validated-clips = Potvrđeni isječci
 total-approved = Ukupno odobreno
@@ -20,7 +20,7 @@ overall-accuracy = Ukupna točnost
 set-visibility = Postavi moju vidljivost
 visibility-explainer = Ova postavka kontrolira vidljivost tvoje ploče najboljih rezultata. Kad je skrivena, tvoj će napredak biti privatan. To znači da se tvoja slika, korisničko ime i napredak ne pojavljuju na ploči najboljih rezultata. Imaj na umu, da je za aktualiziranje ploče potrebno otprilike { $minutes } min.
 visibility-overlay-note = Napomena: Ako je postavljeno na „Vidljivo”, ta se postavka može promijeniti na <profileLink>stranici profila</profileLink>
-show-ranking = Pokaži moj rang
+show-ranking = Pokaži moju ocjenu
 
 ## Custom Goals
 
@@ -31,14 +31,14 @@ both-speak-and-listen = Oboje
 both-speak-and-listen-long = Oboje (govori i slušaj)
 daily-goal = Dnevni cilj
 weekly-goal = Tjedni cilj
-easy-difficulty = Laki
+easy-difficulty = Jednostavni
 average-difficulty = Prosječni
 difficult-difficulty = Teški
-pro-difficulty = Profesionalac
+pro-difficulty = Profesionalni
 lose-goal-progress-warning = Uređivanjem cilja, možda ćeš izgubiti svoj postojeći napredak.
 want-to-continue = Želiš li nastaviti?
 finish-editing = Najprije završiti s uređivanjem?
-lose-changes-warning = Ako sad prekineš, izgubit ćeš promjene
+lose-changes-warning = Ako sada prekineš izgubit ćeš promjene
 build-custom-goal = Izgradi prilagođeni cilj
 help-reach-hours-pluralized =
     Pomogni dosegnuti{ NUMBER($hours) ->
@@ -116,13 +116,13 @@ days =
     }
 recordings =
     { $count ->
-        [one] Snimka
-        [few] Snimke
-       *[other] Snimaka
+        [one] snimka
+        [few] snimke
+       *[other] snimaka
     }
 validations =
     { $count ->
-        [one] Potvrda
-        [few] Potvrde
-       *[other] Potvrda
+        [one] potvrda
+        [few] potvrde
+       *[other] potvrda
     }

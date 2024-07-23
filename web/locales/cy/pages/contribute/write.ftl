@@ -74,6 +74,7 @@ try-upload-again-md = Ceisiwch lwytho i fyny eto
 select-file = Dewis Ffeil
 select-file-mobile = Dewiswch Ffeil i'w Llwytho i Fyny
 accepted-files = Mathau o ffeiliau derbyniol: .tsv yn unig
+minimum-sentences = Isafswm brawddegau yn y ffeil: 1000
 maximum-file-size = Maint mwyaf ffeil: 25 MB
 what-needs-to-be-in-file = Beth sydd angen bod yn fy ffeil?
 what-needs-to-be-in-file-explanation = Gwiriwch ein <templateFileLink>ffeil templed</templateFileLink>. Dylai eich brawddegau fod yn rhydd o hawlfraint (CC0 neu waith gwreiddiol â chaniatâd y cyflwynydd) a dylen nhw fod yn glir, yn ramadegol gywir ac yn hawdd eu darllen. Dylai brawddegau sy'n cael ei chyflwyno cymryd tua 10-15 eiliad i'w darllen a dylent osgoi cynnwys rhifau, enwau priod a nodau arbennig.

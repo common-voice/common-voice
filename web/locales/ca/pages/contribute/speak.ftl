@@ -47,6 +47,9 @@ continue-speaking-button = No gràcies, segueix a Parla
 create-profile-text = Voleu desar la vostra informació? <createProfile>Creeu un perfil</createProfile>
 thanks-for-voice-toast = Gràcies per la informació de la vostra veu
 thanks-for-voice-toast-error = S'ha produït un error en enviar la informació de la vostra veu
+first-cta-gender-select-default-option = Trieu una opció
+first-cta-gender-select-help-text =
+    .label = Com descriuríeu el vostre sexe o gènere?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Gràcies per donar la vostra veu!
 second-cta-subtitle-text = Amb un perfil, podeu fer el seguiment de la vostra activitat i connectar-vos a una comunitat de col·laboradors de dades de veu.

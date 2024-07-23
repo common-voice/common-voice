@@ -42,6 +42,8 @@ subscribe = Subscriu-m'hi
 get-started-speech = Introducció al reconeixement de veu
 other-datasets = Altres conjunts de dades de veu
 feedback-q = Teniu algun comentari?
+# This indicates that there is no data to display
+no-information = Sense informació
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ és un <docsLink>joc d'eines de codi obert</docsLink> per a investigadors que desenvolupen models de conversa d'IA d'última generació.
 resource-deepspeech-info = El motor de reconeixement de veu de codi lliure Deep Speech de Mozilla es pot usar per a crear aplicacions de reconeixement de veu. Llegiu-ne la <githubLink>descripció general al Github</githubLink> o visiteu el <discourseLink>fòrum DeepSpeech al Discourse</discourseLink> per obtenir informació sobre com començar.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> està dedicat a la tecnologia de veu oberta. Els seus projectes inclouen motors de reconeixement de veu i síntesi de text basats en l’aprenentatge profund.
