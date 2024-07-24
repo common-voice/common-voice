@@ -18,7 +18,9 @@ contribute-more =
     }
 speak-empty-state = Hea bhas'ant anik vakio mellunk na tuka record korpak.
 speak-empty-state-cta = Vakio yogdan korat
-record-button-label = Tuzo avaz di
+speak-loading-error = Tuka ulovpak koinchech vakio mell'llunk na. Anik matshe vell'llan porot try kor.
+record-button-label = Tuje avaaz record kor
+share-title-new = <bold>Amche moddot kor</bold> anikui avaaz sodhunk
 
 ## Contribution Nav Items
 
