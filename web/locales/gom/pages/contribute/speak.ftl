@@ -21,3 +21,8 @@ record-abort-delete = Sod ani clips delete kor
 continue-speaking-button = Naka, ulovap chalu dovor
 thanks-for-voice-toast = Tuven tujea avaaz'a baddal mahiti dilea munn tuka 'Dev Bore Koru'!
 thanks-for-voice-toast-error = Kai tori chuk zale tuje avaaz'a vixim mahiti dhadtana
+first-cta-gender-select-default-option = Ek option vechun ge
+first-cta-gender-select-help-text =
+    .label = Tuje ling kite?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Tuven apli avaaz yogdan dili mhunn tuka dev bore koru!
