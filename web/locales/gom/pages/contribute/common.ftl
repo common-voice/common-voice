@@ -23,6 +23,11 @@ record-button-label = Tuje avaaz record kor
 share-title-new = <bold>Amche moddot kor</bold> anikui avaaz sodhunk
 keep-track-profile = Aplea provas'acher laksh dovor ek 'profile' korun
 login-to-get-started = Survat korunk Login va Register kor
+target-segment-first-card = Tu yogdan dita amchea poilea "target segment"-ak
+target-segment-generic-card = Tu yogdan dita eka "target segment"-ak
+target-segment-first-banner = Moddot kor Common Voice-achea poilo "target segment" korunk { $locale } hatun
+target-segment-add-voice = Tuje Avaaz Di
+target-segment-learn-more = Anik Shik
 
 ## Contribution Nav Items
 
