@@ -3,7 +3,7 @@
 home-title = Projekt Common Voice jo iniciatiwa Mozilla, kótaraž ma pomagaś, mašinam wucyś, kak napšawdne luźe powědaju.
 default-tagline = Mozilla Common Voice jo iniciatiwa, kótaraž ma pomagaś, mašinam wucyś, kak napšawdne luźe powědaju.
 home-cta = Powědajśo a cyńśo how sobu!
-wall-of-text-start = Głos jp pśirodny, głos je cłowjeski. Togodla smy fasciněrowane, wužytnu głosowu technologiju za naše mašiny napóraś. Ale, za napóranje głosowych systemow jo wjelgin wjelika tšocha głosowych datow trěbne.
+wall-of-text-start = Głos jp pśirodny, głos je cłowjeski. Togodla smy fasciněrowane, wužytnu głosowu technologiju za naše mašiny napóraś. Ale, za napóranje głosowych systemow jo wjelgin wjelika tšocha głosowych datow trjebne.
 wall-of-text-more-mobile = Nejwěcej datow wužywane wót wjelikich pśedewześow njejo pśitupne za wětšynu luźi. Myslimy, až to inowaciju znjemóžnja. Togodla smy startowali projekt Common Voice, projekt, kótaryž kuždemu spóznawanje głosow pśistupni.
 wall-of-text-more-desktop = Něnto móžośo swój głos daś, aby nam pomagał, datowu banku głosow wótwórjonego žrědła natwariś, kótaruž kuždy móžo wužywaś, aby inowatiwne nałoženja za rědy a web napórak.<lineBreak></lineBreak>Cytajśo sadu, aby mašinam pomagał, wuknuś, kak napšawdne luźe powědaju. Kontrolěrujśo źěło drugich sobustatkujucych, aby kwalitu pólěpšył. Jo tak lažko!
 wall-of-text-first = Głos jo pśirodny, głos jo cłowjeski. Togodla górjejomy se za napóranje wužywabneje głosoweje technologije za naše mašiny. Ale, aby głosowe systemy napórali, trjebaju wuwijarje wjelgin wjeliku tšochu głosowych datow.
@@ -80,5 +80,5 @@ username-email-not-demographic = Wašo wužywaŕske mě a e-mailowa adresa se z 
 welcome-staff = Witajśo, sobuźěłaśerje { $company }!
 help-contribute = Załožćo profil Common Voice a pśinosujśo swój głos, aby pomagał, wjeleraku datowu sajźbu wótwórjonego žrědła napóraś.
 login-company = Z e-mailoweju adresu { $company } pśizjawiść / registrěrowaś
-profile-not-required = Za sobuźěło profil trěbny njejo, lěcrownož jo wužytny
+profile-not-required = Za sobuźěło profil trjebny njejo, lěcrownož jo wužytny
 read-more-about = Cytajśo wěcej wó boku Wó Common Voice
