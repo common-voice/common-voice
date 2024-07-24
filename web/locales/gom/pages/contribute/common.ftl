@@ -47,7 +47,8 @@ report-grammar-or-spelling-detail = Hea vakian chukichem vyakaran va spelling er
 report-different-language = Dusrech Bhass
 report-different-language-detail = Hanv je bhass uloita, tea bhassent ho vakia boroilo na.
 report-difficult-pronounce = Mhonpak trass zata (Difficult to pronounce)
-report-difficult-pronounce-detail = 3loo
+report-difficult-pronounce-detail = Hea vakiant shabda va vakia'che kudke asa je vaachpak / ulovpak / ucharrunk khub trass zata.
+report-offensive-speech = Apmani bhass / Ghalleo
 
 ## Speak & Listen Shortcuts
 
