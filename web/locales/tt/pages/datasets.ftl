@@ -41,6 +41,8 @@ subscribe = Язылу
 get-started-speech = Сөйләм тану системасын ясый башлау
 other-datasets = Башка аудиоязма җыентыклары
 feedback-q = Тәнкыйть-тәкъдимнәрегез бармы?
+# This indicates that there is no data to display
+no-information = Мәгълүмат юк
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ — сөйләшә белүче алдынгы ясалма интеллект модельләрен җитештерүче тикшеренүчеләр өчен <docsLink>ачык чыганак кодлы кораллар җыелмасы</docsLink>.
 resource-deepspeech-info = Mozilla-ның DeepSpeech исемле ачык чыганак кодлы сөйләм тану моторы, сөйләм тану кушымталарын төзү өчен кулланыла ала. DeepSpeech белән эшли башлау өчен, <githubLink>Github-тагы күзәтүне</githubLink> укыгыз яисә <discourseLink>DeepSpeech Discourse форумына</discourseLink> үтегез.
 resource-coqui-info = Coqui ачык сөйләм технологияләренә багышланган. Аларның проектлары арасында тирән өйрәнүгә нигезләнгән STT һәм TTS моторлары бар.
