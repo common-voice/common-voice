@@ -49,19 +49,30 @@ report-different-language-detail = Hanv je bhass uloita, tea bhassent ho vakia b
 report-difficult-pronounce = Mhonpak trass zata (Difficult to pronounce)
 report-difficult-pronounce-detail = Hea vakiant shabda va vakia'che kudke asa je vaachpak / ulovpak / ucharrunk khub trass zata.
 report-offensive-speech = Apmani bhass / Ghalleo
+report-offensive-speech-detail = Hea recording-an apman korpi bhass va tatun ghalleo borun asa.
+report-other-comment =
+    .placeholder = Tujea utrani boroi
+success = Zale
+continue = Fudde
+report-success = Report divun zale
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
 
 ## Speak Shortcuts
 
-shortcut-record-toggle-label = Uloi/Rav
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = u
+shortcut-record-toggle-label = Uloi / Sopoi
 shortcut-rerecord-toggle = [1-5]
-shortcut-rerecord-toggle-label = Clip porot-record kor
+shortcut-rerecord-toggle-label = Porot record kor
 shortcut-discard-ongoing-recording = ESC
-shortcut-discard-ongoing-recording-label = Chalu asa recording bhair odoi
-shortcut-submit = Fatti voch
-shortcut-submit-label = Clips submit kor
+shortcut-discard-ongoing-recording-label = Chalu asa to recording bhair mar
+shortcut-submit = Fatti
+shortcut-submit-label = Sogle recording dhad
 request-language-text = Aplo bhas Common Voice-acher azun dixtti podna?
 request-language-button = Bhas request kor
 
