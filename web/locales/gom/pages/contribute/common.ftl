@@ -45,6 +45,9 @@ report-offensive-language-detail = Hea vakian apmani bhass va ghaleo asa.
 report-grammar-or-spelling = Chukichem vyakaran / Grammatical Error
 report-grammar-or-spelling-detail = Hea vakian chukichem vyakaran va spelling error asa.
 report-different-language = Dusrech Bhass
+report-different-language-detail = Hanv je bhass uloita, tea bhassent ho vakia boroilo na.
+report-difficult-pronounce = Mhonpak trass zata (Difficult to pronounce)
+report-difficult-pronounce-detail = 3loo
 
 ## Speak & Listen Shortcuts
 
