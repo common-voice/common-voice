@@ -74,7 +74,7 @@ shortcut-discard-ongoing-recording-label = Chalu asa to recording bhair mar
 shortcut-submit = Fatti
 shortcut-submit-label = Sogle recording dhad
 request-language-text = Apli bhass Common Voice-acher azun dixtti podna?
-request-language-button = Eki Bhass Hadpak Magg
+request-language-button = Bhass Hadpak Magg
 
 ## Listen Shortcuts
 
@@ -91,5 +91,8 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Nem (Rule)
+contribution-criteria-link = Yogdan divpache nem zannun ge
+contribution-criteria-page-title = Yogdan Divpi Nem
 see-more = <chevron></chevron>Anik dakoi
 see-less = <chevron></chevron>Tode dakoi
