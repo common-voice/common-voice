@@ -19,6 +19,7 @@ import tok from './languages/tok'
 import ur from './languages/ur'
 import uz from './languages/uz'
 import yue from './languages/yue'
+import sq from './languages/sq'
 
 import * as E from 'fp-ts/Either'
 import { flow, pipe } from 'fp-ts/function'
@@ -53,6 +54,7 @@ const VALIDATORS: Validators = {
   ur,
   uz,
   yue,
+  sq,
   default_locale,
 }
 
