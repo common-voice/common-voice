@@ -21,6 +21,8 @@ speak-empty-state-cta = Vakio yogdan korat
 speak-loading-error = Tuka ulovpak koinchech vakio mell'llunk na. Anik matshe vell'llan porot try kor.
 record-button-label = Tuje avaaz record kor
 share-title-new = <bold>Amche moddot kor</bold> anikui avaaz sodhunk
+keep-track-profile = Aplea provas'acher laksh dovor ek 'profile' korun
+login-to-get-started = Survat korunk Login va Register kor
 
 ## Contribution Nav Items
 
