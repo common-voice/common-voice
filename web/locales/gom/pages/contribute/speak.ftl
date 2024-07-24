@@ -36,8 +36,11 @@ review-delete-recordings = Mhoje recording pusun udoi
 review-terms = Common Voice vaporun, tu amche <termsLink>Nem</termsLink> ani <privacyLink>Privacy Notice-a</privacyLink> kaden sahamat asa.
 terms-agree = Hanv maanta
 terms-disagree = Hanv mannun ghena
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Aplea avaaz divun recording dhadle mhunn tuka 'Dev Bore Koru'!
+add-information-button = Ani mahiti di
 continue-speaking-button = Naka, ulovap chalu dovor
-create-profile-text = Tuje vixim khabar va tuje settings save korpak zai? <createProfile>Ek profile kor</createProfile>
+create-profile-text = Tuje vixim khobor va tuje setting samballunk zai? <createProfile>Ek profile kor</createProfile>
 thanks-for-voice-toast = Tuven tujea avaaz'a baddal mahiti dilea munn tuka 'Dev Bore Koru'!
 thanks-for-voice-toast-error = Kai tori chuk zale tuje avaaz'a vixim mahiti dhadtana
 first-cta-gender-select-default-option = Ek option vechun ge
