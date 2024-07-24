@@ -32,9 +32,15 @@ change-preferences = Settings boddol
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Avaaz Ekthaim'vap
+contribute-sentence-collection-nav-header = Vakio Ekthaim'vap
 
 ## Reporting
 
+report = Report
+report-title = Ek report dhad
+report-ask = Hea vakia vixim tuka kosle oddchonn zata?
+report-offensive-language = Apmani Bhas
 
 ## Speak & Listen Shortcuts
 
