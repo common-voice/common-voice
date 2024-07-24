@@ -41,6 +41,10 @@ report = Report
 report-title = Ek report dhad
 report-ask = Hea vakia vixim tuka kosle oddchonn zata?
 report-offensive-language = Apmani Bhas
+report-offensive-language-detail = Hea vakian apmani bhass va ghaleo asa.
+report-grammar-or-spelling = Chukichem vyakaran / Grammatical Error
+report-grammar-or-spelling-detail = Hea vakian chukichem vyakaran va spelling error asa.
+report-different-language = Dusrech Bhass
 
 ## Speak & Listen Shortcuts
 
