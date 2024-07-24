@@ -73,11 +73,21 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Chalu asa to recording bhair mar
 shortcut-submit = Fatti
 shortcut-submit-label = Sogle recording dhad
-request-language-text = Aplo bhas Common Voice-acher azun dixtti podna?
-request-language-button = Bhas request kor
+request-language-text = Apli bhass Common Voice-acher azun dixtti podna?
+request-language-button = Eki Bhass Hadpak Magg
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = a
+shortcut-play-toggle-label = Aik / Sopoi
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = h
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
