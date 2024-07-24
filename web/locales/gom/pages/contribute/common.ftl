@@ -28,6 +28,7 @@ target-segment-generic-card = Tu yogdan dita eka "target segment"-ak
 target-segment-first-banner = Moddot kor Common Voice-achea poilo "target segment" korunk { $locale } hatun
 target-segment-add-voice = Tuje Avaaz Di
 target-segment-learn-more = Anik Shik
+change-preferences = Settings boddol
 
 ## Contribution Nav Items
 
