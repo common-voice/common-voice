@@ -19,3 +19,5 @@ record-abort-text = Ata sodun geliar tujhe clips pusun voitele
 record-abort-continue = Recording purai kor
 record-abort-delete = Sod ani clips delete kor
 continue-speaking-button = Naka, ulovap chalu dovor
+thanks-for-voice-toast = Tuven tujea avaaz'a baddal mahiti dilea munn tuka 'Dev Bore Koru'!
+thanks-for-voice-toast-error = Kai tori chuk zale tuje avaaz'a vixim mahiti dhadtana
