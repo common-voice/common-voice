@@ -18,7 +18,7 @@ validated-clips = Pśeglědane klipy
 total-approved = Pśizwólone dogromady
 overall-accuracy = Cełkowna dokradnosć
 set-visibility = Móju widobnosć nastajiś
-visibility-explainer = Toś to nastajenje widobnosć wašeje lisćiny nejlěpšych wóźi. Jolic jo schowana, buźo waš póstup priwatny. To groni, až se waš wobraz, wužywarske mě a póstup na lisćinje nejlěpšych njezjawijo. Źiwajśo na to, až aktualizěrowanje lisćiny nejlěpšych { $minutes } trjeba, aby se změny wustatkowali.
+visibility-explainer = Toś to nastajenje widobnosć wašeje lisćiny nejlěpšych wóźi. Jolic jo schowana, buźo waš póstup priwatny. To groni, až se waš wobraz, wužywaŕske mě a póstup na lisćinje nejlěpšych njezjawijo. Źiwajśo na to, až aktualizěrowanje lisćiny nejlěpšych { $minutes } trjeba, aby se změny wustatkowali.
 visibility-overlay-note = Pokaz: Gaž jo 'Widobny' nastajone, dajo se nastajenje z <profileLink>profilowego boka</profileLink> změniś
 show-ranking = Mójp městno pokazaś
 

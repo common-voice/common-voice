@@ -33,7 +33,7 @@ review-rerecord = Znowego nagraś
 review-cancel = Wótpósłanje pśetergnuś
 review-keep-recordings = Nagraśa wobchować
 review-delete-recordings = Nagraśa wulašowaś
-review-terms = Gaž Common Voice wužywaśo, zwólijośo do našych <termsLink>wužywarskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
+review-terms = Gaž Common Voice wužywaśo, zwólijośo do našych <termsLink>wužywaŕskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
 terms-agree = Som wobjadny
 terms-disagree = Njejsom wobjadny
 # FIRST POST SUBMISSION CTA

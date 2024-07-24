@@ -71,9 +71,9 @@ join-newsletter = Pśizamkniśo se na žycenje našej e-mailowej lisćinje, aby 
 whats-public = Co jo zjawne?
 email-not-public = Wašu e-mailowu adresu njewózjawijomy.
 recordings-and-locale-public = Licba nagraśow a rěcow, ku kótarymž pśinosujośo, budu zjawne.
-username-optin-public = Móžośo swójo wužywarske mě wózjawiś abo anonymizěrowaś.
+username-optin-public = Móžośo swójo wužywaŕske mě wózjawiś abo anonymizěrowaś.
 demographic-deidentified-clarity-2 = Opcionelnje zapódane demografiske daty (na pś. starstwo, rod, rěc a akcent) se we wašom profilu nigda njewózjawiju a z wašym kontom w datowej sajźbje njezwězaju. Jadnotliwe awdioklipy se z demografiskimi datami za dokradnjejšu analyzu zwězaju - slěźaŕ na pśikład co snaź treningowy model na wěsty demografiski segment wusměriś.
-username-email-not-demographic = Wašo wužywarske mě a e-mailowa adresa se z wózjawjonymi datami njezwězujotej.
+username-email-not-demographic = Wašo wužywaŕske mě a e-mailowa adresa se z wózjawjonymi datami njezwězujotej.
 
 ## Landing
 
