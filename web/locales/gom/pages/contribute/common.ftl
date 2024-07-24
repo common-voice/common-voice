@@ -16,6 +16,7 @@ contribute-more =
         [one] Ani { $count } korpak toiar asa?
        *[other] Anik { $count } korpak toiar asa?
     }
+speak-empty-state = Hea bhas'ant anik vakio mellunk na tuka record korpak.
 speak-empty-state-cta = Vakio yogdan korat
 record-button-label = Tuzo avaz di
 
