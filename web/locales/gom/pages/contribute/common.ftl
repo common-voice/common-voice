@@ -96,5 +96,6 @@ contribution-criteria-link = Yogdan divpache nem zannun ge
 contribution-criteria-page-title = Yogdan Divpi Nem
 contribution-criteria-page-description = Somzun gheyat kite kite polovpak zai jenna recording aik-tat ani apnale voice recording-achi quality vaddoi!
 contribution-for-example = udarann (example)
+contribution-misreadings-title = Chukiche Vachop
 see-more = <chevron></chevron>Anik dakoi
 see-less = <chevron></chevron>Tode dakoi
