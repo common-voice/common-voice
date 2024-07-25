@@ -74,6 +74,7 @@ try-upload-again-md = Intente cargar de novo
 select-file = Seleccionar un ficheiro
 select-file-mobile = Seleccione un ficheiro para cargar
 accepted-files = Tipos de ficheiros aceptados: unicamente .tsv
+minimum-sentences = Número mínimo de frases no arquivo: 1000
 maximum-file-size = Tamaño máximo do ficheiro: 25 MB
 what-needs-to-be-in-file = Que ten que estar no meu ficheiro?
 what-needs-to-be-in-file-explanation = Comprobe o noso <templateFileLink>ficheiro modelo</templateFileLink>. As súas frases deben estar libres de dereitos de autor (CC0 ou traballo orixinal autorizado polo remitente) e deben ser claras, gramaticalmente correctas e fáciles de ler. Deberíase tardar uns 10-15 segundos en ler cada frase. Evite incluír nas frases enviadas caracteres numéricos, nomes propios e caracteres especiais.
