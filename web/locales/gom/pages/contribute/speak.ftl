@@ -38,7 +38,7 @@ terms-agree = Hanv maanta
 terms-disagree = Na, hanv mannun ghena
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Aplea avaaz divun recording dhadle mhunn tuka 'Dev Bore Koru'!
-first-cta-subtitle-text = Tujea vixim amka sangun, sogle toreche lokkank technology pavpak tu developer'ache moddot kortolo
+first-cta-subtitle-text = Tuje vixim amka sangun, tu tujea sarke lokkank technology pavpak, developer'ache moddot kortolo
 why-donate = Kityak vicharta?
 why-donate-explanation-1 = Hem sangunk gorjecho nhoi - tuka bore dista zaliar sang. Jenna ami dataset release korta, tenna tuje vixim je amka kobor asa te ami kadta - zoxe tuje nav ani email. Fakt tuje pirai, ling, va tuje ulovpache veggleponn ami dovortat.
 why-donate-explanation-2 = Technologik sogleank upyogi pavpa khatir, je data developer use kortat, te tar-ekwar loka'che asunk zai. Udaronna khatir, zori ami karnataka'chea konknni ulovpi lokkank bhitor ghena, zaliar ti technology tenka pavpana. <learnMore>Metadata kityak gorjeche asa hem zannun gheyat.</learnMore>
