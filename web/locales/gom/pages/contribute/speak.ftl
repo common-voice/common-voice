@@ -40,6 +40,7 @@ terms-disagree = Na, hanv mannun ghena
 first-cta-header-text = Aplea avaaz divun recording dhadle mhunn tuka 'Dev Bore Koru'!
 first-cta-subtitle-text = Tujea vixim amka sangun, sogle toreche lokkank technology pavpak tu developer'ache moddot kortolo
 why-donate = Kityak vicharta?
+why-donate-explanation-1 = Hem sangunk gorjecho nhoi - tuka bore dista zaliar sang. Jenna ami dataset release korta, tenna tuje vixim je amka kobor asa te ami ti kadta zoxe tuje nav and email. Fakt tuje pirai, ling, va tuje ulovpache veggleponn ami dovortat.
 add-information-button = Ani mahiti di
 continue-speaking-button = Naka, ulovap chalu dovor
 create-profile-text = Tuje vixim khobor va tuje setting samballunk zai? <createProfile>Ek profile kor</createProfile>
