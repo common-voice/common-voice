@@ -5,6 +5,7 @@
 
 about-listen = Aik
 about-listen-text = Users eka-mekache audio clips`ache sarkeponn topassun poitat ki je boroinn dille vakio asa, toshech vachla kai na.
+about-get-involved = Vanto ge
 
 ## Community Playbook Content
 ## What is a language
