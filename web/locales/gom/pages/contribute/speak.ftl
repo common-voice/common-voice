@@ -38,6 +38,7 @@ terms-agree = Hanv maanta
 terms-disagree = Na, hanv mannun ghena
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Aplea avaaz divun recording dhadle mhunn tuka 'Dev Bore Koru'!
+first-cta-subtitle-text = Tujea vixim amka sangun, sogle toreche lokkank technology pavpak tu developer'ache moddot kortolo
 why-donate = Kityak vicharta?
 add-information-button = Ani mahiti di
 continue-speaking-button = Naka, ulovap chalu dovor
