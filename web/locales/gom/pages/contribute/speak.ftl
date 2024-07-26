@@ -14,7 +14,7 @@ record-three-more-instruction = Anik teen asa!
 record-again-instruction = Shabbas! Dusre clip <recordIcon></recordIcon> record kor
 record-again-instruction2 = Borem asa, ani ek record kor <recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Last ek!
-review-tooltip = Hanga tuje recording-cher niyall kor ani portun record kor vata tashe
+review-tooltip = Hem porot record kor
 share-clip = Tuje avaaz share kor
 share-common-voice = Common Voice share kor
 review-instruction = Niyall kor ani portun record kor goroz asa zaliar
@@ -35,7 +35,7 @@ review-keep-recordings = Recording dovor
 review-delete-recordings = Mhoje recording pusun udoi
 review-terms = Common Voice vaporun, tu amche <termsLink>Nem</termsLink> ani <privacyLink>Privacy Notice-a</privacyLink> kaden sahamat asa.
 terms-agree = Hanv maanta
-terms-disagree = Hanv mannun ghena
+terms-disagree = Na, hanv mannun ghena
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Aplea avaaz divun recording dhadle mhunn tuka 'Dev Bore Koru'!
 why-donate = Kityak vicharta?
