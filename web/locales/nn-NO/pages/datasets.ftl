@@ -66,6 +66,8 @@ dataset-metadata-sex = Kjønn
 # dataset metadata - age of contributor
 dataset-metadata-age = Alder
 dataset-donate-modal-heading = Visste du at…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Om du set pris på opne, inkluderande data – doner i dag!</bold>
 data-download-singleword-title = Last ned målsegmentet for eitt ord
 data-download-singleword-callout-v2 = Dette er eit brukstilfelle-drive segment som inneheld data for å styrkje attkjenning av talte siffer og ja/nei-attkjenning.
 data-download-button = Last ned Common Voice Data
