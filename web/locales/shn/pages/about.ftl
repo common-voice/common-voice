@@ -28,6 +28,8 @@ about-speak-text = ၽူႈၸွႆႈထႅမ်ဢတ်းၶလိပ်�
 about-listen-queue = ၶိဝ်းၵၢၼ်ထွမ်ႇ
 about-listen-queue-text = ၶလိပ်ႉသဵင် တေထုၵ်ႇသႂ်ႇၶဝ်ႈၼႂ်းၶိဝ်းဢၼ်ႁဵတ်းႁႂ်ႈၽွမ်ႈတႃႇတေထွမ်ႇလႆႈ။
 about-listen = ထွမ်ႇ
+about-listen-text = ၽူႈၸႂ်ႉတိုဝ်းၶဝ် တေၵူတ်ႇထတ်းတူၺ်း လွင်ႈမၢၼ်ႇမႅၼ်ႈ ၶလိပ်ႉဢၼ်လူႇတၢၼ်းဝႆႉၼၼ်ႉ၊ ထတ်းတူၺ်းဝႃႈ ၽူႈလၢတ်ႈၼၼ်ႉ ဢၢၼ်ႇတူၼ်းထႅဝ် မၢၼ်ႇမႅၼ်ႈမႅၼ်ႈယူႇ။
+about-is-it-valid = ၶလိပ်ႉသဵင်ၼႆႉၸွင်ႇၸႂ်ႉလႆႈ?
 
 ## Community Playbook Content
 ## What is a language
