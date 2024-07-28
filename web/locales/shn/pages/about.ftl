@@ -53,10 +53,15 @@ about-stay-in-touch-button = လူင်းသဵၼ်ႈမၢႆ
 about-stay-in-touch-text-2 = သူၸၢင်ႈႁူပ်ႉထူပ်းၸွမ်းတၢင်ႇၵေႃႉ ၼႂ်းတူင်ႇဝူင်းၽႃႇသႃႇ Mozilla လူၺ်ႈၶဝ်ႈႁူမ်ႈ <discourseLink> Discourse </discourseLink> တွၼ်ႈတႃႇဢုပ်ႇၵုမ်ၸွမ်းႁူဝ်ၶေႃႈ၊ ဢမ်ႇၼၼ် <matrixLink> Matrix </matrixLink> တွၼ်ႈတႃႇယွၼ်းတၢင်းႁၼ်ထိုင် ဝႆးဝႆး။
 about-nav-why-common-voice = ၵွပ်ႈသင် ?
 about-nav-how-it-works = ၸိူင်ႉႁိုဝ် ?
+about-nav-partners = ၽူႈႁူမ်ႈၽၢၵ်ႈ
+about-nav-get-involved = ၶဝ်ႈႁူမ်ႈပႃး
+about-nav-how-it-works-2 = Common Voice ႁဵတ်းၵၢၼ်ၸိူင်ႉႁိုဝ်?
+about-nav-playbook = လဵပ်ႈႁဵၼ်းၵၢၼ်မီးသုၼ်ႇႁူမ်ႈ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ၽႃႇသႃႇၼႂ်း Common Voice ပဵၼ်သင်?
 
 ## How do I add a language
 
