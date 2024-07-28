@@ -6,6 +6,7 @@ write-page-subtitle = اتھ ونگار تھئے ہوئے جملے عوامی د
 sentence =
     .label = جملہ
 sentence-input-value = آپݨاں عوامی ڈومین جملہ اتھ درج کرو
+citation-input-placeholder = تہاݙے جملے دے ماخذ دا حوالہ (ضروری ہے)
 citation =
     .label = حوالہ ݙیوݨ
 sc-write-submit-confirm = میں تصدیق کرینداں جو ایہ جملہ <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں ایندے اپ لوڈ کرݨ دی اجازت ہے۔
