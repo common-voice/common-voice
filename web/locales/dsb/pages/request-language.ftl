@@ -23,3 +23,6 @@ request-language-success-list-3 =
     Jolic za pór dnjow nic wót nas njesłušaśo,
     stajśo se z nami pśez <emailLink>{ $email }</emailLink>
     do zwiska a my wótegronijomy!
+request-language-error =
+    Snaź njejsmy dostali toś tu pšosbu. Pšosym sćelśo nam direktnu mejlku
+    na <emailLink>{ $email }</emailLink> a my wótegronijomy!
