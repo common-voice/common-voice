@@ -24,5 +24,5 @@ request-language-success-list-3 =
     stajće so z nami přez <emailLink>{ $email }</emailLink>
     do zwiska a my wotmołwimy!
 request-language-error =
-    Snano njejsmy tutu próstwu. Prošu sćelće nam direktnu mejlku
+    Snano njejsmy tutu próstwu dóstali. Prošu sćelće nam direktnu mejlku
     na <emailLink>{ $email }</emailLink> a my wotmołwimy!
