@@ -20,7 +20,7 @@ request-language-google-recaptcha-error = Něšto je so z reCAPTCHA nimokuliło.
 # Success page
 request-language-success-heading = Wulki dźak! Sće próstwu wo nowu rěč pósłał
 request-language-success-list-3 =
-    Jeli za por dny ničo wot nas njesłušeće,
+    Jeli za por dnjow ničo wot nas njesłušeće,
     stajće so z nami přez <emailLink>{ $email }</emailLink>
     do zwiska a my wotmołwimy!
 request-language-error =
