@@ -58,4 +58,5 @@ review-error = Při přepruwowanju tuteje sady je zmylk nastał
 review-error-rate-limit-exceeded = Sće přespěšny. Bjerće sej wokomik časa, zo byšće prawosć sady přepruwował.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Přewjedźemy někotre změny
+sc-redirect-page-subtitle-1 = Hromadźak sadow na hłownu platformu Common Voice přećehnje.Móžeće nětko na Common Voice sadu <writeURL>pisać</writeURL> abo jednotliwe sady <reviewURL>přepruwować</reviewURL>.
 sc-redirect-page-subtitle-2 = Stajće nam prašenja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mejlu</emailLink>.
