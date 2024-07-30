@@ -55,6 +55,8 @@ report-sc-different-language = Druga rěc
 report-sc-different-language-detail = Jo w drugej rěcy napisana ako pśeglědujom.
 sentences-fetch-error = Pśi wótwołowanju sadow jo zmólka nastała
 review-error = Pśi pśekontrolěrowanju toś teje sady jo zmólka nastała
+review-error-rate-limit-exceeded = Sćo pśemalsny. Bjeŕśo se wokognuśe casa, aby pšawosć sady pśeglědował.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Pśewjeźomy někotare změny
+sc-redirect-page-subtitle-1 = Zgromaźowak sadow na głownu platformu Common Voice pśeśěgnjo. Móžośo něnto na Common Voice sadu <writeURL>pisaś</writeURL> abo jadnotliwe sady <reviewURL>pśeglědowaś</reviewURL>.
 sc-redirect-page-subtitle-2 = Stajśo nam pšašanja na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> abo z <emailLink>e-mailu</emailLink>.

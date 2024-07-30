@@ -38,6 +38,7 @@ terms-agree = Som wobjadny
 terms-disagree = Njejsom wobjadny
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Wjeliki źěk, až sćo pósćił waše powědańske klipy!
+first-cta-subtitle-text = Gaž informacije wó sebje k wěsći dawaśo, buźośo wuwijarjam pomagaś, wěcej inkluziwnu technologiju wuwijaś
 why-donate = Cogodla se pšašaśo?
 add-information-button = Informacije pśidaś
 continue-speaking-button = Ně, źěkujom se, z powědanim pókšacowaś
@@ -49,6 +50,7 @@ first-cta-gender-select-help-text =
     .label = Kak by wy swój rod  abo rodnu identitu wopisował?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Wjeliki źěk, až waš głos pśinosujośo!
+second-cta-subtitle-text = Z profilom móžośo swójej aktiwiśe slědowaś a ze zgromaźeństwom sobustatkujucych rěcnych datow do zwiska stupiś.
 already-have-an-account = Maśo južo konto? <login>Pśizjawiś</login>
 create-profile-button = Profil załožyś
 # IMAGE TAGS
