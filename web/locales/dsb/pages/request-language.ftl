@@ -19,3 +19,7 @@ request-language-google-recaptcha-required = reCAPTCHA jo trjebny, jolic cośo p
 request-language-google-recaptcha-error = Něco njejo se raźiło z reCAPTCHA. Pšosym wopytajśo hyšći raz.
 # Success page
 request-language-success-heading = Wjeliki źěk! Sćo pósłał pšosbu wó nowu rěc
+request-language-success-list-3 =
+    Jolic za pór dnjow nic wót nas njesłušaśo,
+    stajśo se z nami pśez <emailLink>{ $email }</emailLink>
+    do zwiska a my wótegronijomy!
