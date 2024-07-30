@@ -38,6 +38,7 @@ citing-sentences = Sady citować
 adding-sentences = Sady přidać
 reviewing-sentences = Sady přepruwować
 sentence-domain = Tema sady
+public-domain-explanation-3 = Wutworće moderne, wobchadnorěčne sady sam abo ze swojimi přećelemi abo z rěčnym zhromadźenstwom – na přikład přez „write-a-thon“
 citing-sentences-subheader-websites = Websydła
 citing-sentences-subheader-websites-explanation = Wy móhł websydło podać, na př. „Common Voice - https://commonvoice.mozilla.org/“
 citing-sentences-subheader-academic-reference = Akademiska referenca
