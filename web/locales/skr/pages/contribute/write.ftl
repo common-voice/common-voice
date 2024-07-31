@@ -38,6 +38,8 @@ sentence-domain-select-placeholder = ترائے تائیں ڈومیناں چݨو
 # Sentence Domain dropdown option
 agriculture_food = زراعت تے خوراک
 # Sentence Domain dropdown option
+automotive_transport = آٹوموٹو تے ٹرانسپورٹ
+# Sentence Domain dropdown option
 finance = فنانس
 # Sentence Domain dropdown option
 service_retail = خدمت تے پرچون
@@ -74,6 +76,7 @@ try-upload-again-md = ولدا اپ لوڈ کرݨ دی کوشش کرو
 select-file = فائل چݨو
 select-file-mobile = اپ لوڈ کرݨ کیتے فائل چݨو
 accepted-files = قابل قبول فائل قسماں: .tsv صرف
+minimum-sentences = فائل وچ گھٹ توں گھٹ جملے: 1000
 maximum-file-size = ودھ و ودھ فائل سائز: 25 ایم بی
 what-needs-to-be-in-file = میکوں آپݨی حیاتی وچ کہڑی شئے دی لوڑ ہے؟
 what-needs-to-be-in-file-explanation = تھورائیت کرین٘دے ہوئے اَساݙی <templateFileLink>سانچہ فائل</templateFileLink> ݙیکھو۔ تُہاݙے جُملے کاپی رائٹ کنوں اَزاد ہووݨے چاہِیدے ہِن (سی سی0 اَتے جمع کراوݨ آلے دی طرفوں اجازت یافتہ اصل کَم) اَتے واضح، گرامر دے لحاظ نال درست اَتے پڑھݨ وِچ سَوکھا ہووݨاں چاہِیدا ہِے۔ جمع کرائے ڳئے جملیاں کوں پڑھݨ وِچ تقریباً 10-15 سیکنڈ لڳݨے چاہِیدے ہِن اَتے اِنّھاں وِچ اعداد، مناسب اسم اَتے خصوصی اَکّھر رلاوݨ کنوں گریز کرݨاں چاہِیدا ہِے۔
