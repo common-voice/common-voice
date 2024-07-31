@@ -4,6 +4,7 @@ listen-again-instruction = Bom trabalho! <playIcon></playIcon> Ouça novamente q
 listen-3rd-time-instruction = 2 prontas <playIcon></playIcon> , continue assim!
 listen-last-time-instruction = <playIcon></playIcon> Última!
 listen-empty-state = Nós ficamos sem clipes para validar neste idioma...
+listen-empty-state-variants = Sua variante de idioma pode estar sem clipes de áudio! Se você se sentir confortável, pode alterar suas configurações para ver outras frases no seu idioma.
 listen-loading-error =
     Não foi possível obter nenhum clipe de áudio para você ouvir.
     Tente novamente mais tarde.
