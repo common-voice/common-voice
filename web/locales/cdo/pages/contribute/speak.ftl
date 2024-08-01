@@ -36,3 +36,22 @@ review-delete-recordings = 刪除我的錄音
 review-terms = 使用 Common Voice，就代表您同意我們的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
 terms-agree = 我同意
 terms-disagree = 我不同意
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = 感謝您捐出錄音片段！
+first-cta-subtitle-text = 您方便分享您的說話方式的相關資訊嗎？
+why-donate = 為什麼要問這個？
+why-donate-explanation-1 = 您不一定需要提供此資訊給我們。當我們發布資料集時，會將所有個人資訊以假名方式處理，確保您的姓名、電子郵件地址等資訊無法與年齡、性別等人口統計資訊相關聯。
+why-donate-explanation-2 = 為了讓技術適用於每個人，所收集的資料可幫助開發者打造出反映出各種各樣的人的技術。舉例來說若我們未包含特定腔調的說話者，那使用本資料的技術就無法適用於操該種口音的使用者。<learnMore>點此處了解為什麼這些後設資料很重要。</learnMore>
+add-information-button = 加入更多資訊
+continue-speaking-button = 不用了，我要繼續錄音
+create-profile-text = 想要儲存您的資訊嗎？<createProfile>請註冊帳號</createProfile>
+thanks-for-voice-toast = 感謝您提供您的語音資訊
+thanks-for-voice-toast-error = 送出您的語音資訊時發生錯誤
+first-cta-gender-select-default-option = 選擇其中一個選項
+first-cta-gender-select-help-text =
+    .label = 您會如何描述您的生理性別或認同？
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = 感謝您捐出錄音片段！
+second-cta-subtitle-text = 註冊帳號後，您可以追蹤您的貢獻紀錄，並連繫社群中的其他語音資料貢獻者。
+already-have-an-account = 已經有帳號了嗎？<login>請登入</login>
+create-profile-button = 註冊帳號
