@@ -1,0 +1,12 @@
+record-cta = 開始錄音
+record-platform-not-supported = 很抱歉，目前暫不支援您的平台。
+record-platform-not-supported-desktop = 在桌上型電腦，您可以下載最新版的:
+record-platform-not-supported-ios-non-safari = 在 iOS 平台，請繼續前往 Safari 開啟錄音功能…
+record-must-allow-microphone = 您必須允許使用麥克風。
+record-no-mic-found = 找不到麥克風
+record-error-too-short = 錄音太短了。
+record-error-too-long = 錄音太長了。
+record-error-too-quiet = 錄音太小聲了。
+record-cancel = 取消重新錄音
+record-instruction = { $actionType } <recordIcon></recordIcon> 然後大聲說出句子
+record-stop-instruction = 完成後{ $actionType } <stopIcon></stopIcon>
