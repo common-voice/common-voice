@@ -25,6 +25,7 @@ how-to-cite-explanation = 如果是你自己造的句子，只需註明<italiciz
 guidelines = 指南
 contact-us = 聯絡我們
 add-sentence-success = 已收集到 1 句
+add-sentence-error = 加入句子時發生問題
 
 ## BULK SUBMISSION 
 
