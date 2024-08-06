@@ -570,7 +570,7 @@
             margin-bottom: 20px;
             max-width: 220px;
             text-align: center;
-            font-size: var(--font-size-xs);
+            font-size: var(--font-size-md);
         }
 
         @media (--md-up) {
