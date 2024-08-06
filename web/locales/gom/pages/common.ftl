@@ -166,4 +166,4 @@ not-available-abbreviation = N/A
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background. 
-donate-banner-cta = <mark>Amka zai</mark><br/><mark>tuji moddot!</mark>
+donate-banner-cta = <mark>Amka zai</mark><br/><mark>tuje moddot!</mark>
