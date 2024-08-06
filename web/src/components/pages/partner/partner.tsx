@@ -71,44 +71,64 @@ const Partner = () => {
               width={350}
               height={135}
             />
-            <img
-              src={require('./images/partners/Bill_&_Melinda_Gates_Foundation_logo.jpg')}
-              srcSet={`${require('./images/partners/Bill_&_Melinda_Gates_Foundation_logo-small.jpg')} 370w, ${require('./images/partners/Bill_&_Melinda_Gates_Foundation_logo.jpg')} 741w`}
-              sizes="(max-width: 600px) 370px, 741px"
-              alt="Bill and Melinda Gates Foundation"
-              width={370}
-              height={135}
-              onClick={() => window.open('https://www.gatesfoundation.org/')}
-            />
-            <img
-              src={require('./images/partners/giz-logo.jpg')}
-              srcSet={`${require('./images/partners/giz-logo-small.jpg')} 366w, ${require('./images/partners/giz-logo.jpg')} 1096w`}
-              sizes="(max-width: 600px) 366px, 1096px"
-              alt="Deutsche Gesellschaft für Internationale Zusammenarbeit"
-              width={370}
-              height={135}
-              onClick={() => window.open('https://www.giz.de/en/html/index.html')}
-            />
-            <img
-              src={require('./images/partners/collectivat.jpg')}
-              srcSet={`${require('./images/partners/collectivat-small.jpg')} 370w, ${require('./images/partners/collectivat.jpg')} 740w`}
-              sizes="(max-width: 600px) 370px, 740px"
-              alt="Collectivat"
-              className="collectivat-logo"
-              onClick={() => window.open('https://collectivat.cat/en')}
-            />
-            <img
-              src={require('./images/partners/Mak-Logo 1.jpg')}
-              alt="Makerere"
-              className="makerere-logo"
-              onClick={() => window.open('https://www.mak.ac.ug/')}
-            />
-            <img
-              src={require('./images/partners/nvidia-logo-vert.jpg')}
-              alt="Nvidia"
-              className="nvidia-logo"
-              onClick={() => window.open('https://www.nvidia.com/en-in/')}
-            />
+            <a
+              href="https://www.gatesfoundation.org/"
+              target="_blank"
+              rel="noreferrer">
+              <img
+                src={require('./images/partners/Bill_&_Melinda_Gates_Foundation_logo.jpg')}
+                srcSet={`${require('./images/partners/Bill_&_Melinda_Gates_Foundation_logo-small.jpg')} 370w, ${require('./images/partners/Bill_&_Melinda_Gates_Foundation_logo.jpg')} 741w`}
+                sizes="(max-width: 600px) 370px, 741px"
+                alt="Bill and Melinda Gates Foundation"
+                width={370}
+                height={135}
+              />
+            </a>
+            <a
+              href = "https://www.giz.de/en/html/index.html"
+              target="_blank"
+              rel="noreferrer">
+              <img
+                src={require('./images/partners/giz-logo.jpg')}
+                srcSet={`${require('./images/partners/giz-logo-small.jpg')} 366w, ${require('./images/partners/giz-logo.jpg')} 1096w`}
+                sizes="(max-width: 600px) 366px, 1096px"
+                alt="Deutsche Gesellschaft für Internationale Zusammenarbeit"
+                width={370}
+                height={135}
+              />
+            </a>
+            <a
+              href="https://collectivat.cat/en"
+              target="_blank"
+              rel="noreferrer">
+              <img
+                src={require('./images/partners/collectivat.jpg')}
+                srcSet={`${require('./images/partners/collectivat-small.jpg')} 370w, ${require('./images/partners/collectivat.jpg')} 740w`}
+                sizes="(max-width: 600px) 370px, 740px"
+                alt="Collectivat"
+                className="collectivat-logo"
+              />
+            </a>
+            <a
+              href="https://www.mak.ac.ug/"
+              target="_blank"
+              rel="noreferrer">
+              <img
+                src={require('./images/partners/Mak-Logo 1.jpg')}
+                alt="Makerere"
+                className="makerere-logo"
+              />
+            </a>
+            <a
+              href="https://www.nvidia.com/en-in/"
+              target="_blank"
+              rel="noreferrer">
+              <img
+                src={require('./images/partners/nvidia-logo-vert.jpg')}
+                alt="Nvidia"
+                className="nvidia-logo"
+              />
+            </a>
           </div>
         </div>
       </section>
