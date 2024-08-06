@@ -20,14 +20,21 @@ bulk-sentences = Күп җөмлә
 # Sentence Domain dropdown option
 finance = Финанслар
 # Sentence Domain dropdown option
+service_retail = Хезмәтләр һәм сәүдә
+# Sentence Domain dropdown option
 general = Гомуми
 # Sentence Domain dropdown option
 healthcare = Сәламәтлек саклау
 # Sentence Domain dropdown option
 history_law_government = Тарих, хокук һәм дәүләт идарәсе
+# Sentence Domain dropdown option
+news_current_affairs = Яңалыклар һәм агымдагы вакыйгалар
+# Sentence Domain dropdown option
+technology_robotics = Технологияләр һәм робототехника
 
 ## BULK SUBMISSION 
 
+select-file = Файлны сайлау
 select-file-mobile = Йөкләү өчен Файлны сайлау
 maximum-file-size = Максималь файл үлчәме: 25 МБ
 what-needs-to-be-in-file = Минем файлда нәрсә булырга тиеш?

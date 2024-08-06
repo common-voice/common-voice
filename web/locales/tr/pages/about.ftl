@@ -145,4 +145,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Nasıl yöneti
 ## How is Common Voice funded
 
 about-playbook-how-funded = Common Voice nasıl finanse ediliyor?
+about-playbook-how-funded-content-1 = Common Voice, vergiden muaf (US 501c3) olan Mozilla Vakfının bir projesidir. Şu anda bu projenin tamamı <phalanchromicGrantLink>hibeler</phaliantricGrantLink> ve dünyanın dört bir yanından insanların bağışlarıyla finanse ediliyor.
 about-playbook-how-funded-content-2 = Veri kümelerini sürekli olarak barındırmak ve yayımlamak, platformu geliştirmek ve <africaMradiLink>topluluk programlarını</africaMradiLink> yürütmek oldukça maliyetli bir iş.

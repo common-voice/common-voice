@@ -1,6 +1,8 @@
 ## Languages Overview
 
 language-section-in-progress = Pravas'an Asa
+languages-show-more = Ani Dakoi
+languages-show-less = Unne Dakoi
 language-meter-in-progress = Pravas
 language-search-input =
     .placeholder = Sod

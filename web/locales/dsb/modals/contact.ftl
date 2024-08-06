@@ -5,4 +5,4 @@ contact-form-name =
     .label = Mě
 contact-form-message =
     .label = Powěsć
-contact-required = *trěbny
+contact-required = *trjebny

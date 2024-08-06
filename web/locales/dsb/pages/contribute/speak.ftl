@@ -17,7 +17,7 @@ record-last-instruction = <recordIcon></recordIcon> Slědne!
 review-tooltip = How móžośo klipy pśeglědowaś a znowego nagraś
 share-clip = Waš klip źěliś
 share-common-voice = Common Voice źěliś
-review-instruction = Klipy pśeglědowaś a znowego nagraś, jolic trěbne
+review-instruction = Klipy pśeglědowaś a znowego nagraś, jolic trjebne
 record-submit-tooltip = { $actionType } wótpósłaś, gaž sćo gótowy
 clips-uploaded = Klipy nagrate
 record-abort-title = Cośo nagraśe nejpjerwjej dokóńcyś?
@@ -33,11 +33,12 @@ review-rerecord = Znowego nagraś
 review-cancel = Wótpósłanje pśetergnuś
 review-keep-recordings = Nagraśa wobchować
 review-delete-recordings = Nagraśa wulašowaś
-review-terms = Gaž Common Voice wužywaśo, zwólijośo do našych <termsLink>wužywarskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
+review-terms = Gaž Common Voice wužywaśo, zwólijośo do našych <termsLink>wužywaŕskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
 terms-agree = Som wobjadny
 terms-disagree = Njejsom wobjadny
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Wjeliki źěk, až sćo pósćił waše powědańske klipy!
+first-cta-subtitle-text = Gaž informacije wó sebje k wěsći dawaśo, buźośo wuwijarjam pomagaś, wěcej inkluziwnu technologiju wuwijaś
 why-donate = Cogodla se pšašaśo?
 add-information-button = Informacije pśidaś
 continue-speaking-button = Ně, źěkujom se, z powědanim pókšacowaś
@@ -49,6 +50,7 @@ first-cta-gender-select-help-text =
     .label = Kak by wy swój rod  abo rodnu identitu wopisował?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Wjeliki źěk, až waš głos pśinosujośo!
+second-cta-subtitle-text = Z profilom móžośo swójej aktiwiśe slědowaś a ze zgromaźeństwom sobustatkujucych rěcnych datow do zwiska stupiś.
 already-have-an-account = Maśo južo konto? <login>Pśizjawiś</login>
 create-profile-button = Profil załožyś
 # IMAGE TAGS
