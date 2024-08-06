@@ -251,5 +251,7 @@ not-available-abbreviation = Ikkje tilgjengeleg
 
 ## Donate banner
 
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Det kostar nesten ein million dollar i året å vere vert for datasetta og forbetre plattforma for dei over 100 språksamfunna som er avhengige av det vi gjer. <strong>Omdu set pris å opne, inkluderande data – doner i dag!</strong>
 localization-select =
     .label = Vel språk/lokalisering

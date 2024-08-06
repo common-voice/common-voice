@@ -13,6 +13,7 @@ goal-help-recording = Você ajudou o Common Voice a atingir <goalPercentage></go
 goal-help-validation = Você ajudou o Common Voice a atingir <goalPercentage></goalPercentage> da nossa meta diária de { $goalValue } validações!
 contribute-more = Pronto para fazer mais { $count }?
 speak-empty-state = Nós ficamos sem frases para gravar neste idioma...
+no-sentences-for-variants = Sua variante de idioma pode estar sem frases! Se você se sentir confortável, pode alterar suas configurações para ver outras frases no seu idioma.
 speak-empty-state-cta = Contribua com frases
 speak-loading-error =
     Não foi possível obter nenhuma frase para você falar.

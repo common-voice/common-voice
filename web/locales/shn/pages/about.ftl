@@ -28,10 +28,40 @@ about-speak-text = ၽူႈၸွႆႈထႅမ်ဢတ်းၶလိပ်�
 about-listen-queue = ၶိဝ်းၵၢၼ်ထွမ်ႇ
 about-listen-queue-text = ၶလိပ်ႉသဵင် တေထုၵ်ႇသႂ်ႇၶဝ်ႈၼႂ်းၶိဝ်းဢၼ်ႁဵတ်းႁႂ်ႈၽွမ်ႈတႃႇတေထွမ်ႇလႆႈ။
 about-listen = ထွမ်ႇ
+about-listen-text = ၽူႈၸႂ်ႉတိုဝ်းၶဝ် တေၵူတ်ႇထတ်းတူၺ်း လွင်ႈမၢၼ်ႇမႅၼ်ႈ ၶလိပ်ႉဢၼ်လူႇတၢၼ်းဝႆႉၼၼ်ႉ၊ ထတ်းတူၺ်းဝႃႈ ၽူႈလၢတ်ႈၼၼ်ႉ ဢၢၼ်ႇတူၼ်းထႅဝ် မၢၼ်ႇမႅၼ်ႈမႅၼ်ႈယူႇ။
+about-is-it-valid = ၶလိပ်ႉသဵင်ၼႆႉၸွင်ႇၸႂ်ႉလႆႈ?
+about-is-it-valid-text = ၶလိပ်ႉသဵင်တေလႆႈႁပ်ႉၶိူင်ႈမၢႆ "မၢၼ်ႇမႅၼ်ႈ" မိူဝ်ႈမီးၽူႈၸႂ်ႉတိုဝ်းၼႄၵၢင်ၸႂ်ဝႃႈ ၸႂ်ႈ ပၼ်တႃႇၶလိပ်ႉဢၼ်ၼၼ်ႉ။
+about-yes-votes = ≥ 2 ၼႄၵၢင်ၸႂ် ၸႂ်ႈ
+about-yes-votes-text = တႃႇတေႁႂ်ႈၶဝ်ႈပဵၼ်ၸုမ်ႇၶေႃႈမုၼ်း Common Voice၊ ၶလိပ်ႉသဵင်ၼၼ်ႉတေလႆႈထုၵ်ႇၵူတ်ႇထတ်းယဝ်ႉတူဝ်ႈလူၺ်ႈၽူႈၸႂ်ႉတိုဝ်းသွင်ၵေႃႉ။
+about-no-votes = ≥ 2 ၼႄၵၢင်ၸႂ် ဢမ်ႇ
+about-no-votes-text = မိူဝ်ႈၽူႈၸႂ်ႉတိုဝ်း ဢမ်ႇယွမ်းႁပ်ႉ ၶလိပ်ႉသဵင်ၼၼ်ႉ မၼ်းတေၶိုၼ်းၵႂႃႇတီႈၶိဝ်း။ သင်ဝႃႈ လႆႈထုၵ်ႇဢမ်ႇယွမ်းႁပ်ႉ ပွၵ်ႈၵမ်းသွင်ၼႆၸိုင် ၶလိပ်ႉသဵင်ၼၼ်ႉ တေၶၢႆႉၵႂႃႇတီႈ ပႃႇႁဵဝ်ႈၶလိပ်ႉသဵင်။
+about-dataset-new = ၸုမ်ႇၶေႃႈမုၼ်း Common Voice
+about-dataset-new-text = ၸုမ်ႇၶေႃႈမုၼ်း Common Voice မီးတူဝ်ယၢင်ႇသဵင်ၼပ်ႉႁူဝ်သႅၼ် ဢၼ်ၸွႆႈႁႂ်ႈၽူႈၶူင်သၢင်ႈ ၵေႃႇသၢင်ႈၶိူင်ႈမိုဝ်းႁူႉတွင်းသဵင်။
+about-clip-graveyard = ပႃႇႁဵဝ်ႈၶလိပ်ႉသဵင်
+about-clip-graveyard-text =
+    ပႃႇႁဵဝ်ႈၶလိပ်ႈသဵင် တေပႃးဝႆႉၶလိပ်ႉသဵင်ဢၼ်ဢမ်ႇလႆႈၶဝ်ႈႁူမ်ႈပႃးၼႂ်းၸုမ်ႇၶေႃႈမုၼ်း Common Voice။ သူၸၢင်ႈလူတ်ႇလူင်းပႃႇႁဵဝ်ႈၶလိပ်ႉသဵင်မိူၼ်ၵၼ်တင်းၸုမ်ႇၶေႃႈမုၼ်းယူႇ။
+    
+    ႁဝ်းၶႃႈယိၼ်းၸူမ်းၶွပ်ႈၸႂ်ထိုင်ၸဝ်ႈၽူႈၸိူဝ်းၼႆႉ လႄႈမုၵ်ႉၸုမ်းၸိူဝ်းဢၼ်ပၼ်လွင်ႈၸွႆႈထႅမ်တႃႇၶူင်းၵၢၼ်:
+about-get-involved = ၶဝ်ႈႁူမ်ႈပႃး
+about-get-involved-text-2 =
+    ၸွင်ႇၶႂ်ႈၸွႆႈထႅမ် Common Voice ႁႂ်ႈလီၶိုၼ်ႈထႅင်ႈ?
+    လီယဝ်ႉ! ၵပ်းသိုပ်ႇလူၺ်ႈ ဢီးမေးလ် ဢမ်ႇၼၼ် <discourseLink> Discourse </discourseLink> ၾေႃႇရမ်ႇ၊
+    သူင်ႇႁၢႆးငၢၼ်းလွင်ႈပၼ်ႁႃဝႅပ်ႉသၢႆႉတီႈ <githubLink> GitHub </githubLink>၊ ဢမ်ႇၼၼ်ၵေႃႈ ၶဝ်ႈႁူမ်ႈ
+    တူင်ႇဝူင်းသျႅတ်ႉ <matrixLink> Matrix </matrixLink>
+about-stay-in-touch = တေႁဵတ်းႁိုဝ်ၵပ်းသိုပ်ႇၵၼ်?
+about-stay-in-touch-button = လူင်းသဵၼ်ႈမၢႆ
+about-stay-in-touch-text-2 = သူၸၢင်ႈႁူပ်ႉထူပ်းၸွမ်းတၢင်ႇၵေႃႉ ၼႂ်းတူင်ႇဝူင်းၽႃႇသႃႇ Mozilla လူၺ်ႈၶဝ်ႈႁူမ်ႈ <discourseLink> Discourse </discourseLink> တွၼ်ႈတႃႇဢုပ်ႇၵုမ်ၸွမ်းႁူဝ်ၶေႃႈ၊ ဢမ်ႇၼၼ် <matrixLink> Matrix </matrixLink> တွၼ်ႈတႃႇယွၼ်းတၢင်းႁၼ်ထိုင် ဝႆးဝႆး။
+about-nav-why-common-voice = ၵွပ်ႈသင် ?
+about-nav-how-it-works = ၸိူင်ႉႁိုဝ် ?
+about-nav-partners = ၽူႈႁူမ်ႈၽၢၵ်ႈ
+about-nav-get-involved = ၶဝ်ႈႁူမ်ႈပႃး
+about-nav-how-it-works-2 = Common Voice ႁဵတ်းၵၢၼ်ၸိူင်ႉႁိုဝ်?
+about-nav-playbook = လဵပ်ႈႁဵၼ်းၵၢၼ်မီးသုၼ်ႇႁူမ်ႈ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ၽႃႇသႃႇၼႂ်း Common Voice ပဵၼ်သင်?
 
 ## How do I add a language
 

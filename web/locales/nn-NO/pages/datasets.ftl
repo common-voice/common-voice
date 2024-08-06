@@ -21,6 +21,7 @@ number-of-voices = Tal på stemmer
 splits = Oppdeling
 email-to-download = Skriv inn ei e-postadresse for å laste ned
 why-email = <b> Kvifor ei e-postadresse? </b> Vi kan kome til å måtte kontakte deg i framtida om endringar i datasettet, ei e-postadresse gir oss eit kontaktpunkt.
+why-donate-datasets-page = Mozilla Common Voice er verdas mest mangfaldige folkefinansierte opne tale-datasett – og vi vert drivne utelukkande av donasjonar. Det kostar nesten ein million dollar i året å vere vert for datasetta og forbetre plattforma for dei over 100 språksamfunna som er avhengige av det vi gjer. Om du set pris på opne, inkluderande data - <b>doner i dag!</b>
 confirm-size = Du er klar for å starte ei nedlasting av <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -66,6 +67,8 @@ dataset-metadata-sex = Kjønn
 # dataset metadata - age of contributor
 dataset-metadata-age = Alder
 dataset-donate-modal-heading = Visste du at…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Om du set pris på opne, inkluderande data – doner i dag!</bold>
 data-download-singleword-title = Last ned målsegmentet for eitt ord
 data-download-singleword-callout-v2 = Dette er eit brukstilfelle-drive segment som inneheld data for å styrkje attkjenning av talte siffer og ja/nei-attkjenning.
 data-download-button = Last ned Common Voice Data

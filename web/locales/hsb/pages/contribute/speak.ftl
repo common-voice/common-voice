@@ -38,6 +38,7 @@ terms-agree = Sym přezjedny
 terms-disagree = Njejsym přezjedny
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Wulki dźak, zo sće waše rěčenske klipy darił!
+first-cta-subtitle-text = Hdyž informacije wo sebje zdźěleće, budźeće wuwiwarjam pomhać, bóle inkluziwnu technologiju wuwiwać
 why-donate = Čehodla so prašeće?
 add-information-button = Informacije přidać
 continue-speaking-button = Ně, dźakuju so, z rěčenjom pokročować
@@ -49,6 +50,7 @@ first-cta-gender-select-help-text =
     .label = Kak byšće swój splah  abo splažnu identitu wopisował?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Wulki dźak, zo waš hłós přinošujeće!
+second-cta-subtitle-text = Z profilom móžeće swojej aktiwiće slědować a ze zhromadźenstwom sobuskutkowarjow rěčnych datow do zwiska stupić.
 already-have-an-account = Maće hižo konto? <login>Přizjewić</login>
 create-profile-button = Profil załožić
 # IMAGE TAGS
