@@ -29,6 +29,12 @@ native-language =
 profile-form-add-accent = 新增自訂腔調「{ $inputValue }」
 profile-form-submit-save = 儲存
 profile-form-submit-saved = 已儲存
+male_masculine = 男性
+female_feminine = 女性
+intersex = 雙性
+transgender = 跨性別
+non-binary = 非二元性別
+do_not_wish_to_say = 我不想說
 # Gender
 other = 其他
 why-profile-title = 為什麼需要帳號？
