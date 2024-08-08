@@ -1,8 +1,8 @@
 ## Home Page
 
-home-title = Common Voice 是 Mozilla 想讓機器學會真人說話方式的專案。
-default-tagline = Mozilla Common Voice 是一套想讓機器學會真人說話方式的專案。
-home-cta = 有話大聲說，在此獻聲！
+home-title = Common Voice 是 Mozilla 想欲予機器學習真人講話方式的專案。
+default-tagline = Mozilla Common Voice 是一套想欲予機器學習真人講話方式的專案。
+home-cta = 有話大聲講，貢獻出聲音！
 wall-of-text-start = 語音是自然、是有人性的。這也是為什麼我們非常希望為電腦建立可用的語音技術。但若要建立語音系統，需要有大量的語音數據。
 wall-of-text-more-mobile = 大部分由大公司使用的資料，並未開放給大多數人使用。我們覺得這樣會阻礙創新，所以創立了想讓每個人都可以自由來進行語音識別的 Common Voice 專案。
 wall-of-text-more-desktop =
