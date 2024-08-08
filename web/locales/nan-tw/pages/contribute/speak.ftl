@@ -52,3 +52,8 @@ first-cta-gender-select-help-text =
     .label = 您會如何描述您的生理性別或認同？
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = 感謝您捐出錄音片段！
+second-cta-subtitle-text = 註冊帳號後，您可以追蹤您的貢獻紀錄，並連繫社群中的其他語音資料貢獻者。
+already-have-an-account = 已經有帳號了嗎？<login>請登入</login>
+create-profile-button = 註冊帳號
+# IMAGE TAGS
+img-alt-success-checkmark = 成功勾勾
