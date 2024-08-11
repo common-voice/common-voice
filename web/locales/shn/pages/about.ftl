@@ -62,6 +62,7 @@ about-nav-playbook = လဵပ်ႈႁဵၼ်းၵၢၼ်မီးသု�
 ## What is a language
 
 about-playbook-what-is-language = ၽႃႇသႃႇၼႂ်း Common Voice ပဵၼ်သင်?
+about-playbook-what-is-language-content-1 = မီးယူႇလၢႆလွၵ်းလၢႆးတႃႇတေဝူၼ်ႉလွင်ႈၽႃႇသႃႇ။ တွၼ်ႈတႃႇယိူင်းဢၢၼ်းတႃႇမေႃႇတႄႇလ်ႁူႉတွင်းသဵင်၊ Common Voice ပၼ်တၢင်းႁၼ်ထိုင်ဝႃႈႁႂ်ႉပၵ်းၸႂ်ၼိူဝ် 'လွင်ႈပွင်ႇၸႂ်ၵၼ်'၊ ဢမ်ႇၼၼ် 'ၸွင်ႇၽူႈၸႂ်ႉတိုဝ်းၽႃႇသႃႇၼႆႉၵမ်ႈၼမ်ပွင်ႇၸႂ်ၵၼ်ယူႇ သင်ဝႃႈၶဝ်ၶတ်းၸႂ်တေပွင်ႇၸႂ်?'
 
 ## How do I add a language
 
