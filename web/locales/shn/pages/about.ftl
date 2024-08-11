@@ -68,6 +68,9 @@ about-playbook-what-is-language-content-3 = ၽႃႇသႃႇမၢင်ၸိ
 
 ## How do I add a language
 
+about-playbook-how-add-language = တေႁဵတ်းႁိုဝ်ထႅမ်သႂ်ႇၽႃႇသႃႇထႅင်ႈ?
+about-playbook-how-add-language-translating-heading = ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ်
+about-playbook-how-add-language-collecting-sentences-heading = ၵဵပ်းႁွမ်တူၼ်းထႅဝ်
 
 ## How does localization work
 
