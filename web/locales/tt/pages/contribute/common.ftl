@@ -30,6 +30,7 @@ target-segment-generic-card = Сез үз өлешегезне максатлы 
 target-segment-first-banner = Common Voice-ның { $locale } беренче максатлы сегментын булдырырга ярдәм итегез
 target-segment-add-voice = Тавышыгызны өстәү
 target-segment-learn-more = Тулырак
+change-preferences = Көйләнмәләрне үзгәртү
 
 ## Contribution Nav Items
 
@@ -105,6 +106,8 @@ contribution-misreadings-description-extended-list-5 = Бер үк сүзне б
 contribution-misreadings-example-2-title = Бу балык базарда сатыла.
 contribution-misreadings-example-2-explanation = ["балыклар" булырга тиеш иде]
 contribution-misreadings-example-3-title = Бу балыклар базарда саты-.
+contribution-misreadings-example-5-title = Без кофе алырга тышка чыгып керергә җыенабыз.
+contribution-misreadings-example-6-title = Без кофе алырга тышка чыгып керергә җыенабыз.
 contribution-misreadings-example-8-explanation = [Туры килмәгән эчтәлек]
 contribution-varying-pronunciations-title = Төрле әйтелешләр
 contribution-varying-pronunciations-description = Укучының сүзне дөрес әйтмәве, басымны урынсыз калдыруы яки сорау билгесенә игътибар итмәве нигезендә язуны кире кагар алдыннан сак булыгыз. Дөньяның һәм илнең төрле почмакларында кулланылган төрле акцентлар һәм әйтелешләр булырга мөмкин. Зинһар, сездән башкача сөйләшә алганнарны кире какмагыз.
