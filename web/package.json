@@ -12,7 +12,7 @@
     "audio-recorder-polyfill": "0.4.1",
     "classnames": "2.5.1",
     "date-fns": "^2.30.0",
-    "downshift": "9.0.6",
+    "downshift": "9.0.8",
     "filesize": "^10.0.7",
     "focus-visible": "5.2.0",
     "intersection-observer": "0.12.0",
