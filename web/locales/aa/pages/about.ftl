@@ -5,6 +5,7 @@ how-does-it-work-title-v2 = Common Voice mannal taamitaa?
 
 ## How does it work section
 
+about-language-req-subtitle = Numuk teyni af edde osisaanam essera.
 
 ## Community Playbook Content
 ## What is a language
