@@ -8,6 +8,11 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> клип
        *[other] <bold>{ $count }</bold> клип
     }
+contribute-more =
+    { $count ->
+        [one] Және { $count } ислеўге таярсыз ба?
+       *[other] Және { $count } ислеўге таярсыз ба?
+    }
 speak-empty-state-cta = Гәплерди усыныў
 share-title-new = Көбирек даўыс жыйнаўға бизге <bold>жәрдем бериң</bold>
 keep-track-profile = Өз прогрессиңизди профил жәрдеминде бақлап барың
@@ -19,16 +24,20 @@ change-preferences = Сазлаўларды өзгертиў
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Даўыслар топламы
+contribute-sentence-collection-nav-header = Гәплер топламы
 
 ## Reporting
 
 report = Шағыныў
 report-title = Шағым жибириў
+report-ask = Бул гәпте қандай машқалалар пайда болмақта?
 report-offensive-language = Ақыретлеўши cөзлер
 report-offensive-language-detail = Бул гәпте кемситиўши ямаса ақыретлеўши сөзлер бар.
 report-grammar-or-spelling = Грамматиқалық / орфографиялық қәте
 report-grammar-or-spelling-detail = Гәпте грамматиқалық ямаса орфографиялық қәте бар.
 report-different-language = Басқа тил
+report-different-language-detail = Мен сөйлейтуғын тилден басқаша тилде жазылған.
+report-offensive-speech = Кемситиўши сөз
 report-other-comment =
     .placeholder = Пикир
 success = Таяр
@@ -56,7 +65,9 @@ contribution-criteria-link = Кағыйдалар менен танысыў
 contribution-criteria-page-title = Қатнасыў критериялары
 contribution-for-example = мысалы
 contribution-misreadings-title = Надурыс оқыў
+contribution-background-noise-title = Сыртқы шаўқым
 contribution-background-voices-title = Сыртқы даўыслар
 contribution-volume-title = Даўыс бәлентлиги
 contribution-reader-effects-title = Оқыў эффектлери
+contribution-just-unsure-title = Исенимиңиз қәмил емес пе?
 see-more = <chevron></chevron>Толығырақ

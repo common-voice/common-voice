@@ -22,3 +22,7 @@ sc-review-link = Тексериў
 ## REVIEW CRITERIA
 
 sc-criteria-item-2 = Гәп грамматиқалық тәрептен дурыс болыўы керек.
+report-sc-different-language = Басқа тил
+sentences-fetch-error = Гәплерди алыўда қәтелик жүз берди
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Үлкен өзгерислер киргизип атырмыз
