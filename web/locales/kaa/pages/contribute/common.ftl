@@ -1,3 +1,5 @@
+action-click = Басыў
+action-tap = Басың
 contribute = Қатнасыў
 review = Тексериў
 skip = Өткерип жибериў
