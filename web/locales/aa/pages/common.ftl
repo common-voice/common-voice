@@ -67,6 +67,9 @@ hi = Hindi
 hil = Hiligaynoon
 hr = Krowaata
 hsb = Sorbiyaan, Fayya
+ht = Hayisiyaan
+hu = Hangariyaan
+hy-AM = Armeeniyaan
 
 # [/]
 
