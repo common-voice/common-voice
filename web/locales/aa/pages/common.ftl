@@ -32,6 +32,20 @@ ckb = Fanti Kurdi
 cnh = Hakha Shin
 co = Korsikaan
 crh = Kriimê Tartaara
+cs = Shek
+cv = Shuvaash
+cy = Welsh
+da = Daanish
+dag = Dagbaani
+de = Almaan
+dsb = Sorbiyaan, Xage
+dv = Diivehi
+dyu = Duwaala
+el = Greek
+en = Ingiliiz
+eo = Espeeranto
+es = Spaanish
+et = Estooniyaan
 
 # [/]
 
