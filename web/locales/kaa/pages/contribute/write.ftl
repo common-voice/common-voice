@@ -30,3 +30,4 @@ technology_robotics = Технология ҳәм робототехника
 bulk-upload-additional-information = Егер бул файл ҳаққында қосымша мағлыўмат бериўди қәлесеңиз, өтиниш, биз бенен байланысың <emailFragment>commonvoice@mozilla.com</emailFragment>
 select-file = Файлды таңлаң
 select-file-mobile = Жүклеў ушын файлды таңлаң
+minimum-sentences = Файлдағы минимал гәплер: 1000
