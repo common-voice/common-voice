@@ -46,6 +46,27 @@ en = Ingiliiz
 eo = Espeeranto
 es = Spaanish
 et = Estooniyaan
+eu = Baask
+ewo = Ewondo
+fa = Persiyaan
+ff = Fulaani
+fi = Finish
+fo = Farooze
+fr = Faransaawi
+fuf = Giinê Peeli
+fy-NL = Frisiyaan
+ga-IE = Ayrish
+gl = Galisiyaan
+gn = Garani
+gom = Goan Konbaani
+gu-IN = Gujaraati
+guc = Wayuunaaki
+ha = Hawsa
+he = Hebru
+hi = Hindi
+hil = Hiligaynoon
+hr = Krowaata
+hsb = Sorbiyaan, Fayya
 
 # [/]
 
