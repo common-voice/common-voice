@@ -226,6 +226,8 @@ help = Cato
 contact = Axxoowu
 privacy = Cagla
 terms = Axcentitte
+cookies = Kuukwa
+faq = MEE
 
 ## Donate banner
 
