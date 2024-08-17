@@ -12,6 +12,11 @@ am = Amcara
 an = Aragooniiz
 ar = Qarabi
 arn = Mapudungun
+as = Assaamiiz
+ast = Asturiyaan
+az = Azerbejaan
+ba = Bashkiir
+bas = Basa
 
 # [/]
 
