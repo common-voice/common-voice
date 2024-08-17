@@ -197,12 +197,35 @@ vec = Venesiyaan
 vi = viyetnaamiyaan
 vmw = Emakhuwa
 vot = Vootik
+wep = Westfaliyaan
+wo = Wolof
+xh = Kosa
+yi = Yidish
+yo = Yoruba
+yue = Kantoniiz
+zgh = Tamaazir
+zh-CN = Shiina af (Shiina)
+zh-HK = Shiina af (hong Kong)
+zh-TW = Shiina af (Taywaan)
+zu = Zuulu
+zza = Zaza
 
 # [/]
 
 
 ## Layout
 
+speak = Yab
+speak-now = Away yab
+datasets = Oytá-daffes
+languages = Afitte
+about = Kinnuk
+partner = Waklenta
+profile = Weelayso
+help = Cato
+contact = Axxoowu
+privacy = Cagla
+terms = Axcentitte
 
 ## Donate banner
 
