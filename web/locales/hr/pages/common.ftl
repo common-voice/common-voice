@@ -236,13 +236,13 @@ logout = Odjava
 donate = Doniraj
 stayintouch = Mi u Mozilli gradimo zajednicu za govorne tehnologije. Želimo te obavještavati o novostima, novim izvorima podataka i voljeli bi saznati kako koristite podatke.
 privacy-info = Obećajemo, da ćemo pažljivo postupati s tvojim podacima. Saznaj više u našim <privacyLink>napomenama o privatnosti</privacyLink>.
-return-to-cv = Povratak na Common Voice
+return-to-cv = Natrag na Common Voice
 email-input =
     .label = E-mail
 submit-form-action = Pošalji
 loading = Učitavanje…
 email-opt-in-info = Želim primati e-mailove poput podsjetnika o ciljevima, novostima o napretku i bilten Common Voicea.
-email-opt-in-info-title = Pridruži se mailing listi Common Voicea
+email-opt-in-info-title = Pridruži se Common Voice mailing listi
 email-opt-in-info-sub-with-challenge = Primaj e-mailove poput podsjetnika o izazovima i ciljevima, novostima o napretku i bilten Common Voicea.
 email-opt-in-privacy-v2 = Prihvaćanjem primanja e-mail poruka, pristaješ na obradu tvojih podataka, kako je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>.
 indicates-required = * obilježava obvezno polje
@@ -252,6 +252,8 @@ not-available-abbreviation = --
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Trebamo</mark><br/><mark>tvoju pomoć!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Spremanje skupova podataka i poboljšanje platforme za više od 100 jezičnih zajednica koje se oslanjaju na ono što mi radimo košta gotovo milijun dolara godišnje. <strong>Ako cijeniš otvorene, uključive podatke - doniraj danas!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Koristiš životopis za</mark><br/><mark>zvoje istraživanje?</mark>
 localization-select =
