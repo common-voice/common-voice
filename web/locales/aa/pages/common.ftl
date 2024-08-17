@@ -17,6 +17,21 @@ ast = Asturiyaan
 az = Azerbejaan
 ba = Bashkiir
 bas = Basa
+be = Belaarus
+bg = Bulgaariyan
+bm = Bambaara
+bn = Bengaali
+bo = Tibeetan
+br = Breeton
+bs = Bosniyan
+bxr = Buryaat
+byv = Medumba
+ca = Katalaan
+cak = Kakshikel
+ckb = Fanti Kurdi
+cnh = Hakha Shin
+co = Korsikaan
+crh = Kriimê Tartaara
 
 # [/]
 
