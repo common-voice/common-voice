@@ -1,6 +1,7 @@
 ## Home Page
 
 home-title = Common Voice je Mozillina inicijativa za učenje strojeva govoriti ljudskim jezikom.
+default-tagline = Common Voice je Mozillina inicijativa koja pomaže strojevima govoriti ljudskim jezikom.
 home-cta = Govori, doprinesi ovdje!
 wall-of-text-start =
     Glas je prirodan, glas je ljudski. Zato smo fascinirani stvaranjem upotrebljive govorne tehnologije
