@@ -123,6 +123,28 @@ nan-tw = Taywaaniiz
 nb-NO = Norweeyan
 nd = Isindebele (Kilbata)
 ne-NP = Neppaali
+nhe = Ayrô mawqah Huasteka Nahuatl
+nhi = Ayrô kormah Siyeera Puebla Nahuatl
+nia = Niyaas
+nl = Dutsh
+nn-NO = Norweeyan Ninork
+nr = Isindebele (Gabbi)
+nso = Kilbatti Sooto
+ny = Shinyaanja
+nyn = Runyankoole
+oc = Ossitaan
+om = Oroomoh af
+or = Odiya
+os = Ossetiyaan
+pa-IN = Panjaabi
+pap-AW = Papiyaamento (Aruuba)
+pl = Polish
+ps = Pashto
+pt = Portigiiz
+quc = Kishe
+quy = Keshwa Shanka
+qvi = Kishwa
+rm-sursilv = Romaamsh Sursilvan
 
 # [/]
 
