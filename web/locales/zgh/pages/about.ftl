@@ -153,3 +153,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>ⵖⵔⴰⵜ �
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = ⵎⴰⵏⵎⴽ ⵍⴰ ⵉⵜⵜⵓⵙⵥⵕⴰⴼ ⴽⴰⵎⵏⴼⵓⵢⵙ?
