@@ -62,6 +62,8 @@ dataset-version = ⵜⴰⵍⵇⵇⵎⵜ
 sha256-checksum-copied = ⵜⵏⵖⵍ ⵜⵎⵓⵜⵜⵔⵜ ⵏ ⵓⵙⵙⵉⵔⵎ SHA256!
 sha256-checksum-copied-error = ⵏⵙⴼⵓⴳⴳⵔ ⴳ ⵓⵙⵏⵖⵍ ⵏ ⵜⵎⵓⵜⵜⵔⵜ ⵏ ⵓⵙⵙⵉⵔⵎ SHA256
 clipboard-not-supported = ⵓⵔ ⵉⵜⵜⵡⴰⵏⵏⴰⵍ ⵎⴰⴷⴷⵉⴼⵔ
+# dataset metadata - age of contributor
+dataset-metadata-age = ⴰⵡⵜⴰⵢ
 data-download-singleword-title = ⴰⴳⵎ ⵜⵓⵟⵟⵓⵜ ⵉⵜⵜⵡⴰⵜⵜⵙⵏ ⵏ ⵜⴳⵓⵔⵉ ⵜⴰⵎⵢⴰⵏⵜ
 data-download-singleword-callout-v2 = ⵉⴳⴰ ⵓⵢⴰ ⵢⴰⵜ ⵜⵓⵟⵟⵓⵜ ⴷ ⵉⴽⴽⴰⵏ ⵉⵎⴷⵢⴰⵜⵏ ⵏ ⵓⵙⵙⵎⵔⵙ ⵢⵓⵎⵉⵏ ⵉⵙⴼⴽⴰ ⵉ ⵓⵣⵣⵎⵔ ⵏ ⵜⵓⴽⵣⴰ ⵏ ⵡⵓⵟⵟⵓⵏⵏ ⵉⵜⵜⵓⵏⵏⴰⵏ ⴷ ⵜⵡⴰⴼⵉⵜ ⵏ ⵢⴰⵀ/ⵓⵀⵓ.
 data-download-button = ⴰⴳⵎ ⵉⵙⴼⴽⴰ ⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ

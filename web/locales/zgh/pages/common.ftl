@@ -153,6 +153,8 @@ sah = ⵜⴰⵙⴰⵅⵉⵜ
 sat = ⵜⴰⵙⴰⵏⵜⴰⵍⵉⵜ (ⵓⵍ ⵜⵛⵉⴽⵉ)
 sc = ⵜⴰⵙⴰⵔⴷⵉⵏⵉⵜ
 scn = ⵜⴰⵙⵉⴽⵉⵍⵉⵜ
+sco = ⵜⴰⵙⴽⵓⵟⵍⴰⵏⴷⵉⵜ
+sd = ⵜⴰⵙⵉⵏⵙⴷⵉⵜ
 sdh = ⵜⴰⴽⵓⵔⴷⵉⵜ ⵏ ⵓⵏⵥⵓⵍ
 shi = ⵜⴰⵛⵍⵃⵉⵜ
 si = ⵜⴰⵙⵉⵏⵀⴰⵍⵉⵜ
@@ -193,7 +195,9 @@ uz = ⵜⴰⵡⵣⴱⴰⴽⵉⵜ
 ve = ⵜⴰⴼⵉⵏⴷⵉⵜ
 vec = ⵜⴰⴼⵉⵏⵉⵙⵉⵜ
 vi = ⵜⴰⴼⵢⵉⵟⵏⴰⵎⵉⵜ
+vmw = ⵜⴰⵎⴰⴽⵡⴰⵜ
 vot = ⵜⴰⴼⵓⵟⵉⵜ
+wep = ⵜⴰⵡⵉⵙⵜⴼⴰⵍⵉⵜ
 wo = ⵜⴰⵡⵓⵍⵓⴼⵜ
 xh = ⵜⴰⴽⵓⵙⵉⵜ
 yi = ⵜⴰⵢⴷⴷⵉⵛⵜ
@@ -247,5 +251,7 @@ not-available-abbreviation = ⵔ/ⵙ
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>ⵏⵓⵙⵔ</mark><br/><mark>ⵜⵉⵡⵉⵙⵉ ⵏⵏⵓⵏ!</mark>
 localization-select =
     .label = ⴷⵖⵔ ⵜⵓⵜⵍⴰⵢⵜ/ⵜⴰⵙⵙⴷⵖⵔⵜ
