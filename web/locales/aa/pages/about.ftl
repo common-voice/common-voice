@@ -20,6 +20,9 @@ about-dataset-release-title = Oytá-daffes figda
 about-dataset-release-subtitle = Nanu kulli 3 alsal Oytá-daffes figda abna.
 about-subscribe-text = Common Voice't tangoorowem faxxaa?
 about-speak = Yab
+about-listen = Ankacis
+about-dataset-new = Common Voice Oytá-daffes
+about-get-involved = Edde engel
 about-nav-why-common-voice = Macah ?
 about-nav-how-it-works = Mannal ?
 about-nav-partners = Waklenta
@@ -31,6 +34,7 @@ about-nav-get-involved = Edde engel
 
 ## How do I add a language
 
+about-playbook-how-add-language-translating-heading = Arac maqnissiyya
 
 ## How does localization work
 
