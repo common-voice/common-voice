@@ -33,11 +33,15 @@ bulk-sentences = ⵜⵉⵡⵉⵏⴰⵙ ⴳⴳⵓⵜⵏⵉⵏ
 sentence-domain-combobox-label = ⴰⴳⵍⴰ ⵏ ⵜⵡⵉⵏⵙⵜ
 sentence-domain-select-placeholder = ⵙⵜⵢ ⴰⵔ ⴽⵕⴰⴹ ⵡⴰⴳⵍⴰⵜⵏ (ⵓⴷⵖⵉⵔ)
 # Sentence Domain dropdown option
+agriculture_food = ⵜⴰⴼⵍⵍⴰⵃⵜ ⴷ ⵡⵓⵜⵛⵉ
+# Sentence Domain dropdown option
 finance = ⴰⵥⵕⴼ
 # Sentence Domain dropdown option
 general = ⴰⵎⴰⵜⴰⵢ
 # Sentence Domain dropdown option
 healthcare = ⵜⴰⴷⵓⵙⵉ
+# Sentence Domain dropdown option
+history_law_government = ⴰⵎⵣⵔⵓⵢ, ⴰⵣⵔⴼ ⴷ ⵜⵏⴱⴰⴹⵜ
 
 ## BULK SUBMISSION 
 
