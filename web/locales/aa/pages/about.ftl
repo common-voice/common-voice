@@ -51,6 +51,7 @@ about-playbook-how-add-sentences = Anu maxcâ maafo mannal ossam duudaah?
 
 about-playbook-how-grow-language-content-2 = Tekkooka
 about-playbook-how-grow-language-content-4 = Ayyuntiinô ratteema
+about-playbook-how-grow-language-content-6 = Waklentiinoonaa kee Rettaati
 
 ## How to validate
 
