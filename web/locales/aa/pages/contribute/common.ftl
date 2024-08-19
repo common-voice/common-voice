@@ -12,7 +12,7 @@ change-preferences = Lafoot milaag
 
 ## Contribution Nav Items
 
-contribute-voice-collection-nav-header = Xongolô gaaboyso
+contribute-voice-collection-nav-header = Xongolô Gaaboyso
 contribute-sentence-collection-nav-header = Maxcâ maafoh Gaaboyso
 
 ## Reporting
@@ -61,3 +61,4 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-for-example = ceelalloh
+contribution-volume-title = Kaaya
