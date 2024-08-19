@@ -20,6 +20,7 @@ about-dataset-release-title = Oytá-daffes figda
 about-dataset-release-subtitle = Nanu kulli 3 alsal Oytá-daffes figda abna.
 about-subscribe-text = Common Voice't tangoorowem faxxaa?
 about-speak = Yab
+about-listen-queue = Ankacis-daami
 about-listen = Ankacis
 about-dataset-new = Common Voice Oytá-daffes
 about-get-involved = Edde engel
