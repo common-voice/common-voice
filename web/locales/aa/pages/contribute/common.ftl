@@ -4,6 +4,7 @@ contribute = Cal
 review = Sekkactu
 skip = Kaqit
 shortcuts = Ux-garuuqitte
+speak-empty-state-cta = Maxcâ maafo cal
 record-button-label = Isi xongolo isiggil
 target-segment-add-voice = Isi Xongolo edde osis
 target-segment-learn-more = Mangom barit
@@ -19,11 +20,13 @@ contribute-sentence-collection-nav-header = Maxcâ maafoh Gaaboyso
 report = Gabbaq
 report-title = Gabbaaqu Culus
 report-offensive-language = Giqi afa
+report-grammar-or-spelling = Yabti rakiiboh / tiitissô soka
 report-different-language = Baxsa le afa
 report-offensive-speech = Giqi yaaba
 report-other-comment =
     .placeholder = Maqtura
-continue = Bisoh
+success = Aslaage
+continue = Warray
 
 ## Speak & Listen Shortcuts
 
