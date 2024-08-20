@@ -60,6 +60,10 @@ about-playbook-what-is-language-content-2 = Мы хочам, каб моўныя
 ## How do I add a language
 
 about-playbook-how-add-language = Як дадаць мову?
+about-playbook-how-add-language-content-1 =
+    Спачатку праверце, ці ваша мова <languageLink>ужо існуе</languageLink>.
+    Калі гэта не так, вы можаце <languageRequestLink>зрабіць запыт на даданне вашай мовы</languageRequestLink>.
+    Ёсць два этапы. Пераклад сайта, збор прапаноў
 about-playbook-how-add-language-translating-heading = Пераклад сайта
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Паглядзіце наша кіраўніцтва па выкарыстанні Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Збор сказаў
