@@ -5,35 +5,37 @@ services:
     command: mysqld --sql_mode="STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION"
     networks:
       - voice-web
-    container_name: db
+    volumes:
+      - voice-db:/var/lib/mysql
+    container_name: vocice-db
     restart: unless-stopped
     environment:
       - MYSQL_DATABASE=voiceweb
       - MYSQL_USER=voicecommons
-      - MYSQL_PASSWORD=voicecommons
-      - MYSQL_ROOT_PASSWORD=voicewebroot
+      - MYSQL_PASSWORD=v$42FDsT6ic
+      - MYSQL_ROOT_PASSWORD=vRgf^4eo2Oot
     ports:
       - 3306:3306
   redis:
     image: redis:alpine
-    container_name: redis
+    container_name: voice-redis
     restart: unless-stopped
     networks:
       - voice-web
-  # s3proxy:
-  #   image: andrewgaul/s3proxy
-  #   container_name: s3proxy
-  #   ports:
-  #     - 9001:80
-  #   networks:
-  #     - voice-web
-  #   environment:
-  #     - S3PROXY_AUTHORIZATION=none
+  s3proxy:
+    image: andrewgaul/s3proxy
+    container_name: voice-s3proxy
+    ports:
+      - 9001:80
+    networks:
+      - voice-web
+    environment:
+      - S3PROXY_AUTHORIZATION=none
   web:
     build:
       context: .
       dockerfile: docker/Dockerfile
-    container_name: web
+    container_name: voice-web
     links:
       - db
       - redis
@@ -44,8 +46,10 @@ services:
     networks:
       - voice-web
     ports:
-      - 9000:9000
+      - 9900:9000
     command: bash -c "/code/docker/wait-for-it.sh s3proxy:80 -- /code/docker/prepare_s3.sh && yarn && yarn start"
 
 networks:
   voice-web:
+volumes:
+  voice-db:
