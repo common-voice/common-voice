@@ -241,6 +241,7 @@ return-to-cv = Common Voice fan endeb
 email-input =
     .label = Imeel
 submit-form-action = Kabbos
+loading = Keelsimah...
 
 ## Donate banner
 
