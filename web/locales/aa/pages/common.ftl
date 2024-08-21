@@ -237,6 +237,10 @@ logout = Afal Gac
 donate = Acuy
 stayintouch = Nanu Mozilla'l xongolô teknoloojih dariifal egeltá xisak geytimna. Nanu maysaasa lih angaaraw luk sugnam fanna, qusba oytáh raceynaanii kee atu ta oytát mannal xoqoysimtam wagsiisak mangom naabbem fanna.
 privacy-info = Nanu ku oyta meqennal abbixennoomuh xagana culla. Ni <privacyLink>Caglah Aysaxxag</privacyLink> wagsiisak muxxi kawis.
+return-to-cv = Common Voice fan endeb
+email-input =
+    .label = Imeel
+submit-form-action = Kabbos
 
 ## Donate banner
 
