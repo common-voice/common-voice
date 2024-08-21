@@ -228,6 +228,7 @@ privacy = Cagla
 terms = Axcentitte
 cookies = Kuukwa
 faq = MEE
+content-license-text = Addatino elle geytimtam <licenseLink>Creative Commons license</licenseLink>
 
 ## Donate banner
 
