@@ -257,3 +257,6 @@ donate-banner-cta = <mark>Nanu sin</mark><br/><mark>cato fanna!</mark>
 donate-banner-cta-explanation = 100+ afih egeltitte nanu abnaamal qekittaah, oytá-daffeysis cadisaanam kee gudgud yaysiiseenim liggidal malyuun dollar takkem awqentah faxxa. Fakimut taniih, maagoosa le oytá tessekexxek - asaaku qokol!
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Ku gorantoh</mark><br/><mark>CV xoqoysim?</mark>
+languages-donate-banner-cta-explanation = Common Voice elle xissiimem axcawaw kee cindatitte! Nanu akkadaamitteey, gabqasah ayyuntaa kee kuur goranto abâ lih qokkoltinnam kicinnoh, immay gudgud kee cadisiyyi awqentah cindat xayyoysisih gitak meeri abaanam nummaak cato takke.
+localization-select =
+    .label = Af/dariifisso door
