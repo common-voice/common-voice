@@ -242,6 +242,8 @@ email-input =
     .label = Imeel
 submit-form-action = Kabbos
 loading = Keelsimah...
+email-opt-in-info = Anu axcih hadaf kassiisitte, yi maysaasah bisô maxcoo kee Common Voice xaagi-waraakit wagittaamal imeelitte geyam faxa.
+email-opt-in-info-title = Common Voice farmoh rortat engel
 
 ## Donate banner
 
