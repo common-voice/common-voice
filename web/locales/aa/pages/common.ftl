@@ -229,6 +229,11 @@ terms = Axcentitte
 cookies = Kuukwa
 faq = MEE
 content-license-text = Addatino elle geytimtam <licenseLink>Creative Commons license</licenseLink>
+share-title = Gersi mari sinni xongolo akah yacen innah nee cat!
+share-text = Nummâ mari mannal yaabam maashiin barisnâ gidih cat, isi xongolo acuy { $link }
+link-copied = Cixi Korraqsimeh
+back-top = Daga fanah uduur
+logout = Afal Gac
 
 ## Donate banner
 
