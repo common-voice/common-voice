@@ -234,6 +234,7 @@ share-text = Nummâ mari mannal yaabam maashiin barisnâ gidih cat, isi xongolo 
 link-copied = Cixi Korraqsimeh
 back-top = Daga fanah uduur
 logout = Afal Gac
+donate = Acuy
 
 ## Donate banner
 
