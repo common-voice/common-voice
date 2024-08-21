@@ -253,3 +253,5 @@ not-available-abbreviation = N/A
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>Nanu sin</mark><br/><mark>cato fanna!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = 100+ afih egeltitte nanu abnaamal qekittaah, oytá-daffeysis cadisaanam kee gudgud yaysiiseenim liggidal malyuun dollar takkem awqentah faxxa. Fakimut taniih, maagoosa le oytá tessekexxek - asaaku qokol!
