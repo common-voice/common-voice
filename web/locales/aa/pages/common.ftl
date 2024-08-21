@@ -246,6 +246,10 @@ email-opt-in-info = Anu hadaf kassiisitte, yi maysaasah bisô maxcoo kee Common 
 email-opt-in-info-title = Common Voice farmoh rortat engel
 email-opt-in-info-sub-with-challenge = Hadaf kassiisitte, maysaasâ bisô maxcoo kee Common Voice xaagi-waraakit wagittaamal axcih meelitte gey.
 email-opt-in-privacy-v2 = Imeel geytam dooritek wadir,  Mozilla'h <privacy Link>Caglâ Poolisi</privacy Link> elle baxxaqisse innal a oyta Mozilla tabbixem oggolah iyyanama.
+indicates-required = Makrah (*) asta le booxaaxi faxximtah.
+not-available-abbreviation = N/A
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>Nanu sin</mark><br/><mark>cato fanna!</mark>
