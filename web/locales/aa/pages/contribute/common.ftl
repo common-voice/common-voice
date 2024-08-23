@@ -41,7 +41,7 @@ shortcut-skip = S
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Isiggli/Soolis
 shortcut-rerecord-toggle = [1 -5]
-shortcut-rerecord-toggle-label = Qagitak xabba isiggil
+shortcut-rerecord-toggle-label = Qagitak xabbab isiggil
 shortcut-discard-ongoing-recording = ESC
 shortcut-submit = Endeb
 
