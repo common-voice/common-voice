@@ -16,6 +16,8 @@ contribute-more =
         [one] muxxi { $count }  abuh gulguluh an?
        *[other] muxxi { $count }  abnuh gulguluh nanno?
     }
+speak-empty-state = Ta afat nasiggiluh maxcâ maafo nek gaba kalteh...
+no-sentences-for-variants = Ku afih baxsaleh maxcô maafo gaba kaltem celta! kot teysek, ku afti addat tan gersi maxcâ maafitte tablê gidih isi guddaaq milaagtam duddah.
 speak-empty-state-cta = Maxcâ maafo cal
 record-button-label = Isi xongolo isiggil
 target-segment-add-voice = Isi Xongolo edde osis
