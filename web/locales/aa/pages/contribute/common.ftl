@@ -19,7 +19,11 @@ contribute-more =
 speak-empty-state = Ta afat nasiggiluh maxcâ maafo nek gaba kalteh...
 no-sentences-for-variants = Ku afih baxsaleh maxcô maafo gaba kaltem celta! kot teysek, ku afti addat tan gersi maxcâ maafitte tablê gidih isi guddaaq milaagtam duddah.
 speak-empty-state-cta = Maxcâ maafo cal
+speak-loading-error =
+    Nanu atu yabtâ gidih maxcô maafo geynam ma xeqinno.
+    Aysuk sarra qagitaak gibbat.
 record-button-label = Isi xongolo isiggil
+share-title-new = <bold>Nee cat</bold> mango xongolo geynâ gidih
 target-segment-add-voice = Isi Xongolo edde osis
 target-segment-learn-more = Mangom barit
 change-preferences = Lafoot milaag
