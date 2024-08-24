@@ -9,6 +9,13 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> Xabba
        *[other] <bold>{ $count }</bold> Xabbitte
     }
+goal-help-recording = Atu Common Voice tasgiil hadaf  <goalPercentage></goalPercentage> ayrol { $goalValue } gufâ gidih nee hatteh!
+goal-help-validation = Atu Common Voice ceesas hadaf  <goalPercentage></goalPercentage> ayrol { $goalValue } gufâ gidih nee hatteh!
+contribute-more =
+    { $count ->
+        [one] muxxi { $count }  abuh gulguluh an?
+       *[other] muxxi { $count }  abnuh gulguluh nanno?
+    }
 speak-empty-state-cta = Maxcâ maafo cal
 record-button-label = Isi xongolo isiggil
 target-segment-add-voice = Isi Xongolo edde osis
