@@ -4,6 +4,11 @@ contribute = Cal
 review = Sekkactu
 skip = Kaqit
 shortcuts = Ux-garuuqitte
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> Xabba
+       *[other] <bold>{ $count }</bold> Xabbitte
+    }
 speak-empty-state-cta = Maxcâ maafo cal
 record-button-label = Isi xongolo isiggil
 target-segment-add-voice = Isi Xongolo edde osis
