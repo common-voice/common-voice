@@ -13,6 +13,7 @@ goal-help-recording = Segített a Common Voice-nak elérni a napi rögzítési c
 goal-help-validation = Segített a Common Voice-nak elérni a napi ellenőrzési cél ({ $goalValue }) <goalPercentage></goalPercentage>-át!
 contribute-more = Készen áll még { $count } felvételre?
 speak-empty-state = Elfogytak az felvételre váró mondatok ezen a nyelven…
+no-sentences-for-variants = A nyelvi változata lehet, hogy kifogyott a mondatokból! Ha Önnek is megfelel, akkor módosíthatja a beállításait, hogy más mondatokat is lásson a nyelvén.
 speak-empty-state-cta = Mondatok hozzáadása
 speak-loading-error =
     Nem tudtunk felolvasható mondatokat lekérni.
