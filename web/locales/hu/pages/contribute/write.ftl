@@ -74,6 +74,7 @@ try-upload-again-md = Próbálja újból feltölteni
 select-file = Fájl kiválasztása
 select-file-mobile = Válassza ki a feltöltendő fájlt
 accepted-files = Elfogadott fájltípusok: csak .tsv
+minimum-sentences = Minimális mondatok száma a fájlban: 1000
 maximum-file-size = Maximális fájlméret: 25 MB
 what-needs-to-be-in-file = Minek kell lennie a fájlomban?
 what-needs-to-be-in-file-explanation = Nézze meg a <templateFileLink>sablonfájlunkat</templateFileLink>. A mondatoknak szerzői jogoktól mentesnek (CC0 vagy a beküldő eredeti munkája), valamint egyértelműnek, nyelvtanilag helyesnek és könnyen olvashatónak kell lenniük. A beküldött mondatok felolvasásának nagyjából 10-15 másodpercet kellene igénybe vennie, valamint kerülje a számok, tulajdonnevek és speciális karakterek használatát.

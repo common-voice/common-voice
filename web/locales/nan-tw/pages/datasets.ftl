@@ -10,12 +10,15 @@ datasets-positioning =
     您可於此頁面找到其他的開放原始碼語音資料集。隨 Common Voice 持續成長，我們也會於此處張貼更新資訊。
 language = 語言
 download-dataset-header = 下載資料集
+download-delta-explainer = 我們有些改變。差異片段僅包含從上次發佈以來最新版的片段。<deltaLink>了解此項目的更多資訊</deltaLink>。
+download-dataset-tag = 請選擇您想要下載的語言與資料集版本。
 # File size in gigabytes
 size = 大小
 validated-hr-total = 總驗證時數
 overall-hr-total = 全體總時數
 cv-license = 授權條款
 audio-format = 音檔格式
+dataset-splits = 拆開（年齡與性別）
 number-of-voices = 錄音人數
 splits = 分割
 email-to-download = 輸入 E-Mail 即可下載
@@ -24,6 +27,7 @@ confirm-size = 請準備好下載 <b>{ $size }</b> 的檔案
 size-gigabyte = GB
 size-megabyte = MB
 confirm-no-identify = <b>您同意</b>不嘗試識別 Common Voice 資料集中，說話者的身分
+confirm-join-mailing-list = 我想加入 Common Voice 郵件群組
 download-language = 下載 { $language } 資料集
 validated-hours = 已驗證時數
 recorded-hours = 已錄製時數
@@ -37,6 +41,8 @@ subscribe = 訂閱
 get-started-speech = 語音辨識新手入門
 other-datasets = 其他語音資料集
 feedback-q = 有意見要回饋嗎？
+# This indicates that there is no data to display
+no-information = 無資訊
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ 是一套讓研究者開發最先進的 AI 對話模型的<docsLink>開放原始碼工具組</docsLink>。
 resource-deepspeech-info = Mozilla 的開放原始碼語音識別引擎 Deep Speech，可用來打造語音識別應用程式。您可閱讀我們的 <githubLink>Github 概觀</githubLink>或加入 <discourseLink>DeepSpeech Discourse</discourseLink> 了解如何入門。
 resource-coqui-info = <coquiLink>Coqui</coquiLink> 致力於開放語音技術。他們的專案包含使用深度學習技術的 STT 與 TTS 引擎。
@@ -56,6 +62,17 @@ more = 更多
 close = 關閉
 download = 下載
 dataset-version = 版本
+sha256-checksum-copied = 已複製 SHA256 Checksum！
+sha256-checksum-copied-error = SHA256 Checksum 複製失敗！
+clipboard-not-supported = 不支援剪貼簿
+no-information-available = 無可用資訊
+dataset-metadata-sex = 性別
+# dataset metadata - age of contributor
+dataset-metadata-age = 年齡
+donate-modal-message = 正在下載您的資料集！
+dataset-donate-modal-heading = 您知道嗎…
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>如果您也看重開放、富包容性的資料 - 快來捐款！</bold>
 data-download-singleword-title = 下載單字目標字串
 data-download-singleword-callout-v2 = 這是一個包含用來進行口述數字識別與是/否偵測的使用案例。
 data-download-button = 下載 Common Voice 資料

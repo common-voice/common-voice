@@ -1,6 +1,7 @@
 action-click = 揤
 action-tap = 點選
 contribute = 參與貢獻
+review = 審核句子
 skip = 略過
 shortcuts = 捷徑
 clips-with-count-pluralized =
@@ -23,9 +24,12 @@ target-segment-generic-card = 您正在朝目標段落數貢獻錄音
 target-segment-first-banner = 幫助 Common Voice 設定 { $locale } 的第一組目標段落數
 target-segment-add-voice = 加入您的聲音
 target-segment-learn-more = 了解更多
+change-preferences = 更改偏好設定
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = 收集語音
+contribute-sentence-collection-nav-header = Sentence Collection
 
 ## Reporting
 

@@ -1,7 +1,6 @@
 ## WRITE PAGE
 
 write = ⴰⵔⴰ
-# WRITE PAGE
 write-instruction = ⵔⵏⵓ <icon></icon> ⴽⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ ⵏ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⵏ
 write-page-subtitle = ⵔⴰⴷ ⵜⵜⵓⵔⵏⴰⵏⵜ ⵜⵡⵉⵏⴰⵙ ⵜⵜⵢⴰⵔⴰⴳⵏⵉⵏ ⴷⴰ ⵖⵔ ⵢⴰⵜ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ ⴷⴷⴰⵡ ⵢⴰⵜ ⵜⵓⵔⴰⴳⵜ cc-0 ⵉⵙⴰⴳⴰⵏ ⵙ ⵓⴳⴷⵓⴷⴰⵏ.
 sentence =
@@ -31,6 +30,18 @@ single-sentence-submission = ⴰⵣⴰⵏ ⵏ ⵜⵡⵉⵏⵙⵜ ⵜⴰⵎⵢⴰ
 bulk-sentence-submission = ⴰⵣⴰⵏ ⵏ ⵜⵡⵉⵏⴰⵙ ⴳⴳⵓⵜⵏⵉⵏ
 single-sentence = ⵜⴰⵡⵉⵏⵙⵜ ⵜⴰⵎⵢⴰⵏⵜ
 bulk-sentences = ⵜⵉⵡⵉⵏⴰⵙ ⴳⴳⵓⵜⵏⵉⵏ
+sentence-domain-combobox-label = ⴰⴳⵍⴰ ⵏ ⵜⵡⵉⵏⵙⵜ
+sentence-domain-select-placeholder = ⵙⵜⵢ ⴰⵔ ⴽⵕⴰⴹ ⵡⴰⴳⵍⴰⵜⵏ (ⵓⴷⵖⵉⵔ)
+# Sentence Domain dropdown option
+agriculture_food = ⵜⴰⴼⵍⵍⴰⵃⵜ ⴷ ⵡⵓⵜⵛⵉ
+# Sentence Domain dropdown option
+finance = ⴰⵥⵕⴼ
+# Sentence Domain dropdown option
+general = ⴰⵎⴰⵜⴰⵢ
+# Sentence Domain dropdown option
+healthcare = ⵜⴰⴷⵓⵙⵉ
+# Sentence Domain dropdown option
+history_law_government = ⴰⵎⵣⵔⵓⵢ, ⴰⵣⵔⴼ ⴷ ⵜⵏⴱⴰⴹⵜ
 
 ## BULK SUBMISSION 
 

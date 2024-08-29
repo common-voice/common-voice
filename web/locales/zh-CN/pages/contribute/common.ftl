@@ -51,7 +51,7 @@ report-other-comment =
     .placeholder = 备注
 success = 成功
 continue = 继续
-report-success = 反馈成功通过
+report-success = 反馈提交成功
 
 ## Speak & Listen Shortcuts
 

@@ -1,3 +1,4 @@
+sentence-collection = Гәплер топламы
 misreadings = Надурыс оқыў
 background-noise = Сыртқы шаўқым
 background-voices = Сыртқы даўыслар
@@ -5,4 +6,7 @@ volume = Даўыс бәлентлиги
 reader-effects = Оқыў эффектлери
 just-unsure = Исенимиңиз қәмил емес пе?
 example = Мысал
+still-have-questions = Сораўларыңыз бар ма?
 contact-common-voice = Common Voice командасы менен байланысың
+adding-sentences = Гәплерди қосыў
+adding-sentences-subheader-numbers = Санлар

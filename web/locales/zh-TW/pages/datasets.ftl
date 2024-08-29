@@ -23,6 +23,7 @@ number-of-voices = 錄音人數
 splits = 分割
 email-to-download = 輸入 E-Mail 即可下載
 why-email = <b>為什麼需要 E-Mail?</b>未來我們可能會聯絡您，提供資料集的相關更新資訊。E-Mail 可作為我們聯絡您的方式。
+why-donate-datasets-page = Mozilla Common Voice 是世界上最多樣化的眾包開放語音數據集—我們完全依賴捐款來經營，每年花費近百萬美元來提供資料集並改進平台，以支持依賴我們的一百多個語言的社群。如果你也重視開放且包容的數據，<b>今天就捐款吧！</b>​⬤
 confirm-size = 請準備好下載 <b>{ $size }</b> 的檔案
 size-gigabyte = GB
 size-megabyte = MB
@@ -71,6 +72,7 @@ dataset-metadata-sex = 性別
 dataset-metadata-age = 年齡
 donate-modal-message = 正在下載您的資料集！
 dataset-donate-modal-heading = 您知道嗎…
+donate-modal-explanation-1 = 每年花費近百萬美元來提供資料集並改進平台，以支持依賴我們的一百多個語言的社群。
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>如果您也看重開放、富包容性的資料 - 快來捐款！</bold>
 data-download-singleword-title = 下載單字目標字串

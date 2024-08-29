@@ -5,9 +5,11 @@ how-does-it-work-title-v2 = Common Voice қалай ислейди?
 
 ## How does it work section
 
+about-language-req-subtitle = Биреў тилди қосыўды сорайды.
 about-localization-title = Веб-сайтты локализациялаў
 about-sentence-collection-title = Гәплерди жыйнаў
 about-sentence-collection-subtitle = Даўыслап оқыў ушын гәплер жыйналады
+about-new-lang-title = Жаңа тилди иске түсириў
 about-dataset-release-title = Мағлыўматлар топламының шығыўы
 about-dataset-release-subtitle = Биз мағлыўматлар топламын ҳәр 3 айдан жәриялаймыз.
 about-subscribe-text = Common Voice пенен байланыста болыўды қәлейсиз бе?

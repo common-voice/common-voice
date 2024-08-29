@@ -69,6 +69,12 @@ about-playbook-what-is-language-content-3 = 某些語言有許多不同的文法
 about-playbook-how-add-language = 要如何加入語言？
 about-playbook-how-add-language-content-1 = 首先請先確認您的語言是否<languageLink>已經存在</languageLink>。若還不存在的話，請<strong>將網站翻譯成您的語言，並且收集語句</strong>。
 about-playbook-how-add-language-translating-heading = 翻譯這个網站
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>觀看 Pontoon 的使用教學。</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = 我們使用 Mozilla 一套叫作 <pontoonLink>Pontoon</pontoonLink> 的工具進行介面翻譯。Pontoon 已經支援許多語言，但若沒有您使用的語言，可以<pontoonRequestLink>請求新增</pontoonRequestLink>。新增語言後，請<githubRepoLink>到 GitHub 請求加入新語言</githubRepoLink>，Common Voice 方可支援。<localizationFragment>若需更多有關網站介面翻譯的資訊，請點此處</localizationFragment>。
+about-playbook-how-add-language-collecting-sentences-heading = 收集句子
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>觀看我們的 Sentence Collector 使用指南</sentenceCollectorVideo>。
+about-playbook-how-add-language-collecting-sentences-content-2 = 您可以<sentenceCollectorLinkAdd>加入少量的句子</sentenceCollectorLinkAdd>，或是直接<bulkImportDocsLink>透過 Github 大批匯入</bulkImportDocsLink>。請記住所有的句子都必須是 <licenseLink>CC0 或公開領域</licenseLink>作品，或是您自己撰寫的作品。
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>了解收集語句的更多資訊</sentenceCollectorFragment>。
 
 ## How does localization work
 
@@ -134,3 +140,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>更加了解�
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Common Voice 的運作資金來自哪裡？

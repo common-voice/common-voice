@@ -28,6 +28,7 @@ footer {
         }
 
         &:hover {
+            text-decoration: underline;
             opacity: 0.6;
         }
     }
@@ -199,7 +200,7 @@ footer {
     }
 
     & .icons {
-        width: 60%;
+        width: 100%;
         display: flex;
         justify-content: space-around;
 

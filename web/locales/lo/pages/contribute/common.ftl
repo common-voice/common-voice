@@ -28,6 +28,7 @@ target-segment-generic-card = ທ່ານກຳລັງປະກອບສ່�
 target-segment-first-banner = ຊ່ວຍສ້າງກຸ່ມເປົ້າໝາຍທຳອິດຂອງ Common Voice ໃນ { $locale }
 target-segment-add-voice = ເພີ່ມສຽງຂອງເຈົ້າ
 target-segment-learn-more = ຮຽນຮູ້ເພີ່ມເຕີມ
+change-preferences = ປ່ຽນການຕັ້ງຄ່າ
 
 ## Contribution Nav Items
 
