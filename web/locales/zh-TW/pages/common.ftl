@@ -253,7 +253,10 @@ not-available-abbreviation = 不適用
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>我們需要</mark><br/><mark>你的幫忙！</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = 我們每年花費將近一百萬美元以託管資料集及改善平台，以服務來自一百多個不同語言的社群。<strong>若您也相信資料開放與包容的價值，今天就立刻捐款！</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>在您的研究中</mark><br/><mark>使用 CV 嗎？</mark>
+languages-donate-banner-cta-explanation = Common Voice 是由捐款和補助金資助！我們非常樂於與學術界、公民社會和產業研究人員合作。Common Voice 可免費使用，但如能通過補助金提案來為平台和托管費用做出貢獻，將會非常有幫助。
 localization-select =
     .label = 選擇語言 / 語系

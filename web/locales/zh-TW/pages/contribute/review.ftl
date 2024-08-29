@@ -55,3 +55,5 @@ review-error = 審核此句子時發生錯誤
 review-error-rate-limit-exceeded = 您操作得太快了，請花點時間確認句子內容是否正確。
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = 我們有些重大變更
+sc-redirect-page-subtitle-1 = Sentence Collector 已移至 Common Voice 主網站。您現在可以在 Common Voice 上<writeURL>撰寫</writeURL>句子，或<reviewURL>審核</reviewURL>提交至 Common Voice 的單句。
+sc-redirect-page-subtitle-2 = 在 <matrixLink>Matrix</matrixLink>、<discourseLink>Discourse</discourseLink> 或 <emailLink>email</emailLink> 詢問問題。
