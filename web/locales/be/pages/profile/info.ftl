@@ -31,8 +31,10 @@ profile-form-submit-save = Захаваць
 profile-form-submit-saved = Захавана
 male_masculine = Мужчынскі
 female_feminine = Жаночы
+intersex = Інтэрсэксуал
 transgender = Трансгендэр
 non-binary = Небінарны
+do_not_wish_to_say = Не хачу казаць
 # Gender
 other = Іншы
 why-profile-title = Навошта патрэбны профіль?

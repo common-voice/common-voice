@@ -13,6 +13,7 @@ goal-help-recording = 您已幫助 Common Voice 完成 <goalPercentage></goalPer
 goal-help-validation = 您已幫助 Common Voice 完成 <goalPercentage></goalPercentage> 的每日 { $goalValue } 筆驗證目標！
 contribute-more = 準備好再作 { $count } 筆了嗎？
 speak-empty-state = 我們已經沒有這種語言的文字可以錄音了…
+no-sentences-for-variants = 你的語言變體（language variant）可能已經沒有可用的句子了！如果你願意，你可以調整設定，以查看同一語言中的其他句子。
 speak-empty-state-cta = 貢獻語句
 speak-loading-error = 我們無法取得句子讓您錄音，請稍候再試。
 record-button-label = 錄下您的聲音

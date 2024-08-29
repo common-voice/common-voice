@@ -4,6 +4,8 @@ language-section-in-progress = 準備中
 language-section-in-progress-new-description = 這些語言目前正由社群開發中，進度條展示每種語言<localizationGlossaryLink>網站在地化</localizationGlossaryLink>及<sentenceCollectionGlossaryLink>搜集語句</sentenceCollectionGlossaryLink>的狀況。
 language-section-launched = 已上線
 language-section-launched-description = 以下「已上線」的語言，代表網站已經成功<localizationGlossaryLink>在地化</localizationGlossaryLink>，且也已經<sentenceCollectionGlossaryLink>搜集了夠多句子</sentenceCollectionGlossaryLink>讓大家能用<speakLink>說話</speakLink>及<listenLink>聆聽</listenLink>的方式貢獻。
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = 最後更新：{ $lastUpdatedTimeStamp }
 languages-show-more = 檢視更多
 languages-show-less = 檢視更少
 language-meter-in-progress = 進度
@@ -13,6 +15,8 @@ language-search-input =
 language-speakers = 使用者數
 localized = 已翻譯
 sentences = 句子
+language-validation-hours = 小時
+language-validation-progress = 驗證進度
 contribute = 參與貢獻
 get-involved-button = 來加入阮
 get-involved-title = 貢獻到 { $lang }

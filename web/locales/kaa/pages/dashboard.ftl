@@ -20,6 +20,7 @@ difficult-difficulty = Қыйын
 pro-difficulty = Про
 lose-goal-progress-warning = Мақсетиңизди өзгертиў арқалы сиз әмелдеги прогрессиңизди жойтасыз.
 want-to-continue = Даўам етиўди қәлейсиз бе?
+finish-editing = Дәслеп редакторлаў жуўмақлансын ба?
 build-custom-goal = Жеке мақсет жаратыў
 set-a-goal = Мақсет қойыў
 cant-decide = Бир шешимге келе алмай атырсыз ба?

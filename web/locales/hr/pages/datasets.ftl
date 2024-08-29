@@ -23,6 +23,7 @@ number-of-voices = Broj glasova
 splits = Podjele
 email-to-download = Za preuzimanje, upiši e-adresu
 why-email = <b>Zašto e-mail adresa?</b> U budućnosti ćemo te možda morati kontaktirati u vezi s promjenama skupa podataka, a e-mail nam pruža mogućnost kontaktiranja.
+why-donate-datasets-page = Mozilla Common Voice je najraznolikija, otvorena zbirka glasovnih podataka na svijetu, i u potpunosti se financirmao donacijama. Spremanje skupova podataka i poboljšanje platforme za više od 100 jezičnih zajednica koje se oslanjaju na ono što mi radimo košta gotovo milijun dolara godišnje. <strong>Ako cijeniš otvorene, uključive podatke - doniraj danas!</strong>
 confirm-size = Sve je spremno za pokretanje preuzimanja veličine <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB

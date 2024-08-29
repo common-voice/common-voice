@@ -73,7 +73,7 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>觀�
 about-playbook-how-add-language-translating-content-2 = 我們使用 Mozilla 一套叫作 <pontoonLink>Pontoon</pontoonLink> 的工具進行介面翻譯。Pontoon 已經支援許多語言，但若沒有您使用的語言，可以<pontoonRequestLink>請求新增</pontoonRequestLink>。新增語言後，請<githubRepoLink>到 GitHub 請求加入新語言</githubRepoLink>，Common Voice 方可支援。<localizationFragment>若需更多有關網站介面翻譯的資訊，請點此處</localizationFragment>。
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>觀看我們的 Sentence Collector 使用指南</sentenceCollectorVideo>。
-about-playbook-how-add-language-collecting-sentences-content-2 = 您可以<sentenceCollectorLinkAdd>加入少量的句子</sentenceCollectorLinkAdd>，或是直接<bulkImportDocsLink>透過 Github 大批匯入</bulkImportDocsLink>。請記住所有的句子都必須是 <licenseLink>CC0 或公開領域</licenseLink>作品，或是您自己撰寫的作品。
+about-playbook-how-add-language-collecting-sentences-content-2 = 您可以<sentenceCollectorLinkAdd>加入少量的句子</sentenceCollectorLinkAdd>，或是直接<bulkImportDocsLink>透過 Github 大批匯入</bulkImportDocsLink>。請記住所有的句子都必須是 <licenseLink>CC0 或公眾領域</licenseLink>作品，或是您自己撰寫的作品。
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>了解收集語句的更多資訊</sentenceCollectorFragment>。
 
 ## How does localization work
@@ -89,7 +89,7 @@ about-playbook-how-localize-content-5 = 請看我們的說明影片
 
 about-playbook-how-add-sentences = 要如何加入句子？
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> 是一套用來收集與驗證公眾領域語句的工具。您要先<scAccountLink>註冊帳號</scAccountLink>，然後將您使用的語言加到<strong>個人資料</strong>中，然後就可以<strong>新增</strong>句子或者<strong>審核</strong>先前新增的句子。
-about-playbook-how-add-sentences-content-2 = 每個句子都必須經過兩個人審核接受才會被加入 Common Voice。您可以<languageGuidelinesLink>在此</languageGuidelinesLink>建立您的語言的審核標準。句子的內容必須使用<licenseLink>公眾領域</licenseLink>授權條款，並且不超過 15 個字。您可以請文字內容的作者或著作權擁有者<waiverLink>以 CC0 條款拋棄著作權</waiverLink>，並且寄到 commonvoice@mozilla.com 給我們即可使用。
+about-playbook-how-add-sentences-content-2 = 每個句子都必須經過兩個人審核接受才會被加入 Common Voice。您可以<languageGuidelinesLink>在此</languageGuidelinesLink>建立您的語言的審核標準。句子的內容必須屬於<licenseLink>公眾領域</licenseLink>，並且不超過 15 個字。您可以請文字內容的作者或著作權擁有者<waiverLink>以 CC0 條款拋棄著作權</waiverLink>，並且寄到 commonvoice@mozilla.com 給我們即可使用。
 about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 來從維基百科收集短句。
 
 ## How to record quality
@@ -141,3 +141,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>更加了解�
 ## How is Common Voice funded
 
 about-playbook-how-funded = Common Voice 的運作資金來自哪裡？
+about-playbook-how-funded-content-1 = Common Voice 是 Mozilla 基金會的計畫（美國的 501c3 非營利組織）。此專案目前由 <phiantricGrantLink>慈善基金</phiantrophicGrantLink> 及來自世界各地的人們捐款資助。
+about-playbook-how-funded-content-2 = 我們花費大量費用以持續提供與釋出資料集、改善本平台，並且執行 <africaMradiLink>社群專案</africaMradiLink>。
+about-playbook-how-funded-content-3 = 若你或你的組織想要回饋此專案，你可以 <donateLink>直接捐款</donateLink>，或寄信到 <emailFragment>commonvoice@mozilla.com</emailFragment> 聯繫我們的合作團隊。

@@ -1,3 +1,4 @@
+record-platform-not-supported = Кеширерсиз, ҳәзирги ўақытта платформаңыз қоллап-қуўатланбайды.
 record-must-allow-microphone = Сиз микрофонға руқсат бериўиңиз керек.
 record-no-mic-found = Микрофон табылмады.
 record-three-more-instruction = Үшеўи қалды!

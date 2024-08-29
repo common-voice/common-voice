@@ -65,6 +65,8 @@ no-information-available = Няма даступных звестак
 dataset-metadata-sex = Пол
 # dataset metadata - age of contributor
 dataset-metadata-age = Узрост
+donate-modal-message = Ваш набор даных спампоўваецца!
+dataset-donate-modal-heading = Ці ведаеце вы...
 data-download-singleword-title = Спампуйце спецыялізаваны сегмент «Адно слова»
 data-download-singleword-callout-v2 = База дадзеных для распазнавання маўленчых элементаў i вызначэння так / не.
 data-download-button = Спампаваць дадзеныя Common Voice

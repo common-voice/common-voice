@@ -4,3 +4,5 @@ listen-again-instruction = Выдатна! <playIcon></playIcon> Слухайц�
 listen-3rd-time-instruction = Засталося два <playIcon></playIcon> , працягвайце!
 listen-last-time-instruction = <playIcon></playIcon> Апошні!
 listen-empty-state = У нас скончыліся кліпы для праверкі на гэтай мове...
+listen-abort-cancel = Працягнуць праверку
+listen-abort-confirm = Скончыць праверку

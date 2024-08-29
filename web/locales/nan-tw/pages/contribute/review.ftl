@@ -44,3 +44,14 @@ sc-criteria-item-3 = 句子必須說得出來。
 sc-criteria-item-4 = 若句子符合上述標準，請點擊右方的「通過」按鈕。
 sc-criteria-item-5-2 = 若句子不符合上述條件，點擊「退回」按鈕。若您不確定句子可不可用，也可以略過，跳到下一句。
 sc-criteria-item-6 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = 確認 <icon></icon> 是一句符合語法的句子嗎？
+sc-review-rules-title = 句子內容符合準則嗎？
+sc-review-empty-state = 此語言目前沒有需要審核的語句。
+report-sc-different-language = 其他語言
+report-sc-different-language-detail = 這句話是用其他語言撰寫的句子。
+sentences-fetch-error = 取得句子時發生錯誤
+review-error = 審核此句子時發生錯誤
+review-error-rate-limit-exceeded = 您操作得太快了，請花點時間確認句子內容是否正確。
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = 我們有些重大變更

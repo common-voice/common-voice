@@ -32,10 +32,10 @@ about-yes-votes = ≥ 2 „Da” glasa
 about-yes-votes-text = Da bi se glasovni isječak preuzeo u skup podataka Common Voice, moraju ga potvrditi dva korisnika.
 about-no-votes = ≥ 2 „Ne” glasa
 about-no-votes-text = Kada korisnik odbije glasovni isječak, isječak se vraća u red. Ako je drugi put odbijen, glasovni isječak se premješta u „Groblje isječaka”.
-about-dataset-new = Skup podataka Common Voice
-about-dataset-new-text = Skup podataka Common Voice sadrži stotine tisuća uzoraka glasova koji programerima pomažu izraditi alate za prepoznavanje govora.
+about-dataset-new = Common Voice skup podataka
+about-dataset-new-text = Common Voice skup podataka sadrži stotine tisuća uzoraka glasova koji programerima pomažu izraditi alate za prepoznavanje govora.
 about-clip-graveyard = Groblje isječaka
-about-clip-graveyard-text = Groblje isječaka sastoji se od govornih isječaka koji nisu uvršteni u skup podataka Common Voice. Kao što je skup podataka dostupan, tako je i groblje isječaka dostupno za preuzimanje.
+about-clip-graveyard-text = Groblje isječaka sastoji se od govornih isječaka koji nisu uvršteni u Common Voice skup podataka. Kao što je skup podataka dostupan, tako je i groblje isječaka dostupno za preuzimanje.
 about-get-involved = Uključi se
 about-get-involved-text-2 =
     Želiš pomoći poboljšati Common Voice?
@@ -85,7 +85,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = Kako funkcionira lokalizacija stranica?
-about-playbook-how-localize-content-1 = Stranica Common Voice se prevodi na platformi <strong>Pontoon</strong>.
+about-playbook-how-localize-content-1 = Common Voice stranica se prevodi na platformi <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Otvori račun</pontoonAccountLink> ako ga nemaš. Odaberi svoj jezik <strong>(„tim”)</strong> i zatim odaberi projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Bit će datoteka za prijevod. Pritiskom na jednu datoteku prikazuju se riječi na engleskom i polje za prijevod.
 about-playbook-how-localize-content-3 = Prevodi se s engleskog jezika, ali možeš vidjeti <strong>prijedloge</strong> na drugim jezicima. Klikni ikonu <strong>Profil</strong>, zatim poveznicu <strong>Postavke</strong> i dodaj sve jezike koje govoriš. U donjem desnom kutu ćeš vidjeti popis prijevoda koji se zove <strong>Locales</strong>. Prijevodi se prikazuju na stranici nakon jednog dana.
 about-playbook-how-localize-content-4 = Stranica je spremna za objavljivanje kada je 75 % prevedena.

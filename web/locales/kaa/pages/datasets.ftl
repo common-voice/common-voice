@@ -27,6 +27,7 @@ more = Көбирек
 close = Жабыў
 download = Жүклеп алыў
 dataset-version = Версия
+clipboard-not-supported = Алмасыў буферы қоллап-қуўатланбайды
 no-information-available = Мағлыўмат жоқ
 dataset-metadata-sex = Жыныс
 # dataset metadata - age of contributor
