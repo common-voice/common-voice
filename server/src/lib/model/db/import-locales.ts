@@ -223,7 +223,7 @@ const buildLocaleNativeNameMapping: any = () => {
     const messagesPath = path.join(
       localeMessagesPath,
       locale,
-      'page',
+      'pages',
       'common.ftl'
     )
 
