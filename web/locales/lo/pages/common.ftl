@@ -197,6 +197,7 @@ vec = ພາ​ສາ​ເວ​ເນ​ຕຽນ
 vi = ພາສາຫວຽດນາມ
 vmw = Emakhuwa
 vot = Votic
+wep = Westphalian
 wo = ພາສາໂວລັອບ
 xh = ພາສາໂຊຊາ
 yi = ພາສາຢີວ
