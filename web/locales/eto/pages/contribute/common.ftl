@@ -11,6 +11,7 @@ clips-with-count-pluralized =
     }
 goal-help-recording = e ngul yaani common voice a pam <goalPercentage></goalPercentage>ozɔndɔm ai isa { $goalValue } obagela minkɔbɔ!
 goal-help-validation = e ngul yaani common voice a pam <goalPercentage></goalPercentage>ozɔndɔm iyebe { $goalValue } isa yiə!
+contribute-more = Prêt à faire { $count } de plus ?
 speak-empty-state = yaa gbɛlə pə bipia e gbɛlə bagəla nkɔlɔ nyu
 no-sentences-for-variants = nkɔlɔ waani waa gbɛlə pə bipia! Ngə mini tə diŋ, mini ne jam ceni bitə bisaasu naa mini pama bipia bipəbə
 speak-empty-state-cta = lɛrəngan mbuleni bipia
