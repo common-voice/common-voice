@@ -1,0 +1,9 @@
+record-cta = atari mbagəlan
+record-platform-not-supported = bijuga, həda abaa isa daani i ngɛnə a ngoməzan
+record-platform-not-supported-desktop = asu mincina mi wɔpis mini nə jam wori itə mvus
+record-platform-not-supported-ios-non-safari = a IOS, gbɛləni ai Safari asu mbagəlan
+record-must-allow-microphone = mini gbɛlə jəbələ igbɛləni mkpaaga
+record-no-mic-found = tee mkaaga
+record-error-too-short = mbagəlan o nə mməə itun
+record-error-too-long = mbagəlan o nə mməə ajab.
+record-error-too-quiet = ciŋ mbagəlan i nə mməə asi.
