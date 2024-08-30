@@ -40,6 +40,8 @@ subscribe = ຕິດຕາມ
 get-started-speech = ເລີ່ມຕົ້ນດ້ວຍການຮັບຮູ້ຄຳເວົ້າ
 other-datasets = ຊຸດຂໍ້ມູນສຽງອື່ນໆ
 feedback-q = ມີຄຳຕິຊົມບໍ?
+# This indicates that there is no data to display
+no-information = ບໍ່ມີຂໍ້ມູນ
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ເປັນ <docsLink>ຊຸດເຄື່ອງມືໂອເພນຊອດ</docsLink> ສໍາລັບນັກຄົ້ນຄວ້າພັດທະນາຮູບແບບ AI ການສົນທະນາທີ່ທັນສະໄໝ.
 resource-deepspeech-info = ເຄື່ອງຈັກຮັບຮູ້ສຽງແຫຼ່ງເປີດຂອງ Mozilla ສາມາດໃຊ້ Deep Speech ເພື່ອສ້າງແອັບພລິເຄຊັນການຮັບຮູ້ສຽງເວົ້າ. ອ່ານ <githubLink>ພາບລວມ Github</githubLink> ຂອງພວກເຮົາ ຫຼືເຂົ້າຮ່ວມ <discourseLink>DeepSpeech Discourse</discourseLink> ເພື່ອຮຽນຮູ້ວິທີເລີ່ມຕົ້ນ.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> ແມ່ນອຸທິດຕົນເພື່ອເທັກໂນໂລຍີການປາກເວົ້າເປີດ. ໂຄງ​ການ​ຂອງ​ເຂົາ​ເຈົ້າ​ປະ​ກອບ​ມີ​ການ​ຮຽນ​ຮູ້​ເລິກ​ໂດຍ​ອີງ​ໃສ່​ເຄື່ອງ​ຈັກ STT ແລະ TTS​.

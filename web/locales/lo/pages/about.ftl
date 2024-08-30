@@ -153,3 +153,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>ອ່ານ�
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Common Voice ໄດ້ຮັບທຶນແນວໃດ?

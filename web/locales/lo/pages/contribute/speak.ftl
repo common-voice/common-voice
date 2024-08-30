@@ -47,6 +47,7 @@ continue-speaking-button = ບໍ່ຂອບໃຈ, ສືບຕໍ່ເວົ
 create-profile-text = ຕ້ອງການບັນທຶກຂໍ້ມູນຂອງທ່ານບໍ? <createProfile>ສ້າງໂປຣໄຟລ໌</createProfile>
 thanks-for-voice-toast = ຂອບໃຈສຳລັບຂໍ້ມູນສຽງຂອງເຈົ້າ
 thanks-for-voice-toast-error = ເກີດຄວາມຜິດພາດໃນການສົ່ງຂໍ້ມູນສຽງຂອງເຈົ້າ
+first-cta-gender-select-default-option = ເລືອກໂຕເລືອກ
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ຂອບໃຈສຳລັບການປະກອບສ່ວນສຽງຂອງເຈົ້າ!
 second-cta-subtitle-text = ດ້ວຍໂປຣໄຟລ໌, ທ່ານສາມາດຕິດຕາມການເຄື່ອນໄຫວຂອງທ່ານແລະເຊື່ອມຕໍ່ກັບຊຸມຊົນຂອງຜູ້ປະກອບສ່ວນຂໍ້ມູນສຽງ.
