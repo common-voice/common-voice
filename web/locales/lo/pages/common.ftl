@@ -251,5 +251,7 @@ not-available-abbreviation = N/A
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>ພວກເຮົາຕ້ອງການ</mark><br/><mark>ການຊ່ວຍເຫຼືອຂອງທ່ານ!</mark>
 localization-select =
     .label = ເລືອກພາສາ/ທ້ອງຖິ່ນ

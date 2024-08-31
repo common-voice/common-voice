@@ -38,6 +38,8 @@ service_retail = ບໍລິການ ແລະ ຂາຍຍ່ອຍ
 general = ທົ່ວໄປ
 # Sentence Domain dropdown option
 healthcare = ການດູແລສຸຂະພາບ
+sentence-variant-select-label = ຕົວແປຂອງປະໂຫຍກ
+sentence-variant-select-placeholder = ເລືອກຕົວແປ (ທາງເລືອກ)
 
 ## BULK SUBMISSION 
 
