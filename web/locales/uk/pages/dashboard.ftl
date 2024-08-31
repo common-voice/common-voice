@@ -108,21 +108,3 @@ share-goal = Поділитися моєю ціллю
 ## Goals
 
 streaks = Днів поспіль
-days =
-    { $count ->
-        [one] день
-        [few] дні
-       *[other] днів
-    }
-recordings =
-    { $count ->
-        [one] запис
-        [few] записи
-       *[other] записів
-    }
-validations =
-    { $count ->
-        [one] перевірка
-        [few] перевірки
-       *[other] перевірок
-    }
