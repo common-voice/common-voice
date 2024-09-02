@@ -253,5 +253,10 @@ not-available-abbreviation = N/A
 
 # Text wrapped in <mark></mark> will have a white background. 
 donate-banner-cta = <mark>ພວກເຮົາຕ້ອງການ</mark><br/><mark>ການຊ່ວຍເຫຼືອຂອງທ່ານ!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ມັນມີມູນຄ່າເກືອບຫນຶ່ງລ້ານໂດລາຕໍ່ປີເພື່ອເກັບຊຸດຂໍ້ມູນ ແລະ ປັບປຸງເວທີສໍາລັບຊຸມຊົນພາສາ 100+ ຜູ້ທີ່ອີງໃສ່ສິ່ງທີ່ພວກເຮົາເຮັດ. <strong>ຖ້າທ່ານໃຫ້ຄ່າເປີດ, ລວມຂໍ້ມູນ - ບໍລິຈາກມື້ນີ້!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>ໃຊ້ CV ສໍາລັບ</mark><br/><mark>ການຄົ້ນຄວ້າຂອງທ່ານບໍ?</mark>
+languages-donate-banner-cta-explanation = Common Voice ໄດ້ຮັບທຶນຈາກການບໍລິຈາກ ແລະ ການຊ່ວຍເຫຼືອລ້າ! ພວກເຮົາມັກຮ່ວມມືກັບນັກວິຊາການ, ສັງຄົມພົນລະເຮືອນ ແລະ ນັກຄົ້ນຄວ້າອຸດສາຫະກໍາ. Common Voice ແມ່ນບໍ່ເສຍຄ່າເພື່ອໃຊ້, ແຕ່ການປະກອບສ່ວນໃນເວທີ ແລະ ຄ່າໃຊ້ຈ່າຍໃນການເກັບຊຸດຂໍ້ມູນໂດຍຜ່ານການສະເຫນີການຊ່ວຍເຫຼືອແມ່ນເປັນປະໂຫຍດຫຼາຍ.
 localization-select =
     .label = ເລືອກພາສາ/ທ້ອງຖິ່ນ
