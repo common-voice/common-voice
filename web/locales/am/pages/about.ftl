@@ -153,3 +153,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>እንዴት �
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = የጋራ ድምጽ እንዴት ነው የሚደገፈው?
