@@ -30,9 +30,16 @@ single-sentence-submission = ነጠላ ዓረፍተ ነገር ማስገባት
 bulk-sentence-submission = የጅምላ ዓረፍተ-ነገር ማስገባት
 single-sentence = ነጠላ ዓረፍተ-ነገር
 bulk-sentences = ጅምላ ዓረፍተ-ነገሮች
+sentence-domain-combobox-label = የዓረፍተ-ነገር ጎራ
 sentence-domain-select-placeholder = እስከ ሶስት ጎራዎችን ይምረጡ
 # Sentence Domain dropdown option
+agriculture_food = ግብርና እና ምግብ
+# Sentence Domain dropdown option
+automotive_transport = አውቶሞቲቭ እና ትራንስፖርት
+# Sentence Domain dropdown option
 finance = ፋይናንስ
+# Sentence Domain dropdown option
+service_retail = አገልግሎት እና ችርቻሮ
 # Sentence Domain dropdown option
 general = አጠቃላይ
 # Sentence Domain dropdown option
