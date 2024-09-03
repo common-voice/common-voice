@@ -46,6 +46,7 @@ const SOURCES = {
     "'sha256-QpRaNc9WL82cAOkiPfLE1bTAivGUFX9zsApzEurJ9wg='",
     "'sha256-dWOqg9lnJct6KNFyy8RWWvxwrKvHVzzxWdDufqcgdSY='",
     "'sha256-b+mf6EIMFYxuAIdk6/2IF09zTUsJrlW6qZaw4opG6QU='",
+    "'sha256-utvmIo/XAKarTSNePyuhOYHs9ViETaxxY7+HaXSd250='",
     'https://*.google-analytics.com',
     'https://pontoon.mozilla.org',
     'https://*.sentry.io',
