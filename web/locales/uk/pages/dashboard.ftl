@@ -108,3 +108,21 @@ share-goal = Поділитися моєю ціллю
 ## Goals
 
 streaks = Днів поспіль
+days =
+    { $count ->
+        [one] День
+        [few] Дні
+       *[many] Днів
+    }
+recordings =
+    { $count ->
+        [one] Запис
+        [few] Записи
+       *[many] Записів
+    }
+validations =
+    { $count ->
+        [one] Перевірка
+        [few] Перевірки
+       *[many] Перевірок
+    }

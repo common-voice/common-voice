@@ -40,6 +40,24 @@ read-terms-q = Ви ознайомилися з нашими умовами?
 ready-to-record = Готові допомогти із записом свого голосу?
 all-locales = Усі
 today = Сьогодні
+x-weeks-short =
+    { $count ->
+        [one] Тиждень
+        [few] { $count } тижні
+       *[many] { $count } тижнів
+    }
+x-months-short =
+    { $count ->
+        [one] { $count } міс
+        [few] { $count } міс
+       *[many] { $count } міс
+    }
+x-years-short =
+    { $count ->
+        [one] { $count } р
+        [few] { $count } р
+       *[many] { $count } р
+    }
 help-make-dataset = Допоможіть нам створити високоякісний, публічно-відкритий набір даних
 sign-up-account = Зареєструвати обліковий запис
 email-subscription-title = Підпишіться на оновлення
