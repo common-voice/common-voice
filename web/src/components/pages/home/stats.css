@@ -150,14 +150,7 @@
 
     & .metrics {
         display: flex;
-        flex-direction: row;
-
-        & > * {
-            margin-inline-end: 30px;
-
-            &:last-child {
-                margin-inline-end: 0;
-            }
-        }
+        flex-direction: column;
+        align-items: center;
     }
 }
