@@ -14,8 +14,6 @@ const LOCALES_PATH = path.join(process.cwd(), 'web', 'locales')
 export const getLocaleMessagesQueryHandler = (
   query: GetLocaleMessagesQuery
 ) => {
-  console.log(LOCALES_PATH)
-
   const doesLocaleExist = pipe(
     getFolderNames(LOCALES_PATH)(),
     A.some(name => name === query.locale)
