@@ -30,6 +30,16 @@ single-sentence-submission = ການຍື່ນສະເຫນີປະໂຫ
 bulk-sentence-submission = ການຍື່ນສະເຫນີປະໂຫຍກຈໍານວນຫລາຍ
 single-sentence = ປະໂຫຍກດຽວ
 bulk-sentences = ປະໂຫຍກຫຼາຍ
+# Sentence Domain dropdown option
+finance = ການເງິນ
+# Sentence Domain dropdown option
+service_retail = ບໍລິການ ແລະ ຂາຍຍ່ອຍ
+# Sentence Domain dropdown option
+general = ທົ່ວໄປ
+# Sentence Domain dropdown option
+healthcare = ການດູແລສຸຂະພາບ
+sentence-variant-select-label = ຕົວແປຂອງປະໂຫຍກ
+sentence-variant-select-placeholder = ເລືອກຕົວແປ (ທາງເລືອກ)
 
 ## BULK SUBMISSION 
 
