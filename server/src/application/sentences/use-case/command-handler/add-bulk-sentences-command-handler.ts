@@ -33,6 +33,7 @@ export const AddBulkSentencesCommandHandler =
           TE.mapLeft(appErr => appErr.error)
         )
       ),
+      TE.chainFirst(() => TE.right(console.log('Mapping submission data'))),
       TE.map(({ sentences, clientId, domains }): SentenceSubmission[] =>
         sentences.map(submission => {
           let sub: SentenceSubmission = {
