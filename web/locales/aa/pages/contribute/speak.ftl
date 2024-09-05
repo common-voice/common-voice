@@ -18,3 +18,6 @@ review-tooltip = Xabbittek sekkactu & qagit-tasgiil elle gexxaamal akkel ab
 share-clip = Ku xabba tabaatabis
 share-common-voice = Common Voice tabaatabis
 review-instruction = Xabbittek sekkactu & qagit-tasgiil faxxiimek ab
+record-submit-tooltip = { $actionType } gulguluh gacta waqdi kabbos
+clips-uploaded = Xabbitte qullimteh
+record-abort-title = Naharak tasgiilik gaba kal?
