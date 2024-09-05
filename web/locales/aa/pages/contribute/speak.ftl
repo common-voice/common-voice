@@ -10,3 +10,4 @@ record-error-too-quiet = Tasgiil kaxxam tibba luk suge.
 record-cancel = Qagit-tasgiil bayis
 record-instruction = { $actionType }<recordIcon></recordIcon> tohuk wadir maxcâ maafo xongolo fayya haak kawis
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> gaba kalta waqdi
+record-three-more-instruction = Sidoc gexoh!
