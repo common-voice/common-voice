@@ -72,7 +72,9 @@ dataset-metadata-sex = ເພດ
 dataset-metadata-age = ອາຍຸ
 donate-modal-message = ຊຸດຂໍ້ມູນຂອງທ່ານກຳລັງດາວໂຫຼດຢູ່!
 dataset-donate-modal-heading = ທ່ານຮູ້ບໍ່ວ່າ…
-donate-modal-explanation-1 = ມັນມີມູນຄ່າເກືອບຫນຶ່ງລ້ານໂດລາຕໍ່ປີເພື່ອເປັນການຈັດເກັບຊຸດຂໍ້ມູນ ແລະ ປັບປຸງເວທີສໍາລັບຊຸມຊົນພາສາ 100+ ຜູ້ທີ່ອີງໃສ່ສິ່ງທີ່ພວກເຮົາເຮັດ?
+donate-modal-explanation-1 = ມັນມີມູນຄ່າເກືອບຫນຶ່ງລ້ານໂດລາຕໍ່ປີເພື່ອເປັນການຈັດເກັບຊຸດຂໍ້ມູນ ແລະ ປັບປຸງເວທີສໍາລັບຊຸມຊົນພາສາ 100+ ໃຜເພິ່ງພາສິ່ງທີ່ພວກເຮົາເຮັດ?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>ຖ້າທ່ານໃຫ້ຄຸນຄ່າເປີດ, ລວມຂໍ້ມູນ - ບໍລິຈາກມື້ນີ້!</bold>
 data-download-singleword-title = ດາວໂຫຼດພາກສ່ວນເປົ້າໝາຍຄຳດຽວ
 data-download-singleword-callout-v2 = ນີ້ແມ່ນພາກສ່ວນທີ່ໃຊ້ໃນກໍລະນີຂັບເຄື່ອນທີ່ປະກອບດ້ວຍຂໍ້ມູນເພື່ອພະລັງງານການຮັບຮູ້ຕົວເລກທີ່ເວົ້າ ແລະການກວດຫາແມ່ນ/ບໍ່.
 data-download-button = ດາວໂຫລດຂໍ້ມູນ Common Voice
