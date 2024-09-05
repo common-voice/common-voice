@@ -11,3 +11,6 @@ record-cancel = Qagit-tasgiil bayis
 record-instruction = { $actionType }<recordIcon></recordIcon> tohuk wadir maxcâ maafo xongolo fayya haak kawis
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> gaba kalta waqdi
 record-three-more-instruction = Sidoc gexoh!
+record-again-instruction = kaxxam meqe!<recordIcon></recordIcon> Ku xabbay lakal tani isiggil
+record-again-instruction2 = Ma raaqin, qagitaak isiggil<recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> Ellecabô tiya!
