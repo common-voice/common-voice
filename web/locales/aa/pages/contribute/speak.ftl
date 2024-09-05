@@ -6,3 +6,7 @@ record-must-allow-microphone = Atu mikroh oggol idinis.
 record-no-mic-found = Mikro ma geytiminna.
 record-error-too-short = Tasgiil kaxxam uxxuk suge.
 record-error-too-long = Tasgiil kaxxam xeeruk suge.
+record-error-too-quiet = Tasgiil kaxxam tibba luk suge.
+record-cancel = Qagit-tasgiil bayis
+record-instruction = { $actionType }<recordIcon></recordIcon> tohuk wadir maxcâ maafo xongolo fayya haak kawis
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> gaba kalta waqdi
