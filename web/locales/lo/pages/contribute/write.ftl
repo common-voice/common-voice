@@ -6,6 +6,7 @@ write-page-subtitle = ປະໂຫຍກທີ່ປະກອບສ່ວນຢ�
 sentence =
     .label = ປະໂຫຍກ
 sentence-input-value = ໃສ່ປະໂຫຍກສາທາລະນະຂອງທ່ານທີ່ນີ້
+citation-input-placeholder = ອ້າງ​ອີງ​ເຖິງ​ແຫຼ່ງ​ຂອງ​ປະ​ໂຫຍກ​ຂອງ​ທ່ານ (ຕ້ອງ​ການ​)
 citation =
     .label = ການອ້າງອີງ
 sc-write-submit-confirm = ຂ້ອຍຢືນຢັນວ່າປະໂຫຍກນີ້ແມ່ນ <wikipediaLink>ໂດເມນສາທາລະນະ</wikipediaLink> ແລະ ຂ້ອຍໄດ້ຮັບການອະນຸຍາດໃຫ້ອັບໂຫລດມັນ.
@@ -30,6 +31,12 @@ single-sentence-submission = ການຍື່ນສະເຫນີປະໂຫ
 bulk-sentence-submission = ການຍື່ນສະເຫນີປະໂຫຍກຈໍານວນຫລາຍ
 single-sentence = ປະໂຫຍກດຽວ
 bulk-sentences = ປະໂຫຍກຫຼາຍ
+sentence-domain-combobox-label = ໂດເມນປະໂຫຍກ
+sentence-domain-select-placeholder = ເລືອກສູງສຸດສາມໂດເມນ (ເລືອກໄດ້)
+# Sentence Domain dropdown option
+agriculture_food = ກະສິກຳ ແລະ ອາຫານ
+# Sentence Domain dropdown option
+automotive_transport = ຍານຍົນ ແລະ ການຂົນສົ່ງ
 # Sentence Domain dropdown option
 finance = ການເງິນ
 # Sentence Domain dropdown option
@@ -38,6 +45,16 @@ service_retail = ບໍລິການ ແລະ ຂາຍຍ່ອຍ
 general = ທົ່ວໄປ
 # Sentence Domain dropdown option
 healthcare = ການດູແລສຸຂະພາບ
+# Sentence Domain dropdown option
+history_law_government = ປະຫວັດສາດ, ກົດໝາຍ ແລະ ລັດຖະບານ
+# Sentence Domain dropdown option
+language_fundamentals = ພື້ນຖານພາສາ (ເຊັ່ນ: ຕົວເລກ, ຕົວອັກສອນ, ເງິນ)
+# Sentence Domain dropdown option
+media_entertainment = ສື່ ແລະ ບັນເທີງ
+# Sentence Domain dropdown option
+nature_environment = ທຳມະຊາດ ແລະ ສິ່ງແວດລ້ອມ
+# Sentence Domain dropdown option
+news_current_affairs = ຂ່າວ ແລະ ການເກີດຂຶ້ນປະຈຸບັນ
 sentence-variant-select-label = ຕົວແປຂອງປະໂຫຍກ
 sentence-variant-select-placeholder = ເລືອກຕົວແປ (ທາງເລືອກ)
 
