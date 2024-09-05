@@ -14,3 +14,4 @@ record-three-more-instruction = Sidoc gexoh!
 record-again-instruction = kaxxam meqe!<recordIcon></recordIcon> Ku xabbay lakal tani isiggil
 record-again-instruction2 = Ma raaqin, qagitaak isiggil<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> Ellecabô tiya!
+review-tooltip = Xabbittek sekkactu & qagit-tasgiil elle gexxaamal akkel ab
