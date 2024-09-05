@@ -1,0 +1,1 @@
+record-cta = Tasgiil qimbis
