@@ -6,6 +6,7 @@ write-page-subtitle = Šeit ievietotie teikumi tiks pievienoti publiski pieejama
 sentence =
     .label = Teikums
 sentence-input-value = Ievadiet šeit savu publiski pieejamo teikumu, kas nav aizsargāts ar autortiesībām
+citation-input-placeholder = Norādiet sava teikuma avotu (obligāti)
 citation =
     .label = Atsauce
 sc-write-submit-confirm = Es apliecinu, ka šis teikums ir <wikipediaLink>publiskā īpašuma</wikipediaLink> un man ir atļauja to ielādēt.
@@ -30,9 +31,16 @@ single-sentence-submission = Viena teikuma pievienošana
 bulk-sentence-submission = Vairāku teikumu pievienošana
 single-sentence = Viens teikums
 bulk-sentences = Vairāki teikumi
+sentence-domain-combobox-label = Teikuma joma
 sentence-domain-select-placeholder = Izvēlieties līdz trim jomām
 # Sentence Domain dropdown option
+agriculture_food = Lauksaimniecība un pārtika
+# Sentence Domain dropdown option
+automotive_transport = Automobiļi un transports
+# Sentence Domain dropdown option
 finance = Finanses
+# Sentence Domain dropdown option
+service_retail = Pakalpojumi un mazumtirdzniecība
 # Sentence Domain dropdown option
 general = Vispārīgs
 # Sentence Domain dropdown option
@@ -49,6 +57,7 @@ nature_environment = Daba un vide
 news_current_affairs = Ziņas un aktualitātes
 # Sentence Domain dropdown option
 technology_robotics = Tehnoloģijas un robotika
+sentence-variant-select-label = Teikuma joma
 
 ## BULK SUBMISSION 
 
