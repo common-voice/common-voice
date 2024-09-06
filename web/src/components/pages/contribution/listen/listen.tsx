@@ -108,7 +108,10 @@ class ListenPage extends React.Component<Props, State> {
   demoMode = this.props.location.pathname.includes(URLS.DEMO)
 
   static getDerivedStateFromProps(props: Props, state: State) {
-    if (state.clips.length > 0) return null
+
+    const unvalidatedClips = state.clips.filter(clip => clip.isValid === null).length;
+
+    if (unvalidatedClips > 0) return null
 
     if (props.clips && props.clips.length > 0) {
       return {
@@ -308,6 +311,10 @@ class ListenPage extends React.Component<Props, State> {
       lang => lang.locale === locale
     );
     const isVariantPreferredOption = currentLocale?.variant?.is_preferred_option;
+
+    console.log('isLoading', isLoading)
+    console.log('isMissingClips', isMissingClips, noClips, !activeClip)
+    console.log('clipIndex', clipIndex, clips)
 
     return (
       <>
