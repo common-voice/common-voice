@@ -6,6 +6,7 @@ write-page-subtitle = እዚህ የተበረከቱ ዓረፍተ-ነገሮች በ
 sentence =
     .label = ዓረፍተ-ነገር
 sentence-input-value = የእርስዎን የሕዝብ ጎራ ዓረፍተ-ነገር እዚህ ያስገቡ
+citation-input-placeholder = የዓረፍ-ነገርዎን ምንጭ ያጣቅሱ (የሚያስፈልግ)
 citation =
     .label = ዋቢ
 sc-write-submit-confirm = ይህ ዓረፍተ ነገር <wikipediaLink>የወል ጎራ</wikipediaLink> መሆኑን አረጋግጣለሁ እና እሱን ለመጫን ፍቃድ አለኝ።
