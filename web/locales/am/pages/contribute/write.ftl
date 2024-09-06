@@ -56,6 +56,9 @@ nature_environment = ተፈጥሮ እና አካባቢ
 news_current_affairs = ዜና እና ወቅታዊ ጉዳዮች
 # Sentence Domain dropdown option
 technology_robotics = ቴክኖሎጂ እና ሮቦቲክስ
+sentence-variant-select-label = የዓረፍተ-ነገር ልዩነት
+sentence-variant-select-placeholder = ተለዋጭ ይምረጡ (አማራጭ)
+sentence-variant-select-multiple-variants = አጠቃላይ ቋንቋ / በርካታ ተለዋጮች
 
 ## BULK SUBMISSION 
 
