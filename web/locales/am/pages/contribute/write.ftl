@@ -73,6 +73,7 @@ try-upload-again-md = እንደገና ለመጫን ይሞክሩ
 select-file = ፋይል ይምረጡ
 select-file-mobile = የሚጫን ፋይልን ይምረጡ
 accepted-files = ተቀባይነት ያላቸው የፋይል ዓይነቶች፡.tsv ብቻ
+minimum-sentences = በዶሴ ውስጥ ያሉ ዝቅተኛ ዓረፍተ ነገሮች:- 1000
 maximum-file-size = ከፍተኛው የፋይል መጠን፡ 25 ሜባ
 what-needs-to-be-in-file = በእኔ ፋይል ውስጥ ምን መሆን አለበት?
 what-needs-to-be-in-file-explanation = እባክዎ የእኛን <templateFileLink>የአብነት ፋይል</templateFileLink> ይመልከቱ። ዓረፍተ-ነገሮችዎ ከቅጂ መብት ነጻ (CC0 ወይም በአመልካቹ የተፈቀደ ኦሪጅናል ስራ) እና ግልጽ፣ ሰዋሰው ትክክል እና ለማንበብ ቀላል መሆን አለባቸው። የገቡት ዓረፍተ-ነገሮች ለማንበብ ከ10-15 ሰከንድ ያህል መውሰድ አለባቸው እና ቁጥሮችን፣ ትክክለኛ ስሞችን እና ልዩ ቁምፊዎችን ከማካተት መቆጠብ አለባቸው።
