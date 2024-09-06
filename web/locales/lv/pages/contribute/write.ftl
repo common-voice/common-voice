@@ -57,7 +57,9 @@ nature_environment = Daba un vide
 news_current_affairs = Ziņas un aktualitātes
 # Sentence Domain dropdown option
 technology_robotics = Tehnoloģijas un robotika
-sentence-variant-select-label = Teikuma joma
+sentence-variant-select-label = Teikuma variants
+sentence-variant-select-placeholder = Izvēlieties variantu (neobligāti)
+sentence-variant-select-multiple-variants = Vispārējā valoda / vairāki varianti
 
 ## BULK SUBMISSION 
 
@@ -72,6 +74,7 @@ try-upload-again-md = Mēģiniet augšupielādēt vēlreiz
 select-file = Izvēlieties datni
 select-file-mobile = Atlasiet augšupielādējamo datni
 accepted-files = Atbalstītie datņu veidi: tikai .tsv
+minimum-sentences = Minimālais teikumu skaits failā: 1000
 maximum-file-size = Maksimālais datnes izmērs: 25 MB
 what-needs-to-be-in-file = Kam ir jābūt manā datnē?
 what-needs-to-be-in-file-explanation = Lūdzu aplūkojiet mūsu <templateFileLink>šablona datni</templateFileLink>. Jūsu teikumiem jābūt brīviem no autortiesībām (CC0 vai ar autora atļaujau izmantot viņu darbu), tāpat tiem jābūt skaidriem, gramatiski pareiziem un viegli ierunājamiem. Pievienojamajiem teikumiem jābūt tādiem, lai tos varētu ierunāt 10-15 sekundēs, tajos nedrīkst būt cipari un speciālās rakstu zīmes.
