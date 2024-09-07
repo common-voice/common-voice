@@ -35,6 +35,48 @@ sentence-domain-combobox-label = Warmɔ nɛ núwen-ziinɛnɛ
 sentence-domain-select-placeholder = Hɔ́k warmɔ nɛ núwen-ziinɛnɛ hɔ́ tàár
 # Sentence Domain dropdown option
 agriculture_food = Nyɔnɔ-kabanɛ-mɔdae in ɗafatomnyɔŋmɔ-a
+# Sentence Domain dropdown option
+automotive_transport = Mɔ̀ɔ́daŋ in nɛ̀ɛ́nɔ
+# Sentence Domain dropdown option
+finance = Mbɔe/Sédé
+# Sentence Domain dropdown option
+service_retail = O-tomdee in ɗɔra o bémɔ
+# Sentence Domain dropdown option
+general = Mɔleŋ
+# Sentence Domain dropdown option
+healthcare = Hayatɛ
+# Sentence Domain dropdown option
+history_law_government = Nyɛ́rɛ́mɔ, yuwarmɔ in dukazúmɔ
+# Sentence Domain dropdown option
+language_fundamentals = O war mbimbimɔ ko o-nú (tɔradɔkamɔ, tɔragbàáwen, mbɔe/sédé)
+# Sentence Domain dropdown option
+media_entertainment = O-mɔ̀ɔ́pɛsinyɛ́rɛ́mɔ in dee-saa
+# Sentence Domain dropdown option
+nature_environment = Mbimbimɔ in mɔ̀ɔ́kao
+# Sentence Domain dropdown option
+news_current_affairs = O-mɔmɛkinii
+# Sentence Domain dropdown option
+technology_robotics = Iŋamɔ̀ɔ́boetom in boyohɔ́bíí
+sentence-variant-select-label = Ti núwen
+sentence-variant-select-placeholder = Hɔ́k ŋma ti-a (bonɛŋgaena)
+sentence-variant-select-multiple-variants = O-yímɔleŋ zú nú/dɔka ti-a
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Tom <icon></icon> o núwen zii nɛ giiwi
+sc-bulk-upload-instruction = Dé há̧ tom/fichier k'ɛnɛ tir pii hɛ̀ɛ̧́ kòó <uploadButton>gbɔsi wen toma-a</uploadButton>
+sc-bulk-upload-instruction-drop = É tom/fichier hɛ̀ɛ̧́ wen tama-a yaknɛ
+bulk-upload-additional-information = K'ɛnɛ nɛ kɔ̀ɔ̧́ mɛ há̧ o nyɛ́rɛ́ damnumɔ tɛ tom'ɛ, ɛnɛ zɔ́k <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = K'ɛnɛ nɛ kɔ̀ɔ̧́ mɛ há̧ o nyɛ́rɛ́ damnumɔ tɛ tom'ɛ, nɛ bo nɛ deemɔ kpɔk in ɛ̀ɛ̧́ na, ɛnɛ zɔ́k <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = We woyo dé nɛnɛ hái tom'i mɛ tir pii hɛ̀ɛ̧́
+try-upload-again-md = We mbé toma-a yáknɛ
+select-file = Hɔ́k ŋma tom/fichier
+select-file-mobile = Hɔ́k ŋma tom mɛ tom yáknɛ
+accepted-files = O zúduktom nɛ'i kpɛka : .tsv ɓɛɛ
+minimum-sentences = Sɔŋkur geɗek dɔka núwen zaŋ mboɗatom'ɛ : 1 000
+maximum-file-size = Sɔŋkúr gasi ko mboɗatom'ɛ : 25 Mo
+what-needs-to-be-in-file = Ge a̧ tɛ duk zaŋ mboɗatom kɔ'm ge nde ?
+what-needs-to-be-in-file-explanation = Zɔ́k <templateFileLink>yúwartom k'ɛɛ</templateFileLink>. O núwen k'ɛnɛ bo nɛ mɔ nɛ wan-aa éé duk gee (CC0 kòó mbimbitom nɛ wan-aa kpɛka mɛ há̧) in ɔ dee ha'i mɛ zii gbàá nɛ sàá̧. O núwen nɛ'i toma a̧ ba 10 hɔ́tɛ 15 weninuwi tɛ tɔra-a ɓɛɛ wa gbo wen ko o-tɔradɔkamɔ, ko o mgbák nin, kabanɛ mɔ nɛ hɔ́ŋmàá in oeaa na.
+upload-progress-text = Aa̧ tɛ toma-a ...
+sc-bulk-submit-confirm = Mi gbára hee o núwen nɔ̀ɔ́ gbonɛ tɛ <wikipediaLink>wan nɛ ziinɛgiiwi</wikipediaLink> in nde mi aa̧ éé-war toma-a.
