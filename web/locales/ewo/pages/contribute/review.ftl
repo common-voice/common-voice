@@ -31,6 +31,7 @@ sc-review-form-reviewed-message =
         [one] Efiɛ dzia e nsəŋələban ya, ngaŋ!
        *[other] Mbəbəban bifiɛ ngaŋ!
     }
+sc-review-form-review-failure = Mbəban o ndzi kig tɔbɔ wɔdiban, dzibigi tə man eban o dugan vəgələ.
 
 ## REVIEW CRITERIA
 
