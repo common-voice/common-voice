@@ -14,9 +14,23 @@ change-preferences = Kpaia o mɔ̀ɔ́-kɔ̧nɛséè
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Ndɛmba o tigɛr
+contribute-sentence-collection-nav-header = Ndɛmba o wen
 
 ## Reporting
 
+report = Úsáoemɔ
+report-title = Toma weeɗoŋmɔ
+report-ask = Nɛ́ o ge yukutamɔ ɛnɛ kpa sɛn tɛ wen'i ge nde ?
+report-offensive-language = Wen dak-pàá
+report-offensive-language-detail = Wen'ɛ bo nɛ nú tùú̧tɛmɔ na, mɛ nɛ dara.
+report-grammar-or-spelling = Yɔa mɔ̀ɔ́ iŋgunnú/yɔa mɔ̀ɔ́ iŋyɔrawen
+report-grammar-or-spelling-detail = Wen'ɛ aa̧ nɛ yɔ̀ɔ́mɔ tɛ iŋagunnú kòó tɛ iŋayɔrawen.
+report-different-language = Ŋma-mbé nú
+report-different-language-detail = Wɛn'ɛ yɔra nɛ ŋma nú nɛ dúk nɛtɛ in wan n'am tɔ̧.
+report-difficult-pronounce = Ɔ ŋgaia mɛ iŋ-tɔ̧a-a
+report-difficult-pronounce-detail = O ŋma núwen kòó o ŋma wen ɔ ŋgaia mɛ iŋ tɔra-a kòó tɔ̧a-a.
+report-offensive-speech = O wen tu̧ séè/dak-pàá
 
 ## Speak & Listen Shortcuts
 
