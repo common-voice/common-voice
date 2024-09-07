@@ -21,6 +21,41 @@ single-sentence = lìtìlà lɔ̀kɔ́
 bulk-sentences = màtìlà dʒɔ̌dʒɔ̌
 sentence-domain-combobox-label = ékī já lìtìlà
 sentence-domain-select-placeholder = βɔ̀zrɔ́ lǔkà wèkí wéjâw (wàzrà tɛ́)
+# Sentence Domain dropdown option
+agriculture_food = éwòlá wàŋgá nà mólēlī
+# Sentence Domain dropdown option
+automotive_transport = jɔ̀ndɔ̀ já mòtówà ɱítī nà mòtówà
+# Sentence Domain dropdown option
+finance = káβà
+# Sentence Domain dropdown option
+service_retail = è ɲòŋgá nà lǎwìzrɛ̀
+# Sentence Domain dropdown option
+general = mbákí
+# Sentence Domain dropdown option
+healthcare = lìwóŋgó
+# Sentence Domain dropdown option
+history_law_government = wéjà wé mákǎ, è mbéndá nà wámbákí wá mbówà
+# Sentence Domain dropdown option
+language_fundamentals = wéjà wé mbɔ́zrí (nǎ dʒáāŋgì, lí láŋgà nà í káβà
+# Sentence Domain dropdown option
+media_entertainment = èβólá mɛ̀ndì nà wéjà wé mɔ̀ɲɛ̀ŋgì
+# Sentence Domain dropdown option
+nature_environment = nature nè mbówà
+# Sentence Domain dropdown option
+news_current_affairs = news na wéjà wé náŋgɛ̂
+# Sentence Domain dropdown option
+technology_robotics = tɛ̀knólódʒì nà rɔ̀bɔ́tìk
+sentence-variant-select-label = βɔ̀zrɔ́ èβɛ́βɛ̂
+sentence-variant-select-placeholder = βɔ̀zrɔ́ èβɛ́βɛ̂
+sentence-variant-select-multiple-variants = mbɔ́zrí mbákí/íβɛ́βɛ́ ɲàj
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = ómá <icon></icon>mbɔ́zrí jà ŋgíndí
+sc-bulk-upload-instruction = tíndɛ́lɛ́ líīkpà làŋgɔ́ ánù tɔ̀ <uploadButton>tɔ́rɔ́
+sc-bulk-upload-instruction-drop = lǒmà</uploadButton>
+bulk-upload-additional-information = ó βélì tɛ́ lòŋgò lá ɱɛ̀ndì wâzrá lǒma, ɛ́nɛ́ <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = ó βélì tɛ́ lòŋgò lá ɱɛ̀ndì wâzrá lì βétà lì βómɛ̀nɛ̀ èné file émá mó zrèndʒé ánù, ɛ́nɛ́ <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = kèká βɛ̂, tíndɛ́lɛ́ líīkpà jàŋgɔ́ ánù
+try-upload-again-md = kèká lǒmà βɛ̂
