@@ -12,6 +12,17 @@ sc-review-form-usage = Dé há̧ tir si wiigo wen kpɛka núwen. Dé há̧ 
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Zúzér-a/Tugun-a : { $sentenceSource }
 sc-review-form-button-reject = Bɛ̧-aa
+sc-review-form-button-skip = Yák-é-dúk
+sc-review-form-button-approve = Kpɛk-aa
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = O
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = P
+sc-review-form-keyboard-usage-custom = Ɛnɛ nyɛma baa gɔmzaŋ ko mɔ̀ɔ́yɔrmɔ mbɛt : { sc-review-form-button-approve-shortcut } wen kpɛk-aa, { sc-review-form-button-reject-shortcut } wen bɛ̧-aa, { sc-review-form-button-skip-shortcut } wen yak-aa-é-duk
+sc-review-form-button-submit =
+    .submitText = Kaɗi nɛ kɔ̀ɔ̧́ɗɔ̀ɔ́tom
 
 ## REVIEW CRITERIA
 
