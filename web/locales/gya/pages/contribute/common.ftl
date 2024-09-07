@@ -53,9 +53,48 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Baa-tigɛr wóyò
 shortcut-discard-ongoing-recording = Échap/Gbòówen-aa
 shortcut-discard-ongoing-recording-label = É baa tigɛr mɛ kinii tɛ géémɔ
+shortcut-submit = Yéa-a
+shortcut-submit-label = Toma o baa-tigɛr
+request-language-text = Nú k'ɛnɛ tɛ duk dɔ̀ɔ̧́ na ?
+request-language-button = Há̧-a ŋma nú
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Tɔr-aa/Yor-aa
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = o
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = O-war-a
+contribution-criteria-link = O yuwar hàá̧-mɔ
+contribution-criteria-page-title = O yuwar hàá̧-mɔ
+contribution-criteria-page-description = Zii mɔ̀ɔ́ yeŋ zér sɛnɛ tɛ zia o ŋma tigɛr in ɗafa ɗoŋ o baa-tigɛr k'ɛnɛ.
+contribution-for-example = tɛ weamɔ
+contribution-misreadings-title = O yoa tɛ tɔramɔ
+contribution-misreadings-description = Ŋgimbi ziamɔ, zɔ́k nɛ sàá̧ hee baatigɛr nyɛma ɗoŋ mɔ nɛ yɔra ; bɛ̧ ka bé yoamɔ a̧ boo sɛnɛ. <br /> Zɔ́k o yɔamɔ nɛ ɓanna hɛ̀ɛ̧́ :
+contribution-misreadings-description-extended-list-1 = Mɔ nɛ bo na <strong>« Un/Une »</strong> kòó <strong>« Le/La »</strong> tɛ kùú̧ŋaŋ baatigɛr.
+contribution-misreadings-description-extended-list-2 = Ŋma mɔ nɛ bo na nɛ <strong>« s »</strong> tɛ kaɗa ŋma wen.
+contribution-misreadings-description-extended-list-3 = O ŋma gbɛ̀ɛ́ tigɛr wen yɔmɔ, nɛ hee « mbétɛ» sɛn fara ko « nɛ-mbétɛ ».
+contribution-misreadings-description-extended-list-4 = Nduti tigɛr wen gɔna,  wen baa-tigɛr yora nɛ haya-a nyɛm na.
+contribution-misreadings-description-extended-list-5 = We tɔra kpɔk wen wár gee nde.
+contribution-misreadings-example-1-title = O zɔm waŋam mɛ Trias.
+contribution-misreadings-example-2-title = Waŋam mɛ Trias.
+contribution-misreadings-example-2-explanation = [Tɛ duk so « O » waŋam]
+contribution-misreadings-example-3-title = O zɔm waŋam mɛ Tria-.
+contribution-misreadings-example-3-explanation = [Baatigɛr nɛ gɔna nɛti há̧ kaɗa soŋkur wen]
+contribution-misreadings-example-4-title = O zɔm waŋam mɛ Trias. Ii'i.
+contribution-misreadings-example-4-explanation = [Gan zú wan nɛ'i tɛɛ ba a'i baa nɛ tigɛr]
+contribution-misreadings-example-5-title = Nɛ-mbétɛ, mɔ tɛ duk nɛ de-a.
+contribution-misreadings-example-6-title = Mbétɛ, mɔ tɛ duk nɛ de-a.
+contribution-misreadings-example-6-explanation = [Tɛɛ duk so « nɛ-mbétɛ »]
+contribution-misreadings-example-7-title = Nɛ-mbétɛ, mɔ tɛ duk hìí̧ nɛ de-a.
+contribution-misreadings-example-7-explanation = [Ŋma « hìí̧ » bo zaŋ tugun wen na]
+contribution-misreadings-example-8-title = Gbadiidii̧ maa yák.
