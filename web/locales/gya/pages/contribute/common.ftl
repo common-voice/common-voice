@@ -31,12 +31,28 @@ report-different-language-detail = Wɛn'ɛ yɔra nɛ ŋma nú nɛ dúk nɛtɛ 
 report-difficult-pronounce = Ɔ ŋgaia mɛ iŋ-tɔ̧a-a
 report-difficult-pronounce-detail = O ŋma núwen kòó o ŋma wen ɔ ŋgaia mɛ iŋ tɔra-a kòó tɔ̧a-a.
 report-offensive-speech = O wen tu̧ séè/dak-pàá
+report-offensive-speech-detail = Tigɛr-wen'ɛ bo nɛ tùú̧tɛmɔ na ; nɛ wen-tu̧séè, wen-mbɔséè, wen-dak-pàá.
+report-other-comment =
+    .placeholder = Mbɛrawen/Pokawen
+success = Deemɔ hɔagbàá̧
+continue = De-siti/Nɛ-siti
+report-success = Weeɗoŋwen toma yaknɛ nɛ de-a
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = a
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = e
+shortcut-record-toggle-label = Baa-tigɛr/Yór
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Baa-tigɛr wóyò
+shortcut-discard-ongoing-recording = Échap/Gbòówen-aa
+shortcut-discard-ongoing-recording-label = É baa tigɛr mɛ kinii tɛ géémɔ
 
 ## Listen Shortcuts
 
