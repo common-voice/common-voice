@@ -33,3 +33,27 @@ review-rerecord = Baatigɛr-woyo
 review-cancel = Éé tom-aa duk
 review-keep-recordings = Baatigɛr é-ŋgɔn
 review-delete-recordings = Bi-a o baatigɛr
+review-terms = Tɛ deetom nɛ Common Voice/Tigɛr Kpɔk, ɛnɛ kpɛka o <termsLink>Héémbéa-a k'ɛɛ</termsLink> in <privacyLink> O-do-mɔ̀ɔ́tom tùú̧tɛmɔ k'ɛɛ</privacyLink>
+terms-agree = Mi kpɛk-a
+terms-disagree = Mi bɛ̧-a
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Yàáɗuk wen n'ɛnɛ há̧-a o hokabaatigɛrwen k'ɛnɛ !
+first-cta-subtitle-text = Ɛnɛ kɔ̀ɔ̧́ mɛ kɛ̧ nyɛ́rɛ́mɔ zú war tɔ̀ɔ̧́wen k'ɛnɛ nde ?
+why-donate = Ɛ̀ɛ̧́ akamɔ'ɛ nɛ wen ge nde ?
+why-donate-explanation-1 = O akamɔ nɔ̀ɔ́ bo nɛ mɔ̀ɔ́ ŋgae na ; k'ɛnɛ nɛ kpɛka sɛ k'ɛnɛ aa wa zú o kifanu k'ɛnɛ. Ŋgimbi n'ɛɛ pɛsi o nyɛ́rɛ́mɔ, ɛɛ ba nɛ o gee gɔna-nin, wen ɛɛ iŋa nɛ sàá̧ hee mɔ nɛ zɔ́k bíí nɛ tatɛ hee mɛ-nɛ nin, oe yuwar kɔ̧-sara sii-kpa o hú̧sámɔ hee pɛ kòó zimtɛ ga.
+why-donate-explanation-2 = Há̧ tom'ɛ mɛ duk nɛ de-a wen bíí leŋ, o mɔ nɛ gbák o widetom-aa a̧ nyɛm úsáyímɔ ko o bíí nɛ aa sɛnɛ. Ŋma weamɔ, ka'i é tigɛrwen nɛ duk nɛtɛ zaŋ ko giiwi na, o do-mɔ in de-mɔ mɛ tigɛrwen'i béka bo na. <learnMore> Wi kpa iŋamɔ siti zú o dokoɗomɔ.</learnMore>
+add-information-button = Aa̧ o nyɛ́rɛ́mɔ zú-ŋmàá
+continue-speaking-button = Weyàá, yàáɗuk, tɔ̧ k'ɛnɛ wen siti
+create-profile-text = Ɛnɛ kɔ̀ɔ̧́ mɛ ba tigɛr o nyɛ́rɛ́ k'ɛnɛ nde ? <createProfile>Dé ŋma mɔ̀ɔ́iŋyíwi</createProfile>
+thanks-for-voice-toast = Yàáɗuk wen o tigɛr nyɛ́rɛ́mɔ k'ɛnɛ
+thanks-for-voice-toast-error = Ŋma yɔamɔ gɔma tɛ toma o tigɛr nyɛ́rɛ́mɔ k'ɛnɛ.
+first-cta-gender-select-default-option = Hɔ́k ŋma mɔ
+first-cta-gender-select-help-text =
+    .label = Nɛ́ hee ge ɛnɛ kɔ̀ɔ̧́ mɛ úsi nɛ duka wiwii kòó okoo k'ɛnɛ ge nde ?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Yàáɗuk wen n'ɛnɛ há̧-a tigɛr'nɛ !
+second-cta-subtitle-text = Nɛ ŋma mɔ̀ɔ́iŋyíwi, ɛnɛ nyɛma iŋa oe mɔ̀ɔ́dee in zia baatigɛr ko o ŋma zudukbíí nɛtɛ mbɛt.
+already-have-an-account = Ɛnɛ aa̧ nɛ war mgbákmɔ̀ɔ́baatigɛr k'ɛnɛ é nde ? <login>Connexion/Yèéŋmàá</login>
+create-profile-button = Dé ŋma mɔ̀ɔ́iŋyíwi
+# IMAGE TAGS
+img-alt-success-checkmark = Úsá nyɛmayí-a
