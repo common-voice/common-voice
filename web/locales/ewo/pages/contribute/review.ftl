@@ -16,6 +16,21 @@ sc-review-form-button-skip = Lodo
 sc-review-form-button-approve = Yəbəgə
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = T
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = L
+sc-review-form-keyboard-usage-custom = O nə dzam bəlan ai obalbas məzen ya nsina : { sc-review-form-button-approve-shortcut } asu yi naa wayəbə, { sc-review-form-button-reject-shortcut } watəb, { sc-review-form-button-skip-shortcut } walod
+sc-review-form-button-submit =
+    .submitText = Manəgə səŋələ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Tege ai nsəŋlan efiɛ.
+        [one] Efiɛ dzia e nsəŋələban ya, ngaŋ!
+       *[other] Mbəbəban bifiɛ ngaŋ!
+    }
 
 ## REVIEW CRITERIA
 
