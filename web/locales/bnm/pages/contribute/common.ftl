@@ -29,12 +29,33 @@ change-preferences = Senjahani mahombwɛ mánywu
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Ibɔngɔnedɛ dá kíngɔ
+contribute-sentence-collection-nav-header = Ibɔngɔnedɛ dá melɛ́ndi mé móhi
 
 ## Reporting
 
+report = Ikɛlɛwedɛ
+report-title = Ilomedɛ pɔ́h ya botilaha ya njahɛ eháneyi
+report-ask = Njuke ívɛ́vɛ́ yánywu ibonganeyinɔ ó  nʼlɛ́ndi mú móhi tɛ́h mú eeeh ?
+report-offensive-language = Ebehehedi élɛngɛmi
+report-offensive-language-detail = Nʼlɛ́ndi mú mohi múndi na móhi má bojija tombete móhi má mahili
+report-grammar-or-spelling = Mehuma itɛ́ngɛ́nɛ matɛ́dɛ má ŋʼhálo / Mehuma itɛ́ngɛ́nɛ etiledi yá ŋʼhálo
+report-grammar-or-spelling-detail = Nʼlɛ́ndi mú móhi múndi na mehuma itɛ́ngɛ́nɛ matɛ́dɛ má ŋʼhálo tombete mehuma itɛ́ngɛ́nɛ etiledi yá ŋʼhálo
+report-different-language = Ŋʼhálo múpɔkwɛ
+report-different-language-detail = Nʼlɛ́ndi mú móhi mútilamindi ó ŋʼhálo múmapalwanedɛ na mɔ́mi múmabeyanɔ.
+report-difficult-pronounce = Boholo ó ipuwedɛ
+report-difficult-pronounce-detail = Móhi na má sihi-sihi tombete  melɛ́ndi mé móhi méndi boholo ó ilánga tombete ó ipuwedɛ.
+report-offensive-speech = Móhi mámabábánedɛ
+report-offensive-speech-detail = Ehembelani yá móhi má bo beyaha majani móhi má bojija tombete móhi má mahili.
+report-other-comment =
+    .placeholder = Ibeya itɛ́ngɛ́nɛ njahɛ emɛdɛ ihábɛ
+success = Ehádo elongwindi
+continue = Iledɛ ó bohó
+report-success = Pɔ́h ya botilaha ya njahɛ eháneyi elomedɛbɛndi bwámu
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = a
 
 ## Speak Shortcuts
 
