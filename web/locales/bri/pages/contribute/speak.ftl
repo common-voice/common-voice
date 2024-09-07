@@ -40,3 +40,20 @@ terms-disagree = nà zrímànɛ̀lɛ̀
 first-cta-header-text = nà zrómì élémá ǒmí lílō láŋgɔ́
 first-cta-subtitle-text = lì dʒǒwèjà lì βómɛ̀nɛ̀ òwá, ǒŋgwànà wágbèèlì lǒŋgà technology dʒá mbówà
 why-donate = mándéŋgátɛ́ wǐ dʒòwà?
+why-donate-explanation-1 = ɱɛ́ndì mómàwà wàzrà tɛ́. Ó mó βítɛ̀ ò zró βì tɛ́ ndʒíɔ̀mì. dʒùlɛ́ tɛ́ ɱɛ́ndì, ì gbèjà élémá míná má wàtò nà mátìlà lá kɔ̀mpjútà má zrɛ̀ndɛ́nɛ́ ɱɛ́ndì mó méjá nà ɱàlí tɔ̀ mómɛ̀
+why-donate-explanation-2 = lì gbèjá élémá tɛ̀knólódʒì é wɛ́ gbǎmù nà wátò wázrɛ́, ɱɛ́ndì móŋgwàná wágbèlì lǒŋgà í tɛ̀knólódʒì mó wɛ́ní lì wɛ́ wé élémá wátò wázrɛ́ wímànɛ̀lɛ̀.ì zríkà tɛ́ wátò wázrɛ́ nà máló máwú, è tɛ̀knólódʒì è zrɛ́ndɛ̄ gbǎmù.  <learnMore>ókówá βɛ́ lì βómɛ̀nɛ̀ mándéŋgátɛ́ ɱɛ́ndì mó lɔ̂.</learnMore>
+add-information-button = βétá ɱɛ́ndì
+continue-speaking-button = dʒâj nà zrómì, ɛ̀ndɛ́nɛ́ dʒôwì ó wòzrô
+create-profile-text = wàzrà lùtá ɱɛ́ndì ɱáŋgɔ̀? <createProfile>gbèjá è βólò jàŋgɔ́</createProfile>
+thanks-for-voice-toast = nà zrómì ó ɱɛ̀ndì mó lìló láŋgɔ̄
+thanks-for-voice-toast-error = nà è βólò jàŋgɔ̀, ò tánó βálá wátò wáŋgɔ́ wá ŋgbélí lílō láwú
+first-cta-gender-select-default-option = βɔ̀zrɔ́ βólò βɔ́kɔ́
+first-cta-gender-select-help-text =
+    .label = nɛ́ óōwǎ lì βómɛ̀nɛ̀ móōmɛ̀ tɔ̀ ɱálí ɱáŋgɔ̄?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = nà zrómì ó mó lìló láŋgɔ̄
+second-cta-subtitle-text = nà è βólò jàŋgɔ̀, ò tánó βálá wátò wáŋgɔ́ wá ŋgbélí lílō láwú
+already-have-an-account = ǒβí è βólò jàŋgɔ̀? <login>kpééjâ</login>
+create-profile-button = gbèjá è βólò jàŋgɔ̀
+# IMAGE TAGS
+img-alt-success-checkmark = jómà jímáwí
