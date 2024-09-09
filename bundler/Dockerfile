@@ -10,15 +10,16 @@ RUN mkdir /cache && chmod 777 /cache
 
 USER node
 
-RUN mkdir -p /home/node/code && \
-    cd /home/node && \
-    curl https://sh.rustup.rs -sSf | sh -s -- -y && \
-    git clone --depth 1 -b release-v1.2.1 https://github.com/common-voice/CorporaCreator.git && \
-    git clone --depth 1 -b release-v1.0.0 https://github.com/common-voice/mp3-duration-reporter.git && \
-    cd CorporaCreator && \
-    python3 setup.py install --user && \
-    cd /home/node/mp3-duration-reporter && \
-    /home/node/.cargo/bin/cargo install --path .
+RUN mkdir -p /home/node/code
+
+WORKDIR /home/node
+
+RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
+RUN git clone --depth 1 -b release-v1.0.0 https://github.com/common-voice/mp3-duration-reporter.git
+RUN cd mp3-duration-reporter && /home/node/.cargo/bin/cargo install --path .
+RUN git clone --depth 1 -b release-v1.2.1 https://github.com/common-voice/CorporaCreator.git
+RUN pip3 install numpy
+RUN cd CorporaCreator && python3 setup.py install --user
 
 ENV PATH "$PATH:/home/node/.local/bin/:/home/node/.cargo/bin"
 ENV npm_config_cache "/home/node/"
