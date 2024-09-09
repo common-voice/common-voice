@@ -125,6 +125,7 @@ contribution-varying-pronunciations-example-1-title = à wɔ́tí è baret o�
 contribution-varying-pronunciations-example-1-explanation = ['tàmbá' è βélì gbámù nà ŋgíɲà ó ɱáná màtìlà má wózrô (UK) tɔ̀ má βálǎ (US)]
 contribution-varying-pronunciations-example-2-title = líjā léní lí wɛ́já ó ɱáɲú
 contribution-varying-pronunciations-example-2-explanation = ó íglǐzrì, àgbɛ́lɛ̂ jòβí ndí ɱáná màtìlà dʒɔ̌ βɔ́kɔ́, zrɛ̀kɛ́ wéwàkɛ́
+contribution-background-noise-title = Bruits de fond
 contribution-background-noise-description = dʒàzrà mázrínì mókòwǎ má gbèjànè mɔ́tɔ̌w mó mbúzrà zrǐ mɔ́tɔ̌ mó kókí mó wɛ́ gbǎmù ndèŋgánɛ́ mó zrà tàkízrɛ́ lí wéjà è mbɔ́zrí. Mɔ́tɔ̌w mó mbúzrà mó zrā tàkízrɛ́ lí wéjà mó βélì gbǎmù, ndí mɔ́ mó tàkìzrɛ̌ mó zrèndʒé gbámù
 contribution-background-noise-description-extended = lí wówà lá líló lí gbéélì tɛ́ mó zrà wówáwá ndí mótà tánɛ́ tɛ́ lì mó wéjà, mó wówàwà
 contribution-background-noise-example-1-fixed-title = <strong>[tóŋgá múūlù]</strong> í ɲàmà mbákí  dʒà <strong>[kɔ́zrèjà]</strong> Triassic
