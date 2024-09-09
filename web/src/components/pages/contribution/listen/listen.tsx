@@ -312,10 +312,6 @@ class ListenPage extends React.Component<Props, State> {
     );
     const isVariantPreferredOption = currentLocale?.variant?.is_preferred_option;
 
-    console.log('isLoading', isLoading)
-    console.log('isMissingClips', isMissingClips, noClips, !activeClip)
-    console.log('clipIndex', clipIndex, clips)
-
     return (
       <>
         <div id="listen-page">
