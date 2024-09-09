@@ -8,3 +8,4 @@ listen-empty-state-variants = Yí shún tu ndundun shú pá ye á shí ngu
 listen-loading-error = Pü má ndîne yü nkuete mfu' meyue yi njú' yue pü njú' ne. Pü ná shá' pu tue mbi njú' fu' shíre.
 listen-abort-title = Lishe nún yi kâshe mfu'
 listen-abort-cancel = Ku'she nún yi  kâshe
+listen-abort-confirm = Lishe nún yi kâshe
