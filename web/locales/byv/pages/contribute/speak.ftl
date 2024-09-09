@@ -41,3 +41,19 @@ first-cta-header-text = mǝ̀ lɑ̀ptǝ̌ mbā bí  fâ zì lá lá
 first-cta-subtitle-text = Bí cwɛ̌d kɔ̂ nǝ̀ rɑ̀ptǝ̌ cú nǔ mbā bí nǔm cúp gí?
 why-donate = nǔmkǝ̂ nǝ̀ bɛ́tǝ́?
 why-donate-explanation-1 = Bí fít nǝ̀ lǔ' bɑ̀ tshób lî mbǝ́zǝ́ bí jǝ̂ mbǝ̄ â ŋgǝ̀láŋ lá. Tɑ́mzǝ̄ bǝ̌k nǔ yáp bā cú bǝ̀cìn yǝ́ lá bǝ̌k nǔ ndû tsǝ̀mô' lɛ́n. Bǝ̌k nǔ rǝ̂ mbǝ̄ ŋkrʉ̀n bû dʉ̀' nǝ́ tswǝ́, ŋgù' bû kâ mɛ́n bǝ́ vwá.
+why-donate-explanation-2 = nǝ̀ rǝ̌ mbǝ̄ jú zîn mǝ̀bwó nù nyɔ̌ŋ bǝ̀cìn fa bú rǝ̌ nǝ̄ lǔ' cú nǔ bǝ̀ mayɔ̂. Bū nyágǝ̀ yáp tsǝ̀môh bǝ̀cìn bû yùp kân cúp mbâ yǝ̂ cúp lá bû kân nǝ̀ cúp gǝ́ bǝ́ bǝ́. <learnMore>Nǝ̀ lɛ̌n mǝ̀bwó</learnMore>
+add-information-button = tswì'dǝ̌ cú
+continue-speaking-button = ŋgá bə̌k làptə̌ bìn, bì cúp nɛ̂n mbrə́
+create-profile-text = bǐ cɛ̌d ndzíə̂k nə̀ lə̌ cú zǝ̄ bī kî nǔ bìn gí? <createProfile>Bì nɑ̀ptə̌ tàh dʉ̀´ zǝ̄ bī yɑ́p bə̄ lá</createProfile>
+thanks-for-voice-toast = bə̌k làptə̀ zín nǔ cú zǝ̄ bí fâ nǔ zín zǝ̄ bú fít nə̀ jú' lá
+thanks-for-voice-toast-error = tàh nǔ tɔ́k tɑ́mzǝ́ ū gə́ fâ cǔ nù mú zǝ̄ bú fít nə̀ jú' lá
+first-cta-gender-select-default-option = lǔ' tàh jú
+first-cta-gender-select-help-text =
+    .label = Bín kɔ̂ nǝ̀ cúp zît mɛ̀n zǝ̀ bìn bǝ̂ lá á ndǝ̂gǝ́?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = bə̌k làptə̀ zín mbā bī fâ lâ sín lá
+second-cta-subtitle-text = bû tàh dʉ̀ bǐn fít nǝ̀ lɔ́dǝ́ jú zǝ̄ bǐn cɛ̌d rǝ̂ lá, cú tɔ̌ tɑ̀h dʉ́´ zǝ̄ bǝ̀ncǐn nǔm ŋgǝ́ fá cú bû lá lā
+already-have-an-account = bǐn yǎ cú' zìn dʉ̀ gí?<login>Bì cú</login>
+create-profile-button = cú' dʉ̀
+# IMAGE TAGS
+img-alt-success-checkmark = jú nǝ̀ lɑ̀hdǝ̀ mbǝ́ á brɔ̌
