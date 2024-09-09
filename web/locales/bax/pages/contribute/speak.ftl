@@ -44,3 +44,16 @@ why-donate-explanation-1 = shire yi pesá'ku má njîri yîre ; pu ma njétne
 why-donate-explanation-2 = A pe yue a mbe nta' mî yifu'she yum nyî pôkéri ne ngû pùen mentén ne, yúkuewá yue a ngam ghá pi mfa' yíre yi fa' ne yi mbéshe yire yi yúfu'she yúm me, ná mbíshe mí a féne mo'kü nsáp pùen. Ngá yékâ, a pe yue pue mbe shi sue pùen pue pe njú' ne mo' nsáp kü yi njú' ne yire yi yi fú'she yúm yé nyî nyi pôkérí ne shire shi nsáp puen. <learnMore> Shié yu yú' tu yi nda yú' yum.</learnMore>
 add-information-button = Kúshe nún pesa'kue
 continue-speaking-button = Mbé ayùe, ku'she nun yi shíkét
+create-profile-text = Pü nshá yi nsue pesa'kue shún tu pákâ ne ? <createProfile> Pu' nun mo' mbén kuó </createProfile>
+thanks-for-voice-toast = Ayùe n  pesa'ku  ngé shun
+thanks-for-voice-toast-error = Mó' yu nkámkét ngam gbu u fu yi shiéshe pesa'kue nge shun
+first-cta-gender-select-default-option = sho' nun yi ndúni
+first-cta-gender-select-help-text =
+    .label = Pu nta' yi ntupshe mí pu pua' memba ke memgbié pó ne ?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Ayùe ne yi mbí fá nge yun ne pü
+second-cta-subtitle-text = Tu mó' mbén kuo', pü yétne yi njú' fa' shun mbî nzáre puá mbóne ndá nshüt tu ngâ ngé
+already-have-an-account = Pu te ngét yun lí' luem yúm me ? <login> Ràre nun </login>
+create-profile-button = Pú' nún mbén kuo'
+# IMAGE TAGS
+img-alt-success-checkmark = Li' yi ndét mi u ya' kpa'ne
