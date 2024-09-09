@@ -6,6 +6,7 @@ write-page-subtitle = Šeit ievietotie teikumi tiks pievienoti publiski pieejama
 sentence =
     .label = Teikums
 sentence-input-value = Ievadiet šeit savu publiski pieejamo teikumu, kas nav aizsargāts ar autortiesībām
+citation-input-placeholder = Norādiet sava teikuma avotu (obligāti)
 citation =
     .label = Atsauce
 sc-write-submit-confirm = Es apliecinu, ka šis teikums ir <wikipediaLink>publiskā īpašuma</wikipediaLink> un man ir atļauja to ielādēt.
@@ -30,9 +31,16 @@ single-sentence-submission = Viena teikuma pievienošana
 bulk-sentence-submission = Vairāku teikumu pievienošana
 single-sentence = Viens teikums
 bulk-sentences = Vairāki teikumi
+sentence-domain-combobox-label = Teikuma joma
 sentence-domain-select-placeholder = Izvēlieties līdz trim jomām
 # Sentence Domain dropdown option
+agriculture_food = Lauksaimniecība un pārtika
+# Sentence Domain dropdown option
+automotive_transport = Automobiļi un transports
+# Sentence Domain dropdown option
 finance = Finanses
+# Sentence Domain dropdown option
+service_retail = Pakalpojumi un mazumtirdzniecība
 # Sentence Domain dropdown option
 general = Vispārīgs
 # Sentence Domain dropdown option
@@ -49,6 +57,9 @@ nature_environment = Daba un vide
 news_current_affairs = Ziņas un aktualitātes
 # Sentence Domain dropdown option
 technology_robotics = Tehnoloģijas un robotika
+sentence-variant-select-label = Teikuma variants
+sentence-variant-select-placeholder = Izvēlieties variantu (neobligāti)
+sentence-variant-select-multiple-variants = Vispārējā valoda / vairāki varianti
 
 ## BULK SUBMISSION 
 
@@ -63,6 +74,7 @@ try-upload-again-md = Mēģiniet augšupielādēt vēlreiz
 select-file = Izvēlieties datni
 select-file-mobile = Atlasiet augšupielādējamo datni
 accepted-files = Atbalstītie datņu veidi: tikai .tsv
+minimum-sentences = Minimālais teikumu skaits failā: 1000
 maximum-file-size = Maksimālais datnes izmērs: 25 MB
 what-needs-to-be-in-file = Kam ir jābūt manā datnē?
 what-needs-to-be-in-file-explanation = Lūdzu aplūkojiet mūsu <templateFileLink>šablona datni</templateFileLink>. Jūsu teikumiem jābūt brīviem no autortiesībām (CC0 vai ar autora atļaujau izmantot viņu darbu), tāpat tiem jābūt skaidriem, gramatiski pareiziem un viegli ierunājamiem. Pievienojamajiem teikumiem jābūt tādiem, lai tos varētu ierunāt 10-15 sekundēs, tajos nedrīkst būt cipari un speciālās rakstu zīmes.

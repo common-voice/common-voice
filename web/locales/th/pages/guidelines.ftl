@@ -28,6 +28,7 @@ adding-sentences-subheader-length = ความยาว
 adding-sentences-subheader-spelling-punctuation = การสะกดและเครื่องหมายวรรคตอน
 adding-sentences-subheader-spelling-punctuation-explanation = ประโยคต้องสะกดถูกต้อง
 adding-sentences-subheader-numbers = ตัวเลข
+adding-sentences-subheader-abbreviations-explanation = ควรหลีกเลี่ยงการใช้คำย่อและตัวอักษรย่อ เช่น “USA” หรือ “ICE” ในข้อความต้นฉบับ เนื่องจากการอ่านคำเหล่านี้มักจะไม่ตรงกับคำสะกด นอกจากนี้ คำย่อตัวเดียวสามารถออกเสียงที่ถูกต้องได้หลายแบบ
 adding-sentences-subheader-punctuation = การเว้นวรรค
 adding-sentences-subheader-offensive-content = เนื้อหาที่ไม่เหมาะสม
 reviewing-sentences-explanation-1 = หากประโยคตรงตามเกณฑ์ข้างต้น ให้คลิกปุ่ม "ใช่"

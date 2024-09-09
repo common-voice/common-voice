@@ -26,9 +26,13 @@ const addGenerateStatisticsJob =
 export const addJobsToReleaseQueue = (settings: Settings) =>
   pipe(
     TE.Do,
-    TE.bind('allLocales', () =>
-      fetchLocalesWithClips(settings.from, settings.until),
-    ),
+    TE.bind('allLocales', () => {
+      if (settings.languages.length > 0) {
+        return TE.right(settings.languages.map(l => ({ name: l })))
+      } else {
+        return fetchLocalesWithClips(settings.from, settings.until)
+      }
+    }),
     TE.tap(({ allLocales }) =>
       TE.right(
         console.log(

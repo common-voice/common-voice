@@ -29,6 +29,7 @@ native-language =
 profile-form-add-accent = Бафтаут ног хи здæхт { $inputValue }
 profile-form-submit-save = Бафснай
 profile-form-submit-saved = Æфснайд æрцыдис
+do_not_wish_to_say = Нæ мæ фæнды зæгъын
 # Gender
 other = Æндæр
 why-profile-title = Цæмæн хъæуы профиль?
