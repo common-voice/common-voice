@@ -58,6 +58,33 @@ news_current_affairs = Daabaaru
 technology_robotics = Yirikisin yɛ̃ru ka gãa bwese teenun kobu
 sentence-variant-select-label = Gari yì yi  wunanɛ ka gɛɛ
 sentence-variant-select-placeholder = Bù gari yì yi wunanɛ sua ( n ǹ tirasi)
+sentence-variant-select-multiple-variants = Barum yasansi bwese bweseka/ gari yì yi wunanɛ
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = i gari  <icon></icon> mɔrisio yì yi wãa samaan wunanɔn swaa sɔɔ
+sc-bulk-upload-instruction = I bɛɛn bɔɔ  gari nɛnutiru  sĩisio mini n kùn mɛ <uploadButton> i taareyo i ka mɔrisia</uploadButton>
+sc-bulk-upload-instruction-drop = I bɔɔ gari nɛnutiru yiiyo mini i ka mɔrisia
+bulk-upload-additional-information = Ì n  kĩ i daabaaru sosi bɔɔ gari nɛnuti te sɔɔ, ma ya ǹ wãa kuro sɔɔ, i damba yeni sokuwo <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Ì n  kĩ i daabaaru sosi bɔɔ gari nɛnuti te sɔɔ, ma ya ǹ wãa kuro sɔɔ, i damba yeni sokuwo <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = I kpam koowo kpa i bɛɛn bɔɔ  gari nɛnutiru  sĩisia  min
+try-upload-again-md = I wure i koowo i ka mɔrisia
+select-file = I bɔɔ gari nɛnutiru suo
+select-file-mobile = I bɔɔ gari nɛnutiru suo tè i ko mɔrisia
+accepted-files = Bɔɔ gari nɛnuti nìn bweseru ba wura: .tsv  tɔna
+minimum-sentences = Garin geeru bɔɔ gari nɛnutiru sɔɔ baa yì kùn dabi 1000
+maximum-file-size = Mɛ̀ bɔɔ gari nɛnutiru ta ǹ kpɛ̃ tù  kpãaru kera : 25 Mo
+what-needs-to-be-in-file = Mba n weenɛ ya n wãa nɛn bɔɔ gari nɛnutiru sɔɔ?
+what-needs-to-be-in-file-explanation = I kasuwo bɛsɛn damba yeni sɔɔ: <templateFileLink>modèle</templateFileLink>. N weenɛ  bɛɛn gari yi n saria mɔ (CC0 n kùn mɛ sɔm  gbiiku tè tire yoro u nɔɔ kã). Kpa yi n  dɛɛre, yi n barum yoraan saria swĩi, kpa yi n kun garibu sɛ̃.Gari yì ba mɔrisia, n weenɛ yin garibu bu tɛɛwa nɔni dɔki 10-15 , kpa yi n kun geetinu mɔ, tɔmbun ŷsinu ka yĩire nì nu nɛnɛm.
+upload-progress-text = Yè ba mɔrisia ya dɔɔ
+sc-bulk-submit-confirm = Na sireemɔ mɛ̀ gari yi yi wãawa samaan wunanɔn swaa sɔɔ</wikipediaLink>, ma ba man nɔɔ kã n yì mɔrisia
+bulk-upload-success-toast = Gari yì ba mɔrisia
+bulk-upload-failed-toast = Yè ba mɔrisia ya ǹ de, i maa wureyo
+bulk-submission-success-header = Na siara yè a ka wura a gari dabiru mɔrisia
+bulk-submission-success-subheader = I gari gerubun sɔ̃ɔsirun yasansi Somimɔ yù ka nɔma turi yè ya naa gire tɔru baatere gari kobun swaa sɔɔ
+upload-more-btn-text = lBù gari gɛe mɔrisia?
+file-invalid-type = Bɔɔ gari nɛnuti  tè ba ǹ wure
+file-too-large = Bɔɔ gari nɛnuti te ta pkã to
+file-too-small = Bɔɔ gari nɛnutiru ta piibuu sãa n banda
+too-many-files = Bɔɔ gari nŋutinu nu dabia to
