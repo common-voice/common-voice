@@ -4,6 +4,7 @@ listen-again-instruction = Lieliski paveikts darbs! <playIcon> </playIcon> Klaus
 listen-3rd-time-instruction = 2 pabeigti, tā tik turi! <playIcon> </playIcon>
 listen-last-time-instruction = <playIcon> </playIcon> Pēdējais!
 listen-empty-state = Iespējams, visi ieraksti jau ir apstrādāti - pārlādējiet lapu vai mēģiniet nedaudz vēlāk.
+listen-empty-state-variants = Iespējams, jūsu izvēlētajā valodā vairs nav teikumu! Ja zināt vēl kādu valodu, varat mainīt iestatījumus, lai redzētu citus teikumus.
 listen-loading-error =
     Mēs nevarējām iegūt nevienu ierakstu, ko jums klausīties.
     Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.

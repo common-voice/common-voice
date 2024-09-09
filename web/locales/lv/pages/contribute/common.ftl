@@ -19,6 +19,7 @@ contribute-more =
        *[other] Vai esat gatavi vēl { $count }?
     }
 speak-empty-state = Mums ir beigušies teikumi, ko ierakstīt šajā valodā...
+no-sentences-for-variants = Iespējams, jūsu izvēlētajā valodā vairs nav teikumu! Ja zināt vēl kādu valodu, varat mainīt iestatījumus, lai redzētu citus teikumus.
 speak-empty-state-cta = Pievienojiet teikumus
 speak-loading-error =
     Mēs nevarējām iegūt nevienu teikumu, lai jūs varētu ierunāt.
@@ -32,6 +33,7 @@ target-segment-generic-card = Jūs sniedzat ieguldījumu mērķa segmentā
 target-segment-first-banner = Palīdziet izveidot Common Voice pirmo mērķa segmentu { $locale } valodā
 target-segment-add-voice = Pievienojiet savu balsi
 target-segment-learn-more = Uzzināt vairāk
+change-preferences = Mainīt iestatījumus
 
 ## Contribution Nav Items
 

@@ -23,6 +23,11 @@ contact-us = Ныффыс нӕм
 add-sentence-success = 1 хъуыдыйад сæмбырд и
 add-sentence-error = Хъуыдыйад бафтауыны рæдыд
 required-field = Дæ хорзæхæй, бафысс ацы рæнхъ.
+# Sentence Domain dropdown option
+healthcare = Æнæниздзинад
+# Sentence Domain dropdown option
+history_law_government = Истори, закъæттæ æмæ хицауад
 
 ## BULK SUBMISSION 
 
+file-too-large = Файл æгæр стыр у

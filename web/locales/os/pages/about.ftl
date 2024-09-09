@@ -142,3 +142,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Фылдӕр �
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Common Voice æхца кæмæй исы?

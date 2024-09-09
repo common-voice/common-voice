@@ -6,6 +6,7 @@ write-page-subtitle = እዚህ የተበረከቱ ዓረፍተ-ነገሮች በ
 sentence =
     .label = ዓረፍተ-ነገር
 sentence-input-value = የእርስዎን የሕዝብ ጎራ ዓረፍተ-ነገር እዚህ ያስገቡ
+citation-input-placeholder = የዓረፍ-ነገርዎን ምንጭ ያጣቅሱ (የሚያስፈልግ)
 citation =
     .label = ዋቢ
 sc-write-submit-confirm = ይህ ዓረፍተ ነገር <wikipediaLink>የወል ጎራ</wikipediaLink> መሆኑን አረጋግጣለሁ እና እሱን ለመጫን ፍቃድ አለኝ።
@@ -56,6 +57,9 @@ nature_environment = ተፈጥሮ እና አካባቢ
 news_current_affairs = ዜና እና ወቅታዊ ጉዳዮች
 # Sentence Domain dropdown option
 technology_robotics = ቴክኖሎጂ እና ሮቦቲክስ
+sentence-variant-select-label = የዓረፍተ-ነገር ልዩነት
+sentence-variant-select-placeholder = ተለዋጭ ይምረጡ (አማራጭ)
+sentence-variant-select-multiple-variants = አጠቃላይ ቋንቋ / በርካታ ተለዋጮች
 
 ## BULK SUBMISSION 
 
@@ -70,6 +74,7 @@ try-upload-again-md = እንደገና ለመጫን ይሞክሩ
 select-file = ፋይል ይምረጡ
 select-file-mobile = የሚጫን ፋይልን ይምረጡ
 accepted-files = ተቀባይነት ያላቸው የፋይል ዓይነቶች፡.tsv ብቻ
+minimum-sentences = በዶሴ ውስጥ ያሉ ዝቅተኛ ዓረፍተ ነገሮች:- 1000
 maximum-file-size = ከፍተኛው የፋይል መጠን፡ 25 ሜባ
 what-needs-to-be-in-file = በእኔ ፋይል ውስጥ ምን መሆን አለበት?
 what-needs-to-be-in-file-explanation = እባክዎ የእኛን <templateFileLink>የአብነት ፋይል</templateFileLink> ይመልከቱ። ዓረፍተ-ነገሮችዎ ከቅጂ መብት ነጻ (CC0 ወይም በአመልካቹ የተፈቀደ ኦሪጅናል ስራ) እና ግልጽ፣ ሰዋሰው ትክክል እና ለማንበብ ቀላል መሆን አለባቸው። የገቡት ዓረፍተ-ነገሮች ለማንበብ ከ10-15 ሰከንድ ያህል መውሰድ አለባቸው እና ቁጥሮችን፣ ትክክለኛ ስሞችን እና ልዩ ቁምፊዎችን ከማካተት መቆጠብ አለባቸው።
