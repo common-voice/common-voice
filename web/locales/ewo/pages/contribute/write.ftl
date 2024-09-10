@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = Tiligi
+write = Tiligi tə
 write-instruction = Kogolo <icon></icon> efya dzia mod asə a nə dzam bəlan ai dzɔ
 write-page-subtitle = Bifya miayi və biayi baaban evoe mam mə bod bəsə a cc-0 oyəm bibug
 sentence =
@@ -17,6 +17,7 @@ new-sentence-rule-3 = Akɔg məmvende da yɛan bɔ sosoo
 new-sentence-rule-4 = Tətələ otil ei atɔn bya yean tɔbɔ sosoo
 new-sentence-rule-5 = Tege bənɔmbɔ ngə bikanga biziŋ
 new-sentence-rule-6 = Təgə bikanga ya minkɔbɔ mifə
+new-sentence-rule-7 = E fəg e tii yayean tɔbɔ
 new-sentence-rule-8 = Bibug bya yean kig daŋ awom ai bitan
 how-to-cite = Bibug bya yean kig daŋ awom ai bitan
 how-to-cite-explanation-bold = Mia yean tili evom fəg yasɔ.
@@ -80,9 +81,9 @@ what-needs-to-be-in-file-explanation = Matoe na bifiɛ bi byasɔ <wikipediaLink>
 upload-progress-text = Bifya bi lomoban ya
 sc-bulk-submit-confirm = Aluba a nloman, dugan lom
 bulk-upload-success-toast = Akiba mbol mi nɔŋ ngab ai nloman abui bifya
-bulk-upload-failed-toast = Myavɔli common voice atoban taŋ bifya a tam
+bulk-upload-failed-toast = Yi wa yi naa wa tɔb afəb, dugan tə tadi.
 bulk-submission-success-header = Abui ngaŋ mbol mi nɔŋ ngab ai nloman abui bifya
-bulk-submission-success-subheader = Mia vɔli common voice atoban taŋ bifya a tam
+bulk-submission-success-subheader = Mia vɔli Common Voice naa a toban taŋ bifya a tam
 upload-more-btn-text = Yi wa yi nə o lom bifya bifə
 file-invalid-type = Afəb dayean kig
 file-too-large = Afəb a nə adzid abui

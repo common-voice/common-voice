@@ -1,5 +1,5 @@
 listen = Vógōlō
-listen-instruction = Yi bə a toan fala efiɛ?
+listen-instruction = Yi bə a toan fala efya?
 listen-again-instruction = Akia abəŋ esie! <playIcon></playIcon> Duganə vogolo
 listen-3rd-time-instruction = Elig ya ngab ebɛ <playIcon></playIcon>,kələg osu!
 listen-last-time-instruction = <playIcon></playIcon> Ngab məmana!
