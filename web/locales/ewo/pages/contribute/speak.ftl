@@ -31,3 +31,11 @@ review-submit-msg = Akiba asu biwɔdi bian  !<lineBreak></lineBreak> mi ntoya d
 review-recording = Soan
 review-rerecord = Dugan wɔdi
 review-cancel = Dzogoge o amana sil biwɔdi
+review-keep-recordings = Abaala biwɔdi
+review-delete-recordings = Silig biwɔdi bian
+review-terms = Asu na mia bəlan ai Common Voice, myayean yəbə <termsLink> məmvende maŋ </termsLink> ai <privacyLink> akia bia baala bisie bian </privacyLink>
+terms-agree = Mayəbə
+terms-disagree = Matəb
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Abui ngan amu  mia adasi bia məkiŋ maan !
+why-donate-explanation-1 = E mam ma mə sə kig obilig; wafudi mɔ ngə wadiŋ, bia ayi tsende biyole eyɔŋ bia ayi bəlan ai byə, nzəlan yayi kui a zaŋ byəm anə eyole, okala ai zud
