@@ -66,7 +66,6 @@ shortcut-discard-ongoing-recording-label = e
 shortcut-submit = Maŋne/Caa ne
 shortcut-submit-label = Cɔŋ ma de maŋgen wɔ lɛ
 request-language-text = Fɛr maŋ wããre no
-request-language-button = Échap
 
 ## Listen Shortcuts
 
@@ -74,23 +73,14 @@ request-language-button = Échap
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = Wii wɛr ne gẽẽge maaga de maŋgen wà
 shortcut-play-toggle-label = Kalge ni
-# Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = Cɔŋ ma de maŋgen wɔ lɛ
-# Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = Wɛr jag ɓɔn bay la ni wa ɗa?
 
 ## Validation criteria
 
 contribution-criteria-nav = ŋgaɓ jag po le hãy
-contribution-criteria-link = ## Caageti jag geɗɛŋ ma cɔ'sug
 contribution-criteria-page-title = p
 contribution-criteria-page-description = kaŋ na/ iine gɔ
 contribution-for-example = o
 contribution-misreadings-title = n
-contribution-misreadings-description = ## Faage ma yããge ɓɛ wɔ
-contribution-misreadings-description-extended-list-1 = Jag liŋgin wɔ
 contribution-misreadings-description-extended-list-2 = Da' wɛr ne kaygen wono
 contribution-misreadings-description-extended-list-3 = Wɛr kaygen wɔno
 contribution-misreadings-description-extended-list-4 = Fen maaga kaŋ sug ti ɓɛ ti maaga ndɔ de laa gẽẽge ma de maŋge cab no malan maaga ndɔ da wɛ ga ndɔ ya' ciŋ jag maaga gɔ de maŋgen mono!
