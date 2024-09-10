@@ -21,6 +21,15 @@ new-sentence-rule-8 = Bibug bya yean kig daŋ awom ai bitan
 how-to-cite = Bibug bya yean kig daŋ awom ai bitan
 how-to-cite-explanation-bold = Mia yean tili evom fəg yasɔ.
 how-to-cite-explanation = O kada hm ngə e nə bibug ai fifya binə bie. <italicizedText>« nkɔbɔ woe »</italicizedText>. Bia yean yəm evom fəg yasɔ asu yə na bi yəm ngə o bələ ngul ya bəlan ai dzɔ. Asu asoan fəg laŋan <guidelinesLink> məbende man </guidelinesLink>.
+guidelines = Zɛn ya toŋ
+contact-us = Tiligi bia
+add-sentence-success = Efya dzia enɔŋəbanə ya
+add-sentence-error = Evus a mbagan efya
+required-field = Dzalan efas dzi
+single-sentence-submission = Elomo efya dzia
+bulk-sentence-submission = Elomo abui bifya
+single-sentence = Efya dzia
+bulk-sentences = Abui bifya
 
 ## BULK SUBMISSION 
 
