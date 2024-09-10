@@ -40,6 +40,20 @@ automotive_transport = Mətoa ai elədan
 finance = Mɔni
 # Sentence Domain dropdown option
 service_retail = Eka ai ban makid
+# Sentence Domain dropdown option
+general = Mam məsə
+# Sentence Domain dropdown option
+healthcare = Mvɔi
+# Sentence Domain dropdown option
+history_law_government = Minlaŋ, lɔya ai ngɔməna
+# Sentence Domain dropdown option
+language_fundamentals = Zəzə məyəbə ya nkɔbɔ (bənɔmbɔ, bikanga, mɔni)
+# Sentence Domain dropdown option
+media_entertainment = Elomo minkɔbɔ ai bivoe
+# Sentence Domain dropdown option
+nature_environment = Ndon ai Mboməna
+# Sentence Domain dropdown option
+news_current_affairs = Məfoe ai məyəm
 
 ## BULK SUBMISSION 
 
