@@ -32,6 +32,7 @@ sc-review-form-reviewed-message =
        *[other] Mbəbəban bifiɛ ngaŋ!
     }
 sc-review-form-review-failure = Mbəban o ndzi kig tɔbɔ wɔdiban, dzibigi tə man eban o dugan vəgələ.
+sc-review-link = A komo bəbə
 
 ## REVIEW CRITERIA
 

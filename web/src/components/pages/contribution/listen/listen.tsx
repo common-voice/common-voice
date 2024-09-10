@@ -108,7 +108,10 @@ class ListenPage extends React.Component<Props, State> {
   demoMode = this.props.location.pathname.includes(URLS.DEMO)
 
   static getDerivedStateFromProps(props: Props, state: State) {
-    if (state.clips.length > 0) return null
+
+    const unvalidatedClips = state.clips.filter(clip => clip.isValid === null).length;
+
+    if (unvalidatedClips > 0) return null
 
     if (props.clips && props.clips.length > 0) {
       return {
