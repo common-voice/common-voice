@@ -43,5 +43,17 @@ why-donate = Asu dze wa sili?
 why-donate-explanation-1 = E mam ma mə sə kig obilig; wafudi mɔ ngə wadiŋ, bia ayi tsende biyole eyɔŋ bia ayi bəlan ai byə, nzəlan yayi kui a zaŋ byəm anə eyole, okala ai zud
 why-donate-explanation-2 = Asu na abaa esie a wulu mbəŋ, abui bod da yean kad mam ya binyiŋ byaba, ngə bayəbə kig na bə bəlan ai mimvogolan myan, abaa esie ayi kig vɔli bod ya nkɔbɔ wan. <learnMore> asoan. </learnMore>
 add-information-button = Kogolo  biyəmə
-continue-speaking-button = Dzoge, ma və ngaŋ kələ ai nkɔbɔ osu
+continue-speaking-button = Dzoge tə, ma və ngaŋ kələ ai nkɔbɔ osu
 create-profile-text = Yi wa yi baag biyəmə bue?<createProfile> Atye eyəmə </createProfile>
+thanks-for-voice-toast = Abui ngaŋ asu kiŋ dzoe
+thanks-for-voice-toast-error = Nzɔbi a bɔban a abog nloman məkiŋ manan
+first-cta-gender-select-default-option = Tɔb dzom dzia
+first-cta-gender-select-help-text =
+    .label = Yə o nə fam ngə mininga ?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Abui ngaŋ amu o dasi kiŋ dzoe
+second-cta-subtitle-text = Ai eyəm dzoe o nə dzam bəbə esie dzoe o yəman ai e bod yə andzogodo a bə nga və kiŋ
+already-have-an-account = Yi o bələ ya eyəm? <login> Nyiian </login>
+create-profile-button = Tye eyəmə
+# IMAGE TAGS
+img-alt-success-checkmark = Bana a yəbəgə
