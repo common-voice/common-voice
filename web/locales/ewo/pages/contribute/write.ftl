@@ -58,6 +58,15 @@ news_current_affairs = Məfoe ai məyəm
 technology_robotics = Bəminsina
 sentence-variant-select-label = Kan bifya
 sentence-variant-select-placeholder = Tɔbɔ kan dzia
+sentence-variant-select-multiple-variants = Mam ya nkɔbɔ/kan minkɔbɔ
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Loman <icon></icon> bifya mod asə a nə dzam bəlan ai bia
+sc-bulk-upload-instruction = Loman afəb dan va ngə <uploadButton> banan asu na myalom </uploadButton>
+sc-bulk-upload-instruction-drop = Fudan afəb dan va asu na mia lom
+bulk-upload-additional-information = Ngə miayi na miabag mam məziŋ afəb dzi tilan bia ekalan dzi:  <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Ngə miayi na miabag mam məziŋ afəb dzi a bə ndzi kig təle,  tilan bia a ekalan dzi<emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Dugan lom afəb ava
+try-upload-again-md = Badagə dzəŋ na walom
