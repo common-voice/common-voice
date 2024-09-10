@@ -23,3 +23,5 @@ clips-uploaded = Bivəgələ bi nə a interened
 record-abort-title = Yə mia tadi mana wɔdi ?
 record-abort-text = Ngə mia tele ai dibə afəb esie dza yi dzaŋ
 record-abort-submit = Nyiligi biwɔdi
+record-abort-continue = Manəga wɔdi
+record-abort-delete = Kodog o amana sil biwɔdi
