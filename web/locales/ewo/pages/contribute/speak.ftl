@@ -38,4 +38,7 @@ terms-agree = Mayəbə
 terms-disagree = Matəb
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Abui ngan amu  mia adasi bia məkiŋ maan !
+first-cta-subtitle-text = Eyɔŋ wa laŋ bia ndan dzoe, wa vɔli e bia bod bia tye nkɔbɔ nsina naa bi buli kom məfəg ma nɔŋ  ngab ai kan bod esə.
+why-donate = Asu dze wa sili?
 why-donate-explanation-1 = E mam ma mə sə kig obilig; wafudi mɔ ngə wadiŋ, bia ayi tsende biyole eyɔŋ bia ayi bəlan ai byə, nzəlan yayi kui a zaŋ byəm anə eyole, okala ai zud
+why-donate-explanation-2 = Asu na abaa esie a wulu mbəŋ, abui bod da yean kad mam ya binyiŋ byaba, ngə bayəbə kig na bə bəlan ai mimvogolan myan, abaa esie ayi kig vɔli bod ya nkɔbɔ wan. <learnMore> asoan. </learnMore>
