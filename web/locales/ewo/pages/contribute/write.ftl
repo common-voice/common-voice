@@ -30,6 +30,16 @@ single-sentence-submission = Elomo efya dzia
 bulk-sentence-submission = Elomo abui bifya
 single-sentence = Efya dzia
 bulk-sentences = Abui bifya
+sentence-domain-combobox-label = Eyiliga efya
+sentence-domain-select-placeholder = Tɔban vɔs bitie bilɛ
+# Sentence Domain dropdown option
+agriculture_food = Esie məfub ai mədiga
+# Sentence Domain dropdown option
+automotive_transport = Mətoa ai elədan
+# Sentence Domain dropdown option
+finance = Mɔni
+# Sentence Domain dropdown option
+service_retail = Eka ai ban makid
 
 ## BULK SUBMISSION 
 
