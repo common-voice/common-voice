@@ -16,3 +16,5 @@ record-again-instruction2 = Kəlan ai nala osu mi dugan baala efas efə
 record-last-instruction = Məligi mvua!
 review-tooltip = Asoan o dugan awɔdi.
 share-clip = Akab mbaalan wan
+share-common-voice = Səŋ bod biwɔdi bio
+review-instruction = Səŋ bod Common Voice
