@@ -42,3 +42,6 @@ first-cta-subtitle-text = Eyɔŋ wa laŋ bia ndan dzoe, wa vɔli e bia bod bia t
 why-donate = Asu dze wa sili?
 why-donate-explanation-1 = E mam ma mə sə kig obilig; wafudi mɔ ngə wadiŋ, bia ayi tsende biyole eyɔŋ bia ayi bəlan ai byə, nzəlan yayi kui a zaŋ byəm anə eyole, okala ai zud
 why-donate-explanation-2 = Asu na abaa esie a wulu mbəŋ, abui bod da yean kad mam ya binyiŋ byaba, ngə bayəbə kig na bə bəlan ai mimvogolan myan, abaa esie ayi kig vɔli bod ya nkɔbɔ wan. <learnMore> asoan. </learnMore>
+add-information-button = Kogolo  biyəmə
+continue-speaking-button = Dzoge, ma və ngaŋ kələ ai nkɔbɔ osu
+create-profile-text = Yi wa yi baag biyəmə bue?<createProfile> Atye eyəmə </createProfile>
