@@ -33,13 +33,11 @@ change-preferences = Coo doga à co jag ɓɔ nono
 
 ## Contribution Nav Items
 
-contribute-voice-collection-nav-header = ## Ti ɓɛ ma kluuri ma kayge wɔ no
 contribute-sentence-collection-nav-header = targe gẽẽge jar
 
 ## Reporting
 
 report = targe sra'ge wããre
-report-title = ## ʼwaage ɓay
 report-ask = Ɗee ɗuu
 report-offensive-language = Cɔŋge
 report-offensive-language-detail = Re mayse da' mo ti wããren la?
@@ -59,18 +57,11 @@ report-success = Ndalge
 
 ## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated { skip } string.
-shortcut-skip = Jɔŋre seegɔ ti ŋgel ɓɛ
 
 ## Speak Shortcuts
 
-# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
-# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = Seege de pel
 shortcut-record-toggle-label = Baage wɛr wããren wɔ gɔ de cɔŋge
-shortcut-rerecord-toggle = ## Caageti jag geɗɛŋ ma Wããge & cɔ'sug
 shortcut-rerecord-toggle-label = a
-shortcut-discard-ongoing-recording = ## Caageti jag geɗɛŋ ma Wããge
 shortcut-discard-ongoing-recording-label = e
 shortcut-submit = Maŋne/Caa ne
 shortcut-submit-label = Cɔŋ ma de maŋgen wɔ lɛ
