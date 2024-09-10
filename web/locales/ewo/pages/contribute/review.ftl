@@ -51,3 +51,8 @@ sc-review-rules-title = Yə efya yabaala məvende
 sc-review-empty-state = Təgə fə ai efya ziŋ yabəbə nkɔbɔ wi
 report-sc-different-language = Nkɔbɔ mfə
 report-sc-different-language-detail = Efya e sə kig ntilan nkɔbɔ masoan
+sentences-fetch-error = Ndɔbi a kwi abog eyali bifya.
+review-error = Ndɔbi a kwi eyɔŋ e hə soan efya dzi.
+review-error-rate-limit-exceeded = Wa nnəman kə avol, nɔŋo man eban mi dugan laŋ mi bəbə fə na efya e nə mvɔi.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Bia toan soan esie
