@@ -1,3 +1,22 @@
+action-click = mbɛra zú-a
+action-tap = gbɔsa zú-a
+contribute = gbaka-a
+review = zɔkaa-nɛ-sàá̧
+skip = kpiɗ-aa
+shortcuts = gɔmzaŋ
+clips-with-count-pluralized =
+    { $count ->
+        [one] dakaa
+       *[other] o-dakaa
+    }
+goal-help-recording = Nɛ ɗoŋ'nɛ, Common Voice/Tigɛr Kpɔk <goalPercentage></goalPercentage> wese leŋ hɔ̀ɔ́ gbàá̧ { $goalValue } tɛ-tom-baa-tigɛr !
+goal-help-validation = Nɛ ɗoŋ'nɛ, Common Voice/Tigɛr Kpɔk <goalPercentage></goalPercentage> wese leŋ hɔ̀ɔ́ gbàá̧ { $goalValue } tɛ-kɔ̀ɔ̧́ɗɔ̀ɔ́-tom !
+contribute-more =
+    { $count ->
+        [one] { "" }
+       *[other] ɛ́nɛ́ kɔ̧ɔ̧ mɛ́ dé wár { $count } wóyo?
+    }
+speak-empty-state = Ɛɛ bo nɛ mbé wen ba tigɛr-a tɛ nu'ɛ̧ ɓɔna ...
 no-sentences-for-variants = Ŋma fara nɛ wár nú k'ɛnɛ a̧ hɔ̀ɔ́ yiri ! K'ɛnɛ nɛ́ aa̧ nɛ ŋgae-aa, ɛnɛ nyɛma mɛ kpai yuwar tom-aa wen foo o mbé wen gbonɛ nɛtɛ nú k'ɛnɛ.
 speak-empty-state-cta = Ɛnɛ há̧ o ŋma mbé wen
 speak-loading-error = Ɛɛ tɛ kpa ŋma mbé wen mɛ tɔ̧ woyo na. Ɛnɛ we woyo tɛ mbé ŋgimbi.

@@ -1,5 +1,17 @@
 ## WRITE PAGE
 
+write = tìlâ
+write-instruction = βétá<icon></icon> dʒówí dʒá ŋgíndí
+write-page-subtitle = mátìlà má βélí ánù mǐkàwà èkí já ŋgīndī má wɛ́ cc-0 mɛ̀ndì mímáwí
+sentence =
+    .label = mátìlà
+sentence-input-value = íká è mbɔ́zrí jà ŋgíndí ánù
+citation-input-placeholder = íká ékí è mbɔ́zrí júwɛ́lɛ́lɛ̂ (íkâ)
+citation =
+    .label = dʒɔ̀kà mòtò
+sc-write-submit-confirm = nìmánɛ́lɛ́ émá èné mbɔ́zrí è <wikipediaLink> βélì ndí jà ŋgíndí </wikipediaLink> zrǐ nòβí è ŋgíɲà lǐkà ánù
+sc-review-write-title = ímá mbɔ́zrí ná tánɛ́ lì βétà?
+new-sentence-rule-1 = <noCopyright>tɔ̀ ímá mòtò à táná gbèjáná èné mbɔ́zrí </noCopyright> mbɔ́zrí(<cc0>cc-0</cc0>)
 new-sentence-rule-2 = mátìlà má zrùká ljómɛ̀ nà wétâ
 new-sentence-rule-3 = gbèjáná lìtìlà lá gbámù
 new-sentence-rule-4 = gbèjáná lìtìlà lá gbámù nà zrjòwà
