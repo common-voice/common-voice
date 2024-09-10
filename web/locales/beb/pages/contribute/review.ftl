@@ -3,7 +3,7 @@
 sc-review-title = Â pìal bìpus
 sc-review-loading = Â lɔ̌nyì bìpus
 sc-review-select-language = Sâlanì ìlaŋì à mə pìal bìpus
-sc-review-no-sentences = Tənə ìpus â mə pìal bɔŋânì<addlink>â koklì
+sc-review-no-sentences = Tənə ìpus â mə pìal bɔŋânì<addlink>â koklì</addLink>
 sc-review-form-prompt =
     .message = Bìpus mpìalaŋ bì tā kə̀
 sc-review-form-usage = Lɔ́manì â mɔ̄ nyɔ̄m â mə nyìplaŋ
