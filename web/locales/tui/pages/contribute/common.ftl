@@ -9,7 +9,13 @@ clips-with-count-pluralized =
         [one] Ɓaare
        *[other] Ɓaare wɔ
     }
+goal-help-recording = Wɛr jɔŋre ɓɔ, Common Voice baa jag jɔŋre gɔ <goalPercentage></goalPercentage> maaga se de kaŋge ɓɛ pel nen siili mono { $goalValue } yããge ɓɛ !
 goal-help-validation = Wɛr jɔŋre ɓɔ, Common Voice baa jag jɔŋre gɔ <goalPercentage></goalPercentage> maaga se de kaŋge ɓɛ pel nen siili mono { $goalValue } yããge ɓɛ !
+contribute-more =
+    { $count ->
+        [one] { "" }
+       *[other] Prêt à faire { $count } de plus?
+    }
 speak-empty-state = Sra'ge wããre ma maŋge go de tawge ti wɛr jag ...
 no-sentences-for-variants = Mopa ga saɓlan ma ti wɛr jag ma ɓɔn jɔŋ gɔ de tawge ! Hayga a co we jag ɓɔ, ndɔ mbɔ de kããge ma coo ti ŋgel ma 'wuygiɓɛ ma ɓɔn maaga wããre ma de wɛr jag ma ɓɔn ma laa wɔ lɛ gɔ.
 speak-empty-state-cta = Ŋgaɓ sra'ge wããre ma ɓɔ lay
@@ -48,6 +54,7 @@ report-offensive-speech-detail = wããre no ga sra'ge ma po yaŋ wɔ ni de gali 
 report-other-comment =
     .placeholder = Wããre ma cee jiiri
 success = Saɓlaŋ gẽẽgen de ɗarge noga de wããre bay ho sugti ɓi
+continue = Seege de pel
 report-success = Ndalge
 
 ## Speak & Listen Shortcuts
@@ -66,6 +73,7 @@ shortcut-rerecord-toggle-label = a
 shortcut-discard-ongoing-recording = ## Caageti jag geɗɛŋ ma Wããge
 shortcut-discard-ongoing-recording-label = e
 shortcut-submit = Maŋne/Caa ne
+shortcut-submit-label = Cɔŋ ma de maŋgen wɔ lɛ
 request-language-text = Fɛr maŋ wããre no
 request-language-button = Échap
 
