@@ -32,7 +32,13 @@ sc-review-form-reviewed-message =
        *[other] Mbəbəban bifiɛ ngaŋ!
     }
 sc-review-form-review-failure = Mbəban o ndzi kig tɔbɔ wɔdiban, dzibigi tə man eban o dugan vəgələ.
-sc-review-link = A komo bəbə
+sc-review-link = Məsoan
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = Ndəm məsoan
+sc-criteria-title = Ndəm məsoan
+sc-criteria-make-sure = Bəban ngə efiɛ yatoban ai məsoan məndəm mana :
+sc-criteria-item-1 = Efiɛ yayean tiliban mbəŋ
+sc-criteria-item-2 = Efya yayean  toŋ akɔg məmvende
+sc-criteria-item-3 = Efya yayean nlaŋaban mbəŋ
