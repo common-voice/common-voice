@@ -4,6 +4,11 @@ contribute = waddingo ballal
 review = laartoo
 skip = saala
 shortcuts = rammitinaande
+clips-with-count-pluralized =
+    { $count ->
+        [one] Yeɓre <bold>{ $count }</bold>
+       *[other] Yeɓre <bold>{ $count }</bold>
+    }
 goal-help-recording = Ngam mon, Comon Voys yottake  <goalPercentage></goalPercentage> humtake , anniya nyalloma maako, { $goalValue } e hoocugo sawtu !
 goal-help-validation = Ngam mon, Comon Voyse  yottake <goalPercentage></goalPercentage> anniya nyalloma maako { $goalValue } e tabintinde !
 contribute-more =
@@ -19,6 +24,7 @@ record-button-label = rezistira sawtu mooɗon
 share-title-new = <bold>Mballee men </bold> Heɓgo sawtu keso
 keep-track-profile = To on ngiɗi ƴi’go to on ɗon njaha yeeso yeeso, tagaa porofil
 login-to-get-started = Konekte hoore mon, malla mbinndite hoore mon ngam on puɗɗa
+target-segment-first-card = lorne arandeyel 'sekman sibele' mon arana
 target-segment-generic-card = lorne 'sekman sibele' mon arana
 target-segment-first-banner = mballe men waɗgo 'sekman sibele' arana dow Common Voice { $locale }
 target-segment-add-voice = ndokkaa e daande mooɗon
@@ -124,3 +130,18 @@ contribution-background-noise-description = Ndikka anndal dow limgal waawa yuyki
 contribution-background-noise-description-extended = To rezistira ɗon mari hoolu waŋgata  bana ciikaali, sale nga sinaa to naasiwol fuu ɗon heɗe booɗɗum.
 contribution-background-noise-example-1-fixed-title = <strong>[ nufna]</strong> Dinozooji mawɗi saaye <strong>[ɗojja]</strong> tiriyas
 contribution-background-noise-example-2-fixed-title = Dinozoor maŋga  <strong>[ ɗojja ]</strong> saaye tiriyas
+contribution-background-noise-example-2-explanation = [Yeɓre nassiwol feere nanataake ]
+contribution-background-noise-example-3-fixed-title = Jstrong>[  ]</strong> Dinozooji mawɗi  <strong>[ hoolo tappa tappa ]</strong> -rias.
+contribution-background-voices-title = Daande ɓaawo
+contribution-background-voices-description = Hoolo to famɗi daamataa, amma taa ɓe nana daande feere nde wallataa anndel limgal masinwa heɓtugo kalimaaji ɗi walaa nder jumlawol. To on poti on heɗita nassiwol feere feere, taa jaɓe rezistira man. Ɗum ɗon fotootira wakkati telewisiyon ɗon kunni  wakkati  ɓe ɗon ngaɗa rezistira haa sera.
+contribution-background-voices-description-extended = To rezistira ɗon mari hoolu waŋgata  bana ciikaali, sale nga sinaa to naasiwol fuu ɗon heɗe booɗɗum.To rezistira wooɗaay malla woodi hoolo, cakkine ɗum ammaa to nassiwol ɗon wooɗi taa  cakkine.
+contribution-background-voices-example-1-title = Dinozooji mawɗi. <strong>[jaŋgaama bee daande arande ]</strong>
+contribution-background-voices-example-1-explanation = A ɗon waro ? <strong>[jaŋgu bee daande feere ]</strong>
+contribution-volume-title = Hoolo
+contribution-volume-description = To yimɓe ɗon njaŋga doole ɓe nana hoolo feere feere. Taa sakkunu to hoola ɗon jur nden boo rezistira boo waŋgaaay booɗum,  to a naanataa ko ɓe ɗon mbi’a to a walaa nassiwol.
+contribution-reader-effects-title = Cemmbiɗinirki e hoolo sawtu
+contribution-reader-effects-description = Nder ɓuurna rezistira fuu  yimɓe ɗon mbolwo bee daande maɓɓe bana no ɓe tagi ɓe.  On poti ɗon jaɓa rezistira  to goɗɗo ɗon sofnda malla o ɗon ƴembita daande feere. Taa jaɓe rezistiraaji marɗi gime malla daande ordinater.
+contribution-just-unsure-title = a ɗon miija ?
+contribution-just-unsure-description = To on potti bee gaɗibiiji ɗi ɓe tinndinaay mon, mbinnde no on numata no haani. To a ɗon miija, huutiniru bee bitoŋ  « saale» nden kooce rezistira waroore.
+see-more = <chevron></chevron> hollaa mannasaaji jur
+see-less = <chevron></chevron>hollaa mannasaaji seeɗa
