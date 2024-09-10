@@ -56,3 +56,5 @@ review-error = Ndɔbi a kwi eyɔŋ e hə soan efya dzi.
 review-error-rate-limit-exceeded = Wa nnəman kə avol, nɔŋo man eban mi dugan laŋ mi bəbə fə na efya e nə mvɔi.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Bia toan soan esie
+sc-redirect-page-subtitle-1 = Ndzəŋə bifya a ntɔya a common voice, mi ntɔya dzam <writeURL> tili </writeURL> ngə a </writeURL> soan</writeURL> bifya vom te.
+sc-redirect-page-subtitle-2 = Silan bia minsili mian a <matrixLink> matrix </matrixLink>, <discourseLink>adzo</discourseLink> ngə aa <emailLink> avələ dina</emailLink>.
