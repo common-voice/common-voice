@@ -44,3 +44,10 @@ sc-criteria-item-2 = Efya yayean  toŋ akɔg məmvende
 sc-criteria-item-3 = Efya yayean toan a nlaŋaban
 sc-criteria-item-4 = Ngə efya ya e bəgə mədəm məsoan, banag a mbo nnom vom onə ntilan naa "Yəbəgə";
 sc-criteria-item-5-2 = Ngə efya bə kig məsoan məsoan məte, banag a mbo ngal  kpab "təbə", ngə so lodo.
+sc-criteria-item-6 = Ngə oman ya soan bifya bisə, vologo bya naa bi togan bifya bifə
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Səŋələ <icon></icon> ngə efya e nə nfalan mbəŋ
+sc-review-rules-title = Yə efya yabaala məvende
+sc-review-empty-state = Təgə fə ai efya ziŋ yabəbə nkɔbɔ wi
+report-sc-different-language = Nkɔbɔ mfə
+report-sc-different-language-detail = Efya e sə kig ntilan nkɔbɔ masoan
