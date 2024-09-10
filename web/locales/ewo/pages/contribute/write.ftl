@@ -54,6 +54,10 @@ media_entertainment = Elomo minkɔbɔ ai bivoe
 nature_environment = Ndon ai Mboməna
 # Sentence Domain dropdown option
 news_current_affairs = Məfoe ai məyəm
+# Sentence Domain dropdown option
+technology_robotics = Bəminsina
+sentence-variant-select-label = Kan bifya
+sentence-variant-select-placeholder = Tɔbɔ kan dzia
 
 ## BULK SUBMISSION 
 
