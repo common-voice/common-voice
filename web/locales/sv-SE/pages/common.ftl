@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = Afar
 ab = Abkhaziska
+abb = Bankon
 ace = Acehnesiska
 ady = Adygeiska
 af = Afrikaans
@@ -15,19 +17,32 @@ arn = Mapudungun
 as = Assamesiska
 ast = Asturiska
 az = Azerbajdzjanska
+azz = Höglandet Puebla Nahuatl
 ba = Basjkiriska
+bal = Balochi
 bas = Basaa
+bax = Bamun
+bba = Baatonum
+bbj = Ghomala
+bci = Baoule
 be = Vitryska
+beb = Bamvele
+bfd = Bafut
 bg = Bulgariska
+bkm = Kom
 bm = Bambara
 bn = Bengaliska
+bnm = Batanga
 bo = Tibetanska
 br = Bretonska
+bri = Mokpwe
 bs = Bosniska
+bum = Bulu
 bxr = Buryat
 byv = Medumba
 ca = Katalanska
 cak = Cakchiquel
+cdo = Östra Min
 ckb = Centralkurdiska
 cnh = Burmesiska
 co = Korsikanska
@@ -37,22 +52,31 @@ cv = Tjuvasjiska
 cy = Walesiska
 da = Danska
 dag = Dagbani
+dar = Dargwa
+dav = Kidaw'ida
 de = Tyska
 dsb = Lågsorbiska
+dua = Duala
 dv = Dhivehi
 dyu = Dioula
+ebr = Ebrie
+ee = Ewe
 el = Grekiska
 en = Engelska
 eo = Esperanto
 es = Spanska
 et = Estländska
+eto = Eton
 eu = Baskiska
 ewo = Ewondo
 fa = Persiska
+fan = Fang
 ff = Fula
 fi = Finska
 fo = Färöiska
 fr = Franska
+fub = Adamawa Fulfulde
+fue = Borgu Fulfulde
 fuf = Pular Guinea
 fy-NL = Frisiska
 ga-IE = Irländska
@@ -215,12 +239,6 @@ zza = { "" }
 
 ## Layout
 
-speak = Tala
-speak-now = Prata nu
-datasets = Datamängder
-languages = Språk
-about = Om oss
-partner = Partner
 profile = Profil
 help = Hjälp
 contact = Kontakt
@@ -240,7 +258,6 @@ privacy-info = Vi lovar att hantera din information med försiktighet. Läs mer 
 return-to-cv = Återgå till Common Voice
 email-input =
     .label = E-post
-submit-form-action = Skicka in
 loading = Laddar…
 email-opt-in-info = Jag vill få e-postmeddelanden med påminnelser om mål, mina framstegsuppdateringar och nyhetsbrev om Common Voice.
 email-opt-in-info-title = Gå med i Common Voice e-postlista
@@ -251,7 +268,7 @@ not-available-abbreviation = inte tillgänglig
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Vi behöver</mark><br/><mark>din hjälp!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Det kostar nästan en miljon dollar per år att vara värd för datamängder och förbättra plattformen för de över 100 språkgemenskaper som förlitar sig på det vi gör. <strong>Om du värderar öppen, inkluderande data - donera idag!</strong>

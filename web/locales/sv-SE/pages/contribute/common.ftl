@@ -37,6 +37,14 @@ change-preferences = Ändra inställningar
 
 contribute-voice-collection-nav-header = Insamling av röster
 contribute-sentence-collection-nav-header = Insamling av meningar
+login-signup = Logga in / Registrera dig
+vote-yes = Ja
+vote-no = Nej
+datasets = Datamängder
+languages = Språk
+about = Om
+partner = Partner
+submit-form-action = Skicka in
 
 ## Reporting
 
