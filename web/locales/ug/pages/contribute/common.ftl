@@ -35,6 +35,7 @@ change-preferences = مايىللىقنى ئۆزگەرت
 
 contribute-voice-collection-nav-header = ئاۋاز توپلىمى
 contribute-sentence-collection-nav-header = جۈملە توپلىمى
+login-signup = كىرىڭ / تىزىملىتىڭ
 vote-yes = ھەئە
 vote-no = ياق
 datasets = سانلىق مەلۇمات توپلىمى
