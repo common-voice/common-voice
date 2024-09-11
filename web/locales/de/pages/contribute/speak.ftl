@@ -1,3 +1,6 @@
+speak = Sprechen
+speak-now = Sprechen Sie jetzt
+speak-subtitle = Spenden Sie Ihre Stimme
 record-cta = Aufnehmen
 record-platform-not-supported = Es tut uns leid, Ihre Plattform wird derzeit nicht unterstützt.
 record-platform-not-supported-desktop = Auf Desktop-Computern können Sie die neueste Version herunterladen:
@@ -36,7 +39,7 @@ review-delete-recordings = Aufnahmen löschen
 review-terms = Durch die Verwendung von Common Voice akzeptieren Sie unsere <termsLink>Nutzungsbedingungen</termsLink> und den <privacyLink>Datenschutzhinweis</privacyLink>.
 terms-agree = Ich stimme zu
 terms-disagree = Ich stimme nicht zu
-
+# FIRST POST SUBMISSION CTA
 first-cta-header-text = Vielen Dank, dass Sie Ihre Sprachclips gespendet haben!
 first-cta-subtitle-text = Möchten Sie Informationen darüber weitergeben, wie Sie sprechen?
 why-donate = Warum fragen Sie?
