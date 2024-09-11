@@ -1,4 +1,5 @@
 listen = Listen
+listen-subtitle = Help us validate voices
 listen-instruction = { $actionType }<playIcon></playIcon> did they accurately speak the sentence?
 listen-again-instruction = Great work!<playIcon></playIcon> Listen again when you're ready
 listen-3rd-time-instruction = 2 down, keep it up!<playIcon></playIcon>
