@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = ئافار
 ab = ئابخازچە
+abb = بانكون
 ace = ئاچېھچە
 ady = ئادىگېيچە
 af = جەنۇبىي ئافرىقا تىلى
@@ -215,12 +217,6 @@ zza = زازاچە
 
 ## Layout
 
-speak = سۆزلەي
-speak-now = سۆزلەڭ
-datasets = سانلىق-مەلۇمات توپلىمى
-languages = تىللار
-about = ھەققىدە
-partner = ھەمكارلاشقۇچى
 profile = تەرجىمىھال
 help = ياردەم
 contact = ئالاقىلىشىڭ
@@ -240,7 +236,6 @@ privacy-info = ئۇچۇرلىرىڭىزنى ئېھتىياتچانلىق بىل�
 return-to-cv = Common Voice گە قايت
 email-input =
     .label = ئېلخەت
-submit-form-action = يوللا
 loading = يۈكلەۋاتىدۇ…
 email-opt-in-info = نىشان ئەسكەرتىشلىرى ، ئىلگىرىلەش ئۇچۇرلىرى ۋە Common Voice توغرىسىدىكى خەۋەرلەرنى ئېلخەت ئارقىلىق تاپشۇرۇۋېلىشنى خالايمەن.
 email-opt-in-info-title = Common Voice ئېلخەت تىزىمىغا قوشۇلۇڭ
@@ -251,7 +246,7 @@ not-available-abbreviation = N/A
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>بىز </mark><br/><mark> ياردىمىڭىزگە موھتاج!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = قىلىۋاتقان ئىشىمىزغا تايىنىدىغان 100+ تىل جامائىتىنىڭ سۇپىسىنى ياخشىلاش ۋە سانلىق مەلۇمات توپلىمىنى ئاسراشقا يىلىغا بىر مىليون دوللار ئەتراپىدا چىقىم كېتىدۇ. <strong>ئەگەر ئوچۇق، سىغدۇرۇشچان سانلىق مەلۇماتنى قەدىرلىسىڭىز، بۈگۈن ئىئانە قىلىڭ!</strong>
