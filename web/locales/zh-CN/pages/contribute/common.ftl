@@ -31,6 +31,14 @@ change-preferences = 更改首选项
 
 contribute-voice-collection-nav-header = 收集语音
 contribute-sentence-collection-nav-header = 收集语句
+login-signup = 登录/注册
+vote-yes = 是
+vote-no = 否
+datasets = 数据集
+languages = 语言
+about = 关于我们
+partner = 合作伙伴
+submit-form-action = 提交
 
 ## Reporting
 
