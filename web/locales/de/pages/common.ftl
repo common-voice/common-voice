@@ -4,6 +4,7 @@
 
 ## Languages
 
+aa = Afar
 ab = Abchasisch
 ace = Acehnesisch
 ady = Adygejisch
@@ -212,14 +213,9 @@ zza = Zaza
 
 # [/]
 
+
 ## Layout
 
-speak = Sprechen
-speak-now = Sprechen Sie jetzt
-datasets = Datensätze
-languages = Sprachen
-about = Über uns
-partner = Partner
 profile = Profil
 help = Hilfe
 contact = Kontakt
@@ -234,13 +230,11 @@ link-copied = Link kopiert
 back-top = Zum Seitenanfang
 logout = Abmelden
 donate = Spenden
-
 stayintouch = Wir bei Mozilla bauen eine Gemeinschaft rund um sprachbasierte Technologien auf. Wir würden gerne für Aktualisierungen und neue Datenquellen mit Ihnen in Kontakt bleiben und mehr darüber erfahren, wie Sie diese Daten nutzen.
 privacy-info = Wir versichern Ihnen, mit Ihren Daten sorgfältig umzugehen. Lesen Sie mehr dazu in unserer <privacyLink>Datenschutzerklärung</privacyLink>.
 return-to-cv = Zurück zu Common Voice
 email-input =
     .label = E-Mail-Adresse
-submit-form-action = Absenden
 loading = Wird geladen…
 email-opt-in-info = Ich möchte E-Mails wie Zielerinnerungen, Fortschrittsaktualisierungen und Newsletter zu Common Voice erhalten.
 email-opt-in-info-title = Tragen Sie sich in die Mailingliste von Common Voice ein
@@ -251,7 +245,7 @@ not-available-abbreviation = Nicht verfügbar
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Wir brauchen</mark><br/><mark>Ihre Hilfe!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Es kostet fast eine Million Dollar im Jahr, die Datensätze zu hosten und die Plattform für die über 100 Sprachgemeinschaften zu verbessern, die sich auf das verlassen, was wir tun. <strong>Wenn Sie Wert auf offene, integrative Daten legen – spenden Sie heute!</strong>
