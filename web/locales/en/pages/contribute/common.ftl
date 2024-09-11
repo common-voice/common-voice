@@ -36,6 +36,14 @@ change-preferences = Change preferences
 
 contribute-voice-collection-nav-header = Voice Collection
 contribute-sentence-collection-nav-header = Sentence Collection
+login-signup = Log In / Sign Up
+vote-yes = Yes
+vote-no = No
+datasets = Datasets
+languages = Languages
+about = About
+partner = Partner
+submit-form-action = Submit
 
 ## Reporting
 

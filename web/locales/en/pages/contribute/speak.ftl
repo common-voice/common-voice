@@ -1,3 +1,6 @@
+speak = Speak
+speak-now = Speak now
+speak-subtitle = Donate your voice
 record-cta = Start recording
 record-platform-not-supported = We’re sorry, your platform is not currently supported.
 record-platform-not-supported-desktop = On desktop devices you can contribute by downloading…
