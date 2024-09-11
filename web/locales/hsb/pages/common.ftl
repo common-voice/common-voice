@@ -4,6 +4,7 @@
 
 ## Languages
 
+aa = Afaršćina, Afar
 ab = Abchazišćina
 ace = Ačehšćina
 ady = Adygišćina
@@ -215,12 +216,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Rěčeć
-speak-now = Rěčće nětko
-datasets = Datowe sadźby
-languages = Rěče
-about = Wo nas
-partner = Partner
 profile = Profil
 help = Pomoc
 contact = Kontakt
@@ -240,7 +235,6 @@ privacy-info = Lubimy wam, z wašimi informacijemi starosćiwje wobchadźeć. Č
 return-to-cv = Wróćo k Common Voice
 email-input =
     .label = E-mejlowa adresa
-submit-form-action = Wotpósłać
 loading = Čita so…
 email-opt-in-info = Bych rady mejlki přijał, kaž na přikład cilowe dopomnjeća, postupowe aktualizacije a powěsćowe listy wo Common Voice.
 email-opt-in-info-title = Abonujće rozsyłansku lisćinu Common Voice
@@ -251,7 +245,7 @@ not-available-abbreviation = Ničo k dispoziciji
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Trjebamy</mark><br/><mark>wašu pomoc!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Płaći na jedyn milion dolarow wob lěto, zo bychmy datowe sadźby hospodowali a platformu za wjace hač 100 rěčnych zhromadźenstwow polěpšowali, kotrež so na to spušćeja, štož činimy. <strong>Jeli sej wotewrjene, inkluziwne daty wažiće – darće dźensa!</strong>
