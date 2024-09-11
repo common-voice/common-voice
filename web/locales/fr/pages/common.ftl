@@ -4,6 +4,7 @@
 
 ## Languages
 
+aa = Afar
 ab = Abkhaze
 ace = Aceh
 ady = Adyguéen
@@ -215,12 +216,6 @@ zza = { "" }
 
 ## Layout
 
-speak = Parler
-speak-now = Parler
-datasets = Jeux de données
-languages = Langues
-about = Qui sommes-nous
-partner = Devenir partenaire
 profile = Profil
 help = Aide
 contact = Nous contacter
@@ -240,7 +235,6 @@ privacy-info = Nous promettons de prendre soin de vos données. Apprenez-en dava
 return-to-cv = Retourner vers Common Voice
 email-input =
     .label = Adresse e-mail
-submit-form-action = Envoyer
 loading = Chargement…
 email-opt-in-info = J’aimerais recevoir des e-mails tels que des rappels d’objectifs, des rapports sur mes progrès et les lettres d’information de Common Voice.
 email-opt-in-info-title = Rejoignez la liste de diffusion Common Voice
@@ -251,7 +245,7 @@ not-available-abbreviation = Non disponible
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Nous avons besoin</mark><br/><mark>de votre aide !</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Héberger les jeux de données et améliorer la plateforme pour les plus de 100 communautés linguistiques qui font confiance à notre service coûte près d’un million de dollars par an. <strong>Si vous appréciez les données ouvertes et inclusives, faites un don aujourd’hui !</strong>
