@@ -3,6 +3,7 @@ action-tap = á bān və̄nə̀
 contribute = à dùm nyūŋ
 review = à pìal
 skip = à lɔ̄ɔ̄
+shortcuts = kìkbɛ̂
 clips-with-count-pluralized =
     { $count ->
         [one] ìpùs
