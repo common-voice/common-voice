@@ -32,7 +32,29 @@ sc-review-form-reviewed-message =
        *[other] Mbəbəban bifiɛ ngaŋ!
     }
 sc-review-form-review-failure = Mbəban o ndzi kig tɔbɔ wɔdiban, dzibigi tə man eban o dugan vəgələ.
-sc-review-link = A komo bəbə
+sc-review-link = Məsoan
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = Ndəm məsoan
+sc-criteria-title = Ndəm məsoan
+sc-criteria-make-sure = Bəban ngə efiɛ yatoban ai məsoan məndəm mana :
+sc-criteria-item-1 = Efya yayean bɔ ntiliban mbəŋ
+sc-criteria-item-2 = Efya yayean  toŋ akɔg məmvende
+sc-criteria-item-3 = Efya yayean toan a nlaŋaban
+sc-criteria-item-4 = Ngə efya ya e bəgə mədəm məsoan, banag a mbo nnom vom onə ntilan naa "Yəbəgə";
+sc-criteria-item-5-2 = Ngə efya bə kig məsoan məsoan məte, banag a mbo ngal  kpab "təbə", ngə so lodo.
+sc-criteria-item-6 = Ngə oman ya soan bifya bisə, vologo bya naa bi togan bifya bifə
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Səŋələ <icon></icon> ngə efya e nə nfalan mbəŋ
+sc-review-rules-title = Yə efya yabaala məvende
+sc-review-empty-state = Təgə fə ai efya ziŋ yabəbə nkɔbɔ wi
+report-sc-different-language = Nkɔbɔ mfə
+report-sc-different-language-detail = Efya e sə kig ntilan nkɔbɔ masoan
+sentences-fetch-error = Ndɔbi a kwi abog eyali bifya.
+review-error = Ndɔbi a kwi eyɔŋ e hə soan efya dzi.
+review-error-rate-limit-exceeded = Wa nnəman kə avol, nɔŋo man eban mi dugan laŋ mi bəbə fə na efya e nə mvɔi.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Bia toan soan esie
+sc-redirect-page-subtitle-1 = Ndzəŋə bifya a ntɔya a common voice, mi ntɔya dzam <writeURL> tili </writeURL> ngə a </writeURL> soan</writeURL> bifya vom te.
+sc-redirect-page-subtitle-2 = Silan bia minsili mian a <matrixLink> matrix </matrixLink>, <discourseLink>adzo</discourseLink> ngə aa <emailLink> avələ dina</emailLink>.

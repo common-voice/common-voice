@@ -9,7 +9,13 @@ clips-with-count-pluralized =
         [one] Ɓaare
        *[other] Ɓaare wɔ
     }
+goal-help-recording = Wɛr jɔŋre ɓɔ, Common Voice baa jag jɔŋre gɔ <goalPercentage></goalPercentage> maaga se de kaŋge ɓɛ pel nen siili mono { $goalValue } yããge ɓɛ !
 goal-help-validation = Wɛr jɔŋre ɓɔ, Common Voice baa jag jɔŋre gɔ <goalPercentage></goalPercentage> maaga se de kaŋge ɓɛ pel nen siili mono { $goalValue } yããge ɓɛ !
+contribute-more =
+    { $count ->
+        [one] { "" }
+       *[other] Prêt à faire { $count } de plus?
+    }
 speak-empty-state = Sra'ge wããre ma maŋge go de tawge ti wɛr jag ...
 no-sentences-for-variants = Mopa ga saɓlan ma ti wɛr jag ma ɓɔn jɔŋ gɔ de tawge ! Hayga a co we jag ɓɔ, ndɔ mbɔ de kããge ma coo ti ŋgel ma 'wuygiɓɛ ma ɓɔn maaga wããre ma de wɛr jag ma ɓɔn ma laa wɔ lɛ gɔ.
 speak-empty-state-cta = Ŋgaɓ sra'ge wããre ma ɓɔ lay
@@ -27,13 +33,11 @@ change-preferences = Coo doga à co jag ɓɔ nono
 
 ## Contribution Nav Items
 
-contribute-voice-collection-nav-header = ## Ti ɓɛ ma kluuri ma kayge wɔ no
 contribute-sentence-collection-nav-header = targe gẽẽge jar
 
 ## Reporting
 
 report = targe sra'ge wããre
-report-title = ## ʼwaage ɓay
 report-ask = Ɗee ɗuu
 report-offensive-language = Cɔŋge
 report-offensive-language-detail = Re mayse da' mo ti wããren la?
@@ -48,26 +52,20 @@ report-offensive-speech-detail = wããre no ga sra'ge ma po yaŋ wɔ ni de gali 
 report-other-comment =
     .placeholder = Wããre ma cee jiiri
 success = Saɓlaŋ gẽẽgen de ɗarge noga de wããre bay ho sugti ɓi
+continue = Seege de pel
 report-success = Ndalge
 
 ## Speak & Listen Shortcuts
 
-# Must be one letter that appears in the translated { skip } string.
-shortcut-skip = Jɔŋre seegɔ ti ŋgel ɓɛ
 
 ## Speak Shortcuts
 
-# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
-# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
-shortcut-record-toggle = Seege de pel
 shortcut-record-toggle-label = Baage wɛr wããren wɔ gɔ de cɔŋge
-shortcut-rerecord-toggle = ## Caageti jag geɗɛŋ ma Wããge & cɔ'sug
 shortcut-rerecord-toggle-label = a
-shortcut-discard-ongoing-recording = ## Caageti jag geɗɛŋ ma Wããge
 shortcut-discard-ongoing-recording-label = e
 shortcut-submit = Maŋne/Caa ne
+shortcut-submit-label = Cɔŋ ma de maŋgen wɔ lɛ
 request-language-text = Fɛr maŋ wããre no
-request-language-button = Échap
 
 ## Listen Shortcuts
 
@@ -75,23 +73,14 @@ request-language-button = Échap
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = Wii wɛr ne gẽẽge maaga de maŋgen wà
 shortcut-play-toggle-label = Kalge ni
-# Must be one letter that appears in the { vote-yes } string.
-# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
-shortcut-vote-yes = Cɔŋ ma de maŋgen wɔ lɛ
-# Must be one letter that appears in the { vote-no } string.
-# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
-shortcut-vote-no = Wɛr jag ɓɔn bay la ni wa ɗa?
 
 ## Validation criteria
 
 contribution-criteria-nav = ŋgaɓ jag po le hãy
-contribution-criteria-link = ## Caageti jag geɗɛŋ ma cɔ'sug
 contribution-criteria-page-title = p
 contribution-criteria-page-description = kaŋ na/ iine gɔ
 contribution-for-example = o
 contribution-misreadings-title = n
-contribution-misreadings-description = ## Faage ma yããge ɓɛ wɔ
-contribution-misreadings-description-extended-list-1 = Jag liŋgin wɔ
 contribution-misreadings-description-extended-list-2 = Da' wɛr ne kaygen wono
 contribution-misreadings-description-extended-list-3 = Wɛr kaygen wɔno
 contribution-misreadings-description-extended-list-4 = Fen maaga kaŋ sug ti ɓɛ ti maaga ndɔ de laa gẽẽge ma de maŋge cab no malan maaga ndɔ da wɛ ga ndɔ ya' ciŋ jag maaga gɔ de maŋgen mono!
