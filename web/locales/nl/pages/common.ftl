@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = Afar
 ab = Abchazisch
+abb = Bankon
 ace = Atjehs
 ady = Adygees
 af = Afrikaans
@@ -16,14 +18,25 @@ as = Assamees
 ast = Asturisch
 az = Azeri
 ba = Basjkiers
+bal = Balochi
 bas = Basaa
+bax = Bamun
+bba = Baatonum
+bbj = Ghomala
+bci = Baoule
 be = Wit-Russisch
+beb = Bamvele
+bfd = Bafut
 bg = Bulgaars
+bkm = Kom
 bm = Bambara
 bn = Bengaals
+bnm = Batanga
 bo = Tibetaans
 br = Bretons
+bri = Mokpwe
 bs = Bosnisch
+bum = Bulu
 bxr = Boerjatisch
 byv = Medumba
 ca = Catalaans
@@ -59,6 +72,7 @@ ga-IE = Iers
 gl = Galicisch
 gn = Guaraní
 gom = Goanees Konkani
+gos = Gronings
 gu-IN = Gujarati
 guc = Wayuunaiki
 ha = Hausa
@@ -215,12 +229,6 @@ zza = Zazaki
 
 ## Layout
 
-speak = Spreken
-speak-now = Nu spreken
-datasets = Gegevenssets
-languages = Talen
-about = Over ons
-partner = Partner worden
 profile = Profiel
 help = Help
 contact = Contact
@@ -240,7 +248,6 @@ privacy-info = We beloven uw gegevens met zorg te behandelen. Lees meer in onze 
 return-to-cv = Terug naar Common Voice
 email-input =
     .label = E-mailadres
-submit-form-action = Indienen
 loading = Laden…
 email-opt-in-info = Ik wil graag e-mailberichten zoals herinneringen aan doelstellingen, mijn voortgangsupdates en nieuwsbrieven over Common Voice ontvangen.
 email-opt-in-info-title = Meld u aan voor de Common Voice-mailinglijst
@@ -251,7 +258,7 @@ not-available-abbreviation = NB
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>We hebben</mark><br/><mark>uw hulp nodig!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Het kost bijna een miljoen dollar per jaar om de gegevenssets te hosten en het platform te verbeteren voor de meer dan 100 taalgemeenschappen die afhankelijk zijn van wat we doen. <strong>Als u open, inclusieve gegevens waardeert – doneer dan vandaag nog!</strong>
