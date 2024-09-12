@@ -1,3 +1,6 @@
+speak = ɔhɔò
+speak-now = hɔkòɔ ɛŋɛmbè
+speak-subtitle = ɛŋdɔ yɛnú nione
 record-cta = Lɔmə ɔtətəni
 record-platform-not-supported = Tɔ bàka yɔnàtɔ,bà yɔné boka yi bɔuel yéléba ətatɔ
 record-platform-not-supported-desktop = Amà sin mà bɔuel nɔfit ətà ɔmà malia mʉss:
@@ -36,3 +39,18 @@ review-delete-recordings = Nimeke  mɛtile
 review-terms = ɛbeken w3 Common voice,no loumin<termsLink>bikini ɔbeken</termsLink> na <privacyLink>magʉəl mɔbekən</privacyLink>
 terms-agree = Mé nà lɔmə
 terms-disagree = Mé nà kiŋɛ
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = tɔnà beŋù hɔli ɛloà yɛnu nioni ŋɔ nyindí ɔ mɔhɔ utumbininɛ
+why-donate = Yàtɛ ɔndɔ ɔɓàte
+add-information-button = Mɔ mɔtɛ mɛbɛnɔ
+continue-speaking-button = Atà tàbɔko, kakanà ɔbɔussi ɔhɔk
+thanks-for-voice-toast = tɔndɔ hɔli ɛlɔà mɔni mɛbɛnɔ
+first-cta-gender-select-default-option = Nɔ kɛndèna tɛ̀fe
+first-cta-gender-select-help-text =
+    .label = Neni nɔ fitiɛ ɔ buɛndɔ ɔtilike
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Tɔ nà rholi ɛlɔɛ̀ ɔlatanà ɔwɛta wɔ mɛnende
+already-have-an-account = Nɔ baka na nissiŋɛ <login> finɛ</login>
+create-profile-button = Kɔune Idɛntite
+# IMAGE TAGS
+img-alt-success-checkmark = Nɔ nà tɔmbuanè

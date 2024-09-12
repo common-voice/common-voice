@@ -35,6 +35,14 @@ change-preferences = Sɛndiɛ nyfɛnyí
 
 contribute-voice-collection-nav-header = ɔkɔta yè nioní
 contribute-sentence-collection-nav-header = ɔkɔta yè bɛtamba
+login-signup = Finɛ
+vote-yes = EÈ
+vote-no = Boò
+datasets = Hilibe
+languages = ɔhɔó
+about = Bɔkɔá
+partner = Bɛkindeni
+submit-form-action = iŋɛŋi
 
 ## Reporting
 

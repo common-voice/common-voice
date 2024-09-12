@@ -1,4 +1,5 @@
 listen = ɔwök
+listen-subtitle = ɔlɔ uluminɛ níone
 listen-instruction = { $actionType } <playIcon></playIcon>,metile maná bɛléakèŋa buɛss?
 listen-again-instruction = Bùoli buɛss !  <playIcon></playIcon>nɔ mɛnhò kokènɔ ikuíli nɔ lɛa ténɛmatɔ
 listen-3rd-time-instruction = Tɔmbatɔ ifendí <playIcon></playIcon>,nɔ kanane ɔ bussí
