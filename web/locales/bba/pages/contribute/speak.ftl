@@ -1,3 +1,6 @@
+speak = Bù gere
+speak-now = Bù  den gere
+speak-subtitle = A gari geruo
 record-cta = Bù gari mwaabu tore
 record-platform-not-supported = Bɛsɛn nuki yi sankira, domi ba ǹ ka gina bɛɛn woo kpĩa sɔmburu mɔ̀
 record-platform-not-supported-desktop = Sɔm yerun masinu yorutia (ɔɔdinatɛɛ) sɔɔ , i ko kpĩ i doke yen yè ya dãkuru yara
@@ -55,3 +58,5 @@ second-cta-header-text = Na siara yè i  ka man bɛɛn gari kã na mwa
 second-cta-subtitle-text = I woo kpĩan damba mɔ k:o?<login>Connexion</login>
 already-have-an-account = I yĩireru swĩiyo
 create-profile-button = Yè ya sɔ̃ssimɔ mɛ̀ ya wɛ̃ra
+# IMAGE TAGS
+img-alt-success-checkmark = Kaso ga wɛ̃ra
