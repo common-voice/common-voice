@@ -1,6 +1,5 @@
 import { AES, enc } from 'crypto-js'
 import * as passport from 'passport'
-const Auth0Strategy = require('passport-auth0')
 import { NextFunction, Request, Response } from 'express'
 const PromiseRouter = require('express-promise-router')
 import * as session from 'express-session'
@@ -10,6 +9,7 @@ import DB from './lib/model/db'
 import { earnBonus } from './lib/model/achievements'
 import { getConfig } from './config-helper'
 import { ChallengeTeamToken, ChallengeToken } from 'common'
+import { Issuer, Strategy } from 'openid-client'
 
 const {
   ENVIRONMENT,
@@ -19,7 +19,7 @@ const {
   MYSQLPASS,
   PROD,
   SECRET,
-  AUTH0: { DOMAIN, CLIENT_ID, CLIENT_SECRET },
+  FXA: { OP, CLIENT_ID, CLIENT_SECRET },
 } = getConfig()
 const CALLBACK_URL = '/callback'
 
@@ -52,56 +52,43 @@ passport.serializeUser((user: any, done: Function) => done(null, user))
 passport.deserializeUser((sessionUser: any, done: Function) =>
   done(null, sessionUser)
 )
-
-if (DOMAIN) {
-  Auth0Strategy.prototype.authorizationParams = function (options: any) {
-    var options = options || {}
-
-    const params: any = {}
-    if (options.connection && typeof options.connection === 'string') {
-      params.connection = options.connection
-    }
-    if (options.audience && typeof options.audience === 'string') {
-      params.audience = options.audience
-    }
-    params.account_verification = true
-
-    return params
+const getCallbackURL = (env: string): string => {
+  if (!['sandbox', 'stage', 'prod'].includes(env)) {
+    return CALLBACK_URL
   }
 
-  const strategy = new Auth0Strategy(
-    {
-      domain: DOMAIN,
-      clientID: CLIENT_ID,
-      clientSecret: CLIENT_SECRET,
-      callbackURL:
-        ((
-          {
-            stage: 'https://commonvoice.allizom.org',
-            prod: 'https://commonvoice.mozilla.org',
-            dev: 'https://dev.voice.mozit.cloud',
-            sandbox: 'https://sandbox.commonvoice.allizom.org',
-          } as any
-        )[ENVIRONMENT] || '') + CALLBACK_URL,
-      scope: 'openid email',
-    },
-    (
-      accessToken: any,
-      refreshToken: any,
-      extraParams: any,
-      profile: any,
-      done: any
-    ) => done(null, profile)
-  )
+  const BASE_URLS = {
+    stage: 'https://commonvoice.allizom.org',
+    prod: 'https://commonvoice.mozilla.org',
+    sandbox: 'https://sandbox.commonvoice.allizom.org',
+  } as any
 
-  passport.use(strategy)
+  return BASE_URLS[env] + CALLBACK_URL
+}
+if (OP) {
+  Issuer.discover('https://accounts.stage.mozaws.net').then(fxaIssuer => {
+    const client = new fxaIssuer.Client({
+      client_id: CLIENT_ID,
+      client_secret: CLIENT_SECRET,
+      redirect_uris: [getCallbackURL(ENVIRONMENT)],
+    })
+
+    const strategy = new Strategy(
+      { client: client },
+      (tokenSet: any, userInfo: any, done: any) => {
+        done(null, userInfo)
+      }
+    )
+
+    passport.use('FxA', strategy)
+  })
 } else {
-  console.log('No Auth0 configuration found')
+  console.log('No FxA configuration found')
 }
 
 router.get(
   CALLBACK_URL,
-  passport.authenticate('auth0', { failureRedirect: '/login' }),
+  passport.authenticate('FxA', { failureRedirect: '/login' }),
   async (request: Request, response: Response) => {
     const {
       user,
@@ -183,7 +170,7 @@ router.get('/login', (request: Request, response: Response) => {
     const refererUrl = new URL(headers.referer)
     locale = refererUrl.pathname.split('/')[1] || 'en'
   }
-  passport.authenticate('auth0', {
+  passport.authenticate('FxA', {
     state: AES.encrypt(
       JSON.stringify({
         locale,
