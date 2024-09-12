@@ -1,4 +1,5 @@
 listen = Lyssna
+listen-subtitle = Hjälp oss att validera röster
 listen-instruction = { $actionType }<playIcon></playIcon> var meningen uttalad korrekt?
 listen-again-instruction = Bra jobbat!<playIcon></playIcon> Lyssna igen när du är redo
 listen-3rd-time-instruction = Två färdiga, <playIcon></playIcon> bra jobbat!

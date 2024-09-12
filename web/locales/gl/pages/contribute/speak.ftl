@@ -1,3 +1,6 @@
+speak = Falar
+speak-now = Fale agora
+speak-subtitle = Doe a súa voz
 record-cta = Arrancar a gravación
 record-platform-not-supported = Desculpe, pero a súa plataforma non é compatible actualmente.
 record-platform-not-supported-desktop = En computadores de escritorio, pode colaborar descargando...

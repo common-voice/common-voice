@@ -215,12 +215,6 @@ zza = 扎扎语
 
 ## Layout
 
-speak = 说话
-speak-now = 开始朗读
-datasets = 数据集
-languages = 语言
-about = 关于我们
-partner = 合作伙伴
 profile = 用户资料
 help = 帮助
 contact = 联系我们
@@ -240,7 +234,6 @@ privacy-info = 我们承诺谨慎处理您的信息。您可以阅读我们的<p
 return-to-cv = 返回到 Common Voice 的主页
 email-input =
     .label = 邮箱
-submit-form-action = 提交
 loading = 加载中…
 email-opt-in-info = 我希望收到目标提醒、我的进度更新、新闻通讯等与 Common Voice 相关的邮件。
 email-opt-in-info-title = 加入 Common Voice 邮件列表
@@ -251,10 +244,10 @@ not-available-abbreviation = 不可用
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>我们需要</mark><br/><mark>您的帮助！</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
-donate-banner-cta-explanation = 每年托管数据集和为 100 多个依赖我们产品的语言社区改进平台需要花费将近一百万美元。 <strong>如果您也重视开放、包容的数据，那么今天就捐款吧</strong>
+donate-banner-cta-explanation = 为托管数据集，以及改善服务 100 余个语言社区的平台，我们每年需要支出约 100 万美元。我们的行动将支持这些语言社区的发展，<strong>如果您也珍视开放且包容的数据，请向我们捐款！</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>在用 Common Voice</mark><br/><mark>来做研究？</mark>
 languages-donate-banner-cta-explanation = Common Voice 的资金来自捐款和基金！我们热爱与学术界、民间社会和行业研究人员的合作。 Common Voice 可以免费使用，但通过基金支付平台改善和托管费用也会非常有帮助。

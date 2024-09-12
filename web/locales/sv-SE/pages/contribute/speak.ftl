@@ -1,3 +1,6 @@
+speak = Tala
+speak-now = Prata nu
+speak-subtitle = Donera din röst
 record-cta = Starta inspelning
 record-platform-not-supported = Vi är ledsna, min din plattform stöds inte för tillfället.
 record-platform-not-supported-desktop = På datorer, kan du ladda ner senaste:

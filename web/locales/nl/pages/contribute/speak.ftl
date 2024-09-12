@@ -1,3 +1,6 @@
+speak = Spreken
+speak-now = Nu spreken
+speak-subtitle = Doneer uw stem
 record-cta = Opname starten
 record-platform-not-supported = Sorry, maar uw platform wordt nog niet ondersteund.
 record-platform-not-supported-desktop = Op desktopcomputers kunt u de meest recente downloaden:

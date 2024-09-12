@@ -1,3 +1,6 @@
+speak = Rěčeć
+speak-now = Nětko rěčeć
+speak-subtitle = Darće swój hłós
 record-cta = Natočenje startować
 record-platform-not-supported = Je nam žel, ale waša platforma so tuchwilu njepodpěruje.
 record-platform-not-supported-desktop = Na desktopowych ličakach móžeće najnowšu wersiju sćahnyć:

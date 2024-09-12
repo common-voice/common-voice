@@ -41,6 +41,14 @@ change-preferences = Nastajenja změnić
 
 contribute-voice-collection-nav-header = Zběrka hłosow
 contribute-sentence-collection-nav-header = Zběrka sadow
+login-signup = Přizjewić/Registrować
+vote-yes = Haj
+vote-no = Ně
+datasets = Datowe sadźby
+languages = Rěče
+about = Wo
+partner = Partner
+submit-form-action = Wotpósłać
 
 ## Reporting
 

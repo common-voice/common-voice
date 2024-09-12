@@ -1,0 +1,61 @@
+record-cta = Stat rekodin
+record-platform-not-supported = Wi sori, yur platform no dey suport for naow.
+record-platform-not-supported-desktop = For desktop devices, yu fit kontribut by downloding…
+record-platform-not-supported-ios-non-safari =
+    "For iOS, abeg kontinu wit Safari to enable rekodin...
+     "
+record-must-allow-microphone = Yu must allow mikrofon akses.
+record-no-mic-found = No mikrofon found.
+record-error-too-short = Di rekodin too short.
+record-error-too-long = Di rekodin too long.
+record-error-too-quiet = Di rekodin too kwaiet.
+record-cancel = Kansel Re-rekodin
+record-instruction = { $actionType }<recordIcon></recordIcon> den rid di sentens aloud
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> wen yu don finish
+record-three-more-instruction = Three to go!
+record-again-instruction = Weldon!<recordIcon></recordIcon> Rekod di next klip,
+record-again-instruction2 = kontinio, rekod agen <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> las wan!
+review-tooltip = Revyu & re-rekod klips as yu dey go
+share-clip = Share yur klip
+share-common-voice = Share Common Voice
+review-instruction = Revyu & re-rekod clips if need be
+record-submit-tooltip = { $actionType } sobmit wen yu ready
+clips-uploaded = Clip don opload
+record-abort-title = Finish rekodin fest?
+record-abort-text = If yu waka now, yu go lose yur progress
+record-abort-submit = Sobmit clips
+record-abort-continue = Finish rekodin
+record-abort-delete = Exit & Delete clips
+review-aborted = Upload stop. Yu wan delete yur recordings?
+review-submit-title = Revyu  & Sobmit
+review-submit-msg = Tank yu fo rekodin! <lineBreak></lineBreak> Naow Revyu  an sobmit yur klips below.
+review-recording = Revyu
+review-rerecord = Re-rekod
+review-cancel = Kansel sobmishon
+review-keep-recordings = Kip di rekodins
+review-delete-recordings = Delete my rekodins
+review-terms = As yu de use Common Voice, yu agrii to awa  <termsLink>Terms</termsLink> an <privacyLink>Privacy Notice</privacyLink>
+terms-agree = I agrii
+terms-disagree = I no grii
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Tank yu for donetin yur voice klips!
+first-cta-subtitle-text = As yu tel os abwat yursef, yu go helep developers build mor inklusive teknolojì
+why-donate = Wetin mek yu dey ask ?
+why-donate-explanation-1 = Dis informéshon na optshonal - yu suppose add am only if yu feel komfortebl. Wen we release di dataset, we go hide ol personal infomeshon, an mek sho sey yur nem an email no dey konnekted to demografik infomeshon laik age or seks.
+why-donate-explanation-2 = For teknolojì to wok wel for evribodi, di data wey dey helep developers build teknolojì nid to reflect di diffrent kain pipol. For ekzample, if we no inklood eni spika wey get particular aksent, den di teknolojì no go wok wel for pipol wey get dat aksent. <learnMore>Lan mor abwat wetin mek metadata mata.</learnMore>
+add-information-button = Add informéshon
+continue-speaking-button = No tanks, kontinù to tok
+create-profile-text = Yu wan seiv yur informéshon? <createProfile>Kreat a profile</createProfile>
+thanks-for-voice-toast = Tank yu for yur voice informéshon
+thanks-for-voice-toast-error = An error happun wen yu dey sobmit yur voice informéshon
+first-cta-gender-select-default-option = Selekt wan optshon
+first-cta-gender-select-help-text =
+    .label = How yu go describ yur seks or jenda?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Tank yu for contributin yur voice!
+second-cta-subtitle-text = Wit a profile, yu fit keep trak of yur aktivity an konnekt wit community of voice data kontributos.
+already-have-an-account = Yu don get account? <login>Log-In</login>
+create-profile-button = Kreat a profile
+# IMAGE TAGS
+img-alt-success-checkmark = Suksess chekmark

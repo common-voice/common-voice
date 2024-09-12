@@ -33,6 +33,14 @@ change-preferences = Voorkeuren wijzigen
 
 contribute-voice-collection-nav-header = Spraakcollectie
 contribute-sentence-collection-nav-header = Zinnenverzameling
+login-signup = Aanmelden / Registreren
+vote-yes = Ja
+vote-no = Nee
+datasets = Gegevenssets
+languages = Talen
+about = Over
+partner = Partner worden
+submit-form-action = Indienen
 
 ## Reporting
 
