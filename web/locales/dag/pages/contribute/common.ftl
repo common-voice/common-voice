@@ -6,6 +6,10 @@ skip = Kpahiyaɣi
 shortcuts = Sojihi
 goal-help-recording = A sɔŋ Common Voice ka di paai <goalPercentage></goalPercentage> ti biɛɣukulo { $goalValue } yaabu nia!
 goal-help-validation = A sɔŋ Common Voice ka di paai <goalPercentage></goalPercentage> ti biɛɣukulo { $goalValue } zahimbu nia!
+contribute-more =
+    { $count ->
+       *[other] A niŋ nia ni a niŋ { $count } more?
+    }
 speak-empty-state = Ti lahi ka yɛltɔɣa ni ti yaai balli ŋɔ ni...
 no-sentences-for-variants = Di ni tooi niŋ ka a zuliya balli maa lahi ka yɛltɔɣa! A yi bɔra, a ni tooi taɣi a sɛtinsi ka di sɔŋ a ka nya yɛltɔɣ' shɛŋa a balli maa ni.
 speak-empty-state-cta = Pahimi yɛltɔɣa
