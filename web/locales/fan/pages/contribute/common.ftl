@@ -36,6 +36,13 @@ change-preferences = e bera fol
 contribute-voice-collection-nav-header = e koan mekiñ
 contribute-sentence-collection-nav-header = e koan bifiè
 login-signup = e ves
+vote-yes = yaa/ o'oho
+vote-no = ka'a/ ayè
+datasets = angos mefuèin /angos mefuè
+languages = minkôbô
+about = ajo é ti'i a / ajo te
+partner = e mor mia nye mia sèign / e mor mii nye mia sè
+submit-form-action = e lôm/ a lôm
 
 ## Reporting
 
