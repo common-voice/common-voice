@@ -6,6 +6,7 @@
 
 aa = Afar
 ab = Abkhaze
+abb = Bankon
 ace = Aceh
 ady = Adyguéen
 af = Afrikaans
@@ -16,8 +17,14 @@ arn = Mapuche
 as = Assamais
 ast = Asturien
 az = Azerbaïdjanais
+azz = Nahuatl des montagnes du Puebla
 ba = Bashkir
+bal = Baloutchi
 bas = Basaa
+bax = Bamoun
+bba = Bariba
+bbj = Ghomalaʼ
+bci = Baoulé
 be = Biélorusse
 bg = Bulgare
 bm = Bambara
