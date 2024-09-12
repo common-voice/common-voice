@@ -34,6 +34,14 @@ change-preferences = à sɛnsì ìmì wɔ̄ àtàm
 
 contribute-voice-collection-nav-header = à kɔ̄ŋàŋ mə̀kìŋ
 contribute-sentence-collection-nav-header = à kɔ̄ŋaŋ bìbùk
+login-signup = À də̄m ìtə/À tìlbəŋ ìtə
+vote-yes = ìhīŋ
+vote-no = Ǎyì
+datasets = Ǹsamā məpɔ̄
+languages = Bìlaŋì bìsê
+about = À sūū tə́
+partner = Mùt bìsə́ nguem
+submit-form-action = À lírì
 
 ## Reporting
 

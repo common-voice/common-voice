@@ -1,4 +1,5 @@
 listen = Voklánì
+listen-subtitle = Vɔ̄lanə bə̀s mə pùrì məkìŋ
 listen-instruction = { $actionType } <playlcon></playlcon> yə ìpūs tə inə nsɔ̄ŋɔ̄ŋ à məlɔ̄ɔ̄ ɛ
 listen-again-instruction = Abəŋ ìsé<playlcon></playlcon>
 listen-3rd-time-instruction = Ìliŋàŋ və bìbàà<playlcon></playcon>
