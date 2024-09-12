@@ -41,15 +41,21 @@ terms-agree = Mé nà lɔmə
 terms-disagree = Mé nà kiŋɛ
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = tɔnà beŋù hɔli ɛloà yɛnu nioni ŋɔ nyindí ɔ mɔhɔ utumbininɛ
+first-cta-subtitle-text = ɔwɛssɔù mɛbɛnɔu làkɛŋ, nɔ dɔ bàtàbɔn bà màssin hɔl
 why-donate = Yàtɛ ɔndɔ ɔɓàte
+why-donate-explanation-1 = mɛbɛnɔ màlet bà ŋà yɛk ŋɔ màtà ɛnɗi àkà ɔlɛ mɔuss tɔ ɗɔ mɛbɛnɔu lɔm nà bikiŋi. Ŋɔ lɛ kɔlɔm
+why-donate-explanation-2 = messiŋe kɛndaka muɛss ɛloɛ̀ bɛndɔ bekimɛ, mɛtile ɔwa bendɔ bà buɛli ɔwa bà ndɔ nyó ɛloà bɛndɔ biŋebiŋe. ɛsea , ata tɔlendo bɛndɔ bɔ rhö kɔnda na nioni na nifɛnd,ɔmoyè mɛssiŋe ndɔ bɛndɔ holl na yɛbu nioni. <learnMore> nyokɔ mieŋe ɛloà  bɛkoa bɛ messiŋ</learnMore>
 add-information-button = Mɔ mɔtɛ mɛbɛnɔ
 continue-speaking-button = Atà tàbɔko, kakanà ɔbɔussi ɔhɔk
+create-profile-text = à̀kà ŋɔ dɔ màtil tɛtɛŋi? <createProfile>Create profile</createProfile>
 thanks-for-voice-toast = tɔndɔ hɔli ɛlɔà mɔni mɛbɛnɔ
+thanks-for-voice-toast-error = àkà màssek ɓakà lɔm mà tɔn
 first-cta-gender-select-default-option = Nɔ kɛndèna tɛ̀fe
 first-cta-gender-select-help-text =
     .label = Neni nɔ fitiɛ ɔ buɛndɔ ɔtilike
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Tɔ nà rholi ɛlɔɛ̀ ɔlatanà ɔwɛta wɔ mɛnende
+second-cta-subtitle-text = ŋà bɔussi,ŋɔ ɗɛntàk biɔl ŋà bàssɔk ɔɓɔtàƴɛ bɔul
 already-have-an-account = Nɔ baka na nissiŋɛ <login> finɛ</login>
 create-profile-button = Kɔune Idɛntite
 # IMAGE TAGS
