@@ -147,3 +147,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink>हामी �
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Common Voice ले कसरी वित्तीय सहयोग पाउँछ?
+about-playbook-how-funded-content-1 = Common Voice Mozilla Foundation, US 501c3 को एउटा परियोजना हो। यस परियोजनालाई हाल <philantropicGrantLink>परोपकारी अनुदान</philantropicGrantLink>, र विश्वभरका मानिसहरूबाट चन्दाहरू द्वारा वित्त पोषित गरिएको छ।
