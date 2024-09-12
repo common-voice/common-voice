@@ -1,4 +1,5 @@
 listen = Écouter
+listen-subtitle = Aidez-nous à valider les échantillons vocaux
 listen-instruction = { $actionType } <playIcon></playIcon>, la phrase a-t-elle été correctement prononcée ?
 listen-again-instruction = Excellent travail ! <playIcon></playIcon> Écoutez à nouveau lorsque vous êtes prêt·e
 listen-3rd-time-instruction = Plus que deux <playIcon></playIcon>, continuez !
