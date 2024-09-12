@@ -36,6 +36,7 @@
     "mp3-duration": "^1.1.0",
     "mysql2": "3.9.8",
     "nodemailer": "6.9.14",
+    "openid-client": "^5.7.0",
     "passport": "0.6.0",
     "passport-auth0": "0.6.1",
     "rate-limiter-flexible": "2.4.2",
