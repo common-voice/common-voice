@@ -130,35 +130,38 @@ const setupRouter = async () => {
     }
   )
 
-  router.get('/login', (request: Request, response: Response) => {
-    const { headers, user, query } = request
-    let locale = 'en'
-    if (headers.referer) {
-      const refererUrl = new URL(headers.referer)
-      locale = refererUrl.pathname.split('/')[1] || 'en'
+  router.get(
+    '/login',
+    (request: Request, response: Response, next: NextFunction) => {
+      const { headers, user, query } = request
+      let locale = 'en'
+      if (headers.referer) {
+        const refererUrl = new URL(headers.referer)
+        locale = refererUrl.pathname.split('/')[1] || 'en'
+      }
+      passport.authenticate('FxA', {
+        state: AES.encrypt(
+          JSON.stringify({
+            locale,
+            ...(user && query.change_email !== undefined
+              ? {
+                  old_user: request.user,
+                  old_email: user.emails[0].value,
+                }
+              : {}),
+            redirect: query.redirect || null,
+            enrollment: {
+              challenge: query.challenge || null,
+              team: query.team || null,
+              invite: query.invite || null,
+              referer: query.referer || null,
+            },
+          }),
+          SECRET
+        ).toString(),
+      })(request, response, next)
     }
-    passport.authenticate('FxA', {
-      state: AES.encrypt(
-        JSON.stringify({
-          locale,
-          ...(user && query.change_email !== undefined
-            ? {
-                old_user: request.user,
-                old_email: user.emails[0].value,
-              }
-            : {}),
-          redirect: query.redirect || null,
-          enrollment: {
-            challenge: query.challenge || null,
-            team: query.team || null,
-            invite: query.invite || null,
-            referer: query.referer || null,
-          },
-        }),
-        SECRET
-      ).toString(),
-    } as any)(request, response)
-  })
+  )
 
   router.get('/logout', (request: Request, response: Response) => {
     response.clearCookie('connect.sid')
