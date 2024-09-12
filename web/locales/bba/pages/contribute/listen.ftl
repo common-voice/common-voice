@@ -1,4 +1,5 @@
 listen = Bù swa dakiDubu/ kɔnnɔ/ duu yeru
+listen-subtitle = I sun somiyo su ka gari yi wura
 listen-instruction = { $actionType } <playIcon></playIcon>, Ba gari yi gerua deedee ?
 listen-again-instruction = Sɔm buraru ! <playIcon></playIcon> I wure i swa daki ma i sɔɔru kpa
 listen-3rd-time-instruction = Ya yiru kere <playIcon></playIcon>, i wuswa do !

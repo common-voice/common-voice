@@ -1,3 +1,6 @@
+speak = Yɛlima
+speak-now = Yɛlimi pumpɔŋɔ
+speak-subtitle = Tohimi a kukɔli
 record-cta = Pilimi yaabu
 record-platform-not-supported = Ti niŋdi a gaafara, a dundɔŋ maa na bi tumdi kpe.
 record-platform-not-supported-desktop = A kɔmpiita zuɣu a ni tooi pahi ka di nyɛla a yɛn vooi li mi...

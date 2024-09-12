@@ -8,15 +8,15 @@ skip =
 shortcuts = Raccourcis
 clips-with-count-pluralized =
     { $count ->
-        [one] fat
-       *[other] fat
+        [one] <bold>{ $count }</bold> fat
+       *[other] <bold>{ $count }</bold> fat
     }
 goal-help-recording = afo ameenwam Common ʌoice adisịm<goalPercentage></goalPercentage>ndaha nnyịn { $goalValue } ke usen adibọi ikọ!{ $goalValue }
 goal-help-validation = afo ameenwam Common ʌoice adisịm<goalPercentage></goalPercentage>ndaha nnyịn{ $goalValue }ke usen adibọi ikọ!
 contribute-more =
     { $count ->
-        [one] beenñeidem adinam
-       *[other] more?
+        [one] { $count } amebeenñeidem adinam mfen?
+       *[other] { $count } amebeenñeidem adinam mfen?
     }
 speak-empty-state = udịmikọ akweeñe ikpọñ se isịn ke usem ami…
 no-sentences-for-variants = akemeido udịmikọ akweeñe ke mbiod usem mfo! akpedo ufọn, amekeme adikpuho ñkọọk mfo adikịt mme udịmikọ ke usem mfo.
@@ -37,6 +37,14 @@ change-preferences = kpuho se ekesio-akpa
 
 contribute-voice-collection-nav-header = ubọi uyo
 contribute-sentence-collection-nav-header = ubọi udịmikọ
+login-signup = Se connecter / S’inscrire
+vote-yes = ih
+vote-no = iyo
+datasets = eboho data
+languages = mme usem
+about = ke aban᷉a
+partner = nsan᷉a
+submit-form-action = nọ eka
 
 ## Reporting
 

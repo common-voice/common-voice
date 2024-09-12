@@ -1,4 +1,5 @@
 listen = Zii-aa
+listen-subtitle = Gbák yɛ mɛ ba o-tigɛr
 listen-instruction = { $actionType } <playIcon></playIcon>, tigɛr wen'i gbòó nɛ sàá̧ nde ?
 listen-again-instruction = Mgbák deetom ! <playIcon></playIcon> Zii woyo ŋgimbi n'ɛnɛ dúk dɔ̀ɔ̧́
 listen-3rd-time-instruction = Oe-aa nɛ yiitoo ɓɛɛ <playIcon></playIcon>, nɛ́-siti !

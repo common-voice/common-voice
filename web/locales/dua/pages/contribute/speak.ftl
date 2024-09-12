@@ -1,3 +1,6 @@
+speak = Tɔpɔ̂
+speak-now = Tɔpɔ̂ tatánu
+speak-subtitle = Bolá bisɔ́ ɗôy lɔ́ŋgɔ̄ na wonja
 record-cta = Ɓotéá jíŋgɛlɛ lá maɗôy
 record-platform-not-supported = Lakísɛ́ bisɔ́, eɓoló á m̀ɓóko mɔ́ŋgɔ̄ é sí pɔí ó sû.
 record-platform-not-supported-desktop = Ónyólá ɓewunjɛmabíɛ́ ɓá ndáɓo  á eɓoló, ɓolánɛ́ idiɓwan ísúká ó télɛ kálati.

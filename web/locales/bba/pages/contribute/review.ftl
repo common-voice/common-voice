@@ -11,6 +11,16 @@ sc-review-form-usage = I yĩire swaa gbi gawo nɔm geu gia  i ka gari wura. I g
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Mì ba koo yè wa  { $sentenceSource }.
+sc-review-form-button-reject = Bù yina
+sc-review-form-button-skip = bù wuswa da
+sc-review-form-button-approve = Bù wura
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = I ko kpĩ i maa ka gari kurubun gbɛba sɔmburu ko.{ sc-review-form-button-approve-shortcut } bù ka wura,{ sc-review-form-button-reject-shortcut } bù ka yina, { sc-review-form-button-skip-shortcut } bù ka wuswa da
 sc-review-form-button-submit =
     .submitText = Bù mɛɛribu sɔmbu kpe
 # Variables:
@@ -21,6 +31,7 @@ sc-review-form-reviewed-message =
         [one] Gari tia ba mɛɛra ba sɔnwa ! Na siara.
        *[other] Na gari mɛɛra na sɔnwa na siara !
     }
+sc-review-form-review-failure = Yè ba mɛɛra ba sɔnwa ya ǹ sinɛ. I maa koowo ǹ n sosi
 sc-review-link = Yaayasiabu
 
 ## REVIEW CRITERIA
@@ -45,3 +56,5 @@ review-error = Toraru ta dua saa yè ba gari  yi  mɛeɛribu wuremɔ
 review-error-rate-limit-exceeded = I sãuwa mi to. I wɛ̃ro piiko i ka gari yi gari i wure kpa i ka wa yì n sãa deedee
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Sa kɔsinu mɔ̀ nu dam mɔ
+sc-redirect-page-subtitle-1 = Gari mwaatia ya sĩimɔ ya dɔɔ gerutia gia. I ko den kpĩ i <writeURL> gari yore</revie wURL>  gari tia  mɔriabu gari gari gerutia sɔɔ
+sc-redirect-page-subtitle-2 = I sun gari bikio<matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> n kùn mɛ <emailLink>email</emailLink>

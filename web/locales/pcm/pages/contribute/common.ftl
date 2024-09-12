@@ -35,6 +35,14 @@ change-preferences = Chenj preferensis
 
 contribute-voice-collection-nav-header = Vois Kolekshon
 contribute-sentence-collection-nav-header = Sentens Kolekshon
+login-signup = Log In / Sign Up
+vote-yes = yes
+vote-no = No
+datasets = detaset
+languages = Langwejs
+about = abaaot
+partner = partna
+submit-form-action = sobmit
 
 ## Reporting
 

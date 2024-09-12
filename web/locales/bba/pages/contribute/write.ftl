@@ -13,6 +13,7 @@ sc-write-submit-confirm = Na siremɔ mɛ̀ gari yi  yi wãawa saman wunanɔn sw
 sc-review-write-title = Gari yirà na ko kpĩ n mɔrisia?
 new-sentence-rule-1 = <noCopyright> Ba ǹ tire yoron saria yinamɔ</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = N weenɛ barum yoraan saria  ya n sãawa deedee
+new-sentence-rule-3 = I  barum yoraan saria bura ka sɔmburu koowo
 new-sentence-rule-4 = N weenɛ garin yora ka garibun yĩirenu ( , .  ? : ) nu n sãa deedee
 new-sentence-rule-5 = geetinu ka yĩirenu nì nu sɛ̃ nu n kun wãa sɔɔ
 new-sentence-rule-6 = Barum gam yori yi n kun wãa sɔɔ

@@ -1,4 +1,5 @@
 listen = Vógōlō
+listen-subtitle = voligi bia yəbə kiŋ
 listen-instruction = Yi bə a toan fala efya?
 listen-again-instruction = Akia abəŋ esie! <playIcon></playIcon> Duganə vogolo
 listen-3rd-time-instruction = Elig ya ngab ebɛ <playIcon></playIcon>,kələg osu!

@@ -31,6 +31,14 @@ change-preferences = Túkwá njé é tɔ́ndɔ́ɓɛ́
 
 contribute-voice-collection-nav-header = Kɔtɛlɛ lá maɗôy
 contribute-sentence-collection-nav-header = Kɔtɛlɛ lá́ myembá má ɓwambo
+login-signup = íŋgéá
+vote-yes = ee
+vote-no = kɛ́m
+datasets = Ɓelóŋgísán
+languages = myambo
+about = Ónyólá
+partner = Ba mulóngwá
+submit-form-action = lómâ
 
 ## Reporting
 

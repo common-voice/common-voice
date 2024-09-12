@@ -1,4 +1,5 @@
 listen = wum
+listen-subtitle = Sɔŋmi ti ka ti zahim kukoya
 listen-instruction = { $actionType }<playIcon></playIcon>bɛ yɛli yɛltɔɣa maa viɛnyɛla?
 listen-again-instruction = Mbo!<playIcon></playIcon>̀ A yi niŋ shili a ni tooi lahi labi n-wum
 listen-3rd-time-instruction = Diba ayi na dɔni tiŋa, kuli gbubi ka di kpɛma <playIcon></playIcon>

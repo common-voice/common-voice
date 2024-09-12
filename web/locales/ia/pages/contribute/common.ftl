@@ -35,6 +35,14 @@ change-preferences = Cambiar preferentias…
 
 contribute-voice-collection-nav-header = Collection de voces
 contribute-sentence-collection-nav-header = Collection de phrases
+login-signup = Aperir session / Inscriber se
+vote-yes = Si
+vote-no = No
+datasets = Collection de datos
+languages = Linguas
+about = A proposito
+partner = Partner
+submit-form-action = Inviar
 
 ## Reporting
 

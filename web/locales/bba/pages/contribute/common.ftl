@@ -9,6 +9,13 @@ clips-with-count-pluralized =
         [one] Sukum/gari bɛɛru]
        *[other] [Sukum/gari bɛɛru]
     }
+goal-help-recording = I gari gerutia somi yù ka   <goalPercentage></goalPercentage>bɛsɛn  tɔ̃ru baateren yè sa naa gire { $goalValue } nɔma turi!
+goal-help-validation = I helped Common Voice dera yù ka  nɔma turi yè ya naa gire { $goalValue } tɔ̃ru baatere <goalPercentage></goalPercentage>
+contribute-more =
+    { $count ->
+        [one] Ya sɔɔru kpa yù ka ko n kere mɛ?
+       *[other] Ya sɔɔru kpa yù ka ko n kere mɛ?
+    }
 speak-empty-state = Sa ǹ maa gari mɔ sa ko sinasia barum mɛ sɔɔ
 no-sentences-for-variants = Bɛɛn bubaan gere  ya ko ya n gari  kɔmiɛwa! Ma i  kĩ, i ko kpĩ i yirikisin  yĩirenu ganu sɔmɛ  i ka gari gɛɛ sosi bɛɛn barum sɔɔ.  ,
 speak-empty-state-cta = I gari wɛ̃ɛyo
@@ -28,6 +35,14 @@ change-preferences = Bù kɔsi yè ba ràa kĩru bo
 
 contribute-voice-collection-nav-header = gɔ̃̀rusun nɔɔ mɛnnabu
 contribute-sentence-collection-nav-header = Garin nɔɔ mɛnnabu
+login-signup = Bù du woo kpĩa sɔɔ/ bù yĩsiru yore
+vote-yes = Oo
+vote-no = Aawo
+datasets = Gari yì ba mwa kpuro
+languages = Barum
+about = Baa ......
+partner = Gerunɔsi
+submit-form-action = Bù mɔrisia
 
 ## Reporting
 
@@ -113,6 +128,7 @@ contribution-misreadings-example-8-title = Kɔ̀kɔ̀ru ta wɛ̃ɛ tara
 contribution-misreadings-example-8-explanation = [ Yè ba yorua n n ye ba mwa]
 contribution-varying-pronunciations-title = Sokubu bu wunanɛ
 contribution-varying-pronunciations-description = I ka gari wĩa  yèn sɔ̃ i dokee  wì u garimɔ u gari yaraa soka kam kam, n kùn mɛ  bara sikanɛ  gabu, n kùn mɛ u ǹ bikiabun saria ka sɔmburu kue,  i daakari ko. Barum gerubu bu wunanɛ to yandunia sɔɔ,gerubu gabu wãa i ǹ ben bweseru nɔɔre bɛɛn bubaa sɔɔ. I de i n  daakari mɔ tɔn bẽ ba gari gerumɔ yi ǹ ka bɛɛn gere weenɛ. yen biru, ma i dokee mɛ̀ tire gario u ǹ  gari yaraa ye gerure,kpa u n kasu u yen sokubu seku, i win gere ye wĩ, i gari yi ba mwa mi derio. .Ma gari yi sika  mɔ, i gbɛba yè ba ra ka wuswa de sɔɔ.
+contribution-varying-pronunciations-description-extended = Yen biru, ma i dokee mɛ̀ yè ya gari ya ǹ gãasɔ gari yaraa ye waare, kpa ya n kasuu yù gari yaraa yen sokubu seku, , i yè yinɔ, ma i ǹ naanɛ  doke.i gari burebun gbɛba ka sɔmburu koowo
 contribution-varying-pronunciations-example-1-title = Kɛkɛ ya waagɔ̃ dabiru gawamɔ.
 contribution-varying-pronunciations-example-1-explanation = [Waagɔ̃n sokubu bu sãa deedee ,ma bɛɛ i nua faagɔ̃] , (FR) ou « Ouagon » (BE)]
 contribution-varying-pronunciations-example-2-title = Pɛ̃ɛ ka gum
@@ -121,6 +137,7 @@ contribution-background-noise-title = Sabe bakanu
 contribution-background-noise-description = N  weenɛwa bè ba ra barum gerubu ka mɛn yoraan sariaban sɔ̃ɔsiru  ko, ba n da kpĩ  bù damsu bwese bwesekan gari  wunanɛ. Baa damu sì sù n  boo, ba koo kpĩ bù  wura, ma  su ǹ faagin nɔɔbu yinasiamɔ.. I ko kpĩ i dwee soobu wura ma ba soomɔ tɛɛrum.. Adama ma ba soomɔ too too, ya ǹ koorɔ.
 contribution-background-noise-description-extended = Ma gari mwaabu bu kpiri kpirika sãa, n kùn mɛ bu n wɔkii, i wĩɔ ma n kùn mɔ faagi ya swaa swĩi.
 contribution-background-noise-example-1-fixed-title = <strong>[ Kɔ̃rɔnu ]</strong>Kɔ̀kɔ̀ bakanu <strong> [ tũuru ]</strong> kɔ̀kɔ̀ru.
+contribution-background-noise-example-2-fixed-title = Yɛɛ bɛkɛ<strong>[tũuru]</strong> kɔ̀kɔ̀nu
 contribution-background-noise-example-2-explanation = [Ba ǹ kpɛ̃ bù faagi yen kpuro nɔ]
 contribution-background-noise-example-3-fixed-title = <strong>[ wɔkinu ]</strong> sabe bakanu  <strong>-rias
 contribution-background-voices-title = Gɔ̃̀ru gè ga wɔkii

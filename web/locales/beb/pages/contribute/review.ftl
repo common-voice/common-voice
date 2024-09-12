@@ -1,5 +1,6 @@
 ## REVIEW
 
+sc-review-lang-not-selected = Wù tá tɔ̂ bìlaŋì bìpɔ̄k.À kɔ́kləŋ tə̀məŋ <profileLink> ìkìnə bìbùk bìɔŋ <profileLink> ō yɔ̀ŋ ìbì wɔ̄ avɔ̀yɔ̀ŋ
 sc-review-title = Â pìal bìpus
 sc-review-loading = Â lɔ̌nyì bìpus
 sc-review-select-language = Sâlanì ìlaŋì à mə pìal bìpus

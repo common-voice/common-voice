@@ -1,3 +1,6 @@
+speak = Parlar
+speak-now = Parla ora
+speak-subtitle = Dona tu voce
 record-cta = Initiar a registrar
 record-platform-not-supported = Nos lo regretta, ma tu platteforma non es actualmente supportate.
 record-platform-not-supported-desktop = Sur computatores de scriptorio tu pote discargar le ultime:

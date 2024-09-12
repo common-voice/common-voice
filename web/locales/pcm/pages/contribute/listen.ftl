@@ -1,4 +1,5 @@
 listen = Lisìn
+listen-subtitle = Hélépú ọsì validétì vọ́ìsì
 listen-instruction = { $actionType }<playIcon></playIcon>dem tok dì sentens wel?
 listen-again-instruction = Weldon!<playIcon></playIcon> Lisin agen wen yu redi.
 listen-3rd-time-instruction = 2 don pas, kontinu! <playIcon></playIcon>

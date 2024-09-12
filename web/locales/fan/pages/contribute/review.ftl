@@ -37,3 +37,24 @@ sc-review-link = e vé dissbera ba'ala
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ mendem m'ayé'é
+sc-criteria-title = mendem m'ayé'é
+sc-criteria-make-sure = koma fas nge nloñ bifiè o bele mendem ma toñ ma :
+sc-criteria-item-1 = nloñ bifiè wa yièna bo mbemba ntilan
+sc-criteria-item-2 = nloñ bifiè wa yièna bi mbemba atimi
+sc-criteria-item-3 = nloñ bifiè wa yiéna tuana lañban
+sc-criteria-item-4 = nge nloñ bifiè ô bele mendem mese, firi atuan "Yebe" mbô nnôm
+sc-criteria-item-5-2 = nge nloñ bifiè ô bele ki mendem mese, firi atuan "bene" mbô nga'a. nge wa soane, o ne dañ a ke nloñ wa toñ
+sc-criteria-item-6 = nge bifiè bife ya fas bi se; voloye bia njeñ bife
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = tuaneya fas<icon></icon> nge nloñ bifiè o ne mbemba nkoban
+sc-review-rules-title = ye nloñ bifiè wa sémé metiñ
+sc-review-empty-state = ka'a nloñ éfiè be ne fas nkobo wi
+report-sc-different-language = nkôbô ofe
+report-sc-different-language-detail = nloñ bifiè o ne ntilan nkobô ofe , sa'a éwi ma lañ
+sentences-fetch-error = ékop é ve yéné éyoñ ye nyoane bifiè
+review-error = ékop é ve yéné éyoñ bi ve koma tuana tili nloñ bifiè
+review-error-rate-limit-exceeded = wa ke édeda'a avo'o. nyoñ éyoñ ya bera lañ a yen nge nloñ bifiè o ne zôsô
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = bia tyen abui mam me ne a nfi
+sc-redirect-page-subtitle-1 = be ve tyèn été nyoñ bifiè, o ntôo ya étyimi Common Voice. O nto <writeURL> a tili <writeURL> nloñ bifiè ng'a </reviewURL> tuana fas </reviewURL> minloñ bifiè e Common Voice
+sc-redirect-page-subtitle-2 = siliyana biè minsili e <matrixLink> Matrix <matrixLink>,  <discourseLink> Discourse <discourseLink> nge ki </emailLink>. e-mail</emailLink>.

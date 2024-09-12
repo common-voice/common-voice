@@ -31,6 +31,14 @@ change-preferences = A pɛnti gwɛ̌m ígi mí də́ə́ɨ̄
 
 contribute-voice-collection-nav-header = ilati ahwɔ́ ábi bú heeki
 contribute-sentence-collection-nav-header = ilati ǹyampin mi bú heekí
+login-signup = Ó yîŋa
+vote-yes = Éē
+vote-no = Kɛ́m/Ôhō
+datasets = Dikálo mol
+languages = Ahwɔ́
+about = Ábóká/Áyo
+partner = Ahùŋin
+submit-form-action = A lóm
 
 ## Reporting
 

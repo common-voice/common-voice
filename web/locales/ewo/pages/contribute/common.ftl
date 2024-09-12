@@ -35,6 +35,14 @@ change-preferences = Atsende mimvananai mi yi ane
 
 contribute-voice-collection-nav-header = Etogan məkiŋ
 contribute-sentence-collection-nav-header = Etogan bifiɛ
+login-signup = Tiliban/Nyigi
+vote-yes = owe
+vote-no = təgɛ
+datasets = bifwe mə taŋ
+languages = Nkɔbɔ
+about = Edzam dzi li
+partner = Bəka
+submit-form-action = Lomog
 
 ## Reporting
 

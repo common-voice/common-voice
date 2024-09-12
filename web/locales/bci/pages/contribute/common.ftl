@@ -35,6 +35,14 @@ change-preferences = Kaki ninnge nga a klo be
 
 contribute-voice-collection-nav-header = Ndɛ be nun yilɛ
 contribute-sentence-collection-nav-header = Ndɛ mma be nun yilɛ
+login-signup = Wlu lɔ/klɛ ɔ dunman
+vote-yes = yô
+vote-no = Tchɛtchɛ
+datasets = nzɔliɛ like
+languages = aniɛn'n
+about = i su ndɛ’n
+partner = javuɛ
+submit-form-action = fa man
 
 ## Reporting
 
