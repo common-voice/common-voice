@@ -31,6 +31,14 @@ change-preferences = bádǝ̌ cû nǝ̀ ko
 
 contribute-voice-collection-nav-header = nǝ̀ lǔ' lá
 contribute-sentence-collection-nav-header = nǝ̀ lǔ' cúp
+login-signup = cú/kǐ
+vote-yes = ŋ̀
+vote-no = ŋgá
+datasets = mayɔ̂ nù
+languages = Nlɛ́n
+about = nǔ
+partner = shʉ́n
+submit-form-action = fá
 
 ## Reporting
 
