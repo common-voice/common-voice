@@ -1,4 +1,5 @@
 listen = Słuchać
+listen-subtitle = Pomhajće nam, hłosy wobkrućić
 listen-instruction = { $actionType } <playIcon></playIcon> je so sada korektnje wurjekowała?
 listen-again-instruction = Wulkotne dźěło! <playIcon></playIcon> Słuchajće znowa, hdyž sće hotowy
 listen-3rd-time-instruction = 2 sčinjenej, <playIcon></playIcon> dale tak!

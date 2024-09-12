@@ -1,3 +1,6 @@
+speak = ٻولو
+speak-now = ہُݨ ٻولو
+speak-subtitle = آپݨی آواز دان کرو
 record-cta = رکارڈنگ شروع کرو
 record-platform-not-supported = ساکوں افسوس ہے، فی الحال تہاݙا پلیٹ فارم سہارا تھیا کائنی۔
 record-platform-not-supported-desktop = ڈیسک ٹاپ کمپیوٹر تے تساں ڈاؤن لوڈ کرݨ نال ونگار ݙے سڳڈے ہو۔۔۔

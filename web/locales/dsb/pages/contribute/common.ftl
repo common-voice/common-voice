@@ -41,6 +41,14 @@ change-preferences = Nastajenja změniś
 
 contribute-voice-collection-nav-header = Zběrka głosow
 contribute-sentence-collection-nav-header = Zběrka sadow
+login-signup = Pśizjawiś/Registrěrowaś
+vote-yes = Jo
+vote-no = Ně
+datasets = Datowe sajźby
+languages = Rěcy
+about = Wó nas
+partner = Partnaŕ
+submit-form-action = Wótpósłaś
 
 ## Reporting
 

@@ -1,3 +1,6 @@
+speak = 说话
+speak-now = 开始朗读
+speak-subtitle = 捐出一段声音
 record-cta = 开始录音
 record-platform-not-supported = 很抱歉，尚不支持您的平台。
 record-platform-not-supported-desktop = 您可以在桌面电脑上下载最新内容：

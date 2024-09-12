@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = Afar
 ab = Abkhazo
+abb = Bankon
 ace = Achinés
 ady = Adigués
 af = Afrikaans
@@ -16,7 +18,10 @@ as = Assamés
 ast = Asturiano
 az = Acerbaixano
 ba = Baskir
+bal = Baluchi
 bas = Basaa
+bax = Bamum
+bba = Baatonum
 be = Belaruso
 bg = Búlgaro
 bm = Bambara
@@ -215,12 +220,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Fale
-speak-now = Fale agora
-datasets = Conxunto de datos
-languages = Idiomas
-about = Sobre nós
-partner = Fágase socio
 profile = Perfil
 help = Axuda
 contact = Contacto
@@ -240,7 +239,6 @@ privacy-info = Prometemos manexar a súa información con tino. Obteña máis in
 return-to-cv = Volver a Common Voice
 email-input =
     .label = Correo electrónico
-submit-form-action = Enviar
 loading = Cargando...
 email-opt-in-info = Gustaríame recibir correos para lembrar os obxectivos, actualizacións sobre o meu progreso e novas sobre Common Voice.
 email-opt-in-info-title = Unirse a lista de correo de Common Voice
@@ -251,7 +249,7 @@ not-available-abbreviation = N/D
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Precisamos</mark><br/><mark>da súa axuda!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Custa case un millón de dólares ao ano aloxar os conxuntos de datos e mellorar a plataforma para as máis de 100 comunidades lingüísticas que dependen do noso traballo. <strong>Se valora os datos abertos e inclusivos, faga unha doazón hoxe.</strong>

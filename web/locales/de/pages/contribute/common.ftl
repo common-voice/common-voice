@@ -33,6 +33,14 @@ change-preferences = Einstellungen ändern
 
 contribute-voice-collection-nav-header = Stimmensammlung
 contribute-sentence-collection-nav-header = Sätze sammeln
+login-signup = Anmelden / Registrieren
+vote-yes = Ja
+vote-no = Nein
+datasets = Datensätze
+languages = Sprachen
+about = Über
+partner = Partner
+submit-form-action = Absenden
 
 ## Reporting
 
@@ -143,4 +151,3 @@ contribution-just-unsure-title = Nur unsicher?
 contribution-just-unsure-description = Wenn Sie auf etwas stoßen, das diese Richtlinien nicht abdecken, stimmen Sie bitte nach bestem Wissen und Gewissen ab. Wenn Sie sich wirklich nicht entscheiden können, verwenden Sie die Überspringen-Schaltfläche und fahren Sie mit der nächsten Aufnahme fort.
 see-more = <chevron></chevron>Mehr anzeigen
 see-less = <chevron></chevron>Weniger anzeigen
-

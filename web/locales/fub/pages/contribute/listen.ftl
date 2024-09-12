@@ -8,3 +8,4 @@ listen-empty-state-variants = Haɗiima wolnde mooɗon walaa misaaluuji duuɗɗi 
 listen-loading-error = Min keɓaay misaalu rezistira  haa heɗitoo, Ponndite fahin ɓaawo
 listen-abort-title = timmine tabintinde misaaluuji
 listen-abort-cancel = Tokkoo tabintinde
+listen-abort-confirm = timmine tabintinde
