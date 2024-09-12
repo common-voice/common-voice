@@ -1,3 +1,6 @@
+speak = Tɔ̀ɔ́-wen
+speak-now = Tɔ̀ɔ́-wen kinii
+speak-subtitle = Há tigɛr'nɛ
 record-cta = Kúnaŋ baa-tigɛr
 record-platform-not-supported = Ɛɛ aka éa-ɗaŋmɔ, mɔ-kpɔk gbabeegara nú k'ɛnɛ tɛ yé zaŋ tom'ɛ hɔ́-gbàá é na.
 record-platform-not-supported-desktop = War ko o ordinatɛr-buro, ɛnɛ nyɛma baa/dee-téléchager mɔ nɛ gbòó ɓan-na'ɛ.
