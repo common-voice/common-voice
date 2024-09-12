@@ -1,4 +1,5 @@
 listen = سݨو
+listen-subtitle = آوازاں دی تصدیق کرݨ وچ ساݙی مدد کرو
 listen-instruction = { $actionType }<playIcon></playIcon> بھلا انہاں  جملہ درستی نال الایا؟
 listen-again-instruction = سوہݨا کم!<playIcon></playIcon> تساں تیار ہوو تاں ولدا سݨو
 listen-3rd-time-instruction = ٢ تھی ڳئے۔  شاباش جاری رکھو!<playIcon></playIcon>

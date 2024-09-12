@@ -37,6 +37,7 @@ change-preferences = ترجیحاں وٹاؤ
 
 contribute-voice-collection-nav-header = اوازاں دا مجموعہ
 contribute-sentence-collection-nav-header = فقریاں دا مجموعہ
+login-signup = لاگ ان/ سائن اپ
 vote-yes = جیا
 vote-no = کو
 datasets = ڈیٹا سیٹس
