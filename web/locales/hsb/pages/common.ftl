@@ -6,6 +6,7 @@
 
 aa = Afaršćina, Afar
 ab = Abchazišćina
+abb = Bankon
 ace = Ačehšćina
 ady = Adygišćina
 af = Afrikanšćina
