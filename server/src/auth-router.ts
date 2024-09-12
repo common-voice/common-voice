@@ -74,7 +74,7 @@ if (OP) {
     })
 
     const strategy = new Strategy(
-      { client: client },
+      { client: client, usePKCE: false },
       (tokenSet: any, userInfo: any, done: any) => {
         done(null, userInfo)
       }
