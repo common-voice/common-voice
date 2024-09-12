@@ -1,4 +1,5 @@
 listen = Heɗitaago
+listen-subtitle = wallu en tabbintingo rezistira
 listen-instruction = { $actionType } <playIcon></playIcon>, Ɓe njaŋgi jumlawol ngool booɗɗum na ?
 listen-again-instruction = booɗɗum  kuugal ma wooɗi  ! <playIcon></playIcon> To a taaskitoo, heɗitu fahin
 listen-3rd-time-instruction = Lutti ɗiɗi tan  <playIcon></playIcon>, tokkoo,taa darnu  !

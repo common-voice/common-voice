@@ -35,6 +35,14 @@ change-preferences = Sannjugo ko ɓurdi yiɗgo
 
 contribute-voice-collection-nav-header = Mooɓtol daande
 contribute-sentence-collection-nav-header = Mooɓtol jumlaaji
+login-signup = naate/Maɓɓitu konte maaɗa
+vote-yes = Jaɓi
+vote-no = Sali
+datasets = Mooɓtool  fuu
+languages = Bolle
+about = ko laarani
+partner = balloowo nder Kuuɗe
+submit-form-action = Nelde
 
 ## Reporting
 
