@@ -34,6 +34,14 @@ change-preferences = mambəɗaka yana moŋgov lele
 
 contribute-voice-collection-nav-header = magayakaba awazlaha
 contribute-sentence-collection-nav-header = magayakaba kwatar a
+login-signup = ɓəlamkal
+vote-yes = iye
+vote-no = iyas
+datasets = azlam oŋgo
+languages = mʉde
+about = aka
+partner = mbəre gwala
+submit-form-action = mavəlala
 
 ## Reporting
 

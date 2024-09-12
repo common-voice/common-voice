@@ -1,6 +1,6 @@
 listen = Dɨ dɨgho
-listen-subtitle = { $actionType } <playIcon></playIcon>, djɛɛ i məkanɨ i rɨ lə siesie?
-listen-instruction = Kɨsal kɨ rɔɔtɛɛ! <playIcon></playIcon> Ghogha tɨ u kɔnɨ
+listen-subtitle = Djɛɛ i məkanɨ i rɨ lə siesie?
+listen-instruction = { $actionType } Kɨsal kɨ rɔɔtɛɛ! <playIcon></playIcon> Ghogha tɨ u kɔnɨ
 listen-again-instruction = Lɔŋ bɨ bɛɛ<playIcon></playIcon>, kɛnɛ bɨ isu !
 listen-3rd-time-instruction = Lɔŋ bɨ bɛɛ<playIcon></playIcon>, kɛnɛ bɨ isu !
 listen-last-time-instruction = <playIcon></playIcon> las yɛ rɨ !

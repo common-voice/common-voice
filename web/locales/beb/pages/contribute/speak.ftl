@@ -1,3 +1,6 @@
+speak = Yɔ̀
+speak-now = Àwɔ̄l zì yɔ̄
+speak-subtitle = Və̀ kìŋ yɔ̄ŋ
 record-cta = Â təraŋ mə yɔ̄ŋ
 record-platform-not-supported = Bìzùkə ìpɛs yəlaŋ ìgəŋ tá yɔ̄ŋbəŋ
 record-platform-not-supported-desktop = Àmpâ mì ǹsìnə mətìl bəlì nə ngùla yɔ̄ŋ inyì mkwāmāt

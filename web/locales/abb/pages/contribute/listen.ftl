@@ -1,4 +1,5 @@
 listen = Foglɛ
+listen-subtitle = Woŋwa ɓěs i iɓāksɛ̀gɛ̀ di kiŋ
 listen-instruction = { $actionType } <playIcon></playIcon>, Ŋ̀kòobyaà mu wɛŋa lam ì ?
 listen-again-instruction = Ŋ̀sɔn mulām! <playIcon></playIcon> Foglɛ ipɛpɛ̄ ɔ̂ ɔ̀ ma-ɓòŋsà
 listen-3rd-time-instruction = Mi ma-yēglɛ ndi maā <playIcon></playIcon>, kɛ̌ iɓasū !

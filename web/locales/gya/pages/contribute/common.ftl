@@ -35,6 +35,14 @@ change-preferences = Kpaia o mɔ̀ɔ́-kɔ̧nɛséè
 
 contribute-voice-collection-nav-header = Ndɛmba o tigɛr
 contribute-sentence-collection-nav-header = Ndɛmba o wen
+login-signup = Yee-aa
+vote-yes = Ii'i
+vote-no = Weyàá
+datasets = Zúdukwen
+languages = O-nú
+about = See-zú
+partner = Gbáma-yaritom
+submit-form-action = Baawen-éti-wi
 
 ## Reporting
 

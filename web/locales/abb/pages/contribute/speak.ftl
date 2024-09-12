@@ -1,3 +1,6 @@
+speak = Kwalak
+speak-now = Kwaa latatàla
+speak-subtitle = Ɓɔ̌ŋ kiŋ yɔ̌ŋ
 record-cta = Ɓɔ̀ta ìdimsàk
 record-platform-not-supported = Làksɛ son, siŋgà yɔŋ ì tǎŋ lēm i mapɛ̀n
 record-platform-not-supported-desktop = Inyū kɔ̀mputa yi ɔfis, ɔ̀ lɔ lɛgɛ. i ǹsiŋgà ilā ɓa pɔŋɔ àmi miyee  :

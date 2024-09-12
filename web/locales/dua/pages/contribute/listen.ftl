@@ -1,4 +1,5 @@
 listen = seŋgâ
+listen-subtitle = Oŋgwánɛ́ bisɔ́ ó jěmea ɗôy
 listen-instruction = { $actionType } <playIcon></playIcon>, o pásɛ́lɛ mwembá mwá ɓwambo ɓwǎm̀?
 listen-again-instruction = Eɓoló á ɓwǎm̀ jǐta ! <playIcon></playIcon> Ɓátá seŋga kɛ́ o á ɓɛɓɛ
 listen-3rd-time-instruction = Búka na  <playIcon></playIcon> íɓaá, alá ó ɓosó !

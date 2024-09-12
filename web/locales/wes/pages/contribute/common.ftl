@@ -13,8 +13,8 @@ goal-help-recording = You don helep Common Voice meetup wa  <goalPercentage></go
 goal-help-validation = You don helep Common Voice meetup wa  <goalPercentage></goalPercentage> wa everyday everyday { $goalValue } correct want dem!
 contribute-more =
     { $count ->
-        [one] { "" }
-       *[other] pret a faire { $count } plus?
+        [one] All tin dey set { $count } more?
+       *[other] All tin dey set { $count } more?
     }
 speak-empty-state = We no still get sentence dem for tape am for this country tok
 no-sentences-for-variants = Sometime side for ya country tok no still dey again! If you like am, you fit change ya setting dem for see other sentence dem for ya country tok.

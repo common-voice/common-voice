@@ -1,3 +1,6 @@
+speak = cúp
+speak-now = cúp ndɔ̌
+speak-subtitle = fá yù lá ndɔ̌
 record-cta = tú'dǝ́ nǝ̀ lǝ̌mǝ́
 record-platform-not-supported = shúsí ǝ́k zì' jʉ̌' fǎ' gǝ̀ yɔ̌ŋ gǝ̄ zîn
 record-platform-not-supported-desktop = nǔ shû fǎ', bí fít nǝ̀ rǝ̌ zǝ̄ bū yɔ̂nǝ́ nàptǝ̌

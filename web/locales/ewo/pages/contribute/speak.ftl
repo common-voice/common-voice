@@ -1,3 +1,6 @@
+speak = dzo
+speak-now = Dzo etɔ dzi
+speak-subtitle = Vaag kiŋ dzoe
 record-cta = Tadigi ewɔdi
 record-platform-not-supported = Bidzuga, abaa esie daan a ngənə a ngomozan.
 record-platform-not-supported-desktop = Asu bəminsina ya bəwofis, mi nə dzam wɔdi etie ebinə nyuman…

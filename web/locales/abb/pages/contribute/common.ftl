@@ -35,6 +35,14 @@ change-preferences = Fèŋsa cɛ̄ ki ɔ dìŋi
 
 contribute-voice-collection-nav-header = Ìyɔŋgɔk di kiŋ
 contribute-sentence-collection-nav-header = Ìyɔŋgɔ̀k di mikòobyaà
+login-signup = Tèŋew / Cììsɛ jǒ
+vote-yes = Eē
+vote-no = Kɛm
+datasets = Bìsala
+languages = Mbɔs
+about = Ìtɛɛkɛ̀k di la
+partner = Peà
+submit-form-action = Wɔmɔk
 
 ## Reporting
 

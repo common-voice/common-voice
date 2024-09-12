@@ -4,6 +4,11 @@ contribute = Tohi
 review = Labi vihi
 skip = Kpahiyaɣi
 shortcuts = Sojihi
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> kukoli
+       *[other] <bold>{ $count }</bold> kukoya
+    }
 goal-help-recording = A sɔŋ Common Voice ka di paai <goalPercentage></goalPercentage> ti biɛɣukulo { $goalValue } yaabu nia!
 goal-help-validation = A sɔŋ Common Voice ka di paai <goalPercentage></goalPercentage> ti biɛɣukulo { $goalValue } zahimbu nia!
 contribute-more =
@@ -29,6 +34,14 @@ change-preferences = Taɣimi a ni bɔri shɛli
 
 contribute-voice-collection-nav-header = Kukoya deebu
 contribute-sentence-collection-nav-header = Yɛltɔɣa deebu
+login-signup = Kpɛma/Yooma
+vote-yes = iin
+vote-no = aayi
+datasets = Yɛligbahira
+languages = Bala
+about = Zaŋ kpa
+partner = Kpee
+submit-form-action = Zaŋ tahi
 
 ## Reporting
 
@@ -116,7 +129,9 @@ contribution-varying-pronunciations-title = Bɔlibu din wali
 contribution-varying-pronunciations-description = Di tu ni a niŋ siɣa pɔi ka naanyi zaɣisi kukoli ka di nyɛla a tɛhimi ni ŋun karindi maa bɔlila bachi gabi, o yee bi doli bachinima viɛnyɛla bee o bi bahila bɔhigu bia. Niriba ni booni binyɛra shɛm galisiya pam dunia yaaŋa zuɣu, di shɛŋa beni ka a na ʒi n-wum li a yaɣili. Dim suɣulo ka niŋ nintiɣili ni ninvuɣ' shɛba ban yɛltɔɣa be di ko che a dini.
 contribution-varying-pronunciations-description-extended = Din pahi, a yi tɛhi ni ŋun karindi maa na ʒi n-nya bachi maa, ka di zuɣu che ka o gabiri booni li, dimsuɣulo ka zaɣisi li. A mi nini yi bi tiɣi, nyin dihimi kpahiyaɣi garili maa.
 contribution-varying-pronunciations-example-1-title = O pilila zupiligu
+contribution-varying-pronunciations-example-1-explanation = ['Bɛrɛti' saɣiya, di yi bɔlimi ka tuuli bachijilli n-ʒiri yee (UK) bee bachijilli din pahi ayi maa n-yi ʒiri yee]
 contribution-varying-pronunciations-example-2-title = O bɔɣu daa wuɣimi.
+contribution-varying-pronunciations-example-2-explanation = [Silimiinsili bɛ boonila 'Raised' ka di nyɛ bachijili yini, pa diba ayi]
 contribution-background-noise-title = Kukoli ni Vuri
 contribution-background-noise-description = Ti bɔrimi ni maʒini bɔhimbu alogorimnima maa tooi deei vuri din be kukoli ni, hali gba ka ni tooi deei vuri din galisi ni tooi be di puuni din deei yi niŋ ka vuri maa bi che a ku tooi wum kukoli maa zaa. Binkumda din dii bi yɔri vuri pam gba ni tooi be di puuni; binkumda din galisi ka ni tooi che ka a ku tooi wum bachi kam din be di ni bi niŋ dede.
 contribution-background-noise-description-extended = Di yi niŋ ka kukoli maa ŋmaai, bee ka di ŋmaara, nin zaɣisim li, gbaai yihi la di zuɣu yi bi taɣi a ka che lahibali maa wumbu.

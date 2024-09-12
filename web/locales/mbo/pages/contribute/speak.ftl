@@ -1,3 +1,6 @@
+speak = Hɔ́wá
+speak-now = Hɔ́wá bɔ́nán
+speak-subtitle = Hɔ́wá ejɔŋ ehɔ́w
 record-cta = A buti itə́ti ihwɔ́ ósə́m tə̂
 record-platform-not-supported = Ní lasi sí, ú ḿmáátɛ́ ádyaní abú' a napi ósə́m tə̂
 record-platform-not-supported-desktop = Ni osə́mabɔ́ŋ ómí ndáp ǹshwɔ́n , ní pə́lɛ ni tə́l igí dʉmpɛ :

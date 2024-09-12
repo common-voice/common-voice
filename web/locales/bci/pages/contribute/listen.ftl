@@ -1,4 +1,5 @@
 listen = Sie wɔ su
+listen-subtitle = Uka e naan y’a nian ndɛ’m be su .
 listen-instruction = { $actionType } <playIcon></playIcon>, be boli ndɛ mma sɔ’n i kpa ?
 listen-again-instruction = Djuman kpa ! <playIcon></playIcon> Kɛ amun ko siesie amun wun’n, amun sie amun su ekun.
 listen-3rd-time-instruction = Be tra nɲɔn <playIcon></playIcon>, yo ekun !

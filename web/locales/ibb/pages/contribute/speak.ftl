@@ -1,3 +1,6 @@
+speak = tan᷉  ikọ
+speak-now = tan᷉  ikọ idahami
+speak-subtitle = nọ uyio mfo
 record-cta =  tọọñọ umuumuyo
 record-platform-not-supported =  mbọk kpe, ñkpọ mfo inieghe itie kaña
 record-platform-not-supported-desktop =  ke akebeifiọk adoohodo, amekeme aditịp nsịn ke adidʌt nsio...
