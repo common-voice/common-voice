@@ -1,3 +1,6 @@
+speak = Tok
+speak-now = Tok na
+speak-subtitle = Kukuma contribut yur vois.
 record-cta = Stat rekodin
 record-platform-not-supported = Wi sori, yur platform no dey suport for naow.
 record-platform-not-supported-desktop = For desktop devices, yu fit kontribut by downloding…
