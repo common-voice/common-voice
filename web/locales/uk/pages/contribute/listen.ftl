@@ -1,4 +1,5 @@
 listen = Слухати
+listen-subtitle = Допоможіть нам перевірити голосові записи
 listen-instruction = { $actionType }<playIcon></playIcon> для перевірки правильності озвученого речення?
 listen-again-instruction = Чудова робота! <playIcon></playIcon> Прослухайте знову коли будете готові
 listen-3rd-time-instruction = Залишилось 2 <playIcon></playIcon>, продовжуйте!

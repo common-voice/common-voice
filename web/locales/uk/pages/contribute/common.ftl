@@ -34,6 +34,14 @@ change-preferences = Змінити налаштування
 
 contribute-voice-collection-nav-header = Збірка голосів
 contribute-sentence-collection-nav-header = Збірка речень
+login-signup = Увійти / Зареєструватися
+vote-yes = Так
+vote-no = Ні
+datasets = Набори даних
+languages = Мови
+about = Про
+partner = Партнер
+submit-form-action = Надіслати
 
 ## Reporting
 
