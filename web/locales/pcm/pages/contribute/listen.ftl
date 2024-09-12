@@ -1,0 +1,11 @@
+listen = Lisìn
+listen-instruction = { $actionType }<playIcon></playIcon>dem tok dì sentens wel?
+listen-again-instruction = Weldon!<playIcon></playIcon> Lisin agen wen yu redi.
+listen-3rd-time-instruction = 2 don pas, kontinu! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon>Las wan!
+listen-empty-state = Wi fit don finish dì klips - rifresh di pej, or trai leta.
+listen-empty-state-variants = Yu fit don ron aot of klips for dis langwej veyriant! If yu de komfotabul, yu fit chenj yur setings mek yu si oda sentens for yur langwej
+listen-loading-error = Wi no fit get eni odio klips for yu to lisin to. Abeg tray agen leta
+listen-abort-title = Finish validetin klips?
+listen-abort-cancel = Kontinu to validet
+listen-abort-confirm = Finish validetin
