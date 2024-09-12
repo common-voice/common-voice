@@ -10,6 +10,7 @@ clips-with-count-pluralized =
        *[other] [Sukum/gari bɛɛru]
     }
 goal-help-recording = I gari gerutia somi yù ka   <goalPercentage></goalPercentage>bɛsɛn  tɔ̃ru baateren yè sa naa gire { $goalValue } nɔma turi!
+goal-help-validation = I helped Common Voice dera yù ka  nɔma turi yè ya naa gire { $goalValue } tɔ̃ru baatere <goalPercentage></goalPercentage>
 contribute-more =
     { $count ->
         [one] Ya sɔɔru kpa yù ka ko n kere mɛ?
