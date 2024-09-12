@@ -1,3 +1,6 @@
+speak = mʉde
+speak-now = mʉde naka naka
+speak-subtitle = vəlam ava awazlaha
 record-cta = mapafaŋava ava makəsa awazlaha aŋatandzaba koŋgovom mafarakala mʉde aka eɗe henne ana tineveré a dəraw aŋa ava henne da ma, cəkœm <emailFragment>commonvoice@mozilla.com</emailFragment>
 record-platform-not-supported = shemənilkelire, aslam yaka amaɗ gukwəle ene makəsakabá aŋa dzeka da
 record-platform-not-supported-desktop = aga eɗe ya mapakalara ga nasara ya aslam etew gatala ma, kezemire yana aslara nakanaka aka amaɗ a
