@@ -225,30 +225,32 @@ export async function authMiddleware(
     )
     if (accountClientId) {
       request.client_id = accountClientId
-      next()
-      return
+      return next()
     }
   }
 
   const [authType, credentials] = (request.header('Authorization') || '').split(
     ' '
   )
-  if (authType === 'Basic') {
-    const [client_id, auth_token] = Buffer.from(credentials, 'base64')
-      .toString()
-      .split(':')
-    if (await UserClient.hasSSO(client_id)) {
-      response.sendStatus(401)
-      return
-    } else {
-      const verified = await db.createOrVerifyUserClient(client_id, auth_token)
-      if (!verified) {
-        response.sendStatus(401)
-        return
-      }
-    }
-    request.client_id = client_id
+
+  if (authType !== 'Basic') {
+    return next()
   }
 
-  next()
+  const [client_id, auth_token] = Buffer.from(credentials, 'base64')
+    .toString()
+    .split(':')
+
+  if (await UserClient.hasSSO(client_id)) {
+    return response.sendStatus(401)
+  } else {
+    const verified = await db.createOrVerifyUserClient(client_id, auth_token)
+    if (!verified) {
+      return response.sendStatus(401)
+    }
+  }
+
+  request.client_id = client_id
+
+  return next()
 }
