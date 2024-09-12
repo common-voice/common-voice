@@ -30,6 +30,7 @@ export type Settings = {
   until: string
   releaseName: string
   previousReleaseName?: string
+  languages: string[]
 }
 
 export type ProcessLocaleJob = Settings & {

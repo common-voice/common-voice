@@ -1,3 +1,6 @@
+speak = Powědaś
+speak-now = Něnto powědaś
+speak-subtitle = Pósććo swój głos
 record-cta = Nagraśe startowaś
 record-platform-not-supported = Jo nam luto, ale waša platforma se tuchylu njepódpěra.
 record-platform-not-supported-desktop = Na desktopowych licadłach móžośo nejnowšu wersiju ześěgnuś:

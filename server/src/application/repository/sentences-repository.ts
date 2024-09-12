@@ -119,6 +119,8 @@ const insertBulkSentencesTransaction = async (
 
   const conn = await mysql2.createConnection(db.getMysqlOptions())
 
+  const total = sentence_values.length
+  let progress = 0
   let start = 0
   let end = BATCH_SIZE
 
@@ -145,6 +147,9 @@ const insertBulkSentencesTransaction = async (
        `,
         [sentences_metadata_batch]
       )
+
+      progress += sentences_batch.length
+      console.log(`Progress: ${progress}/${total}`)
 
       start += BATCH_SIZE
       end += BATCH_SIZE

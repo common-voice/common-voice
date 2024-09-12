@@ -30,6 +30,7 @@ target-segment-generic-card = ለታለመው ክፍል አስተዋጽዖ እ�
 target-segment-first-banner = በ{ $locale } ውስጥ የጋራ ልሳንን የመጀመሪያ ዒላማ ክፍል ለመፍጠር ያግዙ
 target-segment-add-voice = ድምጽዎን ይጨምሩ
 target-segment-learn-more = ተጨማሪ ይወቁ
+change-preferences = ምርጫዎችን ይቀይሩ
 
 ## Contribution Nav Items
 

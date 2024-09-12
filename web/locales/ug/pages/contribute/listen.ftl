@@ -1,4 +1,5 @@
 listen = ئاڭلاي
+listen-subtitle = ئاۋازنى دەلىللەشكە ياردەملىشىڭ
 listen-instruction = { $actionType }<playIcon></playIcon>ئۇلار جۈملىنى توغرا سۆزلەپتىمۇ؟
 listen-again-instruction = يارايسىز! <playIcon></playIcon> تەييار بولغاندا قايتا ئاڭلاڭ
 listen-3rd-time-instruction = ئىككىسى تۈگىدى ، داۋاملاشتۇرۇڭ! <playIcon> </playIcon>

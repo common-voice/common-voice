@@ -1,3 +1,6 @@
+speak = سۆزلەي
+speak-now = سۆزلەڭ
+speak-subtitle = ئاۋازىڭىزنى ئىئانە قىلىڭ
 record-cta = ئۈنگە ئېلىشنى باشلا
 record-platform-not-supported = كەچۈرۈڭ ، سىزنىڭ سۇپىڭىزنى ھازىرچە قوللىمايدۇ.
 record-platform-not-supported-desktop = ئۈستەل يۈزى ئۈسكۈنىلىرىدە چۈشۈرۈش ئارقىلىق تۆھپە قوشالايسىز…

@@ -17,6 +17,7 @@ contribute-more =
        *[other] ٻئے { $count } کرݨ کیتے تیار ہو؟
     }
 speak-empty-state = ایں زبان وچ رکاڈ کرݨ کیتے ساݙے کول جملے مُک ڳئے ہن۔۔۔
+no-sentences-for-variants = تہاݙی زبان دا لہجہ جملیاں کنوں ٻاہر تھی سڳدے۔  جے تہاکوں سوکھ ہووے تاں تساں آپݨی زبان دے وچ ٻئے جملے ݙیکھݨ کیتے ترتیباں وٹا سڳدے ہو۔
 speak-empty-state-cta = فقرے پاؤ
 speak-loading-error =
     اساں تہاݙے ٻولݨ کیتے کوئی جملے کائنی گھن سڳے۔
@@ -36,6 +37,14 @@ change-preferences = ترجیحاں وٹاؤ
 
 contribute-voice-collection-nav-header = اوازاں دا مجموعہ
 contribute-sentence-collection-nav-header = فقریاں دا مجموعہ
+login-signup = لاگ ان/ سائن اپ
+vote-yes = جیا
+vote-no = کو
+datasets = ڈیٹا سیٹس
+languages = زباناں
+about = تعارف
+partner = بھائیوال
+submit-form-action = جمع کرواؤ
 
 ## Reporting
 

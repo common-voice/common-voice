@@ -24,13 +24,16 @@ export const AddBulkSentencesCommandHandler =
           'Domain (optional)': string
         }>(cmd.tsvFile)
       ),
+      TE.chainFirst(() => TE.right(console.log('Fetching user client email'))),
       TE.bind('clientId', () => fetchUserClientIdByEmail(cmd.email)),
+      TE.chainFirst(() => TE.right(console.log('Fetching sentence domains'))),
       TE.bind('domains', () =>
         pipe(
           fetchSentenceDomains(),
           TE.mapLeft(appErr => appErr.error)
         )
       ),
+      TE.chainFirst(() => TE.right(console.log('Mapping submission data'))),
       TE.map(({ sentences, clientId, domains }): SentenceSubmission[] =>
         sentences.map(submission => {
           let sub: SentenceSubmission = {
@@ -60,6 +63,7 @@ export const AddBulkSentencesCommandHandler =
           return sub
         })
       ),
+      TE.chainFirst(() => TE.right(console.log('Start inserting sentences ...'))),
       TE.chain(insertBulkSentences)
     )
   }

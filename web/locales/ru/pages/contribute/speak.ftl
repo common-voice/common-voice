@@ -1,3 +1,6 @@
+speak = Говорите
+speak-now = Говорите сейчас
+speak-subtitle = Пожертвуйте свой голос
 record-cta = Начните запись
 record-platform-not-supported = Нам жаль, в настоящее время ваша платформа не поддерживается.
 record-platform-not-supported-desktop = На настольных компьютерах, вы можете загрузить последний:

@@ -44,19 +44,19 @@ x-weeks-short =
     { $count ->
         [one] Тиждень
         [few] { $count } тижні
-       *[other] { $count } тижнів
+       *[many] { $count } тижнів
     }
 x-months-short =
     { $count ->
-        [one] Місяць
-        [few] { $count } місяці
-       *[other] { $count } місяців
+        [one] { $count } міс
+        [few] { $count } міс
+       *[many] { $count } міс
     }
 x-years-short =
     { $count ->
-        [one] Рік
-        [few] { $count } роки
-       *[other] { $count } років
+        [one] { $count } р
+        [few] { $count } р
+       *[many] { $count } р
     }
 help-make-dataset = Допоможіть нам створити високоякісний, публічно-відкритий набір даних
 sign-up-account = Зареєструвати обліковий запис

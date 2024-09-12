@@ -251,5 +251,7 @@ not-available-abbreviation = ሊገኝ የማይችል
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background. 
+donate-banner-cta = <mark>እኛ እንፈልጋለን</mark><br/><mark>የእርስዎን እገዛ!</mark>
 localization-select =
     .label = ቋንቋ/አካባቢን ምረጥ

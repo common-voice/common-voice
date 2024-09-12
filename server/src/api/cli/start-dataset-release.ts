@@ -8,6 +8,7 @@ type InitDatasetReleaseJob = {
   until: string
   releaseName: string
   previousReleaseName?: string
+  languages: string[]
 }
 
 const startDatasetRelease = async (args: any, options: any) => {
@@ -19,6 +20,7 @@ const startDatasetRelease = async (args: any, options: any) => {
       until: args.until,
       releaseName: args.releaseName,
       previousReleaseName: args.previousReleaseName,
+      languages: args.languages || [],
     })('init')({})
   )
 
@@ -47,6 +49,13 @@ program
   .requiredOption(
     '-r, --releaseName <name>',
     "Define the release name, usually in the shape of 'cv-corpus-15.0-{delta-}2023-10-19'"
+  )
+  .option(
+    '-l, --languages <language...>',
+    `
+    Optional list of languages to create a release for. Every other language will be ignored.
+    This option is useful if you want to create a release for only certain languages.
+    `
   )
   .option(
     '-p, --previousReleaseName <name>',

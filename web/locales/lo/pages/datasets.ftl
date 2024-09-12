@@ -18,10 +18,12 @@ validated-hr-total = ກວດ​ສອບ Hr. ທັງໝົດ
 overall-hr-total = ໂດຍລວມ Hr. ທັງໝົດ
 cv-license = ໃບອະນຸຍາດ
 audio-format = ຮູບແບບສຽງ
+dataset-splits = ແຍກ (ອາຍຸ ແລະ ເພດ)
 number-of-voices = ຈໍານວນສຽງ
 splits = ແຍກ
 email-to-download = ໃສ່ອີເມວເພື່ອດາວໂຫລດ
 why-email = <b>ເປັນຫຍັງຕ້ອງອີເມລ໌?</b> ພວກເຮົາອາດຈະຕ້ອງການຕິດຕໍ່ຫາທ່ານໃນອະນາຄົດກ່ຽວກັບການປ່ຽນແປງຊຸດຂໍ້ມູນ, ອີເມວຈະໃຫ້ຈຸດຕິດຕໍ່ກັບພວກເຮົາ.
+why-donate-datasets-page = Mozilla Common Voice ແມ່ນຊຸດຂໍ້ມູນການເວົ້າເປີດທີ່ຫຼາກຫຼາຍທີ່ສຸດໃນໂລກ - ແລະ ພວກເຮົາໄດ້ຮັບການບໍລິຈາກທັງໝົດ. ມັນມີມູນຄ່າເກືອບຫນຶ່ງລ້ານໂດລາຕໍ່ປີເພື່ອການຈັດເກັບຊຸດຂໍ້ມູນ ແລະ ປັບປຸງເວທີສໍາລັບຊຸມຊົນພາສາ 100+ ຜູ້ທີ່ອີງໃສ່ສິ່ງທີ່ພວກເຮົາເຮັດ. ຖ້າ​ຫາກ​ວ່າ​ທ່ານ​ມີ​ຄຸນ​ຄ່າ​ເປີດ​, ລວມ​ທັງ​ຂໍ້​ມູນ - <b>ບໍ​ລິ​ຈາກ​ມື້​ນີ້​!</b>
 confirm-size = ທ່ານກຽມພ້ອມທີ່ຈະເລີ່ມການດາວໂຫຼດ <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -40,6 +42,8 @@ subscribe = ຕິດຕາມ
 get-started-speech = ເລີ່ມຕົ້ນດ້ວຍການຮັບຮູ້ຄຳເວົ້າ
 other-datasets = ຊຸດຂໍ້ມູນສຽງອື່ນໆ
 feedback-q = ມີຄຳຕິຊົມບໍ?
+# This indicates that there is no data to display
+no-information = ບໍ່ມີຂໍ້ມູນ
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ເປັນ <docsLink>ຊຸດເຄື່ອງມືໂອເພນຊອດ</docsLink> ສໍາລັບນັກຄົ້ນຄວ້າພັດທະນາຮູບແບບ AI ການສົນທະນາທີ່ທັນສະໄໝ.
 resource-deepspeech-info = ເຄື່ອງຈັກຮັບຮູ້ສຽງແຫຼ່ງເປີດຂອງ Mozilla ສາມາດໃຊ້ Deep Speech ເພື່ອສ້າງແອັບພລິເຄຊັນການຮັບຮູ້ສຽງເວົ້າ. ອ່ານ <githubLink>ພາບລວມ Github</githubLink> ຂອງພວກເຮົາ ຫຼືເຂົ້າຮ່ວມ <discourseLink>DeepSpeech Discourse</discourseLink> ເພື່ອຮຽນຮູ້ວິທີເລີ່ມຕົ້ນ.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> ແມ່ນອຸທິດຕົນເພື່ອເທັກໂນໂລຍີການປາກເວົ້າເປີດ. ໂຄງ​ການ​ຂອງ​ເຂົາ​ເຈົ້າ​ປະ​ກອບ​ມີ​ການ​ຮຽນ​ຮູ້​ເລິກ​ໂດຍ​ອີງ​ໃສ່​ເຄື່ອງ​ຈັກ STT ແລະ TTS​.
@@ -62,9 +66,15 @@ dataset-version = ລູ້ນ​
 sha256-checksum-copied = SHA256 Checksum ຄັດລອກ!
 sha256-checksum-copied-error = ລົ້ມເຫລວໃນການສຳເນົາ SHA256 Checksum
 clipboard-not-supported = ບໍ່ຮອງຮັບຄລິບບອດ
+no-information-available = ບໍ່ມີຂໍ້ມູນ
 dataset-metadata-sex = ເພດ
 # dataset metadata - age of contributor
 dataset-metadata-age = ອາຍຸ
+donate-modal-message = ຊຸດຂໍ້ມູນຂອງທ່ານກຳລັງດາວໂຫຼດຢູ່!
+dataset-donate-modal-heading = ທ່ານຮູ້ບໍ່ວ່າ…
+donate-modal-explanation-1 = ມັນມີມູນຄ່າເກືອບຫນຶ່ງລ້ານໂດລາຕໍ່ປີເພື່ອເປັນການຈັດເກັບຊຸດຂໍ້ມູນ ແລະ ປັບປຸງເວທີສໍາລັບຊຸມຊົນພາສາ 100+ ໃຜເພິ່ງພາສິ່ງທີ່ພວກເຮົາເຮັດ?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>ຖ້າທ່ານໃຫ້ຄຸນຄ່າເປີດ, ລວມຂໍ້ມູນ - ບໍລິຈາກມື້ນີ້!</bold>
 data-download-singleword-title = ດາວໂຫຼດພາກສ່ວນເປົ້າໝາຍຄຳດຽວ
 data-download-singleword-callout-v2 = ນີ້ແມ່ນພາກສ່ວນທີ່ໃຊ້ໃນກໍລະນີຂັບເຄື່ອນທີ່ປະກອບດ້ວຍຂໍ້ມູນເພື່ອພະລັງງານການຮັບຮູ້ຕົວເລກທີ່ເວົ້າ ແລະການກວດຫາແມ່ນ/ບໍ່.
 data-download-button = ດາວໂຫລດຂໍ້ມູນ Common Voice
