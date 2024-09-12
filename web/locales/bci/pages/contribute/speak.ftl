@@ -1,3 +1,6 @@
+speak = oudjor
+speak-now = oudjor sien
+speak-subtitle = fa ô nin fa man mi
 record-cta = Bo fasie bo
 record-platform-not-supported = E yaki cɛ wɔ, sanngɛ ɔ idjɔlɛ lika’n ni a suanman bo.
 record-platform-not-supported-desktop = Ɔrdinatɛli su’n, a kwla fa sie su i uflɛuflɛ’n :
