@@ -1,3 +1,6 @@
+speak = ghàâ aa
+speak-now = ghàà tsɨ̂tsɔ̀ŋə̀
+speak-subtitle = fanjìyò ai
 record-cta = lɔ̀ghɨ̀nə̀ a ŋkô ɨ̀nnù
 record-platform-not-supported = bì'i jəŋntə̂, jaa bi aì adɨgə annǔ yo ya tsɨ̀tsɔŋ dɨɨ̀ntə̀
 record-platform-not-supported-desktop = m̀bə ò ku'ùsə̀ a mfi'isə a nɨ màsîn wâ...

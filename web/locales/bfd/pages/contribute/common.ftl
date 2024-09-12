@@ -35,6 +35,14 @@ change-preferences = kwisə ɨ̀nnù jìi bɨ lɔ̀ɔ̀ aà
 
 contribute-voice-collection-nav-header = m̀bòònsə̂ ǹjì
 contribute-sentence-collection-nav-header = m̀bòònsə̂ m̀ɨ̀kàŋ mɨ́ ɨ̀nnù
+login-signup = kuû/fɛ̀'ɛ̂
+vote-yes = ɨ̀ŋŋə̂.
+vote-no = kaa tsɨ'ɨ̀ kù'ùnə̂
+datasets = ɨ̀nnù
+languages = mɨ̀ghàà
+about = ǹloŋə
+partner = ŋù kòrə̂ghò
+submit-form-action = tsyàsə̂
 
 ## Reporting
 
