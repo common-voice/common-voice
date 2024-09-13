@@ -1,5 +1,4 @@
 import { option as O, taskEither as TE } from 'fp-ts'
-import * as A from 'fp-ts/Array'
 import { ApplicationError } from '../types/error'
 import { Variant } from '../../core/variants/variant'
 import { queryDb } from '../../infrastructure/db/mysql'
@@ -17,6 +16,20 @@ export type FindVariantsBySentenceIds = (
 export type FindVariantsBySentenceIdsResult = {
   [sentenceId: string]: O.Option<Variant>
 }
+
+export type FetchVariants = () => TE.TaskEither<ApplicationError, Variant[]>
+export const fetchVariantsFromDb: FetchVariants = () =>
+  pipe(
+    [],
+    queryDb(`
+      SELECT v.id, l.name as locale, variant_name as name, variant_token as tag FROM variants v
+      INNER JOIN locales l ON (l.id = v.locale_id)
+    `),
+    TE.map(([result]: Array<Variant[]>) => result),
+    TE.mapLeft((err: Error) =>
+      createDatabaseError('Error fetching variants', err)
+    )
+  )
 
 export const findVariantByTagInDb: FindVariantByTag = (variantName: string) =>
   pipe(

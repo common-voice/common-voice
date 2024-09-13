@@ -109,10 +109,21 @@ const insertBulkSentencesTransaction = async (
       submission.sentence,
       submission.source,
       submission.locale_id,
-      1,
-      1,
+      1, // is_used = 1
+      1, // is_validated = 1
     ])
-    sentence_metadata_values.push([sentenceId, submission.client_id])
+
+    const variant_id = pipe(
+      submission.variant_id,
+      O.getOrElse(() => null)
+    )
+
+    sentence_metadata_values.push([
+      sentenceId,
+      submission.client_id,
+      variant_id,
+    ])
+
     if (submission.domain_ids?.length > 0)
       sentence_domain_values.push([sentenceId, submission.domain_ids[0]])
   })
@@ -142,7 +153,7 @@ const insertBulkSentencesTransaction = async (
       )
       await conn.query(
         `
-          INSERT IGNORE INTO sentence_metadata(sentence_id, client_id)
+          INSERT IGNORE INTO sentence_metadata(sentence_id, client_id, variant_id)
           VALUES ?
        `,
         [sentences_metadata_batch]
@@ -411,7 +422,8 @@ export const findVariantSentences: FindVariantSentences = (
     )
   )
 export const saveSentenceInDb: SaveSentence = saveSentence(db)
-export const insertBulkSentencesIntoDb = insertBulkSentences(db)
+export const insertBulkSentencesIntoDb: InsertBulkSentences =
+  insertBulkSentences(db)
 export const insertSentenceVoteIntoDb = insertSentenceVote(db)
 export const findSentencesForReviewInDb: FindSentencesForReview =
   findSentencesForReview(db)
