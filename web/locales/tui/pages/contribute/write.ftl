@@ -3,6 +3,8 @@
 write = Yɛrge
 write-instruction = Ɓo' <icon></icon> wããre ma de maŋge se ŋgaɓa
 write-page-subtitle = Wããre ma de laage lan jɔŋge wɔ de sa'ge de jag liŋgi cc-0
+sentence =
+    .label = wããre jobo
 sentence-input-value = Yɛr wããre ɓɔ ma de maŋge se ŋgaɓan la
 citation-input-placeholder = Ŋgaɓ ŋgel maaga wããre alɛ ni (Sɛn diŋ dɔɔle)
 citation =

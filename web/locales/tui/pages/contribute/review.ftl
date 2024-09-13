@@ -1,10 +1,12 @@
 ## REVIEW
 
-sc-review-lang-not-selected = ## DOGGE NEN
+sc-review-lang-not-selected = Ndɔ bay de maŋ wɛr jag po wa. Kog faage ma kalge ti <profileLink>daŋte ɓɔ no</profileLink> ma maŋ wɛr jag wɔ
 sc-review-title = Ndɔ bay de maŋ wɛr jag po wa. Kog faage ma kalge ti <profileLink>daŋte ɓɔ no</profileLink> ma maŋ wɛr jag wɔ
 sc-review-loading = Kidgi wɛr wããre
 sc-review-select-language = Maŋ wɛr jag po bɔŋ ma kid wɛr ne wããren wɔ no.
 sc-review-no-sentences = Wããre po ma kid wɛr bay bɔŋ wà sɔ. Ndɔ mbo de kããge ma <addLink>laa wɛr wããre ni pur</addLink>.
+sc-review-form-prompt =
+    .message = Yɛrge maaga ndɔ frug nen ɓaara bay wɔ de ɓɔ'ge wa , ndɔ de da seege de pel?
 sc-review-form-usage = Srog ti ɓaŋ war ma yiŋgi jag de wããre no. Srog ti ɓaŋ gur maa dayge yiŋgi jag de wããre no.Srog wɔ ciŋ de dele ma hresge gɔ ti ɓɛ. <strong>Yõõti gɔ ti cɔŋge seele dogge nen jɔŋre ɓɔn gɔ wà !</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
@@ -19,13 +21,23 @@ sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = P
 sc-review-form-keyboard-usage-custom = Dɔ mbɔ de kããge ma jɔŋ jɔŋre de cargeti jag godogray mo dudgi yɛrgen wɔ sɔ  : { sc-review-form-button-approve-shortcut } ma yiŋ jag ti ɓɛ, { sc-review-form-button-reject-shortcut } ma ɓɔ'ge ɓɛ wɔ gɔ, { sc-review-form-button-skip-shortcut } ma seege gɔ
+sc-review-form-button-submit =
+    .submitText = Ɓɔ' jag frugi nen gɔ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Wããre ma de frug nen bay wà
+        [one] Wããre ma de frug. Susɛ'
+       *[other] Wããre ma de frug nen wɔ. Susɛ'
+    }
 sc-review-form-review-failure = Frugge nen wããren bay de maŋge ciŋ wa. Fɛr dogge ɓɛ blam kway
 sc-review-link = Dogge nen
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = ## JAG LIŊGIN MA FƐRGE DOGGE NEN WƆ
-sc-criteria-title = ⓘ Faage dogge nen wo
+sc-criteria-modal = ⓘ Faage dogge nen wo
+sc-criteria-title = Faage dogge nen wo
 sc-criteria-make-sure = Kaŋ gɔ ti ɓɔ ga wããre see wɔ diŋ de faage ma kay wɔ no:
 sc-criteria-item-1 = Wããren mo hay de yɛrge ti ŋgel keɗeɗ
 sc-criteria-item-2 = Ho sug jag liŋgi sra'ge wããren se kããra mo hay keɗed.

@@ -1,4 +1,5 @@
 listen = Co'ge sug
+listen-subtitle = Kay wùr yãã gẽẽgen  wɔ
 listen-instruction = { $actionType } <playIcon></playIcon>, Wããren mbɛ gɔ de jaŋge ma laage pah yawla ?
 listen-again-instruction = Jɔŋre ma wɔɔre ! <playIcon></playIcon> Fɛr co' sug ɓɛ hayga de yaŋ gɔ de 'wenege se ɓɛ no
 listen-3rd-time-instruction = Jɔŋre ma wɔɔre ! <playIcon></playIcon> Fɛr co' sug ɓɛ hayga de yaŋ gɔ de 'wenege se ɓɛ no

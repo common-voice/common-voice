@@ -33,11 +33,21 @@ change-preferences = Coo doga à co jag ɓɔ nono
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Targe gẽẽge
 contribute-sentence-collection-nav-header = targe gẽẽge jar
+login-signup = Kal ɓil/Caa daŋte
+vote-yes = A̧a̧
+vote-no = Baywà
+datasets = Boole wããre
+languages = Wɛr jag wɔ
+about = Wããre ma ti wùr
+partner = Je jɔŋre de wùr
+submit-form-action = Cɔŋ lɛ
 
 ## Reporting
 
 report = targe sra'ge wããre
+report-title = Cɔŋ 'wage ɓay lɛ
 report-ask = Ɗee ɗuu
 report-offensive-language = Cɔŋge
 report-offensive-language-detail = Re mayse da' mo ti wããren la?
@@ -57,15 +67,23 @@ report-success = Ndalge
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = a
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = e
 shortcut-record-toggle-label = Baage wɛr wããren wɔ gɔ de cɔŋge
+shortcut-rerecord-toggle = [bɔŋ-dwee]
 shortcut-rerecord-toggle-label = a
+shortcut-discard-ongoing-recording = Esc
 shortcut-discard-ongoing-recording-label = e
 shortcut-submit = Maŋne/Caa ne
 shortcut-submit-label = Cɔŋ ma de maŋgen wɔ lɛ
 request-language-text = Fɛr maŋ wããre no
+request-language-button = ŋgaɓ jag po le hãy
 
 ## Listen Shortcuts
 
@@ -73,14 +91,23 @@ request-language-text = Fɛr maŋ wããre no
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = Wii wɛr ne gẽẽge maaga de maŋgen wà
 shortcut-play-toggle-label = Kalge ni
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = o
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
 contribution-criteria-nav = ŋgaɓ jag po le hãy
+contribution-criteria-link = Da' wɛr ne kaygen wono
 contribution-criteria-page-title = p
 contribution-criteria-page-description = kaŋ na/ iine gɔ
 contribution-for-example = o
 contribution-misreadings-title = n
+contribution-misreadings-description = De maaga ndɔ de cɔ' sugi ,ko gɔ de wɔɔrɛ ga ma de maŋgen diŋ ma de yɛrgen . Cɛl wɛgɔ me' ne dan wa . <br/> Wɛr cɛlge maaga áyiŋ de ɓaara cɛɓ mono
+contribution-misreadings-description-extended-list-1 = Go de gwan diŋ <strong>« bɔŋ »</strong> noga <strong>« no »</strong> ti tĩĩgi wɛr maŋge gẽẽge no.
 contribution-misreadings-description-extended-list-2 = Da' wɛr ne kaygen wono
 contribution-misreadings-description-extended-list-3 = Wɛr kaygen wɔno
 contribution-misreadings-description-extended-list-4 = Fen maaga kaŋ sug ti ɓɛ ti maaga ndɔ de laa gẽẽge ma de maŋge cab no malan maaga ndɔ da wɛ ga ndɔ ya' ciŋ jag maaga gɔ de maŋgen mono!
