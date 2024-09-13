@@ -1,4 +1,5 @@
 listen = Dëgjoni
+listen-subtitle = Ndihmonani të vleftësojmë zëra
 listen-instruction = { $actionType }<playIcon></playIcon> e shqiptuan saktë frazën?
 listen-again-instruction = Punë e paqme!<playIcon></playIcon> Ridëgjojeni, kur të jeni gati
 listen-3rd-time-instruction = 2 më pak, vazhdoni kështu!<playIcon></playIcon>
