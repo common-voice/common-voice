@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = Afar
 ab = Abcaso
+abb = Bankon
 ace = Aceh
 ady = Adighè
 af = Afrikaans
