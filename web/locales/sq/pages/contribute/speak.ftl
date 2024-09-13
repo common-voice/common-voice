@@ -1,3 +1,6 @@
+speak = Flisni
+speak-now = Flisni tani
+speak-subtitle = Dhuroni zërin tuaj
 record-cta = Filloni incizimin
 record-platform-not-supported = Na ndjeni, por platforma juaj nuk mbulohet ende.
 record-platform-not-supported-desktop = Në kompjuter dekstop mund të shkarkoni versionin më të ri…

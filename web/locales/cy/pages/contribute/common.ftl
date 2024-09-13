@@ -37,6 +37,14 @@ change-preferences = Newid dewisiadau
 
 contribute-voice-collection-nav-header = Casglu Lleisiau
 contribute-sentence-collection-nav-header = Casglu Brawddegau
+login-signup = Mewngofnodi / Cofrestru
+vote-yes = Iawn
+vote-no = Na
+datasets = Setiau data
+languages = Iaith
+about = Ynghylch
+partner = Partner
+submit-form-action = Cyflwyno
 
 ## Reporting
 

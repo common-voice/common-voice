@@ -1,3 +1,6 @@
+speak = Озвучити
+speak-now = Говоріть
+speak-subtitle = Запишіть свій голос
 record-cta = Почати запис
 record-platform-not-supported = Шкода, але ваша платформа наразі не підтримується.
 record-platform-not-supported-desktop = На настільних комп'ютерах, ви можете завантажити найновіший:

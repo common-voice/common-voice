@@ -1,5 +1,6 @@
 import fs from 'node:fs'
 import { pipeline } from 'node:stream/promises'
+import { Transform } from 'node:stream'
 import path from 'node:path'
 
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
@@ -30,6 +31,19 @@ const logError = (err: unknown) => {
   return Error(String(err))
 }
 
+const replaceWhitespaces = () =>
+  new Transform({
+    transform(chunk: { sentence: string }, encoding, callback) {
+      const updatedClipRow = {
+        ...chunk,
+        sentence: chunk.sentence.replace(/\s/gi, ' '),
+      }
+
+      callback(null, updatedClipRow)
+    },
+    objectMode: true,
+  })
+
 const fetchSentences =
   (validated: boolean) => (releaseDirPath: string) => (locale: string) =>
     TE.tryCatch(async () => {
@@ -56,6 +70,7 @@ const fetchSentences =
 
       await pipeline(
         stream,
+        replaceWhitespaces(),
         stringify({ header: true, delimiter: '\t' }),
         writeStream,
       )

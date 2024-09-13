@@ -1,6 +1,7 @@
 ## WRITE PAGE
 
 write = Boroi
+new-sentence-rule-2 = Dor ek vakio chodan-chod 15 utrani asunk zai
 sentence-variant-select-label = Vakia'che Zaat
 
 ## BULK SUBMISSION 

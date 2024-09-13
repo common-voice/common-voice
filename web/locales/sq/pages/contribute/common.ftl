@@ -36,6 +36,14 @@ change-preferences = Ndryshoni parapëlqimet
 
 contribute-voice-collection-nav-header = Koleksion Zërash
 contribute-sentence-collection-nav-header = Grumbullim Frazash
+login-signup = Hyni / Regjistrohuni
+vote-yes = Po
+vote-no = Jo
+datasets = Grupe të dhënash
+languages = Gjuhë
+about = Mbi
+partner = Partner
+submit-form-action = Parashtroje
 
 ## Reporting
 

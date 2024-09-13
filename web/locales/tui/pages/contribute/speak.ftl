@@ -1,3 +1,6 @@
+speak = Wããge wããre
+speak-now = wãã ɓɔ patala tuseŋ
+speak-subtitle = Haa gẽẽge ɓɔ de koɗe
 record-cta = Ti̧i̧ wɛr maŋ gẽẽge
 record-platform-not-supported = Wur da wii mo ga, ŋgel ndalge ɓɔn bay de koge wà
 record-platform-not-supported-desktop = Ma mo ma' kɛftɛr ma ɓil tiŋ jɔŋre, maŋlɛ diŋ ma defay no:
@@ -48,6 +51,8 @@ create-profile-text = Ndɔ mbɔ de sãy ɗaw daŋte ɓɔn ciŋ ? <createProfile>
 thanks-for-voice-toast = Susɛ' wããre de wããge wããge no
 thanks-for-voice-toast-error = Taw maŋge ɓɛ gɔ ɗa ?
 first-cta-gender-select-default-option = Maŋ faage po bɔŋe
+first-cta-gender-select-help-text =
+    .label = Ndɔ daga ɗe mo ga ndɔ diŋ maa twãy noga ma twar yawla?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Ndɔ da ŋgaɓ wɛr na ŋgaɓge la
 second-cta-subtitle-text = Susɛ' ɓɔ ti maaga ndɔ haa gẽẽge ɓɔ ne wur de koɗ mono!
