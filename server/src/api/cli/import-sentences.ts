@@ -11,6 +11,7 @@ import { readTsvIntoMemory } from '../../infrastructure/parser/tsvParser'
 import { fetchUserClientIdByEmail } from '../../application/repository/user-repository'
 import { insertBulkSentencesIntoDb } from '../../application/repository/sentences-repository'
 import { fetchSentenceDomains } from '../../application/repository/domain-repository'
+import { fetchVariantsFromDb } from '../../application/repository/variant-repository'
 
 const importSentences = async (args: any, options: any) => {
   const config = getConfig()
@@ -31,6 +32,7 @@ const importSentences = async (args: any, options: any) => {
     Id.ap(readTsvIntoMemory),
     Id.ap(fetchUserClientIdByEmail),
     Id.ap(fetchSentenceDomains),
+    Id.ap(fetchVariantsFromDb),
     Id.ap(insertBulkSentencesIntoDb),
     Id.ap(cmd),
     TE.getOrElse(err => T.of(console.log(err)))
