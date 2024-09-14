@@ -53,6 +53,7 @@ cy = Gallese
 da = Danese
 dag = Dagbani
 dar = Dargwa
+dav = Kidaw'ida
 de = Germano
 dsb = Sorbio, basse
 dua = Duala
