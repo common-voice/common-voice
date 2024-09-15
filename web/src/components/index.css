@@ -13,12 +13,19 @@
     src: url('/font/icomoon.ttf');
 }
 
+
+@font-face {
+    font-family: Lama Sans;
+    src: url('/font/LamaSans-SemiBold.ttf');
+}
+
 *,
 *::before,
 *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lama Sans', sans-serif !important;
 }
 
 /* Zilla Slab has a limited glyph support range so switch to
