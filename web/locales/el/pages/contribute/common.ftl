@@ -37,6 +37,14 @@ change-preferences = Αλλαγή προτιμήσεων
 
 contribute-voice-collection-nav-header = Συλλογή φωνής
 contribute-sentence-collection-nav-header = Συλλογή προτάσεων
+login-signup = Σύνδεση/Εγγραφή
+vote-yes = Ναι
+vote-no = Όχι
+datasets = Σύνολα δεδομένων
+languages = Γλώσσες
+about = Σχετικά
+partner = Συνεργασία
+submit-form-action = Υποβολή
 
 ## Reporting
 
