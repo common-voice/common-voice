@@ -1,3 +1,6 @@
+speak = Nói
+speak-now = Nói ngay
+speak-subtitle = Đóng góp giọng nói của bạn
 record-cta = Bắt đầu ghi âm
 record-platform-not-supported = Chúng tôi rất tiếc, nhưng thiết bị của bạn hiện không được hỗ trợ.
 record-platform-not-supported-desktop = Trên máy tính để bàn, bạn có thể tải xuống phiên bản mới nhất:

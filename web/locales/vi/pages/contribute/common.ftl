@@ -35,6 +35,14 @@ change-preferences = Thay đổi tùy chỉnh
 
 contribute-voice-collection-nav-header = Bộ sưu tập giọng nói
 contribute-sentence-collection-nav-header = Bộ sưu tập câu
+login-signup = Đăng nhập / Đăng ký
+vote-yes = Có
+vote-no = Không
+datasets = Tập dữ liệu
+languages = Ngôn ngữ
+about = Giới thiệu
+partner = Đối tác
+submit-form-action = Gửi
 
 ## Reporting
 

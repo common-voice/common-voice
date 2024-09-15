@@ -1,4 +1,5 @@
 listen = Nghe
+listen-subtitle = Giúp chúng tôi xác thực giọng nói
 listen-instruction = { $actionType }<playIcon></playIcon> họ có nói chính xác câu đó không?
 listen-again-instruction = Làm tốt lắm!<playIcon></playIcon> Nghe lại khi bạn đã sẵn sàng
 listen-3rd-time-instruction = 2 cái đã xong, cố gắng lên!<playIcon></playIcon>
