@@ -31,6 +31,8 @@ import {
 } from 'common';
 import API from '../../services/api';
 import { SecondaryNav } from './nav/secondary-nav';
+import Hadear from './Hadear';
+import FooterSection from './FooterSection';
 
 interface PropsFromState {
   locale: Locale.State;
@@ -209,7 +211,8 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             teamToken={challengeTeamToken}
           />
         )}
-        <div
+
+        {/* <div
           className={cx('header-wrapper', {
             'contribution-page-active': isContributionPageActive,
           })}>
@@ -290,7 +293,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
               isLoggedIn={Boolean(user.account)}
             />
           )}
-        </div>
+        </div> */}
+
+        <Hadear/>
         <NonProductionBanner />
         <main
           id="content"
@@ -298,7 +303,9 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           data-testid={pathParts[2] ? pathParts.slice(2).join(' ') : 'home'}>
           {children ? children : <Content location={location} />}
         </main>
-        {shouldHideFooter ? <></> : <Footer />}
+        {/* {shouldHideFooter ? <></> : <Footer />} */}
+
+      {shouldHideFooter ? <></> :<FooterSection />}  
         <div
           id="navigation-modal"
           className={this.state.isMenuVisible ? 'active' : ''}>
