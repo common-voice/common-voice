@@ -43,6 +43,7 @@ vote-no = Hayır
 datasets = Veri kümeleri
 languages = Diller
 about = Hakkında
+partner = İş Ortaklığı
 submit-form-action = Gönder
 
 ## Reporting

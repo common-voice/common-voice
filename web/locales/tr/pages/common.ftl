@@ -5,6 +5,7 @@
 ## Languages
 
 ab = Abhazca
+abb = Bankon
 ace = Açece
 ady = Adıgece
 af = Afrikaans
@@ -215,12 +216,6 @@ zza = Zazaca
 
 ## Layout
 
-speak = Konuş
-speak-now = Şimdi konuşun
-datasets = Veri kümeleri
-languages = Diller
-about = Hakkında
-partner = İş Ortaklığı
 profile = Profil
 help = Yardım
 contact = İletişim
@@ -240,7 +235,6 @@ privacy-info = Bilgilerinizi özenle koruyacağımıza söz veriyoruz. <privacyL
 return-to-cv = Common Voice’a geri dön
 email-input =
     .label = E-posta
-submit-form-action = Gönder
 loading = Yükleniyor…
 email-opt-in-info = Hedef hatırlatmaları, ilerleme durumum ve Common Voice ile ilgili bültenler gibi e-postalar almak istiyorum.
 email-opt-in-info-title = Common Voice e-posta listesine katılın
@@ -251,7 +245,7 @@ not-available-abbreviation = Yok
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Yardımınıza</mark><br/><mark>ihtiyacımız var!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Yaptığımız işe güvenen 100’den fazla dil topluluğu için veri kümelerini barındırmak ve platformu geliştirmek yılda neredeyse bir milyon dolara mal oluyor. <strong>Açık ve kapsayıcı verilere değer veriyorsanız bugün bağış yapın!</strong>

@@ -1,3 +1,4 @@
+speak = Konuş
 speak-now = Şimdi konuşun
 speak-subtitle = Sesinizi bağışlayın
 record-cta = Kaydetmeye başla
