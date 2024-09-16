@@ -37,6 +37,12 @@ contribute-voice-collection-nav-header = βétá wémà wé Nav
 contribute-sentence-collection-nav-header = lìwówà lá málô
 login-signup = Kpéyâ/kpéyâ ôténì
 vote-yes = ɛ́ɛ̀
+vote-no = jáàé
+datasets = mátìlà
+languages = ímbɔ́zrí
+about = lìhwómɛ̀nɛ̀
+partner = mbúndá
+submit-form-action = ómâ
 
 ## Reporting
 
