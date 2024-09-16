@@ -1,4 +1,5 @@
 listen = ókánéjâ
+listen-subtitle = Ójòŋgwáné lìrzéyá málòò
 listen-instruction = { $actionType }<playIcon></playIcon>wówí lítìlà gbǎmū?
 listen-again-instruction = ò βɛ́ gbámu!<playIcon></playIcon>̀ ókánéjá βɛ́ ò βòŋgírɛ́nɛ́ tɛ̄
 listen-3rd-time-instruction = wéwàkɛ́ ó zré, nánù mɛ́nɛ́<playIcon></playIcon>
