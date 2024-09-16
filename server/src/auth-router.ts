@@ -55,7 +55,7 @@ const setupRouter = async () => {
 
   router.get(
     CALLBACK_URL,
-    passport.authenticate('FxA', { failureRedirect: '/login' }),
+    passport.authenticate('oidc', { failureRedirect: '/login' }),
     async (request: Request, response: Response) => {
       const {
         user,
@@ -139,7 +139,7 @@ const setupRouter = async () => {
         const refererUrl = new URL(headers.referer)
         locale = refererUrl.pathname.split('/')[1] || 'en'
       }
-      passport.authenticate('FxA', {
+      passport.authenticate('oidc', {
         state: AES.encrypt(
           JSON.stringify({
             locale,
@@ -203,7 +203,7 @@ const initFxAStrategy = async () => {
         }
       )
 
-      passport.use('FxA', strategy)
+      passport.use(strategy)
     } catch (error) {
       console.error('Failed to initialize FxA strategy:', error)
     }
