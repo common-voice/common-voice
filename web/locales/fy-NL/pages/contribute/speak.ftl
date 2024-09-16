@@ -1,3 +1,6 @@
+speak = Sprekke
+speak-now = Sprek no
+speak-subtitle = Donearje jo stim
 record-cta = Opname starte
 record-platform-not-supported = It spyt ús, mar jo platfoarm wurdt op dit stuit net stipe.
 record-platform-not-supported-desktop = Op desktopkompjûters, download de lêste:
