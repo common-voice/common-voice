@@ -1,4 +1,5 @@
 listen = Gwrando
+listen-subtitle = Helpwch ni i ddilysu lleisiau
 listen-instruction = { $actionType }<playIcon></playIcon> os ydyn nhw wedi ynganu'r frawddeg yn gywir
 listen-again-instruction = Da iawn! <playIcon> </playIcon> Gwrandewch eto pan fyddwch yn barod
 listen-3rd-time-instruction = 2 i lawr <playIcon> </playIcon> , daliwch ati!

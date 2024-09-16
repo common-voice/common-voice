@@ -1,3 +1,6 @@
+speak = Siarad
+speak-now = Siaradwch nawr
+speak-subtitle = Cyfrannwch eich llais
 record-cta = Cychwyn recordio
 record-platform-not-supported = Ymddiheuriadau ond nid yw eich platfform yn cael ei gynnal ar hyn o bryd.
 record-platform-not-supported-desktop = Ar gyfrifiaduron bwrdd gwaith, gallwch lwytho i lawr y diweddaraf:
