@@ -197,7 +197,7 @@ const initFxAStrategy = async () => {
         redirect_uris: [getCallbackURL(ENVIRONMENT)],
       })
       const strategy = new Strategy(
-        { client: client, usePKCE: false },
+        { client: client, params: { scope: 'openid email' }, usePKCE: false },
         (tokenSet: any, userInfo: any, done: any) => {
           done(null, userInfo)
         }
