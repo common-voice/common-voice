@@ -1,6 +1,5 @@
 import { AES, enc } from 'crypto-js'
 import * as passport from 'passport'
-const Auth0Strategy = require('passport-auth0')
 import { NextFunction, Request, Response } from 'express'
 const PromiseRouter = require('express-promise-router')
 import * as session from 'express-session'
@@ -10,6 +9,7 @@ import DB from './lib/model/db'
 import { earnBonus } from './lib/model/achievements'
 import { getConfig } from './config-helper'
 import { ChallengeTeamToken, ChallengeToken } from 'common'
+import { Issuer, Strategy } from 'openid-client'
 
 const {
   ENVIRONMENT,
@@ -19,7 +19,7 @@ const {
   MYSQLPASS,
   PROD,
   SECRET,
-  AUTH0: { DOMAIN, CLIENT_ID, CLIENT_SECRET },
+  FXA: { CLIENT_ID, CLIENT_SECRET },
 } = getConfig()
 const CALLBACK_URL = '/callback'
 
@@ -52,56 +52,52 @@ passport.serializeUser((user: any, done: Function) => done(null, user))
 passport.deserializeUser((sessionUser: any, done: Function) =>
   done(null, sessionUser)
 )
+console.log({ CLIENT_ID })
+if (CLIENT_ID) {
+  console.log('hello')
+  const issuer = new Issuer({
+    authorization_endpoint: 'https://accounts.stage.mozaws.net/authorization',
+    introspection_endpoint: 'https://oauth.stage.mozaws.net/v1/introspect',
+    issuer: 'https://accounts.stage.mozaws.net',
+    jwks_uri: 'https://oauth.stage.mozaws.net/v1/jwks',
+    revocation_endpoint: 'https://oauth.stage.mozaws.net/v1/destroy',
+    token_endpoint: 'https://oauth.stage.mozaws.net/v1/token',
+    userinfo_endpoint: 'https://profile.stage.mozaws.net/v1/profile',
+    verify_endpoint: 'https://oauth.stage.mozaws.net/v1/verify',
+  })
 
-if (DOMAIN) {
-  Auth0Strategy.prototype.authorizationParams = function (options: any) {
-    var options = options || {}
-
-    const params: any = {}
-    if (options.connection && typeof options.connection === 'string') {
-      params.connection = options.connection
-    }
-    if (options.audience && typeof options.audience === 'string') {
-      params.audience = options.audience
-    }
-    params.account_verification = true
-
-    return params
-  }
-
-  const strategy = new Auth0Strategy(
+  const strategy = new Strategy(
     {
-      domain: DOMAIN,
-      clientID: CLIENT_ID,
-      clientSecret: CLIENT_SECRET,
-      callbackURL:
-        ((
-          {
-            stage: 'https://commonvoice.allizom.org',
-            prod: 'https://commonvoice.mozilla.org',
-            dev: 'https://dev.voice.mozit.cloud',
-            sandbox: 'https://sandbox.commonvoice.allizom.org',
-          } as any
-        )[ENVIRONMENT] || '') + CALLBACK_URL,
-      scope: 'openid email',
+      client: new issuer.Client({
+        client_id: CLIENT_ID,
+        client_secret: CLIENT_SECRET,
+        params: {
+          scope: 'openid email',
+        },
+        redirect_uris: [
+          ((
+            {
+              stage: 'https://commonvoice.allizom.org',
+              prod: 'https://commonvoice.mozilla.org',
+              dev: 'https://dev.voice.mozit.cloud',
+              sandbox: 'https://sandbox.commonvoice.allizom.org',
+            } as any
+          )[ENVIRONMENT] || '') + CALLBACK_URL,
+        ],
+      }),
+      usePKCE: false,
     },
-    (
-      accessToken: any,
-      refreshToken: any,
-      extraParams: any,
-      profile: any,
-      done: any
-    ) => done(null, profile)
+    (tokenSet: any, profile: any, done: any) => done(null, profile)
   )
 
-  passport.use(strategy)
+  passport.use('fxa', strategy)
 } else {
-  console.log('No Auth0 configuration found')
+  console.log('No FxA configuration found')
 }
 
 router.get(
   CALLBACK_URL,
-  passport.authenticate('auth0', { failureRedirect: '/login' }),
+  passport.authenticate('fxa', { failureRedirect: '/login' }),
   async (request: Request, response: Response) => {
     const {
       user,
@@ -176,35 +172,38 @@ router.get(
   }
 )
 
-router.get('/login', (request: Request, response: Response) => {
-  const { headers, user, query } = request
-  let locale = 'en'
-  if (headers.referer) {
-    const refererUrl = new URL(headers.referer)
-    locale = refererUrl.pathname.split('/')[1] || 'en'
+router.get(
+  '/login',
+  (request: Request, response: Response, next: NextFunction) => {
+    const { headers, user, query } = request
+    let locale = 'en'
+    if (headers.referer) {
+      const refererUrl = new URL(headers.referer)
+      locale = refererUrl.pathname.split('/')[1] || 'en'
+    }
+    passport.authenticate('fxa', {
+      state: AES.encrypt(
+        JSON.stringify({
+          locale,
+          ...(user && query.change_email !== undefined
+            ? {
+                old_user: request.user,
+                old_email: user.emails[0].value,
+              }
+            : {}),
+          redirect: query.redirect || null,
+          enrollment: {
+            challenge: query.challenge || null,
+            team: query.team || null,
+            invite: query.invite || null,
+            referer: query.referer || null,
+          },
+        }),
+        SECRET
+      ).toString(),
+    } as any)(request, response, next)
   }
-  passport.authenticate('auth0', {
-    state: AES.encrypt(
-      JSON.stringify({
-        locale,
-        ...(user && query.change_email !== undefined
-          ? {
-              old_user: request.user,
-              old_email: user.emails[0].value,
-            }
-          : {}),
-        redirect: query.redirect || null,
-        enrollment: {
-          challenge: query.challenge || null,
-          team: query.team || null,
-          invite: query.invite || null,
-          referer: query.referer || null,
-        },
-      }),
-      SECRET
-    ).toString(),
-  } as any)(request, response)
-})
+)
 
 router.get('/logout', (request: Request, response: Response) => {
   response.clearCookie('connect.sid')
