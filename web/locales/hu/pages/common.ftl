@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = Afar
 ab = Abház
+abb = Bankon
 ace = Acehi
 ady = Adige
 af = Afrikaans
@@ -17,10 +19,12 @@ ast = Asztúriai
 az = Azeri
 ba = Baskír
 bas = Basza
+bax = Bamun
 be = Belorusz
 bg = Bolgár
 bm = Bambara
 bn = Bengáli
+bnm = Batanga
 bo = Tibeti
 br = Breton
 bs = Bosnyák
@@ -28,6 +32,7 @@ bxr = Burját
 byv = Medumba
 ca = Katalán
 cak = Kacsikel
+cdo = Keleti min
 ckb = Közép-kurd
 cnh = Hakha Chin
 co = Korzikai
@@ -138,6 +143,7 @@ or = Orija
 os = Oszét
 pa-IN = Pandzsábi
 pap-AW = Papiamento (arubai)
+pcm = Nigériai angol pidzsin
 pl = Lengyel
 ps = Pastu
 pt = Portugál
@@ -198,6 +204,7 @@ vi = Vietnámi
 vmw = Makua
 vot = Vót
 wep = Vesztfáliai
+wes = Kameruni pidzsin
 wo = Volof
 xh = Xhosza
 yi = Jiddis
@@ -215,12 +222,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Beszéljen
-speak-now = Most beszéljen
-datasets = Adatkészletek
-languages = Nyelvek
-about = Rólunk
-partner = Partner
 profile = Profil
 help = Súgó
 contact = Kapcsolat
@@ -240,7 +241,6 @@ privacy-info = Ígérjük, hogy adatait körültekintően kezeljük. További in
 return-to-cv = Visszatérés a Common Voice oldalra
 email-input =
     .label = E-mail
-submit-form-action = Elküldés
 loading = Betöltés…
 email-opt-in-info = Szeretnék e-maileket kapni, köztük a kitűzött céljaimmal kapcsolatos emlékeztetőket, a személyes előrehaladásommal kapcsolatos híreket és a Common Voice hírlevelét.
 email-opt-in-info-title = Csatlakozzon a Common Voice levelezőlistához
@@ -251,7 +251,7 @@ not-available-abbreviation = Nincs
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Szükségünk van</mark><br/><mark>a segítségére!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Évente majdnem egymillió dollárba kerül az adatkészletek tárolása és a platform fejlesztése a ránk támaszkodó több mint 100 nyelvi közösség számára. <strong>Ha értékeli a nyílt, inkluzív adatokat – adományozzon még ma!</strong>

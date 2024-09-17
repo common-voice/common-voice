@@ -33,6 +33,14 @@ change-preferences = Foarkarren wizigje
 
 contribute-voice-collection-nav-header = Spraakkolleksje
 contribute-sentence-collection-nav-header = Sinnensamling
+login-signup = Oanmelde / Registrearje
+vote-yes = Ja
+vote-no = Nee
+datasets = Gegevenssets
+languages = Talen
+about = Oer
+partner = Partner wurde
+submit-form-action = Yntsjinje
 
 ## Reporting
 

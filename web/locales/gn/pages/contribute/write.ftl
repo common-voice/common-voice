@@ -74,6 +74,7 @@ try-upload-again-md = Eha’ãjey ehupi hag̃ua
 select-file = Eiporavo Marandurenda
 select-file-mobile = Eiporavo marandurenda emyanyhẽ hag̃ua
 accepted-files = Oñemoneĩva marandurenda: .tsv añoite
+minimum-sentences = Sa’ivérõ ñe’ẽjuaju ñongatupyre: 1000
 maximum-file-size = Marandurenda tuichakue: 25 MB
 what-needs-to-be-in-file = Mba’épa oĩva’erã che kuatiápe
 upload-progress-text = Ojehupihína...

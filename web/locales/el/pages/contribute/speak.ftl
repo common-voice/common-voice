@@ -1,3 +1,6 @@
+speak = Ομιλία
+speak-now = Μιλήστε τώρα
+speak-subtitle = Δωρίστε τη φωνή σας
 record-cta = Έναρξη καταγραφής
 record-platform-not-supported = Δυστυχώς, η πλατφόρμα σας δεν υποστηρίζεται ακόμα.
 record-platform-not-supported-desktop = Σε υπολογιστές, μπορείτε να συνεισφέρετε κάνοντας λήψη…

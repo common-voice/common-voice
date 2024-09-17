@@ -1,4 +1,5 @@
 listen = Harkje
+listen-subtitle = Help ús stimmen te falidearjen
 listen-instruction = { $actionType } <playIcon></playIcon> – is de sin dúdlik útsprutsen?
 listen-again-instruction = Goed wurk! <playIcon></playIcon> Harkje opnij wannear’t jo klear binne
 listen-3rd-time-instruction = 2 klear <playIcon></playIcon> , gean sa troch!

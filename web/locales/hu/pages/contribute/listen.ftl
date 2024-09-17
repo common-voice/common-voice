@@ -1,4 +1,5 @@
 listen = Figyeljen
+listen-subtitle = Segítsen ellenőrizni a hangokat
 listen-instruction = { $actionType } a <playIcon></playIcon> ikonra, pontosan olvasták fel a mondatot?
 listen-again-instruction = Jó munka! <playIcon></playIcon> Hallgassa meg újra, ha kész
 listen-3rd-time-instruction = 2 kész <playIcon></playIcon>, csak így tovább!

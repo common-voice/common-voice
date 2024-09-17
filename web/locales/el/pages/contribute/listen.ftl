@@ -1,4 +1,5 @@
 listen = Ακρόαση
+listen-subtitle = Βοηθήστε μας να επικυρώσουμε φωνές
 listen-instruction = { $actionType } στο <playIcon></playIcon> Έγινε σωστή εκφώνηση της πρότασης;
 listen-again-instruction = Εξαιρετική δουλειά! <playIcon></playIcon> Ακούστε ξανά όταν είστε έτοιμος
 listen-3rd-time-instruction = Έφυγαν 2, συνεχίστε! <playIcon></playIcon>

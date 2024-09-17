@@ -1,3 +1,6 @@
+speak = Ayvu
+speak-now = Eñe’ẽ ko’ág̃a
+speak-subtitle = Eme’ẽmína nde ayvu
 record-cta = Eñepyrũ eñe’ẽñongatu
 record-platform-not-supported = Rombyasyete, ne pyendavusu nomba’apokuaáira’e gueteri ore mba’éva ndive.
 record-platform-not-supported-desktop = Reiporúramo mohendaha mesa arigua eporopytyvõkuaa emboguejývo…

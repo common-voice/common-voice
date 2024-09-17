@@ -1,3 +1,6 @@
+speak = Konuş
+speak-now = Şimdi konuşun
+speak-subtitle = Sesinizi bağışlayın
 record-cta = Kaydetmeye başla
 record-platform-not-supported = Maalesef kullandığınız platform şu an desteklenmemektedir.
 record-platform-not-supported-desktop = Bilgisayarınızda şu tarayıcıların son sürümlerini kullanabilirsiniz:

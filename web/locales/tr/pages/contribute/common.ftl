@@ -37,6 +37,14 @@ change-preferences = Tercihleri değiştir
 
 contribute-voice-collection-nav-header = Ses Toplama
 contribute-sentence-collection-nav-header = Cümle Toplama
+login-signup = Giriş / Kayıt
+vote-yes = Evet
+vote-no = Hayır
+datasets = Veri kümeleri
+languages = Diller
+about = Hakkında
+partner = İş Ortaklığı
+submit-form-action = Gönder
 
 ## Reporting
 
