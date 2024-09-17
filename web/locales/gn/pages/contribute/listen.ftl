@@ -1,4 +1,5 @@
 listen = Ehendu
+listen-subtitle = Orepytyvõ rohechajeývo ñe’ẽjoaju
 listen-instruction = { $actionType }<playIcon></playIcon> ombohyapuporãpara’e ñe’ẽjoaju?
 listen-again-instruction = ¡Iporãitereíma ne rembiapo! <playIcon></playIcon> Ehendujey ikatumi vove
 listen-3rd-time-instruction = 2 oĩma ko’ág̃a, ¡Péva ha’e, ejapomi ambueve! <playIcon></playIcon>

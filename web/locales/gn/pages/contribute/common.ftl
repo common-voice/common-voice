@@ -35,6 +35,13 @@ change-preferences = Emoambue erohoryvéva
 
 contribute-voice-collection-nav-header = Ayvu Ñembyaty
 contribute-sentence-collection-nav-header = Ñe’ẽjuaju ñembyatyha
+vote-yes = Héẽ
+vote-no = Nahániri
+datasets = Mba’ekuaarã aty
+languages = Ñe’ẽnguéra
+about = Rehegua
+partner = Irũ
+submit-form-action = Mondo
 
 ## Reporting
 
