@@ -1,3 +1,6 @@
+speak = Beszéljen
+speak-now = Beszéljen most
+speak-subtitle = Adja a hangját
 record-cta = Felvétel indítása
 record-platform-not-supported = Sajnáljuk, de a platformja jelenleg nem támogatott.
 record-platform-not-supported-desktop = Asztali számítógépekre, letöltheti a legfrissebbet:

@@ -33,6 +33,14 @@ change-preferences = Beállítások módosítása
 
 contribute-voice-collection-nav-header = Hanggyűjtemény
 contribute-sentence-collection-nav-header = Mondatok gyűjtése
+login-signup = Bejelentkezés vagy regisztráció
+vote-yes = Igen
+vote-no = Nem
+datasets = Adatkészletek
+languages = Nyelvek
+about = Névjegy
+partner = Partner
+submit-form-action = Elküldés
 
 ## Reporting
 
