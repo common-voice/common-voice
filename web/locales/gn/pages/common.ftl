@@ -4,6 +4,7 @@
 
 ## Languages
 
+aa = Mombyry
 ab = Abkhaz
 ace = Acehnese
 ady = Adyghe
@@ -215,12 +216,6 @@ zza = { "" }
 
 ## Layout
 
-speak = Eñe’ẽ
-speak-now = Eñe’ẽ ko’ág̃a
-datasets = Kuaapy’aty
-languages = Ñe’ẽnguéra
-about = Hesegua
-partner = Irũ
 profile = Toguetee
 help = Pytyvõ
 contact = Máva ndivépa oñeñe’ẽkuaa
@@ -240,7 +235,6 @@ privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha umi kuaapyrã nde reheg
 return-to-cv = Ejevy Common Voice-pe
 email-input =
     .label = Ñanduti veve
-submit-form-action = Emondo
 loading = Henyhẽhína…
 email-opt-in-info = Pembou chéve ñanduti veve rupi marandu hupytyrã rehegua térã mba’éicha oguatahína tembiapo ha Common Voice.
 email-opt-in-info-title = Ejuaju Common Voice ñanduti veve rysýire
@@ -251,7 +245,7 @@ not-available-abbreviation = N/A
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>¡Ñaikotevẽ</mark><br/><mark>ne ñepytyvõ!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Ohupytymo'ã peteĩ súa dólar ary pukukue mba’ekuaarã aty ñeñongatu ha pyendasusu moakãrapu’ã hetave 100 tekoha ñe’ẽgua oku’éva rojapóva rupi. <strong>Emomba’érõ mba’ekuaarã ijuruja ha oporogueroikéva, ¡embojopói ko’ág̃a!</strong>
