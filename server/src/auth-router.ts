@@ -46,17 +46,20 @@ const setupRouter = async () => {
       saveUninitialized: false,
     })
   )
-  router.use(passport.initialize())
-  router.use(passport.session())
+
   passport.serializeUser((user: any, done: Function) => done(null, user))
   passport.deserializeUser((sessionUser: any, done: Function) =>
     done(null, sessionUser)
   )
 
+  router.use(passport.initialize())
+  router.use(passport.session())
+
   router.get(
     CALLBACK_URL,
     passport.authenticate('FxA', { failureRedirect: '/login' }),
     async (request: Request, response: Response) => {
+      console.log('Successful callback')
       const {
         user,
         query: { state },
@@ -199,6 +202,7 @@ const initFxAStrategy = async () => {
       const strategy = new Strategy(
         { client: client, params: { scope: 'openid email' }, usePKCE: false },
         (tokenSet: any, userInfo: any, done: any) => {
+          console.log('authenticated >>>', { userInfo })
           done(null, userInfo)
         }
       )
