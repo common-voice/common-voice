@@ -57,7 +57,7 @@ const setupRouter = async () => {
 
   router.get(
     CALLBACK_URL,
-    passport.authenticate('FxA', { failureRedirect: '/login' }),
+    passport.authenticate('FxA', { failureRedirect: '/login', failureMessage: true }),
     async (request: Request, response: Response) => {
       console.log('Successful callback')
       const {
