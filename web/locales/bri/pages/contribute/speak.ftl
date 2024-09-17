@@ -1,3 +1,6 @@
+speak = óhwâ
+speak-now = óhwâ nâŋɡɛ̂
+speak-subtitle = ngbâ lílô
 record-cta = wòtéjá lìwówà lá lílô
 record-platform-not-supported = dʒò zrózrómélì, è βólò jàzrú è zréndʒé gbǎmù
 record-platform-not-supported-desktop = ò tánó wówá ó màzríní má téwèlì

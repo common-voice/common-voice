@@ -1,4 +1,5 @@
 listen = Dinle
+listen-subtitle = Sesleri doğrulamamıza yardım edin
 listen-instruction = <playIcon></playIcon> düğmesine { $actionType }. Cümle doğru okunmuş mu?
 listen-again-instruction = Çok iyi iş! <playIcon></playIcon> Hazır olduğunuzda yeniden dinleyin.
 listen-3rd-time-instruction = İkisi gitti, çalışmaya devam! <playIcon></playIcon>

@@ -117,6 +117,7 @@ about-playbook-how-grow-language-content-6 = Partnerstva i mreže
 
 ## How to validate
 
+about-playbook-how-validate-content-4 = Ako isječak odbiju 2 osobe, on se objavljuje u jednom drugom podskupu skupa podataka.
 
 ## How to access dataset
 

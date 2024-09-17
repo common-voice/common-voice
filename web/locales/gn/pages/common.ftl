@@ -4,6 +4,7 @@
 
 ## Languages
 
+aa = Mombyry
 ab = Abkhaz
 ace = Acehnese
 ady = Adyghe
@@ -16,14 +17,25 @@ as = Assamese
 ast = Asturia ñe’ẽ
 az = Azerbaijani
 ba = Bashkir
+bal = Balochi
 bas = Basaa
+bax = Bamun
+bba = Baatonum
+bbj = Ghomala
+bci = Baoule
 be = Belarusian
+beb = Bamvele
+bfd = Bafut
 bg = Bulgaria ñe’ẽ
+bkm = Kom
 bm = Bambara
 bn = Bengali ñe’ẽ
+bnm = Batanga
 bo = Tibetano
 br = Breton ñe’ẽ
+bri = Mokpwe
 bs = Bosnia
+bum = Bulu
 bxr = Buryat ñe’ẽ
 byv = { "" }
 ca = Catalán ñe’ẽ
@@ -39,16 +51,21 @@ da = Dinamarca ñe’ẽ
 dag = { "" }
 de = Alemán ñe’ẽ
 dsb = Sorbian ñe’ẽ, Yvypegua
+dua = Duala
 dv = Dhivehi ñe’ẽ
 dyu = Dioula
+ebr = Ebrie
+ee = Ewe
 el = Grecia ñe’ẽ
 en = Inglés ñe’ẽ
 eo = Ñe’ẽ Esperanto
 es = Castilla ñe’ẽ
 et = Estonia ñe’ẽ
+eto = Eton
 eu = Basco ñe’ẽ
 ewo = Ewondo
 fa = Persa ñe’ẽ
+fan = Fang
 ff = Fulah ñe’ẽ
 fi = Finlandia ñe’ẽ
 fo = Faroese ñe’ẽ
@@ -59,6 +76,7 @@ ga-IE = Irlanda ñe’ẽ
 gl = Galicia ñe’ẽ
 gn = Guarani
 gom = Goan Konkani
+gos = Gronings
 gu-IN = Gujarati
 guc = Wayuunaiki
 ha = Hausa ñe’ẽ
@@ -215,12 +233,6 @@ zza = { "" }
 
 ## Layout
 
-speak = Eñe’ẽ
-speak-now = Eñe’ẽ ko’ág̃a
-datasets = Kuaapy’aty
-languages = Ñe’ẽnguéra
-about = Hesegua
-partner = Irũ
 profile = Toguetee
 help = Pytyvõ
 contact = Máva ndivépa oñeñe’ẽkuaa
@@ -240,7 +252,6 @@ privacy-info = Roñe’ẽme’ẽ roñangarekoporãtaha umi kuaapyrã nde reheg
 return-to-cv = Ejevy Common Voice-pe
 email-input =
     .label = Ñanduti veve
-submit-form-action = Emondo
 loading = Henyhẽhína…
 email-opt-in-info = Pembou chéve ñanduti veve rupi marandu hupytyrã rehegua térã mba’éicha oguatahína tembiapo ha Common Voice.
 email-opt-in-info-title = Ejuaju Common Voice ñanduti veve rysýire
@@ -251,7 +262,7 @@ not-available-abbreviation = N/A
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>¡Ñaikotevẽ</mark><br/><mark>ne ñepytyvõ!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Ohupytymo'ã peteĩ súa dólar ary pukukue mba’ekuaarã aty ñeñongatu ha pyendasusu moakãrapu’ã hetave 100 tekoha ñe’ẽgua oku’éva rojapóva rupi. <strong>Emomba’érõ mba’ekuaarã ijuruja ha oporogueroikéva, ¡embojopói ko’ág̃a!</strong>
