@@ -16,7 +16,7 @@ import API from './lib/api'
 import { redis, useRedis, redlock } from './lib/redis'
 import { APIError, getElapsedSeconds } from './lib/utility'
 import { getConfig } from './config-helper'
-import authRouter from './auth-router'
+import setupAuthRouter from './auth-router'
 import fetchLegalDocument from './fetch-legal-document'
 import { createTaskQueues, TaskQueues } from './lib/takeout'
 import getCSPHeaderValue from './csp-header-value'
@@ -138,8 +138,8 @@ export default class Server {
         res.type('text/plain')
         res.send('User-agent: *\nDisallow: /spontaneous-speech/')
       })
-
-      this.app.use(await authRouter)
+      const authRouter = await setupAuthRouter()
+      this.app.use(authRouter)
 
       this.app.use('/api/v1', this.api.getRouter())
 

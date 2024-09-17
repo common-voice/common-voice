@@ -189,6 +189,7 @@ const getCallbackURL = (env: string): string => {
 }
 
 const initFxAStrategy = async () => {
+  console.log('OP:', OP)
   if (OP) {
     try {
       const fxaIssuer = await Issuer.discover(
@@ -208,6 +209,7 @@ const initFxAStrategy = async () => {
       )
 
       passport.use('FxA', strategy)
+      console.log('FxA registered with passport')
     } catch (error) {
       console.error('Failed to initialize FxA strategy:', error)
     }
@@ -216,7 +218,7 @@ const initFxAStrategy = async () => {
   }
 }
 
-export default setupRouter()
+export default setupRouter
 
 const db = new DB()
 export async function authMiddleware(
