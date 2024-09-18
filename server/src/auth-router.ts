@@ -9,7 +9,7 @@ import DB from './lib/model/db'
 import { earnBonus } from './lib/model/achievements'
 import { getConfig } from './config-helper'
 import { ChallengeTeamToken, ChallengeToken } from 'common'
-import { Issuer, Strategy } from 'openid-client'
+import { Strategy as OpenIDStrategy } from 'passport-openidconnect'
 
 const {
   ENVIRONMENT,
@@ -53,38 +53,25 @@ passport.deserializeUser((sessionUser: any, done: Function) =>
   done(null, sessionUser)
 )
 if (CLIENT_ID) {
-  const issuer = new Issuer({
-    authorization_endpoint: 'https://accounts.stage.mozaws.net/authorization',
-    introspection_endpoint: 'https://oauth.stage.mozaws.net/v1/introspect',
-    issuer: 'https://accounts.stage.mozaws.net',
-    jwks_uri: 'https://oauth.stage.mozaws.net/v1/jwks',
-    revocation_endpoint: 'https://oauth.stage.mozaws.net/v1/destroy',
-    token_endpoint: 'https://oauth.stage.mozaws.net/v1/token',
-    userinfo_endpoint: 'https://profile.stage.mozaws.net/v1/profile',
-    verify_endpoint: 'https://oauth.stage.mozaws.net/v1/verify',
-  })
-
-  const strategy = new Strategy(
+  const strategy = new OpenIDStrategy(
     {
-      client: new issuer.Client({
-        client_id: CLIENT_ID,
-        client_secret: CLIENT_SECRET,
-        params: {
-          scope: 'openid email',
-        },
-        redirect_uris: [
-          ((
-            {
-              stage: 'https://commonvoice.allizom.org',
-              prod: 'https://commonvoice.mozilla.org',
-              dev: 'https://dev.voice.mozit.cloud',
-              sandbox: 'https://sandbox.commonvoice.allizom.org',
-            } as any
-          )[ENVIRONMENT] || '') + CALLBACK_URL,
-        ],
-      }),
+      issuer: 'https://accounts.stage.mozaws.net',
+      authorizationURL: 'https://accounts.stage.mozaws.net/authorization',
+      tokenURL: 'https://oauth.stage.mozaws.net/v1/token',
+      userInfoURL: 'https://profile.stage.mozaws.net/v1/profile',
+      clientID: CLIENT_ID,
+      clientSecret: CLIENT_SECRET,
+      callbackURL:
+        ((
+          {
+            stage: 'https://commonvoice.allizom.org',
+            prod: 'https://commonvoice.mozilla.org',
+            dev: 'https://dev.voice.mozit.cloud',
+            sandbox: 'https://sandbox.commonvoice.allizom.org',
+          } as any
+        )[ENVIRONMENT] || '') + CALLBACK_URL,
     },
-    (tokenSet: any, profile: any, done: any) => done(null, profile)
+    (issuer: any, profile: any, done: any) => done(null, profile)
   )
 
   passport.use('fxa', strategy)
@@ -94,7 +81,11 @@ if (CLIENT_ID) {
 
 router.get(
   CALLBACK_URL,
-  passport.authenticate('fxa', { failWithError: true }),
+  passport.authenticate('fxa', {
+    failureRedirect: '/login-failure',
+    failureMessage: true,
+    failWithError: true,
+  }),
   async (request: Request, response: Response) => {
     const {
       user,
