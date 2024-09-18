@@ -52,9 +52,7 @@ passport.serializeUser((user: any, done: Function) => done(null, user))
 passport.deserializeUser((sessionUser: any, done: Function) =>
   done(null, sessionUser)
 )
-console.log({ CLIENT_ID })
 if (CLIENT_ID) {
-  console.log('hello')
   const issuer = new Issuer({
     authorization_endpoint: 'https://accounts.stage.mozaws.net/authorization',
     introspection_endpoint: 'https://oauth.stage.mozaws.net/v1/introspect',
@@ -97,7 +95,7 @@ if (CLIENT_ID) {
 
 router.get(
   CALLBACK_URL,
-  passport.authenticate('fxa', { failureRedirect: '/login' }),
+  passport.authenticate('fxa', { failWithError: true }),
   async (request: Request, response: Response) => {
     const {
       user,
