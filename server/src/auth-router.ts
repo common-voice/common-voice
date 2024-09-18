@@ -93,10 +93,11 @@ if (CLIENT_ID) {
   console.log('No FxA configuration found')
 }
 
-router.get(
+router.use(
   CALLBACK_URL,
   passport.authenticate('fxa', { failWithError: true }),
   async (request: Request, response: Response) => {
+    console.log('Successful FxA authentication')
     const {
       user,
       query: { state },
@@ -170,38 +171,7 @@ router.get(
   }
 )
 
-router.get(
-  '/login',
-  (request: Request, response: Response, next: NextFunction) => {
-    const { headers, user, query } = request
-    let locale = 'en'
-    if (headers.referer) {
-      const refererUrl = new URL(headers.referer)
-      locale = refererUrl.pathname.split('/')[1] || 'en'
-    }
-    passport.authenticate('fxa', {
-      state: AES.encrypt(
-        JSON.stringify({
-          locale,
-          ...(user && query.change_email !== undefined
-            ? {
-                old_user: request.user,
-                old_email: user.emails[0].value,
-              }
-            : {}),
-          redirect: query.redirect || null,
-          enrollment: {
-            challenge: query.challenge || null,
-            team: query.team || null,
-            invite: query.invite || null,
-            referer: query.referer || null,
-          },
-        }),
-        SECRET
-      ).toString(),
-    } as any)(request, response, next)
-  }
-)
+router.use('/login', passport.authenticate('fxa'))
 
 router.get('/logout', (request: Request, response: Response) => {
   response.clearCookie('connect.sid')
