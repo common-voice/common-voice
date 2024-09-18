@@ -61,6 +61,7 @@ if (CLIENT_ID) {
       userInfoURL: 'https://profile.stage.mozaws.net/v1/profile',
       clientID: CLIENT_ID,
       clientSecret: CLIENT_SECRET,
+      scope: ['email'],
       callbackURL:
         ((
           {
@@ -169,27 +170,30 @@ router.get(
       const refererUrl = new URL(headers.referer)
       locale = refererUrl.pathname.split('/')[1] || 'en'
     }
+    const state = AES.encrypt(
+      JSON.stringify({
+        locale,
+        ...(user && query.change_email !== undefined
+          ? {
+              old_user: request.user,
+              old_email: user.emails[0].value,
+            }
+          : {}),
+        redirect: query.redirect || null,
+        enrollment: {
+          challenge: query.challenge || null,
+          team: query.team || null,
+          invite: query.invite || null,
+          referer: query.referer || null,
+        },
+      }),
+      SECRET
+    ).toString()
+
+    console.log('calling auth with:', { state })
     passport.authenticate('fxa', {
-      state: AES.encrypt(
-        JSON.stringify({
-          locale,
-          ...(user && query.change_email !== undefined
-            ? {
-                old_user: request.user,
-                old_email: user.emails[0].value,
-              }
-            : {}),
-          redirect: query.redirect || null,
-          enrollment: {
-            challenge: query.challenge || null,
-            team: query.team || null,
-            invite: query.invite || null,
-            referer: query.referer || null,
-          },
-        }),
-        SECRET
-      ).toString(),
-    } as any)(request, response, next)
+      state,
+    })(request, response, next)
   }
 )
 
