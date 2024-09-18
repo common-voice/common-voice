@@ -161,41 +161,40 @@ router.get(
   }
 )
 
-router.get(
-  '/login',
-  (request: Request, response: Response, next: NextFunction) => {
-    const { headers, user, query } = request
-    let locale = 'en'
-    if (headers.referer) {
-      const refererUrl = new URL(headers.referer)
-      locale = refererUrl.pathname.split('/')[1] || 'en'
-    }
-    const state = AES.encrypt(
-      JSON.stringify({
-        locale,
-        ...(user && query.change_email !== undefined
-          ? {
-              old_user: request.user,
-              old_email: user.emails[0].value,
-            }
-          : {}),
-        redirect: query.redirect || null,
-        enrollment: {
-          challenge: query.challenge || null,
-          team: query.team || null,
-          invite: query.invite || null,
-          referer: query.referer || null,
-        },
-      }),
-      SECRET
-    ).toString()
-
-    console.log('calling auth with:', { state })
-    passport.authenticate('fxa', {
-      state,
-    })(request, response, next)
-  }
-)
+router.get('/login', passport.authenticate('fxa'))
+//   (request: Request, response: Response, next: NextFunction) => {
+//     const { headers, user, query } = request
+//     let locale = 'en'
+//     if (headers.referer) {
+//       const refererUrl = new URL(headers.referer)
+//       locale = refererUrl.pathname.split('/')[1] || 'en'
+//     }
+//     const state = AES.encrypt(
+//       JSON.stringify({
+//         locale,
+//         ...(user && query.change_email !== undefined
+//           ? {
+//               old_user: request.user,
+//               old_email: user.emails[0].value,
+//             }
+//           : {}),
+//         redirect: query.redirect || null,
+//         enrollment: {
+//           challenge: query.challenge || null,
+//           team: query.team || null,
+//           invite: query.invite || null,
+//           referer: query.referer || null,
+//         },
+//       }),
+//       SECRET
+//     ).toString()
+//
+//     console.log('calling auth with:', { state })
+//     passport.authenticate('fxa', {
+//       state,
+//     })(request, response, next)
+//   }
+// )
 
 router.get('/logout', (request: Request, response: Response) => {
   response.clearCookie('connect.sid')
