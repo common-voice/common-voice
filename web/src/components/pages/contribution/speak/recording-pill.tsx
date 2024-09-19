@@ -71,7 +71,12 @@ function RecordingPill({
   };
 
   return (
-    <Pill {...props} className="recording" openable status={status}>
+    <Pill {...props} className="recording" openable status={status} style={{ 
+      backgroundColor: !children && status === 'done' ? '#ECFDF3' : undefined,
+      border: !children && status === 'done' ? '1px solid #ABEFC6' : undefined,
+      borderRadius: '8px',
+      color: !children && status === 'done' ? '#085D3A' : undefined,
+    }}  >
       {children}
 
       {!children && status === 'active' && (

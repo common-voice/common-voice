@@ -39,16 +39,22 @@ export const RecordButton = ({
 }: {
   status: RecordingStatus;
   trackClass?: string;
-} & React.ButtonHTMLAttributes<any>) => (
-  <PrimaryButton
-    className={status === null ? 'stop' : 'record'}
-    {...props}
-    trackClass={trackClass}
-    disabled={status === 'waiting'}>
-    {status === null && <MicIcon />}
-    {status === 'recording' && <StopIcon />}
-  </PrimaryButton>
-);
+} & React.ButtonHTMLAttributes<HTMLButtonElement>) => {
+
+  return (
+    <button
+      className={`${status === null ? 'stop' : 'record'} ${trackClass || ''}`}
+      disabled={status === 'waiting'}
+      {...props}
+    >
+      {status === 'recording' ? (
+        <img src="/img/pause-icon.svg" alt="pause icon" />
+      ) : (
+        <img src="/img/mic-icon.svg" alt="play icon" />
+      )}
+    </button>
+  );
+};
 
 export const RecordLink = (props: any) => (
   <PrimaryButton className="stop" to={URLS.SPEAK} {...props}>

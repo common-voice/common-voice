@@ -3,8 +3,10 @@
     top: 20%;
     left: 15%;
     background: rgba(229, 229, 229, 0);
+    background-color: white;
     width: 70%;
     z-index: 10;
+    border-radius: 20px;
 
     .header-text-container {
         margin-bottom: 80px;
@@ -89,20 +91,28 @@
         p {
             margin-bottom: 15px;
             text-align: left;
+            color: #000;
 
             a {
                 color: var(--anchor-text-blue);
+               
             }
         }
     }
 
     & .add-information-button {
         background: var(--blue);
+        border-radius: 20px;
+        color: white;
+        padding: 15px 30px;
         border: none;
         margin-bottom: 25px;
+        transition: background-color 0.3s ease, border 0.3s ease;
 
         &:hover {
             border: 1px solid var(--black);
+            background: var(--light-blue); 
+            color: var(--black);
         }
     }
 

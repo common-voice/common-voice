@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { Bar, Line } from 'react-chartjs-2'
-import { CheckCircleIcon, ClockIcon } from '@heroicons/react/24/outline' // Optional: use Heroicons for icons
+import { CheckCircleIcon, ClockIcon } from '@heroicons/react/24/outline'
 
 import {
   Chart as ChartJS,

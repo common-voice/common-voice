@@ -77,8 +77,10 @@
             }
 
             & .num {
-                background: var(--desert-storm);
+            /* background: var(--white);    */
+                /* background: #065d3a; */
                 border: solid 1px #f5f4f3;
+                /* color: white; */
             }
         }
 

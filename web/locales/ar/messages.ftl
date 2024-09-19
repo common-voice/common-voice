@@ -20,7 +20,6 @@ not-available-abbreviation = غير متاح
 
 
 ## Languages
-
 ab = الأبخازية
 ace = الأتشيهيّة
 ady = الأديغة
@@ -1086,6 +1085,8 @@ help-reach-goal = { $goal }
 
 
 ## Profile Download
+continue-speaking-button=تابع التحدث
+create-profile-button=انشاء ملف شخصي
 download-q = هل تحتاج إلى تنزيل بياناتك؟
 download-info = أخبرنا بما تريد تنزيله:
 download-profile-title = الملف الشخصي
@@ -1114,3 +1115,8 @@ download-request-modal-description = فيما يلي الروابط لتنزيل
 download-request-link-text = الجزء # { $offset } من { $total }
 download-request-metadata-link = البيانات الوصفية
 download-request-link-single = يمكنك أيضًا نسخ عناوين URL المباشرة ولصقها في مدير التنزيل المفضل لديك. ستنتهي صلاحيتها في غضون 12 ساعة ، ولكن يمكنك العودة إلى هذه الصفحة لإنشاء صفحات جديدة في أي وقت.
+why-donate-explanation-1= تقديم هذه المعلومات اختياري - يجب عليك إضافتها فقط إذا كنت تشعر بالراحة. عندما نقوم بإصدار مجموعة البيانات، نقوم بإخفاء الهوية باستخدام أسماء مستعارة لجميع المعلومات الشخصية، ونتأكد من أن المعلومات مثل اسمك وبريدك الإلكتروني ليست مرتبطة بالمعلومات الديموغرافية مثل العمر أو الجنس.
+second-cta-header-text=شكرًا لمساهمتك بصوتك!
+already-have-an-account=هل لديك حساب بالفعل؟ <login>تسجيل الدخول</login>
+
+

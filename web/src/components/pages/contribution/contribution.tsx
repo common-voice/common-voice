@@ -386,11 +386,11 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                 vars: { actionType: getString('action-click') },
                 children: (
                   <div
-                    className="instruction hidden-sm-down"
+                    className="instruction hidden-sm-down flex"
                     data-testid="instruction"
                   />
                 ),
-              }) || <div className="instruction hidden-sm-down" />}
+              }) || <div className="instruction hidden-sm-down flex" />}
 
               <div className="cards">
                 {sentences.map((sentence, i) => {
@@ -534,9 +534,11 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                 <Button
                   rounded
                   outline
+                  padding
                   className="hidden-md-down shortcuts-btn"
                   onClick={this.toggleShortcutsModal}>
                   <KeyboardIcon />
+                  اختصارات
                 </Button>
               </Tooltip>
             </div>

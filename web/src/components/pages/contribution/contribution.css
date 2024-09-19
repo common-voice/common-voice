@@ -384,6 +384,8 @@
         }
 
         & button {
+            background-color:#fdfcfc;
+            border-radius: 50%;
             z-index: var(--middle-z-index);
         }
     }
@@ -423,12 +425,14 @@
         }
 
         .shortcuts-btn {
-            padding: 0;
-            width: 60px;
+            padding: 10px;
+            min-width: 60px;
             margin-inline-end: 0;
+            width: 100%;
 
             img {
                 margin-inline-end: 0;
+                margin-inline: 2px !important;
             }
         }
 
@@ -593,11 +597,13 @@
 
     .card-dimensions {
         padding: 0 20px;
-
         text-align: center;
         font-weight: 600;
         line-height: 1.38;
-
+        box-shadow: 0px 4px 8px #1018281A;
+        border: 1px solid #D2D6DB;
+        border-radius: 16px;
+        
         background: var(--white);
 
         @media (--md-up) {
@@ -735,7 +741,7 @@
         .labeled-checkbox {
             margin: 0 0 2em;
             width: 60%;
-            text-align: center;`
+            text-align: center;
 
             @media (--md-down) {
                 width: 80%;

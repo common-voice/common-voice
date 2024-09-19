@@ -37,6 +37,12 @@ export default ({
     }
     style={style}>
     <div className="contents">{children}</div>
-    <div className="num">{num}</div>
+    <div className="num">
+      {status === 'done' ? (
+        <img src="/img/check-mark.svg" alt="" width={'26'} />
+      ) : (
+        num
+      )}
+    </div>
   </div>
-);
+)
