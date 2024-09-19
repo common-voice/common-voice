@@ -27,10 +27,12 @@ contact-us = Contact Us
 add-sentence-success = 1 sentence collected
 add-sentence-error = Error adding sentence
 required-field = Please fill out this field.
-single-sentence-submission = Single Sentence Submission
-bulk-sentence-submission = Bulk Sentence Submission
-single-sentence = Single Sentence
-bulk-sentences = Bulk Sentences
+single-sentence-submission = Single sentence submission
+small-batch-sentence-submission = Small batch sentence submission
+bulk-sentence-submission = Large bulk sentence submission
+single-sentence = Single
+small-batch-sentence = Small batch
+bulk-sentence = Bulk batch
 sentence-domain-combobox-label = Sentence Domain
 sentence-domain-select-placeholder = Select up to three domains (optional)
 # Sentence Domain dropdown option
