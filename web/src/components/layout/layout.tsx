@@ -31,8 +31,10 @@ import {
 } from 'common';
 import API from '../../services/api';
 import { SecondaryNav } from './nav/secondary-nav';
-import Hadear from './Hadear';
-import FooterSection from './FooterSection';
+import Hadear from './header/Hadear';
+import FooterSection from './footer/FooterSection';
+import FalakHeader from './header/FalakHeader';
+import FalakFooter from './footer/FalakFooter';
 
 interface PropsFromState {
   locale: Locale.State;
@@ -294,8 +296,12 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
             />
           )}
         </div> */}
+{/* old header */}
+        {/* <Hadear/> */}
 
-        <Hadear/>
+        {/* Falak header */}
+        <FalakHeader/>
+
         <NonProductionBanner />
         <main
           id="content"
@@ -304,8 +310,10 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
           {children ? children : <Content location={location} />}
         </main>
         {/* {shouldHideFooter ? <></> : <Footer />} */}
+      {/* {shouldHideFooter ? <></> :<FooterSection />}   */}
+      {shouldHideFooter ? <></> :<FalakFooter />}  
+      
 
-      {shouldHideFooter ? <></> :<FooterSection />}  
         <div
           id="navigation-modal"
           className={this.state.isMenuVisible ? 'active' : ''}>
