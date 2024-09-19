@@ -3,7 +3,7 @@ import * as React from 'react'
 import SentenceCollectionWrapper from '../sentence-collector-wrapper'
 import SingleSubmissionWrite from './single-submission-write/single-submission-write'
 import BulkSubmissionWrite from './bulk-submission-write/bulk-submission-write'
-import SentenceCollectorToggle from '../sentence-colector-toggle'
+import SentenceCollectorToggle from '../sentence-collector-toggle'
 import BulkSubmissionSuccess from './bulk-submission-write/bulk-submission-success'
 
 import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
@@ -14,7 +14,7 @@ import { trackSingleSubmission } from '../../../../../services/tracker'
 
 import './write-container.css'
 
-export type WriteSubmissionToggleOptions = 'single' | 'bulk'
+export type WriteSubmissionToggleOptions = 'single' | 'bulk' | 'small-batch'
 
 const WriteContainer = () => {
   const [activeWriteOption, setActiveWriteOption] =
