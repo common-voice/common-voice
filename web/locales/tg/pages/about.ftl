@@ -57,3 +57,4 @@ about-playbook-how-project-governance-content-3 = Махфият, амният �
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = «Common Voice» чӣ гуна маблағгузорӣ мешавад?
