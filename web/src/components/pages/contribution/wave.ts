@@ -108,7 +108,7 @@ export default class Wave {
   private colors = [
     [89, 203, 183],
     [177, 181, 229],
-    [248, 144, 150],
+    // [248, 144, 150], 
   ];
   private ctx: CanvasRenderingContext2D;
   private curves: Curve[];
