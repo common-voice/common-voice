@@ -68,20 +68,21 @@ const setupAuthRouter = async () => {
   )
 
   router.get('/login', (req: Request, res: Response) => {
-    const code_verifier = generators.codeVerifier()
-    const code_challenge = generators.codeChallenge(code_verifier)
-    const state = generators.state(64)
+    const auth = {
+      codeVerifier: generators.codeVerifier(),
+      state: generators.state(64),
+    }
 
-    req.session.auth.codeVerifier = code_verifier
-    req.session.auth.state = state
+    req.session.auth = auth
 
     const redirectUri = client.authorizationUrl({
-      scope: 'openid email',
-      code_challenge,
+      scope: 'profile',
+      code_challenge: generators.codeChallenge(auth.codeVerifier),
       code_challenge_method: 'S256',
-      state
+      state: auth.state,
     })
-    console.log({redirectUri})
+
+    console.log({ redirectUri })
     // can pass state here as well
     res.redirect(redirectUri)
   })
