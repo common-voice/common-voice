@@ -8,6 +8,7 @@ how-does-it-work-title-v2 = Чӣ тавр «Common Voice» кор мекунад
 about-localization-title = Маҳаллисозии сомона
 about-localization-subtitle = Матни сомона ба он забон тарҷума карда мешавад.
 about-sentence-collection-title = Маҷмуаи ҷумлаҳо
+about-sentence-collection-subtitle = Ҷумлаҳо ҷамъ оварда мешаванд, то одамон онҳоро бо овози баланд хонанд.
 about-new-lang-title = Оғози забони нав
 about-new-lang-subtitle = Мо сомонаи «Common Voice»-ро бо ин забон оғоз мекунем.
 about-voice-contrib-subtitle = Мардум омада, бо овози худ саҳми худро мегузоранд.

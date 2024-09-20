@@ -55,3 +55,5 @@ shortcut-play-toggle-label = Пахш/Таваққуф
 ## Validation criteria
 
 contribution-for-example = масалан
+contribution-misreadings-example-8-explanation = [Муҳтавои номувофиқ]
+contribution-varying-pronunciations-title = Талаффузҳои гуногун
