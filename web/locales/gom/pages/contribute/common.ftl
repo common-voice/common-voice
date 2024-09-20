@@ -32,8 +32,8 @@ change-preferences = Settings boddol
 
 ## Contribution Nav Items
 
-contribute-voice-collection-nav-header = Avaaz Ekthaim'vap
-contribute-sentence-collection-nav-header = Vakio Ekthaim'vap
+contribute-voice-collection-nav-header = Avaaz Ektha'vop
+contribute-sentence-collection-nav-header = Vakio Ektha'vop
 
 ## Reporting
 
