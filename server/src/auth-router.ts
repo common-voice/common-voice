@@ -1,16 +1,15 @@
-import { parse as parseURL } from 'url';
-import { AES, enc } from 'crypto-js';
-import * as passport from 'passport';
-const Auth0Strategy = require('passport-auth0');
-import { NextFunction, Request, Response } from 'express';
-const PromiseRouter = require('express-promise-router');
-import * as session from 'express-session';
-const MySQLStore = require('express-mysql-session')(session);
-import UserClient from './lib/model/user-client';
-import DB from './lib/model/db';
-import { earnBonus } from './lib/model/achievements';
-import { getConfig } from './config-helper';
-import { ChallengeTeamToken, ChallengeToken } from 'common';
+import { AES, enc } from 'crypto-js'
+import { NextFunction, Request, Response } from 'express'
+const PromiseRouter = require('express-promise-router')
+import * as session from 'express-session'
+const MySQLStore = require('express-mysql-session')(session)
+import UserClient from './lib/model/user-client'
+import DB from './lib/model/db'
+import { earnBonus } from './lib/model/achievements'
+import { getConfig } from './config-helper'
+import { ChallengeTeamToken, ChallengeToken } from 'common'
+import { Issuer } from 'openid-client'
+import { generators } from 'openid-client'
 
 const {
   ENVIRONMENT,
@@ -20,211 +19,90 @@ const {
   MYSQLPASS,
   PROD,
   SECRET,
-  AUTH0: { DOMAIN, CLIENT_ID, CLIENT_SECRET },
-} = getConfig();
-const CALLBACK_URL = '/callback';
+  FXA: { DOMAIN, CLIENT_ID, CLIENT_SECRET },
+} = getConfig()
+const CALLBACK_URL = '/callback'
 
-const router = PromiseRouter();
+const getCallbackUrl = (): string => {
+  const environments = {
+    prod: 'https://commonvoice.mozilla.org',
+    stage: 'https://commonvoice.allizom.org',
+    sandbox: 'https://sandbox.commonvoice.allizom.org',
+  }
 
-router.use(require('cookie-parser')());
-router.use(
-  session({
-    cookie: {
-      maxAge: 30 * 24 * 60 * 60 * 1000,
-      secure: PROD,
-    },
-    secret: SECRET,
-    store: new MySQLStore({
-      host: MYSQLHOST,
-      user: MYSQLUSER,
-      password: MYSQLPASS,
-      database: MYSQLDBNAME,
-      createDatabaseTable: false,
-    }),
-    proxy: true,
-    resave: false,
-    saveUninitialized: false,
+  return (
+    (environments[ENVIRONMENT as keyof typeof environments] || '') +
+    CALLBACK_URL
+  )
+}
+
+const setupAuthRouter = async () => {
+  const router = PromiseRouter()
+  const fxaIssuer = await Issuer.discover('https://accounts.stage.mozaws.net')
+  const client = new fxaIssuer.Client({
+    client_id: CLIENT_ID,
+    client_secret: CLIENT_SECRET,
+    redirect_uris: [getCallbackUrl()],
+    response_types: ['code'],
   })
-);
-router.use(passport.initialize());
-router.use(passport.session());
 
-passport.serializeUser((user: any, done: Function) => done(null, user));
-passport.deserializeUser((sessionUser: any, done: Function) =>
-  done(null, sessionUser)
-);
-
-if (DOMAIN) {
-  Auth0Strategy.prototype.authorizationParams = function (options: any) {
-    var options = options || {};
-
-    const params: any = {};
-    if (options.connection && typeof options.connection === 'string') {
-      params.connection = options.connection;
-    }
-    if (options.audience && typeof options.audience === 'string') {
-      params.audience = options.audience;
-    }
-    params.account_verification = true;
-
-    return params;
-  };
-
-  const strategy = new Auth0Strategy(
-    {
-      domain: DOMAIN,
-      clientID: CLIENT_ID,
-      clientSecret: CLIENT_SECRET,
-      callbackURL:
-        ((
-          {
-            stage: 'https://commonvoice.allizom.org',
-            prod: 'https://commonvoice.mozilla.org',
-            dev: 'https://dev.voice.mozit.cloud',
-            sandbox: 'https://sandbox.commonvoice.allizom.org',
-          } as any
-        )[ENVIRONMENT] || '') + CALLBACK_URL,
-      scope: 'openid email',
-    },
-    (
-      accessToken: any,
-      refreshToken: any,
-      extraParams: any,
-      profile: any,
-      done: any
-    ) => done(null, profile)
-  );
-
-  passport.use(strategy);
-} else {
-  console.log('No Auth0 configuration found');
-}
-
-function parseState(request: Request) {
-  const { state } = request.query;
-
-  if (!state || typeof state !== 'string') {
-    return {};
-  }
-
-  return JSON.parse(AES.decrypt(state, SECRET).toString(enc.Utf8));
-}
-
-router.get(
-  CALLBACK_URL,
-  passport.authenticate('auth0', { failureRedirect: '/login' }),
-  async (request: Request, response: Response) => {
-    const {
-      user,
-      query: { state },
-      session,
-    } = request;
-
-    let currentState = {
-      locale: '',
-      old_user: '',
-      old_email: '',
-      redirect: '',
-      enrollment: { challenge: '', team: '', invite: '', referer: '' },
-    };
-
-    if (state && typeof state === 'string') {
-      const bytes = AES.decrypt(state, SECRET);
-      const decryptedData = bytes.toString(enc.Utf8);
-      currentState = JSON.parse(decryptedData);
-    }
-
-    const { locale, old_user, old_email, redirect, enrollment } = currentState;
-
-    const basePath = locale ? `/${locale}/` : '/';
-    if (!user) {
-      response.redirect(basePath + 'login-failure');
-    } else if (old_user) {
-      const success = await UserClient.updateSSO(
-        old_email,
-        user.emails[0].value
-      );
-      if (!success) {
-        session.passport.user = old_user;
-      }
-      response.redirect('/profile/settings?success=' + success.toString());
-    } else if (enrollment?.challenge && enrollment?.team) {
-      if (
-        !(await UserClient.enrollRegisteredUser(
-          user.emails[0].value,
-          enrollment.challenge as ChallengeToken,
-          enrollment.team as ChallengeTeamToken,
-          enrollment.invite,
-          enrollment.referer
-        ))
-      ) {
-        // if the user is unregistered, pass enrollment to frontend
-        user.enrollment = enrollment;
-      } else {
-        // if the user is already registered, now they should be enrolled
-        // [TODO] there should be an elegant way to get the client_id here
-        const client_id = await UserClient.findClientId(user.emails[0].value);
-        await earnBonus('sign_up_first_three_days', [
-          enrollment.challenge,
-          client_id,
-        ]);
-        await earnBonus('invite_signup', [
-          client_id,
-          enrollment.invite,
-          enrollment.invite,
-          enrollment.challenge,
-        ]);
-      }
-
-      // [BUG] try refresh the challenge board, toast will show again, even though DB won't give it the same achievement again
-      response.redirect(
-        redirect ||
-          `${basePath}login-success?challenge=${enrollment.challenge}&achievement=1`
-      );
-    } else {
-      response.redirect(redirect || basePath + 'login-success');
-    }
-  }
-);
-
-router.get('/login', (request: Request, response: Response) => {
-  const { headers, user, query } = request;
-  let locale = 'en';
-  if (headers.referer) {
-    const refererUrl = new URL(headers.referer);
-    locale = refererUrl.pathname.split('/')[1] || 'en';
-  }
-  passport.authenticate('auth0', {
-    state: AES.encrypt(
-      JSON.stringify({
-        locale,
-        ...(user && query.change_email !== undefined
-          ? {
-              old_user: request.user,
-              old_email: user.emails[0].value,
-            }
-          : {}),
-        redirect: query.redirect || null,
-        enrollment: {
-          challenge: query.challenge || null,
-          team: query.team || null,
-          invite: query.invite || null,
-          referer: query.referer || null,
-        },
+  router.use(require('cookie-parser')())
+  router.use(
+    session({
+      cookie: {
+        maxAge: 30 * 24 * 60 * 60 * 1000,
+        secure: PROD,
+      },
+      secret: SECRET,
+      store: new MySQLStore({
+        host: MYSQLHOST,
+        user: MYSQLUSER,
+        password: MYSQLPASS,
+        database: MYSQLDBNAME,
+        createDatabaseTable: false,
       }),
-      SECRET
-    ).toString(),
-  } as any)(request, response);
-});
+      proxy: true,
+      resave: false,
+      saveUninitialized: false,
+    })
+  )
 
-router.get('/logout', (request: Request, response: Response) => {
-  response.clearCookie('connect.sid');
-  response.redirect('/');
-});
+  router.get('/login', (req: Request, res: Response) => {
+    const code_verifier = generators.codeVerifier()
+    const code_challenge = generators.codeChallenge(code_verifier)
 
-export default router;
+    req.session.codeVerifier = code_verifier
 
-const db = new DB();
+    const redirectUri = client.authorizationUrl({
+      scope: 'openid email',
+      code_challenge,
+      code_challenge_method: 'S256',
+    })
+    console.log({redirectUri})
+    // can pass state here as well
+    res.redirect(redirectUri)
+  })
+
+  router.get(CALLBACK_URL, async (req: Request, res: Response) => {
+    const params = client.callbackParams(req)
+    const tokenSet = await client.callback(getCallbackUrl(), params, {
+      code_verifier: req.session.codeVerifier,
+    })
+    console.log('received and validated tokens %j', tokenSet)
+    console.log('validated ID Token claims %j', tokenSet.claims())
+  })
+
+  router.get('/logout', (request: Request, response: Response) => {
+    response.clearCookie('connect.sid')
+    response.redirect('/')
+  })
+
+  return router
+}
+
+export default setupAuthRouter
+
+const db = new DB()
 export async function authMiddleware(
   request: Request,
   response: Response,
@@ -233,33 +111,33 @@ export async function authMiddleware(
   if (request.user) {
     const accountClientId = await UserClient.findClientId(
       request.user.emails[0].value
-    );
+    )
     if (accountClientId) {
-      request.client_id = accountClientId;
-      next();
-      return;
+      request.client_id = accountClientId
+      next()
+      return
     }
   }
 
   const [authType, credentials] = (request.header('Authorization') || '').split(
     ' '
-  );
+  )
   if (authType === 'Basic') {
     const [client_id, auth_token] = Buffer.from(credentials, 'base64')
       .toString()
-      .split(':');
+      .split(':')
     if (await UserClient.hasSSO(client_id)) {
-      response.sendStatus(401);
-      return;
+      response.sendStatus(401)
+      return
     } else {
-      const verified = await db.createOrVerifyUserClient(client_id, auth_token);
+      const verified = await db.createOrVerifyUserClient(client_id, auth_token)
       if (!verified) {
-        response.sendStatus(401);
-        return;
+        response.sendStatus(401)
+        return
       }
     }
-    request.client_id = client_id;
+    request.client_id = client_id
   }
 
-  next();
+  next()
 }

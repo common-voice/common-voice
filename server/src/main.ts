@@ -21,6 +21,7 @@ async function runServer() {
   // If this file is run directly, boot up a new server instance.
   if (require.main === module) {
     const server = new Server();
+    await server.setupAppRouting();
     server
       .run({ doImport: getConfig().IMPORT_SENTENCES })
       .catch(e => console.log('error while starting server', e));

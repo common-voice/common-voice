@@ -34,7 +34,7 @@ export type CommonVoiceConfig = {
   STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: string;
   GCP_CREDENTIALS: object;
   ADMIN_EMAILS: string;
-  AUTH0: {
+  FXA: {
     DOMAIN: string;
     CLIENT_ID: string;
     CLIENT_SECRET: string;
@@ -93,10 +93,10 @@ const BASE_CONFIG: CommonVoiceConfig = {
     'http://localhost:8080'
   ),
   GCP_CREDENTIALS: configEntry('CV_GCP_CREDENTIALS', {}, castJson),
-  AUTH0: {
-    DOMAIN: configEntry('CV_AUTH0_DOMAIN', ''),
-    CLIENT_ID: configEntry('CV_AUTH0_CLIENT_ID', ''),
-    CLIENT_SECRET: configEntry('CV_AUTH0_CLIENT_SECRET', ''),
+  FXA: {
+    DOMAIN: configEntry('CV_FXA_DOMAIN', ''),
+    CLIENT_ID: configEntry('CV_FXA_CLIENT_ID', ''),
+    CLIENT_SECRET: configEntry('CV_FXA_CLIENT_SECRET', ''),
   },
   IMPORT_SENTENCES: configEntry('CV_IMPORT_SENTENCES', true, castBoolean),
   REDIS_URL: configEntry('CV_REDIS_URL', null),
