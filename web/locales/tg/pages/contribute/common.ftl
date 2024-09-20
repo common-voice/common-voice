@@ -1,6 +1,7 @@
 action-click = Зер кардан
 action-tap = Зарба задан
 contribute = Иштирок доштан
+review = Бознигарӣ
 skip = Нодида гузарондан
 shortcuts = Миёнбурҳо
 record-button-label = Овози худро сабт намоед
