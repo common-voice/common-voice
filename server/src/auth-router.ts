@@ -70,14 +70,16 @@ const setupAuthRouter = async () => {
   router.get('/login', (req: Request, res: Response) => {
     const code_verifier = generators.codeVerifier()
     const code_challenge = generators.codeChallenge(code_verifier)
+    const state = generators.state(64)
 
-    req.session.codeVerifier = code_verifier
+    req.session.auth.codeVerifier = code_verifier
+    req.session.auth.state = state
 
     const redirectUri = client.authorizationUrl({
       scope: 'openid email',
       code_challenge,
       code_challenge_method: 'S256',
-      state: generators.state(64)
+      state
     })
     console.log({redirectUri})
     // can pass state here as well
@@ -87,7 +89,8 @@ const setupAuthRouter = async () => {
   router.get(CALLBACK_URL, async (req: Request, res: Response) => {
     const params = client.callbackParams(req)
     const tokenSet = await client.callback(getCallbackUrl(), params, {
-      code_verifier: req.session.codeVerifier,
+      code_verifier: req.session.auth.codeVerifier,
+      state: req.session.auth.state,
     })
     console.log('received and validated tokens %j', tokenSet)
     console.log('validated ID Token claims %j', tokenSet.claims())

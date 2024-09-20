@@ -18,7 +18,10 @@ declare global {
 declare module 'express-session' {
   interface SessionData {
     userId: string
-    codeVerifier: string
+    auth: {
+      codeVerifier: string
+      state: string
+    }
     passport: {
       user: any
     }
