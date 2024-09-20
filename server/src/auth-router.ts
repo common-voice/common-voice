@@ -77,6 +77,7 @@ const setupAuthRouter = async () => {
       scope: 'openid email',
       code_challenge,
       code_challenge_method: 'S256',
+      state: generators.state(64)
     })
     console.log({redirectUri})
     // can pass state here as well
