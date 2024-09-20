@@ -3,10 +3,10 @@ import { useDispatch } from 'react-redux'
 import { useLocalization } from '@fluent/react'
 
 import {
-  SingleSubmissionWriteActionType,
-  SingleSubmissionWriteState,
-  singleSubmissionWriteReducer,
-} from '../single-submission-write.reducer'
+  SentenceWriteActionType,
+  SentenceWriteState,
+  sentenceWriteReducer,
+} from '../sentence-write.reducer'
 import { SentenceSubmission, SentenceSubmissionError } from 'common'
 
 import { useAction } from '../../../../../../../hooks/store-hooks'
@@ -15,7 +15,7 @@ import { useLocale } from '../../../../../../locale-helpers'
 import { Sentences } from '../../../../../../../stores/sentences'
 import { Notifications } from '../../../../../../../stores/notifications'
 
-const initialState: SingleSubmissionWriteState = {
+const initialState: SentenceWriteState = {
   sentence: '',
   citation: '',
   sentenceDomains: [],
@@ -26,9 +26,9 @@ const initialState: SingleSubmissionWriteState = {
 
 const allVariantToken = 'sentence-variant-select-multiple-variants'
 
-export const useSingleSubmissionWrite = () => {
-  const [state, singleSubmissionWriteDispatch] = useReducer(
-    singleSubmissionWriteReducer,
+export const useSentenceWrite = () => {
+  const [state, sentenceWriteDispatch] = useReducer(
+    sentenceWriteReducer,
     initialState
   )
 
@@ -51,37 +51,37 @@ export const useSingleSubmissionWrite = () => {
   const [currentLocale] = useLocale()
 
   const handlePublicDomainChange = () => {
-    singleSubmissionWriteDispatch({
-      type: SingleSubmissionWriteActionType.SET_PUBLIC_DOMAIN,
+    sentenceWriteDispatch({
+      type: SentenceWriteActionType.SET_PUBLIC_DOMAIN,
     })
   }
 
   const handleSentenceInputChange = (
     event: React.ChangeEvent<HTMLTextAreaElement>
   ) => {
-    singleSubmissionWriteDispatch({
-      type: SingleSubmissionWriteActionType.SET_SENTENCE,
+    sentenceWriteDispatch({
+      type: SentenceWriteActionType.SET_SENTENCE,
       payload: { sentence: event.target.value },
     })
   }
 
   const handleCitationChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    singleSubmissionWriteDispatch({
-      type: SingleSubmissionWriteActionType.SET_CITATION,
+    sentenceWriteDispatch({
+      type: SentenceWriteActionType.SET_CITATION,
       payload: { citation: event.target.value },
     })
   }
 
   const handleSentenceDomainChange = (domain: string[]) => {
-    singleSubmissionWriteDispatch({
-      type: SingleSubmissionWriteActionType.SET_SENTENCE_DOMAIN,
+    sentenceWriteDispatch({
+      type: SentenceWriteActionType.SET_DOMAIN,
       payload: { sentenceDomains: domain },
     })
   }
 
   const handleSentenceVariantChange = (item: string) => {
-    singleSubmissionWriteDispatch({
-      type: SingleSubmissionWriteActionType.SET_SENTENCE_VARIANT,
+    sentenceWriteDispatch({
+      type: SentenceWriteActionType.SET_VARIANT,
       payload: { sentenceVariant: item },
     })
   }
@@ -102,8 +102,8 @@ export const useSingleSubmissionWrite = () => {
 
     try {
       if (!state.citation) {
-        singleSubmissionWriteDispatch({
-          type: SingleSubmissionWriteActionType.ADD_SENTENCE_ERROR,
+        sentenceWriteDispatch({
+          type: SentenceWriteActionType.ADD_SENTENCE_ERROR,
           payload: { error: SentenceSubmissionError.NO_CITATION },
         })
       } else {
@@ -114,15 +114,15 @@ export const useSingleSubmissionWrite = () => {
           type: 'success',
         })
 
-        singleSubmissionWriteDispatch({
-          type: SingleSubmissionWriteActionType.ADD_SENTENCE_SUCCESS,
+        sentenceWriteDispatch({
+          type: SentenceWriteActionType.ADD_SENTENCE_SUCCESS,
         })
       }
     } catch (error) {
       const errorMessage = JSON.parse(error.message)
 
-      singleSubmissionWriteDispatch({
-        type: SingleSubmissionWriteActionType.ADD_SENTENCE_ERROR,
+      sentenceWriteDispatch({
+        type: SentenceWriteActionType.ADD_SENTENCE_ERROR,
         payload: { error: errorMessage.errorType },
       })
 
@@ -140,6 +140,6 @@ export const useSingleSubmissionWrite = () => {
     handleSentenceInputChange,
     handleSentenceVariantChange,
     handleSubmit,
-    singleSentenceSubmissionState: state,
+    sentenceWriteState: state,
   }
 }
