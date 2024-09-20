@@ -1,9 +1,11 @@
 ## ABOUT US
 
 about-title = Чаро «Common Voice»?
+how-does-it-work-title-v2 = Чӣ тавр «Common Voice» кор мекунад?
 
 ## How does it work section
 
+about-localization-title = Маҳаллисозии сомона
 about-speak = Ҳарф занед
 about-listen = Гӯш кунед
 about-yes-votes = ≥ 2 овози «Ҳа»
