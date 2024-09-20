@@ -3,7 +3,7 @@ import { fireEvent, screen, waitFor } from '@testing-library/react'
 
 import { renderWithProviders } from '../../../../../../../test/render-with-providers'
 
-import SingleSubmissionWrite from './single-submission-write'
+import { SentenceWrite } from '.'
 
 const useActionMock = jest.fn()
 
@@ -34,7 +34,13 @@ afterEach(() => {
 
 describe('Single Submission Write page', () => {
   it('renders Single Submission Write page', async () => {
-    renderWithProviders(<SingleSubmissionWrite allVariants={allVariants} />)
+    renderWithProviders(
+      <SentenceWrite
+        allVariants={allVariants}
+        mode="single"
+        instructionLocalizedId="write-instruction"
+      />
+    )
 
     await waitFor(() => {
       expect(screen.getByTestId('single-submission-form')).toBeTruthy()
@@ -44,7 +50,13 @@ describe('Single Submission Write page', () => {
   })
 
   it('requires a citation before submitting', async () => {
-    renderWithProviders(<SingleSubmissionWrite allVariants={allVariants} />)
+    renderWithProviders(
+      <SentenceWrite
+        allVariants={allVariants}
+        mode="single"
+        instructionLocalizedId="write-instruction"
+      />
+    )
 
     const sentenceTextArea = screen.getByTestId('sentence-textarea')
     const checkBox = screen.getByTestId('public-domain-checkbox')
@@ -69,7 +81,13 @@ describe('Single Submission Write page', () => {
   })
 
   it('submits when all fields are filled', async () => {
-    renderWithProviders(<SingleSubmissionWrite allVariants={allVariants} />)
+    renderWithProviders(
+      <SentenceWrite
+        allVariants={allVariants}
+        mode="single"
+        instructionLocalizedId="write-instruction"
+      />
+    )
 
     const sentenceTextArea = screen.getByTestId('sentence-textarea')
     const citationInput = screen.getByTestId('citation-input')

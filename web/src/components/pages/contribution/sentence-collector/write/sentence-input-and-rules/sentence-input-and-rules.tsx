@@ -28,6 +28,7 @@ type Props = {
   sentenceDomains: readonly string[]
   error: SentenceSubmissionError
   variantTokens: string[]
+  instructionLocalizedId: string
   selectedVariant?: string
 }
 
@@ -43,6 +44,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   error,
   variantTokens,
   selectedVariant,
+  instructionLocalizedId,
 }) => {
   const isSentenceError = error && error !== SentenceSubmissionError.NO_CITATION
   const isCitationError = error === SentenceSubmissionError.NO_CITATION
@@ -58,7 +60,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
 
   return (
     <div className="inputs-and-instruction">
-      <Instruction localizedId="write-instruction" icon={<EditIcon />} />
+      <Instruction localizedId={instructionLocalizedId} icon={<EditIcon />} />
       <Localized id="write-page-subtitle">
         <p className="subtitle" />
       </Localized>

@@ -1,6 +1,6 @@
 import { SentenceSubmissionError } from 'common'
 
-export type SingleSubmissionWriteState = {
+export type SentenceWriteState = {
   sentence: string
   citation: string
   sentenceDomains: string[]
@@ -9,46 +9,46 @@ export type SingleSubmissionWriteState = {
   confirmPublicDomain: boolean
 }
 
-export enum SingleSubmissionWriteActionType {
+export enum SentenceWriteActionType {
   SET_PUBLIC_DOMAIN = 'SET_PUBLIC_DOMAIN',
   SET_SENTENCE = 'SET_SENTENCE',
   SET_CITATION = 'SET_CITATION',
-  SET_SENTENCE_DOMAIN = 'SET_SENTENCE_DOMAIN',
-  SET_SENTENCE_VARIANT = 'SET_SENTENCE_VARIANT',
+  SET_DOMAIN = 'SET_SENTENCE_DOMAIN',
+  SET_VARIANT = 'SET_SENTENCE_VARIANT',
   ADD_SENTENCE_SUCCESS = 'ADD_SENTENCE_SUCCESS',
   ADD_SENTENCE_ERROR = 'ADD_SENTENCE_ERROR',
 }
 
 type SetPublicDomainAction = {
-  type: SingleSubmissionWriteActionType.SET_PUBLIC_DOMAIN
+  type: SentenceWriteActionType.SET_PUBLIC_DOMAIN
 }
 
 type SetSentenceAction = {
-  type: SingleSubmissionWriteActionType.SET_SENTENCE
+  type: SentenceWriteActionType.SET_SENTENCE
   payload: { sentence: string }
 }
 
 type SetCitationAction = {
-  type: SingleSubmissionWriteActionType.SET_CITATION
+  type: SentenceWriteActionType.SET_CITATION
   payload: { citation: string }
 }
 
 type SetSingleSentenceDomain = {
-  type: SingleSubmissionWriteActionType.SET_SENTENCE_DOMAIN
+  type: SentenceWriteActionType.SET_DOMAIN
   payload: { sentenceDomains: string[] }
 }
 
 type SetSentenceVariant = {
-  type: SingleSubmissionWriteActionType.SET_SENTENCE_VARIANT
+  type: SentenceWriteActionType.SET_VARIANT
   payload: { sentenceVariant: string }
 }
 
 type AddSentenceSuccessAction = {
-  type: SingleSubmissionWriteActionType.ADD_SENTENCE_SUCCESS
+  type: SentenceWriteActionType.ADD_SENTENCE_SUCCESS
 }
 
 type AddSentenceErrorAction = {
-  type: SingleSubmissionWriteActionType.ADD_SENTENCE_ERROR
+  type: SentenceWriteActionType.ADD_SENTENCE_ERROR
   payload: { error: SentenceSubmissionError }
 }
 
@@ -61,42 +61,42 @@ type Action =
   | SetSingleSentenceDomain
   | SetSentenceVariant
 
-export const singleSubmissionWriteReducer = (
-  state: SingleSubmissionWriteState,
+export const sentenceWriteReducer = (
+  state: SentenceWriteState,
   action: Action
 ) => {
   switch (action.type) {
-    case SingleSubmissionWriteActionType.SET_PUBLIC_DOMAIN:
+    case SentenceWriteActionType.SET_PUBLIC_DOMAIN:
       return {
         ...state,
         confirmPublicDomain: !state.confirmPublicDomain,
       }
 
-    case SingleSubmissionWriteActionType.SET_SENTENCE:
+    case SentenceWriteActionType.SET_SENTENCE:
       return {
         ...state,
         sentence: action.payload.sentence,
       }
 
-    case SingleSubmissionWriteActionType.SET_CITATION:
+    case SentenceWriteActionType.SET_CITATION:
       return {
         ...state,
         citation: action.payload.citation,
       }
 
-    case SingleSubmissionWriteActionType.SET_SENTENCE_DOMAIN:
+    case SentenceWriteActionType.SET_DOMAIN:
       return {
         ...state,
         sentenceDomains: [...action.payload.sentenceDomains],
       }
 
-    case SingleSubmissionWriteActionType.SET_SENTENCE_VARIANT:
+    case SentenceWriteActionType.SET_VARIANT:
       return {
         ...state,
         sentenceVariant: action.payload.sentenceVariant,
       }
 
-    case SingleSubmissionWriteActionType.ADD_SENTENCE_SUCCESS:
+    case SentenceWriteActionType.ADD_SENTENCE_SUCCESS:
       return {
         ...state,
         sentence: '',
@@ -107,7 +107,7 @@ export const singleSubmissionWriteReducer = (
         error: undefined,
       }
 
-    case SingleSubmissionWriteActionType.ADD_SENTENCE_ERROR:
+    case SentenceWriteActionType.ADD_SENTENCE_ERROR:
       return {
         ...state,
         error: action.payload.error,

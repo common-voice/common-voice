@@ -1,14 +1,14 @@
 import * as React from 'react'
 
 import SentenceCollectionWrapper from '../sentence-collector-wrapper'
-import SingleSubmissionWrite from './single-submission-write/single-submission-write'
+import { SentenceWrite } from './sentence-write'
 import BulkSubmissionWrite from './bulk-submission-write/bulk-submission-write'
 import SentenceCollectorToggle from '../sentence-collector-toggle'
 import BulkSubmissionSuccess from './bulk-submission-write/bulk-submission-success'
 
 import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
 import { useLocale } from '../../../../locale-helpers'
-import { useGetVariants } from './single-submission-write/hooks/use-get-variants'
+import { useGetVariants } from './sentence-write/hooks/use-get-variants'
 
 import { trackSingleSubmission } from '../../../../../services/tracker'
 
@@ -47,6 +47,34 @@ const WriteContainer = () => {
     )
   }
 
+  const getWriteComponent = (
+    activeWriteOption: WriteSubmissionToggleOptions
+  ) => {
+    if (activeWriteOption === 'single') {
+      return (
+        <SentenceWrite
+          allVariants={allVariants}
+          instructionLocalizedId="write-instruction"
+          mode={activeWriteOption}
+        />
+      )
+    }
+
+    if (activeWriteOption === 'bulk') {
+      return <BulkSubmissionWrite />
+    }
+
+    if (activeWriteOption === 'small-batch') {
+      return (
+        <SentenceWrite
+          allVariants={allVariants}
+          instructionLocalizedId="small-batch-instruction"
+          mode={activeWriteOption}
+        />
+      )
+    }
+  }
+
   return (
     <div className="write-container" data-testid="write-container">
       {account && (
@@ -61,11 +89,7 @@ const WriteContainer = () => {
         dataTestId="write-page"
         type="write"
         extraClassName={account ? '' : 'centered'}>
-        {activeWriteOption === 'single' ? (
-          <SingleSubmissionWrite allVariants={allVariants} />
-        ) : (
-          <BulkSubmissionWrite />
-        )}
+        {getWriteComponent(activeWriteOption)}
       </SentenceCollectionWrapper>
     </div>
   )
