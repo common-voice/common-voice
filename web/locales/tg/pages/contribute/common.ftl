@@ -10,17 +10,28 @@ target-segment-learn-more = Маълумоти бештар
 
 ## Contribution Nav Items
 
+vote-yes = Ҳа
+vote-no = Не
+languages = Забонҳо
+about = Дар бораи барнома
+submit-form-action = Пешниҳод кардан
 
 ## Reporting
 
 report = Гузориш
 report-title = Гузориш додан
+report-ask = Шумо бо ин ҷумла чӣ мушкилӣ доред?
 report-offensive-language = Забони таҳқиромез
+report-offensive-language-detail = Ҷумла дорои забони таҳқиромез ё ҳақорат мебошад.
 report-grammar-or-spelling = Хатои грамматикӣ / имлоӣ
+report-grammar-or-spelling-detail = Ҷумла хатои грамматикӣ ё имлоӣ дорад.
 report-different-language = Забони дигар
+report-difficult-pronounce = Талаффуз кардан душвор аст
+report-offensive-speech = Сухани таҳқиромез
+report-offensive-speech-detail = Сабт дорои забони беадаб ё таҳқиромез мебошад.
 report-other-comment =
     .placeholder = Шарҳ
-success = Тайёр!
+success = Муваффақият!
 continue = Давом додан
 report-success = Гузориш бо муваффақият пешниҳод карда шуд
 

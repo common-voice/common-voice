@@ -14,6 +14,7 @@ about-voice-contrib-subtitle = Мардум омада, бо овози худ �
 about-voice-validation-subtitle = Одамони дигар ин сабтҳои овозиро тасдиқ мекунанд.
 about-speak = Ҳарф занед
 about-listen = Гӯш кунед
+about-is-it-valid = Оё сабт дуруст аст?
 about-yes-votes = ≥ 2 овози «Ҳа»
 about-no-votes = ≥ 2 овози «Не»
 about-dataset-new = Маҷмуаи маълумоти «Common Voice»
@@ -24,11 +25,13 @@ about-nav-why-common-voice = Чаро?
 about-nav-how-it-works = Чӣ тавр?
 about-nav-partners = Шарикон
 about-nav-get-involved = Ҳамроҳ шудан
+about-nav-how-it-works-2 = Чӣ тавр «Common Voice» кор мекунад?
 about-nav-playbook = Тарзи иштирок намуданро омӯзед
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Забон дар «Common Voice» чист?
 
 ## How do I add a language
 
@@ -40,6 +43,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкуни�
 
 about-playbook-how-localize = Чӣ тавр маҳаллисозии сомона кор мекунад?
 about-playbook-how-localize-content-1 = Тарҷумаи сомонаи «Common Voice» дар «<strong>Pontoon</strong>» сурат мегирад.
+about-playbook-how-localize-content-5 = Барои кумак видеои шарҳдиҳандаи моро бинед
 
 ## How to add sentences
 
