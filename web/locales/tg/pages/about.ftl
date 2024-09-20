@@ -6,6 +6,12 @@ how-does-it-work-title-v2 = Чӣ тавр «Common Voice» кор мекунад
 ## How does it work section
 
 about-localization-title = Маҳаллисозии сомона
+about-localization-subtitle = Матни сомона ба он забон тарҷума карда мешавад.
+about-sentence-collection-title = Маҷмуаи ҷумлаҳо
+about-new-lang-title = Оғози забони нав
+about-new-lang-subtitle = Мо сомонаи «Common Voice»-ро бо ин забон оғоз мекунем.
+about-voice-contrib-subtitle = Мардум омада, бо овози худ саҳми худро мегузоранд.
+about-voice-validation-subtitle = Одамони дигар ин сабтҳои овозиро тасдиқ мекунанд.
 about-speak = Ҳарф занед
 about-listen = Гӯш кунед
 about-yes-votes = ≥ 2 овози «Ҳа»
@@ -33,6 +39,7 @@ about-playbook-how-add-language-collecting-sentences-heading = Ҷамъкуни�
 ## How does localization work
 
 about-playbook-how-localize = Чӣ тавр маҳаллисозии сомона кор мекунад?
+about-playbook-how-localize-content-1 = Тарҷумаи сомонаи «Common Voice» дар «<strong>Pontoon</strong>» сурат мегирад.
 
 ## How to add sentences
 
