@@ -12,6 +12,7 @@ target-segment-learn-more = Маълумоти бештар
 
 vote-yes = Ҳа
 vote-no = Не
+datasets = Маҷмуи маълумот
 languages = Забонҳо
 about = Дар бораи барнома
 submit-form-action = Пешниҳод кардан
