@@ -44,7 +44,14 @@ sc-criteria-item-3 = 문장은 말할 수 있어야 합니다.
 sc-criteria-item-4 = 문장이 기준을 충족하면 &quot;승인&quot; 버튼을 클릭합니다.
 sc-criteria-item-5-2 = 문장이 위의 기준에 맞지 않으면 좌측의 &quot;거부&quot;버튼을 클릭하십시오. 문장이 확실하지 않은 경우 건너뛰고 다음 문장으로 넘어갈 수도 있습니다.
 sc-criteria-item-6 = 검토할 문장이 부족하면 더 많은 문장을 수집할 수 있도록 도와주세요!
+sc-review-rules-title = 해당 문장이 가이드라인을 충족하나요?
+sc-review-empty-state = 해당 언어에 검토할 문장이 없습니다.
 report-sc-different-language = 다른 언어
+report-sc-different-language-detail = 내가 리뷰하는 언어와 다른 언어로 작성되었습니다.
+sentences-fetch-error = 문장을 가져오는 중 오류가 발생했습니다
+review-error = 문장 검토 중 오류가 발생했습니다.
+review-error-rate-limit-exceeded = 진행 속도가 너무 빠릅니다. 잠시 멈추어 문장이 올바른지 검토해 주세요.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = 몇 가지 큰 변화를 만들고 있습니다
 sc-redirect-page-subtitle-1 = Sentence Collector는 핵심 Common Voice 플랫폼으로 이동하고 있습니다. 이제 Common Voice에서 문장을 <writeURL>작성</writeURL>하거나 단일 문장 제출을 <reviewURL>검토</reviewURL>할 수 있습니다.
+sc-redirect-page-subtitle-2 = <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> 또는 <emailLink>email</emailLink>로 문의해 주세요.

@@ -211,12 +211,6 @@ zza = 자자어
 
 ## Layout
 
-speak = 말하기
-speak-now = 지금 말하기
-datasets = 데이터 세트
-languages = 언어
-about = 소개
-partner = 파트너
 profile = 프로필
 help = 도움말
 contact = 연락처
@@ -236,7 +230,6 @@ privacy-info = 우리는 사용자의 정보를 소중하게 다룰 것을 약�
 return-to-cv = Common Voice로 돌아가기
 email-input =
     .label = 이메일
-submit-form-action = 보내기
 loading = 로딩중…
 email-opt-in-info = 개인 목표 리마인더, 진행상황 알림, Common Voice 뉴스레터와 같은 이메일을 받고 싶습니다.
 email-opt-in-info-title = Common Voice 메일링 리스트 가입
@@ -247,5 +240,12 @@ not-available-abbreviation = 해당 없음
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>여러분의 도움이</mark><br/><mark>필요합니다!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = 저희의 도움을 필요로 하는 100개 이상의 언어 공동체를 위해 데이터 세트를 호스팅하고 플랫폼을 개선하는 데 연간 100만 달러에 달하는 비용이 소요됩니다. <strong>모두를 위한 열린 데이터를 중시한다면 오늘 기부하세요!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>연구에</mark><br/><mark>CV를 사용하나요?</mark>
+languages-donate-banner-cta-explanation = Common Voice는 기부금과 보조금으로 운영됩니다! 저희는 학계, 시민 사회, 산업 연구자들과 협력하는 것을 좋아합니다. Common Voice는 무료로 사용할 수 있지만, 보조금 제안으로 플랫폼과 호스팅 비용에 기부해 주시면 큰 도움이 됩니다.
 localization-select =
     .label = 언어/현지화 선택
