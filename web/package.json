@@ -37,7 +37,7 @@
     "react-tippy": "1.4.0",
     "redux": "4.1.2",
     "redux-thunk": "2.4.2",
-    "webpack": "5.76.3"
+    "webpack": "5.94.0"
   },
   "devDependencies": {
     "@babel/core": "7.21.3",
