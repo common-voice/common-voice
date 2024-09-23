@@ -4,7 +4,6 @@ import * as O from 'fp-ts/Option'
 import * as TE from 'fp-ts/TaskEither'
 import { pipe } from 'fp-ts/function'
 import {
-  ValidatorRuleError,
   ValidatorRuleErrorType,
   validateSentence,
 } from '../../../../core/sentences'
@@ -24,6 +23,8 @@ import { SentenceSubmission } from '../../../types/sentence-submission'
 import { toDomainIds } from '../../helper/domain-helper'
 import { AddMultipleSentencesCommand } from './command/add-multiple-sentences-command'
 
+export const MAX_SENTENCES = 1000
+
 export const AddMultipleSentencesCommandHandler =
   (findDomainIdByName: FindDomainIdByName) =>
   (findVariantByTag: FindVariantByTag) =>
@@ -36,6 +37,11 @@ export const AddMultipleSentencesCommandHandler =
       TE.Do,
       TE.let('cleanedSentences', () =>
         cleanRawMultipleSentencesInput(cmd.rawSentenceInput)
+      ),
+      TE.chain(({ cleanedSentences }) =>
+        cleanedSentences.length > MAX_SENTENCES
+          ? TE.left(createValidationError('Too many sentences'))
+          : TE.right({ cleanedSentences })
       ),
       TE.let('validatedSentences', ({ cleanedSentences }) =>
         validateSentences(cmd.localeName)(cleanedSentences)

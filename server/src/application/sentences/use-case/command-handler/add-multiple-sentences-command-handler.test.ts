@@ -1,7 +1,10 @@
 import * as TE from 'fp-ts/TaskEither'
 import * as E from 'fp-ts/Either'
 import * as O from 'fp-ts/Option'
-import { AddMultipleSentencesCommandHandler } from './add-multiple-sentences-command-handler'
+import {
+  AddMultipleSentencesCommandHandler,
+  MAX_SENTENCES,
+} from './add-multiple-sentences-command-handler'
 import { AddMultipleSentencesCommand } from './command/add-multiple-sentences-command'
 
 describe('AddMultipleSentencesCommandHandler', () => {
@@ -44,6 +47,31 @@ describe('AddMultipleSentencesCommandHandler', () => {
     expect(mockFindDomainIdByName).toHaveBeenCalledWith('general')
     expect(mockFindVariantByTag).toHaveBeenCalledWith('standard')
     expect(mockInsertBulkSentences).toHaveBeenCalled()
+  })
+
+  it('should return error for too many sentences', async () => {
+    const command: AddMultipleSentencesCommand = {
+      rawSentenceInput: 'a sentence\n'.repeat(MAX_SENTENCES + 1),
+      localeName: 'en',
+      domains: ['general'],
+      variant: O.none,
+      clientId: 'test-client',
+      source: 'user',
+    }
+
+    mockFindLocaleByName.mockReturnValue(TE.right(O.some({ id: 1 })))
+    mockFindDomainIdByName.mockReturnValue(TE.right(O.some(1)))
+    mockInsertBulkSentences.mockReturnValue(TE.right(undefined))
+
+    const result = await handler(command)()
+
+    expect(E.isLeft(result)).toBe(true)
+    if (E.isLeft(result)) {
+      expect(result.left.message).toContain('Too many sentences')
+      expect(mockFindLocaleByName).not.toBeCalled()
+      expect(mockFindDomainIdByName).not.toBeCalled()
+      expect(mockInsertBulkSentences).not.toBeCalled()
+    }
   })
 
   it('should return validation errors for invalid sentences', async () => {

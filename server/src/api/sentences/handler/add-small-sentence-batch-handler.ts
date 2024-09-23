@@ -13,6 +13,7 @@ import {
 import { findVariantByTagInDb } from '../../../application/repository/variant-repository'
 import { AddMultipleSentencesCommandHandler } from '../../../application/sentences/use-case/command-handler/add-multiple-sentences-command-handler'
 import { AddMultipleSentencesCommand } from '../../../application/sentences/use-case/command-handler/command/add-multiple-sentences-command'
+import { ValidationErrorKind } from '../../../application/types/error'
 
 export default async (req: Request, res: Response) => {
   const { sentences, localeName, source, domains, variant } = req.body
@@ -40,7 +41,14 @@ export default async (req: Request, res: Response) => {
     TE.mapLeft(createPresentableError),
     TE.matchW(
       err => {
-        res.status(StatusCodes.INTERNAL_SERVER_ERROR)
+        switch (err.kind) {
+          case ValidationErrorKind:
+            res.status(StatusCodes.BAD_REQUEST)
+            break
+          default:
+            res.status(StatusCodes.INTERNAL_SERVER_ERROR)
+        }
+
         return err
       },
       sentencesWithErrors => sentencesWithErrors
