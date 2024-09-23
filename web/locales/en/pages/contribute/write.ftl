@@ -94,3 +94,4 @@ too-many-files = Too many files
 
 ## SMALL BATCH SUBMISSION
 small-batch-instruction = <icon></icon> Add multiple public domain sentences
+multiple-sentences-error = You cannot add multiple sentences for a single submission

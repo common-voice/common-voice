@@ -14,6 +14,7 @@ import { useLocale } from '../../../../../../locale-helpers'
 
 import { Sentences } from '../../../../../../../stores/sentences'
 import { Notifications } from '../../../../../../../stores/notifications'
+import { WriteMode } from '..'
 
 const initialState: SentenceWriteState = {
   sentence: '',
@@ -26,14 +27,15 @@ const initialState: SentenceWriteState = {
 
 const allVariantToken = 'sentence-variant-select-multiple-variants'
 
-export const useSentenceWrite = () => {
+const newLineRegex = /\r|\n/
+
+export const useSentenceWrite = (mode: WriteMode) => {
   const [state, sentenceWriteDispatch] = useReducer(
     sentenceWriteReducer,
     initialState
   )
 
   const { l10n } = useLocalization()
-
   const dispatch = useDispatch()
 
   const createSentence = useAction(Sentences.actions.create)
@@ -86,6 +88,35 @@ export const useSentenceWrite = () => {
     })
   }
 
+  const validateSentence = (sentenceSubmission: SentenceSubmission) => {
+    const hasMultipleSentences = newLineRegex.exec(sentenceSubmission.sentence)
+
+    if (!sentenceSubmission.source) {
+      sentenceWriteDispatch({
+        type: SentenceWriteActionType.ADD_SENTENCE_ERROR,
+        payload: { error: SentenceSubmissionError.NO_CITATION },
+      })
+
+      return false
+    }
+
+    if (mode === 'single' && hasMultipleSentences) {
+      sentenceWriteDispatch({
+        type: SentenceWriteActionType.ADD_SENTENCE_ERROR,
+        payload: { error: SentenceSubmissionError.MULTIPLE_SENTENCES },
+      })
+
+      addNotification({
+        message: l10n.getString('multiple-sentences-error'),
+        type: 'error',
+      })
+
+      return false
+    }
+
+    return true
+  }
+
   const handleSubmit = async (evt: React.SyntheticEvent) => {
     evt.preventDefault()
 
@@ -101,12 +132,7 @@ export const useSentenceWrite = () => {
     }
 
     try {
-      if (!state.citation) {
-        sentenceWriteDispatch({
-          type: SentenceWriteActionType.ADD_SENTENCE_ERROR,
-          payload: { error: SentenceSubmissionError.NO_CITATION },
-        })
-      } else {
+      if (validateSentence(newSentence)) {
         await createSentence(newSentence)
 
         addNotification({

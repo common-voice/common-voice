@@ -14,16 +14,18 @@ import URLS from '../../../../../../urls'
 
 import './sentence-write.css'
 
+export type WriteMode = 'single' | 'small-batch'
+
 type Props = {
   allVariants: string[]
   instructionLocalizedId: string
-  mode: 'single' | 'small-batch'
+  mode: WriteMode
 }
 
 export const SentenceWrite: React.FC<Props> = ({
   allVariants,
   instructionLocalizedId,
-  // mode,
+  mode,
 }) => {
   const {
     handleCitationChange,
@@ -33,7 +35,7 @@ export const SentenceWrite: React.FC<Props> = ({
     handleSentenceVariantChange,
     handleSubmit,
     sentenceWriteState,
-  } = useSentenceWrite()
+  } = useSentenceWrite(mode)
 
   return (
     <form
