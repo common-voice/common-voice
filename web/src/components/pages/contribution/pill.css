@@ -51,11 +51,12 @@
 
     &.active {
         border: solid 2px var(--grey);
-        background: var(--white);
+        color: #9DA4AE;
+        
 
         & .num {
             color: white;
-            background: var(--blue);
+           
 
             @media (--md-up) {
                 background: var(--warm-grey);
@@ -70,17 +71,13 @@
         @media (--md-up) {
             border: none;
             padding-inline-start: 6px;
-            width: 85%;
 
             &.closed {
                 padding-inline-start: 0;
             }
 
             & .num {
-            /* background: var(--white);    */
-                /* background: #065d3a; */
                 border: solid 1px #f5f4f3;
-                /* color: white; */
             }
         }
 

@@ -38,11 +38,9 @@ export default ({
     style={style}>
     <div className="contents">{children}</div>
     <div className="num">
-      {status === 'done' ? (
-        <img src="/img/check-mark.svg" alt="" width={'26'} />
-      ) : (
-        num
-      )}
+      {status === 'done' && <img src="/img/check-mark.svg" alt="" width={26} height={26} />}
+      {status === 'pending' && <img src="/img/check-mark-muted.svg" alt="" width={26}  height={26}/>}
+      {status === 'active' && <span>{num}</span>}
     </div>
   </div>
 )

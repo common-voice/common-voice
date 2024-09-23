@@ -28,6 +28,42 @@
     font-family: 'Lama Sans', sans-serif !important;
 }
 
+.speak-button-control:hover{
+background-color: #219f8a !important;
+color: white !important;
+img {
+    filter: brightness(0) invert(1);
+}
+}
+
+
+.skip {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    transition: all 0.3s ease;
+  }
+  
+ .skip span {
+    transition: transform 0.3s ease;
+  }
+  
+  .skip svg {
+    display: inline-block; 
+    transform: rotate(180deg) !important;
+    transition: all 0.3s ease;
+  }
+  
+.skip:hover span {
+    transform: translateX(-5px); 
+  }
+
+.skip:hover svg {
+    transform: translateX(5px) rotate(180deg) !important;  
+}
+
+
+  
 /* Zilla Slab has a limited glyph support range so switch to
    Noto in known cases */
 html[lang='ab'],

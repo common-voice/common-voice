@@ -1,6 +1,9 @@
 .report-modal {
-    max-height: 100vh;
+    max-height: 100vh; 
     overflow: auto;
+    box-shadow: 0px 4px 8px #1018281A;
+    border: 1px solid #D2D6DB;
+    border-radius: 16px;
 
     @media (--md-up) {
         padding: 60px 130px !important;
@@ -68,8 +71,8 @@
         font-weight: 600;
         letter-spacing: 0.8px;
         text-transform: uppercase;
-        background: var(--valid-green);
-
+        /* background: var(--valid-green); */
+background-color: #219F8A;
         &:disabled {
             background: var(--near-black);
         }
@@ -141,3 +144,4 @@
         width: 17px;
     }
 }
+

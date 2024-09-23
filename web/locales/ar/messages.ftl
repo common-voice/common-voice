@@ -738,8 +738,8 @@ target-segment-learn-more = اطّلع على المزيد
 
 ## Reporting
 
-report = بلّغ
-report-title = أرسِل ملاحظاتك
+report = أبلغ
+report-title =  أرسل تقريراً
 report-ask = ما المشاكل التي تراها في هذه الجملة؟
 report-offensive-language = كلام مسيء
 report-offensive-language-detail = تحتوي الجملة على لغة مهينة أو مسيئة.

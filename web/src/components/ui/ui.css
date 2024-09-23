@@ -144,10 +144,10 @@ button.card-action:focus.focus-visible path {
     margin-top: 5px;
     margin-inline-end: 10px;
     position: relative;
-    border: 1.6px solid var(--near-black);
-    border-radius: 2px;
-    width: 15px;
-    height: 15px;
+    border: 1px solid #D2D6DB;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
 
     &:focus-within {
         border-width: 3px;

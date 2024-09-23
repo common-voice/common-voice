@@ -63,15 +63,16 @@ export const ReportModal = withLocalization(({
 
   return (
     <Modal {...props} innerClassName="report-modal">
-      <Localized id="report-title">
-        <h1 />
-      </Localized>
+      {/* <Localized id="report-title"> */}
+        <h1><span className='text-[#219F8A]'>أرسل</span> تقريراً </h1>
+      {/* </Localized> */}
       <Localized id="report-ask">
         <h2 />
       </Localized>
       <div>
         {reasons.map(reason => (
           <CheckboxRow
+          
             key={reason}
             title={'report-' + reason}
             value={selectedReasons[reason]}
@@ -123,32 +124,14 @@ export const ReportModal = withLocalization(({
         <Localized id="report">
           <span />
         </Localized>
-        <ArrowLeft />
       </Button>
     </Modal>
   );
 });
 
 export const ReportButton = (props: React.HTMLProps<HTMLButtonElement>) => (
-  <Button outline rounded className="open-report-button" {...props}>
-    <svg width="24" height="24" viewBox="0 0 24 24">
-      <defs>
-        <path
-          id="flag-a"
-          d="M20.4 2.1c-.4-.2-.8-.1-1.1.2 0 0-.9.7-3.3.7-1.3 0-2.4-.5-3.6-.9C11.1 1.5 9.7 1 8 1 4.8 1 3.5 2.1 3.3 2.3c-.2.2-.3.4-.3.7v19c0 .6.4 1 1 1s1-.4 1-1v-6.5c.4-.2 1.4-.5 3-.5 1.3 0 2.4.5 3.6.9 1.3.5 2.7 1.1 4.4 1.1 3.2 0 4.5-1.1 4.7-1.3.2-.2.3-.4.3-.7V3c0-.4-.2-.7-.6-.9zM19 14.5c-.4.2-1.4.5-3 .5-1.3 0-2.4-.5-3.6-.9C11.1 13.5 9.7 13 8 13c-1.3 0-2.3.2-3 .4V3.5c.4-.2 1.4-.5 3-.5 1.3 0 2.4.5 3.6.9C12.9 4.5 14.3 5 16 5c1.3 0 2.3-.2 3-.4v9.9z"
-        />
-      </defs>
-      <g fill="none" fillRule="evenodd">
-        <mask id="flag-b" fill="#fff">
-          <use xlinkHref="#flag-a" />
-        </mask>
-        <use fill="#000" fillRule="nonzero" xlinkHref="#flag-a" />
-        <g fill="#4A4A4A" mask="url(#flag-b)">
-          <path d="M0 0h24v24H0z" />
-        </g>
-      </g>
-    </svg>
-
+  <Button rounded className="open-report-button bg-white text-black speak-button-control" {...props}>
+<img src="/img/flag-report.svg" alt="flag-report" height={16} width={16} />
     <Localized id="report">
       <span />
     </Localized>

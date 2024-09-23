@@ -72,14 +72,15 @@ function RecordingPill({
 
   return (
     <Pill {...props} className="recording" openable status={status} style={{ 
-      backgroundColor: !children && status === 'done' ? '#ECFDF3' : undefined,
-      border: !children && status === 'done' ? '1px solid #ABEFC6' : undefined,
+      backgroundColor: !children && status === 'done' ? '#ECFDF3' : '#ffff',
+      border: !children && status === 'done' ? '1px solid #ABEFC6' : '1px solid #D2D6DB',
       borderRadius: '8px',
-      color: !children && status === 'done' ? '#085D3A' : undefined,
+      color: !children && status === 'done' ? '#085D3A' : '#9DA4AE',
+
     }}  >
       {children}
 
-      {!children && status === 'active' && (
+      {!children && status === 'active' || status == 'pending' && (
         <Localized id="record-cta">
           <div className="text" />
         </Localized>

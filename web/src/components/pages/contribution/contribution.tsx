@@ -517,8 +517,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           <div>
             <LinkButton
               rounded
-              outline
-              className="guidelines-button"
+              className="guidelines-button bg-white text-black"
               blank
               to={URLS.GUIDELINES}>
               <QuestionIcon />
@@ -533,9 +532,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
               <Tooltip title="Shortcuts" arrow>
                 <Button
                   rounded
-                  outline
                   padding
-                  className="hidden-md-down shortcuts-btn"
+                  className="hidden-md-down shortcuts-btn bg-white text-black"
                   onClick={this.toggleShortcutsModal}>
                   <KeyboardIcon />
                   اختصارات
@@ -546,16 +544,21 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           <div>
             <Button
               rounded
-              outline
               className={[
                 'skip',
+                'bg-white text-black',
                 getTrackClass('fs', `skip-${type}`),
                 'fs-ignore-rage-clicks',
               ].join(' ')}
               disabled={!this.isLoaded}
               onClick={onSkip}
               data-testid="skip-button">
-              <SkipIcon />
+              {/* <SkipIcon /> */}
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+</svg>
+
+
               <Localized id="skip">
                 <span />
               </Localized>{' '}

@@ -1,10 +1,13 @@
 import React from 'react'
 // import micBanner from './images/mic-banner.png'
 import classes from './home.module.css'
+import { LinkButton } from '../../ui/ui'
+import URLS from '../../../urls'
+import { LocaleLink } from '../../locale-helpers';
+
 export default function HomePageSection() {
   return (
     <div className="px-20 mt-10 pt-10">
-    
       {/* mic-banner */}
       <div
         className="mx-auto bg-no-repeat bg-center w-[100%] max-w-[1160px] h-[300px] flex justify-start items-center "
@@ -51,15 +54,16 @@ export default function HomePageSection() {
             </div>
 
             <div className="flex flex-col justify-center items-center	 ">
+            <LocaleLink to={URLS.SPEAK}>
               <div>
-                <img
-                  src="/img/mic-icon.svg"
-                  alt="mic-icon"
-
-                  className={` ${classes['clickable-icon']} w-[110px] h-[110px] cursor-pointer mx-auto`}
-                />
+                  <img
+                    src="/img/mic-icon.svg"
+                    alt="mic-icon"
+                    className={` ${classes['clickable-icon']} w-[110px] h-[110px] cursor-pointer mx-auto`}
+                  />
                 <h1 className="text-center my-2">أسمعنا صوتك</h1>
               </div>
+              </LocaleLink>
             </div>
           </div>
           <img
@@ -99,6 +103,7 @@ export default function HomePageSection() {
             </div>
 
             <div className="flex flex-col justify-center items-center	 ">
+            <LocaleLink to={URLS.LISTEN}>
               <div>
                 <img
                   src="/img/play-icon.svg"
@@ -107,6 +112,7 @@ export default function HomePageSection() {
                 />
                 <h1 className="text-center my-2">أسمعنا صوتك</h1>
               </div>
+              </LocaleLink>
             </div>
           </div>
           <img

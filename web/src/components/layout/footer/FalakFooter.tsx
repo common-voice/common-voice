@@ -9,7 +9,7 @@ export default function FalakFooter() {
           <a href="https://ksaa.gov.sa">
             <img src="/img/logo-ksaa-light.png" className="w-[9rem] mt-3" alt="KSAA Logo" />
           </a>
-          <img src="/img/log§o-hcdp.png" className="mx-3 w-[7rem] -mb-1" alt="HCDP Logo" />
+          <img src="/img/logo-hcdp.png" className="mx-3 w-[7rem] -mb-1" alt="HCDP Logo" />
         </div>
         
         <div className="w-full lg:w-6/12 mt-0 ml-0 order-2 md:order-none">
