@@ -5,6 +5,7 @@ import * as TE from 'fp-ts/TaskEither'
 import { pipe } from 'fp-ts/function'
 import {
   ValidatorRuleError,
+  ValidatorRuleErrorType,
   validateSentence,
 } from '../../../../core/sentences'
 import { cleanRawMultipleSentencesInput } from '../../../../core/sentences/cleaning/multiple-sentences'
@@ -107,7 +108,7 @@ const validateSentences =
           sentence,
           validateSentence(locale),
           E.match(
-            err => ({ sentence: sentence, err: err }),
+            err => ({ sentence: sentence, errorType: err.errorType }),
             () => ({ sentence: sentence })
           )
         )
@@ -117,7 +118,7 @@ const validateSentences =
 
 const isSentenceWithError = (
   sentence: SentenceValidationResult
-): sentence is SentenceWithError => 'err' in sentence
+): sentence is SentenceWithError => 'errorType' in sentence
 
 type SentenceValidationResult = ValidatedSentence | SentenceWithError
 
@@ -128,5 +129,5 @@ type Sentence = {
 type ValidatedSentence = Sentence
 
 type SentenceWithError = Sentence & {
-  err: ValidatorRuleError
+  errorType: ValidatorRuleErrorType
 }

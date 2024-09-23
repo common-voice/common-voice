@@ -65,8 +65,8 @@ describe('AddMultipleSentencesCommandHandler', () => {
     expect(E.isRight(result)).toBe(true)
     if (E.isRight(result)) {
       expect(result.right).toHaveLength(2) // Both sentences should have errors
-      expect(result.right[0].err).toBeDefined()
-      expect(result.right[1].err).toBeDefined()
+      expect(result.right[0].errorType).toBeDefined()
+      expect(result.right[1].errorType).toBeDefined()
     }
   })
 
