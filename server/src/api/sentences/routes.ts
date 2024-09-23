@@ -4,11 +4,13 @@ import rateLimiter from '../../lib/rate-limiter-middleware'
 import {
   AddSentenceRequest,
   AddSentenceVoteRequest,
+  AddSmallSentenceBatchRequest,
   GetSentencesForReviewRequest,
 } from './validation/pending-sentences-requests'
 import validate, { validateStrict } from '../../lib/validation'
 import getSentenceHandler from './handler/get-sentences-for-review-handler'
 import addSentenceVoteHandler from './handler/add-sentence-vote-handler'
+import addSmallSentenceBatchHandler from './handler/add-small-sentence-batch-handler'
 
 export default PromiseRouter({ mergeParams: true })
   .post(
@@ -16,6 +18,12 @@ export default PromiseRouter({ mergeParams: true })
     rateLimiter('api/v1/sentences/', { points: 10, duration: 60 }),
     validateStrict({ body: AddSentenceRequest }),
     addSentenceHandler
+  )
+  .post(
+    '/batch',
+    rateLimiter('api/v1/sentences/batch', { points: 10, duration: 60 }),
+    validateStrict({ body: AddSmallSentenceBatchRequest }),
+    addSmallSentenceBatchHandler
   )
   .post(
     '/vote',

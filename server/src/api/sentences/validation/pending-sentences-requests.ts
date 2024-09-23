@@ -29,6 +29,34 @@ export const AddSentenceRequest: AllowedSchema = {
   },
 }
 
+export const AddSmallSentenceBatchRequest: AllowedSchema = {
+  type: 'object',
+  required: ['sentences', 'source', 'localeName', 'domains'],
+  properties: {
+    sentences: {
+      type: 'string',
+    },
+    source: {
+      type: 'string',
+    },
+    localeName: {
+      type: 'string',
+    },
+    domains: {
+      type: 'array',
+      maxItems: 3,
+      items: {
+        type: 'string',
+        enum: [...sentenceDomains],
+      },
+      uniqueItems: true,
+    },
+    variant: {
+      type: 'string',
+    },
+  },
+}
+
 export const AddSentenceVoteRequest: AllowedSchema = {
   type: 'object',
   required: ['sentence_id', 'vote'],
