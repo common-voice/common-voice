@@ -13,6 +13,9 @@ about-new-lang-title = Оғози забони нав
 about-new-lang-subtitle = Мо сомонаи «Common Voice»-ро бо ин забон оғоз мекунем.
 about-voice-contrib-subtitle = Мардум омада, бо овози худ саҳми худро мегузоранд.
 about-voice-validation-subtitle = Одамони дигар ин сабтҳои овозиро тасдиқ мекунанд.
+about-dataset-release-title = Нашри маҷмуи маълумот
+about-dataset-release-subtitle = Мо маҷмуи маълумотро ҳар 3 моҳ нашр мекунем.
+about-subscribe-text = Мехоҳед бо «Common Voice» дар тамос бошед?
 about-speak = Ҳарф занед
 about-listen = Гӯш кунед
 about-is-it-valid = Оё сабт дуруст аст?
@@ -68,6 +71,8 @@ about-playbook-how-grow-language-content-6 = Шарикӣ ва шабакаҳо
 ## How are decisions made
 
 about-playbook-how-project-governance-content-3 = Махфият, амният ва шаффофият.
+about-playbook-how-project-governance-content-5 = Арзиш ва эътироф.
+about-playbook-how-project-governance-content-6 = Масъулияти тарафайн.
 
 ## How is Common Voice funded
 

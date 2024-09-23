@@ -4,12 +4,20 @@ contribute = Иштирок доштан
 review = Бознигарӣ
 skip = Нодида гузарондан
 shortcuts = Миёнбурҳо
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> сабт
+       *[other] <bold>{ $count }</bold> сабт
+    }
 record-button-label = Овози худро сабт намоед
 target-segment-add-voice = Овози худро илова кунед
 target-segment-learn-more = Маълумоти бештар
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Маҷмуи сабтҳо
+contribute-sentence-collection-nav-header = Маҷмуи ҷумлаҳо
+login-signup = Воридшавӣ / Бақайдгирӣ
 vote-yes = Ҳа
 vote-no = Не
 datasets = Маҷмуи маълумот
