@@ -55,6 +55,7 @@ export const AddBulkSentencesCommandHandler =
               source: submission['Source (mandatory)'].trim(),
               locale_id: cmd.localeId,
               client_id: clientId,
+              domain_ids: O.none,
               variant_id: O.none,
             }
 
@@ -69,7 +70,7 @@ export const AddBulkSentencesCommandHandler =
               if (domain) {
                 sub = {
                   ...sub,
-                  domain_ids: [domain.id],
+                  domain_ids: O.some([domain.id]),
                 }
               }
             }
