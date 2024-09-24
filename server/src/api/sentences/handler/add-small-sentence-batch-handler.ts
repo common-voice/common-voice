@@ -52,7 +52,7 @@ export default async (req: Request, res: Response) => {
         return err
       },
       handlerResponse => ({
-        message: 'Sentences added succesfully',
+        message: 'Valid sentences have been added succesfully',
         ...handlerResponse,
       })
     )
