@@ -56,6 +56,7 @@ export const SentenceWrite: React.FC<Props> = ({
           variantTokens={allVariants}
           selectedVariant={sentenceWriteState.sentenceVariant}
           instructionLocalizedId={instructionLocalizedId}
+          mode={mode}
         />
       </div>
 

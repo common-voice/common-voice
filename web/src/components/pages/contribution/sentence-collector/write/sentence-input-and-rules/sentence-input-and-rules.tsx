@@ -14,6 +14,8 @@ import { LabeledTextArea } from '../../../../../ui/ui'
 import { LocaleLink } from '../../../../../locale-helpers'
 import URLS from '../../../../../../urls'
 import { useMultipleComboBox } from '../../../../../multiple-combobox/use-multiple-combobox'
+import { useAccount } from '../../../../../../hooks/store-hooks'
+import { WriteMode } from '../sentence-write'
 
 type Props = {
   handleSentenceInputChange: (
@@ -30,6 +32,7 @@ type Props = {
   variantTokens: string[]
   instructionLocalizedId: string
   selectedVariant?: string
+  mode: WriteMode
 }
 
 export const SentenceInputAndRules: React.FC<Props> = ({
@@ -45,6 +48,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   variantTokens,
   selectedVariant,
   instructionLocalizedId,
+  mode,
 }) => {
   const isSentenceError = error && error !== SentenceSubmissionError.NO_CITATION
   const isCitationError = error === SentenceSubmissionError.NO_CITATION
@@ -57,6 +61,8 @@ export const SentenceInputAndRules: React.FC<Props> = ({
       items: sentenceDomains,
       selectedItems: selectedSentenceDomains,
     })
+
+  const account = useAccount()
 
   return (
     <div className="inputs-and-instruction">
@@ -136,7 +142,12 @@ export const SentenceInputAndRules: React.FC<Props> = ({
             </ExpandableInformation>
           </div>
         </div>
-        <Rules error={error} title="sc-review-write-title" showFirstRule />
+        <Rules
+          error={error}
+          showFirstRule
+          isLoggedIn={Boolean(account)}
+          mode={mode}
+        />
       </div>
     </div>
   )
