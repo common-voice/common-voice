@@ -55,7 +55,7 @@ describe('Add sentence command handler', () => {
       source: 'Myself',
       locale_id: 27,
       client_id: 'abc',
-      domain_ids: [1],
+      domain_ids: O.some([1]),
       variant_id: O.none,
     }
 

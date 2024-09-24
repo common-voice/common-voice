@@ -17,6 +17,7 @@ import { SentenceSubmission } from '../../../types/sentence-submission'
 import { FindVariantByTag } from '../../../repository/variant-repository'
 import { Variant } from '../../../../core/variants/variant'
 import { FindLocaleByName } from '../../../repository/locale-repository'
+import { toDomainIds } from '../../helper/domain-helper'
 
 const toValidatedSentence =
   (validateSentence: ValidateSentence) =>
@@ -28,23 +29,6 @@ const toValidatedSentence =
       E.mapLeft(createSentenceValidationError),
       TE.fromEither
     )
-
-const toDomainIds =
-  (findDomainId: FindDomainIdByName) =>
-  (domains: string[]): TE.TaskEither<ApplicationError, number[]> => {
-    const findDomainIds = domains.map(domain => findDomainId(domain))
-    return pipe(
-      findDomainIds,
-      TE.sequenceArray,
-      TE.map(domainIds => pipe(domainIds, O.sequenceArray)),
-      TE.map(domainIds =>
-        pipe(
-          domainIds,
-          O.getOrElse(() => [])
-        )
-      )
-    )
-  }
 
 const doesLocaleMatchVariant =
   (locale: string) =>
@@ -126,7 +110,7 @@ export const AddSentenceCommandHandler =
             source: command.source,
             locale_id: localeId,
             client_id: command.clientId,
-            domain_ids: [...domainIds],
+            domain_ids: O.some(domainIds),
             variant_id: variantId,
           }
         }
