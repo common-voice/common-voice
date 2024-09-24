@@ -5,7 +5,11 @@ import classNames from 'classnames'
 import { TextButton } from '../../../../../ui/ui'
 import { ChevronDown } from '../../../../../ui/icons'
 
-export const SmallBatchRules = () => {
+type Props = {
+  title: string
+}
+
+export const SmallBatchRules = ({ title }: Props) => {
   const [rulesVisible, setRulesVisible] = useState(true)
 
   const handleClick = () => {
@@ -15,13 +19,13 @@ export const SmallBatchRules = () => {
   return (
     <div className="small-batch-rules">
       <div className="rules-title-container">
-        <div className="icon-and-title">
+        <div className="icon-and-title small-batch">
           <ChevronDown
             className={classNames('chevron', { 'rotate-180': rulesVisible })}
             onClick={handleClick}
           />
-          <Localized id="sc-review-small-batch-title">
-            <TextButton onClick={handleClick} />
+          <Localized id={title}>
+            <TextButton onClick={handleClick} className="small-batch" />
           </Localized>
         </div>
       </div>

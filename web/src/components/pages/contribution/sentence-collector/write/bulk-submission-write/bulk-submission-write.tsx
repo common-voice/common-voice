@@ -19,6 +19,7 @@ import UploadZoneContent from './upload-zone-content'
 import URLS from '../../../../../../urls'
 import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 import useBulkSubmissionUpload from '../../../../../../hooks/use-bulk-submission-upload'
+import { useAccount } from '../../../../../../hooks/store-hooks'
 import { Sentences } from '../../../../../../stores/sentences'
 import { useLocale } from '../../../../../locale-helpers'
 import { trackBulkSubmission } from '../../../../../../services/tracker'
@@ -30,6 +31,7 @@ const MAX_FILE_SIZE = 1024 * 1024 * 25
 const BulkSubmissionWrite = () => {
   const dispatch = useDispatch()
   const [locale] = useLocale()
+  const account = useAccount()
 
   React.useEffect(() => {
     dispatch(Sentences.actions.setBulkUploadStatus('off'))
@@ -130,7 +132,11 @@ const BulkSubmissionWrite = () => {
               </ExpandableInformation>
             </div>
           </div>
-          <Rules showFirstRule title="sc-review-write-title" />
+          <Rules
+            showFirstRule
+            localizedTitleId="sc-review-write-title"
+            isLoggedIn={Boolean(account)}
+          />
         </div>
       </div>
       <div className="buttons">

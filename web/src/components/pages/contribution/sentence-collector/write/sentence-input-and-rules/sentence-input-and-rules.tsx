@@ -147,6 +147,8 @@ export const SentenceInputAndRules: React.FC<Props> = ({
           showFirstRule
           isLoggedIn={Boolean(account)}
           mode={mode}
+          localizedTitleId="sc-review-write-title"
+          localizedSmallBatchTitleId="sc-review-small-batch-title"
         />
       </div>
     </div>
