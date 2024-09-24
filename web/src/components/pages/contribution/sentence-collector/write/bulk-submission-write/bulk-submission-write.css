@@ -24,6 +24,10 @@
                 align-items: center;
             }
 
+            @media (--xs-down) {
+                width: min-content;
+            }
+
             & .upload-dropzone {
                 border: 1px dashed var(--dark-grey);
                 width: 670px;

@@ -10,10 +10,12 @@ import { WriteMode } from '../sentence-write'
 import './rules.css'
 
 type Props = {
+  localizedTitleId: string
+  localizedSmallBatchTitleId?: string
   error?: SentenceSubmissionError
   showFirstRule?: boolean
-  isLoggedIn: boolean
-  mode: WriteMode
+  isLoggedIn?: boolean
+  mode?: WriteMode
 }
 
 export const Rules: React.FC<Props> = ({
@@ -21,6 +23,8 @@ export const Rules: React.FC<Props> = ({
   showFirstRule,
   isLoggedIn,
   mode,
+  localizedTitleId,
+  localizedSmallBatchTitleId,
 }) => {
   const isSmallBatchMode = mode === 'small-batch'
   const showSmallBatchRules = isLoggedIn && isSmallBatchMode
@@ -32,12 +36,14 @@ export const Rules: React.FC<Props> = ({
           error={error}
           showFirstRule={showFirstRule}
           isLoggedIn={isLoggedIn}
+          title={localizedTitleId}
+          mode={mode}
         />
 
         {showSmallBatchRules && (
           <>
             <div className="horizontal-line" />
-            <SmallBatchRules />
+            <SmallBatchRules title={localizedSmallBatchTitleId} />
           </>
         )}
       </div>

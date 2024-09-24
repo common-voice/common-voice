@@ -16,6 +16,10 @@
             padding: 16px 0px;
         }
 
+        @media (--xs-down) {
+            padding: 12px 0px;
+        }
+
         & .rules-title-container {
             display: flex;
             align-items: flex-start;
@@ -24,13 +28,48 @@
             & .icon-and-title {
                 width: 100%;
                 display: flex;
-                padding: 24px 12px 0;
+                padding: 24px 34px 0;
                 align-items: center;
                 justify-content: start;
                 gap: 8px;
 
                 @media (--xs-down) {
-                    padding: 8px 12px 0;
+                    padding: 8px 32px 0;
+                }
+
+                & .text-button {
+                    font-size: var(--font-size-sm);
+                    cursor: auto;
+                    width: 100%;
+                    pointer-events: none;
+
+                    [dir='ltr'] & {
+                        text-align: left;
+                    }
+
+                    [dir='rtl'] & {
+                        text-align: right;
+                    }
+
+                    @media (--xs-down) {
+                        font-size: var(--font-size-xs);
+                    }
+
+                    @media (--md-down) {
+                        margin-top: 3px;
+                    }
+                }
+
+                &.small-batch {
+                    padding: 24px 12px 0;
+
+                    @media (--xs-down) {
+                        padding: 8px 12px 0;
+                    }
+
+                    & .text-button {
+                        pointer-events: all;
+                    }
                 }
             }
 
@@ -59,28 +98,6 @@
         }
     }
 
-    & .text-button {
-        font-size: var(--font-size-sm);
-        cursor: auto;
-        width: 100%;
-
-        [dir='ltr'] & {
-            text-align: left;
-        }
-
-        [dir='rtl'] & {
-            text-align: right;
-        }
-
-        @media (--xs-down) {
-            font-size: var(--font-size-xs);
-        }
-
-        @media (--md-down) {
-            margin-top: 3px;
-        }
-    }
-
     ul {
         font-size: var(--font-size-sm);
         color: var(--near-black);
@@ -96,7 +113,10 @@
 
         li {
             margin-bottom: 12px;
-            width: 250px;
+
+            @media (--lg-up) {
+                width: 250px;
+            }
 
             a {
                 color: var(--anchor-text-blue);

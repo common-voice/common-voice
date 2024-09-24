@@ -5,10 +5,13 @@ import classNames from 'classnames'
 import { SentenceSubmissionError } from 'common'
 import { AlertIcon, ChevronDown } from '../../../../../ui/icons'
 import { TextButton } from '../../../../../ui/ui'
+import { WriteMode } from '../sentence-write'
 
 type Props = {
   showFirstRule: boolean
   isLoggedIn: boolean
+  title: string
+  mode: WriteMode
   error?: SentenceSubmissionError
 }
 
@@ -16,6 +19,8 @@ export const SinglewriteRules = ({
   showFirstRule,
   error,
   isLoggedIn,
+  title,
+  mode,
 }: Props) => {
   const [rulesVisible, setRulesVisible] = useState(true)
 
@@ -26,13 +31,18 @@ export const SinglewriteRules = ({
   return (
     <div className="single-write-rules">
       <div className="rules-title-container">
-        <div className="icon-and-title">
-          <ChevronDown
-            className={classNames('chevron', { 'rotate-180': rulesVisible })}
-            onClick={handleClick}
-          />
+        <div
+          className={classNames('icon-and-title', {
+            'small-batch': mode === 'small-batch',
+          })}>
+          {mode === 'small-batch' && (
+            <ChevronDown
+              className={classNames('chevron', { 'rotate-180': rulesVisible })}
+              onClick={handleClick}
+            />
+          )}
           {error && <AlertIcon className="alert-icon" />}
-          <Localized id="sc-review-single-write-title">
+          <Localized id={title}>
             <TextButton onClick={handleClick} />
           </Localized>
         </div>
