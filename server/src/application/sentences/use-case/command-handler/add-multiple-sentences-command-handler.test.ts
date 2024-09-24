@@ -40,7 +40,8 @@ describe('AddMultipleSentencesCommandHandler', () => {
 
     expect(E.isRight(result)).toBe(true)
     if (E.isRight(result)) {
-      expect(result.right).toHaveLength(0) // Assuming all sentences are valid
+      expect(result.right.invalid_sentences).toHaveLength(0) // Assuming all sentences are valid
+      expect(result.right.valid_sentences_count).toBe(2)
     }
 
     expect(mockFindLocaleByName).toHaveBeenCalledWith('en')
@@ -92,9 +93,11 @@ describe('AddMultipleSentencesCommandHandler', () => {
 
     expect(E.isRight(result)).toBe(true)
     if (E.isRight(result)) {
-      expect(result.right).toHaveLength(2) // Both sentences should have errors
-      expect(result.right[0].errorType).toBeDefined()
-      expect(result.right[1].errorType).toBeDefined()
+      expect(result.right.total_count).toBe(2) // Both sentences should have errors
+      expect(result.right.invalid_sentences_count).toBe(2) // Both sentences should have errors
+      expect(result.right.invalid_sentences).toHaveLength(2) // Both sentences should have errors
+      expect(result.right.invalid_sentences[0].errorType).toBeDefined()
+      expect(result.right.invalid_sentences[1].errorType).toBeDefined()
     }
   })
 

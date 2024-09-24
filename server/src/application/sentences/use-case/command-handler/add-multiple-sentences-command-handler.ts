@@ -25,6 +25,13 @@ import { AddMultipleSentencesCommand } from './command/add-multiple-sentences-co
 
 export const MAX_SENTENCES = 1000
 
+export type AddMultipleSentencesResponse = {
+  total_count: number
+  valid_sentences_count: number
+  invalid_sentences_count: number
+  invalid_sentences: SentenceWithError[]
+}
+
 export const AddMultipleSentencesCommandHandler =
   (findDomainIdByName: FindDomainIdByName) =>
   (findVariantByTag: FindVariantByTag) =>
@@ -32,7 +39,7 @@ export const AddMultipleSentencesCommandHandler =
   (insertBulkSentences: InsertBulkSentences) =>
   (
     cmd: AddMultipleSentencesCommand
-  ): TE.TaskEither<ApplicationError, SentenceWithError[]> =>
+  ): TE.TaskEither<ApplicationError, AddMultipleSentencesResponse> =>
     pipe(
       TE.Do,
       TE.let('cleanedSentences', () =>
@@ -99,7 +106,12 @@ export const AddMultipleSentencesCommandHandler =
           )
         )
       }),
-      TE.map(({ validatedSentences }) => validatedSentences.right)
+      TE.map(({ cleanedSentences, validatedSentences }) => ({
+        total_count: cleanedSentences.length,
+        valid_sentences_count: validatedSentences.left.length,
+        invalid_sentences_count: validatedSentences.right.length,
+        invalid_sentences: validatedSentences.right,
+      }))
     )
 
 const validateSentences =
