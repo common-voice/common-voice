@@ -1,6 +1,8 @@
 @import url('../../../../../media.css');
 
 .rules {
+    background: var(--desert-storm);
+
     @media (--lg-up) {
         width: 350px;
         margin-inline-start: 50px;
@@ -8,12 +10,10 @@
     }
 
     & .inner {
-        background: var(--desert-storm);
-        padding: 24px 34px 0;
         height: 100%;
 
         @media (--md-down) {
-            padding-top: 16px;
+            padding: 16px 0px;
         }
 
         & .rules-title-container {
@@ -24,19 +24,29 @@
             & .icon-and-title {
                 width: 100%;
                 display: flex;
-                align-items: flex-start;
+                padding: 24px 12px 0;
+                align-items: center;
+                justify-content: start;
+                gap: 8px;
+
+                @media (--xs-down) {
+                    padding: 8px 12px 0;
+                }
             }
 
             svg {
                 transition: transform var(--easing) var(--transition-duration);
+            }
 
+            & svg.alert-icon {
                 @media (--lg-up) {
                     display: none;
                 }
             }
 
             & svg.chevron {
-                margin-top: 6px;
+                width: 20px;
+                height: 20px;
             }
 
             & svg.alert-icon {
@@ -49,17 +59,8 @@
         }
     }
 
-    & .inner.rules-hidden {
-        @media (--xs-down) {
-            padding-bottom: 0;
-            padding-top: 16px;
-            padding-left: 16px;
-        }
-    }
-
     & .text-button {
         font-size: var(--font-size-sm);
-        margin-bottom: 16px;
         cursor: auto;
         width: 100%;
 
@@ -78,15 +79,12 @@
         @media (--md-down) {
             margin-top: 3px;
         }
-
-        @media (--lg-up) {
-            pointer-events: none;
-        }
     }
 
     ul {
         font-size: var(--font-size-sm);
         color: var(--near-black);
+        padding: 24px 34px 0;
 
         @media (--md-down) {
             padding-bottom: 16px;
@@ -114,9 +112,30 @@
             margin-bottom: 0px;
         }
     }
+
+    .horizontal-line {
+        border: 1px solid var(--grey);
+        margin-block-start: 24px;
+
+        @media (--xs-down) {
+            margin-block-start: 12px;
+        }
+    }
+
+    .login-instruction-multiple-sentences {
+        font-size: var(--font-size-sm);
+        padding: 12px;
+        width: 250px;
+
+        @media (--xs-down) {
+            font-size: var(--font-size-xs);
+        }
+    }
 }
 
 .rules.write-rules {
+    overflow-y: auto;
+
     @media (--xl-up) {
         height: calc(30vh + 50px);
         min-height: 440px;
