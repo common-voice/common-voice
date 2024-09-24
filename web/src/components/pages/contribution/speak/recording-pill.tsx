@@ -8,8 +8,6 @@ import { useRef, useState } from 'react';
 import { trackRecording } from '../../../../services/tracker';
 import { useLocale } from '../../../locale-helpers';
 import {
-  PlayOutlineIcon,
-  RedoIcon,
   StopIcon,
 } from '../../../ui/icons';
 import { ContributionPillProps } from '../contribution';
@@ -72,19 +70,21 @@ function RecordingPill({
 
   return (
     <Pill {...props} className="recording" openable status={status} style={{ 
-      backgroundColor: !children && status === 'done' ? '#ECFDF3' : '#ffff',
+      backgroundColor: !children && status === 'done' ? '#ECFDF3' :'#ffffff',
       border: !children && status === 'done' ? '1px solid #ABEFC6' : '1px solid #D2D6DB',
       borderRadius: '8px',
       color: !children && status === 'done' ? '#085D3A' : '#9DA4AE',
-
+    height: '44px',
+    padding: '8px',
+    opacity: status == 'pending' ? '0.5' : '1',
     }}  >
       {children}
 
-      {!children && status === 'active' || status == 'pending' && (
-        <Localized id="record-cta">
-          <div className="text" />
-        </Localized>
-      )}
+      {(!children && (status === 'active' || status === 'pending')) && (
+  <Localized id="record-cta">
+    <div className="text" />
+  </Localized>
+)}
 
       {!children && status === 'done' && (
         <>
@@ -100,7 +100,7 @@ function RecordingPill({
               onMouseEnter={() => setShowSentenceTooltip(true)}
               onMouseLeave={() => setShowSentenceTooltip(false)}>
               <span className="padder">
-                {isPlaying ? <StopIcon /> : <PlayOutlineIcon />}
+                {isPlaying ? <StopIcon /> : <img src="/img/play-rounded.svg" alt="play-icon" />}
               </span>
             </button>
           </Tooltip>
@@ -111,7 +111,7 @@ function RecordingPill({
               <Tooltip arrow title={getString('review-tooltip')}>
                 <button className="redo" type="button" onClick={onRerecord}>
                   <span className="padder">
-                    <RedoIcon />
+                    <img src="/img/repeat-rounded.svg" alt="repeat-icon" />
                   </span>
                 </button>
               </Tooltip>

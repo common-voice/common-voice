@@ -38,6 +38,7 @@ import { SecondPostSubmissionCTA } from './speak/secondSubmissionCTA/secondSubmi
 import Success from './success';
 
 import './contribution.css';
+import ProgressSteps from './ProgressSteps';
 
 export const SET_COUNT = 5;
 
@@ -375,6 +376,10 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
 
     return (
       <>
+                <ProgressSteps
+        currentStep={activeIndex} 
+        steps={sentences.map((_,index) => ` فقرة ${1+index} `)}
+      />
         <div className="cards-and-pills">
           <div />
 
@@ -405,7 +410,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                       translate="no"
                       key={sentence ? sentence.text : i}
                       className={
-                        'card card-dimensions ' + (isActive ? '' : 'inactive')
+                        'card card-dimensions p-5 ' + (isActive ? '' : 'inactive')
                       }
                       style={{
                         transform: [
@@ -451,11 +456,14 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             <div className="pills">
               <div className="inner">
                 {this.isDone && (
-                  <div className="review-instructions">
+                  <div>
+<div className="review-instructions">
                     <Localized id="review-instruction">
                       <span />
                     </Localized>
                   </div>
+                  </div>
+                  
                 )}
                 {pills.map((pill, i) =>
                   pill({

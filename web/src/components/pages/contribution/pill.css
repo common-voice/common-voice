@@ -115,3 +115,13 @@
         }
     }
 }
+
+/* override default css of the daisy-ui-steps */
+.steps .step-accent+.step-accent:before, .steps .step-accent:after{
+    background-color: #56C596!important; 
+    height: 2px !important;
+}
+
+.steps .step:after, .steps .step:before{
+    height: 2px !important;
+}
