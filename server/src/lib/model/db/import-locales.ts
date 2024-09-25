@@ -177,6 +177,16 @@ const VARIANTS: Variant[] = [
     variant_name: 'ⵜⴰⵔⵉⴼⵉⵜ (Tarifit)',
     variant_token: 'zgh-rif',
   },
+  {
+    locale_name: 'tui',
+    variant_name: 'Ɓaŋwere (Tupuri Bangwere)',
+    variant_token: 'tui-bangwere',
+  },
+  {
+    locale_name: 'tui',
+    variant_name: 'Ɓaŋgɔ̀ (Tupuri Banggo)',
+    variant_token: 'tui-banggo',
+  },
 ]
 
 type Locale = {
