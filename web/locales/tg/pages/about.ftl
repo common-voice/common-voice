@@ -24,6 +24,7 @@ about-no-votes = ≥ 2 овози «Не»
 about-dataset-new = Маҷмуаи маълумоти «Common Voice»
 about-dataset-new-text = Маҷмуаи маълумоти «Common Voice» садҳо ҳазор намунаҳои овозиро дар бар мегирад, ки ба таҳиягарон дар сохтани асбобҳои садошиносӣ кумак мекунанд.
 about-get-involved = Ҳамроҳ шудан
+about-stay-in-touch = Чӣ тавр ман дар алоқа бимонам?
 about-stay-in-touch-button = Бақайдгирӣ
 about-nav-why-common-voice = Чаро?
 about-nav-how-it-works = Чӣ тавр?
@@ -60,6 +61,7 @@ about-playbook-how-record-quality = Чӣ тавр ман сабти овозии
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Рӯйдодҳо
+about-playbook-how-grow-language-content-4 = Шабакаҳои иҷтимоӣ
 about-playbook-how-grow-language-content-6 = Шарикӣ ва шабакаҳо
 
 ## How to validate
