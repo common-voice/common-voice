@@ -39,12 +39,11 @@ const SentenceCollectorToggle: React.FC<Props> = ({
 }) => (
   <div className="sc-toggle-wrapper" data-testid="sc-toggle">
     {toggleOptions.map((option, index) => (
-      <>
+      <React.Fragment key={option}>
         <div
           className={classNames('toggle-option single', {
             active: activeOption === option,
-          })}
-          key={option}>
+          })}>
           {getContributionIcon({ option, isActive: activeOption === option })}
           <>
             <Localized id={`${option}-sentence-submission`}>
@@ -67,7 +66,7 @@ const SentenceCollectorToggle: React.FC<Props> = ({
         ) : (
           <span className="divider" />
         )}
-      </>
+      </React.Fragment>
     ))}
   </div>
 )
