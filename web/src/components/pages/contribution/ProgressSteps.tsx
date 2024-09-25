@@ -1,6 +1,8 @@
 import React from 'react';
 
 const ProgressSteps = ({ currentStep, steps }: any) => {
+  const stepsDone = currentStep === -1;
+  
   return (
     <div
       className="w-full flex justify-center bg-white py-4 px-6 shadow-sm"
@@ -8,8 +10,13 @@ const ProgressSteps = ({ currentStep, steps }: any) => {
 
       <ul className="steps flex-1">
         {steps.map((step: any, index: number) => {
-          let imgSrc = '/img/progress-check.svg';
+          let imgSrc = '';
 
+          if (stepsDone) {
+            imgSrc = '/img/progress-check.svg';
+          }
+
+          if (!stepsDone) {
           if (index < currentStep) {
             imgSrc = '/img/progress-check.svg'; 
           } else if (index === currentStep) {
@@ -17,6 +24,7 @@ const ProgressSteps = ({ currentStep, steps }: any) => {
           } else {
             imgSrc = '/img/progress-check-muted.svg'; 
           }
+        }
 
           return (
             <li
