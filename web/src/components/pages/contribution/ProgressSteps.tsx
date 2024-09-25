@@ -29,10 +29,9 @@ const ProgressSteps = ({ currentStep, steps }: any) => {
           return (
             <li
               key={index}
-              className={`step ${index <= currentStep ? 'step-accent' : ''} relative z-1 `}
+              className={`step ${index <= currentStep ? 'step-accent' : ''} relative z-1`}
               data-content=""
             >
-
                 <img
                   src={imgSrc}
                   alt={
@@ -42,7 +41,8 @@ const ProgressSteps = ({ currentStep, steps }: any) => {
                       ? 'Current step'
                       : 'Upcoming step'
                   }
-                  className="absolute  z-10 inset-0 w-[48px] h-[48px] m-auto top-[-22px]" 
+                  className="absolute inset-0 w-[48px] h-[48px] m-auto top-[-22px]"
+                  style={{ zIndex: 4 }} 
                 />
               <span className="text-center text-sm text-gray-500 pt-2">{step}</span>
             </li>

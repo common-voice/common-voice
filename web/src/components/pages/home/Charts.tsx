@@ -29,9 +29,8 @@ ChartJS.register(
 
 export default function Charts() {
   const chartRef = useRef(null)
-
   const firstChartData = {
-    labels: ['اليوم', '3 أشهر', '6 أشهر', '9 أشهر', 'سنة واحدة'],
+    labels: [['اليوم'], ['3', 'أشهر'], ['6', 'أشهر'], ['9', 'أشهر'], ['سنة', 'واحدة']],
     datasets: [
       {
         label: 'Dataset 1',
@@ -61,7 +60,8 @@ export default function Charts() {
         pointHoverRadius: 4,
       },
     ],
-  }
+  };
+  
 
   const firstChartOptions = {
     responsive: true,
@@ -71,8 +71,24 @@ export default function Charts() {
         display: false,
       },
     },
+    layout: {
+      padding: {
+        bottom: 0,
+        right: 20,
+
+      },
+    },
     scales: {
       x: {
+        ticks: {
+          font: {
+            family: 'Lama Sans',
+            size: 12,
+          },
+          color: '#0F2837',
+          maxRotation: 90, 
+        minRotation: 45,
+        },
         grid: {
           display: false,
         },
@@ -134,9 +150,9 @@ export default function Charts() {
         },
         ticks: {
           font: {
-            family: 'Arial',
-            size: 14,
-            weight: 'bold',
+            family: 'Lama Sans',
+            size: 20,
+            // weight: 'bold',
           },
           color: '#334155',
         },
@@ -154,7 +170,7 @@ export default function Charts() {
   }
 
   return (
-    <div className="flex flex-col md:flex-row justify-evenly items-start gap-8 mx-auto">
+    <div className="flex flex-col md:flex-row justify-evenly items-start gap-8 mx-auto flex-wrap">
       {/* الجدارية الصوتية */}
       <div className="flex flex-col">
         <h1 className="text-right text-[#00758A] text-[24px]">
@@ -163,13 +179,14 @@ export default function Charts() {
         <div className="flex flex-col items-center justify-center gap-8 p-4">
           <div
             style={{
-              width: '600px',
-              margin: '0 auto',
+              minWidth: '600px',
+              width:"100%",
+              // margin: '0 auto',
               boxShadow: '0px 3px 6px #00000016',
               borderRadius: '24px',
               border: '0.5px solid #00000016',
             }}
-            className="shadow-lg rounded-2xl p-2">
+            className="shadow-lg rounded-2xl p-8">
             <Line data={firstChartData} options={firstChartOptions} />
           </div>
           <div className="flex items-center justify-center gap-8 p-4">

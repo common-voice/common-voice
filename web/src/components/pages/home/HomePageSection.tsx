@@ -26,7 +26,7 @@ export default function HomePageSection() {
         </div>
       </div>
 
-      <div className="flex justify-center gap-8 mx-auto py-10">
+      <div className="flex justify-center gap-8 mx-auto py-10 flex-wrap">
         {/* ساهم بصوتك */}
         <div
           className={classes.card}

@@ -1,6 +1,6 @@
 #confetti {
     canvas {
-        z-index: 3 !important;
+        z-index: 30 !important;
     }
 }
 .second-cta-container {
@@ -12,7 +12,7 @@
     border-radius: 20px;
     width: 70%;
     height: 70%;
-    z-index: 2;
+    z-index: 20;
 
     .header-container {
         display: flex;
