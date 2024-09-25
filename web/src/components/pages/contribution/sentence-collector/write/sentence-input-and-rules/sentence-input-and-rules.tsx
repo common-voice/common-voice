@@ -74,7 +74,11 @@ export const SentenceInputAndRules: React.FC<Props> = ({
         <div className="inputs">
           <Localized id="sentence" attrs={{ label: true }}>
             <LabeledTextArea
-              placeholder={l10n.getString('sentence-input-value')}
+              placeholder={
+                mode === 'single'
+                  ? l10n.getString('sentence-input-placeholder')
+                  : l10n.getString('small-batch-sentence-input-placeholder')
+              }
               className={classNames('sentence-input', {
                 'sentence-error': isSentenceError,
                 'variants-dropdown-hidden': !hasVariants,

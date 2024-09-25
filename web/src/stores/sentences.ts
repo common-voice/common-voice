@@ -159,12 +159,25 @@ export namespace Sentences {
       },
 
     create:
-      (newSentenceSubmission: SentenceSubmission) =>
+      ({
+        sentenceSubmission,
+        isSmallBatch,
+      }: {
+        sentenceSubmission: SentenceSubmission
+        isSmallBatch?: boolean
+      }) =>
       async (dispatch: Dispatch<CreateAction>, getState: () => StateTree) => {
         const state = getState()
 
-        dispatch({ type: ActionType.CREATE, newSentenceSubmission })
-        await state.api.createSentence(newSentenceSubmission)
+        dispatch({
+          type: ActionType.CREATE,
+          newSentenceSubmission: sentenceSubmission,
+        })
+
+        return await state.api.createSentence({
+          sentenceSubmission,
+          isSmallBatch,
+        })
       },
 
     refillPendingSentences:

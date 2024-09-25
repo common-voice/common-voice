@@ -2,11 +2,7 @@ import { useReducer } from 'react'
 import { useDispatch } from 'react-redux'
 import { useLocalization } from '@fluent/react'
 
-import {
-  SentenceWriteActionType,
-  SentenceWriteState,
-  sentenceWriteReducer,
-} from '../sentence-write.reducer'
+import { sentenceWriteReducer } from '../sentence-write.reducer'
 import { SentenceSubmission, SentenceSubmissionError } from 'common'
 
 import { useAction } from '../../../../../../../hooks/store-hooks'
@@ -15,6 +11,11 @@ import { useLocale } from '../../../../../../locale-helpers'
 import { Sentences } from '../../../../../../../stores/sentences'
 import { Notifications } from '../../../../../../../stores/notifications'
 import { WriteMode } from '..'
+import {
+  SentenceWriteActionType,
+  SentenceWriteState,
+  SmallBatchResponse,
+} from '../types'
 
 const initialState: SentenceWriteState = {
   sentence: '',
@@ -26,6 +27,7 @@ const initialState: SentenceWriteState = {
 }
 
 const allVariantToken = 'sentence-variant-select-multiple-variants'
+const MAX_SMALL_BATCH_SENTENCES_LENGTH = 1000
 
 const newLineRegex = /\r|\n/
 
@@ -88,8 +90,10 @@ export const useSentenceWrite = (mode: WriteMode) => {
     })
   }
 
-  const validateSentence = (sentenceSubmission: SentenceSubmission) => {
+  const isSentenceValid = (sentenceSubmission: SentenceSubmission) => {
     const hasMultipleSentences = newLineRegex.exec(sentenceSubmission.sentence)
+    const smallBatchSentencesLength =
+      sentenceSubmission.sentence.split('\n').length
 
     if (!sentenceSubmission.source) {
       sentenceWriteDispatch({
@@ -114,6 +118,24 @@ export const useSentenceWrite = (mode: WriteMode) => {
       return false
     }
 
+    if (
+      mode === 'small-batch' &&
+      smallBatchSentencesLength > MAX_SMALL_BATCH_SENTENCES_LENGTH
+    ) {
+      sentenceWriteDispatch({
+        type: SentenceWriteActionType.ADD_SENTENCE_ERROR,
+        payload: { error: SentenceSubmissionError.EXCEEDS_SMALL_BATCH_LIMIT },
+      })
+
+      // TODO: show icon on error message
+      addNotification({
+        message: l10n.getString('exceeds-small-batch-limit-error'),
+        type: 'error',
+      })
+
+      return false
+    }
+
     return true
   }
 
@@ -132,13 +154,29 @@ export const useSentenceWrite = (mode: WriteMode) => {
     }
 
     try {
-      if (validateSentence(newSentence)) {
-        await createSentence(newSentence)
+      if (isSentenceValid(newSentence)) {
+        if (mode === 'single') {
+          await createSentence({ sentenceSubmission: newSentence })
 
-        addNotification({
-          message: l10n.getString('add-sentence-success'),
-          type: 'success',
-        })
+          addNotification({
+            message: l10n.getString('add-sentence-success'),
+            type: 'success',
+          })
+        } else {
+          // Process small batch response
+          const smallBatchResponse: SmallBatchResponse = await createSentence({
+            sentenceSubmission: newSentence,
+            isSmallBatch: true,
+          })
+
+          addNotification({
+            message: l10n.getString('add-small-batch-success', {
+              uploadedSentences: smallBatchResponse.valid_sentences_count,
+              totalSentences: smallBatchResponse.total_count,
+            }),
+            type: 'success',
+          })
+        }
 
         sentenceWriteDispatch({
           type: SentenceWriteActionType.ADD_SENTENCE_SUCCESS,

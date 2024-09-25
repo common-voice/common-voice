@@ -5,7 +5,8 @@ write-instruction = Add <icon></icon> a public domain sentence
 write-page-subtitle = Sentences contributed here will be added to a publicly available cc-0 licensed dataset.
 sentence =
     .label = Sentence
-sentence-input-value = Enter your public domain sentence here
+sentence-input-placeholder = Enter your public domain sentence here
+small-batch-sentence-input-placeholder = Enter your public domain sentences here
 citation-input-placeholder = Reference the source of your sentence (required)
 citation =
     .label = Citation
@@ -95,8 +96,13 @@ file-too-small = File is too small
 too-many-files = Too many files
 
 ## SMALL BATCH SUBMISSION
+# <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Add multiple public domain sentences
 multiple-sentences-error = You cannot add multiple sentences for a single submission
+# <errorIcon></erroricon> will be replace with an icon that represents an error
+exceeds-small-batch-limit-error = <errorIcon></erroricon> Cannot submit more than 1000 sentences
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success = { $uploadedSentences } of { $totalSentences } sentences collected
 small-batch-sentences-rule-1 = Follow guidelines from “What sentences can I add?”
 small-batch-sentences-rule-2 = Add one sentence per line
 small-batch-sentences-rule-3 = Separate sentences into one line by pressing “Enter” or “Return” once

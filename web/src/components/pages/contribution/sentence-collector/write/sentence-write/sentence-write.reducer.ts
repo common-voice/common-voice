@@ -1,69 +1,12 @@
-import { SentenceSubmissionError } from 'common'
-
-export type SentenceWriteState = {
-  sentence: string
-  citation: string
-  sentenceDomains: string[]
-  sentenceVariant?: string
-  error: SentenceSubmissionError
-  confirmPublicDomain: boolean
-}
-
-export enum SentenceWriteActionType {
-  SET_PUBLIC_DOMAIN = 'SET_PUBLIC_DOMAIN',
-  SET_SENTENCE = 'SET_SENTENCE',
-  SET_CITATION = 'SET_CITATION',
-  SET_DOMAIN = 'SET_SENTENCE_DOMAIN',
-  SET_VARIANT = 'SET_SENTENCE_VARIANT',
-  ADD_SENTENCE_SUCCESS = 'ADD_SENTENCE_SUCCESS',
-  ADD_SENTENCE_ERROR = 'ADD_SENTENCE_ERROR',
-}
-
-type SetPublicDomainAction = {
-  type: SentenceWriteActionType.SET_PUBLIC_DOMAIN
-}
-
-type SetSentenceAction = {
-  type: SentenceWriteActionType.SET_SENTENCE
-  payload: { sentence: string }
-}
-
-type SetCitationAction = {
-  type: SentenceWriteActionType.SET_CITATION
-  payload: { citation: string }
-}
-
-type SetSingleSentenceDomain = {
-  type: SentenceWriteActionType.SET_DOMAIN
-  payload: { sentenceDomains: string[] }
-}
-
-type SetSentenceVariant = {
-  type: SentenceWriteActionType.SET_VARIANT
-  payload: { sentenceVariant: string }
-}
-
-type AddSentenceSuccessAction = {
-  type: SentenceWriteActionType.ADD_SENTENCE_SUCCESS
-}
-
-type AddSentenceErrorAction = {
-  type: SentenceWriteActionType.ADD_SENTENCE_ERROR
-  payload: { error: SentenceSubmissionError }
-}
-
-type Action =
-  | SetPublicDomainAction
-  | SetSentenceAction
-  | SetCitationAction
-  | AddSentenceSuccessAction
-  | AddSentenceErrorAction
-  | SetSingleSentenceDomain
-  | SetSentenceVariant
+import {
+  SentenceWriteActions,
+  SentenceWriteActionType,
+  SentenceWriteState,
+} from './types'
 
 export const sentenceWriteReducer = (
   state: SentenceWriteState,
-  action: Action
+  action: SentenceWriteActions
 ) => {
   switch (action.type) {
     case SentenceWriteActionType.SET_PUBLIC_DOMAIN:
