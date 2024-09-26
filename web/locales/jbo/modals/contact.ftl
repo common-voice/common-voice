@@ -2,3 +2,4 @@
 
 contact-form-name =
     .label = cmene
+contact-required = *sarcu
