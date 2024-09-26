@@ -115,8 +115,10 @@ contribution-varying-pronunciations-title = Different Pronunciation
 contribution-varying-pronunciations-description = Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.
 contribution-varying-pronunciations-description-extended = On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.
 contribution-volume-title = Volume
+contribution-volume-description = There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.
 contribution-reader-effects-title = Reader Effects
 contribution-reader-effects-description = Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.
 contribution-just-unsure-title = Tuka khobor na?
+contribution-just-unsure-description = Zor tuka dista ek vakia mello zo heo guidelines-an spoxtt korunk na, zalyar tumi nirnnoi gheyat kite vote divpache te. Tuka nirnnoi ghevpak korench zaina zalyar, 'sodd' button click kor ani dusrem recording=acher voch.
 see-more = <chevron></chevron>Anik dakoi
 see-less = <chevron></chevron>Tode dakoi
