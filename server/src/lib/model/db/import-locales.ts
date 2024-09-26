@@ -187,6 +187,26 @@ const VARIANTS: Variant[] = [
     variant_name: 'Ɓaŋgɔ̀ (Tupuri Banggo)',
     variant_token: 'tui-banggo',
   },
+  {
+    locale_name: 'tn',
+    variant_name: 'Central Setswana (Sehurutshe, Sengwaketse, Serolong)',
+    variant_token: 'tn-central',
+  },
+  {
+    locale_name: 'tn',
+    variant_name: 'Northern Setswana (Sengwato, Setawana, Sekwena, Selete)',
+    variant_token: 'tn-northern',
+  },
+  {
+    locale_name: 'tn',
+    variant_name: 'Eastern Setswana (Sekgatla, Setlokwa)',
+    variant_token: 'tn-eastern',
+  },
+  {
+    locale_name: 'tn',
+    variant_name: 'Southern Setswana (Setlhaping, Setlharo)',
+    variant_token: 'tn-southern',
+  },
 ]
 
 type Locale = {
