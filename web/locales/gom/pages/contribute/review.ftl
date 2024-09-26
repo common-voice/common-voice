@@ -2,6 +2,8 @@
 
 sc-review-title = Vakiache Niyall
 sc-review-loading = Vakio load zata…
+sc-review-form-button-reject = Bhair mar
+sc-review-form-button-skip = Sodd
 sc-review-form-button-approve = Monzur
 sc-review-form-review-failure = Review could not be saved. Please try again later.
 sc-review-link = Niyall
