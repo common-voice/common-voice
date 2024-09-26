@@ -34,6 +34,13 @@ change-preferences = Settings boddol
 
 contribute-voice-collection-nav-header = Avaaz Ektha'vop
 contribute-sentence-collection-nav-header = Vakio Ektha'vop
+vote-yes = Hoi
+vote-no = Na
+datasets = Datasets
+languages = Languages
+about = About
+partner = Partner
+submit-form-action = Submit
 
 ## Reporting
 
@@ -98,5 +105,6 @@ contribution-criteria-page-description = Somzun gheyat kite kite polovpak zai je
 contribution-for-example = udarann (example)
 contribution-misreadings-title = Chukiche Vachop
 contribution-misreadings-description = Aikota tenna, monn lavun poloi ki je uloile asa tech borovun asa; Matshe pasun chuk asliar "na" kor <br />Chadan-chad chukio asat te he:
+contribution-misreadings-description-extended-list-1 = Missing <strong>'Hanv'</strong> or <strong>'Tu'</strong> at the beginning of the recording.
 see-more = <chevron></chevron>Anik dakoi
 see-less = <chevron></chevron>Tode dakoi
