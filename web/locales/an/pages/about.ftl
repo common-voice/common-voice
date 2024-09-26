@@ -1,10 +1,13 @@
 ## ABOUT US
 
 about-title = Per qué fer servir Common Voice?
+how-does-it-work-title-v2 = Cómo funciona Common Voice?
 how-does-it-work-text = Lo nuestro obchectivo ye crear una base de datos de voces de codigo ubierto. Dona la tuya voz, valida la precisión d'as gravacions d'atros usuarios y aduya a millorar la base de datos.
 
 ## How does it work section
 
+about-language-req-subtitle = Belún demanda anyadir un idioma.
+about-localization-title = Localización d'a web
 about-speak = Charrar
 about-speak-text = Los colaboradors gravan la suya voz mientres leyen frases donadas per los usuarios.
 about-listen-queue = Coda d'escuita
