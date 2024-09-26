@@ -46,8 +46,8 @@ sc-criteria-item-4 = Vakio nem mantat, zalyar right-saidin &quot;Monzur&quot; bu
 sc-criteria-item-5-2 = Vakio voir dille nem mannun ghena zalyar, left-saidin &quot;Bhair mar&quot; button click kor. If you are unsure about the sentence, tuven ti vakia Soddun divche ani dusrem vakio-cher niyall korchem.
 sc-criteria-item-6 = If you run out of sentences to review, anik vakio niyall korpak amchi moddot kor!
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = Check <icon></icon> is this a linguistically correct sentence?
-sc-review-rules-title = Hem sentence guideline manun gheta?
+sc-review-instruction = Check kor<icon></icon> ho vakia konknnin sarko asa?
+sc-review-rules-title = Ho sentence guideline manun gheta?
 sc-review-empty-state = There are currently no sentences to review in this language.
 report-sc-different-language = Dusrech Bhas
 report-sc-different-language-detail = It is written in a language different than what I’m reviewing.
