@@ -4,6 +4,8 @@ language-section-in-progress = En proceso
 language-section-in-progress-new-description = Estes idiomas son actualment en desenrollo per parte d'a comunidat. Las barras de progreso indican l'abance de cada idioma en o proceso de <localizationGlossaryLink>localización d'a web </localizationGlossaryLink> y <sentenceCollectionGlossaryLink>recolección de frases</sentenceCollectionGlossaryLink>.
 language-section-launched = Lanzaus
 language-section-launched-description = Pa estes idiomas publicaus, lo puesto web ha estau <localizationGlossaryLink>localizau</localizationGlossaryLink> con exito, y tiene suficients <sentenceCollectionGlossaryLink>frases recopiladas</sentenceCollectionGlossaryLink> pa permitir <speakLink>charrar</spenderLink> y <listenLink>escuitar</ listenLink > aportacions de forma contina.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Zaguera actualización: { $lastUpdatedTimeStamp }
 languages-show-more = Veyer mas
 languages-show-less = Veyer menos
 language-meter-in-progress = Progreso
@@ -13,6 +15,8 @@ language-search-input =
 language-speakers = Parladors
 localized = Traduciu
 sentences = Frases
+language-validation-hours = Horas
+language-validation-progress = Progreso de validación
 contribute = Colaborar
 get-involved-button = Participa
 get-involved-title = Contribuyir en { $lang }

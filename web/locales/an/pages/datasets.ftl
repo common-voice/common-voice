@@ -1,5 +1,6 @@
 ## Datasets Page
 
+datasets-heading = Conchuntos de datos
 datasets-headline = Somos creyando una base de datos de voces, ubierta y multi idioma, que qualsequiera puede usar pa entrenar aplicacions que utilicen la voz como interficie.
 datasets-positioning =
     Creyemos que las bases de datos amplias y accesibles pa tot lo publico potenciarán la innovación y una sana competencia comercial entre las tecnolochías de voz basadas en l'aprendizache automatico.
@@ -8,6 +9,8 @@ datasets-positioning =
     
     Considera esta pachina como una referencia centralizada d'atras bases de datos ubiertas de voz que, como Common Voice, continan creixendo y sirven de base pa las actualizacions d'as nuestras versions.
 language = Idioma
+download-dataset-header = Descargar lo conchunto de datos
+download-delta-explainer = Hemos feito bels cambios. Los segmentos Delta nomás contienen los clips mas recients dende la zaguera versión.  <deltaLink>Se veiga mas información sobre esta tasca</deltaLink>.
 # File size in gigabytes
 size = Grandaria
 validated-hr-total = Total d'horas validadas
