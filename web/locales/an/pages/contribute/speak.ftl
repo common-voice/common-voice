@@ -41,5 +41,22 @@ terms-agree = Soi d'alcuerdo
 terms-disagree = Soi en desacuerdo
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Gracias per donar los tuyos tallos de voz!
+first-cta-subtitle-text = Querrías compartir información sobre la tuya traza de charrar?
+why-donate = Per qué lo preguntas?
+why-donate-explanation-1 = Esta información ye opcional; nomás la has d'anyadir si ixo te fa sentir comodo. Cuan publiquemos lo conchunto de datos, pseudoanoimizamos tota la información personal y nos aseguramos de que la información como lo tuyo nombre y adreza electronica no siga connectada con la información demografica como la edat u lo sexo.
+why-donate-explanation-2 = Pa que la tecnolochía funcione bien pa toz, los datos que aduyan a los desembolicadors a crear tecnolochía han de refleixar una ampla diversidat de personas. Per eixemplo, si no incluyimos parlants con un acento concreto, alavez la tecnolochía no funcionará bien pa las personas con este acento. <learnMore>Mas información sobre per qué son importants los metadatos.</learnMore>
+add-information-button = Anyade información
+continue-speaking-button = No gracias, sigue charrando
+create-profile-text = Quiers gravar la tuya información?<createProfile>Crea-te un perfil</createProfile>
+thanks-for-voice-toast = Gracias per la información d'a tuya voz
+thanks-for-voice-toast-error = S'ha produciu una errar en ninviar la información d'a tuya voz
+first-cta-gender-select-default-option = Triar una opción
+first-cta-gender-select-help-text =
+    .label = Como describirías lo tuyo sexo u chenero?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Gracias per donar la tuya voz!
+second-cta-subtitle-text = Con un perfil, puez fer lo seguimiento d'a tuya actividat y connectar-te a una comunidat de colaboradors de datos de voz.
+already-have-an-account = Ya tiens una cuenta? <login>Inicia la sesión</login>
+create-profile-button = Crea un perfil
 # IMAGE TAGS
 img-alt-success-checkmark = marca d'exito

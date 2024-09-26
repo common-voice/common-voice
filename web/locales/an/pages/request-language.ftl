@@ -24,3 +24,12 @@ request-language-success-heading = Gracias! Has ninviau una nueva consulta de lu
 request-language-success-list-1 =
     Habrías de recibir en breus un correu electronico explicando
     los pasos pa conseguir anyadir la tuya luenga a Common Voice
+request-language-success-list-2 =
+    Lo nuestro chestor de comunidaz se meterá en contacto con tu pa ofreixer-te
+    soporte adicional,  pa decir-te si i hai ya 
+    una comunidat que treballa en a tuya luenga
+request-language-success-list-3 =
+    Si no sabes cosa de nusatros en un par de días,
+    contacta vía <emailLink>{ $email }</emailLink>
+    y nos meteremos en contacto con tu
+request-language-error = Talment no haigamos recibiu esta solicitut. Ninvia-nos un correu electronico directament a <emailLink>{ $email }</emailLink> y te responderemos!
