@@ -2,6 +2,7 @@
 
 sc-review-title = Vakiache Niyall
 sc-review-loading = Vakio load zata…
+sc-review-form-usage = Vakia Mon'zur korpak davo vatten swipe kor. Bhair marpak uzvo vatten swipe kor. Soddpak voir swipe kor. <strong>Do not forget to submit your review!</strong>
 sc-review-form-button-reject = Bhair mar
 sc-review-form-button-skip = Sodd
 sc-review-form-button-approve = Monzur
@@ -17,6 +18,7 @@ sc-criteria-item-1 = The sentence must be spelled correctly.
 sc-criteria-item-2 = The sentence must be grammatically correct.
 sc-criteria-item-3 = The sentence must be speakable.
 sc-criteria-item-4 = Vakio nem mantat, zalyar right-saidin &quot;Monzur&quot; button click kor.
+sc-criteria-item-5-2 = Vakio voir dille nem mannun ghena zalyar, left-saidin &quot;Bhair mar&quot; button click kor. If you are unsure about the sentence, tuven ti vakia Soddun divche ani dusrem vakio-cher niyall korchem.
 sc-review-rules-title = Hem sentence guideline manun gheta?
 sc-review-empty-state = There are currently no sentences to review in this language.
 report-sc-different-language = Dusrech Bhas
