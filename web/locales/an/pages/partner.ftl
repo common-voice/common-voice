@@ -12,6 +12,7 @@ partnerships-governments-description = Somos encantaus de dar soporte a la parti
 partnerships-academia-header = Universidaz, academicos y investigadors
 partnerships-academia-description = La innovación ubierta ye en o corazón d'o que femos. Pa colaboracions d'investigación, replega de datos u entrevistas, <emailFragment>mete-te en contacto.</emailFragment>
 partnerships-small-business-header = Chicotas empresas, incluyidas las empresas emerchents de tecnolochía IA
+partnerships-small-business-description = Siempre somos mirando d'ascuitar a los consumidors de datos sobre las suya necesidaz y lo suyo contexto: dende colaborar en a plataforma de replega de datos dica proporcionar información sobre la salut d'os datos, queremos <emailFragment>ascuitar-te.</emailFragment>
 partnerships-corporates-header = Grans empresas y empresas de plataformas
 partnerships-corporates-description = Si quiers charrar mas sobre lo conchunto de datos, quiers invertir en as expansions planificadas d'a plataforma u miras oportunidaz de colaboracions, <emailFragment>ninvia-nos unas linias</emailFragment>
 partnerships-our-partners = Los nuestros socios
