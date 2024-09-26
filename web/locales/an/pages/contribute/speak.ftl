@@ -1,3 +1,6 @@
+speak = Charrar
+speak-now = Charra agora
+speak-subtitle = Dona la tuya voz
 record-cta = Empecipiar a gravar
 record-platform-not-supported = Lo sentimos, pero la tuya plataforma actualment no ye suportada.
 record-platform-not-supported-desktop = En ordinadors d'escritorio, puetz descargar la zaguera versión:
@@ -36,3 +39,7 @@ review-delete-recordings = Eliminar las mías gravacions
 review-terms = En usar Common Voice, acceptas los nuestros <termsLink>Termins d'uso</termsLink> y la <privacyLink>Politica de privacidat</privacyLink>
 terms-agree = Soi d'alcuerdo
 terms-disagree = Soi en desacuerdo
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Gracias per donar los tuyos tallos de voz!
+# IMAGE TAGS
+img-alt-success-checkmark = marca d'exito
