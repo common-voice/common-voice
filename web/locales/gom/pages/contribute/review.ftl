@@ -1,11 +1,17 @@
 ## REVIEW
 
+sc-review-lang-not-selected = You have not selected any languages. Please go to your <profileLink>Profile</profileLink> to select languages.
 sc-review-title = Vakiache Niyall
 sc-review-loading = Vakio load zata…
+sc-review-select-language = Bhas select kor vakio-cher niyall korpak.
+sc-review-no-sentences = Niyall korpak anik vakio asona. <addLink>Anik vakio tumi ata ghalat!</addLink>
+sc-review-form-prompt =
+    .message = Reviewed sentences not submitted, are sure?
 sc-review-form-usage = Vakia Mon'zur korpak davo vatten swipe kor. Bhair marpak uzvo vatten swipe kor. Soddpak voir swipe kor. <strong>Do not forget to submit your review!</strong>
 sc-review-form-button-reject = Bhair mar
 sc-review-form-button-skip = Sodd
 sc-review-form-button-approve = Monzur
+sc-review-form-keyboard-usage-custom = Tuven Keyboard Shortcut-ui vaporpak zata: { sc-review-form-button-approve-shortcut } Mon'zur korpak, { sc-review-form-button-reject-shortcut } Bhair marpak, { sc-review-form-button-skip-shortcut } soddpak
 sc-review-form-review-failure = Review could not be saved. Please try again later.
 sc-review-link = Niyall
 
