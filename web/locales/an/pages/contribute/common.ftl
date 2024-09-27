@@ -1,6 +1,7 @@
 action-click = Clic
 action-tap = Triar
 contribute = Colaborar
+review = Revisar
 skip = Blincar
 shortcuts = Accesos directos
 clips-with-count-pluralized =
@@ -12,7 +13,11 @@ goal-help-recording = Gracias a la tuya aduya Common Voice ha aconseguiu lo d'o 
 goal-help-validation = Gracias a la tuya aduya Common Voice ha aconseguiu lo d'o <goalPercentage></goalPercentage> nuestro obchectivo diario de validación d'o { $goalValue }!
 contribute-more = Presto/a pa fer { $count } mas?
 speak-empty-state = Nos hemos quedau sin frases pa gravar en este idioma ...
+no-sentences-for-variants = La tuya variedat lingüistica puede haber feito curto de frases! Si yes comodo, puez cambiar los tuyos achustes pa veyer atras frases endentro d'o tuyo idioma.
 speak-empty-state-cta = Colabora con mas frases
+speak-loading-error =
+    No hemos puesto cargar las oracions.
+    Per favor, torna a intentar-lo dimpués.
 record-button-label = Grava la tuya voz
 share-title-new = <bold>Aduya-nos</bold> a trobar mas voces.
 keep-track-profile = Fe un seguimiento d'o tuyo progreso con un perfil
@@ -22,9 +27,20 @@ target-segment-generic-card = Yes contribuyindo a un segmento obchectivo
 target-segment-first-banner = Aduya a crear lo primer obchectivo segmentau de Common Voice en { $locale }
 target-segment-add-voice = Anyade la tuya voz
 target-segment-learn-more = Mas información
+change-preferences = Cambiar las preferencias
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Replega de voces
+contribute-sentence-collection-nav-header = Replega de frases
+login-signup = Iniciar sesión / Rechistrar-se
+vote-yes = Sí
+vote-no = No
+datasets = Conchuntos de datos
+languages = Luengas
+about = Cuanto a
+partner = Colaborador
+submit-form-action = Ninviar
 
 ## Reporting
 

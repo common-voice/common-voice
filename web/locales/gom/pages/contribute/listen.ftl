@@ -1,4 +1,5 @@
 listen = Aik
+listen-subtitle = Avaazache sarkeponn topasunk moddot kor
 listen-instruction = <playIcon></playIcon>{ $actionType }. Ulovpin asa toshech uloile?
 listen-again-instruction = Bore kam kele!<playIcon></playIcon> Toiar zavun porot aik
 listen-3rd-time-instruction = 2 zale, anik korun voch!

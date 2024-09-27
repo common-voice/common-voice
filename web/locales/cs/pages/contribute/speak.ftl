@@ -1,3 +1,6 @@
+speak = Mluvte
+speak-now = Nyní mluvte
+speak-subtitle = Darujte svůj hlas
 record-cta = Spustit nahrávání
 record-platform-not-supported = Je nám líto, ale vaše platforma zatím není podporovaná.
 record-platform-not-supported-desktop = Na počítačích si můžete stáhnout nejnovější:

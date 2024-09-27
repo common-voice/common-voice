@@ -17,6 +17,7 @@ contribute-more =
        *[other] Anik { $count } korpak toiar asa?
     }
 speak-empty-state = Hea bhas'ant anik vakio mellunk na tuka record korpak.
+no-sentences-for-variants = Tuji bhasachi 'variant'-an vakio samapt zale astole! If you’re comfortable, you can change your settings to see other sentence variants within your language.
 speak-empty-state-cta = Vakio yogdan korat
 speak-loading-error = Tuka ulovpak koinchech vakio mell'llunk na. Anik matshe vell'llan porot try kor.
 record-button-label = Tuje avaaz record kor
@@ -32,8 +33,16 @@ change-preferences = Settings boddol
 
 ## Contribution Nav Items
 
-contribute-voice-collection-nav-header = Avaaz Ekthaim'vap
-contribute-sentence-collection-nav-header = Vakio Ekthaim'vap
+contribute-voice-collection-nav-header = Avaaz Ektha'vop
+contribute-sentence-collection-nav-header = Vakio Ektha'vop
+login-signup = Log In / Sign Up
+vote-yes = Hoi
+vote-no = Na
+datasets = Datasets
+languages = Languages
+about = About
+partner = Partner
+submit-form-action = Submit
 
 ## Reporting
 
@@ -98,5 +107,21 @@ contribution-criteria-page-description = Somzun gheyat kite kite polovpak zai je
 contribution-for-example = udarann (example)
 contribution-misreadings-title = Chukiche Vachop
 contribution-misreadings-description = Aikota tenna, monn lavun poloi ki je uloile asa tech borovun asa; Matshe pasun chuk asliar "na" kor <br />Chadan-chad chukio asat te he:
+contribution-misreadings-description-extended-list-1 = Missing <strong>'Hanv'</strong> or <strong>'Tu'</strong> at the beginning of the recording.
+contribution-misreadings-description-extended-list-2 = Missing 'a' in 'amchea' at the end of the word.
+contribution-misreadings-description-extended-list-3 = Reading "Mak dista" but the sentence has "Mak disota", or vice versa.
+contribution-misreadings-description-extended-list-4 = Missing the end of the last word by cutting off the recording too quickly.
+contribution-misreadings-description-extended-list-5 = Taking several attempts to read a word.
+contribution-misreadings-example-3-explanation = [Recording cut off before the end of the last word]
+contribution-varying-pronunciations-title = Different Pronunciation
+contribution-varying-pronunciations-description = Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.
+contribution-varying-pronunciations-description-extended = On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.
+contribution-background-voices-example-1-explanation = Tu yeta? <strong>[anik konn uloita]</strong>
+contribution-volume-title = Volume
+contribution-volume-description = There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.
+contribution-reader-effects-title = Reader Effects
+contribution-reader-effects-description = Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.
+contribution-just-unsure-title = Tuka khobor na?
+contribution-just-unsure-description = Zor tuka dista ek vakia mello zo heo guidelines-an spoxtt korunk na, zalyar tumi nirnnoi gheyat kite vote divpache te. Tuka nirnnoi ghevpak korench zaina zalyar, 'sodd' button click kor ani dusrem recording=acher voch.
 see-more = <chevron></chevron>Anik dakoi
 see-less = <chevron></chevron>Tode dakoi

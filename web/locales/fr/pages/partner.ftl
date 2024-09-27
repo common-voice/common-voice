@@ -1,6 +1,6 @@
 # PARTNERSHIPS PAGE
 partnerships-header = Partenariats
-partnerships-header-text = Créer Common Voice demande beaucoup d’efforts ! Nous ne le faisons pas seuls. Vous voulez vous associer à nous ? Faites-le-nous savoir !
+partnerships-header-text = Créer Common Voice demande beaucoup d’efforts ! Nous ne le faisons pas seuls. Vous voulez vous associer à nous ? Faites-le-nous savoir !
 partnerships-get-in-touch = Nous contacter
 partnerships-become-a-partner = Devenir partenaire de Common Voice
 partnerships-community-header = Communauté, créatifs et société civile

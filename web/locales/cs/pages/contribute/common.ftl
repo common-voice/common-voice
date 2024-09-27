@@ -39,6 +39,14 @@ change-preferences = Změnit předvolby
 
 contribute-voice-collection-nav-header = Sbírka hlasů
 contribute-sentence-collection-nav-header = Sbírka vět
+login-signup = Přihlášení / Registrace
+vote-yes = Ano
+vote-no = Ne
+datasets = Datasety
+languages = Jazyky
+about = O nás
+partner = Partnerství
+submit-form-action = Odeslat
 
 ## Reporting
 

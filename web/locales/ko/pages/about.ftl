@@ -146,3 +146,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>관리 방식�
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Common Voice는 어떻게 자금을 조달하나요?
+about-playbook-how-funded-content-1 = Common Voice는 미국 501c3 비영리 단체인 Mozilla Foundation이 진행하는 프로젝트입니다. 이 프로젝트는 현재 <philantropicGrantLink>자선 기부금</philantropicGrantLink>과 전 세계인들의 기부금으로만 운영되고 있습니다.
+about-playbook-how-funded-content-2 = 데이터 세트의 지속적인 호스팅 및 배포, 플랫폼 개선, <africaMradiLink>커뮤니티 프로그램</africaMradiLink> 운영에는 비용이 많이 듭니다.
+about-playbook-how-funded-content-3 = 개인 또는 조직으로서 이 프로젝트에 기여하고 싶다면 <donateLink>기부</donateLink>를 하시거나 <emailFragment>commonvoice@mozilla.com</emailFragment>으로 파트너십 팀에 연락하세요.

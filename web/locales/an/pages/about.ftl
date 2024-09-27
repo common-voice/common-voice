@@ -1,10 +1,27 @@
 ## ABOUT US
 
 about-title = Per qué fer servir Common Voice?
+about-header-description-v2 =
+    <p>Common Voice ye un conchunto de datos de voz disponible publicament, fendo servir las voces de colaboradors voluntarios de tot lo mundo. Las personas que quieren crear aplicacions de voz pueden emplegar lo conchunto de datos pa entrenar modelos d'aprendizache automatico.</p>
+    <p>En l'actualidat, la mayoría d'os conchuntos de datos de voz son propiedat d'empresas, cosa que frena la innovación. Los conchuntos de datos de voz tamién representan en exceso a hombres blancos de parla anglesa. Ixo quiere decir que la tecnolochía habilitada per voz no funciona brenca pa muitas luengas y, an que funciona, talment no funciona igual pa toz. Queremos cambiar ixo mobilizando a chent pa compartir la suya voz.</p>
+how-does-it-work-title-v2 = Cómo funciona Common Voice?
 how-does-it-work-text = Lo nuestro obchectivo ye crear una base de datos de voces de codigo ubierto. Dona la tuya voz, valida la precisión d'as gravacions d'atros usuarios y aduya a millorar la base de datos.
 
 ## How does it work section
 
+about-language-req-subtitle = Belún demanda anyadir un idioma.
+about-localization-title = Localización d'a web
+about-localization-subtitle = Lo texto d'o web se traduce a este luenga.
+about-sentence-collection-title = Replega de frases
+about-sentence-collection-subtitle = Se replegan frases pa que la chent las leiga en voz alta.
+about-new-lang-title = Lanzamiento d'una nueva luenga
+about-new-lang-subtitle = Se publica lo puesto web de Common Voice en esta luenga.
+about-voice-contrib-title = Colaboracions con la voz
+about-voice-contrib-subtitle = La chent viene y colabora gravando la suya voz.
+about-voice-validation-title = Validación d'as voces
+about-voice-validation-subtitle = Atras personas validan los segmentos de voz.
+about-dataset-release-title = Publicación d'o conchunto de datos
+about-dataset-release-subtitle = Publicamos lo conchunto de datos cada 3 meses.
 about-speak = Charrar
 about-speak-text = Los colaboradors gravan la suya voz mientres leyen frases donadas per los usuarios.
 about-listen-queue = Coda d'escuita
