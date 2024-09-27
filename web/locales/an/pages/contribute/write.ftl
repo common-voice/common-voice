@@ -1,43 +1,75 @@
 ## WRITE PAGE
 
-write = Escribir
-write-instruction = Adhiba <icon></icon> una oración de dominio publico
-write-page-subtitle = Las oracions aportadas aquí s'adhibirán a un conchunto de datos con licencia cc-0 disponible publicament.
+write = Escrebir
+write-instruction = Anyade <icon></icon> una oración de dominio publico
+write-page-subtitle = Las oracions aportadas aquí s'anyadirán a un conchunto de datos con licencia cc-0 disponible publicament.
 sentence =
     .label = Oración
 sentence-input-value = Introduzca aquí la suya frase de dominio publico
+citation-input-placeholder = Indica cuál ye la fuent d'a tuya frase (obligatorio)
 citation =
-    .label = Citación
+    .label = Cita
 sc-write-submit-confirm = Confirmo que esta oración ye <wikipediaLink>dominio publico</wikipediaLink> y tiengo permiso pa puyar-la.
 sc-review-write-title = Qué frases puedo anyadir?
 new-sentence-rule-1 = <noCopyright>Sin restriccions de dreitos d'autor</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Menos de 15 parolas per oración.
 new-sentence-rule-3 = Usa la gramatica correcta
-new-sentence-rule-4 = Utilice ortografía y puntuación correctas.
+new-sentence-rule-4 = Emplegue la ortografía y puntuación correctas.
 new-sentence-rule-5 = Sin numeros ni carácters especials
-new-sentence-rule-6 = Sin letras extrancheras
+new-sentence-rule-6 = Sin letras estrancheras
 new-sentence-rule-7 = Incluyir cita apropiada
-new-sentence-rule-8 = Ideyalment natural y conversacional (ha d'estar fácil leyer la oración)
-how-to-cite = Cómo cito?
+new-sentence-rule-8 = Idealment natural y conversacional (ha d'estar fácil leyer la oración)
+how-to-cite = Cómo cal citar?
 how-to-cite-explanation-bold = Cita con un vinclo URL u lo nombre completo d'a obra.
-how-to-cite-explanation = Si son las tuyas propias parolas, simplament di <italicizedText>“Autocita”</italicizedText>. Amenestemos saber án trobó este conteniu pa poder comprebar que ye de dominio publico y que no s'aplican restriccions de dreitos d'autor. Pa obtener mas información sobre las citas, consulte la nuestra <guidelinesLink>pachina de pautas</guidelinesLink>.
-guidelines = Pautas
+how-to-cite-explanation = Si son las tuyas propias parolas, di simplament <italicizedText>“Autocita”</italicizedText>. Nos cal saber án has trobau este conteniu pa poder comprebar que ye de dominio publico y que no s'aplican restriccions de dreitos d'autor. Pa obtener mas información sobre las citas, consulta la nuestra <guidelinesLink>pachina de directrices</guidelinesLink>.
+guidelines = Directrices
 contact-us = Contacta con nusatros
 add-sentence-success = 1 frase replegada
-add-sentence-error = Error en adhibir la oración
-required-field = Per favor replene este campo.
+add-sentence-error = Error en anyadir la frase
+required-field = Replene este campo.
 single-sentence-submission = Ninvio d'una sola frase
-bulk-sentence-submission = Ninvio d'oracions masivas
-single-sentence = Oración sola
-bulk-sentences = Oracions masivas
+bulk-sentence-submission = Ninvio masivo de frases
+single-sentence = Una sola frase
+bulk-sentences = Frases masivas
+sentence-domain-combobox-label = Dominio d'as frases
+sentence-domain-select-placeholder = Tría dica tres dominios (opcional)
+# Sentence Domain dropdown option
+agriculture_food = Agricultura y alimentación
+# Sentence Domain dropdown option
+automotive_transport = Transporte y automoción
+# Sentence Domain dropdown option
+finance = Finanzas
+# Sentence Domain dropdown option
+service_retail = Servicios y venta a lo detalle
+# Sentence Domain dropdown option
+general = Cheneral
+# Sentence Domain dropdown option
+healthcare = Atención sanitaria
+# Sentence Domain dropdown option
+history_law_government = Historia, dreito y gubierno
+# Sentence Domain dropdown option
+language_fundamentals = Fundamentos d'a luenga (p. eix. dichitos, letras, diners)
+# Sentence Domain dropdown option
+media_entertainment = Medios de comunicación y entretenimiento
+# Sentence Domain dropdown option
+nature_environment = Naturaleza y medio ambient
+# Sentence Domain dropdown option
+news_current_affairs = Noticias y actualidat
+# Sentence Domain dropdown option
+technology_robotics = Tecnolochía y robotica
+sentence-variant-select-label = Variedat d'a frase
+sentence-variant-select-placeholder = Tría una variedat (opcional)
+sentence-variant-select-multiple-variants = Idioma cheneral / multiples variedaz
 
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Puya frases de dominio publico <icon></icon>
-sc-bulk-upload-instruction = Arrociegue lo suyo fichero aquí u <uploadButton>faiga clic pa cargar</uploadButton>
+sc-bulk-upload-instruction = Arrociega lo tuyo fichero aquí u <uploadButton>fe clic pa cargar</uploadButton>
 sc-bulk-upload-instruction-drop = Suelta lo fichero aquí pa puyar-lo
-try-upload-again = Intenta-lo de nuevo arrocegando lo tuyo fichero aquí
+bulk-upload-additional-information = Si quiers proporcionar información adicional sobre este fichero, mete-te en contacto con <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Si quiers proporcionar información adicional sobre este fichero que no sía incluyida en a plantilla, mete-te en contacto con <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Intenta-lo de nuevo arrocegando lo tuyo fichero enta aquí
 try-upload-again-md = Intenta puyar de nuevo
 select-file = Tríe Fichero
 select-file-mobile = Tríe lo fichero pa cargar
