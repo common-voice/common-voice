@@ -28,6 +28,7 @@ add-sentence-success = 1 vakia puzaile
 add-sentence-error = Vakia ghetna kite chuk zale (Error adding sentence)
 required-field = Please fill out this field.
 sentence-variant-select-label = Vakia'che Zaat
+sentence-variant-select-placeholder = Tumche bhasachem veggle-ponn select kor (optional)
 sentence-variant-select-multiple-variants = General language / multiple variants
 
 ## BULK SUBMISSION 
