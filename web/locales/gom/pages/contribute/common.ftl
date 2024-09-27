@@ -134,6 +134,7 @@ contribution-varying-pronunciations-example-1-explanation = [Additional content 
 contribution-varying-pronunciations-example-2-title = [Additional content to be added/translated]
 contribution-varying-pronunciations-example-2-explanation = [Additional content to be added/translated]
 contribution-background-noise-title = Fatlean Bovall Asa
+contribution-background-noise-description = Amkam zai 'machine learning algorithm'-ank veg-vegle va vingad-vingad toreche bovall sospak. Anik mot-mot'tean bovall zata te sudda bhitor ghevpak zata punn te bovallan tuka shabda/utra aikonk yena zalyar teka bhair mar. Fatleant xant muzik asa zalyar cholta, punn muzik borench mot'tean asa ani tuka ek-ek utor/shabd aikonk yena, hem zaina.
 contribution-background-noise-description-extended = Zori tor 'recording' futta va forforta, ani zor tuka boroille avaaz aikonk yena ZALYARUCH ti bhair mar.
 contribution-background-noise-example-1-fixed-title = <strong>[Xink yeta]</strong>Mhojie  gaddient petrol<strong>[khonkli yeta]</strong> ghal.
 contribution-background-noise-example-2-fixed-title = Mhojie gaddi- <strong>[khonkli]</strong> -trol ghal.
