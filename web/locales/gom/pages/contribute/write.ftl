@@ -31,11 +31,14 @@ sentence-variant-select-label = Vakia'che Zaat
 
 ## BULK SUBMISSION 
 
+try-upload-again-md = Ani ek pavti try kor
+select-file = File select kor
 select-file-mobile = File upload korpak vicchun kad
 accepted-files = Accepted file types: .tsv only
 minimum-sentences = Vakio asunk zai: 1000 ani voir
 maximum-file-size = chod korun file size: 25 MB
 what-needs-to-be-in-file = Mhojie file'ant kite aspak zai?
+what-needs-to-be-in-file-explanation = Please check our <templateFileLink>template file</templateFileLink>. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.
 upload-progress-text = Upload zata...
 sc-bulk-submit-confirm = I confirm that these sentence are <wikipediaLink>public domain</wikipediaLink> and I have permission to upload them.
 bulk-upload-success-toast = Bulk Sentences Uploaded
