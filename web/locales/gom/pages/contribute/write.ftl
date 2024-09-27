@@ -28,9 +28,16 @@ add-sentence-success = 1 vakia puzaile
 add-sentence-error = Vakia ghetna kite chuk zale (Error adding sentence)
 required-field = Please fill out this field.
 sentence-variant-select-label = Vakia'che Zaat
+sentence-variant-select-multiple-variants = General language / multiple variants
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Upload <icon></icon> public domain sentences
+sc-bulk-upload-instruction = Tuje file upload korpak hanga 'drag' kor va <uploadButton>hanga click kor</uploadButton>
+sc-bulk-upload-instruction-drop = Drop file here to upload
+template-file-additional-information = Zor tuka hea file-i sambondit ani kite sangpak zai je hea template-an sangunk na, zalyar contact kor  <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Try again by dragging your file here
 try-upload-again-md = Ani ek pavti try kor
 select-file = File select kor
 select-file-mobile = File upload korpak vicchun kad
