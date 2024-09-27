@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = Afarština
 ab = Abcházština
+abb = Bankon
 ace = Acehština
 ady = Adygejština
 af = Afrikánština
@@ -15,8 +17,13 @@ arn = Mapudungunština
 as = Ásámština
 ast = Asturština
 az = Ázerbájdžánština
+azz = Highland Puebla Nahuatl
 ba = Baškirština
+bal = Balúčština
 bas = Basarijština
+bax = Bamun
+bba = Baatonum
+bbj = Ghomala
 be = Běloruština
 bg = Bulharština
 bm = Bambarština
@@ -215,12 +222,6 @@ zza = Zazaki
 
 ## Layout
 
-speak = Mluvte
-speak-now = Nyní mluvte
-datasets = Datasety
-languages = Jazyky
-about = O projektu
-partner = Partnerství
 profile = Profil
 help = Nápověda
 contact = Kontakt
@@ -240,7 +241,6 @@ privacy-info = Slibujeme, že budeme vaše informace zpracovávat s péčí. Př
 return-to-cv = Návrat do Common Voice
 email-input =
     .label = E-mail
-submit-form-action = Odeslat
 loading = Načítání…
 email-opt-in-info = Chci dostávat e-maily jako jsou přimínky k nedosaženým cílům, informace o mém postupu nebo novinky o projektu Common Voice.
 email-opt-in-info-title = Připojte se do elektronické konference Common Voice
@@ -251,7 +251,7 @@ not-available-abbreviation = není k dispozici
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Potřebujeme</mark><br/><mark>vaši pomoc!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Hostování datových sad a zlepšování platformy pro více než 100 jazykových komunit, které se spoléhají na naši práci, stojí téměř milion dolarů ročně. <strong>Jestliže si ceníte otevřených a inkluzivních dat - přispějte ještě dnes!</strong>
