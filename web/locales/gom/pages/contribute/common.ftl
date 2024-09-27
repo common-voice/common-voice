@@ -133,6 +133,7 @@ contribution-varying-pronunciations-example-1-title = On his head he wore a bere
 contribution-varying-pronunciations-example-1-explanation = [Additional content to be added/translated]
 contribution-varying-pronunciations-example-2-title = [Additional content to be added/translated]
 contribution-varying-pronunciations-example-2-explanation = [Additional content to be added/translated]
+contribution-background-noise-title = Background Bovall
 contribution-background-noise-example-1-fixed-title = <strong>[Xink yeta]</strong>Mhojie  gaddient petrol<strong>[khonkli yeta]</strong> ghal.
 contribution-background-noise-example-3-fixed-title = <strong>[forforta]</strong> -jie gaddient <strong>[forforta]</strong> -rol ghal.
 contribution-background-voices-title = Background Avaaz
