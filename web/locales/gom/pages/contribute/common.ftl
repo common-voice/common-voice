@@ -17,6 +17,7 @@ contribute-more =
        *[other] Anik { $count } korpak toiar asa?
     }
 speak-empty-state = Hea bhas'ant anik vakio mellunk na tuka record korpak.
+no-sentences-for-variants = Tuji bhasachi 'variant'-an vakio samapt zale astole! If you’re comfortable, you can change your settings to see other sentence variants within your language.
 speak-empty-state-cta = Vakio yogdan korat
 speak-loading-error = Tuka ulovpak koinchech vakio mell'llunk na. Anik matshe vell'llan porot try kor.
 record-button-label = Tuje avaaz record kor
