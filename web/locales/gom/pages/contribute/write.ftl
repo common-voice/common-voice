@@ -1,9 +1,15 @@
 ## WRITE PAGE
 
 write = Boroi
-write-instruction = Add <icon></icon> a public domain sentence
+write-instruction = Ek lok uloita te vakia <icon></icon> boroi
+write-page-subtitle = Hanga yogdan kel'le vakio eka cc-0 license dataset-an lokkank download korpak zata.
 sentence =
     .label = Vakia
+sentence-input-value = Tumche public-domain vakia hanga boroi
+citation-input-placeholder = Hem vakia tuka koin mevle? ("required")
+citation =
+    .label = Citation
+sc-write-submit-confirm = I confirm that this sentence is <wikipediaLink>public domain</wikipediaLink> and I have permission to upload it.
 new-sentence-rule-2 = Dor ek vakio chodan-chod 15 utrani asunk zai
 sentence-variant-select-label = Vakia'che Zaat
 
