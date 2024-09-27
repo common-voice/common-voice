@@ -12,6 +12,8 @@ sc-review-form-usage = Esliza enta la dreita pa aprebar la frase. Esliza enta la
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Fuent: { $sentenceSource }
 sc-review-form-button-reject = Refusar
+sc-review-form-button-skip = Omitir
+sc-review-form-button-approve = Aprebar
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = S
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
@@ -29,19 +31,30 @@ sc-review-form-reviewed-message =
         [one] Has revisau 1 frase. Gracias!
        *[other] Has revisau { $sentences } frases. Gracias!
     }
+sc-review-form-review-failure = La revisión no s'ha puesto alzar. Torna-lo a prebar mas enta debant.
+sc-review-link = Revisión
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Criterios de revisión
+sc-criteria-title = Criterios de revisión
+sc-criteria-make-sure = Asegura-te de que las frases cumplen con os siguients criterios:
+sc-criteria-item-1 = La frase ha d'estar bien escrita, sin faltas d'ortografía.
+sc-criteria-item-2 = La frase ha d'estar correcta gramaticalment.
+sc-criteria-item-3 = La frase ha de poder pronunciar-se bien.
+sc-criteria-item-4 = Si la frase cumple estes criterios, fe clic en o botón &quot;Aprebar&quot;.
+sc-criteria-item-5-2 = Si la frase no cumple con os criterios anteriors, fe clic en o botón &quot;Refusar&quot;. Si no'n yes seguro, tamién puez omitir-la y pasar a la siguient.
+sc-criteria-item-6 = Si te quedas sin frases que revisar, aduya-nos a replegar mas frases!
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = Marque <icon></icon> Ye esta una oración lingüisticament correcta?
-sc-review-rules-title = La sentencia cumple con as pautas?
-sc-review-empty-state = Actualment no i hai frases pa revisar en este idioma.
-report-sc-different-language = Unatro idioma
-report-sc-different-language-detail = Ye escrito en un idioma diferent a lo cual soi revisando.
-sentences-fetch-error = Se produció una error en buscar oracions.
-review-error = Se produció una error en revisar esta oración.
-review-error-rate-limit-exceeded = Vas masiau rapido. se Prenga un momento pa revisar la oración y asegurar-se que sía correcta.
+sc-review-instruction = Compreba <icon></icon> Ye esta una oración lingüisticament correcta?
+sc-review-rules-title = La frase cumple con as directrices?
+sc-review-empty-state = Actualment no queda frases pa revisar en este idioma.
+report-sc-different-language = Unatra luenga
+report-sc-different-language-detail = Ye escrito en un idioma diferent d'a que soi revisando.
+sentences-fetch-error = S'ha produciu una error en obtener las oracions.
+review-error = S'ha produciu una error en revisar esta frase.
+review-error-rate-limit-exceeded = Vas masiau rapido. Prene-te un momento pa revisar la oración y asegurar-te de que sía correcta.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = Somos fendo grans cambios
-sc-redirect-page-subtitle-1 = Sentence Collector se ye tresladando a la plataforma prencipal de Common Voice. Agora puede <writeURL>escribir</writeURL> una oración u <reviewURL>revisar</reviewURL> envíos d'oracions individuals en Common Voice.
-sc-redirect-page-subtitle-2 = nos Faiga preguntas en <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> u <emailLink>email</emailLink>.
+sc-redirect-page-title = Somos fendo bels cambios grans
+sc-redirect-page-subtitle-1 = Sentence Collector se ye tresladando a la plataforma prencipal de Common Voice. Agora puez <writeURL>escrebir</writeURL> una frase u <reviewURL>revisar</reviewURL> ninvios d'oracions individuals en Common Voice.
+sc-redirect-page-subtitle-2 = Fe-nos preguntas en <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> u <emailLink>correu-e</emailLink>.
