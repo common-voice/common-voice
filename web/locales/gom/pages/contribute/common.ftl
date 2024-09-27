@@ -34,6 +34,7 @@ change-preferences = Settings boddol
 
 contribute-voice-collection-nav-header = Avaaz Ektha'vop
 contribute-sentence-collection-nav-header = Vakio Ektha'vop
+login-signup = Log In / Sign Up
 vote-yes = Hoi
 vote-no = Na
 datasets = Datasets
@@ -114,6 +115,7 @@ contribution-misreadings-example-3-explanation = [Recording cut off before the e
 contribution-varying-pronunciations-title = Different Pronunciation
 contribution-varying-pronunciations-description = Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.
 contribution-varying-pronunciations-description-extended = On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.
+contribution-background-voices-example-1-explanation = Tu yeta? <strong>[anik konn uloita]</strong>
 contribution-volume-title = Volume
 contribution-volume-description = There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.
 contribution-reader-effects-title = Reader Effects
