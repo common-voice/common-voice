@@ -17,11 +17,14 @@ ba = Башкир
 bas = Баса
 be = Белорус
 bg = Болгар
+bkm = Ком
 bm = Бамбара
 bn = Бенгал
+bnm = Батанга
 bo = Тибет
 br = Бретон
 bs = Босния
+bum = Булу
 bxr = Бурят
 byv = Медумба
 ca = Каталан
@@ -67,6 +70,7 @@ kaa = Қарақалпақ
 kk = Қазақ
 kn = Каннада
 ko = Кореец
+ksf = Бафия
 ky = Қырғыз
 lb = Люксембург
 lg = Луганда
@@ -76,6 +80,7 @@ lo = Лаос
 lt = Литва
 lv = Латыш
 lzz = Лаз
+mbo = Мбо
 mdf = Мокшан
 mn = Монғол
 ms = Малай
@@ -84,6 +89,7 @@ myv = Эрзян
 ne-NP = Непал
 nia = Ниас
 nl = Голланд
+nqo = Нко
 os = Осетин
 pl = Поляк
 ps = Пушту
@@ -130,6 +136,7 @@ wo = Волоф
 xh = Коса
 yi = Идиш
 yo = Йоруба
+yue = Кантон
 zh-CN = Қытай (Қытай)
 zh-HK = Қытай (Гонконг)
 zh-TW = Қытай (Тайван)
@@ -141,10 +148,6 @@ zza = Заза
 
 ## Layout
 
-datasets = Мағлыўматлар топламы
-languages = Тиллер
-about = Биз туўралы
-partner = Серик
 profile = Профил
 help = Жәрдем
 contact = Байланыс
@@ -159,13 +162,12 @@ logout = Шығыў
 return-to-cv = Common Voice ға қайтыў
 email-input =
     .label = Эл.почта
-submit-form-action = Жибериў
 loading = Жүкленбекте...
 not-available-abbreviation = Жоқ
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Бизге, сизиң</mark><br/><mark>жәрдемиңиз керек!</mark>
 localization-select =
     .label = Тил/Локализацияны таңлаң

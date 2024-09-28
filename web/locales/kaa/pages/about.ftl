@@ -58,16 +58,21 @@ about-playbook-how-record-content-3 = Гәплерди оқығанда итиб
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Ўақиялар
+about-playbook-how-grow-language-content-4 = Социал медиа
+about-playbook-how-grow-language-content-6 = Сериклик ҳәм тармақлар
 
 ## How to validate
 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Мағлыўматлар топламын алып қалай қолланыўым мүмкин?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Жойбар бойынша шешимлер қалай қабылланады?
 about-playbook-how-project-governance-content-3 = Қупиялық, қәўипсизлик ҳәм ашықлық.
+about-playbook-how-project-governance-content-6 = Өз-ара жуўапкершилик.
 
 ## How is Common Voice funded
 
