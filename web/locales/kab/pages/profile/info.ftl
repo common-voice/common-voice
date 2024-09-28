@@ -29,6 +29,7 @@ native-language =
 profile-form-add-accent = Rnu aɣdebbu udmawan amaynut « { $inputValue } »
 profile-form-submit-save = Sekles
 profile-form-submit-saved = Yettwasekles
+male_masculine = Amalay
 non-binary = Mačči d imsin
 do_not_wish_to_say = Ur yebɣi ara ad d-yerr
 # Gender
@@ -52,7 +53,6 @@ accept-privacy-title = Tasertit n tbaḍnit
 accept-privacy-and-terms = Qebleɣ <termsLink>Tiwtilin</termsLink> d <privacyLink> Tasertit n tbaḍnit </privacyLink> n Common Voice
 login-identity = Tinekkit n tuqna
 login = Qqen
-login-signup = Kcem / Jerred
 edit = Ẓreg
 email-subscriptions = Ajerred ɣer Imayl
 download-profile = Sader isefka-inu
