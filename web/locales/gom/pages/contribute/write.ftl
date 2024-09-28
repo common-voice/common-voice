@@ -51,8 +51,8 @@ nature_environment = Nature and Environment
 news_current_affairs = News and Current Affairs
 # Sentence Domain dropdown option
 technology_robotics = Technology and Robotics
-sentence-variant-select-label = Vakia'che Zaat
-sentence-variant-select-placeholder = Tumche bhasachem veggle-ponn select kor (optional)
+sentence-variant-select-label = Vakia'che Boli
+sentence-variant-select-placeholder = Tumche bhasachi boli select kor (optional)
 sentence-variant-select-multiple-variants = General language / multiple variants
 
 ## BULK SUBMISSION 
