@@ -47,6 +47,7 @@ about-get-involved-text-2 =
     chat d'a comunidat en <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Cómo me puedo mantener en contacto?
 about-stay-in-touch-button = Rechistrar-se
+about-stay-in-touch-text-2 = Puez conoixer atras personas en as comunidaz lingüisticas de Mozilla unindo-te a <discourseLink>Discourse</discourseLink> pa conversas d'actualidat u a <matrixLink>Matrix</matrixLink> pa obtener un consello rapido.
 about-nav-why-common-voice = Per qué?
 about-nav-how-it-works = Cómo?
 about-nav-partners = Patrocinadors
