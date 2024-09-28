@@ -28,6 +28,11 @@ add-sentence-success = 1 vakia puzaile
 add-sentence-error = Vakia ghetna kite chuk zale (Error adding sentence)
 required-field = Please fill out this field.
 single-sentence-submission = Ekuch vakia submit korpache
+bulk-sentence-submission = 1000+ vakio submit korpache
+single-sentence = Ekuch vakia
+bulk-sentences = Khub Vakio
+sentence-domain-combobox-label = Sentence Domain
+sentence-domain-select-placeholder = Select up to three domains (optional)
 # Sentence Domain dropdown option
 agriculture_food = Agriculture and Food
 # Sentence Domain dropdown option
