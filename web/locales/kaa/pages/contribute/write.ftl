@@ -34,3 +34,4 @@ minimum-sentences = Файлдағы минимал гәплер: 1000
 file-invalid-type = Жарамсыз файл
 file-too-large = Файл жүдә үлкен
 file-too-small = Файл жүдә кишкене
+too-many-files = Жүдә көп файл
