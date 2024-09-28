@@ -27,6 +27,7 @@ contact-us = Amkam sompark kor
 add-sentence-success = 1 vakia puzaile
 add-sentence-error = Vakia ghetna kite chuk zale (Error adding sentence)
 required-field = Please fill out this field.
+single-sentence-submission = Ekuch vakia submit korpache
 # Sentence Domain dropdown option
 agriculture_food = Agriculture and Food
 # Sentence Domain dropdown option
@@ -51,9 +52,9 @@ nature_environment = Nature and Environment
 news_current_affairs = News and Current Affairs
 # Sentence Domain dropdown option
 technology_robotics = Technology and Robotics
-sentence-variant-select-label = Vakia'che Boli
-sentence-variant-select-placeholder = Tumche bhasachi boli select kor (optional)
-sentence-variant-select-multiple-variants = General language / multiple variants
+sentence-variant-select-label = Vakia'che Boli / Prakar
+sentence-variant-select-placeholder = Boli / Prakar select kor (optional)
+sentence-variant-select-multiple-variants = General language / khub prakar aslole
 
 ## BULK SUBMISSION 
 
