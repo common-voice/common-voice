@@ -27,6 +27,30 @@ contact-us = Amkam sompark kor
 add-sentence-success = 1 vakia puzaile
 add-sentence-error = Vakia ghetna kite chuk zale (Error adding sentence)
 required-field = Please fill out this field.
+# Sentence Domain dropdown option
+agriculture_food = Agriculture and Food
+# Sentence Domain dropdown option
+automotive_transport = Automotive and Transport
+# Sentence Domain dropdown option
+finance = Finance
+# Sentence Domain dropdown option
+service_retail = Service and Retail
+# Sentence Domain dropdown option
+general = Sadaronn / General
+# Sentence Domain dropdown option
+healthcare = Healthcare
+# Sentence Domain dropdown option
+history_law_government = History, Law and Government
+# Sentence Domain dropdown option
+language_fundamentals = Language Fundamentals (e.g. Digits, Letters, Money)
+# Sentence Domain dropdown option
+media_entertainment = Media and Entertainment
+# Sentence Domain dropdown option
+nature_environment = Nature and Environment
+# Sentence Domain dropdown option
+news_current_affairs = News and Current Affairs
+# Sentence Domain dropdown option
+technology_robotics = Technology and Robotics
 sentence-variant-select-label = Vakia'che Zaat
 sentence-variant-select-placeholder = Tumche bhasachem veggle-ponn select kor (optional)
 sentence-variant-select-multiple-variants = General language / multiple variants
@@ -37,7 +61,8 @@ sentence-variant-select-multiple-variants = General language / multiple variants
 sc-bulk-upload-header = Upload <icon></icon> public domain sentences
 sc-bulk-upload-instruction = Tuje file upload korpak hanga 'drag' kor va <uploadButton>hanga click kor</uploadButton>
 sc-bulk-upload-instruction-drop = Drop file here to upload
-template-file-additional-information = Zor tuka hea file-i sambondit ani kite sangpak zai je hea template-an sangunk na, zalyar contact kor  <emailFragment>commonvoice@mozilla.com</emailFragment>
+bulk-upload-additional-information = Zor tuka hea file-i sambondit kite sangpak zai, zalyar contact kor  <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Zor tuka hea file-i sambondit kite sangpak zai je hea template-an sangunk na, zalyar contact kor  <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Try again by dragging your file here
 try-upload-again-md = Ani ek pavti try kor
 select-file = File select kor
