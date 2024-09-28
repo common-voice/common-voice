@@ -22,6 +22,7 @@ about-voice-validation-title = Validación d'as voces
 about-voice-validation-subtitle = Atras personas validan los segmentos de voz.
 about-dataset-release-title = Publicación d'o conchunto de datos
 about-dataset-release-subtitle = Publicamos lo conchunto de datos cada 3 meses.
+about-subscribe-text = Quiers estar en contacto con Common Voice?
 about-speak = Charrar
 about-speak-text = Los colaboradors gravan la suya voz mientres leyen frases donadas per los usuarios.
 about-listen-queue = Coda d'escuita
@@ -44,17 +45,26 @@ about-get-involved-text-2 =
     Excelent! Mete-te en contacto per correu electronico u dende lo foro en <discourseLink>Discourse</discourseLink>,
     ninvia problemas con o puesto a traviés de <githubLink>GitHub</githubLink>, u une-te a lo 
     chat d'a comunidat en <matrixLink>Matrix</matrixLink>.
+about-stay-in-touch = Cómo me puedo mantener en contacto?
+about-stay-in-touch-button = Rechistrar-se
 about-nav-why-common-voice = Per qué?
 about-nav-how-it-works = Cómo?
 about-nav-partners = Patrocinadors
 about-nav-get-involved = Colaborar
+about-nav-how-it-works-2 = Cómo funciona Common Voice?
+about-nav-playbook = Aprende a participar-ie
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Qué ye una luenga en Common Voice?
+about-playbook-what-is-language-content-1 = I hai muitas maneras de considerar qué ye una luenga. A efectos d'os modelos de reconoiximiento de voz, Common Voice suchiere centrar-se en a  «intelichibilidat mutua» u «los parladors d'esta luenga se pueden entender entre éls si l'intentan?»
+about-playbook-what-is-language-content-2 = Queremos que los modelos de fabla sigan millors pa entender una ampla gama de parladors. Pa que ixo pase, un conchunto de datos de voz ha de representar a muitas personas diferents.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Cómo anyado una luenga?
+about-playbook-how-add-language-translating-heading = Traducir lo puesto web
 
 ## How does localization work
 
