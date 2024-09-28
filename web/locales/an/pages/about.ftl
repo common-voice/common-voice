@@ -67,6 +67,7 @@ about-nav-get-involved = Colaborar
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Eventos
 
 ## How to validate
 
@@ -79,3 +80,4 @@ about-nav-get-involved = Colaborar
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Cómo se financia Common Voice?

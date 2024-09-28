@@ -180,6 +180,7 @@ quc = K'iche'
 quy = Quechua Chanka
 qvi = Kichwa
 qxp = Puno Quechua
+rif = Tarifit
 rm-sursilv = Romanche Sursilvano
 rm-vallader = Romanche vallader
 ro = Rumano
@@ -189,40 +190,67 @@ sah = Yacuto
 sat = Santali (Ol Chiki)
 sc = Sardo
 scn = Siciliano
+sco = Escocés
+sd = Sindhi
+sdh = Kurdo d'o sud
 shi = Shilha
+shn = Shan
 si = Cingalés
 sk = Eslovaco
+skr = Saraiki
 sl = Esloveno
+snk = Soninke
 so = Somali
 sq = Albanés
 sr = Serbo
+ss = Siswati
+st = Sotho d'o sud
 sv-SE = Sueco
 sw = Swahili
 syr = Siriaco
 ta = Tamil
 te = Telugu
+teg = Teke
 tg = Tayiko
 th = Tai
+ti = Tigrinya
+tig = Tigre
+tk = Turcomano
 tl = Tagalo
+tn = Setswana
+tok = Toki Pona
 tr = Turco
+ts = Xitsonga
 tt = Tartre
+tui = Tupuri
+tvu = Tunen
 tw = Twi
 ty = Tahitiano
+tyv = Tuvan
 uby = Ubikho
 udm = Udmurto
 ug = Uigur
 uk = Ucrainiano
 ur = Urdú
 uz = Uzbeco
+ve = Tshivenda
 vec = Veneciano
 vi = Vietnamés
+vmw = Emakhuwa
 vot = Votico
+wep = Westphalian
+wes = Pidgin de Camerún
+wo = Wolof
+xh = Xhosa
 yi = Yiddish
 yo = Yoruba
 yue = Cantonés
+zgh = Tamazight
 zh-CN = Chino (China)
 zh-HK = Chino (Hong Kong)
 zh-TW = Chino (Taiwán)
+zu = Zulú
+zza = Zaza
 
 # [/]
 
@@ -242,6 +270,7 @@ share-text = Aduya-nos a amostrar a las maquinas cómo charra la chent real, don
 link-copied = Vinclo copiau
 back-top = Tornar ta l'inicio
 logout = Zarrar la sesión
+donate = Fer un donativo
 stayintouch = En Mozilla somos construyindo una comunidat alredol d'a tecnolochía de voz. Nos faría goyo de mantener-te a l'atisva d'as actualizacions, nuevas fuents de datos y de saber mas sobre cómo yes usando ixes datos.
 privacy-info = Prometemos maniar la tuya información con cuenta. Leye mas en a nuestra <privacyLink>politica de privacidat</privacyLink> .
 return-to-cv = Tornar ta Common Voice
@@ -257,3 +286,12 @@ not-available-abbreviation = N/A
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>Nos fa falta</mark><br/><mark>la tuya aduya</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Cuesta cuasi un millón de dólars cada anyo albergar las bases de datos y millorar la plataforma pa las mas de 100 comunidaz lingüisticas que confían en o que femos. <strong>Si valoran los datos ubiertos y inclusivos, fe hue una donación!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Fas servir CV</mark><br/><mark>pa las tuyas investigacions?</mark>
+languages-donate-banner-cta-explanation = Common Voice ye financiau per donacions y aduyas! NOs fa goyo colaborar con academicos, la sociedat civil y investigadors industrials. Common Voice ye grauito, pero nos aduya muito si puez contribuyir a los costes d'a plataforma y d'alochamiento.
+localization-select =
+    .label = Tira una luenga u localización
