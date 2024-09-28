@@ -29,7 +29,8 @@ native-language =
 profile-form-add-accent = Rnu aɣdebbu udmawan amaynut « { $inputValue } »
 profile-form-submit-save = Sekles
 profile-form-submit-saved = Yettwasekles
-male_masculine = Amalay
+male_masculine = Awtem
+female_feminine = Tawtemt
 non-binary = Mačči d imsin
 do_not_wish_to_say = Ur yebɣi ara ad d-yerr
 # Gender
