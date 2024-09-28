@@ -1,5 +1,5 @@
 speak = Uloi
-speak-now = Uloi ata
+speak-now = Ata uloi
 speak-subtitle = Tuje avaaz dan kor
 record-cta = Recording suru kor
 record-platform-not-supported = Maaf korat, tuje 'device' wa 'browser' soddeak ami 'support' korina.
