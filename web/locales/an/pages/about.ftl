@@ -65,12 +65,17 @@ about-playbook-what-is-language-content-2 = Queremos que los modelos de fabla si
 
 about-playbook-how-add-language = Cómo anyado una luenga?
 about-playbook-how-add-language-translating-heading = Traducir lo puesto web
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Leye la guía sobre cómo emplegar Pontoon.</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = Replega de frases
 
 ## How does localization work
 
+about-playbook-how-localize = Cómo funciona la localización?
+about-playbook-how-localize-content-5 = Mira-te lo video explicativo pa aduyar-te
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Cómo i anyado frases?
 
 ## How to record quality
 
@@ -78,12 +83,15 @@ about-playbook-how-add-language-translating-heading = Traducir lo puesto web
 ## How to grow language
 
 about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-4 = Medios de comunicación socials
+about-playbook-how-grow-language-content-6 = Colaboracions y rez
 
 ## How to validate
 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Cómo accedo y emplego lo conchunto de datos?
 
 ## How are decisions made
 
