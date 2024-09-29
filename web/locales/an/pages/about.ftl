@@ -61,6 +61,7 @@ about-nav-playbook = Aprende a participar-ie
 about-playbook-what-is-language = Qué ye una luenga en Common Voice?
 about-playbook-what-is-language-content-1 = I hai muitas maneras de considerar qué ye una luenga. A efectos d'os modelos de reconoiximiento de voz, Common Voice suchiere centrar-se en a  «intelichibilidat mutua» u «los parladors d'esta luenga se pueden entender entre éls si l'intentan?»
 about-playbook-what-is-language-content-2 = Queremos que los modelos de fabla sigan millors pa entender una ampla gama de parladors. Pa que ixo pase, un conchunto de datos de voz ha de representar a muitas personas diferents.
+about-playbook-what-is-language-content-3 = Bellas luengas tienen una gran variación en gramatica, vocabulario y pronuncia. Per este motivo, somos <ctaLink>introducindo las «Variants»</ctaLink> en 2022. Ixo ofreix a las comunidaz una manera de distinguir las luengas en o conchunto de datos mas cheneral.
 
 ## How do I add a language
 
