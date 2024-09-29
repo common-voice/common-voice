@@ -12,6 +12,8 @@
     --dark-red: #57072D;
     --green: #b7d43f;
     --valid-green: #024E28;
+    --stats-light-green: #00758A;
+    --stats-dark-blue:#11264D;
     --dark-green: #082F18;
     --near-black: #4a4a4a;
     --grey: #e7e5e2;
@@ -60,7 +62,7 @@
     --wide-desktop-width: 1400px;
     --desktop-width: 76rem;
     --old-desktop-width: 55rem;
-
+ --button-border-redius:8px;
     --page-margin: 1rem;
     --page-margin-padding: calc(
         ((100vw - var(--desktop-width)) / 2) + (var(--page-margin) * 0.5)
