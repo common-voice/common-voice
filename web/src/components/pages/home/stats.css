@@ -10,10 +10,15 @@
 .home-card {
     width: 100%;
     max-width: 570px;
+    width: 570px;
+    height: 390px;
     padding: 25px 30px;
+    border-radius: 24px;
 
     background: var(--white);
-    box-shadow: var(--card-shadow);
+    /* box-shadow: var(--card-shadow); */
+    box-shadow: 0px 3px 6px #00000016;
+    border: 0.5px solid #00000016;
 
     & .head {
         min-height: 63px;
@@ -63,13 +68,13 @@
         animation: dash 1s linear forwards;
 
         &.total {
-            stroke: var(--red);
+            stroke: var(--stats-dark-blue);
         }
         &.valid {
-            stroke: var(--valid-green);
+            stroke: var(--stats-light-green);
         }
         &.unverified {
-            stroke: var(--blue);
+            stroke: var(--stats-light-green);
         }
     }
 
@@ -79,25 +84,25 @@
 
         &.inner {
             &.total {
-                fill: var(--red);
+                fill: var(--stats-dark-blue);
             }
             &.valid {
-                fill: var(--valid-green);
+                fill: var(--stats-light-green);
             }
             &.unverified {
-                fill: var(--blue);
+                fill: var(--stats-light-green);
             }
         }
 
         &.outer {
             &.total {
-                filter: drop-shadow(0 3px 3px var(--red));
+                filter: drop-shadow(0 3px 3px var(--stats-dark-blue));
             }
             &.valid {
-                filter: drop-shadow(0 3px 3px var(--valid-green));
+                filter: drop-shadow(0 3px 3px var(--stats-light-green));
             }
             &.unverified {
-                filter: drop-shadow(0 3px 3px var(--blue));
+                filter: drop-shadow(0 3px 3px var(--stats-light-green));
             }
         }
     }
@@ -121,16 +126,18 @@
     font-weight: 600;
 
     &.total {
-        color: var(--red);
+        color: var(--stats-dark-blue);
     }
     &.valid {
-        color: var(--valid-green);
+        color: var(--stats-light-green);
     }
     &.unverified {
-        color: var(--blue);
+        color: var(--stats-light-green);
     }
 
     & .point {
+         box-shadow: 0 0 20px 10px rgba(33, 159, 138, 0.2);
+         background-color: transparent;
         margin-top: -3px;
         margin-inline-end: 6px;
         font-size: 20px;

@@ -182,13 +182,19 @@ export default function HomePage() {
           </div>
         </div>
       </div> 
-     <div className="stats">
+      */}
+
+     {/* <div className="stats">
         <ClipsStats.Root />
         <VoiceStats />
-      </div> */}
-      <div className='my-[150px]'>
-      <Charts/>
+      </div>  */}
+
+    <div className='my-[100px]  px-10 flex justify-evenly flex-wrap gap-y-10	'>
+      {/* <Charts/> */}
+      <ClipsStats.Root />
+      <VoiceStats />
       </div>
+
 {/* الأسئلة الشائعة */}
 <FAQList/>
 

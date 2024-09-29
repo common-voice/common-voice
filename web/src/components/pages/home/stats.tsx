@@ -1,4 +1,4 @@
-const spline = require('@yr/monotone-cubic-spline');
+const spline = require('@yr/monotone-cubic-spline')
 import {
   Localized,
   withLocalization,
@@ -101,7 +101,14 @@ export namespace ClipsStats {
 
   const MetricValue = ({ attribute, title, children }: any) => (
     <div className={'metric-value ' + attribute} title={title}>
-      <div className="point">●</div>
+      <span
+        className={`mx-auto w-3 h-3 ${
+          attribute == 'total' ? 'bg-[#11264D]' : 'bg-[#219F8A]'
+        } rounded-full drop-shadow-2xl`}
+        style={{
+          boxShadow: '0 0 20px 10px rgba(33, 159, 138, 0.2)',
+        }}></span>
+
       {children}
     </div>
   );
@@ -353,7 +360,7 @@ export const VoiceStats = connect<PropsFromState>(mapStateToProps)(
     };
 
     render() {
-      const { data } = this.state;
+      const { data } = this.state
       return (
         <StatsCard
           scrollable
@@ -362,9 +369,9 @@ export const VoiceStats = connect<PropsFromState>(mapStateToProps)(
               <Localized id="voices-online">
                 {/* Localized injects content into child tag */}
                 {/* eslint-disable-next-line jsx-a11y/heading-has-content */}
-                <h3 />
+                <h3 className="text-[#00758A]" />
               </Localized>
-              <div className="online-voices">
+              <div className="online-voices text-[#00758A]">
                 {data.length > 0
                   ? data[data.length - 1].value.toLocaleString()
                   : '?'}

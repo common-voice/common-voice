@@ -89,26 +89,17 @@ const faqList = [
 ]
 
 export default function FAQList() {
-  const [visibleCount, setVisibleCount] = useState(5)
-  const [isLoading, setIsLoading] = useState(false)
 
-  const handleShowMore = () => {
-    setIsLoading(true)
-    setTimeout(() => {
-      setVisibleCount(prevCount => prevCount + 5)
-      setIsLoading(false)
-    }, 500)
-  }
   return (
     <>
-      <div className="bg-[#F5F7FA] px-20 py-20">
+      <div className="bg-[#F5F7FA] px-8 md:px-20 py-20" id='faq-list'>
         <h1 className="text-right text-[40px] font-bold mb-8">
           الأسئلة الشائعة
         </h1>
 
         {/* FAQ Container with scroll and overflow handling */}
-        <div className="space-y-4 max-h-[500px] overflow-y-auto">
-          {faqList.slice(0, visibleCount).map((item, index) => (
+        <div className="space-y-4 overflow-y-auto" >
+          {faqList.map((item, index) => (
             <div
               key={index}
               className="collapse collapse-plus bg-white"
@@ -124,19 +115,6 @@ export default function FAQList() {
           ))}
         </div>
 
-        {/* Show More Button */}
-        {visibleCount < faqList.length && (
-          <div className="text-center mt-8">
-            <button
-              onClick={handleShowMore}
-              disabled={isLoading}
-              className={`px-6 py-2 text-white rounded-lg  ${!isLoading ? 'hover:bg-[#005a6e]' : null } 
-                ${isLoading ? 'bg-gray-400' : 'bg-[#00758A]'}`}
-             >
-              {isLoading ? 'تحميل...' : 'المزيد'}
-            </button>
-          </div>
-        )}
       </div>
     </>
   )

@@ -131,7 +131,7 @@ export const ReportModal = withLocalization(({
 
 export const ReportButton = (props: React.HTMLProps<HTMLButtonElement>) => (
   <Button rounded className="open-report-button bg-white text-black speak-button-control" {...props}>
-<img src="/img/flag-report.svg" alt="flag-report" height={16} width={16} />
+<img src="/img/flag-report.svg" alt="flag-report" height={16} width={16}  className='mx-2'/>
     <Localized id="report">
       <span />
     </Localized>

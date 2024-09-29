@@ -199,13 +199,13 @@
                         button {
                             border: none;
                             color: var(--white);
-                            border-radius: 50px;
                             width: 178px;
                             height: 57px;
                             background: var(--blue);
                             font-family: var(--base-font-family);
                             font-weight: 600;
                             text-transform: uppercase;
+                            border-radius: var(--button-border-redius) !important;
                         }
 
                         &.disabled {
@@ -213,6 +213,7 @@
                                 cursor: default;
                                 color: var(--warm-grey);
                                 background: var(--desert-storm);
+                                border-radius: 8px !important;
                             }
                         }
                     }

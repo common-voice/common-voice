@@ -217,7 +217,7 @@ export default function Charts() {
                 <span
                   className="w-3 h-3 bg-[#219F8A] rounded-full drop-shadow-2xl"
                   style={{
-                    boxShadow: '0 0 20px 10px rgba(33, 159, 138, 0.2)', // Adjust the spread, blur, and color
+                    boxShadow: '0 0 20px 10px rgba(33, 159, 138, 0.2)',
                   }}></span>
               </div>
               <p className="flex flex-row-reverse items-center text-[#219F8A] mt-2">

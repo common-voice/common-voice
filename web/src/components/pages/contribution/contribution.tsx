@@ -410,7 +410,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                       translate="no"
                       key={sentence ? sentence.text : i}
                       className={
-                        'card card-dimensions p-5 ' + (isActive ? '' : 'inactive')
+                        'card card-dimensions p-8 ' + (isActive ? '' : 'inactive')
                       }
                       style={{
                         transform: [
@@ -424,7 +424,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                         opacity: i < activeSentenceIndex ? 0 : 1,
                       }}
                       data-testid={`card-${i + 1}`}>
-                      <div style={{ margin: 'auto', width: '100%' }}>
+                      <div className='text-[24px]' style={{ margin: 'auto', width: '100%' }}>
                         {sentence?.text}
                         {sentence?.taxonomy ? (
                           <div className="sentence-taxonomy">
@@ -442,7 +442,37 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                             </StyledLink>
                           </div>
                         ) : null}
+                      
                       </div>
+                      <div className='flex flex-row-reverse justify-between w-full py-5'>
+                            {/* skip button */}
+                        <Button
+              rounded
+              className={[
+                'skip-button',
+                'bg-white text-black',
+                getTrackClass('fs', `skip-${type}`),
+                'fs-ignore-rage-clicks',
+              ].join(' ')}
+              disabled={!this.isLoaded}
+              onClick={onSkip}
+              data-testid="skip-button">
+              {/* <SkipIcon /> */}
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+</svg>
+              <Localized id="skip">
+                <span />
+              </Localized>{' '}
+                         </Button>
+                         {/* Skip Button */}
+
+                         {/*  Report Button*/}
+                         <ReportButton
+                onClick={() => this.setState({ showReportModal: true })}
+              />
+ {/*  Report Button*/}
+                        </div>
                     </div>
                   );
                 })}
@@ -457,7 +487,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
               <div className="inner">
                 {this.isDone && (
                   <div>
-<div className="review-instructions">
+                <div className="review-instructions">
                     <Localized id="review-instruction">
                       <span />
                     </Localized>
@@ -534,43 +564,23 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
               </Localized>
             </LinkButton>
             <div className="extra-buttons">
-              <ReportButton
-                onClick={() => this.setState({ showReportModal: true })}
-              />
               <Tooltip title="Shortcuts" arrow>
                 <Button
                   rounded
                   padding
                   className="hidden-md-down shortcuts-btn bg-white text-black"
                   onClick={this.toggleShortcutsModal}>
-                  <KeyboardIcon />
+                    <span className="mx-2">
+                    <KeyboardIcon  />
+                    </span>
+                  
                   اختصارات
                 </Button>
               </Tooltip>
             </div>
           </div>
           <div>
-            <Button
-              rounded
-              className={[
-                'skip',
-                'bg-white text-black',
-                getTrackClass('fs', `skip-${type}`),
-                'fs-ignore-rage-clicks',
-              ].join(' ')}
-              disabled={!this.isLoaded}
-              onClick={onSkip}
-              data-testid="skip-button">
-              {/* <SkipIcon /> */}
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
-</svg>
-
-
-              <Localized id="skip">
-                <span />
-              </Localized>{' '}
-            </Button>
+          
             {onSubmit && shouldHideCTA && (
               <form
                 onSubmit={onSubmit}

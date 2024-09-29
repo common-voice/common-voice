@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Breadcrumb from '../../Breadcrumb'
-
+import classes from './falak-header.module.css'
 export default function FalakHeader() {
 
   return (
     <>
       <div className="inner-pages py-4 px-4 mx-0 gap-8 md:mx-6 lg:mx-8 xl:mx-8 lg:px-8 flex items-center justify-between">
-        <a className="flex items-center" href="#">
+        <a className="flex items-center" href="https://falak.ksaa.gov.sa/">
           <img
             src="/img/falak-logo-light.svg"
             alt="مِنَصّةُ فلك"
@@ -30,48 +30,49 @@ export default function FalakHeader() {
               </Link>
             </li>
             <li>
-              <Link
-                to="/aboutus"
+              <a
+                href="https://falak.ksaa.gov.sa/aboutus"
                 className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
                 <span>عن فلك</span>
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/corpora"
+              <a
+                href="https://falak.ksaa.gov.sa/corpora"
                 className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
                 <span> المدونات</span>
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
-                to="/frequency-lists"
+              <a
+                href="https://falak.ksaa.gov.sa/frequency-lists"
                 className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
                 <span> قوائم الشيوع</span>
-              </Link>
+              </a>
             </li>
 
             <li>
-              <Link
-                to="/contact-us"
+              <a
+                href="https://falak.ksaa.gov.sa/contact-us"
                 className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
                 <span>اتصل بنا</span>
-              </Link>
+              </a>
             </li>
           </ul>
           {/* {!isLoggedIn ? ( */}
           <div className="flex justify-between lg:block border-t lg:border-t-0 py-3 lg:py-0 mt-3 lg:mt-0">
-            <Link
-              to="/login"
-              className="text-white bg-[#219f8a] mx-1 px-4 py-2 rounded-md font-light">
+            <a
+              href="https://falak.ksaa.gov.sa/auth/login"
+              className={`flex items-center space-x-2 ${classes['login-button']}`}>
               <img
                 src="/img/icon-login.svg"
                 alt="مِنَصّةُ فلك"
                 height="15"
-                className="inline mx-2"
+               className={classes['button-image']}
               />
-              دخول
-            </Link>
+           <span className={classes['button-text']}>دخول</span>
+
+            </a>
             {/* )} */}
             {/* {showRegister && (
             <Link
