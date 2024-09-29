@@ -7,3 +7,4 @@ listen-empty-state = Vi har gått tom for lydklipp å validere på dette språke
 listen-loading-error =
     Vi klarte ikkje å finne lydklipp du kunne høyre på.
     Prøv på nytt seinare.
+listen-abort-confirm = Fullfør valideringa

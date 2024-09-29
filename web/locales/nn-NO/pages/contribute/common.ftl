@@ -27,11 +27,20 @@ target-segment-generic-card = Du bidrar til eit målsegment
 target-segment-first-banner = Hjelp til med å lage Common Voice sitt første målsegment i { $locale }
 target-segment-add-voice = Legg til stemma din
 target-segment-learn-more = Les meir
+change-preferences = Endre innstillingar
 
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Innsamling av stemmer
 contribute-sentence-collection-nav-header = Setningsinnsamling
+login-signup = Logg inn/Registrer deg
+vote-yes = Ja
+vote-no = Nei
+datasets = Datasett
+languages = Språk
+about = Om
+partner = Partnar
+submit-form-action = Send inn
 
 ## Reporting
 
