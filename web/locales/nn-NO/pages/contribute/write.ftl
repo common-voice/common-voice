@@ -19,3 +19,6 @@ try-upload-again-md = Prøv å laste opp igjen
 select-file = Vel fil
 upload-progress-text = Opplasting i framdrift...
 sc-bulk-submit-confirm = Eg stadfestar at desse setningane er <wikipediaLink>offentleg domene</wikipediaLink> og at eg har løyve til å laste dei opp.
+bulk-upload-success-toast = Fleire setningar lasta opp
+file-too-small = Fila er for lita
+too-many-files = For mange filer
