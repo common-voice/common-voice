@@ -77,8 +77,8 @@ const setupAuthRouter = async () => {
 
     const redirectUri = client.authorizationUrl({
       scope: 'profile',
-      code_challenge: generators.codeChallenge(auth.codeVerifier),
-      code_challenge_method: 'S256',
+      // code_challenge: generators.codeChallenge(auth.codeVerifier),
+      // code_challenge_method: 'S256',
       state: auth.state,
     })
 
@@ -90,7 +90,7 @@ const setupAuthRouter = async () => {
   router.get(CALLBACK_URL, async (req: Request, res: Response) => {
     const params = client.callbackParams(req)
     const tokenSet = await client.callback(getCallbackUrl(), params, {
-      code_verifier: req.session.auth.codeVerifier,
+      // code_verifier: req.session.auth.codeVerifier,
       state: req.session.auth.state,
     })
     console.log('received and validated tokens %j', tokenSet)
