@@ -8,7 +8,7 @@ import DB from './lib/model/db'
 import { earnBonus } from './lib/model/achievements'
 import { getConfig } from './config-helper'
 import { ChallengeTeamToken, ChallengeToken } from 'common'
-import { Issuer } from 'openid-client'
+import { Issuer, errors } from 'openid-client'
 import { generators } from 'openid-client'
 
 const {
@@ -100,7 +100,16 @@ const setupAuthRouter = async () => {
       console.log('validated ID Token claims %j', tokenSet.claims())
       res.send('worked')
     } catch (err) {
-      console.log('client callback failed', err)
+      if (err instanceof errors.OPError) {
+        console.log('OP error: ', {
+          err: err.error,
+          desc: err.error_description,
+          resp: err.response,
+          stack: err.stack,
+        })
+      } else {
+        console.log('client callback failed', err)
+      }
       res.send('kaputt')
     }
   })
