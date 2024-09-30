@@ -91,7 +91,7 @@ const setupAuthRouter = async () => {
     const params = client.callbackParams(req)
     console.log('Parameters: %j', params)
     console.log('Callback auth state: %j', req.session.auth)
-    const tokenSet = await client.callback(getCallbackUrl(), params, {
+    const tokenSet = await client.oauthCallback(getCallbackUrl(), params, {
       // code_verifier: req.session.auth.codeVerifier,
       state: req.session.auth.state,
     })
