@@ -97,6 +97,12 @@ about-playbook-how-access-dataset = Cómo accedo y emplego lo conchunto de datos
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Cómo se prenen las decisions d'o prochecto?
+about-playbook-how-project-governance-content-2 = La nuestra gobernanza se basa en os pilars de:
+about-playbook-how-project-governance-content-3 = Privacidat, seguranza y transparencia.
+about-playbook-how-project-governance-content-4 = Participacion comunitaria y presa de decisions.
+about-playbook-how-project-governance-content-5 = Valor y reconoixencia.
+about-playbook-how-project-governance-content-6 = Responsabilidat mutua.
 
 ## How is Common Voice funded
 
