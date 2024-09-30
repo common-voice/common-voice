@@ -67,13 +67,25 @@ about-playbook-what-is-language-content-3 = Bellas luengas tienen una gran varia
 ## How do I add a language
 
 about-playbook-how-add-language = Cómo anyado una luenga?
+about-playbook-how-add-language-content-1 = En primeras, compreba si la tuya luenga <languageLink>ya existe</languageLink>. Si no ye asinas, has de <strong>traducir lo puesto y replegar-ne frases</strong>.
 about-playbook-how-add-language-translating-heading = Traducir lo puesto web
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Leye la guía sobre cómo emplegar Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Emplegamos una ferramienta de Mozilla clamada <pontoonLink>Pontoon</pontoonLink> pa fer las traduccions. Pontoon tiene muitas luengas, pero si no tiene encara la tuya, puez<pontoonRequestLink>demandar que se i anyada</pontoonRequestLink>.
+    Contino, pa fer que la luenga siga disponible en o prochecto Common Voice, 
+    <githubRepoLink>demanda la luenga en GitHub</githubRepoLink>. <localizationFragment>Leye mas información sobre la traducción d'a web</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Replega de frases
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Mira la guía d'uso d'o Sentence Collector</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Puez <sentenceCollectorLinkAdd>anyadir un chicot numero de frases</sentenceCollectorLinkAdd>, u puez fer <bulkImportDocsLink>importacions masivas per medio de Github</bulkImportDocsLink>.
+    Recuerda que las frases han d'eetar <licenseLink>CC0 (u dominio publico)</licenseLink>, u tamién puez escribir-ne de nuevas.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Leye mas sobre la replega de frases</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Cómo funciona la localización?
+about-playbook-how-localize-content-1 = La traducción d'a web de Common Voice se fa en <strong>Pontoon</strong>.
+about-playbook-how-localize-content-4 = Lo puesto ye presto pa estar publicau cuan s'arriba a lo 75% d'a finalización.
 about-playbook-how-localize-content-5 = Mira-te lo video explicativo pa aduyar-te
 
 ## How to add sentences
@@ -88,15 +100,20 @@ about-playbook-how-record-content-1 = Charra con a tuya voz normal! La manera en
 about-playbook-how-record-content-2 = Evitar masiau rudio de fondo - se t'ha de sentir facilment.
 about-playbook-how-record-content-3 = Leyer la frase cudiadosament - no pierdas, cambies u anyadas parolas.
 about-playbook-how-record-content-4 = Asegura-te de que la plataforma ye gravando cuan empecipias a charrar, y que nomás atura cuan has rematau.
+about-playbook-how-record-content-5 = <accuracyLink>Mira mas información sobre los criterios de precisión.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Cómo fer creixer una luenga de manera efectiva en Common Voice?
 about-playbook-how-grow-language-content-2 = Eventos
 about-playbook-how-grow-language-content-4 = Medios de comunicación socials
 about-playbook-how-grow-language-content-6 = Colaboracions y rez
 
 ## How to validate
 
+about-playbook-how-validate = Cómo sé si he d'aprebar un tallo de voz?
+about-playbook-how-validate-content-1 = Si puez <strong>ascuitar-los</strong> y <strong>entender-los</strong>, normalment ye <strong>millor aprebar-los</strong>.
+about-playbook-how-validate-content-2 = <strong>No refuses tallos an que lo locutor «tiene un acento» diferent d'o tuyo</strong>: ixo ye important pa que lo reconoiximiento de voz funcione bien pa toz.
 
 ## How to access dataset
 
@@ -110,7 +127,10 @@ about-playbook-how-project-governance-content-3 = Privacidat, seguranza y transp
 about-playbook-how-project-governance-content-4 = Participacion comunitaria y presa de decisions.
 about-playbook-how-project-governance-content-5 = Valor y reconoixencia.
 about-playbook-how-project-governance-content-6 = Responsabilidat mutua.
+about-playbook-how-project-governance-content-7 = <governanceLink>Leye mas sobre cómo nos gubernamos</governanceLink>
 
 ## How is Common Voice funded
 
 about-playbook-how-funded = Cómo se financia Common Voice?
+about-playbook-how-funded-content-2 = Cuesta a-saber-los diners alochar y lanzar los conchuntos de datos, millorar la plataforma y lanzar los <africaMradiLink>programas d'a comunidat</africaMradiLink>.
+about-playbook-how-funded-content-3 = Si tu u la tuya organización deseyaz contribuir a lo prochecto, puez fer un <donateLink>donativo</donateLink> u contactar lo nuestro equipo de colaboradors en l'adreza <emailFragment>commonvoice@mozilla.com</emailFragment>.
