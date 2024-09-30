@@ -135,4 +135,17 @@
             color: var(--anchor-text-blue);
         }
     }
+
+    & .mobile-small-batch-summary {
+        text-align: center;
+
+        @media (--xxl-up) {
+            display: none;
+        }
+    }
+
+    a {
+        text-decoration: underline;
+        color: var(--anchor-text-blue);
+    }
 }

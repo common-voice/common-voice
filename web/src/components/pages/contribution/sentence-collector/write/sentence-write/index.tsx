@@ -7,7 +7,7 @@ import { PrimaryButton } from '../../../../../primary-buttons/primary-buttons'
 
 import { SentenceInputAndRules } from '../sentence-input-and-rules/sentence-input-and-rules'
 import { sentenceDomains } from 'common'
-import { useSentenceWrite } from './hooks/use-sentence-write'
+import { SMALL_BATCH_KEY, useSentenceWrite } from './hooks/use-sentence-write'
 
 import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 import URLS from '../../../../../../urls'
@@ -37,6 +37,10 @@ export const SentenceWrite: React.FC<Props> = ({
     sentenceWriteState,
   } = useSentenceWrite(mode)
 
+  const smallBatchResponse =
+    sentenceWriteState?.smallBatchResponse ||
+    JSON.parse(localStorage.getItem(SMALL_BATCH_KEY))
+
   return (
     <form
       className="guidelines-form"
@@ -56,6 +60,7 @@ export const SentenceWrite: React.FC<Props> = ({
           variantTokens={allVariants}
           selectedVariant={sentenceWriteState.sentenceVariant}
           instructionLocalizedId={instructionLocalizedId}
+          smallBatchResponse={smallBatchResponse}
           mode={mode}
         />
       </div>

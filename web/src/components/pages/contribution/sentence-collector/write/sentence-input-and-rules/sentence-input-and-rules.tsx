@@ -7,15 +7,18 @@ import { LabeledInput } from '../../../../../ui/ui'
 import { MultipleCombobox } from '../../../../../multiple-combobox'
 import { Rules } from './rules'
 import { Instruction } from '../../instruction'
+import { SmallBatchSummary } from '../small-batch-summary'
 import ExpandableInformation from '../../../../../expandable-information/expandable-information'
 import { Select } from '../../../../../select'
-import { SentenceSubmissionError } from 'common'
 import { LabeledTextArea } from '../../../../../ui/ui'
+
+import { SentenceSubmissionError } from 'common'
 import { LocaleLink } from '../../../../../locale-helpers'
 import URLS from '../../../../../../urls'
 import { useMultipleComboBox } from '../../../../../multiple-combobox/use-multiple-combobox'
 import { useAccount } from '../../../../../../hooks/store-hooks'
 import { WriteMode } from '../sentence-write'
+import { SmallBatchResponse } from '../sentence-write/types'
 
 type Props = {
   handleSentenceInputChange: (
@@ -33,6 +36,7 @@ type Props = {
   instructionLocalizedId: string
   selectedVariant?: string
   mode: WriteMode
+  smallBatchResponse: SmallBatchResponse
 }
 
 export const SentenceInputAndRules: React.FC<Props> = ({
@@ -49,6 +53,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   selectedVariant,
   instructionLocalizedId,
   mode,
+  smallBatchResponse,
 }) => {
   const isSentenceError = error && error !== SentenceSubmissionError.NO_CITATION
   const isCitationError = error === SentenceSubmissionError.NO_CITATION
@@ -62,10 +67,16 @@ export const SentenceInputAndRules: React.FC<Props> = ({
       selectedItems: selectedSentenceDomains,
     })
 
+  const showSmallBatchSummary =
+    mode === 'small-batch' && smallBatchResponse?.invalidSentences.length > 0
+
   const account = useAccount()
 
   return (
     <div className="inputs-and-instruction">
+      {showSmallBatchSummary && (
+        <SmallBatchSummary smallBatchResponse={smallBatchResponse} />
+      )}
       <Instruction localizedId={instructionLocalizedId} icon={<EditIcon />} />
       <Localized id="write-page-subtitle">
         <p className="subtitle" />
@@ -119,7 +130,6 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               dataTestId="citation-input"
               autoComplete="on"
               name="citation"
-              required
             />
           </Localized>
           {isCitationError && (

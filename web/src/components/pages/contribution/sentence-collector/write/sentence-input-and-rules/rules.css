@@ -117,11 +117,6 @@
             @media (--lg-up) {
                 width: 250px;
             }
-
-            a {
-                color: var(--anchor-text-blue);
-                text-decoration: underline;
-            }
         }
 
         & li.error {
@@ -146,6 +141,7 @@
         font-size: var(--font-size-sm);
         padding: 12px;
         width: 250px;
+        color: var(--near-black);
 
         @media (--xs-down) {
             font-size: var(--font-size-xs);

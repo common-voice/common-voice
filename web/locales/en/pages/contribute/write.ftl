@@ -21,7 +21,7 @@ new-sentence-rule-5 = No numbers and special characters
 new-sentence-rule-6 = No foreign letters
 new-sentence-rule-7 = Include appropriate citation
 new-sentence-rule-8 = Ideally natural and conversational (it should be easy to read the sentence)
-login-instruction-multiple-sentences = Login or sign up to add multiple sentences
+login-instruction-multiple-sentences = <loginLink>Login</loginLink> or <loginLink>sign up</loginLink> to add multiple sentences
 how-to-cite = How do I cite?
 how-to-cite-explanation-bold = Cite with a URL link or the full name of the work.
 how-to-cite-explanation = If it’s your own words, just say <italicizedText>“Self Citation”</italicizedText>. We need to know where you found this content so that we can check it is in the public domain and no copyright restrictions apply. For more information about citation see our <guidelinesLink>Guidelines page</guidelinesLink>.
@@ -100,9 +100,19 @@ too-many-files = Too many files
 small-batch-instruction = <icon></icon> Add multiple public domain sentences
 multiple-sentences-error = You cannot add multiple sentences for a single submission
 # <errorIcon></erroricon> will be replace with an icon that represents an error
-exceeds-small-batch-limit-error = <errorIcon></erroricon> Cannot submit more than 1000 sentences
+exceeds-small-batch-limit-error = Cannot submit more than 1000 sentences
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
-add-small-batch-success = { $uploadedSentences } of { $totalSentences } sentences collected
+add-small-batch-success =
+    {$uploadedSentences} {$totalSentences -> 
+        [one] of 1 sentence collected
+        *[other] of {$totalSentences} sentences collected
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message = 
+    {$uploadedSentences} {$totalSentences -> 
+        [one] of 1 sentence collected
+        *[other] of {$totalSentences} sentences collected
+    }. Click <downloadLink>here</downloadLink> to download rejected sentences.
 small-batch-sentences-rule-1 = Follow guidelines from “What sentences can I add?”
 small-batch-sentences-rule-2 = Add one sentence per line
 small-batch-sentences-rule-3 = Separate sentences into one line by pressing “Enter” or “Return” once

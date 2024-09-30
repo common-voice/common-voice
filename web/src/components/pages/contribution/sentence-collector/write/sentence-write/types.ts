@@ -1,5 +1,11 @@
 import { SentenceSubmissionError } from 'common'
 
+export type SmallBatchResponse = {
+  totalCount: number
+  validSentencesCount: number
+  invalidSentences: { sentence: string; errorType: string }[]
+}
+
 export type SentenceWriteState = {
   sentence: string
   citation: string
@@ -7,14 +13,7 @@ export type SentenceWriteState = {
   sentenceVariant?: string
   error: SentenceSubmissionError
   confirmPublicDomain: boolean
-}
-
-export type SmallBatchResponse = {
-  message: string
-  total_count: number
-  valid_sentences_count: number
-  invalid_sentences_count: number
-  invalid_sentences: { sentence: string; errorType: string }[]
+  smallBatchResponse?: SmallBatchResponse
 }
 
 export enum SentenceWriteActionType {
@@ -53,6 +52,9 @@ export type SetSentenceVariant = {
 
 export type AddSentenceSuccessAction = {
   type: SentenceWriteActionType.ADD_SENTENCE_SUCCESS
+  payload?: {
+    smallBatchResponse: SmallBatchResponse
+  }
 }
 
 export type AddSentenceErrorAction = {
