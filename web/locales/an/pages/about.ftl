@@ -85,12 +85,15 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Cómo funciona la localización?
 about-playbook-how-localize-content-1 = La traducción d'a web de Common Voice se fa en <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Crea una cuenta</pontoonAccountLink> si no en tiens denguna. Contino, tría la tuya luenga <strong>(«Equipo»)</strong> y, contino, tría lo prochecto, <pontoonCvLink>Common Voice</pontoonCvLink>. I habrá fichers pa traducir. Fes clic sobre uno d'éls, dimpués s'amuestras las parolas en anglés y un cuadro pa traducir-las.
+about-playbook-how-localize-content-3 = La traducción ye de l'anglés, pero puez veyer <strong>Sucherencias</strong> en atras luengas. Fe clic en l'icono <strong>Perfil</strong>, dimpués a lo vinclo <strong>Configuración</strong> y anyade las luengas que parlas. En o cabo inferior dreito i habrá una lista de traduccions clamada <strong>Locales</strong>. Las traduccions s'amuestra en a web a l'atro día.
 about-playbook-how-localize-content-4 = Lo puesto ye presto pa estar publicau cuan s'arriba a lo 75% d'a finalización.
 about-playbook-how-localize-content-5 = Mira-te lo video explicativo pa aduyar-te
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Cómo i anyado frases?
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ye una ferramienta pa replegar y validar frases de dominio publico. Habrás de <scAccountLink>crear una cuenta </scAccountLink>. Contino, anyade la tuya luenga a lo <strong>perfil</strong>. I puez <strong>anyadir</strong> frases u <strong>revisar</strong> les frases anyadidas anteriorment.
 about-playbook-how-add-sentences-content-3 = Puez emplegar l'<scraperLink>Extractor de frases</scraperLink> pa aprofitar frases curtas d'a Viquipedia.
 
 ## How to record quality
@@ -108,20 +111,25 @@ about-playbook-how-grow-language = Cómo fer creixer una luenga de manera efecti
 about-playbook-how-grow-language-content-2 = Eventos
 about-playbook-how-grow-language-content-4 = Medios de comunicación socials
 about-playbook-how-grow-language-content-6 = Colaboracions y rez
+about-playbook-how-grow-language-content-8 = <strong>Sé creativo!</strong> La tuya comunidat lingüistica será unica y estas son belunas d'as maneras de encomenzar.
 
 ## How to validate
 
 about-playbook-how-validate = Cómo sé si he d'aprebar un tallo de voz?
 about-playbook-how-validate-content-1 = Si puez <strong>ascuitar-los</strong> y <strong>entender-los</strong>, normalment ye <strong>millor aprebar-los</strong>.
 about-playbook-how-validate-content-2 = <strong>No refuses tallos an que lo locutor «tiene un acento» diferent d'o tuyo</strong>: ixo ye important pa que lo reconoiximiento de voz funcione bien pa toz.
+about-playbook-how-validate-content-3 = Si creyes que la pronuncia fa que siga  <strong>imposible d'entender</strong>, u i hai <strong>muito rudio de fondo</strong> u i hai <strong>atras personas que tamién parlan</strong>, alavez habrías de refusar lo tallo. <accuracyLink>Leye mas información sobre los criterios de precisión</accuracyLink>.
+about-playbook-how-validate-content-4 = Si un clip ye refusau per 2 personas, se publicará en un subconchunto diferent d'o conchunto de datos.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Cómo accedo y emplego lo conchunto de datos?
+about-playbook-how-access-dataset-content-2 = Si yes mirando ferramientas pa construyir modelos ASR, puez conectar con atras personas en a comunidat <discourseLink>en Discourse</discourseLink>.
 
 ## How are decisions made
 
 about-playbook-how-project-governance = Cómo se prenen las decisions d'o prochecto?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice ye posible gracias a una comunidat diversa d'activistas, lingüistas, cientificos de datos, academicos y enchenyers de software de tot lo mundo. Lo prochecto ye chestionau per la Fundación Mozilla.
 about-playbook-how-project-governance-content-2 = La nuestra gobernanza se basa en os pilars de:
 about-playbook-how-project-governance-content-3 = Privacidat, seguranza y transparencia.
 about-playbook-how-project-governance-content-4 = Participacion comunitaria y presa de decisions.
@@ -132,5 +140,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Leye mas sobre
 ## How is Common Voice funded
 
 about-playbook-how-funded = Cómo se financia Common Voice?
+about-playbook-how-funded-content-1 = Common Voice ye un prochecto d'a Fundación Mozilla, una organización 501c3 en os Estaus Unius. Lo prochecto actual ye financiau de tot per  <philantropGrantLink>subvencions filantropicas</philantropGrantLink> y donacions de personas de tot lo mundo.
 about-playbook-how-funded-content-2 = Cuesta a-saber-los diners alochar y lanzar los conchuntos de datos, millorar la plataforma y lanzar los <africaMradiLink>programas d'a comunidat</africaMradiLink>.
 about-playbook-how-funded-content-3 = Si tu u la tuya organización deseyaz contribuir a lo prochecto, puez fer un <donateLink>donativo</donateLink> u contactar lo nuestro equipo de colaboradors en l'adreza <emailFragment>commonvoice@mozilla.com</emailFragment>.
