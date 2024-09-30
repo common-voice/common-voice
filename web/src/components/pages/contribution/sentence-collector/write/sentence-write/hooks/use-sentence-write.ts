@@ -1,6 +1,8 @@
-import { useReducer } from 'react'
+import React, { useReducer } from 'react'
 import { useDispatch } from 'react-redux'
 import { useLocalization } from '@fluent/react'
+
+import { AlertIcon, CheckIcon } from '../../../../../../ui/icons'
 
 import { sentenceWriteReducer } from '../sentence-write.reducer'
 import { SentenceSubmission, SentenceSubmissionError } from 'common'
@@ -11,11 +13,7 @@ import { useLocale } from '../../../../../../locale-helpers'
 import { Sentences } from '../../../../../../../stores/sentences'
 import { Notifications } from '../../../../../../../stores/notifications'
 import { WriteMode } from '..'
-import {
-  SentenceWriteActionType,
-  SentenceWriteState,
-  SmallBatchResponse,
-} from '../types'
+import { SentenceWriteActionType, SentenceWriteState } from '../types'
 
 const initialState: SentenceWriteState = {
   sentence: '',
@@ -28,6 +26,7 @@ const initialState: SentenceWriteState = {
 
 const allVariantToken = 'sentence-variant-select-multiple-variants'
 const MAX_SMALL_BATCH_SENTENCES_LENGTH = 1000
+export const SMALL_BATCH_KEY = 'small-batch-responses'
 
 const newLineRegex = /\r|\n/
 
@@ -42,14 +41,16 @@ export const useSentenceWrite = (mode: WriteMode) => {
 
   const createSentence = useAction(Sentences.actions.create)
 
-  const addNotification = ({
+  const addNotification = <T extends object>({
     message,
     type,
+    icon,
   }: {
     message: string
     type: Notifications.NotificationType
+    icon?: React.ComponentType<T>
   }) => {
-    dispatch(Notifications.actions.addPill(message, type))
+    dispatch(Notifications.actions.addPill(message, type, icon))
   }
 
   const [currentLocale] = useLocale()
@@ -90,31 +91,38 @@ export const useSentenceWrite = (mode: WriteMode) => {
     })
   }
 
-  const isSentenceValid = (sentenceSubmission: SentenceSubmission) => {
+  const dispatchError = <T extends object>(
+    errorType: SentenceSubmissionError,
+    messageKey?: string,
+    icon?: React.ComponentType<T>
+  ) => {
+    sentenceWriteDispatch({
+      type: SentenceWriteActionType.ADD_SENTENCE_ERROR,
+      payload: { error: errorType },
+    })
+
+    addNotification({
+      message: l10n.getString(messageKey),
+      type: 'error',
+      ...(icon && { icon }),
+    })
+  }
+
+  const isSentenceValid = (sentenceSubmission: SentenceSubmission): boolean => {
     const hasMultipleSentences = newLineRegex.exec(sentenceSubmission.sentence)
     const smallBatchSentencesLength =
       sentenceSubmission.sentence.split('\n').length
 
     if (!sentenceSubmission.source) {
-      sentenceWriteDispatch({
-        type: SentenceWriteActionType.ADD_SENTENCE_ERROR,
-        payload: { error: SentenceSubmissionError.NO_CITATION },
-      })
-
+      dispatchError(SentenceSubmissionError.NO_CITATION)
       return false
     }
 
     if (mode === 'single' && hasMultipleSentences) {
-      sentenceWriteDispatch({
-        type: SentenceWriteActionType.ADD_SENTENCE_ERROR,
-        payload: { error: SentenceSubmissionError.MULTIPLE_SENTENCES },
-      })
-
-      addNotification({
-        message: l10n.getString('multiple-sentences-error'),
-        type: 'error',
-      })
-
+      dispatchError(
+        SentenceSubmissionError.MULTIPLE_SENTENCES,
+        'multiple-sentences-error'
+      )
       return false
     }
 
@@ -122,17 +130,11 @@ export const useSentenceWrite = (mode: WriteMode) => {
       mode === 'small-batch' &&
       smallBatchSentencesLength > MAX_SMALL_BATCH_SENTENCES_LENGTH
     ) {
-      sentenceWriteDispatch({
-        type: SentenceWriteActionType.ADD_SENTENCE_ERROR,
-        payload: { error: SentenceSubmissionError.EXCEEDS_SMALL_BATCH_LIMIT },
-      })
-
-      // TODO: show icon on error message
-      addNotification({
-        message: l10n.getString('exceeds-small-batch-limit-error'),
-        type: 'error',
-      })
-
+      dispatchError(
+        SentenceSubmissionError.EXCEEDS_SMALL_BATCH_LIMIT,
+        'exceeds-small-batch-limit-error',
+        AlertIcon
+      )
       return false
     }
 
@@ -153,47 +155,51 @@ export const useSentenceWrite = (mode: WriteMode) => {
         }),
     }
 
+    if (!isSentenceValid(newSentence)) return
+
     try {
-      if (isSentenceValid(newSentence)) {
-        if (mode === 'single') {
-          await createSentence({ sentenceSubmission: newSentence })
-
-          addNotification({
-            message: l10n.getString('add-sentence-success'),
-            type: 'success',
-          })
-        } else {
-          // Process small batch response
-          const smallBatchResponse: SmallBatchResponse = await createSentence({
-            sentenceSubmission: newSentence,
-            isSmallBatch: true,
-          })
-
-          addNotification({
-            message: l10n.getString('add-small-batch-success', {
-              uploadedSentences: smallBatchResponse.valid_sentences_count,
-              totalSentences: smallBatchResponse.total_count,
-            }),
-            type: 'success',
-          })
-        }
-
-        sentenceWriteDispatch({
-          type: SentenceWriteActionType.ADD_SENTENCE_SUCCESS,
-        })
-      }
-    } catch (error) {
-      const errorMessage = JSON.parse(error.message)
-
-      sentenceWriteDispatch({
-        type: SentenceWriteActionType.ADD_SENTENCE_ERROR,
-        payload: { error: errorMessage.errorType },
-      })
+      const response =
+        mode === 'single'
+          ? await createSentence({ sentenceSubmission: newSentence })
+          : await createSentence({
+              sentenceSubmission: newSentence,
+              isSmallBatch: true,
+            })
 
       addNotification({
-        message: l10n.getString('add-sentence-error'),
-        type: 'error',
+        message:
+          mode === 'single'
+            ? l10n.getString('add-sentence-success')
+            : l10n.getString('add-small-batch-success', {
+                uploadedSentences: response.valid_sentences_count,
+                totalSentences: response.total_count,
+              }),
+        type: response?.valid_sentences_count === 0 ? 'error' : 'success',
+        icon: response?.valid_sentences_count === 0 ? AlertIcon : CheckIcon,
       })
+
+      const smallBatchResponse = {
+        totalCount: response?.total_count,
+        validSentencesCount: response?.valid_sentences_count,
+        invalidSentences: response?.invalid_sentences,
+      }
+
+      if (response.invalid_sentences) {
+        localStorage.setItem(
+          SMALL_BATCH_KEY,
+          JSON.stringify(smallBatchResponse)
+        )
+      }
+
+      sentenceWriteDispatch({
+        type: SentenceWriteActionType.ADD_SENTENCE_SUCCESS,
+        ...(response.invalid_sentences && {
+          payload: { smallBatchResponse },
+        }),
+      })
+    } catch (error) {
+      const errorMessage = JSON.parse(error.message)
+      dispatchError(errorMessage.errorType, 'add-sentence-error')
     }
   }
 

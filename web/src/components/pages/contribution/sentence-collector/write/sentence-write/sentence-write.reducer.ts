@@ -47,6 +47,9 @@ export const sentenceWriteReducer = (
         confirmPublicDomain: false,
         sentenceDomains: [],
         sentenceVariant: '',
+        ...(action.payload && {
+          smallBatchResponse: action.payload.smallBatchResponse,
+        }),
         error: undefined,
       }
 

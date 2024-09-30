@@ -5,10 +5,15 @@ import { SentenceWrite } from './sentence-write'
 import BulkSubmissionWrite from './bulk-submission-write/bulk-submission-write'
 import SentenceCollectorToggle from '../sentence-collector-toggle'
 import BulkSubmissionSuccess from './bulk-submission-write/bulk-submission-success'
+import { SmallBatchSummary } from './small-batch-summary'
 
 import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
 import { useLocale } from '../../../../locale-helpers'
 import { useGetVariants } from './sentence-write/hooks/use-get-variants'
+import {
+  SMALL_BATCH_KEY,
+  useSentenceWrite,
+} from './sentence-write/hooks/use-sentence-write'
 
 import { trackSingleSubmission } from '../../../../../services/tracker'
 
@@ -24,6 +29,7 @@ const WriteContainer = () => {
   const account = useAccount()
   const sentences = useSentences()
   const { variants } = useGetVariants()
+  const { sentenceWriteState } = useSentenceWrite('small-batch')
 
   const variantTokens = variants ? variants.map(variant => variant.tag) : []
 
@@ -38,6 +44,14 @@ const WriteContainer = () => {
   }
 
   const isUploadDone = sentences[locale]?.bulkUploadStatus === 'done'
+
+  const smallBatchResponse =
+    sentenceWriteState?.smallBatchResponse ||
+    JSON.parse(localStorage.getItem(SMALL_BATCH_KEY))
+
+  const showSmallBatchSummary =
+    activeWriteOption === 'small-batch' &&
+    smallBatchResponse?.invalidSentences.length > 0
 
   if (isUploadDone) {
     return (
@@ -77,6 +91,11 @@ const WriteContainer = () => {
 
   return (
     <div className="write-container" data-testid="write-container">
+      {showSmallBatchSummary && (
+        <div className="mobile-small-batch-summary">
+          <SmallBatchSummary smallBatchResponse={smallBatchResponse} />
+        </div>
+      )}
       {account && (
         <div className="sc-toggle">
           <SentenceCollectorToggle

@@ -135,7 +135,9 @@ export const SinglewriteRules = ({
         </ul>
       )}
       {!isLoggedIn && (
-        <Localized id="login-instruction-multiple-sentences">
+        <Localized
+          id="login-instruction-multiple-sentences"
+          elems={{ loginLink: <a href="/login" /> }}>
           <p className="login-instruction-multiple-sentences" />
         </Localized>
       )}
