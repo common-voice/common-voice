@@ -47,6 +47,7 @@ about-get-involved-text-2 =
     chat d'a comunidat en <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = Cómo me puedo mantener en contacto?
 about-stay-in-touch-button = Rechistrar-se
+about-stay-in-touch-text-1 = <emailFragment>Rechistra-te</emailFragment> en a nuestra lista de correu pa saber cómo uez participar en campanyas, eventos y caracteristicas codisenyadas en Common Voice.
 about-stay-in-touch-text-2 = Puez conoixer atras personas en as comunidaz lingüisticas de Mozilla unindo-te a <discourseLink>Discourse</discourseLink> pa conversas d'actualidat u a <matrixLink>Matrix</matrixLink> pa obtener un consello rapido.
 about-nav-why-common-voice = Per qué?
 about-nav-how-it-works = Cómo?
@@ -78,9 +79,15 @@ about-playbook-how-localize-content-5 = Mira-te lo video explicativo pa aduyar-t
 ## How to add sentences
 
 about-playbook-how-add-sentences = Cómo i anyado frases?
+about-playbook-how-add-sentences-content-3 = Puez emplegar l'<scraperLink>Extractor de frases</scraperLink> pa aprofitar frases curtas d'a Viquipedia.
 
 ## How to record quality
 
+about-playbook-how-record-quality = Cómo gravo un tallo de voz d'alta calidat?
+about-playbook-how-record-content-1 = Charra con a tuya voz normal! La manera en que tu charras ye bienvenida aquí - queremos sentir lo tuyo acento como ye, y queremos lo tuyo volumen, estilo y entonación usuals.
+about-playbook-how-record-content-2 = Evitar masiau rudio de fondo - se t'ha de sentir facilment.
+about-playbook-how-record-content-3 = Leyer la frase cudiadosament - no pierdas, cambies u anyadas parolas.
+about-playbook-how-record-content-4 = Asegura-te de que la plataforma ye gravando cuan empecipias a charrar, y que nomás atura cuan has rematau.
 
 ## How to grow language
 
