@@ -94,6 +94,7 @@ about-playbook-how-localize-content-5 = Mira-te lo video explicativo pa aduyar-t
 
 about-playbook-how-add-sentences = Cómo i anyado frases?
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> ye una ferramienta pa replegar y validar frases de dominio publico. Habrás de <scAccountLink>crear una cuenta </scAccountLink>. Contino, anyade la tuya luenga a lo <strong>perfil</strong>. I puez <strong>anyadir</strong> frases u <strong>revisar</strong> les frases anyadidas anteriorment.
+about-playbook-how-add-sentences-content-2 = Las frases han d'estar revisadas y aceptadas per dos personas pa estar incluyidas en Common Voice. Crea aquí directrices pa la tuya luenga <languageGuidelinesLink>aquí</languageGuidelinesLink>. Las frases han d'estar de <licenseLink>dominio publico</licenseLink> y han de tener menos de 15 parolas. Puez demandar a lo propietario d'un texto que lo faga <waiverLink>CC0 per medio d'o nuestro formulario d'exención</waiverLink> y nos lo ninvie ta commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Puez emplegar l'<scraperLink>Extractor de frases</scraperLink> pa aprofitar frases curtas d'a Viquipedia.
 
 ## How to record quality
@@ -108,9 +109,13 @@ about-playbook-how-record-content-5 = <accuracyLink>Mira mas información sobre 
 ## How to grow language
 
 about-playbook-how-grow-language = Cómo fer creixer una luenga de manera efectiva en Common Voice?
+about-playbook-how-grow-language-content-1 = La creacióm d'oportunitaz pa que una diversidat de personas contribuigan a Common Voice garantiza que lo conchunto de datos sirva a tantas personas como siga posible. Hemos creau recursos y plantillas que puez emplegar!
 about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-3 = Puez organizar evento pa aduyar a la chent a colaborar. Ye mas fácil que no lo piensas. Puez fer-lo en linia con una ferramienta de videoconferencia, u en persona si ye seguro. <eventTemplate>Consulta las plantilla y recursos pa organizar eventos</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Medios de comunicación socials
+about-playbook-how-grow-language-content-5 = Puez fer servir las plataformas de rez socials pa fer arribar lo mensache. Comparte publicacions que expliqeuen per qué ye important y mete-te en contacto con atras personas que parles de cuestions como los dreitos lingüisticos, la intelichencia artificial de voz u los sesgos tecnolochicos. Mira mas consellos sobre cómo <campaignLink>executar una campanya social, incluyiu contenius que puez reutilizar</campaignLink>.
 about-playbook-how-grow-language-content-6 = Colaboracions y rez
+about-playbook-how-grow-language-content-7 = Troba atros a qui les importe. Podrían estar universidaz, escuelas d'idiomas, grupoas d'activistas u comunidaz de ciencias de datos. Mete-te en contacto y explica-les clarament cómo y per qué pueden aduyar. <outreachTemplates>Mira la plantilla de correus electronicos de divulgación</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Sé creativo!</strong> La tuya comunidat lingüistica será unica y estas son belunas d'as maneras de encomenzar.
 
 ## How to validate
@@ -124,6 +129,7 @@ about-playbook-how-validate-content-4 = Si un clip ye refusau per 2 personas, se
 ## How to access dataset
 
 about-playbook-how-access-dataset = Cómo accedo y emplego lo conchunto de datos?
+about-playbook-how-access-dataset-content-1 = Puez ir ta la <datasetsPage>pachina de conchuntos de datos</datasetsPage>, seleccionar la versión y las luengas que quiers y baixar-las! Los fichers tienen <metadataLink>metadatos asociaus</metadataLink>, como información demografica y datos de validación. Habrás de proporcionar una adreza electronica pa baixar lo conchunto de datos.
 about-playbook-how-access-dataset-content-2 = Si yes mirando ferramientas pa construyir modelos ASR, puez conectar con atras personas en a comunidat <discourseLink>en Discourse</discourseLink>.
 
 ## How are decisions made
