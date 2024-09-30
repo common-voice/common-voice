@@ -89,12 +89,15 @@ const setupAuthRouter = async () => {
 
   router.get(CALLBACK_URL, async (req: Request, res: Response) => {
     const params = client.callbackParams(req)
+    console.log('Parameters: %j', params)
+    console.log('Callback auth state: %j', req.session.auth)
     const tokenSet = await client.callback(getCallbackUrl(), params, {
       // code_verifier: req.session.auth.codeVerifier,
       state: req.session.auth.state,
     })
     console.log('received and validated tokens %j', tokenSet)
     console.log('validated ID Token claims %j', tokenSet.claims())
+    res.send('worked')
   })
 
   router.get('/logout', (request: Request, response: Response) => {
