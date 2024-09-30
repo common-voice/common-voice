@@ -44,6 +44,7 @@ const setupAuthRouter = async () => {
     client_secret: CLIENT_SECRET,
     redirect_uris: [getCallbackUrl()],
     response_types: ['code'],
+    token_endpoint_auth_method: 'client_secret_post',
   })
 
   router.use(require('cookie-parser')())
