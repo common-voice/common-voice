@@ -8,7 +8,7 @@
     "@sentry/node": "6.19.7",
     "@sentry/tracing": "6.19.7",
     "archiver": "^5.3.1",
-    "body-parser": "1.20.2",
+    "body-parser": "1.20.3",
     "bull": "3.29.3",
     "commander": "9.5.0",
     "common": "1.0.0",
