@@ -39,6 +39,8 @@ vote-no = Não
 datasets = Conjuntos de dados
 languages = Idiomas
 about = Informações
+partner = Parceiro
+submit-form-action = Enviar
 
 ## Reporting
 
