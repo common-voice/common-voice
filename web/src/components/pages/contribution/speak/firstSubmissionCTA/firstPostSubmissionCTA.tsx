@@ -76,6 +76,9 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
   const handleAddInformationClick = async () => {
     const data = {
       languages: userLanguages,
+      age,
+      gender,
+      country,
     };
 
     try {
