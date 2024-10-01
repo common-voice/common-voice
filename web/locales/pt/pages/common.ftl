@@ -210,6 +210,7 @@ sw = Suahíli
 syr = Siríaco
 ta = Tâmil
 te = Telugo
+teg = Teke
 tg = Tajique
 th = Tailandês
 ti = Tigrínia
