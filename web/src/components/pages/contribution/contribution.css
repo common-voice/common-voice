@@ -43,10 +43,7 @@
     .button {
         min-width: auto;
 
-        @media (--sm-down) {
-            border: none;
-            padding: 0;
-        }
+       
 
         @media (--md-up) {
             padding: 0 38px;
@@ -223,6 +220,8 @@
     }
 
     .instruction {
+        display: flex;
+        justify-content: center;
         margin-top: 23px;
         min-height: 23px;
         color: var(--dark-grey);
@@ -284,7 +283,7 @@
         .cards {
             position: relative;
             max-width: 700px;
-            height: 200px;
+            height: 300px;
             width: 100%;
 
             @media (--md-up) {
@@ -293,7 +292,7 @@
             }
 
             @media (--md-only) {
-                margin-right: 20px
+                margin-right: 20px;
             }
         }
 
@@ -306,7 +305,7 @@
 
             width: 100%;
             height: 100%;
-
+            height: 300px;
             box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.05);
             overflow: auto;
             word-wrap: break-word;
@@ -344,7 +343,7 @@
             @media (--md-up) {
                 margin-top: 0;
                 margin-inline-start: auto;
-                margin-top: 70px;
+                margin-top: 60px;
                 width: max-content;
                 flex-direction: column;
                 justify-content: flex-start;
@@ -384,12 +383,14 @@
         }
 
         & button {
+            background-color: #fdfcfc;
+            border-radius: 50%;
             z-index: var(--middle-z-index);
         }
     }
 
     .buttons {
-        margin-top: 4vh;
+        margin-block: 20px;
 
         display: flex;
         justify-content: space-between;
@@ -409,9 +410,20 @@
         }
 
         .guidelines-button {
+            border-radius: var(--button-border-redius) !important;
+            border: 1px solid #D2D6DB !important;
+            height: 40px !important;
+            &:hover  {
+                background-color: #257ba0;
+                color:#fff;
+                path {
+                    fill: #fff;
+                }
+            }
+
             svg {
                 margin-inline-end: 10px;
-                
+
                 path {
                     fill: var(--black);
                 }
@@ -423,12 +435,19 @@
         }
 
         .shortcuts-btn {
-            padding: 0;
-            width: 60px;
+            padding: 10px;
+            min-width: 60px;
             margin-inline-end: 0;
+            width: 100%;
+            text-align: center;
+            border: 1px solid #D2D6DB;
+            border-radius: var(--button-border-redius);
+            height: 40px;
+                transition: all 0.2s  ;
 
             img {
                 margin-inline-end: 0;
+                margin-inline: 2px !important;
             }
         }
 
@@ -446,7 +465,8 @@
 
         .submit {
             margin: 0;
-
+            border-radius: var(--button-border-redius) !important;
+            height: 40px;
             @media (--sm-down) {
                 display: none;
             }
@@ -456,6 +476,7 @@
                     cursor: default;
                     color: var(--warm-grey);
                     background: var(--desert-storm);
+                    border-radius: var(--button-border-redius) !important;
                 }
 
                 & .background {
@@ -565,8 +586,8 @@
         }
 
         @media (--md-up) {
-            position: absolute;
-            [dir="rtl"] {
+            /* position: absolute; */
+            [dir='rtl'] {
                 left: 100%;
             }
             right: 100%;
@@ -593,11 +614,13 @@
 
     .card-dimensions {
         padding: 0 20px;
-
         text-align: center;
         font-weight: 600;
         line-height: 1.38;
-
+        box-shadow: 0px 4px 8px #1018281a;
+        border: 1px solid #d2d6db;
+        border-radius: 16px;
+        
         background: var(--white);
 
         @media (--md-up) {
@@ -735,7 +758,7 @@
         .labeled-checkbox {
             margin: 0 0 2em;
             width: 60%;
-            text-align: center;`
+            text-align: center;
 
             @media (--md-down) {
                 width: 80%;
@@ -751,6 +774,10 @@
 .shortcuts-modal {
     padding: 80px !important;
     max-width: 770px !important;
+    height: 400px !important;
+    border-radius: 16px;
+    border: 1px solid #d2d6db;
+    box-shadow: 0px 4px 8px #1018281a;
 
     h1 {
         margin-bottom: 50px;
@@ -769,15 +796,22 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
 
             &:last-child {
                 margin-inline-end: 0;
+            }
+
+            &:hover > kbd {
+                background-color: #e5e7eb;
+                box-shadow: 0px 6px 12px #10182840;
             }
         }
 
         kbd {
             border-radius: 4px;
-            border: solid 1px color-mod(var(--black) alpha(5%));
+            background-color: #f9fafb;
+            box-shadow: 0px 4px 8px #1018281a;
             margin-bottom: 10px;
             width: 57px;
             height: 57px;
@@ -791,7 +825,7 @@
         .label {
             font-size: var(--font-size-xs);
             font-style: italic;
-            color: var(--warm-grey);
+            color: #000000;
             line-height: 1.5;
         }
     }

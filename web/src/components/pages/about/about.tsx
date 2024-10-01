@@ -1,5 +1,5 @@
 import * as React from 'react';
-import cx from 'classnames';
+import classNames from 'classnames';
 import { connect } from 'react-redux';
 
 import Nav from './nav';
@@ -50,7 +50,7 @@ const About: React.FC<PropsFromState> = ({ isSubscribedToMailingList }) => {
             <section
               id={section}
               key={`section-${section}`}
-              className={cx('about-hero', section, {
+              className={classNames('about-hero', section, {
                 active: section === activeSection,
               })}>
               {section === SECTIONS.SUBSCRIBE ? (

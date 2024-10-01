@@ -7,10 +7,19 @@
 @import url('alert/alert.css');
 @import url('contact-modal/contact-modal.css');
 
+:root {
+    scroll-behavior: smooth;
+}
+
 /* Define our icon font. */
 @font-face {
     font-family: Icons;
     src: url('/font/icomoon.ttf');
+}
+
+@font-face {
+    font-family: Lama Sans;
+    src: url('/font/LamaSans-SemiBold.ttf');
 }
 
 *,
@@ -19,6 +28,75 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lama Sans', sans-serif !important;
+}
+
+button {
+    border-radius: var(--button-border-redius) !important;
+}
+.speak-button-control {
+    border: 1px solid #d2d6db;
+    border-radius: var(--button-border-redius) !important;
+    font-size: 16px;
+    height: 40px !important;
+}
+
+.speak-button-control:hover {
+    background-color: red !important;
+    color: white !important;
+    img {
+        filter: brightness(0) invert(1);
+    }
+}
+
+.speak-record img {
+    height: 110px;
+    width: 110px;
+    opacity: 0.75;
+    filter: blur(0.7px);
+    transition: all 0.3s linear;
+}
+
+.speak-record:hover img {
+    opacity: 1;
+    filter: blur(0px);
+}
+
+.skip-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    height: 40px !important;
+    border-radius: var(--button-border-redius) !important;
+    border: 1px solid #d2d6db;
+    font-size: 16px;
+    color: #000;
+}
+
+.skip-button span {
+    transition: transform 0.3s ease;
+}
+
+.skip-button:hover {
+    color: #085d3a !important;
+    border: 1px solid #59c283;
+    box-shadow: 0 5px 10px color-mod(#abefc6 alpha(90%)) !important;
+    background-color: #78d19b !important;
+}
+
+.skip-button svg {
+    display: inline-block;
+    transform: rotate(180deg) !important;
+    transition: all 0.3s ease;
+}
+
+.skip-button:hover span {
+    transform: translateX(-5px);
+}
+
+.skip-button:hover svg {
+    transform: translateX(5px) rotate(180deg) !important;
 }
 
 /* Zilla Slab has a limited glyph support range so switch to
@@ -62,7 +140,8 @@ body,
     max-height: 100%;
 }
 
-#main.write, #main.review {
+#main.write,
+#main.review {
     @media (--md-down) {
         height: auto;
     }
@@ -370,4 +449,97 @@ a.small,
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.inner-pages {
+    margin-top: 35px;
+    background-image: url('/img/bg-innerpages-navbar.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.5rem !important;
+}
+
+.inner-pages a span {
+    color: #fff;
+    transition: color 0.5s ease;
+}
+
+.inner-pages a span:hover {
+    color: #219f8a;
+}
+
+.bg-second-theme {
+    background-color: #219f8a !important;
+}
+.text-second-theme {
+    color: #219f8a !important;
+}
+
+a.bg-second-theme,
+button.bg-second-theme,
+.bg-second-theme .p-button {
+    background-color: #219f8a !important;
+    padding: 4px 1.25rem;
+    font-size: 16px !important;
+    opacity: 0.9;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.layout-footer {
+    background-image: url('/img/bg-footer-blur.png');
+    margin-top: 0 !important;
+    height: 486px;
+    background-repeat: no-repeat;
+    background-size: 133%;
+    background-position: center 80%;
+    transition: margin-left 0.2s;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 0 30px;
+}
+
+.layout-footer .footer-bg {
+    background-image: url('/img/bg-hero.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.layout-footer .falak-seal {
+    width: 100%;
+    max-width: 250px;
+    height: 80px;
+}
+
+.layout-footer .social-links {
+    max-width: 250px;
+    padding: 0;
+}
+
+.layout-footer .social-links li {
+    margin: 0 15px;
+}
+
+.layout-footer .social-links li img {
+    height: 30px;
+}
+
+.layout-footer .social-links li img:last-child {
+    display: none;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #fff;
+}
+
+.layout-footer .social-links li a:hover img:first-child {
+    display: none;
+}
+
+.layout-footer .social-links li a:hover img:last-child {
+    display: inline;
 }

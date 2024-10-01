@@ -46,6 +46,7 @@ const ReviewPage = React.lazy(
   () => import('./pages/contribution/sentence-collector/review/review')
 )
 const DemoPage = React.lazy(() => import('./layout/demo-layout'))
+ const LoginPage = React.lazy(() => import('./pages/login/LoginPage'))
 
 const SentryRoute = Sentry.withSentryRouting(Route)
 
@@ -232,6 +233,7 @@ let LocalizedPage: any = class extends React.Component<
             { route: URLS.LISTEN, Component: ListenPage },
             { route: URLS.WRITE, Component: WritePage },
             { route: URLS.REVIEW, Component: ReviewPage },
+            { route: URLS.LOGIN, Component: LoginPage },
           ].map(({ route, Component }: any) => (
             <SentryRoute
               key={route}

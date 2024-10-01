@@ -40,7 +40,7 @@
     }
 
     & .contents {
-        display: none !important;
+        display: flex !important;
         height: 100%;
         align-items: center;
 
@@ -50,16 +50,14 @@
     }
 
     &.active {
-        border: solid 2px var(--grey);
-        background: var(--white);
+        border: solid 1px var(--grey);
+        color: #9DA4AE;
+        
 
         & .num {
             color: white;
-            background: var(--blue);
-
-            @media (--md-up) {
+           
                 background: var(--warm-grey);
-            }
         }
     }
 
@@ -70,14 +68,12 @@
         @media (--md-up) {
             border: none;
             padding-inline-start: 6px;
-            width: 85%;
 
             &.closed {
                 padding-inline-start: 0;
             }
 
             & .num {
-                background: var(--desert-storm);
                 border: solid 1px #f5f4f3;
             }
         }
@@ -115,4 +111,14 @@
             }
         }
     }
+}
+
+/* override default css of the daisy-ui-steps */
+.steps .step-accent+.step-accent:before, .steps .step-accent:after{
+    background-color: #56C596!important; 
+    height: 2px !important;
+}
+
+.steps .step:after, .steps .step:before{
+    height: 2px !important;
 }

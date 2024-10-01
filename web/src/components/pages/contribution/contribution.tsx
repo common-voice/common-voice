@@ -38,6 +38,7 @@ import { SecondPostSubmissionCTA } from './speak/secondSubmissionCTA/secondSubmi
 import Success from './success';
 
 import './contribution.css';
+import ProgressSteps from './ProgressSteps';
 
 export const SET_COUNT = 5;
 
@@ -375,6 +376,10 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
 
     return (
       <>
+                <ProgressSteps
+        currentStep={activeIndex} 
+        steps={sentences.map((_,index) => ` فقرة ${1+index} `)}
+      />
         <div className="cards-and-pills">
           <div />
 
@@ -405,7 +410,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                       translate="no"
                       key={sentence ? sentence.text : i}
                       className={
-                        'card card-dimensions ' + (isActive ? '' : 'inactive')
+                        'card card-dimensions p-8 ' + (isActive ? '' : 'inactive')
                       }
                       style={{
                         transform: [
@@ -419,7 +424,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                         opacity: i < activeSentenceIndex ? 0 : 1,
                       }}
                       data-testid={`card-${i + 1}`}>
-                      <div style={{ margin: 'auto', width: '100%' }}>
+                      <div className='text-[24px]' style={{ margin: 'auto', width: '100%' }}>
                         {sentence?.text}
                         {sentence?.taxonomy ? (
                           <div className="sentence-taxonomy">
@@ -437,7 +442,37 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                             </StyledLink>
                           </div>
                         ) : null}
+                      
                       </div>
+                      <div className='flex flex-row-reverse justify-between w-[80%] md:w-full py-5 gap-8'>
+                            {/* skip button */}
+                        <Button
+              rounded
+              className={[
+                'skip-button',
+                'bg-white text-black',
+                getTrackClass('fs', `skip-${type}`),
+                'fs-ignore-rage-clicks',
+              ].join(' ')}
+              disabled={!this.isLoaded}
+              onClick={onSkip}
+              data-testid="skip-button">
+              {/* <SkipIcon /> */}
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+</svg>
+              <Localized id="skip">
+                <span />
+              </Localized>{' '}
+                         </Button>
+                         {/* Skip Button */}
+
+                         {/*  Report Button*/}
+                         <ReportButton
+                onClick={() => this.setState({ showReportModal: true })}
+              />
+ {/*  Report Button*/}
+                        </div>
                     </div>
                   );
                 })}
@@ -451,11 +486,14 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
             <div className="pills">
               <div className="inner">
                 {this.isDone && (
-                  <div className="review-instructions">
+                  <div>
+                <div className="review-instructions">
                     <Localized id="review-instruction">
                       <span />
                     </Localized>
                   </div>
+                  </div>
+                  
                 )}
                 {pills.map((pill, i) =>
                   pill({
@@ -517,8 +555,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
           <div>
             <LinkButton
               rounded
-              outline
-              className="guidelines-button"
+              className="guidelines-button bg-white text-black"
               blank
               to={URLS.GUIDELINES}>
               <QuestionIcon />
@@ -527,37 +564,23 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
               </Localized>
             </LinkButton>
             <div className="extra-buttons">
-              <ReportButton
-                onClick={() => this.setState({ showReportModal: true })}
-              />
               <Tooltip title="Shortcuts" arrow>
                 <Button
                   rounded
-                  outline
-                  className="hidden-md-down shortcuts-btn"
+                  padding
+                  className="hidden-md-down shortcuts-btn bg-white text-black"
                   onClick={this.toggleShortcutsModal}>
-                  <KeyboardIcon />
+                    <span className="mx-2">
+                    <KeyboardIcon  />
+                    </span>
+                  
+                  اختصارات
                 </Button>
               </Tooltip>
             </div>
           </div>
           <div>
-            <Button
-              rounded
-              outline
-              className={[
-                'skip',
-                getTrackClass('fs', `skip-${type}`),
-                'fs-ignore-rage-clicks',
-              ].join(' ')}
-              disabled={!this.isLoaded}
-              onClick={onSkip}
-              data-testid="skip-button">
-              <SkipIcon />
-              <Localized id="skip">
-                <span />
-              </Localized>{' '}
-            </Button>
+          
             {onSubmit && shouldHideCTA && (
               <form
                 onSubmit={onSubmit}

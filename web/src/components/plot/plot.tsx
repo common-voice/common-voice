@@ -182,7 +182,7 @@ export const BarPlot = ({
           ))}
 
           <defs>
-            <linearGradient id="blue-purple" x2="0%" y2="100%">
+            <linearGradient id="teal-gradient" x2="0%" y2="100%">
               <stop offset="5%" stopColor="#88d1f1" />
               <stop offset="95%" stopColor="#b1b5e5" />
             </linearGradient>
@@ -192,7 +192,7 @@ export const BarPlot = ({
             return (
               <rect
                 key={i}
-                fill="url(#blue-purple)"
+                fill="#007C8F"
                 className={i + 1 === BAR_COUNT ? 'current' : ''}
                 x={getBarX(i)}
                 y={Y_OFFSET + BAR_HEIGHT - height}

@@ -1,7 +1,7 @@
 version: '3'
 services:
   db:
-    image: mysql:5.7.41
+    image: mariadb:10.4
     networks:
       - voice-web
     container_name: db

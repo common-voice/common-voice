@@ -150,7 +150,7 @@ class ListenPage extends React.Component<Props, State> {
 
   private stop = () => {
     if (this.state.isPlaying) {
-      const audio = this.audioRef.current;
+      const audio = this.audioRef?.current;
       audio.pause();
       audio.currentTime = 0;
       clearInterval(this.playedSomeInterval);

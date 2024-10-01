@@ -18,6 +18,9 @@ import LanguageCard from '../languages/language-card/language-card';
 import { useAPI } from '../../../hooks/store-hooks';
 import { LanguageStatistics } from 'common';
 import { ModalOptions } from '../languages/languages';
+import HomePageSection from './HomePageSection';
+import Charts from './Charts';
+import FAQList from './FAQList';
 
 type HeroType = 'speak' | 'listen';
 
@@ -92,11 +95,12 @@ export default function HomePage() {
       <ContributableLocaleLock
         render={({ isContributable }: { isContributable: boolean }) =>
           isContributable ? (
-            <div
-              className={
-                'heroes ' + (heroes.length > 1 ? 'multiple' : 'single')
-              }>
-              {heroes.map((type: HeroType) => (
+            // <div
+            //   className={
+            //     'heroes ' + (heroes.length > 1 ? 'multiple' : 'single')
+            //   }>
+                 <div>
+              {/* {heroes.map((type: HeroType) => (
                 <Hero
                   key={type + locale}
                   type={type}
@@ -112,7 +116,8 @@ export default function HomePage() {
                     setActiveHero(activeHero === type ? null : activeHero)
                   }
                 />
-              ))}
+              ))} */}
+              <HomePageSection/>
             </div>
           ) : (
             <div className="non-contributable-hero">
@@ -131,7 +136,7 @@ export default function HomePage() {
         }
       />
 
-      <div className="text">
+      {/* <div className="text">
         <div className="inner">
           <div className="title">
             <h1>
@@ -176,12 +181,23 @@ export default function HomePage() {
             </Localized>
           </div>
         </div>
-      </div>
+      </div> 
+      */}
 
-      <div className="stats">
+     {/* <div className="stats">
         <ClipsStats.Root />
         <VoiceStats />
+      </div>  */}
+
+    <div className='my-[100px]  px-10 flex justify-evenly flex-wrap gap-y-10	'>
+      {/* <Charts/> */}
+      <ClipsStats.Root />
+      <VoiceStats />
       </div>
+
+{/* الأسئلة الشائعة */}
+<FAQList/>
+
       {user.account ? (
         <section className="contribute-section">
           <div className="mars-container">

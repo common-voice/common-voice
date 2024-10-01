@@ -2,7 +2,7 @@ import 'focus-visible';
 import * as React from 'react';
 import { render } from 'react-dom';
 import './components/index.css';
-
+import './tailwind.css';
 declare var require: any;
 
 // Safari hack to allow :active styles.

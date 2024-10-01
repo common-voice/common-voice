@@ -27,6 +27,7 @@ export const SecondPostSubmissionCTA: React.FC<
 
   return (
     <div data-testid="second-submission-cta">
+      <div id='confetti'>
       <Confetti
         width={width}
         height={heightWithoutHeader}
@@ -39,6 +40,7 @@ export const SecondPostSubmissionCTA: React.FC<
         confettiSource={confettiSourceObject}
         tweenDuration={7000}
       />
+      </div>
       <div className="second-cta-container">
         <div className="header-container">
           <div className="happy-mars-container" data-testid="happy-mars">
@@ -79,7 +81,6 @@ export const SecondPostSubmissionCTA: React.FC<
             />
           </Localized>
         </div>
-
         <Localized
           id="already-have-an-account"
           elems={{

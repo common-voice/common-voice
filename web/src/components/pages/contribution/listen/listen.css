@@ -34,13 +34,18 @@
             }
         }
 
-        &.valid path {
+        &.valid {
+            background-color: #ECFDF3 !important;
+            path {
             fill: var(--valid-green);
         }
+    }
 
-        &.invalid path {
+        &.invalid {
+            path {
             fill: var(--red);
         }
+    }
     }
 
     & .vote-button {
@@ -68,6 +73,12 @@
         &,
         & path {
             transition: all var(--transition-duration) linear;
+           
+            &:active path :not(&.yes:disabled,
+            &.no:disabled){
+                transform: scale(1.04);
+                transform: translateY(-8px);
+            }
         }
 
         &.yes {
@@ -76,19 +87,21 @@
 
             &:hover,
             &:active {
-                background: var(--valid-green);
+                background-color: #208b4c;
+                color: white;
                 box-shadow: var(--vote-button-box-shadow)
                     color-mod(var(--valid-green) alpha(70%));
             }
         }
-
+        
         &.no {
             box-shadow: var(--vote-button-box-shadow)
                 color-mod(var(--red) alpha(20%));
 
             &:hover,
             &:active {
-                background: var(--red);
+                background-color: red !important;
+                color: white !important;
                 box-shadow: var(--vote-button-box-shadow)
                     color-mod(var(--red) alpha(60%));
             }
@@ -113,6 +126,7 @@
             background: var(--white);
             box-shadow: var(--vote-button-box-shadow)
                 color-mod(var(--grey) alpha(80%));
+                pointer-events: none; 
 
             &:hover {
                 path {

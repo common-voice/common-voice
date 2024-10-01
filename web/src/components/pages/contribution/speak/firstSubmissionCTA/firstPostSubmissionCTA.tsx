@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Localized } from '@fluent/react';
 import { UserLanguage } from 'common';
-import cx from 'classnames';
+import classNames from 'classnames';
 import InputLanguageVariant from '../../../profile/info/languages/input-language-variant';
 import InputLanguageAccents from '../../../profile/info/languages/input-language-accents/input-language-accents';
 
@@ -20,7 +20,8 @@ import ExpandableInformation from '../../../../expandable-information/expandable
 import { QuestionMarkIcon } from '../../../../ui/icons';
 import { Button } from '../../../../ui/ui';
 
-import './firstPostSubmissionCTA.css';
+import './firstPostSubmissionCTA.css'
+import { COUNTRIES } from '../../../../../constants'
 
 export const USER_LANGUAGES = 'userLanguages';
 
@@ -46,15 +47,18 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
 
   const [userLanguages, setUserLanguages] = useLocalStorageState<
     UserLanguage[]
-  >([{ locale, accents: [] }], USER_LANGUAGES);
+  >([{ locale, accents: [] }], USER_LANGUAGES)
 
-  const [accentsAll, setAccentsAll] = React.useState<AccentsAll>({});
-  const [variantsAll, setVariantsAll] = React.useState<VariantsAll>({});
+  const [accentsAll, setAccentsAll] = React.useState<AccentsAll>({})
+  const [variantsAll, setVariantsAll] = React.useState<VariantsAll>({})
+  const [age, setAge] = React.useState('')
+  const [gender, setGender] = React.useState('')
+  const [country, setCountry] = React.useState('')
 
-  const isVariantInputVisible = Boolean(variantsAll[locale]);
+  const isVariantInputVisible = Boolean(variantsAll[locale])
 
   const isAddInformationButtonDisabled =
-    userLanguages[0].accents.length === 0 && !userLanguages[0].variant;
+    userLanguages[0].accents.length === 0 && !userLanguages[0].variant
 
   const api = useAPI();
 
@@ -102,7 +106,7 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
         <div className="form-fields">
           {userLanguages.map(({ locale, accents }) => (
             <div
-              className={cx('language-wrap', {
+              className={classNames('language-wrap', {
                 'variant-input-visible': isVariantInputVisible,
               })}
               key={locale}>
@@ -124,9 +128,55 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
               </div>
             </div>
           ))}
+    <div className="grid grid-cols-1 mx-auto space-y-4 max-w-[650px] w-[100%]">
+  {/* Fieldset for age, gender, and country */}
+  <fieldset className="border border-gray-300 p-4 rounded-lg">
+    <legend className="text-black text-md px-2">تفاصيل المستخدم</legend>
+    <div className="input-group flex flex-col mt-4">
+      <label htmlFor="age" className="text-gray-500 text-md">العمر:</label>
+      <input
+        type="number"
+        id="age"
+        name="age"
+        placeholder="أدخل عمرك"
+        className="mt-1 px-3 py-2 border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-12"
+        onChange={(e) => setAge(e.target.value)}
+      />
+    </div>
+    <div className="input-group flex flex-col mt-4">
+      <label htmlFor="gender" className="text-gray-500 text-md">الجنس:</label>
+      <select
+        id="gender"
+        name="gender"
+        className="mt-1 px-3 py-2 border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-12"
+        onChange={(e) => setGender(e.target.value)}
+      >
+        <option value="">اختر جنسك</option>
+        <option value="male">ذكر</option>
+        <option value="female">أنثى</option>
+      </select>
+    </div>
+    <div className="input-group flex flex-col mt-4">
+      <label htmlFor="country" className="text-gray-500 text-md">الدولة:</label>
+      <select
+        id="country"
+        name="country"
+        className="mt-1 px-3 py-2 border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 h-12"
+        onChange={(e) => setCountry(e.target.value)}
+      >
+        <option value="">اختر دولتك</option>
+        {COUNTRIES.map((country) => (
+          <option key={country.value} value={country.value}>
+            {country.name}
+          </option>
+        ))}
+      </select>
+    </div>
+  </fieldset>
+</div>
+
         </div>
       </div>
-
       <div className="expandable-infomation-wrapper">
         <ExpandableInformation
           summaryLocalizedId="why-donate"
@@ -152,21 +202,21 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
         </ExpandableInformation>
       </div>
       <div className="submission-buttons">
-        <Localized id="add-information-button">
-          <Button
-            rounded
-            className="add-information-button"
-            onClick={handleAddInformationClick}
-            data-testid="add-information-button"
-            disabled={isAddInformationButtonDisabled}
-          />
-        </Localized>
+        {/* <Localized id="add-information-button"> */}
+        <Button
+          className="add-information-button"
+          onClick={handleAddInformationClick}
+          data-testid="add-information-button"
+          disabled={isAddInformationButtonDisabled}>
+          اضافة المعلومات
+        </Button>
+        {/* </Localized> */}
         <Localized id="continue-speaking-button">
-          <Button
-            rounded
-            onClick={onReset}
-            data-testid="continue-speaking-button"
-          />
+        <Button
+          rounded
+          onClick={onReset}
+          data-testid="continue-speaking-button">
+        </Button>
         </Localized>
       </div>
       <Localized
@@ -177,5 +227,5 @@ export const FirstPostSubmissionCta: React.FC<FirstPostSubmissionCtaProps> = ({
         <p className="create-profile-text" />
       </Localized>
     </div>
-  );
-};
+  )
+}

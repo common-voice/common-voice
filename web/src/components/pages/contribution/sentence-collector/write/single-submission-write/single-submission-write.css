@@ -247,6 +247,7 @@
                 font-family: var(--base-font-family);
                 font-weight: 600;
                 text-transform: uppercase;
+                border-radius: var(--button-border-redius) !important;
             }
 
             &.disabled {
@@ -254,6 +255,7 @@
                     cursor: default;
                     color: var(--warm-grey);
                     background: var(--desert-storm);
+                    border-radius: var(--button-border-redius)  !important;
                 }
 
                 & .background {

@@ -1,11 +1,18 @@
+#confetti {
+    canvas {
+        z-index: 30 !important;
+    }
+}
 .second-cta-container {
     position: absolute;
     top: 15%;
     left: 15%;
     background: rgba(229, 229, 229, 0);
+    background-color: white;
+    border-radius: 20px;
     width: 70%;
-    height: 65%;
-    z-index: 10;
+    height: 70%;
+    z-index: 20;
 
     .header-container {
         display: flex;

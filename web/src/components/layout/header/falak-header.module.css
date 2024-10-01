@@ -1,0 +1,34 @@
+.login-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #219f8a;
+    padding: 8px 16px;
+    border-radius: var(--button-border-redius);
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+     cursor:  pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #438177;
+  }
+  
+  .button-image {
+    height: 15px;
+    margin-left: 10px;
+    transition: transform 0.3s linear;
+  }
+  
+  .button-text {
+    display: inline-block;
+    transition: transform 0.3s linear;
+  }
+  
+  .login-button:hover .button-image {
+    transform: translateX(10px); 
+  }
+  
+  .login-button:hover .button-text {
+    transform: translateX(-10px); 
+  }
+  
