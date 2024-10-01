@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import * as React from 'react'
 import { Localized } from '@fluent/react'
 import classNames from 'classnames'
 
@@ -22,7 +22,7 @@ export const SinglewriteRules = ({
   title,
   mode,
 }: Props) => {
-  const [rulesVisible, setRulesVisible] = useState(true)
+  const [rulesVisible, setRulesVisible] = React.useState(true)
 
   const handleClick = () => {
     setRulesVisible(!rulesVisible)
