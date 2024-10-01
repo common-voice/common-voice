@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = Afar
 ab = Abecásio
+abb = Bankon
 ace = Achém
 ady = Adigue
 af = Africâner
@@ -215,12 +217,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Falar
-speak-now = Fale agora
-datasets = Conjuntos de dados
-languages = Idiomas
-about = Sobre nós
-partner = Parceiro
 profile = Perfil
 help = Ajuda
 contact = Contato
@@ -240,7 +236,6 @@ privacy-info = Prometemos lidar com suas informações com cuidado. Saiba mais e
 return-to-cv = Voltar para o Common Voice
 email-input =
     .label = Email
-submit-form-action = Enviar
 loading = Carga em andamento…
 email-opt-in-info = Quero receber emails, tais como lembretes de metas, atualizações sobre meu progresso e boletins informativos sobre o Common Voice.
 email-opt-in-info-title = Participe na lista de discussão do Common Voice
@@ -251,7 +246,7 @@ not-available-abbreviation = Não disponível
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Precisamos</mark><br/><mark>da sua ajuda!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Custa quase um milhão de dólares por ano hospedar os conjuntos de dados e melhorar a plataforma para as mais de 100 comunidades de idiomas que dependem do que fazemos. <strong>Se você valoriza dados abertos e inclusivos, faça uma doação!</strong>
