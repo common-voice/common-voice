@@ -77,9 +77,9 @@ const setupAuthRouter = async () => {
     req.session.auth = auth
 
     const redirectUri = client.authorizationUrl({
-      scope: 'profile',
-      // code_challenge: generators.codeChallenge(auth.codeVerifier),
-      // code_challenge_method: 'S256',
+      scope: 'email',
+      code_challenge: generators.codeChallenge(auth.codeVerifier),
+      code_challenge_method: 'S256',
       state: auth.state,
     })
 
@@ -94,7 +94,7 @@ const setupAuthRouter = async () => {
     console.log('Callback auth state: %j', req.session.auth)
     try {
       const tokenSet = await client.callback(getCallbackUrl(), params, {
-        // code_verifier: req.session.auth.codeVerifier,
+        code_verifier: req.session.auth.codeVerifier,
         state: req.session.auth.state,
       })
       console.log('received and validated tokens %j', tokenSet)
@@ -105,7 +105,6 @@ const setupAuthRouter = async () => {
         console.log('OP error: ', {
           err: err.error,
           desc: err.error_description,
-          resp: err.response,
           stack: err.stack,
         })
       } else {
