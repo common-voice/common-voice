@@ -3,6 +3,8 @@ import { fireEvent, screen, waitFor } from '@testing-library/react'
 
 import { renderWithProviders } from '../../../../../../../test/render-with-providers'
 
+import { SmallBatchResponse } from './types'
+
 import { SentenceWrite } from '.'
 
 const useActionMock = jest.fn()
@@ -13,6 +15,7 @@ const allVariants = ['mock-variant-1', 'mock-variant-2']
 
 jest.mock('../../../../../../hooks/store-hooks', () => ({
   useAction: () => useActionMock,
+  useAccount: () => ({}),
   useAPI: () => {
     return {
       getVariants: mockVariants,
@@ -80,7 +83,17 @@ describe('Single Submission Write page', () => {
     })
   })
 
-  it('submits when all fields are filled', async () => {
+  it('submits when all fields are filled - single sentence', async () => {
+    const mockResponse = {
+      valid_sentences_count: 5,
+      total_count: 5,
+      invalid_sentences: [],
+    } as unknown as SmallBatchResponse
+
+    const mockCreateSentence = jest.fn().mockResolvedValue(mockResponse)
+
+    useActionMock.mockResolvedValue(mockCreateSentence())
+
     renderWithProviders(
       <SentenceWrite
         allVariants={allVariants}
@@ -114,10 +127,12 @@ describe('Single Submission Write page', () => {
 
     await waitFor(async () => {
       expect(useActionMock).toHaveBeenCalledWith({
-        domains: ['general'],
-        sentence: 'This is a mock sentence',
-        source: 'self',
-        localeName: 'mock-locale-1',
+        sentenceSubmission: {
+          domains: ['general'],
+          sentence: 'This is a mock sentence',
+          source: 'self',
+          localeName: 'mock-locale-1',
+        },
       })
     })
   })
