@@ -45,6 +45,7 @@ const setupAuthRouter = async () => {
     redirect_uris: [getCallbackUrl()],
     response_types: ['code'],
     token_endpoint_auth_method: 'client_secret_post',
+    token_endpoint_auth_signing_alg: 'RS256',
   })
 
   router.use(require('cookie-parser')())
@@ -77,9 +78,9 @@ const setupAuthRouter = async () => {
     req.session.auth = auth
 
     const redirectUri = client.authorizationUrl({
-      scope: 'email',
-      code_challenge: generators.codeChallenge(auth.codeVerifier),
-      code_challenge_method: 'S256',
+      scope: 'openid email',
+      // code_challenge: generators.codeChallenge(auth.codeVerifier),
+      // code_challenge_method: 'RS256',
       state: auth.state,
     })
 
@@ -94,7 +95,7 @@ const setupAuthRouter = async () => {
     console.log('Callback auth state: %j', req.session.auth)
     try {
       const tokenSet = await client.callback(getCallbackUrl(), params, {
-        code_verifier: req.session.auth.codeVerifier,
+        // code_verifier: req.session.auth.codeVerifier,
         state: req.session.auth.state,
       })
       console.log('received and validated tokens %j', tokenSet)
