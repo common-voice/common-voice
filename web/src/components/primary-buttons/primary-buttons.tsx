@@ -75,11 +75,20 @@ export const PlayButton = ({
   trackClass?: string;
 } & React.ButtonHTMLAttributes<any>) => (
   <PrimaryButton
-    className={isPlaying ? 'stop' : 'play'}
-    trackClass={trackClass}
-    {...props}>
-    {isPlaying ? <StopIcon /> : <OldPlayIcon />}
-  </PrimaryButton>
+      className={`${isPlaying  ? 'stop' : 'play'} ${trackClass || ''}`}
+      {...props}
+    >
+      {isPlaying ? (
+        <img src="/img/pause-icon.svg" alt="pause icon" />
+      ) : (
+        <img
+        src="/img/play-icon.svg"
+        alt="play-icon"
+  
+      />
+      )}
+    </PrimaryButton>
+
 );
 
 export const PlayLink = (props: any) => (

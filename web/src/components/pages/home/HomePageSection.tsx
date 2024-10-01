@@ -7,10 +7,10 @@ import { LocaleLink } from '../../locale-helpers'
 
 export default function HomePageSection() {
   return (
-    <div className=" flex flex-col items-center mt-10 pt-10">
+    <div className=" flex flex-col items-center mt-10 pt-10 ">
       {/* mic-banner */}
       <div
-        className="rounded-[24px]  bg-no-repeat bg-center w-[100%] max-w-[1160px] bg-cover md:bg-contain min-h-[300px] h-full flex justify-start items-center "
+        className="rounded-[24px]  bg-no-repeat bg-center w-[100%] max-w-[1460px] bg-cover md:bg-contain min-h-[300px] h-full flex justify-start items-center "
         style={{
           backgroundImage: `url('/img/mic-banner.png')`,
         }}>
@@ -37,7 +37,7 @@ export default function HomePageSection() {
         </div>
       </div>
 
-      <div className="flex justify-center gap-8 mx-auto py-10 flex-wrap">
+      <div className="flex justify-center gap-8 mx-auto py-10 flex-wrap ">
         {/* ساهم بصوتك */}
         <div
           className={`max-w-[572px] w-[372px] md:w-[472px] lg:w-[572px] h-[986px] ${classes.card}`}

@@ -10,7 +10,7 @@ export default Object.freeze({
   LISTEN: '/listen',
   WRITE: '/write',
   REVIEW: '/review',
-  LOGIN:"/login",
+  LOGIN:"/auth-login",
 
   PROFILE,
   PROFILE_INFO: PROFILE + '/info',

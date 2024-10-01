@@ -40,7 +40,7 @@
     }
 
     & .contents {
-        display: none !important;
+        display: flex !important;
         height: 100%;
         align-items: center;
 
@@ -50,17 +50,14 @@
     }
 
     &.active {
-        border: solid 2px var(--grey);
+        border: solid 1px var(--grey);
         color: #9DA4AE;
         
 
         & .num {
             color: white;
            
-
-            @media (--md-up) {
                 background: var(--warm-grey);
-            }
         }
     }
 

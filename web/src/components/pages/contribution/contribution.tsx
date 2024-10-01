@@ -391,11 +391,11 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                 vars: { actionType: getString('action-click') },
                 children: (
                   <div
-                    className="instruction hidden-sm-down flex"
+                    className="instruction hidden-sm-down"
                     data-testid="instruction"
                   />
                 ),
-              }) || <div className="instruction hidden-sm-down flex" />}
+              }) || <div className="instruction hidden-sm-down" />}
 
               <div className="cards">
                 {sentences.map((sentence, i) => {
@@ -444,7 +444,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                         ) : null}
                       
                       </div>
-                      <div className='flex flex-row-reverse justify-between w-full py-5'>
+                      <div className='flex flex-row-reverse justify-between w-[80%] md:w-full py-5 gap-8'>
                             {/* skip button */}
                         <Button
               rounded

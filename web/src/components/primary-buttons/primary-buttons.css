@@ -36,7 +36,7 @@
 
         z-index: var(--top-z-index);
         border: none;
-        border-radius: 50%;
+        border-radius: 50% !important;
         width: 65px;
         height: 65px;
         background: var(--white);
@@ -70,7 +70,7 @@
     &.record .background,
     &.play .background {
         opacity: 0.5;
-        background: linear-gradient(to left, #88d1f1, #b1b5e5);
+        background: transparent linear-gradient(234deg, #00758A 0%, #003B4500 100%) 0% 0% no-repeat padding-box;
     }
 
     &.stop .background {

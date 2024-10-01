@@ -43,10 +43,7 @@
     .button {
         min-width: auto;
 
-        @media (--sm-down) {
-            border: none;
-            padding: 0;
-        }
+       
 
         @media (--md-up) {
             padding: 0 38px;
@@ -223,6 +220,8 @@
     }
 
     .instruction {
+        display: flex;
+        justify-content: center;
         margin-top: 23px;
         min-height: 23px;
         color: var(--dark-grey);
@@ -391,7 +390,7 @@
     }
 
     .buttons {
-        margin-top: 4vh;
+        margin-block: 20px;
 
         display: flex;
         justify-content: space-between;
@@ -416,6 +415,7 @@
             height: 40px !important;
             &:hover  {
                 background-color: #257ba0;
+                color:#fff;
                 path {
                     fill: #fff;
                 }
@@ -444,13 +444,6 @@
             border-radius: var(--button-border-redius);
             height: 40px;
                 transition: all 0.2s  ;
-            &:hover {
-                background-color: #D2D6DB;
-                color:#fff;
-                img {
-                  filter: brightness(0) invert(1);
-                }   
-            }
 
             img {
                 margin-inline-end: 0;
@@ -473,6 +466,7 @@
         .submit {
             margin: 0;
             border-radius: var(--button-border-redius) !important;
+            height: 40px;
             @media (--sm-down) {
                 display: none;
             }
