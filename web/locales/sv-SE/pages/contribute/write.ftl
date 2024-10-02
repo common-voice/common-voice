@@ -28,7 +28,6 @@ add-sentence-success = 1 mening insamlad
 add-sentence-error = Det gick inte att lägga till mening
 required-field = Var vänlig fyll i det här fältet.
 single-sentence-submission = Inlämning av en enda mening
-bulk-sentence-submission = Massinlämning
 single-sentence = Enstaka mening
 bulk-sentences = Flera meningar
 sentence-domain-combobox-label = Meningsdomän
