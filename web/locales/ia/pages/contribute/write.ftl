@@ -34,6 +34,8 @@ single-sentence-submission = Invio de phrases singule
 small-batch-sentence-submission = Invio de phrases per micre lotes
 bulk-sentence-submission = Invio de gruppo de phrases
 single-sentence = Phrase singule
+small-batch-sentence = Micre lotes
+bulk-sentence = Lotes massive
 sentence-domain-combobox-label = Dominio del phrase
 sentence-domain-select-placeholder = Selige usque tres dominios
 # Sentence Domain dropdown option
@@ -95,3 +97,21 @@ too-many-files = Troppo de files
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Adder plure phrases de dominio public
+# <errorIcon></erroricon> will be replace with an icon that represents an error
+exceeds-small-batch-limit-error = Impossibile inviar plus que 1000 phrases
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } de 1 phrase colligite
+       *[other] { $uploadedSentences } de { $totalSentences } phrases colligite
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } de 1 phrase colligite. Clicca <downloadLink>ci</downloadLink> pro discargar le phrases rejectate.
+       *[other] { $uploadedSentences } de { $totalSentences } phrases colligite. Clicca <downloadLink>ci</downloadLink> pro discargar le phrases rejectate.
+    }
+small-batch-sentences-rule-1 = Sequer lineas guida ab “Que phrases pote io adder?”
+small-batch-sentences-rule-2 = Adde un sol phrase per linea
