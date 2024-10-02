@@ -5,7 +5,8 @@ write-instruction = Ychwanegu <icon></icon> brawddeg parth cyhoeddus
 write-page-subtitle = Bydd brawddegau sy'n cael eu cyfrannu yma yn cael eu hychwanegu at set ddata drwyddedig cc-0 sydd ar gael yn gyhoeddus.
 sentence =
     .label = Brawddeg
-sentence-input-value = Rhowch eich brawddeg parth cyhoeddus yma
+sentence-input-placeholder = Rhowch eich brawddeg parth cyhoeddus yma
+small-batch-sentence-input-placeholder = Rhowch eich brawddegau parth cyhoeddus yma
 citation-input-placeholder = Cyfeiriwch at ffynhonnell eich brawddeg (gofynnol)
 citation =
     .label = Cyfeirio
@@ -30,7 +31,8 @@ required-field = Llenwch y maes hwn, os gwelwch yn dda.
 single-sentence-submission = Cyflwyno Un Frawddeg
 bulk-sentence-submission = Cyflwyno Brawddegau Lluosog
 single-sentence = Un Frawddeg
-bulk-sentences = Brawddegau Lluosog
+small-batch-sentence = Swp bach
+bulk-sentence = Swmp sylweddil
 sentence-domain-combobox-label = Parth Brawddeg
 sentence-domain-select-placeholder = Dewiswch hyd at dri pharth
 # Sentence Domain dropdown option
@@ -89,3 +91,21 @@ file-invalid-type = Ffeil annilys.
 file-too-large = Mae'r ffeil yn rhy fawr
 file-too-small = Mae'r ffeil yn rhy fach
 too-many-files = Gormod o ffeiliau
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Ychwanegu brawddegau parth cyhoeddus lluosog
+multiple-sentences-error = Nid oes modd ychwanegu brawddegau lluosog ar gyfer cyflwyniad sengl
+# <errorIcon></erroricon> will be replace with an icon that represents an error
+exceeds-small-batch-limit-error = Nid oes modd cyflwyno mwy na 1000 o frawddegau
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [zero] { $uploadedSentences } o { $totalSentences } brawddegau a gasglwyd
+        [one] { $uploadedSentences } o 1 brawddeg a gasglwyd
+        [two] { $uploadedSentences } o { $totalSentences } frawddeg a gasglwyd
+        [few] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
+        [many] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
+       *[other] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
+    }
