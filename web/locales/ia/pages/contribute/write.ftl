@@ -99,6 +99,7 @@ too-many-files = Troppo de files
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Adder plure phrases de dominio public
+multiple-sentences-error = Tu non pote adder plure phrases pro un sol invio
 # <errorIcon></erroricon> will be replace with an icon that represents an error
 exceeds-small-batch-limit-error = Impossibile inviar plus que 1000 phrases
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
@@ -115,3 +116,7 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = Sequer lineas guida ab “Que phrases pote io adder?”
 small-batch-sentences-rule-2 = Adde un sol phrase per linea
+small-batch-sentences-rule-3 = Separa le phrases in un sol linea pulsante “Inviar” o “Retornar” un vice
+small-batch-sentences-rule-4 = Adde usque 1000 phrases
+small-batch-sentences-rule-5 = Tote le phrases debe haber le mesme dominio
+small-batch-sentences-rule-6 = Tote le phrases debe haber le mesme citation
