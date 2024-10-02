@@ -5,12 +5,14 @@ write-instruction = Ajoutez <icon></icon> une phrase du domaine public
 write-page-subtitle = Les phrases fournies ici seront ajoutées à un jeu de données public sous licence cc-0.
 sentence =
     .label = Phrase
-sentence-input-value = Saisissez votre phrase du domaine public ici
+sentence-input-placeholder = Saisissez votre phrase du domaine public ici
+small-batch-sentence-input-placeholder = Saisissez vos phrases du domaine public ici
 citation-input-placeholder = Spécifiez la source de votre phrase (obligatoire)
 citation =
     .label = Citation
 sc-write-submit-confirm = Je confirme que cette phrase est du <wikipediaLink>domaine public</wikipediaLink> et que j’ai la permission de l’envoyer.
 sc-review-write-title = Quelles phrases puis-je ajouter ?
+sc-review-small-batch-title = Comment ajouter plusieurs phrases
 new-sentence-rule-1 = <noCopyright>Aucune restriction de droit d’auteur</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Moins de 15 mots
 new-sentence-rule-3 = La grammaire doit être correcte
@@ -19,6 +21,7 @@ new-sentence-rule-5 = Pas de chiffres ni de caractères spéciaux
 new-sentence-rule-6 = Pas de lettre étrangère
 new-sentence-rule-7 = La citation appropriée doit être incluse
 new-sentence-rule-8 = La phrase doit idéalement être naturelle et conversationnelle (elle doit être facile à lire)
+login-instruction-multiple-sentences = <loginLink>Connectez-vous</loginLink> ou <loginLink>inscrivez-vous</loginLink> pour ajouter plusieurs phrases
 how-to-cite = Comment faire une citation ?
 how-to-cite-explanation-bold = Citez en incluant un lien ou le nom complet de l’œuvre.
 how-to-cite-explanation = Si ce sont vos propres mots, mentionnez simplement <italicizedText>« auto-citation »</italicizedText>. Nous avons besoin de connaître la provenance de ce contenu afin de pouvoir vérifier qu’il est dans le domaine public et qu’aucune restriction de droit d’auteur ne s’applique. Pour plus d’informations sur les citations, consultez <guidelinesLink>nos consignes</guidelinesLink>.
@@ -28,9 +31,11 @@ add-sentence-success = 1 phrase collectée
 add-sentence-error = Erreur lors de l’ajout de la phrase
 required-field = Veuillez compléter ce champ.
 single-sentence-submission = Envoi de phrase unique
+small-batch-sentence-submission = Envoi de petit lot de phrases
 bulk-sentence-submission = Envoi de plusieurs phrases
 single-sentence = Phrase unique
-bulk-sentences = Plusieurs phrases
+small-batch-sentence = Petit lot
+bulk-sentence = Grand nombre
 sentence-domain-combobox-label = Domaine de la phrase
 sentence-domain-select-placeholder = Sélectionnez jusqu’à trois domaines
 # Sentence Domain dropdown option
@@ -89,3 +94,17 @@ file-invalid-type = Fichier non valide
 file-too-large = Le fichier est trop volumineux
 file-too-small = Le fichier est trop petit
 too-many-files = Trop de fichiers
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Ajouter plusieurs phrases du domaine public
+multiple-sentences-error = Vous ne pouvez pas ajouter plusieurs phrases lors d’un envoi unique
+# <errorIcon></erroricon> will be replace with an icon that represents an error
+exceeds-small-batch-limit-error = Impossible de soumettre plus de 1 000 phrases
+small-batch-sentences-rule-1 = Suivez les directives de la section « Quelles phrases puis-je ajouter ? »
+small-batch-sentences-rule-2 = Ajoutez une phrase par ligne
+small-batch-sentences-rule-3 = Séparez les phrases en appuyant une fois sur « Entrée »
+small-batch-sentences-rule-4 = Ajoutez jusqu’à 1 000 phrases
+small-batch-sentences-rule-5 = Toutes les phrases doivent avoir le même domaine
+small-batch-sentences-rule-6 = Toutes les phrases doivent avoir la même citation
