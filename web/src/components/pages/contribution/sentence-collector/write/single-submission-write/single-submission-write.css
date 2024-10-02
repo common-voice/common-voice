@@ -132,12 +132,6 @@
                 }
             }
         }
-
-        & .small-batch-summary {
-            @media (--xxl-down) {
-                display: none;
-            }
-        }
     }
 
     & .expandable-container {
