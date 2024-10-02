@@ -1,20 +1,25 @@
 import * as React from 'react'
 
 import SentenceCollectionWrapper from '../sentence-collector-wrapper'
-import SingleSubmissionWrite from './single-submission-write/single-submission-write'
+import { SentenceWrite } from './sentence-write'
 import BulkSubmissionWrite from './bulk-submission-write/bulk-submission-write'
-import SentenceCollectorToggle from '../sentence-colector-toggle'
+import SentenceCollectorToggle from '../sentence-collector-toggle'
 import BulkSubmissionSuccess from './bulk-submission-write/bulk-submission-success'
+import { SmallBatchSummary } from './small-batch-summary'
 
 import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
 import { useLocale } from '../../../../locale-helpers'
-import { useGetVariants } from './single-submission-write/hooks/use-get-variants'
+import { useGetVariants } from './sentence-write/hooks/use-get-variants'
+import {
+  SMALL_BATCH_KEY,
+  useSentenceWrite,
+} from './sentence-write/hooks/use-sentence-write'
 
 import { trackSingleSubmission } from '../../../../../services/tracker'
 
 import './write-container.css'
 
-export type WriteSubmissionToggleOptions = 'single' | 'bulk'
+export type WriteSubmissionToggleOptions = 'single' | 'bulk' | 'small-batch'
 
 const WriteContainer = () => {
   const [activeWriteOption, setActiveWriteOption] =
@@ -24,6 +29,7 @@ const WriteContainer = () => {
   const account = useAccount()
   const sentences = useSentences()
   const { variants } = useGetVariants()
+  const { sentenceWriteState } = useSentenceWrite('small-batch')
 
   const variantTokens = variants ? variants.map(variant => variant.tag) : []
 
@@ -39,6 +45,14 @@ const WriteContainer = () => {
 
   const isUploadDone = sentences[locale]?.bulkUploadStatus === 'done'
 
+  const smallBatchResponse =
+    sentenceWriteState?.smallBatchResponse ||
+    JSON.parse(localStorage.getItem(SMALL_BATCH_KEY))
+
+  const showSmallBatchSummary =
+    activeWriteOption === 'small-batch' &&
+    smallBatchResponse?.invalidSentences.length > 0
+
   if (isUploadDone) {
     return (
       <div className="write-container">
@@ -47,8 +61,41 @@ const WriteContainer = () => {
     )
   }
 
+  const getWriteComponent = (
+    activeWriteOption: WriteSubmissionToggleOptions
+  ) => {
+    if (activeWriteOption === 'single') {
+      return (
+        <SentenceWrite
+          allVariants={allVariants}
+          instructionLocalizedId="write-instruction"
+          mode={activeWriteOption}
+        />
+      )
+    }
+
+    if (activeWriteOption === 'bulk') {
+      return <BulkSubmissionWrite />
+    }
+
+    if (activeWriteOption === 'small-batch') {
+      return (
+        <SentenceWrite
+          allVariants={allVariants}
+          instructionLocalizedId="small-batch-instruction"
+          mode={activeWriteOption}
+        />
+      )
+    }
+  }
+
   return (
     <div className="write-container" data-testid="write-container">
+      {showSmallBatchSummary && (
+        <div className="mobile-small-batch-summary">
+          <SmallBatchSummary smallBatchResponse={smallBatchResponse} />
+        </div>
+      )}
       {account && (
         <div className="sc-toggle">
           <SentenceCollectorToggle
@@ -61,11 +108,7 @@ const WriteContainer = () => {
         dataTestId="write-page"
         type="write"
         extraClassName={account ? '' : 'centered'}>
-        {activeWriteOption === 'single' ? (
-          <SingleSubmissionWrite allVariants={allVariants} />
-        ) : (
-          <BulkSubmissionWrite />
-        )}
+        {getWriteComponent(activeWriteOption)}
       </SentenceCollectionWrapper>
     </div>
   )

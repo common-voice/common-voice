@@ -1,8 +1,9 @@
-import { UserClient } from 'common';
-import URLS from './urls';
+import { UserClient } from 'common'
+import URLS from './urls'
+import { SmallBatchResponse } from './components/pages/contribution/sentence-collector/write/sentence-write/types'
 
-const SEARCH_REG_EXP = new RegExp('</?[^>]+(>|$)', 'g');
-const MS_IN_HOUR = 3600000;
+const SEARCH_REG_EXP = new RegExp('</?[^>]+(>|$)', 'g')
+const MS_IN_HOUR = 3600000
 
 /**
  * Generate RFC4122 compliant globally unique identifier.
@@ -10,19 +11,19 @@ const MS_IN_HOUR = 3600000;
 export function generateGUID(): string {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
     var r = (Math.random() * 16) | 0,
-      v = c == 'x' ? r : (r & 0x3) | 0x8;
-    return v.toString(16);
-  });
+      v = c == 'x' ? r : (r & 0x3) | 0x8
+    return v.toString(16)
+  })
 }
 
 function dec2hex(n: number) {
-  return ('0' + n.toString(16)).substr(-2);
+  return ('0' + n.toString(16)).substr(-2)
 }
 
 export function generateToken(length = 40) {
-  const arr = new Uint8Array(length / 2);
-  window.crypto.getRandomValues(arr);
-  return Array.from(arr, dec2hex).join('');
+  const arr = new Uint8Array(length / 2)
+  window.crypto.getRandomValues(arr)
+  return Array.from(arr, dec2hex).join('')
 }
 
 /**
@@ -30,10 +31,10 @@ export function generateToken(length = 40) {
  * https://codegolf.stackexchange.com/
  *   questions/47322/how-to-count-the-syllables-in-a-word
  */
-let re = /[aiouy]+e*|e(?!d$|ly).|[td]ed|le$/gi;
+let re = /[aiouy]+e*|e(?!d$|ly).|[td]ed|le$/gi
 export function countSyllables(text: string): number {
-  let matches = text.match(re);
-  return matches.length;
+  let matches = text.match(re)
+  return matches.length
 }
 
 /**
@@ -43,7 +44,7 @@ export function countSyllables(text: string): number {
  * browsers, including Safari (!!), Brave, and Firefox Focus.
  */
 export function isIOS(): boolean {
-  return /iPod|iPhone|iPad|iOS/i.test(window.navigator.userAgent);
+  return /iPod|iPhone|iPad|iOS/i.test(window.navigator.userAgent)
 }
 
 /**
@@ -59,111 +60,129 @@ export function isMobileSafari(): boolean {
     !/Chrome|Focus|CriOS|OPiOS|OPT\/|FxiOS|EdgiOS|mercury/i.test(
       window.navigator.userAgent
     )
-  );
+  )
 }
 
 export function isMobileResolution(): boolean {
-  return window.matchMedia('(max-width: 768px)').matches;
+  return window.matchMedia('(max-width: 768px)').matches
 }
 
 export function isProduction(): boolean {
-  return window.location.origin === URLS.HTTP_ROOT;
+  return window.location.origin === URLS.HTTP_ROOT
 }
 
 export function isStaging(): boolean {
-  return window.location.origin === URLS.STAGING_ROOT;
+  return window.location.origin === URLS.STAGING_ROOT
 }
 
 export function shouldEmitErrors(): boolean {
-  return isStaging() || isProduction() ? true : false;
+  return isStaging() || isProduction() ? true : false
 }
 
 /**
  * Replaces the locale part of a given path
  */
 export function replacePathLocale(pathname: string, locale: string) {
-  const pathParts = pathname.split('/');
-  pathParts[1] = locale;
-  return pathParts.join('/');
+  const pathParts = pathname.split('/')
+  pathParts[1] = locale
+  return pathParts.join('/')
 }
 
 export function getManageSubscriptionURL(account: UserClient) {
-  const [firstLanguage] = account.languages;
+  const [firstLanguage] = account.languages
   return `https://www.mozilla.org/${
     firstLanguage ? firstLanguage.locale + '/' : ''
-  }newsletter/existing/${account.basket_token}`;
+  }newsletter/existing/${account.basket_token}`
 }
 
 export const getAudioFormat = (() => {
-  const preferredFormat = 'audio/ogg; codecs=opus';
-  const audio = document.createElement('audio');
+  const preferredFormat = 'audio/ogg; codecs=opus'
+  const audio = document.createElement('audio')
   const format = audio.canPlayType(preferredFormat)
     ? preferredFormat
-    : 'audio/wav';
+    : 'audio/wav'
   return function getAudioFormat() {
-    return format;
-  };
-})();
+    return format
+  }
+})()
 
 export async function hash(text: string) {
-  const encoder = new TextEncoder();
-  const data = encoder.encode(text);
-  const digest = await window.crypto.subtle.digest('SHA-256', data);
+  const encoder = new TextEncoder()
+  const data = encoder.encode(text)
+  const digest = await window.crypto.subtle.digest('SHA-256', data)
 
   return [...new Uint8Array(digest)]
     .map(value => value.toString(16).padStart(2, '0'))
-    .join('');
+    .join('')
 }
 
 export function stringContains(haystack: string, needles: string) {
   return (
     haystack.toUpperCase().replace(SEARCH_REG_EXP, '').indexOf(needles) !== -1
-  );
+  )
 }
 
 export function doNotTrack() {
-  return navigator.doNotTrack === '1' || navigator.doNotTrack === 'yes';
+  return navigator.doNotTrack === '1' || navigator.doNotTrack === 'yes'
 }
 
 export function byteToSize(bytes: number, getString: Function): string {
-  const megabytes = bytes / 1024 / 1024;
+  const megabytes = bytes / 1024 / 1024
   return megabytes < 1
     ? Math.round(megabytes * 100) / 100 + ' ' + getString('size-megabyte')
     : megabytes > 1024
     ? Math.round(megabytes / 1024) + ' ' + getString('size-gigabyte')
-    : Math.round(megabytes) + ' ' + getString('size-megabyte');
+    : Math.round(megabytes) + ' ' + getString('size-megabyte')
 }
 
 export const formatBytes = (bytes: number, locale: string) => {
-  const sizes = ['byte', 'kilobyte', 'megabyte', 'gigabyte', 'terabyte'];
+  const sizes = ['byte', 'kilobyte', 'megabyte', 'gigabyte', 'terabyte']
   if (bytes > 0) {
-    const DECIMAL_PLACES = 2;
-    const BYTES_IN_KILOBYTE = 1024;
-    const i = Math.floor(Math.log(bytes) / Math.log(BYTES_IN_KILOBYTE));
+    const DECIMAL_PLACES = 2
+    const BYTES_IN_KILOBYTE = 1024
+    const i = Math.floor(Math.log(bytes) / Math.log(BYTES_IN_KILOBYTE))
 
     return parseFloat(
       (bytes / Math.pow(BYTES_IN_KILOBYTE, i)).toFixed(DECIMAL_PLACES)
     ).toLocaleString(locale, {
       style: 'unit',
       unit: sizes[i],
-    });
+    })
   } else {
-    const ZERO = 0;
+    const ZERO = 0
     return ZERO.toLocaleString(locale, {
       style: 'unit',
       unit: sizes[ZERO],
-    });
+    })
   }
-};
+}
 
 export const msToHours = (msDuration: number) => {
-  return Math.ceil(msDuration / MS_IN_HOUR);
-};
+  return Math.ceil(msDuration / MS_IN_HOUR)
+}
 
-export const castTrueString = (strValue: string) => strValue === 'true';
+export const castTrueString = (strValue: string) => strValue === 'true'
 
 export const formatNumberToPercentage = (numberValue: number) =>
-  `${Math.round(numberValue * 100)}%`;
+  `${Math.round(numberValue * 100)}%`
 
 export const sortObjectByValue = (obj: Record<string, any>) =>
-  Object.fromEntries(Object.entries(obj).sort(([, a], [, b]) => b - a));
+  Object.fromEntries(Object.entries(obj).sort(([, a], [, b]) => b - a))
+
+// converts an array of invalid small sentences to a TSV string
+export const invalidSmallBatchSentencesToTSVString = (
+  data: SmallBatchResponse['invalidSentences']
+) => {
+  if (!data || data.length === 0) {
+    return ''
+  }
+
+  const tsvString = [
+    ['Sentence', 'Error'],
+    ...data.map(item => [item.sentence, item.errorType]),
+  ]
+    .map(e => e.join('\t'))
+    .join('\n')
+
+  return tsvString
+}
