@@ -9,13 +9,13 @@
         var(--desert-storm)
     );
 
-    @media (--xxl-down) {
+    @media (width < 1400px) {
         flex-direction: column;
     }
 
     & .sc-toggle {
-        overflow-x: auto;
-        @media (--xxl-up) {
+        @media (width > 1400px) {
+            overflow-x: auto;
             width: 25%;
         }
 
@@ -26,7 +26,7 @@
             display: flex;
             flex-direction: column;
 
-            @media (--xxl-down) {
+            @media (width <= 1400px) {
                 flex-direction: row;
                 width: max-content;
                 padding-top: 0;
@@ -45,27 +45,27 @@
                 }
 
                 &.single {
-                    @media (--xxl-down) {
+                    @media (width <= 1400px) {
                         margin-inline-end: 10px;
                     }
                 }
 
                 &.bulk {
-                    @media (--xxl-down) {
+                    @media (width <= 1400px) {
                         margin-inline-start: 10px;
                     }
                 }
             }
 
             & .divider {
-                @media (--xxl-up) {
+                @media (width >= 1400px) {
                     width: 100%;
                     display: inline-block;
                     height: 1px;
                     background-color: var(--grey);
                 }
 
-                @media (--xxl-down) {
+                @media (width <= 1400px) {
                     border: 1px solid var(--grey);
                 }
             }
@@ -76,7 +76,7 @@
             }
 
             & .toggle-option {
-                @media (--xxl-up) {
+                @media (width >= 1400px) {
                     margin-block: 8px;
                 }
             }
