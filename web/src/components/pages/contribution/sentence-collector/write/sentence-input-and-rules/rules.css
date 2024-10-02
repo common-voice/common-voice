@@ -1,8 +1,6 @@
 @import url('../../../../../media.css');
 
 .rules {
-    background: var(--desert-storm);
-
     @media (--lg-up) {
         width: 350px;
         margin-inline-start: 50px;
@@ -10,14 +8,12 @@
     }
 
     & .inner {
+        background: var(--desert-storm);
+        padding: 24px 34px 0;
         height: 100%;
 
         @media (--md-down) {
-            padding: 16px 0px;
-        }
-
-        @media (--xs-down) {
-            padding: 12px 0px;
+            padding-top: 16px;
         }
 
         & .rules-title-container {
@@ -28,64 +24,19 @@
             & .icon-and-title {
                 width: 100%;
                 display: flex;
-                padding: 24px 34px 0;
-                align-items: center;
-                justify-content: start;
-                gap: 8px;
-
-                @media (--xs-down) {
-                    padding: 8px 32px 0;
-                }
-
-                & .text-button {
-                    font-size: var(--font-size-sm);
-                    cursor: auto;
-                    width: 100%;
-                    pointer-events: none;
-
-                    [dir='ltr'] & {
-                        text-align: left;
-                    }
-
-                    [dir='rtl'] & {
-                        text-align: right;
-                    }
-
-                    @media (--xs-down) {
-                        font-size: var(--font-size-xs);
-                    }
-
-                    @media (--md-down) {
-                        margin-top: 3px;
-                    }
-                }
-
-                &.small-batch {
-                    padding: 24px 12px 0;
-
-                    @media (--xs-down) {
-                        padding: 8px 12px 0;
-                    }
-
-                    & .text-button {
-                        pointer-events: all;
-                    }
-                }
+                align-items: flex-start;
             }
 
             svg {
                 transition: transform var(--easing) var(--transition-duration);
-            }
 
-            & svg.alert-icon {
                 @media (--lg-up) {
                     display: none;
                 }
             }
 
             & svg.chevron {
-                width: 20px;
-                height: 20px;
+                margin-top: 6px;
             }
 
             & svg.alert-icon {
@@ -98,10 +49,44 @@
         }
     }
 
+    & .inner.rules-hidden {
+        @media (--xs-down) {
+            padding-bottom: 0;
+            padding-top: 16px;
+            padding-left: 16px;
+        }
+    }
+
+    & .text-button {
+        font-size: var(--font-size-sm);
+        margin-bottom: 16px;
+        cursor: auto;
+        width: 100%;
+
+        [dir='ltr'] & {
+            text-align: left;
+        }
+
+        [dir='rtl'] & {
+            text-align: right;
+        }
+
+        @media (--xs-down) {
+            font-size: var(--font-size-xs);
+        }
+
+        @media (--md-down) {
+            margin-top: 3px;
+        }
+
+        @media (--lg-up) {
+            pointer-events: none;
+        }
+    }
+
     ul {
         font-size: var(--font-size-sm);
         color: var(--near-black);
-        padding: 24px 34px 0;
 
         @media (--md-down) {
             padding-bottom: 16px;
@@ -113,9 +98,11 @@
 
         li {
             margin-bottom: 12px;
+            width: 250px;
 
-            @media (--lg-up) {
-                width: 250px;
+            a {
+                color: var(--anchor-text-blue);
+                text-decoration: underline;
             }
         }
 
@@ -127,31 +114,9 @@
             margin-bottom: 0px;
         }
     }
-
-    .horizontal-line {
-        border: 1px solid var(--grey);
-        margin-block-start: 24px;
-
-        @media (--xs-down) {
-            margin-block-start: 12px;
-        }
-    }
-
-    .login-instruction-multiple-sentences {
-        font-size: var(--font-size-sm);
-        padding: 12px;
-        width: 250px;
-        color: var(--near-black);
-
-        @media (--xs-down) {
-            font-size: var(--font-size-xs);
-        }
-    }
 }
 
 .rules.write-rules {
-    overflow-y: auto;
-
     @media (--xl-up) {
         height: calc(30vh + 50px);
         min-height: 440px;

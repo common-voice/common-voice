@@ -14,7 +14,6 @@
     }
 
     & .sc-toggle {
-        overflow-x: auto;
         @media (--xxl-up) {
             width: 25%;
         }
@@ -75,9 +74,15 @@
                 text-align: left;
             }
 
-            & .toggle-option {
+            & .single-option {
                 @media (--xxl-up) {
-                    margin-block: 8px;
+                    margin-bottom: 12px;
+                }
+            }
+
+            & .bulk-option {
+                @media (--xxl-up) {
+                    margin-top: 12px;
                 }
             }
         }
@@ -134,18 +139,5 @@
             font-size: var(--font-size-sm);
             color: var(--anchor-text-blue);
         }
-    }
-
-    & .mobile-small-batch-summary {
-        text-align: center;
-
-        @media (--xxl-up) {
-            display: none;
-        }
-    }
-
-    a {
-        text-decoration: underline;
-        color: var(--anchor-text-blue);
     }
 }

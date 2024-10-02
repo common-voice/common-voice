@@ -178,7 +178,7 @@ const Review: React.FC<Props> = ({ getString }) => {
               ))}
             </div>
           )}
-          <Rules localizedTitleId="sc-review-rules-title" />
+          <Rules title="sc-review-rules-title" />
         </div>
       </div>
       <div className="waves">

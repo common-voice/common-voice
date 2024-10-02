@@ -1,24 +1,24 @@
-import * as React from 'react'
-import { useEffect, useState } from 'react'
-import { useAction } from '../../hooks/store-hooks'
-import { Notifications } from '../../stores/notifications'
+import * as React from 'react';
+import { useEffect, useState } from 'react';
+import { useAction } from '../../hooks/store-hooks';
+import { Notifications } from '../../stores/notifications';
 
-import './notification-pill.css'
+import './notification-pill.css';
 
-const NOTIFICATION_TIMEOUT_MS = 3000
+const NOTIFICATION_TIMEOUT_MS = 3000;
 
 export default function NotificationPill({
   notification,
 }: {
-  notification: Notifications.Notification
+  notification: Notifications.Notification;
 }) {
-  const removeNotification = useAction(Notifications.actions.remove)
-  const [show, setShow] = useState(true)
+  const removeNotification = useAction(Notifications.actions.remove);
+  const [show, setShow] = useState(true);
 
   useEffect(() => {
-    const timeoutId = setTimeout(() => setShow(false), NOTIFICATION_TIMEOUT_MS)
-    return () => clearTimeout(timeoutId)
-  }, [])
+    const timeoutId = setTimeout(() => setShow(false), NOTIFICATION_TIMEOUT_MS);
+    return () => clearTimeout(timeoutId);
+  }, []);
 
   return (
     <div
@@ -40,8 +40,7 @@ export default function NotificationPill({
           <br />
         </>
       )}
-      {notification.icon && <notification.icon />}
       {notification.content}
     </div>
-  )
+  );
 }

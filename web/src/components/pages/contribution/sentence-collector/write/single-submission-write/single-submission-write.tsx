@@ -7,26 +7,18 @@ import { PrimaryButton } from '../../../../../primary-buttons/primary-buttons'
 
 import { SentenceInputAndRules } from '../sentence-input-and-rules/sentence-input-and-rules'
 import { sentenceDomains } from 'common'
-import { SMALL_BATCH_KEY, useSentenceWrite } from './hooks/use-sentence-write'
+import { useSingleSubmissionWrite } from './hooks/use-single-submission-write'
 
 import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 import URLS from '../../../../../../urls'
 
-import './sentence-write.css'
-
-export type WriteMode = 'single' | 'small-batch'
+import './single-submission-write.css'
 
 type Props = {
   allVariants: string[]
-  instructionLocalizedId: string
-  mode: WriteMode
 }
 
-export const SentenceWrite: React.FC<Props> = ({
-  allVariants,
-  instructionLocalizedId,
-  mode,
-}) => {
+const SingleSubmissionWrite: React.FC<Props> = ({ allVariants }) => {
   const {
     handleCitationChange,
     handlePublicDomainChange,
@@ -34,12 +26,8 @@ export const SentenceWrite: React.FC<Props> = ({
     handleSentenceInputChange,
     handleSentenceVariantChange,
     handleSubmit,
-    sentenceWriteState,
-  } = useSentenceWrite(mode)
-
-  const smallBatchResponse =
-    sentenceWriteState?.smallBatchResponse ||
-    JSON.parse(localStorage.getItem(SMALL_BATCH_KEY))
+    singleSentenceSubmissionState,
+  } = useSingleSubmissionWrite()
 
   return (
     <form
@@ -50,18 +38,17 @@ export const SentenceWrite: React.FC<Props> = ({
         <SentenceInputAndRules
           handleSentenceInputChange={handleSentenceInputChange}
           handleCitationChange={handleCitationChange}
-          sentence={sentenceWriteState.sentence}
-          citation={sentenceWriteState.citation}
+          sentence={singleSentenceSubmissionState.sentence}
+          citation={singleSentenceSubmissionState.citation}
           sentenceDomains={sentenceDomains}
           setSelectedSentenceDomains={handleSentenceDomainChange}
-          selectedSentenceDomains={sentenceWriteState.sentenceDomains}
-          error={sentenceWriteState.error}
+          selectedSentenceDomains={
+            singleSentenceSubmissionState.sentenceDomains
+          }
+          error={singleSentenceSubmissionState.error}
           handleSentenceVariantChange={handleSentenceVariantChange}
           variantTokens={allVariants}
-          selectedVariant={sentenceWriteState.sentenceVariant}
-          instructionLocalizedId={instructionLocalizedId}
-          smallBatchResponse={smallBatchResponse}
-          mode={mode}
+          selectedVariant={singleSentenceSubmissionState.sentenceVariant}
         />
       </div>
 
@@ -106,8 +93,8 @@ export const SentenceWrite: React.FC<Props> = ({
                 <span />
               </Localized>
             }
-            disabled={sentenceWriteState.sentence.length === 0}
-            checked={sentenceWriteState.confirmPublicDomain}
+            disabled={singleSentenceSubmissionState.sentence.length === 0}
+            checked={singleSentenceSubmissionState.confirmPublicDomain}
             required
             onChange={handlePublicDomainChange}
             data-testid="public-domain-checkbox"
@@ -116,7 +103,7 @@ export const SentenceWrite: React.FC<Props> = ({
             <PrimaryButton
               className="submit"
               type="submit"
-              disabled={!sentenceWriteState.confirmPublicDomain}
+              disabled={!singleSentenceSubmissionState.confirmPublicDomain}
               data-testid="submit-button"
             />
           </Localized>
@@ -125,3 +112,5 @@ export const SentenceWrite: React.FC<Props> = ({
     </form>
   )
 }
+
+export default SingleSubmissionWrite

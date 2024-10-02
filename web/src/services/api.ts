@@ -171,9 +171,7 @@ export default class API {
   }
 
   fetchLocaleMessages(locale: string): Promise<string> {
-    return this.fetch(`${API_PATH}/languages/${locale}/translations`, {
-      isJSON: false,
-    })
+    return this.fetch(`${API_PATH}/languages/${locale}/translations`, { isJSON: false })
   }
 
   async fetchCrossLocaleMessages(): Promise<string[][]> {
@@ -541,25 +539,18 @@ export default class API {
   }
 
   createSentence({
-    sentenceSubmission: { sentence, source, localeName, domains, variant },
-    isSmallBatch,
-  }: {
-    sentenceSubmission: SentenceSubmission
-    isSmallBatch?: boolean
-  }) {
+    sentence,
+    source,
+    localeName,
+    domains,
+    variant,
+  }: SentenceSubmission) {
     const data = {
       domains,
-      ...(isSmallBatch ? { sentences: sentence } : { sentence }),
+      sentence,
       source,
       localeName,
       ...(variant && { variant }),
-    }
-
-    if (isSmallBatch) {
-      return this.fetch(`${API_PATH}/sentences/batch`, {
-        method: 'POST',
-        body: data,
-      })
     }
 
     return this.fetch(`${API_PATH}/sentences`, {

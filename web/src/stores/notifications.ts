@@ -1,21 +1,19 @@
-/* eslint-disable @typescript-eslint/no-namespace */
 export namespace Notifications {
   export type Notification = {
-    id: number
-    content: any
-    icon?: React.ComponentType
+    id: number;
+    content: any;
   } & (
     | {
-        kind: 'pill'
-        type: NotificationType
-        score?: number
+        kind: 'pill';
+        type: NotificationType;
+        score?: number;
       }
     | { kind: 'banner'; bannerProps: { storageKey?: string; links: any[] } }
-  )
+  );
 
-  export type NotificationType = 'success' | 'error' | 'achievement'
+  export type NotificationType = 'success' | 'error' | 'achievement';
 
-  export type State = Notification[]
+  export type State = Notification[];
 
   enum ActionType {
     ADD = 'ADD_NOTIFICATION',
@@ -23,27 +21,23 @@ export namespace Notifications {
   }
 
   interface AddAction {
-    type: ActionType.ADD
-    notification: Notification
+    type: ActionType.ADD;
+    notification: Notification;
   }
 
   interface RemoveAction {
-    type: ActionType.REMOVE
-    id: number
+    type: ActionType.REMOVE;
+    id: number;
   }
 
-  export type Action = AddAction | RemoveAction
+  export type Action = AddAction | RemoveAction;
 
-  let id = 0
+  let id = 0;
 
   export const actions = {
-    addPill: <T extends object>(
-      content: any,
-      type: NotificationType = 'success',
-      icon?: React.ComponentType<T>
-    ) => ({
+    addPill: (content: any, type: NotificationType = 'success') => ({
       type: ActionType.ADD,
-      notification: { id: ++id, kind: 'pill', content, type, icon },
+      notification: { id: ++id, kind: 'pill', content, type },
     }),
 
     // TODO: separate banners from notifications
@@ -63,18 +57,18 @@ export namespace Notifications {
       type: ActionType.REMOVE,
       id,
     }),
-  }
+  };
 
   export function reducer(state: State = [], action: Action): State {
     switch (action.type) {
       case ActionType.ADD:
-        return [...state, action.notification]
+        return [...state, action.notification];
 
       case ActionType.REMOVE:
-        return state.filter(({ id }) => id !== action.id)
+        return state.filter(({ id }) => id !== action.id);
 
       default:
-        return state
+        return state;
     }
   }
 }
