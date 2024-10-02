@@ -165,4 +165,9 @@
     @media (--md-down) {
         width: 100%;
     }
+
+    &.rules-hidden {
+        max-height: 150px;
+        min-height: 150px;
+    }
 }

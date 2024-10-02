@@ -7,13 +7,13 @@ import { ChevronDown } from '../../../../../ui/icons'
 
 type Props = {
   title: string
+  onToggle: (section: 'single' | 'smallBatch') => void
+  isVisible: boolean
 }
 
-export const SmallBatchRules = ({ title }: Props) => {
-  const [rulesVisible, setRulesVisible] = React.useState(true)
-
+export const SmallBatchRules = ({ title, onToggle, isVisible }: Props) => {
   const handleClick = () => {
-    setRulesVisible(!rulesVisible)
+    onToggle('smallBatch')
   }
 
   return (
@@ -21,7 +21,7 @@ export const SmallBatchRules = ({ title }: Props) => {
       <div className="rules-title-container">
         <div className="icon-and-title small-batch">
           <ChevronDown
-            className={classNames('chevron', { 'rotate-180': rulesVisible })}
+            className={classNames('chevron', { 'rotate-180': isVisible })}
             onClick={handleClick}
           />
           <Localized id={title}>
@@ -30,7 +30,7 @@ export const SmallBatchRules = ({ title }: Props) => {
         </div>
       </div>
 
-      {rulesVisible && (
+      {isVisible && (
         <ul>
           <Localized id="small-batch-sentences-rule-1">
             <li />

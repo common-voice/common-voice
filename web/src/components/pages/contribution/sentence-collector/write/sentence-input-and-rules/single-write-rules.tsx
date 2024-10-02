@@ -13,6 +13,8 @@ type Props = {
   title: string
   mode: WriteMode
   error?: SentenceSubmissionError
+  onToggle: (section: 'single' | 'smallBatch') => void
+  isVisible: boolean
 }
 
 export const SinglewriteRules = ({
@@ -21,11 +23,11 @@ export const SinglewriteRules = ({
   isLoggedIn,
   title,
   mode,
+  onToggle,
+  isVisible,
 }: Props) => {
-  const [rulesVisible, setRulesVisible] = React.useState(true)
-
   const handleClick = () => {
-    setRulesVisible(!rulesVisible)
+    onToggle('single')
   }
 
   return (
@@ -37,7 +39,7 @@ export const SinglewriteRules = ({
           })}>
           {mode === 'small-batch' && (
             <ChevronDown
-              className={classNames('chevron', { 'rotate-180': rulesVisible })}
+              className={classNames('chevron', { 'rotate-180': isVisible })}
               onClick={handleClick}
             />
           )}
@@ -48,7 +50,7 @@ export const SinglewriteRules = ({
         </div>
       </div>
 
-      {rulesVisible && (
+      {isVisible && (
         <ul>
           {showFirstRule && (
             <Localized

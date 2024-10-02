@@ -29,8 +29,27 @@ export const Rules: React.FC<Props> = ({
   const isSmallBatchMode = mode === 'small-batch'
   const showSmallBatchRules = isLoggedIn && isSmallBatchMode
 
+  const [rulesSection, setRulesSectionVisible] = React.useState({
+    singleVisible: true,
+    smallBatchVisible: true,
+  })
+
+  const handleToggle = (section: 'single' | 'smallBatch') => {
+    setRulesSectionVisible({
+      ...rulesSection,
+      [`${section}Visible`]: !rulesSection[`${section}Visible`],
+    })
+  }
+
+  const smallBatchAndSingleRulesHidden =
+    !rulesSection.singleVisible && !rulesSection.smallBatchVisible
+
   return (
-    <div className={classNames('rules', { 'write-rules': showFirstRule })}>
+    <div
+      className={classNames('rules', {
+        'write-rules': showFirstRule,
+        'rules-hidden': smallBatchAndSingleRulesHidden,
+      })}>
       <div className="inner">
         <SinglewriteRules
           error={error}
@@ -38,12 +57,18 @@ export const Rules: React.FC<Props> = ({
           isLoggedIn={isLoggedIn}
           title={localizedTitleId}
           mode={mode}
+          onToggle={handleToggle}
+          isVisible={rulesSection.singleVisible}
         />
 
         {showSmallBatchRules && (
           <>
             <div className="horizontal-line" />
-            <SmallBatchRules title={localizedSmallBatchTitleId} />
+            <SmallBatchRules
+              title={localizedSmallBatchTitleId}
+              onToggle={handleToggle}
+              isVisible={rulesSection.smallBatchVisible}
+            />
           </>
         )}
       </div>
