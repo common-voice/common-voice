@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import * as React from 'react'
 import { Localized } from '@fluent/react'
 import classNames from 'classnames'
 
@@ -10,7 +10,7 @@ type Props = {
 }
 
 export const SmallBatchRules = ({ title }: Props) => {
-  const [rulesVisible, setRulesVisible] = useState(true)
+  const [rulesVisible, setRulesVisible] = React.useState(true)
 
   const handleClick = () => {
     setRulesVisible(!rulesVisible)
