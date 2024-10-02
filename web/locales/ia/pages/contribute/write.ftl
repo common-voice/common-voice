@@ -5,12 +5,14 @@ write-instruction = Adde <icon></icon> un phrase de dominio public
 write-page-subtitle = Le phrases fornite ci sera addite a un insimul de datos publicamente disponibile con licentia cc-0.
 sentence =
     .label = Phrase
-sentence-input-value = Insere ci tu phrase de dominio public
+sentence-input-placeholder = Insere ci tu phrase de dominio public
+small-batch-sentence-input-placeholder = Insere ci tu phrases de dominio public
 citation-input-placeholder = Refere le fonte de tu phrase (obligatori)
 citation =
     .label = Citation
 sc-write-submit-confirm = Io confirma que iste phrases es del <wikipediaLink>dominio public</wikipediaLink> e que io ha le permission de cargar los.
 sc-review-write-title = Qual phrases pote io adder?
+sc-review-small-batch-title = Como adder plure phrases
 new-sentence-rule-1 = <noCopyright>Nulle</noCopyright> limitationes de derectos de autor (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Minus que 15 parolas
 new-sentence-rule-3 = Usar grammatica correcte
@@ -19,6 +21,7 @@ new-sentence-rule-5 = Nulle numeros e characteres special
 new-sentence-rule-6 = Nulle litteras estranier
 new-sentence-rule-7 = Includer citation appropriate
 new-sentence-rule-8 = Idealmente natural e conversational (le phrase debe esser facile a leger)
+login-instruction-multiple-sentences = <loginLink>Accede</loginLink> o <loginLink>registra te</loginLink> pro adder plure phrases
 how-to-cite = Como pote io citar
 how-to-cite-explanation-bold = Citar con un ligamine URL o le nomine complete del labor.
 how-to-cite-explanation = Si il es tu proprie parolas, justo dice <italicizedText>“Citation proprie”</italicizedText>. Nos besonia de saper ubi tu trovava iste contento, assi que nos pote verificar que illo es de dominio public e nulle limitationes de derectos de autor se applica. Pro altere informationes re le citation vider nostre <guidelinesLink>Pagina de lineas guida</guidelinesLink>.
@@ -30,7 +33,6 @@ required-field = Per favor compila iste campo.
 single-sentence-submission = Invio de phrases singule
 bulk-sentence-submission = Invio de gruppo de phrases
 single-sentence = Phrase singule
-bulk-sentences = Gruppo de phrases
 sentence-domain-combobox-label = Dominio del phrase
 sentence-domain-select-placeholder = Selige usque tres dominios
 # Sentence Domain dropdown option
@@ -89,3 +91,6 @@ file-invalid-type = File non valide
 file-too-large = File troppo grande
 file-too-small = File troppo micre
 too-many-files = Troppo de files
+
+## SMALL BATCH SUBMISSION
+
