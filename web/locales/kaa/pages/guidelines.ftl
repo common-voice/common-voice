@@ -1,3 +1,4 @@
+voice-collection = Даўыслар топламы
 sentence-collection = Гәплер топламы
 misreadings = Надурыс оқыў
 background-noise = Сыртқы шаўқым
