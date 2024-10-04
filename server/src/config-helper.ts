@@ -10,6 +10,9 @@ if (process.env.DOTENV_CONFIG_PATH) {
   }
 }
 
+const ENVIRONMENTS = ['prod', 'stage', 'sandbox', 'local'] as const
+export type Environment = typeof ENVIRONMENTS[number]
+
 export type CommonVoiceConfig = {
   VERSION: string
   PROD: boolean
@@ -27,7 +30,7 @@ export type CommonVoiceConfig = {
   DATASET_BUCKET_NAME: string
   BULK_SUBMISSION_BUCKET_NAME: string
   AWS_REGION: string
-  ENVIRONMENT: string
+  ENVIRONMENT: Environment
   RELEASE_VERSION?: string
   SECRET: string
   AWS_SES_CONFIG: SESClientConfig
