@@ -26,11 +26,11 @@ const deleteAvatar = async (client_id: string, url: string) => {
 
 const updateAvatarURL = async (
   client_id: string,
-  user: Express.User,
+  user: { client_id: string; email: string },
   uploadedImagePath: string
 ) => {
   const oldAvatar = await UserClient.updateAvatarURL(
-    user.emails[0].value,
+    user.email,
     uploadedImagePath
   )
   if (oldAvatar) await deleteAvatar(client_id, oldAvatar)
@@ -46,7 +46,7 @@ const imageProcessor = async (job: Job) => {
   } = job.data as {
     client_id: string
     rawImageData: string
-    user: Express.User
+    user: { client_id: string; email: string }
     key: string
     imageBucket: string
   }
