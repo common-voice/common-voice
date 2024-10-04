@@ -8,7 +8,7 @@ import { createPresentableError } from '../../../application/helper/error-helper
 
 export const createReportHandler = async (req: Request, res: Response) => {
   const cmd: CreateReportCommand = {
-    clientId: req.client_id,
+    clientId: req.session.user.client_id,
     kind: req.body.kind,
     id: req.body.id,
     reasons: req.body.reasons,
