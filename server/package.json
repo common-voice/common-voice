@@ -34,6 +34,7 @@
     "mp3-duration": "^1.1.0",
     "mysql2": "^3.11.3",
     "nodemailer": "6.9.14",
+    "openid-client": "^5.7.0",
     "rate-limiter-flexible": "2.4.2",
     "redlock": "4.2.0",
     "request": "2.88.2",
