@@ -308,20 +308,15 @@ export default class API {
   }
 
   getUserClients = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      session: { user },
-    }: Request,
+    { session: { user } }: Request,
     response: Response
   ) => {
     if (!user) {
       response.json([])
       return
     }
-
     const email = user.email
+    const client_id = user.client_id
     const enrollment = user.enrollment
     const userClients: UserClientType[] = [
       { email, enrollment },
