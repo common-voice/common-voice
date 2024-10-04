@@ -43,7 +43,7 @@ services:
       context: ./bundler
       dockerfile: Dockerfile
     container_name: bundler
-    user: "${UID:-10001}:${GID:-10001}"
+    user: '${UID:-10001}:${GID:-10001}'
     links:
       - db
       - redis
@@ -60,7 +60,7 @@ services:
       context: .
       dockerfile: docker/Dockerfile
     container_name: web
-    user: "${UID:-10001}:${GID:-10001}"
+    user: '${UID:-10001}:${GID:-10001}'
     links:
       - db
       - redis
@@ -73,7 +73,7 @@ services:
       - voice-web
     ports:
       - 9000:9000
-    command: bash -c "/code/docker/wait-for-it.sh storage:8080 -- /code/docker/prepare_storage.sh && yarn && yarn start"
+    command: bash -c "/code/docker/wait-for-it.sh storage:8080 -- /code/docker/prepare_storage.sh && yarn --frozen-lockfile && yarn start"
 
 networks:
   voice-web:
