@@ -3,22 +3,16 @@ declare global {
     includes(val: string): boolean
     startsWith(val: string): boolean
   }
-
-  namespace Express {
-    export interface User {
-      emails?: any
-      enrollment?: any
-    }
-    export interface Request {
-      client_id?: string
-      user: any
-    }
-  }
 }
 
 declare module 'express-session' {
   interface SessionData {
     userId: string
+    user: {
+      client_id: string
+      email: string
+      enrollment?: any
+    }
     auth: {
       state: string
     }
