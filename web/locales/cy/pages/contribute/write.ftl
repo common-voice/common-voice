@@ -5,14 +5,12 @@ write-instruction = Ychwanegu <icon></icon> brawddeg parth cyhoeddus
 write-page-subtitle = Bydd brawddegau sy'n cael eu cyfrannu yma yn cael eu hychwanegu at set ddata drwyddedig cc-0 sydd ar gael yn gyhoeddus.
 sentence =
     .label = Brawddeg
-sentence-input-placeholder = Rhowch eich brawddeg parth cyhoeddus yma
-small-batch-sentence-input-placeholder = Rhowch eich brawddegau parth cyhoeddus yma
+sentence-input-value = Rhowch eich brawddeg parth cyhoeddus yma
 citation-input-placeholder = Cyfeiriwch at ffynhonnell eich brawddeg (gofynnol)
 citation =
     .label = Cyfeirio
 sc-write-submit-confirm = Rwy'n cadarnhau bod y brawddegau hyn yn rhai <wikipediaLink>parth cyhoeddus</wikipediaLink> ac mae gen i ganiatâd i'w llwytho i fyny.
 sc-review-write-title = Pa frawddegau y gallaf eu hychwanegu?
-sc-review-small-batch-title = Sut i ychwanegu brawddegau lluosog
 new-sentence-rule-1 = <noCopyright>Dim cyfyngiadau hawlfraint</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Llai na 15 gair
 new-sentence-rule-3 = Defnyddiwch ramadeg cywir
@@ -21,7 +19,6 @@ new-sentence-rule-5 = Dim rhifau na nodau arbennig
 new-sentence-rule-6 = Dim nodau tramor
 new-sentence-rule-7 = Cynhwyswch gyfeiriadaeth briodol
 new-sentence-rule-8 = Yn ddelfrydol naturiol a sgyrsiol (dylai fod yn hawdd i ddarllen y frawddeg)
-login-instruction-multiple-sentences = <loginLink>Mewngofnodi</loginLink> neu <loginLink>gofrestru</loginLink> i ychwanegu brawddegau lluosog
 how-to-cite = Sut ydw i'n cyfeirio?
 how-to-cite-explanation-bold = Cyfeiriwch gyda dolen URL neu deitl llawn y gwaith.
 how-to-cite-explanation = Os mai eich geiriau eich hun ydyn nhw, dywedwch <italicizedText>“Hunanddyfynnu”</italicizedText>. Mae angen i ni wybod o ble daethoch chi o hyd i'r cynnwys hwn fel y gallwn wirio ei fod yn y parth cyhoeddus ac nad oes unrhyw gyfyngiadau hawlfraint yn berthnasol. I gael rhagor o wybodaeth am y dyfyniadau darllenwch ein <canllawiauLink>Tudalen Canllawiau</guidelinesLink>.
@@ -31,11 +28,9 @@ add-sentence-success = 1 frawddeg wedi'i chasglu
 add-sentence-error = Gwall wrth ychwanegu brawddeg
 required-field = Llenwch y maes hwn, os gwelwch yn dda.
 single-sentence-submission = Cyflwyno Un Frawddeg
-small-batch-sentence-submission = Cyflwyno swp bychan o frawddegau
 bulk-sentence-submission = Cyflwyno Brawddegau Lluosog
 single-sentence = Un Frawddeg
-small-batch-sentence = Swp bychan
-bulk-sentence = Swmp sylweddol
+bulk-sentences = Brawddegau Lluosog
 sentence-domain-combobox-label = Parth Brawddeg
 sentence-domain-select-placeholder = Dewiswch hyd at dri pharth
 # Sentence Domain dropdown option
@@ -94,37 +89,3 @@ file-invalid-type = Ffeil annilys.
 file-too-large = Mae'r ffeil yn rhy fawr
 file-too-small = Mae'r ffeil yn rhy fach
 too-many-files = Gormod o ffeiliau
-
-## SMALL BATCH SUBMISSION
-
-# <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon></icon> Ychwanegu brawddegau parth cyhoeddus lluosog
-multiple-sentences-error = Nid oes modd ychwanegu brawddegau lluosog ar gyfer cyflwyniad sengl
-# <errorIcon></erroricon> will be replace with an icon that represents an error
-exceeds-small-batch-limit-error = Nid oes modd cyflwyno mwy na 1000 o frawddegau
-# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
-add-small-batch-success =
-    { $totalSentences ->
-        [zero] { $uploadedSentences } o { $totalSentences } brawddegau a gasglwyd
-        [one] { $uploadedSentences } o 1 brawddeg a gasglwyd
-        [two] { $uploadedSentences } o { $totalSentences } frawddeg a gasglwyd
-        [few] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
-        [many] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
-       *[other] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd
-    }
-# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
-small-batch-response-message =
-    { $totalSentences ->
-        [zero] { $uploadedSentences } o { $totalSentences } brawddegau a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
-        [one] { $uploadedSentences } o 1 brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
-        [two] { $uploadedSentences } o 2 frawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
-        [few] { $uploadedSentences } o 3 brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
-        [many] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
-       *[other] { $uploadedSentences } o { $totalSentences } brawddeg a gasglwyd. Cliciwch <downloadLink>yma</downloadLink> i lwytho i lawr brawddegau a wrthodwyd.
-    }
-small-batch-sentences-rule-1 = Dilynwch y canllawiau o “Pa frawddegau y gallaf eu hychwanegu?”
-small-batch-sentences-rule-2 = Ychwanegu un frawddeg i linell
-small-batch-sentences-rule-3 = Gwahanwch frawddegau i un llinell trwy bwyso “Enter” neu “Return” unwaith
-small-batch-sentences-rule-4 = Ychwanegwch hyd at 1,000 o frawddegau
-small-batch-sentences-rule-5 = Rhaid i bob brawddeg gael yr un parth
-small-batch-sentences-rule-6 = Rhaid i bob brawddeg gael yr un tarddiad
