@@ -218,7 +218,7 @@ export async function authMiddleware(
         return
       }
     }
-    request.session.user = { client_id, email: '' }
+    request.session.user = { ...request.session.user, client_id }
   }
 
   next()
