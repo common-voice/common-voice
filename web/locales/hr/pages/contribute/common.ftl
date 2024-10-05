@@ -39,6 +39,14 @@ change-preferences = Promijeni postavke
 
 contribute-voice-collection-nav-header = Zbirka glasova
 contribute-sentence-collection-nav-header = Zbirka rečenica
+login-signup = Prijava/Registracija
+vote-yes = Da
+vote-no = Ne
+datasets = Skupovi podataka
+languages = Jezici
+about = Informacije
+partner = Partner
+submit-form-action = Pošalji
 
 ## Reporting
 
