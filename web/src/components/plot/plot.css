@@ -13,7 +13,7 @@
         }
 
         &.current {
-            fill: var(--valid-green);
+            fill: #00758a;
         }
     }
 }

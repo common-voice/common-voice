@@ -36,7 +36,6 @@
 
         z-index: var(--top-z-index);
         border: none;
-        border-radius: 50% !important;
         width: 65px;
         height: 65px;
         background: var(--white);
