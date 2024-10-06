@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import Breadcrumb from '../../Breadcrumb'
 import classes from './falak-header.module.css'
 export default function FalakHeader() {
-
   return (
     <>
       <div className="inner-pages py-4 px-4 mx-0 gap-8 md:mx-6 lg:mx-8 xl:mx-8 lg:px-8 flex items-center justify-between">
@@ -23,11 +22,11 @@ export default function FalakHeader() {
           style={{ top: '55px' }}>
           <ul className="list-none gpa-8 p-0 m-0 flex lg:items-center select-none flex-col lg:flex-row cursor-pointer">
             <li>
-              <Link
-                to="/"
+              <a
+                href="https://falak.ksaa.gov.sa/"
                 className="flex m-0 md:mr-5 px-0 py-3 text-900 text-md line-height-3">
                 <span>الرئيسة</span>
-              </Link>
+              </a>
             </li>
             <li>
               <a
@@ -68,10 +67,9 @@ export default function FalakHeader() {
                 src="/img/icon-login.svg"
                 alt="مِنَصّةُ فلك"
                 height="15"
-               className={classes['button-image']}
+                className={classes['button-image']}
               />
-           <span className={classes['button-text']}>دخول</span>
-
+              <span className={classes['button-text']}>دخول</span>
             </a>
             {/* )} */}
             {/* {showRegister && (

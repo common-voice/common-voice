@@ -6,7 +6,7 @@ const routeNames: { [key: string]: string } = {
   listen: 'استمع',
   write: 'الكتابة',
   review: 'المراجعة',
-  login:'تسجيل'
+  login: 'تسجيل',
 }
 
 export default function Breadcrumb() {
@@ -19,7 +19,7 @@ export default function Breadcrumb() {
         <ul className="flex gap-1 text-gray-600 px-14 pt-6">
           <li className="hover:text-blue-500 text-md">
             <Link to="/" className="flex items-center gap-1">
-              الرئيسية
+              الرئيسة
             </Link>
           </li>
           <li className="hover:text-blue-500 text-[#219F8A] text-md">
