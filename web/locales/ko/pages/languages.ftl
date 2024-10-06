@@ -4,6 +4,8 @@ language-section-in-progress = 진행중
 language-section-in-progress-new-description = 이 언어들은 현재 커뮤니티에서 개발중에 있습니다. 진행 상태 바는 각 언어의 <localizationGlossaryLink>웹사이트 지역화</localizationGlossaryLink>와  <sentenceCollectionGlossaryLink>문장 수집</sentenceCollectionGlossaryLink>이 어떻게 되고 있는지를 보여줍니다.
 language-section-launched = 출시됨
 language-section-launched-description = 출시된 언어들은 웹 사이트가 성공적으로 <localizationGlossaryLink>지역화</localizationGlossaryLink>되고, 충분한 <sentenceCollectionGlossaryLink>문장이 수집</sentenceCollectionGlossaryLink> 되어 <speakLink>말하기</speaklink>와 <listenLink>듣기</listenLink>에 기여할 수 있는 언어들입니다.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = 마지막 업데이트: { $lastUpdatedTimeStamp }
 languages-show-more = 더 보기
 languages-show-less = 접기
 language-meter-in-progress = 진행

@@ -18,10 +18,12 @@ validated-hr-total = 검증된 시간 합계
 overall-hr-total = 전체 시간 합계
 cv-license = 라이선스
 audio-format = 오디오 포멧
+dataset-splits = 분할(연령 및 성별)
 number-of-voices = 음성 갯수
 splits = 분리
 email-to-download = 다운로드 하기 위한 이메일을 입력하십시오.
 why-email = <b>왜 이메일이 필요한가요?</b>앞으로 데이터 세트 변경 사항에 대해 연락을 해야 할 때 이메일을 사용합니다.
+why-donate-datasets-page = Mozilla Common Voice는 세계에서 가장 다양한 크라우드소싱 오픈 스피치 데이터세트이며 기부금으로만 운영되고 있습니다. 저희의 도움을 필요로 하는 100개 이상의 언어 공동체를 위해 데이터세트를 호스팅하고 플랫폼을 개선하는 데 연간 100만 달러에 달하는 비용이 소요됩니다. 모두를 위한 열린 데이터를 중시하신다면 <b>오늘 기부하세요!</b>
 confirm-size = <b>{ $size }</b>의 다운로드를 시작할 준비가 되었습니다.
 size-gigabyte = GB
 size-megabyte = MB
@@ -40,6 +42,8 @@ subscribe = 구독하기
 get-started-speech = 음성인식 시작하기
 other-datasets = 기타 음성 데이터세트
 feedback-q = 제안 사항이 있습니까?
+# This indicates that there is no data to display
+no-information = 정보 없음
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™는 최첨단 대화형 AI 모델을 개발하는 연구자를 위한 <docsLink>오픈 소스 툴킷</docsLink>입니다.
 resource-deepspeech-info = Mozilla의 오픈 소스 음성 인식 엔진 Deep Speech를 사용해 음성 인식 어플리케이션을 만들 수 있습니다. <githubLink>Github 개요</githubLink>를 읽거나 <discourseLink>DeepSpeech Discourse</discourseLink>에 참여하여 시작하는 방법을 알아보세요.
 resource-coqui-info = <coquiLink>Coqui</coquiLink>는 개방형 음성 기술에 전념합니다. 그들은 딥 러닝 기반 STT 및 TTS 엔진 등의 프로젝트를 진행하고 있습니다.
@@ -62,9 +66,15 @@ dataset-version = 버전
 sha256-checksum-copied = SHA256 체크섬이 복사되었습니다!
 sha256-checksum-copied-error = SHA256 체크섬을 복사하지 못했습니다.
 clipboard-not-supported = 클립보드가 지원되지 않음
+no-information-available = 사용 가능한 정보 없음
 dataset-metadata-sex = 성별
 # dataset metadata - age of contributor
 dataset-metadata-age = 나이
+donate-modal-message = 데이터세트를 다운로드하는 중입니다!
+dataset-donate-modal-heading = 알고 계십니까?
+donate-modal-explanation-1 = 저희의 도움을 필요로 하는 100개 이상의 언어 공동체를 위해 데이터세트를 호스팅하고 플랫폼을 개선하는 데 연간 100만 달러에 달하는 비용이 소요됩니다.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>모두를 위한 열린 데이터를 중시하신다면 오늘 기부하세요!</b>
 data-download-singleword-title = 단일 단어 대상 세그먼트 다운로드
 data-download-singleword-callout-v2 = 이것은 음성 숫자 인식과 예 / 아니오 감지를 지원하는 데이터를 포함하는 사용 사례 중심 세그먼트입니다.
 data-download-button = Common Voice 데이터 다운로드
