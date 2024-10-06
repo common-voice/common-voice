@@ -12,11 +12,24 @@ services:
       - MYSQL_PASSWORD=voicecommons
       - MYSQL_ROOT_PASSWORD=voicewebroot
     ports:
-      - 3307:3306
+      - 127.0.0.1:3307:3306
+    volumes:
+      - ../falak-host/voicewall-db:/var/lib/mysql:Z
+      - ../falak-host:/host
+  adminer:
+    image: adminer
+    container_name: adminer
+    restart: always
+    ports:
+      - 8010:8080
+    networks:
+      - voice-web
   redis:
     image: redis:alpine
     container_name: redis
     restart: unless-stopped
+    ports:
+      - 127.0.0.1:6379:6379
     networks:
       - voice-web
   storage:
@@ -24,19 +37,12 @@ services:
     container_name: storage
     ports:
       - 8080:8080
+      - 4443:4443
+    volumes:
+      - ../falak-host/voicewall-storage:/data
     networks:
       - voice-web
-    command:
-      [
-        '-scheme',
-        'http',
-        '-port',
-        '8080',
-        '-external-url',
-        'http://storage:8080',
-        '-backend',
-        'filesystem',
-      ]
+    command: [ '-scheme', 'http', '-port', '8080', '-external-url', 'http://storage:8080', '-backend', 'filesystem' ]
   bundler:
     build:
       context: ./bundler
