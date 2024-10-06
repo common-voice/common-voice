@@ -12,7 +12,7 @@ import {
   UserLanguage,
   SentenceSubmission,
   SentenceVote,
-  TakeoutResponse
+  TakeoutResponse,
 } from 'common'
 import { Locale } from '../stores/locale'
 import { User } from '../stores/user'
@@ -72,8 +72,8 @@ export default class API {
       headers
     )
 
-    const { user } = this;
-    console.log(path, user, location.origin);
+    const { user } = this
+    console.log(path, user, location.origin)
     if (path.startsWith(location.origin) && !user.account && user.userId) {
       finalHeaders['Authorization'] =
         'Basic ' + btoa(user.userId + ':' + user.authToken)

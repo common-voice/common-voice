@@ -40,6 +40,7 @@
   "scripts": {
     "docker:run:deps": "docker compose up -d redis db storage",
     "docker:run:web": "docker compose up -d web",
+    "docker:update-env:web": "docker compose up -d --force-recreate web",
     "clean": "rm -r node_modules && rm -r common/node_modules && rm -r server/node_modules && rm -r web/node_modules",
     "build": "yarn build:maint && yarn build:common && concurrently \"yarn build:server\" \"yarn build:web\"",
     "build:compressed-size": "yarn build:common && yarn build:web",

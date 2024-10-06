@@ -1,16 +1,17 @@
-import * as React from 'react';
-import { useState } from 'react';
+import * as React from 'react'
+import { useState } from 'react'
 
-import URLS from '../../urls';
-import { isProduction } from '../../utility';
+import URLS from '../../urls'
+import { isProduction } from '../../utility'
 
-import './non-production-banner.css';
+import './non-production-banner.css'
 
 const NonProductionBanner = () => {
-  const [hide, setHide] = useState(isProduction());
+  const [hide, setHide] = useState(isProduction())
 
-  if (hide) {
-    return null;
+  // always hide the banner for now
+  if (true || hide) {
+    return null
   }
 
   return (
@@ -22,7 +23,7 @@ const NonProductionBanner = () => {
       </span>
       <button onClick={() => setHide(true)}>Close</button>
     </div>
-  );
-};
+  )
+}
 
-export default NonProductionBanner;
+export default NonProductionBanner
