@@ -72,6 +72,7 @@ hu = הונגרית
 hy-AM = ארמנית
 hyw = ארמנית מערבית
 ia = אינטרלינגואה
+ibb = איביביו
 id = אינדונזית
 ie = אינטרלינגואֶה
 ig = אִיגְבּוֹ
@@ -87,6 +88,7 @@ kab = קבילית
 kbd = קברדינית
 ki = קיקויו
 kk = קזחית
+kln = קלנג'ינית
 km = חמרית / קמבודית
 kmr = כורדית קורמנג׳ית
 kn = קאנדה
@@ -215,12 +217,6 @@ zza = זאזא
 
 ## Layout
 
-speak = דיבור
-speak-now = נא לדבר כעת
-datasets = מערכי נתונים
-languages = שפות
-about = על אודות
-partner = שותפות
 profile = פרופיל
 help = עזרה
 contact = יצירת קשר
@@ -240,7 +236,6 @@ privacy-info = אנו מבטיחים לטפל במידע שלכם במלוא ה�
 return-to-cv = חזרה אל Common Voice
 email-input =
     .label = דוא״ל
-submit-form-action = שליחה
 loading = בטעינה…
 email-opt-in-info = ברצוני לקבל הודעות בדוא״ל כגון תזכורות על יעדים, עדכונים על ההתקדמות שלי ומבזקי חדשות על Common Voice.
 email-opt-in-info-title = הצטרפות לרשימת הדיוור של Common Voice
@@ -251,7 +246,7 @@ not-available-abbreviation = לא רלוונטי
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>אנו זקוקים</mark><br/><mark>לעזרתך!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = העלות מגיעה כמעט למליון דולר ארה"ב בשנה על מנת לאחסן את מערכי הנתונים ולשפר את המערכת עבור 100+ קהילות השפה הנסמכות על עבודתינו. <strong>אם מידע פתוח ואינקלוסיבי חשוב עבורכם - תרמו עוד היום!</strong>
