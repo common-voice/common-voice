@@ -48,13 +48,13 @@ submit-form-action = Submit
 
 report = Report
 report-title = Ek report dhad
-report-ask = Hea vakia vixim tuka kosle oddchonn zata?
+report-ask = Hea vakya vixim tuka kosle oddchonn zata?
 report-offensive-language = Apmani Bhas
-report-offensive-language-detail = Hea vakian apmani bhass va ghaleo asa.
+report-offensive-language-detail = Hea vakyan't øpmani bhass va ghall'lleo asa.
 report-grammar-or-spelling = Chukichem vyakaran / Grammatical Error
-report-grammar-or-spelling-detail = Hea vakian chukichem vyakaran va spelling error asa.
+report-grammar-or-spelling-detail = Hea vakyan't chukichem vyakaran va "spelling error" asa.
 report-different-language = Dusrech Bhass
-report-different-language-detail = Hanv je bhass uloita, tea bhassent ho vakia boroilo na.
+report-different-language-detail = Hanv je bhass uloita, tea bhassent ho vakyø boroilo na.
 report-difficult-pronounce = Mhonpak trass zata (Difficult to pronounce)
 report-difficult-pronounce-detail = Hea vakiant shabda va vakia'che kudke asa je vaachpak / ulovpak / ucharrunk khub trass zata.
 report-offensive-speech = Apmani bhass / Ghalleo
