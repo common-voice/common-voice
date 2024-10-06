@@ -33,6 +33,13 @@ change-preferences = שינוי העדפות
 
 contribute-voice-collection-nav-header = איסוף קולות
 contribute-sentence-collection-nav-header = איסוף משפטים
+login-signup = כניסה / הרשמה
+vote-yes = כן
+vote-no = לא
+datasets = מערכי נתונים
+languages = שפות
+about = אודות
+submit-form-action = שליחה
 
 ## Reporting
 
