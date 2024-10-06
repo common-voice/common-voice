@@ -38,7 +38,8 @@ vote-yes = כן
 vote-no = לא
 datasets = מערכי נתונים
 languages = שפות
-about = אודות
+about = על אודות
+partner = שותפות
 submit-form-action = שליחה
 
 ## Reporting
