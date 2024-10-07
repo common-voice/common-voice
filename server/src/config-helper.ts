@@ -1,70 +1,70 @@
-import * as fs from 'fs';
-import { SESClientConfig } from '@aws-sdk/client-ses';
-import { config } from 'dotenv';
+import * as fs from 'fs'
+import { SESClientConfig } from '@aws-sdk/client-ses'
+import { config } from 'dotenv'
 
 if (process.env.DOTENV_CONFIG_PATH) {
-  const result = config({ path: process.env.DOTENV_CONFIG_PATH });
+  const result = config({ path: process.env.DOTENV_CONFIG_PATH })
   if (result.error) {
-    console.log(result.error);
-    console.log('Failed loading dotenv file, using defaults');
+    console.log(result.error)
+    console.log('Failed loading dotenv file, using defaults')
   }
 }
 
 export type CommonVoiceConfig = {
-  VERSION: string;
-  PROD: boolean;
-  SERVER_PORT: number;
-  DB_ROOT_USER: string;
-  DB_ROOT_PASS: string;
-  MYSQLUSER: string;
-  MYSQLPASS: string;
-  MYSQLDBNAME: string;
-  MYSQLHOST: string;
-  MYSQLREPLICAHOST?: string;
-  MYSQLPORT: number;
-  MYSQLREPLICAPORT?: number;
-  CLIP_BUCKET_NAME: string;
-  DATASET_BUCKET_NAME: string;
-  BULK_SUBMISSION_BUCKET_NAME: string;
-  AWS_REGION: string;
-  ENVIRONMENT: string;
-  RELEASE_VERSION?: string;
-  SECRET: string;
-  AWS_SES_CONFIG: SESClientConfig;
-  STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: string;
-  GCP_CREDENTIALS: object;
-  ADMIN_EMAILS: string;
+  VERSION: string
+  PROD: boolean
+  SERVER_PORT: number
+  DB_ROOT_USER: string
+  DB_ROOT_PASS: string
+  MYSQLUSER: string
+  MYSQLPASS: string
+  MYSQLDBNAME: string
+  MYSQLHOST: string
+  MYSQLREPLICAHOST?: string
+  MYSQLPORT: number
+  MYSQLREPLICAPORT?: number
+  CLIP_BUCKET_NAME: string
+  DATASET_BUCKET_NAME: string
+  BULK_SUBMISSION_BUCKET_NAME: string
+  AWS_REGION: string
+  ENVIRONMENT: string
+  RELEASE_VERSION?: string
+  SECRET: string
+  AWS_SES_CONFIG: SESClientConfig
+  STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: string
+  GCP_CREDENTIALS: object
+  ADMIN_EMAILS: string
   AUTH0: {
-    DOMAIN: string;
-    CLIENT_ID: string;
-    CLIENT_SECRET: string;
-  };
-  BASKET_API_KEY?: string;
-  IMPORT_SENTENCES: boolean;
-  REDIS_URL: string;
-  LAST_DATASET: string;
-  SENTRY_DSN_SERVER: string;
-  MAINTENANCE_MODE: boolean;
-  DEBUG: boolean;
-  FLAG_BUFFER_STREAM_ENABLED: boolean;
-  EMAIL_USERNAME_FROM: string;
-  EMAIL_USERNAME_TO: string;
-};
+    DOMAIN: string
+    CLIENT_ID: string
+    CLIENT_SECRET: string
+  }
+  BASKET_API_KEY?: string
+  IMPORT_SENTENCES: boolean
+  REDIS_URL: string
+  LAST_DATASET: string
+  SENTRY_DSN_SERVER: string
+  MAINTENANCE_MODE: boolean
+  DEBUG: boolean
+  FLAG_BUFFER_STREAM_ENABLED: boolean
+  EMAIL_USERNAME_FROM: string
+  EMAIL_USERNAME_TO: string
+}
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const castDefault = (value: string): any => value;
-const castBoolean = (value: string): boolean => value === 'true';
-const castInt = (value: string): number => parseInt(value);
-const castJson = (value: string): object => JSON.parse(value);
+const castDefault = (value: string): any => value
+const castBoolean = (value: string): boolean => value === 'true'
+const castInt = (value: string): number => parseInt(value)
+const castJson = (value: string): object => JSON.parse(value)
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const configEntry = (key: string, defaultValue: any, cast = castDefault) =>
-  process.env[key] ? cast(process.env[key]) : defaultValue;
+  process.env[key] ? cast(process.env[key]) : defaultValue
 
 const BASE_CONFIG: CommonVoiceConfig = {
   VERSION: configEntry('CV_VERSION', null), // Migration number (e.g. 20171205171637), null = most recent
   RELEASE_VERSION: configEntry('GIT_COMMIT_SHA', null), // X-Release-Version header
   PROD: configEntry('CV_PROD', true, castBoolean), // Set to true for staging and production.
-  SERVER_PORT: configEntry('CV_SERVER_PORT', 9000, castInt),
+  SERVER_PORT: configEntry('CV_SERVER_PORT', 9090, castInt),
   DB_ROOT_USER: configEntry('CV_DB_ROOT_USER', 'root'), // For running schema migrations.
   DB_ROOT_PASS: configEntry('CV_DB_ROOT_PASS', ''),
   MYSQLUSER: configEntry('CV_MYSQLUSER', 'voicecommons'), // For normal DB interactions.
@@ -112,35 +112,35 @@ const BASE_CONFIG: CommonVoiceConfig = {
   ),
   EMAIL_USERNAME_FROM: configEntry('CV_EMAIL_USERNAME_FROM', null),
   EMAIL_USERNAME_TO: configEntry('CV_EMAIL_USERNAME_TO', null),
-};
+}
 
-let injectedConfig: CommonVoiceConfig;
-let loadedConfig: CommonVoiceConfig;
+let injectedConfig: CommonVoiceConfig
+let loadedConfig: CommonVoiceConfig
 
 export function injectConfig(config: Partial<CommonVoiceConfig>) {
-  injectedConfig = { ...BASE_CONFIG, ...config };
+  injectedConfig = { ...BASE_CONFIG, ...config }
 }
 
 export function getConfig(): CommonVoiceConfig {
   if (injectedConfig) {
-    return injectedConfig;
+    return injectedConfig
   }
 
   if (loadedConfig) {
-    return loadedConfig;
+    return loadedConfig
   }
 
-  let fileConfig = null;
+  let fileConfig = null
 
   try {
-    const config_path = process.env.SERVER_CONFIG_PATH || './config.json';
-    fileConfig = JSON.parse(fs.readFileSync(config_path, 'utf-8'));
+    const config_path = process.env.SERVER_CONFIG_PATH || './config.json'
+    fileConfig = JSON.parse(fs.readFileSync(config_path, 'utf-8'))
   } catch (err) {
     console.error(
       `Could not load config.json, using defaults (error message: ${err.message})`
-    );
+    )
   }
-  loadedConfig = { ...BASE_CONFIG, ...fileConfig };
+  loadedConfig = { ...BASE_CONFIG, ...fileConfig }
 
-  return loadedConfig;
+  return loadedConfig
 }

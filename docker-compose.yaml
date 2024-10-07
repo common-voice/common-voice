@@ -75,7 +75,7 @@ services:
     networks:
       - voice-web
     ports:
-      - 9000:9000
+      - 9090:9090
     command: bash -c "/code/docker/wait-for-it.sh storage:8080 -- /code/docker/prepare_storage.sh && yarn && yarn start"
 
 networks:

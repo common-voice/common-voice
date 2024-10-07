@@ -2,7 +2,7 @@ import { defineConfig } from 'cypress'
 
 export default defineConfig({
   e2e: {
-    baseUrl: 'http://localhost:9000', // TODO: generate this based on the env we run the test
+    baseUrl: 'http://localhost:9090', // TODO: generate this based on the env we run the test
     setupNodeEvents(on) {
       on('before:browser:launch', (browser, launchOptions) => {
         if (browser.family === 'firefox') {

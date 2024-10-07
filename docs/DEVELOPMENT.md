@@ -50,7 +50,7 @@ This is going to:
 - Mount the project using a Docker volume to allow reflecting changes to the codebase directly to the container.
 - Launch `common-voice` server
 
-You can visit the website at [http://localhost:9000](http://localhost:9000).
+You can visit the website at [http://localhost:9090](http://localhost:9090).
 
 **Note**: Docker can be a very memory-intensive process. If you notice intermittent failures, or if features like auto-rebuilding crash, try increasing Docker's available memory from within Docker's _Preferences > Resources_ settings.\*\*
 
@@ -141,7 +141,7 @@ This will:
 3. Save uploaded voice clips onto Amazon's S3.
 4. Lint and rebuild all js files on every change.
 
-You can then access the website at [http://localhost:9000](http://localhost:9000).
+You can then access the website at [http://localhost:9090](http://localhost:9090).
 
 ## Linting
 
@@ -162,7 +162,7 @@ If you want to work with login-related features (Profile, Dashboard, Goals, ...)
 1. Create an [Auth0](https://auth0.com/) account.
 2. Click "Applications" from the dashboard. Create a new one, or use the default application.
 3. On "Applications" still, next to your application, click the "three dots" icon, then Settings.
-4. Add `http://localhost:9000/callback` to the "Allowed Callback URLs" list.
+4. Add `http://localhost:9090/callback` to the "Allowed Callback URLs" list.
 5. Copy the Auth0 application settings into your configuration file. These are found in the same Settings tab as the "Allowed Callback URLs".
 
 For Docker, in `.env-local-docker`:
@@ -198,12 +198,12 @@ At the moment you manually have to change the migration file extension to `.ts`.
 
 ```typescript
 export const up = async function (db: any): Promise<any> {
-  return null;
-};
+  return null
+}
 
 export const down = async function (): Promise<any> {
-  return null;
-};
+  return null
+}
 ```
 
 Migrations are always run when the server is started.

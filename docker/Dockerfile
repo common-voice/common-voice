@@ -9,7 +9,7 @@ LABEL commit=${COMMIT}
 LABEL tag=$TAG
 
 # Allow exposing HTTP endpoint
-EXPOSE 9000
+EXPOSE 9090
 
 # Install dependencies
 RUN apt-get update && \
