@@ -2,8 +2,8 @@ version: '3'
 services:
   db:
     image: mariadb:10.4
-    networks:
-      - voice-web
+    # networks:
+    #   - voice-web
     container_name: voicewall-db
     restart: unless-stopped
     environment:
@@ -22,16 +22,16 @@ services:
     restart: always
     ports:
       - 8010:8080
-    networks:
-      - voice-web
+    # networks:
+    #   - voice-web
   redis:
     image: redis:alpine
     container_name: voicewall-redis
     restart: unless-stopped
     ports:
       - 127.0.0.1:6379:6379
-    networks:
-      - voice-web
+    # networks:
+    #   - voice-web
   storage:
     image: fsouza/fake-gcs-server
     container_name: voicewall-storage
@@ -40,8 +40,8 @@ services:
       - 4443:4443
     volumes:
       - ../falak-host/voicewall-storage:/data
-    networks:
-      - voice-web
+    # networks:
+    #   - voice-web
     command: [ '-scheme', 'http', '-port', '8080', '-external-url', 'http://storage:8080', '-backend', 'filesystem' ]
   bundler:
     build:
@@ -54,8 +54,8 @@ services:
       - storage
     volumes:
       - ./bundler:/home/node/code
-    networks:
-      - voice-web
+    # networks:
+    #   - voice-web
     ports:
       - 9001:9001
     command: bash -c "npm ci && npm run build && npm start"
@@ -72,11 +72,11 @@ services:
       - .:/code:Z
     environment:
       - DOTENV_CONFIG_PATH=/code/.env-local-docker
-    networks:
-      - voice-web
+    # networks:
+    #   - voice-web
     ports:
       - 9090:9090
     command: bash -c "/code/docker/wait-for-it.sh storage:8080 -- /code/docker/prepare_storage.sh && yarn && yarn start"
 
-networks:
-  voice-web:
+# networks:
+#   voice-web:
