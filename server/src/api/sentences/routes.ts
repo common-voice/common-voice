@@ -21,7 +21,7 @@ export default PromiseRouter({ mergeParams: true })
   )
   .post(
     '/batch',
-    rateLimiter('api/v1/sentences/batch', { points: 10, duration: 60 }),
+    rateLimiter('api/v1/sentences/batch', { points: 1, duration: 180 }),
     validateStrict({ body: AddSmallSentenceBatchRequest }),
     addSmallSentenceBatchHandler
   )
