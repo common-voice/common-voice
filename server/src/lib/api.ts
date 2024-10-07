@@ -362,7 +362,6 @@ export default class API {
     if (!user) {
       throw new ClientParameterError()
     }
-    console.log(user)
     response.json(await UserClient.saveAccount(user.email, body))
   }
 
