@@ -1,11 +1,11 @@
 ## WRITE PAGE
 
 write = Boroi
-write-instruction = Ek lok uloita te vakia <icon></icon> boroi
+write-instruction = Ek lok-ulovpi vakya <icon></icon> boroi
 write-page-subtitle = Hanga yogdan kel'le vakio eka cc-0 license dataset-an lokkank download korpak zata.
 sentence =
-    .label = Vakia
-sentence-input-value = Tumche public-domain vakia hanga boroi
+    .label = Vakya
+sentence-input-value = Tumche public-domain vakya hanga boroi
 citation-input-placeholder = Hem vakia tuka koin mevle? ("required")
 citation =
     .label = Citation
