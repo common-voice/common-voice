@@ -2,22 +2,27 @@ import {
   Localized,
   withLocalization,
   WithLocalizationProps,
-} from '@fluent/react';
-import * as React from 'react';
-import { useEffect, useState } from 'react';
-import pick from 'lodash.pick';
-
-import { CloudIcon, MicIcon, UserIcon, RedoIcon } from '../../../ui/icons';
-import { Button } from '../../../ui/ui';
-import './download.css';
-import API from '../../../../services/api';
-import { useAccount, useAPI } from '../../../../hooks/store-hooks';
-import { TakeoutRequest, TakeoutState, UserClient, Accent, TakeoutResponse } from 'common';
-import { byteToSize } from '../../../../utility';
-import Modal, { ModalProps } from '../../../modal/modal';
+} from '@fluent/react'
+import * as React from 'react'
+import { useEffect, useState } from 'react'
+import { pick } from 'common/utility'
+import { CloudIcon, MicIcon, UserIcon, RedoIcon } from '../../../ui/icons'
+import { Button } from '../../../ui/ui'
+import './download.css'
+import API from '../../../../services/api'
+import { useAccount, useAPI } from '../../../../hooks/store-hooks'
+import {
+  TakeoutRequest,
+  TakeoutState,
+  UserClient,
+  Accent,
+  TakeoutResponse,
+} from 'common'
+import { byteToSize } from '../../../../utility'
+import Modal, { ModalProps } from '../../../modal/modal'
 
 // you can request a new takeout every 7 days
-const REQUEST_LIMIT = 7;
+const REQUEST_LIMIT = 7
 
 const Section = ({
   title,
@@ -28,12 +33,12 @@ const Section = ({
   children,
   ...props
 }: {
-  title: string;
-  titleAction?: React.ReactNode;
-  info?: string;
-  className?: string;
-  id?: string;
-  children?: React.ReactNode;
+  title: string
+  titleAction?: React.ReactNode
+  info?: string
+  className?: string
+  id?: string
+  children?: React.ReactNode
 }) => (
   <section className={'profile-download ' + className} {...props}>
     <div className="section-title">
@@ -45,7 +50,7 @@ const Section = ({
     </div>
     {children && <div className="section-body">{children}</div>}
   </section>
-);
+)
 
 const Item = ({
   icon,
@@ -59,15 +64,15 @@ const Item = ({
   isDisabled = false,
   ...props
 }: {
-  icon: React.ReactNode;
-  title: string;
-  size: string;
-  info: string;
-  type: 'profile' | 'clips';
-  action: () => void;
-  className?: string;
-  isDisabled?: boolean;
-  disabledReason?: string;
+  icon: React.ReactNode
+  title: string
+  size: string
+  info: string
+  type: 'profile' | 'clips'
+  action: () => void
+  className?: string
+  isDisabled?: boolean
+  disabledReason?: string
 }) => {
   return (
     <div className={'download-item' + className} {...props}>
@@ -87,8 +92,8 @@ const Item = ({
         </Localized>
       )}
     </div>
-  );
-};
+  )
+}
 
 const Request = ({
   request,
@@ -98,21 +103,21 @@ const Request = ({
   onRefreshTakeouts,
   ...props
 }: {
-  request: TakeoutRequest;
-  sizeFormatter: (s: number) => string;
-  onRequestLinks: (id: number) => void;
-  onRefreshTakeouts: () => void;
-  className?: string;
+  request: TakeoutRequest
+  sizeFormatter: (s: number) => string
+  onRequestLinks: (id: number) => void
+  onRefreshTakeouts: () => void
+  className?: string
 }) => {
   // Introduce a small delay for visual feedback.
-  const [refreshing, setRefreshing] = useState(false);
+  const [refreshing, setRefreshing] = useState(false)
 
   function doRefresh() {
-    setRefreshing(true);
-    onRefreshTakeouts();
+    setRefreshing(true)
+    onRefreshTakeouts()
     setTimeout(() => {
-      setRefreshing(false);
-    }, 1000);
+      setRefreshing(false)
+    }, 1000)
   }
 
   return (
@@ -194,14 +199,14 @@ const Request = ({
         </Button>
       )}
     </div>
-  );
-};
+  )
+}
 
 interface LinkModalProps extends ModalProps {
-  title: string;
-  description: string;
-  requestId: number;
-  api: API;
+  title: string
+  description: string
+  requestId: number
+  api: API
 }
 
 const LinkModal = ({
@@ -211,14 +216,14 @@ const LinkModal = ({
   api,
   ...props
 }: LinkModalProps) => {
-  const [links, setLinks] = useState({parts: [], metadata: ''});
+  const [links, setLinks] = useState({ parts: [], metadata: '' })
 
   useEffect(() => {
     api
       .fetchTakeoutLinks(requestId)
       .then(setLinks)
-      .catch((err: any) => console.error(err));
-  }, [requestId]);
+      .catch((err: any) => console.error(err))
+  }, [requestId])
 
   return (
     <Modal {...props} innerClassName="download-request-modal">
@@ -264,45 +269,45 @@ const LinkModal = ({
         </Localized>
       </Section>
     </Modal>
-  );
-};
+  )
+}
 
 export function downloadTextAsFile(filename: string, text: string) {
   return downloadAsFile(
     filename,
     'data:text/plain;charset=utf-8,' + encodeURIComponent(text)
-  );
+  )
 }
 
 function downloadAsFile(filename: string, url: string) {
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = filename;
-  a.style.display = 'none';
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
+  const a = document.createElement('a')
+  a.href = url
+  a.download = filename
+  a.style.display = 'none'
+  document.body.appendChild(a)
+  a.click()
+  a.remove()
 }
 
 export function getProfileInfo(account: UserClient) {
   return [
-    ...Object.entries(pick(account, 'email', 'username', 'age', 'gender')),
+    ...Object.entries(pick(account, ['email', 'username', 'age', 'gender'])),
     ...account.languages.reduce((all, l, i) => {
-      const localeLabel = 'language ' + (i + 1);
+      const localeLabel = 'language ' + (i + 1)
       const accents = l.accents
         .slice(1)
         .map((accent: Accent) => accent.name)
-        .join(', ');
+        .join(', ')
       const arr = [
         ...all,
         [localeLabel, l.locale],
         [localeLabel + ' accent(s)', accents],
-      ];
-      return arr;
+      ]
+      return arr
     }, []),
   ]
     .map(([key, value]) => key + ': ' + value)
-    .join('\n');
+    .join('\n')
 }
 
 function download(
@@ -312,32 +317,32 @@ function download(
   forceTakeoutRefresh: () => void
 ) {
   if (type === 'profile')
-    downloadTextAsFile('profile.txt', getProfileInfo(account));
+    downloadTextAsFile('profile.txt', getProfileInfo(account))
 
   if (type === 'clips')
     api
       .requestTakeout()
       .then(() => forceTakeoutRefresh())
-      .catch((err: any) => console.error(err));
+      .catch((err: any) => console.error(err))
 }
 
 function DownloadProfile(props: WithLocalizationProps) {
-  const api = useAPI();
-  const account = useAccount();
-  const { getString } = props;
+  const api = useAPI()
+  const account = useAccount()
+  const { getString } = props
 
-  const [serverDate, setServerDate] = useState(new Date());
-  const [hasAnyPendingTakeout, setHasAnyPendingTakeout] = useState(false);
-  const [hasRecentTakeout, setHasRecentTakeout] = useState(false);
-  const [takeouts, setTakeouts] = useState(null);
-  const [takeoutRefresh, setTakeoutRefresh] = useState(0);
-  const forceTakeoutRefresh = () => setTakeoutRefresh(x => x + 1);
-  const [takeoutRequestId, setTakeoutRequestId] = useState(null);
+  const [serverDate, setServerDate] = useState(new Date())
+  const [hasAnyPendingTakeout, setHasAnyPendingTakeout] = useState(false)
+  const [hasRecentTakeout, setHasRecentTakeout] = useState(false)
+  const [takeouts, setTakeouts] = useState(null)
+  const [takeoutRefresh, setTakeoutRefresh] = useState(0)
+  const forceTakeoutRefresh = () => setTakeoutRefresh(x => x + 1)
+  const [takeoutRequestId, setTakeoutRequestId] = useState(null)
 
   useEffect(() => {
-    api.fetchTakeouts().then(setTakeouts);
-    api.getServerDate().then(date => setServerDate(new Date(date)));
-  }, [takeoutRefresh]);
+    api.fetchTakeouts().then(setTakeouts)
+    api.getServerDate().then(date => setServerDate(new Date(date)))
+  }, [takeoutRefresh])
 
   useEffect(() => {
     setHasAnyPendingTakeout(
@@ -346,7 +351,7 @@ function DownloadProfile(props: WithLocalizationProps) {
           acc || t.state !== TakeoutState.AVAILABLE,
         false
       )
-    );
+    )
 
     setHasRecentTakeout(
       (takeouts || []).reduce((acc: boolean, t: TakeoutRequest) => {
@@ -355,10 +360,10 @@ function DownloadProfile(props: WithLocalizationProps) {
           serverDate.getTime() <=
             new Date(t.requested_date).getTime() +
               REQUEST_LIMIT * 24 * 60 * 60 * 1000
-        );
+        )
       }, false)
-    );
-  }, [takeouts]);
+    )
+  }, [takeouts])
 
   return (
     <>
@@ -420,7 +425,7 @@ function DownloadProfile(props: WithLocalizationProps) {
         </Section>
       )}
     </>
-  );
+  )
 }
 
-export default withLocalization(DownloadProfile);
+export default withLocalization(DownloadProfile)

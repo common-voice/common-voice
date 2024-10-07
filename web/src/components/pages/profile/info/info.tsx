@@ -2,27 +2,27 @@ import {
   Localized,
   withLocalization,
   WithLocalizationProps,
-} from '@fluent/react';
-import * as React from 'react';
-import { useCallback, useEffect, useState } from 'react';
-import { Redirect, RouteComponentProps, withRouter } from 'react-router';
-import { Tooltip } from 'react-tippy';
-import pick from 'lodash.pick';
+} from '@fluent/react'
+import * as React from 'react'
+import { useCallback, useEffect, useState } from 'react'
+import { Redirect, RouteComponentProps, withRouter } from 'react-router'
+import { Tooltip } from 'react-tippy'
+import { pick } from 'common/utility'
 
 import {
   useAction,
   useAPI,
   useLocalStorageState,
-} from '../../../../hooks/store-hooks';
-import { trackProfile } from '../../../../services/tracker';
-import { AGES, GENDERS } from '../../../../stores/demographics';
-import { Notifications } from '../../../../stores/notifications';
-import { useTypedSelector } from '../../../../stores/tree';
-import { Uploads } from '../../../../stores/uploads';
-import { User } from '../../../../stores/user';
-import URLS from '../../../../urls';
-import { LocaleLink, useLocale } from '../../../locale-helpers';
-import TermsModal from '../../../terms-modal';
+} from '../../../../hooks/store-hooks'
+import { trackProfile } from '../../../../services/tracker'
+import { AGES, GENDERS } from '../../../../stores/demographics'
+import { Notifications } from '../../../../stores/notifications'
+import { useTypedSelector } from '../../../../stores/tree'
+import { Uploads } from '../../../../stores/uploads'
+import { User } from '../../../../stores/user'
+import URLS from '../../../../urls'
+import { LocaleLink, useLocale } from '../../../locale-helpers'
+import TermsModal from '../../../terms-modal'
 import {
   Button,
   Hr,
@@ -30,35 +30,35 @@ import {
   LabeledInput,
   LabeledSelect,
   Options,
-} from '../../../ui/ui';
-import { isEnrolled } from '../../dashboard/challenge/constants';
-import { UserLanguage } from 'common';
+} from '../../../ui/ui'
+import { isEnrolled } from '../../dashboard/challenge/constants'
+import { UserLanguage } from 'common'
 
-import ProfileInfoLanguages from './languages/languages';
-import ExpandableInformation from '../../../expandable-information/expandable-information';
+import ProfileInfoLanguages from './languages/languages'
+import ExpandableInformation from '../../../expandable-information/expandable-information'
 
-import './info.css';
+import './info.css'
 
 function ProfileInfo({
   getString,
   history,
 }: WithLocalizationProps & RouteComponentProps) {
-  const api = useAPI();
-  const [locale, toLocaleRoute] = useLocale();
-  const user = useTypedSelector(({ user }) => user);
-  const { account, userClients } = user;
+  const api = useAPI()
+  const [locale, toLocaleRoute] = useLocale()
+  const user = useTypedSelector(({ user }) => user)
+  const { account, userClients } = user
 
-  const addNotification = useAction(Notifications.actions.addPill);
-  const addUploads = useAction(Uploads.actions.add);
-  const saveAccount = useAction(User.actions.saveAccount);
+  const addNotification = useAction(Notifications.actions.addPill)
+  const addUploads = useAction(Uploads.actions.add)
+  const saveAccount = useAction(User.actions.saveAccount)
 
   const [userFields, setUserFields] = useState<{
-    username: string;
-    visible: number | string;
-    age: string;
-    gender: string;
-    sendEmails: boolean;
-    privacyAgreed: boolean;
+    username: string
+    visible: number | string
+    age: string
+    gender: string
+    sendEmails: boolean
+    privacyAgreed: boolean
   }>({
     username: '',
     visible: 0,
@@ -66,62 +66,60 @@ function ProfileInfo({
     gender: '',
     sendEmails: false,
     privacyAgreed: false,
-  });
+  })
   const { username, visible, age, gender, sendEmails, privacyAgreed } =
-    userFields;
-  const [areLanguagesLoading, setAreLanguagesLoading] = useState(true);
-  const [userLanguages, setUserLanguages] = useState<UserLanguage[]>([]);
+    userFields
+  const [areLanguagesLoading, setAreLanguagesLoading] = useState(true)
+  const [userLanguages, setUserLanguages] = useState<UserLanguage[]>([])
   const [userLanguagesInLocalStorage] = useLocalStorageState<UserLanguage[]>(
     [],
     'userLanguages'
-  );
-  const [isSaving, setIsSaving] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
-  const [termsStatus, setTermsStatus] = useState<null | 'show' | 'agreed'>(
-    null
-  );
+  )
+  const [isSaving, setIsSaving] = useState(false)
+  const [isSubmitted, setIsSubmitted] = useState(false)
+  const [termsStatus, setTermsStatus] = useState<null | 'show' | 'agreed'>(null)
   const isEnrolledInChallenge =
-    user?.userClients[0]?.enrollment || isEnrolled(account);
+    user?.userClients[0]?.enrollment || isEnrolled(account)
 
   useEffect(() => {
     if (user.isFetchingAccount || areLanguagesLoading) {
-      return;
+      return
     }
 
     if (!account && userClients.length == 0) {
-      history.push('/');
+      history.push('/')
     }
+    console.log({ user })
 
     setUserFields({
       ...userFields,
       sendEmails: !!account?.basket_token,
       visible: 0,
-      ...pick(user, 'age', 'username', 'gender'),
       ...(account
-        ? pick(account, 'age', 'username', 'gender', 'visible')
+        ? pick(account, ['age', 'username', 'gender', 'visible'])
         : {
             age: userClients.reduce((init, u) => u.age || init, ''),
             gender: userClients.reduce((init, u) => u.gender || init, ''),
           }),
       privacyAgreed: Boolean(account) || user.privacyAgreed,
-    });
+    })
 
     if (account) {
-      setUserLanguages(account.languages);
-      return;
+      setUserLanguages(account.languages)
+      return
     }
 
-    let userLanguages: UserLanguage[] = [];
+    let userLanguages: UserLanguage[] = []
     userLanguages = userClients.reduce(
       (languages, userClient) => languages.concat(userClient.languages || []),
       userLanguagesInLocalStorage
-    );
+    )
     userLanguages = userLanguages.filter(
       (l1, i) => i == userLanguages.findIndex(l2 => l2.locale == l1.locale)
-    );
+    )
 
-    setUserLanguages(userLanguages);
-  }, [user, areLanguagesLoading]);
+    setUserLanguages(userLanguages)
+  }, [user, areLanguagesLoading])
 
   const handleChangeFor =
     (field: string) =>
@@ -129,25 +127,25 @@ function ProfileInfo({
       setUserFields({
         ...userFields,
         [field]: target.type == 'checkbox' ? target.checked : target.value,
-      });
-    };
+      })
+    }
 
   const submit = useCallback(() => {
     if (!user.account) {
-      trackProfile('create', locale);
+      trackProfile('create', locale)
 
       if (termsStatus == null) {
-        setTermsStatus('show');
-        return;
+        setTermsStatus('show')
+        return
       }
     }
 
-    setIsSaving(true);
-    setIsSubmitted(true);
-    setTermsStatus('agreed');
+    setIsSaving(true)
+    setIsSubmitted(true)
+    setTermsStatus('agreed')
 
     const data = {
-      ...pick(userFields, 'username', 'age', 'gender'),
+      ...pick(userFields, ['username', 'age', 'gender']),
       languages: userLanguages.filter(l => l.locale),
       visible: JSON.parse(visible.toString()),
       client_id: user.userId,
@@ -156,20 +154,20 @@ function ProfileInfo({
         challenge: null,
         invite: null,
       },
-    };
+    }
 
     addUploads([
       async () => {
-        await saveAccount(data);
+        await saveAccount(data)
         if (!user.account?.basket_token && sendEmails) {
-          await api.subscribeToNewsletter(user.userClients[0]?.email);
+          await api.subscribeToNewsletter(user.userClients[0]?.email)
         }
 
-        addNotification(getString('profile-form-submit-saved'));
-        setIsSaving(false);
+        addNotification(getString('profile-form-submit-saved'))
+        setIsSaving(false)
       },
-    ]);
-  }, [api, getString, locale, userLanguages, termsStatus, user, userFields]);
+    ])
+  }, [api, getString, locale, userLanguages, termsStatus, user, userFields])
 
   if (!isSaving && isSubmitted && isEnrolledInChallenge) {
     return (
@@ -182,7 +180,7 @@ function ProfileInfo({
           },
         }}
       />
-    );
+    )
   }
 
   return (
@@ -355,7 +353,7 @@ function ProfileInfo({
         />
       </Localized>
     </div>
-  );
+  )
 }
 
-export default withLocalization(withRouter(ProfileInfo));
+export default withLocalization(withRouter(ProfileInfo))
