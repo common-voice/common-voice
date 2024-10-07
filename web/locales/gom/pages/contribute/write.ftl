@@ -2,7 +2,7 @@
 
 write = Boroi
 write-instruction = Ek lok-ulovpi vakya <icon></icon> boroi
-write-page-subtitle = Hanga yogdan kel'le vakio eka cc-0 license dataset-an lokkank download korpak zata.
+write-page-subtitle = Hanga yogdan kel'le vakyo ek cc-0 "No Rights Reserved" "dataset"-an lokank download korpak zata.
 sentence =
     .label = Vakya
 sentence-input-value = Tumche public-domain vakya hanga boroi
@@ -10,9 +10,9 @@ citation-input-placeholder = Hem vakya tuka kõi melle? ("required")
 citation =
     .label = Citation
 sc-write-submit-confirm = I confirm that this sentence is <wikipediaLink>public domain</wikipediaLink> and I have permission to upload it.
-sc-review-write-title = Kosle vakio haven ghalunk zata?
-new-sentence-rule-1 = <noCopyright>Copyright na</noCopyright> te vakio (<cc0>cc-0</cc0>)
-new-sentence-rule-2 = Dor ek vakio chodan-chod 15 utrani asunk zai
+sc-review-write-title = Kǒsle vakyo haven ghalunk zata?
+new-sentence-rule-1 = <noCopyright>No copyright</noCopyright> restrictions (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Dôr êk vakya chǒdan-chǒd 15 utrani asunk zai
 new-sentence-rule-3 = Sarke veakronn (grammar) vapor kor
 new-sentence-rule-4 = Sarke "spelling" ani "punctuation" vapor
 new-sentence-rule-5 = Number ani special characters vapor kor naka!
@@ -25,11 +25,11 @@ how-to-cite-explanation = { "" }
 guidelines = Guidelines
 contact-us = Amkam sompark kor
 add-sentence-success = 1 vakya puzayle
-add-sentence-error = Vakia ghetna kite chuk zale (Error adding sentence)
+add-sentence-error = Vakya ghetna koden chuk zali (Error adding sentence)
 required-field = Please fill out this field.
-single-sentence-submission = Ekuch vakia submit korpache
+single-sentence-submission = Ek-ek vakya dhadpak
 bulk-sentence-submission = 1000+ vakio submit korpache
-single-sentence = Ekuch vakia
+single-sentence = Ekuch Vakya
 bulk-sentences = Khub Vakio
 sentence-domain-combobox-label = Sentence Domain
 sentence-domain-select-placeholder = Select up to three domains (optional)
@@ -57,7 +57,7 @@ nature_environment = Nature and Environment
 news_current_affairs = News and Current Affairs
 # Sentence Domain dropdown option
 technology_robotics = Technology and Robotics
-sentence-variant-select-label = Vakia'che Boli / Prakar
+sentence-variant-select-label = Vakya'chi Boli / Prakar
 sentence-variant-select-placeholder = Boli / Prakar select kor (optional)
 sentence-variant-select-multiple-variants = General language / khub prakar aslole
 
