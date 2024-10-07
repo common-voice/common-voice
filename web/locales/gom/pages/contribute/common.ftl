@@ -150,6 +150,6 @@ contribution-volume-description = There will be natural variations in volume bet
 contribution-reader-effects-title = Reader Effects
 contribution-reader-effects-description = Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.
 contribution-just-unsure-title = Tuka khobor na?
-contribution-just-unsure-description = Zor tuka dista ek vakia mello zo heo guidelines-an spoxtt korunk na, zalyar tumi nirnnoi gheyat kite vote divpache te. Tuka nirnnoi ghevpak korench zaina zalyar, 'sodd' button click kor ani dusrem recording=acher voch.
+contribution-just-unsure-description = Zǒr tuka ek vakya mello zo heo "guidelines"-an spǒxtt korunk na, zalyar tumi nirnnoi gheyat "voting" kite divpache te. Tuka nirnnoi ghevpak korench zaina zalyar, 'sodd' button click kor ani dusrem recording=acher voch.
 see-more = <chevron></chevron>Anik dakoi
 see-less = <chevron></chevron>Tode dakoi

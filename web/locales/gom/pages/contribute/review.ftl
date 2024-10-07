@@ -1,13 +1,13 @@
 ## REVIEW
 
 sc-review-lang-not-selected = You have not selected any languages. Please go to your <profileLink>Profile</profileLink> to select languages.
-sc-review-title = Vakiache Niyall
+sc-review-title = Vakyache Niyall (Review)
 sc-review-loading = Vakio load zata…
 sc-review-select-language = Bhas select kor vakio-cher niyall korpak.
 sc-review-no-sentences = Niyall korpak anik vakio asona. <addLink>Anik vakio tumi ata ghalat!</addLink>
 sc-review-form-prompt =
     .message = Reviewed sentences not submitted, are sure?
-sc-review-form-usage = Vakia Mon'zur korpak davo vatten swipe kor. Bhair marpak uzvo vatten swipe kor. Soddpak voir swipe kor. <strong>Do not forget to submit your review!</strong>
+sc-review-form-usage = Vakya mon'zur korpak davo vatten "swipe" kôr. Bhair marpak uzvo vatten "swipe" kôr. Soddpak vǒir swipe kôr. <strong>Do not forget to submit your review!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Source: { $sentenceSource }
