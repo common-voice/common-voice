@@ -63,8 +63,8 @@
                 &.small-batch {
                     padding: 24px 12px 0;
 
-                    @media (--xs-down) {
-                        padding: 8px 12px 0;
+                    @media (--md-down) {
+                        padding: 0px 12px 0;
                     }
 
                     & .text-button {
@@ -132,8 +132,8 @@
         border: 1px solid var(--grey);
         margin-block-start: 24px;
 
-        @media (--xs-down) {
-            margin-block-start: 12px;
+        @media (--md-down) {
+            margin-block: 12px;
         }
     }
 
@@ -154,7 +154,7 @@
 
     @media (--xl-up) {
         height: calc(30vh + 50px);
-        min-height: 440px;
+        min-height: 430px;
         max-height: 500px;
     }
 
@@ -169,5 +169,10 @@
     &.rules-hidden {
         max-height: 150px;
         min-height: 150px;
+
+        @media (--md-down) {
+            max-height: 105px;
+            min-height: 105px;
+        }
     }
 }

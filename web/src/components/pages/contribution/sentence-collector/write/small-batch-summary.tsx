@@ -31,7 +31,7 @@ export const SmallBatchSummary = ({ smallBatchResponse }: Props) => {
       elems={{
         downloadLink: <a href={href} download="rejected-sentences.tsv" />,
       }}>
-      <p className="small-batch-summary" />
+      <p />
     </Localized>
   )
 }

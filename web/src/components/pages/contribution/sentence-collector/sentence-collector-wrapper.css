@@ -43,30 +43,6 @@
 
             height: auto;
         }
-
-        & .instruction {
-            margin: 2vh auto;
-
-            span {
-                display: flex;
-            }
-
-            svg {
-                margin: 0 8px;
-            }
-
-            svg.edit-icon {
-                @media (--xs-down) {
-                    width: 16px;
-                    height: 16px;
-                }
-            }
-
-            @media (--xs-down) {
-                font-size: var(--font-size-xs);
-                margin-bottom: 16px;
-            }
-        }
     }
 
     & .review-wrapper {
@@ -75,17 +51,5 @@
 
     & .write-wrapper {
         background-image: none;
-    }
-
-    & .edit-icon {
-        path {
-            fill: var(--blue);
-        }
-    }
-
-    & .review-icon {
-        path {
-            fill: var(--light-purple);
-        }
     }
 }

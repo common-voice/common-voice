@@ -2,7 +2,7 @@
 
 .bulk-upload-container {
     height: 100%;
-    min-height: 78vh;
+    min-height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

@@ -4,13 +4,7 @@ import { Localized } from '@fluent/react'
 import classNames from 'classnames'
 import { useDispatch } from 'react-redux'
 
-import { Instruction } from '../../instruction'
-import {
-  LightBulbIcon,
-  QuestionIcon,
-  SendIcon,
-  UploadIcon,
-} from '../../../../../ui/icons'
+import { LightBulbIcon, QuestionIcon, SendIcon } from '../../../../../ui/icons'
 import { Rules } from '../sentence-input-and-rules/rules'
 import { LinkButton } from '../../../../../ui/ui'
 import ExpandableInformation from '../../../../../expandable-information/expandable-information'
@@ -72,10 +66,6 @@ const BulkSubmissionWrite = () => {
   return (
     <div className="bulk-upload-container" data-testid="bulk-upload-container">
       <div className="upload-and-instruction">
-        <Instruction
-          localizedId="sc-bulk-upload-header"
-          icon={<UploadIcon />}
-        />
         <div className="upload-dropzone-and-rules">
           <div>
             <div

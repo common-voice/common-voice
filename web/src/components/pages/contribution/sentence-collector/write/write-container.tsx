@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { Localized } from '@fluent/react'
 
 import SentenceCollectionWrapper from '../sentence-collector-wrapper'
 import { SentenceWrite } from './sentence-write'
@@ -6,6 +7,8 @@ import BulkSubmissionWrite from './bulk-submission-write/bulk-submission-write'
 import SentenceCollectorToggle from '../sentence-collector-toggle'
 import BulkSubmissionSuccess from './bulk-submission-write/bulk-submission-success'
 import { SmallBatchSummary } from './small-batch-summary'
+import { Instruction } from '../instruction'
+import { EditIcon, UploadIcon } from '../../../../ui/icons'
 
 import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
 import { useLocale } from '../../../../locale-helpers'
@@ -20,6 +23,21 @@ import { trackSingleSubmission } from '../../../../../services/tracker'
 import './write-container.css'
 
 export type WriteSubmissionToggleOptions = 'single' | 'bulk' | 'small-batch'
+
+const instructionIconMapping = {
+  single: {
+    instruction: 'write-instruction',
+    icon: <EditIcon />,
+  },
+  'small-batch': {
+    instruction: 'small-batch-instruction',
+    icon: <EditIcon />,
+  },
+  bulk: {
+    instruction: 'sc-bulk-upload-header',
+    icon: <UploadIcon />,
+  },
+}
 
 const WriteContainer = () => {
   const [activeWriteOption, setActiveWriteOption] =
@@ -66,11 +84,7 @@ const WriteContainer = () => {
   ) => {
     if (activeWriteOption === 'single') {
       return (
-        <SentenceWrite
-          allVariants={allVariants}
-          instructionLocalizedId="write-instruction"
-          mode={activeWriteOption}
-        />
+        <SentenceWrite allVariants={allVariants} mode={activeWriteOption} />
       )
     }
 
@@ -80,11 +94,7 @@ const WriteContainer = () => {
 
     if (activeWriteOption === 'small-batch') {
       return (
-        <SentenceWrite
-          allVariants={allVariants}
-          instructionLocalizedId="small-batch-instruction"
-          mode={activeWriteOption}
-        />
+        <SentenceWrite allVariants={allVariants} mode={activeWriteOption} />
       )
     }
   }
@@ -97,19 +107,35 @@ const WriteContainer = () => {
         </div>
       )}
       {account && (
-        <div className="sc-toggle">
+        <div className="sc-toggle-wrapper">
           <SentenceCollectorToggle
             onToggle={handleToggle}
             activeOption={activeWriteOption}
           />
         </div>
       )}
-      <SentenceCollectionWrapper
-        dataTestId="write-page"
-        type="write"
-        extraClassName={account ? '' : 'centered'}>
-        {getWriteComponent(activeWriteOption)}
-      </SentenceCollectionWrapper>
+      <div className="instruction-and-form-wrapper">
+        {showSmallBatchSummary && (
+          <div className="small-batch-summary">
+            <SmallBatchSummary smallBatchResponse={smallBatchResponse} />
+          </div>
+        )}
+        <Instruction
+          localizedId={instructionIconMapping[activeWriteOption].instruction}
+          icon={instructionIconMapping[activeWriteOption].icon}
+        />
+        {activeWriteOption !== 'bulk' && (
+          <Localized id="write-page-subtitle">
+            <p className="subtitle" />
+          </Localized>
+        )}
+        <SentenceCollectionWrapper
+          dataTestId="write-page"
+          type="write"
+          extraClassName={account ? '' : 'centered'}>
+          {getWriteComponent(activeWriteOption)}
+        </SentenceCollectionWrapper>
+      </div>
     </div>
   )
 }

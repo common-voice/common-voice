@@ -37,7 +37,7 @@ const SentenceCollectorToggle: React.FC<Props> = ({
   onToggle,
   activeOption,
 }) => (
-  <div className="sc-toggle-wrapper" data-testid="sc-toggle">
+  <div className="sc-toggle" data-testid="sc-toggle">
     {toggleOptions.map((option, index) => (
       <React.Fragment key={option}>
         <div

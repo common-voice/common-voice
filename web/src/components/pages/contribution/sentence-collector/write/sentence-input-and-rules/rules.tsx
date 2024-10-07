@@ -30,14 +30,34 @@ export const Rules: React.FC<Props> = ({
   const showSmallBatchRules = isLoggedIn && isSmallBatchMode
 
   const [rulesSection, setRulesSectionVisible] = React.useState({
-    singleVisible: true,
+    singleVisible: !isSmallBatchMode,
     smallBatchVisible: true,
   })
 
-  const handleToggle = (section: 'single' | 'smallBatch') => {
+  React.useEffect(() => {
     setRulesSectionVisible({
       ...rulesSection,
-      [`${section}Visible`]: !rulesSection[`${section}Visible`],
+      singleVisible: !isSmallBatchMode,
+    })
+  }, [isSmallBatchMode])
+
+  const handleToggle = (section: 'single' | 'smallBatch') => {
+    setRulesSectionVisible(prevRulesSection => {
+      const updatedRulesSection = {
+        ...prevRulesSection,
+        [`${section}Visible`]: !prevRulesSection[`${section}Visible`],
+      }
+
+      if (updatedRulesSection[`${section}Visible`] === true) {
+        const otherKey =
+          `${section}Visible` === 'singleVisible'
+            ? 'smallBatchVisible'
+            : 'singleVisible'
+
+        updatedRulesSection[otherKey] = false
+      }
+
+      return updatedRulesSection
     })
   }
 
