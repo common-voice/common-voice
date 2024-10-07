@@ -69,7 +69,7 @@ services:
       - redis
       - storage
     volumes:
-      - .:/code:rw
+      - .:/code:Z
     environment:
       - DOTENV_CONFIG_PATH=/code/.env-local-docker
     networks:
