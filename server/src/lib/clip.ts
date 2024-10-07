@@ -52,20 +52,16 @@ export default class Clip {
 
     router.use(
       (
-        {
-          session: {
-            user: { client_id },
-          },
-          params,
-        }: Request,
+        { session, params }: Request,
         response: Response,
         next: NextFunction
       ) => {
         const { locale } = params
+        const { user } = session
 
-        if (client_id && locale) {
+        if (user?.client_id && locale) {
           this.model.db
-            .saveActivity(client_id, locale)
+            .saveActivity(user.client_id, locale)
             .catch((error: any) => console.error('activity save error', error))
         }
 
