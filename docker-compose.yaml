@@ -4,7 +4,7 @@ services:
     image: mariadb:10.4
     networks:
       - voice-web
-    container_name: db
+    container_name: voicewall-db
     restart: unless-stopped
     environment:
       - MYSQL_DATABASE=voiceweb
@@ -18,7 +18,7 @@ services:
       - ../falak-host:/host
   adminer:
     image: adminer
-    container_name: adminer
+    container_name: voicewall-adminer
     restart: always
     ports:
       - 8010:8080
@@ -26,7 +26,7 @@ services:
       - voice-web
   redis:
     image: redis:alpine
-    container_name: redis
+    container_name: voicewall-redis
     restart: unless-stopped
     ports:
       - 127.0.0.1:6379:6379
@@ -34,7 +34,7 @@ services:
       - voice-web
   storage:
     image: fsouza/fake-gcs-server
-    container_name: storage
+    container_name: voicewall-storage
     ports:
       - 8080:8080
       - 4443:4443
@@ -63,13 +63,13 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile
-    container_name: web
+    container_name: voicewall-web
     links:
       - db
       - redis
       - storage
     volumes:
-      - .:/code
+      - .:/code:rw
     environment:
       - DOTENV_CONFIG_PATH=/code/.env-local-docker
     networks:
