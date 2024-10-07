@@ -40,7 +40,6 @@
 
         & .sc-toggle {
             width: fit-content;
-            /* margin: 0 auto; */
             margin: 110px auto 0px;
             display: flex;
             flex-direction: column;

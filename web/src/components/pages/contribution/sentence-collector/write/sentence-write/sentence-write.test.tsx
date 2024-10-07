@@ -38,11 +38,7 @@ afterEach(() => {
 describe('Single Submission Write page', () => {
   it('renders Single Submission Write page', async () => {
     renderWithProviders(
-      <SentenceWrite
-        allVariants={allVariants}
-        mode="single"
-        instructionLocalizedId="write-instruction"
-      />
+      <SentenceWrite allVariants={allVariants} mode="single" />
     )
 
     await waitFor(() => {
@@ -54,11 +50,7 @@ describe('Single Submission Write page', () => {
 
   it('requires a citation before submitting', async () => {
     renderWithProviders(
-      <SentenceWrite
-        allVariants={allVariants}
-        mode="single"
-        instructionLocalizedId="write-instruction"
-      />
+      <SentenceWrite allVariants={allVariants} mode="single" />
     )
 
     const sentenceTextArea = screen.getByTestId('sentence-textarea')
@@ -95,11 +87,7 @@ describe('Single Submission Write page', () => {
     useActionMock.mockResolvedValue(mockCreateSentence())
 
     renderWithProviders(
-      <SentenceWrite
-        allVariants={allVariants}
-        mode="single"
-        instructionLocalizedId="write-instruction"
-      />
+      <SentenceWrite allVariants={allVariants} mode="single" />
     )
 
     const sentenceTextArea = screen.getByTestId('sentence-textarea')

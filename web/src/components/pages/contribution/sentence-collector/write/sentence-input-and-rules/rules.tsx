@@ -37,6 +37,7 @@ export const Rules: React.FC<Props> = ({
   React.useEffect(() => {
     setRulesSectionVisible({
       ...rulesSection,
+      smallBatchVisible: true,
       singleVisible: !isSmallBatchMode,
     })
   }, [isSmallBatchMode])

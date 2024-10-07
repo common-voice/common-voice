@@ -41,7 +41,7 @@ const SentenceCollectorToggle: React.FC<Props> = ({
     {toggleOptions.map((option, index) => (
       <React.Fragment key={option}>
         <div
-          className={classNames('toggle-option single', {
+          className={classNames('toggle-option', {
             active: activeOption === option,
           })}>
           {getContributionIcon({ option, isActive: activeOption === option })}
