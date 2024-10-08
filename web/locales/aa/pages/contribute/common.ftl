@@ -24,6 +24,7 @@ speak-loading-error =
     Aysuk sarra qagitaak gibbat.
 record-button-label = Isi xongolo isiggil
 share-title-new = <bold>Nee cat</bold> mango xongolo geynâ gidih
+keep-track-profile = Weelaysol ku dadal kattat
 target-segment-add-voice = Isi Xongolo edde osis
 target-segment-learn-more = Mangom barit
 change-preferences = Lafoot milaag
