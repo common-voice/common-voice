@@ -1,4 +1,4 @@
-listen = आयक
+listen = आय्क
 listen-instruction = { $actionType }<playIcon></playIcon> उलोवपीन आसा तशेंच उलयले?
 listen-again-instruction = बरे काम केले! तोयार जावन परत <playIcon></playIcon> आयक
 listen-3rd-time-instruction = 2 जाले, आनीक करुन वच! <playIcon></playIcon>
