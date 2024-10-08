@@ -60,7 +60,7 @@ beforeAll(() => {
     hostname: 'dummy.com',
     href: 'http://dummyurl.com',
     origin: 'http://dummyurl.com',
-    pathname: null,
+    pathname: '/mock/path',
     search: null,
     assign: null,
     reload: null,
