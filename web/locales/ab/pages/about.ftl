@@ -85,18 +85,30 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Аус шԥауеи асаит алокализациа?
 about-playbook-how-localize-content-1 = Азеиԥш бжьы асаит аиҭагара мҩаԥысуеит <strong>Понтон</strong> ала.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Ахыԥхьаӡара аԥҵара</pontoonAccountLink> уажәнатә уи шәымамзар. Анаҩс иалышәх <strong>('Team')</strong> абз нас апроект (‘Project‘), <pontoonCvLink>Азеиԥш бжьы</pontoonCvLink> ахь шәца. Иҟалоит еиҭагатәу афаилқәа. Урҭ руак уақәыӷәӷәар, хыхь англыз бызшәала иҟоу аоригинал убоит, ҵаҟа аиҭага ахьҭауҵаша аԥенџьыр.
+about-playbook-how-localize-content-4 = Асаит аусура иазхиоуп 75% инареиҳаны еиҭагахазар.
+about-playbook-how-localize-content-5 = Ацхыраара азы еилзыркаауа ҳвидео шәахәаԥш
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = Ишԥасылшо алабжьарақәа рыцҵара?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Ишԥасылшо абжьы ҭаҩра ахаҭабзиара ҳаракны?
+about-playbook-how-record-content-3 = Ажәаҳәақәа шәанрыԥхьо шәгәышәҽаныз. Иаҭахым ажәақәа ааныжьтәым, иԥсахтәым, иацҵатәым.
+about-playbook-how-record-content-4 = Уцәажәара уалагаанӡа асаит аҭаҩра иалагоит, насгьы уцәажәара уаҟәыҵлак ашьҭахьҵәҟьа аҭаҩра аанкылоит ҳәа угәы иаанамгароуп.
+about-playbook-how-record-content-5 = <accuracyLink>Еиҳа инарҭбаау акритериақәа шәрыхәаԥшыр шәылшоит.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Ишԥаҳалшо Common Voice аҿы еиӷьны абз аизырҳара?
+about-playbook-how-grow-language-content-1 = Еиуеиԥшым ауаа Common Voice алахәхаразы алшарақәа раԥҵара абзоурала, еизгоу адыррақәа иахьынӡазалшо ауаа рацәа рзы ихәарҭаны иҟалоит. Ҳара иаԥаҳҵеит шәхы иашәырхәар шәылшо аресурсқәеи ашаблонқәеи!
+about-playbook-how-grow-language-content-2 = Ахҭысқәа
 
 ## How to validate
 
+about-playbook-how-validate = Излаздыруазеи аҭаҩра ақәшаҳаҭхара шалшо?
 about-playbook-how-validate-content-1 = <strong>ажәақәа еилкаазар</strong>, насгьы аҭаҩра <strong>гхак амамзар</strong>, уи абжьааԥны иаанагоит <strong>уара уи уақәшаҳаҭхар улшоит</strong> ҳәа.
 about-playbook-how-validate-content-2 = Ацәажәаҩ иакцент уара уакцент иахьақәымшәо апостқәа мап рыцәумкын. Ҳпроект аиӷьтәразы, аиԥшымзаара ҳара ҳзы акырӡа аҵанакуеит.
 about-playbook-how-validate-content-3 = <strong>ажәа аидырра залшом ҳәа угәы иаанагозар</strong>, аҭаҩраҿы <strong>дәныҟатәи абжьы</strong> ыҟазар, мамзаргьы даҽаӡәы иажәа</strong> уаҳазар, усҟан уи <strong>мап ацәукыр ауп</ ӷәӷәоуп>. <accuracyLink>Еиҳаны адыррақәа шәыԥшаар шәылшоит еилыкка иҟоу акритериақәа рҿы</accuracyLink>.
