@@ -51,12 +51,28 @@ about-nav-get-involved = Уҽалаурхәырц
 about-playbook-how-validate-content-1 = <strong>ажәақәа еилкаазар</strong>, насгьы аҭаҩра <strong>гхак амамзар</strong>, уи абжьааԥны иаанагоит <strong>уара уи уақәшаҳаҭхар улшоит</strong> ҳәа.
 about-playbook-how-validate-content-2 = Ацәажәаҩ иакцент уара уакцент иахьақәымшәо апостқәа мап рыцәумкын. Ҳпроект аиӷьтәразы, аиԥшымзаара ҳара ҳзы акырӡа аҵанакуеит.
 about-playbook-how-validate-content-3 = <strong>ажәа аидырра залшом ҳәа угәы иаанагозар</strong>, аҭаҩраҿы <strong>дәныҟатәи абжьы</strong> ыҟазар, мамзаргьы даҽаӡәы иажәа</strong> уаҳазар, усҟан уи <strong>мап ацәукыр ауп</ ӷәӷәоуп>. <accuracyLink>Еиҳаны адыррақәа шәыԥшаар шәылшоит еилыкка иҟоу акритериақәа рҿы</accuracyLink>.
+about-playbook-how-validate-content-4 = Апост 2 уаҩы мап ацәыркыр, уи адатасет аҟны иҷыдоу аҟәшаҿы икьыԥхьхоит.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Адатасет ахь анеиреи ахархәареи шԥаҟаҵатәу?
+about-playbook-how-access-dataset-content-1 = Шәара ишәылшоит <datasetsPage>dataset</datasetsPage> адаҟьахь шәцаны, ишәҭаху аверсиеи абызшәақәеи алхны, насгьы ихәыжәга! <metadataLink>афаилқәа ирымоуп урҭ ирыдҳәалоу аметадата</metadataLink>, демографиатә дыррақәеи ақәшаҳаҭратә дыррақәеи реиԥш. Аҭагаларазы е-маил шәҭароуп.
+about-playbook-how-access-dataset-content-2 = АСР амоделқәа раԥҵаразы амыругақәа шәҭахызар, <discourseLink>дискурс</discourseLink> ауаажәларраҿы егьырҭ ауаа шәрызҵаар шәылшоит.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Ишԥарыдыркыло аӡбарақәа апроект аганахьала?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice еиуеиԥшым активистцәа, абызшәадырҩцәа, адатаҭҵааҩцәа, аҵарауаа, апрограмматә еиқәыршәара анџьнырцәа рыла ишьақәгылоуп. Апроект ахылаԥшра азнауеит Мозилла Афонд.
+about-playbook-how-project-governance-content-2 = Ҳара ҳнапхгара шьаҭас иамоуп анаҩстәи апринципқәа:
+about-playbook-how-project-governance-content-3 = Амаӡара, ашәарҭадара, агәаартра.
+about-playbook-how-project-governance-content-4 = Ауаажәларра рылахәреи аӡбарақәа рыдкылареи.
+about-playbook-how-project-governance-content-5 = Ахә ашьареи ахдырреи.
+about-playbook-how-project-governance-content-6 = Аҩганктәи аҭакԥхықәра.
+about-playbook-how-project-governance-content-7 = <governanceLink>Еиҳаны еилышәкаа анапхгара шыҟаҳҵо</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Ишԥаҟаҵоу аԥаратә цхыраара Common Voice?
+about-playbook-how-funded-content-1 = Азеиԥш бжьы Мозилла Афонд апроект ауп, US 501c3. Уажәазы ​​апроект зегьы ахәҭаа ала имҩаԥысуеит <philanthropicGrantLink>филантропиатә грантқәа</philanthropicGrantLink>, иара убасгьы адунеи зегьы аҟынтәи ауаа рҟынтәи ацхыраара.
+about-playbook-how-funded-content-2 = Аԥара рацәаны иаҭахуп еиԥмырҟьаӡакәа адатасетқәа рыҭара, рҭыжьра, аплатформа аиӷьтәра, насгьы <americaMradiLink>ауаажәларратә программақәа</americaMradiLink> рымҩаԥгара.
+about-playbook-how-funded-content-3 = Шәара ма шәеиҿкаара апроект аҿы шәхы алашәырхәырц шәҭахызар, шәара ишәылшоит <donateLink>donateLink> мамзаргьы ҳпартниортә гәыԥ шәрызҵаар <emailFragment>commonvoice@mozilla.com</emailFragment>.

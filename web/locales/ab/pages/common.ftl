@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = Афар
 ab = Аԥсуа
+abb = Банкон
 ace = Аџьеи
 ady = Адыга
 af = Африкаанс
@@ -15,12 +17,29 @@ arn = Мапудунгун
 as = Асамиа
 ast = Астуриано
 az = Азарбеиҽан
+azz = Ашьхарыуаа Пуебла Науатль
 ba = Башҟорттар
+bal = Абелочи
+bas = Баса
+bax = Бамун
+bba = Баатонум
+bbj = Гомала
+bci = Бауле
 be = Беларускаиа
+beb = Бамвеле
+bfd = Бафут
 bg = Балгарски
+bkm = Ком
+bm = Бамана
 bn = Банла
+bnm = Батанга
+bo = Атибет
 br = Бӷезонеқ
+bri = Мокпве
+bs = Абосниа
+bum = Булу
 bxr = буриад
+byv = Медумба
 ca = Каҭалаа
 cak = Қақчиқел
 cnh = Ҳақа чын
@@ -131,11 +150,6 @@ zh-TW = Ҳан (Ҳаиуан)
 
 ## Layout
 
-speak = Аҭаҩра
-speak-now = Абжьы ҭаҩра алагара
-datasets = Адыррақәа реизга
-languages = Абызшәақәа
-about = Иҳазкны
 profile = Аҷыдахәра
 help = Аилыркаа
 contact = Аидҳәалара
@@ -154,7 +168,6 @@ privacy-info = Ҳара ажәа уаҳҭоит, уинфрмациа еиҷаҳ
 return-to-cv = Common Voice иазыхынҳәтәуп
 email-input =
     .label = Аԥошьҭа
-submit-form-action = Ашьҭра
 loading = Аҭагалара
 email-opt-in-info = Сара исҭахуп Common Voice ахықәкқәеи аҽыцрақәеи ртәы зҳәо ашәҟәқәа соуларц.
 email-opt-in-info-title = Common Voice ашьҭымҭақәа уҽрыларархәы
