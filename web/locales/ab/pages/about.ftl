@@ -58,12 +58,33 @@ about-nav-playbook = Еилышәкаа аҽалархәра
 ## What is a language
 
 about-playbook-what-is-language = Иарбан бызшәоу Азеиԥш бжьы аҟны иҟоу?
+about-playbook-what-is-language-content-1 = Абызшәа азхәыцразы амҩақәа рацәоуп. Ацәажәара аизыдырратә модельқәа рзы, Common Voice иҟанаҵоит "аҩганктәи аилкаара" мамзаргьы "абри абызшәала ицәажәо рҽазыршәар, еилибакаар рылшома?"
+about-playbook-what-is-language-content-2 = Ҳара иаҳҭахуп ацәажәаратә модельқәа ацәажәаҩцәа рыхкқәа еиҳа еиӷьны еилыркаарц. Уи азы, абжьытә данноқәа реизга еиуеиԥшым ауаа рацәа аанарԥшыр ауп.
+about-playbook-what-is-language-content-3 = Бызшәақәак рҿы аграмматика, ажәар, ажәаҳәашьа рганахьала еиԥшымра дуқәа ыҟоуп. Убри аҟнытә, 2022 азы ҳара <ctaLink>“Авариантқәа”</ctaLink> ралагалара ҳаҿуп. Уи ауаажәларрақәа ирылнаршоит рбызшәақәа реилкаара еиуеиԥшым адыррақәа рыла.
 
 ## How do I add a language
 
+about-playbook-how-add-language = Ишԥасылшо абызшәа ацҵара?
+about-playbook-how-add-language-content-1 = Зегь раԥхьаӡа иргыланы, игәашәҭ <languageLink>шәбызшәа иацҵоума</languageLink>. Макьана иҟамзар, уара <strong>асаит еиҭагатәуп, насгьы ажәалагалақәа еизгатәуп</strong>.
+about-playbook-how-add-language-translating-heading = Асаит аиҭагара
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Понтоон ахархәашьа иазку ҳвидео арҵагатә видео шәахәаԥш.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Аиҭагаразы, ҳара ҳхы иаҳархәоит Мозилла амыруга ахьӡу <pontoonLink>Понтоон</pontoonLink>. Понтон бызшәа рацәаны иамоуп,
+    аха шәара шәтәы ыҟамзар, шәара ишәылшоит <pontoonRequestLink>бызшәак ацҵаразы аҳәара</pontoonRequestLink>.
+    Анаҩс, абз апроект Common Voice аҟны иҟазарц азы,
+    <githubRepoLink>ГитХаб аҟны бызшәа ҿыц азыҳәара</githubRepoLink>. <localizationFragment>Асаит аиҭагара иазкны еиҳаны адыррақәа</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Ажәалагалақәа реизгара
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Ажәеинраалақәа реизгаҩ</sentenceCollectorVideo> ахархәара иазку ҳҵаратә видео шәахәаԥш.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Уара иулшоит <sentenceCollectorLinkAdd>жәаҳәарақәа рыԥхьаӡа маҷк ацҵара</sentenceCollectorLinkAdd>,
+    мамзаргьы анагӡара <bulkImportDocsLink> Github ахархәарала еизакны аимпорт</булкИмпортДоксЛинк>.
+    Ишәхашәмыршҭлан, ажәалагалақәа <licenseLink>CC0 (мамзаргьы зегьы рзы)</licenseLink>, мамзаргьы шәара шәхатәы шәҩыр шәылшоит.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ажәаҳәақәа реизгара иазкны еиҳаны еилышәкаа</sentenceCollectorFragment>.
 
 ## How does localization work
 
+about-playbook-how-localize = Аус шԥауеи асаит алокализациа?
+about-playbook-how-localize-content-1 = Азеиԥш бжьы асаит аиҭагара мҩаԥысуеит <strong>Понтон</strong> ала.
 
 ## How to add sentences
 
