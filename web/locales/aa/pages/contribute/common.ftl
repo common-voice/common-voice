@@ -60,6 +60,7 @@ report-different-language-detail = Anu edde yaabah an afak baxsa le afat tunkutt
 report-difficult-pronounce = Afeytisaanam taqabi le
 report-difficult-pronounce-detail = Kawsaanah hinnay afeytisaanam gibdi qangoor kee maxcooca edde tan.
 report-offensive-speech = Giqi yaaba
+report-offensive-speech-detail = Xabba caddi sinna hinnay giqi af le.
 report-other-comment =
     .placeholder = Maqtura
 success = Aslaage
@@ -80,7 +81,9 @@ shortcut-record-toggle-label = Isiggli/Soolis
 shortcut-rerecord-toggle = [1 -5]
 shortcut-rerecord-toggle-label = Qagitak xabbab isiggil
 shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Yakkeh yan tasgiil waal
 shortcut-submit = Endeb
+shortcut-submit-label = Xabbitte kobbos
 
 ## Listen Shortcuts
 
