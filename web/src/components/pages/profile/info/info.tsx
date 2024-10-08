@@ -7,7 +7,7 @@ import * as React from 'react'
 import { useCallback, useEffect, useState } from 'react'
 import { Redirect, RouteComponentProps, withRouter } from 'react-router'
 import { Tooltip } from 'react-tippy'
-import { pick } from 'common/utility'
+import { pick } from 'common'
 
 import {
   useAction,

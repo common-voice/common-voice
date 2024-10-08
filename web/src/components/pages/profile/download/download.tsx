@@ -5,7 +5,7 @@ import {
 } from '@fluent/react'
 import * as React from 'react'
 import { useEffect, useState } from 'react'
-import { pick } from 'common/utility'
+import { pick } from 'common'
 import { CloudIcon, MicIcon, UserIcon, RedoIcon } from '../../../ui/icons'
 import { Button } from '../../../ui/ui'
 import './download.css'

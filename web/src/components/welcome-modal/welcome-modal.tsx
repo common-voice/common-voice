@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { Redirect } from 'react-router'
 import { Link } from 'react-router-dom'
 import BalanceText from 'react-balance-text'
-import { pick } from 'common/utility'
+import { pick } from 'common'
 
 import Modal, { ModalProps } from '../modal/modal'
 import { Button, Checkbox } from '../ui/ui'
