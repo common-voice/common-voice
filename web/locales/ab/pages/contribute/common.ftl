@@ -19,6 +19,7 @@ record-button-label = Убжьы ҭаҩтәуп
 share-title-new = <bold>Уҳацхраа</bold> абыжьқәа рацәаны рыԥшаараҿы.
 keep-track-profile = Уҷыдахәра уцырхрааны упрогресс уашьклаԥшла.
 login-to-get-started = Уҭала мамзаргьы уҽҭагала алагаразы
+target-segment-first-card = Уара ҳхықәкыратә сегмент актәи уалахәуп
 
 ## Contribution Nav Items
 
