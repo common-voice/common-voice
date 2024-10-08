@@ -48,6 +48,9 @@ about-nav-get-involved = Уҽалаурхәырц
 
 ## How to validate
 
+about-playbook-how-validate-content-1 = <strong>ажәақәа еилкаазар</strong>, насгьы аҭаҩра <strong>гхак амамзар</strong>, уи абжьааԥны иаанагоит <strong>уара уи уақәшаҳаҭхар улшоит</strong> ҳәа.
+about-playbook-how-validate-content-2 = Ацәажәаҩ иакцент уара уакцент иахьақәымшәо апостқәа мап рыцәумкын. Ҳпроект аиӷьтәразы, аиԥшымзаара ҳара ҳзы акырӡа аҵанакуеит.
+about-playbook-how-validate-content-3 = <strong>ажәа аидырра залшом ҳәа угәы иаанагозар</strong>, аҭаҩраҿы <strong>дәныҟатәи абжьы</strong> ыҟазар, мамзаргьы даҽаӡәы иажәа</strong> уаҳазар, усҟан уи <strong>мап ацәукыр ауп</ ӷәӷәоуп>. <accuracyLink>Еиҳаны адыррақәа шәыԥшаар шәылшоит еилыкка иҟоу акритериақәа рҿы</accuracyLink>.
 
 ## How to access dataset
 
