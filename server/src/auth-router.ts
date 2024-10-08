@@ -104,6 +104,9 @@ export const setupAuthRouter = async () => {
 
   router.get(CALLBACK_URL, async (request: Request, response: Response) => {
     const params = client.callbackParams(request)
+    if (!request.session.auth) {
+      return response.redirect('/login-failure')
+    }
     const { state } = request.session.auth
 
     const tokenSet = await client.callback(callbackURL(ENVIRONMENT), params, {
