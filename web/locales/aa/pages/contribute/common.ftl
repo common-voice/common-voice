@@ -25,6 +25,10 @@ speak-loading-error =
 record-button-label = Isi xongolo isiggil
 share-title-new = <bold>Nee cat</bold> mango xongolo geynâ gidih
 keep-track-profile = Weelaysol ku dadal kattat
+login-to-get-started = Qimmissuh cul hinnay unkuttub
+target-segment-first-card = Atu nek naharsi hadafih exxah cali abta
+target-segment-generic-card = Atu nek hadaf exxah cali abta
+target-segment-first-banner = { $locale } addal Common Voice-k naharsi hadafih exxah ginol cat
 target-segment-add-voice = Isi Xongolo edde osis
 target-segment-learn-more = Mangom barit
 change-preferences = Lafoot milaag
@@ -33,12 +37,22 @@ change-preferences = Lafoot milaag
 
 contribute-voice-collection-nav-header = Xongolô Gaaboyso
 contribute-sentence-collection-nav-header = Maxcâ maafoh Gaaboyso
+login-signup = Cul / Unkuttub
+vote-yes = Yeey
+vote-no = Maleey
+datasets = Oytá-daffes
+languages = Afitte
+about = Kinnuk
+partner = Waklenta
+submit-form-action = Kabbos
 
 ## Reporting
 
 report = Gabbaq
 report-title = Gabbaaqu Culus
+report-ask = Atu ta maxcâ maafot ma taqabi tablee?
 report-offensive-language = Giqi afa
+report-offensive-language-detail = Maxcâ maafo caddi sinna hinnay giqi af le.
 report-grammar-or-spelling = Yabti rakiiboh / tiitissô soka
 report-different-language = Baxsa le afa
 report-offensive-speech = Giqi yaaba
