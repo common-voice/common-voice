@@ -1,6 +1,7 @@
 action-click = Ақәқшара
 action-tap = Акьысра
 contribute = Аҽалархәара
+review = Агәаҭара
 skip = Абжьажьра
 shortcuts = Арыд ласқәа
 goal-help-recording = Ҳара есымшатәи ҳанҵамҭақәа аҩаӡара { $goalValue }! Common Voice ахықәкы аҟынӡа ашьҭыхраҿы, уара <goalPercentage></goalPercentage> ацхыраара ҳауҭеит.
@@ -10,6 +11,7 @@ contribute-more =
         [one] Уара уазхиоума даҽа { $count } аҟаҵара?
        *[other] Уара уазхиоума даҽа { $count } аҟаҵара?
     }
+speak-empty-state = Ари абызшәала иаҳҩыша ажәаҳәақәа ҳзымҵысит...
 no-sentences-for-variants = Шәбызшәа авариант аҿы жәаҳәатәқәак ыҟамзар ҟалоит! Уара угәы иақәшәозар, убызшәала даҽа аҳамҭақәа убарц азы, уеиқәыршәарақәа уԥсахыр улшоит.
 speak-empty-state-cta = Алабжьарақәа рыдгалара
 speak-loading-error =
@@ -20,6 +22,7 @@ share-title-new = <bold>Уҳацхраа</bold> абыжьқәа рацәаны 
 keep-track-profile = Уҷыдахәра уцырхрааны упрогресс уашьклаԥшла.
 login-to-get-started = Уҭала мамзаргьы уҽҭагала алагаразы
 target-segment-first-card = Уара ҳхықәкыратә сегмент актәи уалахәуп
+target-segment-generic-card = Уара ахықәкытә сегмент уалахәуп
 
 ## Contribution Nav Items
 
