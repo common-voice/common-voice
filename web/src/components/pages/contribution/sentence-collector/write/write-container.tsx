@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Localized } from '@fluent/react'
+import classNames from 'classnames'
 
 import SentenceCollectionWrapper from '../sentence-collector-wrapper'
 import { SentenceWrite } from './sentence-write'
@@ -114,7 +115,10 @@ const WriteContainer = () => {
           />
         </div>
       )}
-      <div className="instruction-and-form-wrapper">
+      <div
+        className={classNames('instruction-and-form-wrapper', {
+          centered: !account,
+        })}>
         {showSmallBatchSummary && (
           <div className="small-batch-summary">
             <SmallBatchSummary smallBatchResponse={smallBatchResponse} />
@@ -129,10 +133,7 @@ const WriteContainer = () => {
             <p className="subtitle" />
           </Localized>
         )}
-        <SentenceCollectionWrapper
-          dataTestId="write-page"
-          type="write"
-          extraClassName={account ? '' : 'centered'}>
+        <SentenceCollectionWrapper dataTestId="write-page" type="write">
           {getWriteComponent(activeWriteOption)}
         </SentenceCollectionWrapper>
       </div>

@@ -7,6 +7,8 @@ import { SinglewriteRules } from './single-write-rules'
 import { SmallBatchRules } from './small-batch-rules'
 import { WriteMode } from '../sentence-write'
 
+import URLS from '../../../../../../urls'
+
 import './rules.css'
 
 type Props = {
@@ -28,6 +30,8 @@ export const Rules: React.FC<Props> = ({
 }) => {
   const isSmallBatchMode = mode === 'small-batch'
   const showSmallBatchRules = isLoggedIn && isSmallBatchMode
+  const showLoginInstruction =
+    !isLoggedIn && !location.pathname.includes(URLS.REVIEW)
 
   const [rulesSection, setRulesSectionVisible] = React.useState({
     singleVisible: !isSmallBatchMode,
@@ -75,7 +79,7 @@ export const Rules: React.FC<Props> = ({
         <SinglewriteRules
           error={error}
           showFirstRule={showFirstRule}
-          isLoggedIn={isLoggedIn}
+          showLoginInstruction={showLoginInstruction}
           title={localizedTitleId}
           mode={mode}
           onToggle={handleToggle}

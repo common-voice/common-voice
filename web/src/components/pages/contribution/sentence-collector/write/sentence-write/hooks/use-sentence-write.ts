@@ -101,11 +101,13 @@ export const useSentenceWrite = (mode: WriteMode) => {
       payload: { error: errorType },
     })
 
-    addNotification({
-      message: l10n.getString(messageKey),
-      type: 'error',
-      ...(icon && { icon }),
-    })
+    if (messageKey) {
+      addNotification({
+        message: l10n.getString(messageKey),
+        type: 'error',
+        ...(icon && { icon }),
+      })
+    }
   }
 
   const isSentenceValid = (sentenceSubmission: SentenceSubmission): boolean => {

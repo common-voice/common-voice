@@ -30,6 +30,10 @@
     & .instruction-and-form-wrapper {
         display: flex;
         flex-direction: column;
+
+        &.centered {
+            margin: 0 auto;
+        }
     }
 
     & .sc-toggle-wrapper {
@@ -40,7 +44,7 @@
 
         & .sc-toggle {
             width: fit-content;
-            margin: 110px auto 0px;
+            margin: 140px auto 0px;
             display: flex;
             flex-direction: column;
 
@@ -52,6 +56,10 @@
             }
 
             & .toggle-option {
+                & .text-button {
+                    color: var(--black);
+                }
+
                 svg {
                     margin-right: 8px;
                 }

@@ -9,7 +9,7 @@ import { WriteMode } from '../sentence-write'
 
 type Props = {
   showFirstRule: boolean
-  isLoggedIn: boolean
+  showLoginInstruction: boolean
   title: string
   mode: WriteMode
   error?: SentenceSubmissionError
@@ -20,7 +20,7 @@ type Props = {
 export const SinglewriteRules = ({
   showFirstRule,
   error,
-  isLoggedIn,
+  showLoginInstruction,
   title,
   mode,
   onToggle,
@@ -136,7 +136,7 @@ export const SinglewriteRules = ({
           </Localized>
         </ul>
       )}
-      {!isLoggedIn && (
+      {showLoginInstruction && (
         <Localized
           id="login-instruction-multiple-sentences"
           elems={{ loginLink: <a href="/login" /> }}>

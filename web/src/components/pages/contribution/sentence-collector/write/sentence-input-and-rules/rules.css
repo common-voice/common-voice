@@ -2,6 +2,7 @@
 
 .rules {
     background: var(--desert-storm);
+    border-radius: 20px;
 
     @media (--lg-up) {
         width: 350px;
@@ -41,6 +42,7 @@
                     font-size: var(--font-size-sm);
                     cursor: auto;
                     width: 100%;
+                    color: var(--black);
                     pointer-events: none;
 
                     [dir='ltr'] & {
