@@ -91,5 +91,6 @@ data-other-download = Адыррақәа ҭагалатәуп
 data-bundle-button = Адырра аизга ҭагалатәуп
 data-bundle-description = Common Voice иамоу адыррақәа ирыцу абыжьқәа реизгақәа зегьы ҵаҟа иарбоуп.
 release-version = Аверсиа
+dataset-date = Арыцхә
 license = Алицензиа <licenseLink>{ $license }</licenseLink>
 license-mixed = Еилаԥсоуп
