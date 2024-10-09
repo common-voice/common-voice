@@ -154,3 +154,4 @@ contribution-reader-effects-description = Аҭаҩрақәа реиҳарак ԥ
 contribution-just-unsure-title = Агәра ганы уҟаӡами?
 contribution-just-unsure-description = Абарҭ амҩақәҵарақәа ирыҵамкуа акы шәақәшәар, шәгәы иҭоу шәхы иархәаны шәыбжьы шәҭиит. Уара иузыӡбомзар, ахыҵра агәлаҵәҟьа ухы иархәаны анаҩстәи аҭагаларахь уиас.
 see-more = <chevron></chevron>Еиҳаны адыррақәа
+see-less = <chevron></chevron>Еиҵоу адыррақәа

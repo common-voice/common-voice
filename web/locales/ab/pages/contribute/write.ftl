@@ -1,6 +1,20 @@
 ## WRITE PAGE
 
 # Sentence Domain dropdown option
+automotive_transport = Автомобильтәи атранспорттәи
+# Sentence Domain dropdown option
+finance = Афинансқәа
+# Sentence Domain dropdown option
+service_retail = Амаҵзуратә сектори хәаахәҭралатәи ахәаахәҭреи
+# Sentence Domain dropdown option
+general = Ихадоу
+# Sentence Domain dropdown option
+healthcare = Агәабзиарахьчара
+# Sentence Domain dropdown option
+history_law_government = Аҭоурых, азакәан, аиҳабыра
+# Sentence Domain dropdown option
+language_fundamentals = Абызшәа ашьаҭақәа (е.г. аԥхьаӡацқәа, анбанқәа, аԥара)
+# Sentence Domain dropdown option
 media_entertainment = Амедиеи агәырҿыхагақәеи
 # Sentence Domain dropdown option
 nature_environment = Аԥсабареи акәша-мыкәшеи
@@ -33,3 +47,24 @@ upload-progress-text = Аҭагалара мҩаԥысуеит...
 sc-bulk-submit-confirm = Сара иазхасҵоит абарҭ ашәҟәқәа <wikipediaLink>зеиԥш домен</wikipediaLink> шракәу, насгьы урҭ арахь рышьҭыхра азин шсымоу.
 bulk-upload-success-toast = Аҳәарақәа рацәаны иҭарҵеит
 bulk-upload-failed-toast = Аҭагалара алымшеит, даҽазнык шәҽазышәшәа.
+bulk-submission-success-header = Иҭабуп амассатә ҭагалара шәахьалахәыз азы!
+bulk-submission-success-subheader = Уара Common Voice ацхыраара ҟауҵоит есыҽнытәи ҳхықәкқәа рынагӡараҿы иҭагалоу ажәаҳәақәа рзы!
+upload-more-btn-text = Еиҳаны аҳәарақәа ҭажәгал?
+file-invalid-type = Ииашам афаил
+file-too-large = Афаил дуцәоуп
+file-too-small = Афаил хәыҷцәоуп
+too-many-files = Афаилқәа рацәоуп
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Азеиԥш доментә жәаҳәақәа рацәаны иацҵатәуп
+multiple-sentences-error = Зныктәи ажәеинраалаҿы аҳәоуқәа рацәаны ацҵара ҟалом
+# <errorIcon></erroricon> will be replace with an icon that represents an error
+exceeds-small-batch-limit-error = 1000 жәаҳәара еиҳаны ашьҭра ауам
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } еизгоу жәаҳәарак аҟынтә
+       *[other] { $uploadedSentences } of { $totalSentences } Еизгоу аҳәоуқәа
+    }
