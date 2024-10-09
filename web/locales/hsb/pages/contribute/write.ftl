@@ -106,7 +106,17 @@ add-small-batch-success =
         [few] { $uploadedSentences } z { $totalSentences } sadow zhromadźene
        *[other] { $uploadedSentences } z { $totalSentences } sadow zhromadźene
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } z { $totalSentences } sady zhromadźena. Klikńće <downloadLink>tu</downloadLink>, zo byšće wotpokazane sady sćahnył.
+        [two] { $uploadedSentences } z { $totalSentences } sadow zhromadźenej. Klikńće <downloadLink>tu</downloadLink>, zo byšće wotpokazane sady sćahnył.
+        [few] { $uploadedSentences } z { $totalSentences } sadow zhromadźene. Klikńće <downloadLink>tu</downloadLink>, zo byšće wotpokazane sady sćahnył.
+       *[other] { $uploadedSentences } z { $totalSentences } sadow zhromadźene. Klikńće <downloadLink>tu</downloadLink>, zo byšće wotpokazane sady sćahnył.
+    }
+small-batch-sentences-rule-1 = Sćěhujće směrnicam z „Kotre sady móžu přidać?“
 small-batch-sentences-rule-2 = Přidajće jednu sadu na linku
+small-batch-sentences-rule-3 = Tłóčće jónkróć „Enter“, zo byšće sady na jednej lince wotdźělił
 small-batch-sentences-rule-4 = Přidajće hač do 1.000 sadow
 small-batch-sentences-rule-5 = Wšě sady dyrbja samsnu domenu měć
 small-batch-sentences-rule-6 = Wšě sady dyrbja samsne žórło měć
