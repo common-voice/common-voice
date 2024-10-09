@@ -14,3 +14,5 @@ review-cancel = Жибериўди бийкарлаў
 terms-agree = Разыман
 terms-disagree = Разы емеспен
 why-donate = Не ушын сорап атырсыз?
+first-cta-gender-select-default-option = Вариантты таңлаң
+create-profile-button = Профил жаратыў

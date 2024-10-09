@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = Afar
 ab = Abkhasisk
+abb = Bankon
 ace = Atsenesisk
 ady = Adygeisk
 af = Afrikaans
@@ -16,6 +18,7 @@ as = Assamesisk
 ast = Asturiansk
 az = Aserbajdsjansk
 ba = Basjkirisk
+bal = Balochi
 bas = Basaa
 be = Kviterussisk
 bg = Bulgarsk
@@ -215,12 +218,6 @@ zza = Zazaisk
 
 ## Layout
 
-speak = Snakk
-speak-now = Snakk no
-datasets = Datasett
-languages = Språk
-about = Om oss
-partner = Partnar
 profile = Profil
 help = Hjelp
 contact = Kontakt
@@ -240,7 +237,6 @@ privacy-info = Vi lovar å handtere informasjonen din på ein trygg måte. Les m
 return-to-cv = Gå tilbake til Common Voice
 email-input =
     .label = E-post
-submit-form-action = Send inn
 loading = Lastar…
 email-opt-in-info = Eg vil gjerne få tilsendt e-postmeldingar med målpåminningar, mine framdriftsoppdateringar og nyheitsbrev om Common Voice.
 email-opt-in-info-title = Abonner på Common Voice-e-postlista

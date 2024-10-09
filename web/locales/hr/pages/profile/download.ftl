@@ -14,4 +14,5 @@ download-request-button = Preuzmi
 download-request-title = { $created }
 download-request-refresh-button = Aktualiziraj
 download-request-modal-title = Poveznice preuzimanja
+download-request-link-text = Zip broj { $offset } od { $total }
 download-request-metadata-link = Tekst rečenice

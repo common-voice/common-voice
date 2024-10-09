@@ -12,12 +12,8 @@ show-wall-of-text = Tuilleadh Eolais
 help-us-title = Cabhraigh linn abairtí a dheimhniú!
 help-us-explain = Cliceáil an tsaighead, éist, agus abair linn: an bhfuil an taifeadadh cruinn?
 no-clips-to-validate = Is cosúil nach bhfuil aon taifeadtaí sa teanga seo fós. Cabhraigh linn an ciú a líonadh trí chúpla taifead a dhéanamh anois.
-vote-yes = Tá
-vote-no = Níl
 toggle-play-tooltip = Brúigh { shortcut-play-toggle } chun an mód seinnte a athrú
-speak-subtitle = Roinn do ghuth linn
 speak-goal-text = Gearrthóga taifeadta
-listen-subtitle = Cabhraigh linn guthanna a dheimhniú
 listen-goal-text = Gearrthóga deimhnithe
 hours-recorded = Uaireanta an chloig taifeadta
 hours-validated = Uaireanta an chloig deimhnithe
@@ -74,3 +70,4 @@ username-email-not-demographic = Ní bheidh d'ainm úsáideora ná do sheoladh r
 
 welcome-staff = Fáilte romhaibh, a lucht { $company }!
 profile-not-required = Ní gá duit cuntas a chruthú, ach tá sé úsáideach
+read-more-about = Léigh tuilleadh ar ár leathanach Maidir Leis

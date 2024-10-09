@@ -25,6 +25,14 @@ change-preferences = Сазлаўларды өзгертиў
 
 contribute-voice-collection-nav-header = Даўыслар топламы
 contribute-sentence-collection-nav-header = Гәплер топламы
+login-signup = Кириў / Дизимнен өтиў
+vote-yes = Аўа
+vote-no = Яқ
+datasets = Мағлыўматлар топламы
+languages = Тиллер
+about = Биз туўралы
+partner = Сериклик
+submit-form-action = Жибериў
 
 ## Reporting
 

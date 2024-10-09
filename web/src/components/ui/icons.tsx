@@ -1121,6 +1121,31 @@ export const SingleContributionIcon = ({ isActive }: { isActive: boolean }) => (
   </svg>
 )
 
+export const SmallBatchContributionIcon = ({
+  isActive,
+}: {
+  isActive: boolean
+}) => {
+  return (
+    <svg width="12" height="13" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <mask id="a" fill="#fff">
+        <path d="M0 1.555a1 1 0 0 1 1-1h9.517a1 1 0 0 1 1 1v9.517a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1.555Z" />
+      </mask>
+      <path
+        d="M-1 1.555a2 2 0 0 1 2-2h9.517a2 2 0 0 1 2 2H-1Zm12.517 10.517H0h11.517ZM1 12.072a2 2 0 0 1-2-2V1.555a2 2 0 0 1 2-2v12.517ZM10.517-.445a2 2 0 0 1 2 2v8.517a2 2 0 0 1-2 2V-.445Z"
+        fill={isActive ? '#1570EF' : 'black'}
+        mask="url(#a)"
+      />
+      <path
+        d="M3 4.252h5.187M3 6.252h5.187"
+        stroke={isActive ? '#1570EF' : 'black'}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
 export const BulkContributionIcon = ({ isActive }: { isActive: boolean }) => (
   <svg
     width="12"

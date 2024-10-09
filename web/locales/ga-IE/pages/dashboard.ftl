@@ -21,7 +21,10 @@ show-ranking = Taispeáin mo rangú
 ## Custom Goals
 
 get-started-goals = Tosaigh le spriocanna
-both-speak-and-listen = An dá cheann
+create-custom-goal = Cruthaigh Sprioc Shaincheaptha
+goal-type = Cén cineál sprice ar mhaith leat a chruthú?
+both-speak-and-listen = Iad araon
+both-speak-and-listen-long = Iad araon (Labhair agus Éist)
 daily-goal = Sprioc Laethúil
 weekly-goal = Sprioc Sheachtainiúil
 easy-difficulty = Éasca
@@ -35,11 +38,22 @@ cant-decide = Ní féidir cinneadh a dhéanamh?
 how-many-per-day = Go hiontach! Cé mhéad gearrthóg in aghaidh an lae?
 how-many-a-week = Go hiontach! Cé mhéad gearrthóg in aghaidh na seachtaine?
 which-goal-type = Ar mhaith leat Labhairt, Éisteacht nó an dá rud?
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] ghearrthóg amháin
+        [two] ghearrthóg
+        [few] ghearrthóg
+        [many] ngearrthóg
+       *[other] gearrthóg
+    }
 confirm-goal = Deimhnigh an Sprioc
 goal-interval-weekly = Go seachtainiúil
 share-goal-type-speak = Ag labhairt
 share-goal-type-listen = Ag éisteacht
 share-goal-type-both = Ag Labhairt agus ag Éisteacht
+weekly-goal-created = Cruthaíodh do sprioc sheachtainiúil
+daily-goal-created = Cruthaíodh do sprioc laethúil
+return-to-edit-goal = Fill anseo chun do sprioc a chur in eagar am ar bith.
 share-goal = Comhroinn mo sprioc
 
 ## Goals

@@ -8,6 +8,22 @@
     & .cards-and-instruction {
         height: 100%;
 
+        & .instruction {
+            margin: 2vh auto;
+
+            span {
+                display: flex;
+
+                svg {
+                    margin-inline: 8px;
+
+                    path {
+                        fill: var(--light-purple);
+                    }
+                }
+            }
+        }
+
         & .cards-and-guidelines {
             display: flex;
 

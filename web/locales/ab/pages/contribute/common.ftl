@@ -1,8 +1,14 @@
 action-click = Ақәқшара
 action-tap = Акьысра
 contribute = Аҽалархәара
+review = Агәаҭара
 skip = Абжьажьра
 shortcuts = Арыд ласқәа
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> аҭаҩра
+       *[other] <bold>{ $count }</bold> аҭаҩрақәа
+    }
 goal-help-recording = Ҳара есымшатәи ҳанҵамҭақәа аҩаӡара { $goalValue }! Common Voice ахықәкы аҟынӡа ашьҭыхраҿы, уара <goalPercentage></goalPercentage> ацхыраара ҳауҭеит.
 goal-help-validation = Ҳара есымшатәи ҳхықәкы { $goalValue } <goalPercentage></goalPercentage> аҩаӡара Common Voice аҟынӡа агәаҭараҿы уара ацхыраара ҳауҭеит.
 contribute-more =
@@ -10,13 +16,35 @@ contribute-more =
         [one] Уара уазхиоума даҽа { $count } аҟаҵара?
        *[other] Уара уазхиоума даҽа { $count } аҟаҵара?
     }
+speak-empty-state = Ари абызшәала иаҳҩыша ажәаҳәақәа ҳзымҵысит...
+no-sentences-for-variants = Шәбызшәа авариант аҿы жәаҳәатәқәак ыҟамзар ҟалоит! Уара угәы иақәшәозар, убызшәала даҽа аҳамҭақәа убарц азы, уеиқәыршәарақәа уԥсахыр улшоит.
+speak-empty-state-cta = Алабжьарақәа рыдгалара
+speak-loading-error =
+    Уара иуҳәашаз жәаҳәаракгьы ҳзыԥшаауамызт.
+    Ҳаҳәоит, нас даҽазнык шәҽазышәшәа.
 record-button-label = Убжьы ҭаҩтәуп
 share-title-new = <bold>Уҳацхраа</bold> абыжьқәа рацәаны рыԥшаараҿы.
 keep-track-profile = Уҷыдахәра уцырхрааны упрогресс уашьклаԥшла.
 login-to-get-started = Уҭала мамзаргьы уҽҭагала алагаразы
+target-segment-first-card = Уара ҳхықәкыратә сегмент актәи уалахәуп
+target-segment-generic-card = Уара ахықәкытә сегмент уалахәуп
+target-segment-first-banner = Ацхыраара аԥҵараҿы раԥхьатәи Азеиԥш Бжьы ахықәкытә сегмент { $locale } аҟны
+target-segment-add-voice = Убжьы ацҵа
+target-segment-learn-more = Еиҳаны
+change-preferences = Аиқәыршәарақәа ԥсахтәуп
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Абжьқәа реизга
+contribute-sentence-collection-nav-header = Ажәеидҳәалақәа реизга
+login-signup = Аҭалара / Аҽҭаҩра
+vote-yes = Ааи
+vote-no = Мап
+datasets = Адыррақәа реизга
+languages = Абызшәақәа
+about = Иҳазкны
+partner = Апартнерра
+submit-form-action = Ашьҭра
 
 ## Reporting
 
@@ -52,6 +80,10 @@ shortcut-record-toggle = ҵ
 shortcut-record-toggle-label = Ианҵатәуп/Иаанкылатәуп
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Анҵамҭақәа еиҭа-ианҵатәуп
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Уажәтәи анҵамҭа аԥыхтәуп
+shortcut-submit = Return
+shortcut-submit-label = Анҵамҭақәа шьҭтәуп
 request-language-text = Common Voice аҟны уара убызшәа макьана иумбаӡои?
 request-language-button = Абызшәа уазҵаа
 
@@ -70,4 +102,18 @@ shortcut-vote-no = м
 
 ## Validation criteria
 
+contribution-criteria-nav = Акритериа
 contribution-criteria-link = Аԥҟара аилкаара
+contribution-criteria-page-title = Аҽалархәра акритериақәа
+contribution-criteria-page-description = Аҭаҩрақәа шәанрызӡырҩуа ишәзыԥшызар акәу еилышәкаала, насгьы шәҭаҩрақәа еиҳа ибеианы иҟашәҵа!
+contribution-for-example = ҿырԥштәыс иаагоуп
+contribution-misreadings-title = Ииашамкәа аԥхьара
+contribution-misreadings-description = Уанӡырҩуа, ибзианы игәаҭала иану ииашаҵәҟьаны ианума; агха хәыҷқәагьы мап рыцәктәуп. <br /> Даара ирацәаны иуԥыло агхақәа:
+contribution-misreadings-description-extended-list-1 = Аҭаҩра алагамҭазы ажәа ахәҭак ааныжьра. Иаҳҳәап, "салам" аҭыԥан "алам" ҳәа уҳәозар.
+contribution-misreadings-description-extended-list-2 = Ажәа аҵыхәан <strong>«s»</strong> анбан ыҟаӡам (англыз бызшәазы).
+contribution-misreadings-description-extended-list-3 = Ажәа аҩыратә ажәа иеиԥшны, аха уи иацәыхараны иҳәоуп. Иаҳҳәап, «аҵәа» аҭыԥан «аҵәа» ма анаҩсантәи.
+contribution-misreadings-description-extended-list-4 = Аҭаҩра заа иахьынҵәо азы аҵыхәтәантәи ажәа аҵыхәа ухыԥа.
+contribution-misreadings-description-extended-list-5 = Ажәа аԥхьара зныкымкәа иҽазишәеит.
+contribution-misreadings-example-1-title = Триас адинозавр дуқәа иҟаз.
+contribution-misreadings-example-2-title = Триастәи аамҭазы иҟаз адинозавр ду.
+contribution-misreadings-example-2-explanation = ["Адинозаврқәа" ракәзароуп]

@@ -14,7 +14,7 @@ download-delta-explainer = Rydym wedi gwneud rhai newidiadau. Mae Segmentau Delt
 download-dataset-tag = Dewiswch iaith y set ddata a'r fersiwn yr hoffech ei lwytho i lawr.
 # File size in gigabytes
 size = Maint
-validated-hr-total = Cyfanswm Oriau â Ddilyswyd
+validated-hr-total = Cyfanswm Oriau Dilyswyd
 overall-hr-total = Cyfanswm yr Oriau
 cv-license = Trwydded
 audio-format = Fformat Sain
@@ -30,8 +30,8 @@ size-megabyte = MB
 confirm-no-identify = <b>Rydych yn cytuno</b> i beidio â cheisio adnabod y siaradwyr yn set data Common Voice.
 confirm-join-mailing-list = Rwyf eisiau ymuno â rhestr e-bost Common Voice
 download-language = Llwytho { $language } i Lawr
-validated-hours = Oriau â Ddilyswyd
-recorded-hours = Oriau â Recordiwyd
+validated-hours = Oriau Dilyswyd
+recorded-hours = Oriau Recordiwyd
 whats-inside = Beth sydd o fewn set data Common Voice?
 dataset-description-hours =
     Mae pob cofnod yn y set ddata yn cynnwys MP3 unigryw a ffeil testun cyfatebol. Mae llawer o'r <b>{ $total }</b> awr a gofnodwyd yn y set ddata  hefyd yn cynnwys metadata demograffig, oed, rhyw, ac acen a all helpu i hyfforddi cywirdeb peiriannau adnabod lleferydd.

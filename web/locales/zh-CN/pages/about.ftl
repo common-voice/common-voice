@@ -87,7 +87,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = 如何进行网站本地化？
 about-playbook-how-localize-content-1 = Common Voice 网站的翻译工作在 <strong>Pontoon</strong> 上进行。
-about-playbook-how-localize-content-2 = 如果您还没有账户，请先<pontoonAccountLink>创建一个</pontoonAccountLink>。然后选择您的语言<strong>（即“团队”）</strong>，并选择 <pontoonCvLink>Common Voice 项目</pontoonCvLink>，里面列出了需要翻译的文件。选择其中一项，你就可以看到英文原文及译文编辑框。
+about-playbook-how-localize-content-2 = 如果您还没有账户，请先<pontoonAccountLink>创建一个</pontoonAccountLink>。然后选择您的语言<strong>（即“团队”）</strong>，并选择 <pontoonCvLink>Common Voice 项目</pontoonCvLink>，里面列出了需要翻译的文件。选择其中一项，您就可以看到英文原文及译文编辑框。
 about-playbook-how-localize-content-3 = 译文翻译自英文，不过您也可以看到其他语言的<strong>提议</strong>。点击 <strong>Profile（个人资料）</strong>图标，然后点击 <strong>Settings（设置）</strong>链接并添加您使用的任何语言。右下角有一个名为 <strong>Locales（多语言）</strong>的译文列表。译文会于一天后应用到网站上。
 about-playbook-how-localize-content-4 = 网站本地化完成度达 75% 后即可上线。
 about-playbook-how-localize-content-5 = 观看我们的帮助视频

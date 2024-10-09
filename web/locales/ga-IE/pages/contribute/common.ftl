@@ -1,6 +1,6 @@
-action-click = Cliceáil
+action-click = Brúigh seo
 action-tap = Cnag ar
-contribute = Rannpháirtíocht
+contribute = Glac Páirt
 review = Athbhreithnigh
 skip = Ar Aghaidh
 shortcuts = Aicearraí
@@ -26,19 +26,30 @@ speak-empty-state = Níl a thuilleadh abairtí le taifeadadh againn don teanga s
 speak-empty-state-cta = Cuir abairtí leis
 record-button-label = Taifead do ghuth
 share-title-new = <bold>Cabhraigh linn</bold> tuilleadh guthanna a fháil
+login-to-get-started = Sínigh isteach nó cláraigh le tosú
 target-segment-add-voice = Cuir Do Ghuth Leis
 target-segment-learn-more = Tuilleadh Eolais
+change-preferences = Athraigh na sainroghanna
 
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Bailiú Guthanna
 contribute-sentence-collection-nav-header = Bailiú Abairtí
+vote-yes = Tá
+vote-no = Níl
+datasets = Tacair sonraí
+languages = Teangacha
+about = Maidir Leis
+partner = Comhpháirtí
+submit-form-action = Seol
 
 ## Reporting
 
 report = Tuairisc
 report-title = Seol tuairisc
+report-ask = Cad iad na fadhbanna atá agat leis an abairt seo?
 report-offensive-language = Teanga ghránna
+report-offensive-language-detail = Tá teanga dhímheasúil nó maslach san abairt.
 report-grammar-or-spelling = Botún gramadaí / litrithe
 report-grammar-or-spelling-detail = Tá botún gramadaí nó litrithe san abairt.
 report-different-language = Teanga mhícheart
@@ -88,5 +99,14 @@ shortcut-vote-no = n
 contribution-criteria-nav = Critéir
 contribution-for-example = mar shampla
 contribution-misreadings-title = Míléamh
+contribution-misreadings-example-2-explanation = ['Dineasáir' ba cheart a bheith ann]
+contribution-misreadings-example-5-title = Táimid ag dul amach chun caife a fháil.
+contribution-misreadings-example-6-title = Tá muid ag dul amach chun caife a fháil.
+contribution-misreadings-example-6-explanation = [Ba cheart dó a bheith “Táimid”]
+contribution-misreadings-example-7-title = Táimid ag dul amach chun caife a fháil.
 contribution-background-noise-title = Torann sa chúlra
 contribution-volume-title = Airde
+contribution-reader-effects-title = Maisiúcháin na Léitheoirí
+contribution-just-unsure-title = Díreach éiginnte?
+see-more = <chevron></chevron>Féach tuilleadh
+see-less = <chevron></chevron>Féach níos lú

@@ -1,3 +1,6 @@
+speak = Govori
+speak-now = Govori sada
+speak-subtitle = Doniraj svoj glas
 record-cta = Počni snimati
 record-platform-not-supported = Žao nam je, ali vaša platforma trenutačno nije podržana.
 record-platform-not-supported-desktop = Na stolnim računalima možeš doprinijeti, preuzimanjem …

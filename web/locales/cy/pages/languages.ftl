@@ -5,7 +5,7 @@ language-section-in-progress-new-description = Mae'r ieithoedd hyn ar hyn o bryd
 language-section-launched = Ar Gael
 language-section-launched-description = Ar gyfer yr ieithoedd sydd wedi'u lansio, mae'r wefan wedi'i <localizationGlossaryLink> leoleiddio'n </localizationGlossaryLink>llwyddiannus, ac mae ganddo ddigon o <sentenceCollectionGlossaryLink>frawddegau wedi'u casglu</sentenceCollectionGlossaryLink> i ganiatáu cyfraniadau <speakLink>Siarad</speakLink> a <listenLink>Gwrando</ listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
-language-section-last-updated = Diweddariad Diwethaf: { $lastUpdate }
+language-section-last-updated = Diweddariad Diwethaf: { $lastUpdatedTimeStamp }
 languages-show-more = Gweld Mwy
 languages-show-less = Gweld Llai
 language-meter-in-progress = Cynnydd

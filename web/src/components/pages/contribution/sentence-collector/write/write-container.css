@@ -9,23 +9,50 @@
         var(--desert-storm)
     );
 
-    @media (--xxl-down) {
+    @media (width <= 1400px) {
         flex-direction: column;
     }
 
-    & .sc-toggle {
-        @media (--xxl-up) {
+    & .subtitle {
+        margin: 0 auto;
+        font-size: var(--font-size-sm);
+        font-style: italic;
+        color: var(--near-black);
+
+        @media (width > 1400px) {
+            margin: 0 20%;
+        }
+
+        @media (--xs-down) {
+            font-size: var(--font-size-xs);
+            text-align: center;
+            margin-inline-start: 12px;
+            margin-inline-end: 12px;
+        }
+    }
+
+    & .instruction-and-form-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        &.centered {
+            margin: 0 auto;
+        }
+    }
+
+    & .sc-toggle-wrapper {
+        @media (width > 1400px) {
+            overflow-x: auto;
             width: 25%;
         }
 
-        & .sc-toggle-wrapper {
+        & .sc-toggle {
             width: fit-content;
-            margin: 0 auto;
-            padding-top: 64px;
+            margin: 140px auto 0px;
             display: flex;
             flex-direction: column;
 
-            @media (--xxl-down) {
+            @media (width <= 1400px) {
                 flex-direction: row;
                 width: max-content;
                 padding-top: 0;
@@ -33,6 +60,10 @@
             }
 
             & .toggle-option {
+                & .text-button {
+                    color: var(--black);
+                }
+
                 svg {
                     margin-right: 8px;
                 }
@@ -44,28 +75,29 @@
                 }
 
                 &.single {
-                    @media (--xxl-down) {
+                    @media (width <= 1400px) {
                         margin-inline-end: 10px;
                     }
                 }
 
                 &.bulk {
-                    @media (--xxl-down) {
+                    @media (width <= 1400px) {
                         margin-inline-start: 10px;
                     }
                 }
             }
 
             & .divider {
-                @media (--xxl-up) {
+                @media (width > 1400px) {
                     width: 100%;
                     display: inline-block;
                     height: 1px;
                     background-color: var(--grey);
                 }
 
-                @media (--xxl-down) {
+                @media (width <= 1400px) {
                     border: 1px solid var(--grey);
+                    margin-inline: 10px;
                 }
             }
 
@@ -74,15 +106,9 @@
                 text-align: left;
             }
 
-            & .single-option {
-                @media (--xxl-up) {
-                    margin-bottom: 12px;
-                }
-            }
-
-            & .bulk-option {
-                @media (--xxl-up) {
-                    margin-top: 12px;
+            & .toggle-option {
+                @media (width > 1400px) {
+                    margin-block: 6px;
                 }
             }
         }
@@ -138,6 +164,66 @@
         & .edit-profile-nav-link {
             font-size: var(--font-size-sm);
             color: var(--anchor-text-blue);
+        }
+    }
+
+    & .small-batch-summary,
+    .mobile-small-batch-summary {
+        p {
+            text-align: center;
+            padding: 12px;
+        }
+    }
+
+    & .small-batch-summary {
+        @media (width <= 1400px) {
+            display: none;
+        }
+    }
+
+    & .mobile-small-batch-summary {
+        @media (width > 1400px) {
+            display: none;
+        }
+    }
+
+    a {
+        text-decoration: underline;
+        color: var(--anchor-text-blue);
+    }
+
+    & .edit-icon,
+    .review-icon {
+        path {
+            fill: var(--blue);
+        }
+    }
+
+    & .instruction {
+        margin: 3vh auto 20px;
+
+        @media (width > 1400px) {
+            margin: 3vh 30% 20px;
+        }
+
+        span {
+            display: flex;
+        }
+
+        svg {
+            margin: 0 8px;
+
+            &.edit-icon {
+                @media (--xs-down) {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+
+        @media (--xs-down) {
+            font-size: var(--font-size-xs);
+            margin-bottom: 16px;
         }
     }
 }

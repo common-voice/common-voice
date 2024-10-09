@@ -1,9 +1,11 @@
 ## Dashboard
 
 your-languages = Забонҳои шумо
+stats = Омор
 awards = Мукофот
 you = Шумо
 everyone = Ҳар як кас
+recorded-clips = Овозҳои сабтшуда
 
 ## Custom Goals
 

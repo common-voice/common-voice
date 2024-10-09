@@ -16,6 +16,7 @@ contribute-more =
        *[other] { $count } 번 더 할 준비가 되셨습니까?
     }
 speak-empty-state = 이 언어로 녹음 할 문장이 부족합니다...
+no-sentences-for-variants = 언어 변형에 더 이상 사용할 문장이 없을 수 있습니다! 괜찮으시다면 설정을 변경하여 동일한 언어 내의 다른 문장을 볼 수 있습니다.
 speak-empty-state-cta = 문장 기여하기
 speak-loading-error =
     말할 수 있는 문장을 하나도 가져오지 못했습니다.
@@ -29,11 +30,20 @@ target-segment-generic-card = 대상 세그먼트에 기여하고 있습니다.
 target-segment-first-banner = { $locale }로 Common Voice의 첫 번째 대상 세그먼트 만드는 것을 도와주세요.
 target-segment-add-voice = 내 목소리 추가
 target-segment-learn-more = 더 알아보기
+change-preferences = 설정 변경
 
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = 음성 모음
 contribute-sentence-collection-nav-header = 문장 모음
+login-signup = 로그인 / 회원가입
+vote-yes = 네
+vote-no = 아니오
+datasets = 데이터세트
+languages = 언어
+about = 소개
+partner = 파트너
+submit-form-action = 제출
 
 ## Reporting
 
