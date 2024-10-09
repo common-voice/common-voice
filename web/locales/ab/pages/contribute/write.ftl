@@ -19,6 +19,27 @@ new-sentence-rule-3 = Ииашоу аграмматика ахархәара
 new-sentence-rule-4 = Ииашоу аорфографиеи апунктуациеи рхархәара
 new-sentence-rule-5 = Ахыԥхьаӡарақәеи асимвалька ҷыдақәеи рыда
 new-sentence-rule-6 = Атәым персонажқәа ыҟаӡам
+new-sentence-rule-7 = Иақәнагоу ацитата алаҵатәуп
+new-sentence-rule-8 = Идеалла иԥсабаратәу, еицәажәаратәу (аҳәоу аԥхьара мариазароуп)
+login-instruction-multiple-sentences = <loginLink>Аҭалара</loginLink> мамзаргьы <loginLink>аҽҭаҩра</loginLink> жәаҳәарақәак рыцҵаразы
+how-to-cite = Ишԥасылшо ацитатақәа?
+how-to-cite-explanation-bold = Аусумҭа URL зхьарԥш ма ахы зегьы аманы ацитата аага.
+how-to-cite-explanation = Абарҭ шәхатә ажәақәа ракәзар, иаҳәатәуп <italicizedText>"Ахатә цитатақәа"</italicizedText>. Ҳара иаҳдыруазар ауп ари аҵакы ахьышәыԥшааз, зегьы ирзеиԥшу ҳәа ҳгәы иаанагарц азы, насгьы акопиразинқәа рыԥкрақәа ирықәымшәо. Ацитатақәа рзы еиҳаны адырра азы, шәахәаԥш ҳ <guidelinesLink>Амҩақәҵарақәа рыдаҟьа</guidelinesLink>.
+guidelines = Амҩақәҵаҩцәа
+contact-us = Ҳара шәҳацәажәа
+add-sentence-success = 1 ажәалагала еизгоуп
+add-sentence-error = Адгалара ацҵараан агха ҟалеит
+required-field = Ҳаҳәоит, ари аҭыԥ ҭашәырҭәаа.
+single-sentence-submission = Адгалара заҵәык ашьҭра
+small-batch-sentence-submission = Ажәеинраалақәа ргәыԥ хәыҷы ашьҭра
+bulk-sentence-submission = Ажәалагалақәа рацәаны рышьҭра
+single-sentence = Жәҳәак
+small-batch-sentence = Апартиа хәыҷы
+bulk-sentence = Еизакны апартиа
+sentence-domain-combobox-label = Адгалара адомен
+sentence-domain-select-placeholder = Иалхтәуп х-доменк рҟынӡа
+# Sentence Domain dropdown option
+agriculture_food = Ақыҭанхамҩеи акрыфареи
 # Sentence Domain dropdown option
 automotive_transport = Автомобильтәи атранспорттәи
 # Sentence Domain dropdown option

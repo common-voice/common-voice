@@ -70,6 +70,13 @@ no-information-available = Аинформациа ыҟаӡам
 dataset-metadata-sex = Акәал
 # dataset metadata - age of contributor
 dataset-metadata-age = Ақәра
+donate-modal-message = Шәдатасет аҭагалара иаҿуп!
+dataset-donate-modal-heading = Иудыруама уи...
+donate-modal-explanation-1 = 100-тәи абызшәатә еилазаарақәа рзы адатасетқәа рыхылаԥшреи аплатформа аиӷьтәреи шықәсык ахь миллион доллар рҟынӡа ахарџь ацома?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Иаарту, зегьы зҵазкуа адыррақәа рыхә ҳаракны ишәшьозар, иахьа аҭара ҟашәҵа!</bold>
+data-download-singleword-title = Иҭагалатәуп ахықәкытә сегмент "Ажәак"
+data-download-singleword-callout-v2 = Ари асегмент ахархәаратә ҭагылазаашьақәа ирызкуп, насгьы ацәаҳәақәа реиӷьтәразы адыррақәа аҵоуп, насгьы «ааи»/«мап» аидырра.
 data-download-button = Common Voice адырра ҭагалатәуп
 data-download-yes = Ааи
 data-download-deny = Мап
@@ -83,5 +90,6 @@ data-other-goto = { $name } ииастәуп
 data-other-download = Адыррақәа ҭагалатәуп
 data-bundle-button = Адырра аизга ҭагалатәуп
 data-bundle-description = Common Voice иамоу адыррақәа ирыцу абыжьқәа реизгақәа зегьы ҵаҟа иарбоуп.
+release-version = Аверсиа
 license = Алицензиа <licenseLink>{ $license }</licenseLink>
 license-mixed = Еилаԥсоуп
