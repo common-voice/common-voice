@@ -25,3 +25,6 @@ background-noise-explanation = Аҭаҩраҿы иҟоу ажәақәа зегь
 background-noise-example-1 = Триастәи адинозавр дуқәа.
 background-noise-example-2 = [Аҭҟәацра] Адинозавр дуқәа [акәаҳара] триас.
 background-noise-example-3 = Адинозавр ду [акәаҳара] Триас.
+background-noise-example-4 = [Аиҟәԥара] гадинозавр дуқәа [аиҟәԥара] -риаса.
+background-noise-tip-1 = [аҵыхәтәантәи абжьы иаԥырҟоит]
+background-noise-tip-2 = [Атекст ахәҭак уаҳаӡом]
