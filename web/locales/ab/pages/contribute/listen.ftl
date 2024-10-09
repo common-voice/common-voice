@@ -3,3 +3,6 @@ listen-instruction = { $actionType }<playIcon></playIcon> ииаиганы иа�
 listen-again-instruction = Аус бзиоуп! <playIcon></playIcon> Уаназошоу даҽазнык уазыӡырҩы.
 listen-3rd-time-instruction = Ҩба мазеиуп <playIcon></playIcon> иацуҵа!
 listen-last-time-instruction = <playIcon></playIcon>Аҵыхәтәантәи!
+listen-abort-title = Аклипқәа рыгәаҭара алгама?
+listen-abort-cancel = Агәаҭара иацҵатәуп
+listen-abort-confirm = Агәаҭара анагӡара

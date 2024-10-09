@@ -5,6 +5,7 @@ how-does-it-work-title-v2 = Чӣ тавр «Common Voice» кор мекунад
 
 ## How does it work section
 
+about-language-req-subtitle = Касе дархост мекунад, ки забони нав илова карда шавад.
 about-localization-title = Маҳаллисозии сомона
 about-localization-subtitle = Матни сомона ба он забон тарҷума карда мешавад.
 about-sentence-collection-title = Маҷмуаи ҷумлаҳо
@@ -12,11 +13,13 @@ about-sentence-collection-subtitle = Ҷумлаҳо ҷамъ оварда меш
 about-new-lang-title = Оғози забони нав
 about-new-lang-subtitle = Мо сомонаи «Common Voice»-ро бо ин забон оғоз мекунем.
 about-voice-contrib-subtitle = Мардум омада, бо овози худ саҳми худро мегузоранд.
+about-voice-validation-title = Тасдиқи овоз
 about-voice-validation-subtitle = Одамони дигар ин сабтҳои овозиро тасдиқ мекунанд.
 about-dataset-release-title = Нашри маҷмуи маълумот
 about-dataset-release-subtitle = Мо маҷмуи маълумотро ҳар 3 моҳ нашр мекунем.
 about-subscribe-text = Мехоҳед бо «Common Voice» дар тамос бошед?
 about-speak = Ҳарф занед
+about-speak-text = Саҳмгузорон бо хондани ҷумла аз маҷмуи ҷумлаҳои ҳадяшуда, овозро сабт мекунанд.
 about-listen = Гӯш кунед
 about-is-it-valid = Оё сабт дуруст аст?
 about-yes-votes = ≥ 2 овози «Ҳа»

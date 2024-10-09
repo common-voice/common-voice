@@ -7,7 +7,7 @@ sc-review-select-language = Bhas select kor vakio-cher niyall korpak.
 sc-review-no-sentences = Niyall korpak anik vakio asona. <addLink>Anik vakio tumi ata ghalat!</addLink>
 sc-review-form-prompt =
     .message = Reviewed sentences not submitted, are sure?
-sc-review-form-usage = Vakyô mon'zur korpak davo vatten "swipe" kôr. Bhair marpak uzvea vatten "swipe" kôr. Soddpak voir swipe kôr. <strong>Submit korpak visru naka!</strong>
+sc-review-form-usage = Vakyo mon'zur korpak davo vatten "swipe" kor. Bhair marpak uzvea vatten "swipe" kor. Soddpak voir swipe kor. <strong>Submit korpak visru naka!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Source: { $sentenceSource }

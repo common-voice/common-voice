@@ -1,6 +1,10 @@
+speak = Ацәажәара
+speak-now = Уажәы уцәажәа
+speak-subtitle = Шәыбжьы ҭажәгал
 record-cta = Абжьы ҭаҩра иалагоит
 record-platform-not-supported = Ҳгәы иалоуп уажәазы уара уплатформа ацхыраара ахьамам.
 record-platform-not-supported-desktop = Астол иқәдыргыло акомпиутерқәа ирҭаугалар улшоит аҵыхәтәантәи:
+record-platform-not-supported-ios-non-safari = IOS аҿы аҭаҩра аус аруразы, шәхы иашәырхәа Safari...
 record-must-allow-microphone = Уара азин ҟауҵароуп амикрафон ахархәара.
 record-no-mic-found = Амикрофон ԥшаам
 record-error-too-short = Абжьы ҭаҩра кьаҿуп
@@ -35,3 +39,8 @@ review-delete-recordings = Сынҵамҭақәа ықәгатәуп
 review-terms = Common Voice ухы ианаурхәа, уи иаанагоит ҳара <termsLink>ахархәашьа</termsLink> егьы <privacyLink>Ир­ма­ӡоу Ардырра</privacyLink> урықәшаҳаҭуп ҳәа.
 terms-agree = Сақәшаҳаҭуп
 terms-disagree = Сақәшаҳаҭӡам
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Иҭабуп шәыбжьытә клипқәа рзы!
+first-cta-subtitle-text = Уцәажәашьа иазку аинформациа ҳзеиҭауҳәар улшома?
+why-donate = Узҵаауазеи?
+why-donate-explanation-1 = Ари аинформациа аҭара аҭахӡам - уара иуҭахызар ауп иацуҵар улшоит. Адыррақәа реизга анҭаҳҵо, ҳара ҳхатә дыррақәа зегьы ԥсевдонимла ҳхы иаҳархәоит, насгьы ухьӡи уе-маил адреси реиԥш иҟоу адыррақәа ақәра ма ахаҵара-аԥҳәысра реиԥш иҟоу демографиатә дыррақәа ирыдҳәаламзарц ҳгәаҭоит.
