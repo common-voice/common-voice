@@ -68,3 +68,15 @@ add-small-batch-success =
         [one] { $uploadedSentences } еизгоу жәаҳәарак аҟынтә
        *[other] { $uploadedSentences } of { $totalSentences } Еизгоу аҳәоуқәа
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } 1 жәаҳәарак еизгоуп. Иақәыӷәӷәа <downloadLink>абантәи</downloadLink> мап зцәыркыз аҳәоуқәа рыхәаахәҭразы.
+       *[other] { $uploadedSentences } { $totalSentences } еизгоу ажәаҳәақәа рҟынтә. Иақәыӷәӷәа <downloadLink>абра</downloadLink> мап зцәыркыз аҳәоуқәа рыхәаахәҭразы.
+    }
+small-batch-sentences-rule-1 = Аҟынтәи амҩақәҵарақәа шәрықәныҟәа “Иарбан жәаҳәоу иацысҵар сылшо?”
+small-batch-sentences-rule-2 = Цәаҳәаҿы жәаҳәак ацҵатәуп
+small-batch-sentences-rule-3 = Ажәаҳәақәа цәаҳәак ала еиҟәыҭхатәуп знык “Enter” ма “Return” ақәыӷәӷәарала
+small-batch-sentences-rule-4 = 1000 жәаҳәара рҟынӡа иацҵатәуп
+small-batch-sentences-rule-5 = Ажәаҳәақәа зегьы доменк рымазароуп
+small-batch-sentences-rule-6 = Ажәаҳәақәа зегьы цитатак рымазароуп
