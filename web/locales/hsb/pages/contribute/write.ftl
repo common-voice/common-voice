@@ -31,8 +31,11 @@ add-sentence-success = 1 sada zběrana
 add-sentence-error = Zmylk při přidawanju sady
 required-field = Prošu wupjelńće tute polo.
 single-sentence-submission = Jednotliwu sadu zapodać
+small-batch-sentence-submission = Zapodaće małeho mnóstwa sadow
 bulk-sentence-submission = Wjacore sady zapodać
 single-sentence = Jedna sada
+small-batch-sentence = Małe mnóstwo
+bulk-sentence = Wulke mnóstwo
 sentence-domain-combobox-label = Tema sady
 sentence-domain-select-placeholder = Wubjerće hač do třoch temow (na přeće)
 # Sentence Domain dropdown option
