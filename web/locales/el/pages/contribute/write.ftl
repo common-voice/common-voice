@@ -108,7 +108,15 @@ add-small-batch-success =
         [one] Έγινε συλλογή { $uploadedSentences } από 1 πρόταση
        *[other] Έγινε συλλογή { $uploadedSentences } από { $totalSentences } προτάσεις
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] Έγινε συλλογή { $uploadedSentences } από 1 πρόταση. Κάντε κλικ <downloadLink>εδώ</downloadLink> για λήψη των απορριφθεισών προτάσεων.
+       *[other] Έγινε συλλογή { $uploadedSentences } από { $totalSentences } προτάσεις. Κάντε κλικ <downloadLink>εδώ</downloadLink> για λήψη των απορριφθεισών προτάσεων.
+    }
+small-batch-sentences-rule-1 = Ακολουθήστε τις οδηγίες της ενότητας «Τι προτάσεις μπορώ να προσθέσω;»
 small-batch-sentences-rule-2 = Προσθέστε μία πρόταση ανά γραμμή
+small-batch-sentences-rule-3 = Χωρίστε τις προτάσεις σε μία γραμμή πατώντας «Enter» ή «Return» μία φορά
 small-batch-sentences-rule-4 = Προσθέστε έως και 1.000 προτάσεις
 small-batch-sentences-rule-5 = Όλες οι προτάσεις πρέπει να έχουν τον ίδιο τομέα
 small-batch-sentences-rule-6 = Όλες οι προτάσεις πρέπει να έχουν την ίδια παραπομπή
