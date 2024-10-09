@@ -1,5 +1,24 @@
 ## WRITE PAGE
 
+write = Ианҵатәуп
+write-instruction = Иацҵатәуп <icon></icon> зегьы ирзеиԥшу аҳәара
+write-page-subtitle = Абра иаагоу ажәеинраалақәа cc-0 алицензиа аҵаҟа зегьы ирзеиԥшу адатасет иацҵахоит.
+sentence =
+    .label = Адгалара
+sentence-input-placeholder = Иҭажәгал шәзеиԥш доментә жәаҳәара абра
+small-batch-sentence-input-placeholder = Иҭажәгал шәзеиԥш доментә жәаҳәара абра
+citation-input-placeholder = Упропозициа ахыҵхырҭа ахьӡ ҳәа (иаҭахуп)
+citation =
+    .label = Ацитата
+sc-write-submit-confirm = Сара ишьақәсырӷәӷәоит ари аҳамҭа <wikipediaLink>зеиԥш домен</wikipediaLink> шакәу, насгьы уи ашьҭыхразы азин сымоуп.
+sc-review-write-title = Иарбан лабжьарақәоу иацҵатәу?
+sc-review-small-batch-title = Ирацәаны аҳәоуқәа шрыцҵатәу
+new-sentence-rule-1 = <noCopyright>Акопиразин ԥкрақәа ыҟам</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Ажәақәа 15 еиҵаны
+new-sentence-rule-3 = Ииашоу аграмматика ахархәара
+new-sentence-rule-4 = Ииашоу аорфографиеи апунктуациеи рхархәара
+new-sentence-rule-5 = Ахыԥхьаӡарақәеи асимвалька ҷыдақәеи рыда
+new-sentence-rule-6 = Атәым персонажқәа ыҟаӡам
 # Sentence Domain dropdown option
 automotive_transport = Автомобильтәи атранспорттәи
 # Sentence Domain dropdown option
