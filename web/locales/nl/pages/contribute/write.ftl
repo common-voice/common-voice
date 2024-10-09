@@ -33,8 +33,11 @@ add-sentence-success = 1 zin verzameld
 add-sentence-error = Fout bij toevoegen van zin
 required-field = Vul dit veld in.
 single-sentence-submission = Indienen van één zin
+small-batch-sentence-submission = Indienen van zinnen in een kleine batch
 bulk-sentence-submission = Bulkindiening van zinnen
 single-sentence = Losse zin
+small-batch-sentence = Kleine batch
+bulk-sentence = Bulkbatch
 sentence-domain-combobox-label = Zinsdomein
 sentence-domain-select-placeholder = Selecteer maximaal drie domeinen
 # Sentence Domain dropdown option
@@ -98,3 +101,26 @@ too-many-files = Te veel bestanden
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Meerdere zinnen uit het publieke domein toevoegen
+multiple-sentences-error = U kunt niet meerdere zinnen toevoegen voor een enkele inzending
+# <errorIcon></erroricon> will be replace with an icon that represents an error
+exceeds-small-batch-limit-error = Kan niet meer dan 1000 zinnen indienen
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } van 1 zin verzameld
+       *[other] { $uploadedSentences } van { $totalSentences } zinnen verzameld
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } van 1 zin verzameld. Klik <downloadLink>hier</downloadLink> om afgewezen zinnen te downloaden.
+       *[other] { $uploadedSentences } van { $totalSentences } zinnen verzameld. Klik <downloadLink>hier</downloadLink> om afgewezen zinnen te downloaden.
+    }
+small-batch-sentences-rule-1 = Volg de richtlijnen uit ‘Welke zinnen kan ik toevoegen?’
+small-batch-sentences-rule-2 = Eén zin per regel toevoegen
+small-batch-sentences-rule-3 = Scheid zinnen in losse regels door eenmaal op ‘Enter’ of ‘Return’ te drukken
+small-batch-sentences-rule-4 = Voeg tot duizend zinnen toe
+small-batch-sentences-rule-5 = Alle zinnen moeten hetzelfde domein hebben
+small-batch-sentences-rule-6 = Alle zinnen moeten dezelfde bronvermelding hebben
