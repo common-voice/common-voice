@@ -290,5 +290,8 @@ not-available-abbreviation = Анеишьа Амам
 donate-banner-cta = Ҳара ҳзы</mark><br/><mark>шәыцхыраара ҳҭахуп!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = 100-тәи абызшәатә еилазаарақәа рзы адатасетқәа рыҭара, насгьы рплатформа аиӷьтәра азы шықәсык ахь миллион доллар аҭахуп. <strong>Иаарту, зегьы зҵазкуа адыррақәа рыхә ҳаракны ишәшьозар, иахьа аҭара ҟашәҵа!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Уҭҵааразы CV</mark><br/><mark>ухы иаурхәома?</mark>
+languages-donate-banner-cta-explanation = Common Voice аԥаратә цхыраарақәеи агрантқәеи рыла имҩаԥысуеит! Ҳара академиакцәеи, ауаажәларратә еилазаареи, аиндустриа аҭҵааҩцәеи рыцхыраара ҳгәаԥхоит. Common Voice ахархәара хәыда-ԥсадоуп, аха аплатформеи ахостинги рзы аҭара аҭара даара ахәарҭа аанагар алшоит.
 localization-select =
     .label = Иалшәх абызшәа/аҭыԥ

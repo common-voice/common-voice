@@ -4,6 +4,11 @@ contribute = Аҽалархәара
 review = Агәаҭара
 skip = Абжьажьра
 shortcuts = Арыд ласқәа
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> аҭаҩра
+       *[other] <bold>{ $count }</bold> аҭаҩрақәа
+    }
 goal-help-recording = Ҳара есымшатәи ҳанҵамҭақәа аҩаӡара { $goalValue }! Common Voice ахықәкы аҟынӡа ашьҭыхраҿы, уара <goalPercentage></goalPercentage> ацхыраара ҳауҭеит.
 goal-help-validation = Ҳара есымшатәи ҳхықәкы { $goalValue } <goalPercentage></goalPercentage> аҩаӡара Common Voice аҟынӡа агәаҭараҿы уара ацхыраара ҳауҭеит.
 contribute-more =
@@ -23,9 +28,23 @@ keep-track-profile = Уҷыдахәра уцырхрааны упрогресс 
 login-to-get-started = Уҭала мамзаргьы уҽҭагала алагаразы
 target-segment-first-card = Уара ҳхықәкыратә сегмент актәи уалахәуп
 target-segment-generic-card = Уара ахықәкытә сегмент уалахәуп
+target-segment-first-banner = Ацхыраара аԥҵараҿы раԥхьатәи Азеиԥш Бжьы ахықәкытә сегмент { $locale } аҟны
+target-segment-add-voice = Убжьы ацҵа
+target-segment-learn-more = Еиҳаны
+change-preferences = Аиқәыршәарақәа ԥсахтәуп
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Абжьқәа реизга
+contribute-sentence-collection-nav-header = Ажәеидҳәалақәа реизга
+login-signup = Аҭалара / Аҽҭаҩра
+vote-yes = Ааи
+vote-no = Мап
+datasets = Адыррақәа реизга
+languages = Абызшәақәа
+about = Иҳазкны
+partner = Апартнерра
+submit-form-action = Ашьҭра
 
 ## Reporting
 
@@ -61,6 +80,10 @@ shortcut-record-toggle = ҵ
 shortcut-record-toggle-label = Ианҵатәуп/Иаанкылатәуп
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Анҵамҭақәа еиҭа-ианҵатәуп
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Уажәтәи анҵамҭа аԥыхтәуп
+shortcut-submit = Return
+shortcut-submit-label = Анҵамҭақәа шьҭтәуп
 request-language-text = Common Voice аҟны уара убызшәа макьана иумбаӡои?
 request-language-button = Абызшәа уазҵаа
 
@@ -79,4 +102,10 @@ shortcut-vote-no = м
 
 ## Validation criteria
 
+contribution-criteria-nav = Акритериа
 contribution-criteria-link = Аԥҟара аилкаара
+contribution-criteria-page-title = Аҽалархәра акритериақәа
+contribution-criteria-page-description = Аҭаҩрақәа шәанрызӡырҩуа ишәзыԥшызар акәу еилышәкаала, насгьы шәҭаҩрақәа еиҳа ибеианы иҟашәҵа!
+contribution-for-example = ҿырԥштәыс иаагоуп
+contribution-misreadings-title = Ииашамкәа аԥхьара
+contribution-misreadings-description = Уанӡырҩуа, ибзианы игәаҭала иану ииашаҵәҟьаны ианума; агха хәыҷқәагьы мап рыцәктәуп. <br /> Даара ирацәаны иуԥыло агхақәа:
