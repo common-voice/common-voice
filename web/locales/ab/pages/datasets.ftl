@@ -1,5 +1,6 @@
 ## Datasets Page
 
+datasets-heading = Адыррақәа реизга
 datasets-headline = Ҳара иаԥаҳҵоит иаарту, зхыԥхьаӡара рацәоу абыжьқәа реизгақәа, дарбанызаалак абызшәа зҵарц зҭаху ихы иаирхәарц.
 datasets-positioning =
     Инарҭбааны зегьы рхы иадырхәаша абжьытә дыррақәа реизагақәа иалдыршоит амашьынақәа рыла абызшәа аҵара иацхраауа аусқәа рыҟны, аҿыц ԥшьгамҭақәа рцәырцреи, изҩыдоу акоммерциатә еиндаҭлареи абжьытә технологиакәа раԥҵараан рхархәара.
@@ -8,20 +9,26 @@ datasets-positioning =
     
     Ари адаҟьаҿы уара иуԥшаар улшоит егьырҭ иаарту абжьытә дыррақәа реизгақәа реиԥш, Common Voice ирҿыцу аҭыжьымҭақәагьы, уи аҿиара анаиулак ашьҭахь.
 language = Абызшәа
+download-dataset-header = Адыррақәа реизга ҿыхтәуп
+download-delta-explainer = Ҳара ԥсахрақәак ҟаҳҵеит. Адельта асегментқәа рҿы иҟоуп аҵыхәтәантәи аҭыжьымҭа инаркны иҿыцу аклипқәа. <deltaLink>Ари аусумҭа иазкны еиҳаны</deltaLink>.
+download-dataset-tag = Иалшәх ишәҭаху абзтә дырраҭарақәа ргәыԥ, насгьы иалышәх ихәыжәгарц ишәҭаху аверсиа.
 # File size in gigabytes
 size = Ашәагаа
 validated-hr-total = Зынӡа шаҟа сааҭ гәаҭоу
 overall-hr-total = Зегьы шаҟа сааҭ ыҟоу
 cv-license = Алицензиа
 audio-format = Абжьынҵамҭа Аформат
+dataset-splits = Аиҟәыҭхара (ақәреи ахаҵаратә ԥҳәысреи)
 number-of-voices = Абыжьқәа рхыԥхьаӡара
 splits = Реихшашьа
 email-to-download = Уҭагал уԥошьҭа аҭагаларазы
 why-email = <b>Изаҭахузеи аԥошьҭа?</b> ҳаԥхьаҟа уара ҳаҽумаадар ҟалоит адыррақәа реизга аԥсахрақәа ралагаларазы. Убри азы алшара ҳнаҭоит аԥошьҭа.
+why-donate-datasets-page = Mozilla Common Voice адунеи аҿы зегь реиҳа еиуеиԥшым, иаарту, ауаа рацәа рыла еизгоу абжьытә дыррақәа реизга ауп, ҳара зегь рыла ацхыраара ҳақәгәыӷуеит. 100-тәи абызшәатә еилазаарақәа рзы адатасетқәа рыҭара, насгьы рплатформа аиӷьтәра азы шықәсык ахь миллион доллар аҭахуп. Иаарту, инклузивтәу адыррақәа рыхә ҳаракны ишәшьозар - <b>иахьа аҭара ҟашәҵа!</b>
 confirm-size = Уара алагаламҭа ҟауҵарц уҭахума <b>{ $size }</b>
 size-gigabyte = ГБ
 size-megabyte = МБ
 confirm-no-identify = <b>Уара уақәшаҳаҭума</b> Common Voice адыррақәа реизгақәа ирылахәу адикторцәа рхаҭара аилкаара ашьҭамлара?
+confirm-join-mailing-list = Сара схы аласырхәыр сҭахуп Common Voice апоштатә рсиа
 download-language = Иҭагалатәуп { $language }
 validated-hours = Асааҭкәа гәаҭан
 recorded-hours = Асааҭкәа абжьы ахарҵеит
@@ -35,6 +42,13 @@ subscribe = Анапаҵаҩра
 get-started-speech = Ажәаҳәа аилкааразы аусура алагара
 other-datasets = Егьырҭ Абжьытә Дыррақәа Реизгақәа.
 feedback-q = Угәаанагара аныуҵа?
+# This indicates that there is no data to display
+no-information = Аинформациа ыҟам
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ари <docsLink>иаарту ахыҵхырҭа аинструментқәа ргәыԥ</docsLink> ауп, иԥхьагылоу аицәажәаратә АИ амоделқәа зҿио аҵарауаа рзы.
+resource-deepspeech-info = Мозилла иаарту ахыҵхырҭа Deep Speech ажәа аидырратә еиқәыршәага шәхатә апликациақәа раԥҵаразы шәхы иашәырхәар шәылшоит. Уаԥхьа ҳ <githubLink>хҳәаа GitHub</githubLink> аҿы ма уалахәыз <discourseLink>Ажәа ҵаула аҟәша Адискурс</discourseLink> афорум аҟны, ишалагатәу еилукаарц азы.
+resource-coqui-info = <coquiLink>Коки</coquiLink> иаарту ацәажәаратә технологиа иазкуп. Урҭ рыпроектқәа ирылагылоуп иҵаулоу аҵара шьаҭас измоу СТТ, ТТС рмоторқәа.
+community-playbook = Ауаажәларратә рҵага
+resource-playbook-info = <playbooklink>Иԥшаатәуп ахәарҭа злоу амҩақәҵара</playbookLink> Common Voice аҟазшьақәа зегьы рзы, алокализациа инаркны адатасет ахархәара аҟынӡа, насгьы ҳуаажәларра ҳшрыдҳәалатәу.
 data-other-librispeech-description = LibriSpeech шьақәгылоуп инықәырԥшны 1000 сааҭи 16Кгц иҟоу англыз бызшәала иҭаҩу аудионҵамҭақәа реизгақәеи, LibriVox апроект аҟнытәи иаагоу аудиошәыҟәқәеи рыла.
 data-other-ted-name = TED-LIUM аизганҵа
 data-other-ted-description = TED-LIUM аизга аԥҵан TED асаит аҟны ахархәара змоу аудио еиҿцәажәарақәеи урҭ рытранскрипциақәеи рыла.
@@ -49,6 +63,13 @@ more = Иҵегь
 close = Иарктәуп
 download = Иҭагалатәуп
 dataset-version = Аверсиа
+sha256-checksum-copied = SHA256 агәаҭаратә еизга ақәҭыхуп!
+sha256-checksum-copied-error = SHA256 агәаҭаратә еизга акопиа аҟаҵара ауам.
+clipboard-not-supported = Аҭаӡҩыра аднакылом
+no-information-available = Аинформациа ыҟаӡам
+dataset-metadata-sex = Акәал
+# dataset metadata - age of contributor
+dataset-metadata-age = Ақәра
 data-download-button = Common Voice адырра ҭагалатәуп
 data-download-yes = Ааи
 data-download-deny = Мап
