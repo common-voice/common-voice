@@ -31,8 +31,11 @@ add-sentence-success = 1 sada zezběrana
 add-sentence-error = Zmólka pśi pśidawanju sady
 required-field = Pšosym wupołniśo toś to pólo.
 single-sentence-submission = Jadnotliwu sadu zapódaś
+small-batch-sentence-submission = Zapódaśe małeje tšochy sadow
 bulk-sentence-submission = Někotare sady zapódaś
 single-sentence = Jadna sada
+small-batch-sentence = Mała tšocha
+bulk-sentence = Wjelika tšocha
 sentence-domain-combobox-label = Tema sady
 sentence-domain-select-placeholder = Wubjeŕśo až do tśich temow (na žycenje)
 # Sentence Domain dropdown option
@@ -93,3 +96,30 @@ too-many-files = Pśewjele datajow
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Pśidajśo někotare zjawnje wužywabne sady
+multiple-sentences-error = Njamóžośo někotare sady za jadnotliwe zapódaśe pśidaś
+# <errorIcon></erroricon> will be replace with an icon that represents an error
+exceeds-small-batch-limit-error = Njamóžośo wěcej až 1.000 sadow pśidaś
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } z { $totalSentences } sady zgromaźona
+        [two] { $uploadedSentences } z { $totalSentences } sadowu zgromaźonej
+        [few] { $uploadedSentences } z { $totalSentences } sadow zgromaźone
+       *[other] { $uploadedSentences } z { $totalSentences } sadow zgromaźone
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } z { $totalSentences } sadow zgromaźona. Klikniśo <downloadLink>how</downloadLink>, aby wótpokazane sady ześěgnuł.
+        [two] { $uploadedSentences } z { $totalSentences } sadowu zgromaźonej. Klikniśo <downloadLink>how</downloadLink>, aby wótpokazane sady ześěgnuł.
+        [few] { $uploadedSentences } z { $totalSentences } sadow zgromaźone. Klikniśo <downloadLink>how</downloadLink>, aby wótpokazane sady ześěgnuł.
+       *[other] { $uploadedSentences } z { $totalSentences } sadow zgromaźone. Klikniśo <downloadLink>how</downloadLink>, aby wótpokazane sady ześěgnuł.
+    }
+small-batch-sentences-rule-1 = Slědujśo směrnicam z „Kótare sady mógu pśidaś?“
+small-batch-sentences-rule-2 = Pśidajśo jadnu sadu na smužku
+small-batch-sentences-rule-3 = Tłocćo jaden raz „Enter“, aby sady na jadnej smužce wótźělił
+small-batch-sentences-rule-4 = Pśidajśo až do 1.000 sadow
+small-batch-sentences-rule-5 = Wšykne sady muse samsku domenu měś
+small-batch-sentences-rule-6 = Wšykne sady muse samske žrědło měś
