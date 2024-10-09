@@ -5,12 +5,14 @@ write-instruction = <icon></icon> Προσθήκη πρότασης δημόσι
 write-page-subtitle = Οι προτάσεις που υποβάλλονται εδώ θα προστεθούν σε ένα δημόσια διαθέσιμο σύνολο δεδομένων με άδεια cc-0.
 sentence =
     .label = Πρόταση
-sentence-input-value = Εισαγάγετε την πρόταση δημόσιου τομέα σας εδώ
+sentence-input-placeholder = Εισαγάγετε την πρόταση δημόσιου τομέα σας εδώ
+small-batch-sentence-input-placeholder = Εισαγάγετε τις προτάσεις δημόσιου τομέα σας εδώ
 citation-input-placeholder = Αναφορά της πηγής της πρότασής σας (απαιτείται)
 citation =
-    .label = Παράθεση
+    .label = Παραπομπή
 sc-write-submit-confirm = Επιβεβαιώνω ότι αυτή η πρόταση ανήκει στον <wikipediaLink>δημόσιο τομέα</wikipediaLink> και έχω την άδεια να τη μεταφορτώσω.
 sc-review-write-title = Τι προτάσεις μπορώ να προσθέσω;
+sc-review-small-batch-title = Τρόπος προσθήκης πολλαπλών προτάσεων
 new-sentence-rule-1 = Χωρίς περιορισμούς <noCopyright>πνευματικών δικαιωμάτων</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Λιγότερες από 15 λέξεις
 new-sentence-rule-3 = Σωστής γραμματική
@@ -19,6 +21,7 @@ new-sentence-rule-5 = Χωρίς αριθμούς/ειδικούς χαρακτ�
 new-sentence-rule-6 = Χωρίς ξένα γράμματα
 new-sentence-rule-7 = Κατάλληλη παραπομπή
 new-sentence-rule-8 = Ιδανικά φυσικές και διαλογικές προτάσεις, εύκολες στην ανάγνωση
+login-instruction-multiple-sentences = <loginLink>Συνδεθείτε</loginLink> ή <loginLink>εγγραφείτε</loginLink> για να προσθέσετε πολλαπλές προτάσεις
 how-to-cite = Πώς κάνω παραπομπή;
 how-to-cite-explanation-bold = Κάντε παραπομπή με έναν σύνδεσμο URL ή το πλήρες όνομα του έργου.
 how-to-cite-explanation = Εάν είναι δικά σας λόγια, δηλώστε απλώς <italicizedText>«Αυτοαναφορά»</italicizedText>. Πρέπει να γνωρίζουμε πού βρήκατε το περιεχόμενο, ώστε να μπορούμε να ελέγξουμε ότι ανήκει στον δημόσιο τομέα και ΄ότι δεν ισχύουν περιορισμοί πνευματικών δικαιωμάτων. Για περισσότερες πληροφορίες σχετικά με τις παραπομπές, ανατρέξτε στη <guidelinesLink>σελίδα κανόνων</guidelinesLink>.
@@ -28,9 +31,11 @@ add-sentence-success = Συλλέχθηκε 1 πρόταση
 add-sentence-error = Σφάλμα προσθήκης πρότασης
 required-field = Παρακαλώ συμπληρώστε αυτό το πεδίο.
 single-sentence-submission = Υποβολή μεμονωμένης πρότασης
+small-batch-sentence-submission = Υποβολή μικρής δέσμης προτάσεων
 bulk-sentence-submission = Υποβολή πολλαπλών προτάσεων
 single-sentence = Μεμονωμένη πρόταση
-bulk-sentences = Πολλαπλές προτάσεις
+small-batch-sentence = Μικρή δέσμη
+bulk-sentence = Μεγάλη δέσμη
 sentence-domain-combobox-label = Τομέας πρότασης
 sentence-domain-select-placeholder = Επιλέξτε έως και τρεις τομείς
 # Sentence Domain dropdown option
@@ -89,3 +94,21 @@ file-invalid-type = Μη έγκυρο αρχείο
 file-too-large = Το αρχείο είναι πολύ μεγάλο
 file-too-small = Το αρχείο είναι πολύ μικρό
 too-many-files = Πάρα πολλά αρχεία
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Προσθήκη πολλαπλών προτάσεων δημόσιου τομέα
+multiple-sentences-error = Δεν μπορείτε να προσθέσετε πολλαπλές προτάσεις για μία υποβολή
+# <errorIcon></erroricon> will be replace with an icon that represents an error
+exceeds-small-batch-limit-error = Δεν είναι δυνατή η υποβολή περισσότερων από 1.000 προτάσεων
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] Έγινε συλλογή { $uploadedSentences } από 1 πρόταση
+       *[other] Έγινε συλλογή { $uploadedSentences } από { $totalSentences } προτάσεις
+    }
+small-batch-sentences-rule-2 = Προσθέστε μία πρόταση ανά γραμμή
+small-batch-sentences-rule-4 = Προσθέστε έως και 1.000 προτάσεις
+small-batch-sentences-rule-5 = Όλες οι προτάσεις πρέπει να έχουν τον ίδιο τομέα
+small-batch-sentences-rule-6 = Όλες οι προτάσεις πρέπει να έχουν την ίδια παραπομπή
