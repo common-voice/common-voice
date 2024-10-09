@@ -5,3 +5,6 @@ browse-file = Ииага ма <browseWrap>афаил алх</browseWrap>
 connect-gravatar = Иацҵа Граватар
 gravatar_not_found = Ари аелектронтә ԥошьҭа аҭыӡҭа Граватвр аҟны иҭагалаӡом
 file_too_large = Иалху афаил амҽхак мыцхәы идууп
+avatar-uploaded = Аватар шьҭыхуп
+max-file-size = { $kb } КБ иреиҳау
+remove-avatar = Ианыхтәуп аватар
