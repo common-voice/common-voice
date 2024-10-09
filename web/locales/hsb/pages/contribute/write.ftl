@@ -5,12 +5,14 @@ write-instruction = Přidajće <icon></icon> zjawnje wužiwajomnu sadu
 write-page-subtitle = Sady, kotrež so tu přinošuja, so zjawnje přistupnej datowej sadźbje z licencu cc-0 přidawaja.
 sentence =
     .label = Sada
-sentence-input-value = Zapodajće tu swoju zjawnje wužywajomnu sadu
+sentence-input-placeholder = Zapodajće tu swoju zjawnje wužiwajomnu sadu
+small-batch-sentence-input-placeholder = Zapodajće tu swoje zjawnje wužiwajomne sady
 citation-input-placeholder = Mjenujće žórło swojeje sady (trěbne)
 citation =
     .label = Citat
 sc-write-submit-confirm = Wobkrućam, zo tuta sada je <wikipediaLink>zjawnje přistupne</wikipediaLink> a mam prawo ju nahrać.
 sc-review-write-title = Kotre sady móžu přidać?
+sc-review-small-batch-title = Kak móžeće wjacore sady přidać
 new-sentence-rule-1 = <noCopyright>Žane wobmjezowanja awtorstwa (<cc0>cc--0</cc0>)
 new-sentence-rule-2 = Mjenje hač 15 słowow
 new-sentence-rule-3 = Korektnu gramatiku wužiwać
@@ -19,6 +21,7 @@ new-sentence-rule-5 = Žane ličby a wosebite znamješka
 new-sentence-rule-6 = Žane cuze pismiki
 new-sentence-rule-7 = Podaće žórła zapřijeć
 new-sentence-rule-8 = W idealnym padźe přirodna a ze wšědneje rěče (sada měła lochko čitajomna być)
+login-instruction-multiple-sentences = <loginLink>Přizjewće so</loginLink> abo <loginLink>registrujće so</loginLink>, zo byšće wjacore sady přidał
 how-to-cite = Kak cituju?
 how-to-cite-explanation-bold = Citujće z URL-wotkazom abo połnym mjenom dźěła.
 how-to-cite-explanation = Jeli su swójske słowa, podajće prosće <italicizedText>„samocitat“</italicizedText>. Dyrbimy wědźeć, hdźež sće tutón wobsah namakał, zo bychmy móhli přepruwować, hač je zjawnje wužiwajomny a wobmjezowanja awtorskeho prawa njepłaća. Za dalše informacije wo citowanju hlejće naše <guidelinesLink>Směrnicy</guidelinesLink>.
@@ -30,7 +33,6 @@ required-field = Prošu wupjelńće tute polo.
 single-sentence-submission = Jednotliwu sadu zapodać
 bulk-sentence-submission = Wjacore sady zapodać
 single-sentence = Jedna sada
-bulk-sentences = Wjele sadow
 sentence-domain-combobox-label = Tema sady
 sentence-domain-select-placeholder = Wubjerće hač do třoch temow (na přeće)
 # Sentence Domain dropdown option
@@ -88,3 +90,23 @@ file-invalid-type = Njepłaćiwa dataja
 file-too-large = Dataja je přewulka
 file-too-small = Dataja je přemała
 too-many-files = Přewjele datajow
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Přidajće wjacore zjawnje wužiwajomne sady
+multiple-sentences-error = Njemóžeće wjacore sady za jednotliwe zapodaće přidać
+# <errorIcon></erroricon> will be replace with an icon that represents an error
+exceeds-small-batch-limit-error = Njemóžeće wjace hač 1.000 sadow přidać
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } z { $totalSentences } sady zhromadźena
+        [two] { $uploadedSentences } z { $totalSentences } sadow zhromadźenej
+        [few] { $uploadedSentences } z { $totalSentences } sadow zhromadźene
+       *[other] { $uploadedSentences } z { $totalSentences } sadow zhromadźene
+    }
+small-batch-sentences-rule-2 = Přidajće jednu sadu na linku
+small-batch-sentences-rule-4 = Přidajće hač do 1.000 sadow
+small-batch-sentences-rule-5 = Wšě sady dyrbja samsnu domenu měć
+small-batch-sentences-rule-6 = Wšě sady dyrbja samsne žórło měć
