@@ -47,3 +47,4 @@ adding-sentences-subheader-abbreviations = 축약어와 두문자어
 adding-sentences-subheader-punctuation = 구두점
 adding-sentences-subheader-special-characters = 특수 문자 및 외국 문자
 adding-sentences-subheader-offensive-content = 공격적인 콘텐츠
+adding-sentences-subheader-offensive-content-explanation = 유해 콘텐츠이거나 <communityGuidelines>커뮤니티 참여 지침</communityGuidelines>을 위반하는 등 불쾌감을 주거나 기분을 상하게 하는 문장이라면 이를 거부해야 합니다. <emailFragment>commonvoice@mozilla.com</emailFragment>으로 연락하여 이슈를 보고할 수도 있습니다.
