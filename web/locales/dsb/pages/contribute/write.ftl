@@ -5,12 +5,14 @@ write-instruction = Pśidajśo <icon></icon> zjawnje wužywabnu sadu
 write-page-subtitle = Sady, kótarež se how pśinosuju, se zjawnje pśistupnej datowej sajźbje z licencu cc-0 pśidawaju.
 sentence =
     .label = Sada
-sentence-input-value = Zapódajśo how swóju zjawnje wužywabnu sadu
+sentence-input-placeholder = Zapódajśo how swóju zjawnje wužywabnu sadu
+small-batch-sentence-input-placeholder = Zapódajśo how swóje zjawnje wužywabne sady
 citation-input-placeholder = Pomjeńśo žrědło swójeje sady (trjebne)
 citation =
     .label = Citat
 sc-write-submit-confirm = Wobkšuśijom, až toś ta sada jo <wikipediaLink>zjawnje pśistupne</wikipediaLink> a mam pšawo ju nagraś.
 sc-review-write-title = Kótare sady mógu pśidaś?
+sc-review-small-batch-title = Kak móžośo někotare sady pśidaś
 new-sentence-rule-1 = <noCopyright>Žedne wobgranicowanja awtorstwa (<cc0>cc--0</cc0>)
 new-sentence-rule-2 = Mjenjej ako 15 słowow
 new-sentence-rule-3 = Korektnu gramatiku wužywaś
@@ -19,6 +21,7 @@ new-sentence-rule-5 = Žedne licby a wósebne znamuška
 new-sentence-rule-6 = Žedne cuze pismiki
 new-sentence-rule-7 = Wótpowědne pódaśe žrědła zapśimjeś
 new-sentence-rule-8 = W idealnem paźe pśirodna a ze wšedneje rěcy (sada měła lažko cytajobna byś)
+login-instruction-multiple-sentences = <loginLink>Pśizjawśo se</loginLink> abo <loginLink>registrěrujśo se</loginLink>, aby někotare sady pśidał
 how-to-cite = Kak citěrujom?
 how-to-cite-explanation-bold = Citěrujśo z URL-wótkazom abo połnym mjenim źěła.
 how-to-cite-explanation = Jolic su swójske słowa, pódajśo jadnorje <italicizedText>„samocitat“</italicizedText>. Musymy wěźeś, źož sćo namakał toś to wopśimjeśe, aby my mógli pśekontrolěrowaś, kěc jo zjawnje wužywabne a wobgranicowanja awtorskego pšawa njepłaśe. Za dalšne informacije wó citěrowanju glejśo naše <guidelinesLink>Směrnice</guidelinesLink>.
@@ -30,7 +33,6 @@ required-field = Pšosym wupołniśo toś to pólo.
 single-sentence-submission = Jadnotliwu sadu zapódaś
 bulk-sentence-submission = Někotare sady zapódaś
 single-sentence = Jadna sada
-bulk-sentences = Wjele sadow
 sentence-domain-combobox-label = Tema sady
 sentence-domain-select-placeholder = Wubjeŕśo až do tśich temow (na žycenje)
 # Sentence Domain dropdown option
@@ -88,3 +90,6 @@ file-invalid-type = Njepłaśiwa dataja
 file-too-large = Dataja jo pśewjelika
 file-too-small = Dataja jo pśemała
 too-many-files = Pśewjele datajow
+
+## SMALL BATCH SUBMISSION
+
