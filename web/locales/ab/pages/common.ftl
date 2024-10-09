@@ -280,10 +280,15 @@ loading = Аҭагалара
 email-opt-in-info = Сара исҭахуп Common Voice ахықәкқәеи аҽыцрақәеи ртәы зҳәо ашәҟәқәа соуларц.
 email-opt-in-info-title = Common Voice ашьҭымҭақәа уҽрыларархәы
 email-opt-in-info-sub-with-challenge = Common Voice иуадаҩу ахықәкқәеи аҩаӡарақәеи ирыдҳәалоу ажәабжьқәеи ртәы зҳәо ашәҟәқәа риура.
+email-opt-in-privacy-v2 = Ае-маилқәа раагара уақәшаҳаҭны, уара иаанарԥшуеит Mozilla <privacyLink>Амаӡаратә Политика</privacyLink> инақәыршәаны Mozilla абри адыррақәа рхархәара уақәшаҳаҭуп ҳәа.
 indicates-required = *Хымԥада ихарҭәаатәуп аҭыԥ
 not-available-abbreviation = Анеишьа Амам
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = Ҳара ҳзы</mark><br/><mark>шәыцхыраара ҳҭахуп!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = 100-тәи абызшәатә еилазаарақәа рзы адатасетқәа рыҭара, насгьы рплатформа аиӷьтәра азы шықәсык ахь миллион доллар аҭахуп. <strong>Иаарту, зегьы зҵазкуа адыррақәа рыхә ҳаракны ишәшьозар, иахьа аҭара ҟашәҵа!</strong>
 localization-select =
     .label = Иалшәх абызшәа/аҭыԥ
