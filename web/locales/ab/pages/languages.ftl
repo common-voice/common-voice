@@ -4,6 +4,8 @@ language-section-in-progress = Анагӡара иаҿуп
 language-section-in-progress-new-description = Ҳусзуҩцәа, апрограмма алаҵаразы зазырхиара иаҿу, абызшәақәа ирызку адыррақәа реизҳашьа рныԥшуеит <localizationGlossaryLink>асаити</localizationGlossaryLink> <sentenceCollectionGlossaryLink>алагаламҭақәа аус рыдулара</sentenceCollectionGlossaryLink> аетапқәеи.
 language-section-launched = Аус арууп
 language-section-launched-description = Урҭ абызшәақәа иманшәаланы иалхуп <sentenceCollectionGlossaryLink>алагалақәагьы маҷымқәа</sentenceCollectionGlossaryLink> <localizationGlossaryLink>иацҵоуп авеб-саит</localizationGlossaryLink>, урҭ <speakLink>ахҳәааҟаҵареи</speakLink> <listenLink>азыӡырҩреи</listenLink> амҩақәа рыла аус рыдулара ацҵаразы.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Аҵыхәтәантәи арҿыцра: { $lastUpdatedTimeStamp }
 languages-show-more = Арҭбаара
 languages-show-less = Армаҷра
 language-meter-in-progress = Аԥхьаҿиара
@@ -13,6 +15,8 @@ language-search-input =
 language-speakers = Ицәажәо
 localized = Иҭыԥркуп
 sentences = Аҳәоуқәа
+language-validation-hours = Асааҭқәа
+language-validation-progress = Асканер аҿиара
 contribute = Аҽалархәара
 get-involved-button = Уҽалаурхәырц
 get-involved-title = Абызшәа  { $lang } аҽалархәра

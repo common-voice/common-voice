@@ -96,7 +96,9 @@ export default class API {
     }
 
     if (response.status === 429) {
-      throw new Error(response.statusText)
+      const error = new Error(response.statusText)
+      Object.assign(error, { retryAfter: response.headers.get('retry-after') })
+      throw error
     }
 
     if (response.status >= 400) {

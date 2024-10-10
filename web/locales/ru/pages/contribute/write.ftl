@@ -5,12 +5,14 @@ write-instruction = Добавьте <icon></icon> общедоступное п
 write-page-subtitle = Представленные здесь фразы будут добавлены в общедоступный набор данных под лицензией cc-0.
 sentence =
     .label = Предложение
-sentence-input-value = Введите здесь вашу фразу из общественного достояния
+sentence-input-placeholder = Введите здесь вашу фразу из общественного достояния
+small-batch-sentence-input-placeholder = Введите здесь предложения из общественного достояния
 citation-input-placeholder = Назовите источник вашего предложения (обязательно)
 citation =
     .label = Цитата
 sc-write-submit-confirm = Я подтверждаю, что это предложение является <wikipediaLink>общественным достоянием</wikipediaLink>, и у меня есть разрешение на его загрузку.
 sc-review-write-title = Какие предложения можно добавить?
+sc-review-small-batch-title = Как добавить несколько предложений
 new-sentence-rule-1 = <noCopyright>Нет ограничений авторского права</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Менее 15 слов
 new-sentence-rule-3 = Используйте правильную грамматику
@@ -19,6 +21,7 @@ new-sentence-rule-5 = Без цифр и спецсимволов
 new-sentence-rule-6 = Без иностранных символов
 new-sentence-rule-7 = Включите соответствующую цитату
 new-sentence-rule-8 = В идеале естественный и разговорный (предложение должно легко читаться)
+login-instruction-multiple-sentences = <loginLink>Войдите</loginLink> или <loginLink>зарегистрируйтесь</loginLink>, чтобы добавить несколько предложений
 how-to-cite = Как мне процитировать?
 how-to-cite-explanation-bold = Цитировать с URL-ссылкой или полным названием работы.
 how-to-cite-explanation = Если это ваши собственные слова, просто скажите <italicizedText>"Самоцитирование"</italicizedText>. Нам нужно знать, где вы нашли этот контент, чтобы мы могли убедиться, что он находится в общественном достоянии и на него не распространяются ограничения авторского права. Дополнительную информацию о цитировании см. на нашей <guidelinesLink>Странице рекомендаций</guidelinesLink>.
@@ -30,7 +33,6 @@ required-field = Пожалуйста, заполните это поле.
 single-sentence-submission = Отправка одного предложения
 bulk-sentence-submission = Массовая отправка предложений
 single-sentence = Одно предложение
-bulk-sentences = Много предложений
 sentence-domain-combobox-label = Домен предложений
 sentence-domain-select-placeholder = Выберите до трёх доменов
 # Sentence Domain dropdown option
@@ -89,3 +91,6 @@ file-invalid-type = Неподходящий файл
 file-too-large = Файл слишком большой
 file-too-small = Файл слишком маленький
 too-many-files = Слишком много файлов
+
+## SMALL BATCH SUBMISSION
+

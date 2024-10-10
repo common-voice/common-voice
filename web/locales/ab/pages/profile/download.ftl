@@ -1,2 +1,30 @@
 ## Profile Download
 
+download-q = Удата ақәгара уҭахума?
+download-info = Иҳаҳәа иҭажәгаларц ишәҭаху:
+download-profile-title = Аҷыдахәра
+download-profile-info = Иаҵанакуеит аимеил, ахархәаҩ ихьӡ, насгьы адемографиатә дыррақәа. Уажәы иҟоуп.
+download-profile-size = Баитқәак
+download-recordings-title = нҵамҭак
+download-recordings-info = Иаҵанакуеит mp3-қәеи урҭ ирыдҳәалоу аҳамҭақәа. Аҽазыҟаҵара аамҭа аҭаххар ауеит.
+download-recordings-size = Еиҳарак мегабаитқәа
+download-recordings-unavailable = Даҽа ҳәарак аус адулара мҩаԥысуанаҵы шәҭаҩрақәа рзыҳәара ҟалом.
+download-recently-requested = Уара иуҳәар улшоит упостқәа рархив ҿыц { $days } мышцыԥхьаӡа.
+download-size = Ашәагаа
+download-selected = Иалху
+download-start = Апрофиль адыррақәа ҭагалатәуп
+download-request = Аҭаҩрақәа рыдҵара
+download-requests = Аҭаҩрақәа рҭагаларазы ииасыз азыҳәарақәа
+download-requests-info = Уҭаҩрақәа уанрыҳәо, ҳара урҭ ZIP-фаилк ма еиҳаны еизаҳгоит. Абар уаанӡатәи уҳәарақәа:
+download-request-button = Иҭагалатәуп
+download-request-title = { $created }
+download-request-description = { $clipCount } абжьыҭаҩрақәа, архив зегьы ашәагаа - { $size }. Аҵәахра аамҭа нҵәоит { $expires }.
+download-request-archive-single = ZIP фаилк зҵазкуа
+download-request-archive-multiple = Еиҟәшатәуп { $archiveCount } ZIP-фаилқәа зҵазкуа
+download-request-assembling-description = Шәфаилқәа реизгара иаҿуп. Ҳаҳәоит, нас уааи.
+download-request-refresh-button = Арҿыцра
+download-request-modal-title = Аҭагаларазы азхьарԥшқәа
+download-request-modal-description = Абраҟа азхьарԥшқәа ыҟоуп шә-ZIP-фаилқәа рыхәаахәҭразы.
+download-request-link-text = Zip №{ $offset } аҟынтә { $total }
+download-request-metadata-link = Атеқсттә жәаҳәа
+download-request-link-single = Иара убас шәара ишәылшоит ииашоу URL-қәа рықәҭыхра насгьы рықәыӷәӷәара бзиа ижәбо ачагаратә менеџьер аҟны. Урҭ рыамҭа нҵәоит 12 сааҭ рышьҭахь, аха шәара ианаҭаху аамҭазы ари адаҟьахь шәхынҳәыр шәылшоит ҿыцқәа раԥҵаразы.
