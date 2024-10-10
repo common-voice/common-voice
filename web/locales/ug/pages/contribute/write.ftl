@@ -31,8 +31,11 @@ add-sentence-success = 1 جۈملە توپلاندى
 add-sentence-error = جۈملە قوشۇشتا خاتالىق كۆرۈلدى
 required-field = بۇ بۆلەكنى تولدۇرۇڭ.
 single-sentence-submission = يەككە جۈملە يوللاش
+small-batch-sentence-submission = ئاز مىقداردا توپ جۈملە يوللاش
 bulk-sentence-submission = تۈركۈملەپ جۈملە يوللاش
 single-sentence = يەككە جۈملە
+small-batch-sentence = ئاز مىقدار
+bulk-sentence = كۆپ مىقدار
 sentence-domain-combobox-label = جۈملە دائىرىسى
 sentence-domain-select-placeholder = كۆپ بولغاندا ئۈچ دائىرە تاللىنىدۇ
 # Sentence Domain dropdown option
@@ -94,3 +97,7 @@ too-many-files = ھۆججەت بەك كۆپ
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> ئاممىۋى دائىرىدىكى كۆپ جۈملە يۈكلەيدۇ
+multiple-sentences-error = بىر قېتىملىق يوللاشتا كۆپ جۈملە قوشۇپ يوللىيالمايسىز
+exceeds-small-batch-limit-error = 1000 جۈملىدىن كۆپ يوللىغىلى بولمايدۇ
