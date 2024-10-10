@@ -86,7 +86,7 @@ about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollec
 about-playbook-how-add-language-collecting-sentences-content-2 =
     သူၸၢင်ႈ<sentenceCollectorLinkAdd>ထႅမ်သႂ်ႇတူၼ်းထႅဝ်ဢိတ်းဢွတ်း</sentenceCollectorLinkAdd>၊
     ဢမ်ႇၼၼ် သူင်ၸၢင်ႈ <bulkImportDocsLink>ၸၼ်ၶဝ်ႈတူၼ်းထႅဝ်လူၺ်ႈ Github</bulkImportDocsLink>။
-    ႁႂ်ႈတွင်းၵိုမ်းဝႆႉဝႃႈ တူၼ်းထႅဝ်ၵူႈဢၼ်တေလႆႈပဵၼ် <licenseLink>CC0 (ဢမ်ႇၼၼ် ပုၼ်ႈသုၼ်ႇၵူၼ်းတင်းၼမ်)၊ ဢမ်ႇၼၼ် ၶူင်တႅမ်ႈဢွၵ်ႇတူၼ်းထႅဝ်ဢဝ်ႁင်းၵူၺ်းၵေႃႈလႆႈယူႇ။
+    ႁႂ်ႈတွင်းၵိုမ်းဝႆႉဝႃႈ တူၼ်းထႅဝ်ၵူႈဢၼ်တေလႆႈပဵၼ် <licenseLink>ၶေႃႈမၼ်ႈပၼ်ၸႂ်ႉတိုဝ်း CC0 (ဢမ်ႇၼၼ် ပုၼ်ႈသုၼ်ႇၵူၼ်းတင်းၼမ်)၊ ဢမ်ႇၼၼ် ၶူင်တႅမ်ႈဢွၵ်ႇတူၼ်းထႅဝ်ဢဝ်ႁင်းၵူၺ်းၵေႃႈလႆႈယူႇ။
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>သိုပ်ႇတူၺ်း ၵၢၼ်ၵဵပ်းႁွမ်တူၼ်းထႅဝ်</sentenceCollectorFragment>
 
 ## How does localization work
@@ -102,6 +102,8 @@ about-playbook-how-localize-content-5 = တူၺ်းဝီႊတီႊဢူ�
 
 about-playbook-how-add-sentences = ၶႃႈတေလႆႈႁဵတ်းႁိုဝ်ထႅမ်သႂ်ႇတူၼ်းထႅဝ်?
 about-playbook-how-add-sentences-content-1 = သူၸၢင်ႈထႅမ်သႂ်ႇတူၼ်းထႅဝ်ၼိူဝ် <writePageLink>တႅမ်ႈၼႃႈလိၵ်ႈ</writePageLink> ဢမ်ႇၼၼ် ႁုပ်ႈတူၺ်းၶိုၼ်းတူၼ်းထႅဝ်တီႈ <reviewPageLink>ႁုပ်ႈတူၺ်းၶိုၼ်းၼႃႈလိၵ်ႈ</reviewPageLink>။
+about-playbook-how-add-sentences-content-2 = တူၼ်းထႅဝ်တေလႆႈထုၵ်ႇထတ်း လႄႈယွမ်းႁပ်ႉလူၺ်ႈၵူၼ်းသွင်ၵေႃႉ ယဝ်ႉၸင်ႈထုၵ်ႇဢဝ်ၶဝ်ႈၼႂ်း Common Voice။ သူၸၢင်ႈၶူင်ႁဵတ်း ၽိုၼ်ၸုင် ဝႆႉတွၼ်ႈတႃႇၽႃႇသႃႇသူၸဝ်ႈ <languageGuidelinesLink>တီႈၼႆႈ</languageGuidelinesLink>။ တူၼ်းထႅဝ်ၸိူဝ်းၼၼ်ႉတေလႆႈပဵၼ် <licenseLink>ၶေႃႈမၼ်ႈပၼ်ၸႂ်ႉတိုဝ်း ပုၼ်ႈသုၼ်ႇၵူၼ်းတင်းၼမ်</licenseLink> လႄႈတၢင်းယၢဝ်းပွတ်းလိူဝ်သေ 15 ၶေႃႈၵႂၢမ်း။ သူၸၢင်ႈတုၵ်းယွၼ်းႁႂ်ႈၸဝ်ႈၶွင်ႈၶေႃႈၵႂၢမ်းၸိူဝ်းၼၼ်ႉႁႂ်ႈပိုၼ်ၽၢဝ်ႇ <waiverLink>ၶေႃႈမၼ်ႈပၼ်ၸႂ်ႉတိုဝ်း CC0 ဢၼ်ၸႂ်ႉတိုဝ်းလၢႆးတၢင်းႁပ်ႉၶၢမ်ႇႁဝ်းၶႃႈ</waiverLink>၊ ယဝ်ႉလႄႈသူင်ႇမႃးပၼ်ႁဝ်းၶႃႈတီႈ commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = သူၸၢင်ႈၸႂ်ႉတိုဝ်း <scraperLink>ၶိူင်ႈမိုဝ်းထွင်ဢွၵ်ႇတူၼ်းထႅဝ်</scraperLink> တႃႇတေဢဝ် တူၼ်းထႅဝ်ပွတ်းပွတ်းတီႈ ဝီႇၶီႇၽီးတီးယႃး။
 
 ## How to record quality
 
