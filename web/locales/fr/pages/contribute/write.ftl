@@ -100,8 +100,19 @@ too-many-files = Trop de fichiers
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Ajouter plusieurs phrases du domaine public
 multiple-sentences-error = Vous ne pouvez pas ajouter plusieurs phrases lors d’un envoi unique
-# <errorIcon></erroricon> will be replace with an icon that represents an error
 exceeds-small-batch-limit-error = Impossible de soumettre plus de 1 000 phrases
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Vous avez atteint la limite d’envoi pour cette page. Veuillez attendre 1 minute avant d’envoyer une autre phrase. Merci pour votre patience !
+       *[other] Vous avez atteint la limite d’envoi pour cette page. Veuillez attendre { $retryLimit } minutes avant d’envoyer une autre phrase. Merci pour votre patience !
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Vous avez atteint la limite d’envoi pour cette page. Veuillez attendre 1 seconde avant d’envoyer une autre phrase. Merci pour votre patience !
+       *[other] Vous avez atteint la limite d’envoi pour cette page. Veuillez attendre { $retryLimit } secondes avant d’envoyer une autre phrase. Merci pour votre patience !
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $uploadedSentences ->
