@@ -21,6 +21,7 @@ export namespace Sentences {
       hasLoadingError: boolean
       pendingSentences: PendingSentence[]
       bulkUploadStatus?: BulkUploadStatus
+      bulkUploadStatusData?: Record<string, unknown>
     }
   }
 
@@ -92,6 +93,7 @@ export namespace Sentences {
   interface SetBulkUploadStatus extends ReduxAction {
     type: ActionType.SET_BULK_UPLOAD_STATUS
     bulkUploadStatus: BulkUploadStatus
+    bulkUploadStatusData?: Record<string, unknown>
   }
 
   export type Action =
@@ -279,9 +281,13 @@ export namespace Sentences {
         })
       },
 
-    setBulkUploadStatus: (bulkUploadStatus: BulkUploadStatus) => ({
+    setBulkUploadStatus: (
+      bulkUploadStatus: BulkUploadStatus,
+      bulkUploadStatusData?: Record<string, unknown>
+    ) => ({
       type: ActionType.SET_BULK_UPLOAD_STATUS,
       bulkUploadStatus,
+      bulkUploadStatusData,
     }),
 
     removeBulkSubmission: () => ({
@@ -439,6 +445,9 @@ export namespace Sentences {
           [locale]: {
             ...currentLocaleState,
             bulkUploadStatus: action.bulkUploadStatus,
+            ...(action.bulkUploadStatusData && {
+              bulkUploadStatusData: action.bulkUploadStatusData,
+            }),
           },
         }
       }

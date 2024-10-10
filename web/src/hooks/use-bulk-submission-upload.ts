@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { format } from 'date-fns'
+import { format, secondsToMinutes } from 'date-fns'
 import { useDispatch } from 'react-redux'
 import { FileRejection } from 'react-dropzone'
 import { useLocalization } from '@fluent/react'
@@ -9,12 +9,15 @@ import { Sentences } from '../stores/sentences'
 import { useLocale } from '../components/locale-helpers'
 import { Notifications } from '../stores/notifications'
 import { trackBulkSubmission } from '../services/tracker'
+import { AlertIcon } from '../components/ui/icons'
 
 export type FileInfo = {
   name: string
   size: number
   lastModified: string
 }
+
+export const RATE_LIMIT_EXCEEDED = 'Rate Limit Exceeded'
 
 const useBulkSubmissionUpload = () => {
   const [uploadedFile, setUploadedFile] = useState<File>()
@@ -70,6 +73,31 @@ const useBulkSubmissionUpload = () => {
     )
   }
 
+  const handleRateLimitError = (retryLimit: number) => {
+    const parsedRetryLimit =
+      retryLimit > 60 ? secondsToMinutes(retryLimit) : retryLimit
+
+    dispatch(
+      Sentences.actions.setBulkUploadStatus('error', {
+        retryLimit,
+        error: RATE_LIMIT_EXCEEDED,
+      })
+    )
+    dispatch(
+      Notifications.actions.addPill(
+        retryLimit > 60
+          ? l10n.getString('rate-limit-toast-message-minutes', {
+              retryLimit: parsedRetryLimit,
+            })
+          : l10n.getString('rate-limit-toast-message-seconds', {
+              retryLimit: parsedRetryLimit,
+            }),
+        'error',
+        AlertIcon
+      )
+    )
+  }
+
   const startUpload = async () => {
     try {
       const response = await bulkSubmissionRequest({
@@ -87,6 +115,9 @@ const useBulkSubmissionUpload = () => {
           )
         )
         trackBulkSubmission('submit', locale)
+      } else if (response.status === 429) {
+        const retryLimit = Number(response.headers.get('retry-after'))
+        handleRateLimitError(retryLimit)
       } else {
         handleError()
       }

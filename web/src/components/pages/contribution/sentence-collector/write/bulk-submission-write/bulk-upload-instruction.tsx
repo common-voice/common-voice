@@ -63,7 +63,7 @@ const BulkUploadInstruction: React.FC<Props> = ({
         <h2 className="upload-dropzone-instruction hidden-md-up" />
       </Localized>
       <ul>
-        {fileRejections.map(({ file, errors }) => (
+        {fileRejections?.map(({ file, errors }) => (
           <li key={file.name}>
             {errors.map(e => (
               <p key={e.code}>

@@ -19,6 +19,7 @@ import {
   SMALL_BATCH_KEY,
   useSentenceWrite,
 } from './sentence-write/hooks/use-sentence-write'
+import { RATE_LIMIT_EXCEEDED } from '../../../../../hooks/use-bulk-submission-upload'
 import { SentenceSubmissionError } from 'common'
 
 import { trackSingleSubmission } from '../../../../../services/tracker'
@@ -69,8 +70,6 @@ const WriteContainer = () => {
   } = useSentenceWrite(activeWriteOption as WriteMode)
 
   const variantTokens = variants ? variants.map(variant => variant.tag) : []
-
-  // add all variants option to the list of variants in the dropdown
   const allVariants =
     variants &&
     ['sentence-variant-select-multiple-variants'].concat(variantTokens)
@@ -82,7 +81,16 @@ const WriteContainer = () => {
 
   const isUploadDone = sentences[locale]?.bulkUploadStatus === 'done'
 
-  const retryLimit = error?.data?.retryLimit as number
+  const getRetryLimit = () => {
+    if (activeWriteOption === 'small-batch') {
+      return error?.data?.retryLimit as number
+    }
+    if (activeWriteOption === 'bulk') {
+      return sentences[locale]?.bulkUploadStatusData?.retryLimit as number
+    }
+    return undefined
+  }
+  const retryLimit = getRetryLimit()
 
   const smallBatchResponse =
     stateSmallBatchResponse || JSON.parse(localStorage.getItem(SMALL_BATCH_KEY))
@@ -90,6 +98,12 @@ const WriteContainer = () => {
   const showSmallBatchSummary =
     activeWriteOption === 'small-batch' &&
     smallBatchResponse?.invalidSentences.length > 0
+
+  const showRateLimitError =
+    (activeWriteOption === 'small-batch' &&
+      error?.type === SentenceSubmissionError.RATE_LIMIT_EXCEEDED) ||
+    (activeWriteOption === 'bulk' &&
+      sentences[locale]?.bulkUploadStatusData?.error === RATE_LIMIT_EXCEEDED)
 
   if (isUploadDone) {
     return (
@@ -102,59 +116,40 @@ const WriteContainer = () => {
   const getWriteComponent = (
     activeWriteOption: WriteSubmissionToggleOptions
   ) => {
-    if (activeWriteOption === 'single') {
-      return (
-        <SentenceWrite
-          allVariants={allVariants}
-          mode={activeWriteOption}
-          handleCitationChange={handleCitationChange}
-          handlePublicDomainChange={handlePublicDomainChange}
-          handleSentenceDomainChange={handleSentenceDomainChange}
-          handleSentenceInputChange={handleSentenceInputChange}
-          handleSentenceVariantChange={handleSentenceVariantChange}
-          handleSubmit={handleSubmit}
-          citation={citation}
-          sentence={sentence}
-          sentenceVariant={sentenceVariant}
-          sentenceDomains={sentenceDomains}
-          error={error}
-          confirmPublicDomain={confirmPublicDomain}
-        />
-      )
+    const sharedProps = {
+      allVariants,
+      handleCitationChange,
+      handlePublicDomainChange,
+      handleSentenceDomainChange,
+      handleSentenceInputChange,
+      handleSentenceVariantChange,
+      handleSubmit,
+      citation,
+      sentence,
+      sentenceVariant,
+      sentenceDomains,
+      error,
+      confirmPublicDomain,
     }
 
-    if (activeWriteOption === 'bulk') {
-      return <BulkSubmissionWrite />
-    }
-
-    if (activeWriteOption === 'small-batch') {
-      return (
-        <SentenceWrite
-          allVariants={allVariants}
-          mode={activeWriteOption}
-          handleCitationChange={handleCitationChange}
-          handlePublicDomainChange={handlePublicDomainChange}
-          handleSentenceDomainChange={handleSentenceDomainChange}
-          handleSentenceInputChange={handleSentenceInputChange}
-          handleSentenceVariantChange={handleSentenceVariantChange}
-          handleSubmit={handleSubmit}
-          citation={citation}
-          sentence={sentence}
-          sentenceVariant={sentenceVariant}
-          sentenceDomains={sentenceDomains}
-          confirmPublicDomain={confirmPublicDomain}
-          error={error}
-        />
-      )
+    switch (activeWriteOption) {
+      case 'single':
+        return <SentenceWrite {...sharedProps} mode={activeWriteOption} />
+      case 'bulk':
+        return <BulkSubmissionWrite />
+      case 'small-batch':
+        return <SentenceWrite {...sharedProps} mode={activeWriteOption} />
+      default:
+        return null
     }
   }
 
   return (
     <div className="write-container" data-testid="write-container">
-      {error?.type === SentenceSubmissionError.RATE_LIMIT_EXCEEDED && (
+      {showRateLimitError && (
         <Localized
           id={
-            Number(retryLimit) > 60
+            retryLimit > 60
               ? 'rate-limit-message-minutes'
               : 'rate-limit-message-seconds'
           }
@@ -182,10 +177,10 @@ const WriteContainer = () => {
         className={classNames('instruction-and-form-wrapper', {
           centered: !account,
         })}>
-        {error?.type === SentenceSubmissionError.RATE_LIMIT_EXCEEDED && (
+        {showRateLimitError && (
           <Localized
             id={
-              Number(retryLimit) > 60
+              retryLimit > 60
                 ? 'rate-limit-message-minutes'
                 : 'rate-limit-message-seconds'
             }
