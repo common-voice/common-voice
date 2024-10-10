@@ -1,5 +1,8 @@
+voice-collection = Innsamling av stemmer
 sentence-collection = Setningsinnsamling
+varying-pronunciations = Ulike uttalar
 misreadings = Feiltolkingar
+offensive-content = Krenkande innhald
 background-noise = Bakgrunnsstøy
 background-voices = Bakgrunnsstemmer
 volume = Lydstyrke
@@ -11,3 +14,7 @@ varying-pronunciations-tip-2 = [Britisk engelsk kan lage «root»]
 misreadings-example-4 = Humla flaug forbi.
 misreadings-tip-1 = [Skulle vore «Vi er»]
 public-domain = Offentleg eigedom (ikkje verna av opphavsrett)
+citing-sentences-subheader-offline-sources = Fråkopla kjelder
+citation =
+    .label = Tilvising
+adding-sentences-subheader-length = Lengde
