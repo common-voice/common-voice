@@ -116,6 +116,22 @@ rate-limit-toast-message-seconds =
         [few] Limit raty je překročeny. Spytajće za { $retryLimit } sekundy hišće raz.
        *[other] Limit raty je překročeny. Spytajće za { $retryLimit } sekundow hišće raz.
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } mjeńšinu, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+        [two] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } mjeńšinje, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+        [few] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } mjeńšiny, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+       *[other] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } mjeńšin, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } sekundu, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+        [two] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } sekundźe, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+        [few] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } sekundy, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+       *[other] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } sekundow, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
