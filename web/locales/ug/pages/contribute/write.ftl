@@ -5,7 +5,8 @@ write-instruction = ئاممىۋى دائىرىدىكى جۈملە <icon> </icon
 write-page-subtitle = بۇ جايدا تۆھپە قوشۇلغان جۈملىلەر cc-0 ئىجازىتىدىكى ئاشكارا سانلىق مەلۇمات توپلىمىغا قوشۇلىدۇ.
 sentence =
     .label = جۈملە
-sentence-input-value = ئاممىۋى دائىرىدىكى جۈملىنى بۇ جايغا كىرگۈزۈڭ
+sentence-input-placeholder = ئاممىۋى دائىرىدىكى جۈملىنى بۇ جايغا كىرگۈزۈڭ
+small-batch-sentence-input-placeholder = ئاممىۋى دائىرىدىكى جۈملىنى بۇ جايغا كىرگۈزۈڭ
 citation-input-placeholder = جۈملىڭىزنىڭ پايدىلانما مەنبەسى (زۆرۈر)
 citation =
     .label = نەقىل
@@ -30,7 +31,6 @@ required-field = بۇ بۆلەكنى تولدۇرۇڭ.
 single-sentence-submission = يەككە جۈملە يوللاش
 bulk-sentence-submission = تۈركۈملەپ جۈملە يوللاش
 single-sentence = يەككە جۈملە
-bulk-sentences = كۆپ جۈملە
 sentence-domain-combobox-label = جۈملە دائىرىسى
 sentence-domain-select-placeholder = كۆپ بولغاندا ئۈچ دائىرە تاللىنىدۇ
 # Sentence Domain dropdown option
@@ -89,3 +89,6 @@ file-invalid-type = ئىناۋەتسىز ھۆججەت
 file-too-large = ھۆججەت بەك چوڭ
 file-too-small = ھۆججەت بەك كىچىك
 too-many-files = ھۆججەت بەك كۆپ
+
+## SMALL BATCH SUBMISSION
+
