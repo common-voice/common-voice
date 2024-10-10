@@ -93,6 +93,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ်ႁဵတ်းၵၢၼ်ၸိူင်ႉႁိုဝ်?
 about-playbook-how-localize-content-1 = ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ် Common Voice ပဵၼ်မႃးၼိူဝ် <strong>Pontoon</strong>။
+about-playbook-how-localize-content-2 = <pontoonAccountLink>ၵေႃႇသၢင်ႈဢၶွင်ႉ</pontoonAccountLink> ပေႃးဝႃႈပႆႇမီး။ သေယဝ်ႉ လိူၵ်ႈၽႃႇသႃႇၸဝ်ႈၵဝ်ႇ <strong>('ၸုမ်း')</strong> ယဝ်ႉၸင်ႇလိူၵ်ႈၶူင်းၵၢၼ် <pontoonCvLink>Common Voice</pontoonCvLink>။ ၼႂ်းၼၼ်ႉတေမီးၾၢႆႇလ်တွၼ်ႈတႃႇပိၼ်ႇၽႃႇသႃႇ။ တဵၵ်းသေဢၼ်ဢၼ်၊ မၼ်းတေၼႄမႃးထွႆႈၵႂၢမ်းလိၵ်ႈဢိင်းၵလဵတ်ႈ လႄႈၶွင်ႉတႃႇပိၼ်ႇထွႆႈၵႂၢမ်းၸိူဝ်းၼၼ်ႉ။
 
 ## How to add sentences
 
