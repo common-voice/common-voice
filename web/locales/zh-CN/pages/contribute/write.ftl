@@ -5,7 +5,6 @@ write-instruction = 添加 <icon></icon> 公有领域的语句
 write-page-subtitle = 此处贡献的语句将被添加到采用 cc-0 许可证的公开数据集中。
 sentence =
     .label = 语句
-sentence-input-value = 请在此输入您的公有领域语句
 citation-input-placeholder = 引用语句出处（必填）
 citation =
     .label = 引用
@@ -30,7 +29,6 @@ required-field = 请填写此字段。
 single-sentence-submission = 提交单句
 bulk-sentence-submission = 批量提交语句
 single-sentence = 单句
-bulk-sentences = 批量语句
 sentence-domain-combobox-label = 语句领域
 sentence-domain-select-placeholder = 最多选择三个领域
 # Sentence Domain dropdown option
@@ -89,3 +87,12 @@ file-invalid-type = 文件无效
 file-too-large = 文件太大
 file-too-small = 文件太小
 too-many-files = 文件过多
+
+## SMALL BATCH SUBMISSION
+
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success = 已收集 { $totalSentences } 条语句中的 { $uploadedSentences } 条
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message = 已收集 { $totalSentences } 条语句中的 { $uploadedSentences } 条。<downloadLink>点此</downloadLink>下载被驳回的语句。
+small-batch-sentences-rule-2 = 每行一条语句
+small-batch-sentences-rule-4 = 最多可添加 1,000 条语句
