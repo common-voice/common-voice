@@ -5,12 +5,14 @@ write-instruction = Adde <icon></icon> un phrase de dominio public
 write-page-subtitle = Le phrases fornite ci sera addite a un insimul de datos publicamente disponibile con licentia cc-0.
 sentence =
     .label = Phrase
-sentence-input-value = Insere ci tu phrase de dominio public
+sentence-input-placeholder = Insere ci tu phrase de dominio public
+small-batch-sentence-input-placeholder = Insere ci tu phrases de dominio public
 citation-input-placeholder = Refere le fonte de tu phrase (obligatori)
 citation =
     .label = Citation
 sc-write-submit-confirm = Io confirma que iste phrases es del <wikipediaLink>dominio public</wikipediaLink> e que io ha le permission de cargar los.
 sc-review-write-title = Qual phrases pote io adder?
+sc-review-small-batch-title = Como adder plure phrases
 new-sentence-rule-1 = <noCopyright>Nulle</noCopyright> limitationes de derectos de autor (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Minus que 15 parolas
 new-sentence-rule-3 = Usar grammatica correcte
@@ -19,6 +21,7 @@ new-sentence-rule-5 = Nulle numeros e characteres special
 new-sentence-rule-6 = Nulle litteras estranier
 new-sentence-rule-7 = Includer citation appropriate
 new-sentence-rule-8 = Idealmente natural e conversational (le phrase debe esser facile a leger)
+login-instruction-multiple-sentences = <loginLink>Accede</loginLink> o <loginLink>inscribe te</loginLink> pro adder plure phrases
 how-to-cite = Como pote io citar
 how-to-cite-explanation-bold = Citar con un ligamine URL o le nomine complete del labor.
 how-to-cite-explanation = Si il es tu proprie parolas, justo dice <italicizedText>“Citation proprie”</italicizedText>. Nos besonia de saper ubi tu trovava iste contento, assi que nos pote verificar que illo es de dominio public e nulle limitationes de derectos de autor se applica. Pro altere informationes re le citation vider nostre <guidelinesLink>Pagina de lineas guida</guidelinesLink>.
@@ -28,9 +31,11 @@ add-sentence-success = 1 phrase colligite
 add-sentence-error = Error dum le phrase era addite
 required-field = Per favor compila iste campo.
 single-sentence-submission = Invio de phrases singule
+small-batch-sentence-submission = Invio de phrases per micre lotes
 bulk-sentence-submission = Invio de gruppo de phrases
 single-sentence = Phrase singule
-bulk-sentences = Gruppo de phrases
+small-batch-sentence = Micre lotes
+bulk-sentence = Lotes massive
 sentence-domain-combobox-label = Dominio del phrase
 sentence-domain-select-placeholder = Selige usque tres dominios
 # Sentence Domain dropdown option
@@ -89,3 +94,29 @@ file-invalid-type = File non valide
 file-too-large = File troppo grande
 file-too-small = File troppo micre
 too-many-files = Troppo de files
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Adder plure phrases de dominio public
+multiple-sentences-error = Tu non pote adder plure phrases pro un sol invio
+# <errorIcon></erroricon> will be replace with an icon that represents an error
+exceeds-small-batch-limit-error = Impossibile inviar plus que 1000 phrases
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } de 1 phrase colligite
+       *[other] { $uploadedSentences } de { $totalSentences } phrases colligite
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } de 1 phrase colligite. Clicca <downloadLink>ci</downloadLink> pro discargar le phrases rejectate.
+       *[other] { $uploadedSentences } de { $totalSentences } phrases colligite. Clicca <downloadLink>ci</downloadLink> pro discargar le phrases rejectate.
+    }
+small-batch-sentences-rule-1 = Sequer le directivas de “Que phrases pote io adder?”
+small-batch-sentences-rule-2 = Adde un sol phrase per linea
+small-batch-sentences-rule-3 = Separa le phrases in un sol linea pulsante “Inviar” o “Retornar” un vice
+small-batch-sentences-rule-4 = Adde usque 1000 phrases
+small-batch-sentences-rule-5 = Tote le phrases debe haber le mesme dominio
+small-batch-sentences-rule-6 = Tote le phrases debe haber le mesme citation
