@@ -70,7 +70,12 @@ about-playbook-what-is-language-content-3 = ၽႃႇသႃႇမၢင်ၸိ
 ## How do I add a language
 
 about-playbook-how-add-language = တေႁဵတ်းႁိုဝ်ထႅမ်သႂ်ႇၽႃႇသႃႇထႅင်ႈ?
+about-playbook-how-add-language-content-1 =
+    ဢွၼ်တၢင်းသုတ်း၊ ထတ်းတူၺ်းဝႃႈ <languageLink>မီးၽႃႇသႃႇၶွင်ၸဝ်ႈၵဝ်ႇယဝ်ႉႁိုဝ်</languageLink>။
+    ပေႃးဢမ်ႇပႆႇမီး၊ သူၸၢင်ႈ<languageRequestLink>ယွၼ်းထႅမ်ထႅင်ႈၽႃႇသႃႇၸဝ်ႈၵဝ်ႇ</languageRequestLink>။
+    တေမီးယူႇသွင်ၶၵ်ႉတွၼ်ႈ ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ် လႄႈၵၢၼ်ၵဵပ်းႁွမ်တူၼ်းထႅဝ်လိၵ်ႈ
 about-playbook-how-add-language-translating-heading = ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ်
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>တူၺ်းဝီႊတီႊဢူဝ်ႊ လွၵ်းလၢႆးၸႂ်ႉတိုဝ်း Pontoon။</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = ၵဵပ်းႁွမ်တူၼ်းထႅဝ်
 
 ## How does localization work
