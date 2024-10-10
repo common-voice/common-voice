@@ -76,7 +76,13 @@ about-playbook-how-add-language-content-1 =
     တေမီးယူႇသွင်ၶၵ်ႉတွၼ်ႈ ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ် လႄႈၵၢၼ်ၵဵပ်းႁွမ်တူၼ်းထႅဝ်လိၵ်ႈ
 about-playbook-how-add-language-translating-heading = ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ်
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>တူၺ်းဝီႊတီႊဢူဝ်ႊ လွၵ်းလၢႆးၸႂ်ႉတိုဝ်း Pontoon။</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    ႁဝ်းၸႂ်ႉတိုဝ်းၶိူင်ႈမိုဝ်းၶွင် Mozilla ဢၼ်ႁွင်ႉဝႃႈ <pontoonLink>Pontoon</pontoonLink> တွၼ်ႈတႃႇပိၼ်ႇၽႃႇသႃႇ။ Pontoon မီးၽႃႇသႃႇတင်းၼမ်၊ 
+    ၵူၺ်းသင်ဢမ်ႇပႆႇမီးၽႃႇသႃႇၸဝ်ႈၵဝ်ႇ သူၸၢင်ႈ <pontoonRequestLink>ယွၼ်းထႅမ်ထႅင်ႈၽႃႇသႃႇၸဝ်ႈၵဝ်ႇ</pontoonRequestLink>လႆႈ။
+    သေယဝ်ႉလႄႈ တႃႇႁႂ်ႈၽႃႇသႃႇၸဝ်ႈၵဝ်ႇမီးမႃးၼိူဝ်ၶူင်းၵၢၼ် Common Voice ၼၼ်ႉ
+    <githubRepoLink>သူင်ႇၶေႃႈတုၵ်းယွၼ်းထႅမ်ၽႃႇသႃႇမႂ်ႇၼိူဝ် GitHub</githubRepoLink>။ <localizationFragment>သိုပ်ႇတူၺ်းထႅင်ႈလွင်ႈပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ်</localizationFragment>။
 about-playbook-how-add-language-collecting-sentences-heading = ၵဵပ်းႁွမ်တူၼ်းထႅဝ်
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>တူၺ်းလွၵ်းလၢႆးၸႂ်ႉတိုဝ်း ၶိူင်ႈမိုဝ်းၵဵပ်းႁွမ်တူၼ်းထႅဝ်</sentenceCollectorVideo>။
 
 ## How does localization work
 
