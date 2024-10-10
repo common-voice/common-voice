@@ -83,9 +83,16 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>သူင်ႇၶေႃႈတုၵ်းယွၼ်းထႅမ်ၽႃႇသႃႇမႂ်ႇၼိူဝ် GitHub</githubRepoLink>။ <localizationFragment>သိုပ်ႇတူၺ်းထႅင်ႈလွင်ႈပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ်</localizationFragment>။
 about-playbook-how-add-language-collecting-sentences-heading = ၵဵပ်းႁွမ်တူၼ်းထႅဝ်
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>တူၺ်းလွၵ်းလၢႆးၸႂ်ႉတိုဝ်း ၶိူင်ႈမိုဝ်းၵဵပ်းႁွမ်တူၼ်းထႅဝ်</sentenceCollectorVideo>။
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    သူၸၢင်ႈ<sentenceCollectorLinkAdd>ထႅမ်သႂ်ႇတူၼ်းထႅဝ်ဢိတ်းဢွတ်း</sentenceCollectorLinkAdd>၊
+    ဢမ်ႇၼၼ် သူင်ၸၢင်ႈ <bulkImportDocsLink>ၸၼ်ၶဝ်ႈတူၼ်းထႅဝ်လူၺ်ႈ Github</bulkImportDocsLink>။
+    ႁႂ်ႈတွင်းၵိုမ်းဝႆႉဝႃႈ တူၼ်းထႅဝ်ၵူႈဢၼ်တေလႆႈပဵၼ် <licenseLink>CC0 (ဢမ်ႇၼၼ် ပုၼ်ႈသုၼ်ႇၵူၼ်းတင်းၼမ်)၊ ဢမ်ႇၼၼ် ၶူင်တႅမ်ႈဢွၵ်ႇတူၼ်းထႅဝ်ဢဝ်ႁင်းၵူၺ်းၵေႃႈလႆႈယူႇ။
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>သိုပ်ႇတူၺ်း ၵၢၼ်ၵဵပ်းႁွမ်တူၼ်းထႅဝ်</sentenceCollectorFragment>
 
 ## How does localization work
 
+about-playbook-how-localize = ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ်ႁဵတ်းၵၢၼ်ၸိူင်ႉႁိုဝ်?
+about-playbook-how-localize-content-1 = ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ် Common Voice ပဵၼ်မႃးၼိူဝ် <strong>Pontoon</strong>။
 
 ## How to add sentences
 
