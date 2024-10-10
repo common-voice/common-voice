@@ -94,9 +94,13 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ်ႁဵတ်းၵၢၼ်ၸိူင်ႉႁိုဝ်?
 about-playbook-how-localize-content-1 = ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ် Common Voice ပဵၼ်မႃးၼိူဝ် <strong>Pontoon</strong>။
 about-playbook-how-localize-content-2 = <pontoonAccountLink>ၵေႃႇသၢင်ႈဢၶွင်ႉ</pontoonAccountLink> ပေႃးဝႃႈပႆႇမီး။ သေယဝ်ႉ လိူၵ်ႈၽႃႇသႃႇၸဝ်ႈၵဝ်ႇ <strong>('ၸုမ်း')</strong> ယဝ်ႉၸင်ႇလိူၵ်ႈၶူင်းၵၢၼ် <pontoonCvLink>Common Voice</pontoonCvLink>။ ၼႂ်းၼၼ်ႉတေမီးၾၢႆႇလ်တွၼ်ႈတႃႇပိၼ်ႇၽႃႇသႃႇ။ တဵၵ်းသေဢၼ်ဢၼ်၊ မၼ်းတေၼႄမႃးထွႆႈၵႂၢမ်းလိၵ်ႈဢိင်းၵလဵတ်ႈ လႄႈၶွင်ႉတႃႇပိၼ်ႇထွႆႈၵႂၢမ်းၸိူဝ်းၼၼ်ႉ။
+about-playbook-how-localize-content-3 = ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇတေလုၵ်ႉမႃးတီႈလိၵ်ႈဢိင်းၵလဵတ်ႈ၊ ၵူၺ်းသူၸၢင်ႈတူၺ်း <strong>ၶေႃႈတၢင်ႇၼႄ</strong> ၼႂ်းၽႃႇသႃႇတၢင်ႇၸိူဝ်းလႆႈ။ တဵၵ်းတီႈမၢႆ<strong>ပရူဝ်ႇၾၢႆႇ</strong>၊ ယဝ်ႉတဵၵ်းလိင်ႉၶ် <strong>ၵၢၼ်တင်ႈ</strong> လႄႈထႅမ်သႂ်ႇၽႃႇသႃႇဢၼ်သူလၢတ်ႈသေဢၼ်ဢၼ်။ တီႈၸဵင်ႇၽၢႆႇၶႂႃမိုဝ်းလူင်းတႂ်ႈၼၼ်ႉ တေၼႄမႃးသဵၼ်ႈၸိုဝ်ႈၽႃႇသႃႇဢၼ်ႁွင်ႉဝႃႈ <strong>Locales</strong>။ ၶေႃႈၵႂၢမ်းပိၼ်ႇၽႃႇသႃႇတေၶိုၼ်ႈမႃးဝၢႆးပိၼ်ႇယဝ်ႉၼိုင်ႈဝၼ်း။
+about-playbook-how-localize-content-4 = ဝႅပ်ႉသၢႆႉသ်တေၽွမ်ႉပိုတ်ႇၽုၺ်ႇဝၢႆးသေပီၼ်ႇၽႃႇသႃႇယဝ်ႉတူဝ်ႈလီ 75%။
+about-playbook-how-localize-content-5 = တူၺ်းဝီႊတီႊဢူဝ်ႊသပ်းလႅင်းတႃႇလွင်ႈၸွႆႈထႅမ်
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ၶႃႈတေလႆႈႁဵတ်းႁိုဝ်ထႅမ်သႂ်ႇတူၼ်းထႅဝ်?
 
 ## How to record quality
 
