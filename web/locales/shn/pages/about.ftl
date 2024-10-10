@@ -101,6 +101,7 @@ about-playbook-how-localize-content-5 = တူၺ်းဝီႊတီႊဢူ�
 ## How to add sentences
 
 about-playbook-how-add-sentences = ၶႃႈတေလႆႈႁဵတ်းႁိုဝ်ထႅမ်သႂ်ႇတူၼ်းထႅဝ်?
+about-playbook-how-add-sentences-content-1 = သူၸၢင်ႈထႅမ်သႂ်ႇတူၼ်းထႅဝ်ၼိူဝ် <writePageLink>တႅမ်ႈၼႃႈလိၵ်ႈ</writePageLink> ဢမ်ႇၼၼ် ႁုပ်ႈတူၺ်းၶိုၼ်းတူၼ်းထႅဝ်တီႈ <reviewPageLink>ႁုပ်ႈတူၺ်းၶိုၼ်းၼႃႈလိၵ်ႈ</reviewPageLink>။
 
 ## How to record quality
 
