@@ -18,3 +18,5 @@ citing-sentences-subheader-offline-sources = Fråkopla kjelder
 citation =
     .label = Tilvising
 adding-sentences-subheader-length = Lengde
+adding-sentences-subheader-length-explanation = Setninga bør ha færre enn 15 ord.
+adding-sentences-subheader-spelling-punctuation = Stavemåte og teiknsetting
