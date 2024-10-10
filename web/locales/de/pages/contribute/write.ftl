@@ -104,8 +104,19 @@ too-many-files = Zu viele Dateien
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Fügen Sie mehrere gemeinfreie Sätze hinzu
 multiple-sentences-error = Sie können nicht mehrere Sätze zu einer Einreichung hinzufügen
-# <errorIcon></erroricon> will be replace with an icon that represents an error
 exceeds-small-batch-limit-error = Es können nicht mehr als 1&thinsp;000 Sätze eingereicht werden
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Sie haben zu viele Uploadversuche unternommen. Versuchen Sie es in einer Minute erneut.
+       *[other] Sie haben zu viele Uploadversuche unternommen. Versuchen Sie es in { $retryLimit } Minuten erneut.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Sie haben zu viele Uploadversuche unternommen. Versuchen Sie es in einer Sekunde erneut.
+       *[other] Sie haben zu viele Uploadversuche unternommen. Versuchen Sie es in { $retryLimit } Sekunden erneut.
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
