@@ -1,9 +1,10 @@
 import * as React from 'react'
 import { Localized } from '@fluent/react'
 import classNames from 'classnames'
+import { secondsToMinutes } from 'date-fns'
 
 import SentenceCollectionWrapper from '../sentence-collector-wrapper'
-import { SentenceWrite } from './sentence-write'
+import { SentenceWrite, WriteMode } from './sentence-write'
 import BulkSubmissionWrite from './bulk-submission-write/bulk-submission-write'
 import SentenceCollectorToggle from '../sentence-collector-toggle'
 import BulkSubmissionSuccess from './bulk-submission-write/bulk-submission-success'
@@ -18,6 +19,8 @@ import {
   SMALL_BATCH_KEY,
   useSentenceWrite,
 } from './sentence-write/hooks/use-sentence-write'
+import { RATE_LIMIT_EXCEEDED } from '../../../../../hooks/use-bulk-submission-upload'
+import { SentenceSubmissionError } from 'common'
 
 import { trackSingleSubmission } from '../../../../../services/tracker'
 
@@ -48,11 +51,25 @@ const WriteContainer = () => {
   const account = useAccount()
   const sentences = useSentences()
   const { variants } = useGetVariants()
-  const { sentenceWriteState } = useSentenceWrite('small-batch')
+  const {
+    handleCitationChange,
+    handlePublicDomainChange,
+    handleSentenceDomainChange,
+    handleSentenceInputChange,
+    handleSentenceVariantChange,
+    handleSubmit,
+    sentenceWriteState: {
+      citation,
+      sentenceVariant,
+      sentenceDomains,
+      error,
+      sentence,
+      smallBatchResponse: stateSmallBatchResponse,
+      confirmPublicDomain,
+    },
+  } = useSentenceWrite(activeWriteOption as WriteMode)
 
   const variantTokens = variants ? variants.map(variant => variant.tag) : []
-
-  // add all variants option to the list of variants in the dropdown
   const allVariants =
     variants &&
     ['sentence-variant-select-multiple-variants'].concat(variantTokens)
@@ -64,13 +81,30 @@ const WriteContainer = () => {
 
   const isUploadDone = sentences[locale]?.bulkUploadStatus === 'done'
 
+  const getRetryLimit = () => {
+    if (activeWriteOption === 'small-batch') {
+      return error?.data?.retryLimit as number
+    }
+    if (activeWriteOption === 'bulk') {
+      return sentences[locale]?.bulkUploadStatusData?.retryLimit as number
+    }
+    return undefined
+  }
+
+  const retryLimit = getRetryLimit()
+
   const smallBatchResponse =
-    sentenceWriteState?.smallBatchResponse ||
-    JSON.parse(localStorage.getItem(SMALL_BATCH_KEY))
+    stateSmallBatchResponse || JSON.parse(localStorage.getItem(SMALL_BATCH_KEY))
 
   const showSmallBatchSummary =
     activeWriteOption === 'small-batch' &&
     smallBatchResponse?.invalidSentences.length > 0
+
+  const showRateLimitError =
+    (activeWriteOption === 'small-batch' &&
+      error?.type === SentenceSubmissionError.RATE_LIMIT_EXCEEDED) ||
+    (activeWriteOption === 'bulk' &&
+      sentences[locale]?.bulkUploadStatusData?.error === RATE_LIMIT_EXCEEDED)
 
   if (isUploadDone) {
     return (
@@ -83,25 +117,50 @@ const WriteContainer = () => {
   const getWriteComponent = (
     activeWriteOption: WriteSubmissionToggleOptions
   ) => {
-    if (activeWriteOption === 'single') {
-      return (
-        <SentenceWrite allVariants={allVariants} mode={activeWriteOption} />
-      )
+    const sharedProps = {
+      allVariants,
+      handleCitationChange,
+      handlePublicDomainChange,
+      handleSentenceDomainChange,
+      handleSentenceInputChange,
+      handleSentenceVariantChange,
+      handleSubmit,
+      citation,
+      sentence,
+      sentenceVariant,
+      sentenceDomains,
+      error,
+      confirmPublicDomain,
     }
 
-    if (activeWriteOption === 'bulk') {
-      return <BulkSubmissionWrite />
-    }
-
-    if (activeWriteOption === 'small-batch') {
-      return (
-        <SentenceWrite allVariants={allVariants} mode={activeWriteOption} />
-      )
+    switch (activeWriteOption) {
+      case 'single':
+        return <SentenceWrite {...sharedProps} mode={activeWriteOption} />
+      case 'bulk':
+        return <BulkSubmissionWrite />
+      case 'small-batch':
+        return <SentenceWrite {...sharedProps} mode={activeWriteOption} />
+      default:
+        return null
     }
   }
 
   return (
     <div className="write-container" data-testid="write-container">
+      {showRateLimitError && (
+        <Localized
+          id={
+            retryLimit > 60
+              ? 'rate-limit-message-minutes'
+              : 'rate-limit-message-seconds'
+          }
+          vars={{
+            retryLimit:
+              retryLimit > 60 ? secondsToMinutes(retryLimit) : retryLimit,
+          }}>
+          <p className="mobile-rate-limit-message" />
+        </Localized>
+      )}
       {showSmallBatchSummary && (
         <div className="mobile-small-batch-summary">
           <SmallBatchSummary smallBatchResponse={smallBatchResponse} />
@@ -119,6 +178,20 @@ const WriteContainer = () => {
         className={classNames('instruction-and-form-wrapper', {
           centered: !account,
         })}>
+        {showRateLimitError && (
+          <Localized
+            id={
+              retryLimit > 60
+                ? 'rate-limit-message-minutes'
+                : 'rate-limit-message-seconds'
+            }
+            vars={{
+              retryLimit:
+                retryLimit > 60 ? secondsToMinutes(retryLimit) : retryLimit,
+            }}>
+            <p className="rate-limit-message" />
+          </Localized>
+        )}
         {showSmallBatchSummary && (
           <div className="small-batch-summary">
             <SmallBatchSummary smallBatchResponse={smallBatchResponse} />

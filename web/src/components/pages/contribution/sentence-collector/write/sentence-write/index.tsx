@@ -6,11 +6,11 @@ import { LabeledCheckbox, LinkButton } from '../../../../../ui/ui'
 import { PrimaryButton } from '../../../../../primary-buttons/primary-buttons'
 
 import { SentenceInputAndRules } from '../sentence-input-and-rules/sentence-input-and-rules'
-import { sentenceDomains } from 'common'
-import { useSentenceWrite } from './hooks/use-sentence-write'
 
 import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 import URLS from '../../../../../../urls'
+
+import { StateError } from './types'
 
 import './sentence-write.css'
 
@@ -19,19 +19,38 @@ export type WriteMode = 'single' | 'small-batch'
 type Props = {
   allVariants: string[]
   mode: WriteMode
+  handleCitationChange: (event: React.ChangeEvent<HTMLInputElement>) => void
+  handlePublicDomainChange: () => void
+  handleSentenceDomainChange: (domain: string[]) => void
+  handleSentenceInputChange: (
+    event: React.ChangeEvent<HTMLTextAreaElement>
+  ) => void
+  handleSentenceVariantChange: (item: string) => void
+  handleSubmit: (evt: React.SyntheticEvent) => Promise<void>
+  citation: string
+  sentence: string
+  sentenceVariant: string
+  sentenceDomains: string[]
+  error?: StateError
+  confirmPublicDomain: boolean
 }
 
-export const SentenceWrite: React.FC<Props> = ({ allVariants, mode }) => {
-  const {
-    handleCitationChange,
-    handlePublicDomainChange,
-    handleSentenceDomainChange,
-    handleSentenceInputChange,
-    handleSentenceVariantChange,
-    handleSubmit,
-    sentenceWriteState,
-  } = useSentenceWrite(mode)
-
+export const SentenceWrite: React.FC<Props> = ({
+  allVariants,
+  mode,
+  handleCitationChange,
+  handlePublicDomainChange,
+  handleSentenceDomainChange,
+  handleSubmit,
+  handleSentenceInputChange,
+  handleSentenceVariantChange,
+  citation,
+  sentence,
+  sentenceVariant,
+  sentenceDomains,
+  confirmPublicDomain,
+  error,
+}) => {
   return (
     <form
       className="guidelines-form"
@@ -41,15 +60,15 @@ export const SentenceWrite: React.FC<Props> = ({ allVariants, mode }) => {
         <SentenceInputAndRules
           handleSentenceInputChange={handleSentenceInputChange}
           handleCitationChange={handleCitationChange}
-          sentence={sentenceWriteState.sentence}
-          citation={sentenceWriteState.citation}
+          sentence={sentence}
+          citation={citation}
           sentenceDomains={sentenceDomains}
           setSelectedSentenceDomains={handleSentenceDomainChange}
-          selectedSentenceDomains={sentenceWriteState.sentenceDomains}
-          error={sentenceWriteState.error}
+          selectedSentenceDomains={sentenceDomains}
+          error={error}
           handleSentenceVariantChange={handleSentenceVariantChange}
           variantTokens={allVariants}
-          selectedVariant={sentenceWriteState.sentenceVariant}
+          selectedVariant={sentenceVariant}
           mode={mode}
         />
       </div>
@@ -95,8 +114,8 @@ export const SentenceWrite: React.FC<Props> = ({ allVariants, mode }) => {
                 <span />
               </Localized>
             }
-            disabled={sentenceWriteState.sentence.length === 0}
-            checked={sentenceWriteState.confirmPublicDomain}
+            disabled={sentence.length === 0}
+            checked={confirmPublicDomain}
             required
             onChange={handlePublicDomainChange}
             data-testid="public-domain-checkbox"
@@ -105,7 +124,7 @@ export const SentenceWrite: React.FC<Props> = ({ allVariants, mode }) => {
             <PrimaryButton
               className="submit"
               type="submit"
-              disabled={!sentenceWriteState.confirmPublicDomain}
+              disabled={!confirmPublicDomain}
               data-testid="submit-button"
             />
           </Localized>

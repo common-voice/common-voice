@@ -99,8 +99,31 @@ too-many-files = Too many files
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Add multiple public domain sentences
 multiple-sentences-error = You cannot add multiple sentences for a single submission
-# <errorIcon></erroricon> will be replace with an icon that represents an error
 exceeds-small-batch-limit-error = Cannot submit more than 1000 sentences
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes = 
+    Rate limit exceeded. Try again in {$retryLimit -> 
+        [one] 1 minute
+        *[other] {$retryLimit} minutes
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds = 
+    Rate limit exceeded. Try again in {$retryLimit -> 
+        [one] 1 second
+        *[other] {$retryLimit} seconds
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes = 
+    You have reached the submission limit for this page. Please wait for {$retryLimit -> 
+        [one] 1 minute
+        *[other] {$retryLimit} minutes
+    } before submitting another sentence. Thank you for your patience!
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds = 
+    You have reached the submission limit for this page. Please wait for {$retryLimit -> 
+        [one] 1 second
+        *[other] {$retryLimit} seconds
+    } before submitting another sentence. Thank you for your patience!
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     {$uploadedSentences} {$totalSentences -> 

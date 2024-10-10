@@ -6,14 +6,27 @@ export type SmallBatchResponse = {
   invalidSentences: { sentence: string; errorType: string }[]
 }
 
+export type StateError = {
+  type: SentenceSubmissionError
+  data?: Record<string, unknown>
+}
+
 export type SentenceWriteState = {
   sentence: string
   citation: string
   sentenceDomains: string[]
   sentenceVariant?: string
-  error: SentenceSubmissionError
+  error?: StateError
   confirmPublicDomain: boolean
   smallBatchResponse?: SmallBatchResponse
+}
+
+export type DispatchError<T extends object> = {
+  errorType: SentenceSubmissionError
+  localizedMessageKey?: string
+  localizedMessageVars?: Record<string, string | number>
+  errorIcon?: React.ComponentType<T>
+  errorData?: Record<string, unknown>
 }
 
 export enum SentenceWriteActionType {
@@ -59,7 +72,7 @@ export type AddSentenceSuccessAction = {
 
 export type AddSentenceErrorAction = {
   type: SentenceWriteActionType.ADD_SENTENCE_ERROR
-  payload: { error: SentenceSubmissionError }
+  payload: { error: StateError }
 }
 
 export type SentenceWriteActions =

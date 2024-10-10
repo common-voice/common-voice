@@ -1,6 +1,7 @@
 import React, { useReducer } from 'react'
 import { useDispatch } from 'react-redux'
 import { useLocalization } from '@fluent/react'
+import { secondsToMinutes } from 'date-fns'
 
 import { AlertIcon, CheckIcon } from '../../../../../../ui/icons'
 
@@ -13,20 +14,24 @@ import { useLocale } from '../../../../../../locale-helpers'
 import { Sentences } from '../../../../../../../stores/sentences'
 import { Notifications } from '../../../../../../../stores/notifications'
 import { WriteMode } from '..'
-import { SentenceWriteActionType, SentenceWriteState } from '../types'
+import {
+  DispatchError,
+  SentenceWriteActionType,
+  SentenceWriteState,
+} from '../types'
 
 const initialState: SentenceWriteState = {
   sentence: '',
   citation: '',
   sentenceDomains: [],
   sentenceVariant: '',
-  error: undefined,
   confirmPublicDomain: false,
 }
 
 const allVariantToken = 'sentence-variant-select-multiple-variants'
 const MAX_SMALL_BATCH_SENTENCES_LENGTH = 1000
 export const SMALL_BATCH_KEY = 'small-batch-responses'
+const TOO_MANY_REQUESTS = 'Too Many Requests'
 
 const newLineRegex = /\r|\n/
 
@@ -91,21 +96,28 @@ export const useSentenceWrite = (mode: WriteMode) => {
     })
   }
 
-  const dispatchError = <T extends object>(
-    errorType: SentenceSubmissionError,
-    messageKey?: string,
-    icon?: React.ComponentType<T>
-  ) => {
+  const dispatchError = <T extends object>({
+    errorType,
+    errorData,
+    localizedMessageKey,
+    localizedMessageVars,
+    errorIcon,
+  }: DispatchError<T>) => {
     sentenceWriteDispatch({
       type: SentenceWriteActionType.ADD_SENTENCE_ERROR,
-      payload: { error: errorType },
+      payload: {
+        error: {
+          type: errorType,
+          ...(errorData && { data: errorData }),
+        },
+      },
     })
 
-    if (messageKey) {
+    if (localizedMessageKey) {
       addNotification({
-        message: l10n.getString(messageKey),
+        message: l10n.getString(localizedMessageKey, localizedMessageVars),
         type: 'error',
-        ...(icon && { icon }),
+        ...(errorIcon && { icon: errorIcon }),
       })
     }
   }
@@ -116,15 +128,16 @@ export const useSentenceWrite = (mode: WriteMode) => {
       sentenceSubmission.sentence.split('\n').length
 
     if (!sentenceSubmission.source) {
-      dispatchError(SentenceSubmissionError.NO_CITATION)
+      dispatchError({ errorType: SentenceSubmissionError.NO_CITATION })
       return false
     }
 
     if (mode === 'single' && hasMultipleSentences) {
-      dispatchError(
-        SentenceSubmissionError.MULTIPLE_SENTENCES,
-        'multiple-sentences-error'
-      )
+      dispatchError({
+        errorType: SentenceSubmissionError.MULTIPLE_SENTENCES,
+        localizedMessageKey: 'multiple-sentences-error',
+      })
+
       return false
     }
 
@@ -132,11 +145,11 @@ export const useSentenceWrite = (mode: WriteMode) => {
       mode === 'small-batch' &&
       smallBatchSentencesLength > MAX_SMALL_BATCH_SENTENCES_LENGTH
     ) {
-      dispatchError(
-        SentenceSubmissionError.EXCEEDS_SMALL_BATCH_LIMIT,
-        'exceeds-small-batch-limit-error',
-        AlertIcon
-      )
+      dispatchError({
+        errorType: SentenceSubmissionError.EXCEEDS_SMALL_BATCH_LIMIT,
+        localizedMessageKey: 'exceeds-small-batch-limit-error',
+        errorIcon: AlertIcon,
+      })
       return false
     }
 
@@ -200,8 +213,28 @@ export const useSentenceWrite = (mode: WriteMode) => {
         }),
       })
     } catch (error) {
-      const errorMessage = JSON.parse(error.message)
-      dispatchError(errorMessage.errorType, 'add-sentence-error')
+      if (error.message === TOO_MANY_REQUESTS) {
+        const retryLimit =
+          Number(error.retryAfter) > 60
+            ? secondsToMinutes(error.retryAfter)
+            : Number(error.retryAfter)
+
+        dispatchError({
+          errorType: SentenceSubmissionError.RATE_LIMIT_EXCEEDED,
+          localizedMessageKey:
+            Number(error.retryAfter) > 60
+              ? 'rate-limit-toast-message-minutes'
+              : 'rate-limit-toast-message-seconds',
+          localizedMessageVars: { retryLimit },
+          errorIcon: AlertIcon,
+          errorData: { retryLimit: Number(error.retryAfter) },
+        })
+      } else {
+        dispatchError({
+          errorType: SentenceSubmissionError.REQUEST_ERROR,
+          localizedMessageKey: 'add-sentence-error',
+        })
+      }
     }
   }
 

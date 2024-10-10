@@ -13,6 +13,27 @@
         flex-direction: column;
     }
 
+    & .rate-limit-message,
+    .mobile-rate-limit-message {
+        text-align: center;
+        font-weight: 600;
+        width: 750px;
+        align-self: center;
+        padding: 20px;
+    }
+
+    & .rate-limit-message {
+        @media (width <= 1400px) {
+            display: none;
+        }
+    }
+
+    & .mobile-rate-limit-message {
+        @media (width > 1400px) {
+            display: none;
+        }
+    }
+
     & .subtitle {
         margin: 0 auto;
         font-size: var(--font-size-sm);

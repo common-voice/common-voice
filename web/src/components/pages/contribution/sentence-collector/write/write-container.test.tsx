@@ -47,7 +47,14 @@ afterEach(() => {
   jest.clearAllMocks()
 })
 
-const submitSentence = (sentence: string) => {
+const submitSentence = ({
+  sentence,
+  hasCitation,
+}: {
+  sentence: string
+  hasCitation: boolean
+  addDomain?: boolean
+}) => {
   const sentenceTextArea = screen.getByTestId('sentence-textarea')
   const citationInput = screen.getByTestId('citation-input')
   const submitButton = screen.getByTestId('submit-button')
@@ -59,7 +66,9 @@ const submitSentence = (sentence: string) => {
     },
   })
 
-  fireEvent.change(citationInput, { target: { value: 'self' } })
+  if (hasCitation) {
+    fireEvent.change(citationInput, { target: { value: 'self' } })
+  }
 
   fireEvent.click(publicDomainCheckBox)
 
@@ -89,6 +98,44 @@ describe('Write container', () => {
     })
   })
 
+  it('submits when all fields are filled - single sentence', async () => {
+    renderWithProviders(<WriteContainer />)
+
+    submitSentence({
+      sentence: 'This is a mock sentence',
+      hasCitation: true,
+    })
+
+    await waitFor(async () => {
+      expect(useActionMock).toHaveBeenCalledWith({
+        sentenceSubmission: {
+          sentence: 'This is a mock sentence',
+          source: 'self',
+          localeName: 'mock-locale-1',
+          domains: [],
+        },
+      })
+    })
+  })
+
+  it('requires citation before submitting', async () => {
+    renderWithProviders(<WriteContainer />)
+
+    submitSentence({
+      sentence: 'This is a mock sentence',
+      hasCitation: false,
+    })
+
+    await waitFor(() => {
+      // assert that submit button is not disabled
+      expect(
+        screen.getByTestId('submit-button').hasAttribute('disabled')
+      ).toBeFalsy()
+
+      expect(screen.getByTestId('citation-error-message')).toBeTruthy()
+    })
+  })
+
   it('submits small batch sentences', async () => {
     const mockResponse = {
       valid_sentences_count: 5,
@@ -105,7 +152,10 @@ describe('Write container', () => {
     const smallBatchOption = screen.getByTestId('small-batch-option')
     fireEvent.click(smallBatchOption)
 
-    submitSentence('This is a mock sentence\nThis is the second mock sentence')
+    submitSentence({
+      sentence: 'This is a mock sentence\nThis is the second mock sentence',
+      hasCitation: true,
+    })
 
     await waitFor(async () => {
       expect(useActionMock).toHaveBeenCalledWith({
