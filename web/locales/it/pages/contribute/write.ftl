@@ -5,12 +5,14 @@ write-instruction = <icon></icon> Aggiungi una frase di pubblico dominio
 write-page-subtitle = Le frasi inserite verranno aggiunte a un dataset con licenza cc-0 disponibile pubblicamente.
 sentence =
     .label = Frase
-sentence-input-value = Inserisci qui la frase di pubblico dominio
+sentence-input-placeholder = Inserisci qui la frase di pubblico dominio
+small-batch-sentence-input-placeholder = Inserisci qui le frasi di pubblico dominio
 citation-input-placeholder = Specifica la fonte della frase (obbligatorio)
 citation =
     .label = Citazione
 sc-write-submit-confirm = Confermo che questa frase è di <wikipediaLink>pubblico dominio</wikipediaLink> e ho l’autorizzazione a caricarla.
 sc-review-write-title = Quali frasi posso aggiungere?
+sc-review-small-batch-title = Come aggiungere più frasi
 new-sentence-rule-1 = <noCopyright>Nessuna restrizione di copyright</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Meno di 15 parole
 new-sentence-rule-3 = Utilizza una grammatica corretta
@@ -19,6 +21,7 @@ new-sentence-rule-5 = Niente numeri e caratteri speciali
 new-sentence-rule-6 = Niente lettere straniere
 new-sentence-rule-7 = Includi la citazione opportuna
 new-sentence-rule-8 = Preferibilmente naturale e discorsiva (la frase dev’essere facile da leggere)
+login-instruction-multiple-sentences = <loginLink>Accedi</loginLink> o <loginLink>registrati</loginLink> per aggiungere più frasi
 how-to-cite = Come posso fare una citazione?
 how-to-cite-explanation-bold = Cita fornendo un link o il nome completo dell’opera.
 how-to-cite-explanation = Se sono parole tue, scrivi semplicemente <italicizedText>“Autocitazione”</italicizedText>. Abbiamo bisogno di sapere dove hai trovato questo contenuto in modo da poter verificare che sia di pubblico dominio e che non vi siano restrizioni di copyright. Per ulteriori informazioni sulle citazioni, consulta le nostre <guidelinesLink>Linee guida</guidelinesLink>.
@@ -30,7 +33,6 @@ required-field = Compilare questo campo.
 single-sentence-submission = Invio di una singola frase
 bulk-sentence-submission = Invio di frasi in blocco
 single-sentence = Singola frase
-bulk-sentences = Frasi in blocco
 sentence-domain-combobox-label = Dominio della frase
 sentence-domain-select-placeholder = Scegli fino a 3 domini
 # Sentence Domain dropdown option
@@ -89,3 +91,51 @@ file-invalid-type = File non valido
 file-too-large = Il file è troppo grande
 file-too-small = Il file è troppo piccolo
 too-many-files = Troppi file
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Aggiungi più frasi di pubblico dominio
+multiple-sentences-error = Non è possibile aggiungere più frasi in un singolo invio
+exceeds-small-batch-limit-error = Non è possibile inviare più di 1000 frasi
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Limite di frequenza superato. Riprova tra 1 minuto
+       *[other] Limite di frequenza superato. Riprova tra { $retryLimit } minuti
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Limite di frequenza superato. Riprova tra 1 secondo
+       *[other] Limite di frequenza superato. Riprova tra { $retryLimit } secondi
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Hai raggiunto il limite di invii per questa pagina. Attendi 1 minuto prima di inviare un’altra frase. Grazie per la pazienza.
+       *[other] Hai raggiunto il limite di invii per questa pagina. Attendi { $retryLimit } minuti prima di inviare un’altra frase. Grazie per la pazienza.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Hai raggiunto il limite di invii per questa pagina. Attendi 1 secondo prima di inviare un’altra frase. Grazie per la pazienza.
+       *[other] Hai raggiunto il limite di invii per questa pagina. Attendi { $retryLimit } secondi prima di inviare un’altra frase. Grazie per la pazienza.
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } frase raccolta su 1
+       *[other] { $uploadedSentences } frasi raccolte su { $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } frase raccolta su 1. Fai clic <downloadLink>qui</downloadLink> per scaricare le frasi rifiutate.
+       *[other] { $uploadedSentences } frasi raccolte su { $totalSentences }. Fai clic <downloadLink>qui</downloadLink> per scaricare le frasi rifiutate.
+    }
+small-batch-sentences-rule-1 = Segui le linee guida della sezione “Quali frasi posso aggiungere?”
+small-batch-sentences-rule-2 = Aggiungi una frase per riga
+small-batch-sentences-rule-3 = Separa le frasi sulla stessa riga premendo una volta il pulsante “Invio”
+small-batch-sentences-rule-4 = Aggiungi fino a 1000 frasi
+small-batch-sentences-rule-6 = Tutte le frasi devono avere la stessa citazione
