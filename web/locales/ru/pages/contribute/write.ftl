@@ -129,3 +129,23 @@ rate-limit-message-seconds =
         [few] Вы достигли лимита представлений для этой страницы. Пожалуйста, подождите { $retryLimit } секунды перед отправкой следующего предложения. Спасибо за терпение!
        *[many] Вы достигли лимита представлений для этой страницы. Пожалуйста, подождите { $retryLimit } секунд перед отправкой следующего предложения. Спасибо за терпение!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } из 1 предложения собрано
+        [few] { $uploadedSentences } из { $totalSentences } предложений собрано
+       *[many] { $uploadedSentences } из { $totalSentences } предложений собрано
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } из 1 предложения собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы загрузить отклонённые предложения.
+        [few] { $uploadedSentences } из { $totalSentences } предложений собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы загрузить отклонённые предложения.
+       *[many] { $uploadedSentences } из { $totalSentences } предложений собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы загрузить отклонённые предложения.
+    }
+small-batch-sentences-rule-1 = Следуйте инструкциям из раздела «Какие предложения я могу добавить?»
+small-batch-sentences-rule-2 = Добавлять по одному предложению на строку
+small-batch-sentences-rule-3 = Разделяйте предложения по одному на строку, нажимая однократно «Enter» или «Return»
+small-batch-sentences-rule-4 = Добавить до 1000 предложений
+small-batch-sentences-rule-5 = Все предложения должны иметь один и тот же домен
+small-batch-sentences-rule-6 = Все предложения должны иметь одинаковое цитирование
