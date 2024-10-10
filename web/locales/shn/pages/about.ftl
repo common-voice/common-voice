@@ -50,6 +50,7 @@ about-get-involved-text-2 =
     တူင်ႇဝူင်းသျႅတ်ႉ <matrixLink> Matrix </matrixLink>
 about-stay-in-touch = တေႁဵတ်းႁိုဝ်ၵပ်းသိုပ်ႇၵၼ်?
 about-stay-in-touch-button = လူင်းသဵၼ်ႈမၢႆ
+about-stay-in-touch-text-1 = <emailFragment>လူင်းသဵၼ်ႈၸိုဝ်ႈ</emailFragment>ၼႂ်းသဵၼ်ႈမၢႆဢီးမေးလ်ႁဝ်းၶႃႈ တႃႇလဵပ်ႈႁဵၼ်းဝႃႈ သူၸဝ်ႈၸၢင်ႈၶဝ်ႈႁူမ်ႈၶႅမ်ႊၿဵၼ်ႊ၊ ပၢင်ပွႆး၊ လႄႈႁူမ်ႈဢွၵ်ႇၽႅၼ်သၢင်ႈ ၽၢင်ႁၢင်ႈ ၼိူဝ် Common Voice လႆႈၸိူင်ႉႁိုင်လၢႆလၢႆ။
 about-stay-in-touch-text-2 = သူၸၢင်ႈႁူပ်ႉထူပ်းၸွမ်းတၢင်ႇၵေႃႉ ၼႂ်းတူင်ႇဝူင်းၽႃႇသႃႇ Mozilla လူၺ်ႈၶဝ်ႈႁူမ်ႈ <discourseLink> Discourse </discourseLink> တွၼ်ႈတႃႇဢုပ်ႇၵုမ်ၸွမ်းႁူဝ်ၶေႃႈ၊ ဢမ်ႇၼၼ် <matrixLink> Matrix </matrixLink> တွၼ်ႈတႃႇယွၼ်းတၢင်းႁၼ်ထိုင် ဝႆးဝႆး။
 about-nav-why-common-voice = ၵွပ်ႈသင် ?
 about-nav-how-it-works = ၸိူင်ႉႁိုဝ် ?
