@@ -90,6 +90,7 @@ const WriteContainer = () => {
     }
     return undefined
   }
+
   const retryLimit = getRetryLimit()
 
   const smallBatchResponse =
