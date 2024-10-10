@@ -12,6 +12,10 @@ const useActionMock = jest.fn()
 const mockVariants = jest.fn(() => Promise.resolve({}))
 
 const allVariants = ['mock-variant-1', 'mock-variant-2']
+const mockCitation = 'mock-citation'
+const mockSentence = 'Mock sentence'
+const mockSentenceVariant = 'mock-variant-1'
+const mockSentenceDomains = ['mock-domain-1', 'mock-domain-2']
 
 jest.mock('../../../../../../hooks/store-hooks', () => ({
   useAction: () => useActionMock,
@@ -38,7 +42,21 @@ afterEach(() => {
 describe('Single Submission Write page', () => {
   it('renders Single Submission Write page', async () => {
     renderWithProviders(
-      <SentenceWrite allVariants={allVariants} mode="single" />
+      <SentenceWrite
+        allVariants={allVariants}
+        mode="single"
+        handleCitationChange={jest.fn()}
+        handlePublicDomainChange={jest.fn()}
+        handleSentenceDomainChange={jest.fn()}
+        handleSentenceInputChange={jest.fn()}
+        handleSentenceVariantChange={jest.fn()}
+        handleSubmit={jest.fn()}
+        citation={mockCitation}
+        sentence={mockSentence}
+        sentenceVariant={mockSentenceVariant}
+        sentenceDomains={mockSentenceDomains}
+        confirmPublicDomain
+      />
     )
 
     await waitFor(() => {
@@ -50,7 +68,21 @@ describe('Single Submission Write page', () => {
 
   it('requires a citation before submitting', async () => {
     renderWithProviders(
-      <SentenceWrite allVariants={allVariants} mode="single" />
+      <SentenceWrite
+        allVariants={allVariants}
+        mode="single"
+        handleCitationChange={jest.fn()}
+        handlePublicDomainChange={jest.fn()}
+        handleSentenceDomainChange={jest.fn()}
+        handleSentenceInputChange={jest.fn()}
+        handleSentenceVariantChange={jest.fn()}
+        handleSubmit={jest.fn()}
+        citation={mockCitation}
+        sentence={mockSentence}
+        sentenceVariant={mockSentenceVariant}
+        sentenceDomains={mockSentenceDomains}
+        confirmPublicDomain
+      />
     )
 
     const sentenceTextArea = screen.getByTestId('sentence-textarea')
@@ -87,7 +119,21 @@ describe('Single Submission Write page', () => {
     useActionMock.mockResolvedValue(mockCreateSentence())
 
     renderWithProviders(
-      <SentenceWrite allVariants={allVariants} mode="single" />
+      <SentenceWrite
+        allVariants={allVariants}
+        mode="single"
+        handleCitationChange={jest.fn()}
+        handlePublicDomainChange={jest.fn()}
+        handleSentenceDomainChange={jest.fn()}
+        handleSentenceInputChange={jest.fn()}
+        handleSentenceVariantChange={jest.fn()}
+        handleSubmit={jest.fn()}
+        citation={mockCitation}
+        sentence={mockSentence}
+        sentenceVariant={mockSentenceVariant}
+        sentenceDomains={mockSentenceDomains}
+        confirmPublicDomain
+      />
     )
 
     const sentenceTextArea = screen.getByTestId('sentence-textarea')

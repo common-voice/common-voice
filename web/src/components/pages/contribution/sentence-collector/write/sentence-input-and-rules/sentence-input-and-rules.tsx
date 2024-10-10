@@ -15,6 +15,7 @@ import URLS from '../../../../../../urls'
 import { useMultipleComboBox } from '../../../../../multiple-combobox/use-multiple-combobox'
 import { useAccount } from '../../../../../../hooks/store-hooks'
 import { WriteMode } from '../sentence-write'
+import { StateError } from '../sentence-write/types'
 
 type Props = {
   handleSentenceInputChange: (
@@ -27,7 +28,7 @@ type Props = {
   sentence: string
   citation: string
   sentenceDomains: readonly string[]
-  error: SentenceSubmissionError
+  error?: StateError
   variantTokens: string[]
   selectedVariant?: string
   mode: WriteMode
@@ -47,8 +48,9 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   selectedVariant,
   mode,
 }) => {
-  const isSentenceError = error && error !== SentenceSubmissionError.NO_CITATION
-  const isCitationError = error === SentenceSubmissionError.NO_CITATION
+  const isSentenceError =
+    error && error?.type !== SentenceSubmissionError.NO_CITATION
+  const isCitationError = error?.type === SentenceSubmissionError.NO_CITATION
   const hasVariants = variantTokens && variantTokens.length > 0
 
   const { l10n } = useLocalization()
@@ -139,7 +141,7 @@ export const SentenceInputAndRules: React.FC<Props> = ({
           </div>
         </div>
         <Rules
-          error={error}
+          error={error?.type}
           showFirstRule
           isLoggedIn={Boolean(account)}
           mode={mode}
