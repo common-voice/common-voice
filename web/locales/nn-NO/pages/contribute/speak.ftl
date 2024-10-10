@@ -1,3 +1,6 @@
+speak = Snakk
+speak-now = Snakk no
+speak-subtitle = Doner stemma di
 record-cta = Start innspeling
 record-platform-not-supported = Vi beklagar, men plattforma di er for tida ikkje støtta.
 record-platform-not-supported-desktop = Til datamaskiner kan du laste ned siste versjon:

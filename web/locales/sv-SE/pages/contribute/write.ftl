@@ -5,20 +5,23 @@ write-instruction = Lägg till <icon></icon> en mening som är allmän egendom
 write-page-subtitle = Meningar som bidrags här kommer att läggas till i en allmänt tillgänglig cc-0-licensierad datamängd.
 sentence =
     .label = Mening
-sentence-input-value = Ange din mening som är allmän egendom här
+sentence-input-placeholder = Ange din mening som är allmän egendom här
+small-batch-sentence-input-placeholder = Ange din mening som är allmän egendom här
 citation-input-placeholder = Hänvisa till källan till din mening (krävs)
 citation =
     .label = Källhänvisning
 sc-write-submit-confirm = Jag bekräftar att den här meningen är <wikipediaLink>allmän egendom</wikipediaLink> och jag har tillstånd att ladda upp den.
 sc-review-write-title = Vilka meningar kan jag lägga till?
+sc-review-small-batch-title = Hur man lägger till flera meningar
 new-sentence-rule-1 = <noCopyright>Inga upphovsrättsbegränsningar</noCopyright> (<cc0>cc-0</cc0>)
-new-sentence-rule-2 = Färre än 15 ord
+new-sentence-rule-2 = Färre än 15 ord per mening
 new-sentence-rule-3 = Använd korrekt grammatik
 new-sentence-rule-4 = Använd korrekt stavning och skiljetecken
 new-sentence-rule-5 = Inga siffror och specialtecken
 new-sentence-rule-6 = Inga utländska bokstäver
 new-sentence-rule-7 = Inkludera lämpligt citat
 new-sentence-rule-8 = Helst naturligt och konversationsrikt (det ska vara lätt att läsa meningen)
+login-instruction-multiple-sentences = <loginLink>Logga in</loginLink> eller <loginLink>registrera dig</loginLink> för att lägga till flera meningar
 how-to-cite = Hur citerar jag?
 how-to-cite-explanation-bold = Citera med en URL-länk eller verkets fullständiga namn.
 how-to-cite-explanation = Om det är dina egna ord, säg bara <italicizedText>"Självcitering"</italicizedText>. Vi behöver veta var du hittade detta innehåll så att vi kan kontrollera att det är allmän egendom och inga upphovsrättsliga begränsningar gäller. För mer information om citering, se vår <guidelinesLink>sida med riktlinjer</guidelinesLink>.
@@ -28,9 +31,11 @@ add-sentence-success = 1 mening insamlad
 add-sentence-error = Det gick inte att lägga till mening
 required-field = Var vänlig fyll i det här fältet.
 single-sentence-submission = Inlämning av en enda mening
-bulk-sentence-submission = Massinlämning
+small-batch-sentence-submission = Inlämning av meningar i liten mängd
+bulk-sentence-submission = Inlämning av flera meningar
 single-sentence = Enstaka mening
-bulk-sentences = Flera meningar
+small-batch-sentence = Liten mängd
+bulk-sentence = Stor mängd
 sentence-domain-combobox-label = Meningsdomän
 sentence-domain-select-placeholder = Välj upp till tre domäner
 # Sentence Domain dropdown option
@@ -89,3 +94,29 @@ file-invalid-type = Felaktig fil
 file-too-large = Filen är för stor
 file-too-small = Filen är för liten
 too-many-files = För många filer
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Lägg till flera meningar som är allmän egendom
+multiple-sentences-error = Du kan inte lägga till flera meningar för en enda inlämning
+# <errorIcon></erroricon> will be replace with an icon that represents an error
+exceeds-small-batch-limit-error = Kan inte skicka in fler än 1000 meningar
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } av 1 mening insamlad
+       *[other] { $uploadedSentences } av { $totalSentences } meningar insamlade
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } av 1 mening insamlad. Klicka <downloadLink>här</downloadLink> för att ladda ner avvisade meningar.
+       *[other] { $uploadedSentences } av { $totalSentences } meningar insamlade. Klicka <downloadLink>här</downloadLink> för att ladda ner avvisade meningar.
+    }
+small-batch-sentences-rule-1 = Följ riktlinjerna från "Vilka meningar kan jag lägga till?"
+small-batch-sentences-rule-2 = Lägg till en mening per rad
+small-batch-sentences-rule-3 = Separera meningar på en rad genom att trycka på "Enter" eller "Retur" en gång
+small-batch-sentences-rule-4 = Lägg till upp till 1 000 meningar
+small-batch-sentences-rule-5 = Alla meningar måste ha samma domän
+small-batch-sentences-rule-6 = Alla meningar måste ha samma källa

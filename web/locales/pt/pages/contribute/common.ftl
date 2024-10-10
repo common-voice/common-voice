@@ -33,6 +33,14 @@ change-preferences = Alterar preferências
 
 contribute-voice-collection-nav-header = Coleta de voz
 contribute-sentence-collection-nav-header = Coleta de frases
+login-signup = Entrar / Cadastrar-se
+vote-yes = Sim
+vote-no = Não
+datasets = Conjuntos de dados
+languages = Idiomas
+about = Informações
+partner = Parceiro
+submit-form-action = Enviar
 
 ## Reporting
 

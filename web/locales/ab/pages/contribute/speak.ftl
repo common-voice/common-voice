@@ -1,6 +1,10 @@
+speak = Ацәажәара
+speak-now = Уажәы уцәажәа
+speak-subtitle = Шәыбжьы ҭажәгал
 record-cta = Абжьы ҭаҩра иалагоит
 record-platform-not-supported = Ҳгәы иалоуп уажәазы уара уплатформа ацхыраара ахьамам.
 record-platform-not-supported-desktop = Астол иқәдыргыло акомпиутерқәа ирҭаугалар улшоит аҵыхәтәантәи:
+record-platform-not-supported-ios-non-safari = IOS аҿы аҭаҩра аус аруразы, шәхы иашәырхәа Safari...
 record-must-allow-microphone = Уара азин ҟауҵароуп амикрафон ахархәара.
 record-no-mic-found = Амикрофон ԥшаам
 record-error-too-short = Абжьы ҭаҩра кьаҿуп
@@ -35,3 +39,24 @@ review-delete-recordings = Сынҵамҭақәа ықәгатәуп
 review-terms = Common Voice ухы ианаурхәа, уи иаанагоит ҳара <termsLink>ахархәашьа</termsLink> егьы <privacyLink>Ир­ма­ӡоу Ардырра</privacyLink> урықәшаҳаҭуп ҳәа.
 terms-agree = Сақәшаҳаҭуп
 terms-disagree = Сақәшаҳаҭӡам
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Иҭабуп шәыбжьытә клипқәа рзы!
+first-cta-subtitle-text = Уцәажәашьа иазку аинформациа ҳзеиҭауҳәар улшома?
+why-donate = Узҵаауазеи?
+why-donate-explanation-1 = Ари аинформациа аҭара аҭахӡам - уара иуҭахызар ауп иацуҵар улшоит. Адыррақәа реизга анҭаҳҵо, ҳара ҳхатә дыррақәа зегьы ԥсевдонимла ҳхы иаҳархәоит, насгьы ухьӡи уе-маил адреси реиԥш иҟоу адыррақәа ақәра ма ахаҵара-аԥҳәысра реиԥш иҟоу демографиатә дыррақәа ирыдҳәаламзарц ҳгәаҭоит.
+why-donate-explanation-2 = Атехнологиа зегьы рзы ибзианы аус аурц азы, аҿиаҩцәа атехнологиа аԥҵара ирыцхраауа адатақәа еиуеиԥшым ауаа рыхкқәа аанарԥшыр ауп. Иаҳҳәап, акцент змоу ацәажәаҩцәа ҳхы иаҳархәозар, уи акцент змоу ауаа рзы атехнологиа аус ауӡом. <learnMore>Еиҳаны еилышәкаа аметадатақәа рҵакы.</learnMore>
+add-information-button = Аинформациа ацҵа
+continue-speaking-button = Мап иҭабуп, уаҟәымҵын уцәажәара
+create-profile-text = Уинформациа еиқәырхатәума? <createProfile>Апрофиль аԥҵара</createProfile>
+thanks-for-voice-toast = Иҭабуп шәыбжьы аинформациазы
+thanks-for-voice-toast-error = Убжьы аинформациа анашьҭраан агха ҟалеит
+first-cta-gender-select-default-option = Авариант алхтәуп
+first-cta-gender-select-help-text =
+    .label = Ишԥаҳәо уара уцәеижьтә ма угендертә хаҿра?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Иҭабуп шәыбжьыла шәахьалахәыз азы!
+second-cta-subtitle-text = Упрофиль ала, уара уусура ацклаԥшра улшоит, насгьы абжьы аԥҵаҩцәа рыуаажәларра уҽадҳәалар улшоит.
+already-have-an-account = Аконт шәымоума? <login>Аҭалара</login>
+create-profile-button = Апрофиль аԥҵара
+# IMAGE TAGS
+img-alt-success-checkmark = ақәҿиара аҵәаӷәа

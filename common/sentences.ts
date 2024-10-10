@@ -1,7 +1,7 @@
 export type SentenceSubmission = {
-  sentence: string
   source: string
   localeName: string
+  sentence: string
   domains: string[]
   variant?: string
 }
@@ -13,6 +13,10 @@ export enum SentenceSubmissionError {
   NO_ABBREVIATIONS = 'NO_ABBREVIATIONS',
   NO_FOREIGN_SCRIPT = 'NO_FOREIGN_SCRIPT',
   NO_CITATION = 'NO_CITATION',
+  MULTIPLE_SENTENCES = 'MULTIPLE_SENTENCES',
+  EXCEEDS_SMALL_BATCH_LIMIT = 'EXCEEDS_SMALL_BATCH_LIMIT',
+  RATE_LIMIT_EXCEEDED = 'RATE_LIMIT_EXCEEDED',
+  REQUEST_ERROR = 'REQUEST_ERROR',
   OTHER = 'NO_FOREIGN_SCRIPT',
 }
 

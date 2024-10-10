@@ -6,29 +6,51 @@ import { LabeledCheckbox, LinkButton } from '../../../../../ui/ui'
 import { PrimaryButton } from '../../../../../primary-buttons/primary-buttons'
 
 import { SentenceInputAndRules } from '../sentence-input-and-rules/sentence-input-and-rules'
-import { sentenceDomains } from 'common'
-import { useSingleSubmissionWrite } from './hooks/use-single-submission-write'
 
 import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 import URLS from '../../../../../../urls'
 
-import './single-submission-write.css'
+import { StateError } from './types'
+
+import './sentence-write.css'
+
+export type WriteMode = 'single' | 'small-batch'
 
 type Props = {
   allVariants: string[]
+  mode: WriteMode
+  handleCitationChange: (event: React.ChangeEvent<HTMLInputElement>) => void
+  handlePublicDomainChange: () => void
+  handleSentenceDomainChange: (domain: string[]) => void
+  handleSentenceInputChange: (
+    event: React.ChangeEvent<HTMLTextAreaElement>
+  ) => void
+  handleSentenceVariantChange: (item: string) => void
+  handleSubmit: (evt: React.SyntheticEvent) => Promise<void>
+  citation: string
+  sentence: string
+  sentenceVariant: string
+  sentenceDomains: string[]
+  error?: StateError
+  confirmPublicDomain: boolean
 }
 
-const SingleSubmissionWrite: React.FC<Props> = ({ allVariants }) => {
-  const {
-    handleCitationChange,
-    handlePublicDomainChange,
-    handleSentenceDomainChange,
-    handleSentenceInputChange,
-    handleSentenceVariantChange,
-    handleSubmit,
-    singleSentenceSubmissionState,
-  } = useSingleSubmissionWrite()
-
+export const SentenceWrite: React.FC<Props> = ({
+  allVariants,
+  mode,
+  handleCitationChange,
+  handlePublicDomainChange,
+  handleSentenceDomainChange,
+  handleSubmit,
+  handleSentenceInputChange,
+  handleSentenceVariantChange,
+  citation,
+  sentence,
+  sentenceVariant,
+  sentenceDomains,
+  confirmPublicDomain,
+  error,
+}) => {
   return (
     <form
       className="guidelines-form"
@@ -38,17 +60,16 @@ const SingleSubmissionWrite: React.FC<Props> = ({ allVariants }) => {
         <SentenceInputAndRules
           handleSentenceInputChange={handleSentenceInputChange}
           handleCitationChange={handleCitationChange}
-          sentence={singleSentenceSubmissionState.sentence}
-          citation={singleSentenceSubmissionState.citation}
+          sentence={sentence}
+          citation={citation}
           sentenceDomains={sentenceDomains}
           setSelectedSentenceDomains={handleSentenceDomainChange}
-          selectedSentenceDomains={
-            singleSentenceSubmissionState.sentenceDomains
-          }
-          error={singleSentenceSubmissionState.error}
+          selectedSentenceDomains={sentenceDomains}
+          error={error}
           handleSentenceVariantChange={handleSentenceVariantChange}
           variantTokens={allVariants}
-          selectedVariant={singleSentenceSubmissionState.sentenceVariant}
+          selectedVariant={sentenceVariant}
+          mode={mode}
         />
       </div>
 
@@ -93,8 +114,8 @@ const SingleSubmissionWrite: React.FC<Props> = ({ allVariants }) => {
                 <span />
               </Localized>
             }
-            disabled={singleSentenceSubmissionState.sentence.length === 0}
-            checked={singleSentenceSubmissionState.confirmPublicDomain}
+            disabled={sentence.length === 0}
+            checked={confirmPublicDomain}
             required
             onChange={handlePublicDomainChange}
             data-testid="public-domain-checkbox"
@@ -103,7 +124,7 @@ const SingleSubmissionWrite: React.FC<Props> = ({ allVariants }) => {
             <PrimaryButton
               className="submit"
               type="submit"
-              disabled={!singleSentenceSubmissionState.confirmPublicDomain}
+              disabled={!confirmPublicDomain}
               data-testid="submit-button"
             />
           </Localized>
@@ -112,5 +133,3 @@ const SingleSubmissionWrite: React.FC<Props> = ({ allVariants }) => {
     </form>
   )
 }
-
-export default SingleSubmissionWrite

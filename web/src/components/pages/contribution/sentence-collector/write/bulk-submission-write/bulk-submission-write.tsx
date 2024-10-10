@@ -4,13 +4,7 @@ import { Localized } from '@fluent/react'
 import classNames from 'classnames'
 import { useDispatch } from 'react-redux'
 
-import { Instruction } from '../../instruction'
-import {
-  LightBulbIcon,
-  QuestionIcon,
-  SendIcon,
-  UploadIcon,
-} from '../../../../../ui/icons'
+import { LightBulbIcon, QuestionIcon, SendIcon } from '../../../../../ui/icons'
 import { Rules } from '../sentence-input-and-rules/rules'
 import { LinkButton } from '../../../../../ui/ui'
 import ExpandableInformation from '../../../../../expandable-information/expandable-information'
@@ -19,6 +13,7 @@ import UploadZoneContent from './upload-zone-content'
 import URLS from '../../../../../../urls'
 import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 import useBulkSubmissionUpload from '../../../../../../hooks/use-bulk-submission-upload'
+import { useAccount } from '../../../../../../hooks/store-hooks'
 import { Sentences } from '../../../../../../stores/sentences'
 import { useLocale } from '../../../../../locale-helpers'
 import { trackBulkSubmission } from '../../../../../../services/tracker'
@@ -30,6 +25,7 @@ const MAX_FILE_SIZE = 1024 * 1024 * 25
 const BulkSubmissionWrite = () => {
   const dispatch = useDispatch()
   const [locale] = useLocale()
+  const account = useAccount()
 
   React.useEffect(() => {
     dispatch(Sentences.actions.setBulkUploadStatus('off'))
@@ -70,10 +66,6 @@ const BulkSubmissionWrite = () => {
   return (
     <div className="bulk-upload-container" data-testid="bulk-upload-container">
       <div className="upload-and-instruction">
-        <Instruction
-          localizedId="sc-bulk-upload-header"
-          icon={<UploadIcon />}
-        />
         <div className="upload-dropzone-and-rules">
           <div>
             <div
@@ -130,7 +122,11 @@ const BulkSubmissionWrite = () => {
               </ExpandableInformation>
             </div>
           </div>
-          <Rules showFirstRule title="sc-review-write-title" />
+          <Rules
+            showFirstRule
+            localizedTitleId="sc-review-write-title"
+            isLoggedIn={Boolean(account)}
+          />
         </div>
       </div>
       <div className="buttons">

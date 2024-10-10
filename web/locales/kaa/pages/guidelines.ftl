@@ -1,3 +1,4 @@
+voice-collection = Даўыслар топламы
 sentence-collection = Гәплер топламы
 misreadings = Надурыс оқыў
 background-noise = Сыртқы шаўқым
@@ -9,4 +10,9 @@ example = Мысал
 still-have-questions = Сораўларыңыз бар ма?
 contact-common-voice = Common Voice командасы менен байланысың
 adding-sentences = Гәплерди қосыў
+citing-sentences-subheader-websites = Веб-сайтлар
+citing-sentences-subheader-websites-explanation = Сиз веб-сайтты көрсетиўиңиз мүмкин, мысалы: "Common Voice - https://commonvoice.mozilla.org/"
+citation =
+    .label = Цитата
+adding-sentences-subheader-spelling-punctuation-explanation = Гәп дурыс жазылған болыўы керек.
 adding-sentences-subheader-numbers = Санлар

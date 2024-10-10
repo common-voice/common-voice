@@ -4,6 +4,7 @@
 
 ## Languages
 
+aa = Afárais
 ab = Abcáisis
 ace = Aicinéis
 ady = Adaigéis
@@ -104,26 +105,24 @@ tl = Tagálaigis
 tr = Tuircis
 tt = Tatairis
 udm = Udmairtis
+ug = Úígiúiris
 uk = Úcráinis
 ur = Urdúis
 uz = Úisbéicis
 vi = Vítneaimis
 vot = Vóitis
+wep = Westphalian
+yue = Cantainis
 zh-CN = Sínis (An tSín)
 zh-HK = Sínis (Hong Cong)
 zh-TW = Sínis (An Téaváin)
+zu = Súlúis
 
 # [/]
 
 
 ## Layout
 
-speak = Abair
-speak-now = Abair leat anois
-datasets = Tacair sonraí
-languages = Teangacha
-about = Maidir Leis
-partner = Comhpháirtíocht
 profile = Próifíl
 help = Cabhair
 contact = Teagmháil
@@ -137,12 +136,12 @@ share-text = Cabhraigh linn múineadh do ríomhairí conas a labhraíonn daoine;
 link-copied = Cóipeáladh an Nasc
 back-top = Fill ar bharr an leathanaigh
 logout = Scoir
+donate = Bronn airgead
 stayintouch = Táimid ag iarraidh comhphobal a thógáil timpeall teicneolaíochta cainte. Ba mhaith linn fanacht i dteagmháil leat chun nuacht agus foinsí nua sonraí a sheoladh chugat, agus le cloisteáil cén chaoi a n-úsáidfidh tú na sonraí seo.
 privacy-info = Geallaimid duit go mbeimid cúramach le do chuid sonraí pearsanta. Tuilleadh eolais inár <privacyLink>bhFógra Príobháideachais</privacyLink>.
 return-to-cv = Fill ar Common Voice
 email-input =
     .label = Seoladh Ríomhphoist
-submit-form-action = Seol
 loading = Á luchtú...
 email-opt-in-info = Ba mhaith liom ríomhphoist a fháil ar nós meabhrúcháin sprioc, nuashonruithe ar mo dhul chun cinn, agus nuachtlitreacha faoi Common Voice.
 email-opt-in-info-title = Cuir d'ainm le liosta poist Common Voice
@@ -153,3 +152,7 @@ not-available-abbreviation = Neamhbhainteach
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>Tá bhur</mark><br/><mark>gcabhair de dhíth orainn!</mark>
+localization-select =
+    .label = Roghnaigh teanga/logánú

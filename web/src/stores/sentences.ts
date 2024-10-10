@@ -21,6 +21,7 @@ export namespace Sentences {
       hasLoadingError: boolean
       pendingSentences: PendingSentence[]
       bulkUploadStatus?: BulkUploadStatus
+      bulkUploadStatusData?: Record<string, unknown>
     }
   }
 
@@ -92,6 +93,7 @@ export namespace Sentences {
   interface SetBulkUploadStatus extends ReduxAction {
     type: ActionType.SET_BULK_UPLOAD_STATUS
     bulkUploadStatus: BulkUploadStatus
+    bulkUploadStatusData?: Record<string, unknown>
   }
 
   export type Action =
@@ -159,12 +161,25 @@ export namespace Sentences {
       },
 
     create:
-      (newSentenceSubmission: SentenceSubmission) =>
+      ({
+        sentenceSubmission,
+        isSmallBatch,
+      }: {
+        sentenceSubmission: SentenceSubmission
+        isSmallBatch?: boolean
+      }) =>
       async (dispatch: Dispatch<CreateAction>, getState: () => StateTree) => {
         const state = getState()
 
-        dispatch({ type: ActionType.CREATE, newSentenceSubmission })
-        await state.api.createSentence(newSentenceSubmission)
+        dispatch({
+          type: ActionType.CREATE,
+          newSentenceSubmission: sentenceSubmission,
+        })
+
+        return await state.api.createSentence({
+          sentenceSubmission,
+          isSmallBatch,
+        })
       },
 
     refillPendingSentences:
@@ -266,9 +281,13 @@ export namespace Sentences {
         })
       },
 
-    setBulkUploadStatus: (bulkUploadStatus: BulkUploadStatus) => ({
+    setBulkUploadStatus: (
+      bulkUploadStatus: BulkUploadStatus,
+      bulkUploadStatusData?: Record<string, unknown>
+    ) => ({
       type: ActionType.SET_BULK_UPLOAD_STATUS,
       bulkUploadStatus,
+      bulkUploadStatusData,
     }),
 
     removeBulkSubmission: () => ({
@@ -426,6 +445,9 @@ export namespace Sentences {
           [locale]: {
             ...currentLocaleState,
             bulkUploadStatus: action.bulkUploadStatus,
+            ...(action.bulkUploadStatusData && {
+              bulkUploadStatusData: action.bulkUploadStatusData,
+            }),
           },
         }
       }

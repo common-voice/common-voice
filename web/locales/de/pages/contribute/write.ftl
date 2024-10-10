@@ -5,7 +5,8 @@ write-instruction = Fügen Sie <icon></icon> einen gemeinfreien Satz hinzu
 write-page-subtitle = Hier beigetragene Sätze werden zu einem öffentlich zugänglichen cc-0-lizenzierten Datensatz hinzugefügt.
 sentence =
     .label = Satz
-sentence-input-value = Geben Sie hier Ihren gemeinfreien Satz ein
+sentence-input-placeholder = Geben Sie hier Ihren gemeinfreien Satz ein
+small-batch-sentence-input-placeholder = Geben Sie hier Ihre gemeinfreien Sätze ein
 citation-input-placeholder = Nennen Sie die Quelle Ihres Satzes (erforderlich)
 citation =
     .label = Zitat
@@ -13,6 +14,7 @@ sc-write-submit-confirm =
     Ich bestätige, dass dieser Satz <wikipediaLink>gemeinfrei</wikipediaLink> ist und
     ich die Erlaubnis habe, ihn hochzuladen.
 sc-review-write-title = Welche Sätze kann ich hinzufügen?
+sc-review-small-batch-title = So fügen Sie mehrere Sätze hinzu
 new-sentence-rule-1 = <noCopyright>Keine Urheberrechts</noCopyright>-Einschränkungen (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Weniger als 15 Wörter
 new-sentence-rule-3 = Verwendung korrekter Grammatik
@@ -21,6 +23,7 @@ new-sentence-rule-5 = Keine Zahlen und Sonderzeichen
 new-sentence-rule-6 = Keine ausländischen Buchstaben
 new-sentence-rule-7 = Quellenangabe anfügen
 new-sentence-rule-8 = Idealerweise natürlich und aus der Alltagssprache (der Satz sollte leicht zu lesen sein)
+login-instruction-multiple-sentences = <loginLink>Melden Sie sich an</loginLink> oder <loginLink>registrieren Sie sich</loginLink>, um mehrere Sätze hinzuzufügen
 how-to-cite = Wie zitiere ich?
 how-to-cite-explanation-bold = Zitieren Sie mit einem URL-Link oder dem vollständigen Namen des Werks.
 how-to-cite-explanation = Wenn es Ihre eigenen Wörter sind, sagen Sie einfach <italicizedText>„Selbstzitat“</italicizedText>. Wir müssen wissen, wo Sie diesen Inhalt gefunden haben, damit wir überprüfen können, ob er gemeinfrei ist und keine Urheberrechtsbeschränkungen gelten. Weitere Informationen zum Zitieren finden Sie in unserem <guidelinesLink>Leitfaden</guidelinesLink>.
@@ -30,9 +33,11 @@ add-sentence-success = 1 Satz gesammelt
 add-sentence-error = Fehler beim Hinzufügen des Satzes
 required-field = Bitte füllen Sie dieses Feld aus.
 single-sentence-submission = Einreichung eines einzelnen Satzes
+small-batch-sentence-submission = Einreichung von kleinen Satzpaketen
 bulk-sentence-submission = Einreichung mehrerer Sätze
 single-sentence = Einzelner Satz
-bulk-sentences = Mehrere Sätze
+small-batch-sentence = Kleines Paket
+bulk-sentence = Großes Paket
 sentence-domain-combobox-label = Thema des Satzes
 sentence-domain-select-placeholder = Wählen Sie bis zu drei Domains aus
 # Sentence Domain dropdown option
@@ -94,3 +99,28 @@ file-too-large = Die Datei ist zu groß
 file-too-small = Die Datei ist zu klein
 too-many-files = Zu viele Dateien
 
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Fügen Sie mehrere gemeinfreie Sätze hinzu
+multiple-sentences-error = Sie können nicht mehrere Sätze zu einer Einreichung hinzufügen
+# <errorIcon></erroricon> will be replace with an icon that represents an error
+exceeds-small-batch-limit-error = Es können nicht mehr als 1&thinsp;000 Sätze eingereicht werden
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } von 1 gesammeltem Satz
+       *[other] { $uploadedSentences } von { $totalSentences }  gesammelten Sätzen
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } von 1 gesammeltem Satz. Klicken Sie <downloadLink>hier</downloadLink>, um abgelehnte Sätze herunterzuladen.
+       *[other] { $uploadedSentences } von { $totalSentences } gesammelten Sätzen. Klicken Sie <downloadLink>hier</downloadLink>, um abgelehnte Sätze herunterzuladen.
+    }
+small-batch-sentences-rule-1 = Befolgen Sie die Vorgaben unter „Welche Sätze kann ich hinzufügen?“
+small-batch-sentences-rule-2 = Fügen Sie einen Satz pro Zeile hinzu
+small-batch-sentences-rule-3 = Trennen Sie Sätze in einer Zeile, indem Sie einmal die Enter- oder Eingabetaste drücken
+small-batch-sentences-rule-4 = Fügen Sie bis zu 1&thinsp;000 Sätze hinzu
+small-batch-sentences-rule-5 = Alle Sätze müssen dasselbe Thema haben
+small-batch-sentences-rule-6 = Alle Sätze müssen dieselbe Quellenangabe haben

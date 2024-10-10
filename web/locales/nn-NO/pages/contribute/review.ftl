@@ -2,6 +2,8 @@
 
 sc-review-title = Vurder setningar
 sc-review-loading = Lastar setningar…
+sc-review-select-language = Vel eit språk for å sjå gjennom setningar.
+sc-review-no-sentences = Ingen setningar å vurdere. <addLink>Legg til fleire setningar no!</addLink>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Kjelde: { $sentenceSource }

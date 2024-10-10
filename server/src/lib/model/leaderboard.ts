@@ -1,18 +1,17 @@
-import { SHA256 } from 'crypto-js';
-import omit = require('lodash.omit');
+import { SHA256 } from 'crypto-js'
 
-import { getLocaleId, getParticipantSubquery } from './db';
-import { getConfig } from '../../config-helper';
-import lazyCache from '../lazy-cache';
-import { getMySQLInstance } from './db/mysql';
-import Bucket from '../bucket';
-import Model from '../model';
-import { ChallengeLeaderboardArgument, ChallengeToken } from 'common';
+import { getLocaleId, getParticipantSubquery } from './db'
+import { getConfig } from '../../config-helper'
+import lazyCache from '../lazy-cache'
+import { getMySQLInstance } from './db/mysql'
+import Bucket from '../bucket'
+import Model from '../model'
+import { ChallengeLeaderboardArgument, ChallengeToken } from 'common'
 
-const model = new Model();
-const bucket = new Bucket(model);
+const model = new Model()
+const bucket = new Bucket(model)
 
-const db = getMySQLInstance();
+const db = getMySQLInstance()
 
 async function getClipLeaderboard(locale?: string): Promise<any[]> {
   const [rows] = await db.query(
@@ -30,8 +29,8 @@ async function getClipLeaderboard(locale?: string): Promise<any[]> {
       ORDER BY total DESC
     `,
     { locale_id: locale ? await getLocaleId(locale) : null }
-  );
-  return rows;
+  )
+  return rows
 }
 
 async function getVoteLeaderboard(locale?: string): Promise<any[]> {
@@ -52,9 +51,9 @@ async function getVoteLeaderboard(locale?: string): Promise<any[]> {
       ORDER BY total DESC
     `,
     { locale_id: locale ? await getLocaleId(locale) : null }
-  );
+  )
 
-  return rows;
+  return rows
 }
 
 // NOTE: The top-related SQLs
@@ -100,8 +99,8 @@ async function getTopSpeakers({
     ORDER BY points DESC, approved DESC, accuracy DESC
     `,
     [client_id, client_id, challenge, challenge, locale]
-  );
-  return rows;
+  )
+  return rows
 }
 
 async function getTopListeners({
@@ -139,8 +138,8 @@ async function getTopListeners({
     ORDER BY points DESC, approved DESC, accuracy DESC
     `,
     [client_id, client_id, challenge, challenge, locale]
-  );
-  return rows;
+  )
+  return rows
 }
 
 // this SQL is in low quality, but it does the job: showing all teams' rankings across 3 weeks.
@@ -187,11 +186,11 @@ async function getTopTeams(challenge: ChallengeToken): Promise<any[]> {
     ) teams, (SELECT @cur3 :=0, @point3 := NULL, @next3 := 1) r
     `,
     [challenge]
-  );
-  return rows;
+  )
+  return rows
 }
 
-const CACHE_TIME_MS = 1000 * 60 * 20;
+const CACHE_TIME_MS = 1000 * 60 * 20
 
 export const getFullClipLeaderboard = lazyCache(
   'clip-leaderboard',
@@ -199,10 +198,10 @@ export const getFullClipLeaderboard = lazyCache(
     return (await getClipLeaderboard(locale)).map((row, i) => ({
       position: i,
       ...row,
-    }));
+    }))
   },
   CACHE_TIME_MS
-);
+)
 
 export const getFullVoteLeaderboard = lazyCache(
   'vote-leaderboard',
@@ -210,10 +209,10 @@ export const getFullVoteLeaderboard = lazyCache(
     return (await getVoteLeaderboard(locale)).map((row, i) => ({
       position: i,
       ...row,
-    }));
+    }))
   },
   CACHE_TIME_MS
-);
+)
 
 export const getTopSpeakersLeaderboard = lazyCache(
   'top-speaker-leaderboard',
@@ -233,10 +232,10 @@ export const getTopSpeakersLeaderboard = lazyCache(
     ).map((row, i) => ({
       position: i,
       ...row,
-    }));
+    }))
   },
   CACHE_TIME_MS
-);
+)
 
 export const getTopListenersLeaderboard = lazyCache(
   'top-listener-leaderboard',
@@ -256,10 +255,10 @@ export const getTopListenersLeaderboard = lazyCache(
     ).map((row, i) => ({
       position: i,
       ...row,
-    }));
+    }))
   },
   CACHE_TIME_MS
-);
+)
 
 export const getTopTeamsLeaderboard = lazyCache(
   'top-teams-leaderboard',
@@ -274,10 +273,10 @@ export const getTopTeamsLeaderboard = lazyCache(
       w1_points: Number(row.w1_points),
       w2_points: Number(row.w2_points),
       w3_points: Number(row.w3_points),
-    }));
+    }))
   },
   CACHE_TIME_MS
-);
+)
 
 // use the leaderboard functionality in Stats and Challenge board
 // this leaderboard functionality includes: cursor and assigning positions.
@@ -289,30 +288,33 @@ export default async function getLeaderboard({
   locale,
   arg,
 }: {
-  dashboard: 'stats' | 'challenge';
-  type?: 'clip' | 'vote';
-  client_id: string;
-  cursor?: [number, number];
-  locale: string;
-  arg?: any;
+  dashboard: 'stats' | 'challenge'
+  type?: 'clip' | 'vote'
+  client_id: string
+  cursor?: [number, number]
+  locale: string
+  arg?: any
 }) {
   const prepareRows = (rows: any[]) =>
-    rows.map(row => ({
-      ...omit(row, 'client_id', 'avatar_clip_url'),
-      avatarClipUrl: row.avatar_clip_url
-        ? bucket.getAvatarClipsUrl(row.avatar_clip_url)
-        : null,
-      clientHash: SHA256(row.client_id + getConfig().SECRET).toString(),
-      you: row.client_id == client_id,
-    }));
+    rows.map(row => {
+      const { client_id, avatar_clip_url, ...result } = row
+      return {
+        ...result,
+        avatarClipUrl: row.avatar_clip_url
+          ? bucket.getAvatarClipsUrl(row.avatar_clip_url)
+          : null,
+        clientHash: SHA256(row.client_id + getConfig().SECRET).toString(),
+        you: row.client_id == client_id,
+      }
+    })
 
-  let leaderboard = [];
+  let leaderboard = []
   if (dashboard == 'stats') {
     leaderboard = await (type == 'clip'
       ? getFullClipLeaderboard
-      : getFullVoteLeaderboard)(locale);
+      : getFullVoteLeaderboard)(locale)
   } else if (dashboard == 'challenge') {
-    const { scope, challenge } = arg;
+    const { scope, challenge } = arg
     switch (scope) {
       case 'contributors':
         leaderboard = await (type == 'clip'
@@ -322,8 +324,8 @@ export default async function getLeaderboard({
           challenge,
           locale,
           team_only: false,
-        });
-        break;
+        })
+        break
       case 'members':
         leaderboard = await (type == 'clip'
           ? getTopSpeakersLeaderboard
@@ -332,31 +334,31 @@ export default async function getLeaderboard({
           challenge,
           locale,
           team_only: true,
-        });
-        break;
+        })
+        break
       case 'teams':
-        leaderboard = await getTopTeamsLeaderboard(challenge);
-        break;
+        leaderboard = await getTopTeamsLeaderboard(challenge)
+        break
     }
   }
 
   if (cursor) {
-    return prepareRows(leaderboard.slice(cursor[0], cursor[1]));
+    return prepareRows(leaderboard.slice(cursor[0], cursor[1]))
   }
 
-  if (leaderboard.length < 5) leaderboard = [];
+  if (leaderboard.length < 5) leaderboard = []
 
-  const userIndex = leaderboard.findIndex(row => row.client_id == client_id);
+  const userIndex = leaderboard.findIndex(row => row.client_id == client_id)
   const userRegion =
-    userIndex == -1 ? [] : leaderboard.slice(userIndex - 1, userIndex + 2);
+    userIndex == -1 ? [] : leaderboard.slice(userIndex - 1, userIndex + 2)
   const partialBoard = [
     ...leaderboard.slice(0, 10 + Math.max(0, 10 - userRegion.length)),
     ...userRegion,
-  ];
+  ]
   return prepareRows(
     partialBoard.filter(
       ({ position }, i) =>
         i == partialBoard.findIndex(row => row.position == position)
     )
-  );
+  )
 }

@@ -5,7 +5,8 @@ write-instruction = <icon></icon> ہک عوامی ڈومین جملہ شامل �
 write-page-subtitle = اتھ ونگار تھئے ہوئے جملے عوامی دستیاب cc-0 لائسنس تھئے ڈیٹا سیٹ وچ شامل تھی ویسن۔
 sentence =
     .label = جملہ
-sentence-input-value = آپݨاں عوامی ڈومین جملہ اتھ درج کرو
+sentence-input-placeholder = آپݨاں عوامی ڈومین جملہ اتھ درج کرو
+small-batch-sentence-input-placeholder = آپݨے عوامی ڈومین جملے اتھ درج کرو
 citation-input-placeholder = تہاݙے جملے دے ماخذ دا حوالہ (ضروری ہے)
 citation =
     .label = حوالہ ݙیوݨ
@@ -32,7 +33,6 @@ required-field = براہ مہربانی ایں خانے کوں پُر کرو۔
 single-sentence-submission = کلھا جملہ جمع کرواوݨ
 bulk-sentence-submission = ڈھڳ جملے جمع کرواوݨ
 single-sentence = کلھا جملہ
-bulk-sentences = ڈھڳ جملے
 sentence-domain-combobox-label = جملے دی ڈومین
 sentence-domain-select-placeholder = ترائے تائیں ڈومیناں چݨو
 # Sentence Domain dropdown option
@@ -91,3 +91,6 @@ file-invalid-type = غلط فائل
 file-too-large = فائل ٻہوں وݙی ہے
 file-too-small = فائل ٻہوں چھوٹی ہے
 too-many-files = ٻہوں ساریاں فائلاں
+
+## SMALL BATCH SUBMISSION
+

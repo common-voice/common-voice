@@ -5,6 +5,7 @@ language-section-launched = Иске түсирилди
 language-section-last-updated = Соңғы жаңаланыў: { $lastUpdatedTimeStamp }
 languages-show-more = Көбирек тиллер
 languages-show-less = Азырақ тиллер
+language-meter-in-progress = Орынлаў барысы
 language-search-input =
     .placeholder = Излеў
 language-speakers = Сөйлеушилер

@@ -5,12 +5,14 @@ write-instruction = Add <icon></icon> a public domain sentence
 write-page-subtitle = Sentences contributed here will be added to a publicly available cc-0 licensed dataset.
 sentence =
     .label = Sentence
-sentence-input-value = Enter your public domain sentence here
+sentence-input-placeholder = Enter your public domain sentence here
+small-batch-sentence-input-placeholder = Enter your public domain sentences here
 citation-input-placeholder = Reference the source of your sentence (required)
 citation =
     .label = Citation
 sc-write-submit-confirm = I confirm that this sentence is <wikipediaLink>public domain</wikipediaLink> and I have permission to upload it.
 sc-review-write-title = What sentences can I add?
+sc-review-small-batch-title = How to add multiple sentences
 new-sentence-rule-1 = <noCopyright>No copyright</noCopyright> restrictions (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Fewer than 15 words per sentence
 new-sentence-rule-3 = Use correct grammar
@@ -19,6 +21,7 @@ new-sentence-rule-5 = No numbers and special characters
 new-sentence-rule-6 = No foreign letters
 new-sentence-rule-7 = Include appropriate citation
 new-sentence-rule-8 = Ideally natural and conversational (it should be easy to read the sentence)
+login-instruction-multiple-sentences = <loginLink>Login</loginLink> or <loginLink>sign up</loginLink> to add multiple sentences
 how-to-cite = How do I cite?
 how-to-cite-explanation-bold = Cite with a URL link or the full name of the work.
 how-to-cite-explanation = If it’s your own words, just say <italicizedText>“Self Citation”</italicizedText>. We need to know where you found this content so that we can check it is in the public domain and no copyright restrictions apply. For more information about citation see our <guidelinesLink>Guidelines page</guidelinesLink>.
@@ -27,10 +30,12 @@ contact-us = Contact Us
 add-sentence-success = 1 sentence collected
 add-sentence-error = Error adding sentence
 required-field = Please fill out this field.
-single-sentence-submission = Single Sentence Submission
-bulk-sentence-submission = Bulk Sentence Submission
-single-sentence = Single Sentence
-bulk-sentences = Bulk Sentences
+single-sentence-submission = Single sentence submission
+small-batch-sentence-submission = Small batch sentence submission
+bulk-sentence-submission = Large bulk sentence submission
+single-sentence = Single
+small-batch-sentence = Small batch
+bulk-sentence = Bulk batch
 sentence-domain-combobox-label = Sentence Domain
 sentence-domain-select-placeholder = Select up to three domains (optional)
 # Sentence Domain dropdown option
@@ -89,3 +94,51 @@ file-invalid-type = Invalid file
 file-too-large = File is too large
 file-too-small = File is too small
 too-many-files = Too many files
+
+## SMALL BATCH SUBMISSION
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Add multiple public domain sentences
+multiple-sentences-error = You cannot add multiple sentences for a single submission
+exceeds-small-batch-limit-error = Cannot submit more than 1000 sentences
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes = 
+    Rate limit exceeded. Try again in {$retryLimit -> 
+        [one] 1 minute
+        *[other] {$retryLimit} minutes
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds = 
+    Rate limit exceeded. Try again in {$retryLimit -> 
+        [one] 1 second
+        *[other] {$retryLimit} seconds
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes = 
+    You have reached the submission limit for this page. Please wait for {$retryLimit -> 
+        [one] 1 minute
+        *[other] {$retryLimit} minutes
+    } before submitting another sentence. Thank you for your patience!
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds = 
+    You have reached the submission limit for this page. Please wait for {$retryLimit -> 
+        [one] 1 second
+        *[other] {$retryLimit} seconds
+    } before submitting another sentence. Thank you for your patience!
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    {$uploadedSentences} {$totalSentences -> 
+        [one] of 1 sentence collected
+        *[other] of {$totalSentences} sentences collected
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message = 
+    {$uploadedSentences} {$totalSentences -> 
+        [one] of 1 sentence collected
+        *[other] of {$totalSentences} sentences collected
+    }. Click <downloadLink>here</downloadLink> to download rejected sentences.
+small-batch-sentences-rule-1 = Follow guidelines from “What sentences can I add?”
+small-batch-sentences-rule-2 = Add one sentence per line
+small-batch-sentences-rule-3 = Separate sentences into one line by pressing “Enter” or “Return” once
+small-batch-sentences-rule-4 = Add up to 1,000 sentences
+small-batch-sentences-rule-5 = All sentence must have the same domain
+small-batch-sentences-rule-6 = All sentences must have the same citation

@@ -96,7 +96,9 @@ export default class API {
     }
 
     if (response.status === 429) {
-      throw new Error(response.statusText)
+      const error = new Error(response.statusText)
+      Object.assign(error, { retryAfter: response.headers.get('retry-after') })
+      throw error
     }
 
     if (response.status >= 400) {
@@ -171,7 +173,9 @@ export default class API {
   }
 
   fetchLocaleMessages(locale: string): Promise<string> {
-    return this.fetch(`${API_PATH}/languages/${locale}/translations`, { isJSON: false })
+    return this.fetch(`${API_PATH}/languages/${locale}/translations`, {
+      isJSON: false,
+    })
   }
 
   async fetchCrossLocaleMessages(): Promise<string[][]> {
@@ -539,18 +543,25 @@ export default class API {
   }
 
   createSentence({
-    sentence,
-    source,
-    localeName,
-    domains,
-    variant,
-  }: SentenceSubmission) {
+    sentenceSubmission: { sentence, source, localeName, domains, variant },
+    isSmallBatch,
+  }: {
+    sentenceSubmission: SentenceSubmission
+    isSmallBatch?: boolean
+  }) {
     const data = {
       domains,
-      sentence,
+      ...(isSmallBatch ? { sentences: sentence } : { sentence }),
       source,
       localeName,
       ...(variant && { variant }),
+    }
+
+    if (isSmallBatch) {
+      return this.fetch(`${API_PATH}/sentences/batch`, {
+        method: 'POST',
+        body: data,
+      })
     }
 
     return this.fetch(`${API_PATH}/sentences`, {

@@ -2,18 +2,20 @@ import * as React from 'react'
 import { Localized, useLocalization } from '@fluent/react'
 import classNames from 'classnames'
 
-import { EditIcon } from '../../../../../ui/icons'
 import { LabeledInput } from '../../../../../ui/ui'
 import { MultipleCombobox } from '../../../../../multiple-combobox'
 import { Rules } from './rules'
-import { Instruction } from '../../instruction'
 import ExpandableInformation from '../../../../../expandable-information/expandable-information'
 import { Select } from '../../../../../select'
-import { SentenceSubmissionError } from 'common'
 import { LabeledTextArea } from '../../../../../ui/ui'
+
+import { SentenceSubmissionError } from 'common'
 import { LocaleLink } from '../../../../../locale-helpers'
 import URLS from '../../../../../../urls'
 import { useMultipleComboBox } from '../../../../../multiple-combobox/use-multiple-combobox'
+import { useAccount } from '../../../../../../hooks/store-hooks'
+import { WriteMode } from '../sentence-write'
+import { StateError } from '../sentence-write/types'
 
 type Props = {
   handleSentenceInputChange: (
@@ -26,9 +28,10 @@ type Props = {
   sentence: string
   citation: string
   sentenceDomains: readonly string[]
-  error: SentenceSubmissionError
+  error?: StateError
   variantTokens: string[]
   selectedVariant?: string
+  mode: WriteMode
 }
 
 export const SentenceInputAndRules: React.FC<Props> = ({
@@ -43,9 +46,11 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   error,
   variantTokens,
   selectedVariant,
+  mode,
 }) => {
-  const isSentenceError = error && error !== SentenceSubmissionError.NO_CITATION
-  const isCitationError = error === SentenceSubmissionError.NO_CITATION
+  const isSentenceError =
+    error && error?.type !== SentenceSubmissionError.NO_CITATION
+  const isCitationError = error?.type === SentenceSubmissionError.NO_CITATION
   const hasVariants = variantTokens && variantTokens.length > 0
 
   const { l10n } = useLocalization()
@@ -56,17 +61,19 @@ export const SentenceInputAndRules: React.FC<Props> = ({
       selectedItems: selectedSentenceDomains,
     })
 
+  const account = useAccount()
+
   return (
     <div className="inputs-and-instruction">
-      <Instruction localizedId="write-instruction" icon={<EditIcon />} />
-      <Localized id="write-page-subtitle">
-        <p className="subtitle" />
-      </Localized>
       <div className="inputs-and-rules-wrapper">
         <div className="inputs">
           <Localized id="sentence" attrs={{ label: true }}>
             <LabeledTextArea
-              placeholder={l10n.getString('sentence-input-value')}
+              placeholder={
+                mode === 'single'
+                  ? l10n.getString('sentence-input-placeholder')
+                  : l10n.getString('small-batch-sentence-input-placeholder')
+              }
               className={classNames('sentence-input', {
                 'sentence-error': isSentenceError,
                 'variants-dropdown-hidden': !hasVariants,
@@ -107,7 +114,6 @@ export const SentenceInputAndRules: React.FC<Props> = ({
               dataTestId="citation-input"
               autoComplete="on"
               name="citation"
-              required
             />
           </Localized>
           {isCitationError && (
@@ -134,7 +140,14 @@ export const SentenceInputAndRules: React.FC<Props> = ({
             </ExpandableInformation>
           </div>
         </div>
-        <Rules error={error} title="sc-review-write-title" showFirstRule />
+        <Rules
+          error={error?.type}
+          showFirstRule
+          isLoggedIn={Boolean(account)}
+          mode={mode}
+          localizedTitleId="sc-review-write-title"
+          localizedSmallBatchTitleId="sc-review-small-batch-title"
+        />
       </div>
     </div>
   )
