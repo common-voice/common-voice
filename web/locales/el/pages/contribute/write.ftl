@@ -100,8 +100,31 @@ too-many-files = Πάρα πολλά αρχεία
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Προσθήκη πολλαπλών προτάσεων δημόσιου τομέα
 multiple-sentences-error = Δεν μπορείτε να προσθέσετε πολλαπλές προτάσεις για μία υποβολή
-# <errorIcon></erroricon> will be replace with an icon that represents an error
 exceeds-small-batch-limit-error = Δεν είναι δυνατή η υποβολή περισσότερων από 1.000 προτάσεων
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Έχετε ξεπεράσει το όριο. Δοκιμάστε ξανά σε 1 λεπτό
+       *[other] Έχετε ξεπεράσει το όριο. Δοκιμάστε ξανά σε { $retryLimit } λεπτά
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Έχετε ξεπεράσει το όριο. Δοκιμάστε ξανά σε 1 δευτερόλεπτο
+       *[other] Έχετε ξεπεράσει το όριο. Δοκιμάστε ξανά σε { $retryLimit } δευτερόλεπτα
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Έχετε φτάσει το όριο υποβολών για αυτήν τη σελίδα. Περιμένετε 1 λεπτό πριν να υποβάλετε κάποια άλλη πρόταση. Σας ευχαριστούμε για την υπομονή σας!
+       *[other] Έχετε φτάσει το όριο υποβολών για αυτήν τη σελίδα. Περιμένετε { $retryLimit } λεπτά πριν να υποβάλετε κάποια άλλη πρόταση. Σας ευχαριστούμε για την υπομονή σας!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Έχετε φτάσει το όριο υποβολών για αυτήν τη σελίδα. Περιμένετε 1 δευτερόλεπτο πριν να υποβάλετε κάποια άλλη πρόταση. Σας ευχαριστούμε για την υπομονή σας!
+       *[other] Έχετε φτάσει το όριο υποβολών για αυτήν τη σελίδα. Περιμένετε { $retryLimit } δευτερόλεπτα πριν να υποβάλετε κάποια άλλη πρόταση. Σας ευχαριστούμε για την υπομονή σας!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
