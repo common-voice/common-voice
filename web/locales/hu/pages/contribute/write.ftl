@@ -141,3 +141,5 @@ small-batch-sentences-rule-1 = Kövesse a „Milyen mondatokat adhatok hozzá?�
 small-batch-sentences-rule-2 = Soronként egy mondatot adjon hozzá
 small-batch-sentences-rule-3 = Válassza külön sorba a mondatokat az „Enter” egyszeri megnyomásával
 small-batch-sentences-rule-4 = Adjon hozzá akár 1000 mondatot
+small-batch-sentences-rule-5 = Az összes mondatnak ugyanabba a doménbe kell tartoznia
+small-batch-sentences-rule-6 = Az összes mondatnak azonos hivatkozással kell rendelkeznie
