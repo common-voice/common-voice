@@ -107,6 +107,7 @@ about-playbook-how-add-sentences-content-3 = သူၸၢင်ႈၸႂ်ႉ�
 
 ## How to record quality
 
+about-playbook-how-record-quality = တေႁဵတ်းႁိုဝ်ဢတ်းသဵင်ႁႂ်ႈမီးလွင်ႈၶိုၵ်ႉၶႅမ်ႉသုင်?
 
 ## How to grow language
 
