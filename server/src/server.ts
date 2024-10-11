@@ -95,6 +95,7 @@ export default class Server {
         );
       },
     };
+    app.set('trust proxy', ['loopback','35.191.0.0/16', '130.211.0.0/22'])
     app.use(express.json());
 
     // Enable Sentry request handler
