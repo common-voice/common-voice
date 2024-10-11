@@ -1,5 +1,6 @@
 ## WRITE PAGE
 
+write = Uktub
 sentence =
     .label = Maxcâ maafo
 contact-us = Net Axxow
@@ -11,4 +12,7 @@ general = Amolladi
 healthcare = Qaafiyat dacayri
 
 ## BULK SUBMISSION 
+
+
+## SMALL BATCH SUBMISSION
 
