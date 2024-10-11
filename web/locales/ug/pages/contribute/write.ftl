@@ -5,12 +5,14 @@ write-instruction = ئاممىۋى دائىرىدىكى جۈملە <icon> </icon
 write-page-subtitle = بۇ جايدا تۆھپە قوشۇلغان جۈملىلەر cc-0 ئىجازىتىدىكى ئاشكارا سانلىق مەلۇمات توپلىمىغا قوشۇلىدۇ.
 sentence =
     .label = جۈملە
-sentence-input-value = ئاممىۋى دائىرىدىكى جۈملىنى بۇ جايغا كىرگۈزۈڭ
+sentence-input-placeholder = ئاممىۋى دائىرىدىكى جۈملىنى بۇ جايغا كىرگۈزۈڭ
+small-batch-sentence-input-placeholder = ئاممىۋى دائىرىدىكى جۈملىنى بۇ جايغا كىرگۈزۈڭ
 citation-input-placeholder = جۈملىڭىزنىڭ پايدىلانما مەنبەسى (زۆرۈر)
 citation =
     .label = نەقىل
 sc-write-submit-confirm = مەن بۇ جۈملىنىڭ <wikipediaLink>ئاممىۋى دائىرە</wikipediaLink> دە ئىكەنلىكىنى جەزملەشتۈرىمەن ھەمدە ئۇنى يۈكلەش ئىجازىتىم بار.
 sc-review-write-title = قانداق جۈملىلەرنى قوشالايمەن؟
+sc-review-small-batch-title = كۆپ جۈملىنى قانداق قوشىدۇ
 new-sentence-rule-1 = <noCopyright>نەشر ھوقۇقى</noCopyright> چەكلىمىسى يوق (<cc0> cc-0 </cc0>)
 new-sentence-rule-2 = 15 سۆزدىن ئاز
 new-sentence-rule-3 = گىرامماتېكىنى توغرا ئىشلەتكەن
@@ -19,6 +21,7 @@ new-sentence-rule-5 = سان ۋە ئالاھىدە ھەرپ يوق
 new-sentence-rule-6 = چەتئەلچە ھەرپلەر يوق
 new-sentence-rule-7 = مۇۋاپىق نەقىلى بار
 new-sentence-rule-8 = جۈملىلەر تەبىئىي سۆھبەتتەك (جۈملىنى ئوقۇش ئاسان)
+login-instruction-multiple-sentences = كۆپ جۈملە قوشۇش ئۈچۈن <loginLink>تىزىمغا كىرىڭ</loginLink> ياكى <loginLink>تىزىملىتىڭ</loginLink>
 how-to-cite = قانداق نەقىل ئالىمەن؟
 how-to-cite-explanation-bold = تور ئۇلىنىشى ياكى ئەسەرنىڭ تولۇق ئىسمى بىلەن نەقىل ئېلىنىدۇ.
 how-to-cite-explanation = ئەگەر بۇ ئۆزىڭىزنىڭ سۆزى بولسا <italicizedText>«ئۆزىنى نەقىل ئېلىش»</italicizedText> دېسىڭىزلا بولىدۇ. بىز بۇ مەزمۇننى قەيەردىن تاپقانلىقىڭىزنى بىلىشىمىز كېرەك شۇنداق بولغاندا ئۇنى ئاممىۋى ساھەدىن تەكشۈرەلەيمىز، نەشر ھوقۇقى چەكلىمىسى قوللىنىلمايدۇ. نەقىل ئېلىش ھەققىدىكى تەپسىلاتقا ئېرىشمەكچى بولسىڭىز <guidelinesLink>يېتەكچى بەت</guidelinesLink> نى كۆرۈڭ.
@@ -28,9 +31,11 @@ add-sentence-success = 1 جۈملە توپلاندى
 add-sentence-error = جۈملە قوشۇشتا خاتالىق كۆرۈلدى
 required-field = بۇ بۆلەكنى تولدۇرۇڭ.
 single-sentence-submission = يەككە جۈملە يوللاش
+small-batch-sentence-submission = ئاز مىقداردا توپ جۈملە يوللاش
 bulk-sentence-submission = تۈركۈملەپ جۈملە يوللاش
 single-sentence = يەككە جۈملە
-bulk-sentences = كۆپ جۈملە
+small-batch-sentence = ئاز مىقدار
+bulk-sentence = كۆپ مىقدار
 sentence-domain-combobox-label = جۈملە دائىرىسى
 sentence-domain-select-placeholder = كۆپ بولغاندا ئۈچ دائىرە تاللىنىدۇ
 # Sentence Domain dropdown option
@@ -89,3 +94,52 @@ file-invalid-type = ئىناۋەتسىز ھۆججەت
 file-too-large = ھۆججەت بەك چوڭ
 file-too-small = ھۆججەت بەك كىچىك
 too-many-files = ھۆججەت بەك كۆپ
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> ئاممىۋى دائىرىدىكى كۆپ جۈملە يۈكلەيدۇ
+multiple-sentences-error = بىر قېتىملىق يوللاشتا كۆپ جۈملە قوشۇپ يوللىيالمايسىز
+exceeds-small-batch-limit-error = 1000 جۈملىدىن كۆپ يوللىغىلى بولمايدۇ
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] باھالاش چېكىدىن ئېشىپ كەتتى. 1 مىنۇتتىن كېيىن سىناڭ
+       *[other] باھالاش چېكىدىن ئېشىپ كەتتى. { $retryLimit } مىنۇتتىن كېيىن سىناڭ
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] باھالاش چېكىدىن ئېشىپ كەتتى. 1 سېكۇنتتىن كېيىن سىناڭ
+       *[other] باھالاش چېكىدىن ئېشىپ كەتتى. { $retryLimit } سېكۇنتتىن كېيىن سىناڭ
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] بۇ بەتنىڭ تاپشۇرۇش چېكىگە يەتتىڭىز. باشقا جۈملە يوللاشتىن بۇرۇن 1 مىنۇت كۈتۈڭ. سەۋر قىلغانلىقىڭىزغا رەھمەت!
+       *[other] بۇ بەتنىڭ تاپشۇرۇش چېكىگە يەتتىڭىز. باشقا جۈملە يوللاشتىن بۇرۇن { $retryLimit } مىنۇت كۈتۈڭ. سەۋر قىلغانلىقىڭىزغا رەھمەت!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] بۇ بەتنىڭ تاپشۇرۇش چېكىگە يەتتىڭىز. باشقا جۈملە يوللاشتىن بۇرۇن 1 سېكۇنت كۈتۈڭ. سەۋر قىلغانلىقىڭىزغا رەھمەت!
+       *[other] بۇ بەتنىڭ تاپشۇرۇش چېكىگە يەتتىڭىز. باشقا جۈملە يوللاشتىن بۇرۇن { $retryLimit } سېكۇنت كۈتۈڭ. سەۋر قىلغانلىقىڭىزغا رەھمەت!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } / 1 جۈملە توپلاندى
+       *[other] { $uploadedSentences } / { $totalSentences } جۈملە توپلاندى
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } / 1 جۈملە توپلاندى. <downloadLink>بۇ جاي</downloadLink> چېكىلسە رەت قىلىنغان جۈملىنى چۈشۈرىدۇ.
+       *[other] { $uploadedSentences } / { $totalSentences } جۈملە توپلاندى. <downloadLink>بۇ جاي</downloadLink> چېكىلسە رەت قىلىنغان جۈملىنى چۈشۈرىدۇ.
+    }
+small-batch-sentences-rule-1 = «قانداق جۈملىنى قوشالايمەن؟» دېگەن كۆرسەتمىگە ئەگىشىڭ
+small-batch-sentences-rule-2 = بىر قۇرغا بىر جۈملە قوشۇلىدۇ
+small-batch-sentences-rule-3 = بىر قۇرغا بىر جۈملە «Enter» ياكى «Return» نى بېسىش ئارقىلىق ئايرىلىدۇ
+small-batch-sentences-rule-4 = ئەڭ كۆپ بولغاندا 1000 جۈملە قوشقىلى بولىدۇ
+small-batch-sentences-rule-5 = بارلىق جۈملىلەر چوقۇم ئوخشاش دائىرىدىن كېلىشى كېرەك.
+small-batch-sentences-rule-6 = بارلىق جۈملىلەرنىڭ چوقۇم ئوخشاش نەقىلى بولۇشى كېرەك.

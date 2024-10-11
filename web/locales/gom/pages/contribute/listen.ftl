@@ -7,6 +7,6 @@ listen-last-time-instruction = <playIcon></playIcon>Last ani ek!
 listen-empty-state = Clips sople astole - page refresh kor, na zaliar magir try kor.
 listen-empty-state-variants = Tumchea konknni bolintle / prakar-antle sogle recording sople! Tuka koslech dikkat na zalyar, tumche setting bodlun apleach bhasantle dusreo vakyo gevpak zata.
 listen-loading-error = Amka anik audio clip mevona tuka aikpak. Magir kenna porot try kor.
-listen-abort-title = Clip'achi topasni korun zali?
+listen-abort-title = Clip-achi topasni korun zali?
 listen-abort-cancel = Topasni chalu dovor
 listen-abort-confirm = Puro zale

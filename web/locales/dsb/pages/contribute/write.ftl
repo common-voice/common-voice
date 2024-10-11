@@ -99,8 +99,39 @@ too-many-files = Pśewjele datajow
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Pśidajśo někotare zjawnje wužywabne sady
 multiple-sentences-error = Njamóžośo někotare sady za jadnotliwe zapódaśe pśidaś
-# <errorIcon></erroricon> will be replace with an icon that represents an error
 exceeds-small-batch-limit-error = Njamóžośo wěcej až 1.000 sadow pśidaś
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Limit raty jo pśekšocony. Wopytajśo za { $retryLimit } minutu hyšći raz.
+        [two] Limit raty jo pśekšocony. Wopytajśo za { $retryLimit } minuśe hyšći raz.
+        [few] Limit raty jo pśekšocony. Wopytajśo za { $retryLimit } minuty hyšći raz.
+       *[other] Limit raty jo pśekšocony. Wopytajśo za { $retryLimit } minutow hyšći raz.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Limit raty jo pśekšocony. Wopytajśo za { $retryLimit } sekundu hyšći raz.
+        [two] Limit raty jo pśekšocony. Wopytajśo za { $retryLimit } sekunźe hyšći raz.
+        [few] Limit raty jo pśekšocony. Wopytajśo za { $retryLimit } sekundy hyšći raz.
+       *[other] Limit raty jo pśekšocony. Wopytajśo za { $retryLimit } sekundow hyšći raz.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Sćo dojśpił zapódawański limit za toś ten bok. Pšosym cakajśo { $retryLimit } minutu, nježli až dalšnu sadu zapódawaśo. Źěkujomy se za waš sćerpnosć!
+        [two] Sćo dojśpił zapódawański limit za toś ten bok. Pšosym cakajśo { $retryLimit } minuśe, nježli až dalšnu sadu zapódawaśo. Źěkujomy se za waš sćerpnosć!
+        [few] Sćo dojśpił zapódawański limit za toś ten bok. Pšosym cakajśo { $retryLimit } minuty, nježli až dalšnu sadu zapódawaśo. Źěkujomy se za waš sćerpnosć!
+       *[other] Sćo dojśpił zapódawański limit za toś ten bok. Pšosym cakajśo { $retryLimit } minutow, nježli až dalšnu sadu zapódawaśo. Źěkujomy se za waš sćerpnosć!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Sćo dojśpił zapódawański limit za toś ten bok. Pšosym cakajśo { $retryLimit } sekundu, nježli až dalšnu sadu zapódawaśo. Źěkujomy se za waš sćerpnosć!
+        [two] Sćo dojśpił zapódawański limit za toś ten bok. Pšosym cakajśo { $retryLimit } sekunźe, nježli až dalšnu sadu zapódawaśo. Źěkujomy se za waš sćerpnosć!
+        [few] Sćo dojśpił zapódawański limit za toś ten bok. Pšosym cakajśo { $retryLimit } sekundy, nježli až dalšnu sadu zapódawaśo. Źěkujomy se za waš sćerpnosć!
+       *[other] Sćo dojśpił zapódawański limit za toś ten bok. Pšosym cakajśo { $retryLimit } sekundow, nježli až dalšnu sadu zapódawaśo. Źěkujomy se za waš sćerpnosć!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->

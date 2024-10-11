@@ -50,6 +50,7 @@ about-get-involved-text-2 =
     တူင်ႇဝူင်းသျႅတ်ႉ <matrixLink> Matrix </matrixLink>
 about-stay-in-touch = တေႁဵတ်းႁိုဝ်ၵပ်းသိုပ်ႇၵၼ်?
 about-stay-in-touch-button = လူင်းသဵၼ်ႈမၢႆ
+about-stay-in-touch-text-1 = <emailFragment>လူင်းသဵၼ်ႈၸိုဝ်ႈ</emailFragment>ၼႂ်းသဵၼ်ႈမၢႆဢီးမေးလ်ႁဝ်းၶႃႈ တႃႇလဵပ်ႈႁဵၼ်းဝႃႈ သူၸဝ်ႈၸၢင်ႈၶဝ်ႈႁူမ်ႈၶႅမ်ႊၿဵၼ်ႊ၊ ပၢင်ပွႆး၊ လႄႈႁူမ်ႈဢွၵ်ႇၽႅၼ်သၢင်ႈ ၽၢင်ႁၢင်ႈ ၼိူဝ် Common Voice လႆႈၸိူင်ႉႁိုင်လၢႆလၢႆ။
 about-stay-in-touch-text-2 = သူၸၢင်ႈႁူပ်ႉထူပ်းၸွမ်းတၢင်ႇၵေႃႉ ၼႂ်းတူင်ႇဝူင်းၽႃႇသႃႇ Mozilla လူၺ်ႈၶဝ်ႈႁူမ်ႈ <discourseLink> Discourse </discourseLink> တွၼ်ႈတႃႇဢုပ်ႇၵုမ်ၸွမ်းႁူဝ်ၶေႃႈ၊ ဢမ်ႇၼၼ် <matrixLink> Matrix </matrixLink> တွၼ်ႈတႃႇယွၼ်းတၢင်းႁၼ်ထိုင် ဝႆးဝႆး။
 about-nav-why-common-voice = ၵွပ်ႈသင် ?
 about-nav-how-it-works = ၸိူင်ႉႁိုဝ် ?
@@ -69,14 +70,40 @@ about-playbook-what-is-language-content-3 = ၽႃႇသႃႇမၢင်ၸိ
 ## How do I add a language
 
 about-playbook-how-add-language = တေႁဵတ်းႁိုဝ်ထႅမ်သႂ်ႇၽႃႇသႃႇထႅင်ႈ?
+about-playbook-how-add-language-content-1 =
+    ဢွၼ်တၢင်းသုတ်း၊ ထတ်းတူၺ်းဝႃႈ <languageLink>မီးၽႃႇသႃႇၶွင်ၸဝ်ႈၵဝ်ႇယဝ်ႉႁိုဝ်</languageLink>။
+    ပေႃးဢမ်ႇပႆႇမီး၊ သူၸၢင်ႈ<languageRequestLink>ယွၼ်းထႅမ်ထႅင်ႈၽႃႇသႃႇၸဝ်ႈၵဝ်ႇ</languageRequestLink>။
+    တေမီးယူႇသွင်ၶၵ်ႉတွၼ်ႈ ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ် လႄႈၵၢၼ်ၵဵပ်းႁွမ်တူၼ်းထႅဝ်လိၵ်ႈ
 about-playbook-how-add-language-translating-heading = ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ်
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>တူၺ်းဝီႊတီႊဢူဝ်ႊ လွၵ်းလၢႆးၸႂ်ႉတိုဝ်း Pontoon။</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    ႁဝ်းၸႂ်ႉတိုဝ်းၶိူင်ႈမိုဝ်းၶွင် Mozilla ဢၼ်ႁွင်ႉဝႃႈ <pontoonLink>Pontoon</pontoonLink> တွၼ်ႈတႃႇပိၼ်ႇၽႃႇသႃႇ။ Pontoon မီးၽႃႇသႃႇတင်းၼမ်၊ 
+    ၵူၺ်းသင်ဢမ်ႇပႆႇမီးၽႃႇသႃႇၸဝ်ႈၵဝ်ႇ သူၸၢင်ႈ <pontoonRequestLink>ယွၼ်းထႅမ်ထႅင်ႈၽႃႇသႃႇၸဝ်ႈၵဝ်ႇ</pontoonRequestLink>လႆႈ။
+    သေယဝ်ႉလႄႈ တႃႇႁႂ်ႈၽႃႇသႃႇၸဝ်ႈၵဝ်ႇမီးမႃးၼိူဝ်ၶူင်းၵၢၼ် Common Voice ၼၼ်ႉ
+    <githubRepoLink>သူင်ႇၶေႃႈတုၵ်းယွၼ်းထႅမ်ၽႃႇသႃႇမႂ်ႇၼိူဝ် GitHub</githubRepoLink>။ <localizationFragment>သိုပ်ႇတူၺ်းထႅင်ႈလွင်ႈပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ်</localizationFragment>။
 about-playbook-how-add-language-collecting-sentences-heading = ၵဵပ်းႁွမ်တူၼ်းထႅဝ်
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>တူၺ်းလွၵ်းလၢႆးၸႂ်ႉတိုဝ်း ၶိူင်ႈမိုဝ်းၵဵပ်းႁွမ်တူၼ်းထႅဝ်</sentenceCollectorVideo>။
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    သူၸၢင်ႈ<sentenceCollectorLinkAdd>ထႅမ်သႂ်ႇတူၼ်းထႅဝ်ဢိတ်းဢွတ်း</sentenceCollectorLinkAdd>၊
+    ဢမ်ႇၼၼ် သူင်ၸၢင်ႈ <bulkImportDocsLink>ၸၼ်ၶဝ်ႈတူၼ်းထႅဝ်လူၺ်ႈ Github</bulkImportDocsLink>။
+    ႁႂ်ႈတွင်းၵိုမ်းဝႆႉဝႃႈ တူၼ်းထႅဝ်ၵူႈဢၼ်တေလႆႈပဵၼ် <licenseLink>ၶေႃႈမၼ်ႈပၼ်ၸႂ်ႉတိုဝ်း CC0 (ဢမ်ႇၼၼ် ပုၼ်ႈသုၼ်ႇၵူၼ်းတင်းၼမ်)၊ ဢမ်ႇၼၼ် ၶူင်တႅမ်ႈဢွၵ်ႇတူၼ်းထႅဝ်ဢဝ်ႁင်းၵူၺ်းၵေႃႈလႆႈယူႇ။
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>သိုပ်ႇတူၺ်း ၵၢၼ်ၵဵပ်းႁွမ်တူၼ်းထႅဝ်</sentenceCollectorFragment>
 
 ## How does localization work
 
+about-playbook-how-localize = ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ်ႁဵတ်းၵၢၼ်ၸိူင်ႉႁိုဝ်?
+about-playbook-how-localize-content-1 = ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ် Common Voice ပဵၼ်မႃးၼိူဝ် <strong>Pontoon</strong>။
+about-playbook-how-localize-content-2 = <pontoonAccountLink>ၵေႃႇသၢင်ႈဢၶွင်ႉ</pontoonAccountLink> ပေႃးဝႃႈပႆႇမီး။ သေယဝ်ႉ လိူၵ်ႈၽႃႇသႃႇၸဝ်ႈၵဝ်ႇ <strong>('ၸုမ်း')</strong> ယဝ်ႉၸင်ႇလိူၵ်ႈၶူင်းၵၢၼ် <pontoonCvLink>Common Voice</pontoonCvLink>။ ၼႂ်းၼၼ်ႉတေမီးၾၢႆႇလ်တွၼ်ႈတႃႇပိၼ်ႇၽႃႇသႃႇ။ တဵၵ်းသေဢၼ်ဢၼ်၊ မၼ်းတေၼႄမႃးထွႆႈၵႂၢမ်းလိၵ်ႈဢိင်းၵလဵတ်ႈ လႄႈၶွင်ႉတႃႇပိၼ်ႇထွႆႈၵႂၢမ်းၸိူဝ်းၼၼ်ႉ။
+about-playbook-how-localize-content-3 = ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇတေလုၵ်ႉမႃးတီႈလိၵ်ႈဢိင်းၵလဵတ်ႈ၊ ၵူၺ်းသူၸၢင်ႈတူၺ်း <strong>ၶေႃႈတၢင်ႇၼႄ</strong> ၼႂ်းၽႃႇသႃႇတၢင်ႇၸိူဝ်းလႆႈ။ တဵၵ်းတီႈမၢႆ<strong>ပရူဝ်ႇၾၢႆႇ</strong>၊ ယဝ်ႉတဵၵ်းလိင်ႉၶ် <strong>ၵၢၼ်တင်ႈ</strong> လႄႈထႅမ်သႂ်ႇၽႃႇသႃႇဢၼ်သူလၢတ်ႈသေဢၼ်ဢၼ်။ တီႈၸဵင်ႇၽၢႆႇၶႂႃမိုဝ်းလူင်းတႂ်ႈၼၼ်ႉ တေၼႄမႃးသဵၼ်ႈၸိုဝ်ႈၽႃႇသႃႇဢၼ်ႁွင်ႉဝႃႈ <strong>Locales</strong>။ ၶေႃႈၵႂၢမ်းပိၼ်ႇၽႃႇသႃႇတေၶိုၼ်ႈမႃးဝၢႆးပိၼ်ႇယဝ်ႉၼိုင်ႈဝၼ်း။
+about-playbook-how-localize-content-4 = ဝႅပ်ႉသၢႆႉသ်တေၽွမ်ႉပိုတ်ႇၽုၺ်ႇဝၢႆးသေပီၼ်ႇၽႃႇသႃႇယဝ်ႉတူဝ်ႈလီ 75%။
+about-playbook-how-localize-content-5 = တူၺ်းဝီႊတီႊဢူဝ်ႊသပ်းလႅင်းတႃႇလွင်ႈၸွႆႈထႅမ်
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ၶႃႈတေလႆႈႁဵတ်းႁိုဝ်ထႅမ်သႂ်ႇတူၼ်းထႅဝ်?
+about-playbook-how-add-sentences-content-1 = သူၸၢင်ႈထႅမ်သႂ်ႇတူၼ်းထႅဝ်ၼိူဝ် <writePageLink>တႅမ်ႈၼႃႈလိၵ်ႈ</writePageLink> ဢမ်ႇၼၼ် ႁုပ်ႈတူၺ်းၶိုၼ်းတူၼ်းထႅဝ်တီႈ <reviewPageLink>ႁုပ်ႈတူၺ်းၶိုၼ်းၼႃႈလိၵ်ႈ</reviewPageLink>။
+about-playbook-how-add-sentences-content-2 = တူၼ်းထႅဝ်တေလႆႈထုၵ်ႇထတ်း လႄႈယွမ်းႁပ်ႉလူၺ်ႈၵူၼ်းသွင်ၵေႃႉ ယဝ်ႉၸင်ႈထုၵ်ႇဢဝ်ၶဝ်ႈၼႂ်း Common Voice။ သူၸၢင်ႈၶူင်ႁဵတ်း ၽိုၼ်ၸုင် ဝႆႉတွၼ်ႈတႃႇၽႃႇသႃႇသူၸဝ်ႈ <languageGuidelinesLink>တီႈၼႆႈ</languageGuidelinesLink>။ တူၼ်းထႅဝ်ၸိူဝ်းၼၼ်ႉတေလႆႈပဵၼ် <licenseLink>ၶေႃႈမၼ်ႈပၼ်ၸႂ်ႉတိုဝ်း ပုၼ်ႈသုၼ်ႇၵူၼ်းတင်းၼမ်</licenseLink> လႄႈတၢင်းယၢဝ်းပွတ်းလိူဝ်သေ 15 ၶေႃႈၵႂၢမ်း။ သူၸၢင်ႈတုၵ်းယွၼ်းႁႂ်ႈၸဝ်ႈၶွင်ႈၶေႃႈၵႂၢမ်းၸိူဝ်းၼၼ်ႉႁႂ်ႈပိုၼ်ၽၢဝ်ႇ <waiverLink>ၶေႃႈမၼ်ႈပၼ်ၸႂ်ႉတိုဝ်း CC0 ဢၼ်ၸႂ်ႉတိုဝ်းလၢႆးတၢင်းႁပ်ႉၶၢမ်ႇႁဝ်းၶႃႈ</waiverLink>၊ ယဝ်ႉလႄႈသူင်ႇမႃးပၼ်ႁဝ်းၶႃႈတီႈ commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = သူၸၢင်ႈၸႂ်ႉတိုဝ်း <scraperLink>ၶိူင်ႈမိုဝ်းထွင်ဢွၵ်ႇတူၼ်းထႅဝ်</scraperLink> တႃႇတေဢဝ် တူၼ်းထႅဝ်ပွတ်းပွတ်းတီႈ ဝီႇၶီႇၽီးတီးယႃး။
 
 ## How to record quality
 

@@ -297,14 +297,14 @@ export default async function getLeaderboard({
 }) {
   const prepareRows = (rows: any[]) =>
     rows.map(row => {
-      const { client_id, avatar_clip_url, ...result } = row
+      const { client_id: row_client_id, avatar_clip_url, ...result } = row
       return {
         ...result,
-        avatarClipUrl: row.avatar_clip_url
-          ? bucket.getAvatarClipsUrl(row.avatar_clip_url)
+        avatarClipUrl: avatar_clip_url
+          ? bucket.getAvatarClipsUrl(avatar_clip_url)
           : null,
-        clientHash: SHA256(row.client_id + getConfig().SECRET).toString(),
-        you: row.client_id == client_id,
+        clientHash: SHA256(row_client_id + getConfig().SECRET).toString(),
+        you: row_client_id == client_id,
       }
     })
 
