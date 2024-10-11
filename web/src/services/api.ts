@@ -97,7 +97,10 @@ export default class API {
 
     if (response.status === 429) {
       const error = new Error(response.statusText)
-      Object.assign(error, { retryAfter: response.headers.get('retry-after') })
+      Object.assign(error, {
+        message: 'Too Many Requests',
+        retryAfter: response.headers.get('retry-after'),
+      })
       throw error
     }
 
