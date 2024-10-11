@@ -101,12 +101,43 @@ too-many-files = Çok fazla dosya
 small-batch-instruction = <icon></icon> Birden çok kamu malı cümle ekle
 multiple-sentences-error = Tek bir gönderiye birden fazla cümle ekleyemezsiniz
 exceeds-small-batch-limit-error = 1000 cümleden fazla gönderilemez
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Hız sınırını aştınız. Bir dakika sonra yeniden deneyin
+       *[other] Hız sınırını aştınız. { $retryLimit } dakika sonra yeniden deneyin
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Hız sınırını aştınız. Bir saniye sonra yeniden deneyin
+       *[other] Hız sınırını aştınız. { $retryLimit } saniye sonra yeniden deneyin
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Bu sayfa için gönderim sınırına ulaştınız. Başka bir cümle göndermeden önce lütfen bir dakika bekleyin. Sabrınız için teşekkür ederiz!
+       *[other] Bu sayfa için gönderim sınırına ulaştınız. Başka bir cümle göndermeden önce lütfen { $retryLimit } dakika bekleyin. Sabrınız için teşekkür ederiz!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Bu sayfa için gönderim sınırına ulaştınız. Başka bir cümle göndermeden önce lütfen bir saniye bekleyin. Sabrınız için teşekkür ederiz!
+       *[other] Bu sayfa için gönderim sınırına ulaştınız. Başka bir cümle göndermeden önce lütfen { $retryLimit } saniye bekleyin. Sabrınız için teşekkür ederiz!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
         [one] { $uploadedSentences } cümleden 1 tanesi eklendi
-       *[other] { $uploadedSentences } cümleden { $totalSentences } tanesi eklendi
+       *[other] { $totalSentences } cümleden { $uploadedSentences } tanesi eklendi
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $totalSentences } cümlenin bir tanesi yüklendi. Reddedilen cümleleri indirmek için <downloadLink>buraya</downloadLink> tıklayın.
+       *[other] { $totalSentences } cümlenin { $uploadedSentences } tanesi yüklendi. Reddedilen cümleleri indirmek için <downloadLink>buraya</downloadLink> tıklayın.
+    }
+small-batch-sentences-rule-1 = Yukarıdaki “Hangi cümleleri ekleyebilirim?” yönergelerine uyun
 small-batch-sentences-rule-2 = Her satıra bir cümle ekleyin
 small-batch-sentences-rule-3 = Tekil cümleleri “Enter” ya da “Return” tuşuna bir kez basarak satırlara ayırın
 small-batch-sentences-rule-4 = En fazla 1.000 cümle ekleyebilirsiniz
