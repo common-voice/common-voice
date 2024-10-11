@@ -128,7 +128,7 @@ const WriteContainer = () => {
       citation,
       sentence,
       sentenceVariant,
-      sentenceDomains,
+      selectedSentenceDomains: sentenceDomains,
       error,
       confirmPublicDomain,
     }

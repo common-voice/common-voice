@@ -14,7 +14,6 @@ const allVariants = ['mock-variant-1', 'mock-variant-2']
 const mockCitation = 'mock-citation'
 const mockSentence = 'Mock sentence'
 const mockSentenceVariant = 'mock-variant-1'
-const mockSentenceDomains = ['mock-domain-1', 'mock-domain-2']
 
 jest.mock('../../../../../../hooks/store-hooks', () => ({
   useAction: () => useActionMock,
@@ -53,7 +52,7 @@ describe('Single Submission Write page', () => {
         citation={mockCitation}
         sentence={mockSentence}
         sentenceVariant={mockSentenceVariant}
-        sentenceDomains={mockSentenceDomains}
+        selectedSentenceDomains={[]}
         confirmPublicDomain
       />
     )
