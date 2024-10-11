@@ -31,8 +31,11 @@ add-sentence-success = 1 frase raccolta
 add-sentence-error = Errore durante il caricamento della frase
 required-field = Compilare questo campo.
 single-sentence-submission = Invio di una singola frase
+small-batch-sentence-submission = Invio di frasi in lotti di piccole dimensioni
 bulk-sentence-submission = Invio di frasi in blocco
 single-sentence = Singola frase
+small-batch-sentence = Lotto di piccole dimensioni
+bulk-sentence = Lotto in blocco
 sentence-domain-combobox-label = Dominio della frase
 sentence-domain-select-placeholder = Scegli fino a 3 domini
 # Sentence Domain dropdown option
@@ -138,4 +141,5 @@ small-batch-sentences-rule-1 = Segui le linee guida della sezione “Quali frasi
 small-batch-sentences-rule-2 = Aggiungi una frase per riga
 small-batch-sentences-rule-3 = Separa le frasi sulla stessa riga premendo una volta il pulsante “Invio”
 small-batch-sentences-rule-4 = Aggiungi fino a 1000 frasi
+small-batch-sentences-rule-5 = Tutte le frasi devono appartenere allo stesso dominio
 small-batch-sentences-rule-6 = Tutte le frasi devono avere la stessa citazione
