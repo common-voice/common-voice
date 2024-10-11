@@ -128,14 +128,14 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } frase raccolta su 1
-       *[other] { $uploadedSentences } frasi raccolte su { $totalSentences }
+        [one] { $uploadedSentences } frase raccolta
+       *[other] { $uploadedSentences } di { $totalSentences } frasi raccolte
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } frase raccolta su 1. Fai clic <downloadLink>qui</downloadLink> per scaricare le frasi rifiutate.
-       *[other] { $uploadedSentences } frasi raccolte su { $totalSentences }. Fai clic <downloadLink>qui</downloadLink> per scaricare le frasi rifiutate.
+        [one] { $uploadedSentences } frase raccolta. Fai clic <downloadLink>qui</downloadLink> per scaricare le frasi rifiutate.
+       *[other] { $uploadedSentences } di { $totalSentences } frasi raccolte. Fai clic <downloadLink>qui</downloadLink> per scaricare le frasi rifiutate.
     }
 small-batch-sentences-rule-1 = Segui le linee guida della sezione “Quali frasi posso aggiungere?”
 small-batch-sentences-rule-2 = Aggiungi una frase per riga
