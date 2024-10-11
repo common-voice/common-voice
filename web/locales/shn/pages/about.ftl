@@ -110,15 +110,27 @@ about-playbook-how-add-sentences-content-3 = သူၸၢင်ႈၸႂ်ႉ�
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = ပၢင်ပွႆး
+about-playbook-how-grow-language-content-4 = သိုဝ်ႇၼႅင်ႈသၢၼ်
+about-playbook-how-grow-language-content-6 = ၵၢၼ်ႁူမ်ႈၽၢၵ်ႈလႄႈၼႅင်ႈသၢၼ်
 
 ## How to validate
 
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = တေၸၢင်ႈၶဝ်ႈထိုင်လႄႈၸႂ်ႉတိုဝ်းၶေႃႈမုၼ်းလႆႈၸိူင်ႉႁိုဝ်?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = ႁဵတ်းႁိုဝ်တတ်းသဵၼ်ႈၸႂ်လွင်ႈၶူင်းၵၢၼ်?
+about-playbook-how-project-governance-content-2 = ၵၢၼ်ၽွင်းငမ်းႁဝ်းၶႃႈ လႆႈတင်ႈဝႆႉ ၼိူဝ်လၵ်းထမ်း ဢၼ်ဝႃႈ-
+about-playbook-how-project-governance-content-3 = လွင်ႈပဵၼ်သုၼ်ႇတူဝ်၊ လွင်ႈလွတ်ႈၽေး လႄႈ လွင်ႈႁူႉႁၼ်ၸႅင်ႈလႅင်း။
+about-playbook-how-project-governance-content-4 = ၵၢၼ်မီးသုၼ်ႇႁူမ်ႈတူင်ႇဝူင်း လႄႈ ၵၢၼ်တႅပ်းတတ်းသႅၼ်ႈၸႂ်။
+about-playbook-how-project-governance-content-5 = လွင်ႈဝႆႉၵႃႈၶၼ်လႄႈ လွင်ႈႁပ်ႉႁွင်း။
+about-playbook-how-project-governance-content-6 = လွင်ႈဢဝ်ပုၼ်ႈၽွၼ်းၸွမ်းၵၼ်။
+about-playbook-how-project-governance-content-7 = <governanceLink>လူဢၢၼ်ႇတူၺ်း လွင်ႈႁဝ်းဢုပ်ႉပိူင်ႇၸိူင်ႉႁိုဝ်</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Common Voice ႁႃငိုၼ်းတိုၼ်းၸိူင်ႉႁိုဝ်?
