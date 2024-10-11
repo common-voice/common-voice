@@ -101,3 +101,44 @@ too-many-files = ھۆججەت بەك كۆپ
 small-batch-instruction = <icon></icon> ئاممىۋى دائىرىدىكى كۆپ جۈملە يۈكلەيدۇ
 multiple-sentences-error = بىر قېتىملىق يوللاشتا كۆپ جۈملە قوشۇپ يوللىيالمايسىز
 exceeds-small-batch-limit-error = 1000 جۈملىدىن كۆپ يوللىغىلى بولمايدۇ
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] باھالاش چېكىدىن ئېشىپ كەتتى. 1 مىنۇتتىن كېيىن سىناڭ
+       *[other] باھالاش چېكىدىن ئېشىپ كەتتى. { $retryLimit } مىنۇتتىن كېيىن سىناڭ
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] باھالاش چېكىدىن ئېشىپ كەتتى. 1 سېكۇنتتىن كېيىن سىناڭ
+       *[other] باھالاش چېكىدىن ئېشىپ كەتتى. { $retryLimit } سېكۇنتتىن كېيىن سىناڭ
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] بۇ بەتنىڭ تاپشۇرۇش چېكىگە يەتتىڭىز. باشقا جۈملە يوللاشتىن بۇرۇن 1 مىنۇت كۈتۈڭ. سەۋر قىلغانلىقىڭىزغا رەھمەت!
+       *[other] بۇ بەتنىڭ تاپشۇرۇش چېكىگە يەتتىڭىز. باشقا جۈملە يوللاشتىن بۇرۇن { $retryLimit } مىنۇت كۈتۈڭ. سەۋر قىلغانلىقىڭىزغا رەھمەت!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] بۇ بەتنىڭ تاپشۇرۇش چېكىگە يەتتىڭىز. باشقا جۈملە يوللاشتىن بۇرۇن 1 سېكۇنت كۈتۈڭ. سەۋر قىلغانلىقىڭىزغا رەھمەت!
+       *[other] بۇ بەتنىڭ تاپشۇرۇش چېكىگە يەتتىڭىز. باشقا جۈملە يوللاشتىن بۇرۇن { $retryLimit } سېكۇنت كۈتۈڭ. سەۋر قىلغانلىقىڭىزغا رەھمەت!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } / 1 جۈملە توپلاندى
+       *[other] { $uploadedSentences } / { $totalSentences } جۈملە توپلاندى
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } / 1 جۈملە توپلاندى. <downloadLink>بۇ جاي</downloadLink> چېكىلسە رەت قىلىنغان جۈملىنى چۈشۈرىدۇ.
+       *[other] { $uploadedSentences } / { $totalSentences } جۈملە توپلاندى. <downloadLink>بۇ جاي</downloadLink> چېكىلسە رەت قىلىنغان جۈملىنى چۈشۈرىدۇ.
+    }
+small-batch-sentences-rule-1 = «قانداق جۈملىنى قوشالايمەن؟» دېگەن كۆرسەتمىگە ئەگىشىڭ
+small-batch-sentences-rule-2 = بىر قۇرغا بىر جۈملە قوشۇلىدۇ
+small-batch-sentences-rule-3 = بىر قۇرغا بىر جۈملە «Enter» ياكى «Return» نى بېسىش ئارقىلىق ئايرىلىدۇ
+small-batch-sentences-rule-4 = ئەڭ كۆپ بولغاندا 1000 جۈملە قوشقىلى بولىدۇ
+small-batch-sentences-rule-5 = بارلىق جۈملىلەر چوقۇم ئوخشاش دائىرىدىن كېلىشى كېرەك.
