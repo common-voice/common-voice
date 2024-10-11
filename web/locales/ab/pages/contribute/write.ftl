@@ -100,8 +100,13 @@ too-many-files = Афаилқәа рацәоуп
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Азеиԥш доментә жәаҳәақәа рацәаны иацҵатәуп
 multiple-sentences-error = Зныктәи ажәеинраалаҿы аҳәоуқәа рацәаны ацҵара ҟалом
-# <errorIcon></erroricon> will be replace with an icon that represents an error
 exceeds-small-batch-limit-error = 1000 жәаҳәара еиҳаны ашьҭра ауам
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Аццакыра аҳәаа ахысит. 1 Минуҭк ашьҭахь даҽазнык шәҽазышәшәа
+       *[other] Аццакыра аҳәаа ахысит. Даҽазнык шәҽазышәшәа { $retryLimit } минуҭқәак рышьҭахь
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
