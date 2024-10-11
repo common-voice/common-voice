@@ -8,6 +8,8 @@ sentence =
 sentence-input-placeholder = Ku sadar xikkah maxcâ maafo akkel culus
 small-batch-sentence-input-placeholder = Ku sadar xikkah maxcâ maafoofa akkel culus
 citation-input-placeholder = Ku maxcâ maafok raceyna mangeelis (faxximtah)
+citation =
+    .label = Maaqu
 contact-us = Net Axxow
 # Sentence Domain dropdown option
 finance = Maaliyya
