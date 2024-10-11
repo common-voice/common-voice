@@ -142,3 +142,4 @@ small-batch-sentences-rule-2 = بىر قۇرغا بىر جۈملە قوشۇلى�
 small-batch-sentences-rule-3 = بىر قۇرغا بىر جۈملە «Enter» ياكى «Return» نى بېسىش ئارقىلىق ئايرىلىدۇ
 small-batch-sentences-rule-4 = ئەڭ كۆپ بولغاندا 1000 جۈملە قوشقىلى بولىدۇ
 small-batch-sentences-rule-5 = بارلىق جۈملىلەر چوقۇم ئوخشاش دائىرىدىن كېلىشى كېرەك.
+small-batch-sentences-rule-6 = بارلىق جۈملىلەرنىڭ چوقۇم ئوخشاش نەقىلى بولۇشى كېرەك.
