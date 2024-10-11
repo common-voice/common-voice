@@ -5,7 +5,7 @@ write-instruction = Közkincsű mondat hozzáadása <icon></icon>
 write-page-subtitle = Az itt beküldött mondatok egy nyilvánosan elérhető, cc-0 licenc alatt közzétett adatkészlethez adódnak.
 sentence =
     .label = Mondat
-sentence-input-value = Írja ide a közkincsű mondatot
+sentence-input-placeholder = Írja ide a közkincsű mondatot
 citation-input-placeholder = Hivatkozás a mondat forrására (kötelező)
 citation =
     .label = Idézet
@@ -30,7 +30,6 @@ required-field = Töltse ki ezt a mezőt.
 single-sentence-submission = Egy mondatos beküldés
 bulk-sentence-submission = Mondatok tömeges beküldése
 single-sentence = Egyetlen mondat
-bulk-sentences = Több mondat
 sentence-domain-combobox-label = Mondatdomén
 sentence-domain-select-placeholder = Válasszon legfeljebb három domént
 # Sentence Domain dropdown option
@@ -89,3 +88,6 @@ file-invalid-type = Érvénytelen fájl
 file-too-large = A fájl túl nagy
 file-too-small = A fájl túl kicsi
 too-many-files = Túl sok fájl
+
+## SMALL BATCH SUBMISSION
+

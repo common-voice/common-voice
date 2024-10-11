@@ -99,8 +99,39 @@ too-many-files = Přewjele datajow
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Přidajće wjacore zjawnje wužiwajomne sady
 multiple-sentences-error = Njemóžeće wjacore sady za jednotliwe zapodaće přidać
-# <errorIcon></erroricon> will be replace with an icon that represents an error
 exceeds-small-batch-limit-error = Njemóžeće wjace hač 1.000 sadow přidać
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Limit raty je překročeny. Spytajće za { $retryLimit } mjeńšinu hišće raz.
+        [two] Limit raty je překročeny. Spytajće za { $retryLimit } mjeńšinje hišće raz.
+        [few] Limit raty je překročeny. Spytajće za { $retryLimit } mjeńšiny hišće raz.
+       *[other] Limit raty je překročeny. Spytajće za { $retryLimit } mjeńšin hišće raz.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Limit raty je překročeny. Spytajće za { $retryLimit } sekundu hišće raz.
+        [two] Limit raty je překročeny. Spytajće za { $retryLimit } sekundźe hišće raz.
+        [few] Limit raty je překročeny. Spytajće za { $retryLimit } sekundy hišće raz.
+       *[other] Limit raty je překročeny. Spytajće za { $retryLimit } sekundow hišće raz.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } mjeńšinu, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+        [two] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } mjeńšinje, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+        [few] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } mjeńšiny, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+       *[other] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } mjeńšin, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } sekundu, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+        [two] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } sekundźe, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+        [few] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } sekundy, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+       *[other] Sće zapodawanski limit za tutu stronu docpěł. Prošu čakajće { $retryLimit } sekundow, prjedy hač dalšu sadu zapodawaće. Dźakujemy so za waš sćerpnosć!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->

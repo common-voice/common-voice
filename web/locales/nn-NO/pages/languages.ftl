@@ -4,6 +4,8 @@ language-section-in-progress = Under arbeid
 language-section-in-progress-new-description = Desse språka er for tida under utvikling. Framdriftsindikatorane viser kor langt kvart språk har komme med <localizationGlossaryLink> nettstadlokalisering </localizationGlossaryLink> og <sentenceCollectionGlossaryLink> setningsinnsamling </sentenceCollectionGlossaryLink>.
 language-section-launched = Lansert
 language-section-launched-description = For desse lanserte språka har nettstaden blitt <localizationGlossaryLink> lokalisert </localizationGlossaryLink>, og har nok <sentenceCollectionGlossaryLink> setningar innsamla </sentenceCollectionGlossaryLink> for å tillate bidrag for kontinuerleg <speakLink> tale- </speakLink> og <listenLink> lytte-</ listenLink > bidrag.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Sist oppdatert: { $lastUpdatedTimeStamp }
 languages-show-more = Vis meir
 languages-show-less = Vis mindre
 language-meter-in-progress = Framdrift

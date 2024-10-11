@@ -31,8 +31,11 @@ add-sentence-success = 1 предложение собрано
 add-sentence-error = Ошибка добавления предложения
 required-field = Пожалуйста, заполните это поле.
 single-sentence-submission = Отправка одного предложения
+small-batch-sentence-submission = Отправка предложений небольшими пакетами
 bulk-sentence-submission = Массовая отправка предложений
 single-sentence = Одно предложение
+small-batch-sentence = Небольшой пакет
+bulk-sentence = Большой пакет
 sentence-domain-combobox-label = Домен предложений
 sentence-domain-select-placeholder = Выберите до трёх доменов
 # Sentence Domain dropdown option
@@ -94,3 +97,55 @@ too-many-files = Слишком много файлов
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Добавить несколько предложений из общественного достояния
+multiple-sentences-error = Вы не можете добавить несколько предложений в одной отправке
+exceeds-small-batch-limit-error = Невозможно отправить более 1000 предложений
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Лимит скорости превышен. Попробуйте снова через 1 минуту
+        [few] Лимит скорости превышен. Попробуйте снова через { $retryLimit } минуты
+       *[many] Лимит скорости превышен. Попробуйте снова через { $retryLimit } минут
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Лимит скорости превышен. Попробуйте снова через 1 секунду
+        [few] Лимит скорости превышен. Попробуйте снова через { $retryLimit } секунды
+       *[many] Лимит скорости превышен. Попробуйте снова через { $retryLimit } секунд
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Вы достигли лимита отправок для этой страницы. Пожалуйста, подождите 1 минуту, прежде чем отправлять новое предложение. Спасибо за терпение!
+        [few] Вы достигли лимита отправок для этой страницы. Пожалуйста, подождите { $retryLimit } минуты, прежде чем отправлять новое предложение. Спасибо за терпение!
+       *[many] Вы достигли лимита отправок для этой страницы. Пожалуйста, подождите { $retryLimit } минут, прежде чем отправлять новое предложение. Спасибо за терпение!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Вы достигли лимита представлений для этой страницы. Пожалуйста, подождите 1 секунду перед отправкой следующего предложения. Спасибо за терпение!
+        [few] Вы достигли лимита представлений для этой страницы. Пожалуйста, подождите { $retryLimit } секунды перед отправкой следующего предложения. Спасибо за терпение!
+       *[many] Вы достигли лимита представлений для этой страницы. Пожалуйста, подождите { $retryLimit } секунд перед отправкой следующего предложения. Спасибо за терпение!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } из 1 предложения собрано
+        [few] { $uploadedSentences } из { $totalSentences } предложений собрано
+       *[many] { $uploadedSentences } из { $totalSentences } предложений собрано
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } из 1 предложения собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы загрузить отклонённые предложения.
+        [few] { $uploadedSentences } из { $totalSentences } предложений собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы загрузить отклонённые предложения.
+       *[many] { $uploadedSentences } из { $totalSentences } предложений собрано. Нажмите <downloadLink>здесь</downloadLink>, чтобы загрузить отклонённые предложения.
+    }
+small-batch-sentences-rule-1 = Следуйте инструкциям из раздела «Какие предложения я могу добавить?»
+small-batch-sentences-rule-2 = Добавлять по одному предложению на строку
+small-batch-sentences-rule-3 = Разделяйте предложения по одному на строку, нажимая однократно «Enter» или «Return»
+small-batch-sentences-rule-4 = Добавить до 1000 предложений
+small-batch-sentences-rule-5 = Все предложения должны иметь один и тот же домен
+small-batch-sentences-rule-6 = Все предложения должны иметь одинаковое цитирование

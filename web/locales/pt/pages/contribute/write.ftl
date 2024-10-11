@@ -5,7 +5,8 @@ write-instruction = Adicionar <icon></icon> uma frase de domínio público
 write-page-subtitle = As frases contribuídas aqui são adicionadas a um conjunto de dados disponível publicamente de licença cc-0.
 sentence =
     .label = Frase
-sentence-input-value = Digite aqui sua frase de domínio público
+sentence-input-placeholder = Digite aqui sua frase de domínio público
+small-batch-sentence-input-placeholder = Digite aqui suas frases de domínio público
 citation-input-placeholder = Faça referência à origem da sua frase (obrigatório)
 citation =
     .label = Citação
@@ -30,7 +31,6 @@ required-field = Preencha este campo.
 single-sentence-submission = Envio de uma única frase
 bulk-sentence-submission = Envio de grupo de frases
 single-sentence = Uma única frase
-bulk-sentences = Grupo de frases
 sentence-domain-combobox-label = Domínio da frase
 sentence-domain-select-placeholder = Selecione até três domínios
 # Sentence Domain dropdown option
@@ -89,3 +89,12 @@ file-invalid-type = Arquivo inválido
 file-too-large = Arquivo grande demais
 file-too-small = Arquivo pequeno demais
 too-many-files = Arquivos demais
+
+## SMALL BATCH SUBMISSION
+
+small-batch-sentences-rule-1 = Siga as diretrizes de “Quais frases posso adicionar?”
+small-batch-sentences-rule-2 = Adicione uma frase por linha
+small-batch-sentences-rule-3 = Separe frases de uma mesma linha pressionando “Enter” ou “Return” uma vez
+small-batch-sentences-rule-4 = Adicione até 1000 frases
+small-batch-sentences-rule-5 = Todas as frases devem ser do mesmo domínio
+small-batch-sentences-rule-6 = Todas as frases devem ter a mesma citação

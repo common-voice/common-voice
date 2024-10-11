@@ -100,8 +100,31 @@ too-many-files = Troppo de files
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Adder plure phrases de dominio public
 multiple-sentences-error = Tu non pote adder plure phrases pro un sol invio
-# <errorIcon></erroricon> will be replace with an icon that represents an error
 exceeds-small-batch-limit-error = Impossibile inviar plus que 1000 phrases
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Limite de frequentia superate. Retenta post 1 minuta
+       *[other] Limite de frequentia superate. Retenta post  { $retryLimit } minutas
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Limite de frequentia superate. Retenta post 1 secunda
+       *[other] Limite de frequentia superate. Retenta post { $retryLimit } secundas
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Tu ha attingite le limite de invio pro iste pagina. Attende 1 minuta ante inviar un altere phrase. Gratias pro tu  patientia!
+       *[other] Tu ha attingite le limite de invio pro iste pagina. Attende { $retryLimit } minutas ante inviar un altere phrase. Gratias pro tu  patientia!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Tu ha attingite le limite de invio pro iste pagina. Attende 1 secunda ante inviar un altere phrase. Gratias pro tu patientia!
+       *[other] Tu ha attingite le limite de invio pro iste pagina. Attende { $retryLimit } secundas ante inviar un altere phrase. Gratias pro tu patientia!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
