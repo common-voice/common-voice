@@ -1,6 +1,7 @@
 ## WRITE PAGE
 
 write = Uktub
+write-instruction = <icon></icon> osis sadar xikkah maxcâ maafot
 sentence =
     .label = Maxcâ maafo
 contact-us = Net Axxow
