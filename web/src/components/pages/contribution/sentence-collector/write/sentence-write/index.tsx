@@ -9,6 +9,7 @@ import { SentenceInputAndRules } from '../sentence-input-and-rules/sentence-inpu
 
 import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 import URLS from '../../../../../../urls'
+import { sentenceDomains as allSentenceDomains } from 'common'
 
 import { StateError } from './types'
 
@@ -30,7 +31,7 @@ type Props = {
   citation: string
   sentence: string
   sentenceVariant: string
-  sentenceDomains: string[]
+  selectedSentenceDomains: string[]
   error?: StateError
   confirmPublicDomain: boolean
 }
@@ -47,7 +48,7 @@ export const SentenceWrite: React.FC<Props> = ({
   citation,
   sentence,
   sentenceVariant,
-  sentenceDomains,
+  selectedSentenceDomains,
   confirmPublicDomain,
   error,
 }) => {
@@ -62,9 +63,9 @@ export const SentenceWrite: React.FC<Props> = ({
           handleCitationChange={handleCitationChange}
           sentence={sentence}
           citation={citation}
-          sentenceDomains={sentenceDomains}
+          sentenceDomains={allSentenceDomains}
           setSelectedSentenceDomains={handleSentenceDomainChange}
-          selectedSentenceDomains={sentenceDomains}
+          selectedSentenceDomains={selectedSentenceDomains}
           error={error}
           handleSentenceVariantChange={handleSentenceVariantChange}
           variantTokens={allVariants}
