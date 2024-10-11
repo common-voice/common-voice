@@ -92,3 +92,9 @@ too-many-files = Arquivos demais
 
 ## SMALL BATCH SUBMISSION
 
+small-batch-sentences-rule-1 = Siga as diretrizes de “Quais frases posso adicionar?”
+small-batch-sentences-rule-2 = Adicione uma frase por linha
+small-batch-sentences-rule-3 = Separe frases de uma mesma linha pressionando “Enter” ou “Return” uma vez
+small-batch-sentences-rule-4 = Adicione até 1000 frases
+small-batch-sentences-rule-5 = Todas as frases devem ser do mesmo domínio
+small-batch-sentences-rule-6 = Todas as frases devem ter a mesma citação
