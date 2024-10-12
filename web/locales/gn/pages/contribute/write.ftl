@@ -95,3 +95,8 @@ too-many-files = Heta marandurenda
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Embojuaju heta ñe’ẽjuaju ojeporukuaáva
+multiple-sentences-error = Nerembojuajukuaái heta ñe’ẽjuaju ojeporukuaáva
+small-batch-sentences-rule-4 = Embojuaju 1.000 ñe’ẽjuaju peve
+small-batch-sentences-rule-5 = Opaite ñe’ẽjuaju orekova’erã peteĩ tendatee
