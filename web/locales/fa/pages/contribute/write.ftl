@@ -4,15 +4,77 @@ sentence-input-placeholder = جمله‌ی مالکیت عمومی خود را �
 small-batch-sentence-input-placeholder = جملات مالکیت عمومی خود را اینجا وارد کنید.
 citation =
     .label = ارجاع
+sc-write-submit-confirm = تایید می‌کنم که این جمله در <wikipediaLink>مالکیت عمومی</wikipediaLink> است و من اجازهٔ بارگذاری‌اش را دارم.
+sc-review-write-title = چه جملاتی را می‌توانم اضافه کنم؟
 sc-review-small-batch-title = چگونه چندین جمله اضافه کنیم
+new-sentence-rule-1 = بدون محدودیت‌های مرتبط با <noCopyright>حق تکثیر</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = کمتر از ۱۵ کلمه در هر جمله
+new-sentence-rule-3 = دارای قواعد نحوی درست
+new-sentence-rule-4 = دارای دیکته و علامت‌گذاری درست
+new-sentence-rule-5 = فاقد عدد یا نویسه‌های خاص
+new-sentence-rule-6 = فاقد نویسه‌های خارجی
+new-sentence-rule-7 = شامل ارجاع مناسب
+new-sentence-rule-8 = در حالت ایده‌آل، طبیعی و محاوره‌ای (خواندن جملات بایستی آسان باشد)
 login-instruction-multiple-sentences = برای افزودن چندین جمله، <loginLink>وارد شوید</loginLink> یا <loginLink>نام‌نویسی</loginLink> کنید
+how-to-cite = چگونه ارجاع بدهم؟
+how-to-cite-explanation-bold = با نام کامل و یا نشانی اینترنتی اثر به آن ارجاع دهید.
+how-to-cite-explanation = اگر متن را خودتان نوشته‌اید، فقط بنویسید <italicizedText>“Self Citation”</italicizedText>. ما نیاز داریم که بدانیم این محتوا را از کجا یافته‌اید تا بتوانیم بررسی کنیم که آیا در مالکیت عمومی است و محدودیت‌های آثار دارای حق تکثیر به آن اعمال نمی‌شود. برای اطلاعات بیشتر دربارهٔ ارجاع، به <guidelinesLink>صفحهٔ راهنما</guidelinesLink> مراجعه کنید.
+guidelines = راهنما
+contact-us = تماس با ما
+add-sentence-success = 1 جمله گردآوری شد
+add-sentence-error = خطا در افزودن جمله
+required-field = لطفاً این قسمت را پر کنید.
+single-sentence-submission = فرستادن یک جمله
 small-batch-sentence-submission = ارسال جملات در دسته‌های کوچک
+bulk-sentence-submission = فرستادن انبوه جملات
+single-sentence = جملهٔ تکی
 small-batch-sentence = دسته‌ی کوچک
 bulk-sentence = دسته‌ی انبوه
+sentence-domain-combobox-label = زمینهٔ جمله
+sentence-domain-select-placeholder = تا حداکثر سه زمینه را انتخاب کنید (اختیاری)
+# Sentence Domain dropdown option
+agriculture_food = کشاورزی و غذا
+# Sentence Domain dropdown option
+automotive_transport = حمل و نقل و خودرو
+# Sentence Domain dropdown option
+finance = امور مالی
+# Sentence Domain dropdown option
+service_retail = خدمات و فروش
+# Sentence Domain dropdown option
+general = عمومی
+# Sentence Domain dropdown option
+healthcare = سلامت
+# Sentence Domain dropdown option
+history_law_government = تاریخ، حقوق و حکمرانی
+# Sentence Domain dropdown option
+language_fundamentals = پایه‌های زبانی (مثلا اعداد، حروف، پول)
+# Sentence Domain dropdown option
+media_entertainment = رسانه و سرگرمی
+# Sentence Domain dropdown option
+nature_environment = طبیعت و محیط زیست
+# Sentence Domain dropdown option
+news_current_affairs = اخبار و امور جاری
+# Sentence Domain dropdown option
+technology_robotics = فناوری و روباتیک
+sentence-variant-select-label = گونه‌های مختلف جملات
+sentence-variant-select-placeholder = انتخاب یک گونه (اختیاری)
+sentence-variant-select-multiple-variants = زبان عمومی / گونه‌های مختلف
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = بارگذاری <icon></icon> جملات در مالکیت عمومی
+sc-bulk-upload-instruction = پروندهٔ خود را به اینجا کشیده یا <uploadButton>برای بارگذاری کلیک کنید</uploadButton>
+sc-bulk-upload-instruction-drop = پرونده را برای بارگذاری در اینجا رها کنید
+bulk-upload-additional-information = اگر اطلاعات بیشتری می‌خواهید برای این پرونده ارائه کنید، لطفا به <emailFragment>commonvoice@mozilla.com</emailFragment> بفرستید
 template-file-additional-information = اگر اطلاعات اضافی‌ای درباره‌ی این پرونده دارید که در قالب گنجانده نشده است، لطفا با <emailFragment>commonvoice@mozilla.com</emailFragment> تماس بگیرید.
+try-upload-again = با کشیدن پرونده به اینجا دوباره تلاش کنید
+try-upload-again-md = دوباره برای بارگذاری تلاش کنید
+select-file = انتخاب پرونده
+select-file-mobile = پرونده‌ای را برای بارگذاری انتخاب کنید
+accepted-files = نوع پرونده مورد قبول: فقط tsv
+minimum-sentences = کمینهٔ جملات در پرونده: ۱۰۰۰
+maximum-file-size = بیشینهٔ حجم پرونده: ۲۵ مگابایت
 what-needs-to-be-in-file-explanation = لطفا <templateFileLink>پرونده الگوی</templateFileLink> ما را بررسی کنید. جملات شما باید بدون حق تکثیر (CC0 یا اثر اصلی با اجازه از ارسال‌کننده) باشند و واضح، از نظر گرامری صحیح و خوانا باشند. جملات ارسال شده باید حدود ۱۰-۱۵ ثانیه برای خواندن زمان ببرند و از اعداد، نام‌های خاص و نویسه‌های ویژه خودداری کنند.
 bulk-submission-success-subheader = شما در حال کمک به آوای مشترک برای رسیدن به اهداف روزانه‌ی جمله‌های ما هستید!
 upload-more-btn-text = آیا جمله‌های بیشتری بارگذاری می‌کنید؟
