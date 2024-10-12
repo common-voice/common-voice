@@ -100,3 +100,4 @@ small-batch-instruction = <icon></icon> Embojuaju heta ñe’ẽjuaju ojeporukua
 multiple-sentences-error = Nerembojuajukuaái heta ñe’ẽjuaju ojeporukuaáva
 small-batch-sentences-rule-4 = Embojuaju 1.000 ñe’ẽjuaju peve
 small-batch-sentences-rule-5 = Opaite ñe’ẽjuaju orekova’erã peteĩ tendatee
+small-batch-sentences-rule-6 = Opaite ñe’ẽjuaju orekova’erã peteĩ je’epy
