@@ -64,6 +64,17 @@ close = بستن
 download = بارگیری
 dataset-version = نگارش
 sha256-checksum-copied = چک‌سام SHA256 رونوشت شد!
+sha256-checksum-copied-error = رونوشت کردن چک‌سام SHA256 ناموفق بود
+clipboard-not-supported = کلیپ‌بورد پشتیبانی نمی‌شود
+no-information-available = اطلاعاتی موجود نیست
+dataset-metadata-sex = جنسیت
+# dataset metadata - age of contributor
+dataset-metadata-age = سن
+donate-modal-message = مجموعه داده شما در حال دریافت است!
+dataset-donate-modal-heading = آیا می‌دانستید…
+donate-modal-explanation-1 = هزینه میزبانی مجموعه داده‌ها و بهبود سکو برای بیش از ۱۰۰ اجتماع زبانی که به کار ما وابسته هستند، تقریبا یک میلیون دلار در سال است.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>اگر برای داده‌های باز و فراگیر ارزش قائل هستید، امروز اهدا کنید!</bold>
 data-download-singleword-title = دریافت بخش هدف تک کلمه‌ای.
 data-download-button = دریافت داده‌های آواهای مشترک
 data-download-yes = بله
