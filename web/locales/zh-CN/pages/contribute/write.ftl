@@ -5,11 +5,14 @@ write-instruction = 添加 <icon></icon> 公有领域的语句
 write-page-subtitle = 此处贡献的语句将被添加到采用 cc-0 许可证的公开数据集中。
 sentence =
     .label = 语句
+sentence-input-placeholder = 请在此输入您的公有领域语句
+small-batch-sentence-input-placeholder = 请在此输入您的公有领域语句
 citation-input-placeholder = 引用语句出处（必填）
 citation =
     .label = 引用
 sc-write-submit-confirm = 我确认这句话以<wikipediaLink>公有领域</wikipediaLink>授权并且我有权上传。
 sc-review-write-title = 我可以添加什么语句？
+sc-review-small-batch-title = 批量添加语句的方法
 new-sentence-rule-1 = <noCopyright>无版权</noCopyright>限制（<cc0>cc-0</cc0>）
 new-sentence-rule-2 = 少于 15 个字
 new-sentence-rule-3 = 使用正确的语法
@@ -18,6 +21,7 @@ new-sentence-rule-5 = 没有数字和特殊字符
 new-sentence-rule-6 = 没有外国字母
 new-sentence-rule-7 = 引用恰当
 new-sentence-rule-8 = 语句通俗自然（便于阅读）
+login-instruction-multiple-sentences = <loginLink>登录</loginLink>或<loginLink>注册</loginLink>以批量添加语句
 how-to-cite = 如何引用？
 how-to-cite-explanation-bold = 引用 URL 链接或作品全名。
 how-to-cite-explanation = 如果来源于您自己，则只需注明<italicizedText>“Self Citation”</italicizedText>。我们需要知道您在哪里得到这些内容，以便检查其是否处于公有领域并且无版权限制。有关引用的更多信息，请参阅我们的<guidelinesLink>准则页面</guidelinesLink>。
@@ -27,8 +31,11 @@ add-sentence-success = 已收集 1 条语句
 add-sentence-error = 添加语句时报错
 required-field = 请填写此字段。
 single-sentence-submission = 提交单句
+small-batch-sentence-submission = 小批量语句提交
 bulk-sentence-submission = 批量提交语句
 single-sentence = 单句
+small-batch-sentence = 小批量
+bulk-sentence = 大批量
 sentence-domain-combobox-label = 语句领域
 sentence-domain-select-placeholder = 最多选择三个领域
 # Sentence Domain dropdown option
@@ -90,9 +97,22 @@ too-many-files = 文件过多
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> 批量添加公有领域语句
+multiple-sentences-error = 您无法一次提交多条语句
+exceeds-small-batch-limit-error = 无法提交超过 1000 条语句
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes = 速率超限，请在 { $retryLimit } 分钟后再试
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds = 速率超限，请在 { $retryLimit } 秒后再试
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes = 您已达此页面的提交限制，请过 { $retryLimit } 分钟再提交其他语句。感谢您的耐心等候！
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds = 您已达此页面的提交限制，请过 { $retryLimit } 秒再提交其他语句。感谢您的耐心等候！
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success = 已收集 { $totalSentences } 条语句中的 { $uploadedSentences } 条
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message = 已收集 { $totalSentences } 条语句中的 { $uploadedSentences } 条。<downloadLink>点此</downloadLink>下载被驳回的语句。
+small-batch-sentences-rule-1 = 请遵照“我可以添加什么语句？”章节中的准则
 small-batch-sentences-rule-2 = 每行一条语句
 small-batch-sentences-rule-4 = 最多可添加 1,000 条语句
