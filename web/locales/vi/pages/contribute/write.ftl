@@ -5,12 +5,14 @@ write-instruction = Thêm <icon></icon> một câu thuộc phạm vi công cộn
 write-page-subtitle = Các câu được đóng góp ở đây sẽ được thêm vào bộ dữ liệu được cấp phép cc-0 có sẵn công khai.
 sentence =
     .label = Câu
-sentence-input-value = Nhập câu thuộc phạm vi công cộng của bạn vào đây
+sentence-input-placeholder = Nhập câu thuộc phạm vi công cộng của bạn vào đây
+small-batch-sentence-input-placeholder = Nhập câu thuộc phạm vi công cộng của bạn vào đây
 citation-input-placeholder = Dẫn nguồn câu của bạn (bắt buộc)
 citation =
     .label = Nguồn trích dẫn
 sc-write-submit-confirm = Tôi xác nhận rằng câu này thuộc <wikipediaLink>phạm vi công cộng</wikipediaLink> và tôi có quyền tải nó lên.
 sc-review-write-title = Tôi có thể thêm những câu nào?
+sc-review-small-batch-title = Làm thế nào để thêm nhiều câu
 new-sentence-rule-1 = <noCopyright>Không hạn chế bản quyền</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Ít hơn 15 từ
 new-sentence-rule-3 = Sử dụng đúng ngữ pháp
@@ -19,6 +21,7 @@ new-sentence-rule-5 = Không có số và ký tự đặc biệt
 new-sentence-rule-6 = Không có ký tự nước ngoài
 new-sentence-rule-7 = Bao gồm trích dẫn thích hợp
 new-sentence-rule-8 = Lý tưởng nhất là tự nhiên và có tính đàm thoại (câu phải dễ đọc)
+login-instruction-multiple-sentences = <loginLink>Đăng nhập</loginLink> hoặc <loginLink>đăng ký</loginLink> để thêm nhiều câu
 how-to-cite = Cách để tôi trích dẫn?
 how-to-cite-explanation-bold = Trích dẫn với một liên kết URL hoặc tên đầy đủ của tác phẩm.
 how-to-cite-explanation = Nếu đó là câu của chính bạn, chỉ cần nói <italicizedText>“Tự trích dẫn”</italicizedText>. Chúng tôi cần biết bạn đã tìm thấy nội dung này ở đâu để chúng tôi có thể kiểm tra xem nội dung đó có thuộc phạm vi công cộng và không áp dụng hạn chế bản quyền nào không. Để biết thêm thông tin về trích dẫn, hãy xem <guidelinesLink>trang Nguyên tắc</guidelinesLink> của chúng tôi.
@@ -30,7 +33,6 @@ required-field = Vui lòng điền vào trường này.
 single-sentence-submission = Gửi câu riêng lẻ
 bulk-sentence-submission = Gửi hàng loạt câu
 single-sentence = Câu đơn
-bulk-sentences = Hàng loạt câu
 sentence-domain-combobox-label = Phạm vi của câu
 sentence-domain-select-placeholder = Chọn tối đa ba miền
 # Sentence Domain dropdown option
@@ -89,3 +91,8 @@ file-invalid-type = Tập tin không hợp lệ
 file-too-large = Tập tin quá lớn
 file-too-small = Tập tin quá nhỏ
 too-many-files = Quá nhiều tập tin
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Thêm nhiều câu phạm vi công cộng
