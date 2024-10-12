@@ -67,24 +67,66 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = چگونه بومی‌سازی وبگاه کار می‌کند؟
 about-playbook-how-localize-content-1 = ترجمه وبگاه آوای مشترک در <strong>Pontoon</strong> انجام می‌شود.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>یک حساب کاربری ایجاد کنید</pontoonAccountLink> اگر حسابی ندارید. سپس <strong>(‘تیم’)</strong> زبان خود را انتخاب کنید و سپس پروژه <pontoonCvLink>آوای مشترک</pontoonCvLink> را انتخاب کنید. پرونده‌هایی برای ترجمه وجود خواهند داشت. روی یکی کلیک کنید، سپس کلمات به انگلیسی و یک جعبه برای ترجمه آنها نمایش داده می‌شود.
+about-playbook-how-localize-content-3 = ترجمه از انگلیسی است، اما می‌توانید <strong>پیشنهادات</strong> را به زبان‌های دیگر ببینید. روی نماد <strong>نمایه</strong> کلیک کنید، سپس پیوند <strong>تنظیمات</strong> را انتخاب کنید و هر زبانی که صحبت می‌کنید را اضافه کنید. در گوشه پایین سمت راست، فهرستی از ترجمه‌ها به نام <strong>Locales</strong> وجود خواهد داشت. ترجمه‌ها پس از یک روز در سایت نمایش داده می‌شوند.
+about-playbook-how-localize-content-4 = وبگاه زمانی آماده راه‌اندازی است که ۷۵٪ آن تکمیل شود.
+about-playbook-how-localize-content-5 = توضیحات ویدیویی ما را برای کمک تماشا کنید
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = چگونه می‌توانم جملات اضافه کنم؟
+about-playbook-how-add-sentences-content-1 = می‌توانید جملات را در <writePageLink>صفحه بنویسید</writePageLink> اضافه کنید یا در <reviewPageLink>صفحه بازبینی</reviewPageLink>، بازبینی کنید.
+about-playbook-how-add-sentences-content-2 = جملات باید توسط دو نفر بررسی و تایید شوند تا در پروژه آوای مشترک گنجانده شوند. شما می‌توانید راهنمایی‌های زبان خود را <languageGuidelinesLink>اینجا</languageGuidelinesLink> ایجاد کنید. جملات باید در <licenseLink>مالکیت عمومی</licenseLink> باشند و کمتر از ۱۵ کلمه داشته باشند. می‌توانید از صاحب یک متن بخواهید که آن را با استفاده از فرآیند <waiverLink>صرف‌نظر کردن ما</waiverLink> به CC0 تبدیل کند و آن را به commonvoice@mozilla.com ارسال کنید.
+about-playbook-how-add-sentences-content-3 = می‌توانید از <scraperLink>استخراج‌کننده جملات</scraperLink> برای استخراج جملات کوتاه از ویکی‌پدیا استفاده کنید.
 
 ## How to record quality
 
+about-playbook-how-record-quality = چگونه می‌توانم صدای خودم را با کیفیت بالا ضبط کنم؟
+about-playbook-how-record-content-1 = با صدای عادی خود صحبت کنید! نحوه صحبت کردن شما اینجا مورد استقبال است - ما لهجه شما را همانطور که هست می‌خواهیم و همچنین حجم، سبک و لحن معمولی شما را می‌خواهیم.
+about-playbook-how-record-content-2 = از ایجاد نویز پس‌زمینه زیاد خودداری کنید - باید شنیدن صدای شما آسان باشد.
+about-playbook-how-record-content-3 = جمله را با دقت بخوانید - کلمات را جا نیندازید، تغییر ندهید یا اضافه نکنید.
+about-playbook-how-record-content-4 = مطمئن شوید که سکو قبل از شروع به صحبت کردن در حال ضبط باشد و تنها زمانی که صحبت شما تمام شد، ضبط را متوقف کنید.
+about-playbook-how-record-content-5 = <accuracyLink>در مورد معیارهای دقت بیشتر ببینید.</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = چگونه می‌توانیم به طور مؤثر یک زبان را در پروژه آوای مشترک گسترش دهیم؟
+about-playbook-how-grow-language-content-1 = ایجاد فرصت‌هایی برای مشارکت افراد متنوع در پروژه آوای مشترک تضمین می‌کند که این مجموعه داده به بیشترین تعداد ممکن از افراد خدمت کند. ما منابع و الگوهایی را ایجاد کرده‌ایم که می‌توانید از آن‌ها استفاده کنید!
+about-playbook-how-grow-language-content-2 = رویدادها
+about-playbook-how-grow-language-content-3 = شما می‌توانید رویدادهایی برگزار کنید تا به افراد کمک کنید مشارکت کنند. این کار آسان‌تر از آن چیزی است که فکر می‌کنید. می‌توانید این کار را به صورت آنلاین با استفاده از ابزارهای ویدیوکنفرانس انجام دهید، یا اگر مطمئن هستید، شخصا انجام دهید. <eventTemplate>الگوها و منابع ما برای برگزاری رویدادها را بررسی کنید</eventTemplate>.
+about-playbook-how-grow-language-content-4 = رسانه‌های اجتماعی
+about-playbook-how-grow-language-content-6 = همکاری‌ها و شبکه‌ها
+about-playbook-how-grow-language-content-7 = افرادی را پیدا کنید که اهمیت می‌دهند. این افراد می‌توانند دانشگاه‌ها، مدارس زبان، گروه‌های حمایت‌گر یا جوامع علمی داده باشند. با آن‌ها تماس بگیرید و به وضوح توضیح دهید که چگونه می‌توانند کمک کنند و چرا. <outreachTemplates>نمونه رایانامه‌های ارتباطی ما را ببینید</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>خلاق باشید!</strong> اجتماع زبانی شما منحصر به فرد خواهد بود و این‌ها تنها چند راه برای شروع هستند.
 
 ## How to validate
 
+about-playbook-how-validate = چگونه متوجه بشم که آیا این صدای ضبط شده را تایید کنم یا خیر؟
+about-playbook-how-validate-content-1 = اگر می‌توانید <strong>آن‌ها را بشنوید</strong> و <strong>درک کنید</strong>، معمولا </strong>بهترین کار تایید کردن است</strong>.
+about-playbook-how-validate-content-2 = <strong>صداهای ضبط شده‌ای که گوینده لهجه‌ای متفاوت با شما دارد را رد نکنید</strong> - این برای بهبود عملکرد تشخیص صدا برای همه مهم است.
+about-playbook-how-validate-content-3 = اگر فکر می‌کنید تلفظ باعث می‌شود که <strong>فهمیدن آن غیرممکن</strong> باشد، یا <strong>صدای نویز پس‌زمینه زیادی</strong> وجود دارد، یا <strong>افراد دیگری هم صحبت می‌کنند</strong>، باید صدای ضبط شده را رد کنید. <accuracyLink>اطلاعات بیشتر در مورد معیارهای دقت ما را مشاهده کنید</accuracyLink>.
+about-playbook-how-validate-content-4 = اگر یک صدای ضبط شده توسط ۲ نفر رد شود، در زیرمجموعه‌ای متفاوت از مجموعه داده‌ها منتشر می‌شود.
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = چگونه می‌توانم به مجموعه داده‌ها دسترسی پیدا کنم و از آن استفاده کنم؟
+about-playbook-how-access-dataset-content-1 = می‌توانید به <datasetsPage>صفحه مجموعه داده‌ها</datasetsPage> بروید، نگارش و زبان(های) مورد نظر خود را انتخاب کنید و آن را دریافت کنید! پرونده‌ها دارای <metadataLink>اطلاعات متادیتا</metadataLink> مرتبط هستند، مانند اطلاعات جمعیتی و داده‌های اعتبارسنجی. برای دریافت مجموعه داده‌ها، باید یک نشانی رایانامه ارائه دهید.
+about-playbook-how-access-dataset-content-2 = اگر به دنبال ابزارهایی برای ساخت مدل‌های تشخیص خودکار گفتار (ASR) هستید، می‌توانید با دیگر افراد در اجتماع <discourseLink>در دیسکورس</discourseLink> ارتباط برقرار کنید.
 
 ## How are decisions made
 
+about-playbook-how-project-governance = چگونه تصمیم‌های پروژه گرفته می‌شوند؟
+about-playbook-how-project-governance-content-1 = پروژه آوای مشترک Mozilla با کمک یک اجتماع متنوع از فعالان، زبان‌شناسان، دانشمندان داده، دانشگاهیان و مهندسان نرم‌افزار از سراسر جهان ممکن شده است. این پروژه توسط بنیاد Mozilla مدیریت می‌شود.
+about-playbook-how-project-governance-content-2 = حکمرانی ما بر پایه اصول زیر بنا شده است:
+about-playbook-how-project-governance-content-3 = حریم خصوصی، امنیت و شفافیت.
+about-playbook-how-project-governance-content-4 = مشارکت و تصمیم‌گیری اجتماع.
+about-playbook-how-project-governance-content-5 = ارزش و شناخت.
+about-playbook-how-project-governance-content-6 = مسئوليت‌پذیری متقابل.
+about-playbook-how-project-governance-content-7 = <governanceLink>درباره نحوه حکمرانی ما بیشتر بخوانید</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = آوای مشترک چگونه تامین مالی می‌شود؟
+about-playbook-how-funded-content-1 = آوای مشترک یک پروژه از بنیاد Mozilla، یک سازمان غیرانتفاعی 501c3 در ایالات متحده است. این پروژه در حال حاضر به طور کامل از طریق <philantropicGrantLink>کمک‌های انسان‌دوستی</philantropicGrantLink> و کمک‌های مالی از مردم سراسر جهان تامین مالی می‌شود.
+about-playbook-how-funded-content-2 = ادامه میزبانی و انتشار مجموعه داده‌ها، بهبود سکو و اجرای <africaMradiLink>برنامه‌های اجتماعی</africaMradiLink> هزینه زیادی دارد.
+about-playbook-how-funded-content-3 = اگر شما یا سازمان‌تان مایل به کمک به این پروژه هستید، می‌توانید <donateLink>کمک مالی کنید</donateLink> یا با تیم مشارکت‌های ما در <emailFragment>commonvoice@mozilla.com</emailFragment> تماس بگیرید.
