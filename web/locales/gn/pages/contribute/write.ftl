@@ -6,6 +6,7 @@ write-page-subtitle = Umi ñe’ẽjuaju jehupipyre ojuajúta mba’ekuaarã aty
 sentence =
     .label = Ñe’ẽjoaju
 sentence-input-placeholder = Ehai ko’ápe ne ñe’ẽjuaju opavave oiporukuaáva
+small-batch-sentence-input-placeholder = Ehai ne ñe’ẽjuajuku opavave oiporukuaáva
 citation-input-placeholder = Ñe’ẽjuaju reñoiha rehegua (katuete)
 citation =
     .label = Jehechauka
