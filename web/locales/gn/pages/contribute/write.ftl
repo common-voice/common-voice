@@ -12,6 +12,7 @@ citation =
     .label = Jehechauka
 sc-write-submit-confirm = Amoneĩ ko ñe’ẽjuaju ha’eha <wikipediaLink>opavave oiporukuaáva</wikipediaLink> ha areko ñemoneĩ ahupi hag̃ua.
 sc-review-write-title = Mba’e ñe’ẽjuajúpa ahaikuaa
+sc-review-small-batch-title = Mba’éicha embojuajukuaa heta ñe’ẽjoaju
 new-sentence-rule-1 = <no Copyright>Apohare ndaideréchoi</no Copyright> jejoko (<cc0>cc0</cc0>)
 new-sentence-rule-2 = Sa’ieteve 15 ñe’ẽgui
 new-sentence-rule-3 = Eiporu ñe’ẽtekuaa ha’etéva
@@ -33,6 +34,7 @@ small-batch-sentence-submission = Emondo ñe’ẽjoajukuéra sa’isa’i
 bulk-sentence-submission = Emondo heta ñe’ẽjoaju
 single-sentence = Peteĩ ñe’ẽjoaju
 small-batch-sentence = Sa’isa’i
+bulk-sentence = Tuichaháicha
 sentence-domain-combobox-label = Ñe’ẽjuaju rendatee
 sentence-domain-select-placeholder = Eiporavo mbohapy tendatee peve
 # Sentence Domain dropdown option
