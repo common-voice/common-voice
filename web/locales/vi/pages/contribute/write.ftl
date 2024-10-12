@@ -96,3 +96,23 @@ too-many-files = Quá nhiều tập tin
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Thêm nhiều câu phạm vi công cộng
+multiple-sentences-error = Bạn không thể thêm nhiều câu cho một lần gửi
+exceeds-small-batch-limit-error = Không thể gửi hơn 1000 câu
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes = Đã vượt quá giới hạn. Hãy thử lại sau { $retryLimit } phút
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds = Đã vượt quá giới hạn. Hãy thử lại sau { $retryLimit } giây
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes = Bạn đã đạt đến giới hạn gửi cho trang này. Vui lòng chờ đợi { $retryLimit } phút trước khi gửi câu khác. Cảm ơn sự kiên nhẫn của bạn!
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds = Bạn đã đạt đến giới hạn gửi cho trang này. Vui lòng chờ đợi { $retryLimit } giây trước khi gửi câu khác. Cảm ơn sự kiên nhẫn của bạn!
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success = { $uploadedSentences } trong { $totalSentences } câu đã thu thập
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message = { $uploadedSentences } trong { $totalSentences } câu đã thu thập. Nhấp <downloadLink>vào đây</downloadLink> để tải xuống các câu bị từ chối.
+small-batch-sentences-rule-1 = Thực hiện theo hướng dẫn từ “Tôi có thể thêm những câu nào?”
+small-batch-sentences-rule-2 = Thêm mỗi câu một dòng
+small-batch-sentences-rule-3 = Tách các câu thành một dòng bằng cách nhấn “Enter” hoặc “Return” một lần
+small-batch-sentences-rule-4 = Thêm tối đa 1000 câu
+small-batch-sentences-rule-5 = Tất cả các câu phải có cùng một phạm vi
+small-batch-sentences-rule-6 = Tất cả các câu phải có cùng một trích dẫn
