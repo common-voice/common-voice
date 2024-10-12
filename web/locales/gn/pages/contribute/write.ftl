@@ -5,7 +5,7 @@ write-instruction = Embojuaju <icon></icon> ñe’ẽjuaju ojeporukuaáva
 write-page-subtitle = Umi ñe’ẽjuaju jehupipyre ojuajúta mba’ekuaarã aty ñemoneĩmbyre cc-0 opavave oiporukuaáva.
 sentence =
     .label = Ñe’ẽjoaju
-sentence-input-value = Ehai ko’ápe ne ñe’ẽjuaju opavave oiporukuaáva
+sentence-input-placeholder = Ehai ko’ápe ne ñe’ẽjuaju opavave oiporukuaáva
 citation-input-placeholder = Ñe’ẽjuaju reñoiha rehegua (katuete)
 citation =
     .label = Jehechauka
@@ -30,7 +30,6 @@ required-field = Emyanyhẽmína ko tenda.
 single-sentence-submission = Emondo peteĩ ñe’ẽjoaju año
 bulk-sentence-submission = Emondo heta ñe’ẽjoaju
 single-sentence = Peteĩ ñe’ẽjoaju
-bulk-sentences = Heta ñe’ẽjoaju
 sentence-domain-combobox-label = Ñe’ẽjuaju rendatee
 sentence-domain-select-placeholder = Eiporavo mbohapy tendatee peve
 # Sentence Domain dropdown option
@@ -88,3 +87,6 @@ file-invalid-type = Marandurenda ndoikóiva
 file-too-large = Marandurenda tuichaiterei
 file-too-small = Marandurenda michĩeterei
 too-many-files = Heta marandurenda
+
+## SMALL BATCH SUBMISSION
+
