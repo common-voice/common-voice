@@ -2,6 +2,8 @@
 
 sentence-input-placeholder = جمله‌ی مالکیت عمومی خود را اینجا وارد کنید
 small-batch-sentence-input-placeholder = جملات مالکیت عمومی خود را اینجا وارد کنید.
+citation =
+    .label = ارجاع
 sc-review-small-batch-title = چگونه چندین جمله اضافه کنیم
 login-instruction-multiple-sentences = برای افزودن چندین جمله، <loginLink>وارد شوید</loginLink> یا <loginLink>نام‌نویسی</loginLink> کنید
 small-batch-sentence-submission = ارسال جملات در دسته‌های کوچک

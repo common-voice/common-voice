@@ -1,6 +1,6 @@
 ## ABOUT US
 
-about-title = چرا آواهای مشترک؟
+about-title = چرا آوای مشترک؟
 about-header-description-v2 =
     <p> آوای مشترک، یک مجموعه دادهٔ صوتی در دسترس عموم است که روی صداهای اهدا شده توسط مشارکت‌کنندگان داوطلب در سراسر جهان استوار است. افرادی که می‌خواهند برنامه‌های صوتی بسازند می‌توانند از این مجموعه داده برای آموزش مدل‌های یادگیری ماشین استفاده کنند.</p>
     <p>در حال حاضر، اکثر مجموعه داده‌های صوتی متعلق به شرکت‌ها هستند که این مساله، نوآوری را خفه می‌کند. سایر مجموعه داده‌های صوتی نیز از بسیاری گروه‌ها به خوبی نمایندگی نمی‌کنند مانند: غیر انگلیسی‌زبانان، رنگین‌پوستان، افراد معلول، زنان و LGBTQIA+. این بدان معناست که فناوری صدادار برای بسیاری از زبان‌ها اصلاً کار نمی‌کند، و در جایی هم که کار می‌کند، ممکن است برای همه به یک اندازه خوب عمل نکند. ما می‌خواهیم این موضوع را از طریق بسیج همگانی برای به اشتراک گذاشتن صدا، تغییر دهیم.</p>
@@ -10,6 +10,18 @@ how-does-it-work-text = ما مجموعه داده‌های متن‌باز را
 ## How does it work section
 
 about-language-req-subtitle = شخصی درخواست می کند که یک زبان اضافه شود.
+about-localization-title = محلی‌سازی وبگاه
+about-localization-subtitle = متن وبگاه، به آن زبان ترجمه می‌شود.
+about-sentence-collection-title = گردآوری جمله
+about-new-lang-title = راه‌اندازی زبان جدید
+about-new-lang-subtitle = وبگاه آوای مشترک را با این زبان راه‌اندازی می‌کنیم
+about-voice-contrib-title = اهدای صدا
+about-voice-contrib-subtitle = مردم می‌آیند و با اهدای صدای خود مشارکت می‌کنند.
+about-voice-validation-title = تایید صدا
+about-voice-validation-subtitle = دیگران اقدام به اعتبارسنجی صداهای اهداشده می‌کنند.
+about-dataset-release-title = انتشار مجموعه داده
+about-dataset-release-subtitle = ما مجموعه داده را هر ۳ ماه یک‌بار منتشر می‌کنیم.
+about-subscribe-text = آیا می‌خواهید با آوای مشترک در ارتباط باشید؟
 about-speak = صحبت کن
 about-speak-text = مشارکت‌کننده‌ها برش‌های صوتی را با خواندن جملات از یک بانک جملات اهدایی ضبط می‌کنند.
 about-listen-queue = صف-شنیدن
@@ -22,7 +34,7 @@ about-yes-votes = ≥ ۲ رای بله
 about-yes-votes-text = برای واردکردن آن به مجموعه داده‌های آواهای مشترک، یک برش صوتی باید توسط دو کاربر مجزا اعتبارسنجی شده باشد.
 about-no-votes = ≥ ۲ رای خیر
 about-no-votes-text = زمانی که یک کاربر یک برش صوتی را رد می‌کند به صف بازمی‌گردد. اگر برای بار دوم  رد شود، آن کلیپ صوتی به قبرستان برش منتقل می‌شود.
-about-dataset-new = مجموعه داده‌های آواهای مشترک
+about-dataset-new = مجموعه داده‌های آوای مشترک
 about-dataset-new-text = مجموعه داده‌های آواهای مشترک شامل صدها هزار نمونه صداهایی است که به توسعه‌دهنده‌ها کمک می‌کند ابزارهای تشخیص گفتار بسازند.
 about-clip-graveyard = قبرستان برش‌های صوتی
 about-clip-graveyard-text = قبرستان کلیپ‌های صوتی شامل کلیپ‌های صوتی است که به مجموعه داده‌های آواهای مشترک راه نیافته است. مانند مجموعه داده‌ها، قبرستان کلیپ‌های صوتی برای دریافت در دسترس است.
@@ -32,12 +44,15 @@ about-get-involved-text-2 =
     عالی است! از طریق رایانامه یا <discourseLink>دیسکورس</discourseLink> با ما در تماس باشید، 
     مشکلات وبگاه را از طریق <githubLink>گیت‌هاب</githubLink> ارسال کنید، 
     یا به اجتماع گفتگوی <matrixLink>ماتریکس</matrixLink> ما بپیوندید.
+about-stay-in-touch = چگونه در ارتباط بمانم؟
+about-stay-in-touch-button = نام‌نویسی
 about-stay-in-touch-text-1 = <emailFragment>نام‌نویسی کنید</emailFragment> در فهرست پست‌سپاری ما تا یاد بگیرید چگونه می‌توانید در کمپین‌ها، رویدادها و طراحی مشترک ویژگی‌ها در آوای مشترک شرکت کنید.
 about-stay-in-touch-text-2 = شما می‌توانید با پیوستن به <discourseLink>دیسکورس</discourseLink> برای گفتگوهای موضوعی، یا <matrixLink>ماتریکس</matrixLink> برای دریافت مشاوره سریع، با دیگران در اجتماع‌های زبانی Mozilla آشنا شوید.
 about-nav-why-common-voice = چرا ؟
 about-nav-how-it-works = چگونه ؟
 about-nav-partners = همکاران
 about-nav-get-involved = مشارکت کنید
+about-nav-how-it-works-2 = آوای مشترک چگونه کار می‌کند؟
 about-nav-playbook = نحوه فعالیت در اینجا را بیاموزید
 
 ## Community Playbook Content
@@ -55,12 +70,14 @@ about-playbook-how-add-language-content-1 =
     ابتدا بررسی کنید که آیا زبان شما <languageLink>قبلا اضافه شده است</languageLink> یا خیر. 
     اگر اضافه نشده است، می‌توانید <languageRequestLink>درخواست اضافه کردن زبان خود را بدهید</languageRequestLink>.
     دو مرحله وجود دارد: ترجمه‌ی وبگاه و گردآوری جملات.
+about-playbook-how-add-language-translating-heading = ترجمهٔ وبگاه
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>راهنمای ما را برای استفاده از Pontoon تماشا کنید.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     ما از ابزاری به نام <pontoonLink>Pontoon</pontoonLink> که توسط Mozilla توسعه داده شده است برای ترجمه‌ها استفاده می‌کنیم. Pontoon زبان‌های زیادی دارد، 
     اما اگر زبان شما را ندارد، می‌توانید <pontoonRequestLink>درخواست افزودن زبان خود را بدهید</pontoonRequestLink>. 
     سپس، برای در دسترس قرار دادن زبان در پروژه آوای مشترک،
     <githubRepoLink>درخواست افزودن زبان جدید را در گیت‌هاب بدهید</githubRepoLink>. <localizationFragment>بیشتر در مورد ترجمه وبگاه ببینید</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = گردآوری جملات
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>راهنمای ما را در مورد استفاده از گردآوری جملات تماشا کنید</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     شما می‌توانید <sentenceCollectorLinkAdd>تعداد کمی جمله اضافه کنید</sentenceCollectorLinkAdd>، 

@@ -1,6 +1,7 @@
 action-click = کلیک
 action-tap = ضربه بزنید
 contribute = مشارکت
+review = بازبینی
 skip = رد کردن
 shortcuts = میانبرها
 clips-with-count-pluralized =
@@ -27,12 +28,23 @@ keep-track-profile = پیشرفت‌ خود را با یک نمایه پیگیر
 login-to-get-started = برای شروع وارد شوید یا نام‌نویسی کنید
 target-segment-first-card = شما در حال مشارکت در اولین بخش هدف ما هستید
 target-segment-generic-card = شما در حال مشارکت در بخش هدف هستید
-target-segment-first-banner = به ایجاد اولین بخش هدف پروژه آواهای مشترک در { $locale } کمک کنید
+target-segment-first-banner = به ایجاد اولین بخش هدف آوای مشترک در { $locale } کمک کنید
 target-segment-add-voice = صدای خود را اضافه کنید
 target-segment-learn-more = اطلاعات بیشتر
+change-preferences = تغییر ترجیحات
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = مجموعهٔ صدا
+contribute-sentence-collection-nav-header = مجموعه‌ جمله
+login-signup = ورود / نام‌نویسی
+vote-yes = بله
+vote-no = خیر
+datasets = مجموعهٔ داده‌ها
+languages = زبان‌ها
+about = درباره
+partner = همکاران
+submit-form-action = ارسال
 
 ## Reporting
 
@@ -72,7 +84,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = لغو ضبط در حال انجام.
 shortcut-submit = بازگشت
 shortcut-submit-label = ارسال کلیپ‌ها
-request-language-text = زبان خود را در «آواهای مشترک» مشاهده نمی‌کنید؟
+request-language-text = زبان خود را در «آوای مشترک» مشاهده نمی‌کنید؟
 request-language-button = درخواست یک زبان
 
 ## Listen Shortcuts

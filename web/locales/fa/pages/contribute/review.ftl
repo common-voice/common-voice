@@ -1,5 +1,9 @@
 ## REVIEW
 
+sc-review-lang-not-selected = شما هیچ زبانی را انتخاب نکرده‌اید. لطفاً برای انتخاب زبان به <profileLink>نمایهٔ</profileLink> خود بروید.
+sc-review-title = بازبینی جملات
+sc-review-loading = دریافت جملات…
+sc-review-select-language = لطفاً زبانی را برای بازبینی جملات انتخاب کنید.
 sc-review-form-usage = برای تایید جمله به سمت راست بکشید. برای رد کردن آن به سمت چپ بکشید. برای رد شدن از آن به سمت بالا بکشید. <strong>فراموش نکنید که بازبینی خود را ارسال کنید!</strong>
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y

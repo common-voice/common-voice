@@ -19,7 +19,7 @@ record-again-instruction2 = ادامه دهید، دوباره ضبط کنید <
 record-last-instruction = <recordIcon></recordIcon>آخرین!
 review-tooltip = کلیپ‌ها را در اینجا مرور و دوباره ضبط کنید
 share-clip = کلیپ خود را به اشتراک بگذارید
-share-common-voice = همرسانی آواهای مشترک
+share-common-voice = همرسانی آوای مشترک
 review-instruction = در صورت لزوم، کلیپ‌ها را بازبینی و دوباره ضبط کنید
 record-submit-tooltip = { $actionType } هنگامی که آماده بودید ارسال کنید
 clips-uploaded = کلیپ‌ها بارگذاری شدند
@@ -36,7 +36,7 @@ review-rerecord = ضبط دوباره
 review-cancel = لغو ارسال
 review-keep-recordings = ضبط را نگه دارید
 review-delete-recordings = ضبط‌های من را حذف کن
-review-terms = با استفاده از آواهای مشترک، شما با <termsLink>شرایط</termsLink> و <privacyLink>خط مشی رازداری</privacyLink> ما موافقت می‌کنید
+review-terms = با استفاده از آوای مشترک، شما با <termsLink>شرایط</termsLink> و <privacyLink>خط مشی رازداری</privacyLink> ما موافقت می‌کنید
 terms-agree = موافقم
 terms-disagree = موافق نیستم
 # FIRST POST SUBMISSION CTA
