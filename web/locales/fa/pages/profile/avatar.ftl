@@ -7,3 +7,4 @@ gravatar_not_found = هیچ گراواتاری برای ایمیل شما یاف
 file_too_large = پرونده انتخاب شده خیلی بزرگ است
 avatar-uploaded = نمایه بارگذاری شد
 max-file-size = حداکثر { $kb } کیلوبایت
+remove-avatar = حذف تصویر

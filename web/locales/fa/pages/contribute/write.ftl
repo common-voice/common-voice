@@ -1,7 +1,13 @@
 ## WRITE PAGE
 
+write = بنویسید
+write-instruction = افزودن <icon></icon> یک جملهٔ در مالکیت عمومی
+write-page-subtitle = جملات اهدا شده در اینجا به مجموعه داده‌های عمومی دارای مجوز cc-0 اضافه می‌شوند.
+sentence =
+    .label = جمله
 sentence-input-placeholder = جمله‌ی مالکیت عمومی خود را اینجا وارد کنید
 small-batch-sentence-input-placeholder = جملات مالکیت عمومی خود را اینجا وارد کنید.
+citation-input-placeholder = به منبع این جمله ارجاع بدهید (الزامی)
 citation =
     .label = ارجاع
 sc-write-submit-confirm = تایید می‌کنم که این جمله در <wikipediaLink>مالکیت عمومی</wikipediaLink> است و من اجازهٔ بارگذاری‌اش را دارم.
@@ -75,7 +81,13 @@ select-file-mobile = پرونده‌ای را برای بارگذاری انتخ
 accepted-files = نوع پرونده مورد قبول: فقط tsv
 minimum-sentences = کمینهٔ جملات در پرونده: ۱۰۰۰
 maximum-file-size = بیشینهٔ حجم پرونده: ۲۵ مگابایت
+what-needs-to-be-in-file = چه چیزهایی باید در پروندهٔ من باشند؟
 what-needs-to-be-in-file-explanation = لطفا <templateFileLink>پرونده الگوی</templateFileLink> ما را بررسی کنید. جملات شما باید بدون حق تکثیر (CC0 یا اثر اصلی با اجازه از ارسال‌کننده) باشند و واضح، از نظر گرامری صحیح و خوانا باشند. جملات ارسال شده باید حدود ۱۰-۱۵ ثانیه برای خواندن زمان ببرند و از اعداد، نام‌های خاص و نویسه‌های ویژه خودداری کنند.
+upload-progress-text = بارگذاری در حال انجام...
+sc-bulk-submit-confirm = تأیید می‌کنم که این جملات در <wikipediaLink>مالکیت عمومی</wikipediaLink> هستند و من اجازه بارگذاری آن‌ها را دارم.
+bulk-upload-success-toast = جملات انبوه، بارگذاری شدند
+bulk-upload-failed-toast = بارگذاری ناموفق بود. لطفا دوباره تلاش کنید.
+bulk-submission-success-header = بابت مشارکت و فرستادن جملات انبوه از شما متشکریم!
 bulk-submission-success-subheader = شما در حال کمک به آوای مشترک برای رسیدن به اهداف روزانه‌ی جمله‌های ما هستید!
 upload-more-btn-text = آیا جمله‌های بیشتری بارگذاری می‌کنید؟
 file-invalid-type = پرونده نامعتبر است
@@ -127,6 +139,7 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = دستورالعمل‌های «چه جملاتی را می‌توانم اضافه کنم؟» را دنبال کنید
 small-batch-sentences-rule-2 = هر جمله را در یک خط اضافه کنید
+small-batch-sentences-rule-3 = جملات را با فشار دادن یک بار «Enter» یا «Return» در یک خط جدا کنید
 small-batch-sentences-rule-4 = تا ۱٫۰۰۰ جمله اضافه کنید
 small-batch-sentences-rule-5 = همه جملات باید مالکیت عمومی باشند
 small-batch-sentences-rule-6 = همه جملات باید ارجاع یکسانی داشته باشند
