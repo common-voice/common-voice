@@ -13,8 +13,8 @@ you = شما
 everyone = دیگران
 contribution-activity = فعالیت مشارکت
 top-contributors = مشارکت‌کنندگان برتر
-recorded-clips = کلیپ‌های ضبط شده
-validated-clips = کلیپ‌های تایید شده
+recorded-clips = صداهای ضبط شده
+validated-clips = صداهای تایید شده
 total-approved = مجموع تایید شده
 overall-accuracy = دقت کلی
 set-visibility = وضعیت دیداری من را تنظیم کن
@@ -120,8 +120,8 @@ receiving-emails-info = شما در حال حاضر پست های الکترون
 not-receiving-emails-info = شما هم اکنون بر روی وضعیت <bold>دریافت نکردن</bold> نامه‌های الکترونیکی،‌ یادآوری هدف و وضعیت پیشرفت خود و همچنین خبرنامه ها از آواهای مشترک قرار دارید.
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] { $count } کلیپ
-       *[other] { $count } کلیپ
+        [one] { $count } صدا
+       *[other] { $count } صدا
     }
 help-share-goal = به ما کمک کنید صداهای بیشتری بیابیم، هدف‌تان را به اشتراک بگذارید
 confirm-goal = تایید هدف

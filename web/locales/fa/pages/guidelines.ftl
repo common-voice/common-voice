@@ -2,7 +2,7 @@
 guidelines-header = راهنمای مشارکت
 guidelines-header-subtitle = نحوه مشارکت و اعتبارسنجی جملات و صداهای ضبط شده را در مجموعه دادهٔ آوای مشترک درک کنید
 voice-collection = گردآوری صدا
-sentence-collection = مجموعه‌ جمله
+sentence-collection = گردآوری جمله
 varying-pronunciations = تفاوت در اعراب‌گذاری‌ها
 misreadings = خوانش‌های نادرست
 offensive-content = محتوای توهین آمیز
