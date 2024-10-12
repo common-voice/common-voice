@@ -53,6 +53,7 @@ cy = Welsh ñe’ẽ
 da = Dinamarca ñe’ẽ
 dag = { "" }
 dar = Dargwa
+dav = Kidaw'ida
 de = Alemán ñe’ẽ
 dsb = Sorbian ñe’ẽ, Yvypegua
 dua = Duala
