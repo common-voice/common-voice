@@ -115,4 +115,7 @@ add-small-batch-success = 已收集 { $totalSentences } 条语句中的 { $uploa
 small-batch-response-message = 已收集 { $totalSentences } 条语句中的 { $uploadedSentences } 条。<downloadLink>点此</downloadLink>下载被驳回的语句。
 small-batch-sentences-rule-1 = 请遵照“我可以添加什么语句？”章节中的准则
 small-batch-sentences-rule-2 = 每行一条语句
+small-batch-sentences-rule-3 = 通过按一下 Enter 或 Return，将各语句置于单独的一行
 small-batch-sentences-rule-4 = 最多可添加 1,000 条语句
+small-batch-sentences-rule-5 = 所有语句必须属于相同领域
+small-batch-sentences-rule-6 = 所有语句必须来自相同出处
