@@ -29,8 +29,10 @@ add-sentence-success = 1 ñe’ẽjuaju mbyatypyre
 add-sentence-error = Ojavy ehupívo ñe’ẽjuaju
 required-field = Emyanyhẽmína ko tenda.
 single-sentence-submission = Emondo peteĩ ñe’ẽjoaju año
+small-batch-sentence-submission = Emondo ñe’ẽjoajukuéra sa’isa’i
 bulk-sentence-submission = Emondo heta ñe’ẽjoaju
 single-sentence = Peteĩ ñe’ẽjoaju
+small-batch-sentence = Sa’isa’i
 sentence-domain-combobox-label = Ñe’ẽjuaju rendatee
 sentence-domain-select-placeholder = Eiporavo mbohapy tendatee peve
 # Sentence Domain dropdown option
