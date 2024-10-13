@@ -21,7 +21,7 @@ new-sentence-rule-5 = Sayı ve özel karakter içermeyen
 new-sentence-rule-6 = Alfabede olmayan karakterler içermeyen
 new-sentence-rule-7 = Kaynağı doğru şekilde gösterilmiş
 new-sentence-rule-8 = Mümkün olduğunda doğal ve konuşma dilinde (Cümleyi okuması kolay olmalı)
-login-instruction-multiple-sentences = Birden fazla cümle eklemek için <loginLink>giriş yapın</loginLink> ya da <loginLink>kaydolun</loginLink>
+login-instruction-multiple-sentences = Birden çok cümle eklemek için <loginLink>giriş yapın</loginLink> ya da <loginLink>kaydolun</loginLink>
 how-to-cite = Nasıl kaynak gösteririm?
 how-to-cite-explanation-bold = Bir URL bağlantısı veya çalışmanın tam adıyla kaynak gösterin.
 how-to-cite-explanation = Cümleyi kendiniz ürettiyseniz <italicizedText>“Kendim yazdım”</italicizedText> demeniz yeterli. Kamu malı olup olmadığını ve telif hakkı kısıtlaması olmadığını kontrol edebilmemiz için bu içeriği nerede bulduğunuzu bilmemiz gerekiyor. Kaynak gösterme hakkında daha fazla bilgi için <guidelinesLink>Yönergeler sayfamıza</guidelinesLink> bakabilirsiniz.
@@ -99,7 +99,7 @@ too-many-files = Çok fazla dosya
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Birden çok kamu malı cümle ekle
-multiple-sentences-error = Tek bir gönderiye birden fazla cümle ekleyemezsiniz
+multiple-sentences-error = Tek bir gönderiye birden çok cümle ekleyemezsiniz
 exceeds-small-batch-limit-error = 1000 cümleden fazla gönderilemez
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
