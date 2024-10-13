@@ -105,3 +105,44 @@ too-many-files = Забагато файлів
 small-batch-instruction = <icon></icon> Додайте кілька речень, які є суспільним надбанням
 multiple-sentences-error = Ви не можете додати кілька речень в одиночному поданні
 exceeds-small-batch-limit-error = Не можна подати більше ніж 1000 речень
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Перевищено обмеження швидкості. Повторіть спробу за 1 хвилину
+        [few] Перевищено обмеження швидкості. Повторіть спробу за { $retryLimit } хвилини
+       *[many] Перевищено обмеження швидкості. Повторіть спробу за { $retryLimit } хвилин
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Перевищено обмеження швидкості. Повторіть спробу за 1 секунду
+        [few] Перевищено обмеження швидкості. Повторіть спробу за { $retryLimit } секунди
+       *[many] Перевищено обмеження швидкості. Повторіть спробу за { $retryLimit } секунд
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Ви досягли обмеження подання для цієї сторінки. Зачекайте 1 хвилину, перш ніж надсилати інше речення. Дякуємо за ваше терпіння!
+        [few] Ви досягли обмеження подання для цієї сторінки. Зачекайте { $retryLimit } хвилини, перш ніж надсилати інше речення. Дякуємо за ваше терпіння!
+       *[many] Ви досягли обмеження подання для цієї сторінки. Зачекайте { $retryLimit } хвилин, перш ніж надсилати інше речення. Дякуємо за ваше терпіння!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] Зібрано { $uploadedSentences } з 1 речення
+        [few] Зібрано { $uploadedSentences } з { $totalSentences } речень
+       *[many] Зібрано { $uploadedSentences } з { $totalSentences } речень
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] Зібрано { $uploadedSentences } з 1 речення. Натисніть <downloadLink>тут</downloadLink>, щоб завантажити відхилені речення.
+        [few] Зібрано { $uploadedSentences } з { $totalSentences } речень. Натисніть <downloadLink>тут</downloadLink>, щоб завантажити відхилені речення.
+       *[many] Зібрано { $uploadedSentences } із { $totalSentences } речень. Натисніть <downloadLink>тут</downloadLink>, щоб завантажити відхилені речення.
+    }
+small-batch-sentences-rule-1 = Дотримуйтеся вказівок із розділу “Які речення я можу додати?”
+small-batch-sentences-rule-2 = Додайте по одному реченню на рядок
+small-batch-sentences-rule-3 = Розділяйте речення по одному на рядок, натискаючи один раз “Enter” або “Return”
+small-batch-sentences-rule-4 = Додавайте до 1000 речень
+small-batch-sentences-rule-5 = Усі речення повинні мати однаковий домен
+small-batch-sentences-rule-6 = Усі речення повинні мати однакове цитатування
