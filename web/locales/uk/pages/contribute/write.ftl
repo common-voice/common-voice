@@ -5,7 +5,8 @@ write-instruction = Додайте <icon></icon> речення суспільн
 write-page-subtitle = Надані тут речення буде додано до загальнодоступного набору даних з ліцензією cc-0.
 sentence =
     .label = Речення
-sentence-input-value = Введіть сюди речення, яке є суспільним надбанням
+sentence-input-placeholder = Введіть сюди речення, яке є суспільним надбанням
+small-batch-sentence-input-placeholder = Введіть сюди речення, які є суспільним надбанням
 citation-input-placeholder = Посилання на джерело вашого речення (обов'язково)
 citation =
     .label = Цитата
@@ -13,6 +14,7 @@ sc-write-submit-confirm =
     Я підтверджую, що це речення є <wikipediaLink>суспільним надбанням</wikipediaLink>
     і я маю дозвіл на його вивантаження.
 sc-review-write-title = Які речення я можу додати?
+sc-review-small-batch-title = Як додати кілька речень
 new-sentence-rule-1 = <noCopyright>Без обмежень авторським правом</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Менше ніж 15 слів
 new-sentence-rule-3 = Дотримуйтеся правил граматики
@@ -21,6 +23,7 @@ new-sentence-rule-5 = Без цифр і спеціальних символів
 new-sentence-rule-6 = Жодних іноземних букв
 new-sentence-rule-7 = Додайте відповідну цитату
 new-sentence-rule-8 = Ідеально природне і розмовне (речення має легко читатися)
+login-instruction-multiple-sentences = <loginLink>Увійдіть</loginLink> або <loginLink>зареєструйтеся</loginLink>, щоб додати кілька речень
 how-to-cite = Як цитувати?
 how-to-cite-explanation-bold = Цитата з URL-посиланням або повною назвою твору.
 how-to-cite-explanation = Якщо це ваші власні слова, просто вкажіть <italicizedText>“Самоцитування”</italicizedText>. Нам потрібно знати, де ви знайшли цей вміст, щоб ми могли перевірити, чи він є суспільним надбанням і на нього не поширюються жодні обмеження авторського права. Щоб дізнатися більше про цитування, перегляньте нашу <guidelinesLink>Сторінку настанов</guidelinesLink>.
@@ -30,9 +33,11 @@ add-sentence-success = Зібрано 1 речення
 add-sentence-error = Помилка додавання речення
 required-field = Заповніть це поле.
 single-sentence-submission = Подання окремих речень
+small-batch-sentence-submission = Надсилання невеликих пакетів речень
 bulk-sentence-submission = Масове подання речень
 single-sentence = Одне речення
-bulk-sentences = Масові речення
+small-batch-sentence = Невеликий пакет
+bulk-sentence = Великий пакет
 sentence-domain-combobox-label = Належність речення
 sentence-domain-select-placeholder = Виберіть до трьох доменів
 # Sentence Domain dropdown option
@@ -93,3 +98,10 @@ file-invalid-type = Неприпустимий файл
 file-too-large = Файл завеликий
 file-too-small = Файл замалий
 too-many-files = Забагато файлів
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Додайте кілька речень, які є суспільним надбанням
+multiple-sentences-error = Ви не можете додати кілька речень в одиночному поданні
+exceeds-small-batch-limit-error = Не можна подати більше ніж 1000 речень
