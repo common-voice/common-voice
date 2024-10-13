@@ -126,6 +126,13 @@ rate-limit-message-minutes =
         [few] Ви досягли обмеження подання для цієї сторінки. Зачекайте { $retryLimit } хвилини, перш ніж надсилати інше речення. Дякуємо за ваше терпіння!
        *[many] Ви досягли обмеження подання для цієї сторінки. Зачекайте { $retryLimit } хвилин, перш ніж надсилати інше речення. Дякуємо за ваше терпіння!
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Ви досягли обмеження подання для цієї сторінки. Зачекайте 1 секунду, перш ніж надсилати інше речення. Дякуємо за ваше терпіння!
+        [few] Ви досягли обмеження подання для цієї сторінки. Зачекайте { $retryLimit } секунди, перш ніж надсилати інше речення. Дякуємо за ваше терпіння!
+       *[many] Ви досягли обмеження подання для цієї сторінки. Зачекайте { $retryLimit } секунд, перш ніж надсилати інше речення. Дякуємо за ваше терпіння!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
