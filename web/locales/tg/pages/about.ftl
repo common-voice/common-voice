@@ -64,6 +64,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Дар бораи меъёр
 
 ## How to grow language
 
+about-playbook-how-grow-language = Мо чӣ гуна метавонем забонеро дар «Common Voice» самаранок рушд диҳем?
 about-playbook-how-grow-language-content-2 = Рӯйдодҳо
 about-playbook-how-grow-language-content-4 = Шабакаҳои иҷтимоӣ
 about-playbook-how-grow-language-content-6 = Шарикӣ ва шабакаҳо
@@ -73,7 +74,7 @@ about-playbook-how-grow-language-content-6 = Шарикӣ ва шабакаҳо
 
 ## How to access dataset
 
-about-playbook-how-access-dataset-content-1 = Шумо метавонед ба саҳифаи <datasetsPage>маҷмуи маълумотҳо</datasetsPage> ворид шавед, версия ва забон(ҳо)и дилхоҳатонро интихоб кунед ва онро боргирӣ намоед! Файлҳо дорои <metadataLink>мета-маълумоти алоқаманд</metadataLink>  мебошанд, ба монанди маълумоти демографӣ ва маълумоти санҷиши эътибор. Барои боргирӣ кардани маҷмуи маълумот шумо бояд нишонии почтаи электрониро таъмин намоед.
+about-playbook-how-access-dataset-content-1 = Шумо метавонед ба саҳифаи <datasetsPage>маҷмуи маълумотҳо</datasetsPage> ворид шавед, версия ва забон(ҳо)и дилхоҳатонро интихоб кунед ва онро боргирӣ намоед! Файлҳо дорои <metadataLink>мета-маълумоти алоқаманд</metadataLink> мебошанд, ба монанди маълумоти демографӣ ва маълумоти санҷиши эътибор. Барои боргирӣ кардани маҷмуи маълумот шумо бояд нишонии почтаи электрониро таъмин намоед.
 
 ## How are decisions made
 
