@@ -31,8 +31,11 @@ add-sentence-success = Pridaná 1 veta
 add-sentence-error = Chyba pri pridávaní vety
 required-field = Vyplňte toto pole.
 single-sentence-submission = Odoslanie jednej vety
+small-batch-sentence-submission = Odoslanie viet v malom množstve
 bulk-sentence-submission = Odoslanie viacerých viet
 single-sentence = Jedna veta
+small-batch-sentence = Malá várka
+bulk-sentence = Hromadné odoslanie
 sentence-domain-combobox-label = Zatriedenie vety
 sentence-domain-select-placeholder = Môžete zvoliť až tri zatriedenia
 # Sentence Domain dropdown option
@@ -94,3 +97,10 @@ too-many-files = Príliš veľa súborov
 
 ## SMALL BATCH SUBMISSION
 
+exceeds-small-batch-limit-error = Nie je možné odoslať viac ako 1 000 viet
+small-batch-sentences-rule-1 = Postupujte podľa pokynov v časti „Aké vety môžem pridať?“
+small-batch-sentences-rule-2 = Pridajte jednu vetu na riadok
+small-batch-sentences-rule-3 = Oddeľte vety do jedného riadku jedným stlačením klávesu „Enter“ alebo „Return“.
+small-batch-sentences-rule-4 = Môžete pridať až 1 000 viet
+small-batch-sentences-rule-5 = Všetky vety musia mať rovnakú licenciu
+small-batch-sentences-rule-6 = Všetky vety musia mať rovnakú citáciu
