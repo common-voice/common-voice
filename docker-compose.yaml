@@ -2,8 +2,8 @@ version: '3'
 services:
   db:
     image: mariadb:10.4
-    # networks:
-    #   - falak-network
+    networks:
+      - falak-network
     container_name: voicewall-db
     restart: unless-stopped
     environment:
@@ -22,16 +22,16 @@ services:
     restart: always
     ports:
       - 8010:8080
-    # networks:
-    #   - falak-network
+    networks:
+      - falak-network
   redis:
     image: redis:alpine
     container_name: voicewall-redis
     restart: unless-stopped
     ports:
       - 127.0.0.1:6379:6379
-    # networks:
-    #   - falak-network
+    networks:
+      - falak-network
   storage:
     image: fsouza/fake-gcs-server
     container_name: voicewall-storage
@@ -40,8 +40,8 @@ services:
       - 4443:4443
     volumes:
       - ../falak-host/voicewall-storage:/data
-    # networks:
-    #   - falak-network
+    networks:
+      - falak-network
     command: [ '-scheme', 'http', '-port', '8080', '-external-url', 'http://storage:8080', '-backend', 'filesystem' ]
   bundler:
     build:
@@ -54,8 +54,8 @@ services:
       - storage
     volumes:
       - ./bundler:/home/node/code
-    # networks:
-    #   - falak-network
+    networks:
+      - falak-network
     ports:
       - 9001:9001
     command: bash -c "npm ci && npm run build && npm start"
