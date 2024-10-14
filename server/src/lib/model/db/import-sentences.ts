@@ -105,7 +105,7 @@ async function importLocaleSentences(
             await pool.query(
               `
               INSERT INTO sentences
-              (id, text, is_used, locale_id, source, version)
+              (id, text, is_used, locale_id, source, version, is_validated)
               VALUES ${sentences
                 .map(sentence => {
                   return `(${[
@@ -117,6 +117,7 @@ async function importLocaleSentences(
                     localeId,
                     source,
                     version,
+                    true
                   ]
                     .map(v => pool.escape(v))
                     .join(', ')})`;
