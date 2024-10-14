@@ -5,12 +5,14 @@ write-instruction = Pridajte <icon></icon> vetu dostupnú pod verejnou licenciou
 write-page-subtitle = Tu pridané vety budú zaradené do verejne dostupného súboru údajov s licenciou cc-0.
 sentence =
     .label = Veta
-sentence-input-value = Tu zadajte svoju vetu dostupnú pod verejnou licenciou
+sentence-input-placeholder = Tu zadajte svoju vetu dostupnú pod verejnou licenciou
+small-batch-sentence-input-placeholder = Tu zadajte svoju vety dostupné pod verejnou licenciou
 citation-input-placeholder = Uveďte zdroj svojej vety (povinné)
 citation =
     .label = Citácia
 sc-write-submit-confirm = Potvrdzujem, že táto veta je dostupná <wikipediaLink>pod verejne dostupnou licenciou</wikipediaLink> a mám povolenie na jej nahratie.
 sc-review-write-title = Aké vety môžem pridať?
+sc-review-small-batch-title = Ako pridať viacero viet
 new-sentence-rule-1 = <noCopyright>Žiadne obmedzenia autorských práv</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Kratšie ako 15 slov
 new-sentence-rule-3 = Používajú správnu gramatiku
@@ -19,6 +21,7 @@ new-sentence-rule-5 = Žiadne čísla či špeciálne znaky
 new-sentence-rule-6 = Žiadne cudzie písmená
 new-sentence-rule-7 = Majú uvedenú správnu citáciu
 new-sentence-rule-8 = Ideálne prirodzené a konverzačné (veta by sa mala dať ľahko prečítať)
+login-instruction-multiple-sentences = Ak chcete pridať viacero viet, <loginLink>prihláste sa</loginLink> alebo <loginLink>sa zaregistrujte</loginLink>
 how-to-cite = Ako mám citovať?
 how-to-cite-explanation-bold = Citujte s odkazom adresou URL alebo celým názvom diela.
 how-to-cite-explanation = Ak ide o vaše vlastné slová, stačí povedať <italicizedText>„Citácia samého seba“</italicizedText>. Potrebujeme vedieť, kde ste tento obsah našli, aby sme mohli skontrolovať, či je dostupný pod verejnou licenciou a nevzťahujú sa naň žiadne obmedzenia autorských práv. Ďalšie informácie o citáciách nájdete na našej <guidelinesLink>stránke s pokynmi</guidelinesLink>.
@@ -30,7 +33,6 @@ required-field = Vyplňte toto pole.
 single-sentence-submission = Odoslanie jednej vety
 bulk-sentence-submission = Odoslanie viacerých viet
 single-sentence = Jedna veta
-bulk-sentences = Viaceré vety
 sentence-domain-combobox-label = Zatriedenie vety
 sentence-domain-select-placeholder = Môžete zvoliť až tri zatriedenia
 # Sentence Domain dropdown option
@@ -89,3 +91,6 @@ file-invalid-type = Neplatný súbor
 file-too-large = Súbor je príliš veľký
 file-too-small = Súbor je príliš malý
 too-many-files = Príliš veľa súborov
+
+## SMALL BATCH SUBMISSION
+
