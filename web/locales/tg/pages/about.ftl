@@ -60,6 +60,7 @@ about-playbook-how-add-sentences = Чӣ тавр ман ибораҳоро ил�
 ## How to record quality
 
 about-playbook-how-record-quality = Чӣ тавр ман сабти овозии баландсифатро сабт намоям?
+about-playbook-how-record-content-5 = <accuracyLink>Дар бораи меъёрҳои дақиқ бештар хонед.</accuracyLink>
 
 ## How to grow language
 
