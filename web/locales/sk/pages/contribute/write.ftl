@@ -1,7 +1,7 @@
 ## WRITE PAGE
 
 write = Píšte
-write-instruction = Pridajte <icon></icon> vetu dostupnú pod verejnou licenciou
+write-instruction = <icon></icon> Pridajte vetu dostupnú pod verejnou licenciou
 write-page-subtitle = Tu pridané vety budú zaradené do verejne dostupného súboru údajov s licenciou cc-0.
 sentence =
     .label = Veta
@@ -97,7 +97,42 @@ too-many-files = Príliš veľa súborov
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Pridajte viacero viet dostupných pod verejnou licenciou
+multiple-sentences-error = Do príspevku s jednou vetou nemôžete pridať viacero viet
 exceeds-small-batch-limit-error = Nie je možné odoslať viac ako 1 000 viet
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Prekročený limit. Skúste to znova o 1 minútu
+        [few] Prekročený limit. Skúste to znova o { $retryLimit } minúty
+        [many] Prekročený limit. Skúste to znova o { $retryLimit } minút
+       *[other] Prekročený limit. Skúste to znova o { $retryLimit } minút
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Prekročený limit. Skúste to znova o 1 sekundu
+        [few] Prekročený limit. Skúste to znova o { $retryLimit } sekundy
+        [many] Prekročený limit. Skúste to znova o { $retryLimit } sekúnd
+       *[other] Prekročený limit. Skúste to znova o { $retryLimit } sekúnd
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Dosiahli ste limit odoslania pre túto stránku. Pred odoslaním ďalšej vety počkajte 1 minútu. Ďakujeme za trpezlivosť!
+        [few] Dosiahli ste limit odoslania pre túto stránku. Pred odoslaním ďalšej vety počkajte { $retryLimit } minúty. Ďakujeme za trpezlivosť!
+        [many] Dosiahli ste limit odoslania pre túto stránku. Pred odoslaním ďalšej vety počkajte { $retryLimit } minút. Ďakujeme za trpezlivosť!
+       *[other] Dosiahli ste limit odoslania pre túto stránku. Pred odoslaním ďalšej vety počkajte { $retryLimit } minút. Ďakujeme za trpezlivosť!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Dosiahli ste limit odoslania pre túto stránku. Pred odoslaním ďalšej vety počkajte 1 sekundu. Ďakujeme za trpezlivosť!
+        [few] Dosiahli ste limit odoslania pre túto stránku. Pred odoslaním ďalšej vety počkajte { $retryLimit } sekundy. Ďakujeme za trpezlivosť!
+        [many] Dosiahli ste limit odoslania pre túto stránku. Pred odoslaním ďalšej vety počkajte { $retryLimit } sekúnd. Ďakujeme za trpezlivosť!
+       *[other] Dosiahli ste limit odoslania pre túto stránku. Pred odoslaním ďalšej vety počkajte { $retryLimit } sekúnd. Ďakujeme za trpezlivosť!
+    }
 small-batch-sentences-rule-1 = Postupujte podľa pokynov v časti „Aké vety môžem pridať?“
 small-batch-sentences-rule-2 = Pridajte jednu vetu na riadok
 small-batch-sentences-rule-3 = Oddeľte vety do jedného riadku jedným stlačením klávesu „Enter“ alebo „Return“.
