@@ -133,6 +133,22 @@ rate-limit-message-seconds =
         [many] Dosiahli ste limit odoslania pre túto stránku. Pred odoslaním ďalšej vety počkajte { $retryLimit } sekúnd. Ďakujeme za trpezlivosť!
        *[other] Dosiahli ste limit odoslania pre túto stránku. Pred odoslaním ďalšej vety počkajte { $retryLimit } sekúnd. Ďakujeme za trpezlivosť!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] Zozbierané vety: { $uploadedSentences } z 1
+        [few] Zozbierané vety: { $uploadedSentences } z { $totalSentences }
+        [many] Zozbierané vety: { $uploadedSentences } z { $totalSentences }
+       *[other] Zozbierané vety: { $uploadedSentences } z { $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] Zozbierané vety: { $uploadedSentences } z 1. Kliknutím <downloadLink>sem</downloadLink> stiahnete odmietnuté vety.
+        [few] Zozbierané vety: { $uploadedSentences } z { $totalSentences }. Kliknutím <downloadLink>sem</downloadLink> stiahnete odmietnuté vety.
+        [many] Zozbierané vety: { $uploadedSentences } z { $totalSentences }. Kliknutím <downloadLink>sem</downloadLink> stiahnete odmietnuté vety.
+       *[other] Zozbierané vety: { $uploadedSentences } z { $totalSentences }. Kliknutím <downloadLink>sem</downloadLink> stiahnete odmietnuté vety.
+    }
 small-batch-sentences-rule-1 = Postupujte podľa pokynov v časti „Aké vety môžem pridať?“
 small-batch-sentences-rule-2 = Pridajte jednu vetu na riadok
 small-batch-sentences-rule-3 = Oddeľte vety do jedného riadku jedným stlačením klávesu „Enter“ alebo „Return“.
