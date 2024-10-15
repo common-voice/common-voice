@@ -1,9 +1,9 @@
 listen = आय्क
 listen-subtitle = आवाजांचे सारखेपण तोपासुंक मद्दत कर
-listen-instruction = { $actionType }<playIcon></playIcon> उलोवपीन आसा तशेंच उलयले?
-listen-again-instruction = बरे काम केले! तोयार जावन परत <playIcon></playIcon> आयक
-listen-3rd-time-instruction = 2 जाले, आनीक करुन वच! <playIcon></playIcon>
-listen-last-time-instruction = <playIcon></playIcon>आनीक एक!
+listen-instruction = { $actionType }<playIcon></playIcon> उलोवपी वाख्य आसा तसोच उलयता?
+listen-again-instruction = बरें काम केले! तोयार जावन परत <playIcon></playIcon> आयक
+listen-3rd-time-instruction = 2 जाले, अशेंच फुडें वच! <playIcon></playIcon>
+listen-last-time-instruction = <playIcon></playIcon> फकत एक उरला!
 listen-empty-state = Clips सोपले आसतले - page refresh कर, ना जाल्यार मागीर प्रयत्न कर.
 listen-abort-title = क्लिपाचे तोपासणी करून जाली?
 listen-abort-cancel = फुडें वच
