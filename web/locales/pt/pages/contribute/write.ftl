@@ -12,6 +12,7 @@ citation =
     .label = Citação
 sc-write-submit-confirm = Confirmo que esta frase é de <wikipediaLink>domínio público</wikipediaLink> e tenho permissão para enviar.
 sc-review-write-title = Que frases posso adicionar?
+sc-review-small-batch-title = Como adicionar várias frases
 new-sentence-rule-1 = <noCopyright>Sem restrições de direitos autorais</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Menos de 15 palavras
 new-sentence-rule-3 = Usar gramática correta
@@ -20,6 +21,7 @@ new-sentence-rule-5 = Sem números nem caracteres especiais
 new-sentence-rule-6 = Sem letras estrangeiras
 new-sentence-rule-7 = Incluir citação apropriada
 new-sentence-rule-8 = Idealmente natural e coloquial (deve ser fácil ler a frase)
+login-instruction-multiple-sentences = <loginLink>Entre na sua conta</loginLink> ou <loginLink>crie uma</loginLink> para adicionar várias frases
 how-to-cite = Como citar?
 how-to-cite-explanation-bold = Cite com um link de URL ou o nome completo da obra.
 how-to-cite-explanation = Se for com suas próprias palavras, basta dizer <italicizedText>“Autocitação”</italicizedText>. Precisamos saber onde você encontrou esse conteúdo para poder verificar se é de domínio público e que não se aplicam restrições de direitos autorais. Consulte mais informações sobre citação em nossa <guidelinesLink>página de diretrizes</guidelinesLink>.
@@ -29,8 +31,11 @@ add-sentence-success = 1 frase coletada
 add-sentence-error = Erro ao adicionar frase
 required-field = Preencha este campo.
 single-sentence-submission = Envio de uma única frase
+small-batch-sentence-submission = Envio de frases em pequenos lotes
 bulk-sentence-submission = Envio de grupo de frases
 single-sentence = Uma única frase
+small-batch-sentence = Lote pequeno
+bulk-sentence = Lote grande
 sentence-domain-combobox-label = Domínio da frase
 sentence-domain-select-placeholder = Selecione até três domínios
 # Sentence Domain dropdown option
@@ -92,6 +97,8 @@ too-many-files = Arquivos demais
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Adicionar várias frases de domínio público
 small-batch-sentences-rule-1 = Siga as diretrizes de “Quais frases posso adicionar?”
 small-batch-sentences-rule-2 = Adicione uma frase por linha
 small-batch-sentences-rule-3 = Separe frases de uma mesma linha pressionando “Enter” ou “Return” uma vez
