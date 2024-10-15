@@ -1,9 +1,23 @@
 import { Localized } from '@fluent/react'
 import * as React from 'react'
+
 import { trackNav, getTrackClass } from '../../../services/tracker'
+import {
+  ChatBubbleIcon,
+  CheckCircle,
+  EditIcon,
+  FilePlus,
+  GlobeIcon,
+  MicIcon,
+  PlayIcon,
+  ReviewIcon,
+  ShareIcon,
+  TranscribeIcon,
+  TrendingUp,
+} from '../../ui/icons'
 import URLS from '../../../urls'
 import { LocaleNavLink, useLocale } from '../../locale-helpers'
-import ContributeMenu from './contribute-menu'
+import ContributeMenu, { ContributeMenuItem } from './contribute-menu'
 import { useAccount } from '../../../hooks/store-hooks'
 
 import './nav.css'
@@ -29,6 +43,38 @@ const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
   )
 }
 
+const speakMenuItems = [
+  { icon: MicIcon, href: URLS.SPEAK, localizedId: 'read-sentences' },
+  { icon: ChatBubbleIcon, localizedId: 'answer-questions' },
+]
+
+const menuItems: Record<string, ContributeMenuItem[]> = {
+  speak: [
+    { icon: MicIcon, href: URLS.SPEAK, localizedId: 'read-sentences' },
+    { icon: ChatBubbleIcon, localizedId: 'answer-questions' },
+  ],
+  listen: [
+    { icon: PlayIcon, href: URLS.SPEAK, localizedId: 'validate-readings' },
+    { icon: CheckCircle, localizedId: 'review-transcriptions' },
+  ],
+  write: [
+    { icon: EditIcon, href: URLS.WRITE, localizedId: 'add-sentences' },
+    { icon: ReviewIcon, href: URLS.REVIEW, localizedId: 'review-sentences' },
+    { icon: FilePlus, localizedId: 'add-questions' },
+    { icon: TranscribeIcon, localizedId: 'transcribe-audio' },
+  ],
+  download: [],
+  about: [
+    { icon: TrendingUp, localizedId: 'partners' },
+    { icon: ShareIcon, localizedId: 'press-and-stories' },
+    {
+      icon: GlobeIcon,
+      href: URLS.LANGUAGES,
+      localizedId: 'community-and-languages',
+    },
+  ],
+}
+
 const Nav: React.FC<NavProps> = ({
   children,
   shouldExpandNavItems,
@@ -47,23 +93,48 @@ const Nav: React.FC<NavProps> = ({
   return (
     <nav {...props} className="nav-list">
       <div className="nav-links">
-        <ContributeMenu
+        {/* <ContributeMenu
           showMenu={showMenu}
           setShowMenu={setShowMenu}
           showMobileMenu={showMobileMenu}
           toggleMobileMenuVisible={toggleMobileMenuVisible}
           isContributionPageActive={isContributionPageActive}
           isUserLoggedIn={Boolean(account)}
+          menuItems={speakMenuItems}
+          renderContributableLock
         />
         <span className="divider" />
         <div className={shouldExpandNavItems ? 'fade-in' : 'fade-out'}>
           <>
+            <ContributeMenu
+              showMenu={showMenu}
+              setShowMenu={setShowMenu}
+              showMobileMenu={showMobileMenu}
+              toggleMobileMenuVisible={toggleMobileMenuVisible}
+              isContributionPageActive={isContributionPageActive}
+              isUserLoggedIn={Boolean(account)}
+              menuItems={speakMenuItems}
+              renderContributableLock
+            />
             <LocalizedNavLink id="datasets" to={URLS.DATASETS} />
-            <LocalizedNavLink id="languages" to={URLS.LANGUAGES} />
             <LocalizedNavLink id="partner" to={URLS.PARTNER} />
             <LocalizedNavLink id="about" to={URLS.ABOUT} />
           </>
-        </div>
+        </div> */}
+        {Object.keys(menuItems).map(key => (
+          <ContributeMenu
+            showMenu={showMenu}
+            setShowMenu={setShowMenu}
+            showMobileMenu={showMobileMenu}
+            toggleMobileMenuVisible={toggleMobileMenuVisible}
+            isContributionPageActive={isContributionPageActive}
+            isUserLoggedIn={Boolean(account)}
+            menuItems={menuItems[key]}
+            renderContributableLock
+            menuLabel={key}
+            key={key}
+          />
+        ))}
       </div>
       {children}
     </nav>

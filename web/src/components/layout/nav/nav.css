@@ -286,6 +286,8 @@ header {
         }
 
         & .contribute-wrapper {
+            /* TODO: do we need a media query for this?? */
+            height: 100%;
             @media (--lg-down) {
                 margin-top: 20px;
             }

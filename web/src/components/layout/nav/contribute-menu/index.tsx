@@ -9,6 +9,12 @@ import ContributeMenuContent from '../contribute-menu-content'
 
 import './contribute-menu.css'
 
+export type ContributeMenuItem = {
+  localizedId: string
+  href?: string
+  icon: React.ComponentType
+}
+
 interface ContributeMenuProps extends RouteComponentProps {
   showMenu: boolean
   setShowMenu: React.Dispatch<React.SetStateAction<boolean>>
@@ -16,6 +22,9 @@ interface ContributeMenuProps extends RouteComponentProps {
   toggleMobileMenuVisible: () => void
   isContributionPageActive: boolean
   isUserLoggedIn: boolean
+  menuItems: ContributeMenuItem[]
+  renderContributableLock?: boolean
+  menuLabel: string
 }
 
 const ContributeMenu: React.FC<ContributeMenuProps> = ({
@@ -25,24 +34,27 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   toggleMobileMenuVisible,
   isContributionPageActive,
   location,
-  isUserLoggedIn,
+  // isUserLoggedIn,
+  menuItems,
+  menuLabel,
+  renderContributableLock,
 }) => {
-  const handleMouseEnter = () => {
-    if (!isContributionPageActive) {
-      setShowMenu(true)
-    }
-  }
-
   const handleMouseLeave = () => {
     if (!isContributionPageActive) {
       setShowMenu(false)
     }
   }
 
+  const handleClick = () => {
+    if (!isContributionPageActive) {
+      setShowMenu(!showMenu)
+    }
+  }
+
   return (
     <div className="contribute-wrapper">
       <div id="contribute-btn-wrapper">
-        <Localized id="contribute">
+        <Localized id={menuLabel}>
           <TextButton
             className={classNames('contribute-btn', {
               'contribution-page-active': isContributionPageActive,
@@ -57,20 +69,21 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
           />
         )}
       </div>
-      <div
+      <button
         className={classNames('contribute-menu', {
           active: showMenu,
+          // active: true,
           'contribution-page-active': isContributionPageActive,
         })}
-        onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
+        onClick={handleClick}
         data-testid="contribute-menu">
         <div
           className={classNames('contribute-links-wrapper', {
             'show-border': isContributionPageActive,
           })}>
           <p className="nav-link-item">
-            <Localized id="contribute" />
+            <Localized id={menuLabel} />
           </p>
           {!isContributionPageActive && (
             <ChevronDown className={classNames({ 'rotate-180': showMenu })} />
@@ -83,7 +96,8 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
             <ContributeMenuContent
               pathname={location.pathname}
               className="mobile-menu-list"
-              isUserLoggedIn={isUserLoggedIn}
+              contributeMenuItems={menuItems}
+              renderContributableLock={renderContributableLock}
             />
           </div>
         )}
@@ -91,11 +105,12 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
           <div className="menu">
             <ContributeMenuContent
               className="menu-list"
-              isUserLoggedIn={isUserLoggedIn}
+              contributeMenuItems={menuItems}
+              renderContributableLock={renderContributableLock}
             />
           </div>
         </div>
-      </div>
+      </button>
     </div>
   )
 }

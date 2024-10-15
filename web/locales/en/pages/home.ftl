@@ -85,3 +85,16 @@ help-contribute = You can help build a diverse, open-source dataset by creating 
 login-company = Log In / Sign Up with { $company } email
 profile-not-required = Having a profile is not required to contribute though it is helpful, see why below.
 read-more-about = Read more on our About page
+
+# Nav items
+read-sentences = Read Sentences
+answer-questions = Answer Questions <small>(Coming soon)</small>
+validate-readings = Validate Readings
+review-transcriptions = Review Transcriptions <small>(Coming soon)</small>
+add-sentences = Add Sentences
+review-sentences = Review Sentences
+add-questions = Add Questions <small>(Coming soon)</small>
+transcribe-audio = Transcribe Audio <small>(Coming soon)</small>
+partners = Partners
+press-and-stories = Press And Stories <small>(Coming soon)</small>
+community-and-languages = Community And Languages

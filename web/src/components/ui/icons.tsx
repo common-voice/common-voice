@@ -1271,6 +1271,83 @@ export const HeartIcon = () => (
   </svg>
 )
 
+export const ChatBubbleIcon = () => (
+  <svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M.333 13.667v-12c0-.367.13-.68.392-.942.26-.261.575-.392.941-.392h10.667c.367 0 .68.13.942.392.26.261.391.575.391.942v8c0 .366-.13.68-.391.941a1.284 1.284 0 0 1-.942.392H3L.333 13.667Zm2.1-4h9.9v-8H1.666v8.75l.767-.75Z"
+      fill="#959595"
+    />
+  </svg>
+)
+
+export const CheckCircle = () => (
+  <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M10.442 2.516A6 6 0 1 0 14 8v-.613a.667.667 0 0 1 1.334 0V8a7.334 7.334 0 1 1-4.349-6.702.667.667 0 1 1-.543 1.218Z"
+      fill="#959595"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M15.139 2.195c.26.26.26.682 0 .943L8.472 9.81a.667.667 0 0 1-.943 0l-2-2a.667.667 0 1 1 .943-.942L8 8.397l6.196-6.202c.26-.26.682-.26.943 0Z"
+      fill="#959595"
+    />
+  </svg>
+)
+
+export const TranscribeIcon = () => (
+  <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clipPath="url(#a)" fillRule="evenodd" clipRule="evenodd" fill="#959595">
+      <path d="M2.666 3.333A.667.667 0 0 0 1.999 4v9.333a.667.667 0 0 0 .667.667h9.333a.667.667 0 0 0 .667-.667v-3.56a.667.667 0 0 1 1.333 0v3.56a2 2 0 0 1-2 2H2.666a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h3.56a.667.667 0 0 1 0 1.333h-3.56Z" />
+      <path d="M11.528.862c.26-.26.682-.26.943 0l2.666 2.667c.26.26.26.682 0 .942l-6.666 6.667a.667.667 0 0 1-.472.195H5.333a.667.667 0 0 1-.667-.666V8c0-.177.07-.346.195-.471L11.528.862ZM5.999 8.276V10h1.724l6-6L12 2.276l-6 6Z" />
+    </g>
+    <defs>
+      <clipPath id="a">
+        <path fill="#fff" d="M0 0h16v16H0z" />
+      </clipPath>
+    </defs>
+  </svg>
+)
+
+export const FilePlus = () => (
+  <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M2.586 1.252A2 2 0 0 1 4 .667h5.333c.177 0 .347.07.472.195l4 4a.666.666 0 0 1 .195.471v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2.667a2 2 0 0 1 .586-1.415ZM4 2a.667.667 0 0 0-.667.667v10.666A.667.667 0 0 0 4 14h8a.666.666 0 0 0 .667-.667V5.61L9.057 2H4Z"
+      fill="#959595"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M9.333.667c.369 0 .667.298.667.666v3.334h3.333a.667.667 0 1 1 0 1.333h-4a.667.667 0 0 1-.666-.667v-4c0-.368.298-.666.666-.666ZM8 7.333c.368 0 .667.299.667.667v4a.667.667 0 1 1-1.334 0V8c0-.368.299-.667.667-.667Z"
+      fill="#959595"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M5.333 10c0-.368.299-.667.667-.667h4a.667.667 0 1 1 0 1.334H6A.667.667 0 0 1 5.333 10Z"
+      fill="#959595"
+    />
+  </svg>
+)
+
+export const TrendingUp = () => (
+  <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clipPath="url(#a)" fillRule="evenodd" clipRule="evenodd" fill="#000">
+      <path d="M15.805 3.529c.26.26.26.682 0 .942L9.47 10.805a.667.667 0 0 1-.942 0L5.667 7.943 1.138 12.47a.667.667 0 0 1-.943-.942l5-5c.26-.26.683-.26.943 0L9 9.39l5.862-5.861c.26-.26.682-.26.943 0Z" />
+      <path d="M10.667 4c0-.368.298-.667.666-.667h4c.368 0 .667.299.667.667v4a.667.667 0 0 1-1.333 0V4.667h-3.334A.667.667 0 0 1 10.667 4Z" />
+    </g>
+    <defs>
+      <clipPath id="a">
+        <path fill="#fff" d="M0 0h16v16H0z" />
+      </clipPath>
+    </defs>
+  </svg>
+)
+
 export const FirefoxColor = Icon(
   require('./icons/ff-color.svg'),
   'firefox-color'

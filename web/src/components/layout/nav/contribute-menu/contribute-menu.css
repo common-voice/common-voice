@@ -4,6 +4,8 @@
     cursor: default;
     align-items: center;
     height: 100%;
+    border: none;
+    cursor: pointer;
 
     &.active {
         & .contribute-links-wrapper {
@@ -53,11 +55,11 @@
         top: 0;
 
         [dir='ltr'] & {
-            left: -20px;
+            left: -30px;
         }
 
         [dir='rtl'] & {
-            right: -20px;
+            right: -30px;
         }
 
         & .menu-list {
@@ -80,7 +82,7 @@
         & ul {
             list-style: none;
             margin: 0;
-            width: 200px;
+            width: 350px;
             padding: 20px 32px 32px 30px;
 
             & li {
@@ -91,11 +93,23 @@
                 & .content {
                     display: flex;
                     align-items: center;
+                    gap: 10px;
 
                     & a {
                         overflow: hidden;
                         text-overflow: ellipsis;
-                        width: 150px;
+                    }
+
+                    &.coming-soon {
+                        p {
+                            color: var(--warm-grey);
+                            margin-block-end: 4px;
+                            cursor: default;
+                        }
+
+                        path {
+                            fill: var(--warm-grey);
+                        }
                     }
                 }
 
@@ -109,6 +123,10 @@
                 & svg {
                     width: 16px;
                     height: 16px;
+
+                    path {
+                        fill: var(--black);
+                    }
                 }
             }
 
@@ -123,27 +141,18 @@
             }
         }
 
-        & a {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+        & a.contribute-link,
+        p {
             font-weight: 400;
             text-transform: capitalize;
             font-size: 16px;
+            padding: 0;
         }
     }
 
     &.active {
         & .menu {
             display: flex;
-        }
-
-        & .nav-link-item {
-            color: var(--blue);
-        }
-
-        & svg {
-            fill: var(--blue);
         }
     }
 
