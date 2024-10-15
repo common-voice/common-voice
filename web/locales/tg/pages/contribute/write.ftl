@@ -1,8 +1,33 @@
 ## WRITE PAGE
 
+# Sentence Domain dropdown option
+agriculture_food = Кишоварзӣ ва озуқаворӣ
+# Sentence Domain dropdown option
+automotive_transport = Автомобилсозӣ ва нақлиёт
+# Sentence Domain dropdown option
+finance = Молия
+# Sentence Domain dropdown option
+service_retail = Хизматрасонӣ ва савдо
+# Sentence Domain dropdown option
+general = Асосӣ
+# Sentence Domain dropdown option
+healthcare = Тандурустӣ
+# Sentence Domain dropdown option
+history_law_government = Таърих, қонунгузорӣ ва ҳукумат
+# Sentence Domain dropdown option
+language_fundamentals = Асосҳои забон (мисли рақамҳо, ҳарфҳо, пул)
+# Sentence Domain dropdown option
+media_entertainment = ВАО ва фароғат
+# Sentence Domain dropdown option
+nature_environment = Табиат ва муҳити зист
+# Sentence Domain dropdown option
+news_current_affairs = Ахбор ва воқеаҳои ҷорӣ
+# Sentence Domain dropdown option
+technology_robotics = Технология ва робототехника
 
 ## BULK SUBMISSION 
 
+select-file = Интихоби файл
 
 ## SMALL BATCH SUBMISSION
 
