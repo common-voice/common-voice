@@ -99,6 +99,44 @@ too-many-files = Arquivos demais
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Adicionar várias frases de domínio público
+multiple-sentences-error = Você não pode adicionar várias frases em um único envio
+exceeds-small-batch-limit-error = Não é possível enviar mais de 1000 frases
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Limite de envio excedido. Tente novamente em 1 minuto
+       *[other] Limite de envio excedido. Tente novamente em { $retryLimit } minutos
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Limite de envio excedido. Tente novamente em 1 segundo
+       *[other] Limite de envio excedido. Tente novamente em { $retryLimit } segundos
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Você atingiu o limite de envio desta página. Aguarde 1 minuto antes de enviar outra frase. Obrigado por sua paciência!
+       *[other] Você atingiu o limite de envio desta página. Aguarde { $retryLimit } minutos antes de enviar outra frase. Obrigado por sua paciência!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Você atingiu o limite de envio desta página. Aguarde 1 segundo antes de enviar outra frase. Obrigado por sua paciência!
+       *[other] Você atingiu o limite de envio desta página. Aguarde { $retryLimit } segundos antes de enviar outra frase. Obrigado por sua paciência!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } de 1 frase coletada
+       *[other] { $uploadedSentences } de { $totalSentences } frases coletadas
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } de 1 frase coletada. Clique <downloadLink>aqui</downloadLink> para baixar as frases rejeitadas.
+       *[other] { $uploadedSentences } de { $totalSentences } frases coletadas. Clique <downloadLink>aqui</downloadLink> para baixar as frases rejeitadas.
+    }
 small-batch-sentences-rule-1 = Siga as diretrizes de “Quais frases posso adicionar?”
 small-batch-sentences-rule-2 = Adicione uma frase por linha
 small-batch-sentences-rule-3 = Separe frases de uma mesma linha pressionando “Enter” ou “Return” uma vez
