@@ -142,3 +142,4 @@ small-batch-sentences-rule-2 = Engada unha frase por liña
 small-batch-sentences-rule-3 = Separe as frases en liñas premendo unha vez a tecla Intro ou Retorno
 small-batch-sentences-rule-4 = Engada ata 1.000 frases
 small-batch-sentences-rule-5 = Todas as frases deben pertencer ao mesmo dominio
+small-batch-sentences-rule-6 = Todas as frases deben ter a mesma cita
