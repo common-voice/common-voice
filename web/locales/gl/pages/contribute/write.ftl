@@ -31,8 +31,11 @@ add-sentence-success = 1 frase recollida
 add-sentence-error = Produciuse un erro ao engadir a frase
 required-field = Por favor, cubra este campo.
 single-sentence-submission = Envío dunha única frase
+small-batch-sentence-submission = Envío de frases por lotes pequenos
 bulk-sentence-submission = Envío masivo de frases
 single-sentence = Frase única
+small-batch-sentence = Lote pequeno
+bulk-sentence = Lote masivo
 sentence-domain-combobox-label = Dominio ao que pertence a frase
 sentence-domain-select-placeholder = Seleccione ata tres campos
 # Sentence Domain dropdown option
@@ -94,3 +97,19 @@ too-many-files = Demasiados ficheiros
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Engada <icon></icon> varias frases de dominio público
+multiple-sentences-error = Non se poden engadir varias frases nun único envío
+exceeds-small-batch-limit-error = Non se poden enviar máis de 1000 frases
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Superouse o límite de envíos. Tente de novo dentro dun minuto
+       *[other] Superouse o límite de envíos. Tente de novo dentro de { $retryLimit } minutos
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Superouse o límite de envíos. Tente de novo dentro dun segundo
+       *[other] Superouse o límite de envíos. Tente de novo dentro de { $retryLimit } segundos
+    }
