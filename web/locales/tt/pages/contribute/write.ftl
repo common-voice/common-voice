@@ -45,11 +45,15 @@ technology_robotics = Технологияләр һәм робототехник
 ## BULK SUBMISSION 
 
 sc-bulk-upload-instruction = Файлыгызны йөкләү өчен аны монда тартып күчерегез яки <uploadButton>монда басыгыз</uploadButton>
+sc-bulk-upload-instruction-drop = Йөкләү өчен файлны монда тартып күчерегез
+try-upload-again-md = Яңадан йөкләп карагыз
 select-file = Файлны сайлау
 select-file-mobile = Йөкләү өчен Файлны сайлау
+accepted-files = Кабул ителгән файл төрләре: .tsv гына
 maximum-file-size = Максималь файл үлчәме: 25 МБ
 what-needs-to-be-in-file = Минем файлда нәрсә булырга тиеш?
 upload-progress-text = Йөкләү дәвам итә...
+sc-bulk-submit-confirm = Бу җөмләләрнең <wikipediaLink>иҗтимагый милектә</wikipediaLink> булуын раслыйм һәм аларны йөкләргә рөхсәтем бар.
 bulk-upload-success-toast = Күп җөмләләр йөкләнде
 bulk-upload-failed-toast = Йөкләү уңышсыз булды, зинһар, янәдән тырышып карагыз.
 upload-more-btn-text = Күбрәк җөмлә йөкләнсенме?
