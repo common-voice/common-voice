@@ -1,5 +1,6 @@
 ## Languages Overview
 
+language-section-launched = ပိုတ်ႇတူဝ်ယဝ်ႉ
 contribute = ၸွႆႈထႅမ်
 get-involved-button = ၶဝ်ႈႁူမ်ႈပႃး
 get-involved-title = ၸွႆႈထႅမ်ပၼ်ၽႃႇသႃႇ { $lang }

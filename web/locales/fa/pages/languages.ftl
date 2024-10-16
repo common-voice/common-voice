@@ -1,9 +1,11 @@
 ## Languages Overview
 
 language-section-in-progress = در حال پیشرفت
-language-section-in-progress-new-description = این زبان در حال حاضر تحت توسعه انجمن می‌باشد. این نوار توسعه متشکل از روند توسعه  هر زبان در مرحله<localizationGlossaryLink> محلی سازی وب سایت</localizationGlossaryLink> و <sentenceCollectionGlossaryLink> جمع اوری عبارت‌ها می باشد</sentenceCollectionGlossaryLink>.
+language-section-in-progress-new-description = این زبان‌ها در حال حاضر تحت توسعه اجتماع هستند. <localizationGlossaryLink>محلی‌سازی وبگاه</localizationGlossaryLink> و <sentenceCollectionGlossaryLink>گردآوری جملات</sentenceCollectionGlossaryLink> برای راه‌اندازی مورد نیاز است.
 language-section-launched = منتشر شده
-language-section-launched-description = برای زبان های زیر پایگاه اطلاع رسانی با موفقیت آغاز به کار کرد و به صورت کامل <localizationGlossaryLink> محلی سازی شده</localizationGlossaryLink> و به صورت کامل<sentenceCollectionGlossaryLink> عبارت ذخیره شده دارد</sentenceCollectionGlossaryLink> تا به مشارکت‌کنندگان امکان<speakLink>گفتن </speakLink> و <listenLink> شنیدن </listenLink> بدهد.
+language-section-launched-description = برای این زبان‌ها، وبگاه <localizationGlossaryLink>محلی‌سازی</localizationGlossaryLink> با موفقیت راه‌اندازی شده است و به اندازه کافی <sentenceCollectionGlossaryLink>جملات گردآوری شده</sentenceCollectionGlossaryLink> دارد تا امکان مشارکت‌های مداوم در <speakLink>صحبت کردن</speakLink> و <listenLink>گوش دادن</listenLink> را فراهم کند.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = آخرین به‌روزرسانی: { $lastUpdatedTimeStamp }
 languages-show-more = مشاهده بیشتر…
 languages-show-less = کم‌تر
 language-meter-in-progress = پیشرفت
@@ -13,6 +15,8 @@ language-search-input =
 language-speakers = گویندگان
 localized = محلی شده
 sentences = جمله‌ها
+language-validation-hours = ساعت
+language-validation-progress = پیشرفت اعتبارسنجی
 contribute = مشارکت
 get-involved-button = مشارکت کنید
 get-involved-title = مشارکت در { $lang }

@@ -1,6 +1,7 @@
 ## DemoLayout
 
 demo-get-started = Биёед оғоз намоем
+demo-welcome = Хуш омадед ба «Common Voice»
 
 ## Demo Datasets
 

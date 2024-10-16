@@ -148,3 +148,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Безне н�
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Common Voice ничек финанслана?

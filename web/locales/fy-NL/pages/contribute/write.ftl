@@ -104,8 +104,31 @@ too-many-files = Tefolle bestannen
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Meardere sinnen út it publike domein tafoegje
 multiple-sentences-error = Jo kinne net meardere sinnen tafoegje foar ien ynstjoering
-# <errorIcon></erroricon> will be replace with an icon that represents an error
 exceeds-small-batch-limit-error = Kin net mear as 1000 sinnen yntsjinje
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Oer de tagongslimyt. Probearje it opnij oer 1 minút
+       *[other] Oer de tagongslimyt. Probearje it opnij oer { $retryLimit } minuten
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Oer de tagongslimyt. Probearje it opnij oer 1 minút
+       *[other] Oer de tagongslimyt. Probearje it opnij oer { $retryLimit } minuten
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Jo hawwe de yntsjinningslimyt foar dizze side berikt. Wachtsje 1 minút eardat jo noch in sin ynfiere. Tank foar jo geduld!
+       *[other] Jo hawwe de yntsjinningslimyt foar dizze side berikt. Wachtsje { $retryLimit } minuten eardat jo noch in sin ynfiere. Tank foar jo geduld!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Jo hawwe de yntsjinningslimyt foar dizze side berikt. Wachtsje 1 minút eardat jo noch in sin ynfiere. Tank foar jo geduld!
+       *[other] Jo hawwe de yntsjinningslimyt foar dizze side berikt. Wachtsje { $retryLimit } minuten eardat jo noch in sin ynfiere. Tank foar jo geduld!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->

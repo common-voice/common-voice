@@ -1,6 +1,8 @@
 ## Dashboard
 
 your-languages = Забонҳои шумо
+toward-next-goal = Ба суйи мақсади оянда
+goal-reached = Ба мақсад расидед
 stats = Омор
 awards = Мукофот
 you = Шумо

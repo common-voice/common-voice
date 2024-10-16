@@ -36,6 +36,13 @@ change-preferences = Көйләнмәләрне үзгәртү
 
 contribute-voice-collection-nav-header = Тавыш туплау
 contribute-sentence-collection-nav-header = Җөмләләр туплау
+login-signup = Керү / Теркәлү
+vote-yes = Әйе
+vote-no = Юк
+datasets = Мәгълүмат тупланмалары
+languages = Телләр
+about = Хакында
+partner = Партнёр
 
 ## Reporting
 

@@ -41,6 +41,9 @@ add-information-button = Мәгълүмат өстәү
 continue-speaking-button = Юк, рәхмәт, сөйләүне дәвам итү
 thanks-for-voice-toast = Тавыш мәгълүматыгыз өчен рәхмәт
 thanks-for-voice-toast-error = Тавыш мәгълүматыгызны җибәрүдә хата килеп чыкты
+first-cta-gender-select-help-text =
+    .label = Җенесегезне ничек тасвирлар идегез?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Тавышыгызны иганә иткәнегез өчен рәхмәт!
+already-have-an-account = Хисабыгыз бармы инде? <login>Керү</login>
 create-profile-button = Профиль булдыру

@@ -5,7 +5,6 @@ write-instruction = Ek lok-ulovpi vakya <icon></icon> boroi
 write-page-subtitle = Hanga yogdan kel'le vakyo ek cc-0 "No Rights Reserved" "dataset"-an lokank download korpak zata.
 sentence =
     .label = Vakya
-sentence-input-value = Tumche public-domain vakya hanga boroi
 citation-input-placeholder = Hem vakya tuka kõi melle? ("required")
 citation =
     .label = Citation
@@ -29,8 +28,9 @@ add-sentence-error = Vakya ghetna koden chuk zali (Error adding sentence)
 required-field = Please fill out this field.
 single-sentence-submission = Ek-ek vakya dhadpak
 bulk-sentence-submission = Khub Vakyo Dhadpak
-single-sentence = Ekuch Vakya
-bulk-sentences = Khub Vakyo
+single-sentence = Ekuch
+small-batch-sentence = Khub
+bulk-sentence = Chôduch
 sentence-domain-combobox-label = Sentence Domain
 sentence-domain-select-placeholder = Select up to three domains (optional)
 # Sentence Domain dropdown option
@@ -89,3 +89,6 @@ file-invalid-type = Hem file sarko na
 file-too-large = File chod vhodle asa
 file-too-small = File khub dhakte asa
 too-many-files = Samke chod file asa
+
+## SMALL BATCH SUBMISSION
+
