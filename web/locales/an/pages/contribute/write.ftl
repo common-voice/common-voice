@@ -131,6 +131,12 @@ add-small-batch-success =
         [one] { $uploadedSentences } d'1 frase replegada
        *[other] { $uploadedSentences } de { $totalSentences } frases replegadas
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } d'1 frase replegada. Fe clic <downloadLink>aquí</downloadLink> pa descargar las frases refusadas.
+       *[other] { $uploadedSentences } de { $totalSentences } frases replegadas. Fe clic <downloadLink>aquí</downloadLink> pa descargar las frases refusadas.
+    }
 small-batch-sentences-rule-1 = Sigue las instruccions de “Qué frases puedo anyadir?”
 small-batch-sentences-rule-2 = Anyadir una frase per linia
 small-batch-sentences-rule-3 = Separar las frases pretando “Enter” (entrar) u “Return" una vegada

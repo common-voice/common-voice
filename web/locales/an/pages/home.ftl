@@ -4,21 +4,17 @@ home-title = Lo prochecto Common Voice ye una iniciativa de Mozilla pa aduyar a 
 default-tagline = Mozilla Common Voice ye una iniciativa pa aduyar a amostrar a las maquinas cómo charran las personas.
 home-cta = Charra fuerte, contribuye aquí!
 wall-of-text-start = La voz ye natural, la voz ye humana. Per ixo somos entusiasmaus con crear tecnolochías de voz utilizables pa las nuestras maquinas. Pero pa crear sistemas de voz, nos fa falta una gran cantidat de datos de voz.
-wall-of-text-more-mobile = La mayor parte d'os datos usaus per las grans interpresas no ye disponible pa la mayoría d'a chent. Nusatros pensamos que ixo safoca la innovación. Asinas que lanzamos lo prochecto Common Voice, un prochecto pa fer que lo reconoiximiento de voz sía disponible pa totz.
+wall-of-text-more-mobile = La mayor parte d'os datos usaus per las grans interpresas no ye disponible pa la mayoría d'a chent. Nusatros pensamos que ixo safoca la innovación. Asinas que lanzamos lo prochecto Common Voice, un prochecto pa fer que lo reconoiximiento de voz sía disponible pa toz.
 wall-of-text-more-desktop = Agora puetz donar la tuya voz pa aduyar-nos a fer una base de datos de voz de codigo ubierto que qualsequiera pueda usar pa fer apps innovaderas pa dispositivos y pa la web. Leye una frase pa aduyar a las maquinas a aprender cómo charra la chent real. Compreba lo treballo d'atros contribuidors pa millorar-ne la calidat. Asinas de facil!
 wall-of-text-first = La voz ye natural, la voz ye humana. Per ixo somos entusiasmaus per crear tecnolochías de voz utilizables pa las nuestras maquinas. Pero pa crear sistemas de voz, nos fa falta una gran cantidat de datos de voz.
-wall-of-text-second = La mayor parte d'os datos usaus per las grans interpresas no ye disponible pa la mayoría d'a chent. Nusatros pensamos que ixo safoca la innovación. Asinas que lanzamos lo prochecto Common Voice, un prochecto pa fer que lo reconoiximiento de voz sía disponible pa totz.
+wall-of-text-second = La mayor parte d'os datos usaus per las grans interpresas no ye disponible pa la mayoría d'a chent. Nusatros pensamos que ixo safoca la innovación. Asinas que lanzamos lo prochecto Common Voice, un prochecto pa fer que lo reconoiximiento de voz sía disponible pa toz.
 show-wall-of-text = Leyer mas
 help-us-title = Aduya-nos a validar frases!
 help-us-explain = Preta reproducir, escuita y di-nos: han dito correctament la frase d'abaixo?
 no-clips-to-validate = Pareix que no i hai garra fragmento a escuitar en este idioma. Aduya-nos a emplir la lista gravando-ne belún agora.
-vote-yes = Sí
-vote-no = No
 toggle-play-tooltip = Preta { shortcut-play-toggle } pa activar lo modo de reproducción
-speak-subtitle = Dona la tuya voz
 speak-paragraph = Gravar fragmentos de voz ye una parte integral pa construyir la nuestra base de datos ubierta; beluns dirían tamién que ye la parte divertida.
 speak-goal-text = Fragmentos gravaus
-listen-subtitle = Aduya-nos a validar voces
 listen-paragraph = Validar fragmentos donados ye igualment important pa la misión de Common Voice. Escuita y aduya-nos a creyar datos de voz ubiertos y de calidat.
 listen-goal-text = Fragmentos validaus
 hours-recorded = Horas gravadas
@@ -45,7 +41,7 @@ x-years-short =
         [one] 1 anyo
        *[other] { $count } anyos
     }
-help-make-dataset = Aduya-nos a fer una base de datos d'alta calidad y accesible pa totz
+help-make-dataset = Aduya-nos a fer una base de datos d'alta calidad y accesible pa toz
 sign-up-account = Rechistra-te y crea una cuenta
 email-subscription-title = rechistra-te pa recibir información per correu
 email-subscription-title-new = Suscríbete a lo boletín de noticias, a los recordatorios y actualizacions de progreso de Common Voice
@@ -53,7 +49,7 @@ email-subscription-title-new = Suscríbete a lo boletín de noticias, a los reco
 ## Account Benefits
 
 benefits = Avantaches
-rich-data = Fe que los datos que ninvies sigan lo mas completos posibles, proporcionando datos demograficos anonimos. Totz estes datos pasarán a estar anonimos antes de fer-se publicos.
+rich-data = Fe que los datos que ninvies sigan lo mas completos posibles, proporcionando datos demograficos anonimos. Toz estes datos pasarán a estar anonimos antes de fer-se publicos.
 improve-audio = La información de perfil millora los datos d'audio usaus en l'entrenamiento de precisión de reconoiximiento de voz.
 keep-track = Mantiene un rechistro d'o tuyo progreso y metricas en multiples idiomas.
 compare-progress = Compara lo tuyo progreso con atros colaboradors de tot lo mundo.
