@@ -168,7 +168,6 @@ om = Afaan Oromo
 or = Odia
 os = Ossetian
 pa-IN = Punjabi
-pap = Papiamento
 pap-AW = Papiamento (Aruba)
 pcm = Nigerian Pidgin English
 pl = Polish
