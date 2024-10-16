@@ -1,3 +1,4 @@
+action-click = Теӏункӏ
 contribute = Тыны
 
 ## Contribution Nav Items
