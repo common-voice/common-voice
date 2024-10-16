@@ -137,3 +137,8 @@ small-batch-response-message =
         [one] Cargouse { $uploadedSentences } frase. Prema <downloadLink>aquí</downloadLink> para descargar as frases rexeitadas.
        *[other] Cargáronse { $uploadedSentences } frases de { $totalSentences }. Prema <downloadLink>aquí</downloadLink> para descargar as frases rexeitadas.
     }
+small-batch-sentences-rule-1 = Siga as directrices de "Que frases podo engadir?"
+small-batch-sentences-rule-2 = Engada unha frase por liña
+small-batch-sentences-rule-3 = Separe as frases en liñas premendo unha vez a tecla Intro ou Retorno
+small-batch-sentences-rule-4 = Engada ata 1.000 frases
+small-batch-sentences-rule-5 = Todas as frases deben pertencer ao mesmo dominio
