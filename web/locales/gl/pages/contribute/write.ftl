@@ -113,3 +113,27 @@ rate-limit-toast-message-seconds =
         [one] Superouse o límite de envíos. Tente de novo dentro dun segundo
        *[other] Superouse o límite de envíos. Tente de novo dentro de { $retryLimit } segundos
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Alcanzouse o límite de envíos desta páxina. Agarde un minuto antes de enviar unha nova frase. Grazas pola paciencia!
+       *[other] Alcanzouse o límite de envíos desta páxina. Agarde { $retryLimit } minutos antes de enviar unha nova frase. Grazas pola paciencia!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Alcanzouse o límite de envíos desta páxina. Agarde un segundo antes de enviar unha nova frase. Grazas pola paciencia!
+       *[other] Alcanzouse o límite de envíos desta páxina. Agarde { $retryLimit } segundos antes de enviar unha nova frase. Grazas pola paciencia!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] Cargouse { $uploadedSentences } frase
+       *[other] Cargáronse { $uploadedSentences } frases de { $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] Cargouse { $uploadedSentences } frase. Prema <downloadLink>aquí</downloadLink> para descargar as frases rexeitadas.
+       *[other] Cargáronse { $uploadedSentences } frases de { $totalSentences }. Prema <downloadLink>aquí</downloadLink> para descargar as frases rexeitadas.
+    }
