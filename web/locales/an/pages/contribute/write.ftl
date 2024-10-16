@@ -5,7 +5,8 @@ write-instruction = Anyade <icon></icon> una oración de dominio publico
 write-page-subtitle = Las oracions aportadas aquí s'anyadirán a un conchunto de datos con licencia cc-0 disponible publicament.
 sentence =
     .label = Oración
-sentence-input-value = Introduzca aquí la suya frase de dominio publico
+sentence-input-placeholder = Introduzca aquí la suya frase de dominio publico
+small-batch-sentence-input-placeholder = Introduzca aquí las suyas frases de dominio publico
 citation-input-placeholder = Indica cuál ye la fuent d'a tuya frase (obligatorio)
 citation =
     .label = Cita
@@ -30,7 +31,6 @@ required-field = Replene este campo.
 single-sentence-submission = Ninvio d'una sola frase
 bulk-sentence-submission = Ninvio masivo de frases
 single-sentence = Una sola frase
-bulk-sentences = Frases masivas
 sentence-domain-combobox-label = Dominio d'as frases
 sentence-domain-select-placeholder = Tría dica tres dominios (opcional)
 # Sentence Domain dropdown option
@@ -89,3 +89,6 @@ file-invalid-type = Fichero invalido
 file-too-large = Lo fichero ye masiau gran
 file-too-small = Lo fichero ye masiau chicot
 too-many-files = Masiaus fichers
+
+## SMALL BATCH SUBMISSION
+
