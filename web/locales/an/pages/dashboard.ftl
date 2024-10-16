@@ -67,8 +67,8 @@ activity-needed-calculation-plural =
         [11] de { $periodMonths } meses
        *[other] de { $periodMonths } meses
     }
-how-many-per-day = Excelent! Quántas gravacions a lo día?
-how-many-a-week = Excelent! Quántas gravacions a la semana?
+how-many-per-day = Excelent! Cuántas gravacions a lo día?
+how-many-a-week = Excelent! Cuántas gravacions a la semana?
 which-goal-type = Quiers charrar, escuitar u las dos?
 receiving-emails-info = Agora mesmo lo tiens configurau pa recibir correus electronicos como recordatorios d'obchectivos, actualizacions de progreso y boletines d'información sobre Common Voice
 not-receiving-emails-info = La tuya configuración actual indica que <bold>NO recibes</bold> correus con recordatorios d'obchectivos, actualizacions de progreso ni boletines de noticias de Common Voice
@@ -92,7 +92,7 @@ goal-share-text = He creyau un obchectivo personal pa dar voz a #CommonVoice -- 
 weekly-goal-created = S'ha creyau lo tuyo obchectivo semanal
 daily-goal-created = S'ha creyau lo tuyo obchectivo diario
 track-progress = Sigue aquí lo progreso y en a pachina d'estatisticas.
-return-to-edit-goal = Siempre puetz tornar a editar l'obchectivo.
+return-to-edit-goal = Siempre puez tornar a editar l'obchectivo.
 share-goal = Compartir lo mío obchectivo
 
 ## Goals
