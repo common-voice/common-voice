@@ -317,6 +317,10 @@ header {
             visibility: hidden;
             height: 95%;
         }
+
+        & .track-fs-download {
+            align-content: center;
+        }
     }
 }
 

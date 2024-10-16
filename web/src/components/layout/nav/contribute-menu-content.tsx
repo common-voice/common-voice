@@ -6,58 +6,64 @@ import {
 } from '@fluent/react'
 import classNames from 'classnames'
 
-import { ContributableLocaleLock, LocaleLink } from '../../locale-helpers'
+import { LocaleLink } from '../../locale-helpers'
 import { ContributeMenuItem } from './contribute-menu'
 
 type ContributeMenuContentProps = {
   className?: string
   pathname?: string
   contributeMenuItems: ContributeMenuItem[]
-  renderContributableLock?: boolean
+  isUserLoggedIn?: boolean
 }
 
 const Content = ({
   contributeMenuItems,
+  isUserLoggedIn,
 }: {
   contributeMenuItems: ContributeMenuItem[]
+  isUserLoggedIn: boolean
 }) => (
   <div>
     <ul>
-      {contributeMenuItems.map(item => (
-        <li key={item.localizedId}>
-          <div
-            className={classNames('content', {
-              'coming-soon': !item.href,
-            })}>
-            <item.icon />
-            {item.href ? (
-              <LocaleLink to={item.href} className="contribute-link">
-                <Localized id={item.localizedId} />
-              </LocaleLink>
-            ) : (
-              <Localized id={item.localizedId}>
-                <p />
-              </Localized>
-            )}
-          </div>
-        </li>
-      ))}
+      {contributeMenuItems.map(item => {
+        const shouldShowItem =
+          (item.requiresAuth && isUserLoggedIn) || !item.requiresAuth
+
+        if (!shouldShowItem) return null
+
+        return (
+          <li key={item.localizedId}>
+            <div
+              className={classNames('content', {
+                'coming-soon': !item.href,
+              })}>
+              <item.icon />
+              {item.href ? (
+                <LocaleLink to={item.href} className="contribute-link">
+                  <Localized id={item.localizedId} />
+                </LocaleLink>
+              ) : (
+                <Localized id={item.localizedId}>
+                  <p />
+                </Localized>
+              )}
+            </div>
+          </li>
+        )
+      })}
     </ul>
   </div>
 )
 
 const ContributeMenuContent: React.FC<
   ContributeMenuContentProps & WithLocalizationProps
-> = ({ className, contributeMenuItems, renderContributableLock }) => {
+> = ({ className, contributeMenuItems, isUserLoggedIn }) => {
   return (
     <div className={className}>
-      {renderContributableLock ? (
-        <ContributableLocaleLock>
-          <Content contributeMenuItems={contributeMenuItems} />
-        </ContributableLocaleLock>
-      ) : (
-        <Content contributeMenuItems={contributeMenuItems} />
-      )}
+      <Content
+        contributeMenuItems={contributeMenuItems}
+        isUserLoggedIn={isUserLoggedIn}
+      />
     </div>
   )
 }

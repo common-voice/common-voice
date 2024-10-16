@@ -27,14 +27,6 @@
         align-items: center;
         height: 100%;
 
-        &.show-border {
-            border-bottom: 4px solid var(--black);
-
-            & .nav-link-item {
-                margin-inline-end: 0;
-            }
-        }
-
         @media (--lg-down) {
             display: none;
         }
@@ -83,7 +75,7 @@
             list-style: none;
             margin: 0;
             width: 350px;
-            padding: 20px 32px 32px 30px;
+            padding: 20px 10px 24px 20px;
 
             & li {
                 margin-left: 12px;
@@ -126,6 +118,30 @@
 
                     path {
                         fill: var(--black);
+                    }
+
+                    &.mic-icon {
+                        path {
+                            fill: var(--red);
+                        }
+                    }
+
+                    &.play-icon {
+                        path {
+                            fill: var(--valid-green);
+                        }
+                    }
+
+                    &.edit-icon {
+                        path {
+                            fill: var(--blue);
+                        }
+                    }
+
+                    &.review-icon {
+                        path {
+                            fill: var(--light-purple);
+                        }
                     }
                 }
             }

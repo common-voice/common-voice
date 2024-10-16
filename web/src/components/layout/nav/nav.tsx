@@ -2,23 +2,16 @@ import { Localized } from '@fluent/react'
 import * as React from 'react'
 
 import { trackNav, getTrackClass } from '../../../services/tracker'
+
 import {
-  ChatBubbleIcon,
-  CheckCircle,
-  EditIcon,
-  FilePlus,
-  GlobeIcon,
-  MicIcon,
-  PlayIcon,
-  ReviewIcon,
-  ShareIcon,
-  TranscribeIcon,
-  TrendingUp,
-} from '../../ui/icons'
-import URLS from '../../../urls'
-import { LocaleNavLink, useLocale } from '../../locale-helpers'
-import ContributeMenu, { ContributeMenuItem } from './contribute-menu'
+  ContributableLocaleLock,
+  LocaleNavLink,
+  useLocale,
+} from '../../locale-helpers'
+import { menuItems } from './menu-items'
+import ContributeMenu from './contribute-menu'
 import { useAccount } from '../../../hooks/store-hooks'
+import { typedObjectKeys } from '../../../utility'
 
 import './nav.css'
 
@@ -29,7 +22,9 @@ type NavProps = {
   children?: React.ReactNode
 }
 
-const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
+export type NavItem = 'speak' | 'listen' | 'write' | 'about' | 'download'
+
+export const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
   const [locale] = useLocale()
   return (
     <Localized id={id}>
@@ -43,98 +38,57 @@ const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
   )
 }
 
-const speakMenuItems = [
-  { icon: MicIcon, href: URLS.SPEAK, localizedId: 'read-sentences' },
-  { icon: ChatBubbleIcon, localizedId: 'answer-questions' },
-]
-
-const menuItems: Record<string, ContributeMenuItem[]> = {
-  speak: [
-    { icon: MicIcon, href: URLS.SPEAK, localizedId: 'read-sentences' },
-    { icon: ChatBubbleIcon, localizedId: 'answer-questions' },
-  ],
-  listen: [
-    { icon: PlayIcon, href: URLS.SPEAK, localizedId: 'validate-readings' },
-    { icon: CheckCircle, localizedId: 'review-transcriptions' },
-  ],
-  write: [
-    { icon: EditIcon, href: URLS.WRITE, localizedId: 'add-sentences' },
-    { icon: ReviewIcon, href: URLS.REVIEW, localizedId: 'review-sentences' },
-    { icon: FilePlus, localizedId: 'add-questions' },
-    { icon: TranscribeIcon, localizedId: 'transcribe-audio' },
-  ],
-  download: [],
-  about: [
-    { icon: TrendingUp, localizedId: 'partners' },
-    { icon: ShareIcon, localizedId: 'press-and-stories' },
-    {
-      icon: GlobeIcon,
-      href: URLS.LANGUAGES,
-      localizedId: 'community-and-languages',
-    },
-  ],
-}
-
 const Nav: React.FC<NavProps> = ({
   children,
   shouldExpandNavItems,
   isContributionPageActive,
   ...props
 }) => {
-  const [showMenu, setShowMenu] = React.useState(false)
   const [showMobileMenu, setShowMobileMenu] = React.useState(false)
+  const [activeNavItem, setActiveNavItem] = React.useState<NavItem | null>(null)
 
   const account = useAccount()
 
-  const toggleMobileMenuVisible = () => {
-    setShowMobileMenu(!showMobileMenu)
+  const toggleMobileMenuVisible = React.useCallback(() => {
+    setShowMobileMenu(prev => !prev)
+  }, [])
+
+  const handleNavItemClick = React.useCallback((navItem: NavItem) => {
+    setActiveNavItem(prev => (prev === navItem ? null : navItem))
+  }, [])
+
+  const renderMenu = (key: NavItem) => {
+    const menu = (
+      <ContributeMenu
+        key={key}
+        showMenu={activeNavItem === key}
+        setShowMenu={handleNavItemClick}
+        showMobileMenu={showMobileMenu}
+        toggleMobileMenuVisible={toggleMobileMenuVisible}
+        isContributionPageActive={isContributionPageActive}
+        isUserLoggedIn={Boolean(account)}
+        menuItems={menuItems[key].items}
+        menuLabel={key}
+      />
+    )
+
+    return menuItems[key].renderContributableLocaleLock ? (
+      <ContributableLocaleLock key={key}>{menu}</ContributableLocaleLock>
+    ) : (
+      menu
+    )
   }
 
   return (
-    <nav {...props} className="nav-list">
+    <nav {...props} className="nav-list" aria-label="Main Navigation">
       <div className="nav-links">
-        {/* <ContributeMenu
-          showMenu={showMenu}
-          setShowMenu={setShowMenu}
-          showMobileMenu={showMobileMenu}
-          toggleMobileMenuVisible={toggleMobileMenuVisible}
-          isContributionPageActive={isContributionPageActive}
-          isUserLoggedIn={Boolean(account)}
-          menuItems={speakMenuItems}
-          renderContributableLock
-        />
-        <span className="divider" />
+        <ContributableLocaleLock>{renderMenu('speak')}</ContributableLocaleLock>
         <div className={shouldExpandNavItems ? 'fade-in' : 'fade-out'}>
-          <>
-            <ContributeMenu
-              showMenu={showMenu}
-              setShowMenu={setShowMenu}
-              showMobileMenu={showMobileMenu}
-              toggleMobileMenuVisible={toggleMobileMenuVisible}
-              isContributionPageActive={isContributionPageActive}
-              isUserLoggedIn={Boolean(account)}
-              menuItems={speakMenuItems}
-              renderContributableLock
-            />
-            <LocalizedNavLink id="datasets" to={URLS.DATASETS} />
-            <LocalizedNavLink id="partner" to={URLS.PARTNER} />
-            <LocalizedNavLink id="about" to={URLS.ABOUT} />
-          </>
-        </div> */}
-        {Object.keys(menuItems).map(key => (
-          <ContributeMenu
-            showMenu={showMenu}
-            setShowMenu={setShowMenu}
-            showMobileMenu={showMobileMenu}
-            toggleMobileMenuVisible={toggleMobileMenuVisible}
-            isContributionPageActive={isContributionPageActive}
-            isUserLoggedIn={Boolean(account)}
-            menuItems={menuItems[key]}
-            renderContributableLock
-            menuLabel={key}
-            key={key}
-          />
-        ))}
+          {typedObjectKeys(menuItems).map(key => {
+            if (key === 'speak') return null
+            return renderMenu(key)
+          })}
+        </div>
       </div>
       {children}
     </nav>

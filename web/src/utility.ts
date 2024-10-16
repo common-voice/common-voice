@@ -186,3 +186,6 @@ export const invalidSmallBatchSentencesToTSVString = (
 
   return tsvString
 }
+
+export const typedObjectKeys = <T extends object>(object: T): (keyof T)[] =>
+  Object.keys(object) as (keyof T)[]
