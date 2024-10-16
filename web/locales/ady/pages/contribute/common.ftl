@@ -1,5 +1,5 @@
 action-click = Теӏункӏ
-contribute = Тыны
+contribute = Ӏахьэ хэлъхьан
 
 ## Contribution Nav Items
 
