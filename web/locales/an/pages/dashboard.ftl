@@ -18,8 +18,8 @@ validated-clips = Fragmentos validaus
 total-approved = Total aprebau
 overall-accuracy = Precisión cheneral
 set-visibility = Establir visibilidat
-visibility-explainer = Esta configuración controla la visibilidat d'a tuya taula de clasificación. Quan ye amagau, lo tuyo progreso será privau. Esto significa que tanto la tuya imachen, nombre d'usuario y progreso no amaneixerán en a tabla de clasificación. Tiene en cuenta que l'actualización d'a taula de clasificación tarda ~{ $minutes } minutos pa completar los cambios.
-visibility-overlay-note = Nota: Quan s'estableix como 'Visible', la configuración se puede cambiar dende la <profileLink>pachina de perfil </profileLink>
+visibility-explainer = Esta configuración controla la visibilidat d'a tuya taula de clasificación. Cuan ye amagau, lo tuyo progreso será privau. Esto significa que tanto la tuya imachen, nombre d'usuario y progreso no amaneixerán en a tabla de clasificación. Tiene en cuenta que l'actualización d'a taula de clasificación tarda ~{ $minutes } minutos pa completar los cambios.
+visibility-overlay-note = Nota: Cuan s'estableix como 'Visible', la configuración se puede cambiar dende la <profileLink>pachina de perfil </profileLink>
 show-ranking = Amostrar lo mío abance
 
 ## Custom Goals

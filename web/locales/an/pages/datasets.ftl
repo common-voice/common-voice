@@ -1,7 +1,7 @@
 ## Datasets Page
 
 datasets-heading = Conchuntos de datos
-datasets-headline = Somos creyando una base de datos de voces, ubierta y multi idioma, que qualsequiera puede usar pa entrenar aplicacions que utilicen la voz como interficie.
+datasets-headline = Somos creyando una base de datos de voces, ubierta y multi idioma, que cualsequiera puede usar pa entrenar aplicacions que utilicen la voz como interficie.
 datasets-positioning =
     Creyemos que las bases de datos amplias y accesibles pa tot lo publico potenciarán la innovación y una sana competencia comercial entre las tecnolochías de voz basadas en l'aprendizache automatico.
     
