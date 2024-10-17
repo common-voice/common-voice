@@ -1,6 +1,6 @@
-listen = आय्क
-listen-subtitle = आवाजांचे सारखेपण तोपासुंक मद्दत कर
-listen-instruction = { $actionType }<playIcon></playIcon> उलोवपी वाख्य आसा तसोच उलयता?
+listen = आयक
+listen-subtitle = आवाजाचे सारखेपण तोपासुंक मद्दत कर
+listen-instruction = { $actionType }<playIcon></playIcon> उलोवपी वाख्य आसा तसोच उलयता ?
 listen-again-instruction = बरें काम केले! तोयार जावन परत <playIcon></playIcon> आयक
 listen-3rd-time-instruction = 2 जाले, अशेंच फुडें वच! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> आनीक एकुच उरला!
