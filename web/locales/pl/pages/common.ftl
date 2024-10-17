@@ -4,7 +4,9 @@
 
 ## Languages
 
+aa = afar
 ab = abchaski
+abb = bankon
 ace = aceh
 ady = adygejski
 af = afrykanerski
@@ -215,12 +217,6 @@ zza = zazaki
 
 ## Layout
 
-speak = Nagrywaj
-speak-now = Mów teraz
-datasets = Zbiory danych
-languages = Języki
-about = O nas
-partner = Współpraca
 profile = Profil
 help = Pomoc
 contact = Kontakt
@@ -240,7 +236,6 @@ privacy-info = Obiecujemy szanować Twoje dane. Zapoznaj się z naszymi <privac
 return-to-cv = Wróć do Common Voice
 email-input =
     .label = E-mail
-submit-form-action = Wyślij
 loading = Wczytywanie…
 email-opt-in-info = Chcę otrzymywać wiadomości e-mail, takie jak przypomnienia o celach, informacje o moim postępie oraz biuletyny na temat Common Voice.
 email-opt-in-info-title = Dołącz do listy dyskusyjnej projektu Common Voice
