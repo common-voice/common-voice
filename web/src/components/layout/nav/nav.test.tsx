@@ -8,10 +8,10 @@ describe('Nav test', () => {
   it('renders the Nav component', () => {
     renderWithProviders(<Nav shouldExpandNavItems />)
 
-    expect(screen.getAllByText('Contribute')).toBeTruthy()
-    expect(screen.getByText('Datasets')).toBeTruthy()
-    expect(screen.getByText('Languages')).toBeTruthy()
-    expect(screen.getByText('Partner')).toBeTruthy()
-    expect(screen.getByText('About')).toBeTruthy()
+    expect(screen.getAllByText('Speak')).toBeTruthy()
+    expect(screen.getAllByText('Listen')).toBeTruthy()
+    expect(screen.getAllByText('Write')).toBeTruthy()
+    expect(screen.getAllByText('Download')).toBeTruthy()
+    expect(screen.getAllByText('About')).toBeTruthy()
   })
 })
