@@ -3,13 +3,13 @@ import {
   CheckCircle,
   EditIcon,
   FilePlus,
+  FilledStarIcon,
   Globe,
   MicIcon,
   Play,
   ReviewIcon,
-  ShareIcon,
+  ShareLinkIcon,
   TranscribeIcon,
-  TrendingUp,
 } from '../../ui/icons'
 import URLS from '../../../urls'
 import { NavItem } from './nav'
@@ -18,7 +18,11 @@ import { MenuConfig } from './contribute-menu'
 export const menuItems: Record<NavItem, MenuConfig> = {
   speak: {
     items: [
-      { icon: MicIcon, href: URLS.SPEAK, localizedId: 'read-sentences' },
+      {
+        icon: MicIcon,
+        internalHref: URLS.SPEAK,
+        localizedId: 'read-sentences',
+      },
       {
         icon: ChatBubbleIcon,
         localizedId: 'answer-questions',
@@ -29,7 +33,11 @@ export const menuItems: Record<NavItem, MenuConfig> = {
   },
   listen: {
     items: [
-      { icon: Play, href: URLS.LISTEN, localizedId: 'validate-readings' },
+      {
+        icon: Play,
+        internalHref: URLS.LISTEN,
+        localizedId: 'validate-readings',
+      },
       {
         icon: CheckCircle,
         localizedId: 'review-transcriptions',
@@ -40,10 +48,14 @@ export const menuItems: Record<NavItem, MenuConfig> = {
   },
   write: {
     items: [
-      { icon: EditIcon, href: URLS.WRITE, localizedId: 'add-sentences' },
+      {
+        icon: EditIcon,
+        internalHref: URLS.WRITE,
+        localizedId: 'add-sentences',
+      },
       {
         icon: ReviewIcon,
-        href: URLS.REVIEW,
+        internalHref: URLS.REVIEW,
         localizedId: 'review-sentences',
         requiresAuth: true,
       },
@@ -60,11 +72,20 @@ export const menuItems: Record<NavItem, MenuConfig> = {
   },
   about: {
     items: [
-      { icon: TrendingUp, localizedId: 'partners', href: URLS.PARTNER },
-      { icon: ShareIcon, localizedId: 'press-and-stories', requiresAuth: true },
+      {
+        icon: FilledStarIcon,
+        localizedId: 'partners',
+        internalHref: URLS.PARTNER,
+      },
+      {
+        icon: ShareLinkIcon,
+        localizedId: 'press-and-stories',
+        externalHref:
+          'https://foundation.mozilla.org/en/blog/topic/common-voice/',
+      },
       {
         icon: Globe,
-        href: URLS.LANGUAGES,
+        internalHref: URLS.LANGUAGES,
         localizedId: 'community-and-languages',
       },
     ],

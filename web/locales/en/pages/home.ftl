@@ -96,5 +96,5 @@ review-sentences = Review Sentences
 add-questions = Add Questions <small>(Coming soon)</small>
 transcribe-audio = Transcribe Audio <small>(Coming soon)</small>
 partners = Partners
-press-and-stories = Press And Stories <small>(Coming soon)</small>
-community-and-languages = Community And Languages
+press-and-stories = Press and Stories
+community-and-languages = Community and Languages

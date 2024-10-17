@@ -14,7 +14,8 @@ import './contribute-menu.css'
 
 export type ContributeMenuItem = {
   localizedId: string
-  href?: string
+  internalHref?: string
+  externalHref?: string
   icon: React.ComponentType
   requiresAuth?: boolean
 }
@@ -28,7 +29,6 @@ interface ContributeMenuProps extends RouteComponentProps {
   showMenu: boolean
   setShowMenu: (navItem: NavItem) => void
   showMobileMenu: boolean
-  toggleMobileMenuVisible: () => void
   isContributionPageActive: boolean
   isUserLoggedIn: boolean
   menuItems: ContributeMenuItem[]
@@ -39,7 +39,6 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   showMenu,
   setShowMenu,
   showMobileMenu,
-  toggleMobileMenuVisible,
   isContributionPageActive,
   location,
   isUserLoggedIn,
@@ -64,24 +63,16 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
     <div className="contribute-wrapper">
       <div id="contribute-btn-wrapper">
         <Localized id={menuLabel}>
-          <TextButton
-            className={classNames('contribute-btn', {
-              'contribution-page-active': isContributionPageActive,
-            })}
-            onClick={toggleMobileMenuVisible}
-          />
+          <TextButton className="contribute-btn" onClick={handleClick} />
         </Localized>
-        {!isContributionPageActive && (
-          <ChevronDown
-            className={classNames({ 'rotate-180': showMobileMenu })}
-            onClick={toggleMobileMenuVisible}
-          />
-        )}
+        <ChevronDown
+          className={classNames({ 'rotate-180': showMobileMenu })}
+          onClick={handleClick}
+        />
       </div>
       <button
         className={classNames('contribute-menu', {
           active: showMenu,
-          // 'contribution-page-active': isContributionPageActive,
         })}
         onMouseLeave={handleMouseLeave}
         onClick={handleClick}
@@ -97,7 +88,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
             <ChevronDown className={classNames({ 'rotate-180': showMenu })} />
           )}
         </div>
-        {(showMobileMenu || isContributionPageActive) && (
+        {showMobileMenu && (
           <div
             className="menu-wrapper-mobile"
             data-testid="contribute-mobile-menu">
@@ -105,6 +96,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
               pathname={location.pathname}
               className="mobile-menu-list"
               contributeMenuItems={menuItems}
+              isUserLoggedIn={isUserLoggedIn}
             />
           </div>
         )}

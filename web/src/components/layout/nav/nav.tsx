@@ -44,14 +44,9 @@ const Nav: React.FC<NavProps> = ({
   isContributionPageActive,
   ...props
 }) => {
-  const [showMobileMenu, setShowMobileMenu] = React.useState(false)
   const [activeNavItem, setActiveNavItem] = React.useState<NavItem | null>(null)
 
   const account = useAccount()
-
-  const toggleMobileMenuVisible = React.useCallback(() => {
-    setShowMobileMenu(prev => !prev)
-  }, [])
 
   const handleNavItemClick = React.useCallback((navItem: NavItem) => {
     setActiveNavItem(prev => (prev === navItem ? null : navItem))
@@ -63,8 +58,7 @@ const Nav: React.FC<NavProps> = ({
         key={key}
         showMenu={activeNavItem === key}
         setShowMenu={handleNavItemClick}
-        showMobileMenu={showMobileMenu}
-        toggleMobileMenuVisible={toggleMobileMenuVisible}
+        showMobileMenu={activeNavItem === key}
         isContributionPageActive={isContributionPageActive}
         isUserLoggedIn={Boolean(account)}
         menuItems={menuItems[key].items}
@@ -83,10 +77,16 @@ const Nav: React.FC<NavProps> = ({
     <nav {...props} className="nav-list" aria-label="Main Navigation">
       <div className="nav-links">
         <ContributableLocaleLock>{renderMenu('speak')}</ContributableLocaleLock>
+        <div className="divider" />
         <div className={shouldExpandNavItems ? 'fade-in' : 'fade-out'}>
           {typedObjectKeys(menuItems).map(key => {
             if (key === 'speak') return null
-            return renderMenu(key)
+            return (
+              <>
+                {renderMenu(key)}
+                <div className="divider" />
+              </>
+            )
           })}
         </div>
       </div>

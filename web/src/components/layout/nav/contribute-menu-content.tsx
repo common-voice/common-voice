@@ -31,22 +31,46 @@ const Content = ({
 
         if (!shouldShowItem) return null
 
+        const { internalHref, externalHref, localizedId, icon: Icon } = item
+        const isComingSoon = !(internalHref || externalHref)
+
+        const renderContent = () => {
+          if (internalHref) {
+            return (
+              <LocaleLink to={internalHref} className="contribute-link">
+                <Localized id={localizedId} />
+              </LocaleLink>
+            )
+          }
+
+          if (externalHref) {
+            return (
+              <Localized id={localizedId}>
+                <a
+                  href={externalHref}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="contribute-link"
+                />
+              </Localized>
+            )
+          }
+
+          return (
+            <Localized id={localizedId}>
+              <p className="coming-soon-text" />
+            </Localized>
+          )
+        }
+
         return (
-          <li key={item.localizedId}>
+          <li key={localizedId}>
             <div
               className={classNames('content', {
-                'coming-soon': !item.href,
+                'coming-soon': isComingSoon,
               })}>
-              <item.icon />
-              {item.href ? (
-                <LocaleLink to={item.href} className="contribute-link">
-                  <Localized id={item.localizedId} />
-                </LocaleLink>
-              ) : (
-                <Localized id={item.localizedId}>
-                  <p />
-                </Localized>
-              )}
+              <Icon />
+              {renderContent()}
             </div>
           </li>
         )

@@ -286,7 +286,6 @@ header {
         }
 
         & .contribute-wrapper {
-            /* TODO: do we need a media query for this?? */
             height: 100%;
             @media (--lg-down) {
                 margin-top: 20px;
@@ -357,8 +356,8 @@ header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding-inline-start: 30px;
-    width: fit-content;
+    padding-inline: 30px;
+    justify-content: space-between;
 
     @media (--xl-up) {
         display: none;
@@ -430,6 +429,10 @@ header {
                 display: none;
             }
         }
+
+        & .divider:last-child {
+            border-bottom: none;
+        }
     }
 
     & .contribute-menu {
@@ -447,7 +450,8 @@ header {
             padding-top: 0;
         }
 
-        .contribute-link {
+        .contribute-link,
+        .coming-soon-text {
             margin-inline-start: 8px;
             padding: 20px 0 0;
             font-family: var(--base-font-family);
@@ -455,6 +459,11 @@ header {
             font-weight: 400;
             text-transform: capitalize;
             border-bottom: none;
+        }
+
+        .coming-soon-text {
+            color: var(--warm-grey);
+            cursor: default;
         }
     }
 
@@ -536,8 +545,6 @@ header {
     }
 
     & a {
-        border-bottom: 1px solid color-mod(var(--black) alpha(10%));
-
         &:last-child {
             border-bottom: 0;
         }
@@ -554,10 +561,7 @@ header {
         text-transform: uppercase;
         margin-inline-end: 8px;
         color: var(--black);
-
-        &.contribution-page-active {
-            padding-block-end: 8px;
-            border-block-end: 4px solid var(--black);
-        }
+        flex: 1;
+        text-align: left;
     }
 }
