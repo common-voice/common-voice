@@ -57,7 +57,7 @@ const Content = ({
           }
 
           return (
-            <Localized id={localizedId}>
+            <Localized id={localizedId} elems={{ small: <span /> }}>
               <p className="coming-soon-text" />
             </Localized>
           )

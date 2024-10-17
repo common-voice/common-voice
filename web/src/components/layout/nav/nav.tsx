@@ -82,10 +82,10 @@ const Nav: React.FC<NavProps> = ({
           {typedObjectKeys(menuItems).map(key => {
             if (key === 'speak') return null
             return (
-              <>
+              <React.Fragment key={key}>
                 {renderMenu(key)}
                 <div className="divider" />
-              </>
+              </React.Fragment>
             )
           })}
         </div>

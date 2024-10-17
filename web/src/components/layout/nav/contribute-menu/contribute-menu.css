@@ -1,7 +1,6 @@
 @import url('../../../media.css');
 
 .contribute-menu {
-    cursor: pointer;
     align-items: center;
     height: 100%;
     border: none;
@@ -43,6 +42,7 @@
         flex-direction: column;
         position: absolute;
         top: 0;
+        cursor: default;
 
         [dir='ltr'] & {
             left: -30px;
@@ -93,6 +93,10 @@
                         color: var(--warm-grey);
                         margin-block-end: 4px;
                         cursor: default;
+
+                        span {
+                            font-size: var(--font-size-xs);
+                        }
                     }
 
                     &.coming-soon path {

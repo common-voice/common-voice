@@ -11,9 +11,10 @@ describe('Contribute Menu Test', () => {
         showMenu={false}
         setShowMenu={jest.fn()}
         showMobileMenu={false}
-        toggleMobileMenuVisible={jest.fn()}
         isContributionPageActive={false}
         isUserLoggedIn
+        menuItems={[]}
+        menuLabel="speak"
       />
     )
 
@@ -31,9 +32,10 @@ describe('Contribute Menu Test', () => {
         showMenu={false}
         setShowMenu={setShowMenuSpy}
         showMobileMenu={false}
-        toggleMobileMenuVisible={jest.fn()}
         isContributionPageActive={false}
         isUserLoggedIn
+        menuItems={[]}
+        menuLabel="speak"
       />
     )
 
@@ -49,9 +51,10 @@ describe('Contribute Menu Test', () => {
         showMenu={false}
         setShowMenu={setShowMenuSpy}
         showMobileMenu={false}
-        toggleMobileMenuVisible={jest.fn()}
         isContributionPageActive
         isUserLoggedIn
+        menuItems={[]}
+        menuLabel="speak"
       />
     )
 

@@ -2,6 +2,10 @@
 
 .header-wrapper {
     border-bottom: 1px solid var(--light-grey);
+    position: sticky;
+    top: 0;
+    z-index: var(--override-z-index);
+    background-color: var(--white);
 
     &.contribution-page-active {
         @media (--xl-up) {
@@ -464,6 +468,10 @@ header {
         .coming-soon-text {
             color: var(--warm-grey);
             cursor: default;
+
+            span {
+                font-size: var(--font-size-xs);
+            }
         }
     }
 
