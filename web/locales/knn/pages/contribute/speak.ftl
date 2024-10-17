@@ -7,3 +7,7 @@ record-platform-not-supported-desktop = Laptop वा desktop हाचेर �
 record-platform-not-supported-ios-non-safari = iPhone वा iOS device हाचेर तुवेन recording करचे खातीर Safari वापरचो…
 record-must-allow-microphone = तुवेन microphone access दिवपाक जाय.
 record-no-mic-found = Microphone मेळूंक ना.
+record-error-too-short = रिकॉडींग सामके ल्हान आसा.
+record-error-too-long = रिकॉडींग चड वडले आसा.
+record-error-too-quiet = रिकॉडींग सामको शांत आसा.
+record-cancel = Cancel Re-record
