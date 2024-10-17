@@ -1,8 +1,23 @@
 ## REVIEW
 
+sc-review-loading = Cargando oraciones...
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Fuente: { $sentenceSource }
+sc-review-form-button-reject = Rechazar
+sc-review-form-button-skip = Saltar
+sc-review-form-button-approve = Aprobar
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = S
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = T
+sc-review-link = Revisar
 
 ## REVIEW CRITERIA
 
+sc-criteria-item-6 = Si ya no hay más oraciones para revisar, ¡ayúdanos a recopilar más oraciones!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Marque <icon></icon> ¿Es esta una oración lingüísticamente correcta?
 sc-review-rules-title = ¿La sentencia cumple con las pautas?
