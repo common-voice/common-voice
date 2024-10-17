@@ -10,4 +10,5 @@ record-no-mic-found = Microphone मेळूंक ना.
 record-error-too-short = रिकॉडींग सामके ल्हान आसा.
 record-error-too-long = रिकॉडींग चड वडले आसा.
 record-error-too-quiet = रिकॉडींग सामको शांत आसा.
-record-cancel = Cancel Re-record
+record-cancel = परत कर नाका
+record-instruction = <recordIcon></recordIcon> { $actionType } मार आनीक वयर दिल्ली वाख्य मोट्यान वाच
