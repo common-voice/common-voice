@@ -1,10 +1,17 @@
 import { Localized } from '@fluent/react'
 import * as React from 'react'
+
 import { trackNav, getTrackClass } from '../../../services/tracker'
-import URLS from '../../../urls'
-import { LocaleNavLink, useLocale } from '../../locale-helpers'
+
+import {
+  ContributableLocaleLock,
+  LocaleNavLink,
+  useLocale,
+} from '../../locale-helpers'
+import { menuItems } from './menu-items'
 import ContributeMenu from './contribute-menu'
 import { useAccount } from '../../../hooks/store-hooks'
+import { typedObjectKeys } from '../../../utility'
 
 import './nav.css'
 
@@ -15,7 +22,9 @@ type NavProps = {
   children?: React.ReactNode
 }
 
-const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
+export type NavItem = 'speak' | 'listen' | 'write' | 'about' | 'download'
+
+export const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
   const [locale] = useLocale()
   return (
     <Localized id={id}>
@@ -35,34 +44,50 @@ const Nav: React.FC<NavProps> = ({
   isContributionPageActive,
   ...props
 }) => {
-  const [showMenu, setShowMenu] = React.useState(false)
-  const [showMobileMenu, setShowMobileMenu] = React.useState(false)
+  const [activeNavItem, setActiveNavItem] = React.useState<NavItem | null>(null)
 
   const account = useAccount()
 
-  const toggleMobileMenuVisible = () => {
-    setShowMobileMenu(!showMobileMenu)
+  const handleNavItemClick = React.useCallback((navItem: NavItem) => {
+    setActiveNavItem(prev => (prev === navItem ? null : navItem))
+  }, [])
+
+  const renderMenu = (key: NavItem) => {
+    const menu = (
+      <ContributeMenu
+        key={key}
+        showMenu={activeNavItem === key}
+        setShowMenu={handleNavItemClick}
+        showMobileMenu={activeNavItem === key}
+        isContributionPageActive={isContributionPageActive}
+        isUserLoggedIn={Boolean(account)}
+        menuItems={menuItems[key].items}
+        menuLabel={key}
+      />
+    )
+
+    return menuItems[key].renderContributableLocaleLock ? (
+      <ContributableLocaleLock key={key}>{menu}</ContributableLocaleLock>
+    ) : (
+      menu
+    )
   }
 
   return (
-    <nav {...props} className="nav-list">
+    <nav {...props} className="nav-list" aria-label="Main Navigation">
       <div className="nav-links">
-        <ContributeMenu
-          showMenu={showMenu}
-          setShowMenu={setShowMenu}
-          showMobileMenu={showMobileMenu}
-          toggleMobileMenuVisible={toggleMobileMenuVisible}
-          isContributionPageActive={isContributionPageActive}
-          isUserLoggedIn={Boolean(account)}
-        />
-        <span className="divider" />
+        <ContributableLocaleLock>{renderMenu('speak')}</ContributableLocaleLock>
+        <div className="divider" />
         <div className={shouldExpandNavItems ? 'fade-in' : 'fade-out'}>
-          <>
-            <LocalizedNavLink id="datasets" to={URLS.DATASETS} />
-            <LocalizedNavLink id="languages" to={URLS.LANGUAGES} />
-            <LocalizedNavLink id="partner" to={URLS.PARTNER} />
-            <LocalizedNavLink id="about" to={URLS.ABOUT} />
-          </>
+          {typedObjectKeys(menuItems).map(key => {
+            if (key === 'speak') return null
+            return (
+              <React.Fragment key={key}>
+                {renderMenu(key)}
+                <div className="divider" />
+              </React.Fragment>
+            )
+          })}
         </div>
       </div>
       {children}
