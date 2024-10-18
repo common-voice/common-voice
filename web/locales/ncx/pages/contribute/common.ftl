@@ -93,3 +93,4 @@ contribution-misreadings-title = Amo kuali okitlajtolkopkej
 contribution-misreadings-description = Ijkuak tikkaktos, xikyekkaki tla melauak kitenkixtiaj tlen ijkuilijtok; xikpojolo maski san achitsin omotlapololtikej. <br />Miakej motlapololtiaj ijki:
 contribution-misreadings-description-extended-list-1 = Poliui <strong>'Se'</strong> noso <strong>'Tejuan'</strong> ijkuak peua se tlajtoli.
 contribution-misreadings-description-extended-list-2 = Polui <strong>'j'</strong> itlamian se tlajtoli.
+contribution-misreadings-description-extended-list-3 = Kitenkixtiaj tlen amo yonpa ken "ita", kanin kijtoa "xikita" noso "iuan" kanin kijtoa "uan".
