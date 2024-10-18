@@ -17,3 +17,5 @@ thanks-for-voice-toast-error = कितें तरी चुक जाले 
 first-cta-gender-select-default-option = वेंचून काड
 first-cta-gender-select-help-text =
     .label = तुजें लिंग कितें?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = तुवेंन आपली आवाज योगदान केले म्हुण तुका देंव बरें करुं!
