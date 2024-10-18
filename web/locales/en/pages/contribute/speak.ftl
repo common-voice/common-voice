@@ -60,3 +60,5 @@ already-have-an-account = Already have an account? <login>Log-In</login>
 create-profile-button = Create a profile
 # IMAGE TAGS
 img-alt-success-checkmark = success checkmark
+# menu item
+read-sentences = Read Sentences

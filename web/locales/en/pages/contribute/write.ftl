@@ -142,3 +142,6 @@ small-batch-sentences-rule-3 = Separate sentences into one line by pressing “E
 small-batch-sentences-rule-4 = Add up to 1,000 sentences
 small-batch-sentences-rule-5 = All sentence must have the same domain
 small-batch-sentences-rule-6 = All sentences must have the same citation
+
+# menu item
+add-sentences = Add Sentences
