@@ -80,6 +80,9 @@ request-language-button = Xiktlajtlani se tlajtolkopa
 
 ## Listen Shortcuts
 
+shortcut-play-toggle-label = Xikkaki/Xikketsa
 
 ## Validation criteria
 
+contribution-criteria-nav = Tlen moneki
+contribution-criteria-link = Xikajsikamati ken moneki titlapaleuis
