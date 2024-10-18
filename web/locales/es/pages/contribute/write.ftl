@@ -1,12 +1,12 @@
 ## WRITE PAGE
 
 write = Escribir
-# WRITE PAGE
 write-instruction = Agregue <icon></icon> una oración de dominio público
 write-page-subtitle = Las oraciones aportadas aquí se agregarán a un conjunto de datos con licencia cc-0 disponible públicamente.
 sentence =
     .label = Oración
-sentence-input-value = Introduzca aquí su frase de dominio público
+sentence-input-placeholder = Introduzca aquí su oración de dominio público
+small-batch-sentence-input-placeholder = Introduce aquí tus oraciones de dominio público
 citation =
     .label = Citación
 sc-write-submit-confirm = Confirmo que esta oración es <wikipediaLink>dominio público</wikipediaLink> y tengo permiso para subirla.
@@ -30,7 +30,6 @@ required-field = Por favor rellene este campo.
 single-sentence-submission = Envío de una sola frase
 bulk-sentence-submission = Envío de oraciones masivas
 single-sentence = Oración única
-bulk-sentences = Oraciones masivas
 
 ## BULK SUBMISSION 
 
@@ -57,3 +56,6 @@ file-invalid-type = Archivo inválido
 file-too-large = El archivo es demasiado grande
 file-too-small = El archivo es demasiado pequeño
 too-many-files = Demasiados archivos
+
+## SMALL BATCH SUBMISSION
+
