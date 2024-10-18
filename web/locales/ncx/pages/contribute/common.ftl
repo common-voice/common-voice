@@ -38,9 +38,20 @@ contribute-sentence-collection-nav-header = Tlajkuilolnechikoli
 login-signup = Xikalaki/Ximomachoti
 vote-yes = Kema
 vote-no = Amo
+datasets = Tlen itech onka
+languages = Tlajtolkopaj
+about = Itech
+partner = Tlapaleuia
+submit-form-action = Xiktitlani
 
 ## Reporting
 
+report = Itlaj mochiua
+report-title = Xikijto itlaj mochiua
+report-ask = ¿Tlen mochiua noso tikita oui ika nin tlajtoli?
+report-offensive-language = Tlajtoli pitsotik
+report-offensive-language-detail = Nin tlajtoli teuiuikalti noso tepinati
+report-grammar-or-spelling = Amo ijkon tikijkuiloaj/tiktenkixtiaj
 
 ## Speak & Listen Shortcuts
 
