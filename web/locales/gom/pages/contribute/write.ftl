@@ -24,7 +24,7 @@ new-sentence-rule-8 = Chod korun prakrutik ani ulovpak sopi (vakya vachunk sopem
 login-instruction-multiple-sentences = <loginLink>Login</loginLink> va <loginLink>sign up</loginLink> kor zaiteo vakyo ghalpak
 how-to-cite = 'Credit' koshem korum?
 how-to-cite-explanation-bold = Purai 'URL link' divun va kamacho purai nav ghalun.
-how-to-cite-explanation = { "" }
+how-to-cite-explanation = Tujech utram asa zalyar, <italicizedText>“Self Citation”</italicizedText> mhunn ghal. Amka khobor zavpak zai ki tuka hem kõi mellem. Amka kollpak zai ki hem 'public domain'-nant asa kai na ani teka koslech 'copyright condition' na.  For more information about citation see our <guidelinesLink>Guidelines page</guidelinesLink>.
 guidelines = Guidelines
 contact-us = Amkam sompark kor
 add-sentence-success = 1 vakya puzayle
@@ -96,3 +96,4 @@ too-many-files = Samke chod file asa
 
 ## SMALL BATCH SUBMISSION
 
+small-batch-sentences-rule-4 = Chod korun 1000 vakyo ghalunk zata
