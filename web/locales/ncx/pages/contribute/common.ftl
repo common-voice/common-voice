@@ -71,6 +71,7 @@ report-success = Yitikmatokej tlen mochijtok
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = Xiktsiko/Ximochia
+shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Oksepa xiktsiko
 shortcut-discard-ongoing-recording-label = Ayakmo xiktsiko
 shortcut-submit = Ximokopa
