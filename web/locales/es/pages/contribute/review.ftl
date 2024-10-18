@@ -20,6 +20,7 @@ sc-review-form-button-approve-shortcut = S
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = T
+sc-review-form-keyboard-usage-custom = También se puede usar atajos de teclado: { sc-review-form-button-approve-shortcut } para aprobar, { sc-review-form-button-reject-shortcut } para rechazar, y { sc-review-form-button-skip-shortcut } para saltar
 sc-review-form-button-submit =
     .submitText = Acabar de revisar
 # Variables:

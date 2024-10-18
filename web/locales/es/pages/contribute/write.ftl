@@ -141,3 +141,5 @@ small-batch-sentences-rule-1 = Sigue las pautas de “¿Qué oraciones puedo agr
 small-batch-sentences-rule-2 = Añade una oración por línea
 small-batch-sentences-rule-3 = Separa las oraciones en una por línea, por medio de un salto de línea entre cada una.
 small-batch-sentences-rule-4 = Añade hasta 1.000 oraciones
+small-batch-sentences-rule-5 = Todas las oraciones deben de encajarse en el mismo dominio
+small-batch-sentences-rule-6 = Todas las oraciones deben de tener la misma fuente y citación
