@@ -54,7 +54,7 @@ first-cta-gender-select-default-option = Ek option vechun ge
 first-cta-gender-select-help-text =
     .label = Tuje ling kite?
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = Tuven apli avaaz yogdan dili mhunn tuka dev bore koru!
+second-cta-header-text = Tuven apli avaz yogdan kele mhunn tuka dev borem korum!
 second-cta-subtitle-text = Ek profile korun, tujea karyavali-cher hishob dovor ani eka "voice data" yogdan divpachi samaj'a kaden rav.
 already-have-an-account = Account asa? <login>Log-In</login>
 create-profile-button = Ek profile kor
