@@ -5,7 +5,6 @@ write-instruction = Přidat <icon></icon> větu jako volné dílo
 write-page-subtitle = Věty, kterými zde přispějete, budou přidány do veřejně dostupného datasetu pod licencí cc-0.
 sentence =
     .label = Věta
-sentence-input-value = Zde zadejte svou public doman větu
 citation-input-placeholder = Uveďte zdroj své věty (povinné)
 citation =
     .label = Zdroj
@@ -30,7 +29,7 @@ required-field = Vyplňte prosím toto pole.
 single-sentence-submission = Odeslání jedné věty
 bulk-sentence-submission = Odeslání více vět
 single-sentence = Jedna věta
-bulk-sentences = Více vět
+small-batch-sentence = Malá dávka
 sentence-domain-combobox-label = Zařazení věty
 sentence-domain-select-placeholder = Vyberte až tři domény
 # Sentence Domain dropdown option
@@ -89,3 +88,7 @@ file-invalid-type = Neplatný soubor
 file-too-large = Soubor je příliš velký
 file-too-small = Soubor je příliš malý
 too-many-files = Příliš mnoho souborů
+
+## SMALL BATCH SUBMISSION
+
+small-batch-sentences-rule-4 = Můžete přidat až 1 000 vět
