@@ -50,8 +50,20 @@ report = Itlaj mochiua
 report-title = Xikijto itlaj mochiua
 report-ask = ¿Tlen mochiua noso tikita oui ika nin tlajtoli?
 report-offensive-language = Tlajtoli pitsotik
-report-offensive-language-detail = Nin tlajtoli teuiuikalti noso tepinati
-report-grammar-or-spelling = Amo ijkon tikijkuiloaj/tiktenkixtiaj
+report-offensive-language-detail = Nin tlajtoli teuiuikalti noso tepinati.
+report-grammar-or-spelling = Amo ijkon tikijkuiloaj/tiktenkixtiaj.
+report-grammar-or-spelling-detail = Nin amo ijkon tikijkuiloaj noso amo ijkon tiktenkixtiaj.
+report-different-language = Nin okse tlajtolkopa.
+report-different-language-detail = Tlen okijkuilokej amo notlajtolkopa.
+report-difficult-pronounce = Sapanoa oui niktenkixtis
+report-difficult-pronounce-detail = Seki tlajtoli amo nikintekaki noso amo uelis nikintenkixtis.
+report-offensive-speech = Amo tetlakaita
+report-offensive-speech-detail = Tlajtoli amo tetlakaita noso teuiuikaltia.
+report-other-comment =
+    .placeholder = Seki xikijkuilo
+success = Yomoka
+continue = Tlayekapan
+report-success = Yitikmatokej tlen mochijtok
 
 ## Speak & Listen Shortcuts
 
