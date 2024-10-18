@@ -4,6 +4,12 @@ sc-review-lang-not-selected = Atu uli afitte ma dooritto. Aysuk isi <profileLink
 sc-review-title = Maxcâ maafoofa sekkaacis
 sc-review-loading = Maxcâ maafoofah keelsa...
 sc-review-select-language = Aysuk maxcâ maafoofa sekkaacissuh af door.
+sc-review-no-sentences = Sekkacsuh maxcâ maafoofa ma tan. <addLink>Fulah maxcâ maafoofa edde osis away!</addLink>
+sc-review-form-prompt =
+    .message = Sekkacsimte maxcâ maafoofa ma kabbotinna, asmatâ na?
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Raceyna: { $sentenceSource }
 sc-review-form-button-reject = Cin
 sc-review-form-button-skip = Kaqit
 sc-review-form-button-approve = Oggol
@@ -13,7 +19,9 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
-sc-review-link = Sekkactu
+sc-review-form-button-submit =
+    .submitText = Sekkacsuk gaba kal
+sc-review-link = Sekkacsu
 
 ## REVIEW CRITERIA
 
