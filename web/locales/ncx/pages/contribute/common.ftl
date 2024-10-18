@@ -89,3 +89,5 @@ contribution-criteria-link = Xikajsikamati ken moneki titlapaleuis
 contribution-criteria-page-title = Ken moneki titlapaleuis
 contribution-criteria-page-description = ¡Xikita ken okachi kuali titlatemos uan ijkon okachi kuali titlapaleuis ika motlajtol!
 contribution-for-example = uelis ijkon
+contribution-misreadings-title = Amo kuali okitlajtolkopkej
+contribution-misreadings-description = Ijkuak tikkaktos, xikyekkaki tla melauak kitenkixtiaj tlen ijkuilijtok; xikpojolo maski san achitsin omotlapololtikej. <br />Miakej motlapololtiaj ijki:
