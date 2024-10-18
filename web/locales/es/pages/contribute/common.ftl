@@ -14,6 +14,7 @@ goal-help-validation = ¡Gracias a tu ayuda Common Voice ha alcanzado el <goalPe
 contribute-more = ¿Listo para hacer { $count } más?
 speak-empty-state = Nos hemos quedado sin frases para grabar en este idioma ...
 speak-empty-state-cta = Colabora con más frases
+speak-loading-error = No se pudo cargar oraciones. Vuelve a intentar más tarde.
 record-button-label = Grabar tu voz
 share-title-new = <bold>Ayúdanos</bold> a encontrar más voces.
 keep-track-profile = Haz un seguimiento de tu progreso con un perfil
@@ -23,11 +24,20 @@ target-segment-generic-card = Estás contribuyendo a un segmento objetivo
 target-segment-first-banner = Ayuda a crear el primer objetivo segmentado de Common Voice en { $locale }
 target-segment-add-voice = Agrega tu voz
 target-segment-learn-more = Más información
+change-preferences = Cambiar preferencias
 
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = Colección de voz
 contribute-sentence-collection-nav-header = Recopilación de frases
+login-signup = Iniciar sesión / Registrarse
+vote-yes = Sí
+vote-no = No
+datasets = Conjuntos de datos
+languages = Idiomas
+about = Acerca de
+partner = Sé nuestro socio
+submit-form-action = Enviar
 
 ## Reporting
 
@@ -86,7 +96,10 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = Criterios
+contribution-criteria-link = Aprender más sobre criterios de contribución
+contribution-criteria-page-title = Criterios de contribución
 contribution-for-example = por ejemplo
+contribution-misreadings-title = Malas interpretaciones
 contribution-misreadings-example-2-explanation = [Debería ser ‘dinosaurios’]
 contribution-background-noise-title = Ruido de fondo
 contribution-background-noise-example-1-fixed-title = <strong>[Estornudo]</strong> Los dinosaurios gigantes del <strong>[tos]</strong> Triásico.
