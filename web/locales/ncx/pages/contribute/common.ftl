@@ -91,3 +91,5 @@ contribution-criteria-page-description = ¡Xikita ken okachi kuali titlatemos ua
 contribution-for-example = uelis ijkon
 contribution-misreadings-title = Amo kuali okitlajtolkopkej
 contribution-misreadings-description = Ijkuak tikkaktos, xikyekkaki tla melauak kitenkixtiaj tlen ijkuilijtok; xikpojolo maski san achitsin omotlapololtikej. <br />Miakej motlapololtiaj ijki:
+contribution-misreadings-description-extended-list-1 = Poliui <strong>'Se'</strong> noso <strong>'Tejuan'</strong> ijkuak peua se tlajtoli.
+contribution-misreadings-description-extended-list-2 = Polui <strong>'j'</strong> itlamian se tlajtoli.
