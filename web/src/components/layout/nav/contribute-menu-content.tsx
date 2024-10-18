@@ -23,7 +23,7 @@ const Content = ({
   contributeMenuItems: ContributeMenuItem[]
   isUserLoggedIn: boolean
 }) => (
-  <div>
+  <div className="content-container">
     <ul>
       {contributeMenuItems.map(item => {
         const shouldShowItem =

@@ -23,6 +23,7 @@ type NavProps = {
 }
 
 export type NavItem = 'speak' | 'listen' | 'write' | 'about' | 'download'
+const SPEAK_MENU_ITEM = 'speak'
 
 export const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
   const [locale] = useLocale()
@@ -52,22 +53,22 @@ const Nav: React.FC<NavProps> = ({
     setActiveNavItem(prev => (prev === navItem ? null : navItem))
   }, [])
 
-  const renderMenu = (key: NavItem) => {
+  const renderMenu = (menuItem: NavItem) => {
     const menu = (
       <ContributeMenu
-        key={key}
-        showMenu={activeNavItem === key}
+        key={menuItem}
+        showMenu={activeNavItem === menuItem}
         setShowMenu={handleNavItemClick}
-        showMobileMenu={activeNavItem === key}
+        showMobileMenu={activeNavItem === menuItem}
         isContributionPageActive={isContributionPageActive}
         isUserLoggedIn={Boolean(account)}
-        menuItems={menuItems[key].items}
-        menuLabel={key}
+        menuItems={menuItems[menuItem].items}
+        menuLabel={menuItem}
       />
     )
 
-    return menuItems[key].renderContributableLocaleLock ? (
-      <ContributableLocaleLock key={key}>{menu}</ContributableLocaleLock>
+    return menuItems[menuItem].renderContributableLocaleLock ? (
+      <ContributableLocaleLock key={menuItem}>{menu}</ContributableLocaleLock>
     ) : (
       menu
     )
@@ -76,11 +77,13 @@ const Nav: React.FC<NavProps> = ({
   return (
     <nav {...props} className="nav-list" aria-label="Main Navigation">
       <div className="nav-links">
-        <ContributableLocaleLock>{renderMenu('speak')}</ContributableLocaleLock>
+        <ContributableLocaleLock>
+          {renderMenu(SPEAK_MENU_ITEM)}
+        </ContributableLocaleLock>
         <div className="divider" />
         <div className={shouldExpandNavItems ? 'fade-in' : 'fade-out'}>
           {typedObjectKeys(menuItems).map(key => {
-            if (key === 'speak') return null
+            if (key === SPEAK_MENU_ITEM) return null
             return (
               <React.Fragment key={key}>
                 {renderMenu(key)}

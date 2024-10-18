@@ -12,3 +12,5 @@ listen-loading-error =
 listen-abort-title = Finish validating clips?
 listen-abort-cancel = Continue validating
 listen-abort-confirm = Finish validating
+# Menu item
+validate-readings = Validate Readings

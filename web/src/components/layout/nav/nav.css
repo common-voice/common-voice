@@ -6,6 +6,7 @@
     top: 0;
     z-index: var(--override-z-index);
     background-color: var(--white);
+    box-shadow: var(--cv-box-shadow);
 
     &.contribution-page-active {
         @media (--xl-up) {
@@ -221,7 +222,7 @@ header {
     .nav-links .nav-link-item {
         justify-content: space-evenly;
         font-family: var(--base-font-family);
-        font-size: var(--font-size-xs);
+        font-size: var(--font-size-sm);
         text-transform: uppercase;
         font-weight: 600;
         white-space: nowrap;
@@ -240,6 +241,10 @@ header {
         @media (--lg-up) {
             display: initial;
         }
+    }
+
+    .button.outline.login {
+        border: 1px solid var(--black);
     }
 
     & .login {
@@ -301,7 +306,6 @@ header {
             opacity: 1;
             transition: visibility 1s, opacity 1s;
             visibility: visible;
-            height: 95%;
 
             @media (--xl-up) {
                 align-items: center;
@@ -318,11 +322,11 @@ header {
             opacity: 0;
             transition: visibility 0.25s, opacity 0.25s;
             visibility: hidden;
-            height: 95%;
         }
 
         & .track-fs-download {
             align-content: center;
+            margin-block-end: 8px;
         }
     }
 }
@@ -414,6 +418,7 @@ header {
 
         & .contribute-menu {
             padding-bottom: 15px;
+            width: 100%;
         }
 
         & .contribute-menu.contribution-page-active {
@@ -457,7 +462,9 @@ header {
         .contribute-link,
         .coming-soon-text {
             margin-inline-start: 8px;
-            padding: 20px 0 0;
+            width: 100%;
+            text-align: left;
+            padding: 0;
             font-family: var(--base-font-family);
             font-size: var(--font-size);
             font-weight: 400;

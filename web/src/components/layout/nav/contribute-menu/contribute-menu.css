@@ -4,6 +4,11 @@
     align-items: center;
     height: 100%;
     border: none;
+    border-bottom: 4px solid transparent;
+
+    & .contribute-links-wrapper {
+        border-bottom: 4px solid transparent;
+    }
 
     &.active .contribute-links-wrapper {
         border-bottom: 4px solid var(--blue);
@@ -91,12 +96,15 @@
 
                     &.coming-soon p {
                         color: var(--warm-grey);
-                        margin-block-end: 4px;
                         cursor: default;
 
                         span {
                             font-size: var(--font-size-xs);
                         }
+                    }
+
+                    &.coming-soon .chat-bubble-icon {
+                        align-self: flex-end;
                     }
 
                     &.coming-soon path {
@@ -181,11 +189,16 @@
 
     .menu-wrapper-mobile {
         width: 100%;
-        padding-bottom: 8px;
 
         .mobile-menu-list {
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            height: 100%;
+
+            .content-container {
+                height: 100%;
+            }
         }
 
         @media (--xl-up) {
@@ -195,17 +208,23 @@
         ul {
             list-style: none;
             margin: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
 
             li {
                 display: flex;
                 flex-wrap: wrap;
+                flex-grow: 1;
                 align-items: end;
-                margin-block-end: 8px;
+                margin-block-end: 12px;
 
                 .content {
                     display: flex;
                     align-items: end;
                     margin-inline-start: 30px;
+                    width: 100%;
 
                     .contribute-link {
                         margin-inline-start: 8px;
@@ -229,7 +248,11 @@
                 svg {
                     width: 16px;
                     height: 16px;
-                    margin-bottom: 2px;
+                    margin-block-end: 2px;
+
+                    &.chat-bubble-icon {
+                        margin-block-end: 0;
+                    }
 
                     &.mic-icon path {
                         fill: var(--red);

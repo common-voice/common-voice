@@ -4,7 +4,7 @@ import { Localized } from '@fluent/react'
 import { RouteComponentProps, withRouter } from 'react-router'
 
 import { TextButton } from '../../../ui/ui'
-import { ChevronDown } from '../../../ui/icons'
+import { BoldChevron, ChevronDown } from '../../../ui/icons'
 import ContributeMenuContent from '../contribute-menu-content'
 
 import { LocalizedNavLink, NavItem } from '../nav'
@@ -63,9 +63,14 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
     <div className="contribute-wrapper">
       <div id="contribute-btn-wrapper">
         <Localized id={menuLabel}>
-          <TextButton className="contribute-btn" onClick={handleClick} />
+          <TextButton
+            className="contribute-btn"
+            onClick={handleClick}
+            aria-expanded={showMobileMenu}
+            aria-controls="mobile-menu"
+          />
         </Localized>
-        <ChevronDown
+        <BoldChevron
           className={classNames({ 'rotate-180': showMobileMenu })}
           onClick={handleClick}
         />
@@ -76,11 +81,10 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         })}
         onMouseLeave={handleMouseLeave}
         onClick={handleClick}
-        data-testid="contribute-menu">
-        <div
-          className={classNames('contribute-links-wrapper', {
-            'show-border': isContributionPageActive,
-          })}>
+        data-testid="contribute-menu"
+        aria-expanded={showMobileMenu}
+        aria-controls="mobile-menu">
+        <div className="contribute-links-wrapper">
           <p className="nav-link-item">
             <Localized id={menuLabel} />
           </p>
@@ -91,7 +95,8 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         {showMobileMenu && (
           <div
             className="menu-wrapper-mobile"
-            data-testid="contribute-mobile-menu">
+            data-testid="contribute-mobile-menu"
+            style={{ height: `${40 * menuItems.length}px` }}>
             <ContributeMenuContent
               pathname={location.pathname}
               className="mobile-menu-list"

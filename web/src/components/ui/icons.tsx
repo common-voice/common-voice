@@ -118,6 +118,23 @@ export const BookmarkIcon = uniqueIcon(id => (
   </svg>
 ))
 
+export const BoldChevron = (props: any) => (
+  <svg
+    width="25"
+    height="24"
+    viewBox="0 0 25 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}>
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M5.79289 8.29289C6.18342 7.90237 6.81658 7.90237 7.20711 8.29289L12.5 13.5858L17.7929 8.29289C18.1834 7.90237 18.8166 7.90237 19.2071 8.29289C19.5976 8.68342 19.5976 9.31658 19.2071 9.70711L13.2071 15.7071C12.8166 16.0976 12.1834 16.0976 11.7929 15.7071L5.79289 9.70711C5.40237 9.31658 5.40237 8.68342 5.79289 8.29289Z"
+      fill="black"
+    />
+  </svg>
+)
+
 export const CameraIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24">
     <defs>
@@ -1320,7 +1337,12 @@ export const HeartIcon = () => (
 )
 
 export const ChatBubbleIcon = () => (
-  <svg width="14" height="14" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg
+    width="14"
+    height="14"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="chat-bubble-icon">
     <path
       d="M.333 13.667v-12c0-.367.13-.68.392-.942.26-.261.575-.392.941-.392h10.667c.367 0 .68.13.942.392.26.261.391.575.391.942v8c0 .366-.13.68-.391.941a1.284 1.284 0 0 1-.942.392H3L.333 13.667Zm2.1-4h9.9v-8H1.666v8.75l.767-.75Z"
       fill="#959595"
