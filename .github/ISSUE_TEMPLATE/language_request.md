@@ -65,15 +65,15 @@ I see rocks on the ground
 
 - [ ] Band A
 
-<!--- Starting at 750 Sentences, the language has speaker population less than 1 million, resource self assement is low and langauge vitality is low -->
+<!--- Starting at 750 Sentences, the language has speaker population less than 1 million, resource self assessment is low and language vitality is low -->
 
 - [ ] Band B
 
-<!--- Starting at 2000 Sentences, the language has speaker population less than 10 million, resource self assement is medium and langauge vitality is moderate -->
+<!--- Starting at 2000 Sentences, the language has speaker population less than 10 million, resource self assessment is medium and language vitality is moderate -->
 
 - [ ] Band C
 
-<!--- Starting at 5000 Sentences, the language has speaker population over than 10 million, resource self assement is high and langauge vitality is high-->
+<!--- Starting at 5000 Sentences, the language has speaker population over than 10 million, resource self assessment is high and language vitality is high-->
 
 
 ## Creating Community 
@@ -87,4 +87,4 @@ I see rocks on the ground
 
 1. [optional to share] Why do you want to take part in Common Voice ?
 
-2. [optional to share] Would you like to have a follow up conversation regarding community building ?
+2. [optional to share] Would you like to have a follow-up conversation regarding community building ?
