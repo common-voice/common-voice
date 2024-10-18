@@ -7,6 +7,7 @@ sc-review-select-language = Aysuk maxcâ maafoofa sekkaacissuh af door.
 sc-review-no-sentences = Sekkacsuh maxcâ maafoofa ma tan. <addLink>Fulah maxcâ maafoofa edde osis away!</addLink>
 sc-review-form-prompt =
     .message = Sekkacsimte maxcâ maafoofa ma kabbotinna, asmatâ na?
+sc-review-form-usage = Maxcâ maafo oggoltuh migda fan uysuttuc. Cintuh gura fan uysuttuc. Amo kortuh daga fan uysuttuc. <strong>Ku sekkacsa kabbossam ma habbaalin!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Raceyna: { $sentenceSource }
