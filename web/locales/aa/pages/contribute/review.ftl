@@ -25,3 +25,5 @@ sc-review-link = Sekkacsu
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = Xiqsisos sekkaacis
+sc-criteria-title = Xiqsisos sekkaacis
