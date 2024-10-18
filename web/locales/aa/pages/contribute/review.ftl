@@ -1,6 +1,9 @@
 ## REVIEW
 
 sc-review-lang-not-selected = Atu uli afitte ma dooritto. Aysuk isi <profileLink> Weelayso</profileLink> fan gex afitte doortuh.
+sc-review-title = Maxcâ maafoofa sekkaacis
+sc-review-loading = Maxcâ maafoofah keelsa...
+sc-review-select-language = Aysuk maxcâ maafoofa sekkaacissuh af door.
 sc-review-form-button-reject = Cin
 sc-review-form-button-skip = Kaqit
 sc-review-form-button-approve = Oggol
