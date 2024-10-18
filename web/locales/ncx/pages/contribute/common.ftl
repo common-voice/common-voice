@@ -70,6 +70,13 @@ report-success = Yitikmatokej tlen mochijtok
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Xiktsiko/Ximochia
+shortcut-rerecord-toggle-label = Oksepa xiktsiko
+shortcut-discard-ongoing-recording-label = Ayakmo xiktsiko
+shortcut-submit = Ximokopa
+shortcut-submit-label = Xiktitlani tlen yotiktsiko
+request-language-text = ¿Ayamo tikita motlajtolkopa itech Common Voice?
+request-language-button = Xiktlajtlani se tlajtolkopa
 
 ## Listen Shortcuts
 
