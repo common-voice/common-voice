@@ -12,3 +12,4 @@ record-error-too-long = रिकॉडींग चड वडले आसा.
 record-error-too-quiet = रिकॉडींग सामको शांत आसा.
 record-cancel = परत कर नाका
 record-instruction = <recordIcon></recordIcon> { $actionType } मार आनीक वयर दिल्ली वाख्य मोट्यान वाच
+first-cta-gender-select-default-option = वेंचून काड
