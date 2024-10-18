@@ -107,6 +107,36 @@ rate-limit-toast-message-minutes =
         [one] Se ha excedido el límite de velocidad. Inténtalo de nuevo en un minuto
        *[other] Se ha excedido el límite de velocidad. Inténtalo de nuevo en { $retryLimit } minutos
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Se ha excedido el límite de velocidad. Inténtalo de nuevo en un segundo
+       *[other] Se ha excedido el límite de velocidad. Inténtalo de nuevo en { $retryLimit } segundos
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Has excedido el límite de envió para esta página. Espera un minuto antes de enviar otra oración. ¡Gracias por tu paciencia!
+       *[other] Has excedido el límite de envió para esta página. Espera { $retryLimit } minutos antes de enviar otra oración. ¡Gracias por tu paciencia!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Has excedido el límite de envió para esta página. Espera un segundo antes de enviar otra oración. ¡Gracias por tu paciencia!
+       *[other] Has excedido el límite de envió para esta página. Espera { $retryLimit } segundos antes de enviar otra oración. ¡Gracias por tu paciencia!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } de 1 oración recopilada
+       *[other] { $uploadedSentences } de { $totalSentences } oraciones recopiladas
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } de una oración recopilada. Haz clic <downloadLink>aquí</downloadLink> para descargar las oraciones que fueron rechazadas.
+       *[other] { $uploadedSentences } de { $totalSentences } recopiladas. Haz clic <downloadLink>aquí</downloadLink> para descargar las oraciones que fueron rechazadas.
+    }
 small-batch-sentences-rule-1 = Sigue las pautas de “¿Qué oraciones puedo agregar?”
 small-batch-sentences-rule-2 = Añade una oración por línea
 small-batch-sentences-rule-3 = Separa las oraciones en una por línea, por medio de un salto de línea entre cada una.
