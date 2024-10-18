@@ -1,5 +1,6 @@
 ## REVIEW
 
+sc-review-lang-not-selected = Atu uli afitte ma dooritto. Aysuk isi <profileLink> Weelayso</profileLink> fan gex afitte doortuh.
 sc-review-form-button-reject = Cin
 sc-review-form-button-skip = Kaqit
 sc-review-form-button-approve = Oggol
