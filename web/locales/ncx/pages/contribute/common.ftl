@@ -86,3 +86,6 @@ shortcut-play-toggle-label = Xikkaki/Xikketsa
 
 contribution-criteria-nav = Tlen moneki
 contribution-criteria-link = Xikajsikamati ken moneki titlapaleuis
+contribution-criteria-page-title = Ken moneki titlapaleuis
+contribution-criteria-page-description = ¡Xikita ken okachi kuali titlatemos uan ijkon okachi kuali titlapaleuis ika motlajtol!
+contribution-for-example = uelis ijkon
