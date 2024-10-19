@@ -150,4 +150,5 @@ contribution-reader-effects-title = Ken kitlajtoltia
 contribution-reader-effects-description = Kanaj nochtin san kuali tlajtoskej. Noijki, uelis tikselis maski tsajsis, ichtakatlajtos noso kipajpatla ken tlajtoa. Xikpojpolo tla tlakuikas noso tla akin melauak tlajtoa se tepostli.
 contribution-just-unsure-title = ¿Amo tikmati tlen tikchiuas?
 contribution-just-unsure-description = Tla tikajsi itlaj tlen amo nikan nestok, xikchiua tlen okachi kuali tikitas. Tla amo tikmati tlen tikchiuas, xikpacho kanin kijtoa "Xikpanaui" uan okse xikkaki.
-see-more = <chevron></chevron>Okachi xikita
+see-more = <chevron></chevron>Okachi mamonexti
+see-less = <chevron></chevron>Amo okachi mamonexti
