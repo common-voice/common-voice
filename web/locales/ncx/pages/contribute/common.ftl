@@ -147,3 +147,7 @@ contribution-background-voices-example-1-explanation = ¿Yomokak? <strong>[okse 
 contribution-volume-title = Ken tikkakis
 contribution-volume-description = Amo nochtin san se tlamantli tlajtoaj, amo nochtin chikauak tikinkakis. San xikpojpolo tla sapanoa chiauak otlajto uan amo tikajsikamati noso (nin okachi mochiua) san ichtaka otlajto uan san tikajsikamati tla tikita tlen ijkuilijtok.
 contribution-reader-effects-title = Ken kitlajtoltia
+contribution-reader-effects-description = Kanaj nochtin san kuali tlajtoskej. Noijki, uelis tikselis maski tsajsis, ichtakatlajtos noso kipajpatla ken tlajtoa. Xikpojpolo tla tlakuikas noso tla akin melauak tlajtoa se tepostli.
+contribution-just-unsure-title = ¿Amo tikmati tlen tikchiuas?
+contribution-just-unsure-description = Tla tikajsi itlaj tlen amo nikan nestok, xikchiua tlen okachi kuali tikitas. Tla amo tikmati tlen tikchiuas, xikpacho kanin kijtoa "Xikpanaui" uan okse xikkaki.
+see-more = <chevron></chevron>Okachi xikita
