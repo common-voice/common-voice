@@ -2,7 +2,7 @@
 
 write = Boroi
 write-instruction = Ek 'public domain' vakya <icon></icon> boroi
-write-page-subtitle = Hanga yogdan kel'le vakyo ek cc-0 "No Rights Reserved" "dataset"-an lokank download korpak zata.
+write-page-subtitle = Hanga yogdan kel'le vakyo eke cc-0 "No Rights Reserved" 'dataset'-an lokank download korpak zata.
 sentence =
     .label = Vakya
 sentence-input-placeholder = Tumche 'public-domain' vakya hanga boroi
