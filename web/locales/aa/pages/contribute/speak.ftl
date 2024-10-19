@@ -27,3 +27,7 @@ record-abort-title = Naharak tasgiilik gaba kal?
 record-abort-text = Away cabtek atu isi bisoh-maxco baysetto iyyaanama
 record-abort-submit = Xabbitte kobbos
 record-abort-continue = Tasgiilik gaba kal
+record-abort-delete = Eweq & Xabitte kal
+review-aborted = Dagah-keel baxqeh. Atu isi tasgiil kaltam maay faxxaa?
+review-submit-title = Sekkaacis & Kobbos
+review-submit-msg = Tasgiil abteemih gadda gey!<lineBreak></lineBreak>Away ku xabbittey gubal tani sekkaacisaay kobbos.
