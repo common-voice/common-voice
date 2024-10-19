@@ -143,3 +143,7 @@ contribution-background-voices-title = Tikinkaki oksekimej
 contribution-background-voices-description = Tla itlaj san achtsin tikkaki, yikuali. San amo tiknekij oksekimej noijki matlajtokan uan ijkon tepostli kikakis tlen amo ijkuilijtok. Tla tikkaki tlen amo ijkuilijtok, xikpojpolo. Nin mochiua ijkuak sekimej tlajtojtokej noso tsolontok televisión.
 contribution-background-voices-description-extended = Tla tlajtoli motsitsikojtok noso chajchalantok, xipojpolo. Maski ijkon, tla mayijki tikkaki nochi tlen moneki, xikkaua.
 contribution-background-voices-example-1-title = Tlaltikpaktlakamej. <strong>[san se tlajtoa]</strong>
+contribution-background-voices-example-1-explanation = ¿Yomokak? <strong>[okse kinotsa]</strong>
+contribution-volume-title = Ken tikkakis
+contribution-volume-description = Amo nochtin san se tlamantli tlajtoaj, amo nochtin chikauak tikinkakis. San xikpojpolo tla sapanoa chiauak otlajto uan amo tikajsikamati noso (nin okachi mochiua) san ichtaka otlajto uan san tikajsikamati tla tikita tlen ijkuilijtok.
+contribution-reader-effects-title = Ken kitlajtoltia
