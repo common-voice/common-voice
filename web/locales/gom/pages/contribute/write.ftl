@@ -1,7 +1,7 @@
 ## WRITE PAGE
 
 write = Boroi
-write-instruction = Ek lok-ulovpi vakya <icon></icon> boroi
+write-instruction = Ek 'public domain' vakya <icon></icon> boroi
 write-page-subtitle = Hanga yogdan kel'le vakyo ek cc-0 "No Rights Reserved" "dataset"-an lokank download korpak zata.
 sentence =
     .label = Vakya
@@ -96,6 +96,8 @@ too-many-files = Samke chod file asa
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Zaiteo 'public-domain' vakyo <icon></icon> boroi
 small-batch-sentences-rule-4 = Chod korun 1000 vakyo ghalunk zata
 small-batch-sentences-rule-5 = Soglleo vakyo těch 'domain'-nant aspak zai
 small-batch-sentences-rule-6 = Sogllea vakyank ekuch 'citation' aspak zai
