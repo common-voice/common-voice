@@ -138,3 +138,4 @@ contribution-background-noise-description-extended = Tla tlajtoli motsitsikojtok
 contribution-background-noise-example-1-fixed-title = <strong>[Ekxoa]</strong> Tlaltikpaktla-<strong>[tlatlasi]</strong> -kamej.
 contribution-background-noise-example-2-fixed-title = Tlaltikpak- <strong>[tlatlasi]</strong> -tlakamej.
 contribution-background-noise-example-2-explanation = [Seki amo uelis tikkakis]
+contribution-background-noise-example-3-fixed-title = <strong>[Itlaj chalani]</strong> tikpak<strong>[itlaj chalani]</strong> -kamej.
