@@ -24,3 +24,6 @@ review-instruction = Xabbittek sekkactu & qagit-tasgiil faxxiimek ab
 record-submit-tooltip = { $actionType } gulguluh gacta waqdi kabbos
 clips-uploaded = Xabbitte qullimteh
 record-abort-title = Naharak tasgiilik gaba kal?
+record-abort-text = Away cabtek atu isi bisoh-maxco baysetto iyyaanama
+record-abort-submit = Xabbitte kobbos
+record-abort-continue = Tasgiilik gaba kal
