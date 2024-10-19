@@ -20,6 +20,7 @@ about-dataset-release-title = Ware-kobottitteh figda
 about-dataset-release-subtitle = Nanu kulli 3 alsal ware-kobottoh figda abna.
 about-subscribe-text = Common Voice't tangoorowem faxxaa?
 about-speak = Yab
+about-speak-text = Cali aba tontocowweh tan maxcâ maafoofah bankik kawisak xongô xabitte tasiggile.
 about-listen-queue = Ankacis-daami
 about-listen = Ankacis
 about-dataset-new = Common Voice Ware-kobotto
