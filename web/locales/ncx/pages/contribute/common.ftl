@@ -125,3 +125,4 @@ contribution-misreadings-example-6-explanation = [Moneki kijtos “okijtojka”]
 contribution-misreadings-example-7-title = Uan okijtojka touan yaskiaya.
 contribution-misreadings-example-7-explanation = [Amitlaj ‘ya’ ijkuilijtok]
 contribution-misreadings-example-8-explanation = [Amo tikajsij non]
+contribution-varying-pronunciations-title = Tlatlamantli kitenkixtiaj
