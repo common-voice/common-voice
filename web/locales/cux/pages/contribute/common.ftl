@@ -1,4 +1,5 @@
 action-click = Koto'od
+action-tap = Neabad
 
 ## Contribution Nav Items
 
