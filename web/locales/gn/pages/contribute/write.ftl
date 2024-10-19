@@ -118,6 +118,7 @@ add-small-batch-success =
         [one] { $uploadedSentences } 1 ñe’ẽjuaju mbyatypyre
        *[other] { $uploadedSentences } { $totalSentences } ñe’ẽjuaju mbyatypyre
     }
+small-batch-sentences-rule-1 = Eho ko tapére “¿Mba’e ñe’ẽjuaju ambojuapykuaa?”
 small-batch-sentences-rule-2 = Ehai peteĩ ñe’ẽjuaju tairendápe
 small-batch-sentences-rule-4 = Embojuaju 1.000 ñe’ẽjuaju peve
 small-batch-sentences-rule-5 = Opaite ñe’ẽjuaju orekova’erã peteĩ tendatee
