@@ -215,12 +215,6 @@ zza = Zaza
 
 ## Layout
 
-speak = Yab
-speak-now = Away yab
-datasets = Oytá-daffes
-languages = Afitte
-about = Kinnuk
-partner = Waklenta
 profile = Weelayso
 help = Cato
 contact = Axxoowu
@@ -235,12 +229,11 @@ link-copied = Cixi Korraqsimeh
 back-top = Daga fanah uduur
 logout = Afal Gac
 donate = Acuy
-stayintouch = Nanu Mozilla'l xongolô teknoloojih dariifal egeltá xisak geytimna. Nanu maysaasa lih angaaraw luk sugnam fanna, qusba oytáh raceynaanii kee atu ta oytát mannal xoqoysimtam wagsiisak mangom naabbem fanna.
+stayintouch = Nanu Mozilla'l xongolô teknoloojih dariifal egeltá xisak geytimna. Nanu maysaasa lih angaaraw luk sugnam fanna, qusba wareh raceynaanii kee atu ta waret mannal xoqoysimtam wagsiisak mangom naabbem fanna.
 privacy-info = Nanu ku oyta meqennal abbixennoomuh xagana culla. Ni <privacyLink>Caglah Aysaxxag</privacyLink> wagsiisak muxxi kawis.
 return-to-cv = Common Voice fan endeb
 email-input =
     .label = Imeel
-submit-form-action = Kabbos
 loading = Keelsimah...
 email-opt-in-info = Anu hadaf kassiisitte, yi maysaasah bisô maxcoo kee Common Voice xaagi-waraakit wagittaamal axcih imeelitte geyam faxa.
 email-opt-in-info-title = Common Voice farmoh rortat engel
@@ -251,7 +244,7 @@ not-available-abbreviation = N/A
 
 ## Donate banner
 
-# Text wrapped in <mark></mark> will have a white background. 
+# Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Nanu sin</mark><br/><mark>cato fanna!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = 100+ afih egeltitte nanu abnaamal qekittaah, oytá-daffeysis cadisaanam kee gudgud yaysiiseenim liggidal malyuun dollar takkem awqentah faxxa. Fakimut taniih, maagoosa le oytá tessekexxek - asaaku qokol!

@@ -5,5 +5,5 @@ download-helpus = Xongolô teknoloojih derfal egeltá xisnuh nee cata, imeel git
 download-form-email =
     .label = Ku imeel kulus
     .value = Gadda gey, nanu angoorowenno.
-download-back = Common Voice Oytá-daffes fan Endeb
+download-back = Common Voice Ware-kobottot fan Endeb
 download-no = Maleey Gadda gey
