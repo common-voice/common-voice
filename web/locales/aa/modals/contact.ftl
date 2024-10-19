@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = Axxow Kibenta
+contact-title = Axxow Cibta
 contact-form-name =
     .label = Migaaqa
 contact-form-message =

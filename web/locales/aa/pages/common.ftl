@@ -247,7 +247,7 @@ not-available-abbreviation = N/A
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Nanu sin</mark><br/><mark>cato fanna!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
-donate-banner-cta-explanation = 100+ afih egeltitte nanu abnaamal qekittaah, oytá-daffeysis cadisaanam kee gudgud yaysiiseenim liggidal malyuun dollar takkem awqentah faxxa. Fakimut taniih, maagoosa le oytá tessekexxek - asaaku qokol!
+donate-banner-cta-explanation = 100+ afih egeltitte nanu abnaamal qekittaah, ware-kobottitte cadisaanam kee gudgud yaysiiseenim liggidal malyuun dollar takkem awqentah faxxa. Fakimut taniih, maagoosa le ware tessekexxek - asaaku qokol!
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Ku gorantoh</mark><br/><mark>CV xoqoysim?</mark>
 languages-donate-banner-cta-explanation = Common Voice elle xissiimem axcawow kee ixiibi! Nanu akkadaamitteey, gabqasah ayyuntaa kee kuur goranto abâ lih qokkoltinnam kicinnoh, immay gudgud kee cadisiyyi awqentah ixbi xayyoysisih gitak cal  abaanam nummaak cato takke.

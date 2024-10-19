@@ -2,7 +2,7 @@
 
 write = Uktub
 write-instruction = <icon></icon> osis sadar xikkah maxcâ maafot
-write-page-subtitle = Akkel cali aben maxcâ maafoofa sadarah yanih yan cc-0 idniitáh oytá-daffesit ossime le.
+write-page-subtitle = Akkel cali aben maxcâ maafoofa sadarah yanih yan cc-0 idniitáh ware-kobottot ossime le.
 sentence =
     .label = Maxcâ maafo
 sentence-input-placeholder = Ku sadar xikkah maxcâ maafo akkel culus
