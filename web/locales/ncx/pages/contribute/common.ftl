@@ -135,3 +135,6 @@ contribution-varying-pronunciations-example-2-explanation = [‘Poxak’ tiktenk
 contribution-background-noise-title = Tikkaki okseki tlamantli
 contribution-background-noise-description = Tiknekij teposmej makimatikan kikakiskej se tlajtoli maski itlaj tlaponotos inauak akin tlajtoa. Tlasotsonali tlen amo okachi tsolontok yikuali; tlatsotsonali non sapanoa tsolontok uan amo kitekauilia matikkakikan tlen okijtokej amo kuali.
 contribution-background-noise-description-extended = Tla tlajtoli motsitsikojtok noso chajchalantok, xipojpolo. Maski ijkon, tla mayijki tikkaki nochi tlen moneki, xikkaua.
+contribution-background-noise-example-1-fixed-title = <strong>[Ekxoa]</strong> Tlaltikpaktla-<strong>[tlatlasi]</strong> -kamej.
+contribution-background-noise-example-2-fixed-title = Tlaltikpak- <strong>[tlatlasi]</strong> -tlakamej.
+contribution-background-noise-example-2-explanation = [Seki amo uelis tikkakis]
