@@ -25,6 +25,13 @@ sc-review-link = Тикшерү
 
 sc-criteria-modal = ⓘ Тикшерү критерийлары
 sc-criteria-title = Тикшерү критерийлары
+sc-criteria-make-sure = Җөмләнең түбәндәге критерийларга туры килүен тикшерегез:
+sc-criteria-item-1 = Җөмләдә орфографик хаталар булмаска тиеш.
+sc-criteria-item-2 = Җөмлә грамматик кагыйдәләр нигезендә язылырга тиеш.
+sc-criteria-item-3 = Җөмлә әйтемле булырга тиеш.
+sc-criteria-item-4 = Әгәр җөмлә критерийларга туры килсә, уңдагы &quot;Кабул итү&quot; төймәсенә басыгыз.
 report-sc-different-language = Башка тел
+sentences-fetch-error = Җөмләләр алганда хата килеп чыкты
+review-error = Бу җөмләне тикшерүдә хата килеп чыкты
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Без мөһим үзгәрешләр ясыйбыз
