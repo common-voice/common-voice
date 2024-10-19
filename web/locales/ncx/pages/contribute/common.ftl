@@ -67,12 +67,18 @@ report-success = Yitikmatokej tlen mochijtok
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = o
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = t
 shortcut-record-toggle-label = Xiktsiko/Ximochia
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = Oksepa xiktsiko
+shortcut-discard-ongoing-recording = KSA
 shortcut-discard-ongoing-recording-label = Ayakmo xiktsiko
 shortcut-submit = Ximokopa
 shortcut-submit-label = Xiktitlani tlen yotiktsiko
@@ -81,7 +87,16 @@ request-language-button = Xiktlajtlani se tlajtolkopa
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = k
 shortcut-play-toggle-label = Xikkaki/Xikketsa
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = k
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = a
 
 ## Validation criteria
 
@@ -95,3 +110,5 @@ contribution-misreadings-description = Ijkuak tikkaktos, xikyekkaki tla melauak 
 contribution-misreadings-description-extended-list-1 = Poliui <strong>'Se'</strong> noso <strong>'Tejuan'</strong> ijkuak peua se tlajtoli.
 contribution-misreadings-description-extended-list-2 = Polui <strong>'j'</strong> itlamian se tlajtoli.
 contribution-misreadings-description-extended-list-3 = Kitenkixtiaj tlen amo yonpa ken "ita", kanin kijtoa "xikita" noso "iuan" kanin kijtoa "uan".
+contribution-misreadings-description-extended-list-4 = Amo ajsitok tlajtoli panpa san totoka okistikiski.
+contribution-misreadings-description-extended-list-5 = Miakpa okitenikixtisyeko.
