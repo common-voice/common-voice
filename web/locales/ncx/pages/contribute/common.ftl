@@ -139,3 +139,7 @@ contribution-background-noise-example-1-fixed-title = <strong>[Ekxoa]</strong> T
 contribution-background-noise-example-2-fixed-title = Tlaltikpak- <strong>[tlatlasi]</strong> -tlakamej.
 contribution-background-noise-example-2-explanation = [Seki amo uelis tikkakis]
 contribution-background-noise-example-3-fixed-title = <strong>[Itlaj chalani]</strong> tikpak<strong>[itlaj chalani]</strong> -kamej.
+contribution-background-voices-title = Tikinkaki oksekimej
+contribution-background-voices-description = Tla itlaj san achtsin tikkaki, yikuali. San amo tiknekij oksekimej noijki matlajtokan uan ijkon tepostli kikakis tlen amo ijkuilijtok. Tla tikkaki tlen amo ijkuilijtok, xikpojpolo. Nin mochiua ijkuak sekimej tlajtojtokej noso tsolontok televisión.
+contribution-background-voices-description-extended = Tla tlajtoli motsitsikojtok noso chajchalantok, xipojpolo. Maski ijkon, tla mayijki tikkaki nochi tlen moneki, xikkaua.
+contribution-background-voices-example-1-title = Tlaltikpaktlakamej. <strong>[san se tlajtoa]</strong>
