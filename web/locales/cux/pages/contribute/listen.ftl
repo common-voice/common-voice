@@ -1,5 +1,5 @@
 listen = Kunebed
-listen-subtitle = Kuned insu, a noo jinée chú chi inbëd.
+listen-subtitle = Kuned insu, a noo jinée nudu chi inbëd.
 listen-instruction = { $actionType } <playIcon></playIcon> ¿A noo ko'oñ nudu kú?
 listen-again-instruction = ¡Náka ntiñu ñe'ed! <playIcon></playIcon>  Naune kambed tochi a bea ñood
 listen-3rd-time-instruction = A obe cho'o <playIcon></playIcon>, ¡Kunebe kad!

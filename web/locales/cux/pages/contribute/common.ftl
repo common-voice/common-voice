@@ -4,7 +4,7 @@ action-tap = Neabad
 ## Contribution Nav Items
 
 languages = nudu
-about = ñe'ë
+about = Ñe'ë
 partner = dïd ntiñu nuku insü
 submit-form-action = dicho'od
 
@@ -15,12 +15,12 @@ report-title = dicho'od ama kaka
 report-ask = a déa gua nóo ñe'e nudu kú
 report-offensive-language = nudtö
 report-offensive-language-detail = no nudu kú a kanú nudtö
-report-grammar-or-spelling = gua nóo jo'o o gua nóo dijuñ
+report-grammar-or-spelling = Gua nóo jo'o o gua nóo dijuñ
 report-grammar-or-spelling-detail = a nóo jo'o o dijuñ nudu kú
 report-different-language = tama nudu
 report-different-language-detail = gua ñe'e nudu chi kanejü
 report-difficult-pronounce = ji'ii jo'ö
-report-difficult-pronounce-detail = bea nudu chi ji'ii jo'ö no
+report-difficult-pronounce-detail = Bea nudu chi ji'ii jo'ö no
 report-offensive-speech = kanú nudtö
 report-offensive-speech-detail = kanú nudtö no nudu chi jinebëd
 report-other-comment =
