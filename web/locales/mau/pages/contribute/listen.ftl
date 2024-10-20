@@ -1,2 +1,2 @@
-listen = kuinu'ya
+listen = Kuinu'ya
 listen-subtitle = Tisekanajin si chí neé xta ná.
