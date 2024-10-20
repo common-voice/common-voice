@@ -70,6 +70,7 @@ dataset-metadata-sex = სქესი
 # dataset metadata - age of contributor
 dataset-metadata-age = ასაკი
 donate-modal-message = თქვენი კრებული ჩამოიტვირთება!
+dataset-donate-modal-heading = იცოდით…
 data-download-singleword-title = ჩამოტვირთეთ ცალკეული სიტყვების მიზნობრივი კრებული
 data-download-singleword-callout-v2 = მოხმარების კვლევის საფუძველზე შედგენილი კრებული ციფრებისა და დიახ/არა ხმოვანი ბრძანებების ამოცნობის დასახვეწად.
 data-download-button = Common Voice მონაცემების ჩამოტვირთვა

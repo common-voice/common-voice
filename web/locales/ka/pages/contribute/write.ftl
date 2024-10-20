@@ -1,12 +1,11 @@
 ## WRITE PAGE
 
 write = შედგენა
-# WRITE PAGE
 write-instruction = დაამატეთ <icon></icon> წინადადებები საყოველთაო საკუთრებიდან
 write-page-subtitle = აქ შემოწირული წინადადებები დაემატება საჯაროდ ხელმისაწვდომ კრებულს cc-0 ლიცენზიით.
 sentence =
     .label = წინადადება
-sentence-input-value = შეიყვანეთ წინადადება საყოველთაო საკუთრებიდან
+citation-input-placeholder = მიუთითეთ თქვენი წინადადების წყარო (აუცილებელია)
 citation =
     .label = წყარო
 sc-write-submit-confirm =
@@ -32,7 +31,30 @@ required-field = გთხოვთ, შეავსოთ ეს ველი.
 single-sentence-submission = წინადადებების სათითაოდ შეტანა
 bulk-sentence-submission = წინადადებების ერთიანად შეტანა
 single-sentence = ცალკეული წინადადება
-bulk-sentences = მრავალი წინადადება ერთად
+# Sentence Domain dropdown option
+agriculture_food = სოფლის მეურნეობა და სურსათი
+# Sentence Domain dropdown option
+automotive_transport = ავტომობილები და ტრანსპორტი
+# Sentence Domain dropdown option
+finance = ფინანსები
+# Sentence Domain dropdown option
+service_retail = მომსახურება და საცალო ვაჭრობა
+# Sentence Domain dropdown option
+general = ზოგადი
+# Sentence Domain dropdown option
+healthcare = ჯანდაცვა
+# Sentence Domain dropdown option
+history_law_government = ისტორია, სამართალი და მმართველობა
+# Sentence Domain dropdown option
+language_fundamentals = ენის საფუძვლები (მაგ. ციფრები, ასოები, ფული)
+# Sentence Domain dropdown option
+media_entertainment = მედია და გართობა
+# Sentence Domain dropdown option
+nature_environment = ბუნება და გარემო
+# Sentence Domain dropdown option
+news_current_affairs = სიახლეები და მიმდინარე მოვლენები
+# Sentence Domain dropdown option
+technology_robotics = ტექნოლოგია და რობოტიკა
 
 ## BULK SUBMISSION 
 
@@ -63,3 +85,6 @@ file-invalid-type = უმართებულო ფაილი
 file-too-large = ფაილი ზედმეტად დიდია
 file-too-small = ფაილი ზედმეტად მცირეა
 too-many-files = ფაილები ზედმეტად ბევრია
+
+## SMALL BATCH SUBMISSION
+
