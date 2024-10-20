@@ -125,4 +125,5 @@ rate-limit-message-minutes =
         [many] Dosáhli jste maximálního počtu přidání pro tuto stránku. Před odesláním další věty prosím vyčkejte { $retryLimit } minut. Děkujeme za vaši trpělivost!
        *[other] Dosáhli jste maximálního počtu přidání pro tuto stránku. Před odesláním další věty prosím vyčkejte { $retryLimit } minut. Děkujeme za vaši trpělivost!
     }
+small-batch-sentences-rule-2 = Přidejte jednu větu na řádek
 small-batch-sentences-rule-4 = Můžete přidat až 1 000 vět
