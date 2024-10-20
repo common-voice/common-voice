@@ -21,6 +21,7 @@ new-sentence-rule-5 = Žádné číslovky a speciální znaky
 new-sentence-rule-6 = Žádná cizí písmena
 new-sentence-rule-7 = Uvádějte zdroj
 new-sentence-rule-8 = Nejlépe přirozené a konverzační (věta by měla být snadno čitelná).
+login-instruction-multiple-sentences = Pro přidání více vět se <loginLink>přihlaste</loginLink> nebo <loginLink>zaregistrujte</loginLink>
 how-to-cite = Jak uvádět zdroj?
 how-to-cite-explanation-bold = Odkazujte pomocí URL nebo celým názvem díla.
 how-to-cite-explanation = Pokud se jedná o vaše vlastní slova, stačí uvést <italicizedText>„vlastní dílo“</italicizedText>. Potřebujeme vědět, kde jste tento obsah našli, abychom mohli zkontrolovat, zda je public domain a nevztahují se na něj žádná omezení autorských práv. Další informace o uvádění zdrojů naleznete na <guidelinesLink>stránce s pokyny</guidelinesLink>.
@@ -30,9 +31,11 @@ add-sentence-success = Přidána 1 věta
 add-sentence-error = Neúspěšné přidání věty
 required-field = Vyplňte prosím toto pole.
 single-sentence-submission = Odeslání jedné věty
+small-batch-sentence-submission = Odeslání vět v malém množství
 bulk-sentence-submission = Odeslání více vět
 single-sentence = Jedna věta
 small-batch-sentence = Malá dávka
+bulk-sentence = Hromadné odeslání
 sentence-domain-combobox-label = Zařazení věty
 sentence-domain-select-placeholder = Vyberte až tři domény
 # Sentence Domain dropdown option
@@ -94,4 +97,32 @@ too-many-files = Příliš mnoho souborů
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Přidání více vět dostupných pod public domain
+multiple-sentences-error = K jednomu podání nelze přidat více vět.
+exceeds-small-batch-limit-error = Nelze odeslat více než 1000 vět
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Překročen limit. Zkuste to znovu za 1 minutu.
+        [few] Překročen limit. Zkuste to znovu za { $retryLimit } minuty.
+        [many] Překročen limit. Zkuste to znovu za { $retryLimit } minut.
+       *[other] Překročen limit. Zkuste to znovu za { $retryLimit } minut.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Překročen limit. Zkuste to znovu za 1 sekundu.
+        [few] Překročen limit. Zkuste to znovu za { $retryLimit } sekundy.
+        [many] Překročen limit. Zkuste to znovu za { $retryLimit } sekund.
+       *[other] Překročen limit. Zkuste to znovu za { $retryLimit } sekund.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Dosáhli jste maximálního počtu přidání pro tuto stránku. Před odesláním další věty prosím vyčkejte 1 minutu. Děkujeme za vaši trpělivost!
+        [few] Dosáhli jste maximálního počtu přidání pro tuto stránku. Před odesláním další věty prosím vyčkejte { $retryLimit } minuty. Děkujeme za vaši trpělivost!
+        [many] Dosáhli jste maximálního počtu přidání pro tuto stránku. Před odesláním další věty prosím vyčkejte { $retryLimit } minut. Děkujeme za vaši trpělivost!
+       *[other] Dosáhli jste maximálního počtu přidání pro tuto stránku. Před odesláním další věty prosím vyčkejte { $retryLimit } minut. Děkujeme za vaši trpělivost!
+    }
 small-batch-sentences-rule-4 = Můžete přidat až 1 000 vět
