@@ -124,6 +124,7 @@ contribution-misreadings-example-6-title = Uan okijto touan yaskia.
 contribution-misreadings-example-6-explanation = [Moneki kijtos “okijtojka”]
 contribution-misreadings-example-7-title = Uan okijtojka touan yaskiaya.
 contribution-misreadings-example-7-explanation = [Amitlaj ‘ya’ ijkuilijtok]
+contribution-misreadings-example-8-title = Tata tatapaktik motataka.
 contribution-misreadings-example-8-explanation = [Amo tikajsij non]
 contribution-varying-pronunciations-title = Tlatlamantli kitenkixtiaj
 contribution-varying-pronunciations-description = Amo san niman xikpojpolo se tlajtoli san panpa tikijtos amo kuali okitenkixtikej. Xikilnamiki tlatlamantli tiktenkixtiaj nauatl ijkon ken toaltepe uan xamo seki amo tikinmixmati noso amo ken tejuatsin tikchiua. Uelis tikkauilis se tlajtoli tlen oktlamantli uan ijkon okachi titlapaleuis.
