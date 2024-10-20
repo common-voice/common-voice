@@ -1,5 +1,6 @@
 speak = ჩაწერა
 speak-now = წარმოთქვით
+speak-subtitle = შემოგვწირეთ თქვენი ხმა
 record-cta = ჩაწერის დაწყება
 record-platform-not-supported = სამწუხაროდ, თქვენი სისტემა ამჟამად არაა მხარდაჭერილი.
 record-platform-not-supported-desktop = სამაგიდო კომპიუტერებზე, შეგიძლიათ ჩამოტვირთოთ უახლესი:
