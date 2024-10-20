@@ -146,3 +146,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>იხილ�
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = როგორ ფინანსდება Common Voice-ი?
