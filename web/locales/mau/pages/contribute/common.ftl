@@ -1,4 +1,5 @@
 action-click = Tisenney
+action-tap = chjaájin
 
 ## Contribution Nav Items
 
