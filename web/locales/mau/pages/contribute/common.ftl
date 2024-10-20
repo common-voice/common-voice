@@ -2,6 +2,7 @@ action-click = Tisenney
 action-tap = chjaájin
 contribute = asenka
 review = Chuta'a jin.
+skip = chikji
 
 ## Contribution Nav Items
 
