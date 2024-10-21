@@ -40,3 +40,6 @@ sc-criteria-modal = ⓘ Tlen uan ken tikmotilis
 sc-criteria-title = Tlen uan ken tikmotilis
 sc-criteria-make-sure = Xikmotili tlajkuiloli mayeto ijki:
 sc-criteria-item-1 = Tlajkuiloli moneki yekijkuilijtok.
+sc-criteria-item-2 = Tlajkuiloli moneki ijkuilijtos amo san ken.
+sc-criteria-item-3 = Tlajkuiloli monekis amo oui se kitenkixtis.
+sc-criteria-item-4 = Tla tlajkuiloli kajki ken moneki, xikpacho kanin kijtoa &quot;Yikuali&quot; moyekma.
