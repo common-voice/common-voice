@@ -84,6 +84,8 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Yakkeh yan tasgiil waal
 shortcut-submit = Endeb
 shortcut-submit-label = Xabbitte kobbos
+request-language-text = Isi af uxih Common Voice-l ma tablaa?
+request-language-button = Af Esserit
 
 ## Listen Shortcuts
 
