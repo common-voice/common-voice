@@ -287,13 +287,10 @@ header {
         & a {
             padding: 0 1rem;
             display: block;
-
-            &.active {
-                color: var(--red);
-            }
         }
 
         & .contribute-wrapper {
+            align-content: center;
             height: 100%;
             @media (--lg-down) {
                 margin-top: 20px;
@@ -324,8 +321,7 @@ header {
         }
 
         & .track-fs-download {
-            align-content: center;
-            margin-block-end: 8px;
+            margin-block-end: 10px;
         }
     }
 }
@@ -495,7 +491,7 @@ header {
 
     & .nav-links a {
         margin-inline-start: 30px;
-        padding: 15px 0;
+        padding: 0 0 10px;
         line-height: 1.17;
         font-family: var(--base-font-family);
         font-size: var(--font-size-sm);

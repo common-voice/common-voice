@@ -55,6 +55,8 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
 }) => {
   const { l10n } = useLocalization()
 
+  const hasMenuItems = menuItems && menuItems.length > 0
+
   const handleMouseLeave = () => {
     if (!isContributionPageActive && showMenu) {
       setShowMenu(menuLabel)
@@ -65,8 +67,12 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
     setShowMenu(menuLabel)
   }
 
-  if (menuItems && menuItems?.length === 0) {
-    return <LocalizedNavLink id={menuLabel} to={URLS.DATASETS} />
+  if (!menuItems) {
+    return (
+      <div className="contribute-wrapper">
+        <LocalizedNavLink id={menuLabel} to={URLS.DATASETS} />
+      </div>
+    )
   }
 
   return (
@@ -80,10 +86,12 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
             aria-controls="contribute-menu"
           />
         </Localized>
-        <BoldChevron
-          className={classNames({ 'rotate-180': showMobileMenu })}
-          onClick={handleClick}
-        />
+        {hasMenuItems && (
+          <BoldChevron
+            className={classNames({ 'rotate-180': showMobileMenu })}
+            onClick={handleClick}
+          />
+        )}
       </div>
       <button
         className={classNames('contribute-menu', {
@@ -100,11 +108,11 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
           <p className="nav-link-item">
             <Localized id={menuLabel} />
           </p>
-          {menuItems && menuItems.length > 0 && (
+          {hasMenuItems && (
             <ChevronDown className={classNames({ 'rotate-180': showMenu })} />
           )}
         </div>
-        {showMobileMenu && (
+        {showMobileMenu && hasMenuItems && (
           <div
             className="menu-wrapper-mobile"
             data-testid="contribute-mobile-menu"
@@ -117,7 +125,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
             />
           </div>
         )}
-        {menuItems && menuItems?.length > 0 && (
+        {hasMenuItems && (
           <div className="menu-wrapper" data-testid="menu-wrapper">
             <div className="menu">
               <ContributeMenuContent
