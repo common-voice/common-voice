@@ -38,3 +38,5 @@ sc-review-link = Xikmotili
 
 sc-criteria-modal = ⓘ Tlen uan ken tikmotilis
 sc-criteria-title = Tlen uan ken tikmotilis
+sc-criteria-make-sure = Xikmotili tlajkuiloli mayeto ijki:
+sc-criteria-item-1 = Tlajkuiloli moneki yekijkuilijtok.
