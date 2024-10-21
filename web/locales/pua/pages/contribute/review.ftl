@@ -7,7 +7,7 @@ sc-review-select-language = Eraku wantakwa ma parari sési exeani wantakwaechani
 sc-review-no-sentences = Noksï jarhat'i wantakwaecha para sési exeani. ¡<addLink>kúparhataa útasï wantakwawchani</addLink>!
 sc-review-form-prompt =
     .message = Sési exekwaecha no axanhaxati, ¿xeskiri ya?
-sc-review-form-usage = Kw'ak'antu ísï manata énkari jiokwarhini wantakwa úkatani. Wikixu ísï pa énkari no jiokwarhiaka. Karhakwa ísï manata énkari weakaaka jiruch'akuni. <strong>¡Así mirikurhi axantani énkari sési exeaka ya!</strong>
+sc-review-form-usage = Kw'aniak'antu ísï mananharhita énkari jiokwarhini wantakwa úkatani. Wikixu ísï mananharhita énkari no jiokwarhiaka. Karhakwa ísï mananharhita énkari wekaaka jiruch'akuni. <strong>¡Así mirikurhi axantani énkari sési exeaka ya!</strong>
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Ixu weratini:
