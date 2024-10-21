@@ -50,5 +50,9 @@
 
     .md-right {
         left: 55% !important;
+
+        [dir='rtl'] & {
+            right: 55% !important;
+        }
     }
 }
