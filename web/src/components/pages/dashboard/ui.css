@@ -46,6 +46,10 @@
         transform: translate(-50%, -50%);
         justify-content: center;
         font-weight: 600;
+
+        [dir='rtl'] & {
+            top: 45%;
+        }
     }
 
     .md-right {
