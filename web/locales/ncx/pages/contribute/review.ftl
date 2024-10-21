@@ -28,9 +28,13 @@ sc-review-form-button-submit =
 sc-review-form-reviewed-message =
     { $sentences ->
         [0] Amitlaj otikmotili.
-        [one] 1 tlajtoli otikmotili. ¡Timitstlasojkamatiliaj!
-       *[other] { $sentences } tlajtoli otikinmotili. ¡Timitstlasojkamatiliaj!
+        [one] 1 tlajkuiloli otikmotili. ¡Timitstlasojkamatiliaj!
+       *[other] { $sentences } tlajkuiloli otikinmotili. ¡Timitstlasojkamatiliaj!
     }
+sc-review-form-review-failure = Itlaj omochi. Amo omokak. Teotlatki oksepa xikyeko.
+sc-review-link = Xikmotili
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Tlen uan ken tikmotilis
+sc-criteria-title = Tlen uan ken tikmotilis
