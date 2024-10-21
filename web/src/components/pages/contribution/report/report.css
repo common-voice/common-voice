@@ -82,6 +82,10 @@
         & svg {
             margin-left: 12px;
             transform: rotateZ(90deg);
+
+            [dir='rtl'] & {
+                margin-right: 12px;
+            }
         }
 
         & path {
@@ -139,5 +143,9 @@
     & svg {
         margin-right: 11px;
         width: 17px;
+
+        [dir='rtl'] & {
+            margin-left: 11px;
+        }
     }
 }
