@@ -44,3 +44,10 @@ sc-criteria-item-2 = Wantakwa úkata jatsisti eska sési kantsakata jawaka.
 sc-criteria-item-3 = Wantakwa úkata jatsisti eska úaka wantanhani.
 sc-criteria-item-4 = énka wantakwa úkata sési chuxapaka ampe, axu jayatsïku &quot; jiokwarhini &quot; kw'aniak'antu.
 sc-criteria-item-5-2 = Énka wantakwa úkata no sési úkata jaka, ixu jayats'ïku %quot; amku jiokwarhini &quot; wikixu ísï. énkari no sési xekwarhini jaka énka sési jaka o énka no sési jaka úakari jiruch'akuni.
+sc-criteria-item-6 = Énka noteru jaka ya wantakwa úkataecha para exeani eskaksï sési jaka, ¡Jarhoats'ïni útasï úantani!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Jatsiku <icon></icon> ¿Sésimintu karakata jarhaski i wantakwa úkata?
+sc-review-rules-title = ¿Wantakwa úkata sésimintu jarhaski?
+sc-review-empty-state = Noteru jarhasti ya wantakwaecha pari sési exeani ini wantakwa jimpo.
+report-sc-different-language = Materu wantakwa
+report-sc-different-language-detail = Máteru wantakwa karakata jimpo jarhasti ka no imani jimpo énka ji exeni jaka.
