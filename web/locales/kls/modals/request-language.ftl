@@ -1,6 +1,6 @@
 ## Request Language Modal
 
-request-language-title = Kalasha
+request-language-title = zuban ghatik
 request-language-form-language =
-    .label = Kalasha
-request-language-success-title = Ghati
+    .label = zuban
+request-language-success-title = zuban darkhast hawaw, shukuria
