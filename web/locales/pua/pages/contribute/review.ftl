@@ -43,3 +43,4 @@ sc-criteria-item-1 = Wantakwa úkata jatsisti eska sési karakata jawaka.
 sc-criteria-item-2 = Wantakwa úkata jatsisti eska sési kantsakata jawaka.
 sc-criteria-item-3 = Wantakwa úkata jatsisti eska úaka wantanhani.
 sc-criteria-item-4 = énka wantakwa úkata sési chuxapaka ampe, axu jayatsïku &quot; jiokwarhini &quot; kw'aniak'antu.
+sc-criteria-item-5-2 = Énka wantakwa úkata no sési úkata jaka, ixu jayats'ïku %quot; amku jiokwarhini &quot; wikixu ísï. énkari no sési xekwarhini jaka énka sési jaka o énka no sési jaka úakari jiruch'akuni.
