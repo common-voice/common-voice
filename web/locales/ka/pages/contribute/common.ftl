@@ -26,11 +26,20 @@ target-segment-generic-card = თქვენ წვლილი შეგაქ
 target-segment-first-banner = დაგვეხმარეთ შევქმნათ Common Voice-ის პირველი მიზნობრივი კრებული { $locale } ენისთვის.
 target-segment-add-voice = დაამატეთ საკუთარი ხმა
 target-segment-learn-more = ვრცლად
+change-preferences = პარამეტრების შეცვლა
 
 ## Contribution Nav Items
 
 contribute-voice-collection-nav-header = ხმოვანი კრებული
 contribute-sentence-collection-nav-header = წინადადებების შეგროვება
+login-signup = შესვლა / შექმნა
+vote-yes = დიახ
+vote-no = არა
+datasets = კრებულები
+languages = ენები
+about = შესახებ
+partner = თანამონაწილე
+submit-form-action = გაგზავნა
 
 ## Reporting
 

@@ -21,6 +21,7 @@ new-sentence-rule-5 = Papapy ha tai’aty ojeporu’iveva’ỹre
 new-sentence-rule-6 = Tai pytagua’ỹre
 new-sentence-rule-7 = Emoinge jehaikue hekopeguáva
 new-sentence-rule-8 = Hekojera añetete ha eñomongetakuaa ipype (ndahasyichéne ñe’ẽjoaju ñemoñe’ẽ)
+login-instruction-multiple-sentences = <loginLink>Eñepyrũ tembiapo</loginLink> térã <loginLink>Eñemboheraguapy</loginLink> embojuaju hag̃ua heta ñe’ẽjuaju
 how-to-cite = Mba’éichapa ahechaukáta
 how-to-cite-explanation-bold = Emombe’u URL juajuha térã tembiapokue réra rupive.
 how-to-cite-explanation = Ne ñe’ẽngueteéramo, ereva’erã <italicizedText>“Jehojehegui”</italicizedText>. Roikuaase mo’õitépa rejuhu ko tetepy roikumby hag̃ua ha’épa opavave oiporukuaáva ha nadiporiha apohare derécho. Eñemomaranduve hag̃ua ko’ãva rehegua, eporandu ore <guidelinesLink>kuatiarogue rekoguata</guidelinesLink>.
@@ -98,6 +99,27 @@ too-many-files = Heta marandurenda
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Embojuaju heta ñe’ẽjuaju ojeporukuaáva
 multiple-sentences-error = Nerembojuajukuaái heta ñe’ẽjuaju ojeporukuaáva
+exceeds-small-batch-limit-error = Ndaikatúi erahauka hetave 1000 ñe’ẽjuajúgui
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Ehasáma ipya’ekue. Eha’ã jey ohasa rire 1 aravo’i
+       *[other] Ehasáma ipya’ekue. Eha’ã jey ohasa rire { $retryLimit } aravo’i
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Ehasáma ipya’ekue. Eha’ã jey ohasa rire 1 aravo’ive
+       *[other] Ehasáma ipya’ekue. Eha’ã jey ohasa rire { $retryLimit } aravo’ive
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } 1 ñe’ẽjuaju mbyatypyre
+       *[other] { $uploadedSentences } { $totalSentences } ñe’ẽjuaju mbyatypyre
+    }
+small-batch-sentences-rule-1 = Eho ko tapére “¿Mba’e ñe’ẽjuaju ambojuapykuaa?”
+small-batch-sentences-rule-2 = Ehai peteĩ ñe’ẽjuaju tairendápe
 small-batch-sentences-rule-4 = Embojuaju 1.000 ñe’ẽjuaju peve
 small-batch-sentences-rule-5 = Opaite ñe’ẽjuaju orekova’erã peteĩ tendatee
 small-batch-sentences-rule-6 = Opaite ñe’ẽjuaju orekova’erã peteĩ je’epy

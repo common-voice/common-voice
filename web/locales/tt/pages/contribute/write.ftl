@@ -56,6 +56,7 @@ upload-progress-text = Йөкләү дәвам итә...
 sc-bulk-submit-confirm = Бу җөмләләрнең <wikipediaLink>иҗтимагый милектә</wikipediaLink> булуын раслыйм һәм аларны йөкләргә рөхсәтем бар.
 bulk-upload-success-toast = Күп җөмләләр йөкләнде
 bulk-upload-failed-toast = Йөкләү уңышсыз булды, зинһар, янәдән тырышып карагыз.
+bulk-submission-success-header = Күп җөмлә өстәвегез өчен рәхмәт!
 upload-more-btn-text = Күбрәк җөмлә йөкләнсенме?
 file-invalid-type = Яраксыз файл
 file-too-large = Файл артык зур

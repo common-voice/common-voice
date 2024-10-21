@@ -1,6 +1,7 @@
 ## ABOUT US
 
 about-title = ¿Por qué utilizar Common Voice?
+about-header-description-v2 = <p>Common Voice es una base de datos disponible al público, posibiltada por las voces de contribuyentes voluntarios alrededor del mundo. Las personas que desean desarrollar aplicaciones de voz puede usar esta base de datos para entrenar modelos de aprendizaje automático. </p> <p>Actualmente, la mayoría de bases de datos de voz son propiedad de empresas, lo que previene la innovación. Las bases de datos de voz tampoco son representativas de: hablantes de otras lenguas que no son Inglés, persons de color, personas con discapacidad, mujeres, y personas LGBTQIA+. Esto significa que las tecnología soportadas sobre voz no funcionan en absoluto en muchas lenguas, y donde funciona, pueden no tener el mismo desempeño para todos. Queremos cambiar eso movilizando a las personas en todo el mundo a compartir su voz.
 how-does-it-work-text = Nuestro objetivo es crear una base de datos de voces de código abierto. Dona tu voz, valida la precisión de las grabaciones de otros usuarios y ayuda a mejorar la base de datos.
 
 ## How does it work section

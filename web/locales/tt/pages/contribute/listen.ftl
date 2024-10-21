@@ -1,4 +1,5 @@
 listen = Тыңлау
+listen-subtitle = Аудиоязмаларны тикшерергә ярдәм итегез
 listen-instruction = <playIcon></playIcon> төймәсенә { $actionType } һәм әйтегез, алар җөмләләрне төгәл укыдымы?
 listen-again-instruction = Шәп эш! <playIcon></playIcon> Әзер булгач, яңадан тыңлагыз
 listen-3rd-time-instruction = Икесе әзер, <playIcon></playIcon> дәвам итегез!

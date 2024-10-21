@@ -100,8 +100,47 @@ too-many-files = Gormod o ffeiliau
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Ychwanegu brawddegau parth cyhoeddus lluosog
 multiple-sentences-error = Nid oes modd ychwanegu brawddegau lluosog ar gyfer cyflwyniad sengl
-# <errorIcon></erroricon> will be replace with an icon that represents an error
 exceeds-small-batch-limit-error = Nid oes modd cyflwyno mwy na 1000 o frawddegau
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [zero] Wedi mynd y tu hwnt i derfyn y gyfradd. Ceisiwch eto ymhen { $retryLimit } munudau
+        [one] Wedi mynd y tu hwnt i derfyn y gyfradd. Ceisiwch eto ymhen Wedi mynd y tu hwnt i derfyn y gyfradd. Ceisiwch eto ymhen { $retryLimit }  munud
+        [two] Wedi mynd y tu hwnt i derfyn y gyfradd. Ceisiwch eto ymhen { $retryLimit } funud
+        [few] Wedi mynd y tu hwnt i derfyn y gyfradd. Ceisiwch eto ymhen { $retryLimit } munud
+        [many] Wedi mynd y tu hwnt i derfyn y gyfradd. Ceisiwch eto ymhen { $retryLimit } munud
+       *[other] Wedi mynd y tu hwnt i derfyn y gyfradd. Ceisiwch eto ymhen { $retryLimit } munud
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [zero] Wedi mynd y tu hwnt i derfyn y gyfradd. Ceisiwch eto ymhen { $retryLimit } eiliadau
+        [one] Wedi mynd y tu hwnt i derfyn y gyfradd. Ceisiwch eto ymhen { $retryLimit } eiliad
+        [two] Wedi mynd y tu hwnt i derfyn y gyfradd. Ceisiwch eto ymhen { $retryLimit } eiliad
+        [few] Wedi mynd y tu hwnt i derfyn y gyfradd. Ceisiwch eto ymhen { $retryLimit } eiliad
+        [many] Wedi mynd y tu hwnt i derfyn y gyfradd. Ceisiwch eto ymhen { $retryLimit } eiliad
+       *[other] Wedi mynd y tu hwnt i derfyn y gyfradd. Ceisiwch eto ymhen { $retryLimit } eiliad
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [zero] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } munud cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+        [one] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } munud cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+        [two] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } funud cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+        [few] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } munud cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+        [many] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } munud cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+       *[other] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } munud cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [zero] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliad cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+        [one] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliad cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+        [two] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliad cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+        [few] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliad cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+        [many] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliad cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+       *[other] Rydych chi wedi cyrraedd y terfyn cyflwyno ar gyfer y dudalen hon. Arhoswch am { $retryLimit } eiliad cyn cyflwyno brawddeg arall. Diolch am eich amynedd!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
