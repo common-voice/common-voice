@@ -51,3 +51,8 @@ sc-review-rules-title = ¿Wantakwa úkata sésimintu jarhaski?
 sc-review-empty-state = Noteru jarhasti ya wantakwaecha pari sési exeani ini wantakwa jimpo.
 report-sc-different-language = Materu wantakwa
 report-sc-different-language-detail = Máteru wantakwa karakata jimpo jarhasti ka no imani jimpo énka ji exeni jaka.
+sentences-fetch-error = Wantakwa úkata jamani jirhinhantani tsïnharhisti ampe.
+review-error = Wantakwa úkatani sési exeni jamani tsïnharhisti.
+review-error-rate-limit-exceeded = Jukari sónsonti niraxaka. Erokwarhi sáni ka exe sési eska wantakwa úkata sési jawaka.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Wanikwa ampeksïsï sési péntani jaka.
