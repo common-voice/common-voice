@@ -23,6 +23,23 @@ sc-review-form-button-skip-shortcut = T
 sc-review-form-keyboard-usage-custom = Úakari úraani karakwaechani énkaksï ánchitakwarhu jukaka ka jimini weratinti sóntku niarani: { sc-review-form-button-approve-shortcut } jiokwarhikwani,  { sc-review-form-button-reject-shortcut } amku jiokwarhini, ka { sc-review-form-button-skip-shortcut } pariri jiruch'akuni
 sc-review-form-button-submit =
     .submitText = K'amarani sési exeni
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Noma wantakwa úkata exekata jarhasti.
+        [one] Ma wantakwa úkata exekata jarhasti ya. ¡diosï mayamu!
+       *[other] { $sentences } Wantakwa úkataecha exekata jarhasti ya. ¡diosï mayamu!
+    }
+sc-review-form-review-failure = Sési exekwa no ústi patsakwarhini. Sánsani tatsikwa ménteru wéntsï.
+sc-review-link = sési exeni
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = Chuxapakwaecha énka arhik'a nena sési exeni
+sc-criteria-title = Chuxapakwaecha énka arhik'a nena sési exeni
+sc-criteria-make-sure = Yámintu wantakwa úkataecha jatsisti eskaksï arini ampe chuxapaaka:
+sc-criteria-item-1 = Wantakwa úkata jatsisti eska sési karakata jawaka.
+sc-criteria-item-2 = Wantakwa úkata jatsisti eska sési kantsakata jawaka.
+sc-criteria-item-3 = Wantakwa úkata jatsisti eska úaka wantanhani.
+sc-criteria-item-4 = énka wantakwa úkata sési chuxapaka ampe, axu jayatsïku &quot; jiokwarhini &quot; kw'aniak'antu.
