@@ -20,7 +20,7 @@ sc-review-form-button-approve-shortcut = S
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = T
-sc-review-form-keyboard-usage-custom = Úakari úraani karakwaechani énka ánchitakwarhu ka sóntku niarani:
+sc-review-form-keyboard-usage-custom = Úakari úraani karakwaechani énkaksï ánchitakwarhu jukaka ka jimini weratinti sóntku niarani: { sc-review-form-button-approve-shortcut } jiokwarhikwani,  { sc-review-form-button-reject-shortcut } amku jiokwarhini, ka { sc-review-form-button-skip-shortcut } pariri jiruch'akuni
 
 ## REVIEW CRITERIA
 
