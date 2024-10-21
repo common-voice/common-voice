@@ -102,5 +102,8 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Xiqsissosa
+contribution-criteria-link = Calî xiqsissoosa ced
+contribution-criteria-page-title = Calî xiqsissoosa
 contribution-for-example = ceelalloh
 contribution-volume-title = Kaaya
