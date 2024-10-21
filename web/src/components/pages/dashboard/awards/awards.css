@@ -101,6 +101,14 @@
 
         color: var(--white);
 
+        [dir='rtl'] & {
+            padding-right: 20px;
+            -webkit-transform: scaleX(-1);
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+
         &.speak {
             background: var(--red);
         }
@@ -123,6 +131,10 @@
             position: absolute;
             right: 21px;
             top: 15px;
+
+            [dir='rtl'] & {
+                left: 21px;
+            }
         }
 
         & .interval,
