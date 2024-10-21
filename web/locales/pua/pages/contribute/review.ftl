@@ -56,3 +56,4 @@ review-error = Wantakwa úkatani sési exeni jamani tsïnharhisti.
 review-error-rate-limit-exceeded = Jukari sónsonti niraxaka. Erokwarhi sáni ka exe sési eska wantakwa úkata sési jawaka.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Wanikwa ampeksïsï sési péntani jaka.
+sc-redirect-page-subtitle-1 = Sentence Collector imani eranharhikwa jimpo motsixati énka arhinhak'a Common Voice. Yásï axu úati ya <writeURL>kara</writeURL>ma wantakwa úkata jinkoni o <reviewURL>exe</reviewURL>ixu axaa Common Voice wantakwa úkata mantani arhini.
