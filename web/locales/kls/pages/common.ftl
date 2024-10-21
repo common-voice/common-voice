@@ -135,6 +135,25 @@ nia = Nias
 nl = Dutch
 nn-NO = Norwegian Nynorsk
 nnh = Ngiembon
+nqo = NKo
+nr = IsiNdebele (South)
+nso = Northern Sotho
+ny = Chinyanja
+nyn = Runyankole
+oc = Occitan
+om = Afaan Oromo
+or = Odia
+os = Ossetian
+pa-IN = Punjabi
+pap-AW = Papiamento (Aruba)
+pcm = Nigerian Pidgin Angrezi
+pl = Polish
+ps = Poshto
+pt = Portuguese
+quc = K'iche'
+quy = Quechua Chanka
+qvi = Kichwa
+qxp = Puno Quechua
 
 # [/]
 
