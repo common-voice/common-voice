@@ -24,11 +24,19 @@
     font-weight: 400;
     text-align: left;
     margin-bottom: 16px;
+
+    [dir='rtl'] & {
+        text-align: right;
+    }
 }
 
 .partner-options-text-container .partner-option-content {
     text-align: left;
     font-weight: 400;
+
+    [dir='rtl'] & {
+        text-align: right;
+    }
 }
 
 .partner-options-text-container a {

@@ -59,6 +59,10 @@
                 @media (--md-up) {
                     flex: 1;
                     text-align: right;
+
+                    [dir='rtl'] & {
+                        text-align: left;
+                    }
                 }
 
                 & img {
