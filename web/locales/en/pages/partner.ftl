@@ -16,3 +16,5 @@ partnerships-small-business-description = We are always looking to hear from dat
 partnerships-corporates-header = Large scale corporates and platform companies
 partnerships-corporates-description = If you're looking to speak more about the dataset, want to co-invest in planned platform expansions or look for collaboration opportunities, <emailFragment>drop us a line.</emailFragment>
 partnerships-our-partners = Our Partners
+# menu item
+partners = Partners

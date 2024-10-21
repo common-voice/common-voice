@@ -58,3 +58,6 @@ review-error-rate-limit-exceeded = You're going too fast. Please take a moment t
 sc-redirect-page-title = We're making some big changes
 sc-redirect-page-subtitle-1 = The Sentence Collector is moving to the core Common Voice platform. You can now <writeURL>write</writeURL> a sentence or <reviewURL>review</reviewURL> single sentence submissions on Common Voice.
 sc-redirect-page-subtitle-2 = Ask us questions on <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> or <emailLink>email</emailLink>.
+
+# menu item
+review-sentences = Review Sentences

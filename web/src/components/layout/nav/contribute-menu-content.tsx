@@ -6,93 +6,100 @@ import {
 } from '@fluent/react'
 import classNames from 'classnames'
 
-import { ContributableLocaleLock, LocaleLink } from '../../locale-helpers'
-import { EditIcon, ListenIcon, MicIcon, ReviewIcon } from '../../ui/icons'
-import URLS from '../../../urls'
+import { LocaleLink } from '../../locale-helpers'
+import { ContributeMenuItem } from './contribute-menu'
 
 type ContributeMenuContentProps = {
   className?: string
   pathname?: string
-  isUserLoggedIn: boolean
+  contributeMenuItems: ContributeMenuItem[]
+  isUserLoggedIn?: boolean
 }
+
+const Content = ({
+  contributeMenuItems,
+  isUserLoggedIn,
+  getString,
+}: {
+  contributeMenuItems: ContributeMenuItem[]
+  isUserLoggedIn: boolean
+} & WithLocalizationProps) => (
+  <div className="content-container">
+    <ul>
+      {contributeMenuItems.map(item => {
+        const shouldShowItem =
+          (item.requiresAuth && isUserLoggedIn) || !item.requiresAuth
+
+        if (!shouldShowItem) return null
+
+        const {
+          internalHref,
+          externalHref,
+          localizedId,
+          icon: Icon,
+          menuItemTooltip,
+          menuItemAriaLabel,
+        } = item
+        const isComingSoon = !(internalHref || externalHref)
+
+        const renderContent = () => {
+          if (internalHref) {
+            return (
+              <LocaleLink to={internalHref} className="contribute-link">
+                <Localized id={localizedId} />
+              </LocaleLink>
+            )
+          }
+
+          if (externalHref) {
+            return (
+              <Localized id={localizedId}>
+                <a
+                  href={externalHref}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="contribute-link"
+                />
+              </Localized>
+            )
+          }
+
+          return (
+            <Localized id={localizedId} elems={{ small: <span /> }}>
+              <p className="coming-soon-text" />
+            </Localized>
+          )
+        }
+
+        return (
+          <li
+            key={localizedId}
+            title={getString(menuItemTooltip)}
+            aria-label={getString(menuItemAriaLabel)}>
+            <div
+              className={classNames('content', {
+                'coming-soon': isComingSoon,
+              })}>
+              <Icon />
+              {renderContent()}
+            </div>
+          </li>
+        )
+      })}
+    </ul>
+  </div>
+)
 
 const ContributeMenuContent: React.FC<
   ContributeMenuContentProps & WithLocalizationProps
-> = ({ className, pathname = '', isUserLoggedIn, getString }) => {
-  const speakActive = pathname.includes(URLS.SPEAK)
-  const listenActive = pathname.includes(URLS.LISTEN)
-  const writeActive = pathname.includes(URLS.WRITE)
-  const reviewActive = pathname.includes(URLS.REVIEW)
-
+> = ({ className, contributeMenuItems, isUserLoggedIn, getString }) => {
   return (
     <div className={className}>
-      <ContributableLocaleLock>
-        <div>
-          <Localized id="contribute-voice-collection-nav-header">
-            <p className="nav-header-item" />
-          </Localized>
-          <ul>
-            <li
-              className={classNames({
-                'selected-option': speakActive,
-              })}
-              title={getString('speak')}>
-              <div className="content">
-                <MicIcon />
-                <LocaleLink to={URLS.SPEAK} className="contribute-link">
-                  <Localized id="speak" />
-                </LocaleLink>
-              </div>
-            </li>
-            <li
-              className={classNames({
-                'selected-option': listenActive,
-              })}
-              title={getString('listen')}>
-              <div className="content">
-                <ListenIcon />
-                <LocaleLink to={URLS.LISTEN} className="contribute-link">
-                  <Localized id="listen" />
-                </LocaleLink>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div className="vertical-line" />
-      </ContributableLocaleLock>
-      <div>
-        <Localized id="contribute-sentence-collection-nav-header">
-          <p className="nav-header-item" />
-        </Localized>
-        <ul>
-          <li
-            className={classNames('write', {
-              'selected-option': writeActive,
-            })}
-            title={getString('write')}>
-            <div className="content">
-              <EditIcon />
-              <LocaleLink to={URLS.WRITE} className="contribute-link">
-                <Localized id="write" />
-              </LocaleLink>
-            </div>
-          </li>
-          {isUserLoggedIn && (
-            <li
-              className={classNames('review', {
-                'selected-option': reviewActive,
-              })}
-              title={getString('review')}>
-              <div className="content">
-                <ReviewIcon />
-                <LocaleLink to={URLS.REVIEW} className="contribute-link">
-                  <Localized id="review" />
-                </LocaleLink>
-              </div>
-            </li>
-          )}
-        </ul>
-      </div>
+      <Content
+        contributeMenuItems={contributeMenuItems}
+        isUserLoggedIn={isUserLoggedIn}
+        getString={getString}
+      />
     </div>
   )
 }

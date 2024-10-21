@@ -64,6 +64,7 @@
     --spinner-height: 10rem;
 
     --card-shadow: rgba(0, 0, 0, 0.09) 0 1px 6px, rgba(0, 0, 0, 0.09) 0 1px 4px;
+    --cv-box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.09);
 
     --transition-duration: 0.2s;
     --transition-duration-slow: 0.5s;
