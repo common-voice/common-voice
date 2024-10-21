@@ -16,6 +16,8 @@ describe('Contribute Menu Test', () => {
         isUserLoggedIn
         menuItems={menuItems['speak'].items}
         menuLabel="speak"
+        menuTooltip="mock-menu-tooltip"
+        menuAriaLabel="mock-menu-aria-label"
       />
     )
 
@@ -35,6 +37,8 @@ describe('Contribute Menu Test', () => {
         isUserLoggedIn
         menuItems={menuItems['speak'].items}
         menuLabel="speak"
+        menuTooltip="mock-menu-tooltip"
+        menuAriaLabel="mock-menu-aria-label"
       />
     )
 
