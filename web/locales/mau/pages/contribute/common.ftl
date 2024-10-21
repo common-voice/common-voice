@@ -3,6 +3,7 @@ action-tap = chjaájin
 contribute = asenka
 review = Chuta'a jin.
 skip = chikji
+shortcuts = tjen ndujú
 
 ## Contribution Nav Items
 
