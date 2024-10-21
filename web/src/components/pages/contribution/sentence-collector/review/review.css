@@ -172,6 +172,10 @@
 
                 svg {
                     margin-right: 12px;
+
+                    [dir='rtl'] & {
+                        margin-left: 12px;
+                    }
                 }
 
                 & {
