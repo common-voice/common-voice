@@ -1,7 +1,6 @@
 @import url('../../media.css');
 
 .header-wrapper {
-    border-bottom: 1px solid var(--light-grey);
     position: sticky;
     top: 0;
     z-index: var(--override-z-index);

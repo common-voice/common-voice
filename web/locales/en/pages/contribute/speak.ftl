@@ -39,6 +39,7 @@ review-delete-recordings = Delete my recordings
 review-terms = By using Common Voice, you agree to our <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
 terms-agree = I agree
 terms-disagree = I do not agree
+
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Thank you for donating your voice clips!
 first-cta-subtitle-text = By telling us about yourself, you will help developers build more inclusive technology
@@ -53,6 +54,7 @@ thanks-for-voice-toast-error = An error occurred submitting your voice informati
 first-cta-gender-select-default-option = Select an option
 first-cta-gender-select-help-text =
     .label = How would you describe your sex or gender?
+
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Thank you for contributing your voice!
 second-cta-subtitle-text = With a profile, you can keep track of your activity and connect with a community of voice data contributors.
@@ -62,3 +64,13 @@ create-profile-button = Create a profile
 img-alt-success-checkmark = success checkmark
 # menu item
 read-sentences = Read Sentences
+
+## MENU ITEM TOOLTIPS
+speak-contribute-menu-tooltip = Read Sentences, Answer Questions
+read-sentences-menu-item-tooltip = Record yourself reading sentences in your language
+answer-questions-menu-item-tooltip = Record yourself responding to questions and prompts in your language
+
+## MENU ITEM ARIA LABELS
+speak-contribute-menu-aria-label = Speak options menu
+read-sentences-menu-item-aria-label = Read sentences submitted by the community in various languages
+answer-questions-menu-item-aria-label = Submit a new question for the community to read and respond to

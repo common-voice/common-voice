@@ -64,6 +64,8 @@ const Nav: React.FC<NavProps> = ({
         isUserLoggedIn={Boolean(account)}
         menuItems={menuItems[menuItem].items}
         menuLabel={menuItem}
+        menuTooltip={menuItems[menuItem].menuTooltip}
+        menuAriaLabel={menuItems[menuItem].menuAriaLabel}
       />
     )
 

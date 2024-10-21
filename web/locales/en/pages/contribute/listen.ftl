@@ -14,3 +14,13 @@ listen-abort-cancel = Continue validating
 listen-abort-confirm = Finish validating
 # Menu item
 validate-readings = Validate Readings
+
+## MENU ITEM TOOLTIPS
+listen-contribute-menu-tooltip = Validate Readings, Review Transcriptions
+validate-readings-menu-item-tooltip = Validate user-recorded readings in your language
+review-transcriptions-menu-item-tooltip = Review user-submitted transcriptions in your language
+
+## MENU ITEM ARIA LABELS
+listen-contribute-menu-aria-label = Listen options menu
+validate-readings-menu-item-aria-label = Validate readings submitted by community members
+review-transcriptions-menu-item-aria-label = Review transcriptions of recorded sentences for accuracy

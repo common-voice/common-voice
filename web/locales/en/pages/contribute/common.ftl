@@ -32,10 +32,6 @@ target-segment-add-voice = Add Your Voice
 target-segment-learn-more = Learn More
 change-preferences = Change preferences
 
-## Contribution Nav Items
-
-contribute-voice-collection-nav-header = Voice Collection
-contribute-sentence-collection-nav-header = Sentence Collection
 login-signup = Log In / Sign Up
 vote-yes = Yes
 vote-no = No

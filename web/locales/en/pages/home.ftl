@@ -86,10 +86,22 @@ login-company = Log In / Sign Up with { $company } email
 profile-not-required = Having a profile is not required to contribute though it is helpful, see why below.
 read-more-about = Read more on our About page
 
-# Nav items
+## NAV ITEMS
 answer-questions = Answer Questions <small>(Coming soon)</small>
 review-transcriptions = Review Transcriptions <small>(Coming soon)</small>
 add-questions = Add Questions <small>(Coming soon)</small>
 transcribe-audio = Transcribe Audio <small>(Coming soon)</small>
 press-and-stories = Press and Stories
 community-and-languages = Community and Languages
+
+## MENU ITEMS TOOLTIPS
+about-menu-tooltip = Partnerships, Press and Stories, Community and Languages
+partnerships-menu-item-tooltip = Partner with us
+press-and-stories-menu-item-tooltip = Visit our blog or write about us
+community-and-languages-menu-item-tooltip = Discover languages and communities and common voice
+
+## MENU ITEM ARIA LABELS
+about-menu-aria-label = About options menu
+partnerships-menu-item-aria-label = Learn about partnerships with Common Voice
+press-and-stories-menu-item-aria-label = Access press releases and stories related to Common Voice
+community-and-languages-menu-item-aria-label = Explore the community and languages supported by Common Voice

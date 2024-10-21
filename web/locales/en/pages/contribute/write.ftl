@@ -145,3 +145,17 @@ small-batch-sentences-rule-6 = All sentences must have the same citation
 
 # menu item
 add-sentences = Add Sentences
+
+## MENU ITEM TOOLTIPS
+write-contribute-menu-tooltip = Add and Review Sentences, Add Questions, Transcribe Audio
+add-sentences-menu-item-tooltip = Add sentences in your language
+review-sentences-menu-item-tooltip = Review sentences in your language
+add-questions-menu-item-tooltip = Add questions in your language
+transcribe-audio-menu-item-tooltip = Transcribe audio recordings in your language
+
+## MENU ITEM ARIA LABELS
+write-contribute-menu-aria-label = Write options menu
+add-sentences-menu-item-aria-label = Add new sentences for the community to read
+review-sentences-menu-item-aria-label = Review existing sentences submitted by the community
+add-questions-menu-item-aria-label = Submit new questions for the community to read and respond to
+transcribe-audio-menu-item-aria-label = Transcribe audio recordings into text

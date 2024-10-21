@@ -1,6 +1,6 @@
 import * as React from 'react'
 import classNames from 'classnames'
-import { Localized } from '@fluent/react'
+import { Localized, useLocalization } from '@fluent/react'
 import { RouteComponentProps, withRouter } from 'react-router'
 
 import { TextButton } from '../../../ui/ui'
@@ -18,10 +18,14 @@ export type ContributeMenuItem = {
   externalHref?: string
   icon: React.ComponentType
   requiresAuth?: boolean
+  menuItemTooltip: string
+  menuItemAriaLabel: string
 }
 
 export type MenuConfig = {
-  items: ContributeMenuItem[]
+  items?: ContributeMenuItem[]
+  menuTooltip: string
+  menuAriaLabel: string
   renderContributableLocaleLock?: boolean
 }
 
@@ -33,6 +37,8 @@ interface ContributeMenuProps extends RouteComponentProps {
   isUserLoggedIn: boolean
   menuItems: ContributeMenuItem[]
   menuLabel: NavItem
+  menuTooltip: string
+  menuAriaLabel: string
 }
 
 const ContributeMenu: React.FC<ContributeMenuProps> = ({
@@ -44,7 +50,11 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   isUserLoggedIn,
   menuItems,
   menuLabel,
+  menuTooltip,
+  menuAriaLabel,
 }) => {
+  const { l10n } = useLocalization()
+
   const handleMouseLeave = () => {
     if (!isContributionPageActive && showMenu) {
       setShowMenu(menuLabel)
@@ -55,7 +65,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
     setShowMenu(menuLabel)
   }
 
-  if (menuItems.length === 0) {
+  if (menuItems && menuItems?.length === 0) {
     return <LocalizedNavLink id={menuLabel} to={URLS.DATASETS} />
   }
 
@@ -67,7 +77,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
             className="contribute-btn"
             onClick={handleClick}
             aria-expanded={showMobileMenu}
-            aria-controls="mobile-menu"
+            aria-controls="contribute-menu"
           />
         </Localized>
         <BoldChevron
@@ -82,13 +92,15 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         onMouseLeave={handleMouseLeave}
         onClick={handleClick}
         data-testid="contribute-menu"
-        aria-expanded={showMobileMenu}
-        aria-controls="mobile-menu">
+        aria-expanded={showMenu}
+        aria-controls="contribute-menu"
+        title={l10n.getString(menuTooltip)}
+        aria-label={l10n.getString(menuAriaLabel)}>
         <div className="contribute-links-wrapper">
           <p className="nav-link-item">
             <Localized id={menuLabel} />
           </p>
-          {menuItems.length > 0 && (
+          {menuItems && menuItems.length > 0 && (
             <ChevronDown className={classNames({ 'rotate-180': showMenu })} />
           )}
         </div>
@@ -105,7 +117,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
             />
           </div>
         )}
-        {menuItems.length > 0 && (
+        {menuItems && menuItems?.length > 0 && (
           <div className="menu-wrapper" data-testid="menu-wrapper">
             <div className="menu">
               <ContributeMenuContent

@@ -19,10 +19,11 @@ type ContributeMenuContentProps = {
 const Content = ({
   contributeMenuItems,
   isUserLoggedIn,
+  getString,
 }: {
   contributeMenuItems: ContributeMenuItem[]
   isUserLoggedIn: boolean
-}) => (
+} & WithLocalizationProps) => (
   <div className="content-container">
     <ul>
       {contributeMenuItems.map(item => {
@@ -31,7 +32,14 @@ const Content = ({
 
         if (!shouldShowItem) return null
 
-        const { internalHref, externalHref, localizedId, icon: Icon } = item
+        const {
+          internalHref,
+          externalHref,
+          localizedId,
+          icon: Icon,
+          menuItemTooltip,
+          menuItemAriaLabel,
+        } = item
         const isComingSoon = !(internalHref || externalHref)
 
         const renderContent = () => {
@@ -64,7 +72,10 @@ const Content = ({
         }
 
         return (
-          <li key={localizedId}>
+          <li
+            key={localizedId}
+            title={getString(menuItemTooltip)}
+            aria-label={getString(menuItemAriaLabel)}>
             <div
               className={classNames('content', {
                 'coming-soon': isComingSoon,
@@ -81,12 +92,13 @@ const Content = ({
 
 const ContributeMenuContent: React.FC<
   ContributeMenuContentProps & WithLocalizationProps
-> = ({ className, contributeMenuItems, isUserLoggedIn }) => {
+> = ({ className, contributeMenuItems, isUserLoggedIn, getString }) => {
   return (
     <div className={className}>
       <Content
         contributeMenuItems={contributeMenuItems}
         isUserLoggedIn={isUserLoggedIn}
+        getString={getString}
       />
     </div>
   )
