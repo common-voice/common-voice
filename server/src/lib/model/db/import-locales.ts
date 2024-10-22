@@ -234,27 +234,27 @@ const VARIANTS: Variant[] = [
   },
   {
     locale_name: 'kbd',
-    variant_name: 'Адыгэбзэ (Кирил, Урысей)',
+    variant_name: 'Адыгэбзэ (Къэбэрдей, Кирил, Урысей)',
     variant_token: 'kbd-RU',
   },
   {
     locale_name: 'kbd',
-    variant_name: 'Адыгэбзэ (Кирил, Тырку - Doğu Çerkesçesi)',
+    variant_name: 'Адыгэбзэ (Къэбэрдей, Кирил, Тырку - Doğu Çerkesçesi)',
     variant_token: 'kbd-Cyrl-TR',
   },
   {
     locale_name: 'kbd',
-    variant_name: 'Adığebze (Latin, Turk, transliteratse - Doğu Çerkesçesi)',
+    variant_name: 'Adığebze (Kabardey, Latin, Turk, transliteratse - Doğu Çerkesçesi)',
     variant_token: 'kbd-Latn-TR-t-kbd-cyrl-tr',
   },
   {
     locale_name: 'kbd',
-    variant_name: 'Адыгэбзэ (Кирил, Иордание)',
+    variant_name: 'Адыгэбзэ (Къэбэрдей, Кирил, Иордание)',
     variant_token: 'kbd-Cyrl-JOR',
   },
   {
     locale_name: 'kbd',
-    variant_name: 'Адыгэбзэ (Кирил, Сирие)',
+    variant_name: 'Адыгэбзэ (Къэбэрдей, Кирил, Сирие)',
     variant_token: 'kbd-Cyrl-SY',
   },
 ]
