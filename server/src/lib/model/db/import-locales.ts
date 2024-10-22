@@ -207,6 +207,56 @@ const VARIANTS: Variant[] = [
     variant_name: 'Southern Setswana (Setlhaping, Setlharo)',
     variant_token: 'tn-southern',
   },
+  {
+    locale_name: 'ady',
+    variant_name: 'Адыгабзэ (Кирил, Урысый)',
+    variant_token: 'ady-RU',
+  },
+  {
+    locale_name: 'ady',
+    variant_name: 'Адыгабзэ (Кирил, Тырку - Batı Çerkesçesi)',
+    variant_token: 'ady-Cyrl-TR',
+  },
+  {
+    locale_name: 'ady',
+    variant_name: 'Adığabze (Latin, Turk, transliteratse - Batı Çerkesçesi)',
+    variant_token: 'ady-Latn-TR-t-ady-cyrl-tr',
+  },
+  {
+    locale_name: 'ady',
+    variant_name: 'Адыгабзэ (Кирил, Иордание)',
+    variant_token: 'ady-Cyrl-JOR',
+  },
+  {
+    locale_name: 'ady',
+    variant_name: 'Адыгабзэ (Кирил, Сирие)',
+    variant_token: 'ady-Cyrl-SY',
+  },
+  {
+    locale_name: 'kbd',
+    variant_name: 'Адыгэбзэ (Кирил, Урысей)',
+    variant_token: 'kbd-RU',
+  },
+  {
+    locale_name: 'kbd',
+    variant_name: 'Адыгэбзэ (Кирил, Тырку - Doğu Çerkesçesi)',
+    variant_token: 'kbd-Cyrl-TR',
+  },
+  {
+    locale_name: 'kbd',
+    variant_name: 'Adığebze (Latin, Turk, transliteratse - Doğu Çerkesçesi)',
+    variant_token: 'kbd-Latn-TR-t-kbd-cyrl-tr',
+  },
+  {
+    locale_name: 'kbd',
+    variant_name: 'Адыгэбзэ (Кирил, Иордание)',
+    variant_token: 'kbd-Cyrl-JOR',
+  },
+  {
+    locale_name: 'kbd',
+    variant_name: 'Адыгэбзэ (Кирил, Сирие)',
+    variant_token: 'kbd-Cyrl-SY',
+  },
 ]
 
 type Locale = {
