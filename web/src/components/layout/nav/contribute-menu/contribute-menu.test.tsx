@@ -12,7 +12,6 @@ describe('Contribute Menu Test', () => {
         showMenu={false}
         setShowMenu={jest.fn()}
         showMobileMenu={false}
-        isContributionPageActive={false}
         isUserLoggedIn
         menuItems={menuItems['speak'].items}
         menuLabel="speak"
@@ -33,7 +32,6 @@ describe('Contribute Menu Test', () => {
         showMenu={false}
         setShowMenu={setShowMenuSpy}
         showMobileMenu={false}
-        isContributionPageActive={false}
         isUserLoggedIn
         menuItems={menuItems['speak'].items}
         menuLabel="speak"
