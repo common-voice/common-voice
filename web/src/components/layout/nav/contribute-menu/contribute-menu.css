@@ -36,10 +36,15 @@
 
     .menu-wrapper {
         position: relative;
+        display: none;
 
         @media (--lg-down) {
             display: none;
         }
+    }
+
+    &.active .menu-wrapper {
+        display: flex;
     }
 
     .menu {

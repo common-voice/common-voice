@@ -11,6 +11,7 @@ import {
 import { menuItems } from './menu-items'
 import ContributeMenu from './contribute-menu'
 import { useAccount } from '../../../hooks/store-hooks'
+import { useOutsideClick } from '../../../hooks/use-outside-click'
 import { typedObjectKeys } from '../../../utility'
 
 import './nav.css'
@@ -52,6 +53,12 @@ const Nav: React.FC<NavProps> = ({
     setActiveNavItem(prev => (prev === navItem ? null : navItem))
   }, [])
 
+  const handleClickOutside = () => {
+    setActiveNavItem(null)
+  }
+
+  const ref = useOutsideClick(handleClickOutside)
+
   const renderMenu = (menuItem: NavItem) => {
     const menu = (
       <ContributeMenu
@@ -59,7 +66,6 @@ const Nav: React.FC<NavProps> = ({
         showMenu={activeNavItem === menuItem}
         setShowMenu={handleNavItemClick}
         showMobileMenu={activeNavItem === menuItem}
-        isContributionPageActive={isContributionPageActive}
         isUserLoggedIn={Boolean(account)}
         menuItems={menuItems[menuItem].items}
         menuLabel={menuItem}
@@ -76,7 +82,7 @@ const Nav: React.FC<NavProps> = ({
   }
 
   return (
-    <nav {...props} className="nav-list" aria-label="Main Navigation">
+    <nav {...props} className="nav-list" aria-label="Main Navigation" ref={ref}>
       <div className="nav-links">
         <div className={shouldExpandNavItems ? 'fade-in' : 'fade-out'}>
           {typedObjectKeys(menuItems).map(key => {

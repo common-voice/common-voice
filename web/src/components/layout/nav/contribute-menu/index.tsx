@@ -33,7 +33,6 @@ interface ContributeMenuProps extends RouteComponentProps {
   showMenu: boolean
   setShowMenu: (navItem: NavItem) => void
   showMobileMenu: boolean
-  isContributionPageActive: boolean
   isUserLoggedIn: boolean
   menuItems: ContributeMenuItem[]
   menuLabel: NavItem
@@ -45,7 +44,6 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   showMenu,
   setShowMenu,
   showMobileMenu,
-  isContributionPageActive,
   location,
   isUserLoggedIn,
   menuItems,
@@ -56,12 +54,6 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   const { l10n } = useLocalization()
 
   const hasMenuItems = menuItems && menuItems.length > 0
-
-  const handleMouseLeave = () => {
-    if (!isContributionPageActive && showMenu) {
-      setShowMenu(menuLabel)
-    }
-  }
 
   const handleClick = () => {
     setShowMenu(menuLabel)
@@ -103,7 +95,6 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
         className={classNames('contribute-menu', {
           active: showMenu,
         })}
-        onMouseLeave={handleMouseLeave}
         onClick={handleClick}
         data-testid="contribute-menu"
         aria-expanded={showMenu}
