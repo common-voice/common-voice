@@ -129,3 +129,15 @@ rate-limit-message-seconds =
         [one] თქვენ მიაღწიეთ გაგზავნის ზღვარს ამ გვერდზე. გთხოვთ, მოიცადოთ 1 წამი ახალი წინადადების გაგზავნამდე. გმადლობთ მოთმინებისთვის!
        *[other] თქვენ მიაღწიეთ გაგზავნის ზღვარს ამ გვერდზე. გთხოვთ, მოიცადოთ { $retryLimit } წამი ახალი წინადადების გაგზავნამდე. გმადლობთ მოთმინებისთვის!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } წინადადებაა მიღებული 1-იდან
+       *[other] { $uploadedSentences } წინადადებაა მიღებული { $totalSentences }-იდან
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } წინადადებაა მიღებული 1-იდან. დაწკაპეთ <downloadLink>აქ</downloadLink>, რომ ჩამოტვირთოთ უარყოფილი წინადადებები.
+       *[other] { $uploadedSentences } წინადადებაა მიღებული { $totalSentences }-იდან. დაწკაპეთ <downloadLink>აქ</downloadLink>, რომ ჩამოტვირთოთ უარყოფილი წინადადებები.
+    }
