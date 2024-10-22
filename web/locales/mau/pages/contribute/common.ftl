@@ -9,6 +9,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> jngu ya
        *[other] <bold>{ $count }</bold> nkjin yaa
     }
+goal-help-recording = Ndani tsisenkanajin Common Voice je kichú <goalPercentage></goalPercentage>  ju tjin mejere skibet'a xtaná nga nyujun nyujun { $goalValue }!
+goal-help-validation = Ndani tsisenkanajin Common Voice je kichú <goalPercentage></goalPercentage> ju tjí mejere sichire nga ndujú ndujú{ $goalValue }!
 
 ## Contribution Nav Items
 
