@@ -3,6 +3,10 @@ action-tap = Neabad
 contribute = Kuned insu
 review = Nichid a noo
 skip = Kabyákud
+goal-help-recording = !Ndiosdibad chi chined Common Voice <goalPercentage></goalPercentage> a tanen nukue grabación ñe'e nudu ñe'e job jobe { $goalValue } !
+goal-help-validation = !Ndiosdibad chi chined Common Voice  a tanen nukue grabación ñe'e nudu ñe'e job jobe !
+speak-empty-state = A kutea nudu chi kamad ñe'e dibaku ku
+speak-loading-error = Gua chikadi chea nudu. Tamnóo namné kueatüd.
 
 ## Contribution Nav Items
 
