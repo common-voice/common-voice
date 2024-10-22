@@ -39,18 +39,67 @@ login-signup = ویب سائٹ کے لھنگا یا ای می آمن کے پوت
 vote-yes = ہاں
 vote-no = نأ
 datasets = ڈیٹا سیٹ
+languages = جیِب
+about = بارا می
+partner = سأت
+submit-form-action = تھلا
 
 ## Reporting
 
+report = رپورٹ کوا
+report-title = رپورٹ تھلا
+report-ask = مے جملہ سیت تھیے کا مسلا مُوش کے یدی؟
+report-offensive-language = لأݜ جیِب
+report-offensive-language-detail = جملہ لأݜ چھی یا بے ادبا چھی۔
+report-grammar-or-spelling = گرائمر سی یا ٹیگلا سی غلطی
+report-grammar-or-spelling-detail = جملہ می گرائمر سی یا لیِگُو سی غلطی چھی۔
+report-different-language = دیئی جیِب
+report-different-language-detail = ہے مھالے جیِب می لیِگیل چھی سے مھی جیِب ما دھأل چھی۔
+report-difficult-pronounce = ہے دے بنُو می بُوکھے چھی۔
+report-difficult-pronounce-detail = ای می مھال فقرہ یا ٹگیل تھی تھیِن بنُو بُوکھو تُھو۔
+report-offensive-speech = بے باکا جیِب
+report-offensive-speech-detail = مے کلپ می بے باکا یا بے ادبا جیِب چھی۔
+report-other-comment =
+    .placeholder = بنا
+success = کامیابی
+continue = جاری کُوا
+report-success = رپورٹ کامأبی دے گا
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ایس
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = آر
+shortcut-record-toggle-label = ریکارڈ کُوا/ایڑی ہوا
+shortcut-rerecord-toggle = [-5]
+shortcut-rerecord-toggle-label = کلپ دُوآرا پُونا
+shortcut-discard-ongoing-recording = نُوخا
+shortcut-discard-ongoing-recording-label = جاری ریکارڈنگ دُھو کوا
+shortcut-submit = پتکے
+shortcut-submit-label = کلپ تھلا
+request-language-text = کامن وائس زید تُنُو جیِب نہ پشَدُو کھأ؟
+request-language-button = اے جیِب نیِما
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پ
+shortcut-play-toggle-label = ݜیا/ایڑی کوا
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = ے
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = ن
 
 ## Validation criteria
 
+contribution-criteria-nav = اہلیت
+contribution-criteria-link = میس کے دیؤ سی اہلیت ما آمن جنا
+contribution-criteria-page-title = دیؤ سی اہلیت
