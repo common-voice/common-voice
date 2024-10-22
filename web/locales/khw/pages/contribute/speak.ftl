@@ -19,6 +19,12 @@ record-again-instruction2 = تان کورمو جاری سوتے، وا رکار�
 record-last-instruction = <recordIcon></recordIcon>  اخیری ای دنا!
 review-tooltip = پوشٹی کی بغاو نظر ثانی و مختصر آواز ہایا رکارڈ کو
 share-clip = تان مختصر آوازو خوران تے دیت
+share-common-voice = کمان وائسو خوران کارا تاراوے
+review-instruction = نظر ثانی کو،  کی ضروری پھوک آواز رکارڈ کو
+record-submit-tooltip = { $actionType } کی تیار جمع کو
+clips-uploaded = پھوک آواز اپلوڈ ہوئی
+record-abort-title = پوشٹی رکارڈنگو ختم کو
+record-abort-text = ہنیسے بند کوریکو مطلب ہایا کی  پوشٹی بیکو نوبوس
 first-cta-gender-select-help-text =
     .label = تو کیمیریا موش رے، کچہ کوری وضاحت کو
 # SECOND POST SUBMISSION CTA
