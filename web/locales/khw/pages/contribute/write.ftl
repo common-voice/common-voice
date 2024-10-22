@@ -82,6 +82,7 @@ accepted-files = صرف ہیا فائلو قسم منظور بوئی : .tsv
 minimum-sentences = ای فائلا کم ازکم جملہ: 1000
 maximum-file-size = فائلو لوٹا لوٹ سائز : 25 ایم بی
 what-needs-to-be-in-file = مہ فائلا کیاغ شامل بیلیک؟
+what-needs-to-be-in-file-explanation = مہربانی کوری چک کوکی  <templateFileLink>ٹیملیٹ فائل</templateFileLink>. تہ جملا کاپی رائٹ مو بائی (CC0 یا اصل کورمو جمع کوراکو اجازت بائی )  گرائمیرو لحاظا صحیح و ریکا اسان بائی ۔جمع بیرو جملہ 10-15سیکنڈا رینو بائی و ہتیرا نمبر، خاص نام و خاص حروف مو بانی
 
 ## SMALL BATCH SUBMISSION
 
