@@ -28,3 +28,4 @@ record-abort-text = Énkari wentani jampka, yámintu amperi tsïtaaka énkari xa
 record-abort-submit = Wantakwa patsakata axani
 record-abort-continue = Wantakwa patsakata k'amarani
 record-abort-delete = Wentani ka kéntitani wantakwa patsakata
+review-aborted = Karharaxaptiksï wantakwa patsakataecha ka kwarhukunhastiksï. ¿weksïnti méntku kéntitaani?
