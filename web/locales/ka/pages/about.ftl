@@ -147,3 +147,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>იხილ�
 ## How is Common Voice funded
 
 about-playbook-how-funded = როგორ ფინანსდება Common Voice-ი?
+about-playbook-how-funded-content-1 = Common Voice არის Mozilla-ფონდის პროექტი, US 501c3. იგი ამჟამად სრულად ფინანსდება <philanropicGrantLink>საქველმოქმედო მიზნებისთვის გამოყოფილი სახსრებით</philanropicGrantLink>, აგრეთვე, რიგითი ხალხის შემწეობით მთელი მსოფლიოდან.
