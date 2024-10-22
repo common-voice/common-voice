@@ -35,13 +35,17 @@ about-no-votes-text = istimal karaw pe to awaz ne agriaw haw, se geri sawal as t
 about-dataset-new = sawin awaz dadaset
 about-dataset-new-text = sawin awaz dataset kia kinshiaw aya hazaron moch tan awaz den day, tasa thara awaz sazaikas ishnahari sawzain day
 about-clip-graveyard = Histikas Clip
+about-nav-playbook = Karikas bati hisa gri
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = sawin awaz as zuban kia?
 
 ## How do I add a language
 
+about-playbook-how-add-language = ke'n kay warek zuban alim
+about-playbook-how-add-language-translating-heading = site as tarjuma karik
 
 ## How does localization work
 
