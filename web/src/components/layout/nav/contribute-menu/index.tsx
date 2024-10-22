@@ -75,6 +75,12 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
     )
   }
 
+  const visibleMenuItems = isUserLoggedIn
+    ? menuItems
+    : menuItems.filter(
+        item => (item.requiresAuth && isUserLoggedIn) || !item.requiresAuth
+      )
+
   return (
     <div className="contribute-wrapper">
       <div id="contribute-btn-wrapper">
@@ -116,7 +122,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
           <div
             className="menu-wrapper-mobile"
             data-testid="contribute-mobile-menu"
-            style={{ height: `${40 * menuItems.length}px` }}>
+            style={{ height: `${40 * visibleMenuItems.length}px` }}>
             <ContributeMenuContent
               pathname={location.pathname}
               className="mobile-menu-list"

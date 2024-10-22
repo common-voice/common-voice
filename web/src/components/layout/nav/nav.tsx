@@ -23,7 +23,6 @@ type NavProps = {
 }
 
 export type NavItem = 'speak' | 'listen' | 'write' | 'about' | 'download'
-const SPEAK_MENU_ITEM = 'speak'
 
 export const LocalizedNavLink = ({ id, to }: { id: string; to: string }) => {
   const [locale] = useLocale()
@@ -79,13 +78,8 @@ const Nav: React.FC<NavProps> = ({
   return (
     <nav {...props} className="nav-list" aria-label="Main Navigation">
       <div className="nav-links">
-        <ContributableLocaleLock>
-          {renderMenu(SPEAK_MENU_ITEM)}
-        </ContributableLocaleLock>
-        <div className="divider" />
         <div className={shouldExpandNavItems ? 'fade-in' : 'fade-out'}>
           {typedObjectKeys(menuItems).map(key => {
-            if (key === SPEAK_MENU_ITEM) return null
             return (
               <React.Fragment key={key}>
                 {renderMenu(key)}
