@@ -50,6 +50,7 @@ continue-speaking-button = არა, გმადლობთ, განვა�
 create-profile-text = გსურთ თქვენი მონაცემების შენახვა? <createProfile>შექმენით პროფილი</createProfile>
 thanks-for-voice-toast = გმადლობთ თქვენი ხმის შესახებ ინფორმაციის მოწოდებისთვის
 thanks-for-voice-toast-error = შეცდომა წარმოიშვა ინფორმაციის გადმოგზავნისას
+first-cta-gender-select-default-option = აირჩიეთ ერთ-ერთი
 first-cta-gender-select-help-text =
     .label = როგორ დაახასიათებთ თქვენს სქესს ან გენდერს?
 # SECOND POST SUBMISSION CTA
