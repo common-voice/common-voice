@@ -10,6 +10,7 @@ small-batch-sentence-input-placeholder = عام رویان پچین تان جم�
 citation-input-placeholder = تان جملان حوالہ دیور (ضروری)
 citation =
     .label = حوالہ
+sc-write-submit-confirm = تصدیق کومانا کہ ہایا  جملہ <wikipediaLink> عام رویان پچین شیر </wikipediaLink> اوا ہمو اپلوڈ کوریکو اجازت دومان
 
 ## BULK SUBMISSION 
 
