@@ -4,6 +4,11 @@
 
 ## Languages
 
+az = Azebaijani
+azz = Highland Puebla Nahuatl
+ba = Bashkir
+bal = Balochi
+bas = Basaa
 bg = bulgarian
 bkm = Kom
 bm = Bambara

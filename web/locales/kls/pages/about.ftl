@@ -23,7 +23,18 @@ about-subscribe-text = sawin awaz as som apaw dek
 about-speak = Mon dek
 about-speak-text = mon di'aw tan awaz den day
 about-listen-queue = ko'n karaw
+about-listen-queue-text = awaz pe ko'n karikas hatya ahisti haw to maw day
 about-listen = ko'n karik
+about-listen-text = istimal karaw mich deta awaz, mon di'as wats kay to alfaz maw
+about-is-it-valid = Se awaz sahi e?
+about-is-it-valid-text = tara "Sahi" istimal karaw Han goi' maw day
+about-yes-votes = >
+about-yes-votes-text = sawin awaz sazaikas bati dataset una du jon istimal karaw hi'ali
+about-no-votes = >_ 2 dana vot
+about-no-votes-text = istimal karaw pe to awaz ne agriaw haw, se geri sawal as tada pariu. Du tem pe ne hawaw haw phato se Histil'a awata pariu
+about-dataset-new = sawin awaz dadaset
+about-dataset-new-text = sawin awaz dataset kia kinshiaw aya hazaron moch tan awaz den day, tasa thara awaz sazaikas ishnahari sawzain day
+about-clip-graveyard = Histikas Clip
 
 ## Community Playbook Content
 ## What is a language
