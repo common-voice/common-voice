@@ -6,3 +6,7 @@ listen-3rd-time-instruction = پست، ہمو ژانگ کورے !<playIcon></pla
 listen-last-time-instruction = <playIcon></playIcon>آخیری!
 listen-empty-state = اسپہ سون کلب ختم بیرو بونی، پیجو نوغ کو، یا اچھا وا کوشش کو
 listen-empty-state-variants = تہ زبانا کلپ ختم بیرو بونی! کی بوسان،تان زبانون خور جملان پوشیکو پچین تان سیٹنگو بدل دیکو بوس
+listen-loading-error = اسپہ تہ تین کار کوریکو پچین آوازو کیا کلپ دیکو نو بوسی، اچا کوشیش کو
+listen-abort-title = کلپان تصدیق کوریکو ختم کو
+listen-abort-cancel = تصدیق کوریکو جاری کو
+listen-abort-confirm = تصدیق کوریکو ختم کو
