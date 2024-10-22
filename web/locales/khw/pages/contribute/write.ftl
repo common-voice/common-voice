@@ -23,6 +23,7 @@ new-sentence-rule-7 = مناسب حوالاجات شامل
 new-sentence-rule-8 = جام ہش بوئی کہ قدرتی چے لوار  (جملا ریکا آسان بائی)
 login-instruction-multiple-sentences = <loginLink>لاگ ان</loginLink> یا <loginLink>سائن اپ</loginLink> ذیاد جملا شامل کوریکو پچین
 how-to-cite = کچہ کوری حوالا دوم؟
+how-to-cite-explanation-bold = ویپ سائٹو لینگ یا کورمو پورا نامو نویشی حوالا دیت
 
 ## BULK SUBMISSION 
 
