@@ -277,6 +277,18 @@ return-to-cv = پتکے کامن وائس کے بیا
 email-input =
     .label = ای میل
 loading = لوڈ ہودُو۔۔۔
+email-opt-in-info = آ کامن وائس سی بارا می، تنُو مقصدا سی بارا می آں دئی نم معلوماتا سی بارا می ایل میل حاصل کؤ نِمادُو۔
+email-opt-in-info-title = کان وائس سی ای میلا سی لسٹ می آمن میِلا۔
+email-opt-in-info-sub-with-challenge = تُنُو نخا سی بارا می، تُنُو یادگرانا سی بارا می، نم شیا سی بارا آں کامن وائس سی نیوزلیٹر سی بارا ای میل گھیِنا۔
+email-opt-in-privacy-v2 = ای میلا سی گھینُو سی کیا تُنُو نیت سی بنُو دے تھوئے میس بنُو لخا تھو موزیلا سی دیِشا معلوماتا سی کیا تیا تھی۔
+indicates-required = پوت کامک سیت یأمنے تا * سی نخ تُھودا ضروری تھی۔
+not-available-abbreviation = مھید پکار نُو تُھو
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = مھو یے تُھن مدد پکار تُھو۔
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = مے مواد سی ڈیتا سیٹ سی گھیِنُو آں ایس غورا کؤ سی کی کال می پائں سو لکھے ڈالرز ݜیَدی کئی کے ای می سؤ ما چیر جیِب تھی آں تھیِن خلگ تھی سے مُھن کم زید انحصار کودی۔ کو مھو کھولاؤ، ہر ایکے آویل ہودیو مھو یے دا۔
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = تُنُو تحقیق کی کیا سی وی استعمال کؤ
