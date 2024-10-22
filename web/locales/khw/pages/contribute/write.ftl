@@ -40,6 +40,31 @@ sentence-domain-combobox-label = جملان حلقہ
 sentence-domain-select-placeholder = توروئی حلقہ بیکا پت گنے)(اختیاری)
 # Sentence Domain dropdown option
 agriculture_food = زمین داری و خوراک
+# Sentence Domain dropdown option
+automotive_transport = کوسک اشناری و گاڑی
+# Sentence Domain dropdown option
+finance = پیسہ
+# Sentence Domain dropdown option
+service_retail = خسمت و تھوک
+# Sentence Domain dropdown option
+general = عام
+# Sentence Domain dropdown option
+healthcare = صحت
+# Sentence Domain dropdown option
+history_law_government = تاریخ، قانون و حکومت
+# Sentence Domain dropdown option
+language_fundamentals = زبانو لوازمات(نمبر، حروف، پیسہ)
+# Sentence Domain dropdown option
+media_entertainment = میڈیا و تفریج
+# Sentence Domain dropdown option
+nature_environment = قدرت و ماحول
+# Sentence Domain dropdown option
+news_current_affairs = خبر و موجودہ حالات
+# Sentence Domain dropdown option
+technology_robotics = ٹیکنالوجی و روبوٹ
+sentence-variant-select-label = جملان مختلف شکل
+sentence-variant-select-placeholder = ای شکلو گنے (اختیاری)
+sentence-variant-select-multiple-variants = عام زبان/ بو شکل
 
 ## BULK SUBMISSION 
 
