@@ -1,0 +1,11 @@
+speak = Wantani
+speak-now = Wanta ya méntku
+speak-subtitle = Pakata chiiti wantakwani
+record-cta = Wantakwa patsani wénani
+record-platform-not-supported = Tekaantsï sáni, joperu chiti eranharhikwa no úxati sési ánchikwarhini.
+record-platform-not-supported-desktop = chiti ánchitatarakwarhu p'its'ïtakwarhu anapu jimpori úaka keskuni máteru jimpanherantskata.
+record-platform-not-supported-ios-non-safari = Ixu iOS jimpoetakwa Safari jimpo chuxapa ka jimari etskwaawaka wantakwa patsakataechani...
+record-must-allow-microphone = Jurak'u eska winhachatarakwa úaka ánchikwarhini.
+record-no-mic-found = No ma winhachatarakwa xarhant'asti.
+record-error-too-short = Yátiru sántkusti wantakwa patsakata.
+record-error-too-long = Yátiru yoparhasti wantakwa patsakata.
