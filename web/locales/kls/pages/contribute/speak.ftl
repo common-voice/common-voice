@@ -9,3 +9,33 @@ record-must-allow-microphone = Tu khamakha Chutyak mon diuini lasai
 record-no-mic-found = Chutyak mon diuini ne sapraw
 record-error-too-short = Recard bo chutyak ashis
 record-error-too-long = Recard bo ghona ashis
+record-error-too-quiet = Recarding bo lash ashis
+record-cancel = Geri recarding karik khulai
+record-three-more-instruction = Tre o thaw!
+share-clip = tay recard anzai
+share-common-voice = sawin awaz pashai
+record-abort-title = Awel recarding khulai
+record-abort-submit = Che'lak Jama karik
+record-abort-continue = Recarding khulai
+review-submit-title = Jagai o anzai
+review-recording = Jagai
+review-rerecord = Ger recard
+review-cancel = khulai anzek
+review-keep-recordings = Recard thawai
+review-delete-recordings = My recarding khulai
+terms-agree = My tay som itifak
+terms-disagree = May tay som itifak ne
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Shukuria tay awaz che'lak dekas bati
+why-donate = Ko phuchis day?
+add-information-button = Malumat de
+continue-speaking-button = Ne la Shukuria, Mon de
+thanks-for-voice-toast = Shukuria tay awazas malumatas bati
+first-cta-gender-select-default-option = Warek kia jagai
+first-cta-gender-select-help-text =
+    .label = Tu ke'n kay mas Istriza e Purush
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Shukuria tay awaz dekas bati
+create-profile-button = Profile sawzai
+# IMAGE TAGS
+img-alt-success-checkmark = Kamiyab Nishan
