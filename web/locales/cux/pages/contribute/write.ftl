@@ -11,6 +11,7 @@ sc-write-submit-confirm = Nudu kun a di du'u nu kadi tubi y kadi kuea
 sc-review-write-title = ¿A dae nudu kadi kunu?
 sc-review-small-batch-title = ¿A taka kadi kunu ndee nudu?
 new-sentence-rule-3 = Yeabea dijud nudu
+new-sentence-rule-4 = Nóo dijud nudu
 
 ## BULK SUBMISSION 
 
