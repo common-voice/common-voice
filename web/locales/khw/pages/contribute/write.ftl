@@ -101,3 +101,15 @@ too-many-files = بو ذیاد فائل
 small-batch-instruction = <icon></icon> امبوخ عام رویان شعبو جملان شامل کو
 multiple-sentences-error = تو ای وحتا امبوخ جملان شامل کوریکو نو بوس
 exceeds-small-batch-limit-error = 1000 ذیاد جملہ جمع کورین نو بوئے
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] ریٹ تان حدار ذیاد ہوئے۔ 1 منٹ اچا کوشش کو۔
+       *[other] .ریٹ تان حدار ذیاد ہوئے { $retryLimit } منٹ اچا کوشش کو۔
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] .ریٹ تان حدار ذیاد ہوئے 1 سیکند اچا کوشش کو۔
+       *[other] .ریٹ تان حدار ذیاد ہوئے { $retryLimit } سیکنڈ  اچا کوشش کو۔
+    }
