@@ -72,21 +72,33 @@ about-playbook-how-add-sentences = ke'n kay mashkulgi dem
 
 about-playbook-how-record-quality = Ke'n kay a ghona awaz as che'lak recard karim?
 about-playbook-how-record-content-1 = Tan awaz una lash kay mon de! ke'n kay mon des haw prus't hiu- homa tay awaz shehen mi thaw hiu. tay awaz homa som thaw hiu
+about-playbook-how-record-content-2 = Bo shor mo hiu ori- tay ko'n karik bati asan hiu ori
+about-playbook-how-record-content-3 = Alfaz wats kay mas- mo histi, tabdil ya o alfaz jama mo kari
+about-playbook-how-record-content-4 = Khial kari ki aya recard hiu mon dekas pi shumber, khul pe hawaw haw tan khul hiu
+about-playbook-how-record-content-5 = <sahi phon> jagai sahi ajat. </sahimon>
 
 ## How to grow language
 
+about-playbook-how-grow-language = Ke'n kay abi sawin zuban sawzek
 about-playbook-how-grow-language-content-2 = Kia karik
 about-playbook-how-grow-language-content-4 = Social Media
 about-playbook-how-grow-language-content-6 = Yawan ze Network
 
 ## How to validate
 
+about-playbook-how-validate = Ke'n kay jonik to chutyak awaz kabul karik
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = Ke'n kay dataset una parim, ke'n kay istimal karim?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Ke'n kay Project sawzain?
+about-playbook-how-project-governance-content-2 = Homa Kanun ke'n kay sawzai shiaw?
+about-playbook-how-project-governance-content-5 = Izat ze jonik
+about-playbook-how-project-governance-content-6 = Ek thi jawab dek
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = Sawin awazas bati ke'n kay Paisa den?

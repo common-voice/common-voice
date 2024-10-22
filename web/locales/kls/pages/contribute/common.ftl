@@ -7,15 +7,45 @@ shortcuts = Chutyak
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Awaz jama karik
+contribute-sentence-collection-nav-header = mon jama karik
+login-signup = kholaw karik/ ban karik
+vote-yes = Han
+vote-no = Ne
+datasets = Dataset
+languages = Zuban
+about = Bariuna
+partner = Malgeri
+submit-form-action = Anzai
 
 ## Reporting
 
+report = Raport
+report-title = Raport jama karik
+report-offensive-language = Shum Zuban
+report-different-language = Warek Zuban
+report-difficult-pronounce = Mon dek mushkil
+report-offensive-speech = Ahum mon
+report-other-comment =
+    .placeholder = khialat
+success = Kamiyab
+continue = Jari
 
 ## Speak & Listen Shortcuts
 
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Recard/ Ban
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = che'lak geri revard kari
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Recard hik khulek
+shortcut-submit = Pishtyak
+shortcut-submit-label = Che'lak Jama karik
 request-language-button = Zuban ghatik
 
 ## Listen Shortcuts
