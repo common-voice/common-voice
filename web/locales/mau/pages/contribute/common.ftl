@@ -14,6 +14,7 @@ goal-help-validation = Ndani tsisenkanajin Common Voice je kichú <goalPercentag
 contribute-more = ¿A je tijnadei nga sian { $count } sa?
 speak-empty-state = Jet'a énnajin xi chubét'ajin énn kui
 speak-empty-state-cta = nkjin énn kuisenkasa
+speak-loading-error = Mi kjima jngu nijmí
 
 ## Contribution Nav Items
 
