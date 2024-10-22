@@ -78,3 +78,4 @@ shortcut-play-toggle = r
 
 contribution-misreadings-example-8-title = Yeabean kani cho'o yanam
 contribution-varying-pronunciations-title = A taka jo'oñ kadi nandó
+contribution-varying-pronunciations-description = Yeabea kunebed nukue nudu chi gua nóo. Ti yeabean ndee noo kadi kamañ, Nichi jinaned a dae jo'oñ kuned chi a nóo
