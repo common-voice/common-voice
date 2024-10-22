@@ -1,3 +1,10 @@
+action-click = Clik kari
+action-tap = Te
+contribute = De
+review = Jagai
+skip = Histi
+shortcuts = Chutyak
+
 ## Contribution Nav Items
 
 

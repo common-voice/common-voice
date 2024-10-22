@@ -35,6 +35,7 @@ about-no-votes-text = istimal karaw pe to awaz ne agriaw haw, se geri sawal as t
 about-dataset-new = sawin awaz dadaset
 about-dataset-new-text = sawin awaz dataset kia kinshiaw aya hazaron moch tan awaz den day, tasa thara awaz sazaikas ishnahari sawzain day
 about-clip-graveyard = Histikas Clip
+about-nav-how-it-works-2 = sawin awaz khe'n thi krom kariu
 about-nav-playbook = Karikas bati hisa gri
 
 ## Community Playbook Content
@@ -46,18 +47,27 @@ about-playbook-what-is-language = sawin awaz as zuban kia?
 
 about-playbook-how-add-language = ke'n kay warek zuban alim
 about-playbook-how-add-language-translating-heading = site as tarjuma karik
+about-playbook-how-add-language-collecting-sentences-heading = mashkul jama karik
 
 ## How does localization work
 
+about-playbook-how-localize = Ke'n site mukami krom kariu
+about-playbook-how-localize-content-1 = tarjuma sawin awaz site una <takla> pontoon </takla>.
+about-playbook-how-localize-content-4 = Shia site, 75% pura pe hawaw haw krom kariu
+about-playbook-how-localize-content-5 = homa video ze chi'c'awaw jagai
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ke'n kay mashkulgi dem
 
 ## How to record quality
 
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = Kia karik
+about-playbook-how-grow-language-content-4 = Social Media
+about-playbook-how-grow-language-content-6 = Yawan ze Network
 
 ## How to validate
 

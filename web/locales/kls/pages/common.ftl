@@ -4,11 +4,30 @@
 
 ## Languages
 
+aa = Afar
+ab = abkhaz
+abb = Bankon
+ace = Acehnese
+ady = Adyghe
+af = Afrikaans
+am = Amharic
+an = Aragonese
+ar = Arabi
+arn = Mapudungun
+as = Assamese
+ast = Austrian
 az = Azebaijani
 azz = Highland Puebla Nahuatl
 ba = Bashkir
 bal = Balochi
 bas = Basaa
+bax = Bamun
+bba = Baatonum
+bbj = Ghomala
+bci = Baoule
+be = Belarusian
+beb = Bamvele
+bfd = Bafut
 bg = bulgarian
 bkm = Kom
 bm = Bambara
@@ -20,11 +39,13 @@ bri = Mokpwe
 bs = Bosnian
 bum = Bulu
 bxr = Buryat
+byv = Medumba
 ca = Catalan
 cak = Kaqchikel
 cdo = Eastern Min
 ckb = Central Kurdish
 cnh = Hakha Chin
+co = Corsican
 crh = Crimean Tatar
 cs = Czech
 cv = Chuvash
