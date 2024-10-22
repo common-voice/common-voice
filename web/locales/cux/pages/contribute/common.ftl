@@ -5,8 +5,12 @@ review = Nichid a noo
 skip = Kabyákud
 goal-help-recording = !Ndiosdibad chi chined Common Voice <goalPercentage></goalPercentage> a tanen nukue grabación ñe'e nudu ñe'e job jobe { $goalValue } !
 goal-help-validation = !Ndiosdibad chi chined Common Voice  a tanen nukue grabación ñe'e nudu ñe'e job jobe !
+contribute-more = ¿A bea ñe'ed?
 speak-empty-state = A kutea nudu chi kamad ñe'e dibaku ku
+speak-empty-state-cta = Kuned insu nuku tanobe nudu
 speak-loading-error = Gua chikadi chea nudu. Tamnóo namné kueatüd.
+record-button-label = { "" }
+share-title-new = Kuned insu chi nakan tanobe nudu
 target-segment-add-voice = Kuned nudud
 
 ## Contribution Nav Items
