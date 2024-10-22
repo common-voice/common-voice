@@ -19,7 +19,7 @@ export default async (req: Request, res: Response) => {
   const { sentences, localeName, source, domains, variant } = req.body
 
   const command: AddMultipleSentencesCommand = {
-    clientId: req.client_id,
+    clientId: req.session.user.client_id,
     rawSentenceInput: sentences,
     localeName: localeName,
     source: source,
