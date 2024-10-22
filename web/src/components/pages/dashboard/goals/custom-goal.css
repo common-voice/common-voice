@@ -11,6 +11,10 @@
     @media (--md-up) {
         border-left: 1px solid var(--darker-grey);
         max-width: 445px;
+
+        [dir='rtl'] & {
+            border-right: 1px solid var(--darker-grey);
+        }
     }
 
     & h1,
@@ -64,6 +68,10 @@
 
         & input {
             margin-right: 10px;
+
+            [dir='rtl'] & {
+                margin-left: 10px;
+            }
         }
 
         & .content {
@@ -311,6 +319,10 @@
 
             & svg {
                 margin-right: 20px;
+
+                [dir='rtl'] & {
+                    margin-left: 20px;
+                }
             }
 
             & path {
@@ -375,6 +387,10 @@
 
             & svg {
                 margin-right: 20px;
+
+                [dir='rtl'] & {
+                    margin-left: 20px;
+                }
             }
 
             & path {
