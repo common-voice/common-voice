@@ -31,7 +31,15 @@ add-sentence-success = جملہ بڑاځینو ہوئی
 add-sentence-error = نقص شیرو جملہ
 required-field = مہربانی کوری ہیا ژاغو ٹیپاور
 single-sentence-submission = ای جملہ جمع کورور
-small-batch-sentence-submission = څیق  جملان   جمع
+small-batch-sentence-submission = پوکھامبوخ جملان جمع کوریک
+bulk-sentence-submission = بو امبوخ جملان جمع کوریک
+single-sentence = ایوالی
+small-batch-sentence = پھوک امبوخ
+bulk-sentence = بو امبوخ
+sentence-domain-combobox-label = جملان حلقہ
+sentence-domain-select-placeholder = توروئی حلقہ بیکا پت گنے)(اختیاری)
+# Sentence Domain dropdown option
+agriculture_food = زمین داری و خوراک
 
 ## BULK SUBMISSION 
 
