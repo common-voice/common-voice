@@ -23,6 +23,7 @@ about-subscribe-text = sawin awaz as som apaw dek
 about-speak = Mon dek
 about-speak-text = mon di'aw tan awaz den day
 about-listen-queue = ko'n karaw
+about-listen = ko'n karik
 
 ## Community Playbook Content
 ## What is a language
