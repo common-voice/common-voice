@@ -11,6 +11,9 @@ speak-empty-state-cta = Kuned insu nuku tanobe nudu
 speak-loading-error = Gua chikadi chea nudu. Tamnóo namné kueatüd.
 record-button-label = { "" }
 share-title-new = Kuned insu chi nakan tanobe nudu
+login-to-get-started = Kunod o kunejud dí tumin kadi kutoko'od
+target-segment-first-card = Jined insu nuku dae ñe'e din nomnó
+target-segment-first-banner = Kuned insu nuku dae ne'e din nomnó no Common Voice
 target-segment-add-voice = Kuned nudud
 
 ## Contribution Nav Items
