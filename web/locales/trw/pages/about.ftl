@@ -1,6 +1,6 @@
 ## ABOUT US
 
-about-title = کام وائس کئی؟
+about-title = کامن وائس کئی؟
 
 ## How does it work section
 

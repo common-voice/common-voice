@@ -45,3 +45,16 @@ sc-criteria-item-3 = جملا بنُو سی قابل ہُوئن۔
 sc-criteria-item-4 = کو جملہ اے طریقہ سی چھیو تھال &quot; زید کلک کو آں منظورا۔ منظورؤ سی بٹن سوین ڈھأر کے تُھو۔
 sc-criteria-item-5-2 = کو جملا اے طریقہ سیت سم نی چھیو &quot;کلک کیدے رد کو۔ رد &quot; کؤ سی بٹن آوین دیش کے تُھو۔ کو ہأ جملا سی بارا می تھیے کی یقین نُو تُھوو تُو ایس چھیدے مُوش کے بش بھادُو۔
 sc-criteria-item-6 = کو تھے کیش بھی بُو سی کیا جملا نی تھیو توُ مھید مُھن مدد کو دأل جملا سی دیئو سی کیا!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = بُو<icon></icon>۔ أ جیِب سی لحاظ سے ٹیک جملہ چھی؟
+sc-review-rules-title = ہے جملہ مھِأ ہدایاتا سیت برابر چھی؟
+sc-review-empty-state = مے جیِب می مھیرے کی جملہ لا بھی بُو سی کیا نی تھی۔
+report-sc-different-language = دیئی جیِب
+report-sc-different-language-detail = ہے مھالے جیِب می لیگیل چھی سے مھی جیِب ما بدل چھی۔
+sentences-fetch-error = جملہ سررڑو می اے غلطی ہی
+review-error = جملا سی بھی بُو می اے غلطی ہی
+review-error-rate-limit-exceeded = تُو چیر تیز تُھو۔ دھأک شیِش گھیِندے بُودا یرأ ہے جملہ ٹیک چھی۔
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = مھو یام گھین بدلی کودی۔
+sc-redirect-page-subtitle-1 = جملا سی سرڑُو سی مشین کامن وائس سی مُوئمو یے بیَدُو۔ تُو مھیرے <writeURL> اے جملہ <reviewURL>یا ریوو می اے جملہ کامن وائس زید لیِکھ بھادُو۔
+sc-redirect-page-subtitle-2 = مھو ما می <matrixLink>زید توَس کو۔ <discourseLink>مھید پا۔ </discourseLink> یا <emailLink>ای میل کو۔
