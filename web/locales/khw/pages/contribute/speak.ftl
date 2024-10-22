@@ -25,6 +25,17 @@ record-submit-tooltip = { $actionType } کی تیار جمع کو
 clips-uploaded = پھوک آواز اپلوڈ ہوئی
 record-abort-title = پوشٹی رکارڈنگو ختم کو
 record-abort-text = ہنیسے بند کوریکو مطلب ہایا کی  پوشٹی بیکو نوبوس
+record-abort-submit = ای پھوک آوازو  اندرینی انگے
+record-abort-continue = رکارڈنگو بند کو
+record-abort-delete = بیری نیسے و پھو پھوک آوازان بوغاوے
+review-aborted = اپلوڈ بند ہوئی، تان رکارڈینگو بوغیسان؟
+review-submit-title = ای دی ڑوڑو و جمع کو
+review-submit-msg = Thank you for recording!<lineBreak></lineBreak>ہنیسے ای دی ڑوڑے و  تان  پوپھک آوازان موڑا جمع کو
+review-recording = و ڑوڑے
+review-rerecord = و رکارڈ کو
+review-cancel = جمع کوریکو بند کو
+review-keep-recordings = رکارڈنگان تان سون لکھے
+review-delete-recordings = مہ آوازان بوغاوے
 first-cta-gender-select-help-text =
     .label = تو کیمیریا موش رے، کچہ کوری وضاحت کو
 # SECOND POST SUBMISSION CTA
