@@ -35,6 +35,10 @@ about-no-votes-text = istimal karaw pe to awaz ne agriaw haw, se geri sawal as t
 about-dataset-new = sawin awaz dadaset
 about-dataset-new-text = sawin awaz dataset kia kinshiaw aya hazaron moch tan awaz den day, tasa thara awaz sazaikas ishnahari sawzain day
 about-clip-graveyard = Histikas Clip
+about-nav-why-common-voice = Ko?
+about-nav-how-it-works = Ke'n?
+about-nav-partners = Malgeri
+about-nav-get-involved = Ek thi karik
 about-nav-how-it-works-2 = sawin awaz khe'n thi krom kariu
 about-nav-playbook = Karikas bati hisa gri
 
