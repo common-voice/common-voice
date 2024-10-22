@@ -180,12 +180,92 @@ quc = K'iche'
 quy = Quechua Chanka
 qvi = Kichwa
 qxp = Puno Quechua
+rif = Tarift
+rm-sursilv = Romansh Sursilvan
+rm-vallader = Romansh Vallader
+ro = Romanian
+ru = Urusi
+rw = Kinyarwanda
+sah = Sakha
+sat = Santali (OI Chiki)
+sc = Sardinian
+scn = Sicilian
+sco = Scots
+sd = Sindhi
+sdh = Southern Kurdish
+shi = Shilha
+shn = Shan
+si = Sinhala
+sk = Slovak
+skr = Saraiki
+sl = Slovenian
+snk = Soninke
+so = Somali
+sq = Albanian
+sr = Serbian
+ss = Siswati
+st = Southern Sotho
+sv-SE = Swedish
+sw = Swahili
+syr = Syriac
+ta = Tamil
+te = Telugu
+teg = Teke
+tg = Tajik
+th = Thai
+ti = Tigrinya
+tig = Tigre
+tk = Turkmen
+tl = Tagalog
+tn = Setswana
+tok = Toki Pona
+tr = Turkish
+ts = Xitsonga
+tt = Tatar
+tui = Tupuri
+tvu = Tunen
+tw = Twi
+ty = Tahitian
+tyv = Tuvan
+uby = Ubykh
+udm = Udmurt
+ug = Uyghur
+uk = Ukrainian
+ur = Urdu
+uz = Uzbek
+ve = Tshivenda
+vec = Venetian
+vi = Vietnamese
+vmw = Emakhuwa
+vot = Votic
+wep = Westphalian
+wes = Cameroon Pidgin
+wo = Wolof
+xh = Xhosa
+yi = Yidish
+yo = Yoruba
+yue = Cantonese
+zgh = Tamazight
+zh-CN = Chinese (china)
+zh-HK = Chinese (Hong Kong)
+zh-TW = Chinese (Taiwan)
+zu = Zulu
+zza = Zaza
 
 # [/]
 
 
 ## Layout
 
+profile = Profile
+help = Yawan
+contact = Cantaket
+privacy = Privacy
+terms = Zima
+cookies = cookies
+faq = Jonik
+content-license-text = newishila Shian
+share-title = Madat kara warek asta tan awaz den
 
 ## Donate banner
 
