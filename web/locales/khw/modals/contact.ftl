@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = توریکو  فارم
+contact-title = پتہ کوریکو فارم
 contact-form-name =
     .label = نام
 contact-form-message =

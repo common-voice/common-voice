@@ -49,3 +49,7 @@ first-cta-gender-select-help-text =
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = تان آوازہ دیکو بچین اسپتہ تہ منادار
 second-cta-subtitle-text = پوروفائلو سورا مہ کوروم کندوری ہوئی رے پتہ کوس۔  تان آوازان دییاک رویان سون بلد بوس
+already-have-an-account = پوشٹیار کی اکاونٹ شیر؟ <login>لاگ ان</login>
+create-profile-button = تان پروفائلو ساوزاوے
+# IMAGE TAGS
+img-alt-success-checkmark = کامیابیو  نشان
