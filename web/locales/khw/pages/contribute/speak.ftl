@@ -36,6 +36,13 @@ review-rerecord = و رکارڈ کو
 review-cancel = جمع کوریکو بند کو
 review-keep-recordings = رکارڈنگان تان سون لکھے
 review-delete-recordings = مہ آوازان بوغاوے
+review-terms = کمان وائسو استعمال کوری تو ہیا لوو سوا اتفاق ارو،  <termsLink>شرائط</termsLink> و <privacyLink>پردو لو</privacyLink>
+terms-agree = اوا اتفاق اریتام
+terms-disagree = اوا  نو مانیمان
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = تان مختصر آوازو دیکو پچین بو میناداری
+first-cta-subtitle-text = تان بارا سپہ سون لو دیتی تو ساوزییکان سون سفو پچین ٹینالوجی ساوزیکا مدد کوس
+why-donate = تو کو بشار کوسان؟
 first-cta-gender-select-help-text =
     .label = تو کیمیریا موش رے، کچہ کوری وضاحت کو
 # SECOND POST SUBMISSION CTA
