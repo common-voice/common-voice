@@ -1,5 +1,8 @@
 action-click = Koto'od
 action-tap = Neabad
+contribute = Kuned insu
+review = Nichid a noo
+skip = Kabyákud
 
 ## Contribution Nav Items
 
