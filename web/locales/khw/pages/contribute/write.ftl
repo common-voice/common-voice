@@ -11,6 +11,11 @@ citation-input-placeholder = تان جملان حوالہ دیور (ضروری)
 citation =
     .label = حوالہ
 sc-write-submit-confirm = تصدیق کومانا کہ ہایا  جملہ <wikipediaLink> عام رویان پچین شیر </wikipediaLink> اوا ہمو اپلوڈ کوریکو اجازت دومان
+sc-review-write-title = اوا کیا جملو شامل کوریکو بووم
+sc-review-small-batch-title = ذیاد جملان کیچہ کوری شامل کوریلیک
+new-sentence-rule-1 = <noCopyright>کاپی رائٹ نیکی</noCopyright> بند (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = فی سیکنڈا جوش پونجار کم لفظ
+new-sentence-rule-3 = صحیح گرائمر استعمال کو
 
 ## BULK SUBMISSION 
 
