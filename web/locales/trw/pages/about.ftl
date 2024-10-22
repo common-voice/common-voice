@@ -75,9 +75,14 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = اے ترجمہ سی سائٹ کھأکأ کام کویی؟
 about-playbook-how-localize-content-1 = کامن وائس سی سائٹ سی ترجمی مھید <strong> پونٹون زید ہویی۔
 about-playbook-how-localize-content-2 = <pontoonAccountLink> ایکاؤنٹ سوا کو مُوش ما نُو تُھوا۔ نھی جیِب کار<strong> ٹیم </strong>آں بھی پراجیکٹ کار۔ <pontoonCvLink> خامن وائس </pontoonCvLink>۔ ترجمہ سی کیا مواد ہونیِن۔ ای زید کلک کو۔ بھی ای أنگریزی می تیِگیل پشادی آں اے خانہ ہُم پشانیِن تی می ترجمہ کونیِن۔
+about-playbook-how-localize-content-3 = ترجمہ أنگریزی ما چھی خو تُو <strong> دأل جیِبا سی بارا می ہُم تجاویز پا بھادُو۔ کلک کو مے خاکہ <strong>زید ۔ بھی سیٹنگ گے بش </strong> آں کامے جیِب یأ تُو بنَدُو تیس شامل کو۔ ٹوپ می سون دیِش کے گُوٹ می ترجما سی اے لسٹ <strong>ہونیِن تینس کے ترجمہٕ/لوکلز بندی۔ سائسٹ زید ترجمہ اے دی ما بعد پشا بیی۔
+about-playbook-how-localize-content-4 = أ سائئٹ شائع کؤ سی کیا تیا تھلا ہویی کے یأ ہے 75 فی صد تیا ہیو۔
+about-playbook-how-localize-content-5 = مُھن ویڈیو سی تفصیلی ہدایات بُھویا آمن جنؤ سی کیا آں مدد سی کیا
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = آ اے جملہ کھأکأ جمع کیی؟
+about-playbook-how-add-sentences-content-1 = تُو سون دیِش کے اے مُو زید <writePageLink> جملہ جمع کوبھادُو۔ مُو زید لیِگ </writePageLink> یا مھید جملہ بھی بُو آں تھیِن جائزہ گھیِن۔ </reviewPageLink>
 
 ## How to record quality
 
