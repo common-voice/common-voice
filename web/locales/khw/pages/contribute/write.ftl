@@ -83,6 +83,11 @@ minimum-sentences = ای فائلا کم ازکم جملہ: 1000
 maximum-file-size = فائلو لوٹا لوٹ سائز : 25 ایم بی
 what-needs-to-be-in-file = مہ فائلا کیاغ شامل بیلیک؟
 what-needs-to-be-in-file-explanation = مہربانی کوری چک کوکی  <templateFileLink>ٹیملیٹ فائل</templateFileLink>. تہ جملا کاپی رائٹ مو بائی (CC0 یا اصل کورمو جمع کوراکو اجازت بائی )  گرائمیرو لحاظا صحیح و ریکا اسان بائی ۔جمع بیرو جملہ 10-15سیکنڈا رینو بائی و ہتیرا نمبر، خاص نام و خاص حروف مو بانی
+upload-progress-text = اپلوڈ جاری شیر
+sc-bulk-submit-confirm = تصدیق کومانا کہ ہایا  جملہ <wikipediaLink> عام رویان دائرہ کارو </wikipediaLink> مہ تین ہمو اپلوڈ کوریکو اجازت شیر
+bulk-upload-success-toast = بو جملا ایغاریا اپلوڈ ہونی
+bulk-upload-failed-toast = اپلوڈ نو ہوئے، مہربانی کوری وا کوشش کو
+bulk-submission-success-header = بو جملان ایغاریا جمع کوریکو بچین تہ شکریہ
 
 ## SMALL BATCH SUBMISSION
 
