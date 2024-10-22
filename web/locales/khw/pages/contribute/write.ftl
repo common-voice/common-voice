@@ -27,6 +27,11 @@ how-to-cite-explanation-bold = ویپ سائٹو لینگ یا کورمو پور
 how-to-cite-explanation = ہمیت کی تہ تان لفظ صرف راوے <italicizedText>“تان کورمو حوالا”</italicizedText>. اسپہ معلوم کوریلیک کہ تو ہمی نویشوران کورا لیتاو تاکہ اسپہ عام بیرو  ژاغا پتہ کوسی و کاپی رائٹو پابندی مو بائی۔ حوالا دیکو معلومات پچین اسپہ <guidelinesLink>ڑوڑور۔ رہنمائی صفحہ</guidelinesLink>.
 guidelines = رہنمائی
 contact-us = اسپہ سون ملاؤ بور
+add-sentence-success = جملہ بڑاځینو ہوئی
+add-sentence-error = نقص شیرو جملہ
+required-field = مہربانی کوری ہیا ژاغو ٹیپاور
+single-sentence-submission = ای جملہ جمع کورور
+small-batch-sentence-submission = څیق  جملان   جمع
 
 ## BULK SUBMISSION 
 
