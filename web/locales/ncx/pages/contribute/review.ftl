@@ -51,3 +51,10 @@ sc-review-rules-title = ¿Okijkuilokej ken otikijtokej moneki?
 sc-review-empty-state = Axkan ayamo onka tlajkuiloli tlen tikmotilis ika nin tlajtolkopa.
 report-sc-different-language = Nin okse tlajtolkopa.
 report-sc-different-language-detail = Tlen okijkuilokej amo tlajtolkopa tlen nikmotilijtok.
+sentences-fetch-error = Itlaj omochi. Amo uelis tiktlaliliskej tlajkuiloli.
+review-error = Itlaj omochi. Amo uelis tikyektlaliliskej tlajkuiloli.
+review-error-rate-limit-exceeded = Nesi sapanoa totoka otikchi. Ximochia uan kuali xikmotili kox kuali noso amo.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Tikinpatilijtokej miak tlamantli.
+sc-redirect-page-subtitle-1 = Tlajkuilolnechikoli axkan kajki itech Common Voice. Axkan uelis<writeURL>tikijkuilos</writeURL>se tlamantli noso<reviewURL>tikmotilis</reviewURL> sejse tlajkuiloli non yokintlalilikej itech Common Voice.
+sc-redirect-page-subtitle-2 = Seki techtlajtlani itech <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> noso <emailLink>email</emailLink>.
