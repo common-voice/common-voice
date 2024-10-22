@@ -5,6 +5,15 @@ record-cta = رکارڈ کوریک شروع کو
 record-platform-not-supported = افسوس کوسیان! تہ ژاغو تین ہایا ٹائمہ مدد کورین نو بویان۔
 record-platform-not-supported-desktop = تو ڈونلوڈ کوری ڈسک ٹاپ مشینو سورا حصہ گنیکو بوس
 record-platform-not-supported-ios-non-safari = iOS  please continue with Safari to enable recording…
+record-must-allow-microphone = تہ میکو تین راح دیلیک بوئے
+record-no-mic-found = مائک نیکی
+record-error-too-short = رکارڈینگ بو کم
+record-error-too-long = رکارڈینگ بو ذیاد
+record-error-too-quiet = رکارڈنگ بو لش
+record-cancel = رکارڈنگ مو کو
+record-instruction = { $actionType }<recordIcon></recordIcon> تھے جملو توڑ راوے
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> کی ارو
+record-three-more-instruction = ختم بیکو تین تروئے بہچی شینی
 first-cta-gender-select-help-text =
     .label = تو کیمیریا موش رے، کچہ کوری وضاحت کو
 # SECOND POST SUBMISSION CTA
