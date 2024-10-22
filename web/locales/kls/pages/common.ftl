@@ -266,6 +266,14 @@ cookies = cookies
 faq = Jonik
 content-license-text = newishila Shian
 share-title = Madat kara warek asta tan awaz den
+link-copied = Phon capy
+back-top = pishtyak Hala
+logout = khulek
+donate = Dek
+return-to-cv = Pishtyak sawin awaz
+email-input =
+    .label = Email
+loading = Load karik
 
 ## Donate banner
 
