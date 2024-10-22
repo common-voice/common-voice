@@ -7,9 +7,12 @@ goal-help-recording = !Ndiosdibad chi chined Common Voice <goalPercentage></goal
 goal-help-validation = !Ndiosdibad chi chined Common Voice  a tanen nukue grabación ñe'e nudu ñe'e job jobe !
 speak-empty-state = A kutea nudu chi kamad ñe'e dibaku ku
 speak-loading-error = Gua chikadi chea nudu. Tamnóo namné kueatüd.
+target-segment-add-voice = Kuned nudud
 
 ## Contribution Nav Items
 
+vote-yes = Tika
+vote-no = Gua
 languages = nudu
 about = Ñe'ë
 partner = dïd ntiñu nuku insü
@@ -58,6 +61,11 @@ request-language-button = kakad ama nudu
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
 
 ## Validation criteria
 
+contribution-misreadings-example-8-title = Yeabean kani cho'o yanam
+contribution-varying-pronunciations-title = A taka jo'oñ gua dama
