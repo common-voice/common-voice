@@ -131,7 +131,9 @@ add-small-batch-success =
         [one] { $uploadedSentences } موژار ایک جملہ بڑځیتاو
        *[other] { $uploadedSentences } موژار { $totalSentences } جملہ بڑځیتاو
     }
+small-batch-sentences-rule-1 = “اوا کیا جملان شامل کوما?” شیرو رہنمائی سورا عمل کو
 small-batch-sentences-rule-2 = ای لائنا ای جملہ شامل کو
+small-batch-sentences-rule-3 = "Enter"دباو کوری جملان ای لائنا علحیدہ کورور یا  ای دفعہ "Return"
 small-batch-sentences-rule-4 = 1,000  پت جملہ شامل کو
 small-batch-sentences-rule-5 = سف جملان ای شعبہ بائے
 small-batch-sentences-rule-6 = سف جملان ای حوالہ بائے
