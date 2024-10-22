@@ -8,6 +8,8 @@ sentence =
 sentence-input-placeholder = عام رویان پچین تان جملان ہایا نویشور
 small-batch-sentence-input-placeholder = عام رویان پچین تان جملان ہیا نویشو
 citation-input-placeholder = تان جملان حوالہ دیور (ضروری)
+citation =
+    .label = حوالہ
 
 ## BULK SUBMISSION 
 
