@@ -68,6 +68,11 @@ sentence-variant-select-multiple-variants = عام زبان/ بو شکل
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = اپلوڈ کو <icon></icon> عام رویان دائرہ استعمال بک جملہ
+sc-bulk-upload-instruction = تان فائلو ہیا پیځے یا <uploadButton> اپلوڈ کوریکو پچین اف دیت  </uploadButton>
+sc-bulk-upload-instruction-drop = فائلو اپلوڈ کوریکو پچین ہیا پیځے
+bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کانٹک کو  <emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
