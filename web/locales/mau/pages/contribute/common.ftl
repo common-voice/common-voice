@@ -13,6 +13,7 @@ goal-help-recording = Ndani tsisenkanajin Common Voice je kichú <goalPercentage
 goal-help-validation = Ndani tsisenkanajin Common Voice je kichú <goalPercentage></goalPercentage> ju tjí mejere sichire nga ndujú ndujú{ $goalValue }!
 contribute-more = ¿A je tijnadei nga sian { $count } sa?
 speak-empty-state = Jet'a énnajin xi chubét'ajin énn kui
+speak-empty-state-cta = nkjin énn kuisenkasa
 
 ## Contribution Nav Items
 
