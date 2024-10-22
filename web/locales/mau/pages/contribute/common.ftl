@@ -1,13 +1,13 @@
 action-click = Tisenney
-action-tap = chjaájin
-contribute = asenka
+action-tap = Chjaájin
+contribute = Asenka
 review = Chuta'a jin.
-skip = chikji
-shortcuts = tjen ndujú
+skip = Chikji
+shortcuts = Tjen ndujú
 clips-with-count-pluralized =
     { $count ->
-        [one] jngu ya
-       *[other] nkjin yaa
+        [one] <bold>{ $count }</bold> jngu ya
+       *[other] <bold>{ $count }</bold> nkjin yaa
     }
 
 ## Contribution Nav Items
@@ -21,6 +21,8 @@ clips-with-count-pluralized =
 
 ## Speak Shortcuts
 
+shortcut-rerecord-toggle = [1-5]
+shortcut-discard-ongoing-recording = ESC
 
 ## Listen Shortcuts
 
