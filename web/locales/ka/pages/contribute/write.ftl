@@ -55,6 +55,7 @@ nature_environment = ბუნება და გარემო
 news_current_affairs = სიახლეები და მიმდინარე მოვლენები
 # Sentence Domain dropdown option
 technology_robotics = ტექნოლოგია და რობოტიკა
+sentence-variant-select-multiple-variants = ძირითადი ენა / რამდენიმე ნაირსახეობა
 
 ## BULK SUBMISSION 
 
