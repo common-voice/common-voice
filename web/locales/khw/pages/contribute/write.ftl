@@ -16,6 +16,13 @@ sc-review-small-batch-title = ذیاد جملان کیچہ کوری شامل ک�
 new-sentence-rule-1 = <noCopyright>کاپی رائٹ نیکی</noCopyright> بند (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = فی سیکنڈا جوش پونجار کم لفظ
 new-sentence-rule-3 = صحیح گرائمر استعمال کو
+new-sentence-rule-4 = صحیح املہ و زیر زبران استعمال کو
+new-sentence-rule-5 = نمبرو چے خاص حروفان استعمال موکو
+new-sentence-rule-6 = بیریو حرف نو
+new-sentence-rule-7 = مناسب حوالاجات شامل
+new-sentence-rule-8 = جام ہش بوئی کہ قدرتی چے لوار  (جملا ریکا آسان بائی)
+login-instruction-multiple-sentences = <loginLink>لاگ ان</loginLink> یا <loginLink>سائن اپ</loginLink> ذیاد جملا شامل کوریکو پچین
+how-to-cite = کچہ کوری حوالا دوم؟
 
 ## BULK SUBMISSION 
 
