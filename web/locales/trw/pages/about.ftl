@@ -64,9 +64,17 @@ about-playbook-how-add-language = آ ای می جیِب کھأکأ شأمل کی
 about-playbook-how-add-language-content-1 = اوّل تُنُو جیِب سی بُو سی مھید <languageLink>کلک کوا کہ سے مُوش ما چھی کو نأ۔ مھید <languageRequestLink> کلک کیدے تُنُو جیِب سی شامل کؤ سی کیا توَس کوبھادُو</languageRequestLink>۔ ایسی کیا دُو پوڑی تھی۔ مے ویب سائٹ سی ترجمہ کؤ آں جملہ سرَڑُو۔
 about-playbook-how-add-language-translating-heading = ویست سائسٹ ترجمہ کؤ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> مھید مُھن گائڈ بپوا پونٹون سی استعمال سی کیا۔ </translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = مھو موزیلا سی مے پونٹون ایپ <pontoonLink>ترجمہ سی کیا استعمال کودی۔ پونٹون می گن جیِب تھی کو ای می چھی جیِب نی چھیو تُو ایس شامل کوبھادُو مے <pontoonRequestLink> دے آں میندے۔</pontoonRequestLink>۔ مھی اے جیِب کامن وائس میں تھؤ سی کیا <githubRepoLink> نیم جیِب سی کیا گٹ ہب </githubRepoLink> استعمال کوبھادُو<localizationFragment>۔ ترجمہ سی سائسٹ سی بارا می دیئی جنُو سی کیا می زید کلک کوا۔ </localizationFragment>
+about-playbook-how-add-language-collecting-sentences-heading = جملہ سرڑُو/جم کؤ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> مے پوت می مُھن مے ویڈیو جملا سی سرڑُو کیا چھل ڇھیِڙو سی کیا بُوا۔ </sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 = ای می <sentenceCollectorLinkAdd> تُو جملا سی دھأک تعداد جم کوبھادُو۔ </sentenceCollectorLinkAdd> یا گٹ ہب استعمال کیدے چیر گن جم کوبھادُو۔ </bulkImportDocsLink>۔ یاد ساتھ یرأ جملہ خامخا <licenseLink> سی سی 0 یا پبلک ڈومین </licenseLink> لیسن می ہُوئین  یا تُو آمنے لیِگ بھادُو۔
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> جملہ سی کیا دیئی مھید بُوا۔ </sentenceCollectorFragment>
 
 ## How does localization work
 
+about-playbook-how-localize = اے ترجمہ سی سائٹ کھأکأ کام کویی؟
+about-playbook-how-localize-content-1 = کامن وائس سی سائٹ سی ترجمی مھید <strong> پونٹون زید ہویی۔
+about-playbook-how-localize-content-2 = <pontoonAccountLink> ایکاؤنٹ سوا کو مُوش ما نُو تُھوا۔ نھی جیِب کار<strong> ٹیم </strong>آں بھی پراجیکٹ کار۔ <pontoonCvLink> خامن وائس </pontoonCvLink>۔ ترجمہ سی کیا مواد ہونیِن۔ ای زید کلک کو۔ بھی ای أنگریزی می تیِگیل پشادی آں اے خانہ ہُم پشانیِن تی می ترجمہ کونیِن۔
 
 ## How to add sentences
 
