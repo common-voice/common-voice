@@ -1,8 +1,27 @@
 action-click = Koto'od
 action-tap = Neabad
+contribute = Kuned insu
+review = Nichid a noo
+skip = Kabyákud
+goal-help-recording = !Ndiosdibad chi chined Common Voice <goalPercentage></goalPercentage> a tanen nukue grabación ñe'e nudu ñe'e job jobe { $goalValue } !
+goal-help-validation = !Ndiosdibad chi chined Common Voice  a tanen nukue nudu nóo chi ne'en ñe'e job jobe !
+contribute-more = ¿A bea ñe'ed?
+speak-empty-state = A kutea nudu chi kamad ñe'e dibaku ku
+speak-empty-state-cta = Kuned insu nuku tanobe nudu
+speak-loading-error = Gua chikadi chea nudu. Tamnóo namné kueatüd.
+record-button-label = { "" }
+share-title-new = Kuned insu chi nakan tanobe nudu
+login-to-get-started = Kunod o kunejud dí tumin kadi kutoko'od
+target-segment-first-card = Jined insu nuku dae ñe'e din nomnó
+target-segment-first-banner = Kuned insu nuku dae ne'e din nomnó no Common Voice
+target-segment-add-voice = Kuned nudud
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = Nukue nudu
+login-signup = Kunod/Kunedjud
+vote-yes = Tika
+vote-no = Gua
 languages = nudu
 about = Ñe'ë
 partner = dïd ntiñu nuku insü
@@ -51,6 +70,12 @@ request-language-button = kakad ama nudu
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = r
 
 ## Validation criteria
 
+contribution-misreadings-example-8-title = Yeabean kani cho'o yanam
+contribution-varying-pronunciations-title = A taka jo'oñ kadi nandó
+contribution-varying-pronunciations-description = Yeabea kunebed nukue nudu chi gua nóo. Ti yeabean ndee noo kadi kamañ, Nichi jinaned a dae jo'oñ kuned chi a nóo

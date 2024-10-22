@@ -6,8 +6,8 @@ skip = رد کردن
 shortcuts = میانبرها
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold> کلیپ
-       *[other] <bold>{ $count }</bold> کلیپ
+        [one] <bold>{ $count }</bold> صدا
+       *[other] <bold>{ $count }</bold> صدا
     }
 goal-help-recording = شما به آواهای مشترک کمک کردید تا به <goalPercentage></goalPercentage> از { $goalValue } هدف ضبط روزانه‌مان برسیم
 goal-help-validation = شما به آواهای مشترک کمک کردید تا به <goalPercentage></goalPercentage> از { $goalValue } هدف اعتبارسنجی روزانه‌مان برسیم
@@ -79,11 +79,11 @@ shortcut-skip = s
 shortcut-record-toggle = r
 shortcut-record-toggle-label = ضبط/توقف
 shortcut-rerecord-toggle = [۱-۵]
-shortcut-rerecord-toggle-label = ضبط مجدد کلیپ
+shortcut-rerecord-toggle-label = ضبط مجدد صدا
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = لغو ضبط در حال انجام.
 shortcut-submit = بازگشت
-shortcut-submit-label = ارسال کلیپ‌ها
+shortcut-submit-label = ارسال صداها
 request-language-text = زبان خود را در «آوای مشترک» مشاهده نمی‌کنید؟
 request-language-button = درخواست یک زبان
 

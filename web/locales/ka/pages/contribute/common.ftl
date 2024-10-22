@@ -13,6 +13,7 @@ goal-help-recording = თქვენი დახმარებით Common V
 goal-help-validation = თქვენი დახმარებით Common Voice-ის დღიური მიზნის, { $goalValue } შემოწმების <goalPercentage></goalPercentage> შესრულდა!
 contribute-more = მზად ხართ შეასრულოთ კიდევ { $count }?
 speak-empty-state = ჩასაწერი წინადადებები ამოიწურა ამ ენისთვის...
+no-sentences-for-variants = ენის შერჩეული ნაირსახეობისთვის შესაძლოა, ამოწურული იყოს წინადადებები! თუ თქვენთვის მოუხერხებელი არ იქნება, შეგიძლიათ შეცვალოთ პარამეტრები, რომ სხვა ნაირსახეობის წინადადებებიც იხილოთ ამავე ენიდან.
 speak-empty-state-cta = შემოგვწირეთ წინადადებები
 speak-loading-error =
     ვერ მოინახა თქვენთვის ამოსაკითხი წინადადებები.
