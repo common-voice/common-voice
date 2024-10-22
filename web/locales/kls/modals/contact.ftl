@@ -5,4 +5,4 @@ contact-form-name =
     .label = Nom
 contact-form-message =
     .label = khabar
-contact-required = ajat*
+contact-required = *ajat
