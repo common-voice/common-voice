@@ -44,6 +44,11 @@ first-cta-header-text = تان مختصر آوازو دیکو پچین بو می
 first-cta-subtitle-text = تان بارا سپہ سون لو دیتی تو ساوزییکان سون سفو پچین ٹینالوجی ساوزیکا مدد کوس
 why-donate = تو کو بشار کوسان؟
 why-donate-explanation-1 = ہمی معلومات دیک لازی نو، تہ تین کی جام سریران تھے شامل کو۔ اسپہ معلومات دیکار پوشٹی ہیتان  اسکوردی کوسی و  ہش دی کوسی کی تہ نام و ایمیل تہ عمرو چے موشا کمیری بیکو سون لنگ نو بوئی۔
+add-information-button = معلومات شامل کو
+continue-speaking-button = نو، شکریہ، لوو دیک جاری سوتے
+create-profile-text = تان معلوماتان محفوظ کوسانا? <createProfile>پروفائل ساوزاوے</createProfile>
+thanks-for-voice-toast = آوازا معلومات دیکو پچین  تہ مینادار
+thanks-for-voice-toast-error = تہ آوازان جمع کوراوا ای مسلہ پیدا ہوئی
 first-cta-gender-select-help-text =
     .label = تو کیمیریا موش رے، کچہ کوری وضاحت کو
 # SECOND POST SUBMISSION CTA
