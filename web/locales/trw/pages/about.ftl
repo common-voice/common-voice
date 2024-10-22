@@ -83,12 +83,21 @@ about-playbook-how-localize-content-5 = مُھن ویڈیو سی تفصیلی ہ
 
 about-playbook-how-add-sentences = آ اے جملہ کھأکأ جمع کیی؟
 about-playbook-how-add-sentences-content-1 = تُو سون دیِش کے اے مُو زید <writePageLink> جملہ جمع کوبھادُو۔ مُو زید لیِگ </writePageLink> یا مھید جملہ بھی بُو آں تھیِن جائزہ گھیِن۔ </reviewPageLink>
+about-playbook-how-add-sentences-content-2 = کامن وائس می شامل کؤ سی کیا جملہ سی جائزہ خامخا دُو خلگے گھیِن نیِن۔ تُو تُنو جیِڙ سی کیا ہدایات سوا<languageGuidelinesLink> مھید۔ جملہ خامخا لیسن سی <licenseLink> یا پبلک ہوئین </licenseLink> آں 15 ٹیگیلا ما کم سی ہُوئین۔ تُو کآں لیِکھ سی مالک ما توَوس کیدے <waiverLink> CC0 یا ای ما آمن پھیِگؤ سی </waiverLink> مھو یے مے ای میل دے پے بھادُو۔ commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = تُو مے لنک <scraperLink> جملہ جُدا کؤ </scraperLink> سی کیا یا کھیڑینی کؤ سی ویکیپیڈیا استعمال کوبھادُو۔
 
 ## How to record quality
 
+about-playbook-how-record-quality = آ غورا کلپ اواز سی کھأکأ سوابھادُو؟
+about-playbook-how-record-content-1 = تُنُو عام آواز می بن۔ کامے طریقہ دے تُو بندُودو غورا تُھو۔ مھو یے چھی آواز سی وا بھا کھأکأ تھیدا ہامُوڑ پکار تھی۔ آں مھویے چھی آواز سی عام زورا یا آسُودا پکار تُھو آن کامک چھی بنُو سی یا زور دیؤ سی سٹائل چھیدا سے پکار چھی۔
+about-playbook-how-record-content-2 = کلپ سی آواز سی پأش کے چیر شور ما آمن پھیِگا۔ ایندے چھی بُھویُو آسان ہونیِن۔
+about-playbook-how-record-content-3 = جملہ دما سیت آں احیتاط ئے دے بن۔ کی لفظ چھو نأ آں نأ یی کی ٹیِگیل ای سیت جم کو۔
+about-playbook-how-record-content-4 = آمن یقنیا یرأ تو کا شیئی می آواز کودُودا سے ریکاڑد کودُو آں سے تھلا ایِڑی ہودُو کے یأ تُو غلے ہُوو۔
+about-playbook-how-record-content-5 = مے لنک می <accuracyLink> ٹھیک آں درست ہؤ سی طریقہ ڇھیِڙ۔
 
 ## How to grow language
 
+about-playbook-how-grow-language = مھو کامن وائس زید شیو طریقہ دے جیِب کے کھأ تیریقی دے بھادی؟
 
 ## How to validate
 
