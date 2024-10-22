@@ -42,6 +42,11 @@ about-get-involved-text-2 = تُو کامن وائس می ما غورا کؤ ن�
 about-stay-in-touch = آ کھأ کأ آمن مے کم ما شیِد ڙݜ بھادُو؟
 about-stay-in-touch-button = تُنُو ایکائنٹ سوا
 about-stay-in-touch-text-1 = <emailFragment> ای میل دے</emailFragment> مُھن ای میلا سی لسٹ می آں مُھون مہما سی حصّہ ہؤ سی کیا یا مُھن سرگرمیا ما آمن جنؤ سی کیا یا کامن وائس سی خصوصیاتا ما آمن شیِدؤ سی کیا۔
+about-stay-in-touch-text-2 = تُو موزیلا سی جیِبا سی مے کھاما می آمن مے لنک دے <discourseLink>شامل کوبھادُو۔ بات چیت کؤ کیا می </discourseLink>زید کلک کوا یا <matrixLink> جلد ڇھیِڙا سی کیا می زید </matrixLink>کلک کوا۔
+about-nav-why-common-voice = کئی مھو؟
+about-nav-how-it-works = مھو کھأکأ؟
+about-nav-partners = مُھن سأت
+about-nav-get-involved = شامل ہوا
 about-nav-how-it-works-2 = کامن وائس کھأکأ کام کودُو
 about-nav-playbook = شامل ہؤ سی کیا چھیِڙا
 
@@ -55,6 +60,10 @@ about-playbook-what-is-language-content-3 = یام جیِبا سی گرائمر 
 
 ## How do I add a language
 
+about-playbook-how-add-language = آ ای می جیِب کھأکأ شأمل کیئ؟
+about-playbook-how-add-language-content-1 = اوّل تُنُو جیِب سی بُو سی مھید <languageLink>کلک کوا کہ سے مُوش ما چھی کو نأ۔ مھید <languageRequestLink> کلک کیدے تُنُو جیِب سی شامل کؤ سی کیا توَس کوبھادُو</languageRequestLink>۔ ایسی کیا دُو پوڑی تھی۔ مے ویب سائٹ سی ترجمہ کؤ آں جملہ سرَڑُو۔
+about-playbook-how-add-language-translating-heading = ویست سائسٹ ترجمہ کؤ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> مھید مُھن گائڈ بپوا پونٹون سی استعمال سی کیا۔ </translateVideoLink>
 
 ## How does localization work
 
