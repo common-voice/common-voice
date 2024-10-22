@@ -73,6 +73,12 @@ sc-bulk-upload-header = اپلوڈ کو <icon></icon> عام رویان دائر
 sc-bulk-upload-instruction = تان فائلو ہیا پیځے یا <uploadButton> اپلوڈ کوریکو پچین اف دیت  </uploadButton>
 sc-bulk-upload-instruction-drop = فائلو اپلوڈ کوریکو پچین ہیا پیځے
 bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کانٹک کو  <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = ہیا فائلو بارا  وا دی معلومات کی دوسان کہ ہتیت ہیا ٹیملیٹا  شامل نیکی تھے  <emailFragment> تین نویشے commonvoice@mozilla.com</emailFragment>
+try-upload-again = تان فائلو ہیا پیځی ای خور کوشیش کو
+try-upload-again-md = اپلوڈ کوریکو ای خور کوشیش کو
+select-file = فائلو نݰان کو
+select-file-mobile = فائلو اپلوڈ کوریکو بچین نݰان کو
+accepted-files = صرف ہیا فائلو قسم منظور بوئی : .tsv
 
 ## SMALL BATCH SUBMISSION
 
