@@ -61,7 +61,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
 
   if (!menuItems) {
     return (
-      <div className="contribute-wrapper">
+      <div className="contribute-wrapper datasets">
         <LocalizedNavLink id={menuLabel} to={URLS.DATASETS} />
       </div>
     )

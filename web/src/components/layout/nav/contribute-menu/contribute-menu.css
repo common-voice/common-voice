@@ -45,6 +45,10 @@
 
     &.active .menu-wrapper {
         display: flex;
+
+        @media (--lg-down) {
+            display: none;
+        }
     }
 
     .menu {

@@ -295,6 +295,12 @@ header {
             @media (--lg-down) {
                 margin-top: 20px;
             }
+
+            &.datasets {
+                @media (width > 576px) and (width < 1200px) {
+                    margin-block-start: 0;
+                }
+            }
         }
 
         & .fade-in {
@@ -322,6 +328,10 @@ header {
 
         & .track-fs-download {
             margin-block-end: 10px;
+
+            @media (width > 576px) and (width < 1200px) {
+                margin-block-end: 0;
+            }
         }
     }
 }
