@@ -88,6 +88,14 @@ sc-bulk-submit-confirm = تصدیق کومانا کہ ہایا  جملہ <wikipe
 bulk-upload-success-toast = بو جملا ایغاریا اپلوڈ ہونی
 bulk-upload-failed-toast = اپلوڈ نو ہوئے، مہربانی کوری وا کوشش کو
 bulk-submission-success-header = بو جملان ایغاریا جمع کوریکو بچین تہ شکریہ
+bulk-submission-success-subheader = تو کمان وائسو ہار انوسو  جملان پورا کوریکا مدد کوسان
+upload-more-btn-text = خوردی جملہ اپلوڈ کو
+file-invalid-type = وحت بوغدو فائل
+file-too-large = فائل بو لوٹ
+file-too-small = فائل بو څیق
+too-many-files = بو ذیاد فائل
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> امبوخ عام رویان شعبو جملان شامل کو
