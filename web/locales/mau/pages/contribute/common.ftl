@@ -16,6 +16,7 @@ speak-empty-state = Jet'a énnajin xi chubét'ajin énn kui
 speak-empty-state-cta = nkjin énn kuisenkasa
 speak-loading-error = Mi kjima jngu nijmí
 record-button-label = chubet'a xtari
+share-title-new = <bold>tisenkanajin</bold> sukusjesaná xta.
 
 ## Contribution Nav Items
 
