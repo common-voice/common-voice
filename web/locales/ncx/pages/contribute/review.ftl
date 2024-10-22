@@ -47,3 +47,7 @@ sc-criteria-item-5-2 = Tla tlajkuiloli amo kajki ken moneki, xikpacho &quot;Xikp
 sc-criteria-item-6 = Tla ayakmo onka tlajkuiloli tlen tikmotilis, techpaleui. ¡Xikinmijkuilo okseki!
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Xikmotili, <icon></icon>¿ijkuilitok ken moneki?
+sc-review-rules-title = ¿Okijkuilokej ken otikijtokej moneki?
+sc-review-empty-state = Axkan ayamo onka tlajkuiloli tlen tikmotilis ika nin tlajtolkopa.
+report-sc-different-language = Nin okse tlajtolkopa.
+report-sc-different-language-detail = Tlen okijkuilokej amo tlajtolkopa tlen nikmotilijtok.
