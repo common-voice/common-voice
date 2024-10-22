@@ -70,6 +70,8 @@ about-playbook-how-add-sentences = ke'n kay mashkulgi dem
 
 ## How to record quality
 
+about-playbook-how-record-quality = Ke'n kay a ghona awaz as che'lak recard karim?
+about-playbook-how-record-content-1 = Tan awaz una lash kay mon de! ke'n kay mon des haw prus't hiu- homa tay awaz shehen mi thaw hiu. tay awaz homa som thaw hiu
 
 ## How to grow language
 
