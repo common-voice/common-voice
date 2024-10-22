@@ -15,6 +15,7 @@ contribute-more = ¿A je tijnadei nga sian { $count } sa?
 speak-empty-state = Jet'a énnajin xi chubét'ajin énn kui
 speak-empty-state-cta = nkjin énn kuisenkasa
 speak-loading-error = Mi kjima jngu nijmí
+record-button-label = chubet'a xtari
 
 ## Contribution Nav Items
 
