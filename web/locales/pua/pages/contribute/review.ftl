@@ -57,3 +57,4 @@ review-error-rate-limit-exceeded = Jukari sónsonti niraxaka. Erokwarhi sáni ka
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Wanikwa ampeksïsï sési péntani jaka.
 sc-redirect-page-subtitle-1 = Sentence Collector imani eranharhikwa jimpo motsixati énka arhinhak'a Common Voice. Yásï axu úati ya <writeURL>kara</writeURL>ma wantakwa úkata jinkoni o <reviewURL>exe</reviewURL>ixu axaa Common Voice wantakwa úkata mantani arhini.
+sc-redirect-page-subtitle-2 = Kurhamarhits'ïni ampe axu<matrixLink>Matrix</matrixLink>,<discourseLink>wantakwarhu</discourseLink> o<emailLink>arini miyukwa jimpo</emailLink>.
