@@ -100,3 +100,4 @@ too-many-files = بو ذیاد فائل
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> امبوخ عام رویان شعبو جملان شامل کو
 multiple-sentences-error = تو ای وحتا امبوخ جملان شامل کوریکو نو بوس
+exceeds-small-batch-limit-error = 1000 ذیاد جملہ جمع کورین نو بوئے
