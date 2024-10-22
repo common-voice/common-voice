@@ -1,5 +1,6 @@
 ## ABOUT US
 
+about-title = کام وائس کئی؟
 
 ## How does it work section
 
