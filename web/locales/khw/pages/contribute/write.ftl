@@ -79,6 +79,9 @@ try-upload-again-md = اپلوڈ کوریکو ای خور کوشیش کو
 select-file = فائلو نݰان کو
 select-file-mobile = فائلو اپلوڈ کوریکو بچین نݰان کو
 accepted-files = صرف ہیا فائلو قسم منظور بوئی : .tsv
+minimum-sentences = ای فائلا کم ازکم جملہ: 1000
+maximum-file-size = فائلو لوٹا لوٹ سائز : 25 ایم بی
+what-needs-to-be-in-file = مہ فائلا کیاغ شامل بیلیک؟
 
 ## SMALL BATCH SUBMISSION
 
