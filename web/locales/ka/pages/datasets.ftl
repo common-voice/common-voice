@@ -18,7 +18,7 @@ validated-hr-total = დამოწმებული სთ სულ
 overall-hr-total = საერთო ჯამში სთ
 cv-license = ლიცენზია
 audio-format = ხმის ფორმატი
-dataset-splits = დანაწილება (ასაკით და სქესით)
+dataset-splits = დანაწილება (ასაკი/სქესი)
 number-of-voices = ხმების რაოდენობა
 splits = დანაწილება
 email-to-download = შეიყვანეთ ელფოსტა ჩამოსატვირთად
@@ -43,7 +43,7 @@ get-started-speech = ხმის ამოცნობის საშუალ
 other-datasets = სხვა ხმოვან მონაცემთა კრებულები
 feedback-q = გსურთ გამოხმაურება?
 # This indicates that there is no data to display
-no-information = მონაცემები არაა
+no-information = მონაცემის გარეშე
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ არის <docsLink>ღია წყაროს ხელსაწყოების ნაკრები</docsLink> მკვლევართათვის უახლესი სახის AI-მოდელების შესამუშავებლად.
 resource-deepspeech-info = Mozilla-ს ღია წყაროს ხმის ამომცნობი ძრავა Deep Speech, შეგიძლიათ გამოიყენოთ თქვენი ხმის ამომცნობი პროგრამებისთვის. იხილეთ ჩვენი <githubLink>Github-მიმოხილვა</githubLink> ან შემოგვიერთდით <discourseLink>DeepSpeech-ის სასაუბროში</discourseLink> ვრცლად გასაცნობად და მუშაობის დასაწყებად.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> განკუთვნილია ხმის ამომცნობი ღია საშუალებებისთვის. მათი ნამუშევრები შეეხება სიღრმისეული შესწავლის ხერხებს STT- და TTS-ძრავების საფუძველზე.
