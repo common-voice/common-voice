@@ -104,14 +104,22 @@ about-playbook-how-grow-language-content-3 = Tu thara, kia asta purguram thai, m
 about-playbook-how-grow-language-content-4 = Social Media
 about-playbook-how-grow-language-content-5 = Tu social Media una asta tay to mon, khabar, paigam anzek bhas. warek mochan som asta mon dek bhas. tasi pi puchik asta bhas. Awaz AI asta jonik bhas. kia newishis haw geri istimal karik bhas
 about-playbook-how-grow-language-content-6 = Yawan ze Network
+about-playbook-how-grow-language-content-7 = warek asta khoji kura khial karin, te University, zuban as school, warek da'al moch, kura ki data science una krom karin day. tasi pi phuchi, khe'n kay te madat karin, tasi kay mas, mashkulgi kari, homa nishan jagai, email as thara
+about-playbook-how-grow-language-content-8 = Hosla gati, tay zuban jonaw moch bo ajati, shemi tichak phon shian emi karikas bati
 
 ## How to validate
 
 about-playbook-how-validate = Ke'n kay jonik to chutyak awaz kabul karik
+about-playbook-how-validate-content-1 = Tu pe abahi how, ko'n' kari, joni, phato ujakai
+about-playbook-how-validate-content-2 = Che'lak mo histi, speaker una awaz pe ashis haw, se tay zuban as pi warek hiu, awaz joni o sawin hatya wats hiu, jonikas bati
+about-playbook-how-validate-content-3 = Tay awaz ze mon pe ne ajonaw haw kura ne jonin, To'l pe kura mon pron ya o to'l awaz pe aw haw to, o histi, warek malumat gri
+about-playbook-how-validate-content-4 = Agar to Che'lak pe 2 jon ahistan haw, se warek dataset una pariu
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Ke'n kay dataset una parim, ke'n kay istimal karim?
+about-playbook-how-access-dataset-content-1 = Tu dataset una pari, kure'i zuban shiaw haw to al'i. shato jaiga, ya o malumat as bati email de'li hiu, dataset as bati
+about-playbook-how-access-dataset-content-2 = Tay pe saman, tools, ajat haw, ASR sawzaikas bati, tu warek mochan som asta mashkul ha.
 
 ## How are decisions made
 
