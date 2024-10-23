@@ -1,0 +1,12 @@
+listen = سنا بیوس
+listen-subtitle = سکت کن کھیربا فری نیالا روخ بیس
+listen-instruction = کھونگی سی تم سیر پو لیاخمویکھہ زیرسہ؟
+listen-again-instruction = یانگ تیار یودنارے ینگ رین چک سنا بیوس
+listen-3rd-time-instruction = تھورو، جاری یوق
+listen-last-time-instruction = یو آخری
+listen-empty-state = ندانگ کلپ کن سنا بیسے گلفہ دوکتوک۔ پیج پو ریفریش بیس، میدنہ جوکلا ہمبہ بیس
+listen-empty-state-variants = یری سکت پو کلپ پینگ میدوک، یانگ تھدنارے یری سکت پینگ یانگسہ تم سیر ہلتالا یانگلا سیٹینگ پو تبدیل بیا نگینید
+listen-loading-error = یانگلا سنا بیا لا سنا بے کلپ متھوپ۔ جوکھلا ینگ یمبہ بیس جوو
+listen-abort-title = کلپ کن چھدکھہ بیو چھم چوک
+listen-abort-cancel = چھدکھہ بیو جاری یوق
+listen-abort-confirm = چھدکھہ بیو جاری یوق
