@@ -19,6 +19,15 @@ about-voice-contrib-subtitle = میونگ اونگمن دیکھنہ کھوتی �
 about-voice-validation-title = سکت بزور
 about-voice-validation-subtitle = اے میونگی دے سکاتی کلپ کن بزوربن
 about-dataset-release-title = ڈیٹا سیٹ فودے تنگمہ
+about-dataset-release-subtitle = نیاسی ہر مہنہ خسومی جوکلا ڈیٹا سیٹ فودے تنگمن
+about-subscribe-text = کامن واٸس نہ یمبو دوکپہ تھدے تا؟
+about-speak = زیر
+about-speak-text = من کھنکنی شیزدے بیسپی تم سیرکن زیرین کھوتی کلپ کن زونمن
+about-listen-queue = ژیریکھہ سنا بیوس
+about-listen-queue-text = سکتی کلپ کن زدم لوکھسی ژیر پینگ تھونمن دو سنا بیالا تیار بین
+about-listen = سنا بیوس
+about-listen-text = ہلتا کھن کنی شیزدے بیسپی کلپ کن گشیکھہ بزوربن کہ زیرکھن کنی تم سیر کن لیاخمیوکھہ زیرین یودا مید
+about-is-it-valid = کلپ پو بیورمو یودا؟
 
 ## Community Playbook Content
 ## What is a language
