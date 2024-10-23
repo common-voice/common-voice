@@ -18,6 +18,9 @@ submit-form-action = Егъэхь
 
 report = Рапорт
 report-title = Рапорт егъэхь
+report-offensive-language = Тезэрыгуакӏо бзэ
+report-offensive-language-detail = Гущыӏэухыгъэр лъытэныгъэ зыхэмылъ е тезэрыгуакӏо бзэ.
+report-grammar-or-spelling = Грамматикэ / орфографие хэукъоныгъ
 
 ## Speak & Listen Shortcuts
 
