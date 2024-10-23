@@ -23,6 +23,7 @@ target-segment-first-card = Tiisenkanájin nga kuíchujin chubare ju tjin ya sij
 target-segment-generic-card = Tiisenkaye chubere.
 target-segment-first-banner = tiisenke nga kuanda titjún chubare Common Voice { $locale }
 target-segment-add-voice = Chanijin xtari.
+target-segment-learn-more = Me sa xi tjin.
 
 ## Contribution Nav Items
 
