@@ -134,6 +134,7 @@
 
             [dir='rtl'] & {
                 left: 21px;
+                right: unset;
             }
         }
 
