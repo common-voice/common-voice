@@ -13,6 +13,9 @@ contribute-more =
     { $count ->
        *[other] { $count } خور کوریکو بچین تیارا ?
     }
+speak-empty-state = ہیا زبانا رکارڈ کوریکو پچین اسپہ سون جملہ ختم ہونی
+no-sentences-for-variants = تہ زبانو جملہ ختم بیرو بونی
+speak-empty-state-cta = جملہ راوے
 record-button-label = تان آوازو رکارڈ کو
 
 ## Contribution Nav Items
