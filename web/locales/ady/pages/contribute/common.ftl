@@ -12,10 +12,12 @@ vote-no = Хьау
 languages = Бзэхэр
 about = Ехьылӏагъ
 partner = Ӏэхьагъу
+submit-form-action = Егъэхь
 
 ## Reporting
 
 report = Рапорт
+report-title = Рапорт егъэхь
 
 ## Speak & Listen Shortcuts
 
