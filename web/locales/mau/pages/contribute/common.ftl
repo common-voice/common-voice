@@ -30,6 +30,7 @@ change-preferences = Sik'antjeya xi tsachaa.
 
 contribute-voice-collection-nav-header = kjuátjó xta.
 contribute-sentence-collection-nav-header = K'uexkú énn.
+login-signup = Tetsie / tj'atae.
 
 ## Reporting
 
