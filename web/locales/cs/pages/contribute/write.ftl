@@ -127,3 +127,4 @@ rate-limit-message-minutes =
     }
 small-batch-sentences-rule-2 = Přidejte jednu větu na řádek
 small-batch-sentences-rule-4 = Můžete přidat až 1 000 vět
+small-batch-sentences-rule-6 = Všechny věty musí mít stejnou citaci
