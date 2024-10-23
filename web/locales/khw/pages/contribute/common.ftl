@@ -45,13 +45,37 @@ submit-form-action = جمع کو
 report = خبر
 report-title = جمع وا رپورٹ کو
 report-ask = ہیا جملہ تہ تین کیا مسلہ پیدا اریر؟
+report-offensive-language = شوم زبان
+report-offensive-language-detail = جملہ شوم یا غیر مہذب لو شیر
+report-grammar-or-spelling = گرائمر/ہجو غلظ
+report-grammar-or-spelling-detail = جملہ گرائمرو یا ہجو غلطی شیر
+report-different-language = مختلف زبان
+report-different-language-detail = اوا کیا زبانا کی لو دومان ہیا ہتے زبانا نو نویشیشیر۔
+report-difficult-pronounce = ادا کوریک مشکل
+report-difficult-pronounce-detail = ہیا ہش لفظ یا چیق جملہ شینی کی  ہتان ریک یا ادا کوریک مشکل
+report-offensive-speech = شوم لو
+report-offensive-speech-detail = آوازا  شوم یا غیر مہذب لو شیر
+report-other-comment =
+    .placeholder = تبصیرہ
+success = کامیاب
+continue = جاری
+report-success = رپورٹ منصور ہوئی
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ایس
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = آر
 shortcut-record-toggle-label = رکارڈکو/بندکو
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = اوازو دوبارا رکارڈ کو
+shortcut-discard-ongoing-recording = ایس کیپ
+shortcut-discard-ongoing-recording-label = ہیا رکارڈو ضائع کو
 shortcut-submit = واپس کو
 shortcut-submit-label = اسکوردی آواز جمع کو
 
