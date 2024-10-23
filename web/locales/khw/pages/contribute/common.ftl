@@ -18,6 +18,8 @@ no-sentences-for-variants = تہ زبانو جملہ ختم بیرو بونی
 speak-empty-state-cta = جملہ راوے
 speak-loading-error = تہ ریکو پچین اسپہ سون کیا جملہ نیکی۔ مہر بانی کوری پھوک اچا کوشش کو-
 record-button-label = تان آوازو رکارڈ کو
+share-title-new = <bold>اسپہ سون مدد کو </bold> خور آواز مشکیکا
+keep-track-profile = تان پروفائیلو سورا تان کورمو پوشتی بیکو پتہ کو
 
 ## Contribution Nav Items
 
