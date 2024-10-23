@@ -1,6 +1,7 @@
 ## ABOUT US
 
 about-title = ?sawin awaz ko
+about-header-description-v2 = sawin awaz dataset una sawin bati shian. Kura ki madat karin day, aya dunia una. shemi awaz gri dataset una darkhast karin. aya kura ki Angrezi ne jonin day, te tan zuban una newishik bahan, aya kia farak ne hiu, rang, istriza, LGBTQIA+ . esa matlab shia ki aya saw thi tan zuban una mon dek bahan. Ea sawin bati, har awata hiu, toa saw thi tan awaz jonin tan awaz phazin
 how-does-it-work-title-v2 = sawin awaz khe'n thi krom kariu
 how-does-it-work-text = Abi saw thi bo jon sawin awaz ko'n' karik. mimi awaz homa ajat, sawin prust awaz homa sawin bati prus't hiu
 
@@ -35,9 +36,12 @@ about-no-votes-text = istimal karaw pe to awaz ne agriaw haw, se geri sawal as t
 about-dataset-new = sawin awaz dadaset
 about-dataset-new-text = sawin awaz dataset kia kinshiaw aya hazaron moch tan awaz den day, tasa thara awaz sazaikas ishnahari sawzain day
 about-clip-graveyard = Histikas Clip
+about-clip-graveyard-text = Che'lak shaya ganguna shian, kura ki sawin awaz ne pashi dataset una. ganguna dataset download karik bahas. Tasi saw mochan shukuria koreli, kura ki shama project sawzai an
 about-get-involved = Ek thi karik
+about-get-involved-text-2 = Ama sawin awaz pi prus't karik khojis day haw, sahi shiaw homa som rabta kara, email kara, deshai ze gromai mochan som mashkul hali
 about-stay-in-touch = Ke'n a rabta una em?
 about-stay-in-touch-button = kholaw karik
+about-stay-in-touch-text-1 = Kholaw kara, abi email karik, tay hatay pata hiu khe'n kay shemi karikas ze che'ic'ikas bati.
 about-stay-in-touch-text-2 = Tu mozilla zuban una warek mochan some asta join karis <pashala phon> Mateix </mateixLink> zar phuchikas bati
 about-nav-why-common-voice = Ko?
 about-nav-how-it-works = Ke'n?
@@ -50,11 +54,16 @@ about-nav-playbook = Karikas bati hisa gri
 ## What is a language
 
 about-playbook-what-is-language = sawin awaz as zuban kia?
+about-playbook-what-is-language-content-1 = Zuban jonikas bati bo ziada phon shian. Mon jonikas bati, mon dekas bati bo phon shian. sawin awaz una saw thi waregen zuban asta jonin, te pe khushush aran haw?
+about-playbook-what-is-language-content-2 = Homa mon dekas bati, jonikas bati, bo mon diaw ajat, shatalako awazas dataset sawzai shiaw, saw mochan bati
+about-playbook-what-is-language-content-3 = Ade zuban o warek chotala shian, awaz asta warek, mon dekas tharika asta warek. shatalako tasi gromaini mochan awaz ze zuban tasi dataset una he'al'i
 
 ## How do I add a language
 
 about-playbook-how-add-language = ke'n kay warek zuban alim
+about-playbook-how-add-language-content-1 = Awel, tay Zuban jagai, shiaw e ne? ne pe shial'a haw, tay zuban de'kas bati darkhast kari. tara du krom koreli, tarjuma koreli, min jama koreli
 about-playbook-how-add-language-translating-heading = site as tarjuma karik
+about-playbook-how-add-language-translating-content-1 = Homa Video jagaha, pontoon phon pashel
 about-playbook-how-add-language-collecting-sentences-heading = mashkul jama karik
 
 ## How does localization work
