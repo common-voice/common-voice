@@ -78,10 +78,24 @@ shortcut-discard-ongoing-recording = ایس کیپ
 shortcut-discard-ongoing-recording-label = ہیا رکارڈو ضائع کو
 shortcut-submit = واپس کو
 shortcut-submit-label = اسکوردی آواز جمع کو
+request-language-text = تہ زبان کمان وائیسا نیکی وا؟
+request-language-button = زبانو درخواست کو
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پی
 shortcut-play-toggle-label = چھکھاوے/باندکو
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = وائی
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = این
 
 ## Validation criteria
 
+contribution-criteria-nav = اصول
+contribution-criteria-link = حصہ گنیکو اصول تہ تین پتہ بائے
+contribution-criteria-page-title = حصہ گنیکو اصول
