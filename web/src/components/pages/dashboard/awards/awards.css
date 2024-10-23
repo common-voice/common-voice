@@ -103,10 +103,7 @@
 
         [dir='rtl'] & {
             padding-right: 20px;
-            -webkit-transform: scaleX(-1);
-            -moz-transform: scaleX(-1);
-            -o-transform: scaleX(-1);
-            transform: scaleX(-1);
+            padding-left: unset;
         }
 
         &.speak {
@@ -125,6 +122,13 @@
             top: -10px;
             width: 100%;
             height: 100%;
+
+            [dir='rtl'] & {
+                -webkit-transform: scaleX(-1);
+                -moz-transform: scaleX(-1);
+                -o-transform: scaleX(-1);
+                transform: scaleX(-1);
+            }
         }
 
         & .star {
