@@ -43,3 +43,20 @@ terms-disagree = آ راضی نُو تُھو
 first-cta-header-text = تُنو آواز مھو یے دیؤ سی کیا مھو چیر مہربأنگی کودی!
 first-cta-subtitle-text = تُنو بارا می مھو یے بنُودے تُو مے ٹیکنالوجی سی سوؤ می مدد کودُو
 why-donate = تُو کئی توَس کودُو؟
+why-donate-explanation-1 = مھأ معلوماتا سی دیؤ اختیاری تُھو۔ تُو تھلا مھید جمع کو کے یأ تھے یے غورا معلوم ہُوو۔ کے یأ مھو مے ڈیٹا سیٹ شائع کؤسأدو مھو یے چھی ٹیک نام سی معلومات نہ دے نیِن آں میس یقینی کونیِن یرأ چھی نام، ای میل، چھی برادری سی آں چھی اُومُو او جنس سی بارا می پتہ نہ گھڑے۔
+why-donate-explanation-2 = ٹیکنالوجی سی سہی کام کؤ سی کیا آں ہر ایک سی کیا کؤ سی کیا ضروری تُھو یرأ ای می مختلف خلگا سی آواز ہُوے۔ مثال دے کو مھو یے یسی خاص تُنو طریقے دے جیِب سی بنُو شامل نی کیو تھلا بھی می ٹیکنالوجی ہال خلگا سی ٹیک نہ ہونیِن <learnMore>۔ ڙید زی معلوماتا سی کیا مھید کلک کوا۔ </learnMore>
+add-information-button = معلومات جم کو
+continue-speaking-button = نأ شکریہ، بنُو جاری ساد
+create-profile-text = تُنُو معلومات جم کو <createProfile>۔ خاکہ مھید سوا </createProfile>
+thanks-for-voice-toast = تُنو آواز سی دیؤ سی کیا مھو چھی شکریہ کودی
+thanks-for-voice-toast-error = چھی آواز مھید کے تھلُو می کآں غلطی ہی
+first-cta-gender-select-default-option = اے اپشن کار
+first-cta-gender-select-help-text =
+    .label = چھی جنس کا تُھو؟
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = تُنو آواز مھو یے دیؤ سی کیا شکریہ!
+second-cta-subtitle-text = اے خاکہ سمان تُو تُنو کم سی مھید لڑی وائس سی مے برادری می پا بھادُو۔
+already-have-an-account = چھی مُوش ما ایکاؤنٹ تُھو؟ <login><login> مھید کے لھنگ
+create-profile-button = تُنو خاکہ سوا
+# IMAGE TAGS
+img-alt-success-checkmark = کامأبی چیک کو
