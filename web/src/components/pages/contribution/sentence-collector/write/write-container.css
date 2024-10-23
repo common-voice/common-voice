@@ -62,8 +62,8 @@
     }
 
     & .sc-toggle-wrapper {
+        overflow-x: auto;
         @media (width > 1400px) {
-            overflow-x: auto;
             width: 25%;
         }
 
@@ -87,6 +87,10 @@
 
                 svg {
                     margin-right: 8px;
+
+                    [dir='rtl'] & {
+                        margin-left: 8px;
+                    }
                 }
 
                 &.active {

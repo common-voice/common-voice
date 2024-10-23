@@ -5,12 +5,14 @@ write-instruction = Anyade <icon></icon> una oración de dominio publico
 write-page-subtitle = Las oracions aportadas aquí s'anyadirán a un conchunto de datos con licencia cc-0 disponible publicament.
 sentence =
     .label = Oración
-sentence-input-value = Introduzca aquí la suya frase de dominio publico
+sentence-input-placeholder = Introduzca aquí la suya frase de dominio publico
+small-batch-sentence-input-placeholder = Introduzca aquí las suyas frases de dominio publico
 citation-input-placeholder = Indica cuál ye la fuent d'a tuya frase (obligatorio)
 citation =
     .label = Cita
 sc-write-submit-confirm = Confirmo que esta oración ye <wikipediaLink>dominio publico</wikipediaLink> y tiengo permiso pa puyar-la.
 sc-review-write-title = Qué frases puedo anyadir?
+sc-review-small-batch-title = Cómo anyadir multiples frases
 new-sentence-rule-1 = <noCopyright>Sin restriccions de dreitos d'autor</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Menos de 15 parolas per oración.
 new-sentence-rule-3 = Usa la gramatica correcta
@@ -19,6 +21,7 @@ new-sentence-rule-5 = Sin numeros ni carácters especials
 new-sentence-rule-6 = Sin letras estrancheras
 new-sentence-rule-7 = Incluyir cita apropiada
 new-sentence-rule-8 = Idealment natural y conversacional (ha d'estar fácil leyer la oración)
+login-instruction-multiple-sentences = <loginLink>Connecta-te</loginLink> u <loginLink>rechistra-te</loginLink> pa anyadir cuantas frases de vez
 how-to-cite = Cómo cal citar?
 how-to-cite-explanation-bold = Cita con un vinclo URL u lo nombre completo d'a obra.
 how-to-cite-explanation = Si son las tuyas propias parolas, di simplament <italicizedText>“Autocita”</italicizedText>. Nos cal saber án has trobau este conteniu pa poder comprebar que ye de dominio publico y que no s'aplican restriccions de dreitos d'autor. Pa obtener mas información sobre las citas, consulta la nuestra <guidelinesLink>pachina de directrices</guidelinesLink>.
@@ -28,9 +31,11 @@ add-sentence-success = 1 frase replegada
 add-sentence-error = Error en anyadir la frase
 required-field = Replene este campo.
 single-sentence-submission = Ninvio d'una sola frase
+small-batch-sentence-submission = Ninvio d'un lot de frases chicot
 bulk-sentence-submission = Ninvio masivo de frases
 single-sentence = Una sola frase
-bulk-sentences = Frases masivas
+small-batch-sentence = Lot chicot
+bulk-sentence = Lot gran
 sentence-domain-combobox-label = Dominio d'as frases
 sentence-domain-select-placeholder = Tría dica tres dominios (opcional)
 # Sentence Domain dropdown option
@@ -89,3 +94,52 @@ file-invalid-type = Fichero invalido
 file-too-large = Lo fichero ye masiau gran
 file-too-small = Lo fichero ye masiau chicot
 too-many-files = Masiaus fichers
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon>Anyadir cuantas frases d'o dominio publico
+multiple-sentences-error = No puez anyadir multiples frases d'una sola vegada
+exceeds-small-batch-limit-error = No puez ninviar mas de 1000 frases
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Limite sobrepasau. Torna a prebar en 1 minuto
+       *[other] Limte sobrepasau. Torna a prebar en { $retryLimit } minutos
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Limite sobrepasau. Torna a prebar en 1 segundo
+       *[other] Limite sobrepasau. Torna a prebar en { $retryLimit } segundos
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Has alcanzau lo limite de frases d'esta pachina. Aguarda 1 minuto antes de ninviar un atra frase. Gracias per la tuya paciencia!
+       *[other] Has alcanzau lo limite de frases d'esta pachina. Aguarda { $retryLimit } minutos antes de ninviar un atra frase. Gracias per la tuya paciencia!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Has alcanzau lo limite de frases d'esta pachina. Aguarda 1 minuto antes de ninviar un atra frase. Gracias per la tuya paciencia!
+       *[other] Has alcanzau lo limite de frases d'esta pachina. Aguarda { $retryLimit } segundos antes de ninviar un atra frase. Gracias per la tuya paciencia!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } d'1 frase replegada
+       *[other] { $uploadedSentences } de { $totalSentences } frases replegadas
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } d'1 frase replegada. Fe clic <downloadLink>aquí</downloadLink> pa descargar las frases refusadas.
+       *[other] { $uploadedSentences } de { $totalSentences } frases replegadas. Fe clic <downloadLink>aquí</downloadLink> pa descargar las frases refusadas.
+    }
+small-batch-sentences-rule-1 = Sigue las instruccions de “Qué frases puedo anyadir?”
+small-batch-sentences-rule-2 = Anyadir una frase per linia
+small-batch-sentences-rule-3 = Separar las frases pretando “Enter” (entrar) u “Return" una vegada
+small-batch-sentences-rule-4 = Anyadir dica 1.000 frases
+small-batch-sentences-rule-5 = Totas las frases han d'estar d'o mesmo dominio
+small-batch-sentences-rule-6 = Totas las frases han de tener la mesma citación

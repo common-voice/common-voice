@@ -1,3 +1,6 @@
+speak = Hablar
+speak-now = Habla ahora
+speak-subtitle = Dona tu voz
 record-cta = Empezar a grabar
 record-platform-not-supported = Lo sentimos, pero tu plataforma actualmente no está soportada.
 record-platform-not-supported-desktop = En computadores de escritorio, puedes descargar la última versión:
@@ -47,6 +50,9 @@ continue-speaking-button = No gracias, sigue hablando.
 create-profile-text = ¿Quieres guardar tu información? <createProfile>Crear un perfil</createProfile>
 thanks-for-voice-toast = Gracias por tu información de voz.
 thanks-for-voice-toast-error = Se produjo un error al enviar su información de voz.
+first-cta-gender-select-default-option = Seleccionar una opción
+first-cta-gender-select-help-text =
+    .label = ¿Cómo prefieres describir tu sexo o género?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Gracias por aportar tu voz!
 second-cta-subtitle-text = Con un perfil, puede realizar un seguimiento de su actividad y conectarse con una comunidad de contribuyentes de datos de voz.

@@ -1,27 +1,30 @@
 ## WRITE PAGE
 
 write = Boroi
-write-instruction = Ek lok-ulovpi vakya <icon></icon> boroi
-write-page-subtitle = Hanga yogdan kel'le vakyo ek cc-0 "No Rights Reserved" "dataset"-an lokank download korpak zata.
+write-instruction = Ek 'public domain' vakya <icon></icon> boroi
+write-page-subtitle = Hanga yogdan kel'le vakyo eke cc-0 "No Rights Reserved" 'dataset'-an lokank download korpak zata.
 sentence =
     .label = Vakya
-sentence-input-value = Tumche public-domain vakya hanga boroi
-citation-input-placeholder = Hem vakya tuka kõi melle? ("required")
+sentence-input-placeholder = Tumche 'public-domain' vakya hanga boroi
+small-batch-sentence-input-placeholder = Tumche 'public-domain' vakyo hanga boroi
+citation-input-placeholder = Hem vakya tuka kõi melle? ("zai poddta")
 citation =
-    .label = Citation
-sc-write-submit-confirm = I confirm that this sentence is <wikipediaLink>public domain</wikipediaLink> and I have permission to upload it.
-sc-review-write-title = Kosle vakyo haven ghalunk zata?
-new-sentence-rule-1 = <noCopyright>No copyright</noCopyright> restrictions (<cc0>cc-0</cc0>)
-new-sentence-rule-2 = Dor ek vakya chodan-chod 15 utrani asunk zai
-new-sentence-rule-3 = Sarke veakronn (grammar) vapor kor
-new-sentence-rule-4 = Sarke "spelling" ani "punctuation" vapor
-new-sentence-rule-5 = Number ani special characters vapor kor naka!
-new-sentence-rule-6 = Dusre bhaxantle letter vapor kor naka!
-new-sentence-rule-7 = Credit sarkoch di
+    .label = 'Citation'
+sc-write-submit-confirm = Hanv puravean siddh korta ki hem vakya <wikipediaLink>'public domain'</wikipediaLink> asa ani maka 'permission' asa tika upload korpak.
+sc-review-write-title = Kôslyo vakyo haven ghalunk zata?
+sc-review-small-batch-title = Koxem toren zaiteo vakyo ghalunk zata?
+new-sentence-rule-1 = <noCopyright>Copyright naslolem</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Dor ek vakya chǒdan-chǒd 15 utrani asunk zai
+new-sentence-rule-3 = Sarkem veakronn ('grammar') vapor
+new-sentence-rule-4 = Sarkem "spelling" ani "punctuation" vapor
+new-sentence-rule-5 = Nombor ani 'special character' vapor naka!
+new-sentence-rule-6 = No foreign letters
+new-sentence-rule-7 = Credit sarko di
 new-sentence-rule-8 = Chod korun prakrutik ani ulovpak sopi (vakya vachunk sopem asunk zai)
-how-to-cite = Credit/Citation koshe divchem?
-how-to-cite-explanation-bold = Cite with a URL link or the full name of the work.
-how-to-cite-explanation = { "" }
+login-instruction-multiple-sentences = <loginLink>Login</loginLink> va <loginLink>sign up</loginLink> kor zaiteo vakyo ghalpak
+how-to-cite = 'Credit' koshem korum?
+how-to-cite-explanation-bold = Purai 'URL link' divun va kamacho purai nav ghalun.
+how-to-cite-explanation = Tujech utram asa zalyar, <italicizedText>“Self Citation”</italicizedText> mhunn ghal. Amka khobor zavpak zai ki tuka hem kõi mellem. Amka kollpak zai ki hem 'public domain'-nant asa kai na ani teka koslech 'copyright condition' na.  For more information about citation see our <guidelinesLink>Guidelines page</guidelinesLink>.
 guidelines = Guidelines
 contact-us = Amkam sompark kor
 add-sentence-success = 1 vakya puzayle
@@ -29,8 +32,9 @@ add-sentence-error = Vakya ghetna koden chuk zali (Error adding sentence)
 required-field = Please fill out this field.
 single-sentence-submission = Ek-ek vakya dhadpak
 bulk-sentence-submission = Khub Vakyo Dhadpak
-single-sentence = Ekuch Vakya
-bulk-sentences = Khub Vakyo
+single-sentence = Ekuch
+small-batch-sentence = Khub
+bulk-sentence = Chôduch
 sentence-domain-combobox-label = Sentence Domain
 sentence-domain-select-placeholder = Select up to three domains (optional)
 # Sentence Domain dropdown option
@@ -89,3 +93,11 @@ file-invalid-type = Hem file sarko na
 file-too-large = File chod vhodle asa
 file-too-small = File khub dhakte asa
 too-many-files = Samke chod file asa
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Zaiteo 'public-domain' vakyo <icon></icon> boroi
+small-batch-sentences-rule-4 = Chod korun 1000 vakyo ghalunk zata
+small-batch-sentences-rule-5 = Soglleo vakyo těch 'domain'-nant aspak zai
+small-batch-sentences-rule-6 = Sogllea vakyank ekuch 'citation' aspak zai

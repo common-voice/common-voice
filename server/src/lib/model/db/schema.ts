@@ -31,7 +31,11 @@ export default class Schema {
 
   /**
    * Make sure we have the user privs set up.
+   *
+   * @deprecated This throws an error. The user has to be created beforehand, since we need a user
+   * to be able to run the query in the first hand.
    */
+  /**
   private async ensureDatabaseUser() {
     // Fetch the default username and password.
     const opts = this.mysql.getMysqlOptions();
@@ -48,13 +52,14 @@ export default class Schema {
     // Have the new user use the database.
     await this.mysql.query(`USE ${this.name};`);
   }
+  */
 
   /**
    * Make sure the database structure (DB, DB USER, TABLES) is configured.
    */
   async ensure(): Promise<void> {
     await this.ensureDatabase();
-    await this.ensureDatabaseUser();
+    // await this.ensureDatabaseUser();
   }
 
   async upgrade() {

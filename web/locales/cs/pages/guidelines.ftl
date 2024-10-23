@@ -1,6 +1,6 @@
 # GUIDELINES PAGE
 guidelines-header = Pokyny pro přispěvatele
-guidelines-header-subtitle = Zjistit jak přispívat do datasetu Common Voice ověřováním vět a hlasových nahrávek
+guidelines-header-subtitle = Zjistěte, jak přispívat do datasetu Common Voice ověřováním vět a hlasových nahrávek
 voice-collection = Sbírka hlasů
 sentence-collection = Sbírka vět
 varying-pronunciations = Rozmanitá výslovnost

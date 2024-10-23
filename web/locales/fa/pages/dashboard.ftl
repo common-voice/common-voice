@@ -5,16 +5,16 @@ toward-next-goal = به سوی هدف بعدی
 goal-reached = به هدف رسیدید
 clips-you-recorded = کلیپ‌هایی که ضبط کرده‌اید
 clips-you-validated = کلیپ‌هایی که اعتبارسنجی کرده‌اید
-todays-recorded-progress = پیشرفت امروز آواهای مشترک در کلیپ‌های ضبط شده
-todays-validated-progress = پیشرفت امروز آواهای مشترک در کلیپ‌های اعتبارسنجی شده
+todays-recorded-progress = پیشرفت امروز آواهای مشترک در صداهای ضبط شده
+todays-validated-progress = پیشرفت امروز آواهای مشترک در صداهای اعتبارسنجی شده
 stats = آمار
 awards = جوایز
 you = شما
 everyone = دیگران
 contribution-activity = فعالیت مشارکت
 top-contributors = مشارکت‌کنندگان برتر
-recorded-clips = کلیپ‌های ضبط شده
-validated-clips = کلیپ‌های تایید شده
+recorded-clips = صداهای ضبط شده
+validated-clips = صداهای تایید شده
 total-approved = مجموع تایید شده
 overall-accuracy = دقت کلی
 set-visibility = وضعیت دیداری من را تنظیم کن
@@ -52,6 +52,67 @@ help-reach-hours-general-pluralized =
     } در یک زبان کمک کنید
 set-a-goal = یک هدف تنظیم کنید
 cant-decide = نمی‌توانید تصمیم بگیرید؟
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                               *[other] { $totalHours } ساعت در مدت کمی بیش از { $periodMonths } ماه قابل دستیابی است اگر { $people } نفر روزانه { $clipsPerDay } صدا ضبط کنند.
+                            }
+                    }
+            }
+    }
 how-many-per-day = عالی است! چه تعداد برش صوتی در روز؟
 how-many-a-week = عالی است! چه تعداد برش صوتی در هفته؟
 which-goal-type = می‌خواهید صحبت کنید، بشنوید یا هردو؟
@@ -59,8 +120,8 @@ receiving-emails-info = شما در حال حاضر پست های الکترون
 not-receiving-emails-info = شما هم اکنون بر روی وضعیت <bold>دریافت نکردن</bold> نامه‌های الکترونیکی،‌ یادآوری هدف و وضعیت پیشرفت خود و همچنین خبرنامه ها از آواهای مشترک قرار دارید.
 n-clips-pluralized =
     { NUMBER($count) ->
-        [one] { $count } کلیپ
-       *[other] { $count } کلیپ
+        [one] { $count } صدا
+       *[other] { $count } صدا
     }
 help-share-goal = به ما کمک کنید صداهای بیشتری بیابیم، هدف‌تان را به اشتراک بگذارید
 confirm-goal = تایید هدف

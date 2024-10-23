@@ -126,17 +126,9 @@ rate-limit-message-seconds =
        *[other] Hai raggiunto il limite di invii per questa pagina. Attendi { $retryLimit } secondi prima di inviare un’altra frase. Grazie per la pazienza.
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
-add-small-batch-success =
-    { $totalSentences ->
-        [one] { $uploadedSentences } frase raccolta
-       *[other] { $uploadedSentences } di { $totalSentences } frasi raccolte
-    }
+add-small-batch-success = { $uploadedSentences } di { $totalSentences } frasi raccolte
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
-small-batch-response-message =
-    { $totalSentences ->
-        [one] { $uploadedSentences } frase raccolta. Fai clic <downloadLink>qui</downloadLink> per scaricare le frasi rifiutate.
-       *[other] { $uploadedSentences } di { $totalSentences } frasi raccolte. Fai clic <downloadLink>qui</downloadLink> per scaricare le frasi rifiutate.
-    }
+small-batch-response-message = { $uploadedSentences } di { $totalSentences } frasi raccolte. Fai clic <downloadLink>qui</downloadLink> per scaricare le frasi rifiutate.
 small-batch-sentences-rule-1 = Segui le linee guida della sezione “Quali frasi posso aggiungere?”
 small-batch-sentences-rule-2 = Aggiungi una frase per riga
 small-batch-sentences-rule-3 = Separa le frasi sulla stessa riga premendo una volta il pulsante “Invio”

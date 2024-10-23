@@ -13,6 +13,8 @@ download-language = Боргирӣ кардани { $language }
 validated-hours = Соатҳои тасдиқшуда
 recorded-hours = Соатҳои сабтшуда
 subscribe = Обуна шудан
+# This indicates that there is no data to display
+no-information = Маълумот нест
 go-languages-page = Гузариш ба саҳифаи забонҳо
 more = Бештар
 close = Пӯшидан
