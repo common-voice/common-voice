@@ -1,5 +1,6 @@
 action-click = Теӏункӏ
 contribute = Ӏахьэ хэлъхьан
+skip = Блэъакӏ
 speak-empty-state-cta = Гущыӏэухыгъэхэм ӏахьэ ахалъхь
 
 ## Contribution Nav Items
