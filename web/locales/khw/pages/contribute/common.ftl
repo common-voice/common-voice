@@ -16,6 +16,7 @@ contribute-more =
 speak-empty-state = ہیا زبانا رکارڈ کوریکو پچین اسپہ سون جملہ ختم ہونی
 no-sentences-for-variants = تہ زبانو جملہ ختم بیرو بونی
 speak-empty-state-cta = جملہ راوے
+speak-loading-error = تہ ریکو پچین اسپہ سون کیا جملہ نیکی۔ مہر بانی کوری پھوک اچا کوشش کو-
 record-button-label = تان آوازو رکارڈ کو
 
 ## Contribution Nav Items
