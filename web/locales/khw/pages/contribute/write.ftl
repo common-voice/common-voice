@@ -131,6 +131,12 @@ add-small-batch-success =
         [one] { $uploadedSentences } موژار ایک جملہ بڑځیتاو
        *[other] { $uploadedSentences } موژار { $totalSentences } جملہ بڑځیتاو
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences }  جملہ جمع ہونی۔ کلک <downloadLink>ہیا</downloadLink>  مسترد بیرو جملان ڈونلوڈ کوریکو بچین
+       *[other] { $uploadedSentences }  { $totalSentences } جملہ جمع ہونی۔ Click <downloadLink>here</downloadLink> to download rejected sentences.
+    }
 small-batch-sentences-rule-1 = “اوا کیا جملان شامل کوما?” شیرو رہنمائی سورا عمل کو
 small-batch-sentences-rule-2 = ای لائنا ای جملہ شامل کو
 small-batch-sentences-rule-3 = "Enter"دباو کوری جملان ای لائنا علحیدہ کورور یا  ای دفعہ "Return"
