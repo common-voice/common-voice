@@ -8,4 +8,5 @@ listen-empty-state = اسپہ سون کلب ختم بیرو بونی، پیجو 
 listen-empty-state-variants = تہ زبانا کلپ ختم بیرو بونی! کی بوسان تان زبانو خور جملان ڑوڑیکو پچین تان سیٹنگو بدل دیکو بوس۔
 listen-loading-error = اسپہ تہ تین کار کوریکو پچین آوازو کلپ دیکو نو بوسی، پھوک اچا کوشیش کو
 listen-abort-title = کلیپان تصدیق کوریکو بند کو
+listen-abort-cancel = تصدیق کوریکو جاری کو
 listen-abort-confirm = تصدیق کوریکو ختم کو
