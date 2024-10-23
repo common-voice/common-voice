@@ -46,3 +46,6 @@ why-donate = ¿Tleka techtlajtlania?
 why-donate-explanation-1 = Nin amo sapanoa moneki. San xiktlali tla tikneki. Ijkuak kanaj tiktlaliliaj, amo tiktlalia motoka uan tikitaj tlen tiktlaliskej amo makinexti kox titlakatl, tisuatl noso okseki tlamantli.
 why-donate-explanation-2 = Ken melauak tiknekij titesepanpaleuiskej, moneki achitsin tikinmixmatiskej akinmej techpaleuiaj. Ijkon kuali tikmatiskej katli intlajtolkopa uan tlen okachi moneki. Panpa, tla amikaj itech se tlajtolkopa, amo uelis tikinpaleuiskej akinmej ijkon tlajtoaj.<learnMore>Xikmati okachi itech tleka miak ipati tlen tiktlalilia.</learnMore>
 add-information-button = Xiktlali seki motech
+continue-speaking-button = Amo, san manitlajto
+create-profile-text = ¿Tikneki tiktlaatilis itlaj motech? <createProfile>Ximomachoti</createProfile>
+thanks-for-voice-toast = Timitstlasojkamatiliaj tlen otiktlali itech motlajtol
