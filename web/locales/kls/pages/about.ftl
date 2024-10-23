@@ -124,10 +124,17 @@ about-playbook-how-access-dataset-content-2 = Tay pe saman, tools, ajat haw, ASR
 ## How are decisions made
 
 about-playbook-how-project-governance = Ke'n kay Project sawzain?
+about-playbook-how-project-governance-content-1 = Mozilla sawin awaz, sazai asan, saw moch jama thi, krom kai, ek thi, zuban danan, data science danan, idaraaw software engineran, saw dunia ani jama thi, shama krom saw, Mozilla Buniat thai asaw( Foundation )
 about-playbook-how-project-governance-content-2 = Homa Kanun ke'n kay sawzai shiaw?
+about-playbook-how-project-governance-content-3 = Izat, hifazwt, prus't kai sawin hatya
+about-playbook-how-project-governance-content-4 = Moch hisa gri, faisala karin
 about-playbook-how-project-governance-content-5 = Izat ze jonik
 about-playbook-how-project-governance-content-6 = Ek thi jawab dek
+about-playbook-how-project-governance-content-7 = Warek asta Ma's, Homa krom as husul
 
 ## How is Common Voice funded
 
 about-playbook-how-funded = Sawin awazas bati ke'n kay Paisa den?
+about-playbook-how-funded-content-1 = sawin awaz project, Mozilla idara (foundation) o US 501c3. shia project as bati rupaya( paisa) madat karaw an pura dunia una den day
+about-playbook-how-funded-content-2 = Ama karikas bati bo ziat rupaya kharcha hin day, michan bati dataset una di'kas bati
+about-playbook-how-funded-content-3 = Tay idara asta pe rupaya de khojiu day haw shisa project as bati, homa som j'ust thi dek bahan
