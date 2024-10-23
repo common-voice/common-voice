@@ -107,3 +107,9 @@ rate-limit-toast-message-minutes =
         [one] ریڈ لمیڈ پو تھلسید، منٹ چیگینگ ینگ ہمبہ بیوس
        *[other] ریڈ لمیڈ پو تھلسید،  ینگ ہمبہ بیوس
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] ریڈ لمیڈ پو تھلسید، سکینڈ چیگینگ ینگ ہمبہ بیوس
+       *[other] ریڈ لمیڈ پو تھلسید،  ینگ ہمبہ بیوس
+    }
