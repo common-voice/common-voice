@@ -19,6 +19,7 @@ record-button-label = chubet'a xtari
 share-title-new = <bold>tisenkanajin</bold> sukusjesaná xta.
 keep-track-profile = Chut'asun tjinguíre jusian tisixá asenri.
 login-to-get-started = Te tsie tsa majen tj'atae yojori jmeni nga kuan ch'atsinre.
+target-segment-first-card = Tiisenkanájin nga kuíchujin chubare ju tjin ya sijé xá kui.
 
 ## Contribution Nav Items
 
