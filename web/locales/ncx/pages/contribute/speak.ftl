@@ -49,3 +49,12 @@ add-information-button = Xiktlali seki motech
 continue-speaking-button = Amo, san manitlajto
 create-profile-text = ¿Tikneki tiktlaatilis itlaj motech? <createProfile>Ximomachoti</createProfile>
 thanks-for-voice-toast = Timitstlasojkamatiliaj tlen otiktlali itech motlajtol
+thanks-for-voice-toast-error = Itlaj omochi. Amo otikselikej tlen otiktlali itech motlajtol
+first-cta-gender-select-default-option = Xikpejpena se
+first-cta-gender-select-help-text =
+    .label = ¿Tikijtoskia titlakatl, tisiuatl noso oktlamantli?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ¡Timitstlasojkamatiliaj techpaleuia ika motlajtol!
+second-cta-subtitle-text = Tla timomachotis, uelis tikitas kanachi yotitechpaleui uan tiyetos inuan oksekimej non noijki tlapaleuiaj.
+already-have-an-account = ¿Yotimomachoti? <login>Xikalaki</login>
+create-profile-button = Ximomachoti
