@@ -39,6 +39,7 @@
 
         [dir='rtl'] & {
             left: 20px;
+            right: unset;
         }
     }
 
