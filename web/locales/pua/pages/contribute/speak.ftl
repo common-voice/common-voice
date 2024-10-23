@@ -34,3 +34,4 @@ review-submit-msg = ¡Diosí mayamu énkari wantakwaechani patsaaka!<lineBreak><
 review-recording = sési exeni
 review-rerecord = Ménteru wentani patasani
 review-cancel = Noteru axani ya
+review-keep-recordings = Wantakwa patsakataechani pakataani
