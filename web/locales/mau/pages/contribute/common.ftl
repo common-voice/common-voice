@@ -33,6 +33,8 @@ contribute-sentence-collection-nav-header = K'uexkú énn.
 login-signup = Tetsie / tj'atae.
 vote-yes = Jon
 vote-no = majen
+datasets = Nkjin skuya.
+languages = énn
 
 ## Reporting
 
