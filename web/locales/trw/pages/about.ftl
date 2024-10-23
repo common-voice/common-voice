@@ -135,3 +135,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink> مھید مُ
 ## How is Common Voice funded
 
 about-playbook-how-funded = کامن وائس کے کھأکأ فنڈ میلاؤ ہودُو؟
+about-playbook-how-funded-content-1 = کامن وائس موزیلا فائنڈیشن سی اے منصوبہ چھی آں ایسی قیمت مھیرے 501 ایک ملین امریکا سی ڈالرا می چھی۔ 3۔ ہے منصوبا مھیرے بُوڑ <philantropicGrantLink> خیر خیرات تے یعنی چندہ آں گرانٹس دے چلَدُو۔ </philantropicGrantLink>
+about-playbook-how-funded-content-2 = ڈیٹا سیٹ سی باش کؤ آں شائع کؤ می چیر پیس ݜیَدی آں ہامُوڑ یی ایِسی بہتر کؤ می آں ایسی ٹین گے <africaMradiLink> کمیوںیٹیا سی پروگرام چلؤ می گن پیس پھورودی۔ </africaMradiLink>
+about-playbook-how-funded-content-3 = کو تُو یا چھی تنظیم اے منصوبہ یے کی دندہ دیؤ نئِمادُو تُو مھید <donateLink> ڈونیشن دے بھادُو </donateLink> یا مُھن دأال سأدا سی ٹیم گے مھید <emailFragment><emailFragment> ای میل دے تُنُو بن بھادُو۔ commonvoice@mozilla.com</emailFragment>
