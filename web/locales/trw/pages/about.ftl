@@ -104,9 +104,12 @@ about-playbook-how-grow-language-content-3 = تُو مھال کآں سرگرمی
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = تُو مے کم سی کیا آں خلگ شیِدؤ سی کیا سوشل میڈیا ہُم استعمال کوبھادُو۔ تُو ایسی بارا می سوشل میڈیا زید پوسٹس شیئر کوبھادُو۔ آں دأل خلگا سیت ہُم شامل ہوبھادُو۔ مھال مسئلہ یرأ سے جیِب سی حغا سی آرٹیفشل انٹیلجنس یا جیِب سی بارا می تعصب سی بارا می ہُم بات کوبھادُو۔ مے پوت زید دیئی ڇھیِڙا بُوا۔ <campaignLink> سوشل میڈیا مہم سی کیا آں مھال مواد سی کیا تیس تُو استعمال کوبھادُو۔ </campaignLink>
 about-playbook-how-grow-language-content-6 = سأت ویلی آں خلگا سی اے جال
+about-playbook-how-grow-language-content-7 = مھال خلگ بُو یرأ سے ہُم ہال کم زید مین تھی۔ ہے یونیورسٹی، جیِبا سی سکول، حغا سی کیا گروپ یا ڈیٹا سائنس سی خلگ ہوبھادی۔ تھأ یے آمن آوا آں بن واضح کہ ہے کا شیئی تُھو آں کئی تُھو۔ <outreachTemplates>۔ مُھن قالب مھید پشابیدُو۔ </outreachTemplates>
+about-playbook-how-grow-language-content-8 = <strong> تخلیقی خلگ پا</strong>۔ چھی جیِب سی خلگے بدل ہونیِن آں أ صرف دھأک شیئی آشی مے کام شروع کؤ سی کیا۔
 
 ## How to validate
 
+about-playbook-how-validate = آواز سی کلپ سی منظور کؤ سی بارا می مأ کھأکأ جن نیِن؟
 
 ## How to access dataset
 
