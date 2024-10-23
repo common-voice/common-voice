@@ -21,6 +21,8 @@ keep-track-profile = Chut'asun tjinguíre jusian tisixá asenri.
 login-to-get-started = Te tsie tsa majen tj'atae yojori jmeni nga kuan ch'atsinre.
 target-segment-first-card = Tiisenkanájin nga kuíchujin chubare ju tjin ya sijé xá kui.
 target-segment-generic-card = Tiisenkaye chubere.
+target-segment-first-banner = tiisenke nga kuanda titjún chubare Common Voice { $locale }
+target-segment-add-voice = Chanijin xtari.
 
 ## Contribution Nav Items
 
