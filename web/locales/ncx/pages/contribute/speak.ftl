@@ -58,3 +58,5 @@ second-cta-header-text = ¡Timitstlasojkamatiliaj techpaleuia ika motlajtol!
 second-cta-subtitle-text = Tla timomachotis, uelis tikitas kanachi yotitechpaleui uan tiyetos inuan oksekimej non noijki tlapaleuiaj.
 already-have-an-account = ¿Yotimomachoti? <login>Xikalaki</login>
 create-profile-button = Ximomachoti
+# IMAGE TAGS
+img-alt-success-checkmark = ¡Yomokak!
