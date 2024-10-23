@@ -64,18 +64,27 @@ about-playbook-how-add-language = ke'n kay warek zuban alim
 about-playbook-how-add-language-content-1 = Awel, tay Zuban jagai, shiaw e ne? ne pe shial'a haw, tay zuban de'kas bati darkhast kari. tara du krom koreli, tarjuma koreli, min jama koreli
 about-playbook-how-add-language-translating-heading = site as tarjuma karik
 about-playbook-how-add-language-translating-content-1 = Homa Video jagaha, pontoon phon pashel
+about-playbook-how-add-language-translating-content-2 = Abi Mozilla tool istimal karik day, tasa kay Pontoon gohan, emi tarjuma karikas bati. Pontoon una bo Zuban shian. Pontoon una ne pe ashis haw, tu darkhast kay di'awaik bahas, tay zuban pe aya site una pron haw phato tarjuma karik bahas
 about-playbook-how-add-language-collecting-sentences-heading = mashkul jama karik
+about-playbook-how-add-language-collecting-sentences-content-1 = Homa phon pashawaw jagaha, se mon asta jama kariu day
+about-playbook-how-add-language-collecting-sentences-content-2 = Tu chutyak mon ze alfaz,chutyak ze ghona awaz khojik bahas, tasa bati Github una shian. te saw thi pashin, tu tan hatya newishik asta bhas
+about-playbook-how-add-language-collecting-sentences-content-3 = Warek mon asta jagai
 
 ## How does localization work
 
 about-playbook-how-localize = Ke'n site mukami krom kariu
 about-playbook-how-localize-content-1 = tarjuma sawin awaz site una <takla> pontoon </takla>.
+about-playbook-how-localize-content-2 = Account sawzai, tay som pe ne shiaw haw, tan zuban una pari, tara o Project una pari. (d'al moch) sawin awaz una pay file una pay angrezi una clik kari, phato tarjuma kari
+about-playbook-how-localize-content-3 = Tarjuma o Angrezi ani kareli. Magar/ leken warek zuban una asta shian. kia ki tarjuma kay shian, te asta pashik hiu.
 about-playbook-how-localize-content-4 = Shia site, 75% pura pe hawaw haw krom kariu
 about-playbook-how-localize-content-5 = homa video ze chi'c'awaw jagai
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = ke'n kay mashkulgi dem
+about-playbook-how-add-sentences-content-1 = Tu awaz, mon, newishik bhas. Warak asta newishik bhas. jagek asta bhas.
+about-playbook-how-add-sentences-content-2 = Alfas ze mon sawin awaz, kam az kam 2 jon thi razi he'ali. Tu tan zuban as bati tem thaielik hiu. saw thi jagek bhan. Tichak awaz ya o alfaz 15 he'alik. kura pe jagan haw homa kay anzai
+about-playbook-how-add-sentences-content-3 = Tu e'li' awaz ze mon, wikipedia una pay asta sawzek bhas, jagek bhas
 
 ## How to record quality
 
@@ -89,8 +98,11 @@ about-playbook-how-record-content-5 = <sahi phon> jagai sahi ajat. </sahimon>
 ## How to grow language
 
 about-playbook-how-grow-language = Ke'n kay abi sawin zuban sawzek
+about-playbook-how-grow-language-content-1 = sawin hatya moka dek, kura ki sawin awaz una krom karin day, den day, banden day, saw thi dataset una asan, abi sawin hatya jonikas bati Nishan sawzek, te istimal kara
 about-playbook-how-grow-language-content-2 = Kia karik
+about-playbook-how-grow-language-content-3 = Tu thara, kia asta purguram thai, mochan pe ghatik bhas. E'a tay sochas pi asta asan. tu video mon ya o ruaw mon dek bhas, tay hatya pe prus't saruis haw. homa nishan asta jagek bhas
 about-playbook-how-grow-language-content-4 = Social Media
+about-playbook-how-grow-language-content-5 = Tu social Media una asta tay to mon, khabar, paigam anzek bhas. warek mochan som asta mon dek bhas. tasi pi puchik asta bhas. Awaz AI asta jonik bhas. kia newishis haw geri istimal karik bhas
 about-playbook-how-grow-language-content-6 = Yawan ze Network
 
 ## How to validate
