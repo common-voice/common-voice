@@ -1,3 +1,5 @@
+action-tap = ქიგუნჭირით
+contribute = წილიშ მიშაღალა
 skip = გჷშატება
 
 ## Contribution Nav Items
