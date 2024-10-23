@@ -21,6 +21,9 @@ report-title = Рапорт егъэхь
 report-offensive-language = Тезэрыгуакӏо бзэ
 report-offensive-language-detail = Гущыӏэухыгъэр лъытэныгъэ зыхэмылъ е тезэрыгуакӏо бзэ.
 report-grammar-or-spelling = Грамматикэ / орфографие хэукъоныгъ
+report-grammar-or-spelling-detail = Гущыӏэухыгъэм грамматикэ е орфографие хэукъоныгъэ горэ иӏ.
+report-different-language = Бзэр шъхьафы
+report-different-language-detail = Сэ сызэрэгущыӏэрэм фэшъхьаф бзэ ар зэрэтхыгъэр.
 
 ## Speak & Listen Shortcuts
 
