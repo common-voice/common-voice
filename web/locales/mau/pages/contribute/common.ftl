@@ -24,9 +24,11 @@ target-segment-generic-card = Tiisenkaye chubere.
 target-segment-first-banner = tiisenke nga kuanda titjún chubare Common Voice { $locale }
 target-segment-add-voice = Chanijin xtari.
 target-segment-learn-more = Me sa xi tjin.
+change-preferences = Sik'antjeya xi tsachaa.
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = kjuatjo xta.
 
 ## Reporting
 
