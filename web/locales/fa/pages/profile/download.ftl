@@ -3,6 +3,7 @@
 download-q = نیاز به بارگیری داده‌های خود دارید؟
 download-info = آنچه را که می‌خواهید بارگیری کنید، به ما بگویید:
 download-profile-title = نمایه
+download-profile-info = شامل رایانامه، نام‌کاربری و اطلاعات جمعیتی، بلافاصله در دسترس است.
 download-profile-size = چند بایت
 download-recordings-title = ضبط شده‌ها
 download-recordings-info = شامل mp3ها و جملات مرتبط است، ممکن است آماده شدن کمی طول بکشد
@@ -25,3 +26,5 @@ download-request-refresh-button = نوسازی
 download-request-modal-title = پیوندهای بارگیری
 download-request-modal-description = در اینجا پیوندهایی برای دریافت پرونده‌های ZIP شما وجود دارد.
 download-request-link-text = ‫Zip شماره { $offset } از { $total }
+download-request-metadata-link = متن جمله
+download-request-link-single = همچنین می‌توانید نشانی اینترنتی‌های مستقیم را در مدیریت دانلود مورد علاقه خود کپی و جای‌گذاری کنید. این پیوند‌ها پس از ۱۲ ساعت منقضی می‌شوند، اما می‌توانید در هر زمان به این صفحه بازگردید و پیوند‌های جدیدی تولید کنید.

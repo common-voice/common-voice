@@ -1,7 +1,7 @@
 ## Datasets Page
 
 datasets-heading = Conchuntos de datos
-datasets-headline = Somos creyando una base de datos de voces, ubierta y multi idioma, que qualsequiera puede usar pa entrenar aplicacions que utilicen la voz como interficie.
+datasets-headline = Somos creyando una base de datos de voces, ubierta y multi idioma, que cualsequiera puede usar pa entrenar aplicacions que utilicen la voz como interficie.
 datasets-positioning =
     Creyemos que las bases de datos amplias y accesibles pa tot lo publico potenciarán la innovación y una sana competencia comercial entre las tecnolochías de voz basadas en l'aprendizache automatico.
     
@@ -82,14 +82,14 @@ data-download-yes = Ell
 data-download-deny = No data-download-license
 data-download-license = Licencia: <licenseLink>CC-0</licenseLink>
 data-download-modal = Yes en momentos d'iniciar la descarga de <size>{ $size }GB</size>, seguir?
-data-subtitle = Somos construyindo un fichero de datos de voces ubierto y disponible publicament que totz puedan usar pa entrenar aplicacions con reconoiximiento de voz.
-data-explanatory-text = Creyemos que los fichers de datos de voz grans y disponibles publicament promueven la innovación y la competencia comercial sana en as tecnolochías de voz basadas en l'aprendizache d'as maquinas. Este ye un esfuerzo mundial y convidamos a totz a participar. Nuestro obchectivo ye aduyar a la tecnolochía de voz a estar mas inclusiva, refleixando la diversidat en as voces de totz.
+data-subtitle = Somos construyindo un fichero de datos de voces ubierto y disponible publicament que toz puedan usar pa entrenar aplicacions con reconoiximiento de voz.
+data-explanatory-text = Creyemos que los fichers de datos de voz grans y disponibles publicament promueven la innovación y la competencia comercial sana en as tecnolochías de voz basadas en l'aprendizache d'as maquinas. Este ye un esfuerzo mundial y convidamos a toz a participar. Nuestro obchectivo ye aduyar a la tecnolochía de voz a estar mas inclusiva, refleixando la diversidat en as voces de toz.
 data-get-started = <speechBlogLink>Empecipiar con o reconoiximiento de voz</speechBlogLink>
 data-other-title = Atros fichers de datos de voz…
 data-other-goto = Ir ta { $name }
 data-other-download = Descargar datos
 data-bundle-button = Descargar paquet de fichero de datos
-data-bundle-description = Datos de Common Voice de conchunta con totz los fichers de datos de voz anteriors.
+data-bundle-description = Datos de Common Voice de conchunta con toz los fichers de datos de voz anteriors.
 release-version = Versión
 dataset-date = Data
 license = Licencia: <licenseLink>{ $license }</licenseLink>

@@ -41,8 +41,8 @@ vote-no = Na
 datasets = Datasets
 languages = Languages
 about = About
-partner = Partner
-submit-form-action = Submit
+partner = Hatant hat
+submit-form-action = Dhadd
 
 ## Reporting
 

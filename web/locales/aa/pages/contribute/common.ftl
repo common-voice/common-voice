@@ -40,7 +40,7 @@ contribute-sentence-collection-nav-header = Maxcâ maafoh Gaaboyso
 login-signup = Cul / Unkuttub
 vote-yes = Yeey
 vote-no = Maleey
-datasets = Oytá-daffes
+datasets = Ware-kobottitte
 languages = Afitte
 about = Kinnuk
 partner = Waklenta
@@ -84,6 +84,8 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Yakkeh yan tasgiil waal
 shortcut-submit = Endeb
 shortcut-submit-label = Xabbitte kobbos
+request-language-text = Isi af uxih Common Voice-l ma tablaa?
+request-language-button = Af Esserit
 
 ## Listen Shortcuts
 
@@ -100,5 +102,8 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = Xiqsissosa
+contribution-criteria-link = Calî xiqsissoosa ced
+contribution-criteria-page-title = Calî xiqsissoosa
 contribution-for-example = ceelalloh
 contribution-volume-title = Kaaya

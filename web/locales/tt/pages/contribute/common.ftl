@@ -36,6 +36,14 @@ change-preferences = Көйләнмәләрне үзгәртү
 
 contribute-voice-collection-nav-header = Тавыш туплау
 contribute-sentence-collection-nav-header = Җөмләләр туплау
+login-signup = Керү / Теркәлү
+vote-yes = Әйе
+vote-no = Юк
+datasets = Мәгълүмат тупланмалары
+languages = Телләр
+about = Хакында
+partner = Партнёр
+submit-form-action = Җибәрү
 
 ## Reporting
 
@@ -103,9 +111,11 @@ contribution-misreadings-description = Сез тыңлаган аудиоязм�
 contribution-misreadings-description-extended-list-1 = Аудиоязма башында сүз яки сүзнең бер өлешен төшереп калдыру. Мәсәлән, "сәлам" урынына "әләм" дип яздыру.
 contribution-misreadings-description-extended-list-2 = Сүз ахырында <strong>"лар/ләр"</strong> төшеп калган.
 contribution-misreadings-description-extended-list-5 = Бер үк сүзне берничә тапкыр укырга тырышу.
+contribution-misreadings-example-1-title = Бу балыклар базарда сатыла.
 contribution-misreadings-example-2-title = Бу балык базарда сатыла.
 contribution-misreadings-example-2-explanation = ["балыклар" булырга тиеш иде]
 contribution-misreadings-example-3-title = Бу балыклар базарда саты-.
+contribution-misreadings-example-4-title = Бу балыклар базарда сатыла. Әйе.
 contribution-misreadings-example-5-title = Без кофе алырга тышка чыгып керергә җыенабыз.
 contribution-misreadings-example-6-title = Без кофе алырга тышка чыгып керергә җыенабыз.
 contribution-misreadings-example-8-explanation = [Туры килмәгән эчтәлек]
@@ -115,5 +125,6 @@ contribution-background-noise-title = Арткы планда шау-шу
 contribution-background-voices-title = Арткы планда тавышлар
 contribution-volume-title = Тавыш көче
 contribution-reader-effects-title = Укучы эффектлары
+contribution-just-unsure-title = Тәгаен белмисезме?
 see-more = <chevron></chevron>Күбрәк
 see-less = <chevron></chevron>Әзрәк

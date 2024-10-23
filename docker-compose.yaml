@@ -1,7 +1,6 @@
-version: '3'
 services:
   db:
-    image: mysql:5.7.44
+    image: mysql:8.0.31
     networks:
       - voice-web
     container_name: db
@@ -11,7 +10,7 @@ services:
       - MYSQL_USER=voicecommons
       - MYSQL_PASSWORD=voicecommons
       - MYSQL_ROOT_PASSWORD=voicewebroot
-    command: mysqld --sql_mode="STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+    command: mysqld --sql_mode="STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION"
     ports:
       - 3306:3306
   redis:
@@ -43,7 +42,7 @@ services:
       context: ./bundler
       dockerfile: Dockerfile
     container_name: bundler
-    user: "${UID:-10001}:${GID:-10001}"
+    user: '${UID:-10001}:${GID:-10001}'
     links:
       - db
       - redis
@@ -60,7 +59,7 @@ services:
       context: .
       dockerfile: docker/Dockerfile
     container_name: web
-    user: "${UID:-10001}:${GID:-10001}"
+    user: '${UID:-10001}:${GID:-10001}'
     links:
       - db
       - redis

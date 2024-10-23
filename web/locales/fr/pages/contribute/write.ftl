@@ -102,6 +102,18 @@ small-batch-instruction = <icon></icon> Ajouter plusieurs phrases du domaine pub
 multiple-sentences-error = Vous ne pouvez pas ajouter plusieurs phrases lors d’un envoi unique
 exceeds-small-batch-limit-error = Impossible de soumettre plus de 1 000 phrases
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Limite dépassée. Veuillez réessayer dans 1 minute.
+       *[other] Limite dépassée. Veuillez réessayer dans { $retryLimit } minutes.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Limite dépassée. Veuillez réessayer dans 1 seconde.
+       *[other] Limite dépassée. Veuillez réessayer dans { $retryLimit } secondes.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
         [one] Vous avez atteint la limite d’envoi pour cette page. Veuillez attendre 1 minute avant d’envoyer une autre phrase. Merci pour votre patience !

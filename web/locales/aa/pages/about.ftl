@@ -1,6 +1,9 @@
 ## ABOUT US
 
 about-title = Common Voice macah?
+about-header-description-v2 =
+    <p>Common Voice sadarah tan warê-kobotto, baadal tan labbatli cali abah xongoloolah qaawel gexak. Xongoloh abnisso xisam faxa mari maashin bartiyyih weleelah aydakaakanih warê-kobottot xoqoysimam duudah.</p>
+    <p>Awayih ibak, mango xongoloh warê-kobotitte koppanitteh ikoyta, toh qusbanna qurissah. Xongoloh warê-kobotitte kaadu addah awlaytissa: Ingliiz afat yabte waa mara , biso le mara, qerkalla le mara, sayyoo kee LGBTQIA+ mara. Tah yaanam, xongolô teknolooji mango afitteh inkihinna ma  taamittam kee, elle taamitta aracal kulli numuh qeedaalal duddaaliytam mabta. Nanu kulli aracal yan mari isi xongolo akah kurutan innah uguguus abak tamah milaagnah fannam.</p>
 how-does-it-work-title-v2 = Common Voice mannal taamitaa?
 
 ## How does it work section
@@ -16,13 +19,14 @@ about-voice-contrib-title = Xongoloh Cali
 about-voice-contrib-subtitle = Sinam tamaateh sinni xongolo cali abta.
 about-voice-validation-title = Xongoloh Ceesaasa
 about-voice-validation-subtitle = Gersi mari woo xongoloh xabbabitte ceesaasah.
-about-dataset-release-title = Oytá-daffes figda
-about-dataset-release-subtitle = Nanu kulli 3 alsal Oytá-daffes figda abna.
+about-dataset-release-title = Ware-kobottitteh figda
+about-dataset-release-subtitle = Nanu kulli 3 alsal ware-kobottoh figda abna.
 about-subscribe-text = Common Voice't tangoorowem faxxaa?
 about-speak = Yab
+about-speak-text = Cali aba tontocowweh tan maxcâ maafoofah bankik kawisak xongô xabitte tasiggile.
 about-listen-queue = Ankacis-daami
 about-listen = Ankacis
-about-dataset-new = Common Voice Oytá-daffes
+about-dataset-new = Common Voice Ware-kobotto
 about-get-involved = Edde engel
 about-nav-why-common-voice = Macah ?
 about-nav-how-it-works = Mannal ?

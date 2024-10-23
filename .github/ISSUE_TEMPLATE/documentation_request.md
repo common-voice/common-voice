@@ -17,7 +17,7 @@ Is this a request for **new documentation**? An **update**? Or a **change** to e
 If this is a request to create **new** documentation, what do you think is important to include?
 <br>
 
-If this is a request to **update** existing documention, what needs to be updated?
+If this is a request to **update** existing documentation, what needs to be updated?
 <br>
 
 If this is a request to **change** existing documentation, what needs to be changed? 

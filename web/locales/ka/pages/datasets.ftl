@@ -18,10 +18,12 @@ validated-hr-total = დამოწმებული სთ სულ
 overall-hr-total = საერთო ჯამში სთ
 cv-license = ლიცენზია
 audio-format = ხმის ფორმატი
+dataset-splits = დანაწილება (ასაკით და სქესით)
 number-of-voices = ხმების რაოდენობა
 splits = დანაწილება
 email-to-download = შეიყვანეთ ელფოსტა ჩამოსატვირთად
 why-email = <b>რა საჭიროა ელფოსტა?</b> ჩვენ შესაძლოა, დაგვჭირდეს მომავალში თქვენთან დაკავშირება მონაცემთა ბაზაში შეტანილი ცვლილებების თაობაზე, ელფოსტა კი ამის საშუალებას მოგვცემს.
+why-donate-datasets-page = Mozilla Common Voice მსოფლიოში ყველაზე მრავალფეროვანი სახალხო ჩართულობით შექმნილი ღია წყაროს ხმოვან მონაცემთა კრებულია –  და სრულად ფინანსდება შემოწირულობებით. ყოველწლიურად მილიონ დოლარს აღწევს მონაცემთა კრებულების განთავსებისა და მომსახურების გასაუმჯობესებლად გაწეული ხარჯები 100-ზე მეტი ენისგან შემდგარი ერთობისთვის, რომელიც მხოლოდ ჩვენზეა დამოკიდებული. თუ თქვენთვის ღირებულია მონაცემთა გახსნილობა და მრავალფეროვნება – <b>გაიღეთ შემოწირულობა ახლავე!</b>
 confirm-size = მზად ხართ, რომ ჩამოიტვირთოს <b>{ $size }</b>
 size-gigabyte = გბ
 size-megabyte = მბ
@@ -40,6 +42,8 @@ subscribe = გამოწერა
 get-started-speech = ხმის ამოცნობის საშუალებების გაცნობა
 other-datasets = სხვა ხმოვან მონაცემთა კრებულები
 feedback-q = გსურთ გამოხმაურება?
+# This indicates that there is no data to display
+no-information = მონაცემები არაა
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ არის <docsLink>ღია წყაროს ხელსაწყოების ნაკრები</docsLink> მკვლევართათვის უახლესი სახის AI-მოდელების შესამუშავებლად.
 resource-deepspeech-info = Mozilla-ს ღია წყაროს ხმის ამომცნობი ძრავა Deep Speech, შეგიძლიათ გამოიყენოთ თქვენი ხმის ამომცნობი პროგრამებისთვის. იხილეთ ჩვენი <githubLink>Github-მიმოხილვა</githubLink> ან შემოგვიერთდით <discourseLink>DeepSpeech-ის სასაუბროში</discourseLink> ვრცლად გასაცნობად და მუშაობის დასაწყებად.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> განკუთვნილია ხმის ამომცნობი ღია საშუალებებისთვის. მათი ნამუშევრები შეეხება სიღრმისეული შესწავლის ხერხებს STT- და TTS-ძრავების საფუძველზე.
@@ -62,6 +66,15 @@ dataset-version = ვერსია
 sha256-checksum-copied = SHA256-სადარჯამის ასლი აღებულია!
 sha256-checksum-copied-error = SHA256-სადარჯამის ასლის აღება ვერ მოხერხდა
 clipboard-not-supported = ასლის აღება არაა მხარდაჭერილი
+no-information-available = მონაცემები მიუწვდომელია
+dataset-metadata-sex = სქესი
+# dataset metadata - age of contributor
+dataset-metadata-age = ასაკი
+donate-modal-message = თქვენი კრებული ჩამოიტვირთება!
+dataset-donate-modal-heading = იცოდით…
+donate-modal-explanation-1 = ყოველწლიურად მილიონ დოლარს აღწევს მონაცემთა კრებულების განთავსებისა და მომსახურების გასაუმჯობესებლად გაწეული ხარჯები 100-ზე მეტი ენისგან შემდგარი ერთობისთვის, რომელიც სრულადაა ჩვენზე დამოკიდებული.
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>თუ თქვენთვის ღირებულია გახსნილი და მრავალფეროვანი მონაცემები – გაიღეთ შემოწირულობა ახლავე!</bold>
 data-download-singleword-title = ჩამოტვირთეთ ცალკეული სიტყვების მიზნობრივი კრებული
 data-download-singleword-callout-v2 = მოხმარების კვლევის საფუძველზე შედგენილი კრებული ციფრებისა და დიახ/არა ხმოვანი ბრძანებების ამოცნობის დასახვეწად.
 data-download-button = Common Voice მონაცემების ჩამოტვირთვა

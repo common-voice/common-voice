@@ -5,12 +5,14 @@ write-instruction = Embojuaju <icon></icon> ñe’ẽjuaju ojeporukuaáva
 write-page-subtitle = Umi ñe’ẽjuaju jehupipyre ojuajúta mba’ekuaarã aty ñemoneĩmbyre cc-0 opavave oiporukuaáva.
 sentence =
     .label = Ñe’ẽjoaju
-sentence-input-value = Ehai ko’ápe ne ñe’ẽjuaju opavave oiporukuaáva
+sentence-input-placeholder = Ehai ko’ápe ne ñe’ẽjuaju opavave oiporukuaáva
+small-batch-sentence-input-placeholder = Ehai ne ñe’ẽjuajuku opavave oiporukuaáva
 citation-input-placeholder = Ñe’ẽjuaju reñoiha rehegua (katuete)
 citation =
     .label = Jehechauka
 sc-write-submit-confirm = Amoneĩ ko ñe’ẽjuaju ha’eha <wikipediaLink>opavave oiporukuaáva</wikipediaLink> ha areko ñemoneĩ ahupi hag̃ua.
 sc-review-write-title = Mba’e ñe’ẽjuajúpa ahaikuaa
+sc-review-small-batch-title = Mba’éicha embojuajukuaa heta ñe’ẽjoaju
 new-sentence-rule-1 = <no Copyright>Apohare ndaideréchoi</no Copyright> jejoko (<cc0>cc0</cc0>)
 new-sentence-rule-2 = Sa’ieteve 15 ñe’ẽgui
 new-sentence-rule-3 = Eiporu ñe’ẽtekuaa ha’etéva
@@ -19,6 +21,7 @@ new-sentence-rule-5 = Papapy ha tai’aty ojeporu’iveva’ỹre
 new-sentence-rule-6 = Tai pytagua’ỹre
 new-sentence-rule-7 = Emoinge jehaikue hekopeguáva
 new-sentence-rule-8 = Hekojera añetete ha eñomongetakuaa ipype (ndahasyichéne ñe’ẽjoaju ñemoñe’ẽ)
+login-instruction-multiple-sentences = <loginLink>Eñepyrũ tembiapo</loginLink> térã <loginLink>Eñemboheraguapy</loginLink> embojuaju hag̃ua heta ñe’ẽjuaju
 how-to-cite = Mba’éichapa ahechaukáta
 how-to-cite-explanation-bold = Emombe’u URL juajuha térã tembiapokue réra rupive.
 how-to-cite-explanation = Ne ñe’ẽngueteéramo, ereva’erã <italicizedText>“Jehojehegui”</italicizedText>. Roikuaase mo’õitépa rejuhu ko tetepy roikumby hag̃ua ha’épa opavave oiporukuaáva ha nadiporiha apohare derécho. Eñemomaranduve hag̃ua ko’ãva rehegua, eporandu ore <guidelinesLink>kuatiarogue rekoguata</guidelinesLink>.
@@ -28,9 +31,11 @@ add-sentence-success = 1 ñe’ẽjuaju mbyatypyre
 add-sentence-error = Ojavy ehupívo ñe’ẽjuaju
 required-field = Emyanyhẽmína ko tenda.
 single-sentence-submission = Emondo peteĩ ñe’ẽjoaju año
+small-batch-sentence-submission = Emondo ñe’ẽjoajukuéra sa’isa’i
 bulk-sentence-submission = Emondo heta ñe’ẽjoaju
 single-sentence = Peteĩ ñe’ẽjoaju
-bulk-sentences = Heta ñe’ẽjoaju
+small-batch-sentence = Sa’isa’i
+bulk-sentence = Tuichaháicha
 sentence-domain-combobox-label = Ñe’ẽjuaju rendatee
 sentence-domain-select-placeholder = Eiporavo mbohapy tendatee peve
 # Sentence Domain dropdown option
@@ -88,3 +93,33 @@ file-invalid-type = Marandurenda ndoikóiva
 file-too-large = Marandurenda tuichaiterei
 file-too-small = Marandurenda michĩeterei
 too-many-files = Heta marandurenda
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Embojuaju heta ñe’ẽjuaju ojeporukuaáva
+multiple-sentences-error = Nerembojuajukuaái heta ñe’ẽjuaju ojeporukuaáva
+exceeds-small-batch-limit-error = Ndaikatúi erahauka hetave 1000 ñe’ẽjuajúgui
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Ehasáma ipya’ekue. Eha’ã jey ohasa rire 1 aravo’i
+       *[other] Ehasáma ipya’ekue. Eha’ã jey ohasa rire { $retryLimit } aravo’i
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Ehasáma ipya’ekue. Eha’ã jey ohasa rire 1 aravo’ive
+       *[other] Ehasáma ipya’ekue. Eha’ã jey ohasa rire { $retryLimit } aravo’ive
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } 1 ñe’ẽjuaju mbyatypyre
+       *[other] { $uploadedSentences } { $totalSentences } ñe’ẽjuaju mbyatypyre
+    }
+small-batch-sentences-rule-1 = Eho ko tapére “¿Mba’e ñe’ẽjuaju ambojuapykuaa?”
+small-batch-sentences-rule-2 = Ehai peteĩ ñe’ẽjuaju tairendápe
+small-batch-sentences-rule-4 = Embojuaju 1.000 ñe’ẽjuaju peve
+small-batch-sentences-rule-5 = Opaite ñe’ẽjuaju orekova’erã peteĩ tendatee
+small-batch-sentences-rule-6 = Opaite ñe’ẽjuaju orekova’erã peteĩ je’epy
