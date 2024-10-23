@@ -2,7 +2,7 @@ speak = راوے
 speak-now = ہنیسے راوے
 speak-subtitle = تان آوازو دیت
 record-cta = رکارڈ کوریک شروع کو
-record-platform-not-supported = افسوس کوسیان! تہ ژاغو تین ہایا ٹائمہ مدد کورین نو بویان۔
+record-platform-not-supported = افسوس کوسیان! تہ پلیٹ فارمو  ہایا ٹائمہ مدد کورین نو بویان۔
 record-platform-not-supported-desktop = تو ڈونلوڈ کوری ڈسک ٹاپ مشینو سورا حصہ گنیکو بوس
 record-platform-not-supported-ios-non-safari = iOS  please continue with Safari to enable recording…
 record-must-allow-microphone = تہ میکو تین راح دیلیک بوئے
@@ -54,9 +54,9 @@ first-cta-gender-select-default-option = ای طریقو گنے
 first-cta-gender-select-help-text =
     .label = تو کیمیریا موش رے، کچہ کوری وضاحت کو
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = تان آوازہ دیکو بچین اسپتہ تہ منادار
-second-cta-subtitle-text = پوروفائلو سورا مہ کوروم کندوری ہوئی رے پتہ کوس۔  تان آوازان دییاک رویان سون بلد بوس
-already-have-an-account = پوشٹیار کی اکاونٹ شیر؟ <login>لاگ ان</login>
-create-profile-button = تان پروفائلو ساوزاوے
+second-cta-header-text = تان آوازو دیکو بچین اسپہ تہ منادار
+second-cta-subtitle-text = پروفائلو سورا مہ کوروم کندوری ہوئی رے پتہ کوس۔  تان آوازان دییاک رویان سون بلد بوس
+already-have-an-account = پوشٹیار کی اکاونٹ شیر؟ <login>لاگ ان</login> بوس
+create-profile-button = آی پروفائل ساوزاوے
 # IMAGE TAGS
-img-alt-success-checkmark = کامیابیو  نشان
+img-alt-success-checkmark = کامیابیو نݰان
