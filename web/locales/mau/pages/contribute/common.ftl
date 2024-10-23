@@ -35,6 +35,7 @@ vote-yes = Jon
 vote-no = majen
 datasets = Nkjin skuya.
 languages = énn
+about = nchjaya
 
 ## Reporting
 
