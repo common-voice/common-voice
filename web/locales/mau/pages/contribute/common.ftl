@@ -36,6 +36,7 @@ vote-no = majen
 datasets = Nkjin skuya.
 languages = énn
 about = nchjaya
+partner = Tinyakanajin
 
 ## Reporting
 
