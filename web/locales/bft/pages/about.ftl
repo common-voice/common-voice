@@ -9,6 +9,16 @@ how-does-it-work-text = نایاسی ہرمغینگ نہ چوق لا تھوبی 
 
 about-language-req-subtitle = چیگی سکت چک ایڈ بیس زیرید
 about-localization-title = ویب ساٸٹی کھور کھار
+about-localization-subtitle = ویب ساٸٹی ٹیکسٹ پو دے سکت پینگ لزوق پن
+about-sentence-collection-title = تم فسق
+about-sentence-collection-subtitle = میونگلا سکت تنگسے زیرچوکپہ لا تم سیر کن زدمسے کھیونگمن
+about-new-lang-title = نٸی سکت چک فیونگ
+about-new-lang-subtitle = نیاسی دی سکت پینگ کامن واٸس ساٸٹ فیونگمن
+about-voice-contrib-title = سکت من
+about-voice-contrib-subtitle = میونگ اونگمن دیکھنہ کھوتی سکت کن منمن
+about-voice-validation-title = سکت بزور
+about-voice-validation-subtitle = اے میونگی دے سکاتی کلپ کن بزوربن
+about-dataset-release-title = ڈیٹا سیٹ فودے تنگمہ
 
 ## Community Playbook Content
 ## What is a language
