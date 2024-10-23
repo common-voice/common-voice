@@ -7,3 +7,4 @@ listen-empty-state-variants = Teeme ki iniwae waasi taamo pachamia audiochi naew
 listen-loading-error = Ki kawisiteru teeme tekimia puuka audiochi . Weikachuri ari oinepa yoraka enchi.
 listen-abort-title = ¿Kajunaremu yooma werificandomia., sii kaawe  manía puu ejemplochi?
 listen-abort-cancel = Simitenaremu yoraka werificandoka,,..sii kawe mania puu ejemplochi toatiame.
+listen-abort-confirm = ¿Yooma kajunaremu revisandoka?
