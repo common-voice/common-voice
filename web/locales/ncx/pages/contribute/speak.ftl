@@ -41,3 +41,4 @@ terms-agree = Kuali
 terms-disagree = Amo nechpaktia
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = ¡Timitstlasojkamatiliaj techtiokolilia motlajtol!
+first-cta-subtitle-text = Tla techiluis okachi motech, techpaleuis okachi titesepanpaleuikan
