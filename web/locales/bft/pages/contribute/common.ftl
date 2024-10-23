@@ -10,10 +10,10 @@ clips-with-count-pluralized =
        *[other] کلپ کن
     }
 goal-help-recording = یانگی روخ بیسید، کامن واٸیس، نٸی جغی، زون لوکھسینگ
-goal-help-validation = یانگی کامن وایس لا روخ بیسید
+goal-help-validation = یانگی کامن واٸس لا روخ بیسید، نٸی جغی مقصدی لوکھسینگنو
 contribute-more =
     { $count ->
-        [one] تیار یودا؟
+        [one] بیا لا تیار یودا؟
        *[other] ینگ ریسپا چک؟
     }
 speak-empty-state = نیی دیکھہ دی سکت پینگ سپیرا زونمہ لا ینگ کڑا مید
