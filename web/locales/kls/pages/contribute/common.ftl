@@ -4,6 +4,22 @@ contribute = De
 review = Jagai
 skip = Histi
 shortcuts = Chutyak
+clips-with-count-pluralized =
+    { $count ->
+        [one] <ghona> { $count } <ghona> che'lak
+       *[other] <ghona> { $count } >Che'lak
+    }
+goal-help-recording = Tu madat ari ala' zalikas bati. <goalpercentage> homa har aduaw recarding as nishan
+goal-help-validation = Tu madat ari ala' zalikas bati, sahi karikas bati
+contribute-more =
+    { $count ->
+        [one] Ek (1) warek asta karikas hatya tayar e
+       *[other] Warek (2)
+    }
+speak-empty-state = Homa zuban ani mon khul hawan
+no-sentences-for-variants = Tay Zuban khul hawaw, tu pe sahi as haw, settings una pay tan zuban una pay warek mon khoji
+speak-empty-state-cta = Mon de
+speak-loading-error = Homa som kia mon ya o alfaz ne shian dekas bati. Geri khushush kari
 
 ## Contribution Nav Items
 
