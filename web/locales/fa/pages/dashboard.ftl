@@ -41,15 +41,15 @@ finish-editing = ویرایش را نخست تمام کنیم؟
 lose-changes-warning = اگر اکنون خارج شوید باعث از بین رفتن تغییرات شما می شود
 build-custom-goal = یک هدف سفارشی بسازید
 help-reach-hours-pluralized =
-    با یک هدف شخصی در رسیدن به{ NUMBER($hours) ->
-        [one] { $hours } ساعت
-       *[other] { $hours } ساعت
-    } در { $language } کمک کنید
+    { NUMBER($hours) ->
+        [one] با یک هدف شخصی در رسیدن به { $hours } ساعت در { $language } کمک کنید
+       *[other] با یک هدف شخصی در رسیدن به { $hours } ساعت در { $language } کمک کنید
+    }
 help-reach-hours-general-pluralized =
-    با یک هدف شخصی آواهای مشترک را در رسیدن به{ NUMBER($hours) ->
-        [one] { $hours } ساعت
-       *[other] { $hours } ساعت
-    } در یک زبان کمک کنید
+    { NUMBER($hours) ->
+        [one] با یک هدف شخصی آوای مشترک را در رسیدن به { $hours } ساعت در یک زبان کمک کنید
+       *[other] با یک هدف شخصی آوای مشترک را در رسیدن به { $hours } ساعت در یک زبان کمک کنید
+    }
 set-a-goal = یک هدف تنظیم کنید
 cant-decide = نمی‌توانید تصمیم بگیرید؟
 activity-needed-calculation-plural =
