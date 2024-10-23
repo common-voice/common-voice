@@ -585,7 +585,8 @@
             padding-inline-end: 40px;
 
             [dir='rtl'] & {
-                left: 100%;
+                left: 100% !important;
+                right: unset;
             }
         }
     }
