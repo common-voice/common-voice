@@ -58,11 +58,11 @@ body,
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 100vh;
     max-height: 100%;
 }
 
-#main.write, #main.review {
+#main.write,
+#main.review {
     @media (--md-down) {
         height: auto;
     }
@@ -72,10 +72,15 @@ body,
     &.nav-modal-active {
         @media (--lg-down) {
             overflow-y: hidden;
+            height: 100vh;
 
             & .header {
                 display: flex;
             }
+        }
+
+        .secondary-nav {
+            display: none;
         }
     }
 }
@@ -156,11 +161,15 @@ button {
     position: relative;
     background-color: var(--white);
 
+    display: flex;
+    flex-direction: column;
+
     &.speak,
     &.listen,
     &.write,
-    &.review  {
+    &.review {
         max-height: calc(100dvh - 2px);
+        height: 100vh;
 
         & header {
             @media (--lg-down) {

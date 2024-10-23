@@ -1,14 +1,17 @@
 @import url('../../../media.css');
 
 .contribute-menu {
-    cursor: default;
     align-items: center;
     height: 100%;
+    border: none;
+    border-bottom: 4px solid transparent;
 
-    &.active {
-        & .contribute-links-wrapper {
-            border-bottom: 4px solid var(--blue);
-        }
+    & .contribute-links-wrapper {
+        border-bottom: 4px solid transparent;
+    }
+
+    &.active .contribute-links-wrapper {
+        border-bottom: 4px solid var(--blue);
     }
 
     & svg {
@@ -20,55 +23,57 @@
         align-items: flex-start;
     }
 
-    & .contribute-links-wrapper {
+    .contribute-links-wrapper,
+    .menu-wrapper {
         display: flex;
         align-items: center;
         height: 100%;
 
-        &.show-border {
-            border-bottom: 4px solid var(--black);
-
-            & .nav-link-item {
-                margin-inline-end: 0;
-            }
-        }
-
         @media (--lg-down) {
             display: none;
         }
     }
 
-    & .menu-wrapper {
+    .menu-wrapper {
         position: relative;
+        display: none;
 
         @media (--lg-down) {
             display: none;
         }
     }
 
-    & .menu {
+    &.active .menu-wrapper {
+        display: flex;
+
+        @media (--lg-down) {
+            display: none;
+        }
+    }
+
+    .menu {
         display: none;
         flex-direction: column;
         position: absolute;
         top: 0;
+        cursor: default;
 
         [dir='ltr'] & {
-            left: -20px;
+            left: -30px;
         }
 
         [dir='rtl'] & {
-            right: -20px;
+            right: -30px;
         }
 
-        & .menu-list {
+        .menu-list {
             display: flex;
             background: var(--white);
             box-shadow: 0 2px 5px 0 var(--light-grey);
 
-            & .vertical-line {
-                border-left: 1px solid var(--grey);
-                margin-top: 24px;
-                margin-bottom: 24px;
+            .vertical-line {
+                border-inline-start: 1px solid var(--grey);
+                margin: 24px 0;
                 height: 100px;
 
                 @media (--md-down) {
@@ -77,84 +82,106 @@
             }
         }
 
-        & ul {
+        ul {
             list-style: none;
             margin: 0;
-            width: 200px;
-            padding: 20px 32px 32px 30px;
+            width: 350px;
+            padding: 20px 10px 24px 20px;
 
-            & li {
+            li {
                 margin-left: 12px;
                 margin-bottom: 20px;
                 width: fit-content;
 
-                & .content {
+                .content {
                     display: flex;
                     align-items: center;
+                    gap: 10px;
 
-                    & a {
+                    a {
                         overflow: hidden;
                         text-overflow: ellipsis;
-                        width: 150px;
+                    }
+
+                    &.coming-soon p {
+                        color: var(--warm-grey);
+                        cursor: default;
+
+                        span {
+                            font-size: var(--font-size-xs);
+                        }
+                    }
+
+                    &.coming-soon .chat-bubble-icon {
+                        align-self: flex-end;
+                    }
+
+                    &.coming-soon path {
+                        fill: var(--warm-grey);
                     }
                 }
 
-                & .list-items-wrapper {
-                    div {
-                        display: flex;
-                        align-items: center;
-                    }
+                .list-items-wrapper div {
+                    display: flex;
+                    align-items: center;
                 }
 
-                & svg {
+                svg {
                     width: 16px;
                     height: 16px;
+                    path {
+                        fill: var(--black);
+                    }
+
+                    &.mic-icon path {
+                        fill: var(--red);
+                    }
+
+                    &.play-icon path {
+                        fill: var(--valid-green);
+                    }
+
+                    &.edit-icon path {
+                        fill: var(--blue);
+                    }
+
+                    &.review-icon path {
+                        fill: var(--light-purple);
+                    }
                 }
             }
 
-            & li:last-child {
+            li:last-child {
                 margin-bottom: 0;
                 padding-bottom: 4px;
             }
 
-            & li.write,
+            li.write,
             li.review {
                 margin-left: 2px;
             }
         }
 
-        & a {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+        a.contribute-link,
+        p {
             font-weight: 400;
             text-transform: capitalize;
             font-size: 16px;
+            padding: 0;
         }
     }
 
-    &.active {
-        & .menu {
-            display: flex;
-        }
-
-        & .nav-link-item {
-            color: var(--blue);
-        }
-
-        & svg {
-            fill: var(--blue);
-        }
+    &.active .menu {
+        display: flex;
     }
 
-    & .nav-header-item {
+    .nav-header-item {
         text-transform: uppercase;
         font-family: var(--base-font-family);
         font-size: var(--font-size-xs);
         font-weight: 600;
         color: var(--warm-grey);
-        margin-block-start: 20px;
-        margin-block-end: 8px;
+        margin: 20px 0 8px;
 
         @media (--lg-down) {
             margin-inline-start: 30px;
@@ -165,45 +192,56 @@
         }
     }
 
-    & .rotate-180 {
+    .rotate-180 {
         transform: rotate(180deg);
     }
 
-    & .menu-wrapper-mobile {
+    .menu-wrapper-mobile {
         width: 100%;
-        padding-bottom: 8px;
 
-        & .mobile-menu-list {
+        .mobile-menu-list {
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            height: 100%;
+
+            .content-container {
+                height: 100%;
+            }
         }
 
         @media (--xl-up) {
             display: none;
         }
 
-        & ul {
+        ul {
             list-style: none;
             margin: 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
 
-            & li {
+            li {
                 display: flex;
                 flex-wrap: wrap;
+                flex-grow: 1;
                 align-items: end;
-                margin-block-end: 8px;
+                margin-block-end: 12px;
 
-                & .content {
+                .content {
                     display: flex;
                     align-items: end;
                     margin-inline-start: 30px;
+                    width: 100%;
 
-                    & .contribute-link {
+                    .contribute-link {
                         margin-inline-start: 8px;
                         margin-inline-end: 0;
                     }
                 }
 
-                & .list-items-wrapper {
+                .list-items-wrapper {
                     @media (--lg-down) {
                         display: flex;
                         flex-direction: column;
@@ -216,46 +254,54 @@
                     }
                 }
 
-                & svg {
+                svg {
                     width: 16px;
                     height: 16px;
-                    margin-bottom: 2px;
+                    margin-block-end: 2px;
+
+                    &.chat-bubble-icon {
+                        margin-block-end: 0;
+                    }
+
+                    &.mic-icon path {
+                        fill: var(--red);
+                    }
+
+                    &.play-icon path {
+                        fill: var(--valid-green);
+                    }
+
+                    &.edit-icon path {
+                        fill: var(--blue);
+                    }
+
+                    &.review-icon path {
+                        fill: var(--light-purple);
+                    }
                 }
             }
 
-            & li.selected-option {
+            li.selected-option {
                 background: var(--lighter-grey);
 
-                & .content {
+                .content {
                     border-bottom: 1px solid var(--blue);
                     margin-block-end: 8px;
                 }
 
-                & a {
+                a {
                     color: var(--blue);
                 }
 
-                & g,
+                g,
                 path {
                     fill: var(--blue);
                 }
             }
 
-            & li:last-child {
+            li:last-child {
                 margin-bottom: 0;
             }
-        }
-    }
-
-    & li.write {
-        path {
-            fill: var(--blue);
-        }
-    }
-
-    & li.review {
-        path {
-            fill: var(--light-purple);
         }
     }
 }
