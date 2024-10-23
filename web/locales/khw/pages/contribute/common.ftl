@@ -9,6 +9,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> اسکوردی آواز
        *[other] <bold>{ $count }</bold>  اسکوردی آواز
     }
+goal-help-recording = توکمان وائسو روذانہ <goalPercentage></goalPercentage>  { $goalValue } رکارڈ کوریکا مدد ارو
+goal-help-validation = توکمان وائسو روذانہ <goalPercentage></goalPercentage>  { $goalValue } رکارڈ کوریکا مدد ارو
 contribute-more =
     { $count ->
        *[other] { $count } خور کوریکو بچین تیارا ?
@@ -99,8 +101,10 @@ shortcut-vote-no = این
 contribution-criteria-nav = اصول
 contribution-criteria-link = حصہ گنیکو اصول تہ تین پتہ بائے
 contribution-criteria-page-title = حصہ گنیکو اصول
+contribution-criteria-page-description = ہیا لوو ہوش کوکی آوازو کار کی کورا اوشوو کیا اشناریو ڑوڑیلیک وا تان آوازو جام کوریکو بچین مدد کو
 contribution-for-example = مثالو تورا
 contribution-misreadings-title = غلط ریک
+contribution-misreadings-description = کار کوریکو موژی، جام غورو سورا چیک کوکیاٰغ کی رکارڈ بیتی شیر نویشیرو دی اسیتان؛ معمولی غلطی دی کی اشوئے مسترد کو۔ <br /> بو عام غلطیاں موژی ہمیت شامل شینی:
 contribution-misreadings-description-extended-list-4 = رکارڈنگو تیز چھینیکو وجہین دیتی  لفظو اخرو چھینیک
 contribution-misreadings-description-extended-list-5 = ای لفظو ریکو پچین امبوخ کوشش کوریک
 contribution-misreadings-example-5-title = اسپہ بیری کافی پیاو بیسیان
