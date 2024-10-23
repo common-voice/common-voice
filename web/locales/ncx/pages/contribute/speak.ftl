@@ -37,3 +37,7 @@ review-cancel = Amo xiktitlani
 review-keep-recordings = Ijkon mamokaua
 review-delete-recordings = Xikinpojpolo
 review-terms = Ijkuak tiktekitiltia Common Voice, tikselia<termsLink>Tlanauatilmej</termsLink> uan <privacyLink>Ken tiktekitiltia tlen nikan tiktlalilia</privacyLink>
+terms-agree = Kuali
+terms-disagree = Amo nechpaktia
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ¡Timitstlasojkamatiliaj techtiokolilia motlajtol!
