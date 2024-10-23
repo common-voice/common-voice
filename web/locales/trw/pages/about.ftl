@@ -119,9 +119,19 @@ about-playbook-how-validate-content-4 = کو اے کلپ دُو خلگے رد ک
 
 about-playbook-how-access-dataset = آ ڈیٹا سیٹ کے کھأکأ آوئی آں ایس استعمال کیئی؟
 about-playbook-how-access-dataset-content-1 = تُو ڈیٹا سیٹ <datasetsPage> سی مُو یے </datasetsPage> بش بھادُو۔ ہید ایسی نم ورژن بُو آں کامے جیِب یأ تُو نیِمادُو تھأ بُو۔ بھی ایس ڈائںلوڈ کو۔ ہأ موادا می میٹا ڈیٹا ہودی<metadataLink> یأمنے آبادی سی معلومات آں تصدیق سی ڈیٹا۔ تھے یے پکار تُھو ای میل ایڈریس دے آں بھی اے ڈیٹا ڈائنلوڈ کو۔
+about-playbook-how-access-dataset-content-2 = کو تُو مھال شیئی بھیراڑُودُو کیندے یأمنے ASR ماڈل سوابیَدیدا تُو مُھن مے سائٹ زید دأل خلگا سیت میِل بھادُو <discourseLink> آں بات کوبھادُو۔</discourseLink>
 
 ## How are decisions made
 
+about-playbook-how-project-governance = منصوبہ سی فیصلہ کھأکأ کوا بیَدی؟
+about-playbook-how-project-governance-content-1 = موزیلا کامن وائس سی مںصوبہ بُوڑ دُونیئی ما جیِبا سی کارکُنے، ڈیٹا سی سائنسدانے، علمی پوتا سی خلگے آں سوفٹ وئیر انجنئیرز یے سوادتُو۔ اے منصوبہ سی خذمت موزیلا فاؤنڈیشن کودُو۔
+about-playbook-how-project-governance-content-2 = مُھن انتظام سی بنیاد مھأ تُھونا زید تُھو:
+about-playbook-how-project-governance-content-3 = پرائیوسی، سلامتی آں آخکارا
+about-playbook-how-project-governance-content-4 = خلگا سی شریک ہؤ فیصلہ کؤ می۔
+about-playbook-how-project-governance-content-5 = قدر آں منُو۔
+about-playbook-how-project-governance-content-6 = ایک دیئی ما توَس/جواب دہی
+about-playbook-how-project-governance-content-7 = <governanceLink> مھید مُوٹھایے بُو یرأ مھو کھأکأ نظم انتظام کودی۔ </governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن وائس کے کھأکأ فنڈ میلاؤ ہودُو؟
