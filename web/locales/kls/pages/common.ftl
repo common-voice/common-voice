@@ -292,3 +292,6 @@ donate-banner-cta = Homa tay madad as zarurat (ajat)
 donate-banner-cta-explanation = Dataset sawzaikas bati, har k'ala' million dallar kharcha hiu day, 100 zuban una tarjuma karikas bati, tu pe bahas haw, kholaw kay data homa dek bahas
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = tay CV istimal karis e malumat khojikas bati?
+languages-donate-banner-cta-explanation = Sawin awaz as bati, warek kas pe rupaya ze kas yawan hula rupaya an thara sauz thi shiaw, abi khoshai warek asta kas som jus thi, idara an som, malumat khojaw an som ek thinkrom karik day. sawin awaz free shiaw, kura ki homa som jus thi rupaya grikas bati darkhas newishelik hawaw haw bo prus't hiu
+localization-select =
+    .label = Zuban khoji, tan awaz una
