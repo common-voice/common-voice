@@ -87,6 +87,10 @@
 
                 svg {
                     margin-right: 8px;
+
+                    [dir='rtl'] & {
+                        margin-left: 8px;
+                    }
                 }
 
                 &.active {

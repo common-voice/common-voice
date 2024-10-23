@@ -137,7 +137,7 @@ about-playbook-how-access-dataset-content-2 = Nếu bạn đang tìm kiếm các
 ## How are decisions made
 
 about-playbook-how-project-governance = Các quyết định của dự án được thực hiện như thế nào?
-about-playbook-how-project-governance-content-1 = Mozilla Common Voice được tạo ra bởi một cộng đồng đa dạng gồm các nhà hoạt động, nhà ngôn ngữ học, nhà khoa học dữ liệu, học giả và kỹ sư phần mềm từ khắp nơi trên thế giới. Dự án được quản lý bởi Tổ chức Mozilla.
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice được tạo ra bởi một cộng đồng đa dạng gồm các nhà hoạt động, nhà ngôn ngữ học, nhà khoa học dữ liệu, học giả và kỹ sư phần mềm từ khắp nơi trên thế giới. Dự án được quản lý bởi Mozilla Foundation.
 about-playbook-how-project-governance-content-2 = Quản trị của chúng tôi được thành lập dựa trên các trụ cột:
 about-playbook-how-project-governance-content-3 = Quyền riêng tư, bảo mật và minh bạch.
 about-playbook-how-project-governance-content-4 = Sự tham gia của cộng đồng và ra quyết định.

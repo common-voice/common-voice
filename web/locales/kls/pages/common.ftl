@@ -266,14 +266,32 @@ cookies = cookies
 faq = Jonik
 content-license-text = newishila Shian
 share-title = Madat kara warek asta tan awaz den
+share-text = Machine una ch'ic'aikas bati, mon dekas bati, tan awaz homa det
 link-copied = Phon capy
 back-top = pishtyak Hala
 logout = khulek
 donate = Dek
+stayintouch = Abi Mozilla una mochan, bati awaz no'a mon technalogy sawzek day, tara saw no'a mon jama hin, abi khe'n kay shemi data istimal kara day
+privacy-info = Abi tay malumat bo khial kay istimal karik day, Warek asta mas homa izat ze hifazat as bari una
 return-to-cv = Pishtyak sawin awaz
 email-input =
     .label = Email
 loading = Load karik
+email-opt-in-info = A bo khoshan thi kia ki yat dihani shian, taraki shian, no'a mon, khabar, asta pe shian haw sawin awaz
+email-opt-in-info-title = Undreman ati, sawin awaz email de
+email-opt-in-info-sub-with-challenge = Email zalik, mushkilat, taklif, yat karikas, no'a min, khabar en sawin awaz una
+email-opt-in-privacy-v2 = Tu pe email pra haw, mozilla tay te malumat, wats kay istimal kariu.
+indicates-required = kawa jaiga una shia nishan (*) ajat hiu
+not-available-abbreviation = N/A
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = Homa tay madad as zarurat (ajat)
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Dataset sawzaikas bati, har k'ala' million dallar kharcha hiu day, 100 zuban una tarjuma karikas bati, tu pe bahas haw, kholaw kay data homa dek bahas
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = tay CV istimal karis e malumat khojikas bati?
+languages-donate-banner-cta-explanation = Sawin awaz as bati, warek kas pe rupaya ze kas yawan hula rupaya an thara sauz thi shiaw, abi khoshai warek asta kas som jus thi, idara an som, malumat khojaw an som ek thinkrom karik day. sawin awaz free shiaw, kura ki homa som jus thi rupaya grikas bati darkhas newishelik hawaw haw bo prus't hiu
+localization-select =
+    .label = Zuban khoji, tan awaz una

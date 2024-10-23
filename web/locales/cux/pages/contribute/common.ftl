@@ -3,7 +3,7 @@ action-tap = Neabad
 contribute = Kuned insu
 review = Nichid a noo
 skip = Kabyákud
-goal-help-recording = !Ndiosdibad chi chined Common Voice <goalPercentage></goalPercentage> a tanen nukue grabación ñe'e nudu ñe'e job jobe { $goalValue } !
+goal-help-recording = !Ndiosdibad chi chined Common Voice a tanen nukue nudu chi ñe'e chi kuto'on job jobe!
 goal-help-validation = !Ndiosdibad chi chined Common Voice  a tanen nukue nudu nóo chi ne'en ñe'e job jobe !
 contribute-more = ¿A bea ñe'ed?
 speak-empty-state = A kutea nudu chi kamad ñe'e dibaku ku
@@ -35,7 +35,7 @@ report-ask = a déa gua nóo ñe'e nudu kú
 report-offensive-language = nudtö
 report-offensive-language-detail = no nudu kú a kanú nudtö
 report-grammar-or-spelling = Gua nóo jo'o o gua nóo dijuñ
-report-grammar-or-spelling-detail = a nóo jo'o o dijuñ nudu kú
+report-grammar-or-spelling-detail = Gua nóo jo'o o dijuñ nudu kú
 report-different-language = tama nudu
 report-different-language-detail = gua ñe'e nudu chi kanejü
 report-difficult-pronounce = ji'ii jo'ö
@@ -73,6 +73,12 @@ request-language-button = kakad ama nudu
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = r
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = s
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 

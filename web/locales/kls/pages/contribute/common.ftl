@@ -4,6 +4,32 @@ contribute = De
 review = Jagai
 skip = Histi
 shortcuts = Chutyak
+clips-with-count-pluralized =
+    { $count ->
+        [one] <ghona> { $count } <ghona> che'lak
+       *[other] <ghona> { $count } >Che'lak
+    }
+goal-help-recording = Tu madat ari ala' zalikas bati. <goalpercentage> homa har aduaw recarding as nishan
+goal-help-validation = Tu madat ari ala' zalikas bati, sahi karikas bati
+contribute-more =
+    { $count ->
+        [one] Ek (1) warek asta karikas hatya tayar e
+       *[other] Warek (2)
+    }
+speak-empty-state = Homa zuban ani mon khul hawan
+no-sentences-for-variants = Tay Zuban khul hawaw, tu pe sahi as haw, settings una pay tan zuban una pay warek mon khoji
+speak-empty-state-cta = Mon de
+speak-loading-error = Homa som kia mon ya o alfaz ne shian dekas bati. Geri khushush kari
+record-button-label = Tan awaz recard kari
+share-title-new = Homa madad kari, warek awaz saprai hikas bati
+keep-track-profile = Tan profile una tan to krom jagai
+login-to-get-started = Umrai , ya o kholaw kari,
+target-segment-first-card = Tu homa madad karis awelo krom una
+target-segment-generic-card = Tu onja madad/ yawan his day, tara jaiga una zalikas bati
+target-segment-first-banner = sawin awaz as bati madad kari, sawzai
+target-segment-add-voice = Tay awaz jama kari
+target-segment-learn-more = Warek ch'ic'i
+change-preferences = Tabdil kari, khe'n kay bhas haw
 
 ## Contribution Nav Items
 
@@ -22,8 +48,13 @@ submit-form-action = Anzai
 
 report = Raport
 report-title = Raport jama karik
+report-ask = Kia masala hiu day, shisa mondras som?
 report-offensive-language = Shum Zuban
+report-offensive-language-detail = Mondras som shum ze galat zuban shian
+report-grammar-or-spelling = Justala / newishila galati
+report-grammar-or-spelling-detail = Mondruna newishila' galati shian
 report-different-language = Warek Zuban
+report-different-language-detail = E'a zuban warek, a o warek mondr dem day
 report-difficult-pronounce = Mon dek mushkil
 report-offensive-speech = Ahum mon
 report-other-comment =

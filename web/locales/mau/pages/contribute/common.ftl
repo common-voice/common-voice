@@ -17,9 +17,26 @@ speak-empty-state-cta = nkjin énn kuisenkasa
 speak-loading-error = Mi kjima jngu nijmí
 record-button-label = chubet'a xtari
 share-title-new = <bold>tisenkanajin</bold> sukusjesaná xta.
+keep-track-profile = Chut'asun tjinguíre jusian tisixá asenri.
+login-to-get-started = Te tsie tsa majen tj'atae yojori jmeni nga kuan ch'atsinre.
+target-segment-first-card = Tiisenkanájin nga kuíchujin chubare ju tjin ya sijé xá kui.
+target-segment-generic-card = Tiisenkaye chubere.
+target-segment-first-banner = tiisenke nga kuanda titjún chubare Common Voice { $locale }
+target-segment-add-voice = Chanijin xtari.
+target-segment-learn-more = Me sa xi tjin.
+change-preferences = Sik'antjeya xi tsachaa.
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = kjuátjó xta.
+contribute-sentence-collection-nav-header = K'uexkú énn.
+login-signup = Tetsie / tj'atae.
+vote-yes = Jon
+vote-no = majen
+datasets = Nkjin skuya.
+languages = énn
+about = nchjaya
+partner = Tinyakanajin
 
 ## Reporting
 

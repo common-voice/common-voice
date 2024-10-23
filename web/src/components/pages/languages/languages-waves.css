@@ -6,6 +6,11 @@
     width: 100%;
     opacity: 0.65;
 
+    [dir='rtl'] & {
+        right: 0;
+        left: unset;
+    }
+
     & img {
         position: absolute;
         top: 0;
@@ -16,6 +21,15 @@
         animation-duration: 3.5s;
         animation-name: move-and-scale-in;
 
+        [dir='rtl'] & {
+            right: 0;
+            left: unset;
+            -webkit-transform: scaleX(-1) !important;
+            -moz-transform: scaleX(-1) !important;
+            -o-transform: scaleX(-1) !important;
+            transform: scaleX(-1) !important;
+        }
+
         & img:nth-child(3) {
             animation-delay: 0.15;
         }
@@ -24,6 +38,11 @@
             animation-delay: 0.5;
             bottom: 4%;
             right: 16%;
+
+            [dir='rtl'] & {
+                left: 16% !important;
+                right: unset;
+            }
         }
     }
 }
