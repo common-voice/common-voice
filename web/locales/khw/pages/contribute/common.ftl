@@ -21,12 +21,30 @@ record-button-label = تان آوازو رکارڈ کو
 share-title-new = <bold>اسپہ سون مدد کو </bold> خور آواز مشکیکا
 keep-track-profile = تان پروفائیلو سورا تان کورمو پوشتی بیکو پتہ کو
 login-to-get-started = شروع کوریکو پچین لاک ان بوس یا لاک اب
+target-segment-first-card = اسپہ تان اولو مقصدو پورا کوریکو پچین کوروم کوسیان
+target-segment-generic-card = تو تان مقصدو پورا کوریکو پچین کوروم کوسیان
+target-segment-add-voice = تان آوازو شامل کو
+target-segment-learn-more = خور معلومات
+change-preferences = ترجیہات تبدیلی
 
 ## Contribution Nav Items
 
+contribute-voice-collection-nav-header = آوازان مجموٰعہ
+contribute-sentence-collection-nav-header = جملان مجموعہ
+login-signup = لاک ان/سائن اب
+vote-yes = دیی
+vote-no = نو
+datasets = معلومت مجموعہ
+languages = واران
+about = بارا
+partner = حصہ دار
+submit-form-action = جمع کو
 
 ## Reporting
 
+report = خبر
+report-title = جمع وا رپورٹ کو
+report-ask = ہیا جملہ تہ تین کیا مسلہ پیدا اریر؟
 
 ## Speak & Listen Shortcuts
 
