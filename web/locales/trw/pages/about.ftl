@@ -110,6 +110,8 @@ about-playbook-how-grow-language-content-8 = <strong> تخلیقی خلگ پا</
 ## How to validate
 
 about-playbook-how-validate = آواز سی کلپ سی منظور کؤ سی بارا می مأ کھأکأ جن نیِن؟
+about-playbook-how-validate-content-1 = کو کوبھادُو <strong> مھأ بُھوش </strong> آں <strong> ای ما آمن جنا</strong>۔ غورا ہودُو منظورو <strong>
+about-playbook-how-validate-content-2 = <strong> تھأ کلپ رد نہ کو کھید یأ بناڑ سی بنُو می مھال وا او بھا آواز ہودیدا سے تھأ ما بدل تھی۔ </strong>۔ آواز سی پیانُو سی کیا اہم بات چھی یرأ بُوڑا آواز پیانا بیے۔
 
 ## How to access dataset
 
