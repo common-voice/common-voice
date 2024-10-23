@@ -112,9 +112,13 @@ about-playbook-how-grow-language-content-8 = <strong> تخلیقی خلگ پا</
 about-playbook-how-validate = آواز سی کلپ سی منظور کؤ سی بارا می مأ کھأکأ جن نیِن؟
 about-playbook-how-validate-content-1 = کو کوبھادُو <strong> مھأ بُھوش </strong> آں <strong> ای ما آمن جنا</strong>۔ غورا ہودُو منظورو <strong>
 about-playbook-how-validate-content-2 = <strong> تھأ کلپ رد نہ کو کھید یأ بناڑ سی بنُو می مھال وا او بھا آواز ہودیدا سے تھأ ما بدل تھی۔ </strong>۔ آواز سی پیانُو سی کیا اہم بات چھی یرأ بُوڑا آواز پیانا بیے۔
+about-playbook-how-validate-content-3 = کو چھی خیال دے تلفظ <strong> سی جنُو چیر گن بوکھو تُھو </strong> یا ہید کآں <strong> پاش کے گ شور تُھو </strong> یا ہید دأل خلگ <strong> بأت کودی </strong> تھلا اے کلپ رد کو۔ <accuracyLink> مھید اے بارا می آں ٹھیک ہؤ سی کیا دأل معلومات ہُم بُو۔ </accuracyLink>
+about-playbook-how-validate-content-4 = کو اے کلپ دُو خلگے رد کیو ایس بھی اے دھأل ڈیٹا سیٹ می شائع کودی۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = آ ڈیٹا سیٹ کے کھأکأ آوئی آں ایس استعمال کیئی؟
+about-playbook-how-access-dataset-content-1 = تُو ڈیٹا سیٹ <datasetsPage> سی مُو یے </datasetsPage> بش بھادُو۔ ہید ایسی نم ورژن بُو آں کامے جیِب یأ تُو نیِمادُو تھأ بُو۔ بھی ایس ڈائںلوڈ کو۔ ہأ موادا می میٹا ڈیٹا ہودی<metadataLink> یأمنے آبادی سی معلومات آں تصدیق سی ڈیٹا۔ تھے یے پکار تُھو ای میل ایڈریس دے آں بھی اے ڈیٹا ڈائنلوڈ کو۔
 
 ## How are decisions made
 
