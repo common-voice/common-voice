@@ -86,6 +86,10 @@ shortcut-vote-no = این
 
 ## Validation criteria
 
+contribution-for-example = ہمے وڑا
+contribution-misreadings-title = غلط پڑھغے
+contribution-misreadings-example-4-explanation = ضروری متن ء شہ باز ریکارڈ بیثہ
+contribution-misreadings-example-5-title = ما کافی گِرغا درا روغ ثوں
 contribution-misreadings-example-6-title = ما کافی گِرغا درا روغ ثوں
 contribution-misreadings-example-7-title = ما کافی گِرغا درا روغ ثوں
 contribution-misreadings-example-8-explanation = یکھ دومی چی ءِ بے بدلی
