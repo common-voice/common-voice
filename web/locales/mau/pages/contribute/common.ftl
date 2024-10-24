@@ -53,7 +53,7 @@ report-different-language-detail = Kja'é énn kichii xi mi an nchaa.
 report-difficult-pronounce = Ni'in ma nukjua.
 report-difficult-pronounce-detail = Tjenjin énn xi ni'in ma nukjua.
 report-offensive-speech = Tsujmi chinga tjinre.
-report-offensive-speech-detail = Je xta kui tjejin énn chinga.
+report-offensive-speech-detail = Je xta kui tjegin énn chinga.
 
 ## Speak & Listen Shortcuts
 
