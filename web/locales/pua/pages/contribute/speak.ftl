@@ -53,3 +53,10 @@ thanks-for-voice-toast-error = Énkari axani jamani japka chiiti wantakwa ma amp
 first-cta-gender-select-default-option = Eraku ma mintakwa
 first-cta-gender-select-help-text =
     .label = ¿Nenari wekasïnki pakatani, eskari tatakaeska o nanaka?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ¡Diosï mayamu énkari jurak'uni jaka chari wantakwani!
+second-cta-subtitle-text = énkari jatsiaka mitikwarhintskwa ma, úakari exeni jarhani ampekari xani úni jaka ka isturi exeni énka jaka máteru kw'iripuecha énkaksï wantakwa patsani jaka íni ánchikwarhita jimpo.
+already-have-an-account = ¿Kámaxakiri chiiti inchakwa ma ya? <iniciar sesión> wéna inchani </iniciar sesión>
+create-profile-button = úni mitikwarhintskwa ma
+# IMAGE TAGS
+img-alt-success-checkmark = arhikwekasïnti eska yámu ampe sési weraska
