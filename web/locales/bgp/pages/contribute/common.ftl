@@ -76,9 +76,20 @@ request-language-button = زوان درخواست
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = پی
+shortcut-play-toggle-label = شروع کنے/ بند کنی
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = وائی
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = این
 
 ## Validation criteria
 
+contribution-misreadings-example-6-title = ما کافی گِرغا درا روغ ثوں
+contribution-misreadings-example-7-title = ما کافی گِرغا درا روغ ثوں
+contribution-misreadings-example-8-explanation = یکھ دومی چی ءِ بے بدلی
+contribution-varying-pronunciations-title = انج انجیں گالوار
 contribution-varying-pronunciations-example-1-title = آئی ءِ سر ءَ بیرٹ ءِ بستغ ات
 contribution-varying-pronunciations-example-2-title = آئی ءِ دست کھڑو
 contribution-varying-pronunciations-example-2-explanation = پِیشتری ٹوک
@@ -87,3 +98,5 @@ contribution-background-noise-description-extended = ار ریکاٹ پھرشت�
 contribution-background-noise-example-2-explanation = متن ئے بہر گوشدارغ نہ بیثہ
 contribution-background-voices-title = پشت ء شور
 contribution-background-voices-description-extended = ار ریکاٹ پھرشتغ بیت یا آئی ءَ اڑک کھفتغ بیت گڈ آئی ءَ بِل دے داں وختا کہ درستیں متنءِ گوشدارغ بیت نوی۔
+contribution-volume-title = کساس
+contribution-just-unsure-title = یکھ بے پتءِ
