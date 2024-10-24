@@ -88,24 +88,24 @@ sc-bulk-submit-confirm = تصدیق کومانا کہ ہایا  جملہ <wikipe
 bulk-upload-success-toast = بو جملہ ایغاریا اپلوڈ ہونی
 bulk-upload-failed-toast = اپلوڈ نو ہوئے، مہربانی کوری وا کوشش کو
 bulk-submission-success-header = بو جملان ایغاریا جمع کوریکو بچین تہ شکریہ
-bulk-submission-success-subheader = تو کمان وائسو ہار انوسو  جملان پورا کوریکا مدد کوسان
-upload-more-btn-text = خوردی جملہ اپلوڈ کو
-file-invalid-type = وحت بوغدو فائل
-file-too-large = فائل بو لوٹ
-file-too-small = فائل بو څیق
+bulk-submission-success-subheader = تو کمان وائسو ہرانوسو  جملان پورا کوریکا مدد کوسان
+upload-more-btn-text = جملہ خوردی اپلوڈ کو
+file-invalid-type = وحت بوغدو فائیل
+file-too-large = فائیل بو لوٹ
+file-too-small = فائیل بو څیق
 too-many-files = بو ذیاد فائل
 
 ## SMALL BATCH SUBMISSION
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
-small-batch-instruction = <icon></icon> امبوخ عام رویان شعبو جملان شامل کو
+small-batch-instruction = <icon></icon> عام رویان دائرہ امبوخ جملان شامل کو
 multiple-sentences-error = تو ای وحتا امبوخ جملان شامل کوریکو نو بوس
 exceeds-small-batch-limit-error = 1000 ذیاد جملہ جمع کورین نو بوئے
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
         [one] ریٹ تان حدار ذیاد ہوئے۔ 1 منٹ اچا کوشش کو۔
-       *[other] .ریٹ تان حدار ذیاد ہوئے { $retryLimit } منٹ اچا کوشش کو۔
+       *[other] ریٹ تان حدار ذیاد ہوئے { $retryLimit } منٹ اچا کوشش کو۔
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
@@ -134,10 +134,10 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences }  جملہ جمع ہونی۔ کلک <downloadLink>ہیا</downloadLink>  مسترد بیرو جملان ڈونلوڈ کوریکو بچین
-       *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہونی۔ ہیا <downloadLink>کلک کورور</downloadLink> مسترد بیرو جملان ڈونلوڈ کوریکو بچین.
+        [one] { $uploadedSentences } موژار 1 جملہ جمع ہوئے۔ ہیا <downloadLink> کلک کو</downloadLink>  مسترد بیرو جملان ڈونلوڈ کوریکو بچین
+       *[other] { $totalSentences }موژار { $uploadedSentences }  جملہ جمع ہونی۔ ہیا <downloadLink>کلک کو</downloadLink> مسترد بیرو جملان ڈونلوڈ کوریکو بچین.
     }
-small-batch-sentences-rule-1 = “اوا کیا جملان شامل کوما?” شیرو رہنمائی سورا عمل کو
+small-batch-sentences-rule-1 = “اوا کیا جملان شامل کومآ?” شیرو رہنمائی سورا عمل کو
 small-batch-sentences-rule-2 = ای لائنا ای جملہ شامل کو
 small-batch-sentences-rule-3 = "Enter"دباو کوری جملان ای لائنا علحیدہ کورور یا  ای دفعہ "Return"
 small-batch-sentences-rule-4 = 1,000  پت جملہ شامل کو
