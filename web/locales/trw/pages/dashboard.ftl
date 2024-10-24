@@ -54,6 +54,37 @@ set-a-goal = مقصد آمن گے تھا
 cant-decide = خا کی فیصلہ نہ کوبھادُو؟
 how-many-per-day = شاباش! اے دی می کھیدیک کلپ؟
 how-many-a-week = شاباش! اے ہفتہ می کھیدیک کلپ؟
+which-goal-type = تُو بنُو یا بُھویُو یا دُھوئں کم نیِمادُو؟
+receiving-emails-info = مھیرے تُو برابر تُھو ایل میلا سی کیا، مقصدا سی یاد دہانی سی کیا آں تُنو کم سی تیریقی سی معلوم کؤ سی کیا آں کان وائس سی نیوز لیٹر سی کیا۔
+not-receiving-emails-info = آ کامن وائس سی بارا می، تنُو مقصدا سی بارا می آں دئی نم معلوماتا سی بارا می ایل میل حاصل کؤ نِمادُو۔
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] ایک (مثلاً 1)
+       *[other] دُو (مثلاً 2)
+    }
+help-share-goal = دأل آوازا سی پؤ می مُھن مدد کو۔ تُنُو مقصد شیریک کو
+confirm-goal = مقصد سی تصدیق کو
+goal-interval-weekly = ہفتہ وار
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = تُنو کلپا سی تعداد { $count } شئریک کو۔ کلپا سی دی سی مقصد{ $type }
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = کلپا سی نمبر شیریک کو { $count }۔ ہفتہ وار مقصد لیِکھ{ $type }
+share-goal-type-speak = بنُو
+share-goal-type-listen = بُھویُو
+share-goal-type-both = بنُو او بُھویُو
+# LINK will be replaced with the current URL
+goal-share-text = مأ مھیرے مھیرے کامن وائس کے آوازا سی دیؤ سی کیا اے مقصد آمن گے تھیئی۔ مھے سیت مدد کو آں مشین گے بنا کھأکأ اصل خلگ بنَدی۔ { $link }
+weekly-goal-created = چھی ہفتہ وار مقصد برابر کوا گأ
+daily-goal-created = چھی دی دی سی مقصد برابر کوا گأ
+track-progress = مے شمار سی مُو زید تُنو کم سی آندازہ گھیِنا
+return-to-edit-goal = مھید کے پتکے ییدے تُنو مقصد ہر وقت می ایڈیٹ کوا
+share-goal = مھی مقصد مُوتھایے شیریک کوا
 
 ## Goals
 
+streaks = مقصدا سی چیڙ
+days =
+    { $count ->
+        [one] ایک (مثلاً 1)
+       *[other] دُو (مثلاً 2)
+    }
