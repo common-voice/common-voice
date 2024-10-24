@@ -41,6 +41,7 @@ submit-form-action = Sikasén
 
 ## Reporting
 
+report = tsuya
 
 ## Speak & Listen Shortcuts
 
