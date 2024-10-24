@@ -141,3 +141,7 @@ contribution-background-noise-example-2-fixed-title = چھوغو ڈاٸنو، ک
 contribution-background-noise-example-2-explanation = ٹیکسٹ پو چھونچی کوا مید
 contribution-background-noise-example-3-fixed-title = <strong> چی  سکت می سکت،</strong> چھوغو ڈاٸناسورس، </strong> چی سکت می سکت،</strong> راٸسک
 contribution-background-voices-title = گیاپ کھوغی سکت کن
+contribution-background-voices-description = گیاپ کھوقنہ اونگمی لیگینہ کولے اونگمی روا ہا کن چنگ میگو، اما مشین ایلگوریدم پو لا کوے ہڑینگ کن بیسے نا گیاپ کھوقنہ اونگمی ٹیکسٹ پینگ ربیسے میدپی تم کن لا نایا تھد مید۔ اگر یانگلا ٹیکسٹ پینگ میدپی خاص تم چی کوسنارے کلپ پو چوق ٹر چوت۔ بیسے ٹی وی فودے تنگسے یودپی وخلا یو گوین، یا میدنہ کھور کھارینگ سپیرے گوین یودنارے سہ یود گوین۔
+contribution-background-voices-example-1-title = ٹراٸسیکی چھوغو ڈاٸناسورس پو۔ <strong> ریرے ریرے نہ زیر  <strong>
+contribution-background-voices-example-1-explanation = یانگ اونگین یودپینہ؟ <strong> اے چکپوی سکت زیرفن <strong>
+contribution-volume-title = سکت تھونپو
