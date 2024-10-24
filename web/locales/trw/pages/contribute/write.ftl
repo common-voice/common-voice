@@ -44,9 +44,36 @@ agriculture_food = زمیدارا او کھؤ
 automotive_transport = گاڑے او ٹراسپورٹ
 # Sentence Domain dropdown option
 finance = پیسا سی بارا می
+# Sentence Domain dropdown option
+service_retail = خزمت او چُن پرچُون
+# Sentence Domain dropdown option
+general = ہر شانے
+# Sentence Domain dropdown option
+healthcare = صحت سی بارا می
+# Sentence Domain dropdown option
+history_law_government = تباریخ، قانون آں حکومت
+# Sentence Domain dropdown option
+language_fundamentals = جیِب سی بارا می (ہندسہ، حروف، پیش)
+# Sentence Domain dropdown option
+media_entertainment = میڈیا او گیت میت
+# Sentence Domain dropdown option
+nature_environment = قدرت سی او ماحول سی بارا می
+# Sentence Domain dropdown option
+news_current_affairs = خبر او مھیر سی حال احوال
+# Sentence Domain dropdown option
+technology_robotics = ٹینکالوجی او روباٹ
+sentence-variant-select-label = جملہ سی قسم
+sentence-variant-select-placeholder = جملہ سی قسم کارا
+sentence-variant-select-multiple-variants = بُوڑ جیِب/ چیر گن قسم
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = آپلوڈ <icon> پبلک ڈومین سی جملہ کوا
+sc-bulk-upload-instruction = تُنو گائلز مھید کے ڙیک دیدے آنا <uploadButton> آں آپلوڈ سی کلک کوا
+sc-bulk-upload-instruction-drop = آپلوڈ کؤ سی کیا مھید کے فائلز تھلا
+bulk-upload-additional-information = کو مے فائل سی بارا می تُو دیئی کی مزید معلومات دیؤ نئِمادو مھو سیت کانٹیک کو <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = کو مے فایل سی بارا می تُو تھأ معلومات دیؤ نیِمادو کامک یأمنے مے قالب می نی تھیو مھو سیت رابطہ کوا۔ <emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
