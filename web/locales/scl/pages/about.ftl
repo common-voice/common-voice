@@ -13,6 +13,8 @@ how-does-it-work-text = بیسے کراؤڈ سورسنگ تھیوں ہانس۔ �
 about-language-req-subtitle = ایک سے باش یو تھے تھیوں
 about-localization-title = تومینو ویب سائٹ
 about-localization-subtitle = ویب سائٹو لکھیانی آ باشینی ترجمہ بلِیں۔
+about-sentence-collection-title = یوپینیک موجی
+about-sentence-collection-subtitle = جکوڑے رجونو موجی یو بیوں ہاں
 
 ## Community Playbook Content
 ## What is a language
