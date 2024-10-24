@@ -1,5 +1,6 @@
 ## DemoLayout
 
+demo-get-started = اچ شروع کروں
 
 ## Demo Datasets
 
