@@ -3,6 +3,7 @@ action-tap = Puka
 contribute = Yooma pienapi apo kuyame
 review = Neene puuka
 skip = Umatote aampa
+shortcuts = Risaka umatoniame
 
 ## Contribution Nav Items
 
