@@ -38,3 +38,8 @@ review-keep-recordings = Wantakwa patsakataechani pakataani
 review-delete-recordings = Kéntitaani juchiti wantakwa patsakataechani
 review-terms = Énkari Common Voice úraaka, jiokwarhixakiri <termsLink> arini chúxapakwaechani </termsLink> ka <privacyLink> arini karakata énka chiti mitintskwa ampe patsak'a </privacyLink>
 terms-agree = Jayapanhint'axaka
+terms-disagree = No jayapanhint'axaka
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = !Diosï mayamu énka intsïpini jaka chiiti wantakwa patsakataechani¡
+first-cta-subtitle-text = ¿Wékapirinti sáni wantant'ani nena énkari wantak'a?
+why-donate = ¿Antirisï kurhankwarhik'i?
