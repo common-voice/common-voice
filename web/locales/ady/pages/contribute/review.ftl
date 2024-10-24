@@ -17,5 +17,3 @@ sc-review-link = Еплъыжъын
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = ⓘ Еплъыжъын шапхъэхэр
-sc-criteria-title = Еплъыжъын шапхъэхэр
