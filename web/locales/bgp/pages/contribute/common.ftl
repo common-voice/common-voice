@@ -88,6 +88,8 @@ shortcut-vote-no = این
 
 contribution-for-example = ہمے وڑا
 contribution-misreadings-title = غلط پڑھغے
+contribution-misreadings-description-extended-list-5 = یک لبز پڑھغے وستا جہد ء کن
+contribution-misreadings-example-2-explanation = ['ڈائینا سور'  بلاں بیغ چاہیدا]
 contribution-misreadings-example-4-explanation = ضروری متن ء شہ باز ریکارڈ بیثہ
 contribution-misreadings-example-5-title = ما کافی گِرغا درا روغ ثوں
 contribution-misreadings-example-6-title = ما کافی گِرغا درا روغ ثوں
