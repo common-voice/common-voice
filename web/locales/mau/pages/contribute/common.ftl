@@ -47,6 +47,8 @@ report-ask = ¿jmé kjua xi tjinre énn kui?
 report-offensive-language = énn chinga.
 report-offensive-language-detail = énn chinga tjenjin énn.
 report-grammar-or-spelling = Mi nda kichjii.
+report-grammar-or-spelling-detail = Jngu énn mi nda tichjii.
+report-different-language = Kja'é énn.
 
 ## Speak & Listen Shortcuts
 
