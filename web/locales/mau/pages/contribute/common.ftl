@@ -42,6 +42,7 @@ submit-form-action = Sikasén
 ## Reporting
 
 report = tsuya
+report-title = Tikaseen jusin ksuya
 
 ## Speak & Listen Shortcuts
 
