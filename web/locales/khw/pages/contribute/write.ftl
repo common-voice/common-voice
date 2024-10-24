@@ -17,9 +17,9 @@ new-sentence-rule-1 = <noCopyright>کاپی رائٹ نیکی</noCopyright> بن
 new-sentence-rule-2 = فی جملہ 15 کم لفظ
 new-sentence-rule-3 = صحیح گرائمر استعمال کو
 new-sentence-rule-4 = املہ وا زیر زبران صحیح استعمال کو
-new-sentence-rule-5 = نمبرو چے خاص حروفان استعمال موکو
+new-sentence-rule-5 = نمبرو اوچے خاص حروفان استعمال موکو
 new-sentence-rule-6 = بیریو حرف نو
-new-sentence-rule-7 = مناسب حوالاجاتان شامل
+new-sentence-rule-7 = مناسب حوالہ جاتان شامل
 new-sentence-rule-8 = جام ہش بوئے کہ قدرتی اوچے لوار نسار  (جملہ ریکا آسان بائے)
 login-instruction-multiple-sentences = <loginLink>لاگ ان</loginLink> یا <loginLink>سائن اپ</loginLink> ذیاد جملہ شامل کوریکو پچین
 how-to-cite = کچہ کوری حوالہ دوم؟
@@ -27,11 +27,11 @@ how-to-cite-explanation-bold = ویپ سائٹو لینگ یا کورمو پور
 how-to-cite-explanation = ہمیت کی تہ تان لفظ صرف راوے <italicizedText>“تان کورمو حوالا”</italicizedText>. اسپہ معلوم کوریلیک کہ تو ہمی نویشوران کورا لیتاو تاکہ اسپہ عام بیرو  ژاغا پتہ کوسی و کاپی رائٹو پابندی مو بائی۔ حوالا دیکو معلومات پچین اسپہ <guidelinesLink>ڑوڑور۔ رہنمائی صفحہ</guidelinesLink>.
 guidelines = رہنمائی
 contact-us = اسپہ سون ملاؤ بور
-add-sentence-success = جملہ بڑاځینو ہوئی
+add-sentence-success = جملہ بڑاځینو ہوئے
 add-sentence-error = نقص شیرو جملہ
 required-field = مہربانی کوری ہیا ژاغو ٹیپاور
 single-sentence-submission = ای جملہ جمع کورور
-small-batch-sentence-submission = پوکھامبوخ جملان جمع کوریک
+small-batch-sentence-submission = پوکھ امبوخ جملان جمع کوریک
 bulk-sentence-submission = بو امبوخ جملان جمع کوریک
 single-sentence = ایوالی
 small-batch-sentence = پھوک امبوخ
@@ -39,9 +39,9 @@ bulk-sentence = بو امبوخ
 sentence-domain-combobox-label = جملان حلقہ
 sentence-domain-select-placeholder = توروئی حلقہ بیکا پت گنے)(اختیاری)
 # Sentence Domain dropdown option
-agriculture_food = زمین داری و خوراک
+agriculture_food = زمینداری وا خوراک
 # Sentence Domain dropdown option
-automotive_transport = کوسک اشناری و گاڑی
+automotive_transport = کوسک اشناری وا گاڑی
 # Sentence Domain dropdown option
 finance = پیسہ
 # Sentence Domain dropdown option
