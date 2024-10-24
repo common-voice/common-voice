@@ -45,3 +45,6 @@ first-cta-subtitle-text = ¿Wékapirinti sáni wantant'ani nena énkari wantak'a
 why-donate = ¿Antirisï kurhankwarhik'i?
 why-donate-explanation-1 = Ari kurhakw'arhikwa ampe no xani jukaparhakwaesti; énkari wekaaka jatsikuni o nompe. Énkaksï wekaaka xarhatani mitikwarhintskwa ampe, materu jásï arhinhakwaksï jatsikusïnka ka istuksï no jamsïnka chari mitintskwa ampe ka ni jakankurhikwa ampe xarhatani íni eranharhikwa jimpo.
 why-donate-explanation-2 = Parika íni jásï ánchitatakwa ampe úaka sési xanharani, jatsisïnti eska yámintu ampe jásï jawaka parika ts'ïma kw'iripuecha énka íni ampe ánchikwarhik'a sánteru sési úaka ampe. Eska na jinteeka, énka no jawaka patsaka ma iretaeri jásï wantakwa, i ánchitatakwa no marhuakwawati imani kw'iripuechani jimpoka ts'ïma materu jásï wantaaka. <learnMore> Exe sési ixu ampe jimposï jukaparhakwee kw'iripueri mitintskwa. </learnMore>
+add-information-button = Kúparhatani útasï mítintskwa
+continue-speaking-button = Nompe diosï mayamu, wantateru útasï.
+create-profile-text = ¿Wekasïnti patsani chiiti mítikwarhintskwa? <createProfile> ú chiiti mítikwarhintskwa </createProfile>
