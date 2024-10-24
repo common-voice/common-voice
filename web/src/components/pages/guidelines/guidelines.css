@@ -435,8 +435,18 @@
                         color: var(--black);
                         cursor: auto;
 
+                        [dir='rtl'] & {
+                            margin-left: 20px;
+                            margin-right: unset;
+                        }
+
                         svg {
                             margin-right: 12px;
+
+                            [dir='rtl'] & {
+                                margin-left: 12px;
+                                margin-right: unset;
+                            }
                         }
                     }
 
