@@ -131,3 +131,15 @@ add-small-batch-success =
         [one] ایک (مثلاً 1)
        *[other] دُو (مثلاً 2)
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] ایک (مثلاً 1)
+       *[other] دُو (مثلاً 2)
+    }
+small-batch-sentences-rule-1 = مھیدا ہدایات بُو۔ “آ کھال جملہ جمع کوبھادُو؟“
+small-batch-sentences-rule-2 = اے چیڙ می اے جملہ جمع کوا
+small-batch-sentences-rule-3 = اے چیڙ می جملہ ایک دئی ما ”انٹر“ یا “ریٹرن“ اے گونا پریس کوا۔
+small-batch-sentences-rule-4 = اے زر 1000 جملا یے پرکے جمع کوا
+small-batch-sentences-rule-5 = ہر جملہ سی اے شانا ڈومین ہوئے
+small-batch-sentences-rule-6 = بُوڑ جملا سی اے شانا حوالا ہُوئے
