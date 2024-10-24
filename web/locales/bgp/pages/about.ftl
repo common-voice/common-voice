@@ -21,6 +21,7 @@ about-dataset-release-subtitle = ماء ہر سے ماہ پزاں  ڈیٹاسی�
 about-speak = گالور کن
 about-listen-queue = گوش کن - قطار
 about-listen = گو شا کن
+about-is-it-valid = اے کلپ درست آنت؟
 
 ## Community Playbook Content
 ## What is a language

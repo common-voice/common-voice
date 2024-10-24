@@ -46,6 +46,7 @@ report-ask = ہمے گال ء شہ شمے دیم ء  کجام کجام اڑ ء �
 report-offensive-language = بریں زوان
 report-offensive-language-detail = گال نیاما بریں زوان کارمرز ایں
 report-grammar-or-spelling = گال نیاما بریں زوان کارمرز ایں
+report-grammar-or-spelling-detail = ایں جملے نیوا گرائمر اور املا  غلطی انت
 report-different-language = ایکویں ایکویں زوان
 report-different-language-detail = ہمے زوان نیاما نویسی جیثہ ہمانہی نیاما من گالوار آں
 report-difficult-pronounce = تلفظ کنغ اوکھ ایں
