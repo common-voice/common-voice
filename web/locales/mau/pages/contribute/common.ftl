@@ -49,7 +49,7 @@ report-offensive-language-detail = énn chinga tjenjin énn.
 report-grammar-or-spelling = Mi nda kichjii.
 report-grammar-or-spelling-detail = Jngu énn mi nda tichjii.
 report-different-language = Kja'é énn.
-report-different-language-detail = Kja'é énn kichii xi mi ann nchaa.
+report-different-language-detail = Kja'é énn kichii xi mi an nchaa.
 
 ## Speak & Listen Shortcuts
 
