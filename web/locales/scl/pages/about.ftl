@@ -58,6 +58,7 @@ about-nav-playbook = کدا بو یو بونو ہِیں سِیچ
 
 about-playbook-what-is-language = ایشان شونگونی (کامن وائیسینی) باش یوک ہِیں؟
 about-playbook-what-is-language-content-1 = باشئی گُنیونئی کاریو لائے پونے ہائیں۔ باشی سُجانیریونو موڈلئی (speech recognition models) کاریو ایکشان شونگے (کامن وائیس) یک مُتو پرُوجونینی زور دِیں۔ 'یا' آ باشی تھینیک ایک مُتو پرُوجون بینا دا؟
+about-playbook-what-is-language-content-2 = بیسے انی گُنونیس کہ باشو موڈل )(speech model) لاؤنیو لا باشی رازینیکئی پرُجونینی سم بونی اواجئی۔ انیسئی کاریو، شونگو ڈیٹا سیٹینی (voice dataset) لاؤ نیو لا جک بونی اواجئی
 
 ## How do I add a language
 
