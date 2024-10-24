@@ -28,7 +28,7 @@ change-preferences = Sik'antjeya xi tsachaa.
 
 ## Contribution Nav Items
 
-contribute-voice-collection-nav-header = kjuátjó xta.
+contribute-voice-collection-nav-header = kj'uátjó xta.
 contribute-sentence-collection-nav-header = K'uexkú énn.
 login-signup = Tetsie / tj'atae.
 vote-yes = Jon
