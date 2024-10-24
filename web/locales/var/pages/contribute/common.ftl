@@ -4,6 +4,11 @@ contribute = Yooma pienapi apo kuyame
 review = Neene puuka
 skip = Umatote aampa
 shortcuts = Risaka umatoniame
+clips-with-count-pluralized =
+    { $count ->
+        [one] paikapi ivotetiame
+       *[other] Weika toatiame iyoteka
+    }
 
 ## Contribution Nav Items
 
