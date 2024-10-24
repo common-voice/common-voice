@@ -24,20 +24,20 @@ new-sentence-rule-8 = جام ہش بوئے کہ قدرتی اوچے لوار ن�
 login-instruction-multiple-sentences = <loginLink>لاگ ان</loginLink> یا <loginLink>سائن اپ</loginLink> ذیاد جملہ شامل کوریکو پچین
 how-to-cite = کچہ کوری حوالہ دوم؟
 how-to-cite-explanation-bold = ویپ سائٹو لینگ یا کورمو پورا نامو نویشی حوالہ دیت
-how-to-cite-explanation = ہمیت کی تہ تان لفظ صرف راوے <italicizedText>“تان کورمو حوالا”</italicizedText>. اسپہ معلوم کوریلیک کہ تو ہمی نویشوران کورا لیتاو تاکہ اسپہ عام بیرو  ژاغا پتہ کوسی و کاپی رائٹو پابندی مو بائی۔ حوالا دیکو معلومات پچین اسپہ <guidelinesLink>ڑوڑور۔ رہنمائی صفحہ</guidelinesLink>.
+how-to-cite-explanation = حوالہ”</italicizedText>. اسپہ معلوم کوریلیک کہ تو ہمی اشناریان کورا لیتاو تاکہ اسپہ عام ژاغا  ڑاڑیسی وا کاپی رائٹو پابندی مو بائی۔ حوالو معلوماتاان پچین اسپہ <guidelinesLink>ڑوڑو۔ رہنمائی صفحہ</guidelinesLink>.
 guidelines = رہنمائی
-contact-us = اسپہ سون ملاؤ بور
-add-sentence-success = جملہ بڑاځینو ہوئے
-add-sentence-error = نقص شیرو جملہ
-required-field = مہربانی کوری ہیا ژاغو ٹیپاور
-single-sentence-submission = ای جملہ جمع کورور
+contact-us = اسپہ سون رابطہ کو
+add-sentence-success = 1جملہ بڑاځینو ہوئے
+add-sentence-error = نقص دیاک جملہ
+required-field = مہربانی کوری ہیا ژاغو ٹیپاوے
+single-sentence-submission = ای جملہ جمع کوریک
 small-batch-sentence-submission = پوکھ امبوخ جملان جمع کوریک
 bulk-sentence-submission = بو امبوخ جملان جمع کوریک
 single-sentence = ایوالی
 small-batch-sentence = پھوک امبوخ
 bulk-sentence = بو امبوخ
 sentence-domain-combobox-label = جملان حلقہ
-sentence-domain-select-placeholder = توروئی حلقہ بیکا پت گنے)(اختیاری)
+sentence-domain-select-placeholder = تروئی حلقہ بیکا پت گنے(اختیاری)
 # Sentence Domain dropdown option
 agriculture_food = زمینداری وا خوراک
 # Sentence Domain dropdown option
@@ -59,7 +59,7 @@ media_entertainment = میڈیا وا تفریج
 # Sentence Domain dropdown option
 nature_environment = قدرت وا ماحول
 # Sentence Domain dropdown option
-news_current_affairs = خبر وا موجودہ حالات
+news_current_affairs = خبر وا موجودہ حالت
 # Sentence Domain dropdown option
 technology_robotics = ٹیکنالوجی وا روبوٹ
 sentence-variant-select-label = جملان مختلف شکل
