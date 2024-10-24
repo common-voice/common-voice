@@ -1,6 +1,6 @@
 ## REVIEW
 
-sc-review-loading = Гущыӏэухыгъэхэр трегъэуцо…
+sc-review-title = Гущыӏэугъыгъэхэр еплъыжъ
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Гъэфедэгъэр: { $sentenceSource }
