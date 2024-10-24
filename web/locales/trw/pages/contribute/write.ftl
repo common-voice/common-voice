@@ -82,6 +82,52 @@ accepted-files = مھیس صرف  ٹی س وی سی قسم کی فائل منظ�
 minimum-sentences = اے فائل می کم سی کم 1000 جملہ
 maximum-file-size = زیاد ما زیاد 25 ایم بی سی سیز سی فائلز
 what-needs-to-be-in-file = مھی فائل می کا ہُو پکار تُھو؟
+what-needs-to-be-in-file-explanation = مُھن قالب مھید چیک کو۔ <templateFileLink></templateFileLink>۔ تُنو جملا کاپی رائٹس سی سی 0 سی فری ہوُئین یا کسی تھیِدا تی ما اجازہ ہُوہئن۔ واضح ہُوئن۔ گرائمر ٹیک ہُوہئن آں بنُو می آسان ہُوئین۔ تھیلیل جملا سی بنُو می 10 ما 15 ملٹے پرکے گھیِنا بیَن آں ہأ می نمبر، ہندسا آں خاص نشان نہ ہوئین۔
+upload-progress-text = آپلوڈ روان تُھو
+sc-bulk-submit-confirm = آ یقین دے بندُو أ جملہ ویکیپیڈیا سی <wikipediaLink> عام ڈومین سی تھی آں مھے کیش ہیِن آپلوڈ کؤ سی اجازہ چھی۔
+bulk-upload-success-toast = بھونڈوکے جملہ آپلوڈ ہُویی۔
+bulk-upload-failed-toast = آپلوڈ نُو ہُو۔ بھی کوشش کو۔
+bulk-submission-success-header = تُنُو پھونڈوکے جملا سی تھلُو سی کیا مھو چھی شکر گزار تھی!
+bulk-submission-success-subheader = تُو کامن وائس سی روزانہ سی بنیاد تے ایسی کم سی پُورا کؤ می مدد کودُو
+upload-more-btn-text = دئیل جملا تھلُودُو کھأ؟
+file-invalid-type = غلط فائل
+file-too-large = فائل چیر گھین چھی
+file-too-small = فائل چیر لیؤ چھی
+too-many-files = چیر گن فائلز اے پوت تھی
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = چیر ڈومینا سی گن جملہ اے پوت تھل</icon>
+multiple-sentences-error = مھو اے ٹک سیت چیر گن جملا نہ تھل بھادی
+exceeds-small-batch-limit-error = مھو 1000 ما چیر جملہ نہ تھل بھادی
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] ایک (مثادے 1)
+       *[other] دُو (مثال دے 2)
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] ایک (مثلاً 1)
+       *[other] دُو (مثلاً 2)
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] ایک (مثلاً 1)
+       *[other] دُو (مثلاً 2)
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] ایک (مثلاً 1)
+       *[other] دُو (مثلاً 2)
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] ایک (مثلاً 1)
+       *[other] دُو (مثلاً 2)
+    }
