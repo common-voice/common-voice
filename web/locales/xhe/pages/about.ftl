@@ -40,6 +40,11 @@ about-clip-graveyard-text =
     
     اسے ہیاں تمن ٻیا تنظیم تا شکریہ ادا کندے ہوں ہے منصوبے تی مدد واسطے:
 about-get-involved = رل ون٘ڄ
+about-get-involved-text-2 =
+    کامن وائس ڈیٹا سیٹیک بہتر کرݨ واسطے مدد کرݨ چاہندا ہیں؟ 
+    چنڳا ای میل تی ذریعے رابطہ کر یا <discourseLink>حال احوال</discourseLink>فورمز تے ذریعے رابطیک رہ، <githubLink>گِٹ ہب</githubLink> تے ذریعے سائٹ مسئلینک جمع کر، یا <matrixLink>میٹرکس</matrixLink> برادری چیٹ ݙے ون٘ڄ۔
+about-stay-in-touch = آں کُکر رابطیک رہاں؟
+about-stay-in-touch-button = سائن اپ
 
 ## Community Playbook Content
 ## What is a language
