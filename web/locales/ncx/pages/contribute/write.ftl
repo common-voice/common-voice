@@ -19,6 +19,7 @@ new-sentence-rule-3 = Xikijkuilo ken moneki
 new-sentence-rule-4 = Xikijkuilo ika nochi tlen moneki
 new-sentence-rule-5 = Amo xikijkuilo ika pouali noso okse tlamantli
 new-sentence-rule-6 = Amo ika tlajkuiloli non amo pouij
+new-sentence-rule-7 = Kuali xikijkuilo kanin otikkixti
 
 ## BULK SUBMISSION 
 
