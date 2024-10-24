@@ -1,5 +1,8 @@
 ## WRITE PAGE
 
+write-instruction = Илова кардани <icon></icon> ҷумлаи дастраси умум
+sentence =
+    .label = Ҷумла
 # Sentence Domain dropdown option
 agriculture_food = Кишоварзӣ ва озуқаворӣ
 # Sentence Domain dropdown option
