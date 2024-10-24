@@ -86,8 +86,12 @@ shortcut-vote-no = این
 
 ## Validation criteria
 
+contribution-criteria-link = آواری کنگءِ لیکوءَ پوہ بہ بنت
+contribution-criteria-page-description = ماں وھدءَ توارءِ اش کنے گُڈا آھیا بزاں کہ اے تئی توارءَ شوکتر جوڑ کنگءَ کار دنت
 contribution-for-example = ہمے وڑا
 contribution-misreadings-title = غلط پڑھغے
+contribution-misreadings-description-extended-list-1 = اے ءُ The چے ریکارڈنگ نیامءَ گار اَنت
+contribution-misreadings-description-extended-list-4 = ریکارڈنگ ء اشتاف ء گو ھلاس کن گڈ پشتی لبز ء گیرارے
 contribution-misreadings-description-extended-list-5 = یک لبز پڑھغے وستا جہد ء کن
 contribution-misreadings-example-2-explanation = ['ڈائینا سور'  بلاں بیغ چاہیدا]
 contribution-misreadings-example-4-explanation = ضروری متن ء شہ باز ریکارڈ بیثہ
