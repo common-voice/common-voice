@@ -9,6 +9,8 @@ about-language-req-subtitle = کسیءَ گُـؤت انت کہ یک زبان 
 about-localization-title = ویب سائٹءِ مقامیت
 about-localization-subtitle = ویب سائٹءَ لفظا نی زبانءَ ترجمہ بیت انت
 about-sentence-collection-title = گال ء مچی
+about-sentence-collection-subtitle = جملہ زورا کو گالورا کنگ انت جمع بیت
+about-new-lang-title = نوخے زوان ء آغاز ۓ
 about-speak = گالور کن
 about-listen = گو شا کن
 
