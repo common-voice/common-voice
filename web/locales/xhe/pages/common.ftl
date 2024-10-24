@@ -264,6 +264,9 @@ privacy = رازداری
 terms = شرطیاں
 cookies = کوکیز
 faq = عمومی سوالات
+logout = لاگ آؤٹ
+email-input =
+    .label = ای میل
 
 ## Donate banner
 
