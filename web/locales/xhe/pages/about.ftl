@@ -19,6 +19,12 @@ about-voice-validation-title = اَواز تی تصدیق
 about-voice-validation-subtitle = ٻیا تمن ہو اَواز تے ٹوٹینک تصدیق کندین۔
 about-dataset-release-title = ڈیٹا سیٹ چھوڑ
 about-dataset-release-subtitle = اسے ہر 3 مہینے آ بعد ڈیٹا سیٹ منڄدیوں۔
+about-subscribe-text = کامن وائس ساں رابطیک رہݨ چاہن٘دا ہیں؟
+about-speak = ڳاہلا
+about-speak-text = حِصّہ گھولݨ والے ٹوینک ریکارڈ کندِن جمع کئے ہوئے ڳالھ واریں تے بنک آ۔
+about-listen-queue = سُݨن تی لین
+about-listen-queue-text = اَواز ٹوٹینک جمع کرݨ والی لین تے وِڄ اندروں تھی وین٘دِن جو ہواں ٻُجھݨ واسطے تیار کندِن۔
+about-listen = ٻُجھ
 
 ## Community Playbook Content
 ## What is a language
