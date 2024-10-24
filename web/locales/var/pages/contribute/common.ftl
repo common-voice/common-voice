@@ -11,6 +11,7 @@ clips-with-count-pluralized =
     }
 goal-help-recording = Cheriwema aamo kiyaine noo kuireticho, Common Voice aseparetu taamo, yoraria objetivochi diarichio grawandotiame
 goal-help-validation = Cheriwema aamo kiyaine no'ó kuireticho, Common voice aseparateu __% tuamo yoraria objetivochi diariochio_taamo yoraria.
+contribute-more = Listochi netemia { $count } enchi.
 
 ## Contribution Nav Items
 
