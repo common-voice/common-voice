@@ -51,20 +51,20 @@ general = عام
 # Sentence Domain dropdown option
 healthcare = صحت
 # Sentence Domain dropdown option
-history_law_government = تاریخ، قانون و حکومت
+history_law_government = تاریخ، قانون وا حکومت
 # Sentence Domain dropdown option
-language_fundamentals = زبانو لوازمات(نمبر، حروف، پیسہ)
+language_fundamentals = زبانو لوازمات( مثلا نمبر، حروف، پیسہ)
 # Sentence Domain dropdown option
-media_entertainment = میڈیا و تفریج
+media_entertainment = میڈیا وا تفریج
 # Sentence Domain dropdown option
-nature_environment = قدرت و ماحول
+nature_environment = قدرت وا ماحول
 # Sentence Domain dropdown option
-news_current_affairs = خبر و موجودہ حالات
+news_current_affairs = خبر وا موجودہ حالات
 # Sentence Domain dropdown option
-technology_robotics = ٹیکنالوجی و روبوٹ
+technology_robotics = ٹیکنالوجی وا روبوٹ
 sentence-variant-select-label = جملان مختلف شکل
-sentence-variant-select-placeholder = ای شکلو گنے (اختیاری)
-sentence-variant-select-multiple-variants = عام زبان/ بو شکل
+sentence-variant-select-placeholder = ای قسمو گنے (اختیاری)
+sentence-variant-select-multiple-variants = عام زبان/ بو قسم
 
 ## BULK SUBMISSION 
 
@@ -73,8 +73,8 @@ sc-bulk-upload-header = اپلوڈ کو <icon></icon> عام رویان دائر
 sc-bulk-upload-instruction = تان فائلو ہیا پیځے یا <uploadButton> اپلوڈ کوریکو پچین اف دیت  </uploadButton>
 sc-bulk-upload-instruction-drop = فائلو اپلوڈ کوریکو پچین ہیا پیځے
 bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کانٹک کو  <emailFragment>commonvoice@mozilla.com</emailFragment>
-template-file-additional-information = ہیا فائلو بارا  وا دی معلومات کی دوسان کہ ہتیت ہیا ٹیملیٹا  شامل نیکی تھے  <emailFragment> تین نویشے commonvoice@mozilla.com</emailFragment>
-try-upload-again = تان فائلو ہیا پیځی ای خور کوشیش کو
+template-file-additional-information = ہیا فائلو بارا خور دی معلومات کی دوسان کہ ہتیت ہیا ساوزیرو ژاغہ  شامل نیکی تھے  <emailFragment> تین نویشے commonvoice@mozilla.com</emailFragment>
+try-upload-again = تان فائلو ہیا پیځی ای خور کوشش کو
 try-upload-again-md = اپلوڈ کوریکو ای خور کوشیش کو
 select-file = فائلو نݰان کو
 select-file-mobile = فائلو اپلوڈ کوریکو بچین نݰان کو
