@@ -1,4 +1,4 @@
-action-click = Tachinapa puuka chiturame
+action-click = Click yorapa
 
 ## Contribution Nav Items
 
