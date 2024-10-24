@@ -130,6 +130,7 @@ contribution-varying-pronunciations-description = لفظو غلط را اسور�
 contribution-varying-pronunciations-example-1-title = تان سورو کھوئی دیتی استائے
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ صحیح شیر ہمو اولو حصہ زور دوسان(یوکے) یا جوو(یو ایس) ]
 contribution-varying-pronunciations-example-2-title = ہتوغو ہوست اسنیے اوشونی
+contribution-varying-pronunciations-example-2-explanation = [انگریزیا 'raised' ہمیشہ ایک ریکا(سانسا) ادا بوئے، جوا نو]
 contribution-background-noise-title = اݯھو شور
 contribution-background-voices-title = پݯھانی آواز
 contribution-volume-title = توڑ-لش
