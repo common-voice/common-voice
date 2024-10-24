@@ -41,6 +41,9 @@ about-dataset-new-text = ایکشان شونگو (کامن وائس) ڈیٹا س
 about-clip-graveyard = کلپ مزر
 about-clip-graveyard-text = ایکشان شونگو(کامن وائیسو) ڈیٹا سیٹی نی نے بوجینیک شونگے گہ کلپ مزرانی ہاں۔ کلپو مزر گہ ڈاؤن لوڈ تھیونو ہتے ایوں۔  پروجیکٹئی ساتی دئیک انی جکوڑے بیسے جُو بشخیش تھونیس
 about-get-involved = یو بو (با)
+about-get-involved-text-2 = ایکشان شونگو (کامن وائیس) لائی گہ سم سنیونو رک ہِیں دا؟ مِشٹی ! ای میل تھے یا  <discourseLink> موش کَل </discourseLink> فورم، سائیٹو خپ چینڈ  <githubLink> GitHub </githubLink> یا یو بو <matrixLink>   Matrix </matrixLink> کویوچو موش کل
+about-stay-in-touch = مُو کدا بو شچی)(رابطہ/تعلق) بیئم ؟
+about-stay-in-touch-button = سائن اپ بو
 
 ## Community Playbook Content
 ## What is a language
