@@ -6,6 +6,10 @@ how-does-it-work-title-v2 = کامن واءس چھو کار کن؟
 ## How does it work section
 
 about-language-req-subtitle = کسیءَ گُـؤت انت کہ یک زبان شامل کنیں
+about-localization-title = ویب سائٹءِ مقامیت
+about-localization-subtitle = ویب سائٹءَ لفظا نی زبانءَ ترجمہ بیت انت
+about-sentence-collection-title = گال ء مچی
+about-speak = گالور کن
 
 ## Community Playbook Content
 ## What is a language
