@@ -115,6 +115,12 @@
                 float: right;
                 margin-left: 2rem;
 
+                [dir='rtl'] & {
+                    margin-right: 2rem;
+                    margin-left: unset;
+                    transform: rotate(180deg);
+                }
+
                 path {
                     fill: var(--white);
                 }
