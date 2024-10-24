@@ -3,6 +3,12 @@
 write-instruction = Илова кардани <icon></icon> ҷумлаи дастраси умум
 sentence =
     .label = Ҷумла
+sentence-input-placeholder = Ҷумлаи худро аз манбаи дастраси умум дар ин ҷой ворид намоед
+small-batch-sentence-input-placeholder = Ҷумлаҳои худро аз манбаи дастраси умум дар ин ҷой ворид намоед
+citation =
+    .label = Иқтибос
+sc-review-write-title = Кадом ҷумлаҳоро илова карда метавонам?
+sc-review-small-batch-title = Тарзи илова кардани якчанд ҷумла
 # Sentence Domain dropdown option
 agriculture_food = Кишоварзӣ ва озуқаворӣ
 # Sentence Domain dropdown option
