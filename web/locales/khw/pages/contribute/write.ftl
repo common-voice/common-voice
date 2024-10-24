@@ -69,19 +69,19 @@ sentence-variant-select-multiple-variants = عام زبان/ بو قسم
 ## BULK SUBMISSION 
 
 # <icon></icon> will be replaced with an icon that represents upload
-sc-bulk-upload-header = اپلوڈ کو <icon></icon> عام رویان دائرہ استعمال بک جملہ
-sc-bulk-upload-instruction = تان فائلو ہیا پیځے یا <uploadButton> اپلوڈ کوریکو پچین اف دیت  </uploadButton>
+sc-bulk-upload-header = عام رویان دائرہ استعمال بک </icon> <icon>  جملہ اپلوڈ کو
+sc-bulk-upload-instruction = تان فائلو ہیا پیځے  <uploadButton> یا اپلوڈ کوریکو پچین اف دیت  </uploadButton>
 sc-bulk-upload-instruction-drop = فائلو اپلوڈ کوریکو پچین ہیا پیځے
-bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کانٹک کو  <emailFragment>commonvoice@mozilla.com</emailFragment>
+bulk-upload-additional-information = فائلو بارا  خور معلومات کی دوسان مہربانی کوری ہیا کوری نیویشے <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = ہیا فائلو بارا خور دی معلومات کی دوسان کہ ہتیت ہیا ساوزیرو ژاغہ  شامل نیکی تھے  <emailFragment> تین نویشے commonvoice@mozilla.com</emailFragment>
 try-upload-again = تان فائلو ہیا پیځی ای خور کوشش کو
-try-upload-again-md = اپلوڈ کوریکو ای خور کوشیش کو
+try-upload-again-md = اپلوڈ کوریکو ای خور کوشش کو
 select-file = فائلو نݰان کو
 select-file-mobile = فائلو اپلوڈ کوریکو بچین نݰان کو
-accepted-files = صرف ہیا فائلو قسم منظور بوئی : .tsv
+accepted-files = حاجت فائلو قسم صرف: .tsv
 minimum-sentences = ای فائلا کم ازکم جملہ: 1000
-maximum-file-size = فائلو لوٹا لوٹ سائز : 25 ایم بی
-what-needs-to-be-in-file = مہ فائلا کیاغ شامل بیلیک؟
+maximum-file-size = فائیلو لوٹار لوٹ سائز : 25 ایم بی
+what-needs-to-be-in-file = مہ فائلا کیاغ بیلیک؟
 what-needs-to-be-in-file-explanation = مہربانی کوری چک کوکی  <templateFileLink>ٹیملیٹ فائل</templateFileLink>. تہ جملا کاپی رائٹ مو بائی (CC0 یا اصل کورمو جمع کوراکو اجازت بائی )  گرائمیرو لحاظا صحیح و ریکا اسان بائی ۔جمع بیرو جملہ 10-15سیکنڈا رینو بائی و ہتیرا نمبر، خاص نام و خاص حروف مو بانی
 upload-progress-text = اپلوڈ جاری شیر
 sc-bulk-submit-confirm = تصدیق کومانا کہ ہایا  جملہ <wikipediaLink> عام رویان دائرہ کارو </wikipediaLink> مہ تین ہمو اپلوڈ کوریکو اجازت شیر
