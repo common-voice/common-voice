@@ -9,6 +9,7 @@ clips-with-count-pluralized =
         [one] paikapi ivotetiame
        *[other] Weika toatiame iyoteka
     }
+goal-help-recording = Cheriwema aamo kiyaine noo kuireticho, Common Voice aseparetu taamo, yoraria objetivochi diarichio grawandotiame
 
 ## Contribution Nav Items
 
