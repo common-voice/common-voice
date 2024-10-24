@@ -58,6 +58,7 @@ report-other-comment =
     .placeholder = Tinúkjuajin.
 success = k'uasin
 continue = K'uasikasa
+report-success = Nda tsa'atuya xá.
 
 ## Speak & Listen Shortcuts
 
