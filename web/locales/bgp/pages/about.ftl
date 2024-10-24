@@ -11,6 +11,8 @@ about-localization-subtitle = ویب سائٹءَ لفظا نی زبانءَ ت�
 about-sentence-collection-title = گال ء مچی
 about-sentence-collection-subtitle = جملہ زورا کو گالورا کنگ انت جمع بیت
 about-new-lang-title = نوخے زوان ء آغاز ۓ
+about-new-lang-subtitle = ہم ایں زوان نیوا  کامن وائس سائٹ لانچ کنگ انت
+about-voice-contrib-title = ٹوک شراکت
 about-speak = گالور کن
 about-listen = گو شا کن
 
