@@ -1,6 +1,7 @@
 action-click = Click yorapa
 action-tap = Puka
 contribute = Yooma pienapi apo kuyame
+review = Neene puuka
 
 ## Contribution Nav Items
 
