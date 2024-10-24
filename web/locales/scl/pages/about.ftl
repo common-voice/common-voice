@@ -44,6 +44,7 @@ about-get-involved = یو بو (با)
 about-get-involved-text-2 = ایکشان شونگو (کامن وائیس) لائی گہ سم سنیونو رک ہِیں دا؟ مِشٹی ! ای میل تھے یا  <discourseLink> موش کَل </discourseLink> فورم، سائیٹو خپ چینڈ  <githubLink> GitHub </githubLink> یا یو بو <matrixLink>   Matrix </matrixLink> کویوچو موش کل
 about-stay-in-touch = مُو کدا بو شچی)(رابطہ/تعلق) بیئم ؟
 about-stay-in-touch-button = سائن اپ بو
+about-stay-in-touch-text-1 = <emailFragment> کمپینیجا یو بونو سیچیونوکاری، ایکشان شونگو خصوصییتے سنیو نو،  میلیو ژھیری نی سائین اپ بو </emailFragment>
 
 ## Community Playbook Content
 ## What is a language
