@@ -65,6 +65,7 @@ report-success = Nda tsa'atuya xá.
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = Chubet'a/tikaséin
 shortcut-rerecord-toggle = [1-5]
 shortcut-discard-ongoing-recording = ESC
 
