@@ -43,3 +43,4 @@ terms-disagree = No jayapanhint'axaka
 first-cta-header-text = !Diosï mayamu énka intsïpini jaka chiiti wantakwa patsakataechani¡
 first-cta-subtitle-text = ¿Wékapirinti sáni wantant'ani nena énkari wantak'a?
 why-donate = ¿Antirisï kurhankwarhik'i?
+why-donate-explanation-1 = Ari kurhakw'arhikwa ampe no xani jukaparhakwaesti; énkari wekaaka jatsikuni o nompe. Énkaksï wekaaka xarhatani mitikwarhintskwa ampe, materu jásï arhinhakwaksï jatsikusïnka ka istuksï no jamsïnka chari mitintskwa ampe ka ni jakankurhikwa ampe xarhatani íni eranharhikwa jimpo.
