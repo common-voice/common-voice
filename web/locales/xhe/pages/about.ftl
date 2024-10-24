@@ -45,6 +45,14 @@ about-get-involved-text-2 =
     چنڳا ای میل تی ذریعے رابطہ کر یا <discourseLink>حال احوال</discourseLink>فورمز تے ذریعے رابطیک رہ، <githubLink>گِٹ ہب</githubLink> تے ذریعے سائٹ مسئلینک جمع کر، یا <matrixLink>میٹرکس</matrixLink> برادری چیٹ ݙے ون٘ڄ۔
 about-stay-in-touch = آں کُکر رابطیک رہاں؟
 about-stay-in-touch-button = سائن اپ
+about-stay-in-touch-text-1 = اساں جی میلنگ لسٹ تے وِڄ<emailFragment>سائن اپ</emailFragment> کر کہ کُکر توں اساں جی مہمیں، تقریبیں ٻیا کامن وائس تی کو-ڈیزائن خاصیت تی وِچ حِصّہ گُھل سڳدا ہیں۔
+about-stay-in-touch-text-2 = تو موزیلا ٻولی برادری تی وِچ <discourseLink>ڈسکورس</discourseLink>تی وِچ شامل تھی کر حالات تی حال احوال واسطے، یا جلدی مشورے واسطے <matrixLink>میٹرکس</matrixLink> ٻئے ساں مِل سڳدا ہیں۔
+about-nav-why-common-voice = چھے ݙے؟
+about-nav-how-it-works = کُکر؟
+about-nav-partners = سنڳتی
+about-nav-get-involved = رل ون٘ڄ
+about-nav-how-it-works-2 = کامن وائس کُکر کم کندی ہے؟
+about-nav-playbook = حِصّہ گُھلݨ سِکھ
 
 ## Community Playbook Content
 ## What is a language
