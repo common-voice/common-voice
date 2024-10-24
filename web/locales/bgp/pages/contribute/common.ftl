@@ -47,7 +47,7 @@ report-offensive-speech = بریں تقریر
 report-offensive-speech-detail = کلپ نیاما بے عزت ء باز بریں زوان ایں
 report-other-comment =
     .placeholder = گھلغ
-success = کامیابی
+success = صوب
 continue = جزیں نی
 report-success = رپورٹ باز جوانیخا منظور بیثہ
 
@@ -57,6 +57,7 @@ report-success = رپورٹ باز جوانیخا منظور بیثہ
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = ریاکارڈ ء روکث
+shortcut-rerecord-toggle = یک دوسےچیارپنچ
 shortcut-discard-ongoing-recording = ای ایس سی
 shortcut-discard-ongoing-recording-label = جزوخیں ریکارڈ ء ھلاس کنت
 shortcut-submit = گڑدغ
