@@ -13,6 +13,7 @@ goal-help-recording = Cheriwema aamo kiyaine noo kuireticho, Common Voice asepar
 goal-help-validation = Cheriwema aamo kiyaine no'ó kuireticho, Common voice aseparateu __% tuamo yoraria objetivochi diariochio_taamo yoraria.
 contribute-more = Listochi netemia { $count } enchi.
 speak-empty-state = Teeme kiniwaega etipiru puka frases taamo grawaomia ikachi idiomachi
+speak-empty-state-cta = Epeche weika toamitia  puka frases
 
 ## Contribution Nav Items
 
