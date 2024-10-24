@@ -11,6 +11,8 @@ how-does-it-work-text = بیسے کراؤڈ سورسنگ تھیوں ہانس۔ �
 ## How does it work section
 
 about-language-req-subtitle = ایک سے باش یو تھے تھیوں
+about-localization-title = تومینو ویب سائٹ
+about-localization-subtitle = ویب سائٹو لکھیانی آ باشینی ترجمہ بلِیں۔
 
 ## Community Playbook Content
 ## What is a language
