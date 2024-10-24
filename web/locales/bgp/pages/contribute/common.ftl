@@ -41,6 +41,8 @@ report-offensive-language-detail = گال نیاما بریں زوان کارم�
 report-grammar-or-spelling = گال نیاما بریں زوان کارمرز ایں
 report-different-language = ایکویں ایکویں زوان
 report-different-language-detail = ہمے زوان نیاما نویسی جیثہ ہمانہی نیاما من گالوار آں
+report-difficult-pronounce = تلفظ کنغ اوکھ ایں
+report-difficult-pronounce-detail = اشی نیاما ہمے وڑیں لفظ استاں ہماہاں نی وانغ ء تلفظ کنغ اوکھ ایں
 
 ## Speak & Listen Shortcuts
 
