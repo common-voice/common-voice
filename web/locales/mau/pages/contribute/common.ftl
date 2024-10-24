@@ -57,6 +57,7 @@ report-offensive-speech-detail = Je xta kui tjejin énn chinga.
 report-other-comment =
     .placeholder = Tinúkjuajin.
 success = k'uasin
+continue = K'uasikasa
 
 ## Speak & Listen Shortcuts
 
