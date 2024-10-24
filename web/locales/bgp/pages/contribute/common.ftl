@@ -5,6 +5,11 @@ review = چار ءُ بچار کنیں
 skip = بِل اِنت
 shortcuts = کسانیں جُز
 goal-help-validation = شُما کامن وائسءِ روشءِ لیکوّ پیلوّ کنغ نیاما کُمک کثءَ
+contribute-more =
+    { $count ->
+        [one] باض کنگ ءَ تیار ئے؟
+       *[other] گیشتر کنگ ءَ تیار ئے؟
+    }
 speak-empty-state = اے زبان نیاما ریکارڈ کنغءِ گالبند مئے گُرا ھلاس بیثغاں
 no-sentences-for-variants = بیثغ بی شئے زبانءِ جتائیں دروشمانی گالبند جتا اَنت۔ اگں شما آرام دہ  اِنت گُڈا شما وتی زبانءِ گالبند گندغ واستہ ترتیب بدل کُت کن اِنت
 speak-empty-state-cta = گالبند آنی واستہ ھمراہ داری کن اِنت
@@ -24,8 +29,10 @@ change-preferences = ترجیحات آں بدل کن
 
 contribute-voice-collection-nav-header = توار ء مچی
 contribute-sentence-collection-nav-header = گال ء مچی
+login-signup = لاگ ان/ سائن اپ
 vote-yes = ھو
 vote-no = چن آں
+datasets = ڈیٹا سیٹس
 languages = زواناں
 about = آ نہی باروا
 partner = سنگتی
