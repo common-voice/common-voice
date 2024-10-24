@@ -28,6 +28,15 @@ about-speak = رس
 about-speak-text = کنٹریبیوٹریسے یوئی ہانک موجی رازی شونگو ریکارڈ (record) تھینا۔
 about-listen-queue = کونڈ دیونو ژھیر
 about-listen-queue-text = شونگے سبمشن (submission) ژھیریڑے وئینا۔ زے سے کونڈ دیئریونو رازیں
+about-listen = کونڈ دے
+about-listen-text = یو بلیک موجی جک سے سم ہاں دا نش یا رازینیک سے سم تھے رازینا دا نے رازینا  چکینا۔
+about-is-it-valid = (کلپ) موش سم ہوں دا نُش؟
+about-is-it-valid-text = باش تھیک  سے اوں تَھو توشونگو کلپانی (clip) "سم" سیل شینا
+about-yes-votes = دُو "اُوں" (Yes) ووٹی
+about-yes-votes-text = کامن وائسینی (ایکشان شونگونی) شیونوکاری ایک شونگو کلپ دو مُتے مُتے جک سے منیونو اواجئی
+about-no-votes = دُو 'نے' تھئیک ووٹی
+about-no-votes-text = آ باش رازیک ایک سے شونگو کلپ نے منو تو شونگو کلپ ژھیریڑے بوجوں۔ دُو پھیری نے منیجیلو تو شونگو کلپ مزاریڑے  (to the Clip Graverard) بوجوں
+about-dataset-new = ایکشان شونگو ڈیٹا سیٹ
 
 ## Community Playbook Content
 ## What is a language
