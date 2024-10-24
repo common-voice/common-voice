@@ -51,6 +51,7 @@ report-grammar-or-spelling-detail = Jngu énn mi nda tichjii.
 report-different-language = Kja'é énn.
 report-different-language-detail = Kja'é énn kichii xi mi an nchaa.
 report-difficult-pronounce = Ni'in ma nukjua.
+report-difficult-pronounce-detail = Tjenjin énn xi ni'in ma nukjua.
 
 ## Speak & Listen Shortcuts
 
