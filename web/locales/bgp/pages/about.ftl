@@ -13,6 +13,8 @@ about-sentence-collection-subtitle = جملہ زورا کو گالورا کنگ 
 about-new-lang-title = نوخے زوان ء آغاز ۓ
 about-new-lang-subtitle = ہم ایں زوان نیوا  کامن وائس سائٹ لانچ کنگ انت
 about-voice-contrib-title = ٹوک شراکت
+about-voice-contrib-subtitle = لوغ آ نتیں اور وسی ٹوک نیوا حصہ داند
+about-voice-validation-title = ٹوکٔ تصدیق
 about-speak = گالور کن
 about-listen = گو شا کن
 
