@@ -74,6 +74,14 @@ sc-bulk-upload-instruction = تُنو گائلز مھید کے ڙیک دیدے �
 sc-bulk-upload-instruction-drop = آپلوڈ کؤ سی کیا مھید کے فائلز تھلا
 bulk-upload-additional-information = کو مے فائل سی بارا می تُو دیئی کی مزید معلومات دیؤ نئِمادو مھو سیت کانٹیک کو <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = کو مے فایل سی بارا می تُو تھأ معلومات دیؤ نیِمادو کامک یأمنے مے قالب می نی تھیو مھو سیت رابطہ کوا۔ <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = تُنُو فائلز مھید کے ڙھگلُو سی دُوآر کوشش کو
+try-upload-again-md = دُوآر اپلوڈ سی کوشش کو
+select-file = فائل کار
+select-file-mobile = اپلوڈ کؤ سی کیا فائل کار
+accepted-files = مھیس صرف  ٹی س وی سی قسم کی فائل منظور ہودی
+minimum-sentences = اے فائل می کم سی کم 1000 جملہ
+maximum-file-size = زیاد ما زیاد 25 ایم بی سی سیز سی فائلز
+what-needs-to-be-in-file = مھی فائل می کا ہُو پکار تُھو؟
 
 ## SMALL BATCH SUBMISSION
 
