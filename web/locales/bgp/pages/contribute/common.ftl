@@ -86,7 +86,9 @@ shortcut-vote-no = این
 
 ## Validation criteria
 
+contribution-criteria-nav = ھاسیت
 contribution-criteria-link = آواری کنگءِ لیکوءَ پوہ بہ بنت
+contribution-criteria-page-title = شراکت ھاسیت
 contribution-criteria-page-description = ماں وھدءَ توارءِ اش کنے گُڈا آھیا بزاں کہ اے تئی توارءَ شوکتر جوڑ کنگءَ کار دنت
 contribution-for-example = ہمے وڑا
 contribution-misreadings-title = غلط پڑھغے
