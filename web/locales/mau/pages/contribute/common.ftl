@@ -37,6 +37,7 @@ datasets = Nkjin skuya.
 languages = énn
 about = nchjaya
 partner = Tinyakanajin
+submit-form-action = Sikasén
 
 ## Reporting
 
