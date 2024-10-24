@@ -45,6 +45,8 @@ report-difficult-pronounce = تلفظ کنغ اوکھ ایں
 report-difficult-pronounce-detail = اشی نیاما ہمے وڑیں لفظ استاں ہماہاں نی وانغ ء تلفظ کنغ اوکھ ایں
 report-offensive-speech = بریں تقریر
 report-offensive-speech-detail = کلپ نیاما بے عزت ء باز بریں زوان ایں
+report-other-comment =
+    .placeholder = گھلغ
 success = کامیابی
 continue = جزیں نی
 report-success = رپورٹ باز جوانیخا منظور بیثہ
@@ -54,9 +56,21 @@ report-success = رپورٹ باز جوانیخا منظور بیثہ
 
 ## Speak Shortcuts
 
+shortcut-record-toggle-label = ریاکارڈ ء روکث
+shortcut-discard-ongoing-recording = ای ایس سی
+shortcut-discard-ongoing-recording-label = جزوخیں ریکارڈ ء ھلاس کنت
+shortcut-submit = گڑدغ
+shortcut-submit-label = کلپاں جمع کنینت
+request-language-text = دانی کامن وائس ء شمے زوان نہ دیثی رو
 
 ## Listen Shortcuts
 
 
 ## Validation criteria
 
+contribution-varying-pronunciations-example-1-title = آئی ءِ سر ءَ بیرٹ ءِ بستغ ات
+contribution-varying-pronunciations-example-2-title = آئی ءِ دست کھڑو
+contribution-varying-pronunciations-example-2-explanation = پِیشتری ٹوک
+contribution-background-noise-title = پشت ء شور
+contribution-background-noise-example-2-explanation = متن ئے بہر گوشدارغ نہ بیثہ
+contribution-background-voices-title = پشت ء شور
