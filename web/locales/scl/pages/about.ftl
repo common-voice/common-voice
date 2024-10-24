@@ -15,6 +15,13 @@ about-localization-title = تومینو ویب سائٹ
 about-localization-subtitle = ویب سائٹو لکھیانی آ باشینی ترجمہ بلِیں۔
 about-sentence-collection-title = یوپینیک موجی
 about-sentence-collection-subtitle = جکوڑے رجونو موجی یو بیوں ہاں
+about-new-lang-title = نائی باش اچیتی
+about-new-lang-subtitle = انی باشی نی بیسے نائی باش کامن وائسیڑے اچا رئیس۔
+about-voice-contrib-title = شونگو سانت (contribution)
+about-voice-contrib-subtitle = جک اوئی تومے شونگے یو تھینا
+about-voice-validation-title = شونگو منیجونو
+about-voice-validation-subtitle = مُتے جک سے آ شونگے منینا
+about-dataset-release-title = ڈیٹا سیٹ چینیونو
 
 ## Community Playbook Content
 ## What is a language
