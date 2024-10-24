@@ -22,6 +22,12 @@ about-voice-contrib-subtitle = جک اوئی تومے شونگے یو تھینا
 about-voice-validation-title = شونگو منیجونو
 about-voice-validation-subtitle = مُتے جک سے آ شونگے منینا
 about-dataset-release-title = ڈیٹا سیٹ چینیونو
+about-dataset-release-subtitle = بیسے ڈیٹا سیٹ چے چے موزونی چینونیس
+about-subscribe-text = کامن وائس  (ایکشان شونگو) سانتی بیوں دا؟
+about-speak = رس
+about-speak-text = کنٹریبیوٹریسے یوئی ہانک موجی رازی شونگو ریکارڈ (record) تھینا۔
+about-listen-queue = کونڈ دیونو ژھیر
+about-listen-queue-text = شونگے سبمشن (submission) ژھیریڑے وئینا۔ زے سے کونڈ دیئریونو رازیں
 
 ## Community Playbook Content
 ## What is a language
