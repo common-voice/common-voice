@@ -45,10 +45,18 @@ about-get-involved-text-2 = ایکشان شونگو (کامن وائیس) لائ
 about-stay-in-touch = مُو کدا بو شچی)(رابطہ/تعلق) بیئم ؟
 about-stay-in-touch-button = سائن اپ بو
 about-stay-in-touch-text-1 = <emailFragment> کمپینیجا یو بونو سیچیونوکاری، ایکشان شونگو خصوصییتے سنیو نو،  میلیو ژھیری نی سائین اپ بو </emailFragment>
+about-stay-in-touch-text-2 = موزیلا باشو کمیو نیٹینی  مُتے جاکو ساتی آنے  <discourseLink> "موش کل"  اوئی گرامیون بوں <discourseLink> موش کل تھیونو، یا <matrixLink> Matrix </matrixLink> لوکو نصیحتی کاریو
+about-nav-why-common-voice = کئیے؟
+about-nav-how-it-works = کدائی تھے؟
+about-nav-partners = سانتی
+about-nav-get-involved = یو بو (با)
+about-nav-how-it-works-2 = کامن وائس (ایکشان شونگو) سے کروم کدا تھے تھِیں؟
+about-nav-playbook = کدا بو یو بونو ہِیں سِیچ
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = ایشان شونگونی (کامن وائیسینی) باش یوک ہِیں؟
 
 ## How do I add a language
 
