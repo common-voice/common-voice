@@ -24,6 +24,7 @@ new-sentence-rule-8 = مثال تے طور تی اصلی ٻیا ڳالھ وار 
 login-instruction-multiple-sentences = <loginLink>لاگ ان</loginLink>یا <loginLink>سائن اپ</loginLink> گھݨے ڳالھ وار جمع کرݨ واسطے
 how-to-cite = آں کُکر حوالہ ݙیاں؟
 how-to-cite-explanation-bold = یو آر ایل لنک یا کم تے پورے ناں ساں حوالہ ݙے۔
+how-to-cite-explanation = اگر ہے تا جے لفظ ہِنتا خالی <italicizedText>“آپݨاں حوالہ”</italicizedText>۔ اسانک ہے سمجھݨ تی ضرورت ہے کے تؤک ہے مواد کے تھوں آ مِلا ہے۔ تاکہ اسے لال سڳوں کے ہے عوامی ڈومین تے وِڄ ہتھے ٻیا کاپی رائٹ تی کا سختی نئے لڳدی حوالے واسطے ٻی معلومات واسطے اساں جا <guidelinesLink>رہنمائی تا صفحہ</guidelinesLink> لال۔
 guidelines = رہنما اصول
 contact-us = اساں سا رابطہ کر
 add-sentence-success = 1 ڳالھ وار جمع تھی ڳیا ہے
