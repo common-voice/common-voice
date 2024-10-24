@@ -44,6 +44,7 @@ submit-form-action = Sikasén
 report = tsuya
 report-title = Tikaseen jusin ksuya
 report-ask = ¿jmé kjua xi tjinre énn kui?
+report-offensive-language = énn chinga.
 
 ## Speak & Listen Shortcuts
 
