@@ -43,6 +43,11 @@ report-different-language = ایکویں ایکویں زوان
 report-different-language-detail = ہمے زوان نیاما نویسی جیثہ ہمانہی نیاما من گالوار آں
 report-difficult-pronounce = تلفظ کنغ اوکھ ایں
 report-difficult-pronounce-detail = اشی نیاما ہمے وڑیں لفظ استاں ہماہاں نی وانغ ء تلفظ کنغ اوکھ ایں
+report-offensive-speech = بریں تقریر
+report-offensive-speech-detail = کلپ نیاما بے عزت ء باز بریں زوان ایں
+success = کامیابی
+continue = جزیں نی
+report-success = رپورٹ باز جوانیخا منظور بیثہ
 
 ## Speak & Listen Shortcuts
 
