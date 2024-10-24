@@ -13,6 +13,9 @@ sc-review-form-button-approve-shortcut = А
 sc-review-form-button-reject-shortcut = Х
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = Г
+sc-review-link = Еплъыжъын
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = ⓘ Еплъыжъын шапхъэхэр
+sc-criteria-title = Еплъыжъын шапхъэхэр
