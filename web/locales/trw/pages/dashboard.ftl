@@ -88,3 +88,13 @@ days =
         [one] ایک (مثلاً 1)
        *[other] دُو (مثلاً 2)
     }
+recordings =
+    { $count ->
+        [one] ایک (مثلاً 1)
+       *[other] دُو (مثلاً 2)
+    }
+validations =
+    { $count ->
+        [one] ایک (مثلاً 1)
+       *[other] دُو (مثلاً 2)
+    }
