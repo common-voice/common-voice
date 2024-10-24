@@ -49,3 +49,7 @@ add-information-button = Kúparhatani útasï mítintskwa
 continue-speaking-button = Nompe diosï mayamu, wantateru útasï.
 create-profile-text = ¿Wekasïnti patsani chiiti mítikwarhintskwa? <createProfile> ú chiiti mítikwarhintskwa </createProfile>
 thanks-for-voice-toast = Diosï mayamu énkari sáni pakatani jaka chiiti wantakwani.
+thanks-for-voice-toast-error = Énkari axani jamani japka chiiti wantakwa ma ampe no sési úkwarhisti.
+first-cta-gender-select-default-option = Eraku ma mintakwa
+first-cta-gender-select-help-text =
+    .label = ¿Nenari wekasïnki pakatani, eskari tatakaeska o nanaka?
