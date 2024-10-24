@@ -53,19 +53,29 @@ report-success = رپورٹ باز جوانیخا منظور بیثہ
 
 ## Speak & Listen Shortcuts
 
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ایس
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = آر
 shortcut-record-toggle-label = ریاکارڈ ء روکث
 shortcut-rerecord-toggle = یک دوسےچیارپنچ
+shortcut-rerecord-toggle-label = دوبار ہ ریکارڈ کلپ
 shortcut-discard-ongoing-recording = ای ایس سی
 shortcut-discard-ongoing-recording-label = جزوخیں ریکارڈ ء ھلاس کنت
 shortcut-submit = گڑدغ
 shortcut-submit-label = کلپاں جمع کنینت
 request-language-text = دانی کامن وائس ء شمے زوان نہ دیثی رو
+request-language-button = زوان درخواست
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = پی
 
 ## Validation criteria
 
