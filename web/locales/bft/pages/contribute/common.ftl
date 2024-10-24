@@ -145,3 +145,5 @@ contribution-background-voices-description = گیاپ کھوقنہ اونگمی 
 contribution-background-voices-example-1-title = ٹراٸسیکی چھوغو ڈاٸناسورس پو۔ <strong> ریرے ریرے نہ زیر  <strong>
 contribution-background-voices-example-1-explanation = یانگ اونگین یودپینہ؟ <strong> اے چکپوی سکت زیرفن <strong>
 contribution-volume-title = سکت تھونپو
+contribution-volume-description = زیرکھنی برینگ لوقسو لوقسو سکت تھون دوکپن۔ اگر ریکارڈینگ پو چھدپو بیسے سکت تھونپو تھونمو یودنارے چوق سکیور، یا اگر ٹیکسٹ پینگ ربیسے میدپے یانگلا میکوبیسے لیگینہ سہ کولے یودنارے سہ چوق زگوق۔
+contribution-reader-effects-title = زیرکھن پووی اثر پو
