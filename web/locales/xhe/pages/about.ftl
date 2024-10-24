@@ -57,12 +57,20 @@ about-nav-playbook = حِصّہ گُھلݨ سِکھ
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = کامن وائس تی وِچ ٻولی چھا ہے؟
 
 ## How do I add a language
 
+about-playbook-how-add-language = آں کُکر ہِک ٻولی وِجھاں؟
+about-playbook-how-add-language-translating-heading = سائٹ ترجمہ کندے پے ہوں
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹون کُکر استعمال کرݨ واسطے اساں جی رہنمائی لال</translateVideoLink>
+about-playbook-how-add-language-collecting-sentences-heading = ڳالھ وارینک جمع پیا کندا ہیں
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ڳالھ وارینک جمع کرݨ واسطے اساں جی رہنمائی لال</sentenceCollectorVideo>۔
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ڳالھ واریں تے مجموعیک مزید لال</sentenceCollectorFragment>۔
 
 ## How does localization work
 
+about-playbook-how-localize = سائٹ لوکلائزیشن کُکر کم کندی ہے؟
 
 ## How to add sentences
 
@@ -72,6 +80,9 @@ about-nav-playbook = حِصّہ گُھلݨ سِکھ
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = تقریبیں
+about-playbook-how-grow-language-content-4 = سوشل میڈیا
+about-playbook-how-grow-language-content-6 = سنڳت ٻیا نیٹ ورکس
 
 ## How to validate
 
