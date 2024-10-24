@@ -15,7 +15,11 @@ about-new-lang-subtitle = ہم ایں زوان نیوا  کامن وائس سا�
 about-voice-contrib-title = ٹوک شراکت
 about-voice-contrib-subtitle = لوغ آ نتیں اور وسی ٹوک نیوا حصہ داند
 about-voice-validation-title = ٹوکٔ تصدیق
+about-voice-validation-subtitle = تھی لوگ ان آواز کلپس نی تصدیق کن انت
+about-dataset-release-title = ڈیٹا سیٹ ریلیز
+about-dataset-release-subtitle = ماء ہر سے ماہ پزاں  ڈیٹاسیٹ ریلیز کنگ انت.
 about-speak = گالور کن
+about-listen-queue = گوش کن - قطار
 about-listen = گو شا کن
 
 ## Community Playbook Content
