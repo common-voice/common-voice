@@ -20,7 +20,7 @@ sc-review-form-button-approve-shortcut = ی/ے
 sc-review-form-button-reject-shortcut = ن
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = س
-sc-review-form-keyboard-usage-custom = یانگلا کی-بورٹی لم چھٹ کن سہ کولبہ نینید: چھدکھہ بیوفری، مین زیربو فری، سکیوربو فری۔
+sc-review-form-keyboard-usage-custom = یانگلا کی-بورٹی لمچھٹ کن سہ کولبہ نینید: { sc-review-form-button-approve-shortcut } چھدکھہ بیوفری ،{ sc-review-form-button-reject-shortcut }     مین زیربو فری، { sc-review-form-button-skip-shortcut }    سکیوربو فری۔
 sc-review-form-button-submit =
     .submitText = ہلتس بزو چھم چوک
 # Variables:
