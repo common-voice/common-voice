@@ -46,6 +46,7 @@ report-title = Tikaseen jusin ksuya
 report-ask = ¿jmé kjua xi tjinre énn kui?
 report-offensive-language = énn chinga.
 report-offensive-language-detail = énn chinga tjenjin énn.
+report-grammar-or-spelling = Mi nda kichjii.
 
 ## Speak & Listen Shortcuts
 
