@@ -1,8 +1,15 @@
 ## REVIEW
 
 sc-review-loading = Гущыӏэухыгъэхэр трегъэуцо…
+sc-review-form-button-reject = Щыгъэзыен
+sc-review-form-button-skip = Блэгъэкӏ
+sc-review-form-button-approve = Езэгъын
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = А
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
-sc-review-form-button-reject-shortcut = Хь
+sc-review-form-button-reject-shortcut = Х
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = Г
 
 ## REVIEW CRITERIA
 
