@@ -48,3 +48,4 @@ why-donate-explanation-2 = Parika íni jásï ánchitatakwa ampe úaka sési xan
 add-information-button = Kúparhatani útasï mítintskwa
 continue-speaking-button = Nompe diosï mayamu, wantateru útasï.
 create-profile-text = ¿Wekasïnti patsani chiiti mítikwarhintskwa? <createProfile> ú chiiti mítikwarhintskwa </createProfile>
+thanks-for-voice-toast = Diosï mayamu énkari sáni pakatani jaka chiiti wantakwani.
