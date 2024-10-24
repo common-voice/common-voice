@@ -10,6 +10,7 @@ about-localization-title = ویب سائٹءِ مقامیت
 about-localization-subtitle = ویب سائٹءَ لفظا نی زبانءَ ترجمہ بیت انت
 about-sentence-collection-title = گال ء مچی
 about-speak = گالور کن
+about-listen = گو شا کن
 
 ## Community Playbook Content
 ## What is a language
