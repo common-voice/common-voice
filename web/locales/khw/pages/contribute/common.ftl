@@ -140,6 +140,7 @@ contribution-background-noise-example-2-fixed-title = بلاح ڈاینو <stron
 contribution-background-noise-example-2-explanation = [نویشیرو پھوک حصہ کارا نو دویان]
 contribution-background-noise-example-3-fixed-title = <strong>[کڑک]</strong>رائزیکو لوٹ ڈائنوسار   <strong>[کڑک]</strong> -
 contribution-background-voices-title = اݯھو آواز
+contribution-background-voices-description = پیک پس منظر صحیح۔ لیکن اسپہ نو مݰکیسیان کہ خور آواز مشینو حساب کتابا ہݰ لفظان پشیکو وجہ بائی کی ہتیت نویشیرو نیکی۔اگر تو نویشیرووار علاوہ سفا لفظ کار کی ارو ہسے اسکوردی آوازو رد کو۔ عام طورا ہیا ٹی ویو کھولاو پیځیکو وجہیں بویان یا شویا مشقولگیو۔
 contribution-background-voices-description-extended = رکارڈنگ کی ݯیتائے توغو رد کوجب تک سف نویشیرو ریکو آواز کارا نو دوئے
 contribution-background-voices-example-1-title = ٹرانزیکو لوٹ ڈائنوسار <strong>[ای آوازا راوے]</strong>
 contribution-background-voices-example-1-explanation = توگوسانا؟ <strong>[ خور کا ہوئے پرائے ]</strong>
