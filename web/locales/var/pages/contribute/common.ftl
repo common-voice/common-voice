@@ -16,6 +16,8 @@ speak-empty-state = Teeme kiniwaega etipiru puka frases taamo grawaomia ikachi i
 speak-empty-state-cta = Epeche weika toamitia  puka frases
 speak-loading-error = Ki kawe machenaru toaniame oracionichi. Weikachuri onepa toaka
 record-button-label = Amo grabandotane amo naewa
+share-title-new = <bold> ikachi </bold> grawaonia amo naewa
+keep-track-profile = Aatenamu puuka progreso perfil neteka
 
 ## Contribution Nav Items
 
