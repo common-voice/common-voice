@@ -20,6 +20,7 @@ new-sentence-rule-4 = Xikijkuilo ika nochi tlen moneki
 new-sentence-rule-5 = Amo xikijkuilo ika pouali noso okse tlamantli
 new-sentence-rule-6 = Amo ika tlajkuiloli non amo pouij
 new-sentence-rule-7 = Kuali xikijkuilo kanin otikkixti
+new-sentence-rule-8 = Okachi kuali ken ikaj iuan timotlapouiskia (amo oui mayeto)
 
 ## BULK SUBMISSION 
 
