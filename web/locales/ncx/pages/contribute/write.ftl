@@ -26,6 +26,24 @@ how-to-cite = ¿Ken nikijtos kanin onikkixti?
 how-to-cite-explanation-bold = Xiktlalili se enlace (URL) noso ken itoka amochtli.
 how-to-cite-explanation = Tla moneuian otikijkuilo, san xikijkuilo <italicizedText>“Noneuian onikijkuilo”</italicizedText>. Moneki tikmatiskej kanin otikkixti tlen otikijkuilo uan ijkon uelis tiktekitiltiskej uan amikaj techteluis. Tla tikneki tikmatis okachi, xikita <guidelinesLink>Tlen moneki</guidelinesLink>.
 guidelines = Tlen moneki
+contact-us = Techtlapoui
+add-sentence-success = 1 tlajkuiloli otiktlali
+add-sentence-error = Amo omokak
+required-field = Xikontlalili nikan tlen moneki.
+single-sentence-submission = San se tlajkuiloli tiktitlanilis
+small-batch-sentence-submission = Seki tlajkuiloli tikintitlanilis
+bulk-sentence-submission = Miakej tlajkuiloli tikintitlanilis
+single-sentence = San se
+small-batch-sentence = Sekimej
+bulk-sentence = Miakej
+sentence-domain-combobox-label = Kanin poui tlajkuiloli
+sentence-domain-select-placeholder = Uelis tikinpejpenas eyi (amo moneki)
+# Sentence Domain dropdown option
+agriculture_food = Tlatooktli uan tlakuali
+# Sentence Domain dropdown option
+automotive_transport = Teposmej tlen ika tinemij
+# Sentence Domain dropdown option
+finance = Tomin
 
 ## BULK SUBMISSION 
 
