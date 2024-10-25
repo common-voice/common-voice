@@ -45,4 +45,11 @@ sc-criteria-item-3 = Te' jaye wa'ade mujsu ndsamä.
 sc-criteria-item-4 = 'Uka te' jaye sa'sya jyatyäju, pena te' [...]mbäjkisytsyokpamä[...] te' 'maknya'omo.
 sc-criteria-item-5-2 = 'Uka te' jaye jamusä tsyäjkya, pena te' [...]ji'nde mbäjkisytsyowemä[...] te' mdsä'nanh'omo. 'Uka ji' mujsi sunyi, mujspa mgo'nhgädä yajkti mujspa nhgyädä 'emä.
 sc-criteria-item-6 = 'Uka ja'idä'am 'eyabä jaye wa'a mdu'nisu, ¡kotsokya'tsi wa'a ndsäjka'nhäyu te' jaye!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Ji'bä [...] ¿Wäbajayä yä' jaye, mujspa'ksyä yajk'ona?
+sc-review-rules-title = ¿Yospa'ksyä tikoda tsyäjkyaju te' jaye?
+sc-review-empty-state = Yäti,  yä' ode'omo ja'idä jaye wa'a ndu'nisu.
 report-sc-different-language = 'Eyabä 'ode
+report-sc-different-language-detail = Eyabä 'ode'omode jayubä, jinde'e nä't ndu'nusebä 'ode.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Nä't ndsäjkyaju mäjabä käkajku'y.
