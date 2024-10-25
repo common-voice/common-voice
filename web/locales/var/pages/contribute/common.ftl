@@ -31,6 +31,7 @@ submit-form-action = itocheniame
 
 ## Reporting
 
+report-title = Itocheniame informe netesa
 report-different-language = Pirechi naewasari
 report-difficult-pronounce = Tekite pronuciadoniame
 
