@@ -108,6 +108,7 @@ contribution-for-example = ہمے وڑا
 contribution-misreadings-title = غلط پڑھغے
 contribution-misreadings-description = اش کنگءَ وھدءَ گیشتر ھیال بکن اِنت۔ ھماں کہ ریکارڈ کنگ بوتگ بالکل ھماں انت کہ نبشتہ کنگ بوتگ۔ اگں کسانیں ردی ھست گُڈا دور بکن اِنت
 contribution-misreadings-description-extended-list-1 = اے ءُ The چے ریکارڈنگ نیامءَ گار اَنت
+contribution-misreadings-description-extended-list-2 = لفظ شروع نیوا  <strong>'s'</strong> گار اَنت
 contribution-misreadings-description-extended-list-3 = کنٹریکشنز  پڑھغ وستا کش حقیقت نیوا موجود نیست انت، کش "ماء استوں" ہندا "ماہ استوں" یا اشی ء علاؤ
 contribution-misreadings-description-extended-list-4 = ریکارڈنگ ء اشتاف ء گو ھلاس کن گڈ پشتی لبز ء گیرارے
 contribution-misreadings-description-extended-list-5 = یک لبز پڑھغے وستا جہد ء کن
