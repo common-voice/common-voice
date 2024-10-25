@@ -13,6 +13,7 @@ sc-review-form-usage = Nga kixi chanife tsa nda tsuri nijmí. Nga skun chanife t
 sc-review-form-source = Jñá ndibá:{ $sentenceSource }
 sc-review-form-button-reject = Majen
 sc-review-form-button-skip = Chikji
+sc-review-form-button-approve = Sik'atu
 
 ## REVIEW CRITERIA
 
