@@ -20,7 +20,17 @@ sc-review-form-button-approve-shortcut = S
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = T
-sc-review-form-keyboard-usage-custom = Mujspadi yajkyoskeda te' jatyäjkis tumä jyi'bi wa'a mawe tsäjku: [S] wa'a mbäjkisytsyoku, [N] wa'a jana mbäjkisytsyok, yajkti [T] wa'a mgo'nhgädu.
+sc-review-form-keyboard-usage-custom = Mujspadi yajkyoskeda te' jatyäjkis tumä jyi'bi wa'a mawe tsäjku: { sc-review-form-button-approve-shortcut } wa'a mbäjkisytsyoku, { sc-review-form-button-reject-shortcut } wa'a jana mbäjkisytsyok, yajkti { sc-review-form-button-skip-shortcut } wa'a mgo'nhgädu.
+sc-review-form-button-submit =
+    .submitText = Tu'nä wa'a yajko'yaju'a
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Jatyu'nya nitumä'k jaye.
+        [one] Tumä jaye tyu'nyaju. ¡Yäskodoya!
+       *[other] [...] Tyu'nyajubä jaye. ¡Yäskodoya!
+    }
 
 ## REVIEW CRITERIA
 
