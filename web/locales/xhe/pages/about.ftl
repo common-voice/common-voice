@@ -63,10 +63,15 @@ about-nav-playbook = حِصّہ گُھلݨ سِکھ
 about-playbook-what-is-language = کامن وائس تی وِچ ٻولی چھا ہے؟
 about-playbook-what-is-language-content-1 = ٻولی تے باریک سوچݨ واسطے گھݨیں طریقے ہتھین تقریر سنڄاݨن والا نمونہ تے مُدے واسطے، کامن وائس صلاح ݙین٘دی ہے کہ ‘باہمی فہم' تی توجہ ݙے، یا 'چنڳا ہے ٻولی تے ڳاھلݨ والے ہِک بیک سمجھݨ کوشش کندین؟'
 about-playbook-what-is-language-content-2 = اَسے چاہن٘دے ہوں کہ تقریر نمونیک مقررین تی متنوع حدیک سمجھݨ بہتر وے۔ ھیوں ہوݨ واسطے اَواز تا ڈیٹا سیٹیک گھݨیں الڳ تُمن تی مدد کرݨی چاہیجدی ہے۔
+about-playbook-what-is-language-content-3 = کُجھ ٻولیں تی وِچ گرائمر، لفظیں ٻیا لہجے تی وِچ گھݨاں فرق ہون٘دا ہے۔ ہے وجہ وا اَسے 2022 تی وِچ <ctaLink>ݙسین٘دے پے ہوں 'ویری اینٹس'</ctaLink>۔ ہے ساں برادریںک ہواں تی ٻولینک وݙے ڈیٹا سیٹ تی الگ الگ کرݨ تا ہِک طریقہ مِلدا ہے۔
 
 ## How do I add a language
 
 about-playbook-how-add-language = آں کُکر ہِک ٻولی وِجھاں؟
+about-playbook-how-add-language-content-1 =
+    پہلا لال کہ تاجی ٻولی <languageLink>پہلے ساں ہتّھے تا ناں</languageLink>۔ 
+    اگر ای یوں نے تاں ٻیال تُو <languageRequestLink>آپݨی ٻولی ݙیݨ واسطے پُچھ سڳدا ہیں</languageRequestLink>۔ 
+    ٻئے تَڑ ہتھین۔ سائٹ تا ترجمہ کرݨ، ٻیا ڳالھ وار جمع کرݨ
 about-playbook-how-add-language-translating-heading = سائٹ ترجمہ کندے پے ہوں
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹون کُکر استعمال کرݨ واسطے اساں جی رہنمائی لال</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = ڳالھ وارینک جمع پیا کندا ہیں
