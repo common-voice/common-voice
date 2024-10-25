@@ -23,6 +23,7 @@ about-voice-validation-subtitle = دوئے لوگ انھاں آواز دے ک�
 about-dataset-release-title = ڈیٹا سیٹ جاری کرنا۔
 about-dataset-release-subtitle = اسیں ہر تیسرے مہینےڈیٹا سیٹ جاری کردے ہاں۔
 about-subscribe-text = کامن وائس نال رابطے بچ رہنڑا چہندے ہو؟
+about-speak = بول
 
 ## Community Playbook Content
 ## What is a language
