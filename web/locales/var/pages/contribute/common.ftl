@@ -19,9 +19,13 @@ record-button-label = Amo grabandotane amo naewa
 share-title-new = <bold> ikachi </bold> grawaonia amo naewa
 keep-track-profile = Aatenamu puuka progreso perfil neteka
 login-to-get-started = Oinare sesión ...oinepa ivosichi toaka
+target-segment-first-card = Katimo taamoma colaborandomia taamo paacha piripi yoratiame objetivochi
+target-segment-add-voice = Toamitia amo naewasari
+target-segment-learn-more = Epeche weika información
 
 ## Contribution Nav Items
 
+vote-yes = Kai
 
 ## Reporting
 
