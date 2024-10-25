@@ -1,9 +1,9 @@
 ## REVIEW
 
-sc-review-lang-not-selected = Зы пари бзэ къыхэпхыгъэп. Сыолъэӏу бзэ къыхэхын пае  <profileLink>упрофилым</profileLink> кӏожъ.
-sc-review-title = Гущыӏэугъыгъэхэр еплъыжъ
+sc-review-lang-not-selected = Зи бзэ къыхэпхыгъэп. Бзэ къыхэпхыным пае  <profileLink>уипрофиль</profileLink> кӏожьба.
+sc-review-title = Гущыӏэухыгъэхэм яплъыжь
 sc-review-loading = Гущыӏэухыгъэхэр трегъэуцо…
-sc-review-select-language = Гущыӏэухыгъэ еплъыжъыным пае сыолъэӏу зы бзэ къыхэх
+sc-review-select-language = Сыолъэӏу, гущыӏэухыгъэм уеплъыжьыным пае зы бзэ къыхэх
 sc-review-form-prompt =
     .message = Еплъыжъыгъэ гущыӏэухыгъэм зыфырагъэхьыгъэп, цыхьэ утелъа?
 # Variables:
