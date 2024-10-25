@@ -21,6 +21,11 @@ new-sentence-rule-5 = Amo xikijkuilo ika pouali noso okse tlamantli
 new-sentence-rule-6 = Amo ika tlajkuiloli non amo pouij
 new-sentence-rule-7 = Kuali xikijkuilo kanin otikkixti
 new-sentence-rule-8 = Okachi kuali ken ikaj iuan timotlapouiskia (amo oui mayeto)
+login-instruction-multiple-sentences = <loginLink>Xikalaki</loginLink> noso <loginLink>ximomachoti</loginLink> tla tikneki okachi tikinmijkuilos
+how-to-cite = ¿Ken nikijtos kanin onikkixti?
+how-to-cite-explanation-bold = Xiktlalili se enlace (URL) noso ken itoka amochtli.
+how-to-cite-explanation = Tla moneuian otikijkuilo, san xikijkuilo <italicizedText>“Noneuian onikijkuilo”</italicizedText>. Moneki tikmatiskej kanin otikkixti tlen otikijkuilo uan ijkon uelis tiktekitiltiskej uan amikaj techteluis. Tla tikneki tikmatis okachi, xikita <guidelinesLink>Tlen moneki</guidelinesLink>.
+guidelines = Tlen moneki
 
 ## BULK SUBMISSION 
 
