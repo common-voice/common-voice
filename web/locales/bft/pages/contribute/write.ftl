@@ -125,3 +125,17 @@ rate-limit-message-seconds =
         [one] یانگی دی صحفووی سکنگ لوکھسنہ زومسے حد پو پورا بیسید۔ اے تم سیر پو سکانگمو پژے دونلا ٹھین چک دوت۔ یری تھیق لوکھ پولا انچن شیردے زیرید۔
        *[other] یانگی دی صحفووی سکنگ لوکھسنہ زومسے حد پو پورا بیسید۔ اے تم سیر پو سکانگمو پژے دونلا کوچک دوت۔ یری تھیق لوکھ پولا انچن شیردے زیرید۔
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } تم سیر چک کھیونگسید۔
+       *[other] { $uploadedSentences } پووی { $totalSentences }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } پووی، تم سیر چک زدمسید۔ مرگوس پی تم سیر کن زدمہ لا دیکھہ کلک بیوس۔
+       *[other] { $uploadedSentences } تم کن زدمسے کھیونگسید۔ مرگوسپی تم سیر کن زدمہ لا دیکھہ کلک بیوس۔
+    }
+small-batch-sentences-rule-1 = روخ بیس کننا یمبو دوکسے، گا گا تم سیرکن کلبہ؟
+small-batch-sentences-rule-2 = ژھیری ہرژیس نہ تم سیر چک کول۔
