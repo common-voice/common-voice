@@ -17,7 +17,7 @@ about-sentence-collection-subtitle = جملے جمع کیتے جلدے ہن تا
 about-new-lang-title = نئی زبان دی شروعات
 about-new-lang-subtitle = اساں کامن وائس سائٹ کو اس زبان بچ شروع کیتا۔
 about-voice-contrib-title = آوازاں دا تعاون
-about-voice-contrib-subtitle = لوگ ایندے اور اپنڑیاں آوازاں دا تعاون کردے ہن۔
+about-voice-contrib-subtitle = لوگ ایندے ہور اپنڑیاں آوازاں دا تعاون کردے ہن۔
 about-voice-validation-title = زبان دی توثیق
 about-voice-validation-subtitle = دوئے لوگ انھاں آواز دے کلپس دی توث کردے ہن۔
 about-dataset-release-title = ڈیٹا سیٹ جاری کرنا۔
@@ -25,6 +25,7 @@ about-dataset-release-subtitle = اسیں ہر تیسرے مہینےڈیٹا س�
 about-subscribe-text = کامن وائس نال رابطے بچ رہنڑا چہندے ہو؟
 about-speak = بول
 about-speak-text = تعاون کرنا آلے عطیہ شدہ جملیاں دے مجموعہ بچو پڑھ کے وائس کلپس ریکاڈ کردے ہن۔
+about-listen-queue = سنڑنادی-لینڑ
 
 ## Community Playbook Content
 ## What is a language
