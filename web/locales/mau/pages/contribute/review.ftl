@@ -8,6 +8,9 @@ sc-review-no-sentences = Je tsin nijmí xi kuan chut'ajin ¡<addLink>tinyajinsa 
 sc-review-form-prompt =
     .message = Mi kjima tiji xi je kichut'asun, ¿a niki k'uakji?
 sc-review-form-usage = Nga kixi chanife tsa nda tsuri nijmí. Nga skun chanife tsa minda tsuri. Nganka chanife tsato sik'atui<strong>¡Ngui nichajin tikasen xi kichut'ajin!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Jñá ndibá:{ $sentenceSource }
 
 ## REVIEW CRITERIA
 
