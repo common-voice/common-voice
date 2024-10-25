@@ -127,6 +127,7 @@ contribution-misreadings-example-8-title = لوٹ مݯھی گوغو تہ سار 
 contribution-misreadings-example-8-explanation = [ بورنگا اشناری]
 contribution-varying-pronunciations-title = مختلف طریقہ ریک
 contribution-varying-pronunciations-description = لفظو غلط را اسور، غلط ژاغا زور دیتی اسور یا سوالہ نݰانو نو رے اسور، رے آوازو مسترد کوریکار پوشٹی احتیاط کو
+contribution-varying-pronunciations-description-extended = خور ویلٹی، اگر تہ خیالہ  ہے لفظ ہیغار پوشٹی ریاکو  پوشٹا نوگیتی اوشئے وا رییاوا غلط اندازہ لگیران، مہرابانی کوری ہورو رد کو۔ تہ تین کہ یقین نیکی سورین نیسیکو پٹینودیت
 contribution-varying-pronunciations-example-1-title = تان سورو کھوئی دیتی استائے
 contribution-varying-pronunciations-example-1-explanation = [‘Beret’ صحیح شیر ہمو اولو حصہ زور دوسان(یوکے) یا جوو(یو ایس) ]
 contribution-varying-pronunciations-example-2-title = ہتوغو ہوست اسنیے اوشونی
