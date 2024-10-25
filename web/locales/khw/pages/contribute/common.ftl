@@ -141,6 +141,7 @@ contribution-background-voices-description-extended = رکارڈنگ کی ݯیت
 contribution-background-voices-example-1-title = ٹرانزیکو لوٹ ڈائنوسار <strong>[ای آوازا راوے]</strong>
 contribution-volume-title = توڑ-لش
 contribution-reader-effects-title = ریاکان اثر
+contribution-reader-effects-description = ذیاد رکارڈنگ ہتے رویان کاکی تان قدرتی آوازا لوو دونیان۔ مہربانی کوری باشاوونان اوچے کمپیوٹرو ترتیب دیرو آوازان رد کورور
 contribution-just-unsure-title = صرف غیر یقینی
 contribution-just-unsure-description = ہݰ اشناری کی تہ غیچی ہائے ہسے ہیا 'رہنمائی' شامل نیکی تان سف سار جام اندازو مطابق ووٹ دیت
 see-more = <chevron></chevron>خور ڑوڑے
