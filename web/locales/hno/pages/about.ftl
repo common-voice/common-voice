@@ -27,6 +27,7 @@ about-speak = بول
 about-speak-text = تعاون کرنا آلے عطیہ شدہ جملیاں دے مجموعہ بچو پڑھ کے وائس کلپس ریکاڈ کردے ہن۔
 about-listen-queue = سنڑنادی-لینڑ
 about-listen-queue-text = وائس کلپس جمع کرانڑ والی لینڑ بچ چلے جلدے ہن او فر اناں کو سنڑنے واسطے تیار کردی ہے۔
+about-listen = سنڑو
 
 ## Community Playbook Content
 ## What is a language
