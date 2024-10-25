@@ -51,5 +51,8 @@ sc-review-rules-title = ¿Yospa'ksyä tikoda tsyäjkyaju te' jaye?
 sc-review-empty-state = Yäti,  yä' ode'omo ja'idä jaye wa'a ndu'nisu.
 report-sc-different-language = 'Eyabä 'ode
 report-sc-different-language-detail = Eyabä 'ode'omode jayubä, jinde'e nä't ndu'nusebä 'ode.
+sentences-fetch-error = Tujku ji' wyäbä tiyä nä't me'tsu'k te' jaye.
+review-error = Tujku ji' wyäbä tiyä nä'käjt ndu'nisu'k te' jaye.
+review-error-rate-limit-exceeded = Nimeke nä nyikujä'näju. Sujkä 'usya'nhomo wa'a mujsu mdu'nisä te' jaye, ko'sa sa'sya'k 'uka te'de'e nä sutnubä mjayä.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
-sc-redirect-page-title = Nä't ndsäjkyaju mäjabä käkajku'y.
+sc-redirect-page-title = Nä't ndsäjkyaju mäjabäda'mbä käkajku'y.
