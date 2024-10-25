@@ -4,6 +4,11 @@ contribute = ھمراہ داری کنیں
 review = چار ءُ بچار کنیں
 skip = بِل اِنت
 shortcuts = کسانیں جُز
+clips-with-count-pluralized =
+    { $count ->
+        [one] 	<bold>{ $count }</bold> کلپ
+       *[other] <bold>{ $count }</bold> کلپس
+    }
 goal-help-validation = شُما کامن وائسءِ روشءِ لیکوّ پیلوّ کنغ نیاما کُمک کثءَ
 contribute-more =
     { $count ->
