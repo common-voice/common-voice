@@ -7,3 +7,4 @@ request-language-success-title = کیا زبانو پچین درخواست کی 
 request-language-success-content = تہ زبانو کمان وائسا  کیچہ کوری شامل کورونو بوئی رے خور معلومات گانی شاو وا پشیسی
 select-language = ای زبانو گنے
 other-language = خور زبان
+yes-receive-emails = دی، متین ای میل انځاوے۔ اوا کمان وائسو پروجیکٹو بارا معلومات گنیگ جاری سوتیک مشکیمان۔
