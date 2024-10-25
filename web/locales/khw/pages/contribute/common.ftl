@@ -133,10 +133,12 @@ contribution-varying-pronunciations-example-1-explanation = [‘Beret’ صحی�
 contribution-varying-pronunciations-example-2-title = ہتوغو ہوست اسنیے اوشونی
 contribution-varying-pronunciations-example-2-explanation = [انگریزیا 'raised' ہمیشہ ایک ریکا(سانسا) ادا بوئے، جوا نو]
 contribution-background-noise-title = اݯھو شور
+contribution-background-noise-description = اسپہ مݰکیسیان کی مشینو سورا ݯییݯاک حساب کتاب بو قسمہ اݯھو آوازان سنبال کورار وا  نسبتا بو توڑ آوازو منظور کوریکو بار بشرطہ ہتیت  تمام نویشیرو کار کوریکو منع مو کورار۔ لش اچھو آواز صحیح شیر؛ لش باشاوونو تہ ہر ای لفظو کار کوریکو رکاوٹ ساوز بویان۔
 contribution-background-noise-description-extended = رکارڈنگ کی ݯیتائے توغو مسترد کوجب تک سف نویشیرو ریکو آواز کارا نو دوئے
 contribution-background-noise-example-1-fixed-title = <strong>[اشتروخیک]</strong> بلاہ ڈائنوسار <strong>[کوپیک]</strong> ٹرائزک.
 contribution-background-noise-example-2-fixed-title = بلاح ڈاینو <strong>[کوپیک]</strong> ٹرائزک.
 contribution-background-noise-example-2-explanation = [نویشیرو پھوک حصہ کارا نو دویان]
+contribution-background-noise-example-3-fixed-title = <strong>[کڑک]</strong>رائزیکو لوٹ ڈائنوسار   <strong>[کڑک]</strong> -
 contribution-background-voices-title = اݯھو آواز
 contribution-background-voices-description-extended = رکارڈنگ کی ݯیتائے توغو رد کوجب تک سف نویشیرو ریکو آواز کارا نو دوئے
 contribution-background-voices-example-1-title = ٹرانزیکو لوٹ ڈائنوسار <strong>[ای آوازا راوے]</strong>
