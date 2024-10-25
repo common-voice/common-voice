@@ -4,6 +4,7 @@ sc-review-lang-not-selected = Kjie cha'ajin jngu énn, ti'in jña tijna <profile
 sc-review-title = Chut'a nijmí
 sc-review-loading = tikjibét'a nijmí.
 sc-review-select-language = Cha'ájin jngu énn nga kuan chut'ajin nijmí.
+sc-review-no-sentences = Je tsin nijmí xi kuan chut'ajin ¡<addLink>tinyajinsa nijmí</addLink>!
 
 ## REVIEW CRITERIA
 
