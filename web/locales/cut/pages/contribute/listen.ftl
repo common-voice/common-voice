@@ -6,3 +6,4 @@ listen-3rd-time-instruction = Achii dubbii tika gndide
 listen-last-time-instruction = ¡A ditnaskuu!
 listen-empty-state = A kotee ndodo dbaku, a kot kubi kama a ndebe o nwe ndebe ndodo yi’i dbaku kuu
 listen-empty-state-variants = Abte ndodo yi’i yabakude mu’u na koo, ates nome kubi kambede taka iynde’e inña yi’i tama bia adbakuku.
+listen-loading-error = Nwe chii chindeenno ndodo naa koo dindetud tama namna’a achinnu
