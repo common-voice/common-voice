@@ -60,6 +60,7 @@
     "@types/http-proxy-middleware": "0.19.3",
     "@types/ioredis": "4.28.10",
     "@types/jest": "27.5.2",
+    "@types/jsonwebtoken": "^9.0.7",
     "@types/mysql": "2.15.26",
     "@types/node": "12.20.55",
     "@types/node-fetch": "2.6.2",

@@ -13,6 +13,8 @@ import DB from './lib/model/db'
 import UserClient from './lib/model/user-client'
 const PromiseRouter = require('express-promise-router')
 const MySQLStore = require('express-mysql-session')(session)
+import * as jwt from 'jsonwebtoken'
+import * as cookieParser from 'cookie-parser'
 
 const {
   ENVIRONMENT,
@@ -22,6 +24,7 @@ const {
   MYSQLPASS,
   PROD,
   SECRET,
+  JWT_KEY,
   FXA: { DOMAIN, CLIENT_ID, CLIENT_SECRET },
 } = getConfig()
 
@@ -37,7 +40,7 @@ export const setupAuthRouter = async () => {
 
   const router = PromiseRouter()
 
-  router.use(require('cookie-parser')())
+  router.use(cookieParser())
   router.use(
     session({
       cookie: {
@@ -158,6 +161,13 @@ export const setupAuthRouter = async () => {
         // if the user is already registered, now they should be enrolled
         // [TODO] there should be an elegant way to get the client_id here
         const client_id = await UserClient.findClientId(user.email)
+
+        response.cookie('mcv_session', jwt.sign({ client_id }, JWT_KEY), {
+          httpOnly: true,
+          secure: PROD,
+          maxAge: 30 * 24 * 60 * 60 * 1000,
+        })
+
         await earnBonus('sign_up_first_three_days', [
           enrollment.challenge,
           client_id,
@@ -189,39 +199,52 @@ export const setupAuthRouter = async () => {
 
 const db = new DB()
 export async function authMiddleware(
-  request: Request,
-  response: Response,
+  req: Request,
+  res: Response,
   next: NextFunction
 ) {
-  if (request.session.user) {
+  if (req.session.user) {
     const accountClientId = await UserClient.findClientId(
-      request.session.user.email
+      req.session.user.email
     )
     if (accountClientId) {
-      request.session.user.client_id = accountClientId
+      req.session.user.client_id = accountClientId
+      res.cookie(
+        'mcv_session',
+        jwt.sign({ client_id: accountClientId }, JWT_KEY),
+        {
+          httpOnly: true,
+          secure: PROD,
+          maxAge: 30 * 24 * 60 * 60 * 1000,
+        }
+      )
       next()
       return
     }
   }
 
-  const [authType, credentials] = (request.header('Authorization') || '').split(
-    ' '
-  )
+  const [authType, credentials] = (req.header('Authorization') || '').split(' ')
   if (authType === 'Basic') {
     const [client_id, auth_token] = Buffer.from(credentials, 'base64')
       .toString()
       .split(':')
     if (await UserClient.hasSSO(client_id)) {
-      response.sendStatus(401)
+      res.sendStatus(401)
       return
     } else {
       const verified = await db.createOrVerifyUserClient(client_id, auth_token)
       if (!verified) {
-        response.sendStatus(401)
+        res.sendStatus(401)
         return
       }
     }
-    request.session.user = { ...request.session.user, client_id }
+    res.cookie('mcv_session', jwt.sign({ client_id }, JWT_KEY), {
+      httpOnly: true,
+      secure: PROD,
+      maxAge: 30 * 24 * 60 * 60 * 1000,
+    })
+
+    req.session.user = { ...req.session.user, client_id }
   }
 
   next()

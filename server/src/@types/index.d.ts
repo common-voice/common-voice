@@ -7,6 +7,7 @@ declare global {
 
 declare module 'express-session' {
   interface SessionData {
+    authToken?: string
     userId: string
     user: {
       client_id: string

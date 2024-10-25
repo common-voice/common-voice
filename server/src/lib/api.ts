@@ -367,7 +367,8 @@ export default class API {
 
   getAccount = async ({ session: { user } }: Request, response: Response) => {
     let userData = null
-    if (user) {
+
+    if (user && user.email) {
       userData = await UserClient.findAccount(user.email)
     }
 

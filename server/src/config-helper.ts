@@ -33,6 +33,7 @@ export type CommonVoiceConfig = {
   ENVIRONMENT: Environment
   RELEASE_VERSION?: string
   SECRET: string
+  JWT_KEY: string
   AWS_SES_CONFIG: SESClientConfig
   STORAGE_LOCAL_DEVELOPMENT_ENDPOINT: string
   GCP_CREDENTIALS: object
@@ -88,6 +89,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   ),
   ENVIRONMENT: configEntry('CV_ENVIRONMENT', 'prod'),
   SECRET: configEntry('CV_SECRET', 'super-secure-secret'),
+  JWT_KEY: configEntry('CV_JWT_KEY', 'super-secure-key'),
   ADMIN_EMAILS: configEntry('CV_ADMIN_EMAILS', null),
   AWS_REGION: configEntry('CV_AWS_REGION', 'us-west-2'),
   AWS_SES_CONFIG: configEntry('CV_AWS_SES_CONFIG', {}, castJson),
