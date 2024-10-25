@@ -121,6 +121,7 @@ contribution-misreadings-example-4-title = ٹریاسکءِ دیو ہیکل ڈا
 contribution-misreadings-example-4-explanation = ضروری متن ء شہ باز ریکارڈ بیثہ
 contribution-misreadings-example-5-title = ما کافی گِرغا درا روغ ثوں
 contribution-misreadings-example-6-title = ما کافی گِرغا درا روغ ثوں
+contribution-misreadings-example-6-explanation = ['ماں استء' ہونکاں درکار انت]"
 contribution-misreadings-example-7-title = ما کافی گِرغا درا روغ ثوں
 contribution-misreadings-example-7-explanation = [اصل عبارت نیوا کوئی  ‘a’  نیست ء]
 contribution-misreadings-example-8-title = بھونرا جلدغاں دیؤاء شتا انت
@@ -135,6 +136,7 @@ contribution-background-noise-description-extended = ار ریکاٹ پھرشت�
 contribution-background-noise-example-1-fixed-title = <strong>[کھلغ]</strong> ٹریاسکا ء دیوہیکل ڈایناسور<strong>[زکام]
 contribution-background-noise-example-2-fixed-title = ٹریاسکا ء دیو ہیکل ڈاینو<strong>[کھلغ]</strong>
 contribution-background-noise-example-2-explanation = متن ئے بہر گوشدارغ نہ بیثہ
+contribution-background-noise-example-3-fixed-title = <strong>[کریکل]<strong/>ریاسک ء  دیوہیکل ڈایناسار <strong>[کریکل]</strong>۔
 contribution-background-voices-title = پشت ء شور
 contribution-background-voices-description-extended = ار ریکاٹ پھرشتغ بیت یا آئی ءَ اڑک کھفتغ بیت گڈ آئی ءَ بِل دے داں وختا کہ درستیں متنءِ گوشدارغ بیت نوی۔
 contribution-background-voices-example-1-explanation = تھو مناغا ؟ دویں غا تھرا گوانجتا؟
