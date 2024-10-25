@@ -264,6 +264,7 @@ privacy = رازداری
 terms = شرطیاں
 cookies = کوکیز
 faq = عمومی سوالات
+content-license-text = مواد <licenseLink>تخلیقی عام لائسنس</licenseLink> تے ذریعے مِل سڳدا ہے
 logout = لاگ آؤٹ
 email-input =
     .label = ای میل
