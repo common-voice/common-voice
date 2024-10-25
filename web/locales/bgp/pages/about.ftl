@@ -41,6 +41,11 @@ about-is-it-valid = اے کلپ درست آنت؟
 
 ## How to record quality
 
+about-playbook-how-record-quality = ماں جویں توں جویں گالورے کلپا چھنگا پھرکنا؟
+about-playbook-how-record-content-1 = تھو وسی عام آواز نیاواں گالورا کھن! تہی گالورے انداز را بس کھنو۔ما تہی گالور وہنگ چہوں چھو کیں آستیں،ما تہی اولی گالور کھنغے انداذ خو طریقہ چہوں
+about-playbook-how-record-content-2 = ڈھیر پہزی گالورے شورأ سے بچ برو۔اے تھرا آشکنا ویلہ آسن بیس
+about-playbook-how-record-content-3 = لکھسیں گالورا غور نو پڑیحے ۔نواں نیٔیلی،بدلی یا لفظ لینی نا
+about-playbook-how-record-content-4 = اے گالورا یقینی بنڑیں کہ تہی گالور کھنغا سے مہرا پھرکھنغا بیسی،اے دے کہ تہی الغا سے پھزا اوشتی برو
 
 ## How to grow language
 
