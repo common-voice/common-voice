@@ -14,6 +14,13 @@ about-localization-title = ویب سائٹ دی لوکلائزیشن
 about-localization-subtitle = اس ویب سائٹ دی عبارت دا ترجمہ اس زبان بچ کیتا دا ہے۔
 about-sentence-collection-title = جملیاں دا مجموعہ
 about-sentence-collection-subtitle = جملے جمع کیتے جلدے ہن تاک لوگ اوچی آواز بچ پڑہن۔
+about-new-lang-title = نئی زبان دی شروعات
+about-new-lang-subtitle = اساں کامن وائس سائٹ کو اس زبان بچ شروع کیتا۔
+about-voice-contrib-title = آوازاں دا تعاون
+about-voice-contrib-subtitle = لوگ ایندے اور اپنڑیاں آوازاں دا تعاون کردے ہن۔
+about-voice-validation-title = زبان دی توثیق
+about-voice-validation-subtitle = دوئے لوگ انھاں آواز دے کلپس دی توث کردے ہن۔
+about-dataset-release-title = ڈیٹا سیٹ جاری کرنا۔
 
 ## Community Playbook Content
 ## What is a language
