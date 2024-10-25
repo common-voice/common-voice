@@ -6,8 +6,8 @@ skip = Umatote aampa
 shortcuts = Risaka umatoniame
 clips-with-count-pluralized =
     { $count ->
-        [one] paikapi ivotetiame
-       *[other] Weika toatiame iyoteka
+        [one] <bold>{ $count }</bold> paikapi ivotetiame
+       *[other] <bold>{ $count }</bold> weika toatiame iyoteka
     }
 goal-help-recording = Cheriwema aamo kiyaine noo kuireticho, Common Voice aseparetu <goalPercentage></goalPercentage> taamo, yoraria objetivochi diarichio grawandotiame { $goalValue }
 goal-help-validation = Cheriwema aamo kiyaine no'ó kuireticho, Common voice aseparateu <goalPercentage></goalPercentage>  tuamo yoraria objetivochi diariochio_taamo yoraria{ $goalValue }.
