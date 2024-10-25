@@ -76,11 +76,17 @@ about-playbook-how-add-language-translating-heading = سائٹ ترجمہ کند
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹون کُکر استعمال کرݨ واسطے اساں جی رہنمائی لال</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = ڳالھ وارینک جمع پیا کندا ہیں
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ڳالھ وارینک جمع کرݨ واسطے اساں جی رہنمائی لال</sentenceCollectorVideo>۔
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    تُو <sentenceCollectorLinkAdd>ڳالھ تی نکڑی تعداد وِڄ سڳدا ہیں</sentenceCollectorLinkAdd>،
+    یا تُو <bulkImportDocsLink>گِٹ ہَب استعمال کرسݨ تی گھݨیں اچݨ</bulkImportDocsLink> کر سڳدا ہیں۔ 
+    یاد وے کہ ڳالھ وار <licenseLink>cc0 (یا عوامی ڈومین)</licenseLink>، وین، یا تُو آپ لکھ سڳدا ہیں۔
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ڳالھ واریں تے مجموعیک مزید لال</sentenceCollectorFragment>۔
 
 ## How does localization work
 
 about-playbook-how-localize = سائٹ لوکلائزیشن کُکر کم کندی ہے؟
+about-playbook-how-localize-content-2 = <pontoonAccountLink>ہِک اکاؤنٹ جوڑ</pontoonAccountLink> اگر تُو ساں نا تھے۔ ٻیال اپݨی ٻولی چݨن <strong>('ٹولہ')</strong> ٻیا ٻیال منصوبہ <pontoonCvLink>کامن وائس</pontoonCvLink>چُݨ۔ ترجمہ کرݨ واسطے فائلیاں ہوسن۔ ہِک تی ہتھ لا، ٻیال ہے انگریزی تی وِچ لفظ ٻیا ہو ہاں تا ترجمہ کرݨ واسطے باکس وڑین٘دا ہے۔
+about-playbook-how-localize-content-3 = ترجمہ انگریزی ساں ہے۔ لیکن تو ٻئی ٻولیں تی وِچ <strong>تجویزیاں</strong>لال سڳدا ہیں۔ <strong>پروفائل</strong> آئیکون تی ہتھ لا، ٻیال <strong>ترتیبیاں</strong>تے لِنک تی ہتھ لا ٻیال تُو جا بھی ٻولی ڳاھلین٘دا ہیں۔ ہوک وِڄ۔ مُنڈ سَڄے کُنڈ تی ترجمیں تی ہِک لِسٹ ہوسے جاک <strong>مقامی</strong> آہدے ہِن۔ ترجمے ہِک دھن تے بعد سائیٹ تی وڑین٘دے ہِن۔
 
 ## How to add sentences
 
