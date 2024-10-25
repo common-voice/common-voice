@@ -132,6 +132,7 @@ contribution-varying-pronunciations-example-1-explanation = ['Beret' ٹھیک  �
 contribution-varying-pronunciations-example-2-title = آئی ءِ دست کھڑو
 contribution-varying-pronunciations-example-2-explanation = پِیشتری ٹوک
 contribution-background-noise-title = پشت ء شور
+contribution-background-noise-description = ما لوٹیں کہ مشین لرننگ الگورتھم پس منظر ءِ شور ءِ جتا جتائیں دروشماں دیم ءَ برگ ءِ اہل بہ بنت ءُُ نسبتا زوریں توار ہم منگ بنت داں کہ آ ترا سرجمیں نبشتانک ءِ اشکنگ ءَ چہ نہ رکّین اَنت۔ پرسکون پسہ ءِ موسیقی ٹھیک اِنت؛ موسیقی ءِ توار سک باز اِنت کہ ترا ھر یک گال ءِ اشکنگ ءَ چہ رکّینیت۔
 contribution-background-noise-description-extended = ار ریکاٹ پھرشتغ بیت یا آئی ءَ اڑک کھفتغ بیت گڈ آئی ءَ بِل دے داں وختا کہ درستیں متنءِ گوشدارغ بیت نوی۔
 contribution-background-noise-example-1-fixed-title = <strong>[کھلغ]</strong> ٹریاسکا ء دیوہیکل ڈایناسور<strong>[زکام]
 contribution-background-noise-example-2-fixed-title = ٹریاسکا ء دیو ہیکل ڈاینو<strong>[کھلغ]</strong>
