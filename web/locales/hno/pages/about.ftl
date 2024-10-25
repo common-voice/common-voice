@@ -21,6 +21,8 @@ about-voice-contrib-subtitle = لوگ ایندے اور اپنڑیاں آوا�
 about-voice-validation-title = زبان دی توثیق
 about-voice-validation-subtitle = دوئے لوگ انھاں آواز دے کلپس دی توث کردے ہن۔
 about-dataset-release-title = ڈیٹا سیٹ جاری کرنا۔
+about-dataset-release-subtitle = اسیں ہر تیسرے مہینےڈیٹا سیٹ جاری کردے ہاں۔
+about-subscribe-text = کامن وائس نال رابطے بچ رہنڑا چہندے ہو؟
 
 ## Community Playbook Content
 ## What is a language
