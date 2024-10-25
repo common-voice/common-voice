@@ -1,7 +1,7 @@
 ## REVIEW
 
 sc-review-lang-not-selected = تو کیا زبان نو گنیتاو۔ مہربانی کوری <profileLink> بوغے پوروفائل </profileLink> زبان گنیکو پچین۔
-sc-review-title = جملو وا ڑوڑو
+sc-review-title = جملان واڑوڑو
 sc-review-loading = جملو لوڈ کویان
 sc-review-select-language = مہربانی کوری جملان وا ڑوڑیکو پچین ای زبان گنے۔
 sc-review-no-sentences = وا ڑوڑیکو پچین جملہ نیکی۔<addLink> خور جملان ہنیسے شامل کو</addLink>
@@ -41,17 +41,17 @@ sc-criteria-item-1 = جملہ سہی نویشینو بائے
 sc-criteria-item-2 = جملہ گرائمیرو لحاظا سہی بائے
 sc-criteria-item-3 = جملو ریکو قابل بائے
 sc-criteria-item-4 = اگر جملہ معیارو پورا کی کویان ہیا&quot; کلک کو۔  ہوسکی وشکی &quot;منظور کو
-sc-criteria-item-5-2 = اگر جملہ بعدو معیارو پورا کی نو کویان ہیا&quot; کلک کو۔  ہوسکی وشکی&quot; بٹینیں رد کو۔ اگر جملو بارا تہ یقین کی نو بویان، تو ہورو سورین نیسی پوشٹی بیکو بوس۔
-sc-criteria-item-6 = تہ سوں  جملہ واڑوڑیکو پچین ختم کی ہونی، اسپہ سون خور جملہ بڑځیکا مدد کو
+sc-criteria-item-5-2 = اگر جملہ بوعدو معیارو پورا کی نو کویان ہیا&quot; کلک کو۔  ہوسکی وشکی&quot; بٹینیں رد کو۔ اگر جملو بارا تہ یقین کی نو بویان، تو ہورو سورین نیسی پوشٹی بیکو بوس۔
+sc-criteria-item-6 = تہ سوں جملہ واڑوڑیکو پچین ختم کی ہونی، اسپہ سون خور جملہ بڑځیکا مدد کو
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = چیکو ہیا <icon> </icon> زبانو لحاظہ سہی جملہ؟
-sc-review-rules-title = ہیا جملہ رہمنائی مطابقا سہی؟
+sc-review-rules-title = ہیا جملہ رہمنائی مطابقا سہیا؟
 sc-review-empty-state = موجودہ وحتہ ہیا زبانا واڑوڑیکو پچین کیا جملہ نیکی۔
 report-sc-different-language = مختلف زبان
 report-sc-different-language-detail = اوا کیا زبانو کی وا ڑاڑیمان ہیا ہتے زبانار مختلف نویشی شیر۔
 sentences-fetch-error = جملو گناوا نقص پیدا ہوئے
 review-error = جملو واڑوڑاوا نقص پیدا ہوئے
-review-error-rate-limit-exceeded = تو تیز اسوس۔ مہربانی کوری جملو واڑوڑ یقینی سہی کوریکو بچین بھوک روک بوس۔
+review-error-rate-limit-exceeded = تو تیز اسوس۔ مہربانی کوری جملو واڑوڑ یقینی سہی کوریکو بچین پھوک روک بوس۔
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = اسپہ پھوک لوٹ تبدیلی کوسیان
 sc-redirect-page-subtitle-1 = جملان جمع کوراک بنیادی کمان وائسو ژاغو ویشکی بیران۔ تو ہنیسے <writeURL> نویشے</writeURL> ایک جملہ یا<reviewURL> واڑوڑے</reviewURL> ای جملو کمان وائسا جمع کوریکو۔
