@@ -26,6 +26,7 @@ target-segment-learn-more = Epeche weika información
 ## Contribution Nav Items
 
 vote-yes = Kai
+submit-form-action = itocheniame
 
 ## Reporting
 
