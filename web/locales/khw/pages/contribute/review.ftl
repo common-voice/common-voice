@@ -30,6 +30,13 @@ sc-review-form-reviewed-message =
         [one] 1 جملو واڑوڑیتائے، شکریہ
        *[other] جملو واڑوڑیتائے۔ شکریہ
     }
+sc-review-form-review-failure = وا ڑوڑیرو محفوظ کورین نو ہوئے۔ پھوک اچھا وا کوشش کو۔
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = واڑوڑیکو معیار
+sc-criteria-title = واڑوڑیکو معیار
+sc-criteria-make-sure = تسلی کو کی جملہ  پوشٹی گیاک معیارو پورا کویان
+sc-criteria-item-1 = جملہ سہی نویشینو بائے
+sc-criteria-item-2 = جملہ گرائمیرو لحاظا سہی بائے
+sc-criteria-item-3 = جملو ریکو قابل بائے
