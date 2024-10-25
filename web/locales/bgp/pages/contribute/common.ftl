@@ -127,6 +127,7 @@ contribution-misreadings-example-8-title = بھونرا جلدغاں دیؤاء 
 contribution-misreadings-example-8-explanation = یکھ دومی چی ءِ بے بدلی
 contribution-varying-pronunciations-title = انج انجیں گالوار
 contribution-varying-pronunciations-example-1-title = آئی ءِ سر ءَ بیرٹ ءِ بستغ ات
+contribution-varying-pronunciations-example-1-explanation = ['Beret' ٹھیک  ھے چاہے اول حرف (UK) یا رومی (US) زورا کو ں]
 contribution-varying-pronunciations-example-2-title = آئی ءِ دست کھڑو
 contribution-varying-pronunciations-example-2-explanation = پِیشتری ٹوک
 contribution-background-noise-title = پشت ء شور
