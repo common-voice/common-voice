@@ -10,13 +10,13 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold>  اسکوردی آواز
     }
 goal-help-recording = توکمان وائسو روزانو <goalPercentage></goalPercentage>  { $goalValue } رکارڈ پورا کوریکا مدد ارو
-goal-help-validation = توکمان وائسو روذانہ <goalPercentage></goalPercentage>  { $goalValue } رکارڈ کوریکا مدد ارو
+goal-help-validation = توکمان وائسو انسو  <goalPercentage></goalPercentage>  { $goalValue } تصدیق پورا کوریکا مدد ارو
 contribute-more =
     { $count ->
        *[other] { $count } خور کوریکو بچین تیارا ?
     }
 speak-empty-state = ہیا زبانا رکارڈ کوریکو پچین اسپہ سون جملہ ختم ہونی
-no-sentences-for-variants = تہ زبانو جملہ ختم بیرو بونی
+no-sentences-for-variants = تہ زبانو جملہ ختم بیرو بونی۔ کی بوسان تو تان سیٹنگ بدل دیکو بوس تاکہ زبانو خور جملہ غیچی گونی۔
 speak-empty-state-cta = جملہ راوے
 speak-loading-error = تہ ریکو پچین اسپہ سون کیا جملہ نیکی۔ مہر بانی کوری پھوک اچا کوشش کو-
 record-button-label = تان آوازو رکارڈ کو
