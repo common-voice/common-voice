@@ -25,6 +25,8 @@ about-listen-queue = گوش کن - قطار
 about-listen-queue-text = پھرکھسیں گالور کٹھا کھنغ ویلہ لائن وار پہیلنا تے آکںیں آشکنغ وسطہ جوڑنی سے
 about-listen = گو شا کن
 about-is-it-valid = اے کلپ درست آنت؟
+about-nav-how-it-works-2 = کامن واءس چھو کار کن؟
+about-nav-playbook = حصہ گریغء طریقہ سکھے
 
 ## Community Playbook Content
 ## What is a language
@@ -32,9 +34,12 @@ about-is-it-valid = اے کلپ درست آنت؟
 
 ## How do I add a language
 
+about-playbook-how-add-language-collecting-sentences-content-3 = جملہ آے مجموعہ آ مزید گیندے
 
 ## How does localization work
 
+about-playbook-how-localize = سائٹ لوکلائزیشن چھرگ کار کھتھ
+about-playbook-how-localize-content-1 = کامن وائس سائٹ آے ترجمہ اشی چھک بئ
 
 ## How to add sentences
 
