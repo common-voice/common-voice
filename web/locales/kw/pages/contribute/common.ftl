@@ -44,6 +44,7 @@ change-preferences = Chanj dewisow
 contribute-voice-collection-nav-header = Kuntel Lev
 contribute-sentence-collection-nav-header = Kuntel Lavarow
 login-signup = Omgelmi / Omrolya
+vote-yes = Da
 vote-no = Na
 datasets = Settys data
 languages = Yethow
