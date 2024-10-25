@@ -12,6 +12,7 @@ sc-review-form-usage = جملان منظور کوریکو  پچین ہوسکی �
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = ذریعہ: { $sentenceSource }
 sc-review-form-button-reject = رد کوریک
+sc-review-form-button-skip = پیځیک
 sc-review-form-button-approve = منظور کوریک
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
@@ -31,6 +32,7 @@ sc-review-form-reviewed-message =
        *[other] جملو واڑوڑیتائے۔ شکریہ
     }
 sc-review-form-review-failure = وا ڑوڑیرو محفوظ کورین نو ہوئے۔ پھوک اچھا وا کوشش کو۔
+sc-review-link = وڑوڑیک
 
 ## REVIEW CRITERIA
 
