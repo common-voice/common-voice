@@ -14,6 +14,7 @@ goal-help-validation = Cheriwema aamo kiyaine no'ó kuireticho, Common voice ase
 contribute-more = Listochi netemia { $count } enchi.
 speak-empty-state = Teeme kiniwaega etipiru puka frases taamo grawaomia ikachi idiomachi
 speak-empty-state-cta = Epeche weika toamitia  puka frases
+speak-loading-error = Ki kawe machenaru toaniame oracionichi. Weikachuri onepa toaka
 
 ## Contribution Nav Items
 
