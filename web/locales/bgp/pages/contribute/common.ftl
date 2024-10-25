@@ -139,8 +139,10 @@ contribution-background-noise-example-2-explanation = متن ئے بہر گوش�
 contribution-background-noise-example-3-fixed-title = <strong>[کریکل]<strong/>ریاسک ء  دیوہیکل ڈایناسار <strong>[کریکل]</strong>۔
 contribution-background-voices-title = پشت ء شور
 contribution-background-voices-description-extended = ار ریکاٹ پھرشتغ بیت یا آئی ءَ اڑک کھفتغ بیت گڈ آئی ءَ بِل دے داں وختا کہ درستیں متنءِ گوشدارغ بیت نوی۔
+contribution-background-voices-example-1-title = ٹریاسکا ء دیوہیکل ڈایناسور.</strong> [یک ٹوکٔ پڑھساء] </strong>
 contribution-background-voices-example-1-explanation = تھو مناغا ؟ دویں غا تھرا گوانجتا؟
 contribution-volume-title = کساس
+contribution-reader-effects-title = پڑھغ والے اثرات
 contribution-just-unsure-title = یکھ بے پتءِ
 see-more = ڈھیر گٔند
 see-less = کھمیں گٔند
