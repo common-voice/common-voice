@@ -67,6 +67,7 @@ report-success = Nda tsa'atuya xá.
 
 shortcut-record-toggle-label = Chubet'a/tikaséin
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Chubet'a nguinik'a tisenere.
 shortcut-discard-ongoing-recording = ESC
 
 ## Listen Shortcuts
