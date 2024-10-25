@@ -73,6 +73,7 @@ sc-bulk-upload-header = Xiktitlani <icon></icon> tlajkuiloli tlen nochtin kinmit
 sc-bulk-upload-instruction = Nikan xikixtoki motlajkuilol noso xikpacho <uploadButton>uan xiktitlanili</uploadButton>
 sc-bulk-upload-instruction-drop = Nikan xikixtoki motlajkuilol
 bulk-upload-additional-information = Tla onka okseki tlen monekis techiluis itech motlajkuilol, techtlajkuilili itech <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Tla onka okseki tlen tikneki techiluis itech motlajkuilol uan amo nikan nesi, techtlajkuilili itech <emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
