@@ -122,6 +122,8 @@ contribution-misreadings-example-4-explanation = ضروری متن ء شہ با�
 contribution-misreadings-example-5-title = ما کافی گِرغا درا روغ ثوں
 contribution-misreadings-example-6-title = ما کافی گِرغا درا روغ ثوں
 contribution-misreadings-example-7-title = ما کافی گِرغا درا روغ ثوں
+contribution-misreadings-example-7-explanation = [اصل عبارت نیوا کوئی  ‘a’  نیست ء]
+contribution-misreadings-example-8-title = بھونرا جلدغاں دیؤاء شتا انت
 contribution-misreadings-example-8-explanation = یکھ دومی چی ءِ بے بدلی
 contribution-varying-pronunciations-title = انج انجیں گالوار
 contribution-varying-pronunciations-example-1-title = آئی ءِ سر ءَ بیرٹ ءِ بستغ ات
