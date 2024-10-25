@@ -280,6 +280,18 @@ loading = لوڈ پیا تھیندا ہے…
 email-opt-in-info = آں ہدف تی یاد دہانی تے واسطے ای میل تی حاضری پسند کندا ہیں، کامن وائس تے باریک منجی ترقی تی اطلاع، ٻیا خبریں خط ݙے۔
 email-opt-in-info-title = کامن وائس میلنگ لسٹیک مِل
 email-opt-in-info-sub-with-challenge = ہدف تی یاد دہانی واسطے تے مقابلے والے ای میل گُھل، کامن وائس تے باریک منجی ترقی تی اطلاع، ٻیا خبریں خط ݙے۔
+email-opt-in-privacy-v2 = ای میلز گُھلّݨ تے طریقے تا مطلب ہے ھے تُو ہے ڳالھ تے راضی ہیں کے موزیلا ہے معلوماتیک <privacyLink>نجی پالیسی</privacyLink> تفصیل ساں سنبھالے۔
+indicates-required = (*) ضروری خانے تی طرف اشارہ کندہ ہے۔
+not-available-abbreviation = حاضر نہ
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>اساں چاہندے ہوں</mark><br/><mark>تا جی مدد!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = ڈیٹا سیٹس تی میزبانی واسطے ٻیا 100+ ٻولیں تی برادری واسطے پلیٹ فارمیک بہتر کرݨ واسطے تقریباً ہِک ملین ڈالر ہر سال خرچ تھین٘دِن جا اساں جے آکھے تے ڄُلدن۔ <strong>اگر تُو کُھلے، جمع ڈیٹا تی قدر کندا ہیں ٻیال - اَڄ ݙے!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>سی وی استعمال کرݨ واسطے</mark><br/><mark>تا جی تحقیق؟</mark>
+languages-donate-banner-cta-explanation = کامن وائسیک ݙِت ٻیا گرانٹاں ساں مالی مدد ݙِتّی وین٘دی ہے! اسانک تعلیم، سول سوسائٹی ٻیا صنعت تے تحقیق کرݨ والیں ساں مدد کرݨ پسند ہے۔ کامن وائس استعمال کرݨ واسطے مُفت ہے، لیکن گرانٹ تی حل واسطے پلیٹ فارم ٻیا میزبانی تے خرچے تے وِچ حِصّہ گُھلّݨ گھݨاں مددی ہے۔
+localization-select =
+    .label = ٻولی/مقامیت چُݨ
