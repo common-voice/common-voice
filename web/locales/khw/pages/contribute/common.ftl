@@ -9,7 +9,7 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> اسکوردی آواز
        *[other] <bold>{ $count }</bold>  اسکوردی آواز
     }
-goal-help-recording = توکمان وائسو روزانہ <goalPercentage></goalPercentage>  { $goalValue } رکارڈ کوریکا مدد ارو
+goal-help-recording = توکمان وائسو روزانو <goalPercentage></goalPercentage>  { $goalValue } رکارڈ پورا کوریکا مدد ارو
 goal-help-validation = توکمان وائسو روذانہ <goalPercentage></goalPercentage>  { $goalValue } رکارڈ کوریکا مدد ارو
 contribute-more =
     { $count ->
