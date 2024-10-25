@@ -1,4 +1,4 @@
-action-click = نگیس
+action-click = نگیس/کلک
 action-tap = ٹیپ
 contribute = روخ بیس
 review = ینگ چک ہلتوس
@@ -9,7 +9,7 @@ clips-with-count-pluralized =
         [one] کلپ
        *[other] کلپ کن
     }
-goal-help-recording = یانگی روخ بیسید، کامن واٸیس، نٸی جغی، زون لوکھسینگ
+goal-help-recording = یانگی روخ بیسید، <goalPercentage> </goalPercentage> کامن واٸیس، نٸی جغی،{ $goalValue } زون لوکھسینگ
 goal-help-validation = یانگی کامن واٸس لا روخ بیسید، نٸی جغی مقصدی لوکھسینگنو
 contribute-more =
     { $count ->
@@ -142,6 +142,7 @@ contribution-background-noise-example-2-explanation = ٹیکسٹ پو چھونچ
 contribution-background-noise-example-3-fixed-title = <strong> چی  سکت می سکت،</strong> چھوغو ڈاٸناسورس، </strong> چی سکت می سکت،</strong> راٸسک
 contribution-background-voices-title = گیاپ کھوغی سکت کن
 contribution-background-voices-description = گیاپ کھوقنہ اونگمی لیگینہ کولے اونگمی روا ہا کن چنگ میگو، اما مشین ایلگوریدم پو لا کوے ہڑینگ کن بیسے نا گیاپ کھوقنہ اونگمی ٹیکسٹ پینگ ربیسے میدپی تم کن لا نایا تھد مید۔ اگر یانگلا ٹیکسٹ پینگ میدپی خاص تم چی کوسنارے کلپ پو چوق ٹر چوت۔ بیسے ٹی وی فودے تنگسے یودپی وخلا یو گوین، یا میدنہ کھور کھارینگ سپیرے گوین یودنارے سہ یود گوین۔
+contribution-background-voices-description-extended = اگر ریکارڈینگ پو چھدنارے، یا چی سکت می سکت فیونگسنارے، ٹیکسٹ پو گانگمہ کوےمن پو انکار بیس۔
 contribution-background-voices-example-1-title = ٹراٸسیکی چھوغو ڈاٸناسورس پو۔ <strong> ریرے ریرے نہ زیر  <strong>
 contribution-background-voices-example-1-explanation = یانگ اونگین یودپینہ؟ <strong> اے چکپوی سکت زیرفن <strong>
 contribution-volume-title = سکت تھونپو
@@ -151,4 +152,4 @@ contribution-reader-effects-description = ریکارڈینگ منگفو میون
 contribution-just-unsure-title = ملا چھدکھہ میدا؟
 contribution-just-unsure-description = اگر یانگلا دینے چنگ تھونگنارے دو دی روخ بیس کنینگ میدنہ، یری سینگپژے ڑگیالبہ خسم لوکھسینگنو غدوم جوو۔ اگر یانگلہ ملا کھوانگ چنگ زیربہ مہ نگینس نارے، سکیورے جقپی بٹن پو نگیس دیکھنہ اخا یودپی ریکارڈینگ پے رول سونگ۔
 see-more = <chevron> ینگسہ ہلتوس <chevron>
-see-less = یونژے رے ہلتوس
+see-less = <chevron>  یونژے رے ہلتوس <chevron>
