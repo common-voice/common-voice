@@ -22,7 +22,7 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = T
 sc-review-form-keyboard-usage-custom = Mujspadi yajkyoskeda te' jatyäjkis tumä jyi'bi wa'a mawe tsäjku: { sc-review-form-button-approve-shortcut } wa'a mbäjkisytsyoku, { sc-review-form-button-reject-shortcut } wa'a jana mbäjkisytsyok, yajkti { sc-review-form-button-skip-shortcut } wa'a mgo'nhgädu.
 sc-review-form-button-submit =
-    .submitText = Tu'nä wa'a yajko'yaju'a
+    .submitText = Tu'nä wa'a kyo'yaju'a
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
@@ -31,6 +31,10 @@ sc-review-form-reviewed-message =
         [one] Tumä jaye tyu'nyaju. ¡Yäskodoya!
        *[other] [...] Tyu'nyajubä jaye. ¡Yäskodoya!
     }
+sc-review-form-review-failure = Jamusä kyojtanhne'kya te' tu'nubä'a jaye. Tsäjkiswätsäkä 'usyanh'orakäsi.
+sc-review-link = Tu'nisä
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = Juts wa'a ndu'nisu
+sc-criteria-title = Juts wa'a ndu'nisu
