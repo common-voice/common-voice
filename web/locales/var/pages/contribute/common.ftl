@@ -32,6 +32,7 @@ submit-form-action = itocheniame
 ## Reporting
 
 report-different-language = Pirechi naewasari
+report-difficult-pronounce = Tekite pronuciadoniame
 
 ## Speak & Listen Shortcuts
 
