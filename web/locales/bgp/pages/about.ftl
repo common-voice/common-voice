@@ -25,6 +25,7 @@ about-listen-queue = گوش کن - قطار
 about-listen-queue-text = پھرکھسیں گالور کٹھا کھنغ ویلہ لائن وار پہیلنا تے آکںیں آشکنغ وسطہ جوڑنی سے
 about-listen = گو شا کن
 about-is-it-valid = اے کلپ درست آنت؟
+about-stay-in-touch = ماں تھرا گو چوں رابطہ کناں؟
 about-nav-how-it-works-2 = کامن واءس چھو کار کن؟
 about-nav-playbook = حصہ گریغء طریقہ سکھے
 
@@ -61,6 +62,7 @@ about-playbook-how-grow-language-content-8 = تخلیقی بڑیں شوے زبا
 
 ## How to validate
 
+about-playbook-how-validate = من چھرگی پتہ مانے کہ منا صوتی کلپ آرا منظور کھنغی استیں یا انا
 
 ## How to access dataset
 
