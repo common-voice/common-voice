@@ -43,3 +43,6 @@ sc-criteria-item-1 = Te' jaye sunyide wa'a jyayaju.
 sc-criteria-item-2 = Te' jaye sunyide'e wa'a näjktyäyu.
 sc-criteria-item-3 = Te' jaye wa'ade mujsu ndsamä.
 sc-criteria-item-4 = 'Uka te' jaye sa'sya jyatyäju, pena te' [...]mbäjkisytsyokpamä[...] te' 'maknya'omo.
+sc-criteria-item-5-2 = 'Uka te' jaye jamusä tsyäjkya, pena te' [...]ji'nde mbäjkisytsyowemä[...] te' mdsä'nanh'omo. 'Uka ji' mujsi sunyi, mujspa mgo'nhgädä yajkti mujspa nhgyädä 'emä.
+sc-criteria-item-6 = 'Uka ja'idä'am 'eyabä jaye wa'a mdu'nisu, ¡kotsokya'tsi wa'a ndsäjka'nhäyu te' jaye!
+report-sc-different-language = 'Eyabä 'ode
