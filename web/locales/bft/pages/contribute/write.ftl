@@ -113,3 +113,15 @@ rate-limit-toast-message-seconds =
         [one] ریڈ لمیڈ پو تھلسید، سکینڈ چیگینگ ینگ ہمبہ بیوس
        *[other] ریڈ لمیڈ پو تھلسید،  ینگ ہمبہ بیوس
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] یانگ دی صحفووی سکنگ لوکھسنہ زومسے حد پو پورا بیسید۔ اے تم سیر پو سکانگمو پژے دونلا منٹ چک دوت۔
+       *[other] یانگ دی صحفووی سکنگ لوکھسنہ زومسے حد پو پورا بیسید۔ اے تم سیر پو سکانگمو پژے دونلا منٹ چی بقچی دوت۔ یری تھیق لوکھپولا انچن شیزدے۔
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] یانگی دی صحفووی سکنگ لوکھسنہ زومسے حد پو پورا بیسید۔ اے تم سیر پو سکانگمو پژے دونلا ٹھین چک دوت۔ یری تھیق لوکھ پولا انچن شیردے زیرید۔
+       *[other] یانگی دی صحفووی سکنگ لوکھسنہ زومسے حد پو پورا بیسید۔ اے تم سیر پو سکانگمو پژے دونلا کوچک دوت۔ یری تھیق لوکھ پولا انچن شیردے زیرید۔
+    }
