@@ -13,6 +13,7 @@ goal-help-recording = Cheriwema aamo kiyaine noo kuireticho, Common Voice asepar
 goal-help-validation = Cheriwema aamo kiyaine no'ó kuireticho, Common voice aseparateu <goalPercentage></goalPercentage>  tuamo yoraria objetivochi diariochio_taamo yoraria{ $goalValue }.
 contribute-more = Listochi netemia { $count } enchi.
 speak-empty-state = Teeme kiniwaega etipiru puka frases taamo grawaomia ikachi idiomachi
+no-sentences-for-variants = Taamo mochikachi weyka naewasari intunapa .wekana comunidachi
 speak-empty-state-cta = Epeche weika toamitia  puka frases
 speak-loading-error = Ki kawe machenaru toaniame oracionichi. Weikachuri onepa toaka
 record-button-label = Amo grabandotane amo naewa
@@ -25,6 +26,7 @@ target-segment-learn-more = Epeche weika información
 
 ## Contribution Nav Items
 
+login-signup = Oinare sesión ...oinepa ivosichi toaka
 vote-yes = Kai
 languages = Weika naewasari naewaniame
 submit-form-action = itocheniame
