@@ -139,3 +139,7 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = روخ بیس کننا یمبو دوکسے، گا گا تم سیرکن کلبہ؟
 small-batch-sentences-rule-2 = ژھیری ہرژیس نہ تم سیر چک کول۔
+small-batch-sentences-rule-3 = تم سیر کن لوقسو ژھیر چک بیس، میدنارے ریسپہ چک انٹر پو نگیس یا لواق لوق۔
+small-batch-sentences-rule-4 = ستونگ چک تم سیر کول۔
+small-batch-sentences-rule-5 = تم سیر گانگمہ لا ژوخ ژوخ غدونگکھہ دوکپہ رگوسپن۔
+small-batch-sentences-rule-6 = تم سیر گانگمہ لا ژوخسا ژوخ ساٸٹیشن من۔
