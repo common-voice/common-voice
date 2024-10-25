@@ -5,7 +5,7 @@ sc-review-title = Гущыӏэухыгъэхэм яплъыжь
 sc-review-loading = Гущыӏэухыгъэхэр трегъэуцо…
 sc-review-select-language = Сыолъэӏу, гущыӏэухыгъэм уеплъыжьыным пае зы бзэ къыхэх
 sc-review-form-prompt =
-    .message = Еплъыжъыгъэ гущыӏэухыгъэм зыфырагъэхьыгъэп, цыхьэ утелъа?
+    .message = Еплъыжьыгъэ гущыӏэухыгъэм зыфырагъэхьыгъэп, цыхьэ утелъа?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Гъэфедэгъэр: { $sentenceSource }
