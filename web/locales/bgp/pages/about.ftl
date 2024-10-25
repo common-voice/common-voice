@@ -18,8 +18,11 @@ about-voice-validation-title = ٹوکٔ تصدیق
 about-voice-validation-subtitle = تھی لوگ ان آواز کلپس نی تصدیق کن انت
 about-dataset-release-title = ڈیٹا سیٹ ریلیز
 about-dataset-release-subtitle = ماء ہر سے ماہ پزاں  ڈیٹاسیٹ ریلیز کنگ انت.
+about-subscribe-text = کامن وائس نیاواں گالور کھنغ چاہے؟
 about-speak = گالور کن
+about-speak-text = بھیوال بینک نیں دہی گالوراں نی ریکارڈنگ کھانینا۔
 about-listen-queue = گوش کن - قطار
+about-listen-queue-text = پھرکھسیں گالور کٹھا کھنغ ویلہ لائن وار پہیلنا تے آکںیں آشکنغ وسطہ جوڑنی سے
 about-listen = گو شا کن
 about-is-it-valid = اے کلپ درست آنت؟
 
