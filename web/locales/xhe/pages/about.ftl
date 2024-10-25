@@ -90,13 +90,17 @@ about-playbook-how-localize-content-3 = ترجمہ انگریزی ساں ہے۔ 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences-content-2 = کامن وائس تی وِچ وِجّھݨ والے ڳالھ وارینک لالݨ ٻیال ٻئے بندینک قبول ہوݨ چاہیجدا ہے۔ تُو آپݨی ٻولی تے واسطے رہنما خط <languageGuidelinesLink>ھیچ</languageGuidelinesLink> جوڑین٘دا ہیں۔ ڳالھ وار<licenseLink>عوامی ڈومین</licenseLink> تی وِچ وین ٻیا 15 لفظیں آں نکڑے ہوݨ۔ تُو ٹیکسٹ تے مالک ساں<waiverLink>CC0 اَساں جے چھوٹ تے ڈھنگ استعمال کندے ہوئے</waiverLink>۔ جوڑݨ واسطے آکھ سڳدا ہیں۔ ٻیال اسانک commonvoice@mozilla.com تی منجھ سڳدا ہیں۔
 
 ## How to record quality
 
+about-playbook-how-record-content-1 = آپݨی ٻولی تی وِچ ڳاہلا! تاں جے ڳاہلݨ تا طریقہ ھیچ خوش ہے - اسے تا جا لہجہ ہو ھیں چاہندے ہوں جوں ہے۔ ٻیا تاں جی عادت، ڈھنگ ٻیا لہجہ چاہندے ہوں۔
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-1 = کامن وائس تی وِچ تُمن تے تنوع واسطے فائدے پیدا کرݨ یقینی جوڑیندا ہے کہ ڈیٹا سیٹ گھݨیں تُمن تی خدمت کر سڳے۔ اَساں ای نے تَڑ ٻِیا سانچہ جوڑین جانک تو استعمال کر سڳدا ہیں!
 about-playbook-how-grow-language-content-2 = تقریبیں
+about-playbook-how-grow-language-content-3 = تُو تمنیک حِصّہ گھولݨ سَوکھا کرݨ وِچ مدد واسطے تقریبیں چلا سڳدا ہیں۔ تا جے خیالا زیادہ سَوکھا ہے۔ تُو ہِک ویڈیو کانفرنسنگ اوزار تی ذریعے آن لائن کر سڳدا ہیں، یا ہِکلا سامݨے اگر ہے محفوظ ہے۔ <eventTemplate>تقریب چلاݨ واسطے اساں جے سانچیں ٻیا مواقع لال</eventTemplate>۔
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-6 = سنڳت ٻیا نیٹ ورکس
 
