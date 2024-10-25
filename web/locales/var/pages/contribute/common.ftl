@@ -31,6 +31,7 @@ submit-form-action = itocheniame
 
 ## Reporting
 
+report-different-language = Pirechi naewasari
 
 ## Speak & Listen Shortcuts
 
