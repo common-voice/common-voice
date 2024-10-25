@@ -18,6 +18,7 @@ speak-loading-error = Ki kawe machenaru toaniame oracionichi. Weikachuri onepa t
 record-button-label = Amo grabandotane amo naewa
 share-title-new = <bold> ikachi </bold> grawaonia amo naewa
 keep-track-profile = Aatenamu puuka progreso perfil neteka
+login-to-get-started = Oinare sesión ...oinepa ivosichi toaka
 
 ## Contribution Nav Items
 
