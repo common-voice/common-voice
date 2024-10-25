@@ -132,5 +132,8 @@ contribution-background-noise-description-extended = ار ریکاٹ پھرشت�
 contribution-background-noise-example-2-explanation = متن ئے بہر گوشدارغ نہ بیثہ
 contribution-background-voices-title = پشت ء شور
 contribution-background-voices-description-extended = ار ریکاٹ پھرشتغ بیت یا آئی ءَ اڑک کھفتغ بیت گڈ آئی ءَ بِل دے داں وختا کہ درستیں متنءِ گوشدارغ بیت نوی۔
+contribution-background-voices-example-1-explanation = تھو مناغا ؟ دویں غا تھرا گوانجتا؟
 contribution-volume-title = کساس
 contribution-just-unsure-title = یکھ بے پتءِ
+see-more = ڈھیر گٔند
+see-less = کھمیں گٔند
