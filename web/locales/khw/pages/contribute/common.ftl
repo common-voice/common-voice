@@ -140,6 +140,7 @@ contribution-background-voices-title = اݯھو آواز
 contribution-background-voices-description-extended = رکارڈنگ کی ݯیتائے توغو رد کوجب تک سف نویشیرو ریکو آواز کارا نو دوئے
 contribution-background-voices-example-1-title = ٹرانزیکو لوٹ ڈائنوسار <strong>[ای آوازا راوے]</strong>
 contribution-volume-title = توڑ-لش
+contribution-volume-description = ریاکان آوازا قدرتی طورا کم ذیاد بوئی۔ ہتے صورتا در کو کہ اواز ہنی توڑ  اوشوئی کہ ݯیاو اشوتائی۔(ذیادہ عام طورا) کہ بو لاش اوشوئی کیا ران رے کارا کی نو دیاواوشتائے نویشیرو ڑوڑے۔
 contribution-reader-effects-title = ریاکان اثر
 contribution-reader-effects-description = ذیاد رکارڈنگ ہتے رویان کاکی تان قدرتی آوازا لوو دونیان۔  تو ایگانا ہتے غیر معیاری آوازان  کی ہتیت شور، لاش لو وا ڈرامائی اوازا بدل بیتی شینی دی منظور کوریکو بوس۔ مہربانی کوری باشاوونان اوچے کمپیوٹیرو ترتیب دیرو آوازان رد کورے۔
 contribution-just-unsure-title = صرف غیر یقینی
