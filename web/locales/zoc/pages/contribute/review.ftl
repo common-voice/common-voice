@@ -56,3 +56,5 @@ review-error = Tujku ji' wyäbä tiyä nä'käjt ndu'nisu'k te' jaye.
 review-error-rate-limit-exceeded = Nimeke nä nyikujä'näju. Sujkä 'usya'nhomo wa'a mujsu mdu'nisä te' jaye, ko'sa sa'sya'k 'uka te'de'e nä sutnubä mjayä.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Nä't ndsäjkyaju mäjabäda'mbä käkajku'y.
+sc-redirect-page-subtitle-1 = Te' kyobikpabä'is te' jaye, nä myaku te' kommon Vo'yis wyina'nhmba'tkumyä . Yäti muspa [...]mjayä[...] tumä jaye, [...]muspa mdu'nisä[...] te' jaye kyä'wejyajpabä tumä pätkodadi te' kommon voice'omo.
+sc-redirect-page-subtitle-2 = Käme'tsotya'mide te' [...]Matrix'omo[...], [...]Discurse'omo[...] yajkti [...]email'omo[...].
