@@ -38,3 +38,8 @@ sc-review-link = Tu'nisä
 
 sc-criteria-modal = Juts wa'a ndu'nisu
 sc-criteria-title = Juts wa'a ndu'nisu
+sc-criteria-make-sure = 'Ijtuse te' jaye, yä'sede wäbä wa'a jyayaju:
+sc-criteria-item-1 = Te' jaye sunyide wa'a jyayaju.
+sc-criteria-item-2 = Te' jaye sunyide'e wa'a näjktyäyu.
+sc-criteria-item-3 = Te' jaye wa'ade mujsu ndsamä.
+sc-criteria-item-4 = 'Uka te' jaye sa'sya jyatyäju, pena te' [...]mbäjkisytsyokpamä[...] te' 'maknya'omo.
