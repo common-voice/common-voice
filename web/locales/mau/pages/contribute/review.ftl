@@ -11,6 +11,8 @@ sc-review-form-usage = Nga kixi chanife tsa nda tsuri nijmí. Nga skun chanife t
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Jñá ndibá:{ $sentenceSource }
+sc-review-form-button-reject = Majen
+sc-review-form-button-skip = Chikji
 
 ## REVIEW CRITERIA
 
