@@ -132,6 +132,7 @@ contribution-varying-pronunciations-example-2-title = آئی ءِ دست کھڑ�
 contribution-varying-pronunciations-example-2-explanation = پِیشتری ٹوک
 contribution-background-noise-title = پشت ء شور
 contribution-background-noise-description-extended = ار ریکاٹ پھرشتغ بیت یا آئی ءَ اڑک کھفتغ بیت گڈ آئی ءَ بِل دے داں وختا کہ درستیں متنءِ گوشدارغ بیت نوی۔
+contribution-background-noise-example-1-fixed-title = <strong>[کھلغ]</strong> ٹریاسکا ء دیوہیکل ڈایناسور<strong>[زکام]
 contribution-background-noise-example-2-explanation = متن ئے بہر گوشدارغ نہ بیثہ
 contribution-background-voices-title = پشت ء شور
 contribution-background-voices-description-extended = ار ریکاٹ پھرشتغ بیت یا آئی ءَ اڑک کھفتغ بیت گڈ آئی ءَ بِل دے داں وختا کہ درستیں متنءِ گوشدارغ بیت نوی۔
