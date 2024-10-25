@@ -142,6 +142,7 @@ contribution-background-noise-example-3-fixed-title = <strong>[کڑک]</strong>�
 contribution-background-voices-title = اݯھو آواز
 contribution-background-voices-description-extended = رکارڈنگ کی ݯیتائے توغو رد کوجب تک سف نویشیرو ریکو آواز کارا نو دوئے
 contribution-background-voices-example-1-title = ٹرانزیکو لوٹ ڈائنوسار <strong>[ای آوازا راوے]</strong>
+contribution-background-voices-example-1-explanation = توگوسانا؟ <strong>[ خور کا ہوئے پرائے ]</strong>
 contribution-volume-title = توڑ-لش
 contribution-volume-description = ریاکان آوازا قدرتی طورا کم ذیاد بوئی۔ ہتے صورتا در کو کہ اواز ہنی توڑ  اوشوئی کہ ݯیاو اشوتائی۔(ذیادہ عام طورا) کہ بو لاش اوشوئی کیا ران رے کارا کی نو دیاواوشتائے نویشیرو ڑوڑے۔
 contribution-reader-effects-title = ریاکان اثر
