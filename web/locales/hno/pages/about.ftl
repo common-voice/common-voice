@@ -12,6 +12,8 @@ how-does-it-work-text = اسیں اک آوازاں دے اوپن سورس ڈی
 about-language-req-subtitle = ہک آدمی زبان درج کرنے دا اکھدا اے۔
 about-localization-title = ویب سائٹ دی لوکلائزیشن
 about-localization-subtitle = اس ویب سائٹ دی عبارت دا ترجمہ اس زبان بچ کیتا دا ہے۔
+about-sentence-collection-title = جملیاں دا مجموعہ
+about-sentence-collection-subtitle = جملے جمع کیتے جلدے ہن تاک لوگ اوچی آواز بچ پڑہن۔
 
 ## Community Playbook Content
 ## What is a language
