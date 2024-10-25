@@ -46,7 +46,7 @@ submit-form-action = جمع کو
 ## Reporting
 
 report = خبر
-report-title = جمع وا رپورٹ کو
+report-title = رپورٹو جمع لو
 report-ask = ہیا جملہ تہ تین کیا مسلہ پیدا اریر؟
 report-offensive-language = شوم زبان
 report-offensive-language-detail = جملہ شوم یا غیر مہذب لو شیر
@@ -102,7 +102,7 @@ shortcut-vote-no = این
 contribution-criteria-nav = اصول
 contribution-criteria-link = حصہ گنیکو اصول تہ تین پتہ بائے
 contribution-criteria-page-title = حصہ گنیکو اصول
-contribution-criteria-page-description = ہیا لوو ہوش کوکی آوازو کار کی کورا اوشوو کیا اشناریو ڑوڑیلیک وا تان آوازو جام کوریکو بچین مدد کو
+contribution-criteria-page-description = ہیا لوو ہوش کوکی آوازو کار کی کوراو اوشوو کیا اشناریو ڑوڑیلیک وا تان آوازو جام کوریکو بچین مدد کو
 contribution-for-example = مثالو تورا
 contribution-misreadings-title = غلط ریک
 contribution-misreadings-description = کار کوریکو موژی، جام غورو سورا چیک کوکیاٰغ کی رکارڈ بیتی شیر نویشیرو دی اسیتان؛ معمولی غلطی دی کی اشوئے مسترد کو۔ <br /> بو عام غلطیاں موژی ہمیت شامل شینی:
@@ -136,10 +136,12 @@ contribution-background-noise-description-extended = رکارڈنگ کی ݯیت�
 contribution-background-noise-example-1-fixed-title = <strong>[اشتروخیک]</strong> بلاہ ڈائنوسار <strong>[کوپیک]</strong> ٹرائزک.
 contribution-background-noise-example-2-fixed-title = بلاح ڈاینو <strong>[کوپیک]</strong> ٹرائزک.
 contribution-background-noise-example-2-explanation = [نویشیرو پھوک حصہ کارا نو دویان]
-contribution-background-voices-title = اݯھے آواز
+contribution-background-voices-title = اݯھو آواز
+contribution-background-voices-description-extended = رکارڈنگ کی ݯیتائے توغو رد کوجب تک سف نویشیرو ریکو آواز کارا نو دوئے
 contribution-background-voices-example-1-title = ٹرانزیکو لوٹ ڈائنوسار <strong>[ای آوازا راوے]</strong>
 contribution-volume-title = توڑ-لش
 contribution-reader-effects-title = ریاکان اثر
 contribution-just-unsure-title = صرف غیر یقینی
+contribution-just-unsure-description = ہݰ اشناری کی تہ غیچی ہائے ہسے ہیا 'رہنمائی' شامل نیکی تان سف سار جام اندازو مطابق ووٹ دیت
 see-more = <chevron></chevron>خور ڑوڑے
 see-less = کم ڑوڑے
