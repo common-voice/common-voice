@@ -37,16 +37,42 @@ single-sentence = San se
 small-batch-sentence = Sekimej
 bulk-sentence = Miakej
 sentence-domain-combobox-label = Kanin poui tlajkuiloli
-sentence-domain-select-placeholder = Uelis tikinpejpenas eyi (amo moneki)
+sentence-domain-select-placeholder = Uelis tikinpejpenas eyi (tla tikneki)
 # Sentence Domain dropdown option
 agriculture_food = Tlatooktli uan tlakuali
 # Sentence Domain dropdown option
 automotive_transport = Teposmej tlen ika tinemij
 # Sentence Domain dropdown option
 finance = Tomin
+# Sentence Domain dropdown option
+service_retail = Tlasemanaj uan tlanemakaj
+# Sentence Domain dropdown option
+general = San tlenon
+# Sentence Domain dropdown option
+healthcare = Pajtli
+# Sentence Domain dropdown option
+history_law_government = Tlen yopanok noso Tlanauatilmej
+# Sentence Domain dropdown option
+language_fundamentals = Tlen okachi moneki (uelis poualmej, tlajkuiloli, tomintsin)
+# Sentence Domain dropdown option
+media_entertainment = Tlen ika timoyolpaktiaj
+# Sentence Domain dropdown option
+nature_environment = Tlatikpaktli
+# Sentence Domain dropdown option
+news_current_affairs = Tlen axkan tlamochijtok
+# Sentence Domain dropdown option
+technology_robotics = Teposmej tlen yikin kistokej
+sentence-variant-select-label = Ken yetos tlajkuiloli
+sentence-variant-select-placeholder = Xikpejpena ken yetos (tla tikneki)
+sentence-variant-select-multiple-variants = San tlen tlamantli/tlatlamantli
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Xiktitlani <icon></icon> tlajkuiloli tlen nochtin kinmitaskej
+sc-bulk-upload-instruction = Nikan xikixtoki motlajkuilol noso xikpacho <uploadButton>uan xiktitlanili</uploadButton>
+sc-bulk-upload-instruction-drop = Nikan xikixtoki motlajkuilol
+bulk-upload-additional-information = Tla onka okseki tlen monekis techiluis itech motlajkuilol, techtlajkuilili itech <emailFragment>commonvoice@mozilla.com</emailFragment>
 
 ## SMALL BATCH SUBMISSION
 
