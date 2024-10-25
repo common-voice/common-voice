@@ -46,3 +46,6 @@ report-difficult-pronounce = Tekite pronuciadoniame
 
 ## Validation criteria
 
+contribution-volume-title = Muenapu
+see-more = </chevron></chevron>epeche weyka
+see-less = <chevron></chevron>neene paykapi
