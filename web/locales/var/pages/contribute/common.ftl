@@ -26,7 +26,7 @@ target-segment-learn-more = Epeche weika información
 
 ## Contribution Nav Items
 
-login-signup = Oinare sesión ...oinepa ivosichi toaka
+login-signup = Oinemera sesión neteka...regitradosa
 vote-yes = Kai
 languages = Weika naewasari naewaniame
 submit-form-action = itocheniame
