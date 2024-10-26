@@ -51,3 +51,5 @@ first-cta-gender-select-help-text =
     .label = Chimureka netenare amó sexo yoma?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Cheriwera uka amó nanosariwa nejario sulala
+already-have-an-account = Toainamo uka itaperi<iniciar sesión>Oinaga itaperi</iniciar sesión>
+create-profile-button = Ne tenaresaga uka pile coomon voice
