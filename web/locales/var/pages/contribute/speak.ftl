@@ -33,3 +33,9 @@ review-submit-msg = Cheriwerawa uka amó neterio<lineBreak></lineBreak>Epego nen
 review-recording = Neene puuka
 review-rerecord = Oinabora sé enchi grabandobaga
 review-cancel = Nasonaga uka amó neterio
+review-keep-recordings = Waa tejiwaga uka amó neterio
+review-delete-recordings = Nasonaga uka noó neterio
+terms-agree = Kawe ju noo chigo
+terms-disagree = Kaine kawe intani
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Cheriwera uka amó nanosariwa nejario sulala
