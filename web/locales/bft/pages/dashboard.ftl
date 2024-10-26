@@ -20,9 +20,26 @@ overall-accuracy = گانگمی کھہ ترانگپو
 set-visibility = نگی ہلتن بزو سترونگ
 visibility-explainer = دی سیٹینگپووی یری کھوم لوکھسی غدونگی ہلتن بزو سترولبن۔ زبسے یخسنہ، یری ترقیو سولا نوزین میگوین۔ دیووی مطلب پو یری غدونگبزو، یری مینتخپو نا ترقیو کھوم لوکھسی غدونگیکھہ چوقلا میتھونگمن۔ ایتو یوق کھولوکھسی غدونگپو کھڑوسنہ منٹ چک فوقپن بدل بیسپو ہلتنمہ لا۔
 visibility-overlay-note = ایتو یوق، جب تھونگمو بیسنہ، دی سیٹینگپو ہروفاٸلینگنہ بدل بیا نین من۔
+show-ranking = نگی کھوم لوکھسی کسیو ہلتون
 
 ## Custom Goals
 
+get-started-goals = ہل پے رولا گوا ریوقس
+create-custom-goal = فچوا ننمی ہلچی کھڑول
+goal-type = چی ژوخ ہلچی یانگی فچوین؟
+both-speak-and-listen = نیسکو
+both-speak-and-listen-long = نیسکو، زیربو نہ سنا بیو
+daily-goal = جغی ہل پو
+weekly-goal = ہفتہ چیگی ہلپو
+easy-difficulty = بدونگو
+average-difficulty = بدونگورے
+difficult-difficulty = ہرکپلس چن
+pro-difficulty = پرو
+lose-goal-progress-warning = ہلپو ینگ فچوسنہ یری لدنفی ترقیو ستورے گوین
+want-to-continue = یانگی جاری جقپینہ؟
+finish-editing = ینگ فچوکھہ بیو چھم چوگہ؟
+lose-changes-warning = فانگسے سونگسنہ یانگی بدل بیسپو ستورے گوین
+build-custom-goal = لق فچوسی ہلپو ہلژونگ
 
 ## Goals
 
