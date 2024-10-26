@@ -94,4 +94,7 @@ too-many-files = باز فائلاں
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> باز عوامی ڈومین جملے  شامل کنی
-small-batch-sentences-rule-5 = کلیں گالورے نیں یا حوالہ بی۔
+small-batch-sentences-rule-2 = یک  جملہ یا لائن جمع کنی انت
+small-batch-sentences-rule-4 = 1000  جملے جمع کنی انت
+small-batch-sentences-rule-5 = کلیں گالورے نیں یاڈومین بی۔
+small-batch-sentences-rule-6 = کلیں گالورے نیں یا حوالہ بی۔
