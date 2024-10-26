@@ -28,3 +28,6 @@ record-abort-submit = Simeroga uka najutume
 record-abort-continue = Oinabora uka netepone
 record-abort-delete = Machijenasa yoma kaitejibasa wa najutume
 review-aborted = Wua toipora uka amó neteri. Nasonanaremu uka amó neterio
+review-submit-title = Nenega uka amó neterio
+review-submit-msg = Cheriwerawa uka amó neterio<lineBreak></lineBreak>Epego nenega uka amó neterio noo simeroga
+review-recording = Neene puuka
