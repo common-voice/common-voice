@@ -47,5 +47,7 @@ why-donate-explanation-1 = Yä' tsa'manhwajku'y, mijte'e 'uka sutpa mdsäkä; mu
 why-donate-explanation-2 = Wa'ajke yä' mäjanhbä yostäjk yosu sunyi 'ijtusekoda, te' tsa'manhwajku'y makabä'is kyotoskye te' tsyäjkyajpabä'is mänhdambä yostäjk, pyäjkpabäde wa'ajke kyotsonhdäju wäwäbä pä'nista'm. 'uka ji'nde näyostame te' pända'm 'eyadi 'onyajpabä 'usyäjk, te'se yä' mäjanhbä yostäjk ji' yo'se te' 'eyada'mbä pätkodada'm 'onyajpabä 'eyadi. Käme'tsanhä tikodade'e wäbä wa'ajke 'yijtu tida'mbä jaye' yä'ki.
 add-information-button = Kojta'nhä mujsokyu'y
 continue-speaking-button = Ji'ne, yäskodoya, 'o'na'nhä.
+create-profile-text = ¿Sutpa mgäjtanhne'ka te' mdsamjajku'y? Tsäkä tumä'k mij mberfil/mgenetsä'kyu'y.
+thanks-for-voice-toast = Yäskodoya mdsajku'ajkä te' 'mode'is tsyame.
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Yäskodoya mdsajku'ajkä yä mij 'mode!
