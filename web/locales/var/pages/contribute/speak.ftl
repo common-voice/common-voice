@@ -27,3 +27,4 @@ record-abort-text = Maa chijenasaga epe,  wekatemamu lloma amu neterio pee
 record-abort-submit = Simeroga uka najutume
 record-abort-continue = Oinabora uka netepone
 record-abort-delete = Machijenasa yoma kaitejibasa wa najutume
+review-aborted = Wua toipora uka amó neteri. Nasonanaremu uka amó neterio
