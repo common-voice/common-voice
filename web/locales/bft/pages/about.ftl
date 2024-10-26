@@ -55,9 +55,14 @@ about-nav-playbook = چی بیسے حصہ لینمن زیربو ہلژوپ
 
 about-playbook-what-is-language = کامن واٸسیکھہ سکت پو چن؟
 about-playbook-what-is-language-content-1 = سکت لوکھسینگ خسمبہ بیالا خسم بزو ایشن یود۔ سکت نوزین بے ماڈلی لوکھسینگ، کامن واٸسی خسم بزونگ ہلتنید، میدنارے یا سکت زیربی ایونگ گانگمہ لا سہ یو شوٹے تا؟
+about-playbook-what-is-language-content-2 = نیالا سکتی ماڈلی لوکھسینگ تھوتھیکھ میدپی زیرجوخ کن رگوسپن۔ یو گو چوکپافری سکتی ڈیٹا سیٹ پووی مختلف میونگی سکت لیاخ کن ہلتنمہ رگوسید۔
+about-playbook-what-is-language-content-3 = سکچی بقچی لا گرامری لوکھسینگ تھوتھیکھ میدپی ہلتن بزونگ یود، تم کن نہ زیر جوخ کن۔ یوفری، نیاسی لخمین کن ہلتنین یود۔ دیوی سی یول ڈرونگ کن لا چھوغو ڈیٹا سیٹینگنو کھوتی سکت کن نوزین گوین۔
 
 ## How do I add a language
 
+about-playbook-how-add-language = ناسی سکت چک چی بیسے ایڈ بیا؟
+about-playbook-how-add-language-content-1 = چوقپہ دونوک یری سکت پو یودا مید ہلتوس۔ میدنارے یانگلا یری سکتپو ہلتون زیربہ نینید۔ دی لوکھسینگ تھیمبہ نیس یود۔ ساٸٹ کو تم لزوق بیا دیکھنہ تم سیر کن زدمسے کھیونگمہ۔
+about-playbook-how-add-language-translating-heading = ساٸٹ پو تم لزوق گوین یود۔
 
 ## How does localization work
 
