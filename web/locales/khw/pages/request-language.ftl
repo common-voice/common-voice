@@ -10,3 +10,8 @@ request-language-form-info =
 request-language-form-info-explanation = زبانو بارا کندوری کی ہوئی معلومات شامل کو۔ ہے موژی:
 request-language-form-info-explanation-list-1 = تہ زبانو نام
 request-language-form-info-explanation-list-2 = </isoCodeLink> ISO  کوڈ</isoCodeLink> کہ تہ تین پتہ
+request-language-form-info-explanation-list-3 = ویب سائٹان لنک کہ ہتیت تہ زبان ہوش کوراوا اسپہ مدد کونی۔
+request-language-google-recaptcha-required = وا کیپچا ضروری اگر تو پوشٹی کی بیسان۔
+request-language-google-recaptcha-error = وا کیپچا ݯھکیاوا کورا نقص ہائے۔ وا کوشش کو
+# Success page
+request-language-success-heading = شکریہ! تو  ای نوغ زبانو بارا سوال ارو۔
