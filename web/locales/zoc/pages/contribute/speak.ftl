@@ -16,3 +16,5 @@ record-stop-instruction = ti'ora myajpa
 record-three-more-instruction = ¡tsä'yuma tuka'y!
 record-again-instruction = ¡Nimeke wä! Tsäjka'nhä te' 'eyabä 'ode.
 record-again-instruction2 = Te'sende nä mdsäjkuse, tsäjka'nhä 'eyabä 'mode, jomebä.
+record-last-instruction = ¡Tumäna!
+review-tooltip = Tu'nwätsäkä, jäsi'ka tsäjkwätsäkä 'eyabä 'mode yä'ki.
