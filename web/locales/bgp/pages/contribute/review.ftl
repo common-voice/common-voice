@@ -8,6 +8,9 @@ sc-review-no-sentences = جائزہ گرغ واسطہ کوئی جملہ چھنی
 sc-review-form-prompt =
     .message = نظرثانی شدہ جملہ جمع چھن بیزغاں چھ شوا را یقین استیں؟
 sc-review-form-usage = سزا را منظور کھنغ واسطہ سجا پاسہ سوائپ کھنے۔اشی آ را الغ واسطہ کھبا پاسہ سوائپ کھنے۔وزی جائزہ دیاغا نہ بھلے
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = ذریعہ:{ $sentenceSource }
 
 ## REVIEW CRITERIA
 
