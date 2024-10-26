@@ -44,6 +44,8 @@ first-cta-header-text = ¡Yäskodoya nä mdsajku'ajkä yä 'mode yä' 'ondsä'ky
 first-cta-subtitle-text = ¿Sutpa'ksyä yajkmujstä tijudibä, juts 'yonbase mijtsi?
 why-donate = ¿Tikoda'm mgäme'tspa?
 why-donate-explanation-1 = Yä' tsa'manhwajku'y, mijte'e 'uka sutpa mdsäkä; mujspa mdsäjkta'nä 'uka sunyi 'manhjamba mwit. Ju'tsye'kät maka ndsamboye 'yida'mde mnäyidambä, judä 'yijtamba, wäjädi't maka mnäyosjaye mij mnäyi komejkubä, te'sedike te' mij mnäyi yajkti te' mbäjksytsokpamä te' todo kä'weye wa'a jana tyumä myakyaju te' mij mbä'najku'yis mya'yokyubyi'k, te'sedike wa'a jana myujsyaju 'uka mijtsi yõmode o mbyände'e.
+why-donate-explanation-2 = Wa'ajke yä' mäjanhbä yostäjk yosu sunyi 'ijtusekoda, te' tsa'manhwajku'y makabä'is kyotoskye te' tsyäjkyajpabä'is mänhdambä yostäjk, pyäjkpabäde wa'ajke kyotsonhdäju wäwäbä pä'nista'm. 'uka ji'nde näyostame te' pända'm 'eyadi 'onyajpabä 'usyäjk, te'se yä' mäjanhbä yostäjk ji' yo'se te' 'eyada'mbä pätkodada'm 'onyajpabä 'eyadi. Käme'tsanhä tikodade'e wäbä wa'ajke 'yijtu tida'mbä jaye' yä'ki.
+add-information-button = Kojta'nhä mujsokyu'y
 continue-speaking-button = Ji'ne, yäskodoya, 'o'na'nhä.
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Yäskodoya mdsajku'ajkä yä mij 'mode!
