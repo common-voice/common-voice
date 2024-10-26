@@ -50,6 +50,8 @@ about-stay-in-touch = میں رابطے بچ کس طرح رہواں؟
 about-stay-in-touch-button = سائن اپ کرو
 about-stay-in-touch-text-1 = اسدی میلنگ لسٹ بچ<emailFragment>سائن اپ کرو</emailFragment>اے سکھنڑاں واسطے کہ کسطرح تسیں مہمات، تقریباں ہور مل کے ڈیزائن کرنا جیسیاں خصوصیات بچ کامن وائس تے حصہ گن سکدے ہو۔
 about-stay-in-touch-text-2 = تسیں موزیلا لیگویچ کمیونٹیز بچ دویاں کو مل سکدے ہو،موضوعی گفتگو تے <discourseLink>ڈسکورس</discourseLink> بچ شامل ہو کے، یا<matrixLink>میٹرکس</matrixLink>تے فوری مشورے واسطے۔
+about-nav-why-common-voice = کیاں؟
+about-nav-how-it-works = کسطرح؟
 
 ## Community Playbook Content
 ## What is a language
