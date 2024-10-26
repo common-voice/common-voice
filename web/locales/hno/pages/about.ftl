@@ -60,6 +60,7 @@ about-nav-playbook = سکھو کسطرح حصہ گِِندے ہن
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = کامن وائس تے کِڑی زبان ہے؟
 
 ## How do I add a language
 
