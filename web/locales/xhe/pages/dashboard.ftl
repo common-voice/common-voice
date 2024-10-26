@@ -19,9 +19,23 @@ total-approved = سارے منظور ہِن
 overall-accuracy = ساری درستگی
 set-visibility = منجی نظر جوڑ
 visibility-explainer = ہے سیٹنگ تا جے لیڈر بورڈ تی وڑانیک سنبھالین٘دی ہے۔ جے وخت پاہلی نہ وئے تا جی ترقی چھپی ہوسے۔ ہے تا مطلب ہے کہ تا جی تصویر، تا جا ناں، تا جی ترقی، لیڈر بورڈ تی پاہلی نہ تھیسی۔ نوٹ کر جا لیڈر بورڈ تبدیلیاں وڑاݨ واسطے { $minutes }~ منٹ گُھلدا ہے۔
+visibility-overlay-note = نوٹ: جے وخت 'وڑان' جوڑا وئے، وتا ہو جوڑݨیک <profileLink>پروفائل صفحہ</profileLink> ساں وٹا سڳدا ہیں
+show-ranking = منجی درجہ بندی وڑا
 
 ## Custom Goals
 
+get-started-goals = ہدف ساں شروع کر
+create-custom-goal = ہِک آپݨی مرضی تا ہدف جوڑ
+goal-type = تؤ کئے قسم تا ہدف جوڑݨ چاہن٘دا ہیں؟
+both-speak-and-listen = ٻِیؤ
+both-speak-and-listen-long = ٻِیؤ (ڳاہلݨ ٻیا ٻُجھݨ)
+daily-goal = روزانہ تے ہدف
+weekly-goal = ہفتے تے ہدف
+easy-difficulty = سوکھا
+average-difficulty = درمیانہ
+difficult-difficulty = ݙُکّھا
+pro-difficulty = تکڑا
+lose-goal-progress-warning = آپݨے ہدفیک وتا جوڑݨ واسطے، تو آپݨی پہلے والی ترقی ڳار کر سڳدا ہیں۔
 
 ## Goals
 
