@@ -18,6 +18,10 @@ about-voice-contrib-title = اوازو دیک
 about-voice-contrib-subtitle = روئے گونیان وا تان آوازان دونیان
 about-voice-validation-title = آوازو تصدیق
 about-voice-validation-subtitle = خور روئی ہے اسکوردی آوازان تصدیق کونیان
+about-dataset-release-title = ڈِیٹاسیٹ جاری ہوئے
+about-dataset-release-subtitle = اسپہ ڈیٹا سیٹو ہر 3 مسہ جاری کوسیان
+about-subscribe-text = کمان وائسو سون جوست بک مݰکیسانا؟
+about-speak = راوے
 
 ## Community Playbook Content
 ## What is a language
