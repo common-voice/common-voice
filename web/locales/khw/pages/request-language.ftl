@@ -15,3 +15,4 @@ request-language-google-recaptcha-required = وا کیپچا ضروری اگر �
 request-language-google-recaptcha-error = وا کیپچا ݯھکیاوا کورا نقص ہائے۔ وا کوشش کو
 # Success page
 request-language-success-heading = شکریہ! تو  ای نوغ زبانو بارا سوال ارو۔
+request-language-success-list-1 = شاو تہ تین ای امیل گیلیک، ہتیرا تہ زبانو کمان وائس شامل کوریکو قدم شینی
