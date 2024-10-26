@@ -36,6 +36,10 @@ average-difficulty = درمیانہ
 difficult-difficulty = ݙُکّھا
 pro-difficulty = تکڑا
 lose-goal-progress-warning = آپݨے ہدفیک وتا جوڑݨ واسطے، تو آپݨی پہلے والی ترقی ڳار کر سڳدا ہیں۔
+want-to-continue = چھا تُو جاری رکھݨ چاہندا ہیں؟
+finish-editing = پہلے وتا جوڑݨ ختم کر؟
+lose-changes-warning = انڄیاں چھوڑݨ تا مطلب ہے تُو آپݨییاں تبدیلیاں ڳار پیا کندا ہیں
+build-custom-goal = ہِک آپݨی مرضی تا ہدف جوڑ
 
 ## Goals
 
