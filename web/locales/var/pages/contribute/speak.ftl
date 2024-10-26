@@ -5,4 +5,6 @@ record-cta = Oinaga
 record-platform-not-supported = Kainetesa kawe itaperi nulatume
 record-platform-not-supported-desktop = Natichi tekipuwame computadora kuala netewame wuasi
 record-platform-not-supported-ios-non-safari = Kana kati IOS, SAFARI wa buu, taperi puyachame
-record-must-allow-microphone = Kaweju simitega naosaga micrófonochi
+record-must-allow-microphone = Kaweju simitega naosaga micrófono chi
+record-no-mic-found = Kai muu tewaka micrófono
+record-error-too-short = Emeluma nele naosari
