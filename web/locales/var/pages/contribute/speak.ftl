@@ -42,3 +42,4 @@ first-cta-header-text = Cheriwera uka amó nanosariwa nejario sulala
 first-cta-subtitle-text = ¿Peniremu elani tojachaga uka naosari amó naosao?
 why-donate = Chekamu tukena?
 add-information-button = Neteka itaperi
+continue-speaking-button = Kai cheriwerawa, simitenamu naosaga
