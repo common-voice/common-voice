@@ -70,7 +70,9 @@ sentence-variant-select-multiple-variants = عام زبان/ کافئ ساروی
 sc-bulk-upload-header = <icon></icon>  عوامی ڈومین جملہ پ لوڈ کنی
 sc-bulk-upload-instruction = وزی  فائل آرا ایزا بیارے یا<uploadButton>اپلوڈ کھنغ سانگا</uploadButton> کلک کھنے
 sc-bulk-upload-instruction-drop = اپلوڈ کنیغ وسطا وزی  فائل آیزا سٹی
-bulk-upload-additional-information = اگر شوا اے فائل اے بارہ کوئی اصافی معلومات فراہم کھنغ چاہے واں ٹیمپلیٹ وچا شامل چھنے تاں براہ کرم رابطہ کھنے
+bulk-upload-additional-information = اگر شوا اے فائل اے بارہ کوئی اصافی معلومات فراہم کھنغ چاہے , تاں براہ کرم رابطہ کھنے <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = اگر شوا اے فائل اے بارہ کوئی اصافی معلومات فراہم کھنغ چاہے واں ٹیمپلیٹ وچا شامل چھنے تاں براہ کرم رابطہ کھنے
+try-upload-again = کوشش کنی وزیں فاءیل آیزا زورا کو بارت انت
 
 ## SMALL BATCH SUBMISSION
 
