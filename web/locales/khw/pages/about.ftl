@@ -26,6 +26,8 @@ about-speak-text = تعاون کوراک عطیہ کاردو جملان موژا
 about-listen-queue = کارکوریکو-قطار
 about-listen-queue-text = اسکوردی آوازان جمع کوریکو قطارہ لکھونیا۔ہتیرا ہیت کار کوریکو پچین تیار بونیان۔
 about-listen = کار کو
+about-listen-text = کورما انگیاگ ہے عطیہ کاردو آوازان سہی بیکو توثیق کونیان، چیک کونیان کہ ریاک ہےتان سہی را اسور۔
+about-is-it-valid = ہیا آواز درست؟
 
 ## Community Playbook Content
 ## What is a language
