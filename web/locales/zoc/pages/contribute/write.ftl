@@ -11,6 +11,12 @@ citation-input-placeholder = Koda te' jayetsame judä tsu'nhumä yä' jaye ('ijt
 citation =
     .label = Tsamä' judäde tsu'nhubä.
 sc-write-submit-confirm = Ndsamba't, yä' jaye 'ijtusebä'iste'e muspabä yajkyosa, näjayaju'tsi wa'at musu yajkki'mä.
+sc-review-write-title = ¿Tibä jaye'mäjt muspa nhgojta'nhäya?
+sc-review-small-batch-title = ¿Jutsamäjt mujspa nhgojta'nhä wäawä jaye?
+new-sentence-rule-1 = Muspa yajkyosa mumu'is (cc).
+new-sentence-rule-2 = 'U yajkkokädu yäjta'y (15) jaye te' mäjabä jaye'omo.
+new-sentence-rule-3 = Yajkyosa te' wäbä jaye.
+new-sentence-rule-4 = Yajkyosa te' wäbä jaye, yajkti sunyi'k koda te' ji'bi yajpamä te' 'odetsame.
 
 ## BULK SUBMISSION 
 
