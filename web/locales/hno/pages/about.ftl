@@ -61,6 +61,7 @@ about-nav-playbook = سکھو کسطرح حصہ گِِندے ہن
 ## What is a language
 
 about-playbook-what-is-language = کامن وائس تے کِڑی زبان ہے؟
+about-playbook-what-is-language-content-1 = زبان دے بارے سوچنڑاں دے مچ سارے طریقے ہن۔ سپیچ ریکگنیشن ماڈلز دے مقصد واسطے، کامن وائس ’باہمی سمج‘ تے توجہ دینڑا دا مشورہ دیندا ہے، یا ’اِس زبان دے بولنا والے ہک دوسرے کو زیادہ تر سمجھ سکدے ہن اگر او کوشش کرن تے؟‘
 
 ## How do I add a language
 
