@@ -25,3 +25,7 @@ report-sc-different-language = ایکویں ایکویں زوان
 report-sc-different-language-detail = اے آں زبان گوں مختلف ایں واہی کہ ماں جائزاہ گرغاں
 sentences-fetch-error = جملہ نئ بازیافت وچا یکھے خرابی  آختا شزا
 review-error = اے جملہ جائزہ گرغ وچا یکھے خامی اختا شزا
+review-error-rate-limit-exceeded = شوا باز تیزی آ گوں روغے ۔براہ کرم  جملہ جائزہ گرغ واسطہ کھمے وقت آ کھشے تاکہ اے یقینی ٹھزی آ برو کہ اے درست استیں
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = ماہ چھیے مزیں تبدیلیاں کھنغوں
+sc-redirect-page-subtitle-1 = سزا جمع کھنوغیں بنیادی کامن وائس پلیٹ فارم چھکا روغیں ۔نئ شوا کامن وائس چھکا یکھے جملہ یا یکھے آ گزارشات آں نئ جائزہ گرے سگے
