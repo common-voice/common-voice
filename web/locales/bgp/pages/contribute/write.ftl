@@ -73,6 +73,13 @@ sc-bulk-upload-instruction-drop = اپلوڈ کنیغ وسطا وزی  فائل 
 bulk-upload-additional-information = اگر شوا اے فائل اے بارہ کوئی اصافی معلومات فراہم کھنغ چاہے , تاں براہ کرم رابطہ کھنے <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = اگر شوا اے فائل اے بارہ کوئی اصافی معلومات فراہم کھنغ چاہے واں ٹیمپلیٹ وچا شامل چھنے تاں براہ کرم رابطہ کھنے
 try-upload-again = کوشش کنی وزیں فاءیل آیزا زورا کو بارت انت
+try-upload-again-md = آیزا فائل اپلوڈ کنیغ کوشش کنی
+select-file = فائل چنڑے
+select-file-mobile = فائل چنڑے اپلوڈ کنیغ  وسطا
+accepted-files = قابل قبول ہر  قسماں فائل:tsv صرف
+minimum-sentences = فائل نیواں کھمے تے کھمے جملے: 1000
+maximum-file-size = باز و باز  فائل سائز: 25 ایم بی
+what-needs-to-be-in-file = مناں وزی زندگی نیوا چی شۓ لوڑ ءے?
 
 ## SMALL BATCH SUBMISSION
 
