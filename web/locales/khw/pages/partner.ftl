@@ -8,3 +8,6 @@ partnerships-community-description = کمیونیٹی کمان وائسو ہرد
 partnerships-foundations-header = بنیاد
 partnerships-foundations-description = اسپہ افریقہ انٹرنیٹو صحت مند ژاغا ساوزیکو پیچین تنظیمان اوچے  کمیونیٹیو سون کوروم کوسیان۔
 partnerships-governments-header = حکومت
+partnerships-governments-description = اسپہ عام رویان ٹکنالوجیا، ایجاد کویکا وا زبانو حقوقا شامل کوریکو پچین بو پرجوش اسوسی۔ تہ کی پھک لوٹ کوروم یا مہم چلیکو پروگرام شیر اسپہ دین<emailFragment> ای میل کو </emailFragment>
+partnerships-academia-header = یونیورسٹی، اکیڈیمیک وا محقیق
+partnerships-academia-description = خورا سار ݯھیݯیک اسپا بو خوش۔ تحقیق کوریکو، معلومات جمع کوریکو یا انٹرویو پچین <emailFragment> اسپہ دین نویشے۔
