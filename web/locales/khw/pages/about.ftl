@@ -30,10 +30,19 @@ about-listen-text = کورما انگیاگ ہے عطیہ کاردو آوازا�
 about-is-it-valid = ہیا آواز درست؟
 about-is-it-valid-text = استعمال کوراک 'دی' رے ووٹ کی پرائے  آوازو سہی بیکو نݰان لگینو بویان
 about-yes-votes = 2 ≥ 'دی' ووٹ
+about-yes-votes-text = کمان ڈیٹاسیٹا انگیکو پچین آوازو جو علحیدہ استعمالا انگیاک توثیق کوریلیک
+about-no-votes = ≥ 2 'نو' ووٹ
+about-nav-why-common-voice = کیوں؟
+about-nav-how-it-works = کیچہ؟
+about-nav-partners = حصہ دار
+about-nav-get-involved = حصہ گانیک
+about-nav-how-it-works-2 = کمان وائس کیچا کوروم کویان؟
+about-nav-playbook = حصہ گنیکو ݯیݯے
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = کمان وائسا کیا زبان شیر
 
 ## How do I add a language
 
