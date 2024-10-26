@@ -28,6 +28,8 @@ about-listen-queue-text = اسکوردی آوازان جمع کوریکو قطا
 about-listen = کار کو
 about-listen-text = کورما انگیاگ ہے عطیہ کاردو آوازان سہی بیکو توثیق کونیان، چیک کونیان کہ ریاک ہےتان سہی را اسور۔
 about-is-it-valid = ہیا آواز درست؟
+about-is-it-valid-text = استعمال کوراک 'دی' رے ووٹ کی پرائے  آوازو سہی بیکو نݰان لگینو بویان
+about-yes-votes = 2 ≥ 'دی' ووٹ
 
 ## Community Playbook Content
 ## What is a language
