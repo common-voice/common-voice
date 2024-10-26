@@ -40,6 +40,18 @@ want-to-continue = چھا تُو جاری رکھݨ چاہندا ہیں؟
 finish-editing = پہلے وتا جوڑݨ ختم کر؟
 lose-changes-warning = انڄیاں چھوڑݨ تا مطلب ہے تُو آپݨییاں تبدیلیاں ڳار پیا کندا ہیں
 build-custom-goal = ہِک آپݨی مرضی تا ہدف جوڑ
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] پہنچݨ تی وِچ مدد { $hours } گھنٹے { $language }ٻولی تی وِچ ذاتی ہدف ساں گݙ
+       *[other] پہنچݨ تی وِچ مدد { $hours } گھنٹے { $language }ٻولی تی وِچ ذاتی ہدف ساں گݙ
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] کامن وائس ݙے پہنچݨ تی وِچ مدد کر { $hours } گھنٹہ ہِک ٻولی وِچ ذاتی ہدف ساں ڳݙ۔
+       *[other] کامن وائس ݙے پہنچݨ تی وِچ مدد کر { $hours } گھنٹے ہِک ٻولی وِچ ذاتی ہدف ساں ڳݙ۔
+    }
+set-a-goal = ہِک ہدف جوڑ
+cant-decide = فیصلہ نئیں کر سڳدا؟
 
 ## Goals
 
