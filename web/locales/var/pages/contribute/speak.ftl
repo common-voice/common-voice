@@ -23,3 +23,5 @@ share-common-voice = Tojanabora itaperi Common Voice
 review-instruction = Nenega oinaga sé enchi najuka senegachi nakipomeju
 record-submit-tooltip = Toinaga kajusa aasi
 record-abort-title = Kajunaremu pacha grabandowaga?
+record-abort-text = Maa chijenasaga epe,  wekatemamu lloma amu neterio pee
+record-abort-submit = Maa chijenasaga epe
