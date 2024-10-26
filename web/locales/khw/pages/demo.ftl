@@ -31,3 +31,4 @@ demo-listen-subtitle = حص گنیکو تین تیارا؟
 
 ## Demo Dashboard
 
+demo-dashboard-card-header = ذاتی ڈیش بورڈا تہ تے رویان وا کمیونیٹیو کورمو بارا معلومات بوئے
