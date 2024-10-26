@@ -12,9 +12,13 @@ card-button-next = پوݰی بوغے
 card-button-back = اچی گے
 demo-language-select-label = زبانان تلاش کو
 demo-eofy-header = 2019 سالو اخیری خبر
+demo-eofy-sub_header = آوازو ذخیرہ ڈونلوڈ کوریکو پچین تیار۔
+demo-account = اکاونٹ
 
 ## Demo Account
 
+demo-account-card-header = مدد کوریکو پچین اکانٹ ضروری نو، اکرچہ ہیا مدد گار
+demo-account-card-body = ہوسکیو وݰکی اسپہ فائدان وا واضح کوری اسوسی کی کیا معلومات عام رویا پچین۔ موڑا لینکو کمان وائسو تان کمپیوٹیرا یا موبائلا  شروع کوریکو پچین استعمال کورے
 
 ## Demo Contribute
 
