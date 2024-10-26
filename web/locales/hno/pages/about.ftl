@@ -32,7 +32,7 @@ about-listen-text = استعمال کرنا آلےعطیہ شدہ کلپس د�
 about-is-it-valid = اے کلپ صیح ہے؟
 about-is-it-valid-text = جدوں ہک استعمال کرنا آلہ ہاں اکھدا ہے تاں ہی ہک وائس کلپ کو ’’صیح‘‘ دا نشانڑ لیندے ہاں۔
 about-yes-votes = ≥ 2 ہاں ووٹ
-about-no-votes = ≥ 2 نہ ووٹ
+about-no-votes = ≥ 2 ناں ووٹ
 
 ## Community Playbook Content
 ## What is a language
