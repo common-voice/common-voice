@@ -80,6 +80,9 @@ accepted-files = قابل قبول ہر  قسماں فائل:tsv صرف
 minimum-sentences = فائل نیواں کھمے تے کھمے جملے: 1000
 maximum-file-size = باز و باز  فائل سائز: 25 ایم بی
 what-needs-to-be-in-file = مناں وزی زندگی نیوا چی شۓ لوڑ ءے?
+upload-progress-text = اپلوڈ بیغیع...
+sc-bulk-submit-confirm = میں پتا کتاں اے جملہ <wikipediaLink> عوامی ڈومین </wikipediaLink> اور نی مناء ا شۓ اپ لوڈ کنیغ اجازت است انت
+bulk-upload-success-toast = باز جملے اپ لوڈ بیتغع
 
 ## SMALL BATCH SUBMISSION
 
