@@ -33,9 +33,18 @@ single-sentence-submission = یک جملہ جمع کھنینغ
 small-batch-sentence-submission = بوجڑائں جملہ جمع کھنینغ
 bulk-sentence-submission = مزیں مزیں جملہ جمع کھنینغ
 single-sentence = یک
+sentence-domain-combobox-label = جملہ ء ڈومین
 sentence-domain-select-placeholder = سے ڈومینز تکا (منتخب) کھنے
 # Sentence Domain dropdown option
 agriculture_food = زراعت تے خوراک
+# Sentence Domain dropdown option
+automotive_transport = آٹوموٹو یا ٹرانسپورٹ
+# Sentence Domain dropdown option
+finance = فنانس
+# Sentence Domain dropdown option
+service_retail = خدمت یا خوردہ
+# Sentence Domain dropdown option
+general = عمومی
 # Sentence Domain dropdown option
 language_fundamentals = زبان اے بنیادی اصول (مثلا. ہندسے, حروف, رقم)
 sentence-variant-select-multiple-variants = عام زبان/ کافئ سارویں قسمیں
