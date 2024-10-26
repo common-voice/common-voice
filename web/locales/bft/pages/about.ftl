@@ -54,6 +54,7 @@ about-nav-playbook = چی بیسے حصہ لینمن زیربو ہلژوپ
 ## What is a language
 
 about-playbook-what-is-language = کامن واٸسیکھہ سکت پو چن؟
+about-playbook-what-is-language-content-1 = سکت لوکھسینگ خسمبہ بیالا خسم بزو ایشن یود۔ سکت نوزین بے ماڈلی لوکھسینگ، کامن واٸسی خسم بزونگ ہلتنید، میدنارے یا سکت زیربی ایونگ گانگمہ لا سہ یو شوٹے تا؟
 
 ## How do I add a language
 
