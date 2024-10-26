@@ -34,6 +34,14 @@ change-preferences = Snifel ismenyifen
 
 contribute-voice-collection-nav-header = Alqaḍ n tuɣac
 contribute-sentence-collection-nav-header = Alqaḍ n tefyar
+login-signup = Kcem / Jerred
+vote-yes = Ih
+vote-no = Ala
+datasets = Tagrumma n yisefka
+languages = Tutlayin
+about = Ɣef
+partner = Amendid
+submit-form-action = Azen
 
 ## Reporting
 
