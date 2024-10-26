@@ -36,6 +36,11 @@ review-rerecord = Näbujtja kyene te' kenenäbujtäjkpi'k
 review-cancel = Jäkä'ä tiyä nä mgä'weju
 review-keep-recordings = Te'sem yajtsä'yä te' grabasyonda'm
 review-delete-recordings = Yajkjäkä'ä te' grabajtsäjkyajubä'mäjt
+review-terms = 'Uka yajkyospa Common Voic, mbäjkisytsyäkpabäde'e juts wa'a yajkyojsu yä' jatsyäjk, yajkti mbäjkisytsyokpa tiyäjt ndsäjkyajpa äjta'm yä' yostäjkomo.
+terms-agree = Jä'ä, mbäjkisytsyokpa't
+terms-disagree = Ji'ne, ji't mbäjkisytsyowe
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ¡Yäskodoya nä mdsajku'ajkä yä 'mode yä' 'ondsä'kyu'yomo!
 continue-speaking-button = Ji'ne, yäskodoya, 'o'na'nhä.
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Yäskodoya mdsajku'ajkä yä mij 'mode!
