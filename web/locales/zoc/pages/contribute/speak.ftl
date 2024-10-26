@@ -55,3 +55,8 @@ first-cta-gender-select-help-text =
     .label = ¿Jutsam sutpa mdsa'manhwakä 'uka yõmode o mbyände'e?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Yäskodoya mdsajku'ajkä yä mij 'mode!
+second-cta-subtitle-text = Tumä kejpamä mij mgene, mujspa yõ'sanhä, yajkti mujspa ndyäjkä yä' yostäjk'omo, muspa ndyumä yostamä eyada'mbäji'nh nädi tsyäjkyajke'dubä'is te' tsä'byamä te' 'ode.
+already-have-an-account = ¿Mnä'ijtu'a judä yõspamä? Täjkä wa'a mdsäjku tiyä msutpa.
+create-profile-button = Tsäkä' kejpamä mij mgene.
+# IMAGE TAGS
+img-alt-success-checkmark = Koda ji'bi 'uka sunyi'am tujku tiyä nä mdsäjku.
