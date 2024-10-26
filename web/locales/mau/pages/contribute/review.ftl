@@ -14,6 +14,7 @@ sc-review-form-source = Jñá ndibá:{ $sentenceSource }
 sc-review-form-button-reject = Majen
 sc-review-form-button-skip = Chikji
 sc-review-form-button-approve = Sik'atu
+sc-review-form-keyboard-usage-custom = kuan kja'é chuba sicheén jña isenné { sc-review-form-button-approve-shortcut } tsá sik'jatu { sc-review-form-button-reject-shortcut } tsá majenri { sc-review-form-button-skip-shortcut } tsá chikji
 
 ## REVIEW CRITERIA
 
