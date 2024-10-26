@@ -20,3 +20,5 @@ record-last-instruction = <recordIcon></recordIcon>Ereka simite oinaga sé enchi
 review-tooltip = Nenega oinaga sé enchi
 share-clip = Tojachaga muu itaperi
 share-common-voice = Tojanabora itaperi Common Voice
+review-instruction = Nenega oinaga sé enchi najuka senegachi nakipomeju
+record-submit-tooltip = Toinaga kajusa aasi
