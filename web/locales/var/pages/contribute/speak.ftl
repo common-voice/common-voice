@@ -31,3 +31,5 @@ review-aborted = Wua toipora uka amó neteri. Nasonanaremu uka amó neterio
 review-submit-title = Nenega uka amó neterio
 review-submit-msg = Cheriwerawa uka amó neterio<lineBreak></lineBreak>Epego nenega uka amó neterio noo simeroga
 review-recording = Neene puuka
+review-rerecord = Oinabora sé enchi grabandobaga
+review-cancel = Nasonaga uka amó neterio
