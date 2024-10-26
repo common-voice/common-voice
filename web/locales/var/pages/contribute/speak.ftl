@@ -45,3 +45,9 @@ add-information-button = Neteka itaperi
 continue-speaking-button = Kai cheriwerawa, simitenamu naosaga
 create-profile-text = Katewenaremu uka amó neterio. <createProfile>neteka pile toapome wa Coomon Voice?</createProfile>
 thanks-for-voice-toast = Cheriwerawa pasa muu noo chane uka aosari
+thanks-for-voice-toast-error = Kai kawe simerorume uka amó neterio
+first-cta-gender-select-default-option = Nasonaga pile amó neterio
+first-cta-gender-select-help-text =
+    .label = Chimureka netenare amó sexo yoma?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Cheriwera uka amó nanosariwa nejario sulala
