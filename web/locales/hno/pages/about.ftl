@@ -48,6 +48,7 @@ about-get-involved-text-2 =
     <githubLink>گٹھب </githubLink> دے ذریعہ سائٹ دے مسائل جمع کرالو، یا  <matrixLink> میٹرکس </matrixLink> کمیونٹی دی گل بات بچ شامل ہو جلو۔
 about-stay-in-touch = میں رابطے بچ کس طرح رہواں؟
 about-stay-in-touch-button = سائن اپ کرو
+about-stay-in-touch-text-1 = اسدی میلنگ لسٹ بچ<emailFragment>سائن اپ کرو</emailFragment>اے سکھنڑاں واسطے کہ کسطرح تسیں مہمات، تقریباں ہور مل کے ڈیزائن کرنا جیسیاں خصوصیات بچ کامن وائس تے حصہ گن سکدے ہو۔
 
 ## Community Playbook Content
 ## What is a language
