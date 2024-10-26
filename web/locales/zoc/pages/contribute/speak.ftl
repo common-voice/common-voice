@@ -43,6 +43,7 @@ terms-disagree = Ji'ne, ji't mbäjkisytsyowe
 first-cta-header-text = ¡Yäskodoya nä mdsajku'ajkä yä 'mode yä' 'ondsä'kyu'yomo!
 first-cta-subtitle-text = ¿Sutpa'ksyä yajkmujstä tijudibä, juts 'yonbase mijtsi?
 why-donate = ¿Tikoda'm mgäme'tspa?
+why-donate-explanation-1 = Yä' tsa'manhwajku'y, mijte'e 'uka sutpa mdsäkä; mujspa mdsäjkta'nä 'uka sunyi 'manhjamba mwit.
 continue-speaking-button = Ji'ne, yäskodoya, 'o'na'nhä.
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Yäskodoya mdsajku'ajkä yä mij 'mode!
