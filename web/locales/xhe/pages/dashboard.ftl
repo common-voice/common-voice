@@ -54,6 +54,19 @@ set-a-goal = ہِک ہدف جوڑ
 cant-decide = فیصلہ نئیں کر سڳدا؟
 activity-needed-calculation-plural = { $totalHours }  گھنٹے{ $periodMonths }  مہینےاگر{ $people }  عوامریکارڈ{ $clipsPerDay }  تراشےایک دن
 how-many-per-day = چنڳا! ہِک ݙینہؤ تے وِچ کیلے ٹوٹے؟
+how-many-a-week = چنڳا! ہِک ہفتے تے وِچ کیلے ٹوٹے؟
+which-goal-type = چھا تُو ڳاہلݨ چاہن٘دا ہیں، ٻُجھݨ چاہن٘دیں ٻیا ٻِیؤ؟
+receiving-emails-info =
+    تُو ہدف تی یاد دہانی تے واسطے ای میل تی حاضری پسند کندا ہیں، 
+    کامن وائس تے باریک منجی ترقی تی اطلاع، ٻیا خبریں خط ݙے۔
+not-receiving-emails-info =
+    تُو ہدف تی یاد دہانی تے واسطے ای میل تی حاضری پسند <bold>نہ</bold> کندا ہیں، 
+    کامن وائس تے باریک منجی ترقی تی اطلاع، ٻیا خبریں خط ݙے۔
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count }ٹوٹا
+       *[other] { $count }ٹوٹے
+    }
 
 ## Goals
 
