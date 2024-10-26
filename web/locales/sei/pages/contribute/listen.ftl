@@ -9,3 +9,4 @@ listen-empty-state-variants = Haa xah poohca tax, miitom hac ziix z an hant hapa
 listen-loading-error = Icaaitom ziix quih an hant cooit coi icapacta iyomá. Halx poyáám ta, mpaai insoocta aha.
 listen-abort-title = ¿Icaaitom ziix quih an hant cooit coii cӧmihoocta hac taa cӧiiha ya?
 listen-abort-cancel = Cói icaaitom ziix quih an hant cooit coi cӧihiipe xah taax insoocta aha
+listen-abort-confirm = Icaaitom ziix quih an hant cooit coi cӧhihoocta hac taa cӧiiha ha
