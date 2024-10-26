@@ -41,6 +41,7 @@ terms-disagree = Kaine kawe intani
 first-cta-header-text = Cheriwera uka amó nanosariwa nejario sulala
 first-cta-subtitle-text = ¿Peniremu elani tojachaga uka naosari amó naosao?
 why-donate = Chekamu tukena?
+why-donate-explanation-2 = Pile wua ereka kaweju tecnologia llomaga, uka najutume uka netetume ereka netesiga uka ipakorume senegachi kai reme cheenarema pile naosame nukwarijo penieme erekago kay kajuma kawego uka kai naosame ipakorume<learnMore>Neteka pilechi weika metadatos nateame</learnMore>
 add-information-button = Neteka itaperi
 continue-speaking-button = Kai cheriwerawa, simitenamu naosaga
 create-profile-text = Katewenaremu uka amó neterio. <createProfile>neteka pile toapome wa Coomon Voice?</createProfile>
