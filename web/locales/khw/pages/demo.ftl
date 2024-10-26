@@ -19,9 +19,13 @@ demo-account = اکاونٹ
 
 demo-account-card-header = مدد کوریکو پچین اکانٹ ضروری نو، اکرچہ ہیا مدد گار
 demo-account-card-body = ہوسکیو وݰکی اسپہ فائدان وا واضح کوری اسوسی کی کیا معلومات عام رویا پچین۔ موڑا لینکو کمان وائسو تان کمپیوٹیرا یا موبائلا  شروع کوریکو پچین استعمال کورے
+demo-account-enter-email =
+    .label = تان ای میلو سائن-اب لنک انزکو پچین نویشے۔
+demo-account-sign-up = سائن اب لنک انزاوے
 
 ## Demo Contribute
 
+demo-contribute-card-header = تان آوازو شامل کوریکو پچین یا کار دوریکو پچین تیار بوس۔
 
 ## Demo Dashboard
 
