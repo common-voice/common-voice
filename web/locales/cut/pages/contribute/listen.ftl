@@ -8,3 +8,5 @@ listen-empty-state = A kotee ndodo dbaku, a kot kubi kama a ndebe o nwe ndebe nd
 listen-empty-state-variants = Abte ndodo yi’i yabakude mu’u na koo, ates nome kubi kambede taka iynde’e inña yi’i tama bia adbakuku.
 listen-loading-error = Nwe chii chindeenno ndodo naa koo dindetud tama namna’a achinnu
 listen-abort-title = Nekuinno kamade ndtes  ndebe ndodo
+listen-abort-cancel = Gndid kamade ndetes a ndebe ndodo se iynuu mu'u na koo
+listen-abort-confirm = Kuinno kamade ndetes a ndebe ndodo se iynuu mu’u naa koo
