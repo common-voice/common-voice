@@ -49,5 +49,9 @@ add-information-button = Kojta'nhä mujsokyu'y
 continue-speaking-button = Ji'ne, yäskodoya, 'o'na'nhä.
 create-profile-text = ¿Sutpa mgäjtanhne'ka te' mdsamjajku'y? Tsäkä tumä'k mij mberfil/mgenetsä'kyu'y.
 thanks-for-voice-toast = Yäskodoya mdsajku'ajkä te' 'mode'is tsyame.
+thanks-for-voice-toast-error = Ja'wyä'a yä' yosku'y mgä'we'ju'k te' 'mode'is tsame.
+first-cta-gender-select-default-option = Kobiwä' tumä'k judibä msutpa.
+first-cta-gender-select-help-text =
+    .label = ¿Jutsam sutpa mdsa'manhwakä 'uka yõmode o mbyände'e?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Yäskodoya mdsajku'ajkä yä mij 'mode!
