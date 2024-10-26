@@ -63,6 +63,7 @@ about-playbook-what-is-language-content-3 = سکچی بقچی لا گرامری 
 about-playbook-how-add-language = ناسی سکت چک چی بیسے ایڈ بیا؟
 about-playbook-how-add-language-content-1 = چوقپہ دونوک یری سکت پو یودا مید ہلتوس۔ میدنارے یانگلا یری سکتپو ہلتون زیربہ نینید۔ دی لوکھسینگ تھیمبہ نیس یود۔ ساٸٹ کو تم لزوق بیا دیکھنہ تم سیر کن زدمسے کھیونگمہ۔
 about-playbook-how-add-language-translating-heading = ساٸٹ پو تم لزوق گوین یود۔
+about-playbook-how-add-language-translating-content-1 = پینٹون پو چی بیسے کولبہ زیربی لوکھسینگنو نٸی روخ بیس کن لا ہلتوس۔
 
 ## How does localization work
 
