@@ -12,3 +12,5 @@ partnerships-governments-description = اسپہ عام رویان ٹکنالوج
 partnerships-academia-header = یونیورسٹی، اکیڈیمیک وا محقیق
 partnerships-academia-description = خورا سار ݯھیݯیک اسپا بو خوش۔ تحقیق کوریکو، معلومات جمع کوریکو یا انٹرویو پچین <emailFragment> اسپہ دین نویشے۔
 partnerships-small-business-header = چیق کروبار کہ تیرا ٹکنالوجی وا آے آئی (AI )شامل شیر شروع کوریک
+partnerships-small-business-description = اسپہ ہمیشو پچین معلعماتان استعمال کوراکو  توغو ضرورت اوچے ماحولو بارا رائے گانیک مݰکیسان۔
+partnerships-corporates-header = لوٹ پیمانہ اجتعماعی وا پلیٹ فارم کمپنی
