@@ -43,3 +43,5 @@ first-cta-subtitle-text = ¿Peniremu elani tojachaga uka naosari amó naosao?
 why-donate = Chekamu tukena?
 add-information-button = Neteka itaperi
 continue-speaking-button = Kai cheriwerawa, simitenamu naosaga
+create-profile-text = Katewenaremu uka amó neterio. <createProfile>neteka pile toapome wa Coomon Voice?</createProfile>
+thanks-for-voice-toast = Cheriwerawa pasa muu noo chane uka aosari
