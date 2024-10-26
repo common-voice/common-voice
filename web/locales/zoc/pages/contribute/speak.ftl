@@ -41,6 +41,8 @@ terms-agree = Jä'ä, mbäjkisytsyokpa't
 terms-disagree = Ji'ne, ji't mbäjkisytsyowe
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = ¡Yäskodoya nä mdsajku'ajkä yä 'mode yä' 'ondsä'kyu'yomo!
+first-cta-subtitle-text = ¿Sutpa'ksyä yajkmujstä tijudibä, juts 'yonbase mijtsi?
+why-donate = ¿Tikoda'm mgäme'tspa?
 continue-speaking-button = Ji'ne, yäskodoya, 'o'na'nhä.
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ¡Yäskodoya mdsajku'ajkä yä mij 'mode!
