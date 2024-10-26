@@ -38,7 +38,7 @@ about-no-votes-text = جدوں ہک استعمال کرنڑ والا آواز 
 about-dataset-new = کامن وائس ڈیٹا سیٹ
 about-dataset-new-text = کامن وائس ڈیٹا سیٹ بچ سیکڑے ہزاراں آواز دے نمونے موجود ہن جڑے ڈویلپرز کو آواز دی شناخت دے اوزار بڑانڑ بچ مدد کردے ہن۔
 about-clip-graveyard = کلپ قبرستان
-about-clip-graveyard-text = کلپ قبرستان بچ اُو آواز دے کلپس ہن جڑے کامن وائس ڈیٹا سیٹ بچ شامل نہیں ہو سکے۔ ڈیٹا سیٹ دی طرح، کلپ قبرستان بھی ڈاؤن لوڈ واسطے میسر ہے۔
+about-get-involved = شامل ہوُو
 
 ## Community Playbook Content
 ## What is a language
