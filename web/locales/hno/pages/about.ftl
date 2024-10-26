@@ -13,8 +13,8 @@ about-language-req-subtitle = ہک آدمی زبان درج کرنے دا اک
 about-localization-title = ویب سائٹ دی لوکلائزیشن
 about-localization-subtitle = اس ویب سائٹ دی عبارت دا ترجمہ اس زبان بچ کیتا دا ہے۔
 about-sentence-collection-title = جملیاں دا مجموعہ
-about-sentence-collection-subtitle = جملے جمع کیتے جلدے ہن تاک لوگ اوچی آواز بچ پڑہن۔
-about-new-lang-title = نئی زبان دی شروعات
+about-sentence-collection-subtitle = جملے جمع کیتے جلدے ہن تاکہ لوگ اوچی آواز بچ پڑہن۔
+about-new-lang-title = نوی زبان دی شروعات
 about-new-lang-subtitle = اساں کامن وائس سائٹ کو اس زبان بچ شروع کیتا۔
 about-voice-contrib-title = آوازاں دا تعاون
 about-voice-contrib-subtitle = لوگ ایندے ہور اپنڑیاں آوازاں دا تعاون کردے ہن۔
@@ -29,6 +29,7 @@ about-listen-queue = سنڑنادی-لینڑ
 about-listen-queue-text = وائس کلپس جمع کرانڑ والی لینڑ بچ چلے جلدے ہن او فر اناں کو سنڑنے واسطے تیار کردی ہے۔
 about-listen = سنڑو
 about-listen-text = استعمال کرنا آلےعطیہ شدہ کلپس دے ٹھیک ہونڑا دی توثیق کردے ہن، اے دکھتے کہ بولنا والیاں سنڑ جملیاں کو صحیح طرح پڑھیا دا ہے۔
+about-is-it-valid = اے کلپ صیح ہے؟
 
 ## Community Playbook Content
 ## What is a language
