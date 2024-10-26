@@ -15,3 +15,5 @@ record-instruction = { $actionType } <recordIcon> </recordIcon> Piarimi noó tul
 record-stop-instruction = Kajusaga wuasi tachinaga
 record-three-more-instruction = Paika tejibani itaperi netepome
 record-again-instruction = Kaweju. <recordIcon></recordIcon> Simite peji pilechi najuka
+record-again-instruction2 = Neteka simitega peji
+record-last-instruction = <recordIcon></recordIcon>Ereka simite oinaga sé enchi
