@@ -46,7 +46,21 @@ service_retail = خدمت یا خوردہ
 # Sentence Domain dropdown option
 general = عمومی
 # Sentence Domain dropdown option
+healthcare = صحت ء خیال کنا
+# Sentence Domain dropdown option
+history_law_government = تاریخ، قنُون تے حکومت
+# Sentence Domain dropdown option
 language_fundamentals = زبان اے بنیادی اصول (مثلا. ہندسے, حروف, رقم)
+# Sentence Domain dropdown option
+media_entertainment = میڈیا دے تفریح
+# Sentence Domain dropdown option
+nature_environment = فطرت یا ماحولیات
+# Sentence Domain dropdown option
+news_current_affairs = خبراں تے موجوداء حالات ء
+# Sentence Domain dropdown option
+technology_robotics = ٹیکنالوجی تے روبوٹکس
+sentence-variant-select-label = جملہ ء لہجہ
+sentence-variant-select-placeholder = لہجہ چنڑے (وسی مرضی)
 sentence-variant-select-multiple-variants = عام زبان/ کافئ سارویں قسمیں
 
 ## BULK SUBMISSION 
