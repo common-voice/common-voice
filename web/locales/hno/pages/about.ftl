@@ -43,6 +43,9 @@ about-clip-graveyard-text =
     
     اسیں اِناں لوگاں ہور اداریاں دا شکریہ ادا کرنا چہندے ہاں، اُس مدد دا جڑی اُناں پروگرام نال کیتی:
 about-get-involved = شامل ہوُو
+about-get-involved-text-2 =
+    کامن وائس کو ہور اچھا کرنا واسطے مدد کرنا چہندے ہو؟  بہترین! ای میل یا <discourseLink>گفتگو  </discourseLink> فورمز کے ذریعہ رابطے میں رہیں
+    <githubLink> گٹھب </githubLink> کے ذریعہ سائٹ  مسائل جمع کروائیں ، یا  <matrixLink> میٹرکس </matrixLink> کمیونٹی چیٹ میں شمولیت اختیار کریں۔
 
 ## Community Playbook Content
 ## What is a language
