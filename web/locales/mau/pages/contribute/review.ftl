@@ -25,6 +25,7 @@ sc-review-form-reviewed-message =
         [one] Jngu nijmí kichut'ajin ¡ninaá kat'echiri!
        *[other] { $sentences }kichut'ajin yije nijmí ¡ninaá kat'echiri!
     }
+sc-review-form-review-failure = Mi kuan kis'etjó xi kichut'ajin. S'a k'ua sike
 
 ## REVIEW CRITERIA
 
