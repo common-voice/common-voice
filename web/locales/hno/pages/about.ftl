@@ -31,7 +31,8 @@ about-listen = سنڑو
 about-listen-text = استعمال کرنا آلےعطیہ شدہ کلپس دے ٹھیک ہونڑا دی توثیق کردے ہن، اے دکھتے کہ بولنا والیاں سنڑ جملیاں کو صحیح طرح پڑھیا دا ہے۔
 about-is-it-valid = اے کلپ صیح ہے؟
 about-is-it-valid-text = جدوں ہک استعمال کرنا آلہ ہاں اکھدا ہے تاں ہی ہک وائس کلپ کو ’’صیح‘‘ دا نشانڑ لیندے ہاں۔
-about-yes-votes = 2 ہاں ووٹ
+about-yes-votes = ≥ 2 ہاں ووٹ
+about-no-votes = ≥ 2 نہ ووٹ
 
 ## Community Playbook Content
 ## What is a language
