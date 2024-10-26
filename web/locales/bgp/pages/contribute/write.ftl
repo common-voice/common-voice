@@ -83,7 +83,15 @@ what-needs-to-be-in-file = مناں وزی زندگی نیوا چی شۓ لوڑ 
 upload-progress-text = اپلوڈ بیغیع...
 sc-bulk-submit-confirm = میں پتا کتاں اے جملہ <wikipediaLink> عوامی ڈومین </wikipediaLink> اور نی مناء ا شۓ اپ لوڈ کنیغ اجازت است انت
 bulk-upload-success-toast = باز جملے اپ لوڈ بیتغع
+bulk-upload-failed-toast = اپ لوڈ نیوا ناکامی بیسغء،  تھری کوشش کنی انت.
+upload-more-btn-text = تھی جملے اپ لوڈ کنوں؟
+file-invalid-type = غلط فائل
+file-too-large = فائل اختر مزینۓ
+file-too-small = فائل اختر بلو انت
+too-many-files = باز فائلاں
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> باز عوامی ڈومین جملے  شامل کنی
 small-batch-sentences-rule-5 = کلیں گالورے نیں یا حوالہ بی۔
