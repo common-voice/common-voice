@@ -23,7 +23,9 @@ about-dataset-release-subtitle = اسپہ ڈیٹا سیٹو ہر 3 مسہ جار
 about-subscribe-text = کمان وائسو سون جوست بک مݰکیسانا؟
 about-speak = راوے
 about-speak-text = تعاون کوراک عطیہ کاردو جملان موژار رے اسکوردی آوازان رکارڈ کونیان۔
-about-listen-queue = اوا
+about-listen-queue = کارکوریکو-قطار
+about-listen-queue-text = اسکوردی آوازان جمع کوریکو قطارہ لکھونیا۔ہتیرا ہیت کار کوریکو پچین تیار بونیان۔
+about-listen = کار کو
 
 ## Community Playbook Content
 ## What is a language
