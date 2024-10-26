@@ -24,4 +24,6 @@ review-instruction = Nenega oinaga sé enchi najuka senegachi nakipomeju
 record-submit-tooltip = Toinaga kajusa aasi
 record-abort-title = Kajunaremu pacha grabandowaga?
 record-abort-text = Maa chijenasaga epe,  wekatemamu lloma amu neterio pee
-record-abort-submit = Maa chijenasaga epe
+record-abort-submit = Simeroga uka najutume
+record-abort-continue = Oinabora uka netepone
+record-abort-delete = Machijenasa yoma kaitejibasa wa najutume
