@@ -52,6 +52,10 @@ about-stay-in-touch-text-1 = اسدی میلنگ لسٹ بچ<emailFragment>سا�
 about-stay-in-touch-text-2 = تسیں موزیلا لیگویچ کمیونٹیز بچ دویاں کو مل سکدے ہو،موضوعی گفتگو تے <discourseLink>ڈسکورس</discourseLink> بچ شامل ہو کے، یا<matrixLink>میٹرکس</matrixLink>تے فوری مشورے واسطے۔
 about-nav-why-common-voice = کیاں؟
 about-nav-how-it-works = کسطرح؟
+about-nav-partners = ساتھی
+about-nav-get-involved = شامل ہوُو
+about-nav-how-it-works-2 = کامن وائس کس طرح کم کردا ہے؟
+about-nav-playbook = سکھو کسطرح حصہ گِِندے ہن
 
 ## Community Playbook Content
 ## What is a language
