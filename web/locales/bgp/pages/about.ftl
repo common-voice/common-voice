@@ -45,6 +45,9 @@ about-playbook-how-localize-content-4 = 75% سائٹ تکمیل تکا پجغا 
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = ماں جملہ چوں شامل کناں؟
+about-playbook-how-add-sentences-content-1 = تو تحریری صفحہ چک جملہ لکسغ کنے یا جائزہ صفحہ چک شامل کسغ کنی
+about-playbook-how-add-sentences-content-3 = تو وکی پیڈیا چے کسائیں جملہ نی  استعمال ہے فائدہ ذڑتغ کنے
 
 ## How to record quality
 
