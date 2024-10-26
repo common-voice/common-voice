@@ -8,3 +8,5 @@ record-platform-not-supported-ios-non-safari = Kana kati IOS, SAFARI wa buu, tap
 record-must-allow-microphone = Kaweju simitega naosaga micrófono chi
 record-no-mic-found = Kai muu tewaka micrófono
 record-error-too-short = Emeluma nele naosari
+record-error-too-long = Kameruma nele naosari
+record-error-too-quiet = Té sanajutume kai tepasi motepurume
