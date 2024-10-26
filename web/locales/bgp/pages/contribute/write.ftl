@@ -23,6 +23,7 @@ new-sentence-rule-7 = مناسب حوالہ شامل کن انت
 new-sentence-rule-8 = خیال نیاواں قدرتی تھریں گالور ے( لائن پڑھغ وسطہ سکھا با۔)
 login-instruction-multiple-sentences = <loginLink>لاگن </loginLink> یا <loginLink> سائن اپ </loginLink> بازے جملے شامل کنا
 how-to-cite = میہ چھو حوالہ دیاءں؟
+how-to-cite-explanation-bold = یو آر ایل لنکا یا پھیلویں کارءِ ناوا پھجیا نامت داثغ بیث۔
 how-to-cite-explanation = اگر اے تہی وزی لفظاں تیں گڈا مرا پتہ کھنغے ضرورت کھفی کہ اے کلیں تھرا بکھو سے ملساں گڑا ما اشاں گندو کہ لوکی ڈومین نںیاواں سے آں اور نقل کھنغے پابندی منکھوی سی ناں۔ حوالہ وسطہ باز معلومات وسطہ مے بندأے لکھسیں صفحہ گندت۔
 guidelines = رہنما اصول
 contact-us = مہ کورابطہ کن
@@ -65,6 +66,10 @@ sentence-variant-select-multiple-variants = عام زبان/ کافئ ساروی
 
 ## BULK SUBMISSION 
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = <icon></icon>  عوامی ڈومین جملہ پ لوڈ کنی
+sc-bulk-upload-instruction = وزی  فائل آرا ایزا بیارے یا<uploadButton>اپلوڈ کھنغ سانگا</uploadButton> کلک کھنے
+sc-bulk-upload-instruction-drop = اپلوڈ کنیغ وسطا وزی  فائل آیزا سٹی
 bulk-upload-additional-information = اگر شوا اے فائل اے بارہ کوئی اصافی معلومات فراہم کھنغ چاہے واں ٹیمپلیٹ وچا شامل چھنے تاں براہ کرم رابطہ کھنے
 
 ## SMALL BATCH SUBMISSION
