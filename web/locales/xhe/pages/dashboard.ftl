@@ -67,6 +67,21 @@ n-clips-pluralized =
         [one] { $count }ٹوٹا
        *[other] { $count }ٹوٹے
     }
+help-share-goal = ٻئے ٻولیں بھن٘ؤݨ تی وِچ اساں جی مدد کر، آپݨاں ہدف ونڈ
+confirm-goal = ہدف تی تصدیق کر
+goal-interval-weekly = ہفتہ والا
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = آپݨاں { $count } ڄاڑی والا ٹوٹا ہدف { $type } ݙے
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = آپݨاں { $count } ہفتہ والا ٹوٹا ہدف { $type } ݙے
+share-goal-type-speak = ڳاہلین٘دا پیا ہے
+share-goal-type-listen = ٻُجھدا پیا ہے
+share-goal-type-both = ڳاہلین٘دا ٻیا ٻُجھدا پیا ہے
+# LINK will be replaced with the current URL
+goal-share-text = مے #کامن_وائسیک ٻولی ݙیݨ واسطے ذاتی ہدف جوڑا ہے -- منجا ساتھ ݙے ٻیا مسینیں سکھا کہ حقیقی تُمن کُکر ڳاہلین٘دے ہِن{ $link }
+weekly-goal-created = تا جا ہفتے تا ہدف جُڑ ڳیا ہے
+daily-goal-created = تا جا ڄاڑی تا ہدف جُڑ ڳیا ہے
+track-progress = ہیچ ٻیا آپݨے اعداد و شمار تے صفحے تی ترقی تی باریک لکھ۔
 
 ## Goals
 
