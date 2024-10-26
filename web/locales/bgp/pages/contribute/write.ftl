@@ -20,9 +20,16 @@ guidelines = رہنما اصول
 required-field = براہ کرم اے فیلڈ آ را پر کھنے
 small-batch-sentence-submission = بوجڑائں جملہ جمع کھنینغ
 bulk-sentence-submission = مزیں مزیں جملہ جمع کھنینغ
+sentence-domain-select-placeholder = سے ڈومینز تکا (منتخب) کھنے
+# Sentence Domain dropdown option
+agriculture_food = زراعت تے خوراک
+# Sentence Domain dropdown option
+language_fundamentals = زبان اے بنیادی اصول (مثلا. ہندسے, حروف, رقم)
+sentence-variant-select-multiple-variants = عام زبان/ کافئ سارویں قسمیں
 
 ## BULK SUBMISSION 
 
+bulk-upload-additional-information = اگر شوا اے فائل اے بارہ کوئی اصافی معلومات فراہم کھنغ چاہے واں ٹیمپلیٹ وچا شامل چھنے تاں براہ کرم رابطہ کھنے
 
 ## SMALL BATCH SUBMISSION
 
