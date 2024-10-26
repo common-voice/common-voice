@@ -32,3 +32,10 @@ review-aborted = Yajkimubä pa'dubä'a. ¿Sutpa mjäkä'ä tiyä mgrabajtsäjkub
 review-submit-title = Tu'nwätsäkä, jäsi'ka, kä'weya
 review-submit-msg = ¡Yäskodoya mgrabajtsäjku'ajkä! [...][...]Yäti tu'nwätsäkä, jäsi'ka kä'weya te' mgrabajtsäjkyajubä'a.
 review-recording = Tu'nwätsäkä
+review-rerecord = Näbujtja kyene te' kenenäbujtäjkpi'k
+review-cancel = Jäkä'ä tiyä nä mgä'weju
+review-keep-recordings = Te'sem yajtsä'yä te' grabasyonda'm
+review-delete-recordings = Yajkjäkä'ä te' grabajtsäjkyajubä'mäjt
+continue-speaking-button = Ji'ne, yäskodoya, 'o'na'nhä.
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ¡Yäskodoya mdsajku'ajkä yä mij 'mode!
