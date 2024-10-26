@@ -25,9 +25,14 @@ login-instruction-multiple-sentences = <loginLink>لاگن </loginLink> یا <lo
 how-to-cite = میہ چھو حوالہ دیاءں؟
 how-to-cite-explanation = اگر اے تہی وزی لفظاں تیں گڈا مرا پتہ کھنغے ضرورت کھفی کہ اے کلیں تھرا بکھو سے ملساں گڑا ما اشاں گندو کہ لوکی ڈومین نںیاواں سے آں اور نقل کھنغے پابندی منکھوی سی ناں۔ حوالہ وسطہ باز معلومات وسطہ مے بندأے لکھسیں صفحہ گندت۔
 guidelines = رہنما اصول
+contact-us = مہ کورابطہ کن
+add-sentence-success = 1جملہ جمع کن
+add-sentence-error = جملہ جمع کنغا نیوا خراب ء
 required-field = براہ کرم اے فیلڈ آ را پر کھنے
+single-sentence-submission = یک جملہ جمع کھنینغ
 small-batch-sentence-submission = بوجڑائں جملہ جمع کھنینغ
 bulk-sentence-submission = مزیں مزیں جملہ جمع کھنینغ
+single-sentence = یک
 sentence-domain-select-placeholder = سے ڈومینز تکا (منتخب) کھنے
 # Sentence Domain dropdown option
 agriculture_food = زراعت تے خوراک
