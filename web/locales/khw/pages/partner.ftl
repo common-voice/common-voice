@@ -11,3 +11,4 @@ partnerships-governments-header = حکومت
 partnerships-governments-description = اسپہ عام رویان ٹکنالوجیا، ایجاد کویکا وا زبانو حقوقا شامل کوریکو پچین بو پرجوش اسوسی۔ تہ کی پھک لوٹ کوروم یا مہم چلیکو پروگرام شیر اسپہ دین<emailFragment> ای میل کو </emailFragment>
 partnerships-academia-header = یونیورسٹی، اکیڈیمیک وا محقیق
 partnerships-academia-description = خورا سار ݯھیݯیک اسپا بو خوش۔ تحقیق کوریکو، معلومات جمع کوریکو یا انٹرویو پچین <emailFragment> اسپہ دین نویشے۔
+partnerships-small-business-header = چیق کروبار کہ تیرا ٹکنالوجی وا آے آئی (AI )شامل شیر شروع کوریک
