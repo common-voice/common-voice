@@ -14,3 +14,4 @@ record-cancel = Netetume bosa kai netepora wuasi seenchi
 record-instruction = { $actionType } <recordIcon> </recordIcon> Piarimi noó tullega sé enchi uka naosari
 record-stop-instruction = Kajusaga wuasi tachinaga
 record-three-more-instruction = Paika tejibani itaperi netepome
+record-again-instruction = Kaweju. <recordIcon></recordIcon> Simite peji pilechi najuka
