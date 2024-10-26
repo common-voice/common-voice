@@ -10,3 +10,4 @@ record-no-mic-found = Kai muu tewaka micrófono
 record-error-too-short = Emeluma nele naosari
 record-error-too-long = Kameruma nele naosari
 record-error-too-quiet = Té sanajutume kai tepasi motepurume
+record-cancel = Netetume bosa kai netepora wuasi seenchi
