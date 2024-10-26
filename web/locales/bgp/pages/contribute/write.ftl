@@ -1,11 +1,15 @@
 ## WRITE PAGE
 
+write = لکھی
+write-instruction = <icon></icon> یک عوامی ڈومین جملہ شامل کنی
 write-page-subtitle = ایزاں کٹھا بیسیں جملہ لاسٔن آلیں 0-cc عوامی جاہ استیں ڈیٹاسیٹ نیاواں لیںنتی رواں تے
 sentence =
     .label = جملہ
 sentence-input-placeholder = وزی لوکی ڈومین اے گالوراں ایزاں کٹھا کھنے تے
 small-batch-sentence-input-placeholder = وزی لوکی ڈومین اے گالوراں ایزاں کٹھا کھنے تے
 citation-input-placeholder = وزی گشتیں گالورے آکیں معنی ارکھنی اوزاں سے کیں زوڑتھو حوالہ دیتی۔
+citation =
+    .label = حوالہ دءی
 sc-write-submit-confirm = ماں اشی مناں کہ اے گالور لوکی ڈومینا تھریں مناں ششتنغے اجازتیں۔
 new-sentence-rule-3 = ٹھیکیں گرامرا کار لا۔
 new-sentence-rule-4 = ٹھیکیں ہجاں تھریں اوقافاں کار لا۔
