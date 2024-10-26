@@ -22,3 +22,4 @@ share-clip = Tojachaga muu itaperi
 share-common-voice = Tojanabora itaperi Common Voice
 review-instruction = Nenega oinaga sé enchi najuka senegachi nakipomeju
 record-submit-tooltip = Toinaga kajusa aasi
+record-abort-title = Kajunaremu pacha grabandowaga?
