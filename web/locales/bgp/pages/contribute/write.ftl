@@ -18,3 +18,4 @@ how-to-cite-explanation = اگر اے تہی وزی لفظاں تیں گڈا م�
 
 ## SMALL BATCH SUBMISSION
 
+small-batch-sentences-rule-5 = کلیں گالورے نیں یا حوالہ بی۔
