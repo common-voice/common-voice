@@ -17,6 +17,14 @@ sc-review-form-button-approve = Sik'atu
 sc-review-form-keyboard-usage-custom = kuan kja'é chuba sicheén jña isenné { sc-review-form-button-approve-shortcut } tsá sik'jatu { sc-review-form-button-reject-shortcut } tsá majenri { sc-review-form-button-skip-shortcut } tsá chikji
 sc-review-form-button-submit =
     .submitText = kuan kichut'ajin
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Nijngu nijmí kichut'ajin.
+        [one] Jngu nijmí kichut'ajin ¡ninaá kat'echiri!
+       *[other] { $sentences }kichut'ajin yije nijmí ¡ninaá kat'echiri!
+    }
 
 ## REVIEW CRITERIA
 
