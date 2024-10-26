@@ -17,3 +17,6 @@ record-three-more-instruction = Paika tejibani itaperi netepome
 record-again-instruction = Kaweju. <recordIcon></recordIcon> Simite peji pilechi najuka
 record-again-instruction2 = Neteka simitega peji
 record-last-instruction = <recordIcon></recordIcon>Ereka simite oinaga sé enchi
+review-tooltip = Nenega oinaga sé enchi
+share-clip = Tojachaga muu itaperi
+share-common-voice = Tojanabora itaperi Common Voice
