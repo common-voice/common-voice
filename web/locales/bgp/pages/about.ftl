@@ -43,13 +43,28 @@ about-clip-graveyard-text =
     
     ما چہ اے مردم ءُ ادارہاں منت واریں کہ آہاں اے منصوبہ ءِ تہا کمک کتگ:
 about-get-involved = ھوار بہ بئے
+about-get-involved-text-2 =
+    کامن وائس ءَ چہ گیش شرتر کنگ ءَ کمک کنگ لوٹ ئے؟
+    مزن! ای میل یا<discourseLink> گپ ءُ تران <discourseLink<  وسیلہ ءَ رابطہ بہ کن اِت
+    فورم، <githubLink>گٹ ہب</githubLink> ءِ وسیلہ ءَ سائٹ ءِ جیڑہاں دیم دیگ بہ بیت، یا
+    <matrixLink>میٹرکس<matrixLink>< کمیونٹی گپ ءُ تران۔
 about-stay-in-touch = ماں تھرا گو چوں رابطہ کناں؟
+about-stay-in-touch-button = سائن اپ
+about-stay-in-touch-text-1 = <emailFragment>سائن اپ</emailFragment>مئے میل لسٹ ءَ دیم ءَ بیار اِت کہ شما کامن وائس ءِ سر ءَ مہم ، مراگش ءُ شریکیں ڈیزائن ءِ ھاسیں لیکہانی تہ ءَ چوں بھر زور اِت کن اِت۔
+about-stay-in-touch-text-2 = تو موزیلا زبان ءِ کمیونٹیانی تہا دگہ مردماں گوں <discourseLink>گپ ءُ تران</discourseLink> ءَ ھوار بوھگ ءَ گوں ٹاپک گپ ءُ تران ءِ ھاترا یا <matrixLink>میٹرکس</matrixLink> ءَ پہ ترندیں شور ءُ سلاہ ءَ ھوار بوھگ ءَ گوں گند ءُ نند کن ئے۔
+about-nav-why-common-voice = پرچاء؟
+about-nav-how-it-works = چے؟
+about-nav-partners = شریک
 about-nav-how-it-works-2 = کامن واءس چھو کار کن؟
 about-nav-playbook = حصہ گریغء طریقہ سکھے
 
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = کامن وائس ءِ سرا زبان چے اِنت؟
+about-playbook-what-is-language-content-1 = زبان ءِ بابت ءَ جیڑگ ءِ بازیں راہ ھست اَنت۔ تقریر ءِ شناخت ءِ ماڈل ءِ مول ءُ مراد ءِ ھاتر ءَ کامن وائس ءِ گشگ اِنت کہ ’باہمی زانت‘ ءِ سرا دلگوش دیگ بہ بیت یا ’اے زبان ءِ گپ جنوک اگاں جہد بہ کن اَنت گڑا گیشتر یکے دومی ءَ سرپد بوت کن اَنت؟‘‘؟
+about-playbook-what-is-language-content-2 = ما لوٹیں کہ گپ ءِ ماڈل گپ جنوک ءِ جتائیں رِد ءُ بنداں سرپد بوھگ ءَ شرتر بہ بنت۔ پہ اے گپ ءِ بوتگ ءَ یک توار ءِ ڈیٹاسیٹ ءَ بازیں جتا جتائیں مردمانی نمائندگی کنگی اِنت۔
+about-playbook-what-is-language-content-3 = لھتے زبانانی تہ ءَ گرامر، گالوار ءُ تلفظ ءِ تہ ءَ مزنیں بدلی یے ھست۔ اے سبب ءَ ما <ctaLink>2022 ءَ ‘Variants’</ctaLink> ءَ دیم ءَ آرگ ءَ ایں ، اے کمیونٹیز ءَ را مزنیں ڈیٹاسیٹ ءِ تہا وتی زبانانی فرق کنگ ءِ راہ ءُ درے دنت۔
 
 ## How do I add a language
 
