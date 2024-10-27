@@ -88,6 +88,8 @@ about-playbook-how-localize-content-5 = مدد واسطے اسدا وڈیو اک
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = میں جملے کسطرح داخل کراں؟
+about-playbook-how-add-sentences-content-1 = تسیں جملے <writePageLink>لکھنڑا دے صفحے</writePageLink>تے بہّ ہکدے ہو یا جملے <reviewPageLink>ریویو صفحے</reviewPageLink> تے دوبارہ دکھ ہکدے ہو۔
 
 ## How to record quality
 
