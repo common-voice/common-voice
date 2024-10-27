@@ -125,6 +125,8 @@ about-playbook-how-validate-content-4 = اگر ہک کلپ کو 2 لوگ رد ک
 ## How to access dataset
 
 about-playbook-how-access-dataset = میں ڈیٹاسیٹ کو کسطرح پُہنچاں ہور استعمال کراں؟
+about-playbook-how-access-dataset-content-1 = تسیں<datasetsPage>ڈیٹاسیٹ ورقے</datasetsPage>تے پہنچ سکدے او، اپنڑی مرضی دے ورژن تے زبان (زباناں) دا انتخاب کر سکدے او، نال اسکو ڈاؤن لوڈ بھی کر سکدے او! فائلاں بچ<metadataLink>متعلقہ میٹا ڈیٹا</metadataLink>ہے۔ جیسطرح کہ آبادی دے متعلق معلومات ہور توثیق دا ڈیٹاہے۔ ڈیٹاسیٹ ڈاؤنلوڈ کرنا واسطے تساں کو ہک ای میل پتہ دینڑا ہوسی۔
+about-playbook-how-access-dataset-content-2 = اگر تسیں ASR ماڈلز بنڑانڑاں واسطے ٹولز دی تلاش بچ ہو، تے تسیں کمیونٹی بچ دویاں لوگاں نال رابطہ کر سکدے او<discourseLink>بات چیت تے</discourseLink>۔
 
 ## How are decisions made
 
