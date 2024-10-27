@@ -102,9 +102,12 @@ about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = رویان کارا تاریکو  پچین تو شوشل میڈیو اسعمال کوریکو بوس۔ ہݰ پوسٹ کوکی ہیا کو اہم، وا خور رویان تین زبانو حقوقان، آوازو اے آئی، یا ٹکنالوجیا تعاصب بارا لوو دیت۔  سوشل میڈیا چلیکو خور مشوران پچین<campaignLink> ہیا ژاغا ڑوڑے۔ ہیرا دی اشناری شینی تو کی استعمال کوسان۔
 about-playbook-how-grow-language-content-6 = حصہ داری وا تعلوقات
 about-playbook-how-grow-language-content-7 = ہتیتان مݰکے کاکی ہیا بارا سوچ کونیا ۔ ہتیت یونیورسٹی، اسکول، وکالات کوراک گروپ یا ڈیٹا سائنسو ڈال۔ ہتیتان تین لوو دیت کی ہتیت کچہ کوری مدد کونی وا مدد کو کوریلیک۔ <outreachTemplates> ڑوڑے  پوشٹی نویشی تیار کاردو  ای میلان
+about-playbook-how-grow-language-content-8 = <strong> نوغ اشناری:</strong>۔ تا زبانو ڈال  بلکل خور بیلیک وا ہمیت شروع کوریکو ای کما طریقہ۔
 
 ## How to validate
 
+about-playbook-how-validate = اوا کیا طریقہ ہوݰ کو م کی ہیا آوازو منظور کوریلیک رے؟
+about-playbook-how-validate-content-1 = کی بویان <strong>تیتان تے کار کو </strong>وا ہیتان ہوݰ کو۔ ہیا عام طورا <strong> منظور کوریکو جام طریقہ۔
 
 ## How to access dataset
 
