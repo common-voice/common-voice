@@ -53,6 +53,7 @@ help-reach-hours-general-pluralized =
 set-a-goal = یک ہدفے ایر کن
 cant-decide = فیصلہ کت نہ کنت؟
 how-many-per-day = باز جوانیں!  یک روچے چینکس کلپ؟
+how-many-a-week = مزن! ہفتہ ءِ تہا چنچو کلپ؟
 which-goal-type = تو گپ جنگ لوٹ ئے، گوشدارگ لوٹ ئے یا دوئیں لوٹ ئے؟
 receiving-emails-info =
     تئو اے وہدا ہدف یاد دہانی، منی
@@ -68,12 +69,17 @@ n-clips-pluralized =
 help-share-goal = مارا گیشتریں توارانی شوھازگ ءَ کمک کن اِت، وتی مول ءُ مراد ءَ شیئر کن اِت
 confirm-goal = ہدف ئے تصدیق کن
 goal-interval-weekly = ھپتگی
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type } ءِ واستہ وتی { $count } کلپ ءِروزانہ مول ءُ مراد ءَ بہر کن اِت۔
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type } ءِ واستہ وتی { $count } کلپ ءِ ہفتگی مول ءُ مراد ءَ بہر کن اِت۔
 share-goal-type-speak = گپ جنگ
 share-goal-type-listen = گوشدارگ
 share-goal-type-both = گپ جنگ ءُ گوشدارگ
 # LINK will be replaced with the current URL
 goal-share-text = من تھنا مشترکہ توار #CommonVoice--  ءِ عطیہ کنگ ءِ ذاتی مول ءُ مراد جوڑ کتگ -- منی گوں ھمگرنچ بہ بئے ءُ مشیناں وانینگ ءَ کمک بہ کن کہ راستیں مردم چوں گپ جن اَنت { $link }
 weekly-goal-created = تئی ھپتگی مول ءُ مراد جوڑ کنگ بوتگ۔
+daily-goal-created = تئی روچ ءِ مول ءُ مراد جوڑ کنگ بوتگ
 track-progress = اِد ءَ ￴ ءُ وتی اعداد و شمار ءِ تاک  ءِ ￵سر ءَ دیمروی ءَ ٹریک کن اِت۔
 return-to-edit-goal = ھر وھد ءَ وتی مول ءُ مراد ءَ ترمیم/بدل کنگ ءِ ھاتر ءَ ￴ اد  ءَ ￴ پد ءَ ￴ واتر کن اِت۔
 share-goal = منی مول ءُ مراد ءَ بہر کن
