@@ -44,6 +44,7 @@ about-nav-why-common-voice = کو؟
 about-nav-how-it-works = کیچہ؟
 about-nav-partners = حصہ دار
 about-nav-get-involved = شامل بوس
+about-nav-how-it-works-2 = کمان وائس کیچا کوروم کویان؟
 about-nav-playbook = حصہ گنیکو ݯیݯے
 
 ## Community Playbook Content
