@@ -81,6 +81,8 @@ about-playbook-how-add-language-translating-content-2 =
     پدا، کامن وائس پروجیکٹ ءِ سرا زبان ءِ دستیاب کنگ ءِ ھاترا،
     <githubRepoLink>گیٹ ہب ءِ سرا نوکیں زبان ءِ لوٹ کن اِت۔ <localizationFragment>سائٹ ءِ رجانک ءِ سر ءَ گیشتر ترجمہ اِت۔<localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = جملہ جمع کنگ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo> جملہ کلیکٹر ءِ کارمرز کنگ ءِ سرا مئے رہشونی ءَ بچار اِت <sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 = تو کُرت کن ئے<sentenceCollectorLinkAdd>کمیں کساس ءَ جملہ گیش کن <sentenceCollectorLinkAdd>یا تئو کث کنئے<bulkImportDocsLink>گتھب ءِ کارمرز کنگ ءَ مزنیں کساسے ءَ درآمد کنگ بیت </bulkImportDocsLink>. یات بدار اِت کہ جملہ آں بہ بیت<licenseLink>CC0(یا پبلک ڈومین)<licenseLink>، یا تو وتی نبشتہ کن ئے۔
 about-playbook-how-add-language-collecting-sentences-content-3 = جملہ آے مجموعہ آ مزید گیندے
 
 ## How does localization work
