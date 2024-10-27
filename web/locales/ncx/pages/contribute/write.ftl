@@ -82,6 +82,12 @@ accepted-files = Moneki yetos .tsv
 minimum-sentences = Tlajkuilolmej tlen monekis: 1000
 maximum-file-size = Amo moneki kipanauis: 25 MB
 what-needs-to-be-in-file = ¿Tlen moneki yetos itech notlajkuilol?
+what-needs-to-be-in-file-explanation = Xikonita <templateFileLink>machotilis</templateFileLink>. Tlen tikijkuilos moneki amo mayeto teaxka (CC0 noso matetlaneti akin okijkuilo), amo oui se kajsikamatis, maijkuilijto ken moneki uan amo oui se kitenkixtis. Se kitlajtoltis moneki uejkauas san kana 10 noso 15 segundos uan amo makinpia poualmej, tokayomej noso okseki tlamantli tlen amo pouij totlajtol.
+upload-progress-text = Ximochia, yimokauas...
+sc-bulk-submit-confirm = Niksentlalia ninmej tlajkuilolmej <wikipediaLink>nochtin uelis kintekitiltiskej</wikipediaLink> uan onechkauilikej manikintlali.
+bulk-upload-success-toast = ¡Miakej otikintitlanili!
+bulk-upload-failed-toast = Itlaj omochi, oksepa xikyeko.
+bulk-submission-success-header = ¡Timitstlasojkamatiliaj ika miak otechpaleui!
 
 ## SMALL BATCH SUBMISSION
 
