@@ -88,6 +88,8 @@ sc-bulk-submit-confirm = Niksentlalia ninmej tlajkuilolmej <wikipediaLink>nochti
 bulk-upload-success-toast = ¡Miakej otikintitlanili!
 bulk-upload-failed-toast = Itlaj omochi, oksepa xikyeko.
 bulk-submission-success-header = ¡Timitstlasojkamatiliaj ika miak otechpaleui!
+bulk-submission-success-subheader = ¡Otikpaleui Common Voice makajxiti tlen axkan omonekiaya!
+upload-more-btn-text = ¿Tikintitlanilis okseki?
 
 ## SMALL BATCH SUBMISSION
 
