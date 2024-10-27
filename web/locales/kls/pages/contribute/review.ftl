@@ -3,6 +3,10 @@
 sc-review-lang-not-selected = Tu tay Zuban ne gri as-tan profile una jagai
 sc-review-title = Mon ger jagai
 sc-review-loading = Mon Load hiu day
+sc-review-select-language = Tan zuban khoji, mon jagai
+sc-review-no-sentences = Jagahikas hatya kia ne shian, warek mon jama kari
+sc-review-form-prompt =
+    .message = Ma'ila mondr jamanari e?
 sc-review-form-button-skip = Histik
 sc-review-form-button-approve = Manzor
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
