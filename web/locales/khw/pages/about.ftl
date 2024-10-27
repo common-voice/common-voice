@@ -65,9 +65,13 @@ about-playbook-how-add-language-translating-content-2 = اسپہ موذیلو ا
 about-playbook-how-add-language-collecting-sentences-heading = جملان جمع کوریک
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>جملہ جمع کوراکو بارا اسپہ رہنمائیو ڑوڑے </sentenceCollectorVideo>
 about-playbook-how-add-language-collecting-sentences-content-2 = تو <sentenceCollectorLinkAdd> ای کما جملان شامل کوریکو بوس</sentenceCollectorLinkAdd> یا Github </bulkImportDocsLink> استعمال کوری  امبوخ جملان اندرینی انگیوبوس</bulkImportDocsLink>۔  یاد سوتے جملہ <licenseLink> CC0 (ہرکوس استعمالو دائرو )</licenseLink> بانی یا تو تان دی نویشکو بوس۔
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment> مذید معلومات کوریکو پچین جملہ جمع کوراکو</sentenceCollectorFragment> ڑوڑے۔
 
 ## How does localization work
 
+about-playbook-how-localize = سائٹو مقامی کوراک کیچہ کوروم کویان؟
+about-playbook-how-localize-content-1 = کمان وائسو سائٹو ترجمہ<strong> پون تونا</strong> بویان
+about-playbook-how-localize-content-2 = تہ <pontoonAccountLink>اکاونٹ کی نیکی ساوزاوے </pontoonAccountLink> تھے تان زبانو گنے<strong> (ٹیم) </strong> اچی پروجکٹو گنے، <pontoonCvLink> کمان وائس</pontoonCvLink> ہیرا ترجمہ کوریکو فائل شینی۔ تے سورا کلیک کو، تیرا انگریزی لفظ بونی وا ترجمہ کوریکو ای خانہ بوئے۔
 
 ## How to add sentences
 
