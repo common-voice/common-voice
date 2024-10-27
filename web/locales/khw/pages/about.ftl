@@ -37,6 +37,7 @@ about-dataset-new = کمان وائسو ڈیٹا سیٹ
 about-dataset-new-text = کمان وائسو ڈیٹآ سیٹا ہزاروں آوازن نمبونہ شینی، ہتیے ساوزیاکان آوازو ہوش کوراک آلا ساوزیکا مدد کونیان۔
 about-clip-graveyard = آوازان قبرستان
 about-get-involved = حصہ گانیک
+about-stay-in-touch-button = سائن اپ
 about-nav-why-common-voice = کیوں؟
 about-nav-how-it-works = کیچہ؟
 about-nav-partners = حصہ دار
