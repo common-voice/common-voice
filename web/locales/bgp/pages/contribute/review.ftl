@@ -11,6 +11,15 @@ sc-review-form-usage = سزا را منظور کھنغ واسطہ سجا پاس�
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = ذریعہ:{ $sentenceSource }
+sc-review-form-button-reject = رَد کنی
+sc-review-form-button-skip = بِل اِنت
+sc-review-form-button-approve = منساء
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = ی
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = ن
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = ایس
 
 ## REVIEW CRITERIA
 
