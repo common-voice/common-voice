@@ -68,6 +68,9 @@ about-playbook-what-is-language-content-3 = کوئیاں زباناں بچ گر�
 ## How do I add a language
 
 about-playbook-how-add-language = میں زبان دا اندراج کسطرح کراں؟
+about-playbook-how-add-language-content-1 = پہلے، اے دکھو کہ تسدی زبان<languageLink>پہلا تو موجود ہے</languageLink>۔  اگر او نیں ہے، تسیں <languageRequestLink>اپنڑی زبان کو شامل کرنا دا آکھ ھکدے ہو</languageRequestLink>۔  دو مرحلے ہن۔ سائٹ دا ترجمہ کرنا، ہور جملے جمع کرنا۔
+about-playbook-how-add-language-translating-heading = سائٹ دا ترجمہ کرنا
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹون کو کس طرح استعمال کرنا ہے اس واسطے اسدی گائیڈ دکھو۔</translateVideoLink>
 
 ## How does localization work
 
