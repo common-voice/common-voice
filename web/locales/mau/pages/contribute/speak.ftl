@@ -12,3 +12,5 @@ record-error-too-long = tse kitjubet'a xta.
 record-error-too-quiet = Jñá kitjubet'a xta.
 record-cancel = Teéchare
 record-instruction = { $actionType }<recordIcon></recordIcon>Xi je kuan nñú teéxkiye
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> Nga kuan
+record-three-more-instruction = ¡Ján chaja!
