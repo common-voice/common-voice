@@ -14,8 +14,10 @@ single-sentence-submission = Amó nejario pile naosari
 
 select-file = Nasona uka toatume wua
 select-file-mobile = Naa jugó sé enchi wua toaga uka itaperi
-upload-more-btn-text = ¿Motepuga epeche itaperi?
+upload-more-btn-text = Toaga epeche itaperi
 file-invalid-type = Kai nateame wa toatume
+file-too-large = Weruma juu wua toatume
+file-too-small = Bokawi juu wua toatume
 
 ## SMALL BATCH SUBMISSION
 
