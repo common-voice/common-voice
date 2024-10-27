@@ -56,3 +56,5 @@ review-error = Galati pashel day shama mon jagala se
 review-error-rate-limit-exceeded = Tu bo tez paris day. meherbani kay, geri jagai, sahi hiu ori
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Abi bo ghona tabdili karik day
+sc-redirect-page-subtitle-1 = Mon jamamkaraw, onia sawin awaz as maidan una ew day. To onja <newishiURL> Newishi </newishiURL> mon ya o <jagaiURL> Jagai </jagaiURL> ek mon, to o sawin awaz una thai
+sc-redirect-page-subtitle-2 = Homa pi sawal kari shaya <mateixLink> Matrix </matrixlink>,  <discourselink> Discourse</discouraelink> ya o <emaillink> Email </emailLink>.
