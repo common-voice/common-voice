@@ -36,6 +36,7 @@ review-rerecord = Oinabora sé enchi grabandobaga
 review-cancel = Nasonaga uka amó neterio
 review-keep-recordings = Waa tejiwaga uka amó neterio
 review-delete-recordings = Nasonaga uka noó neterio
+review-terms = Chireka unewame common voice, uka  itaperi tamo neterio, nati papamila naosame noriwi
 terms-agree = Kawe ju noo chigo
 terms-disagree = Kaine kawe intani
 # FIRST POST SUBMISSION CTA
