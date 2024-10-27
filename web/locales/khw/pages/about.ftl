@@ -38,11 +38,12 @@ about-dataset-new-text = کمان وائسو ڈیٹآ سیٹا ہزاروں آو
 about-clip-graveyard = آوازان قبرستان
 about-get-involved = حصہ گانیک
 about-stay-in-touch-button = سائن اپ
-about-nav-why-common-voice = کیوں؟
+about-stay-in-touch-text-1 = <emailFragment> سائین اب</emailFragment>ہیا مہما، واقعات وا کمان وائسو خصوصیتان ای بیتی ساوزیکا  حصہ گنیکو پچین اسپہ ای میلان لسٹ سائن اپ بوس۔
+about-stay-in-touch-text-2 = تو موزیلو زبانان ڈالا  خور رویان سون ملاو بیکو پچین ہیا شامل بوس <discourseLink> کیا ٹاپیکو سورا لو دیکو پچین</discourseLink> یا <matrixLink> خانہ </matrixLink>شاو مشورہ گنیکو پچین۔
+about-nav-why-common-voice = کو؟
 about-nav-how-it-works = کیچہ؟
 about-nav-partners = حصہ دار
-about-nav-get-involved = حصہ گانیک
-about-nav-how-it-works-2 = کمان وائس کیچا کوروم کویان؟
+about-nav-get-involved = شامل بوس
 about-nav-playbook = حصہ گنیکو ݯیݯے
 
 ## Community Playbook Content
