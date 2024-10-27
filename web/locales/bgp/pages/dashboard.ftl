@@ -3,6 +3,7 @@
 your-languages = تھءی زوان
 toward-next-goal = دیمیں مول ءُ ￶مراد  ءِ ￵ نیمگ ءَ ￴
 goal-reached = منزل ءَ ￴سربوت
+todays-validated-progress = مرچیگیں مشترکہ توارکامن وائس ءِ ￵ ریکارڈ/جوڑ کتگیں کلپانی سر ءَ ￴ دیمروی
 awards = داد
 contribution-activity = شراکت  ءِ ￵ پُرکاری
 total-approved = کل منظور شدہ
@@ -15,6 +16,7 @@ visibility-overlay-note = نوٹ: وھدے کہ 'دیستگیں' ءِ سر ءَ 
 goal-type = تو کجام مول ءُ مراد ءِ رندگیری ءَ کنگ لوٹ ئے؟
 weekly-goal = مول ءُ مراد
 lose-changes-warning = نئ الغیں مطلب آں کہ شوا وزی تبدیلی آرا بریں نے
+build-custom-goal = یک وتی لوٹگ  ءِ ￵ ھساب  ءَ ￴وتی مول  ءُ ￶ مراد جوڑ بہ کن
 goal-interval-weekly = ھپتگی
 # LINK will be replaced with the current URL
 goal-share-text = من تھنا مشترکہ توار #CommonVoice--  ءِ عطیہ کنگ ءِ ذاتی مول ءُ مراد جوڑ کتگ -- منی گوں ھمگرنچ بہ بئے ءُ مشیناں وانینگ ءَ کمک بہ کن کہ راستیں مردم چوں گپ جن اَنت { $link }
