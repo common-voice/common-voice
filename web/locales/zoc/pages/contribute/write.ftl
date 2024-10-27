@@ -17,6 +17,9 @@ new-sentence-rule-1 = Muspa yajkyosa mumu'is (cc).
 new-sentence-rule-2 = 'U yajkkokädu yäjta'y (15) jaye te' mäjabä jaye'omo.
 new-sentence-rule-3 = Yajkyosa te' wäbä jaye.
 new-sentence-rule-4 = Yajkyosa te' wäbä jaye, yajkti sunyi'k koda te' ji'bi yajpamä te' 'odetsame.
+new-sentence-rule-5 = Jana ma'yokyubyä ni ja'idäbä'is nyitiyä.
+new-sentence-rule-6 = Jaidä jaye 'eyabä kupku'yomo tsu'nhyajubä
+new-sentence-rule-7 = Tsamä' judäde tsu'nhubä te' jaye
 
 ## BULK SUBMISSION 
 
