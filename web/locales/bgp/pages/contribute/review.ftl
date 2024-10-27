@@ -21,9 +21,23 @@ sc-review-form-button-reject-shortcut = ن
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ایس
 sc-review-form-keyboard-usage-custom = تو کی بورڈ ءِ شارٹ کٹاں ھم کارمرز کن ئے: { sc-review-form-button-approve-shortcut }پہ منّگ  { sc-review-form-button-reject-shortcut } پہ رد کنگ ءَ،, { sc-review-form-button-skip-shortcut } یلہ کنغ واستا
+sc-review-form-button-submit =
+    .submitText = جائزہ ئا ختم کن
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ہچ جملہ ءِ سرا چار ءُ تپاسی نہ بوتگ۔
+        [one] 1 جملہ ءِ سرا چار ءُ تپاسی کنگ بوتگ۔ تئی منّت وار!
+       *[other] { $sentences }جملہانی سرا چار ءُ تپاسی کنگ بوتگ۔ تئی منّت وار!
+    }
+sc-review-form-review-failure = جائزہ ءِ رکّینگ نہ بوتگ۔ دزبندی ایں کہ پذا پذا کوشش کن
+sc-review-link = چار ءُ بچار کنیں
 
 ## REVIEW CRITERIA
 
+sc-criteria-modal = جائزہ ئے رہبند
+sc-criteria-title = جائزہ ئے رہبند
 sc-criteria-make-sure = یقینی ٹھاہے کہ جملہ بنی دازغیں معیار چھکا پورا اترغیں:
 sc-criteria-item-1 = جملہ ہجھا درست بیغی چاہیداں
 sc-criteria-item-2 = جملہ گرامر لحاظ آ گوں درست بیغی چاہیداں
