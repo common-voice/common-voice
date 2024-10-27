@@ -131,6 +131,12 @@ about-playbook-how-access-dataset-content-2 = اگر تسیں ASR ماڈلز ب�
 ## How are decisions made
 
 about-playbook-how-project-governance = پروجیکٹ فیصلے کسطرح کیتے جلدے ہن؟
+about-playbook-how-project-governance-content-1 = موذیلا کامن وائس کو ہک متنوع کمیونیٹی جس بچ کارکنان، ماہرین لسانیات، ڈیٹا سائنسداناں، ماہرین تعلیم تے سافٹ ویئر انجینئر شامل ہن ممکن بنایا ہے۔ ایہ پروجیکٹ موزیلا فاؤنڈیشن دے زیر انتظام ہے۔
+about-playbook-how-project-governance-content-2 = اسدی حکمرانی دی بنیاد اِناں پِلراں تے ہے:
+about-playbook-how-project-governance-content-3 = رازداری، حفاظت تے شفافیت۔
+about-playbook-how-project-governance-content-4 = برادری دی شرکت تے فیصلہ سازی۔
+about-playbook-how-project-governance-content-5 = قدر ہور پہچانڑ
+about-playbook-how-project-governance-content-6 = باہمی احتساب
 
 ## How is Common Voice funded
 
