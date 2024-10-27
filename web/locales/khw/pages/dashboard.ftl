@@ -14,18 +14,19 @@ everyone = ہر کا
 contribution-activity = مدد کوریکو کوروم
 top-contributors = سافو سار زیاد مدد کوراک
 recorded-clips = رکارڈ بیرو آواز
+validated-clips = تصدیق بیرا آواز
 total-approved = تمام منظور بیرو
 overall-accuracy = تمام سہی
-set-visibility = مہ پشیکو ساوزاوے
-visibility-explainer = سیٹنگ تہ لوڈر بورڈو پشیکو کنٹرول کویان۔ کیاوحت کی کوشتیتاو تہ کروم رازا بہچور۔ ہمو مطلب ہیا کی تہ فوٹو، استعمال بک نام وا کوروم لوڈر بورڈا غیچی نو گوئے۔ ہیا لوو نوٹ کوکی لوڈر بورڈو فریش بیکو وا تبدیلی ہیرا گیگو پیچین { $minutes } منٹ حاجت
-visibility-overlay-note = نوٹ: کیاوجت پشیکو پچین کی سیٹنگ کوسان۔ ہیا سیٹنگ <profileLink>بی کوریلیک بوئے۔پروفائل پیج</profileLink>
-show-ranking = مو درجو پشاوے
+set-visibility = مہ پشیکو تین سیٹ کو
+visibility-explainer = ہیا سیٹنگ تہ لوڈر بورڈو پشیکو کنٹرول کویان۔ کیاوحت کی کوشتیتاو تہ کروم رازا بہچور۔ ہمو مطلب ہیا کی تہ فوٹو، استعمال بک نام وا کوروم لوڈر بورڈا غیچی نو گوئے۔ ہیا لوو نوٹ کوکی لوڈر بورڈو نوغ بیکو وا تبدیلی ہیرا گیگو پیچین { $minutes } منٹ گنیر
+visibility-overlay-note = نوٹ: کیا وحت پشیکو پچین کی سیٹنگ کوسان۔ ہیا سیٹنگ <profileLink>بی کوریلیک بوئے۔پروفائل پیج</profileLink>
+show-ranking = مہ درجو پشاوے
 
 ## Custom Goals
 
 get-started-goals = مقصدان گنی شروع کو
-create-custom-goal = ای تان مرضیو مقصد پیدا کو
-goal-type = کیا قسمہ مقصد تو لکھیک مݰکیسان؟
+create-custom-goal = ای تان مرضیا مقصد لکھے
+goal-type = تو کیا قسمہ مقصد لکھیک مݰکیسان؟
 both-speak-and-listen = جو کھاڑ
 both-speak-and-listen-long = کھاڑ (لودیت وا کار کورے)
 daily-goal = انوسو مقصد
@@ -37,8 +38,8 @@ pro-difficulty = حمایتی
 lose-goal-progress-warning = تان حدفو ایڈیک کی ارو، تہ کوروم تونج دی بوئے۔
 want-to-continue = تو جاری سوتیک مݰکیسانا؟
 finish-editing = پوشٹی ایڈیٹنگو  ختم کو
-lose-changes-warning = ہنیسے پیځیکو مطلب ہیا کی تو بدل دیروان نو لکھیک مشکیسان
-build-custom-goal = تان ای حدف لکھے
+lose-changes-warning = ہنیسے ہموغار بیکو مطلب ہیا کی تو بدل دیروان نو لکھیک مشکیسان
+build-custom-goal = تان تین ای حدف لکھے
 help-reach-hours-pluralized =
     { NUMBER($hours) ->
         [one] { $hours } گھنٹہ { $language } زبانا تان ذاتی حدف پورا کوریکا مدد کو
@@ -51,11 +52,11 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ای حدف لکھے
 cant-decide = فیصلہ کوریکو نو بوسانا؟
-how-many-per-day = بوجام! ای انوسو کندوری آواز؟
+how-many-per-day = بوجام! ای انوس کندوری آواز؟
 how-many-a-week = بوجام! ای ہفتہ کندوری آواز ؟
 which-goal-type = تو لوو دیک مݰکیسانا، کارکوریک ِیا جوکھاڑان؟
 receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر کہ تہ تین تہ مقصدو یاد کوریکو پچین ای میل گونی۔
-not-receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر<bold>نو </bold> کہ تہ تین تہ مقصدہ یاد کوریکو، تہ کورمو اپڈیٹ، وا کمان وائسو بارا نیوز لیٹر گونی۔
+not-receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر<bold>نو </bold> کہ تہ تین تہ مقصدو یاد کوریکو، تہ کورمو اپڈیٹ، وا کمان وائسو بارا نیوز لیٹر گونی۔
 n-clips-pluralized =
     { NUMBER($count) ->
         [one] { $count } اسکوردی آواز
