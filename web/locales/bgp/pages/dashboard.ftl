@@ -1,5 +1,9 @@
 ## Dashboard
 
+your-languages = تھءی زوان
+toward-next-goal = دیمیں مول ءُ ￶مراد  ءِ ￵ نیمگ ءَ ￴
+goal-reached = منزل ءَ ￴سربوت
+awards = داد
 total-approved = کل منظور شدہ
 set-visibility = میری مرئیت سیٹ کنی
 
