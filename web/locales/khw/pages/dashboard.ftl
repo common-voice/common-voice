@@ -52,6 +52,10 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ای حدف لکھے
 cant-decide = فیصلہ کوریکو نو بوسانا؟
+how-many-per-day = بوجام! ای انوسو کندوری آواز؟
+how-many-a-week = بوجام! ای ہفتہ کندوری آواز ؟
+which-goal-type = تو لوو دیک مݰکیسانا، کارکوریک ِیا جوکھاڑان؟
+receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر کہ تہ تین تہ مقصدو یاد کوریکو پچین ای میل گونی۔
 
 ## Goals
 
