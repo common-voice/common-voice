@@ -11,7 +11,7 @@ citation-input-placeholder = وزی گشتیں گالورے آکیں معنی ا
 citation =
     .label = حوالہ دءی
 sc-write-submit-confirm = ماں اشی مناں کہ اے گالور لوکی ڈومینا تھریں مناں ششتنغے اجازتیں۔
-sc-review-write-title = میہ چی رازے جملے شامل کنا؟
+sc-review-write-title = من ختاں ٹپاں(گالاں) آوار  کَث کناں؟
 sc-review-small-batch-title = باز جملے چی رازۓ شامل کنا؟
 new-sentence-rule-1 = <noCopyright> کوئی نکل </noCopyright> پابندی نیست ء (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = 15 چے کھمے افظ
@@ -80,10 +80,13 @@ accepted-files = قابل قبول ہر  قسماں فائل:tsv صرف
 minimum-sentences = فائل نیواں کھمے تے کھمے جملے: 1000
 maximum-file-size = باز و باز  فائل سائز: 25 ایم بی
 what-needs-to-be-in-file = مناں وزی زندگی نیوا چی شۓ لوڑ ءے?
+what-needs-to-be-in-file-explanation = براہ کرم مے ٹیمپلیٹ فائل آرا گیندے۔شوا CC0)اے جملہ کاپی رائٹ آگوں پاک بیغی چاہیداں یا جمع کھنینغ والا طرفوں اجازت یافتہ اصل تے واصح ،گرامر لحاظ آگوں درست تے (کار پڑھگ وچا آسان بئ ۔جمع بیزغیں جملہ پڑھغ وچ تقریبا 10 ـ15 سیکنڈ ماناغی چاہیداں اور اشاں نی وچا اعداد مناسب اسم اور خصوصی حروف شامل کھنغاگوں گریز آ کھنے
 upload-progress-text = اپلوڈ بیغیع...
 sc-bulk-submit-confirm = میں پتا کتاں اے جملہ <wikipediaLink> عوامی ڈومین </wikipediaLink> اور نی مناء ا شۓ اپ لوڈ کنیغ اجازت است انت
 bulk-upload-success-toast = باز جملے اپ لوڈ بیتغع
 bulk-upload-failed-toast = اپ لوڈ نیوا ناکامی بیسغء،  تھری کوشش کنی انت.
+bulk-submission-success-header = وثی بلک اوار کنغ تہا(نیمگا) تئی بھڑأنغءِ مہروانی بیت۔
+bulk-submission-success-subheader = وثی کامن وائسا (جگ زانتئ توارا) مئے روش ئنی گالبندیٔ ءِ داں نتو پجغ تکا مئے امداز کنغت۔
 upload-more-btn-text = تھی جملے اپ لوڈ کنوں؟
 file-invalid-type = غلط فائل
 file-too-large = فائل اختر مزینۓ
@@ -94,7 +97,27 @@ too-many-files = باز فائلاں
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> باز عوامی ڈومین جملے  شامل کنی
+multiple-sentences-error = تو یک اوار کنائنغا پہ بازیں گالبند اوار کنت نخنئے۔
+exceeds-small-batch-limit-error = ہزار(دہ سذ) شءِ پشتءَ گال اوار بیث نواں۔
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one]
+            شرح اٗنسرءَ شئہ دیم بیثہ۔
+            یک منٹ ءَ پذا تھر (دومی بہرا) درست کھنہ (دیم دئی).
+       *[other]
+            شرح اٗنسرءَ شئہ دیم بیثہ۔
+            یک منٹ ءَ پذا تھر (دومی بہرا) درست کھنہ (دیم دئی).
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] شوا اے صفحہ واسطہ جمع کھنینغ  حد تکا پجزا شزا ۔براہ کرم دہمی جملہ پیش کھنغ واسطہ یھک منٹ چھاری بیے ۔شوے صبر کھنغیں شکریہ
+       *[other] شوا اے صفحہ واسطہ جمع کھنینغ  حد تکا پجزا شزا ۔براہ کرم دہمی جملہ پیش کھنغ واسطہ یھک منٹ چھاری بیے ۔شوے صبر کھنغیں شکریہ
+    }
+small-batch-sentences-rule-1 = "ماں تھاں جملہ شامل کھنا سگا "؟ اشی آگوں رہنما خطوط آں نئ چھکا عملا کھنے?
 small-batch-sentences-rule-2 = یک  جملہ یا لائن جمع کنی انت
+small-batch-sentences-rule-3 = یھک دفہ Enter یا Return دبنغاگوں جملہ آرا یھک لائن وچا الگ کھنے
 small-batch-sentences-rule-4 = 1000  جملے جمع کنی انت
 small-batch-sentences-rule-5 = کلیں گالورے نیں یاڈومین بی۔
 small-batch-sentences-rule-6 = کلیں گالورے نیں یا حوالہ بی۔
