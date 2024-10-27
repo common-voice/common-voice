@@ -71,6 +71,7 @@ about-playbook-how-add-language = میں زبان دا اندراج کسطرح �
 about-playbook-how-add-language-content-1 = پہلے، اے دکھو کہ تسدی زبان<languageLink>پہلا تو موجود ہے</languageLink>۔  اگر او نیں ہے، تسیں <languageRequestLink>اپنڑی زبان کو شامل کرنا دا آکھ ھکدے ہو</languageRequestLink>۔  دو مرحلے ہن۔ سائٹ دا ترجمہ کرنا، ہور جملے جمع کرنا۔
 about-playbook-how-add-language-translating-heading = سائٹ دا ترجمہ کرنا
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹون کو کس طرح استعمال کرنا ہے اس واسطے اسدی گائیڈ دکھو۔</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = اسیں ترجمے واسطے ہک موزیلا ٹول استعمال کردے ہاں جسکو <pontoonLink>پونٹون</pontoonLink>آکھدے ہن۔ پونٹون دیاں مچ ساریاں زباناں ہن، اگر اس کول تسدی نیں تے تسیں <pontoonRequestLink>اپنڑی زبان شامل کرنا دی درخواست کر ھکدے ہو</pontoonRequestLink>۔  فر، زبان کو کامن وائس پروجیکٹ تے دستیاب ہونڑا واسطے،  <githubRepoLink> GitHub تے نئ زبان دے درخواست کرو</githubRepoLink>۔ <localizationFragment>سائٹ ترجمے تے ہور دکھو</localizationFragment>۔
 
 ## How does localization work
 
