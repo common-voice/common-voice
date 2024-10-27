@@ -114,6 +114,8 @@ about-playbook-how-validate-content-4 = اگر ای  آوازو جو ژون کی
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = اوا ڈیٹا بیسا کیچا بیتی بیم وا استعمال کیچہ کوری کوم۔
+about-playbook-how-access-dataset-content-1 = تو ڈیتا بیسا<datasetsPage> بیکو بوس۔ ورژنو اوچے زبانو گنے کھیوکی تو مݰکیسان وا ہورو ڈاونلوڈ کو۔ ہے فائلو سون <metadataLink> چوکیرو لوٹ دیٹا شیر</metadataLink>، آبادیو وا تسدیقو معلومات شینی۔ ڈونلوڈ کوریکو پچین تہ تان ای میلو دیلیک بوئے۔
 
 ## How are decisions made
 
