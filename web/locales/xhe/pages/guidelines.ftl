@@ -74,3 +74,5 @@ adding-sentences-subheader-length-explanation = ڳالھ وار 15 لفظیاں 
 adding-sentences-subheader-spelling-punctuation = ہِجّے ٻیا اوقاف
 adding-sentences-subheader-spelling-punctuation-explanation = ڳالھ وار صحیح آکھا ڳیا وئے۔
 adding-sentences-subheader-speakable = ڳاہلݨ جوڳا
+adding-sentences-subheader-speakable-explanation = چنڳے ڳالھ وار قدرتی ٻیا ڳاہلݨ جوڳے ہون٘دِن — ہیانک کئیں واسطے پڑھݨ سوکھا وائے۔ جے وختیک اَواز تا تنوع ٻیا ڳالھ وارینک علیحدے لفظ ضروری ہِن، اسے ہے بھی کوشش کندے پے ہوں کہ ریکارڈنگ ڳالھ وارینک آپݨی رضا کار برادری واسطے ہر چنڳی حد تک چنڳا ٻیا شُغلی جوڑوں۔
+adding-sentences-subheader-numbers = ڳنتی
