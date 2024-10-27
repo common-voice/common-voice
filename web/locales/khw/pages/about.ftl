@@ -85,6 +85,7 @@ about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیار اسکو�
 
 ## How to record quality
 
+about-playbook-how-record-quality = اوا جام معیارو آواز کیا کوری رکارڈ کوم؟
 
 ## How to grow language
 
