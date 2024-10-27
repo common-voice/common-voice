@@ -64,6 +64,8 @@ about-playbook-how-add-language = ناسی سکت چک چی بیسے ایڈ بی
 about-playbook-how-add-language-content-1 = چوقپہ دونوک یری سکت پو یودا مید ہلتوس۔ میدنارے یانگلا یری سکتپو ہلتون زیربہ نینید۔ دی لوکھسینگ تھیمبہ نیس یود۔ ساٸٹ کو تم لزوق بیا دیکھنہ تم سیر کن زدمسے کھیونگمہ۔
 about-playbook-how-add-language-translating-heading = ساٸٹ پو تم لزوق گوین یود۔
 about-playbook-how-add-language-translating-content-1 = پینٹون پو چی بیسے کولبہ زیربی لوکھسینگنو نٸی روخ بیس کن لا ہلتوس۔
+about-playbook-how-add-language-translating-content-2 = نیاسی تم لزوق بیالا موزیلا پی پینٹون زیربی چتق چی کولبن۔ پینٹونز کنی تھومید سکت کن یودپن اما دیوینگنو یتی دو میدنارے یانگلا یتی سکتپو ایڈ بیس زیرے جوفل بیا نینید۔ کامن واٸسی پراجیکٹ پینگ یتی سکتپو اونگچوکپافری، نیا سکتچی  گٹ ہبیکھہ ہژوق زیرے جوفل بیوس۔ ساٸٹی تم لزوغیکھہ ینگسہ ہلتوس۔
+about-playbook-how-add-language-collecting-sentences-heading = تم سیر کن زدمینگ یود
 
 ## How does localization work
 
