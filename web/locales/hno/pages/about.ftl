@@ -116,6 +116,8 @@ about-playbook-how-grow-language-content-8 = <strong>تخلیقی بنڑو!</str
 
 ## How to validate
 
+about-playbook-how-validate = مکو کسطرح پتہ چلسی کہ ہک آواز دے کلپ دی تصدیق کرنی ہے؟
+about-playbook-how-validate-content-1 = جے تسیں <strong>انہاں کو سنڑ </strong>ہور <strong>سمجھ</strong>سکدے ہو، تے عام طور<strong>تصدیق دینڑی اچھی ہے</strong>۔
 
 ## How to access dataset
 
