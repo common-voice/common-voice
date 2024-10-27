@@ -99,6 +99,9 @@ about-playbook-how-grow-language-content-1 = مختلف رویان تین موق
 about-playbook-how-grow-language-content-2 = واقعات
 about-playbook-how-grow-language-content-3 = تو رویان شرکت کوریکا مدد کوریکو  پچین میٹنگ مشکیکو  بوس۔ ہیا بو اسان۔  اونلائن ویڈیو کانفرنسو ذریعہ کوریکو بوس یا  کیا خطرہ کی نو اشوئی تیتان ای ژاغا مشکی دی کوری بوس۔ <eventTemplate> میٹنگو ضروری اشناریان پیچین ہمو </eventTemplate>ڑوڑے
 about-playbook-how-grow-language-content-4 = سوشل میڈیا
+about-playbook-how-grow-language-content-5 = رویان کارا تاریکو  پچین تو شوشل میڈیو اسعمال کوریکو بوس۔ ہݰ پوسٹ کوکی ہیا کو اہم، وا خور رویان تین زبانو حقوقان، آوازو اے آئی، یا ٹکنالوجیا تعاصب بارا لوو دیت۔  سوشل میڈیا چلیکو خور مشوران پچین<campaignLink> ہیا ژاغا ڑوڑے۔ ہیرا دی اشناری شینی تو کی استعمال کوسان۔
+about-playbook-how-grow-language-content-6 = حصہ داری وا تعلوقات
+about-playbook-how-grow-language-content-7 = ہتیتان مݰکے کاکی ہیا بارا سوچ کونیا ۔ ہتیت یونیورسٹی، اسکول، وکالات کوراک گروپ یا ڈیٹا سائنسو ڈال۔ ہتیتان تین لوو دیت کی ہتیت کچہ کوری مدد کونی وا مدد کو کوریلیک۔ <outreachTemplates> ڑوڑے  پوشٹی نویشی تیار کاردو  ای میلان
 
 ## How to validate
 
