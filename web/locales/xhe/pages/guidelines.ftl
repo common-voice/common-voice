@@ -76,3 +76,5 @@ adding-sentences-subheader-spelling-punctuation-explanation = ڳالھ وار ص
 adding-sentences-subheader-speakable = ڳاہلݨ جوڳا
 adding-sentences-subheader-speakable-explanation = چنڳے ڳالھ وار قدرتی ٻیا ڳاہلݨ جوڳے ہون٘دِن — ہیانک کئیں واسطے پڑھݨ سوکھا وائے۔ جے وختیک اَواز تا تنوع ٻیا ڳالھ وارینک علیحدے لفظ ضروری ہِن، اسے ہے بھی کوشش کندے پے ہوں کہ ریکارڈنگ ڳالھ وارینک آپݨی رضا کار برادری واسطے ہر چنڳی حد تک چنڳا ٻیا شُغلی جوڑوں۔
 adding-sentences-subheader-numbers = ڳنتی
+adding-sentences-subheader-numbers-explanation = ہے متن تی وِچ کا بھی مثالی ہندسہ نہ وئے کیونکہ ہو اُچّی اَواز ساں پڑھݨ تی مسئلہ پیدا کر سڳدا ہے۔ جوں کا نمبریک پڑھا وین٘دا ہے ہے تا وزن سیاق و سباق تی ہون٘دا ہے ٻیا ڈیٹا سیٹ تی وِچ پریشانی پیدا کر سڳدا ہے۔ مثال تی طور تی،  “2409” نمبریک "چوی صفر نؤ" ٻیا "ٻہ ہزار چار سو نؤ" ٻیانک صحیح طریقے ساں پڑھ ون٘ڄ سڳدا ہے۔
+adding-sentences-subheader-abbreviations = مخففات ٻیا مخفف
