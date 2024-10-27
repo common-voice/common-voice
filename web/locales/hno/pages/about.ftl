@@ -91,9 +91,11 @@ about-playbook-how-localize-content-5 = مدد واسطے اسدا وڈیو اک
 about-playbook-how-add-sentences = میں جملے کسطرح داخل کراں؟
 about-playbook-how-add-sentences-content-1 = تسیں جملے <writePageLink>لکھنڑا دے صفحے</writePageLink>تے بہّ ہکدے ہو یا جملے <reviewPageLink>ریویو صفحے</reviewPageLink> تے دوبارہ دکھ ہکدے ہو۔
 about-playbook-how-add-sentences-content-2 = کامن وائس بچ شامل کرنا واسطے جملیاں دا دو لوگاں دا جائزہ گنّنا ہور قبول کرنا چاہیدا ہے۔ تسیں <languageGuidelinesLink>اِتھا</languageGuidelinesLink>اپنڑی زبان واسطے ہدایت نامہ بڑیندے ہو۔ جملے <licenseLink>عوامی ڈومین</licenseLink> تے 15الفاظ تو چھوٹے ہونڑے جاہیدے ہن۔ تسیں لکھائی دے مالک کو <waiverLink> CC0واسطے اسدا چھوٹ دا عمل استعمال کردیاں ہویاں چھوٹ واسطے آکھ سکدے ہو، ہور اساں کو commonvoice@mozilla.com تے بھیچ سکدے ہو۔
+about-playbook-how-add-sentences-content-3 = تسیں وکی پیڈیا تو مختصر جملے حاصل کرنا واسطے <scraperLink>جملے نکھیڑنا والا</scraperLink>دا استعمال کر سکدے ہو۔
 
 ## How to record quality
 
+about-playbook-how-record-quality = میں کسطرح ہک اچھی کوالٹی دا آواز دا کلپ ریکارڈ کراں؟
 
 ## How to grow language
 
