@@ -32,6 +32,71 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = مقصتیک پرائی
 cant-decide = فییصلہ تھیون نے بؤں دا؟
+activity-needed-calculation-plural =
+    { NUMBER($totalHours) ->
+        [one]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+       *[other]
+            { NUMBER($periodMonths) ->
+                [one]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+               *[other]
+                    { NUMBER($people) ->
+                        [one]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                       *[other]
+                            { NUMBER($clipsPerDay) ->
+                                [one] { "" }
+                               *[other] { "" }
+                            }
+                    }
+            }
+    }
+how-many-per-day = لائی مشٹی! ایک دیزینی کچاک کلپی؟
+how-many-a-week = لائی مشٹی! ست چھکیڑے کچاک کلپی؟
+which-goal-type = تُسے رزیم تھوں دا، کونڈ دیم تھوں، یا بیجوگہ؟
+receiving-emails-info = یچے تُو  کامن وائیسو بارینی یاد دہانی، تھینی بڑیار گہ خطی ہتے اڑیونو پرائیجیلوں
 
 ## Goals
 
