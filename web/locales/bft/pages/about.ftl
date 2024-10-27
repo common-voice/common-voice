@@ -66,9 +66,14 @@ about-playbook-how-add-language-translating-heading = ساٸٹ پو تم لزو�
 about-playbook-how-add-language-translating-content-1 = پینٹون پو چی بیسے کولبہ زیربی لوکھسینگنو نٸی روخ بیس کن لا ہلتوس۔
 about-playbook-how-add-language-translating-content-2 = نیاسی تم لزوق بیالا موزیلا پی پینٹون زیربی چتق چی کولبن۔ پینٹونز کنی تھومید سکت کن یودپن اما دیوینگنو یتی دو میدنارے یانگلا یتی سکتپو ایڈ بیس زیرے جوفل بیا نینید۔ کامن واٸسی پراجیکٹ پینگ یتی سکتپو اونگچوکپافری، نیا سکتچی  گٹ ہبیکھہ ہژوق زیرے جوفل بیوس۔ ساٸٹی تم لزوغیکھہ ینگسہ ہلتوس۔
 about-playbook-how-add-language-collecting-sentences-heading = تم سیر کن زدمینگ یود
+about-playbook-how-add-language-collecting-sentences-content-1 = تم سیر کن زدمسے کھیونگمہ فری نٸی روخ بیس کن لا ہلتوس۔
+about-playbook-how-add-language-collecting-sentences-content-2 = یانگلا ژھونژے تم سیر کن زدمسے ایڈ بیا نینید، میدنارے یانگلا گٹ ہب کولینگچی چھقپہ گنگرے تم سیر کن کلبہ نینید۔ ایتو یوق تم سیرکن سی سی زیرو یا ہرمق تھونگ دوکپہ رگوسپن یا یانگلا یری رولنہ سہ ربیا نینید۔
+about-playbook-how-add-language-collecting-sentences-content-3 = تم سیر زدمی لوکھسینگ یانگسہ ہلتوس
 
 ## How does localization work
 
+about-playbook-how-localize = ساٸٹ لوکلاٸزیشن پو سی چی بیسے لس بید؟
+about-playbook-how-localize-content-1 = کامن واٸسی ساٸٹ پووی تم لزوقپو پینٹونیکھہ گوین
 
 ## How to add sentences
 
