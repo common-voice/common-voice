@@ -78,3 +78,5 @@ adding-sentences-subheader-speakable-explanation = چنڳے ڳالھ وار قد
 adding-sentences-subheader-numbers = ڳنتی
 adding-sentences-subheader-numbers-explanation = ہے متن تی وِچ کا بھی مثالی ہندسہ نہ وئے کیونکہ ہو اُچّی اَواز ساں پڑھݨ تی مسئلہ پیدا کر سڳدا ہے۔ جوں کا نمبریک پڑھا وین٘دا ہے ہے تا وزن سیاق و سباق تی ہون٘دا ہے ٻیا ڈیٹا سیٹ تی وِچ پریشانی پیدا کر سڳدا ہے۔ مثال تی طور تی،  “2409” نمبریک "چوی صفر نؤ" ٻیا "ٻہ ہزار چار سو نؤ" ٻیانک صحیح طریقے ساں پڑھ ون٘ڄ سڳدا ہے۔
 adding-sentences-subheader-abbreviations = مخففات ٻیا مخفف
+adding-sentences-subheader-abbreviations-explanation = ہے متن تی وِچ مخففات ٻیا مخفف جوں "یو ایس اے" ٻیا "آئی سی ای" آپیک جھل ون٘ڄ کیونکہ ہیانک ہیوں پڑھا ون٘ڄ سڳدا ہے جا ہواں تے ہِجّے ساں نئے مِلدا۔ ٻیال، ہِک ہی مخفف واسطے گھݨے صحیح ریڈنگز تھی سڳدیاں ہِن۔
+adding-sentences-subheader-punctuation = اوقاف
