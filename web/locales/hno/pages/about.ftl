@@ -144,3 +144,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>اساں تے 
 about-playbook-how-funded = کامن وائس دی مالی مدد کسطرح کیتی جلدی ہے؟
 about-playbook-how-funded-content-1 = کامن وائس موزیلا فاؤنڈیشن دا ہِک منصوبہ ہِے، ہِک یو ایس 501 سی3۔ اے منصوبہ اِس ویلے مکمل طور<philantropicGrantLink>مخیّر امداد</philantropicGrantLink>دے فنڈز ہور دنیا بھر دے لوگاں دی خیرات تے ہے۔
 about-playbook-how-funded-content-2 = ڈیٹا سیٹس دی مسلسل میزبانی ہور ریلیز کرنا تے، پلیٹ فارم کو بہتر کرنا ہور <africaMradiLink>کمیونٹی پروگرامز</africaMradiLink> چلانڑا تے بہت سارے اخراجات ایندے ہن۔
+about-playbook-how-funded-content-3 = اگر تسیں یا تسدی تنظیم منصوبے بچ دوبارہ شرکت کرنا چہندے ہن، تے تسیں ہک<donateLink>عطیہ</donateLink>کر ہکدے ہو یا اسدی شراکت دار ٹیم نال رابطہ کر ہکدے، تے<emailFragment>۔commonvoice@mozilla.com</emailFragment>
