@@ -80,6 +80,7 @@ about-playbook-how-add-language-translating-content-2 =
     بلے اگاں تئی نہ اِنت گڑا تو <pontoonRequestLink>وتی زبان ءِ ھوار کنگ ءِ لوٹ ءَ کن ئے۔
     پدا، کامن وائس پروجیکٹ ءِ سرا زبان ءِ دستیاب کنگ ءِ ھاترا،
     <githubRepoLink>گیٹ ہب ءِ سرا نوکیں زبان ءِ لوٹ کن اِت۔ <localizationFragment>سائٹ ءِ رجانک ءِ سر ءَ گیشتر ترجمہ اِت۔<localizationFragment>
+about-playbook-how-add-language-collecting-sentences-heading = جملہ جمع کنگ
 about-playbook-how-add-language-collecting-sentences-content-3 = جملہ آے مجموعہ آ مزید گیندے
 
 ## How does localization work
