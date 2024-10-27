@@ -118,6 +118,7 @@ about-playbook-how-grow-language-content-8 = <strong>تخلیقی بنڑو!</str
 
 about-playbook-how-validate = مکو کسطرح پتہ چلسی کہ ہک آواز دے کلپ دی تصدیق کرنی ہے؟
 about-playbook-how-validate-content-1 = جے تسیں <strong>انہاں کو سنڑ </strong>ہور <strong>سمجھ</strong>سکدے ہو، تے عام طور<strong>تصدیق دینڑی اچھی ہے</strong>۔
+about-playbook-how-validate-content-2 = <strong>ایجھے کلپس کو رد نہ کریو جتھے بولنے والے دا ‘ہک لہجہ ہے’ جِڑھا تسدے تو مختلف ہے</strong>-ایہ وائس ریگنیشن واسطے ضروری ہے کہ ہر ہک واسطے بہتر کم کرا۔
 
 ## How to access dataset
 
