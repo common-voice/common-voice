@@ -19,21 +19,21 @@ sc-review-form-button-reject-shortcut = Х
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = Г
 sc-review-form-button-submit =
-    .submitText = Еплъыжъыныр ух
+    .submitText = Еплъыжьыныр ух
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
     { $sentences ->
-        [0] Зи гущыӏэухыгъэ еплъыжъыгъ.
-        [one] 1 ущыӏэухыгъэ еплъыжъыгъ. Опсэу!
-       *[other] { $sentences } ущыӏэухыгъэ еплъыжъыгъэх. Опсэу!
+        [0] Зы гущыӏэухыгъи еплъыжьыгъэп.
+        [one] 1 гущыӏэухыгъэ еплъыжьыгъ. Опсэу!
+       *[other] { $sentences } гущыӏэухыгъэхэм яплъыжьыгъэх. Опсэу!
     }
-sc-review-form-review-failure = Еплыжъын гъэпытышъугъэп. Сыолъэӏу етӏанэ джыри зэ ууплъэкӏужъ.
-sc-review-link = Еплъыжъын
+sc-review-form-review-failure = Еплыжьын гъэпытышъугъэп. Сыолъэӏу етӏанэ джыри зэ ууплъэкӏужъ.
+sc-review-link = Еплъыжьын
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = ⓘ Еплъыжъын шапхъэхэр
+sc-criteria-modal = ⓘ Еплъыжьыным ишапхъэхэр
 sc-criteria-title = Еплъыжъын шапхъэхэр
 sc-criteria-item-1 = Гущыӏэухыгъэр тэрэзу къэтхын ищыкӏагъ.
 sc-criteria-item-2 = Гущыӏэухыгъэр грамматикэмкӏэ тэрэз хъун ищыкӏагъ.
