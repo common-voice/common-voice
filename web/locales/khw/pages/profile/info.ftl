@@ -63,3 +63,6 @@ contribution-experience = مدد کوریکو تجربہ
 skip-submission-feedback = سبسکرپشنز سورا تبصیرو سورین نسیک
 on = کھولاو
 help-accent = لہجو پچین مدد ضرورت شیر
+variant-contribution-option-2 = مہ  لہجو جملان وا آوازان پشاوے
+variant-contribution-warning-title = تمام جملان وا آوازان سون لہجان نݰان نوچوکی شیر
+variant-contribution-warning-subtitle = تہ تین مدد کوریکا کہ مسلہ گویان تو  تان زبانو تمام اشناریان ڑوڑیکو ژاغا واپس گیکو بوس۔
