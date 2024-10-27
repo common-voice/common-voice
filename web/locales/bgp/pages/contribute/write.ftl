@@ -34,6 +34,8 @@ single-sentence-submission = یک جملہ جمع کھنینغ
 small-batch-sentence-submission = بوجڑائں جملہ جمع کھنینغ
 bulk-sentence-submission = مزیں مزیں جملہ جمع کھنینغ
 single-sentence = یک
+small-batch-sentence = بَلوان بیچ
+bulk-sentence = مزیں بیچ
 sentence-domain-combobox-label = جملہ ء ڈومین
 sentence-domain-select-placeholder = سے ڈومینز تکا (منتخب) کھنے
 # Sentence Domain dropdown option
@@ -109,6 +111,14 @@ rate-limit-toast-message-minutes =
             شرح اٗنسرءَ شئہ دیم بیثہ۔
             یک منٹ ءَ پذا تھر (دومی بہرا) درست کھنہ (دیم دئی).
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one]
+            شرح اٗنسرءَ شئہ دیم بیثہ۔
+            یک سیکنڈ ءَ پذا تھر (دومی بہرا) درست کھنہ (دیم دئی).
+       *[other] شرح اٗنسرءَ شئہ دیم بیثہ. یک سیکنڈ ءَ پذا تھر (دومی بہرا) درست کھنہ (دیم دئی)
+    }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
@@ -124,6 +134,12 @@ rate-limit-message-seconds =
        *[other]
             شوا اے صفحہ واسطہ جمع کھنینغ  حد تکا پجزا شزا ۔براہ کرم دہمی جملہ پیش کھنغ واسطہ یھک  
              سیکنڈ چھاری بیے ۔شوے صبر کھنغیں شکریہ
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] 	{ $uploadedSentences }1 جُملہ کھنینغ
+       *[other] 	{ $uploadedSentences } جُملہ کھنینغ { $totalSentences } کنی
     }
 small-batch-sentences-rule-1 = "ماں تھاں جملہ شامل کھنا سگا "؟ اشی آگوں رہنما خطوط آں نئ چھکا عملا کھنے?
 small-batch-sentences-rule-2 = یک  جملہ یا لائن جمع کنی انت
