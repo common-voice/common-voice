@@ -6,6 +6,7 @@ sentence =
     .label = Itaperi chee wame
 sentence-input-placeholder = Toaga iwa naosari dominio publico uka itaperi
 small-batch-sentence-input-placeholder = Toega wa nati itaperi dominio publico
+citation-input-placeholder = Ereka  toaga peja uka kanamu  najuka uka itaperi. Nateameju buu chee wam
 sc-write-submit-confirm = Ereka chani wa itaperi <wikipediaLink>dominio publico</wikipediaLink>, Kainega itamira motepumina uka itaperi
 sc-review-write-title = Chirime najumeree
 sc-review-small-batch-title = Chireka toawame juu wueka
