@@ -100,9 +100,11 @@ about-playbook-how-record-content-1 = اپنڑی معمول دی آواز بچ
 about-playbook-how-record-content-2 = مچ زیادہ بیگ گراؤنڈ شور کولو پچو- تساں کو سنڑنا آسان ہونڑا چاہیے دا ہے۔
 about-playbook-how-record-content-3 = جملے احتیاط نال پڑھو- کوئی لفظ رہوا’ نہ، الفاظ نہ’ بدلاؤ یا بداؤ۔
 about-playbook-how-record-content-4 = اس گلا کو یقینی بنڑاؤ کہ تسدے بولنا شروع کرنا کولو پہلے پلیٹ فارم ریکارڈ کر رہیا ہے، ہور اے کہ اے تسدے ختم ’کرنا تے رُکے۔
+about-playbook-how-record-content-5 = <accuracyLink>درستگی دے معیار بارے مزید دکھو۔</accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = اسیں کامن وائس تے مؤثر انداز نال ہک زبان کسطرح بڑھا ہکدے ہاں؟
 
 ## How to validate
 
