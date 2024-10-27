@@ -25,3 +25,6 @@ download-request-assembling-description = تئی فائل یکجاہ کنگ بو
 download-request-refresh-button = تازہ کن
 download-request-modal-title = ڈاؤن لوڈ ءِ لنک
 download-request-modal-description = شمئے زپ فائلانی ڈاؤن لوڈ کنگ ءِ لنک ایش اَنت۔
+download-request-link-text = زپ#{ $offset }تہ { $offset }
+download-request-metadata-link = جملہ ئے نبشتانک
+download-request-link-single = تئو وثی پسندیدہ ڈاؤن لوڈ مینیجر ئا ڈائریکٹ یو آر ایل کاپی و پیسٹ کنئے۔ آ 12 کلاک ءَ پد ھلاس بنت بلے تو ھر وھد ءَ نوکیں پیدا کنگ ءِ ھاترا اے تاک ءَ پدا اتک کن ئے۔
