@@ -68,6 +68,18 @@ about-playbook-what-is-language-content-3 = لھتے زبانانی تہ ءَ گ
 
 ## How do I add a language
 
+about-playbook-how-add-language = من زبان ءَ چوں گیش کناں؟
+about-playbook-how-add-language-content-1 =
+    اولی ایش انت کہ تئی زبان <languageLink> پیسرا چہ است انت</languageLink> یا نہ۔
+    اگاں نہ اِنت گڑا تو <languageRequestLink>وتی زبان ءِ ھوار کنگ ءِ بابت ءَ جُست کُت کن ئے</languageRequestLink>۔
+    دو پڑ اَنت۔ سائٹ ءِ ترجمہ کنگ ءُ جملہانی جم کنگ
+about-playbook-how-add-language-translating-heading = سائٹ ءِ رجانک کنگ
+about-playbook-how-add-language-translating-content-1 = پونٹون ءِ کارمرز کنگ ءِ رھبند ءِ سر ءَ مئے رہشونی ءَ بچار اِت۔</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    ما پہ رجانک ءَ موزیلا ءِ یک وسیلہ یے کارمرز کنیں کہ آئی ءِ نام <pontoonLink>پونٹوون</pontoonLink> اِنت۔ پونٹون ءَ بازیں زبان ھست انت،
+    بلے اگاں تئی نہ اِنت گڑا تو <pontoonRequestLink>وتی زبان ءِ ھوار کنگ ءِ لوٹ ءَ کن ئے۔
+    پدا، کامن وائس پروجیکٹ ءِ سرا زبان ءِ دستیاب کنگ ءِ ھاترا،
+    <githubRepoLink>گیٹ ہب ءِ سرا نوکیں زبان ءِ لوٹ کن اِت۔ <localizationFragment>سائٹ ءِ رجانک ءِ سر ءَ گیشتر ترجمہ اِت۔<localizationFragment>
 about-playbook-how-add-language-collecting-sentences-content-3 = جملہ آے مجموعہ آ مزید گیندے
 
 ## How does localization work
