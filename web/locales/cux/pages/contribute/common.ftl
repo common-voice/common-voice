@@ -3,13 +3,18 @@ action-tap = Neabad
 contribute = Kuned insu
 review = Nichid a noo
 skip = Kabyákud
+clips-with-count-pluralized =
+    { $count ->
+        [one] ama
+       *[other] taama
+    }
 goal-help-recording = !Ndiosdibad chi chined Common Voice a tanen nukue nudu chi ñe'e chi kuto'on job jobe!
 goal-help-validation = !Ndiosdibad chi chined Common Voice  a tanen nukue nudu nóo chi ne'en ñe'e job jobe !
 contribute-more = ¿A bea ñe'ed?
 speak-empty-state = A kutea nudu chi kamad ñe'e dibaku ku
 speak-empty-state-cta = Kuned insu nuku tanobe nudu
 speak-loading-error = Gua chikadi chea nudu. Tamnóo namné kueatüd.
-record-button-label = { "" }
+record-button-label = Kuto'od nudud
 share-title-new = Kuned insu chi nakan tanobe nudu
 login-to-get-started = Kunod o kunejud dí tumin kadi kutoko'od
 target-segment-first-card = Jined insu nuku dae ñe'e din nomnó
@@ -73,6 +78,7 @@ request-language-button = kakad ama nudu
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = r
+shortcut-play-toggle-label = Kaaka/kunénod
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = s
@@ -82,6 +88,10 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-for-example = Nikó
+contribution-misreadings-example-6-title = No'ö nio
+contribution-misreadings-example-7-title = No'o ñoo baku
 contribution-misreadings-example-8-title = Yeabean kani cho'o yanam
 contribution-varying-pronunciations-title = A taka jo'oñ kadi nandó
 contribution-varying-pronunciations-description = Yeabea kunebed nukue nudu chi gua nóo. Ti yeabean ndee noo kadi kamañ, Nichi jinaned a dae jo'oñ kuned chi a nóo
+contribution-just-unsure-title = ¿Y nichi gua deanu kuakud tu?
