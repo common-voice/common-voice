@@ -113,3 +113,21 @@ rate-limit-toast-message-seconds =
         [one] Otikpanaui tlen omonekiaya. Oksepa xikyeko ipan { $retryLimit } segundo
        *[other] Otikpanaui tlen omonekiaya. Oksepa xikyeko ipan { $retryLimit } segundos
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Yotikpanaui tlen uelis nikan tiktitlanilis. Xonmochia 1 minuto uan uelis tiktitlanilis okse. ¡Timitstlasojkamatiliaj timochixtok!
+       *[other] Yotikpanaui tlen uelis nikan tiktitlanilis. Xonmochia { $retryLimit } minutos uan uelis tiktitlanilis okse. ¡Timitstlasojkamatiliaj timochixtok!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Yotikpanaui tlen uelis nikan tiktitlanilis. Xonmochia 1 segundo uan uelis tiktitlanilis okse. ¡Timitstlasojkamatiliaj timochixtok!
+       *[other] Yotikpanaui tlen uelis nikan tiktitlanilis. Xonmochia { $retryLimit } segundos uan uelis tiktitlanilis okse. ¡Timitstlasojkamatiliaj timochixtok!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] 	{ $uploadedSentences } itech 1 tlajkuiloli yomokak
+       *[other] { $uploadedSentences } itech { $totalSentences } tlajkuilolmej yomokajkej
+    }
