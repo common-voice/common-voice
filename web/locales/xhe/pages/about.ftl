@@ -145,8 +145,12 @@ about-playbook-how-project-governance-content-2 = اساں جی حکومت تی 
 about-playbook-how-project-governance-content-3 = رازداری، سیکیورٹی ٻیا شفافیت۔
 about-playbook-how-project-governance-content-4 = برادری تا حِصّہ گھولݨ ٻیا فیصلہ کرݨ۔
 about-playbook-how-project-governance-content-5 = قدر ٻیا سُن٘ڄاݨ۔
+about-playbook-how-project-governance-content-6 = آپسی حساب کتاب۔
+about-playbook-how-project-governance-content-7 = <governanceLink>اسے کُکر حکومت کندے ہوں ہے باریک مزید لال</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن وائس کُکر پیسہ ݙِتّا وین٘دا ہے؟
 about-playbook-how-funded-content-1 = کامن وائس تا ہک منصوبہ ہے۔ جا یو ایس 501c3 ہے۔ ہے منصوبیک اینھا توڑیں مکمل طور تی <philantropicGrantLink>انسانی یاری گرانٹاں</philantropicGrantLink>، ٻیا دُنیا بھر تے تُمن تی ݙت تے ذریعے مالی اعانت ݙِتّی وین٘دی ہے۔
+about-playbook-how-funded-content-2 = ڈیٹا سیٹس تی میزبانی ٻیا ہوک ڳڈھݨ واسطے، پلیٹ فارمیک چنڳا جوڑݨ واسطے ٻیا <africaMradiLink>برادری پروگرامیک</africaMradiLink> چلاݨ واسطے گھݨاں پیسہ خرچ تھین٘دا ہے۔
 about-playbook-how-funded-content-3 = اگر تُو یا تا جی تنظیم وتا ہے منصوبے تی وِچ حِصہ چاہندین تا تُو ہِک <donateLink>ݙت</donateLink> ݙے سڳدا ہیں یا <emailFragment>commonvoice@mozilla.com</emailFragment>تی اَساں جی سنڳت والی ٹولی ساں رابطہ کر سڳدا ہیں۔
