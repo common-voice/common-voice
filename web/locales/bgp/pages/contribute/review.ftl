@@ -20,6 +20,7 @@ sc-review-form-button-approve-shortcut = ی
 sc-review-form-button-reject-shortcut = ن
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = ایس
+sc-review-form-keyboard-usage-custom = تو کی بورڈ ءِ شارٹ کٹاں ھم کارمرز کن ئے: { sc-review-form-button-approve-shortcut }پہ منّگ  { sc-review-form-button-reject-shortcut } پہ رد کنگ ءَ،, { sc-review-form-button-skip-shortcut } یلہ کنغ واستا
 
 ## REVIEW CRITERIA
 
@@ -32,6 +33,7 @@ sc-criteria-item-5-2 = اگر جملہ مندرجہ بالا معیار چھکا
 sc-criteria-item-6 = اگر جائزہ گرغ واسطہ شوے جملہ ختم بیزا شزغاں تاں براہ کرم مزید جملہ جمع کھنغ وچا مے مدد کھنے
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = چیک کھنے کہ چھے اے لسانی اعتبار آ گوں درست استیں
+sc-review-rules-title = آیا جملہ رہبندانی سرا عمل کنت؟
 sc-review-empty-state = فی الحال اے زبان وچا جائزہ گرغ واسطہ کوئی جملہ چھنے
 report-sc-different-language = ایکویں ایکویں زوان
 report-sc-different-language-detail = اے آں زبان گوں مختلف ایں واہی کہ ماں جائزاہ گرغاں
@@ -41,3 +43,4 @@ review-error-rate-limit-exceeded = شوا باز تیزی آ گوں روغے ۔�
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = ماہ چھیے مزیں تبدیلیاں کھنغوں
 sc-redirect-page-subtitle-1 = سزا جمع کھنوغیں بنیادی کامن وائس پلیٹ فارم چھکا روغیں ۔نئ شوا کامن وائس چھکا یکھے جملہ یا یکھے آ گزارشات آں نئ جائزہ گرے سگے
+sc-redirect-page-subtitle-2 = مارا جست کن<matrixLink>میٹرکس </matrixLink>, <discourseLink>ڈسکورس</discourseLink> یا <emailLink>ای میل</emailLink>.
