@@ -89,15 +89,22 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = سائٹ لوکلائزیشن کُکر کم کندی ہے؟
+about-playbook-how-localize-content-1 = کامن وائس سائٹ تا ترجمہ <strong>پونٹون</strong> تی ہون٘دا ہے۔
 about-playbook-how-localize-content-2 = <pontoonAccountLink>ہِک اکاؤنٹ جوڑ</pontoonAccountLink> اگر تُو ساں نا تھے۔ ٻیال اپݨی ٻولی چݨن <strong>('ٹولہ')</strong> ٻیا ٻیال منصوبہ <pontoonCvLink>کامن وائس</pontoonCvLink>چُݨ۔ ترجمہ کرݨ واسطے فائلیاں ہوسن۔ ہِک تی ہتھ لا، ٻیال ہے انگریزی تی وِچ لفظ ٻیا ہو ہاں تا ترجمہ کرݨ واسطے باکس وڑین٘دا ہے۔
 about-playbook-how-localize-content-3 = ترجمہ انگریزی ساں ہے۔ لیکن تو ٻئی ٻولیں تی وِچ <strong>تجویزیاں</strong>لال سڳدا ہیں۔ <strong>پروفائل</strong> آئیکون تی ہتھ لا، ٻیال <strong>ترتیبیاں</strong>تے لِنک تی ہتھ لا ٻیال تُو جا بھی ٻولی ڳاھلین٘دا ہیں۔ ہوک وِڄ۔ مُنڈ سَڄے کُنڈ تی ترجمیں تی ہِک لِسٹ ہوسے جاک <strong>مقامی</strong> آہدے ہِن۔ ترجمے ہِک دھن تے بعد سائیٹ تی وڑین٘دے ہِن۔
+about-playbook-how-localize-content-4 = سائٹ 75٪ پورا تھیئݨ تک پہنچݨ تی نکلݨ واسطے تیار ہے۔
+about-playbook-how-localize-content-5 = مدد واسطے اساں جی تفصیل والی ویڈیو لال
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = آں ڳالھ وارینک کُکر وِجھاں؟
+about-playbook-how-add-sentences-content-1 = تُو <writePageLink>صفحہ لکھݨ</writePageLink> تی ڳالھ وار وِجھ سڳدا ہیں یا <reviewPageLink>وَتا لال صفحہ</reviewPageLink> تی ڳالھ وارینک وتا لال سڳدا ہیں۔
 about-playbook-how-add-sentences-content-2 = کامن وائس تی وِچ وِجّھݨ والے ڳالھ وارینک لالݨ ٻیال ٻئے بندینک قبول ہوݨ چاہیجدا ہے۔ تُو آپݨی ٻولی تے واسطے رہنما خط <languageGuidelinesLink>ھیچ</languageGuidelinesLink> جوڑین٘دا ہیں۔ ڳالھ وار<licenseLink>عوامی ڈومین</licenseLink> تی وِچ وین ٻیا 15 لفظیں آں نکڑے ہوݨ۔ تُو ٹیکسٹ تے مالک ساں<waiverLink>CC0 اَساں جے چھوٹ تے ڈھنگ استعمال کندے ہوئے</waiverLink>۔ جوڑݨ واسطے آکھ سڳدا ہیں۔ ٻیال اسانک commonvoice@mozilla.com تی منجھ سڳدا ہیں۔
+about-playbook-how-add-sentences-content-3 = تُو وکی پیڈیا وا نکڑے ڳالھ واریں تا فائدہ چاݨ واسطے <scraperLink>ڳالھ وار ڳڈھݨ والا</scraperLink> استعمال کر سڳدا ہیں۔
 
 ## How to record quality
 
+about-playbook-how-record-quality = آں ہِک وݙے معیار تی ٻولی تا ٹوٹا کُکر ریکارڈ کراں؟
 about-playbook-how-record-content-1 = آپݨی ٻولی تی وِچ ڳاہلا! تاں جے ڳاہلݨ تا طریقہ ھیچ خوش ہے - اسے تا جا لہجہ ہو ھیں چاہندے ہوں جوں ہے۔ ٻیا تاں جی عادت، ڈھنگ ٻیا لہجہ چاہندے ہوں۔
 
 ## How to grow language
