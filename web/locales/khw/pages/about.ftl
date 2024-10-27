@@ -108,6 +108,9 @@ about-playbook-how-grow-language-content-8 = <strong> نوغ اشناری:</stro
 
 about-playbook-how-validate = اوا کیا طریقہ ہوݰ کو م کی ہیا آوازو منظور کوریلیک رے؟
 about-playbook-how-validate-content-1 = کی بویان <strong>تیتان تے کار کو </strong>وا ہیتان ہوݰ کو۔ ہیا عام طورا <strong> منظور کوریکو جام طریقہ۔
+about-playbook-how-validate-content-2 = <strong>  ہتے آوازو رد نو کی ہیترا لودیاکو تلفظ تا سار خور </strong>-سف ای بیتی کوروم کوری  آوازو ہوݰ کوریکو پچین ہیا بو اہم۔
+about-playbook-how-validate-content-3 = لہجو وجہین دیتی ہوݰ کوریک کی  ناممکن بویان <strong>  یا اچا<strong> بو شور گویان،</strong> یا خور<strong> رویان لوو دی شینی</strong> تھے آوازو رد کو<accuracyLink>۔  سہی بیکو خور معلوماتان پچین 'سہی بکو معیارو' ڑوڑے </accuracyLink>
+about-playbook-how-validate-content-4 = اگر ای  آوازو جو ژون کی رد ارینی، توغو ایک خور ژاغا لکھونو بوئے
 
 ## How to access dataset
 
