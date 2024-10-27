@@ -116,9 +116,12 @@ about-playbook-how-validate-content-4 = اگر ای  آوازو جو ژون کی
 
 about-playbook-how-access-dataset = اوا ڈیٹا بیسا کیچا بیتی بیم وا استعمال کیچہ کوری کوم۔
 about-playbook-how-access-dataset-content-1 = تو ڈیتا بیسا<datasetsPage> بیکو بوس۔ ورژنو اوچے زبانو گنے کھیوکی تو مݰکیسان وا ہورو ڈاونلوڈ کو۔ ہے فائلو سون <metadataLink> چوکیرو لوٹ دیٹا شیر</metadataLink>، آبادیو وا تسدیقو معلومات شینی۔ ڈونلوڈ کوریکو پچین تہ تان ای میلو دیلیک بوئے۔
+about-playbook-how-access-dataset-content-2 = تو کی ASR ماڈلو تین اشناری کی ساوزیسان، تو تان کمیونیٹا <discourseLink> خور رویان سون لوو دیکو پچین تیتان سون تعلق لکھیکو بوس۔
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پروجکٹو بارا  فیصلہ کیچہ کوری ہوئے
+about-playbook-how-project-governance-content-1 = موزیلا کمان وائسو  پوا دنیار مختلف کمیونیٹیان کارکن، لسانیات دان، ڈیٹا سائنسدان، ماہر تعلیم وا سافٹ وئر انجینیئر ممکن ساوزیتانی۔ پروجکٹو موزیلا فونڈیشنو نگرانی کویان۔
 
 ## How is Common Voice funded
 
