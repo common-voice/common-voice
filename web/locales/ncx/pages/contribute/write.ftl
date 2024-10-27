@@ -74,6 +74,14 @@ sc-bulk-upload-instruction = Nikan xikixtoki motlajkuilol noso xikpacho <uploadB
 sc-bulk-upload-instruction-drop = Nikan xikixtoki motlajkuilol
 bulk-upload-additional-information = Tla onka okseki tlen monekis techiluis itech motlajkuilol, techtlajkuilili itech <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = Tla onka okseki tlen tikneki techiluis itech motlajkuilol uan amo nikan nesi, techtlajkuilili itech <emailFragment>commonvoice@mozilla.com</emailFragment>
+try-upload-again = Oksepa xikyeko. Xikixtoki nikan motlajkuilol
+try-upload-again-md = Oksepa xikyeko xiktlalili
+select-file = Xikpejpena
+select-file-mobile = Xikpejpena tlen tiktitlanilis
+accepted-files = Moneki yetos .tsv
+minimum-sentences = Tlajkuilolmej tlen monekis: 1000
+maximum-file-size = Amo moneki kipanauis: 25 MB
+what-needs-to-be-in-file = ¿Tlen moneki yetos itech notlajkuilol?
 
 ## SMALL BATCH SUBMISSION
 
