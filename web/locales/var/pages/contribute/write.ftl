@@ -13,6 +13,10 @@ single-sentence-submission = Amó nejario pile naosari
 ## BULK SUBMISSION 
 
 select-file = Nasona uka toatume wua
+select-file-mobile = Naa jugó sé enchi wua toaga uka itaperi
+upload-more-btn-text = ¿Motepuga epeche itaperi?
+file-invalid-type = Kai nateame wa toatume
 
 ## SMALL BATCH SUBMISSION
 
+small-batch-sentences-rule-4 = Weika najuwe pile miri naosari
