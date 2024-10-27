@@ -28,15 +28,16 @@ sc-review-form-reviewed-message =
         [one] 1 гущыӏэухыгъэ еплъыжьыгъ. Опсэу!
        *[other] { $sentences } гущыӏэухыгъэхэм яплъыжьыгъэх. Опсэу!
     }
-sc-review-form-review-failure = Еплыжьын гъэпытышъугъэп. Сыолъэӏу етӏанэ джыри зэ ууплъэкӏужъ.
+sc-review-form-review-failure = Еплъыжьыныр ыгъэпытэшъурэп. Сыолъэӏу, етӏанэ джыри зэ еплъ.
 sc-review-link = Еплъыжьын
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ Еплъыжьыным ишапхъэхэр
-sc-criteria-title = Еплъыжъын шапхъэхэр
-sc-criteria-item-1 = Гущыӏэухыгъэр тэрэзу къэтхын ищыкӏагъ.
-sc-criteria-item-2 = Гущыӏэухыгъэр грамматикэмкӏэ тэрэз хъун ищыкӏагъ.
+sc-criteria-title = Еплъыжьыным ишапхъэхэр
+sc-criteria-item-1 = Гущыӏэухыгъэр тэрэзу тхыгъэн фае.
+sc-criteria-item-2 = Гущыӏэухыгъэр грамматикэмкӏэ тэрэзу хъун фае.
+sc-criteria-item-3 = Гущыӏэухыгъэр къэпӏон плъэкӏынэу шытын фае.
 sc-review-empty-state = Еплъыжъыным пае джыдэдэ мы бзэмкӏэ зи гущыӏэухыгъэ щыӏэп.
 report-sc-different-language = Бзэр шъхьафы
 report-sc-different-language-detail = Ар сеплъыжыгъэ бзэм нэмыкӏ бзэмкӏэ къэтхыгъэ.
