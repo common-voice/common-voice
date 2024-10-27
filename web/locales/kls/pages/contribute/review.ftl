@@ -7,6 +7,11 @@ sc-review-select-language = Tan zuban khoji, mon jagai
 sc-review-no-sentences = Jagahikas hatya kia ne shian, warek mon jama kari
 sc-review-form-prompt =
     .message = Ma'ila mondr jamanari e?
+sc-review-form-usage = Drac'u'i ge'hen pay sahi kari, Ka'haw'i ge'hen pay histi. buchum kai histi. tai khialat deko mo prashmi
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = Ajati mon
+sc-review-form-button-reject = Histi, pishtyak
 sc-review-form-button-skip = Histik
 sc-review-form-button-approve = Manzor
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
