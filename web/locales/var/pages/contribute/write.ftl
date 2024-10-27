@@ -21,4 +21,6 @@ file-too-small = Bokawi juu wua toatume
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Toaga epeche itaperi tamo dominio publico tamo naosarila
 small-batch-sentences-rule-4 = Weika najuwe pile miri naosari
