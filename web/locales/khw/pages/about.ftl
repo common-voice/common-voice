@@ -97,7 +97,8 @@ about-playbook-how-record-content-5 = <accuracyLink> سہی کوریکو خور 
 about-playbook-how-grow-language = اسپہ کمان وائسا ای زبان کیا طریقہ پوشٹی الوسی۔
 about-playbook-how-grow-language-content-1 = مختلف رویان تین موقع دیتی کمان وائس ہیا لوو یقینی کویان کہ دیٹاسیٹ کندوری کی ہوئی زیاد رویان خسمتو کورار۔  اسپہ تہ استعمالو پچین وسائل ساوزے اسوسی۔
 about-playbook-how-grow-language-content-2 = واقعات
-about-playbook-how-grow-language-content-3 = تو رویان شرکت کوریکا مدد کوریکو  پچین تیتان ای ژاغا مݰکی پروگرام کوری بوس۔
+about-playbook-how-grow-language-content-3 = تو رویان شرکت کوریکا مدد کوریکو  پچین میٹنگ مشکیکو  بوس۔ ہیا بو اسان۔  اونلائن ویڈیو کانفرنسو ذریعہ کوریکو بوس یا  کیا خطرہ کی نو اشوئی تیتان ای ژاغا مشکی دی کوری بوس۔ <eventTemplate> میٹنگو ضروری اشناریان پیچین ہمو </eventTemplate>ڑوڑے
+about-playbook-how-grow-language-content-4 = سوشل میڈیا
 
 ## How to validate
 
