@@ -14,3 +14,4 @@ record-cancel = Teéchare
 record-instruction = { $actionType }<recordIcon></recordIcon>Xi je kuan nñú teéxkiye
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> Nga kuan
 record-three-more-instruction = ¡Ján chaja!
+record-again-instruction = ¡Nda kji! <recordIcon></recordIcon>chubet'ae xta xi chaja.
