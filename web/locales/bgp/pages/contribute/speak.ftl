@@ -15,6 +15,12 @@ record-instruction = { $actionType }<recordIcon></recordIcon>پذا جملہ ئ�
 record-stop-instruction = "{ $actionType }<stopIcon></stopIcon>"کدی کنگ بیت
 record-three-more-instruction = سئے روگ ءَ اَنت!
 record-again-instruction = زبردست!<recordIcon></recordIcon> وتی دیمتر ءِ کلپ ءَ ریکارڈ کن اِت
+record-again-instruction2 = اے کار ءَ برجاہ دار، پدا ریکارڈ بہ کن <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon>گڈی یکے!
+review-tooltip = کلپانی چار ءُ تپاس ءُ دوبر ریکارڈ کن ات کہ شما رو ات
+share-clip = وتی کلپ ءَ شیئر کن اِت
+share-common-voice = کامن وائس شئیر کن
+review-instruction = اگاں لوٹ بوت گڑا کلپانی چار ءُ تپاس ءُ دوبر ریکارڈ کنگ بہ بیت
 record-abort-text = نئ الغیں مطلب آں کہ شوا وزی ترقی آرا بریں نے
 record-abort-submit = کلپاں جمع کنینت
 review-aborted = اپ لوڈ رکزا شزا۔چھ شوا وزی ریکارڈنگزاں را حزف کھنغ چاہے
