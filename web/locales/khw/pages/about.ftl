@@ -122,6 +122,14 @@ about-playbook-how-access-dataset-content-2 = تو کی ASR ماڈلو تین ا
 
 about-playbook-how-project-governance = پروجکٹو بارا  فیصلہ کیچہ کوری ہوئے
 about-playbook-how-project-governance-content-1 = موزیلا کمان وائسو  پوا دنیار مختلف کمیونیٹیان کارکن، لسانیات دان، ڈیٹا سائنسدان، ماہر تعلیم وا سافٹ وئر انجینیئر ممکن ساوزیتانی۔ پروجکٹو موزیلا فونڈیشنو نگرانی کویان۔
+about-playbook-how-project-governance-content-2 = اسپہ حکمرانیو ساوز بیکو ٹھون:
+about-playbook-how-project-governance-content-3 = راز داری، تحفظ وا شفافیت
+about-playbook-how-project-governance-content-4 = کمینوٹیو حصہ گنیک وا فیصلہ کوریک۔
+about-playbook-how-project-governance-content-5 = قدر وا  قبول کوریک
+about-playbook-how-project-governance-content-6 = تان موژی ایغو سون حساب کتاب
+about-playbook-how-project-governance-content-7 = <governanceLink> اپسہ حکمرانیو بارا خور معلوماتاب پچین ہمو راوور</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کمان وائس کیچا بیتی ساوز ہوئی؟
+about-playbook-how-funded-content-1 = کمان وائس موزیلا فونڈیشینو ای پروجکٹ۔ ای امریکین 501c3۔ ہیا پروجکٹو تمام پیسہ <philantropicGrantLink> خدمت خلق فانڈار گویان۔
