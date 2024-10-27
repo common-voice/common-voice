@@ -124,6 +124,7 @@ about-playbook-how-validate-content-4 = اگر ہک کلپ کو 2 لوگ رد ک
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = میں ڈیٹاسیٹ کو کسطرح پُہنچاں ہور استعمال کراں؟
 
 ## How are decisions made
 
