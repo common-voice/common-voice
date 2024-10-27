@@ -42,4 +42,17 @@ sc-criteria-make-sure = khushush kari ki, mondran usul sahi hiu
 sc-criteria-item-1 = Alfazan spelling sahi hiu or ori
 sc-criteria-item-2 = Mondr ze alfaz gramer una sahi hiu ori
 sc-criteria-item-3 = Alfaz ze khamakha mon dekas bash hiu ori
+sc-criteria-item-4 = Tay mon pe sahi ashini haw, Click & quot; kabul & quot; darc'ui gehem
+sc-criteria-item-5-2 = Agar se mon pe sahi ne ashis haw, click &quot; Ne mani &quot; kha'vi batan una, ne pe joniman ai haw, to histi warek awata pari
+sc-criteria-item-6 = tay som pe alfaz, yao mondr khul hawan haw homa madad kari
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Jagai <icon>
+sc-review-rules-title = shemi alfaz ze mon kia sahi hin day e?
+sc-review-empty-state = Shaya Zuban una o kia mondr dekas bati ne shian
 report-sc-different-language = Warek Zuban
+report-sc-different-language-detail = Ama warek zuban una newishi shiaw, kia ki a jagem day
+sentences-fetch-error = Mon ze alfaz grikas bati galati ew day
+review-error = Galati pashel day shama mon jagala se
+review-error-rate-limit-exceeded = Tu bo tez paris day. meherbani kay, geri jagai, sahi hiu ori
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Abi bo ghona tabdili karik day
