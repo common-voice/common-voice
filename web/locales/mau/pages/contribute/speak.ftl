@@ -9,3 +9,4 @@ record-must-allow-microphone = Teéndere kicha nukjua ya.
 record-no-mic-found = Mi kisuku kicha nukjua ya.
 record-error-too-short = chuba kitjubet'a xta.
 record-error-too-long = tse kitjubet'a xta.
+record-error-too-quiet = Jñá kitjubet'a xta.
