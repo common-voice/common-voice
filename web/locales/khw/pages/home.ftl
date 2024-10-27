@@ -1,6 +1,7 @@
 ## Home Page
 
-home-title = مشینو سون ہیا لوو مدد کوریکو پچین کی اصل روئی کیچہ کوری لوو دونیان،  موزیلا کمان وائسو شروع اریر۔
+home-title = { "" }
+default-tagline = { "" }
 
 ## Account Benefits
 
