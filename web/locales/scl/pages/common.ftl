@@ -241,12 +241,36 @@ vot = ووٹک
 wep = ویسٹپالین
 wes = کیمرون پیجن
 wo = وولوف
+xh = زوسا
+yi = ییڈش
+yo = یروبا
+yue = کینٹانیز
+zgh = تمیزیگت
+zh-CN = چائینیز (چائینا)
+zh-HK = چائینیز (ہانگ کانگ)
+zh-TW = چائینیز (تائیوان)
+zu = زولو
+zza = زازا
 
 # [/]
 
 
 ## Layout
 
+profile = پروفایئل
+help = سانت
+contact = رابطہ
+privacy = لِیشیار
+terms = شرط
+cookies = کوکیز
+faq = ایف اے کیو
+content-license-text = موجی آنے ہتے اینا <licenseLink> کریئیٹیو کامن لائیسنس
+share-title = تومے شونگے دینیک مُتے گہ اُڑاریونو اسئی ساتی دے
+share-text = منوجے سے موجی کدا دینا مشینیوڑے سیچاریونو اسئیے ساتی دے۔ تھنو شونگو آنےدے { $link }
+link-copied = لنک نقل بیلین
+back-top = اجاڑے واپسی
+logout = دروڑے بو
+donate = دے
 
 ## Donate banner
 
