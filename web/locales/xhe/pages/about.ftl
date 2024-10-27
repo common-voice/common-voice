@@ -129,14 +129,21 @@ about-playbook-how-validate = آں کُکر سُن٘ڄاݨ سڳدا ہیں کہ 
 about-playbook-how-validate-content-1 = اگر تُو ہؤانک <strong>ٻُجھ</strong> ٻیا <strong>پوہ سڳدا</strong> ہیں، ٻیال ہے عام طور تی <strong>منظوری ݙیݨ چنڳا ہے</strong>۔
 about-playbook-how-validate-content-2 = <strong>ای نے ٹوٹے رد نہ کرو جِتے ڳاھلݨ والا تا 'ہِک لہجہ ہے' جا آپ تے آپݨے آ الگ ہے </strong> ہے ٻولی تے سناݨ واسطے ضروری ہے کہ ہر کئی واسطے صحیح کم کرے۔
 about-playbook-how-validate-content-3 = اگر تُوک لڳدا ہے کہ لہجہ ہیک <strong>سمجھݨ ݙُکھا لڳدا ہے</strong>، یا ہوچ <strong>گھݨاں پِچّھوں تا منظر تا لُڑھ دے ہے</strong>، یا <strong>ٻیا تُمن بھی ڳاھلین٘دے پے ہِن</strong>، ٻیال تُو ٹوٹیک چھوڑ ݙے۔ <accuracyLink>اساں جی درستگی تے معیار تی وِچ مزید معلومات لال</accuracyLink>۔
+about-playbook-how-validate-content-4 = اگر کا ٹوٹیک 2 مُݨس رد کندے ہِن، ٻیال ہے ڈیٹا سیٹیک علیحدے نکڑے سیٹ تی وِچ جاری کیا وین٘دا ہے۔
 
 ## How to access dataset
 
+about-playbook-how-access-dataset = آں دیٹا سیٹ ݙے کُکر پہنچاں ٻیا استعمال کراں؟
 about-playbook-how-access-dataset-content-1 = تُو <datasetsPage>ڈیٹا سیٹس صفحہ</datasetsPage> تی ون٘ڄ سڳدا ہیں، اپݨی مرضی تے رنگ ٻیا ٻولینک چُݨ سڳدا ہیں، ٻیال ہوک ڈاؤن لوڈ کر سڳدا ہیں! فائلز تی <metadataLink>وِچ متعلق میٹا ڈیٹا</metadataLink>، ہوندا ہے، جو آبادیاتی معلومات ٻیا توثیق تا ڈیٹا۔ ڈیٹا سیٹ ڈاؤن لوڈ کرݨ واسطے تُو ہِک ای میل پتہ ݙیݨ ہوسے۔
+about-playbook-how-access-dataset-content-2 = اگر تُو اے ایس آر ماڈلز جوڑݨ واسطے اوزار بھن٘ؤن٘دا پیا ہیں، ٻیال تُو برادری تی ٻئے تُمن ساں رابطہ کر سڳدا ہیں <discourseLink>حال وال تی</discourseLink>۔
 
 ## How are decisions made
 
+about-playbook-how-project-governance = منصوبے تی فیصلے کُکر کئے وین٘دے ہِن؟
 about-playbook-how-project-governance-content-1 = موزیلا کامن وائس آوازیک دُنیا بھر ایکٹوسٹس، ماہرین، ڈیٹا سائنٹسٹس، اکیڈمی تی سافٹ ویئر انجینئریک تی سَوکھا جوڑ ݙِتا ہے۔ ہے منصوبہ موزیلا فاؤنڈیشن تے مُنڈ ہے۔
+about-playbook-how-project-governance-content-2 = اساں جی حکومت تی بنیاد ہے تھمبیں تی ہے:
+about-playbook-how-project-governance-content-3 = رازداری، سیکیورٹی ٻیا شفافیت۔
+about-playbook-how-project-governance-content-4 = برادری تا حِصّہ گھولݨ ٻیا فیصلہ کرݨ۔
 about-playbook-how-project-governance-content-5 = قدر ٻیا سُن٘ڄاݨ۔
 
 ## How is Common Voice funded
