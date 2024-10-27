@@ -56,6 +56,22 @@ how-many-per-day = بوجام! ای انوسو کندوری آواز؟
 how-many-a-week = بوجام! ای ہفتہ کندوری آواز ؟
 which-goal-type = تو لوو دیک مݰکیسانا، کارکوریک ِیا جوکھاڑان؟
 receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر کہ تہ تین تہ مقصدو یاد کوریکو پچین ای میل گونی۔
+not-receiving-emails-info = موجودہ وختا تہ سیٹنگ ہݰ شیر<bold>نو </bold> کہ تہ تین تہ مقصدہ یاد کوریکو، تہ کورمو اپڈیٹ، وا کمان وائسو بارا نیوز لیٹر گونی۔
+n-clips-pluralized =
+    { NUMBER($count) ->
+        [one] { $count } اسکوردی آواز
+       *[other] { $count } اسکوردی آواز
+    }
+help-share-goal = اسپہ سون خور آواز مݰکیکا مدد کو۔ تان حدفو لو دیت
+confirm-goal = حدفو تصدیق کو
+goal-interval-weekly = ہفتہ وار
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = اسپہ تین تان { $count } آوازان انوسو حدف{ $type } بارا لوو دیت۔
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = اسپہ تین تان { $count } آوازان ہفتے حدف{ $type } بارا لوو دیت۔
+share-goal-type-speak = لو دیک
+share-goal-type-listen = کار کوریک
+share-goal-type-both = لو دیک وا کارکوریک
 
 ## Goals
 
