@@ -130,6 +130,7 @@ about-playbook-how-access-dataset-content-2 = اگر تسیں ASR ماڈلز ب�
 
 ## How are decisions made
 
+about-playbook-how-project-governance = پروجیکٹ فیصلے کسطرح کیتے جلدے ہن؟
 
 ## How is Common Voice funded
 
