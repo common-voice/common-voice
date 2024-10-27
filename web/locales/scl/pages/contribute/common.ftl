@@ -29,6 +29,7 @@ target-segment-generic-card = تُوسے اسو  تارگیٹاڑے سانتی �
 target-segment-first-banner = کامن وائیسو ٹارگیٹاڑے سانتی دے آنے { $locale }
 target-segment-add-voice = تومو شونگو گٹی/یو تھے
 target-segment-learn-more = موتی سیچ
+change-preferences = تومی خوش بدل تھے
 
 ## Contribution Nav Items
 
