@@ -138,3 +138,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink> اسو کدا
 ## How is Common Voice funded
 
 about-playbook-how-funded = ایکشان شونگوڑے (کامن وائیس) فنڈ یوک تھے تھینا؟
+about-playbook-how-funded-content-1 = ایکشان شونگے (کامن وائیس) موزیلا فاؤنڈیشنو پروجیٹیک ہوں، US 501c3۔  کوتے انو پروجیکٹیڑے پُورو <philantropicGrantLink> فنڈ philanthropic grants تھینا۔ پوری دنیا نیو گہ جک سے ڈونیشنے دینا
+about-playbook-how-funded-content-2 = ڈیٹا سیٹ یجیریونو، انو پلیٹ فارم سم تھیونو گہ یجیریونو <africaMradiLink>  community programme کاریو لیگی لا رُوپئے شچینائے
+about-playbook-how-funded-content-3 = تُو سے یا تھئی آرگنائزیشن سے پروجیکٹینی یو بونو گُنیات تو ززھو سے ڈونیشن <donateLink> تھیون بانت یا اسے سانتیو ساتی یو بون بانت <emailFragment>commonvoice@mozilla.com</emailFragment>.
