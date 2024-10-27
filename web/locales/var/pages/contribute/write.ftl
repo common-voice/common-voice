@@ -1,6 +1,7 @@
 ## WRITE PAGE
 
 write = Ereka ju osinime
+write-instruction = Toaga<icon></icon> pile naosari wa dominio publico
 sentence =
     .label = Itaperi chee wame
 sc-review-write-title = Chirime najumeree
