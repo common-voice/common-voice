@@ -35,6 +35,11 @@ easy-difficulty = مضمون
 average-difficulty = اوسظ
 difficult-difficulty = مشکل
 pro-difficulty = حمایتی
+lose-goal-progress-warning = تان حدفو ایڈیک کی ارو، تہ کوروم تونج دی بوئے۔
+want-to-continue = تو جاری سوتیک مݰکیسانا؟
+finish-editing = پوشٹی ایڈیٹنگو  ختم کو
+lose-changes-warning = ہنیسے پیځیکو مطلب ہیا کی تو بدل دیروان نو لکھیک مشکیسان
+build-custom-goal = تان ای حدف لکھے
 
 ## Goals
 
