@@ -74,6 +74,10 @@ about-playbook-how-add-language-content-1 =
     ٻئے تَڑ ہتھین۔ سائٹ تا ترجمہ کرݨ، ٻیا ڳالھ وار جمع کرݨ
 about-playbook-how-add-language-translating-heading = سائٹ ترجمہ کندے پے ہوں
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پونٹون کُکر استعمال کرݨ واسطے اساں جی رہنمائی لال</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    اسے ترجمے واسطے ہِک موزیلا اوزار استعمال کندے ہوں جئینک <pontoonLink>پونٹون</pontoonLink>آہدے ہِن۔ پونٹون تی گھݨیاں ٻولیاں ہِن، 
+    لیکن اگر ہے تا جی ٻولی نے ٻیال تُو آپݨی <pontoonRequestLink>ٻولیک وِجھݨ واسطے عرض</pontoonRequestLink> کر سڳدا ہیں۔ 
+    ٻیال، کامن وائس تی منصوبے تی ٻولیک وِجھݨ واسطے <githubRepoLink>گِٹ ہَب نویں ٻولی تی عرضی ݙے</githubRepoLink>۔ <localizationFragment>سائٹ ترجمیک مزید لال</localizationFragment>۔
 about-playbook-how-add-language-collecting-sentences-heading = ڳالھ وارینک جمع پیا کندا ہیں
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ڳالھ وارینک جمع کرݨ واسطے اساں جی رہنمائی لال</sentenceCollectorVideo>۔
 about-playbook-how-add-language-collecting-sentences-content-2 =
@@ -118,6 +122,7 @@ about-playbook-how-access-dataset-content-1 = تُو <datasetsPage>ڈیٹا سی
 ## How are decisions made
 
 about-playbook-how-project-governance-content-1 = موزیلا کامن وائس آوازیک دُنیا بھر ایکٹوسٹس، ماہرین، ڈیٹا سائنٹسٹس، اکیڈمی تی سافٹ ویئر انجینئریک تی سَوکھا جوڑ ݙِتا ہے۔ ہے منصوبہ موزیلا فاؤنڈیشن تے مُنڈ ہے۔
+about-playbook-how-project-governance-content-5 = قدر ٻیا سُن٘ڄاݨ۔
 
 ## How is Common Voice funded
 
