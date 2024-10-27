@@ -90,6 +90,26 @@ bulk-upload-failed-toast = Itlaj omochi, oksepa xikyeko.
 bulk-submission-success-header = ¡Timitstlasojkamatiliaj ika miak otechpaleui!
 bulk-submission-success-subheader = ¡Otikpaleui Common Voice makajxiti tlen axkan omonekiaya!
 upload-more-btn-text = ¿Tikintitlanilis okseki?
+file-invalid-type = Motlajkuilol amo yonpa
+file-too-large = Sapanoa ueyi motlajkuilol
+file-too-small = Sapanoa achitsin motlajkuilol
+too-many-files = Sapanoa miakej tlalkuilolmej
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Xikintitlani <icon></icon> miakej tlajkuilolmej tlen nochtin kinmitaskej
+multiple-sentences-error = Amo uelis tikintitlanilis miakej san semi
+exceeds-small-batch-limit-error = Amo uelis tikinpanauis 1000 tlajkuilolmej
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Otikpanaui tlen omonekiaya. Oksepa xikyeko ipan 1 minuto
+       *[other] Otikpanaui tlen omonekiaya. Oksepa xikyeko ipan { $retryLimit } minutos
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Otikpanaui tlen omonekiaya. Oksepa xikyeko ipan { $retryLimit } segundo
+       *[other] Otikpanaui tlen omonekiaya. Oksepa xikyeko ipan { $retryLimit } segundos
+    }
