@@ -50,3 +50,6 @@ contact-common-voice = کامن وائس ٹولے ساں رابطہ کر
 public-domain = عوامی ڈومین
 citing-sentences = ڳالھ وار تا حوالہ ݙیݨ
 adding-sentences = ڳالھ وار وِجھݨ
+reviewing-sentences = ڳالھ وارینک وتا لالݨ
+sentence-domain = ڳالھ وار ڈومین
+public-domain-explanation-1 = ہے گھݨاں ضروری ہے کہ سارے متنی ڳالھ وار <publicDomain>عوامی ڈومین</publicDomain>(<cc0>cc0</cc0>) وئین کیونکہ کامن وائس ڈیٹا سیٹیک سی سی 0 لائسنس کے ذریعے شروع کیا وین٘دا ہے۔ اگر تؤک یقین ہتھے ٻیال صرف ہِک ڳالھ وار اپ لوڈ کر، ٻیا ہمیشاں متعلقہ حوالہ وِجھ۔
