@@ -137,6 +137,8 @@ about-playbook-how-project-governance-content-3 = رازداری، حفاظت ت
 about-playbook-how-project-governance-content-4 = برادری دی شرکت تے فیصلہ سازی۔
 about-playbook-how-project-governance-content-5 = قدر ہور پہچانڑ
 about-playbook-how-project-governance-content-6 = باہمی احتساب
+about-playbook-how-project-governance-content-7 = <governanceLink>اساں تے کسطرح حکومت کردے ہن اس بارے مزید پڑھو</governanceLink>
 
 ## How is Common Voice funded
 
+about-playbook-how-funded = کامن وائس دی مالی مدد کسطرح کیتی جلدی ہے؟
