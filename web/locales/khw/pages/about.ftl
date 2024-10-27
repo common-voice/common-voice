@@ -61,6 +61,8 @@ about-playbook-how-add-language = اوا زبانو کیچہ کوری شامل �
 about-playbook-how-add-language-content-1 = اولا <languageLink>ڑوڑے تہ زبان ہیرا</languageLink> شیرا۔ اگر کی نیکی تھے تو<languageRequestLink> تان زبانو شامل کوریکو پچین راوے</languageRequestLink>۔  جو مرحلہ شینی سائٹو ترجمہ کوریک وا جملہ پڑځیک۔
 about-playbook-how-add-language-translating-heading = سائٹو ترجمہ کوریک
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink> اسپہ رہنمائیو ڑوڑے کہ 'پونتونو' کیچہ کوری استعمال کوس </translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = اسپہ موذیلو ای آلو استعمال کوسیان توغوتین <pontoonLink> پونتون </pontoonLink> ترجما کوریکو تین۔  پونتونا بو زبان شینی۔ تہ زبان کہ ہیر نیکی توغو شامل<pontoonRequestLink> کوریکو بوس۔<pontoonRequestLink> تان زبان شامل کوریکو پچین درخواست کو</pontoonRequestLink>۔ اچی ہے زبانو کمان وائسو پروجکٹا دستیاب بیکو پچین<githubRepoLink> GitHub</githubRepoLink> بی نوغ زبانو درخواست کو۔ <localizationFragment>۔ خور معلومات پچین سائٹو ترجمو ڑوڑے</localizationFragment>
+about-playbook-how-add-language-collecting-sentences-heading = جملان جمع کوریک
 
 ## How does localization work
 
