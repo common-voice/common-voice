@@ -5,7 +5,7 @@ sc-review-title = Гущыӏэухыгъэхэм яплъыжь
 sc-review-loading = Гущыӏэухыгъэхэр трегъэуцо…
 sc-review-select-language = Сыолъэӏу, гущыӏэухыгъэм уеплъыжьыным пае зы бзэ къыхэх
 sc-review-form-prompt =
-    .message = Еплъыжьыгъэ гущыӏэухыгъэм зыфырагъэхьыгъэп, цыхьэ утелъа?
+    .message = Узэплъыжьыгъэ гущыӏэухыгъэхэр ыгъэхьыгъэп, уицыхьэ телъа?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Гъэфедэгъэр: { $sentenceSource }
@@ -19,7 +19,7 @@ sc-review-form-button-reject-shortcut = Х
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = Г
 sc-review-form-button-submit =
-    .submitText = Еплъыжъыным ух
+    .submitText = Еплъыжъыныр ух
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
