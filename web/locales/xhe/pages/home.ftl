@@ -24,7 +24,24 @@ help-us-title = ڳالھ واریں تی تصدیق کرݨ وِڄ اَساں ج�
 speak-goal-text = ریکارڈ تھے ہوئے ٹوٹے
 listen-goal-text = تصدیق تھئے ٹوٹے
 hours-recorded = ریکارڈ تھئے گھنٹے
+hours-validated = تصدیق تھئے گھنٹے
 all-locales = سارے
+today = اَڄ
+x-weeks-short =
+    { $count ->
+        [one] ہفتہ
+       *[other] { $count }ہفتے
+    }
+x-months-short =
+    { $count ->
+        [one] مہینہ
+       *[other] { $count }مہینے
+    }
+x-years-short =
+    { $count ->
+        [one] سال
+       *[other] { $count }سال
+    }
 
 ## Account Benefits
 
