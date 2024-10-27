@@ -51,6 +51,8 @@ about-nav-playbook = حصہ گنیکو ݯیݯے
 ## What is a language
 
 about-playbook-what-is-language = کمان وائسا کیا زبان شیر
+about-playbook-what-is-language-content-1 = زبانو بارا سوچ کوریکو بو طریقہ شینی۔ لوو ہوش کوریکو ای ماڈل ساوزیکو پچین، کمان وائس تان موژی ہوݰ کوریکو  تجویزو سورا زور دویان یا ہیا زبانو کوراک کوشیش کوری تان موژی ایغو لووان ہوش کونیانا؟
+about-playbook-what-is-language-content-2 = اسپہ ہݰ 'اسپیچ ماڈل' مݰکیسیان کہ ہسے مختلف لو دیکان ہوش کوریکا بہتر بار۔ ہموش بیکو پچین وائس ڈیٹا سیٹا مختلف رویان نمائندگی بائے۔
 
 ## How do I add a language
 
