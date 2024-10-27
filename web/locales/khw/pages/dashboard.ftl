@@ -75,10 +75,10 @@ share-goal-type-both = لو دیک وا کارکوریک
 # LINK will be replaced with the current URL
 goal-share-text = اوا #CommonVoice تین وقف کوریکو پچین تان انوسو حدفو لکھیتام۔ مہ سون اصل روئے کیچہ کوری لو دونیان رے  مشنیو  ݯھیھیکو پیچین شامل بوس وا مدد کو
 weekly-goal-created = تہ ہفتہ وار حدف ساوز ہوئے
-daily-goal-created = تہ انوس حدف ساوز ہوئے
+daily-goal-created = تہ انوسو حدف ساوز ہوئے
 track-progress = تان کروم کندوری ہوئی رے ہیا پتہ کو وا تان سٹیٹس پیجا
 return-to-edit-goal = ہیا گیتی کیا وحت دی  تو تان مقصد تبدیل کوریکو بوس۔
-share-goal = مہ مقصدہ خور تین انځاوے
+share-goal = مہ مقصدو خوران تین انځاوے
 
 ## Goals
 
@@ -96,5 +96,5 @@ recordings =
 validations =
     { $count ->
         [one] توثیق
-       *[other] تو چیق
+       *[other] تو ثیق
     }
