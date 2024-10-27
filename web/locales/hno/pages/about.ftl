@@ -80,6 +80,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = سائٹ لوکلائزیشن کسطرح کم کردی ہے؟
+about-playbook-how-localize-content-1 = کامن وائس سائٹ دا ترجمہ <strong>پونٹون</strong> تے ہوندا ہے۔
 
 ## How to add sentences
 
