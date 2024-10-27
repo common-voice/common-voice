@@ -14,3 +14,5 @@ login = لاگ ان
 edit = ترمیم کنی انت
 email-subscriptions = ای میل سبسکرپشنز
 contribution-experience = شراکت کا تجربہ
+off = بند
+on = چالوکنی
