@@ -280,6 +280,15 @@ loading = لود بیوں ہی
 email-opt-in-info = مُوڑے کامن وائیسو بارینی ای میلے، مئیی بڑیارو نائی تازہ گہ نیوز لیڑی اواجینا
 email-opt-in-info-title = کامن میلنگ ژھیرنی یو بو
 email-opt-in-info-sub-with-challenge = کامن وائیسو بارینی ای میلی گین، خپ گہ مقصتو یاد دیانی کاریو، نائی تازہ گہ نیوز لیٹری
+email-opt-in-privacy-v2 = ای میلے گینییموس تھے تُو سے انی رجا کہ موزیلانی آنے  <privacyLink> تھے موجو بارینی رجیک ساتی تُوڑے جیک گہ ابیشیک نُش Privacy Policy</privacyLink>.
+indicates-required = اسٹیرک شے ہائینک دشے اواجینائے
+not-available-abbreviation = این/اے
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark> اسوڑے اواجیں <mark> <br/> <mark> تھئی سانتی </mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = انیسو خرچہ تقریبا ایک سالئی کاریو ایک ملین ڈالر ہیں ڈیٹا سیت چھُریونو کاریو، بیسے تھیسیکو محتاج شل باشے تھینیک کمیونیٹیوڑے سم پلیٹ فارم دیونو۔<strong> تُوسے کھلا یوبو ہونک ڈیٹائی قدر تھوں تو اش اکی ڈونیٹ تھے۔</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark> سی وی استعمال تھیونو </mark> <br/><mark> تھیئیے ریسرچ؟ </mark>
