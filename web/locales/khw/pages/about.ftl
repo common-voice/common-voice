@@ -81,6 +81,7 @@ about-playbook-how-localize-content-5 = مدد پچین اسپہ تفصیل دی
 about-playbook-how-add-sentences = جملان اوا کیچہ کوری شامل کوم؟
 about-playbook-how-add-sentences-content-1 = تو جملان ہیا <writePageLink>  شامل کوریکو بوس۔ صفحہ</writePageLink> نویشے یا ہیا<reviewPageLink> جملان ڑوڑے۔ <reviewPageLink> واڑوڑیکو صفحہ</reviewPageLink>
 about-playbook-how-add-sentences-content-2 = کمان وائسا شامل کوریکو پچین جملان جو ژون وڑوڑے لیک وا جو ژون تے تان منظور کوریلیک۔ <languageGuidelinesLink> ہیارا تو تان زبانو پچین رہنمائی ساوزیوک بوس</languageGuidelinesLink>۔ جملہ <licenseLink>ہر کوس استعمال دائرو بانی <waiverLink>  ہیا طریقہ کاپی رائٹو ختم کو</waiverLink> وا اسپہ تین commonvoice@mozilla.com ہیا کوری انزاوے۔
+about-playbook-how-add-sentences-content-3 = تو ویکیپیڈیار اسکوردی جملان نیزیکو پچین جملہ نیزیک<scraperLink> دی استعمال کوریکو بوس
 
 ## How to record quality
 
