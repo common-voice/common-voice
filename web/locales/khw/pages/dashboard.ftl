@@ -40,6 +40,18 @@ want-to-continue = تو جاری سوتیک مݰکیسانا؟
 finish-editing = پوشٹی ایڈیٹنگو  ختم کو
 lose-changes-warning = ہنیسے پیځیکو مطلب ہیا کی تو بدل دیروان نو لکھیک مشکیسان
 build-custom-goal = تان ای حدف لکھے
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] { $hours } گھنٹہ { $language } زبانا تان ذاتی حدف پورا کوریکا مدد کو
+       *[other] { $hours } گھنٹہ{ $language } زبانا تان ذاتی مقصدو پورا کوریکو مدد کو
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] کمان وائسو { $hours }گھنٹہ ای زبانا تان ذاتی حدفو پورا کوریکا مدد کو
+       *[other] کمان وائسو { $hours }گھنٹہ ای زبانا تان ذاتی مقصدو پورا کوریکا مدد کو
+    }
+set-a-goal = ای حدف لکھے
+cant-decide = فیصلہ کوریکو نو بوسانا؟
 
 ## Goals
 
