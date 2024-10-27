@@ -74,9 +74,12 @@ about-playbook-how-localize-content-1 = کمان وائسو سائٹو ترجم�
 about-playbook-how-localize-content-2 = تہ <pontoonAccountLink>اکاونٹ کی نیکی ساوزاوے </pontoonAccountLink> تھے تان زبانو گنے<strong> (ٹیم) </strong> اچی پروجکٹو گنے، <pontoonCvLink> کمان وائس</pontoonCvLink> ہیرا ترجمہ کوریکو فائل شینی۔ تے سورا کلیک کو، تیرا انگریزی لفظ بونی وا ترجمہ کوریکو ای خانہ بوئے۔
 about-playbook-how-localize-content-3 = انگریزیار ترجمہ کوریلیک لیکن  خور زبانا دی  <strong> تجویز </strong>شینی۔ <strong>کلیک </strong> پروفائلو نݰان وا <strong> سیٹنگو</strong> لینک وا کیا زبانو کی تو کوسان توغو شامل کو۔ موڑا ہوسکی وݰکی کونا ترجمان لسٹ بوئی توغوتین<strong> مقامی<strong> رینیان۔ ترجمہ ای بس اچا ہے سائٹا گویان
 about-playbook-how-localize-content-4 = سائٹ 75 فیصد مکمل کی ہوئے شروع بیکو پچین تیار بوئے۔
+about-playbook-how-localize-content-5 = مدد پچین اسپہ تفصیل دیاک ویڈیو ڑوڑے
 
 ## How to add sentences
 
+about-playbook-how-add-sentences = جملان اوا کیچہ کوری شامل کوم؟
+about-playbook-how-add-sentences-content-1 = تو جملان ہیا <writePageLink>  شامل کوریکو بوس۔ صفحہ</writePageLink> نویشے یا ہیا<reviewPageLink> جملان ڑوڑے۔ <reviewPageLink> واڑوڑیکو صفحہ</reviewPageLink>
 
 ## How to record quality
 
