@@ -34,6 +34,7 @@ weekly-goal = ہفتو مقصد
 easy-difficulty = مضمون
 average-difficulty = اوسظ
 difficult-difficulty = مشکل
+pro-difficulty = حمایتی
 
 ## Goals
 
