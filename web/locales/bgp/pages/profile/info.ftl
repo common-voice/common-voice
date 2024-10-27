@@ -8,3 +8,4 @@ non-binary = غیر بائنری
 dashboard = ڈیش بورڈ
 avatar = اوتار
 goals = حدف
+profile-close = بند کنت
