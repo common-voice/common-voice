@@ -74,9 +74,12 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>پو
 about-playbook-how-add-language-translating-content-2 = اسیں ترجمے واسطے ہک موزیلا ٹول استعمال کردے ہاں جسکو <pontoonLink>پونٹون</pontoonLink>آکھدے ہن۔ پونٹون دیاں مچ ساریاں زباناں ہن، اگر اس کول تسدی نیں تے تسیں <pontoonRequestLink>اپنڑی زبان شامل کرنا دی درخواست کر ھکدے ہو</pontoonRequestLink>۔  فر، زبان کو کامن وائس پروجیکٹ تے دستیاب ہونڑا واسطے،  <githubRepoLink> GitHub تے نئ زبان دے درخواست کرو</githubRepoLink>۔ <localizationFragment>سائٹ ترجمے تے ہور دکھو</localizationFragment>۔
 about-playbook-how-add-language-collecting-sentences-heading = جملے گٹھے کرن
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Sentence collector  کو استعمال کرنا واسطے اسدی گائیڈ دکھو</sentenceCollectorVideo>۔
+about-playbook-how-add-language-collecting-sentences-content-2 = تسیں<sentenceCollectorLinkAdd>تھوڑی تعداد بچ بھی جملے بَہ ہکدے ہو</sentenceCollectorLinkAdd>، یا تسیں <bulkImportDocsLink>Github دا استعمال کردیاں ہویاں خاصی درآمد بھی کر سکدے ہو</bulkImportDocsLink>۔ یاد رکھو او جملے <licenseLink>CC0 (یا عوامی ڈومین) </licenseLink>ہونڑے چاہیدے ہن، یا تسیں خود بھی لکھ سکدے ہو۔
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>جملے جمع کرنے تے ہور دکھو</sentenceCollectorFragment>۔
 
 ## How does localization work
 
+about-playbook-how-localize = سائٹ لوکلائزیشن کسطرح کم کردی ہے؟
 
 ## How to add sentences
 
