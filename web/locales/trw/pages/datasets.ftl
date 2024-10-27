@@ -46,3 +46,24 @@ data-other-ted-name = ٹی ای ڈی - ایل ائی یو ایم سی مواد
 data-other-ted-description = ٹی وی ڈی -ایل ائی یو ایم سی مواد ٹیڈ سی ویب سائٹ زید آڈیو لیکچر آں تھیِن ٹیکسٹ تُھو۔
 data-other-voxforge-description = وکس فورج مفت می آں ہر ایک سی کھولاؤ مواد بأدا سی تُھو کامک یأ بنُو سی پیانُو سی مشینا می ہودُودا
 data-other-tatoeba-description = ٹاٹوئبا جیِب سی ڇھیِڙُو سی کیا آڈیو، جملا آں ترجمہ سی کیا ایک ݜواد تُھو۔ ای می بنیل انگلش سی مواد تھی۔
+your-feedback = تھے کیش کی صلا تُھو مُھن کیا یرأ مھو کامن وائس میما غورا کھأکأ سوَئی؟ مھو ای ما مے ڈیسکورس زید شیِدا
+go-discourse = ڈیسکورس کے بش
+missing-language = چھی جیِب مے ڈیٹا سیٹ می نی چھی کھأ؟ جیِب سی کیا مھو یے بنُو سی کیا مُھن جیِبا سی مُو یے بش۔
+go-languages-page = جیِبا سی پاݜ کے بش
+ready-to-validate = جملا سی تصدیق کؤ سی کیا تیا تُھو؟
+more = دئی
+close = بان کو
+download = وال/ڈاؤنلوڈ
+dataset-version = وار/ورژن
+sha256-checksum-copied = ایس ایچ اے 256 چیک سم نقل کی!
+sha256-checksum-copied-error = ایس ایچ اے چیک سم سی نقل کؤ ناکام ہُو
+clipboard-not-supported = کلپبورڈ می می کام نہ کودُو
+no-information-available = کی معلومات نی تھی
+dataset-metadata-sex = جنس
+# dataset metadata - age of contributor
+dataset-metadata-age = اُومُو
+donate-modal-message = چھی ڈیٹا سیٹ ڈاؤنلوڈ ہویی!
+dataset-donate-modal-heading = تُو جنُو۔۔۔
+donate-modal-explanation-1 = اے کال می مے ڈیٹا سیٹ سی ڙݜُو آں ایس سو ما زیئاد جیِبا سی کیا غورا کؤ می دش لکھ ڈالرے خرچہ تُھو؟
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold> کو تُو غورا، پدا کوئیل آں ہر ایک سی کیا مواد خوشادُوو مھو سیت مدد کو۔</bold>
