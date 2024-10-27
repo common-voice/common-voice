@@ -105,6 +105,7 @@ about-playbook-how-record-content-5 = <accuracyLink>درستگی دے معیار
 ## How to grow language
 
 about-playbook-how-grow-language = اسیں کامن وائس تے مؤثر انداز نال ہک زبان کسطرح بڑھا ہکدے ہاں؟
+about-playbook-how-grow-language-content-1 = کامن وائس تے مختلف لوگاں  دی شرکت کیتے مواقع فراہم کرنا واسطے اس گل کو یقینی بنڑانڑا ہے کہ ڈیٹا سیٹ زیادہ تو زیادہ لوگاں دی خدمت کرے۔ اساں وسائل تے ہور مسالاں بڑائی دیاں ہن جڑیاں تسیں استعمال کر سکدے ہو۔
 
 ## How to validate
 
