@@ -53,9 +53,14 @@ about-nav-playbook = حصہ گنیکو ݯیݯے
 about-playbook-what-is-language = کمان وائسا کیا زبان شیر
 about-playbook-what-is-language-content-1 = زبانو بارا سوچ کوریکو بو طریقہ شینی۔ لوو ہوش کوریکو ای ماڈل ساوزیکو پچین، کمان وائس تان موژی ہوݰ کوریکو  تجویزو سورا زور دویان یا ہیا زبانو کوراک کوشیش کوری تان موژی ایغو لووان ہوش کونیانا؟
 about-playbook-what-is-language-content-2 = اسپہ ہݰ 'اسپیچ ماڈل' مݰکیسیان کہ ہسے مختلف لو دیکان ہوش کوریکا بہتر بار۔ ہموش بیکو پچین وائس ڈیٹا سیٹا مختلف رویان نمائندگی بائے۔
+about-playbook-what-is-language-content-3 = پھتی زبانان گرائمیر، مجموعہ الفاظ، لفظان ادا کوری طریقہ بو زیاد خور۔ ہیا وجہین دیتی اسپہ <ctaLink> 2022 مختلف قسم</ctaLink> الیتام۔ ہیا رویان تے تان زبانو لوٹ ڈیٹا سیٹا خورو سار فرق کوریکو  ای طریقہ نݰان دویان۔
 
 ## How do I add a language
 
+about-playbook-how-add-language = اوا زبانو کیچہ کوری شامل کووم؟
+about-playbook-how-add-language-content-1 = اولا <languageLink>ڑوڑے تہ زبان ہیرا</languageLink> شیرا۔ اگر کی نیکی تھے تو<languageRequestLink> تان زبانو شامل کوریکو پچین راوے</languageRequestLink>۔  جو مرحلہ شینی سائٹو ترجمہ کوریک وا جملہ پڑځیک۔
+about-playbook-how-add-language-translating-heading = سائٹو ترجمہ کوریک
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink> اسپہ رہنمائیو ڑوڑے کہ 'پونتونو' کیچہ کوری استعمال کوس </translateVideoLink>
 
 ## How does localization work
 
