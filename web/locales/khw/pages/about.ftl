@@ -132,4 +132,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink> اپسہ حک
 ## How is Common Voice funded
 
 about-playbook-how-funded = کمان وائس کیچا بیتی ساوز ہوئی؟
-about-playbook-how-funded-content-1 = کمان وائس موزیلا فونڈیشینو ای پروجکٹ۔ ای امریکین 501c3۔ ہیا پروجکٹو تمام پیسہ <philantropicGrantLink> خدمت خلق فانڈار گویان۔
+about-playbook-how-funded-content-1 = کمان وائس موزیلا فونڈیشینو ای پروجکٹ۔ ای امریکین 501c3۔ ہیا پروجکٹو تمام پیسہ <philantropicGrantLink> خدمت خلق فانڈار</philantropicGrantLink> وا پورا دنیو رویان عطیہ گویان۔
+about-playbook-how-funded-content-2 = دیٹاسیٹو تین ژاغا و رویان تین پشیکو پچین،  بہتر کوریکو پچین وا کمیونیٹیان پروگرامان چلیکو پچین بو پیسو ضرورت شیر۔
+about-playbook-how-funded-content-3 = اگر تو یا تہ تنظیم ہیا پروجکٹو سون مدد کوریک کی مݰکیمیان، پیسا عطیہ<donateLink> دیکو بومی </donateLink> یا یا اسپہ حصہ دار ٹمینان سون لوو دیکو بومی۔
