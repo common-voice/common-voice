@@ -57,3 +57,5 @@ second-cta-header-text = Cheriwera uka amó nanosariwa nejario sulala
 second-cta-subtitle-text = Uka pile najunieme  reju neteka pile oichanieme amó itaperi netewame, toinaga pienachi wa amó ojelachi simika chanemia amoe
 already-have-an-account = Toainamo uka itaperi<iniciar sesión>Oinaga itaperi</iniciar sesión>
 create-profile-button = Ne tenaresaga uka pile coomon voice
+# IMAGE TAGS
+img-alt-success-checkmark = Amó  kawe najurio itaperi
