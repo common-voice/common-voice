@@ -90,9 +90,11 @@ about-playbook-how-record-content-1 = تان عام آوازا لو دیت۔ ک�
 about-playbook-how-record-content-2 = اچھا آواز مو بائی - تا لوان کارکوریک اسان بائے
 about-playbook-how-record-content-3 = جملان غورو سورا راوے- کھیو پځے مو، بدل مو دیت، لفظ شامل مو کو
 about-playbook-how-record-content-4 = لو دیکار پوشٹی رکارڈنگ شروع بائے۔ لوو ختم کی ہونی تھے رکارڈنگ بند بائے۔
+about-playbook-how-record-content-5 = <accuracyLink> سہی کوریکو خور معلوماتان پچین ہیا ڑوڑے۔ </accuracyLink>
 
 ## How to grow language
 
+about-playbook-how-grow-language = اسپہ کمان وائسا ای زبان کیا طریقہ پوشٹی الوسی۔
 
 ## How to validate
 
