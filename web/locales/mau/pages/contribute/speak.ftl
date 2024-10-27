@@ -7,4 +7,5 @@ record-platform-not-supported-desktop = En computadores de escritorio, Kuan chaa
 record-platform-not-supported-ios-non-safari = En iOS jngu kjua nda tijney Safari nga kuan chubet'a…
 record-must-allow-microphone = Teéndere kicha nukjua ya.
 record-no-mic-found = Mi kisuku kicha nukjua ya.
-record-error-too-short = chuba xta kitjubet'a.
+record-error-too-short = chuba kitjubet'a xta.
+record-error-too-long = tse kitjubet'a xta.
