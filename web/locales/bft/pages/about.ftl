@@ -74,6 +74,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = تم سیر ز�
 
 about-playbook-how-localize = ساٸٹ لوکلاٸزیشن پو سی چی بیسے لس بید؟
 about-playbook-how-localize-content-1 = کامن واٸسی ساٸٹ پووی تم لزوقپو پینٹونیکھہ گوین
+about-playbook-how-localize-content-2 = اکاونٹ چی کھڑول، اگر یری اکاونٹ میدنارے، یری سکت پو غدوم، دیکھنہ یری لس بیکھن کن نہ پراجیکٹ پو غدوم، کامن واٸس۔ دیکھہ تم لزوق بے فاٸل کن دوکتوک۔ چک پیکھہ کلک بیوس، دیکھنہ انگریزینگ تم کن تھونگمن دیکھنہ تم لزوق بے ملسو تھونگمن۔
 
 ## How to add sentences
 
