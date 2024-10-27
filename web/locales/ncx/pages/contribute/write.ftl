@@ -131,3 +131,12 @@ add-small-batch-success =
         [one] 	{ $uploadedSentences } itech 1 tlajkuiloli yomokak
        *[other] { $uploadedSentences } itech { $totalSentences } tlajkuilolmej yomokajkej
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] 	{ $uploadedSentences } itech 1 tlajkuiloli yomokak. Xikpacho <downloadLink>nikan</downloadLink> tla tikintemouilisneki non amo omokajkej.
+       *[other] { $uploadedSentences } itech { $totalSentences } tlajkuiloli yomokak. Xikpacho <downloadLink>nikan</downloadLink> tla tikintemouilisneki non amo omokajkej.
+    }
+small-batch-sentences-rule-1 = Xikchiua ijkon ken kijtoa “¿Tlenon uelis nikijkuilos?”
+small-batch-sentences-rule-2 = Xikijkuilo se tlajkuiloli uan non okse itlanpa
+small-batch-sentences-rule-3 = Tla tikijkuilos itlanpa non okse, xikpacho "Enter" noso "Regresar"
