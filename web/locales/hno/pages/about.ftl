@@ -120,6 +120,7 @@ about-playbook-how-validate = مکو کسطرح پتہ چلسی کہ ہک آو
 about-playbook-how-validate-content-1 = جے تسیں <strong>انہاں کو سنڑ </strong>ہور <strong>سمجھ</strong>سکدے ہو، تے عام طور<strong>تصدیق دینڑی اچھی ہے</strong>۔
 about-playbook-how-validate-content-2 = <strong>ایجھے کلپس کو رد نہ کریو جتھے بولنے والے دا ‘ہک لہجہ ہے’ جِڑھا تسدے تو مختلف ہے</strong>-ایہ وائس ریگنیشن واسطے ضروری ہے کہ ہر ہک واسطے بہتر کم کرا۔
 about-playbook-how-validate-content-3 = اگر تساں کو لگدا ہے کہ تلفظ اُناں کو<strong>سمجنڑا نا ممکن</strong>بڑیندا ہے، یا اُتھا<strong>پس منظر بچ مچ شور ہے</strong>، یا اُتھا<strong>دؤئے لوگ بھی بولدے ہن</strong>، فر تساں کو اُو کلپ رد کر چُھڑنا چاہے دا ہے۔ <accuracyLink>اسدے درستگی دے میعار بچ مزید معلومات دکھو</accuracyLink>۔
+about-playbook-how-validate-content-4 = اگر ہک کلپ کو 2 لوگ رد کر چُھڑن، او ڈیٹا سیٹ دے ہک مختلف سب سیٹ بچ ریلیز کیتا جلدا ہے۔
 
 ## How to access dataset
 
