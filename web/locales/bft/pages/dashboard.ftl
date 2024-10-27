@@ -40,6 +40,18 @@ want-to-continue = یانگی جاری جقپینہ؟
 finish-editing = ینگ فچوکھہ بیو چھم چوگہ؟
 lose-changes-warning = فانگسے سونگسنہ یانگی بدل بیسپو ستورے گوین
 build-custom-goal = لق فچوسی ہلپو ہلژونگ
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] تھونچوکپہ فری روخ بیوس، گھنٹہ، سوسوے تونگونہ یمبو
+       *[other] تھونچوکپہ فری، گھنٹہ، سوسوے تونگونہ یمبو
+    }
+help-reach-hours-general-pluralized =
+    { NUMBER($hours) ->
+        [one] کامن واٸس تھونمہ فری روخ بیوس، سکتچی نہ یمبو سوسوے تونگو نہ یمبو وخنہ
+       *[other] کامن واٸس تھونمہ فری روخ بیوس، سکتچی نہ یمبو سوسوے تونگو نہ یمبو وخنہ
+    }
+set-a-goal = ہلچی فچوس
+cant-decide = چنگ زیربہ نین میدا؟
 
 ## Goals
 
