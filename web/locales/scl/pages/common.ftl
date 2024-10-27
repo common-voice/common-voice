@@ -292,3 +292,6 @@ donate-banner-cta = <mark> اسوڑے اواجیں <mark> <br/> <mark> تھئی 
 donate-banner-cta-explanation = انیسو خرچہ تقریبا ایک سالئی کاریو ایک ملین ڈالر ہیں ڈیٹا سیت چھُریونو کاریو، بیسے تھیسیکو محتاج شل باشے تھینیک کمیونیٹیوڑے سم پلیٹ فارم دیونو۔<strong> تُوسے کھلا یوبو ہونک ڈیٹائی قدر تھوں تو اش اکی ڈونیٹ تھے۔</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark> سی وی استعمال تھیونو </mark> <br/><mark> تھیئیے ریسرچ؟ </mark>
+languages-donate-banner-cta-explanation = کامن وائیسو فنڈ ڈونیشے گہ گرانٹی ہاں۔ بے سے سول سوسائیٹی، اکیڈمکس، گہ انڈسٹریو تحقیق تھینے کوڑے خوش تھونیس۔ کام وائیس گُوچُو(مفت) ہیں۔ پلیٹ فارمو سانتی دیونو گہ کرچہ تھیونو لائی سم ہیں
+localization-select =
+    .label = باشیک دی تھے/ کویوچو
