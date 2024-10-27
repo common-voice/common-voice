@@ -89,9 +89,15 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-for-example = Nikó
+contribution-misreadings-description-extended-list-2 = Jinaa ama 's' nochi inu ama nudu
 contribution-misreadings-example-6-title = No'ö nio
+contribution-misreadings-example-6-explanation = Ne'e chi kubi "ñe'e sakó"
 contribution-misreadings-example-7-title = No'o ñoo baku
 contribution-misreadings-example-8-title = Yeabean kani cho'o yanam
+contribution-misreadings-example-8-explanation = Chun gua dama jo'ö nuku bí'i
 contribution-varying-pronunciations-title = A taka jo'oñ kadi nandó
 contribution-varying-pronunciations-description = Yeabea kunebed nukue nudu chi gua nóo. Ti yeabean ndee noo kadi kamañ, Nichi jinaned a dae jo'oñ kuned chi a nóo
+contribution-background-noise-example-2-explanation = Ama kuó chi tika kanejún gua jinú
 contribution-just-unsure-title = ¿Y nichi gua deanu kuakud tu?
+see-more = Nee ka nichid
+see-less = Lïi ka nichid
