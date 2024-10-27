@@ -13,10 +13,22 @@ visibility-overlay-note = نوٹ: وھدے کہ 'دیستگیں' ءِ سر ءَ 
 
 ## Custom Goals
 
+get-started-goals = گوں مول ءُ مراداں بندات کن اِت
 goal-type = تو کجام مول ءُ مراد ءِ رندگیری ءَ کنگ لوٹ ئے؟
+both-speak-and-listen = دوئیں
+both-speak-and-listen-long = دوئیں(ھبر بہ کن  ءُ ￶ گوشدار)
 weekly-goal = مول ءُ مراد
+lose-goal-progress-warning = اپنے مقصد میں ترمیم کرنے سے، آپ اپنی موجودہ پیشرفت کھو سکتے ہیں۔ 14
+want-to-continue = تو دیم ءَ بَرَگ لوٹ ئے؟
+finish-editing = اول سر ءَ ￴ وتی  تبدیلی  ءَ ￴سرجم بہ کن
 lose-changes-warning = نئ الغیں مطلب آں کہ شوا وزی تبدیلی آرا بریں نے
 build-custom-goal = یک وتی لوٹگ  ءِ ￵ ھساب  ءَ ￴وتی مول  ءُ ￶ مراد جوڑ بہ کن
+help-reach-hours-pluralized =
+    { NUMBER($hours) ->
+        [one] یک وتی مول ءُ مرادے ءِ  { $language }  گوں کلاکاں سر بوگ ءَ { $hours }  کمک کن اِت۔
+       *[other] یک وتی مول ءُ مرادے ءِ  { $language }  گوں کلاکاں سر بوگ ءَ { $hours }  کمک کن اِت۔
+    }
+how-many-per-day = باز جوانیں!  یک روچے چینکس کلپ؟
 goal-interval-weekly = ھپتگی
 # LINK will be replaced with the current URL
 goal-share-text = من تھنا مشترکہ توار #CommonVoice--  ءِ عطیہ کنگ ءِ ذاتی مول ءُ مراد جوڑ کتگ -- منی گوں ھمگرنچ بہ بئے ءُ مشیناں وانینگ ءَ کمک بہ کن کہ راستیں مردم چوں گپ جن اَنت { $link }
