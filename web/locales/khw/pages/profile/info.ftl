@@ -47,3 +47,6 @@ settings = سیٹنگ
 edit-profile = پروفائلو تبدیل کوریک
 profile-create-success = کامیابی، پروفائل ساوز ہوئے
 profile-close = بند
+profile-explanation = تان کورمو  پروفائلو سورا پوشٹی بیکو ڑوڑے وا اسپہ آوازو ڈیٹا جام سہی بکو پیچین مدد کو
+thanks-for-account = تان اکانٹو تصدیق کوریکو شکریہ، ہنیسے تا پروفائلو ساوزیسی
+why-demographic = کیا اہم کو؟
